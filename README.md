@@ -124,6 +124,14 @@ $data = [
 ];
 ```
 
+The skill descriptions may contain the custom HTML tags `<gray>...</gray>` and `<sic/>` that you can either replace or use to style, for example:
+
+```html
+<gray>No effect unless hexed foe attacks.</gray>
+
+Each attack that hits deals +13...30 Holy damage <sic/>
+```
+
 ## API
 
 ### `SkillDataInterface`
