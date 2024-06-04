@@ -1,0 +1,131 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "buildwars skill description schema",
+	"type": "object",
+	"required": [
+		"skilldata"
+	],
+	"properties": {
+		"skilldata": {
+			"description": "skill data root element",
+			"type": "object",
+			"patternProperties": {
+				"^[0-9]+$": {
+					"$ref": "#/$defs/data"
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"$defs": {
+		"data": {
+			"description": "skill data object, enumerated by skill ID",
+			"properties": {
+				"id": {
+					"description": "skill ID",
+					"type": "integer",
+					"minimum": 0
+				},
+				"campaign": {
+					"description": "campaign ID",
+					"type": "integer",
+					"minimum": 0,
+					"maximum": 4
+				},
+				"profession": {
+					"description": "profession ID",
+					"type": "integer",
+					"minimum": 0,
+					"maximum": 10
+				},
+				"attribute": {
+					"description": "attribute ID",
+					"type": "integer",
+					"minimum": 0
+				},
+				"type": {
+					"description": "skill type ID",
+					"type": "integer",
+					"minimum": 0
+				},
+				"is_elite": {
+					"description": "whether the skill is elite",
+					"type": "boolean"
+				},
+				"is_rp": {
+					"description": "whether the skill is roleplay",
+					"type": "boolean"
+				},
+				"is_pvp": {
+					"description": "whether the skill is PvP",
+					"type": "boolean"
+				},
+				"pvp_split": {
+					"description": "whether the skill has a PvP version",
+					"type": "boolean"
+				},
+				"split_id": {
+					"description": "pvp version skill ID, if 'pvp_split' is set to true",
+					"type": "integer",
+					"minimum": 0
+				},
+				"upkeep": {
+					"description": "permanent energy cost (degeneration)",
+					"type": "integer",
+					"minimum": -10,
+					"maximum": 0
+				},
+				"energy": {
+					"description": "energy cost",
+					"type": "integer",
+					"minimum": 0
+				},
+				"activation": {
+					"description": "activation time",
+					"type": "number",
+					"minimum": 0
+				},
+				"recharge": {
+					"description": "recharge time",
+					"type": "number",
+					"minimum": 0
+				},
+				"adrenaline": {
+					"description": "adrenaline cost",
+					"type": "integer",
+					"minimum": 0
+				},
+				"sacrifice": {
+					"description": "sacrifice cost (percentage)",
+					"type": "integer",
+					"minimum": 0,
+					"maximum": 100
+				},
+				"overcast": {
+					"description": "overcast cost (formerly exhaustion)",
+					"type": "integer",
+					"minimum": 0
+				}
+			},
+			"required": [
+				"id",
+				"campaign",
+				"profession",
+				"attribute",
+				"type",
+				"is_elite",
+				"is_rp",
+				"is_pvp",
+				"pvp_split",
+				"split_id",
+				"upkeep",
+				"energy",
+				"activation",
+				"recharge",
+				"adrenaline",
+				"sacrifice",
+				"overcast"
+			]
+		}
+	}
+}

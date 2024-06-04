@@ -1,0 +1,67 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "buildwars skill description schema",
+	"type": "object",
+	"required": [
+		"lang",
+		"skilldesc"
+	],
+	"properties": {
+		"lang": {
+			"description": "the language short tag",
+			"enum": [
+				"cn",
+				"de",
+				"en",
+				"es",
+				"fr",
+				"it",
+				"ja",
+				"ko",
+				"pl",
+				"ru"
+			]
+		},
+		"skilldesc": {
+			"description": "skill description root element",
+			"type": "object",
+			"patternProperties": {
+				"^[0-9]+$": {
+					"$ref": "#/$defs/desc"
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"$defs": {
+		"desc": {
+			"description": "skill description object, enumerated by skill ID",
+			"type": "object",
+			"properties": {
+				"id": {
+					"description": "skill ID",
+					"type": "integer",
+					"minimum": 0
+				},
+				"name": {
+					"description": "skill name",
+					"type": "string"
+				},
+				"description": {
+					"description": "skill description",
+					"type": "string"
+				},
+				"concise": {
+					"description": "concise skill description",
+					"type": "string"
+				}
+			},
+			"required": [
+				"id",
+				"name",
+				"description",
+				"concise"
+			]
+		}
+	}
+}
