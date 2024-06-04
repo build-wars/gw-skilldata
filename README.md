@@ -6,6 +6,7 @@
 [![Packagist version][packagist-badge]][packagist]
 [![License][license-badge]][license]
 [![Continuous Integration][gh-action-badge]][gh-action]
+[![Coverage][coverage-badge]][coverage]
 [![Packagist downloads][downloads-badge]][downloads]
 
 [php-badge]: https://img.shields.io/packagist/php-v/buildwars/gw-skilldata?logo=php&color=8892BF&logoColor=fff
