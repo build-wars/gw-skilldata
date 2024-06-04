@@ -33,6 +33,7 @@ class SkillDataTest extends TestCase{
 
 		$this::assertSame(0, $data['id']);
 
+		/** @phan-suppress-next-line PhanUndeclaredProperty */
 		foreach($this->skillData->keys as $key){
 			$this::assertArrayHasKey($key, $data);
 		}

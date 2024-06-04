@@ -18,7 +18,7 @@ use InvalidArgumentException;
  */
 trait SkillDataAwareTrait{
 
-	/** @todo change to constant in PHP 8.2+  */
+	/** @todo change to constant in PHP 8.2+ */
 	private array $LANGUAGES = [
 		'de' => SkillLangGerman::class,
 		'en' => SkillLangEnglish::class,
@@ -37,6 +37,7 @@ trait SkillDataAwareTrait{
 
 		$this->skillData = new ($this->LANGUAGES[$lang]);
 
+		/** @phan-suppress-next-line PhanTypeMismatchReturn */
 		return $this;
 	}
 
