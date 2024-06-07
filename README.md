@@ -22,21 +22,23 @@
 [downloads-badge]: https://img.shields.io/packagist/dt/buildwars/gw-skilldata.svg?logo=packagist&logoColor=fff
 [downloads]: https://packagist.org/packages/buildwars/gw-skilldata/stats
 
-## Overview
+# Overview
 
-### Features
+## Features
 
 - Guild Wars skill data
   - Skill descriptions for English and German
 - Toolset to add other translations (hopefully maybe)
 
 
-### Requirements
+## Requirements
 
 - PHP 8.1+
 
 
-### Quickstart
+## Quickstart
+
+### PHP
 
 ```php
 use Buildwars\GWSkillData\SkillDataAwareInterface;
@@ -92,6 +94,79 @@ $data = [
 ];
 ```
 
+### JavaScript :coffee:
+
+JavaScript doesn't have traits, so you will need to implement that part by yourself:
+
+```js
+class MyClass{
+
+	_languages = {
+		de: SkillLangGerman,
+		en: SkillLangEnglish,
+	};
+
+	skillData;
+
+	constructor(lang){
+		this.setSkillDataLanguage(lang);
+	}
+
+	setSkillDataLanguage(lang){
+
+		if(!this._languages[lang]){
+			throw new Error('invalid language');
+		}
+
+		this.skillData = new this._languages[lang]();
+
+		return this;
+	}
+
+	getSkill(skillID){
+		// this.skillData is now available
+		let data = this.skillData.get(skillID);
+
+		// do stuff with the data array
+	}
+
+}
+```
+
+which outputs:
+
+```js
+let data = {
+	id: 979,
+	campaign: 3,
+	profession: 5,
+	attribute: 2,
+	type: 24,
+	is_elite: false,
+	is_rp: false,
+	is_pvp: false,
+	pvp_split: true,
+	split_id: 3191,
+	upkeep: 0,
+	energy: 10,
+	activation: 2,
+	recharge: 12,
+	adrenaline: 0,
+	sacrifice: 0,
+	overcast: 0,
+	name: 'Mistrust',
+	description: 'For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...100 damage to that foe and all nearby foes.',
+	concise: '(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...100 damage to target and nearby foes.',
+	campaign_name: 'Nightfall',
+	profession_name: 'Mesmer',
+	profession_abbr: 'Me',
+	attribute_name: 'Domination Magic',
+	type_name: 'Hex Spell'
+}
+```
+
+### PvP skill redirect
+
 When the `$pvp` parameter is set to `true`, `SkillDataInterface::get(979, true)` will redirect to the PvP version of the given skill (if available, `pvp_split` and `split_id`):
 
 ```php
@@ -124,6 +199,8 @@ $data = [
 ];
 ```
 
+### HTML tags in descriptions
+
 The skill descriptions may contain the custom HTML tags `<gray>...</gray>` and `<sic/>` that you can either replace or use to style, for example:
 
 ```html
@@ -135,6 +212,8 @@ Each attack that hits deals +13...30 Holy damage <sic/>
 ## API
 
 ### `SkillDataInterface`
+
+(The API is similar for the JavaScript version)
 
 | Method                                                | Description                                                                              |
 |-------------------------------------------------------|------------------------------------------------------------------------------------------|
