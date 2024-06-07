@@ -1,0 +1,65 @@
+{
+	"name": "@buildwars/gw-skilldata",
+	"version": "1.0.0",
+	"description": "Guild Wars skill data",
+	"license": "MIT",
+	"homepage": "https://github.com/build-wars/gw-skilldata",
+	"keywords": [
+		"guild wars"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/build-wars/gw-skilldata.git"
+	},
+	"authors": [
+		{
+			"name": "smiley",
+			"email": "smiley@chillerlan.net",
+			"homepage": "https://github.com/codemasher"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Contributors",
+			"homepage": "https://github.com/build-wars/gw-skilldata/graphs/contributors"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/build-wars/gw-skilldata/issues"
+	},
+	"funding": [
+		{
+			"type": "ko-fi",
+			"url": "https://ko-fi.com/codemasher"
+		}
+	],
+	"type": "module",
+	"main": "lib/main.cjs",
+	"browser": "./lib/browser.js",
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/eslint-parser": "~7.24.6",
+		"@babel/preset-env": "~7.24.6",
+		"@babel/plugin-syntax-import-attributes": "~7.24.7",
+		"@rollup/plugin-babel": "~6.0.4",
+		"@rollup/plugin-json": "~6.1.0",
+		"@rollup/plugin-terser": "~0.4.4",
+		"c8": "~8.0.1",
+		"chai": "~5.1.1",
+		"core-js": "~3.37.1",
+		"eslint": "~9.4.0",
+		"mocha": "~10.4.0",
+		"node": "~22.2.0",
+		"nyc": "~15.1.0",
+		"rollup": "~4.18.0",
+		"util": "~0.12.5"
+	},
+	"scripts": {
+		"lint": "eslint ./es6 ./tests",
+		"build": "rollup -c rollup.config.dist.js",
+		"build-src": "rollup -c rollup.config.src.js",
+		"test": "mocha",
+		"test-with-coverage": "c8 mocha",
+		"prepublishOnly": "npm run lint && npm run test && rollup -c rollup.config.prepublish.js"
+	}
+}
