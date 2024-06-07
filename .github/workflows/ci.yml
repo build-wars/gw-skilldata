@@ -65,7 +65,7 @@ jobs:
 
 
   tests:
-    name: "Unit Tests"
+    name: "Unit Tests (PHP)"
     needs: static-code-analysis
     runs-on: ${{ matrix.os }}
 
@@ -103,3 +103,39 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: .build/coverage/clover.xml
+
+
+  build-js:
+    name: "Build (Javascript)"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "checkout sources"
+        uses: actions/checkout@v4
+
+      - name: "install dependencies"
+        run: npm install
+
+      - name: "run eslint"
+        run: npm run lint
+
+      - name: "run mocha tests (with coverage)"
+        run: npm run test-with-coverage
+
+      - name: "build"
+        run: npm run build
+
+      - name: "build-src"
+        run: npm run build-src
+
+      - name: "send code coverage report to codecov.io"
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: .build/coverage-js/clover.xml
+
+      - name: "upload artifacts"
+        uses: actions/upload-artifact@v4
+        with:
+          name: gw-skilldata-${{ github.sha }}
+          path: ./dist
