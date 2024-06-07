@@ -1,0 +1,20 @@
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-js:
+    name: "Build & publish (Javascript)"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "checkout sources"
+        uses: actions/checkout@v4
+
+      - name: "install dependencies"
+        run: npm install
+
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
