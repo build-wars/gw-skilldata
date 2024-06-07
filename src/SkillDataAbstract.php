@@ -27,26 +27,25 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		$this->keys = array_merge($this::KEYS_DATA, $this::KEYS_DESC, $this::KEYS_NAMES);
 	}
 
-	/** @phan-suppress PhanTypeInvalidDimOffset */
+	/** @phan-suppress PhanTypeInvalidDimOffset, PhanTypeArraySuspiciousNullable, PhanTypeMismatchArgumentNullableInternal */
 	private function combine(int $id):array{
 
 		if(!isset($this::ID2DATA[$id])){
 			throw new InvalidArgumentException('invalid skill ID');
 		}
 
-		$skillData = $this::ID2DATA[$id];
+		$skillData = array_combine($this::KEYS_DATA, $this::ID2DATA[$id]);
+		$skillDesc = array_combine($this::KEYS_DESC, $this::ID2DESC[$id]);
 
-		$names = [
-			$this::CAMPAIGNS[$skillData[1]]['name'][$this::LANG],
-			$this::PROFESSIONS[$skillData[2]]['name'][$this::LANG],
-			$this::PROFESSIONS[$skillData[2]]['abbr'][$this::LANG],
-			$this::ATTRIBUTES[$skillData[3]]['name'][$this::LANG],
-			$this::SKILLTYPES[$skillData[4]]['name'][$this::LANG],
-		];
+		$names = array_combine($this::KEYS_NAMES, [
+			$this::CAMPAIGNS[$skillData['campaign']]['name'][$this::LANG],
+			$this::PROFESSIONS[$skillData['profession']]['name'][$this::LANG],
+			$this::PROFESSIONS[$skillData['profession']]['abbr'][$this::LANG],
+			$this::ATTRIBUTES[$skillData['attribute']]['name'][$this::LANG],
+			$this::SKILLTYPES[$skillData['type']]['name'][$this::LANG],
+		]);
 
-		$data = array_merge($skillData, $this::ID2DESC[$id], $names);
-
-		return array_combine($this->keys, $data);
+		return array_merge($skillData, $skillDesc, $names);
 	}
 
 	private function getByKey(string $key, int|bool $value, bool $pvp):array{
