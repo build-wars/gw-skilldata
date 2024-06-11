@@ -4,22 +4,25 @@
 
 [![PHP Version Support][php-badge]][php]
 [![Packagist version][packagist-badge]][packagist]
+[![NPM version][npm-badge]][npm]
 [![License][license-badge]][license]
 [![Continuous Integration][gh-action-badge]][gh-action]
 [![Coverage][coverage-badge]][coverage]
 [![Packagist downloads][downloads-badge]][downloads]
 
-[php-badge]: https://img.shields.io/packagist/php-v/buildwars/gw-skilldata?logo=php&color=8892BF&logoColor=fff
+[php-badge]: https://img.shields.io/packagist/php-v/buildwars/gw-skilldata?logo=php&color=8892BF&logoColor=ccc
 [php]: https://www.php.net/supported-versions.php
-[packagist-badge]: https://img.shields.io/packagist/v/buildwars/gw-skilldata.svg?logo=packagist&logoColor=fff
+[packagist-badge]: https://img.shields.io/packagist/v/buildwars/gw-skilldata.svg?logo=packagist&logoColor=ccc
 [packagist]: https://packagist.org/packages/buildwars/gw-skilldata
+[npm-badge]: https://img.shields.io/npm/v/@buildwars/gw-skilldata?logo=npm&logoColor=ccc
+[npm]: https://www.npmjs.com/package/@buildwars/gw-skilldata
 [license-badge]: https://img.shields.io/github/license/build-wars/gw-skilldata
 [license]: https://github.com/build-wars/gw-skilldata/blob/main/LICENSE
-[gh-action-badge]: https://img.shields.io/github/actions/workflow/status/build-wars/gw-skilldata/ci.yml?branch=main&logo=github&logoColor=fff
+[gh-action-badge]: https://img.shields.io/github/actions/workflow/status/build-wars/gw-skilldata/ci.yml?branch=main&logo=github&logoColor=ccc
 [gh-action]: https://github.com/build-wars/gw-skilldata/actions/workflows/ci.yml?query=branch%3Amain
-[coverage-badge]: https://img.shields.io/codecov/c/github/build-wars/gw-skilldata.svg?logo=codecov&logoColor=fff
+[coverage-badge]: https://img.shields.io/codecov/c/github/build-wars/gw-skilldata.svg?logo=codecov&logoColor=ccc
 [coverage]: https://codecov.io/github/build-wars/gw-skilldata
-[downloads-badge]: https://img.shields.io/packagist/dt/buildwars/gw-skilldata.svg?logo=packagist&logoColor=fff
+[downloads-badge]: https://img.shields.io/packagist/dt/buildwars/gw-skilldata.svg?logo=packagist&logoColor=ccc
 [downloads]: https://packagist.org/packages/buildwars/gw-skilldata/stats
 
 # Overview
