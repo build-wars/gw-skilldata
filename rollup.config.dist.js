@@ -22,7 +22,7 @@ export default {
 			file     : 'dist/gw-skilldata-iife.js',
 			format   : 'iife',
 			sourcemap: false,
-			name     : 'jsqrcode',
+			name     : 'gwskilldata',
 		},
 		{
 			file     : 'dist/gw-skilldata-node.cjs',
