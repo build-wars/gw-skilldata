@@ -25,16 +25,16 @@ interface SkillDataInterface{
 	];
 
 	public const PROFESSIONS = [
-		0  => ['pri' => 101, 'name' => ['de' => 'keine',           'en' => 'none',        ], 'abbr' => ['de' => 'X', 'en' => 'X', ]],
-		1  => ['pri' =>  17, 'name' => ['de' => 'Krieger',         'en' => 'Warrior',     ], 'abbr' => ['de' => 'K', 'en' => 'W', ]],
-		2  => ['pri' =>  23, 'name' => ['de' => 'Waldläufer',      'en' => 'Ranger',      ], 'abbr' => ['de' => 'W', 'en' => 'R', ]],
-		3  => ['pri' =>  16, 'name' => ['de' => 'Mönch',           'en' => 'Monk',        ], 'abbr' => ['de' => 'Mö','en' => 'Mo',]],
-		4  => ['pri' =>   6, 'name' => ['de' => 'Nekromant',       'en' => 'Necromancer', ], 'abbr' => ['de' => 'N', 'en' => 'N', ]],
-		5  => ['pri' =>   0, 'name' => ['de' => 'Mesmer',          'en' => 'Mesmer',      ], 'abbr' => ['de' => 'Me','en' => 'Me',]],
-		6  => ['pri' =>  12, 'name' => ['de' => 'Elementarmagier', 'en' => 'Elementalist',], 'abbr' => ['de' => 'E', 'en' => 'E', ]],
-		7  => ['pri' =>  35, 'name' => ['de' => 'Assassine',       'en' => 'Assassin',    ], 'abbr' => ['de' => 'A', 'en' => 'A', ]],
-		8  => ['pri' =>  36, 'name' => ['de' => 'Ritualist',       'en' => 'Ritualist',   ], 'abbr' => ['de' => 'R', 'en' => 'Rt',]],
-		9  => ['pri' =>  40, 'name' => ['de' => 'Paragon',         'en' => 'Paragon',     ], 'abbr' => ['de' => 'P', 'en' => 'P', ]],
+		 0 => ['pri' => 101, 'name' => ['de' => 'keine',           'en' => 'none',        ], 'abbr' => ['de' => 'X', 'en' => 'X', ]],
+		 1 => ['pri' =>  17, 'name' => ['de' => 'Krieger',         'en' => 'Warrior',     ], 'abbr' => ['de' => 'K', 'en' => 'W', ]],
+		 2 => ['pri' =>  23, 'name' => ['de' => 'Waldläufer',      'en' => 'Ranger',      ], 'abbr' => ['de' => 'W', 'en' => 'R', ]],
+		 3 => ['pri' =>  16, 'name' => ['de' => 'Mönch',           'en' => 'Monk',        ], 'abbr' => ['de' => 'Mö','en' => 'Mo',]],
+		 4 => ['pri' =>   6, 'name' => ['de' => 'Nekromant',       'en' => 'Necromancer', ], 'abbr' => ['de' => 'N', 'en' => 'N', ]],
+		 5 => ['pri' =>   0, 'name' => ['de' => 'Mesmer',          'en' => 'Mesmer',      ], 'abbr' => ['de' => 'Me','en' => 'Me',]],
+		 6 => ['pri' =>  12, 'name' => ['de' => 'Elementarmagier', 'en' => 'Elementalist',], 'abbr' => ['de' => 'E', 'en' => 'E', ]],
+		 7 => ['pri' =>  35, 'name' => ['de' => 'Assassine',       'en' => 'Assassin',    ], 'abbr' => ['de' => 'A', 'en' => 'A', ]],
+		 8 => ['pri' =>  36, 'name' => ['de' => 'Ritualist',       'en' => 'Ritualist',   ], 'abbr' => ['de' => 'R', 'en' => 'Rt',]],
+		 9 => ['pri' =>  40, 'name' => ['de' => 'Paragon',         'en' => 'Paragon',     ], 'abbr' => ['de' => 'P', 'en' => 'P', ]],
 		10 => ['pri' =>  44, 'name' => ['de' => 'Derwisch',        'en' => 'Dervish',     ], 'abbr' => ['de' => 'D', 'en' => 'D', ]],
 	];
 
