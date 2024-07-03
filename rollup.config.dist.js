@@ -14,17 +14,6 @@ export default {
 			sourcemap: false,
 		},
 		{
-			file     : 'dist/gw-skilldata-amd.js',
-			format   : 'amd',
-			sourcemap: false,
-		},
-		{
-			file     : 'dist/gw-skilldata-iife.js',
-			format   : 'iife',
-			sourcemap: false,
-			name     : 'gwskilldata',
-		},
-		{
 			file     : 'dist/gw-skilldata-node.cjs',
 			format   : 'cjs',
 			sourcemap: false,
