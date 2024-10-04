@@ -11,12 +11,12 @@ export default {
 		{
 			file     : 'dist/gw-skilldata-es6.js',
 			format   : 'es',
-			sourcemap: false,
+			sourcemap: true,
 		},
 		{
 			file     : 'dist/gw-skilldata-node.cjs',
 			format   : 'cjs',
-			sourcemap: false,
+			sourcemap: true,
 		},
 	],
 	plugins: [
