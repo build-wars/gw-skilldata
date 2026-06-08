@@ -230,6 +230,32 @@ Each attack that hits deals +13...30 Holy damage <sic/>
 | `getRoleplay()`                                       | Returns all roleplay skills                                                              |
 
 
+## Files hosted on GH-Pages
+
+### Library
+
+The Library includes several helper methods for handling and combining the data from the different sources (see above).
+
+- [gw-skilldata-es6.js](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-es6.js)
+- [gw-skilldata-es6-src.js](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-es6-src.js)
+- [gw-skilldata-node.cjs](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-node.cjs)
+- [gw-skilldata-node-src.cjs](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-node-src.cjs)
+
+### JSON Skilldata
+
+- Common skilldata: [skilldata.json](https://build-wars.github.io/gw-skilldata/json/skilldata.json)
+- Skill descriptions (German): [skilldesc-de.json](https://build-wars.github.io/gw-skilldata/json/skilldesc-de.json)
+- Skill descriptions (English): [skilldesc-en.json](https://build-wars.github.io/gw-skilldata/json/skilldesc-en.json)
+- Combined data including all languages: [skilldata-combined.json](https://build-wars.github.io/gw-skilldata/json/skilldata-combined.json)
+- Data for individual skills can be fetched via: `https://build-wars.github.io/gw-skilldata/json/skills/[SKILL_ID].json`
+
+### JSON Schemas
+
+- [skilldata.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skilldata.schema.json)
+- [skilldesc.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skilldesc.schema.json)
+- [skill.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skill.schema.json)
+- [skilldata-combined.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skilldata-combined.schema.json)
+
 ## Disclaimer
 
 Use at your own risk!
