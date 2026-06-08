@@ -57,10 +57,13 @@
 		"core-js": "~3.49.0",
 		"eslint": "~9.39.4",
 		"mocha": "~11.7.6",
-		"node": "^24.16",
+		"node": "^25.9",
 		"nyc": "~18.0.0",
 		"rollup": "~4.61.1",
 		"util": "~0.12.5"
+	},
+	"optionalDependencies": {
+		"@rollup/rollup-linux-x64-gnu": "^4.61"
 	},
 	"scripts": {
 		"lint": "eslint ./es6 ./tests",
