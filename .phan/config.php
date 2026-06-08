@@ -31,6 +31,7 @@ return [
 #		'examples',
 		'src',
 		'tests',
+		'tools',
 		'vendor',
 	],
 
