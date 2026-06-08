@@ -434,7 +434,7 @@ $logger->info(sprintf('skilldata: %s skills', count($skilldata)));
 ksort($skilldata);
 
 $jsonData = [
-	'$schema'   => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-full/skilldata.schema.json',
+	'$schema'   => 'https://build-wars.github.io/gw-skilldata/schemas/skilldata.schema.json',
 	'skilldata' => $skilldata,
 ];
 
@@ -447,7 +447,7 @@ foreach(['de', 'en'] as $lang){
 	ksort($skilldesc[$lang]);
 
 	$jsonData = [
-		'$schema'   => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-full/skilldesc.schema.json',
+		'$schema'   => 'https://build-wars.github.io/gw-skilldata/schemas/skilldesc.schema.json',
 		'lang'      => $lang,
 		'skilldesc' => $skilldesc[$lang],
 	];

@@ -52,7 +52,7 @@ foreach($jsonData['skilldata'] as $skillID => &$skillData){
 	}
 
 	$skill = [
-		'$schema' => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json',
+		'$schema' => 'https://build-wars.github.io/gw-skilldata/schemas/skill.schema.json',
 		'skill'   => $skillData,
 	];
 
@@ -61,7 +61,7 @@ foreach($jsonData['skilldata'] as $skillID => &$skillData){
 	File::save(__DIR__.'/../data/json-skills/'.$skillID.'.json', str_replace('    ', "\t", Str::jsonEncode($skill)));
 }
 
-$jsonData['$schema'] = 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-full/skilldata-combined.schema.json';
+$jsonData['$schema'] = 'https://build-wars.github.io/gw-skilldata/schemas/skilldata-combined.schema.json';
 
 File::save(combinedJSON, str_replace('    ', "\t", Str::jsonEncode($jsonData)));
 
