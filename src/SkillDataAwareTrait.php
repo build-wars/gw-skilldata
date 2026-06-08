@@ -12,13 +12,20 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
+use function array_key_exists;
 
 /**
  * Offers a method to load the skill data in a convenient way
+ *
+ * @implements \Buildwars\GWSkillData\SkillDataAwareInterface
  */
 trait SkillDataAwareTrait{
 
-	/** @todo change to constant in PHP 8.2+ */
+	/**
+	 * @todo change to constant in PHP 8.2+
+	 *
+	 * @var array<string, string>
+	 */
 	private array $LANGUAGES = [
 		'de' => SkillLangGerman::class,
 		'en' => SkillLangEnglish::class,
@@ -26,18 +33,14 @@ trait SkillDataAwareTrait{
 
 	protected SkillDataInterface $skillData;
 
-	/**
-	 * @implements \Buildwars\GWSkillData\SkillDataAwareInterface::setSkillDataLanguage()
-	 */
 	public function setSkillDataLanguage(string $lang):static{
 
-		if(!isset($this->LANGUAGES[$lang])){
-			throw new InvalidArgumentException('invaild language'); // @codeCoverageIgnore
+		if(!array_key_exists($lang, $this->LANGUAGES)){
+			throw new InvalidArgumentException('invaild language');
 		}
 
 		$this->skillData = new ($this->LANGUAGES[$lang]);
 
-		/** @phan-suppress-next-line PhanTypeMismatchReturn */
 		return $this;
 	}
 

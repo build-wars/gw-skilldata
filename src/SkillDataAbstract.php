@@ -13,46 +13,42 @@ namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
 use function array_combine;
+use function array_key_exists;
+use function array_map;
 use function array_merge;
 use function array_search;
 
 /**
- *
+ * Utility methods for the static skill data and description classes
  */
 abstract class SkillDataAbstract implements SkillDataInterface{
-
-	public readonly array $keys;
-
-	public function __construct(){
-		$this->keys = array_merge($this::KEYS_DATA, $this::KEYS_DESC, $this::KEYS_NAMES);
-	}
 
 	/** @phan-suppress PhanTypeInvalidDimOffset, PhanTypeArraySuspiciousNullable, PhanTypeMismatchArgumentNullableInternal */
 	private function combine(int $id):array{
 
-		if(!isset($this::ID2DATA[$id])){
+		if(!array_key_exists($id, static::ID2DATA)){
 			throw new InvalidArgumentException('invalid skill ID');
 		}
 
-		$skillData = array_combine($this::KEYS_DATA, $this::ID2DATA[$id]);
-		$skillDesc = array_combine($this::KEYS_DESC, $this::ID2DESC[$id]);
+		$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
+		$skillDesc = array_combine(static::KEYS_DESC, static::ID2DESC[$id]);
 
-		$names = array_combine($this::KEYS_NAMES, [
-			$this::CAMPAIGNS[$skillData['campaign']]['name'][$this::LANG],
-			$this::PROFESSIONS[$skillData['profession']]['name'][$this::LANG],
-			$this::PROFESSIONS[$skillData['profession']]['abbr'][$this::LANG],
-			$this::ATTRIBUTES[$skillData['attribute']]['name'][$this::LANG],
-			$this::SKILLTYPES[$skillData['type']]['name'][$this::LANG],
+		$names = array_combine(static::KEYS_NAMES, [
+			static::CAMPAIGNS[$skillData['campaign']]['name'][static::LANG],
+			static::PROFESSIONS[$skillData['profession']]['name'][static::LANG],
+			static::PROFESSIONS[$skillData['profession']]['abbr'][static::LANG],
+			static::ATTRIBUTES[$skillData['attribute']]['name'][static::LANG],
+			static::SKILLTYPES[$skillData['type']]['name'][static::LANG],
 		]);
 
 		return array_merge($skillData, $skillDesc, $names);
 	}
 
 	private function getByKey(string $key, int|bool $value, bool $pvp):array{
-		$keyID  = array_search($key, $this::KEYS_DATA);
+		$keyID  = array_search($key, static::KEYS_DATA, true);
 		$skills = [];
 
-		foreach($this::ID2DATA as $id => $data){
+		foreach(static::ID2DATA as $id => $data){
 			if($data[$keyID] === $value){
 				$skills[] = $this->get($id, $pvp);
 			}
@@ -72,18 +68,12 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getAll(array $IDs, bool $pvp = false):array{
-		$skills = [];
-
-		foreach($IDs as $k => $id){
-			$skills[$k] = $this->get($id, $pvp);
-		}
-
-		return $skills;
+		return array_map(fn(int $id):array => $this->get($id, $pvp), $IDs);
 	}
 
 	public function getByCampaign(int $campaign, bool $pvp = false):array{
 
-		if(!isset($this::CAMPAIGNS[$campaign])){
+		if(!array_key_exists($campaign, static::CAMPAIGNS)){
 			throw new InvalidArgumentException('invalid campaign ID'); // @codeCoverageIgnore
 		}
 
@@ -92,7 +82,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 
 	public function getByProfession(int $profession, bool $pvp = false):array{
 
-		if(!isset($this::PROFESSIONS[$profession])){
+		if(!array_key_exists($profession, static::PROFESSIONS)){
 			throw new InvalidArgumentException('invalid profession ID'); // @codeCoverageIgnore
 		}
 
@@ -101,7 +91,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 
 	public function getByAttribute(int $attribute, bool $pvp = false):array{
 
-		if(!isset($this::ATTRIBUTES[$attribute])){
+		if(!array_key_exists($attribute, static::ATTRIBUTES)){
 			throw new InvalidArgumentException('invalid attribute ID'); // @codeCoverageIgnore
 		}
 
@@ -110,7 +100,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 
 	public function getByType(int $type, bool $pvp = false):array{
 
-		if(!isset($this::SKILLTYPES[$type])){
+		if(!array_key_exists($type, static::SKILLTYPES)){
 			throw new InvalidArgumentException('invalid skill type ID'); // @codeCoverageIgnore
 		}
 

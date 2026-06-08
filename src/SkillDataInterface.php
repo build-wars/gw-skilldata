@@ -11,12 +11,9 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
-/**
- *
- */
 interface SkillDataInterface{
 
-	public const CAMPAIGNS = [
+	final public const CAMPAIGNS = [
 		0 => ['name' => ['de' => 'Basis',            'en' => 'Core',           ], 'continent' => ['de' => 'Die Nebel', 'en' => 'The Mists',]],
 		1 => ['name' => ['de' => 'Prophecies',       'en' => 'Prophecies',     ], 'continent' => ['de' => 'Tyria',     'en' => 'Tyria',    ]],
 		2 => ['name' => ['de' => 'Factions',         'en' => 'Factions',       ], 'continent' => ['de' => 'Cantha',    'en' => 'Cantha',   ]],
@@ -24,7 +21,7 @@ interface SkillDataInterface{
 		4 => ['name' => ['de' => 'Eye of the North', 'en' => 'Eye of the North'], 'continent' => ['de' => 'Tyria',     'en' => 'Tyria',    ]],
 	];
 
-	public const PROFESSIONS = [
+	final public const PROFESSIONS = [
 		 0 => ['pri' => 101, 'name' => ['de' => 'keine',           'en' => 'none',        ], 'abbr' => ['de' => 'X', 'en' => 'X', ]],
 		 1 => ['pri' =>  17, 'name' => ['de' => 'Krieger',         'en' => 'Warrior',     ], 'abbr' => ['de' => 'K', 'en' => 'W', ]],
 		 2 => ['pri' =>  23, 'name' => ['de' => 'Waldläufer',      'en' => 'Ranger',      ], 'abbr' => ['de' => 'W', 'en' => 'R', ]],
@@ -38,7 +35,7 @@ interface SkillDataInterface{
 		10 => ['pri' =>  44, 'name' => ['de' => 'Derwisch',        'en' => 'Dervish',     ], 'abbr' => ['de' => 'D', 'en' => 'D', ]],
 	];
 
-	public const ATTRIBUTES = [
+	final public const ATTRIBUTES = [
 		  0 => ['prof' =>  5, 'pri' => true,  'max' => 21, 'name' => ['de' => 'Schnellwirkung',           'en' => 'Fast Casting',                      ]],
 		  1 => ['prof' =>  5, 'pri' => false, 'max' => 21, 'name' => ['de' => 'Illusionsmagie',           'en' => 'Illusion Magic',                    ]],
 		  2 => ['prof' =>  5, 'pri' => false, 'max' => 21, 'name' => ['de' => 'Beherrschungsmagie',       'en' => 'Domination Magic',                  ]],
@@ -92,7 +89,7 @@ interface SkillDataInterface{
 		109 => ['prof' =>  0, 'pri' => false, 'max' => 10, 'name' => ['de' => 'Norntitel',                'en' => 'Norn Title Track',                  ]],
 	];
 
-	public const SKILLTYPES = [
+	final public const SKILLTYPES = [
 		 0 => ['name' => ['de' => 'Keine Fertigkeit',     'en' => 'Not a Skill',         ]],
 		 1 => ['name' => ['de' => 'Fertigkeit',           'en' => 'Skill',               ]],
 		 2 => ['name' => ['de' => 'Bogenangriff',         'en' => 'Bow Attack',          ]],
@@ -140,24 +137,27 @@ interface SkillDataInterface{
 	 *
 	 * @var string[]
 	 */
-	public const KEYS_DESC = [];
+	final public const KEYS_DESC = ['name', 'description', 'concise'];
 
 	/**
 	 * The array keys for the data array
 	 *
 	 * @var string[]
 	 */
-	public const KEYS_DATA = [];
+	final public const KEYS_DATA = [
+		'id', 'campaign', 'profession', 'attribute', 'type', 'is_elite', 'is_rp', 'is_pvp', 'pvp_split',
+		'split_id', 'upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'sacrifice', 'overcast',
+	];
 
 	/**
 	 * The descriptions array
 	 */
-	public const ID2DESC   = [];
+	public const ID2DESC = [];
 
 	/**
 	 * The data array
 	 */
-	public const ID2DATA   = [];
+	public const ID2DATA = [];
 
 	/**
 	 * The language abbreviation, key for the several `name` arrays

@@ -12,13 +12,15 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTest;
 
 use Buildwars\GWSkillData\SkillDataAwareTrait;
+use Buildwars\GWSkillData\SkillDataInterface;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use function array_column;
+use function array_merge;
 
 /**
- *
+ * Tests basic functions of the SkillData class
  */
 class SkillDataTest extends TestCase{
 	use SkillDataAwareTrait;
@@ -30,11 +32,11 @@ class SkillDataTest extends TestCase{
 	#[Test]
 	public function get():void{
 		$data = $this->skillData->get(0, true);
+		$keys = array_merge(SkillDataInterface::KEYS_DATA, SkillDataInterface::KEYS_DESC, SkillDataInterface::KEYS_NAMES);
 
 		$this::assertSame(0, $data['id']);
 
-		/** @phan-suppress-next-line PhanUndeclaredProperty */
-		foreach($this->skillData->keys as $key){
+		foreach($keys as $key){
 			$this::assertArrayHasKey($key, $data);
 		}
 	}
