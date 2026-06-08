@@ -167,6 +167,15 @@ jobs:
       - name: "Checkout sources"
         uses: actions/checkout@v6
 
+      - name: "install dependencies"
+        run: npm install
+
+      - name: "build"
+        run: npm run build
+
+      - name: "build-src"
+        run: npm run build-src
+
       - name: "Install PHP with extensions"
         uses: shivammathur/setup-php@v2
         with:
@@ -206,4 +215,3 @@ jobs:
           branch: gh-pages
           folder: public
           clean: true
-
