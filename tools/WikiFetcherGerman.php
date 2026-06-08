@@ -33,68 +33,48 @@ final class WikiFetcherGerman extends WikiFetcher{
 	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';
 	protected const CACHEDIR      = __DIR__.'/../.build/guildwiki/';
 
-	/**
-	 * @inheritDoc
-	 */
-	protected function prepareSkillName(string $skillName, int $id):string{
+	protected const REDIRECTS = [
+		316  => 'Bis ans Limit!',
+		333  => 'Ich werde Euch rächen!',
+		343  => 'Für höhere Gerechtigkeit!',
+		348  => 'Passt auf Euch auf!',
+		364  => 'Angriff!',
+		365  => 'Der Sieg ist mein!',
+		366  => 'Fürchtet mich!',
+		367  => 'Schilde hoch!',
+		368  => 'Ich überlebe!',
+		1599 => 'Es ist nur eine Fleischwunde.',
+		1948 => 'Schattenzuflucht (Rollenspiel-Fertigkeit)', // Luxon
+		1954 => '"Rettet Euch selbst!"', // Luxon
+		2091 => 'Schattenzuflucht (Rollenspiel-Fertigkeit)', // Kurzick
+		2097 => '"Rettet Euch selbst!"', // Kurzick
+		2355 => 'Ich bin am stärksten!',
+		2858 => 'Passt auf Euch auf! (PvP)',
+		2883 => 'Für höhere Gerechtigkeit! (PvP)',
+		3007 => 'Schmerzen (PvP)',
+		3035 => '"Gebt nicht auf!" (PvP)',
+		3037 => '"Zieht Euch zurück!" (PvP)',
+		3375 => 'Wiederherstellungs-Aura (PvP)',
+		3437 => 'Sense des Bauern (PvP)',
+	];
 
-		// fix for pve faction skills
-		if($skillName === 'Schattenzuflucht (Kurzick)' || $skillName === 'Schattenzuflucht (Luxon)'){
-			$skillName = 'Schattenzuflucht (Rollenspiel-Fertigkeit)';
-		}
-
-		$skillName = preg_replace('/(\s\((Kurzick|Luxon)\))/', '', $skillName);
-
-		$redirect = [
-			1780 => '"Darf nicht angerührt werden!"',
-			2858 => 'Passt auf Euch auf! (PvP)',
-			2883 => 'Für höhere Gerechtigkeit! (PvP)',
-			3007 => 'Schmerzen (PvP)',
-			3035 => '"Gebt nicht auf!" (PvP)',
-			3037 => '"Zieht Euch zurück!" (PvP)',
-		];
-
-		if(isset($redirect[$id])){
-			return $redirect[$id];
-		}
-
-		return $skillName;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	protected function getRequestParams(string $skillName):array{
-		return [
-			'format'  => 'json',
-			'action'  => 'query',
-			'prop'    => 'revisions',
-			'rvprop'  => 'content',
-			#			'rvslots' => '*',
-			'titles'  => $skillName,
-		];
-	}
-
-	/**
-	 * @inheritDoc
-	 */
 	protected function parseResponse(array $data, int $id):array|null{
 
 		if($id === 0){
 			return ['Keine Fertigkeit', 'Leerer Fertigkeiten-Slot', 'Leerer Slot'];
 		}
 
-		if(!isset($data['revisions'][0]['*'])){
+		if(!isset($data['revisions'][0]['slots']['main']['*'])){
 			return null;
 		}
 
-		$data = $data['revisions'][0]['*'];
+		$data = $data['revisions'][0]['slots']['main']['*'];
 
 		// remove some templates first
 		$data = str_ireplace(
 			['{{pipe}}}', '{{{pipe}}', '{{pipe}}', '{{!-}}', "'''", '{{sic}}'],
 			['', '', '', '', '', '<sic/>]'],
-			$data
+			$data,
 		);
 
 		$infobox = $this->getInfobox($data, 'infobox fertigkeit');
@@ -108,10 +88,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 		return $this->parseInfobox($infobox, $id);
 	}
 
-	/**
-	 * @inheritDoc
-	 */
-	protected function parseInfobox(string $infobox, $id):array{
+	protected function parseInfobox(string $infobox, int $id):array{
 		// replace some templates (progression, links, colored text)
 		$s = [
 			// progression
@@ -133,6 +110,13 @@ final class WikiFetcherGerman extends WikiFetcher{
 
 		$infobox = preg_replace($s, $r, $infobox);
 
+		// fix some things
+		$infobox = str_ireplace(
+			['&#45;', '[s]', '&nbsp;', '  '],
+			['+', '(s)', ' ', ' '],
+			$infobox,
+		);
+
 		// clean out unwanted braces and stuff
 		$infobox = str_ireplace(
 			[
@@ -146,28 +130,20 @@ final class WikiFetcherGerman extends WikiFetcher{
 			$infobox,
 		);
 
-		// fix some things
-		$infobox = str_ireplace(
-			['&#45;', '[s]', '&nbsp;', '  '],
-			['+', '(s)', ' ', ' '],
-			$infobox,
-		);
-
 		// fix +/- for re-/degeneration
 		$infobox = preg_replace(
 			[
 				'/(?:regeneration von ((?:\d+)([.]+(?:\d+))?))/',
 				'/(?:degeneration von \+?((?:\d+)(?:[.]+(?:\d+))?))/',
-				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebens|Energie)regeneration))/i'
+				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebens|Energie)regeneration))/i',
 			],
 			[
 				'regeneration von +$1',
 				'degeneration von -$1',
-				' +$1'
+				' +$1',
 			],
 			$infobox,
 		);
-
 
 		// split into key=value pairs
 		$infobox = array_map($this->splitKV(...), array_filter(explode('|', trim($infobox))));

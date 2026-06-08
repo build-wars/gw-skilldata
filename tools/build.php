@@ -2,6 +2,8 @@
 /**
  * Combined build script for convenience
  *
+ * In theory this could be run on CI, but the wiki fetcher opens doors for supply chain attacks.
+ *
  * @created      04.06.2024
  * @author       smiley <smiley@chillerlan.net>
  * @copyright    2024 smiley

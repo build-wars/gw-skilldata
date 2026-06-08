@@ -12,14 +12,11 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
-use InvalidArgumentException;
+use chillerlan\Utilities\File;
+use chillerlan\Utilities\Str;
 use function array_map;
 use function count;
 use function explode;
-use function file_get_contents;
-use function file_put_contents;
-use function is_readable;
-use function json_encode;
 use function ksort;
 use function mb_convert_encoding;
 use function mb_detect_encoding;
@@ -27,9 +24,6 @@ use function realpath;
 use function sprintf;
 use function str_replace;
 use function trim;
-use const JSON_PRETTY_PRINT;
-use const JSON_UNESCAPED_SLASHES;
-use const JSON_UNESCAPED_UNICODE;
 
 /**
  * @var \Psr\Log\LoggerInterface $logger
@@ -210,6 +204,7 @@ const pvp_split = [
 	1781 => 3034,
 	2005 => 2895,
 	2014 => 3273,
+	2015 => 3437,
 	2018 => 3040,
 	2053 => 3196,
 	2056 => 3195,
@@ -224,7 +219,6 @@ const pvp_split = [
 
 // the output arrays have some missing data already set
 
-// the new PvE skills are not in the paw-ned CSV data for some reason (hardcoded into the binary eh?)
 $skilldesc = [
 	'de' => [
 		0    => [
@@ -233,65 +227,11 @@ $skilldesc = [
 			'description' => 'Leerer Fertigkeiten-Slot',
 			'concise'     => 'Leerer Slot',
 		],
-		3422 => [
-			'id'          => 3422,
-			'name'        => 'Zeitabwehr',
-			'description' => 'Ihr erschafft eine Zeitabwehr an Eurem aktuellen Standort. Für 3...15 Sekunden wirken Verbündete Nicht-Geister in diesem Gebiet um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf.',
-			'concise'     => '(3...15 Sekunden.) Verbündete in dieser Abwehr wirken Zauber um 15...20% schneller und Fertigkeiten laden um 15...20% schneller wieder auf. Betrifft nicht verbündete Geister.',
-		],
-		3423 => [
-			'id'          => 3423,
-			'name'        => 'Seelengreifer',
-			'description' => 'Für 3...30 Sekunden opfern Eure Angriffe 15...20 Lebenspunkte und verursachen 15...20 Punkte mehr Schaden',
-			'concise'     => '(3...30 Sekunden.) Angriffe verursachen +15...20 Punkte Schaden und opfern 15...20 Lebenspunkte.',
-		],
-		3424 => [
-			'id'          => 3424,
-			'name'        => 'Über die Grenze hinaus',
-			'description' => 'Während dieser Verzauberung wirken Eure Zauber um 15...20% schneller und laden sich 15...50% schneller auf, aber verursachen zunehmend Überzaubern.',
-			'concise'     => 'Zauber wirken um 15...20% schneller und laden sich um 15...50% schneller auf. Verursacht bei Aktivierung zunehmend Überzaubern.',
-		],
-		3425 => [
-			'id'          => 3425,
-			'name'        => 'Urteilsschlag',
-			'description' => 'Attackiert das Ziel und umstehende Feinde. Jeder treffende Angriff verursacht +13...30 Punkte heiliger Schaden und wirft angreifende Feinde zu Boden.',
-			'concise'     => 'Attackiert das Ziel und umstehende Feinde und verursacht +13...30 Punkte Schaden. Wirft angreifende Feinde zu Boden.',
-		],
-		3426 => [
-			'id'          => 3426,
-			'name'        => 'Sieben Waffen-Haltung',
-			'description' => 'Für 3...20 Sekunden werden Eure Waffenwerte um 1...15 erhöht und Euer Angriff ist um 33% schneller.',
-			'concise'     => '(3...20 Sekunden) Waffenwerte werden um 1...15 erhöht. Euer Angriff ist um 33% schneller.',
-		],
-		3427 => [
-			'id'          => 3427,
-			'name'        => '"Gemeinsam als Eines!"',
-			'description' => 'Für 3...15 Sekunden verursachen alle Gruppenmitglieder in der Nähe von Euch oder Eurem Tiergefährten +5...15 Punkte zusätzlichen Schaden bei Angriffen und erhalten +1...7 Lebenspunkte-Wiederherstellung.',
-			'concise'     => '(3...15 Sekunden.) Alle Gruppenmitglieder in der Nähe von Euch oder Eurem Tiergefährten verursachen +5...15 Punkte Schaden und erhalten +1...7 Lebenspunkte-Wiederherstellung.',
-		],
-		3428 => [
-			'id'          => 3428,
-			'name'        => 'Schattendiebstahl',
-			'description' => 'Macht einen Schattenschritt zum feindlichen Ziel. Für 5...20 Sekunden sind die Werte dieses Feindes um 1...5 reduziert und Eure Werte um 1...5 erhöht. Diese Fertigkeit zählt als Leithandangriff.',
-			'concise'     => 'Macht einen Schattenschritt zum feindlichen Ziel. Für 5...20 Sekunden sind die Werte dieses Feindes um 1...5 reduziert und Eure Werte um 1...5 erhöht. Zählt als Leithandangriff.',
-		],
-		3429 => [
-			'id'          => 3429,
-			'name'        => 'Waffen aus drei Schmieden',
-			'description' => 'Für 3...20 Sekunden erhält jeder Verbündete Nicht-Geist in Hörweite den Effekt eines zufälligen Waffenzaubers.',
-			'concise'     => '(3...20 Sekunden.) Verbündete in Hörweite erhalten den Effekt eines zufälligen Waffenzaubers. Betrifft nicht verbündete Geister.',
-		],
-		3430 => [
-			'id'          => 3430,
-			'name'        => 'Schwur der Revolution',
-			'description' => 'Für 3...10 Sekunden erhaltet Ihr +1...5 Energieregeneration. Diese Fertigkeit erneuert sich jedes mal>, wenn Ihr keine Derwisch-Fertigkeit anwendet.',
-			'concise'     => '(3...10 Sekunden.) Erhaltet +1...5 Energieregeneration. Erneuerung: immer wenn Ihr keine Derwisch-Fertigkeit anwendet.',
-		],
-		3431 => [
-			'id'          => 3431,
-			'name'        => 'Heroischer Refrain',
-			'description' => 'Für 3...15 Sekunden erhält ein gezielter, verbündeter Nicht-Geist +1...3 auf alle Werte. Dieses Echo erneuert sich jedes Mal, wenn ein Anfeuerungsruf oder Schrei bei diesem Verbündeten endet.',
-			'concise'     => '(3...15 Sekunden.) Gezielter Verbündeter erhält +1...3 auf alle Werte. Erneuerung: jedes Mal, wenn ein Anfeuerungsruf oder Schrei bei diesem Verbündeten endet. Geister können nicht anvisiert werden.',
+		3437 => [
+			'id'          => 3437,
+			'name'        => 'Sense des Bauern (PvP)',
+			'description' => '',
+			'concise'     => '',
 		],
 	],
 	'en' => [
@@ -301,65 +241,11 @@ $skilldesc = [
 			'description' => 'Empty skill slot',
 			'concise'     => 'Empty slot',
 		],
-		3422 => [
-			'id'          => 3422,
-			'name'        => 'Time Ward',
-			'description' => 'You create a Time Ward at your location. For 3...15 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster.',
-			'concise'     => '(3...15 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster.',
-		],
-		3423 => [
-			'id'          => 3423,
-			'name'        => 'Soul Taker',
-			'description' => 'For 3...30 seconds, your attacks sacrifice 15...20 health and deal +15...20 more damage.',
-			'concise'     => '(3...30 seconds.) Attacks deal +15...20 damage and sacrifice 15...20 health.',
-		],
-		3424 => [
-			'id'          => 3424,
-			'name'        => 'Over the Limit',
-			'description' => 'While you maintain this enchantment, your spells cast 15...20% faster, and recharge 15...50% faster, but you continuously gain Overcast.',
-			'concise'     => 'Spells cast 15...20% faster and recharge 15...50% faster. Continuously gain Overcast while active.',
-		],
-		3425 => [
-			'id'          => 3425,
-			'name'        => 'Judgment Strike',
-			'description' => 'Attack target and adjacent foes. Each attack that hits deals +13...30 Holy damage and knocks down attacking foes.',
-			'concise'     => 'Attacks target and adjacent foes for +13...30 Holy damage. Causes knock down on attacking foes.',
-		],
-		3426 => [
-			'id'          => 3426,
-			'name'        => 'Seven Weapons Stance',
-			'description' => 'For 3...20 seconds, your weapon attributes are increased by +1...15 and you attack 33% faster.',
-			'concise'     => '(3...20 seconds.) Weapon attributes are increased by +1...15. You attack 33% faster.',
-		],
-		3427 => [
-			'id'          => 3427,
-			'name'        => '"Together as One!"',
-			'description' => 'For 3...15 seconds, all party members near you or near your pet deal +5...15 additional damage with attacks and gain +1...7 Health regeneration.',
-			'concise'     => '(3...15 seconds.) All party members near you or your pet deal +5...15 damage and gain +1...7 Health regeneration.',
-		],
-		3428 => [
-			'id'          => 3428,
-			'name'        => 'Shadow Theft',
-			'description' => 'Shadow Step to target foe. For 5...20 seconds that foe\'s attributes are reduced by 1...5 and your attributes are increased by 1...5. This skill counts as a Lead Attack.',
-			'concise'     => 'Shadow Step to target foe. For 5...20 seconds that foe\'s attributes are reduced by 1...5 and your attributes are increased by 1...5. Counts as a Lead Attack.',
-		],
-		3429 => [
-			'id'          => 3429,
-			'name'        => 'Weapons of Three Forges',
-			'description' => 'For 3...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell.',
-			'concise'     => '(3...20 seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected.',
-		],
-		3430 => [
-			'id'          => 3430,
-			'name'        => 'Vow of Revolution',
-			'description' => 'For 3...10 seconds, you have +1...5 energy regeneration. This skill reapplies itself every time you use a non-Dervish skill.',
-			'concise'     => '(3...10 seconds.) Gain +1...5 energy regeneration. Renewal: whenever you use a non-Dervish skill.',
-		],
-		3431 => [
-			'id'          => 3431,
-			'name'        => 'Heroic Refrain',
-			'description' => 'For 3...15 seconds, target non-spirit ally gains +1...3 to all attributes. This echo is reapplied every time a chant or shout ends on that ally.',
-			'concise'     => '(3...13...15 seconds.) Target ally gains +1...3 to all attributes. Renewal: every time a chant or shout ends on this ally. Cannot target spirits.',
+		3437 => [
+			'id'          => 3437,
+			'name'        => 'Farmer\'s Scythe (PvP)',
+			'description' => '',
+			'concise'     => '',
 		],
 	],
 ];
@@ -385,202 +271,22 @@ $skilldata = [
 		'sacrifice'  => 0,
 		'overcast'   => 0,
 	],
-	// Time Ward
-	3422 => [
-		'id'         => 3422,
-		'campaign'   => 0,
-		'profession' => 5,
-		'attribute'  => 0,
-		'type'       => 26,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 10,
-		'activation' => 2,
-		'recharge'   => 30,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Soul Taker
-	3423 => [
-		'id'         => 3423,
-		'campaign'   => 0,
-		'profession' => 4,
-		'attribute'  => 6,
-		'type'       => 23,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 5,
-		'activation' => 1,
-		'recharge'   => 15,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Over the Limit
-	3424 => [
-		'id'         => 3424,
-		'campaign'   => 0,
-		'profession' => 6,
-		'attribute'  => 12,
-		'type'       => 23,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => -1,
-		'energy'     => 5,
-		'activation' => 1,
-		'recharge'   => 20,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Judgment Strike
-	3425 => [
-		'id'         => 3425,
-		'campaign'   => 0,
-		'profession' => 3,
-		'attribute'  => 16,
-		'type'       => 3,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 5,
-		'activation' => 1,
-		'recharge'   => 8,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Seven Weapons Stance
-	3426 => [
-		'id'         => 3426,
-		'campaign'   => 0,
-		'profession' => 1,
-		'attribute'  => 17,
-		'type'       => 29,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 5,
-		'activation' => 0,
-		'recharge'   => 20,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// "Together as One!"
-	3427 => [
-		'id'         => 3427,
-		'campaign'   => 0,
-		'profession' => 2,
-		'attribute'  => 23,
-		'type'       => 20,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 10,
-		'activation' => 0,
-		'recharge'   => 15,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Shadow Theft
-	3428 => [
-		'id'         => 3428,
-		'campaign'   => 0,
-		'profession' => 7,
-		'attribute'  => 35,
-		'type'       => 1,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 5,
-		'activation' => 0.25,
-		'recharge'   => 20,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Weapons of Three Forges
-	3429 => [
-		'id'         => 3429,
-		'campaign'   => 0,
-		'profession' => 8,
-		'attribute'  => 36,
-		'type'       => 27,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 10,
-		'activation' => 2,
-		'recharge'   => 15,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Vow of Revolution
-	3430 => [
-		'id'         => 3430,
-		'campaign'   => 0,
+	// Farmer's Scythe (PvP)
+	3437 => [
+		'id'         => 3437,
+		'campaign'   => 3,
 		'profession' => 10,
-		'attribute'  => 44,
-		'type'       => 23,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 10,
-		'activation' => 2,
-		'recharge'   => 30,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
-	],
-	// Heroic Refrain
-	3431 => [
-		'id'         => 3431,
-		'campaign'   => 0,
-		'profession' => 9,
-		'attribute'  => 40,
-		'type'       => 14,
-		'is_elite'   => true,
-		'is_rp'      => true,
-		'is_pvp'     => false,
+		'attribute'  => 41,
+		'type'       => 9,
+		'is_elite'   => false,
+		'is_rp'      => false,
+		'is_pvp'     => true,
 		'pvp_split'  => false,
 		'split_id'   => 0,
 		'upkeep'     => 0,
 		'energy'     => 5,
-		'activation' => 1,
-		'recharge'   => 10,
+		'activation' => 0,
+		'recharge'   => 20,
 		'adrenaline' => 0,
 		'sacrifice'  => 0,
 		'overcast'   => 0,
@@ -589,13 +295,7 @@ $skilldata = [
 
 
 function loadPwndFile(string $file):array{
-	$file = realpath($file);
-
-	if($file === false || !is_readable($file)){
-		throw new InvalidArgumentException(sprintf('invalid file "%s"', $file));
-	}
-
-	$data = file_get_contents($file);
+	$data = File::load($file);
 
 	// the original paw-ned² files are stored in Windows-1252
 	if(mb_detect_encoding($data) !== 'UTF-8'){
@@ -646,7 +346,7 @@ foreach(skilldb['pve'] as $lang => $file){
 		$skilldesc[$lang][$id] = [
 			'id'          => $id,
 			'name'        => trim($skill[1]),
-			'description' => trim($skill[3]),
+			'description' => str_replace('"', '', trim($skill[3])),
 			'concise'     => '',
 		];
 
@@ -694,7 +394,7 @@ foreach(skilldb['pvp'] as $lang => $file){
 		$skilldesc[$lang][pvp_split[$id]] = [
 			'id'          => pvp_split[$id],
 			'name'        => trim($skill[1]),
-			'description' => trim($skill[3]),
+			'description' => str_replace('"', '', trim($skill[3])),
 			'concise'     => '',
 		];
 
@@ -728,21 +428,17 @@ foreach(skilldb['pvp'] as $lang => $file){
 
 }
 
-
 // save skill data
 $logger->info(sprintf('skilldata: %s skills', count($skilldata)));
 
 ksort($skilldata);
 
 $jsonData = [
-#	'$schema'   => './skilldata.schema.json',
-	'$schema'   => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/blob/main/data/json-full/skilldata.schema.json',
+	'$schema'   => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-full/skilldata.schema.json',
 	'skilldata' => $skilldata,
 ];
 
-$jsonData = json_encode($jsonData, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
-
-file_put_contents(__DIR__.'/../data/json-full/skilldata.json', str_replace('    ', "\t", $jsonData));
+File::save(__DIR__.'/../data/json-full/skilldata.json', str_replace('    ', "\t", Str::jsonEncode($jsonData)));
 
 // save skill descriptions
 foreach(['de', 'en'] as $lang){
@@ -751,13 +447,10 @@ foreach(['de', 'en'] as $lang){
 	ksort($skilldesc[$lang]);
 
 	$jsonData = [
-#		'$schema'   => './skilldesc.schema.json',
-		'$schema'   => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/blob/main/data/json-full/skilldesc.schema.json',
+		'$schema'   => 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-full/skilldesc.schema.json',
 		'lang'      => $lang,
 		'skilldesc' => $skilldesc[$lang],
 	];
 
-	$jsonData = json_encode($jsonData, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
-
-	file_put_contents(__DIR__.'/../data/json-full/skilldesc-'.$lang.'.json', $jsonData);
+	File::saveJSON(__DIR__.'/../data/json-full/skilldesc-'.$lang.'.json', $jsonData);
 }

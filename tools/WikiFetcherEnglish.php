@@ -9,7 +9,7 @@
  *
  * @noinspection RegExpUnnecessaryNonCapturingGroup, RegExpRedundantEscape
  */
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
@@ -32,23 +32,12 @@ final class WikiFetcherEnglish extends WikiFetcher{
 	protected const MEDIAWIKI_API = 'https://wiki.guildwars.com/api.php';
 	protected const CACHEDIR      = __DIR__.'/../.build/gww/';
 
-	/**
-	 * @inheritDoc
-	 */
-	protected function prepareSkillName(string $skillName, int $id):string{
-		// fix for pve faction skills
-		$skillName = preg_replace('/(\s\((Kurzick|Luxon)\))/', '', $skillName);
+	protected const REDIRECTS = [
+		1599 => '"It\'s Just a Flesh Wound."',
+		1954 => '"Save Yourselves!"', // Luxon
+		2097 => '"Save Yourselves!"', // Kurzick
+	];
 
-		if(in_array($id, [316, 333, 343, 348, 364, 365, 366, 367, 368, 2858, 2883])){
-			$skillName = preg_replace('/([^\(\)]+)(\s\(PvP\))?$/i', '"$1"$2', $skillName);
-		}
-
-		return $skillName;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
 	protected function parseResponse(array $data, int $id):array|null{
 
 		if($id === 0){
@@ -71,10 +60,7 @@ final class WikiFetcherEnglish extends WikiFetcher{
 		return $this->parseInfobox($infobox, $id);
 	}
 
-	/**
-	 * @inheritDoc
-	 */
-	protected function parseInfobox(string $infobox, $id):array{
+	protected function parseInfobox(string $infobox, int $id):array{
 		// replace some templates
 		$s = [
 			// progression
@@ -98,15 +84,15 @@ final class WikiFetcherEnglish extends WikiFetcher{
 
 		$infobox = preg_replace($s, $r, $infobox);
 
-		// clean out unwanted braces, double spaces, etc.
-		$infobox = str_ireplace(['Skill infobox', '<gray>PvE Skill</gray>', '{', '}', '[', ']'], '', $infobox,);
-
 		// fix some things
 		$infobox = str_ireplace(
-			['[does/do]', '[its/their]', '[s]', '&nbsp;', '  '],
-			['(does/do)', '(its/their)', '(s)', ' ', ' '],
+			['[its/their]', '[s]', '&nbsp;', '  '], // '[does/do]',
+			['their', 's', ' ', ' '], // '(does/do)',
 			$infobox,
 		);
+
+		// clean out unwanted braces etc.
+		$infobox = str_ireplace(['Skill infobox', '<gray>PvE Skill</gray>', '{', '}', '[', ']'], '', $infobox,);
 
 		// add a minus to degeneration
 		$infobox = preg_replace('/((?:\d+)[.]+(?:\d+)\s+(?:Health|Energy)\s+degeneration)/i', '-$1', $infobox);
@@ -120,7 +106,7 @@ final class WikiFetcherEnglish extends WikiFetcher{
 		// strip out the skill type
 		foreach(['description', 'concise description'] as $k){
 			// strip out the skill type
-			$infobox[$k] = preg_replace('/^(Elite\s)?(Not a Skill|Skill|Bow Attack|Melee Attack|Axe Attack|Lead Attack|Off-Hand Attack|Dual Attack|Hammer Attack|Scythe Attack|Sword Attack|Pet Attack|Spear Attack|Chant|Echo|Form|Glyph|Preparation|Binding ritual|Nature ritual|Shout|Signet|Spell|Enchantment spell|Hex Spell|Item Spell|Ward Spell|Weapon Spell|Well Spell|Stance|Trap|Ranged attack|Ebon Vanguard Ritual|Flash Enchantment|Flash Enchantment Spell|Double Enchantment|Touch Skill)\.\s/i','', $infobox[$k]);
+			$infobox[$k] = preg_replace('/^(Elite\s)?(Not a Skill|Skill|Bow Attack|Melee Attack|Axe Attack|Lead Attack|Off-Hand Attack|Dual Attack|Hammer Attack|Scythe Attack|Sword Attack|Pet Attack|Spear Attack|Chant|Echo|Form|Glyph|Preparation|Binding ritual|Nature ritual|Shout|Signet|Spell|Enchantment spell|Hex Spell|Item Spell|Ward Spell|Weapon Spell|Well Spell|Stance|Trap|Ranged attack|Ebon Vanguard Ritual|Flash Enchantment|Flash Enchantment Spell|Double Enchantment|Touch Skill)\.\s/i','', $infobox[$k]); // phpcs:ignore
 		}
 
 		if(in_array($id, self::Luxon, true)){

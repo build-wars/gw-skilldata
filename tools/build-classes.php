@@ -11,18 +11,15 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
-use function array_keys;
+use chillerlan\Utilities\File;
 use function array_map;
-use function file_get_contents;
-use function file_put_contents;
 use function implode;
 use function is_bool;
-use function json_decode;
-use function realpath;
 use function sprintf;
 use function str_replace;
 
 /**
+ * @phan-file-suppress PhanUndeclaredGlobalVariable ??
  * @var \Psr\Log\LoggerInterface $logger
  */
 require_once __DIR__.'/common.php';
@@ -32,7 +29,7 @@ require_once __DIR__.'/common.php';
  * skill data
  */
 
-$json = json_decode(file_get_contents(dataFile), true);
+$json = File::loadJSON(dataFile, true);
 
 // dump the PHP class
 $content = [
@@ -40,7 +37,6 @@ $content = [
 	'declare(strict_types=1);',
 	'namespace Buildwars\\GWSkillData;',
 	'abstract class SkillData extends SkillDataAbstract{',
-	sprintf("public const KEYS_DATA = ['%s'];", implode("','", array_keys($json['skilldata'][0]))),
 	'public const ID2DATA = [',
 ];
 
@@ -59,9 +55,9 @@ $content[] = "];}\n";
 
 $classFile = __DIR__.'/../src/SkillData.php';
 
-file_put_contents($classFile, implode("\n", $content));
+File::save($classFile, implode("\n", $content));
 
-$logger->info(sprintf('class SkillData saved in %s', realpath($classFile)));
+$logger->info(sprintf('class SkillData saved in %s', File::realpath($classFile)));
 
 
 /*
@@ -69,7 +65,7 @@ $logger->info(sprintf('class SkillData saved in %s', realpath($classFile)));
  */
 
 foreach(langFiles as $lang => [$abbr, $file]){
-	$json = json_decode(file_get_contents($file), true);
+	$json = File::loadJSON($file, true);
 
 	// unset the "id" field here
 	foreach($json['skilldesc'] as &$row){
@@ -83,7 +79,6 @@ foreach(langFiles as $lang => [$abbr, $file]){
 		'namespace Buildwars\\GWSkillData;',
 		sprintf('final class SkillLang%s extends SkillData{', $lang),
 		sprintf("public const LANG = '%s';", $abbr),
-		sprintf("public const KEYS_DESC = ['%s'];", implode("','", array_keys($json['skilldesc'][0]))),
 		'public const ID2DESC = [',
 	];
 
@@ -98,8 +93,7 @@ foreach(langFiles as $lang => [$abbr, $file]){
 
 	$classFile = __DIR__.'/../src/SkillLang'.$lang.'.php';
 
-	file_put_contents($classFile, implode("\n", $content));
+	File::save($classFile, implode("\n", $content));
 
-	$logger->info(sprintf('class SkillLang%s saved in %s', $lang, realpath($classFile)));
+	$logger->info(sprintf('class SkillLang%s saved in %s', $lang, File::realpath($classFile)));
 }
-

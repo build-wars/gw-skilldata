@@ -29,15 +29,13 @@ const logLevel = LogLevel::DEBUG;
 const cacert   = __DIR__.'/cacert.pem';
 
 // init logger
-$formatter = new LineFormatter(null, 'Y-m-d H:i:s', true, true);
-$formatter->setJsonPrettyPrint(true);
+$formatter  = (new LineFormatter(null, 'Y-m-d H:i:s', true, true))->setJsonPrettyPrint(true);
 $logHandler = (new StreamHandler('php://stdout', logLevel))->setFormatter($formatter);
-$logger = new Logger('log', [$logHandler]);
+$logger     = new Logger('log', [$logHandler]); // phpcs:ignore
 
 // init http
 $httpOptions = new HTTPOptions(['ca_info' => cacert, 'timeout' => 30]);
-
-$http = new CurlClient(new HTTPFactory, $httpOptions);
+$http        = new CurlClient(new HTTPFactory, $httpOptions); // phpcs:ignore
 
 const dataFile = __DIR__.'/../data/json-full/skilldata.json';
 

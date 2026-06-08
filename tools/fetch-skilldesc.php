@@ -12,17 +12,10 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools;
 
 use chillerlan\HTTP\Psr7\HTTPFactory;
-use InvalidArgumentException;
-use function file_get_contents;
-use function file_put_contents;
-use function json_decode;
-use function json_encode;
-use function realpath;
+use chillerlan\Utilities\File;
+use chillerlan\Utilities\Str;
 use function sprintf;
 use function str_replace;
-use const JSON_PRETTY_PRINT;
-use const JSON_UNESCAPED_SLASHES;
-use const JSON_UNESCAPED_UNICODE;
 
 /**
  * @var \Psr\Http\Client\ClientInterface $http
@@ -35,23 +28,22 @@ const fetchers = [
 	'German'  => WikiFetcherGerman::class,
 ];
 
+const from_cache = false;
+
+$httpFactory = new HTTPFactory;
 
 foreach(fetchers as $language => $fqcn){
 	// invoke fetcher
-	$fetcher = new $fqcn($http, new HTTPFactory, new HTTPFactory, new HTTPFactory, $logger);
+	/** @var \Buildwars\GWSkillDataTools\WikiFetcher $fetcher */
+	$fetcher = new $fqcn($http, $httpFactory, $httpFactory, $httpFactory, $logger);
 
 	// load the previously created JSON (see parse-pwnd)
-	[$lang, $file] = langFiles[$language];
-	$skilldescJSON = realpath($file);
+	[, $skilldescJSON] = langFiles[$language];
 
-	if($skilldescJSON === false){
-		throw new InvalidArgumentException(sprintf('the data file "%s" does not exist', $file));
-	}
-
-	$skilldesc = json_decode(file_get_contents($skilldescJSON), true);
+	$skilldesc = File::loadJSON($skilldescJSON, true);
 
 	foreach($skilldesc['skilldesc'] as &$desc){
-		$data = $fetcher->fetch($desc['name'], $desc['id'], true);
+		$data = $fetcher->fetch($desc['name'], $desc['id'], from_cache);
 
 		if($data === null){
 			continue;
@@ -68,7 +60,5 @@ foreach(fetchers as $language => $fqcn){
 	}
 
 	// save updated JSON
-	$json = json_encode($skilldesc, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
-
-	file_put_contents($skilldescJSON, str_replace('    ', "\t", $json));
+	File::save($skilldescJSON, str_replace('    ', "\t", Str::jsonEncode($skilldesc)));
 }
