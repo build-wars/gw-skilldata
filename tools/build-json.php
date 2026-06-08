@@ -20,6 +20,7 @@ use function sprintf;
 use function str_replace;
 
 /**
+ * @phan-file-suppress PhanUndeclaredGlobalVariable ??
  * @var \Psr\Log\LoggerInterface $logger
  */
 require_once __DIR__.'/common.php';
