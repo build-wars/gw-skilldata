@@ -156,3 +156,54 @@ jobs:
             dist/gw-skilldata-es6-src.js
             dist/gw-skilldata-node.cjs
             dist/gw-skilldata-node-src.cjs
+
+  build-public:
+    needs: build-js
+    name: "publish files"
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout sources"
+        uses: actions/checkout@v6
+
+      - name: "Install PHP with extensions"
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.5"
+          extensions: ${{ env.PHP_EXTENSIONS }}
+          ini-values: ${{ env.PHP_INI_VALUES }}
+          coverage: none
+
+      - name: "Install dependencies with composer"
+        uses: ramsey/composer-install@v4
+
+      - name: "Build combined and per-skill json"
+        run: php ./tools/build-json.php
+
+      - name: "Copy files"
+        run: |
+          mkdir ./public/js
+          cp ./dist/gw-skilldata-es6.js ./public/js
+          cp ./dist/gw-skilldata-es6-src.js ./public/js
+          cp ./dist/gw-skilldata-node.cjs ./public/js
+          cp ./dist/gw-skilldata-node-src.cjs ./public/js
+          mkdir ./public/json
+          mkdir ./public/json/skills
+          cp ./data/json-full/skilldata.json ./public/json
+          cp ./data/json-full/skilldesc-de.json ./public/json
+          cp ./data/json-full/skilldesc-en.json ./public/json
+          cp ./data/json-skills/*.json ./public/json/skills
+          mkdir ./public/schemas
+          cp ./data/json-full/skilldata.schema.json ./public/schemas
+          cp ./data/json-full/skilldata-combined.schema.json ./public/schemas
+          cp ./data/json-full/skilldesc.schema.json ./public/schemas
+          cp ./data/json-skills/skill.schema.json ./public/schemas
+
+      - name: "Publish API docs to branch gh-pages"
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          clean: true
+
