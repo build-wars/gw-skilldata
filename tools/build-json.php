@@ -61,8 +61,8 @@ foreach($jsonData['skilldata'] as $skillID => &$skillData){
 	File::save(__DIR__.'/../data/json-skills/'.$skillID.'.json', str_replace('    ', "\t", Str::jsonEncode($skill)));
 }
 
-$logger->info(sprintf('JSON for combined skilldata: %s ', File::realpath(combinedJSON)));
-
 $jsonData['$schema'] = 'https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-full/skilldata-combined.schema.json';
 
 File::save(combinedJSON, str_replace('    ', "\t", Str::jsonEncode($jsonData)));
+
+$logger->info(sprintf('JSON for combined skilldata: %s ', File::realpath(combinedJSON)));
