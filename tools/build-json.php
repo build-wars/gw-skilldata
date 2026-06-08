@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools;
 
 use Buildwars\GWSkillData\SkillDataInterface;
+use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use chillerlan\Utilities\Str;
 use function sprintf;
@@ -26,6 +27,9 @@ use function str_replace;
 require_once __DIR__.'/common.php';
 
 const combinedJSON = __DIR__.'/../data/json-full/skilldata-combined.json';
+const skillJSONDir = __DIR__.'/../data/json-skills/';
+
+Directory::create(skillJSONDir);
 
 $jsonData = File::loadJSON(dataFile, true);
 $jsonLang = [];
@@ -58,7 +62,7 @@ foreach($jsonData['skilldata'] as $skillID => &$skillData){
 
 	$logger->info(sprintf('JSON for [%-4s] %s ', $skillID, $skillData['lang']['en']['name']));
 
-	File::save(__DIR__.'/../data/json-skills/'.$skillID.'.json', str_replace('    ', "\t", Str::jsonEncode($skill)));
+	File::save(skillJSONDir.$skillID.'.json', str_replace('    ', "\t", Str::jsonEncode($skill)));
 }
 
 $jsonData['$schema'] = 'https://build-wars.github.io/gw-skilldata/schemas/skilldata-combined.schema.json';
