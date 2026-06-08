@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 150,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 7,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zeichen des Schmerzes",
+				"description": "30 Sekunden lang fügt \"Zeichen des Schmerzes\" immer dann, wenn der Zielgegner physischen Schaden nimmt, umstehenden Feinden 10...40 Punkte Schattenschaden zu.",
+				"concise": "30 Sekunden: Richtet bei umstehenden Feinden jedes Mal 10...40 Punkte Schaden an, wenn der Gegner physischen Schaden erleidet.",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Mark of Pain",
+				"description": "For 30 seconds, whenever target foe takes physical damage, Mark of Pain deals 10...40 shadow damage to adjacent foes.",
+				"concise": "(30 seconds.) Deals 10...40 damage to adjacent foes whenever target foe takes physical damage.",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

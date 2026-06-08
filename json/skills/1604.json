@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1604,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 37,
+		"type": 12,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.5,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Unterbrechender Wurf",
+				"description": "Wenn dieser Angriff einen Gegner trifft, der unter einem Zustand leidet, wird er unterbrochen.",
+				"concise": "Unterbricht Aktionen. <gray>Gegner muss einen Zustand haben, sonst keine Wirkung.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Speerbeherrschung",
+				"type": "Speerangriff"
+			},
+			"en": {
+				"name": "Disrupting Throw",
+				"description": "If this attack hits a foe suffering from a condition, that foe is interrupted.",
+				"concise": "Interrupts actions. <gray>No effect unless target has a condition.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Spear Mastery",
+				"type": "Spear Attack"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2191,
+		"campaign": 4,
+		"profession": 6,
+		"attribute": 11,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 3398,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rutschiger Boden",
+				"description": "Wenn der Gegner oder ein umstehender Feind geblendet ist oder sich bewegt, wird er zu Boden geworfen. Bei Wassermagie von 4 oder weniger besteht eine 50%ige Change eines Misserfolges.)",
+				"concise": "Wirft den Gegner zu Boden, falls er geblendet ist oder sich bewegt. Trifft um Euren Zielgegner herum stehende Feinde. <gray>Bei Wassermagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Slippery Ground",
+				"description": "If target or adjacent foes are Blind or moving, these foes are knocked down. There is a 50% chance of failure with Water Magic less than 5.",
+				"concise": "Causes knock-down if this foe is Blind or moving. Affects foes adjacent to your target. <gray>50% failure chance unless Water Magic greater than 4.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

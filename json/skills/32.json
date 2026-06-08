@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 32,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 1,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Illusion der Schwäche",
+				"description": "Ihr verliert 51...241 Lebenspunkte. Illusion der Schwäche endet, wenn der Schaden Eure Lebenspunkte unter 25% Eurer maximalen Lebenspunkte bringt. Wenn Illusion der Schwäche endet, heilt Ihr um 50...240 Lebenspunkte.",
+				"concise": "Ihr verliert 51...241 Lebenspunkte. Wirkung am Ende: Ihr heilt um 50...240 Lebenspunkte. <gray>Endet, wenn Eure Lebenspunkte durch Schaden unter 25% Eurer maximalen Lebenspunkte gebracht werden.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusionsmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Illusion of Weakness",
+				"description": "You lose 50...240 Health. Illusion of Weakness ends if damage drops your Health below 25% of your maximum. When Illusion of Weakness ends, you gain 50...240 Health.",
+				"concise": "Lose 50...240 Health. End effect: you gain 50...240 Health. <gray>Ends if damage drops your Health below 25% of your maximum.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusion Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

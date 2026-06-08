@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 93,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 5,
+		"type": 28,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Brunnen des Leidens",
+				"description": "Der nächste Kadaver wird an seiner Position in einen Brunnen des Leidens verwandelt, oder opfert 66% Lebenskraft. 10...30 Sekunden lang erleiden alle Feinde, die sich in dem Bereich aufhalten, eine Lebenspunktdegeneration von -1...6.",
+				"concise": "(10...30 Sekunden.) Gegner in diesem Brunnen erhalten eine Lebenspunktdegeneration in Höhe von +1...6. <gray>Benutzt frischen Kadaver.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Brunnenzauber"
+			},
+			"en": {
+				"name": "Well of Suffering",
+				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Suffering at its location. For 10...30 seconds, foes in that area suffer -1...6 Health degeneration.",
+				"concise": "(10...30 seconds.) Foes in this well have -1...6 Health degeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Well Spell"
+			}
+		}
+	}
+}

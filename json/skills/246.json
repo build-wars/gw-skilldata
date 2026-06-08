@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 246,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 16,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Göttliche Intervention",
+				"description": "Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 10 Sekunden eigentlich sterben müsste, werden seine Lebenspunkte stattdessen auf 0 gesetzt und der Verbündete wird um 26...240 Lebenspunkte geheilt.",
+				"concise": "10 Sekunden: Verhindert Euren nächsten Tod. Verhinderungswirkung: Setzt Lebenspunkte auf 0 und heilt um 26...240 Lebenspunkte.",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Divine Intervention",
+				"description": "For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and that ally is healed for 26...240 Health.",
+				"concise": "(10 seconds.) Negates the next fatal damage target ally takes. Negation effect: heals for 26...240.",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

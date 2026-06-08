@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 795,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 34,
+		"type": 27,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Alptraumwaffe",
+				"description": "Während der nächsten 12 Sekunden hat der Verbündete (bzw. Ihr selbst) eine Alptraumwaffe. Die nächsten 3 Angriffe des Verbündeten (bzw. Eure eigenen) werden um 10...50 Schadenspunkte reduziert und entziehen bis zu 10...50 Lebenspunkte.",
+				"concise": "12 Sekunden: Angriffe des Verbündeten (bzw. von Euch selbst) entziehen 10...50 Lebenspunkte, richten aber 10...50 Punkte weniger Schaden an. <gray>Endet nach 3 Angriffen.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Kanalisierungsmagie",
+				"type": "Waffenzauber"
+			},
+			"en": {
+				"name": "Nightmare Weapon",
+				"description": "For 12 seconds, target ally has a Nightmare Weapon. Target ally's next 3 attacks are reduced by 10...50 damage and steal up to 10...50 Health.",
+				"concise": "(12 seconds.) Target ally's attacks steal 10...50 Health but deal 10...50 less damage. <gray>Ends after 3 attacks.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Channeling Magic",
+				"type": "Weapon Spell"
+			}
+		}
+	}
+}

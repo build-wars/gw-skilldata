@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 870,
+		"campaign": 3,
+		"profession": 2,
+		"attribute": 24,
+		"type": 19,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 3,
+		"recharge": 60,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Pestilenz",
+				"description": "Erstellt einen Geist der Stufe 1...10. Wenn eine Kreatur, die kein Geist ist, in seiner Reichweite stirbt, werden alle Zustände, mit denen sie belegt ist, auf alle Kreaturen in dem Bereich verteilt, die bereits an einem Zustand leiden. Dieser Geist stirbt nach 30...180 Sekunden.",
+				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Wenn eine Kreatur in Reichweite stirbt, werden die Zustände dieser Kreatur auf alle anderen Kreaturen im Bereich übertragen, die einen Zustand haben. Geister sind nicht betroffen.",
+				"campaign": "Nightfall",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Überleben in der Wildnis",
+				"type": "Naturritual"
+			},
+			"en": {
+				"name": "Pestilence",
+				"description": "Create a level 1...10 spirit. When any creature within its range dies, conditions on that creature spread to any creature in the area already suffering from a condition. This spirit dies after 30...180 seconds.",
+				"concise": "Creates a level 1...10 spirit (30...180 second lifespan). When any creature in range dies, conditions on this creature spread to any creature in the area with a condition. Spirits are not affected.",
+				"campaign": "Nightfall",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Wilderness Survival",
+				"type": "Nature ritual"
+			}
+		}
+	}
+}

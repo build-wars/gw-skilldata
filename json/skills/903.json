@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 903,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 11,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 5,
+		"lang": {
+			"de": {
+				"name": "Eisprisma",
+				"description": "Der Gegner erleidet 15...75 Punkte Kälteschaden. Wenn der Gegner unter einer Wassermagie-Verhexung leidet, fügt Eisprisma allen Feinden in der Nähe +15...75 Kälteschaden zu.",
+				"concise": "Richtet 10...75 Punkte Kälteschaden an. Verursacht 15...75 Punkte Kälteschaden bei allen Feinden in der Nähe, wenn der Gegner unter einer Wassermagie-Verhexung leidet.",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Icy Prism",
+				"description": "Target foe is struck for 15...75 cold damage. If that foe has a Water Magic hex, Icy Prism deals +<sic/>15...75 cold damage to all other nearby foes.",
+				"concise": "Deals 15...75 cold damage. Deals +<sic/>15...75 cold damage to other nearby foes if target has a Water Magic hex.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

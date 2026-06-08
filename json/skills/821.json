@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 821,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 6,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Eisadern",
+				"description": "Der Gegner erleidet 10...90 Punkte Kälteschaden. Wenn er innerhalb der nächsten 10...35 Sekunden stirbt, erleiden alle Feinde in der Nähe 20...110 Punkte Kälteschaden.",
+				"concise": "10...35 Sekunden: Richtet bei Feinden in der Nähe 20...110 Punkte Kälteschaden an, wenn der Gegner stirbt. Anfangswirkung: Richtet 10...90 Punkte Kälteschaden an.",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Seelensammlung",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Icy Veins",
+				"description": "Target foe is struck for 10...90 cold damage. For 10...35 seconds, if target foe dies all nearby foes are struck for 20...110 cold damage.",
+				"concise": "(10...35 seconds.) Deals 20...110 cold damage to nearby foes if target foe dies. Initial effect: deals 10...90 cold damage.",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Soul Reaping",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

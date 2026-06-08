@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 300,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 16,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Gebot der Reinheit",
+				"description": "Alle Verzauberungen gehen verloren. Für jede verlorene Verzauberung erhaltet Ihr 0...80 Lebenspunkte und verliert eine Verhexung sowie einen Zustand (maximal 1...8 Verhexungen und Zustände).",
+				"concise": "Für jede Verzauberung auf Euch erhaltet Ihr 0...80 Lebenspunkte und verliert eine Verhexung sowie einen Zustand (maximal 1...8 Verhexung und Zustand). <gray>Ihr verliert alle Verzauberungen.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Contemplation of Purity",
+				"description": "Lose all enchantments. For each one lost, you gain 0...80 Health, lose one hex, and lose one condition (maximum 1...8 hexes and conditions).",
+				"concise": "You gain 0...80 Health and lose one hex and one condition for each enchantment on you (maximum 1...8 hexes and conditions). <gray>You lose all enchantments.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Skill"
+			}
+		}
+	}
+}

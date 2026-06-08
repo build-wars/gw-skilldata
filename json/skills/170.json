@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 170,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 9,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 3,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 10,
+		"lang": {
+			"de": {
+				"name": "Erdbeben",
+				"description": "An der Position des Gegners wird ein Erdbeben erzeugt. Alle Gegner in diesem Gebiet werden zu Boden geworfen und erleiden 26...100 Punkte Erdschaden.",
+				"concise": "Richtet 26...100 Punkte Erdschaden an. Tifft auch Feinde in der Nähe des Ziels. Wirft zu Boden.",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Earthquake",
+				"description": "You invoke an Earthquake at target foe's location. All foes near this location are knocked down and are struck for 26...100 earth damage.",
+				"concise": "Deals 26...100 earth damage. Also hits foes near target. Causes knock-down.",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

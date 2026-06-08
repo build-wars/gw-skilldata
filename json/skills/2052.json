@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2052,
+		"campaign": 4,
+		"profession": 7,
+		"attribute": 30,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schattenfangzahn",
+				"description": "Ihr unternehmt einen Schattenschritt zum Gegner hin. 10 Sekunden lang macht diese Verhexung nichts. Wenn sie endet, kehrt Ihr zu Eurer ursprünglichen Position zurück und der Gegner leidet 5...20 Sekunden lang an einer Tiefen Wunde.",
+				"concise": "Unternehmt einen Schattenschritt zum Gegner. Wirkung am Ende (nach 10 Sekunden): Verursacht Zustand Tiefe Wunde (5...20 Sekunden); Ihr kehrt zur anfänglichen Position zurück.",
+				"campaign": "Eye of the North",
+				"profession": "Assassine",
+				"profession_abbr": "A",
+				"attribute": "Tödliche Künste",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Shadow Fang",
+				"description": "Shadow Step to target foe. For 10 seconds, this hex does nothing. When this hex ends, you return to your original location and that foe suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "Shadow Step to target foe. End effect after 10 seconds: inflicts Deep Wound condition (5...20 seconds); you return to your original location.",
+				"campaign": "Eye of the North",
+				"profession": "Assassin",
+				"profession_abbr": "A",
+				"attribute": "Deadly Arts",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 276,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 15,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.75,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zustand wiederherstellen",
+				"description": "Entfernt alle Zustände (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung und Tiefe Wunde) vom Verbündeten. Dieser Verbündete wird für jeden entfernten Zustand für 10...70 Punkte geheilt.",
+				"concise": "Entfernt alle Zustände. Entfernungswirkung: Heilt für jeden entfernten Zustand um 10...70 Lebenspunkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Restore Condition",
+				"description": "Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target other ally. For each condition removed, that ally is healed for 10...70 Health.",
+				"concise": "Removes all conditions. Removal effect: heals for 10...70 for each condition removed. <gray>Cannot self-target.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

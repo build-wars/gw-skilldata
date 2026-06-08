@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 303,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 15,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verhexungen umwandeln",
+				"description": "Entfernt alle Verhexungen vom Verbündeten. Er erhält 8...20 Sekunden lang +10 Rüstung, falls eine Nekromanten-Verhexung entfernt wurde.",
+				"concise": "Entfernt alle Verhexungen; +10 Rüstung bei entfernter Nekromanten-Verhexung (8...20 Sekunden). <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Convert Hexes",
+				"description": "Remove all hexes from target other ally. For 8...20 seconds, that ally gains +10 armor for each Necromancer hex that was removed.",
+				"concise": "Removes all hexes; +10 armor for each Necromancer hex removed (8...20 seconds). <gray>Cannot self-target.</gray>",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 269,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schutzzeichen",
+				"description": "10 Sekunden lang wird der Verbündete (oder Ihr selbst) immer dann, wenn er Schaden erleiden müsste, stattdessen um diese Punktzahl, höchstens jedoch um 6...60 Punkte geheilt. Alle Eure Schutzgebete werden 5 Sekunden lang deaktiviert.",
+				"concise": "10 Sekunden: Wandelt erlittenen Schaden in Heilung um (maximal 6...60 Lebenspunkte). <gray>Alle Eure Schutzgebete werden deaktiviert (5 Sekunden).</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Mark of Protection",
+				"description": "For 10 seconds, whenever target ally would take damage, that ally is healed for that amount instead, maximum 6...60. All your Protection Prayers are disabled for 5 seconds.",
+				"concise": "(10 seconds.) Converts incoming damage to healing (maximum 6...60). <gray>All your Protection Prayers are disabled (5 seconds).</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

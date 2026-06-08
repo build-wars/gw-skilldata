@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1126,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 101,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 7,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ausdrückliche Entfernung",
+				"description": "Ihr und der Verbündete verlieren 1 Zustand und 1 Verhexung und werden um 50 Lebenspunkte geheilt.",
+				"concise": "Entfernt einen Zustand und eine Verhexung vom Verbündeten und Euch selbst und heilt um 50 Punkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Kein Attribut",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Empathic Removal",
+				"description": "You and target other ally lose 1 condition and 1 hex, and are healed for 50.",
+				"concise": "Removes one condition and hex from target ally and yourself, and heals for 50. <gray>Cannot self-target.</gray>",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "No Attribute",
+				"type": "Spell"
+			}
+		}
+	}
+}

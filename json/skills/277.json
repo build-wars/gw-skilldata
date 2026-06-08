@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 277,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 15,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.75,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Leiden heilen",
+				"description": "Entfernt einen Zustand (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung oder Tiefe Wunde) vom Verbündeten (bzw. Euch selbst). Für jeden verbleibenden Zustand wird dieser Verbündete um 5...70 Lebenspunkte geheilt.",
+				"concise": "Entfernt einen Zustand. Entfernungswirkung: Heilt um 5...70 Lebenspunkte pro verbleibendem Zustand.",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Mend Ailment",
+				"description": "Remove one condition (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, or Deep Wound) from target ally. For each remaining Condition, that ally is healed for 5...70 Health.",
+				"concise": "Removes a condition. Removal effect: heals for 5...70 for each remaining condition.",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

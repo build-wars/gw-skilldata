@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 402,
+		"campaign": 0,
+		"profession": 2,
+		"attribute": 25,
+		"type": 2,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Entschlossener Schuss",
+				"description": "Wenn Entschlossener Schuss trifft, fügt Ihr 5...20 Punkte zusätzlichen Schaden zu. Wenn dieser Angriff fehlschlägt, werden alle Eure Angriffsfertigkeiten wieder aufgeladen.",
+				"concise": "Richtet +5...20 Punkte Schaden an. Lädt Eure Angriffsfertigkeiten auf, falls der Angriff nicht trifft.",
+				"campaign": "Basis",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Treffsicherheit",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Determined Shot",
+				"description": "If Determined Shot hits, you strike for +5...20 damage. If Determined Shot fails to hit, all of your attack skills are recharged.",
+				"concise": "Deals +5...20 damage. Recharges your attack skills if it fails to hit.",
+				"campaign": "Core",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Marksmanship",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

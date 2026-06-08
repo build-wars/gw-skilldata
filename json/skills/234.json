@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 234,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 11,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 2,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Tiefgefrieren",
+				"description": "Die Position des Gegners wird tiefgefroren. Alle Feinde in diesem Bereich erleiden 10...85 Punkte Kälteschaden und bewegen sich 10 Sekunden lang um 66% langsamer.",
+				"concise": "Verhext auch Feinde im Bereich Eures Gegners (10 Sekunden). Die Betroffenen bewegen sich um 66% langsamer. Anfangswirkung: Richtet 10...85 Punkte Kälteschaden an.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Deep Freeze",
+				"description": "You cause a Deep Freeze at target foe's location. All foes in this area are struck for 10...85 cold damage, and for 10 seconds, they move 66% slower.",
+				"concise": "Also hexes foes in the area of your target (10 seconds). These foes move 66% slower. Initial effect: deals 10...85 cold damage.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

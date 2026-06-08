@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1345,
+		"campaign": 3,
+		"profession": 5,
+		"attribute": 2,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 3192,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rätsel des Verzauberers",
+				"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleiden er und alle umstehenden Feinde 10...100 Punkte Schaden.",
+				"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Richtet beim Gegner und allen umstehenden Feinden 10...100 Punkte Schaden an, falls der Gegner nicht verzaubert ist.",
+				"campaign": "Nightfall",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Enchanter's Conundrum",
+				"description": "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe and all adjacent foes take 10...100 damage.",
+				"concise": "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: deals 10...100 damage to target and adjacent foes if target foe is not enchanted.",
+				"campaign": "Nightfall",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

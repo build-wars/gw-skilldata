@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3196,
+		"campaign": 4,
+		"profession": 5,
+		"attribute": 1,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Kalkuliertes Risiko (PvP)",
+				"description": "3...12 Sekunden lang fügen Angriffe des Gegners +10 Punkte Schaden zu, aber es gibt bei jedem Angriff eine Chance von 50%, dass der Schaden stattdessen dem Gegner zugefügt wird. (Maximal 15...60 Punkte Schaden)",
+				"concise": "Angriffe des Gegners richten +10 Punkte Schaden an (3...12 Sekunden). Bei jedem Angriff besteht eine Chance von 50%, dass der Schaden (Maximal 15...60 Punkte) stattdessen dem Gegner zugefügt wird.",
+				"campaign": "Eye of the North",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusionsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Calculated Risk (PvP)",
+				"description": "For 3...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 10...60 damage.)",
+				"concise": "Target foe does +10 damage with attacks (3...12 seconds). There is a 50% chance that the damage from each attack (maximum 10...60) will be done to that foe instead.",
+				"campaign": "Eye of the North",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusion Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

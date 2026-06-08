@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 202,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 101,
+		"type": 16,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Glyphe der Opferung",
+				"description": "15 Sekunden lang benötigt Eure nächste Fertigkeit für die Wiederaufladung 30 Sekunden länger, aber wird, wenn sie ein Zauber ist, sofort gewirkt.",
+				"concise": "(15 Sekunden.) Eure nächste Fertigkeit benötigt für die Wiederaufladung 30 Sekunden länger. Ist sie ein Zauber, wird sie sofort gewirkt.",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Kein Attribut",
+				"type": "Glyphe"
+			},
+			"en": {
+				"name": "Glyph of Sacrifice",
+				"description": "For 15 seconds, your next spell casts instantly, but it takes an additional 30 seconds to recharge. Ends prematurely if you use a non-spell skill.",
+				"concise": "(15 seconds.) Your next spell casts instantly but takes an additional 30 seconds to recharge. <gray>Ends if you use a non-spell skill.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "No Attribute",
+				"type": "Glyph"
+			}
+		}
+	}
+}

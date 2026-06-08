@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 148,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 4,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 17,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Orden des Vampirs",
+				"description": "5 Sekunden lang entzieht ein Gruppenmitglied, das nicht mit einer anderen Nekromanten-Verzauberung belegt ist, jedes Mal, wenn es einem Gegner physischen Schaden zufügt, bis zu 3...16 Lebenspunkte.",
+				"concise": "Verzaubert alle Gruppenmitglieder (5 Sekunden). Die Betroffenen entziehen mit jedem Angriff, der physischen Schaden anrichtet, 3...16 Lebenspunkte. <gray>Gruppenmitglieder, die unter dem Einfluss einer anderen Nekromanten-Verzauberung stehen, sind nicht betroffen.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Blutmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Order of the Vampire",
+				"description": "For 5 seconds, whenever a party member who is not under the effects of another Necromancer enchantment hits a foe with physical damage, that party member steals up to 3...16 Health.",
+				"concise": "Enchants all party members (5 seconds.) These party members steal 3...16 Health with each physical damage attack. <gray>Party members under another Necromancer enchantment are not affected.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Blood Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

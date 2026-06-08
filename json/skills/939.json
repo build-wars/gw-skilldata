@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 939,
+		"campaign": 3,
+		"profession": 6,
+		"attribute": 11,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Eisfesseln",
+				"description": "1...10 Sekunden lang ist die Bewegungsgeschwindigkeit des Gegners um 66% reduziert. Wenn er unter dem Einfluss einer Verzauberung steht, sind die Bewegungen dieses Gegners um 90% reduziert.",
+				"concise": "1...10 Sekunden: Gegner bewegt sich um 66% langsamer. Gegner bewegt sich um 90% langsamer, falls er verzaubert ist.",
+				"campaign": "Nightfall",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Icy Shackles",
+				"description": "For 1...10 seconds, target foe's movement speed is reduced by 66%. While under the effects of an enchantment, that foe's movement is reduced by 90%.",
+				"concise": "(1...10 seconds.) Target foe moves 66% slower. This foe moves 90% slower if enchanted.",
+				"campaign": "Nightfall",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

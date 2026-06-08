@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 310,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 16,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 60,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Göttlicher Geist",
+				"description": "1...14 Sekunden lang kostet Euch das Wirken von Mönch-Zaubern 5 Energiepunkte weniger. (Mindestkosten: 1 Energiepunkt).",
+				"concise": "1...14 Sekunden: Mönch-Zauber kosten Euch 5 Energiepunkte weniger. <gray>Mindestkosten: 1 Energiepunkt.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Divine Spirit",
+				"description": "For 1...14 seconds, Monk Spells cost you 5 less Energy to cast. (Minimum cost: 1 Energy.)",
+				"concise": "(1...14 seconds.) Monk spells cost you 5 less Energy. <gray>Minimum cost: 1 Energy.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

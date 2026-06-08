@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 40,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 3,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ätherschmaus",
+				"description": "Der Gegner verliert 3 Punkte Energie. Für jeden verlorenen Punkt Energie heilt Ihr Euch um 20...65 Lebenspunkte.",
+				"concise": "Lässt 3 Energiepunkte verlieren. Ihr heilt Euch pro verlorenem Energiepunkt um 20...65 Lebenspunkte.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Inspirationsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Ether Feast",
+				"description": "Target foe loses 3 Energy. You are healed 20...65 for each point of Energy lost.",
+				"concise": "Causes 3 Energy loss. You gain 20...65 Health for each point of Energy lost.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Inspiration Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

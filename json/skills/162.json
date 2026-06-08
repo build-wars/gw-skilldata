@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 162,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 8,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 10,
+		"lang": {
+			"de": {
+				"name": "Orkan",
+				"description": "Der Gegner wird 2 Sekunden zu Boden geworfen. Bei Luftmagie von 4 oder weniger besteht eine 50% Wahrscheinlichkeit für einen Misserfolg.",
+				"concise": "Wirft zu Boden. <gray>Mindestens Luftmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Luftmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Gale",
+				"description": "Knock down target foe for 2 seconds. (50% failure chance with Air Magic 4 or less.)",
+				"concise": "Causes knock-down. <gray>50% failure chance unless Air Magic 5 or more.</gray>",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Air Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

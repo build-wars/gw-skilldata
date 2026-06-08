@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1599,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 39,
+		"type": 20,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Es ist nur eine Fleischwunde.",
+				"description": "Der Verbündete verliert alle Zustände. Wenn ein Zustand auf diese Weise entfernt wird, bewegt sich dieser Verbündete 1...10 Sekunden lang um 25% schneller.",
+				"concise": "Entfernt alle Zustände vom Verbündeten. Dieser Verbündete bewegt sich um 25% schneller (1...10 Sekunden), wenn ein Zustand entfernt wurde. <gray>Sich selbst als Ziel auswählen ist nicht möglich.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Motivation",
+				"type": "Schrei"
+			},
+			"en": {
+				"name": "\"It's Just a Flesh Wound.\"",
+				"description": "Target other ally loses all conditions. If a condition was removed in this way, that ally moves 25% faster for 1...10 seconds.",
+				"concise": "Remove all conditions from target ally. That ally moves 25% faster (1...10 seconds) if a condition was removed. <gray>Cannot self-target.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Motivation",
+				"type": "Shout"
+			}
+		}
+	}
+}

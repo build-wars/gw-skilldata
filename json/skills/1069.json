@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1069,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 5,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Geschmack der Schmerzen",
+				"description": "Wenn die Lebenspunkte des Gegners unter 50% liegen, erhaltet Ihr 30...150 Lebenspunkte.",
+				"concise": "Erhaltet 30...150 Lebenspunkte. <gray>Der Gegner muss weniger als 50% seiner maximalen Lebenspunkte haben, sonst keine Wirkung.</gray>",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Taste of Pain",
+				"description": "If target foe is below 50% Health, you gain 30...150 Health.",
+				"concise": "Heals you for 30...150. <gray>No effect unless target foe is below 50% Health.</gray>",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2004,
+		"campaign": 4,
+		"profession": 3,
+		"attribute": 14,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 7,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zustand zerschlagen",
+				"description": "Entfernt einen Zustand vom Verbündeten (bzw. Euch selbst). Wenn ein Zustand entfernt wurde, erleiden Gegner in der Nähe 10...60 Punkte heiligen Schaden.",
+				"concise": "Entfernt einen Zustand. Entfernungswirkung: Richtet bei Feinden in der Nähe des Verbündeten (bzw. von Euch selbst) 10...60 Punkte heiligen Schaden an.",
+				"campaign": "Eye of the North",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Smite Condition",
+				"description": "Remove one condition from target ally. If a condition was removed, foes in the area take 10...60 holy damage.",
+				"concise": "Removes a condition. Removal effect: deals 10...60 holy damage to foes in the area of target ally.",
+				"campaign": "Eye of the North",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

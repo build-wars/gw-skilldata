@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1234,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 33,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.75,
+		"recharge": 3,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Körper und Seele heilen",
+				"description": "Der Verbündete (bzw. Ihr selbst) wird um 20...115 Lebenspunkte geheilt. Der betreffende Verbündete verliert für jeden Geist in Hörweite einen Zustand.",
+				"concise": "Heilt um 20...115 Lebenspunkte. Entfernt für jeden Geist in Hörweite einen Zustand.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Mend Body and Soul",
+				"description": "Target ally is healed for 20...115 Health. That ally loses one condition for each spirit within earshot.",
+				"concise": "Heals for 20...115. Removes one condition for each spirit within earshot.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

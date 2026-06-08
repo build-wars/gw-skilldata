@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 990,
+		"campaign": 2,
+		"profession": 7,
+		"attribute": 30,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.75,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verzauberungen ausmerzen",
+				"description": "Der Gegner verliert 1<sic/> Verzauberung. Alle anderen Nicht-Angriffsfertigkeiten werden 10...5 Sekunden lang deaktiviert. Für jede Fertigkeit, die auf diese Weise deaktiviert wird, verliert der berührte Gegner 1<sic/> weitere Verzauberung.",
+				"concise": "Entfernt für jede Eurer Nicht-Angriffsfertigkeiten eine Verzauberung. <gray>Alle Eure Nicht-Angriffsfertigkeiten werden deaktiviert (10...5 Sekunden).</gray>",
+				"campaign": "Factions",
+				"profession": "Assassine",
+				"profession_abbr": "A",
+				"attribute": "Tödliche Künste",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Expunge Enchantments",
+				"description": "Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 10...5 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
+				"concise": "Removes one enchantment for each non-attack skill you have. <gray>All your non-attack skills are disabled (10...5 seconds).</gray>",
+				"campaign": "Factions",
+				"profession": "Assassin",
+				"profession_abbr": "A",
+				"attribute": "Deadly Arts",
+				"type": "Skill"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 103,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 7,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Preis des Versagens",
+				"description": "30 Sekunden lang besteht eine 25%ige Wahrscheinlichkeit, dass die Angriffe des Gegners fehlschlagen. Für jeden Fehlschlag im Kampf erleidet er 1...46 Punkte Schaden.",
+				"concise": "30 Sekunden: Die Angriffe des Gegners gehen mit 25%iger Wahrscheinlichkeit daneben. Gegner erleidet für jeden misslungenen Angriff 1...46 Punkte Schaden.",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Price of Failure",
+				"description": "For 30 seconds, target foe has a 25% chance to miss with attacks and takes 1...46 damage whenever that foe fails to hit in combat.",
+				"concise": "(30 seconds.) 25% chance to miss. Target foe takes 1...46 damage whenever it fails to hit.",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

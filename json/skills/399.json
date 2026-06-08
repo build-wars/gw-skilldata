@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 399,
+		"campaign": 0,
+		"profession": 2,
+		"attribute": 23,
+		"type": 2,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.5,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ablenk-Schuss",
+				"description": "Wenn \"Ablenk-Schuss\" trifft, unterbricht er die Aktion des Gegners, fügt aber nur 1...16 Punkte Schaden zu. Beruhte die unterbrochene Aktion auf einer Fertigkeit, wird diese Fertigkeit für weitere 20 Sekunden deaktiviert.",
+				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochene Fertigeit<sic/> wird +20 Sekunden lang deaktiviert. <gray>Treffer richten nur 1...16 Punkte Schaden an.</gray>",
+				"campaign": "Basis",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Fachkenntnis",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Distracting Shot",
+				"description": "If Distracting Shot hits, it interrupts target foe's action but deals only 1...16 damage. If the interrupted action was a skill, that skill is disabled for an additional 20 seconds.",
+				"concise": "Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds. <gray>Hits for only 1...16 damage.</gray>",
+				"campaign": "Core",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Expertise",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

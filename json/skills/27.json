@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 27,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 2,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 3180,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 6,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Täuschungen brechen",
+				"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, nehmen dieser Gegner und alle umstehenden Gegner 15...75 Punkte Schaden.",
+				"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel und allen umstehenden Gegnern 15...75 Punkte Schaden an.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Shatter Delusions",
+				"description": "Remove one Mesmer hex from target foe. If a hex was removed, that foe and all adjacent foes takes 15...75 damage.",
+				"concise": "Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and all adjacent foes.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

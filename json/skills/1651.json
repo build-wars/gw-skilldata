@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1651,
+		"campaign": 3,
+		"profession": 7,
+		"attribute": 31,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rückzug des Todes",
+				"description": "Schattenschritt zum Verbündeten. Wenn Ihr weniger Lebenspunkte als dieser Verbündete habt, heilt Ihr Euch um 40...130 Lebenspunkte.",
+				"concise": "Ihr heilt Euch um 40...130 Lebenspunkte, falls Ihr weniger Lebenspunkte habt als der Verbündete. Anfangswirkung: Unternehmt einen Schattenschritt zum Verbündeten.",
+				"campaign": "Nightfall",
+				"profession": "Assassine",
+				"profession_abbr": "A",
+				"attribute": "Schattenkünste",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Death's Retreat",
+				"description": "Shadow Step to target ally. If you have less Health than that ally, you gain 40...130 Health.",
+				"concise": "Gain 40...130 Health if you have less Health than target ally. Initial effect: Shadow Step to this ally. <gray>Cannot self-target.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Assassin",
+				"profession_abbr": "A",
+				"attribute": "Shadow Arts",
+				"type": "Spell"
+			}
+		}
+	}
+}

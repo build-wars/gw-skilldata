@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 248,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 14,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Vergeltung",
+				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, fügt Vergeltung jedes Mal, wenn der Verbündete (bzw. Ihr selbst) Angriffsschaden erleidet, dem Angreifer ebenfalls Schaden in Höhe von 33% des Schadens als Heiligen Schaden zu (maximal 5...20 Schadenspunkte).",
+				"concise": "Wirft 33% des Schadens durch Angriffe (maximal 5...20 Punkte) auf den Verursacher zurück.",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Retribution",
+				"description": "While you maintain this enchantment, whenever target ally takes attack damage, this spell deals 33% of the damage back to the source (maximum 5...20 damage).",
+				"concise": "Deals 33% of each attack's damage (maximum 5...20) back to the source.",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

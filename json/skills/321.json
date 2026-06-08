@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 321,
+		"campaign": 0,
+		"profession": 1,
+		"attribute": 101,
+		"type": 3,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rundumschlag",
+				"description": "Wenn dieser Angriff erfolgreich ist, dann erfolgt ein kritischer Treffer und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Ein Blocken ist bei diesem Angriff nicht möglich. Nach dem Verwenden dieser Fertigkeit geht alles Adrenalin verloren.",
+				"concise": "Immer ein kritischer Treffer. Entfernt eine Haltung. Kann nicht geblockt werden. <gray>Ihr verliert alles Adrenalin.</gray>",
+				"campaign": "Basis",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Kein Attribut",
+				"type": "Nahkampfangriff"
+			},
+			"en": {
+				"name": "Wild Blow",
+				"description": "Lose all adrenaline. If it hits, this attack will result in a critical hit and any stance being used by your target ends. This attack cannot be blocked.",
+				"concise": "Always a critical hit. Removes a stance. Unblockable. <gray>Lose all adrenaline.</gray>",
+				"campaign": "Core",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "No Attribute",
+				"type": "Melee Attack"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 211,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 11,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 1.5,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Eisdornen",
+				"description": "Der Gegner sowie umstehende Feinde erleiden 20...80 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer.",
+				"concise": "Verhext den Gegner und umstehende Feinde (2...6 Sekunden). Die Betroffenen bewegen sich um 66% langsamer. Anfangswirkung: Richtet 20...80 Punkte Kälteschaden an.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Ice Spikes",
+				"description": "Target and adjacent foes are struck for 20...80 cold damage and move 66% slower for 2...6 seconds.",
+				"concise": "Also hexes foes adjacent to target (2...6 seconds). These foes move 66% slower. Initial effect: deals 20...80 cold damage.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

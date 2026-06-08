@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2055,
+		"campaign": 4,
+		"profession": 5,
+		"attribute": 2,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Aneurysma",
+				"description": "Der Gegner erhält alle Energiepunkte zurück, höchstens jedoch Energie in Höhe seiner maximalen Energie. Pro Energiepunkt, der auf diese Weise gewonnen wurde, erleidet der Gegner 1...3 Punkte Schaden und alle umstehenden Gegner verlieren einen Energiepunkt. (Maximalverlust: 1...30 Energiepunkte)",
+				"concise": "Gegner erhält alle Energiepunkte zurück, höchstens jedoch Energie in Höhe seiner maximalen Energie. Pro gewonnenem Energiepunkt erleidet der Gegner 1...3 Punkte Schaden und alle umstehenden Gegner verlieren einen Energiepunkt (maximal 1...30).",
+				"campaign": "Eye of the North",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Aneurysm",
+				"description": "Target foe regains all Energy. For each point of Energy gained in this way, that foe takes 1...3 damage and all adjacent foes lose 1 Energy. (Maximum 1...30).",
+				"concise": "Target foe regains all Energy. For each point of Energy gained, target takes 1...3 damage and all adjacent foes lose 1 Energy (maximum 1...30).",
+				"campaign": "Eye of the North",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

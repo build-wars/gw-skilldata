@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 255,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 16,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 15,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Wachsamer Geist",
+				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, erfreut sich der Verbündete (bzw. Ihr selbst) einer zusätzlichen Lebenspunktregeneration von +2. Wenn Wachsamer Geist endet, wird er für 30...180 Lebenspunkte geheilt.",
+				"concise": "+2 Lebenspunktregeneration. Wirkung am Ende: Heilt um 30...180 Lebenspunkte.",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Watchful Spirit",
+				"description": "While you maintain this enchantment, target ally gains +2 Health regeneration. That ally is healed for 30...180 Health when Watchful Spirit ends.",
+				"concise": "+2 Health regeneration. End effect: heals for 30...180.",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

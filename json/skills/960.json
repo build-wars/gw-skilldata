@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 960,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 16,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verzauberungen freisetzen",
+				"description": "Alle Verzauberungen gehen verloren. Jedes Gruppenmitglied wird pro verlorene Mönchs-Verzauberung um 5...35 Lebenspunkte geheilt.",
+				"concise": "Entfernt alle Eure Verzauberungen. Heilt alle Gruppenmitglieder für jede entfernte Mönch-Verzauberung um 5...35 Lebenspunkte.",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Release Enchantments",
+				"description": "Lose all enchantments. Each party member is healed for 5...35 Health for each Monk enchantment lost.",
+				"concise": "Removes all of your enchantments. Heals all party members for 5...35 for each Monk Enchantment removed.",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Spell"
+			}
+		}
+	}
+}

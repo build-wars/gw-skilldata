@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 925,
+		"campaign": 2,
+		"profession": 7,
+		"attribute": 101,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 15,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rückruf",
+				"description": "Solange Rückruf aufrecht erhalten wird, passiert nichts. Wenn Rückruf endet, unternehmt Ihr einen Schattenschritt zu dem Verbündeten, den Ihr beim Aktivieren dieser Fertigkeit ausgewählt hattet, und alle Eure Fertigkeiten sind 10 Sekunden lang deaktiviert.",
+				"concise": "Wirkung am Ende: Unternehmt einen Schattenschritt zum Verbündeten. <gray>Sich selbst als Ziel wählen nicht möglich. Deaktiviert am Ende alle Eure Fertigkeiten (10 Sekunden).</gray>",
+				"campaign": "Factions",
+				"profession": "Assassine",
+				"profession_abbr": "A",
+				"attribute": "Kein Attribut",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Recall",
+				"description": "While you maintain Recall, nothing happens. When Recall ends, you Shadow Step to the ally you targeted when you activated this skill and all of your skills are disabled for 10 seconds.",
+				"concise": "End effect: Shadow Step to target ally. <gray>Cannot self-target and disables all of your skills for 10 seconds when it ends.</gray>",
+				"campaign": "Factions",
+				"profession": "Assassin",
+				"profession_abbr": "A",
+				"attribute": "No Attribute",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

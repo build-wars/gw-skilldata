@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2102,
+		"campaign": 3,
+		"profession": 5,
+		"attribute": 102,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": true,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schmerzensschrei",
+				"description": "Unterbricht die Fertigkeit des Gegners. Wenn dieser Gegner unter einer Mesmer-Verhexung gelitten hat, nehmen dieser Gegner und alle Feinde in dem Bereich 25...50 Punkte Schaden und 10 Sekunden lang eine Lebenspunktdegeneration von -3...5.",
+				"concise": "Unterbricht eine Fähigkeit. Wenn Gegner eine Mesmer-Verhexung erlitten hat, werden 25...50 Punkte Schaden beim Gegner und Feinden in dem Bereich angerichtet und 10 Sekunden lang ist eine Lebenspunktdegeneration von -3...5 wirksam.",
+				"campaign": "Nightfall",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Sonnenspeertitel",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Cry of Pain",
+				"description": "Interrupt target foe's skill. If that foe was suffering from a Mesmer hex, that foe and all foes in the area take 25...50 damage and have -3...5 Health degeneration for 10 seconds.",
+				"concise": "Interrupts a skill. If target foe had a Mesmer hex, deals 25...50 damage to target and foes in the area and causes -3...5 Health degeneration (10 seconds).",
+				"campaign": "Nightfall",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Sunspear Title Track",
+				"type": "Spell"
+			}
+		}
+	}
+}

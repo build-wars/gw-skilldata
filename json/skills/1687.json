@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1687,
+		"campaign": 3,
+		"profession": 3,
+		"attribute": 15,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.75,
+		"recharge": 4,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Eifrige Segnung",
+				"description": "Heilt den Verbündeten (bzw. Euch selbst) um 30...180 Lebenspunkte. Wenn seine Lebenspunkte unter 50% lagen, erhaltet Ihr 7 Energiepunkte.",
+				"concise": "Heilt um 30...180 Lebenspunkte. Ihr erhaltet 7 Energiepunkte, falls der Verbündete (bzw. Ihr selbst) weniger als 50% seiner maximalen Lebenspunkte hatte.",
+				"campaign": "Nightfall",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Zealous Benediction",
+				"description": "Heal target ally for 30...180 Health. If target was below 50% Health, you gain 7 Energy.",
+				"concise": "Heals for 30...180. You gain 7 Energy if target ally was below 50% Health.",
+				"campaign": "Nightfall",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

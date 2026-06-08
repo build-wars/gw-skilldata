@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 933,
+		"campaign": 2,
+		"profession": 5,
+		"attribute": 101,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Sturm zerschlagen",
+				"description": "Der Gegner verliert alle Verzauberungen. Für jede Verzauberung, die auf diese Art entfernt wird, wird Sturm zerschlagen zusätzlich 7 Sekunden lang deaktiviert.",
+				"concise": "Entfernt alle Verzauberungen. <gray>Entfernungskosten: Sturm zerschlagen wird für jede entfernte Verzauberung für +7 Sekunden deaktiviert.</gray>",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Kein Attribut",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Shatter Storm",
+				"description": "Target foe loses all enchantments. For each enchantment removed this way, Shatter Storm is disabled for an additional 7 seconds.",
+				"concise": "Removes all enchantments. <gray>Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed.</gray>",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "No Attribute",
+				"type": "Spell"
+			}
+		}
+	}
+}

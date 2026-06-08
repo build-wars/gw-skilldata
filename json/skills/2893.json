@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2893,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 33,
+		"type": 27,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Waffe der Abwehr (PvP)",
+				"description": "3...8 Sekunden lang hat der Verbündete (bzw. Ihr selbst) eine Waffe der Abwehr, die ihm eine Lebenspunktregeneration von +2...4 und eine 50% Chance zum Blocken gewährt. Waffe der Abwehr endet, wenn der betreffende Verbündete mit einem Angriff trifft.",
+				"concise": "(3...8 Sekunden.) +2...4 Lebenspunktregeneration. 50% Chance zu blocken. <gray>Endet, wenn der Verbündete angreift.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Waffenzauber"
+			},
+			"en": {
+				"name": "Weapon of Warding (PvP)",
+				"description": "For 3...8 seconds, target ally has a Weapon of Warding that grants target ally +2...4 Health regeneration and a 50% chance to block. Weapon of Warding ends if that ally attacks.",
+				"concise": "(3...8 seconds.) +2...4 Health regeneration. 50% chance to block. <gray>Ends if target ally attacks.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Weapon Spell"
+			}
+		}
+	}
+}

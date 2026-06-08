@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 863,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 7,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 2,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Orden der Abtrünnigkeit",
+				"description": "5 Sekunden lang verliert der Gegner jedes Mal, wenn er von einem Gruppenmitglied mit physischem Schaden getroffen wird, eine Verzauberung. Für jede entfernte Mönchs-Verzauberung verliert Ihr 10...3% Eurer maximalen Lebenspunkte.",
+				"concise": "Verzaubert alle Gruppenmitglieder (5 Sekunden). Die Betroffenen entfernen eine Verzauberung, wenn sie physischen Schaden anrichten. <gray>Entfernungskosten: Für jede entfernte Mönch-Verzauberung verliert Ihr 10...3% Eurer maximalen Lebenspunkte.</gray>",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Order of Apostasy",
+				"description": "For 5 seconds, whenever a party member hits a foe with physical damage, that foe loses one enchantment. For each Monk enchantment removed, you lose 10...3% maximum Health.",
+				"concise": "Enchants all party members (5 seconds). These party members remove one enchantment when they deal physical damage. <gray>Removal cost: for each Monk enchantment, you lose 10...3% maximum Health.</gray>",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

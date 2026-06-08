@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 378,
+		"campaign": 1,
+		"profession": 1,
+		"attribute": 21,
+		"type": 29,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schildhaltung",
+				"description": "1...6 Sekunden lang habt Ihr, solange Ihr einen Schild benutzt, eine 75%ige Chance, Angriffe zu blocken. Für jeden Punkt Stärke wird der erlittene Schaden um 2 Punkte reduziert (maximal 15 Lebenspunkte Schadenreduzierung).",
+				"concise": "(1...6 Sekunden.) Ihr habt eine 75%ige Chance zu blocken. Für jeden Punkt Stärke wird der erlittene Schaden um 2 Punkte reduziert (maximal 15 Lebenspunkte Schadenreduzierung). <gray>Keine Wirkung, falls Ihr keinen Schild mitführt.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Taktik",
+				"type": "Haltung"
+			},
+			"en": {
+				"name": "Shield Stance",
+				"description": "For 1...6 seconds, while wielding a shield, you have a 75% chance to block incoming attacks, and damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction).",
+				"concise": "(1...6 seconds.) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). <gray>No effect unless you have a shield equipped.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Tactics",
+				"type": "Stance"
+			}
+		}
+	}
+}

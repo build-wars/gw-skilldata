@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 962,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 33,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Geistübertragung",
+				"description": "Der Geist, der Euch am nächsten ist, verliert 5...50 Lebenspunkte. Der Verbündete (bzw. Ihr selbst) wird für jeden verlorenen Lebenspunkt um 5 Punkte geheilt.",
+				"concise": "Der am nächsten zu Euch befindliche Geist verliert 5...50 Lebenspunkte. Heilt den Verbündeten (bzw. Euch selbst) für jeden verlorenen Lebenspunkt um 5 Lebenspunkte.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Spirit Transfer",
+				"description": "The spirit nearest you loses 5...50 Health. Target ally is healed for 5 for each point of Health lost.",
+				"concise": "The spirit nearest you loses 5...50 Health. Heals target ally for 5 for each point of Health lost.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

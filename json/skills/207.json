@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 207,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 11,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 45,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Frost beschwören",
+				"description": "60 Sekunden lang richten Eure Angriffe 5...20 Punkte zusätzlichen Kälteschaden an, wenn Ihr eine Kältewaffe führt.",
+				"concise": "60 Sekunden: Eure Angriffe richten +5...20 Punkte Kälteschaden an. <gray>Keine Wirkung, falls Eure Waffe keinen Kälteschaden verursacht.</gray>",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Conjure Frost",
+				"description": "For 60 seconds, if you're wielding a cold weapon, your attacks strike for an additional 5...20 cold damage.",
+				"concise": "(60 seconds.) Your attacks hit for +5...20 cold damage. <gray>No effect unless your weapon deals cold damage.</gray>",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2011,
+		"campaign": 4,
+		"profession": 1,
+		"attribute": 101,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.75,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Raufen",
+				"description": "Der berührte Gegner und Ihr werden zu Boden geworfen. Ihr verliert Eure aktuelle Haltung.",
+				"concise": "Ihr und der Gegner werdet zu Boden geworfen. <gray>Ihr verliert Eure aktuelle Haltung.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Kein Attribut",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Grapple",
+				"description": "You and target touched foe are knocked down. You lose your current stance.",
+				"concise": "Causes knockdown. You are also knocked down. <gray>Your current stance ends.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "No Attribute",
+				"type": "Skill"
+			}
+		}
+	}
+}

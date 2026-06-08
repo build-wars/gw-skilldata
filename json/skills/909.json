@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 909,
+		"campaign": 2,
+		"profession": 2,
+		"attribute": 25,
+		"type": 2,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Scharfschuss",
+				"description": "Wenn Scharfschuss erfolgreich ist, fügt Ihr +10...25 Punkte Schaden zu, aber alle Eure anderen Angriffs-Fertigkeiten werden 5...3 Sekunden lang deaktiviert.",
+				"concise": "Richtet +10...25 Punkte Schaden an. <gray>Eure anderen Angriffsfertigkeiten werden deaktiviert (5...3 Sekunden), falls dieser Angriff trifft.</gray>",
+				"campaign": "Factions",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Treffsicherheit",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Focused Shot",
+				"description": "If Focused Shot hits, you strike for +10...25 damage but all of your other attack skills are disabled for 5...3 seconds.",
+				"concise": "Deals +10...25 damage. <gray>Your other attack skills are disabled (5...3 seconds) if this attack hits.</gray>",
+				"campaign": "Factions",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Marksmanship",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

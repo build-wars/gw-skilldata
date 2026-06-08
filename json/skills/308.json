@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 308,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 101,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Beistand",
+				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, erfreut sich der Verbündete einer Lebenspunkt- und Energieregeneration von +1. Ihr verliert jedoch 1 Energiepunkt für jeden Zauber, den er wirkt.",
+				"concise": "+1 Lebenspunktregeneration und +1 Energieregeneration. <gray>Sich selbst als Ziel wählen nicht möglich. Ihr verliert jedes Mal 1 Energiepunkt, wenn der Verbündete einen Zauber wirkt.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Kein Attribut",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Succor",
+				"description": "While you maintain this Enchantment, target other ally gains +1 Health and +1 Energy regeneration, but you lose 1 Energy each time that ally casts a Spell.",
+				"concise": "+1 Health regeneration and +1 Energy regeneration. <gray>Cannot self-target. You lose 1 Energy each time target ally casts a spell.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "No Attribute",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

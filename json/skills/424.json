@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 424,
+		"campaign": 0,
+		"profession": 2,
+		"attribute": 23,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Dreck werfen",
+				"description": "Der berührte Gegner und umstehende Feinde werden 3...15 Sekunden lang geblendet.",
+				"concise": "Verursacht Zustand Blindheit (3...15 Sekunden). Betrifft den Gegner und umstehende Feinde.",
+				"campaign": "Basis",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Fachkenntnis",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Throw Dirt",
+				"description": "Target touched foe and foes adjacent to your target become Blinded for 3...15 seconds.",
+				"concise": "Inflicts Blindness condition (3...15 seconds). Also affects foes adjacent to target foe.",
+				"campaign": "Core",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Expertise",
+				"type": "Skill"
+			}
+		}
+	}
+}

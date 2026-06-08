@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2194,
+		"campaign": 4,
+		"profession": 1,
+		"attribute": 101,
+		"type": 3,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.5,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ablenkender Stoß",
+				"description": "Wenn Ablenkender Stoß erfolgreich ist, fügt er nur 0 Punkte Schaden zu und unterbricht die Aktion des Gegners. Wenn der Gegner eine Beschädigte Rüstung hat und Ihr eine Fertigkeit unterbrochen habt, benötigt die unterbrochene Fertigkeit mindestens 30 Sekunden zur Wiederaufladung.",
+				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Deaktiviert unterbrochene Fertigkeit (20 Sekunden), falls Gegner Beschädigte Rüstung aufweist. <gray>Fügt keinen Schaden zu.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Kein Attribut",
+				"type": "Nahkampfangriff"
+			},
+			"en": {
+				"name": "Distracting Strike",
+				"description": "If Distracting Strike hits, it deals no damage and interrupts target foe's action. If target foe has Cracked Armor, that skill is disabled for 30 seconds.",
+				"concise": "Interrupts an action. Interruption effect: Disables interrupted skill (30 seconds) if target foe has Cracked Armor. <gray>Deals no damage.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "No Attribute",
+				"type": "Melee Attack"
+			}
+		}
+	}
+}

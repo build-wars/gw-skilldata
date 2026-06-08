@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 470,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 22,
+		"type": 19,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 3,
+		"recharge": 60,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Jagdsaison",
+				"description": "Erstellt einen Geist der Stufe 1...10 . Die Heilung aller Kreaturen in seiner Reichweite, die keine Geister sind, ist um 20% reduziert. Wenn euer Angriff trifft, erhaltet Ihr 5 Lebenspunkte. Dieser Geist stirbt nach 30...240 Sekunden.",
+				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Verringert die Wirkung von Heilungen bei Kreaturen in Reichweite um 20%. Kreaturen erhalten für jeden Treffer, den sie mit einem Angriff landen, 5 Lebenspunkte. Keine Wirkung auf Geister.",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Naturritual"
+			},
+			"en": {
+				"name": "Predatory Season",
+				"description": "Create a level 1...10 spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after 30...150 seconds.",
+				"concise": "Creates a level 1...10 spirit (30...150 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Nature ritual"
+			}
+		}
+	}
+}

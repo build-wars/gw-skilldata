@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 195,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1.5,
+		"recharge": 4,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Lavabecken",
+				"description": "5 Sekunden lang erleiden umstehende Gegner am Wirkungsort dieses Zaubers 5...50 Punkte Feuerschaden pro Sekunde. Wenn Ihr Überzaubert seid, trifft dieser Zauber Feinde in der Nähe, anstatt umstehende Feinde.",
+				"concise": "Richtet jede Sekunde 5...50 Punkte Feuerschaden an (5 Sekunden). Trifft umstehende Feinde an Eurer ursprünglichen Position. Wenn Überzaubert, dann wird die Reichweite zu In der Nähe erhöht.",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Lava Font",
+				"description": "For 5 seconds, foes adjacent to the location where this spell was cast are struck for 5...50 fire damage each second. If you are Overcast, this spell strikes nearby foes instead of adjacent ones.",
+				"concise": "Deals 5...50 fire damage each second (5 seconds). Hits foes adjacent to your initial location. If Overcast, range increased to nearby.",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

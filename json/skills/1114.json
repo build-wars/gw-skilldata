@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1114,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 2892,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Geisterbindung",
+				"description": "Während der nächsten 8 Sekunden wird der Verbündete (bzw. Ihr selbst) die nächsten 10 Male vor dem Erleiden von mehr als 50 Punkten Schaden um 30...90 Lebenspunkte geheilt.",
+				"concise": "8 Sekunden: Heilt jedes Mal um 30...90 Lebenspunkte, bevor der Verbündete (bzw. Ihr selbst) mehr als 50 Punkte Schaden erleidet. <gray>Endet nach 10 Wirkungen.</gray>",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Spirit Bond",
+				"description": "For 8 seconds, whenever target ally takes more than 50 damage from the next 10 attacks or spells, that ally is healed for 30...90 Health.",
+				"concise": "(8 seconds.) Heals for 30...90 whenever target ally takes more than 50 damage. <gray>Ends after this ally takes damage from 10 attacks or spells.</gray>",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

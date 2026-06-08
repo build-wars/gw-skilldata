@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 461,
+		"campaign": 0,
+		"profession": 2,
+		"attribute": 24,
+		"type": 30,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Dornenfalle",
+				"description": "Wird Dornenfalle aktiviert, erleiden alle Gegner in der Nähe pro Sekunde (insgesamt 2 Sekunden lang) 10...40 Punkte Stichschaden, werden 3...25 Sekunden lang verkrüppelt und zu Boden geworfen. Dornenfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 10...40 Punkte Stichschaden an. Wirft zu Boden. Verursacht Zustand Verkrüppelung (3...25 Sekunden). <gray>Leicht zu unterbrechen.</gray>",
+				"campaign": "Basis",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Überleben in der Wildnis",
+				"type": "Falle"
+			},
+			"en": {
+				"name": "Spike Trap",
+				"description": "When Spike Trap is triggered, every second (for 2 seconds), all nearby foes are struck for 10...40 piercing damage, become Crippled for 3...25 seconds, and are knocked down. Spike Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "(90 seconds.) Affects nearby foes. Every second, (for 2 seconds), this trap deals 10...40 piercing damage, causes knockdown, and inflicts Crippled condition (3...25 seconds). <gray>Easily interrupted.</gray>",
+				"campaign": "Core",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Wilderness Survival",
+				"type": "Trap"
+			}
+		}
+	}
+}

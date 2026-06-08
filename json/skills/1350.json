@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1350,
+		"campaign": 3,
+		"profession": 5,
+		"attribute": 2,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Simpler Diebstahl",
+				"description": "Unterbricht die Aktion des Gegners. Falls diese Aktion eine Fertigkeit war, wird diese 5...20 Sekunden lang deaktiviert und Simpler Diebstahl durch die Fertigkeit ersetzt.",
+				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Falls eine Fertigkeit unterbrochen wurde, wird diese deaktiviert und Simpler Diebstahl wird zu dieser Fertigkeit (5...20 Sekunden).",
+				"campaign": "Nightfall",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Simple Thievery",
+				"description": "Interrupt target foe's action. If that action was a skill, that skill is disabled for 5...20 seconds, and Simple Thievery is replaced by that skill.",
+				"concise": "Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill (5...20 seconds).",
+				"campaign": "Nightfall",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

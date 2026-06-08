@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 75,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 101,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Arkanes Echo",
+				"description": "Falls Ihr in den nächsten 20 Sekunden einen Zauber wirkt, wird Arkanes Echo 20 Sekunden lang durch diesen Zauber ersetzt. Arkanes Echo endet vorzeitig, wenn Ihr eine Fertigkeit benutzt, die kein Zauber ist.",
+				"concise": "20 Sekunden: Arkanes Echo wird zum nächsten von Euch benutzten Zauber (20 Sekunden). <gray>Diese Verzauberung endet, wenn Ihr eine Fertigkeit benutzt, die kein Zauber ist.</gray>",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Kein Attribut",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Arcane Echo",
+				"description": "If you cast a spell in the next 20 seconds, Arcane Echo is replaced with that spell for 20 seconds. Arcane Echo ends prematurely if you use a non-spell skill.",
+				"concise": "(20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). <gray>This enchantment ends if you use any skill that is not a spell.</gray>",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "No Attribute",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

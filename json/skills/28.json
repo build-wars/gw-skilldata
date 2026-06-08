@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 28,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 2,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 3,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rückschlag",
+				"description": "10 Sekunden lang erleidet der Gegner für jeden gewirkten Zauber 35...140 Schaden.",
+				"concise": "10 Sekunden: Gegner erleidet bei jedem seiner Zauber 35...140 Punkte Schaden.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Backfire",
+				"description": "For 10 seconds, whenever target foe casts a spell, that foe takes 35...140 damage.",
+				"concise": "(10 seconds.) Target foe takes 35...140 damage whenever it casts a spell.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

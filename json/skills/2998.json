@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2998,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 1,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zerbrechlichkeit (PvP)",
+				"description": "8...20 Sekunden lang erleidet der Gegner jedes Mal, wenn er unter einem neuen Zustand leidet oder sich davon erholt, 5...20 Punkte Schaden.",
+				"concise": "(8...20 Sekunden) Der Gegner erleidet jedes Mal, wenn er unter einem neuen Zustand leidet oder sich davon erholt, 5...20 Punkte Schaden.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusionsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Fragility (PvP)",
+				"description": "For 8...20 seconds, target foe takes 5...20 damage each time that foe suffers or recovers from a new condition.",
+				"concise": "(8...20 seconds.) Target foe takes 5...20 damage each time it gains or loses a condition.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusion Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 265,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 15,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Freundschaft",
+				"description": "4...12 Sekunden lang können umstehende Gegner nicht angreifen. Freundschaft endet für jeden Gegner, sobald er Schaden erleidet.",
+				"concise": "4...12 Sekunden: Umstehende Feinde können nicht angreifen. <gray>Endet bei Feinden, die Schaden erleiden.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Amity",
+				"description": "For 4...12 seconds, adjacent foes cannot attack. For each foe, Amity ends if that foe takes damage.",
+				"concise": "(4...12 seconds.) Foes adjacent to you cannot attack. <gray>Ends on any foes that take damage.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

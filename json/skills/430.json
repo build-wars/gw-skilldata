@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 430,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 23,
+		"type": 17,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 24,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schützenwette",
+				"description": "18 Sekunden lang erhaltet Ihr für jeden Eurer Pfeiltreffer 5...10 Energiepunkte, aber Ihr verliert jedes Mal 10 Energiepunkte, wenn Eure Pfeile das Ziel verfehlen.",
+				"concise": "18 Sekunden: Ihr erhaltet jedes Mal 5...10 Energiepunkte, wenn einer eurer Pfeile trifft. <gray>Ihr verliert bei Fehlschüssen 10 Energiepunkte.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Fachkenntnis",
+				"type": "Vorbereitung"
+			},
+			"en": {
+				"name": "Marksman's Wager",
+				"description": "For 18 seconds, you gain 5...10 Energy whenever your arrows hit, but lose 10 Energy whenever your arrows fail to strike.",
+				"concise": "(18 seconds.) Gain 5...10 Energy whenever your arrows hit. <gray>Lose 10 Energy whenever your arrows fail to hit.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Expertise",
+				"type": "Preparation"
+			}
+		}
+	}
+}

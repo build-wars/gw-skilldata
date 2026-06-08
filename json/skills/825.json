@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 825,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Kohlenbett",
+				"description": "An der Position des Gegners wird ein Kohlenbett erzeugt. Während der nächsten 5 Sekunden erleiden umstehende Gegner 5...29 Punkte Feuerschaden pro Sekunde. Alle Feinde, die auf dem Kohlenbett zu Boden geworfen werden, werden 3...7 Sekunden lang in Brand gesetzt.",
+				"concise": "Richtet jede Sekunde 5...29 Punkte Feuerschaden an der Position des anvisierten Gegners an (5 Sekunden). Trifft um euren Zielgegner herum stehende Feinde. Verursacht bei zu Boden geworfenen Gegnern Zustand Brennen (3...7 Sekunden).",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Bed of Coals",
+				"description": "Create a Bed of Coals at target foe's location. For 5 seconds, foes adjacent to target foe are struck for 5...29 fire damage each second. Any foe knocked down on the Bed of Coals is set on fire for 3...7 seconds.",
+				"concise": "Deals 5...29 fire damage each second (5 seconds) to location of target foe. Hits foes adjacent to your target. Inflicts Burning condition (3...7 seconds) on knocked down foes.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

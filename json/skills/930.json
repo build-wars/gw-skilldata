@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 930,
+		"campaign": 2,
+		"profession": 5,
+		"attribute": 3,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 25,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Günstige Beschwörung",
+				"description": "Während der nächsten 20 Sekunden wird der nächste von Euch verwendete Zauber zusätzlich 10...5 Sekunden lang deaktiviert und Ihr erhaltet Energie im Ausmaß von 110...200% der Energiekosten dieses Zaubers.",
+				"concise": "20 Sekunden: Ihr erhaltet bei Eurem nächsten Zauber 110...200% der Energiekosten zurück. <gray>+10...5 Sekunden zur Aufladezeit des Zaubers.</gray>",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Inspirationsmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Auspicious Incantation",
+				"description": "For 20 seconds, the next spell you cast is disabled for an additional 10...5 seconds, and you gain 110...200% of that spell's Energy cost.",
+				"concise": "(20 seconds.) Your next spell gives you 110...200% of its Energy cost. <gray>That spell takes 10...5 seconds longer to recharge.</gray>",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Inspiration Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

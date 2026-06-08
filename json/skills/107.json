@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 107,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 5,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ansteckung",
+				"description": "Falls der Gegner bereits an einem Zustand leidet, leidet er 3...15 Sekunden lang unter Krankheit, Gift und Schwäche.",
+				"concise": "Verursacht Zustände Krankheit, Gift und Schwäche (3...15 Sekunden). <gray>Gegner muss bereits einen Zustand haben, sonst keine Wirkung.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Virulence",
+				"description": "If target foe was already suffering from a condition, that foe suffers from Disease, Poison, and Weakness for 3...15 seconds.",
+				"concise": "Inflicts Disease, Poison, and Weakness conditions (3...15 seconds). <gray>No effect unless this foe already had a condition.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

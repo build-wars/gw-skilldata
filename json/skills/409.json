@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 409,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 25,
+		"type": 2,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.5,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Bestrafungs-Schuss",
+				"description": "Trifft Bestrafungs-Schuss, fügt Ihr +10...20 Punkte Schaden zu und Euer Ziel wird unterbrochen.",
+				"concise": "Richtet +10...20 Punkte Schaden an. Unterbricht eine Aktion.",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Treffsicherheit",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Punishing Shot",
+				"description": "If Punishing Shot hits, you strike for +10...20 damage and your target is interrupted.",
+				"concise": "Deals +10...20 damage. Interrupts an action.",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Marksmanship",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

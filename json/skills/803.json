@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 803,
+		"campaign": 2,
+		"profession": 5,
+		"attribute": 3,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Kraftfresser",
+				"description": "Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird diese Fertigkeit unterbrochen und Ihr entzieht dem Gegner immer, wenn er innerhalb der nächsten 10 Sekunden einen Zauber wirkt, bis zu 5...15 Energiepunkte.",
+				"concise": "Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Entzieht 5...15 Energiepunkte, wenn der Gegner einen Zauber wirkt (10 Sekunden).",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Inspirationsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Power Leech",
+				"description": "If target foe is casting a spell or chant, that skill is interrupted and for 10 seconds, whenever that foe casts a spell, you steal up to 5...15 Energy from that foe.",
+				"concise": "Interrupt a spell or a chant. Interruption effect: steal 5...15 Energy whenever target foe casts a spell (10 seconds).",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Inspiration Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

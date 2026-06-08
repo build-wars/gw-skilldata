@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 179,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 10,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 7,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 5,
+		"lang": {
+			"de": {
+				"name": "Brandbänder",
+				"description": "Nach 3 Sekunden erleiden der Gegner und alle Feinde in der Nähe 20...80 Punkte Feuerschaden und werden 1...3 Sekunde(n) lang in Brand gesetzt. Wird früher aktiviert, wenn der anvisierte Gegner stirbt.",
+				"concise": "(3 Sekunden.) Richtet bei Feinden in der Nähe des Ziels 20...80 Punkte Feuerschaden an und verursacht Zustand Brennen (1...3 Sekunden). Wird auch aktiviert, wenn der anvisierte Gegner stirbt.",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Incendiary Bonds",
+				"description": "After 3 seconds, target foe and all nearby foes are struck for 20...80 fire damage and are set on fire for 1...3 seconds. Activates early if target foe dies.",
+				"concise": "(3 seconds.) End effect: deals 20...80 fire damage and inflicts Burning condition (1...3 seconds) to foes near your target. Also triggers if foe dies.",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

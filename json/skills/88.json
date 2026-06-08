@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 88,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 5,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 0.75,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 33,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Veratas Aura",
+				"description": "Alle belebten feindlichen Untoten in dem Gebiet werden an Euch gebunden. Nach 120...300 Sekunden verliert Veratas Aura seine Wirkung. Wenn Veratas Aura endet, verliert Ihr Eure Verbindung zu allen an Euch gebundenen Untoten. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "120...300 Sekunden: Ihr werdet zum Meister aller feindlichen untoten Diener im Bereich. <gray>Wirkung am Ende: Eure untoten Diener werden herrenlos. Mindestens Todesmagie Stufe 5, sonst 50%ige Chance auf Misserfolg.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Verata's Aura",
+				"description": "All hostile animated undead in the area become bound to you. Verata's Aura ends after 120...300 seconds. When Verata's Aura ends, you lose your bond with any undead bound to you. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "(120...300 seconds.) Become master of all hostile undead servants in the area. <gray>End effect: your undead servants become masterless. 50% failure chance unless Death Magic 5 or more.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

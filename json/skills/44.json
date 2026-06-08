@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 44,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 1,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Phantomschmerz",
+				"description": "10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4. Wenn Phantomschmerz endet, erhält dieser Gegner eine Tiefe Wunde, die seine maximalen Lebenspunkte 5...20 Sekunden lang um 20% reduziert.",
+				"concise": "10 Sekunden: Verursacht +1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunden).",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusionsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Phantom Pain",
+				"description": "For 10 seconds, target foe suffers -1...4 Health degeneration. When Phantom Pain ends, that foe suffers a Deep Wound, lowering that foe's maximum Health by 20% for 5...20 seconds.",
+				"concise": "(10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Deep Wound condition (5...20 seconds).",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusion Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

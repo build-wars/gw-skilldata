@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 823,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 10,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Brennende Eile",
+				"description": "7 Sekunden lang werdet Ihr in Brand gesetzt und bewegt Euch um 30...45% schneller. Wenn Brennende Eile endet, werden alle umstehenden Gegner 3...9 Sekunden lang in Brand gesetzt.",
+				"concise": "7 Sekunden: Ihr bewegt Euch um 30...45% schneller. <gray>Ihr beginnt zu brennen (7 Sekunden).</gray> Wirkung am Ende: Verursacht Zustand Brennen (3...9 Sekunden bei umstehenden Feinden).",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Burning Speed",
+				"description": "For 7 seconds, you are set on fire and move 30...45% faster. When Burning Speed ends, all adjacent foes are set on fire for 3...9 seconds.",
+				"concise": "(7 seconds.) You move 30...45% faster. <gray>You suffer from Burning (7 seconds).</gray> End effect: inflicts Burning condition (3...9 seconds) on adjacent foes.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3032,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 38,
+		"type": 20,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 0,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "\"Haltet Eure Stellung!\" (PvP)",
+				"description": "5...20 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite +24 Rüstung, wenn sie sich nicht bewegen. Dieser Effekt endet bei einem Verbündeten, der von diesem Schrei betroffen ist, wenn er erfolgreich angreift.",
+				"concise": "5...20 Sekunden: Gruppenmitglieder in Hörweite erhalten +24 Rüstung, wenn sie sich nicht bewegen. <gray>Endet für einen Verbündeten, wenn er angreift.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Befehlsgewalt",
+				"type": "Schrei"
+			},
+			"en": {
+				"name": "\"Stand Your Ground!\" (PvP)",
+				"description": "For 5...20 seconds, all party members within earshot receive +24 armor when not moving. This effect ends on an ally affected by this shout when that ally attacks.",
+				"concise": "(5...20 seconds.) Party members in earshot gain +24 armor when not moving. Ends for an ally if that ally attacks.",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Command",
+				"type": "Shout"
+			}
+		}
+	}
+}

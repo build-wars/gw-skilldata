@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2863,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 5,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zwietracht (PvP)",
+				"description": "Wenn der Gegner unter einem Zustand und den Auswirkungen einer Verhexung oder einer Verzauberung leidet, erleidet er 30...110 Punkte Schaden.",
+				"concise": "Richtet 30...110 Punkte Schaden an. <gray>Gegner muss einen Zustand haben und verhext oder verzaubert sein, sonst keine Wirkung.</gray>",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Discord (PvP)",
+				"description": "If target foe is suffering from a condition and under the effects of a hex or an enchantment, that foe suffers 30...110 damage.",
+				"concise": "Deals 30...110 damage. <gray>No effect unless target foe has a condition and is either hexed or enchanted.</gray>",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

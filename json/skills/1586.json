@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1586,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 40,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Engelsschutz",
+				"description": "10 Sekunden lang wird der Verbündete jedes Mal, wenn er mehr als 250...80 Punkte Schaden pro Sekunde erleidet, um die Schadensmenge über diesem Betrag geheilt.",
+				"concise": "10 Sekunden: In jeder Sekunde, in welcher der Verbündete (bzw. Ihr selbst) Schaden von mehr als 250...80 Punkten erleidet, wird bei ihm jeglicher Schaden über dieser Menge geheilt. <gray>Sich selbst als Ziel wählen ist nicht möglich</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Führung",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Angelic Protection",
+				"description": "For 10 seconds, any time target other ally takes more than 250...80 damage per second, that ally is healed for any damage over that amount.",
+				"concise": "(10 seconds.) Each second that target ally takes damage over 250...80, that ally is healed for any damage over that amount. <gray>Cannot self target.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Leadership",
+				"type": "Skill"
+			}
+		}
+	}
+}

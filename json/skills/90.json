@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 90,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 5,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 60,
+		"adrenaline": 0,
+		"sacrifice": 15,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Veratas Opfer",
+				"description": "5...10 Sekunden lang erfahren alle Eure untoten Diener Lebenspunktregeneration von +10. Alle Zustände werden von diesen Dienern entfernt und auf Euch übertragen. Wenn dieser Zauber erfolgreich ist und Ihr und Eure Verbündeten zusammen 3 oder weniger Diener kontrolliert, wird Veratas Opfer sofort wieder aufgeladen.",
+				"concise": "5...10 Sekunden: Von Euch kontrollierte untote Diener erhalten +10 Lebenspunktregeneration. Wird sofort wieder aufgeladen, falls Ihr und Eure Verbündeten zusammen 3 oder weniger Diener kontrollieren. <gray>Überträgt alle Zustände der erstgenannten Diener auf Euch.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Verata's Sacrifice",
+				"description": "For 5...10 seconds, your undead allies gain +10 Health regeneration. All conditions are removed from those allies and transferred to you. If this spell is successful and you have control of 3 or fewer minions, Verata's Sacrifice instantly recharges.",
+				"concise": "(5...10 seconds.) 10 undead allied servants gain +10 Health regeneration. Instantly recharges if you have control of 3 or fewer servants. <gray>Transfers all conditions from those servants to you.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

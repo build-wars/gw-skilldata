@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 138,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 4,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Dunkles Band",
+				"description": "Während der nächsten 30...60 Sekunden erleidet Euer Diener, der Euch am nächsten ist, jedes Mal, wenn Ihr Schaden erleidet, 75% dieses Schadens an Eurer Stelle.",
+				"concise": "30...60 Sekunden: Überträgt 75% des erlittenen Schadens von Euch auf Euren am nächsten befindlichen Diener.",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Blutmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Dark Bond",
+				"description": "For the next 30...60 seconds, whenever you receive damage, your closest minion suffers 75% of that damage for you.",
+				"concise": "(30...60 seconds.) Transfers 75% of incoming damage from you to your nearest servant.",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Blood Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

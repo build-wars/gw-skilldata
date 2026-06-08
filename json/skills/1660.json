@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1660,
+		"campaign": 3,
+		"profession": 4,
+		"attribute": 7,
+		"type": 28,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Brunnen der Stille",
+				"description": "Der nächste Kadaver wird an seiner Position 10...30 Sekunden lang in einen Brunnen der Stille verwandelt. Feinde innerhalb des Brunnens können keine Schreie oder Anfeuerungsrufe verwenden und leiden unter einer Lebenspunktdegeneration von -1...4.",
+				"concise": "(10...30 Sekunden.) Feinde innerhalb des Brunnen können keine Schreie oder Anfeuerungsrufe verwenden und leiden unter einer Lebenspunktdegeneration von -1...4. <gray>Benutzt frischen Kadaver.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Brunnenzauber"
+			},
+			"en": {
+				"name": "Well of Silence",
+				"description": "Exploit target corpse or sacrifice 66% health to create a Well of Silence for 10...30 seconds. Foes within the well cannot use shouts or chants and suffer -1...4 Health degeneration.",
+				"concise": "(10...30 seconds.) Foes in this well cannot use shouts and chants and have -1...4 Health degeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Well Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 127,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 4,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zeichen der Subversion",
+				"description": "6 Sekunden lang schlägt der nächste Zauber des Gegners auf einen seiner Verbündeten fehl und Ihr entzieht dem Widersacher bis zu 10...92 Lebenspunkte.",
+				"concise": "6 Sekunden: Nächster Zauber des Gegners schlägt fehl und Ihr entzieht ihm 10...92 Lebenspunkte. <gray>Zauber des Gegners muss auf einen seiner Verbündeten gerichtet sein, sonst keine Wirkung.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Blutmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Mark of Subversion",
+				"description": "For 6 seconds, the next time target foe casts a spell that targets an ally of that foe, the spell fails and you steal up to 10...92 Health from that foe.",
+				"concise": "(6 seconds.) Target foe's next spell fails and you steal 10...92 Health. <gray>No effect unless this foe's spell targeted one of its allies.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Blood Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

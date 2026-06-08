@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 408,
+		"campaign": 0,
+		"profession": 2,
+		"attribute": 25,
+		"type": 2,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 0.5,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Erschütterungsschuss",
+				"description": "Trifft Erschütterungsschuss, während der Gegner einen Zauber wirkt, leidet er 5...20 Sekunden lang an Benommenheit. Dieser Angriff fügt nur 1...16 Punkte Schaden zu.",
+				"concise": "Verursacht Zustand Benommenheit (5...20 Sekunden). <gray>Treffer richten nur 1...16 Punkte Schaden an. Gegner muss einen Zauber wirken, sonst keine Wirkung.</gray>",
+				"campaign": "Basis",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Treffsicherheit",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Concussion Shot",
+				"description": "If Concussion Shot hits while target foe is casting a spell, the spell is interrupted and your target is Dazed for 5...20 seconds. This attack deals only 1...16 damage.",
+				"concise": "Interrupts a spell. Interruption effect: inflicts Dazed condition (5...20 seconds). <gray>Hits for only 1...16 damage.</gray>",
+				"campaign": "Core",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Marksmanship",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

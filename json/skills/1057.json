@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1057,
+		"campaign": 2,
+		"profession": 5,
+		"attribute": 0,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 3185,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Übernatürliche Labilität",
+				"description": "Unterbricht die Aktion des Gegners. Handelt es sich bei der Aktion um eine Fertigkeit, werden der Gegner und alle Gegner in der Nähe 2...4 Sekunden lang zu Boden geworfen. (Bei Schnellwirkung von 4 oder weniger besteht eine 50%ige Chance auf Misserfolg.)",
+				"concise": "Unterbricht die Aktion des gegners<sic/>. Handelt es sich bei der Aktion um eine Fertigkeit, werden der Gegner und und<sic/> alle Feinde in der Nähe 2...4 lang zu Boden geworfen. <gray>Bei Schnellwirkung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.</gray>",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Schnellwirkung",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Psychic Instability",
+				"description": "Interrupt the target foe's action. If that action was a skill, that foe and nearby foes are knocked down for 2...4 seconds. (50% failure chance with Fast Casting 4 or less.)",
+				"concise": "Interrupts an action. Interruption effect: if the action is a skill, cause knockdown for 2...4 seconds on target foe and all nearby foes. <gray>50% failure chance unless Fast Casting 5 or higher.</gray>",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Fast Casting",
+				"type": "Spell"
+			}
+		}
+	}
+}

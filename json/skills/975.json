@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 975,
+		"campaign": 2,
+		"profession": 7,
+		"attribute": 29,
+		"type": 7,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.5,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ermüdender Angriff",
+				"description": "Muss einem Leithandangriff folgen. Unterbricht die Aktion des Gegners. Wenn es sich dabei um einen Zauber gehandelt hat, erleidet der Gegner 10 Überzaubern.",
+				"concise": "Unterbricht eine Aktion. Fügt 10 Überzaubern zu, wenn die unterbrochene Aktion ein Zauber war. <gray>Muss einem Leithandangriff folgen.</gray>",
+				"campaign": "Factions",
+				"profession": "Assassine",
+				"profession_abbr": "A",
+				"attribute": "Dolchbeherrschung",
+				"type": "Doppelangriff"
+			},
+			"en": {
+				"name": "Exhausting Assault",
+				"description": "Must follow a lead attack. Target foe's action is interrupted. If that action was casting a spell, target foe suffers 10 Overcast.",
+				"concise": "Interrupts an action. Inflicts 10 Overcast if the interrupted action was a spell. <gray>Must follow a lead attack.</gray>",
+				"campaign": "Factions",
+				"profession": "Assassin",
+				"profession_abbr": "A",
+				"attribute": "Dagger Mastery",
+				"type": "Dual Attack"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 942,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 16,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verhexungen zurücknehmen",
+				"description": "Entfernt alle Verhexungen vom Verbündeten (bzw. Euch selbst) und allen umstehenden Verbündeten. Dieser Zauber braucht 2 Sekunden länger, um aufzuladen, für jede Verhexung, die so entfernt wurde. (50% Chance auf Fehlschlag, wenn Gunst der Götter 4 oder weniger).",
+				"concise": "Entfernt alle Verhexungen. Betrifft auch umstehende Verbündete. <gray>Entfernungskosten: Pro entfernter Verhexung +2 Sekunden zur Aufladezeit (maximal 655 Sekunden). (50% Chance auf Fehlschlag, wenn Gunst der Götter 4 oder weniger).</gray>",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Withdraw Hexes",
+				"description": "Remove all hexes from target ally and all adjacent allies. This spell takes an additional 2 seconds to recharge for each hex removed in this way. (50% failure chance with Divine Favor 4 or less.)",
+				"concise": "Removes all hexes. Also affects adjacent allies. <gray>Removal cost: +2 seconds recharge for each hex removed. 50% failure chance unless Divine Favor 5 or more.</gray>",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Spell"
+			}
+		}
+	}
+}

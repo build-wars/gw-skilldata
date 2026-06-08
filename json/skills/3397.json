@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3397,
+		"campaign": 3,
+		"profession": 6,
+		"attribute": 10,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Elementare Flamme (PvP)",
+				"description": "Während der nächsten 5...20 Sekunden wird der Gegner jedes Mal, wenn auf ihn eine Elementar-Verhexung gerichtet wird, 1...2 Sekunden lang in Brand gesetzt.",
+				"concise": "(5...20 Sekunden.) Verursacht jedes Mal Zustand Brennen (1...2 Sekunden), wenn eine Elementar-Verhexung auf den Gegner gerichtet wird.",
+				"campaign": "Nightfall",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Elemental Flame (PvP)",
+				"description": "For 5...20 seconds, whenever you apply an Elemental hex to a foe, that foe is set on fire for 1...2 seconds.",
+				"concise": "(5...20 seconds.) Inflicts Burning condition (1...2 seconds) whenever you apply an Elemental hex to a target.",
+				"campaign": "Nightfall",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

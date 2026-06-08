@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1557,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 40,
+		"type": 13,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Hymne der Flamme",
+				"description": "Jedes Gruppenmitglied in Hörweite fügt, wenn es in den nächsten 10 Sekunden das nächste Mal mit einer Angriffsfertigkeit einen Treffer landet, vor dem Treffer auch 1...3 Sekunden lang Brennen zu.",
+				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Brennen (1...3 Sekunden).",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Führung",
+				"type": "Anfeuerungsruf"
+			},
+			"en": {
+				"name": "Anthem of Flame",
+				"description": "For 10 seconds, the next attack skill used by each party member within earshot also causes Burning for 1...3 seconds.",
+				"concise": "(10 seconds.) Party members in earshot inflict Burning condition (1...3 seconds) with their next attack skill.",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Leadership",
+				"type": "Chant"
+			}
+		}
+	}
+}

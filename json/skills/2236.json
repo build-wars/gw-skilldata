@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2236,
+		"campaign": 4,
+		"profession": 4,
+		"attribute": 7,
+		"type": 28,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Brunnen des Ruins",
+				"description": "Der nächste Kadaver wird an seiner Position in einen Brunnen des Ruins verwandelt. 5...30 Sekunden lang leidet jeder Feind im Brunnen, der physischen Schaden erleidet, 5...20 Sekunden lang an Beschädigter Rüstung.",
+				"concise": "(5...30 Sekunden.) Verursacht bei jedem Feind im Brunnen, der physischen Schaden erleidet, den Zustand Beschädigte Rüstung (5...20 Sekunden). <gray>Benutzt frischen Kadaver.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Brunnenzauber"
+			},
+			"en": {
+				"name": "Well of Ruin",
+				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Ruin at its location. For 5...30 seconds, whenever a foe in the well takes physical damage, that foe has Cracked Armor for 5...20 seconds.",
+				"concise": "(5...30 seconds.) Inflicts Cracked Armor condition (5...20 seconds) to any foe in the well that takes physical damage. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Well Spell"
+			}
+		}
+	}
+}

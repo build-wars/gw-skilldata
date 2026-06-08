@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 123,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 7,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Heimtückischer Parasit",
+				"description": "5...15 Sekunden lang entzieht Ihr dem Gegner jedes Mal, wenn sein Angriff trifft, bis zu 15...45 Lebenspunkte.",
+				"concise": "5...15 Sekunden: Entzieht jedes Mal 15...45 Lebenspunkte, wenn ein Angriff des Gegners trifft.",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Insidious Parasite",
+				"description": "For 5...15 seconds, whenever target foe hits with an attack, you steal up to 15...45 Health from that foe.",
+				"concise": "(5...15 seconds.) Steal 15...45 Health whenever target foe hits with an attack.",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

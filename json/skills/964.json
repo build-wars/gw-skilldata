@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 964,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 33,
+		"type": 27,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 3,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rachsüchtige Waffe",
+				"description": "Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 8 Sekunden das nächste Mal durch einen Gegner Schaden erleidet oder Lebenspunkte entzogen bekommt, entzieht er diesem Gegner bis zu 15...60 Lebenspunkte.",
+				"concise": "(8 Sekunden.) Entzieht dem nächsten Feind, der Schaden beim Verbündeten anrichtet, 15...60 Lebenspunkte.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Waffenzauber"
+			},
+			"en": {
+				"name": "Vengeful Weapon",
+				"description": "For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 15...60 Health from that foe.",
+				"concise": "(8 seconds.) Steals 15...60 Health from the next foe that deals damage or life steal to target ally.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Weapon Spell"
+			}
+		}
+	}
+}

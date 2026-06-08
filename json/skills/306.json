@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 306,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 15,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 5,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Wiedergeburt",
+				"description": "Das als Ziel ausgewählte Gruppenmitglied wird wieder belebt, kehrt mit 25% seiner Lebenspunkte und 0 Energiepunkten ins Leben zurück und unternimmt einen Schattenschritt zu Eurer aktuellen Position. Alle seine Fertigkeiten werden 10...3 Sekunden lang deaktiviert. Dieser Zauber verbraucht Eure gesamten verbliebenen Energiepunkte.",
+				"concise": "Das Gruppenmitglied wird wiederbelebt (25% Lebenspunkte, 0 Energiepunkte) und unternimmt einen Schattenschritt zu Euch. <gray>Deaktiviert die Fertigkeiten des Ziels (10...3 Sekunden). Ihr verliert alle Energiepunkte.</gray>",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Rebirth",
+				"description": "Resurrect target party member. Target party member is returned to life with 25% Health and zero Energy, and is teleported to your current location. All of target's skills are disabled for 10...3 seconds. This spell consumes all of your remaining Energy.",
+				"concise": "Resurrects target party member (25% Health, 0 Energy). Teleports target to you. <gray>Disables target's skills (10...3 seconds). You lose all Energy.</gray>",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

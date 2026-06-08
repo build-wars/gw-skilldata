@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 10,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 2,
+		"type": 29,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Gebrochene Verhexung",
+				"description": "Wenn Ihr innerhalb der nächsten 5...80 Sekunden das nächste Mal Ziel einer Verhexung seid, wird deren Verhexungseffekt nicht aufgetragen, der Wirker erleidet 10...46 Punkte Schaden und Gebrochene Verhexung endet. Gebrochene Verhexung verhindert keine Anfangswirkungen von Verhexungen.",
+				"concise": "5...80 Sekunden: Die nächste Verhexung gegen Euch misslingt und der Wirker erleidet 10...46 Punkte Schaden.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Haltung"
+			},
+			"en": {
+				"name": "Hex Breaker",
+				"description": "For 5...80 seconds, the next time you are the target of a hex, that hex fails and the caster takes 10...46 damage.",
+				"concise": "(5...80 seconds.) The next hex against you fails and the caster takes 10...46 damage.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Stance"
+			}
+		}
+	}
+}

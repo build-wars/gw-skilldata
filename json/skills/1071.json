@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1071,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 7,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Angstschauer",
+				"description": "10...40 Sekunden lang wird der Gegner jedes Mal, wenn er beim Anwenden einer Fertigkeit mit Kälteschaden getroffen wird, unterbrochen und Ihr verliert 8...3 Energiepunkte oder Angstschauer endet.",
+				"concise": "10...40 Sekunden: Kälteschaden unterbricht die Fertigkeiten des Gegners. <gray>Unterbrechungskosten: Ihr verliert 8...3 Energiepunkte oder diese Verhexung endet.</gray>",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Shivers of Dread",
+				"description": "For 10...40 seconds, whenever target foe is struck for cold damage while using a skill, that foe is interrupted<sic/> and you lose 8...3 Energy or Shivers of Dread ends.",
+				"concise": "(10...40 seconds.) Cold damage interrupts target foe's skills. <gray>Interruption cost: you lose 8...3 Energy or this hex ends.</gray>",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

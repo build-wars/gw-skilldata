@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2876,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 40,
+		"type": 13,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 2,
+		"recharge": 25,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verteidigungshymne (PvP)",
+				"description": "4...10 Sekunden lang hat jedes Gruppenmitglied in Hörweite eine 50%ige Chance, Angriffe zu blocken. Dieser Anfeuerungsruf endet, wenn das Gruppenmitglied mit einer Angriffsfertigkeit trifft.",
+				"concise": "4...10 Sekunden: Gruppenmitglieder in Hörweite haben eine 50%ige Chance zu blocken. <gray>Endet bei einem Treffer mit einer Angriffsfertigkeit</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Führung",
+				"type": "Anfeuerungsruf"
+			},
+			"en": {
+				"name": "Defensive Anthem (PvP)",
+				"description": "For 4...10 seconds, each party member within earshot has a 50% chance to block incoming attacks. This chant ends if that party member hits with an attack skill.",
+				"concise": "(4...10 seconds.) Party members in earshot have 50% chance to block. <gray>Ends when hitting with an attack skill.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Leadership",
+				"type": "Chant"
+			}
+		}
+	}
+}

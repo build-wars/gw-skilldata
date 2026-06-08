@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2105,
+		"campaign": 3,
+		"profession": 3,
+		"attribute": 102,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": true,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Lebenssaat",
+				"description": "Während der nächsten 2...5 Sekunden werden jedes Mal, wenn der Verbündete Schaden erleidet, alle Gruppenmitglieder pro Rang in Gunst der Götter um 2 Lebenspunkte geheilt.",
+				"concise": "(2...5 Sekunden.) Heilt alle Gruppenmitglieder jedes Mal, wenn das Ziel Schaden erleidet, um 2 Lebenspunkte pro Rang in Gunst der Götter. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Sonnenspeertitel",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Seed of Life",
+				"description": "For 2...5 seconds, whenever target other ally takes damage, all party members are healed for 2 Health for each rank in Divine Favor.",
+				"concise": "(2...5) seconds. Heals party members for 2 for each rank in Divine Favor whenever target takes damage. Cannot self target.",
+				"campaign": "Nightfall",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Sunspear Title Track",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

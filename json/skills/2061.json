@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2061,
+		"campaign": 4,
+		"profession": 3,
+		"attribute": 13,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 4,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Geduldiger Geist",
+				"description": "2 Sekunden lang wird der Verbündete (bzw. Ihr selbst) mit Geduldiger Geist verzaubert. Sofern diese Verzauberung nicht vorzeitig beendet wird, wird dieser Verbündete um 30...120 Lebenspunkte geheilt, wenn diese Verzauberung endet.",
+				"concise": "(2 Sekunden.) Wirkung am Ende: Heilt 30...120 Lebenspunkte. <gray>Keine Wirkung bei vorzeitiger Beendigung.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Heilgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Patient Spirit",
+				"description": "For 2 seconds, target ally is enchanted with Patient Spirit. Unless this enchantment ends prematurely, that ally is healed for 30...120 Health when the enchantment ends.",
+				"concise": "(2 seconds.) End effect: heals for 30...120. <gray>No effect if ends early.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Healing Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

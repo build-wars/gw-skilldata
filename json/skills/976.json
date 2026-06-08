@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 976,
+		"campaign": 2,
+		"profession": 7,
+		"attribute": 29,
+		"type": 6,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Wiederholender Schlag",
+				"description": "Muss einem Begleithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...30 Punkte Schaden zu. Wenn er sein Ziel verfehlt, benötigt er zusätzlich 15 Sekunden zum Wiederaufladen.",
+				"concise": "Richtet +10...30 Punkte Schaden an. <gray>+15 Sekunden zur Aufladezeit dieser Fertigkeit, falls Ihr verfehlt. Muss einem Begleithandangriff folgen.</gray>",
+				"campaign": "Factions",
+				"profession": "Assassine",
+				"profession_abbr": "A",
+				"attribute": "Dolchbeherrschung",
+				"type": "Begleithandangriff"
+			},
+			"en": {
+				"name": "Repeating Strike",
+				"description": "Must follow an off-hand attack. If it hits, this attack strikes for +10...30 damage. If it misses, it takes an additional 15 seconds to recharge.",
+				"concise": "Deals +10...30 damage. <gray>This skill has +15 second recharge time if it misses. Must follow an off-hand attack.</gray>",
+				"campaign": "Factions",
+				"profession": "Assassin",
+				"profession_abbr": "A",
+				"attribute": "Dagger Mastery",
+				"type": "Off-Hand Attack"
+			}
+		}
+	}
+}

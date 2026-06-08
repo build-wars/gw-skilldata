@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2001,
+		"campaign": 4,
+		"profession": 6,
+		"attribute": 9,
+		"type": 26,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Kreis der Schwäche",
+				"description": "Erzeugt an Eurer gegenwärtigen Position einen Kreis der Schwäche. 5...20 Sekunden lang werden Feinde in diesem Bereich jedes Mal, wenn sie Elementarschaden erleiden, für 5...20 Sekunden geschwächt.",
+				"concise": "5...20 Sekunden: Verursacht bei allen Feinden in dieser Abwehr, die Elementarschaden erleiden, den Zustand Schwäche (5...20 Sekunden).",
+				"campaign": "Eye of the North",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Abwehrzauber"
+			},
+			"en": {
+				"name": "Ward of Weakness",
+				"description": "You create a Ward of Weakness at your current location. For 5...20 seconds, foes in this area become Weakened for 5...20 seconds whenever they take elemental damage.",
+				"concise": "(5...20 seconds). Inflicts Weakened condition (5...20 seconds) to any foes that take elemental damage in this ward.",
+				"campaign": "Eye of the North",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Ward Spell"
+			}
+		}
+	}
+}

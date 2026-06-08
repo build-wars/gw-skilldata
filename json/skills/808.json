@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 808,
+		"campaign": 3,
+		"profession": 4,
+		"attribute": 6,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zeichen des Schnitters",
+				"description": "30 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...5. Wenn er stirbt, während er mit Zeichen des Schnitters verhext ist, erhaltet Ihr 5...15 Energiepunkte.",
+				"concise": "30 Sekunden: Verursacht +1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkte, falls der Gegner an dieser Verhexung stirbt.",
+				"campaign": "Nightfall",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Seelensammlung",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Reaper's Mark",
+				"description": "For 30 seconds, target foe suffers -1...5 Health degeneration. If that foe dies while hexed with Reaper's Mark, you gain 5...15 Energy.",
+				"concise": "(30 seconds.) Causes -1...5 Health degeneration. You gain 5...15 Energy if target foe dies while suffering from this hex.",
+				"campaign": "Nightfall",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Soul Reaping",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

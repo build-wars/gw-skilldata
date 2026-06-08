@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 215,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 11,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 2,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 10,
+		"lang": {
+			"de": {
+				"name": "Strudel",
+				"description": "An der Position des Gegners wird ein Strudel erzeugt. 10 Sekunden lang erleiden umstehende Feinde in diesem Bereich pro Sekunde 10...25 Punkte Kälteschaden. Wenn Strudel trifft, wird dadurch das Wirken von Zaubern unterbrochen.",
+				"concise": "Richtet jede Sekunde 10...25 Punkte Kälteschaden an und unterbricht Zauber (10 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Maelstrom",
+				"description": "Create a Maelstrom at target foe's location. For 10 seconds, foes adjacent to that area are struck for 10...25 cold damage each second. Maelstrom interrupts spell-casting when it hits.",
+				"concise": "Deals 10...25 cold damage and interrupts spells each second (10 seconds). Hits foes adjacent to target's initial location.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

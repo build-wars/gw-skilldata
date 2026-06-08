@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 309,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 101,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Heiliger Schleier",
+				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, dauert das Wirken von Verhexungen auf einen Verbündeten (bzw. Euch selbst) doppelt so lange. Wenn Heiliger Schleier endet, wird eine Verhexung vom entsprechenden Verbündeten entfernt.",
+				"concise": "Verdoppelt die Wirkzeit von Verhexungen, die auf den Verbündeten (bzw. Euch selbst) angewendet werden. Wirkung am Ende: Entfernt eine Verhexung.",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Kein Attribut",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Holy Veil",
+				"description": "While you maintain this enchantment, any hex cast on target ally takes twice as long to cast. When Holy Veil ends, one hex is removed from target ally.",
+				"concise": "Doubles casting time of hexes cast on target ally. End effect: removes a hex.",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "No Attribute",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

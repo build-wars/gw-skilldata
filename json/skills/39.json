@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 39,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 2,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Energiewelle",
+				"description": "Der Zielgegner verliert 1...10 Punkte Energie. Für jeden verlorenen Energiepunkt erleiden dieser und alle Feinde in der Nähe 9 Punkte Schaden.",
+				"concise": "Lässt 1...10 Energiepunkt verlieren. Richtet beim Gegner und Feinden in der Nähe pro verlorenem Energiepunkt 9 Punkte Schaden an.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Energy Surge",
+				"description": "Target foe loses 1...10 Energy. For each point of Energy lost, that foe and all nearby foes take 9 damage.",
+				"concise": "Causes 1...10 Energy loss. Deals 9 damage to target and nearby foes for each point of Energy lost.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

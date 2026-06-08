@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 263,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Band des Schutzes",
+				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, kann der Verbündete (bzw. Ihr selbst) immer dann, wenn ihm Schaden zugefügt wird, dadurch nur 5% seiner maximalen Lebenspunkte an Schaden erleiden. Wenn Band des Schutzes Schaden verhindert, verliert Ihr 6...3 Energiepunkte oder der Zauber endet.",
+				"concise": "Verbündeter (bzw. Ihr selbst) kann durch einen einzelnen Angriff oder Zauber nicht mehr als 5% seiner maximalen Lebenspunkte verlieren. <gray>Jedes Mal, wenn Schaden reduziert wird, verliert Ihr 6...3 Energiepunkte oder dieser Zauber endet.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Protective Bond",
+				"description": "While you maintain this enchantment, target ally cannot lose more than 5% max Health due to damage from a single attack or spell. When Protective Bond prevents damage, you lose 6...3 Energy or the spell ends.",
+				"concise": "Target ally cannot lose more than 5% max Health from a single attack or spell. <gray>Each time damage is reduced you lose 6...3 Energy or this spell ends.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2872,
+		"campaign": 3,
+		"profession": 8,
+		"attribute": 33,
+		"type": 21,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 4,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Todespakt-Siegel (PvP)",
+				"description": "Belebt das Gruppenmitglied mit Euren aktuellen Lebenspunkten und 15...100% maximaler Energie wieder. Wenn dieser Verbündete das nächste mal innerhalb von 120 Sekunden stirbt, sterbt Ihr auch.",
+				"concise": "Das Gruppenmitglied wird wiederbelebt (Eure aktuellen Lebenspunkte, 15...100% maximale Energie). <gray>120 Sekunden: Ihr sterbt, wenn dieses Gruppenmitglied das nächste Mal stirbt.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Siegel"
+			},
+			"en": {
+				"name": "Death Pact Signet (PvP)",
+				"description": "Resurrect target party member with your current Health and 15...100% Energy. The next time that ally dies within 120 seconds, so do you.",
+				"concise": "Resurrects target party member with your current Health and 15...100% maximum Energy. For 120 seconds, you die the next time this party member dies.",
+				"campaign": "Nightfall",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Signet"
+			}
+		}
+	}
+}

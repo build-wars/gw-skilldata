@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1211,
+		"campaign": 2,
+		"profession": 2,
+		"attribute": 22,
+		"type": 30,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Vipernnest",
+				"description": "Erzeugt ein Vipernnest. Wenn es ausgelöst wird, erleiden alle getroffenen Gegner in der Nähe 5...35 Punkte Stichschaden und werden 5...20 Sekunden lang vergiftet. Vipernnest endet nach 90 Sekunden. Diese Falle kann leicht unterbrochen werden.",
+				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 5...35 Punkte Stichschaden an. Verursacht Zustand Gift (5...20 Sekunden). <gray>Leicht zu unterbrechen.</gray>",
+				"campaign": "Factions",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Falle"
+			},
+			"en": {
+				"name": "Viper's Nest",
+				"description": "Create a Viper's Nest. When it is triggered, all nearby foes are struck for 5...35 piercing damage and become Poisoned for 5...20 seconds. Viper's Nest expires after 90 seconds. This Trap is easily interrupted.",
+				"concise": "(90 seconds.) Affects nearby foes. Deals 5...35 piercing damage. Inflicts Poisoned condition (5...20 seconds). <gray>Easily interrupted.</gray>",
+				"campaign": "Factions",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Trap"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2208,
+		"campaign": 4,
+		"profession": 9,
+		"attribute": 40,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Brennender Schild",
+				"description": "3...9 Sekunden lang wird, wenn Ihr einen Schild benutzt, die nächste Angriffsfertigkeit gegen Euch geblockt. Falls es sich dabei um einen Nahkampfangriff gehandelt hat, wird Euer Angreifer 1...6 Sekunden lang in Brand gesetzt.",
+				"concise": "3...9 Sekunden: Blockt die nächste feindliche Fertigkeit gegen Euch. Verursacht Zustand Brennen (1...6 Sekunden), falls es sich um einen Nahkampfangriff handelt. <gray>Keine Wirkung, falls Ihr keinen Schild benutzt</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Führung",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Burning Shield",
+				"description": "For 3...9 seconds, while wielding a shield, the next attack skill used against you is blocked. If it was a melee attack, your attacker is set on fire for 1...6 seconds.",
+				"concise": "(3...9 seconds.) Blocks the next attack skill against you. Inflicts Burning condition (1...6 seconds) if it was a melee attack. <gray>No effect unless you are wielding a shield.</gray>",
+				"campaign": "Eye of the North",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Leadership",
+				"type": "Skill"
+			}
+		}
+	}
+}

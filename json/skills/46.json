@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 46,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 2,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 25,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schuld",
+				"description": "6 Sekunden lang schlägt der nächste Zauber des Gegners auf einen seiner Feinde fehl und Ihr entzieht dem Widersacher bis zu 5...14 Energiepunkte.",
+				"concise": "6 Sekunden: Nächster Zauber des Gegners schlägt fehl und Ihr entzieht ihm 5...14 Energiepunkte. <gray>Zauber des Gegners muss auf einen seiner Feinde gerichtet sein, sonst keine Wirkung.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Guilt",
+				"description": "For 6 seconds, the next time target foe casts a spell that targets a foe, the spell fails and you steal up to 5...14 Energy from that foe.",
+				"concise": "(6 seconds.) Target foe's next spell fails and you steal 5...14 Energy. <gray>No effect unless this foe's spell targets one of your allies.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

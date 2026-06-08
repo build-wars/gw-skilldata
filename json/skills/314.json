@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 314,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 13,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 4,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Leben erneuern",
+				"description": "Berührt den Körper eines gefallenen Gruppenmitglieds. Dieses wird mit 20...65% seines Lebens und 42...90% seiner Energie wiederbelebt.",
+				"concise": "Das Gruppenmitglied wird wiederbelebt (20...65% Lebenspunkte, 42...90% Energiepunkte).",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Heilgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Restore Life",
+				"description": "Touch the body of a fallen party member. Target party member is returned to life with 20...65% Health and 42...90% Energy.",
+				"concise": "Touch Spell. Resurrects target party member (20...65% Health, 42...90% Energy).",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Healing Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

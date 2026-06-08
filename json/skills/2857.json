@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2857,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Aegis (PvP)",
+				"description": "Das andere Gruppenmitglied kann 1...3 Sekunden lang nicht zum Ziel von feindlichen Zaubern werden und Angriffe gegen dieses Gruppenmitglied versagen.",
+				"concise": "(1...3 Sekunden) Das andere Gruppenmitglied kann nicht Ziel von feindlichen Zaubern werden. Angriffe gegen dieses Gruppenmitglied versagen. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Aegis (PvP)",
+				"description": "For 1...3 seconds, target other party member cannot be the target of hostile spells, and attacks against this party member fail.",
+				"concise": "(1...3 seconds). Target party member cannot be targeted by hostile spells. Attacks against this party member fail. <gray>Cannot self-target.</gray>",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

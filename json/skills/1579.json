@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1579,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 39,
+		"type": 14,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Reinigendes Finale",
+				"description": "10...35 Sekunden lang verliert der Nicht-Geister-Verbündete (bzw. Ihr selbst) jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, einen Zustand.",
+				"concise": "10...35 Sekunden: Der Verbündete (bzw. Ihr selbst) verliert jedes Mal einen Zustand, wenn ein Schrei oder Anfeuerungsruf auf ihm endet. <gray>Nicht auf Geister anwendbar.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Motivation",
+				"type": "Echo"
+			},
+			"en": {
+				"name": "Purifying Finale",
+				"description": "For 10...35 seconds, target non-spirit ally loses 1 condition whenever a chant or shout ends on that ally.",
+				"concise": "(10...35 seconds.) Target ally loses one condition whenever a chant or shout ends on that ally. <gray>Cannot target spirits.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Motivation",
+				"type": "Echo"
+			}
+		}
+	}
+}

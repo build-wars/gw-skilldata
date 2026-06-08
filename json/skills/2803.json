@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2803,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 11,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 5,
+		"lang": {
+			"de": {
+				"name": "Geistige Erfrierung (PvP)",
+				"description": "Der Gegner erleidet 10...60 Punkte Kälteschaden. Wenn Ihr mehr Energie als der Gegner habt, erleidet er zusätzlich 10...60 Punkte Kälteschaden und bewegt sich 1...5 Sekunden lang um 90% langsamer. Dieser Zauber ruft Erschöpfung hervor.",
+				"concise": "Richtet 10...60 Punkte Kälteschaden an. Falls Ihr mehr Energie habt als der Gegner, erhält er zusätzlich 10...60 Punkte Kälteschaden und bewegt sich um 90% langsamer (1...5 Sekunden).",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Mind Freeze (PvP)",
+				"description": "Target foe takes 10...60 cold damage. If you have more Energy than target foe, that foe suffers an additional 10...60 cold damage and moves 90% slower for 1...5 seconds.",
+				"concise": "Deals 10...60 cold damage. If you have more Energy than target foe, deals +10...60 cold damage and causes 90% slower movement (1...5 seconds).",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

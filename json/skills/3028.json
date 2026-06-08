@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3028,
+		"campaign": 3,
+		"profession": 9,
+		"attribute": 40,
+		"type": 14,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Loderndes Finale (PvP)",
+				"description": "10...35 Sekunden lang werden jedes Mal, wenn ein auf den Nicht-Geister-Verbündeten (bzw. Euch selbst) gerichteter Anfeuerungsruf oder Schrei endet, alle diesen Verbündeten umstehenden Feinde 1...3 Sekunden lang in Brand gesetzt.",
+				"concise": "10...35 Sekunden: Verursacht bei umstehenden Feinden jedes Mal Zustand Brennen (1...3 Sekunden), wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet. <gray>Nicht auf Geister anwendbar.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Führung",
+				"type": "Echo"
+			},
+			"en": {
+				"name": "Blazing Finale (PvP)",
+				"description": "For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, all foes adjacent to that ally are set on Fire for 1...3 seconds.",
+				"concise": "(10...35 seconds.) Inflicts Burning condition (1...3 seconds) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits.",
+				"campaign": "Nightfall",
+				"profession": "Paragon",
+				"profession_abbr": "P",
+				"attribute": "Leadership",
+				"type": "Echo"
+			}
+		}
+	}
+}

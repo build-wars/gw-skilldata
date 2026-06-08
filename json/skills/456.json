@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 456,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 24,
+		"type": 29,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 45,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schlangen-Schnelligkeit",
+				"description": "15...30 Sekunden lang ist die Wiederaufladezeit für Eure Fertigkeiten um 33% reduziert. Schlangen-Schnelligkeit endet, wenn Eure Lebenspunkte unter 50% sinken.",
+				"concise": "15...30 Sekunden: Eure Fertigkeiten laden sich um 33% schneller auf. <gray>Endet, wenn Eure Lebenspunkte unter 50% Eurer maximalen Lebenspunkte sinken.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Überleben in der Wildnis",
+				"type": "Haltung"
+			},
+			"en": {
+				"name": "Serpent's Quickness",
+				"description": "For 15...30 seconds, recharge times for your skills are reduced by 33%. Serpent's Quickness ends if your Health drops below 50%.",
+				"concise": "(15...30 seconds.) Your skills recharge 33% faster. <gray>Ends if your Health drops below 50%.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Wilderness Survival",
+				"type": "Stance"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 77,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 2,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Chaossturm",
+				"description": "An der Position des Gegners wird ein Chaossturm erzeugt, der 10 Sekunden lang anhält. Umstehende Feinde erleiden pro Sekunde 5...25 Punkte Schaden und verlieren 0...2 Energiepunkte.",
+				"concise": "Fügt pro Sekunde 5...25 Punkte Schaden zu und verursacht einen Verlust von 0...2 Energiepunkten (10 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Chaos Storm",
+				"description": "Create a Chaos Storm at target foe's location that lasts for 10 seconds. Each second, foes adjacent to this location take 5...25 damage and lose 0...2 Energy.",
+				"concise": "Deals 5...25 damage and causes 0...2 Energy loss each second (10 seconds). Hits foes adjacent to target's initial location.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

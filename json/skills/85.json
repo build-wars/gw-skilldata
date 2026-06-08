@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 85,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 5,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 3,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Knochendiener beleben",
+				"description": "Der nächste Kadaver wird als zwei Knochendiener der Stufe 0...12 belebt.",
+				"concise": "Erstellt zwei Knochendiener der Stufe 0...12. <gray>Benutzt frischen Kadaver.</gray>",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Animate Bone Minions",
+				"description": "Exploit nearest corpse to animate two level 0...12 bone minions.",
+				"concise": "Creates two level 0...12 bone minions. <gray>Exploits a fresh corpse.</gray>",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2003,
+		"campaign": 4,
+		"profession": 3,
+		"attribute": 13,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verhexung heilen",
+				"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Wenn eine Verhexung entfernt wurde, wird der Verbündete um 30...120 Lebenspunkte geheilt.",
+				"concise": "Entfernt eine Verhexung. Entfernungswirkung: Heilt um 30...120 Lebenspunkte.",
+				"campaign": "Eye of the North",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Heilgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Cure Hex",
+				"description": "Remove one Hex from target ally. If a Hex was removed, that ally is healed for 30...120 Health.",
+				"concise": "Removes a Hex. Removal effect: Heals for 30...120.",
+				"campaign": "Eye of the North",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Healing Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

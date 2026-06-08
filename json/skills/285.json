@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 285,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 13,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 25,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Heilende Hände",
+				"description": "Während der nächsten 10 Sekunden wird der Verbündete (bzw. Ihr selbst) jedes Mal, wenn er Schaden erleidet, um 5...35 Lebenspunkte geheilt.",
+				"concise": "10 Sekunden: Heilt jedes Mal um 5...35 Lebenspunkte, wenn das Ziel Schaden erleidet.",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Heilgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Healing Hands",
+				"description": "For 10 seconds, whenever target ally takes damage, that ally is healed for 5...35 Health.",
+				"concise": "(10 seconds.) Heals for 5...35 whenever target takes damage.",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Healing Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 936,
+		"campaign": 3,
+		"profession": 4,
+		"attribute": 7,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verzauberungen vergiften",
+				"description": "Der Gegner verliert eine Verzauberung. Für jede verbleibende Verzauberung wird der Gegner 3...10 Sekunden lang vergiftet.",
+				"concise": "Entfernt eine Verzauberung vom Gegner. Verursacht Zustand Gift (3...10 Sekunden pro verbleibender Verzauberung auf dem Gegner).",
+				"campaign": "Nightfall",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Envenom Enchantments",
+				"description": "Target foe loses one enchantment. For every remaining enchantment, target foe is poisoned for 3...10 seconds.",
+				"concise": "Removes one enchantment from target foe. Inflicts Poisoned condition (3...10 seconds for each remaining enchantment on that foe).",
+				"campaign": "Nightfall",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Spell"
+			}
+		}
+	}
+}

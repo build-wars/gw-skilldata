@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2007,
+		"campaign": 4,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 6,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Reinigender Schleier",
+				"description": "Während Ihr diese Verzauberung aufrechterhaltet, enden Zustände auf den Verbündeten (bzw. Euch selbst) um 5...50% schneller, mindestens jedoch 1 Sekunde. Wenn diese Verzauberung endet, wird ein Zustand vom Verbündeten entfernt.",
+				"concise": "Zustände auf dem Verbündeten (bzw. Euch selbst) enden um 5...50% früher, mindestens jedoch 1 Sekunde. Wirkung am Ende: Entfernt einen Zustand.",
+				"campaign": "Eye of the North",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Purifying Veil",
+				"description": "While you maintain this enchantment, conditions expire 5...50% faster on target ally. When this enchantment ends, one condition is removed from that ally.",
+				"concise": "Conditions expire 5...50% faster on target ally. End effect: removes a condition.",
+				"campaign": "Eye of the North",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

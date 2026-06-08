@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1229,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 36,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 45,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Explosives Wachstum",
+				"description": "Während der nächsten 15...60 Sekunden erleiden jedes Mal, wenn Ihr eine Kreatur erschafft, bis zu 5 Gegner neben dieser Kreatur 20...65 Punkte Blitzschaden.",
+				"concise": "15...60 Sekunden: Richtet jedes Mal, wenn Ihr eine Kreatur erstellt, bei 5 Feinden in deren Nähe 20...65 Punkte Blitzschaden an.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Macht des Herbeirufens",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Explosive Growth",
+				"description": "For 15...60 seconds, whenever you create a creature, up to 5 foes near that creature are struck for 20...65 lightning damage.",
+				"concise": "(15...60 seconds.) Deals 20...65 lightning damage each time you create a creature to 5 foes near that creature.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Spawning Power",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

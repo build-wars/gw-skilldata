@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 169,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 9,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Erdeinstimmung",
+				"description": "36...60 Sekunden lang seid Ihr auf die Erde eingestimmt. Jedes Mal, wenn Ihr Erdmagie verwendet, erhaltet Ihr 1 Energiepunkt sowie 30% der Basisenergiekosten der Fertigkeit.",
+				"concise": "36...60 Sekunden: Ihr erhaltet 1 Energiepunkt plus 30% der Energiekosten zurück, wenn Ihr Erdmagie-Fertigkeiten benutzt.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Earth Attunement",
+				"description": "For 36...60 seconds, you are attuned to Earth. You gain 1 Energy plus 30% of the base Energy cost of the skill each time you use Earth Magic.",
+				"concise": "(36...60 seconds.) You gain 1 Energy plus 30% of the Energy cost when you use an Earth Magic skill.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

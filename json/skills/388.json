@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 388,
+		"campaign": 1,
+		"profession": 1,
+		"attribute": 21,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Tödliche Entgegnung",
+				"description": "8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff, Euer Angreifer wird mit 15...90 Punkten Schaden getroffen und blutet 3...26 Sekunden lang.",
+				"concise": "8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 15...90 Punkte Schaden. Verursacht Zustand Blutung (3...26 Sekunden). <gray>Keine Wirkung, falls Ihr kein Schwert benutzt.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Taktik",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Deadly Riposte",
+				"description": "For 8 seconds, while you have a sword equipped, you block the next melee attack against you, and your attacker is struck for 15...90 damage and begins Bleeding for 3...25 seconds.",
+				"concise": "(8 seconds). You block the next melee attack and your attacker takes 15...90 damage. Inflicts Bleeding condition. (3...25 seconds). <gray>No effect unless you have a sword equipped.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Tactics",
+				"type": "Skill"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 983,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 33,
+		"type": 27,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schattenwaffe",
+				"description": "Der Verbündete (bzw. Ihr selbst) erhält für eine Dauer von 1...7 Sekunden eine Schattenwaffe. Jedes Mal, wenn der Verbündete getroffen wird, wird der Angreifer 5 Sekunden lang geblendet. Die nächsten 1...3 Mal, wenn ein Angriff dieses Verbündeten trifft, wird sein Ziel 5 Sekunden lang geblendet.",
+				"concise": "(1...7 Sekunden.) Verursacht bei jedem, der den Verbündeten (bzw. Euch selbst) angreift, den Zustand Blindheit (5 Sekunden). Die nächsten 1...3 Angriffe des Ziels verursachen Blindheit (5 Sekunden), wenn sie treffen.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Waffenzauber"
+			},
+			"en": {
+				"name": "Weapon of Shadow",
+				"description": "For 1...7 seconds, target ally has a Weapon of Shadow. Whenever that ally is struck by an attack, that ally's attacker becomes Blinded for 5 seconds. The next 1...3 times <sic/> that ally hits with an attack, his target is Blinded for 5 seconds.",
+				"concise": "(1...7 seconds.) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally's next 1...3 attacks inflict Blindness (5 seconds) if they hit.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Weapon Spell"
+			}
+		}
+	}
+}

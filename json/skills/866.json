@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 866,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 11,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1.5,
+		"recharge": 7,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 5,
+		"lang": {
+			"de": {
+				"name": "Dunstklinge",
+				"description": "Der Gegner erleidet 15...135 Punkte Kälteschaden. Dunstklinge verursacht nur die halbe Schadensmenge, wenn dieser Gegner mit Verzauberungen belegt ist.",
+				"concise": "Richtet 15...135 Punkte Kälteschaden an. Halber Schaden, falls Gegner verzaubert ist.",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Vapor Blade",
+				"description": "Target foe is struck for 15...135 cold damage. Vapor Blade deals half damage if that foe has any enchantments on them.",
+				"concise": "Deals 15...135 cold damage. Half damage if target foe is enchanted.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

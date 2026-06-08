@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 860,
+		"campaign": 2,
+		"profession": 5,
+		"attribute": 2,
+		"type": 21,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 0.25,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Siegel der Unterbrechung",
+				"description": "Wenn der Gegner einen Zauber wirkt, wird dieser unterbrochen und der Gegner erleidet 10...51 Punkte Schaden. Wenn dieser Gegner verhext ist, kann Siegel der Unterbrechung alle Fertigkeiten, die nicht auf Zaubern beruhen, unterbrechen.",
+				"concise": "Unterbricht einen Zauber. Kann jede Fertigkeit unterbrechen, falls der Gegner verhext ist. Unterbrechungswirkung: Richtet 10...51 Punkte Schaden an.",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Siegel"
+			},
+			"en": {
+				"name": "Signet of Disruption",
+				"description": "If target foe is casting a spell, the spell is interrupted and that foe suffers 10...51 damage. If that foe is hexed, Signet of Disruption can interrupt any non-spell skills.",
+				"concise": "Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals 10...51 damage.",
+				"campaign": "Factions",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Signet"
+			}
+		}
+	}
+}

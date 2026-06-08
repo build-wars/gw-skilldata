@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1412,
+		"campaign": 3,
+		"profession": 1,
+		"attribute": 101,
+		"type": 20,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "\"Ihr seid ganz allein!\"",
+				"description": "Wenn sich der Gegner nicht in der Nähe eines Verbündeten befindet, leidet er 8 Sekunden lang an einer Verkrüppelung und an Schwäche.",
+				"concise": "Verursacht Zustände Verkrüppelung und Schwäche (8 Sekunden). <gray>Keine Wirkung, falls der Gegner in der Nähe eines seiner Verbündeten ist.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Kein Attribut",
+				"type": "Schrei"
+			},
+			"en": {
+				"name": "\"You're All Alone!\"",
+				"description": "If target foe isn't near an ally, that foe suffers from Cripple and Weakness for 8 seconds.",
+				"concise": "Inflicts Cripple and Weakness conditions (8 seconds). <gray>No effect if target foe is near one of its allies.</gray>",
+				"campaign": "Nightfall",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "No Attribute",
+				"type": "Shout"
+			}
+		}
+	}
+}

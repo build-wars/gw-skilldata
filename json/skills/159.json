@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 159,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 7,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rüstung schwächen",
+				"description": "Der Gegner und ihn umstehende Feinde leiden 5...20 Sekunden lang an Beschädigter Rüstung.",
+				"concise": "Betrifft auch umstehende Feinde. Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden).",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Weaken Armor",
+				"description": "Target foe and foes adjacent to your target have Cracked Armor for 5...20 seconds.",
+				"concise": "Also affects adjacent foes. Inflicts Cracked Armor condition (5...20 seconds).",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Spell"
+			}
+		}
+	}
+}

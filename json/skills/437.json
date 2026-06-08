@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 437,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 22,
+		"type": 11,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Bestiensprung",
+				"description": "Euer Tiergefährte führt einen Bestiensprung aus, der 5...20 Punkte zusätzlichen Schaden zufügt. Trifft dieser Angriff einen Gegner, der einen Zauber wirkt, wird er zu Boden geworfen.",
+				"concise": "Richtet +5...20 Punkte Schaden an. Wirft zu Boden, falls der Gegner einen Zauber wirkt.",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Tiergefährtenangriff"
+			},
+			"en": {
+				"name": "Bestial Pounce",
+				"description": "Your animal companion attempts a Bestial Pounce that deals +5...20 damage. If the attack strikes a foe who is casting a spell, that foe is knocked down.",
+				"concise": "Deals +5...20 damage. Causes knock-down if target foe is casting a spell.",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Pet Attack"
+			}
+		}
+	}
+}

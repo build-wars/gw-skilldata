@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3233,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 4,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Sieger plündern (PvP)",
+				"description": "Während der nächsten 3...15 Sekunden verliert der Gegner jedes Mal, wenn er eine Kreatur mit weniger Lebenspunkten angreift oder einen Zauber auf sie wirkt, 15...75 Lebenspunkte.",
+				"concise": "3...15 Sekunden: Lässt den Gegner jedes Mal 15...75 verlieren, wenn er eine Kreatur mit weniger Lebenspunkte angreift oder einen Zauber auf eine solche Kreatur wirkt.",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Blutmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Spoil Victor (PvP)",
+				"description": "For 3...15 seconds, whenever target foe attacks or casts a spell on a creature with less Health that foe loses 15...75 Health.",
+				"concise": "(3...15 seconds.) Causes 15...75 Health loss whenever target foe attacks or casts spells on a creature with less Health.",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Blood Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

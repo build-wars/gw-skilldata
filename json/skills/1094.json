@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1094,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 10,
+		"lang": {
+			"de": {
+				"name": "Feueratem",
+				"description": "An der aktuellen Position des Gegners wird Feueratem erzeugt. Während der nächsten 5 Sekunden erleiden umstehende Feinde 10...40 Punkte Feuerschaden pro Sekunde.",
+				"concise": "Richtet jede Sekunde 10...40 Punkte Feuerschaden an (5 Sekunden). Trifft umstehende Feinde um die anfängliche Position des Ziels.",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Breath of Fire",
+				"description": "Create Breath of Fire at target foe's current location. For 5 seconds, foes adjacent to that location are struck for 10...40 fire damage each second.",
+				"concise": "Deals 10...40 fire damage each second (5 seconds). Hits foes adjacent to target's initial location.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

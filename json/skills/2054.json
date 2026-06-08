@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2054,
+		"campaign": 4,
+		"profession": 5,
+		"attribute": 1,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schrumpfende Rüstung",
+				"description": "10 Sekunden lang leidet der Gegner an einer Lebenspunktdegeneration von -1...4. Wenn diese Verhexung endet, hat der Gegner 5...20 Sekunden lang eine Beschädigte Rüstung.",
+				"concise": "10 Sekunden: Verursacht +1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden).",
+				"campaign": "Eye of the North",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusionsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Shrinking Armor",
+				"description": "For 10 seconds, target foe suffers from -1...4 Health degeneration. When this hex ends, that foe has Cracked Armor for 5...20 seconds.",
+				"concise": "(10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Cracked Armor condition (5...20 seconds).",
+				"campaign": "Eye of the North",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusion Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 120,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 5,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 5,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Blut des Meisters",
+				"description": "Alle Eure untoten Verbündeten werden um 30...116 Lebenspunkte geheilt. Ihr opfert pro Diener, der auf diese Weise geheilt wird, zusätzlich 2% maximale Lebenspunkte.",
+				"concise": "Heilt Eure untoten Diener um 30...116 Lebenspunkte. <gray>Heilkosten: +2% Lebenspunktopfer pro geheiltem Diener.</gray>",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Blood of the Master",
+				"description": "All of your undead allies are healed for 30...116 Health. You sacrifice an additional 2% maximum Health per minion healed in this way.",
+				"concise": "Heals your undead servants for 30...116. <gray>Healing cost: +2% Health sacrifice per servant healed.</gray>",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

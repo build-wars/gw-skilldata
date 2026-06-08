@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 122,
+		"campaign": 1,
+		"profession": 4,
+		"attribute": 5,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Unheilvoller Eingriff",
+				"description": "5...20 Sekunden lang verschafft Heilung dem Gegner 20% weniger Vorteile. Wenn der Gegner stirbt, während er mit Unheilvoller Eingriff verhext ist, wird ein herrenloser Knochenschreck der Stufe 1...17 belebt.",
+				"concise": "5...20 Sekunden: Verringert die Wirkung von Heilung beim Gegner um 20%. Stirbt der Gegner, während er verhext ist, wird ein herrenloser Knochenschreck der Stufe 1...17 belebt.",
+				"campaign": "Prophecies",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Malign Intervention",
+				"description": "For 5...20 seconds, target foe receives 20% less benefit from healing. If target foe dies while hexed with Malign Intervention, a level 1...17 masterless bone horror is summoned.",
+				"concise": "(5...20 seconds.) Target foe receives 20% less from healing. If this foe dies while suffering from this hex, a level 1...17 masterless bone horror is summoned.",
+				"campaign": "Prophecies",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2143,
+		"campaign": 4,
+		"profession": 2,
+		"attribute": 25,
+		"type": 2,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.5,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Unterbrechender Schuss",
+				"description": "Wenn dieser Angriff erfolgreich ist, wird die Aktion des Gegners unterbrochen. Wenn diese Aktion eine Fertigkeit war, fügt Ihr +10...40 Punkte Schaden zu.",
+				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: +10...40 Punkte Schaden, falls Ihr eine Fertigkeit unterbrecht.",
+				"campaign": "Eye of the North",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Treffsicherheit",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Disrupting Shot",
+				"description": "If this attack hits, target foe's action is interrupted. If that action was a Skill, you strike for +10...40 damage.",
+				"concise": "Interrupts an action. Interruption effect: +10...40 damage if you interrupt a skill.",
+				"campaign": "Eye of the North",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Marksmanship",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

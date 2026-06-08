@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 961,
+		"campaign": 2,
+		"profession": 2,
+		"attribute": 22,
+		"type": 19,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 3,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zerfetzen",
+				"description": "Erstellt einen Geist der Stufe 1...10. Blutende Kreaturen in seiner Reichweite erleiden eine Lebenspunktdegeneration von -2. Wenn dieser Geist stirbt, leiden alle Kreaturen in seiner Reichweite, die keine Geister sind, und deren Lebenspunkte unter 90% liegen, 5...25 Sekunden lang an einer Blutung. Dieser Geist stirbt nach 30...240 Sekunden.",
+				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Blutende Kreaturen in Reichweite haben -2 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Kreaturen in Reichweite, die weniger als 90% ihrer maximalen Lebenspunkte haben, Zustand Blutung (5...25 Sekunden). Keine Wirkung auf Geister.",
+				"campaign": "Factions",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Naturritual"
+			},
+			"en": {
+				"name": "Lacerate",
+				"description": "Create a level 1...10 spirit. Bleeding creatures within its range suffer -2 Health degeneration. When this spirit dies, all non-spirit creatures within its range that have less than 90% Health begin Bleeding for 5...25 seconds. This spirit dies after 30...240 seconds.",
+				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Bleeding creatures in range have -2 Health degeneration. End effect: Inflicts Bleeding condition (5...25 seconds) on creatures in range that have less than 90% health. Does not affect spirits.",
+				"campaign": "Factions",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Nature ritual"
+			}
+		}
+	}
+}

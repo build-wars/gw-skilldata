@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3051,
+		"campaign": 2,
+		"profession": 2,
+		"attribute": 22,
+		"type": 11,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Erzürnter Ausfall (PvP)",
+				"description": "Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der für jede Tierbeherrschungs-Fertigkeit, die wieder aufgeladen wird, +3...23 Punkte Schaden (maximaler Bonus 80) zufügt.",
+				"concise": "Richtet für jede Eurer sich aufladenden Tierbeherrschungs-Fertigkeiten +3...23 Punkte Schaden an (maximal 80).",
+				"campaign": "Factions",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Tiergefährtenangriff"
+			},
+			"en": {
+				"name": "Enraged Lunge (PvP)",
+				"description": "Your animal companion attempts an Enraged Lunge that deals +3...23 damage (maximum bonus 80) for each recharging Beast Mastery skill.",
+				"concise": "Deals +3...23 damage (maximum 80) for each of your recharging Beast Mastery skills.",
+				"campaign": "Factions",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Pet Attack"
+			}
+		}
+	}
+}

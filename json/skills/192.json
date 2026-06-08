@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 192,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 5,
+		"recharge": 60,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 10,
+		"lang": {
+			"de": {
+				"name": "Meteorschauer",
+				"description": "An der Position des Gegners wird ein Meteorschauer erzeugt. Während der nächsten 9 Sekunden erleiden umstehende Gegner alle 3 Sekunden 7...112 Punkte Feuerschaden und werden zu Boden geworfen.",
+				"concise": "Richtet 7...112 Punkte Feuerschaden an und wirft alle 3 Sekunden zu Boden (9 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels.",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Meteor Shower",
+				"description": "Create a Meteor Shower at target foe's location. For 9 seconds, foes adjacent to that location are struck for 7...112 fire damage and knocked down every 3 seconds.",
+				"concise": "Deals 7...112 fire damage and causes knock-down every 3 seconds (9 seconds). Hits foes adjacent to target's initial location.",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

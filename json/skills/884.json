@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 884,
+		"campaign": 3,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 1,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Versengende Flammen",
+				"description": "Der Gegner und alle Feinde in der Nähe werden von Versengenden Flammen getroffen. Feinde, die bereits brennen, wenn diese Fertigkeit gewirkt wird, erleiden 10...100 Punkte Feuerschaden. Feinde, die noch nicht in Brand gesetzt sind, brennen 1...7 Sekunden lang.",
+				"concise": "Trifft Feinde in der Nähe des Ziels. Richtet bei bereits brennenden Feinden 10...100 Punkte Feuerschaden an. Verursacht bei nicht brennenden Feinden Zustand Brennen (1...7 Sekunden).",
+				"campaign": "Nightfall",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Searing Flames",
+				"description": "Target foe and all nearby foes are struck with Searing Flames. Foes already on fire when this skill is cast are struck for 10...100 fire damage. Foes not already on fire begin Burning for 1...7 seconds.",
+				"concise": "Hits foes near your target. Deals 10...100 fire damage to foes already Burning. Inflicts Burning condition (1...7 seconds) to foes not Burning.",
+				"campaign": "Nightfall",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

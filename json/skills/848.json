@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 848,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verhexung umkehren",
+				"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). 5...10 Sekunden lang wird der nächste Schaden, den der Verbündete (bzw. Ihr selbst) erleiden würde, um 5...50 Punkte verringert.",
+				"concise": "5...10 Sekunden: Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Der nächste Schaden, den der Verbündete (bzw. Ihr selbst) erleidet, wird um 5...50 Punkte reduziert. <gray>Der Verbündete muss verhext sein, sonst keine Wirkung.</gray>",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Reverse Hex",
+				"description": "Remove one hex from target ally. If a hex was removed in this way, for 5...10 seconds, the next time target ally would take damage, that damage is reduced by 5...50.",
+				"concise": "(5...10 seconds.) Removes one hex from target ally. The next damage this ally takes is reduced by 5...50. <gray>No effect unless this ally is hexed.</gray>",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 167,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 9,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 2,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Eruption",
+				"description": "An der Position des Gegners wird eine Eruption erzeugt. 5 Sekunden lang erleiden Feinde in der Nähe dieser Position pro Sekunde 10...40 Punkte Erdschaden und werden 10 Sekunden lang geblendet.",
+				"concise": "Richtet jede Sekunde 10...40 Punkte Erdschaden an (5 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Ziels. Verursacht Zustand Blindheit (10 Sekunden).",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Eruption",
+				"description": "Cause an Eruption at target foe's location. Each second for 5 seconds, foes near this location are struck for 10...40 earth damage and are Blinded for 10 seconds.",
+				"concise": "Deals 10...40 earth damage each second (5 seconds). Hits foes near target's initial location. Inflicts Blindness condition (10 seconds).",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

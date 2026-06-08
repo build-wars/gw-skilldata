@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 315,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 101,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 4,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Rache",
+				"description": "Das tote Gruppenmitglied wird mit allen Lebenspunkten und voller Energie wiederbelebt. 30 Sekunden lang fügt dieses Gruppenmitglied 25% mehr Schaden zu. Wenn diese Verzauberung endet, stirbt es. Beim Tod unter dem Einfluss dieser Verzauberung gibt es keinen Sterbemalus.",
+				"concise": "30 Sekunden: Das Gruppenmitglied wird wiederbelebt (volle Lebenspunkte, volle Energiepunkte). Der Verbündete richtet 25% mehr Schaden an und erhält keinen Sterbemalus. <gray>Wirkung am Ende: Der Verbündete stirbt.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Kein Attribut",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Vengeance",
+				"description": "Bring target dead party member back to life at full Health and full Energy. For 30 seconds, that party member deals 25% more damage. When this enchantment ends, target party member dies. Deaths while under the effects of this enchantment do not incur a death penalty.",
+				"concise": "(30 seconds.) Resurrects target party member (full Health, full Energy). This ally deals 25% more damage and does not incur death penalty. <gray>End effect: this ally dies.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "No Attribute",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

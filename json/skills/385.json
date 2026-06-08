@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 385,
+		"campaign": 0,
+		"profession": 1,
+		"attribute": 20,
+		"type": 10,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 0,
+		"recharge": 0,
+		"adrenaline": 9,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Endstoß",
+				"description": "Alles Adrenalin geht verloren. Wenn Endstoß trifft, fügt Ihr 1...40 Punkte mehr Schaden zu. Dieser Schaden wird verdoppelt, wenn die Lebenspunkte Eures Ziels unter 50% lagen.",
+				"concise": "Richtet +1...40 Punkte Schaden an. Richtet zusätzlich +1...40 Punkt Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. <gray>Ihr verliert alles Adrenalin.</gray>",
+				"campaign": "Basis",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Schwertkunst",
+				"type": "Schwertangriff"
+			},
+			"en": {
+				"name": "Final Thrust",
+				"description": "Lose all adrenaline. If Final Thrust hits, you deal 1...40 more damage. This damage is doubled if your target was below 50% Health.",
+				"concise": "Deals +1...40 damage. Deals +1...40 more damage if target foe is below 50% Health. <gray>Lose all adrenaline.</gray>",
+				"campaign": "Core",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Swordsmanship",
+				"type": "Sword Attack"
+			}
+		}
+	}
+}

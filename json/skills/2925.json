@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2925,
+		"campaign": 4,
+		"profession": 2,
+		"attribute": 25,
+		"type": 2,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schuss des Faultierjägers (PvP)",
+				"description": "Wenn dieser Angriff erfolgereich ist, erleidet der Gegner +5...15 Punkte Schaden. Wenn er keine Fertigkeit verwendet, fügt Schuss des Faultierjägers zusätzlich 5...20 Punkte Schaden zu.",
+				"concise": "Richtet +5...15 Punkte Schaden an. Richtet zusätzlich +5...20 Punkte Schaden an, falls der Gegner gerade keine Fertigkeit benutzt.",
+				"campaign": "Eye of the North",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Treffsicherheit",
+				"type": "Bogenangriff"
+			},
+			"en": {
+				"name": "Sloth Hunter's Shot (PvP)",
+				"description": "If this attack hits, target foe takes +5...15 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +5...20 damage.",
+				"concise": "Deals +5...15 damage. Deals +5...20 more damage if target foe is not using a skill.",
+				"campaign": "Eye of the North",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Marksmanship",
+				"type": "Bow Attack"
+			}
+		}
+	}
+}

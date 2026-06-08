@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 94,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 5,
+		"type": 28,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 25,
+		"activation": 3,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Gottloser Brunnen",
+				"description": "Der nächste Kadaver wird an seiner Position in einen Gottlosen Brunnen verwandelt. 8...20 Sekunden lang werden alle Feinde, die sich in dem Bereich aufhalten, von sämtlichen Verzauberungen befreit. Außerdem können sie nicht das Ziel weiterer Verzauberungen sein. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit eines Misserfolgs.)",
+				"concise": "(8...20 Sekunden.) Gegner in diesem Brunnen verlieren alle Verzauberungen und können nicht Ziel von weiteren Verzauberungen sein. <gray>Nutzt einen frischen Kadaver. Es besteht eine 50%ige Wahrscheinlichkeit eines Misserfolgs, es sei denn, Todesmagie ist 5 oder höher.</gray>",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Brunnenzauber"
+			},
+			"en": {
+				"name": "Well of the Profane",
+				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of the Profane at its location. For 8...20 seconds, foes in that area are stripped of all enchantments and cannot be the target of further enchantments. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "(8...20 seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. <gray>Exploits a fresh corpse or sacrifices 66% health. 50% failure chance unless Death Magic 5 or more.</gray>",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Well Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2891,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 16,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": -1,
+		"energy": 5,
+		"activation": 3,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Unnachgiebige Aura (PvP)",
+				"description": "Holt ein totes Gruppenmitglied mit vollen Lebens- und Energiepunkten ins Leben zurück. Es stirbt und lässt einen benutzten Kadaver zurück, sobald Ihr die Verzauberung aufhebt oder wenn sie entfernt wird. Beim Tod durch Unnachgiebige Aura gibt es keinen Sterbemalus. (Bei einer Gunst der Götter von 4 oder weniger besteht eine 50%ige Chance für einen Misserfolg.)",
+				"concise": "Das Gruppenmitglied wird wiederbelebt (volle Lebenspunkte, volle Energiepunkte). Wirkung am Ende: Der Verbündete stirbt und hinterlässt einen benutzten Kadaver. Hat keinen Sterbemalus zur Folge. <gray>Mindestens Gunst der Götter 5, sonst 50%ige Chance auf Misserfolg.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Gunst der Götter",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Unyielding Aura (PvP)",
+				"description": "Bring target dead party member back to life at full Health and full Energy. If you stop maintaining this enchantment or if this enchantment is removed, that party member dies and leaves an exploited corpse. Deaths while enchanted with Unyielding Aura do not incur a death penalty. (50% failure chance with Divine Favor 4 or less.)",
+				"concise": "Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. <gray>50% failure chance unless Divine Favor 5 or more.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Divine Favor",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

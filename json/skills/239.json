@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 239,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 11,
+		"type": 26,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 2806,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Abwehr gegen Schaden",
+				"description": "Errichtet an dieser Position eine Abwehr gegen Schaden. 5...15 Sekunden lang erhalten in diesem Bereich befindliche Verbündete, die keine Geister sind, +1...3 Lebenspunktregeneration. Gruppenmitglieder erhalten außerdem +12...24 Rüstung und doppelt so viel Rüstung gegen Elementarschaden.",
+				"concise": "5...15 Sekunden: Verbündete in dieser Abwehr haben +1...3 Lebenspunktregeneration. Gruppenmitglieder haben +12...24 Rüstung und doppelt so viel gegen Elementarschaden. <gray>Geister sind nicht betroffen.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Abwehrzauber"
+			},
+			"en": {
+				"name": "Ward Against Harm",
+				"description": "Create a Ward Against Harm at this location. For 5...15 seconds, non-spirit allies in this area have +1...3 health regeneration, +12...24 armor, and an additional +12...24 armor against elemental damage. This spell is disabled for 20 seconds.",
+				"concise": "(5...15 seconds.) Allies in this ward have +1...3 Health regeneration, +12...24 armor, and +12...24 additional armor against elemental damage. <gray>Spirits are unaffected. This spell is disabled for 20 seconds.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Ward Spell"
+			}
+		}
+	}
+}

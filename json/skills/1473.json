@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1473,
+		"campaign": 3,
+		"profession": 2,
+		"attribute": 24,
+		"type": 19,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 3,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Treibsand",
+				"description": "Erstellt einen Geist der Stufe 1...10. Alle Kreaturen in seiner Reichweite, die keine Geister sind, verlieren jedes Mal, wenn sie angreifen oder eine Fertigkeit verwenden, 1 Energiepunkt. Dieser Geist stirbt nach 30...180 Sekunden.",
+				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Kreaturen verlieren jedes Mal 1 Energiepunkt, wenn sie angreifen oder eine Fertigkeit einsetzen. Keine Wirkung auf Geister.",
+				"campaign": "Nightfall",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Überleben in der Wildnis",
+				"type": "Naturritual"
+			},
+			"en": {
+				"name": "Quicksand",
+				"description": "Create a level 1...10 spirit. All non-spirit creatures within its range lose 1 Energy each time they attack or use a skill. This spirit dies after 30...180 seconds.",
+				"concise": "Creates a level 1...10 spirit (30...180 second lifespan). Creatures lose 1 Energy each time they attack or use a skill. Does not affect spirits.",
+				"campaign": "Nightfall",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Wilderness Survival",
+				"type": "Nature ritual"
+			}
+		}
+	}
+}

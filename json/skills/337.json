@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 337,
+		"campaign": 0,
+		"profession": 1,
+		"attribute": 18,
+		"type": 4,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 0,
+		"recharge": 0,
+		"adrenaline": 4,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Zerstückeln",
+				"description": "Wenn dieser Axtschlag trifft, fügt er dem Gegner eine Tiefe Wunde zu, die seine maximalen Lebenspunkte 5...20 Sekunden lang um 20% verringert.",
+				"concise": "Verursacht Zustand Tiefe Wunde (5...20 Sekunden).",
+				"campaign": "Basis",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Axtbeherrschung",
+				"type": "Axtangriff"
+			},
+			"en": {
+				"name": "Dismember",
+				"description": "If it hits, this axe blow will inflict a Deep Wound on the target foe, lowering that foe's maximum Health by 20% for 5...20 seconds.",
+				"concise": "Inflicts Deep Wound condition (5...20 seconds).",
+				"campaign": "Core",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Axe Mastery",
+				"type": "Axe Attack"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 251,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 14,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Geißelheilung",
+				"description": "30 Sekunden lang erleidet der Heiler jedes Mal, wenn er den Zielgegner heilt, 15...80 Punkte heiligen Schaden.",
+				"concise": "30 Sekunden: Wenn der Gegner geheilt wird, erleidet der Heiler 15...80 Punkte heiligen Schaden.",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Scourge Healing",
+				"description": "For 30 seconds, every time target foe is healed, the healer takes 15...80 holy damage.",
+				"concise": "(30 seconds.) Whenever target foe is healed, the healer takes 15...80 holy damage.",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

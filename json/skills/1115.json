@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1115,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Flair der Verzauberung",
+				"description": "4...10 Sekunden lang kosten Verzauberungen, die auf diesen Verbündeten gewirkt werden, 10 Energiepunkte weniger (mindestens 1 Energie).",
+				"concise": "4...10 Sekunden: Auf den Verbündeten gewirkte Verzauberungen kosten 10 Energiepunkte weniger (mindestens 1 Energiepunkt). <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Air of Enchantment",
+				"description": "For 4...10 seconds, enchantments cast on target other ally cost 10 less Energy (minimum 1 Energy).",
+				"concise": "(4...10 seconds.) Enchantments cast on target ally cost 10 less Energy (minimum 1 Energy). <gray>Cannot self-target.</gray>",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

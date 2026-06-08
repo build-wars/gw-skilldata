@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 47,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 1,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Unbeholfenheit",
+				"description": "4 Sekunden lang erleidet der Gegner und alle umstehenden Gegner bei ihrem nächsten Angriff 30...135 Punkte Schaden und werden 10 Sekunden lang geblendet.",
+				"concise": "(4 Sekunden.) Außerdem werden alle umstehenden Feinde verhext. Richtet 30...135 Punkte Schaden an. Verursacht Zustand Blindheit (10 Sekunden). <gray>Kein Effekt, wenn der verhexte Gegner nicht angreift.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusionsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Ineptitude",
+				"description": "For 4 seconds, the next time target foe or any adjacent foe attacks, they take 30...135 damage and are Blinded for 10 seconds.",
+				"concise": "(4 seconds.) Also hexes foes adjacent to target. Deals 30...135 damage. Inflicts Blindness condition (10 seconds). <gray>No effect unless hexed foe attacks.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Illusion Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

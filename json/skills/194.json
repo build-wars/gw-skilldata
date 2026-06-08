@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 194,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Feuergeschoss",
+				"description": "Sendet ein Feuergeschoss aus, das dem Gegner 20...65 Punkte Feuerschaden zufügt, falls es trifft. Wenn Ihr Überzaubert seid, trifft dieser Zauber umstehende Feinde ebenfalls.",
+				"concise": "Geschoss: Richtet 20...65 Punkte Feuerschaden an. Wenn überzaubert, werden auch umstehende Gegner getroffen.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Flare",
+				"description": "Send out a flare that strikes target foe for 20...65 fire damage if it hits. If you are Overcast, Flare hits adjacent foes as well.",
+				"concise": "Projectile: deals 20...65 fire damage. If Overcast, strikes adjacent.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

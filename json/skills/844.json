@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 844,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 9,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 2,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Aufgeworfene Erde",
+				"description": "Am Standort des Feindes wird Aufgeworfene Erde erzeugt. In den nächsten 5 Sekunden bewirkt Aufgeworfene Erde bei Feinden in der Nähe des Ortes pro Sekunde 10...40 Punkte Erdschaden. Jeder Feind, der sich schneller als normal bewegt, wenn er von Aufgeworfene Erde getroffen wird, wird zu Boden geworfen.",
+				"concise": "Richtet jede Sekunde 10...40 Punkte Erdschaden an (5 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Ziels. Wirft Feinde zu Boden, die sich schneller bewegen als normal.",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Churning Earth",
+				"description": "Create Churning Earth at target foe's location. For the next 5 seconds, Churning Earth strikes foes near that location for 10...40 earth damage each second. Any foe moving faster than normal when struck by Churning Earth is knocked down.",
+				"concise": "Deals 10...40 earth damage each second (5 seconds). Hits foes near target's initial location. Causes knock-down to foes moving faster than normal.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

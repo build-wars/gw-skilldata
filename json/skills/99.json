@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 99,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 7,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Parasitäre Fesseln",
+				"description": "20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1. Wenn Parasitäre Fesseln endet, wird der Wirker um 30...120 Lebenspunkte geheilt.",
+				"concise": "20 Sekunden: Verursacht -1 Lebenspunktdegeneration. Wirkung am Ende: Ihr erhaltet 30...120 Lebenspunkte.",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Parasitic Bond",
+				"description": "For 20 seconds, target foe suffers -1 Health degeneration. The caster is healed for 30...120 when Parasitic Bond ends.",
+				"concise": "(20 seconds.) Causes -1 Health degeneration. End effect: you are healed for 30...120 Health.",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

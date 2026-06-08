@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 835,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 4,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Blutsbande",
+				"description": "3...12 Sekunden lang werden der Gegner und alle umstehenden Feinde mit Blutsbande verhext. Wenn ein Verbündeter einen dieser Feinde mit einem Angriff trifft, erhält dieser Verbündete 5...20 Lebenspunkte. Wenn ein mit Blutsbande verhexter Feind stirbt, werden alle umstehenden Verbündeten für 20...100 Lebenspunkte geheilt.",
+				"concise": "Verhext den Gegner und umstehende Feinde (3...12 Sekunden). Verbündete, die diese Feinde treffen, erhalten 5...20 Lebenspunkte. Wenn einer dieser verhexten Feinde stirbt, werden umstehende Verbündete für 20...100 Lebenspunkte geheilt.",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Blutmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Blood Bond",
+				"description": "For 3...12 seconds, target foe and all adjacent foes are hexed with Blood Bond. Whenever an ally hits one of them with an attack, that ally gains 5...20 Health. If one of these foes dies while hexed, all allies adjacent to that foe are healed for 20...100 Health.",
+				"concise": "Also hexes foes adjacent to your target (3...12 seconds). Allies hitting these foes gain 5...20 health. If any of these foes dies while hexed, adjacent allies are healed for 20...100.",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Blood Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1755,
+		"campaign": 3,
+		"profession": 10,
+		"attribute": 44,
+		"type": 33,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Mystische Verdorbenheit",
+				"description": "Alle umstehenden Feinde leiden 1...10 Sekunden lang an Krankheit. 20 Sekunden lang geschieht nichts. Wenn Ihr verzaubert seid, während Ihr diese Fertigkeit aktiviert, wird die Dauer von Krankheit verdoppelt. Wenn diese Verzauberung endet, werden alle Gruppenmitglieder in Hörweite von Krankheit geheilt.",
+				"concise": "(20 Sekunden.) Anfangswirkung: Alle umstehenden Feinde leiden unter Krankheit.<sic/> (1...10 Sekunden.) Doppelte Dauer, wenn Ihr bereits verzaubert seid. Wirkung am Ende: Gruppenmitglieder in Hörweite werden von Krankheit geheilt.",
+				"campaign": "Nightfall",
+				"profession": "Derwisch",
+				"profession_abbr": "D",
+				"attribute": "Mystik",
+				"type": "Blitzverzauberung"
+			},
+			"en": {
+				"name": "Mystic Corruption",
+				"description": "All adjacent foes suffer from Disease for 1...10 seconds. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
+				"concise": "(20 seconds.) Initial Effect: all adjacent foes are Diseased (1...10 seconds.) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease.",
+				"campaign": "Nightfall",
+				"profession": "Dervish",
+				"profession_abbr": "D",
+				"attribute": "Mysticism",
+				"type": "Flash Enchantment"
+			}
+		}
+	}
+}

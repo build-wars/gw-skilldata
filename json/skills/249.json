@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 249,
+		"campaign": 1,
+		"profession": 3,
+		"attribute": 14,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Heiliger Zorn",
+				"description": "Während der folgenden 10...30 Sekunden fügt dieser Zauber die nächsten 1...10 Mal, wenn der Verbündete Angriffsschaden erleidet, dem Angreifer 66% des Schadens in Form von heiligem Schaden zu (maximal 5...50 Schadenspunkte).",
+				"concise": "(10...30 Sekunden.) Fügt 66% des Schadens durch Angriffe (maximal 5...50 Punkte) dem Verursacher als heiligen Schaden zu. <gray>Endet nach 1...10 Schadenszufügungen. Sich selbst als Ziel wählen ist nicht möglich.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Holy Wrath",
+				"description": "For 10...30 seconds, the next 1...10 times target other ally takes attack damage, this spell deals 66% of the damage back to the source (maximum of 5...50 damage).",
+				"concise": "(10...30 seconds). Deals 66% of each attack's damage (maximum 5...50) back to source. <gray>Ends after dealing damage 1...10 times. Cannot self-target.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

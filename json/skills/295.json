@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 295,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 101,
+		"type": 21,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Siegel der Reinigung",
+				"description": "Entfernt alle Verhexungen und Zustände vom Verbündeten (bzw. Euch selbst). Für jede entfernte Verhexung und jeden entfernten Zustand verliert Ihr jeweils 10 Energiepunkte.",
+				"concise": "Entfernt alle Verhexungen und Zustände. <gray>Entfernungskosten: Je 10 Energiepunkte.</gray>",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Kein Attribut",
+				"type": "Siegel"
+			},
+			"en": {
+				"name": "Purge Signet",
+				"description": "Remove all hexes and conditions from target ally. You lose 10 Energy for each hex and each condition removed.",
+				"concise": "Removes all hexes and conditions. <gray>Removal cost: 10 Energy each.</gray>",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "No Attribute",
+				"type": "Signet"
+			}
+		}
+	}
+}

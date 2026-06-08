@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 3047,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 22,
+		"type": 11,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Melandrus Angriff (PvP)",
+				"description": "Euer Tiergefährte greift mit Melandrus Angriff an und fügt +5...20 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, der unter einer Verzauberung leidet, erleiden er und alle umstehenden Gegner zusätzlich 5...35 Punkte Schaden.",
+				"concise": "Richtet +5...20 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden zusätzlich +5...35 Punkte Schaden an, falls der Gegner verzaubert ist.",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Tiergefährtenangriff"
+			},
+			"en": {
+				"name": "Melandru's Assault (PvP)",
+				"description": "Your animal companion attempts a Melandru's Assault that deals +5...20 damage. If that attack strikes a foe with an enchantment, that foe and all adjacent foes take +5...35 additional damage.",
+				"concise": "Deals +5...20 damage. Deals +5...35 more damage to target and foes adjacent to target if this foe is enchanted.",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Pet Attack"
+			}
+		}
+	}
+}

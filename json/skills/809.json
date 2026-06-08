@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 809,
+		"campaign": 2,
+		"profession": 6,
+		"attribute": 11,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 8,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Trümmerstein",
+				"description": "Der Gegner erleidet 25...100 Punkte Kälteschaden und wird 3 Sekunden lang mit Trümmerstein verhext. Wenn Trümmerstein endet, erleiden der Gegner und alle Feinde in der Nähe 25...100 Punkte Kälteschaden.",
+				"concise": "3 Sekunden: Anfangswirkung: Richtet 25...100 Punkte Kälteschaden an. Wirkung am Ende: Richtet beim Gegner und allen Feinden in der Nähe 25...100 Punkte Kälteschaden an.",
+				"campaign": "Factions",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Shatterstone",
+				"description": "Target foe is struck for 25...100 cold damage and is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...100 cold damage.",
+				"concise": "(3 seconds.) Initial effect: deals 25...100 cold damage. End effect: deals 25...100 cold damage to target and all nearby foes.",
+				"campaign": "Factions",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

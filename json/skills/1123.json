@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1123,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 15,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Lebensmantel",
+				"description": "Entfernt beim Verbündeten (bzw. Euch selbst) 0...2 Zustände. 8 Sekunden lang wird der Verbündete (bzw. Ihr selbst), wenn er das nächste Mal Schaden erleiden oder Lebenspunkte entzogen bekommen würde, stattdessen um den entsprechenden Wert geheilt (maximal 20...100).",
+				"concise": "(8 Sekunden.) Wandelt den nächsten erlittenen Schaden bzw. die nächsten entzogenen Lebenspunkte (maximal 20...100 Punkte) in Heilung um. Anfangswirkung: Entfernt 0...2 Zustände.",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Schutzgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Life Sheath",
+				"description": "Remove 0...2 conditions from target ally. For 8 seconds, the next time that ally would take damage or life steal, that ally gains that amount of Health instead (maximum 20...100).",
+				"concise": "(8 seconds.) Converts the next incoming damage or life steal (maximum 20...100) to healing. Initial effect: Removes 0...2 conditions.",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Protection Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

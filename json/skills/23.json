@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 23,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 2,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.25,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Kraftdorn",
+				"description": "Wenn der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird die Fertigkeit unterbrochen und der Zielgegner erleidet 30...120 Punkte Schaden.",
+				"concise": "Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Richtet 30...120 Punkte Schaden an.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Power Spike",
+				"description": "If target foe is casting a spell or a chant, that skill is interrupted and target foe takes 30...120 damage.",
+				"concise": "Interrupts a spell or chant. Interruption effect: deals 30...120 damage.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1079,
+		"campaign": 2,
+		"profession": 4,
+		"attribute": 7,
+		"type": 1,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.75,
+		"recharge": 3,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schwächende Berührung",
+				"description": "Der berührte Gegner verliert 5...65 Lebenspunkte und leidet 5...20 Sekunden lang an Schwäche.",
+				"concise": "Lässt 5...65 Lebenspunkte verlieren. Verursacht Zustand Schwäche (5...20 Sekunden).",
+				"campaign": "Factions",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Flüche",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Enfeebling Touch",
+				"description": "Target touched foe loses 5...65 Health and suffers from Weakness for 5...20 seconds.",
+				"concise": "Causes 5...65 Health loss. Inflicts Weakness condition (5...20 seconds).",
+				"campaign": "Factions",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Curses",
+				"type": "Skill"
+			}
+		}
+	}
+}

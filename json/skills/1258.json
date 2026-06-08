@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1258,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 32,
+		"type": 27,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Grausame Waffe",
+				"description": "Gebt dem Verbündeten (bzw. Euch selbst) 10...40 Sekunden lang eine Grausame Waffe. Solange der Träger mit keiner Verzauberung belegt ist, fügt die Waffe +5...15 Punkte Schaden zu.",
+				"concise": "10...40 Sekunden: Angriffe richten +5...15 Punkte Schaden an. <gray>Keine Wirkung, während der Verbündete (bzw. Ihr selbst) verzaubert ist.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Zwiesprache",
+				"type": "Waffenzauber"
+			},
+			"en": {
+				"name": "Brutal Weapon",
+				"description": "Give target ally a Brutal Weapon for 10...40 seconds. The bearer's weapon strikes for +5...15 damage as long as the bearer is under no enchantments.",
+				"concise": "(10...40 seconds.) Attacks deal +5...15 damage. <gray>No effect while target ally is enchanted.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Communing",
+				"type": "Weapon Spell"
+			}
+		}
+	}
+}

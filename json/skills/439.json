@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 439,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 22,
+		"type": 11,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Wilder Ausfall",
+				"description": "Euer Tiergefährte greift mit einem Wilden Ausfall an, der +5...35 Punkte Schaden zufügt. Trifft dieser Angriff einen angreifenden Gegner, leidet dieser 5...25 Sekunden lang an einer Blutung.",
+				"concise": "Richtet +5...35 Punkte Schaden an. Verursacht Zustand Blutung (5...25 Sekunden), falls der Gegner gerade angreift.",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Tiergefährtenangriff"
+			},
+			"en": {
+				"name": "Feral Lunge",
+				"description": "Your animal companion attempts a Feral Lunge that deals +5...35 damage. If the attack strikes a foe who is attacking, that foe suffers from Bleeding for 5...25 seconds.",
+				"concise": "Deals +5...35 damage. Inflicts Bleeding condition if target foe is attacking (5...25 seconds).",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Pet Attack"
+			}
+		}
+	}
+}

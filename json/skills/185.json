@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 185,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 10,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 5,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 5,
+		"lang": {
+			"de": {
+				"name": "Geistige Verbrennung",
+				"description": "Gegner und umstehende Feinde erleiden 15...60 Punkte Feuerschaden. Falls Ihr mehr Energie als der Gegner habt, erleiden er und alle umstehenden Feinde zusätzlich 15...60 Punkte Feuerschaden und werden 1...10 Sekunden lang in Brand gesetzt.",
+				"concise": "Richtet 15...60 Punkte Feuerschaden an. Falls Ihr mehr Energie habt als der Gegner, erhält er zusätzlich 15...60 Punkte Feuerschaden und Zustand Brennen (1...10 Sekunden). Trifft den Gegner und umstehende Feinde.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Feuermagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Mind Burn",
+				"description": "Target foe and all adjacent foes take 15...60 fire damage. If you have more Energy than target foe, that foe and all adjacent foes take an additional 15...60 fire damage and are set on fire for 1...10 seconds.",
+				"concise": "Deals 15...60 fire damage. If you have more energy than target foe, deals 15...60 more fire damage and inflicts Burning (1...10 seconds). Also hits adjacent foes.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Fire Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

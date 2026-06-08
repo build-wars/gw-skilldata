@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2866,
+		"campaign": 2,
+		"profession": 8,
+		"attribute": 33,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 4,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Fleisch von meinem Fleisch (PvP)",
+				"description": "Verliert die Hälfte Eurer Lebenspunkte. Belebt das Gruppenmitglied mit Euren aktuellen Lebenspunkten und 5...20% der Energiepunkte wieder.",
+				"concise": "Das Gruppenmitglied wird wiederbelebt (Hälfte Eurer aktuellen Lebenspunkte, 5...20% Energiepunkte). <gray>Ihr verliert die Hälfte Eurer Lebenspunkte.</gray>",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "R",
+				"attribute": "Wiederherstellungsmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Flesh of My Flesh (PvP)",
+				"description": "Lose half your Health. Resurrect target party member with your current Health and 5...20% Energy.",
+				"concise": "Resurrect target party member (half your current Health and 5...20% Energy). Lose half your Health.",
+				"campaign": "Factions",
+				"profession": "Ritualist",
+				"profession_abbr": "Rt",
+				"attribute": "Restoration Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

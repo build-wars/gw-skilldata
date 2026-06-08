@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2058,
+		"campaign": 4,
+		"profession": 4,
+		"attribute": 5,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verwesende Galle",
+				"description": "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkte Schaden.",
+				"concise": "5...20 Sekunden: Verursacht +1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt.",
+				"campaign": "Eye of the North",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Putrid Bile",
+				"description": "For 5...20 seconds, target foe suffers -1...3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25...85 damage.",
+				"concise": "(5...20 seconds.) Causes -1...3 Health degeneration. Deals 25...85 damage to all nearby foes if target foe dies.",
+				"campaign": "Eye of the North",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

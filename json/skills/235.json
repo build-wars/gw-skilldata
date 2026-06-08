@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 235,
+		"campaign": 0,
+		"profession": 6,
+		"attribute": 11,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verschwommene Sicht",
+				"description": "4...10 Sekunden lang werden der Gegner und alle umstehenden Feinde mit Verschwommener Sicht verhext. Solange diese Verhexung wirkt, besteht eine 50%ige Chance, dass die Angriffe dieser Gegner fehlschlagen.",
+				"concise": "Verhext den Gegner umstehende Feinde (4...10 Sekunden). Die Angriffe der Betroffenen gehen mit 50%iger Wahrscheinlichkeit daneben.",
+				"campaign": "Basis",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Wassermagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Blurred Vision",
+				"description": "For 4...10 seconds, target foe and adjacent foes are hexed with Blurred Vision. While hexed, those foes have a 50% chance to miss with attacks.",
+				"concise": "Also hexes foes adjacent to target (4...10 seconds). They have 50% chance to miss.",
+				"campaign": "Core",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Water Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

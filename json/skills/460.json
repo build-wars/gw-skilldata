@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 460,
+		"campaign": 1,
+		"profession": 2,
+		"attribute": 24,
+		"type": 30,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 2,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Heilquelle",
+				"description": "10 Sekunden lang werden alle umstehenden Verbündeten alle 2 Sekunden um 15...60 Punkte geheilt. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "10 Sekunden: Betrifft umstehende Verbündete. Heilt alle 2 Sekunden um 15...60 Lebenspunkte. <gray>Leicht zu unterbrechen.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Überleben in der Wildnis",
+				"type": "Falle"
+			},
+			"en": {
+				"name": "Healing Spring",
+				"description": "For 10 seconds, all adjacent allies are healed for 15...60 every 2 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "(10 seconds.) Affects adjacent allies. Heals for 15...60 every 2 seconds. <gray>Easily interrupted.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Wilderness Survival",
+				"type": "Trap"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1205,
+		"campaign": 2,
+		"profession": 2,
+		"attribute": 22,
+		"type": 11,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 7,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Giftbiss",
+				"description": "Euer Tiergefährte greift mit einem Giftbiss an, der den Gegner 5...20 Sekunden lang vergiftet.",
+				"concise": "Verursacht Zustand Gift (5...20 Sekunden).",
+				"campaign": "Factions",
+				"profession": "Waldläufer",
+				"profession_abbr": "W",
+				"attribute": "Tierbeherrschung",
+				"type": "Tiergefährtenangriff"
+			},
+			"en": {
+				"name": "Poisonous Bite",
+				"description": "Your animal companion attempts a Poisonous Bite that Poisons target foe for 5...20 seconds.",
+				"concise": "Inflicts Poisoned condition (5...20 seconds).",
+				"campaign": "Factions",
+				"profession": "Ranger",
+				"profession_abbr": "R",
+				"attribute": "Beast Mastery",
+				"type": "Pet Attack"
+			}
+		}
+	}
+}

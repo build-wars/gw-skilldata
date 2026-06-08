@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 390,
+		"campaign": 0,
+		"profession": 1,
+		"attribute": 20,
+		"type": 10,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0.5,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Wilder Hieb",
+				"description": "Wenn dieser Angriff trifft, unterbricht er die Aktion des Gegners. Wenn diese Aktion ein Zauber war, fügt Ihr 1...40 Punkte zusätzlichen Schaden zu.",
+				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Richtet +1...40 Punkte Schaden an, falls die Aktion ein Zauber war.",
+				"campaign": "Basis",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Schwertkunst",
+				"type": "Schwertangriff"
+			},
+			"en": {
+				"name": "Savage Slash",
+				"description": "If this attack hits, it interrupts target foe's action. If that action was a spell, you deal 1...40 extra damage.",
+				"concise": "Interrupts an action. Interruption effect: deals +1...40 damage if action was a spell.",
+				"campaign": "Core",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Swordsmanship",
+				"type": "Sword Attack"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 271,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 14,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Eifererfeuer",
+				"description": "Während der nächsten 60 Sekunden erleiden jedes Mal, wenn Ihr eine Fertigkeit auf einen Verbündeten (bzw. Euch selbst) anwendet, alle diesen Verbündeten (bzw. Euch selbst) umstehenden Feinde Feuerschaden in Höhe von 5...35 Punkten und Ihr verliert einen Energiepunkt.",
+				"concise": "60 Sekunden: Jedes Mal, wenn Ihr eine Fertigkeit auf einen Verbündeten anwendet, erleiden alle umstehenden Feinde um diesen Verbündeten 5...35 Punkte Feuerschaden. <gray>Schadenskosten: Ihr verliert 1 Energiepunkte.<sic/></gray>",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Zealot's Fire",
+				"description": "For 60 seconds, whenever you use a skill that targets an ally, all foes adjacent to that target are struck for 5...35 fire damage and you lose 1 Energy.",
+				"concise": "(60 seconds.) Whenever you use a skill on an ally, all foes adjacent to that ally are hit for 5...35 fire damage. <gray>Damage cost: you lose 1 Energy.</gray>",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

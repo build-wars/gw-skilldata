@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 63,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 0,
+		"type": 21,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schlussstein-Siegel",
+				"description": "Alle Eure Siegel außer dem Schlussstein-Siegel werden wieder aufgeladen. Wenn Ihr in den nächsten 20 Sekunden die nächsten 0...6 Mal ein Siegel gegen einen Gegner einsetzt, erleiden alle anderen umstehenden Feinde 15...60 Punkte Schaden und werden unterbrochen.",
+				"concise": "(20 Sekunden.) Eure nächsten 0...6 Siegel unterbrechen die den Gegner umstehenden Feinde und fügen ihnen 15...60 Punkte Schaden zu. Anfangswirkung: lädt alle anderen Siegel wieder auf.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Schnellwirkung",
+				"type": "Siegel"
+			},
+			"en": {
+				"name": "Keystone Signet",
+				"description": "All of your signets except Keystone Signet are recharged. For 20 seconds, the next 0...6 times you use a signet that targets a foe, all other foes adjacent to your target take 15...60 damage and are interrupted.",
+				"concise": "(20 seconds.) Your next 0...6 signets interrupt <sic/> and deal 15...60 damage to other foes adjacent to your target. Initial Effect: <sic/> recharges all of your other signets.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Fast Casting",
+				"type": "Signet"
+			}
+		}
+	}
+}

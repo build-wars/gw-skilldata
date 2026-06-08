@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1141,
+		"campaign": 2,
+		"profession": 1,
+		"attribute": 17,
+		"type": 20,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "\"Ihr werdet sterben!\"",
+				"description": "Wenn die Lebenspunkte des Gegners unter 90% liegen, erhaltet Ihr 1...3 Adrenalinstöße.",
+				"concise": "Ihr erhaltet 1...3 Adrenalinstöße. <gray>Der Gegner muss weniger als 90% seiner maximalen Lebenspunkte haben, sonst keine Wirkung.</gray>",
+				"campaign": "Factions",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Stärke",
+				"type": "Schrei"
+			},
+			"en": {
+				"name": "\"You Will Die!\"",
+				"description": "If target foe is below 90% Health, you gain 1...3 strikes of adrenaline.",
+				"concise": "You gain 1...3 strikes of adrenaline. <gray>No effect unless target foe is under 90% Health.</gray>",
+				"campaign": "Factions",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Strength",
+				"type": "Shout"
+			}
+		}
+	}
+}

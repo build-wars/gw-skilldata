@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 175,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 9,
+		"type": 26,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 20,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Abwehr gegen Elemente",
+				"description": "Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Elemente. 8...20 Sekunden lang erhalten Gruppenmitglieder, die keine Geister sind, in dem Bereich +24 Rüstung gegen Elementarschaden.",
+				"concise": "8...20 Sekunden: Gruppenmitglieder in dieser Abwehr haben +24 Rüstung gegen Elementarschaden. <gray>Geister sind nicht betroffen.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Abwehrzauber"
+			},
+			"en": {
+				"name": "Ward Against Elements",
+				"description": "You create a Ward Against Elements at your current location. For 8...20 seconds, non-spirit allies in this area gain +24 armor against elemental damage.",
+				"concise": "(8...20 seconds.) Allies in this ward have +24 armor against elemental damage. <gray>Spirits are unaffected.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Ward Spell"
+			}
+		}
+	}
+}

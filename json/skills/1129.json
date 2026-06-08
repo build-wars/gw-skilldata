@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 1129,
+		"campaign": 2,
+		"profession": 3,
+		"attribute": 14,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 2,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Wort des Tadels",
+				"description": "Der Gegner erleidet 30...130 Punkte heiligen Schaden. Waren seine Lebenspunkte Beim<sic/> Anwenden dieses Zaubers unter 50%, benötigt Wort des Tadels 20 Sekunden zusätzliche Wiederaufladezeit.",
+				"concise": "Richtet 30...130 Punkte heiligen Schaden an. <gray>+20 Sekunden zur Aufladezeit, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat.</gray>",
+				"campaign": "Factions",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Word of Censure",
+				"description": "Target foe takes 30...130 holy damage. If your target was below 50% Health, Word of Censure takes 20 additional seconds to recharge.",
+				"concise": "Deals 30...130 holy damage. <gray>+20 recharge time if target foe is below 50% Health.</gray>",
+				"campaign": "Factions",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

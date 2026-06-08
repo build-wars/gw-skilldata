@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 86,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 101,
+		"type": 22,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 0.25,
+		"recharge": 10,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Grenths Ausgleich",
+				"description": "Wenn der Gegner mehr Lebenspunkte als Ihr hat, erhaltet Ihr die Hälfte der Differenz (bis zu Euren maximalen Lebenspunkten) und der Gegner verliert die gleiche Punktzahl. Falls dieser Gegner weniger Lebenspunkte hat als Ihr, verliert Ihr die Hälfte der Differenz und er erhält die gleiche Menge.",
+				"concise": "Ihr erhaltet die Hälfte der Differenz zwischen den Lebenspunkten des Gegners und Euren Lebenspunkten. Der Gegner verliert dieselbe Punktzahl. <gray>Falls der Gegner weniger Lebenspunkte hat als Ihr, verliert Ihr die Hälfte der Differenz und er erhält die gleiche Menge.</gray>",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Kein Attribut",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Grenth's Balance",
+				"description": "If target foe has more Health than you, you gain half the difference (up to your maximum Health), and that foe loses an equal amount. If this foe has less Health than you, you lose half the difference, and that foe gains an equal amount.",
+				"concise": "You gain Health equal to half the difference between you and target, and this foe loses an equal amount. <gray>If this foe has less Health than you, you lose Health equal to half the difference.</gray>",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "No Attribute",
+				"type": "Spell"
+			}
+		}
+	}
+}

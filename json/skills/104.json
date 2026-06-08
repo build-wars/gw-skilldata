@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 104,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 5,
+		"type": 23,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 2,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Todesnova",
+				"description": "Falls der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 30 Sekunden stirbt, erleiden alle umstehenden Feinde 26...100 Punkte Schaden und werden 15 Sekunden lang vergiftet.",
+				"concise": "30 Sekunden: Falls der Verbündete (bzw. Ihr selbst) stirbt, erhalten umstehende Feinde 26...100 Punkte Schaden und Zustand Gift (15 Sekunden).",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Todesmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Death Nova",
+				"description": "For 30 seconds, if target ally dies, all adjacent foes take 26...100 damage and are Poisoned for 15 seconds.",
+				"concise": "(30 seconds.) Deals 26...100 damage and inflicts Poisoned condition (15 seconds) on adjacent foes if target ally dies.",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Death Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

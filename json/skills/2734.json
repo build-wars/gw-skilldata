@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2734,
+		"campaign": 0,
+		"profession": 5,
+		"attribute": 2,
+		"type": 24,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 7,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Geistiges Wrack (PvP)",
+				"description": "Der Gegner wird 5...40 Sekunden mit Geistiges Wrack verhext. Ist der Gegner das Ziel einer Eurer Mesmer-Fertigkeiten, die keine Verhexung ist, verliert er 1 Energiepunkt. Sinken die Energiepunkte des Gegners auf 0, erleidet er 15...100 Punkte Schaden und Geistiges Wrack endet.",
+				"concise": "(5...40 Sekunden.) Der Gegner verliert 1 Energiepunkt, wenn er Ziel Eurer Mesmer-Fertigkeiten (keine Verhexung) ist. Sinken die Energiepunkte des Gegners auf 0, erleidet er 15...100 Punkte Schaden und Geistiges Wrack endet.",
+				"campaign": "Basis",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Mind Wrack (PvP)",
+				"description": "For 5...40 seconds, whenever this foe is the target of one of your non-hex Mesmer skills, that foe loses 1 Energy. If the target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...100 damage.",
+				"concise": "(5...40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...100 damage.",
+				"campaign": "Core",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

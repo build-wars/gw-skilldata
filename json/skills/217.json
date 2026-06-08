@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 217,
+		"campaign": 1,
+		"profession": 6,
+		"attribute": 9,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 15,
+		"activation": 0.75,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Kristallwelle",
+				"description": "Umstehende Gegner erleiden 10...70 Punkte Schaden, werden jedoch von sämtlichen negativen Zuständen geheilt. Jeder entfernte Zustand verursacht 5...15 Schaden.",
+				"concise": "Richtet bei allen umstehenden Feinden 10...70 Punkte Schaden an. Diese Gegner verlieren alle Zustände und erleiden für jeden entfernten Zustand 5...15 Schaden.",
+				"campaign": "Prophecies",
+				"profession": "Elementarmagier",
+				"profession_abbr": "E",
+				"attribute": "Erdmagie",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Crystal Wave",
+				"description": "Foes adjacent to you are struck for 10...70 damage but are cured of any negative conditions. Each condition removed deals 5...15 damage.",
+				"concise": "Deals 10...70 damage to all foes adjacent to you. Those foes lose all conditions and take 5...15 damage for each condition removed.",
+				"campaign": "Prophecies",
+				"profession": "Elementalist",
+				"profession_abbr": "E",
+				"attribute": "Earth Magic",
+				"type": "Spell"
+			}
+		}
+	}
+}

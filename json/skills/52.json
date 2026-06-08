@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 52,
+		"campaign": 1,
+		"profession": 5,
+		"attribute": 2,
+		"type": 24,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 10,
+		"activation": 1,
+		"recharge": 15,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Panik",
+				"description": "1...10 Sekunden lang wirkt die Verhexung Panik auf den Gegner und alle Gegner in der Nähe. Verwendet ein mit Panik verhexter Gegner eine Fertigkeit erfolgreich, unterbricht Panik die Aktionen aller Feinde in der Nähe.",
+				"concise": "Verhext außerdem Feinde in der Nähe des Gegners (1...10 Sekunden). Unterbricht die Aktion aller Gegner in der Nähe, wenn ein verhexter Gegner eine Fertigkeit erfolgreich aktiviert.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Beherrschungsmagie",
+				"type": "Verhexung"
+			},
+			"en": {
+				"name": "Panic",
+				"description": "For 1...10 seconds, target foe and all nearby foes are hexed with Panic. When a foe hexed with Panic successfully uses a skill, all other nearby foes are interrupted.",
+				"concise": "Also hexes foes near your target (1...10 seconds). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill.",
+				"campaign": "Prophecies",
+				"profession": "Mesmer",
+				"profession_abbr": "Me",
+				"attribute": "Domination Magic",
+				"type": "Hex Spell"
+			}
+		}
+	}
+}

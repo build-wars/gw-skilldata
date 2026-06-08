@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 2858,
+		"campaign": 0,
+		"profession": 1,
+		"attribute": 21,
+		"type": 20,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": true,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 0,
+		"recharge": 4,
+		"adrenaline": 3,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "\"Passt auf Euch auf!\" (PvP)",
+				"description": "Gruppenmitglieder in Hörweite erhalten 10 Sekunden lang +5...25 Rüstung. Dieser Schrei endet nach 1...3 Angriffen.",
+				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite haben +5...25 Rüstung. <gray>Endet nach 1...3 erhaltenen Angriffen.</gray>",
+				"campaign": "Basis",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Taktik",
+				"type": "Schrei"
+			},
+			"en": {
+				"name": "\"Watch Yourself!\" (PvP)",
+				"description": "Party members within earshot gain +5...25 armor for 10 seconds. This shout ends after 1...3 incoming attacks.",
+				"concise": "(10 seconds.) Party members in earshot have +5...25 armor. <gray>Ends after 1...3 incoming attacks.</gray>",
+				"campaign": "Core",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Tactics",
+				"type": "Shout"
+			}
+		}
+	}
+}

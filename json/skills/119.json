@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 119,
+		"campaign": 0,
+		"profession": 4,
+		"attribute": 4,
+		"type": 23,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 1,
+		"activation": 0.25,
+		"recharge": 0,
+		"adrenaline": 0,
+		"sacrifice": 33,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Blut ist Kraft",
+				"description": "10 Sekunden bekommt der Verbündete eine Energieregeneration von +3...6.",
+				"concise": "10 Sekunden: +3...6 Energieregeneration. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>",
+				"campaign": "Basis",
+				"profession": "Nekromant",
+				"profession_abbr": "N",
+				"attribute": "Blutmagie",
+				"type": "Verzauberung"
+			},
+			"en": {
+				"name": "Blood is Power",
+				"description": "For 10 seconds, target other ally gains +3...6 Energy regeneration.",
+				"concise": "(10 seconds.) +3...6 Energy regeneration. <gray>Cannot self-target.</gray>",
+				"campaign": "Core",
+				"profession": "Necromancer",
+				"profession_abbr": "N",
+				"attribute": "Blood Magic",
+				"type": "Enchantment spell"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 374,
+		"campaign": 1,
+		"profession": 1,
+		"attribute": 17,
+		"type": 1,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": true,
+		"split_id": 3002,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 0,
+		"recharge": 30,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Ausdauer des Kriegers",
+				"description": "5...35 Sekunden lang erhaltet Ihr 3 Energiepunkte für jeden Treffer<sic/> den Ihr mit einem Nahkampfangriff erzielt. Ausdauer des Kriegers kann Eure Energiepunkte höchstens auf 10...25 erhöhen.",
+				"concise": "5...35 Sekunden: Ihr erhaltet jedes Mal 3 Energiepunkte, wenn Ihr mit einem Nahkampfangriff trefft. <gray>Kein Energieerhalt wenn Ihr mehr als 10...25 Energiepunkte habt.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Stärke",
+				"type": "Fertigkeit"
+			},
+			"en": {
+				"name": "Warrior's Endurance",
+				"description": "For 5...35 seconds, you gain 3 Energy each time you hit with a melee attack. Warrior's Endurance cannot raise your Energy above 10...25.",
+				"concise": "(5...35 seconds.) You gain 3 Energy each time you hit with a melee attack. <gray>No Energy gain if you have more than 10...25 Energy.</gray>",
+				"campaign": "Prophecies",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "Strength",
+				"type": "Skill"
+			}
+		}
+	}
+}

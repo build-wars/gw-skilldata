@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 302,
+		"campaign": 0,
+		"profession": 3,
+		"attribute": 14,
+		"type": 22,
+		"is_elite": false,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 5,
+		"activation": 1,
+		"recharge": 12,
+		"adrenaline": 0,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Verhexung zerschlagen",
+				"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Beim Entfernen einer Verhexung erleiden Gegner in dem Bereich 10...85 Punkte heiligen Schaden.",
+				"concise": "Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkung: Richtet bei Feinden im Bereich des Verbündeten (bzw. von Euch selbst) 10...85 Punkte heiligen Schaden an.",
+				"campaign": "Basis",
+				"profession": "Mönch",
+				"profession_abbr": "Mö",
+				"attribute": "Peinigungsgebete",
+				"type": "Zauber"
+			},
+			"en": {
+				"name": "Smite Hex",
+				"description": "Remove a hex from target ally. If a hex is removed, foes in the area suffer 10...85 holy damage.",
+				"concise": "Removes a hex from target ally. Removal effect: deals 10...85 holy damage to foes in the area of target ally.",
+				"campaign": "Core",
+				"profession": "Monk",
+				"profession_abbr": "Mo",
+				"attribute": "Smiting Prayers",
+				"type": "Spell"
+			}
+		}
+	}
+}

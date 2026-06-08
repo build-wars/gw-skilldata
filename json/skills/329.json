@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/build-wars/gw-skilldata/refs/heads/main/data/json-skills/skill.schema.json",
+	"skill": {
+		"id": 329,
+		"campaign": 1,
+		"profession": 1,
+		"attribute": 101,
+		"type": 3,
+		"is_elite": true,
+		"is_rp": false,
+		"is_pvp": false,
+		"pvp_split": false,
+		"split_id": 0,
+		"upkeep": 0,
+		"energy": 0,
+		"activation": 0.25,
+		"recharge": 0,
+		"adrenaline": 6,
+		"sacrifice": 0,
+		"overcast": 0,
+		"lang": {
+			"de": {
+				"name": "Schädel spalten",
+				"description": "Wenn dieser Angriff erfolgreich ist, unterbricht er die aktuelle Aktion des Ziels. Wenn der Gegner einen Zauber wirkt, leidet er 15 Sekunden lang unter Benommenheit.",
+				"concise": "Unterbricht eine Aktion. Verursacht Zustand Benommenheit (15 Sekunden), falls der Gegner einen Zauber wirkt.",
+				"campaign": "Prophecies",
+				"profession": "Krieger",
+				"profession_abbr": "K",
+				"attribute": "Kein Attribut",
+				"type": "Nahkampfangriff"
+			},
+			"en": {
+				"name": "Skull Crack",
+				"description": "If it hits, this attack interrupts the target's current action. If that foe was casting a spell, that foe is Dazed for 15 seconds.",
+				"concise": "Interrupts an action. Inflicts Dazed condition (15 seconds) if target is casting a spell.",
+				"campaign": "Prophecies",
+				"profession": "Warrior",
+				"profession_abbr": "W",
+				"attribute": "No Attribute",
+				"type": "Melee Attack"
+			}
+		}
+	}
+}
