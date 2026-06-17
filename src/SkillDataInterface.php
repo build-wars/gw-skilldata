@@ -13,7 +13,18 @@ namespace Buildwars\GWSkillData;
 
 interface SkillDataInterface{
 
-	final public const CAMPAIGNS = [
+	final const PROF_NONE         = 0;
+	final const PROF_WARRIOR      = 1;
+	final const PROF_RANGER       = 2;
+	final const PROF_MONK         = 3;
+	final const PROF_NECROMANCER  = 4;
+	final const PROF_MESMER       = 5;
+	final const PROF_ELEMENTALIST = 6;
+	final const PROF_ASSASSIN     = 7;
+	final const PROF_RITUALIST    = 8;
+	final const PROF_PARAGON      = 9;
+	final const PROF_DERVISH      = 10;
+
 	final const CAMPAIGNS = [
 		0 => ['name' => ['de' => 'Basis',            'en' => 'Core',           ], 'continent' => ['de' => 'Die Nebel', 'en' => 'The Mists',]],
 		1 => ['name' => ['de' => 'Prophecies',       'en' => 'Prophecies',     ], 'continent' => ['de' => 'Tyria',     'en' => 'Tyria',    ]],
