@@ -7,10 +7,14 @@
 
 import SkillLangEnglish from './SkillLangEnglish.js';
 import SkillLangGerman from './SkillLangGerman.js';
-import {ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES} from './constants.js';
 
 export {
 	SkillLangEnglish,
 	SkillLangGerman,
-	ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES,
 };
+
+export {
+	PROF_NONE, PROF_WARRIOR, PROF_RANGER, PROF_MONK, PROF_NECROMANCER, PROF_MESMER,
+	PROF_ELEMENTALIST, PROF_ASSASSIN, PROF_RITUALIST, PROF_PARAGON, PROF_DERVISH,
+	ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES
+} from './constants.js';

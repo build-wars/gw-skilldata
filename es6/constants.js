@@ -5,6 +5,18 @@
  * @license      MIT
  */
 
+const PROF_NONE         = 0;
+const PROF_WARRIOR      = 1;
+const PROF_RANGER       = 2;
+const PROF_MONK         = 3;
+const PROF_NECROMANCER  = 4;
+const PROF_MESMER       = 5;
+const PROF_ELEMENTALIST = 6;
+const PROF_ASSASSIN     = 7;
+const PROF_RITUALIST    = 8;
+const PROF_PARAGON      = 9;
+const PROF_DERVISH      = 10;
+
 /**
  * Attributes (by ID))
  *
@@ -875,4 +887,8 @@ const SKILLTYPES = [
 ];
 
 
-export {ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES};
+export {
+	PROF_NONE, PROF_WARRIOR, PROF_RANGER, PROF_MONK, PROF_NECROMANCER, PROF_MESMER,
+	PROF_ELEMENTALIST, PROF_ASSASSIN, PROF_RITUALIST, PROF_PARAGON, PROF_DERVISH,
+	ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES
+};
