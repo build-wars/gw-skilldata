@@ -37146,6 +37146,18 @@ var data = {
  * @license      MIT
  */
 
+const PROF_NONE         = 0;
+const PROF_WARRIOR      = 1;
+const PROF_RANGER       = 2;
+const PROF_MONK         = 3;
+const PROF_NECROMANCER  = 4;
+const PROF_MESMER       = 5;
+const PROF_ELEMENTALIST = 6;
+const PROF_ASSASSIN     = 7;
+const PROF_RITUALIST    = 8;
+const PROF_PARAGON      = 9;
+const PROF_DERVISH      = 10;
+
 /**
  * Attributes (by ID))
  *
@@ -47142,6 +47154,17 @@ class SkillLangGerman extends SkillDataAbstract{
 exports.ATTRIBUTES = ATTRIBUTES;
 exports.CAMPAIGNS = CAMPAIGNS;
 exports.PROFESSIONS = PROFESSIONS;
+exports.PROF_ASSASSIN = PROF_ASSASSIN;
+exports.PROF_DERVISH = PROF_DERVISH;
+exports.PROF_ELEMENTALIST = PROF_ELEMENTALIST;
+exports.PROF_MESMER = PROF_MESMER;
+exports.PROF_MONK = PROF_MONK;
+exports.PROF_NECROMANCER = PROF_NECROMANCER;
+exports.PROF_NONE = PROF_NONE;
+exports.PROF_PARAGON = PROF_PARAGON;
+exports.PROF_RANGER = PROF_RANGER;
+exports.PROF_RITUALIST = PROF_RITUALIST;
+exports.PROF_WARRIOR = PROF_WARRIOR;
 exports.SKILLTYPES = SKILLTYPES;
 exports.SkillLangEnglish = SkillLangEnglish;
 exports.SkillLangGerman = SkillLangGerman;

@@ -37144,6 +37144,18 @@ var data = {
  * @license      MIT
  */
 
+const PROF_NONE         = 0;
+const PROF_WARRIOR      = 1;
+const PROF_RANGER       = 2;
+const PROF_MONK         = 3;
+const PROF_NECROMANCER  = 4;
+const PROF_MESMER       = 5;
+const PROF_ELEMENTALIST = 6;
+const PROF_ASSASSIN     = 7;
+const PROF_RITUALIST    = 8;
+const PROF_PARAGON      = 9;
+const PROF_DERVISH      = 10;
+
 /**
  * Attributes (by ID))
  *
@@ -47137,5 +47149,5 @@ class SkillLangGerman extends SkillDataAbstract{
 	skilldesc = de.skilldesc;
 }
 
-export { ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES, SkillLangEnglish, SkillLangGerman };
+export { ATTRIBUTES, CAMPAIGNS, PROFESSIONS, PROF_ASSASSIN, PROF_DERVISH, PROF_ELEMENTALIST, PROF_MESMER, PROF_MONK, PROF_NECROMANCER, PROF_NONE, PROF_PARAGON, PROF_RANGER, PROF_RITUALIST, PROF_WARRIOR, SKILLTYPES, SkillLangEnglish, SkillLangGerman };
 //# sourceMappingURL=gw-skilldata-es6-src.js.map
