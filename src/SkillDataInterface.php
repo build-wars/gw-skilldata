@@ -13,19 +13,19 @@ namespace Buildwars\GWSkillData;
 
 interface SkillDataInterface{
 
-	final const PROF_NONE         = 0;
-	final const PROF_WARRIOR      = 1;
-	final const PROF_RANGER       = 2;
-	final const PROF_MONK         = 3;
-	final const PROF_NECROMANCER  = 4;
-	final const PROF_MESMER       = 5;
-	final const PROF_ELEMENTALIST = 6;
-	final const PROF_ASSASSIN     = 7;
-	final const PROF_RITUALIST    = 8;
-	final const PROF_PARAGON      = 9;
-	final const PROF_DERVISH      = 10;
+	final public const PROF_NONE         = 0;
+	final public const PROF_WARRIOR      = 1;
+	final public const PROF_RANGER       = 2;
+	final public const PROF_MONK         = 3;
+	final public const PROF_NECROMANCER  = 4;
+	final public const PROF_MESMER       = 5;
+	final public const PROF_ELEMENTALIST = 6;
+	final public const PROF_ASSASSIN     = 7;
+	final public const PROF_RITUALIST    = 8;
+	final public const PROF_PARAGON      = 9;
+	final public const PROF_DERVISH      = 10;
 
-	final const CAMPAIGNS = [
+	final public const CAMPAIGNS = [
 		0 => ['name' => ['de' => 'Basis',            'en' => 'Core',           ], 'continent' => ['de' => 'Die Nebel', 'en' => 'The Mists',]],
 		1 => ['name' => ['de' => 'Prophecies',       'en' => 'Prophecies',     ], 'continent' => ['de' => 'Tyria',     'en' => 'Tyria',    ]],
 		2 => ['name' => ['de' => 'Factions',         'en' => 'Factions',       ], 'continent' => ['de' => 'Cantha',    'en' => 'Cantha',   ]],
@@ -33,7 +33,7 @@ interface SkillDataInterface{
 		4 => ['name' => ['de' => 'Eye of the North', 'en' => 'Eye of the North'], 'continent' => ['de' => 'Tyria',     'en' => 'Tyria',    ]],
 	];
 
-	final const PROFESSIONS = [
+	final public const PROFESSIONS = [
 		 0 => ['pri' => 101, 'name' => ['de' => 'keine',           'en' => 'none',        ], 'abbr' => ['de' => 'X', 'en' => 'X', ]],
 		 1 => ['pri' =>  17, 'name' => ['de' => 'Krieger',         'en' => 'Warrior',     ], 'abbr' => ['de' => 'K', 'en' => 'W', ]],
 		 2 => ['pri' =>  23, 'name' => ['de' => 'Waldläufer',      'en' => 'Ranger',      ], 'abbr' => ['de' => 'W', 'en' => 'R', ]],
@@ -47,7 +47,7 @@ interface SkillDataInterface{
 		10 => ['pri' =>  44, 'name' => ['de' => 'Derwisch',        'en' => 'Dervish',     ], 'abbr' => ['de' => 'D', 'en' => 'D', ]],
 	];
 
-	final const ATTRIBUTES = [
+	final public const ATTRIBUTES = [
 		  0 => ['prof' =>  5, 'pri' => true,  'max' => 21, 'name' => ['de' => 'Schnellwirkung',           'en' => 'Fast Casting',                      ]],
 		  1 => ['prof' =>  5, 'pri' => false, 'max' => 21, 'name' => ['de' => 'Illusionsmagie',           'en' => 'Illusion Magic',                    ]],
 		  2 => ['prof' =>  5, 'pri' => false, 'max' => 21, 'name' => ['de' => 'Beherrschungsmagie',       'en' => 'Domination Magic',                  ]],
@@ -101,7 +101,7 @@ interface SkillDataInterface{
 		109 => ['prof' =>  0, 'pri' => false, 'max' => 10, 'name' => ['de' => 'Norntitel',                'en' => 'Norn Title Track',                  ]],
 	];
 
-	final const SKILLTYPES = [
+	final public const SKILLTYPES = [
 		 0 => ['name' => ['de' => 'Keine Fertigkeit',     'en' => 'Not a Skill',         ]],
 		 1 => ['name' => ['de' => 'Fertigkeit',           'en' => 'Skill',               ]],
 		 2 => ['name' => ['de' => 'Bogenangriff',         'en' => 'Bow Attack',          ]],
@@ -144,21 +144,21 @@ interface SkillDataInterface{
 	 *
 	 * @var string[]
 	 */
-	final const KEYS_NAMES = ['campaign_name', 'profession_name', 'profession_abbr', 'attribute_name', 'type_name'];
+	final public const KEYS_NAMES = ['campaign_name', 'profession_name', 'profession_abbr', 'attribute_name', 'type_name'];
 
 	/**
 	 * The array keys for the descriptions array
 	 *
 	 * @var string[]
 	 */
-	final const KEYS_DESC = ['name', 'description', 'concise'];
+	final public const KEYS_DESC = ['name', 'description', 'concise'];
 
 	/**
 	 * The array keys for the data array
 	 *
 	 * @var string[]
 	 */
-	final const KEYS_DATA = [
+	final public const KEYS_DATA = [
 		'id', 'campaign', 'profession', 'attribute', 'type', 'is_elite', 'is_rp', 'is_pvp', 'pvp_split',
 		'split_id', 'upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'sacrifice', 'overcast',
 	];
