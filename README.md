@@ -33,10 +33,53 @@
   - Skill descriptions for English and German
 - Toolset to add other translations (hopefully maybe)
 
-
 ## Requirements
 
 - PHP 8.1+
+
+alternatively:
+
+- Javascript
+	- node.js >= 24
+	- a web browser
+
+
+# Documentation
+
+## PHP: Installation with [composer](https://getcomposer.org)
+
+### Terminal
+```
+composer require buildwars/gw-skilldata
+```
+
+### composer.json
+```json
+{
+	"require": {
+		"php": "^8.1",
+		"buildwars/gw-skilldata": "^1.1"
+	}
+}
+```
+
+Note: check the [releases](https://github.com/buildwars/gw-skilldata/releases) for valid versions.
+
+## JS: Installation with [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### Terminal
+```
+npm install @buildwars/gw-skilldata
+```
+
+### package.json
+```json
+{
+	"dependencies": {
+		"@buildwars/gw-skilldata": "^1.1"
+	}
+}
+```
 
 
 ## Quickstart
