@@ -254,43 +254,45 @@ $skilldesc = [
 $skilldata = [
 	// skill number zero is the "unknown skill"
 	0    => [
-		'id'         => 0,
-		'campaign'   => 0,
-		'profession' => 0,
-		'attribute'  => 101,
-		'type'       => 0,
-		'is_elite'   => false,
-		'is_rp'      => false,
-		'is_pvp'     => false,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 0,
-		'activation' => 0,
-		'recharge'   => 0,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
+		'id'                 => 0,
+		'campaign'           => 0,
+		'profession'         => 0,
+		'attribute'          => 101,
+		'type'               => 0,
+		'is_elite'           => false,
+		'is_rp'              => false,
+		'is_pvp'             => false,
+		'pvp_split'          => false,
+		'split_id'           => 0,
+		'upkeep'             => 0,
+		'energy'             => 0,
+		'activation'         => 0,
+		'recharge'           => 0,
+		'adrenaline'         => 0,
+		'adrenaline_precise' => 0,
+		'sacrifice'          => 0,
+		'overcast'           => 0,
 	],
 	// Farmer's Scythe (PvP)
 	3437 => [
-		'id'         => 3437,
-		'campaign'   => 3,
-		'profession' => 10,
-		'attribute'  => 41,
-		'type'       => 9,
-		'is_elite'   => false,
-		'is_rp'      => false,
-		'is_pvp'     => true,
-		'pvp_split'  => false,
-		'split_id'   => 0,
-		'upkeep'     => 0,
-		'energy'     => 5,
-		'activation' => 0,
-		'recharge'   => 20,
-		'adrenaline' => 0,
-		'sacrifice'  => 0,
-		'overcast'   => 0,
+		'id'                 => 3437,
+		'campaign'           => 3,
+		'profession'         => 10,
+		'attribute'          => 41,
+		'type'               => 9,
+		'is_elite'           => false,
+		'is_rp'              => false,
+		'is_pvp'             => true,
+		'pvp_split'          => false,
+		'split_id'           => 0,
+		'upkeep'             => 0,
+		'energy'             => 5,
+		'activation'         => 0,
+		'recharge'           => 20,
+		'adrenaline'         => 0,
+		'adrenaline_precise' => 0,
+		'sacrifice'          => 0,
+		'overcast'           => 0,
 	],
 ];
 
@@ -358,23 +360,24 @@ foreach(skilldb['pve'] as $lang => $file){
 		}
 
 		$skilldata[$id] = [
-			'id'         => $id,
-			'campaign'   => (int)$skill[4],
-			'profession' => (int)$skill[7],
-			'attribute'  => $attr,
-			'type'       => (int)$skill[6],
-			'is_elite'   => (bool)$skill[14],
-			'is_rp'      => (bool)$skill[15],
-			'is_pvp'     => false,
-			'pvp_split'  => isset(pvp_split[$id]),
-			'split_id'   => (pvp_split[$id] ?? 0),
-			'upkeep'     => (int)$skill[8],
-			'energy'     => (int)$skill[9],
-			'activation' => abs((float)$skill[10]),
-			'recharge'   => (int)$skill[11],
-			'adrenaline' => abs((float)$skill[12]),
-			'sacrifice'  => (int)$skill[13],
-			'overcast'   => (int)$skill[16],
+			'id'                 => $id,
+			'campaign'           => (int)$skill[4],
+			'profession'         => (int)$skill[7],
+			'attribute'          => $attr,
+			'type'               => (int)$skill[6],
+			'is_elite'           => (bool)$skill[14],
+			'is_rp'              => (bool)$skill[15],
+			'is_pvp'             => false,
+			'pvp_split'          => isset(pvp_split[$id]),
+			'split_id'           => (pvp_split[$id] ?? 0),
+			'upkeep'             => (int)$skill[8],
+			'energy'             => (int)$skill[9],
+			'activation'         => abs((float)$skill[10]),
+			'recharge'           => (int)$skill[11],
+			'adrenaline'         => abs((float)$skill[12]),
+			'adrenaline_precise' => abs((float)$skill[12]),
+			'sacrifice'          => (int)$skill[13],
+			'overcast'           => (int)$skill[16],
 		];
 
 	}
@@ -406,23 +409,24 @@ foreach(skilldb['pvp'] as $lang => $file){
 		}
 
 		$skilldata[pvp_split[$id]] = [
-			'id'         => pvp_split[$id],
-			'campaign'   => (int)$skill[4],
-			'profession' => (int)$skill[7],
-			'attribute'  => $attr,
-			'type'       => (int)$skill[6],
-			'is_elite'   => (bool)$skill[14],
-			'is_rp'      => false,
-			'is_pvp'     => true,
-			'pvp_split'  => false,
-			'split_id'   => 0,
-			'upkeep'     => (int)$skill[8],
-			'energy'     => (int)$skill[9],
-			'activation' => abs((float)$skill[10]),
-			'recharge'   => (int)$skill[11],
-			'adrenaline' => abs((float)$skill[12]),
-			'sacrifice'  => (int)$skill[13],
-			'overcast'   => (int)$skill[16],
+			'id'                 => pvp_split[$id],
+			'campaign'           => (int)$skill[4],
+			'profession'         => (int)$skill[7],
+			'attribute'          => $attr,
+			'type'               => (int)$skill[6],
+			'is_elite'           => (bool)$skill[14],
+			'is_rp'              => false,
+			'is_pvp'             => true,
+			'pvp_split'          => false,
+			'split_id'           => 0,
+			'upkeep'             => (int)$skill[8],
+			'energy'             => (int)$skill[9],
+			'activation'         => abs((float)$skill[10]),
+			'recharge'           => (int)$skill[11],
+			'adrenaline'         => abs((float)$skill[12]),
+			'adrenaline_precise' => abs((float)$skill[12]),
+			'sacrifice'          => (int)$skill[13],
+			'overcast'           => (int)$skill[16],
 		];
 
 	}
@@ -439,10 +443,10 @@ $jsonData = [
 	'skilldata' => $skilldata,
 ];
 
-File::save(__DIR__.'/../data/json-full/skilldata.json', str_replace('    ', "\t", Str::jsonEncode($jsonData)));
+File::save(dataFile, str_replace('    ', "\t", Str::jsonEncode($jsonData)));
 
 // save skill descriptions
-foreach(['de', 'en'] as $lang){
+foreach(langFiles as [$lang, $file]){
 	$logger->info(sprintf('lang "%s": %s skills', $lang, count($skilldesc[$lang])));
 
 	ksort($skilldesc[$lang]);
@@ -453,5 +457,5 @@ foreach(['de', 'en'] as $lang){
 		'skilldesc' => $skilldesc[$lang],
 	];
 
-	File::saveJSON(__DIR__.'/../data/json-full/skilldesc-'.$lang.'.json', $jsonData);
+	File::save($file, str_replace('    ', "\t", Str::jsonEncode($jsonData)));
 }

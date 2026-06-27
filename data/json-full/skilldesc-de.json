@@ -149,8 +149,8 @@
 		"27": {
 			"id": 27,
 			"name": "Täuschungen brechen",
-			"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, nehmen dieser Gegner und alle umstehenden Gegner 15...75 Punkte Schaden.",
-			"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel und allen umstehenden Gegnern 15...75 Punkte Schaden an."
+			"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, erleidet er 15...75 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+			"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel 15...75 Punkte Schaden an und bei umstehenden Feinden 75% dieses Schadens (11...56)."
 		},
 		"28": {
 			"id": 28,
@@ -173,8 +173,8 @@
 		"31": {
 			"id": 31,
 			"name": "Trugbild beschwören",
-			"description": "2...16 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -5.",
-			"concise": "2...16 Sekunden: Verursacht -5 Lebenspunktdegeneration."
+			"description": "4...18 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -5.",
+			"concise": "4...18 Sekunden: Verursacht -5 Lebenspunktdegeneration."
 		},
 		"32": {
 			"id": 32,
@@ -185,8 +185,8 @@
 		"33": {
 			"id": 33,
 			"name": "Illusion der Waffen",
-			"description": "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 8...40 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
-			"concise": "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 8...40 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
+			"description": "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 16...50 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
+			"concise": "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 16...50 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
 		},
 		"34": {
 			"id": 34,
@@ -221,8 +221,8 @@
 		"39": {
 			"id": 39,
 			"name": "Energiewelle",
-			"description": "Der Zielgegner verliert 1...10 Punkte Energie. Für jeden verlorenen Energiepunkt erleiden dieser und alle Feinde in der Nähe 9 Punkte Schaden.",
-			"concise": "Lässt 1...10 Energiepunkt verlieren. Richtet beim Gegner und Feinden in der Nähe pro verlorenem Energiepunkt 9 Punkte Schaden an."
+			"description": "Der Zielgegner verliert 1...10 Punkte Energie. Für jeden verlorenen Energiepunkt erleidet er 7 Punkte Schaden. Feinde in der Nähe erleiden 75% dieses Schadens.",
+			"concise": "Lässt 1...10 Energiepunkt verlieren. Richtet beim Gegner pro verlorenem Energiepunkt 7 Punkte Schaden an. Feinde in der Nähe erleiden 75% dieses Schadens."
 		},
 		"40": {
 			"id": 40,
@@ -234,7 +234,7 @@
 			"id": 41,
 			"name": "Herr über den Äther",
 			"description": "Ihr verliert Eure gesamte Energie. 5...10 Sekunden lang unterliegt der Gegner einer Energiedegeneration von -1...3 und Ihr erfreut Euch einer Energieregeneration von +1...3.",
-			"concise": "<gray>Ihr verliert alle Energiepunkte.</gray> Gegner hat +1...3 Energiedegeneration und Ihr habt +1...3 Energieregeneration. (5...10 Sekunden)."
+			"concise": "<gray>Ihr verliert alle Energiepunkte.</gray> Gegner hat  -1...3 Energiedegeneration und Ihr habt +1...3 Energieregeneration. (5...10 Sekunden)."
 		},
 		"42": {
 			"id": 42,
@@ -245,14 +245,14 @@
 		"43": {
 			"id": 43,
 			"name": "Ungeschick",
-			"description": "4 Sekunden lang werden der Gegner und umstehende Feinde mit Ungeschick verhext. Beim nächsten Angriff jedes Feindes wird der Angriff unterbrochen und der Feind erleidet 10...92 Punkte Schaden.",
-			"concise": "4 Sekunden: Verhext auch umstehende Feinde. Unterbricht nächsten Angriff. Unterbrechungswirkung: Richtet 10...92 Punkte Schaden an."
+			"description": "4 Sekunden lang werden der Gegner und umstehende Feinde mit Ungeschick verhext. Beim nächsten Angriff jedes Feindes wird der Angriff unterbrochen und der Feind erleidet 10...80 Punkte Schaden.",
+			"concise": "4 Sekunden: Verhext auch umstehende Feinde. Unterbricht nächsten Angriff. Unterbrechungswirkung: Richtet 10...80 Punkte Schaden an."
 		},
 		"44": {
 			"id": 44,
 			"name": "Phantomschmerz",
 			"description": "10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4. Wenn Phantomschmerz endet, erhält dieser Gegner eine Tiefe Wunde, die seine maximalen Lebenspunkte 5...20 Sekunden lang um 20% reduziert.",
-			"concise": "10 Sekunden: Verursacht +1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
+			"concise": "10 Sekunden: Verursacht  -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 		},
 		"45": {
 			"id": 45,
@@ -287,8 +287,8 @@
 		"50": {
 			"id": 50,
 			"name": "Verschwendung",
-			"description": "Nach 3 Sekunden erleidet der Gegner und alle umstehende<sic/> Feinden<sic/> 20...100 Schaden. Setzt der Gegner erfolgreich eine Fertigkeit ein, endet Verschwendung vorzeitig und verursacht keinen Schaden.",
-			"concise": "(3 Sekunden.) Wirkung am Ende: richtet beim Gegner und umstehenden Feinden 20...100 Punkte Schaden an. <gray>Kein Effekt und endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
+			"description": "Nach 3 Sekunden erleidet der Gegner 20...100 Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (15...75). Setzt der Gegner erfolgreich eine Fertigkeit ein, endet Verschwendung vorzeitig und verursacht keinen Schaden.",
+			"concise": "(3 Sekunden.) Wirkung am Ende: richtet beim Gegner 20...100 Punkte Schaden an und bei allen umstehenden Feinden 75% dieses Schadens (15...75). <gray>Kein Effekt und endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
 		},
 		"51": {
 			"id": 51,
@@ -306,13 +306,13 @@
 			"id": 53,
 			"name": "Migräne",
 			"description": "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und benötigt 100% länger, um eine Fertigkeit zu aktivieren.",
-			"concise": "(5...20 Sekunden.) Verursacht +1...8 Lebenspunktdegeneration und verdoppelt Aktivierungszeit von Fertigkeiten."
+			"concise": "(5...20 Sekunden.) Verursacht  -1...8 Lebenspunktdegeneration und verdoppelt Aktivierungszeit von Fertigkeiten."
 		},
 		"54": {
 			"id": 54,
 			"name": "Verkrüppelnde Qual",
 			"description": "5...20 Sekunden lang sind Bewegung und Angriffe des Ziels um 50% langsamer. Der Gegner unterliegt außerdem einer Lebenspunktdegeneration von -1...8.",
-			"concise": "(5...20 Sekunden.) Bewegungen und Angriffe des Gegners sind um 50% langsamer und er hat +1...8 Lebenspunktdegeneration."
+			"concise": "(5...20 Sekunden.) Bewegungen und Angriffe des Gegners sind um 50% langsamer und er hat  -1...8 Lebenspunktdegeneration."
 		},
 		"55": {
 			"id": 55,
@@ -329,8 +329,8 @@
 		"57": {
 			"id": 57,
 			"name": "Schrei der Frustration",
-			"description": "Falls der Gegner eine Fertigkeit benutzt, werden er und alle Feinde in dem Bereich bei ihrer Aktion unterbrochen und erleiden 15...75 Punkte Schaden.",
-			"concise": "Benutzt der Gegner eine Fertigkeit, werden er und alle Feinde im Bereich bei ihrer Aktion unterbrochen und erleiden 15...75 Punkte Schaden."
+			"description": "Falls der Gegner eine Fertigkeit benutzt, werden er und alle Feinde in dem Bereich bei ihrer Aktion unterbrochen, der Gegner erleidet 15...75 Punkte Schaden und alle Feinde im Bereich erleiden 75% dieses Schadens (11...56).",
+			"concise": "Benutzt der Gegner eine Fertigkeit, werden er und alle Feinde im Bereich bei ihrer Aktion unterbrochen, der Gegner erleidet 15...75 Punkte Schaden und alle Feinde im Bereich erleiden 75% dieses Schadens (11...56)."
 		},
 		"58": {
 			"id": 58,
@@ -353,8 +353,8 @@
 		"62": {
 			"id": 62,
 			"name": "Siegel der Demut",
-			"description": "Die Elite-Fertigkeit des Gegners wird 1...16 Sekunden lang deaktiviert. Eure Nicht-Mesmer-Fertigkeiten werden 10 Sekunden lang deaktiviert.",
-			"concise": "Deaktiviert Elite-Fertigkeit (1...16 Sekunde). <gray>Deaktiviert Eure Nicht-Mesmer-Fertigkeiten (10 Sekunden).</gray>"
+			"description": "Die Elite-Fertigkeit des Gegners wird 1...16 Sekunden lang deaktiviert. Eure Nicht-Mesmer-Fertigkeiten werden 4 Sekunden lang deaktiviert.",
+			"concise": "Deaktiviert Elite-Fertigkeit (1...16 Sekunde). <gray>Deaktiviert Eure Nicht-Mesmer-Fertigkeiten (4 Sekunden).</gray>"
 		},
 		"63": {
 			"id": 63,
@@ -485,8 +485,8 @@
 		"87": {
 			"id": 87,
 			"name": "Veratas Starren",
-			"description": "Hat der als Ziel ausgewählte feindliche Untote einen Meister, wird seine Verbindung zu diesem Meister aufgehoben, womit er alle anderen Kreaturen als Feind betrachtet. Falls der Untote keinen Meister hatte, werdet Ihr zu seinem Meister. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
-			"concise": "Macht das Ziel zum herrenlosen untoten Diener. Falls es schon herrenlos ist, werdet Ihr sein Meister. <gray>Mindestens Todesmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
+			"description": "Hat der als Ziel ausgewählte feindliche Untote einen Meister, wird seine Verbindung zu diesem Meister aufgehoben, womit er alle anderen Kreaturen als Feind betrachtet. Falls der Untote keinen Meister hatte, werdet Ihr zu seinem Meister und heilt ihn um 60...80 Lebenspunkte. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+			"concise": "Macht das Ziel zum herrenlosen untoten Diener. Falls es schon herrenlos ist, werdet Ihr sein Meister und heilt es um 60...80 Lebenspunkte.. <gray>Mindestens Todesmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 		},
 		"88": {
 			"id": 88,
@@ -612,13 +612,13 @@
 			"id": 108,
 			"name": "Leiden",
 			"description": "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3.",
-			"concise": "Verhext den Gegner und Feinde in der Nähe (6...30 Sekunden). Die Betroffenen haben +0...3 Lebenspunktdegeneration."
+			"concise": "Verhext den Gegner und Feinde in der Nähe (6...30 Sekunden). Die Betroffenen haben  -0...3 Lebenspunktdegeneration."
 		},
 		"109": {
 			"id": 109,
 			"name": "Leben abzapfen",
 			"description": "12...24 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3 und Ihr selbst erfreut Euch einer Lebenspunktregeneration von +1...3.",
-			"concise": "12...24 Sekunden: Gegner hat +1...3 Lebenspunktdegeneration. Ihr habt 1...3 Lebenspunktregeneration."
+			"concise": "12...24 Sekunden: Gegner hat  -1...3 Lebenspunktdegeneration. Ihr habt +1...3 Lebenspunktregeneration."
 		},
 		"110": {
 			"id": 110,
@@ -689,8 +689,8 @@
 		"121": {
 			"id": 121,
 			"name": "Boshafter Geist",
-			"description": "8...20 Sekunden lang fügt Boshafter Geist jedes Mal, wenn der Gegner angreift oder eine Fertigkeit benutzt, diesem und allen ihn umstehenden Verbündeten 5...35 Punkte Schattenschaden zu.",
-			"concise": "8...20 Sekunden: Richtet beim Gegner und umstehenden Feinden jedes Mal 5...35 Punkte Schaden an, wenn der Gegner angreift oder eine Fertigkeit benutzt."
+			"description": "10...25 Sekunden lang fügt Boshafter Geist jedes Mal, wenn der Gegner angreift oder eine Fertigkeit benutzt, diesem und allen ihn umstehenden Verbündeten 15...45 Punkte Schattenschaden zu.",
+			"concise": "10...25 Sekunden: Richtet beim Gegner und umstehenden Feinden jedes Mal 15...45 Punkte Schaden an, wenn der Gegner angreift oder eine Fertigkeit benutzt."
 		},
 		"122": {
 			"id": 122,
@@ -714,13 +714,13 @@
 			"id": 125,
 			"name": "Verwelken",
 			"description": "5...35 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -2...4 und einer Energiedegeneration von -1. Wenn die Energie des Gegners auf 0 gefallen ist, nimmt dieser Gegner 15...75 Punkte Schaden und Verwelken endet.",
-			"concise": "5...35 Sekunden: Verursacht +2...4 Lebenspunktdegeneration und -1 Energiedegeneration. Richtet 15...75 Punkte Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. <gray>Endet, wenn die Energiepunkte des Gegners auf 0 sinken.</gray>"
+			"concise": "5...35 Sekunden: Verursacht  -2...4 Lebenspunktdegeneration und -1 Energiedegeneration. Richtet 15...75 Punkte Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. <gray>Endet, wenn die Energiepunkte des Gegners auf 0 sinken.</gray>"
 		},
 		"126": {
 			"id": 126,
 			"name": "Lebensübertragung",
 			"description": "6...12 Sekunden lang unterliegen der Gegner und ihn umstehende Feinde einer Lebenspunktdegeneration von -3...8, die Euch als Lebenspunktregeneration zugute kommt.",
-			"concise": "Verhext auch den Gegner umstehende Feinde (6...12 Sekunden). Verursacht +3...8 Lebenspunktdegeneration. Ihr habt +3...8 Lebenspunktregeneration."
+			"concise": "Verhext auch den Gegner umstehende Feinde (6...12 Sekunden). Verursacht  -3...8 Lebenspunktdegeneration. Ihr habt +3...8 Lebenspunktregeneration."
 		},
 		"127": {
 			"id": 127,
@@ -774,7 +774,7 @@
 			"id": 135,
 			"name": "Mutlosigkeit",
 			"description": "Während der nächsten 3...16 Sekunden greift der Gegner um 50% langsamer an und unterliegt einer Lebenspunktdegeneration von -0...3.",
-			"concise": "3...16 Sekunden: Gegner greift um 50% langsamer an und hat +0...3 Lebenspunktdegeneration."
+			"concise": "3...16 Sekunden: Gegner greift um 50% langsamer an und hat  -0...3 Lebenspunktdegeneration."
 		},
 		"136": {
 			"id": 136,
@@ -815,8 +815,8 @@
 		"142": {
 			"id": 142,
 			"name": "Bleibender Fluch",
-			"description": "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3 und Heilung verschafft ihnen um 20% weniger Vorteile.",
-			"concise": "6...30 Sekunden: Gegner und Feinde in der Nähe haben +0...3 Lebenspunktdegeneration. Heilung verschafft ihnen um 20% weniger Vorteile."
+			"description": "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -1...4 und Heilung verschafft ihnen um 25% weniger Vorteile.",
+			"concise": "6...30 Sekunden: Gegner und Feinde in der Nähe haben  -1...4 Lebenspunktdegeneration. Heilung verschafft ihnen um 25% weniger Vorteile."
 		},
 		"143": {
 			"id": 143,
@@ -953,8 +953,8 @@
 		"166": {
 			"id": 166,
 			"name": "Kinetik-Rüstung",
-			"description": "8 Sekunden lang erhaltet Ihr +20...80 Punkte Rüstung. Jedes Mal, wenn Ihr einen Zauber wirkt, wird Kinetik-Rüstung 8 Sekunden lang erneuert.",
-			"concise": "8 Sekunden: Ihr habt +20...80 Rüstung. Erneuerungsbonus: Wirkt einen Zauber."
+			"description": "12 Sekunden lang erhaltet Ihr +20...80 Punkte Rüstung. Jedes Mal, wenn Ihr einen Zauber wirkt, wird Kinetik-Rüstung 12 Sekunden lang erneuert.",
+			"concise": "12 Sekunden: Ihr habt +20...80 Rüstung. Erneuerungsbonus: Wirkt einen Zauber."
 		},
 		"167": {
 			"id": 167,
@@ -1073,8 +1073,8 @@
 		"186": {
 			"id": 186,
 			"name": "Feuerball",
-			"description": "Sendet einen Feuerball aus, der dem Gegner und alle<sic/> umstehenden Feinden 7...112 Punkte Feuerschaden zufügt.",
-			"concise": "Geschoss: Richtet beim Gegner und umstehenden Feinden 7...112 Punkte Feuerschaden an."
+			"description": "Sendet einen Feuerball aus, der dem Gegner und allen Feinden in der Nähe 7...112 Punkte Feuerschaden zufügt.",
+			"concise": "Geschoss: Richtet beim Gegner und Feinden in der Nähe 7...112 Punkte Feuerschaden an."
 		},
 		"187": {
 			"id": 187,
@@ -1252,7 +1252,7 @@
 		},
 		"216": {
 			"id": 216,
-			"name": "Eisenbeschlag",
+			"name": "Eisennebel",
 			"description": "8...15 Sekunden lang habt ihr +15 Rüstung. Eure Zauber werden 33% schneller aktiviert und wiederaufgeladen. Mit jedem gewirkten Zauber seid Ihr jedoch um 2 Punkte überzaubert.",
 			"concise": "8...15 Sekunden: Ihr erhaltet +15 Rüstung. Zauber werden 33% schneller aktiviert und wiederaufgeladen. <gray>Bei gewirktem Zauber: Ihr erhaltet 2 Punkte Überzauberung.</gray>"
 		},
@@ -1289,8 +1289,8 @@
 		"222": {
 			"id": 222,
 			"name": "Blitzschlag",
-			"description": "Fügt dem Gegner 5...50 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 5...50 Punkte Blitzschaden zugefügt.",
-			"concise": "Richtet 5...50 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 5...50 Punkte Blitzschaden an."
+			"description": "Fügt dem Gegner 5...40 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 5...40 Punkte Blitzschaden zugefügt.",
+			"concise": "Richtet 5...40 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 5...40 Punkte Blitzschaden an."
 		},
 		"223": {
 			"id": 223,
@@ -1325,8 +1325,8 @@
 		"228": {
 			"id": 228,
 			"name": "Donnerschlag",
-			"description": "An der Position des Gegners wird eine gewaltige Stoßwelle erzeugt. Richtet beim Gegner und umstehenden Feinden 10...50 Punkte Blitzschaden an. Getroffene Feinde werden unterbrochen und leiden 5...20 Sekunden lang an Beschädigter Rüstung und Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
-			"concise": "Richtet 10...50 Punkte Blitzschaden an. Verursacht Beschädigte Rüstung und Schwäche (5...20 Sekunden). Unterbricht. 25% Rüstungsdurchdringung."
+			"description": "An der Position des Gegners wird eine gewaltige Stoßwelle erzeugt. Richtet beim Gegner und Feinden in der Nähe 10...50 Punkte Blitzschaden an. Getroffene Feinde werden unterbrochen und leiden 5...20 Sekunden lang an Beschädigter Rüstung und Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+			"concise": "Richtet 10...50 Punkte Blitzschaden an. Trifft auch Ziele in der Nähe Eures Ziels. Verursacht Beschädigte Rüstung und Schwäche (5...20 Sekunden). Unterbricht. 25% Rüstungsdurchdringung."
 		},
 		"229": {
 			"id": 229,
@@ -1355,7 +1355,7 @@
 		"233": {
 			"id": 233,
 			"name": "Wirbelnde Aura",
-			"description": "3...7 Sekunden lang seid Ihr mit Wirbelnde Aura verzaubert und habt 1...6 Lebenspunktregeneration und eine 50%ige Wahrscheinlichkeit, dass Geschosse geblockt werden. Wenn Ihr Überzaubert seid, wenn Ihr diesen Zauber wirkt, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert.",
+			"description": "3...7 Sekunden lang seid Ihr mit Wirbelnde Aura verzaubert und habt +1...6 Lebenspunktregeneration und eine 50%ige Wahrscheinlichkeit, dass Geschosse geblockt werden. Wenn Ihr Überzaubert seid, wenn Ihr diesen Zauber wirkt, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert.",
 			"concise": "(3...7 Sekunden.) Ihr habt +1...6 Lebenspunktregeneration und eine 50%ige Chance, Geschosse zu blocken. Wenn Überzaubert, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert."
 		},
 		"234": {
@@ -1439,8 +1439,8 @@
 		"247": {
 			"id": 247,
 			"name": "Symbol des Zorns",
-			"description": "5 Sekunden lang erleiden umstehende Gegner am Wirkungsort des Zaubers 8...32 Punkte heiligen Schaden pro Sekunde.",
-			"concise": "Richtet jede Sekunde 8...32 Punkte heiligen Schaden an (5 Sekunden). Trifft umstehende Feinde um Eure anfängliche Position."
+			"description": "Erzeugt ein Symbol des Zorns am Standort des anvisierten Gegners. Umstehende Gegner werden 5 Sekunden lang von 10...40 heiligem Schaden getroffen.",
+			"concise": "Teilt jede Sekunde 10...40 Punkte heiligen Schaden aus (5 Sekunden). Trifft Gegner um den ursprünglichen Standort des anvisierten Gegners herum."
 		},
 		"248": {
 			"id": 248,
@@ -1523,8 +1523,8 @@
 		"261": {
 			"id": 261,
 			"name": "Schild der Regeneration",
-			"description": "5...13 Sekunden lang erhält der Verbündete (bzw. Ihr selbst) eine Lebenspunktregeneration in Höhe von 3...10 und 40 Rüstung.",
-			"concise": "5...13 Sekunden: +3...10 Lebenspunktregeneration und +40 Rüstung."
+			"description": "Für 5...13 Sekunden erhält der anvisierte Verbündete +3...10 Lebenspunktregeneration und 20...45 Rüstung.",
+			"concise": "(5...13 Sekunden). +3...10 Lebenspunktregeneration und +20...45 Rüstung."
 		},
 		"262": {
 			"id": 262,
@@ -1589,8 +1589,8 @@
 		"272": {
 			"id": 272,
 			"name": "Balthasars Aura",
-			"description": "8 Sekunden lang erleiden umstehende Gegner um den Verbündeten (bzw. Euch selbst) herum pro Sekunde 10...25 Punkte heiligen Schaden.",
-			"concise": "8 Sekunden: Richtet pro Sekunde 10...25 Punkte heiligen Schaden bei umstehenden Feinden um den Verbündeten (bzw. Euch selbst) an."
+			"description": "8 Sekunden lang erleiden umstehende Gegner um den Verbündeten (bzw. Euch selbst) herum pro Sekunde 10...30 Punkte heiligen Schaden.",
+			"concise": "8 Sekunden: Richtet pro Sekunde 10...30 Punkte heiligen Schaden bei umstehenden Feinden um den Verbündeten (bzw. Euch selbst) an."
 		},
 		"273": {
 			"id": 273,
@@ -1967,8 +1967,8 @@
 		"335": {
 			"id": 335,
 			"name": "Spalten",
-			"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr 10...30 Punkte zusätzlichen Schaden zu.",
-			"concise": "Richtet +10...30 Punkte Schaden an."
+			"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr 10...40 Punkte zusätzlichen Schaden zu und 2...3 Euren Gegner umstehende Feinde erleiden 10...40 rüstungsignorierenden Hieb-Schaden.",
+			"concise": "Richtet +10...40 Punkte Schaden an. 2...3 Euren Gegner umstehende Feinde erleiden 10...40 rüstungsignorierenden Hieb-Schaden."
 		},
 		"336": {
 			"id": 336,
@@ -1985,8 +1985,8 @@
 		"338": {
 			"id": 338,
 			"name": "Ausweiden",
-			"description": "Wenn Ausweiden trifft, fügt Ihr 1...31 Punkte zusätzlichen Schaden und eine Tiefe Wunde zu. Dadurch werden die maximalen Lebenspunkte Eures Ziels 5...20 Sekunden lang um 20% verringert.",
-			"concise": "Richtet +1...31 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
+			"description": "Wenn Ausweiden trifft, fügt Ihr 10...45 Punkte zusätzlichen Schaden und eine Tiefe Wunde zu. Dadurch werden die maximalen Lebenspunkte Eures Ziels 5...20 Sekunden lang um 20% verringert.",
+			"concise": "Richtet +10...45 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 		},
 		"339": {
 			"id": 339,
@@ -2153,8 +2153,8 @@
 		"366": {
 			"id": 366,
 			"name": "Fürchtet mich!",
-			"description": "Alle umstehenden Gegner verlieren 1...4 Energiepunkte. 1...15 Sekunden lang erhöht sich Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%.",
-			"concise": "(1...15 Sekunden.) Erhöht die Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%. Anfangswirkung: Feinde in der Nähe verlieren 1...4 Energiepunkte."
+			"description": "Alle umstehenden Gegner verlieren 2...6 Energiepunkte. 1...15 Sekunden lang erhöht sich Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%.",
+			"concise": "(1...15 Sekunden.) Erhöht die Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%. Anfangswirkung: Feinde in der Nähe verlieren 2...6 Energiepunkte."
 		},
 		"367": {
 			"id": 367,
@@ -2171,8 +2171,8 @@
 		"370": {
 			"id": 370,
 			"name": "Berserkerhaltung",
-			"description": "5...11 Sekunden lang greift Ihr um 33% schneller als normal an und erhaltet 50% mehr Adrenalin für jeden Eurer Treffer im Nahkampf. Berserkerhaltung endet, sobald Ihr eine Fertigkeit verwendet.",
-			"concise": "5...11 Sekunden: Ihr greift um 33% schneller an und erhaltet 50% mehr Adrenalin. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
+			"description": "8...14 Sekunden lang greift Ihr um 33% schneller als normal an und erhaltet 100% mehr Adrenalin für jeden Eurer Treffer im Nahkampf. Berserkerhaltung endet, sobald Ihr eine Fertigkeit verwendet.",
+			"concise": "8...14 Sekunden: Ihr greift um 33% schneller an und erhaltet 100% mehr Adrenalin. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
 		},
 		"371": {
 			"id": 371,
@@ -2237,8 +2237,8 @@
 		"381": {
 			"id": 381,
 			"name": "Hundert Klingen",
-			"description": "15 Sekunden lang erleiden alle umstehenden Feinde jedes Mal, wenn Ihr mit einem Schwert angreift, 10...25 Punkte Hiebschaden.",
-			"concise": "15 Sekunden: Richtet jedes Mal, wenn Ihr mit einem Schwert angreift, bei allen umstehenden Feinden 10...25 Punkte Schaden an."
+			"description": "15 Sekunden lang erleiden alle umstehenden Feinde jedes Mal, wenn Ihr mit einem Schwert angreift, 10...35 Punkte Hiebschaden.",
+			"concise": "15 Sekunden: Richtet jedes Mal, wenn Ihr mit einem Schwert angreift, bei allen umstehenden Feinden 10...35 Punkte Schaden an."
 		},
 		"382": {
 			"id": 382,
@@ -2519,8 +2519,8 @@
 		"438": {
 			"id": 438,
 			"name": "Verkrüppelungs-Schlag",
-			"description": "Euer Tiergefährte führt einen Verkrüppelungs-Schlag aus, der 5...20 Punkte zusätzlichen Schaden zufügt. Wenn dieser Angriff einen sich bewegenden Gegner trifft, wird dieser 3...15 Sekunden lang verkrüppelt.",
-			"concise": "Richtet +5...20 Punkte Schaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunden), falls der Gegner sich bewegt."
+			"description": "Euer Tiergefährte führt einen Verkrüppelungs-Schlag aus, der 5...20 Punkte zusätzlichen Schaden zufügt und den Gegner 3...15 Sekunden lang verkrüppelt.",
+			"concise": "Verursacht +5...20 Schaden. Fügt bei Treffer den Zustand Verkrüppelt zu (3...15 Sekunden)."
 		},
 		"439": {
 			"id": 439,
@@ -2753,8 +2753,8 @@
 		"570": {
 			"id": 570,
 			"name": "Zeichen der Unsicherheit",
-			"description": "5...25 Sekunden lang erleidet der Gegner eine Lebenspunktdegeneration von -1...5 und enden Verzauberungen, mit denen der Verhexte belegt wird, und Haltungen, die er aktiviert, um 30...80% schneller. Eure gesamten Nicht-Assassinen-Fertigkeiten sind 5 Sekunden lang deaktiviert.",
-			"concise": "(5...25 Sekunden.) Bewirkt +1...5 Lebenspunktdegeneration. Verzauberungen, die auf den Gegner gewirkt werden, und Haltungen, die er aktiviert, enden um 30...80% schneller. <gray>Deaktiviert Eure gesamten Nicht-Assassinen-Fertigkeiten (5 Sek.).</gray>"
+			"description": "5...25 Sekunden lang erleidet der Zielgegner,  -1...5 Lebenspunktdegeneration, und Verzauberungen und Haltungen auf diesem Gegner vergehen 20...60% schneller. Eure Nicht-Assassinen-Fertigkeiten sind 5 Sekunden lang deaktiviert.",
+			"concise": "(5...25 Sekunden.) Bewirkt  -1...5 Lebenspunktdegeneration. Verzauberungen und Haltungen laufen beim anvisierten Gegner 20...60% schneller ab. <gray>Deaktiviert Eure Nicht-Assassinen-Fertigkeiten (5 Sek.).</gray>"
 		},
 		"571": {
 			"id": 571,
@@ -2777,8 +2777,8 @@
 		"764": {
 			"id": 764,
 			"name": "Schicksalsklage",
-			"description": "1...4 Sekunde(n) lang werden alle Attribute des Gegners auf 0 gesetzt.",
-			"concise": "1...4 Sekunden: Attribute des Gegners sind 0."
+			"description": "2...6 Sekunde(n) lang werden alle Attribute des Gegners auf 0 gesetzt.",
+			"concise": "2...6 Sekunden: Attribute des Gegners sind 0."
 		},
 		"766": {
 			"id": 766,
@@ -2909,8 +2909,8 @@
 		"790": {
 			"id": 790,
 			"name": "Nachtragend war Khanhei",
-			"description": "Haltet Khanheis Asche bis zu 5...11 Sekunden lang. Jedes Mal, wenn Euch ein Feind im Kampf trifft, während Ihr Khanheis Asche haltet, entzieht Ihr diesem Feind 5...35 Lebenspunkte.",
-			"concise": "5...11 Sekunden: Ihr entzieht jedem Feind, der Euch mit einem Angriff trifft, 5...35 Lebenspunkte."
+			"description": "Haltet Khanheis Asche bis zu 5...11 Sekunden lang. Jedes Mal, wenn Euch ein Feind im Kampf trifft, während Ihr Khanheis Asche haltet, entzieht Ihr diesem Feind 10...45 Lebenspunkte.",
+			"concise": "5...11 Sekunden: Ihr entzieht jedem Feind, der Euch mit einem Angriff trifft, 10...45 Lebenspunkte."
 		},
 		"791": {
 			"id": 791,
@@ -2994,7 +2994,7 @@
 			"id": 808,
 			"name": "Zeichen des Schnitters",
 			"description": "30 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...5. Wenn er stirbt, während er mit Zeichen des Schnitters verhext ist, erhaltet Ihr 5...15 Energiepunkte.",
-			"concise": "30 Sekunden: Verursacht +1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkte, falls der Gegner an dieser Verhexung stirbt."
+			"concise": "30 Sekunden: Verursacht  -1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkte, falls der Gegner an dieser Verhexung stirbt."
 		},
 		"809": {
 			"id": 809,
@@ -3059,8 +3059,8 @@
 		"819": {
 			"id": 819,
 			"name": "Vampirgeist",
-			"description": "Entzieht dem Gegner bis zu 5...50 Lebenspunkte. 10 Sekunden lang habt Ihr +5...10 Lebenspunktregeneration.",
-			"concise": "Entzieht dem Gegner 5...50 Lebenspunkte: Ihr habt 5...10 Lebenspunktregeneration (10 Sekunden)"
+			"description": "Entzieht dem Gegner bis zu 15...60 Lebenspunkte. 10 Sekunden lang habt Ihr +5...10 Lebenspunktregeneration.",
+			"concise": "Entzieht dem Gegner 15...60 Lebenspunkte: Ihr habt +5...10 Lebenspunktregeneration (10 Sekunden)"
 		},
 		"820": {
 			"id": 820,
@@ -3114,13 +3114,13 @@
 			"id": 828,
 			"name": "Fauler Gestank",
 			"description": "Der Gegner erleidet 10...65 Punkte Kälteschaden. Wenn er an einem Zustand leidet, wird er mit Faulem Gestank verhext und leidet 10 Sekunden lang unter einer Lebenspunktdegeneration von -1...5.",
-			"concise": "Verursacht +1...5 Lebenspunktdegeneration (10 Sekunden). Anfangswirkung: Richtet 10...65 Punkte Kälteschaden an. <gray>Verhexung wird nur auferlegt, wenn der Gegner einen Zustand hat.</gray>"
+			"concise": "Verursacht  -1...5 Lebenspunktdegeneration (10 Sekunden). Anfangswirkung: Richtet 10...65 Punkte Kälteschaden an. <gray>Verhexung wird nur auferlegt, wenn der Gegner einen Zustand hat.</gray>"
 		},
 		"830": {
 			"id": 830,
 			"name": "Strahl des Urteils",
-			"description": "An der aktuellen Position des Gegners wird ein Strahl des Urteils erzeugt, der 5 Sekunden lang jede Sekunde umstehenden Feinden 5...45 Punkte heiligen Schaden und 1...3 Sekunden brennen zufügt.",
-			"concise": "Richtet jede Sekunde 5...45 Punkte heiligen Schaden an und verursacht Brennen (1...3 Sekunden) jede Sekunde (5 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
+			"description": "An der aktuellen Position des Gegners wird ein Strahl des Urteils erzeugt, der 5 Sekunden lang jede Sekunde umstehenden Feinden 10...50 Punkte heiligen Schaden und 1...3 Sekunden brennen zufügt.",
+			"concise": "Richtet jede Sekunde 10...50 Punkte heiligen Schaden an und verursacht Brennen (1...3 Sekunden) jede Sekunde (5 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
 		},
 		"831": {
 			"id": 831,
@@ -3191,8 +3191,8 @@
 		"843": {
 			"id": 843,
 			"name": "Böe",
-			"description": "Während der nächsten 5...11 Sekunden bewegen Ihr und Euer Verbündeter sich um 33% schneller. Wenn Ihr diesen Zauber wirkt, erleiden alle Feinde in Eurer Nähe und in der Nähe Eures Ziels 15...70 Punkte Kälteschaden. Von Böe getroffene angreifende oder sich bewegende Feinde werden zu Boden geworfen.",
-			"concise": "(5...11 Sekunden.) Ihr und Euer Verbündeter bewegen sich um 33% schneller. Anfangswirkung: Feinde in der Nähe Eures Ziel erleiden 15...70 Punkte Kälteschaden. Angreifende oder sich bewegende Feinde werden zu Boden geworfen."
+			"description": "Während der nächsten 5...11 Sekunden bewegen Ihr und Euer Verbündeter sich um 33% schneller. Wenn Ihr diesen Zauber wirkt, erleiden alle Euch und Euer Ziel umstehenden Feinde 15...70 Punkte Kälteschaden. Von Böe getroffene angreifende oder sich bewegende Feinde werden zu Boden geworfen.",
+			"concise": "(5...11 Sekunden.) Ihr und Euer Verbündeter bewegen sich um 33% schneller. Anfangswirkung: Euch und Euer Ziel umstehende Feinde erleiden 15...70 Punkte Kälteschaden. Angreifende oder sich bewegende Feinde werden zu Boden geworfen."
 		},
 		"844": {
 			"id": 844,
@@ -3281,8 +3281,8 @@
 		"862": {
 			"id": 862,
 			"name": "Heißhungriger Blick",
-			"description": "Fügt dem Gegner und in der Nähe befindlichen Feinden 15...30 Punkte Schaden zu und entzieht diesen 15...30 Lebenspunkte.",
-			"concise": "Fügt dem Gegner und in der Nähe befindlichen Feinden 15...30 Punkte Schaden zu und entzieht diesen 15...30 Lebenspunkte."
+			"description": "Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkte Schaden zu und entzieht diesen 20...40 Lebenspunkte.",
+			"concise": "Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkte Schaden zu und entzieht diesen 20...40 Lebenspunkte."
 		},
 		"863": {
 			"id": 863,
@@ -3425,8 +3425,8 @@
 		"892": {
 			"id": 892,
 			"name": "Zitternde Klinge",
-			"description": "Wenn Zitternde Klinge erfolgreich ist, fügt Ihr +10 Punkte Schaden zu. Wenn dieser Angriff einen sich bewegenden Feind trifft, leidet dieser 10 Sekunden lang an Benommenheit.",
-			"concise": "Richtet +10 Punkte Schaden an. Verursacht Zustand Benommenheit (10 Sekunden), falls der Gegner sich bewegt."
+			"description": "Wenn Zitternde Klinge erfolgreich ist, fügt Ihr +10...40 Punkte Schaden zu. Wenn dieser Angriff einen sich bewegenden Feind trifft, leidet dieser 10 Sekunden lang an Benommenheit.",
+			"concise": "Richtet +10...40 Punkte Schaden an. Verursacht Zustand Benommenheit (10 Sekunden), falls der Gegner sich bewegt."
 		},
 		"893": {
 			"id": 893,
@@ -3437,14 +3437,14 @@
 		"898": {
 			"id": 898,
 			"name": "Überlastung",
-			"description": "5 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Falls dieser Gegner gerade eine Fertigkeit wirkt, fügt Ihr diesem und den umstehenden Feinden 15...75 Punkte Schaden zu.",
-			"concise": "(5 Sekunden.) Verursacht 1...3 Lebenspunktdegeneration. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleiden dieser und die umstehenden Feinde 15...75 Punkte Schaden."
+			"description": "5 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleidet niemand 15...75 Punkte Schaden und der Gegner und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+			"concise": "(5 Sekunden.) Verursacht -1...3 Lebenspunktdegeneration. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleidet niemand 15...75 Punkte Schaden und der Gegner und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56)."
 		},
 		"899": {
 			"id": 899,
 			"name": "Bilder der Reue",
 			"description": "5...10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er mitten im Angriff war, erleidet er 10...52 Punkte Schaden.",
-			"concise": "5...10 Sekunden: Verursacht +1...3 Lebenspunktdegeneration. Anfangswirkung: 10...52 Punkte Schaden, falls der Gegner gerade angreift."
+			"concise": "5...10 Sekunden: Verursacht  -1...3 Lebenspunktdegeneration. Anfangswirkung: 10...52 Punkte Schaden, falls der Gegner gerade angreift."
 		},
 		"900": {
 			"id": 900,
@@ -3839,8 +3839,8 @@
 		"979": {
 			"id": 979,
 			"name": "Argwohn",
-			"description": "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht beim Gegner und allen Feinden in der Nähe 10...100 Punkte Schaden.",
-			"concise": "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet beim Gegner und Feinden in der Nähe 10...100 Punkte Schaden an."
+			"description": "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht bei niemandem 10...80 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...60).",
+			"concise": "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet bei niemandem 10...80 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...60) an."
 		},
 		"980": {
 			"id": 980,
@@ -3881,8 +3881,8 @@
 		"987": {
 			"id": 987,
 			"name": "Weg der leeren Handfläche",
-			"description": "5...20 Sekunden lang kosten Begleithand- und Doppelangriffe keine Energiepunkte.",
-			"concise": "5...20 Sekunden: Eure Begleithand- und Doppelangriffe kosten keine Energiepunkte."
+			"description": "5...15 Sekunden lang kosten Begleithand- und Doppelangriffe keine Energiepunkte und werden um 25...50 % schneller aufgeladen.",
+			"concise": "5...15 Sekunden: Eure Begleithand- und Doppelangriffe kosten keine Energiepunkte und werden um 25...50 % schneller aufgeladen."
 		},
 		"988": {
 			"id": 988,
@@ -3965,8 +3965,8 @@
 		"1021": {
 			"id": 1021,
 			"name": "Dschungelschlag",
-			"description": "Muss einem Leithandangriff folgen. Wenn Dschungelschlag erfolgreich ist, fügt er dem Gegner +10...25 Punkte Schaden zu. Trifft er einen Gegner mit einer Verkrüppelung, nimmt der Gegner und alle umstehenden Gegner +1...31 zusätzlichen Schaden.",
-			"concise": "Richtet +10...25 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden +1...31 Punkte Schaden an, falls der Gegner verkrüppelt ist. <gray>Muss einem Leithandangriff folgen.</gray>"
+			"description": "Muss einem Leithandangriff folgen. Wenn Dschungelschlag erfolgreich ist, fügt er dem Gegner +10...25 Punkte Schaden zu. Trifft er einen Gegner mit einer Verkrüppelung, nimmt der Gegner und alle umstehenden Gegner 1...31 Schaden.",
+			"concise": "Richtet +10...25 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden 1...31 Punkte Schaden an, falls der Gegner verkrüppelt ist. <gray>Muss einem Leithandangriff folgen.</gray>"
 		},
 		"1022": {
 			"id": 1022,
@@ -4289,14 +4289,14 @@
 		"1091": {
 			"id": 1091,
 			"name": "Doppeldrache",
-			"description": "Ihr beschwört die Macht des Drachen. 8 Sekunden lang werden ein Verbündeter und Ihr mit Doppeldrache verzaubert. Umstehende Feinde erleiden pro Sekunde 5...30 Punkte Feuerschaden. Wenn Ihr oder Euer Verbündeter Fertigkeiten auf einen Feind anwenden, wird dieser Feind zudem 0...3 Sekunden lang in Brand gesetzt.",
-			"concise": "(8 Sekunden.) Verzaubert Euch und einen Verbündeten. Umstehende Feinde erleiden pro Sekunde 5...30 Punkte Feuerschaden. Fertigkeiten gegen einen Feind verursachen zustätzlich Brennen (0...3 Sekunden)."
+			"description": "Ihr beschwört die Macht des Drachen. 8 Sekunden lang werden ein Verbündeter und Ihr mit Doppeldrache verzaubert. Umstehende Feinde erleiden pro Sekunde 10...40 Punkte Feuerschaden. Wenn Ihr oder Euer Verbündeter Fertigkeiten auf einen Feind anwenden, wird dieser Feind zudem 1...4 Sekunden lang in Brand gesetzt.",
+			"concise": "(8 Sekunden.) Verzaubert Euch und einen Verbündeten. Umstehende Feinde erleiden pro Sekunde 10...40 Punkte Feuerschaden. Fertigkeiten gegen einen Feind verursachen zustätzlich Brennen (1...4 Sekunden)."
 		},
 		"1093": {
 			"id": 1093,
 			"name": "Teinais Hitze",
 			"description": "Erstellt für 10...15 Sekunden eine Abwehr von Teinais Hitze an Eurer Position <sic/> Feinde im Bereich haben 2...5 Lebenspunktedegeneration. Die Angriffe geschwächter Feinde sind um 33% verlangsamt. Diese Fertigkeit wird 20 Sekunden lang deaktiviert.",
-			"concise": "(10...15 Sekunden) Verursacht +2...5 Lebenspunktdegeneration. Angriffe geschwächter Feinde im Bereich sind um 33% verlangsamt. Für 20 Sekunden deaktiviert."
+			"concise": "(10...15 Sekunden) Verursacht  -2...5 Lebenspunktdegeneration. Angriffe geschwächter Feinde im Bereich sind um 33% verlangsamt. Für 20 Sekunden deaktiviert."
 		},
 		"1094": {
 			"id": 1094,
@@ -4319,14 +4319,14 @@
 		"1097": {
 			"id": 1097,
 			"name": "Teinais Gefängnis",
-			"description": "1...8 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden. Wenn der Gegner an Beschädigter Rüstung leidet, sickert die Kälte durch und verursacht 5...9 Lebenspunktdegeneration.",
-			"concise": "(1...8 Sekunden.) Gegner bewegt sich um 66% langsamer. Gegner mit Beschädigter Rüstung haben 5...9 Lebenspunktdegeneration."
+			"description": "1...8 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden. Wenn der Gegner an Beschädigter Rüstung leidet, sickert die Kälte durch und verursacht -5...9 Lebenspunktdegeneration.",
+			"concise": "(1...8 Sekunden.) Gegner bewegt sich um 66% langsamer. Gegner mit Beschädigter Rüstung haben -5...9 Lebenspunktdegeneration."
 		},
 		"1098": {
 			"id": 1098,
 			"name": "Eisspiegel",
-			"description": "Zerbrecht einen Eisspiegel. Alle Feinde in Eurer Nähe und in der Nähe des verbündeten Ziels (bzw. Euch selbst) erleiden 15...70 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer. Wenn Ihr einen Gegner trefft, der mit Wassermagie verhext ist, beträgt die Wiederaufladezeit unveränderlich 6 Sekunden.",
-			"concise": "Richtet 15...70 Punkte Kälteschaden an und verlangsamt Feinde um 66% (2...6 Sekunden). Trifft Feinde in Eurer Nähe und in der Nähe Eures Verbündeten. Unveränderliche Wiederaufladezeit von 6 Sekunden, falls ein getroffener Gegner mit Wassermagie verhext ist."
+			"description": "Zerbrecht einen Eisspiegel. Alle Feinde in Eurer Nähe und in der Nähe des verbündeten Ziels (bzw. Euch selbst) erleiden 15...70 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer. Wenn Ihr einen Gegner trefft, der mit Wassermagie verhext ist, beträgt die Wiederaufladezeit unveränderlich 7 Sekunden.",
+			"concise": "Richtet 15...70 Punkte Kälteschaden an und verlangsamt Feinde um 66% (2...6 Sekunden). Trifft Feinde in Eurer Nähe und in der Nähe Eures Verbündeten. Unveränderliche Wiederaufladezeit von 7 Sekunden, falls ein getroffener Gegner mit Wassermagie verhext ist."
 		},
 		"1099": {
 			"id": 1099,
@@ -4361,8 +4361,8 @@
 		"1118": {
 			"id": 1118,
 			"name": "Heilsalve",
-			"description": "Der Verbündete (bzw. Ihr selbst) wird um 10...160 Lebenspunkte geheilt. Alle Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des mit diesem Zauber verbundenen Gunst-der-Götter-Bonus. Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
-			"concise": "Heilt um 10...160 Lebenspunkte. Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des Gunst-der-Götter-Bonus. Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
+			"description": "Der Verbündete (bzw. Ihr selbst) wird um 20...120 Lebenspunkte geheilt. Alle Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des mit diesem Zauber verbundenen Gunst-der-Götter-Bonus. Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
+			"concise": "Heilt um 20...120 Lebenspunkte. Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des Gunst-der-Götter-Bonus. Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
 		},
 		"1119": {
 			"id": 1119,
@@ -4655,8 +4655,8 @@
 		"1228": {
 			"id": 1228,
 			"name": "Geist abzapfen",
-			"description": "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 15...50% dieser Energie.",
-			"concise": "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 15...50% dieser Energie."
+			"description": "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 30...60% dieser Energie.",
+			"concise": "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 30...60% dieser Energie."
 		},
 		"1229": {
 			"id": 1229,
@@ -4793,8 +4793,8 @@
 		"1257": {
 			"id": 1257,
 			"name": "Geisterlichtwaffe",
-			"description": "Während der nächsten 10 Sekunden erhält der Verbündete (bzw. Ihr selbst) pro Sekunde 1...15 Lebenspunkte sowie zusätzlich 1...15 Lebenspunkte pro Sekunde, wenn dieser Verbündete sich in Hörweite eines Geistes befindet.",
-			"concise": "10 Sekunden: Heilt jede Sekunde um 1...15 Lebenspunkte. In Hörweite eines Geistes erhöht sich die Heilung um 1...15 Lebenspunkte pro Sekunde."
+			"description": "Während der nächsten 10 Sekunden erhält der Verbündete (bzw. Ihr selbst) pro Sekunde 5...25 Lebenspunkte sowie zusätzlich 5...25 Lebenspunkte pro Sekunde, wenn dieser Verbündete sich in Hörweite eines Geistes befindet.",
+			"concise": "10 Sekunden: Heilt jede Sekunde um 5...25 Lebenspunkte. In Hörweite eines Geistes erhöht sich die Heilung um 5...25 Lebenspunkte pro Sekunde."
 		},
 		"1258": {
 			"id": 1258,
@@ -4943,14 +4943,14 @@
 		"1345": {
 			"id": 1345,
 			"name": "Rätsel des Verzauberers",
-			"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleiden er und alle umstehenden Feinde 10...100 Punkte Schaden.",
-			"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Richtet beim Gegner und allen umstehenden Feinden 10...100 Punkte Schaden an, falls der Gegner nicht verzaubert ist."
+			"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
+			"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Ist der Gegner nicht verzaubert, leidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75)."
 		},
 		"1346": {
 			"id": 1346,
 			"name": "Siegel der Illusionen",
-			"description": "Euer nächster<sic/> 1...3 Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut.",
-			"concise": "Euer nächster 1...3 Zauber verwenden Euer Attribut Illusionsmagie statt seines normalen Attributs."
+			"description": "Eure nächsten 1...3 Nicht-Illusionsmagie-Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut.",
+			"concise": "Eure nächsten 1...3 Nicht-Illusionsmagie-Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut."
 		},
 		"1347": {
 			"id": 1347,
@@ -5034,7 +5034,7 @@
 			"id": 1362,
 			"name": "Verzauberung verderben",
 			"description": "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung auf diese Weise erleidet der Gegner 10 Sekunden lang eine Lebenspunktdegeneration von -1...8.",
-			"concise": "Entfernt eine Verzauberung vom Gegner. Entfernungswirkung: +1...8 Lebenspunktdegeneration (10 Sekunden)."
+			"concise": "Entfernt eine Verzauberung vom Gegner. Entfernungswirkung:  -1...8 Lebenspunktdegeneration (10 Sekunden)."
 		},
 		"1363": {
 			"id": 1363,
@@ -5093,8 +5093,8 @@
 		"1372": {
 			"id": 1372,
 			"name": "Sandsturm",
-			"description": "Am Standort des Gegners wird ein Sandsturm erzeugt. Während der nächsten 10 Sekunden erleiden Gegner in der Nähe 10...30 Punkte Erdschaden pro Sekunde. Angreifende Feinde erleiden pro Sekunde zusätzlich 10...30 Punkte Erdschaden.",
-			"concise": "Richtet jede Sekunde 10...30 Punkte Erdschaden an (10 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Gegners. Richtet bei angreifenden Feinden zusätzlich jede Sekunde 10...30 Punkte Erdschaden an."
+			"description": "Am Standort des Gegners wird ein Sandsturm erzeugt. Während der nächsten 10 Sekunden erleiden Gegner in der Nähe 20...40 Punkte Erdschaden pro Sekunde. Angreifende Feinde erleiden pro Sekunde zusätzlich 10...30 Punkte Erdschaden.",
+			"concise": "Richtet jede Sekunde 20...40 Punkte Erdschaden an (10 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Gegners. Richtet bei angreifenden Feinden zusätzlich jede Sekunde 10...30 Punkte Erdschaden an."
 		},
 		"1373": {
 			"id": 1373,
@@ -5255,8 +5255,8 @@
 		"1406": {
 			"id": 1406,
 			"name": "Kopfstoß",
-			"description": "Der berührte Gegner erleidet 40...100 Punkte Schaden. Ihr leidet 5 Sekunden lang unter Benommenheit.",
-			"concise": "Richtet 40...100 Punkte Schaden an. Ihr seid benommen (5 Sekunden)."
+			"description": "Der berührte Gegner erleidet 40...100 Punkte Schaden. Ihr leidet 10 Sekunden lang unter Benommenheit.",
+			"concise": "Richtet 40...100 Punkte Schaden an. Ihr seid benommen (10 Sekunden)."
 		},
 		"1407": {
 			"id": 1407,
@@ -5465,8 +5465,8 @@
 		"1490": {
 			"id": 1490,
 			"name": "Frommer Angriff",
-			"description": "Entfernt 1 Derwisch-Verzauberung. Wenn der Angriff erfolgreich ist, fügt er +10...20 Punkte Schaden zu. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 10...30 Punkte Schaden.",
-			"concise": "Richtet +10...20 Punkte Schaden an. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 10...30 Punkte Schaden."
+			"description": "Entfernt 1 Derwisch-Verzauberung. Wenn der Angriff erfolgreich ist, fügt er +10...20 Punkte Schaden zu. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 15...40 Punkte Schaden.",
+			"concise": "Richtet +10...20 Punkte Schaden an. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkte Schaden."
 		},
 		"1491": {
 			"id": 1491,
@@ -5513,8 +5513,8 @@
 		"1500": {
 			"id": 1500,
 			"name": "Trugbild-Umhang",
-			"description": "1...7 Sekunden lang habt Ihr eine 40...80%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
-			"concise": "(1...7 Sekunden.) Ihr habt eine 40...80%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
+			"description": "1...7 Sekunden lang habt Ihr eine 30...60%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
+			"concise": "(1...7 Sekunden.) Ihr habt eine 30...60%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
 		},
 		"1502": {
 			"id": 1502,
@@ -5585,8 +5585,8 @@
 		"1514": {
 			"id": 1514,
 			"name": "Flüchtige Stabilität",
-			"description": "Während der nächsten 2...6 Sekunden könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
-			"concise": "(2...6 Sekunden.) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
+			"description": "Während der nächsten 4...10 Sekunden könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
+			"concise": "(4...10 Sekunden.) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
 		},
 		"1515": {
 			"id": 1515,
@@ -5741,8 +5741,8 @@
 		"1540": {
 			"id": 1540,
 			"name": "Überzeugung",
-			"description": "Wenn Ihr unter einem Zustand leidet, erhaltet Ihr 10 Sekunden lang +10 Rüstung und 1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wenn diese Verzauberung endet, werdet Ihr von 1...2 Zuständen geheilt.",
-			"concise": "(10 Sekunden.) Ihr erhaltet +10 Rüstung, wenn Ihr unter einem Zustand leidet. Ihr erhaltet 1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wirkung am Ende: Entfernt 1...2 Zustände."
+			"description": "Wenn Ihr unter einem Zustand leidet, erhaltet Ihr 10 Sekunden lang +10 Rüstung und +1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wenn diese Verzauberung endet, werdet Ihr von 1...2 Zuständen geheilt.",
+			"concise": "(10 Sekunden.) Ihr erhaltet +10 Rüstung, wenn Ihr unter einem Zustand leidet. Ihr erhaltet +1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wirkung am Ende: Entfernt 1...2 Zustände."
 		},
 		"1541": {
 			"id": 1541,
@@ -5765,8 +5765,8 @@
 		"1544": {
 			"id": 1544,
 			"name": "Wirbelangriff",
-			"description": "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...60 Kälteschaden und diese Verzauberung endet.",
-			"concise": "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...60 Kälteschaden zu und die Verzauberung endet."
+			"description": "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...50 Kälteschaden und diese Verzauberung endet.",
+			"concise": "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...50 Kälteschaden zu und die Verzauberung endet."
 		},
 		"1545": {
 			"id": 1545,
@@ -5789,8 +5789,8 @@
 		"1548": {
 			"id": 1548,
 			"name": "Grausamer Speer",
-			"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...31 Punkte Schaden zu. Wenn Ihr ein Ziel trefft, das sich nicht bewegt, fügt Ihr 5...20 Sekunden lang eine Tiefe Wunde zu.",
-			"concise": "Richtet +1...31 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls der Gegner sich nicht bewegt."
+			"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...50 Punkte Schaden zu. Wenn Ihr ein Ziel trefft, das sich nicht bewegt, fügt Ihr 5...20 Sekunden lang eine Tiefe Wunde zu.",
+			"concise": "Richtet +10...50 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls der Gegner sich nicht bewegt."
 		},
 		"1549": {
 			"id": 1549,
@@ -6107,8 +6107,8 @@
 		"1602": {
 			"id": 1602,
 			"name": "Betäubender Schlag",
-			"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...30 Punkte Schaden zu. Wenn er einen Feind trifft, der unter einem Zustand leidet, wird dieser 4...10 Sekunden lang betäubt.",
-			"concise": "Richtet +5...30 Punkte Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunden), falls der Gegner einen Zustand hat."
+			"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...50 Punkte Schaden zu. Wenn er einen Feind trifft, der unter einem Zustand leidet, wird dieser 4...10 Sekunden lang betäubt.",
+			"concise": "Richtet +10...50 Punkte Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunden), falls der Gegner einen Zustand hat."
 		},
 		"1603": {
 			"id": 1603,
@@ -6809,8 +6809,8 @@
 		"1782": {
 			"id": 1782,
 			"name": "\"Die Macht ist Euer!\"",
-			"description": "3 Sekunden lang erhalten alle Verbündeten in Hörweite +0...1 Energieregeneration.",
-			"concise": "3 Sekunden: Verbündete in Hörweite erhalten +0...1 Energieregeneration."
+			"description": "2...4 Sekunden lang erhalten alle Verbündeten in Hörweite +1...2 Energieregeneration.",
+			"concise": "2...4 Sekunden: Verbündete in Hörweite erhalten +1...2 Energieregeneration."
 		},
 		"1783": {
 			"id": 1783,
@@ -6995,8 +6995,8 @@
 		"2003": {
 			"id": 2003,
 			"name": "Verhexung heilen",
-			"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Wenn eine Verhexung entfernt wurde, wird der Verbündete um 30...120 Lebenspunkte geheilt.",
-			"concise": "Entfernt eine Verhexung. Entfernungswirkung: Heilt um 30...120 Lebenspunkte."
+			"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Wenn eine Verhexung entfernt wurde, wird der Verbündete um 30...100 Lebenspunkte geheilt.",
+			"concise": "Entfernt eine Verhexung. Entfernungswirkung: Heilt um 30...100 Lebenspunkte."
 		},
 		"2004": {
 			"id": 2004,
@@ -7110,7 +7110,7 @@
 			"id": 2054,
 			"name": "Schrumpfende Rüstung",
 			"description": "10 Sekunden lang leidet der Gegner an einer Lebenspunktdegeneration von -1...4. Wenn diese Verhexung endet, hat der Gegner 5...20 Sekunden lang eine Beschädigte Rüstung.",
-			"concise": "10 Sekunden: Verursacht +1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden)."
+			"concise": "10 Sekunden: Verursacht  -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden)."
 		},
 		"2055": {
 			"id": 2055,
@@ -7134,7 +7134,7 @@
 			"id": 2058,
 			"name": "Verwesende Galle",
 			"description": "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkte Schaden.",
-			"concise": "5...20 Sekunden: Verursacht +1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
+			"concise": "5...20 Sekunden: Verursacht  -1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
 		},
 		"2059": {
 			"id": 2059,
@@ -7841,8 +7841,8 @@
 		"2379": {
 			"id": 2379,
 			"name": "Segen des Wolfes",
-			"description": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an. 60 Sekunden lang habt Ihr 80 Rüstung, 660...700 Lebenspunkte und 2...4 Lebenspunktregeneration. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Wolfsangriffe ersetzt.",
-			"concise": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Wolfsangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkte und 2...4 Lebenspunktregeneration."
+			"description": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an. 60 Sekunden lang habt Ihr 80 Rüstung, 660...700 Lebenspunkte und +2...4 Lebenspunktregeneration. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Wolfsangriffe ersetzt.",
+			"concise": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Wolfsangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkte und +2...4 Lebenspunktregeneration."
 		},
 		"2384": {
 			"id": 2384,
@@ -7872,7 +7872,7 @@
 			"id": 2414,
 			"name": "Strahlungsfeld",
 			"description": "5 Sekunden lang unterliegen Feinde in dem Bereich einer Lebenspunktdegeneration von -4...6. Wenn das Portal endet, leiden alle Feinde in dem Bereich 12...20 Sekunden lang an Krankheit.",
-			"concise": "5 Sekunden: Verursacht bei Feinden im Bereich +4...6 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Feinden im Bereich den Zustand Krankheit (12...20 Sekunden)."
+			"concise": "5 Sekunden: Verursacht bei Feinden im Bereich  -4...6 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Feinden im Bereich den Zustand Krankheit (12...20 Sekunden)."
 		},
 		"2415": {
 			"id": 2415,
@@ -8549,8 +8549,8 @@
 		"3152": {
 			"id": 3152,
 			"name": "Verkrüppelnde Qual (PvP)",
-			"description": "5...20 Sekunden lang bewegt sich das Ziel um 50% langsamer und unterliegt einer Lebenspunktdegeneration von -1...5.",
-			"concise": "5...20 Sekunden: Bewegungen des Gegners sind um 50% langsamer und er hat +1...5 Lebenspunktdegeneration."
+			"description": "5...20 Sekunden lang bewegt sich das Ziel um 50% langsamer und unterliegt einer Lebenspunktdegeneration von -2...6.",
+			"concise": "5...20 Sekunden: Bewegungen des Gegners sind um 50% langsamer und er hat  -2...6 Lebenspunktdegeneration."
 		},
 		"3156": {
 			"id": 3156,
@@ -8573,20 +8573,20 @@
 		"3180": {
 			"id": 3180,
 			"name": "Täuschungen brechen (PvP)",
-			"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, nehmen dieser Gegner und alle umstehenden Gegner 15...75 Punkte Schaden.",
-			"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungseffekt: richtet<sic/> beim Gegner und allen umstehenden Feinden 15...75 Punkte Schaden an."
+			"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, erleidet er 15...75 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+			"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel 15...75 Punkte Schaden an und bei umstehenden Feinden 75% dieses Schadens (11...56)."
 		},
 		"3181": {
 			"id": 3181,
 			"name": "Illusion der Waffen (PvP)",
-			"description": "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 8...40 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
-			"concise": "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 8...40 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
+			"description": "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 16...50 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
+			"concise": "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 16...50 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
 		},
 		"3183": {
 			"id": 3183,
 			"name": "Migräne (PvP)",
-			"description": "3...12 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und braucht 100% länger, um Fertigkeiten zu aktivieren.",
-			"concise": "(3...12 Sekunden.) Verursacht +1...8 Lebenspunktdegeneration und verdoppelt die Aktivierungszeit von Fertigkeiten."
+			"description": "4...16 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und braucht 100% länger, um Fertigkeiten zu aktivieren.",
+			"concise": "(4...16 Sekunden.) Verursacht  -1...8 Lebenspunktdegeneration und verdoppelt die Aktivierungszeit von Fertigkeiten."
 		},
 		"3184": {
 			"id": 3184,
@@ -8633,14 +8633,14 @@
 		"3191": {
 			"id": 3191,
 			"name": "Argwohn (PvP)",
-			"description": "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen Eurer Verbündeten richtet<sic/> und richtet beim Gegner und allen Feinden in der Nähe 10...75 Punkte Schaden an.",
-			"concise": "6 Sekunden: Der nächste Zauber, den der Gegner auf einen Eurer Verbündeten richtet, scheitert und richtet beim Gegner und Feinden in er<sic/> Nähe 10...75 Punkte Schaden an."
+			"description": "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht bei niemandem 10...60 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...45).",
+			"concise": "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet bei niemandem 10...60 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...45) an."
 		},
 		"3192": {
 			"id": 3192,
 			"name": "Rätsel des Verzauberers (PvP)",
-			"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleiden er und alle umstehenden Feinde 10...100 Punkte Schaden.",
-			"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Richtet beim Gegner und allen umstehenden Feinden 10...100 Punkte Schaden an, falls der Gegner nicht verzaubert ist."
+			"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
+			"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Ist der Gegner nicht verzaubert, leidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75)."
 		},
 		"3193": {
 			"id": 3193,
@@ -8723,8 +8723,8 @@
 		"3266": {
 			"id": 3266,
 			"name": "Frommer Angriff (PvP)",
-			"description": "Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 10...30 Punkte Schaden.",
-			"concise": "Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 10...30 Punkte Schaden."
+			"description": "Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 15...40 Punkte Schaden.",
+			"concise": "Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkte Schaden."
 		},
 		"3269": {
 			"id": 3269,
@@ -8753,8 +8753,8 @@
 		"3273": {
 			"id": 3273,
 			"name": "Siegel der frommen Zurückhaltung (PvP)",
-			"description": "Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner 5...15 Sekunden lang \"Verkrüppelung\" zu. Wenn eine Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf.",
-			"concise": "Verkrüppelt den Gegner (5...15 Sekunden) und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Lädt 75% schneller wieder auf."
+			"description": "Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner 5...15 Sekunden lang \"Verkrüppelung\" zu. Wenn eine Verzauberung entfernt wurde, lädt diese Fertigkeit 50% schneller wieder auf.",
+			"concise": "Verkrüppelt den Gegner (5...15 Sekunden) und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Lädt 50% schneller wieder auf."
 		},
 		"3289": {
 			"id": 3289,

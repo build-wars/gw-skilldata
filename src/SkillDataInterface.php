@@ -159,8 +159,8 @@ interface SkillDataInterface{
 	 * @var string[]
 	 */
 	final public const KEYS_DATA = [
-		'id', 'campaign', 'profession', 'attribute', 'type', 'is_elite', 'is_rp', 'is_pvp', 'pvp_split',
-		'split_id', 'upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'sacrifice', 'overcast',
+		'id', 'campaign', 'profession', 'attribute', 'type', 'is_elite', 'is_rp', 'is_pvp', 'pvp_split', 'split_id',
+		'upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'adrenaline_precise', 'sacrifice', 'overcast',
 	];
 
 	/**
