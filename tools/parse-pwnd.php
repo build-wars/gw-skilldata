@@ -14,6 +14,7 @@ namespace Buildwars\GWSkillDataTools;
 
 use chillerlan\Utilities\File;
 use chillerlan\Utilities\Str;
+use function abs;
 use function array_map;
 use function count;
 use function explode;
@@ -369,9 +370,9 @@ foreach(skilldb['pve'] as $lang => $file){
 			'split_id'   => (pvp_split[$id] ?? 0),
 			'upkeep'     => (int)$skill[8],
 			'energy'     => (int)$skill[9],
-			'activation' => (float)$skill[10],
+			'activation' => abs((float)$skill[10]),
 			'recharge'   => (int)$skill[11],
-			'adrenaline' => (int)$skill[12],
+			'adrenaline' => abs((float)$skill[12]),
 			'sacrifice'  => (int)$skill[13],
 			'overcast'   => (int)$skill[16],
 		];
@@ -417,9 +418,9 @@ foreach(skilldb['pvp'] as $lang => $file){
 			'split_id'   => 0,
 			'upkeep'     => (int)$skill[8],
 			'energy'     => (int)$skill[9],
-			'activation' => (float)$skill[10],
+			'activation' => abs((float)$skill[10]),
 			'recharge'   => (int)$skill[11],
-			'adrenaline' => (int)$skill[12],
+			'adrenaline' => abs((float)$skill[12]),
 			'sacrifice'  => (int)$skill[13],
 			'overcast'   => (int)$skill[16],
 		];
