@@ -91,7 +91,7 @@ use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 
 class MyClass implements SkillDataAwareInterface{
-	use SkillDataAwareTrait
+	use SkillDataAwareTrait;
 
 	public function __construct(string $lang){
 		// set the language and initialize $this->skillData
@@ -108,7 +108,7 @@ class MyClass implements SkillDataAwareInterface{
 }
 ```
 
-The returned skill data array from `SkillDataInterface::get(979)` looks as follows:
+The returned skill data array from `SkillDataInterface::get(979)` looks similar to the following:
 
 ```php
 $data = [
@@ -269,6 +269,7 @@ Each attack that hits deals +13...30 Holy damage <sic/>
 | `getByProfession(int $profession, bool $pvp = false)` | Returns all skills for the given profession ID                                           |
 | `getByAttribute(int $attribute, bool $pvp = false)`   | Returns all skills for the given attribute ID                                            |
 | `getByType(int $type, bool $pvp = false)`             | Returns all skills for the given skill type ID                                           |
+| `getByTypeWithSubtypes(int $type, bool $pvp = false)` | Returns all skills for the given skill type ID and its subtypes (if any)                 |
 | `getElite(bool $pvp = false)`                         | Returns all elite skills                                                                 |
 | `getRoleplay()`                                       | Returns all roleplay skills                                                              |
 
