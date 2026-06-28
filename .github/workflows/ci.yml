@@ -44,7 +44,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: "Install PHP"
         uses: shivammathur/setup-php@v2
@@ -87,7 +87,7 @@ jobs:
 
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: "Install PHP with extensions"
         uses: shivammathur/setup-php@v2
@@ -118,7 +118,7 @@ jobs:
 
     steps:
       - name: "checkout sources"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: "install dependencies"
         run: npm install
@@ -136,7 +136,7 @@ jobs:
         run: npm run build-src
 
       - name: "send code coverage report to codecov.io"
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: .build/coverage-js/clover.xml
@@ -165,16 +165,10 @@ jobs:
 
     steps:
       - name: "Checkout sources"
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: "install dependencies"
         run: npm install
-
-      - name: "build"
-        run: npm run build
-
-      - name: "build-src"
-        run: npm run build-src
 
       - name: "Install PHP with extensions"
         uses: shivammathur/setup-php@v2
@@ -186,6 +180,12 @@ jobs:
 
       - name: "Install dependencies with composer"
         uses: ramsey/composer-install@v4
+
+      - name: "build"
+        run: npm run build
+
+      - name: "build-src"
+        run: npm run build-src
 
       - name: "Build combined and per-skill json"
         run: php ./tools/build-json.php
