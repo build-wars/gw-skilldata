@@ -5,7 +5,7 @@
 		"campaign": 2,
 		"profession": 1,
 		"attribute": 21,
-		"type": 1,
+		"type": 35,
 		"is_elite": true,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Krieger",
 				"profession_abbr": "K",
 				"attribute": "Taktik",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Shove",
 				"description": "Target touched foe is knocked down. If that foe was moving, that foe's stance ends and that foe takes 15...75 damage before being knocked down.",
-				"concise": "Causes knockdown. Initial effect: ends foe's stance and deals 15...75 damage if target foe is moving.",
+				"concise": "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals 15...75 damage if target foe is moving.",
 				"campaign": "Factions",
 				"profession": "Warrior",
 				"profession_abbr": "W",
 				"attribute": "Tactics",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}

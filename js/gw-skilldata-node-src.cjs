@@ -149,8 +149,8 @@ var skilldesc$1 = {
 	"27": {
 		id: 27,
 		name: "Shatter Delusions",
-		description: "Remove one Mesmer hex from target foe. If a hex was removed, that foe and all adjacent foes takes 15...75 damage.",
-		concise: "Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and all adjacent foes."
+		description: "Remove one Mesmer hex from target foe. If a hex was removed, that foe takes 15...75 damage and all adjacent foes take 75% of that damage.",
+		concise: "Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and 75% of that damage to all adjacent foes."
 	},
 	"28": {
 		id: 28,
@@ -162,7 +162,7 @@ var skilldesc$1 = {
 		id: 29,
 		name: "Blackout",
 		description: "For 2...6 seconds, all of touched target foe's skills are disabled, and all of your skills are disabled for 5 seconds.",
-		concise: "(2...6 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>"
+		concise: "Touch Skill. (2...6 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>"
 	},
 	"30": {
 		id: 30,
@@ -173,8 +173,8 @@ var skilldesc$1 = {
 	"31": {
 		id: 31,
 		name: "Conjure Phantasm",
-		description: "For 2...16 seconds, target foe experiences -5 Health degeneration.",
-		concise: "(2...16 seconds.) Causes -5 Health degeneration."
+		description: "For 4...18 seconds, target foe experiences -5 Health degeneration.",
+		concise: "(4...18 seconds.) Causes -5 Health degeneration."
 	},
 	"32": {
 		id: 32,
@@ -185,8 +185,8 @@ var skilldesc$1 = {
 	"33": {
 		id: 33,
 		name: "Illusionary Weaponry",
-		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 8...40 damage to your targets for each melee attack. You have +5 armor for each equipped Illusion Magic skill.",
-		concise: "(30 seconds.) Deals 8...40 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
+		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 16...50 damage to your targets for each melee attack. You have +5 armor for each equipped Illusion Magic skill.",
+		concise: "(30 seconds.) Deals 16...50 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
 	},
 	"34": {
 		id: 34,
@@ -221,8 +221,8 @@ var skilldesc$1 = {
 	"39": {
 		id: 39,
 		name: "Energy Surge",
-		description: "Target foe loses 1...10 Energy. For each point of Energy lost, that foe and all nearby foes take 9 damage.",
-		concise: "Causes 1...10 Energy loss. Deals 9 damage to target and nearby foes for each point of Energy lost."
+		description: "Target foe loses 1...10 Energy. For each point of Energy lost, that foe takes 7 damage and all nearby foes take 75% of that damage.",
+		concise: "Causes 1...10 Energy loss. Deals 7 damage to target for each point of Energy lost and 75% of that damage to nearby foes."
 	},
 	"40": {
 		id: 40,
@@ -245,8 +245,8 @@ var skilldesc$1 = {
 	"43": {
 		id: 43,
 		name: "Clumsiness",
-		description: "For 4 seconds, target and adjacent foes are hexed with Clumsiness. The next time each foe attacks, the attack is interrupted and that foe suffers 10...92 damage.",
-		concise: "(4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals 10...92 damage."
+		description: "For 4 seconds, target and adjacent foes are hexed with Clumsiness. The next time each foe attacks, the attack is interrupted and that foe suffers 10...80 damage.",
+		concise: "(4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals 10...80 damage."
 	},
 	"44": {
 		id: 44,
@@ -287,8 +287,8 @@ var skilldesc$1 = {
 	"50": {
 		id: 50,
 		name: "Wastrel's Worry",
-		description: "After 3 seconds, target foe and all adjacent foes take 20...100 damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
-		concise: "(3 seconds). End effect: causes 20...100 damage to target and adjacent foes. <gray>No effect and ends early if target foe uses a skill.</gray>"
+		description: "After 3 seconds, target foe takes 20...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+		concise: "(3 seconds). End effect: causes 20...100 damage to target and 75% of that damage to adjacent foes. <gray>No effect and ends early if target foe uses a skill.</gray>"
 	},
 	"51": {
 		id: 51,
@@ -329,8 +329,8 @@ var skilldesc$1 = {
 	"57": {
 		id: 57,
 		name: "Cry of Frustration",
-		description: "If target foe is using a skill, that foe and all foes in the area are interrupted and suffer 15...75 damage.",
-		concise: "If target foe is using a skill, that foe and all foes in the area are interrupted and take 15...75 damage."
+		description: "If target foe is using a skill, that foe and all foes in the area are interrupted and suffer 15...75 damage and foes in the area take 75% of that damage.",
+		concise: "If target foe is using a skill, that foe and all foes in the area are interrupted. Foe suffers 15...75 damage and foes in the area take 75% of that damage."
 	},
 	"58": {
 		id: 58,
@@ -353,8 +353,8 @@ var skilldesc$1 = {
 	"62": {
 		id: 62,
 		name: "Signet of Humility",
-		description: "Target foe's elite skill is disabled for 1...16 seconds. Your non-Mesmer skills are disabled for 10 seconds.",
-		concise: "Disables elite skill (1...16 seconds). <gray>Disables your non-Mesmer skills (10 seconds).</gray>"
+		description: "Target foe's elite skill is disabled for 1...16 seconds. Your non-Mesmer skills are disabled for 4 seconds.",
+		concise: "Disables elite skill (1...16 seconds). <gray>Disables your non-Mesmer skills (4 seconds).</gray>"
 	},
 	"63": {
 		id: 63,
@@ -485,8 +485,8 @@ var skilldesc$1 = {
 	"87": {
 		id: 87,
 		name: "Verata's Gaze",
-		description: "If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master. (50% failure chance with Death Magic 4 or less.)",
-		concise: "Make target undead servant masterless. If it is already masterless, you become its master. <gray>50% failure chance unless Death Magic 5 or more.</gray>"
+		description: "If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master and heal it for 60...80. (50% failure chance with Death Magic 4 or less.)",
+		concise: "Make target undead servant masterless. If it is already masterless, you become its master and heal it for 60...80. <gray>50% failure chance unless Death Magic 5 or more.</gray>"
 	},
 	"88": {
 		id: 88,
@@ -689,8 +689,8 @@ var skilldesc$1 = {
 	"121": {
 		id: 121,
 		name: "Spiteful Spirit",
-		description: "For 8...20 seconds, whenever target foe attacks or uses a skill, Spiteful Spirit deals 5...35 shadow damage to that foe and all adjacent allies of that foe.",
-		concise: "(8...20 seconds.) Deals 5...35 damage to target and adjacent foes whenever this foe attacks or uses a skill."
+		description: "For 10...25 seconds, whenever target foe attacks or uses a skill, Spiteful Spirit deals 15...45 shadow damage to that foe and all adjacent foes.",
+		concise: "(10...25 seconds.) Deals 15...45 damage to target and adjacent foes whenever this foe attacks or uses a skill."
 	},
 	"122": {
 		id: 122,
@@ -815,8 +815,8 @@ var skilldesc$1 = {
 	"142": {
 		id: 142,
 		name: "Lingering Curse",
-		description: "For 6...30 seconds, target foe and all nearby foes suffer -0...3 Health degeneration, and gain 20% less benefit from healing.",
-		concise: "(6...30 seconds.) Target and nearby foes have -0...3 Health degeneration and receive 20% less benefit from healing."
+		description: "For 6...30 seconds, target foe and all nearby foes suffer -1...4 Health degeneration, and gain 25% less benefit from healing.",
+		concise: "(6...30 seconds.) Target and nearby foes have -1...4 Health degeneration and receive 25% less benefit from healing."
 	},
 	"143": {
 		id: 143,
@@ -888,19 +888,19 @@ var skilldesc$1 = {
 		id: 154,
 		name: "Plague Touch",
 		description: "Transfer 1...3 negative conditions and their remaining durations from yourself to target touched foe.",
-		concise: "Transfers 1...3 conditions from yourself to target foe."
+		concise: "Touch Skill. Transfers 1...3 conditions from yourself to target foe."
 	},
 	"155": {
 		id: 155,
 		name: "Vile Touch",
 		description: "Touch target foe to deal 20...65 damage.",
-		concise: "Deals 20...65 damage."
+		concise: "Touch Skill. Deals 20...65 damage."
 	},
 	"156": {
 		id: 156,
 		name: "Vampiric Touch",
 		description: "Touch target foe to steal up to 29...74 Health.",
-		concise: "Steals 29...74 Health."
+		concise: "Touch Skill. Steals 29...74 Health."
 	},
 	"157": {
 		id: 157,
@@ -912,7 +912,7 @@ var skilldesc$1 = {
 		id: 158,
 		name: "Touch of Agony",
 		description: "Target touched foe takes 20...58 shadow damage.",
-		concise: "Deals 20...58 damage."
+		concise: "Touch Skill. Deals 20...58 damage."
 	},
 	"159": {
 		id: 159,
@@ -953,8 +953,8 @@ var skilldesc$1 = {
 	"166": {
 		id: 166,
 		name: "Kinetic Armor",
-		description: "For 8 seconds, you gain +20...80 armor. Whenever you cast a spell, Kinetic Armor is renewed for 8 seconds.",
-		concise: "(8 seconds.) You have +20...80 armor. Renewal bonus: cast a spell."
+		description: "For 12 seconds, you gain +20...80 armor. Whenever you cast a spell, Kinetic Armor is renewed for 8 seconds.",
+		concise: "(12 seconds.) You have +20...80 armor. Renewal bonus: cast a spell."
 	},
 	"167": {
 		id: 167,
@@ -1073,8 +1073,8 @@ var skilldesc$1 = {
 	"186": {
 		id: 186,
 		name: "Fireball",
-		description: "Send out a ball of fire that strikes target foe and all adjacent foes for 7...112 fire damage.",
-		concise: "Projectile: deals 7...112 fire damage to target and adjacent foes."
+		description: "Send out a ball of fire that strikes target foe and all nearby foes for 7...112 fire damage.",
+		concise: "Projectile: deals 7...112 fire damage to target and nearby foes."
 	},
 	"187": {
 		id: 187,
@@ -1289,8 +1289,8 @@ var skilldesc$1 = {
 	"222": {
 		id: 222,
 		name: "Lightning Strike",
-		description: "Strike target foe for 5...50 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 5...50 lightning damage.",
-		concise: "Deals 5...50 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 5...50 lightning damage."
+		description: "Strike target foe for 5...40 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 5...40 lightning damage.",
+		concise: "Deals 5...40 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 5...40 lightning damage."
 	},
 	"223": {
 		id: 223,
@@ -1325,8 +1325,8 @@ var skilldesc$1 = {
 	"228": {
 		id: 228,
 		name: "Thunderclap",
-		description: "Create a massive shockwave at target foe's location. Deals 10...50 lightning damage to target and all adjacent foes. Struck foes are interrupted and suffer from Cracked Armor and Weakness for 5...20 seconds. This spell has 25% armor penetration.",
-		concise: "Deals 10...50 lightning damage. Also strikes adjacent foes. Inflicts Cracked Armor and Weakness (5...20 seconds). Causes interrupt. 25% armor penetration."
+		description: "Create a massive shockwave at target foe's location. Deals 10...50 lightning damage to target and all nearby foes. Struck foes are interrupted and suffer from Cracked Armor and Weakness for 5...20 seconds. This spell has 25% armor penetration.",
+		concise: "Deals 10...50 lightning damage. Also strikes nearby foes. Inflicts Cracked Armor and Weakness (5...20 seconds). Causes interrupt. 25% armor penetration."
 	},
 	"229": {
 		id: 229,
@@ -1344,13 +1344,13 @@ var skilldesc$1 = {
 		id: 231,
 		name: "Shock",
 		description: "Target touched foe is knocked down and struck for 10...60 lightning damage. This skill has 25% armor penetration.",
-		concise: "Deals 10...60 lightning damage. Causes knock-down. 25% armor penetration."
+		concise: "Touch Skill. Deals 10...60 lightning damage. Causes knock-down. 25% armor penetration."
 	},
 	"232": {
 		id: 232,
 		name: "Lightning Touch",
 		description: "Target touched foe and all adjacent foes are struck for 10...60 lightning damage, are Blinded for 1...4 seconds, and have Cracked Armor for 1...10 seconds. This skill has 25% armor penetration.",
-		concise: "Deals 10...60 lightning damage. Also hits foes adjacent to target foe. Inflicts Blind (1...4 seconds) and Cracked Armor (1...10 seconds) on all struck foes. 25% armor penetration."
+		concise: "Touch Skill. Deals 10...60 lightning damage. Also hits foes adjacent to target foe. Inflicts Blind (1...4 seconds) and Cracked Armor (1...10 seconds) on all struck foes. 25% armor penetration."
 	},
 	"233": {
 		id: 233,
@@ -1439,8 +1439,8 @@ var skilldesc$1 = {
 	"247": {
 		id: 247,
 		name: "Symbol of Wrath",
-		description: "For 5 seconds, foes adjacent to the location in which the spell was cast take 8...32 holy damage each second.",
-		concise: "Deals 8...32 holy damage each second (5 seconds). Hits foes adjacent to your initial location."
+		description: "Create a Symbol of Wrath at target foe's location. For 5 seconds, adjacent foes are struck for 10...40 holy damage each second.",
+		concise: "Deals 10...40 holy damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
 	},
 	"248": {
 		id: 248,
@@ -1523,8 +1523,8 @@ var skilldesc$1 = {
 	"261": {
 		id: 261,
 		name: "Shield of Regeneration",
-		description: "For 5...13 seconds, target ally gains +3...10 Health regeneration and 40 armor.",
-		concise: "(5...13 seconds.) +3...10 Health regeneration and +40 armor."
+		description: "For 5...13 seconds, target ally gains +3...10 Health regeneration and 20...45 armor.",
+		concise: "(5...13 seconds.) +3...10 Health regeneration and +20...45 armor."
 	},
 	"262": {
 		id: 262,
@@ -1589,8 +1589,8 @@ var skilldesc$1 = {
 	"272": {
 		id: 272,
 		name: "Balthazar's Aura",
-		description: "For 8 seconds, foes adjacent to target ally take 10...25 holy damage each second.",
-		concise: "(8 seconds.) Deals 10...25 holy damage each second to foes adjacent to target ally."
+		description: "For 8 seconds, foes adjacent to target ally take 10...30 holy damage each second.",
+		concise: "(8 seconds.) Deals 10...30 holy damage each second to foes adjacent to target ally."
 	},
 	"273": {
 		id: 273,
@@ -1830,7 +1830,7 @@ var skilldesc$1 = {
 		id: 312,
 		name: "Holy Strike",
 		description: "Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
-		concise: "Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down."
+		concise: "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down."
 	},
 	"313": {
 		id: 313,
@@ -1967,8 +1967,8 @@ var skilldesc$1 = {
 	"335": {
 		id: 335,
 		name: "Cleave",
-		description: "If this attack hits, you strike for +10...30 damage.",
-		concise: "Deals +10...30 damage."
+		description: "If this attack hits, you strike for +10...40 damage and hit 1...2 adjacent foe for 10...40 slashing damage.",
+		concise: "Deals +10...40 damage and hits 1...2 adjacent foe for 10...40 slashing damage."
 	},
 	"336": {
 		id: 336,
@@ -1985,8 +1985,8 @@ var skilldesc$1 = {
 	"338": {
 		id: 338,
 		name: "Eviscerate",
-		description: "If Eviscerate hits, you strike for +1...31 damage and inflict a Deep Wound, lowering your target's maximum Health by 20% for 5...20 seconds.",
-		concise: "Deals +1...31 damage. Inflicts Deep Wound condition (5...20 seconds)."
+		description: "If Eviscerate hits, you strike for +10...45 damage and inflict a Deep Wound, lowering your target's maximum Health by 20% for 5...20 seconds.",
+		concise: "Deals +10...45 damage. Inflicts Deep Wound condition (5...20 seconds)."
 	},
 	"339": {
 		id: 339,
@@ -2153,8 +2153,8 @@ var skilldesc$1 = {
 	"366": {
 		id: 366,
 		name: "\"Fear Me!\"",
-		description: "All nearby foes lose 1...4 Energy. For 1...15 seconds, your melee attacks gain +5...30% chance of a critical hit against stationary foes.",
-		concise: "(1...15 seconds.) You have +5...30% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose 1...4 Energy."
+		description: "All nearby foes lose 2...6 Energy. For 1...15 seconds, your melee attacks gain +5...30% chance of a critical hit against stationary foes.",
+		concise: "(1...15 seconds.) You have +5...30% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose 2...6 Energy."
 	},
 	"367": {
 		id: 367,
@@ -2171,8 +2171,8 @@ var skilldesc$1 = {
 	"370": {
 		id: 370,
 		name: "Berserker Stance",
-		description: "For 5...11 seconds, you attack 33% faster and gain 50% more adrenaline. Berserker Stance ends if you use a skill.",
-		concise: "(5...11 seconds.) You attack 33% faster and gain 50% more adrenaline. <gray>Ends if you use a skill.</gray>"
+		description: "For 8...14 seconds, you attack 33% faster and gain 100% more adrenaline. Berserker Stance ends if you use a skill.",
+		concise: "(8...14 seconds.) You attack 33% faster and gain 100% more adrenaline. <gray>Ends if you use a skill.</gray>"
 	},
 	"371": {
 		id: 371,
@@ -2237,8 +2237,8 @@ var skilldesc$1 = {
 	"381": {
 		id: 381,
 		name: "Hundred Blades",
-		description: "For 15 seconds, whenever you attack with a sword, all adjacent foes take 10...25 slashing damage.",
-		concise: "(15 seconds.) Deals 10...25 slashing damage to all adjacent foes whenever you attack with a sword."
+		description: "For 15 seconds, whenever you attack with a sword, all adjacent foes take 10...35 slashing damage.",
+		concise: "(15 seconds.) Deals 10...35 slashing damage to all adjacent foes whenever you attack with a sword."
 	},
 	"382": {
 		id: 382,
@@ -2436,7 +2436,7 @@ var skilldesc$1 = {
 		id: 424,
 		name: "Throw Dirt",
 		description: "Target touched foe and foes adjacent to your target become Blinded for 3...15 seconds.",
-		concise: "Inflicts Blindness condition (3...15 seconds). Also affects foes adjacent to target foe."
+		concise: "Touch Skill. Inflicts Blindness condition (3...15 seconds). Also affects foes adjacent to target foe."
 	},
 	"425": {
 		id: 425,
@@ -2519,8 +2519,8 @@ var skilldesc$1 = {
 	"438": {
 		id: 438,
 		name: "Maiming Strike",
-		description: "Your animal companion attempts a Maiming Strike that deals +5...20 damage. If that attack hits a moving foe that foe becomes Crippled for 3...15 seconds.",
-		concise: "Deals +5...20 damage. Inflicts Crippled condition (3...15 seconds) if target foe is moving."
+		description: "Your animal companion attempts a Maiming Strike that deals +5...20 damage. If that attack hits<sic/> that foe becomes Crippled for 3...15 seconds.",
+		concise: "Deals +5...20 damage. Inflicts Crippled condition (3...15 seconds) on hit."
 	},
 	"439": {
 		id: 439,
@@ -2753,8 +2753,8 @@ var skilldesc$1 = {
 	"570": {
 		id: 570,
 		name: "Mark of Insecurity",
-		description: "For 5...25 seconds, target foe suffers from -1...5 Health degeneration, and enchantments and stances on target foe expire 30...80% faster. All of your non-Assassin skills are disabled for 5 seconds.",
-		concise: "(5...25 seconds.) Causes -1...5 Health degeneration. Enchantments and stances expire 30...80% faster on target foe. <gray>Disables your non-Assassin skills (5 seconds).</gray>"
+		description: "For 5...25 seconds, target foe suffers from -1...5 Health degeneration, and enchantments and stances on target foe expire 20...60% faster. All of your non-Assassin skills are disabled for 5 seconds.",
+		concise: "(5...25 seconds.) Causes -1...5 Health degeneration. Enchantments and stances expire 20...60% faster on target foe. <gray>Disables your non-Assassin skills (5 seconds).</gray>"
 	},
 	"571": {
 		id: 571,
@@ -2777,8 +2777,8 @@ var skilldesc$1 = {
 	"764": {
 		id: 764,
 		name: "Wail of Doom",
-		description: "For 1...4 seconds, all of target foe's attributes are set to 0.",
-		concise: "(1...4 seconds.) Target foe's attributes are 0."
+		description: "For 2...6 seconds, all of target foe's attributes are set to 0.",
+		concise: "(2...6 seconds.) Target foe's attributes are 0."
 	},
 	"766": {
 		id: 766,
@@ -2886,7 +2886,7 @@ var skilldesc$1 = {
 		id: 786,
 		name: "Iron Palm",
 		description: "Target touched foe suffers 5...50 damage, and if that foe is suffering from a hex or condition that foe is knocked down. Iron Palm counts as a lead attack.",
-		concise: "Deals 5...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack."
+		concise: "Touch Skill. Deals 5...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack."
 	},
 	"787": {
 		id: 787,
@@ -3059,8 +3059,8 @@ var skilldesc$1 = {
 	"819": {
 		id: 819,
 		name: "Vampiric Spirit",
-		description: "Steal up to 5...50 Health from target foe. For 10 seconds, you have +5...10 Health regeneration.",
-		concise: "Steal 5...50 Health from target foe. You have +5...10 Health regeneration (10 seconds)."
+		description: "Steal up to 5...60 Health from target foe. For 10 seconds, you have +5...10 Health regeneration.",
+		concise: "Steal 5...60 Health from target foe. You have +5...10 Health regeneration (10 seconds)."
 	},
 	"820": {
 		id: 820,
@@ -3119,8 +3119,8 @@ var skilldesc$1 = {
 	"830": {
 		id: 830,
 		name: "Ray of Judgment",
-		description: "Invoke a Ray of Judgment at target foe's location. For 5 seconds, target foe and all foes adjacent to this location take 5...45 holy damage each second and begin Burning for 1...3 seconds.",
-		concise: "Deals 5...45 holy damage and inflicts Burning (1...3 seconds) every second (5 seconds). Hits foes adjacent to target's initial location."
+		description: "Invoke a Ray of Judgment at target foe's location. For 5 seconds, target foe and all foes adjacent to this location take 10...50 holy damage each second and begin Burning for 1...3 seconds.",
+		concise: "Deals 10...50 holy damage and inflicts Burning (1...3 seconds) every second (5 seconds). Hits foes adjacent to target's initial location."
 	},
 	"831": {
 		id: 831,
@@ -3191,8 +3191,8 @@ var skilldesc$1 = {
 	"843": {
 		id: 843,
 		name: "Gust",
-		description: "For 5...11 seconds, both you and target ally move 33% faster. When you cast this spell, all foes near you and your target take 15...70 cold damage. Foes struck by Gust while attacking or moving are knocked down.",
-		concise: "(5...11 seconds.) You and target ally move 33% faster. Initial effect: Foes near you and target ally are struck for 15...70 cold damage. Attacking or moving foes are knocked down."
+		description: "For 5...11 seconds, both you and target ally move 33% faster. When you cast this spell, all foes adjacent to you and your target take 15...70 cold damage. Foes struck by Gust while attacking or moving are knocked down.",
+		concise: "(5...11 seconds.) You and target ally move 33% faster. Initial effect: Foes adjacent to you and target ally are struck for 15...70 cold damage. Attacking or moving foes are knocked down."
 	},
 	"844": {
 		id: 844,
@@ -3281,8 +3281,8 @@ var skilldesc$1 = {
 	"862": {
 		id: 862,
 		name: "Ravenous Gaze",
-		description: "Deal 15...30 damage and steal 15...30 Health from target foe and all nearby foes.",
-		concise: "Deals 15...30 damage and steals 15...30 Health from target and nearby foes."
+		description: "Deal 20...40 damage and steal 20...40 Health from target foe and all nearby foes.",
+		concise: "Deals 20...40 damage and steals 20...40 Health from target and nearby foes."
 	},
 	"863": {
 		id: 863,
@@ -3425,8 +3425,8 @@ var skilldesc$1 = {
 	"892": {
 		id: 892,
 		name: "Quivering Blade",
-		description: "If Quivering Blade hits, you strike for +10 damage. If this attack hits a moving foe, that foe is Dazed for 10 seconds.",
-		concise: "Deals +10 damage. Inflicts Dazed condition (10 seconds) if target foe was moving."
+		description: "If Quivering Blade hits, you strike for +10...40 damage. If this attack hits a moving foe, that foe is Dazed for 10 seconds.",
+		concise: "Deals +10...40 damage. Inflicts Dazed condition (10 seconds) if target foe was moving."
 	},
 	"893": {
 		id: 893,
@@ -3437,8 +3437,8 @@ var skilldesc$1 = {
 	"898": {
 		id: 898,
 		name: "Overload",
-		description: "For 5 seconds, target foe suffers -1...3 Health degeneration. If target foe is using a skill, then Overload deals 15...75 damage to that foe and all adjacent foes.",
-		concise: "(5 seconds.) Causes -1...3 Health degeneration. If target foe is using a skill, that foe and all adjacent foes take 15...75 damage."
+		description: "For 5 seconds, target foe suffers -1...3 Health degeneration. If target foe is using a skill, then Overload deals 15...75 damage to that foe and 75% of that damage to all adjacent foes.",
+		concise: "(5 seconds.) Causes -1...3 Health degeneration. If target foe is using a skill, that foe takes 15...75 damage and all adjacent foes take 75% of that damage."
 	},
 	"899": {
 		id: 899,
@@ -3839,8 +3839,8 @@ var skilldesc$1 = {
 	"979": {
 		id: 979,
 		name: "Mistrust",
-		description: "For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...100 damage to that foe and all nearby foes.",
-		concise: "(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...100 damage to target and nearby foes."
+		description: "For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...80 damage to that foe and 75% of that damage to all nearby foes.",
+		concise: "(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...80 damage to target and 75% of that damage to nearby foes."
 	},
 	"980": {
 		id: 980,
@@ -3881,8 +3881,8 @@ var skilldesc$1 = {
 	"987": {
 		id: 987,
 		name: "Way of the Empty Palm",
-		description: "For 5...20 seconds, off-hand and dual attacks cost no Energy.",
-		concise: "(5...20 seconds.) Your off-hand and dual attacks cost no Energy."
+		description: "For 5...15 seconds, off-hand and dual attacks cost no Energy and recharge 20...50% faster.",
+		concise: "(5...15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 20...50% faster."
 	},
 	"988": {
 		id: 988,
@@ -3900,7 +3900,7 @@ var skilldesc$1 = {
 		id: 990,
 		name: "Expunge Enchantments",
 		description: "Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 10...5 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
-		concise: "Removes one enchantment for each non-attack skill you have. <gray>All your non-attack skills are disabled (10...5 seconds).</gray>"
+		concise: "Touch Skill. Removes one enchantment for each non-attack skill you have. <gray>All your non-attack skills are disabled (10...5 seconds).</gray>"
 	},
 	"991": {
 		id: 991,
@@ -3965,8 +3965,8 @@ var skilldesc$1 = {
 	"1021": {
 		id: 1021,
 		name: "Jungle Strike",
-		description: "Must follow a lead attack. If it hits, this attack strikes for +10...25 damage. If it hits a foe that was Crippled, that foe and all adjacent foes take +1...31 damage.",
-		concise: "Deals +10...25 damage. Deals +1...31 damage to target and adjacent foes if target foe is Crippled. <gray>Must follow a lead attack.</gray>"
+		description: "Must follow a lead attack. If it hits, this attack strikes for +10...25 damage. If it hits a foe that was Crippled, that foe and all adjacent foes take 1...31 damage.",
+		concise: "Deals +10...25 damage. Deals 1...31 damage to target and adjacent foes if target foe is Crippled. <gray>Must follow a lead attack.</gray>"
 	},
 	"1022": {
 		id: 1022,
@@ -4104,7 +4104,7 @@ var skilldesc$1 = {
 		id: 1045,
 		name: "Palm Strike",
 		description: "Target touched foe takes 10...65 damage and is Crippled for 1...5 seconds. This skill counts as an off-hand attack.",
-		concise: "Deals 10...65 damage and inflicts Crippled condition (1...5 seconds). This skill counts as an off-hand attack."
+		concise: "Elite Touch Skill. Deals 10...65 damage and inflicts Crippled condition (1...5 seconds). This skill counts as an off-hand attack."
 	},
 	"1048": {
 		id: 1048,
@@ -4224,19 +4224,19 @@ var skilldesc$1 = {
 		id: 1077,
 		name: "Vampiric Bite",
 		description: "Touch target foe to steal up to 29...74 Health.",
-		concise: "Steals 29...74 Health."
+		concise: "Touch Skill. Steals 29...74 Health."
 	},
 	"1078": {
 		id: 1078,
 		name: "Wallow's Bite",
 		description: "Target touched foe takes 20...58 damage.",
-		concise: "Deals 20...58 damage."
+		concise: "Touch Skill. Deals 20...58 damage."
 	},
 	"1079": {
 		id: 1079,
 		name: "Enfeebling Touch",
 		description: "Target touched foe loses 5...65 Health and suffers from Weakness for 5...20 seconds.",
-		concise: "Causes 5...65 Health loss. Inflicts Weakness condition (5...20 seconds)."
+		concise: "Touch Skill. Causes 5...65 Health loss. Inflicts Weakness condition (5...20 seconds)."
 	},
 	"1081": {
 		id: 1081,
@@ -4289,8 +4289,8 @@ var skilldesc$1 = {
 	"1091": {
 		id: 1091,
 		name: "Double Dragon",
-		description: "Invoke the power of the Dragon. For 8 seconds, you and target ally are enchanted with Double Dragon. Adjacent foes are dealt 5...30 fire damage each second. Additionally, when you or your ally use skills that target a foe, that foe is set on fire for 0...3 seconds.",
-		concise: "(8 seconds.) Enchants you and target ally. Adjacent foes take 5...30 fire damage each second. Skills that target a foe also inflict Burning (0...3 seconds)."
+		description: "Invoke the power of the Dragon. For 8 seconds, you and target ally are enchanted with Double Dragon. Adjacent foes are dealt 10...40 fire damage each second. Additionally, when you or your ally use skills that target a foe, that foe is set on fire for 1...4 seconds.",
+		concise: "(8 seconds.) Enchants you and target ally. Adjacent foes take 10...40 fire damage each second. Skills that target a foe also inflict Burning (1...4 seconds)."
 	},
 	"1093": {
 		id: 1093,
@@ -4361,8 +4361,8 @@ var skilldesc$1 = {
 	"1118": {
 		id: 1118,
 		name: "Healing Burst",
-		description: "Target ally is healed for 10...160. All party members in earshot of your target gain Health equal to the Divine Favor bonus from this spell. Your Smiting Prayers are disabled for 20 seconds.",
-		concise: "Heals for 10...160. Party members in earshot of your target gain Health equal to the Divine Favor bonus. <gray>Disables your Smiting Prayers (20 seconds).</gray>"
+		description: "Target ally is healed for 20...120. All party members in earshot of your target gain Health equal to the Divine Favor bonus from this spell. Your Smiting Prayers are disabled for 20 seconds.",
+		concise: "Heals for 20...120. Party members in earshot of your target gain Health equal to the Divine Favor bonus. <gray>Disables your Smiting Prayers (20 seconds).</gray>"
 	},
 	"1119": {
 		id: 1119,
@@ -4416,7 +4416,7 @@ var skilldesc$1 = {
 		id: 1131,
 		name: "Stonesoul Strike",
 		description: "Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
-		concise: "Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down."
+		concise: "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down."
 	},
 	"1133": {
 		id: 1133,
@@ -4470,7 +4470,7 @@ var skilldesc$1 = {
 		id: 1146,
 		name: "Shove",
 		description: "Target touched foe is knocked down. If that foe was moving, that foe's stance ends and that foe takes 15...75 damage before being knocked down.",
-		concise: "Causes knockdown. Initial effect: ends foe's stance and deals 15...75 damage if target foe is moving."
+		concise: "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals 15...75 damage if target foe is moving."
 	},
 	"1191": {
 		id: 1191,
@@ -4655,8 +4655,8 @@ var skilldesc$1 = {
 	"1228": {
 		id: 1228,
 		name: "Spirit Siphon",
-		description: "The spirit nearest you loses all Energy. You gain 15...50% of that Energy.",
-		concise: "The spirit nearest you loses all Energy. You gain 15...50% of that Energy."
+		description: "The spirit nearest you loses all Energy. You gain 30...60% of that Energy.",
+		concise: "The spirit nearest you loses all Energy. You gain 30...60% of that Energy."
 	},
 	"1229": {
 		id: 1229,
@@ -4793,8 +4793,8 @@ var skilldesc$1 = {
 	"1257": {
 		id: 1257,
 		name: "Spirit Light Weapon",
-		description: "For 10 seconds, target ally gains 1...15 Health per second and an additional 1...15 Health per second if that ally is within earshot of a spirit.",
-		concise: "(10 seconds.) Target ally gains 1...15 Health each second. 1...15 more healing per second while within earshot of a spirit."
+		description: "For 10 seconds, target ally gains 5...25 Health per second and an additional 5...25 Health per second if that ally is within earshot of a spirit.",
+		concise: "(10 seconds.) Target ally gains 5...25 Health each second. 5...25 more healing per second while within earshot of a spirit."
 	},
 	"1258": {
 		id: 1258,
@@ -4943,14 +4943,14 @@ var skilldesc$1 = {
 	"1345": {
 		id: 1345,
 		name: "Enchanter's Conundrum",
-		description: "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe and all adjacent foes take 10...100 damage.",
-		concise: "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: deals 10...100 damage to target and adjacent foes if target foe is not enchanted."
+		description: "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...100 damage and all adjacent foes take 75% of that damage.",
+		concise: "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted<sic/> deals 10...100 damage to target and 75% of that damage to adjacent foes."
 	},
 	"1346": {
 		id: 1346,
 		name: "Signet of Illusions",
-		description: "Your next 1...3 spells use your Illusion attribute instead of its normal attribute.",
-		concise: "Your next 1...3 spells use your Illusion attribute instead of its normal attribute."
+		description: "Your next 1...3 non-Illusion spells use your Illusion attribute instead of its normal attribute.",
+		concise: "Your next 1...3 non-Illusion spells use your Illusion attribute instead of its normal attribute."
 	},
 	"1347": {
 		id: 1347,
@@ -5093,8 +5093,8 @@ var skilldesc$1 = {
 	"1372": {
 		id: 1372,
 		name: "Sandstorm",
-		description: "Create a Sandstorm at target foe's location. For 10 seconds, nearby foes are struck for 10...30 earth damage each second and attacking foes are struck for an additional 10...30 earth damage each second.",
-		concise: "Deals 10...30 earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for 10...30 more earth damage each second."
+		description: "Create a Sandstorm at target foe's location. For 10 seconds, nearby foes are struck for 20...40 earth damage each second and attacking foes are struck for an additional 10...30 earth damage each second.",
+		concise: "Deals 20...40 earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for 10...30 more earth damage each second."
 	},
 	"1373": {
 		id: 1373,
@@ -5255,8 +5255,8 @@ var skilldesc$1 = {
 	"1406": {
 		id: 1406,
 		name: "Headbutt",
-		description: "Target touched foe takes 40...100 damage. You are Dazed for 5 seconds.",
-		concise: "Deals 40...100 damage. <gray>You are Dazed (5 seconds).</gray>"
+		description: "Target touched foe takes 40...100 damage. You are Dazed for 10 seconds.",
+		concise: "Elite Touch Skill. Deals 40...100 damage. <gray>You are Dazed (10 seconds).</gray>"
 	},
 	"1407": {
 		id: 1407,
@@ -5465,8 +5465,8 @@ var skilldesc$1 = {
 	"1490": {
 		id: 1490,
 		name: "Pious Assault",
-		description: "If it hits, this attack deals +10...20 damage and removes 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 10...30 damage.",
-		concise: "Deals +10...20 damage. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take 10...30 damage."
+		description: "If it hits, this attack deals +10...20 damage and removes 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 15...40 damage.",
+		concise: "Deals +10...20 damage. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take 15...40 damage."
 	},
 	"1491": {
 		id: 1491,
@@ -5477,7 +5477,7 @@ var skilldesc$1 = {
 	"1493": {
 		id: 1493,
 		name: "Grenth's Fingers",
-		description: "All nearby foes are struck for 10...40 cold damage. For 30 seconds, your attacks deal cold damage. When this enchantment ends, you transfer 1...2 conditions to all nearby foes. <sic/>",
+		description: "All nearby foes are struck for 10...40 cold damage. For 30 seconds, your attacks deal cold damage. When this enchantment ends, you transfer  1...2 conditions to all nearby foes. <sic/>",
 		concise: "(30 seconds.) Your attacks deal cold damage. Initial effect: hits nearby foes for 10...40 cold damage. End effect: transfers 1...2 conditions to all nearby foes."
 	},
 	"1495": {
@@ -5513,8 +5513,8 @@ var skilldesc$1 = {
 	"1500": {
 		id: 1500,
 		name: "Mirage Cloak",
-		description: "For 1...7 seconds, you have a 40...80% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...40 earth damage.",
-		concise: "(1...7 seconds.) You have 40...80% chance to block. Initial Effect: deals 10...40 earth damage to nearby foes."
+		description: "For 1...7 seconds, you have a 30...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...40 earth damage.",
+		concise: "(1...7 seconds.) You have 30...60% chance to block. Initial Effect: deals 10...40 earth damage to nearby foes."
 	},
 	"1502": {
 		id: 1502,
@@ -5585,8 +5585,8 @@ var skilldesc$1 = {
 	"1514": {
 		id: 1514,
 		name: "Fleeting Stability",
-		description: "For 2...6 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
-		concise: "(2...6 seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented."
+		description: "For 4...10 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
+		concise: "(4...10 seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented."
 	},
 	"1515": {
 		id: 1515,
@@ -5765,8 +5765,8 @@ var skilldesc$1 = {
 	"1544": {
 		id: 1544,
 		name: "Whirling Charge",
-		description: "For 1...6 seconds, you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...60 cold damage and this enchantment ends.",
-		concise: "(1...6 seconds.) You move 33% faster. Deal 10...60 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends."
+		description: "For 1...6 seconds, you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...50 cold damage and this enchantment ends.",
+		concise: "(1...6 seconds.) You move 33% faster. Deal 10...50 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends."
 	},
 	"1545": {
 		id: 1545,
@@ -5789,8 +5789,8 @@ var skilldesc$1 = {
 	"1548": {
 		id: 1548,
 		name: "Cruel Spear",
-		description: "If this attack hits, you deal +1...31 damage. If it hits a non-moving target, you inflict a Deep Wound for 5...20 seconds.",
-		concise: "Deals +1...31 damage. Inflicts Deep Wound condition (5...20 seconds) if target is not moving."
+		description: "If this attack hits, you deal +10...50 damage. If it hits a non-moving target, you inflict a Deep Wound for 5...20 seconds.",
+		concise: "Deals +10...50 damage. Inflicts Deep Wound condition (5...20 seconds) if target is not moving."
 	},
 	"1549": {
 		id: 1549,
@@ -6107,8 +6107,8 @@ var skilldesc$1 = {
 	"1602": {
 		id: 1602,
 		name: "Stunning Strike",
-		description: "If this attack hits, you deal +5...30 damage. If it hits a foe suffering from a condition, that foe is also Dazed for 4...10 seconds.",
-		concise: "Deals +5...30 damage. Inflicts Dazed condition (4...10 seconds) if target has a condition."
+		description: "If this attack hits, you deal +10...50 damage. If it hits a foe suffering from a condition, that foe is also Dazed for 4...10 seconds.",
+		concise: "Deals +10...50 damage. Inflicts Dazed condition (4...10 seconds) if target has a condition."
 	},
 	"1603": {
 		id: 1603,
@@ -6204,7 +6204,7 @@ var skilldesc$1 = {
 		id: 1645,
 		name: "Lift Enchantment",
 		description: "If target touched foe is knocked down, that foe loses one enchantment.",
-		concise: "Removes one enchantment.<gray>No <sic/> effect unless target foe is knocked-down.</gray>"
+		concise: "Touch Skill. Removes one enchantment.<gray>No <sic/> effect unless target foe is knocked-down.</gray>"
 	},
 	"1646": {
 		id: 1646,
@@ -6707,7 +6707,7 @@ var skilldesc$1 = {
 	"1765": {
 		id: 1765,
 		name: "Rending Aura",
-		description: "When you cast this enchantment, all nearby foes take 10...40 cold damage. For 30 <sic/> seconds, your attack skills remove enchantments from knocked-down foes. When this enchantment ends, nearby foes are affected by Cracked Armor for 1...10 seconds.",
+		description: "When you cast this enchantment, all nearby foes take 10...40 cold damage. For  30 <sic/> seconds, your attack skills remove enchantments from knocked-down foes. When this enchantment ends, nearby foes are affected by Cracked Armor for 1...10 seconds.",
 		concise: "(30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals 10...40 cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for 1...10 seconds."
 	},
 	"1766": {
@@ -6809,8 +6809,8 @@ var skilldesc$1 = {
 	"1782": {
 		id: 1782,
 		name: "\"The Power Is Yours!\"",
-		description: "For 3 seconds, all allies within earshot gain 0...1 Energy regeneration.",
-		concise: "(3 seconds.) Allies within earshot gain 0...1 Energy regeneration."
+		description: "For 2...4 seconds, all allies within earshot gain 1...2 Energy regeneration.",
+		concise: "(2...4 seconds.) Allies within earshot gain 1...2 Energy regeneration."
 	},
 	"1783": {
 		id: 1783,
@@ -6995,8 +6995,8 @@ var skilldesc$1 = {
 	"2003": {
 		id: 2003,
 		name: "Cure Hex",
-		description: "Remove one Hex from target ally. If a Hex was removed, that ally is healed for 30...120 Health.",
-		concise: "Removes a Hex. Removal effect: Heals for 30...120."
+		description: "Remove one Hex from target ally. If a Hex was removed, that ally is healed for 30...100 Health.",
+		concise: "Removes a Hex. Removal effect: Heals for 30...100."
 	},
 	"2004": {
 		id: 2004,
@@ -7044,7 +7044,7 @@ var skilldesc$1 = {
 		id: 2011,
 		name: "Grapple",
 		description: "You and target touched foe are knocked down. You lose your current stance.",
-		concise: "Causes knockdown. You are also knocked down. <gray>Your current stance ends.</gray>"
+		concise: "Touch Skill. Causes knockdown. You are also knocked down. <gray>Your current stance ends.</gray>"
 	},
 	"2012": {
 		id: 2012,
@@ -7626,19 +7626,19 @@ var skilldesc$1 = {
 		id: 2213,
 		name: "Ear Bite",
 		description: "Target touched foe takes 50...70 piercing damage and begins Bleeding for 15...25 seconds.",
-		concise: "Deals 50...70 piercing damage and inflicts Bleeding condition (15...25 seconds)."
+		concise: "Touch Skill. Deals 50...70 piercing damage and inflicts Bleeding condition (15...25 seconds)."
 	},
 	"2214": {
 		id: 2214,
 		name: "Low Blow",
 		description: "Strike target foe for 45...70 damage. If target foe is knocked down, that foe takes an additional 30...50 damage and suffers from Cracked Armor for 14...20 seconds.",
-		concise: "Deals 45...70 damage. Inflicts 30...50 damage and Cracked Armor (14...20 seconds) if target foe is knocked down."
+		concise: "Touch Skill. Deals 45...70 damage. Inflicts 30...50 damage and Cracked Armor (14...20 seconds) if target foe is knocked down."
 	},
 	"2215": {
 		id: 2215,
 		name: "Brawling Headbutt",
 		description: "You headbutt target touched foe dealing 45...70 damage and knocking down that foe if it hits.",
-		concise: "Deals 45...70 damage; causes knock-down."
+		concise: "Touch Skill. Deals 45...70 damage; causes knock-down."
 	},
 	"2216": {
 		id: 2216,
@@ -8549,8 +8549,8 @@ var skilldesc$1 = {
 	"3152": {
 		id: 3152,
 		name: "Crippling Anguish (PvP)",
-		description: "For 5...20 seconds, target moves 50% slower and suffers -1...5 Health degeneration.",
-		concise: "(5...20 seconds.) Target foe moves 50% slower and has -1...5 Health degeneration."
+		description: "For 5...20 seconds, target moves 50% slower and suffers -2...6 Health degeneration.",
+		concise: "(5...20 seconds.) Target foe moves 50% slower and has -2...6 Health degeneration."
 	},
 	"3156": {
 		id: 3156,
@@ -8573,20 +8573,20 @@ var skilldesc$1 = {
 	"3180": {
 		id: 3180,
 		name: "Shatter Delusions (PvP)",
-		description: "Remove one Mesmer hex from target foe. If a hex was removed, that foe and all adjacent foes takes 15...75 damage.",
-		concise: "Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and all adjacent foes."
+		description: "Remove one Mesmer hex from target foe. If a hex was removed, that foe takes 15...75 damage and all adjacent foes take 75% of that damage.",
+		concise: "Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and 75% of that damage to all adjacent foes."
 	},
 	"3181": {
 		id: 3181,
 		name: "Illusionary Weaponry (PvP)",
-		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 8...40 damage to your targets for each melee attack.",
-		concise: "(30 seconds.) Deals 8...40 damage to foes in place of other damage or effects from melee attacks. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
+		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 16...50 damage to your targets for each melee attack.",
+		concise: "(30 seconds.) Deals 16...50 damage to foes in place of other damage or effects from melee attacks. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
 	},
 	"3183": {
 		id: 3183,
 		name: "Migraine (PvP)",
-		description: "For 3...12 seconds, target foe suffers -1...8 Health degeneration and takes 100% longer to activate skills.",
-		concise: "(3...12 seconds.) Causes -1...8 Health degeneration and doubles skill activation time."
+		description: "For 4...16 seconds, target foe suffers -1...8 Health degeneration and takes 100% longer to activate skills.",
+		concise: "(4...16 seconds.) Causes -1...8 Health degeneration and doubles skill activation time."
 	},
 	"3184": {
 		id: 3184,
@@ -8633,14 +8633,14 @@ var skilldesc$1 = {
 	"3191": {
 		id: 3191,
 		name: "Mistrust (PvP)",
-		description: "For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...75 damage to that foe and all nearby foes.",
-		concise: "(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...75 damage to target and nearby foes."
+		description: "For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...60 damage to that foe and 75% of that damage to all nearby foes.",
+		concise: "(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...60 damage to target and 75% of that damage to nearby foes."
 	},
 	"3192": {
 		id: 3192,
 		name: "Enchanter's Conundrum (PvP)",
-		description: "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe and all adjacent foes take 10...100 damage.",
-		concise: "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: deals 10...100 damage to target and adjacent foes if target foe is not enchanted."
+		description: "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...100 damage and all adjacent foes take 75% of that damage.",
+		concise: "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted<sic/> deals 10...100 damage to target and 75% of that damage to adjacent foes."
 	},
 	"3193": {
 		id: 3193,
@@ -8723,8 +8723,8 @@ var skilldesc$1 = {
 	"3266": {
 		id: 3266,
 		name: "Pious Assault (PvP)",
-		description: "You remove 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 10...30 damage.",
-		concise: "Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take 10...30 damage."
+		description: "You remove 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 15...40 damage.",
+		concise: "Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take 15...40 damage."
 	},
 	"3269": {
 		id: 3269,
@@ -8753,8 +8753,8 @@ var skilldesc$1 = {
 	"3273": {
 		id: 3273,
 		name: "Signet of Pious Restraint (PvP)",
-		description: "Lose 1 Dervish enchantment and Cripple target foe 5...15 seconds. If an enchantment was removed, this skill recharges 75% faster.",
-		concise: "(5...15 seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 75% faster."
+		description: "Lose 1 Dervish enchantment and Cripple target foe 5...15 seconds. If an enchantment was removed, this skill recharges 50% faster.",
+		concise: "(5...15 seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 50% faster."
 	},
 	"3289": {
 		id: 3289,
@@ -8935,6 +8935,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -8954,6 +8955,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -8973,6 +8975,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -8992,6 +8995,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9011,6 +9015,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9030,6 +9035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9049,6 +9055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9068,6 +9075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9087,6 +9095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9106,6 +9115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9125,6 +9135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9144,6 +9155,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9163,6 +9175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9182,6 +9195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9201,6 +9215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9220,6 +9235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9239,6 +9255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9258,6 +9275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9277,6 +9295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9296,6 +9315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9315,6 +9335,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9334,6 +9355,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9353,6 +9375,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9372,6 +9395,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9391,6 +9415,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9410,6 +9435,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9418,7 +9444,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 5,
 		attribute: 2,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -9429,6 +9455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9448,6 +9475,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9467,6 +9495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9486,6 +9515,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9503,8 +9533,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 25,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9524,6 +9555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9543,6 +9575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9560,8 +9593,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 2,
-		recharge: 20,
+		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9581,6 +9615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9600,6 +9635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9619,6 +9655,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9638,6 +9675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9657,6 +9695,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9676,6 +9715,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9693,8 +9733,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 2,
-		recharge: 8,
+		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9714,6 +9755,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9733,6 +9775,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9752,6 +9795,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9771,6 +9815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9790,6 +9835,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9809,6 +9855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9826,8 +9873,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 1,
+		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9847,6 +9895,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9866,6 +9915,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9885,6 +9935,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9904,6 +9955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9923,6 +9975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9942,6 +9995,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9959,8 +10013,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0.25,
-		recharge: 15,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9969,7 +10024,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 5,
 		attribute: 101,
-		type: 21,
+		type: 39,
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
@@ -9980,6 +10035,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -9999,6 +10055,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10018,6 +10075,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10037,6 +10095,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10056,6 +10115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10075,6 +10135,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10094,6 +10155,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10113,6 +10175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10132,6 +10195,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10151,6 +10215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10170,6 +10235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10189,6 +10255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10208,6 +10275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10227,6 +10295,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10246,6 +10315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10265,6 +10335,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10284,6 +10355,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10301,8 +10373,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 30,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10322,6 +10395,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10341,6 +10415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10360,6 +10435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10375,10 +10451,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
-		activation: 3,
+		energy: 5,
+		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10394,10 +10471,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 25,
-		activation: 3,
+		energy: 15,
+		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10413,10 +10491,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
-		activation: 3,
+		energy: 10,
+		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10436,6 +10515,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10455,6 +10535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10474,6 +10555,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 33,
 		overcast: 0
 	},
@@ -10493,6 +10575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10512,6 +10595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 15,
 		overcast: 0
 	},
@@ -10531,6 +10615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10550,6 +10635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10569,6 +10655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10588,6 +10675,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10607,6 +10695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10626,6 +10715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10645,6 +10735,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10660,10 +10751,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10683,6 +10775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10702,6 +10795,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10721,6 +10815,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10740,6 +10835,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10759,6 +10855,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10778,6 +10875,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10797,6 +10895,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10816,6 +10915,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10835,6 +10935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10854,6 +10955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10873,6 +10975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10892,6 +10995,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10911,6 +11015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10930,6 +11035,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10949,6 +11055,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10968,6 +11075,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -10987,6 +11095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 15,
 		overcast: 0
 	},
@@ -11006,6 +11115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11025,6 +11135,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11044,6 +11155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -11063,6 +11175,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 33,
 		overcast: 0
 	},
@@ -11082,6 +11195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 5,
 		overcast: 0
 	},
@@ -11101,6 +11215,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11120,6 +11235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11139,6 +11255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11158,6 +11275,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11177,6 +11295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11196,6 +11315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11215,6 +11335,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11234,6 +11355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11253,6 +11375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -11272,6 +11395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11291,6 +11415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 8,
 		overcast: 0
 	},
@@ -11310,6 +11435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11329,6 +11455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -11348,6 +11475,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -11367,6 +11495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11386,6 +11515,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11405,6 +11535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11424,6 +11555,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11443,6 +11575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11462,6 +11595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11481,6 +11615,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11500,6 +11635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11519,6 +11655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11538,6 +11675,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11557,6 +11695,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -11576,6 +11715,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 20,
 		overcast: 0
 	},
@@ -11595,6 +11735,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -11614,6 +11755,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -11633,6 +11775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -11652,6 +11795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11669,8 +11813,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 2,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11690,6 +11835,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11709,6 +11855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11717,7 +11864,7 @@ var skilldata = {
 		campaign: 0,
 		profession: 4,
 		attribute: 7,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -11728,6 +11875,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11736,7 +11884,7 @@ var skilldata = {
 		campaign: 0,
 		profession: 4,
 		attribute: 5,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -11747,6 +11895,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11755,7 +11904,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 4,
 		attribute: 4,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -11766,6 +11915,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11774,7 +11924,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 4,
 		attribute: 4,
-		type: 23,
+		type: 37,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -11782,9 +11932,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 2,
+		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -11793,7 +11944,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 4,
 		attribute: 4,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -11804,6 +11955,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -11820,9 +11972,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 1,
+		activation: 0.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11842,6 +11995,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11861,6 +12015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -11880,6 +12035,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11899,6 +12055,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11918,6 +12075,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11935,8 +12093,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 3,
-		recharge: 60,
+		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11956,6 +12115,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11975,6 +12135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -11994,6 +12155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12013,6 +12175,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -12032,6 +12195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12051,6 +12215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12070,6 +12235,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12089,6 +12255,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12108,6 +12275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12127,6 +12295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12146,6 +12315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12165,6 +12335,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -12184,6 +12355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -12203,6 +12375,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12222,6 +12395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12241,6 +12415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12260,6 +12435,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12279,6 +12455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12298,6 +12475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -12317,6 +12495,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12336,6 +12515,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -12355,6 +12535,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12374,6 +12555,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12393,6 +12575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12412,6 +12595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12431,6 +12615,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -12450,6 +12635,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12469,6 +12655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12488,6 +12675,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12507,6 +12695,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12526,6 +12715,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12545,6 +12735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12564,6 +12755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12583,6 +12775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12602,6 +12795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12621,6 +12815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12640,6 +12835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12659,6 +12855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12674,10 +12871,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 15,
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12697,6 +12895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12716,6 +12915,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12735,6 +12935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12754,6 +12955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -12773,6 +12975,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12792,6 +12995,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12811,6 +13015,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12830,6 +13035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12849,6 +13055,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12868,6 +13075,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -12887,6 +13095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12906,6 +13115,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12925,6 +13135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12944,6 +13155,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -12963,6 +13175,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -12982,6 +13195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13001,6 +13215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13020,6 +13235,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -13039,6 +13255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13058,6 +13275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13077,6 +13295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -13096,6 +13315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13115,6 +13335,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13134,6 +13355,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13153,6 +13375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13161,7 +13384,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 6,
 		attribute: 8,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -13172,6 +13395,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -13180,7 +13404,7 @@ var skilldata = {
 		campaign: 0,
 		profession: 6,
 		attribute: 8,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -13191,6 +13415,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13210,6 +13435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13229,6 +13455,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13248,6 +13475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13267,6 +13495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13286,6 +13515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13305,6 +13535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13324,6 +13555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13343,6 +13575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13362,6 +13595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13381,6 +13615,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13400,6 +13635,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13419,6 +13655,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13438,6 +13675,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13457,6 +13695,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13473,9 +13712,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 2,
-		recharge: 30,
+		activation: 1,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13495,6 +13735,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13514,6 +13755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13533,6 +13775,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13552,6 +13795,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13571,6 +13815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13590,6 +13835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13609,6 +13855,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13628,6 +13875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13647,6 +13895,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13666,6 +13915,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13683,8 +13933,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 4,
+		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13702,8 +13953,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0.25,
-		recharge: 10,
+		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13723,6 +13975,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13738,10 +13991,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13761,6 +14015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13780,6 +14035,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13799,6 +14055,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13818,6 +14075,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13837,6 +14095,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13856,6 +14115,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13875,6 +14135,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13894,6 +14155,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13913,6 +14175,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13932,6 +14195,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13947,10 +14211,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 25,
-		activation: 2,
-		recharge: 25,
+		energy: 15,
+		activation: 1,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13970,6 +14235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -13989,6 +14255,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14008,6 +14275,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14027,6 +14295,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14046,6 +14315,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14065,6 +14335,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14084,6 +14355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14103,6 +14375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14122,6 +14395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14141,6 +14415,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14160,6 +14435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14179,6 +14455,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14196,8 +14473,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 25,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14217,6 +14495,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14236,6 +14515,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14255,6 +14535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14274,6 +14555,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14293,6 +14575,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14312,6 +14595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14331,6 +14615,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14350,6 +14635,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14369,6 +14655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14388,6 +14675,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14407,6 +14695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14426,6 +14715,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14445,6 +14735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14464,6 +14755,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14483,6 +14775,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14502,6 +14795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14521,6 +14815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14540,6 +14835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14559,6 +14855,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14578,6 +14875,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14597,6 +14895,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14616,6 +14915,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14635,6 +14935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14654,6 +14955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14673,6 +14975,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14692,6 +14995,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14700,7 +15004,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 3,
 		attribute: 14,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -14711,6 +15015,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14719,7 +15024,7 @@ var skilldata = {
 		campaign: 0,
 		profession: 3,
 		attribute: 13,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -14730,6 +15035,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14738,7 +15044,7 @@ var skilldata = {
 		campaign: 1,
 		profession: 3,
 		attribute: 13,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -14749,6 +15055,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14768,6 +15075,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14785,8 +15093,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14805,7 +15114,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14824,7 +15134,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14843,7 +15154,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14859,10 +15171,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14882,6 +15195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14901,6 +15215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14920,6 +15235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14939,6 +15255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14958,6 +15275,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14977,6 +15295,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -14996,6 +15315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15015,6 +15335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15034,6 +15355,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15053,6 +15375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15071,7 +15394,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 5,
+		adrenaline: 6,
+		adrenaline_precise: 5.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15091,6 +15415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15110,6 +15435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15128,7 +15454,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15147,7 +15474,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15167,6 +15495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15185,7 +15514,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15205,6 +15535,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15223,7 +15554,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15241,8 +15573,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 0,
-		recharge: 0,
+		recharge: 1,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15262,6 +15595,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15280,7 +15614,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15300,6 +15635,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15319,6 +15655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15337,7 +15674,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 8,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15357,6 +15695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15376,6 +15715,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15394,7 +15734,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 4,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15414,6 +15755,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15433,6 +15775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15451,7 +15794,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
+		adrenaline: 7,
+		adrenaline_precise: 6.4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15471,6 +15815,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15490,6 +15835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15509,6 +15855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15527,7 +15874,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
+		adrenaline: 7,
+		adrenaline_precise: 6.4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15547,6 +15895,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15566,6 +15915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15584,7 +15934,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 8,
+		adrenaline: 9,
+		adrenaline_precise: 8.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15603,7 +15954,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15622,7 +15974,8 @@ var skilldata = {
 		energy: 0,
 		activation: 1,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15642,6 +15995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15661,6 +16015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15680,6 +16035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15699,6 +16055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15718,6 +16075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15735,8 +16093,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 0,
-		recharge: 6,
-		adrenaline: 3,
+		recharge: 4,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15756,6 +16115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15775,6 +16135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15790,10 +16151,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 5,
+		energy: 10,
 		activation: 0,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15813,6 +16175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15830,8 +16193,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 30,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15850,7 +16214,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 12,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15870,6 +16235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15889,6 +16255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15908,6 +16275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15927,6 +16295,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15946,6 +16315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15965,6 +16335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -15984,6 +16355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16001,8 +16373,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 25,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16022,6 +16395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16041,6 +16415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16059,7 +16434,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 5,
+		adrenaline: 6,
+		adrenaline_precise: 5.6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16078,7 +16454,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 9,
+		adrenaline: 10,
+		adrenaline_precise: 9.6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16098,6 +16475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16116,7 +16494,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16136,6 +16515,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16155,6 +16535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16172,8 +16553,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.5,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16193,6 +16575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16212,6 +16595,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16231,6 +16615,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16250,6 +16635,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16269,6 +16655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16288,6 +16675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16307,6 +16695,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16326,6 +16715,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16345,6 +16735,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16364,6 +16755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16383,6 +16775,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16402,6 +16795,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16421,6 +16815,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16440,6 +16835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16459,6 +16855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16478,6 +16875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16497,6 +16895,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16516,6 +16915,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16535,6 +16935,7 @@ var skilldata = {
 		activation: 10,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16554,6 +16955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 90,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16573,6 +16975,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16592,6 +16995,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16611,6 +17015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 55,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16619,7 +17024,7 @@ var skilldata = {
 		campaign: 0,
 		profession: 2,
 		attribute: 23,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -16630,6 +17035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16649,6 +17055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16668,6 +17075,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16687,6 +17095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16706,6 +17115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16725,6 +17135,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16744,6 +17155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 24,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16763,6 +17175,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16782,6 +17195,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16801,6 +17215,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16820,6 +17235,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 24,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16839,6 +17255,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16858,6 +17275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16877,6 +17295,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16896,6 +17315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16915,6 +17335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16934,6 +17355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16953,6 +17375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16972,6 +17395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -16991,6 +17415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17010,6 +17435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17027,8 +17453,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17048,6 +17475,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17067,6 +17495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17086,6 +17515,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17105,6 +17535,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17124,6 +17555,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17143,6 +17575,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17162,6 +17595,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17181,6 +17615,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17200,6 +17635,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17219,6 +17655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17238,6 +17675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17257,6 +17695,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17272,10 +17711,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17295,6 +17735,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17314,6 +17755,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17333,6 +17775,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17349,9 +17792,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17368,9 +17812,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17387,9 +17832,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17406,9 +17852,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17425,9 +17872,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17444,9 +17892,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 15,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17463,9 +17912,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17482,9 +17932,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17501,9 +17952,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17520,9 +17972,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17539,9 +17992,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17558,9 +18012,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 15,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17577,9 +18032,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 25,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17596,9 +18052,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17615,9 +18072,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17637,6 +18095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17656,6 +18115,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17675,6 +18135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17694,6 +18155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17713,6 +18175,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -17732,6 +18195,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17751,6 +18215,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17770,6 +18235,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17789,6 +18255,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17808,6 +18275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -17827,6 +18295,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17846,6 +18315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17865,6 +18335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17884,6 +18355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17903,6 +18375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17922,6 +18395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17941,6 +18415,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17960,6 +18435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17977,8 +18453,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.5,
-		recharge: 1,
+		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17998,6 +18475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18017,6 +18495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18036,6 +18515,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18044,7 +18524,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 7,
 		attribute: 30,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -18055,6 +18535,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18074,6 +18555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18093,6 +18575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18112,6 +18595,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18129,8 +18613,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.75,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18150,6 +18635,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18169,6 +18655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18188,6 +18675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18207,6 +18695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18226,6 +18715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18241,10 +18731,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18264,6 +18755,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18272,7 +18764,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 7,
 		attribute: 30,
-		type: 24,
+		type: 38,
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
@@ -18283,6 +18775,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18302,6 +18795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18321,6 +18815,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18340,6 +18835,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18355,10 +18851,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
-		activation: 3,
+		energy: 10,
+		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18378,6 +18875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18397,6 +18895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18416,6 +18915,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18435,6 +18935,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18454,6 +18955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18473,6 +18975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18492,6 +18995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18511,6 +19015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18530,6 +19035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18549,6 +19055,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18568,6 +19075,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18587,6 +19095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18603,9 +19112,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 2,
+		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18625,6 +19135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18644,6 +19155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18663,6 +19175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18682,6 +19195,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18701,6 +19215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18720,6 +19235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18739,6 +19255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18758,6 +19275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18777,6 +19295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18793,9 +19312,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 2,
-		recharge: 20,
+		activation: 1,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18815,6 +19335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18831,9 +19352,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18853,6 +19375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18872,6 +19395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18891,6 +19415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -18910,6 +19435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18929,6 +19455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18948,6 +19475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18967,6 +19495,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18986,6 +19515,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19005,6 +19535,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19022,8 +19553,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0.75,
-		recharge: 10,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19043,6 +19575,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19062,6 +19595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19081,6 +19615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19100,6 +19635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19119,6 +19655,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19137,7 +19674,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19156,7 +19694,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 5,
+		adrenaline: 6,
+		adrenaline_precise: 5.6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19176,6 +19715,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19195,6 +19735,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19214,6 +19755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19233,6 +19775,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19252,6 +19795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19271,6 +19815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19290,6 +19835,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19309,6 +19855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 8,
 		overcast: 0
 	},
@@ -19328,6 +19875,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19347,6 +19895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19366,6 +19915,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19385,6 +19935,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -19404,6 +19955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19423,6 +19975,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19439,9 +19992,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19461,6 +20015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19480,6 +20035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19499,6 +20055,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19518,6 +20075,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19537,6 +20095,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19556,6 +20115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19575,6 +20135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19594,6 +20155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19613,6 +20175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19632,6 +20195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19651,6 +20215,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19670,6 +20235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19689,6 +20255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19708,6 +20275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19726,7 +20294,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19746,6 +20315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19764,7 +20334,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19784,6 +20355,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19803,6 +20375,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19819,9 +20392,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 2,
+		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19841,6 +20415,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19860,6 +20435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19879,6 +20455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19898,6 +20475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -19917,6 +20495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19935,7 +20514,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19955,6 +20535,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19973,7 +20554,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 9,
+		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -19993,6 +20575,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20012,6 +20595,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20031,6 +20615,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20050,6 +20635,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20065,10 +20651,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20088,6 +20675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20107,6 +20695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -20126,6 +20715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20145,6 +20735,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20153,7 +20744,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 8,
 		attribute: 36,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -20164,6 +20755,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20183,6 +20775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20202,6 +20795,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20221,6 +20815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20240,6 +20835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20259,6 +20855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20278,6 +20875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20297,6 +20895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20316,6 +20915,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20335,6 +20935,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20352,8 +20953,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 25,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20373,6 +20975,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20392,6 +20995,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20411,6 +21015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20430,6 +21035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20449,6 +21055,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20468,6 +21075,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20487,6 +21095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20506,6 +21115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20525,6 +21135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20544,6 +21155,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20563,6 +21175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20582,6 +21195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20601,6 +21215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20620,6 +21235,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20636,9 +21252,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20658,6 +21275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20675,8 +21293,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 45,
+		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20696,6 +21315,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20715,6 +21335,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20734,6 +21355,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20751,8 +21373,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0.25,
-		recharge: 10,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20772,6 +21395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20791,6 +21415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20810,6 +21435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20829,6 +21455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20848,6 +21475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20867,6 +21495,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20883,9 +21512,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20905,6 +21535,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20924,6 +21555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20943,6 +21575,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20962,6 +21595,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20981,6 +21615,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21000,6 +21635,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21019,6 +21655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21038,6 +21675,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21057,6 +21695,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21076,6 +21715,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21095,6 +21735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21114,6 +21755,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21133,6 +21775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21152,6 +21795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21171,6 +21815,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21190,6 +21835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21209,6 +21855,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21228,6 +21875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21247,6 +21895,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21255,7 +21904,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 7,
 		attribute: 30,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -21266,6 +21915,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21285,6 +21935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21304,6 +21955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21323,6 +21975,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21342,6 +21995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21361,6 +22015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21379,7 +22034,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 5,
+		adrenaline: 6,
+		adrenaline_precise: 5.6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21396,9 +22052,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21418,6 +22075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21437,6 +22095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21456,6 +22115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21473,8 +22133,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.5,
-		recharge: 10,
+		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21494,6 +22155,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21513,6 +22175,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21532,6 +22195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21551,6 +22215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21570,6 +22235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21589,6 +22255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21608,6 +22275,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21627,6 +22295,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21643,9 +22312,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 1,
+		activation: 0.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21665,6 +22335,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21684,6 +22355,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21703,6 +22375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21718,10 +22391,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 0.25,
-		recharge: 12,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21741,6 +22415,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21760,6 +22435,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21779,6 +22455,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21798,6 +22475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21817,6 +22495,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21836,6 +22515,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21855,6 +22535,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21874,6 +22555,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21893,6 +22575,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21901,7 +22584,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 7,
 		attribute: 35,
-		type: 1,
+		type: 35,
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
@@ -21912,6 +22595,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21931,6 +22615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21950,6 +22635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21969,6 +22655,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -21988,6 +22675,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22007,6 +22695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22026,6 +22715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22045,6 +22735,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22062,8 +22753,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 12,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22072,7 +22764,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 5,
 		attribute: 3,
-		type: 21,
+		type: 39,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -22083,6 +22775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22102,6 +22795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22121,6 +22815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22140,6 +22835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22159,6 +22855,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22178,6 +22875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22197,6 +22895,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22216,6 +22915,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22235,6 +22935,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22254,6 +22955,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22273,6 +22975,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22281,7 +22984,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 4,
 		attribute: 4,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -22292,6 +22995,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22300,7 +23004,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 4,
 		attribute: 4,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -22311,6 +23015,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -22319,7 +23024,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 4,
 		attribute: 7,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -22330,6 +23035,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22345,10 +23051,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 5,
+		energy: 10,
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22368,6 +23075,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22387,6 +23095,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22406,6 +23115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22423,8 +23133,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22444,6 +23155,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -22463,6 +23175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -22482,6 +23195,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22499,8 +23213,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22520,6 +23235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22539,6 +23255,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -22547,7 +23264,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 6,
 		attribute: 10,
-		type: 22,
+		type: 36,
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
@@ -22558,6 +23275,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22577,6 +23295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22596,6 +23315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22615,6 +23335,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22634,6 +23355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22653,6 +23375,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22672,6 +23395,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22691,6 +23415,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22710,6 +23435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22727,8 +23453,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.75,
-		recharge: 4,
+		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22748,6 +23475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22767,6 +23495,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22786,6 +23515,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22805,6 +23535,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22824,6 +23555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22843,6 +23575,7 @@ var skilldata = {
 		activation: 6,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22862,6 +23595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22881,6 +23615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22889,7 +23624,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 3,
 		attribute: 14,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -22900,6 +23635,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22919,6 +23655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22938,6 +23675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22957,6 +23695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22975,7 +23714,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22995,6 +23735,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23014,6 +23755,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23033,6 +23775,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 1,
+		adrenaline_precise: 1,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23052,6 +23795,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23060,7 +23804,7 @@ var skilldata = {
 		campaign: 2,
 		profession: 1,
 		attribute: 21,
-		type: 1,
+		type: 35,
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
@@ -23071,6 +23815,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23090,6 +23835,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23109,6 +23855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23128,6 +23875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23147,6 +23895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23166,6 +23915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23185,6 +23935,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23200,10 +23951,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 0,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23223,6 +23975,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23242,6 +23995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23261,6 +24015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23280,6 +24035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23297,8 +24053,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23318,6 +24075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23335,8 +24093,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23356,6 +24115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23375,6 +24135,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23391,9 +24152,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23410,9 +24172,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 15,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23432,6 +24195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23451,6 +24215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 2,
 		overcast: 0
 	},
@@ -23470,6 +24235,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23487,8 +24253,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 25,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23508,6 +24275,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23527,6 +24295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23546,6 +24315,7 @@ var skilldata = {
 		activation: 6,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23565,6 +24335,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23584,6 +24355,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23603,6 +24375,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23622,6 +24395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23641,6 +24415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23660,6 +24435,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23679,6 +24455,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23698,6 +24475,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23717,6 +24495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23736,6 +24515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23755,6 +24535,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23774,6 +24555,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23793,6 +24575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23812,6 +24595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23831,6 +24615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23850,6 +24635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23869,6 +24655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23888,6 +24675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23907,6 +24695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23926,6 +24715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23945,6 +24735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23964,6 +24755,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -23983,6 +24775,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24002,6 +24795,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24021,6 +24815,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24040,6 +24835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24059,6 +24855,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24078,6 +24875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24097,6 +24895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24116,6 +24915,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24135,6 +24935,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24154,6 +24955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -24173,6 +24975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24192,6 +24995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24200,7 +25004,7 @@ var skilldata = {
 		campaign: 3,
 		profession: 3,
 		attribute: 13,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -24211,6 +25015,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24230,6 +25035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24249,6 +25055,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24268,6 +25075,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24287,6 +25095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24302,10 +25111,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24325,6 +25135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24344,6 +25155,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24363,6 +25175,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24380,8 +25193,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 3,
+		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24401,6 +25215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24420,6 +25235,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24439,6 +25255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24458,6 +25275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24477,6 +25295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24496,6 +25315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24513,8 +25333,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 15,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24534,6 +25355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24553,6 +25375,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24572,6 +25395,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24591,6 +25415,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24610,6 +25435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24629,6 +25455,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24648,6 +25475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24667,6 +25495,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24682,10 +25511,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
-		activation: 3,
+		energy: 10,
+		activation: 1,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24705,6 +25535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24724,6 +25555,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24743,6 +25575,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24762,6 +25595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24781,6 +25615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24800,6 +25635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24819,6 +25655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24838,6 +25675,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24857,6 +25695,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24876,6 +25715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24895,6 +25735,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24914,6 +25755,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24933,6 +25775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24952,6 +25795,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24971,6 +25815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -24990,6 +25835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25009,6 +25855,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25028,6 +25875,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25045,8 +25893,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 2,
-		recharge: 25,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25066,6 +25915,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25085,6 +25935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25104,6 +25955,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25123,6 +25975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25142,6 +25995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25161,6 +26015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25180,6 +26035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25199,6 +26055,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25218,6 +26075,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25237,6 +26095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25256,6 +26115,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25275,6 +26135,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25294,6 +26155,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25313,6 +26175,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25332,6 +26195,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25351,6 +26215,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25370,6 +26235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25389,6 +26255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25408,6 +26275,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25427,6 +26295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25446,6 +26315,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25454,7 +26324,7 @@ var skilldata = {
 		campaign: 3,
 		profession: 3,
 		attribute: 15,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -25465,6 +26335,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25484,6 +26355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25503,6 +26375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25522,6 +26395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25541,6 +26415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25549,17 +26424,18 @@ var skilldata = {
 		campaign: 3,
 		profession: 1,
 		attribute: 17,
-		type: 1,
+		type: 35,
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 0.75,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25578,7 +26454,8 @@ var skilldata = {
 		energy: 0,
 		activation: 1,
 		recharge: 1,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25598,6 +26475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25617,6 +26495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25636,6 +26515,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25655,6 +26535,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25674,6 +26555,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25693,6 +26575,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25712,6 +26595,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25730,7 +26614,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 5,
+		adrenaline: 6,
+		adrenaline_precise: 5.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25750,6 +26635,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25769,6 +26655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25788,6 +26675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25807,6 +26695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25826,6 +26715,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25845,6 +26735,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25864,6 +26755,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25883,6 +26775,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25899,9 +26792,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 15,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25918,9 +26812,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25940,6 +26835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25959,6 +26855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25978,6 +26875,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -25997,6 +26895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26016,6 +26915,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -26035,6 +26935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26054,6 +26955,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26073,6 +26975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26092,6 +26995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26111,6 +27015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26130,6 +27035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26148,7 +27054,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26167,7 +27074,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
+		adrenaline: 7,
+		adrenaline_precise: 6.4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26187,6 +27095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26206,6 +27115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26225,6 +27135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26241,9 +27152,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 0,
-		activation: 1,
+		activation: 0.5,
 		recharge: 4,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26263,6 +27175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26282,6 +27195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26301,6 +27215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26320,6 +27235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26339,6 +27255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26358,6 +27275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26375,8 +27293,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0,
-		recharge: 10,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26396,6 +27315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26415,6 +27335,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26434,6 +27355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26453,6 +27375,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26472,6 +27395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26491,6 +27415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26510,6 +27435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26529,6 +27455,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26548,6 +27475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26567,6 +27495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26586,6 +27515,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26603,8 +27533,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 10,
+		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26624,6 +27555,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26639,10 +27571,11 @@ var skilldata = {
 		pvp_split: true,
 		split_id: 2884,
 		upkeep: 0,
-		energy: 10,
+		energy: 15,
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26662,6 +27595,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26681,6 +27615,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26700,6 +27635,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26719,6 +27655,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26738,6 +27675,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26757,6 +27695,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26776,6 +27715,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26795,6 +27735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26814,6 +27755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26833,6 +27775,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26852,6 +27795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26860,7 +27804,7 @@ var skilldata = {
 		campaign: 3,
 		profession: 10,
 		attribute: 42,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -26871,6 +27815,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26890,6 +27835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26909,6 +27855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26928,6 +27875,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26946,7 +27894,8 @@ var skilldata = {
 		energy: 0,
 		activation: 1,
 		recharge: 8,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26966,6 +27915,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26974,7 +27924,7 @@ var skilldata = {
 		campaign: 3,
 		profession: 10,
 		attribute: 44,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -26985,6 +27935,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27004,6 +27955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27023,6 +27975,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27042,6 +27995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27061,6 +28015,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27080,6 +28035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27099,6 +28055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27118,6 +28075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27137,6 +28095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27156,6 +28115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27171,10 +28131,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0,
-		recharge: 6,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27183,7 +28144,7 @@ var skilldata = {
 		campaign: 3,
 		profession: 10,
 		attribute: 42,
-		type: 22,
+		type: 36,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -27194,6 +28155,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 5,
+		adrenaline_precise: 5,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27213,6 +28175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27229,9 +28192,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 0,
-		activation: 3,
+		activation: 1,
 		recharge: 0,
 		adrenaline: 2,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27250,7 +28214,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 7,
+		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27270,6 +28235,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27286,9 +28252,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 0,
-		activation: 3,
+		activation: 1,
 		recharge: 0,
-		adrenaline: 7,
+		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27308,6 +28275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27327,6 +28295,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27346,6 +28315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27365,6 +28335,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27384,6 +28355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27403,6 +28375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27422,6 +28395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27441,6 +28415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27460,6 +28435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27479,6 +28455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27496,8 +28473,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27513,10 +28491,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
-		activation: 2,
-		recharge: 20,
+		energy: 5,
+		activation: 1,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27536,6 +28515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 6,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27553,8 +28533,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27574,6 +28555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 4,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27591,8 +28573,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27612,6 +28595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 8,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27631,6 +28615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 2,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27650,6 +28635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 3,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27669,6 +28655,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 3,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27688,6 +28675,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27707,6 +28695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27726,6 +28715,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27745,6 +28735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27764,6 +28755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27783,6 +28775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27802,6 +28795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27821,6 +28815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27840,6 +28835,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27859,6 +28855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27878,6 +28875,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27897,6 +28895,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27916,6 +28915,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27935,6 +28935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27954,6 +28955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27973,6 +28975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -27992,6 +28995,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28011,6 +29015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28030,6 +29035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28049,6 +29055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28068,6 +29075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28087,6 +29095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28106,6 +29115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28125,6 +29135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28144,6 +29155,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28163,6 +29175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28182,6 +29195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28201,6 +29215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28220,6 +29235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 2,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28239,6 +29255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28257,7 +29274,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 10,
+		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28277,6 +29295,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28296,6 +29315,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28315,6 +29335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 7,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28334,6 +29355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28353,6 +29375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28372,6 +29395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28389,8 +29413,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0,
-		recharge: 12,
+		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28410,6 +29435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28429,6 +29455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28448,6 +29475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28467,6 +29495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28486,6 +29515,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28505,6 +29535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28524,6 +29555,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28543,6 +29575,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28551,7 +29584,7 @@ var skilldata = {
 		campaign: 3,
 		profession: 7,
 		attribute: 101,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -28562,6 +29595,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28581,6 +29615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28600,6 +29635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28619,6 +29655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28638,6 +29675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28657,6 +29695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28676,6 +29715,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28695,6 +29735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28714,6 +29755,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28733,6 +29775,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28752,6 +29795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28771,6 +29815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28790,6 +29835,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28809,6 +29855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28828,6 +29875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28847,6 +29895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28866,6 +29915,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28885,6 +29935,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28904,6 +29955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28923,6 +29975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -28942,6 +29995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28961,6 +30015,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28980,6 +30035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28999,6 +30055,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29018,6 +30075,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29037,6 +30095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29056,6 +30115,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29075,6 +30135,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29094,6 +30155,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29110,9 +30172,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 1,
-		recharge: 5,
+		activation: 0.75,
+		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29132,6 +30195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29151,6 +30215,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29170,6 +30235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29189,6 +30255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29208,6 +30275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29227,6 +30295,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29246,6 +30315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29265,6 +30335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29284,6 +30355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29303,6 +30375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 1,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29322,6 +30395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29341,6 +30415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29360,6 +30435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29379,6 +30455,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29398,6 +30475,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29417,6 +30495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29433,9 +30512,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 10,
-		activation: 3,
+		activation: 2,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29455,6 +30535,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29474,6 +30555,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29493,6 +30575,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29512,6 +30595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29528,9 +30612,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29550,6 +30635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29569,6 +30655,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29588,6 +30675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29607,6 +30695,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29624,8 +30713,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 30,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29645,6 +30735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29664,6 +30755,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29683,6 +30775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29702,6 +30795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29721,6 +30815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29740,6 +30835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29759,6 +30855,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29778,6 +30875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29797,6 +30895,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29816,6 +30915,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29835,6 +30935,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29854,6 +30955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29873,6 +30975,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29892,6 +30995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29911,6 +31015,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29930,6 +31035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29949,6 +31055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29968,6 +31075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29987,6 +31095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30006,6 +31115,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30025,6 +31135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30044,6 +31155,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30063,6 +31175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30082,6 +31195,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30100,7 +31214,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30120,6 +31235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30139,6 +31255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30156,8 +31273,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0,
-		recharge: 6,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30177,6 +31295,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30196,6 +31315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30215,6 +31335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30234,6 +31355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30253,6 +31375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30270,8 +31393,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30289,8 +31413,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30310,6 +31435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30325,10 +31451,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 25,
-		activation: 2,
+		energy: 15,
+		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30348,6 +31475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30367,6 +31495,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30386,6 +31515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30405,6 +31535,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30424,6 +31555,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30443,6 +31575,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30462,6 +31595,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30481,6 +31615,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30500,6 +31635,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30519,6 +31655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30538,6 +31675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30557,6 +31695,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30576,6 +31715,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 0,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30595,6 +31735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30614,6 +31755,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30633,6 +31775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30652,6 +31795,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30671,6 +31815,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30690,6 +31835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30709,6 +31855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30728,6 +31875,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30747,6 +31895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30766,6 +31915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30785,6 +31935,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30804,6 +31955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30821,8 +31973,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 12,
+		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30842,6 +31995,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30861,6 +32015,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30880,6 +32035,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30897,8 +32053,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 12,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30918,6 +32075,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30937,6 +32095,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30956,6 +32115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30975,6 +32135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30994,6 +32155,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31013,6 +32175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31032,6 +32195,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31051,6 +32215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31070,6 +32235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31089,6 +32255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31108,6 +32275,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31127,6 +32295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31146,6 +32315,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31164,7 +32334,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31184,6 +32355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31202,7 +32374,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 1,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31211,7 +32384,7 @@ var skilldata = {
 		campaign: 4,
 		profession: 1,
 		attribute: 101,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
@@ -31222,6 +32395,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31241,6 +32415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31260,6 +32435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31279,6 +32455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31298,6 +32475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31317,6 +32495,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31336,6 +32515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31355,6 +32535,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31374,6 +32555,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31393,6 +32575,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31412,6 +32595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31431,6 +32615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31450,6 +32635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31469,6 +32655,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31488,6 +32675,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31507,6 +32695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31526,6 +32715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31545,6 +32735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31564,6 +32755,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31583,6 +32775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31602,6 +32795,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31621,6 +32815,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31640,6 +32835,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31659,6 +32855,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31678,6 +32875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31697,6 +32895,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31716,6 +32915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31734,7 +32934,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31754,6 +32955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31773,6 +32975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31792,6 +32995,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31811,6 +33015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31830,6 +33035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31849,6 +33055,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31868,6 +33075,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31887,6 +33095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31906,6 +33115,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31925,6 +33135,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31944,6 +33155,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31963,6 +33175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31982,6 +33195,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32001,6 +33215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32020,6 +33235,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32039,6 +33255,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32058,6 +33275,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32077,6 +33295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32096,6 +33315,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32115,6 +33335,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32134,6 +33355,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 1,
 		adrenaline: 6,
+		adrenaline_precise: 5.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32153,6 +33375,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32172,6 +33395,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32191,6 +33415,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32210,6 +33435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32229,6 +33455,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32248,6 +33475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32267,6 +33495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32286,6 +33515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32305,6 +33535,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32324,6 +33555,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32343,6 +33575,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32362,6 +33595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32381,6 +33615,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32400,6 +33635,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32419,6 +33655,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32438,6 +33675,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32457,6 +33695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32476,6 +33715,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32495,6 +33735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32514,6 +33755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32533,6 +33775,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32552,6 +33795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32571,6 +33815,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32590,6 +33835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32609,6 +33855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32628,6 +33875,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32647,6 +33895,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32666,6 +33915,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32685,6 +33935,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32704,6 +33955,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32722,7 +33974,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32742,6 +33995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32760,7 +34014,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
+		adrenaline: 7,
+		adrenaline_precise: 6.4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32780,6 +34035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32799,6 +34055,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32818,6 +34075,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32837,6 +34095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32856,6 +34115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32875,6 +34135,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32894,6 +34155,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32913,6 +34175,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32932,6 +34195,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32949,8 +34213,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32970,6 +34235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32989,6 +34255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33008,6 +34275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33027,6 +34295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33046,6 +34315,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33054,7 +34324,7 @@ var skilldata = {
 		campaign: 4,
 		profession: 0,
 		attribute: 107,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: true,
 		is_pvp: false,
@@ -33065,6 +34335,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33073,7 +34344,7 @@ var skilldata = {
 		campaign: 4,
 		profession: 0,
 		attribute: 107,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: true,
 		is_pvp: false,
@@ -33084,6 +34355,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 0,
 		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33092,7 +34364,7 @@ var skilldata = {
 		campaign: 4,
 		profession: 0,
 		attribute: 107,
-		type: 1,
+		type: 35,
 		is_elite: false,
 		is_rp: true,
 		is_pvp: false,
@@ -33103,6 +34375,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 0,
 		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33122,6 +34395,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33141,6 +34415,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33160,6 +34435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33179,6 +34455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33198,6 +34475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33217,6 +34495,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33236,6 +34515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33255,6 +34535,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33274,6 +34555,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33293,6 +34575,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33312,6 +34595,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33331,6 +34615,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33350,6 +34635,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33369,6 +34655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33388,6 +34675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33407,6 +34695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33426,6 +34715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33445,6 +34735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33464,6 +34755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33483,6 +34775,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33502,6 +34795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33521,6 +34815,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33540,6 +34835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33559,6 +34855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33578,6 +34875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33597,6 +34895,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33616,6 +34915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33624,7 +34924,7 @@ var skilldata = {
 		campaign: 4,
 		profession: 0,
 		attribute: 109,
-		type: 24,
+		type: 38,
 		is_elite: false,
 		is_rp: true,
 		is_pvp: false,
@@ -33635,6 +34935,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33654,6 +34955,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33673,6 +34975,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33692,6 +34995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33711,6 +35015,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33730,6 +35035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33749,6 +35055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33768,6 +35075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33787,6 +35095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 24,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33806,6 +35115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33825,6 +35135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33844,6 +35155,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33863,6 +35175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33882,6 +35195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33901,6 +35215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33920,6 +35235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33939,6 +35255,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33958,6 +35275,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33977,6 +35295,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -33996,6 +35315,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34015,6 +35335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34034,6 +35355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 7,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34053,6 +35375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -34072,6 +35395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 10
 	},
@@ -34091,6 +35415,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34110,6 +35435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34129,6 +35455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -34148,6 +35475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34167,6 +35495,7 @@ var skilldata = {
 		activation: 1.5,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 5
 	},
@@ -34186,6 +35515,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34204,7 +35534,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 4,
-		adrenaline: 3,
+		adrenaline: 4,
+		adrenaline_precise: 3.2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34224,6 +35555,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34243,6 +35575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34262,6 +35595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34281,6 +35615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34300,6 +35635,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 2,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34319,6 +35655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34338,6 +35675,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34357,6 +35695,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34376,6 +35715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34395,6 +35735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34414,6 +35755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34433,6 +35775,7 @@ var skilldata = {
 		activation: 4,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34452,6 +35795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34471,6 +35815,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34488,8 +35833,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 30,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34507,8 +35853,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 30,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34528,6 +35875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34547,6 +35895,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34566,6 +35915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34581,10 +35931,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 10,
+		energy: 15,
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34604,6 +35955,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 17,
 		overcast: 0
 	},
@@ -34623,6 +35975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34642,6 +35995,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34661,6 +36015,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34680,6 +36035,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34699,6 +36055,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 90,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34718,6 +36075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34737,6 +36095,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34756,6 +36115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34775,6 +36135,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34794,6 +36155,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34813,6 +36175,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34832,6 +36195,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34851,6 +36215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34870,6 +36235,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34889,6 +36255,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34905,9 +36272,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 15,
-		activation: 5,
-		recharge: 45,
+		activation: 2,
+		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34924,9 +36292,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 1.5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34946,6 +36315,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34965,6 +36335,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34984,6 +36355,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35003,6 +36375,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35022,6 +36395,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35041,6 +36415,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35057,9 +36432,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 25,
-		activation: 5,
-		recharge: 45,
+		activation: 2,
+		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35079,6 +36455,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 60,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35098,6 +36475,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35117,6 +36495,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35136,6 +36515,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35152,9 +36532,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 5,
-		activation: 3,
+		activation: 1.5,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35174,6 +36555,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35193,6 +36575,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35212,6 +36595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35228,9 +36612,10 @@ var skilldata = {
 		split_id: 0,
 		upkeep: 0,
 		energy: 25,
-		activation: 3,
-		recharge: 45,
+		activation: 1.5,
+		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35250,6 +36635,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35269,6 +36655,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35288,6 +36675,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 4,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35307,6 +36695,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35326,6 +36715,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35345,6 +36735,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35364,6 +36755,7 @@ var skilldata = {
 		activation: 5,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35383,6 +36775,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35402,6 +36795,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35421,6 +36815,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35440,6 +36835,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35459,6 +36855,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35478,6 +36875,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35497,6 +36895,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35516,6 +36915,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35535,6 +36935,7 @@ var skilldata = {
 		activation: 3,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35554,6 +36955,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35573,6 +36975,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 1,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35592,6 +36995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35611,6 +37015,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35630,6 +37035,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35649,6 +37055,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35668,6 +37075,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35687,6 +37095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35706,6 +37115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35725,6 +37135,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35744,6 +37155,7 @@ var skilldata = {
 		activation: 0.75,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 10,
 		overcast: 0
 	},
@@ -35763,6 +37175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35782,6 +37195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35801,6 +37215,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35820,6 +37235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35839,6 +37255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 45,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35858,6 +37275,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35877,6 +37295,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35896,6 +37315,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35915,6 +37335,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35934,6 +37355,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 6,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35953,6 +37375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35972,6 +37395,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -35987,10 +37411,11 @@ var skilldata = {
 		pvp_split: false,
 		split_id: 0,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36010,6 +37435,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36029,6 +37455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36048,6 +37475,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36067,6 +37495,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36086,6 +37515,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36105,6 +37535,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36124,6 +37555,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36141,8 +37573,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 12,
+		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36162,6 +37595,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36181,6 +37615,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36200,6 +37635,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36219,6 +37655,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36238,6 +37675,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36257,6 +37695,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36276,6 +37715,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36295,6 +37735,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36314,6 +37755,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36333,6 +37775,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36352,6 +37795,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36370,7 +37814,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36390,6 +37835,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36409,6 +37855,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36428,6 +37875,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36447,6 +37895,7 @@ var skilldata = {
 		activation: 0.5,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36466,6 +37915,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36485,6 +37935,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36503,7 +37954,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
+		adrenaline: 7,
+		adrenaline_precise: 6.4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36522,7 +37974,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36542,6 +37995,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 12,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36561,6 +38015,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36580,6 +38035,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36599,6 +38055,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36618,6 +38075,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36637,6 +38095,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36656,6 +38115,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36675,6 +38135,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36694,6 +38155,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36713,6 +38175,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 25,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36732,6 +38195,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36751,6 +38215,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 6,
 		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36770,6 +38235,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 3,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36789,6 +38255,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36808,6 +38275,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36827,6 +38295,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36846,6 +38315,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36865,6 +38335,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36884,6 +38355,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 4,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36903,6 +38375,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36922,6 +38395,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36941,6 +38415,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 30,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36960,6 +38435,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36979,6 +38455,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36998,6 +38475,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37017,6 +38495,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37036,6 +38515,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37055,6 +38535,7 @@ var skilldata = {
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37074,6 +38555,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 15,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37093,6 +38575,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37112,6 +38595,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37131,6 +38615,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 20,
 		adrenaline: 0,
+		adrenaline_precise: 0,
 		sacrifice: 0,
 		overcast: 0
 	}
@@ -37818,7 +39303,7 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Keine Fertigkeit',
-			en: 'Not a Skill',
+			en: 'No Skill',
 		},
 	},
 	{
@@ -37926,13 +39411,13 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Binderitual',
-			en: 'Binding ritual',
+			en: 'Binding Ritual',
 		},
 	},
 	{
 		name: {
 			de: 'Naturritual',
-			en: 'Nature ritual',
+			en: 'Nature Ritual',
 		},
 	},
 	{
@@ -37956,7 +39441,7 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Verzauberung',
-			en: 'Enchantment spell',
+			en: 'Enchantment Spell',
 		},
 	},
 	{
@@ -38004,7 +39489,7 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Distanzangriff',
-			en: 'Ranged attack',
+			en: 'Ranged Attack',
 		},
 	},
 	{
@@ -38023,6 +39508,54 @@ const SKILLTYPES = [
 		name: {
 			de: 'Doppelverzauberung',
 			en: 'Double Enchantment',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungsfertigkeit',
+			en: 'Touch Skill',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungszauber',
+			en: 'Touch Spell',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungsverzauberung',
+			en: 'Touch Enchantment Spell',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungsverhexung',
+			en: 'Touch Hex Spell',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungssiegel',
+			en: 'Touch Signet',
+		},
+	},
+	{
+		name: {
+			de: 'Angriffsfertigkeit',
+			en: 'Attack Skill',
+		},
+	},
+	{
+		name: {
+			de: 'Dolchangriff',
+			en: 'Dagger Attack',
+		},
+	},
+	{
+		name: {
+			de: 'Ritual',
+			en: 'Ritual',
 		},
 	},
 ];
@@ -38369,8 +39902,8 @@ var skilldesc = {
 	"27": {
 		id: 27,
 		name: "Täuschungen brechen",
-		description: "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, nehmen dieser Gegner und alle umstehenden Gegner 15...75 Punkte Schaden.",
-		concise: "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel und allen umstehenden Gegnern 15...75 Punkte Schaden an."
+		description: "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, erleidet er 15...75 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+		concise: "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel 15...75 Punkte Schaden an und bei umstehenden Feinden 75% dieses Schadens (11...56)."
 	},
 	"28": {
 		id: 28,
@@ -38393,8 +39926,8 @@ var skilldesc = {
 	"31": {
 		id: 31,
 		name: "Trugbild beschwören",
-		description: "2...16 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -5.",
-		concise: "2...16 Sekunden: Verursacht -5 Lebenspunktdegeneration."
+		description: "4...18 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -5.",
+		concise: "4...18 Sekunden: Verursacht -5 Lebenspunktdegeneration."
 	},
 	"32": {
 		id: 32,
@@ -38405,8 +39938,8 @@ var skilldesc = {
 	"33": {
 		id: 33,
 		name: "Illusion der Waffen",
-		description: "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 8...40 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
-		concise: "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 8...40 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
+		description: "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 16...50 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
+		concise: "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 16...50 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
 	},
 	"34": {
 		id: 34,
@@ -38441,8 +39974,8 @@ var skilldesc = {
 	"39": {
 		id: 39,
 		name: "Energiewelle",
-		description: "Der Zielgegner verliert 1...10 Punkte Energie. Für jeden verlorenen Energiepunkt erleiden dieser und alle Feinde in der Nähe 9 Punkte Schaden.",
-		concise: "Lässt 1...10 Energiepunkt verlieren. Richtet beim Gegner und Feinden in der Nähe pro verlorenem Energiepunkt 9 Punkte Schaden an."
+		description: "Der Zielgegner verliert 1...10 Punkte Energie. Für jeden verlorenen Energiepunkt erleidet er 7 Punkte Schaden. Feinde in der Nähe erleiden 75% dieses Schadens.",
+		concise: "Lässt 1...10 Energiepunkt verlieren. Richtet beim Gegner pro verlorenem Energiepunkt 7 Punkte Schaden an. Feinde in der Nähe erleiden 75% dieses Schadens."
 	},
 	"40": {
 		id: 40,
@@ -38454,7 +39987,7 @@ var skilldesc = {
 		id: 41,
 		name: "Herr über den Äther",
 		description: "Ihr verliert Eure gesamte Energie. 5...10 Sekunden lang unterliegt der Gegner einer Energiedegeneration von -1...3 und Ihr erfreut Euch einer Energieregeneration von +1...3.",
-		concise: "<gray>Ihr verliert alle Energiepunkte.</gray> Gegner hat +1...3 Energiedegeneration und Ihr habt +1...3 Energieregeneration. (5...10 Sekunden)."
+		concise: "<gray>Ihr verliert alle Energiepunkte.</gray> Gegner hat  -1...3 Energiedegeneration und Ihr habt +1...3 Energieregeneration. (5...10 Sekunden)."
 	},
 	"42": {
 		id: 42,
@@ -38465,14 +39998,14 @@ var skilldesc = {
 	"43": {
 		id: 43,
 		name: "Ungeschick",
-		description: "4 Sekunden lang werden der Gegner und umstehende Feinde mit Ungeschick verhext. Beim nächsten Angriff jedes Feindes wird der Angriff unterbrochen und der Feind erleidet 10...92 Punkte Schaden.",
-		concise: "4 Sekunden: Verhext auch umstehende Feinde. Unterbricht nächsten Angriff. Unterbrechungswirkung: Richtet 10...92 Punkte Schaden an."
+		description: "4 Sekunden lang werden der Gegner und umstehende Feinde mit Ungeschick verhext. Beim nächsten Angriff jedes Feindes wird der Angriff unterbrochen und der Feind erleidet 10...80 Punkte Schaden.",
+		concise: "4 Sekunden: Verhext auch umstehende Feinde. Unterbricht nächsten Angriff. Unterbrechungswirkung: Richtet 10...80 Punkte Schaden an."
 	},
 	"44": {
 		id: 44,
 		name: "Phantomschmerz",
 		description: "10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4. Wenn Phantomschmerz endet, erhält dieser Gegner eine Tiefe Wunde, die seine maximalen Lebenspunkte 5...20 Sekunden lang um 20% reduziert.",
-		concise: "10 Sekunden: Verursacht +1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
+		concise: "10 Sekunden: Verursacht  -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 	},
 	"45": {
 		id: 45,
@@ -38507,8 +40040,8 @@ var skilldesc = {
 	"50": {
 		id: 50,
 		name: "Verschwendung",
-		description: "Nach 3 Sekunden erleidet der Gegner und alle umstehende<sic/> Feinden<sic/> 20...100 Schaden. Setzt der Gegner erfolgreich eine Fertigkeit ein, endet Verschwendung vorzeitig und verursacht keinen Schaden.",
-		concise: "(3 Sekunden.) Wirkung am Ende: richtet beim Gegner und umstehenden Feinden 20...100 Punkte Schaden an. <gray>Kein Effekt und endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
+		description: "Nach 3 Sekunden erleidet der Gegner 20...100 Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (15...75). Setzt der Gegner erfolgreich eine Fertigkeit ein, endet Verschwendung vorzeitig und verursacht keinen Schaden.",
+		concise: "(3 Sekunden.) Wirkung am Ende: richtet beim Gegner 20...100 Punkte Schaden an und bei allen umstehenden Feinden 75% dieses Schadens (15...75). <gray>Kein Effekt und endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
 	},
 	"51": {
 		id: 51,
@@ -38526,13 +40059,13 @@ var skilldesc = {
 		id: 53,
 		name: "Migräne",
 		description: "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und benötigt 100% länger, um eine Fertigkeit zu aktivieren.",
-		concise: "(5...20 Sekunden.) Verursacht +1...8 Lebenspunktdegeneration und verdoppelt Aktivierungszeit von Fertigkeiten."
+		concise: "(5...20 Sekunden.) Verursacht  -1...8 Lebenspunktdegeneration und verdoppelt Aktivierungszeit von Fertigkeiten."
 	},
 	"54": {
 		id: 54,
 		name: "Verkrüppelnde Qual",
 		description: "5...20 Sekunden lang sind Bewegung und Angriffe des Ziels um 50% langsamer. Der Gegner unterliegt außerdem einer Lebenspunktdegeneration von -1...8.",
-		concise: "(5...20 Sekunden.) Bewegungen und Angriffe des Gegners sind um 50% langsamer und er hat +1...8 Lebenspunktdegeneration."
+		concise: "(5...20 Sekunden.) Bewegungen und Angriffe des Gegners sind um 50% langsamer und er hat  -1...8 Lebenspunktdegeneration."
 	},
 	"55": {
 		id: 55,
@@ -38549,8 +40082,8 @@ var skilldesc = {
 	"57": {
 		id: 57,
 		name: "Schrei der Frustration",
-		description: "Falls der Gegner eine Fertigkeit benutzt, werden er und alle Feinde in dem Bereich bei ihrer Aktion unterbrochen und erleiden 15...75 Punkte Schaden.",
-		concise: "Benutzt der Gegner eine Fertigkeit, werden er und alle Feinde im Bereich bei ihrer Aktion unterbrochen und erleiden 15...75 Punkte Schaden."
+		description: "Falls der Gegner eine Fertigkeit benutzt, werden er und alle Feinde in dem Bereich bei ihrer Aktion unterbrochen, der Gegner erleidet 15...75 Punkte Schaden und alle Feinde im Bereich erleiden 75% dieses Schadens (11...56).",
+		concise: "Benutzt der Gegner eine Fertigkeit, werden er und alle Feinde im Bereich bei ihrer Aktion unterbrochen, der Gegner erleidet 15...75 Punkte Schaden und alle Feinde im Bereich erleiden 75% dieses Schadens (11...56)."
 	},
 	"58": {
 		id: 58,
@@ -38573,8 +40106,8 @@ var skilldesc = {
 	"62": {
 		id: 62,
 		name: "Siegel der Demut",
-		description: "Die Elite-Fertigkeit des Gegners wird 1...16 Sekunden lang deaktiviert. Eure Nicht-Mesmer-Fertigkeiten werden 10 Sekunden lang deaktiviert.",
-		concise: "Deaktiviert Elite-Fertigkeit (1...16 Sekunde). <gray>Deaktiviert Eure Nicht-Mesmer-Fertigkeiten (10 Sekunden).</gray>"
+		description: "Die Elite-Fertigkeit des Gegners wird 1...16 Sekunden lang deaktiviert. Eure Nicht-Mesmer-Fertigkeiten werden 4 Sekunden lang deaktiviert.",
+		concise: "Deaktiviert Elite-Fertigkeit (1...16 Sekunde). <gray>Deaktiviert Eure Nicht-Mesmer-Fertigkeiten (4 Sekunden).</gray>"
 	},
 	"63": {
 		id: 63,
@@ -38705,8 +40238,8 @@ var skilldesc = {
 	"87": {
 		id: 87,
 		name: "Veratas Starren",
-		description: "Hat der als Ziel ausgewählte feindliche Untote einen Meister, wird seine Verbindung zu diesem Meister aufgehoben, womit er alle anderen Kreaturen als Feind betrachtet. Falls der Untote keinen Meister hatte, werdet Ihr zu seinem Meister. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
-		concise: "Macht das Ziel zum herrenlosen untoten Diener. Falls es schon herrenlos ist, werdet Ihr sein Meister. <gray>Mindestens Todesmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
+		description: "Hat der als Ziel ausgewählte feindliche Untote einen Meister, wird seine Verbindung zu diesem Meister aufgehoben, womit er alle anderen Kreaturen als Feind betrachtet. Falls der Untote keinen Meister hatte, werdet Ihr zu seinem Meister und heilt ihn um 60...80 Lebenspunkte. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+		concise: "Macht das Ziel zum herrenlosen untoten Diener. Falls es schon herrenlos ist, werdet Ihr sein Meister und heilt es um 60...80 Lebenspunkte.. <gray>Mindestens Todesmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 	},
 	"88": {
 		id: 88,
@@ -38832,13 +40365,13 @@ var skilldesc = {
 		id: 108,
 		name: "Leiden",
 		description: "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3.",
-		concise: "Verhext den Gegner und Feinde in der Nähe (6...30 Sekunden). Die Betroffenen haben +0...3 Lebenspunktdegeneration."
+		concise: "Verhext den Gegner und Feinde in der Nähe (6...30 Sekunden). Die Betroffenen haben  -0...3 Lebenspunktdegeneration."
 	},
 	"109": {
 		id: 109,
 		name: "Leben abzapfen",
 		description: "12...24 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3 und Ihr selbst erfreut Euch einer Lebenspunktregeneration von +1...3.",
-		concise: "12...24 Sekunden: Gegner hat +1...3 Lebenspunktdegeneration. Ihr habt 1...3 Lebenspunktregeneration."
+		concise: "12...24 Sekunden: Gegner hat  -1...3 Lebenspunktdegeneration. Ihr habt +1...3 Lebenspunktregeneration."
 	},
 	"110": {
 		id: 110,
@@ -38909,8 +40442,8 @@ var skilldesc = {
 	"121": {
 		id: 121,
 		name: "Boshafter Geist",
-		description: "8...20 Sekunden lang fügt Boshafter Geist jedes Mal, wenn der Gegner angreift oder eine Fertigkeit benutzt, diesem und allen ihn umstehenden Verbündeten 5...35 Punkte Schattenschaden zu.",
-		concise: "8...20 Sekunden: Richtet beim Gegner und umstehenden Feinden jedes Mal 5...35 Punkte Schaden an, wenn der Gegner angreift oder eine Fertigkeit benutzt."
+		description: "10...25 Sekunden lang fügt Boshafter Geist jedes Mal, wenn der Gegner angreift oder eine Fertigkeit benutzt, diesem und allen ihn umstehenden Verbündeten 15...45 Punkte Schattenschaden zu.",
+		concise: "10...25 Sekunden: Richtet beim Gegner und umstehenden Feinden jedes Mal 15...45 Punkte Schaden an, wenn der Gegner angreift oder eine Fertigkeit benutzt."
 	},
 	"122": {
 		id: 122,
@@ -38934,13 +40467,13 @@ var skilldesc = {
 		id: 125,
 		name: "Verwelken",
 		description: "5...35 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -2...4 und einer Energiedegeneration von -1. Wenn die Energie des Gegners auf 0 gefallen ist, nimmt dieser Gegner 15...75 Punkte Schaden und Verwelken endet.",
-		concise: "5...35 Sekunden: Verursacht +2...4 Lebenspunktdegeneration und -1 Energiedegeneration. Richtet 15...75 Punkte Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. <gray>Endet, wenn die Energiepunkte des Gegners auf 0 sinken.</gray>"
+		concise: "5...35 Sekunden: Verursacht  -2...4 Lebenspunktdegeneration und -1 Energiedegeneration. Richtet 15...75 Punkte Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. <gray>Endet, wenn die Energiepunkte des Gegners auf 0 sinken.</gray>"
 	},
 	"126": {
 		id: 126,
 		name: "Lebensübertragung",
 		description: "6...12 Sekunden lang unterliegen der Gegner und ihn umstehende Feinde einer Lebenspunktdegeneration von -3...8, die Euch als Lebenspunktregeneration zugute kommt.",
-		concise: "Verhext auch den Gegner umstehende Feinde (6...12 Sekunden). Verursacht +3...8 Lebenspunktdegeneration. Ihr habt +3...8 Lebenspunktregeneration."
+		concise: "Verhext auch den Gegner umstehende Feinde (6...12 Sekunden). Verursacht  -3...8 Lebenspunktdegeneration. Ihr habt +3...8 Lebenspunktregeneration."
 	},
 	"127": {
 		id: 127,
@@ -38994,7 +40527,7 @@ var skilldesc = {
 		id: 135,
 		name: "Mutlosigkeit",
 		description: "Während der nächsten 3...16 Sekunden greift der Gegner um 50% langsamer an und unterliegt einer Lebenspunktdegeneration von -0...3.",
-		concise: "3...16 Sekunden: Gegner greift um 50% langsamer an und hat +0...3 Lebenspunktdegeneration."
+		concise: "3...16 Sekunden: Gegner greift um 50% langsamer an und hat  -0...3 Lebenspunktdegeneration."
 	},
 	"136": {
 		id: 136,
@@ -39035,8 +40568,8 @@ var skilldesc = {
 	"142": {
 		id: 142,
 		name: "Bleibender Fluch",
-		description: "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3 und Heilung verschafft ihnen um 20% weniger Vorteile.",
-		concise: "6...30 Sekunden: Gegner und Feinde in der Nähe haben +0...3 Lebenspunktdegeneration. Heilung verschafft ihnen um 20% weniger Vorteile."
+		description: "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -1...4 und Heilung verschafft ihnen um 25% weniger Vorteile.",
+		concise: "6...30 Sekunden: Gegner und Feinde in der Nähe haben  -1...4 Lebenspunktdegeneration. Heilung verschafft ihnen um 25% weniger Vorteile."
 	},
 	"143": {
 		id: 143,
@@ -39173,8 +40706,8 @@ var skilldesc = {
 	"166": {
 		id: 166,
 		name: "Kinetik-Rüstung",
-		description: "8 Sekunden lang erhaltet Ihr +20...80 Punkte Rüstung. Jedes Mal, wenn Ihr einen Zauber wirkt, wird Kinetik-Rüstung 8 Sekunden lang erneuert.",
-		concise: "8 Sekunden: Ihr habt +20...80 Rüstung. Erneuerungsbonus: Wirkt einen Zauber."
+		description: "12 Sekunden lang erhaltet Ihr +20...80 Punkte Rüstung. Jedes Mal, wenn Ihr einen Zauber wirkt, wird Kinetik-Rüstung 12 Sekunden lang erneuert.",
+		concise: "12 Sekunden: Ihr habt +20...80 Rüstung. Erneuerungsbonus: Wirkt einen Zauber."
 	},
 	"167": {
 		id: 167,
@@ -39293,8 +40826,8 @@ var skilldesc = {
 	"186": {
 		id: 186,
 		name: "Feuerball",
-		description: "Sendet einen Feuerball aus, der dem Gegner und alle<sic/> umstehenden Feinden 7...112 Punkte Feuerschaden zufügt.",
-		concise: "Geschoss: Richtet beim Gegner und umstehenden Feinden 7...112 Punkte Feuerschaden an."
+		description: "Sendet einen Feuerball aus, der dem Gegner und allen Feinden in der Nähe 7...112 Punkte Feuerschaden zufügt.",
+		concise: "Geschoss: Richtet beim Gegner und Feinden in der Nähe 7...112 Punkte Feuerschaden an."
 	},
 	"187": {
 		id: 187,
@@ -39472,7 +41005,7 @@ var skilldesc = {
 	},
 	"216": {
 		id: 216,
-		name: "Eisenbeschlag",
+		name: "Eisennebel",
 		description: "8...15 Sekunden lang habt ihr +15 Rüstung. Eure Zauber werden 33% schneller aktiviert und wiederaufgeladen. Mit jedem gewirkten Zauber seid Ihr jedoch um 2 Punkte überzaubert.",
 		concise: "8...15 Sekunden: Ihr erhaltet +15 Rüstung. Zauber werden 33% schneller aktiviert und wiederaufgeladen. <gray>Bei gewirktem Zauber: Ihr erhaltet 2 Punkte Überzauberung.</gray>"
 	},
@@ -39509,8 +41042,8 @@ var skilldesc = {
 	"222": {
 		id: 222,
 		name: "Blitzschlag",
-		description: "Fügt dem Gegner 5...50 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 5...50 Punkte Blitzschaden zugefügt.",
-		concise: "Richtet 5...50 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 5...50 Punkte Blitzschaden an."
+		description: "Fügt dem Gegner 5...40 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 5...40 Punkte Blitzschaden zugefügt.",
+		concise: "Richtet 5...40 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 5...40 Punkte Blitzschaden an."
 	},
 	"223": {
 		id: 223,
@@ -39545,8 +41078,8 @@ var skilldesc = {
 	"228": {
 		id: 228,
 		name: "Donnerschlag",
-		description: "An der Position des Gegners wird eine gewaltige Stoßwelle erzeugt. Richtet beim Gegner und umstehenden Feinden 10...50 Punkte Blitzschaden an. Getroffene Feinde werden unterbrochen und leiden 5...20 Sekunden lang an Beschädigter Rüstung und Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
-		concise: "Richtet 10...50 Punkte Blitzschaden an. Verursacht Beschädigte Rüstung und Schwäche (5...20 Sekunden). Unterbricht. 25% Rüstungsdurchdringung."
+		description: "An der Position des Gegners wird eine gewaltige Stoßwelle erzeugt. Richtet beim Gegner und Feinden in der Nähe 10...50 Punkte Blitzschaden an. Getroffene Feinde werden unterbrochen und leiden 5...20 Sekunden lang an Beschädigter Rüstung und Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+		concise: "Richtet 10...50 Punkte Blitzschaden an. Trifft auch Ziele in der Nähe Eures Ziels. Verursacht Beschädigte Rüstung und Schwäche (5...20 Sekunden). Unterbricht. 25% Rüstungsdurchdringung."
 	},
 	"229": {
 		id: 229,
@@ -39575,7 +41108,7 @@ var skilldesc = {
 	"233": {
 		id: 233,
 		name: "Wirbelnde Aura",
-		description: "3...7 Sekunden lang seid Ihr mit Wirbelnde Aura verzaubert und habt 1...6 Lebenspunktregeneration und eine 50%ige Wahrscheinlichkeit, dass Geschosse geblockt werden. Wenn Ihr Überzaubert seid, wenn Ihr diesen Zauber wirkt, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert.",
+		description: "3...7 Sekunden lang seid Ihr mit Wirbelnde Aura verzaubert und habt +1...6 Lebenspunktregeneration und eine 50%ige Wahrscheinlichkeit, dass Geschosse geblockt werden. Wenn Ihr Überzaubert seid, wenn Ihr diesen Zauber wirkt, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert.",
 		concise: "(3...7 Sekunden.) Ihr habt +1...6 Lebenspunktregeneration und eine 50%ige Chance, Geschosse zu blocken. Wenn Überzaubert, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert."
 	},
 	"234": {
@@ -39659,8 +41192,8 @@ var skilldesc = {
 	"247": {
 		id: 247,
 		name: "Symbol des Zorns",
-		description: "5 Sekunden lang erleiden umstehende Gegner am Wirkungsort des Zaubers 8...32 Punkte heiligen Schaden pro Sekunde.",
-		concise: "Richtet jede Sekunde 8...32 Punkte heiligen Schaden an (5 Sekunden). Trifft umstehende Feinde um Eure anfängliche Position."
+		description: "Erzeugt ein Symbol des Zorns am Standort des anvisierten Gegners. Umstehende Gegner werden 5 Sekunden lang von 10...40 heiligem Schaden getroffen.",
+		concise: "Teilt jede Sekunde 10...40 Punkte heiligen Schaden aus (5 Sekunden). Trifft Gegner um den ursprünglichen Standort des anvisierten Gegners herum."
 	},
 	"248": {
 		id: 248,
@@ -39743,8 +41276,8 @@ var skilldesc = {
 	"261": {
 		id: 261,
 		name: "Schild der Regeneration",
-		description: "5...13 Sekunden lang erhält der Verbündete (bzw. Ihr selbst) eine Lebenspunktregeneration in Höhe von 3...10 und 40 Rüstung.",
-		concise: "5...13 Sekunden: +3...10 Lebenspunktregeneration und +40 Rüstung."
+		description: "Für 5...13 Sekunden erhält der anvisierte Verbündete +3...10 Lebenspunktregeneration und 20...45 Rüstung.",
+		concise: "(5...13 Sekunden). +3...10 Lebenspunktregeneration und +20...45 Rüstung."
 	},
 	"262": {
 		id: 262,
@@ -39809,8 +41342,8 @@ var skilldesc = {
 	"272": {
 		id: 272,
 		name: "Balthasars Aura",
-		description: "8 Sekunden lang erleiden umstehende Gegner um den Verbündeten (bzw. Euch selbst) herum pro Sekunde 10...25 Punkte heiligen Schaden.",
-		concise: "8 Sekunden: Richtet pro Sekunde 10...25 Punkte heiligen Schaden bei umstehenden Feinden um den Verbündeten (bzw. Euch selbst) an."
+		description: "8 Sekunden lang erleiden umstehende Gegner um den Verbündeten (bzw. Euch selbst) herum pro Sekunde 10...30 Punkte heiligen Schaden.",
+		concise: "8 Sekunden: Richtet pro Sekunde 10...30 Punkte heiligen Schaden bei umstehenden Feinden um den Verbündeten (bzw. Euch selbst) an."
 	},
 	"273": {
 		id: 273,
@@ -40187,8 +41720,8 @@ var skilldesc = {
 	"335": {
 		id: 335,
 		name: "Spalten",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr 10...30 Punkte zusätzlichen Schaden zu.",
-		concise: "Richtet +10...30 Punkte Schaden an."
+		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr 10...40 Punkte zusätzlichen Schaden zu und 2...3 Euren Gegner umstehende Feinde erleiden 10...40 rüstungsignorierenden Hieb-Schaden.",
+		concise: "Richtet +10...40 Punkte Schaden an. 2...3 Euren Gegner umstehende Feinde erleiden 10...40 rüstungsignorierenden Hieb-Schaden."
 	},
 	"336": {
 		id: 336,
@@ -40205,8 +41738,8 @@ var skilldesc = {
 	"338": {
 		id: 338,
 		name: "Ausweiden",
-		description: "Wenn Ausweiden trifft, fügt Ihr 1...31 Punkte zusätzlichen Schaden und eine Tiefe Wunde zu. Dadurch werden die maximalen Lebenspunkte Eures Ziels 5...20 Sekunden lang um 20% verringert.",
-		concise: "Richtet +1...31 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
+		description: "Wenn Ausweiden trifft, fügt Ihr 10...45 Punkte zusätzlichen Schaden und eine Tiefe Wunde zu. Dadurch werden die maximalen Lebenspunkte Eures Ziels 5...20 Sekunden lang um 20% verringert.",
+		concise: "Richtet +10...45 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 	},
 	"339": {
 		id: 339,
@@ -40373,8 +41906,8 @@ var skilldesc = {
 	"366": {
 		id: 366,
 		name: "Fürchtet mich!",
-		description: "Alle umstehenden Gegner verlieren 1...4 Energiepunkte. 1...15 Sekunden lang erhöht sich Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%.",
-		concise: "(1...15 Sekunden.) Erhöht die Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%. Anfangswirkung: Feinde in der Nähe verlieren 1...4 Energiepunkte."
+		description: "Alle umstehenden Gegner verlieren 2...6 Energiepunkte. 1...15 Sekunden lang erhöht sich Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%.",
+		concise: "(1...15 Sekunden.) Erhöht die Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%. Anfangswirkung: Feinde in der Nähe verlieren 2...6 Energiepunkte."
 	},
 	"367": {
 		id: 367,
@@ -40391,8 +41924,8 @@ var skilldesc = {
 	"370": {
 		id: 370,
 		name: "Berserkerhaltung",
-		description: "5...11 Sekunden lang greift Ihr um 33% schneller als normal an und erhaltet 50% mehr Adrenalin für jeden Eurer Treffer im Nahkampf. Berserkerhaltung endet, sobald Ihr eine Fertigkeit verwendet.",
-		concise: "5...11 Sekunden: Ihr greift um 33% schneller an und erhaltet 50% mehr Adrenalin. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
+		description: "8...14 Sekunden lang greift Ihr um 33% schneller als normal an und erhaltet 100% mehr Adrenalin für jeden Eurer Treffer im Nahkampf. Berserkerhaltung endet, sobald Ihr eine Fertigkeit verwendet.",
+		concise: "8...14 Sekunden: Ihr greift um 33% schneller an und erhaltet 100% mehr Adrenalin. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
 	},
 	"371": {
 		id: 371,
@@ -40457,8 +41990,8 @@ var skilldesc = {
 	"381": {
 		id: 381,
 		name: "Hundert Klingen",
-		description: "15 Sekunden lang erleiden alle umstehenden Feinde jedes Mal, wenn Ihr mit einem Schwert angreift, 10...25 Punkte Hiebschaden.",
-		concise: "15 Sekunden: Richtet jedes Mal, wenn Ihr mit einem Schwert angreift, bei allen umstehenden Feinden 10...25 Punkte Schaden an."
+		description: "15 Sekunden lang erleiden alle umstehenden Feinde jedes Mal, wenn Ihr mit einem Schwert angreift, 10...35 Punkte Hiebschaden.",
+		concise: "15 Sekunden: Richtet jedes Mal, wenn Ihr mit einem Schwert angreift, bei allen umstehenden Feinden 10...35 Punkte Schaden an."
 	},
 	"382": {
 		id: 382,
@@ -40739,8 +42272,8 @@ var skilldesc = {
 	"438": {
 		id: 438,
 		name: "Verkrüppelungs-Schlag",
-		description: "Euer Tiergefährte führt einen Verkrüppelungs-Schlag aus, der 5...20 Punkte zusätzlichen Schaden zufügt. Wenn dieser Angriff einen sich bewegenden Gegner trifft, wird dieser 3...15 Sekunden lang verkrüppelt.",
-		concise: "Richtet +5...20 Punkte Schaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunden), falls der Gegner sich bewegt."
+		description: "Euer Tiergefährte führt einen Verkrüppelungs-Schlag aus, der 5...20 Punkte zusätzlichen Schaden zufügt und den Gegner 3...15 Sekunden lang verkrüppelt.",
+		concise: "Verursacht +5...20 Schaden. Fügt bei Treffer den Zustand Verkrüppelt zu (3...15 Sekunden)."
 	},
 	"439": {
 		id: 439,
@@ -40973,8 +42506,8 @@ var skilldesc = {
 	"570": {
 		id: 570,
 		name: "Zeichen der Unsicherheit",
-		description: "5...25 Sekunden lang erleidet der Gegner eine Lebenspunktdegeneration von -1...5 und enden Verzauberungen, mit denen der Verhexte belegt wird, und Haltungen, die er aktiviert, um 30...80% schneller. Eure gesamten Nicht-Assassinen-Fertigkeiten sind 5 Sekunden lang deaktiviert.",
-		concise: "(5...25 Sekunden.) Bewirkt +1...5 Lebenspunktdegeneration. Verzauberungen, die auf den Gegner gewirkt werden, und Haltungen, die er aktiviert, enden um 30...80% schneller. <gray>Deaktiviert Eure gesamten Nicht-Assassinen-Fertigkeiten (5 Sek.).</gray>"
+		description: "5...25 Sekunden lang erleidet der Zielgegner,  -1...5 Lebenspunktdegeneration, und Verzauberungen und Haltungen auf diesem Gegner vergehen 20...60% schneller. Eure Nicht-Assassinen-Fertigkeiten sind 5 Sekunden lang deaktiviert.",
+		concise: "(5...25 Sekunden.) Bewirkt  -1...5 Lebenspunktdegeneration. Verzauberungen und Haltungen laufen beim anvisierten Gegner 20...60% schneller ab. <gray>Deaktiviert Eure Nicht-Assassinen-Fertigkeiten (5 Sek.).</gray>"
 	},
 	"571": {
 		id: 571,
@@ -40997,8 +42530,8 @@ var skilldesc = {
 	"764": {
 		id: 764,
 		name: "Schicksalsklage",
-		description: "1...4 Sekunde(n) lang werden alle Attribute des Gegners auf 0 gesetzt.",
-		concise: "1...4 Sekunden: Attribute des Gegners sind 0."
+		description: "2...6 Sekunde(n) lang werden alle Attribute des Gegners auf 0 gesetzt.",
+		concise: "2...6 Sekunden: Attribute des Gegners sind 0."
 	},
 	"766": {
 		id: 766,
@@ -41129,8 +42662,8 @@ var skilldesc = {
 	"790": {
 		id: 790,
 		name: "Nachtragend war Khanhei",
-		description: "Haltet Khanheis Asche bis zu 5...11 Sekunden lang. Jedes Mal, wenn Euch ein Feind im Kampf trifft, während Ihr Khanheis Asche haltet, entzieht Ihr diesem Feind 5...35 Lebenspunkte.",
-		concise: "5...11 Sekunden: Ihr entzieht jedem Feind, der Euch mit einem Angriff trifft, 5...35 Lebenspunkte."
+		description: "Haltet Khanheis Asche bis zu 5...11 Sekunden lang. Jedes Mal, wenn Euch ein Feind im Kampf trifft, während Ihr Khanheis Asche haltet, entzieht Ihr diesem Feind 10...45 Lebenspunkte.",
+		concise: "5...11 Sekunden: Ihr entzieht jedem Feind, der Euch mit einem Angriff trifft, 10...45 Lebenspunkte."
 	},
 	"791": {
 		id: 791,
@@ -41214,7 +42747,7 @@ var skilldesc = {
 		id: 808,
 		name: "Zeichen des Schnitters",
 		description: "30 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...5. Wenn er stirbt, während er mit Zeichen des Schnitters verhext ist, erhaltet Ihr 5...15 Energiepunkte.",
-		concise: "30 Sekunden: Verursacht +1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkte, falls der Gegner an dieser Verhexung stirbt."
+		concise: "30 Sekunden: Verursacht  -1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkte, falls der Gegner an dieser Verhexung stirbt."
 	},
 	"809": {
 		id: 809,
@@ -41279,8 +42812,8 @@ var skilldesc = {
 	"819": {
 		id: 819,
 		name: "Vampirgeist",
-		description: "Entzieht dem Gegner bis zu 5...50 Lebenspunkte. 10 Sekunden lang habt Ihr +5...10 Lebenspunktregeneration.",
-		concise: "Entzieht dem Gegner 5...50 Lebenspunkte: Ihr habt 5...10 Lebenspunktregeneration (10 Sekunden)"
+		description: "Entzieht dem Gegner bis zu 15...60 Lebenspunkte. 10 Sekunden lang habt Ihr +5...10 Lebenspunktregeneration.",
+		concise: "Entzieht dem Gegner 15...60 Lebenspunkte: Ihr habt +5...10 Lebenspunktregeneration (10 Sekunden)"
 	},
 	"820": {
 		id: 820,
@@ -41334,13 +42867,13 @@ var skilldesc = {
 		id: 828,
 		name: "Fauler Gestank",
 		description: "Der Gegner erleidet 10...65 Punkte Kälteschaden. Wenn er an einem Zustand leidet, wird er mit Faulem Gestank verhext und leidet 10 Sekunden lang unter einer Lebenspunktdegeneration von -1...5.",
-		concise: "Verursacht +1...5 Lebenspunktdegeneration (10 Sekunden). Anfangswirkung: Richtet 10...65 Punkte Kälteschaden an. <gray>Verhexung wird nur auferlegt, wenn der Gegner einen Zustand hat.</gray>"
+		concise: "Verursacht  -1...5 Lebenspunktdegeneration (10 Sekunden). Anfangswirkung: Richtet 10...65 Punkte Kälteschaden an. <gray>Verhexung wird nur auferlegt, wenn der Gegner einen Zustand hat.</gray>"
 	},
 	"830": {
 		id: 830,
 		name: "Strahl des Urteils",
-		description: "An der aktuellen Position des Gegners wird ein Strahl des Urteils erzeugt, der 5 Sekunden lang jede Sekunde umstehenden Feinden 5...45 Punkte heiligen Schaden und 1...3 Sekunden brennen zufügt.",
-		concise: "Richtet jede Sekunde 5...45 Punkte heiligen Schaden an und verursacht Brennen (1...3 Sekunden) jede Sekunde (5 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
+		description: "An der aktuellen Position des Gegners wird ein Strahl des Urteils erzeugt, der 5 Sekunden lang jede Sekunde umstehenden Feinden 10...50 Punkte heiligen Schaden und 1...3 Sekunden brennen zufügt.",
+		concise: "Richtet jede Sekunde 10...50 Punkte heiligen Schaden an und verursacht Brennen (1...3 Sekunden) jede Sekunde (5 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
 	},
 	"831": {
 		id: 831,
@@ -41411,8 +42944,8 @@ var skilldesc = {
 	"843": {
 		id: 843,
 		name: "Böe",
-		description: "Während der nächsten 5...11 Sekunden bewegen Ihr und Euer Verbündeter sich um 33% schneller. Wenn Ihr diesen Zauber wirkt, erleiden alle Feinde in Eurer Nähe und in der Nähe Eures Ziels 15...70 Punkte Kälteschaden. Von Böe getroffene angreifende oder sich bewegende Feinde werden zu Boden geworfen.",
-		concise: "(5...11 Sekunden.) Ihr und Euer Verbündeter bewegen sich um 33% schneller. Anfangswirkung: Feinde in der Nähe Eures Ziel erleiden 15...70 Punkte Kälteschaden. Angreifende oder sich bewegende Feinde werden zu Boden geworfen."
+		description: "Während der nächsten 5...11 Sekunden bewegen Ihr und Euer Verbündeter sich um 33% schneller. Wenn Ihr diesen Zauber wirkt, erleiden alle Euch und Euer Ziel umstehenden Feinde 15...70 Punkte Kälteschaden. Von Böe getroffene angreifende oder sich bewegende Feinde werden zu Boden geworfen.",
+		concise: "(5...11 Sekunden.) Ihr und Euer Verbündeter bewegen sich um 33% schneller. Anfangswirkung: Euch und Euer Ziel umstehende Feinde erleiden 15...70 Punkte Kälteschaden. Angreifende oder sich bewegende Feinde werden zu Boden geworfen."
 	},
 	"844": {
 		id: 844,
@@ -41501,8 +43034,8 @@ var skilldesc = {
 	"862": {
 		id: 862,
 		name: "Heißhungriger Blick",
-		description: "Fügt dem Gegner und in der Nähe befindlichen Feinden 15...30 Punkte Schaden zu und entzieht diesen 15...30 Lebenspunkte.",
-		concise: "Fügt dem Gegner und in der Nähe befindlichen Feinden 15...30 Punkte Schaden zu und entzieht diesen 15...30 Lebenspunkte."
+		description: "Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkte Schaden zu und entzieht diesen 20...40 Lebenspunkte.",
+		concise: "Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkte Schaden zu und entzieht diesen 20...40 Lebenspunkte."
 	},
 	"863": {
 		id: 863,
@@ -41645,8 +43178,8 @@ var skilldesc = {
 	"892": {
 		id: 892,
 		name: "Zitternde Klinge",
-		description: "Wenn Zitternde Klinge erfolgreich ist, fügt Ihr +10 Punkte Schaden zu. Wenn dieser Angriff einen sich bewegenden Feind trifft, leidet dieser 10 Sekunden lang an Benommenheit.",
-		concise: "Richtet +10 Punkte Schaden an. Verursacht Zustand Benommenheit (10 Sekunden), falls der Gegner sich bewegt."
+		description: "Wenn Zitternde Klinge erfolgreich ist, fügt Ihr +10...40 Punkte Schaden zu. Wenn dieser Angriff einen sich bewegenden Feind trifft, leidet dieser 10 Sekunden lang an Benommenheit.",
+		concise: "Richtet +10...40 Punkte Schaden an. Verursacht Zustand Benommenheit (10 Sekunden), falls der Gegner sich bewegt."
 	},
 	"893": {
 		id: 893,
@@ -41657,14 +43190,14 @@ var skilldesc = {
 	"898": {
 		id: 898,
 		name: "Überlastung",
-		description: "5 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Falls dieser Gegner gerade eine Fertigkeit wirkt, fügt Ihr diesem und den umstehenden Feinden 15...75 Punkte Schaden zu.",
-		concise: "(5 Sekunden.) Verursacht 1...3 Lebenspunktdegeneration. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleiden dieser und die umstehenden Feinde 15...75 Punkte Schaden."
+		description: "5 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleidet niemand 15...75 Punkte Schaden und der Gegner und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+		concise: "(5 Sekunden.) Verursacht -1...3 Lebenspunktdegeneration. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleidet niemand 15...75 Punkte Schaden und der Gegner und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56)."
 	},
 	"899": {
 		id: 899,
 		name: "Bilder der Reue",
 		description: "5...10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er mitten im Angriff war, erleidet er 10...52 Punkte Schaden.",
-		concise: "5...10 Sekunden: Verursacht +1...3 Lebenspunktdegeneration. Anfangswirkung: 10...52 Punkte Schaden, falls der Gegner gerade angreift."
+		concise: "5...10 Sekunden: Verursacht  -1...3 Lebenspunktdegeneration. Anfangswirkung: 10...52 Punkte Schaden, falls der Gegner gerade angreift."
 	},
 	"900": {
 		id: 900,
@@ -42059,8 +43592,8 @@ var skilldesc = {
 	"979": {
 		id: 979,
 		name: "Argwohn",
-		description: "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht beim Gegner und allen Feinden in der Nähe 10...100 Punkte Schaden.",
-		concise: "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet beim Gegner und Feinden in der Nähe 10...100 Punkte Schaden an."
+		description: "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht bei niemandem 10...80 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...60).",
+		concise: "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet bei niemandem 10...80 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...60) an."
 	},
 	"980": {
 		id: 980,
@@ -42101,8 +43634,8 @@ var skilldesc = {
 	"987": {
 		id: 987,
 		name: "Weg der leeren Handfläche",
-		description: "5...20 Sekunden lang kosten Begleithand- und Doppelangriffe keine Energiepunkte.",
-		concise: "5...20 Sekunden: Eure Begleithand- und Doppelangriffe kosten keine Energiepunkte."
+		description: "5...15 Sekunden lang kosten Begleithand- und Doppelangriffe keine Energiepunkte und werden um 25...50 % schneller aufgeladen.",
+		concise: "5...15 Sekunden: Eure Begleithand- und Doppelangriffe kosten keine Energiepunkte und werden um 25...50 % schneller aufgeladen."
 	},
 	"988": {
 		id: 988,
@@ -42185,8 +43718,8 @@ var skilldesc = {
 	"1021": {
 		id: 1021,
 		name: "Dschungelschlag",
-		description: "Muss einem Leithandangriff folgen. Wenn Dschungelschlag erfolgreich ist, fügt er dem Gegner +10...25 Punkte Schaden zu. Trifft er einen Gegner mit einer Verkrüppelung, nimmt der Gegner und alle umstehenden Gegner +1...31 zusätzlichen Schaden.",
-		concise: "Richtet +10...25 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden +1...31 Punkte Schaden an, falls der Gegner verkrüppelt ist. <gray>Muss einem Leithandangriff folgen.</gray>"
+		description: "Muss einem Leithandangriff folgen. Wenn Dschungelschlag erfolgreich ist, fügt er dem Gegner +10...25 Punkte Schaden zu. Trifft er einen Gegner mit einer Verkrüppelung, nimmt der Gegner und alle umstehenden Gegner 1...31 Schaden.",
+		concise: "Richtet +10...25 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden 1...31 Punkte Schaden an, falls der Gegner verkrüppelt ist. <gray>Muss einem Leithandangriff folgen.</gray>"
 	},
 	"1022": {
 		id: 1022,
@@ -42509,14 +44042,14 @@ var skilldesc = {
 	"1091": {
 		id: 1091,
 		name: "Doppeldrache",
-		description: "Ihr beschwört die Macht des Drachen. 8 Sekunden lang werden ein Verbündeter und Ihr mit Doppeldrache verzaubert. Umstehende Feinde erleiden pro Sekunde 5...30 Punkte Feuerschaden. Wenn Ihr oder Euer Verbündeter Fertigkeiten auf einen Feind anwenden, wird dieser Feind zudem 0...3 Sekunden lang in Brand gesetzt.",
-		concise: "(8 Sekunden.) Verzaubert Euch und einen Verbündeten. Umstehende Feinde erleiden pro Sekunde 5...30 Punkte Feuerschaden. Fertigkeiten gegen einen Feind verursachen zustätzlich Brennen (0...3 Sekunden)."
+		description: "Ihr beschwört die Macht des Drachen. 8 Sekunden lang werden ein Verbündeter und Ihr mit Doppeldrache verzaubert. Umstehende Feinde erleiden pro Sekunde 10...40 Punkte Feuerschaden. Wenn Ihr oder Euer Verbündeter Fertigkeiten auf einen Feind anwenden, wird dieser Feind zudem 1...4 Sekunden lang in Brand gesetzt.",
+		concise: "(8 Sekunden.) Verzaubert Euch und einen Verbündeten. Umstehende Feinde erleiden pro Sekunde 10...40 Punkte Feuerschaden. Fertigkeiten gegen einen Feind verursachen zustätzlich Brennen (1...4 Sekunden)."
 	},
 	"1093": {
 		id: 1093,
 		name: "Teinais Hitze",
 		description: "Erstellt für 10...15 Sekunden eine Abwehr von Teinais Hitze an Eurer Position <sic/> Feinde im Bereich haben 2...5 Lebenspunktedegeneration. Die Angriffe geschwächter Feinde sind um 33% verlangsamt. Diese Fertigkeit wird 20 Sekunden lang deaktiviert.",
-		concise: "(10...15 Sekunden) Verursacht +2...5 Lebenspunktdegeneration. Angriffe geschwächter Feinde im Bereich sind um 33% verlangsamt. Für 20 Sekunden deaktiviert."
+		concise: "(10...15 Sekunden) Verursacht  -2...5 Lebenspunktdegeneration. Angriffe geschwächter Feinde im Bereich sind um 33% verlangsamt. Für 20 Sekunden deaktiviert."
 	},
 	"1094": {
 		id: 1094,
@@ -42539,14 +44072,14 @@ var skilldesc = {
 	"1097": {
 		id: 1097,
 		name: "Teinais Gefängnis",
-		description: "1...8 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden. Wenn der Gegner an Beschädigter Rüstung leidet, sickert die Kälte durch und verursacht 5...9 Lebenspunktdegeneration.",
-		concise: "(1...8 Sekunden.) Gegner bewegt sich um 66% langsamer. Gegner mit Beschädigter Rüstung haben 5...9 Lebenspunktdegeneration."
+		description: "1...8 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden. Wenn der Gegner an Beschädigter Rüstung leidet, sickert die Kälte durch und verursacht -5...9 Lebenspunktdegeneration.",
+		concise: "(1...8 Sekunden.) Gegner bewegt sich um 66% langsamer. Gegner mit Beschädigter Rüstung haben -5...9 Lebenspunktdegeneration."
 	},
 	"1098": {
 		id: 1098,
 		name: "Eisspiegel",
-		description: "Zerbrecht einen Eisspiegel. Alle Feinde in Eurer Nähe und in der Nähe des verbündeten Ziels (bzw. Euch selbst) erleiden 15...70 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer. Wenn Ihr einen Gegner trefft, der mit Wassermagie verhext ist, beträgt die Wiederaufladezeit unveränderlich 6 Sekunden.",
-		concise: "Richtet 15...70 Punkte Kälteschaden an und verlangsamt Feinde um 66% (2...6 Sekunden). Trifft Feinde in Eurer Nähe und in der Nähe Eures Verbündeten. Unveränderliche Wiederaufladezeit von 6 Sekunden, falls ein getroffener Gegner mit Wassermagie verhext ist."
+		description: "Zerbrecht einen Eisspiegel. Alle Feinde in Eurer Nähe und in der Nähe des verbündeten Ziels (bzw. Euch selbst) erleiden 15...70 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer. Wenn Ihr einen Gegner trefft, der mit Wassermagie verhext ist, beträgt die Wiederaufladezeit unveränderlich 7 Sekunden.",
+		concise: "Richtet 15...70 Punkte Kälteschaden an und verlangsamt Feinde um 66% (2...6 Sekunden). Trifft Feinde in Eurer Nähe und in der Nähe Eures Verbündeten. Unveränderliche Wiederaufladezeit von 7 Sekunden, falls ein getroffener Gegner mit Wassermagie verhext ist."
 	},
 	"1099": {
 		id: 1099,
@@ -42581,8 +44114,8 @@ var skilldesc = {
 	"1118": {
 		id: 1118,
 		name: "Heilsalve",
-		description: "Der Verbündete (bzw. Ihr selbst) wird um 10...160 Lebenspunkte geheilt. Alle Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des mit diesem Zauber verbundenen Gunst-der-Götter-Bonus. Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
-		concise: "Heilt um 10...160 Lebenspunkte. Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des Gunst-der-Götter-Bonus. Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
+		description: "Der Verbündete (bzw. Ihr selbst) wird um 20...120 Lebenspunkte geheilt. Alle Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des mit diesem Zauber verbundenen Gunst-der-Götter-Bonus. Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
+		concise: "Heilt um 20...120 Lebenspunkte. Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des Gunst-der-Götter-Bonus. Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
 	},
 	"1119": {
 		id: 1119,
@@ -42875,8 +44408,8 @@ var skilldesc = {
 	"1228": {
 		id: 1228,
 		name: "Geist abzapfen",
-		description: "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 15...50% dieser Energie.",
-		concise: "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 15...50% dieser Energie."
+		description: "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 30...60% dieser Energie.",
+		concise: "Der Euch am nächsten stehende Geist verliert seine gesamte Energie. Ihr erhaltet 30...60% dieser Energie."
 	},
 	"1229": {
 		id: 1229,
@@ -43013,8 +44546,8 @@ var skilldesc = {
 	"1257": {
 		id: 1257,
 		name: "Geisterlichtwaffe",
-		description: "Während der nächsten 10 Sekunden erhält der Verbündete (bzw. Ihr selbst) pro Sekunde 1...15 Lebenspunkte sowie zusätzlich 1...15 Lebenspunkte pro Sekunde, wenn dieser Verbündete sich in Hörweite eines Geistes befindet.",
-		concise: "10 Sekunden: Heilt jede Sekunde um 1...15 Lebenspunkte. In Hörweite eines Geistes erhöht sich die Heilung um 1...15 Lebenspunkte pro Sekunde."
+		description: "Während der nächsten 10 Sekunden erhält der Verbündete (bzw. Ihr selbst) pro Sekunde 5...25 Lebenspunkte sowie zusätzlich 5...25 Lebenspunkte pro Sekunde, wenn dieser Verbündete sich in Hörweite eines Geistes befindet.",
+		concise: "10 Sekunden: Heilt jede Sekunde um 5...25 Lebenspunkte. In Hörweite eines Geistes erhöht sich die Heilung um 5...25 Lebenspunkte pro Sekunde."
 	},
 	"1258": {
 		id: 1258,
@@ -43163,14 +44696,14 @@ var skilldesc = {
 	"1345": {
 		id: 1345,
 		name: "Rätsel des Verzauberers",
-		description: "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleiden er und alle umstehenden Feinde 10...100 Punkte Schaden.",
-		concise: "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Richtet beim Gegner und allen umstehenden Feinden 10...100 Punkte Schaden an, falls der Gegner nicht verzaubert ist."
+		description: "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
+		concise: "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Ist der Gegner nicht verzaubert, leidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75)."
 	},
 	"1346": {
 		id: 1346,
 		name: "Siegel der Illusionen",
-		description: "Euer nächster<sic/> 1...3 Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut.",
-		concise: "Euer nächster 1...3 Zauber verwenden Euer Attribut Illusionsmagie statt seines normalen Attributs."
+		description: "Eure nächsten 1...3 Nicht-Illusionsmagie-Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut.",
+		concise: "Eure nächsten 1...3 Nicht-Illusionsmagie-Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut."
 	},
 	"1347": {
 		id: 1347,
@@ -43254,7 +44787,7 @@ var skilldesc = {
 		id: 1362,
 		name: "Verzauberung verderben",
 		description: "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung auf diese Weise erleidet der Gegner 10 Sekunden lang eine Lebenspunktdegeneration von -1...8.",
-		concise: "Entfernt eine Verzauberung vom Gegner. Entfernungswirkung: +1...8 Lebenspunktdegeneration (10 Sekunden)."
+		concise: "Entfernt eine Verzauberung vom Gegner. Entfernungswirkung:  -1...8 Lebenspunktdegeneration (10 Sekunden)."
 	},
 	"1363": {
 		id: 1363,
@@ -43313,8 +44846,8 @@ var skilldesc = {
 	"1372": {
 		id: 1372,
 		name: "Sandsturm",
-		description: "Am Standort des Gegners wird ein Sandsturm erzeugt. Während der nächsten 10 Sekunden erleiden Gegner in der Nähe 10...30 Punkte Erdschaden pro Sekunde. Angreifende Feinde erleiden pro Sekunde zusätzlich 10...30 Punkte Erdschaden.",
-		concise: "Richtet jede Sekunde 10...30 Punkte Erdschaden an (10 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Gegners. Richtet bei angreifenden Feinden zusätzlich jede Sekunde 10...30 Punkte Erdschaden an."
+		description: "Am Standort des Gegners wird ein Sandsturm erzeugt. Während der nächsten 10 Sekunden erleiden Gegner in der Nähe 20...40 Punkte Erdschaden pro Sekunde. Angreifende Feinde erleiden pro Sekunde zusätzlich 10...30 Punkte Erdschaden.",
+		concise: "Richtet jede Sekunde 20...40 Punkte Erdschaden an (10 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Gegners. Richtet bei angreifenden Feinden zusätzlich jede Sekunde 10...30 Punkte Erdschaden an."
 	},
 	"1373": {
 		id: 1373,
@@ -43475,8 +45008,8 @@ var skilldesc = {
 	"1406": {
 		id: 1406,
 		name: "Kopfstoß",
-		description: "Der berührte Gegner erleidet 40...100 Punkte Schaden. Ihr leidet 5 Sekunden lang unter Benommenheit.",
-		concise: "Richtet 40...100 Punkte Schaden an. Ihr seid benommen (5 Sekunden)."
+		description: "Der berührte Gegner erleidet 40...100 Punkte Schaden. Ihr leidet 10 Sekunden lang unter Benommenheit.",
+		concise: "Richtet 40...100 Punkte Schaden an. Ihr seid benommen (10 Sekunden)."
 	},
 	"1407": {
 		id: 1407,
@@ -43685,8 +45218,8 @@ var skilldesc = {
 	"1490": {
 		id: 1490,
 		name: "Frommer Angriff",
-		description: "Entfernt 1 Derwisch-Verzauberung. Wenn der Angriff erfolgreich ist, fügt er +10...20 Punkte Schaden zu. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 10...30 Punkte Schaden.",
-		concise: "Richtet +10...20 Punkte Schaden an. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 10...30 Punkte Schaden."
+		description: "Entfernt 1 Derwisch-Verzauberung. Wenn der Angriff erfolgreich ist, fügt er +10...20 Punkte Schaden zu. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 15...40 Punkte Schaden.",
+		concise: "Richtet +10...20 Punkte Schaden an. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkte Schaden."
 	},
 	"1491": {
 		id: 1491,
@@ -43733,8 +45266,8 @@ var skilldesc = {
 	"1500": {
 		id: 1500,
 		name: "Trugbild-Umhang",
-		description: "1...7 Sekunden lang habt Ihr eine 40...80%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
-		concise: "(1...7 Sekunden.) Ihr habt eine 40...80%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
+		description: "1...7 Sekunden lang habt Ihr eine 30...60%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
+		concise: "(1...7 Sekunden.) Ihr habt eine 30...60%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
 	},
 	"1502": {
 		id: 1502,
@@ -43805,8 +45338,8 @@ var skilldesc = {
 	"1514": {
 		id: 1514,
 		name: "Flüchtige Stabilität",
-		description: "Während der nächsten 2...6 Sekunden könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
-		concise: "(2...6 Sekunden.) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
+		description: "Während der nächsten 4...10 Sekunden könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
+		concise: "(4...10 Sekunden.) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
 	},
 	"1515": {
 		id: 1515,
@@ -43961,8 +45494,8 @@ var skilldesc = {
 	"1540": {
 		id: 1540,
 		name: "Überzeugung",
-		description: "Wenn Ihr unter einem Zustand leidet, erhaltet Ihr 10 Sekunden lang +10 Rüstung und 1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wenn diese Verzauberung endet, werdet Ihr von 1...2 Zuständen geheilt.",
-		concise: "(10 Sekunden.) Ihr erhaltet +10 Rüstung, wenn Ihr unter einem Zustand leidet. Ihr erhaltet 1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wirkung am Ende: Entfernt 1...2 Zustände."
+		description: "Wenn Ihr unter einem Zustand leidet, erhaltet Ihr 10 Sekunden lang +10 Rüstung und +1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wenn diese Verzauberung endet, werdet Ihr von 1...2 Zuständen geheilt.",
+		concise: "(10 Sekunden.) Ihr erhaltet +10 Rüstung, wenn Ihr unter einem Zustand leidet. Ihr erhaltet +1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wirkung am Ende: Entfernt 1...2 Zustände."
 	},
 	"1541": {
 		id: 1541,
@@ -43985,8 +45518,8 @@ var skilldesc = {
 	"1544": {
 		id: 1544,
 		name: "Wirbelangriff",
-		description: "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...60 Kälteschaden und diese Verzauberung endet.",
-		concise: "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...60 Kälteschaden zu und die Verzauberung endet."
+		description: "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...50 Kälteschaden und diese Verzauberung endet.",
+		concise: "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...50 Kälteschaden zu und die Verzauberung endet."
 	},
 	"1545": {
 		id: 1545,
@@ -44009,8 +45542,8 @@ var skilldesc = {
 	"1548": {
 		id: 1548,
 		name: "Grausamer Speer",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...31 Punkte Schaden zu. Wenn Ihr ein Ziel trefft, das sich nicht bewegt, fügt Ihr 5...20 Sekunden lang eine Tiefe Wunde zu.",
-		concise: "Richtet +1...31 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls der Gegner sich nicht bewegt."
+		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...50 Punkte Schaden zu. Wenn Ihr ein Ziel trefft, das sich nicht bewegt, fügt Ihr 5...20 Sekunden lang eine Tiefe Wunde zu.",
+		concise: "Richtet +10...50 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls der Gegner sich nicht bewegt."
 	},
 	"1549": {
 		id: 1549,
@@ -44327,8 +45860,8 @@ var skilldesc = {
 	"1602": {
 		id: 1602,
 		name: "Betäubender Schlag",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...30 Punkte Schaden zu. Wenn er einen Feind trifft, der unter einem Zustand leidet, wird dieser 4...10 Sekunden lang betäubt.",
-		concise: "Richtet +5...30 Punkte Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunden), falls der Gegner einen Zustand hat."
+		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...50 Punkte Schaden zu. Wenn er einen Feind trifft, der unter einem Zustand leidet, wird dieser 4...10 Sekunden lang betäubt.",
+		concise: "Richtet +10...50 Punkte Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunden), falls der Gegner einen Zustand hat."
 	},
 	"1603": {
 		id: 1603,
@@ -45029,8 +46562,8 @@ var skilldesc = {
 	"1782": {
 		id: 1782,
 		name: "\"Die Macht ist Euer!\"",
-		description: "3 Sekunden lang erhalten alle Verbündeten in Hörweite +0...1 Energieregeneration.",
-		concise: "3 Sekunden: Verbündete in Hörweite erhalten +0...1 Energieregeneration."
+		description: "2...4 Sekunden lang erhalten alle Verbündeten in Hörweite +1...2 Energieregeneration.",
+		concise: "2...4 Sekunden: Verbündete in Hörweite erhalten +1...2 Energieregeneration."
 	},
 	"1783": {
 		id: 1783,
@@ -45215,8 +46748,8 @@ var skilldesc = {
 	"2003": {
 		id: 2003,
 		name: "Verhexung heilen",
-		description: "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Wenn eine Verhexung entfernt wurde, wird der Verbündete um 30...120 Lebenspunkte geheilt.",
-		concise: "Entfernt eine Verhexung. Entfernungswirkung: Heilt um 30...120 Lebenspunkte."
+		description: "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Wenn eine Verhexung entfernt wurde, wird der Verbündete um 30...100 Lebenspunkte geheilt.",
+		concise: "Entfernt eine Verhexung. Entfernungswirkung: Heilt um 30...100 Lebenspunkte."
 	},
 	"2004": {
 		id: 2004,
@@ -45330,7 +46863,7 @@ var skilldesc = {
 		id: 2054,
 		name: "Schrumpfende Rüstung",
 		description: "10 Sekunden lang leidet der Gegner an einer Lebenspunktdegeneration von -1...4. Wenn diese Verhexung endet, hat der Gegner 5...20 Sekunden lang eine Beschädigte Rüstung.",
-		concise: "10 Sekunden: Verursacht +1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden)."
+		concise: "10 Sekunden: Verursacht  -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden)."
 	},
 	"2055": {
 		id: 2055,
@@ -45354,7 +46887,7 @@ var skilldesc = {
 		id: 2058,
 		name: "Verwesende Galle",
 		description: "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkte Schaden.",
-		concise: "5...20 Sekunden: Verursacht +1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
+		concise: "5...20 Sekunden: Verursacht  -1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
 	},
 	"2059": {
 		id: 2059,
@@ -46061,8 +47594,8 @@ var skilldesc = {
 	"2379": {
 		id: 2379,
 		name: "Segen des Wolfes",
-		description: "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an. 60 Sekunden lang habt Ihr 80 Rüstung, 660...700 Lebenspunkte und 2...4 Lebenspunktregeneration. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Wolfsangriffe ersetzt.",
-		concise: "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Wolfsangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkte und 2...4 Lebenspunktregeneration."
+		description: "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an. 60 Sekunden lang habt Ihr 80 Rüstung, 660...700 Lebenspunkte und +2...4 Lebenspunktregeneration. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Wolfsangriffe ersetzt.",
+		concise: "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Wolfsangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkte und +2...4 Lebenspunktregeneration."
 	},
 	"2384": {
 		id: 2384,
@@ -46092,7 +47625,7 @@ var skilldesc = {
 		id: 2414,
 		name: "Strahlungsfeld",
 		description: "5 Sekunden lang unterliegen Feinde in dem Bereich einer Lebenspunktdegeneration von -4...6. Wenn das Portal endet, leiden alle Feinde in dem Bereich 12...20 Sekunden lang an Krankheit.",
-		concise: "5 Sekunden: Verursacht bei Feinden im Bereich +4...6 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Feinden im Bereich den Zustand Krankheit (12...20 Sekunden)."
+		concise: "5 Sekunden: Verursacht bei Feinden im Bereich  -4...6 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Feinden im Bereich den Zustand Krankheit (12...20 Sekunden)."
 	},
 	"2415": {
 		id: 2415,
@@ -46769,8 +48302,8 @@ var skilldesc = {
 	"3152": {
 		id: 3152,
 		name: "Verkrüppelnde Qual (PvP)",
-		description: "5...20 Sekunden lang bewegt sich das Ziel um 50% langsamer und unterliegt einer Lebenspunktdegeneration von -1...5.",
-		concise: "5...20 Sekunden: Bewegungen des Gegners sind um 50% langsamer und er hat +1...5 Lebenspunktdegeneration."
+		description: "5...20 Sekunden lang bewegt sich das Ziel um 50% langsamer und unterliegt einer Lebenspunktdegeneration von -2...6.",
+		concise: "5...20 Sekunden: Bewegungen des Gegners sind um 50% langsamer und er hat  -2...6 Lebenspunktdegeneration."
 	},
 	"3156": {
 		id: 3156,
@@ -46793,20 +48326,20 @@ var skilldesc = {
 	"3180": {
 		id: 3180,
 		name: "Täuschungen brechen (PvP)",
-		description: "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, nehmen dieser Gegner und alle umstehenden Gegner 15...75 Punkte Schaden.",
-		concise: "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungseffekt: richtet<sic/> beim Gegner und allen umstehenden Feinden 15...75 Punkte Schaden an."
+		description: "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, erleidet er 15...75 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+		concise: "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel 15...75 Punkte Schaden an und bei umstehenden Feinden 75% dieses Schadens (11...56)."
 	},
 	"3181": {
 		id: 3181,
 		name: "Illusion der Waffen (PvP)",
-		description: "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 8...40 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
-		concise: "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 8...40 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
+		description: "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 16...50 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
+		concise: "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 16...50 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
 	},
 	"3183": {
 		id: 3183,
 		name: "Migräne (PvP)",
-		description: "3...12 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und braucht 100% länger, um Fertigkeiten zu aktivieren.",
-		concise: "(3...12 Sekunden.) Verursacht +1...8 Lebenspunktdegeneration und verdoppelt die Aktivierungszeit von Fertigkeiten."
+		description: "4...16 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und braucht 100% länger, um Fertigkeiten zu aktivieren.",
+		concise: "(4...16 Sekunden.) Verursacht  -1...8 Lebenspunktdegeneration und verdoppelt die Aktivierungszeit von Fertigkeiten."
 	},
 	"3184": {
 		id: 3184,
@@ -46853,14 +48386,14 @@ var skilldesc = {
 	"3191": {
 		id: 3191,
 		name: "Argwohn (PvP)",
-		description: "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen Eurer Verbündeten richtet<sic/> und richtet beim Gegner und allen Feinden in der Nähe 10...75 Punkte Schaden an.",
-		concise: "6 Sekunden: Der nächste Zauber, den der Gegner auf einen Eurer Verbündeten richtet, scheitert und richtet beim Gegner und Feinden in er<sic/> Nähe 10...75 Punkte Schaden an."
+		description: "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht bei niemandem 10...60 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...45).",
+		concise: "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet bei niemandem 10...60 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...45) an."
 	},
 	"3192": {
 		id: 3192,
 		name: "Rätsel des Verzauberers (PvP)",
-		description: "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleiden er und alle umstehenden Feinde 10...100 Punkte Schaden.",
-		concise: "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Richtet beim Gegner und allen umstehenden Feinden 10...100 Punkte Schaden an, falls der Gegner nicht verzaubert ist."
+		description: "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
+		concise: "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Ist der Gegner nicht verzaubert, leidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75)."
 	},
 	"3193": {
 		id: 3193,
@@ -46943,8 +48476,8 @@ var skilldesc = {
 	"3266": {
 		id: 3266,
 		name: "Frommer Angriff (PvP)",
-		description: "Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 10...30 Punkte Schaden.",
-		concise: "Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 10...30 Punkte Schaden."
+		description: "Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 15...40 Punkte Schaden.",
+		concise: "Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkte Schaden."
 	},
 	"3269": {
 		id: 3269,
@@ -46973,8 +48506,8 @@ var skilldesc = {
 	"3273": {
 		id: 3273,
 		name: "Siegel der frommen Zurückhaltung (PvP)",
-		description: "Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner 5...15 Sekunden lang \"Verkrüppelung\" zu. Wenn eine Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf.",
-		concise: "Verkrüppelt den Gegner (5...15 Sekunden) und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Lädt 75% schneller wieder auf."
+		description: "Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner 5...15 Sekunden lang \"Verkrüppelung\" zu. Wenn eine Verzauberung entfernt wurde, lädt diese Fertigkeit 50% schneller wieder auf.",
+		concise: "Verkrüppelt den Gegner (5...15 Sekunden) und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Lädt 50% schneller wieder auf."
 	},
 	"3289": {
 		id: 3289,

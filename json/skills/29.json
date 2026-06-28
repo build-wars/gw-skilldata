@@ -5,7 +5,7 @@
 		"campaign": 1,
 		"profession": 5,
 		"attribute": 2,
-		"type": 1,
+		"type": 35,
 		"is_elite": false,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 1,
 		"recharge": 12,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Mesmer",
 				"profession_abbr": "Me",
 				"attribute": "Beherrschungsmagie",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Blackout",
 				"description": "For 2...6 seconds, all of touched target foe's skills are disabled, and all of your skills are disabled for 5 seconds.",
-				"concise": "(2...6 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>",
+				"concise": "Touch Skill. (2...6 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>",
 				"campaign": "Prophecies",
 				"profession": "Mesmer",
 				"profession_abbr": "Me",
 				"attribute": "Domination Magic",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}

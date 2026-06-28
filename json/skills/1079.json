@@ -5,7 +5,7 @@
 		"campaign": 2,
 		"profession": 4,
 		"attribute": 7,
-		"type": 1,
+		"type": 35,
 		"is_elite": false,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Nekromant",
 				"profession_abbr": "N",
 				"attribute": "Flüche",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Enfeebling Touch",
 				"description": "Target touched foe loses 5...65 Health and suffers from Weakness for 5...20 seconds.",
-				"concise": "Causes 5...65 Health loss. Inflicts Weakness condition (5...20 seconds).",
+				"concise": "Touch Skill. Causes 5...65 Health loss. Inflicts Weakness condition (5...20 seconds).",
 				"campaign": "Factions",
 				"profession": "Necromancer",
 				"profession_abbr": "N",
 				"attribute": "Curses",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}

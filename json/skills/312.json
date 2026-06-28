@@ -5,7 +5,7 @@
 		"campaign": 1,
 		"profession": 3,
 		"attribute": 14,
-		"type": 1,
+		"type": 35,
 		"is_elite": false,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Mönch",
 				"profession_abbr": "Mö",
 				"attribute": "Peinigungsgebete",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Holy Strike",
 				"description": "Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
-				"concise": "Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down.",
+				"concise": "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down.",
 				"campaign": "Prophecies",
 				"profession": "Monk",
 				"profession_abbr": "Mo",
 				"attribute": "Smiting Prayers",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}

@@ -5,7 +5,7 @@
 		"campaign": 4,
 		"profession": 1,
 		"attribute": 101,
-		"type": 1,
+		"type": 35,
 		"is_elite": false,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Krieger",
 				"profession_abbr": "K",
 				"attribute": "Kein Attribut",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Grapple",
 				"description": "You and target touched foe are knocked down. You lose your current stance.",
-				"concise": "Causes knockdown. You are also knocked down. <gray>Your current stance ends.</gray>",
+				"concise": "Touch Skill. Causes knockdown. You are also knocked down. <gray>Your current stance ends.</gray>",
 				"campaign": "Eye of the North",
 				"profession": "Warrior",
 				"profession_abbr": "W",
 				"attribute": "No Attribute",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}

@@ -5,7 +5,7 @@
 		"campaign": 2,
 		"profession": 7,
 		"attribute": 30,
-		"type": 1,
+		"type": 35,
 		"is_elite": false,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Assassine",
 				"profession_abbr": "A",
 				"attribute": "Tödliche Künste",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Iron Palm",
 				"description": "Target touched foe suffers 5...50 damage, and if that foe is suffering from a hex or condition that foe is knocked down. Iron Palm counts as a lead attack.",
-				"concise": "Deals 5...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack.",
+				"concise": "Touch Skill. Deals 5...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack.",
 				"campaign": "Factions",
 				"profession": "Assassin",
 				"profession_abbr": "A",
 				"attribute": "Deadly Arts",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}

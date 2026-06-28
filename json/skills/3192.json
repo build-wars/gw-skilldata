@@ -16,13 +16,14 @@
 		"activation": 2,
 		"recharge": 20,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
 			"de": {
 				"name": "Rätsel des Verzauberers (PvP)",
-				"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleiden er und alle umstehenden Feinde 10...100 Punkte Schaden.",
-				"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Richtet beim Gegner und allen umstehenden Feinden 10...100 Punkte Schaden an, falls der Gegner nicht verzaubert ist.",
+				"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
+				"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Ist der Gegner nicht verzaubert, leidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
 				"campaign": "Nightfall",
 				"profession": "Mesmer",
 				"profession_abbr": "Me",
@@ -31,8 +32,8 @@
 			},
 			"en": {
 				"name": "Enchanter's Conundrum (PvP)",
-				"description": "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe and all adjacent foes take 10...100 damage.",
-				"concise": "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: deals 10...100 damage to target and adjacent foes if target foe is not enchanted.",
+				"description": "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...100 damage and all adjacent foes take 75% of that damage.",
+				"concise": "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted<sic/> deals 10...100 damage to target and 75% of that damage to adjacent foes.",
 				"campaign": "Nightfall",
 				"profession": "Mesmer",
 				"profession_abbr": "Me",

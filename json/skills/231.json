@@ -5,7 +5,7 @@
 		"campaign": 1,
 		"profession": 6,
 		"attribute": 8,
-		"type": 1,
+		"type": 35,
 		"is_elite": false,
 		"is_rp": false,
 		"is_pvp": false,
@@ -16,6 +16,7 @@
 		"activation": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
+		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
@@ -27,17 +28,17 @@
 				"profession": "Elementarmagier",
 				"profession_abbr": "E",
 				"attribute": "Luftmagie",
-				"type": "Fertigkeit"
+				"type": "Berührungsfertigkeit"
 			},
 			"en": {
 				"name": "Shock",
 				"description": "Target touched foe is knocked down and struck for 10...60 lightning damage. This skill has 25% armor penetration.",
-				"concise": "Deals 10...60 lightning damage. Causes knock-down. 25% armor penetration.",
+				"concise": "Touch Skill. Deals 10...60 lightning damage. Causes knock-down. 25% armor penetration.",
 				"campaign": "Prophecies",
 				"profession": "Elementalist",
 				"profession_abbr": "E",
 				"attribute": "Air Magic",
-				"type": "Skill"
+				"type": "Touch Skill"
 			}
 		}
 	}
