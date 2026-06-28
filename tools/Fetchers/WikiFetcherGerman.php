@@ -165,6 +165,8 @@ final class WikiFetcherGerman extends WikiFetcher{
 			default                            => '',
 		};
 
+		$adrenaline_precise = str_replace(',', '.', ($infobox['adrenalingenau'] ?? $infobox['adrenalin'] ?? '0')); // seriously???
+
 		return [
 			[
 				$infobox['name'],
@@ -177,7 +179,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 				'activation'         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
 				'recharge'           => intval(($infobox['wiederaufladung'] ?? 0)),
 				'adrenaline'         => intval(($infobox['adrenalin'] ?? 0)),
-				'adrenaline_precise' => abs(floatval(str_replace(',', '.', ($infobox['adrenalingenau'] ?? '0')))), // seriously???
+				'adrenaline_precise' => abs(floatval($adrenaline_precise)),
 				'sacrifice'          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
 				'overcast'           => intval(($infobox['erschöpfung'] ?? 0)),
 			],

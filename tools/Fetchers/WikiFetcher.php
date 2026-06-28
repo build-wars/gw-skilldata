@@ -24,7 +24,6 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use function abs;
 use function array_key_exists;
 use function array_map;
 use function array_values;
@@ -227,7 +226,7 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 		// we have a float somehow
 		if(preg_match('/\d+\.\d+/', $str) > 0){
-			return abs(floatval($str));
+			return (floatval($str));
 		}
 
 		$calc = function(string $fraction):float{
@@ -238,7 +237,7 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 			[$top, $bottom] = explode('/', trim($fraction));
 
-			return abs(intval($top) / intval($bottom));
+			return (intval($top) / intval($bottom));
 		};
 
 		$parts = explode(' ', $str, 2);
