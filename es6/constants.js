@@ -677,7 +677,7 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Keine Fertigkeit',
-			en: 'Not a Skill',
+			en: 'No Skill',
 		},
 	},
 	{
@@ -785,13 +785,13 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Binderitual',
-			en: 'Binding ritual',
+			en: 'Binding Ritual',
 		},
 	},
 	{
 		name: {
 			de: 'Naturritual',
-			en: 'Nature ritual',
+			en: 'Nature Ritual',
 		},
 	},
 	{
@@ -815,7 +815,7 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Verzauberung',
-			en: 'Enchantment spell',
+			en: 'Enchantment Spell',
 		},
 	},
 	{
@@ -863,7 +863,7 @@ const SKILLTYPES = [
 	{
 		name: {
 			de: 'Distanzangriff',
-			en: 'Ranged attack',
+			en: 'Ranged Attack',
 		},
 	},
 	{
@@ -882,6 +882,54 @@ const SKILLTYPES = [
 		name: {
 			de: 'Doppelverzauberung',
 			en: 'Double Enchantment',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungsfertigkeit',
+			en: 'Touch Skill',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungszauber',
+			en: 'Touch Spell',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungsverzauberung',
+			en: 'Touch Enchantment Spell',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungsverhexung',
+			en: 'Touch Hex Spell',
+		},
+	},
+	{
+		name: {
+			de: 'Berührungssiegel',
+			en: 'Touch Signet',
+		},
+	},
+	{
+		name: {
+			de: 'Angriffsfertigkeit',
+			en: 'Attack Skill',
+		},
+	},
+	{
+		name: {
+			de: 'Dolchangriff',
+			en: 'Dagger Attack',
+		},
+	},
+	{
+		name: {
+			de: 'Ritual',
+			en: 'Ritual',
 		},
 	},
 ];
