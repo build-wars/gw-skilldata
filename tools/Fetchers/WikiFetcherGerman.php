@@ -11,18 +11,21 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillDataTools;
+namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use function array_column;
 use function array_combine;
 use function array_filter;
 use function array_map;
-use function count;
 use function explode;
+use function floatval;
 use function in_array;
+use function intval;
 use function preg_replace;
 use function sprintf;
 use function str_ireplace;
+use function str_replace;
+use function strtr;
 use function trim;
 
 /**
@@ -31,9 +34,10 @@ use function trim;
 final class WikiFetcherGerman extends WikiFetcher{
 
 	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';
-	protected const CACHEDIR      = __DIR__.'/../.build/guildwiki/';
+	protected const CACHEDIR      = __DIR__.'/../../.build/guildwiki/';
 
 	protected const REDIRECTS = [
+		216  => 'Eisennebel',
 		316  => 'Bis ans Limit!',
 		333  => 'Ich werde Euch rächen!',
 		343  => 'Für höhere Gerechtigkeit!',
@@ -61,7 +65,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 	protected function parseResponse(array $data, int $id):array|null{
 
 		if($id === 0){
-			return ['Keine Fertigkeit', 'Leerer Fertigkeiten-Slot', 'Leerer Slot'];
+			return [['Keine Fertigkeit', 'Leerer Fertigkeiten-Slot', 'Leerer Slot'], null];
 		}
 
 		if(!isset($data['revisions'][0]['slots']['main']['*'])){
@@ -70,12 +74,22 @@ final class WikiFetcherGerman extends WikiFetcher{
 
 		$data = $data['revisions'][0]['slots']['main']['*'];
 
-		// remove some templates first
-		$data = str_ireplace(
-			['{{pipe}}}', '{{{pipe}}', '{{pipe}}', '{{!-}}', "'''", '{{sic}}'],
-			['', '', '', '', '', '<sic/>]'],
-			$data,
-		);
+		// remove/fix some templates first
+		$data = strtr($data, [
+			'{{pipe}}}' => '',
+			'{{{pipe}}' => '',
+			'{{pipe}}'  => '',
+			'{{!-}}'    => '',
+			"'''"       => '',
+			'{{sic}}'   => '<sic/>',
+			'{{1/2}}'   => ' 1/2',
+			'{{1/4}}'   => ' 1/4',
+			'{{3/4}}'   => ' 3/4',
+			'[s]'       => '(s)',
+			'&#45;'     => '+',
+			'&nbsp;'    => ' ',
+			'  '        => ' ',
+		]);
 
 		$infobox = $this->getInfobox($data, 'infobox fertigkeit');
 
@@ -110,13 +124,6 @@ final class WikiFetcherGerman extends WikiFetcher{
 
 		$infobox = preg_replace($s, $r, $infobox);
 
-		// fix some things
-		$infobox = str_ireplace(
-			['&#45;', '[s]', '&nbsp;', '  '],
-			['+', '(s)', ' ', ' '],
-			$infobox,
-		);
-
 		// clean out unwanted braces and stuff
 		$infobox = str_ireplace(
 			[
@@ -135,37 +142,46 @@ final class WikiFetcherGerman extends WikiFetcher{
 			[
 				'/(?:regeneration von ((?:\d+)([.]+(?:\d+))?))/',
 				'/(?:degeneration von \+?((?:\d+)(?:[.]+(?:\d+))?))/',
-				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebens|Energie)regeneration))/i',
+				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunkt|Lebens|Energie)regeneration))/i',
+				'/(?:[^-]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunkt|Lebens|Energie)degeneration))/i',
 			],
 			[
 				'regeneration von +$1',
 				'degeneration von -$1',
 				' +$1',
+				' -$1',
 			],
 			$infobox,
 		);
 
 		// split into key=value pairs
 		$infobox = array_map($this->splitKV(...), array_filter(explode('|', trim($infobox))));
-
-		// fix some empty parameters
-		foreach($infobox as &$e){
-			if(count($e) < 2){
-				$e[] = '';
-			}
-		}
-
 		// combine keys and values
 		$infobox = array_combine(array_column($infobox, 0), array_column($infobox, 1));
 
-		if(in_array($id, self::Luxon, true)){
-			$infobox['name'] .= ' (Luxon)';
-		}
-		elseif(in_array($id, self::Kurzick, true)){
-			$infobox['name'] .= ' (Kurzick)';
-		}
+		$infobox['name'] .= match(true){
+			in_array($id, self::Luxon, true)   => ' (Luxon)',
+			in_array($id, self::Kurzick, true) => ' (Kurzick)',
+			default                            => '',
+		};
 
-		return [$infobox['name'], $infobox['beschreibung'], $infobox['kurzbeschreibung']];
+		return [
+			[
+				$infobox['name'],
+				$infobox['beschreibung'],
+				$infobox['kurzbeschreibung'],
+			],
+			[
+				'upkeep'             => intval(($infobox['energieregeneration'] ?? 0)),
+				'energy'             => intval(($infobox['energie'] ?? 0)),
+				'activation'         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
+				'recharge'           => intval(($infobox['wiederaufladung'] ?? 0)),
+				'adrenaline'         => intval(($infobox['adrenalin'] ?? 0)),
+				'adrenaline_precise' => abs(floatval(str_replace(',', '.', ($infobox['adrenalingenau'] ?? '0')))), // seriously???
+				'sacrifice'          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
+				'overcast'           => intval(($infobox['erschöpfung'] ?? 0)),
+			],
+		];
 	}
 
 }

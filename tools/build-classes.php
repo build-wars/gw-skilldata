@@ -17,6 +17,7 @@ use function implode;
 use function is_bool;
 use function sprintf;
 use function str_replace;
+use function strtoupper;
 
 /**
  * @phan-file-suppress PhanUndeclaredGlobalVariable ??
@@ -29,7 +30,7 @@ require_once __DIR__.'/common.php';
  * skill data
  */
 
-$json = File::loadJSON(dataFile, true);
+$json = File::loadJSON(DATA_FILE, true);
 
 // dump the PHP class
 $content = [
@@ -64,7 +65,7 @@ $logger->info(sprintf('class SkillData saved in %s', File::realpath($classFile))
  * skill descriptions
  */
 
-foreach(langFiles as $lang => [$abbr, $file]){
+foreach(LANG_FILES as $lang => [$abbr, $file]){
 	$json = File::loadJSON($file, true);
 
 	// unset the "id" field here
@@ -78,7 +79,7 @@ foreach(langFiles as $lang => [$abbr, $file]){
 		'declare(strict_types=1);',
 		'namespace Buildwars\\GWSkillData;',
 		sprintf('final class SkillLang%s extends SkillData{', $lang),
-		sprintf("public const LANG = '%s';", $abbr),
+		sprintf('public const LANG = self::LANG_%s;', strtoupper($abbr)),
 		'public const ID2DESC = [',
 	];
 

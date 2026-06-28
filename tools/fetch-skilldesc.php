@@ -11,9 +11,15 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
+use Buildwars\GWSkillData\Skilltype;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherEnglish;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherGerman;
 use chillerlan\HTTP\Psr7\HTTPFactory;
 use chillerlan\Utilities\File;
 use chillerlan\Utilities\Str;
+use function array_column;
+use function array_combine;
+use function array_keys;
 use function sprintf;
 use function str_replace;
 
@@ -28,28 +34,43 @@ const fetchers = [
 	'German'  => WikiFetcherGerman::class,
 ];
 
-const from_cache = false;
+const update_skilldata = true;
+const from_cache       = true;
 
 $httpFactory = new HTTPFactory;
+$jsonData    = File::loadJSON(DATA_FILE, true);
 
 foreach(fetchers as $language => $fqcn){
 	// invoke fetcher
-	/** @var \Buildwars\GWSkillDataTools\WikiFetcher $fetcher */
+	/** @var \Buildwars\GWSkillDataTools\Fetchers\WikiFetcher $fetcher */
 	$fetcher = new $fqcn($http, $httpFactory, $httpFactory, $httpFactory, $logger);
 
 	// load the previously created JSON (see parse-pwnd)
-	[, $skilldescJSON] = langFiles[$language];
+	[$lang, $skilldescJSON] = LANG_FILES[$language];
 
-	$skilldesc = File::loadJSON($skilldescJSON, true);
+	$skilldesc  = File::loadJSON($skilldescJSON, true);
+	$skilltypes = array_combine(array_column(Skilltype::NAME, $lang), array_keys(Skilltype::NAME));
 
 	foreach($skilldesc['skilldesc'] as &$desc){
-		$data = $fetcher->fetch($desc['name'], $desc['id'], from_cache);
+		[$localized_desc, $skilldata] = $fetcher->fetch($desc['name'], $desc['id'], from_cache);
 
-		if($data === null){
+		// update skill data from guildwiki
+		if(update_skilldata && $lang === 'de' && $skilldata !== null){
+			foreach($skilldata as $k => $v){
+				$jsonData['skilldata'][$desc['id']][$k] = $v;
+			}
+		}
+
+		// update skill types from GWW
+		if(update_skilldata && $lang === 'en' && $skilldata !== null){
+			$jsonData['skilldata'][$desc['id']]['type'] = $skilltypes[$skilldata['type_name']];
+		}
+
+		if($localized_desc === null){
 			continue;
 		}
 
-		[$name, $desc['description'], $desc['concise']] = $data;
+		[$name, $desc['description'], $desc['concise']] = $localized_desc;
 
 		if($name !== $desc['name']){
 			$logger->info(sprintf('name fix: %s => %s', $desc['name'], $name));
@@ -61,4 +82,8 @@ foreach(fetchers as $language => $fqcn){
 
 	// save updated JSON
 	File::save($skilldescJSON, str_replace('    ', "\t", Str::jsonEncode($skilldesc)));
+}
+
+if(update_skilldata){
+	File::save(DATA_FILE, str_replace('    ', "\t", Str::jsonEncode($jsonData)));
 }

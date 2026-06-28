@@ -13,7 +13,10 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
-use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\Attribute;
+use Buildwars\GWSkillData\Campaign;
+use Buildwars\GWSkillData\Profession;
+use Buildwars\GWSkillData\Skilltype;
 use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use chillerlan\Utilities\Str;
@@ -31,26 +34,27 @@ const skillJSONDir = __DIR__.'/../data/json-skills/';
 
 Directory::create(skillJSONDir);
 
-$jsonData = File::loadJSON(dataFile, true);
+$jsonData = File::loadJSON(DATA_FILE, true);
 $jsonLang = [];
 
-foreach(langFiles as [$abbr, $file]){
+foreach(LANG_FILES as [$abbr, $file]){
 	$jsonLang[$abbr] = File::loadJSON($file, true);
 }
 
 foreach($jsonData['skilldata'] as $skillID => &$skillData){
 	foreach(['de', 'en'] as $abbr){
 		$lang = $jsonLang[$abbr]['skilldesc'][$skillID];
+		$prof = new Profession($skillData['profession'], $abbr);
 
 		$skillData['lang'][$abbr] = [
 			'name'            => $lang['name'],
 			'description'     => $lang['description'],
 			'concise'         => $lang['concise'],
-			'campaign'        => SkillDataInterface::CAMPAIGNS[$skillData['campaign']]['name'][$abbr],
-			'profession'      => SkillDataInterface::PROFESSIONS[$skillData['profession']]['name'][$abbr],
-			'profession_abbr' => SkillDataInterface::PROFESSIONS[$skillData['profession']]['abbr'][$abbr],
-			'attribute'       => SkillDataInterface::ATTRIBUTES[$skillData['attribute']]['name'][$abbr],
-			'type'            => SkillDataInterface::SKILLTYPES[$skillData['type']]['name'][$abbr],
+			'campaign'        => (new Campaign($skillData['campaign'], $abbr))->getName(),
+			'profession'      => $prof->getName(),
+			'profession_abbr' => $prof->getAbbr(),
+			'attribute'       => (new Attribute($skillData['attribute'], 0, $abbr))->getName(),
+			'type'            => (new Skilltype($skillData['type'], $abbr))->getName(),
 		];
 
 	}

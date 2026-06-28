@@ -11,7 +11,7 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillDataTools;
+namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use chillerlan\HTTP\Utils\QueryUtil;
 use chillerlan\Utilities\Directory;
@@ -24,23 +24,30 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
+use function abs;
 use function array_key_exists;
 use function array_map;
 use function array_values;
+use function count;
 use function explode;
+use function floatval;
 use function in_array;
+use function intval;
+use function is_int;
+use function mb_strtolower;
+use function preg_match;
 use function preg_match_all;
 use function preg_replace;
 use function sprintf;
 use function str_contains;
 use function str_replace;
-use function strtolower;
+use function trim;
 use const PREG_SET_ORDER;
 
 /**
  * @link http://xkcd.com/208
  */
-abstract class WikiFetcher{
+abstract class WikiFetcher implements WikFetcherInterface{
 
 	protected const MEDIAWIKI_API = '';
 	protected const CACHEDIR      = '';
@@ -65,6 +72,14 @@ abstract class WikiFetcher{
 		if(!Directory::isWritable(static::CACHEDIR) || !Directory::isReadable(static::CACHEDIR)){
 			throw new RuntimeException('cannot read/write to cache dir');
 		}
+	}
+
+	abstract protected function parseResponse(array $data, int $id):array|null;
+
+	abstract protected function parseInfobox(string $infobox, int $id):array;
+
+	protected function getCachFileName(int $id):string{
+		return sprintf('%s%s.wikitext.json', static::CACHEDIR, $id);
 	}
 
 	public function fetch(string $skillName, int $id, bool $cached = true):array|null{
@@ -92,7 +107,7 @@ abstract class WikiFetcher{
 		}
 
 		$data = $response->getBody()->getContents();
-		$json = Str::jsonDecode($data, true, 0);
+		$json = Str::jsonDecode($data, true);
 
 		// check for a redirect and save the response data to cache
 		if($status === 200){
@@ -139,17 +154,7 @@ abstract class WikiFetcher{
 		}
 
 		// fix for pve faction skills
-		$skillName = preg_replace('/(\s\((Kurzick|Luxon)\))/', '', $skillName);
-
-		return $skillName;
-	}
-
-	abstract protected function parseResponse(array $data, int $id):array|null;
-
-	abstract protected function parseInfobox(string $infobox, int $id):array;
-
-	protected function getCachFileName(int $id):string{
-		return sprintf('%s%s.wikitext.json', static::CACHEDIR, $id);
+		return preg_replace('/(\s\((Kurzick|Luxon)\))/', '', $skillName);
 	}
 
 	protected function getRequestParams(string $skillName):array{
@@ -192,7 +197,7 @@ abstract class WikiFetcher{
 
 		foreach($matches as $match){
 			foreach($match as $str){
-				if(str_contains(strtolower($str), strtolower($templateName))){
+				if(str_contains(mb_strtolower($str), mb_strtolower($templateName))){
 					return $match[0];
 				}
 			}
@@ -203,9 +208,46 @@ abstract class WikiFetcher{
 
 	protected function splitKV(string $str):array{
 		$kv    = array_map('trim', explode('=', $str, 2));
-		$kv[0] = strtolower($kv[0]);
+		$kv[0] = mb_strtolower($kv[0]);
+
+		// fix possibly empty parameters
+		if(count($kv) < 2){
+			$kv[] = '';
+		}
 
 		return $kv;
+	}
+
+	protected function calcFraction(string $str):float{
+		$str = trim($str);
+
+		if(is_int($str)){
+			return intval($str);
+		}
+
+		// we have a float somehow
+		if(preg_match('/\d+\.\d+/', $str) > 0){
+			return abs(floatval($str));
+		}
+
+		$calc = function(string $fraction):float{
+
+			if(!str_contains($fraction, '/')){
+				return floatval($fraction);
+			}
+
+			[$top, $bottom] = explode('/', trim($fraction));
+
+			return abs(intval($top) / intval($bottom));
+		};
+
+		$parts = explode(' ', $str, 2);
+
+		if(count($parts) === 1){
+			return $calc($parts[0]);
+		}
+
+		return ($calc($parts[0]) + $calc($parts[1]));
 	}
 
 }
