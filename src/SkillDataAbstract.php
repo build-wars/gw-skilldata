@@ -17,6 +17,7 @@ use function array_key_exists;
 use function array_map;
 use function array_merge;
 use function array_search;
+use function in_array;
 
 /**
  * Utility methods for the static skill data and description classes
@@ -32,13 +33,14 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 
 		$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
 		$skillDesc = array_combine(static::KEYS_DESC, static::ID2DESC[$id]);
+		$prof      = new Profession($skillData['profession'], static::LANG);
 
 		$names = array_combine(static::KEYS_NAMES, [
-			static::CAMPAIGNS[$skillData['campaign']]['name'][static::LANG],
-			static::PROFESSIONS[$skillData['profession']]['name'][static::LANG],
-			static::PROFESSIONS[$skillData['profession']]['abbr'][static::LANG],
-			static::ATTRIBUTES[$skillData['attribute']]['name'][static::LANG],
-			static::SKILLTYPES[$skillData['type']]['name'][static::LANG],
+			(new Campaign($skillData['campaign'], static::LANG))->getName(),
+			$prof->getName(),
+			$prof->getAbbr(),
+			(new Attribute($skillData['attribute'], 0, static::LANG))->getName(),
+			(new Skilltype($skillData['type'], static::LANG))->getName(),
 		]);
 
 		return array_merge($skillData, $skillDesc, $names);
@@ -72,39 +74,33 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getByCampaign(int $campaign, bool $pvp = false):array{
-
-		if(!array_key_exists($campaign, static::CAMPAIGNS)){
-			throw new InvalidArgumentException('invalid campaign ID'); // @codeCoverageIgnore
-		}
-
-		return $this->getByKey('campaign', $campaign, $pvp);
+		return $this->getByKey('campaign', (new Campaign($campaign))->id, $pvp);
 	}
 
 	public function getByProfession(int $profession, bool $pvp = false):array{
-
-		if(!array_key_exists($profession, static::PROFESSIONS)){
-			throw new InvalidArgumentException('invalid profession ID'); // @codeCoverageIgnore
-		}
-
-		return $this->getByKey('profession', $profession, $pvp);
+		return $this->getByKey('profession', (new Profession($profession))->id, $pvp);
 	}
 
 	public function getByAttribute(int $attribute, bool $pvp = false):array{
-
-		if(!array_key_exists($attribute, static::ATTRIBUTES)){
-			throw new InvalidArgumentException('invalid attribute ID'); // @codeCoverageIgnore
-		}
-
-		return $this->getByKey('attribute', $attribute, $pvp);
+		return $this->getByKey('attribute', (new Attribute($attribute, 0))->id, $pvp);
 	}
 
 	public function getByType(int $type, bool $pvp = false):array{
+		return $this->getByKey('type', (new Skilltype($type))->id, $pvp);
+	}
 
-		if(!array_key_exists($type, static::SKILLTYPES)){
-			throw new InvalidArgumentException('invalid skill type ID'); // @codeCoverageIgnore
+	public function getByTypeWithSubtypes(int $type, bool $pvp = false):array{
+		$types  = (new Skilltype($type))->withSubtypes();
+		$keyID  = array_search('type', static::KEYS_DATA, true);
+		$skills = [];
+
+		foreach(static::ID2DATA as $id => $data){
+			if(in_array($data[$keyID], $types, true)){
+				$skills[] = $this->get($id, $pvp);
+			}
 		}
 
-		return $this->getByKey('type', $type, $pvp);
+		return $skills;
 	}
 
 	public function getElite(bool $pvp = false):array{

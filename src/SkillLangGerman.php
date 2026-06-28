@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 final class SkillLangGerman extends SkillData{
-public const LANG = 'de';
+public const LANG = self::LANG_DE;
 public const ID2DESC = [
 0=>['Keine Fertigkeit','Leerer Fertigkeiten-Slot','Leerer Slot'],
 1=>['Siegel der Heilung','Ihr heilt Euch um 82...172 Lebenspunkte. Während diese Fertigkeit benutzt wird, habt Ihr -40 Rüstung.','Heilt Euch um 82...172 Lebenspunkte. <gray>Während Ihr diese Fertigkeit benutzt, habt Ihr -40 Rüstung.</gray>'],

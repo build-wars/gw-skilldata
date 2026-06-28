@@ -11,8 +11,12 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTest;
 
+use Buildwars\GWSkillData\Attribute;
+use Buildwars\GWSkillData\Campaign;
+use Buildwars\GWSkillData\Profession;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\Skilltype;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
@@ -66,37 +70,50 @@ class SkillDataTest extends TestCase{
 
 	#[Test]
 	public function getByCampaign():void{
-		$data = $this->skillData->getByCampaign(0);
+		$data = $this->skillData->getByCampaign(Campaign::CORE);
 
 		foreach($data as $skill){
-			$this::assertSame(0, $skill['campaign']);
+			$this::assertSame(Campaign::CORE, $skill['campaign']);
 		}
 	}
 
 	#[Test]
 	public function getByProfession():void{
-		$data = $this->skillData->getByProfession(5);
+		$data = $this->skillData->getByProfession(Profession::MESMER);
 
 		foreach($data as $skill){
-			$this::assertSame(5, $skill['profession']);
+			$this::assertSame(Profession::MESMER, $skill['profession']);
 		}
 	}
 
 	#[Test]
 	public function getByAttribute():void{
-		$data = $this->skillData->getByAttribute(0);
+		$data = $this->skillData->getByAttribute(Attribute::FAST_CASTING);
 
 		foreach($data as $skill){
-			$this::assertSame(0, $skill['attribute']);
+			$this::assertSame(Attribute::FAST_CASTING, $skill['attribute']);
 		}
 	}
 
 	#[Test]
 	public function getByType():void{
-		$data = $this->skillData->getByType(24);
+		$data = $this->skillData->getByType(Skilltype::HEX_SPELL);
 
 		foreach($data as $skill){
-			$this::assertSame(24, $skill['type']);
+			$this::assertSame(Skilltype::HEX_SPELL, $skill['type']);
+		}
+	}
+
+	#[Test]
+	public function getByTypeWithSubtypes():void{
+		$data     = $this->skillData->getByTypeWithSubtypes(Skilltype::TOUCH_SKILL);
+		$expected = [
+			Skilltype::TOUCH_SKILL, Skilltype::TOUCH_SPELL, Skilltype::TOUCH_ENCHANTMENT_SPELL,
+			Skilltype::TOUCH_HEX_SPELL, Skilltype::TOUCH_SIGNET,
+		];
+
+		foreach($data as $skill){
+			$this::assertContains($skill['type'], $expected);
 		}
 	}
 
