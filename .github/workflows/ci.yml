@@ -190,6 +190,9 @@ jobs:
       - name: "Build combined and per-skill json"
         run: php ./tools/build-json.php
 
+      - name: "Build Paw-ned² databases"
+        run: php ./tools/build-pawned.php
+
       - name: "Copy files"
         run: |
           mkdir ./public/js
