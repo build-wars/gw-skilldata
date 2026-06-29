@@ -52,7 +52,7 @@ const type_map = [
 const ini_de = <<<ini_de
 [Menu]
 Name=Deutsch ({MODE}, buildwars)
-Hint=Daten von GuildWiki & GWW, erstellt von smiley, github.com/build-wars
+Hint=Daten von GuildWiki und GWW, erstellt von smiley, github.com/build-wars
 [Update]
 Provider=buildwars
 Date={DATE}
@@ -63,14 +63,14 @@ DownloadSafeINI={FILE_URL}.ini
 WikiShow=http://www.guildwiki.de/wiki/%wikistr%
 WikiEdit=http://www.guildwiki.de/gwiki/index.php?title=%wikistr%&action=edit
 [rebuilt]
-Expect=1330
+//Expect=1330
 Lang=DE
 ini_de;
 
 const ini_en = <<<ini_en
 [Menu]
 Name=Englisch ({MODE}, buildwars)
-Hint=Data from GuildWiki & GWW, by smiley, github.com/build-wars
+Hint=Data from GuildWiki and GWW, by smiley, github.com/build-wars
 [Update]
 Provider=buildwars
 Date={DATE}
@@ -82,7 +82,7 @@ WikiShow=http://wiki.guildwars.com/wiki/%wikistr%
 WikiEdit=http://wiki.guildwars.com/index.php?title=%wikistr%&action=edit
 PrimaryEN=True
 [rebuilt]
-Expect=1330
+//Expect=1330
 Lang=EN
 ini_en;
 
