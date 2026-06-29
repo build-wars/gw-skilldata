@@ -15853,7 +15853,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 8,
-		adrenaline_precise: 0,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -20533,7 +20533,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
-		adrenaline_precise: 0,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28173,7 +28173,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
-		adrenaline_precise: 0,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28193,7 +28193,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 2,
-		adrenaline_precise: 0,
+		adrenaline_precise: 2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28293,7 +28293,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
-		adrenaline_precise: 0,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28333,7 +28333,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 4,
-		adrenaline_precise: 0,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28413,7 +28413,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
-		adrenaline_precise: 0,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28433,7 +28433,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 6,
-		adrenaline_precise: 0,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28513,7 +28513,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 6,
-		adrenaline_precise: 0,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28553,7 +28553,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 5,
 		adrenaline: 4,
-		adrenaline_precise: 0,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28593,7 +28593,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 5,
 		adrenaline: 8,
-		adrenaline_precise: 0,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28613,7 +28613,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 2,
-		adrenaline_precise: 0,
+		adrenaline_precise: 2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28633,7 +28633,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 0,
 		adrenaline: 3,
-		adrenaline_precise: 0,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28653,7 +28653,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 3,
-		adrenaline_precise: 0,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -28673,7 +28673,7 @@ var skilldata = {
 		activation: 2,
 		recharge: 0,
 		adrenaline: 8,
-		adrenaline_precise: 0,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29233,7 +29233,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 2,
-		adrenaline_precise: 0,
+		adrenaline_precise: 2,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29293,7 +29293,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 6,
-		adrenaline_precise: 0,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29333,7 +29333,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 7,
-		adrenaline_precise: 0,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31373,7 +31373,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
-		adrenaline_precise: 0,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -31613,7 +31613,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
-		adrenaline_precise: 0,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34253,7 +34253,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 4,
-		adrenaline_precise: 0,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -34833,7 +34833,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 0,
 		adrenaline: 3,
-		adrenaline_precise: 0,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -36673,7 +36673,7 @@ var skilldata = {
 		activation: 0,
 		recharge: 4,
 		adrenaline: 4,
-		adrenaline_precise: 0,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -37353,7 +37353,7 @@ var skilldata = {
 		activation: 1,
 		recharge: 6,
 		adrenaline: 6,
-		adrenaline_precise: 0,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
