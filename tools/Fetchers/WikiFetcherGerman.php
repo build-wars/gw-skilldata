@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
+use function abs;
 use function array_column;
 use function array_combine;
 use function array_filter;

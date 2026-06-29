@@ -45,3 +45,13 @@ require_once __DIR__.'/fetch-skilldesc.php';
  *   - SkillLangGerman
  */
 require_once __DIR__.'/build-classes.php';
+
+/*
+ * Creates the Paw-ned² CSV databases and related .ini files.
+ *
+ * - de_buildwars_pve.csv
+ * - de_buildwars_pvp.csv
+ * - en_buildwars_pve.csv
+ * - en_buildwars_pvp.csv
+ */
+require_once __DIR__.'/build-pwnd.php';

@@ -136,7 +136,7 @@ $skilldata = [
 foreach(PWND_CSV['pve'] as $lang => $file){
 	$logger->info(sprintf('preparing skilldata pve-%s: %s', $lang, realpath($file)));
 
-	foreach(loadPwndFile($file) as $skill){
+	foreach(load_pawned_file($file) as $skill){
 		$id = (int)$skill[0];
 
 		if($id === 0){
@@ -185,7 +185,7 @@ foreach(PWND_CSV['pve'] as $lang => $file){
 foreach(PWND_CSV['pvp'] as $lang => $file){
 	$logger->info(sprintf('preparing skilldata pvp-%s: %s', $lang, realpath($file)));
 
-	foreach(loadPwndFile($file) as $skill){
+	foreach(load_pawned_file($file) as $skill){
 		$id = (int)$skill[0];
 
 		if($id === 0 || !isset(PVP_SPLIT[$id])){

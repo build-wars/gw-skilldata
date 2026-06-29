@@ -239,11 +239,11 @@ const PWND_ATTR_TRANSLATE = [
 ];
 
 
-function loadPwndFile(string $file):array{
+function load_pawned_file(string $file):array{
 	$data = File::load($file);
 
 	// the original paw-ned² files are stored in Windows-1252
-	if(mb_detect_encoding($data) !== 'UTF-8'){
+	if(mb_detect_encoding($data, ['Windows-1252', 'UTF-8']) !== 'UTF-8'){
 		$data = mb_convert_encoding($data, 'UTF-8', 'Windows-1252');
 	}
 

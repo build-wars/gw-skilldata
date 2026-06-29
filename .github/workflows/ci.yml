@@ -201,6 +201,12 @@ jobs:
           cp ./data/json-full/*.json ./public/json
           mkdir ./public/json/skills
           cp ./data/json-skills/*.json ./public/json/skills
+          mkdir ./public/pawned
+          cp ./data/paw-ned/*.ini ./public/pawned
+          cp ./data/paw-ned/de_buildwars_pve.csv ./public/pawned
+          cp ./data/paw-ned/de_buildwars_pvp.csv ./public/pawned
+          cp ./data/paw-ned/en_buildwars_pve.csv ./public/pawned
+          cp ./data/paw-ned/en_buildwars_pvp.csv ./public/pawned
           mkdir ./public/schemas
           cp ./data/schemas/*.schema.json ./public/schemas
 
