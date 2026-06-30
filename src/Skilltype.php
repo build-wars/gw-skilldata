@@ -55,16 +55,15 @@ final class Skilltype{
 	public const RANGED_ATTACK           = 31;
 	public const EBON_VANGUARD_RITUAL    = 32;
 	public const FLASH_ENCHANTMENT_SPELL = 33;
-	public const DOUBLE_ENCHANTMENT      = 34;
-	public const TOUCH_SKILL             = 35;
-	public const TOUCH_SPELL             = 36;
-	public const TOUCH_ENCHANTMENT_SPELL = 37;
-	public const TOUCH_HEX_SPELL         = 38;
-	public const TOUCH_SIGNET            = 39;
-	// virtual subtypes
-	public const ATTACK_SKILL            = 40;
-	public const DAGGER_ATTACK           = 41;
-	public const RITUAL                  = 42;
+	public const ATTACK_SKILL            = 34;
+	public const DAGGER_ATTACK           = 35;
+	public const RITUAL                  = 36;
+	public const DOUBLE_ENCHANTMENT      = 37;
+	public const TOUCH_SKILL             = 38;
+	public const TOUCH_SPELL             = 39;
+	public const TOUCH_ENCHANTMENT_SPELL = 40;
+	public const TOUCH_HEX_SPELL         = 41;
+	public const TOUCH_SIGNET            = 42;
 
 	public const NAME = [
 		self::NONE                    => ['de' => 'Keine Fertigkeit',       'en' => 'No Skill',               ],
@@ -151,8 +150,7 @@ final class Skilltype{
 	 * @return int[]
 	 */
 	public function withSubtypes():array{
-		$types  = (self::SUBTYPES[$this->id] ?? []);
-
+		$types   = (self::SUBTYPES[$this->id] ?? []);
 		$types[] = $this->id;
 
 		sort($types, SORT_NUMERIC);
