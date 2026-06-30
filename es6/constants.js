@@ -880,6 +880,24 @@ const SKILLTYPES = [
 	},
 	{
 		name: {
+			de: 'Angriffsfertigkeit',
+			en: 'Attack Skill',
+		},
+	},
+	{
+		name: {
+			de: 'Dolchangriff',
+			en: 'Dagger Attack',
+		},
+	},
+	{
+		name: {
+			de: 'Ritual',
+			en: 'Ritual',
+		},
+	},
+	{
+		name: {
 			de: 'Doppelverzauberung',
 			en: 'Double Enchantment',
 		},
@@ -912,24 +930,6 @@ const SKILLTYPES = [
 		name: {
 			de: 'Berührungssiegel',
 			en: 'Touch Signet',
-		},
-	},
-	{
-		name: {
-			de: 'Angriffsfertigkeit',
-			en: 'Attack Skill',
-		},
-	},
-	{
-		name: {
-			de: 'Dolchangriff',
-			en: 'Dagger Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Ritual',
-			en: 'Ritual',
 		},
 	},
 ];
