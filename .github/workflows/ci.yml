@@ -162,6 +162,8 @@ jobs:
     name: "publish files"
     if: github.ref_name == 'main'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: "Checkout sources"
@@ -209,7 +211,7 @@ jobs:
           cp ./data/schemas/*.schema.json ./public/schemas
 
       - name: "Publish files to gh-pages"
-        uses: JamesIves/github-pages-deploy-action@dev
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: public
