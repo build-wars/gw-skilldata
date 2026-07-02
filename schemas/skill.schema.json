@@ -88,6 +88,11 @@
 					"type": "integer",
 					"minimum": 0
 				},
+				"adrenaline_precise": {
+					"description": "precise adrenaline cost",
+					"type": ["float", "integer"],
+					"minimum": 0
+				},
 				"sacrifice": {
 					"description": "sacrifice cost (percentage)",
 					"type": "integer",
@@ -125,6 +130,7 @@
 				"activation",
 				"recharge",
 				"adrenaline",
+				"adrenaline_precise",
 				"sacrifice",
 				"overcast",
 				"lang"
