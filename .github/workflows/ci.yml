@@ -188,7 +188,7 @@ jobs:
         run: npm run build-src
 
       - name: "Build JSON and Paw-ned² databases"
-        run: php ./tools/build.php
+        run: php ./tools/build-ci.php
 
       - name: "Copy files"
         run: |

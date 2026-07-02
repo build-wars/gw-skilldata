@@ -36,9 +36,6 @@ if(!Directory::isWritable($builddir) || !Directory::isReadable($builddir)){
 define('BUILDDIR', File::realpath($builddir));
 define('DATA_DIR', File::realpath(__DIR__.'/../data'));
 
-const PAWNED_DATA_DIR = 'C:\\Program Files (x86)\\paw·ned²\\skilldata';
-#const PAWNED_DATA_DIR = DATA_DIR.'/paw-ned';
-
 /**
  * Skills that have deviating PvP versions
  *

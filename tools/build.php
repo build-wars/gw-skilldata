@@ -21,6 +21,9 @@ use const BUILDDIR;
 
 require_once __DIR__.'/common.php';
 
+// point this to your local paw-ned installation (the original data files are only read)
+const PAWNED_DATA_DIR = 'C:\\Program Files (x86)\\paw·ned²\\skilldata';
+
 $ptions = new BuilderOptions([
 	'ca_info'          => __DIR__.'/cacert.pem',
 	'timeout'          => 30,
@@ -47,7 +50,7 @@ $pawned  = new PawnedBuilder($ptions);
  *   - skilldesc-en.json
  */
 #$pawned->create();
-#$builder->create();
+$builder->create();
 
 /*
  * Fetch the skill descriptions from the wikis.
@@ -59,7 +62,7 @@ $pawned  = new PawnedBuilder($ptions);
  *   - skilldesc-de.json
  *   - skilldesc-en.json
  */
-#$builder->fetchSkilldesc();
+$builder->fetchSkilldesc();
 
 /*
  * Create the PHP classes:
@@ -68,7 +71,7 @@ $pawned  = new PawnedBuilder($ptions);
  *   - SkillLangEnglish
  *   - SkillLangGerman
  */
-#$builder->build();
+$builder->build();
 
 /*
  * Compiles the combined and per-skill JSON files
