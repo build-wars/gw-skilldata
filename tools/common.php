@@ -1,6 +1,6 @@
 <?php
 /**
- * common.php
+ * Common settings, includes and functions used during build
  *
  * @created      25.05.2024
  * @author       smiley <smiley@chillerlan.net>
@@ -11,62 +11,44 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
-use Buildwars\GWSkillData\Attribute;
-use chillerlan\HTTP\CurlClient;
-use chillerlan\HTTP\HTTPOptions;
-use chillerlan\HTTP\Psr7\HTTPFactory;
+use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Handler\StreamHandler;
-use Monolog\Logger;
-use Psr\Log\LogLevel;
-use function array_map;
-use function explode;
+use RuntimeException;
+use function define;
 use function ini_set;
-use function mb_strtolower;
-use function str_contains;
-use function trim;
+use function mb_internal_encoding;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
 ini_set('date.timezone', 'UTC');
 ini_set('memory_limit', -1);
+mb_internal_encoding('UTF-8');
 
-const logLevel = LogLevel::DEBUG;
-const cacert   = __DIR__.'/cacert.pem';
+$builddir = __DIR__.'/../.build';
 
-// init logger
-$formatter  = (new LineFormatter(null, 'Y-m-d H:i:s', true, true))->setJsonPrettyPrint(true);
-$logHandler = (new StreamHandler('php://stdout', logLevel))->setFormatter($formatter);
-$logger     = new Logger('log', [$logHandler]); // phpcs:ignore
-#$logger     = new \Psr\Log\NullLogger;
+Directory::create($builddir);
 
-// init http
-$httpOptions = new HTTPOptions(['ca_info' => cacert, 'timeout' => 30]);
-$http        = new CurlClient(new HTTPFactory, $httpOptions); // phpcs:ignore
+if(!Directory::isWritable($builddir) || !Directory::isReadable($builddir)){
+	throw new RuntimeException('cannot read/write build dir');
+}
 
-const DATA_FILE = __DIR__.'/../data/json-full/skilldata.json';
+#define('IS_CI', isset($_SERVER['GITHUB_ACTIONS']));
+define('BUILDDIR', File::realpath($builddir));
+define('DATA_DIR', File::realpath(__DIR__.'/../data'));
 
-const LANG_FILES = [
-	'English' => ['en', __DIR__.'/../data/json-full/skilldesc-en.json'],
-	'German'  => ['de', __DIR__.'/../data/json-full/skilldesc-de.json'],
-];
+const PAWNED_DATA_DIR = 'C:\\Program Files (x86)\\paw·ned²\\skilldata';
+#const PAWNED_DATA_DIR = DATA_DIR.'/paw-ned';
 
-// the paw-ned skill databases for each language. more to come... probably never.
-const PWND_CSV = [
-	'pve' => [
-		'de' => __DIR__.'/../data/paw-ned/de_classic_pve.csv',
-		'en' => __DIR__.'/../data/paw-ned/en_classic_pve.csv',
-	],
-	'pvp' => [
-		'de' => __DIR__.'/../data/paw-ned/de_classic_pvp.csv',
-		'en' => __DIR__.'/../data/paw-ned/en_classic_pvp.csv',
-	],
-];
-
-// skills that have deviating PvP versions
-// see: https://wiki.guildwars.com/wiki/List_of_PvP_versions_of_skills
-// skill id => pvp skill id
+/**
+ * Skills that have deviating PvP versions
+ *
+ * This list is hardcoded as it rarely changes.
+ *
+ * skill id => pvp skill id
+ *
+ * @see https://wiki.guildwars.com/wiki/List_of_PvP_versions_of_skills
+ * @var array<int, int>
+ */
 const PVP_SPLIT = [
 	17   => 3063,
 	18   => 3179,
@@ -224,49 +206,3 @@ const PVP_SPLIT = [
 	2204 => 3039,
 	2205 => 3038,
 ];
-
-// pawned uses negative numbers for the pve attributes
-const PWND_ATTR_TRANSLATE = [
-	-9 => Attribute::TITLE_NORN,
-	-8 => Attribute::TITLE_VANGUARD,
-	-7 => Attribute::TITLE_DELDRIMOR,
-	-6 => Attribute::TITLE_ASURA,
-	-5 => Attribute::TITLE_KURZICK,
-	-4 => Attribute::TITLE_LUXON,
-	-3 => Attribute::TITLE_LIGHTBRINGER,
-	-2 => Attribute::TITLE_SUNSPEAR,
-	-1 => Attribute::NONE,
-];
-
-
-function load_pawned_file(string $file):array{
-	$data = File::load($file);
-
-	// the original paw-ned² files are stored in Windows-1252
-	if(mb_detect_encoding($data, ['Windows-1252', 'UTF-8']) !== 'UTF-8'){
-		$data = mb_convert_encoding($data, 'UTF-8', 'Windows-1252');
-	}
-
-	// split the CSV into an array
-	return array_map(fn(string $line):array => explode(';', trim($line), 20), explode("\n", trim($data)));
-}
-
-function str_contains_any(string $haystack, array $needles, bool $case_insensitive = false):bool{
-
-	if($case_insensitive){
-		$haystack = mb_strtolower($haystack);
-	}
-
-	foreach($needles as $needle){
-
-		if($case_insensitive){
-			$needle = mb_strtolower($needle);
-		}
-
-		if(str_contains($haystack, $needle)){
-			return true;
-		}
-	}
-
-	return false;
-}

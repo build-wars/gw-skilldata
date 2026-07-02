@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
+use Buildwars\GWSkillData\SkillDataInterface;
 use function array_column;
 use function array_combine;
 use function array_filter;
 use function array_map;
-use function Buildwars\GWSkillDataTools\str_contains_any;
 use function explode;
 use function implode;
 use function in_array;
@@ -35,8 +35,9 @@ use function ucwords;
  */
 final class WikiFetcherEnglish extends WikiFetcher{
 
+	protected const LANG          = SkillDataInterface::LANG_EN;
 	protected const MEDIAWIKI_API = 'https://wiki.guildwars.com/api.php';
-	protected const CACHEDIR      = __DIR__.'/../../.build/gww/';
+	protected const CACHEDIR      = BUILDDIR.'/gww';
 
 	protected const REDIRECTS = [
 		1599 => '"It\'s Just a Flesh Wound."',
@@ -47,7 +48,18 @@ final class WikiFetcherEnglish extends WikiFetcher{
 	protected function parseResponse(array $data, int $id):array|null{
 
 		if($id === 0){
-			return [['No Skill', 'Empty skill slot', 'Empty slot'], null];
+			return [['No Skill', 'Empty skill slot', 'Empty slot'], [
+				'type'       => 0,
+				'upkeep'     => 0,
+				'energy'     => 0,
+				'activation' => 0,
+				'recharge'   => 0,
+				'adrenaline' => 0,
+				'sacrifice'  => 0,
+				'overcast'   => 0,
+				'range'      => 0,
+				'aoe'        => 0,
+			]];
 		}
 
 		if(!isset($data['revisions'][0]['slots']['main']['*'])){
@@ -123,7 +135,7 @@ final class WikiFetcherEnglish extends WikiFetcher{
 			$infobox[$k] = $ex[1];
 
 			// we'll leave the skill type in for some outlier concise descriptions
-			if($k === 'concise description' && str_contains_any($ex[0], ['Half Range', 'Touch', 'Spear Melee'], true)){
+			if($k === 'concise description' && $this->strContainsAny($ex[0], ['Half Range', 'Touch', 'Spear Melee'], true)){
 				$ex[0]       = ucwords($ex[0], ' ');
 				$infobox[$k] = implode('. ', $ex);
 			}
@@ -142,7 +154,7 @@ final class WikiFetcherEnglish extends WikiFetcher{
 				$infobox['concise description'],
 			],
 			[
-				'type_name'  => ucwords($infobox['type'], ' '),
+				'type'       => ($this->skilltypes[ucwords($infobox['type'], ' ')] ?? 0),
 				'upkeep'     => intval(($infobox['upkeep'] ?? 0)),
 				'energy'     => intval(($infobox['energy'] ?? 0)),
 				'activation' => $this->calcFraction(($infobox['activation'] ?? '0')),
@@ -150,6 +162,8 @@ final class WikiFetcherEnglish extends WikiFetcher{
 				'adrenaline' => intval(($infobox['adrenaline'] ?? 0)),
 				'sacrifice'  => intval(str_replace('%', '', ($infobox['sacrifice'] ?? '0'))),
 				'overcast'   => intval(($infobox['overcast'] ?? 0)),
+				'range'      => ($infobox['range'] ?? '--'),
+				'aoe'        => ($infobox['aoe'] ?? '--'),
 			],
 		];
 	}

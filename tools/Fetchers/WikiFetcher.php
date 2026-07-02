@@ -13,7 +13,11 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
+use Buildwars\GWSkillData\Skilltype;
+use Buildwars\GWSkillDataTools\BuilderOptions;
+use chillerlan\HTTP\Psr7\HTTPFactory;
 use chillerlan\HTTP\Utils\QueryUtil;
+use chillerlan\Settings\SettingsContainerInterface;
 use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use chillerlan\Utilities\Str;
@@ -24,7 +28,10 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
+use function array_column;
+use function array_combine;
 use function array_key_exists;
+use function array_keys;
 use function array_map;
 use function array_values;
 use function count;
@@ -41,6 +48,7 @@ use function sprintf;
 use function str_contains;
 use function str_replace;
 use function trim;
+use function usleep;
 use const PREG_SET_ORDER;
 
 /**
@@ -48,6 +56,7 @@ use const PREG_SET_ORDER;
  */
 abstract class WikiFetcher implements WikFetcherInterface{
 
+	protected const LANG          = '';
 	protected const MEDIAWIKI_API = '';
 	protected const CACHEDIR      = '';
 	protected const REDIRECTS     = [];
@@ -56,31 +65,59 @@ abstract class WikiFetcher implements WikFetcherInterface{
 	protected const Luxon   = [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1957, 2051];
 	protected const Kurzick = [2091, 2092, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100];
 
+	// shouts to fix missing quotes
+	protected const Shouts = [
+		316, 333, 343, 348, 364, 365, 366, 367, 368, 839, 869, 891, 906, 1141, 1412,
+		1558, 1572, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599,
+		1779, 1780, 1781, 1782, 2067, 2112, 2216, 2217, 2353, 2354, 2355, 2356, 2358, 2359,
+	];
+
+	protected const PvPShouts = [
+		2858, 2879, 2880, 2883, 3026, 3027, 3031, 3032, 3033, 3034, 3035, 3036, 3037,
+	];
+
+	protected readonly RequestFactoryInterface  $requestFactory;
+	protected readonly ResponseFactoryInterface $responseFactory;
+	protected readonly StreamFactoryInterface   $streamFactory;
+
+	protected readonly array $skilltypes;
+
 	/**
 	 * WikiFetcher constructor
 	 */
 	public function __construct(
-		protected ClientInterface $http,
-		protected RequestFactoryInterface $requestFactory,
-		protected ResponseFactoryInterface $responseFactory,
-		protected StreamFactoryInterface $streamFactory,
-		protected LoggerInterface $logger,
+		protected readonly SettingsContainerInterface|BuilderOptions $options,
+		protected readonly ClientInterface                           $http,
+		protected readonly LoggerInterface                           $logger,
 	){
+		$factory = new HTTPFactory;
+
+		$this->requestFactory  = $factory;
+		$this->responseFactory = $factory;
+		$this->streamFactory   = $factory;
+
 		Directory::create(static::CACHEDIR);
 
 		if(!Directory::isWritable(static::CACHEDIR) || !Directory::isReadable(static::CACHEDIR)){
 			throw new RuntimeException('cannot read/write to cache dir');
 		}
+
+		$this->skilltypes = array_combine(array_column(Skilltype::NAME, static::LANG), array_keys(Skilltype::NAME));
 	}
 
 	abstract protected function parseResponse(array $data, int $id):array|null;
 
 	abstract protected function parseInfobox(string $infobox, int $id):array;
 
-	protected function getCachFileName(int $id):string{
-		return sprintf('%s%s.wikitext.json', static::CACHEDIR, $id);
+	protected function getCachFilePath(int $id):string{
+		return sprintf('%s/%s.wikitext.json', static::CACHEDIR, $id);
 	}
 
+	/**
+	 * @phan-suppress PhanTypeInvalidThrowsIsInterface
+	 * @throws \Psr\Http\Client\ClientExceptionInterface
+	 * @throws \JsonException
+	 */
 	public function fetch(string $skillName, int $id, bool $cached = true):array|null{
 
 		// shortcut for the empty slot skill
@@ -94,6 +131,9 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		if($name !== $skillName){
 			$this->logger->info(sprintf('using skill name substitude: [%-4s] %s', $id, $name));
 		}
+
+		// static retry counter for recursive fetches
+		static $retries = 0;
 
 		$response = $this->fetchPage($name, $id, $cached);
 		$status   = $response->getStatusCode();
@@ -114,17 +154,26 @@ abstract class WikiFetcher implements WikFetcherInterface{
 			if(isset($json['query']['pages']['-1'])){
 
 				if(isset($json['query']['pages']['-1']['title'])){
+					$retries++;
+
+					if($retries > 2){
+						$this->logger->error(sprintf('could not find a target for [%-4s] %s',  $id, $name));
+						// reset counter and exit
+						$retries = 0;
+
+						return null;
+					}
+
 					$this->logger->warning(sprintf('redirecting [%-4s] %s to: %s',  $id, $name, $json['query']['pages']['-1']['title'])); // phpcs:ignore
 
 					return $this->fetch($json['query']['pages']['-1']['title'], $id, $cached);
 				}
-
 				$this->logger->warning(sprintf('page not found: [%-4s] %s',  $id, $name));
 
 				return null;
 			}
 
-			File::save($this->getCachFileName($id), $data);
+			File::save($this->getCachFilePath($id), $data);
 		}
 
 		return $this->parseResponse(array_values($json['query']['pages'])[0], $id);
@@ -137,18 +186,12 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		}
 
 		// shouts (missing quotes)
-		if(in_array($id, [
-			316, 333, 343, 348, 364, 365, 366, 367, 368, 839, 869, 891, 906, 1141, 1412,
-			1558, 1572, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599,
-			1779, 1780, 1781, 1782, 2067, 2112, 2216, 2217, 2353, 2354, 2355, 2356, 2358, 2359,
-		], true)){
+		if(in_array($id, static::Shouts, true)){
 			return sprintf('"%s"', str_replace('"', '', $skillName));
 		}
 
 		// PvP shouts
-		if(in_array($id, [
-			2858, 2879, 2880, 2883, 3026, 3027, 3031, 3032, 3033, 3034, 3035, 3036, 3037,
-		], true)){
+		if(in_array($id, static::PvPShouts, true)){
 			return sprintf('"%s" (PvP)', str_replace(['"', ' (PvP)'], '', $skillName));
 		}
 
@@ -167,13 +210,17 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		];
 	}
 
+	/**
+	 * @phan-suppress PhanTypeInvalidThrowsIsInterface
+	 * @throws \Psr\Http\Client\ClientExceptionInterface
+	 */
 	protected function fetchPage(string $skillName, int $id, bool $cached):ResponseInterface{
 
 		// create a response fron the existing file
-		if($cached === true && File::isReadable($this->getCachFileName($id))){
+		if($cached === true && File::isReadable($this->getCachFilePath($id))){
 			$this->logger->info(sprintf('cached response for skill: [%-4s] %s', $id, $skillName));
 
-			$stream = $this->streamFactory->createStreamFromFile($this->getCachFileName($id));
+			$stream = $this->streamFactory->createStreamFromFile($this->getCachFilePath($id));
 			// using code 420 here to indicate a cache response
 			return $this->responseFactory
 				->createResponse(420)
@@ -186,6 +233,8 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 		$params  = $this->getRequestParams($skillName);
 		$request = $this->requestFactory->createRequest('GET', QueryUtil::merge(static::MEDIAWIKI_API, $params));
+
+		usleep(500000); // avoid hammering, especially on CI
 
 		return $this->http->sendRequest($request);
 	}
@@ -217,7 +266,7 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		return $kv;
 	}
 
-	protected function calcFraction(string $str):float{
+	protected function calcFraction(string $str):float|int{
 		$str = trim($str);
 
 		if(is_int($str)){
@@ -225,8 +274,8 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		}
 
 		// we have a float somehow
-		if(preg_match('/\d+\.\d+/', $str) > 0){
-			return (floatval($str));
+		if(preg_match('/\d*\.\d+/', $str) > 0){
+			return floatval($str);
 		}
 
 		$calc = function(string $fraction):float{
@@ -248,5 +297,26 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 		return ($calc($parts[0]) + $calc($parts[1]));
 	}
+
+	protected function strContainsAny(string $haystack, array $needles, bool $case_insensitive = false):bool{
+
+		if($case_insensitive){
+			$haystack = mb_strtolower($haystack);
+		}
+
+		foreach($needles as $needle){
+
+			if($case_insensitive){
+				$needle = mb_strtolower($needle);
+			}
+
+			if(str_contains($haystack, $needle)){
+				return true;
+			}
+		}
+
+		return false;
+	}
+
 
 }

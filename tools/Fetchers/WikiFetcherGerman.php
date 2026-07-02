@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
-use function abs;
+use Buildwars\GWSkillData\SkillDataInterface;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -34,11 +34,11 @@ use function trim;
  */
 final class WikiFetcherGerman extends WikiFetcher{
 
+	protected const LANG          = SkillDataInterface::LANG_DE;
 	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';
-	protected const CACHEDIR      = __DIR__.'/../../.build/guildwiki/';
+	protected const CACHEDIR      = BUILDDIR.'/guildwiki';
 
 	protected const REDIRECTS = [
-		216  => 'Eisennebel',
 		316  => 'Bis ans Limit!',
 		333  => 'Ich werde Euch rächen!',
 		343  => 'Für höhere Gerechtigkeit!',
@@ -66,7 +66,16 @@ final class WikiFetcherGerman extends WikiFetcher{
 	protected function parseResponse(array $data, int $id):array|null{
 
 		if($id === 0){
-			return [['Keine Fertigkeit', 'Leerer Fertigkeiten-Slot', 'Leerer Slot'], null];
+			return [['Keine Fertigkeit', 'Leerer Fertigkeiten-Slot', 'Leerer Slot'], [
+				'upkeep'             => 0,
+				'energy'             => 0,
+				'activation'         => 0,
+				'recharge'           => 0,
+				'adrenaline'         => 0,
+				'adrenaline_precise' => 0,
+				'sacrifice'          => 0,
+				'overcast'           => 0,
+			]];
 		}
 
 		if(!isset($data['revisions'][0]['slots']['main']['*'])){
@@ -88,6 +97,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 			'{{3/4}}'   => ' 3/4',
 			'[s]'       => '(s)',
 			'&#45;'     => '+',
+			'&#x2d;'    => '-',
 			'&nbsp;'    => ' ',
 			'  '        => ' ',
 		]);
@@ -143,8 +153,8 @@ final class WikiFetcherGerman extends WikiFetcher{
 			[
 				'/(?:regeneration von ((?:\d+)([.]+(?:\d+))?))/',
 				'/(?:degeneration von \+?((?:\d+)(?:[.]+(?:\d+))?))/',
-				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunkt|Lebens|Energie)regeneration))/i',
-				'/(?:[^-]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunkt|Lebens|Energie)degeneration))/i',
+				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunktre|Lebensre|Energiere)generation))/i',
+				'/(?:[^-]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunktde|Lebensde|Energiede)generation))/i',
 			],
 			[
 				'regeneration von +$1',
@@ -180,7 +190,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 				'activation'         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
 				'recharge'           => intval(($infobox['wiederaufladung'] ?? 0)),
 				'adrenaline'         => intval(($infobox['adrenalin'] ?? 0)),
-				'adrenaline_precise' => abs(floatval($adrenaline_precise)),
+				'adrenaline_precise' => floatval($adrenaline_precise),
 				'sacrifice'          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
 				'overcast'           => intval(($infobox['erschöpfung'] ?? 0)),
 			],

@@ -13,18 +13,41 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
+// init http
+use Buildwars\GWSkillDataTools\Builder\Builder;
+use Buildwars\GWSkillDataTools\Builder\PawnedBuilder;
+use Psr\Log\LogLevel;
+use const BUILDDIR;
+
+require_once __DIR__.'/common.php';
+
+$ptions = new BuilderOptions([
+	'ca_info'          => __DIR__.'/cacert.pem',
+	'timeout'          => 30,
+	'logLevel'         => LogLevel::INFO,
+	'builddir'         => BUILDDIR,
+	'update_skilldata' => true,
+	'from_cache'       => true,
+]);
+
+$builder = new Builder($ptions);
+$pawned  = new PawnedBuilder($ptions);
+
 /*
  * First, parse the paw-ned² skill data.
  * This serves as a basis for all follow-up operations.
+ *
+ * This step is only necessary if you build the database from scratch,
+ * use `$builder->create()` for subsequent updates instead.
  *
  * Creates the JSON files:
  *
  *   - skilldata.json
  *   - skilldesc-de.json
  *   - skilldesc-en.json
- *
  */
-require_once __DIR__.'/parse-pwnd.php';
+#$pawned->create();
+#$builder->create();
 
 /*
  * Fetch the skill descriptions from the wikis.
@@ -32,10 +55,11 @@ require_once __DIR__.'/parse-pwnd.php';
  *
  * Updates:
  *
+ *   - skilldata.json
  *   - skilldesc-de.json
  *   - skilldesc-en.json
  */
-require_once __DIR__.'/fetch-skilldesc.php';
+#$builder->fetchSkilldesc();
 
 /*
  * Create the PHP classes:
@@ -44,7 +68,15 @@ require_once __DIR__.'/fetch-skilldesc.php';
  *   - SkillLangEnglish
  *   - SkillLangGerman
  */
-require_once __DIR__.'/build-classes.php';
+#$builder->build();
+
+/*
+ * Compiles the combined and per-skill JSON files
+ *
+ *   - skilldata-combined.json
+ *   - skills/[SKILL_ID].json
+ */
+$builder->buildJSON();
 
 /*
  * Creates the Paw-ned² CSV databases and related .ini files.
@@ -54,4 +86,4 @@ require_once __DIR__.'/build-classes.php';
  * - en_buildwars_pve.csv
  * - en_buildwars_pvp.csv
  */
-require_once __DIR__.'/build-pwnd.php';
+$pawned->build();

@@ -187,11 +187,8 @@ jobs:
       - name: "build-src"
         run: npm run build-src
 
-      - name: "Build combined and per-skill json"
-        run: php ./tools/build-json.php
-
-      - name: "Build Paw-ned² databases"
-        run: php ./tools/build-pwnd.php
+      - name: "Build JSON and Paw-ned² databases"
+        run: php ./tools/build.php
 
       - name: "Copy files"
         run: |
@@ -205,15 +202,13 @@ jobs:
           mkdir ./public/json/skills
           cp ./data/json-skills/*.json ./public/json/skills
           mkdir ./public/pawned
-          cp ./data/paw-ned/*.ini ./public/pawned
-          cp ./data/paw-ned/de_buildwars_pve.csv ./public/pawned
-          cp ./data/paw-ned/de_buildwars_pvp.csv ./public/pawned
-          cp ./data/paw-ned/en_buildwars_pve.csv ./public/pawned
-          cp ./data/paw-ned/en_buildwars_pvp.csv ./public/pawned
+          cp ./.build/*.ini ./public/pawned
+          cp ./.build/*.csv ./public/pawned
+          cp ./.build/*.sha256 ./public/pawned
           mkdir ./public/schemas
           cp ./data/schemas/*.schema.json ./public/schemas
 
-      - name: "Publish API docs to branch gh-pages"
+      - name: "Publish files to gh-pages"
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
