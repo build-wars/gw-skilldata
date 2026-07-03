@@ -12,20 +12,24 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Attribute;
+use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Skilltype;
-use chillerlan\HTTP\Utils\MessageUtil;
 use chillerlan\Utilities\File;
 use RuntimeException;
-use function abs;
+use function array_combine;
 use function array_flip;
 use function array_key_exists;
 use function array_map;
+use function boolval;
 use function count;
 use function date;
 use function explode;
+use function floatval;
 use function hash;
 use function implode;
+use function in_array;
 use function intval;
+use function number_format;
 use function sprintf;
 use function str_replace;
 use function strip_tags;
@@ -33,30 +37,6 @@ use function trim;
 use const Buildwars\GWSkillDataTools\PAWNED_DATA_DIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 
-/**
- * paw-ned² skilldb schema
- *
- * 0  = id
- * 1  = name
- * 2  = name2 (de/en)
- * 3  = desc
- * 4  = campaign
- * 5  = attribute
- * 6  = type
- * 7  = profession
- * 8  = upkeep
- * 9  = energy
- * 10 = activation
- * 11 = recharge
- * 12 = adrenaline
- * 13 = sacrifice
- * 14 = elite
- * 15 = pve
- * 16 = overcast
- * 17 = 0
- * 18 = 0
- * 19 = empty string
- */
 class PawnedBuilder extends Builder{
 
 	// the paw-ned skill databases for each language. more to come... probably never.
@@ -70,6 +50,47 @@ class PawnedBuilder extends Builder{
 			'en' => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
 		],
 	];
+
+	/**
+	 * paw-ned² skilldb schema
+	 *
+	 * 0  = id (int)
+	 * 1  = name (string)
+	 * 2  = name2 (string)
+	 * 3  = desc (string)
+	 * 4  = campaign (int)
+	 * 5  = attribute (int)
+	 * 6  = type (int)
+	 * 7  = profession (int)
+	 * 8  = upkeep (int)
+	 * 9  = energy (int)
+	 * 10 = activation (float)
+	 * 11 = recharge (int)
+	 * 12 = adrenaline (float)
+	 * 13 = sacrifice (int)
+	 * 14 = elite (bool)
+	 * 15 = pve (bool)
+	 * 16 = overcast (int)
+	 * 17 = 0
+	 * 18 = 0
+	 * 19 = empty string
+	 */
+	protected const KEYS = [
+		'id', 'name', 'name2', 'description', 'campaign', 'attribute',
+		'type', 'profession', 'upkeep', 'energy', 'activation', 'recharge',
+		'adrenaline_precise', 'sacrifice', 'is_elite', 'is_rp', 'overcast',
+		'empty1', 'empty2', 'empty3',
+	];
+
+	protected const KEYS_INT = [
+		'id', 'campaign', 'attribute', 'type', 'profession',
+		'upkeep', 'energy', 'recharge', 'sacrifice', 'overcast',
+		'empty1', 'empty2',
+	];
+
+	protected const KEYS_FLOAT  = ['activation', 'adrenaline_precise'];
+	protected const KEYS_BOOL   = ['is_elite', 'is_rp'];
+	protected const KEYS_STRING = ['name', 'name2', 'description', 'empty3'];
 
 	// pawned uses negative numbers for the pve attributes
 	protected const PWND_ATTR_TRANSLATE = [
@@ -103,8 +124,8 @@ Date={DATE}
 DownloadSafeCSV={FILE_URL}.csv
 DownloadSafeINI={FILE_URL}.ini
 [Wiki]
-WikiShow=http://www.guildwiki.de/wiki/%wikistr%
-WikiEdit=http://www.guildwiki.de/gwiki/index.php?title=%wikistr%&action=edit
+WikiShow=https://www.guildwiki.de/wiki/%wikistr%
+WikiEdit=https://www.guildwiki.de/gwiki/index.php?title=%wikistr%&action=edit
 PrimaryDE=False
 ShowWikia=False
 [rebuilt]
@@ -123,8 +144,8 @@ Date={DATE}
 DownloadSafeCSV={FILE_URL}.csv
 DownloadSafeINI={FILE_URL}.ini
 [Wiki]
-WikiShow=http://wiki.guildwars.com/wiki/%wikistr%
-WikiEdit=http://wiki.guildwars.com/index.php?title=%wikistr%&action=edit
+WikiShow=https://wiki.guildwars.com/wiki/%wikistr%
+WikiEdit=https://wiki.guildwars.com/index.php?title=%wikistr%&action=edit
 PrimaryEN=False
 ShowGWW=False
 ShowWikia=False
@@ -138,104 +159,91 @@ ini_en;
 		'en' => self::INI_EN,
 	];
 
+	protected function assignKeys(array $skill):array{
+		$skill = array_combine(static::KEYS, $skill);
+
+		foreach(static::KEYS_INT as $key){
+			$skill[$key] = intval($skill[$key]);
+		}
+
+		foreach(static::KEYS_FLOAT as $key){
+			$skill[$key] = floatval($skill[$key]);
+		}
+
+		foreach(static::KEYS_BOOL as $key){
+			$skill[$key] = boolval($skill[$key]);
+		}
+
+		foreach(static::KEYS_STRING as $key){
+			$skill[$key] = trim($skill[$key]);
+		}
+
+		return $skill;
+	}
+
 	public function create():static{
-		$attr_map  = array_flip(self::PWND_ATTR_TRANSLATE);
-		$skilldata = [];
-		$skilldesc = [];
+		$attr_map = array_flip(self::PWND_ATTR_TRANSLATE);
 
-		// first, process pve data
-		foreach(self::PWND_CSV['pve'] as $lang => $file){
-			$this->logger->info(sprintf('preparing skilldata pve-%s: %s', $lang, File::realpath($file)));
+		foreach(self::PWND_CSV as $mode => $files){
+			foreach($files as $lang => $file){
+				foreach($this->loadPawnedDatabase($file) as $skill){
+					$skill = $this->assignKeys($skill);
+					$split = array_key_exists($skill['id'], PVP_SPLIT);
 
-			foreach($this->loadPawnedDatabase($file) as $skill){
-				$id = (int)$skill[0];
+					// skip duplicate skills from the PvP files
+					if($mode === 'pvp' && !$split){
+						continue;
+					}
+					// use the split ID if it exists
+					if($mode === 'pvp' && $split){
+						$skill['id'] = PVP_SPLIT[$skill['id']];
+					}
 
-				$skilldesc[$lang][$id] = [
-					'id'          => $id,
-					'name'        => trim($skill[1]),
-					'description' => str_replace('"', '', trim($skill[3])),
-					'concise'     => '',
-				];
+					$id = $skill['id'];
+					// create the skeleton array
+					foreach(SkillDataInterface::KEYS_DATA as $key){
+						$this->skilldata[$id][$key] = null;
 
-				$attr = (int)$skill[5];
+						// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
+						if(in_array($key, ['id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp'], true)){
+							$this->skilldata[$id][$key] = $skill[$key];
+						}
+						// reassign the attribute value
+						if($key === 'attribute' && $skill['attribute'] < 0){
+							$this->skilldata[$id][$key] = $attr_map[$skill[$key]];
+						}
+						// this skill *is* a pvp version
+						if($key === 'is_pvp'){
+							$this->skilldata[$id][$key] = in_array($id, PVP_SPLIT, true);
+						}
+						// the skill *has* a pvp version
+						if($key === 'pvp_split'){
+							$this->skilldata[$id][$key] = array_key_exists($id, PVP_SPLIT);
+						}
+						// the id of the pvp version of the current skill
+						if($key === 'split_id'){
+							// @todo: add pve version id to pvp skill
+							$this->skilldata[$id][$key] = (PVP_SPLIT[$id] ?? 0);
+						}
+					}
 
-				if($attr < 0){
-					$attr = $attr_map[$attr];
+					// add the ID field for the language files
+					$this->skilldesc[$lang][$id]['id'] = $id;
+
+					foreach(SkillDataInterface::KEYS_DESC as $key){
+						$this->skilldesc[$lang][$id][$key] = '';
+						// add the name field as this is the article query for the wikis
+						if($key === 'name'){
+							$this->skilldesc[$lang][$id][$key] = $skill[$key];
+						}
+					}
+
 				}
-
-				$skilldata[$id] = [
-					'id'                 => $id,
-					'campaign'           => (int)$skill[4],
-					'profession'         => (int)$skill[7],
-					'attribute'          => $attr,
-					'type'               => (int)$skill[6],
-					'is_elite'           => (bool)$skill[14],
-					'is_rp'              => (bool)$skill[15],
-					'is_pvp'             => false,
-					'pvp_split'          => isset(PVP_SPLIT[$id]),
-					'split_id'           => (PVP_SPLIT[$id] ?? 0),
-					'upkeep'             => (int)$skill[8],
-					'energy'             => (int)$skill[9],
-					'activation'         => abs((float)$skill[10]),
-					'recharge'           => (int)$skill[11],
-					'adrenaline'         => abs((float)$skill[12]),
-					'adrenaline_precise' => abs((float)$skill[12]),
-					'sacrifice'          => (int)$skill[13],
-					'overcast'           => (int)$skill[16],
-				];
 			}
 		}
 
-		// now merge the pvp data
-		foreach(self::PWND_CSV['pvp'] as $lang => $file){
-			$this->logger->info(sprintf('preparing skilldata pvp-%s: %s', $lang, File::realpath($file)));
-
-			foreach($this->loadPawnedDatabase($file) as $skill){
-				$id = (int)$skill[0];
-
-				if(!array_key_exists($id, PVP_SPLIT)){
-					continue;
-				}
-
-				$skilldesc[$lang][PVP_SPLIT[$id]] = [
-					'id'          => PVP_SPLIT[$id],
-					'name'        => trim($skill[1]),
-					'description' => str_replace('"', '', trim($skill[3])),
-					'concise'     => '',
-				];
-
-				$attr = (int)$skill[5];
-
-				if($attr < 0){
-					$attr = $attr_map[$attr];
-				}
-
-				$skilldata[PVP_SPLIT[$id]] = [
-					'id'                 => PVP_SPLIT[$id],
-					'campaign'           => (int)$skill[4],
-					'profession'         => (int)$skill[7],
-					'attribute'          => $attr,
-					'type'               => (int)$skill[6],
-					'is_elite'           => (bool)$skill[14],
-					'is_rp'              => false,
-					'is_pvp'             => true,
-					'pvp_split'          => false,
-					'split_id'           => 0,
-					'upkeep'             => (int)$skill[8],
-					'energy'             => (int)$skill[9],
-					'activation'         => abs((float)$skill[10]),
-					'recharge'           => (int)$skill[11],
-					'adrenaline'         => abs((float)$skill[12]),
-					'adrenaline_precise' => abs((float)$skill[12]),
-					'sacrifice'          => (int)$skill[13],
-					'overcast'           => (int)$skill[16],
-				];
-			}
-		}
-
-
-		$this->save_skilldata($skilldata);
-		$this->save_skill_descriptions($skilldesc);
+		$this->saveSkilldata($this->skilldata);
+		$this->saveSkillDescriptions($this->skilldesc);
 
 		return $this;
 	}
@@ -267,6 +275,10 @@ ini_en;
 
 						if($skilldata['activation'] < 1 && $skilldata['activation'] > 0){
 							$skilldata['activation'] = trim((string)$skilldata['activation'], '0');
+						}
+
+						if($skilldata['adrenaline_precise'] > 0){
+							$skilldata['adrenaline_precise'] = number_format($skilldata['adrenaline_precise'], 1, '.', '');
 						}
 
 						$row[1]  = $skilldata['name'];
@@ -326,37 +338,39 @@ ini_en;
 	protected function savePawnedDatabase(string $dir, string $data, string $lang, string $mode, int $count, bool $concise):void{
 		$filename = sprintf('%s_buildwars_%s%s', $lang, $mode, ($concise ? '_concise' : ''));
 		$hash     = hash('SHA256', $data);
-		$url      = sprintf('%s/pawned/%s', self::REPO_URL, $filename); // still without .ext
 
-#		$this->checkHash($url, $hash);
+		if($this->options->pawned_hash_check && $this->checkHash($filename, $hash)){
+			$this->logger->info(sprintf('no file changes: %s', $filename));
 
-		File::save(sprintf('%s/%s.csv', $dir, $filename), mb_convert_encoding($data, 'Windows-1252', 'UTF-8'));
+			return;
+		}
+
+		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), $data);
 
 		$ini = strtr(self::ini_body[$lang], [
 			'{MODE}'        => $mode,
 			'{TYPE}'        => $concise ? ', concise' : '',
 			'{DATE}'        => date('YmdHi'),
-			'{FILE_URL}'    => $url,
+			'{FILE_URL}'    => sprintf('%s/pawned/%s', self::REPO_URL, $filename),
 			'{SKILL_COUNT}' => $count,
 		]);
 
-		File::save(sprintf('%s/%s.ini', $dir, $filename), mb_convert_encoding($ini, 'Windows-1252', 'UTF-8'));
-		File::save(sprintf('%s/%s.sha256', $dir, $filename), $hash);
+		$this->saveFile(sprintf('%s/%s.ini', $dir, $filename), mb_convert_encoding($ini, 'Windows-1252', 'UTF-8'));
+		$this->saveFile(sprintf('%s/%s.sha256', $dir, $filename), $hash);
 
-		$this->logger->info(sprintf('saved: %s', $filename));
+		$this->logger->info(sprintf('saved paw-ned² database to: %s', $savepath));
 	}
 
-	protected function checkHash(string $url, string $hash):bool{
-		$url      = sprintf('%s.ini', $url);
-		$request  = $this->requestFactory->createRequest('GET', $url);
-		$response = $this->http->sendRequest($request);
+	protected function checkHash(string $filename, string $hash):bool{
+		$path = sprintf('%s/%s.sha256', $this->options->pawned_hash_dir, $filename);
 
-		if($response->getStatusCode() === 200){
-			$oldHash = MessageUtil::getContents($response);
-
-			return trim($oldHash) === $hash;
+		if(!File::exists($path)){
+			throw new RuntimeException(sprintf('Could not fetch hash file: %s', $path));
 		}
 
-		throw new RuntimeException(sprintf('Could not fetch hash file: %s', $url));
+		$oldHash = File::load($path);
+
+		return $hash === $oldHash;
 	}
+
 }

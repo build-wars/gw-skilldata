@@ -16,9 +16,11 @@ use Psr\Log\LogLevel;
 
 class BuilderOptions extends HTTPOptions{
 
-	protected string $logLevel         = LogLevel::INFO;
-	protected string $builddir         = __DIR__;
-	protected bool   $update_skilldata = false;
-	protected bool   $from_cache       = false;
+	protected string $logLevel          = LogLevel::INFO;
+	protected string $builddir          = __DIR__;
+	protected bool   $update_skilldata  = false;
+	protected bool   $from_cache        = false;
+	protected bool   $pawned_hash_check = false;
+	protected string $pawned_hash_dir   = __DIR__;
 
 }

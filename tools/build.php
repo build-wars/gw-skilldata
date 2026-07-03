@@ -25,12 +25,14 @@ require_once __DIR__.'/common.php';
 const PAWNED_DATA_DIR = 'C:\\Program Files (x86)\\paw·ned²\\skilldata';
 
 $ptions = new BuilderOptions([
-	'ca_info'          => __DIR__.'/cacert.pem',
-	'timeout'          => 30,
-	'logLevel'         => LogLevel::INFO,
-	'builddir'         => BUILDDIR,
-	'update_skilldata' => true,
-	'from_cache'       => true,
+	'ca_info'           => __DIR__.'/cacert.pem',
+	'timeout'           => 30,
+	'logLevel'          => LogLevel::INFO,
+	'builddir'          => BUILDDIR,
+	'update_skilldata'  => true,
+	'from_cache'        => true,
+	'pawned_hash_check' => false,
+	'pawned_hash_dir'   => BUILDDIR,
 ]);
 
 $builder = new Builder($ptions);

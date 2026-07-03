@@ -16,7 +16,10 @@ interface SkillDataInterface{
 	final public const LANG_DE = 'de';
 	final public const LANG_EN = 'en';
 
-	final public const LANGUAGES = [self::LANG_DE, self::LANG_EN];
+	final public const LANGUAGES = [
+		self::LANG_DE => 'German',
+		self::LANG_EN => 'English',
+	];
 
 	/**
 	 * The array keys for the name translations of several fields

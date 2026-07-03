@@ -35,6 +35,7 @@ if(!Directory::isWritable($builddir) || !Directory::isReadable($builddir)){
 #define('IS_CI', isset($_SERVER['GITHUB_ACTIONS']));
 define('BUILDDIR', File::realpath($builddir));
 define('DATA_DIR', File::realpath(__DIR__.'/../data'));
+define('SRCDIR', File::realpath(__DIR__.'/../src'));
 
 /**
  * Skills that have deviating PvP versions
