@@ -22,5 +22,6 @@ class BuilderOptions extends HTTPOptions{
 	protected bool   $from_cache        = false;
 	protected bool   $pawned_hash_check = false;
 	protected string $pawned_hash_dir   = __DIR__;
+	protected int    $request_sleep     = 500000;
 
 }

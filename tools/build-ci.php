@@ -32,6 +32,7 @@ $ptions = new BuilderOptions([
 	'from_cache'        => true,
 	'pawned_hash_check' => false,
 	'pawned_hash_dir'   => BUILDDIR.'/gh-pages-old/pawned',
+	'request_sleep'     => 750000,
 ]);
 
 (new Builder($ptions))

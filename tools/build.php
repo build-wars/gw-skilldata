@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
-// init http
 use Buildwars\GWSkillDataTools\Builder\Builder;
 use Buildwars\GWSkillDataTools\Builder\PawnedBuilder;
 use Psr\Log\LogLevel;
@@ -33,10 +32,18 @@ $ptions = new BuilderOptions([
 	'from_cache'        => true,
 	'pawned_hash_check' => false,
 	'pawned_hash_dir'   => BUILDDIR,
+	'request_sleep'     => 100000,
 ]);
 
 $builder = new Builder($ptions);
 $pawned  = new PawnedBuilder($ptions);
+
+/*
+ * Add new Skills
+ */
+#$builder->addSkill(3442, Campaign::NIGHTFALL, Profession::PARAGON, Attribute::SPEAR_MASTERY, false, false);
+#$builder->addSkillLang(3442, SkillDataInterface::LANG_DE, 'Mächtiger Wurf (PvP)');
+#$builder->addSkillLang(3442, SkillDataInterface::LANG_EN, 'Mighty Throw (PvP)');
 
 /*
  * First, parse the paw-ned² skill data.

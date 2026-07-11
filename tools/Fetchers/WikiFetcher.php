@@ -234,7 +234,7 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		$params  = $this->getRequestParams($skillName);
 		$request = $this->requestFactory->createRequest('GET', QueryUtil::merge(static::MEDIAWIKI_API, $params));
 
-		usleep(500000); // avoid hammering, especially on CI
+		usleep($this->options->request_sleep); // avoid hammering, especially on CI
 
 		return $this->http->sendRequest($request);
 	}

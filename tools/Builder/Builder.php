@@ -6,6 +6,8 @@
  * @author       smiley <smiley@chillerlan.net>
  * @copyright    2026 smiley
  * @license      MIT
+ *
+ * @noinspection PhpForeachNestedOuterKeyValueVariablesConflictInspection
  */
 declare(strict_types=1);
 
@@ -28,12 +30,14 @@ use chillerlan\Settings\SettingsContainerInterface;
 use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use chillerlan\Utilities\Str;
+use InvalidArgumentException;
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Log\LoggerInterface;
+use RuntimeException;
 use function array_key_exists;
 use function array_keys;
 use function array_map;
@@ -45,6 +49,7 @@ use function ksort;
 use function sprintf;
 use function strtoupper;
 use function strtr;
+use function trim;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 use const SRCDIR;
 
@@ -92,6 +97,9 @@ class Builder{
 	protected array $skilldata = [];
 	protected array $skilldesc = [];
 
+	protected array $new_skilldata = [];
+	protected array $new_skilldesc = [];
+
 	public function __construct(SettingsContainerInterface|BuilderOptions $options){
 		$this->options   = $options;
 		$this->databases = array_map(fn(string $fqcn):SkillDataInterface => new $fqcn, static::DATABASES);
@@ -111,15 +119,38 @@ class Builder{
 	}
 
 	public function addSkill(int $id, int $campaign, int $profession, int $attribute, bool $is_elite, bool $is_rp):static{
-		// required values: id, campaign, profession, attribute, type=0, is_elite, is_rp
-		#$current_skilldata[9999] = [9999,0,5,2,0,true,true];
+		// required values: id, campaign, profession, attribute, is_elite, is_rp
+		$data = [
+			'id'         => $id,
+			'campaign'   => (new Campaign($campaign))->id,
+			'profession' => (new Profession($profession))->id,
+			'attribute'  => (new Attribute($attribute))->id,
+			'is_elite'   => $is_elite,
+			'is_rp'      => $is_rp,
+			'is_pvp'     => in_array($id, PVP_SPLIT, true),
+			'pvp_split'  => array_key_exists($id, PVP_SPLIT),
+			'split_id'   => (PVP_SPLIT[$id] ?? 0),
+		];
+
+		$this->new_skilldata[$id] = $this->createDataFields($id);
+
+		foreach($data as $k => $v){
+			$this->new_skilldata[$id][$k] = $v;
+		}
+
 		return $this;
 	}
 
 	public function addSkillLang(int $id, string $lang, string $name):static{
+
+		if(!array_key_exists($lang, SkillDataInterface::LANGUAGES)){
+			throw new InvalidArgumentException('invalid language');
+		}
+
+		$this->new_skilldesc[$lang][$id] = $this->createLangFields($id);
 		// required values: name
-		#$current_skilldesc['de'][9999] = ['SKILL_NAME'];
-		#$current_skilldesc['en'][9999] = ['SKILL_NAME'];
+		$this->new_skilldesc[$lang][$id]['name'] = trim($name);
+
 		return $this;
 	}
 
@@ -166,46 +197,105 @@ class Builder{
 
 	}
 
-	public function create():static{
-		// we're using the current skill database as basis
-		// create the skill data rows
-		foreach($this->databases[SkillDataInterface::LANG_EN]::ID2DATA as $id => $row){
-			// create named fields
-			foreach(SkillDataInterface::KEYS_DATA as $pos => $key){
-				$this->skilldata[$id][$key] = null;
-				// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
-				if(in_array($key, ['id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp'], true)){
-					$this->skilldata[$id][$key] = $row[$pos];
-				}
-				// this skill *is* a pvp version
-				if($key === 'is_pvp'){
-					$this->skilldata[$id][$key] = in_array($id, PVP_SPLIT, true);
-				}
-				// the skill *has* a pvp version
-				if($key === 'pvp_split'){
-					$this->skilldata[$id][$key] = array_key_exists($id, PVP_SPLIT);
-				}
-				// the id of the pvp version of the current skill
-				if($key === 'split_id'){
-					// @todo: add pve version id to pvp skill
-					$this->skilldata[$id][$key] = (PVP_SPLIT[$id] ?? 0);
-				}
+	protected function createDataFields(int $id):array{
+		$fields = [];
+
+		foreach(SkillDataInterface::KEYS_DATA as $key){
+			$fields[$key] = null;
+
+			if($key === 'id'){
+				$fields[$key] = $id;
 			}
 		}
 
-		// create the skill description rows
-		foreach(array_keys(SkillDataInterface::LANGUAGES) as $lang){
-			foreach($this->databases[$lang]::ID2DESC as $id => $row){
-				// the ID field is not included in the php classes
-				$this->skilldesc[$lang][$id]['id'] = $id;
-				// create named fields
-				foreach(SkillDataInterface::KEYS_DESC as $pos => $key){
-					$this->skilldesc[$lang][$id][$key] = '';
-					// add the name field as this is the article query for the wikis
-					if($key === 'name'){
-						$this->skilldesc[$lang][$id][$key] = $row[$pos];
+		return $fields;
+	}
+
+	protected function createLangFields(int $id):array{
+		$fields = ['id' => $id];
+
+		foreach(SkillDataInterface::KEYS_DESC as $key){
+			$fields[$key] = null;
+		}
+
+		return $fields;
+	}
+
+	public function create():static{
+		// we're using the current skill database as basis
+		// create the skill data skeleton rows for all *known* skills
+		foreach($this->databases[SkillDataInterface::LANG_EN]::ID2DATA as $id => $_){
+			$this->skilldata[$id] = $this->createDataFields($id);
+			// add a row for existing pvp redirects
+			if(array_key_exists($id, PVP_SPLIT)){
+				$this->skilldata[PVP_SPLIT[$id]] = $this->createDataFields(PVP_SPLIT[$id]);
+			}
+		}
+
+		// create language skeletons for the list of known IDs
+		foreach($this->skilldata as $id => $_){
+			foreach(SkillDataInterface::LANGUAGES as $lang => $_){
+				$this->skilldesc[$lang][$id] = $this->createLangFields($id);
+			}
+		}
+
+		// now fill the skill data with the known values
+		foreach($this->skilldata as $id => &$row){
+			foreach(array_keys(SkillDataInterface::LANGUAGES) as $lang){
+
+				try{
+					$current = $this->databases[$lang]->get($id);
+				}
+					// the skill might be a new pvp redirect, data is added later
+				catch(InvalidArgumentException){
+					$this->logger->warning(sprintf('invalid data for [%-4s][%s]', $id, $lang));
+
+					continue;
+				}
+
+				// add the skill name
+				$this->skilldesc[$lang][$id]['name'] = $current['name'];
+
+				// we only need to update the data once here
+				if($lang !== SkillDataInterface::LANG_EN){
+					continue;
+				}
+
+				// update skill data
+				foreach($current as $key => $value){
+					// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
+					if(in_array($key, ['id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp'], true)){
+						$row[$key] = $value;
+					}
+					// this skill *is* a pvp version
+					if($key === 'is_pvp'){
+						$row[$key] = in_array($id, PVP_SPLIT, true);
+					}
+					// the skill *has* a pvp version
+					if($key === 'pvp_split'){
+						$row[$key] = array_key_exists($id, PVP_SPLIT);
+					}
+					// the id of the pvp version of the current skill
+					if($key === 'split_id'){
+						// @todo: add pve version id to pvp skill
+						$row[$key] = (PVP_SPLIT[$id] ?? 0);
 					}
 				}
+
+			}
+		}
+
+		// add new skill data
+		foreach($this->new_skilldata as $id => $new_row){
+			$this->skilldata[$id] = $new_row;
+
+			foreach(array_keys(SkillDataInterface::LANGUAGES) as $lang){
+
+				if(!array_key_exists($id, $this->new_skilldesc[$lang])){
+					throw new RuntimeException(sprintf('invalid skill descriptions for [%-4s][%s]', $id, $lang));
+				}
+
+				$this->skilldesc[$lang][$id] = $this->new_skilldesc[$lang][$id];
 			}
 		}
 
@@ -353,6 +443,7 @@ class Builder{
 					continue;
 				}
 
+				// @todo: on CI, diff descriptions against previous versions, fail if there's a certain amount of changes
 				[$name, $desc['description'], $desc['concise']] = $localized_desc;
 
 				if($name !== $desc['name']){
@@ -373,4 +464,5 @@ class Builder{
 
 		return $this;
 	}
+
 }

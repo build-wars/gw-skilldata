@@ -43,6 +43,7 @@ final class WikiFetcherEnglish extends WikiFetcher{
 		1599 => '"It\'s Just a Flesh Wound."',
 		1954 => '"Save Yourselves!"', // Luxon
 		2097 => '"Save Yourselves!"', // Kurzick
+		3442 => 'Mighty Throw (PvP)', // missing "PvP" suffix
 	];
 
 	protected function parseResponse(array $data, int $id):array|null{
@@ -70,11 +71,17 @@ final class WikiFetcherEnglish extends WikiFetcher{
 
 		// remove/fix some templates first
 		$data = strtr($data, [
-			'{{1/2}}' => ' 1/2',
-			'{{1/4}}' => ' 1/4',
-			'{{3/4}}' => ' 3/4',
-			'&nbsp;'  => ' ',
-			'  '      => ' ',
+			'{{sic}}'     => '<sic/>',
+			'{{1/2}}'     => ' 1/2',
+			'{{1/4}}'     => ' 1/4',
+			'{{3/4}}'     => ' 3/4',
+			'&nbsp;'      => ' ',
+			'&#20;'       => ' ',
+			'&#45;'       => '-',
+			'&#x2d;'      => '-',
+			'[s]'         => '(s)',
+			'[es]'        => '(es)',
+			'[its/their]' => '(its/their)',
 		]);
 
 		$infobox = $this->getInfobox($data, 'skill infobox');
@@ -92,7 +99,7 @@ final class WikiFetcherEnglish extends WikiFetcher{
 		// replace some templates
 		$s = [
 			// progression
-			'/\{\{gr(?:2)?\|([\+\-\d]+)\|([\d%]+)(?:\|(?:[^\}]+)?)?\}\}/i',
+			'/\{\{gr2?\|(\d+)\|(\d+)(?:\|([+-])?)?(?:\|(%)?)?\}\}/i',
 			// article links
 			'/\[\[[^\[\|]+\|([^\[\|]+)\]\]/',
 			// [sic]
@@ -100,29 +107,31 @@ final class WikiFetcherEnglish extends WikiFetcher{
 			// colored text
 			'/\{\{(?:gray|grey)\|([^\{\}]+)\}\}/i',
 			'#<span[^>]*?>(.*)</span>#i',
+			'/(\d+)\s+%/',
+			'/\s+/',
 		];
 
 		$r = [
-			'$1...$2',
+			'$3$1...$2$4',
 			'$1',
 			'<sic/>',
 			'<gray>$1</gray>',
 			'<gray>$1</gray>',
+			'$1%',
+			' ',
 		];
 
 		$infobox = preg_replace($s, $r, $infobox);
 
-		// fix some things
-		$infobox = str_ireplace(
-			['[its/their]', '[s]'], // '[does/do]',
-			['their', 's'], // '(does/do)',
-			$infobox,
-		);
-
 		// clean out unwanted braces etc.
 		$infobox = str_ireplace(['Skill infobox', '<gray>PvE Skill</gray>', '{', '}', '[', ']', "'''"], '', $infobox);
-		// add a minus to degeneration
-		$infobox = preg_replace('/((?:\d+)[.]+(?:\d+)\s+(?:Health|Energy)\s+degeneration)/i', '-$1', $infobox);
+
+		$infobox = strtr($infobox, [
+			'(s)'         => '[s]',
+			'(es)'        => '[es]',
+			'(its/their)' => '[its/their]',
+		]);
+
 		// split into key=value pairs
 		$infobox = array_map($this->splitKV(...), array_filter(explode('|', trim($infobox))));
 		// combine keys and values

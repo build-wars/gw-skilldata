@@ -16,10 +16,13 @@ use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Skilltype;
 use chillerlan\Utilities\File;
 use RuntimeException;
+use function array_column;
 use function array_combine;
+use function array_diff;
 use function array_flip;
 use function array_key_exists;
 use function array_map;
+use function array_merge;
 use function boolval;
 use function count;
 use function date;
@@ -29,6 +32,7 @@ use function hash;
 use function implode;
 use function in_array;
 use function intval;
+use function mb_convert_encoding;
 use function number_format;
 use function sprintf;
 use function str_replace;
@@ -42,12 +46,12 @@ class PawnedBuilder extends Builder{
 	// the paw-ned skill databases for each language. more to come... probably never.
 	protected const PWND_CSV = [
 		'pve' => [
-			'de' => PAWNED_DATA_DIR.'/de_classic_pve.csv',
-			'en' => PAWNED_DATA_DIR.'/en_classic_pve.csv',
+			SkillDataInterface::LANG_DE => PAWNED_DATA_DIR.'/de_classic_pve.csv',
+			SkillDataInterface::LANG_EN => PAWNED_DATA_DIR.'/en_classic_pve.csv',
 		],
 		'pvp' => [
-			'de' => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
-			'en' => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
+			SkillDataInterface::LANG_DE => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
+			SkillDataInterface::LANG_EN => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
 		],
 	];
 
@@ -249,74 +253,90 @@ ini_en;
 	}
 
 	public function build():static{
+		$pawned_ids = [];
 
+		// fetch the IDs from the current pawned database in order to preserve the order for diffs
 		foreach(self::PWND_CSV as $mode => $langfiles){
-			$isPvP = $mode === 'pvp';
+			foreach($langfiles as $lang => $file){
+				// convert to utf-8 for local diffs
+#				File::save(sprintf('%s/pawned-vendor/%s.utf8', BUILDDIR, basename($file)), mb_convert_encoding(File::load($file), 'UTF-8', 'Windows-1252'));
+				$pawned_ids[$lang][$mode] = array_map(intval(...), array_column($this->loadPawnedDatabase($file), 0));
+			}
+		}
 
-			foreach(['description', 'concise'] as $desc_type){
-				foreach($langfiles as $lang => $file){
-					$pwnd = $this->loadPawnedDatabase($file);
+		$empty_fields = ['name2' => '', 'empty1' => 0, 'empty2' => 0, 'empty3' => ''];
 
-					$lang2 = match($lang){
-						'de' => 'en',
-						'en' => 'de',
-					};
+		// now create the CSV
+		foreach($this->databases as $lang => $db){
 
-					foreach($pwnd as &$row){
-						$skilldata = $this->databases[$lang]->get(intval($row[0]), $isPvP);
+			$lang2 = match($lang){
+				'de' => 'en',
+				'en' => 'de',
+			};
 
-						if(array_key_exists($skilldata['attribute'], self::PWND_ATTR_TRANSLATE)){
-							$skilldata['attribute'] = self::PWND_ATTR_TRANSLATE[$skilldata['attribute']];
+			foreach(['pve', 'pvp'] as $mode){
+				$pvp  = ($mode === 'pvp');
+				$diff = array_diff($db->getIDs(), $pawned_ids[$lang][$mode]);
+				$ids  = array_merge($pawned_ids[$lang][$mode], $diff);
+
+				foreach(['description', 'concise'] as $desc_type){
+					$concise = ($desc_type === 'concise');
+					$pwnd    = [];
+
+					foreach($ids as $id){
+						$data  = $this->databases[$lang]->get($id, $pvp);
+						$data += $empty_fields;
+						$row   = [];
+
+						foreach(static::KEYS as $pos => $key){
+							$row[$pos] = $data[$key];
+
+							// pawned does not use the split IDs
+							if($key === 'id'){
+								$row[$pos] = $id;
+							}
+
+							if($key === 'name2'){
+								$row[$pos] = $this->databases[$lang2]->get($id, $pvp)['name'];
+							}
+
+							if($key === 'description'){
+								// pawned CSV does not use field enclosures, so we'll just replace semicolons
+								$row[$pos] = str_replace(['...', ';', '  '], ['..', '.', ' '], strip_tags($data[$desc_type]));
+							}
+
+							if($key === 'attribute' && array_key_exists($data[$key], self::PWND_ATTR_TRANSLATE)){
+								$row[$pos] = self::PWND_ATTR_TRANSLATE[$data[$key]];
+							}
+
+							if($key === 'type' && array_key_exists($data[$key], self::TYPE_MAP)){
+								$row[$pos] = self::TYPE_MAP[$data[$key]];
+							}
+
+							if(in_array($key, ['is_elite', 'is_rp'], true)){
+								$row[$pos] = (int)$data[$key];
+							}
+
+							if($key === 'activation'){
+								if($data[$key] < 1 && $data[$key] > 0){
+									// trimming the zeroes here just for diff against the pawned csv
+									$row[$pos] = trim((string)$data[$key], '0');
+								}
+							}
+
+							if($key === 'adrenaline_precise' && $data[$key] > 0){
+								// same for this value. once we have favorable output we can just remove this
+								$row[$pos] = number_format($data[$key], 1, '.', '');
+							}
+
 						}
 
-						if(array_key_exists($skilldata['type'], self::TYPE_MAP)){
-							$skilldata['type'] = self::TYPE_MAP[$skilldata['type']];
-						}
-
-						if($skilldata['activation'] < 1 && $skilldata['activation'] > 0){
-							$skilldata['activation'] = trim((string)$skilldata['activation'], '0');
-						}
-
-						if($skilldata['adrenaline_precise'] > 0){
-							$skilldata['adrenaline_precise'] = number_format($skilldata['adrenaline_precise'], 1, '.', '');
-						}
-
-						$row[1]  = $skilldata['name'];
-						$row[2]  = $this->databases[$lang2]->get(intval($row[0]), $isPvP)['name'];
-						// pawned CSV does not use field enclosures, so we'll just replace semicolons
-						$row[3]  = str_replace(['...', ';'], ['..', '.'], strip_tags($skilldata[$desc_type]));
-						$row[4]  = $skilldata['campaign'];
-						$row[5]  = $skilldata['attribute'];
-						$row[6]  = $skilldata['type']; // todo: map
-						$row[7]  = $skilldata['profession'];
-						$row[8]  = $skilldata['upkeep'];
-						$row[9]  = $skilldata['energy'];
-						$row[10] = $skilldata['activation'];
-						$row[11] = $skilldata['recharge'];
-						$row[12] = $skilldata['adrenaline_precise'];
-						$row[13] = $skilldata['sacrifice'];
-						$row[14] = (int)$skilldata['is_elite'];
-						$row[15] = (int)$skilldata['is_rp'];
-						$row[16] = $skilldata['overcast'];
-						// the last 3 columns are placeholders (number;number;string)
-						$row[17] = 0;
-						$row[18] = 0;
-						$row[19] = '';
-
-						$row = implode(';', $row);
+						$pwnd[] = implode(';', $row);
 					}
 
-					$count = count($pwnd);
-
-					$this->savePawnedDatabase(
-						$this->options->builddir,
-						implode("\n", $pwnd),
-						$lang,
-						$mode,
-						$count,
-						($desc_type === 'concise'),
-					);
+					$this->saveCSV(implode("\n", $pwnd), $lang, $mode, count($pwnd), $concise);
 				}
+
 			}
 		}
 
@@ -335,7 +355,8 @@ ini_en;
 		return array_map(fn(string $line):array => explode(';', trim($line), 20), explode("\n", trim($data)));
 	}
 
-	protected function savePawnedDatabase(string $dir, string $data, string $lang, string $mode, int $count, bool $concise):void{
+	protected function saveCSV(string $data, string $lang, string $mode, int $count, bool $concise):void{
+		$dir      = $this->options->builddir;
 		$filename = sprintf('%s_buildwars_%s%s', $lang, $mode, ($concise ? '_concise' : ''));
 		$hash     = hash('SHA256', $data);
 
@@ -345,7 +366,9 @@ ini_en;
 			return;
 		}
 
-		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), $data);
+		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), mb_convert_encoding($data, 'Windows-1252', 'UTF-8'));
+		// save as utf-8 for local diffs
+#		$savepath = $this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
 
 		$ini = strtr(self::ini_body[$lang], [
 			'{MODE}'        => $mode,

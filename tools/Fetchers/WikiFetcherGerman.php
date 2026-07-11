@@ -61,6 +61,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 		3037 => '"Zieht Euch zurück!" (PvP)',
 		3375 => 'Wiederherstellungs-Aura (PvP)',
 		3437 => 'Sense des Bauern (PvP)',
+		3442 => 'Mächtiger Wurf (PvP)', // missing "PvP" suffix
 	];
 
 	protected function parseResponse(array $data, int $id):array|null{
@@ -96,7 +97,7 @@ final class WikiFetcherGerman extends WikiFetcher{
 			'{{1/4}}'   => ' 1/4',
 			'{{3/4}}'   => ' 3/4',
 			'[s]'       => '(s)',
-			'&#45;'     => '+',
+			'&#45;'     => '-',
 			'&#x2d;'    => '-',
 			'&nbsp;'    => ' ',
 			'  '        => ' ',
@@ -153,14 +154,16 @@ final class WikiFetcherGerman extends WikiFetcher{
 			[
 				'/(?:regeneration von ((?:\d+)([.]+(?:\d+))?))/',
 				'/(?:degeneration von \+?((?:\d+)(?:[.]+(?:\d+))?))/',
-				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunktre|Lebensre|Energiere)generation))/i',
-				'/(?:[^-]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunktde|Lebensde|Energiede)generation))/i',
+				'/(?:[^+]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunktere|Lebenspunktre|Lebensre|Energiere)generation))/i',
+				'/(?:[^-]((?:\d+)(?:[.]+(?:\d+))\s+(?:Lebenspunktede|Lebenspunktde|Lebensde|Energiede)generation))/i',
+				'/(\d+)\s+%/',
 			],
 			[
 				'regeneration von +$1',
 				'degeneration von -$1',
 				' +$1',
 				' -$1',
+				'$1%',
 			],
 			$infobox,
 		);
