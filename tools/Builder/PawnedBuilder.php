@@ -21,6 +21,7 @@ use function array_combine;
 use function array_diff;
 use function array_flip;
 use function array_key_exists;
+use function array_keys;
 use function array_map;
 use function array_merge;
 use function boolval;
@@ -48,10 +49,14 @@ class PawnedBuilder extends Builder{
 		'pve' => [
 			SkillDataInterface::LANG_DE => PAWNED_DATA_DIR.'/de_classic_pve.csv',
 			SkillDataInterface::LANG_EN => PAWNED_DATA_DIR.'/en_classic_pve.csv',
+			// en2 is similar to the "en" database, but col3 also has the english names
+			// this is a workaround for the english version of pawned to avoid false search results
+			'en2'                       => PAWNED_DATA_DIR.'/en2_classic_pve.csv',
 		],
 		'pvp' => [
 			SkillDataInterface::LANG_DE => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
 			SkillDataInterface::LANG_EN => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
+			'en2'                       => PAWNED_DATA_DIR.'/en2_classic_pvp.csv',
 		],
 	];
 
@@ -159,8 +164,9 @@ Lang=EN
 ini_en;
 
 	protected const ini_body = [
-		'de' => self::INI_DE,
-		'en' => self::INI_EN,
+		'de'  => self::INI_DE,
+		'en'  => self::INI_EN,
+		'en2' => self::INI_EN,
 	];
 
 	protected function assignKeys(array $skill):array{
@@ -190,6 +196,11 @@ ini_en;
 
 		foreach(self::PWND_CSV as $mode => $files){
 			foreach($files as $lang => $file){
+				// skip the en-version database
+				if($lang === 'en2'){
+					continue;
+				}
+
 				foreach($this->loadPawnedDatabase($file) as $skill){
 					$skill = $this->assignKeys($skill);
 					$split = array_key_exists($skill['id'], PVP_SPLIT);
@@ -267,16 +278,21 @@ ini_en;
 		$empty_fields = ['name2' => '', 'empty1' => 0, 'empty2' => 0, 'empty3' => ''];
 
 		// now create the CSV
-		foreach($this->databases as $lang => $db){
+		foreach(array_keys($pawned_ids) as $lang){
 
 			$lang2 = match($lang){
-				'de' => 'en',
-				'en' => 'de',
+				'de', 'en2' => 'en',
+				'en'        => 'de',
+			};
+
+			$dblang = match($lang){
+				'de'        => 'de',
+				'en', 'en2' => 'en',
 			};
 
 			foreach(['pve', 'pvp'] as $mode){
 				$pvp  = ($mode === 'pvp');
-				$diff = array_diff($db->getIDs(), $pawned_ids[$lang][$mode]);
+				$diff = array_diff($this->databases[$dblang]->getIDs(), $pawned_ids[$lang][$mode]);
 				$ids  = array_merge($pawned_ids[$lang][$mode], $diff);
 
 				foreach(['description', 'concise'] as $desc_type){
@@ -284,7 +300,7 @@ ini_en;
 					$pwnd    = [];
 
 					foreach($ids as $id){
-						$data  = $this->databases[$lang]->get($id, $pvp);
+						$data  = $this->databases[$dblang]->get($id, $pvp);
 						$data += $empty_fields;
 						$row   = [];
 
@@ -368,7 +384,7 @@ ini_en;
 
 		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), mb_convert_encoding($data, 'Windows-1252', 'UTF-8'));
 		// save as utf-8 for local diffs
-#		$savepath = $this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
+#		$this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
 
 		$ini = strtr(self::ini_body[$lang], [
 			'{MODE}'        => $mode,
