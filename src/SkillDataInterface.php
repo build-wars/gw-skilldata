@@ -115,4 +115,13 @@ interface SkillDataInterface{
 	 */
 	public function getRoleplay():array;
 
+	/**
+	 * Returns a list of all skill IDs excluding PvP versions.
+	 *
+	 * If `$pvp` is set to `true`, a list of PvP version IDs is returned.
+	 *
+	 * @return int[]
+	 */
+	public function getIDs(bool $pvp = false):array;
+
 }

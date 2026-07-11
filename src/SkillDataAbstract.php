@@ -111,4 +111,17 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return $this->getByKey('is_rp', true, false);
 	}
 
+	public function getIDs(bool $pvp = false):array{
+		$keyID = array_search('is_pvp', static::KEYS_DATA, true);
+		$ids   = [];
+
+		foreach(static::ID2DATA as $id => $data){
+			if($data[$keyID] === $pvp){
+				$ids[] = $id;
+			}
+		}
+
+		return $ids;
+	}
+
 }
