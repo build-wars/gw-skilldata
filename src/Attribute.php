@@ -260,6 +260,23 @@ final class Attribute{
 		return self::ATTRIBUTE_MAX[$this->id];
 	}
 
+	public function getByProfession(int $profesion):array{
+
+		if(!array_key_exists($profesion, Profession::NAME)){
+			throw new InvalidArgumentException('invalid profession ID');
+		}
+
+		$attributes = [];
+
+		foreach(self::ATTRIBUTE_PROFESSION as $attr => $prof){
+			if($prof === $profesion){
+				$attributes[] = $attr;
+			}
+		}
+
+		return $attributes;
+	}
+
 	public function isPrimary():bool{
 		return in_array($this->id, Profession::PRIMARY_ATTRIBUTE, true);
 	}
