@@ -23,7 +23,6 @@ use function implode;
 use function in_array;
 use function intval;
 use function preg_replace;
-use function sprintf;
 use function str_ireplace;
 use function str_replace;
 use function strtr;
@@ -38,6 +37,9 @@ final class WikiFetcherEnglish extends WikiFetcher{
 	protected const LANG          = SkillDataInterface::LANG_EN;
 	protected const MEDIAWIKI_API = 'https://wiki.guildwars.com/api.php';
 	protected const CACHEDIR      = BUILDDIR.'/gww';
+	protected const INFOBOX_NAME  = 'skill infobox';
+
+	public const USE_FIELDS = ['type', 'adrenaline'];
 
 	protected const REDIRECTS = [
 		1599 => '"It\'s Just a Flesh Wound."',
@@ -46,54 +48,35 @@ final class WikiFetcherEnglish extends WikiFetcher{
 		3442 => 'Mighty Throw (PvP)', // missing "PvP" suffix
 	];
 
-	protected function parseResponse(array $data, int $id):array|null{
+	protected const EMPTY_SKILL = [
+		'name'        => 'No Skill',
+		'description' => 'Empty skill slot',
+		'concise'     => 'Empty slot',
+		'type'        => 0,
+		'upkeep'      => 0,
+		'energy'      => 0,
+		'activation'  => 0,
+		'recharge'    => 0,
+		'adrenaline'  => 0,
+		'sacrifice'   => 0,
+		'overcast'    => 0,
+		'range'       => 0,
+		'aoe'         => 0,
+	];
 
-		if($id === 0){
-			return [['No Skill', 'Empty skill slot', 'Empty slot'], [
-				'type'       => 0,
-				'upkeep'     => 0,
-				'energy'     => 0,
-				'activation' => 0,
-				'recharge'   => 0,
-				'adrenaline' => 0,
-				'sacrifice'  => 0,
-				'overcast'   => 0,
-				'range'      => 0,
-				'aoe'        => 0,
-			]];
-		}
-
-		if(!isset($data['revisions'][0]['slots']['main']['*'])){
-			return null;
-		}
-
-		$data = $data['revisions'][0]['slots']['main']['*'];
-
-		// remove/fix some templates first
-		$data = strtr($data, [
-			'{{sic}}'     => '<sic/>',
-			'{{1/2}}'     => ' 1/2',
-			'{{1/4}}'     => ' 1/4',
-			'{{3/4}}'     => ' 3/4',
-			'&nbsp;'      => ' ',
-			'&#20;'       => ' ',
-			'&#45;'       => '-',
-			'&#x2d;'      => '-',
-			'[s]'         => '(s)',
-			'[es]'        => '(es)',
-			'[its/their]' => '(its/their)',
-		]);
-
-		$infobox = $this->getInfobox($data, 'skill infobox');
-
-		if($infobox === null){
-			$this->logger->warning(sprintf('could not parse infobox for skill %s', $id));
-
-			return null;
-		}
-
-		return $this->parseInfobox($infobox, $id);
-	}
+	protected const PRE_PARSE_REPLACE = [
+		'{{sic}}'     => '<sic/>',
+		'{{1/2}}'     => ' 1/2',
+		'{{1/4}}'     => ' 1/4',
+		'{{3/4}}'     => ' 3/4',
+		'&nbsp;'      => ' ',
+		'&#20;'       => ' ',
+		'&#45;'       => '-',
+		'&#x2d;'      => '-',
+		'[s]'         => '(s)',
+		'[es]'        => '(es)',
+		'[its/their]' => '(its/their)',
+	];
 
 	protected function parseInfobox(string $infobox, int $id):array{
 		// replace some templates
@@ -157,23 +140,19 @@ final class WikiFetcherEnglish extends WikiFetcher{
 		};
 
 		return [
-			[
-				$infobox['name'],
-				$infobox['description'],
-				$infobox['concise description'],
-			],
-			[
-				'type'       => ($this->skilltypes[ucwords($infobox['type'], ' ')] ?? 0),
-				'upkeep'     => intval(($infobox['upkeep'] ?? 0)),
-				'energy'     => intval(($infobox['energy'] ?? 0)),
-				'activation' => $this->calcFraction(($infobox['activation'] ?? '0')),
-				'recharge'   => intval(($infobox['recharge'] ?? 0)),
-				'adrenaline' => intval(($infobox['adrenaline'] ?? 0)),
-				'sacrifice'  => intval(str_replace('%', '', ($infobox['sacrifice'] ?? '0'))),
-				'overcast'   => intval(($infobox['overcast'] ?? 0)),
-				'range'      => ($infobox['range'] ?? '--'),
-				'aoe'        => ($infobox['aoe'] ?? '--'),
-			],
+			'name'        => $infobox['name'],
+			'description' => $infobox['description'],
+			'concise'     => $infobox['concise description'],
+			'type'        => ($this->skilltypes[ucwords($infobox['type'], ' ')] ?? 0),
+			'upkeep'      => intval(($infobox['upkeep'] ?? 0)),
+			'energy'      => intval(($infobox['energy'] ?? 0)),
+			'activation'  => $this->calcFraction(($infobox['activation'] ?? '0')),
+			'recharge'    => intval(($infobox['recharge'] ?? 0)),
+			'adrenaline'  => intval(($infobox['adrenaline'] ?? 0)),
+			'sacrifice'   => intval(str_replace('%', '', ($infobox['sacrifice'] ?? '0'))),
+			'overcast'    => intval(($infobox['overcast'] ?? 0)),
+			'range'       => ($infobox['range'] ?? '--'),
+			'aoe'         => ($infobox['aoe'] ?? '--'),
 		];
 	}
 

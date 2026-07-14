@@ -41,6 +41,7 @@ use function strip_tags;
 use function trim;
 use const Buildwars\GWSkillDataTools\PAWNED_DATA_DIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
+use const PVP_SPLIT_FLIP;
 
 class PawnedBuilder extends Builder{
 
@@ -191,6 +192,9 @@ ini_en;
 		return $skill;
 	}
 
+	/**
+	 * Creates the JSON skeletons, filled with some basic, non-changing from the given paw-ned² CSV database
+	 */
 	public function create():static{
 		$attr_map = array_flip(self::PWND_ATTR_TRANSLATE);
 
@@ -237,8 +241,11 @@ ini_en;
 						}
 						// the id of the pvp version of the current skill
 						if($key === 'split_id'){
-							// @todo: add pve version id to pvp skill
 							$this->skilldata[$id][$key] = (PVP_SPLIT[$id] ?? 0);
+							// add the base id to pvp-split skills
+							if($this->skilldata[$id]['is_pvp'] === true){
+								$this->skilldata[$id][$key] = (PVP_SPLIT_FLIP[$id] ?? 0);
+							}
 						}
 					}
 
@@ -407,9 +414,7 @@ ini_en;
 			throw new RuntimeException(sprintf('Could not fetch hash file: %s', $path));
 		}
 
-		$oldHash = File::load($path);
-
-		return $hash === $oldHash;
+		return $hash === File::load($path);
 	}
 
 }

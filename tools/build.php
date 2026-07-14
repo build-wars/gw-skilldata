@@ -26,10 +26,11 @@ const PAWNED_DATA_DIR = 'C:\\Program Files (x86)\\paw·ned²\\skilldata';
 $ptions = new BuilderOptions([
 	'ca_info'           => __DIR__.'/cacert.pem',
 	'timeout'           => 30,
-	'logLevel'          => LogLevel::INFO,
+	'logLevel'          => LogLevel::ERROR,
 	'builddir'          => BUILDDIR,
 	'update_skilldata'  => true,
 	'from_cache'        => true,
+	'diff_descriptions' => true,
 	'pawned_hash_check' => false,
 	'pawned_hash_dir'   => BUILDDIR,
 	'request_sleep'     => 100000,
@@ -74,6 +75,14 @@ $builder->create();
 $builder->fetchSkilldesc();
 
 /*
+ * Compiles the combined and per-skill JSON files
+ *
+ *   - skilldata-combined.json
+ *   - skills/[SKILL_ID].json
+ */
+$builder->buildJSON();
+
+/*
  * Create the PHP classes:
  *
  *   - SkillData
@@ -81,14 +90,6 @@ $builder->fetchSkilldesc();
  *   - SkillLangGerman
  */
 $builder->build();
-
-/*
- * Compiles the combined and per-skill JSON files
- *
- *   - skilldata-combined.json
- *   - skills/[SKILL_ID].json
- */
-$builder->buildJSON();
 
 /*
  * Creates the Paw-ned² CSV databases and related .ini files.

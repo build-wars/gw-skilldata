@@ -23,10 +23,8 @@ use function floatval;
 use function in_array;
 use function intval;
 use function preg_replace;
-use function sprintf;
 use function str_ireplace;
 use function str_replace;
-use function strtr;
 use function trim;
 
 /**
@@ -37,6 +35,9 @@ final class WikiFetcherGerman extends WikiFetcher{
 	protected const LANG          = SkillDataInterface::LANG_DE;
 	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';
 	protected const CACHEDIR      = BUILDDIR.'/guildwiki';
+	protected const INFOBOX_NAME  = 'infobox fertigkeit';
+
+	public const USE_FIELDS = ['upkeep', 'energy', 'activation', 'recharge', 'adrenaline_precise', 'sacrifice', 'overcast'];
 
 	protected const REDIRECTS = [
 		316  => 'Bis ans Limit!',
@@ -64,55 +65,36 @@ final class WikiFetcherGerman extends WikiFetcher{
 		3442 => 'Mächtiger Wurf (PvP)', // missing "PvP" suffix
 	];
 
-	protected function parseResponse(array $data, int $id):array|null{
+	protected const EMPTY_SKILL = [
+		'name'               => 'Keine Fertigkeit',
+		'description'        => 'Leerer Fertigkeiten-Slot',
+		'concise'            => 'Leerer Slot',
+		'upkeep'             => 0,
+		'energy'             => 0,
+		'activation'         => 0,
+		'recharge'           => 0,
+		'adrenaline'         => 0,
+		'adrenaline_precise' => 0,
+		'sacrifice'          => 0,
+		'overcast'           => 0,
+	];
 
-		if($id === 0){
-			return [['Keine Fertigkeit', 'Leerer Fertigkeiten-Slot', 'Leerer Slot'], [
-				'upkeep'             => 0,
-				'energy'             => 0,
-				'activation'         => 0,
-				'recharge'           => 0,
-				'adrenaline'         => 0,
-				'adrenaline_precise' => 0,
-				'sacrifice'          => 0,
-				'overcast'           => 0,
-			]];
-		}
-
-		if(!isset($data['revisions'][0]['slots']['main']['*'])){
-			return null;
-		}
-
-		$data = $data['revisions'][0]['slots']['main']['*'];
-
-		// remove/fix some templates first
-		$data = strtr($data, [
-			'{{pipe}}}' => '',
-			'{{{pipe}}' => '',
-			'{{pipe}}'  => '',
-			'{{!-}}'    => '',
-			"'''"       => '',
-			'{{sic}}'   => '<sic/>',
-			'{{1/2}}'   => ' 1/2',
-			'{{1/4}}'   => ' 1/4',
-			'{{3/4}}'   => ' 3/4',
-			'[s]'       => '(s)',
-			'&#45;'     => '-',
-			'&#x2d;'    => '-',
-			'&nbsp;'    => ' ',
-			'  '        => ' ',
-		]);
-
-		$infobox = $this->getInfobox($data, 'infobox fertigkeit');
-
-		if($infobox === null){
-			$this->logger->warning(sprintf('could not parse infobox for skill %s', $id));
-
-			return null;
-		}
-
-		return $this->parseInfobox($infobox, $id);
-	}
+	protected const PRE_PARSE_REPLACE = [
+		'{{pipe}}}' => '',
+		'{{{pipe}}' => '',
+		'{{pipe}}'  => '',
+		'{{!-}}'    => '',
+		"'''"       => '',
+		'{{sic}}'   => '<sic/>',
+		'{{1/2}}'   => ' 1/2',
+		'{{1/4}}'   => ' 1/4',
+		'{{3/4}}'   => ' 3/4',
+		'[s]'       => '(s)',
+		'&#45;'     => '-',
+		'&#x2d;'    => '-',
+		'&nbsp;'    => ' ',
+		'  '        => ' ',
+	];
 
 	protected function parseInfobox(string $infobox, int $id):array{
 		// replace some templates (progression, links, colored text)
@@ -182,21 +164,17 @@ final class WikiFetcherGerman extends WikiFetcher{
 		$adrenaline_precise = str_replace(',', '.', ($infobox['adrenalingenau'] ?? $infobox['adrenalin'] ?? '0')); // seriously???
 
 		return [
-			[
-				$infobox['name'],
-				$infobox['beschreibung'],
-				$infobox['kurzbeschreibung'],
-			],
-			[
-				'upkeep'             => intval(($infobox['energieregeneration'] ?? 0)),
-				'energy'             => intval(($infobox['energie'] ?? 0)),
-				'activation'         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
-				'recharge'           => intval(($infobox['wiederaufladung'] ?? 0)),
-				'adrenaline'         => intval(($infobox['adrenalin'] ?? 0)),
-				'adrenaline_precise' => floatval($adrenaline_precise),
-				'sacrifice'          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
-				'overcast'           => intval(($infobox['erschöpfung'] ?? 0)),
-			],
+			'name'               => $infobox['name'],
+			'description'        => $infobox['beschreibung'],
+			'concise'            => $infobox['kurzbeschreibung'],
+			'upkeep'             => intval(($infobox['energieregeneration'] ?? 0)),
+			'energy'             => intval(($infobox['energie'] ?? 0)),
+			'activation'         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
+			'recharge'           => intval(($infobox['wiederaufladung'] ?? 0)),
+			'adrenaline'         => intval(($infobox['adrenalin'] ?? 0)),
+			'adrenaline_precise' => floatval($adrenaline_precise),
+			'sacrifice'          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
+			'overcast'           => intval(($infobox['erschöpfung'] ?? 0)),
 		];
 	}
 

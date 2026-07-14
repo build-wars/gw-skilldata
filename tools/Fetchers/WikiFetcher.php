@@ -56,10 +56,15 @@ use const PREG_SET_ORDER;
  */
 abstract class WikiFetcher implements WikFetcherInterface{
 
-	protected const LANG          = '';
-	protected const MEDIAWIKI_API = '';
-	protected const CACHEDIR      = '';
-	protected const REDIRECTS     = [];
+	protected const LANG              = '';
+	protected const MEDIAWIKI_API     = '';
+	protected const CACHEDIR          = '';
+	protected const REDIRECTS         = [];
+	protected const EMPTY_SKILL       = [];
+	protected const PRE_PARSE_REPLACE = [];
+	protected const INFOBOX_NAME      = '';
+
+	public const USE_FIELDS = [];
 
 	// we need to fix the skill suffix that we cut in order to fetch from the wiki: Skill Name (Luxon)
 	protected const Luxon   = [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1957, 2051];
@@ -105,9 +110,26 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		$this->skilltypes = array_combine(array_column(Skilltype::NAME, static::LANG), array_keys(Skilltype::NAME));
 	}
 
-	abstract protected function parseResponse(array $data, int $id):array|null;
-
 	abstract protected function parseInfobox(string $infobox, int $id):array;
+
+	protected function parseResponse(array $data, int $id):array|null{
+
+		if(!isset($data['revisions'][0]['slots']['main']['*'])){
+			return null;
+		}
+
+		// remove/fix some templates first
+		$data    = strtr($data['revisions'][0]['slots']['main']['*'], static::PRE_PARSE_REPLACE);
+		$infobox = $this->getInfobox($data, static::INFOBOX_NAME);
+
+		if($infobox === null){
+			$this->logger->warning(sprintf('could not parse infobox for skill %s', $id));
+
+			return null;
+		}
+
+		return $this->parseInfobox($infobox, $id);
+	}
 
 	protected function getCachFilePath(int $id):string{
 		return sprintf('%s/%s.wikitext.json', static::CACHEDIR, $id);
@@ -122,7 +144,7 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 		// shortcut for the empty slot skill
 		if($id === 0){
-			return $this->parseResponse([], $id);
+			return static::EMPTY_SKILL;
 		}
 
 		$name = $this->prepareSkillName($skillName, $id);

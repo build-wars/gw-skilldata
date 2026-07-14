@@ -14,6 +14,7 @@ namespace Buildwars\GWSkillDataTools;
 use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use RuntimeException;
+use function array_flip;
 use function define;
 use function ini_set;
 use function mb_internal_encoding;
@@ -205,3 +206,6 @@ const PVP_SPLIT = [
 	2204 => 3039,
 	2205 => 3038,
 ];
+
+// convenience
+define('PVP_SPLIT_FLIP', array_flip(PVP_SPLIT));
