@@ -11,11 +11,11 @@
 # https://github.com/stefanzweifel/git-auto-commit-action
 
 on:
-  push:
-    branches:
-      - main
-    tags:
-      - "*.*.*"
+#  push:
+#    branches:
+#      - main
+#    tags:
+#      - "*.*.*"
   pull_request:
     branches:
       - main
@@ -189,7 +189,7 @@ jobs:
       - name: "build-src"
         run: npm run build-src
 
-      - name: "Build JSON and Paw-ned² databases"
+      - name: "Build JSON and paw-ned² databases"
         run: php ./tools/build-ci.php
 
       - name: "Copy files"
