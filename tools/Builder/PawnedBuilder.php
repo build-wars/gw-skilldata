@@ -41,7 +41,6 @@ use function sprintf;
 use function str_replace;
 use function strip_tags;
 use function trim;
-use function var_dump;
 use const Buildwars\GWSkillDataTools\PAWNED_DATA_DIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 use const PVP_SPLIT_FLIP;
