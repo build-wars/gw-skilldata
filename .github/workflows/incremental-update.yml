@@ -68,7 +68,6 @@ jobs:
           cp ./data/json-skills/*.json ./public/json/skills
           cp ./.build/*.ini ./public/pawned
           cp ./.build/*.csv ./public/pawned
-          cp ./.build/*.sha256 ./public/pawned
           mkdir ./public/schemas
           cp ./data/schemas/*.schema.json ./public/schemas
 
