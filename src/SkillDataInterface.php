@@ -16,6 +16,7 @@ interface SkillDataInterface{
 	final public const LANG_DE = 'de';
 	final public const LANG_EN = 'en';
 
+	/** @var array<string, string> */
 	final public const LANGUAGES = [
 		self::LANG_DE => 'German',
 		self::LANG_EN => 'English',
@@ -47,11 +48,15 @@ interface SkillDataInterface{
 
 	/**
 	 * The descriptions array
+	 *
+	 * @var array<int, string>
 	 */
 	public const ID2DESC = [];
 
 	/**
 	 * The data array
+	 *
+	 * @var array<int, scalar[]>
 	 */
 	public const ID2DATA = [];
 
