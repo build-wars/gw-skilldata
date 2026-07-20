@@ -37,10 +37,13 @@ use function intval;
 use function mb_convert_encoding;
 use function number_format;
 use function parse_ini_file;
+use function rename;
 use function sprintf;
 use function str_replace;
 use function strip_tags;
+use function tempnam;
 use function trim;
+use function unlink;
 use const Buildwars\GWSkillDataTools\PAWNED_DATA_DIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 use const PVP_SPLIT_FLIP;
@@ -390,13 +393,21 @@ ini_en;
 #		$this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
 
 		$data     = mb_convert_encoding($data, 'Windows-1252', 'UTF-8');
-		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), $data);
-		$hash     = hash_file('SHA256', $savepath);
+		$tempfile = $this->saveFile(tempnam($this->options->builddir, 'csv'), $data);
+		$hash     = hash_file('SHA256', $tempfile);
 
 		if($this->options->pawned_hash_check && $this->checkHash($filename, $hash)){
 			$this->logger->info(sprintf('no file changes: %s', $filename));
+			// delete the temp file here
+			unlink($tempfile);
 
 			return;
+		}
+
+		$csvpath = sprintf('%s/%s.csv', $dir, $filename);
+
+		if(!rename($tempfile, $csvpath)){
+			throw new RuntimeException(sprintf('could not move temp file "%s" to "%s"', $tempfile, $csvpath));
 		}
 
 		$ini = strtr(self::ini_body[$lang], [
@@ -410,7 +421,7 @@ ini_en;
 
 		$this->saveFile(sprintf('%s/%s.ini', $dir, $filename), mb_convert_encoding($ini, 'Windows-1252', 'UTF-8'));
 
-		$this->logger->info(sprintf('saved paw-ned² database to: %s', $savepath));
+		$this->logger->info(sprintf('saved paw-ned² database to: %s', File::realpath($csvpath)));
 	}
 
 	protected function checkHash(string $filename, string $hash):bool{
