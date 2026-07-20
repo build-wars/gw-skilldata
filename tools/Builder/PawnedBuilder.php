@@ -130,6 +130,7 @@ Hint=Daten von GuildWiki und GWW, erstellt von smiley, github.com/build-wars
 [Update]
 Provider=buildwars
 Date={DATE}
+Hash={HASH}
 [Network]
 DownloadSafeCSV={FILE_URL}.csv
 DownloadSafeINI={FILE_URL}.ini
@@ -150,6 +151,7 @@ Hint=Data from GuildWiki and GWW, by smiley, github.com/build-wars
 [Update]
 Provider=buildwars
 Date={DATE}
+Hash={HASH}
 [Network]
 DownloadSafeCSV={FILE_URL}.csv
 DownloadSafeINI={FILE_URL}.ini
@@ -381,6 +383,11 @@ ini_en;
 	protected function saveCSV(string $data, string $lang, string $mode, int $count, bool $concise):void{
 		$dir      = $this->options->builddir;
 		$filename = sprintf('%s_buildwars_%s%s', $lang, $mode, ($concise ? '_concise' : ''));
+
+		// save as utf-8 for local diffs
+#		$this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
+
+		$data     = mb_convert_encoding($data, 'Windows-1252', 'UTF-8');
 		$hash     = hash('SHA256', $data);
 
 		if($this->options->pawned_hash_check && $this->checkHash($filename, $hash)){
@@ -389,14 +396,13 @@ ini_en;
 			return;
 		}
 
-		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), mb_convert_encoding($data, 'Windows-1252', 'UTF-8'));
-		// save as utf-8 for local diffs
-#		$this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
+		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), $data);
 
 		$ini = strtr(self::ini_body[$lang], [
 			'{MODE}'        => $mode,
 			'{TYPE}'        => $concise ? ', concise' : '',
 			'{DATE}'        => date('YmdHi'),
+			'{HASH}'        => $hash,
 			'{FILE_URL}'    => sprintf('%s/pawned/%s', self::REPO_URL, $filename),
 			'{SKILL_COUNT}' => $count,
 		]);
