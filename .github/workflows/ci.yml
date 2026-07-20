@@ -11,11 +11,11 @@
 # https://github.com/stefanzweifel/git-auto-commit-action
 
 on:
-#  push:
-#    branches:
-#      - main
-#    tags:
-#      - "*.*.*"
+  push:
+    branches:
+      - main
+    tags:
+      - "*.*.*"
   pull_request:
     branches:
       - main
@@ -96,6 +96,9 @@ jobs:
           extensions: ${{ env.PHP_EXTENSIONS }}
           ini-values: ${{ env.PHP_INI_VALUES }}
           coverage: pcov
+        # https://github.com/shivammathur/setup-php/issues/1096#issuecomment-5026413877
+        env:
+          fail-fast: true
 
       - name: "Install dependencies with composer"
         uses: ramsey/composer-install@v4
