@@ -29,16 +29,19 @@ use function count;
 use function date;
 use function explode;
 use function floatval;
-use function hash;
+use function hash_file;
+use function hex2bin;
 use function implode;
 use function in_array;
 use function intval;
 use function mb_convert_encoding;
 use function number_format;
+use function parse_ini_file;
 use function sprintf;
 use function str_replace;
 use function strip_tags;
 use function trim;
+use function var_dump;
 use const Buildwars\GWSkillDataTools\PAWNED_DATA_DIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 use const PVP_SPLIT_FLIP;
@@ -125,18 +128,18 @@ class PawnedBuilder extends Builder{
 
 	protected const INI_DE = <<<ini_de
 [Menu]
-Name=Deutsch ({MODE}{TYPE}, buildwars)
-Hint=Daten von GuildWiki und GWW, erstellt von smiley, github.com/build-wars
+Name="Deutsch ({MODE}{TYPE}, buildwars)"
+Hint="Daten von GuildWiki und GWW, erstellt von smiley, github.com/build-wars"
 [Update]
-Provider=buildwars
+Provider="buildwars"
 Date={DATE}
 Hash={HASH}
 [Network]
-DownloadSafeCSV={FILE_URL}.csv
-DownloadSafeINI={FILE_URL}.ini
+DownloadSafeCSV="{FILE_URL}.csv"
+DownloadSafeINI="{FILE_URL}.ini"
 [Wiki]
-WikiShow=https://www.guildwiki.de/wiki/%wikistr%
-WikiEdit=https://www.guildwiki.de/gwiki/index.php?title=%wikistr%&action=edit
+WikiShow="https://www.guildwiki.de/wiki/%wikistr%"
+WikiEdit="https://www.guildwiki.de/gwiki/index.php?title=%wikistr%&action=edit"
 PrimaryDE=False
 ShowWikia=False
 [rebuilt]
@@ -146,18 +149,18 @@ ini_de;
 
 	protected const INI_EN = <<<ini_en
 [Menu]
-Name=Englisch ({MODE}{TYPE}, buildwars)
-Hint=Data from GuildWiki and GWW, by smiley, github.com/build-wars
+Name="Englisch ({MODE}{TYPE}, buildwars)"
+Hint="Data from GuildWiki and GWW, by smiley, github.com/build-wars"
 [Update]
-Provider=buildwars
+Provider="buildwars"
 Date={DATE}
 Hash={HASH}
 [Network]
-DownloadSafeCSV={FILE_URL}.csv
-DownloadSafeINI={FILE_URL}.ini
+DownloadSafeCSV="{FILE_URL}.csv"
+DownloadSafeINI="{FILE_URL}.ini"
 [Wiki]
-WikiShow=https://wiki.guildwars.com/wiki/%wikistr%
-WikiEdit=https://wiki.guildwars.com/index.php?title=%wikistr%&action=edit
+WikiShow="https://wiki.guildwars.com/wiki/%wikistr%"
+WikiEdit="https://wiki.guildwars.com/index.php?title=%wikistr%&action=edit"
 PrimaryEN=False
 ShowGWW=False
 ShowWikia=False
@@ -388,15 +391,14 @@ ini_en;
 #		$this->saveFile(sprintf('%s/%s.csv.utf8', $dir, $filename), $data);
 
 		$data     = mb_convert_encoding($data, 'Windows-1252', 'UTF-8');
-		$hash     = hash('SHA256', $data);
+		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), $data);
+		$hash     = hash_file('SHA256', $savepath);
 
 		if($this->options->pawned_hash_check && $this->checkHash($filename, $hash)){
 			$this->logger->info(sprintf('no file changes: %s', $filename));
 
 			return;
 		}
-
-		$savepath = $this->saveFile(sprintf('%s/%s.csv', $dir, $filename), $data);
 
 		$ini = strtr(self::ini_body[$lang], [
 			'{MODE}'        => $mode,
@@ -408,19 +410,26 @@ ini_en;
 		]);
 
 		$this->saveFile(sprintf('%s/%s.ini', $dir, $filename), mb_convert_encoding($ini, 'Windows-1252', 'UTF-8'));
-		$this->saveFile(sprintf('%s/%s.sha256', $dir, $filename), $hash);
 
 		$this->logger->info(sprintf('saved paw-ned² database to: %s', $savepath));
 	}
 
 	protected function checkHash(string $filename, string $hash):bool{
-		$path = sprintf('%s/%s.sha256', $this->options->pawned_hash_dir, $filename);
+		$path = sprintf('%s/%s.ini', $this->options->pawned_hash_dir, $filename);
 
 		if(!File::exists($path)){
 			throw new RuntimeException(sprintf('Could not fetch hash file: %s', $path));
 		}
 
-		return $hash === File::load($path);
+		$ini = parse_ini_file($path);
+		$h1  = hex2bin($hash);
+		$h2  = hex2bin($ini['Hash']);
+
+		if($h1 === false || $h2 === false){
+			throw new RuntimeException('invalid hash given');
+		}
+
+		return $h1 === $h2;
 	}
 
 }
