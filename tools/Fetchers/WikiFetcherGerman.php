@@ -30,7 +30,7 @@ use function trim;
 /**
  * Fetches from the german Guild Wars wiki (guildwiki.de)
  */
-final class WikiFetcherGerman extends WikiFetcher{
+final class WikiFetcherGerman extends WikiFetcherAbstract{
 
 	protected const LANG          = SkillDataInterface::LANG_DE;
 	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';

@@ -21,7 +21,7 @@ use Buildwars\GWSkillData\SkillLangEnglish;
 use Buildwars\GWSkillData\SkillLangGerman;
 use Buildwars\GWSkillData\Skilltype;
 use Buildwars\GWSkillDataTools\BuilderOptions;
-use Buildwars\GWSkillDataTools\Fetchers\WikiFetcher;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherAbstract;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherEnglish;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherGerman;
 use chillerlan\HTTP\CurlClient;
@@ -38,6 +38,8 @@ use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
+use function array_chunk;
+use function array_column;
 use function array_diff;
 use function array_key_exists;
 use function array_keys;
@@ -91,7 +93,7 @@ class Builder{
 	protected readonly ClientInterface                           $http;
 	protected readonly RequestFactoryInterface                   $requestFactory;
 
-	protected WikiFetcher $wikiFetcher;
+	protected WikiFetcherAbstract $wikiFetcher;
 
 	/** @var array<string, \Buildwars\GWSkillData\SkillDataInterface> */
 	protected readonly array $databases;
@@ -298,6 +300,28 @@ class Builder{
 	}
 
 	/**
+	 * Fetches multiple pages from the Wiki and saves them to cache
+	 */
+	public function fetchSkilldescToCache():static{
+
+		foreach(static::WIKIFETCHERS as $lang => $fqcn){
+			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger, $this->databases[$lang]);
+			$skilldesc  = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
+			$skillnames = array_column($skilldesc['skilldesc'], 'name', 'id');
+
+			unset($skillnames[0]); // unset the "No Skill" for the fetch request
+
+			// 50 articles is mediawiki limit
+			foreach(array_chunk($skillnames, 50, true) as $chonk){
+				$this->wikiFetcher->fetchMulti($chonk);
+			}
+
+		}
+
+		return $this;
+	}
+
+	/**
 	 * Fetches the wiki pages for the given skills and parses them for skill data and descriptions
 	 *
 	 * @phan-suppress PhanTypeArraySuspiciousNullable
@@ -306,13 +330,18 @@ class Builder{
 		$jsonData = File::loadJSON(static::JSON_DATA_FILE, true);
 
 		foreach(static::WIKIFETCHERS as $lang => $fqcn){
-			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger);
+			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger, $this->databases[$lang]);
 			// load the previously created JSON
 			$skilldesc = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
 
 			foreach($skilldesc['skilldesc'] as &$desc){
 				$current   = $this->databases[$lang]->get($desc['id']);
 				$skilldata = $this->wikiFetcher->fetch($desc['name'], $desc['id'], $this->options->from_cache);
+
+				if($skilldata === null){
+					$this->logger->warning(sprintf('invalid wiki data for [%-4s] %s', $desc['name'], $desc['id']));
+				}
+
 				// update skill descriptions
 				foreach(['name', 'description', 'concise'] as $k){
 

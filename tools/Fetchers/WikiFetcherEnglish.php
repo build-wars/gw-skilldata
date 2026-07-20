@@ -32,7 +32,7 @@ use function ucwords;
 /**
  * Fetches from the official Guild Wars wiki (wiki.guildwars.com)
  */
-final class WikiFetcherEnglish extends WikiFetcher{
+final class WikiFetcherEnglish extends WikiFetcherAbstract{
 
 	protected const LANG          = SkillDataInterface::LANG_EN;
 	protected const MEDIAWIKI_API = 'https://wiki.guildwars.com/api.php';

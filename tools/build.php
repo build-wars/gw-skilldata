@@ -26,7 +26,7 @@ const PAWNED_DATA_DIR = 'C:\\Program Files (x86)\\paw·ned²\\skilldata';
 $ptions = new BuilderOptions([
 	'ca_info'           => __DIR__.'/cacert.pem',
 	'timeout'           => 30,
-	'logLevel'          => LogLevel::ERROR,
+	'logLevel'          => LogLevel::INFO,
 	'builddir'          => BUILDDIR,
 	'update_skilldata'  => true,
 	'from_cache'        => true,
@@ -72,6 +72,7 @@ $builder->create();
  *   - skilldesc-de.json
  *   - skilldesc-en.json
  */
+$builder->fetchSkilldescToCache();
 $builder->fetchSkilldesc();
 
 /*

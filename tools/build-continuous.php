@@ -27,7 +27,7 @@ $ptions = new BuilderOptions([
 	'logLevel'          => LogLevel::INFO,
 	'builddir'          => BUILDDIR,
 	'update_skilldata'  => true,
-	'from_cache'        => false,
+	'from_cache'        => true,
 	'diff_descriptions' => true,
 	'diff_threshold'    => 20,
 	'pawned_hash_check' => false,
@@ -37,6 +37,7 @@ $ptions = new BuilderOptions([
 
 (new Builder($ptions))
 	->create()
+	->fetchSkilldescToCache()
 	->fetchSkilldesc()
 	->buildJSON()
 	->build()

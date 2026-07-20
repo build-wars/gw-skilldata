@@ -13,9 +13,11 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
+use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Skilltype;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use chillerlan\HTTP\Psr7\HTTPFactory;
+use chillerlan\HTTP\Utils\MessageUtil;
 use chillerlan\HTTP\Utils\QueryUtil;
 use chillerlan\Settings\SettingsContainerInterface;
 use chillerlan\Utilities\Directory;
@@ -30,6 +32,7 @@ use Psr\Log\LoggerInterface;
 use RuntimeException;
 use function array_column;
 use function array_combine;
+use function array_flip;
 use function array_key_exists;
 use function array_keys;
 use function array_map;
@@ -37,6 +40,7 @@ use function array_values;
 use function count;
 use function explode;
 use function floatval;
+use function implode;
 use function in_array;
 use function intval;
 use function is_int;
@@ -44,6 +48,7 @@ use function mb_strtolower;
 use function preg_match;
 use function preg_match_all;
 use function preg_replace;
+use function sha1;
 use function sprintf;
 use function str_contains;
 use function str_replace;
@@ -54,7 +59,7 @@ use const PREG_SET_ORDER;
 /**
  * @link http://xkcd.com/208
  */
-abstract class WikiFetcher implements WikFetcherInterface{
+abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 	protected const LANG              = '';
 	protected const MEDIAWIKI_API     = '';
@@ -94,6 +99,7 @@ abstract class WikiFetcher implements WikFetcherInterface{
 		protected readonly SettingsContainerInterface|BuilderOptions $options,
 		protected readonly ClientInterface                           $http,
 		protected readonly LoggerInterface                           $logger,
+		protected readonly SkillDataInterface                        $skillDB,
 	){
 		$factory = new HTTPFactory;
 
@@ -190,15 +196,67 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 					return $this->fetch($json['query']['pages']['-1']['title'], $id, $cached);
 				}
+
 				$this->logger->warning(sprintf('page not found: [%-4s] %s',  $id, $name));
 
 				return null;
 			}
 
-			File::save($this->getCachFilePath($id), $data);
+			File::saveJSON($this->getCachFilePath($id), array_values($json['query']['pages'])[0]);
 		}
 
-		return $this->parseResponse(array_values($json['query']['pages'])[0], $id);
+		return $this->parseResponse($json, $id);
+	}
+
+	/**
+	 * @param array<int, string> $skills
+	 */
+	public function fetchMulti(array $skills):void{
+
+		foreach($skills as $id => &$name){
+			$name = $this->prepareSkillName($name, $id);
+		}
+
+		$pages    = implode('|', $skills);
+		$filename = sprintf('%s/%s.pages.json', static::CACHEDIR, sha1($pages));
+
+#		if(File::exists($filename)){
+#			// use cached files
+#		}
+
+		$request = $this->requestFactory
+			->createRequest('GET', QueryUtil::merge(static::MEDIAWIKI_API, $this->getRequestParams($pages)))
+			->withHeader('Accept-Encoding', 'gzip')
+		;
+
+		$response = $this->http->sendRequest($request);
+		$status   = $response->getStatusCode();
+
+		if($status !== 200){
+			throw new RuntimeException(sprintf('request error: http/%s', $status));
+		}
+
+		$content = MessageUtil::getContents($response);
+
+		File::save($filename, $content);
+
+		$json = Str::jsonDecode($content, true);
+
+		$skillID_lookup = array_flip($skills);
+
+		foreach($json['query']['pages'] as $page){
+			// we'll just skip articles that can't be assigned, these will be fetched later anyway
+			if(!array_key_exists($page['title'], $skillID_lookup)){
+				continue;
+			}
+
+			$id = $skillID_lookup[$page['title']];
+
+			$this->logger->info(sprintf('feched to cache: [%-4s] %s', $id, $page['title']));
+
+			File::saveJSON($this->getCachFilePath($id), $page);
+		}
+
 	}
 
 	protected function prepareSkillName(string $skillName, int $id):string{
@@ -339,6 +397,5 @@ abstract class WikiFetcher implements WikFetcherInterface{
 
 		return false;
 	}
-
 
 }
