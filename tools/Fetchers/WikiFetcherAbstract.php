@@ -281,8 +281,8 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 	protected function getRequestParams(string $skillName):array{
 		return [
-			'format'  => 'json',
 			'action'  => 'query',
+			'format'  => 'json',
 			'prop'    => 'revisions',
 			'rvprop'  => 'content',
 			'rvslots' => 'main',

@@ -37,7 +37,7 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 	protected const CACHEDIR      = BUILDDIR.'/guildwiki';
 	protected const INFOBOX_NAME  = 'infobox fertigkeit';
 
-	public const USE_FIELDS = ['upkeep', 'energy', 'activation', 'recharge', 'adrenaline_precise', 'sacrifice', 'overcast'];
+	public const USE_FIELDS = ['upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'adrenaline_precise', 'sacrifice', 'overcast'];
 
 	protected const REDIRECTS = [
 		316  => 'Bis ans Limit!',

@@ -39,7 +39,7 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 	protected const CACHEDIR      = BUILDDIR.'/gww';
 	protected const INFOBOX_NAME  = 'skill infobox';
 
-	public const USE_FIELDS = ['type', 'adrenaline'];
+	public const USE_FIELDS = ['type'];
 
 	protected const REDIRECTS = [
 		1599 => '"It\'s Just a Flesh Wound."',
