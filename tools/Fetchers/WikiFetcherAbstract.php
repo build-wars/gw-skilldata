@@ -233,7 +233,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		$status   = $response->getStatusCode();
 
 		if($status !== 200){
-			throw new RuntimeException(sprintf('request error: http/%s', $status));
+			throw new RuntimeException(sprintf('request error: http/%s at %s', $status, $request->getUri()->getHost()));
 		}
 
 		$content = MessageUtil::getContents($response);
