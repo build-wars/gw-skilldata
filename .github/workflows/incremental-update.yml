@@ -1,12 +1,12 @@
 name: incremental-update.yml
 
 on:
-  push:
-    branches:
-      - main
-#  schedule:
-#    # POSIX cron syntax (Fridays, 5pm), https://crontab.guru/#0_17_*_*_5
-#    - cron: "0 17 * * 5"
+#  push:
+#    branches:
+#      - main
+  schedule:
+    # POSIX cron syntax (Fridays, 5pm), https://crontab.guru/#0_17_*_*_5
+    - cron: "0 17 * * 5"
 
 jobs:
   build-public:
