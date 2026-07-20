@@ -37519,7 +37519,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 25,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
