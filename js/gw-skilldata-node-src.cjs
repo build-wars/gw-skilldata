@@ -23057,7 +23057,7 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
