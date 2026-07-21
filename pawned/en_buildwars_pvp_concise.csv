@@ -179,7 +179,7 @@
 412;Call of Protection;Ruf des Schutzes;(120 seconds.) Your pet has 5..20 damage reduction.;1;22;20;2;0;5;0;90;0;0;0;0;0;0;0;
 1468;Strike as One;Gemeinsam zuschlagen;Your animal companion instantly moves to your target and inflicts Bleeding (5..15 seconds) with its next attack. The next time you hit with an attack, you inflict Crippled condition (5..15 seconds).;3;22;20;2;0;5;0;10;0;0;1;0;0;0;0;
 441;Melandru's Assault (PvP);Melandrus Angriff (PvP);Deals +5..20 damage. Deals +5..35 more damage to target and foes adjacent to target if this foe is enchanted.;1;22;11;2;0;10;0;5;0;0;0;0;0;0;0;
-470;Predatory Season;Jagdsaison;Creates a level 1..10 spirit (30..150 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.;1;22;19;2;0;5;2;60;0;0;0;0;0;0;0;
+470;Predatory Season;Jagdsaison;Creates a level 1..10 spirit (30..240 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.;1;22;19;2;0;5;2;60;0;0;0;0;0;0;0;
 411;Charm Animal;Tier zähmen;Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you.;0;22;1;2;0;10;10;0;0;0;0;0;0;0;0;
 1721;Rampage as One;Gemeinsam toben;(3..15 seconds.) You and your pet attack 33% faster and move 25% faster. No effect unless your pet is alive.;3;22;1;2;0;25;0;10;0;0;1;0;0;0;0;
 1472;Toxicity;Giftigkeit;Creates a level 1..10 spirit (30..180 second lifespan.) Poisoned or Diseased creatures within range have -2 Health degeneration.;3;22;19;2;0;15;2;60;0;0;0;0;0;0;0;
@@ -709,7 +709,7 @@
 1656;Air of Disenchantment;Flair der Entzauberung;Also hexes foes near your target (5..20 seconds). Remove one enchantment from target and nearby foes. Enchantments expire 150..300% faster on those foes.;3;1;24;5;0;10;1;10;0;0;1;0;0;0;0;
 33;Illusionary Weaponry (PvP);Illusion der Waffen (PvP);(30 seconds.) Deals 16..50 damage to foes in place of other damage or effects from melee attacks. Your melee attacks neither hit nor fail to hit.;1;1;23;5;0;5;1;15;0;0;1;0;0;0;0;
 76;Imagined Burden;Eingebildete Bürde;(8..20 seconds.) Target foe moves 50% slower.;0;1;24;5;0;15;1;30;0;0;0;0;0;0;0;
-2053;Calculated Risk (PvP);Kalkuliertes Risiko (PvP);Target foe does +10 damage with attacks (3..12 seconds). There is a 50% chance that the damage from each attack (maximum 10..60) will be done to that foe instead.;4;1;24;5;0;10;1;12;0;0;0;0;0;0;0;
+2053;Calculated Risk (PvP);Kalkuliertes Risiko (PvP);Target foe does +10 damage with attacks (3..12 seconds). There is a 50% chance that the damage from each attack (maximum 15..60) will be done to that foe instead.;4;1;24;5;0;10;1;12;0;0;0;0;0;0;0;
 879;Illusion of Pain (PvP);Illusion der Schmerzen (PvP);(8 seconds.) Causes -3..10 Health degeneration and target foe takes 3..10 damage each second. End effect: that foe is healed for 36..120. Ends if reapplied.;2;1;24;5;0;10;2;5;0;0;0;0;0;0;0;
 37;Illusion of Haste (PvP);Illusion der Eile (PvP);(5..11 seconds.) You move 33% faster. End effect: you are Crippled (3 seconds).;0;1;23;5;0;5;1;8;0;0;0;0;0;0;0;
 53;Migraine (PvP);Migräne (PvP);(4..16 seconds.) Causes -1..8 Health degeneration and doubles skill activation time.;1;1;24;5;0;10;2;12;0;0;1;0;0;0;0;
@@ -852,7 +852,7 @@
 820;Depravity;Verderbtheit;(5..20 seconds.) Causes 1..5 Energy loss whenever target foe casts a spell. One foe near your target also loses Energy.;3;7;24;4;0;10;1;15;0;0;1;0;0;0;0;
 1079;Enfeebling Touch;Schwächende Berührung;Touch Skill. Causes 5..65 Health loss. Inflicts Weakness condition (5..20 seconds).;2;7;1;4;0;5;.75;3;0;0;0;0;0;0;0;
 136;Shadow of Fear;Schatten der Angst;Also hexes foes adjacent to target (5..30 seconds). They attack 50% slower.;1;7;24;4;0;10;2;5;0;0;0;0;0;0;0;
-1998;Cacophony;Kakophonie;(15 seconds.) Deals 35..105 damage whenever target foe uses a shout or chant.;4;7;24;4;0;10;1;15;0;0;0;0;0;0;0;
+1998;Cacophony;Kakophonie;(15 seconds.) Deals 30..105 damage whenever target foe uses a shout or chant.;4;7;24;4;0;10;1;15;0;0;0;0;0;0;0;
 123;Insidious Parasite;Heimtückischer Parasit;(5..15 seconds.) Steal 15..45 Health whenever target foe hits with an attack.;1;7;24;4;0;15;1;12;0;0;0;0;0;0;0;
 135;Faintheartedness;Mutlosigkeit;(3..16 seconds.) Target foe attacks 50% slower and has -0..3 Health degeneration.;0;7;24;4;0;10;1;8;0;0;0;0;0;0;0;
 132;Plague Signet;Pest-Siegel;Transfers all conditions with 100..200% of their remaining durations from yourself to target foe. 50% failure chance unless Curses 5 or more.;0;7;21;4;0;0;1;4;0;0;1;0;0;0;0;
@@ -1238,7 +1238,7 @@
 876;Signet of Shadows;Siegel der Schatten;Deals 5..35 damage. Deals 15..60 more damage if target foe is Blinded.;2;30;21;7;0;0;1;15;0;0;0;0;0;0;0;
 1986;Vampiric Assault;Vampirangriff;Steals 10..40 Health if this attack hits. Must follow an off-hand attack.;4;30;7;7;0;5;0;8;0;0;0;0;0;0;0;
 827;Siphon Strength;Kraft abzapfen;(5..20 seconds.) Target foe deals -5..50 attack damage. You have +50% chance to land a critical hit on this foe.;2;30;24;7;0;10;1;10;0;0;1;0;0;0;0;
-987;Way of the Empty Palm;Weg der leeren Handfläche;(5..15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 20..50% faster.;2;30;23;7;0;5;.25;10;0;0;1;0;0;0;0;
+987;Way of the Empty Palm;Weg der leeren Handfläche;(5..15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 25..50% faster.;2;30;23;7;0;5;.25;10;0;0;1;0;0;0;0;
 1035;Assassin's Promise;Versprechen des Assassinen;(5..15 seconds.) You gain 5..20 Energy and all your skills recharge if target foe dies.;2;30;24;7;0;5;.75;45;0;0;1;0;0;0;0;
 1647;Signet of Toxic Shock;Siegel des toxischen Schocks;Deals 10..100 damage. No effect unless target foe is Poisoned;3;30;21;7;0;0;1;15;0;0;0;0;0;0;0;
 2052;Shadow Fang;Schattenfangzahn;Shadow Step to target foe. End effect after 10 seconds: inflicts Deep Wound condition (5..20 seconds). you return to your original location.;4;30;24;7;0;10;.25;20;0;0;0;0;0;0;0;

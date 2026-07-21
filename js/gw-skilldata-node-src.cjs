@@ -2711,8 +2711,8 @@ var skilldesc$1 = {
 	"470": {
 		id: 470,
 		name: "Predatory Season",
-		description: "Create a level 1...10 spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after 30...150 seconds.",
-		concise: "Creates a level 1...10 spirit (30...150 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits."
+		description: "Create a level 1...10 spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after 30...240 seconds.",
+		concise: "Creates a level 1...10 spirit (30...240 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits."
 	},
 	"471": {
 		id: 471,
@@ -3881,8 +3881,8 @@ var skilldesc$1 = {
 	"987": {
 		id: 987,
 		name: "Way of the Empty Palm",
-		description: "For 5...15 seconds, off-hand and dual attacks cost no Energy and recharge 20...50% faster.",
-		concise: "(5...15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 20...50% faster."
+		description: "For 5...15 seconds, off-hand and dual attacks cost no Energy and recharge 25...50% faster.",
+		concise: "(5...15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 25...50% faster."
 	},
 	"988": {
 		id: 988,
@@ -6965,8 +6965,8 @@ var skilldesc$1 = {
 	"1998": {
 		id: 1998,
 		name: "Cacophony",
-		description: "For 15 seconds, whenever target foe uses a shout or chant, that foe takes 35...105 damage.",
-		concise: "(15 seconds.) Deals 35...105 damage whenever target foe uses a shout or chant."
+		description: "For 15 seconds, whenever target foe uses a shout or chant, that foe takes 30...105 damage.",
+		concise: "(15 seconds.) Deals 30...105 damage whenever target foe uses a shout or chant."
 	},
 	"1999": {
 		id: 1999,
@@ -8663,8 +8663,8 @@ var skilldesc$1 = {
 	"3196": {
 		id: 3196,
 		name: "Calculated Risk (PvP)",
-		description: "For 3...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 10...60 damage.)",
-		concise: "Target foe does +10 damage with attacks (3...12 seconds). There is a 50% chance that the damage from each attack (maximum 10...60) will be done to that foe instead."
+		description: "For 3...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...60 damage.)",
+		concise: "Target foe does +10 damage with attacks (3...12 seconds). There is a 50% chance that the damage from each attack (maximum 15...60) will be done to that foe instead."
 	},
 	"3204": {
 		id: 3204,
@@ -39958,8 +39958,8 @@ var skilldesc = {
 	"32": {
 		id: 32,
 		name: "Illusion der Schwäche",
-		description: "Ihr verliert 51...241 Lebenspunkte. Illusion der Schwäche endet, wenn der Schaden Eure Lebenspunkte unter 25% Eurer maximalen Lebenspunkte bringt. Wenn Illusion der Schwäche endet, heilt Ihr um 50...240 Lebenspunkte.",
-		concise: "Ihr verliert 51...241 Lebenspunkte. Wirkung am Ende: Ihr heilt um 50...240 Lebenspunkte. <gray>Endet, wenn Eure Lebenspunkte durch Schaden unter 25% Eurer maximalen Lebenspunkte gebracht werden.</gray>"
+		description: "Ihr verliert 50...241 Lebenspunkte. Illusion der Schwäche endet, wenn der Schaden Eure Lebenspunkte unter 25% Eurer maximalen Lebenspunkte bringt. Wenn Illusion der Schwäche endet, heilt Ihr um 50...240 Lebenspunkte.",
+		concise: "Ihr verliert 50...241 Lebenspunkte. Wirkung am Ende: Ihr heilt um 50...240 Lebenspunkte. <gray>Endet, wenn Eure Lebenspunkte durch Schaden unter 25% Eurer maximalen Lebenspunkte gebracht werden.</gray>"
 	},
 	"33": {
 		id: 33,
@@ -40727,7 +40727,7 @@ var skilldesc = {
 		id: 165,
 		name: "Erdrüstung",
 		description: "30 Sekunden lang erhaltet Ihr +24...60 Rüstung, bewegt Euch jedoch um 50...14% langsamer.",
-		concise: "30 Sekunden: Ihr habt +24...60 Rüstung. <gray>Ihr bewegt Euch um 50...21...14% langsamer.</gray>"
+		concise: "30 Sekunden: Ihr habt +24...60 Rüstung. <gray>Ihr bewegt Euch um 50...14% langsamer.</gray>"
 	},
 	"166": {
 		id: 166,
@@ -42058,8 +42058,8 @@ var skilldesc = {
 	"388": {
 		id: 388,
 		name: "Tödliche Entgegnung",
-		description: "8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff, Euer Angreifer wird mit 15...90 Punkten Schaden getroffen und blutet 3...26 Sekunden lang.",
-		concise: "8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 15...90 Punkte Schaden. Verursacht Zustand Blutung (3...26 Sekunden). <gray>Keine Wirkung, falls Ihr kein Schwert benutzt.</gray>"
+		description: "8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff, Euer Angreifer wird mit 15...90 Punkten Schaden getroffen und blutet 3...25 Sekunden lang.",
+		concise: "8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 15...90 Punkte Schaden. Verursacht Zustand Blutung (3...25 Sekunden). <gray>Keine Wirkung, falls Ihr kein Schwert benutzt.</gray>"
 	},
 	"389": {
 		id: 389,
@@ -42551,7 +42551,7 @@ var skilldesc = {
 		id: 763,
 		name: "Neidvoller Blick",
 		description: "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung wird 1...20 Sekunden lang Eure nächste Verzauberung 0...1 Sekunden schneller gewirkt und kostet 1...10 Energiepunkte weniger.",
-		concise: "Entfernt eine Verzauberung. Beim Entfernen einer Verzauberung wird 1...20 Sekunden lang Eure nächste Verzauberung 0...1 Sekunden schneller gewirkt und kostet 1...10 Energiepunkte weniger."
+		concise: "Entfernt eine Verzauberung. Entfernungseffekt: Eure nächste Verzauberung wird 0...1 Sekunden schneller gewirkt und kostet 1...10 Energiepunkte weniger. (1...20 Sekunden.)"
 	},
 	"764": {
 		id: 764,
@@ -43247,7 +43247,7 @@ var skilldesc = {
 		id: 903,
 		name: "Eisprisma",
 		description: "Der Gegner erleidet 15...75 Punkte Kälteschaden. Wenn der Gegner unter einer Wassermagie-Verhexung leidet, fügt Eisprisma allen Feinden in der Nähe +15...75 Kälteschaden zu.",
-		concise: "Richtet 10...75 Punkte Kälteschaden an. Verursacht 15...75 Punkte Kälteschaden bei allen Feinden in der Nähe, wenn der Gegner unter einer Wassermagie-Verhexung leidet."
+		concise: "Richtet 15...75 Punkte Kälteschaden an. Verursacht 15...75 Punkte Kälteschaden bei allen Feinden in der Nähe, wenn der Gegner unter einer Wassermagie-Verhexung leidet."
 	},
 	"904": {
 		id: 904,
@@ -43936,8 +43936,8 @@ var skilldesc = {
 	"1059": {
 		id: 1059,
 		name: "Verhexungsfresser-Siegel",
-		description: "Berührt den Verbünden (bzw. Euch selbst) und nichts geschieht. Entfernt je 1 Verhexung von bis zu 2...5 Euch umstehenden verhexten Verbündeten: Spieler in Ladereihenfolge, Helden in Besitzer-Ladereihenfolge (Gefolgsleute kommen nach Helden des schnellsten Spielers), sowie deren Tiere und Diener. Ihr erhaltet für jede so entfernte Verhexung 1...4 Energiepunkte.",
-		concise: "Nichts geschieht. Entfernt je 1 Verhexung von Euch umstehenden Verbündeten: Spieler in Ladereihenfolge, Helden in Besitzer-Ladereihenfolge (Gefolgsleute kommen nach Helden des schnellsten Spielers), sowie deren Tiere und Diener. <gray>Es können höchstens 2...5 verhexte Verbündete betroffen sein.</gray>"
+		description: "Berührt den Verbünden (bzw. Euch selbst) und nichts geschieht. Entfernt je 1 Verhexung von bis zu 2...5 Euch umstehenden verhexten Verbündeten (bzw. Euch selbst): Spieler in Ladereihenfolge, Helden in Besitzer-Ladereihenfolge (Gefolgsleute kommen nach Helden des schnellsten Spielers), sowie deren Tiere und Diener. Ihr erhaltet für jede so entfernte Verhexung 1...4 Energiepunkte.",
+		concise: "Nichts geschieht. Entfernt je 1 Verhexung von Euch umstehenden Verbündeten bzw. Euch selbst: Spieler in Ladereihenfolge, Helden in Besitzer-Ladereihenfolge (Gefolgsleute kommen nach Helden des schnellsten Spielers), sowie deren Tiere und Diener. Entfernungswirkung: Ihr erhaltet für jede entfernte Verhexung 1...4 Energiepunkte. <gray>Es können höchstens 2...5 verhexte Verbündete betroffen sein.</gray>"
 	},
 	"1061": {
 		id: 1061,
@@ -44302,8 +44302,8 @@ var skilldesc = {
 	"1200": {
 		id: 1200,
 		name: "Siegel des Bogenschützen",
-		description: "0...24 Sekunden lang dauern alle von Euch zugefügten Zustände, während Ihr einen Bogen führt, um 150% länger an.",
-		concise: "0...24 Sekunden: Von Euch zugefügte Zustände, während Ihr einen Bogen führt, dauern um 150% länger an."
+		description: "1...24 Sekunden lang dauern alle von Euch zugefügten Zustände, während Ihr einen Bogen führt, um 150% länger an.",
+		concise: "1...24 Sekunden: Von Euch zugefügte Zustände, während Ihr einen Bogen führt, dauern um 150% länger an."
 	},
 	"1201": {
 		id: 1201,
@@ -44627,7 +44627,7 @@ var skilldesc = {
 		id: 1266,
 		name: "Beruhigung",
 		description: "Erstellt einen Geist der Stufe 1...12. Alle Feinde in seiner Reichweite benötigen doppelt so lange, um Adrenalin aufzuladen. Dieser Geist stirbt nach 15...45 Sekunden.",
-		concise: "Binderitual. Erstellt einen Geist der Stufe 1...8 (15...45 Sekunden Lebensdauer). Das Aufladen von Adrenalin dauert bei Feinden in Reichweite doppelt so lange."
+		concise: "Binderitual. Erstellt einen Geist der Stufe 1...12 (15...45 Sekunden Lebensdauer). Das Aufladen von Adrenalin dauert bei Feinden in Reichweite doppelt so lange."
 	},
 	"1267": {
 		id: 1267,
@@ -45125,7 +45125,7 @@ var skilldesc = {
 		id: 1469,
 		name: "Kreuzfeuer",
 		description: "Wenn dieser Angriff den Gegner trifft, fügt er +5...20 Punkte Schaden zu. Wenn dieser Gegner sich in der Nähe Eurer Verbündeten befindet, ist ein Blocken bei dem Angriff nicht möglich.",
-		concise: "Richtet +10...20 Punkte Schaden an. Kann nicht geblockt werden, falls der Gegner in der Nähe eines Verbündeten ist."
+		concise: "Richtet +5...20 Punkte Schaden an. Kann nicht geblockt werden, falls der Gegner in der Nähe eines Verbündeten ist."
 	},
 	"1470": {
 		id: 1470,
@@ -47579,7 +47579,7 @@ var skilldesc = {
 		id: 2356,
 		name: "\"Ich bin unaufhaltbar!\"",
 		description: "16...20 Sekunden habt Ihr +24 Rüstung und könnt weder zu Boden geworfen noch verkrüppelt werden.",
-		concise: "20 Sekunden: Ihr habt +24 Rüstung und könnt nicht zu Boden geworfen oder verkrüppelt werden."
+		concise: "16...20 Sekunden: Ihr habt +24 Rüstung und könnt nicht zu Boden geworfen oder verkrüppelt werden."
 	},
 	"2357": {
 		id: 2357,
