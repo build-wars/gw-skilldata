@@ -62,7 +62,7 @@ foreach($databases[SkillDataInterface::LANG_EN]::ID2DESC as $id => $lang1){
 
 			$diff = diffProgressions($lang1[$pos], $lang2[$pos]);
 
-			if($diff === null || ($use_known_discrepancies && in_array($id, KNOWN_DISCREPANCIES[$lang]))){
+			if($diff === null || ($use_known_discrepancies && in_array($id, KNOWN_DISCREPANCIES[$lang], true))){
 				continue;
 			}
 
