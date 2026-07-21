@@ -100,7 +100,7 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 		// replace some templates (progression, links, colored text)
 		$s = [
 			// progression
-			'/\{\{[p1-2]+\|([\+\-\d]+)\|([\d%]+)(?:\|(?:[^\}]+))?\}\}/i',
+			'/\{\{[p1-2]+\|([\+\-]*\d+)\|([\d%]+)(?:\|(?:[^\}]+))?\}\}/i',
 			// article links
 			'/\[\[[^\[\|]+\|([^\[\|]+)\]\]/',
 			// random templates
