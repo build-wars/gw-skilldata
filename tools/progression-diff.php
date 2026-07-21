@@ -36,7 +36,7 @@ const RESULT_FILE = BUILDDIR.'/progression-diff.json';
 
 const KNOWN_DISCREPANCIES = [
 	SkillDataInterface::LANG_DE => [
-		27, 50, 57, 239, 242, 335, 775, 898, 979, 1335, 1345, 1758, 2013, 2218, 2223, 2806, 3180, 3191, 3192,
+		27, 50, 57, 239, 242, 335, 775, 898, 979, 1335, 1345, 1758, 1815, 2013, 2218, 2223, 2806, 3180, 3191, 3192,
 	],
 ];
 
@@ -69,8 +69,8 @@ foreach($databases[SkillDataInterface::LANG_EN]::ID2DESC as $id => $lang1){
 			[$match1, $match2] = $diff;
 
 			$diffs[$id][$lang][$key] = [
-				[$lang1[0], $lang1[$pos], $match1],
-				[$lang2[0], $lang2[$pos], $match2],
+				'en'  => ['name' => $lang1[0], 'text' => $lang1[$pos], 'prog' => $match1],
+				$lang => ['name' => $lang2[0], 'text' => $lang2[$pos], 'prog' => $match2],
 			];
 		}
 	}
@@ -100,7 +100,7 @@ function getProgressions(string $description):array|null{
 /**
  * Compares the progression values of the given skill descriptions.
  *
- * Returnd null if there are no differences, returns an array of progression matches if there were differences.
+ * Returns null if there are no differences, returns an array of progression matches if there were differences.
  */
 function diffProgressions(string $desc1, string $desc2):array|null{
 	$prog1 = getProgressions($desc1);
@@ -116,15 +116,15 @@ function diffProgressions(string $desc1, string $desc2):array|null{
 		return [$prog1, $prog2];
 	}
 
-	$diff = [];
+	$diff = 0;
 
 	foreach($prog1 as $i => $value){
 		if($prog2[$i] !== $value){
-			$diff[] = $value;
+			$diff++;
 		}
 	}
 
-	if($diff !== []){
+	if($diff > 0){
 		return [$prog1, $prog2];
 	}
 
