@@ -130,7 +130,7 @@ final class Attribute{
 		self::TITLE_NORN          => ['de' => 'Norntitel',                'en' => 'Norn Title Track',                  ],
 	];
 
-	public const ATTRIBUTE_PROFESSION = [
+	public const PROFESSION = [
 		self::FAST_CASTING        => Profession::MESMER,
 		self::ILLUSION_MAGIC      => Profession::MESMER,
 		self::DOMINATION_MAGIC    => Profession::MESMER,
@@ -184,7 +184,7 @@ final class Attribute{
 		self::TITLE_NORN          => Profession::NONE,
 	];
 
-	public const ATTRIBUTE_MAX = [
+	public const MAX_VALUE = [
 		self::FAST_CASTING        => 21,
 		self::ILLUSION_MAGIC      => 21,
 		self::DOMINATION_MAGIC    => 21,
@@ -243,7 +243,7 @@ final class Attribute{
 		public readonly int       $level = 0,
 		protected readonly string $lang = SkillDataInterface::LANG_EN,
 	){
-		if(!array_key_exists($this->id, self::ATTRIBUTE_PROFESSION)){
+		if(!array_key_exists($this->id, self::PROFESSION)){
 			throw new InvalidArgumentException('invalid attribute ID');
 		}
 	}
@@ -253,11 +253,11 @@ final class Attribute{
 	}
 
 	public function getProfession():int{
-		return self::ATTRIBUTE_PROFESSION[$this->id];
+		return self::PROFESSION[$this->id];
 	}
 
 	public function getMaxValue():int{
-		return self::ATTRIBUTE_MAX[$this->id];
+		return self::MAX_VALUE[$this->id];
 	}
 
 	public function getByProfession(int $profesion):array{
@@ -268,7 +268,7 @@ final class Attribute{
 
 		$attributes = [];
 
-		foreach(self::ATTRIBUTE_PROFESSION as $attr => $prof){
+		foreach(self::PROFESSION as $attr => $prof){
 			if($prof === $profesion){
 				$attributes[] = $attr;
 			}
@@ -282,7 +282,7 @@ final class Attribute{
 	}
 
 	public function clamp(int|null $level = null, int|null $max = null):int{
-		$attr_max = ($max ?? self::ATTRIBUTE_MAX[$this->id]);
+		$attr_max = ($max ?? self::MAX_VALUE[$this->id]);
 		// the internal maximum attribute level for player characters is 20-21, monsters are capped at 30
 		// fast cast levels > 33 result in negative activation & recharge for mesmer - THE CHRONOMANCER IS REAL
 		$max = min($attr_max, 30);
