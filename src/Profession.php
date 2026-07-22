@@ -13,13 +13,10 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
-use InvalidArgumentException;
-use function array_key_exists;
-
 /**
  * Encapsulates all profession related static data
  */
-final class Profession{
+final class Profession extends DataObjectAbstract{
 
 	public const NONE         = 0;
 	public const WARRIOR      = 1;
@@ -33,7 +30,6 @@ final class Profession{
 	public const PARAGON      = 9;
 	public const DERVISH      = 10;
 
-	/** @var array<int, array{de: string, en: string}> */
 	public const NAME = [
 		self::NONE         => ['de' => 'keine',           'en' => 'none',        ],
 		self::WARRIOR      => ['de' => 'Krieger',         'en' => 'Warrior',     ],
@@ -78,26 +74,12 @@ final class Profession{
 		self::DERVISH      => Attribute::MYSTICISM,
 	];
 
-	public function __construct(
-		public readonly int       $id,
-		protected readonly string $lang = SkillDataInterface::LANG_EN,
-	){
-		if(!array_key_exists($this->id, self::PRIMARY_ATTRIBUTE)){
-			throw new InvalidArgumentException('invalid profession ID');
-		}
-	}
-
-	public function getName():string{
-		return self::NAME[$this->id][$this->lang];
-	}
-
 	public function getAbbr():string{
 		return self::NAME_ABBR[$this->id][$this->lang];
 	}
 
 	public function getPrimaryAttribute():int{
-		/** @phan-suppress-next-line PhanTypeArraySuspicious */
-		return self::PRIMARY_ATTRIBUTE[$this->id][$this->lang];
+		return self::PRIMARY_ATTRIBUTE[$this->id];
 	}
 
 }

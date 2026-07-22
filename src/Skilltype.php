@@ -11,15 +11,13 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
-use InvalidArgumentException;
-use function array_key_exists;
 use function sort;
 use const SORT_NUMERIC;
 
 /**
  * Encapsulates all skill type related static data
  */
-final class Skilltype{
+final class Skilltype extends DataObjectAbstract{
 
 	public const NONE                    = 0;
 	public const SKILL                   = 1;
@@ -132,19 +130,6 @@ final class Skilltype{
 		self::SIGNET            => [self::TOUCH_SIGNET],
 		self::TOUCH_SKILL       => [self::TOUCH_SPELL, self::TOUCH_ENCHANTMENT_SPELL, self::TOUCH_HEX_SPELL, self::TOUCH_SIGNET],
 	];
-
-	public function __construct(
-		public readonly int       $id,
-		protected readonly string $lang = SkillDataInterface::LANG_EN,
-	){
-		if(!array_key_exists($this->id, self::NAME)){
-			throw new InvalidArgumentException('invalid profession ID');
-		}
-	}
-
-	public function getName():string{
-		return self::NAME[$this->id][$this->lang];
-	}
 
 	/**
 	 * @return int[]

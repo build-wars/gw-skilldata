@@ -39,7 +39,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 			(new Campaign($skillData['campaign'], static::LANG))->getName(),
 			$prof->getName(),
 			$prof->getAbbr(),
-			(new Attribute($skillData['attribute'], 0, static::LANG))->getName(),
+			(new Attribute($skillData['attribute'], static::LANG))->getName(),
 			(new Skilltype($skillData['type'], static::LANG))->getName(),
 		]);
 
@@ -82,7 +82,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getByAttribute(int $attribute, bool $pvp = false):array{
-		return $this->getByKey('attribute', (new Attribute($attribute, 0))->id, $pvp);
+		return $this->getByKey('attribute', (new Attribute($attribute))->id, $pvp);
 	}
 
 	public function getByType(int $type, bool $pvp = false):array{

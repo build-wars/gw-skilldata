@@ -275,7 +275,7 @@ class Builder{
 					'campaign'        => (new Campaign($skillData['campaign'], $lang))->getName(),
 					'profession'      => $prof->getName(),
 					'profession_abbr' => $prof->getAbbr(),
-					'attribute'       => (new Attribute($skillData['attribute'], 0, $lang))->getName(),
+					'attribute'       => (new Attribute($skillData['attribute'], $lang))->getName(),
 					'type'            => (new Skilltype($skillData['type'], $lang))->getName(),
 				];
 			}

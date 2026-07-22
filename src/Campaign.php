@@ -17,7 +17,7 @@ use function array_key_exists;
 /**
  * Encapsulates all campaign related static data
  */
-final class Campaign{
+final class Campaign extends DataObjectAbstract{
 
 	public const CORE             = 0;
 	public const PROPHECIES       = 1;
@@ -41,21 +41,13 @@ final class Campaign{
 		self::EYE_OF_THE_NORTH => ['de' => 'Tyria',     'en' => 'Tyria',    ],
 	];
 
-	public function __construct(
-		public readonly int       $id,
-		protected readonly string $lang = SkillDataInterface::LANG_EN,
-	){
-		if(!array_key_exists($this->id, self::NAME)){
-			throw new InvalidArgumentException('invalid profession ID');
+	public function getContinentName(string|null $lang = null):string{
+
+		if($lang !== null && !array_key_exists($lang, SkillDataInterface::LANGUAGES)){
+			throw new InvalidArgumentException('invalid language');
 		}
-	}
 
-	public function getName():string{
-		return self::NAME[$this->id][$this->lang];
-	}
-
-	public function getContinentName():string{
-		return self::CONTINENT_NAME[$this->id][$this->lang];
+		return self::CONTINENT_NAME[$this->id][($lang ?? $this->lang)];
 	}
 
 }

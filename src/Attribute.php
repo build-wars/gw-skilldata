@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
-use InvalidArgumentException;
-use function array_key_exists;
+use Closure;
+use function floor;
 use function in_array;
 use function max;
 use function min;
@@ -20,7 +20,7 @@ use function min;
 /**
  * Encapsulates all skill attribute related static data
  */
-final class Attribute{
+final class Attribute extends DataObjectAbstract{
 
 	public const FAST_CASTING        = 0;
 	public const ILLUSION_MAGIC      = 1;
@@ -238,18 +238,12 @@ final class Attribute{
 		self::TITLE_NORN          => 10,
 	];
 
-	public function __construct(
-		public readonly int       $id,
-		public readonly int       $level = 0,
-		protected readonly string $lang = SkillDataInterface::LANG_EN,
-	){
-		if(!array_key_exists($this->id, self::PROFESSION)){
-			throw new InvalidArgumentException('invalid attribute ID');
-		}
-	}
+	public readonly int $level;
 
-	public function getName():string{
-		return self::NAME[$this->id][$this->lang];
+	public function __construct(int $id, string $lang = SkillDataInterface::LANG_EN, int $level = 0){
+		parent::__construct($id, $lang);
+
+		$this->level = $this->clamp($level);
 	}
 
 	public function getProfession():int{
@@ -260,16 +254,12 @@ final class Attribute{
 		return self::MAX_VALUE[$this->id];
 	}
 
-	public function getByProfession(int $profesion):array{
-
-		if(!array_key_exists($profesion, Profession::NAME)){
-			throw new InvalidArgumentException('invalid profession ID');
-		}
-
+	public static function getByProfession(int $professionID):array{
+		$profession = new Profession($professionID);
 		$attributes = [];
 
 		foreach(self::PROFESSION as $attr => $prof){
-			if($prof === $profesion){
+			if($prof === $profession->id){
 				$attributes[] = $attr;
 			}
 		}
@@ -289,10 +279,42 @@ final class Attribute{
 
 		// we'll clamp the PvE attributes to their respectime max title ranks
 		if($this->id > 100){
-			$max = $attr_max;
+			$max = self::MAX_VALUE[$this->id];
 		}
 
 		return max(0, min(($level ?? $this->level), $max));
+	}
+
+	/**
+	 * Returns the progression function for the given title rank or attribute
+	 */
+	public function getProgressionFunction():Closure{
+		return match(self::MAX_VALUE[$this->id]){
+			// lightbringer
+			8       => $this->progression8(...),
+			// sunspear and eotn titles
+			10      => $this->progression10(...),
+			// luxon/kurzick
+			12      => $this->progression12(...),
+			// regular skill progression
+			default => $this->progression15(...),
+		};
+	}
+
+	protected function progression8(int $level, int $val0, int $val15):float{
+		return (float)(min(($level * 4), 15) * (($val15 - $val0) / 15) + $val0);
+	}
+
+	protected function progression10(int $level, int $val0, int $val15):float{
+		return (float)(min(($level * 3), 15) * (($val15 - $val0) / 15) + $val0);
+	}
+
+	protected function progression12(int $level, int $val0, int $val15):float{
+		return (float)(min(floor($level * 2.5), 15) * (($val15 - $val0) / 15) + $val0);
+	}
+
+	protected function progression15(int $level, int $val0, int $val15):float{
+		return (float)($level * (($val15 - $val0) / 15) + $val0);
 	}
 
 }
