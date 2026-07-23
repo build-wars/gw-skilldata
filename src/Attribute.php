@@ -245,7 +245,11 @@ final class Attribute extends DataObjectAbstract{
 		$this->level = $this->clamp($level);
 	}
 
-	public function getProfession():int{
+	public function getProfession():Profession{
+		return new Profession(self::PROFESSION[$this->id], $this->lang);
+	}
+
+	public function getProfessionID():int{
 		return self::PROFESSION[$this->id];
 	}
 
@@ -253,8 +257,12 @@ final class Attribute extends DataObjectAbstract{
 		return self::MAX_VALUE[$this->id];
 	}
 
-	public static function getByProfession(int $professionID):array{
-		$profession = new Profession($professionID);
+	public static function getByProfession(Profession|int $profession):array{
+
+		if(!$profession instanceof Profession){
+			$profession = new Profession($profession);
+		}
+
 		$attributes = [];
 
 		foreach(self::PROFESSION as $attr => $prof){

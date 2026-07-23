@@ -59,7 +59,7 @@ final class AttributeTest extends TestCase{
 	#[TestWith([Attribute::NONE, Profession::NONE])]
 	#[TestWith([Attribute::TITLE_LUXON, Profession::NONE])]
 	public function getProfession(int $attribute, int $expected):void{
-		$this::assertSame($expected, (new Attribute($attribute))->getProfession());
+		$this::assertSame($expected, (new Attribute($attribute))->getProfessionID());
 	}
 
 	#[Test]
