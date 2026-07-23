@@ -13,7 +13,6 @@ namespace Buildwars\GWSkillData;
 
 use Closure;
 use function floor;
-use function in_array;
 use function max;
 use function min;
 
@@ -268,7 +267,7 @@ final class Attribute extends DataObjectAbstract{
 	}
 
 	public function isPrimary():bool{
-		return in_array($this->id, Profession::PRIMARY_ATTRIBUTE, true);
+		return $this->in(Profession::PRIMARY_ATTRIBUTE);
 	}
 
 	public function clamp(int|null $level = null, int|null $max = null):int{

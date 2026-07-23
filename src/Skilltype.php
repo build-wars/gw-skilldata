@@ -125,7 +125,8 @@ final class Skilltype extends DataObjectAbstract{
 		self::RITUAL            => [self::BINDING_RITUAL, self::NATURE_RITUAL, self::EBON_VANGUARD_RITUAL],
 		self::SPELL             => [
 			self::ENCHANTMENT_SPELL, self::HEX_SPELL, self::ITEM_SPELL, self::WARD_SPELL, self::WEAPON_SPELL, self::WELL_SPELL,
-			self::FLASH_ENCHANTMENT_SPELL, self::TOUCH_SPELL, self::TOUCH_ENCHANTMENT_SPELL, self::TOUCH_HEX_SPELL,
+			self::FLASH_ENCHANTMENT_SPELL, self::DOUBLE_ENCHANTMENT, self::TOUCH_SPELL, self::TOUCH_ENCHANTMENT_SPELL,
+			self::TOUCH_HEX_SPELL,
 		],
 		self::SIGNET            => [self::TOUCH_SIGNET],
 		self::TOUCH_SKILL       => [self::TOUCH_SPELL, self::TOUCH_ENCHANTMENT_SPELL, self::TOUCH_HEX_SPELL, self::TOUCH_SIGNET],

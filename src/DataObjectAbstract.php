@@ -13,6 +13,7 @@ namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
 use function array_key_exists;
+use function in_array;
 
 /**
  * Abstract parent to the Attribute, Campaign, Profession and Skilltype classes
@@ -42,6 +43,15 @@ abstract class DataObjectAbstract{
 		}
 
 		return static::NAME[$this->id][($lang ?? $this->lang)];
+	}
+
+	public function is(int $id):bool{
+		return $this->id === $id;
+	}
+
+	/** @param int[] $ids */
+	public function in(array $ids):bool{
+		return in_array($this->id, $ids, true);
 	}
 
 }
