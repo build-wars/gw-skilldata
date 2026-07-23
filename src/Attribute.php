@@ -13,6 +13,7 @@ namespace Buildwars\GWSkillData;
 
 use Closure;
 use function floor;
+use function intval;
 use function max;
 use function min;
 use function round;
@@ -324,5 +325,36 @@ final class Attribute extends DataObjectAbstract{
 	protected function progression15(int $level, int $val0, int $val15):int{
 		return (int)round($level * (($val15 - $val0) / 15) + $val0);
 	}
+
+	/**
+	 * Calculates the value for the given val0-val15 progression for the given attribute and level.
+	 *
+	 * Creates an optional table in the `progressions` array.
+	 */
+	public function getProgressionValue(int|string $val0, int|string $val15, int|null $level = null):int{
+		// values might come in as strings from preg_match()
+		$val0  = intval($val0);
+		$val15 = intval($val15);
+		$fn    = $this->getProgressionFunction();
+
+		return $fn(($level ?? $this->level), $val0, $val15);
+	}
+
+	/**
+	 * Creates a progression table for the values 0 to attribute-max of the given val0 and val15
+	 */
+	public function getProgressionTable(int $val0, int $val15):array{
+		$progression = [];
+
+		$max = $this->getMaxValue();
+		$fn  = $this->getProgressionFunction();
+
+		for($i = 0; $i <= $max; $i++){
+			$progression[$i] = $fn($i, $val0, $val15);
+		}
+
+		return $progression;
+	}
+
 
 }
