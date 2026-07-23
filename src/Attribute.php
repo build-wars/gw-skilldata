@@ -15,6 +15,7 @@ use Closure;
 use function floor;
 use function max;
 use function min;
+use function round;
 
 /**
  * Encapsulates all skill attribute related static data
@@ -308,20 +309,20 @@ final class Attribute extends DataObjectAbstract{
 		};
 	}
 
-	protected function progression8(int $level, int $val0, int $val15):float{
-		return (float)(min(($level * 4), 15) * (($val15 - $val0) / 15) + $val0);
+	protected function progression8(int $level, int $val0, int $val15):int{
+		return (int)round(min(($level * 4), 15) * (($val15 - $val0) / 15) + $val0);
 	}
 
-	protected function progression10(int $level, int $val0, int $val15):float{
-		return (float)(min(($level * 3), 15) * (($val15 - $val0) / 15) + $val0);
+	protected function progression10(int $level, int $val0, int $val15):int{
+		return (int)round(min(($level * 3), 15) * (($val15 - $val0) / 15) + $val0);
 	}
 
-	protected function progression12(int $level, int $val0, int $val15):float{
-		return (float)(min(floor($level * 2.5), 15) * (($val15 - $val0) / 15) + $val0);
+	protected function progression12(int $level, int $val0, int $val15):int{
+		return (int)round(min(floor($level * 2.5), 15) * (($val15 - $val0) / 15) + $val0);
 	}
 
-	protected function progression15(int $level, int $val0, int $val15):float{
-		return (float)($level * (($val15 - $val0) / 15) + $val0);
+	protected function progression15(int $level, int $val0, int $val15):int{
+		return (int)round($level * (($val15 - $val0) / 15) + $val0);
 	}
 
 }
