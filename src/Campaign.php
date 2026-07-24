@@ -11,9 +11,6 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
-use InvalidArgumentException;
-use function array_key_exists;
-
 /**
  * Encapsulates all campaign related static data
  */
@@ -43,11 +40,11 @@ final class Campaign extends DataObjectAbstract{
 
 	public function getContinentName(string|null $lang = null):string{
 
-		if($lang !== null && !array_key_exists($lang, SkillDataInterface::LANGUAGES)){
-			throw new InvalidArgumentException('invalid language');
+		if($lang !== null){
+			$lang = new SkillLang($lang);
 		}
 
-		return self::CONTINENT_NAME[$this->id][($lang ?? $this->lang)];
+		return self::CONTINENT_NAME[$this->id][($lang->id ?? $this->lang->id)];
 	}
 
 }

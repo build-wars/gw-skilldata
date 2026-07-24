@@ -17,6 +17,7 @@ use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Campaign;
 use Buildwars\GWSkillData\Profession;
 use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillData\SkillLangEnglish;
 use Buildwars\GWSkillData\SkillLangGerman;
 use Buildwars\GWSkillData\Skilltype;
@@ -72,20 +73,20 @@ class Builder{
 
 	/** @var array<string, string>  */
 	protected const JSON_LANG_FILES = [
-		SkillDataInterface::LANG_DE => DATA_DIR.'/json-full/skilldesc-de.json',
-		SkillDataInterface::LANG_EN => DATA_DIR.'/json-full/skilldesc-en.json',
+		SkillLang::DE => DATA_DIR.'/json-full/skilldesc-de.json',
+		SkillLang::EN => DATA_DIR.'/json-full/skilldesc-en.json',
 	];
 
 	/** @var array<string, string>  */
 	public const DATABASES = [
-		SkillDataInterface::LANG_DE => SkillLangGerman::class,
-		SkillDataInterface::LANG_EN => SkillLangEnglish::class,
+		SkillLang::DE => SkillLangGerman::class,
+		SkillLang::EN => SkillLangEnglish::class,
 	];
 
 	/** @var array<string, string>  */
 	protected const WIKIFETCHERS = [
-		SkillDataInterface::LANG_DE => WikiFetcherGerman::class,
-		SkillDataInterface::LANG_EN => WikiFetcherEnglish::class,
+		SkillLang::DE => WikiFetcherGerman::class,
+		SkillLang::EN => WikiFetcherEnglish::class,
 	];
 
 	protected readonly SettingsContainerInterface|BuilderOptions $options;
@@ -149,7 +150,7 @@ class Builder{
 	 */
 	public function addSkillLang(int $id, string $lang, string $name):static{
 
-		if(!array_key_exists($lang, SkillDataInterface::LANGUAGES)){
+		if(!array_key_exists($lang, SkillLang::NAMES)){
 			throw new InvalidArgumentException('invalid language');
 		}
 
@@ -166,7 +167,7 @@ class Builder{
 	public function create():static{
 		// we're using the current skill database as basis
 		// create the skill data skeleton rows for all *known* skills
-		foreach($this->databases[SkillDataInterface::LANG_EN]::ID2DATA as $id => $_){
+		foreach($this->databases[SkillLang::EN]::ID2DATA as $id => $_){
 			$this->skilldata[$id] = $this->createDataFields($id);
 			// add a row for existing pvp redirects
 			if(array_key_exists($id, PVP_SPLIT)){
@@ -176,14 +177,14 @@ class Builder{
 
 		// create language skeletons for the list of known IDs
 		foreach($this->skilldata as $id => $_){
-			foreach(SkillDataInterface::LANGUAGES as $lang => $_){
+			foreach(SkillLang::NAMES as $lang => $_){
 				$this->skilldesc[$lang][$id] = $this->createLangFields($id);
 			}
 		}
 
 		// now fill the skill data with the known values
 		foreach($this->skilldata as $id => &$row){
-			foreach(array_keys(SkillDataInterface::LANGUAGES) as $lang){
+			foreach(array_keys(SkillLang::NAMES) as $lang){
 
 				try{
 					$current = $this->databases[$lang]->get($id);
@@ -199,7 +200,7 @@ class Builder{
 				$this->skilldesc[$lang][$id]['name'] = $current['name'];
 
 				// we only need to update the data once here
-				if($lang !== SkillDataInterface::LANG_EN){
+				if($lang !== SkillLang::EN){
 					continue;
 				}
 
@@ -234,7 +235,7 @@ class Builder{
 		foreach($this->new_skilldata as $id => $new_row){
 			$this->skilldata[$id] = $new_row;
 
-			foreach(array_keys(SkillDataInterface::LANGUAGES) as $lang){
+			foreach(array_keys(SkillLang::NAMES) as $lang){
 
 				if(!array_key_exists($id, $this->new_skilldesc[$lang])){
 					throw new RuntimeException(sprintf('invalid skill descriptions for [%-4s][%s]', $id, $lang));
@@ -420,7 +421,7 @@ class Builder{
 
 		foreach(static::JSON_LANG_FILES as $lang => $file){
 			$json     = File::loadJSON($file, true);
-			$language = SkillDataInterface::LANGUAGES[$lang];
+			$language = SkillLang::NAMES[$lang];
 
 			// unset the "id" field here
 			foreach($json['skilldesc'] as &$row){
@@ -432,7 +433,7 @@ class Builder{
 				'declare(strict_types=1);',
 				'namespace Buildwars\\GWSkillData;',
 				sprintf('final class SkillLang%s extends SkillData{', $language),
-				sprintf('public const LANG = self::LANG_%s;', strtoupper($lang)),
+				sprintf('public const LANG = SkillLang::%s;', strtoupper($lang)),
 				'public const ID2DESC = [',
 			];
 

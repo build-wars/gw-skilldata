@@ -16,7 +16,7 @@ interface SkillDataAwareInterface{
 	/**
 	 * loads the skill data for the given language
 	 *
-	 * @see \Buildwars\GWSkillData\SkillDataInterface::LANGUAGES
+	 * @see \Buildwars\GWSkillData\SkillLang::NAMES
 	 */
 	public function setSkillDataLanguage(string $lang):static;
 

@@ -13,6 +13,7 @@ namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillData\Skilltype;
 use chillerlan\Utilities\File;
 use RuntimeException;
@@ -53,16 +54,16 @@ class PawnedBuilder extends Builder{
 	// the paw-ned skill databases for each language. more to come... probably never.
 	protected const PWND_CSV = [
 		'pve' => [
-			SkillDataInterface::LANG_DE => PAWNED_DATA_DIR.'/de_classic_pve.csv',
-			SkillDataInterface::LANG_EN => PAWNED_DATA_DIR.'/en_classic_pve.csv',
+			SkillLang::DE => PAWNED_DATA_DIR.'/de_classic_pve.csv',
+			SkillLang::EN => PAWNED_DATA_DIR.'/en_classic_pve.csv',
 			// en2 is similar to the "en" database, but col3 also has the english names
 			// this is a workaround for the english version of pawned to avoid false search results
 			'en2'                       => PAWNED_DATA_DIR.'/en2_classic_pve.csv',
 		],
 		'pvp' => [
-			SkillDataInterface::LANG_DE => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
-			SkillDataInterface::LANG_EN => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
-			'en2'                       => PAWNED_DATA_DIR.'/en2_classic_pvp.csv',
+			SkillLang::DE => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
+			SkillLang::EN => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
+			'en2'         => PAWNED_DATA_DIR.'/en2_classic_pvp.csv',
 		],
 	];
 

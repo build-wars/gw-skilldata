@@ -75,11 +75,11 @@ final class Profession extends DataObjectAbstract{
 	];
 
 	public function getAbbr():string{
-		return self::NAME_ABBR[$this->id][$this->lang];
+		return self::NAME_ABBR[$this->id][$this->lang->id];
 	}
 
 	public function getPrimaryAttribute(int $level = 0):Attribute{
-		return new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang, $level);
+		return new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang->id, $level);
 	}
 
 	public function getPrimaryAttributeID():int{

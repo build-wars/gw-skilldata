@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
-use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -34,7 +34,7 @@ use function ucwords;
  */
 final class WikiFetcherEnglish extends WikiFetcherAbstract{
 
-	protected const LANG          = SkillDataInterface::LANG_EN;
+	protected const LANG          = SkillLang::EN;
 	protected const MEDIAWIKI_API = 'https://wiki.guildwars.com/api.php';
 	protected const CACHEDIR      = BUILDDIR.'/gww';
 	protected const INFOBOX_NAME  = 'skill infobox';

@@ -12,11 +12,12 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 interface SkillDataInterface{
-
+	/** @deprecated 1.1.0 use SkillLang::DE instead  */
 	final public const LANG_DE = 'de';
+	/** @deprecated 1.1.0 use SkillLang::EN instead  */
 	final public const LANG_EN = 'en';
 
-	/** @var array<string, string> */
+	/** @deprecated 1.1.0 use SkillLang::NAMES instead  */
 	final public const LANGUAGES = [
 		self::LANG_DE => 'German',
 		self::LANG_EN => 'English',

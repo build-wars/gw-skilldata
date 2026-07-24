@@ -11,7 +11,7 @@ declare(strict_types = 1);
 
 use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
-use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
@@ -34,6 +34,6 @@ class MyClass implements SkillDataAwareInterface{
 }
 
 // invoke the class and do stuff
-$db = new MyClass(SkillDataInterface::LANG_EN);
+$db = new MyClass(SkillLang::EN);
 
 var_dump($db->getSkill(47));

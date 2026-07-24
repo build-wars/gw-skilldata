@@ -23,26 +23,26 @@ abstract class DataObjectAbstract{
 	/** @var array<int, array{de: string, en: string}> */
 	public const NAME = [];
 
-	public function __construct(
-		public    readonly int    $id,
-		protected readonly string $lang = SkillDataInterface::LANG_EN,
-	){
-		if(!array_key_exists($this->id, static::NAME)){
+	public readonly int $id;
+	public readonly SkillLang $lang;
+
+	public function __construct(int $id , string $lang = SkillLang::EN){
+
+		if(!array_key_exists($id, static::NAME)){
 			throw new InvalidArgumentException('invalid ID');
 		}
 
-		if(!array_key_exists($this->lang, SkillDataInterface::LANGUAGES)){
-			throw new InvalidArgumentException('invalid language');
-		}
+		$this->id   = $id;
+		$this->lang = new SkillLang($lang);
 	}
 
 	public function getName(string|null $lang = null):string{
 
-		if($lang !== null && !array_key_exists($lang, SkillDataInterface::LANGUAGES)){
-			throw new InvalidArgumentException('invalid language');
+		if($lang !== null){
+			$lang = new SkillLang($lang);
 		}
 
-		return static::NAME[$this->id][($lang ?? $this->lang)];
+		return static::NAME[$this->id][($lang->id ?? $this->lang->id)];
 	}
 
 	public function is(int $id):bool{

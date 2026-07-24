@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools;
 
 use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillDataTools\Builder\Builder;
 use chillerlan\Utilities\File;
 use function array_keys;
@@ -35,7 +36,7 @@ require_once __DIR__.'/common.php';
 const RESULT_FILE = BUILDDIR.'/progression-diff.json';
 
 const KNOWN_DISCREPANCIES = [
-	SkillDataInterface::LANG_DE => [
+	SkillLang::DE => [
 		27, 50, 57, 239, 242, 335, 775, 898, 979, 1335, 1345, 1758, 1815, 2013, 2218, 2223, 2806, 3180, 3191, 3192,
 	],
 ];
@@ -45,10 +46,10 @@ $use_known_discrepancies = true;
 $databases = array_map(fn(string $fqcn):SkillDataInterface => new $fqcn, Builder::DATABASES);
 $diffs     = [];
 
-foreach($databases[SkillDataInterface::LANG_EN]::ID2DESC as $id => $lang1){
-	foreach(array_keys(SkillDataInterface::LANGUAGES) as $lang){
+foreach($databases[SkillLang::EN]::ID2DESC as $id => $lang1){
+	foreach(array_keys(SkillLang::NAMES) as $lang){
 
-		if($lang === SkillDataInterface::LANG_EN){
+		if($lang === SkillLang::EN){
 			continue;
 		}
 

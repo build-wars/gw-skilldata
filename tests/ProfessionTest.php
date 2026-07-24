@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTest;
 
 use Buildwars\GWSkillData\Profession;
-use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
@@ -23,7 +23,7 @@ final class ProfessionTest extends TestCase{
 		$profession = new Profession(Profession::ELEMENTALIST);
 
 		$this::assertSame('Elementalist', $profession->getName());
-		$this::assertSame('Elementarmagier', $profession->getName(SkillDataInterface::LANG_DE));
+		$this::assertSame('Elementarmagier', $profession->getName(SkillLang::DE));
 	}
 
 }
