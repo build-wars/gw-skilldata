@@ -197,7 +197,7 @@ class Builder{
 				}
 
 				// add the skill name
-				$this->skilldesc[$lang][$id]['name'] = $current['name'];
+				$this->skilldesc[$lang][$id]['name'] = $current->name;
 
 				// we only need to update the data once here
 				if($lang !== SkillLang::EN){
@@ -205,7 +205,7 @@ class Builder{
 				}
 
 				// update skill data
-				foreach($current as $key => $value){
+				foreach($current->toArray() as $key => $value){
 					// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
 					if(in_array($key, ['id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp'], true)){
 						$row[$key] = $value;
@@ -352,7 +352,7 @@ class Builder{
 
 					// on CI, diff descriptions against previous versions, fail if there's a certain amount of changes
 					if($k !== 'name' && $this->options->diff_descriptions){
-						$this->diffDescription($current[$k], $skilldata[$k]);
+						$this->diffDescription($current->{$k}, $skilldata[$k]);
 					}
 
 					$desc[$k] = $skilldata[$k];

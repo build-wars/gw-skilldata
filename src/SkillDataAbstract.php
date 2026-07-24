@@ -24,8 +24,8 @@ use function in_array;
  */
 abstract class SkillDataAbstract implements SkillDataInterface{
 
-	/** @phan-suppress PhanTypeInvalidDimOffset, PhanTypeArraySuspiciousNullable, PhanTypeMismatchArgumentNullableInternal */
-	private function combine(int $id):array{
+	/** @phan-suppress PhanTypeMismatchArgumentNullableInternal */
+	private function combine(int $id):Skill{
 
 		if(!array_key_exists($id, static::ID2DATA)){
 			throw new InvalidArgumentException('invalid skill ID');
@@ -33,17 +33,8 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 
 		$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
 		$skillDesc = array_combine(static::KEYS_DESC, static::ID2DESC[$id]);
-		$prof      = new Profession($skillData['profession'], static::LANG);
 
-		$names = array_combine(static::KEYS_NAMES, [
-			(new Campaign($skillData['campaign'], static::LANG))->getName(),
-			$prof->getName(),
-			$prof->getAbbr(),
-			(new Attribute($skillData['attribute'], static::LANG))->getName(),
-			(new Skilltype($skillData['type'], static::LANG))->getName(),
-		]);
-
-		return array_merge($skillData, $skillDesc, $names);
+		return new Skill(array_merge($skillData, $skillDesc), static::LANG);
 	}
 
 	private function getByKey(string $key, int|bool $value, bool $pvp):array{
@@ -59,18 +50,18 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return $skills;
 	}
 
-	public function get(int $id, bool $pvp = false):array{
+	public function get(int $id, bool $pvp = false):Skill{
 		$data = $this->combine($id);
 
-		if($pvp === false || $data['pvp_split'] === false){
+		if($pvp === false || $data->pvp_split === false){
 			return $data;
 		}
 
-		return $this->combine($data['split_id']);
+		return $this->combine($data->split_id);
 	}
 
 	public function getAll(array $IDs, bool $pvp = false):array{
-		return array_map(fn(int $id):array => $this->get($id, $pvp), $IDs);
+		return array_map(fn(int $id):Skill => $this->get($id, $pvp), $IDs);
 	}
 
 	public function getByCampaign(int $campaign, bool $pvp = false):array{

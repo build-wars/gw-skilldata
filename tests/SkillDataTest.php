@@ -35,8 +35,8 @@ class SkillDataTest extends TestCase{
 
 	#[Test]
 	public function get():void{
-		$data = $this->skillData->get(0, true);
-		$keys = array_merge(SkillDataInterface::KEYS_DATA, SkillDataInterface::KEYS_DESC, SkillDataInterface::KEYS_NAMES);
+		$data = $this->skillData->get(0, true)->toArray();
+		$keys = array_merge(SkillDataInterface::KEYS_DATA, SkillDataInterface::KEYS_DESC);
 
 		$this::assertSame(0, $data['id']);
 
@@ -49,7 +49,7 @@ class SkillDataTest extends TestCase{
 	public function getPvpRedirect():void{
 		$data = $this->skillData->get(979, true);
 
-		$this::assertSame(3191, $data['id']);
+		$this::assertSame(3191, $data->id);
 	}
 
 	#[Test]
@@ -73,7 +73,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getByCampaign(Campaign::CORE);
 
 		foreach($data as $skill){
-			$this::assertSame(Campaign::CORE, $skill['campaign']);
+			$this::assertSame(Campaign::CORE, $skill->campaign->id);
 		}
 	}
 
@@ -82,7 +82,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getByProfession(Profession::MESMER);
 
 		foreach($data as $skill){
-			$this::assertSame(Profession::MESMER, $skill['profession']);
+			$this::assertSame(Profession::MESMER, $skill->profession->id);
 		}
 	}
 
@@ -91,7 +91,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getByAttribute(Attribute::FAST_CASTING);
 
 		foreach($data as $skill){
-			$this::assertSame(Attribute::FAST_CASTING, $skill['attribute']);
+			$this::assertSame(Attribute::FAST_CASTING, $skill->attribute->id);
 		}
 	}
 
@@ -100,7 +100,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getByType(Skilltype::HEX_SPELL);
 
 		foreach($data as $skill){
-			$this::assertSame(Skilltype::HEX_SPELL, $skill['type']);
+			$this::assertSame(Skilltype::HEX_SPELL, $skill->type->id);
 		}
 	}
 
@@ -113,7 +113,7 @@ class SkillDataTest extends TestCase{
 		];
 
 		foreach($data as $skill){
-			$this::assertContains($skill['type'], $expected);
+			$this::assertContains($skill->type->id, $expected);
 		}
 	}
 
@@ -122,7 +122,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getElite();
 
 		foreach($data as $skill){
-			$this::assertTrue($skill['is_elite']);
+			$this::assertTrue($skill->is_elite);
 		}
 	}
 
@@ -131,7 +131,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getRoleplay();
 
 		foreach($data as $skill){
-			$this::assertTrue($skill['is_rp']);
+			$this::assertTrue($skill->is_rp);
 		}
 	}
 

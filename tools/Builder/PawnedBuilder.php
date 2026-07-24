@@ -315,7 +315,7 @@ ini_en;
 					$pwnd    = [];
 
 					foreach($ids as $id){
-						$data  = $this->databases[$dblang]->get($id, $pvp);
+						$data  = $this->databases[$dblang]->get($id, $pvp)->toArray();
 						$data += $empty_fields;
 						$row   = [];
 
@@ -328,7 +328,7 @@ ini_en;
 							}
 
 							if($key === 'name2'){
-								$row[$pos] = $this->databases[$lang2]->get($id, $pvp)['name'];
+								$row[$pos] = $this->databases[$lang2]->get($id, $pvp)->name;
 							}
 
 							if($key === 'description'){

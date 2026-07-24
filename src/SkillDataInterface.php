@@ -6,6 +6,8 @@
  * @author       smiley <smiley@chillerlan.net>
  * @copyright    2024 smiley
  * @license      MIT
+ *
+ * @phan-file-suppress PhanDeprecatedClassConstant
  */
 declare(strict_types=1);
 
@@ -24,18 +26,11 @@ interface SkillDataInterface{
 	];
 
 	/**
-	 * The array keys for the name translations of several fields
-	 *
-	 * @var string[]
-	 */
-	final public const KEYS_NAMES = ['campaign_name', 'profession_name', 'profession_abbr', 'attribute_name', 'type_name'];
-
-	/**
 	 * The array keys for the descriptions array
 	 *
 	 * @var string[]
 	 */
-	final public const KEYS_DESC = ['name', 'description', 'concise'];
+	final public const KEYS_DESC = [Skill::DESC_NAME, Skill::DESC_DESCRIPTION, Skill::DESC_CONCISE];
 
 	/**
 	 * The array keys for the data array
@@ -43,8 +38,10 @@ interface SkillDataInterface{
 	 * @var string[]
 	 */
 	final public const KEYS_DATA = [
-		'id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp', 'is_pvp', 'pvp_split', 'split_id', 'type',
-		'upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'adrenaline_precise', 'sacrifice', 'overcast',
+		Skill::DATA_ID, Skill::DATA_CAMPAIGN, Skill::DATA_PROFESSION, Skill::DATA_ATTRIBUTE, Skill::DATA_IS_ELITE,
+		Skill::DATA_IS_RP, Skill::DATA_IS_PVP, Skill::DATA_PVP_SPLIT, Skill::DATA_SPLIT_ID, Skill::DATA_TYPE,
+		Skill::DATA_UPKEEP, Skill::DATA_ENERGY, Skill::DATA_ACTIVATION, Skill::DATA_RECHARGE, Skill::DATA_ADRENALINE,
+		Skill::DATA_ADRENALINE_PRECISE, Skill::DATA_SACRIFICE, Skill::DATA_EXHAUSTION,
 	];
 
 	/**
@@ -69,18 +66,20 @@ interface SkillDataInterface{
 	/**
 	 * Returns the data for the given skill ID, including descriptions for the current language
 	 */
-	public function get(int $id, bool $pvp = false):array;
+	public function get(int $id, bool $pvp = false):Skill;
 
 	/**
 	 * Returns an array with the skill data for each of the given skill IDs
 	 *
 	 * @param int[] $IDs
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 */
 	public function getAll(array $IDs, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given campaign ID
 	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
 	public function getByCampaign(int $campaign, bool $pvp = false):array;
@@ -88,6 +87,7 @@ interface SkillDataInterface{
 	/**
 	 * Returns all skills for the given profession ID
 	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
 	public function getByProfession(int $profession, bool $pvp = false):array;
@@ -95,6 +95,7 @@ interface SkillDataInterface{
 	/**
 	 * Returns all skills for the given attribute ID
 	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
 	public function getByAttribute(int $attribute, bool $pvp = false):array;
@@ -102,22 +103,29 @@ interface SkillDataInterface{
 	/**
 	 * Returns all skills for the given skill type ID
 	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
 	public function getByType(int $type, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given skill type ID and its subtypes (if any)
+	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 */
 	public function getByTypeWithSubtypes(int $type, bool $pvp = false):array;
 
 	/**
 	 * Returns all elite skills
+	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 */
 	public function getElite(bool $pvp = false):array;
 
 	/**
 	 * Returns all roleplay skills
+	 *
+	 * @return \Buildwars\GWSkillData\Skill[]
 	 */
 	public function getRoleplay():array;
 
