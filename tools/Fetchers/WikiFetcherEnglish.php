@@ -45,7 +45,6 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 		1599 => '"It\'s Just a Flesh Wound."',
 		1954 => '"Save Yourselves!"', // Luxon
 		2097 => '"Save Yourselves!"', // Kurzick
-		3442 => 'Mighty Throw (PvP)', // missing "PvP" suffix
 	];
 
 	protected const EMPTY_SKILL = [

@@ -1489,5 +1489,5 @@ public const ID2DESC = [
 3430=>['Vow of Revolution','For 3...10 seconds, you have +1...6 energy regeneration. This skill reapplies itself every time you use a non-Dervish skill.','(3...10 seconds.) Gain +1...6 energy regeneration. Renewal: whenever you use a non-Dervish skill.'],
 3431=>['Heroic Refrain','For 3...15 seconds, target non-spirit ally gains +1...3 to all attributes. This echo is reapplied every time a chant or shout ends on that ally.','(3...15 seconds.) Target ally gains +1...3 to all attributes. Renewal: every time a chant or shout ends on this ally. <gray>Cannot target spirits. PvE Skill</gray>'],
 3437=>['Farmer\'s Scythe (PvP)','If this attack hits, you deal +5...35 damage. If you hit more than one foe, this attack recharges instantly.','Deals +5...35 damage. Instant recharge if you hit more than one foe.'],
-3442=>['Mighty Throw','Your spear moves three times faster. If it hits, you deal +10...40 damage.','Deals +10...40 damage. This spear moves three times faster.'],
+3442=>['Mighty Throw (PvP)','Your spear moves three times faster. If it hits, you deal +10...40 damage.','Deals +10...40 damage. This spear moves three times faster.'],
 ];}
