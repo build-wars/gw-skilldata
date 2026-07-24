@@ -25,7 +25,7 @@ class MyClass implements SkillDataAwareInterface{
 
 	public function getSkill(int $skillID, bool $pvp = false):array{
 		// $this->skillData is now available
-		$data = $this->skillData->get($skillID, $pvp);
+		$data = $this->skillData->get($skillID, $pvp)->toArray();
 
 		// do stuff with the $data array
 		// the available array keys are in $this->skillData->keys
