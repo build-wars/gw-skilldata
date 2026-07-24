@@ -26,14 +26,18 @@ abstract class DataObjectAbstract{
 	public readonly int $id;
 	public readonly SkillLang $lang;
 
-	public function __construct(int $id , string $lang = SkillLang::EN){
+	public function __construct(int $id, SkillLang|string $lang = SkillLang::EN){
 
 		if(!array_key_exists($id, static::NAME)){
 			throw new InvalidArgumentException('invalid ID');
 		}
 
+		if(!$lang instanceof SkillLang){
+			$lang = new SkillLang($lang);
+		}
+
 		$this->id   = $id;
-		$this->lang = new SkillLang($lang);
+		$this->lang = $lang;
 	}
 
 	public function getName(string|null $lang = null):string{

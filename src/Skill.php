@@ -78,8 +78,13 @@ final class Skill{
 	public readonly string     $description;
 	public readonly string     $concise;
 
-	public function __construct(array $skilldata, string $lang){
-		$this->lang = new SkillLang($lang);
+	public function __construct(array $skilldata, SkillLang|string $lang){
+
+		if(!$lang instanceof SkillLang){
+			$lang = new SkillLang($lang);
+		}
+
+		$this->lang = $lang;
 
 		foreach($skilldata as $key => $val){
 			if(property_exists($this, $key)){
@@ -105,13 +110,6 @@ final class Skill{
 
 			$data[$key] = $value;
 		}
-
-		// i think we don't need this anymore
-#		$data['campaign_name']   = $this->campaign->getName();
-#		$data['profession_name'] = $this->profession->getName();
-#		$data['profession_abbr'] = $this->profession->getAbbr();
-#		$data['attribute_name']  = $this->attribute->getName();
-#		$data['type_name']       = $this->type->getName();
 
 		return $data;
 	}

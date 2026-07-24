@@ -14,16 +14,6 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 interface SkillDataInterface{
-	/** @deprecated 1.1.0 use SkillLang::DE instead  */
-	final public const LANG_DE = 'de';
-	/** @deprecated 1.1.0 use SkillLang::EN instead  */
-	final public const LANG_EN = 'en';
-
-	/** @deprecated 1.1.0 use SkillLang::NAMES instead  */
-	final public const LANGUAGES = [
-		self::LANG_DE => 'German',
-		self::LANG_EN => 'English',
-	];
 
 	/**
 	 * The array keys for the descriptions array
@@ -82,7 +72,7 @@ interface SkillDataInterface{
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
-	public function getByCampaign(int $campaign, bool $pvp = false):array;
+	public function getByCampaign(Campaign|int $campaign, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given profession ID
@@ -90,7 +80,7 @@ interface SkillDataInterface{
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
-	public function getByProfession(int $profession, bool $pvp = false):array;
+	public function getByProfession(Profession|int $profession, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given attribute ID
@@ -98,7 +88,7 @@ interface SkillDataInterface{
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
-	public function getByAttribute(int $attribute, bool $pvp = false):array;
+	public function getByAttribute(Attribute|int $attribute, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given skill type ID
@@ -106,14 +96,14 @@ interface SkillDataInterface{
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
-	public function getByType(int $type, bool $pvp = false):array;
+	public function getByType(Skilltype|int $type, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given skill type ID and its subtypes (if any)
 	 *
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 */
-	public function getByTypeWithSubtypes(int $type, bool $pvp = false):array;
+	public function getByTypeWithSubtypes(Skilltype|int $type, bool $pvp = false):array;
 
 	/**
 	 * Returns all elite skills

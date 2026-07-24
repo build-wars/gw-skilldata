@@ -241,7 +241,7 @@ final class Attribute extends DataObjectAbstract{
 
 	public readonly int $level;
 
-	public function __construct(int $id, string $lang = SkillLang::EN, int $level = 0){
+	public function __construct(int $id, SkillLang|string $lang = SkillLang::EN, int $level = 0){
 		parent::__construct($id, $lang);
 
 		$this->level = $this->clamp($level);

@@ -64,24 +64,49 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return array_map(fn(int $id):Skill => $this->get($id, $pvp), $IDs);
 	}
 
-	public function getByCampaign(int $campaign, bool $pvp = false):array{
-		return $this->getByKey(Skill::DATA_CAMPAIGN, (new Campaign($campaign))->id, $pvp);
+	public function getByCampaign(Campaign|int $campaign, bool $pvp = false):array{
+
+		if(!$campaign instanceof Campaign){
+			$campaign = new Campaign($campaign);
+		}
+
+		return $this->getByKey(Skill::DATA_CAMPAIGN, $campaign->id, $pvp);
 	}
 
-	public function getByProfession(int $profession, bool $pvp = false):array{
-		return $this->getByKey(Skill::DATA_PROFESSION, (new Profession($profession))->id, $pvp);
+	public function getByProfession(Profession|int $profession, bool $pvp = false):array{
+
+		if(!$profession instanceof Profession){
+			$profession = new Profession($profession);
+		}
+
+		return $this->getByKey(Skill::DATA_PROFESSION, $profession->id, $pvp);
 	}
 
-	public function getByAttribute(int $attribute, bool $pvp = false):array{
-		return $this->getByKey(Skill::DATA_ATTRIBUTE, (new Attribute($attribute))->id, $pvp);
+	public function getByAttribute(Attribute|int $attribute, bool $pvp = false):array{
+
+		if(!$attribute instanceof Attribute){
+			$attribute = new Attribute($attribute);
+		}
+
+		return $this->getByKey(Skill::DATA_ATTRIBUTE, $attribute->id, $pvp);
 	}
 
-	public function getByType(int $type, bool $pvp = false):array{
-		return $this->getByKey(Skill::DATA_TYPE, (new Skilltype($type))->id, $pvp);
+	public function getByType(Skilltype|int $type, bool $pvp = false):array{
+
+		if(!$type instanceof Skilltype){
+			$type = new Skilltype($type);
+		}
+
+		return $this->getByKey(Skill::DATA_TYPE, $type->id, $pvp);
 	}
 
-	public function getByTypeWithSubtypes(int $type, bool $pvp = false):array{
-		$types  = (new Skilltype($type))->withSubtypes();
+	public function getByTypeWithSubtypes(Skilltype|int $type, bool $pvp = false):array{
+
+		if(!$type instanceof Skilltype){
+			$type = new Skilltype($type);
+		}
+
+		$types  = $type->withSubtypes();
 		$keyID  = array_search(Skill::DATA_TYPE, static::KEYS_DATA, true);
 		$skills = [];
 

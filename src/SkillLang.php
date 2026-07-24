@@ -13,6 +13,8 @@ namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
 use function in_array;
+use function strtolower;
+use function trim;
 
 /**
  * Encapsulates the available skill data languages
@@ -33,12 +35,16 @@ final class SkillLang{
 		self::EN => 'English',
 	];
 
-	public function __construct(public readonly string $id){
+	public readonly string $id;
 
-		if(!in_array($this->id, self::IDS, true)){
+	public function __construct(string $id){
+		$id = trim(strtolower($id));
+
+		if(!in_array($id, self::IDS, true)){
 			throw new InvalidArgumentException('invalid language');
 		}
 
+		$this->id = $id;
 	}
 
 	public function getName():string{

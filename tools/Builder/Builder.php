@@ -120,13 +120,33 @@ class Builder{
 	 *
 	 * needs to be run before `create()`
 	 */
-	public function addSkill(int $id, int $campaign, int $profession, int $attribute, bool $is_elite, bool $is_rp):static{
+	public function addSkill(
+		int            $id,
+		Campaign|int   $campaign,
+		Profession|int $profession,
+		Attribute|int  $attribute,
+		bool           $is_elite,
+		bool           $is_rp,
+	):static{
+
+		if(!$campaign instanceof Campaign){
+			$campaign = new Campaign($campaign);
+		}
+
+		if(!$profession instanceof Profession){
+			$profession = new Profession($profession);
+		}
+
+		if(!$attribute instanceof Attribute){
+			$attribute = new Attribute($attribute);
+		}
+
 		// required values: id, campaign, profession, attribute, is_elite, is_rp
 		$data = [
 			Skill::DATA_ID         => $id,
-			Skill::DATA_CAMPAIGN   => (new Campaign($campaign))->id,
-			Skill::DATA_PROFESSION => (new Profession($profession))->id,
-			Skill::DATA_ATTRIBUTE  => (new Attribute($attribute))->id,
+			Skill::DATA_CAMPAIGN   => $campaign->id,
+			Skill::DATA_PROFESSION => $profession->id,
+			Skill::DATA_ATTRIBUTE  => $attribute->id,
 			Skill::DATA_IS_ELITE   => $is_elite,
 			Skill::DATA_IS_RP      => $is_rp,
 			Skill::DATA_IS_PVP     => in_array($id, PVP_SPLIT, true),
