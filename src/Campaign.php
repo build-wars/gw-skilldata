@@ -23,19 +23,19 @@ final class Campaign extends DataObjectAbstract{
 	public const EYE_OF_THE_NORTH = 4;
 
 	public const NAME = [
-		self::CORE             => ['de' => 'Basis',            'en' => 'Core',           ],
-		self::PROPHECIES       => ['de' => 'Prophecies',       'en' => 'Prophecies',     ],
-		self::FACTIONS         => ['de' => 'Factions',         'en' => 'Factions',       ],
-		self::NIGHTFALL        => ['de' => 'Nightfall',        'en' => 'Nightfall',      ],
-		self::EYE_OF_THE_NORTH => ['de' => 'Eye of the North', 'en' => 'Eye of the North'],
+		self::CORE             => [SkillLang::DE => 'Basis',            SkillLang::EN => 'Core',           ],
+		self::PROPHECIES       => [SkillLang::DE => 'Prophecies',       SkillLang::EN => 'Prophecies',     ],
+		self::FACTIONS         => [SkillLang::DE => 'Factions',         SkillLang::EN => 'Factions',       ],
+		self::NIGHTFALL        => [SkillLang::DE => 'Nightfall',        SkillLang::EN => 'Nightfall',      ],
+		self::EYE_OF_THE_NORTH => [SkillLang::DE => 'Eye of the North', SkillLang::EN => 'Eye of the North'],
 	];
 
 	public const CONTINENT_NAME = [
-		self::CORE             => ['de' => 'Die Nebel', 'en' => 'The Mists',],
-		self::PROPHECIES       => ['de' => 'Tyria',     'en' => 'Tyria',    ],
-		self::FACTIONS         => ['de' => 'Cantha',    'en' => 'Cantha',   ],
-		self::NIGHTFALL        => ['de' => 'Elona',     'en' => 'Elona',    ],
-		self::EYE_OF_THE_NORTH => ['de' => 'Tyria',     'en' => 'Tyria',    ],
+		self::CORE             => [SkillLang::DE => 'Die Nebel', SkillLang::EN => 'The Mists',],
+		self::PROPHECIES       => [SkillLang::DE => 'Tyria',     SkillLang::EN => 'Tyria',    ],
+		self::FACTIONS         => [SkillLang::DE => 'Cantha',    SkillLang::EN => 'Cantha',   ],
+		self::NIGHTFALL        => [SkillLang::DE => 'Elona',     SkillLang::EN => 'Elona',    ],
+		self::EYE_OF_THE_NORTH => [SkillLang::DE => 'Tyria',     SkillLang::EN => 'Tyria',    ],
 	];
 
 	public function getContinentName(string|null $lang = null):string{

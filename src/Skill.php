@@ -20,6 +20,9 @@ use function property_exists;
  */
 final class Skill{
 
+	public const MODE_PVE = 'pve';
+	public const MODE_PVP = 'pvp';
+
 	public const DATA_ID                 = 'id';
 	public const DATA_CAMPAIGN           = 'campaign';
 	public const DATA_PROFESSION         = 'profession';

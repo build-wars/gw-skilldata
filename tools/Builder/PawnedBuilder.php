@@ -12,19 +12,16 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Attribute;
+use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillData\Skilltype;
 use chillerlan\Utilities\File;
 use RuntimeException;
-use function array_column;
 use function array_combine;
-use function array_diff;
 use function array_flip;
 use function array_key_exists;
-use function array_keys;
 use function array_map;
-use function array_merge;
 use function boolval;
 use function count;
 use function date;
@@ -36,12 +33,11 @@ use function implode;
 use function in_array;
 use function intval;
 use function mb_convert_encoding;
-use function number_format;
 use function parse_ini_file;
 use function rename;
 use function sprintf;
-use function str_replace;
 use function strip_tags;
+use function strtr;
 use function tempnam;
 use function trim;
 use function unlink;
@@ -49,26 +45,28 @@ use const Buildwars\GWSkillDataTools\PAWNED_DATA_DIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 use const PVP_SPLIT_FLIP;
 
-class PawnedBuilder extends Builder{
+final class PawnedBuilder extends Builder{
+
+	// "en2" is similar to the "en" database, but column 3 also has the english names.
+	// this is a workaround for the english version of pawned to avoid false search results.
+	protected const LANG_EN = 'en2';
 
 	// the paw-ned skill databases for each language. more to come... probably never.
 	protected const PWND_CSV = [
-		'pve' => [
+		Skill::MODE_PVE => [
 			SkillLang::DE => PAWNED_DATA_DIR.'/de_classic_pve.csv',
 			SkillLang::EN => PAWNED_DATA_DIR.'/en_classic_pve.csv',
-			// en2 is similar to the "en" database, but col3 also has the english names
-			// this is a workaround for the english version of pawned to avoid false search results
-			'en2'                       => PAWNED_DATA_DIR.'/en2_classic_pve.csv',
+			self::LANG_EN => PAWNED_DATA_DIR.'/en2_classic_pve.csv',
 		],
-		'pvp' => [
+		Skill::MODE_PVP => [
 			SkillLang::DE => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
 			SkillLang::EN => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
-			'en2'         => PAWNED_DATA_DIR.'/en2_classic_pvp.csv',
+			self::LANG_EN => PAWNED_DATA_DIR.'/en2_classic_pvp.csv',
 		],
 	];
 
 	/**
-	 * paw-ned² skilldb schema
+	 * paw-ned² csv skilldb schema
 	 *
 	 * 0  = id (int)
 	 * 1  = name (string)
@@ -92,21 +90,46 @@ class PawnedBuilder extends Builder{
 	 * 19 = empty string
 	 */
 	protected const KEYS = [
-		'id', 'name', 'name2', 'description', 'campaign', 'attribute',
-		'type', 'profession', 'upkeep', 'energy', 'activation', 'recharge',
-		'adrenaline_precise', 'sacrifice', 'is_elite', 'is_rp', 'overcast',
-		'empty1', 'empty2', 'empty3',
+		0  => Skill::DATA_ID,
+		1  => Skill::DESC_NAME,
+		2  => 'name2',
+		3  => Skill::DESC_DESCRIPTION,
+		4  => Skill::DATA_CAMPAIGN,
+		5  => Skill::DATA_ATTRIBUTE,
+		6  => Skill::DATA_TYPE,
+		7  => Skill::DATA_PROFESSION,
+		8  => Skill::DATA_UPKEEP,
+		9  => Skill::DATA_ENERGY,
+		10 => Skill::DATA_ACTIVATION,
+		11 => Skill::DATA_RECHARGE,
+		12 => Skill::DATA_ADRENALINE_PRECISE,
+		13 => Skill::DATA_SACRIFICE,
+		14 => Skill::DATA_IS_ELITE,
+		15 => Skill::DATA_IS_RP,
+		16 => Skill::DATA_EXHAUSTION,
+		17 => 'empty1',
+		18 => 'empty2',
+		19 => 'empty3',
 	];
 
 	protected const KEYS_INT = [
-		'id', 'campaign', 'attribute', 'type', 'profession',
-		'upkeep', 'energy', 'recharge', 'sacrifice', 'overcast',
-		'empty1', 'empty2',
+		Skill::DATA_ID,
+		Skill::DATA_CAMPAIGN,
+		Skill::DATA_ATTRIBUTE,
+		Skill::DATA_TYPE,
+		Skill::DATA_PROFESSION,
+		Skill::DATA_UPKEEP,
+		Skill::DATA_ENERGY,
+		Skill::DATA_RECHARGE,
+		Skill::DATA_SACRIFICE,
+		Skill::DATA_EXHAUSTION,
+		'empty1',
+		'empty2',
 	];
 
-	protected const KEYS_FLOAT  = ['activation', 'adrenaline_precise'];
-	protected const KEYS_BOOL   = ['is_elite', 'is_rp'];
-	protected const KEYS_STRING = ['name', 'name2', 'description', 'empty3'];
+	protected const KEYS_FLOAT  = [Skill::DATA_ACTIVATION, Skill::DATA_ADRENALINE_PRECISE];
+	protected const KEYS_BOOL   = [Skill::DATA_IS_ELITE, Skill::DATA_IS_RP];
+	protected const KEYS_STRING = [Skill::DESC_NAME, Skill::DESC_DESCRIPTION, 'name2', 'empty3'];
 
 	// pawned uses negative numbers for the pve attributes
 	protected const PWND_ATTR_TRANSLATE = [
@@ -122,11 +145,12 @@ class PawnedBuilder extends Builder{
 	];
 
 	protected const TYPE_MAP = [
-		Skilltype::TOUCH_SKILL             => 1,
-		Skilltype::TOUCH_SPELL             => 22,
-		Skilltype::TOUCH_ENCHANTMENT_SPELL => 23,
-		Skilltype::TOUCH_HEX_SPELL         => 24,
-		Skilltype::TOUCH_SIGNET            => 21,
+		Skilltype::DOUBLE_ENCHANTMENT      => Skilltype::ENCHANTMENT_SPELL,
+		Skilltype::TOUCH_SKILL             => Skilltype::SKILL,
+		Skilltype::TOUCH_SPELL             => Skilltype::SPELL,
+		Skilltype::TOUCH_ENCHANTMENT_SPELL => Skilltype::ENCHANTMENT_SPELL,
+		Skilltype::TOUCH_HEX_SPELL         => Skilltype::HEX_SPELL,
+		Skilltype::TOUCH_SIGNET            => Skilltype::SIGNET,
 	];
 
 	protected const INI_DE = <<<ini_de
@@ -173,27 +197,27 @@ Lang=EN
 ini_en;
 
 	protected const ini_body = [
-		'de'  => self::INI_DE,
-		'en'  => self::INI_EN,
-		'en2' => self::INI_EN,
+		SkillLang::DE => self::INI_DE,
+		SkillLang::EN => self::INI_EN,
+		self::LANG_EN => self::INI_EN,
 	];
 
 	protected function assignKeys(array $skill):array{
-		$skill = array_combine(static::KEYS, $skill);
+		$skill = array_combine(self::KEYS, $skill);
 
-		foreach(static::KEYS_INT as $key){
+		foreach(self::KEYS_INT as $key){
 			$skill[$key] = intval($skill[$key]);
 		}
 
-		foreach(static::KEYS_FLOAT as $key){
+		foreach(self::KEYS_FLOAT as $key){
 			$skill[$key] = floatval($skill[$key]);
 		}
 
-		foreach(static::KEYS_BOOL as $key){
+		foreach(self::KEYS_BOOL as $key){
 			$skill[$key] = boolval($skill[$key]);
 		}
 
-		foreach(static::KEYS_STRING as $key){
+		foreach(self::KEYS_STRING as $key){
 			$skill[$key] = trim($skill[$key]);
 		}
 
@@ -209,61 +233,64 @@ ini_en;
 		foreach(self::PWND_CSV as $mode => $files){
 			foreach($files as $lang => $file){
 				// skip the en-version database
-				if($lang === 'en2'){
+				if($lang === self::LANG_EN){
 					continue;
 				}
 
 				foreach($this->loadPawnedDatabase($file) as $skill){
 					$skill = $this->assignKeys($skill);
-					$split = array_key_exists($skill['id'], PVP_SPLIT);
+					$split = array_key_exists($skill[Skill::DATA_ID], PVP_SPLIT);
 
 					// skip duplicate skills from the PvP files
-					if($mode === 'pvp' && !$split){
+					if($mode === Skill::MODE_PVP && !$split){
 						continue;
 					}
 					// use the split ID if it exists
-					if($mode === 'pvp' && $split){
-						$skill['id'] = PVP_SPLIT[$skill['id']];
+					if($mode === Skill::MODE_PVP && $split){
+						$skill[Skill::DATA_ID] = PVP_SPLIT[$skill[Skill::DATA_ID]];
 					}
 
-					$id = $skill['id'];
+					$id = $skill[Skill::DATA_ID];
 					// create the skeleton array
 					foreach(SkillDataInterface::KEYS_DATA as $key){
 						$this->skilldata[$id][$key] = null;
 
 						// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
-						if(in_array($key, ['id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp'], true)){
+						if(in_array($key, [
+							Skill::DATA_ID, Skill::DATA_CAMPAIGN, Skill::DATA_PROFESSION,
+							Skill::DATA_ATTRIBUTE, Skill::DATA_IS_ELITE, Skill::DATA_IS_RP,
+						], true)){
 							$this->skilldata[$id][$key] = $skill[$key];
 						}
 						// reassign the attribute value
-						if($key === 'attribute' && $skill['attribute'] < 0){
+						if($key === Skill::DATA_ATTRIBUTE && $skill[Skill::DATA_ATTRIBUTE] < 0){
 							$this->skilldata[$id][$key] = $attr_map[$skill[$key]];
 						}
 						// this skill *is* a pvp version
-						if($key === 'is_pvp'){
+						if($key === Skill::DATA_IS_PVP){
 							$this->skilldata[$id][$key] = in_array($id, PVP_SPLIT, true);
 						}
 						// the skill *has* a pvp version
-						if($key === 'pvp_split'){
+						if($key === Skill::DATA_PVP_SPLIT){
 							$this->skilldata[$id][$key] = array_key_exists($id, PVP_SPLIT);
 						}
 						// the id of the pvp version of the current skill
-						if($key === 'split_id'){
+						if($key === Skill::DATA_SPLIT_ID){
 							$this->skilldata[$id][$key] = (PVP_SPLIT[$id] ?? 0);
 							// add the base id to pvp-split skills
-							if($this->skilldata[$id]['is_pvp'] === true){
+							if($this->skilldata[$id][Skill::DATA_IS_PVP] === true){
 								$this->skilldata[$id][$key] = (PVP_SPLIT_FLIP[$id] ?? 0);
 							}
 						}
 					}
 
 					// add the ID field for the language files
-					$this->skilldesc[$lang][$id]['id'] = $id;
+					$this->skilldesc[$lang][$id][Skill::DATA_ID] = $id;
 
 					foreach(SkillDataInterface::KEYS_DESC as $key){
 						$this->skilldesc[$lang][$id][$key] = '';
 						// add the name field as this is the article query for the wikis
-						if($key === 'name'){
+						if($key === Skill::DESC_NAME){
 							$this->skilldesc[$lang][$id][$key] = $skill[$key];
 						}
 					}
@@ -279,85 +306,70 @@ ini_en;
 	}
 
 	public function build():static{
-		$pawned_ids = [];
-
-		// fetch the IDs from the current pawned database in order to preserve the order for diffs
-		foreach(self::PWND_CSV as $mode => $langfiles){
-			foreach($langfiles as $lang => $file){
-				// convert to utf-8 for local diffs
-#				File::save(sprintf('%s/pawned-vendor/%s.utf8', BUILDDIR, basename($file)), mb_convert_encoding(File::load($file), 'UTF-8', 'Windows-1252'));
-				$pawned_ids[$lang][$mode] = array_map(intval(...), array_column($this->loadPawnedDatabase($file), 0));
-			}
-		}
-
+		// technically we could const these
 		$empty_fields = ['name2' => '', 'empty1' => 0, 'empty2' => 0, 'empty3' => ''];
 
 		// now create the CSV
-		foreach(array_keys($pawned_ids) as $lang){
+		foreach([SkillLang::DE, SkillLang::EN, self::LANG_EN] as $lang){
 
 			$lang2 = match($lang){
-				'de', 'en2' => 'en',
-				'en'        => 'de',
+				SkillLang::DE, self::LANG_EN => SkillLang::EN,
+				SkillLang::EN                => SkillLang::DE,
 			};
 
 			$dblang = match($lang){
-				'de'        => 'de',
-				'en', 'en2' => 'en',
+				SkillLang::DE                => SkillLang::DE,
+				SkillLang::EN, self::LANG_EN => SkillLang::EN,
 			};
 
-			foreach(['pve', 'pvp'] as $mode){
-				$pvp  = ($mode === 'pvp');
-				$diff = array_diff($this->databases[$dblang]->getIDs(), $pawned_ids[$lang][$mode]);
-				$ids  = array_merge($pawned_ids[$lang][$mode], $diff);
+			foreach([Skill::MODE_PVE, Skill::MODE_PVP] as $mode){
+				$pvp = ($mode === Skill::MODE_PVP);
 
-				foreach(['description', 'concise'] as $desc_type){
-					$concise = ($desc_type === 'concise');
-					$pwnd    = [];
+				foreach([Skill::DESC_DESCRIPTION, Skill::DESC_CONCISE] as $desc_type){
+					$pwnd = [];
 
-					foreach($ids as $id){
+					foreach($this->databases[$dblang]->getIDs() as $id){
 						$data  = $this->databases[$dblang]->get($id, $pvp)->toArray();
 						$data += $empty_fields;
 						$row   = [];
 
-						foreach(static::KEYS as $pos => $key){
+						foreach(self::KEYS as $pos => $key){
 							$row[$pos] = $data[$key];
 
 							// pawned does not use the split IDs
-							if($key === 'id'){
+							if($key === Skill::DATA_ID){
 								$row[$pos] = $id;
 							}
 
+							// second custom name field
 							if($key === 'name2'){
 								$row[$pos] = $this->databases[$lang2]->get($id, $pvp)->name;
 							}
 
-							if($key === 'description'){
+							if($key === Skill::DESC_DESCRIPTION){
+								// pawned uses 2 dots for progressions, e.g. 0..15 instead of 0...15
 								// pawned CSV does not use field enclosures, so we'll just replace semicolons
-								$row[$pos] = str_replace(['...', ';', '  '], ['..', '.', ' '], strip_tags($data[$desc_type]));
+								// double spaces may remain from stripping tags
+								$row[$pos] = strtr(strip_tags($data[$desc_type]), ['...' => '..', ';' => '.', '  ' => ' ']);
 							}
 
-							if($key === 'attribute' && array_key_exists($data[$key], self::PWND_ATTR_TRANSLATE)){
+							if($key === Skill::DATA_ATTRIBUTE && array_key_exists($data[$key], self::PWND_ATTR_TRANSLATE)){
 								$row[$pos] = self::PWND_ATTR_TRANSLATE[$data[$key]];
 							}
 
-							if($key === 'type' && array_key_exists($data[$key], self::TYPE_MAP)){
+							if($key === Skill::DATA_TYPE && array_key_exists($data[$key], self::TYPE_MAP)){
 								$row[$pos] = self::TYPE_MAP[$data[$key]];
 							}
 
-							if(in_array($key, ['is_elite', 'is_rp'], true)){
+							if(in_array($key, [Skill::DATA_IS_ELITE, Skill::DATA_IS_RP], true)){
 								$row[$pos] = (int)$data[$key];
 							}
 
-							if($key === 'activation'){
+							if($key === Skill::DATA_ACTIVATION){
 								if($data[$key] < 1 && $data[$key] > 0){
-									// trimming the zeroes here just for diff against the pawned csv
+									// pawned is a bit picky here with leading zeroes apparently
 									$row[$pos] = trim((string)$data[$key], '0');
 								}
-							}
-
-							if($key === 'adrenaline_precise' && $data[$key] > 0){
-								// same for this value. once we have favorable output we can just remove this
-								$row[$pos] = number_format($data[$key], 1, '.', '');
 							}
 
 						}
@@ -365,7 +377,7 @@ ini_en;
 						$pwnd[] = implode(';', $row);
 					}
 
-					$this->saveCSV(implode("\n", $pwnd), $lang, $mode, count($pwnd), $concise);
+					$this->saveCSV(implode("\n", $pwnd), $lang, $mode, count($pwnd), ($desc_type === Skill::DESC_CONCISE));
 				}
 
 			}

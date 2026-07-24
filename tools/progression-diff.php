@@ -17,11 +17,11 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
+use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillDataTools\Builder\Builder;
 use chillerlan\Utilities\File;
-use function array_keys;
 use function array_map;
 use function count;
 use function in_array;
@@ -47,7 +47,7 @@ $databases = array_map(fn(string $fqcn):SkillDataInterface => new $fqcn, Builder
 $diffs     = [];
 
 foreach($databases[SkillLang::EN]::ID2DESC as $id => $lang1){
-	foreach(array_keys(SkillLang::NAMES) as $lang){
+	foreach(SkillLang::IDS as $lang){
 
 		if($lang === SkillLang::EN){
 			continue;
@@ -57,7 +57,7 @@ foreach($databases[SkillLang::EN]::ID2DESC as $id => $lang1){
 
 		foreach(SkillDataInterface::KEYS_DESC as $pos => $key){
 
-			if($key === 'name'){
+			if($key === Skill::DESC_NAME){
 				continue;
 			}
 
@@ -70,8 +70,8 @@ foreach($databases[SkillLang::EN]::ID2DESC as $id => $lang1){
 			[$match1, $match2] = $diff;
 
 			$diffs[$id][$lang][$key] = [
-				'en'  => ['name' => $lang1[0], 'text' => $lang1[$pos], 'prog' => $match1],
-				$lang => ['name' => $lang2[0], 'text' => $lang2[$pos], 'prog' => $match2],
+				SkillLang::EN  => ['name' => $lang1[0], 'text' => $lang1[$pos], 'prog' => $match1],
+				$lang          => ['name' => $lang2[0], 'text' => $lang2[$pos], 'prog' => $match2],
 			];
 		}
 	}

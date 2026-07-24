@@ -31,32 +31,32 @@ final class Profession extends DataObjectAbstract{
 	public const DERVISH      = 10;
 
 	public const NAME = [
-		self::NONE         => ['de' => 'keine',           'en' => 'none',        ],
-		self::WARRIOR      => ['de' => 'Krieger',         'en' => 'Warrior',     ],
-		self::RANGER       => ['de' => 'Waldläufer',      'en' => 'Ranger',      ],
-		self::MONK         => ['de' => 'Mönch',           'en' => 'Monk',        ],
-		self::NECROMANCER  => ['de' => 'Nekromant',       'en' => 'Necromancer', ],
-		self::MESMER       => ['de' => 'Mesmer',          'en' => 'Mesmer',      ],
-		self::ELEMENTALIST => ['de' => 'Elementarmagier', 'en' => 'Elementalist',],
-		self::ASSASSIN     => ['de' => 'Assassine',       'en' => 'Assassin',    ],
-		self::RITUALIST    => ['de' => 'Ritualist',       'en' => 'Ritualist',   ],
-		self::PARAGON      => ['de' => 'Paragon',         'en' => 'Paragon',     ],
-		self::DERVISH      => ['de' => 'Derwisch',        'en' => 'Dervish',     ],
+		self::NONE         => [SkillLang::DE => 'keine',           SkillLang::EN => 'none',        ],
+		self::WARRIOR      => [SkillLang::DE => 'Krieger',         SkillLang::EN => 'Warrior',     ],
+		self::RANGER       => [SkillLang::DE => 'Waldläufer',      SkillLang::EN => 'Ranger',      ],
+		self::MONK         => [SkillLang::DE => 'Mönch',           SkillLang::EN => 'Monk',        ],
+		self::NECROMANCER  => [SkillLang::DE => 'Nekromant',       SkillLang::EN => 'Necromancer', ],
+		self::MESMER       => [SkillLang::DE => 'Mesmer',          SkillLang::EN => 'Mesmer',      ],
+		self::ELEMENTALIST => [SkillLang::DE => 'Elementarmagier', SkillLang::EN => 'Elementalist',],
+		self::ASSASSIN     => [SkillLang::DE => 'Assassine',       SkillLang::EN => 'Assassin',    ],
+		self::RITUALIST    => [SkillLang::DE => 'Ritualist',       SkillLang::EN => 'Ritualist',   ],
+		self::PARAGON      => [SkillLang::DE => 'Paragon',         SkillLang::EN => 'Paragon',     ],
+		self::DERVISH      => [SkillLang::DE => 'Derwisch',        SkillLang::EN => 'Dervish',     ],
 	];
 
 	/** @var array<int, array{de: string, en: string}> */
 	public const NAME_ABBR = [
-		self::NONE         => ['de' => 'X', 'en' => 'X', ],
-		self::WARRIOR      => ['de' => 'K', 'en' => 'W', ],
-		self::RANGER       => ['de' => 'W', 'en' => 'R', ],
-		self::MONK         => ['de' => 'Mö','en' => 'Mo',],
-		self::NECROMANCER  => ['de' => 'N', 'en' => 'N', ],
-		self::MESMER       => ['de' => 'Me','en' => 'Me',],
-		self::ELEMENTALIST => ['de' => 'E', 'en' => 'E', ],
-		self::ASSASSIN     => ['de' => 'A', 'en' => 'A', ],
-		self::RITUALIST    => ['de' => 'R', 'en' => 'Rt',],
-		self::PARAGON      => ['de' => 'P', 'en' => 'P', ],
-		self::DERVISH      => ['de' => 'D', 'en' => 'D', ],
+		self::NONE         => [SkillLang::DE => 'X',  SkillLang::EN => 'X', ],
+		self::WARRIOR      => [SkillLang::DE => 'K',  SkillLang::EN => 'W', ],
+		self::RANGER       => [SkillLang::DE => 'W',  SkillLang::EN => 'R', ],
+		self::MONK         => [SkillLang::DE => 'Mö', SkillLang::EN => 'Mo',],
+		self::NECROMANCER  => [SkillLang::DE => 'N',  SkillLang::EN => 'N', ],
+		self::MESMER       => [SkillLang::DE => 'Me', SkillLang::EN => 'Me',],
+		self::ELEMENTALIST => [SkillLang::DE => 'E',  SkillLang::EN => 'E', ],
+		self::ASSASSIN     => [SkillLang::DE => 'A',  SkillLang::EN => 'A', ],
+		self::RITUALIST    => [SkillLang::DE => 'R',  SkillLang::EN => 'Rt',],
+		self::PARAGON      => [SkillLang::DE => 'P',  SkillLang::EN => 'P', ],
+		self::DERVISH      => [SkillLang::DE => 'D',  SkillLang::EN => 'D', ],
 	];
 
 	/** @var array<int, int> */

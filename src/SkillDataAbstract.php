@@ -65,24 +65,24 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getByCampaign(int $campaign, bool $pvp = false):array{
-		return $this->getByKey('campaign', (new Campaign($campaign))->id, $pvp);
+		return $this->getByKey(Skill::DATA_CAMPAIGN, (new Campaign($campaign))->id, $pvp);
 	}
 
 	public function getByProfession(int $profession, bool $pvp = false):array{
-		return $this->getByKey('profession', (new Profession($profession))->id, $pvp);
+		return $this->getByKey(Skill::DATA_PROFESSION, (new Profession($profession))->id, $pvp);
 	}
 
 	public function getByAttribute(int $attribute, bool $pvp = false):array{
-		return $this->getByKey('attribute', (new Attribute($attribute))->id, $pvp);
+		return $this->getByKey(Skill::DATA_ATTRIBUTE, (new Attribute($attribute))->id, $pvp);
 	}
 
 	public function getByType(int $type, bool $pvp = false):array{
-		return $this->getByKey('type', (new Skilltype($type))->id, $pvp);
+		return $this->getByKey(Skill::DATA_TYPE, (new Skilltype($type))->id, $pvp);
 	}
 
 	public function getByTypeWithSubtypes(int $type, bool $pvp = false):array{
 		$types  = (new Skilltype($type))->withSubtypes();
-		$keyID  = array_search('type', static::KEYS_DATA, true);
+		$keyID  = array_search(Skill::DATA_TYPE, static::KEYS_DATA, true);
 		$skills = [];
 
 		foreach(static::ID2DATA as $id => $data){
@@ -95,15 +95,15 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getElite(bool $pvp = false):array{
-		return $this->getByKey('is_elite', true, $pvp);
+		return $this->getByKey(Skill::DATA_IS_ELITE, true, $pvp);
 	}
 
 	public function getRoleplay():array{
-		return $this->getByKey('is_rp', true, false);
+		return $this->getByKey(Skill::DATA_IS_RP, true, false);
 	}
 
 	public function getIDs(bool $pvp = false):array{
-		$keyID = array_search('is_pvp', static::KEYS_DATA, true);
+		$keyID = array_search(Skill::DATA_IS_PVP, static::KEYS_DATA, true);
 		$ids   = [];
 
 		foreach(static::ID2DATA as $id => $data){

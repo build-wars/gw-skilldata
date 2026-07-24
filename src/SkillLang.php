@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
-use function array_key_exists;
+use function in_array;
 
 /**
  * Encapsulates the available skill data languages
@@ -22,6 +22,11 @@ final class SkillLang{
 	public const DE = 'de';
 	public const EN = 'en';
 
+	public const IDS = [
+		self::DE,
+		self::EN,
+	];
+
 	/** @var array<string, string> */
 	public const NAMES = [
 		self::DE => 'German',
@@ -30,7 +35,7 @@ final class SkillLang{
 
 	public function __construct(public readonly string $id){
 
-		if(!array_key_exists($this->id, self::NAMES)){
+		if(!in_array($this->id, self::IDS, true)){
 			throw new InvalidArgumentException('invalid language');
 		}
 

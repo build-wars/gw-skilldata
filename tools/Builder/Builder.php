@@ -16,6 +16,7 @@ namespace Buildwars\GWSkillDataTools\Builder;
 use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Campaign;
 use Buildwars\GWSkillData\Profession;
+use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillData\SkillLangEnglish;
@@ -43,7 +44,6 @@ use function array_chunk;
 use function array_column;
 use function array_diff;
 use function array_key_exists;
-use function array_keys;
 use function array_map;
 use function count;
 use function implode;
@@ -123,15 +123,15 @@ class Builder{
 	public function addSkill(int $id, int $campaign, int $profession, int $attribute, bool $is_elite, bool $is_rp):static{
 		// required values: id, campaign, profession, attribute, is_elite, is_rp
 		$data = [
-			'id'         => $id,
-			'campaign'   => (new Campaign($campaign))->id,
-			'profession' => (new Profession($profession))->id,
-			'attribute'  => (new Attribute($attribute))->id,
-			'is_elite'   => $is_elite,
-			'is_rp'      => $is_rp,
-			'is_pvp'     => in_array($id, PVP_SPLIT, true),
-			'pvp_split'  => array_key_exists($id, PVP_SPLIT),
-			'split_id'   => (PVP_SPLIT[$id] ?? 0),
+			Skill::DATA_ID         => $id,
+			Skill::DATA_CAMPAIGN   => (new Campaign($campaign))->id,
+			Skill::DATA_PROFESSION => (new Profession($profession))->id,
+			Skill::DATA_ATTRIBUTE  => (new Attribute($attribute))->id,
+			Skill::DATA_IS_ELITE   => $is_elite,
+			Skill::DATA_IS_RP      => $is_rp,
+			Skill::DATA_IS_PVP     => in_array($id, PVP_SPLIT, true),
+			Skill::DATA_PVP_SPLIT  => array_key_exists($id, PVP_SPLIT),
+			Skill::DATA_SPLIT_ID   => (PVP_SPLIT[$id] ?? 0),
 		];
 
 		$this->new_skilldata[$id] = $this->createDataFields($id);
@@ -148,15 +148,15 @@ class Builder{
 	 *
 	 * needs to be run before `create()`
 	 */
-	public function addSkillLang(int $id, string $lang, string $name):static{
+	public function addSkillLang(int $id, SkillLang|string $lang, string $name):static{
 
-		if(!array_key_exists($lang, SkillLang::NAMES)){
-			throw new InvalidArgumentException('invalid language');
+		if(!$lang instanceof SkillLang){
+			$lang = new SkillLang($lang);
 		}
 
-		$this->new_skilldesc[$lang][$id] = $this->createLangFields($id);
+		$this->new_skilldesc[$lang->id][$id] = $this->createLangFields($id);
 		// required values: name
-		$this->new_skilldesc[$lang][$id]['name'] = trim($name);
+		$this->new_skilldesc[$lang->id][$id][Skill::DESC_NAME] = trim($name);
 
 		return $this;
 	}
@@ -177,14 +177,14 @@ class Builder{
 
 		// create language skeletons for the list of known IDs
 		foreach($this->skilldata as $id => $_){
-			foreach(SkillLang::NAMES as $lang => $_){
+			foreach(SkillLang::IDS as $lang){
 				$this->skilldesc[$lang][$id] = $this->createLangFields($id);
 			}
 		}
 
 		// now fill the skill data with the known values
 		foreach($this->skilldata as $id => &$row){
-			foreach(array_keys(SkillLang::NAMES) as $lang){
+			foreach(SkillLang::IDS as $lang){
 
 				try{
 					$current = $this->databases[$lang]->get($id);
@@ -197,7 +197,7 @@ class Builder{
 				}
 
 				// add the skill name
-				$this->skilldesc[$lang][$id]['name'] = $current->name;
+				$this->skilldesc[$lang][$id][Skill::DESC_NAME] = $current->name;
 
 				// we only need to update the data once here
 				if($lang !== SkillLang::EN){
@@ -207,22 +207,25 @@ class Builder{
 				// update skill data
 				foreach($current->toArray() as $key => $value){
 					// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
-					if(in_array($key, ['id', 'campaign', 'profession', 'attribute', 'is_elite', 'is_rp'], true)){
+					if(in_array($key, [
+						Skill::DATA_ID, Skill::DATA_CAMPAIGN, Skill::DATA_PROFESSION,
+						Skill::DATA_ATTRIBUTE, Skill::DATA_IS_ELITE, Skill::DATA_IS_RP,
+					], true)){
 						$row[$key] = $value;
 					}
 					// this skill *is* a pvp version
-					if($key === 'is_pvp'){
+					if($key === Skill::DATA_IS_PVP){
 						$row[$key] = in_array($id, PVP_SPLIT, true);
 					}
 					// the skill *has* a pvp version
-					if($key === 'pvp_split'){
+					if($key === Skill::DATA_PVP_SPLIT){
 						$row[$key] = array_key_exists($id, PVP_SPLIT);
 					}
 					// the id of the pvp version of the current skill
-					if($key === 'split_id'){
+					if($key === Skill::DATA_SPLIT_ID){
 						$row[$key] = (PVP_SPLIT[$id] ?? 0);
 						// add the base id to pvp-split skills
-						if($row['is_pvp'] === true){
+						if($row[Skill::DATA_IS_PVP] === true){
 							$row[$key] = (PVP_SPLIT_FLIP[$id] ?? 0);
 						}
 					}
@@ -235,7 +238,7 @@ class Builder{
 		foreach($this->new_skilldata as $id => $new_row){
 			$this->skilldata[$id] = $new_row;
 
-			foreach(array_keys(SkillLang::NAMES) as $lang){
+			foreach(SkillLang::IDS as $lang){
 
 				if(!array_key_exists($id, $this->new_skilldesc[$lang])){
 					throw new RuntimeException(sprintf('invalid skill descriptions for [%-4s][%s]', $id, $lang));
@@ -265,19 +268,19 @@ class Builder{
 		}
 
 		foreach($jsonData['skilldata'] as $skillID => &$skillData){
-			foreach(['de', 'en'] as $lang){
+			foreach(SkillLang::IDS as $lang){
 				$desc = $jsonLang[$lang]['skilldesc'][$skillID];
-				$prof = new Profession($skillData['profession'], $lang);
+				$prof = new Profession($skillData[Skill::DATA_PROFESSION], $lang);
 
 				$skillData['lang'][$lang] = [
-					'name'            => $desc['name'],
-					'description'     => $desc['description'],
-					'concise'         => $desc['concise'],
-					'campaign'        => (new Campaign($skillData['campaign'], $lang))->getName(),
-					'profession'      => $prof->getName(),
-					'profession_abbr' => $prof->getAbbr(),
-					'attribute'       => (new Attribute($skillData['attribute'], $lang))->getName(),
-					'type'            => (new Skilltype($skillData['type'], $lang))->getName(),
+					Skill::DESC_NAME        => $desc[Skill::DESC_NAME],
+					Skill::DESC_DESCRIPTION => $desc[Skill::DESC_DESCRIPTION],
+					Skill::DESC_CONCISE     => $desc[Skill::DESC_CONCISE],
+					Skill::DATA_CAMPAIGN    => (new Campaign($skillData[Skill::DATA_CAMPAIGN], $lang))->getName(),
+					Skill::DATA_PROFESSION  => $prof->getName(),
+					'profession_abbr'       => $prof->getAbbr(),
+					Skill::DATA_ATTRIBUTE   => (new Attribute($skillData[Skill::DATA_ATTRIBUTE], $lang))->getName(),
+					Skill::DATA_TYPE        => (new Skilltype($skillData[Skill::DATA_TYPE], $lang))->getName(),
 				];
 			}
 
@@ -288,7 +291,7 @@ class Builder{
 
 			$this->saveJSON(sprintf('%s/%s.json', static::JSON_SKILL_DIR, $skillID), $skill);
 
-			$this->logger->info(sprintf('JSON for [%-4s] %s', $skillID, $skillData['lang']['en']['name']));
+			$this->logger->info(sprintf('JSON for [%-4s] %s', $skillID, $skillData['lang'][SkillLang::EN][Skill::DESC_NAME]));
 		}
 
 		$jsonData['$schema'] = static::SCHEMA_SKILLDATA_COMBINED;
@@ -308,7 +311,7 @@ class Builder{
 		foreach(static::WIKIFETCHERS as $lang => $fqcn){
 			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger, $this->databases[$lang]);
 			$skilldesc  = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
-			$skillnames = array_column($skilldesc['skilldesc'], 'name', 'id');
+			$skillnames = array_column($skilldesc['skilldesc'], Skill::DESC_NAME, Skill::DATA_ID);
 
 			unset($skillnames[0]); // unset the "No Skill" for the fetch request
 
@@ -336,40 +339,42 @@ class Builder{
 			$skilldesc = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
 
 			foreach($skilldesc['skilldesc'] as &$desc){
-				$current   = $this->databases[$lang]->get($desc['id']);
-				$skilldata = $this->wikiFetcher->fetch($desc['name'], $desc['id'], $this->options->from_cache);
+				$current = $this->databases[$lang]->get($desc[Skill::DATA_ID]);
+				$data    = $this->wikiFetcher->fetch($desc[Skill::DESC_NAME], $desc[Skill::DATA_ID], $this->options->from_cache);
 
-				if($skilldata === null){
-					$this->logger->warning(sprintf('invalid wiki data for [%-4s] %s', $desc['name'], $desc['id']));
+				if($data === null){
+					$message = sprintf('invalid wiki data for [%-4s] %s', $desc[Skill::DESC_NAME], $desc[Skill::DATA_ID]);
+
+					$this->logger->warning($message);
 				}
 
 				// update skill descriptions
-				foreach(['name', 'description', 'concise'] as $k){
+				foreach(SkillDataInterface::KEYS_DESC as $k){
 
-					if($k === 'name' && $skilldata['name'] !== $desc['name']){
-						$this->logger->info(sprintf('name fix: %s => %s', $desc['name'], $skilldata['name']));
+					if($k === Skill::DESC_NAME && $data[Skill::DESC_NAME] !== $desc[Skill::DESC_NAME]){
+						$this->logger->info(sprintf('name fix: %s => %s', $desc[Skill::DESC_NAME], $data[Skill::DESC_NAME]));
 					}
 
 					// on CI, diff descriptions against previous versions, fail if there's a certain amount of changes
-					if($k !== 'name' && $this->options->diff_descriptions){
-						$this->diffDescription($current->{$k}, $skilldata[$k]);
+					if($k !== Skill::DESC_NAME && $this->options->diff_descriptions){
+						$this->diffDescription($current->{$k}, $data[$k]);
 					}
 
-					$desc[$k] = $skilldata[$k];
+					$desc[$k] = $data[$k];
 				}
 				// while we're at it: update skill data
-				if($this->options->update_skilldata && $skilldata !== null){
+				if($this->options->update_skilldata && $data !== null){
 					// update skill data from guildwiki
 					if($this->wikiFetcher instanceof WikiFetcherGerman){
 						foreach(WikiFetcherGerman::USE_FIELDS as $k){
-							$jsonData['skilldata'][$desc['id']][$k] = $skilldata[$k];
+							$jsonData['skilldata'][$desc[Skill::DATA_ID]][$k] = $data[$k];
 						}
 					}
 
 					// update skill data from GWW
 					if($this->wikiFetcher instanceof WikiFetcherEnglish){
 						foreach(WikiFetcherEnglish::USE_FIELDS as $k){
-							$jsonData['skilldata'][$desc['id']][$k] = $skilldata[$k];
+							$jsonData['skilldata'][$desc[Skill::DATA_ID]][$k] = $data[$k];
 						}
 					}
 
@@ -421,11 +426,11 @@ class Builder{
 
 		foreach(static::JSON_LANG_FILES as $lang => $file){
 			$json     = File::loadJSON($file, true);
-			$language = SkillLang::NAMES[$lang];
+			$language = (new SkillLang($lang))->getName();
 
 			// unset the "id" field here
 			foreach($json['skilldesc'] as &$row){
-				unset($row['id']);
+				unset($row[Skill::DATA_ID]);
 			}
 
 			$content = [
