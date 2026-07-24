@@ -248,7 +248,7 @@ final class Attribute extends DataObjectAbstract{
 	}
 
 	public function getProfession():Profession{
-		return new Profession(self::PROFESSION[$this->id], $this->lang);
+		return new Profession(self::PROFESSION[$this->id], $this->lang->id);
 	}
 
 	public function getProfessionID():int{
@@ -281,10 +281,9 @@ final class Attribute extends DataObjectAbstract{
 	}
 
 	public function clamp(int|null $level = null, int|null $max = null):int{
-		$attr_max = ($max ?? self::MAX_VALUE[$this->id]);
 		// the internal maximum attribute level for player characters is 20-21, monsters are capped at 30
 		// fast cast levels > 33 result in negative activation & recharge for mesmer - THE CHRONOMANCER IS REAL
-		$max = min($attr_max, 30);
+		$max = min(($max ?? self::MAX_VALUE[$this->id]), 30);
 
 		// we'll clamp the PvE attributes to their respectime max title ranks
 		if($this->id > 100){
@@ -332,6 +331,11 @@ final class Attribute extends DataObjectAbstract{
 	 * Creates an optional table in the `progressions` array.
 	 */
 	public function getProgressionValue(int|string $val0, int|string $val15, int|null $level = null):int{
+
+		if($level !== null){
+			$level = $this->clamp($level);
+		}
+
 		// values might come in as strings from preg_match()
 		$val0  = intval($val0);
 		$val15 = intval($val15);
