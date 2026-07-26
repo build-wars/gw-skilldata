@@ -12,10 +12,12 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 use Closure;
+use function array_map;
 use function floor;
 use function intval;
 use function max;
 use function min;
+use function range;
 use function round;
 
 /**
@@ -280,17 +282,8 @@ final class Attribute extends DataObjectAbstract{
 		return $this->in(Profession::PRIMARY_ATTRIBUTE);
 	}
 
-	public function clamp(int|null $level = null, int|null $max = null):int{
-		// the internal maximum attribute level for player characters is 20-21, monsters are capped at 30
-		// fast cast levels > 33 result in negative activation & recharge for mesmer - THE CHRONOMANCER IS REAL
-		$max = min(($max ?? self::MAX_VALUE[$this->id]), 30);
-
-		// we'll clamp the PvE attributes to their respectime max title ranks
-		if($this->id > 100){
-			$max = self::MAX_VALUE[$this->id];
-		}
-
-		return max(0, min(($level ?? $this->level), $max));
+	public function clamp(int|null $level = null):int{
+		return max(0, min(($level ?? $this->level), self::MAX_VALUE[$this->id]));
 	}
 
 	/**
@@ -336,29 +329,28 @@ final class Attribute extends DataObjectAbstract{
 			$level = $this->clamp($level);
 		}
 
-		// values might come in as strings from preg_match()
-		$val0  = intval($val0);
-		$val15 = intval($val15);
-		$fn    = $this->getProgressionFunction();
+		$fn = $this->getProgressionFunction();
 
-		return $fn(($level ?? $this->level), $val0, $val15);
+		// values might come in as strings from preg_match()
+		return $fn(($level ?? $this->level), intval($val0), intval($val15));
 	}
 
 	/**
 	 * Creates a progression table for the values 0 to attribute-max of the given val0 and val15
 	 */
-	public function getProgressionTable(int $val0, int $val15):array{
-		$progression = [];
+	public function getProgressionTable(int $val0, int $val15, int|null $max = null):array{
+		// the internal maximum attribute level for player characters is 20-21, monsters are capped at 30
+		// fast cast levels > 33 result in negative activation & recharge for mesmer - THE CHRONOMANCER IS REAL
+		$max = min(($max ?? self::MAX_VALUE[$this->id]), 30);
 
-		$max = $this->getMaxValue();
-		$fn  = $this->getProgressionFunction();
-
-		for($i = 0; $i <= $max; $i++){
-			$progression[$i] = $fn($i, $val0, $val15);
+		// we'll clamp the PvE attributes to their respectime max title ranks
+		if($this->id > 100){
+			$max = self::MAX_VALUE[$this->id];
 		}
 
-		return $progression;
-	}
+		$fn = $this->getProgressionFunction();
 
+		return array_map(fn(int $i):int => $fn($i, $val0, $val15), range(0, $max));
+	}
 
 }

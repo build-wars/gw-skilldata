@@ -54,12 +54,24 @@ final class AttributeTest extends TestCase{
 		(new Attribute(Attribute::FAST_CASTING))->getName('foo');
 	}
 
+	public static function professionProvider():array{
+		return [
+			'default' => [Attribute::FAST_CASTING, Profession::MESMER],
+			'none'    => [Attribute::NONE, Profession::NONE],
+			'title'   => [Attribute::TITLE_LUXON, Profession::NONE],
+		];
+	}
+
 	#[Test]
-	#[TestWith([Attribute::FAST_CASTING, Profession::MESMER])]
-	#[TestWith([Attribute::NONE, Profession::NONE])]
-	#[TestWith([Attribute::TITLE_LUXON, Profession::NONE])]
-	public function getProfession(int $attribute, int $expected):void{
+	#[DataProvider('professionProvider')]
+	public function getProfessionID(int $attribute, int $expected):void{
 		$this::assertSame($expected, (new Attribute($attribute))->getProfessionID());
+	}
+
+	#[Test]
+	#[DataProvider('professionProvider')]
+	public function getProfession(int $attribute, int $expected):void{
+		$this::assertTrue((new Attribute($attribute))->getProfession()->is($expected));
 	}
 
 	#[Test]
@@ -94,20 +106,19 @@ final class AttributeTest extends TestCase{
 
 	public static function clampValueProvider():array{
 		return [
-			'none'                 => [Attribute::NONE, 42, 69, 0],
-			'lightbringer'         => [Attribute::TITLE_LIGHTBRINGER, 42, 69, 8],
-			'norn'                 => [Attribute::TITLE_NORN, 42, 69, 10],
-			'luxon'                => [Attribute::TITLE_LUXON, 42, 69, 12],
-			'default'              => [Attribute::FAST_CASTING, 42, null, 21],
-			'default max override' => [Attribute::FAST_CASTING, 42, 69, 30],
-			'negative'             => [Attribute::FAST_CASTING, -42, null, 0],
+			'none'                 => [Attribute::NONE, 42, 0],
+			'lightbringer'         => [Attribute::TITLE_LIGHTBRINGER, 42, 8],
+			'norn'                 => [Attribute::TITLE_NORN, 42, 10],
+			'luxon'                => [Attribute::TITLE_LUXON, 42, 12],
+			'default'              => [Attribute::FAST_CASTING, 42, 21],
+			'negative'             => [Attribute::FAST_CASTING, -42, 0],
 		];
 	}
 
 	#[Test]
 	#[DataProvider('clampValueProvider')]
-	public function clamp(int $id, int $level, int|null $overrideMax, int $expected):void{
-		$this::assertSame($expected, (new Attribute($id))->clamp($level, $overrideMax));
+	public function clamp(int $id, int $level, int $expected):void{
+		$this::assertSame($expected, (new Attribute($id))->clamp($level));
 	}
 
 	#[Test]
@@ -153,5 +164,15 @@ final class AttributeTest extends TestCase{
 		}
 	}
 
+	#[Test]
+	#[DataProvider('progressionValueProvider')]
+	public function progressionTable(int $attribute, int $val0, int $val15, array $expected):void{
+		$table = (new Attribute($attribute))->getProgressionTable($val0, $val15);
+
+		foreach($expected as $level => $expectedValue){
+			$this::assertSame($expectedValue, $table[$level]);
+		}
+
+	}
 
 }
