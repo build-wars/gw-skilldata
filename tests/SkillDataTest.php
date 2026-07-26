@@ -50,6 +50,12 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->get(979, true);
 
 		$this::assertSame(3191, $data->id);
+		$this::assertSame('Mistrust (PvP)', $data->name);
+
+		$data = $this->skillData->get(3191, false);
+
+		$this::assertSame(979, $data->id);
+		$this::assertSame('Mistrust', $data->name);
 	}
 
 	#[Test]

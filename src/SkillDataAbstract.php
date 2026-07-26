@@ -25,13 +25,25 @@ use function in_array;
 abstract class SkillDataAbstract implements SkillDataInterface{
 
 	/** @phan-suppress PhanTypeMismatchArgumentNullableInternal */
-	private function combine(int $id):Skill{
+	public function get(int $id, bool $pvp = false):Skill{
 
 		if(!array_key_exists($id, static::ID2DATA)){
 			throw new InvalidArgumentException('invalid skill ID');
 		}
 
 		$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
+
+		if(
+			// pvp mode, the skill has a pvp redirect but pve version was given
+			($pvp && !$skillData[Skill::DATA_IS_PVP] && $skillData[Skill::DATA_PVP_SPLIT])
+			// pve mode, the pvp skill was given, redirect to pve
+			|| (!$pvp && $skillData[Skill::DATA_IS_PVP] && $skillData[Skill::DATA_SPLIT_ID] !== 0)
+		){
+			$id = $skillData[Skill::DATA_SPLIT_ID];
+
+			$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
+		}
+
 		$skillDesc = array_combine(static::KEYS_DESC, static::ID2DESC[$id]);
 
 		return new Skill(array_merge($skillData, $skillDesc), static::LANG);
@@ -48,16 +60,6 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		}
 
 		return $skills;
-	}
-
-	public function get(int $id, bool $pvp = false):Skill{
-		$data = $this->combine($id);
-
-		if($pvp === false || $data->pvp_split === false){
-			return $data;
-		}
-
-		return $this->combine($data->split_id);
 	}
 
 	public function getAll(array $IDs, bool $pvp = false):array{
