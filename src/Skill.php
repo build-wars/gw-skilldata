@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
+use InvalidArgumentException;
 use function array_key_exists;
 use function array_merge;
 use function property_exists;
@@ -45,6 +46,101 @@ final class Skill{
 	public const DESC_NAME               = 'name';
 	public const DESC_DESCRIPTION        = 'description';
 	public const DESC_CONCISE            = 'concise';
+
+	public const FIELD_NAMES = [
+		self::MODE_PVE                => [
+			SkillLang::DE => 'Rollenspiel',
+			SkillLang::EN => 'Roleplay',
+		],
+		self::MODE_PVP                => [
+			SkillLang::DE => 'Spieler gegen Spieler',
+			SkillLang::EN => 'Player versus Player',
+		],
+		self::DATA_ATTRIBUTE          => [
+			SkillLang::DE => 'Attribut',
+			SkillLang::EN => 'Attribute',
+		],
+		self::DATA_CAMPAIGN           => [
+			SkillLang::DE => 'Kampagne',
+			SkillLang::EN => 'Campaign',
+		],
+		self::DATA_PROFESSION         => [
+			SkillLang::DE => 'Klasse',
+			SkillLang::EN => 'Profession',
+		],
+		self::DATA_TYPE               => [
+			SkillLang::DE => 'Fertigkeitstyp',
+			SkillLang::EN => 'Skill type',
+		],
+		self::DATA_IS_ELITE           => [
+			SkillLang::DE => 'ist Elite',
+			SkillLang::EN => 'is Elite',
+		],
+		self::DATA_IS_PVP             => [
+			SkillLang::DE => 'ist PvP',
+			SkillLang::EN => 'is PvP',
+		],
+		self::DATA_IS_RP              => [
+			SkillLang::DE => 'ist Rollenspiel',
+			SkillLang::EN => 'is Roleplay',
+		],
+		self::DATA_PVP_SPLIT          => [
+			SkillLang::DE => 'hat PvP-Version',
+			SkillLang::EN => 'has PvP version',
+		],
+		self::DATA_ID                 => [
+			SkillLang::DE => 'Fertigkeits-ID',
+			SkillLang::EN => 'Skill ID',
+		],
+		self::DATA_SPLIT_ID           => [
+			SkillLang::DE => 'PvP ID',
+			SkillLang::EN => 'PvP ID',
+		],
+		self::DATA_ACTIVATION         => [
+			SkillLang::DE => 'Aktivierungszeit',
+			SkillLang::EN => 'Activation time',
+		],
+		self::DATA_RECHARGE           => [
+			SkillLang::DE => 'Wiederaufladezeit',
+			SkillLang::EN => 'Recharge time',
+		],
+		self::DATA_ENERGY             => [
+			SkillLang::DE => 'Energiekosten',
+			SkillLang::EN => 'Energy cost',
+		],
+		self::DATA_UPKEEP             => [
+			SkillLang::DE => 'Unterhaltskosten',
+			SkillLang::EN => 'Upkeep cost',
+		],
+		self::DATA_ADRENALINE         => [
+			SkillLang::DE => 'Adernalinkosten',
+			SkillLang::EN => 'Adernaline cost',
+		],
+		self::DATA_ADRENALINE_PRECISE => [
+			SkillLang::DE => 'Adernalinkosten (präzise)',
+			SkillLang::EN => 'Adernaline cost (precise)',
+		],
+		self::DATA_SACRIFICE          => [
+			SkillLang::DE => 'Opferkosten',
+			SkillLang::EN => 'Sacrifice cost',
+		],
+		self::DATA_EXHAUSTION         => [
+			SkillLang::DE => 'Überzaubert',
+			SkillLang::EN => 'Overcast',
+		],
+		self::DESC_NAME               => [
+			SkillLang::DE => 'Fertigkeitsname',
+			SkillLang::EN => 'Skill name',
+		],
+		self::DESC_DESCRIPTION        => [
+			SkillLang::DE => 'Fertigkeitsbeschreibung',
+			SkillLang::EN => 'Skill description',
+		],
+		self::DESC_CONCISE            => [
+			SkillLang::DE => 'Kurzbeschreibung',
+			SkillLang::EN => 'Concise description',
+		],
+	];
 
 	private const DataObjects = [
 		self::DATA_ATTRIBUTE  => Attribute::class,
@@ -114,7 +210,17 @@ final class Skill{
 		return $data;
 	}
 
-#	public function getFieldName(string $field, string|null $lang = null):string{}
+	public function getFieldName(string $field, SkillLang|string $lang = SkillLang::EN):string{
 
+		if(!array_key_exists($field, self::FIELD_NAMES)){
+			throw new InvalidArgumentException('invalid field name given');
+		}
+
+		if(!$lang instanceof SkillLang){
+			$lang = new SkillLang($lang);
+		}
+
+		return self::FIELD_NAMES[$field][$lang->id];
+	}
 
 }

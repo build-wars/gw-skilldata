@@ -14,14 +14,17 @@ namespace Buildwars\GWSkillDataTest;
 use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Campaign;
 use Buildwars\GWSkillData\Profession;
+use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLang;
 use Buildwars\GWSkillData\Skilltype;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use function array_column;
 use function array_merge;
+use function in_array;
 
 /**
  * Tests basic functions of the SkillData class
@@ -30,7 +33,7 @@ class SkillDataTest extends TestCase{
 	use SkillDataAwareTrait;
 
 	protected function setUp():void{
-		$this->setSkillDataLanguage('en');
+		$this->setSkillDataLanguage(SkillLang::EN);
 	}
 
 	#[Test]
@@ -38,7 +41,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->get(0, true)->toArray();
 		$keys = array_merge(SkillDataInterface::KEYS_DATA, SkillDataInterface::KEYS_DESC);
 
-		$this::assertSame(0, $data['id']);
+		$this::assertSame(0, $data[Skill::DATA_ID]);
 
 		foreach($keys as $key){
 			$this::assertArrayHasKey($key, $data);
@@ -71,7 +74,7 @@ class SkillDataTest extends TestCase{
 		$data = $this->skillData->getAll($IDs);
 
 		$this::assertCount(count($IDs), $data);
-		$this::assertSame($IDs, array_column($data, 'id'));
+		$this::assertSame($IDs, array_column($data, Skill::DATA_ID));
 	}
 
 	#[Test]
@@ -138,6 +141,24 @@ class SkillDataTest extends TestCase{
 
 		foreach($data as $skill){
 			$this::assertTrue($skill->is_rp);
+		}
+	}
+
+	#[Test]
+	public function getFiledName():void{
+
+		foreach(SkillLang::IDS as $langID){
+			$this->setSkillDataLanguage($langID);
+
+			foreach(Skill::FIELD_NAMES as $key => $lang){
+				$skill = $this->skillData->get(42);
+
+				if(in_array($key, [Skill::MODE_PVE, Skill::MODE_PVP], true)){
+					continue;
+				}
+
+				$this::assertSame($lang[$langID], $skill->getFieldName($key, $langID));
+			}
 		}
 	}
 
