@@ -93,6 +93,10 @@ final class Profession extends DataObjectAbstract{
 		return self::PRIMARY_ATTRIBUTE[$this->id];
 	}
 
+	public function getAttributes():array{
+		return Attribute::getByProfession($this);
+	}
+
 	public function toHTML(SkillLang|string|null $lang = null, bool $short = false):string{
 		$lang = $this->getLang($lang);
 		$name = $this->getName($lang);
