@@ -16,6 +16,8 @@ namespace Buildwars\GWSkillData;
  */
 final class Campaign extends DataObjectAbstract{
 
+	public const CSS_CLASS = 'campaign';
+
 	public const CORE             = 0;
 	public const PROPHECIES       = 1;
 	public const FACTIONS         = 2;
@@ -38,13 +40,10 @@ final class Campaign extends DataObjectAbstract{
 		self::EYE_OF_THE_NORTH => [SkillLang::DE => 'Tyria',     SkillLang::EN => 'Tyria',    ],
 	];
 
-	public function getContinentName(string|null $lang = null):string{
+	public function getContinentName(SkillLang|string|null $lang = null):string{
+		$lang = $this->getLang($lang);
 
-		if($lang !== null){
-			$lang = new SkillLang($lang);
-		}
-
-		return self::CONTINENT_NAME[$this->id][($lang->id ?? $this->lang->id)];
+		return self::CONTINENT_NAME[$this->id][$lang->id];
 	}
 
 }

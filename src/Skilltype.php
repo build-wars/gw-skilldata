@@ -19,6 +19,8 @@ use const SORT_NUMERIC;
  */
 final class Skilltype extends DataObjectAbstract{
 
+	public const CSS_CLASS = 'skilltype';
+
 	public const NONE                    = 0;
 	public const SKILL                   = 1;
 	public const BOW_ATTACK              = 2;

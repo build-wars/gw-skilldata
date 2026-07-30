@@ -19,11 +19,15 @@ use function max;
 use function min;
 use function range;
 use function round;
+use function sprintf;
+use function strtolower;
 
 /**
  * Encapsulates all skill attribute related static data
  */
 final class Attribute extends DataObjectAbstract{
+
+	public const CSS_CLASS = 'attribute';
 
 	public const FAST_CASTING        = 0;
 	public const ILLUSION_MAGIC      = 1;
@@ -351,6 +355,23 @@ final class Attribute extends DataObjectAbstract{
 		$fn = $this->getProgressionFunction();
 
 		return array_map(fn(int $i):int => $fn($i, $val0, $val15), range(0, $max));
+	}
+
+	public function toHTML(SkillLang|string|null $lang = null, bool $includeLevel = false):string{
+		$lang     = $this->getLang($lang);
+		$cssClass = strtolower($this->getProfession()->getName(SkillLang::EN));
+
+		if($includeLevel){
+			return sprintf(
+				'<span class="green">%s</span> <span class="%s %s">%s</span>',
+				$this->level,
+				self::CSS_CLASS,
+				$cssClass,
+				$this->getName($lang),
+			);
+		}
+
+		return sprintf('<span class="%s %s">%s</span>', self::CSS_CLASS, $cssClass, $this->getName($lang));
 	}
 
 }

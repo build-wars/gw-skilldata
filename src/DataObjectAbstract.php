@@ -14,6 +14,7 @@ namespace Buildwars\GWSkillData;
 use InvalidArgumentException;
 use function array_key_exists;
 use function in_array;
+use function sprintf;
 
 /**
  * Abstract parent to the Attribute, Campaign, Profession and Skilltype classes
@@ -21,7 +22,8 @@ use function in_array;
 abstract class DataObjectAbstract{
 
 	/** @var array<int, array{de: string, en: string}> */
-	public const NAME = [];
+	public const NAME      = [];
+	public const CSS_CLASS = '';
 
 	public readonly int $id;
 	public readonly SkillLang $lang;
@@ -40,13 +42,23 @@ abstract class DataObjectAbstract{
 		$this->lang = $lang;
 	}
 
-	public function getName(string|null $lang = null):string{
+	protected function getLang(SkillLang|string|null $lang):SkillLang{
 
-		if($lang !== null){
-			$lang = new SkillLang($lang);
+		if($lang === null){
+			return $this->lang;
 		}
 
-		return static::NAME[$this->id][($lang->id ?? $this->lang->id)];
+		if($lang instanceof SkillLang){
+			return $lang;
+		}
+
+		return new SkillLang($lang);
+	}
+
+	public function getName(SkillLang|string|null $lang = null):string{
+		$lang = $this->getLang($lang);
+
+		return static::NAME[$this->id][$lang->id];
 	}
 
 	public function is(int $id):bool{
@@ -56,6 +68,12 @@ abstract class DataObjectAbstract{
 	/** @param int[] $ids */
 	public function in(array $ids):bool{
 		return in_array($this->id, $ids, true);
+	}
+
+	public function toHTML(SkillLang|string|null $lang = null):string{
+		$lang = $this->getLang($lang);
+
+		return sprintf('<span class="%s">%s</span>', static::CSS_CLASS, $this->getName($lang));
 	}
 
 }

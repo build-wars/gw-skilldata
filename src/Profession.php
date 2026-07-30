@@ -13,10 +13,15 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
+use function sprintf;
+use function strtolower;
+
 /**
  * Encapsulates all profession related static data
  */
 final class Profession extends DataObjectAbstract{
+
+	public const CSS_CLASS = 'profession';
 
 	public const NONE         = 0;
 	public const WARRIOR      = 1;
@@ -74,8 +79,10 @@ final class Profession extends DataObjectAbstract{
 		self::DERVISH      => Attribute::MYSTICISM,
 	];
 
-	public function getAbbr():string{
-		return self::NAME_ABBR[$this->id][$this->lang->id];
+	public function getAbbr(SkillLang|string|null $lang = null):string{
+		$lang = $this->getLang($lang);
+
+		return self::NAME_ABBR[$this->id][$lang->id];
 	}
 
 	public function getPrimaryAttribute(int $level = 0):Attribute{
@@ -84,6 +91,17 @@ final class Profession extends DataObjectAbstract{
 
 	public function getPrimaryAttributeID():int{
 		return self::PRIMARY_ATTRIBUTE[$this->id];
+	}
+
+	public function toHTML(SkillLang|string|null $lang = null, bool $short = false):string{
+		$lang = $this->getLang($lang);
+		$name = $this->getName($lang);
+
+		if($short){
+			$name = $this->getAbbr($lang);
+		}
+
+		return sprintf('<span class="%s %s">%s</span>', self::CSS_CLASS, strtolower($this->getName(SkillLang::EN)), $name);
 	}
 
 }
