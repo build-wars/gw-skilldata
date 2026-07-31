@@ -245,12 +245,24 @@ final class Attribute extends DataObjectAbstract{
 		self::TITLE_NORN          => 10,
 	];
 
-	public readonly int $level;
+	protected int $level = 0;
 
-	public function __construct(int $id, SkillLang|string $lang = SkillLang::EN, int $level = 0){
-		parent::__construct($id, $lang);
+	public function setLevel(int $level):self{
+		$this->level = $this->clamp($level);
+
+		return $this;
+	}
+
+	public function addLevel(int $level):self{
+		$level += $this->level;
 
 		$this->level = $this->clamp($level);
+
+		return $this;
+	}
+
+	public function getLevel():int{
+		return $this->level;
 	}
 
 	public function getProfession():Profession{

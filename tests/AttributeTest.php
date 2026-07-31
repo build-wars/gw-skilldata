@@ -153,7 +153,10 @@ final class AttributeTest extends TestCase{
 	#[DataProvider('progressionValueProvider')]
 	public function getProgressionValue(int $attribute, int $val0, int $val15, array $expected):void{
 		foreach($expected as $level => $expectedValue){
-			$value = (new Attribute(id: $attribute, level: $level))->getProgressionValue($val0, $val15);
+			$value = (new Attribute($attribute))
+				->setLevel($level)
+				->getProgressionValue($val0, $val15)
+			;
 
 			$this::assertSame($expectedValue, $value);
 
