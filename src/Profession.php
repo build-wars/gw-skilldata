@@ -86,7 +86,7 @@ final class Profession extends DataObjectAbstract{
 	}
 
 	public function getPrimaryAttribute(int $level = 0):Attribute{
-		return new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang->id, $level);
+		return (new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang->id))->setLevel($level);
 	}
 
 	public function getPrimaryAttributeID():int{
