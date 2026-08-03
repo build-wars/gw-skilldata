@@ -155,7 +155,7 @@ final class PawnedBuilder extends Builder{
 
 	protected const INI_DE = <<<ini_de
 [Menu]
-Name="Deutsch ({MODE}{TYPE}, buildwars)"
+Name="Deutsch ({MODE}, {TYPE}, buildwars)"
 Hint="Daten von GuildWiki und GWW, erstellt von smiley, github.com/build-wars"
 [Update]
 Provider="buildwars"
@@ -176,7 +176,7 @@ ini_de;
 
 	protected const INI_EN = <<<ini_en
 [Menu]
-Name="Englisch ({MODE}{TYPE}, buildwars)"
+Name="Englisch ({MODE}, {TYPE}, buildwars)"
 Hint="Data from GuildWiki and GWW, by smiley, github.com/build-wars"
 [Update]
 Provider="buildwars"
@@ -425,7 +425,7 @@ ini_en;
 
 		$ini = strtr(self::ini_body[$lang], [
 			'{MODE}'        => $mode,
-			'{TYPE}'        => $concise ? ', concise' : '',
+			'{TYPE}'        => $concise ? 'concise' : 'full',
 			'{DATE}'        => date('YmdHi'),
 			'{HASH}'        => $hash,
 			'{FILE_URL}'    => sprintf('%s/pawned/%s', self::REPO_URL, $filename),
