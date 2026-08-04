@@ -14,7 +14,7 @@ namespace Buildwars\GWSkillDataTools\Builder;
 use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skilltype;
 use chillerlan\Utilities\File;
 use RuntimeException;
@@ -54,13 +54,13 @@ final class PawnedBuilder extends Builder{
 	// the paw-ned skill databases for each language. more to come... probably never.
 	protected const PWND_CSV = [
 		Skill::MODE_PVE => [
-			SkillLang::DE => PAWNED_DATA_DIR.'/de_classic_pve.csv',
-			SkillLang::EN => PAWNED_DATA_DIR.'/en_classic_pve.csv',
+			Lang::DE      => PAWNED_DATA_DIR.'/de_classic_pve.csv',
+			Lang::EN      => PAWNED_DATA_DIR.'/en_classic_pve.csv',
 			self::LANG_EN => PAWNED_DATA_DIR.'/en2_classic_pve.csv',
 		],
 		Skill::MODE_PVP => [
-			SkillLang::DE => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
-			SkillLang::EN => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
+			Lang::DE      => PAWNED_DATA_DIR.'/de_classic_pvp.csv',
+			Lang::EN      => PAWNED_DATA_DIR.'/en_classic_pvp.csv',
 			self::LANG_EN => PAWNED_DATA_DIR.'/en2_classic_pvp.csv',
 		],
 	];
@@ -197,8 +197,8 @@ Lang=EN
 ini_en;
 
 	protected const ini_body = [
-		SkillLang::DE => self::INI_DE,
-		SkillLang::EN => self::INI_EN,
+		Lang::DE      => self::INI_DE,
+		Lang::EN      => self::INI_EN,
 		self::LANG_EN => self::INI_EN,
 	];
 
@@ -310,16 +310,16 @@ ini_en;
 		$empty_fields = ['name2' => '', 'empty1' => 0, 'empty2' => 0, 'empty3' => ''];
 
 		// now create the CSV
-		foreach([SkillLang::DE, SkillLang::EN, self::LANG_EN] as $lang){
+		foreach([Lang::DE, Lang::EN, self::LANG_EN] as $lang){
 
 			$lang2 = match($lang){
-				SkillLang::DE, self::LANG_EN => SkillLang::EN,
-				SkillLang::EN                => SkillLang::DE,
+				Lang::DE, self::LANG_EN => Lang::EN,
+				Lang::EN                => Lang::DE,
 			};
 
 			$dblang = match($lang){
-				SkillLang::DE                => SkillLang::DE,
-				SkillLang::EN, self::LANG_EN => SkillLang::EN,
+				Lang::DE                => Lang::DE,
+				Lang::EN, self::LANG_EN => Lang::EN,
 			};
 
 			foreach([Skill::MODE_PVE, Skill::MODE_PVP] as $mode){

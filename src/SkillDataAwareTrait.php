@@ -24,16 +24,16 @@ trait SkillDataAwareTrait{
 	 * @var array<string, string>
 	 */
 	private array $LANGUAGES = [
-		SkillLang::DE => SkillLangGerman::class,
-		SkillLang::EN => SkillLangEnglish::class,
+		Lang::DE => SkillLangGerman::class,
+		Lang::EN => SkillLangEnglish::class,
 	];
 
 	protected SkillDataInterface $skillData;
 
-	public function setSkillDataLanguage(SkillLang|string $lang):static{
+	public function setSkillDataLanguage(Lang|string $lang):static{
 
-		if(!$lang instanceof SkillLang){
-			$lang = new SkillLang($lang);
+		if(!$lang instanceof Lang){
+			$lang = new Lang($lang);
 		}
 
 		$this->skillData = new ($this->LANGUAGES[$lang->id]);

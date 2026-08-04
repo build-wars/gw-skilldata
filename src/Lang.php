@@ -1,6 +1,6 @@
 <?php
 /**
- * Class SkillDataLang
+ * Class Lang
  *
  * @created      24.07.2026
  * @author       smiley <smiley@chillerlan.net>
@@ -19,7 +19,7 @@ use function trim;
 /**
  * Encapsulates the available skill data languages
  */
-final class SkillLang{
+final class Lang{
 
 	public const DE = 'de';
 	public const EN = 'en';

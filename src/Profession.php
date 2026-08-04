@@ -36,32 +36,32 @@ final class Profession extends DataObjectAbstract{
 	public const DERVISH      = 10;
 
 	public const NAME = [
-		self::NONE         => [SkillLang::DE => 'keine',           SkillLang::EN => 'none',        ],
-		self::WARRIOR      => [SkillLang::DE => 'Krieger',         SkillLang::EN => 'Warrior',     ],
-		self::RANGER       => [SkillLang::DE => 'Waldläufer',      SkillLang::EN => 'Ranger',      ],
-		self::MONK         => [SkillLang::DE => 'Mönch',           SkillLang::EN => 'Monk',        ],
-		self::NECROMANCER  => [SkillLang::DE => 'Nekromant',       SkillLang::EN => 'Necromancer', ],
-		self::MESMER       => [SkillLang::DE => 'Mesmer',          SkillLang::EN => 'Mesmer',      ],
-		self::ELEMENTALIST => [SkillLang::DE => 'Elementarmagier', SkillLang::EN => 'Elementalist',],
-		self::ASSASSIN     => [SkillLang::DE => 'Assassine',       SkillLang::EN => 'Assassin',    ],
-		self::RITUALIST    => [SkillLang::DE => 'Ritualist',       SkillLang::EN => 'Ritualist',   ],
-		self::PARAGON      => [SkillLang::DE => 'Paragon',         SkillLang::EN => 'Paragon',     ],
-		self::DERVISH      => [SkillLang::DE => 'Derwisch',        SkillLang::EN => 'Dervish',     ],
+		self::NONE         => [Lang::DE => 'keine',           Lang::EN => 'none',        ],
+		self::WARRIOR      => [Lang::DE => 'Krieger',         Lang::EN => 'Warrior',     ],
+		self::RANGER       => [Lang::DE => 'Waldläufer',      Lang::EN => 'Ranger',      ],
+		self::MONK         => [Lang::DE => 'Mönch',           Lang::EN => 'Monk',        ],
+		self::NECROMANCER  => [Lang::DE => 'Nekromant',       Lang::EN => 'Necromancer', ],
+		self::MESMER       => [Lang::DE => 'Mesmer',          Lang::EN => 'Mesmer',      ],
+		self::ELEMENTALIST => [Lang::DE => 'Elementarmagier', Lang::EN => 'Elementalist',],
+		self::ASSASSIN     => [Lang::DE => 'Assassine',       Lang::EN => 'Assassin',    ],
+		self::RITUALIST    => [Lang::DE => 'Ritualist',       Lang::EN => 'Ritualist',   ],
+		self::PARAGON      => [Lang::DE => 'Paragon',         Lang::EN => 'Paragon',     ],
+		self::DERVISH      => [Lang::DE => 'Derwisch',        Lang::EN => 'Dervish',     ],
 	];
 
 	/** @var array<int, array{de: string, en: string}> */
 	public const NAME_ABBR = [
-		self::NONE         => [SkillLang::DE => 'X',  SkillLang::EN => 'X', ],
-		self::WARRIOR      => [SkillLang::DE => 'K',  SkillLang::EN => 'W', ],
-		self::RANGER       => [SkillLang::DE => 'W',  SkillLang::EN => 'R', ],
-		self::MONK         => [SkillLang::DE => 'Mö', SkillLang::EN => 'Mo',],
-		self::NECROMANCER  => [SkillLang::DE => 'N',  SkillLang::EN => 'N', ],
-		self::MESMER       => [SkillLang::DE => 'Me', SkillLang::EN => 'Me',],
-		self::ELEMENTALIST => [SkillLang::DE => 'E',  SkillLang::EN => 'E', ],
-		self::ASSASSIN     => [SkillLang::DE => 'A',  SkillLang::EN => 'A', ],
-		self::RITUALIST    => [SkillLang::DE => 'R',  SkillLang::EN => 'Rt',],
-		self::PARAGON      => [SkillLang::DE => 'P',  SkillLang::EN => 'P', ],
-		self::DERVISH      => [SkillLang::DE => 'D',  SkillLang::EN => 'D', ],
+		self::NONE         => [Lang::DE => 'X',  Lang::EN => 'X', ],
+		self::WARRIOR      => [Lang::DE => 'K',  Lang::EN => 'W', ],
+		self::RANGER       => [Lang::DE => 'W',  Lang::EN => 'R', ],
+		self::MONK         => [Lang::DE => 'Mö', Lang::EN => 'Mo',],
+		self::NECROMANCER  => [Lang::DE => 'N',  Lang::EN => 'N', ],
+		self::MESMER       => [Lang::DE => 'Me', Lang::EN => 'Me',],
+		self::ELEMENTALIST => [Lang::DE => 'E',  Lang::EN => 'E', ],
+		self::ASSASSIN     => [Lang::DE => 'A',  Lang::EN => 'A', ],
+		self::RITUALIST    => [Lang::DE => 'R',  Lang::EN => 'Rt',],
+		self::PARAGON      => [Lang::DE => 'P',  Lang::EN => 'P', ],
+		self::DERVISH      => [Lang::DE => 'D',  Lang::EN => 'D', ],
 	];
 
 	/** @var array<int, int> */
@@ -79,7 +79,7 @@ final class Profession extends DataObjectAbstract{
 		self::DERVISH      => Attribute::MYSTICISM,
 	];
 
-	public function getAbbr(SkillLang|string|null $lang = null):string{
+	public function getAbbr(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
 		return self::NAME_ABBR[$this->id][$lang->id];
@@ -97,7 +97,7 @@ final class Profession extends DataObjectAbstract{
 		return Attribute::getByProfession($this);
 	}
 
-	public function toHTML(SkillLang|string|null $lang = null, bool $short = false):string{
+	public function toHTML(Lang|string|null $lang = null, bool $short = false):string{
 		$lang = $this->getLang($lang);
 		$name = $this->getName($lang);
 
@@ -105,7 +105,7 @@ final class Profession extends DataObjectAbstract{
 			$name = $this->getAbbr($lang);
 		}
 
-		return sprintf('<span class="%s %s">%s</span>', self::CSS_CLASS, strtolower($this->getName(SkillLang::EN)), $name);
+		return sprintf('<span class="%s %s">%s</span>', self::CSS_CLASS, strtolower($this->getName(Lang::EN)), $name);
 	}
 
 }

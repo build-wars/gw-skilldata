@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 final class SkillLangEnglish extends SkillData{
-public const LANG = SkillLang::EN;
+public const LANG = Lang::EN;
 public const ID2DESC = [
 0=>['No Skill','Empty skill slot','Empty slot'],
 1=>['Healing Signet','You gain 82...172 Health. You have -40 armor while using this skill.','You gain 82...172 Health. <gray>You have -40 armor while using this skill.</gray>'],

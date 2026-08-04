@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -32,7 +32,7 @@ use function trim;
  */
 final class WikiFetcherGerman extends WikiFetcherAbstract{
 
-	protected const LANG          = SkillLang::DE;
+	protected const LANG          = Lang::DE;
 	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';
 	protected const CACHEDIR      = BUILDDIR.'/guildwiki';
 	protected const INFOBOX_NAME  = 'infobox fertigkeit';

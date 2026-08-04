@@ -48,98 +48,29 @@ final class Skill{
 	public const DESC_CONCISE            = 'concise';
 
 	public const FIELD_NAMES = [
-		self::MODE_PVE                => [
-			SkillLang::DE => 'Rollenspiel',
-			SkillLang::EN => 'Roleplay',
-		],
-		self::MODE_PVP                => [
-			SkillLang::DE => 'Spieler gegen Spieler',
-			SkillLang::EN => 'Player versus Player',
-		],
-		self::DATA_ATTRIBUTE          => [
-			SkillLang::DE => 'Attribut',
-			SkillLang::EN => 'Attribute',
-		],
-		self::DATA_CAMPAIGN           => [
-			SkillLang::DE => 'Kampagne',
-			SkillLang::EN => 'Campaign',
-		],
-		self::DATA_PROFESSION         => [
-			SkillLang::DE => 'Klasse',
-			SkillLang::EN => 'Profession',
-		],
-		self::DATA_TYPE               => [
-			SkillLang::DE => 'Fertigkeitstyp',
-			SkillLang::EN => 'Skill type',
-		],
-		self::DATA_IS_ELITE           => [
-			SkillLang::DE => 'ist Elite',
-			SkillLang::EN => 'is Elite',
-		],
-		self::DATA_IS_PVP             => [
-			SkillLang::DE => 'ist PvP',
-			SkillLang::EN => 'is PvP',
-		],
-		self::DATA_IS_RP              => [
-			SkillLang::DE => 'ist Rollenspiel',
-			SkillLang::EN => 'is Roleplay',
-		],
-		self::DATA_PVP_SPLIT          => [
-			SkillLang::DE => 'hat PvP-Version',
-			SkillLang::EN => 'has PvP version',
-		],
-		self::DATA_ID                 => [
-			SkillLang::DE => 'Fertigkeits-ID',
-			SkillLang::EN => 'Skill ID',
-		],
-		self::DATA_SPLIT_ID           => [
-			SkillLang::DE => 'PvP ID',
-			SkillLang::EN => 'PvP ID',
-		],
-		self::DATA_ACTIVATION         => [
-			SkillLang::DE => 'Aktivierungszeit',
-			SkillLang::EN => 'Activation time',
-		],
-		self::DATA_RECHARGE           => [
-			SkillLang::DE => 'Wiederaufladezeit',
-			SkillLang::EN => 'Recharge time',
-		],
-		self::DATA_ENERGY             => [
-			SkillLang::DE => 'Energiekosten',
-			SkillLang::EN => 'Energy cost',
-		],
-		self::DATA_UPKEEP             => [
-			SkillLang::DE => 'Unterhaltskosten',
-			SkillLang::EN => 'Upkeep cost',
-		],
-		self::DATA_ADRENALINE         => [
-			SkillLang::DE => 'Adernalinkosten',
-			SkillLang::EN => 'Adernaline cost',
-		],
-		self::DATA_ADRENALINE_PRECISE => [
-			SkillLang::DE => 'Adernalinkosten (präzise)',
-			SkillLang::EN => 'Adernaline cost (precise)',
-		],
-		self::DATA_SACRIFICE          => [
-			SkillLang::DE => 'Opferkosten',
-			SkillLang::EN => 'Sacrifice cost',
-		],
-		self::DATA_EXHAUSTION         => [
-			SkillLang::DE => 'Überzaubert',
-			SkillLang::EN => 'Overcast',
-		],
-		self::DESC_NAME               => [
-			SkillLang::DE => 'Fertigkeitsname',
-			SkillLang::EN => 'Skill name',
-		],
-		self::DESC_DESCRIPTION        => [
-			SkillLang::DE => 'Fertigkeitsbeschreibung',
-			SkillLang::EN => 'Skill description',
-		],
-		self::DESC_CONCISE            => [
-			SkillLang::DE => 'Kurzbeschreibung',
-			SkillLang::EN => 'Concise description',
-		],
+		self::MODE_PVE                => [Lang::DE => 'Rollenspiel',               Lang::EN => 'Roleplay',                 ],
+		self::MODE_PVP                => [Lang::DE => 'Spieler gegen Spieler',     Lang::EN => 'Player versus Player',     ],
+		self::DATA_ATTRIBUTE          => [Lang::DE => 'Attribut',                  Lang::EN => 'Attribute',                ],
+		self::DATA_CAMPAIGN           => [Lang::DE => 'Kampagne',                  Lang::EN => 'Campaign',                 ],
+		self::DATA_PROFESSION         => [Lang::DE => 'Klasse',                    Lang::EN => 'Profession',               ],
+		self::DATA_TYPE               => [Lang::DE => 'Fertigkeitstyp',            Lang::EN => 'Skill type',               ],
+		self::DATA_IS_ELITE           => [Lang::DE => 'ist Elite',                 Lang::EN => 'is Elite',                 ],
+		self::DATA_IS_PVP             => [Lang::DE => 'ist PvP',                   Lang::EN => 'is PvP',                   ],
+		self::DATA_IS_RP              => [Lang::DE => 'ist Rollenspiel',           Lang::EN => 'is Roleplay',              ],
+		self::DATA_PVP_SPLIT          => [Lang::DE => 'hat PvP-Version',           Lang::EN => 'has PvP version',          ],
+		self::DATA_ID                 => [Lang::DE => 'Fertigkeits-ID',            Lang::EN => 'Skill ID',                 ],
+		self::DATA_SPLIT_ID           => [Lang::DE => 'PvP ID',                    Lang::EN => 'PvP ID',                   ],
+		self::DATA_ACTIVATION         => [Lang::DE => 'Aktivierungszeit',          Lang::EN => 'Activation time',          ],
+		self::DATA_RECHARGE           => [Lang::DE => 'Wiederaufladezeit',         Lang::EN => 'Recharge time',            ],
+		self::DATA_ENERGY             => [Lang::DE => 'Energiekosten',             Lang::EN => 'Energy cost',              ],
+		self::DATA_UPKEEP             => [Lang::DE => 'Unterhaltskosten',          Lang::EN => 'Upkeep cost',              ],
+		self::DATA_ADRENALINE         => [Lang::DE => 'Adernalinkosten',           Lang::EN => 'Adernaline cost',          ],
+		self::DATA_ADRENALINE_PRECISE => [Lang::DE => 'Adernalinkosten (präzise)', Lang::EN => 'Adernaline cost (precise)',],
+		self::DATA_SACRIFICE          => [Lang::DE => 'Opferkosten',               Lang::EN => 'Sacrifice cost',           ],
+		self::DATA_EXHAUSTION         => [Lang::DE => 'Überzaubert',               Lang::EN => 'Overcast',                 ],
+		self::DESC_NAME               => [Lang::DE => 'Fertigkeitsname',           Lang::EN => 'Skill name',               ],
+		self::DESC_DESCRIPTION        => [Lang::DE => 'Fertigkeitsbeschreibung',   Lang::EN => 'Skill description',        ],
+		self::DESC_CONCISE            => [Lang::DE => 'Kurzbeschreibung',          Lang::EN => 'Concise description',      ],
 	];
 
 	private const DataObjects = [
@@ -149,7 +80,7 @@ final class Skill{
 		self::DATA_TYPE       => Skilltype::class,
 	];
 
-	public readonly SkillLang  $lang;
+	public readonly Lang $lang;
 
 	public readonly Attribute  $attribute;
 	public readonly Campaign   $campaign;
@@ -174,10 +105,10 @@ final class Skill{
 	public readonly string     $description;
 	public readonly string     $concise;
 
-	public function __construct(array $skilldata, SkillLang|string $lang){
+	public function __construct(array $skilldata, Lang|string $lang){
 
-		if(!$lang instanceof SkillLang){
-			$lang = new SkillLang($lang);
+		if(!$lang instanceof Lang){
+			$lang = new Lang($lang);
 		}
 
 		$this->lang = $lang;
@@ -210,14 +141,14 @@ final class Skill{
 		return $data;
 	}
 
-	public function getFieldName(string $field, SkillLang|string $lang = SkillLang::EN):string{
+	public function getFieldName(string $field, Lang|string $lang = Lang::EN):string{
 
 		if(!array_key_exists($field, self::FIELD_NAMES)){
 			throw new InvalidArgumentException('invalid field name given');
 		}
 
-		if(!$lang instanceof SkillLang){
-			$lang = new SkillLang($lang);
+		if(!$lang instanceof Lang){
+			$lang = new Lang($lang);
 		}
 
 		return self::FIELD_NAMES[$field][$lang->id];

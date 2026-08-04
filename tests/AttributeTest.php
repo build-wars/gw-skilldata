@@ -13,7 +13,7 @@ namespace Buildwars\GWSkillDataTest;
 
 use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Profession;
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -43,7 +43,7 @@ final class AttributeTest extends TestCase{
 		$attr = new Attribute(Attribute::FAST_CASTING);
 
 		$this::assertSame('Fast Casting', $attr->getName());
-		$this::assertSame('Schnellwirkung', $attr->getName(SkillLang::DE));
+		$this::assertSame('Schnellwirkung', $attr->getName(Lang::DE));
 	}
 
 	#[Test]

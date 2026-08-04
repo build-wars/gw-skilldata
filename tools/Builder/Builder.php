@@ -18,7 +18,7 @@ use Buildwars\GWSkillData\Campaign;
 use Buildwars\GWSkillData\Profession;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\SkillLangEnglish;
 use Buildwars\GWSkillData\SkillLangGerman;
 use Buildwars\GWSkillData\Skilltype;
@@ -73,20 +73,20 @@ class Builder{
 
 	/** @var array<string, string>  */
 	protected const JSON_LANG_FILES = [
-		SkillLang::DE => DATA_DIR.'/json-full/skilldesc-de.json',
-		SkillLang::EN => DATA_DIR.'/json-full/skilldesc-en.json',
+		Lang::DE => DATA_DIR.'/json-full/skilldesc-de.json',
+		Lang::EN => DATA_DIR.'/json-full/skilldesc-en.json',
 	];
 
 	/** @var array<string, string>  */
 	public const DATABASES = [
-		SkillLang::DE => SkillLangGerman::class,
-		SkillLang::EN => SkillLangEnglish::class,
+		Lang::DE => SkillLangGerman::class,
+		Lang::EN => SkillLangEnglish::class,
 	];
 
 	/** @var array<string, string>  */
 	protected const WIKIFETCHERS = [
-		SkillLang::DE => WikiFetcherGerman::class,
-		SkillLang::EN => WikiFetcherEnglish::class,
+		Lang::DE => WikiFetcherGerman::class,
+		Lang::EN => WikiFetcherEnglish::class,
 	];
 
 	protected readonly SettingsContainerInterface|BuilderOptions $options;
@@ -168,10 +168,10 @@ class Builder{
 	 *
 	 * needs to be run before `create()`
 	 */
-	public function addSkillLang(int $id, SkillLang|string $lang, string $name):static{
+	public function addSkillLang(int $id, Lang|string $lang, string $name):static{
 
-		if(!$lang instanceof SkillLang){
-			$lang = new SkillLang($lang);
+		if(!$lang instanceof Lang){
+			$lang = new Lang($lang);
 		}
 
 		$this->new_skilldesc[$lang->id][$id] = $this->createLangFields($id);
@@ -187,7 +187,7 @@ class Builder{
 	public function create():static{
 		// we're using the current skill database as basis
 		// create the skill data skeleton rows for all *known* skills
-		foreach($this->databases[SkillLang::EN]::ID2DATA as $id => $_){
+		foreach($this->databases[Lang::EN]::ID2DATA as $id => $_){
 			$this->skilldata[$id] = $this->createDataFields($id);
 			// add a row for existing pvp redirects
 			if(array_key_exists($id, PVP_SPLIT)){
@@ -197,14 +197,14 @@ class Builder{
 
 		// create language skeletons for the list of known IDs
 		foreach($this->skilldata as $id => $_){
-			foreach(SkillLang::IDS as $lang){
+			foreach(Lang::IDS as $lang){
 				$this->skilldesc[$lang][$id] = $this->createLangFields($id);
 			}
 		}
 
 		// now fill the skill data with the known values
 		foreach($this->skilldata as $id => &$row){
-			foreach(SkillLang::IDS as $lang){
+			foreach(Lang::IDS as $lang){
 
 				try{
 					$current = $this->databases[$lang]->get($id);
@@ -220,7 +220,7 @@ class Builder{
 				$this->skilldesc[$lang][$id][Skill::DESC_NAME] = $current->name;
 
 				// we only need to update the data once here
-				if($lang !== SkillLang::EN){
+				if($lang !== Lang::EN){
 					continue;
 				}
 
@@ -258,7 +258,7 @@ class Builder{
 		foreach($this->new_skilldata as $id => $new_row){
 			$this->skilldata[$id] = $new_row;
 
-			foreach(SkillLang::IDS as $lang){
+			foreach(Lang::IDS as $lang){
 
 				if(!array_key_exists($id, $this->new_skilldesc[$lang])){
 					throw new RuntimeException(sprintf('invalid skill descriptions for [%-4s][%s]', $id, $lang));
@@ -288,7 +288,7 @@ class Builder{
 		}
 
 		foreach($jsonData['skilldata'] as $skillID => &$skillData){
-			foreach(SkillLang::IDS as $lang){
+			foreach(Lang::IDS as $lang){
 				$desc = $jsonLang[$lang]['skilldesc'][$skillID];
 				$prof = new Profession($skillData[Skill::DATA_PROFESSION], $lang);
 
@@ -311,7 +311,7 @@ class Builder{
 
 			$this->saveJSON(sprintf('%s/%s.json', static::JSON_SKILL_DIR, $skillID), $skill);
 
-			$this->logger->info(sprintf('JSON for [%-4s] %s', $skillID, $skillData['lang'][SkillLang::EN][Skill::DESC_NAME]));
+			$this->logger->info(sprintf('JSON for [%-4s] %s', $skillID, $skillData['lang'][Lang::EN][Skill::DESC_NAME]));
 		}
 
 		$jsonData['$schema'] = static::SCHEMA_SKILLDATA_COMBINED;
@@ -446,7 +446,7 @@ class Builder{
 
 		foreach(static::JSON_LANG_FILES as $lang => $file){
 			$json     = File::loadJSON($file, true);
-			$language = (new SkillLang($lang))->getName();
+			$language = (new Lang($lang))->getName();
 
 			// unset the "id" field here
 			foreach($json['skilldesc'] as &$row){
@@ -458,7 +458,7 @@ class Builder{
 				'declare(strict_types=1);',
 				'namespace Buildwars\\GWSkillData;',
 				sprintf('final class SkillLang%s extends SkillData{', $language),
-				sprintf('public const LANG = SkillLang::%s;', strtoupper($lang)),
+				sprintf('public const LANG = Lang::%s;', strtoupper($lang)),
 				'public const ID2DESC = [',
 			];
 
@@ -570,4 +570,5 @@ class Builder{
 		// fail the CI run, manual update and review required
 		throw new RuntimeException('diff error');
 	}
+
 }

@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTest;
 
 use Buildwars\GWSkillData\Campaign;
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
@@ -25,6 +25,7 @@ final class CampaignTest extends TestCase{
 
 		$this::assertSame('Core', $campaign->getName());
 		$this::assertSame('Basis', $campaign->getName(SkillLang::DE));
+		$this::assertSame('Basis', $campaign->getName(Lang::DE));
 	}
 
 	#[Test]
@@ -32,7 +33,7 @@ final class CampaignTest extends TestCase{
 		$campaign = new Campaign(Campaign::CORE);
 
 		$this::assertSame('The Mists', $campaign->getContinentName());
-		$this::assertSame('Die Nebel', $campaign->getContinentName(SkillLang::DE));
+		$this::assertSame('Die Nebel', $campaign->getContinentName(Lang::DE));
 	}
 
 	#[Test]

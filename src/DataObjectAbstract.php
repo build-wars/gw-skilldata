@@ -25,37 +25,37 @@ abstract class DataObjectAbstract{
 	public const NAME      = [];
 	public const CSS_CLASS = '';
 
-	public readonly int $id;
-	public readonly SkillLang $lang;
+	public readonly int  $id;
+	public readonly Lang $lang;
 
-	public function __construct(int $id, SkillLang|string $lang = SkillLang::EN){
+	public function __construct(int $id, Lang|string $lang = Lang::EN){
 
 		if(!array_key_exists($id, static::NAME)){
 			throw new InvalidArgumentException('invalid ID');
 		}
 
-		if(!$lang instanceof SkillLang){
-			$lang = new SkillLang($lang);
+		if(!$lang instanceof Lang){
+			$lang = new Lang($lang);
 		}
 
 		$this->id   = $id;
 		$this->lang = $lang;
 	}
 
-	protected function getLang(SkillLang|string|null $lang):SkillLang{
+	protected function getLang(Lang|string|null $lang):Lang{
 
 		if($lang === null){
 			return $this->lang;
 		}
 
-		if($lang instanceof SkillLang){
+		if($lang instanceof Lang){
 			return $lang;
 		}
 
-		return new SkillLang($lang);
+		return new Lang($lang);
 	}
 
-	public function getName(SkillLang|string|null $lang = null):string{
+	public function getName(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
 		return static::NAME[$this->id][$lang->id];
@@ -70,7 +70,7 @@ abstract class DataObjectAbstract{
 		return in_array($this->id, $ids, true);
 	}
 
-	public function toHTML(SkillLang|string|null $lang = null):string{
+	public function toHTML(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
 		return sprintf('<span class="%s">%s</span>', static::CSS_CLASS, $this->getName($lang));

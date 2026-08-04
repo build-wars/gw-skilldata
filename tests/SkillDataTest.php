@@ -17,7 +17,7 @@ use Buildwars\GWSkillData\Profession;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 use Buildwars\GWSkillData\SkillDataInterface;
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skilltype;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
@@ -33,7 +33,7 @@ class SkillDataTest extends TestCase{
 	use SkillDataAwareTrait;
 
 	protected function setUp():void{
-		$this->setSkillDataLanguage(SkillLang::EN);
+		$this->setSkillDataLanguage(Lang::EN);
 	}
 
 	#[Test]
@@ -147,7 +147,7 @@ class SkillDataTest extends TestCase{
 	#[Test]
 	public function getFiledName():void{
 
-		foreach(SkillLang::IDS as $langID){
+		foreach(Lang::IDS as $langID){
 			$this->setSkillDataLanguage($langID);
 
 			foreach(Skill::FIELD_NAMES as $key => $lang){

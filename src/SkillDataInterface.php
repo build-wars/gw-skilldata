@@ -50,6 +50,8 @@ interface SkillDataInterface{
 
 	/**
 	 * The language abbreviation, key for the several `name` arrays
+	 *
+	 * @see \Buildwars\GWSkillData\Lang::IDS
 	 */
 	public const LANG = '';
 

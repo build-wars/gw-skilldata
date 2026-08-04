@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTest;
 
-use Buildwars\GWSkillData\SkillLang;
+use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skilltype;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
@@ -23,7 +23,7 @@ final class SkilltypeTest extends TestCase{
 		$skilltype = new Skilltype(Skilltype::SIGNET);
 
 		$this::assertSame('Signet', $skilltype->getName());
-		$this::assertSame('Siegel', $skilltype->getName(SkillLang::DE));
+		$this::assertSame('Siegel', $skilltype->getName(Lang::DE));
 	}
 
 }
