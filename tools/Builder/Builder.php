@@ -207,7 +207,7 @@ class Builder{
 			foreach(Lang::IDS as $lang){
 
 				try{
-					$current = $this->databases[$lang]->get($id);
+					$current = $this->databases[$lang]->get($id, in_array($id, PVP_SPLIT, true));
 				}
 				// the skill might be a new pvp redirect, data is added later
 				catch(InvalidArgumentException){
@@ -359,7 +359,7 @@ class Builder{
 			$skilldesc = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
 
 			foreach($skilldesc['skilldesc'] as &$desc){
-				$current = $this->databases[$lang]->get($desc[Skill::DATA_ID]);
+				$current = $this->databases[$lang]->get($desc[Skill::DATA_ID], in_array($desc[Skill::DATA_ID], PVP_SPLIT, true));
 				$data    = $this->wikiFetcher->fetch($desc[Skill::DESC_NAME], $desc[Skill::DATA_ID], $this->options->from_cache);
 
 				if($data === null){
