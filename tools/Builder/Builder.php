@@ -21,7 +21,7 @@ use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\SkillLangEnglish;
 use Buildwars\GWSkillData\SkillLangGerman;
-use Buildwars\GWSkillData\Skilltype;
+use Buildwars\GWSkillData\Type;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherAbstract;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherEnglish;
@@ -300,7 +300,7 @@ class Builder{
 					Skill::DATA_PROFESSION  => $prof->getName(),
 					'profession_abbr'       => $prof->getAbbr(),
 					Skill::DATA_ATTRIBUTE   => (new Attribute($skillData[Skill::DATA_ATTRIBUTE], $lang))->getName(),
-					Skill::DATA_TYPE        => (new Skilltype($skillData[Skill::DATA_TYPE], $lang))->getName(),
+					Skill::DATA_TYPE        => (new Type($skillData[Skill::DATA_TYPE], $lang))->getName(),
 				];
 			}
 

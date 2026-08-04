@@ -77,7 +77,7 @@ final class Skill{
 		self::DATA_ATTRIBUTE  => Attribute::class,
 		self::DATA_CAMPAIGN   => Campaign::class,
 		self::DATA_PROFESSION => Profession::class,
-		self::DATA_TYPE       => Skilltype::class,
+		self::DATA_TYPE       => Type::class,
 	];
 
 	public readonly Lang $lang;
@@ -85,7 +85,7 @@ final class Skill{
 	public readonly Attribute  $attribute;
 	public readonly Campaign   $campaign;
 	public readonly Profession $profession;
-	public readonly Skilltype  $type;
+	public readonly Type       $type;
 	public readonly bool       $is_elite;
 	public readonly bool       $is_pvp;
 	public readonly bool       $is_rp;

@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Skilltype
+ * Class Type
  *
  * @created      28.06.2026
  * @author       smiley <smiley@chillerlan.net>
@@ -17,7 +17,7 @@ use const SORT_NUMERIC;
 /**
  * Encapsulates all skill type related static data
  */
-final class Skilltype extends DataObjectAbstract{
+final class Type extends DataObjectAbstract{
 
 	public const CSS_CLASS = 'skilltype';
 

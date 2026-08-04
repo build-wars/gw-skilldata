@@ -15,7 +15,7 @@ use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Lang;
-use Buildwars\GWSkillData\Skilltype;
+use Buildwars\GWSkillData\Type;
 use chillerlan\Utilities\File;
 use RuntimeException;
 use function array_combine;
@@ -145,12 +145,12 @@ final class PawnedBuilder extends Builder{
 	];
 
 	protected const TYPE_MAP = [
-		Skilltype::DOUBLE_ENCHANTMENT      => Skilltype::ENCHANTMENT_SPELL,
-		Skilltype::TOUCH_SKILL             => Skilltype::SKILL,
-		Skilltype::TOUCH_SPELL             => Skilltype::SPELL,
-		Skilltype::TOUCH_ENCHANTMENT_SPELL => Skilltype::ENCHANTMENT_SPELL,
-		Skilltype::TOUCH_HEX_SPELL         => Skilltype::HEX_SPELL,
-		Skilltype::TOUCH_SIGNET            => Skilltype::SIGNET,
+		Type::DOUBLE_ENCHANTMENT      => Type::ENCHANTMENT_SPELL,
+		Type::TOUCH_SKILL             => Type::SKILL,
+		Type::TOUCH_SPELL             => Type::SPELL,
+		Type::TOUCH_ENCHANTMENT_SPELL => Type::ENCHANTMENT_SPELL,
+		Type::TOUCH_HEX_SPELL         => Type::HEX_SPELL,
+		Type::TOUCH_SIGNET            => Type::SIGNET,
 	];
 
 	protected const INI_DE = <<<ini_de
