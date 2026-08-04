@@ -20,12 +20,51 @@ use PHPUnit\Framework\TestCase;
 final class ProfessionTest extends TestCase{
 
 	#[Test]
+	public function constructInvalidIdException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid ID');
+		/** @phan-suppress-next-line PhanNoopNew */
+		new Profession(666);
+	}
+
+	#[Test]
+	public function constructInvalidLanguageException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid language');
+		/** @phan-suppress-next-line PhanNoopNew */
+		new Profession(Profession::ELEMENTALIST, 'foo');
+	}
+
+	#[Test]
 	public function getName():void{
 		$profession = new Profession(Profession::ELEMENTALIST);
 
 		$this::assertSame('Elementalist', $profession->getName());
-		$this::assertSame('Elementarmagier', $profession->getName(SkillLang::DE));
 		$this::assertSame('Elementarmagier', $profession->getName(Lang::DE));
+	}
+
+	#[Test]
+	public function getNameInvalidLanguageException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid language');
+
+		(new Profession(Profession::ELEMENTALIST))->getName('foo');
+	}
+
+	#[Test]
+	public function getAbbr():void{
+		$profession = new Profession(Profession::ELEMENTALIST);
+
+		$this::assertSame('E', $profession->getAbbr());
+		$this::assertSame('E', $profession->getAbbr(Lang::DE));
+	}
+
+	#[Test]
+	public function getAbbrInvalidLanguageException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid language');
+
+		(new Profession(Profession::ELEMENTALIST))->getAbbr('foo');
 	}
 
 }

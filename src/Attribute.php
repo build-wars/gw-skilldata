@@ -254,11 +254,7 @@ final class Attribute extends DataObjectAbstract{
 	}
 
 	public function addLevel(int $level):self{
-		$level += $this->level;
-
-		$this->level = $this->clamp($level);
-
-		return $this;
+		return $this->setLevel(($this->level + $level));
 	}
 
 	public function getLevel():int{

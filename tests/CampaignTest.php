@@ -20,12 +20,35 @@ use PHPUnit\Framework\TestCase;
 final class CampaignTest extends TestCase{
 
 	#[Test]
+	public function constructInvalidIdException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid ID');
+		/** @phan-suppress-next-line PhanNoopNew */
+		new Campaign(666);
+	}
+
+	#[Test]
+	public function constructInvalidLanguageException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid language');
+		/** @phan-suppress-next-line PhanNoopNew */
+		new Campaign(Campaign::CORE, 'foo');
+	}
+
+	#[Test]
 	public function getName():void{
 		$campaign = new Campaign(Campaign::CORE);
 
 		$this::assertSame('Core', $campaign->getName());
-		$this::assertSame('Basis', $campaign->getName(SkillLang::DE));
 		$this::assertSame('Basis', $campaign->getName(Lang::DE));
+	}
+
+	#[Test]
+	public function getNameInvalidLanguageException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessage('invalid language');
+
+		(new Campaign(Campaign::CORE))->getName('foo');
 	}
 
 	#[Test]
