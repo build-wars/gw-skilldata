@@ -262,7 +262,7 @@ final class Attribute extends DataObjectAbstract{
 	}
 
 	public function getProfession():Profession{
-		return new Profession(self::PROFESSION[$this->id], $this->lang->id);
+		return new Profession(self::PROFESSION[$this->id], $this->lang);
 	}
 
 	public function getProfessionID():int{

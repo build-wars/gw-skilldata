@@ -105,7 +105,7 @@ final class Skill{
 	public readonly string     $description;
 	public readonly string     $concise;
 
-	public function __construct(array $skilldata, Lang|string $lang){
+	public function __construct(array $skilldata, Lang|string $lang = Lang::EN){
 
 		if(!$lang instanceof Lang){
 			$lang = new Lang($lang);
