@@ -20,7 +20,6 @@ use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\Type;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
-use function var_dump;
 
 final class SkillTest extends TestCase{
 
