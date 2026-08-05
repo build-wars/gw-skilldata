@@ -1,5 +1,1207 @@
 'use strict';
 
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Encapsulates the available skill data languages
+ *
+ * @final
+ */
+class Lang{
+
+	static get DE(){return 'de'}
+	static get EN(){return 'en'}
+
+	/** @returns {string[]} */
+	static get IDS(){
+		return [
+			Lang.DE,
+			Lang.EN,
+		];
+	}
+
+	/** @returns {{de: string, en: string}} */
+	static get NAMES(){
+		return {
+			de: 'German',
+			en: 'English',
+		};
+	}
+
+	/** @var {string} */
+	#id;
+
+	/** @param {string} $id */
+	constructor($id = Lang.EN){
+		$id = $id.trim().toLowerCase();
+
+		if(!Lang.IDS.includes($id)){
+			throw new Error('invalid language');
+		}
+
+		this.#id = $id;
+	}
+
+	/** @returns {string} */
+	get id(){
+		return this.#id;
+	}
+
+	/** @returns {string} */
+	getName(){
+		return Lang.NAMES[this.#id];
+	}
+
+}
+
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Abstract parent to the Attribute, Campaign, Profession and Skilltype classes
+ *
+ * @abstract
+ */
+class DataObjectAbstract{
+
+	/** @var {number|int} */
+	#id;
+	/** @var {Lang} */
+	#lang;
+
+	/**
+	 * @param {number|int} $id
+	 * @param {Lang|string} $lang
+	 */
+	constructor($id, $lang = Lang.EN){
+
+		if(!this.constructor.IDS.includes($id)){
+			throw new Error('invalid ID');
+		}
+
+		if(!($lang instanceof Lang)){
+			$lang = new Lang($lang);
+		}
+
+		this.#id   = $id;
+		this.#lang = $lang;
+	}
+
+	/** @returns {string} */
+	static get CSS_CLASS(){
+		return '';
+	};
+
+	/**
+	 * @returns {number[]|int[]}
+	 * @codeCoverageIgnore
+	 */
+	static get IDS(){
+		return [];
+	}
+
+	/**
+	 * @returns {Object<{}>}
+	 * @codeCoverageIgnore
+	 */
+	static get NAME(){
+		return {};
+	}
+
+	/** @returns {number|int} */
+	get id(){
+		return this.#id;
+	}
+
+	/** @returns {Lang} */
+	get lang(){
+		return this.#lang;
+	}
+
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @returns {Lang}
+	 * @protected
+	 */
+	_getLang($lang){
+
+		if($lang === null){
+			return this.lang;
+		}
+
+		if($lang instanceof Lang){
+			return $lang;
+		}
+
+		return new Lang($lang);
+	}
+
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @returns {string}
+	 */
+	getName($lang = null){
+		$lang = this._getLang($lang);
+
+		return this.constructor.NAME[this.id][$lang.id];
+	}
+
+	/**
+	 * @param {number|int} $id
+	 * @returns {boolean}
+	 */
+	is($id){
+		return this.id === $id;
+	}
+
+	/**
+	 * @param {number[]|int[]} $ids
+	 * @returns {boolean}
+	 */
+	in($ids){
+		return $ids.includes(this.id);
+	}
+
+}
+
+/**
+ * @created      11.07.2022
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2022 smiley
+ * @license      MIT
+ */
+
+class PHPJS{
+
+	/**
+	 * @link  http://locutus.io/php/var/intval/
+	 *
+	 * @param {*} $var
+	 * @param {number|int|null} $base
+	 * @returns {number|int}
+	 */
+	static intval($var, $base = null){
+		let tmp;
+		let type = typeof($var);
+
+		if(type === 'boolean'){
+			return +$var;
+		}
+
+		if(type === 'string'){
+			tmp = parseInt($var, $base || 10);
+
+			return (isNaN(tmp) || !isFinite(tmp)) ? 0 : tmp;
+		}
+
+		if(type === 'number' && isFinite($var)){
+			return $var|0;
+		}
+
+		return 0;
+	}
+
+	/**
+	 * @link https://locutus.io/php/array/array_combine/
+	 *
+	 * @param {Array} keys
+	 * @param {Array} values
+	 * @returns {Object<{}>|boolean}
+	 */
+	static array_combine(keys, values){
+		let newArray = {};
+		let i = 0;
+		// input sanitation
+		if(
+			// Only accept arrays or array-like objects
+			typeof keys !== 'object'
+			|| typeof values !== 'object'
+			// Require arrays to have a count
+			|| typeof keys.length !== 'number'
+			|| typeof values.length !== 'number'
+			|| !keys.length
+			// number of elements does not match
+			|| keys.length !== values.length
+		){
+			return false;
+		}
+
+		for(i = 0; i < keys.length; i++){
+			newArray[keys[i]] = values[i];
+		}
+
+		return newArray;
+	}
+
+}
+
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Encapsulates all profession related static data
+ *
+ * @final
+ */
+class Profession extends DataObjectAbstract{
+
+	static get CSS_CLASS(){return 'profession'};
+
+	static get NONE        (){return 0}
+	static get WARRIOR     (){return 1}
+	static get RANGER      (){return 2}
+	static get MONK        (){return 3}
+	static get NECROMANCER (){return 4}
+	static get MESMER      (){return 5}
+	static get ELEMENTALIST(){return 6}
+	static get ASSASSIN    (){return 7}
+	static get RITUALIST   (){return 8}
+	static get PARAGON     (){return 9}
+	static get DERVISH     (){return 10}
+
+	/** @returns {number[]|int[]}*/
+	static get IDS(){
+		return [
+			Profession.NONE,
+			Profession.WARRIOR,
+			Profession.RANGER,
+			Profession.MONK,
+			Profession.NECROMANCER,
+			Profession.MESMER,
+			Profession.ELEMENTALIST,
+			Profession.ASSASSIN,
+			Profession.RITUALIST,
+			Profession.PARAGON,
+			Profession.DERVISH,
+		];
+	}
+
+	/** @returns {Object<{}>} */
+	static get NAME(){
+		return PHPJS.array_combine(Profession.IDS, [
+			{de: 'keine',           en: 'none',        },
+			{de: 'Krieger',         en: 'Warrior',     },
+			{de: 'Waldläufer',      en: 'Ranger',      },
+			{de: 'Mönch',           en: 'Monk',        },
+			{de: 'Nekromant',       en: 'Necromancer', },
+			{de: 'Mesmer',          en: 'Mesmer',      },
+			{de: 'Elementarmagier', en: 'Elementalist',},
+			{de: 'Assassine',       en: 'Assassin',    },
+			{de: 'Ritualist',       en: 'Ritualist',   },
+			{de: 'Paragon',         en: 'Paragon',     },
+			{de: 'Derwisch',        en: 'Dervish',     },
+		]);
+	}
+
+	/** @returns {Object<{}>} */
+	static get NAME_ABBR(){
+		return PHPJS.array_combine(Profession.IDS, [
+			{de: 'X',  en: 'X', },
+			{de: 'K',  en: 'W', },
+			{de: 'W',  en: 'R', },
+			{de: 'Mö', en: 'Mo',},
+			{de: 'N',  en: 'N', },
+			{de: 'Me', en: 'Me',},
+			{de: 'E',  en: 'E', },
+			{de: 'A',  en: 'A', },
+			{de: 'R',  en: 'Rt',},
+			{de: 'P',  en: 'P', },
+			{de: 'D',  en: 'D', },
+		]);
+	}
+
+	static get PRIMARY_ATTRIBUTE(){
+		return [
+			Attribute.NONE,
+			Attribute.STRENGTH,
+			Attribute.EXPERTISE,
+			Attribute.DIVINE_FAVOR,
+			Attribute.SOUL_REAPING,
+			Attribute.FAST_CASTING,
+			Attribute.ENERGY_STORAGE,
+			Attribute.CRITICAL_STRIKES,
+			Attribute.SPAWNING_POWER,
+			Attribute.LEADERSHIP,
+			Attribute.MYSTICISM,
+		];
+	}
+
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @returns {string}
+	 */
+	getAbbr($lang){
+		$lang = this._getLang($lang);
+
+		return this.constructor.NAME_ABBR[this.id][$lang.id];
+	}
+
+	/**
+	 * @param {number|int} $level
+	 * @returns {Attribute}
+	 */
+	getPrimaryAttribute($level = 0){
+		return new Attribute(this.getPrimaryAttributeID(), this.lang).setLevel($level);
+	}
+
+	/**
+	 * @returns {number|int}
+	 */
+	getPrimaryAttributeID(){
+		return this.constructor.PRIMARY_ATTRIBUTE[this.id];
+	}
+
+	/**
+	 * @returns {number[]|int[]}
+	 */
+	getAttributes(){
+		return Attribute.getByProfession(this);
+	}
+
+}
+
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Encapsulates all skill attribute related static data
+ *
+ * @final
+ */
+class Attribute extends DataObjectAbstract{
+	// we're using static getters here to emulate PHP class constants
+	static get CSS_CLASS(){return 'attribute'};
+
+	static get FAST_CASTING       (){return 0}
+	static get ILLUSION_MAGIC     (){return 1}
+	static get DOMINATION_MAGIC   (){return 2}
+	static get INSPIRATION_MAGIC  (){return 3}
+	static get BLOOD_MAGIC        (){return 4}
+	static get DEATH_MAGIC        (){return 5}
+	static get SOUL_REAPING       (){return 6}
+	static get CURSES             (){return 7}
+	static get AIR_MAGIC          (){return 8}
+	static get EARTH_MAGIC        (){return 9}
+	static get FIRE_MAGIC         (){return 10}
+	static get WATER_MAGIC        (){return 11}
+	static get ENERGY_STORAGE     (){return 12}
+	static get HEALING_PRAYERS    (){return 13}
+	static get SMITING_PRAYERS    (){return 14}
+	static get PROTECTION_PRAYERS (){return 15}
+	static get DIVINE_FAVOR       (){return 16}
+	static get STRENGTH           (){return 17}
+	static get AXE_MASTERY        (){return 18}
+	static get HAMMER_MASTERY     (){return 19}
+	static get SWORDMANSHIP       (){return 20}
+	static get TACTICS            (){return 21}
+	static get BEAST_MASTERY      (){return 22}
+	static get EXPERTISE          (){return 23}
+	static get WILDERNESS_SURVIVAL(){return 24}
+	static get MARKMANSHIP        (){return 25}
+	static get DAGGER_MASTERY     (){return 29}
+	static get DEADLY_ARTS        (){return 30}
+	static get SHADOW_ARTS        (){return 31}
+	static get COMMUNING          (){return 32}
+	static get RESTORATION_MAGIC  (){return 33}
+	static get CHANNELING_MAGIC   (){return 34}
+	static get CRITICAL_STRIKES   (){return 35}
+	static get SPAWNING_POWER     (){return 36}
+	static get SPEAR_MASTERY      (){return 37}
+	static get COMMAND            (){return 38}
+	static get MOTIVATION         (){return 39}
+	static get LEADERSHIP         (){return 40}
+	static get SCYTHE_MASTERY     (){return 41}
+	static get WIND_PRAYERS       (){return 42}
+	static get EARTH_PRAYERS      (){return 43}
+	static get MYSTICISM          (){return 44}
+	// not exactly sure what to do with the "no attribute" - technically we could move it to -1
+	static get NONE               (){return 101}
+	// PvE titles are technically attributes - WTB "official" internal IDs
+	static get TITLE_SUNSPEAR     (){return 102}
+	static get TITLE_LIGHTBRINGER (){return 103}
+	static get TITLE_LUXON        (){return 104}
+	static get TITLE_KURZICK      (){return 105}
+	static get TITLE_ASURA        (){return 106}
+	static get TITLE_DELDRIMOR    (){return 107}
+	static get TITLE_VANGUARD     (){return 108}
+	static get TITLE_NORN         (){return 109}
+
+	/** @returns {number[]|int[]} */
+	static get IDS(){
+		return [
+			Attribute.FAST_CASTING, Attribute.ILLUSION_MAGIC, Attribute.DOMINATION_MAGIC, Attribute.INSPIRATION_MAGIC,
+			Attribute.BLOOD_MAGIC, Attribute.DEATH_MAGIC, Attribute.SOUL_REAPING, Attribute.CURSES,
+			Attribute.AIR_MAGIC, Attribute.EARTH_MAGIC, Attribute.FIRE_MAGIC, Attribute.WATER_MAGIC, Attribute.ENERGY_STORAGE,
+			Attribute.HEALING_PRAYERS, Attribute.SMITING_PRAYERS, Attribute.PROTECTION_PRAYERS, Attribute.DIVINE_FAVOR,
+			Attribute.STRENGTH, Attribute.AXE_MASTERY, Attribute.HAMMER_MASTERY, Attribute.SWORDMANSHIP, Attribute.TACTICS,
+			Attribute.BEAST_MASTERY, Attribute.EXPERTISE, Attribute.WILDERNESS_SURVIVAL, Attribute.MARKMANSHIP,
+			Attribute.DAGGER_MASTERY, Attribute.DEADLY_ARTS, Attribute.SHADOW_ARTS,
+			Attribute.COMMUNING, Attribute.RESTORATION_MAGIC, Attribute.CHANNELING_MAGIC,
+			Attribute.CRITICAL_STRIKES, Attribute.SPAWNING_POWER,
+			Attribute.SPEAR_MASTERY, Attribute.COMMAND, Attribute.MOTIVATION, Attribute.LEADERSHIP,
+			Attribute.SCYTHE_MASTERY, Attribute.WIND_PRAYERS, Attribute.EARTH_PRAYERS, Attribute.MYSTICISM,
+			Attribute.NONE,
+			Attribute.TITLE_SUNSPEAR, Attribute.TITLE_LIGHTBRINGER, Attribute.TITLE_LUXON, Attribute.TITLE_KURZICK,
+			Attribute.TITLE_ASURA, Attribute.TITLE_DELDRIMOR, Attribute.TITLE_VANGUARD, Attribute.TITLE_NORN,
+		];
+	}
+
+	/** @returns {Object<{}>} */
+	static get NAME(){
+		return PHPJS.array_combine(Attribute.IDS, [
+			{de: 'Schnellwirkung',           en: 'Fast Casting',                      },
+			{de: 'Illusionsmagie',           en: 'Illusion Magic',                    },
+			{de: 'Beherrschungsmagie',       en: 'Domination Magic',                  },
+			{de: 'Inspirationsmagie',        en: 'Inspiration Magic',                 },
+			{de: 'Blutmagie',                en: 'Blood Magic',                       },
+			{de: 'Todesmagie',               en: 'Death Magic',                       },
+			{de: 'Seelensammlung',           en: 'Soul Reaping',                      },
+			{de: 'Flüche',                   en: 'Curses',                            },
+			{de: 'Luftmagie',                en: 'Air Magic',                         },
+			{de: 'Erdmagie',                 en: 'Earth Magic',                       },
+			{de: 'Feuermagie',               en: 'Fire Magic',                        },
+			{de: 'Wassermagie',              en: 'Water Magic',                       },
+			{de: 'Energiespeicherung',       en: 'Energy Storage',                    },
+			{de: 'Heilgebete',               en: 'Healing Prayers',                   },
+			{de: 'Peinigungsgebete',         en: 'Smiting Prayers',                   },
+			{de: 'Schutzgebete',             en: 'Protection Prayers',                },
+			{de: 'Gunst der Götter',         en: 'Divine Favor',                      },
+			{de: 'Stärke',                   en: 'Strength',                          },
+			{de: 'Axtbeherrschung',          en: 'Axe Mastery',                       },
+			{de: 'Hammerbeherrschung',       en: 'Hammer Mastery',                    },
+			{de: 'Schwertkunst',             en: 'Swordsmanship',                     },
+			{de: 'Taktik',                   en: 'Tactics',                           },
+			{de: 'Tierbeherrschung',         en: 'Beast Mastery',                     },
+			{de: 'Fachkenntnis',             en: 'Expertise',                         },
+			{de: 'Überleben in der Wildnis', en: 'Wilderness Survival',               },
+			{de: 'Treffsicherheit',          en: 'Marksmanship',                      },
+			{de: 'Dolchbeherrschung',        en: 'Dagger Mastery',                    },
+			{de: 'Tödliche Künste',          en: 'Deadly Arts',                       },
+			{de: 'Schattenkünste',           en: 'Shadow Arts',                       },
+			{de: 'Zwiesprache',              en: 'Communing',                         },
+			{de: 'Wiederherstellungsmagie',  en: 'Restoration Magic',                 },
+			{de: 'Kanalisierungsmagie',      en: 'Channeling Magic',                  },
+			{de: 'Kritische Stöße',          en: 'Critical Strikes',                  },
+			{de: 'Macht des Herbeirufens',   en: 'Spawning Power',                    },
+			{de: 'Speerbeherrschung',        en: 'Spear Mastery',                     },
+			{de: 'Befehlsgewalt',            en: 'Command',                           },
+			{de: 'Motivation',               en: 'Motivation',                        },
+			{de: 'Führung',                  en: 'Leadership',                        },
+			{de: 'Sensenbeherrschung',       en: 'Scythe Mastery',                    },
+			{de: 'Windgebete',               en: 'Wind Prayers',                      },
+			{de: 'Erdgebete',                en: 'Earth Prayers',                     },
+			{de: 'Mystik',                   en: 'Mysticism',                         },
+			{de: 'Kein Attribut',            en: 'No Attribute',                      },
+			{de: 'Sonnenspeertitel',         en: 'Sunspear Title Track',              },
+			{de: 'Lichtbringertitel',        en: 'Lightbringer Title Track',          },
+			{de: 'Freund der Luxon',         en: 'Friend of the Luxons Title Track',  },
+			{de: 'Freund der Kurzick',       en: 'Friend of the Kurzicks Title Track',},
+			{de: 'Asuratitel',               en: 'Asura Title Track',                 },
+			{de: 'Deldrimortitel',           en: 'Deldrimor Title Track',             },
+			{de: 'Ebon-Vorhut-Titel',        en: 'Ebon Vanguard Title Track',         },
+			{de: 'Norntitel',                en: 'Norn Title Track',                  },
+		]);
+	}
+
+	/** @returns {Object<{}>} */
+	static get PROFESSION(){
+		return PHPJS.array_combine(Attribute.IDS, [
+			Profession.MESMER, Profession.MESMER, Profession.MESMER, Profession.MESMER,
+			Profession.NECROMANCER, Profession.NECROMANCER, Profession.NECROMANCER, Profession.NECROMANCER,
+			Profession.ELEMENTALIST, Profession.ELEMENTALIST, Profession.ELEMENTALIST, Profession.ELEMENTALIST, Profession.ELEMENTALIST,
+			Profession.MONK, Profession.MONK, Profession.MONK, Profession.MONK,
+			Profession.WARRIOR, Profession.WARRIOR, Profession.WARRIOR, Profession.WARRIOR, Profession.WARRIOR,
+			Profession.RANGER, Profession.RANGER, Profession.RANGER, Profession.RANGER,
+			Profession.ASSASSIN, Profession.ASSASSIN, Profession.ASSASSIN,
+			Profession.RITUALIST, Profession.RITUALIST, Profession.RITUALIST,
+			Profession.ASSASSIN, Profession.RITUALIST,
+			Profession.PARAGON, Profession.PARAGON, Profession.PARAGON, Profession.PARAGON,
+			Profession.DERVISH, Profession.DERVISH, Profession.DERVISH, Profession.DERVISH,
+			Profession.NONE,
+			Profession.NONE, Profession.NONE, Profession.NONE, Profession.NONE,
+			Profession.NONE, Profession.NONE, Profession.NONE, Profession.NONE,
+		]);
+	}
+
+	/** @returns {Object<{}>} */
+	static get MAX_VALUE(){
+		return PHPJS.array_combine(Attribute.IDS, [
+			21, 21, 21, 21, 21, 21, 21, 21, 21, 21,
+			21, 21, 21, 21, 21, 21, 21, 21, 21, 21,
+			21, 21, 20, 20, 20, 21, 21, 20, 20, 21,
+			21, 21, 20, 21, 21, 21, 21, 20, 21, 20,
+			20, 21,  0, 10,  8, 12, 12, 10, 10, 10,
+			10,
+		]);
+	}
+
+	/** @var {number|int} */
+	#level = 0;
+
+	/**
+	 * @param {number|int} $level
+	 * @returns {Attribute}
+	 */
+	setLevel($level){
+		this.#level = this.clamp($level);
+
+		return this;
+	}
+
+	/**
+	 * @param {number|int} $level
+	 * @returns {Attribute}
+	 */
+	addLevel($level){
+		return this.setLevel(this.#level + $level);
+	}
+
+	/**
+	 * @returns {number|int}
+	 */
+	getLevel(){
+		return this.#level;
+	}
+
+	/**
+	 * @returns {Profession}
+	 */
+	getProfession(){
+		return new Profession(this.getProfessionID(), this.lang);
+	}
+
+	/**
+	 * @returns {number|int}
+	 */
+	getProfessionID(){
+		return Attribute.PROFESSION[this.id];
+	}
+
+	/**
+	 * @returns {number|int}
+	 */
+	getMaxValue(){
+		return Attribute.MAX_VALUE[this.id];
+	}
+
+	static getByProfession($profession){
+
+		if(!($profession instanceof Profession)){
+			$profession = new Profession($profession);
+		}
+
+		let $attributeProfessions = Attribute.PROFESSION;
+		let $attributes           = [];
+
+		for(let $attr in $attributeProfessions){
+			if($attributeProfessions[$attr] === $profession.id){
+				$attributes.push(PHPJS.intval($attr));
+			}
+		}
+
+		return $attributes;
+	}
+
+	/**
+	 * @returns {boolean}
+	 */
+	isPrimary(){
+		return this.in(Profession.PRIMARY_ATTRIBUTE)
+	}
+
+	/**
+	 * @param {number|int|null} $level
+	 * @returns {number|int}
+	 */
+	clamp($level = null){
+		return Math.max(0, Math.min(($level ?? this.#level), this.getMaxValue()));
+	}
+
+	/**
+	 * @returns {function(number|int, number|int, number|int): number|int}
+	 */
+	getProgressionFunction(){
+		switch(this.getMaxValue()){
+			// lightbringer
+			case  8: return this.progression8;
+			// sunspear and eotn titles
+			case 10: return this.progression10;
+			// luxon/kurzick
+			case 12: return this.progression12;
+			// regular skill progression
+			default: return this.progression15;
+		}
+	}
+
+	/**
+	 * @param {number|int} $level
+	 * @param {number|int} $val0
+	 * @param {number|int} $val15
+	 * @returns {number|int}
+	 */
+	progression8($level, $val0, $val15){
+		return Math.round(Math.min(($level * 4), 15) * (($val15 - $val0) / 15) + $val0);
+	}
+
+	/**
+	 * @param {number|int} $level
+	 * @param {number|int} $val0
+	 * @param {number|int} $val15
+	 * @returns {number|int}
+	 */
+	progression10($level, $val0, $val15){
+		return Math.round(Math.min(($level * 3), 15) * (($val15 - $val0) / 15) + $val0);
+	}
+
+	/**
+	 * @param {number|int} $level
+	 * @param {number|int} $val0
+	 * @param {number|int} $val15
+	 * @returns {number|int}
+	 */
+	progression12($level, $val0, $val15){
+		return Math.round(Math.min(Math.floor($level * 2.5), 15) * (($val15 - $val0) / 15) + $val0);
+	}
+
+	/**
+	 * @param {number|int} $level
+	 * @param {number|int} $val0
+	 * @param {number|int} $val15
+	 * @returns {number|int}
+	 */
+	progression15($level, $val0, $val15){
+		return Math.round($level * (($val15 - $val0) / 15) + $val0);
+	}
+
+	/**
+	 * @param  {number|int|string} $val0
+	 * @param  {number|int|string} $val15
+	 * @param  {number|int|null} $level
+	 * @returns {number|int}
+	 */
+	getProgressionValue($val0, $val15, $level = null){
+
+		if($level !== null){
+			$level = this.clamp($level);
+		}
+
+		let $fn = this.getProgressionFunction();
+
+		// values might come in as strings from preg_match()
+		return $fn(($level ?? this.getLevel()), PHPJS.intval($val0), PHPJS.intval($val15));
+
+	}
+
+	/**
+	 * @param {number|int} $val0
+	 * @param {number|int} $val15
+	 * @param {number|int|null} $max
+	 * @returns {number[]|int[]}
+	 */
+	getProgressionTable($val0, $val15, $max = null){
+		let $maxValue = this.getMaxValue();
+		// the internal maximum attribute level for player characters is 20-21, monsters are capped at 30
+		// fast cast levels > 33 result in negative activation & recharge for mesmer - THE CHRONOMANCER IS REAL
+		$max = Math.min(($max ?? $maxValue), 30);
+
+		// we'll clamp the PvE attributes to their respectime max title ranks
+		if(this.id > 100){
+			$max = $maxValue;
+		}
+
+		let $fn = this.getProgressionFunction();
+
+		return [...Array($max + 1).keys()].map(i => $fn(i, $val0, $val15));
+	}
+
+}
+
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Encapsulates all campaign related static data
+ *
+ * @final
+ */
+class Campaign extends DataObjectAbstract{
+
+	static get CSS_CLASS(){return 'campaign'};
+
+	static get CORE            (){return 0}
+	static get PROPHECIES      (){return 1}
+	static get FACTIONS        (){return 2}
+	static get NIGHTFALL       (){return 3}
+	static get EYE_OF_THE_NORTH(){return 4}
+
+	/** @returns {number[]|int[]}*/
+	static get IDS(){
+		return [
+			Campaign.CORE,
+			Campaign.PROPHECIES,
+			Campaign.FACTIONS,
+			Campaign.NIGHTFALL,
+			Campaign.EYE_OF_THE_NORTH,
+		];
+	}
+
+	/** @returns {Object<{}>} */
+	static get NAME(){
+		return PHPJS.array_combine(Campaign.IDS, [
+			{de: 'Basis',            en: 'Core',            },
+			{de: 'Prophecies',       en: 'Prophecies',      },
+			{de: 'Factions',         en: 'Factions',        },
+			{de: 'Nightfall',        en: 'Nightfall',       },
+			{de: 'Eye of the North', en: 'Eye of the North',},
+		]);
+	}
+
+	/** @returns {Object<{}>} */
+	static get CONTINENT_NAME(){
+		return PHPJS.array_combine(Campaign.IDS, [
+			{de: 'Die Nebel', en: 'The Mists',},
+			{de: 'Tyria',     en: 'Tyria',    },
+			{de: 'Cantha',    en: 'Cantha',   },
+			{de: 'Elona',     en: 'Elona',    },
+			{de: 'Tyria',     en: 'Tyria',    },
+		]);
+	}
+
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @returns {string}
+	 */
+	getContinentName($lang){
+		$lang = this._getLang($lang);
+
+		return this.constructor.CONTINENT_NAME[this.id][$lang.id];
+	}
+
+}
+
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Encapsulates all skill type related static data
+ *
+ * @final
+ */
+class Type extends DataObjectAbstract{
+
+	static get CSS_CLASS(){return 'skilltype'};
+
+	static get NONE                   (){return 0}
+	static get SKILL                  (){return 1}
+	static get BOW_ATTACK             (){return 2}
+	static get MELEE_ATTACK           (){return 3}
+	static get AXE_ATTACK             (){return 4}
+	static get LEAD_ATTACK            (){return 5}
+	static get OFF_HAND_ATTACK        (){return 6}
+	static get DUAL_ATTACK            (){return 7}
+	static get HAMMER_ATTACK          (){return 8}
+	static get SCYTHE_ATTACK          (){return 9}
+	static get SWORD_ATTACK           (){return 10}
+	static get PET_ATTACK             (){return 11}
+	static get SPEAR_ATTACK           (){return 12}
+	static get CHANT                  (){return 13}
+	static get ECHO                   (){return 14}
+	static get FORM                   (){return 15}
+	static get GLYPH                  (){return 16}
+	static get PREPARATION            (){return 17}
+	static get BINDING_RITUAL         (){return 18}
+	static get NATURE_RITUAL          (){return 19}
+	static get SHOUT                  (){return 20}
+	static get SIGNET                 (){return 21}
+	static get SPELL                  (){return 22}
+	static get ENCHANTMENT_SPELL      (){return 23}
+	static get HEX_SPELL              (){return 24}
+	static get ITEM_SPELL             (){return 25}
+	static get WARD_SPELL             (){return 26}
+	static get WEAPON_SPELL           (){return 27}
+	static get WELL_SPELL             (){return 28}
+	static get STANCE                 (){return 29}
+	static get TRAP                   (){return 30}
+	static get RANGED_ATTACK          (){return 31}
+	static get EBON_VANGUARD_RITUAL   (){return 32}
+	static get FLASH_ENCHANTMENT_SPELL(){return 33}
+	static get ATTACK_SKILL           (){return 34}
+	static get DAGGER_ATTACK          (){return 35}
+	static get RITUAL                 (){return 36}
+	static get DOUBLE_ENCHANTMENT     (){return 37}
+	static get TOUCH_SKILL            (){return 38}
+	static get TOUCH_SPELL            (){return 39}
+	static get TOUCH_ENCHANTMENT_SPELL(){return 40}
+	static get TOUCH_HEX_SPELL        (){return 41}
+	static get TOUCH_SIGNET           (){return 42}
+
+	/** @returns {number[]|int[]} */
+	static get IDS(){
+		return [
+			Type.NONE,
+			Type.SKILL,
+			Type.BOW_ATTACK,
+			Type.MELEE_ATTACK,
+			Type.AXE_ATTACK,
+			Type.LEAD_ATTACK,
+			Type.OFF_HAND_ATTACK,
+			Type.DUAL_ATTACK,
+			Type.HAMMER_ATTACK,
+			Type.SCYTHE_ATTACK,
+			Type.SWORD_ATTACK,
+			Type.PET_ATTACK,
+			Type.SPEAR_ATTACK,
+			Type.CHANT,
+			Type.ECHO,
+			Type.FORM,
+			Type.GLYPH,
+			Type.PREPARATION,
+			Type.BINDING_RITUAL,
+			Type.NATURE_RITUAL,
+			Type.SHOUT,
+			Type.SIGNET,
+			Type.SPELL,
+			Type.ENCHANTMENT_SPELL,
+			Type.HEX_SPELL,
+			Type.ITEM_SPELL,
+			Type.WARD_SPELL,
+			Type.WEAPON_SPELL,
+			Type.WELL_SPELL,
+			Type.STANCE,
+			Type.TRAP,
+			Type.RANGED_ATTACK,
+			Type.EBON_VANGUARD_RITUAL,
+			Type.FLASH_ENCHANTMENT_SPELL,
+			Type.DOUBLE_ENCHANTMENT,
+			Type.TOUCH_SKILL,
+			Type.TOUCH_SPELL,
+			Type.TOUCH_ENCHANTMENT_SPELL,
+			Type.TOUCH_HEX_SPELL,
+			Type.TOUCH_SIGNET,
+			Type.ATTACK_SKILL,
+			Type.DAGGER_ATTACK,
+			Type.RITUAL,
+		];
+	}
+
+	static get NAME(){
+		return PHPJS.array_combine(Type.IDS, [
+			{de: 'Keine Fertigkeit',      en: 'No Skill',               },
+			{de: 'Fertigkeit',            en: 'Skill',                  },
+			{de: 'Bogenangriff',          en: 'Bow Attack',             },
+			{de: 'Nahkampfangriff',       en: 'Melee Attack',           },
+			{de: 'Axtangriff',            en: 'Axe Attack',             },
+			{de: 'Leithandangriff',       en: 'Lead Attack',            },
+			{de: 'Begleithandangriff',    en: 'Off-Hand Attack',        },
+			{de: 'Doppelangriff',         en: 'Dual Attack',            },
+			{de: 'Hammerangriff',         en: 'Hammer Attack',          },
+			{de: 'Sensenangriff',         en: 'Scythe Attack',          },
+			{de: 'Schwertangriff',        en: 'Sword Attack',           },
+			{de: 'Tiergefährtenangriff',  en: 'Pet Attack',             },
+			{de: 'Speerangriff',          en: 'Spear Attack',           },
+			{de: 'Anfeuerungsruf',        en: 'Chant',                  },
+			{de: 'Echo',                  en: 'Echo',                   },
+			{de: 'Form',                  en: 'Form',                   },
+			{de: 'Glyphe',                en: 'Glyph',                  },
+			{de: 'Vorbereitung',          en: 'Preparation',            },
+			{de: 'Binderitual',           en: 'Binding Ritual',         },
+			{de: 'Naturritual',           en: 'Nature Ritual',          },
+			{de: 'Schrei',                en: 'Shout',                  },
+			{de: 'Siegel',                en: 'Signet',                 },
+			{de: 'Zauber',                en: 'Spell',                  },
+			{de: 'Verzauberung',          en: 'Enchantment Spell',      },
+			{de: 'Verhexung',             en: 'Hex Spell',              },
+			{de: 'Gegenstandszauber',     en: 'Item Spell',             },
+			{de: 'Abwehrzauber',          en: 'Ward Spell',             },
+			{de: 'Waffenzauber',          en: 'Weapon Spell',           },
+			{de: 'Brunnenzauber',         en: 'Well Spell',             },
+			{de: 'Haltung',               en: 'Stance',                 },
+			{de: 'Falle',                 en: 'Trap',                   },
+			{de: 'Distanzangriff',        en: 'Ranged Attack',          },
+			{de: 'Ebon-Vorhut-Ritual',    en: 'Ebon Vanguard Ritual',   },
+			{de: 'Blitzverzauberung',     en: 'Flash Enchantment Spell',},
+			{de: 'Doppelverzauberung',    en: 'Double Enchantment',     },
+			{de: 'Berührungsfertigkeit',  en: 'Touch Skill',            },
+			{de: 'Berührungszauber',      en: 'Touch Spell',            },
+			{de: 'Berührungsverzauberung',en: 'Touch Enchantment Spell',},
+			{de: 'Berührungsverhexung',   en: 'Touch Hex Spell',        },
+			{de: 'Berührungssiegel',      en: 'Touch Signet',           },
+			{de: 'Angriffsfertigkeit',    en: 'Attack Skill',           },
+			{de: 'Dolchangriff',          en: 'Dagger Attack',          },
+			{de: 'Ritual',                en: 'Ritual',                 },
+		]);
+	}
+
+	static get SUBTYPES(){
+
+		let ids = [
+			Type.ATTACK_SKILL,
+			Type.DAGGER_ATTACK,
+			Type.ENCHANTMENT_SPELL,
+			Type.HEX_SPELL,
+			Type.MELEE_ATTACK,
+			Type.RANGED_ATTACK,
+			Type.RITUAL,
+			Type.SPELL,
+			Type.SIGNET,
+			Type.TOUCH_SKILL,
+		];
+
+		return PHPJS.array_combine(ids,[
+			[
+				Type.MELEE_ATTACK, Type.RANGED_ATTACK, Type.BOW_ATTACK, Type.AXE_ATTACK, Type.LEAD_ATTACK, Type.OFF_HAND_ATTACK,
+				Type.DUAL_ATTACK, Type.HAMMER_ATTACK, Type.SCYTHE_ATTACK, Type.SWORD_ATTACK, Type.PET_ATTACK, Type.SPEAR_ATTACK,
+			],
+			[Type.LEAD_ATTACK, Type.OFF_HAND_ATTACK, Type.DUAL_ATTACK],
+			[Type.FLASH_ENCHANTMENT_SPELL, Type.DOUBLE_ENCHANTMENT, Type.TOUCH_ENCHANTMENT_SPELL],
+			[Type.TOUCH_HEX_SPELL],
+			[
+				Type.AXE_ATTACK, Type.LEAD_ATTACK, Type.OFF_HAND_ATTACK, Type.DUAL_ATTACK, Type.HAMMER_ATTACK,
+				Type.SCYTHE_ATTACK, Type.SWORD_ATTACK, Type.PET_ATTACK,
+			],
+			[Type.BOW_ATTACK, Type.SPEAR_ATTACK],
+			[Type.BINDING_RITUAL, Type.NATURE_RITUAL, Type.EBON_VANGUARD_RITUAL],
+			[
+				Type.ENCHANTMENT_SPELL, Type.HEX_SPELL, Type.ITEM_SPELL, Type.WARD_SPELL, Type.WEAPON_SPELL, Type.WELL_SPELL,
+				Type.FLASH_ENCHANTMENT_SPELL, Type.DOUBLE_ENCHANTMENT, Type.TOUCH_SPELL, Type.TOUCH_ENCHANTMENT_SPELL,
+				Type.TOUCH_HEX_SPELL,
+			],
+			[Type.TOUCH_SIGNET],
+			[Type.TOUCH_SPELL, Type.TOUCH_ENCHANTMENT_SPELL, Type.TOUCH_HEX_SPELL, Type.TOUCH_SIGNET],
+		]);
+	}
+
+	/**
+	 * @returns {int[]}
+	 */
+	withSubtypes(){
+		let types = (Type.SUBTYPES[this.id] ?? []);
+		types.push(this.id);
+
+		return types.sort((a, b) => a - b);
+	}
+
+}
+
+/**
+ * @created      03.08.2026
+ * @author       smiley <smiley@chillerlan.net>
+ * @copyright    2026 smiley
+ * @license      MIT
+ */
+
+/**
+ * Represents a single skill with all its unmodified data
+ *
+ * @final
+ */
+class Skill{
+
+	static get MODE_PVE(){return 'pve'};
+	static get MODE_PVP(){return 'pvp'};
+
+	static get DATA_ATTRIBUTE         (){return 'attribute'};
+	static get DATA_CAMPAIGN          (){return 'campaign'};
+	static get DATA_PROFESSION        (){return 'profession'};
+	static get DATA_TYPE              (){return 'type'};
+	static get DATA_IS_ELITE          (){return 'is_elite'};
+	static get DATA_IS_PVP            (){return 'is_pvp'};
+	static get DATA_IS_RP             (){return 'is_rp'};
+	static get DATA_PVP_SPLIT         (){return 'pvp_split'};
+	static get DATA_ID                (){return 'id'};
+	static get DATA_SPLIT_ID          (){return 'split_id'};
+	static get DATA_ACTIVATION        (){return 'activation'};
+	static get DATA_RECHARGE          (){return 'recharge'};
+	static get DATA_ENERGY            (){return 'energy'};
+	static get DATA_UPKEEP            (){return 'upkeep'};
+	static get DATA_ADRENALINE        (){return 'adrenaline'};
+	static get DATA_ADRENALINE_PRECISE(){return 'adrenaline_precise'};
+	static get DATA_SACRIFICE         (){return 'sacrifice'};
+	static get DATA_EXHAUSTION        (){return 'overcast'};
+
+	static get DESC_NAME              (){return 'name'};
+	static get DESC_DESCRIPTION       (){return 'description'};
+	static get DESC_CONCISE           (){return 'concise'};
+
+	// we don't have interfaces in JS, so we'll keep these here for now
+
+	/**
+	 * The array keys for the descriptions array
+	 *
+	 * @var {string[]}
+	 */
+	static get KEYS_DESC(){return [Skill.DESC_NAME, Skill.DESC_DESCRIPTION, Skill.DESC_CONCISE]};
+
+	/**
+	 * The array keys for the data array
+	 *
+	 * @var {string[]}
+	 */
+	static get KEYS_DATA(){return [
+		Skill.DATA_ID, Skill.DATA_CAMPAIGN, Skill.DATA_PROFESSION, Skill.DATA_ATTRIBUTE, Skill.DATA_IS_ELITE,
+		Skill.DATA_IS_RP, Skill.DATA_IS_PVP, Skill.DATA_PVP_SPLIT, Skill.DATA_SPLIT_ID, Skill.DATA_TYPE,
+		Skill.DATA_UPKEEP, Skill.DATA_ENERGY, Skill.DATA_ACTIVATION, Skill.DATA_RECHARGE, Skill.DATA_ADRENALINE,
+		Skill.DATA_ADRENALINE_PRECISE, Skill.DATA_SACRIFICE, Skill.DATA_EXHAUSTION,
+	]};
+
+	// ok so now JS has private class fields which... cool.
+	// but of course they once again half-assed the implementation and there's no way
+	// to check for private properties with Object.hasOwn() or whatever, not even this['#prop'].
+	// why even bother when you always just do such short-sighted horseshit, JS Working Group???
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements
+
+	#DataObjects = {
+		attribute:  Attribute,
+		campaign:   Campaign,
+		profession: Profession,
+		type:       Type,
+	};
+
+	#data = {
+		id: 0,
+		campaign: new Campaign(Campaign.CORE),
+		profession: new Profession(Profession.NONE),
+		attribute: new Attribute(Attribute.NONE),
+		is_elite: false,
+		is_rp: false,
+		is_pvp: false,
+		pvp_split: false,
+		split_id: 0,
+		type: new Type(Type.NONE),
+		upkeep: 0,
+		energy: 0,
+		activation: 0,
+		recharge: 0,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0,
+		name: '',
+		description: '',
+		concise: '',
+	};
+
+	#lang;
+
+	/** @returns {Lang} */
+	get lang(){return this.#lang};
+
+	/** @returns {Attribute} */
+	get attribute(){return this.#data.attribute};
+	/** @returns {Campaign} */
+	get campaign(){return this.#data.campaign};
+	/** @returns {Profession} */
+	get profession(){return this.#data.profession};
+	/** @returns {Type} */
+	get type(){return this.#data.type};
+
+	/** @returns {bool} */
+	get is_elite(){return this.#data.is_elite};
+	/** @returns {bool} */
+	get is_pvp(){return this.#data.is_pvp};
+	/** @private */
+	/** @returns {bool} */
+	get is_rp(){return this.#data.is_rp};
+	/** @returns {bool} */
+	get pvp_split(){return this.#data.pvp_split};
+	/** @returns {int} */
+	get id(){return this.#data.id};
+	/** @returns {int} */
+	get split_id(){return this.#data.split_id};
+	/** @returns {int|float} */
+	get activation(){return this.#data.activation};
+	/** @returns {int} */
+	get recharge(){return this.#data.recharge};
+	/** @returns {int} */
+	get energy(){return this.#data.energy};
+	/** @returns {int} */
+	get upkeep(){return this.#data.upkeep};
+	/** @returns {int} */
+	get adrenaline(){return this.#data.adrenaline};
+	/** @returns {int|float} */
+	get adrenaline_precise(){return this.#data.adrenaline_precise};
+	/** @returns {int} */
+	get sacrifice(){return this.#data.sacrifice};
+	/** @returns {int} */
+	get overcast(){return this.#data.overcast};
+
+	/** @returns {string} */
+	get name(){return this.#data.name};
+	/** @returns {string} */
+	get description(){return this.#data.description};
+	/** @returns {string} */
+	get concise(){return this.#data.concise};
+
+	/**
+	 * @param {*} $skilldata
+	 * @param {Lang|string} $lang
+	 */
+	constructor($skilldata, $lang = Lang.EN){
+
+		if(!($lang instanceof Lang)){
+			$lang = new Lang($lang);
+		}
+
+		this.#lang = $lang;
+
+		for(let key in $skilldata){
+			let value = $skilldata[key];
+
+			if(Object.hasOwn(this.#data, key)){
+
+				if(Object.hasOwn(this.#DataObjects, key) && !(value instanceof this.#DataObjects[key])){
+					value = new (this.#DataObjects[key])(value);
+				}
+
+				this.#data[key] = value;
+			}
+		}
+
+	}
+
+	toArray(){
+		let data = {};
+
+		for(let key of [...Skill.KEYS_DATA, ...Skill.KEYS_DESC]){
+			let value = this.#data[key];
+
+			if(value instanceof DataObjectAbstract){
+				value = value.id;
+			}
+
+			data[key] = value;
+		}
+
+		return data;
+	}
+
+}
+
 var lang$1 = "en";
 var skilldesc$1 = {
 	"0": {
@@ -38651,942 +39853,6 @@ var data = {
 };
 
 /**
- * @created      05.06.2024
- * @author       smiley <smiley@chillerlan.net>
- * @copyright    2024 smiley
- * @license      MIT
- */
-
-const PROF_NONE         = 0;
-const PROF_WARRIOR      = 1;
-const PROF_RANGER       = 2;
-const PROF_MONK         = 3;
-const PROF_NECROMANCER  = 4;
-const PROF_MESMER       = 5;
-const PROF_ELEMENTALIST = 6;
-const PROF_ASSASSIN     = 7;
-const PROF_RITUALIST    = 8;
-const PROF_PARAGON      = 9;
-const PROF_DERVISH      = 10;
-
-/**
- * Attributes (by ID))
- *
- * @type {[{number: {max: number, pri: boolean, name: {de: string, en: string}, prof: number}}]}
- */
-const ATTRIBUTES = {
-	'0'  : {
-		prof: 5,
-		pri : true,
-		max : 21,
-		name: {
-			de: 'Schnellwirkung',
-			en: 'Fast Casting',
-		},
-	},
-	'1'  : {
-		prof: 5,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Illusionsmagie',
-			en: 'Illusion Magic',
-		},
-	},
-	'2'  : {
-		prof: 5,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Beherrschungsmagie',
-			en: 'Domination Magic',
-		},
-	},
-	'3'  : {
-		prof: 5,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Inspirationsmagie',
-			en: 'Inspiration Magic',
-		},
-	},
-	'4'  : {
-		prof: 4,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Blutmagie',
-			en: 'Blood Magic',
-		},
-	},
-	'5'  : {
-		prof: 4,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Todesmagie',
-			en: 'Death Magic',
-		},
-	},
-	'6'  : {
-		prof: 4,
-		pri : true,
-		max : 21,
-		name: {
-			de: 'Seelensammlung',
-			en: 'Soul Reaping',
-		},
-	},
-	'7'  : {
-		prof: 4,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Flüche',
-			en: 'Curses',
-		},
-	},
-	'8'  : {
-		prof: 6,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Luftmagie',
-			en: 'Air Magic',
-		},
-	},
-	'9'  : {
-		prof: 6,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Erdmagie',
-			en: 'Earth Magic',
-		},
-	},
-	'10' : {
-		prof: 6,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Feuermagie',
-			en: 'Fire Magic',
-		},
-	},
-	'11' : {
-		prof: 6,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Wassermagie',
-			en: 'Water Magic',
-		},
-	},
-	'12' : {
-		prof: 6,
-		pri : true,
-		max : 21,
-		name: {
-			de: 'Energiespeicherung',
-			en: 'Energy Storage',
-		},
-	},
-	'13' : {
-		prof: 3,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Heilgebete',
-			en: 'Healing Prayers',
-		},
-	},
-	'14' : {
-		prof: 3,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Peinigungsgebete',
-			en: 'Smiting Prayers',
-		},
-	},
-	'15' : {
-		prof: 3,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Schutzgebete',
-			en: 'Protection Prayers',
-		},
-	},
-	'16' : {
-		prof: 3,
-		pri : true,
-		max : 21,
-		name: {
-			de: 'Gunst der Götter',
-			en: 'Divine Favor',
-		},
-	},
-	'17' : {
-		prof: 1,
-		pri : true,
-		max : 21,
-		name: {
-			de: 'Stärke',
-			en: 'Strength',
-		},
-	},
-	'18' : {
-		prof: 1,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Axtbeherrschung',
-			en: 'Axe Mastery',
-		},
-	},
-	'19' : {
-		prof: 1,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Hammerbeherrschung',
-			en: 'Hammer Mastery',
-		},
-	},
-	'20' : {
-		prof: 1,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Schwertkunst',
-			en: 'Swordsmanship',
-		},
-	},
-	'21' : {
-		prof: 1,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Taktik',
-			en: 'Tactics',
-		},
-	},
-	'22' : {
-		prof: 2,
-		pri : false,
-		max : 20,
-		name: {
-			de: 'Tierbeherrschung',
-			en: 'Beast Mastery',
-		},
-	},
-	'23' : {
-		prof: 2,
-		pri : true,
-		max : 20,
-		name: {
-			de: 'Fachkenntnis',
-			en: 'Expertise',
-		},
-	},
-	'24' : {
-		prof: 2,
-		pri : false,
-		max : 20,
-		name: {
-			de: 'Überleben in der Wildnis',
-			en: 'Wilderness Survival',
-		},
-	},
-	'25' : {
-		prof: 2,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Treffsicherheit',
-			en: 'Marksmanship',
-		},
-	},
-	'29' : {
-		prof: 7,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Dolchbeherrschung',
-			en: 'Dagger Mastery',
-		},
-	},
-	'30' : {
-		prof: 7,
-		pri : false,
-		max : 20,
-		name: {
-			de: 'Tödliche Künste',
-			en: 'Deadly Arts',
-		},
-	},
-	'31' : {
-		prof: 7,
-		pri : false,
-		max : 20,
-		name: {
-			de: 'Schattenkünste',
-			en: 'Shadow Arts',
-		},
-	},
-	'32' : {
-		prof: 8,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Zwiesprache',
-			en: 'Communing',
-		},
-	},
-	'33' : {
-		prof: 8,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Wiederherstellungsmagie',
-			en: 'Restoration Magic',
-		},
-	},
-	'34' : {
-		prof: 8,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Kanalisierungsmagie',
-			en: 'Channeling Magic',
-		},
-	},
-	'35' : {
-		prof: 7,
-		pri : true,
-		max : 20,
-		name: {
-			de: 'Kritische Stöße',
-			en: 'Critical Strikes',
-		},
-	},
-	'36' : {
-		prof: 8,
-		pri : true,
-		max : 21,
-		name: {
-			de: 'Macht des Herbeirufens',
-			en: 'Spawning Power',
-		},
-	},
-	'37' : {
-		prof: 9,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Speerbeherrschung',
-			en: 'Spear Mastery',
-		},
-	},
-	'38' : {
-		prof: 9,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Befehlsgewalt',
-			en: 'Command',
-		},
-	},
-	'39' : {
-		prof: 9,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Motivation',
-			en: 'Motivation',
-		},
-	},
-	'40' : {
-		prof: 9,
-		pri : true,
-		max : 20,
-		name: {
-			de: 'Führung',
-			en: 'Leadership',
-		},
-	},
-	'41' : {
-		prof: 10,
-		pri : false,
-		max : 21,
-		name: {
-			de: 'Sensenbeherrschung',
-			en: 'Scythe Mastery',
-		},
-	},
-	'42' : {
-		prof: 10,
-		pri : false,
-		max : 20,
-		name: {
-			de: 'Windgebete',
-			en: 'Wind Prayers',
-		},
-	},
-	'43' : {
-		prof: 10,
-		pri : false,
-		max : 20,
-		name: {
-			de: 'Erdgebete',
-			en: 'Earth Prayers',
-		},
-	},
-	'44' : {
-		prof: 10,
-		pri : true,
-		max : 20,
-		name: {
-			de: 'Mystik',
-			en: 'Mysticism',
-		},
-	},
-	'101': {
-		prof: 0,
-		pri : false,
-		max : 0,
-		name: {
-			de: 'Kein Attribut',
-			en: 'No Attribute',
-		},
-	},
-	'102': {
-		prof: 0,
-		pri : false,
-		max : 10,
-		name: {
-			de: 'Sonnenspeertitel',
-			en: 'Sunspear Title Track',
-		},
-	},
-	'103': {
-		prof: 0,
-		pri : false,
-		max : 8,
-		name: {
-			de: 'Lichtbringertitel',
-			en: 'Lightbringer Title Track',
-		},
-	},
-	'104': {
-		prof: 0,
-		pri : false,
-		max : 12,
-		name: {
-			de: 'Freund der Luxon',
-			en: 'Friend of the Luxons Title Track',
-		},
-	},
-	'105': {
-		prof: 0,
-		pri : false,
-		max : 12,
-		name: {
-			de: 'Freund der Kurzick',
-			en: 'Friend of the Kurzicks Title Track',
-		},
-	},
-	'106': {
-		prof: 0,
-		pri : false,
-		max : 10,
-		name: {
-			de: 'Asuratitel',
-			en: 'Asura Title Track',
-		},
-	},
-	'107': {
-		prof: 0,
-		pri : false,
-		max : 10,
-		name: {
-			de: 'Deldrimortitel',
-			en: 'Deldrimor Title Track',
-		},
-	},
-	'108': {
-		prof: 0,
-		pri : false,
-		max : 10,
-		name: {
-			de: 'Ebon-Vorhut-Titel',
-			en: 'Ebon Vanguard Title Track',
-		},
-	},
-	'109': {
-		prof: 0,
-		pri : false,
-		max : 10,
-		name: {
-			de: 'Norntitel',
-			en: 'Norn Title Track',
-		},
-	},
-};
-
-/**
- * Campaigns (by ID)
- *
- * @type {[{continent: {de: string, en: string}, name: {de: string, en: string}}]}
- */
-const CAMPAIGNS = [
-	{
-		name     : {
-			de: 'Basis',
-			en: 'Core',
-		},
-		continent: {
-			de: 'Die Nebel',
-			en: 'The Mists',
-		},
-	},
-	{
-		name     : {
-			de: 'Prophecies',
-			en: 'Prophecies',
-		},
-		continent: {
-			de: 'Tyria',
-			en: 'Tyria',
-		},
-	},
-	{
-		name     : {
-			de: 'Factions',
-			en: 'Factions',
-		},
-		continent: {
-			de: 'Cantha',
-			en: 'Cantha',
-		},
-	},
-	{
-		name     : {
-			de: 'Nightfall',
-			en: 'Nightfall',
-		},
-		continent: {
-			de: 'Elona',
-			en: 'Elona',
-		},
-	},
-	{
-		name     : {
-			de: 'Eye of the North',
-			en: 'Eye of the North',
-		},
-		continent: {
-			de: 'Tyria',
-			en: 'Tyria',
-		},
-	},
-];
-
-/**
- * Professions (by ID)
- *
- * @type {[{pri: number, name: {de: string, en: string}, abbr: {de: string, en: string}}]}
- */
-const PROFESSIONS = [
-	{
-		pri : 101,
-		name: {
-			de: 'keine',
-			en: 'none',
-		},
-		abbr: {
-			de: 'X',
-			en: 'X',
-		},
-	},
-	{
-		pri : 17,
-		name: {
-			de: 'Krieger',
-			en: 'Warrior',
-		},
-		abbr: {
-			de: 'K',
-			en: 'W',
-		},
-	},
-	{
-		pri : 23,
-		name: {
-			de: 'Waldläufer',
-			en: 'Ranger',
-		},
-		abbr: {
-			de: 'W',
-			en: 'R',
-		},
-	},
-	{
-		pri : 16,
-		name: {
-			de: 'Mönch',
-			en: 'Monk',
-		},
-		abbr: {
-			de: 'Mö',
-			en: 'Mo',
-		},
-	},
-	{
-		pri : 6,
-		name: {
-			de: 'Nekromant',
-			en: 'Necromancer',
-		},
-		abbr: {
-			de: 'N',
-			en: 'N',
-		},
-	},
-	{
-		pri : 0,
-		name: {
-			de: 'Mesmer',
-			en: 'Mesmer',
-		},
-		abbr: {
-			de: 'Me',
-			en: 'Me',
-		},
-	},
-	{
-		pri : 12,
-		name: {
-			de: 'Elementarmagier',
-			en: 'Elementalist',
-		},
-		abbr: {
-			de: 'E',
-			en: 'E',
-		},
-	},
-	{
-		pri : 35,
-		name: {
-			de: 'Assassine',
-			en: 'Assassin',
-		},
-		abbr: {
-			de: 'A',
-			en: 'A',
-		},
-	},
-	{
-		pri : 36,
-		name: {
-			de: 'Ritualist',
-			en: 'Ritualist',
-		},
-		abbr: {
-			de: 'R',
-			en: 'Rt',
-		},
-	},
-	{
-		pri : 40,
-		name: {
-			de: 'Paragon',
-			en: 'Paragon',
-		},
-		abbr: {
-			de: 'P',
-			en: 'P',
-		},
-	},
-	{
-		pri : 44,
-		name: {
-			de: 'Derwisch',
-			en: 'Dervish',
-		},
-		abbr: {
-			de: 'D',
-			en: 'D',
-		},
-	},
-];
-/**
- * @type {[{name: {de: string, en: string}}]}
- */
-const SKILLTYPES = [
-	{
-		name: {
-			de: 'Keine Fertigkeit',
-			en: 'No Skill',
-		},
-	},
-	{
-		name: {
-			de: 'Fertigkeit',
-			en: 'Skill',
-		},
-	},
-	{
-		name: {
-			de: 'Bogenangriff',
-			en: 'Bow Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Nahkampfangriff',
-			en: 'Melee Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Axtangriff',
-			en: 'Axe Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Leithandangriff',
-			en: 'Lead Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Begleithandangriff',
-			en: 'Off-Hand Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Doppelangriff',
-			en: 'Dual Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Hammerangriff',
-			en: 'Hammer Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Sensenangriff',
-			en: 'Scythe Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Schwertangriff',
-			en: 'Sword Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Tiergefährtenangriff',
-			en: 'Pet Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Speerangriff',
-			en: 'Spear Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Anfeuerungsruf',
-			en: 'Chant',
-		},
-	},
-	{
-		name: {
-			de: 'Echo',
-			en: 'Echo',
-		},
-	},
-	{
-		name: {
-			de: 'Form',
-			en: 'Form',
-		},
-	},
-	{
-		name: {
-			de: 'Glyphe',
-			en: 'Glyph',
-		},
-	},
-	{
-		name: {
-			de: 'Vorbereitung',
-			en: 'Preparation',
-		},
-	},
-	{
-		name: {
-			de: 'Binderitual',
-			en: 'Binding Ritual',
-		},
-	},
-	{
-		name: {
-			de: 'Naturritual',
-			en: 'Nature Ritual',
-		},
-	},
-	{
-		name: {
-			de: 'Schrei',
-			en: 'Shout',
-		},
-	},
-	{
-		name: {
-			de: 'Siegel',
-			en: 'Signet',
-		},
-	},
-	{
-		name: {
-			de: 'Zauber',
-			en: 'Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Verzauberung',
-			en: 'Enchantment Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Verhexung',
-			en: 'Hex Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Gegenstandszauber',
-			en: 'Item Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Abwehrzauber',
-			en: 'Ward Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Waffenzauber',
-			en: 'Weapon Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Brunnenzauber',
-			en: 'Well Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Haltung',
-			en: 'Stance',
-		},
-	},
-	{
-		name: {
-			de: 'Falle',
-			en: 'Trap',
-		},
-	},
-	{
-		name: {
-			de: 'Distanzangriff',
-			en: 'Ranged Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Ebon-Vorhut-Ritual',
-			en: 'Ebon Vanguard Ritual',
-		},
-	},
-	{
-		name: {
-			de: 'Blitzverzauberung',
-			en: 'Flash Enchantment',
-		},
-	},
-	{
-		name: {
-			de: 'Angriffsfertigkeit',
-			en: 'Attack Skill',
-		},
-	},
-	{
-		name: {
-			de: 'Dolchangriff',
-			en: 'Dagger Attack',
-		},
-	},
-	{
-		name: {
-			de: 'Ritual',
-			en: 'Ritual',
-		},
-	},
-	{
-		name: {
-			de: 'Doppelverzauberung',
-			en: 'Double Enchantment',
-		},
-	},
-	{
-		name: {
-			de: 'Berührungsfertigkeit',
-			en: 'Touch Skill',
-		},
-	},
-	{
-		name: {
-			de: 'Berührungszauber',
-			en: 'Touch Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Berührungsverzauberung',
-			en: 'Touch Enchantment Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Berührungsverhexung',
-			en: 'Touch Hex Spell',
-		},
-	},
-	{
-		name: {
-			de: 'Berührungssiegel',
-			en: 'Touch Signet',
-		},
-	},
-];
-
-/**
  * @created      04.06.2024
  * @author       smiley <smiley@chillerlan.net>
  * @copyright    2024 smiley
@@ -39601,36 +39867,42 @@ class SkillDataAbstract{
 	skilldata = data.skilldata;
 
 	/**
-	 * @param {int} $id
-	 * @returns {*}
-	 * @private
+	 * Returns the data for the given skill ID, including descriptions for the current language
+	 *
+	 * @param {number|int} $id
+	 * @param {boolean} $pvp
+	 * @returns {Skill}
+	 * @public
 	 */
-	combine($id){
+	get($id, $pvp = false){
 
 		if(!this.skilldata[$id]){
 			throw new Error('invalid skill ID');
 		}
 
-		// we're going to clone the objects here so that we don't leave backreferences
-		let skilldata = Object.assign({}, {...this.skilldata[$id], ...this.skilldesc[$id]});
+		if(
+			// pvp mode, the skill has a pvp redirect but pve version was given
+			($pvp && !this.skilldata[$id][Skill.DATA_IS_PVP] && this.skilldata[$id][Skill.DATA_PVP_SPLIT])
+			// pve mode, the pvp skill was given, redirect to pve
+			|| (!$pvp && this.skilldata[$id][Skill.DATA_IS_PVP] && this.skilldata[$id][Skill.DATA_SPLIT_ID] !== 0)
+		){
+			$id = this.skilldata[$id][Skill.DATA_SPLIT_ID];
+		}
 
-		return Object.assign(skilldata, {
-			campaign_name  : CAMPAIGNS[skilldata.campaign].name[this.lang],
-			profession_name: PROFESSIONS[skilldata.profession].name[this.lang],
-			profession_abbr: PROFESSIONS[skilldata.profession].abbr[this.lang],
-			attribute_name : ATTRIBUTES[skilldata.attribute].name[this.lang],
-			type_name      : SKILLTYPES[skilldata.type].name[this.lang],
-		});
+		// we're going to clone the objects here so that we don't leave backreferences
+		let $skilldata = Object.assign({}, {...this.skilldata[$id], ...this.skilldesc[$id]});
+
+		return new Skill($skilldata, this.lang);
 	}
 
 	/**
 	 * @param {string} $key
-	 * @param {int|boolean} $value
+	 * @param {number|int|boolean} $value
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 * @private
 	 */
-	getByKey($key, $value, $pvp){
+	#getByKey($key, $value, $pvp){
 		let skills = [];
 
 		for(let id in this.skilldata){
@@ -39646,27 +39918,9 @@ class SkillDataAbstract{
 	}
 
 	/**
-	 * Returns the data for the given skill ID, including descriptions for the current language
-	 *
-	 * @param {int} $id
-	 * @param {boolean} $pvp
-	 * @returns {*}
-	 * @public
-	 */
-	get($id, $pvp = false){
-		let data = this.combine($id);
-
-		if($pvp === false || data.pvp_split === false){
-			return data;
-		}
-
-		return this.combine(data.split_id);
-	}
-
-	/**
 	 * Returns an array with the skill data for each of the given skill IDs
 	 *
-	 * @param {int[]} $IDs
+	 * @param {number[]|int[]} $IDs
 	 * @param {boolean} $pvp
 	 * @returns {*}
 	 * @public
@@ -39684,84 +39938,109 @@ class SkillDataAbstract{
 	/**
 	 * Returns all skills for the given campaign ID
 	 *
-	 * @param {int} $campaign
+	 * @param {Campaign|number|int} $campaign
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByCampaign($campaign, $pvp = false){
 
-		if(!CAMPAIGNS[$campaign]){
-			throw new Error('invalid campaign ID'); // @codeCoverageIgnore
+		if(!($campaign instanceof Campaign)){
+			$campaign = new Campaign($campaign);
 		}
 
-		return this.getByKey('campaign', $campaign, $pvp);
+		return this.#getByKey('campaign', $campaign.id, $pvp);
 	}
 
 	/**
 	 * Returns all skills for the given profession ID
 	 *
-	 * @param {int} $profession
+	 * @param {Profession|number|int} $profession
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByProfession($profession, $pvp = false){
 
-		if(!PROFESSIONS[$profession]){
-			throw new Error('invalid profession ID'); // @codeCoverageIgnore
+		if(!($profession instanceof Profession)){
+			$profession = new Profession($profession);
 		}
 
-		return this.getByKey('profession', $profession, $pvp);
+		return this.#getByKey('profession', $profession.id, $pvp);
 	}
 
 	/**
 	 * Returns all skills for the given attribute ID
 	 *
-	 * @param {int} $attribute
+	 * @param {Attribute|number|int} $attribute
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByAttribute($attribute, $pvp = false){
 
-		if(!ATTRIBUTES[$attribute]){
-			throw new Error('invalid attribute ID'); // @codeCoverageIgnore
+		if(!($attribute instanceof Attribute)){
+			$attribute = new Attribute($attribute);
 		}
 
-		return this.getByKey('attribute', $attribute, $pvp);
+		return this.#getByKey('attribute', $attribute.id, $pvp);
 	}
 
 	/**
 	 * Returns all skills for the given skill type ID
 	 *
-	 * @param {int} $type
+	 * @param {Type|number|int} $type
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByType($type, $pvp = false){
 
-		if(!SKILLTYPES[$type]){
-			throw new Error('invalid skill type ID'); // @codeCoverageIgnore
+		if(!($type instanceof Type)){
+			$type = new Type($type);
 		}
 
-		return this.getByKey('type', $type, $pvp);
+		return this.#getByKey('type', $type.id, $pvp);
+	}
+
+	/**
+	 * Returns all skills for the given skill type ID and its subtypes (if any)
+	 *
+	 * @param {Type|number|int} $type
+	 * @param {boolean} $pvp
+	 * @returns {Skill[]}
+	 */
+	getByTypeWithSubtypes($type, $pvp = false){
+
+		if(!($type instanceof Type)){
+			$type = new Type($type);
+		}
+
+		let $types  = $type.withSubtypes();
+		let $skills = [];
+
+		for(let id in this.skilldata){
+			if($types.includes(this.skilldata[id].type)){
+				$skills.push(this.get(id, $pvp));
+			}
+		}
+
+		return $skills;
 	}
 
 	/**
 	 * Returns all elite skills
 	 *
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getElite($pvp = false){
-		return this.getByKey('is_elite', true, $pvp);
+		return this.#getByKey('is_elite', true, $pvp);
 	}
 
 	/**
 	 * Returns all roleplay skills
 	 *
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getRoleplay(){
-		return this.getByKey('is_rp', true, false);
+		return this.#getByKey('is_rp', true, false);
 	}
 
 }
@@ -39774,6 +40053,7 @@ class SkillDataAbstract{
  */
 
 
+/** @final */
 class SkillLangEnglish extends SkillDataAbstract{
 	lang      = en.lang;
 	skilldesc = en.skilldesc;
@@ -48711,26 +48991,18 @@ var de = {
  */
 
 
+/** @final */
 class SkillLangGerman extends SkillDataAbstract{
 	lang      = de.lang;
 	skilldesc = de.skilldesc;
 }
 
-exports.ATTRIBUTES = ATTRIBUTES;
-exports.CAMPAIGNS = CAMPAIGNS;
-exports.PROFESSIONS = PROFESSIONS;
-exports.PROF_ASSASSIN = PROF_ASSASSIN;
-exports.PROF_DERVISH = PROF_DERVISH;
-exports.PROF_ELEMENTALIST = PROF_ELEMENTALIST;
-exports.PROF_MESMER = PROF_MESMER;
-exports.PROF_MONK = PROF_MONK;
-exports.PROF_NECROMANCER = PROF_NECROMANCER;
-exports.PROF_NONE = PROF_NONE;
-exports.PROF_PARAGON = PROF_PARAGON;
-exports.PROF_RANGER = PROF_RANGER;
-exports.PROF_RITUALIST = PROF_RITUALIST;
-exports.PROF_WARRIOR = PROF_WARRIOR;
-exports.SKILLTYPES = SKILLTYPES;
+exports.Attribute = Attribute;
+exports.Campaign = Campaign;
+exports.Lang = Lang;
+exports.Profession = Profession;
+exports.Skill = Skill;
 exports.SkillLangEnglish = SkillLangEnglish;
 exports.SkillLangGerman = SkillLangGerman;
+exports.Type = Type;
 //# sourceMappingURL=gw-skilldata-node-src.cjs.map
