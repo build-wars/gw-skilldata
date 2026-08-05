@@ -146,8 +146,8 @@ jobs:
   build-public:
     needs: build-js
     name: "Publish files"
-    if:  ${{ github.ref_name == 'main' || github.ref_name == 'tag' }}
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
@@ -202,8 +202,8 @@ jobs:
           path: ./public
 
       - name: "Attach file(s) to release"
-        uses: softprops/action-gh-release@v3
         if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             dist/gw-skilldata-es6.js
@@ -216,6 +216,7 @@ jobs:
             public/pawned/*
 
       - name: "Publish files to gh-pages"
+        if: github.ref_name == 'main'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
