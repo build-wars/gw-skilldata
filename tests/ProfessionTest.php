@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTest;
 
+use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Profession;
 use Buildwars\GWSkillData\Lang;
 use InvalidArgumentException;
@@ -65,6 +66,37 @@ final class ProfessionTest extends TestCase{
 		$this->expectExceptionMessage('invalid language');
 
 		(new Profession(Profession::ELEMENTALIST))->getAbbr('foo');
+	}
+
+	#[Test]
+	public function getPrimaryAttribute():void{
+		$profession = new Profession(Profession::ELEMENTALIST);
+		$attribute  = $profession->getPrimaryAttribute(16);
+
+		$this::assertSame(Attribute::ENERGY_STORAGE, $attribute->id);
+		$this::assertSame(16, $attribute->getLevel());
+	}
+
+	#[Test]
+	public function getPrimaryAttributeID():void{
+		$profession = new Profession(Profession::ELEMENTALIST);
+
+		$this::assertSame(Attribute::ENERGY_STORAGE, $profession->getPrimaryAttributeID());
+	}
+
+	#[Test]
+	public function getAttributes():void{
+		$profession = new Profession(Profession::ELEMENTALIST);
+
+		$expected = [
+			Attribute::AIR_MAGIC,
+			Attribute::EARTH_MAGIC,
+			Attribute::FIRE_MAGIC,
+			Attribute::WATER_MAGIC,
+			Attribute::ENERGY_STORAGE,
+		];
+
+		$this::assertSame($expected, $profession->getAttributes());
 	}
 
 }

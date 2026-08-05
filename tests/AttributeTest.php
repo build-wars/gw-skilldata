@@ -54,6 +54,25 @@ final class AttributeTest extends TestCase{
 		(new Attribute(Attribute::FAST_CASTING))->getName('foo');
 	}
 
+	#[Test]
+	public function setLevel():void{
+		$attr = new Attribute(Attribute::FAST_CASTING);
+
+		$attr->setLevel(69); // test clamping
+
+		$this::assertSame(21, $attr->getLevel());
+	}
+
+	#[Test]
+	public function addLevel():void{
+		$attr = new Attribute(Attribute::FAST_CASTING);
+
+		$attr->setLevel(12);
+		$attr->addLevel(4);
+
+		$this::assertSame(16, $attr->getLevel());
+	}
+
 	public static function professionProvider():array{
 		return [
 			'default' => [Attribute::FAST_CASTING, Profession::MESMER],
@@ -122,15 +141,15 @@ final class AttributeTest extends TestCase{
 	}
 
 	#[Test]
-	#[TestWith([Attribute::TITLE_LIGHTBRINGER, 0, 15])]
-	#[TestWith([Attribute::TITLE_NORN, 0, 15])]
-	#[TestWith([Attribute::TITLE_LUXON, 0, 15])]
-	#[TestWith([Attribute::FAST_CASTING, 0, 21])]
-	public function getProgressionFunction(int $attribute, int $expected0, int $expected15):void{
+	#[TestWith([Attribute::TITLE_LIGHTBRINGER, 15])]
+	#[TestWith([Attribute::TITLE_NORN, 15])]
+	#[TestWith([Attribute::TITLE_LUXON, 15])]
+	#[TestWith([Attribute::FAST_CASTING, 21])]
+	public function getProgressionFunction(int $attribute, int $expected15):void{
 		$attr = new Attribute($attribute);
 		$fn   = $attr->getProgressionFunction();
 
-		$this::assertSame($expected0, $fn(0, 0, 15));
+		$this::assertSame(0, $fn(0, 0, 15));
 		$this::assertSame($expected15, $fn($attr->getMaxValue(), 0, 15));
 	}
 
@@ -152,11 +171,10 @@ final class AttributeTest extends TestCase{
 	#[Test]
 	#[DataProvider('progressionValueProvider')]
 	public function getProgressionValue(int $attribute, int $val0, int $val15, array $expected):void{
+		$attr = new Attribute($attribute);
+
 		foreach($expected as $level => $expectedValue){
-			$value = (new Attribute($attribute))
-				->setLevel($level)
-				->getProgressionValue($val0, $val15)
-			;
+			$value = $attr->setLevel($level)->getProgressionValue($val0, $val15);
 
 			$this::assertSame($expectedValue, $value);
 
