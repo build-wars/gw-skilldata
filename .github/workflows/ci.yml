@@ -114,10 +114,8 @@ jobs:
 
 
   build-js:
-    name: "Build (Javascript)"
+    name: "Unit Tests  (Javascript)"
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: "checkout sources"
@@ -144,25 +142,10 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: .build/coverage-js/clover.xml
 
-      - name: "upload artifacts"
-        uses: actions/upload-artifact@v7
-        with:
-          name: gw-skilldata-${{ github.sha }}
-          path: ./dist
-
-      - name: "Attach file(s) to release"
-        uses: softprops/action-gh-release@v3
-        if: github.ref_type == 'tag'
-        with:
-          files: |
-            dist/gw-skilldata-es6.js
-            dist/gw-skilldata-es6-src.js
-            dist/gw-skilldata-node.cjs
-            dist/gw-skilldata-node-src.cjs
 
   build-public:
     needs: build-js
-    name: "publish files"
+    name: "Publish files"
     if: github.ref_name == 'main'
     runs-on: ubuntu-latest
     permissions:
@@ -211,6 +194,26 @@ jobs:
           cp ./.build/*.csv ./public/pawned
           mkdir ./public/schemas
           cp ./data/schemas/*.schema.json ./public/schemas
+
+      - name: "upload artifacts"
+        uses: actions/upload-artifact@v7
+        with:
+          name: gw-skilldata-${{ github.sha }}
+          path: ./public
+
+      - name: "Attach file(s) to release"
+        uses: softprops/action-gh-release@v3
+        if: github.ref_type == 'tag'
+        with:
+          files: |
+            dist/gw-skilldata-es6.js
+            dist/gw-skilldata-es6-src.js
+            dist/gw-skilldata-node.cjs
+            dist/gw-skilldata-node-src.cjs
+            public/json-full/skilldata.json
+            public/json-full/skilldata-combined.json
+            public/json-full/skilldesc-*.json
+            public/pawned/*
 
       - name: "Publish files to gh-pages"
         uses: JamesIves/github-pages-deploy-action@v4
