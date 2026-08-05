@@ -31,7 +31,10 @@
 
 - Guild Wars skill data
   - Skill descriptions for English and German
+  - Skill databases for [paw·ned²](https://redeemer.biz/guild-wars/projekte/pawned2/)
 - Toolset to add other translations (hopefully maybe)
+
+Most of the release files are built on each push and hosted on GitHub pages: https://github.com/build-wars/gw-skilldata
 
 ## Requirements
 
@@ -42,7 +45,6 @@ alternatively:
 - Javascript
 	- node.js >= 24
 	- a web browser
-
 
 # Documentation
 
@@ -58,7 +60,7 @@ composer require buildwars/gw-skilldata
 {
 	"require": {
 		"php": "^8.1",
-		"buildwars/gw-skilldata": "^1.1"
+		"buildwars/gw-skilldata": "^2.0"
 	}
 }
 ```
@@ -76,7 +78,7 @@ npm install @buildwars/gw-skilldata
 ```json
 {
 	"dependencies": {
-		"@buildwars/gw-skilldata": "^1.1"
+		"@buildwars/gw-skilldata": "^2.0"
 	}
 }
 ```
@@ -89,55 +91,31 @@ npm install @buildwars/gw-skilldata
 ```php
 use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
+use Buildwars\GWSkillData\SkillDataInterface;
+use Buildwars\GWSkillData\SkillLangEnglish;
 
 class MyClass implements SkillDataAwareInterface{
 	use SkillDataAwareTrait;
 
+	protected SkillDataInterface $skillDataEnglish;
+
 	public function __construct(string $lang){
 		// set the language and initialize $this->skillData
 		$this->setSkillDataLanguage($lang);
+
+		// alternatively, you can simply invoke one of the skill language instances
+		$this->skillDataEnglish = new SkillLangEnglish;
 	}
 
-	public function getSkill(int $skillID):mixed{
+	public function getSkill(int $skillID, bool $pvp):mixed{
 		// $this->skillData is now available
-		$data = $this->skillData->get($skillID);
+		$data = $this->skillData->get($skillID, $pvp);
 
 		// do stuff with the $data array
-		// the available array keys are in $this->skillData->keys
+		var_dump($data->id);
 	}
+
 }
-```
-
-The returned skill data array from `SkillDataInterface::get(979)` looks similar to the following:
-
-```php
-$data = [
-	'id'              => 979,
-	'campaign'        => 3,
-	'profession'      => 5,
-	'attribute'       => 2,
-	'type'            => 24,
-	'is_elite'        => false,
-	'is_rp'           => false,
-	'is_pvp'          => false,
-	'pvp_split'       => true,
-	'split_id'        => 3191,
-	'upkeep'          => 0,
-	'energy'          => 10,
-	'activation'      => 2,
-	'recharge'        => 12,
-	'adrenaline'      => 0,
-	'sacrifice'       => 0,
-	'overcast'        => 0,
-	'name'            => 'Mistrust',
-	'description'     => 'For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...100 damage to that foe and all nearby foes.',
-	'concise'         => '(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...100 damage to target and nearby foes.',
-	'campaign_name'   => 'Nightfall',
-	'profession_name' => 'Mesmer',
-	'profession_abbr' => 'Me',
-	'attribute_name'  => 'Domination Magic',
-	'type_name'       => 'Hex Spell',
-];
 ```
 
 ### JavaScript :coffee:
@@ -147,12 +125,12 @@ JavaScript doesn't have traits, so you will need to implement that part by yours
 ```js
 class MyClass{
 
-	_languages = {
+	#languages = {
 		de: SkillLangGerman,
 		en: SkillLangEnglish,
 	};
 
-	skillData;
+	#skillData;
 
 	constructor(lang){
 		this.setSkillDataLanguage(lang);
@@ -160,89 +138,73 @@ class MyClass{
 
 	setSkillDataLanguage(lang){
 
-		if(!this._languages[lang]){
+		if(!this.#languages[lang]){
 			throw new Error('invalid language');
 		}
 
-		this.skillData = new this._languages[lang]();
+		this.#skillData = new this.#languages[lang]();
 
 		return this;
 	}
 
-	getSkill(skillID){
+	getSkill(skillID, pvp){
 		// this.skillData is now available
-		let data = this.skillData.get(skillID);
+		let data = this.#skillData.get(skillID, pvp);
 
 		// do stuff with the data array
+		console.log(data.id);
 	}
 
 }
 ```
+### Return
 
-which outputs:
+A call `SkillDataInterface::get(979, false)` (PHP) or `SkillDataAbstract.get(979, false)` (JS) returns a `Skill` instance that looks similar to the following:
 
-```js
-let data = {
-	id: 979,
-	campaign: 3,
-	profession: 5,
-	attribute: 2,
-	type: 24,
-	is_elite: false,
-	is_rp: false,
-	is_pvp: false,
-	pvp_split: true,
-	split_id: 3191,
-	upkeep: 0,
-	energy: 10,
-	activation: 2,
-	recharge: 12,
-	adrenaline: 0,
-	sacrifice: 0,
-	overcast: 0,
-	name: 'Mistrust',
-	description: 'For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...100 damage to that foe and all nearby foes.',
-	concise: '(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...100 damage to target and nearby foes.',
-	campaign_name: 'Nightfall',
-	profession_name: 'Mesmer',
-	profession_abbr: 'Me',
-	attribute_name: 'Domination Magic',
-	type_name: 'Hex Spell'
+```
+Skill{
+	id          = 979
+	campaign    = new Campaign(Campaign::NIGHTFALL)
+	profession  = new Profession(Profession::MESMER)
+	attribute   = new Attribute(Attribute::DOMINATION_MAGIC)
+	type        = new Type(Type::HEX_SPELL)
+	is_elite    = false
+	is_rp       = false
+	is_pvp      = false
+	pvp_split   = true
+	split_id    = 3191
+	upkeep      = 0
+	energy      = 10
+	activation  = 2
+	recharge    = 12
+	adrenaline  = 0
+	sacrifice   = 0
+	overcast    = 0
+	name        = 'Mistrust'
+	description = 'For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...100 damage to that foe and all nearby foes.'
+	concise     = '(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...100 damage to target and nearby foes.'
 }
 ```
 
 ### PvP skill redirect
 
-When the `$pvp` parameter is set to `true`, `SkillDataInterface::get(979, true)` will redirect to the PvP version of the given skill (if available, `pvp_split` and `split_id`):
+When the `$pvp` parameter is set to `true`, `SkillDataInterface::get(979, true)` will redirect to the PvP version of the given skill if available,
+and vice versa it will redirect a given PvP skill ID to the PvE version when `$pvp` is set to `false`:
 
-```php
-$data = [
-	'id'              => 3191,
-	'campaign'        => 3,
-	'profession'      => 5,
-	'attribute'       => 2,
-	'type'            => 24,
-	'is_elite'        => false,
-	'is_rp'           => false,
-	'is_pvp'          => true,
-	'pvp_split'       => false,
-	'split_id'        => 0,
-	'upkeep'          => 0,
-	'energy'          => 10,
-	'activation'      => 2,
-	'recharge'        => 12,
-	'adrenaline'      => 0,
-	'sacrifice'       => 0,
-	'overcast'        => 0,
-	'name'            => 'Mistrust (PvP)',
-	'description'     => 'For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...75 damage to that foe and all nearby foes.',
-	'concise'         => '(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...75 damage to target and nearby foes.',
-	'campaign_name'   => 'Nightfall',
-	'profession_name' => 'Mesmer',
-	'profession_abbr' => 'Me',
-	'attribute_name'  => 'Domination Magic',
-	'type_name'       => 'Hex Spell',
-];
+```
+Skill{
+	id          = 3191
+	.
+	.
+	is_pvp      = true
+	pvp_split   = true
+	split_id    = 979
+	.
+	.
+	name        = 'Mistrust (PvP)'
+	description = 'For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...75 damage to that foe and all nearby foes.'
+	concise     = '(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...75 damage to target and nearby foes.'
+}
 ```
 
 ### HTML tags in descriptions
@@ -257,48 +219,99 @@ Each attack that hits deals +13...30 Holy damage <sic/>
 
 ## API
 
-### `SkillDataInterface`
-
 (The API is similar for the JavaScript version)
 
-| Method                                                | Description                                                                              |
-|-------------------------------------------------------|------------------------------------------------------------------------------------------|
-| `get(int $id, bool $pvp = false)`                     | Returns the data for the given skill ID, including descriptions for the current language |
-| `getAll(array $IDs, bool $pvp = false)`               | Returns an array with the skill data for each of the given skill IDs                     |
-| `getByCampaign(int $campaign, bool $pvp = false)`     | Returns all skills for the given campaign ID                                             |
-| `getByProfession(int $profession, bool $pvp = false)` | Returns all skills for the given profession ID                                           |
-| `getByAttribute(int $attribute, bool $pvp = false)`   | Returns all skills for the given attribute ID                                            |
-| `getByType(int $type, bool $pvp = false)`             | Returns all skills for the given skill type ID                                           |
-| `getByTypeWithSubtypes(int $type, bool $pvp = false)` | Returns all skills for the given skill type ID and its subtypes (if any)                 |
-| `getElite(bool $pvp = false)`                         | Returns all elite skills                                                                 |
-| `getRoleplay()`                                       | Returns all roleplay skills                                                              |
+### `SkillDataInterface`
 
+The `SkillDataInterface` describes the methods available in its inheritors (`SkillLangEnglish`, `SkillLangGerman`, [...]).
 
-## Files hosted on GH-Pages
+| Method                                                            | Return    | Description                                                                              |
+|-------------------------------------------------------------------|-----------|------------------------------------------------------------------------------------------|
+| `get(int $id, bool $pvp = false)`                                 | `Skill`   | Returns the data for the given skill ID, including descriptions for the current language |
+| `getAll(array $IDs, bool $pvp = false)`                           | `Skill[]` | Returns an array with the skill data for each of the given skill IDs                     |
+| `getByCampaign(Campaign\|int $campaign, bool $pvp = false)`       | `Skill[]` | Returns all skills for the given campaign ID                                             |
+| `getByProfession(Profession\|int $profession, bool $pvp = false)` | `Skill[]` | Returns all skills for the given profession ID                                           |
+| `getByAttribute(Attribute\|int $attribute, bool $pvp = false)`    | `Skill[]` | Returns all skills for the given attribute ID                                            |
+| `getByType(Type\|int $type, bool $pvp = false)`                   | `Skill[]` | Returns all skills for the given skill type ID                                           |
+| `getByTypeWithSubtypes(Type\|int $type, bool $pvp = false)`       | `Skill[]` | Returns all skills for the given skill type ID and its subtypes (if any)                 |
+| `getElite(bool $pvp = false)`                                     | `Skill[]` | Returns all elite skills                                                                 |
+| `getRoleplay()`                                                   | `Skill[]` | Returns all roleplay skills                                                              |
+| `getIDs(bool $pvp = false)`                                       | `int[]`   | Returns a list of all skill IDs, either Pve or PvP                                       |
 
-### Library
+### `Skill`
 
-The Library includes several helper methods for handling and combining the data from the different sources (see above).
+The `Skill` object holds all [skill](https://wiki.guildwars.com/wiki/Skill) data for the given skill ID and language. The names for the public (readonly) properties can be found in the constants `SkillDataInterface::KEYS_DESC` and `SkillDataInterface::KEYS_DATA` (PHP),
+or in `Skill.KEYS_DESC` and `Skill.KEYS_DATA` (JS). Some of the properties hold instances of the objects described below.
+This class is not meant to be invoked as standalone, but as return value for the `SkillDataInterface` methods.
 
-- [gw-skilldata-es6.js](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-es6.js)
-- [gw-skilldata-es6-src.js](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-es6-src.js)
-- [gw-skilldata-node.cjs](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-node.cjs)
-- [gw-skilldata-node-src.cjs](https://build-wars.github.io/gw-skilldata/js/gw-skilldata-node-src.cjs)
+| Method                                                       | Return    | Description                                                                          |
+|--------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------|
+| `toArray()`                                                  | `mixed[]` | Returns a pure array representation (key-value object in JS) of the `Skill` instance |
+| `getFieldName(string $field, Lang\|string $lang = Lang::EN)` | `string`  | Returns the display name for the given field (PHP only)                              |
 
-### JSON Skilldata
+### `Lang`
 
-- Common skilldata: [skilldata.json](https://build-wars.github.io/gw-skilldata/json/skilldata.json)
-- Skill descriptions (German): [skilldesc-de.json](https://build-wars.github.io/gw-skilldata/json/skilldesc-de.json)
-- Skill descriptions (English): [skilldesc-en.json](https://build-wars.github.io/gw-skilldata/json/skilldesc-en.json)
-- Combined data including all languages: [skilldata-combined.json](https://build-wars.github.io/gw-skilldata/json/skilldata-combined.json)
-- Data for individual skills can be fetched via: `https://build-wars.github.io/gw-skilldata/json/skills/[SKILL_ID].json`
+The `Lang` object holds the language information used for translatable strings. An instance of this object can be used as paramter in various methods.
 
-### JSON Schemas
+| Method      | Return   | Description                                        |
+|-------------|----------|----------------------------------------------------|
+| `getName()` | `string` | Returns the readable name of the given language ID |
 
-- [skilldata.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skilldata.schema.json)
-- [skilldesc.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skilldesc.schema.json)
-- [skill.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skill.schema.json)
-- [skilldata-combined.schema.json](https://build-wars.github.io/gw-skilldata/schemas/skilldata-combined.schema.json)
+### `DataObjectAbstract`
+
+The `DataObjectAbstract` class is the abstract parent of the classes listed below.
+
+| Method           | Return | Description                                               |
+|------------------|--------|-----------------------------------------------------------|
+| `getName()`      | `bool` | Returns the readable name of the given ID                 |
+| `is(int $id)`    | `bool` | Checks whether the object ID is equal to the given ID     |
+| `in(array $ids)` | `bool` | Checks whether the object ID is in the given array of IDs |
+
+#### `Attribute`
+
+The `Attribute` class encapsulates all skill [attribute](https://wiki.guildwars.com/wiki/Attribute) related static data.
+
+| Method                                                                                | Return       | Description                                                                                 |
+|---------------------------------------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------|
+| `setLevel(int $level)`                                                                | `self`       | Sets the attribute level                                                                    |
+| `addLevel(int $level)`                                                                | `self`       | Adds the given amount to the current attribute level                                        |
+| `getLevel()`                                                                          | `int`        | Returns the current attribute level                                                         |
+| `getProfession()`                                                                     | `Profession` | Returns the profession for the current attribute                                            |
+| `getProfessionID()`                                                                   | `int`        | Returns the profession ID for the current attribute                                         |
+| `getMaxValue()`                                                                       | `int`        | Returns the internal max value for the current attribute                                    |
+| `getByProfession(Profession\|int $profession)`                                        | `int[]`      | Returns all attributes for the given profession                                             |
+| `isPrimary()`                                                                         | `bool`       | Checks whether the current attribute is a primary attribute                                 |
+| `clamp(int\|null $level = null)`                                                      | `int`        | Clamps the given value to the internal max value for the current attribute                  |
+| `getProgressionFunction()`                                                            | `Closure`    | Returns the progression function for the given title rank or attribute                      |
+| `getProgressionValue(int\|string $val0, int\|string $val15, int\|null $level = null)` | `int`        | Calculates the value for the given val0-val15 progression for the given attribute and level |
+| `getProgressionTable(int $val0, int $val15, int\|null $max = null)`                   | `int[]`      | Creates a progression table for the values 0 to attribute-max of the given val0 and val15   |
+
+#### `Campaign`
+
+The `Campaign` class encapsulates all [campaign](https://wiki.guildwars.com/wiki/Campaign) related static data.
+
+| Method                                               | Return   | Description                                                          |
+|------------------------------------------------------|----------|----------------------------------------------------------------------|
+| `getContinentName(Lang\| string\|null $lang = null)` | `string` | Returns the readable name of the continent for the given campaign ID |
+
+#### `Profession`
+
+The `Profession` class encapsulates all [profession](https://wiki.guildwars.com/wiki/Profession) related static data.
+
+| Method                                     | Return      | Description                                                |
+|--------------------------------------------|-------------|------------------------------------------------------------|
+| `getAbbr(Lang\|string\|null $lang = null)` | `string`    | Returns the short name for the fiven profession ID         |
+| `getPrimaryAttribute(int $level = 0)`      | `Attribute` | Returns the primary attribute of the current profession    |
+| `getPrimaryAttributeID()`                  | `int`       | Returns the primary attribute ID of the current profession |
+| `getAttributes()`                          | `int[]`     | Returns all attributes for the current profession          |
+
+#### `Type`
+
+The `Type` class encapsulates all [skill type](https://wiki.guildwars.com/wiki/Skill_type) related static data.
+
+| Method           | Return  | Description                                                            |
+|------------------|---------|------------------------------------------------------------------------|
+| `withSubtypes()` | `int[]` | Returns the IDs for the given skill type including all of its subtypes |
 
 ## Disclaimer
 

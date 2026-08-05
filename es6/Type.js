@@ -197,6 +197,8 @@ export default class Type extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the IDs for the given skill type including all of its subtypes
+	 *
 	 * @returns {int[]}
 	 */
 	withSubtypes(){

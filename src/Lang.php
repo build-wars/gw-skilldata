@@ -47,6 +47,9 @@ final class Lang{
 		$this->id = $id;
 	}
 
+	/**
+	 * Returns the readable name of the given language ID
+	 */
 	public function getName():string{
 		return self::NAMES[$this->id];
 	}

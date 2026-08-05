@@ -247,32 +247,55 @@ final class Attribute extends DataObjectAbstract{
 
 	protected int $level = 0;
 
+	/**
+	 * Sets the attribute level
+	 */
 	public function setLevel(int $level):self{
 		$this->level = $this->clamp($level);
 
 		return $this;
 	}
 
+	/**
+	 * Adds the given amount to the current attribute level
+	 */
 	public function addLevel(int $level):self{
 		return $this->setLevel(($this->level + $level));
 	}
 
+	/**
+	 * Returns the current attribute level
+	 */
 	public function getLevel():int{
 		return $this->level;
 	}
 
+	/**
+	 * Returns the profession for the current attribute
+	 */
 	public function getProfession():Profession{
 		return new Profession(self::PROFESSION[$this->id], $this->lang);
 	}
 
+	/**
+	 * Returns the profession ID for the current attribute
+	 */
 	public function getProfessionID():int{
 		return self::PROFESSION[$this->id];
 	}
 
+	/**
+	 * Returns the internal max value for the current attribute
+	 */
 	public function getMaxValue():int{
 		return self::MAX_VALUE[$this->id];
 	}
 
+	/**
+	 * Returns all attributes for the given profession
+	 *
+	 * @return int[]
+	 */
 	public static function getByProfession(Profession|int $profession):array{
 
 		if(!$profession instanceof Profession){
@@ -290,10 +313,16 @@ final class Attribute extends DataObjectAbstract{
 		return $attributes;
 	}
 
+	/**
+	 * Checks whether the current attribute is a primary attribute
+	 */
 	public function isPrimary():bool{
 		return $this->in(Profession::PRIMARY_ATTRIBUTE);
 	}
 
+	/**
+	 * Clamps the given value to the internal max value for the current attribute
+	 */
 	public function clamp(int|null $level = null):int{
 		return max(0, min(($level ?? $this->level), self::MAX_VALUE[$this->id]));
 	}
@@ -331,9 +360,7 @@ final class Attribute extends DataObjectAbstract{
 	}
 
 	/**
-	 * Calculates the value for the given val0-val15 progression for the given attribute and level.
-	 *
-	 * Creates an optional table in the `progressions` array.
+	 * Calculates the value for the given val0-val15 progression for the given attribute and level
 	 */
 	public function getProgressionValue(int|string $val0, int|string $val15, int|null $level = null):int{
 

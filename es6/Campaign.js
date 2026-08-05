@@ -56,6 +56,8 @@ export default class Campaign extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the readable name of the continent for the given campaign ID
+	 *
 	 * @param {Lang|string|null} $lang
 	 * @returns {string}
 	 */

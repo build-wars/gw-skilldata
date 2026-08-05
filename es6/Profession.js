@@ -97,6 +97,8 @@ export default class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the short name for the fiven profession ID
+	 *
 	 * @param {Lang|string|null} $lang
 	 * @returns {string}
 	 */
@@ -107,6 +109,8 @@ export default class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the primary attribute of the current profession
+	 *
 	 * @param {number|int} $level
 	 * @returns {Attribute}
 	 */
@@ -115,6 +119,8 @@ export default class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the primary attribute ID of the current profession
+	 *
 	 * @returns {number|int}
 	 */
 	getPrimaryAttributeID(){
@@ -122,6 +128,8 @@ export default class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns all attributes for the current profession
+	 *
 	 * @returns {number[]|int[]}
 	 */
 	getAttributes(){

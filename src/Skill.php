@@ -125,6 +125,9 @@ final class Skill{
 
 	}
 
+	/**
+	 * Returns a pure array representation of the `Skill` instance
+	 */
 	public function toArray():array{
 		$data = [];
 
@@ -141,6 +144,9 @@ final class Skill{
 		return $data;
 	}
 
+	/**
+	 * Returns the display name for the given field
+	 */
 	public function getFieldName(string $field, Lang|string $lang = Lang::EN):string{
 
 		if(!array_key_exists($field, self::FIELD_NAMES)){

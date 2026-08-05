@@ -40,6 +40,9 @@ final class Campaign extends DataObjectAbstract{
 		self::EYE_OF_THE_NORTH => [Lang::DE => 'Tyria',     Lang::EN => 'Tyria',    ],
 	];
 
+	/**
+	 * Returns the readable name of the continent for the given campaign ID
+	 */
 	public function getContinentName(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 

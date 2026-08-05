@@ -135,6 +135,8 @@ final class Type extends DataObjectAbstract{
 	];
 
 	/**
+	 * Returns the IDs for the given skill type including all of its subtypes
+	 *
 	 * @return int[]
 	 */
 	public function withSubtypes():array{

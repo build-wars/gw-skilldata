@@ -55,17 +55,27 @@ abstract class DataObjectAbstract{
 		return new Lang($lang);
 	}
 
+	/**
+	 * Returns the readable name of the given ID
+	 */
 	public function getName(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
 		return static::NAME[$this->id][$lang->id];
 	}
 
+	/**
+	 * Checks whether the object ID is equal to the given ID
+	 */
 	public function is(int $id):bool{
 		return $this->id === $id;
 	}
 
-	/** @param int[] $ids */
+	/**
+	 * Checks whether the object ID is in the given array of IDs
+	 *
+	 * @param int[] $ids
+	 */
 	public function in(array $ids):bool{
 		return in_array($this->id, $ids, true);
 	}

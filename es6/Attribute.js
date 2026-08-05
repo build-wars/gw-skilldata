@@ -184,6 +184,8 @@ export default class Attribute extends DataObjectAbstract{
 	#level = 0;
 
 	/**
+	 * Sets the attribute level
+	 *
 	 * @param {number|int} $level
 	 * @returns {Attribute}
 	 */
@@ -194,6 +196,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Adds the given amount to the current attribute level
+	 *
 	 * @param {number|int} $level
 	 * @returns {Attribute}
 	 */
@@ -202,6 +206,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the current attribute level
+	 *
 	 * @returns {number|int}
 	 */
 	getLevel(){
@@ -209,6 +215,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the profession for the current attribute
+	 *
 	 * @returns {Profession}
 	 */
 	getProfession(){
@@ -216,6 +224,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the profession ID for the current attribute
+	 *
 	 * @returns {number|int}
 	 */
 	getProfessionID(){
@@ -223,12 +233,19 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the internal max value for the current attribute
+	 *
 	 * @returns {number|int}
 	 */
 	getMaxValue(){
 		return Attribute.MAX_VALUE[this.id];
 	}
 
+	/**
+	 * Returns all attributes for the given profession
+	 *
+	 * @returns {number[]|int[]}
+	 */
 	static getByProfession($profession){
 
 		if(!($profession instanceof Profession)){
@@ -248,6 +265,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Checks whether the current attribute is a primary attribute
+	 *
 	 * @returns {boolean}
 	 */
 	isPrimary(){
@@ -255,6 +274,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Clamps the given value to the internal max value for the current attribute
+	 *
 	 * @param {number|int|null} $level
 	 * @returns {number|int}
 	 */
@@ -263,6 +284,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the progression function for the given title rank or attribute
+	 *
 	 * @returns {function(number|int, number|int, number|int): number|int}
 	 */
 	getProgressionFunction(){
@@ -319,6 +342,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Calculates the value for the given val0-val15 progression for the given attribute and level
+	 *
 	 * @param  {number|int|string} $val0
 	 * @param  {number|int|string} $val15
 	 * @param  {number|int|null} $level
@@ -338,6 +363,8 @@ export default class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Creates a progression table for the values 0 to attribute-max of the given val0 and val15
+	 *
 	 * @param {number|int} $val0
 	 * @param {number|int} $val15
 	 * @param {number|int|null} $max

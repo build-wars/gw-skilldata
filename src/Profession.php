@@ -79,20 +79,34 @@ final class Profession extends DataObjectAbstract{
 		self::DERVISH      => Attribute::MYSTICISM,
 	];
 
+	/**
+	 * Returns the short name for the fiven profession ID
+	 */
 	public function getAbbr(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
 		return self::NAME_ABBR[$this->id][$lang->id];
 	}
 
+	/**
+	 * Returns the primary attribute of the current profession
+	 */
 	public function getPrimaryAttribute(int $level = 0):Attribute{
 		return (new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang))->setLevel($level);
 	}
 
+	/**
+	 * Returns the primary attribute ID of the current profession
+	 */
 	public function getPrimaryAttributeID():int{
 		return self::PRIMARY_ATTRIBUTE[$this->id];
 	}
 
+	/**
+	 * Returns all attributes for the current profession
+	 *
+	 * @return int[]
+	 */
 	public function getAttributes():array{
 		return Attribute::getByProfession($this);
 	}

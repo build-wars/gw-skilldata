@@ -50,7 +50,11 @@ export default class Lang{
 		return this.#id;
 	}
 
-	/** @returns {string} */
+	/**
+	 * Returns the readable name of the given language ID
+	 *
+	 * @returns {string}
+	 */
 	getName(){
 		return Lang.NAMES[this.#id];
 	}

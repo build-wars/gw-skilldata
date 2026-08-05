@@ -180,6 +180,11 @@ export default class Skill{
 
 	}
 
+	/**
+	 * Returns a pure "array" representation of the `Skill` instance
+	 *
+	 * @returns {{}}
+	 */
 	toArray(){
 		let data = {};
 
