@@ -50,7 +50,11 @@ class Lang{
 		return this.#id;
 	}
 
-	/** @returns {string} */
+	/**
+	 * Returns the readable name of the given language ID
+	 *
+	 * @returns {string}
+	 */
 	getName(){
 		return Lang.NAMES[this.#id];
 	}
@@ -338,6 +342,8 @@ class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the short name for the fiven profession ID
+	 *
 	 * @param {Lang|string|null} $lang
 	 * @returns {string}
 	 */
@@ -348,6 +354,8 @@ class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the primary attribute of the current profession
+	 *
 	 * @param {number|int} $level
 	 * @returns {Attribute}
 	 */
@@ -356,6 +364,8 @@ class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the primary attribute ID of the current profession
+	 *
 	 * @returns {number|int}
 	 */
 	getPrimaryAttributeID(){
@@ -363,6 +373,8 @@ class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns all attributes for the current profession
+	 *
 	 * @returns {number[]|int[]}
 	 */
 	getAttributes(){
@@ -554,6 +566,8 @@ class Attribute extends DataObjectAbstract{
 	#level = 0;
 
 	/**
+	 * Sets the attribute level
+	 *
 	 * @param {number|int} $level
 	 * @returns {Attribute}
 	 */
@@ -564,6 +578,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Adds the given amount to the current attribute level
+	 *
 	 * @param {number|int} $level
 	 * @returns {Attribute}
 	 */
@@ -572,6 +588,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the current attribute level
+	 *
 	 * @returns {number|int}
 	 */
 	getLevel(){
@@ -579,6 +597,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the profession for the current attribute
+	 *
 	 * @returns {Profession}
 	 */
 	getProfession(){
@@ -586,6 +606,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the profession ID for the current attribute
+	 *
 	 * @returns {number|int}
 	 */
 	getProfessionID(){
@@ -593,12 +615,19 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the internal max value for the current attribute
+	 *
 	 * @returns {number|int}
 	 */
 	getMaxValue(){
 		return Attribute.MAX_VALUE[this.id];
 	}
 
+	/**
+	 * Returns all attributes for the given profession
+	 *
+	 * @returns {number[]|int[]}
+	 */
 	static getByProfession($profession){
 
 		if(!($profession instanceof Profession)){
@@ -618,6 +647,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Checks whether the current attribute is a primary attribute
+	 *
 	 * @returns {boolean}
 	 */
 	isPrimary(){
@@ -625,6 +656,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Clamps the given value to the internal max value for the current attribute
+	 *
 	 * @param {number|int|null} $level
 	 * @returns {number|int}
 	 */
@@ -633,6 +666,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the progression function for the given title rank or attribute
+	 *
 	 * @returns {function(number|int, number|int, number|int): number|int}
 	 */
 	getProgressionFunction(){
@@ -689,6 +724,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Calculates the value for the given val0-val15 progression for the given attribute and level
+	 *
 	 * @param  {number|int|string} $val0
 	 * @param  {number|int|string} $val15
 	 * @param  {number|int|null} $level
@@ -708,6 +745,8 @@ class Attribute extends DataObjectAbstract{
 	}
 
 	/**
+	 * Creates a progression table for the values 0 to attribute-max of the given val0 and val15
+	 *
 	 * @param {number|int} $val0
 	 * @param {number|int} $val15
 	 * @param {number|int|null} $max
@@ -787,6 +826,8 @@ class Campaign extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the readable name of the continent for the given campaign ID
+	 *
 	 * @param {Lang|string|null} $lang
 	 * @returns {string}
 	 */
@@ -995,6 +1036,8 @@ class Type extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the IDs for the given skill type including all of its subtypes
+	 *
 	 * @returns {int[]}
 	 */
 	withSubtypes(){
@@ -1182,6 +1225,11 @@ class Skill{
 
 	}
 
+	/**
+	 * Returns a pure "array" representation of the `Skill` instance
+	 *
+	 * @returns {{}}
+	 */
 	toArray(){
 		let data = {};
 
