@@ -146,7 +146,7 @@ jobs:
   build-public:
     needs: build-js
     name: "Publish files"
-    if: github.ref_name == 'main'
+    if:  ${{ github.ref_name == 'main' || github.ref_name == 'tag' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
