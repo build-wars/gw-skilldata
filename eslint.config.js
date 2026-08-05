@@ -36,7 +36,7 @@ export default [
 			'max-len'          : [
 				2,
 				{
-					'code'          : 130,
+					'code'          : 140,
 					'tabWidth'      : 4,
 					'ignoreUrls'    : true,
 					'ignoreComments': true,

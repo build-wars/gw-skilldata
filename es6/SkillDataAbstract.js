@@ -6,7 +6,11 @@
  */
 
 import data from '../data/json-full/skilldata.json' with {type: 'json'};
-import {ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES} from './constants.js';
+import Skill from './Skill.js';
+import Campaign from './Campaign.js';
+import Profession from './Profession.js';
+import Attribute from './Attribute.js';
+import Type from './Type.js';
 
 export default class SkillDataAbstract{
 
@@ -15,36 +19,42 @@ export default class SkillDataAbstract{
 	skilldata = data.skilldata;
 
 	/**
-	 * @param {int} $id
-	 * @returns {*}
-	 * @private
+	 * Returns the data for the given skill ID, including descriptions for the current language
+	 *
+	 * @param {number|int} $id
+	 * @param {boolean} $pvp
+	 * @returns {Skill}
+	 * @public
 	 */
-	combine($id){
+	get($id, $pvp = false){
 
 		if(!this.skilldata[$id]){
 			throw new Error('invalid skill ID');
 		}
 
-		// we're going to clone the objects here so that we don't leave backreferences
-		let skilldata = Object.assign({}, {...this.skilldata[$id], ...this.skilldesc[$id]});
+		if(
+			// pvp mode, the skill has a pvp redirect but pve version was given
+			($pvp && !this.skilldata[$id][Skill.DATA_IS_PVP] && this.skilldata[$id][Skill.DATA_PVP_SPLIT])
+			// pve mode, the pvp skill was given, redirect to pve
+			|| (!$pvp && this.skilldata[$id][Skill.DATA_IS_PVP] && this.skilldata[$id][Skill.DATA_SPLIT_ID] !== 0)
+		){
+			$id = this.skilldata[$id][Skill.DATA_SPLIT_ID];
+		}
 
-		return Object.assign(skilldata, {
-			campaign_name  : CAMPAIGNS[skilldata.campaign].name[this.lang],
-			profession_name: PROFESSIONS[skilldata.profession].name[this.lang],
-			profession_abbr: PROFESSIONS[skilldata.profession].abbr[this.lang],
-			attribute_name : ATTRIBUTES[skilldata.attribute].name[this.lang],
-			type_name      : SKILLTYPES[skilldata.type].name[this.lang],
-		});
+		// we're going to clone the objects here so that we don't leave backreferences
+		let $skilldata = Object.assign({}, {...this.skilldata[$id], ...this.skilldesc[$id]});
+
+		return new Skill($skilldata, this.lang);
 	}
 
 	/**
 	 * @param {string} $key
-	 * @param {int|boolean} $value
+	 * @param {number|int|boolean} $value
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 * @private
 	 */
-	getByKey($key, $value, $pvp){
+	#getByKey($key, $value, $pvp){
 		let skills = [];
 
 		for(let id in this.skilldata){
@@ -60,27 +70,9 @@ export default class SkillDataAbstract{
 	}
 
 	/**
-	 * Returns the data for the given skill ID, including descriptions for the current language
-	 *
-	 * @param {int} $id
-	 * @param {boolean} $pvp
-	 * @returns {*}
-	 * @public
-	 */
-	get($id, $pvp = false){
-		let data = this.combine($id);
-
-		if($pvp === false || data.pvp_split === false){
-			return data;
-		}
-
-		return this.combine(data.split_id);
-	}
-
-	/**
 	 * Returns an array with the skill data for each of the given skill IDs
 	 *
-	 * @param {int[]} $IDs
+	 * @param {number[]|int[]} $IDs
 	 * @param {boolean} $pvp
 	 * @returns {*}
 	 * @public
@@ -98,84 +90,109 @@ export default class SkillDataAbstract{
 	/**
 	 * Returns all skills for the given campaign ID
 	 *
-	 * @param {int} $campaign
+	 * @param {Campaign|number|int} $campaign
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByCampaign($campaign, $pvp = false){
 
-		if(!CAMPAIGNS[$campaign]){
-			throw new Error('invalid campaign ID'); // @codeCoverageIgnore
+		if(!($campaign instanceof Campaign)){
+			$campaign = new Campaign($campaign);
 		}
 
-		return this.getByKey('campaign', $campaign, $pvp);
+		return this.#getByKey('campaign', $campaign.id, $pvp);
 	}
 
 	/**
 	 * Returns all skills for the given profession ID
 	 *
-	 * @param {int} $profession
+	 * @param {Profession|number|int} $profession
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByProfession($profession, $pvp = false){
 
-		if(!PROFESSIONS[$profession]){
-			throw new Error('invalid profession ID'); // @codeCoverageIgnore
+		if(!($profession instanceof Profession)){
+			$profession = new Profession($profession);
 		}
 
-		return this.getByKey('profession', $profession, $pvp);
+		return this.#getByKey('profession', $profession.id, $pvp);
 	}
 
 	/**
 	 * Returns all skills for the given attribute ID
 	 *
-	 * @param {int} $attribute
+	 * @param {Attribute|number|int} $attribute
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByAttribute($attribute, $pvp = false){
 
-		if(!ATTRIBUTES[$attribute]){
-			throw new Error('invalid attribute ID'); // @codeCoverageIgnore
+		if(!($attribute instanceof Attribute)){
+			$attribute = new Attribute($attribute);
 		}
 
-		return this.getByKey('attribute', $attribute, $pvp);
+		return this.#getByKey('attribute', $attribute.id, $pvp);
 	}
 
 	/**
 	 * Returns all skills for the given skill type ID
 	 *
-	 * @param {int} $type
+	 * @param {Type|number|int} $type
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getByType($type, $pvp = false){
 
-		if(!SKILLTYPES[$type]){
-			throw new Error('invalid skill type ID'); // @codeCoverageIgnore
+		if(!($type instanceof Type)){
+			$type = new Type($type);
 		}
 
-		return this.getByKey('type', $type, $pvp);
+		return this.#getByKey('type', $type.id, $pvp);
+	}
+
+	/**
+	 * Returns all skills for the given skill type ID and its subtypes (if any)
+	 *
+	 * @param {Type|number|int} $type
+	 * @param {boolean} $pvp
+	 * @returns {Skill[]}
+	 */
+	getByTypeWithSubtypes($type, $pvp = false){
+
+		if(!($type instanceof Type)){
+			$type = new Type($type);
+		}
+
+		let $types  = $type.withSubtypes();
+		let $skills = [];
+
+		for(let id in this.skilldata){
+			if($types.includes(this.skilldata[id].type)){
+				$skills.push(this.get(id, $pvp));
+			}
+		}
+
+		return $skills;
 	}
 
 	/**
 	 * Returns all elite skills
 	 *
 	 * @param {boolean} $pvp
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getElite($pvp = false){
-		return this.getByKey('is_elite', true, $pvp);
+		return this.#getByKey('is_elite', true, $pvp);
 	}
 
 	/**
 	 * Returns all roleplay skills
 	 *
-	 * @returns {[]}
+	 * @returns {Skill[]}
 	 */
 	getRoleplay(){
-		return this.getByKey('is_rp', true, false);
+		return this.#getByKey('is_rp', true, false);
 	}
 
 }

@@ -8,6 +8,7 @@
 import en from '../data/json-full/skilldesc-en.json' with { type: 'json' };
 import SkillDataAbstract from './SkillDataAbstract.js';
 
+/** @final */
 export default class SkillLangEnglish extends SkillDataAbstract{
 	lang      = en.lang;
 	skilldesc = en.skilldesc;

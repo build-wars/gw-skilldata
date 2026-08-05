@@ -5,16 +5,22 @@
  * @license      MIT
  */
 
+import Attribute from './Attribute.js';
+import Campaign from './Campaign.js';
+import Lang from './Lang.js';
+import Profession from './Profession.js';
+import Skill from './Skill.js';
 import SkillLangEnglish from './SkillLangEnglish.js';
 import SkillLangGerman from './SkillLangGerman.js';
+import Type from './Type.js';
 
 export {
+	Attribute,
+	Campaign,
+	Lang,
+	Profession,
+	Skill,
 	SkillLangEnglish,
 	SkillLangGerman,
+	Type,
 };
-
-export {
-	PROF_NONE, PROF_WARRIOR, PROF_RANGER, PROF_MONK, PROF_NECROMANCER, PROF_MESMER,
-	PROF_ELEMENTALIST, PROF_ASSASSIN, PROF_RITUALIST, PROF_PARAGON, PROF_DERVISH,
-	ATTRIBUTES, CAMPAIGNS, PROFESSIONS, SKILLTYPES
-} from './constants.js';

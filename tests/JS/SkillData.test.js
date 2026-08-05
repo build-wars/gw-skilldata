@@ -4,12 +4,11 @@
  * @copyright    2024 smiley
  * @license      MIT
  */
-
-import {SkillLangEnglish, SkillLangGerman} from '../es6/index.js';
+import {Attribute, Campaign, Profession, SkillLangEnglish, SkillLangGerman, Type} from '../../es6/index.js';
+import SkillDataAbstract from '../../es6/SkillDataAbstract.js';
 
 import {beforeEach, suite, test} from 'mocha';
 import {assert} from 'chai';
-import SkillDataAbstract from '../es6/SkillDataAbstract.js';
 
 /**
  * Tests basic functions of the SkillData class
@@ -44,6 +43,19 @@ suite('SkillDataTest', function(){
 			let data = _skillData.get(979, true);
 
 			assert.strictEqual(data.id, 3191);
+
+			if(_skillData instanceof SkillLangEnglish){
+				assert.strictEqual(data.name, 'Mistrust (PvP)');
+			}
+
+			data = _skillData.get(3191, false);
+
+			assert.strictEqual(data.id, 979);
+
+			if(_skillData instanceof SkillLangEnglish){
+				assert.strictEqual(data.name, 'Mistrust');
+			}
+
 		});
 
 		test('invalidIdException', function(){
@@ -53,39 +65,54 @@ suite('SkillDataTest', function(){
 		test('getAll', function(){
 			let IDs  = [782, 780, 775, 1954, 952, 2356, 1649, 1018];
 			let data = _skillData.getAll(IDs);
+			let keys = Object.keys(data);
 
-			assert.lengthOf(Object.keys(data), IDs.length)
+			assert.lengthOf(keys, IDs.length)
+			assert.containsSubset(keys.map(k => k - 0), IDs)
 		});
 
 		test('getByCampaign', function(){
-			let data = _skillData.getByCampaign(0);
+			let data = _skillData.getByCampaign(Campaign.CORE);
 
 			for(let skill of data){
-				assert.strictEqual(skill.campaign, 0);
+				assert.strictEqual(skill.campaign.id, Campaign.CORE);
 			}
 		});
 
 		test('getByProfession', function(){
-			let data = _skillData.getByProfession(5);
+			let data = _skillData.getByProfession(Profession.MESMER);
 
 			for(let skill of data){
-				assert.strictEqual(skill.profession, 5);
+				assert.strictEqual(skill.profession.id, Profession.MESMER);
 			}
 		});
 
 		test('getByAttribute', function(){
-			let data = _skillData.getByAttribute(0);
+			let data = _skillData.getByAttribute(Attribute.FAST_CASTING);
 
 			for(let skill of data){
-				assert.strictEqual(skill.attribute, 0);
+				assert.strictEqual(skill.attribute.id, Attribute.FAST_CASTING);
 			}
 		});
 
 		test('getByType', function(){
-			let data = _skillData.getByType(24);
+			let data = _skillData.getByType(Type.HEX_SPELL);
 
 			for(let skill of data){
-				assert.strictEqual(skill.type, 24);
+				assert.strictEqual(skill.type.id, Type.HEX_SPELL);
+			}
+		});
+
+		test('getByTypeWithSubtypes', function(){
+			let data = _skillData.getByTypeWithSubtypes(Type.TOUCH_SKILL);
+
+			let $expected = [
+				Type.TOUCH_SKILL, Type.TOUCH_SPELL, Type.TOUCH_ENCHANTMENT_SPELL,
+				Type.TOUCH_HEX_SPELL, Type.TOUCH_SIGNET,
+			];
+
+			for(let skill of data){
+				assert.isTrue($expected.includes(skill.type.id));
 			}
 		});
 
