@@ -83,6 +83,32 @@ npm install @buildwars/gw-skilldata
 }
 ```
 
+### Direct include
+
+You can also directly include the library in your HTML:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<!-- ... -->
+</head>
+<body>
+	<!-- include the script at the bottom of the html body -->
+	<script type="module">
+		// import the script
+		import * as skilldata from 'https://build-wars.github.io/gw-skilldata/js/gw-skilldata-es6.js';
+		// alternative via unpkg
+		// import * as skilldata from 'https://unpkg.com/@buildwars/gw-skilldata@2.0.0/dist/gw-skilldata-es6.js';
+
+		// do stuff
+	</script>
+</body>
+</html>
+```
+
+Please note that the include from GitHub pages represents the development version, which is built on each push to the main branch. Use NPM or unpkg instead for stable versions.
+
 
 ## Quickstart
 
@@ -261,11 +287,11 @@ The `Lang` object holds the language information used for translatable strings. 
 
 The `DataObjectAbstract` class is the abstract parent of the classes listed below.
 
-| Method           | Return | Description                                               |
-|------------------|--------|-----------------------------------------------------------|
-| `getName()`      | `bool` | Returns the readable name of the given ID                 |
-| `is(int $id)`    | `bool` | Checks whether the object ID is equal to the given ID     |
-| `in(array $ids)` | `bool` | Checks whether the object ID is in the given array of IDs |
+| Method           | Return   | Description                                               |
+|------------------|----------|-----------------------------------------------------------|
+| `getName()`      | `string` | Returns the readable name of the given ID                 |
+| `is(int $id)`    | `bool`   | Checks whether the object ID is equal to the given ID     |
+| `in(array $ids)` | `bool`   | Checks whether the object ID is in the given array of IDs |
 
 #### `Attribute`
 
