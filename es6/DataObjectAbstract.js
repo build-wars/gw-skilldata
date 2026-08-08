@@ -36,7 +36,10 @@ export default class DataObjectAbstract{
 		this.#lang = $lang;
 	}
 
-	/** @returns {string} */
+	/**
+	 * @returns {string}
+	 * @codeCoverageIgnore
+	 */
 	static get CSS_CLASS(){
 		return '';
 	};
