@@ -39,7 +39,7 @@ class SkillDataTest extends TestCase{
 	#[Test]
 	public function get():void{
 		$data = $this->skillData->get(0, true)->toArray();
-		$keys = array_merge(SkillDataInterface::KEYS_DATA, SkillDataInterface::KEYS_DESC);
+		$keys = array_merge(Skill::KEYS_DATA, Skill::KEYS_DESC);
 
 		$this::assertSame(0, $data[Skill::DATA_ID]);
 

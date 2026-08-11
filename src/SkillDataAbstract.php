@@ -31,7 +31,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 			throw new InvalidArgumentException('invalid skill ID');
 		}
 
-		$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
+		$skillData = array_combine(Skill::KEYS_DATA, static::ID2DATA[$id]);
 
 		if(
 			// pvp mode, the skill has a pvp redirect but pve version was given
@@ -41,16 +41,16 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		){
 			$id = $skillData[Skill::DATA_SPLIT_ID];
 
-			$skillData = array_combine(static::KEYS_DATA, static::ID2DATA[$id]);
+			$skillData = array_combine(Skill::KEYS_DATA, static::ID2DATA[$id]);
 		}
 
-		$skillDesc = array_combine(static::KEYS_DESC, static::ID2DESC[$id]);
+		$skillDesc = array_combine(Skill::KEYS_DESC, static::ID2DESC[$id]);
 
 		return new Skill(array_merge($skillData, $skillDesc), static::LANG);
 	}
 
 	private function getByKey(string $key, int|bool $value, bool $pvp):array{
-		$keyID  = array_search($key, static::KEYS_DATA, true);
+		$keyID  = array_search($key, Skill::KEYS_DATA, true);
 		$skills = [];
 
 		foreach(static::ID2DATA as $id => $data){
@@ -109,7 +109,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		}
 
 		$types  = $type->withSubtypes();
-		$keyID  = array_search(Skill::DATA_TYPE, static::KEYS_DATA, true);
+		$keyID  = array_search(Skill::DATA_TYPE, Skill::KEYS_DATA, true);
 		$skills = [];
 
 		foreach(static::ID2DATA as $id => $data){
@@ -130,7 +130,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getIDs(bool $pvp = false):array{
-		$keyID = array_search(Skill::DATA_IS_PVP, static::KEYS_DATA, true);
+		$keyID = array_search(Skill::DATA_IS_PVP, Skill::KEYS_DATA, true);
 		$ids   = [];
 
 		foreach(static::ID2DATA as $id => $data){

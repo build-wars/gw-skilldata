@@ -19,20 +19,17 @@ interface SkillDataInterface{
 	 * The array keys for the descriptions array
 	 *
 	 * @var string[]
+	 * @deprecated 2.0.1 use Skill::KEYS_DATA instead
 	 */
-	final public const KEYS_DESC = [Skill::DESC_NAME, Skill::DESC_DESCRIPTION, Skill::DESC_CONCISE];
+	final public const KEYS_DESC = Skill::KEYS_DESC;
 
 	/**
 	 * The array keys for the data array
 	 *
 	 * @var string[]
+	 * @deprecated 2.0.1 use Skill::KEYS_DATA instead
 	 */
-	final public const KEYS_DATA = [
-		Skill::DATA_ID, Skill::DATA_CAMPAIGN, Skill::DATA_PROFESSION, Skill::DATA_ATTRIBUTE, Skill::DATA_IS_ELITE,
-		Skill::DATA_IS_RP, Skill::DATA_IS_PVP, Skill::DATA_PVP_SPLIT, Skill::DATA_SPLIT_ID, Skill::DATA_TYPE,
-		Skill::DATA_UPKEEP, Skill::DATA_ENERGY, Skill::DATA_ACTIVATION, Skill::DATA_RECHARGE, Skill::DATA_ADRENALINE,
-		Skill::DATA_ADRENALINE_PRECISE, Skill::DATA_SACRIFICE, Skill::DATA_EXHAUSTION,
-	];
+	final public const KEYS_DATA = Skill::KEYS_DATA;
 
 	/**
 	 * The descriptions array

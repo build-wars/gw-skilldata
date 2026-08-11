@@ -369,7 +369,7 @@ class Builder{
 				}
 
 				// update skill descriptions
-				foreach(SkillDataInterface::KEYS_DESC as $k){
+				foreach(Skill::KEYS_DESC as $k){
 
 					if($k === Skill::DESC_NAME && $data[Skill::DESC_NAME] !== $desc[Skill::DESC_NAME]){
 						$this->logger->info(sprintf('name fix: %s => %s', $desc[Skill::DESC_NAME], $data[Skill::DESC_NAME]));
@@ -532,7 +532,7 @@ class Builder{
 	protected function createDataFields(int $id):array{
 		$fields = [];
 
-		foreach(SkillDataInterface::KEYS_DATA as $key){
+		foreach(Skill::KEYS_DATA as $key){
 			$fields[$key] = null;
 
 			if($key === 'id'){
@@ -546,7 +546,7 @@ class Builder{
 	protected function createLangFields(int $id):array{
 		$fields = ['id' => $id];
 
-		foreach(SkillDataInterface::KEYS_DESC as $key){
+		foreach(Skill::KEYS_DESC as $key){
 			$fields[$key] = null;
 		}
 

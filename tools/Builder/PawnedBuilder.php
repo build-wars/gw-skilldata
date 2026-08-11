@@ -252,7 +252,7 @@ ini_en;
 
 					$id = $skill[Skill::DATA_ID];
 					// create the skeleton array
-					foreach(SkillDataInterface::KEYS_DATA as $key){
+					foreach(Skill::KEYS_DATA as $key){
 						$this->skilldata[$id][$key] = null;
 
 						// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
@@ -287,7 +287,7 @@ ini_en;
 					// add the ID field for the language files
 					$this->skilldesc[$lang][$id][Skill::DATA_ID] = $id;
 
-					foreach(SkillDataInterface::KEYS_DESC as $key){
+					foreach(Skill::KEYS_DESC as $key){
 						$this->skilldesc[$lang][$id][$key] = '';
 						// add the name field as this is the article query for the wikis
 						if($key === Skill::DESC_NAME){

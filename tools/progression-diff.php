@@ -55,7 +55,7 @@ foreach($databases[Lang::EN]::ID2DESC as $id => $lang1){
 
 		$lang2 = $databases[$lang]::ID2DESC[$id];
 
-		foreach(SkillDataInterface::KEYS_DESC as $pos => $key){
+		foreach(Skill::KEYS_DESC as $pos => $key){
 
 			if($key === Skill::DESC_NAME){
 				continue;

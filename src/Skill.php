@@ -47,6 +47,26 @@ final class Skill{
 	public const DESC_DESCRIPTION        = 'description';
 	public const DESC_CONCISE            = 'concise';
 
+	/**
+	 * The array keys for the descriptions array
+	 *
+	 * @var string[]
+	 */
+	public const KEYS_DESC = [self::DESC_NAME, self::DESC_DESCRIPTION, self::DESC_CONCISE];
+
+	/**
+	 * The array keys for the data array
+	 *
+	 * @var string[]
+	 */
+	public const KEYS_DATA = [
+		self::DATA_ID, self::DATA_CAMPAIGN, self::DATA_PROFESSION, self::DATA_ATTRIBUTE, self::DATA_IS_ELITE,
+		self::DATA_IS_RP, self::DATA_IS_PVP, self::DATA_PVP_SPLIT, self::DATA_SPLIT_ID, self::DATA_TYPE,
+		self::DATA_UPKEEP, self::DATA_ENERGY, self::DATA_ACTIVATION, self::DATA_RECHARGE, self::DATA_ADRENALINE,
+		self::DATA_ADRENALINE_PRECISE, self::DATA_SACRIFICE, self::DATA_EXHAUSTION,
+	];
+
+
 	public const FIELD_NAMES = [
 		self::MODE_PVE                => [Lang::DE => 'Rollenspiel',               Lang::EN => 'Roleplay',                 ],
 		self::MODE_PVP                => [Lang::DE => 'Spieler gegen Spieler',     Lang::EN => 'Player versus Player',     ],
@@ -131,7 +151,7 @@ final class Skill{
 	public function toArray():array{
 		$data = [];
 
-		foreach(array_merge(SkillDataInterface::KEYS_DATA, SkillDataInterface::KEYS_DESC) as $key){
+		foreach(array_merge(self::KEYS_DATA, self::KEYS_DESC) as $key){
 			$value = $this->{$key};
 
 			if($value instanceof DataObjectAbstract){
