@@ -16,7 +16,6 @@ use function array_combine;
 use function array_key_exists;
 use function array_map;
 use function array_merge;
-use function array_search;
 use function in_array;
 
 /**
@@ -50,7 +49,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	private function getByKey(string $key, int|bool $value, bool $pvp):array{
-		$keyID  = array_search($key, Skill::KEYS_DATA, true);
+		$keyID  = Skill::getDataKeyID($key);
 		$skills = [];
 
 		foreach(static::ID2DATA as $id => $data){
@@ -109,7 +108,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		}
 
 		$types  = $type->withSubtypes();
-		$keyID  = array_search(Skill::DATA_TYPE, Skill::KEYS_DATA, true);
+		$keyID  = Skill::getDataKeyID(Skill::DATA_TYPE);
 		$skills = [];
 
 		foreach(static::ID2DATA as $id => $data){
@@ -130,7 +129,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	}
 
 	public function getIDs(bool $pvp = false):array{
-		$keyID = array_search(Skill::DATA_IS_PVP, Skill::KEYS_DATA, true);
+		$keyID = Skill::getDataKeyID(Skill::DATA_IS_PVP);
 		$ids   = [];
 
 		foreach(static::ID2DATA as $id => $data){

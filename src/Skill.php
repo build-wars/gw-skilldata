@@ -14,6 +14,7 @@ namespace Buildwars\GWSkillData;
 use InvalidArgumentException;
 use function array_key_exists;
 use function array_merge;
+use function array_search;
 use function property_exists;
 
 /**
@@ -178,6 +179,20 @@ final class Skill{
 		}
 
 		return self::FIELD_NAMES[$field][$lang->id];
+	}
+
+	/**
+	 * Returns the numeric key ID (position) in the data keys for the given key
+	 */
+	public static function getDataKeyID(string $key):int{
+		return array_search($key, self::KEYS_DATA, true);
+	}
+
+	/**
+	 * Returns the numeric key ID (position) in the description keys for the given key
+	 */
+	public static function getLangKeyID(string $key):int{
+		return array_search($key, self::KEYS_DESC, true);
 	}
 
 }
