@@ -187,8 +187,8 @@ jobs:
           cp ./dist/gw-skilldata-iife-src.js ./public/js
           cp ./dist/gw-skilldata-node.cjs ./public/js
           cp ./dist/gw-skilldata-node-src.cjs ./public/js
-          cp ./dist/gw-skilldata-umd.cjs ./public/js
-          cp ./dist/gw-skilldata-umd-src.cjs ./public/js
+          cp ./dist/gw-skilldata-umd.js ./public/js
+          cp ./dist/gw-skilldata-umd-src.js ./public/js
           mkdir ./public/json
           cp ./data/json-full/*.json ./public/json
           mkdir ./public/json/skills
@@ -216,8 +216,8 @@ jobs:
             dist/gw-skilldata-iife-src.js
             dist/gw-skilldata-node.cjs
             dist/gw-skilldata-node-src.cjs
-            dist/gw-skilldata-umd.cjs
-            dist/gw-skilldata-umd-src.cjs
+            dist/gw-skilldata-umd.js
+            dist/gw-skilldata-umd-src.js
             public/json-full/skilldata.json
             public/json-full/skilldata-combined.json
             public/json-full/skilldesc-*.json
