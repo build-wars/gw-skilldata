@@ -153,6 +153,8 @@ class DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the readable name of the given ID
+	 *
 	 * @param {Lang|string|null} $lang
 	 * @returns {string}
 	 */
@@ -163,6 +165,8 @@ class DataObjectAbstract{
 	}
 
 	/**
+	 * Checks whether the object ID is equal to the given ID
+	 *
 	 * @param {number|int} $id
 	 * @returns {boolean}
 	 */
@@ -171,11 +175,36 @@ class DataObjectAbstract{
 	}
 
 	/**
+	 * Checks whether the object ID is in the given array of IDs
+	 *
 	 * @param {number[]|int[]} $ids
 	 * @returns {boolean}
 	 */
 	in($ids){
 		return $ids.includes(this.id);
+	}
+
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @returns {HTMLElement|string|null}
+	 */
+	toHTML($lang = null){
+		$lang = this._getLang($lang);
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<span class="${this.constructor.CSS_CLASS}" data-id="${this.id}"` +
+			       ` data-lang="${$lang.id}">${this.getName($lang)}</span>`;
+		}
+
+		let el = document.createElement('span');
+		el.className = this.constructor.CSS_CLASS;
+		el.innerText = this.getName($lang);
+
+		el.dataset.id   = String(this.id);
+		el.dataset.lang = $lang.id;
+
+		return el;
 	}
 
 }
@@ -384,6 +413,27 @@ class Profession extends DataObjectAbstract{
 	 */
 	getAttributes(){
 		return Attribute.getByProfession(this);
+	}
+
+	toHTML($lang = null){
+		$lang        = this._getLang($lang);
+		let cssClass = [this.constructor.CSS_CLASS, this.getName(Lang.EN).toLowerCase()].join(' ');
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<span class="${cssClass}" data-id="${this.id}" data-lang="${$lang.id}"` +
+			       ` data-abbr="${this.getAbbr($lang)}">${this.getName($lang)}</span>`;
+		}
+
+		let el = document.createElement('span');
+		el.className = cssClass;
+		el.innerText = this.getName($lang);
+
+		el.dataset.id   = String(this.id);
+		el.dataset.lang = $lang.id;
+		el.dataset.abbr = this.getAbbr($lang);
+
+		return el;
 	}
 
 }
@@ -773,6 +823,36 @@ class Attribute extends DataObjectAbstract{
 		return [...Array($max + 1).keys()].map(i => $fn(i, $val0, $val15));
 	}
 
+	toHTML($lang = null){
+		$lang        = this._getLang($lang);
+		let pri      = this.isPrimary() ? 'true' : 'false';
+		let cssClass = [this.constructor.CSS_CLASS, this.getProfession().getName(Lang.EN).toLowerCase()];
+
+		if(this.isPrimary()){
+			cssClass.push('primary');
+		}
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<span class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"` +
+			       ` data-level="${this.#level}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
+			       ` data-profession="${this.getProfessionID()}">${this.getName($lang)}</span>`;
+		}
+
+		let el = document.createElement('span');
+		el.className = cssClass.join(' ');
+		el.innerText = this.getName($lang);
+
+		el.dataset.id         = String(this.id);
+		el.dataset.lang       = $lang.id;
+		el.dataset.level      = String(this.#level);
+		el.dataset.max        = String(this.getMaxValue());
+		el.dataset.primary    = pri;
+		el.dataset.profession = String(this.getProfessionID());
+
+		return el;
+	}
+
 }
 
 /**
@@ -1066,7 +1146,9 @@ class Type extends DataObjectAbstract{
  *
  * @final
  */
-class Skill{
+class Skill extends DataObjectAbstract{
+
+	static get CSS_CLASS(){return 'skill'};
 
 	static get MODE_PVE(){return 'pve'};
 	static get MODE_PVP(){return 'pvp'};
@@ -1152,11 +1234,6 @@ class Skill{
 		concise: '',
 	};
 
-	#lang;
-
-	/** @returns {Lang} */
-	get lang(){return this.#lang};
-
 	/** @returns {Attribute} */
 	get attribute(){return this.#data.attribute};
 	/** @returns {Campaign} */
@@ -1203,17 +1280,17 @@ class Skill{
 	/** @returns {string} */
 	get concise(){return this.#data.concise};
 
+	// fooling the parent constructor because i don't want to implement a skill id list (@todo)
+	static get IDS(){
+		return [-42];
+	}
+
 	/**
 	 * @param {*} $skilldata
 	 * @param {Lang|string} $lang
 	 */
 	constructor($skilldata, $lang = Lang.EN){
-
-		if(!($lang instanceof Lang)){
-			$lang = new Lang($lang);
-		}
-
-		this.#lang = $lang;
+		super(-42, $lang);
 
 		for(let key in $skilldata){
 			let value = $skilldata[key];
@@ -1228,6 +1305,10 @@ class Skill{
 			}
 		}
 
+	}
+
+	getName($lang = null){
+		return this.#data.name;
 	}
 
 	/**
@@ -1249,6 +1330,48 @@ class Skill{
 		}
 
 		return data;
+	}
+
+	toHTML($lang = null){
+		$lang = this._getLang($lang);
+
+		let cssClass = [
+			this.constructor.CSS_CLASS,
+			`${this.constructor.CSS_CLASS}-${this.id}`,
+			this.profession.getName(Lang.EN).toLowerCase(),
+		];
+
+		if(this.is_elite){
+			cssClass.push('elite');
+		}
+
+		let isElite = this.is_elite ? 'true' : 'false';
+		let isRP    = this.is_rp ? 'true' : 'false';
+		let isPvP   = this.is_pvp ? 'true' : 'false';
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<div class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"`+
+			       ` data-attribute="${this.attribute.id}" data-campaign="${this.campaign.id}"` +
+			       ` data-profession="${this.profession.id}" data-type="${this.type.id}" data-elite="${isElite}"` +
+			       ` data-roleplay="${isRP}" data-pvp="${isPvP}">${this.name}</div>`;
+		}
+
+		let el = document.createElement('div');
+		el.className = cssClass.join(' ');
+		el.innerText = this.name;
+
+		el.dataset.id         = String(this.id);
+		el.dataset.lang       = $lang.id;
+		el.dataset.attribute  = String(this.attribute.id);
+		el.dataset.campaign   = String(this.campaign.id);
+		el.dataset.profession = String(this.profession.id);
+		el.dataset.type       = String(this.type.id);
+		el.dataset.elite      = isElite;
+		el.dataset.roleplay   = isRP;
+		el.dataset.pvp        = isPvP;
+
+		return el;
 	}
 
 }
@@ -45629,8 +45752,8 @@ var skilldesc = {
 	"1502": {
 		id: 1502,
 		name: "Arkaner Eifer",
-		description: "10 Sekunden lang bekommt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, für jede Verzauberung, die auf Euch liegt, 2 Energiepunkt(e) (maximal 2...7 Energiepunkte).",
-		concise: "(10 Sekunden.) Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr für jede Verzauberung auf Euch 2 Energiepunkt(e) (maximal 2...7)."
+		description: "10 Sekunden lang bekommt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, für jede Verzauberung, die auf Euch liegt, 1 Energiepunkt (maximal 2...7 Energiepunkte).",
+		concise: "(10 Sekunden.) Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr für jede Verzauberung auf Euch 1 Energiepunkt (maximal 2...7)."
 	},
 	"1503": {
 		id: 1503,
