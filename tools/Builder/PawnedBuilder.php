@@ -13,7 +13,6 @@ namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Attribute;
 use Buildwars\GWSkillData\Skill;
-use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Type;
 use chillerlan\Utilities\File;
