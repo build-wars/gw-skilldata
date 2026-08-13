@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
+use function implode;
 use function sprintf;
 use function strtolower;
 
@@ -111,15 +112,17 @@ final class Profession extends DataObjectAbstract{
 		return Attribute::getByProfession($this);
 	}
 
-	public function toHTML(Lang|string|null $lang = null, bool $short = false):string{
+	public function toHTML(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
-		$name = $this->getName($lang);
 
-		if($short){
-			$name = $this->getAbbr($lang);
-		}
-
-		return sprintf('<span class="%s %s">%s</span>', self::CSS_CLASS, strtolower($this->getName(Lang::EN)), $name);
+		return sprintf(
+			'<span class="%s" data-id="%d" data-lang="%s" data-abbr="%s">%s</span>',
+			implode(' ', [self::CSS_CLASS, strtolower($this->getName(Lang::EN))]),
+			$this->id,
+			$lang->id,
+			$this->getAbbr($lang),
+			$this->getName($lang),
+		);
 	}
 
 }

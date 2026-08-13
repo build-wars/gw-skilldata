@@ -7,6 +7,7 @@
 import DataObjectAbstract from './DataObjectAbstract.js';
 import PHPJS from './PHPJS.js';
 import Profession from './Profession.js';
+import Lang from './Lang.js';
 
 /**
  * Encapsulates all skill attribute related static data
@@ -384,6 +385,36 @@ export default class Attribute extends DataObjectAbstract{
 		let $fn = this.getProgressionFunction();
 
 		return [...Array($max + 1).keys()].map(i => $fn(i, $val0, $val15));
+	}
+
+	toHTML($lang = null){
+		$lang        = this._getLang($lang);
+		let pri      = this.isPrimary() ? 'true' : 'false';
+		let cssClass = [this.constructor.CSS_CLASS, this.getProfession().getName(Lang.EN).toLowerCase()];
+
+		if(this.isPrimary()){
+			cssClass.push('primary');
+		}
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<span class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"` +
+			       ` data-level="${this.#level}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
+			       ` data-profession="${this.getProfessionID()}">${this.getName($lang)}</span>`;
+		}
+
+		let el = document.createElement('span');
+		el.className = cssClass.join(' ');
+		el.innerText = this.getName($lang);
+
+		el.dataset.id         = String(this.id);
+		el.dataset.lang       = $lang.id;
+		el.dataset.level      = String(this.#level);
+		el.dataset.max        = String(this.getMaxValue());
+		el.dataset.primary    = pri;
+		el.dataset.profession = String(this.getProfessionID());
+
+		return el;
 	}
 
 }

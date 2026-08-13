@@ -15,12 +15,17 @@ use InvalidArgumentException;
 use function array_key_exists;
 use function array_merge;
 use function array_search;
+use function implode;
 use function property_exists;
+use function sprintf;
+use function strtolower;
 
 /**
  * Represents a single skill with all its unmodified data
  */
-final class Skill{
+final class Skill extends DataObjectAbstract{
+
+	public const CSS_CLASS = 'skill';
 
 	public const MODE_PVE = 'pve';
 	public const MODE_PVP = 'pvp';
@@ -101,8 +106,6 @@ final class Skill{
 		self::DATA_TYPE       => Type::class,
 	];
 
-	public readonly Lang $lang;
-
 	public readonly Attribute  $attribute;
 	public readonly Campaign   $campaign;
 	public readonly Profession $profession;
@@ -111,7 +114,6 @@ final class Skill{
 	public readonly bool       $is_pvp;
 	public readonly bool       $is_rp;
 	public readonly bool       $pvp_split;
-	public readonly int        $id;
 	public readonly int        $split_id;
 	public readonly int|float  $activation;
 	public readonly int        $recharge;
@@ -126,16 +128,24 @@ final class Skill{
 	public readonly string     $description;
 	public readonly string     $concise;
 
+	/**
+	 * @todo: remove with php 8.4
+	 * @internal
+	 */
+	public const NAME = SkillData::ID2DATA;
+
 	public function __construct(array $skilldata, Lang|string $lang = Lang::EN){
-
-		if(!$lang instanceof Lang){
-			$lang = new Lang($lang);
-		}
-
-		$this->lang = $lang;
+		// @todo: remove with php 8.4
+		parent::__construct($skilldata[self::DATA_ID], $lang);
 
 		foreach($skilldata as $key => $val){
 			if(property_exists($this, $key)){
+
+				// id is already set in the constructor (silly pre-8.4 readonly behaviour)
+				if($key === self::DATA_ID){
+					continue;
+				}
+
 				if(array_key_exists($key, self::DataObjects) && !$val instanceof (self::DataObjects[$key])){
 					$val = new (self::DataObjects[$key])($val);
 				}
@@ -144,6 +154,10 @@ final class Skill{
 			}
 		}
 
+	}
+
+	public function getName(Lang|string|null $lang = null):string{
+		return $this->name;
 	}
 
 	/**
@@ -193,6 +207,35 @@ final class Skill{
 	 */
 	public static function getLangKeyID(string $key):int{
 		return array_search($key, self::KEYS_DESC, true);
+	}
+
+	public function toHTML(Lang|string|null $lang = null):string{
+
+		$cssClasses = [
+			self::CSS_CLASS,
+			sprintf('%s-%s', self::CSS_CLASS, $this->id),
+			strtolower($this->profession->getName(Lang::EN)),
+		];
+
+		if($this->is_elite){
+			$cssClasses[] = 'elite';
+		}
+
+		return sprintf(
+			'<div class="%s" data-id="%d" data-lang="%s" data-attribute="%d" data-campaign="%d" data-profession="%d"'.
+			' data-type="%d" data-elite="%s" data-roleplay="%s" data-pvp="%s">%s</div>',
+			implode(' ', $cssClasses),
+			$this->id,
+			$this->lang->id,
+			$this->attribute->id,
+			$this->campaign->id,
+			$this->profession->id,
+			$this->type->id,
+			($this->is_elite ? 'true' : 'false'),
+			($this->is_rp ? 'true' : 'false'),
+			($this->is_pvp ? 'true' : 'false'),
+			$this->name,
+		);
 	}
 
 }

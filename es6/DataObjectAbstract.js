@@ -89,6 +89,8 @@ export default class DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the readable name of the given ID
+	 *
 	 * @param {Lang|string|null} $lang
 	 * @returns {string}
 	 */
@@ -99,6 +101,8 @@ export default class DataObjectAbstract{
 	}
 
 	/**
+	 * Checks whether the object ID is equal to the given ID
+	 *
 	 * @param {number|int} $id
 	 * @returns {boolean}
 	 */
@@ -107,11 +111,36 @@ export default class DataObjectAbstract{
 	}
 
 	/**
+	 * Checks whether the object ID is in the given array of IDs
+	 *
 	 * @param {number[]|int[]} $ids
 	 * @returns {boolean}
 	 */
 	in($ids){
 		return $ids.includes(this.id);
+	}
+
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @returns {HTMLElement|string|null}
+	 */
+	toHTML($lang = null){
+		$lang = this._getLang($lang);
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<span class="${this.constructor.CSS_CLASS}" data-id="${this.id}"` +
+			       ` data-lang="${$lang.id}">${this.getName($lang)}</span>`;
+		}
+
+		let el = document.createElement('span');
+		el.className = this.constructor.CSS_CLASS;
+		el.innerText = this.getName($lang);
+
+		el.dataset.id   = String(this.id);
+		el.dataset.lang = $lang.id;
+
+		return el;
 	}
 
 }

@@ -21,9 +21,9 @@ use function sprintf;
  */
 abstract class DataObjectAbstract{
 
+	public const CSS_CLASS = '';
 	/** @var array<int, array{de: string, en: string}> */
 	public const NAME      = [];
-	public const CSS_CLASS = '';
 
 	public readonly int  $id;
 	public readonly Lang $lang;
@@ -80,10 +80,21 @@ abstract class DataObjectAbstract{
 		return in_array($this->id, $ids, true);
 	}
 
+	/**
+	 * @param \Buildwars\GWSkillData\Lang|string|null $lang
+	 *
+	 * @return string
+	 */
 	public function toHTML(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
-		return sprintf('<span class="%s">%s</span>', static::CSS_CLASS, $this->getName($lang));
+		return sprintf(
+			'<span class="%s" data-id="%s" data-lang="%s">%s</span>',
+			static::CSS_CLASS,
+			$this->id,
+			$lang->id,
+			$this->getName($lang),
+		);
 	}
 
 }

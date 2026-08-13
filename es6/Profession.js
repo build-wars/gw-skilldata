@@ -7,6 +7,7 @@
 import Attribute from './Attribute.js';
 import DataObjectAbstract from './DataObjectAbstract.js';
 import PHPJS from './PHPJS.js';
+import Lang from './Lang.js';
 
 /**
  * Encapsulates all profession related static data
@@ -134,6 +135,27 @@ export default class Profession extends DataObjectAbstract{
 	 */
 	getAttributes(){
 		return Attribute.getByProfession(this);
+	}
+
+	toHTML($lang = null){
+		$lang        = this._getLang($lang);
+		let cssClass = [this.constructor.CSS_CLASS, this.getName(Lang.EN).toLowerCase()].join(' ');
+
+		// return an HTML snippet when DOM is not available
+		if(typeof document === 'undefined'){
+			return `<span class="${cssClass}" data-id="${this.id}" data-lang="${$lang.id}"` +
+			       ` data-abbr="${this.getAbbr($lang)}">${this.getName($lang)}</span>`;
+		}
+
+		let el = document.createElement('span');
+		el.className = cssClass;
+		el.innerText = this.getName($lang);
+
+		el.dataset.id   = String(this.id);
+		el.dataset.lang = $lang.id;
+		el.dataset.abbr = this.getAbbr($lang);
+
+		return el;
 	}
 
 }

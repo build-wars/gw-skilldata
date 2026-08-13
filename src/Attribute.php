@@ -14,6 +14,7 @@ namespace Buildwars\GWSkillData;
 use Closure;
 use function array_map;
 use function floor;
+use function implode;
 use function intval;
 use function max;
 use function min;
@@ -392,21 +393,26 @@ final class Attribute extends DataObjectAbstract{
 		return array_map(fn(int $i):int => $fn($i, $val0, $val15), range(0, $max));
 	}
 
-	public function toHTML(Lang|string|null $lang = null, bool $includeLevel = false):string{
-		$lang     = $this->getLang($lang);
-		$cssClass = strtolower($this->getProfession()->getName(Lang::EN));
+	public function toHTML(Lang|string|null $lang = null):string{
+		$lang       = $this->getLang($lang);
+		$cssClasses = [self::CSS_CLASS, strtolower($this->getProfession()->getName(Lang::EN))];
 
-		if($includeLevel){
-			return sprintf(
-				'<span class="green">%s</span> <span class="%s %s">%s</span>',
-				$this->level,
-				self::CSS_CLASS,
-				$cssClass,
-				$this->getName($lang),
-			);
+		if($this->isPrimary()){
+			$cssClasses[] = 'primary';
 		}
 
-		return sprintf('<span class="%s %s">%s</span>', self::CSS_CLASS, $cssClass, $this->getName($lang));
+		return sprintf(
+			'<span class="%s" data-id="%d" data-lang="%s" data-level="%d" data-max="%d"'.
+				' data-primary="%s" data-profession="%d">%s</span>',
+			implode(' ', $cssClasses),
+			$this->id,
+			$lang->id,
+			$this->level,
+			$this->getMaxValue(),
+			($this->isPrimary() ? 'true' : 'false'),
+			$this->getProfessionID(),
+			$this->getName($lang),
+		);
 	}
 
 }
