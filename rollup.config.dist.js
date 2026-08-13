@@ -18,6 +18,18 @@ export default {
 			format   : 'cjs',
 			sourcemap: true,
 		},
+		{
+			file     : 'dist/gw-skilldata-iife.js',
+			format   : 'iife',
+			name     : 'GwSkilldata',
+			sourcemap: true,
+		},
+		{
+			file     : 'dist/gw-skilldata-umd.js',
+			format   : 'umd',
+			name     : 'GwSkilldata',
+			sourcemap: true,
+		},
 	],
 	plugins: [
 		babel({
