@@ -17,6 +17,7 @@ use function array_merge;
 use function array_search;
 use function implode;
 use function property_exists;
+use function rawurlencode;
 use function sprintf;
 use function strtolower;
 
@@ -209,7 +210,7 @@ final class Skill extends DataObjectAbstract{
 		return array_search($key, self::KEYS_DESC, true);
 	}
 
-	public function toHTML(Lang|string|null $lang = null):string{
+	public function toHTML(Lang|string|null $lang = null, string|null $icon = null, string|null $link = null):string{
 
 		$cssClasses = [
 			self::CSS_CLASS,
@@ -219,6 +220,18 @@ final class Skill extends DataObjectAbstract{
 
 		if($this->is_elite){
 			$cssClasses[] = 'elite';
+		}
+
+		$inner = $this->name;
+
+		if($icon !== null){
+			/** @noinspection HtmlUnknownTarget */
+			$inner = sprintf('<img src="%1$s" alt="%2$s" title="%2$s" />', $icon, rawurlencode($this->name));
+		}
+
+		if($link !== null){
+			/** @noinspection HtmlUnknownTarget */
+			$inner = sprintf('<a href="%s" target="_blank">%s</a>', $link, $inner);
 		}
 
 		return sprintf(
@@ -234,7 +247,7 @@ final class Skill extends DataObjectAbstract{
 			($this->is_elite ? 'true' : 'false'),
 			($this->is_rp ? 'true' : 'false'),
 			($this->is_pvp ? 'true' : 'false'),
-			$this->name,
+			$inner,
 		);
 	}
 

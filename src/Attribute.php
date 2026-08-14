@@ -393,17 +393,22 @@ final class Attribute extends DataObjectAbstract{
 		return array_map(fn(int $i):int => $fn($i, $val0, $val15), range(0, $max));
 	}
 
-	public function toHTML(Lang|string|null $lang = null):string{
+	public function toHTML(Lang|string|null $lang = null, bool $includeLevel = false):string{
 		$lang       = $this->getLang($lang);
 		$cssClasses = [self::CSS_CLASS, strtolower($this->getProfession()->getName(Lang::EN))];
+		$level      = '';
 
 		if($this->isPrimary()){
 			$cssClasses[] = 'primary';
 		}
 
+		if($includeLevel){
+			$level = sprintf('<span class="level">%s</span>', $this->level);
+		}
+
 		return sprintf(
 			'<span class="%s" data-id="%d" data-lang="%s" data-level="%d" data-max="%d"'.
-				' data-primary="%s" data-profession="%d">%s</span>',
+				' data-primary="%s" data-profession="%d">%s%s</span>',
 			implode(' ', $cssClasses),
 			$this->id,
 			$lang->id,
@@ -411,6 +416,7 @@ final class Attribute extends DataObjectAbstract{
 			$this->getMaxValue(),
 			($this->isPrimary() ? 'true' : 'false'),
 			$this->getProfessionID(),
+			$level,
 			$this->getName($lang),
 		);
 	}

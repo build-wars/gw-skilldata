@@ -387,10 +387,16 @@ export default class Attribute extends DataObjectAbstract{
 		return [...Array($max + 1).keys()].map(i => $fn(i, $val0, $val15));
 	}
 
-	toHTML($lang = null){
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @param {boolean} $includeLevel
+	 * @returns {HTMLElement|string}
+	 */
+	toHTML($lang = null, $includeLevel = false){
 		$lang        = this._getLang($lang);
 		let pri      = this.isPrimary() ? 'true' : 'false';
 		let cssClass = [this.constructor.CSS_CLASS, this.getProfession().getName(Lang.EN).toLowerCase()];
+		let level    = '';
 
 		if(this.isPrimary()){
 			cssClass.push('primary');
@@ -398,14 +404,18 @@ export default class Attribute extends DataObjectAbstract{
 
 		// return an HTML snippet when DOM is not available
 		if(typeof document === 'undefined'){
+
+			if($includeLevel){
+				level = `<span class="level">${this.#level}</span>`;
+			}
+
 			return `<span class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"` +
 			       ` data-level="${this.#level}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
-			       ` data-profession="${this.getProfessionID()}">${this.getName($lang)}</span>`;
+			       ` data-profession="${this.getProfessionID()}">${level}${this.getName($lang)}</span>`;
 		}
 
 		let el = document.createElement('span');
 		el.className = cssClass.join(' ');
-		el.innerText = this.getName($lang);
 
 		el.dataset.id         = String(this.id);
 		el.dataset.lang       = $lang.id;
@@ -413,6 +423,16 @@ export default class Attribute extends DataObjectAbstract{
 		el.dataset.max        = String(this.getMaxValue());
 		el.dataset.primary    = pri;
 		el.dataset.profession = String(this.getProfessionID());
+
+		if($includeLevel){
+			let v = document.createElement('span');
+			v.className = 'level';
+			v.innerText = this.#level;
+
+			el.appendChild(v);
+		}
+
+		el.append(this.getName($lang));
 
 		return el;
 	}

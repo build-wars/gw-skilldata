@@ -202,7 +202,13 @@ export default class Skill extends DataObjectAbstract{
 		return data;
 	}
 
-	toHTML($lang = null){
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @param {string} $icon
+	 * @param {string} $link
+	 * @returns {HTMLElement|string}
+	 */
+	toHTML($lang = null, $icon = null, $link = null){
 		$lang = this._getLang($lang);
 
 		let cssClass = [
@@ -215,21 +221,53 @@ export default class Skill extends DataObjectAbstract{
 			cssClass.push('elite');
 		}
 
-		let isElite = this.is_elite ? 'true' : 'false';
-		let isRP    = this.is_rp ? 'true' : 'false';
-		let isPvP   = this.is_pvp ? 'true' : 'false';
+		let isElite     = this.is_elite ? 'true' : 'false';
+		let isRP        = this.is_rp ? 'true' : 'false';
+		let isPvP       = this.is_pvp ? 'true' : 'false';
+		let inner       = this.name;
+		let encodedName = encodeURIComponent(this.name);
 
 		// return an HTML snippet when DOM is not available
 		if(typeof document === 'undefined'){
+
+			if($icon !== null){
+				inner = `<img src="${$icon}" alt="${encodedName}" title="${encodedName}" />`;
+			}
+
+			if($link !== null){
+				inner = `<a href="${$link}" target="_blank">${inner}</a>`;
+			}
+
 			return `<div class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"`+
 			       ` data-attribute="${this.attribute.id}" data-campaign="${this.campaign.id}"` +
 			       ` data-profession="${this.profession.id}" data-type="${this.type.id}" data-elite="${isElite}"` +
-			       ` data-roleplay="${isRP}" data-pvp="${isPvP}">${this.name}</div>`;
+			       ` data-roleplay="${isRP}" data-pvp="${isPvP}">${inner}</div>`;
+		}
+
+		if($icon !== null){
+			let icon = document.createElement('img');
+
+			icon.src       = $icon;
+			icon.className = [this.constructor.CSS_CLASS, 'icon'].join('');
+			icon.alt       = encodedName;
+			icon.title     = encodedName;
+
+			inner = icon;
+		}
+
+		if($link !== null){
+			let a = document.createElement('a');
+
+			a.href   = $link;
+			a.target = '_blank';
+
+			a.append(inner);
+
+			inner = a;
 		}
 
 		let el = document.createElement('div');
 		el.className = cssClass.join(' ');
-		el.innerText = this.name;
 
 		el.dataset.id         = String(this.id);
 		el.dataset.lang       = $lang.id;
@@ -240,6 +278,8 @@ export default class Skill extends DataObjectAbstract{
 		el.dataset.elite      = isElite;
 		el.dataset.roleplay   = isRP;
 		el.dataset.pvp        = isPvP;
+
+		el.append(inner);
 
 		return el;
 	}
