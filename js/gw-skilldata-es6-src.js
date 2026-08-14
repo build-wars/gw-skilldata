@@ -821,10 +821,16 @@ class Attribute extends DataObjectAbstract{
 		return [...Array($max + 1).keys()].map(i => $fn(i, $val0, $val15));
 	}
 
-	toHTML($lang = null){
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @param {boolean} $includeLevel
+	 * @returns {HTMLElement|string}
+	 */
+	toHTML($lang = null, $includeLevel = false){
 		$lang        = this._getLang($lang);
 		let pri      = this.isPrimary() ? 'true' : 'false';
 		let cssClass = [this.constructor.CSS_CLASS, this.getProfession().getName(Lang.EN).toLowerCase()];
+		let level    = '';
 
 		if(this.isPrimary()){
 			cssClass.push('primary');
@@ -832,14 +838,18 @@ class Attribute extends DataObjectAbstract{
 
 		// return an HTML snippet when DOM is not available
 		if(typeof document === 'undefined'){
+
+			if($includeLevel){
+				level = `<span class="level">${this.#level}</span>`;
+			}
+
 			return `<span class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"` +
 			       ` data-level="${this.#level}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
-			       ` data-profession="${this.getProfessionID()}">${this.getName($lang)}</span>`;
+			       ` data-profession="${this.getProfessionID()}">${level}${this.getName($lang)}</span>`;
 		}
 
 		let el = document.createElement('span');
 		el.className = cssClass.join(' ');
-		el.innerText = this.getName($lang);
 
 		el.dataset.id         = String(this.id);
 		el.dataset.lang       = $lang.id;
@@ -847,6 +857,16 @@ class Attribute extends DataObjectAbstract{
 		el.dataset.max        = String(this.getMaxValue());
 		el.dataset.primary    = pri;
 		el.dataset.profession = String(this.getProfessionID());
+
+		if($includeLevel){
+			let v = document.createElement('span');
+			v.className = 'level';
+			v.innerText = this.#level;
+
+			el.appendChild(v);
+		}
+
+		el.append(this.getName($lang));
 
 		return el;
 	}
@@ -1330,7 +1350,13 @@ class Skill extends DataObjectAbstract{
 		return data;
 	}
 
-	toHTML($lang = null){
+	/**
+	 * @param {Lang|string|null} $lang
+	 * @param {string} $icon
+	 * @param {string} $link
+	 * @returns {HTMLElement|string}
+	 */
+	toHTML($lang = null, $icon = null, $link = null){
 		$lang = this._getLang($lang);
 
 		let cssClass = [
@@ -1343,21 +1369,53 @@ class Skill extends DataObjectAbstract{
 			cssClass.push('elite');
 		}
 
-		let isElite = this.is_elite ? 'true' : 'false';
-		let isRP    = this.is_rp ? 'true' : 'false';
-		let isPvP   = this.is_pvp ? 'true' : 'false';
+		let isElite     = this.is_elite ? 'true' : 'false';
+		let isRP        = this.is_rp ? 'true' : 'false';
+		let isPvP       = this.is_pvp ? 'true' : 'false';
+		let inner       = this.name;
+		let encodedName = encodeURIComponent(this.name);
 
 		// return an HTML snippet when DOM is not available
 		if(typeof document === 'undefined'){
+
+			if($icon !== null){
+				inner = `<img src="${$icon}" alt="${encodedName}" title="${encodedName}" />`;
+			}
+
+			if($link !== null){
+				inner = `<a href="${$link}" target="_blank">${inner}</a>`;
+			}
+
 			return `<div class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"`+
 			       ` data-attribute="${this.attribute.id}" data-campaign="${this.campaign.id}"` +
 			       ` data-profession="${this.profession.id}" data-type="${this.type.id}" data-elite="${isElite}"` +
-			       ` data-roleplay="${isRP}" data-pvp="${isPvP}">${this.name}</div>`;
+			       ` data-roleplay="${isRP}" data-pvp="${isPvP}">${inner}</div>`;
+		}
+
+		if($icon !== null){
+			let icon = document.createElement('img');
+
+			icon.src       = $icon;
+			icon.className = [this.constructor.CSS_CLASS, 'icon'].join('');
+			icon.alt       = encodedName;
+			icon.title     = encodedName;
+
+			inner = icon;
+		}
+
+		if($link !== null){
+			let a = document.createElement('a');
+
+			a.href   = $link;
+			a.target = '_blank';
+
+			a.append(inner);
+
+			inner = a;
 		}
 
 		let el = document.createElement('div');
 		el.className = cssClass.join(' ');
-		el.innerText = this.name;
 
 		el.dataset.id         = String(this.id);
 		el.dataset.lang       = $lang.id;
@@ -1368,6 +1426,8 @@ class Skill extends DataObjectAbstract{
 		el.dataset.elite      = isElite;
 		el.dataset.roleplay   = isRP;
 		el.dataset.pvp        = isPvP;
+
+		el.append(inner);
 
 		return el;
 	}
