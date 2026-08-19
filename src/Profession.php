@@ -80,6 +80,21 @@ final class Profession extends DataObjectAbstract{
 		self::DERVISH      => Attribute::MYSTICISM,
 	];
 
+	/** @var array<int, int> */
+	public const CAMPAIGN = [
+		self::NONE         => Campaign::CORE,
+		self::WARRIOR      => Campaign::CORE,
+		self::RANGER       => Campaign::CORE,
+		self::MONK         => Campaign::CORE,
+		self::NECROMANCER  => Campaign::CORE,
+		self::MESMER       => Campaign::CORE,
+		self::ELEMENTALIST => Campaign::CORE,
+		self::ASSASSIN     => Campaign::FACTIONS,
+		self::RITUALIST    => Campaign::FACTIONS,
+		self::PARAGON      => Campaign::NIGHTFALL,
+		self::DERVISH      => Campaign::NIGHTFALL,
+	];
+
 	/**
 	 * Returns the short name for the fiven profession ID
 	 */
@@ -104,6 +119,20 @@ final class Profession extends DataObjectAbstract{
 	}
 
 	/**
+	 * Returns the campaign of the current profession
+	 */
+	public function getCampaign():Campaign{
+		return new Campaign(self::CAMPAIGN[$this->id], $this->lang);
+	}
+
+	/**
+	 * Returns the campaign ID of the current profession
+	 */
+	public function getCampaignID():int{
+		return self::CAMPAIGN[$this->id];
+	}
+
+	/**
 	 * Returns all attributes for the current profession
 	 *
 	 * @return int[]
@@ -116,11 +145,10 @@ final class Profession extends DataObjectAbstract{
 		$lang = $this->getLang($lang);
 
 		return sprintf(
-			'<span class="%s" data-id="%d" data-lang="%s" data-abbr="%s">%s</span>',
+			'<span class="%s" data-id="%d" data-lang="%s">%s</span>',
 			implode(' ', [self::CSS_CLASS, strtolower($this->getName(Lang::EN))]),
 			$this->id,
 			$lang->id,
-			$this->getAbbr($lang),
 			$this->getName($lang),
 		);
 	}
