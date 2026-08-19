@@ -16,6 +16,7 @@ use function array_key_exists;
 use function array_merge;
 use function array_search;
 use function implode;
+use function in_array;
 use function property_exists;
 use function rawurlencode;
 use function sprintf;
@@ -24,7 +25,7 @@ use function strtolower;
 /**
  * Represents a single skill with all its unmodified data
  */
-final class Skill extends DataObjectAbstract{
+final class Skill{
 
 	public const CSS_CLASS = 'skill';
 
@@ -73,7 +74,6 @@ final class Skill extends DataObjectAbstract{
 		self::DATA_ADRENALINE_PRECISE, self::DATA_SACRIFICE, self::DATA_EXHAUSTION,
 	];
 
-
 	public const FIELD_NAMES = [
 		self::MODE_PVE                => [Lang::DE => 'Rollenspiel',               Lang::EN => 'Roleplay',                 ],
 		self::MODE_PVP                => [Lang::DE => 'Spieler gegen Spieler',     Lang::EN => 'Player versus Player',     ],
@@ -107,6 +107,8 @@ final class Skill extends DataObjectAbstract{
 		self::DATA_TYPE       => Type::class,
 	];
 
+	public readonly Lang       $lang;
+	public readonly int        $id;
 	public readonly Attribute  $attribute;
 	public readonly Campaign   $campaign;
 	public readonly Profession $profession;
@@ -129,24 +131,16 @@ final class Skill extends DataObjectAbstract{
 	public readonly string     $description;
 	public readonly string     $concise;
 
-	/**
-	 * @todo: remove with php 8.4
-	 * @internal
-	 */
-	public const NAME = SkillData::ID2DATA;
-
 	public function __construct(array $skilldata, Lang|string $lang = Lang::EN){
-		// @todo: remove with php 8.4
-		parent::__construct($skilldata[self::DATA_ID], $lang);
+
+		if(!$lang instanceof Lang){
+			$lang = new Lang($lang);
+		}
+
+		$this->lang = $lang;
 
 		foreach($skilldata as $key => $val){
 			if(property_exists($this, $key)){
-
-				// id is already set in the constructor (silly pre-8.4 readonly behaviour)
-				if($key === self::DATA_ID){
-					continue;
-				}
-
 				if(array_key_exists($key, self::DataObjects) && !$val instanceof (self::DataObjects[$key])){
 					$val = new (self::DataObjects[$key])($val);
 				}
@@ -157,8 +151,20 @@ final class Skill extends DataObjectAbstract{
 
 	}
 
-	public function getName(Lang|string|null $lang = null):string{
-		return $this->name;
+	/**
+	 * Checks whether the object ID is equal to the given ID
+	 */
+	public function is(int $id):bool{
+		return $this->id === $id;
+	}
+
+	/**
+	 * Checks whether the object ID is in the given array of IDs
+	 *
+	 * @param int[] $ids
+	 */
+	public function in(array $ids):bool{
+		return in_array($this->id, $ids, true);
 	}
 
 	/**
@@ -210,7 +216,7 @@ final class Skill extends DataObjectAbstract{
 		return array_search($key, self::KEYS_DESC, true);
 	}
 
-	public function toHTML(Lang|string|null $lang = null, string|null $icon = null, string|null $link = null):string{
+	public function toHTML(string|null $icon = null, string|null $link = null):string{
 
 		$cssClasses = [
 			self::CSS_CLASS,

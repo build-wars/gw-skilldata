@@ -19,7 +19,7 @@ interface SkillDataInterface{
 	 * The array keys for the descriptions array
 	 *
 	 * @var string[]
-	 * @deprecated 2.0.1 use Skill::KEYS_DATA instead
+	 * @deprecated 2.0.1 use Skill::KEYS_DESC instead
 	 */
 	final public const KEYS_DESC = Skill::KEYS_DESC;
 
