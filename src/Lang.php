@@ -23,16 +23,22 @@ final class Lang{
 
 	public const DE = 'de';
 	public const EN = 'en';
+	public const FR = 'fr';
 
 	public const IDS = [
 		self::DE,
 		self::EN,
+#		self::FR,
 	];
 
-	/** @var array<string, string> */
+	/**
+	 * @todo: translated names
+	 * @var array<string, string>
+	 */
 	public const NAMES = [
 		self::DE => 'German',
 		self::EN => 'English',
+		self::FR => 'French',
 	];
 
 	public readonly string $id;

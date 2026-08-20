@@ -37,32 +37,32 @@ final class Profession extends DataObjectAbstract{
 	public const DERVISH      = 10;
 
 	public const NAME = [
-		self::NONE         => [Lang::DE => 'keine',           Lang::EN => 'none',        ],
-		self::WARRIOR      => [Lang::DE => 'Krieger',         Lang::EN => 'Warrior',     ],
-		self::RANGER       => [Lang::DE => 'Waldläufer',      Lang::EN => 'Ranger',      ],
-		self::MONK         => [Lang::DE => 'Mönch',           Lang::EN => 'Monk',        ],
-		self::NECROMANCER  => [Lang::DE => 'Nekromant',       Lang::EN => 'Necromancer', ],
-		self::MESMER       => [Lang::DE => 'Mesmer',          Lang::EN => 'Mesmer',      ],
-		self::ELEMENTALIST => [Lang::DE => 'Elementarmagier', Lang::EN => 'Elementalist',],
-		self::ASSASSIN     => [Lang::DE => 'Assassine',       Lang::EN => 'Assassin',    ],
-		self::RITUALIST    => [Lang::DE => 'Ritualist',       Lang::EN => 'Ritualist',   ],
-		self::PARAGON      => [Lang::DE => 'Paragon',         Lang::EN => 'Paragon',     ],
-		self::DERVISH      => [Lang::DE => 'Derwisch',        Lang::EN => 'Dervish',     ],
+		self::NONE         => [Lang::DE => 'keine',           Lang::EN => 'none',         Lang::FR => 'aucun',        ],
+		self::WARRIOR      => [Lang::DE => 'Krieger',         Lang::EN => 'Warrior',      Lang::FR => 'Guerrier',     ],
+		self::RANGER       => [Lang::DE => 'Waldläufer',      Lang::EN => 'Ranger',       Lang::FR => 'Rôdeur',       ],
+		self::MONK         => [Lang::DE => 'Mönch',           Lang::EN => 'Monk',         Lang::FR => 'Moine',        ],
+		self::NECROMANCER  => [Lang::DE => 'Nekromant',       Lang::EN => 'Necromancer',  Lang::FR => 'Nécromant',    ],
+		self::MESMER       => [Lang::DE => 'Mesmer',          Lang::EN => 'Mesmer',       Lang::FR => 'Envoûteur',    ],
+		self::ELEMENTALIST => [Lang::DE => 'Elementarmagier', Lang::EN => 'Elementalist', Lang::FR => 'Elémentaliste',],
+		self::ASSASSIN     => [Lang::DE => 'Assassine',       Lang::EN => 'Assassin',     Lang::FR => 'Assassin',     ],
+		self::RITUALIST    => [Lang::DE => 'Ritualist',       Lang::EN => 'Ritualist',    Lang::FR => 'Ritualiste',   ],
+		self::PARAGON      => [Lang::DE => 'Paragon',         Lang::EN => 'Paragon',      Lang::FR => 'Parangon',     ],
+		self::DERVISH      => [Lang::DE => 'Derwisch',        Lang::EN => 'Dervish',      Lang::FR => 'Derviche',     ],
 	];
 
 	/** @var array<int, array{de: string, en: string}> */
 	public const NAME_ABBR = [
-		self::NONE         => [Lang::DE => 'X',  Lang::EN => 'X', ],
-		self::WARRIOR      => [Lang::DE => 'K',  Lang::EN => 'W', ],
-		self::RANGER       => [Lang::DE => 'W',  Lang::EN => 'R', ],
-		self::MONK         => [Lang::DE => 'Mö', Lang::EN => 'Mo',],
-		self::NECROMANCER  => [Lang::DE => 'N',  Lang::EN => 'N', ],
-		self::MESMER       => [Lang::DE => 'Me', Lang::EN => 'Me',],
-		self::ELEMENTALIST => [Lang::DE => 'E',  Lang::EN => 'E', ],
-		self::ASSASSIN     => [Lang::DE => 'A',  Lang::EN => 'A', ],
-		self::RITUALIST    => [Lang::DE => 'R',  Lang::EN => 'Rt',],
-		self::PARAGON      => [Lang::DE => 'P',  Lang::EN => 'P', ],
-		self::DERVISH      => [Lang::DE => 'D',  Lang::EN => 'D', ],
+		self::NONE         => [Lang::DE => 'X',  Lang::EN => 'X',  Lang::FR => 'X', ],
+		self::WARRIOR      => [Lang::DE => 'K',  Lang::EN => 'W',  Lang::FR => 'G', ],
+		self::RANGER       => [Lang::DE => 'W',  Lang::EN => 'R',  Lang::FR => 'R', ],
+		self::MONK         => [Lang::DE => 'Mö', Lang::EN => 'Mo', Lang::FR => 'M', ],
+		self::NECROMANCER  => [Lang::DE => 'N',  Lang::EN => 'N',  Lang::FR => 'N', ],
+		self::MESMER       => [Lang::DE => 'Me', Lang::EN => 'Me', Lang::FR => 'En',],
+		self::ELEMENTALIST => [Lang::DE => 'E',  Lang::EN => 'E',  Lang::FR => 'El',],
+		self::ASSASSIN     => [Lang::DE => 'A',  Lang::EN => 'A',  Lang::FR => 'A', ],
+		self::RITUALIST    => [Lang::DE => 'R',  Lang::EN => 'Rt', Lang::FR => 'Rt',],
+		self::PARAGON      => [Lang::DE => 'P',  Lang::EN => 'P',  Lang::FR => 'P', ],
+		self::DERVISH      => [Lang::DE => 'D',  Lang::EN => 'D',  Lang::FR => 'D', ],
 	];
 
 	/** @var array<int, int> */
