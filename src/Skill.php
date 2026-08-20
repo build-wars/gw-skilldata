@@ -142,7 +142,7 @@ final class Skill{
 		foreach($skilldata as $key => $val){
 			if(property_exists($this, $key)){
 				if(array_key_exists($key, self::DataObjects) && !$val instanceof (self::DataObjects[$key])){
-					$val = new (self::DataObjects[$key])($val);
+					$val = new (self::DataObjects[$key])($val, $this->lang);
 				}
 
 				$this->{$key} = $val;
