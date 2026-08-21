@@ -14,12 +14,14 @@ export default class Lang{
 
 	static get DE(){return 'de'}
 	static get EN(){return 'en'}
+	static get FR(){return 'fr'}
 
 	/** @returns {string[]} */
 	static get IDS(){
 		return [
 			Lang.DE,
 			Lang.EN,
+			Lang.FR,
 		];
 	}
 
@@ -28,6 +30,7 @@ export default class Lang{
 		return {
 			de: 'German',
 			en: 'English',
+			fr: 'French',
 		};
 	}
 

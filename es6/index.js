@@ -12,6 +12,7 @@ import Profession from './Profession.js';
 import Skill from './Skill.js';
 import SkillLangEnglish from './SkillLangEnglish.js';
 import SkillLangGerman from './SkillLangGerman.js';
+import SkillLangFrench from './SkillLangFrench.js';
 import Type from './Type.js';
 
 export {
@@ -22,5 +23,6 @@ export {
 	Skill,
 	SkillLangEnglish,
 	SkillLangGerman,
+	SkillLangFrench,
 	Type,
 };

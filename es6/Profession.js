@@ -50,34 +50,34 @@ export default class Profession extends DataObjectAbstract{
 	/** @returns {Object<{}>} */
 	static get NAME(){
 		return PHPJS.array_combine(Profession.IDS, [
-			{de: 'keine',           en: 'none',        },
-			{de: 'Krieger',         en: 'Warrior',     },
-			{de: 'Waldläufer',      en: 'Ranger',      },
-			{de: 'Mönch',           en: 'Monk',        },
-			{de: 'Nekromant',       en: 'Necromancer', },
-			{de: 'Mesmer',          en: 'Mesmer',      },
-			{de: 'Elementarmagier', en: 'Elementalist',},
-			{de: 'Assassine',       en: 'Assassin',    },
-			{de: 'Ritualist',       en: 'Ritualist',   },
-			{de: 'Paragon',         en: 'Paragon',     },
-			{de: 'Derwisch',        en: 'Dervish',     },
+			{de: 'keine',           en: 'none',         fr: 'aucun',        },
+			{de: 'Krieger',         en: 'Warrior',      fr: 'Guerrier',     },
+			{de: 'Waldläufer',      en: 'Ranger',       fr: 'Rôdeur',       },
+			{de: 'Mönch',           en: 'Monk',         fr: 'Moine',        },
+			{de: 'Nekromant',       en: 'Necromancer',  fr: 'Nécromant',    },
+			{de: 'Mesmer',          en: 'Mesmer',       fr: 'Envoûteur',    },
+			{de: 'Elementarmagier', en: 'Elementalist', fr: 'Elémentaliste',},
+			{de: 'Assassine',       en: 'Assassin',     fr: 'Assassin',     },
+			{de: 'Ritualist',       en: 'Ritualist',    fr: 'Ritualiste',   },
+			{de: 'Paragon',         en: 'Paragon',      fr: 'Parangon',     },
+			{de: 'Derwisch',        en: 'Dervish',      fr: 'Derviche',     },
 		]);
 	}
 
 	/** @returns {Object<{}>} */
 	static get NAME_ABBR(){
 		return PHPJS.array_combine(Profession.IDS, [
-			{de: 'X',  en: 'X', },
-			{de: 'K',  en: 'W', },
-			{de: 'W',  en: 'R', },
-			{de: 'Mö', en: 'Mo',},
-			{de: 'N',  en: 'N', },
-			{de: 'Me', en: 'Me',},
-			{de: 'E',  en: 'E', },
-			{de: 'A',  en: 'A', },
-			{de: 'R',  en: 'Rt',},
-			{de: 'P',  en: 'P', },
-			{de: 'D',  en: 'D', },
+			{de: 'X',  en: 'X',  fr: 'X', },
+			{de: 'K',  en: 'W',  fr: 'G', },
+			{de: 'W',  en: 'R',  fr: 'R', },
+			{de: 'Mö', en: 'Mo', fr: 'M', },
+			{de: 'N',  en: 'N',  fr: 'N', },
+			{de: 'Me', en: 'Me', fr: 'En',},
+			{de: 'E',  en: 'E',  fr: 'El',},
+			{de: 'A',  en: 'A',  fr: 'A', },
+			{de: 'R',  en: 'Rt', fr: 'Rt',},
+			{de: 'P',  en: 'P',  fr: 'P', },
+			{de: 'D',  en: 'D',  fr: 'D', },
 		]);
 	}
 

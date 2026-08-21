@@ -36,22 +36,62 @@ export default class Campaign extends DataObjectAbstract{
 	/** @returns {Object<{}>} */
 	static get NAME(){
 		return PHPJS.array_combine(Campaign.IDS, [
-			{de: 'Basis',            en: 'Core',            },
-			{de: 'Prophecies',       en: 'Prophecies',      },
-			{de: 'Factions',         en: 'Factions',        },
-			{de: 'Nightfall',        en: 'Nightfall',       },
-			{de: 'Eye of the North', en: 'Eye of the North',},
+			{
+				de: 'Basis',
+				en: 'Core',
+				fr: 'Fondamentale',
+			},
+			{
+				de: 'Prophecies',
+				en: 'Prophecies',
+				fr: 'Prophecies',
+			},
+			{
+				de: 'Factions',
+				en: 'Factions',
+				fr: 'Factions',
+			},
+			{
+				de: 'Nightfall',
+				en: 'Nightfall',
+				fr: 'Nightfall',
+			},
+			{
+				de: 'Eye of the North',
+				en: 'Eye of the North',
+				fr: 'Eye of the North',
+			},
 		]);
 	}
 
 	/** @returns {Object<{}>} */
 	static get CONTINENT_NAME(){
 		return PHPJS.array_combine(Campaign.IDS, [
-			{de: 'Die Nebel', en: 'The Mists',},
-			{de: 'Tyria',     en: 'Tyria',    },
-			{de: 'Cantha',    en: 'Cantha',   },
-			{de: 'Elona',     en: 'Elona',    },
-			{de: 'Tyria',     en: 'Tyria',    },
+			{
+				de: 'Die Nebel',
+				en: 'The Mists',
+				fr: 'Les Brumes',
+			},
+			{
+				de: 'Tyria',
+				en: 'Tyria',
+				fr: 'Tyrie',
+			},
+			{
+				de: 'Cantha',
+				en: 'Cantha',
+				fr: 'Cantha',
+			},
+			{
+				de: 'Elona',
+				en: 'Elona',
+				fr: 'Elona',
+			},
+			{
+				de: 'Tyria',
+				en: 'Tyria',
+				fr: 'Tyrie',
+			},
 		]);
 	}
 

@@ -95,57 +95,261 @@ export default class Attribute extends DataObjectAbstract{
 	/** @returns {Object<{}>} */
 	static get NAME(){
 		return PHPJS.array_combine(Attribute.IDS, [
-			{de: 'Schnellwirkung',           en: 'Fast Casting',                      },
-			{de: 'Illusionsmagie',           en: 'Illusion Magic',                    },
-			{de: 'Beherrschungsmagie',       en: 'Domination Magic',                  },
-			{de: 'Inspirationsmagie',        en: 'Inspiration Magic',                 },
-			{de: 'Blutmagie',                en: 'Blood Magic',                       },
-			{de: 'Todesmagie',               en: 'Death Magic',                       },
-			{de: 'Seelensammlung',           en: 'Soul Reaping',                      },
-			{de: 'Flüche',                   en: 'Curses',                            },
-			{de: 'Luftmagie',                en: 'Air Magic',                         },
-			{de: 'Erdmagie',                 en: 'Earth Magic',                       },
-			{de: 'Feuermagie',               en: 'Fire Magic',                        },
-			{de: 'Wassermagie',              en: 'Water Magic',                       },
-			{de: 'Energiespeicherung',       en: 'Energy Storage',                    },
-			{de: 'Heilgebete',               en: 'Healing Prayers',                   },
-			{de: 'Peinigungsgebete',         en: 'Smiting Prayers',                   },
-			{de: 'Schutzgebete',             en: 'Protection Prayers',                },
-			{de: 'Gunst der Götter',         en: 'Divine Favor',                      },
-			{de: 'Stärke',                   en: 'Strength',                          },
-			{de: 'Axtbeherrschung',          en: 'Axe Mastery',                       },
-			{de: 'Hammerbeherrschung',       en: 'Hammer Mastery',                    },
-			{de: 'Schwertkunst',             en: 'Swordsmanship',                     },
-			{de: 'Taktik',                   en: 'Tactics',                           },
-			{de: 'Tierbeherrschung',         en: 'Beast Mastery',                     },
-			{de: 'Fachkenntnis',             en: 'Expertise',                         },
-			{de: 'Überleben in der Wildnis', en: 'Wilderness Survival',               },
-			{de: 'Treffsicherheit',          en: 'Marksmanship',                      },
-			{de: 'Dolchbeherrschung',        en: 'Dagger Mastery',                    },
-			{de: 'Tödliche Künste',          en: 'Deadly Arts',                       },
-			{de: 'Schattenkünste',           en: 'Shadow Arts',                       },
-			{de: 'Zwiesprache',              en: 'Communing',                         },
-			{de: 'Wiederherstellungsmagie',  en: 'Restoration Magic',                 },
-			{de: 'Kanalisierungsmagie',      en: 'Channeling Magic',                  },
-			{de: 'Kritische Stöße',          en: 'Critical Strikes',                  },
-			{de: 'Macht des Herbeirufens',   en: 'Spawning Power',                    },
-			{de: 'Speerbeherrschung',        en: 'Spear Mastery',                     },
-			{de: 'Befehlsgewalt',            en: 'Command',                           },
-			{de: 'Motivation',               en: 'Motivation',                        },
-			{de: 'Führung',                  en: 'Leadership',                        },
-			{de: 'Sensenbeherrschung',       en: 'Scythe Mastery',                    },
-			{de: 'Windgebete',               en: 'Wind Prayers',                      },
-			{de: 'Erdgebete',                en: 'Earth Prayers',                     },
-			{de: 'Mystik',                   en: 'Mysticism',                         },
-			{de: 'Kein Attribut',            en: 'No Attribute',                      },
-			{de: 'Sonnenspeertitel',         en: 'Sunspear Title Track',              },
-			{de: 'Lichtbringertitel',        en: 'Lightbringer Title Track',          },
-			{de: 'Freund der Luxon',         en: 'Friend of the Luxons Title Track',  },
-			{de: 'Freund der Kurzick',       en: 'Friend of the Kurzicks Title Track',},
-			{de: 'Asuratitel',               en: 'Asura Title Track',                 },
-			{de: 'Deldrimortitel',           en: 'Deldrimor Title Track',             },
-			{de: 'Ebon-Vorhut-Titel',        en: 'Ebon Vanguard Title Track',         },
-			{de: 'Norntitel',                en: 'Norn Title Track',                  },
+			{
+				de: 'Schnellwirkung',
+				en: 'Fast Casting',
+				fr: 'Incantation rapide',
+			},
+			{
+				de: 'Illusionsmagie',
+				en: 'Illusion Magic',
+				fr: 'Magie de l\'illusion',
+			},
+			{
+				de: 'Beherrschungsmagie',
+				en: 'Domination Magic',
+				fr: 'Magie de domination',
+			},
+			{
+				de: 'Inspirationsmagie',
+				en: 'Inspiration Magic',
+				fr: 'Magie de l\'inspiration',
+			},
+			{
+				de: 'Blutmagie',
+				en: 'Blood Magic',
+				fr: 'Magie du sang',
+			},
+			{
+				de: 'Todesmagie',
+				en: 'Death Magic',
+				fr: 'Magie de la mort',
+			},
+			{
+				de: 'Seelensammlung',
+				en: 'Soul Reaping',
+				fr: 'Moisson des âmes',
+			},
+			{
+				de: 'Flüche',
+				en: 'Curses',
+				fr: 'Malédictions',
+			},
+			{
+				de: 'Luftmagie',
+				en: 'Air Magic',
+				fr: 'Magie de l\'air',
+			},
+			{
+				de: 'Erdmagie',
+				en: 'Earth Magic',
+				fr: 'Magie de la terre',
+			},
+			{
+				de: 'Feuermagie',
+				en: 'Fire Magic',
+				fr: 'Magie du feu',
+			},
+			{
+				de: 'Wassermagie',
+				en: 'Water Magic',
+				fr: 'Magie de l\'eau',
+			},
+			{
+				de: 'Energiespeicherung',
+				en: 'Energy Storage',
+				fr: 'Conservation d\'énergie',
+			},
+			{
+				de: 'Heilgebete',
+				en: 'Healing Prayers',
+				fr: 'Prières de guérison',
+			},
+			{
+				de: 'Peinigungsgebete',
+				en: 'Smiting Prayers',
+				fr: 'Prières de châtiment',
+			},
+			{
+				de: 'Schutzgebete',
+				en: 'Protection Prayers',
+				fr: 'Prières de protection',
+			},
+			{
+				de: 'Gunst der Götter',
+				en: 'Divine Favor',
+				fr: 'Faveur divine',
+			},
+			{
+				de: 'Stärke',
+				en: 'Strength',
+				fr: 'Force',
+			},
+			{
+				de: 'Axtbeherrschung',
+				en: 'Axe Mastery',
+				fr: 'Maîtrise de la hache',
+			},
+			{
+				de: 'Hammerbeherrschung',
+				en: 'Hammer Mastery',
+				fr: 'Maîtrise du marteau',
+			},
+			{
+				de: 'Schwertkunst',
+				en: 'Swordsmanship',
+				fr: 'Maîtrise de l\'épée',
+			},
+			{
+				de: 'Taktik',
+				en: 'Tactics',
+				fr: 'Tactique',
+			},
+			{
+				de: 'Tierbeherrschung',
+				en: 'Beast Mastery',
+				fr: 'Domptage',
+			},
+			{
+				de: 'Fachkenntnis',
+				en: 'Expertise',
+				fr: 'Expertise',
+			},
+			{
+				de: 'Überleben in der Wildnis',
+				en: 'Wilderness Survival',
+				fr: 'Survie',
+			},
+			{
+				de: 'Treffsicherheit',
+				en: 'Marksmanship',
+				fr: 'Adresse au tir',
+			},
+			{
+				de: 'Dolchbeherrschung',
+				en: 'Dagger Mastery',
+				fr: 'Maîtrise de la dague',
+			},
+			{
+				de: 'Tödliche Künste',
+				en: 'Deadly Arts',
+				fr: 'Arts létaux',
+			},
+			{
+				de: 'Schattenkünste',
+				en: 'Shadow Arts',
+				fr: 'Arts des ombres',
+			},
+			{
+				de: 'Zwiesprache',
+				en: 'Communing',
+				fr: 'Communion',
+			},
+			{
+				de: 'Wiederherstellungsmagie',
+				en: 'Restoration Magic',
+				fr: 'Magie de restauration',
+			},
+			{
+				de: 'Kanalisierungsmagie',
+				en: 'Channeling Magic',
+				fr: 'Magie de la canalisation',
+			},
+			{
+				de: 'Kritische Stöße',
+				en: 'Critical Strikes',
+				fr: 'Attaques critiques',
+			},
+			{
+				de: 'Macht des Herbeirufens',
+				en: 'Spawning Power',
+				fr: 'Puissance de l\'Invocation',
+			},
+			{
+				de: 'Speerbeherrschung',
+				en: 'Spear Mastery',
+				fr: 'Maîtrise du javelot',
+			},
+			{
+				de: 'Befehlsgewalt',
+				en: 'Command',
+				fr: 'Commandement',
+			},
+			{
+				de: 'Motivation',
+				en: 'Motivation',
+				fr: 'Motivation',
+			},
+			{
+				de: 'Führung',
+				en: 'Leadership',
+				fr: 'Charisme',
+			},
+			{
+				de: 'Sensenbeherrschung',
+				en: 'Scythe Mastery',
+				fr: 'Maîtrise de la faux',
+			},
+			{
+				de: 'Windgebete',
+				en: 'Wind Prayers',
+				fr: 'Prières du Vent',
+			},
+			{
+				de: 'Erdgebete',
+				en: 'Earth Prayers',
+				fr: 'Prières de la Terre',
+			},
+			{
+				de: 'Mystik',
+				en: 'Mysticism',
+				fr: 'Mysticisme',
+			},
+			{
+				de: 'Kein Attribut',
+				en: 'No Attribute',
+				fr: 'Aucune caractéristique',
+			},
+			{
+				de: 'Sonnenspeertitel',
+				en: 'Sunspear Title Track',
+				fr: 'Titre de Lancier du Soleil',
+			},
+			{
+				de: 'Lichtbringertitel',
+				en: 'Lightbringer Title Track',
+				fr: 'Titre de Porteur de Lumière',
+			},
+			{
+				de: 'Freund der Luxon',
+				en: 'Friend of the Luxons Title Track',
+				fr: 'Titre d\'Ami des Luxons',
+			},
+			{
+				de: 'Freund der Kurzick',
+				en: 'Friend of the Kurzicks Title Track',
+				fr: 'Titre d\'Ami des Kurzicks',
+			},
+			{
+				de: 'Asuratitel',
+				en: 'Asura Title Track',
+				fr: 'Titre d\'Asura',
+			},
+			{
+				de: 'Deldrimortitel',
+				en: 'Deldrimor Title Track',
+				fr: 'Titre de Deldrimor',
+			},
+			{
+				de: 'Ebon-Vorhut-Titel',
+				en: 'Ebon Vanguard Title Track',
+				fr: 'Titre de l\'Avant-garde d\'Ebon',
+			},
+			{
+				de: 'Norntitel',
+				en: 'Norn Title Track',
+				fr: 'Titre de Norn',
+			},
 		]);
 	}
 
@@ -406,11 +610,11 @@ export default class Attribute extends DataObjectAbstract{
 		if(typeof document === 'undefined'){
 
 			if($includeLevel){
-				level = `<span class="level">${this.#level}</span>`;
+				level = `<span class="level">${this.getLevel()}</span>`;
 			}
 
 			return `<span class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"` +
-			       ` data-level="${this.#level}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
+			       ` data-level="${this.getLevel()}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
 			       ` data-profession="${this.getProfessionID()}">${level}${this.getName($lang)}</span>`;
 		}
 
@@ -419,7 +623,7 @@ export default class Attribute extends DataObjectAbstract{
 
 		el.dataset.id         = String(this.id);
 		el.dataset.lang       = $lang.id;
-		el.dataset.level      = String(this.#level);
+		el.dataset.level      = String(this.getLevel());
 		el.dataset.max        = String(this.getMaxValue());
 		el.dataset.primary    = pri;
 		el.dataset.profession = String(this.getProfessionID());
@@ -427,7 +631,7 @@ export default class Attribute extends DataObjectAbstract{
 		if($includeLevel){
 			let v = document.createElement('span');
 			v.className = 'level';
-			v.innerText = this.#level;
+			v.innerText = this.getLevel();
 
 			el.appendChild(v);
 		}
