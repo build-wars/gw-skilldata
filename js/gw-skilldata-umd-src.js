@@ -20,12 +20,14 @@
 
 		static get DE(){return 'de'}
 		static get EN(){return 'en'}
+		static get FR(){return 'fr'}
 
 		/** @returns {string[]} */
 		static get IDS(){
 			return [
 				Lang.DE,
 				Lang.EN,
+				Lang.FR,
 			];
 		}
 
@@ -34,6 +36,7 @@
 			return {
 				de: 'German',
 				en: 'English',
+				fr: 'French',
 			};
 		}
 
@@ -332,34 +335,34 @@
 		/** @returns {Object<{}>} */
 		static get NAME(){
 			return PHPJS.array_combine(Profession.IDS, [
-				{de: 'keine',           en: 'none',        },
-				{de: 'Krieger',         en: 'Warrior',     },
-				{de: 'Waldläufer',      en: 'Ranger',      },
-				{de: 'Mönch',           en: 'Monk',        },
-				{de: 'Nekromant',       en: 'Necromancer', },
-				{de: 'Mesmer',          en: 'Mesmer',      },
-				{de: 'Elementarmagier', en: 'Elementalist',},
-				{de: 'Assassine',       en: 'Assassin',    },
-				{de: 'Ritualist',       en: 'Ritualist',   },
-				{de: 'Paragon',         en: 'Paragon',     },
-				{de: 'Derwisch',        en: 'Dervish',     },
+				{de: 'keine',           en: 'none',         fr: 'aucun',        },
+				{de: 'Krieger',         en: 'Warrior',      fr: 'Guerrier',     },
+				{de: 'Waldläufer',      en: 'Ranger',       fr: 'Rôdeur',       },
+				{de: 'Mönch',           en: 'Monk',         fr: 'Moine',        },
+				{de: 'Nekromant',       en: 'Necromancer',  fr: 'Nécromant',    },
+				{de: 'Mesmer',          en: 'Mesmer',       fr: 'Envoûteur',    },
+				{de: 'Elementarmagier', en: 'Elementalist', fr: 'Elémentaliste',},
+				{de: 'Assassine',       en: 'Assassin',     fr: 'Assassin',     },
+				{de: 'Ritualist',       en: 'Ritualist',    fr: 'Ritualiste',   },
+				{de: 'Paragon',         en: 'Paragon',      fr: 'Parangon',     },
+				{de: 'Derwisch',        en: 'Dervish',      fr: 'Derviche',     },
 			]);
 		}
 
 		/** @returns {Object<{}>} */
 		static get NAME_ABBR(){
 			return PHPJS.array_combine(Profession.IDS, [
-				{de: 'X',  en: 'X', },
-				{de: 'K',  en: 'W', },
-				{de: 'W',  en: 'R', },
-				{de: 'Mö', en: 'Mo',},
-				{de: 'N',  en: 'N', },
-				{de: 'Me', en: 'Me',},
-				{de: 'E',  en: 'E', },
-				{de: 'A',  en: 'A', },
-				{de: 'R',  en: 'Rt',},
-				{de: 'P',  en: 'P', },
-				{de: 'D',  en: 'D', },
+				{de: 'X',  en: 'X',  fr: 'X', },
+				{de: 'K',  en: 'W',  fr: 'G', },
+				{de: 'W',  en: 'R',  fr: 'R', },
+				{de: 'Mö', en: 'Mo', fr: 'M', },
+				{de: 'N',  en: 'N',  fr: 'N', },
+				{de: 'Me', en: 'Me', fr: 'En',},
+				{de: 'E',  en: 'E',  fr: 'El',},
+				{de: 'A',  en: 'A',  fr: 'A', },
+				{de: 'R',  en: 'Rt', fr: 'Rt',},
+				{de: 'P',  en: 'P',  fr: 'P', },
+				{de: 'D',  en: 'D',  fr: 'D', },
 			]);
 		}
 
@@ -535,57 +538,261 @@
 		/** @returns {Object<{}>} */
 		static get NAME(){
 			return PHPJS.array_combine(Attribute.IDS, [
-				{de: 'Schnellwirkung',           en: 'Fast Casting',                      },
-				{de: 'Illusionsmagie',           en: 'Illusion Magic',                    },
-				{de: 'Beherrschungsmagie',       en: 'Domination Magic',                  },
-				{de: 'Inspirationsmagie',        en: 'Inspiration Magic',                 },
-				{de: 'Blutmagie',                en: 'Blood Magic',                       },
-				{de: 'Todesmagie',               en: 'Death Magic',                       },
-				{de: 'Seelensammlung',           en: 'Soul Reaping',                      },
-				{de: 'Flüche',                   en: 'Curses',                            },
-				{de: 'Luftmagie',                en: 'Air Magic',                         },
-				{de: 'Erdmagie',                 en: 'Earth Magic',                       },
-				{de: 'Feuermagie',               en: 'Fire Magic',                        },
-				{de: 'Wassermagie',              en: 'Water Magic',                       },
-				{de: 'Energiespeicherung',       en: 'Energy Storage',                    },
-				{de: 'Heilgebete',               en: 'Healing Prayers',                   },
-				{de: 'Peinigungsgebete',         en: 'Smiting Prayers',                   },
-				{de: 'Schutzgebete',             en: 'Protection Prayers',                },
-				{de: 'Gunst der Götter',         en: 'Divine Favor',                      },
-				{de: 'Stärke',                   en: 'Strength',                          },
-				{de: 'Axtbeherrschung',          en: 'Axe Mastery',                       },
-				{de: 'Hammerbeherrschung',       en: 'Hammer Mastery',                    },
-				{de: 'Schwertkunst',             en: 'Swordsmanship',                     },
-				{de: 'Taktik',                   en: 'Tactics',                           },
-				{de: 'Tierbeherrschung',         en: 'Beast Mastery',                     },
-				{de: 'Fachkenntnis',             en: 'Expertise',                         },
-				{de: 'Überleben in der Wildnis', en: 'Wilderness Survival',               },
-				{de: 'Treffsicherheit',          en: 'Marksmanship',                      },
-				{de: 'Dolchbeherrschung',        en: 'Dagger Mastery',                    },
-				{de: 'Tödliche Künste',          en: 'Deadly Arts',                       },
-				{de: 'Schattenkünste',           en: 'Shadow Arts',                       },
-				{de: 'Zwiesprache',              en: 'Communing',                         },
-				{de: 'Wiederherstellungsmagie',  en: 'Restoration Magic',                 },
-				{de: 'Kanalisierungsmagie',      en: 'Channeling Magic',                  },
-				{de: 'Kritische Stöße',          en: 'Critical Strikes',                  },
-				{de: 'Macht des Herbeirufens',   en: 'Spawning Power',                    },
-				{de: 'Speerbeherrschung',        en: 'Spear Mastery',                     },
-				{de: 'Befehlsgewalt',            en: 'Command',                           },
-				{de: 'Motivation',               en: 'Motivation',                        },
-				{de: 'Führung',                  en: 'Leadership',                        },
-				{de: 'Sensenbeherrschung',       en: 'Scythe Mastery',                    },
-				{de: 'Windgebete',               en: 'Wind Prayers',                      },
-				{de: 'Erdgebete',                en: 'Earth Prayers',                     },
-				{de: 'Mystik',                   en: 'Mysticism',                         },
-				{de: 'Kein Attribut',            en: 'No Attribute',                      },
-				{de: 'Sonnenspeertitel',         en: 'Sunspear Title Track',              },
-				{de: 'Lichtbringertitel',        en: 'Lightbringer Title Track',          },
-				{de: 'Freund der Luxon',         en: 'Friend of the Luxons Title Track',  },
-				{de: 'Freund der Kurzick',       en: 'Friend of the Kurzicks Title Track',},
-				{de: 'Asuratitel',               en: 'Asura Title Track',                 },
-				{de: 'Deldrimortitel',           en: 'Deldrimor Title Track',             },
-				{de: 'Ebon-Vorhut-Titel',        en: 'Ebon Vanguard Title Track',         },
-				{de: 'Norntitel',                en: 'Norn Title Track',                  },
+				{
+					de: 'Schnellwirkung',
+					en: 'Fast Casting',
+					fr: 'Incantation rapide',
+				},
+				{
+					de: 'Illusionsmagie',
+					en: 'Illusion Magic',
+					fr: 'Magie de l\'illusion',
+				},
+				{
+					de: 'Beherrschungsmagie',
+					en: 'Domination Magic',
+					fr: 'Magie de domination',
+				},
+				{
+					de: 'Inspirationsmagie',
+					en: 'Inspiration Magic',
+					fr: 'Magie de l\'inspiration',
+				},
+				{
+					de: 'Blutmagie',
+					en: 'Blood Magic',
+					fr: 'Magie du sang',
+				},
+				{
+					de: 'Todesmagie',
+					en: 'Death Magic',
+					fr: 'Magie de la mort',
+				},
+				{
+					de: 'Seelensammlung',
+					en: 'Soul Reaping',
+					fr: 'Moisson des âmes',
+				},
+				{
+					de: 'Flüche',
+					en: 'Curses',
+					fr: 'Malédictions',
+				},
+				{
+					de: 'Luftmagie',
+					en: 'Air Magic',
+					fr: 'Magie de l\'air',
+				},
+				{
+					de: 'Erdmagie',
+					en: 'Earth Magic',
+					fr: 'Magie de la terre',
+				},
+				{
+					de: 'Feuermagie',
+					en: 'Fire Magic',
+					fr: 'Magie du feu',
+				},
+				{
+					de: 'Wassermagie',
+					en: 'Water Magic',
+					fr: 'Magie de l\'eau',
+				},
+				{
+					de: 'Energiespeicherung',
+					en: 'Energy Storage',
+					fr: 'Conservation d\'énergie',
+				},
+				{
+					de: 'Heilgebete',
+					en: 'Healing Prayers',
+					fr: 'Prières de guérison',
+				},
+				{
+					de: 'Peinigungsgebete',
+					en: 'Smiting Prayers',
+					fr: 'Prières de châtiment',
+				},
+				{
+					de: 'Schutzgebete',
+					en: 'Protection Prayers',
+					fr: 'Prières de protection',
+				},
+				{
+					de: 'Gunst der Götter',
+					en: 'Divine Favor',
+					fr: 'Faveur divine',
+				},
+				{
+					de: 'Stärke',
+					en: 'Strength',
+					fr: 'Force',
+				},
+				{
+					de: 'Axtbeherrschung',
+					en: 'Axe Mastery',
+					fr: 'Maîtrise de la hache',
+				},
+				{
+					de: 'Hammerbeherrschung',
+					en: 'Hammer Mastery',
+					fr: 'Maîtrise du marteau',
+				},
+				{
+					de: 'Schwertkunst',
+					en: 'Swordsmanship',
+					fr: 'Maîtrise de l\'épée',
+				},
+				{
+					de: 'Taktik',
+					en: 'Tactics',
+					fr: 'Tactique',
+				},
+				{
+					de: 'Tierbeherrschung',
+					en: 'Beast Mastery',
+					fr: 'Domptage',
+				},
+				{
+					de: 'Fachkenntnis',
+					en: 'Expertise',
+					fr: 'Expertise',
+				},
+				{
+					de: 'Überleben in der Wildnis',
+					en: 'Wilderness Survival',
+					fr: 'Survie',
+				},
+				{
+					de: 'Treffsicherheit',
+					en: 'Marksmanship',
+					fr: 'Adresse au tir',
+				},
+				{
+					de: 'Dolchbeherrschung',
+					en: 'Dagger Mastery',
+					fr: 'Maîtrise de la dague',
+				},
+				{
+					de: 'Tödliche Künste',
+					en: 'Deadly Arts',
+					fr: 'Arts létaux',
+				},
+				{
+					de: 'Schattenkünste',
+					en: 'Shadow Arts',
+					fr: 'Arts des ombres',
+				},
+				{
+					de: 'Zwiesprache',
+					en: 'Communing',
+					fr: 'Communion',
+				},
+				{
+					de: 'Wiederherstellungsmagie',
+					en: 'Restoration Magic',
+					fr: 'Magie de restauration',
+				},
+				{
+					de: 'Kanalisierungsmagie',
+					en: 'Channeling Magic',
+					fr: 'Magie de la canalisation',
+				},
+				{
+					de: 'Kritische Stöße',
+					en: 'Critical Strikes',
+					fr: 'Attaques critiques',
+				},
+				{
+					de: 'Macht des Herbeirufens',
+					en: 'Spawning Power',
+					fr: 'Puissance de l\'Invocation',
+				},
+				{
+					de: 'Speerbeherrschung',
+					en: 'Spear Mastery',
+					fr: 'Maîtrise du javelot',
+				},
+				{
+					de: 'Befehlsgewalt',
+					en: 'Command',
+					fr: 'Commandement',
+				},
+				{
+					de: 'Motivation',
+					en: 'Motivation',
+					fr: 'Motivation',
+				},
+				{
+					de: 'Führung',
+					en: 'Leadership',
+					fr: 'Charisme',
+				},
+				{
+					de: 'Sensenbeherrschung',
+					en: 'Scythe Mastery',
+					fr: 'Maîtrise de la faux',
+				},
+				{
+					de: 'Windgebete',
+					en: 'Wind Prayers',
+					fr: 'Prières du Vent',
+				},
+				{
+					de: 'Erdgebete',
+					en: 'Earth Prayers',
+					fr: 'Prières de la Terre',
+				},
+				{
+					de: 'Mystik',
+					en: 'Mysticism',
+					fr: 'Mysticisme',
+				},
+				{
+					de: 'Kein Attribut',
+					en: 'No Attribute',
+					fr: 'Aucune caractéristique',
+				},
+				{
+					de: 'Sonnenspeertitel',
+					en: 'Sunspear Title Track',
+					fr: 'Titre de Lancier du Soleil',
+				},
+				{
+					de: 'Lichtbringertitel',
+					en: 'Lightbringer Title Track',
+					fr: 'Titre de Porteur de Lumière',
+				},
+				{
+					de: 'Freund der Luxon',
+					en: 'Friend of the Luxons Title Track',
+					fr: 'Titre d\'Ami des Luxons',
+				},
+				{
+					de: 'Freund der Kurzick',
+					en: 'Friend of the Kurzicks Title Track',
+					fr: 'Titre d\'Ami des Kurzicks',
+				},
+				{
+					de: 'Asuratitel',
+					en: 'Asura Title Track',
+					fr: 'Titre d\'Asura',
+				},
+				{
+					de: 'Deldrimortitel',
+					en: 'Deldrimor Title Track',
+					fr: 'Titre de Deldrimor',
+				},
+				{
+					de: 'Ebon-Vorhut-Titel',
+					en: 'Ebon Vanguard Title Track',
+					fr: 'Titre de l\'Avant-garde d\'Ebon',
+				},
+				{
+					de: 'Norntitel',
+					en: 'Norn Title Track',
+					fr: 'Titre de Norn',
+				},
 			]);
 		}
 
@@ -846,11 +1053,11 @@
 			if(typeof document === 'undefined'){
 
 				if($includeLevel){
-					level = `<span class="level">${this.#level}</span>`;
+					level = `<span class="level">${this.getLevel()}</span>`;
 				}
 
 				return `<span class="${cssClass.join(' ')}" data-id="${this.id}" data-lang="${$lang.id}"` +
-				       ` data-level="${this.#level}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
+				       ` data-level="${this.getLevel()}" data-max="${this.getMaxValue()}" data-primary="${pri}"` +
 				       ` data-profession="${this.getProfessionID()}">${level}${this.getName($lang)}</span>`;
 			}
 
@@ -859,7 +1066,7 @@
 
 			el.dataset.id         = String(this.id);
 			el.dataset.lang       = $lang.id;
-			el.dataset.level      = String(this.#level);
+			el.dataset.level      = String(this.getLevel());
 			el.dataset.max        = String(this.getMaxValue());
 			el.dataset.primary    = pri;
 			el.dataset.profession = String(this.getProfessionID());
@@ -867,7 +1074,7 @@
 			if($includeLevel){
 				let v = document.createElement('span');
 				v.className = 'level';
-				v.innerText = this.#level;
+				v.innerText = this.getLevel();
 
 				el.appendChild(v);
 			}
@@ -915,22 +1122,62 @@
 		/** @returns {Object<{}>} */
 		static get NAME(){
 			return PHPJS.array_combine(Campaign.IDS, [
-				{de: 'Basis',            en: 'Core',            },
-				{de: 'Prophecies',       en: 'Prophecies',      },
-				{de: 'Factions',         en: 'Factions',        },
-				{de: 'Nightfall',        en: 'Nightfall',       },
-				{de: 'Eye of the North', en: 'Eye of the North',},
+				{
+					de: 'Basis',
+					en: 'Core',
+					fr: 'Fondamentale',
+				},
+				{
+					de: 'Prophecies',
+					en: 'Prophecies',
+					fr: 'Prophecies',
+				},
+				{
+					de: 'Factions',
+					en: 'Factions',
+					fr: 'Factions',
+				},
+				{
+					de: 'Nightfall',
+					en: 'Nightfall',
+					fr: 'Nightfall',
+				},
+				{
+					de: 'Eye of the North',
+					en: 'Eye of the North',
+					fr: 'Eye of the North',
+				},
 			]);
 		}
 
 		/** @returns {Object<{}>} */
 		static get CONTINENT_NAME(){
 			return PHPJS.array_combine(Campaign.IDS, [
-				{de: 'Die Nebel', en: 'The Mists',},
-				{de: 'Tyria',     en: 'Tyria',    },
-				{de: 'Cantha',    en: 'Cantha',   },
-				{de: 'Elona',     en: 'Elona',    },
-				{de: 'Tyria',     en: 'Tyria',    },
+				{
+					de: 'Die Nebel',
+					en: 'The Mists',
+					fr: 'Les Brumes',
+				},
+				{
+					de: 'Tyria',
+					en: 'Tyria',
+					fr: 'Tyrie',
+				},
+				{
+					de: 'Cantha',
+					en: 'Cantha',
+					fr: 'Cantha',
+				},
+				{
+					de: 'Elona',
+					en: 'Elona',
+					fr: 'Elona',
+				},
+				{
+					de: 'Tyria',
+					en: 'Tyria',
+					fr: 'Tyrie',
+				},
 			]);
 		}
 
@@ -1059,49 +1306,221 @@
 
 		static get NAME(){
 			return PHPJS.array_combine(Type.IDS, [
-				{de: 'Keine Fertigkeit',      en: 'No Skill',               },
-				{de: 'Fertigkeit',            en: 'Skill',                  },
-				{de: 'Bogenangriff',          en: 'Bow Attack',             },
-				{de: 'Nahkampfangriff',       en: 'Melee Attack',           },
-				{de: 'Axtangriff',            en: 'Axe Attack',             },
-				{de: 'Leithandangriff',       en: 'Lead Attack',            },
-				{de: 'Begleithandangriff',    en: 'Off-Hand Attack',        },
-				{de: 'Doppelangriff',         en: 'Dual Attack',            },
-				{de: 'Hammerangriff',         en: 'Hammer Attack',          },
-				{de: 'Sensenangriff',         en: 'Scythe Attack',          },
-				{de: 'Schwertangriff',        en: 'Sword Attack',           },
-				{de: 'Tiergefährtenangriff',  en: 'Pet Attack',             },
-				{de: 'Speerangriff',          en: 'Spear Attack',           },
-				{de: 'Anfeuerungsruf',        en: 'Chant',                  },
-				{de: 'Echo',                  en: 'Echo',                   },
-				{de: 'Form',                  en: 'Form',                   },
-				{de: 'Glyphe',                en: 'Glyph',                  },
-				{de: 'Vorbereitung',          en: 'Preparation',            },
-				{de: 'Binderitual',           en: 'Binding Ritual',         },
-				{de: 'Naturritual',           en: 'Nature Ritual',          },
-				{de: 'Schrei',                en: 'Shout',                  },
-				{de: 'Siegel',                en: 'Signet',                 },
-				{de: 'Zauber',                en: 'Spell',                  },
-				{de: 'Verzauberung',          en: 'Enchantment Spell',      },
-				{de: 'Verhexung',             en: 'Hex Spell',              },
-				{de: 'Gegenstandszauber',     en: 'Item Spell',             },
-				{de: 'Abwehrzauber',          en: 'Ward Spell',             },
-				{de: 'Waffenzauber',          en: 'Weapon Spell',           },
-				{de: 'Brunnenzauber',         en: 'Well Spell',             },
-				{de: 'Haltung',               en: 'Stance',                 },
-				{de: 'Falle',                 en: 'Trap',                   },
-				{de: 'Distanzangriff',        en: 'Ranged Attack',          },
-				{de: 'Ebon-Vorhut-Ritual',    en: 'Ebon Vanguard Ritual',   },
-				{de: 'Blitzverzauberung',     en: 'Flash Enchantment Spell',},
-				{de: 'Doppelverzauberung',    en: 'Double Enchantment',     },
-				{de: 'Berührungsfertigkeit',  en: 'Touch Skill',            },
-				{de: 'Berührungszauber',      en: 'Touch Spell',            },
-				{de: 'Berührungsverzauberung',en: 'Touch Enchantment Spell',},
-				{de: 'Berührungsverhexung',   en: 'Touch Hex Spell',        },
-				{de: 'Berührungssiegel',      en: 'Touch Signet',           },
-				{de: 'Angriffsfertigkeit',    en: 'Attack Skill',           },
-				{de: 'Dolchangriff',          en: 'Dagger Attack',          },
-				{de: 'Ritual',                en: 'Ritual',                 },
+				{
+					de: 'Keine Fertigkeit',
+					en: 'No Skill',
+					fr: 'Aucun Compétence',
+				},
+				{
+					de: 'Fertigkeit',
+					en: 'Skill',
+					fr: 'Compétence',
+				},
+				{
+					de: 'Bogenangriff',
+					en: 'Bow Attack',
+					fr: 'Attaque à l\'arc',
+				},
+				{
+					de: 'Nahkampfangriff',
+					en: 'Melee Attack',
+					fr: 'Attaque au corps à corps',
+				},
+				{
+					de: 'Axtangriff',
+					en: 'Axe Attack',
+					fr: 'Attaque à la hache',
+				},
+				{
+					de: 'Leithandangriff',
+					en: 'Lead Attack',
+					fr: 'Attaque main droite',
+				},
+				{
+					de: 'Begleithandangriff',
+					en: 'Off-Hand Attack',
+					fr: 'Attaque main gauche',
+				},
+				{
+					de: 'Doppelangriff',
+					en: 'Dual Attack',
+					fr: 'Attaque ambidextre',
+				},
+				{
+					de: 'Hammerangriff',
+					en: 'Hammer Attack',
+					fr: 'Attaque au marteau',
+				},
+				{
+					de: 'Sensenangriff',
+					en: 'Scythe Attack',
+					fr: 'Attaque à la faux',
+				},
+				{
+					de: 'Schwertangriff',
+					en: 'Sword Attack',
+					fr: 'Attaque à l\'épée',
+				},
+				{
+					de: 'Tiergefährtenangriff',
+					en: 'Pet Attack',
+					fr: 'Attaque de familier',
+				},
+				{
+					de: 'Speerangriff',
+					en: 'Spear Attack',
+					fr: 'Attaque au javelot',
+				},
+				{
+					de: 'Anfeuerungsruf',
+					en: 'Chant',
+					fr: 'Chant',
+				},
+				{
+					de: 'Echo',
+					en: 'Echo',
+					fr: 'Echo',
+				},
+				{
+					de: 'Form',
+					en: 'Form',
+					fr: 'Transformation',
+				},
+				{
+					de: 'Glyphe',
+					en: 'Glyph',
+					fr: 'Glyphe',
+				},
+				{
+					de: 'Vorbereitung',
+					en: 'Preparation',
+					fr: 'Préparation',
+				},
+				{
+					de: 'Binderitual',
+					en: 'Binding Ritual',
+					fr: 'Rituel d\'asservissement',
+				},
+				{
+					de: 'Naturritual',
+					en: 'Nature Ritual',
+					fr: 'Rituel de la nature',
+				},
+				{
+					de: 'Schrei',
+					en: 'Shout',
+					fr: 'Cri',
+				},
+				{
+					de: 'Siegel',
+					en: 'Signet',
+					fr: 'Sceau',
+				},
+				{
+					de: 'Zauber',
+					en: 'Spell',
+					fr: 'Sort',
+				},
+				{
+					de: 'Verzauberung',
+					en: 'Enchantment Spell',
+					fr: 'Enchantement',
+				},
+				{
+					de: 'Verhexung',
+					en: 'Hex Spell',
+					fr: 'Maléfice',
+				},
+				{
+					de: 'Gegenstandszauber',
+					en: 'Item Spell',
+					fr: 'Sort d\'altération d\'objet',
+				},
+				{
+					de: 'Abwehrzauber',
+					en: 'Ward Spell',
+					fr: 'Sort de protection',
+				},
+				{
+					de: 'Waffenzauber',
+					en: 'Weapon Spell',
+					fr: 'Sort d\'altération d\'arme',
+				},
+				{
+					de: 'Brunnenzauber',
+					en: 'Well Spell',
+					fr: 'Sort de puits',
+				},
+				{
+					de: 'Haltung',
+					en: 'Stance',
+					fr: 'Pose de combat',
+				},
+				{
+					de: 'Falle',
+					en: 'Trap',
+					fr: 'Piège',
+				},
+				{
+					de: 'Distanzangriff',
+					en: 'Ranged Attack',
+					fr: 'Attaque à distance',
+				},
+				{
+					de: 'Ebon-Vorhut-Ritual',
+					en: 'Ebon Vanguard Ritual',
+					fr: 'Rituel de l\'Avant-garde d\'Ebon',
+				},
+				{
+					de: 'Blitzverzauberung',
+					en: 'Flash Enchantment Spell',
+					fr: 'Enchantement instantané',
+				},
+				{
+					de: 'Doppelverzauberung',
+					en: 'Double Enchantment',
+					fr: '[Double Enchantment]',
+				},
+				{
+					de: 'Berührungsfertigkeit',
+					en: 'Touch Skill',
+					fr: 'Compétence de contact',
+				},
+				{
+					de: 'Berührungszauber',
+					en: 'Touch Spell',
+					fr: 'Sort de contact',
+				},
+				{
+					de: 'Berührungsverzauberung',
+					en: 'Touch Enchantment Spell',
+					fr: 'Enchantement de contact',
+				},
+				{
+					de: 'Berührungsverhexung',
+					en: 'Touch Hex Spell',
+					fr: 'Maléfice de contact',
+				},
+				{
+					de: 'Berührungssiegel',
+					en: 'Touch Signet',
+					fr: 'Sceau de contact',
+				},
+				{
+					de: 'Angriffsfertigkeit',
+					en: 'Attack Skill',
+					fr: 'Attaque',
+				},
+				{
+					de: 'Dolchangriff',
+					en: 'Dagger Attack',
+					fr: 'Attaque à la dague',
+				},
+				{
+					de: 'Ritual',
+					en: 'Ritual',
+					fr: 'Rituel',
+				},
 			]);
 		}
 
@@ -1440,8 +1859,8 @@
 
 	}
 
-	var lang$1 = "en";
-	var skilldesc$1 = {
+	var lang$2 = "en";
+	var skilldesc$2 = {
 		"0": {
 			id: 0,
 			name: "No Skill",
@@ -10360,8 +10779,8 @@
 		}
 	};
 	var en = {
-		lang: lang$1,
-		skilldesc: skilldesc$1
+		lang: lang$2,
+		skilldesc: skilldesc$2
 	};
 
 	var skilldata = {
@@ -40297,8 +40716,8 @@
 		skilldesc = en.skilldesc;
 	}
 
-	var lang = "de";
-	var skilldesc = {
+	var lang$1 = "de";
+	var skilldesc$1 = {
 		"0": {
 			id: 0,
 			name: "Keine Fertigkeit",
@@ -49217,8 +49636,8 @@
 		}
 	};
 	var de = {
-		lang: lang,
-		skilldesc: skilldesc
+		lang: lang$1,
+		skilldesc: skilldesc$1
 	};
 
 	/**
@@ -49230,9 +49649,8947 @@
 
 
 	/** @final */
-	class SkillLangGerman extends SkillDataAbstract{
+	let SkillLangGerman$1 = class SkillLangGerman extends SkillDataAbstract{
 		lang      = de.lang;
 		skilldesc = de.skilldesc;
+	};
+
+	var lang = "fr";
+	var skilldesc = {
+		"0": {
+			id: 0,
+			name: "Compétence vide",
+			description: "Emplacement de compétence vide",
+			concise: "Emplacement vide"
+		},
+		"1": {
+			id: 1,
+			name: "Sceau de guérison",
+			description: "Vous gagnez 82...172 points de vie. Votre bonus d'armure est réduit de -40 quand vous utilisez cette compétence.",
+			concise: "Vous gagnez 82...172 points de vie. <gray>Votre bonus d'armure est réduit de -40 quand vous utilisez cette compétence.</gray>"
+		},
+		"2": {
+			id: 2,
+			name: "Sceau de résurrection",
+			description: "Ressuscite un membre du groupe. Celui-ci revient à la vie avec 100% de vie et 25% d'énergie. Ce sceau ne se recharge que lorsque vous obtenez une augmentation de moral.",
+			concise: "Ressuscite le membre du groupe visé (100% de santé et 25% d'énergie)."
+		},
+		"3": {
+			id: 3,
+			name: "Sceau de capture",
+			description: "Choisissez une compétence d'un boss de votre profession mort à proximité. Le Sceau de Capture sera remplacé par cette compétence de façon permanente. Si c'était une compétence élite, vous obtenez 250 points d'XP pour chaque niveau gagné.",
+			concise: "Choisissez une compétence d'un boss de votre profession mort à proximité. Le Sceau de Capture sera remplacé par cette compétence de façon permanente. Si c'était une compétence élite, vous obtenez 250 points d'XP pour chaque niveau gagné."
+		},
+		"5": {
+			id: 5,
+			name: "Blocage de pouvoir",
+			description: "Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue. Cette compétence et toutes les autres compétences de la même caractéristique sont également inutilisables pendant 1...16 secondes.",
+			concise: "Interrompt un sort ou un chant. Effet de l'interruption : cette compétence et toutes les autres compétences de la même caractéristique sont inutilisables (1...16 secondes) pour l'ennemi visé."
+		},
+		"6": {
+			id: 6,
+			name: "Mantra de la terre",
+			description: "Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts de la terre, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
+			concise: ""
+		},
+		"7": {
+			id: 7,
+			name: "Mantra de flamme",
+			description: "Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts du feu, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
+			concise: "(30...90 secondes.) Réduit de 26...50% les dégâts du feu que vous subissez. Vous gagnez 2 points d'énergie quand vous subissez des dégâts du feu."
+		},
+		"8": {
+			id: 8,
+			name: "Mantra de givre",
+			description: "Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts du froid, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
+			concise: "(30...90 secondes.) Réduit de 26...50% les dégâts du froid que vous subissez. Vous gagnez 2 points d'énergie quand vous subissez des dégâts du froid."
+		},
+		"9": {
+			id: 9,
+			name: "Mantra de foudre",
+			description: "Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts de la foudre, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
+			concise: ""
+		},
+		"10": {
+			id: 10,
+			name: "Leveur de maléfice",
+			description: "Pendant 5...80 secondes, le prochain maléfice qui vous sera lancé n'aura pas d'effet. Son lanceur subira 10...46 points de dégâts.",
+			concise: "(5...80 secondes.) Le prochain maléfice qui vous est lancé échoue et son lanceur subit 10...46 points de dégâts."
+		},
+		"11": {
+			id: 11,
+			name: "Distorsion",
+			description: "Pendant 1...5 seconde(s), vous avez 75% de chances de bloquer les attaques. Quand vous bloquez une attaque de cette manière, soit vous perdez 2 points d'énergie, soit la Distorsion prend fin.",
+			concise: "(1...5 seconde(s).) Vous avez 75% de chances de bloquer."
+		},
+		"13": {
+			id: 13,
+			name: "Mantra de récupération",
+			description: "Pendant 5...20 secondes, les sorts que vous lancez se rechargent 33% plus vite.",
+			concise: "(5...20 secondes). Les sorts que vous lancez se rechargent 33% plus vite."
+		},
+		"14": {
+			id: 14,
+			name: "Mantra de persévérance",
+			description: "Pendant 5...25 secondes secondes, tous les maléfices de la magie de l'illusion que vous lancez durent 10...40% plus longtemps.",
+			concise: "(5...25 secondes). Les maléfices d'Illusion que vous lancez durent 10...40% plus longtemps."
+		},
+		"15": {
+			id: 15,
+			name: "Mantra des inscriptions",
+			description: "Pendant 5...21 secondes, vos sceaux se rechargent 10...40% plus vite.",
+			concise: "(30...90 secondes.) Vos sceaux se rechargent 25...50% plus vite."
+		},
+		"16": {
+			id: 16,
+			name: "Mantra de concentration",
+			description: "Pendant 1...38 seconde(s), la prochaine tentative d'interruption lorsque vous utilisez une compétence échouera.",
+			concise: ""
+		},
+		"17": {
+			id: 17,
+			name: "Mantra de résolution",
+			description: "Pendant 30...90 secondes, vous ne pouvez pas être interrompu, mais pour chaque tentative d'interruption, soit vous perdez 10...4 points d'énergie, soit le Mantra de résolution prend fin.",
+			concise: ""
+		},
+		"18": {
+			id: 18,
+			name: "Mantra des sceaux",
+			description: "Pendant 10...40 secondes, vous bénéficiez d'un bonus d'armure de +3 pour chaque sceau dont vous êtes équipé. Chaque fois que vous utilisez un sceau, vous gagnez 5...60 points de vie.",
+			concise: ""
+		},
+		"19": {
+			id: 19,
+			name: "Fragilité",
+			description: "Pendant 8...20 secondes, l'ennemi visé et les ennemis adjacents subissent 5...20 points de dégâts chaque fois qu'ils sont affectés ou libérés d'une nouvelle condition.",
+			concise: "Inflige également des maléfices aux ennemis adjacents à la cible (8...20 secondes). Ces ennemis subissent 5...20 points de dégâts chaque fois qu'ils gagnent ou perdent une condition."
+		},
+		"21": {
+			id: 21,
+			name: "Enchantement inspiré",
+			description: "Lève un enchantement à l'ennemi visé et vous obtenez 3...15 points d'énergie. Pendant 20 secondes, l'Enchantement inspiré est remplacé par celui qui a été pris à la cible ennemie.",
+			concise: "Supprime un enchantement à la cible ennemie. Effet de la suppression : vous obtenez 3...15 points d'énergie ; ce sort est remplacé par cet enchantement (20 secondes)."
+		},
+		"22": {
+			id: 22,
+			name: "Maléfice inspiré",
+			description: "Lève un maléfice de la cible (un allié ou vous-même) et vous gagnez 4...10 points d'énergie. Pendant 20 secondes, le Maléfice inspiré est remplacé par celui qui a été levé.",
+			concise: "Lève un maléfice qui frappe la cible alliée. Effets de la suppression : vous obtenez 4...10 points d'énergie ; ce sort est remplacé par ce maléfice (20 secondes)."
+		},
+		"23": {
+			id: 23,
+			name: "Dissipation de pouvoir",
+			description: "Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue et l'ennemi subit 30...120 points de dégâts.",
+			concise: "Interrompt un sort ou un chant. Effet de l'interruption : inflige 30...120 points de dégâts."
+		},
+		"24": {
+			id: 24,
+			name: "Fuite de pouvoir",
+			description: "Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue et l'ennemi visé perd 3...17 points d'énergie.",
+			concise: "Interrompt un sort ou un chant. Effet de l'interruption : provoque une perte de 3...17 points d'énergie."
+		},
+		"25": {
+			id: 25,
+			name: "Drain de pouvoir",
+			description: "Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue et vous gagnez 1...31 points d'énergie.",
+			concise: ""
+		},
+		"26": {
+			id: 26,
+			name: "Empathie",
+			description: "Pendant 5...15 secondes, à chaque fois que l'ennemi visé attaque, il subit 15...55 points de dégâts. L'ennemi visé inflige 1...15 point(s) de dégâts en moins à chaque attaque.",
+			concise: ""
+		},
+		"27": {
+			id: 27,
+			name: "Dispersion des illusions",
+			description: "Lève un maléfice qui frappe l'ennemi visé. Si un maléfice est levé, cet ennemi et tous les ennemis adjacents subissent 15...75 points de dégâts.",
+			concise: "Lève un maléfice d'Envoûteur de la cible ennemie. Effet de la suppression : inflige 15...75 points de dégâts à la cible et aux ennemis adjacents."
+		},
+		"28": {
+			id: 28,
+			name: "Retour de flamme",
+			description: "Pendant 10 secondes, chaque fois que l'ennemi visé lance un sort, il subit 35...140 points de dégâts.",
+			concise: "(10 secondes.) L'ennemi visé subit 35...140 points de dégâts chaque fois qu'il lance un sort."
+		},
+		"29": {
+			id: 29,
+			name: "Black-out",
+			description: "Pendant 2...6 secondes, toutes les compétences de la cible touchée sont inefficaces. Les vôtres seront désactivées pendant 5 secondes.",
+			concise: "(2...6 secondes). Désactive les compétences. <gray>Vos compétences sont désactivées (5 secondes).</gray>"
+		},
+		"30": {
+			id: 30,
+			name: "Diversion",
+			description: "Pendant 6 secondes, la prochaine fois que l'ennemi visé utilisera une compétence, elle mettra 10...56 secondes de plus à se recharger.",
+			concise: "(6 secondes.) La compétence suivante de l'ennemi visé a un temps de recharge accru de +10...56 secondes."
+		},
+		"31": {
+			id: 31,
+			name: "Conjuration de fantasme",
+			description: "Pendant 2...16 secondes, la cible ennemie subit une dégénération de santé de -5.",
+			concise: "(2...16 secondes.) Provoque une dégénération de santé de -5."
+		},
+		"32": {
+			id: 32,
+			name: "Illusion de faiblesse",
+			description: "Vous perdez 50...240 points de vie. L'illusion de faiblesse prend fin si les dégâts que vous subissez font descendre vos points de vie au-dessous de 25% de votre maximum. Quand l'Illusion de faiblesse prend fin, vous gagnez 50...240 points de vie.",
+			concise: "Vous perdez 50...240 points de vie. Effet final : vous gagnez 50...240 points de vie. Prend fin si les dégâts que vous subissez font descendre votre santé au-dessous de 25% de votre maximum."
+		},
+		"33": {
+			id: 33,
+			name: "Armes illusoires",
+			description: "Pendant 30 secondes, vous n'infligez pas de dégâts au corps à corps, mais à chaque fois que vous attaquez au corps à corps, l'ennemi visé subit 8...40 points de dégâts. Vous obtenez un bonus d'armure de +5 pour chaque compétence de magie de l'illusion équipée.",
+			concise: "(30 secondes.) Vous n'infligez pas de dégâts au corps à corps, mais à chaque fois que vous attaquez au corps à corps, l'ennemi visé subit 8...40 points de dégâts. Vous obtenez un bonus d'armure de +5 pour chaque compétence de magie de l'illusion équipée."
+		},
+		"34": {
+			id: 34,
+			name: "Visage avenant",
+			description: "Pendant 4...10 secondes, à chaque fois que la cible (un allié ou vous-même) visée est touchée au corps à corps, tous les ennemis adjacents perdent toute leur adrénaline et 3 points d'énergie.",
+			concise: ""
+		},
+		"35": {
+			id: 35,
+			name: "Ignorance",
+			description: "Pendant 8...20 secondes la cible ennemie ne peut pas utiliser ses sceaux.",
+			concise: "(8...20 secondes.) L'ennemi visé ne peut pas utiliser de sceaux."
+		},
+		"36": {
+			id: 36,
+			name: "Enigme des arcanes",
+			description: "Pendant 5...15 secondes, le temps d'incantation des sorts de l'ennemi ciblé et de tous les ennemis adjacents est doublé. Lorsque ce maléfice prend fin, vous gagnez 1...7 point(s) d'énergie.",
+			concise: "Inflige également des maléfices aux ennemis adjacents à la cible (5...15 secondes). Double le temps d'incantation des sort. Lorsque ce maléfice prend fin, vous gagnez 1...7 point(s) d'énergie."
+		},
+		"37": {
+			id: 37,
+			name: "Illusion de hâte",
+			description: "Pendant 5...11 secondes, vous ne souffrez plus d'Infirmité et vous déplacez 33% plus vite. Lorsque l'Illusion de hâte prend fin, vous souffrez d'Infirmité pendant 3 secondes.",
+			concise: "(5...11 secondes.) Vous vous déplacez 33% plus vite. Effet initial : annule l'infirmité. <gray>Effet final: vous êtes frappé d'Infirmité (3 secondes).</gray>"
+		},
+		"38": {
+			id: 38,
+			name: "Canalisation",
+			description: "Pendant 8...56 secondes, à chaque fois que vous lancez un sort, vous bénéficiez d'1 point d'énergie pour chaque ennemi dans la zone.",
+			concise: "(8...56 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie par ennemi dans la zone."
+		},
+		"39": {
+			id: 39,
+			name: "Afflux d'énergie",
+			description: "L'ennemi visé perd 1...10 point(s) d'énergie. Pour chaque point d'énergie perdu, la cible et les ennemis à proximité subissent 9 points de dégâts.",
+			concise: "Provoque une perte de 1...10 point(s) d'énergie, inflige 9 points de dégâts à la cible et aux ennemis à proximité par point d'énergie perdu."
+		},
+		"40": {
+			id: 40,
+			name: "Festin éthéré",
+			description: "L'ennemi visé perd 3 points d'énergie. Vous êtes guéri de 20...65 points de vie pour chaque point d'énergie perdu.",
+			concise: "Provoque une perte de 3 points d'énergie. Vous gagnez 20...65 points de vie par point d'énergie perdu."
+		},
+		"41": {
+			id: 41,
+			name: "Seigneur éthéré",
+			description: "Vous perdez toute votre énergie. Pendant 5...10 secondes, la cible ennemie subit une dégénération d'énergie de -1...3 et vous bénéficiez d'une régénération d'énergie de +1...3.",
+			concise: "L'ennemi visé subit une dégénération d'énergie de -1...3 et vous bénéficiez d'une régénration d'énergie de +1...3. (5...10 secondes)."
+		},
+		"42": {
+			id: 42,
+			name: "Flamme d'énergie",
+			description: "La cible perd 1...10 points d'énergie et subit 9 points de dégâts pour chaque point d'énergie perdu.",
+			concise: "Provoque une perte de 1...10 points d'énergie. Inflige 9 points de dégâts par point d'énergie perdu."
+		},
+		"43": {
+			id: 43,
+			name: "Maladresse",
+			description: "Pendant 4 secondes, la cible et les ennemis adjacents sont affectés par le maléfice Maladresse. La prochaine fois que chaque ennemi attaque, cette action est interrompue et l'ennemi subit 10...92 points de dégâts.",
+			concise: "(4 secondes.) Les ennemis adjacents sont également affectés. Interrompt l'attaque suivante. Effet de l'interruption : 10...92 points de dégâts."
+		},
+		"44": {
+			id: 44,
+			name: "Douleur fantôme",
+			description: "Pendant 10 secondes, la cible ennemie subit une dégénération de santé de -1...4. Quand la Douleur fantôme cesse, la cible souffre d'une Blessure profonde qui réduit sa santé maximum de 20% pendant 5...20 secondes.",
+			concise: "(10 secondes.) Provoque une dégénération de santé de -1...4. Effet initial : provoque la Blessure profonde (5...20 secondes.)"
+		},
+		"45": {
+			id: 45,
+			name: "Fardeau éthéré",
+			description: "Pendant 10 secondes, la cible ennemie se déplace 50% moins vite. Quand le Fardeau éthéré disparaît, vous gagnez 10...22 points d'énergie.",
+			concise: "(10 secondes.) La cible ennemie se déplace 50% moins vite. Effet initial : vous gagnez 10...22 points d'énergie."
+		},
+		"46": {
+			id: 46,
+			name: "Culpabilité",
+			description: "Pendant 6 secondes, la prochaine fois que l'ennemi visé lance un sort qui vise un autre ennemi, ce sort échoue et vous lui volez jusqu'à 5...14 points d'énergie.",
+			concise: "(6 secondes). Le sort suivant de l'ennemi visé échoue et vous volez 5...14 points d'énergie."
+		},
+		"47": {
+			id: 47,
+			name: "Incompétence",
+			description: "Pendant 4 secondes, la prochaine fois que l'ennemi visé ou tout ennemi adjacent attaque, il subit 30...135 points de dégâts et est aveuglé pendant 10 secondes.",
+			concise: "(4 secondes.) affecte également les ennemis proches de la cible. Inflige 30...135 points de dégâts. Provoque l'Aveuglement (10 secondes). Aucun effet sauf si l'ennemi affecté attaque."
+		},
+		"48": {
+			id: 48,
+			name: "Esprit de l'échec",
+			description: "Pendant 30 secondes, l'ennemi visé a 25% de chances de rater ses attaques. Vous gagnez 1...3 point(s) d'énergie pour chaque attaque que l'ennemi manque lors du combat.",
+			concise: "(30 secondes.) L'ennemi visé a 25% de chances de manquer. Vous gagnez 1...3 point(s) d'énergie chaque fois qu'il manque."
+		},
+		"49": {
+			id: 49,
+			name: "Délabrement spirituel",
+			description: "Pendant 5...40 secondes, la prochaine fois que l'énergie de l'ennemi visé tombe à zéro, celui-ci subit 15...100 points de dégâts.",
+			concise: "(5...40 secondes.) L'ennemi visé subit 15...100 points de dégâts la prochaine fois que son énergie tombe à 0."
+		},
+		"50": {
+			id: 50,
+			name: "Embarras de l'incapable",
+			description: "Après 3 secondes, la cible ennemie et tous les ennemis adjacents subissent 20...100 points de dégâts. Si cet ennemi parvient à utiliser une compétence, Embarras de l'incapable prend fin prématurément et n'inflige pas de dégâts.",
+			concise: "(3 secondes.) Effet initial : 20...100 points de dégâts à la cible et aux ennemis adjacents. <gray>Est sans effet et prend fin prématurément si la cible ennemie utilise une compétence.</gray>"
+		},
+		"51": {
+			id: 51,
+			name: "Honte",
+			description: "Pendant 6 secondes, la prochaine fois que l'ennemi visé lance un sort qui vise un allié, ce sort échoue et vous lui volez jusqu'à 5...14 points d'énergie.",
+			concise: ""
+		},
+		"52": {
+			id: 52,
+			name: "Panique",
+			description: "Pendant 1...10 secondes, la cible ennemie et tous les ennemis adjacents sont frappés par Panique. Lorsqu'un ennemi sous l'emprise de Panique réussit à utiliser une compétence, tous les ennemis à proximité sont interrompus.",
+			concise: ""
+		},
+		"53": {
+			id: 53,
+			name: "Migraine",
+			description: "Pendant 5...20 secondes, la cible ennemie subit une dégénération de santé de -1...8 et le temps d'activation de ses compétences est rallongé de 100%.",
+			concise: ""
+		},
+		"54": {
+			id: 54,
+			name: "Angoisse paralysante",
+			description: "Pendant 5...20 secondes, la cible se déplace et attaque 50% moins vite et subit une dégénération de santé de -1...8.",
+			concise: "(5...20 secondes.) L'ennemi visé se déplace et attaque 50% moins vite et subit une dégénération de santé de -1...8."
+		},
+		"55": {
+			id: 55,
+			name: "Rêves enfiévrés",
+			description: "Pendant 10...25 secondes, chaque fois que l'ennemi visé est affecté par une nouvelle condition, tous les ennemis dans la zone en sont également affectés. Si la cible est affectée par au moins 2 conditions, elle est frappée de stupeur pendant 1...3 secondes.",
+			concise: ""
+		},
+		"56": {
+			id: 56,
+			name: "Images apaisantes",
+			description: "Pendant 8...20 secondes, l'ennemi visé et tous les ennemis adjacents ne peuvent pas récupérer d'adrénaline.",
+			concise: ""
+		},
+		"57": {
+			id: 57,
+			name: "Cri de frustration",
+			description: "Si l'ennemi visé utilise une compétence, celui-ci et les autres ennemis dans la zone sont interrompus et subissent 15...75 points de dégâts.",
+			concise: "Si l'ennemi visé utilise une compétence, lui et tous les ennemis de la zone sont interrompus et subissent 15...75 points de dégâts."
+		},
+		"58": {
+			id: 58,
+			name: "Sceau de minuit",
+			description: "Vous subissez les effets de l'Aveuglement, ainsi que l'ennemi touché pendant 15 secondes.",
+			concise: "(15 secondes.) Inflige l'Aveuglement. <gray>Vous souffrez de l'Aveuglement (15 secondes).</gray>"
+		},
+		"59": {
+			id: 59,
+			name: "Sceau de lassitude",
+			description: "La cible ennemie et tous les ennemis adjacents perdent 3...8 points d'énergie et souffrent de Faiblesse pendant 1...10 secondes.",
+			concise: ""
+		},
+		"61": {
+			id: 61,
+			name: "Sceau sangsue",
+			description: "Interrompt l'action de l'ennemi. S'il s'agissait d'un sort, vous gagnez 3...15 points d'énergie.",
+			concise: "Interrompt une action. Effet de l'interruption : vous gagnez 3...15 points d'énergie si l'action est un sort."
+		},
+		"62": {
+			id: 62,
+			name: "Sceau d'humilité",
+			description: "La compétence d'élite de l'ennemi ciblé est désactivée pendant 1...16 seconde(s). Vos compétences autres que celle d'Envoûteur sont désactivées pendant 10 secondes.",
+			concise: "Désactivation de compétence d'élite sur cible (1...16 seconde(s)). <gray>Désactive vos compétences sauf celles d'Envoûteur (10 secondes).</gray>"
+		},
+		"63": {
+			id: 63,
+			name: "Sceau de voûte",
+			description: "Tous les sceaux hormis le sceau Clé de voûte sont rechargés. Pendant 20 secondes, les 0...6 prochaine(s) fois que vous utiliserez un sceau visant un ennemi, tous les autres ennemis proches de votre cible subiront 15...60 points de dégâts et seront interrompus.",
+			concise: "(20 secondes.) 0...6 de vos prochains sceaux interrompent et infligent 15...60 points aux ennemis adjacents à votre cible. Effet initial : recharge tous vos autres sceaux."
+		},
+		"65": {
+			id: 65,
+			name: "Mimétisme des arcanes",
+			description: "Pendant 20 secondes, le Mimétisme des arcanes devient la compétence élite (qui n'est pas une Transformation) de l'allié visé.",
+			concise: "Cette compétence devient la compétence élite de l'allié visé (20 secondes)."
+		},
+		"66": {
+			id: 66,
+			name: "Chaînes spirituelles",
+			description: "Pendant 5...20 secondes, l'ennemi visé perd 5 points d'énergie dès qu'il attaque.",
+			concise: "(5...20 secondes.) L'ennemi visé perd 5 points d'énergie chaque fois qu'il attaque."
+		},
+		"67": {
+			id: 67,
+			name: "Annihilateur de maléfices",
+			description: "Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé, les ennemis proches de la cible subissent 30...120 points de dégâts.",
+			concise: "Lève un maléfice qui frappe la cible alliée. Effet de la suppression : inflige 30...120 points de dégâts aux ennemis à proximité de cet allié."
+		},
+		"68": {
+			id: 68,
+			name: "Drain d'enchantement",
+			description: "Ôte un enchantement à l'ennemi visé. Si l'enchantement est supprimé, vous gagnez 8...17 points d'énergie et 40...120 points de santé.",
+			concise: "Supprime un enchantement à la cible ennemie. Effet de la suppression : vous gagnez 8...17 points d'énergie et 40...120 points de vie."
+		},
+		"69": {
+			id: 69,
+			name: "Dissipation des enchantements",
+			description: "Ote un enchantement à l'ennemi visé. Si l'enchantement est supprimé, l'ennemi subit 14...100 points de dégâts.",
+			concise: "Supprime un enchantement à la cible ennemie. Effet de la suppression : inflige 14...100 points de dégâts."
+		},
+		"72": {
+			id: 72,
+			name: "Résistance aux éléments",
+			description: "Pendant 30...90 secondes, vous gagnez +40 de bonus d'armure contre les dégâts élémentaires, mais perdez 24...12 de bonus d'armure contre les dégâts physiques.",
+			concise: "(30...90 secondes.) Vous bénéficiez d'un bonus d'armure de +40 contre les dégâts élémentaires. Votre bonus d'armure est réduit de -24...12 contre les dégâts physiques."
+		},
+		"73": {
+			id: 73,
+			name: "Résistance physique",
+			description: "Pendant 30...90 secondes, vous gagnez +40 de bonus d'armure contre les dégâts physiques, mais perdez 24...12 de bonus d'armure contre les dégâts élémentaires.",
+			concise: ""
+		},
+		"74": {
+			id: 74,
+			name: "Echo",
+			description: "Pendant 30 secondes, l'Echo est remplacé par la prochaine compétence que vous utilisez. L'Echo agit comme cette compétence pendant 30 secondes.",
+			concise: "(30 secondes.) L'Echo est remplacé par la compétence suivante que vous utilisez (30 secondes)."
+		},
+		"75": {
+			id: 75,
+			name: "Echo des arcanes",
+			description: "Si vous lancez un sort dans les 20 secondes, il remplace l'Echo des arcanes pendant 20 secondes. L'Echo des arcanes se termine prématurément si vous utilisez une compétence autre qu'un sort.",
+			concise: "(20 secondes.) L'Echo des arcanes est remplacé par le sort suivant que vous utilisez (20 secondes)."
+		},
+		"76": {
+			id: 76,
+			name: "Fardeau imaginaire",
+			description: "Pendant 8...20 secondes, la cible se déplace 50% moins vite.",
+			concise: "(8...20 secondes.) La cible ennemie se déplace 50% moins vite."
+		},
+		"77": {
+			id: 77,
+			name: "Tempête chaotique",
+			description: "Crée une Tempête chaotique sur la position de l'ennemi qui dure 10 secondes. Chaque seconde, les ennemis adjacents à cette position subissent 5...25 points de dégâts et perdent 0...2 point(s) d'énergie.",
+			concise: ""
+		},
+		"78": {
+			id: 78,
+			name: "Epidémie",
+			description: "Transfère toutes les conditions négatives et leur durée restante de la cible ennemie vers tous les ennemis qui lui sont adjacents.",
+			concise: "Les conditions dont souffre l'ennemi visé sont transmises aux ennemis adjacents."
+		},
+		"79": {
+			id: 79,
+			name: "Drain d'énergie",
+			description: "La cible ennemie perd 2...9 points d'énergie. Vous obtenez 3 points d'énergie pour chaque point d'énergie perdu par l'ennemi.",
+			concise: ""
+		},
+		"80": {
+			id: 80,
+			name: "Siphon d'énergie",
+			description: "La cible ennemie perd 4...7 points d'énergie. Vous obtenez 2 points d'énergie pour chaque point d'énergie perdu par l'ennemi.",
+			concise: "Provoque une perte de 4...7 points d'énergie. Vous obtenez 2 points d'énergie par point d'énergie perdu."
+		},
+		"81": {
+			id: 81,
+			name: "Vol des arcanes",
+			description: "Pendant 5...35 secondes, l'ennemi ne peut plus utiliser un sort choisi aléatoirement et le Vol des Arcanes est remplacé par ce sort.",
+			concise: "(5...35 secondes.) Désactive un sort aléatoire. Cette compétence remplace ce sort."
+		},
+		"82": {
+			id: 82,
+			name: "Mantra de rappel",
+			description: "Pendant 20 secondes, vous n'en tirez aucun bénéfice. Vous gagnez 10...25 points d'énergie quand le Mantra de rappel prend fin.",
+			concise: ""
+		},
+		"83": {
+			id: 83,
+			name: "Animation d'horreur squelettique",
+			description: "Visez le cadavre le plus près pour animer une ''horreur squelettique'' de niveau 1...17.",
+			concise: ""
+		},
+		"84": {
+			id: 84,
+			name: "Animation de démon squelette",
+			description: "Vous utilisez le cadavre le plus proche pour animer un ''démon squelette'' de niveau 1...17. Les ''démons squelettes'' peuvent attaquer à distance.",
+			concise: ""
+		},
+		"85": {
+			id: 85,
+			name: "Animation de serviteurs squelettes",
+			description: "Vous utilisez le cadavre le plus proche pour animer deux ''serviteurs squelettes'' de niveau 0...12.",
+			concise: ""
+		},
+		"86": {
+			id: 86,
+			name: "Equilibre de Grenth",
+			description: "Si l'ennemi visé dispose de plus de santé que vous, vous récupérez la moitié de la différence (par rapport à votre santé maximum) et celui-ci perd la même quantité de santé.",
+			concise: "Vous gagnez la moitié de la différence de santé entre vous et l'ennemi visé et celui-ci en perd autant. <gray>Si cet ennemi a moins de santé que vous, vous perdez la moitié de la différence et l'ennemi récupère la même quantité.</gray>"
+		},
+		"87": {
+			id: 87,
+			name: "Regard de Verata",
+			description: "Si la cible morte-vivante animée et hostile obéit à un maître, leur lien est brisé et elle devient hostile envers toutes les autres créatures. Si elle n'a pas de maître, c'est vous qui le devenez (50% de risques d'échec avec Magie de la mort 4 ou moins).",
+			concise: ""
+		},
+		"88": {
+			id: 88,
+			name: "Aura de Verata",
+			description: "Tous les morts-vivants animés hostiles dans les environs sont liés à vous. Les effets de l'Aura de Verata cessent au bout de 120...300 secondes. Tous les liens qui vous unissent aux morts-vivants sont alors brisés (50% de risques d'échec avec une Magie de la mort de 4 ou inférieur).",
+			concise: ""
+		},
+		"89": {
+			id: 89,
+			name: "Froideur mortelle",
+			description: "L'ennemi subit 5...50 points de dégâts du froid. S'il a plus de 50% de ses points de vie, il subit 5...50 points de dégâts de l'ombre supplémentaires.",
+			concise: ""
+		},
+		"90": {
+			id: 90,
+			name: "Sacrifice de Verata",
+			description: "Pendant 5...10 secondes, vos alliés morts-vivants bénéficient d'une régénération de santé de +10. Toutes les conditions qui affectent ces alliés vous sont transférées. Si ce sort réussit et si vous contrôlez 3 serviteurs ou moins, le Sacrifice de Verata se recharge instantanément.",
+			concise: ""
+		},
+		"91": {
+			id: 91,
+			name: "Puits de pouvoir",
+			description: "Utilisez le cadavre le plus près pour créer un ''Puits de pouvoir'' à cet endroit. Pendant 8...20 secondes, les alliés dans la zone du ''Puits de pouvoir'' bénéficient d'une régénération de santé de +1...6 et d'une régénération d'énergie de +2.",
+			concise: ""
+		},
+		"92": {
+			id: 92,
+			name: "Puits de sang",
+			description: "Utilisez le cadavre le plus proche pour créer un Puits de sang à cet endroit. Pendant 8...20 secondes, les alliés se trouvant dans cette zone bénéficient d'une régénération de santé de +1...6.",
+			concise: ""
+		},
+		"93": {
+			id: 93,
+			name: "Puits de souffrance",
+			description: "Utilisez le cadavre le plus près pour créer un Puits de souffrance à cet endroit. Pendant 10...30 secondes, les ennemis présents dans la zone subissent une dégénération de santé de -1...6.",
+			concise: ""
+		},
+		"94": {
+			id: 94,
+			name: "Puits du profane",
+			description: "Vous utilisez le cadavre le plus près pour créer un ''Puits du profane'' à cet endroit. Pendant 8...20 secondes, les ennemis dans la zone sont privés de tous leurs enchantements et ne peuvent pas être visés par d'autres enchantements (50% de risques d'échec avec Magie de la mort 4 ou inférieure).",
+			concise: ""
+		},
+		"95": {
+			id: 95,
+			name: "Explosion putride",
+			description: "Le cadavre le plus proche de votre cible explose et provoque une onde de choc qui inflige 24...120 points de dégâts aux ennemis à proximité.",
+			concise: "Fait exploser un cadavre qui inflige 24...120 points de dégâts aux ennemis à proximité."
+		},
+		"96": {
+			id: 96,
+			name: "Festin de l'âme",
+			description: "Vous utilisez le cadavre le plus proche pour obtenir 50...280 points de vie.",
+			concise: ""
+		},
+		"97": {
+			id: 97,
+			name: "Voyage nécrotique",
+			description: "Vous utilisez un cadavre au hasard pour vous téléporter sur sa position et tous les ennemis proches sont empoisonnés pendant 5...20 secondes.",
+			concise: ""
+		},
+		"98": {
+			id: 98,
+			name: "Combustion corporelle",
+			description: "Vous utilisez un cadavre au hasard pour vous téléporter sur sa position et vous obtenez 25...100 points de vie et 5...20 points d'énergie.",
+			concise: ""
+		},
+		"99": {
+			id: 99,
+			name: "Lien parasitaire",
+			description: "Pendant 20 secondes, l'ennemi subit une dégénération de santé de -1. Lorsque le Lien parasitaire prend fin, vous récupérez 30...120 points de vie.",
+			concise: "(20 secondes.) Provoque une dégénération de santé de -1. Effet final : vous gagnez 30...120 points de vie."
+		},
+		"100": {
+			id: 100,
+			name: "Ame barbelée",
+			description: "Pendant 30 secondes, l'ennemi visé subit 15...30 points de dégâts si on lui lance un enchantement ou un maléfice.",
+			concise: ""
+		},
+		"101": {
+			id: 101,
+			name: "Barbelés",
+			description: "Pendant 30 secondes, l'ennemi visé subit 1...15 point de dégâts en plus si on lui inflige des dégâts physiques.",
+			concise: ""
+		},
+		"102": {
+			id: 102,
+			name: "Choc de l'ombre",
+			description: "L'ennemi subit 12...48 points de dégâts de l'ombre. S'il a plus de 50% de ses points de vie, vous lui volez jusqu'à 12...48 points de vie.",
+			concise: ""
+		},
+		"103": {
+			id: 103,
+			name: "Prix de l'échec",
+			description: "Pendant 30 secondes, l'ennemi a 25% de risques de rater ses attaques et de subir 1...46 points de dégâts à chaque attaque ratée.",
+			concise: ""
+		},
+		"104": {
+			id: 104,
+			name: "Nova mortelle",
+			description: "Pendant 30 secondes, si la cible (un allié ou vous-même) meurt, tous les ennemis adjacents reçoivent 26...100 points de dégâts et sont empoisonnés pendant 15 secondes.",
+			concise: ""
+		},
+		"105": {
+			id: 105,
+			name: "Essaim mortel",
+			description: "L'Essaim mortel vole lentement et inflige 30...90 points de dégâts du froid à trois cibles maximum dans la zone.",
+			concise: ""
+		},
+		"106": {
+			id: 106,
+			name: "Putréfaction",
+			description: "La créature de chair visée souffre de Maladie pendant 10...25 secondes et perd progressivement de la santé.",
+			concise: ""
+		},
+		"107": {
+			id: 107,
+			name: "Virulence",
+			description: "Si l'ennemi visé souffrait d'une condition, il est atteint de Maladie, d'Empoisonnement et de Faiblesse pendant 3...15 secondes.",
+			concise: ""
+		},
+		"108": {
+			id: 108,
+			name: "Souffrance",
+			description: "L'ennemi visé et tous les ennemis à proximité subissent une dégénération de santé de -0...3 pendant 6...30 secondes.",
+			concise: "Inflige également des maléfices aux ennemis à proximité de la cible (6...30 secondes). Ces ennemis subissent une dégénération de santé de -0...3."
+		},
+		"109": {
+			id: 109,
+			name: "Siphon de vie",
+			description: "Pendant 12...24 secondes, la cible subit une dégénération de santé de -1...3 à votre profit (régénération de santé de +1...3).",
+			concise: "(12...24 secondes.) L'ennemi visé subit une dégénrération de -1...3. Vous bénéficiez d'une régénération de santé de +1...3."
+		},
+		"110": {
+			id: 110,
+			name: "Festin impie",
+			description: "Vous volez jusqu'à 10...65 points de vie à 1...4 ennemi maximum se trouvant dans la zone.",
+			concise: ""
+		},
+		"111": {
+			id: 111,
+			name: "Réveil du sang",
+			description: "Pendant 20...44 secondes, vous avez +2 en Magie du sang et +2 en Malédictions, mais si vous sacrifiez des points de vie, vous en perdez 50% de plus que la normale.",
+			concise: ""
+		},
+		"112": {
+			id: 112,
+			name: "Désacralisation d'enchantements",
+			description: "L'ennemi et tous ceux à proximité subissent 6...60 points de dégâts de l'ombre et 4...20 points de dégâts de l'ombre pour chaque enchantement qui les affecte.",
+			concise: ""
+		},
+		"113": {
+			id: 113,
+			name: "Chair putréfiée",
+			description: "Pendant 20...44 secondes, les alliés dans la zone sont immunisée contre la Maladie et quiconque essaie d'attaquer ces alliés en mêlée est frappé par la Maladie pendant 3...15 secondes.",
+			concise: ""
+		},
+		"114": {
+			id: 114,
+			name: "Aura de la liche",
+			description: "Tous les cadavres à portée de voix sont exploités et vous animez une horreur squelettique de niveau 1...17, plus une horreur squelettique pour chaque cadavre exploité de cette manière. Pendant 5...45 secondes, votre caractéristique de Magie de la mort est augmentée de +1.",
+			concise: "Exploite tous les cadavres à portée de voix. Anime une horreur squelettique de niveau 1...17, plus une horreur squelettique pour chaque cadavre exploité. Votre Magie de la mort est augmentée de +1 (5...45 secondes)."
+		},
+		"115": {
+			id: 115,
+			name: "Transfusion sanguine",
+			description: "Pendant 7 secondes, vous bénéficiez d'une régénération de santé de +3...6. A la fin de la Transfusion sanguine, vous gagnez +40...190 points de vie.",
+			concise: ""
+		},
+		"116": {
+			id: 116,
+			name: "Aura noire",
+			description: "Pendant 30 secondes, à chaque fois que la cible (un allié ou vous-même) sacrifie des points de vie, l'Aura noire inflige 5...50 points de dégâts de l'ombre à tous les ennemis adjacents et vous perdez 5...20 points de vie.",
+			concise: ""
+		},
+		"117": {
+			id: 117,
+			name: "Affaiblissement",
+			description: "La cible est frappée de Faiblesse pendant 10...30 secondes.",
+			concise: "Inflige la Faiblesse (10...30 secondes)."
+		},
+		"118": {
+			id: 118,
+			name: "Sang du faible",
+			description: "L'ennemi visé et tous les ennemis proches souffrent de Faiblesse pendant 5...20 secondes.",
+			concise: "Inflige la Faiblesse (5...20 secondes) à l'ennemi visé et aux ennemis à proximité."
+		},
+		"119": {
+			id: 119,
+			name: "Pouvoir du sang",
+			description: "Pendant 10 secondes, la cible alliée bénéficie d'une régénération d'énergie de +3...6.",
+			concise: ""
+		},
+		"120": {
+			id: 120,
+			name: "Sang du Maître",
+			description: "Tous vos alliés morts-vivants sont soignés de 30...116 points de vie. Vous sacrifiez 2% de santé maximum en plus par serviteur soigné de cette manière.",
+			concise: ""
+		},
+		"121": {
+			id: 121,
+			name: "Esprit malveillant",
+			description: "Pendant 8...20 secondes, chaque fois que l'ennemi visé attaque ou utilise une compétence, l'Esprit malveillant lui inflige 5...35 points de dégâts de l'ombre, ainsi qu'à tous les alliés adjacents de cet ennemi.",
+			concise: "(8...20 secondes.) Chaque fois que l'ennemi visé attaque ou utilise une compétence, lui et les ennemis adjacents subissent 5...35 points de dégâts."
+		},
+		"122": {
+			id: 122,
+			name: "Intervention néfaste",
+			description: "Pendant 5...20 secondes, l'ennemi visé reçoit 20% de guérison en moins. S'il meurt lorsqu'il est frappé de l'Intervention néfaste, une horreur squelettique (sans maître) de niveau 1...17 est invoquée.",
+			concise: ""
+		},
+		"123": {
+			id: 123,
+			name: "Parasite sournois",
+			description: "Pendant 5...15 secondes, chaque fois que l'ennemi visé réussit une attaque, vous lui volez jusqu'à 15...45 points de vie.",
+			concise: ""
+		},
+		"124": {
+			id: 124,
+			name: "Frissons glacés",
+			description: "Pendant 10...40 secondes, chaque fois que l'ennemi subit des dégâts du froid pendant qu'il utilise une compétence, il est interrompu et soit vous perdez 8...3 points d'énergie, soit les Frissons glacés se terminent.",
+			concise: ""
+		},
+		"125": {
+			id: 125,
+			name: "Flétrissure",
+			description: "Pendant 5...35 secondes, la cible ennemie subit une dégénération de santé de -2...4 et d'énergie de -1. Si l'énergie de l'ennemi visé devient nulle, il subit 15...75 points de dégâts et Flétrissure prend fin.",
+			concise: ""
+		},
+		"126": {
+			id: 126,
+			name: "Transfert de vie",
+			description: "Pendant 6...12 secondes, l'ennemi subit une dégénération de santé de -3...8 que vous gagnez en régénération de santé.",
+			concise: ""
+		},
+		"127": {
+			id: 127,
+			name: "Marque de subversion",
+			description: "Pendant 6 secondes, la prochaine fois que l'ennemi visé lance un sort qui vise un de ses alliés, ce sort échoue et vous lui volez jusqu'à 10...92 points de vie.",
+			concise: ""
+		},
+		"128": {
+			id: 128,
+			name: "Sangsue de l'âme",
+			description: "Pendant 10 secondes, à chaque fois que l'ennemi visé lance un sort, vous lui prenez jusqu'à 16...80 points de vie.",
+			concise: ""
+		},
+		"129": {
+			id: 129,
+			name: "Souillure charnelle",
+			description: "Pendant 5...35 secondes, l'ennemi visé ne reçoit que deux tiers des points de vie habituellement restitués par la guérison.",
+			concise: ""
+		},
+		"130": {
+			id: 130,
+			name: "Chair démoniaque",
+			description: "Pendant 30...60 secondes, chaque fois que vous utilisez une compétences qui vise un ennemi, vous infligez 5...20 points de dégâts de l'ombre à tous les ennemis proches de vous.",
+			concise: ""
+		},
+		"131": {
+			id: 131,
+			name: "Sceau barbelé",
+			description: "Vous infligez un Saignement pendant 3...15 secondes à la cible et à tous les ennemis adjacents.",
+			concise: ""
+		},
+		"132": {
+			id: 132,
+			name: "Sceau du fléau",
+			description: "Vous transférez vers l'ennemi visé toutes les conditions négatives qui vous affectent et leur durée restante, rallongée de 100...200%. (50% de risques d'échouer avec une valeur de Malédictions de 4 ou inférieur.)",
+			concise: ""
+		},
+		"133": {
+			id: 133,
+			name: "Pacte noir",
+			description: "Inflige 10...48 points de dégâts des ombres à la cible ennemie.",
+			concise: ""
+		},
+		"134": {
+			id: 134,
+			name: "Ordre de la douleur",
+			description: "Pendant 5 secondes, à chaque fois qu'un membre du groupe inflige des dégâts physiques à l'ennemi, il inflige +3...16 points de dégâts.",
+			concise: ""
+		},
+		"135": {
+			id: 135,
+			name: "Appréhension",
+			description: "Pendant 3...17 secondes, la vitesse d'attaque de l'ennemi est réduite de 50% et il subit une dégénération de santé de -0...3.",
+			concise: ""
+		},
+		"136": {
+			id: 136,
+			name: "Ombre de terreur",
+			description: "L'ennemi et tous ceux qui lui sont adjacents attaquent 50% plus lentement que la normale pendant 5...30 secondes.",
+			concise: ""
+		},
+		"137": {
+			id: 137,
+			name: "Rigor Mortis",
+			description: "Pendant 8...20 secondes, la cible ennemie ne peut pas bloquer.",
+			concise: ""
+		},
+		"138": {
+			id: 138,
+			name: "Lien noir",
+			description: "Durant les prochaines 30...60 secondes, à chaque fois que vous subissez des dégâts, 75% de ces dégâts sont infligés à votre plus proche serviteur.",
+			concise: ""
+		},
+		"139": {
+			id: 139,
+			name: "Transfert de condition",
+			description: "Pendant 15...60 secondes, à chaque fois que vous devriez recevoir une nouvelle condition, elle est transférée à votre plus proche serviteur à la place.",
+			concise: ""
+		},
+		"140": {
+			id: 140,
+			name: "Malaise",
+			description: "Pendant 5...35 secondes, la cible ennemie subit une dégénération d'énergie de -1 et vous subissez une dégénération de santé de -1. Si l'énergie de l'ennemi visé devient nulle, il subit 5...50 points de dégâts et Malaise prend fin.",
+			concise: ""
+		},
+		"141": {
+			id: 141,
+			name: "Abolition des enchantements",
+			description: "Supprime 5...9 enchantements à la cible ennemie. Vous perdez 55...25 points de vie par enchantement de Moine supprimé.",
+			concise: "Supprime 5...9 enchantements affectant l'ennemi visé. <gray>Coût de la suppression : vous perdez 55...25 points de vie par enchantement de Moine supprimé.</gray>"
+		},
+		"142": {
+			id: 142,
+			name: "Malédiction latente",
+			description: "Pendant 6...30 secondes, la cible ennemie et tous les ennemis à proximité souffrent d'une dégénération de santé de -0...3 et reçoivent 20% de guérison en moins.",
+			concise: "(6...30 secondes.) La cible et tous les ennemis à proximité souffrent d'une dégénération de santé de -0...3 et reçoivent 20% de guérison en moins."
+		},
+		"143": {
+			id: 143,
+			name: "Suppression d'un enchantement",
+			description: "Ote 1...2 enchantement(s) à l'ennemi visé. Si un enchantement est supprimé, vous volez 5...65 points de vie.",
+			concise: ""
+		},
+		"144": {
+			id: 144,
+			name: "Engelures",
+			description: "Vous êtes empoisonné pendant 10 secondes. Les ennemis dans la zone de votre cible subissent 10...44 points de dégâts du froid et perdent 1...2 enchantement(s).",
+			concise: ""
+		},
+		"145": {
+			id: 145,
+			name: "Sceau d'agonie",
+			description: "Vous souffrez de Saignement pendant 25 secondes. Tous les ennemis à proximité subissent 10...70 points de dégâts.",
+			concise: ""
+		},
+		"146": {
+			id: 146,
+			name: "Offrande de sang",
+			description: "Vous gagnez 8...20 points d'énergie.",
+			concise: "Vous gagnez 8...20 ponts d'énergie."
+		},
+		"147": {
+			id: 147,
+			name: "Fureur noire",
+			description: "Pendant 5 secondes, à chaque fois que l'attaque d'un membre du groupe réussit, il gagne une décharge d'adrénaline. (50% de risques d'échec avec une Magie du sang de 4 ou inférieure.)",
+			concise: ""
+		},
+		"148": {
+			id: 148,
+			name: "Ordre du vampire",
+			description: "Pendant 5 secondes, à chaque fois qu'un membre du groupe qui ne se trouve pas sous les effets d'un autre enchantement de Nécromant inflige des dégâts physiques à un ennemi, il lui vole jusqu'à 3...16 points de vie.",
+			concise: ""
+		},
+		"149": {
+			id: 149,
+			name: "Propagation du fléau",
+			description: "Vous transférez 1...3 conditions négatives et leur durée restante à la cible ennemie touchée et à tous les ennemis adjacents.",
+			concise: ""
+		},
+		"150": {
+			id: 150,
+			name: "Marque de douleur",
+			description: "Pendant 30 secondes, à chaque fois que l'ennemi subit des dégâts physiques, la Marque de douleur inflige 10...40 points de dégâts de l'ombre aux ennemis adjacents.",
+			concise: ""
+		},
+		"151": {
+			id: 151,
+			name: "Festin de corruption",
+			description: "La cible et tous les ennemis adjacents subissent 16...80 points de dégâts de l'ombre. Vous absorbez jusqu'à 8...40 points de vie à chaque ennemi frappé d'un maléfice.",
+			concise: ""
+		},
+		"152": {
+			id: 152,
+			name: "Goût de la mort",
+			description: "Prend jusqu'à 100...400 points de vie à l'allié mort-vivant animé visé.",
+			concise: ""
+		},
+		"153": {
+			id: 153,
+			name: "Regard vampirique",
+			description: "Vous volez jusqu'à 18...60 points de vie à l'ennemi visé.",
+			concise: ""
+		},
+		"154": {
+			id: 154,
+			name: "Caresse contagieuse",
+			description: "Vous transférez 1...3 condition(s) négative(s) et leur durée restante à la cible ennemie touchée.",
+			concise: ""
+		},
+		"155": {
+			id: 155,
+			name: "Caresse nocive",
+			description: "L'ennemi touché subit 20...65 points de dégâts.",
+			concise: ""
+		},
+		"156": {
+			id: 156,
+			name: "Caresse vampirique",
+			description: "Vous volez 29...74 points de vie à l'ennemi touché.",
+			concise: ""
+		},
+		"157": {
+			id: 157,
+			name: "Rituel de sang",
+			description: "Pendant 8...14 secondes, l'allié touché bénéficie d'une régénération d'énergie de +3. Le Rituel de sang ne peut pas être utilisé sur le lanceur.",
+			concise: "(8...14 secondes). Régénération d'énergie de +3. Vous ne pouvez pas vous prendre pour cible."
+		},
+		"158": {
+			id: 158,
+			name: "Caresse d'agonie",
+			description: "L'ennemi touché visé subit 20...58 points de dégâts de l'ombre.",
+			concise: ""
+		},
+		"159": {
+			id: 159,
+			name: "Armure affaiblie",
+			description: "La cible ennemie et les ennemis adjacents souffrent de la condition Armure brisée pendant 5...20 secondes.",
+			concise: ""
+		},
+		"160": {
+			id: 160,
+			name: "Vitesse du vent",
+			description: "Pendant 5...11 secondes, la cible (un allié ou vous-même) se déplace 33% plus vite.",
+			concise: "(5...11 secondes.) La cible (un allié ou vous-même) se déplace 33% plus vite."
+		},
+		"162": {
+			id: 162,
+			name: "Bourrasque",
+			description: "Assomme l'ennemi visé pendant 2 secondes. Ce sort entraîne l'épuisement. (50% de chance d'échouer avec une valeur de Magie de l'air à 4 ou moins).",
+			concise: "Attaque assommante. Vous souffrez d'Epuisement. 50% de chances d'échouer sauf si la valeur de Magie de l'air est de 5 ou plus."
+		},
+		"163": {
+			id: 163,
+			name: "Tornade",
+			description: "Tous les ennemis adjacents subissent 15...60 points de dégâts du froid. Les attaquants ennemis frappés par la ''Tornade'' sont assommés.",
+			concise: "Frappe les ennemis qui vous sont adjacents. Inflige 15...60 points de dégâts du froid. Assomme les assaillants ennemis."
+		},
+		"164": {
+			id: 164,
+			name: "Affinité élémentaire",
+			description: "Pendant 25...60 secondes, vous êtes en parfaite harmonie avec l'Air, le Feu, l'Eau et la Terre : vous bénéficiez de range",
+			concise: "(25...60 secondes.) Vos caractéristiques élémentaires augmentent de range"
+		},
+		"165": {
+			id: 165,
+			name: "Armure de la terre",
+			description: "Pendant 30 secondes, vous gagnez 24...60 en armure, mais vous vous déplacez 50...14% moins vite.",
+			concise: "(30 secondes.) Vous bénéficiez d'un bonus d'armure de +24...60. Vous vous déplacez 50...14% moins vite."
+		},
+		"166": {
+			id: 166,
+			name: "Armure cinétique",
+			description: "Pendant 8 secondes, vous obtenez un bonus d'armure de +20...80. A chaque fois que vous lancez un sort, lArmure cinétique'' est renouvelée pour 8 secondes.",
+			concise: ""
+		},
+		"167": {
+			id: 167,
+			name: "Eruption",
+			description: "Créé une éruption sur la position de l'ennemi ciblé. Pendant 5 secondes, les ennemis près de cette zone subissent 10...40 points de dégâts de la terre et sont aveuglés pendant 10 secondes.",
+			concise: "Inflige 10...40 points de dégâts de la terre par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Inflige l'Aveuglement (10 secondes)."
+		},
+		"168": {
+			id: 168,
+			name: "Aura magnétique",
+			description: "Pendant 1...7 secondes, vous bloquez la prochain attaque dirigée contre vous et infligez 10...50 dégâts à l'attaquant. Si vous êtes en état d'Afflux, tous les membres de votre équipe à portée de voix sont également sous l'effet de l'enchantement.",
+			concise: ""
+		},
+		"169": {
+			id: 169,
+			name: "Affinité terrestre",
+			description: "Pendant 36...60 secondes, vous êtes en parfaite harmonie avec la Terre. Vous gagnez 1 point d'énergie et 30% du coût en énergie de base de cette compétence à chaque fois que vous utilisez la Magie de la terre.",
+			concise: "(36...60 secondes.) Quand vous utilisez une compétence de Magie de la terre, vous gagnez 1 point d'énergie plus 30% de son coût en énergie."
+		},
+		"170": {
+			id: 170,
+			name: "Séisme",
+			description: "Vous invoquez un séisme sur la position de l'ennemi visé. Tous les ennemis près de cette position sont assommés et subissent 26...100 points de dégâts de la terre. Ce sort entraîne l'épuisement.",
+			concise: "Inflige 26...100 points de dégâts de la terre. Affecte également les ennemis près de la cible. Attaque assomante. Vous souffrez d'Epuisement."
+		},
+		"171": {
+			id: 171,
+			name: "Lapidation",
+			description: "Vous envoyez une grosse pierre, et infligez 45...105 points de dégâts de la terre si elle touche sa cible. Si l'ennemi souffre de Faiblesse, il sera assommé.",
+			concise: "Projectile : inflige 45...105 points de dégâts de la terre. Assomme si l'ennemi visé souffre de Faiblesse."
+		},
+		"172": {
+			id: 172,
+			name: "Dagues de pierre",
+			description: "Vous lancez deux dagues de pierre. Si elles touchent leur cible, elles infligent chacune 8...33 points de dégâts de la terre.",
+			concise: "Deux projectiles : chacun inflige 8...33 points de dégâts de la Terre."
+		},
+		"173": {
+			id: 173,
+			name: "Etreinte de la terre",
+			description: "Pendant 8...20 secondes, tous les ennemis proches se déplacent 50% moins vite.",
+			concise: "Inflige des maléfices aux ennemis à proximité de vous (8...20 secondes). Ces ennemis se déplacent 50% moins vite."
+		},
+		"174": {
+			id: 174,
+			name: "Réplique sismique",
+			description: "Tous les ennemis adjacents subissent 26...100 points de dégâts de la terre. Les créatures assommées subissent 10...68 points de dégâts de la terre supplémentaires.",
+			concise: "Inflige 26...100 points de dégâts de la terre aux ennemis qui vous sont adjacents. Inflige 10...68 points de dégâts de la terre supplémentaires aux ennemis assommés."
+		},
+		"175": {
+			id: 175,
+			name: "Protection contre les éléments",
+			description: "Vous créez une zone de protection contre les éléments sur votre position. Pendant 8...20 secondes, les alliés qui ne sont pas des esprits dans la zone de protection obtiennent +24 de bonus d'armure contre les dégâts élémentaires.",
+			concise: "(8...20 secondes.) Les alliés dans cette Protection ont un bonus d'armure de +24 contre les dégâts élémentaires. <gray>N'affecte pas les esprits.</gray>"
+		},
+		"176": {
+			id: 176,
+			name: "Protection de contact",
+			description: "Vous créez une zone de Protection de contact sur votre position actuelle. Pendant 5...20 secondes, les alliés (sauf les esprits) dans cette zone ont 50% de chances de bloquer ce type d'attaques.",
+			concise: ""
+		},
+		"177": {
+			id: 177,
+			name: "Protection contre l'ennemi",
+			description: "Vous créez une zone de protection contre les ennemis sur votre position. Pendant 8...20 secondes, les ennemis qui ne sont pas des esprits de la zone de protection se déplacent 50% moins vite.",
+			concise: "(8...20 secondes.) Les ennemis dans cette Protection se déplacent 50% moins vite."
+		},
+		"178": {
+			id: 178,
+			name: "Prodige éthéré",
+			description: "Vous perdez tous les enchantements. Pendant 5...20 secondes, vous bénéficiez d'une régénération d'énergie de +6. Quand Prodige éthéré prend fin, vous perdez 3 points de vie pour chacun de vos points d'énergie. Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"179": {
+			id: 179,
+			name: "Liens incendiaires",
+			description: "Au bout de 3 secondes, l'ennemi visé et tous ceux qui sont proches de lui subissent 20...80 points de dégâts du feu et s'embrasent pendant 1...3 seconde(s). S'active immédiatement si l'ennemi meurt.",
+			concise: "(3 secondes.) Effet final : inflige 20...80 points de dégâts du feu et inflige la Brûlure (1...3 seconde(s)) aux ennemis à proximité de votre cible. S'active également si l'ennemi meurt."
+		},
+		"180": {
+			id: 180,
+			name: "Aura de rétablissement",
+			description: "Pendant 60 secondes, vous gagnez 0...1 points d'énergie et êtes soigné de 200...500% du coût en énergie pour chaque sort que vous lancez.",
+			concise: "(60 secondes.) Vous gagnez 0...1 points d'énergie et êtes soigné de 200...500% du coût en énergie pour chaque sort que vous lancez."
+		},
+		"181": {
+			id: 181,
+			name: "Renouveau éthéré",
+			description: "Pendant 5...20 secondes, à chaque fois que vous lancez un sort, vous gagnez 1...4 point(s) d'énergie et 5...20 points de vie pour chaque enchantement qui vous affecte.",
+			concise: "(5...20 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1...4 point(s) d'énergie et 5...20 points de vie par enchantement vous affectant."
+		},
+		"182": {
+			id: 182,
+			name: "Conjuration de flamme",
+			description: "Pendant 60 secondes, si vous utilisez une arme de feu, vos attaques infligent +5...20 points de dégâts du feu supplémentaires.",
+			concise: "(60 secondes.) Vos attaques infligent +5...20 points de dégâts du feu."
+		},
+		"183": {
+			id: 183,
+			name: "Enfer",
+			description: "Tous les ennemis adjacents reçoivent 30...135 points de dégâts du feu.",
+			concise: "Inflige 30...135 points de dégâts du feu aux ennemis qui vous sont adjacents."
+		},
+		"184": {
+			id: 184,
+			name: "Affinité ignée",
+			description: "Pendant 36...60 secondes, vous êtes en parfaite harmonie avec le Feu. Vous gagnez 30% du coût en énergie de base pour la compétence et 1 point d'énergie à chaque fois que vous utilisez la Magie du feu.",
+			concise: "(36...60 secondes.) Quand vous utilisez une compétence de Magie du feu, vous gagnez 1 point d'énergie plus 30% de son coût en énergie."
+		},
+		"185": {
+			id: 185,
+			name: "Flamme spirituelle",
+			description: "L'ennemi visé subit 15...60 points de dégâts du feu. Si vous avez plus d'énergie que l'ennemi visé, il subit 15...60 points de dégâts du feu en plus et s'embrase pendant 1...7 seconde(s). Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"186": {
+			id: 186,
+			name: "Boule de feu",
+			description: "Vous envoyez une boule de feu qui touche l'ennemi visé ainsi que les ennemis adjacents à lui et leur inflige 7...112 points de dégâts du feu.",
+			concise: "Projectile : inflige 7...112 points de dégâts du feu à la cible et aux ennemis adjacents."
+		},
+		"187": {
+			id: 187,
+			name: "Météore",
+			description: "L'ennemi visé et tous les ennemis adjacents reçoivent 7...112 points de dégâts du feu et sont assommés. Ce sort entraîne l'épuisement.",
+			concise: "Inflige 7...112 points de dégâts du feu et assomme. Frappe également les ennemis adjacents à la cible. <gray>Vous souffrez d'Epuisement.</gray>"
+		},
+		"188": {
+			id: 188,
+			name: "Projection de flammes",
+			description: "Tous les ennemis proches reçoivent 15...120 points de dégâts du feu.",
+			concise: "Inflige 15...120 points de dégâts du feu à tous les ennemis proches de vous."
+		},
+		"189": {
+			id: 189,
+			name: "Invocation de Rodgort",
+			description: "L'ennemi visé et tous les ennemis à proximité subissent 15...120 points de dégâts du feu et s'embrasent pendant 1...3 seconde(s).",
+			concise: "Inflige 15...120 points de dégâts du feu. Affecte également les ennemis à proximité de votre cible. Inflige la Brûlure (1...3 seconde(s))."
+		},
+		"190": {
+			id: 190,
+			name: "Marque de Rodgort",
+			description: "La cible ennemie et tous les ennemis proches subissent les effets du maléfice Marque de Rodgort. Pendant 10...35 secondes, à chaque fois qu'un ennemi subit des dégâts du feu, il s'embrase pendant 1...4 seconde(s).",
+			concise: "Inflige également des maléfices aux ennemis à proximité de votre cible (10...35 secondes). Inflige la Brûlure (1...4 secondes) quand ces ennemis subissent des dégâts du feu."
+		},
+		"191": {
+			id: 191,
+			name: "Immolation",
+			description: "L'ennemi subit 20...75 points de dégâts du feu et s'embrase pendant 1...3 seconde(s).",
+			concise: "Inflige 20...75 points de dégâts du feu. Inflige la Brûlure (1...3 seconde(s))."
+		},
+		"192": {
+			id: 192,
+			name: "Pluie de météores",
+			description: "Crée une Pluie de météores sur la position de l'ennemi. Pendant 9 secondes, les ennemis adjacents à cette position subissent 7...112 points de dégâts du feu et sont assommés toutes les 3 secondes. Ce sort entraîne l'épuisement.",
+			concise: "Inflige 7...112 points de dégâts du feu et assomme toutes les 3 secondes (9 secondes). Frappe les ennemis adjacents à la position initiale de la cible. <gray>Vous souffrez d'Epuisement.</gray>"
+		},
+		"193": {
+			id: 193,
+			name: "Phénix",
+			description: "Un phénix flamboyant apparaît près de vous et inflige 7...112 points de dégâts du feu à tous les ennemis adjacents, avant de s'envoler vers la cible pour exploser à l'impact. Cette explosion inflige 15...90 points de dégâts du feu supplémentaires.",
+			concise: "Projectile : inflige 15...90 points de dégâts du feu à la cible et aux ennemis adjacents. Effet initial: inflige 7...112 points de dégâts du feu aux ennemis qui vous sont adjacents."
+		},
+		"194": {
+			id: 194,
+			name: "Eclat de feu",
+			description: "Vous envoyez une flamme vers l'ennemi qui inflige 20...65 points de dégâts du feu si elle touche sa cible.",
+			concise: "Projectile : inflige 20...65 point de dégâts du feu."
+		},
+		"195": {
+			id: 195,
+			name: "Fontaine de lave",
+			description: "Pendant 5 secondes, les ennemis adjacents à la position où le sort a été lancé subissent 5...50 points de dégâts du feu.",
+			concise: "Inflige 5...50 points de dégâts du feu par secondes (5 secondes). Affecte les ennemis adjacents à votre position initiale."
+		},
+		"196": {
+			id: 196,
+			name: "Chaleur de fournaise",
+			description: "Déclenche une Chaleur de Fournaise sur la position de l'ennemi. Pendant 5 secondes, les ennemis à proximité de cette position subissent 10...40 points de dégâts du feu par seconde. Lorsque la Chaleur de Fournaise cesse, les ennemis dans sa zone d'effet sont embrasés pendant 3 secondes.",
+			concise: "Inflige 10...40 points de dégâts du feu par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Effet final : inflige la Brûlure (3 secondes)."
+		},
+		"197": {
+			id: 197,
+			name: "Tempête de feu",
+			description: "Crée une Tempête de feu sur la position de l'ennemi. Pendant 10 secondes, les ennemis adjacents à cette position reçoivent 5...35 points de dégâts du feu par seconde.",
+			concise: "Inflige 5...35 points de dégâts du feu par seconde (10 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+		},
+		"198": {
+			id: 198,
+			name: "Glyphe de pouvoir élémentaire",
+			description: "Pendant 25 secondes, vos caractéristiques liées aux éléments augmentent de 2 pour vos 10 prochains sorts.",
+			concise: ""
+		},
+		"199": {
+			id: 199,
+			name: "Glyphe d'énergie",
+			description: "1...3 des prochains sorts ne causent pas l'Afflux et coûtent 10...25 points d'énergie en moins. Vos caractéristiques élémentaires augmentent de 1...2.",
+			concise: ""
+		},
+		"200": {
+			id: 200,
+			name: "Glyphe d'énergie mineure",
+			description: "Pendant les 15 prochaines secondes, vos 2 prochains sorts coûteront 10...18 points d'énergie en moins.",
+			concise: "(15 secondes.) Vos prochains sorts (2 sorts) coûtent 10...18 points d'énergie en moins."
+		},
+		"201": {
+			id: 201,
+			name: "Glyphe de concentration",
+			description: "Pendant 15 secondes, votre prochain sort ne peut pas être interrompu et reste insensible à la Stupeur.",
+			concise: ""
+		},
+		"202": {
+			id: 202,
+			name: "Glyphe de sacrifice",
+			description: "Pendant 15 secondes, le prochain sort peut être lancé sans incantation préalable, mais il mettra 30 secondes en plus à se recharger.",
+			concise: ""
+		},
+		"203": {
+			id: 203,
+			name: "Glyphe du renouveau",
+			description: "Pendant 15 secondes, votre prochain sort se rechargera instantanément.",
+			concise: "(15 secondes.) Votre sort suivant se recharge instantanément."
+		},
+		"204": {
+			id: 204,
+			name: "Rouille",
+			description: "Inflige 10...70 points de dégâts du froid. Pendant 5...20 secondes, la cible ennemie et tous les ennemis adjacents mettent 2 fois plus de temps à activer les Sceaux.",
+			concise: ""
+		},
+		"205": {
+			id: 205,
+			name: "Décharge foudroyante",
+			description: "Au bout de 3 secondes, l'ennemi visé est assommé et subit 14...100 points de dégâts de la foudre.",
+			concise: ""
+		},
+		"206": {
+			id: 206,
+			name: "Armure de givre",
+			description: "Pendant 10...34 secondes, vous bénéficiez d'un bonus d'armure de +40 contre les dégâts physiques. LArmure de givre'' se dissipe dès que vous utilisez la Magie du feu.",
+			concise: ""
+		},
+		"207": {
+			id: 207,
+			name: "Conjuration du froid",
+			description: "Pendant 60 secondes, si vous utilisez une arme du froid, vos attaques infligent 5...20 points de dégâts du froid supplémentaires.",
+			concise: "(60 secondes.) Vos attaques infligent +5...20 points de dégâts du froid."
+		},
+		"208": {
+			id: 208,
+			name: "Affinité aquatique",
+			description: "Pendant 36...60 secondes, vous êtes en parfaite harmonie avec l'eau. Vous gagnez 30% du coût en énergie de base pour cette compétence et un point d'énergie à chaque fois que vous utilisez la Magie de l'eau.",
+			concise: "(36...60 secondes.) Quand vous utilisez une compétence de Magie de l'eau, vous gagnez 1 point d'énergie plus 30% de son coût en énergie."
+		},
+		"209": {
+			id: 209,
+			name: "Gel spirituel",
+			description: "L'ennemi visé subit 10...60 points de dégâts du froid. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...60 points de dégâts du froid en plus et se déplace 90% plus lentement pendant 1...5 secondes. Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"210": {
+			id: 210,
+			name: "Prison de glace",
+			description: "Pendant 8...20 secondes, les jambes de l'ennemi sont prises dans la glace et ses mouvements sont ralentis de 66%. L'effet est dissipé lorsque la cible subit des dégâts du feu.",
+			concise: "(8...20 secondes.) La cible ennemie se déplace 66% moins vite."
+		},
+		"211": {
+			id: 211,
+			name: "Tessons de glace",
+			description: "L'ennemi visé et ceux qui sont adjacents subissent 20...80 points de dégâts du froid et sont ralentis de 66% pendant 2...6 secondes.",
+			concise: "Inflige également des maléfices aux ennemis adjacent à la cible (2...6 secondes.) Ces ennemis se déplacent 66% moins vite. Effet initial : inflige 20...80 points de dégâts du froid."
+		},
+		"212": {
+			id: 212,
+			name: "Explosion glaciale",
+			description: "Tous les ennemis proches subissent 10...85 points de dégâts du froid et sont ralentis de 66% pendant 3...8 secondes.",
+			concise: "Lance un maléfice aux ennemis à proximité de vous. Ces ennemis se déplacent 66% moins vite (3...8 secondes). Effet initial : inflige 10...85 points de dégâts du froid aux ennemis à proximité de vous."
+		},
+		"213": {
+			id: 213,
+			name: "Tempête de glace",
+			description: "Vous envoyez un pic de glace qui inflige 10...85 points de dégâts s'il touche sa cible. L'ennemi se déplacera alors 66% moins vite pendant 2...6 secondes.",
+			concise: "Projectile : inflige 10...85 points de dégâts du froid. L'ennemi visé se déplace 66% moins vite (2...6 secondes)."
+		},
+		"214": {
+			id: 214,
+			name: "Lance de glace",
+			description: "Vous envoyez une Lance de glace qui inflige 10...70 points de dégâts du froid si elle touche sa cible. Sa portée est la moitié de celle d'un sort normal.",
+			concise: "Projectile : inflige 10...70 points de dégâts du froid."
+		},
+		"215": {
+			id: 215,
+			name: "Maelström",
+			description: "Crée un Maelström à l'endroit où se trouve l'ennemi. Pendant 10 secondes, les ennemis adjacents à la zone d'effet subissent 10...25 points de dégâts du froid par seconde. Le Maelström interrompt le lancement des sorts s'il touche sa cible. Ce sort entraîne l'épuisement.",
+			concise: "Inflige 10...25 points de dégâts du froid et interrompt les sort toutes les secondes (10 secondes). Frappe les ennemis adjacents à la position initiale de la cible. Vous souffre d'Epuisement."
+		},
+		"216": {
+			id: 216,
+			name: "Brume de fer",
+			description: "Pendant 8...15 secondes, vous bénéficiez d'un bonus d'armure de +15. Vos sorts de la Magie de l'air qui ciblent un ennemi s'activent et se rechargent 33% plus vite, mais vous subissez un Afflux de 2 points.",
+			concise: "(8...15 secondes.) Vous obtenez un bonus d'armure de +15. Vos sorts d'air qui ciblent un ennemi s'activent et se rechargent 33% plus vite, mais vous subissez un Afflux de 2 points."
+		},
+		"217": {
+			id: 217,
+			name: "Vague de cristal",
+			description: "Les ennemis qui vous sont adjacents subissent 10...70 points de dégâts, mais sont libérés de toute condition négative. Chaque condition supprimée inflige 8...15 points de dégâts.",
+			concise: ""
+		},
+		"218": {
+			id: 218,
+			name: "Chair d'obsidienne",
+			description: "Pendant 8...20 secondes, vous bénéficiez de +20 de bonus d'armure et vous ne pouvez pas être la cible de sorts ennemis, mais vous êtes ralenti de 50%.",
+			concise: "(8...20 secondes.) Vous bénéficiez d'un bonus d'armure de +20 et ne pouvez être la cible des sorts ennemis. <gray>Vous vous déplacez 50% moins vite.</gray>"
+		},
+		"219": {
+			id: 219,
+			name: "Flamme d'obsidienne",
+			description: "Inflige 22...112 points de dégâts à l'ennemi. Ce sort ignore les armures, mais entraîne l'épuisement.",
+			concise: "Inflige 22...112 points de dégâts. Vous souffrez d'Epuisement."
+		},
+		"220": {
+			id: 220,
+			name: "Eblouissement",
+			description: "L'ennemi est aveuglé pendant 3...8 secondes.",
+			concise: "Provoque l'Aveuglement (3...8 secondes.)"
+		},
+		"221": {
+			id: 221,
+			name: "Conjuration de la foudre",
+			description: "Pendant 60 secondes, si vous utilisez une arme de la foudre, vos attaques infligent 5...20 points de dégâts de la foudre supplémentaires.",
+			concise: ""
+		},
+		"222": {
+			id: 222,
+			name: "Eclair foudroyant",
+			description: "L'ennemi subit 5...50 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure.",
+			concise: "Inflige 5...50 points de la foudre. Pénétration d'armure de 25%."
+		},
+		"223": {
+			id: 223,
+			name: "Chaîne d'éclairs",
+			description: "L'ennemi visé et jusqu'à deux autres près de lui subissent 10...85 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure et entraîne l'Epuisement si vous n'êtes pas sous l'effet d'un enchantement.",
+			concise: "Inflige 10...85 points de dégâts de la foudre. Frappe également deux ennemis près de la cible 25% de pénétration d'armure. <gray> Entraine l'Epuisement si vous n'êtes pas sous les effet d'un enchantement.</gray>"
+		},
+		"224": {
+			id: 224,
+			name: "Décharge incapacitante",
+			description: "L'ennemi subit 25...50 points de dégâts de la foudre et souffre de faiblesse pendant 5...20 secondes. Ce sort offre 25% de pénétration d'armure.",
+			concise: "Inflige 25...50 points de dégâts de la foudre. Inflige la Faiblesse (5...20 secondes). Pénétration d'armure de 25%."
+		},
+		"225": {
+			id: 225,
+			name: "Affinité aérienne",
+			description: "Pendant 36...60 secondes, vous êtes en parfaite harmonie avec l'Air. Vous gagnez 1 point d'énergie et 30% du coût en énergie de base pour cette compétence à chaque fois que vous utilisez Magie de l'air.",
+			concise: "(36...60 secondes.) Quand vous utilisez une compétence de Magie de l'air, vous gagnez 1 point d'énergie plus 30% de son coût en énergie."
+		},
+		"226": {
+			id: 226,
+			name: "Choc spirituel",
+			description: "La cible souffre de dégâts de la foudre de 10...50. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...50 points de dégâts de la foudre en plus et il est assommé. Ce sort a 25% de pénétration d'armure et entraîne l'épuisement.",
+			concise: ""
+		},
+		"227": {
+			id: 227,
+			name: "Marque éblouissante",
+			description: "Pendant 10 secondes, la cible ennemie subit 5...25 points de dégâts par seconde. Ce maléfice prend fin si vous lancez un sort qui cible cet ennemi.",
+			concise: "(10 secondes.) Inflige 5...25 points de dégâts par seconde. <gray>Prend fin si vous lancez un sort qui cible cet ennemi.</gray>"
+		},
+		"228": {
+			id: 228,
+			name: "Coup de tonnerre",
+			description: "Crée une puissante onde de choc sur la position de l'ennemi. Inflige 10...42 points de dégâts de la foudre à la cible et aux ennemis adjacents. Les ennemis touchés sont interrompus et souffrent d'Armure brisée et de Faiblesse pendant 5...17 secondes. Ce sort à une pénétration d'armure de 25%.",
+			concise: ""
+		},
+		"229": {
+			id: 229,
+			name: "Globe de foudre",
+			description: "Vous envoyez un Globe de foudre qui inflige 10...100 points de dégâts de la foudre à la cible ennemie et inflige la condition Armure brisée pendant 5...20 secondes si le globe touche sa cible. Ce sort a une pénétration d'armure de 25%.",
+			concise: ""
+		},
+		"230": {
+			id: 230,
+			name: "Javelot de foudre",
+			description: "Lance un Javelot de foudre qui inflige 15...50 points de dégâts de la foudre s'il touche sa cible. Si le Javelot de foudre touche un ennemi en train d'attaquer, celui-ci est interrompu. Ce sort a 25% de pénétration d'armure.",
+			concise: ""
+		},
+		"231": {
+			id: 231,
+			name: "Décharge électrique",
+			description: "L'ennemi touché est assommé et reçoit 10...60 points de dégâts de la foudre. Cette compétence offre 25% de pénétration d'armure et entraîne l'épuisement.",
+			concise: ""
+		},
+		"232": {
+			id: 232,
+			name: "Caresse foudroyante",
+			description: "L'ennemi touché et tous les ennemis adjacents subissent 10...60 points de dégâts de la foudre. Les ennemis touchés par un maléfice de la magie de l'eau sont aveuglés pendant 3...8 secondes. Cette compétence offre 25% de pénétration d'armure.",
+			concise: "Inflige 10...60 points de dégâts de la foudre. Frappe également les ennemis adjacents à la cible. Inflige l'Aveuglement (3...8 secondes) aux ennemis sous les effets d'un maléfice de la magie de l'eau. Pénétration d'armure de 25%."
+		},
+		"233": {
+			id: 233,
+			name: "Aura tourbillon",
+			description: "Pendant 3...7 vous bénéficiez d'une régénération de santé de + 1...6 et de 50% de chances de bloquer les attaques. Si vous êtes en état d'Afflux, tous les membres de votre équipe à portée de voix sont également sous l'effet de l'enchantement.",
+			concise: ""
+		},
+		"234": {
+			id: 234,
+			name: "Congélation",
+			description: "La zone où se trouve l'ennemi est congelée. Tous les ennemis à cet endroit subissent 10...85 points de dégâts du froid. Pendant 10 secondes, ils se déplacent 66% moins vite.",
+			concise: "Inflige également des maléfices aux ennemis à proximité de la cible (10 secondes). Ces ennemis se déplacent 66% moins vite. Effet initial : inflige 10...85 points de dégâts du froid."
+		},
+		"235": {
+			id: 235,
+			name: "Vision troublée",
+			description: "Pendant 4...10 secondes, la vision de l'ennemi visé et de ceux qui sont adjacents est troublée, ils ont 50% de risques de manquer leurs attaques.",
+			concise: ""
+		},
+		"236": {
+			id: 236,
+			name: "Forme de brume",
+			description: "Pendant 10...45 secondes, vous subissez 33% de dégâts en moins face aux ennemis sous l'effet d'un maléfice de la Magie de l'eau. Quand vous lancez un sort élémentaire, tous les alliés (autres qu'esprits) à portée de voix regagnent 50...250% du coût énergétique du sort.",
+			concise: ""
+		},
+		"237": {
+			id: 237,
+			name: "Trident marin",
+			description: "Vous lancez un Trident marin qui se déplace ''très rapidement'' vers l'ennemi. Il inflige 10...70 points de dégâts du froid s'il touche sa cible. S'il touche un ennemi en mouvement, celui-ci est assommé.",
+			concise: ""
+		},
+		"238": {
+			id: 238,
+			name: "Armure de brume",
+			description: "Pendant 8...20 secondes, vous bénéficiez de +10...40 de bonus d'armure et vous vous déplacez 33% plus vite.",
+			concise: ""
+		},
+		"239": {
+			id: 239,
+			name: "Protection contre le mal",
+			description: "Crée une protection contre le mal à cette position. Pendant 5...15 secondes, les alliés (autres qu'esprits) dans cette zone bénéficient de +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. Ce sort est désactivé pendant 20 secondes.",
+			concise: "(5...15 secondes.) Les alliés bénéficiant de cette Protection gagnent +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. <gray>Les esprits ne sont pas affectés. Cette compétence est désactivée pendant 20 secondes.</gray>"
+		},
+		"240": {
+			id: 240,
+			name: "Châtiment",
+			description: "Cette attaque inflige 10...55 points de dégâts sacrés. Si elle attaque, votre cible subit 10...35 points de dégâts sacrés en plus.",
+			concise: ""
+		},
+		"241": {
+			id: 241,
+			name: "Lien de vie",
+			description: "Tant que cet enchantement est actif, quand l'allié visé subit des dégâts des suites d'une attaque, la moitié de ces dégâts vous sont infligés. Les dégâts que vous subissez de cette manière sont réduits de 3...30 points.",
+			concise: ""
+		},
+		"242": {
+			id: 242,
+			name: "Esprit de Balthazar",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) gagne de l'adrénaline et de l'énergie après avoir subi des dégâts. (La quantité d'adrénaline dépendra de la valeur de vos Prières de châtiment.)",
+			concise: ""
+		},
+		"243": {
+			id: 243,
+			name: "Force de l'honneur",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) inflige 5...25 points de dégâts supplémentaires au corps à corps.",
+			concise: ""
+		},
+		"244": {
+			id: 244,
+			name: "Affinité vitale",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) inflige 30% de dégâts en moins pendant le combat, mais récupère 14...50% de santé supplémentaire lorsqu'elle est soignée.",
+			concise: "La cible alliée récupère 14...50% de santé en plus lorsqu'elle est guérie. <gray>Cet allié inflige 30% de dégâts en moins avec ses attaques.</gray>"
+		},
+		"245": {
+			id: 245,
+			name: "Esprit protecteur",
+			description: "Pendant 5...23 secondes, la cible (un allié ou vous-même) ne peut pas perdre plus de 10% de santé maximum provoqués par une attaque unique ou par un sort.",
+			concise: ""
+		},
+		"246": {
+			id: 246,
+			name: "Intervention divine",
+			description: "Pendant 10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts qui devraient être fatals, ces dégâts sont annulés et la cible est soignée de 26...240 points de vie.",
+			concise: ""
+		},
+		"247": {
+			id: 247,
+			name: "Symbole de Courroux",
+			description: "Pendant 5 secondes, les ennemis adjacents à la position sur laquelle le sort a été lancé subissent 8...32 points de dégâts sacrés par seconde.",
+			concise: ""
+		},
+		"248": {
+			id: 248,
+			name: "Punition",
+			description: "Tant que cet enchantement est actif, à chaque fois que la cible (un allié ou vous-même) subit des dégâts d'attaque, ce sort renvoie 33% des dégâts à l'attaquant. (maximum de 5...20 points de dégâts).",
+			concise: ""
+		},
+		"249": {
+			id: 249,
+			name: "Colère divine",
+			description: "Pendant 10...30 secondes, les prochaines 1...10 fois que la cible subit des dégâts suite à une attaque, se sort renvoie 66% des dégâts à l'attaquant (Maximum de 5...50 points de dégâts).",
+			concise: ""
+		},
+		"250": {
+			id: 250,
+			name: "Liens de l'Essence",
+			description: "Tant que cet enchantement est actif, si la cible (un allié ou vous-même) subit des dégâts physiques ou élémentaires, vous gagnez 1 point d'énergie.",
+			concise: ""
+		},
+		"251": {
+			id: 251,
+			name: "Guérison néfaste",
+			description: "Pendant 30 secondes, à chaque fois que l'ennemi visé est soigné, la créature qui le soigne subit 15...80 points de dégâts sacrés.",
+			concise: "(30 secondes.) Chaque fois que l'ennemi visé est soigné, le soigneur subit 15...80 points de dégâts sacrés."
+		},
+		"252": {
+			id: 252,
+			name: "Bannissement",
+			description: "La cible ennemie subit 20...56 points de dégâts sacrés. Ce sort inflige le double de dégâts aux créatures invoquées.",
+			concise: "Inflige 20...56 points de dégâts sacrés. Inflige deux fois plus de dégâts aux créatures invoquées."
+		},
+		"253": {
+			id: 253,
+			name: "Sacrifice néfaste",
+			description: "Pendant 8...20 secondes, à chaque fois que l'ennemi visé et les ennemis adjacents sacrifient des points de vie, ils en perdent deux fois plus que la normale.",
+			concise: ""
+		},
+		"254": {
+			id: 254,
+			name: "Esprit vigoureux",
+			description: "Pendant 30 secondes, à chaque fois que la cible (un allié ou vous-même) attaque ou lance un sort, elle est soignée de 5...20 points de vie.",
+			concise: ""
+		},
+		"255": {
+			id: 255,
+			name: "Esprit vigilant",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) reçoit une régénération de santé de +2, elle est soignée de 30...180 points de vie lorsque les effets de lEsprit vigilant'' s'estompent.",
+			concise: ""
+		},
+		"256": {
+			id: 256,
+			name: "Aura sacrée",
+			description: "Tant que cet enchantement est actif, les enchantements de Moine que vous lancez durent 10...35% plus longtemps.",
+			concise: ""
+		},
+		"257": {
+			id: 257,
+			name: "Egide",
+			description: "Pendant 5...11 secondes, tous les membres de l'équipe à portée de voix ont 50% de probabilités de bloquer les attaques.",
+			concise: "Enchante tous les membres du groupe à portée de voix (5...11 secondes). 50% de chances de bloquer."
+		},
+		"258": {
+			id: 258,
+			name: "Gardien",
+			description: "Pendant 2...7 secondes, la cible (un allié ou vous-même) a 50% de chances de bloquer les attaques.",
+			concise: ""
+		},
+		"259": {
+			id: 259,
+			name: "Bouclier de détournement",
+			description: "Pendant 3...10 seconde(s), la cible (un allié ou vous-même) a 75% de chances de bloquer les attaques et bénéficie d'un bonus d'armure de 15...30.",
+			concise: "(3...10 secondes.) 75% de chances de bloquer. Bonus d'armure de +15...30."
+		},
+		"260": {
+			id: 260,
+			name: "Aura de foi",
+			description: "Pendant 3 secondes, la cible (un allié ou vous-même) gagne 50...100% de santé supplémentaire lorsqu'elle est soignée et subit 5...50% de dégâts en moins.",
+			concise: "(3 secondes.) La cible (un allié ou vous-même) gagne 50...100% de santé supplémentaire lorsqu'elle est soignée et subit 5...50% de dégâts en moins."
+		},
+		"261": {
+			id: 261,
+			name: "Bouclier de régénération",
+			description: "Pendant 5...13 secondes, la cible (un allié ou vous-même) bénéficie d'une régénération de santé de +3...10 et de 40 de bonus d'armure.",
+			concise: "(5...13 secondes.) Régénération de santé de +3...10 et bonus d'armure de +40."
+		},
+		"262": {
+			id: 262,
+			name: "Bouclier du jugement",
+			description: "Pendant 8...20 secondes, toutes les créatures qui attaquent la cible (un allié ou vous-même) sont assommées et subissent 5...50 points de dégâts.",
+			concise: "(8...20 secondes.) Inflige 5...50 points de dégâts sacrés aux ennemis qui attaquent la cible alliée. Attaque assomante."
+		},
+		"263": {
+			id: 263,
+			name: "Lien de protection",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) ne peut pas subir plus de 5% de dégâts en une seule attaque ou un seul sort. Si le Lien de protection absorbe des dégâts, soit vous perdez 6...3 points d'énergie, soit le sort prend fin.",
+			concise: ""
+		},
+		"264": {
+			id: 264,
+			name: "Pacifisme",
+			description: "Pendant 4...8 secondes, l'ennemi visé ne peut pas attaquer. Prend fin si cette cible subit des dégâts.",
+			concise: ""
+		},
+		"265": {
+			id: 265,
+			name: "Amitié",
+			description: "Pendant 4...12 secondes, les ennemis adjacents ne peuvent pas attaquer. L'effet prend fin lorsque l'ennemi subit des dégâts.",
+			concise: "(4...12 secondes.) Les ennemis adjacents à vous ne peuvent pas attaquer. Prend fin si un ennemi subit des dégâts."
+		},
+		"266": {
+			id: 266,
+			name: "Paix et harmonie",
+			description: "La cible alliée perd 0...9 condition(s) et maléfice(s). Pendant 1...3 seconde(s), les conditions et maléfices expirent 90% plus vite sur cet allié. Toutes vos Prières de châtiment sont désactivées pendant 20 secondes.",
+			concise: ""
+		},
+		"267": {
+			id: 267,
+			name: "Clairvoyance du juge",
+			description: "Pendant 8...20 secondes, les attaques de la cible (un allié ou vous-même) infligent des dégâts sacrés et bénéficient d'un bonus de +20% de pénétration d'armure.",
+			concise: "(8...20 secondes.) Convertit les dégâts des attaques de l'allié visé en dégâts sacrés et ajoute une pénétration d'armure de +20%."
+		},
+		"268": {
+			id: 268,
+			name: "Aura inflexible",
+			description: "Pendant que cet enchantement est actif, vos sorts de Moine rétablissent +15...60% de santé en plus. Lorsqu'il prend fin, un membre du groupe mort aléatoire est ressuscité et téléporté jusqu'à votre position.",
+			concise: "Vos sorts de Moine rétablissent +15...60% de santé en plus. Effet final : un membre du groupe aléatoire est ressuscité et téléporté à votre position."
+		},
+		"269": {
+			id: 269,
+			name: "Marque de protection",
+			description: "Pendant 10 secondes, à chaque fois que la cible (un allié ou vous-même) subit des dégâts, ils sont transformés en soins (maximum 6...60). L'effet de toutes les prières de protection est annulé pendant 5 secondes.",
+			concise: "(10 secondes.) Convertit les dégâts subis en soins (maximum : 6...60 points de vie). <gray>L'effet de toutes les prières de protection est annulé (5 secondes).</gray>"
+		},
+		"270": {
+			id: 270,
+			name: "Barrière vitale",
+			description: "Tant que cet enchantement est actif, les dégâts infligés à l'allié visé sont réduits de 20...50%. Si vous avez moins de 50% de santé quand l'allié subit les dégâts, la Barrière vitale se dissipe.",
+			concise: "Réduit les dégâts de 20...50%. <gray>Vous ne pouvez pas vous prendre pour cible. Si vous avez moins de 50% de santé quand la cible subit des dégâts, la Barrière vitale se dissipe.</gray>"
+		},
+		"271": {
+			id: 271,
+			name: "Feu du zélote",
+			description: "Pendant 60 secondes, à chaque fois que vous utilisez une compétence sur la cible (un allié ou vous-même), tous les ennemis adjacents subissent 5...35 points de dégâts du feu et vous perdez 1 point d'énergie.",
+			concise: ""
+		},
+		"272": {
+			id: 272,
+			name: "Aura de Balthazar",
+			description: "Pendant 8 secondes, les ennemis adjacents à la cible (un allié ou vous-même) subissent 10...25 points de dégâts sacrés par seconde.",
+			concise: "(8 secondes.) Inflige 10...25 points de dégâts sacrés par seconde aux ennemis adjacents à la cible visée."
+		},
+		"273": {
+			id: 273,
+			name: "Briseur de sorts",
+			description: "Pendant 5...17 secondes, la cible alliée ne peut pas être la cible de sorts ennemis.",
+			concise: "(5...17 secondes.) La cible alliée ne peut pas être la cible de sorts ennemis."
+		},
+		"274": {
+			id: 274,
+			name: "Graine de guérison",
+			description: "Pendant 10 secondes, si l'allié visé subit des dégâts, celui-ci et tous les alliés adjacents gagnent 3...30 points de vie.",
+			concise: ""
+		},
+		"275": {
+			id: 275,
+			name: "Rétablissement partiel",
+			description: "Supprime une condition (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse ou Blessure profonde) affectant l'allié visé. Si une condition est supprimée de cette manière, cet allié est soigné de 5...70 points de vie.",
+			concise: ""
+		},
+		"276": {
+			id: 276,
+			name: "Rétablissement total",
+			description: "Supprime toutes les conditions (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse et Blessure profonde) affectant l'allié visé. Pour chaque condition supprimée, cet allié est soigné de 10...70 points de vie.",
+			concise: "Supprime toutes les conditions. Effet de la suppression : soigne de 10...70 points de vie par condition supprimée. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"277": {
+			id: 277,
+			name: "Guérison des affections",
+			description: "Supprime une condition (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse ou Blessure profonde) affectant la cible (un allié ou vous-même). Pour chaque condition restante, cette cible est soignée de 5...70 points de vie.",
+			concise: ""
+		},
+		"278": {
+			id: 278,
+			name: "Purification des conditions",
+			description: "Supprime toutes les conditions (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse et Blessure profonde) chez la cible (un allié ou vous-même).",
+			concise: "Supprime toutes les conditions."
+		},
+		"279": {
+			id: 279,
+			name: "Guérison divine",
+			description: "Soigne le lanceur et les membres du groupe à portée de voix de 15...60 points.",
+			concise: ""
+		},
+		"280": {
+			id: 280,
+			name: "Zone de guérison",
+			description: "Soigne le lanceur et toutes les créatures adjacentes de 30...180 points de vie.",
+			concise: "Vous êtes soignés ainsi que les alliés et ennemis adjacents de 30...180 points de vie."
+		},
+		"281": {
+			id: 281,
+			name: "Prière de guérison",
+			description: "Soigne la cible (un allié ou vous-même) de 20...70 points de vie.",
+			concise: "Soigne de 20...70 points de vie."
+		},
+		"282": {
+			id: 282,
+			name: "Parole de guérison",
+			description: "La cible (un allié ou vous-même) est soigné de 5...100 points de vie. Si elle a moins de 50% de santé, elle récupère 30...115 points de vie supplémentaires.",
+			concise: "Soigne de 5...100 points de vie. Soigne de 30...115 points de vie en plus si l'allié visé a moins de 50% de santé."
+		},
+		"283": {
+			id: 283,
+			name: "Baiser de Dwayna",
+			description: "Soigne l'allié visé de 15...60 points de vie, et de 10...35 points supplémentaires pour chaque enchantement ou maléfice qui l'affecte.",
+			concise: ""
+		},
+		"284": {
+			id: 284,
+			name: "Bienfait divin",
+			description: "Tant que cet enchantement est actif, à chaque fois que vous lancez un sort de Prières de protection ou de Faveur divine qui vise un allié, celui-ci est soigné de 15...60 points de vie et vous perdez 1 points d'énergie.",
+			concise: "Chaque fois que vous lancez un sort de Prières de Protection ou de Faveur divine visant un allié, celui-ci est soigné de 15...60 point de vie. <gray>Coût de la guérison : vous perdez 1 point d'énergie.</gray>"
+		},
+		"285": {
+			id: 285,
+			name: "Mains du guérisseur",
+			description: "Pendant 10 secondes, chaque fois que la cible (un allié ou vous-même) subit des dégâts, elle reçoit 5...35 points de vie.",
+			concise: "(10 secondes.) Soigne de 5...35 points de vie chaque fois que la cible subit des dégâts."
+		},
+		"286": {
+			id: 286,
+			name: "Guérison des autres",
+			description: "Soigne l'allié de 35...180 points de vie.",
+			concise: ""
+		},
+		"287": {
+			id: 287,
+			name: "Guérison de groupe",
+			description: "Soigne tout le groupe de 30...75 points de vie.",
+			concise: ""
+		},
+		"288": {
+			id: 288,
+			name: "Souffle de guérison",
+			description: "Pendant 15 secondes, la cible (un allié ou vous-même) bénéficie d'une régénération de santé de +4...9.",
+			concise: "(15 secondes.) Confère une régénération de santé de +4...9."
+		},
+		"289": {
+			id: 289,
+			name: "Bénédiction vitale",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) a +40...200 de santé maximum.",
+			concise: ""
+		},
+		"290": {
+			id: 290,
+			name: "Rénovation",
+			description: "Tant que cet enchantement est actif, la régénération de santé de la cible (un allié ou vous-même) est augmentée de +1...4.",
+			concise: ""
+		},
+		"291": {
+			id: 291,
+			name: "Vie par procuration",
+			description: "Tant que cet enchantement est actif, à chaque fois que la cible (un allié ou vous-même) touche un ennemi, vous gagnez 2...17 points de vie.",
+			concise: ""
+		},
+		"292": {
+			id: 292,
+			name: "Transfert de santé",
+			description: "Vous perdez la moitié de vos points de vie. L'allié visé est soigné de 100...136% des points de vie perdus.",
+			concise: "Soigne de 100...136% de votre santé actuelle divisée par deux. Vous perdez la moitié de vos points de vie actuels. Vous ne pouvez pas vous prendre pour cible."
+		},
+		"293": {
+			id: 293,
+			name: "Sceau de dévotion",
+			description: "Soigne la cible (un allié ou vous-même) de 14...100 points de vie.",
+			concise: ""
+		},
+		"294": {
+			id: 294,
+			name: "Sceau du jugement",
+			description: "L'ennemi est assommé. Il subit 15...75 points de dégâts sacrés, ainsi que les ennemis adjacents.",
+			concise: "Assomme la cible. Inflige 15...75 points de dégâts sacrés à la cible et aux ennemis adjacents."
+		},
+		"295": {
+			id: 295,
+			name: "Sceau d'épuration",
+			description: "Annule tous les maléfices et conditions qui affectent la cible (un allié ou vous-même). Vous perdez 10 points d'énergie pour chaque maléfice ou condition annulée.",
+			concise: ""
+		},
+		"296": {
+			id: 296,
+			name: "Sceau de la calamité",
+			description: "La cible ennemie subit 26...56 points de dégâts sacrés. Si elle était en train d'attaquer, elle est assommée.",
+			concise: "Inflige 26...56 points de dégâts sacrés. Attaque assommante si l'ennemi visé attaque."
+		},
+		"297": {
+			id: 297,
+			name: "Sceau sacré",
+			description: "Chaque enchantement que vous maintenez vous fait gagner 3 points d'énergie (maximum 3...24).",
+			concise: ""
+		},
+		"298": {
+			id: 298,
+			name: "Martyre",
+			description: "Transfère toutes les conditions et leur temps restant de vos alliés vers vous.",
+			concise: "Vous transférez vers vous toutes les conditions de tous vos alliés."
+		},
+		"299": {
+			id: 299,
+			name: "Mains du protecteur",
+			description: "Pendant 8 secondes, les dégâts et le vol de vie subis par l'allié sont réduits de 3...18. Lorsque Mains du protecteur prend fin, cet allié est soigné de 5...50 points de vie.",
+			concise: "(8 secondes.) Réduit les dégâts et le vol de vie subis de 3...18. Effet final : soigne de 5...50 points de vie."
+		},
+		"300": {
+			id: 300,
+			name: "Contemplation de la pureté",
+			description: "Perte de tous les enchantements. Pour chaque enchantement perdu, vous gagnez 0...80 points de vie et êtes libéré d'un maléfice et d'une condition (1...8 maléfice(s) et condition(s) maximum).",
+			concise: ""
+		},
+		"301": {
+			id: 301,
+			name: "Annulation des maléfices",
+			description: "Lève un maléfice qui frappe la cible (un allié ou vous-même).",
+			concise: ""
+		},
+		"302": {
+			id: 302,
+			name: "Expiation des maléfices",
+			description: "Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé, les ennemis dans la zone subissent 10...85 points de dégâts.",
+			concise: ""
+		},
+		"303": {
+			id: 303,
+			name: "Conversion des maléfices",
+			description: "Lève tous les maléfices qui frappent l'allié visé. Pendant 8...20 secondes, il gagne +10 de bonus d'armure pour chaque maléfice de Nécromant levé.",
+			concise: "Supprime tous les maléfices. Bonus d'armure de +10 par maléfice de Nécromant supprimé (8...20 secondes)."
+		},
+		"304": {
+			id: 304,
+			name: "Lumière de Dwayna",
+			description: "Vous ressuscitez tous les membres du groupe morts dans la zone. Ils reviennent à la vie avec 25% de leur santé et aucun point d'énergie.",
+			concise: ""
+		},
+		"305": {
+			id: 305,
+			name: "Résurrection",
+			description: "Vous ressuscitez le membre du groupe visé. Celui-ci revient à la vie avec 25% de santé et aucun point d'énergie.",
+			concise: ""
+		},
+		"306": {
+			id: 306,
+			name: "Renaissance",
+			description: "Ressuscite un membre du groupe. Celui-ci revient à la vie avec 25% de santé et aucun point d'énergie et est téléporté à votre position. Toutes ses compétences sont inutilisables pendant 10...3 secondes. Ce sort consomme l'énergie qu'il vous reste.",
+			concise: "Ressuscite le membre du groupe visé (25% de santé et 0 point d'énergie). Téléporte la cible vers vous. Désactive les compétences de la cible (10...3 secondes). Vous perdez toute votre énergie."
+		},
+		"307": {
+			id: 307,
+			name: "Revers de fortune",
+			description: "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) doit subir des dégâts ou un vol de vie, ces derniers sont transformés en points de vie (maximum 15...80).",
+			concise: ""
+		},
+		"308": {
+			id: 308,
+			name: "Secours",
+			description: "Tant que cet enchantement est actif, la régénération d'énergie et de santé de l'allié augmente de +1, mais vous perdez 1 point d'énergie à chaque fois qu'il lance un sort.",
+			concise: "Régénération de santé de +1 et régénération d'énergie de +1. <gray>Vous ne pouvez pas vous prendre pour cible. Vous perdez 1 point d'énergie chaque fois que l'allié visé lance un sort.</gray>"
+		},
+		"309": {
+			id: 309,
+			name: "Voile sacré",
+			description: "Tant que cet enchantement est actif, le temps d'incantation de tout maléfice lancé sur la cible (un allié ou vous-même) est doublé. Lorsque la compétence prend fin, un maléfice est ôté de la cible (un allié ou vous-même).",
+			concise: "Double le temps d'incantation des maléfices lancés sur l'allié visé. Effet final : supprime un maléfice."
+		},
+		"310": {
+			id: 310,
+			name: "Esprit divin",
+			description: "Pendant 1...14 seconde(s), les sorts de Moine vous coûtent 5 points d'énergie en moins (coût minimum : 1 point d'énergie).",
+			concise: "(1...14 seconde(s).) Les sorts de Moine coûtent 5 points en moins. <gray>Coût minimum : 1 point d'énergie.</gray>"
+		},
+		"311": {
+			id: 311,
+			name: "Egalité de conditions",
+			description: "Toutes les conditions négatives de l'allié vous sont transférées. Pour chaque condition transférée, vous gagnez 6...26 points de vie.",
+			concise: ""
+		},
+		"312": {
+			id: 312,
+			name: "Choc sacré",
+			description: "L'ennemi touché subit 10...55 points de dégâts sacrés. Si elle est assommée, votre cible subira 10...55 points de dégâts sacrés en plus.",
+			concise: ""
+		},
+		"313": {
+			id: 313,
+			name: "Caresse de guérison",
+			description: "La cible (un allié ou vous-même) touchée est soignée de 16...60 points de vie. La santé récupérée grâce à la Faveur divine est doublée pour ce sort.",
+			concise: "Soigne de 16...60 points de vie. Double la santé récupérée grâce à la Faveur Divine pour ce sort."
+		},
+		"314": {
+			id: 314,
+			name: "Reviviscence",
+			description: "Touchez le corps d'un membre du groupe tombé au combat, il revient à la vie avec 20...65% de vie et 42...90% d'énergie.",
+			concise: ""
+		},
+		"315": {
+			id: 315,
+			name: "Vengeance",
+			description: "Ressuscite un membre du groupe mort avec tous ses points de vie et d'énergie. Pendant 30 secondes, ce membre du groupe inflige 25% de dégâts en plus. Lorsque cet enchantement prend fin, le membre du groupe visé meurt. Les personnages mourant sous les effets de cet enchantement n'obtiennent pas de handicap.",
+			concise: ""
+		},
+		"316": {
+			id: 316,
+			name: "\"Extrême limite !\"",
+			description: "Pour chaque ennemi à portée de voix (maximum 1...6), vous gagnez une décharge d'adrénaline. Pendant 10...20 secondes, vous bénéficiez de +10...60 points de santé.",
+			concise: ""
+		},
+		"317": {
+			id: 317,
+			name: "Fureur guerrière",
+			description: "Pendant 5...20 secondes, vous vous déplacez 33% plus vite et gagnez 2 fois plus d'adrénaline lors des attaques. La Fureur guerrière prend fin si vous utilisez des compétences ne nécessitant pas d'adrénaline.",
+			concise: "(5...20 secondes.) Vous vous déplacez 33% plus vite et vos attaques vous font gagner 2 fois plus d'adrénaline."
+		},
+		"318": {
+			id: 318,
+			name: "Défi à la douleur",
+			description: "Pendant 20 secondes, vous avez 90...300 points de vie supplémentaires, bénéficiez d'un bonus d'armure de 20 et subissez -1...10 point(s) de dégâts en moins.",
+			concise: "(20 secondes.) Vous bénéficiez de +90...300 points de santé maximum, d'un bonus d'armure de +20 et subissez -1...10 point de dégâts en moins."
+		},
+		"319": {
+			id: 319,
+			name: "Course",
+			description: "Pendant 8...20 secondes, vous courez 25% plus vite.",
+			concise: ""
+		},
+		"320": {
+			id: 320,
+			name: "Coupe-jarret",
+			description: "Si cette attaque réussit, la cible est frappée d'Infirmité pendant 3...15 secondes et ses mouvements sont ralentis.",
+			concise: ""
+		},
+		"321": {
+			id: 321,
+			name: "Coup sauvage",
+			description: "Perte de toute l'adrénaline. Si l'attaque réussit, vous portez un coup critique et la pose de combat utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
+			concise: ""
+		},
+		"322": {
+			id: 322,
+			name: "Attaque puissante",
+			description: "Cette attaque inflige +10...40 points de dégâts si elle réussit.",
+			concise: "Inflige +10...40 points de dégâts."
+		},
+		"323": {
+			id: 323,
+			name: "Frappe désespérée",
+			description: "Si cette attaque réussit, vous infligez +10...40 points de dégâts et la cible est affectée par une des Conditions suivantes : Blessure profonde (pendant 20 secondes), Faiblesse (pendant 20 secondes), Saignement (pendant 25 secondes) ou Infirmité (pendant 15 secondes). Vous êtes assommé après une Frappe désespérée.",
+			concise: ""
+		},
+		"324": {
+			id: 324,
+			name: "Frisson de victoire",
+			description: "Si ce coup réussit, vous infligez +20...40 points de dégâts. Si vous avez plus de points de santé que l'ennemi visé, vous gagnez 1...2 décharge(s) d'adrénaline.",
+			concise: ""
+		},
+		"325": {
+			id: 325,
+			name: "Coup de diversion",
+			description: "Vous agitez votre arme devant l'ennemi sans lui infliger de dégâts, mais vous interrompez son action (et les actions des ennemis qui lui sont adjacents).",
+			concise: ""
+		},
+		"326": {
+			id: 326,
+			name: "Attaque du protecteur",
+			description: "Si cette attaque frappe un ennemi en mouvement, vous infligez 10...40 points de dégâts supplémentaires.",
+			concise: ""
+		},
+		"327": {
+			id: 327,
+			name: "Frappe du griffon",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 10...34 points de dégâts.",
+			concise: "Inflige +5...21 points de dégâts. Attaque assommante infligeant 10...36 points de dégâts si elle est bloquée."
+		},
+		"328": {
+			id: 328,
+			name: "Frappe pure",
+			description: "Si la Frappe pure réussit, vous infligez +1...30 point(s) de dégâts. Si vous n'utilisez pas de Pose, la Frappe pure ne peut pas être bloquée.",
+			concise: ""
+		},
+		"329": {
+			id: 329,
+			name: "Brise-crâne",
+			description: "Si elle réussit, cette attaque interrompt l'action de la cible. Si l'ennemi était en train de lancer un sort, il est frappé de Stupeur pendant 10 secondes.",
+			concise: ""
+		},
+		"330": {
+			id: 330,
+			name: "Hache cyclone",
+			description: "Attaque tournoyante à la hache qui inflige +4...12 points de dégâts à tous les ennemis adjacents.",
+			concise: "Inflige +4...12 poinrs de dégâts à tous les ennemis qui vous sont adjacents."
+		},
+		"331": {
+			id: 331,
+			name: "Coup de marteau",
+			description: "Perte de toute l'adrénaline. Si le Coup de marteau réussit, la cible est assommée.",
+			concise: ""
+		},
+		"332": {
+			id: 332,
+			name: "Attaque du taureau",
+			description: "Si cette attaque frappe un ennemi en déplacement, vous infligez +5...30 points de dégâts et la cible est assommée.",
+			concise: ""
+		},
+		"333": {
+			id: 333,
+			name: "\"Je vous vengerai !\"",
+			description: "Pour chaque allié mort, votre vitesse d'attaque augmente de 25% et vous bénéficiez d'une régénération de santé de +3...7 pendant 10 secondes.",
+			concise: ""
+		},
+		"334": {
+			id: 334,
+			name: "Ratissage",
+			description: "Si cette attaque frappe un ennemi souffrant d'une Blessure profonde, vous infligez +1...10 point(s) de dégâts et la cible est frappée d'Infirmité pendant 15 secondes.",
+			concise: ""
+		},
+		"335": {
+			id: 335,
+			name: "Clivage",
+			description: "Cette attaque inflige +10...30 points de dégâts si elle réussit.",
+			concise: ""
+		},
+		"336": {
+			id: 336,
+			name: "Frappe du bourreau",
+			description: "Cette attaque inflige +10...40 points de dégâts si elle réussit.",
+			concise: ""
+		},
+		"337": {
+			id: 337,
+			name: "Démembrement",
+			description: "Si cette attaque à la hache réussit, vous infligez une Blessure profonde qui réduit la santé maximum de la cible de 20% pendant 5...20 secondes.",
+			concise: ""
+		},
+		"338": {
+			id: 338,
+			name: "Eviscération",
+			description: "Si l'Eviscération réussit, vous infligez +1...31 points de dégât(s) et une Blessure profonde qui réduit la santé maximum de la cible de 20% pendant 5...20 secondes.",
+			concise: ""
+		},
+		"339": {
+			id: 339,
+			name: "Coup pénétrant",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Cette attaque à la hache a 20% de pénétration d'armure.",
+			concise: ""
+		},
+		"340": {
+			id: 340,
+			name: "Taillade d'interruption",
+			description: "Si elle réussit, cette attaque interrompt l'action de la cible. S'il s'agissait d'une compétence, celle-ci devient inutilisable pendant 20 secondes de plus.",
+			concise: ""
+		},
+		"341": {
+			id: 341,
+			name: "Coup rapide",
+			description: "Si cette attaque réussit, vous infligez +1...20 point(s) de dégâts. Si le Coup rapide est bloqué, la cible souffre d'une blessure profonde pendant 20 secondes et subit 1...20 point(s) de dégâts supplémentaire.",
+			concise: "Inflige + 1...20 points de dégâts. Inflige 1...20 points de dégâts et la Blessure profonde (20 secondes) si l'ennemi réussit à bloquer."
+		},
+		"342": {
+			id: 342,
+			name: "Hache tournante",
+			description: "Si cette attaque frappe un ennemi souffrant d'une Blessure profonde, vous infligez 1...20 point(s) de dégâts supplémentaires et la cible est prise de Faiblesse pendant 20 secondes.",
+			concise: ""
+		},
+		"343": {
+			id: 343,
+			name: "Pour la justice !",
+			description: "Pendant 20 secondes, chaque fois que vous gagnez de l'adrénaline, vous en obtenez 100% de plus.",
+			concise: "(20 secondes.) Vous gagnez 100% d'adrénaline en plus."
+		},
+		"344": {
+			id: 344,
+			name: "Rafale",
+			description: "Pendant 5 secondes, votre vitesse d'attaque augmente de 33%, mais vous infligez 25% de dégâts en moins.",
+			concise: "(5 secondes). Vous attaquez 33% plus vite."
+		},
+		"345": {
+			id: 345,
+			name: "Pose défensive",
+			description: "Pendant 1...5 seconde(s), vous bénéficiez de 75% de chances de bloquer. Lorsque cette pose prend fin, vous gagnez 1 décharge d'adrénaline pour chaque compétence d'attaque au corps à corps dont vous disposez. (Maximum 0...4).",
+			concise: ""
+		},
+		"346": {
+			id: 346,
+			name: "Frénésie",
+			description: "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez deux fois plus de dégâts.",
+			concise: ""
+		},
+		"347": {
+			id: 347,
+			name: "Résistance à la douleur",
+			description: "Pendant 7...18 secondes, vous avez 90...300 points de vie supplémentaires.",
+			concise: "(7...18 secondes.) Vous avez +90...300 de santé maximum."
+		},
+		"348": {
+			id: 348,
+			name: "\"Prenez garde !\"",
+			description: "Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25 pendant 10 secondes. Ce cri prend fin après 10 attaques.",
+			concise: "(10 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25. Prend fin après 10 attaques reçues."
+		},
+		"349": {
+			id: 349,
+			name: "Sprint",
+			description: "Pendant 8...14 secondes, vous courez 25% plus vite.",
+			concise: ""
+		},
+		"350": {
+			id: 350,
+			name: "Coup ventral",
+			description: "Si cette attaque frappe un ennemi à terre, le nuage de poussière soulevé aveugle les ennemis adjacents pendant 3...7 secondes.",
+			concise: ""
+		},
+		"351": {
+			id: 351,
+			name: "Coup puissant",
+			description: "Cette attaque inflige +10...40 points de dégâts si elle réussit.",
+			concise: ""
+		},
+		"352": {
+			id: 352,
+			name: "Coup écrasant",
+			description: "Si cette attaque réussit, vous infligez +1...20 points de dégâts. Si vous frappez un ennemi assommé, vous lui infligez une Blessure profonde qui réduit sa santé maximum de 20% pendant 5...20 secondes.",
+			concise: ""
+		},
+		"353": {
+			id: 353,
+			name: "Swing brutal",
+			description: "Vous attaquez tous les ennemis adjacents. Chaque ennemi touché subit +1...20 point(s) de dégâts.",
+			concise: ""
+		},
+		"354": {
+			id: 354,
+			name: "Marteau pilon",
+			description: "L'ennemi ciblé et tous les ennemis adjacents sont assommés (50% de risques d'échec avec Maîtrise du marteau 4 ou moins).",
+			concise: ""
+		},
+		"355": {
+			id: 355,
+			name: "Marteau dévastateur",
+			description: "Si l'attaque du Marteau dévastateur réussit, la cible est assommée et frappée de Faiblesse pendant 5...20 secondes.",
+			concise: ""
+		},
+		"356": {
+			id: 356,
+			name: "Coup impérieux",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 5...20 points de dégâts.",
+			concise: "Inflige +5...20 points de dégâts. Inflige 5...20 points de dégâts et assomme si l'ennemi réussit à bloquer."
+		},
+		"357": {
+			id: 357,
+			name: "Contrecoup",
+			description: "Si cette attaque frappe un ennemi en combat, il est assommé.",
+			concise: ""
+		},
+		"358": {
+			id: 358,
+			name: "Brise-échine",
+			description: "Si le Brise-échine réussit, vous infligez +1...20 point(s) de dégâts et votre cible est assommée. Cet assommement dure 4 secondes si vous avez au moins 8 points en Force.",
+			concise: ""
+		},
+		"359": {
+			id: 359,
+			name: "Coup de brute",
+			description: "Perte de toute l'adrénaline. Si cette attaque frappe un ennemi souffrant de Faiblesse, il est assommé et vous infligez +1...30 points de dégâts.",
+			concise: ""
+		},
+		"360": {
+			id: 360,
+			name: "Coup de boutoir",
+			description: "Si cette attaque au marteau réussit, la cible est frappée de Faiblesse pendant 5...20 secondes.",
+			concise: ""
+		},
+		"361": {
+			id: 361,
+			name: "Sceau de dolyak",
+			description: "Pendant 8...20 secondes, vous gagnez +10...40 de bonus d'armure et vous ne pouvez pas être assommé, mais vos mouvements sont ralentis de 75%.",
+			concise: ""
+		},
+		"362": {
+			id: 362,
+			name: "Adresse du Guerrier",
+			description: "Pendant 5...11 secondes, vos attaques au corps à corps ne peuvent pas être bloquées.",
+			concise: ""
+		},
+		"363": {
+			id: 363,
+			name: "Coup de bouclier",
+			description: "Pendant 5...11 secondes, si vous utilisez un bouclier, la prochaine compétence d'attaque utilisée contre vous sera bloquée. S'il s'agissait d'une compétence de mêlée, votre attaquant sera assommé et sa compétence sera inutilisable pendant 15 secondes supplémentaires.",
+			concise: ""
+		},
+		"364": {
+			id: 364,
+			name: "\"Chargez !\"",
+			description: "Pendant 5...13 secondes, tous les alliés à portée de voix se déplacent 33% plus vite. Effet initial : les alliés à portée de voix perdent leur condition d'Infirmité.",
+			concise: ""
+		},
+		"365": {
+			id: 365,
+			name: "A moi la victoire !",
+			description: "Vous gagnez 10...68 points de vie et 3...7 points d'énergie pour chaque condition qui affecte l'ennemi ciblé.",
+			concise: "Vous gagnez 10...68 points de vie et 3...7 points d'énergie pour chaque condition sur l'ennemi ciblé."
+		},
+		"366": {
+			id: 366,
+			name: "\"Craignez-moi !\"",
+			description: "Tous les ennemis à proximité perdent 1...4 points d'énergie. Pendant 1...15 seconde(s), vos attaques au corps à corps gagnent +5...30% de chances d'infliger un coup critique sur les ennemis immobiles.",
+			concise: ""
+		},
+		"367": {
+			id: 367,
+			name: "\"Levez les boucliers !\"",
+			description: "Pendant 5...11 secondes, tous les membres du groupe à portée de voix et vous-même bénéficiez d'un bonus d'armure de +60 contre les projectiles qui vous sont lancés.",
+			concise: ""
+		},
+		"368": {
+			id: 368,
+			name: "\"Je survivrai !\"",
+			description: "Vous bénéficiez de +3 points de régénération de santé pour chaque condition dont vous souffrez. Cette régénération cesse au bout de 5...11 secondes.",
+			concise: ""
+		},
+		"370": {
+			id: 370,
+			name: "Pose du berserker",
+			description: "Pendant 5...11 secondes, vous attaquez 33% plus vite et gagnez 50% d'adrénaline en plus. La Pose du Berserker prend fin si vous utilisez une compétence.",
+			concise: ""
+		},
+		"371": {
+			id: 371,
+			name: "Pose d'équilibre",
+			description: "Pendant 8...20 secondes, vous ne pouvez pas être assommé et vous ne subissez pas de dégâts supplémentaires en recevant une attaque critique.",
+			concise: ""
+		},
+		"372": {
+			id: 372,
+			name: "Défense du gladiateur",
+			description: "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques. A chaque fois que vous bloquez une attaque au corps à corps de cette manière, l'attaquant subit 5...35 points de dégâts.",
+			concise: ""
+		},
+		"373": {
+			id: 373,
+			name: "Déviation des flèches",
+			description: "Pendant 1...6 secondes, vous bénéficiez de 75% de chances de bloquer. Chaque fois que bloquez un projectile, les ennemis adjacent souffre de Saignement pendant 5...15 secondes.",
+			concise: ""
+		},
+		"374": {
+			id: 374,
+			name: "Endurance du Guerrier",
+			description: "Pendant 5...35 secondes, vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. L'Endurance du Guerrier ne peut pas faire monter votre énergie au-delà de 10...25.",
+			concise: "(5...35 secondes.) Vous gagnez 3 points d'énergie chaque fois que vous réussissez une attaque au corps à corps. <gray>Vous ne récupérez pas d'énergie si vous avez plus de 10...25 points d'énergie.</gray>"
+		},
+		"375": {
+			id: 375,
+			name: "Pose de combat des Nains",
+			description: "Pendant 5...11 secondes, si vous utilisez un marteau, vos attaques sont 33% plus rapides, vous gagnez un bonus d'armure de +40, et l'utilisation d'une compétence d'attaque pour frapper un ennemi interrompt l'action de celui-ci.",
+			concise: ""
+		},
+		"376": {
+			id: 376,
+			name: "Pose de discipline",
+			description: "Pendant 1...4 seconde(s), vous bénéficiez d'un bonus d'armure de +10 et vous avez 75% de chances de bloquer les attaques. La Pose de discipline prend fin si vous utilisez une compétence d'adrénaline.",
+			concise: "(1...4 seconde(s).) Vous avez 75% de chances de bloquer et bénéficiez d'un bonus d'armure de +10. <gray>Prend fin si vous utilisez une compétence d'Adrénaline.</gray>"
+		},
+		"377": {
+			id: 377,
+			name: "Pose prudente",
+			description: "Pendant 1...6 secondes, vous bloquez toutes les compétences d'attaque lancées contre vous. Pour chaque attaque bloquée, vous gagnez de l'adrénaline et 5 points d'énergie. La Pose prudente prend fin si vous utilisez une compétence.",
+			concise: ""
+		},
+		"378": {
+			id: 378,
+			name: "Pose du bouclier",
+			description: "Pendant 1...6 secondes, si vous utilisez un bouclier, vous avez 75% de chances de bloquer les attaques lancées contre vous, et les dégâts sont réduits de 2 pour chaque rang en Force (maximum de 15 points réduction de dégâts).",
+			concise: "(1...6 seconde(s).) Vous avez 75% de chances de bloquer les attaques. Les dégâts sont réduits de 2 pour chaque rang en Force (maximum de 15 points réduction de dégâts). <gray>Ne fonctionne que si vous êtes équipé d'un bouclier.</gray>"
+		},
+		"379": {
+			id: 379,
+			name: "Charge du taureau",
+			description: "Pendant 1...7 secondes, vous vous déplacez 50% plus vite et si vous touchez un ennemi en déplacement au corps à corps, vous l'assommez. La Charge du taureau prend fin si vous utilisez une compétence.",
+			concise: ""
+		},
+		"380": {
+			id: 380,
+			name: "Défense de Bonetti",
+			description: "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les flèches. Vous gagnez 5 points d'énergie pour chaque attaque de mêlée bloquée. La ''Défense de Bonetti'' prend fin si vous utilisez une compétence.",
+			concise: ""
+		},
+		"381": {
+			id: 381,
+			name: "Cent lames",
+			description: "Pendant 15 secondes, à chaque fois que vous attaquez avec une épée, tous les ennemis adjacents subissent 10...25 points de dégâts tranchants.",
+			concise: "(15 secondes.) Infligent 10...25 points de dégâts à tous les ennemis adjacents chaque fois que vous attaquez avec une épée."
+		},
+		"382": {
+			id: 382,
+			name: "Tranche-artère",
+			description: "Si cette attaque réussit, l'ennemi sera victime de Saignements pendant 5...25 secondes et perdra progressivement des points de vie.",
+			concise: ""
+		},
+		"383": {
+			id: 383,
+			name: "Taillade de Galrath",
+			description: "Cette attaque inflige +1...40 points de dégâts si elle réussit.",
+			concise: ""
+		},
+		"384": {
+			id: 384,
+			name: "Entaille",
+			description: "Si cette attaque frappe un ennemi affecté par le Saignement, vous lui infligez 5...20 points de dégâts supplémentaires et une Blessure profonde qui réduit sa santé maximum de 20% pendant 5...20 secondes.",
+			concise: ""
+		},
+		"385": {
+			id: 385,
+			name: "Botte fatale",
+			description: "Perte de toute l'adrénaline. Si la Botte fatale touche sa cible, vous infligez 1...40 point(s) de dégâts supplémentaires. Ces dégâts sont doublés si la cible a moins de 50% de ses points de vie.",
+			concise: "Inflige +1...40 points de dégâts. Inflige +1...40 points de dégâts supplémentaires si l'ennemi visé a moins de 50% de santé."
+		},
+		"386": {
+			id: 386,
+			name: "Lame chercheuse",
+			description: "Si cette attaque réussit, vous infligez +1...20 point(s) de dégâts. Si elle est bloquée, la cible est prise de Saignements pendant 25 secondes et subit 1...20 point(s) de dégâts.",
+			concise: ""
+		},
+		"387": {
+			id: 387,
+			name: "Riposte",
+			description: "Pendant 8 secondes, si vous avez une épée en main, vous bloquez la prochaine attaque au corps à corps et votre attaquant subit 20...80 points de dégâts.",
+			concise: ""
+		},
+		"388": {
+			id: 388,
+			name: "Riposte mortelle",
+			description: "Pendant 8 secondes, si vous avez une épée en main, vous bloquez la prochaine attaque au corps à corps contre vous, l'attaquant subit 15...90 points de dégâts et souffre de Saignement pendant 3...25 secondes.",
+			concise: ""
+		},
+		"389": {
+			id: 389,
+			name: "Prospérité",
+			description: "Toutes vos compétences d'attaque sont rechargées. Vous gagnez 2...7 point(s) d'énergie pour chaque compétence rechargée par la Prospérité.",
+			concise: ""
+		},
+		"390": {
+			id: 390,
+			name: "Taillade sauvage",
+			description: "Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, vous infligez 1...40 point(s) de dégâts en plus.",
+			concise: ""
+		},
+		"391": {
+			id: 391,
+			name: "Tir du chasseur",
+			description: "Si le Tir du chasseur réussit, votre cible souffre de Saignement pendant 3...25 secondes.",
+			concise: "Provoque le Saignement (3...25 secondes)."
+		},
+		"392": {
+			id: 392,
+			name: "Immobilisation",
+			description: "Si l'Immobilisation réussit, la cible est frappée d'Infirmité pendant 3...15 secondes.",
+			concise: ""
+		},
+		"393": {
+			id: 393,
+			name: "Tir incapacitant",
+			description: "Si le Tir incapacitant réussit, la cible est frappée d'Infirmité pendant 1...12 seconde(s). Cette attaque ne peut pas être bloquée.",
+			concise: "Inflige l'Infirmité (1...12 seconde(s)). Impossible à bloquer."
+		},
+		"394": {
+			id: 394,
+			name: "Tir puissant",
+			description: "Le Tir puissant inflige 5...20 points de dégâts s'il touche sa cible.",
+			concise: ""
+		},
+		"395": {
+			id: 395,
+			name: "Tir de barrage",
+			description: "Toutes vos préparations sont annulées. Vous lancez des flèches sur un maximum de 6 ennemis adjacents à votre cible. Ces flèches infligent +5...20 point de dégâts si elles touchent l'ennemi.",
+			concise: "Inflige +5...20 points de dégâts. Affecte 6 ennemis adjacents à votre cible. <gray>Toutes vos préparations sont annulées.</gray>"
+		},
+		"396": {
+			id: 396,
+			name: "Tir double",
+			description: "Vous tirez deux flèches sur l'ennemi visé. Ces flèches infligent 25% moins de dégâts.",
+			concise: ""
+		},
+		"397": {
+			id: 397,
+			name: "Tir rapide",
+			description: "Vous décochez une flèche qui se déplace deux fois plus vite.",
+			concise: "Vous tirez une flèche qui se déplace deux fois plus vite."
+		},
+		"398": {
+			id: 398,
+			name: "Attaque pénétrante",
+			description: "Si l'Attaque pénétrante réussit, vous infligez +5...25 points de dégâts et cette attaque offre une pénétration d'armure de 10%.",
+			concise: "Inflige +5...25 points de dégâts. Pénétration d'armure de 10%."
+		},
+		"399": {
+			id: 399,
+			name: "Tir de diversion",
+			description: "Si le Tir de diversion réussit, il interrompt l'action de la cible mais n'inflige que 1...16 point de dégâts. Si l'ennemi utilisait une compétence, celle-ci est inutilisable pendant 20 secondes de plus.",
+			concise: ""
+		},
+		"400": {
+			id: 400,
+			name: "Tir de précision",
+			description: "Si le Tir de précision réussit, vous infligez +3...10 points de dégâts. Le Tir de précision ne peut pas être bloqué. Cette action peut facilement être interrompue.",
+			concise: ""
+		},
+		"402": {
+			id: 402,
+			name: "Tir déterminé",
+			description: "Si le Tir déterminé réussit, vous infligez +5...20 points de dégâts. S'il échoue toutes vos compétences d'attaques seront rechargées.",
+			concise: ""
+		},
+		"403": {
+			id: 403,
+			name: "Tir ciblé",
+			description: "Vous décochez une flèche qui se déplace trois fois plus rapidement et qui ne peut pas être bloquée.",
+			concise: ""
+		},
+		"404": {
+			id: 404,
+			name: "Flèche empoisonnée",
+			description: "Si la Flèche empoisonnée touche sa cible, elle est empoisonnée pendant 5...20 secondes.",
+			concise: "Provoque l'Empoisonnement (5...20 secondes)."
+		},
+		"405": {
+			id: 405,
+			name: "Tir du serment",
+			description: "Si le ''Tir du serment'' réussit, toutes vos compétences (à part celle-ci) se rechargent. S'il est raté, toutes vos compétences sont inutilisables pendant 10 secondes (50% de risques d'échec avec une Expertise de 7 ou moins).",
+			concise: ""
+		},
+		"406": {
+			id: 406,
+			name: "Tir débilitant",
+			description: "Si le Tir débilitant réussit, la cible perd 1...10 point(s) d'énergie.",
+			concise: ""
+		},
+		"407": {
+			id: 407,
+			name: "Tir à bout portant",
+			description: "Vous tirez une flèche dont la portée est réduite de moitié, mais qui inflige +10...40 points de dégâts.",
+			concise: "Inflige +10...40 points de dégâts"
+		},
+		"408": {
+			id: 408,
+			name: "Coup cérébral",
+			description: "Si le coup cérébral atteint un ennemi qui est en train de lancer un sort, celui-ci est interrompu et l'ennemi est frappé de Stupeur pendant 5...20 secondes. Cette attaque n'inflige que 1...16 point(s) de dégâts.",
+			concise: ""
+		},
+		"409": {
+			id: 409,
+			name: "Tir de représailles",
+			description: "Si le Tir de représailles réussit, vous infligez 10...20 points de dégâts supplémentaires et l'action de la cible est interrompue.",
+			concise: "Inflige +10...20 points de dégâts. Interrompt une action."
+		},
+		"411": {
+			id: 411,
+			name: "Charme animal",
+			description: "Charme l'animal visé. Une fois charmé, votre familier vous suivra tant que le charme animal sera équipé. (Impossible de charmer un animal qui possède plus de 4 niveaux de plus que vous.)",
+			concise: "Charme l'animal visé. Une fois charmé, votre familier vous suivra tant que le charme animal sera équipé."
+		},
+		"412": {
+			id: 412,
+			name: "Cri de protection",
+			description: "Pendant 120 secondes, vos familiers bénéficient d'une réduction de dégâts de base de 5...20.",
+			concise: ""
+		},
+		"415": {
+			id: 415,
+			name: "Cri de hâte",
+			description: "Pendant 30 secondes, votre familier bénéficie de 33% de vitesse d'attaque en plus et se déplace 33% plus vite.",
+			concise: "(30 secondes.) Votre familier se déplace et attaque 33% plus rapidement."
+		},
+		"422": {
+			id: 422,
+			name: "Renaissance animale",
+			description: "Ramène à la vie tous les animaux alliés à proximité avec 10...94% de santé.",
+			concise: ""
+		},
+		"423": {
+			id: 423,
+			name: "Lien symbiotique",
+			description: "Pendant 120...300 secondes, la régénération de santé de votre animal augmente de 1...3 point(s) et la moitié de tous les dégâts qui lui sont infligés vous sont transférés.",
+			concise: ""
+		},
+		"424": {
+			id: 424,
+			name: "Jet de terre",
+			description: "L'ennemi touché et les ennemis adjacents sont aveuglés pendant 3...15 secondes.",
+			concise: ""
+		},
+		"425": {
+			id: 425,
+			name: "Esquive",
+			description: "Pendant 5...11 secondes, vous vous déplacez 33% plus vite et avez 27...75% de chances de bloquer les projectiles qui vous visent. L'Esquive cesse si vous attaquez.",
+			concise: ""
+		},
+		"426": {
+			id: 426,
+			name: "Tir sauvage",
+			description: "Si le Tir sauvage réussit, l'action de la cible est interrompue. S'il s'agissait d'un sort, vous infligez +13...28 points de dégâts.",
+			concise: ""
+		},
+		"427": {
+			id: 427,
+			name: "Sceau antidote",
+			description: "Vous guérit du Poison, de la Maladie, de l'Aveuglement et d'une autre condition.",
+			concise: ""
+		},
+		"428": {
+			id: 428,
+			name: "Flèches incendiaires",
+			description: "Vous lancez des flèches sur la cible ennemie et jusqu'à 2 ennemis autour de votre cible. Ces ennemis s'embrasent pendant 1...3 seconde(s).",
+			concise: "Frappe 2 ennemis près de votre cible et inflige la Brûlure (1...3 seconde(s))."
+		},
+		"429": {
+			id: 429,
+			name: "Flèches de Melandru",
+			description: "Pendant 18 secondes, vos flèches provoquent un Saignement de 3...25 secondes et infligent +8...28 points de dégâts si elles touchent une cible se trouvant sous un enchantement.",
+			concise: ""
+		},
+		"430": {
+			id: 430,
+			name: "Pari du tireur",
+			description: "Pendant 18 secondes, vous gagnez 5...10 points d'énergie quand vos flèches touchent leur cible, mais en perdez 10 si elles ratent leur objectif.",
+			concise: ""
+		},
+		"431": {
+			id: 431,
+			name: "Flèches de feu",
+			description: "Pendant 24 secondes, vos flèches explosent à l'impact et infligent 3...18 points de dégâts du feu à la cible et aux ennemis adjacents.",
+			concise: "(24 secondes.) Vos flèches infligent 3...18 points de dégâts du feu à la cible et aux ennemis adjacents."
+		},
+		"432": {
+			id: 432,
+			name: "Lecture du vent",
+			description: "Pendant 24 secondes, vos flèches se déplacent deux fois plus vite et infligent 3...10 points de dégâts en plus.",
+			concise: "(24 secondes.) +3...10 points de dégâts. Vos flèches se déplacent deux fois plus vite."
+		},
+		"433": {
+			id: 433,
+			name: "Flèches enflammées",
+			description: "Pendant 24 secondes, vos flèches infligent des dégâts du feu et causent 3...24 points de dégâts du feu en plus.",
+			concise: ""
+		},
+		"434": {
+			id: 434,
+			name: "Gaz suffocant",
+			description: "Pendant 1...12 seconde(s), vos flèches infligent 1...8 point(s) de dégâts en plus et répandent du Gaz suffocant à l'impact sur tous les ennemis adjacents. Le Gaz suffocant interrompt les ennemis lorsqu'ils tentent de lancer des sorts.",
+			concise: ""
+		},
+		"435": {
+			id: 435,
+			name: "Application de poison",
+			description: "Dure 24 secondes. Pendant ce temps, les ennemis frappés par vos attaques physiques sont empoisonnés pendant 3...15 secondes.",
+			concise: ""
+		},
+		"436": {
+			id: 436,
+			name: "Bien-être animal",
+			description: "Vous soignez votre animal de 20...104 points de vie. S'il est mort, il est ressuscité avec 10...58% de santé. Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements.",
+			concise: "Votre familier gagne 20...104 points de vie. Ressuscite votre familier (10...58% de santé). Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements."
+		},
+		"437": {
+			id: 437,
+			name: "Assaut bestial",
+			description: "Votre familier tente un Assaut bestial qui infligera +5...20 points de dégâts. Si l'attaque touche un ennemi qui lance un sort, celui-ci sera assommé.",
+			concise: ""
+		},
+		"438": {
+			id: 438,
+			name: "Assaut de mutilation",
+			description: "Votre familier tente un Assaut de mutilation qui inflige +5...20 points de dégâts. Si cette attaque touche un ennemi en mouvement, il souffrira d'Infirmité pendant 3...15 secondes.",
+			concise: ""
+		},
+		"439": {
+			id: 439,
+			name: "Coup barbare",
+			description: "Votre familier tente un Coup barbare qui infligera +5...35 points de dégâts. S'il touche un ennemi qui attaque, celui-ci sera pris de Saignements pendant 5...25 secondes.",
+			concise: ""
+		},
+		"440": {
+			id: 440,
+			name: "Assaut de charognard",
+			description: "Votre familier tente un Assaut de charognard qui inflige +10...25 points de dégâts. Si cette attaque touche un ennemi qui souffre d'une condition, vous obtenez +3...15 points d'énergie.",
+			concise: "Inflige +10...25 points de dégâts. Vous bénéficiez de +3...15 points d’énergie si vous frappez un ennemi souffrant d’une condition."
+		},
+		"441": {
+			id: 441,
+			name: "Assaut de Melandru",
+			description: "Votre familier tente un Assaut de Melandru qui inflige +5...20 points de dégâts aux ennemis à proximité.",
+			concise: "Inflige 5...20 point de dégâts aux ennemis ) proximité."
+		},
+		"442": {
+			id: 442,
+			name: "Attaque féroce",
+			description: "Votre familier tente une Attaque féroce qui inflige +13...28 points de dégâts. Si cette attaque réussit, vous gagnez de l'adrénaline et 3...10 points d'énergie.",
+			concise: ""
+		},
+		"443": {
+			id: 443,
+			name: "Coup du prédateur",
+			description: "Votre familier tente un Coup du prédateur qui inflige +5...35 points de dégâts. Si cette attaque réussit, votre familier bénéficiera de 5...50 points de vie.",
+			concise: ""
+		},
+		"444": {
+			id: 444,
+			name: "Coup brutal",
+			description: "Votre familier tente un Coup brutal qui inflige +5...35 points de dégâts. Si cette attaque touche un ennemi dont la santé est inférieure à 50%, cet ennemi subira +5...35 points de dégâts en plus.",
+			concise: ""
+		},
+		"445": {
+			id: 445,
+			name: "Attaque d'interruption",
+			description: "Votre familier tente une attaque d'interruption qui inflige +1...12 point(s) de dégâts. Si cette attaque touche un ennemi utilisant une compétence, cette dernière est inutilisable pendant 20 secondes de plus.",
+			concise: "Inflige +1...12 point(s) de dégâts. Interrompt une compétence. Effet de l'interruption : la compétence interrompue est désactivée pendant +20 secondes."
+		},
+		"446": {
+			id: 446,
+			name: "Onguent des trolls",
+			description: "Pendant 13 secondes, vous bénéficiez d'une régénération de santé de 3...10.",
+			concise: ""
+		},
+		"447": {
+			id: 447,
+			name: "Cri d'Otyugh",
+			description: "Pendant 10...25 secondes, votre familier bénéficie d'un bonus d'armure de +24 et ne peut pas être bloqué.",
+			concise: ""
+		},
+		"448": {
+			id: 448,
+			name: "Evasion",
+			description: "Pendant 1...8 seconde(s), vous vous déplacez 33% plus vite et avez 75% de chances de bloquer les attaques.",
+			concise: "(1...8 seconde(s).) Vous vous déplacez 33% plus vite et avez 75% de chances de bloquer."
+		},
+		"449": {
+			id: 449,
+			name: "Pose de pratique",
+			description: "Pendant 20...35 secondes, vos préparations se rechargent 50% plus vite et durent 30...300% plus longtemps.",
+			concise: ""
+		},
+		"450": {
+			id: 450,
+			name: "Tourbillon défensif",
+			description: "Pendant 8...20 secondes, vous avez 75% de chances de bloquer les attaques. Bloquer un projectile de la sorte infligera 5...11 points de dégâts aux ennemis adjacents.",
+			concise: ""
+		},
+		"451": {
+			id: 451,
+			name: "Résistance de Melandru",
+			description: "Pendant 8...20 secondes, votre régénération de santé est de +4 et votre régénération d'énergie de +1 point pour chaque condition et maléfice dont vous souffrez.",
+			concise: ""
+		},
+		"452": {
+			id: 452,
+			name: "Défenses du Drider",
+			description: "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques et bénéficiez d'un bonus d'armure de 34...60 contre les dégâts élémentaires.",
+			concise: ""
+		},
+		"453": {
+			id: 453,
+			name: "Réflexes foudroyants",
+			description: "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Vous attaquez aussi 33% plus vite.",
+			concise: ""
+		},
+		"454": {
+			id: 454,
+			name: "Fureur du tigre",
+			description: "Toutes vos compétences qui ne sont pas des attaques sont inutilisables pendant 5 secondes. Pendant 5...11 secondes, vous attaquez 25% plus vite.",
+			concise: ""
+		},
+		"455": {
+			id: 455,
+			name: "Chasseur de tempêtes",
+			description: "Pendant 8...20 secondes, vous vous déplacez 25% plus vite et vous bénéficiez de 1...5 point(s) d'énergie quand vous subissez des dégâts des éléments.",
+			concise: ""
+		},
+		"456": {
+			id: 456,
+			name: "Vitesse du serpent",
+			description: "Pendant 15...30 secondes, le temps de rechargement de vos compétences est réduit de 33%. La Vitesse du serpent cesse si vous perdez plus de 50% de vos points de vie.",
+			concise: ""
+		},
+		"457": {
+			id: 457,
+			name: "Piège à poussière",
+			description: "Quand le Piège à poussière se déclenche, chaque seconde (sur un total de 5 secondes), tous les ennemis à proximité sont aveuglés pendant 3...8 secondes et subissent 10...25 points de dégâts. Vous pouvez être facilement interrompu lorsque vous activez cette compétence. Elle prend fin après 90 secondes.",
+			concise: ""
+		},
+		"458": {
+			id: 458,
+			name: "Piège barbelé",
+			description: "Quand le ''Piège barbelé'' se déclenche, tous les ennemis proches de la zone d'effet subissent 7...23 points de dégâts perforants et sont frappés d'Infirmité et de Saignement pendant 3...25 secondes. Le ''Piège barbelé'' fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
+			concise: ""
+		},
+		"459": {
+			id: 459,
+			name: "Piège de flammes",
+			description: "Quand le Piège de flammes se déclenche, tous les ennemis proches de la zone d'effet subissent 5...20 points de dégâts du feu chaque seconde (pendant 3 secondes) et s'embrasent pendant 1...3 seconde. Le Piège de flammes se termine au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
+			concise: ""
+		},
+		"460": {
+			id: 460,
+			name: "Source de guérison",
+			description: "Pendant 10 secondes, tous les alliés adjacents sont soignés de 15...60 points de vie toutes les 2 secondes. Cette action peut facilement être interrompue.",
+			concise: ""
+		},
+		"461": {
+			id: 461,
+			name: "Piège à pointes",
+			description: "Lorsque Piège à pointes se déclenche, toutes les secondes (pendant 2 secondes), tous les ennemis à proximité subissent 10...40 points de dégâts perforants, sont frappés d'Infirmité pendant 3...25 secondes et sont assommés. Piège à pointes prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+			concise: ""
+		},
+		"462": {
+			id: 462,
+			name: "Hiver",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée, tous les dégâts élémentaires sont transformés en dégâts du froid. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Convertit les dégâts élémentaires en dégâts du froid pour les créatures à portée. N'affecte pas les esprits."
+		},
+		"463": {
+			id: 463,
+			name: "Vannage",
+			description: "Crée un esprit de niveau 1...10. Les créatures (sauf les esprits) dans sa portée subissent 4 points de dégâts supplémentaires chaque fois qu'elles reçoivent des dégâts physiques. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Augmente les dégâts physiques de +4 pour les créatures à portée. N'affecte pas les esprits."
+		},
+		"464": {
+			id: 464,
+			name: "Voie d'extinction",
+			description: "Crée un esprit de niveau 1...10. Si une créature (autre qu'un esprit) dans sa portée meurt, la Voie d'extinction inflige 14...50 points de dégâts à toutes les créatures de même type qui ont moins de 90% de santé et sont à portée de l'esprit. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Il inflige 14...50 points de dégâts aux créatures à sa portée chaque fois qu'une créature du même type meurt. N'affecte pas les esprits. <gray>Les créatures qui ont plus de 90% de santé ne subissent aucun dégât.</gray>"
+		},
+		"465": {
+			id: 465,
+			name: "Grand brasier",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée n'étant pas des esprits, tous les dégâts physiques sont transformés en dégâts du feu. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Convertit les dégâts physiques en dégâts du feu pour les créatures à portée. N'affecte pas les esprits."
+		},
+		"466": {
+			id: 466,
+			name: "Brasier",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures (autres que des esprits) se trouvant dans sa portée, toutes vos flèches qui touchent leur objectif infligent des dégâts de feu. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: ""
+		},
+		"467": {
+			id: 467,
+			name: "Saison fertile",
+			description: "Crée un esprit de niveau 1...10. Les créatures n'étant pas des esprits dans sa portée ont +50...150 de santé maximum et bénéficient d'un bonus d'armure de +8. Cet esprit disparaît au bout de 15...90 secondes.",
+			concise: "Crée un esprite de niveau 1...10 (durée de vie de 15...90 secondes). Les créatures à portée bénéficient de +50...150 de santé maximum et d'un bonus d'armure de +8. N'affecte pas les esprits."
+		},
+		"468": {
+			id: 468,
+			name: "Symbiose",
+			description: "Crée un esprit de niveau 1...10. Pour chaque enchantement lancé sur une créature autre qu'un esprit dans sa portée, celle-ci bénéficie de +27...150 de santé maximum. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: ""
+		},
+		"469": {
+			id: 469,
+			name: "Echos primitifs",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée (sauf les esprits), l'utilisation des sceaux coûte 10 points d'énergie. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: ""
+		},
+		"470": {
+			id: 470,
+			name: "Saison des prédateurs",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée autres que des esprits, la guérison est réduite de 20%. Si vos attaques réussissent, vous gagnerez 5 points de vie. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: ""
+		},
+		"471": {
+			id: 471,
+			name: "Terre gelée",
+			description: "Crée un esprit de niveau 1...10. Les créatures autres que des esprits dans sa portée ne peuvent pas activer de compétences de résurrection. Cet esprit meurt au bout de 30...180 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Les créatures à portée ne peuvent pas activer de compétences de résurrection. N'affecte pas les esprits."
+		},
+		"472": {
+			id: 472,
+			name: "Vents favorables",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures à sa portée (sauf les esprits), les flèches volent deux fois plus vite et infligent +6 points de dégâts. Cet esprit disparaît au bout de 30...240 secondes.",
+			concise: ""
+		},
+		"474": {
+			id: 474,
+			name: "Vent énergisant",
+			description: "Crée un esprit de niveau 1...6. Pour les créatures dans sa portée autres que des esprits, toutes les compétences coûtent 15 points d'énergie en moins (coût minimum de 10 points) et se rechargent 25% moins vite. Cet esprit disparaît au bout de 1...60 secondes.",
+			concise: ""
+		},
+		"475": {
+			id: 475,
+			name: "Zéphyr véloce",
+			description: "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée autres que des esprits, toutes les compétences se rechargent deux fois plus vite et leur utilisation consomme 30% du coût en énergie de base en plus. Cet esprit disparaît au bout de 15...90 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 15...90 secondes). Les compétences coûtent 30% d'énergie en plus et se rechargent deux fois plus vite pour les créatures à portée. N'affecte pas les esprits."
+		},
+		"476": {
+			id: 476,
+			name: "Renouveau de la nature",
+			description: "Crée un esprit de niveau 1...10. Pendant 30...240 secondes, la durée d'incantation de tous les enchantements et maléfices lancés par des créatures (autres que des esprits) est doublée. Le maintien des enchantements consomme deux fois plus d'énergie. Cet esprit disparaît au bout de 30...240 secondes",
+			concise: ""
+		},
+		"477": {
+			id: 477,
+			name: "Terrain boueux",
+			description: "Crée un esprit de niveau 1...10. Toutes les créatures dans sa portée autres que des esprits se déplacent 10% moins vite et les augmentations de vitesse n'ont pas d'effet. Cet esprit disparaît au bout de 30...180 secondes.",
+			concise: ""
+		},
+		"570": {
+			id: 570,
+			name: "Marque d'insécurité",
+			description: "Pendant 5...25 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5, et les enchantements et poses de combat sur cet ennemi prennent fin 30...80% plus vite. Toutes vos compétences autres que celles d'Assassin sont désactivées pendant 5 secondes.",
+			concise: "(5...25 secondes.) Provoque une dégénération de santé de -1...5. Les enchantements et les poses de combat de la cible ennemie prennent fin 30...80% plus vite. <gray>Désactive toutes vos compétences sauf celles d'Assassin (5 secondes).</gray>"
+		},
+		"571": {
+			id: 571,
+			name: "Dague d'interruption",
+			description: "Vous envoyez une Dague d'interruption sur la cible ennemie qui inflige 10...35 points de dégâts de la terre. Si cet ennemi était en train d'activer une compétence, celle-ci est interrompue. Sa portée est la moitié de celle d'un sort normal.",
+			concise: "Projectile : inflige 10...35 points de dégâts de la terre. Interrompt une compétence."
+		},
+		"572": {
+			id: 572,
+			name: "Paradoxe mortel",
+			description: "Toutes vos compétences d'attaques sont inutilisables pendant 10 secondes. Pendant 5...15 secondes, vos compétences d'Assassin s'activent et se rechargent 33% plus vite.",
+			concise: "(5...15 secondes.) Vos compétences d'Assassin s'activent et se rechargent 33% plus vite. <gray>Désactive vos compétences d'attaque (10 secondes).</gray>"
+		},
+		"763": {
+			id: 763,
+			name: "Regard ictérique",
+			description: "Lève un enchantement à la cible ennemie. Si un enchantement a été levé, pendant les 1...20 prochaines secondes, votre prochain enchantement s'incante 0...1 secondes plus vite et coûte 1...10 points d'énergie en moins.",
+			concise: ""
+		},
+		"764": {
+			id: 764,
+			name: "Complainte Funeste",
+			description: "Pendant 1...4 seconde(s), toutes les caractéristiques de la cible ennemie se remettent à 0.",
+			concise: "(1...4 seconde(s).) Les caractéristiques de la cible ennemie se remettent à 0."
+		},
+		"766": {
+			id: 766,
+			name: "Regard du mépris",
+			description: "Si la cible visée possède plus de 50% de sa santé totale, elle perd tous ses enchantements.",
+			concise: "Supprime les enchantements de la cible ennemie. <gray>Aucun effet si la santé de cet ennemi est inférieure à 50%.</gray>"
+		},
+		"769": {
+			id: 769,
+			name: "Défense de la vipère",
+			description: "Tous les ennemis adjacents sont empoisonnés pendant 5...20 secondes. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposé à votre cible.",
+			concise: "Inflige l'Empoisonnement (5...20 secondes) à tous les ennemis adjacents. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposé à votre cible."
+		},
+		"770": {
+			id: 770,
+			name: "Retour",
+			description: "Tous les ennemis adjacents souffrent d'Infirmité pendant 3...8 secondes. Vous vous téléportez sur la position de l'allié visé.",
+			concise: "Provoque l'Infirmité (3...8 secondes) chez tous les ennemis adjacents. Vous effectuez une foulée de l'ombre vers la position de la cible alliée visée. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"771": {
+			id: 771,
+			name: "Aura de déplacement",
+			description: "Lorsque vous lancez l'Aura de déplacement, vous faites une Foulée de l'Ombre vers l'ennemi ciblé. Lorsque vous cessez d'utiliser l'Aura de déplacement, vous retournez à votre position d'origine.",
+			concise: "Vous faites une foulée de l'ombre vers la cible ennemie. Effet final : vous retournez sur votre position d'origine."
+		},
+		"772": {
+			id: 772,
+			name: "Tsungrai était généreux",
+			description: "Vous tenez les cendres de ''Tsungrai'' pendant un maximum de 15...60 secondes et vous bénéficiez de +50...140 points de vie. Lorsque vous les déposez, vous bénéficiez de 100...280 points de vie.",
+			concise: ""
+		},
+		"773": {
+			id: 773,
+			name: "Vorizon était puissant",
+			description: "Vous tenez ses cendres jusqu'à un maximum de 15...60 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de +15 et d'un maximum d'énergie de +30.",
+			concise: ""
+		},
+		"775": {
+			id: 775,
+			name: "Efflorescence mortelle",
+			description: "Doit succéder à une attaque main gauche. Si elle réussit, l'Efflorescence mortelle inflige +20...45 points de dégâts à l'ennemi visé et tous les ennemis adjacents reçoivent 20...45 points de dégâts.",
+			concise: "Inflige +20...45 points de dégâts. Affecte également les ennemis adjacents à la cible. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"776": {
+			id: 776,
+			name: "Crocs incisifs",
+			description: "Doit succéder à une attaque main gauche. Si l'attaque réussit, elle inflige +10...20 points de dégâts et l'ennemi touché est pris de Saignements et souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: "Inflige +10...20 points de dégâts. Provoque le Saignements et la Blessure profonde (5...20 secondes). <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"777": {
+			id: 777,
+			name: "Cornes du boeuf",
+			description: "Doit succéder à une attaque main gauche. Si l'attaque réussit, elle inflige +1...11 points de dégâts. Si l'ennemi touché n'est adjacent à aucun de ses alliés, il est assommé.",
+			concise: "Inflige +1...11 points de dégâts. Assomme la cible ennemie si cette dernière n'est pas adjacente à l'un de ses alliés. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"778": {
+			id: 778,
+			name: "Retombée arachnide",
+			description: "Doit toucher un ennemi assommé. Si elle réussit, la Retombée arachnide inflige +15...35 points de dégâts et l'ennemi visé est empoisonné pendant 5...20 secondes.",
+			concise: "Inflige +15...35 points de dégâts. Provoque l'Empoisonnement (5...20 secondes). <gray>Aucun effet si la cible ennemie n'est pas assommée.</gray>"
+		},
+		"779": {
+			id: 779,
+			name: "Coup du lotus noir",
+			description: "Si le Coup du lotus réussit, il inflige +10...31 points de dégâts. Si la cible ennemie souffre d'un maléfice, vous gagnez 5...13 points d'énergie.",
+			concise: "Inflige +10...31 points de dégâts. Vous gagnez 5...13 points d'énergie si la cible ennemie souffre d'un maléfice."
+		},
+		"780": {
+			id: 780,
+			name: "Crocs du renard",
+			description: "Doit succéder une attaque main droite. Crocs du renard ne peut pas être bloqué et inflige +10...35 points de dégâts si l'attaque réussit.",
+			concise: "Inflige +10...35 points de dégâts. Impossible à bloquer. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"781": {
+			id: 781,
+			name: "Frappe de Moebius",
+			description: "Doit succéder à une attaque d'ambidextrie. Si elle réussit, la Frappe de Moebius inflige +10...35 points de dégâts. Si vous touchez un ennemi dont la santé est inférieure à 50%, toutes vos autres compétences d'attaque seront rechargées.",
+			concise: "Inflige +10...35 points de dégâts. Recharge toutes vos autres compétences d'attaque si la santé de la cible ennemie est inférieure à 50%. <gray>Doit succéder à une attaque d'ambidextrie.</gray>"
+		},
+		"782": {
+			id: 782,
+			name: "Coup déchiqueteur",
+			description: "Si le Coup déchiqueteur réussit, la cible sera prise de Saignements pendant 5...20 secondes.",
+			concise: "Provoque le Saignement (5...20 secondes)."
+		},
+		"783": {
+			id: 783,
+			name: "Attaque sournoise",
+			description: "Si l'attaque réussit, vous infligez +19...31 points de dégâts. Si votre cible possède plus de 90% de sa santé, vous lui infligez 15...75 points de dégâts supplémentaires.",
+			concise: "Inflige +19...31 points de dégâts. Inflige 15...75 points de dégâts supplémentaires si la santé de la cible est supérieur à 90%."
+		},
+		"784": {
+			id: 784,
+			name: "Enlacement reptilien",
+			description: "L'Enlacement reptilien doit succéder à une attaque main droite. La cible ennemie est assommée. Elle est empoisonnée pendant 5...20 secondes.",
+			concise: "Attaque assommante. Provoque l'Empoisonnement (5...20 secondes). <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"785": {
+			id: 785,
+			name: "Stigmate mortel",
+			description: "Pendant 4...10 secondes, l'ennemi visé reçoit 50% de guérison en moins.",
+			concise: "(4...10 secondes.) La cible ennemie reçoit 50% de guérison en moins."
+		},
+		"786": {
+			id: 786,
+			name: "Paume d'acier",
+			description: "La cible ennemie touchée subit 5...50 points de dégâts, et si elle souffre d'une condition ou d'un maléfice, elle est assommée. Cette compétence est considérée comme une attaque main droite.",
+			concise: "Inflige 5...50 points de dégâts. Assomme la cible ennemie si cette dernière souffre d'un maléfice ou d'une condition. Compte comme une attaque main droite."
+		},
+		"787": {
+			id: 787,
+			name: "Arme résistante",
+			description: "Pendant 3...12 secondes, la cible (un allié ou vous-même) possède l'Arme résistante. Pendant qu'elle souffre d'un maléfice ou d'une condition, cette cible bénéficie d'une régénération de santé de +1...6 et d'un bonus d'armure de +24.",
+			concise: "(3...12 secondes.) Régénération de santé de +1...6 et bonus d'armure de +24. <gray>Aucun effet si la cible allié visé n'est pas affecté par un maléfice ou une condition.</gray>"
+		},
+		"788": {
+			id: 788,
+			name: "Mingson était aveugle",
+			description: "Vous tenez les cendres de ''Mingson'' pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis proches sont aveuglés pendant 3...8 secondes.",
+			concise: ""
+		},
+		"789": {
+			id: 789,
+			name: "Kuurong était avide",
+			description: "Vous tenez les cendres de ''Kuurong'' pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis dans la zone reçoivent 15...75 points de dégâts et sont assommés.",
+			concise: ""
+		},
+		"790": {
+			id: 790,
+			name: "Khanhei était revanchard",
+			description: "Vous tenez les cendres de ''Khanhei'' pendant 5...11 secondes. Chaque fois qu'un ennemi vous touche au combat pendant que vous tenez les cendres, vous absorbez 5...35 points de vie à l'ennemi.",
+			concise: "(5...11 secondes.) Vous volez 5...35 points de vie à chaque ennemi vous touchant avec une une attaque."
+		},
+		"791": {
+			id: 791,
+			name: "Chair de ma chair",
+			description: "Vous perdez la moitié de vos points de vie. L'allié visé est ressuscité avec votre nombre de point de vie actuel et 5...20% d'énergie.",
+			concise: ""
+		},
+		"792": {
+			id: 792,
+			name: "Arme à fragmentation",
+			description: "Pendant 20 secondes, la cible (un allié ou vous-même) possède une Arme à fragmentation. Les 1...5 prochaines attaques réussies de la cible (un allié ou vous-même) infligent 5...50 points de dégâts à un maximum de 3 ennemis adjacents.",
+			concise: ""
+		},
+		"793": {
+			id: 793,
+			name: "Arme de protection",
+			description: "Pendant 3...8 secondes, la cible (un allié ou vous-même) possède une Arme de protection qui lui confère une régénération de santé de +2...4 et 50% de chances de bloquer les attaques.",
+			concise: ""
+		},
+		"794": {
+			id: 794,
+			name: "Arme des doléances",
+			description: "Pendant 3...14 secondes, la cible (un allié ou vous-même) a l'arme des doléances en sa possession. Chaque fois que l'Arme des doléances touche un ennemi qui attaque, celui-ci est interrompu.",
+			concise: ""
+		},
+		"795": {
+			id: 795,
+			name: "Arme du tourment",
+			description: "Pendant 12 secondes, la cible (un allié ou vous-même) possède une ''Arme du tourment''. Les prochaines attaques (au nombre de 3) de la cible (un allié ou vous-même) infligent 10...50 points de dégâts en moins et absorbent jusqu'à 10...50 points de vie.",
+			concise: ""
+		},
+		"799": {
+			id: 799,
+			name: "Mirage brumeux",
+			description: "Vous faites une foulée de l'ombre jusqu'à la cible ennemie. Elle sera interrompue et frappée de Stupeur pendant 3...9 secondes.",
+			concise: "Vous faites une foulée de l'ombre vers cet ennemi. Inflige la Stupeur (3...9 secondes)."
+		},
+		"800": {
+			id: 800,
+			name: "Toxine immuable",
+			description: "Pendant 5 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5. Si cet ennemi est en mouvement lorsque la Toxine immuable doit prendre fin, elle durera pendant encore 5 secondes.",
+			concise: "(5 secondes.) Provoque une dégénération de santé de -1...5. Renouvellement : si l'ennemi visé se déplace lorsque ce maléfice prend fin."
+		},
+		"801": {
+			id: 801,
+			name: "Linceul du silence",
+			description: "Tous vos sorts sont inutilisables pendant 15 secondes. Pendant 1...6 seconde(s), la cible ennemie touchée ne peut pas lancer de sorts.",
+			concise: "(1...6 seconde(s).) La cible ennemie ne peut pas lancer de sorts. <gray>Vos sorts sont désactivés pendant 15 secondes.</gray>"
+		},
+		"802": {
+			id: 802,
+			name: "Vaines défenses",
+			description: "Pendant 1...11 secondes la cible ennemie ne peut pas bloquer vos attaques.",
+			concise: "(1...11 secondes.) La cible ennemie ne peut pas bloquer vos attaques."
+		},
+		"803": {
+			id: 803,
+			name: "Buveur d'énergie",
+			description: "Si l'ennemi visé lance un sort ou un chant, celui-ci est interrompu et pendant 10 secondes, à chaque fois que cet ennemi lance un sort, vous lui volez jusqu'à 5...15 points d'énergie.",
+			concise: "Interrompt un sort ou un chant. Effet de l'interruption : vole 5...15 points d'énergie chaque fois que la cible ennemie lance un sort (10 secondes)."
+		},
+		"804": {
+			id: 804,
+			name: "Alanguissement arcane",
+			description: "Pendant 1...10 seconde(s), tous les sorts lancés par l'ennemi visé entraînent l'épuisement.",
+			concise: ""
+		},
+		"805": {
+			id: 805,
+			name: "Animation d'horreur vampirique",
+			description: "Utilisez le cadavre le plus près pour animer une ''Horreur vampirique'' de niveau 1...17. A chaque fois que l'horreur vampirique sous votre contrôle inflige des dégâts, vous récupérez la même quantité en points de vie.",
+			concise: ""
+		},
+		"806": {
+			id: 806,
+			name: "Ferveur de l'adepte",
+			description: "Pendant 5...50 secondes, les sorts de Nécromant que vous lancez coûtent -1...6 points d'énergie mais vous souffrez de Saignement pendant 10 secondes à chaque fois que vous les lancez.",
+			concise: ""
+		},
+		"808": {
+			id: 808,
+			name: "Empreinte du Faucheur",
+			description: "Pendant 30 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5. Si elle meurt sous l'effet de lEmpreinte du Faucheur'', vous bénéficiez de 5...15 points d'énergie.",
+			concise: ""
+		},
+		"809": {
+			id: 809,
+			name: "Brise-roc",
+			description: "La cible ennemie subit 25...100 points de dégâts du froid et souffre du maléfice pendant 3 secondes. Lorsque le Brise-roc prend fin, cet ennemi et toux ceux à proximité subissent 25...100 points de dégâts du froid.",
+			concise: ""
+		},
+		"810": {
+			id: 810,
+			name: "Défense du protecteur",
+			description: "Pendant 5...11 secondes, les alliés adjacents ont 75% de chances de bloquer les attaques. La défense du protecteur prend fin si vous bougez.",
+			concise: ""
+		},
+		"811": {
+			id: 811,
+			name: "Course unique",
+			description: "Pendant 5...15 secondes, vous et votre familier vous déplacez 25% plus vite.",
+			concise: ""
+		},
+		"812": {
+			id: 812,
+			name: "Xinrae était rebelle",
+			description: "Vous tenez les cendres de ''Xinrae'' pendant un maximum de 15...60 secondes. Pendant ce temps, vous ne pouvez pas perdre plus de 20% de votre santé maximum par attaque. Lorsque vous déposez ses cendres, vous volez 5...50 points de vie à tous les ennemis à proximité.",
+			concise: "(15...60 secondes.) Vous ne pouvez pas perdre plus de 20% de votre santé maximum par attaque. Effet de la pose : vous volez 5...50 points de vie aux ennemis à proximité."
+		},
+		"813": {
+			id: 813,
+			name: "Aura de Lyssa",
+			description: "Pendant 10 secondes, vous bénéficiez d'une régénération d'énergie de +0...5. Cet enchantement se réapplique chaque fois que vous lancez un sort sur un ennemi.",
+			concise: "(10 secondes.) Vous bénéficiez d'une régénération d'énergie de +0...5. Renouvellement : chaque fois que vous lancez un sort sur un ennemi."
+		},
+		"814": {
+			id: 814,
+			name: "Refuge ombreux",
+			description: "Pendant 6 secondes, vous bénéficiez d'une régénération de santé de +5...10. Lorsque le Refuge Ombreux se termine, vous gagnez 40...100 points de vie si vous attaquez.",
+			concise: "(6 secondes.) Vous bénéficiez d'une régénération de +5...10. Effet final : vous soigne de 40...100 points de vie si vous attaquez."
+		},
+		"815": {
+			id: 815,
+			name: "Attache de Scorpion",
+			description: "Pendant 8...20 secondes, la prochaine fois que vous et votre cible ennemie êtes séparés de plus de 30 mètres, vous faites une foulée de l'ombre jusqu'à cet ennemi qui sera alors assommé. La portée de ce sort est la moitié de celle d'un sort normal.",
+			concise: "(8...20 secondes.) Vous faites une foulée de l'ombre jusqu'à la cible ennemie. Cette dernière sera assommée la prochaine fois qu'elle se trouvera à 30 mètres environ de vous."
+		},
+		"816": {
+			id: 816,
+			name: "Imitation de pose",
+			description: "Pendant 10...35 secondes, chaque fois que la cible ennemie adopte une pose de combat, vous prenez la même pose de combat.",
+			concise: "(10...35 secondes.) Vous adoptez la pose utilisez par la cible ennemie."
+		},
+		"817": {
+			id: 817,
+			name: "Discorde",
+			description: "Si la cible ennemie souffre d'une condition et est affectée par un maléfice ou un enchantement, elle subit 30...110 points de dégâts.",
+			concise: "Inflige 30...110 points de dégâts. <gray>Sans effet si la cible ennemie ne souffre d'aucune condition et n'est sous les effets d'aucun maléfice ou enchantement.</gray>"
+		},
+		"818": {
+			id: 818,
+			name: "Puits de Lassitude",
+			description: "Utilisez le cadavre visé pour créer un Puits de Lassitude pendant 10...55 secondes. Les ennemis se trouvant dans le périmètre du Puits de Lassitude subissent une dégénération d'énergie de -1.",
+			concise: ""
+		},
+		"819": {
+			id: 819,
+			name: "Esprit vampirique",
+			description: "Vous volez jusqu'à 5...50 points de vie à la cible ennemie. Pendant 10 secondes, vous bénéficiez d'une régénération de santé de +5...10.",
+			concise: "Vous volez 5...50 points de vie à la cible ennemie. Vous bénéficiez d'une régénération de santé de +5...10 (10 secondes)."
+		},
+		"820": {
+			id: 820,
+			name: "Dépravation",
+			description: "Pendant 5...20 secondes, chaque fois qu'une cible ennemie lance un sort, cet ennemi et un ennemi à proximité perdent 1...5 point d'énergie.",
+			concise: ""
+		},
+		"821": {
+			id: 821,
+			name: "Veines glaciales",
+			description: "La cible ennemie souffre de 10...90 points de dégâts du froid. Pendant 10...35 secondes, si la cible ennemie meurt, tous les ennemis à proximité souffrent de 20...110 points de dégâts du froid.",
+			concise: ""
+		},
+		"822": {
+			id: 822,
+			name: "Genoux flageolants",
+			description: "Pendant 1...16 seconde(s), la cible ennemie souffre d'une dégénération de santé de -1...4 et subit 5...20 points de dégâts en se déplaçant.",
+			concise: "(1...16 seconde(s).) La cible ennemie souffre d'une dégénération de santé de -1...4 et subit 5...20 points de dégâts en se déplaçant."
+		},
+		"823": {
+			id: 823,
+			name: "Vélocité Incandescente",
+			description: "Pendant 5 secondes, vous vous embrasez et vous déplacez 30...45% plus vite. Lorsque la Vélocité Incandescente prend fin, tous les ennemis adjacents s'embrasent pendant 3...9 secondes.",
+			concise: ""
+		},
+		"824": {
+			id: 824,
+			name: "Flèches de Lave",
+			description: "Les Flèches de Lave se dirigent vers un maximum de 3 ennemis près de votre cible et infligent 20...65 points de dégâts si elles atteignent leur cible.",
+			concise: "Projectile : Inflige 20...65 points de dégâts du feu. Effet supplémentaire envoie des projectiles sur 2 autres ennemis près de votre cible."
+		},
+		"825": {
+			id: 825,
+			name: "Lit de Braise",
+			description: "Crée un Lit de Braise sur votre position. Pendant 10 secondes, les ennemis près de cette position subissent 5...29 points de dégâts du feu par seconde. Tout ennemi assommé sur le Lit de Braise s'embrase pendant 3...7 secondes.",
+			concise: ""
+		},
+		"826": {
+			id: 826,
+			name: "Silhouette",
+			description: "Pendant 5...21 secondes, vous ne pouvez pas être la cible de sorts ennemis, et vous bénéficiez d'une réduction de dégâts de 5 pour chaque enchantement d'Assassin vous affectant. Vous ne pouvez pas infliger plus de 5...25 points de dégâts avec une seule attaque.",
+			concise: "(5...21 secondes.) Vous ne pouvez pas être la cible de sorts ennemis. Vous gagnez 5 points de réduction de dégâts chaque fois qu'un enchantement d'Assassin vous affecte.<gray> Vous ne pouvez pas infliger plus de 5...21 points de dégâts avec une seule compétence ou attaque.</gray>"
+		},
+		"827": {
+			id: 827,
+			name: "Siphon de force",
+			description: "Pendant 5...20 secondes, la cible ennemie inflige -5...50 points de dégâts avec ses attaques et toutes vos attaques contre cet ennemi ont 50% de chances supplémentaires d'être des coups critiques.",
+			concise: "(5...20 secondes.) La cible ennemie inflige -5...50 points de dégâts lors de ces attaques. Vous avez +50% de chances d'infliger un coup critique à cet ennemi."
+		},
+		"828": {
+			id: 828,
+			name: "Miasme insalubre",
+			description: "L'ennemi visé subit 10...65 points de dégâts du froid. S'il est affecté par une condition, cet ennemi est touché par le maléfice Miasme insalubre et subit une dégénération de santé de -1...4 pendant 10 secondes.",
+			concise: ""
+		},
+		"830": {
+			id: 830,
+			name: "Lumière du jugement",
+			description: "Invoque Lumière de jugement sur la position de la cible ennemie. Pendant 5 secondes, les ennemis adjacents à cette position subissent 5...45 points de dégâts sacrés et s'embrasent pendant 1...3 seconde(s) toutes les secondes.",
+			concise: "Inflige 5...45 points de dégâts sacrés et une Brûlure (1...3 seconde(s)) toutes les secondes (5 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+		},
+		"831": {
+			id: 831,
+			name: "Rage primitive",
+			description: "Pendant 1...9 seconde(s), vous attaquez 33% plus vite et vous vous déplacez 33% plus rapidement, mais vous subissez le double de dégâts.",
+			concise: "(1...9 seconde(s).) Vous attaquez 33% plus vite et vous vous déplacez 33% plus rapidement. <gray>Vous subissez le double de dégât.</gray>"
+		},
+		"832": {
+			id: 832,
+			name: "Animation du Golem de chair",
+			description: "Utilisez le cadavre le plus proche pour animer un Golem de chair de niveau 3...25 dont vous pourrez utiliser le cadavre. Vous ne pouvez disposer que d'un seul Golem de chair à la fois.",
+			concise: "Crée un golem de chair de niveau 3...25 qui laisse un cadavre récent lorsqu'il meurt. <gray>Exploite un cadavre récent. Vous ne pouvez avoir qu'un seul golem de chair à la fois.</gray>"
+		},
+		"834": {
+			id: 834,
+			name: "Extrême hâte",
+			description: "Pendant 6...12 secondes, la cible visée et tous les ennemis adjacents subissent les effets du maléfice Extrême hâte. Pendant ce temps, ils attaquent 25% plus vite mais ont 50% de chances de manquer leurs attaques.",
+			concise: ""
+		},
+		"835": {
+			id: 835,
+			name: "Lien du sang",
+			description: "Pendant 3...12 secondes, la cible ennemie et tous les ennemis adjacents souffrent de Lien du sang. Chaque fois qu'un allié réussit une attaque sur cet ennemi, cet allié gagne 5...20 points de santé. Si un ennemi meut en souffrant de Lien du sang, tous les alliés adjacents à cet ennemi reçoivent 20...100 points de santé.",
+			concise: ""
+		},
+		"836": {
+			id: 836,
+			name: "Chevauchée de l'éclair",
+			description: "Vous menez l'éclair sur l'ennemi visé. Celui-ci reçoit 10...100 points de dégâts de la foudre. Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"837": {
+			id: 837,
+			name: "Compagnon d'énergie",
+			description: "Pendant 36...60 secondes, le Compagnon d'énergie augmente votre maximum de PV etc lui de l'allié ciblé à raison de 1...3 par point d'énergie maximum de chacun. A la première application de cet enchantement, votre cible et vous gagnez 1...12 points d'énergie. Vous gagnez 1 point d'énergie supplément tous les 2 points de Conservation d'énergie.",
+			concise: ""
+		},
+		"838": {
+			id: 838,
+			name: "Douleur de Dwayna",
+			description: "Pendant 30 secondes, la cible (un allié ou vous-même) et tous les alliés à proximité sont enchantés par la Douleur de Dwayna. Si un allié meurt sous les effets de l'enchantement, votre groupe est soigné de 5...50 points de vie.",
+			concise: ""
+		},
+		"839": {
+			id: 839,
+			name: "\"Battez en retraite !\"",
+			description: "Si des alliés morts se trouvent à portée de voix, votre groupe se déplace 33% plus vite pendant 5...11 secondes.",
+			concise: ""
+		},
+		"840": {
+			id: 840,
+			name: "Coeur empoisonné",
+			description: "Tous les ennemis à proximité et vous-même êtes empoisonnés pendant 5...15 secondes.",
+			concise: "Provoque l'Empoisonnement (5...15 secondes) chez les ennemis adjacents. <gray>Vous êtes également empoisonné.</gray>"
+		},
+		"841": {
+			id: 841,
+			name: "Humus fétide",
+			description: "La cible ennemie subit 15...65 points de dégâts du froid. Si elle est assommée, la cible ennemie est empoisonnée pendant 5...20 secondes.",
+			concise: ""
+		},
+		"842": {
+			id: 842,
+			name: "Arc foudroyant",
+			description: "La cible ennemie subit 5...50 points de dégâts de foudre. Si cet ennemi souffre d'un maléfice de la magie de l'eau, un ennemi près de votre cible subit 15...75 points de dégâts de la foudre. Cette compétence a 25% de pénétration d'armure.",
+			concise: ""
+		},
+		"843": {
+			id: 843,
+			name: "Rafale",
+			description: "La cible ennemie reçoit 10...65 points de dégâts du froid. Si elle est sous l'effet d'un maléfice de la magie de la terre ou de l'eau, elle est assommée pendant 3 secondes.",
+			concise: ""
+		},
+		"844": {
+			id: 844,
+			name: "Bouleversement terrestre",
+			description: "Crée un Bouleversement terrestre sur la position de l'ennemi. Durant les 5 secondes qui suivent, la compétence inflige 10...40 points de dégâts de la terre par seconde. Tout ennemi se déplaçant plus vite que la normale lorsqu'il est touché par le Bouleversement terrestre sera assommé.",
+			concise: ""
+		},
+		"845": {
+			id: 845,
+			name: "Flamme liquide",
+			description: "La cible ennemie subit 7...112 points de dégâts du feu. Si cet ennemi est en train d'attaquer ou de lancer un sort, les ennemis à proximité subissent aussi 7...112 points de dégâts du feu.",
+			concise: ""
+		},
+		"846": {
+			id: 846,
+			name: "Buée",
+			description: "La cible ennemie subit 5...50 points de dégâts du froid. Si l'ennemi ciblé est en feu, la Buée l'aveugle pendant 5...10 secondes.",
+			concise: "Inflige 5...50 points de dégâts du froid. Provoque l'Aveuglement (5...10 secondes) si l'ennemi est en feu."
+		},
+		"847": {
+			id: 847,
+			name: "Sceau du compagnon",
+			description: "Soigne la cible alliée 20...80 points de vie. Votre prochain sort de Prières de guérison ou de Prières de protection visant un allié soigne de 20...100 points de vie supplémentaires.",
+			concise: ""
+		},
+		"848": {
+			id: 848,
+			name: "Inversion de maléfice",
+			description: "Lève un maléfice de la cible (un allié ou vous-même). Pendant 5...10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts, ces derniers sont réduits de 5...50.",
+			concise: ""
+		},
+		"849": {
+			id: 849,
+			name: "Taillade lacérante",
+			description: "Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi assommé, celui-ci sera pris de Saignements pendant 5...20 secondes.",
+			concise: ""
+		},
+		"850": {
+			id: 850,
+			name: "Attaque féroce",
+			description: "Si cette attaque réussit; vous infligez +5...20 points de dégâts. Si vous frappez une ennemi souffrant de Faiblesse, vous infligez une Blessure profonde pendant 1...8 seconde(s).",
+			concise: ""
+		},
+		"851": {
+			id: 851,
+			name: "Attaque lunisolaire",
+			description: "Vous attaquez la cible deux fois. Ces attaques ne peuvent pas être bloquées.",
+			concise: ""
+		},
+		"852": {
+			id: 852,
+			name: "Tir de ricochet",
+			description: "Si Tir de ricochet réussit, vous infligez +3...15 points de dégâts. S'il est bloqué, tous les ennemis dans la zone de votre cible subissent 5...65 points de dégâts.",
+			concise: ""
+		},
+		"853": {
+			id: 853,
+			name: "Tir de Melandru",
+			description: "Si le Tir de Melandru réussit, votre cible souffre de Saignement pendant 5...25 secondes. Si le tir touche un ennemi en fuite ou assommé, ce dernier reçoit +10...25 points de dégâts et souffre d'Infirmité pendant 5...15.",
+			concise: "Provoque le Saignement (5...25). Inflige +10...25 points de dégâts et provoque l'Infirmité (5...15 secondes) si la cible ennemie est en fuite ou assommée."
+		},
+		"854": {
+			id: 854,
+			name: "Attrape",
+			description: "Lorsque l'attrape est déclenchée, tous les ennemis à proximité sont frappés d'Infirmité pendant 3...15 secondes. L'attrape prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+			concise: ""
+		},
+		"858": {
+			id: 858,
+			name: "Valse des dagues",
+			description: "Vous lancez trois ''Valses des dagues'' contre la cible ennemie. Chacune inflige 5...35 points de dégâts de la terre si elle fait mouche. La portée de cette compétence est réduite de moitié. Cette compétence est considérée comme une attaque main droite.",
+			concise: "Trois projectiles : chacun inflige 5...35 points de dégâts de la terre. Est considérée comme une attaque main droite."
+		},
+		"859": {
+			id: 859,
+			name: "Conjuration de cauchemar",
+			description: "Pendant 2...16 secondes, la cible ennemie subit une dégénération de santé de -8.",
+			concise: ""
+		},
+		"860": {
+			id: 860,
+			name: "Sceau d'interruption",
+			description: "Si la cible ennemie lance un sort, celui-ci est interrompu et l'ennemi subit 10...51 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice, le Sceau d'Interruption peut interrompre toutes les compétences n'étant pas des sorts.",
+			concise: ""
+		},
+		"862": {
+			id: 862,
+			name: "Regard féroce",
+			description: "Inflige 15...30 points de dégâts et vole 15...30 points de santé à la cible ennemi et aux ennemis à proximité.",
+			concise: ""
+		},
+		"863": {
+			id: 863,
+			name: "Ordre d'apostasie",
+			description: "Pendant 5 secondes, chaque fois qu'un membre du groupe inflige des dégâts physiques à un ennemi, celui-ci perd un enchantement. Pour chaque enchantement de Moine supprimé, vous perdez 10...3% de santé maximum.",
+			concise: "Enchante tous les membres de l'équipe (5 secondes). Ces derniers perdent un enchantement lorsqu'ils infligent des dégâts physiques. <gray>Coût de la suppression : pour chaque enchantement de Moine, vous perdez 10...3% de santé maximum.</gray>"
+		},
+		"864": {
+			id: 864,
+			name: "Regard de l'oppresseur",
+			description: "Inflige 10...30 points de dégâts de l'ombre à la cible ennemie et à tous les ennemis adjacents. Les ennemis affectés par une condition sont Empoisonnés pendant 5...20 secondes et Affaiblis pendant 5...20 secondes.",
+			concise: ""
+		},
+		"865": {
+			id: 865,
+			name: "Masse foudroyante",
+			description: "L'ennemi subit 10...100 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure.",
+			concise: "Inflige 10...100 points de dégâts de la foudre. Pénétration d'armure de 25%."
+		},
+		"866": {
+			id: 866,
+			name: "Lame vaporeuse",
+			description: "La cible ennemie subit 15...135 points de dégâts du froid. Cette compétence n'inflige que la moitié des dégâts si cet ennemi est sous les effets d'un enchantement.",
+			concise: ""
+		},
+		"867": {
+			id: 867,
+			name: "Lumière rédemptrice",
+			description: "Vous guérissez la cible (un allié ou vous-même) de 40...100 points de vie. Si votre cible est sous l'effet d'un enchantement, vous récupérez 1...3 point(s) d'énergie.",
+			concise: "Soigne de 40...100 points de vie. Vous gagnez 1...3 point(s) d'énergie si l'allié visé est enchanté."
+		},
+		"869": {
+			id: 869,
+			name: "\"Froussard !\"",
+			description: "Si la cible ennemie est en mouvement, elle sera assommée.",
+			concise: ""
+		},
+		"870": {
+			id: 870,
+			name: "Pestilence",
+			description: "Crée un esprit de niveau 1...10. Lorsqu'une créature autre qu'un esprit meurt dans sa portée, les conditions dont elle souffrait sont transmises à toutes les créatures dans la zone souffrant déjà d'une condition. Cet esprit disparaît au bout de 30...180 secondes.",
+			concise: ""
+		},
+		"871": {
+			id: 871,
+			name: "Mélodie des Ombres",
+			description: "Crée un esprit de niveau 1...10. Les attaques de l'esprit entraînent l'Aveuglement pendant 1...6 seconde. Cet esprit meurt au bout de 30 secondes.",
+			concise: ""
+		},
+		"876": {
+			id: 876,
+			name: "Sceau des Ombres",
+			description: "L'ennemi ciblé subit 5...35 points de dégâts. S'il était aveuglé, cet ennemi subira 15...60 points de dégâts en plus.",
+			concise: "Inflige 5...35 points de dégâts. Inflige 15...60 points de dégâts supplémentaires si la cible est aveuglée."
+		},
+		"877": {
+			id: 877,
+			name: "Equilibre de Lyssa",
+			description: "La cible ennemie perd un enchantement. Si vous disposez de plus d'enchantements que la cible ennemie, cette compétence n’a aucun effet.",
+			concise: ""
+		},
+		"878": {
+			id: 878,
+			name: "Visions de Regret",
+			description: "Pendant 10 secondes, la cible et les ennemis adjacents subissent 15...45 points de dégâts chaque fois qu'ils utilisent une compétence et 5...50 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur.",
+			concise: "Inflige également des maléfices aux ennemis adjacents à la cible (10 secondes). Ils subissent 15...45 points de dégâts chaque fois qu'ils utilisent une compétence et 5...50 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur."
+		},
+		"879": {
+			id: 879,
+			name: "Illusion de douleur",
+			description: "Pendant 8 secondes, l'ennemi visé souffre d'une dégénération de santé de -3...10 et subit 3...10 points de dégâts toutes les secondes. Au bout de 10 secondes, l'ennemi visé est soigné de 36...120 points de vie.",
+			concise: "(10 secondes.) Provoque une dégénération de santé de -3...10 et l'ennemi visé subit 3...10 points de dégâts toutes les secondes. Au bout de 10 secondes l'ennemi visé est soigné de 36...120 point de vie."
+		},
+		"880": {
+			id: 880,
+			name: "Vol de vitesse",
+			description: "Pendant 1...10 seconde(s), le temps d'incantation des sorts de l'ennemi visé et de tous les ennemis adjacents est doublé. Le temps d'incantation des sorts que vous ou vos alliés lancez sur ces ennemi est 50% plus rapide.",
+			concise: ""
+		},
+		"881": {
+			id: 881,
+			name: "Sceau éthéré",
+			description: "Si vous avez moins de 5...10 points d'énergie, vous bénéficiez de 10...20 points d'énergie.",
+			concise: ""
+		},
+		"882": {
+			id: 882,
+			name: "Sceau de désenchantement",
+			description: "Perte de toute l'énergie. L'ennemi ciblé perd un enchantement.",
+			concise: ""
+		},
+		"883": {
+			id: 883,
+			name: "Aphonie",
+			description: "Pendant 5...20 secondes, l'ennemi ciblé et tous les ennemis à proximité ne peuvent pas utiliser de cris ou chants.",
+			concise: ""
+		},
+		"884": {
+			id: 884,
+			name: "Flammes virulentes",
+			description: "L'ennemi ciblé et ceux à proximité sont frappés par des Flammes virulentes. Les ennemis déjà embrasés lors du lancement de cette compétence subissent 10...100 points de dégâts du feu. Les autres ennemis s'embrasent pendant 1...7 seconde(s).",
+			concise: "Frappe les ennemis près de votre cible. Inflige 10...100 points de dégâts du feu aux ennemis souffrant déjà de Brûlure. Inflige la Brûlure (1...7 seconde(s)) aux ennemis qui n'en souffrent pas."
+		},
+		"885": {
+			id: 885,
+			name: "Gardien protecteur",
+			description: "Pendant 10 secondes, la cible (un allié ou vous-même) a 75% de chances de bloquer les attaques. La prochaine fois que la cible bloque une attaque, elle ainsi que tous les alliés à proximité sont soignés de 16...80 points et ''Gardien protecteur'' prend fin.",
+			concise: ""
+		},
+		"886": {
+			id: 886,
+			name: "Bise reposante",
+			description: "Pendant 5...18 secondes, la ciblé visée (un allié ou vous-même) bénéficie d'une régénération de santé de +10. Cet enchantement prend fin si cette cible attaque ou utilise une compétence.",
+			concise: ""
+		},
+		"887": {
+			id: 887,
+			name: "Sceau de rajeunissement",
+			description: "Soigne la cible (un allié ou vous-même) de 15...75 points de vie. Si celle-ci est en train de lancer un sort ou d'attaquer, elle est soignée de 15...75 points de vie supplémentaires.",
+			concise: ""
+		},
+		"888": {
+			id: 888,
+			name: "Hache tournoyante",
+			description: "Si Hache tournoyante réussit, vous infligez +5...20 points de dégâts et toute pose de combat utilisée par votre cible prend fin. Cette attaque ne peut pas être bloquée.",
+			concise: "Inflige +5...20 de dégâts et supprime une pose de combat. Impossible à bloquer."
+		},
+		"889": {
+			id: 889,
+			name: "Coup forcé",
+			description: "Ne peut être bloqué. Si le Coup forcé réussit, la pose de combat de votre cible prend fin, vous infligez +10...40 points de dégâts, et votre cible est Affaiblie pendant 5...20 secondes.",
+			concise: ""
+		},
+		"891": {
+			id: 891,
+			name: "\"Nul ne passera !\"",
+			description: "Tous les ennemis à proximité en mouvement sont assommés. Se recharge 1...8 seconde(s) plus vite pour chaque ennemi affecté. (25 secondes plus vite maximum).",
+			concise: ""
+		},
+		"892": {
+			id: 892,
+			name: "Lame vacillante",
+			description: "Si Lame vacillante réussit, vous infligez +10 points de dégâts. Si cette attaque touche un ennemi en déplacement, celui-ci est frappé de Stupeur pendant 10 secondes.",
+			concise: "Inflige +10 points de dégâts. Provoque la Stupeur (10 secondes) si la cible ennemie est en déplacement."
+		},
+		"893": {
+			id: 893,
+			name: "Flèches chercheuses",
+			description: "Pendant 3...14 secondes, vos flèches ne peuvent pas être bloquées. Flèches chercheuses prend fin si elle ne fait pas mouche.",
+			concise: ""
+		},
+		"898": {
+			id: 898,
+			name: "Surcharge",
+			description: "Pendant 5 secondes, la cible ennemie subit une dégénération de santé de -1...3. Si la cible utilise une compétence, surcharge inflige +5...50 points de dégâts ainsi qu'à tous les ennemis adjacents.",
+			concise: ""
+		},
+		"899": {
+			id: 899,
+			name: "Images d'attrition",
+			description: "Pendant 5...10 secondes, la cible visée souffre d'une dégénération de santé de -1...3. Si cet ennemi était en train d'attaquer, il subira 10...52 points de dégâts.",
+			concise: ""
+		},
+		"900": {
+			id: 900,
+			name: "Fardeau partagé",
+			description: "Pendant 5...20 secondes, la cible ennemie et tous les ennemis dans la zone attaquent, lancent des sorts et se déplacent 50% plus lentement.",
+			concise: ""
+		},
+		"901": {
+			id: 901,
+			name: "Lien des âmes",
+			description: "Pendant 30 secondes, chaque fois que la cible ennemie est guérie, le guérisseur subi 20...80 points de dégâts. Ce maléfice prend fin si la cible souffre d'un maléfice de Prières de Châtiment.",
+			concise: ""
+		},
+		"902": {
+			id: 902,
+			name: "Sang de l'agresseur",
+			description: "Vole 5...45 points de santé. Si la cible ennemi était en train d'attaquer, elle souffre de Faiblesse pendant 3...12",
+			concise: ""
+		},
+		"903": {
+			id: 903,
+			name: "Prisme de glace",
+			description: "La cible ennemie subit 10...65 points de dégâts du froid. Si cette cible utilise un Sceau, celui-ci est interrompu et tous ses Sceaux sont inutilisables pendant 3...9 secondes.",
+			concise: ""
+		},
+		"904": {
+			id: 904,
+			name: "Hache de rage",
+			description: "Si cette attaque réussit, elle inflige +5...35 points de dégâts. Si elle est bloquée, vous gagnez 3 décharges d'adrénaline.",
+			concise: ""
+		},
+		"905": {
+			id: 905,
+			name: "Coup propice",
+			description: "Inflige +5...20 points de dégâts. Vous gagnez 3...8 points d'énergie. Ne peut être bloqué par les ennemis affaiblis.",
+			concise: ""
+		},
+		"906": {
+			id: 906,
+			name: "\"A genoux !\"",
+			description: "Vous perdez toute votre adrénaline. Si des cibles adjacentes sont assommées, toutes vos poses de combats se rechargent.",
+			concise: ""
+		},
+		"907": {
+			id: 907,
+			name: "Taillade du dragon",
+			description: "Si l'attaque réussit, vous infligez +10...40 points de dégâts et gagnez 1...5 décharge(s) d'adrénaline.",
+			concise: ""
+		},
+		"908": {
+			id: 908,
+			name: "Tir du maraudeur",
+			description: "Si l'attaque réussit, cette attaque inflige +25...55 points de dégâts et toutes vos compétences n'étant pas des attaques restent inutilisables pendant 5 secondes.",
+			concise: ""
+		},
+		"909": {
+			id: 909,
+			name: "Tir focalisé",
+			description: "Si cette attaque réussit, elle inflige +10...25 points de dégâts mais toutes vos autres compétences d'attaques restent inutilisables pendant 5...3 secondes.",
+			concise: ""
+		},
+		"910": {
+			id: 910,
+			name: "Faille de l'esprit",
+			description: "Ouvre une Faille de l'esprit à l'emplacement de l'ennemi visé. Après 3 secondes, tous les ennemis adjacents subissent 25...135 points de dégâts de la foudre et souffrent d'Armure brisée pendant 1...20 seconde(s).",
+			concise: ""
+		},
+		"911": {
+			id: 911,
+			name: "Union",
+			description: "Crée un esprit de niveau 1...12. A chaque fois qu'un allié à sa portée (autre qu'un esprit) subit des dégâts ou un vol de vie, ceux-ci sont réduits de 15 points et l'esprit subit 15 points de dégâts. Cet esprit meurt au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"913": {
+			id: 913,
+			name: "Tanasen était tranquille",
+			description: "Vous tenez les cendres de ''Tanasen'' jusqu'à un maximum de 5...20 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de +10...25 et vous ne pouvez pas être interrompu.",
+			concise: ""
+		},
+		"914": {
+			id: 914,
+			name: "Consommation des âmes",
+			description: "Vous volez 5...70 points de vie à l'ennemi visé. Toutes les créatures hostiles invoquées à portée de voix de cet ennemi subissent 25...125 points de dégâts.",
+			concise: ""
+		},
+		"915": {
+			id: 915,
+			name: "Esprit illuminé",
+			description: "La cible (un allié ou vous-même) est soignée de 60...180 points de vie. Si des esprits se trouvent à portée de voix, vous ne sacrifiez pas de santé.",
+			concise: ""
+		},
+		"916": {
+			id: 916,
+			name: "Lamentation",
+			description: "Maléfice. L'ennemi visé et tous les ennemis à proximité subissent une dégénération de santé de -0...3 pendant 5...20 secondes. Si vous vous trouvez à portée de voix d'un esprit ou d'un cadavre lorsque ce maléfice est appliqué, ces ennemis subissent 10...50 points de dégâts.",
+			concise: "Maléfice. Inflige également des maléfices aux ennemis proches de la cible (5...20 secondes). Provoque une dégénération de santé de -0...3. Effet initial : inflige 10...50 points de dégâts si vous êtes à portée de voix d'un esprit ou d'un cadavre."
+		},
+		"917": {
+			id: 917,
+			name: "Rupture d'âme",
+			description: "L'esprit allié ciblé est détruit. Tous les ennemis à proximité reçoivent 50...140 points de dégâts de la foudre et sont aveuglés pendant 3...12 secondes.",
+			concise: ""
+		},
+		"918": {
+			id: 918,
+			name: "Esprit de chair",
+			description: "L'esprit allié touché est détruit. Tous les alliés à proximité sont soignés de 30...240 points de vie.",
+			concise: ""
+		},
+		"919": {
+			id: 919,
+			name: "Brûlure de l'esprit",
+			description: "La cible ennemie subit 5...50 points de dégâts de la foudre. Si des esprits se trouvent à portée de voix, Brûlure de l'esprit cause la Brûlure pendant 1...5 seconde(s).",
+			concise: ""
+		},
+		"920": {
+			id: 920,
+			name: "Destruction",
+			description: "Crée un esprit de niveau 1...14 qui meurt au bout de 30 secondes. Lorsqu'il meurt, tous les ennemis dans la zone subissent 5...21 point(s) de dégâts pour chaque seconde de vie de l'esprit (Maximum : 150).",
+			concise: ""
+		},
+		"921": {
+			id: 921,
+			name: "Dissonance",
+			description: "Crée un esprit de niveau 1...12. Celui-ci inflige 5...20 points de dégâts et toute personne touchée par cette attaque est interrompue. Cet esprit meurt au bout de 10...25 secondes.",
+			concise: ""
+		},
+		"923": {
+			id: 923,
+			name: "Désenchantement",
+			description: "Crée un esprit de niveau 1...12. Celui-ci inflige 5...20 points de dégâts et toute personne touchée par cette attaque perd un enchantement. Cet esprit meurt au bout de 10...35 secondes.",
+			concise: ""
+		},
+		"925": {
+			id: 925,
+			name: "Rappel",
+			description: "Pendant que vous maintenez le Rappel rien ne se passe. Lorsque le Rappel prend fin, vous faites une Foulée de l'Ombre jusqu'à la position de l'allié visé lors de l'activation de cette compétence et toutes vos compétences sont inutilisables pendant 10 secondes.",
+			concise: "Effet final : vous faites une foulée de l'ombre vers la cible alliée. <gray>Vous ne pouvez pas vous prendre pour cible et toutes vos compétences sont désactivées pendant 10 secondes lorsque la compétence prend fin.</gray>"
+		},
+		"926": {
+			id: 926,
+			name: "Dagues affûtées",
+			description: "Pendant 5...30 secondes, vos attaques à la dague infligent le Saignement pendant 5...15 secondes.",
+			concise: "(5...30 secondes.) Vos attaques à la dague provoquent le Saignement (5...15 seconde)."
+		},
+		"927": {
+			id: 927,
+			name: "Peur honteuse",
+			description: "Pendant 10 secondes, l'ennemi visé se déplace 10% plus vite que la normale. Pour chaque seconde où la cible est en mouvement, elle subit 5...20 points de dégâts.",
+			concise: "(10 secondes.) La cible ennemie subit 5...20 points de dégâts par seconde lorsqu'elle est en mouvement mais se déplace 10% plus vite."
+		},
+		"928": {
+			id: 928,
+			name: "Linceul de l'Ombre",
+			description: "Pendant 3...9 secondes, l'ennemi visé ne peut pas être la cible d'enchantements.",
+			concise: "(3...9 secondes.) La cible ennemie ne peut pas être la cible d'enchantements."
+		},
+		"929": {
+			id: 929,
+			name: "Ombre de hâte",
+			description: "Pendant 10...40 secondes, vous vous déplacez 15% plus vite que la normale. Lorsqu'Ombre de hâte prend fin, vous retournez sur votre position d'origine.",
+			concise: "(10...40 secondes.) Vous vous déplacez 15% plus vite. Effet final : vous retournez sur votre position d'origine."
+		},
+		"930": {
+			id: 930,
+			name: "Incantation propice",
+			description: "Pendant 20 secondes, le prochain sort que vous lancez est désactivé pendant 10...5 secondes supplémentaires et vous gagnez 110...200% de son coût en énergie.",
+			concise: ""
+		},
+		"931": {
+			id: 931,
+			name: "Retour de pouvoir",
+			description: "Si l'ennemi visé lance un sort ou un chant, cette compétence est interrompue et l'ennemi visé bénéficie de 10...5 points d'énergie.",
+			concise: ""
+		},
+		"932": {
+			id: 932,
+			name: "Complication",
+			description: "Si l'ennemi visé prépare une compétence, elle est interrompue et désactivée pour cet ennemi et tous les ennemis de la zone pendant 5...12 secondes supplémentaires.",
+			concise: "Interrompt une compétence. Effet de l'interruption : désactive la compétence interrompue (+5...12 secondes) pour l'ennemi visé et tous les ennemis de la zone."
+		},
+		"933": {
+			id: 933,
+			name: "Tempête destructrice",
+			description: "La cible ennemie perd tous ses enchantements. Pour chaque enchantement levé de cette manière, la compétence est inutilisable pendant 7 secondes supplémentaires.",
+			concise: ""
+		},
+		"934": {
+			id: 934,
+			name: "Sceau contre nature",
+			description: "La cible ennemie subit 15...75 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice ou d'un enchantement, les ennemis adjacents à votre cible subissent 5...50 points de dégâts.",
+			concise: ""
+		},
+		"935": {
+			id: 935,
+			name: "Fiel",
+			description: "Pendant 20 secondes, ce maléfice n'a aucun effet. Lorsqu'il prend fin, l'ennemi visé et tous les ennemis dans la zone subissent 1...6 point(s) de dégâts pour chaque seconde pendant lesquelles le Fiel est actif.",
+			concise: ""
+		},
+		"936": {
+			id: 936,
+			name: "Enchantements envenimés",
+			description: "La cible ennemie perd un enchantement. Pour chaque enchantement restant, la cible ennemie est empoisonnée pendant 3...10 secondes.",
+			concise: "Supprime un enchantement chez la cible ennemie. Provoque l'Empoisonnement (3...10 secondes par enchantement restant)."
+		},
+		"937": {
+			id: 937,
+			name: "Onde de choc",
+			description: "Les ennemis adjacents subissent 15...60 points de dégâts de la terre, les ennemis à proximité subissent 15...60 points de dégâts de la terre et les ennemis dans la zone subissent 15...60 points de dégâts de la terre.",
+			concise: "Inflige une fois 15...60 points de dégâts de la terre aux ennemis dans la zone. Les ennemis à proximité subissent les dégâts à deux reprises et les ennemis adjacents à trois reprises."
+		},
+		"938": {
+			id: 938,
+			name: "Protection de stabilité",
+			description: "Vous créez une Protection de stabilité sur votre position actuelle. Pendant 10...25 secondes, les alliés dans la zone autres que des esprits ne peuvent pas être assommés.",
+			concise: ""
+		},
+		"939": {
+			id: 939,
+			name: "Chaînes de glace",
+			description: "Pendant 1...10 seconde(s), la vitesse de mouvement de la cible ennemie est réduite de 66%. Sous les effets d'un enchantement, la vitesse de mouvement de cet ennemi est réduite de 90%.",
+			concise: "(1...10 seconde(s).) L'ennemi visé se déplace 66% moins vite. Il se déplace 90% moins vite s'il est enchanté."
+		},
+		"941": {
+			id: 941,
+			name: "Lumière divine",
+			description: "Vous soignez la cible (un allié ou vous-même) de 10...140 points de vie et supprimez une condition et un maléfice.",
+			concise: "Soigne de 10...140 points de vie. Supprime une condition et un maléfice."
+		},
+		"942": {
+			id: 942,
+			name: "Retrait de maléfices",
+			description: "Ote tous les maléfices de la cible alliée et de tous les alliés adjacents. Ce sort met 2 secondes supplémentaires à se recharger pour chaque maléfice supprimé de cette manière. (50% de risques d'échec avec Faveur divine inférieure à 5.)",
+			concise: "Supprime tous les maléfices. Affecte également les alliés adjacents. <gray>Coût de la suppression : +2 secondes de temps de recharge par maléfice supprimé. (50% d'échec avec Faveur divine de 4 ou moins.) </gray>"
+		},
+		"943": {
+			id: 943,
+			name: "Extinction",
+			description: "Supprime une condition de chaque membre du groupe. Si la condition supprimée est la Brûlure, la cible est soignée de 10...100 points de vie.",
+			concise: ""
+		},
+		"944": {
+			id: 944,
+			name: "Sceau de force",
+			description: "Les 1...16 prochaine(s) attaque(s) inflige(nt) +5 points de dégâts.",
+			concise: ""
+		},
+		"946": {
+			id: 946,
+			name: "Concentration du trappeur",
+			description: "Pendant 12...36 secondes, vos compétences de piège sont difficiles à interrompre et votre caractéristique de Survie est augmentée de +0...4.\"",
+			concise: ""
+		},
+		"947": {
+			id: 947,
+			name: "Ronces",
+			description: "Crée un esprit de niveau 1...10. Toute créature (autre qu'un esprit) assommée dans sa portée subit 5 points de dégâts et est prise de Saignements pendant 5...20 secondes. Cet esprit meurt après 30...240 secondes.",
+			concise: ""
+		},
+		"948": {
+			id: 948,
+			name: "Coup désespéré",
+			description: "Si vous avez moins de 50...80% de santé, vous infligez +15...60 points de dégâts.",
+			concise: "Inflige +15...60 points de dégâts si vous avez moins de 50...80% de santé."
+		},
+		"949": {
+			id: 949,
+			name: "Méthode du renard",
+			description: "Pendant 10...35 secondes, vos prochaines attaques au corps à corps (au nombre de 1...6) que vous lancez ne peuvent pas être bloquées.",
+			concise: "(10...35 secondes.) Vos attaques sont impossibles à bloquer. <gray>Prend fin au bout de 1...6 attaque(s).</gray>"
+		},
+		"950": {
+			id: 950,
+			name: "Fardeau nébuleux",
+			description: "Pendant 3...15 secondes, la cible ennemie se déplace 25% moins vite, et quand elle n'est pas victime d'un autre maléfice, son bonus d'armure est réduit de 20...30 contre vos attaques.",
+			concise: "(3...15 secondes.) La cible ennemie se déplace 25% moins vite et son bonus d'armure est réduit de 20...30. <gray>La réduction du bonus d'armure n'affecte cet ennemi que s'il n'est victime d'aucun autre maléfice.</gray>"
+		},
+		"951": {
+			id: 951,
+			name: "Siphon de vitesse",
+			description: "Pendant 5...15 secondes, la cible ennemie se déplace 33% moins vite et vous vous déplacez 33% plus vite. La portée de ce sort est la moitié de celle d'un sort normal. Ce sort se recharge 50% plus vite s'il est lancé sur un ennemi en mouvement.",
+			concise: "(5...15 secondes.) La cible ennemie se déplace 33% moins vite et vous vous déplacez 33% plus vite. Se recharge 50% plus vite s'il est lancé sur un ennemi en mouvement."
+		},
+		"952": {
+			id: 952,
+			name: "Charge mortelle",
+			description: "Vous faites une Foulée de l'Ombre vers la cible ennemie. Si celle-ci a plus de santé que vous, vous êtes soigné de 65...200 points.",
+			concise: "Vous faites une Foulée de l'ombre vers la cible ennemie. Vous êtes soigné de 65...200 points de vie si cette ennemi à une santé supérieure à la vôtre."
+		},
+		"953": {
+			id: 953,
+			name: "Flux de puissance",
+			description: "Si l'ennemi visé lance un sort ou un chant, cette compétence est interrompue et pendant 4...10 secondes, l'ennemi ciblé subit une dégénération d'énergie de -2.",
+			concise: ""
+		},
+		"954": {
+			id: 954,
+			name: "Expulsion de maléfices",
+			description: "Lève jusqu'à deux maléfices de la cible (un allié ou vous-même).",
+			concise: ""
+		},
+		"955": {
+			id: 955,
+			name: "Confiscation d'enchantement",
+			description: "Ôte 1 enchantement à la cible ennemie. Si un enchantement est levé de cette manière, l'ennemi souffre de Saignement pendant 5...25 secondes.",
+			concise: ""
+		},
+		"957": {
+			id: 957,
+			name: "Bouclier contre les sorts",
+			description: "Pendant 5...20 secondes, lorsque vous lancez des sorts, vous ne pouvez pas être la cible de sorts. Quand le Bouclier contre les sorts prend fin, toutes vos compétences sont inutilisables pendant 8...4 secondes.",
+			concise: ""
+		},
+		"958": {
+			id: 958,
+			name: "Souffle réparateur",
+			description: "La ciblé alliée est soignée de 40...100 points de vie. Sa portée correspond à la moitié de la portée d'un sort normal.",
+			concise: ""
+		},
+		"959": {
+			id: 959,
+			name: "Lumière éthérée",
+			description: "La cible (un allié ou vous-même) est soignée de 25...100 points de vie. Ce sort est facilement interrompu.",
+			concise: ""
+		},
+		"960": {
+			id: 960,
+			name: "Libération d'enchantements",
+			description: "Vous perdez tous les Enchantements. Chaque membre du groupe est soigné de 5...35 points de vie pour chaque enchantement de Moine perdu.",
+			concise: ""
+		},
+		"961": {
+			id: 961,
+			name: "Lacération",
+			description: "Crée un esprit de niveau 1...10. Les créatures prises de Saignement dans sa portée subissent une dégénération de santé de -2. Lorsque cet esprit meurt, toutes les créatures (autres que des esprits) dans sa portée et ayant moins de 90% de leur santé sont prises de Saignements pendant 5...25 secondes. Cet esprit meurt au bout de 30...240 secondes.",
+			concise: ""
+		},
+		"962": {
+			id: 962,
+			name: "Transfert d'esprit",
+			description: "L'esprit le plus proche de vous perd 5...50 points de vie. La cible (un allié ou vous-même) est soignée de 5 points de vie pour chaque point de vie perdu.",
+			concise: ""
+		},
+		"963": {
+			id: 963,
+			name: "Restauration",
+			description: "Crée un esprit de niveau 1...14. Lorsque cet esprit meurt, tous les membres du groupe dans la zone sont ressuscités avec 5...50% de leur santé et 0 points d'énergie. Cet esprit meurt au bout de 30 secondes.",
+			concise: ""
+		},
+		"964": {
+			id: 964,
+			name: "Arme de vengeance",
+			description: "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts d'un ennemi, elle absorbe 15...60 points de vie à cet ennemi.",
+			concise: ""
+		},
+		"973": {
+			id: 973,
+			name: "Poudre aveuglante",
+			description: "Doit succéder à une attaque main gauche. La cible ennemie et tous les ennemis adjacents sont aveuglés pendant 3...15 secondes.",
+			concise: "Inflige l'Aveuglement (3...15 secondes) à la cible et à tous les ennemis adjacents. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"974": {
+			id: 974,
+			name: "Toucher de la mante",
+			description: "Doit succéder à une attaque main droite. La cible ennemie souffre d'Infirmité pendant 5...20 secondes. Cette compétence est considérée comme une attaque main gauche.",
+			concise: "Inflige l'Infirmité (5...20 secondes). Cette compétence est considérée comme une attaque main gauche. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"975": {
+			id: 975,
+			name: "Assaut épuisant",
+			description: "Doit suivre une attaque main droite. L'action de la cible ennemie est interrompue. Si elle lançait un sort, la cible ennemie sera prise d'Epuisement.",
+			concise: "Interrompt une action. Provoque l'Epuisement si l'action interrompue était un sort. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"976": {
+			id: 976,
+			name: "Coup répété",
+			description: "Doit suivre une attaque main gauche. Si elle réussit, cette attaque inflige +10...30 points de dégâts. Si elle manque, il lui faudra 15 secondes supplémentaires pour se recharger.",
+			concise: "Inflige +10...30 points de dégâts. <gray>Cette compétence met 15 secondes de plus à se recharger en cas d'échec. Doit succéder à une attaque main gauche.</gray>"
+		},
+		"977": {
+			id: 977,
+			name: "Méthode du lotus",
+			description: "Pendant 20 secondes, la prochaine fois que vous frappez avec une compétence d'attaque ambidextre, vous obtenez 5...20 points d'énergie.",
+			concise: "(20 secondes.) Vous obtenez 5...20 points d'énergie la prochaine fois que vous frappez avec une attaque d'ambidextrie."
+		},
+		"978": {
+			id: 978,
+			name: "Marque d'instabilité",
+			description: "Pendant 20 secondes, la prochaine fois que vous touchez une cible ennemie avec une compétence d'attaque ambidextre, cet ennemi est assommé.",
+			concise: "(20 secondes.) La cible ennemie sera assommée par votre prochaine attaque d'ambidextrie."
+		},
+		"979": {
+			id: 979,
+			name: "Défiance",
+			description: "Pendant 6 secondes, le prochain sort que lance la cible ennemie sur un de vos alliés échoue et inflige 30...135 points de dégâts à cet ennemi et aux ennemis à proximité.",
+			concise: "(6 secondes.) Le prochain sort que lance la cible ennemie à un de vos alliés échoue et inflige 30...135 points de dégâts à cet ennemi et aux ennemis à proximité."
+		},
+		"980": {
+			id: 980,
+			name: "Festin de l'esprit",
+			description: "Vous détruisez tous les esprits des alliés à proximité. Pour chaque esprit détruit de cette manière, tous les membres du groupe sont soignés de 50...100 points de vie.",
+			concise: ""
+		},
+		"981": {
+			id: 981,
+			name: "Rétablissement",
+			description: "Crée un esprit de niveau 1...14. Les alliés (autres que des esprits) dans sa portée bénéficient d'une régénération de santé de +1...3. Cet esprit disparaît au bout de 15...45 secondes.",
+			concise: "Crée un esprit de niveau 1...14 (durée de vie de 15...45 secondes). Les alliés (autres que les esprits) à portée bénéficient d'une régénération de santé de +1...3."
+		},
+		"982": {
+			id: 982,
+			name: "Refuge",
+			description: "Crée un esprit de niveau 1...12. Les alliés (autres que des esprits) dans sa portée ne peuvent pas perdre plus de 10% de leur santé maximum sur une attaque. Lorsque cet esprit empêche les dégâts, il perd 75...45 points de vie. Cet esprit dure 30...60 secondes.",
+			concise: ""
+		},
+		"983": {
+			id: 983,
+			name: "Arme de l'Ombre",
+			description: "Pendant 3...8 secondes, la cible (un allié ou vous-même) a une Arme de l'Ombre en sa possession. Chaque fois que la cible (un allié ou vous-même) est touchée par une attaque, son attaquant est frappé d'Aveuglement pendant 5 secondes.",
+			concise: ""
+		},
+		"985": {
+			id: 985,
+			name: "Chausse-trappes",
+			description: "La cible ennemie et tous les ennemis adjacents à cette cible souffrent d'Infirmité pendant 5...15 secondes. Sa portée est la moitié de celle d'une compétence normale.",
+			concise: "Inflige l'Infirmité (5...15 secondes) à la cible et à tous les ennemis adjacents."
+		},
+		"986": {
+			id: 986,
+			name: "Coup des neuf queues",
+			description: "Doit succéder à une attaque main gauche. Le Coup des neuf queues ne peut pas être bloqué et inflige +15...40 points de dégâts si l'attaque réussit.",
+			concise: "Inflige +15...40 points de dégâts. Impossible à bloquer. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"987": {
+			id: 987,
+			name: "Méthode de la paume vide",
+			description: "Pendant 5...20 secondes, les attaques main gauche et d'ambidextrie ne vous coûtent aucune énergie.",
+			concise: "(5...20 secondes.) Vos attaques main gauche et d'ambidextrie ne vous coûtent aucune énergie."
+		},
+		"988": {
+			id: 988,
+			name: "Frappe à la tempe",
+			description: "Doit suivre une attaque main droite. Si l'attaque réussit, la cible ennemie est frappée de Stupeur et d'Aveuglement pendant 1...10 seconde(s). Si la cible ennemie était en train de lancer un sort, ce sort est interrompu.",
+			concise: "Interrompt un sort. Provoque la Stupeur et l'Aveuglement (1...10 seconde(s)). <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"989": {
+			id: 989,
+			name: "Coup du phénix doré",
+			description: "Si vous n'êtes pas sous l'effet d'un enchantement, cette compétence échoue. Si l'attaque Coup du phénix doré réussit, elle inflige +10...30 points de dégâts à la cible, et tous les ennemis adjacents subissent 10...30 points de dégâts.",
+			concise: "Inflige +10...30 points de dégâts à la cible et 10...30 points de dégâts aux ennemis adjacents. <gray>Echoue si vous n'êtes pas sous l'effet d'un enchantement.</gray>"
+		},
+		"990": {
+			id: 990,
+			name: "Censure d'Enchantements",
+			description: "La cible ennemie perd 1 enchantement. Toutes vos autres compétences n'étant pas des attaques sont inutilisables pendant 10...5 secondes. Pour chaque compétence désactivée de cette manière, la cible ennemie touchée perd 1 enchantement supplémentaire.",
+			concise: "Supprime un enchantement pour chaque compétence non offensive dont vous disposez. <gray>Toutes vos compétences non offensive sont désactivées (10...5 secondes).</gray>"
+		},
+		"991": {
+			id: 991,
+			name: "Négation de maléfices",
+			description: "Supprime un maléfice d'une cible (un allié ou vous-même) pour chacune de vos compétences de Faveur divine qui se rechargent.",
+			concise: ""
+		},
+		"992": {
+			id: 992,
+			name: "Triple coup",
+			description: "Vous attaquez la cible ennemie et tous les ennemis adjacents. Chaque attaque réussie inflige +10...40 de dégât(s).",
+			concise: ""
+		},
+		"993": {
+			id: 993,
+			name: "Coup enragé",
+			description: "Si Coup enragé réussit, vous gagnez 1...4 décharges d'adrénaline. Si vous touchez un ennemi en mouvement, vous infligez +10...40 points de dégâts et votre cible est assommée.",
+			concise: "Vous recevez 1...4 décharges d'adrénaline si votre attaque réussit. Inflige +10...40 points de dégâts et assomme votre cible si celle-ci était en mouvement."
+		},
+		"994": {
+			id: 994,
+			name: "Coup de renouvellement",
+			description: "Si le Coup de renouvellement réussit, il inflige +10...40 points de dégâts. Si vous frappez un ennemi assommé, vous gagnez 3 points d'énergie, et cette compétence se recharge instantanément.",
+			concise: ""
+		},
+		"995": {
+			id: 995,
+			name: "Pose du tigre",
+			description: "Pendant 4...10 secondes, vous attaquez 33% plus vite. La ''Pose du tigre'' prend fin si une de vos attaques échoue.",
+			concise: ""
+		},
+		"996": {
+			id: 996,
+			name: "Entaille permanente",
+			description: "Si elle réussit, cette compétence inflige +5...20 points de dégâts, plus 5...20 points de dégâts supplémentaires si vous êtes en pose de combat.",
+			concise: ""
+		},
+		"997": {
+			id: 997,
+			name: "Famine",
+			description: "Crée un esprit de niveau 1...10. Lorsqu'une créature dans sa portée (autre qu'un esprit) atteint 0 points d'énergie, elle subit 20...70 points de dégâts. Cet esprit meurt au bout de 30...180 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Inflige 20...70 points de dégâts aux créatures à portée qui ont 0 point d'énergie. N'affecte pas les esprits."
+		},
+		"1018": {
+			id: 1018,
+			name: "Oeil critique",
+			description: "Pendant 10...35 secondes, vous avez 3...15% de chances supplémentaires d'infliger un coup critique lors d'une attaque. Vous obtenez 1 point d'énergie chaque fois que vous infligez un coup critique.",
+			concise: "(10...35 secondes.) Vous avez +3...15% de chances d'infliger un coup critique. Vous obtenez 1 point d'énergie chaque fois que vous infligez un coup critique."
+		},
+		"1019": {
+			id: 1019,
+			name: "Attaque critique",
+			description: "Doit succéder à une attaque main gauche. Si elle réussit, cette attaque inflige +10...30 points de dégâts et résulte en un coup critique. Vous bénéficiez de 1...3 point(s) d'énergie.",
+			concise: "Inflige +10...30 points de dégâts. Coup critique automatique. Vous gagnez 1...3 points d'énergie. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"1020": {
+			id: 1020,
+			name: "Lames d'acier",
+			description: "Doit succéder à une attaque main gauche. Si elle réussit, cette attaque inflige +5...16 points de dégâts (bonus maximum : 60) pour chaque attaque à la dague qui se recharge.",
+			concise: "Inflige +5...16 points de dégâts (maximum : 60) pour chaque attaque à la dague qui se recharge. <gray>Doit succéder une attaque main gauche.</gray>"
+		},
+		"1021": {
+			id: 1021,
+			name: "Frappe de la jungle",
+			description: "Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...25 points de dégâts. Si elle frappe un ennemi souffrant d'Infirmité, cet ennemi et tous les ennemis adjacents subissent +1...31 point(s) de dégâts.",
+			concise: "Inflige +10...25 points de dégâts. Inflige +1...31 point(s) de dégâts à l'ennemi visé et aux ennemis adjacents si la cible souffrait d'Infirmité. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"1022": {
+			id: 1022,
+			name: "Affront sauvage",
+			description: "Doit succéder une attaque main droite. Si elle réussit, cette attaque inflige +10...35 points de dégâts et chaque pose utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
+			concise: "Inflige +10...35 points de dégâts. Annule la pose de la cible ennemie. Impossible à bloquer. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"1023": {
+			id: 1023,
+			name: "Piqûre de mante sauteuse",
+			description: "Si la Piqûre de mante sauteuse réussit, la cible ennemie subit +14...20 points de dégâts. Si l'attaque touche un ennemi en déplacement, celui-ci souffre d'Infirmité pendant 3...15 secondes.",
+			concise: "Inflige +14...20 points de dégâts. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est en mouvement."
+		},
+		"1024": {
+			id: 1024,
+			name: "Attaque de la mante noire",
+			description: "Si cette attaque réussit, vous infligez +8...20 points de dégâts. Si la cible ennemie est sous les effets d'un maléfice, elle souffre d'Infirmité pendant 3...15 secondes.",
+			concise: "Inflige +8...20 points de dégâts. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est affectée par un maléfice."
+		},
+		"1025": {
+			id: 1025,
+			name: "Blessure d'interruption",
+			description: "Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, il est inutilisable pendant 3...10 secondes.",
+			concise: "Interrompt une action. Si l'action interrompue était un sort, celui-ci est désactivé (3...10 secondes)."
+		},
+		"1026": {
+			id: 1026,
+			name: "Coup du lotus doré",
+			description: "Si elle réussit, cette attaque inflige +5...20 points de dégâts. Si vous êtes affecté par un enchantement, vous obtenez 5...12 points d'énergie.",
+			concise: "Inflige +5...20 points de dégâts. Vous gagnez 5...12 points d'énergie si vous êtes sous les effets d'un enchantement."
+		},
+		"1027": {
+			id: 1027,
+			name: "Défenses critiques",
+			description: "Pendant 4...10 secondes, vous avez 75% de chances de bloquer. Les Défenses critiques se rechargent chaque fois que vous infligez un coup critique.",
+			concise: "(4...10 secondes.) Vous avez 75% de chances de bloquer. Renouvellement : chaque fois que vous infligez un coup critique."
+		},
+		"1028": {
+			id: 1028,
+			name: "Méthode du geste parfait",
+			description: "Pendant 60 secondes, chaque fois que vous infligez un coup critique, vous obtenez 10...40 points de vie.",
+			concise: "(60 secondes.) Vos coups critiques vous soignent de 10...40 points de vie."
+		},
+		"1029": {
+			id: 1029,
+			name: "Apostasie obscure",
+			description: "Pendant 3...17 secondes, chaque fois que vous réussissez un coup critique, vous supprimez un enchantement de votre cible. Si vous supprimez un enchantement de cette manière, soit vous perdez 10...3 points d'énergie, soit l'Apostasie obscure prend fin.",
+			concise: "(3...17 secondes.) Vos coups critiques suppriment un enchantement. <gray>Coût de la suppression : vous perdez 10...3 points d'énergie ou l'Apostasie obscure prend fin.</gray>"
+		},
+		"1030": {
+			id: 1030,
+			name: "Fureur de Locuste",
+			description: "Pendant 10...35 secondes, vous avez 50% de chances supplémentaires de faire une attaque double en utilisant des dagues.",
+			concise: "(10...35 secondes.) Vous avez +50% de chances d'effectuer une attaque double. <gray>Aucun effet si vous n'utilisez pas de dagues.</gray>"
+		},
+		"1031": {
+			id: 1031,
+			name: "Linceul de détresse",
+			description: "Pendant 30...60 secondes, si votre santé est inférieure à 50%, vous bénéficiez d'une régénération de santé de +3...8 et de 75% de chances de bloquer les attaques.",
+			concise: "(30...60 secondes.) Vous bénéficiez d'une régénération de santé de +3...8 et de 75% de chances de bloquer. <gray>Sans effet si votre santé est inférieure à 50%.</gray>"
+		},
+		"1032": {
+			id: 1032,
+			name: "Coeur d'ombre",
+			description: "Vous êtes soigné de 30...150 points de vie. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposée à votre cible.",
+			concise: "Vous êtes soigné de 30...150 points de vie et vous faites une Foulée de l'ombre jusqu'à une position proche directement opposée à votre cible."
+		},
+		"1033": {
+			id: 1033,
+			name: "Empalement",
+			description: "Doit suivre une attaque d'ambidextrie. La cible ennemie reçoit 25...100 points de dégâts de la terre et souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: "Inflige 25...100 points de dégâts de la terre. Provoque la Blessure profonde (5...20 secondes). <gray>Doit succéder à une attaque d'ambidextrie.</gray>"
+		},
+		"1034": {
+			id: 1034,
+			name: "Plaie suintante",
+			description: "Pendant 1...7 secondes, la vitesse de déplacement de l'ennemi visé est réduite de 33%. Si cet ennemi souffre d'une condition, il subit 5...25 points de dégâts par seconde.",
+			concise: ""
+		},
+		"1035": {
+			id: 1035,
+			name: "Promesse de l'Assassin",
+			description: "Pendant 5...15 secondes, si la cible ennemie meurt, vous bénéficiez de 5...20 points d'énergie et toutes vos compétences sont rechargées.",
+			concise: "(5...15 secondes.) Si la cible ennemie meurt, vous obtenez 5...20 points d'énergie et toutes vos compétences sont rechargées."
+		},
+		"1036": {
+			id: 1036,
+			name: "Sceau de malice",
+			description: "Pour chaque condition dont la cible ennemie souffre, vous perdez une condition.",
+			concise: "Vous perdez une condition pour chaque condition qui affecte l'ennemi visé."
+		},
+		"1037": {
+			id: 1037,
+			name: "Echappatoire obscure",
+			description: "Pendant 5...15 secondes, vous vous déplacez 25% plus vite et subissez la moitié des dégâts. L'effet cesse si votre attaque inflige des dégâts.",
+			concise: "(5...15 secondes.) Vous vous déplacez 25% plus vite et subissez la moitié des dégâts. <gray>Prends fin si vous réussissez une attaque.</gray>"
+		},
+		"1038": {
+			id: 1038,
+			name: "Dague d'Infirmité",
+			description: "Vous envoyez une Dague d'Infirmité sur la cible ennemie. L'attaque inflige 15...60 points de dégâts de la terre si elle réussit, et cause l'Infirmité chez les ennemis en mouvement pendant 3...15 secondes. La portée de ce sort est deux fois plus courte.",
+			concise: "Projectile : inflige 15...60 points de dégâts de la terre. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est en mouvement."
+		},
+		"1040": {
+			id: 1040,
+			name: "Marche des esprits",
+			description: "Faites une Foulée de l'ombre vers l'esprit visé.",
+			concise: "Vous faites une Foulée de l'ombre vers l'esprit visé."
+		},
+		"1041": {
+			id: 1041,
+			name: "Furie invisible",
+			description: "Tous les ennemis adjacents sont aveuglés pendant 3...10 secondes. Pendant 10...30 secondes vous ne pouvez pas être bloqué par des ennemis aveuglés.",
+			concise: "Provoque l'Aveuglement (3...10 secondes). Vous ne pouvez pas être bloqués par des ennemis aveuglés (10...30 secondes)."
+		},
+		"1042": {
+			id: 1042,
+			name: "Lames éclatantes",
+			description: "Pendant 5...30 secondes, vous avez 75% de chances de bloquer les attaques ennemies pendant que vous attaquez. A chaque fois que vous bloquez une attaque de cette manière, l'attaquant subit 5...20 points de dégâts.",
+			concise: "(5...30.) 75% de chances de bloquer pendant que vous attaquez. Effet du bloquage : 5...20 points de dégâts à l'assaillant."
+		},
+		"1043": {
+			id: 1043,
+			name: "Ruée",
+			description: "Pendant 3 secondes, vous courez 50% plus vite.",
+			concise: "(3 secondes.) Vous vous déplacez 50% plus vite."
+		},
+		"1044": {
+			id: 1044,
+			name: "Prison obscure",
+			description: "Vous faites une Foulée de l'ombre en direction de la cible ennemie. Pendant 1...6 seconde(s), la cible se déplace 33% moins vite.",
+			concise: "Vous faites une foulée de l'ombre vers la cible ennemie. Cet ennemi se déplace 33% moins vite (1...6 seconde(s))."
+		},
+		"1045": {
+			id: 1045,
+			name: "Coup de paume",
+			description: "La cible ennemie visée subit 10...65 points de dégâts et souffre d'infirmité pendant 1...5 seconde(s). Cette compétence compte comme une attaque main gauche.",
+			concise: "Inflige 10...65 points de dégâts et la condition d'infirmité pendant 1...5 seconde(s). Compte comme une attaque main gauche."
+		},
+		"1048": {
+			id: 1048,
+			name: "Enchantement révélé",
+			description: "Ôte un enchantement à l'ennemi visé et vous obtenez 3...15 points d'énergie. Pendant 20 secondes, l'Enchantement révélé est remplacé par celui qui a été pris à la cible ennemie.",
+			concise: ""
+		},
+		"1049": {
+			id: 1049,
+			name: "Maléfice révélé",
+			description: "Lève un maléfice de la cible (un allié ou vous-même) et vous gagnez 4...10 points d'énergie. Pendant 20 secondes, le Maléfice révélé est remplacé par celui qui a été levé.",
+			concise: ""
+		},
+		"1052": {
+			id: 1052,
+			name: "Cumul de douleur",
+			description: "La cible ennemie subit 15...75 points de dégâts. Si celle-ci est sujette à 2 maléfices ou plus, elle souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1053": {
+			id: 1053,
+			name: "Distraction psychique",
+			description: "Toutes vos autres compétences sont désactivées pendant 8 secondes. Si la cible ennemie utilise une compétence, celle-ci sera interrompue et inutilisable pendant 5...12 secondes supplémentaires.",
+			concise: "Interrompt une compétence. Effet de l'interruption : désactive la compétence interrompue (+ 5...12 secondes). <gray>Vos autres compétences sont désactivées (8 secondes).</gray>"
+		},
+		"1054": {
+			id: 1054,
+			name: "Visage de l'ancêtre",
+			description: "Pendant 4...10 secondes, à chaque fois que la cible (un allié ou vous-même) visée est touchée par une attaque au corps à corps, tous les ennemis adjacents perdent toute leur adrénaline et 3 points d'énergie.",
+			concise: ""
+		},
+		"1055": {
+			id: 1055,
+			name: "Insécurité récurrente",
+			description: "Pendant 5 secondes, la cible ennemie souffre d'une dégénération de santé de -1...6. Si cet ennemi est victime d'un autre maléfice lorsque insécurité récurrente prend fin, l'effet est renouvelé.",
+			concise: "(5 secondes.)Provoque une dégénération de santé de -1...6. Renouvellement: si la cible ennemie souffre d'un autre maléfice lorsqu'insécurité récurrente prend fin."
+		},
+		"1056": {
+			id: 1056,
+			name: "Fardeau de Kitah",
+			description: "Pendant 10 secondes, la cible ennemie se déplace 50% moins vite. Quand le Fardeau de Kitah prend fin, vous gagnez 10...22 points d'énergie.",
+			concise: ""
+		},
+		"1057": {
+			id: 1057,
+			name: "Instabilité psychique",
+			description: "Interrompt l'action de l'ennemi visé. S'il s'agit d'une compétence, cet ennemi et tous les ennemis à proximité sont assommés pendant 2...4 secondes. (50% de risques d'échec avec Incantation rapide 4 ou inférieure.)",
+			concise: ""
+		},
+		"1059": {
+			id: 1059,
+			name: "Sceau du Mangeur de Maléfices",
+			description: "La cible alliée touchée, et jusqu'à 2...5 alliés adjacents perdent chacun un maléfice. Vous gagnez 1...4 point(s) d'énergie pour chaque maléfice supprimé de cette manière.",
+			concise: ""
+		},
+		"1061": {
+			id: 1061,
+			name: "Rétroaction",
+			description: "La cible ennemie perd un enchantement. Si un enchantement est ôté de cette manière, cet ennemi perd aussi 4...10 points d'énergie.",
+			concise: ""
+		},
+		"1062": {
+			id: 1062,
+			name: "Larcin arcane",
+			description: "Pendant 5...35 secondes, l'ennemi ne peut plus utiliser un sort choisi aléatoirement et le Larcin arcane est remplacé par ce sort.",
+			concise: ""
+		},
+		"1066": {
+			id: 1066,
+			name: "Vainqueur dépouillé",
+			description: "Pendant 3...15 secondes, chaque fois que l'ennemi ciblé attaque ou lance un sort sur une créature ayant moins de santé, cet ennemi perd 25...100 points de vie.",
+			concise: "(3...15 secondes.) Provoque une perte de 25...100 points de vie chaque fois que la cible ennemie attaque ou lance un sort sur une créature ayant une santé inférieure à la sienne."
+		},
+		"1067": {
+			id: 1067,
+			name: "Coup du fléau",
+			description: "L'ennemi subit 12...48 points de dégâts de l'ombre. S'il a plus de 50% de ses points de vie, vous lui volez jusqu'à 12...48 points de vie.",
+			concise: ""
+		},
+		"1068": {
+			id: 1068,
+			name: "Frisson amer",
+			description: "La cible ennemie subit 15...60 points de dégâts du froid. Si cet ennemi avait plus de santé que vous, le Frisson amer se rechargera instantanément.",
+			concise: ""
+		},
+		"1069": {
+			id: 1069,
+			name: "Saveur de douleur",
+			description: "Si la cible ennemie a moins de 50% de santé, vous obtenez 30...150 points de vie.",
+			concise: ""
+		},
+		"1070": {
+			id: 1070,
+			name: "Enchantements profanés",
+			description: "L'ennemi et tous ceux à proximité subissent 6...60 points de dégâts de l'ombre et 4...20 points de dégâts de l'ombre supplémentaires pour chaque enchantement qui les affecte.",
+			concise: ""
+		},
+		"1071": {
+			id: 1071,
+			name: "Frissons de terreur",
+			description: "Pendant 10...40 secondes, à chaque fois que l'ennemi subit des dégâts du froid pendant qu'il utilise une compétence, il est interrompu et soit vous perdez 10...5 points d'énergie, soit les Frissons de terreur se terminent.",
+			concise: ""
+		},
+		"1075": {
+			id: 1075,
+			name: "Nuée vampirique",
+			description: "Absorbe jusqu'à 15...60 points de vie à l'ennemi visé ainsi qu'à deux autres ennemis maximum dans la zone.",
+			concise: ""
+		},
+		"1076": {
+			id: 1076,
+			name: "Buveur de sang",
+			description: "Si votre santé est supérieure à 90%, vous êtes pris de Saignement pendant 6 secondes. Vous absorbez jusqu'à 20...65 points de vie à votre cible ennemie.",
+			concise: ""
+		},
+		"1077": {
+			id: 1077,
+			name: "Morsure vampirique",
+			description: "Vous touchez l'ennemi pour lui voler 29...74 points de vie.",
+			concise: ""
+		},
+		"1078": {
+			id: 1078,
+			name: "Morsure de bauge",
+			description: "L'ennemi visé touché subit 20...58 points de dégâts.",
+			concise: ""
+		},
+		"1079": {
+			id: 1079,
+			name: "Toucher de faiblesse",
+			description: "La cible ennemie touchée perd 5...65 points de vie et souffre de Faiblesse pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1081": {
+			id: 1081,
+			name: "Vent de Teinai",
+			description: "Tous les ennemis adjacents subissent 15...60 points de dégâts du froid. Les attaquants ennemis frappés par le Vent de Teinai sont assommés.",
+			concise: ""
+		},
+		"1082": {
+			id: 1082,
+			name: "Flèche de choc",
+			description: "Lance une flèche de choc qui se dirige rapidement vers la cible ennemie et inflige 5...50 points de dégâts de la foudre. Si la Flèche de choc touche un ennemi en train d'attaquer, vous recevez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie. Flèche de choc a une pénétration d'armure de 25%.",
+			concise: ""
+		},
+		"1083": {
+			id: 1083,
+			name: "Sol instable",
+			description: "Vous créez un Sol instable sur la position de l'ennemi visé. Pendant 5 secondes, les ennemis à proximité subissent 10...40 points de dégâts de la terre chaque seconde. Les ennemis qui attaquent et qui sont frappés du Sol instable sont assommés.",
+			concise: ""
+		},
+		"1084": {
+			id: 1084,
+			name: "Armure d'éclats",
+			description: "Pendant 5...11 secondes, vous avez 25...50% de chances de bloquer les attaques et lorsque vous êtes la cible d'un sort hostile ou d'une attaque, un ennemi à proximité reçoit 5...35 points de dégâts de la terre.",
+			concise: ""
+		},
+		"1085": {
+			id: 1085,
+			name: "Explosion de cendres",
+			description: "La cible ennemie subit 35...65 points de dégâts de la terre. Si l'Explosion de cendre touche un ennemi assommé, celui-ci est aveuglé pendant 3...15 secondes.",
+			concise: ""
+		},
+		"1086": {
+			id: 1086,
+			name: "Pas du dragon",
+			description: "Vous invoquez un Pas du dragon sur la position de l'ennemi visé. Tous les ennemis près de cette position sont assommés et subissent 26...100 points de dégâts de la terre. Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"1088": {
+			id: 1088,
+			name: "Seconde chance",
+			description: "Vous obtenez 1 point d'énergie pour chaque point d'énergie perdu à cause de l'épuisement. Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"1090": {
+			id: 1090,
+			name: "Ambres ardents",
+			description: "La cible ennemie reçoit 7...112 points de dégâts du feu. Aprés 3 secondes si la cible ennemie ne bouge pas elle s'embrase pendant 3 secondes.",
+			concise: ""
+		},
+		"1091": {
+			id: 1091,
+			name: "Double dragon",
+			description: "Pendant 8 secondes, l'allié ciblé et vous-même êtes enchantés par le Double dragon. Les ennemis a adjacents subissent 5...30 points de dégâts du feu chaque seconde. De plus, quand votre allié ou vous-même utilisez une compétence ciblant un ennemi, celui-ci s'embrase pendant 0...3 secondes.",
+			concise: ""
+		},
+		"1093": {
+			id: 1093,
+			name: "Chaleur de Teinai",
+			description: "Déclenche une Chaleur de Teinai sur la position de l'ennemi. Pendant 5 secondes, les ennemis à proximité de cette position subissent 10...40 points de dégâts du feu par seconde. Lorsque la Chaleur de Teinai cesse, les ennemis dans sa zone d'effet sont embrasés pendant 3 secondes.",
+			concise: ""
+		},
+		"1094": {
+			id: 1094,
+			name: "Souffle de Feu",
+			description: "Crée un Souffle de feu sur la position actuelle de l'ennemi. Pendant 5 secondes, les ennemis adjacents à cette position subissent 10...40 points de dégâts du feu par seconde.",
+			concise: ""
+		},
+		"1095": {
+			id: 1095,
+			name: "Eclat constellé",
+			description: "La cible ennemie touchée et tous les ennemis proches subissent 7...112 points de dégâts du feu. Si plus d'un ennemi a été touché, vous perdrez 5 points d'énergie.",
+			concise: ""
+		},
+		"1096": {
+			id: 1096,
+			name: "Glyphe d'essence",
+			description: "Pendant 15 secondes, votre prochain sort ne nécessite pas de temps d'incantation, mais vous fait perdre toute votre énergie.",
+			concise: ""
+		},
+		"1097": {
+			id: 1097,
+			name: "Prison de Teinai",
+			description: "Pendant 1...7 secondes, la cible ennemie est prise dans de la glace et se déplace 66% moins vite. Si l'ennemi a Armure brisée; le froid provoque une dégénération de santé de 5...9 points.",
+			concise: ""
+		},
+		"1098": {
+			id: 1098,
+			name: "Miroir de glace",
+			description: "Vous brisez un Miroir de glace en mille morceaux. Tous les ennemis près de vous et de l'allié ciblé subissent 15...70 points de dégâts du froid et sont ralentis de 66% pendant (2...6 secondes. Si vous frappez un ennemi victime d'un maléfice de la Magie de l'eau, le Miroir de glace se recharge 50% plus vite.",
+			concise: "Inflige 15...70 points de dégâts du froid et ralentit les ennemis de 66% (2...6 secondes). Affecte les ennemis proches de vous et de l'allié ciblé. Se recharge 50% plus vite s'il touche un ennemi frappé d'un maléfice de la Magie de l'eau."
+		},
+		"1099": {
+			id: 1099,
+			name: "Cristaux de Teinai",
+			description: "Les ennemis qui vous sont adjacents subissent 10...100 points de dégâts, mais sont libérés de toute condition négative.",
+			concise: "Inflige 10...100 points de dégâts aux ennemis adjacents. <gray>Ces ennemis sont guéris de toute condition.</gray>"
+		},
+		"1113": {
+			id: 1113,
+			name: "Colère de Kirin",
+			description: "Pendant 5 secondes, les ennemis adjacents à la position sur laquelle le sort a été lancé subissent 8...32 points de dégâts sacrés par seconde.",
+			concise: ""
+		},
+		"1114": {
+			id: 1114,
+			name: "Lien spirituel",
+			description: "Pendant 8 secondes, à chaque fois que la cible (un allié ou vous-même) subit plus de 60 points de dégâts infligés par les 10 prochaines attaques ou sorts, cette cible est soignée de 40...100 points de vie.",
+			concise: "(8 secondes.) Soigne de 40...100 points de vie chaque fois que l'allié visé subit plus de 60 points de dégâts. <gray>Prend fin lorsque cet allié a subi des dégâts de 10 attaques ou sorts.</gray>"
+		},
+		"1115": {
+			id: 1115,
+			name: "Atmosphère enchanteresse",
+			description: "Pendant 4...10 secondes, les Enchantements lancés sur un autre allié coûtent 10 points d'énergie en moins (1 point d'énergie minimum).",
+			concise: ""
+		},
+		"1117": {
+			id: 1117,
+			name: "Paradis exquis",
+			description: "Soigne le lanceur et les membres du groupe à portée de voix de 15...60 points.",
+			concise: ""
+		},
+		"1118": {
+			id: 1118,
+			name: "Vague de guérison",
+			description: "L’allié ciblé est guérit de 5...130. Tous les membres du groupe à portée de voix regagnent un nombre de points de vie égal au bonus de Faveur divine de ce sort. Vos Prières de châtiment sont inutilisables pendant 20 secondes.",
+			concise: "Soigne de 5...130 points de vie. Les membres du groupe à portée de voix de votre cible gagnent un nombre de points de vie égal au bonus de Faveur divine. Désactive vos Prières de châtiment (20 secondes)."
+		},
+		"1119": {
+			id: 1119,
+			name: "Cercle de guérison de Karei",
+			description: "Soigne le lanceur et toutes les créatures adjacentes de 30...180 points de vie.",
+			concise: "Vous êtes soignés ainsi que les alliés et ennemis adjacents de 30...180 points de vie."
+		},
+		"1120": {
+			id: 1120,
+			name: "Regard de Jamei",
+			description: "Soigne l'allié de 35...180 points de vie.",
+			concise: ""
+		},
+		"1121": {
+			id: 1121,
+			name: "Don de santé",
+			description: "Toutes vos compétences faisant appel à la caractéristique Prières de guérison sont inutilisables pendant 10...5 secondes. La cible alliée est soignée de 15...150 points de vie.",
+			concise: ""
+		},
+		"1123": {
+			id: 1123,
+			name: "Bouclier de vie",
+			description: "Supprime 0...2 conditions sur la cible alliée. Pendant 8 secondes, la prochaine fois que cet allié doit subir des dégâts ou un vol de vie, il gagne à la place l'équivalent en points de vie (maximum 20...100 points).",
+			concise: ""
+		},
+		"1126": {
+			id: 1126,
+			name: "Suppression empathique",
+			description: "Vous et un allié visé perdez 1 condition et 1 maléfice et êtes soignés de 50 points de vie.",
+			concise: "Supprime une condition et un maléfice à l'allié visé et à vous-même et guérit de 50 points de vie. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"1128": {
+			id: 1128,
+			name: "Chant de résurrection",
+			description: "Ressuscite le membre visé du groupe avec l'équivalent de vos points de vie actuels et 5...35% d'énergie. Sa portée est la moitié de celle d'un sort normal.",
+			concise: ""
+		},
+		"1129": {
+			id: 1129,
+			name: "Parole du censeur",
+			description: "La cible ennemie subit 30...130 points de dégâts sacrés. Si votre cible a moins de 50% de santé, la Parole du censeur met 20 secondes supplémentaires pour se recharger.",
+			concise: ""
+		},
+		"1130": {
+			id: 1130,
+			name: "Lance de lumière",
+			description: "La Lance de lumière se dirige en direction de l'ennemi et inflige 26...56 points de dégâts sacrés si elle touche sa cible. La Lance de lumière inflige +15...60 points de dégâts si elle touche un ennemi qui attaque.",
+			concise: ""
+		},
+		"1131": {
+			id: 1131,
+			name: "Coup d'Amederoc",
+			description: "L'ennemi touché subit 10...55 points de dégâts sacrés. Si elle est assommée, votre cible subira 10...55 points de dégâts sacrés en plus.",
+			concise: ""
+		},
+		"1133": {
+			id: 1133,
+			name: "Attaque d'ivresse",
+			description: "Si cette attaque réussit, vous infligez +10...40 points de dégâts et la cible est affectée par une des conditions suivantes : Blessure profonde (pendant 20 secondes), Faiblesse (pendant 20 secondes), Saignement (pendant 25 secondes) ou Infirmité (pendant 15 secondes). Vous êtes assommé après une Attaque d'ivresse.",
+			concise: ""
+		},
+		"1134": {
+			id: 1134,
+			name: "Frappe du Léviathan",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 10...34 points de dégâts.",
+			concise: ""
+		},
+		"1135": {
+			id: 1135,
+			name: "Frappe de Jaizhenju",
+			description: "Si la Frappe de Jaizhenju réussit, vous infligez +1...30 point(s) de dégâts. Si vous n'utilisez pas de Pose, la Frappe de Jaizhenju ne peut pas être bloquée.",
+			concise: ""
+		},
+		"1136": {
+			id: 1136,
+			name: "Taillade pénétrante",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Cette attaque à la hache a 20% de pénétration d'armure.",
+			concise: ""
+		},
+		"1137": {
+			id: 1137,
+			name: "Frappe du Yéti",
+			description: "Perte de toute l'adrénaline. Attaque tous les ennemis adjacents. Si cette attaque frappe un ennemi souffrant d'une condition, cet ennemi est assommé. (50% de chances d'échouer avec une valeur de Maîtrise du marteau de 4 ou moins).",
+			concise: ""
+		},
+		"1141": {
+			id: 1141,
+			name: "\"Vous mourrez !\"",
+			description: "Si la cible ennemie a moins de 90% de santé, vous obtenez 1...3 décharge(s) d'adrénaline.",
+			concise: ""
+		},
+		"1142": {
+			id: 1142,
+			name: "Parade propice",
+			description: "Pendant 8 secondes, la prochaine attaque contre vous est bloquée. Lorsque cet pose prend fin, vous gagnez 1...4 décharges d'adrénaline.",
+			concise: ""
+		},
+		"1144": {
+			id: 1144,
+			name: "Attaque d'Aildargent",
+			description: "Cette attaque inflige +1...40 points de dégâts si elle réussit.",
+			concise: ""
+		},
+		"1146": {
+			id: 1146,
+			name: "Poussée",
+			description: "La cible touchée est asommée. Si l'ennemi visé était en mouvement, il subit 15...75 points de dégâts et toute pose de combat utilisée prend fin avant qu'il ne soit assommé.",
+			concise: ""
+		},
+		"1191": {
+			id: 1191,
+			name: "Attaque éclatante",
+			description: "Si l'Attaque éclatante réussit, vous infligez +5...25 points de dégâts et cette attaque offre une pénétration d'armure de 10%.",
+			concise: ""
+		},
+		"1192": {
+			id: 1192,
+			name: "Tir de Zojun",
+			description: "Vous tirez une flèche dont la portée est réduite de moitié, mais qui inflige +10...40 points de dégâts.",
+			concise: ""
+		},
+		"1194": {
+			id: 1194,
+			name: "Lien du prédateur",
+			description: "Pendant 5...20 secondes votre familier attaque 20% plus vite et vous soigne de 1...31 point(s) de vie à chaque attaque réussie.",
+			concise: "(5...20 secondes.) Votre familier attaque 25% plus vite et vous recevez 1...31 point(s) de vie chaque fois qu'il réussit une attaque."
+		},
+		"1195": {
+			id: 1195,
+			name: "Guérison partagée",
+			description: "Pendant 15 secondes, votre familier vole 1...20 points de vie chaque fois qu'il réussit une attaque. Effet initial : si votre familier meurt, il est ressuscité avec 50% de points de santé. Sinon, vous et votre familier recevez tous les deux 20...104 points de santé. Si vous êtes équipé de Guérison partagée, votre familier vous suivra.",
+			concise: ""
+		},
+		"1196": {
+			id: 1196,
+			name: "Hâte de Zojun",
+			description: "Pendant 5...11 secondes, vous vous déplacez 33% plus vite et avez 27...75% de chances de bloquer les projectiles qui vous visent. Hâte de Zojun prend fin si vous attaquez.",
+			concise: ""
+		},
+		"1197": {
+			id: 1197,
+			name: "Aiguillons",
+			description: "Cette compétence inflige seulement 10...30 points de dégâts et tire une flèche qui se déplace plus vite que la normale. Si l'attaque touche un ennemi dont la santé est inférieure à 50%, elle se rechargera instantanément. Vos autres compétences d'attaque sont inutilisables pendant 2 secondes.",
+			concise: ""
+		},
+		"1198": {
+			id: 1198,
+			name: "Flèche à pointe large",
+			description: "Vous décochez une flèche à pointe large qui se déplace plus lentement que la normale. Si l'attaque réussit, l'ennemi ciblé est frappé de Stupeur pendant 5...20 secondes et si la cible ennemie lance un sort, celui-ci est interrompu.",
+			concise: "Flèche lente. Interrompt un sort. Inflige la Stupeur (5...20 secondes)."
+		},
+		"1199": {
+			id: 1199,
+			name: "Flèches de verre",
+			description: "Pendant 10...35 secondes, vos flèches infligent +5...20 points de dégâts si elles touchent leur objectif, et entraînent le Saignement pendant 10...20 secondes si elles sont bloquées.",
+			concise: "(10...35 secondes.) Vos flèches infligent +5...20 points de dégâts. Provoque le Saignement (10...20 secondes) en cas de blocage."
+		},
+		"1200": {
+			id: 1200,
+			name: "Sceau de l'Archer",
+			description: "Pendant 1...24 seconde(s), les conditions que vous appliquez lorsque vous êtes équipé d'un arc durent 150% plus longtemps.",
+			concise: "(1...24 seconde(s).) Les conditions que vous appliquez lorsque vous êtes équipé d'un arc durent 150% plus longtemps."
+		},
+		"1201": {
+			id: 1201,
+			name: "Attaque sauvage",
+			description: "Votre familier tente une Attaque sauvage qui infligera +5...20 points de dégâts. Si l'attaque touche un ennemi qui lance un sort, celui-ci sera assommé.",
+			concise: ""
+		},
+		"1202": {
+			id: 1202,
+			name: "Coup enragé",
+			description: "Votre familier tente un Coup enragé qui inflige une Blessure profonde à l'ennemi visé pendant 5...20 seconde, ainsi que +10...50 points de dégâts.",
+			concise: "Provoque la Blessure profonde (5...10 et inflige +10...50 points de dégâts."
+		},
+		"1203": {
+			id: 1203,
+			name: "Violence bestiale",
+			description: "Votre familier tente une Violence bestiale qui infligera +5...20 points de dégâts. S'il touche un ennemi assommé, celui-ci est pris de Stupeur pendant 4...10 secondes.",
+			concise: ""
+		},
+		"1205": {
+			id: 1205,
+			name: "Morsure empoisonnée",
+			description: "Votre familier tente une Morsure empoisonnée qui afflige l'ennemi pendant 5...20 secondes.",
+			concise: "Provoque l'Empoisonnement (5...20 secondes)."
+		},
+		"1206": {
+			id: 1206,
+			name: "Bond",
+			description: "La prochaine attaque de votre familier est un Bond qui inflige +5...20 points de dégâts. Si l'attaque touche un ennemi en mouvement, celui-ci est assommé.",
+			concise: ""
+		},
+		"1209": {
+			id: 1209,
+			name: "Furie bestiale",
+			description: "Toutes vos compétences qui ne sont pas des attaques sont inutilisables pendant 5 secondes. Pendant 5...11 secondes, vous attaquez 25% plus vite.",
+			concise: ""
+		},
+		"1211": {
+			id: 1211,
+			name: "Nid de vipère",
+			description: "Crée un Nid de Vipère. Lorsqu'il est activé, tous les ennemis à proximité subissent 5...35 points de dégâts perforants et sont empoisonnés pendant 5...20 secondes. Le Nid de vipères prend fin au bout de 90 secondes. Ce piège est facilement interrompu.",
+			concise: ""
+		},
+		"1212": {
+			id: 1212,
+			name: "Equinoxe",
+			description: "Crée un esprit de niveau 1...10. L'épuisement infligé par les sorts lancés dans sa portée est doublé. Cet esprit meurt au bout de 30...240 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). L'Epuisement est doublé pour les sort lancés à portée qui infligent cette condition."
+		},
+		"1213": {
+			id: 1213,
+			name: "Tranquillité",
+			description: "Crée un esprit de niveau 1...10. Les enchantements lancés par les créatures (autres que des esprits) se trouvant dans sa portée se terminent 20...50% plus vite. Cet esprit disparaît au bout de 15...120 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 15...120 secondes). Les enchantements prennent fin 20...50% plus vite sur les créatures à portée. N'affecte pas les esprits."
+		},
+		"1215": {
+			id: 1215,
+			name: "Clameur des âmes",
+			description: "La cible ennemie et tous les ennemis adjacents subissent 10...65 points de dégâts de la foudre. Si vous êtes à portée de voix d'un esprit ou tenez un paquet, vous gagnez 10 points d'énergie.",
+			concise: ""
+		},
+		"1217": {
+			id: 1217,
+			name: "Seigneur de rituel",
+			description: "Pendant 5...35 secondes, les caractéristiques de votre Ritualiste augment de 2...4 pour votre prochaine compétence. Si cette compétence est un rituel d'asservissement, sa vitesse de rechargement est 10...60% plus rapide et Seigneur de rituel se recharge instantanément.",
+			concise: ""
+		},
+		"1218": {
+			id: 1218,
+			name: "Daoshen était cruel",
+			description: "Vous tenez les cendres de ''Daoshen'' pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis à proximité reçoivent 10...100 points de dégâts de la foudre. Vos compétences de Ritualiste ont une pénétration d'armure de 10%.",
+			concise: ""
+		},
+		"1219": {
+			id: 1219,
+			name: "Kaolai était protecteur",
+			description: "Vous tenez les cendres de ''Kaolai'' pendant un maximum de 15...60 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de 10. Lorsque vous les déposez, tous les membres du groupe sont soignés de 10...85 points de vie.",
+			concise: "(15...60 secondes.) Vous bénéficiez d'un bonus d'armure de +10. Effet de la pose : tous les membres du groupe sont soignés de 10...85 points de vie."
+		},
+		"1220": {
+			id: 1220,
+			name: "Songkai était attentive",
+			description: "Vous tenez les cendres de ''Songkai'' jusqu'à un maximum de 45 secondes. Pendant ce temps, vos sorts et Rituels d'asservissement coûtent 5...50% d'énergie en moins sur la base du coût initial.",
+			concise: ""
+		},
+		"1221": {
+			id: 1221,
+			name: "Xiko était coriace",
+			description: "Vous tenez les cendres de ''Xiko'' pendant un maximum de 5...20 secondes. Pour chaque Maléfice ou Condition dont vous souffrez pendant que vous tenez ses cendres, vous bénéficiez d'une régénération de santé de +3. Lorsque vous déposez ses cendres, vous perdez 1...4 condition.",
+			concise: ""
+		},
+		"1222": {
+			id: 1222,
+			name: "Namei était si gaie",
+			description: "Vous tenez les cendres de ''Naomei'' pendant un maximum de 45 secondes. Lorsque vous les déposez, tous les membres du groupe dans la zone sont ressuscités avec 15...75% de santé et aucune énergie.",
+			concise: ""
+		},
+		"1223": {
+			id: 1223,
+			name: "Lingwah était angoissée",
+			description: "Pendant 10...60 secondes les maléfices de votre Ritualiste coûtent 1...5 point(s) d'énergie en moins et leur durée est augmentée de 50%. Lorsque vous déposez les cendres de Lingwah, tous les maléfices de votre Ritualiste sont rechargés.",
+			concise: ""
+		},
+		"1224": {
+			id: 1224,
+			name: "Attraction d'esprit",
+			description: "Vous téléportez un esprit allié ciblé jusqu'à votre position.",
+			concise: ""
+		},
+		"1225": {
+			id: 1225,
+			name: "Frappe canalisée",
+			description: "La cible ennemie subit 5...95 points de dégâts de la foudre. Cet ennemi reçoit 5...35 points de dégâts de la foudre supplémentaires si vous tenez un objet.",
+			concise: ""
+		},
+		"1226": {
+			id: 1226,
+			name: "Coup du compagnon spirituel",
+			description: "La cible ennemie subit 20...65 points de dégâts de la foudre et tous les esprits que vous contrôlez à portée de voix gagnent 20...65 points de vie.",
+			concise: ""
+		},
+		"1227": {
+			id: 1227,
+			name: "Frappe d'essence",
+			description: "La cible ennemie subit 15...60 points de dégâts de la foudre. Si des esprits se trouvent à portée de voix, vous gagnez 1...9 point(s) d'énergie.",
+			concise: ""
+		},
+		"1228": {
+			id: 1228,
+			name: "Siphon de l'esprit",
+			description: "L'esprit le plus proche de vous perd toute son énergie. Vous bénéficiez de 15...50% de cette énergie.",
+			concise: ""
+		},
+		"1229": {
+			id: 1229,
+			name: "Expansion explosive",
+			description: "Pendant 15...60 secondes, chaque fois que vous créez une créature, jusqu'à 5 ennemis proches de cette créature reçoivent 20...65 points de dégâts de la foudre.",
+			concise: ""
+		},
+		"1230": {
+			id: 1230,
+			name: "Compagnon de création",
+			description: "Pendant 15...60 secondes, chaque fois que vous créez une créature, vous bénéficiez de 5...50 points de vie et de 1...6 point d'énergie.",
+			concise: ""
+		},
+		"1231": {
+			id: 1231,
+			name: "Canalisation d'esprit",
+			description: "Pendant 12 secondes, vous bénéficiez d'une régénération d'énergie de +1...6. Effet initial si vous êtes à portée de voix d'un esprit, vous gagnez 3...12 points d'énergie.",
+			concise: ""
+		},
+		"1232": {
+			id: 1232,
+			name: "Armure de l'impassible",
+			description: "Pendant 10...35 secondes, vos esprits à portée de voix subissent 50% de dégâts en moins et sont immunisés contre les coups critiques.",
+			concise: "(10...35 secondes.) Vos esprits à portée de voix subissent 50% de dégâts en moins et sont immunisés contre les coups critiques."
+		},
+		"1233": {
+			id: 1233,
+			name: "Souvenirs apaisants",
+			description: "La cible (un allié ou vous-même) est soignée de 10...100 points de vie. Si vous tenez un objet, vous bénéficiez de 3 points d'énergie.",
+			concise: ""
+		},
+		"1234": {
+			id: 1234,
+			name: "Guérison du corps et de l'âme",
+			description: "La cible (un allié ou vous-même) est soignée de 20...115 points de vie et perd une condition pour tous les esprits à portée de voix.",
+			concise: "Soigne de 20...115 points de vie. Supprime une condition par esprit à portée de voix."
+		},
+		"1235": {
+			id: 1235,
+			name: "Arme émoussée",
+			description: "Pendant 5...50 secondes, la cible ennemie et tous les ennemis adjacents ne peuvent réaliser de coups critique et infligent 3...20 point(s) de dégâts en moins.",
+			concise: ""
+		},
+		"1236": {
+			id: 1236,
+			name: "Chaînes d'asservissement",
+			description: "Pendant 3 secondes, l'ennemi visé et tous ceux qui sont proches de lui se déplacent 90% plus lentement et subissent 1...30 point(s) de dégâts par seconde en se déplaçant.",
+			concise: ""
+		},
+		"1237": {
+			id: 1237,
+			name: "Lien de douleur",
+			description: "Pendant 10...20 secondes, l'ennemi visé et tous les ennemis à proximité souffrent du maléfice Lien de douleur et subissent 8...20 points de dégâts lorsqu'ils sont touchés par l'attaque d'un esprit.",
+			concise: ""
+		},
+		"1238": {
+			id: 1238,
+			name: "Sceau de création",
+			description: "Vous gagnez 4 points d'énergie pour chaque créature invoquée que vous contrôlez à portée de voix, 3...12 points d'énergie maximum.",
+			concise: ""
+		},
+		"1239": {
+			id: 1239,
+			name: "Sceau des Esprits",
+			description: "Crée trois esprits de niveau 1...12. Ces esprits infligent 5...20 points de dégâts avec leurs attaques et meurent au bout de 60 secondes.",
+			concise: "Crée trois esprits de niveau 1...12 (durée de vie de 60 secondes.) Ces esprits infligent 5...20 points de dégâts avec leurs attaques."
+		},
+		"1240": {
+			id: 1240,
+			name: "Contorsion de l'âme",
+			description: "Pendant 5...45 secondes, vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 10) et se rechargent instantanément. Contorsion de l'âme prend fin après 1...3 Rituels d'asservissement.",
+			concise: "(5...45 secondes.) Vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 10) et se rechargent instantanément. Prend fin après 1...3 Rituels d'asservissement."
+		},
+		"1244": {
+			id: 1244,
+			name: "Vivacité spectrale",
+			description: "Pendant 5...30 secondes, les sorts que vous lancez à portée de voix d'un esprit se rechargent 25% plus vite.",
+			concise: ""
+		},
+		"1245": {
+			id: 1245,
+			name: "Vision de l'au-delà",
+			description: "La cible ennemi subit 20...65 points de dégâts de la foudre. Cet ennemi est aveuglé pendant 2...6 secondes si vous êtes à portée de voix d'un esprit ou d'un cadavre.",
+			concise: ""
+		},
+		"1246": {
+			id: 1246,
+			name: "Rage de l'ancêtre",
+			description: "Pendant 1 seconde, rien ne se passe. Lorsque cette compétence prend fin, tous les ennemis adjacents à la cible (allié ou vous-même) subissent 5...110 points de dégâts de la foudre.",
+			concise: "(1 seconde.) Effet final : inflige 5...110 points de dégâts de la foudre aux ennemis adjacents à l'allié visé."
+		},
+		"1247": {
+			id: 1247,
+			name: "Douleur",
+			description: "Crée un esprit de niveau 1...12. L'attaque de cet esprit inflige 5...30 points de dégâts. L'esprit meurt au bout de 30...150 secondes.",
+			concise: ""
+		},
+		"1249": {
+			id: 1249,
+			name: "Déplacement",
+			description: "Crée un esprit de niveau 1...14. Tous les alliés autre que des esprits à portée ont 75% de chances de bloquer les attaques. Chaque fois qu'une attaque est bloquée de cette manière, cet esprit subit 60 points de dégâts. Il disparaît au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"1250": {
+			id: 1250,
+			name: "Préservation",
+			description: "Vous créez un esprit de niveau 1...14. Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) dans la zone de 10...115 points de vie. Il meurt au bout de 90 secondes.",
+			concise: "Crée un esprit de niveau 1...14 (durée de vie de 90 secondes). Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) de 10...115 points de vie."
+		},
+		"1251": {
+			id: 1251,
+			name: "Vie",
+			description: "Crée un esprit de niveau 1...14. Lorsque cet esprit meurt, tous les alliés (autres que des esprits) dans sa portée sont soignés de 1...7 point de vie pour chaque seconde d'existence de cet esprit. Il meurt au bout de 20 secondes.",
+			concise: ""
+		},
+		"1252": {
+			id: 1252,
+			name: "Lien terrestre",
+			description: "Crée un esprit de niveau 1...14. Tous les ennemis (autres que des esprits) assommés dans sa portée le sont pour au moins 3 secondes. Chaque fois, cet esprit perd 50...25 points de vie. Il meurt au bout de 15...45 secondes.",
+			concise: ""
+		},
+		"1253": {
+			id: 1253,
+			name: "Mélodie du sang",
+			description: "Crée un esprit de niveau 1...12 qui meurt au bout de 30...150 secondes. Les attaques de cet esprit absorbent jusqu'à 5...25 points de vie.",
+			concise: "Crée un esprit de niveau 1...12 (durée de vie de 30...150 secondes). Ses attaques volent 5...25 points de vie."
+		},
+		"1255": {
+			id: 1255,
+			name: "Voyage",
+			description: "Crée un esprit de niveau 1...12. Chaque fois que l'attaque de cet esprit touche un ennemi immobile, celui-ci est assommé et l'esprit perd 70...50 points de vie. Il meurt au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"1257": {
+			id: 1257,
+			name: "Arme d'Esprit illuminé",
+			description: "Pendant 10 secondes, la cible (un allié ou vous-même) bénéficie de 1...15 point de vie par seconde et de 1...15 point de vie en plus par seconde si cette cible se trouve à portée de voix d'un esprit.",
+			concise: ""
+		},
+		"1258": {
+			id: 1258,
+			name: "Arme brute",
+			description: "Donne à la cible (un allié ou vous-même) une Arme brute pendant 10...40 secondes. Le porteur de l'arme inflige +5...15 points de dégâts tant qu'il n'est pas sous l'effet d'un enchantement.",
+			concise: "(10...40 secondes.) Les attaques infligent +5...15 points de dégâts. <gray>Aucun effet si l'allié visé est enchanté.</gray>"
+		},
+		"1259": {
+			id: 1259,
+			name: "Arme guidée",
+			description: "Pendant 4...10 secondes, les attaques de la cible visée (allié ou vous-même) ne peuvent pas être bloquées.",
+			concise: "(4...10 secondes.) Les attaques sont impossibles à bloquer."
+		},
+		"1260": {
+			id: 1260,
+			name: "Soumission",
+			description: "Pendant 5...30 secondes, la cible ennemie et tous les ennemis de la zone attaquent 50% moins vite.",
+			concise: ""
+		},
+		"1261": {
+			id: 1261,
+			name: "Armure glaciale",
+			description: "Pendant 10...25 secondes, vous bénéficiez de +10...40 de bonus d'armure contre les dégâts physiques et vous ne pouvez pas être embrasé.",
+			concise: ""
+		},
+		"1262": {
+			id: 1262,
+			name: "Anneau de guérison",
+			description: "Vous soignez les créatures adjacentes de 30...180 points de vie.",
+			concise: ""
+		},
+		"1263": {
+			id: 1263,
+			name: "Renouvellement de vie",
+			description: "Ressuscite le membre du groupe mort touché avec 50% de sa santé et 5...20% de son énergie. Ce membre du groupe et tous les alliés à portée de voix sont soignés de 55...130 points de vie.",
+			concise: ""
+		},
+		"1264": {
+			id: 1264,
+			name: "Destinée",
+			description: "Vous infligez à l'ennemi 10...60 points de Dégâts de foudre (maximum 135 points) pour chaque Rituel d'asservissement en recharge que vous avez.",
+			concise: ""
+		},
+		"1265": {
+			id: 1265,
+			name: "Compagnon d'arme",
+			description: "Vous soignez la cible (un allié ou vous-même) de 15...60 points de vie. Si cette cible est sous l'effet d'un \"Sort d'altération d'arme\", le Compagnon d'arme la soigne de 15...75 points de vie supplémentaires.",
+			concise: ""
+		},
+		"1266": {
+			id: 1266,
+			name: "Apaisement",
+			description: "Crée un esprit de niveau 1...12. Les ennemis dans sa portée mettent deux fois plus de temps pour récupérer de l'adrénaline. Cet esprit disparaît au bout de 15...45 secondes.",
+			concise: "Crée un esprit de niveau 1...12 (durée de vie de 15...45 secondes). Les ennemis à portée accumulent de l'adrénaline deux fois moins vite."
+		},
+		"1267": {
+			id: 1267,
+			name: "Arme vitale",
+			description: "Pendant 5...30 secondes, la cible (un allié ou vous-même) possède l'Arme vitale et a une santé maximum de +40...175.",
+			concise: ""
+		},
+		"1268": {
+			id: 1268,
+			name: "Arme de rapidité",
+			description: "Pendant 5...25 secondes, la cible (un allié ou vous-même) possède l'Arme de rapidité et ses Sorts et Rituels d'asservissement se rechargent 33% plus vite.",
+			concise: ""
+		},
+		"1269": {
+			id: 1269,
+			name: "Sceau de Rage",
+			description: "La cible ennemie subit 5...50 points de dégâts sacrés et +5...10 points de dégâts sacrés pour chaque compétence d'adrénaline qu'il possède.",
+			concise: ""
+		},
+		"1333": {
+			id: 1333,
+			name: "Conditions prolongées",
+			description: "Répand toutes les conditions de la cible ennemie à tous les ennemis à proximité de cette dernière. La durée de ces conditions est augmentée de 5...100% (30 secondes maximum).",
+			concise: "Répand toutes les conditions de la cible ennemie à tous les ennemis à proximité de cette dernière. La durée de ces conditions est augmentée de 5...100% (30 secondes maximum)."
+		},
+		"1334": {
+			id: 1334,
+			name: "Hypochondrie",
+			description: "Transfert toutes les conditions des ennemis de la zone à l'ennemi visé.",
+			concise: "Transfère toutes les conditions des ennemis de la zone à l'ennemi visé."
+		},
+		"1335": {
+			id: 1335,
+			name: "Fin du gaspilleur",
+			description: "Pendant 5 secondes, la cible ennemie est sous l'emprise de la Fin du gaspilleur. Chaque seconde sous l'emprise du sort, la cible ennemie et tous les ennemis adjacents subissent 1...10 point(s) de dégâts 1...10 point(s) de dégâts supplémentaires pour chaque seconde d'activation de ce sort. Ce sort cesse prématurément si la cible ennemie utilise une compétence.",
+			concise: ""
+		},
+		"1336": {
+			id: 1336,
+			name: "Douleur spirituelle",
+			description: "L'ennemi visé subit 15...75 points de dégâts. Toutes les créatures hostiles invoquées situées près de cet ennemi subissent 25...125 points de dégâts.",
+			concise: "Inflige 15...75 points de dégâts. Inflige 25...125 points de dégâts aux créatures hostiles invoquées qui sont situées près de l'ennemi visé."
+		},
+		"1337": {
+			id: 1337,
+			name: "Drain d'illusions",
+			description: "Vous enlevez un maléfice d'Envoûteur à la cible ennemie. Si ce maléfice est enlevé de cette manière, l'ennemi perd 1...5 point(s) d'énergie et vous bénéficiez de 4 points d'énergie pour chaque point qu'il perd.",
+			concise: ""
+		},
+		"1338": {
+			id: 1338,
+			name: "Persistance du souvenir",
+			description: "Pendant 5...20 secondes, chaque fois qu'un sort que vous lancez est interrompu, ce sort est instantanément rechargé.",
+			concise: ""
+		},
+		"1339": {
+			id: 1339,
+			name: "Symboles d'inspiration",
+			description: "Pendant 1...31 seconde(s), cette compétence devient la compétence élite de la cible ennemie. Les sorts élites que vous lancez utilisent votre caractéristique d'Incantation rapide au lieu des caractéristiques qui y sont normalement associées.",
+			concise: ""
+		},
+		"1340": {
+			id: 1340,
+			name: "Célérité symbolique",
+			description: "Pendant 36...60 secondes, tous vos sceaux utilisent votre caractéristique d'Incantation rapide au lieu de leurs caractéristiques habituelles.",
+			concise: ""
+		},
+		"1341": {
+			id: 1341,
+			name: "Frustration",
+			description: "Pendant 5...20 secondes, la cible ennemie lance des sorts 50% moins vite et subit 5...50 points de dégâts chaque fois qu'elle est interrompue pendant qu'elle lance un sort. Inflige le double de dégâts chaque fois qu'une compétence est interrompue.",
+			concise: "(5...20 secondes.) Entraîne un ralentissement de 50% du temps d'incantation des sorts. L'ennemi visé subit 5...50 points de dégâts chaque fois qu'il est interrompu. Inflige le double de dégâts à l'interruption de compétence."
+		},
+		"1342": {
+			id: 1342,
+			name: "Taquinerie",
+			description: "Si la cible ennemie utilise une compétence, elle et tous les ennemis dans la zone sont interrompus et vous volez 0...5 point(s) d'énergie à tous les ennemis dans la zone.",
+			concise: "Interrompt une compétence. Effet de l'interruption : interrompt également tous les ennemis dans la zone et vous volez 0...5 point(s) d'énergie à tous les ennemis dans la zone."
+		},
+		"1343": {
+			id: 1343,
+			name: "Fantôme éthéré",
+			description: "Pendant 10 secondes, la cible ennemie subit une dégénération d'énergie de -1. Si ce maléfice est supprimé prématurément, cet ennemi perd 1...5 points d'énergie.",
+			concise: ""
+		},
+		"1344": {
+			id: 1344,
+			name: "Toile d'interruption",
+			description: "Vous interrompez la cible ennemie. Pendant 10 secondes, la cible ennemie est victime du maléfice de ''Toile d'interruption''. Lorsque ce maléfice prend fin, cet ennemi est interrompu à nouveau.",
+			concise: ""
+		},
+		"1345": {
+			id: 1345,
+			name: "Enigme de l'enchanteur",
+			description: "Pendant 10 secondes, la cible ennemie lance ses enchantements 100...200% moins vite. Si la cible ennemie n'est pas sous l'effet d'un enchantement lors de l'application de ce maléfice, cet ennemi ainsi que tous les ennemis adjacent subissent 10...100 points de dégâts.",
+			concise: ""
+		},
+		"1346": {
+			id: 1346,
+			name: "Sceau des illusions",
+			description: "1...3 prochains sorts utiliseront la caractéristique d'Illusion au lieu de leur caractéristique normale.",
+			concise: ""
+		},
+		"1347": {
+			id: 1347,
+			name: "Congédiement d'enchantement",
+			description: "Supprime un enchantement chez la cible ennemie. Si cet ennemi est sous l'effet d'un maléfice, cette compétence se recharge 20...50% plus vite.",
+			concise: ""
+		},
+		"1348": {
+			id: 1348,
+			name: "Vortex du Mangeur de Maléfices",
+			description: "Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé de cette manière, les ennemis dans la zone de la cible subissent 30...90 points de dégâts et perdent un enchantement.",
+			concise: ""
+		},
+		"1349": {
+			id: 1349,
+			name: "Miroir de désenchantement",
+			description: "Ote un enchantement à la cible ennemie. Tous les membres du groupe de cet ennemi perdent aussi cet enchantement.",
+			concise: ""
+		},
+		"1350": {
+			id: 1350,
+			name: "Simple vol",
+			description: "Interrompt l'action de la cible ennemie. Si une compétence est interrompue, elle est désactivée pendant 5...20 secondes et remplace Simple Vol.",
+			concise: "Interrompt une action. Effet de l'interruption : si une compétence est interrompue, elle est désactivée et remplace Simple Vol (5...20 secondes)."
+		},
+		"1351": {
+			id: 1351,
+			name: "Animation d'horreur dévastatrice",
+			description: "Vous exploitez le cadavre le plus proche pour créer une horreur dévastatrice de niveau 1...17. Lorsque celle-ci meurt, elle est remplacée par une horreur broyée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques.",
+			concise: ""
+		},
+		"1352": {
+			id: 1352,
+			name: "Ordre des morts-vivants",
+			description: "Pendant 5 secondes, vos serviteurs infligent +3...16 points de dégâts, mais vous perdez 2% de votre santé maximum chaque fois qu'un de vos serviteurs réussit une attaque.",
+			concise: ""
+		},
+		"1353": {
+			id: 1353,
+			name: "Chair putride",
+			description: "Vous détruisez un des serviteurs morts-vivants animés visés. Tous les ennemis près de cette créature souffrent de Maladie pendant 5...15 secondes.",
+			concise: "Détruit un de vos serviteurs morts-vivants. Inflige la Maladie (5...15 secondes) aux ennemis près de ce serviteur."
+		},
+		"1354": {
+			id: 1354,
+			name: "Festin des morts",
+			description: "Vous détruisez l'allié mort-vivant animé ciblé. Tous vos autres alliés morts-vivants animés sont soignés de 10...100 points de vie.",
+			concise: ""
+		},
+		"1355": {
+			id: 1355,
+			name: "Os broyés",
+			description: "Pendant 60 secondes, chaque fois qu'un serviteur mort-vivant meurt, il est remplacé par une horreur broyée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques.",
+			concise: ""
+		},
+		"1356": {
+			id: 1356,
+			name: "Contagion",
+			description: "Pendant 60 secondes, chaque fois que vous souffrez d'une nouvelle condition, tous les ennemis à proximité sont affectés par la même condition et vous sacrifiez 10...5% de votre santé maximum.",
+			concise: ""
+		},
+		"1358": {
+			id: 1358,
+			name: "Poumons ulcérés",
+			description: "Pendant 10...25 secondes, l'ennemi visé et tous les ennemis proches subissent une dégénération de santé de -4 lorsqu'ils sont pris de Saignement. A chaque fois qu'ils utilisent un chant ou un cri, ils saignent pendant 3...15 secondes.",
+			concise: ""
+		},
+		"1359": {
+			id: 1359,
+			name: "Douleur de désenchantement",
+			description: "La cible ennemie perd 1...3 enchantement(s). Si un enchantement est perdu de cette manière la cible et tous les ennemis adjacents perdent 10...100 points de vie.",
+			concise: ""
+		},
+		"1360": {
+			id: 1360,
+			name: "Marque de Furie",
+			description: "Pendant 5 secondes, tout allié frappant l'ennemi visé gagne 0...2 décharges d'adrénaline. Effet final : inflige Armure brisée pendant 1...15 secondes.",
+			concise: ""
+		},
+		"1362": {
+			id: 1362,
+			name: "Enchantement corrompu",
+			description: "Ote un enchantement à l'ennemi ciblé. Si un enchantement est supprimé de cette manière, cet ennemi subit une dégénération de santé de -1...8 pendant 10 secondes.",
+			concise: ""
+		},
+		"1363": {
+			id: 1363,
+			name: "Sceau du chagrin",
+			description: "La cible ennemie subit 15...75 points de dégâts. Si cette cible ennemie se trouve près d'un cadavre ou si son familier est mort, cette compétence se recharge instantanément.",
+			concise: ""
+		},
+		"1364": {
+			id: 1364,
+			name: "Sceau de souffrance",
+			description: "Vous souffrez de Saignement pendant 6 secondes. La prochaine compétence de Nécromant qui cible un ennemi provoque un Saignement pendant 2...16 secondes.",
+			concise: "Vous saignez pendant 6 secondes. Applique un Saignement (2...16 secondes) à la cible de votre prochaine compétence de Nécromant."
+		},
+		"1365": {
+			id: 1365,
+			name: "Sceau des âmes perdues",
+			description: "Si la cible ennemie a moins de 50% de santé, vous obtenez 10...100 points de vie et 1...10 point d'énergie.",
+			concise: ""
+		},
+		"1366": {
+			id: 1366,
+			name: "Puits d'obscurité",
+			description: "Vous utilisez le cadavre visé pour créer un ''Puits d'obscurité'' pendant 5...50 secondes. Les ennemis affectés par un maléfice se trouvant dans le périmètre du ''Puits d'obscurité'' ratent leurs attaques 50% du temps.",
+			concise: ""
+		},
+		"1367": {
+			id: 1367,
+			name: "Afflux aveuglant",
+			description: "L'ennemi visé subit 5...50 points de dégâts de la foudre et la cible ainsi que tous les ennemis adjacents souffrent d'Aveuglement pendant 3...8 seconde(s). Ce sort a une pénétration d'armure de 25%.",
+			concise: "Inflige 5...50 points de dégâts de la foudre. Provoque l'Aveuglement (3...8 seconde(s)) de la cible et des ennemis adjacents. Pénétration d'armure de 25%."
+		},
+		"1368": {
+			id: 1368,
+			name: "Vents glaciaux",
+			description: "L'ennemi ciblé reçoit 25...50 points de dégâts du froid. Pendant 30 secondes, le prochain maléfice d'eau visant cet ennemi dure 25...100% plus longtemps.",
+			concise: ""
+		},
+		"1369": {
+			id: 1369,
+			name: "Eclair",
+			description: "Lance un ''Eclair'' qui inflige 5...50 points de dégâts de la foudre s'il touche sa cible. Si lEclair'' touche un ennemi en mouvement, celui-ci reçoit 5...50 points de dégâts de la foudre en plus. Ce sort a une pénétration d'armure de 25%.",
+			concise: ""
+		},
+		"1370": {
+			id: 1370,
+			name: "Hâte du jinn de tempête",
+			description: "Pendant 10...25 secondes, vous vous déplacez 25% plus vite. Pendant chaque secondes de mouvement, vous perdez 1 point d'énergie.",
+			concise: "(10...25 secondes.) Vous vous déplacez 25% plus vite. Vous perdez 1 point d'énergie par seconde lorsque vous vous déplacez."
+		},
+		"1371": {
+			id: 1371,
+			name: "Briseur de pierre",
+			description: "Pendant 5...30 secondes, chaque fois que vous infligez ou subissez des dégâts élémentaires ou physiques, ces dégâts sont convertis en dégâts de la terre.",
+			concise: ""
+		},
+		"1372": {
+			id: 1372,
+			name: "Tempête de sable",
+			description: "Vous créez une tempête de sable sur la position de l'ennemi visé. Pendant 10 secondes, les ennemis à proximité subissent 10...30 points de dégâts chaque seconde. Les ennemis qui attaques reçoivent 10...30 points de dégâts de la terre supplémentaires chaque seconde.",
+			concise: "Inflige 10...30 points de dégâts de la terre par seconde (10 secondes). Frappe les ennemis proches de la position initiale de la cible ennemie, inflige 10...30 points de dégâts de la terre supplémentaires par seconde aux ennemis qui attaquent."
+		},
+		"1373": {
+			id: 1373,
+			name: "Gaine de pierre",
+			description: "Pendant 5...20 secondes, l'allié ciblé et vous gagnez +1...30 en armure et êtes immunisés contre les coups critiques. Quand vous lancez ce sort, tous les ennemis à proximité de vous et de votre cible subissent 15...70 dégâts de la terre et souffrent de Faiblesse pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1374": {
+			id: 1374,
+			name: "Faucon d'ébène",
+			description: "Vous envoyez un projectile qui inflige 10...85 points de dégâts de la terre et entraine la Faiblesse pendant 5...15 secondes.",
+			concise: "Projectile : Inflige 10...85 points de dégâts de la terre et provoque la Faiblesse (5...15 secondes)."
+		},
+		"1375": {
+			id: 1375,
+			name: "Aura de Chair de pierre",
+			description: "Pendant 5...15 secondes, les dégâts que vous recevez sont réduits de 1...31, et vous êtes immunisé contre les attaques critiques.",
+			concise: ""
+		},
+		"1376": {
+			id: 1376,
+			name: "Glyphe de rétablissement",
+			description: "Pendant 15 secondes, vos deux prochains sorts vous guérissent de 30...105 points de vie, et vous êtes soigné de 150...400% du coût en énergie de chaque sort.",
+			concise: ""
+		},
+		"1377": {
+			id: 1377,
+			name: "Prisme éthéré",
+			description: "Pendant 3 secondes, tous les dégâts que vous subissez sont réduits de 75%. Lorsque Prisme Éthéré prend fin vous gagnez 5...20 points d'énergie.",
+			concise: "(3 secondes.) Tous les dégâts que vous subissez sont réduits de 75%. Effet final : vous gagnez 5...20 points d'énergie."
+		},
+		"1378": {
+			id: 1378,
+			name: "Maître de la Magie",
+			description: "Pendant 1...61 seconde(s), toutes vos caractéristiques élémentaires sont fixées à 12 et vous bénéficiez d'une régénération d'énergie de +0...2. Cet enchantement prend fin si vous utilisez une compétence non élémentaire.",
+			concise: "(1...61 seconde(s).) Vos caractéristiques élémentaires sont fixées à 12 et vous bénéficiez d'une régénération d'énergie de +0...2. <gray>Prend fin si vous utilisez une compétence non élémentaire.</gray>"
+		},
+		"1379": {
+			id: 1379,
+			name: "Regard embrasé",
+			description: "La cible ennemie subit 5...50 points de dégâts du feu. Si cet ennemi est embrasé vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
+			concise: ""
+		},
+		"1380": {
+			id: 1380,
+			name: "Chaleur de savane",
+			description: "Vous créez une Chaleur de savane sur la position de l'ennemi visé. Pendant 5 secondes, tous les ennemis à proximité subissent 5...20 points de dégâts chaque seconde et 5...20 point(s) de dégâts en plus pour chaque seconde d'activation de ce sort.",
+			concise: ""
+		},
+		"1381": {
+			id: 1381,
+			name: "Hâte du jinn de flamme",
+			description: "Tous les ennemis adjacents subissent 15...120 points de dégâts du feu. Pendant 8...14 secondes, vous vous déplacez 25% plus vite. Hâte du jinn de flamme se recharge 50% plus vite si un ennemi est touché par ce sort.",
+			concise: ""
+		},
+		"1382": {
+			id: 1382,
+			name: "Rafale givrante",
+			description: "Si l'ennemi visé est sous les effets d'un maléfice de la magie de l'eau, il reçoit 20...80 points de dégâts du froid. Sinon, cet ennemi se déplace 66% moins vite pendant 1...6 seconde(s).",
+			concise: "Inflige 20...80 points de dégâts du froid si l'ennemi visé souffre d'un maléfice de la magie de l'eau. Cet ennemi se déplace 66% moins vite (1...6 secondes) dans le cas contraire."
+		},
+		"1390": {
+			id: 1390,
+			name: "Intervention du juge",
+			description: "Pendant 10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts qui devraient être fatals, ces dégâts sont annulés et un ennemi à proximité reçoit 30...180 points de dégâts.",
+			concise: ""
+		},
+		"1391": {
+			id: 1391,
+			name: "Esprit de soutien",
+			description: "Pendant 5...23 secondes, chaque fois que la cible (un allié ou vous-même) subit des dégâts lorsqu'elle est assommée, elle est soignée de 5...50 points de vie.",
+			concise: ""
+		},
+		"1392": {
+			id: 1392,
+			name: "Guérison attentive",
+			description: "Pendant 10 secondes, la cible (un allié ou vous-même) bénéficie d'une régénération de santé de +1...4. Si cette compétence prend fin prématurément, la cible récupère 30...120 points de vie.",
+			concise: "(10 secondes.) L'allié visé bénéficie d'une régénération de santé de +1...4 et gagne 30...120 points de vie si cet enchantement prend fin prématurément."
+		},
+		"1393": {
+			id: 1393,
+			name: "Compagnon du guérisseur",
+			description: "Pendant 10...55 secondes, la vitesse d'incantation des sorts de Prières de guérison sera 50% plus rapide et vos soins sont 50% plus efficaces.",
+			concise: ""
+		},
+		"1394": {
+			id: 1394,
+			name: "Engagement du guérisseur",
+			description: "Pendant que vous maintenez cet enchantement, vos sorts de guérison vous soignent 20% moins bien, mais coûtent -1...4 point d'énergie.",
+			concise: ""
+		},
+		"1395": {
+			id: 1395,
+			name: "Balancier de Balthazar",
+			description: "Pendant 5...25 secondes, la prochaine fois que la cible (un allié ou vous-même) est assommée par un ennemi, l'ennemi est assommé à sa place.",
+			concise: ""
+		},
+		"1396": {
+			id: 1396,
+			name: "Paroles de réconfort",
+			description: "La cible (un allié ou vous-même) est soignée de 15...60 points de vie et de 15...45 points de vie en plus si elle souffre d'une condition.",
+			concise: "Soigne de 15...60 points de vie. Soigne de 15...45 points de vie supplémentaires si l'allié visé souffre d'une condition."
+		},
+		"1397": {
+			id: 1397,
+			name: "Lumière de la délivrance",
+			description: "Tous les membres du groupe sont soignés de 5...70 points de vie.",
+			concise: "Soigne tout le groupe de 5...70 points de vie."
+		},
+		"1398": {
+			id: 1398,
+			name: "Enchantement fléau",
+			description: "Pendant 30 secondes, chaque fois que l'ennemi visé est la cible d'un enchantement, le lanceur de cet enchantement subit 15...75 points de dégâts.",
+			concise: ""
+		},
+		"1399": {
+			id: 1399,
+			name: "Bouclier d'absorption",
+			description: "Pendant 3...7 secondes, les dégâts reçus par la cible (un allié ou vous-même) sont réduits de 5 chaque fois que cette cible est blessée pendant qu'elle se trouve sous les effets de cet enchantement.",
+			concise: "(3...7 secondes.) Réduit les dégâts subits par l'allié visé de 5 points à chaque attaque."
+		},
+		"1400": {
+			id: 1400,
+			name: "Revers de dégâts",
+			description: "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) doit subir des dégâts, ces dégâts se retournent contre l'ennemi (maximum 5...75 points).",
+			concise: ""
+		},
+		"1401": {
+			id: 1401,
+			name: "Toucher réparateur",
+			description: "La cible touchée (un allié ou vous-même) perd deux conditions et est soigné de 15...60 points de vie pour chaque condition supprimée de cette manière.",
+			concise: ""
+		},
+		"1402": {
+			id: 1402,
+			name: "Entaille critique",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle inflige un coup critique, l'ennemi visé est interrompu.",
+			concise: ""
+		},
+		"1403": {
+			id: 1403,
+			name: "Entaille agonisante",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si la cible ennemie souffre de Blessure profonde, vous interrompez son action.",
+			concise: ""
+		},
+		"1404": {
+			id: 1404,
+			name: "Peste",
+			description: "Pendant 1...15 seconde(s), vous attaquez 33% plus vite, mais vous vous déplacez 33% plus lentement.",
+			concise: "(1...15 seconde(s).) vous attaquez 33% plus vite. <gray>Vous vous déplacez 33% moins vite.</gray>"
+		},
+		"1405": {
+			id: 1405,
+			name: "Frappe de charge",
+			description: "Pendant 1...10 secondes, vous courez 33% plus vite. Votre prochaine attaque réussie inflige +10...90 points de dégâts et cette pose prend fin. Cette pose prend fin si vous utilisez une compétence.",
+			concise: ""
+		},
+		"1406": {
+			id: 1406,
+			name: "Coup de tête",
+			description: "La cible ennemie touchée reçoit 40...100 points de dégâts. Vous êtes frappé de Stupeur pendant 5 secondes.",
+			concise: ""
+		},
+		"1407": {
+			id: 1407,
+			name: "Confort du lion",
+			description: "Tous vos sceaux sont désactivés pendant 12 secondes. Vous êtes soigné de 50...110 points de vie et bénéficiez de 0...3 décharges d'adrénaline.",
+			concise: ""
+		},
+		"1408": {
+			id: 1408,
+			name: "Rage du Ntouka",
+			description: "Vous gagnez 1...7 décharge(s) d'adrénaline. Pendant 8 secondes, chaque fois que vous utilisez une compétence d'adrénaline, cette compétence se recharge pendant 3 secondes.",
+			concise: ""
+		},
+		"1409": {
+			id: 1409,
+			name: "Frappe du Mokele",
+			description: "Si l'attaque réussit, vous infligez +5...20 points de dégâts et gagnez 2 décharges d'adrénaline.",
+			concise: ""
+		},
+		"1410": {
+			id: 1410,
+			name: "Attaque dominatrice",
+			description: "Inflige +1...20 point(s) de dégâts. Si l'attaque frappe un ennemi assomé et ce ennemi est hébété pendant 1...8 seconde(s).",
+			concise: ""
+		},
+		"1411": {
+			id: 1411,
+			name: "Sceau de constitution",
+			description: "Vous avez +50...300 de santé maximum. Le sceau prend fin si vous réussissez une attaque.",
+			concise: ""
+		},
+		"1412": {
+			id: 1412,
+			name: "\"Vous êtes seul !\"",
+			description: "Si l'ennemi ciblé n'est pas proche d'un allié, cet ennemi souffre d'Infirmité et de Faiblesse pendant 8 secondes.",
+			concise: ""
+		},
+		"1413": {
+			id: 1413,
+			name: "Explosion d'agressivité",
+			description: "Pendant 2...10 secondes, vous attaquez 33% plus vite. Lorsque cette pose de combat prend fin, vous perdez toute votre adrénaline.",
+			concise: ""
+		},
+		"1414": {
+			id: 1414,
+			name: "Charge enragée",
+			description: "Pendant 5...16 secondes, vous vous déplacez 25% plus vite. La Charge enragée prend fin lorsque vous touchez une cible. Vous gagnez alors 0...3 décharges d’adrénaline lorsque vous réussissez une attaque au corps à corps.",
+			concise: ""
+		},
+		"1415": {
+			id: 1415,
+			name: "Taillade incapacitante",
+			description: "Si cette attaque réussit, l'ennemi ciblé souffre d'Infirmité pendant 5...15 secondes et commence à saigner pendant 10...25 secondes.",
+			concise: ""
+		},
+		"1416": {
+			id: 1416,
+			name: "Entaille barbare",
+			description: "Si cette attaque réussit, vous infligez +5...30 points de dégâts. Si vous n'êtes pas en pose de combat, vous causez également le Saignement pendant 5...15 secondes.",
+			concise: ""
+		},
+		"1465": {
+			id: 1465,
+			name: "Coup préparé",
+			description: "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si vous êtes sous les effets d'une préparation, vous obtenez 1...9 point(s) d'énergie.",
+			concise: "Inflige +10...25 points de dégâts. Vous gagnez 1...9 point(s) d'énergie si vous êtes sous l'effet d'une préparation."
+		},
+		"1466": {
+			id: 1466,
+			name: "Flèche brûlante",
+			description: "Si cette attaque réussit, vous infligez +10...30 points de dégâts et provoquez la Brûlure pendant 1...7 seconde(s).",
+			concise: "Inflige +10...30 points de dégâts. Inflige la Brûlure (1...7 seconde(s))."
+		},
+		"1467": {
+			id: 1467,
+			name: "Tir arqué",
+			description: "Si cette flèche fait mouche, elle inflige +10...35 points de dégâts. Cette flèche ne peut pas être bloquée, mais se déplace 50% moins vite.",
+			concise: ""
+		},
+		"1468": {
+			id: 1468,
+			name: "Attaque solidaire",
+			description: "Votre animal se déplace instantanément vers la cible ennemie et sa prochaine attaque inflige le Saignement pendant 5...15 secondes. La prochaine fois qu'une de vos attaques réussit, la cible ennemie est frappée d'Infirmité pendant 5...15 secondes.",
+			concise: "Votre animal se déplace instantanément vers la cible ennemie et sa prochaine attaque inflige le Saignement (5...15 secondes). La prochaine fois qu'une de vos attaques réussit, la cible ennemie est frappée d'Infirmité (5...15 secondes)."
+		},
+		"1469": {
+			id: 1469,
+			name: "Tir croisé",
+			description: "Si cette attaque touche un ennemi visé, elle inflige +5...20 points de dégâts. Si cet ennemi se trouve près d'un de vos alliés, cette attaque ne pourra pas être bloquée.",
+			concise: ""
+		},
+		"1470": {
+			id: 1470,
+			name: "Flèches barbelées",
+			description: "Pendant 24 secondes, vos flèches provoquent le Saignement pendant 3...15 secondes. Votre bonus d'armure est réduit de 40 pendant que vous activez cette compétence.",
+			concise: "(24 secondes.) Vos flèches provoquent le Saignement (3...15 secondes). <gray>Votre bonus d'armure est réduit de 40 pendant que vous activez cette compétence.</gray>"
+		},
+		"1471": {
+			id: 1471,
+			name: "Focus du charognard",
+			description: "Pendant 10 secondes, si vous frappez une cible souffrant d'une condition, vous obtenez 3...12 points d'énergie.",
+			concise: ""
+		},
+		"1472": {
+			id: 1472,
+			name: "Toxicité",
+			description: "Crée un esprit de niveau 1...10. Les créatures souffrant d'Empoisonnement ou de Maladie à sa portée subissent une dégénération de santé de -2. Cet esprit disparaît au bout de 30...180 secondes.",
+			concise: ""
+		},
+		"1473": {
+			id: 1473,
+			name: "Sables mouvants",
+			description: "Crée un esprit de niveau 1...10. Toutes les créatures (sauf les esprits) dans sa portée perdent 1 point d'énergie chaque fois qu'elles attaquent ou utilisent une compétence. Cet esprit disparaît au bout de 30...180 secondes.",
+			concise: ""
+		},
+		"1474": {
+			id: 1474,
+			name: "Etreinte de la tempête",
+			description: "Pendant 10 secondes, vous vous déplacez 25% plus vite. Cette pose de combat est renouvelée chaque fois que vous subissez des dégâts élémentaires.",
+			concise: ""
+		},
+		"1475": {
+			id: 1475,
+			name: "Vitesse du trappeur",
+			description: "Pendant 5...30 secondes, vos pièges se rechargent 25% plus vite et se déclenchent 25% plus vite. Cette pose prend fin si vous réussissez une attaque.",
+			concise: ""
+		},
+		"1476": {
+			id: 1476,
+			name: "Fil de détente",
+			description: "Quand le Fil de détente se déclenche, tous les ennemis à proximité subissent 5...20 points de dégâts perforants. Les ennemis souffrant d'Infirmité sont assommés. Le Fil de détente fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+			concise: ""
+		},
+		"1478": {
+			id: 1478,
+			name: "Afflux de renouvellement",
+			description: "Pendant 8 secondes, la cible ennemie subit 2...12 dégâts par seconde. Lorsque ce maléfice prend fin, vous gagnez 1...8 point(s) d'énergie.",
+			concise: ""
+		},
+		"1479": {
+			id: 1479,
+			name: "Offrande de l'esprit",
+			description: "Vous gagnez 8...17 points d'énergie. Si des esprits se trouvent à portée de voix, vous ne sacrifiez pas de santé.",
+			concise: ""
+		},
+		"1480": {
+			id: 1480,
+			name: "Don de l'esprit",
+			description: "Pendant 60 secondes, chaque fois que vous créez une créature, tous les alliés près de cette créature gagnent 5...50 points de vie et perdent 1 condition.",
+			concise: ""
+		},
+		"1481": {
+			id: 1481,
+			name: "Sceau du pacte avec la mort",
+			description: "Vous ressuscitez le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum. La prochaine fois que cet allié meurt dans les 120 secondes, vous mourez aussi.",
+			concise: "Ressuscite le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum."
+		},
+		"1482": {
+			id: 1482,
+			name: "Essence récupérée",
+			description: "Tous vos esprits meurent. Vous obtenez 5...20 points d'énergie et tous vos rituels d'asservissement sont rechargés si un esprit meurt de cette manière.",
+			concise: ""
+		},
+		"1483": {
+			id: 1483,
+			name: "Coup de bannissement",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle frappe une créature invoquée, tous les ennemis à proximité subissent 10...85 points de dégâts sacrés.",
+			concise: ""
+		},
+		"1484": {
+			id: 1484,
+			name: "Fauchage mystique",
+			description: "Si cette attaque réussit, vous infligez +5...10 points de dégâts pour chaque enchantement vous affectant (maximum 30 points de dégâts supplémentaires).",
+			concise: "Inflige +5...10 points de dégâts (maximum : +30) par enchantement vous affectant."
+		},
+		"1485": {
+			id: 1485,
+			name: "Attaque érémitique",
+			description: "Si cette attaque réussit, vous infligez +5...10 points de dégâts pour chaque ennemi adjacent (maximum 30 points de dégâts supplémentaires).",
+			concise: ""
+		},
+		"1486": {
+			id: 1486,
+			name: "Moisson des impuretés",
+			description: "Si cette attaque réussit, vous infligez +10...30 points de dégâts. Vous bénéficiez de 15...75 points de vie pour chaque ennemi que vous frappez et qui souffre d'une condition.",
+			concise: "Inflige +10...30 points de dégâts. Vous gagnez 17...75 points de vie par ennemi touché souffrant d'une condition."
+		},
+		"1487": {
+			id: 1487,
+			name: "Fauchage des deux lunes",
+			description: "Vous perdez un enchantement. Si un enchantement est perdu de cette manière, vous frappez à deux reprises et bénéficiez de 20...50 points de vie.",
+			concise: ""
+		},
+		"1488": {
+			id: 1488,
+			name: "Fauchage victorieux",
+			description: "Si cette attaque réussit, vous infligez +1...31 point(s) de dégâts. Si l'ennemi visé possède moins de santé que vous, vous bénéficiez de 30...80 points de vie.",
+			concise: ""
+		},
+		"1489": {
+			id: 1489,
+			name: "Fauchage impérieux",
+			description: "Vous perdez un enchantement. Si vous perdez 1 enchantement de cette manière, le Fauchage impérieux ne peut pas être bloqué. Il inflige +10...30 points de dégâts s'il réussit.",
+			concise: ""
+		},
+		"1490": {
+			id: 1490,
+			name: "Assaut pieux",
+			description: "Vous perdez un enchantement. Si cette attaque réussit, vous infligez +5...20 points de dégâts et la Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1491": {
+			id: 1491,
+			name: "Tornade mystique",
+			description: "Inflige 10...60 dégâts du froid aux ennemis proches. Si vous êtes ennchantés, ce sort inflige 10...60 dégâts du froid supplémentaire.",
+			concise: ""
+		},
+		"1493": {
+			id: 1493,
+			name: "Doigts de Grenth",
+			description: "Tous les ennemis adjacents reçoivent 20...80 points de dégâts du froid. Pendant 30 secondes, vos attaques infligent des dégâts du froid. Lorsque cet enchantement prend fin, tous les ennemis adjacents souffrent d'Infirmité pendant 5...15 secondes.",
+			concise: ""
+		},
+		"1495": {
+			id: 1495,
+			name: "Aura d'épines",
+			description: "Tous les ennemis adjacents souffrent de Saignement pendant 5...15 secondes. Pendant 30 secondes, cet enchantement est sans effet. Lorsque cet enchantement prend fin, tous les ennemis à proximité sont frappés d'Infirmité pendant 3...8 secondes.",
+			concise: "(30 secondes.) Effet initial : inflige Saignement (5...15 secondes) aux ennemis à proximité. Effet final : inflige l'Infirmité (3...8 secondes) aux ennemis à proximité."
+		},
+		"1496": {
+			id: 1496,
+			name: "Rage de Balthazar",
+			description: "Tous les ennemis adjacents subissent 15...60 points de dégâts sacrés. Pendant 20 secondes, cet enchantement n'a aucun effet. Lorsque cet enchantement prend fin, vous gagnez 4...10 points de vie pour chaque attaque réussie sous ses effets.",
+			concise: ""
+		},
+		"1497": {
+			id: 1497,
+			name: "Manteau de mirage",
+			description: "Pendant 10 secondes, vous avez 50% de chances de bloquer les attaques. Lorsque cet enchantement prend fin, tous les ennemis à proximité subissent 15...75 points de dégâts de la Terre.",
+			concise: ""
+		},
+		"1498": {
+			id: 1498,
+			name: "Force stupéfiante",
+			description: "Tous les ennemis reçoivent 20...80 points de dégâts de la Terre. Pendant 30 secondes, vos attaques infligent des dégâts de la Terre. Lorsque cet enchantement prend fin, tous les ennemis adjacents souffrent de Faiblesse pendant 5...15 secondes.",
+			concise: ""
+		},
+		"1499": {
+			id: 1499,
+			name: "Renouveau pieux",
+			description: "Pendant 8 secondes, chaque fois qu'un enchantement vous affectant prend fin, vous gagnez 0...2 points d'énergie et 0...10 points de vie.",
+			concise: ""
+		},
+		"1500": {
+			id: 1500,
+			name: "Manteau de poussière",
+			description: "Tous les ennemis proches reçoivent 10...40 points de dégâts de la Terre. Pendant 30 secondes, vos attaques infligent des dégâts de la Terre. Lorsque cet enchantement prend fin, tous les ennemis adjacents sont aveuglés pendant 1...4 seconde(s).",
+			concise: ""
+		},
+		"1502": {
+			id: 1502,
+			name: "Zèle arcane",
+			description: "Pendant 10 secondes, chaque fois que vous lancez un sort, vous gagnez 2 points d'énergie pour chaque enchantement qui vous affecte (2...7 point(s) d'énergie maximum).",
+			concise: ""
+		},
+		"1503": {
+			id: 1503,
+			name: "Vigueur mystique",
+			description: "Pendant 20 secondes, chaque fois que vous réussissez une attaque, vous gagnez 1...7 point(s) de vie pour chaque enchantement qui vous affecte (25 points de vie maximum).",
+			concise: ""
+		},
+		"1504": {
+			id: 1504,
+			name: "Intervention vigilante",
+			description: "Pendant 60 secondes, la prochaine fois que la santé de la cible (un allié ou vous-même) chute en dessous de 25%, cette cible est soignée de 50...200 points de vie.",
+			concise: ""
+		},
+		"1505": {
+			id: 1505,
+			name: "Voeu de piété",
+			description: "Pendant 20 secondes, vous bénéficiez d'un bonus d'armure de +24 et d'une régénération de santé de +1...4. Voeu de piété prend fin chaque fois qu'un enchantement cesse de faire effet sur vous.",
+			concise: "(20 secondes.) +24 de bonus d'armure et +1...4 de régénération de santé. Renouvellement : chaque fois qu'un enchantement vous affectant prend fin."
+		},
+		"1506": {
+			id: 1506,
+			name: "Compagnon vital",
+			description: "Pendant 20 secondes, vous avez +40...100 de santé maximum. Lorsque cet enchantement prend fin, vous êtes soigné de 75...200 points de vie.",
+			concise: ""
+		},
+		"1507": {
+			id: 1507,
+			name: "Coeur de la Flamme sacrée",
+			description: "Tous les ennemis adjacents subissent 15...60 points de dégâts sacrés. Pendant 30 secondes, vos attaques infligent des dégâts sacrés. Lorsque cet enchantement prend fin, tous les ennemis adjacents s'embrasent pendant 1...4 seconde(s).",
+			concise: ""
+		},
+		"1508": {
+			id: 1508,
+			name: "Prolongation des Enchantements",
+			description: "Vous perdez tous vos enchantements. Pendant 5...20 secondes, les enchantements qui vous sont lancés durent 100% plus longtemps. Lorsque cet enchantement prend fin, vous perdez tous les enchantements qui vous affectent.",
+			concise: ""
+		},
+		"1509": {
+			id: 1509,
+			name: "Intervention fidèle",
+			description: "Si votre santé descend en dessous de 50%, lIntervention fidèle'' prend fin et vous êtes soigné de 30...150 points de vie.",
+			concise: ""
+		},
+		"1510": {
+			id: 1510,
+			name: "Eclats de sable",
+			description: "Enchantement instantané. (30 secondes.)Inflige 10...50 points de dégâts de la terre à tous les autres ennemis adjacents chaque fois que vous attaquez avec votre faux. Prend fin après 1...4 attaques.",
+			concise: ""
+		},
+		"1512": {
+			id: 1512,
+			name: "Hâte de Lyssa",
+			description: "Pendant 3...16 secondes, vos enchantements de Derviche se rechargent 33% plus vite. Interrompt les ennemis adjacents à l'activation. Interrompt les ennemis adjacents à la fin de l'enchantement. 50% d'échec avec moins de 5 en Prières du Vent.",
+			concise: ""
+		},
+		"1513": {
+			id: 1513,
+			name: "Mains directrices",
+			description: "Pendant 20 secondes, vos prochaines attaques au corps à corps (au nombre de 0...3) que vous lancez ne peuvent pas être bloquées. Supprime l'Aveuglement.",
+			concise: ""
+		},
+		"1514": {
+			id: 1514,
+			name: "Brève stabilité",
+			description: "Pendant 2...5 secondes, vous ne pouvez pas être assommé et vous vous déplacez 25% plus vite. Prend fin s'il vous empêche d'être assommé.",
+			concise: ""
+		},
+		"1515": {
+			id: 1515,
+			name: "Armure de sainteté",
+			description: "Tous les ennemis adjacents sont frappés de Faiblesse pendant 5...15 secondes. Pendant 15 secondes, vous subissez 5...20 points de dégâts en moins de la part des ennemis souffrant d'une condition.",
+			concise: "Provoque la Faiblesse sur tous les ennemis adjacents (5...15 secondes). Les ennemis souffrant d'une condition vous infligent 5...20 points de dégâts en moins (15 secondes)."
+		},
+		"1516": {
+			id: 1516,
+			name: "Régénération mystique",
+			description: "Pendant 5...20 secondes, vous bénéficiez d'une régénération de santé de +1...4 pour chaque enchantement (8 maximum) qui vous affecte.",
+			concise: ""
+		},
+		"1517": {
+			id: 1517,
+			name: "Voeu du silence",
+			description: "Pendant 5...10 secondes, vous ne pouvez pas être la cible de sorts, et vous ne pouvez pas lancer de sorts.",
+			concise: ""
+		},
+		"1518": {
+			id: 1518,
+			name: "Avatar de Balthazar",
+			description: "Pendant 10...90 secondes, vous bénéficiez d'un bonus d'armure de +20 contre les dégâts physiques, vous gagnez de l'adrénaline 25% plus vite, vos attaques infligent des dégâts sacrés, et chaque fois que vous perdez un enchantement de Derviche, les ennemis à proximité s'embrasent pendant 1...3 secondes. Cette compétence est désactivée pendant 45 secondes.",
+			concise: ""
+		},
+		"1519": {
+			id: 1519,
+			name: "Avatar de Dwayna",
+			description: "Pendant 10...90 secondes, vos attaques infligent des dégâts sacrés. Dès que vous utilisez une compétence de Derviche, vous perdez 1 maléfice. Quand vous perdez un enchantement de Derviche, tout les alliés à portée de voix sont guéris à hauteur de 5...50 points de vie. Cette compétence est inactive pendant 45 secondes.",
+			concise: ""
+		},
+		"1520": {
+			id: 1520,
+			name: "Avatar de Grenth",
+			description: "Pendant 10...90 secondes, vos attaques à la faux infligent des dégâts obscurs et volent 0...12 points de vie. Vous êtes immunisée contre la Maladie et vous infligez Maladie à tous les ennemis adjacents pendant 3 secondes dès que vous perdez un enchantement de Derviche. Cette compétence est désactivée pendant 45 secondes.",
+			concise: ""
+		},
+		"1521": {
+			id: 1521,
+			name: "Avatar de Lyssa",
+			description: "Pendant 10...90 secondes, vos enchantement de Derviche se rechargent 50% plus vite et vos attaques infligent des dégâts chaotique. Vous volez 1 point d'énergie à tous les ennemis adjacents lorsque vous perdez un enchantement de Derviche. Cette compétence est désactivée pendant 45 secondes.",
+			concise: ""
+		},
+		"1522": {
+			id: 1522,
+			name: "Avatar de Melandru",
+			description: "Pendant 10...90 secondes, vous bénéficiez de +150 points de vie et de +30 points d'armure élémentaire. En outre, vos attaques infligent des dégâts de la terre. Quand vous perdez un enchantement de Derviche, tous les membre du groupe à portée de voix perdent 1 condition. Cette compétence est désactivée pendant 45 secondes.",
+			concise: ""
+		},
+		"1523": {
+			id: 1523,
+			name: "Méditation",
+			description: "Perte de toute l'adrénaline. Pendant 20 secondes, vous gagnez 1...4 points d'énergie à chaque fois qu'un enchantement vous affectant prend fin.",
+			concise: ""
+		},
+		"1524": {
+			id: 1524,
+			name: "Zèle érémitique",
+			description: "Vous perdez un enchantement. Vous bénéficiez de 1...6 point(s) d'énergie pour chaque ennemi adjacent (maximum 15 points d'énergie).",
+			concise: ""
+		},
+		"1525": {
+			id: 1525,
+			name: "Guérison naturelle",
+			description: "Vous êtes soigné de 40...170 points de vie. Si vous n'êtes pas sous l'effet d'un enchantement, ce sort s'active 50% plus vite.",
+			concise: ""
+		},
+		"1526": {
+			id: 1526,
+			name: "Santé imprégnée",
+			description: "L'allié visé est soigné de 5...50% de votre santé actuelle (maximum 300 points de vie).",
+			concise: ""
+		},
+		"1527": {
+			id: 1527,
+			name: "Guérison mystique",
+			description: "Vous êtes soignés 5...69 points de vie. Soigne aussi tous les membre du groupe qui sot enchantés de 5...69 points de vie.",
+			concise: ""
+		},
+		"1528": {
+			id: 1528,
+			name: "Toucher de Dwayna",
+			description: "L'allié ciblé touché est soigné de 60 points de vie pour chaque enchantement auquel vous êtes sujet (60...240 points maximum).",
+			concise: ""
+		},
+		"1529": {
+			id: 1529,
+			name: "Rétablissement pieux",
+			description: "Vous gagnez 80...150 points de vie et perdez 1 enchantement de Derviche. Si un enchantement a été perdu, vous perdez 1...3 maléfice(s).",
+			concise: ""
+		},
+		"1530": {
+			id: 1530,
+			name: "Sceau de lumière pieuse",
+			description: "Vous perdez 1 enchantement. La cible visée (un allié ou vous-même) est soignée de 30...120 points de vie. Si un enchantement a été supprimé de cette manière, ce sceau se recharge immédiatement.",
+			concise: ""
+		},
+		"1531": {
+			id: 1531,
+			name: "Aura intimidante",
+			description: "Pendant 60 secondes, si vous touchez un ennemi qui possède moins de santé que vous, il perd 1 enchantement et lAura intimidante'' prend fin.",
+			concise: ""
+		},
+		"1532": {
+			id: 1532,
+			name: "Tempête de sable mystique",
+			description: "Vous perdez tous vos enchantements. Pour chaque enchantement perdu de cette manière, tous les ennemis à proximité subissent 10...35 points de dégâts de la terre (130 points de dégâts maximum).",
+			concise: ""
+		},
+		"1533": {
+			id: 1533,
+			name: "Vents de désenchantement",
+			description: "Vous perdez 1 enchantement de Derviche. Si un enchantement est perdu de cette manière, les ennemis à proximité perdent aussi 1 enchantement et subissent 20...80 dégâts du froid.",
+			concise: ""
+		},
+		"1534": {
+			id: 1534,
+			name: "Toucher déchirant",
+			description: "Inflige 15...68 de dégâts du froid. Vous perdez un enchantement de Derviche. Effet de la suppression : la cible perd 1 enchantement et vous gagnez 2 décharges d'adrénaline.",
+			concise: ""
+		},
+		"1535": {
+			id: 1535,
+			name: "Fauchage invalidant",
+			description: "Si cette attaque réussit, l'ennemi touché souffre d'Infirmité pendant 3...10. Cette attaque inflige +3...13 point de dégâts au ennemis mobiles.",
+			concise: ""
+		},
+		"1536": {
+			id: 1536,
+			name: "Attaque blessante",
+			description: "Si cette attaque réussit, la cible ennemie souffre de Saignement pendant 5...20 secondes. Si vous êtes sous les effets d'un enchantement, la cible souffre aussi de Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1537": {
+			id: 1537,
+			name: "Coup lassant",
+			description: "Si cette attaque réussit, vous infligez +5...20 point(s) de dégâts. Vous causez aussi une Blessure profonde pendant 3...10 secondes, mais souffrez de Faiblesse pendant 10 secondes.",
+			concise: ""
+		},
+		"1538": {
+			id: 1538,
+			name: "Assaut de Lyssa",
+			description: "Si elle réussit, cette attaque inflige +5...20 points de dégâts. Si vous êtes sous les effets d'un enchantement, vous obtenez 3...12 points d'énergie.",
+			concise: ""
+		},
+		"1539": {
+			id: 1539,
+			name: "Victoire frissonnante",
+			description: "Si elle réussit, cette attaque inflige +5...20 points de dégâts. Lorsqu'elle touche un ennemi qui possède moins de points de vie que vous, la cible ennemie et tous les ennemis adjacents reçoivent 15...60 points de dégâts du froid.",
+			concise: "Inflige +5...20 points de dégâts. La cible et les ennemis adjacent subissent 15...60 points de dégâts du froid chaque fois que cette attaque frappe un ennemi qui a moins de santé que vous."
+		},
+		"1540": {
+			id: 1540,
+			name: "Conviction",
+			description: "Pendant 10...35 secondes, vous bénéficiez de +24 de bonus d'armure quand vous êtes sous les effets d'un enchantement. Sinon, vous bénéficiez d'une régénération de santé de +1...4.",
+			concise: ""
+		},
+		"1541": {
+			id: 1541,
+			name: "Hâte enchantée",
+			description: "Pendant 5...20 secondes, si vous êtes sous les effets d'un enchantement, vous vous déplacez 25% plus vite.",
+			concise: "(5...20 secondes.) Vous vous déplacez 25% plus vite si vous êtes enchanté."
+		},
+		"1542": {
+			id: 1542,
+			name: "Concentration pieuse",
+			description: "Pendant 5...20 secondes, vous ne pouvez pas être interrompu, mais pour chaque tentative d'interruption contre vous, soit vous perdez 1 enchantement, soit Concentration pieuse prend fin.",
+			concise: ""
+		},
+		"1543": {
+			id: 1543,
+			name: "Hâte pieuse",
+			description: "Pendant 3...12 secondes, vous vous déplacez 33% plus vite. Lorsque cette pose prend fin, vous perdez un enchantement.",
+			concise: ""
+		},
+		"1544": {
+			id: 1544,
+			name: "Charge tourbillonnante",
+			description: "Pendant 3...15 secondes, vous vous déplacez et attaquez 25% plus vite que la normale. Cette pose de combat prend fin si vous n'êtes sous l'effet d'aucun enchantement.",
+			concise: ""
+		},
+		"1545": {
+			id: 1545,
+			name: "Test de foi",
+			description: "Inflige 15...75 de dégâts du froid et supprime 1 enchantement de la cible. Si la cible n'est pas enchantée, elle est frappée de Stupeur pendant 1...4 secondes.",
+			concise: ""
+		},
+		"1546": {
+			id: 1546,
+			name: "Javelot ardent",
+			description: "Si cette attaque réussit, elle inflige +5...25 points de dégâts et embrase la cible ennemie pendant 1...3 seconde(s).",
+			concise: ""
+		},
+		"1547": {
+			id: 1547,
+			name: "Lancer puissant",
+			description: "Votre javelot se déplace trois fois plus vite. Si l'attaque réussit, vous infligez +10...40 points de dégâts.",
+			concise: ""
+		},
+		"1548": {
+			id: 1548,
+			name: "Javelot cruel",
+			description: "Si cette attaque réussit, vous infligez +1...31 point(s) de dégâts. Si elle touche une cible immobile, vous infligez une Blessure profonde pendant 5...20 secondes.",
+			concise: "Inflige +1...31 point(s) de dégâts. Inflige la Blessure profonde (5...20 secondes) si la cible est immobile."
+		},
+		"1549": {
+			id: 1549,
+			name: "Lancer d'harrier",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi en mouvement, elle inflige 5...40 points de dégâts en plus.",
+			concise: ""
+		},
+		"1550": {
+			id: 1550,
+			name: "Lancer impitoyable",
+			description: "Si cette attaque réussit, vous infligez +10...40 points de dégâts. Cette attaque ne peut pas être bloquée.",
+			concise: ""
+		},
+		"1551": {
+			id: 1551,
+			name: "Javelot d'éclair",
+			description: "Si cette attaque réussit, elle inflige +8...20 points de dégâts de foudre. Cette attaque a 25% de pénétration d'armure.",
+			concise: "Inflige +8...20 points de dégâts de la foudre. Pénétration d'armure de 25%."
+		},
+		"1552": {
+			id: 1552,
+			name: "Javelot lassant",
+			description: "Si cette attaque réussit, vous infligez +10...40 points de dégâts. Vous souffrez de Faiblesse pendant 5 secondes.",
+			concise: ""
+		},
+		"1553": {
+			id: 1553,
+			name: "Hymne de furie",
+			description: "Pendant 10 secondes, tous les alliés à portée de voix bénéficient de 1...4 décharge(s) d'adrénaline la prochaine fois qu'ils utilisent une compétence d'attaque.",
+			concise: ""
+		},
+		"1554": {
+			id: 1554,
+			name: "Hymne d'infirmité",
+			description: "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix cause l'Infirmité pendant 5...15 secondes.",
+			concise: "(10 secondes.) Les alliés à portée de voix infligent l'Infirmité (5...15 secondes) avec leur compétence d'attaque suivante."
+		},
+		"1555": {
+			id: 1555,
+			name: "Hymne défensif",
+			description: "Pendant 4...10 secondes, chaque membre du groupe à portée de voix a 50% de chances de bloquer les attaques qui lui sont lancées. Ce chant prend fin si cet allié frappe avec une compétence d'attaque.",
+			concise: "(4...10 secondes.) Les membres du groupe à portée de voix ont 50% de chances de bloquer. <gray>Prend fin quand vous réussissez une compétence d'attaque.</gray>"
+		},
+		"1556": {
+			id: 1556,
+			name: "Bon voyage",
+			description: "Pendant 5...20 secondes, tous les alliés à portée de voix se déplacent 25% plus vite pendant qu'ils sont sous les effets d'un enchantement.",
+			concise: ""
+		},
+		"1557": {
+			id: 1557,
+			name: "Hymne de flamme",
+			description: "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix cause aussi la Brûlure pendant 1...3 seconde(s).",
+			concise: "Les membres du groupe à portée de voix infligent la Brûlure (1...3 secondes) avec leur compétence d'attaque suivante."
+		},
+		"1558": {
+			id: 1558,
+			name: "\"Visez les yeux !\"",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix lance une attaque, cette attaque a 30...100% de chances d'infliger un coup critique.",
+			concise: "(10 secondes.) Les alliés à portée de voix ont 30...100% de chances d'infliger un coup critique avec leur attaque suivante."
+		},
+		"1559": {
+			id: 1559,
+			name: "Hymne de jalousie",
+			description: "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix inflige +10...25 points de dégâts contre les ennemis ayant plus de 50% de santé.",
+			concise: ""
+		},
+		"1560": {
+			id: 1560,
+			name: "Chant de la puissance",
+			description: "Pendant 5...20 secondes, chaque allié à portée de voix bénéficie d'une régénération d'énergie de 4 jusqu'à ce qu'il utilise une compétence.",
+			concise: ""
+		},
+		"1561": {
+			id: 1561,
+			name: "Hymne zélé",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié dans la zone utilise une compétence d'attaque, il reçoit 1...8 point(s) d'énergie.",
+			concise: ""
+		},
+		"1562": {
+			id: 1562,
+			name: "Aria de zèle",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un sort, il bénéficie de 1...6 point(s) d'énergie.",
+			concise: ""
+		},
+		"1563": {
+			id: 1563,
+			name: "Poème de zèle",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un Sceau, il bénéficie de 1...8 point(s) d'énergie.",
+			concise: ""
+		},
+		"1564": {
+			id: 1564,
+			name: "Ballade de rétablissement",
+			description: "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix subit des dégâts, il est soigné de 15...75 points de vie.",
+			concise: "(10 secondes.) Les membres du groupe à portée de voix gagnent 15...75 points de vie la prochaine fois qu'ils subissent des dégâts."
+		},
+		"1565": {
+			id: 1565,
+			name: "Choeur de rétablissement",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un cri ou un chant, il est soigné de 30...90 points de vie.",
+			concise: ""
+		},
+		"1566": {
+			id: 1566,
+			name: "Aria de rétablissement",
+			description: "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix utilise un sort, il est soigné de 30...90 points de vie.",
+			concise: ""
+		},
+		"1567": {
+			id: 1567,
+			name: "Chanson de concentration",
+			description: "Pendant 10 secondes, la prochaine compétence utilisée par chaque allié à portée de voix ne peut pas être interrompue.",
+			concise: ""
+		},
+		"1568": {
+			id: 1568,
+			name: "Hymne de direction",
+			description: "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix ne peut pas être bloquée.",
+			concise: ""
+		},
+		"1569": {
+			id: 1569,
+			name: "Choeur énergisant",
+			description: "Pendant 10 secondes, le prochain cri ou chant utilisé par chaque allié à portée de voix coûte 3...7 points d'énergie en moins.",
+			concise: ""
+		},
+		"1570": {
+			id: 1570,
+			name: "Chanson de purification",
+			description: "Pendant 20 secondes, les 1...6 prochaines compétences utilisées par chaque allié à portée de voix ôtent une condition à cet allié.",
+			concise: ""
+		},
+		"1571": {
+			id: 1571,
+			name: "Aria de leveur de maléfice",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix lance un sort, il perd un maléfice.",
+			concise: "Les alliés à portée de voix perdent un maléfice grâce à leur sort suivant."
+		},
+		"1572": {
+			id: 1572,
+			name: "\"Préparez-vous !\"",
+			description: "Pendant 5...15 secondes, la prochaine fois qu'un allié doit être assommé, tous les ennemis à proximité subissent 15...75 points de dégâts à la place.",
+			concise: ""
+		},
+		"1573": {
+			id: 1573,
+			name: "Crainte",
+			description: "Si cette compétence touche un ennemi assommé, cet ennemi est frappé de Stupeur pendant 5...15 secondes.",
+			concise: ""
+		},
+		"1574": {
+			id: 1574,
+			name: "Harmonie persistante",
+			description: "Pendant 10...35 secondes, les chants et les cris durent 50% plus longtemps sur la cible alliée (autre qu'un esprit).",
+			concise: ""
+		},
+		"1575": {
+			id: 1575,
+			name: "Finale enflammé",
+			description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur la cible (autre qu'un esprit) prend fin, tous les ennemis adjacents à cette cible s'embrasent pendant 1...7 seconde(s).",
+			concise: "(10...35 secondes.) Inflige la Brûlure (1...7 seconde(s)) aux ennemis adjacents chaque fois qu'un chant ou un cri affectant l'allié visé prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+		},
+		"1576": {
+			id: 1576,
+			name: "Refrain brûlant",
+			description: "Pendant 20 secondes, si la cible (autre qu'un esprit) blesse un ennemi ayant plus de santé qu'elle, cet ennemi s'embrase pendant 1...3 seconde(s). Cet écho se reproduit chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+			concise: ""
+		},
+		"1577": {
+			id: 1577,
+			name: "Finale de rétablissement",
+			description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
+			concise: "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin.<gray> Vous ne pouvez pas viser les esprits.</gray>"
+		},
+		"1578": {
+			id: 1578,
+			name: "Refrain de réparation",
+			description: "Pendant 15 secondes, la cible alliée (autre qu'un esprit) bénéficie d'une régénération de santé de +2...3. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+			concise: ""
+		},
+		"1579": {
+			id: 1579,
+			name: "Finale purifiant",
+			description: "Pendant 10...35 secondes, la cible alliée (autre qu'un esprit) perd 1 condition chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+			concise: ""
+		},
+		"1580": {
+			id: 1580,
+			name: "Refrain du Bladeturn",
+			description: "Pendant 20 secondes, l'allié visé (autre qu'un esprit) a 5...20% de chances de bloquer les attaques. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+			concise: "(20 secondes.) L'allié visé a 5...20% de chances de bloquer les attaques. Renouvellement : Chaque fois qu'un chant ou un cri affectant cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+		},
+		"1581": {
+			id: 1581,
+			name: "Sceau rayonnant",
+			description: "Si la cible ennemie souffre de Brûlure, vous bénéficiez de 5...15 points d'énergie",
+			concise: ""
+		},
+		"1583": {
+			id: 1583,
+			name: "Zèle du meneur",
+			description: "Pour chaque allié à proximité, vous bénéficiez de 2...4 points d'énergie (maximum 8...12 points d'énergie).",
+			concise: ""
+		},
+		"1584": {
+			id: 1584,
+			name: "Confort du meneur",
+			description: "Vous bénéficiez de 30...75 points de vie. Pour chaque allié à portée de voix, vous gagnez +10...20 points de vie supplémentaires (maximum 140 points de vie).",
+			concise: ""
+		},
+		"1585": {
+			id: 1585,
+			name: "Sceau de synergie",
+			description: "La cible alliée est soignée de 40...100 points de vie. Si vous n'êtes pas sous les effets d'un enchantement, vous êtes aussi soigné de 40...100 points de vie.",
+			concise: ""
+		},
+		"1586": {
+			id: 1586,
+			name: "Protection angélique",
+			description: "Pendant 10 secondes, chaque fois que l'allié visé subit plus de 250...80 points de dégâts par seconde, il est soigné pour tous les dégâts excédant ce nombre de points.",
+			concise: ""
+		},
+		"1587": {
+			id: 1587,
+			name: "Lien angélique",
+			description: "Pendant 10 secondes, la prochaine fois qu'un allié à portée de voix doit subir des dégâts mortels, ces derniers sont annulés et il est soigné de 20...200 points de vie. Lien angélique prend fin sur tous les autres alliés.",
+			concise: "(10 secondes.) La prochaine fois qu'un allié à portée de voix doit subir des dégâts mortels, ces derniers sont annulés et il est soigné de 20...200 points de vie. <gray>Prend fin sur tous les autres alliés.</gray>"
+		},
+		"1588": {
+			id: 1588,
+			name: "Sceau cautère",
+			description: "Tous les membres du groupe perdent toutes leurs conditions. Vous êtes embrasé pendant 1 seconde pour chaque condition supprimée de cette façon.",
+			concise: ""
+		},
+		"1589": {
+			id: 1589,
+			name: "\"Tenez bon !\"",
+			description: "Pendant 5...20 secondes, tous les membres du groupe à portée de voix reçoivent +24 de bonus d'armure lorsqu'ils sont immobiles.",
+			concise: "(5...20 secondes.) Les membres du groupe à portée de voix reçoivent +24 de bonus d'armure quand ils sont immobiles."
+		},
+		"1590": {
+			id: 1590,
+			name: "\"Ouvrez le chemin !\"",
+			description: "La cible alliée se déplace 25% plus vite pendant 1...5 seconde(s) pour chaque allié à portée de voix (30 secondes maximum).",
+			concise: ""
+		},
+		"1591": {
+			id: 1591,
+			name: "\"Faites vite !\"",
+			description: "Pendant 5...20 secondes, l'allié visé se déplace 33% plus vite. Cette compétence prend fin si cet allié réussit son attaque.",
+			concise: ""
+		},
+		"1592": {
+			id: 1592,
+			name: "\"Nous reviendrons !\"",
+			description: "Tous les membres du groupe à portée de voix sont ressuscités avec 25...50% de leur santé et 5...20% de leur énergie.",
+			concise: "Tous les membres du groupe à portée de voix sont ressuscités (25...50% de leur santé et 5...20% de leur énergie.)"
+		},
+		"1593": {
+			id: 1593,
+			name: "\"N'abandonnez jamais !\"",
+			description: "Tous les alliés à portée de voix ayant moins de 75% de santé gagnent 1...10 point(s) d'énergie.",
+			concise: "Les alliés à portée de voix gagnent 1...10 point(s) d'énergie. <gray>Affecte uniquement les alliés possédant moins de 75% de santé.</gray>"
+		},
+		"1594": {
+			id: 1594,
+			name: "\"A l'aide !\"",
+			description: "L'allié visé bénéficie de 15...90 points de vie. Pendant 1...10 secondes, les sorts alliés qui vous visent sont lancés 50% plus vite.",
+			concise: ""
+		},
+		"1595": {
+			id: 1595,
+			name: "\"Repliez-vous !\"",
+			description: "Pendant 4...10 secondes, tous les alliés à portée de voix bénéficient de 5...15 points de vie par seconde quand ils sont en mouvement et se déplacent 33% plus vite. \"Repliez-vous !\" prend fin sur l'allié affecté par ce cri lorsque cet allié réussit une attaque.",
+			concise: ""
+		},
+		"1596": {
+			id: 1596,
+			name: "\"Attention !\"",
+			description: "Pendant 4...10 secondes, tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie en se déplaçant.",
+			concise: "(4...10 secondes.) Tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie en se déplaçant."
+		},
+		"1597": {
+			id: 1597,
+			name: "\"Ils sont enflammés !\"",
+			description: "Pendant 10 secondes, les membres du groupe à portée de voix subissent 5...35% de dégâts en moins lorsqu'ils sont infligés par des ennemis souffrant de Brûlure.",
+			concise: ""
+		},
+		"1598": {
+			id: 1598,
+			name: "\"Ne vous rendez jamais !\"",
+			description: "Pendant 15 secondes, tous les membres du groupe à portée de voix ayant moins de 75% de santé bénéficient d'une régénération de santé de +1...5.",
+			concise: "(15 secondes.) Les membres du groupe à portée de voix bénéficient d'une régénération de santé de +1...5. <gray>Affecte uniquement les membres du groupe possédant moins de 75% de santé.</gray>"
+		},
+		"1599": {
+			id: 1599,
+			name: "\"C'est juste une petite blessure\"",
+			description: "La cible alliée perd toutes ses conditions. Si une condition est supprimée de cette manière, cet allié se déplace 25% plus vite pendant 1...10 secondes",
+			concise: ""
+		},
+		"1600": {
+			id: 1600,
+			name: "Javelot perforant",
+			description: "Si cette attaque réussit, votre cible souffre de Saignement pendant 5...20 secondes.",
+			concise: "Provoque le Saignement (5...20 secondes)."
+		},
+		"1601": {
+			id: 1601,
+			name: "Attaque vicieuse",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si votre attaque inflige un coup critique, la cible ennemie souffre de Blessure profonde pendant 5...15 secondes.",
+			concise: ""
+		},
+		"1602": {
+			id: 1602,
+			name: "Frappe stupéfiante",
+			description: "Si cette attaque réussit, vous infligez +5...30 points de dégâts. Si elle touche un ennemi qui souffre d'une condition, celui-ci est aussi frappé de Stupeur pendant 4...10 secondes.",
+			concise: ""
+		},
+		"1603": {
+			id: 1603,
+			name: "Javelot impitoyable",
+			description: "Si cette attaque touche un ennemi ayant moins de 50% de santé, cet ennemi souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1604": {
+			id: 1604,
+			name: "Lancer d'interruption",
+			description: "Si cette attaque affecte un ennemi souffrant d'une condition, cet ennemi est interrompu.",
+			concise: ""
+		},
+		"1605": {
+			id: 1605,
+			name: "Lancer sauvage",
+			description: "Si l'attaque réussit, elle inflige +5...20 points de dégâts et chaque pose de combat utilisée par votre cible prend fin. Cette attaque ne peut pas être bloquée.",
+			concise: "Inflige +5...20 points de dégâts. Impossible à bloquer. Met fin à la pose de combat de la cible."
+		},
+		"1633": {
+			id: 1633,
+			name: "Coup malicieux",
+			description: "Si cette attaque frappe un ennemi souffrant d'une condition, vous infligez +10...30 points de dégâts ainsi qu'un coup critique.",
+			concise: "Si la cible ennemie souffre d'une condition, cette attaque inflige +10...30 points de dégâts et un coup critique."
+		},
+		"1634": {
+			id: 1634,
+			name: "Assaut dévastateur",
+			description: "Doit suivre une attaque main gauche. Si elle réussit, vous infligez 5...50 points de dégâts et la cible ennemie perd un enchantement. Cette attaque ne peut pas être bloquée.",
+			concise: "Inflige 5...50 points de dégâts. Supprime un enchantement. Impossible à bloquer. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"1635": {
+			id: 1635,
+			name: "Attaque du crâne doré",
+			description: "Si vous êtes sous les effets d'un enchantement et si cette attaque réussit, la cible ennemie est frappée de Stupeur pendant 1...12 secondes.",
+			concise: "Inflige la Stupeur (1...12 secondes(s)). <gray>Aucun effet si la cible n'est pas sous les effets d'un enchantement.</gray>"
+		},
+		"1636": {
+			id: 1636,
+			name: "Attaque de l'araignée noire",
+			description: "Doit toucher un ennemi affecté par un maléfice. Si elle réussit, cette attaque inflige +5...20 points de dégâts et l'ennemi visé est empoisonné pendant 5...20 secondes.",
+			concise: "Inflige +5...20 points de dégâts. Provoque l'Empoisonnement (5...20 secondes). <gray>Doit frapper un ennemi victime d'un maléfice.</gray>"
+		},
+		"1637": {
+			id: 1637,
+			name: "Coup du renard doré",
+			description: "Si cette attaque réussit, vous infligez +10...30 points de dégâts à l'ennemi ciblé. Si vous vous trouvez sous les effets d'un enchantement, cette attaque ne pourra pas être bloquée.",
+			concise: "Inflige +10...30 points de dégâts. Impossible à bloquer si vous êtes enchantée."
+		},
+		"1638": {
+			id: 1638,
+			name: "Hâte mortelle",
+			description: "Pendant 10...35 secondes, les sorts dont la portée est réduite de moitié sont lancés 5...60% plus vite et se rechargent 5...60% plus vite.",
+			concise: "(10...35 secondes.) Vos sorts dont la portée est réduite de moitié sont lancés 5...60% plus vite et se rechargent 5...60% plus vite."
+		},
+		"1639": {
+			id: 1639,
+			name: "Remède de l'Assassin",
+			description: "Pendant 30 secondes, les prochaines compétences d'attaque (au nombre de 1...10) que vous utilisez suppriment une condition.",
+			concise: "(30 secondes.) Vos compétences d'attaque suivantes (1...10) suppriment une condition chacune."
+		},
+		"1640": {
+			id: 1640,
+			name: "Promesse du renard",
+			description: "Pendant 5...20 secondes, vos attaques avec des dagues ne peuvent pas être bloquées. Cet enchantement prend fin la prochaine fois qu'une de vos attaques échoue.",
+			concise: "(5...20 secondes.) Vos attaques avec des dagues sont impossibles à bloquer. <gray>Prend fin dès que vous manquez une attaque.</gray>"
+		},
+		"1641": {
+			id: 1641,
+			name: "Neutralité simulée",
+			description: "Pendant 4...10 secondes, vous bénéficiez d'une régénération de santé de +7 et de +80 points de bonus d'armure. Cet enchantement prend fin si une attaque réussit ou si vous utilisez une compétence.",
+			concise: "(4...10 secondes). Vous bénéficiez d'une régénération de santé de +7 et d'un bonus d'armure de +80. <gray>Prend fin si vous réussissez une attaque ou utilisez une compétence.</gray>"
+		},
+		"1642": {
+			id: 1642,
+			name: "Chausse-trappes cachées",
+			description: "Vos compétences, sauf celles d'Assassin, sont désactivées pendant 3 secondes. Pendant 1...10 secondes, la cible se déplace 50% moins vite. Lorsque ce maléfice prend fin, cet ennemi est frappé d'Infirmité pendant 1...15 secondes.",
+			concise: "(1...10) La cible se déplace 50% moins vite. Effet final : inflige la condition d'Infirmité (1...15 secondes). <gray>Vos compétences, sauf celles d'Assassin, sont désactivées (3 secondes).</gray>"
+		},
+		"1643": {
+			id: 1643,
+			name: "Assaut d'Enchantements",
+			description: "Doit succéder à une attaque d'ambidextrie. La cible ennemie perd tous ses enchantements.",
+			concise: "Supprime tous les enchantements. <gray>Doit succéder à une attaque d'ambidextrie.</gray>"
+		},
+		"1644": {
+			id: 1644,
+			name: "Effondrement du gaspilleur",
+			description: "Vous faites une Foulée de l'ombre vers la cible ennemie. Si cette dernière n'utilisait pas de compétence, elle est assommée. Toutes vos compétences autres que des attaques à la dague sont désactivées pendant 10 secondes.",
+			concise: "Vous faites une Foulée de l'ombre vers la cible ennemie. Assomme l'ennemi s'il n'utilise pas de compétence. Désactive vos compétences autres que les attaques à la dague (10 secondes)"
+		},
+		"1645": {
+			id: 1645,
+			name: "Enchantements levés",
+			description: "Si la cible ennemie touchée est assommée, elle perd un enchantement.",
+			concise: "Supprime un enchantement. <gray>Aucun effet si l'ennemi visé n'est pas assommé.</gray>"
+		},
+		"1646": {
+			id: 1646,
+			name: "Présage mortel",
+			description: "Pendant 5...35 secondes, la prochaine fois que les dégâts font chuter la santé de l'ennemi en dessous de 50%, vous infligez une Blessure profonde pendant 5...20 secondes et vous faites une foulée de l'ombre vers cet ennemi. Sa portée est la moitié de celle d'un sort normal.",
+			concise: "(5...35 secondes.) Inflige la Blessure profonde (5...20 secondes) à l'ennemi visé. Vous faites une foulée de l'ombre vers lui dès que les dégâts font chuter sa santé en-dessous de 50%."
+		},
+		"1647": {
+			id: 1647,
+			name: "Sceau de choc toxique",
+			description: "Si la cible ennemie souffre d'Empoisonnement, cet ennemi subit 10...100 points de dégâts.",
+			concise: "Inflige 10...100 points de dégâts. <gray>Aucun effet si l'ennemi visé n'est pas empoisonné.</gray>"
+		},
+		"1648": {
+			id: 1648,
+			name: "Sceau de l'aube",
+			description: "Pour chaque maléfice qui affecte la cible ennemie, celle-ci perd un enchantement.",
+			concise: "Supprime un enchantement par maléfice affectant l'ennemi visé."
+		},
+		"1649": {
+			id: 1649,
+			name: "Méthode de l'Assassin",
+			description: "Pendant 20 secondes, si vous êtes équipé de dagues, vous attaquez 5...20% plus vite et avez +5...35% de chances d'infliger un coup critique.",
+			concise: "(20 secondes.) Si vous êtes équipé de dagues, vous attaquez 5...20% plus vite et avez +5...35% de chances d'infliger un coup critique."
+		},
+		"1650": {
+			id: 1650,
+			name: "Marche de l'ombre",
+			description: "Vous faites une foulée de l'ombre jusqu'à l'ennemi. Pendant 1 seconde, vos compétences d'attaques sont inutilisables. Pendant 30 secondes, vous ne pouvez pas lancer d'enchantements. Lorsque cette pose prend fin, vous retournez à votre position initiale.",
+			concise: "(30 secondes.) Vous faites une foulée de l'ombre vers la cible ennemie. Effet final : vous retournez sur votre position d'origine. <gray>Désactive vos compétences d'attaques pendant 1 seconde. Vous ne pouvez pas lancer d'enchantements.</gray>"
+		},
+		"1651": {
+			id: 1651,
+			name: "Retraite de la mort",
+			description: "Vous faites une Foulée de l'ombre jusqu'à la cible alliée. Si vous possédez moins de santé que cet allié, vous bénéficiez de 40...130 points de vie.",
+			concise: "Vous gagnez 40...130 points de vie si vous avez moins de santé que l'allié visé. Effet initial : vous faites une foulée de l'ombre vers cet allié. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"1652": {
+			id: 1652,
+			name: "Prison d'ombre",
+			description: "Vous faites une Foulée de l'ombre en direction de la cible ennemie. Pendant 1...7 seconde(s), la cible se déplace 66% moins vite.",
+			concise: "Vous faites une foulée de l'ombre vers la cible ennemie. Cet ennemi se déplace 66% moins vite (1...7 seconde(s))."
+		},
+		"1653": {
+			id: 1653,
+			name: "Echange",
+			description: "Vous faites une foulée de l'ombre vers la créature invoquée ciblée et vice-versa.",
+			concise: "Vous faites une foulée de l'ombre vers la créature invoquée ciblée et vice-versa."
+		},
+		"1654": {
+			id: 1654,
+			name: "Mêlée de l'ombre",
+			description: "Vous faites une Foulée de l'Ombre vers l'allié ciblé. Lorsque vous cessez d'utiliser cet enchantement, vous retournez à votre position d'origine.",
+			concise: "Vous faites une foulée de l'ombre vers l'allié visé. Effet final : vous retournez sur votre position d'origine. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"1655": {
+			id: 1655,
+			name: "Prix de l'orgueil",
+			description: "Pendant 5 secondes, la prochaine fois que la cible ennemie utilise une compétence élite, elle perd 3...15 point d'énergie.",
+			concise: "(5 secondes.) L'ennemi visé perdra 3...15 point d'énergie la prochaine fois qu'il utilisera une compétence élite."
+		},
+		"1656": {
+			id: 1656,
+			name: "Air de Désenchantement",
+			description: "Vous supprimez un enchantement à la cible ennemie et à tous les ennemis à proximité. Pendant 5...20 secondes, les enchantements expirent 150...300% plus vite sur ces ennemis.",
+			concise: "Inflige également un maléfice aux ennemis proches de la cible (5...20 secondes). Lève un enchantement à la cible et aux ennemis à proximité. Les enchantements expirent 150...300% plus vite sur ces ennemis."
+		},
+		"1657": {
+			id: 1657,
+			name: "Sceau de Maladresse",
+			description: "Si la cible ennemie attaque, cet ennemi ainsi que tous les ennemis adjacents sont interrompus et subissent 15...60 points de dégâts. Tous les ennemis utilisant des compétences d'attaque sont assommés.",
+			concise: ""
+		},
+		"1658": {
+			id: 1658,
+			name: "Posture symbolique",
+			description: "Pendant 5...20 secondes, le prochain sceau que vous activez se recharge 20...80% plus vite.",
+			concise: ""
+		},
+		"1659": {
+			id: 1659,
+			name: "Frisson toxique",
+			description: "La cible ennemie subit 15...75 points de dégâts du froid. S'il est sous les effets d'un enchantement ou d'un maléfice, cet ennemi souffre d'Empoisonnement pendant 10...25 secondes.",
+			concise: ""
+		},
+		"1660": {
+			id: 1660,
+			name: "Puits du silence",
+			description: "Utilisez le cadavre visé pour créer un ''Puits du silence'' pendant 10...30 secondes. Les ennemis se trouvant dans le périmètre du ''Puits'' ne peuvent pas utiliser de cris ou de chants et subissent une dégénération de santé de -1...4.",
+			concise: ""
+		},
+		"1661": {
+			id: 1661,
+			name: "Pierre fluorescente",
+			description: "Vous envoyez un projectile qui inflige 5...50 points de dégâts de la Terre si l'attaque réussit. Si ce sort frappe un ennemi soufrant de faiblesse, vous gagnez 5 points d'énergie plus 1 point d'énergie tous les 2 rangs de conservation d'énergie.",
+			concise: ""
+		},
+		"1662": {
+			id: 1662,
+			name: "Explosion de l'âme",
+			description: "La cible ennemie reçoit 15...60 points de dégâts du feu. Si vous avez plus d'énergie que la cible ennemie, vous gagnez 1...8 point(s) d'énergie.",
+			concise: ""
+		},
+		"1663": {
+			id: 1663,
+			name: "Flamme élémentaire",
+			description: "Pendant 5...20 secondes, chaque fois qu'un maléfice élémentaire frappe un ennemi visé, cet ennemi s'embrase pendant 3...5 secondes.",
+			concise: "(5...20 secondes.) inflige la Brûlure (3...5 secondes) chaque fois qu'un maléfice élémentaire frappe un ennemi visé."
+		},
+		"1664": {
+			id: 1664,
+			name: "Invocation de la foudre",
+			description: "L'ennemi visé et jusqu'à deux autres près de lui subissent 10...100 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure. Si vous n'êtes pas sous les effets d'un enchantement, ce sort entraîne l'Epuisement.",
+			concise: "Inflige 10...100 point de dégâts de la foudre. Frappe deux ennemis pres de la cible. pénétration d'armure de 25%. <gray> Vous souffrez d'Epuisement si vous n'êtes pas enchanté.</gray>"
+		},
+		"1683": {
+			id: 1683,
+			name: "Gardien pensif",
+			description: "Pendant 5...11 secondes, la cible (un allié ou vous-même) a 50% de chances de bloquer les attaques lancées par des ennemis enchantés.",
+			concise: ""
+		},
+		"1684": {
+			id: 1684,
+			name: "Clairvoyance du Scribe",
+			description: "Pendant 10...35 secondes, vous gagnez 3 points d'énergie chaque fois que vous utilisez un sceau.",
+			concise: ""
+		},
+		"1685": {
+			id: 1685,
+			name: "Hâte sacrée",
+			description: "Pendant 1...60 seconde(s), vos sorts de Prières de guérison sont lancés 50% plus rapidement. Cet enchantement prend fin si vous lancez un autre enchantement.",
+			concise: ""
+		},
+		"1686": {
+			id: 1686,
+			name: "Lueur",
+			description: "Soigne la cible (un allié ou vous-même) de 10...115 points de vie.",
+			concise: "Soigne de 10...115 points de vie."
+		},
+		"1687": {
+			id: 1687,
+			name: "Bénédiction zélée",
+			description: "Vous guérissez la cible (un allié ou vous-même) de 30...180 points de vie. Si celle-ci possédait moins de 50% de santé, vous récupérez 7 points d'énergie.",
+			concise: "Soigne de 30...180 points de vie. Vous gagnez 7 points d'énergie si l'allié visé avait moins de 50% de santé."
+		},
+		"1688": {
+			id: 1688,
+			name: "Zèle du Défenseur",
+			description: "Pendant 5...25 secondes, chaque fois que l'ennemi visé réussit une attaque, vous bénéficiez de 2 points d'énergie.",
+			concise: ""
+		},
+		"1689": {
+			id: 1689,
+			name: "Sceau de colère mystique",
+			description: "La cible ennemie subit 25 points de dégâts sacrés pour chaque enchantement qui vous affecte (30...120 points de dégâts sacrés maximum).",
+			concise: ""
+		},
+		"1690": {
+			id: 1690,
+			name: "Sceau de suppression",
+			description: "Si la cible (un allié ou vous-même) est sous les effets d'un enchantement, elle perd un maléfice et une condition.",
+			concise: "Supprime une condition et un maléfice. <gray>Aucun effet si l'allié visé n'est pas enchanté.</gray>"
+		},
+		"1691": {
+			id: 1691,
+			name: "Suppression de condition",
+			description: "Supprime une condition affectant une cible (un allié ou vous-même). Si cette cible est sous les effets d'un enchantement, elle est soignée de 15...75 points de vie.",
+			concise: ""
+		},
+		"1692": {
+			id: 1692,
+			name: "Diversion des maléfices",
+			description: "Supprime jusqu'à 1...3 maléfice(s) affectant la cible (un allié ou vous-même). Pour chaque maléfice ôté de cette manière, la cible perd une condition et gagne 15...75 points de vie.",
+			concise: ""
+		},
+		"1693": {
+			id: 1693,
+			name: "Contre-attaque",
+			description: "Si cette attaque réussit, vous infligez +5...35 points de dégâts. Si vous frappez un ennemi qui attaque, vous obtenez 2...6 points d'énergie.",
+			concise: ""
+		},
+		"1694": {
+			id: 1694,
+			name: "Frappe du chasseur de mages",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si votre cible se trouve sous les effets d'un enchantement, cette attaque ne pourra pas être bloquée.",
+			concise: ""
+		},
+		"1695": {
+			id: 1695,
+			name: "Attaque de soldat",
+			description: "Si cette attaque réussit, vous infligez +10...40 points de dégâts supplémentaires. Si vous êtes sous les effets d'un chant ou d'un cri, cette attaque ne pourra pas être bloquée.",
+			concise: ""
+		},
+		"1696": {
+			id: 1696,
+			name: "Décapitation",
+			description: "Vous perdez toute votre adrénaline et toute votre énergie. Si cette attaque réussit, vous infligez +5...80 points de dégâts. Vous causez aussi une Blessure profonde pendant 5...20 secondes. Cette attaque inflige un coup critique.",
+			concise: ""
+		},
+		"1697": {
+			id: 1697,
+			name: "Attaque du chasseur de mages",
+			description: "Si cette attaque réussit, la cible ennemie est assommée. Si votre cible est sous les effets d'un enchantement, cette attaque ne peut pas être bloquée.",
+			concise: ""
+		},
+		"1698": {
+			id: 1698,
+			name: "Pose du soldat",
+			description: "Pendant 5...15 secondes, vous bénéficiez de 75% de chances de bloquer. Votre vitesse d'attaque est augmentée de 33% lorsque vous êtes sous l'effet d'un chant ou d'un cri.",
+			concise: ""
+		},
+		"1699": {
+			id: 1699,
+			name: "Défense du soldat",
+			description: "Pendant 1...6 seconde(s), vous avez 75% de chances de bloquer les attaques lorsque vous êtes sous l'effet d'un cri ou d'un chant. Vous gagnez 1 décharge d'adrénaline chaque fois que vous bloquez une attaque.",
+			concise: "(1...6 seconde(s).) Vous avez 75% de chances de bloquer les attaques lorsque vous êtes sous l'effet d'un cri ou d'un chant. Effet du blocage : vous gagnez 1 décharge d'adrénaline."
+		},
+		"1700": {
+			id: 1700,
+			name: "Défense frénétique",
+			description: "Pendant 8 secondes, vous avez 75% de chances de bloquer les attaques dirigées contre vous, mais vous subissez le double de dégâts.",
+			concise: ""
+		},
+		"1701": {
+			id: 1701,
+			name: "Pose stable",
+			description: "Pendant 10 secondes, la prochaine attaque qui doit vous assommer échoue et vous gagnez 1...4 décharge d'adrénaline et 1...7 point d'énergie.",
+			concise: ""
+		},
+		"1702": {
+			id: 1702,
+			name: "Frappe Croc-d'acier",
+			description: "Si cette attaque réussit, vous infligez +1...31 point(s) de dégâts. Si vous frappez un ennemi assommé, vous bénéficiez de 1...5 décharge(s) d'adrénaline.",
+			concise: ""
+		},
+		"1719": {
+			id: 1719,
+			name: "Tir hurleur",
+			description: "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si votre cible est à portée de voix, elle souffre de Saignement pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1720": {
+			id: 1720,
+			name: "Flèche vive",
+			description: "Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous causez un coup critique, vous infligez +5...25 points de dégâts supplémentaires.",
+			concise: ""
+		},
+		"1721": {
+			id: 1721,
+			name: "Férocité unie",
+			description: "Pendant 3...15 secondes, vous et votre familier attaquez 33% plus vite et courez 25% plus vite.",
+			concise: ""
+		},
+		"1722": {
+			id: 1722,
+			name: "Flèche fourchue",
+			description: "Vous décochez deux flèches simultanément sur la cible ennemie. Si vous êtes sous les effets d'un enchantement ou d'un maléfice, vous ne décochez qu'une seule flèche.",
+			concise: ""
+		},
+		"1723": {
+			id: 1723,
+			name: "Précision perturbatrice",
+			description: "Pendant 36 secondes, chaque fois que vos flèches infligent un coup critique, elles interrompent aussi votre cible.",
+			concise: ""
+		},
+		"1724": {
+			id: 1724,
+			name: "Dextérité de l'expert",
+			description: "Pendant 1...20 seconde(s), vous attaquez 33% plus vite et votre caractéristique d'Adresse au tir est augmentée de 2.",
+			concise: "(1...20 seconde(s).) Vous attaquez 33% plus vite et votre caractéristique d'Adresse au tir est augmentée de +2."
+		},
+		"1725": {
+			id: 1725,
+			name: "Vents mugissants",
+			description: "Crée un esprit de niveau 1...10. Les Chants et les Cris coûtent 1...5 point(s) d'énergie en plus. L'esprit meurt au bout de 30...180 secondes.",
+			concise: ""
+		},
+		"1726": {
+			id: 1726,
+			name: "Tir du Fléau des mages",
+			description: "Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, il est inutilisable pendant 10 secondes supplémentaires. Cette attaque ne peut pas être bloquée.",
+			concise: ""
+		},
+		"1727": {
+			id: 1727,
+			name: "Foulée naturelle",
+			description: "Pendant 1...8 seconde(s), vous courez 33% plus vite et avez 50% de chances de bloquer les attaques qui vous sont lancées. La Foulée naturelle prend fin si vous êtes affecté par un maléfice ou un enchantement.",
+			concise: ""
+		},
+		"1728": {
+			id: 1728,
+			name: "Saccage du Heket",
+			description: "Pendant 5...11 secondes, vous attaquez 33% plus vite. Cette Pose de combat prend fin si vous utilisez une compétence d'attaque.",
+			concise: ""
+		},
+		"1729": {
+			id: 1729,
+			name: "Piège de fumée",
+			description: "Lorsque le Piège de fumée est déclenché, les ennemis à proximité sont frappés d'Aveuglement et de Stupeur pendant 5...10 secondes. Le Piège de fumée prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+			concise: ""
+		},
+		"1730": {
+			id: 1730,
+			name: "Chaleur exaspérante",
+			description: "Crée un esprit de niveau 1...10. Les créatures dans sa portée (autres que des esprits) récupèrent de l'adrénaline deux fois plus vite. Cet esprit disparaît au bout de 30...120 secondes.",
+			concise: ""
+		},
+		"1731": {
+			id: 1731,
+			name: "Sogolon était énergique",
+			description: "Pendant 60 secondes, les chants et cris que vous utilisez durent 20...50% plus longtemps.",
+			concise: ""
+		},
+		"1732": {
+			id: 1732,
+			name: "Glaive était destructrice",
+			description: "Vous tenez les cendres de Glaive pendant un maximum de 30...60 secondes. Pendant ce temps, toutes les compétences de Ritualiste ont une pénétration d'armure de 20%. Lorsque vous les déposez, tous les ennemis dans la zone reçoivent 10...100 points de dégâts de la foudre.",
+			concise: ""
+		},
+		"1733": {
+			id: 1733,
+			name: "Attaque du porteur",
+			description: "La cible ennemie reçoit 5...50 points de dégâts de la foudre. Si vous êtes sous les effets d'un sort d'altération d'arme, vous infligez 10...40 points de dégâts de la foudre supplémentaires.",
+			concise: ""
+		},
+		"1734": {
+			id: 1734,
+			name: "Regard de fureur",
+			description: "Anéantit l'esprit visé et crée un esprit de fureur de niveau 1...15. Les attaques de cet esprit infligent 5...20 points de dégâts. Cet esprit meurt au bout de 30...60 secondes.",
+			concise: "Supprime un esprit. Crée un esprit de niveau 1...14 (durée de vie de 30...60 secondes). Ses attaques infligent 5...20 points de dégâts."
+		},
+		"1736": {
+			id: 1736,
+			name: "Force de l'esprit",
+			description: "Pendant 15...60 secondes, vos attaques infligent 5...35 points de dégâts en plus sous les effets d'un sort d'altération d'arme.",
+			concise: ""
+		},
+		"1737": {
+			id: 1737,
+			name: "Zèle du porteur",
+			description: "Pendant 10...40 secondes, chaque fois que vous lancez un sort d'altération d'arme sur un allié, vous bénéficiez de 1...5 point(s) d'énergie.",
+			concise: ""
+		},
+		"1738": {
+			id: 1738,
+			name: "Vision intérieure",
+			description: "Pendant 8...20 secondes, vous ne pouvez pas souffrir d'Aveuglement.",
+			concise: ""
+		},
+		"1739": {
+			id: 1739,
+			name: "Souvenirs renouvelés",
+			description: "Pendant 5...20 secondes, pendant que vous tenez un objet, tout sort d'altération d'armes ou d'objets coûte 5...35% d'énergie en moins.",
+			concise: ""
+		},
+		"1740": {
+			id: 1740,
+			name: "Remède du porteur",
+			description: "Pendant 10...30 secondes, chaque fois que vous lancez un sort d'altération d'arme sur un allié, celui-ci perd 2 condition.",
+			concise: ""
+		},
+		"1741": {
+			id: 1741,
+			name: "Lumière du miroir fantôme",
+			description: "L'allié visé est soigné de 15...90 points de vie. Si vous êtes à portée de voix d'un esprit, vous êtes aussi soigné de 15...90 points de vie.",
+			concise: ""
+		},
+		"1742": {
+			id: 1742,
+			name: "Sceau de puissance spectrale",
+			description: "Pendant 5...20 secondes tous les esprits que vous contrôlez à portée de voix attaquent 33% plus vite et infligent 5...10 points de dégâts supplémentaires.",
+			concise: ""
+		},
+		"1743": {
+			id: 1743,
+			name: "Sceau d'asservissement",
+			description: "Vous perdez 200...50 points de vie et asservissez l'esprit visé. (50% de risques d’échec avec Puissance de l’Invocation 4 ou inférieure.)",
+			concise: "Vous perdez 200...50 points de vie et asservissez l'esprit visé. 50% de risques d’échec avec Puissance de l’Invocation 4 ou inférieure."
+		},
+		"1744": {
+			id: 1744,
+			name: "Charge du gardien",
+			description: "La cible ennemie reçoit 20...75 points de dégâts de la foudre. Si vous tenez un objet, vous bénéficiez de 5 points d'énergie et de 5...50 points de vie.",
+			concise: ""
+		},
+		"1745": {
+			id: 1745,
+			name: "Angoisse",
+			description: "Crée un esprit de niveau 1...11. L'attaque de cet esprit inflige 5...20 points de dégâts et deux fois plus de dégâts à des ennemis affectés par un maléfice. L'esprit meurt au bout de 15...45 secondes.",
+			concise: "Crée un esprit de niveau 1...11 (durée de vie de 15...45 secondes). Ses attaques infligent 5...20 points de dégâts. Les ennemis victimes de maléfices subissent deux fois plus de dégâts."
+		},
+		"1747": {
+			id: 1747,
+			name: "Responsabilisation",
+			description: "Crée un esprit de niveau 1...14. Tous les alliés dans sa portée qui portent un objet bénéficient de 15...45 de santé maximum et de 10 points d'énergie maximum. Cet esprit disparaît au bout de 15...60 secondes.",
+			concise: ""
+		},
+		"1748": {
+			id: 1748,
+			name: "Récupération",
+			description: "Crée un esprit de niveau 1...14. Les conditions affectant les alliés à portée de cet esprit prennent fin 20...50% plus vite. Cet esprit disparaît au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"1749": {
+			id: 1749,
+			name: "Arme de furie",
+			description: "Pendant 5...20 secondes, la cible (un allié ou vous-même) bénéficie de 100% d'adrénaline supplémentaire et d'1 point d'énergie chaque fois qu'elle réussit une attaque.",
+			concise: ""
+		},
+		"1750": {
+			id: 1750,
+			name: "Arme de Xinrae",
+			description: "Pendant 8 secondes, la prochaine fois que la cible allié subit des dégâts, ceux-ci sont limité a 5% de sa santé maximum et cet allié vole jusqu'à 20...80 points de vie à son assaillant.",
+			concise: "(8 secondes.) La prochaine fois que la cible alliée subit des dégâts, ceux-ci sont limités à 5% de sa santé maximum et cet allié vole jusqu'à 20...80 points de vie à son assaillant."
+		},
+		"1751": {
+			id: 1751,
+			name: "Arme du belliciste",
+			description: "Pendant 3...13 secondes, si la cible (un allié ou vous-même) attaque un ennemi qui n'attaque pas, celui-ci est interrompu.",
+			concise: ""
+		},
+		"1752": {
+			id: 1752,
+			name: "Arme de remède",
+			description: "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts d'un ennemi, elle absorbe 20...80 points de vie à cet ennemi et perd 2 conditions.",
+			concise: ""
+		},
+		"1753": {
+			id: 1753,
+			name: "Frappe déchirante",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si vous frappez un ennemi affecté par un maléfice, il perd 1 enchantement.",
+			concise: ""
+		},
+		"1754": {
+			id: 1754,
+			name: "Attaque",
+			description: "Pendant 5...20 secondes, vous attaquez et vous déplacez 25% plus vite.",
+			concise: "(5...20 secondes). Vous attaquez et vous déplacez 25% plus vite."
+		},
+		"1755": {
+			id: 1755,
+			name: "Corruption mystique",
+			description: "Tous les ennemis adjacents sont frappés de Maladie pendant 1...10 secondes. Pendant 20 secondes, rien ne se passe. La durée de la Maladie est doublée si vous êtes sous le coup d'un enchantement quand vous activez cette compétence. Une fois cet enchantement dissipé, tous les membres du groupe à portée de voix sont soignés de la Maladie.",
+			concise: ""
+		},
+		"1756": {
+			id: 1756,
+			name: "Empoigne de Grenth",
+			description: "Pendant 20 secondes, si vous tenez une arme infligeant des dégâts du froid, vos compétences d'attaque causent également l'infirmité chez l'ennemi pendant 1...11 secondes et vous transférez 1...3 condition(s) à cet ennemi.",
+			concise: ""
+		},
+		"1757": {
+			id: 1757,
+			name: "Voile d'épines",
+			description: "Pendant 5...20 secondes, chaque fois que vous êtes frappé par une attaque, votre assaillant souffre d'Infirmité pendant 5...15 secondes.",
+			concise: ""
+		},
+		"1758": {
+			id: 1758,
+			name: "Empoigne d'harrier",
+			description: "Pendant 5...25 secondes, les attaques lancées contre des ennemis en mouvement causent l'Infirmité chez l'ennemi pendant 3...15 secondes.",
+			concise: ""
+		},
+		"1759": {
+			id: 1759,
+			name: "Voeu de force",
+			description: "Pendant 15 secondes, chaque fois que vous attaquez un ennemi à la faux, tous les ennemis à proximité subissent 10...25 points de dégâts tranchants.",
+			concise: "(15 secondes.) Les attaques à la faux infligent 10...25 points de dégâts tranchants à tous les ennemis adjacents chaque fois que vous attaquez."
+		},
+		"1760": {
+			id: 1760,
+			name: "Aura de poussière d'ébène",
+			description: "Quand vous lancez cet enchantement, tous les ennemis adjacents sont aveuglés pendant pendant 1...4 secondes. Pendant 30 secondes, si vous tenez une arme de dégâts de la terre, vos compétences d'attaques de mêlée infligent +3...30 points de dégâts de la terre. Lorsque cet enchantement prend fin, vous êtes libéré de l'Aveuglement.",
+			concise: ""
+		},
+		"1761": {
+			id: 1761,
+			name: "Voeu zélé",
+			description: "Pendant 20 secondes, vous avez -2 de régénération d'énergie, et vous bénéficiez de 1...6 point(s) d'énergie chaque fois que vous réussissez une attaque.",
+			concise: "(20 secondes.) Vous gagnez 1...6 point(s) d'énergie chaque fois que vous réussissez une attaque. <gray>Votre régénération d'énergie est réduite de -2.</gray>"
+		},
+		"1762": {
+			id: 1762,
+			name: "Coeur de furie",
+			description: "Pendant 5...20 secondes, vous attaquez 33% plus vite. Lorsque cet enchantement prend fin, tous les ennemis à proximité s'embrasent pendant 1...3 seconde(s).",
+			concise: ""
+		},
+		"1763": {
+			id: 1763,
+			name: "Renouveau zélé",
+			description: "Tous les ennemis adjacents subissent 15...60 points de dégâts sacrés. Pendant 20 secondes, cet enchantement n'a aucun effet. Lorsque cet enchantement prend fin, vous gagnez 1 point d'énergie pour chaque attaque réussie sous ses effets.",
+			concise: ""
+		},
+		"1764": {
+			id: 1764,
+			name: "Clairvoyance de l'attaquant",
+			description: "Pendant 20 secondes, 1...3 prochaine(s) compétence(s) d'attaque utilisée(s) coûte(nt) 5...20 points d'énergie en moins.",
+			concise: ""
+		},
+		"1765": {
+			id: 1765,
+			name: "Aura déchirante",
+			description: "Lorsque vous lancez cet enchantement, tous les ennemis à proximité subissent 10...42 points de dégâts du froid. Pendant 30 secondes, vos compétences d'attaque suppriment les enchantements des ennemis assommés. A l'issue de cet enchantement, tous les ennemis adjacents sont affectés par Armure brisée pendant 1...11 secondes.",
+			concise: "(30 secondes.) Vos compétences d'attaque suppriment les enchantements des ennemis assommés. Effet initial : inflige 10...42 points de dégâts du froid aux ennemis proches. Effet final : les ennemis proches subissent Armure brisée pendant 1...11 secondes."
+		},
+		"1766": {
+			id: 1766,
+			name: "Grâce de Pied-de-plume",
+			description: "Pendant 5...20 secondes, vous vous déplacez 25% plus vite et les conditions prennent fin 50% plus vite.",
+			concise: ""
+		},
+		"1767": {
+			id: 1767,
+			name: "Frappe du moissonneur",
+			description: "Si l'attaque touche, inflige l'infirmité pour 3...16 secondes. Supprime un enchantement de Derviche. Effet de la suppression : cible assommée pour 2...3 secondes.",
+			concise: ""
+		},
+		"1768": {
+			id: 1768,
+			name: "Hâte d'harrier",
+			description: "Pendant 5...15 secondes, vous vous déplacez 25% plus vite et infligez +5...15 points de dégâts supplémentaires aux ennemis en mouvement.",
+			concise: ""
+		},
+		"1769": {
+			id: 1769,
+			name: "Colère concentrée",
+			description: "Pendant 45 secondes, vous obtenez 0...150% d'adrénaline en plus.",
+			concise: ""
+		},
+		"1770": {
+			id: 1770,
+			name: "Tempérament naturel",
+			description: "Pendant 4...10 secondes, vous bénéficiez de 33% d'adrénaline en plus lorsque vous n'êtes pas affecté par un enchantement.",
+			concise: ""
+		},
+		"1771": {
+			id: 1771,
+			name: "Chant de rétablissement",
+			description: "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix utilise une compétence, il est soigné de 45...110 points de vie.",
+			concise: ""
+		},
+		"1772": {
+			id: 1772,
+			name: "Poème de purification",
+			description: "Pendant 5...20 secondes, la prochaine fois que chaque allié à portée de voix utilise un Sceau, il perd 1 condition.",
+			concise: ""
+		},
+		"1773": {
+			id: 1773,
+			name: "Fureur du soldat",
+			description: "Pendant 10...35 secondes, si vous êtes sous les effets d'un chant ou d'un cri, votre vitesse d'attaque augmente de 33% et vous bénéficiez de 33% d'adrénaline en plus. Votre armure est réduite de 20 (10 secondes) si un chant ou un cri vous affectant prend fin.",
+			concise: ""
+		},
+		"1774": {
+			id: 1774,
+			name: "Refrain agressif",
+			description: "Pendant 5...25 secondes, vous attaquez 25% plus vite mais votre armure est réduite de 20 pendant 20 secondes. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
+			concise: ""
+		},
+		"1775": {
+			id: 1775,
+			name: "Finale énergisant",
+			description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible reçoit 1...2 points d'énergie.",
+			concise: ""
+		},
+		"1776": {
+			id: 1776,
+			name: "Sceau d'agression",
+			description: "Si vous êtes sous les effets d'un chant ou d'un cri, vous gagnez 2 décharges d'adrénaline.",
+			concise: ""
+		},
+		"1777": {
+			id: 1777,
+			name: "Sceau du remède",
+			description: "Vous perdez 1 condition.",
+			concise: ""
+		},
+		"1778": {
+			id: 1778,
+			name: "Sceau de retour",
+			description: "Vous ressuscitez le membre du groupe visé avec 5...15% de santé et 1...4% d'énergie pour chaque membre du groupe à portée de voix.",
+			concise: "Ressuscite le membre du groupe visé (5...15% de santé et 1...4% d'énergie par membre du groupe à portée de voix)."
+		},
+		"1779": {
+			id: 1779,
+			name: "\"Profitez de votre temps !\"",
+			description: "Vous bénéficiez de 2 décharge d'adrénaline pour chaque membre du groupe à portée de voix (1...8 décharge(s) d'adrénaline maximum).",
+			concise: ""
+		},
+		"1780": {
+			id: 1780,
+			name: "\"Pas touche !\"",
+			description: "Pendant 20 secondes, les 1...5 prochaines compétences de contact utilisées contre les alliés à portée de voix échouent.",
+			concise: ""
+		},
+		"1781": {
+			id: 1781,
+			name: "\"Trouvez leur faiblesse !\"",
+			description: "Pendant 5...20 secondes, l'allié ciblé inflige +5...50 points de dégâts avec ses attaques. La prochaine fois que l'allié ciblé attaque, il cause aussi une Blessure profonde pendant 5...20 secondes.",
+			concise: "(5...20 secondes.) L'allié ciblé inflige +5...50 points de dégâts avec ses attaques. La prochaine attaque portée par l'allié ciblé provoque la Blessure profonde (5...20 secondes)."
+		},
+		"1782": {
+			id: 1782,
+			name: "\"La force est avec vous !\"",
+			description: "Pendant 3 secondes, tous les alliés à portée de voix bénéficient d'une régénération d'énergie de 0...1.",
+			concise: "(3 secondes.) Tous les alliés à portée de voix bénéficient d'une régénération d'énergie de 0...1."
+		},
+		"1783": {
+			id: 1783,
+			name: "Javelot de l'assassin",
+			description: "Si cette attaque réussit, vous infligez +5...25 points de dégâts. Si votre ennemi a plus de santé que vous, il souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1784": {
+			id: 1784,
+			name: "Javeline leste",
+			description: "Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous êtes sous les effets d'un enchantement, ce javelot vole deux fois plus vite et ne peut pas être bloqué.",
+			concise: ""
+		},
+		"1814": {
+			id: 1814,
+			name: "Regard du Porteur de lumière",
+			description: "Le serviteur démoniaque d'Abaddon visé subit 100 points de dégâts sacrés et est interrompu. Cette compétence touche un ennemi supplémentaire dans la zone pour chaque rang de Porteur de Lumière que vous atteignez. Cette compétence est désactivée pendant les 15 secondes suivant son utilisation.",
+			concise: "Le serviteur démoniaque d'Abaddon visé subit 100 points de dégâts sacrés et est interrompu. L'attaque affecte un ennemi supplémentaire dans la zone pour chaque rang de Porteur de lumière que vous atteignez. <gray>Cette compétence est désactivée (15 secondes).</gray>"
+		},
+		"1815": {
+			id: 1815,
+			name: "Sceau du Porteur de lumière",
+			description: "Si vous vous trouvez dans la zone d'un serviteur démoniaque d'Abaddon, vous gagnez 3...5 décharges d'adrénaline et 16...24 points d'énergie.",
+			concise: "Vous gagnez 3...5 décharges d'adrénaline et 16...24 points d'énergie si vous vous trouvez dans la zone d'un serviteur démoniaque d'Abaddon."
+		},
+		"1816": {
+			id: 1816,
+			name: "Sceau de Renaissance du Lancier du Soleil",
+			description: "Ressuscite le coéquipier mort visé à votre position avec la totalité de ses points de vie et 10% d'énergie pour chaque grade de Lancier du Soleil que vous avez atteint. Ce Sceau ne peut être utilisé qu'une fois par mission à moins qu'il ne soit rechargé par une augmentation de moral.",
+			concise: ""
+		},
+		"1948": {
+			id: 1948,
+			name: "Sanctuaire de l'ombre (Luxon)",
+			description: "Vous êtes aveuglé pendant 10 secondes. Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40 pendant 10 secondes.",
+			concise: "(10 secondes.) Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40. <gray>Vous êtes aveuglé (5 secondes).</gray>"
+		},
+		"1949": {
+			id: 1949,
+			name: "Cauchemar éthéré (Luxon)",
+			description: "L'ennemi visé perd 5...8 points d'énergie. Pour chaque point d'énergie perdu de cette manière, la cible et tous les ennemis dans la zone subissent une dégénération de santé de -1 pendant 10 secondes.",
+			concise: ""
+		},
+		"1950": {
+			id: 1950,
+			name: "Sceau de corruption (Luxon)",
+			description: "La cible ennemie et tous les ennemis à proximité subissent 20...30 points de dégâts. Pour chaque ennemi affecté souffrant d'une condition ou d'un maléfice, vous gagnez 2 points d'énergie (12...20 points d'énergie maximum).",
+			concise: ""
+		},
+		"1951": {
+			id: 1951,
+			name: "Seigneur élémentaire (Luxon)",
+			description: "Pendant 40...60 secondes, toutes vos caractéristiques élémentaires augmentent de 1. Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie tous les 10 rangs de Conservation d'énergie et êtes soigné de 100...300% du coût en énergie pour ce sort.",
+			concise: ""
+		},
+		"1952": {
+			id: 1952,
+			name: "Esprit altruiste (Luxon)",
+			description: "Pendant 15...20 secondes, les sorts lancés sur un allié coûtes 3 points d'énergie en moins.",
+			concise: "(15...20 secondes.) Les sorts lancés sur un allié coûtent 3 points d'énergie en moins."
+		},
+		"1953": {
+			id: 1953,
+			name: "Triple tir (Luxon)",
+			description: "Vous tirez simultanément 3 flèches sur l'ennemi visé. Ces flèches infligent 40...25% de dégâts en moins.",
+			concise: ""
+		},
+		"1954": {
+			id: 1954,
+			name: "\"Sauvez votre peau !\" (Luxon)",
+			description: "Pendant 4...6 secondes, tous les autres membres du groupe bénéficient d'un bonus d'armure de +100.",
+			concise: ""
+		},
+		"1955": {
+			id: 1955,
+			name: "Aura de la puissance sacrée (Luxon)",
+			description: "Tous les ennemis à proximité subissent 40...50 points de dégâts sacrés. Pendant 20 secondes, vous infligez 20...32% de dégâts en plus avec votre faux. Lorsque cet enchantement prend fin, tous les ennemis à proximité subissent 40...50 points de dégâts sacrés.",
+			concise: ""
+		},
+		"1957": {
+			id: 1957,
+			name: "Javelot de furie (Luxon)",
+			description: "Cette attaque inflige +30...40 points de dégâts. Si cette attaque touche un ennemi souffrant d'une condition, vous bénéficiez de 3...6 décharges d'adrénaline.",
+			concise: ""
+		},
+		"1986": {
+			id: 1986,
+			name: "Assaut vampirique",
+			description: "Doit succéder à une attaque main gauche. Si cette attaque réussit, vous volez 10...40 points de vie.",
+			concise: "Vole 10...40 points de vie si cette attaque réussit. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"1987": {
+			id: 1987,
+			name: "Coup du lotus",
+			description: "Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...25 points de dégâts et vous bénéficiez de 5...20 points d'énergie.",
+			concise: "Inflige +10...25 points de dégâts. Vous gagnez 5...20 points d'énergie. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"1988": {
+			id: 1988,
+			name: "Attaque des crocs dorés",
+			description: "Doit succéder à une attaque main droite. Si vous êtes sous les effets d'un enchantement et si cette attaque réussit, la cible ennemie souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: "Inflige la Blessure profonde (5...20 secondes) si vous êtes enchantée. <gray>Doit succéder à une attaque main droite.</gray>"
+		},
+		"1990": {
+			id: 1990,
+			name: "Coup du lotus tombant",
+			description: "Doit toucher un ennemi assommé. Si l'attaque réussit, vous infligez +15...35 points de dégâts et bénéficiez de 1...12 point(s) d'énergie.",
+			concise: "Inflige +15...35 points de dégâts. Vous gagnez 1...12 point(s) d'énergie. <gray>Aucun effet si la cible n'est pas assommée.</gray>"
+		},
+		"1991": {
+			id: 1991,
+			name: "Sceau sadique",
+			description: "Vous bénéficiez de 10...45 points de vie pour chaque condition dont souffre la cible ennemie.",
+			concise: "Vous bénéficiez de 10...45 points de vie pour chaque condition dont souffre la cible ennemie."
+		},
+		"1992": {
+			id: 1992,
+			name: "Sceau de distraction",
+			description: "Si l'ennemi visé est en train de lancer un sort, ce sort est interrompu et désactivé pendant 1...5 secondes pour chaque sceau dont vous êtes équipé.",
+			concise: ""
+		},
+		"1993": {
+			id: 1993,
+			name: "Sceau de Rappel",
+			description: "Pendant 6 secondes, vous subissez une dégénération d'énergie de -4. Lorsque cet effet prend fin, vous recevez 13...20 points d'énergie.",
+			concise: ""
+		},
+		"1994": {
+			id: 1994,
+			name: "Verrouillage de pouvoir",
+			description: "Si l'ennemi visé est en train de lancer un sort ou un chant, celui-ci est interrompu et désactivé pendant 5...13 secondes supplémentaires.",
+			concise: ""
+		},
+		"1995": {
+			id: 1995,
+			name: "Pas de petites économies",
+			description: "Si la cible ennemie ne lance pas de sort ou n'attaque pas, vous gagnez 8...13 points d'énergie.",
+			concise: "Vous gagnez 8...13 points d'énergie si l'ennemi visé n'attaque pas et ne lance pas de sort."
+		},
+		"1996": {
+			id: 1996,
+			name: "La somme de toutes les peurs",
+			description: "Pendant 1...10 seconde(s), la cible ennemie se déplace, attaque et lance des sorts 33% moins vite.",
+			concise: ""
+		},
+		"1997": {
+			id: 1997,
+			name: "Aura de Flétrissure",
+			description: "Pendant 5...20 secondes, les attaques au corps à corps de la cible (allié ou vous-même) provoquent la Faiblesse pendant 5...20 secondes.",
+			concise: ""
+		},
+		"1998": {
+			id: 1998,
+			name: "Cacophonie",
+			description: "Pendant 15 secondes, à chaque fois que l'ennemi ciblé utilise un cri ou un chant, il subit 30...105 points de dégâts.",
+			concise: ""
+		},
+		"1999": {
+			id: 1999,
+			name: "Etreinte de l'hiver",
+			description: "Pendant 2...6 secondes, l'ennemi visé se déplace 66% moins vite et reçoit 5...15 points de dégâts en se déplaçant.",
+			concise: "(2...6 secondes.) L'ennemi visé se déplace 66% moins vite et subit 5...15 points de dégâts en se déplaçant."
+		},
+		"2000": {
+			id: 2000,
+			name: "Chaînes de terre",
+			description: "Pendant 5...20 secondes, la cible ennemie et tous les ennemis adjacents se déplacent 66% moins vite pendant qu'elle souffre de Brûlure.",
+			concise: "(5...20 secondes.) La cible ennemie et les ennemis adjacents se déplacent 66% moins vite lorsqu'ils souffre de Brûlure."
+		},
+		"2001": {
+			id: 2001,
+			name: "Protection de faiblesse",
+			description: "Vous créez une Protection de faiblesse sur votre position. Pendant 5...20 secondes, les ennemis dans cette zone souffrent de Faiblesse pendant 5...20 secondes à chaque fois qu'ils subissent des dégâts élémentaires.",
+			concise: "Inflige la Faiblesse (5...20 secondes) à tous les ennemis subissant des dégâts élémentaires dans cette Protection."
+		},
+		"2002": {
+			id: 2002,
+			name: "Glyphe de rapidité",
+			description: "Pendant 15 secondes, 1...3 prochain(s) sort(s) lancé(s) se recharge(nt) 25% plus vite, et les projectiles propulsés se déplacent 200% plus vite.",
+			concise: ""
+		},
+		"2003": {
+			id: 2003,
+			name: "Guérison de maléfice",
+			description: "Lève un maléfice de la cible (allié ou vous-même). Si un maléfice est levé de cette manière, cette cible est soignée de 30...120 points de vie.",
+			concise: ""
+		},
+		"2004": {
+			id: 2004,
+			name: "Expiation des conditions",
+			description: "Ote une condition de la cible (allié ou vous-même). Si une condition est ôtée de cette manière, les ennemis proches subissent 10...60 points de dégâts.",
+			concise: ""
+		},
+		"2005": {
+			id: 2005,
+			name: "Compagnon du châtiment",
+			description: "Pendant 30 secondes, vos Prières du châtiment reçoivent un double bonus de Faveur divine.",
+			concise: ""
+		},
+		"2006": {
+			id: 2006,
+			name: "Sceau de pénitence",
+			description: "La cible ennemie subit 26...56 points de dégâts sacrés. Si elle attaquait, vous bénéficiez de 1...10 point(s) d'énergie.",
+			concise: ""
+		},
+		"2007": {
+			id: 2007,
+			name: "Voile purifiant",
+			description: "Pendant que vous maintenez cet enchantement, les conditions expirent 5...50% plus vite sur la cible (allié ou vous-même). Lorsque cet enchantement prend fin, une condition de cette cible est supprimée.",
+			concise: ""
+		},
+		"2008": {
+			id: 2008,
+			name: "Collision pulvérisante",
+			description: "Si vous touchez un ennemi assommé, celui-ci souffre de Faiblesse et de Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"2009": {
+			id: 2009,
+			name: "Coup enthousiaste",
+			description: "Cette attaque inflige toujours un coup critique si elle réussit.",
+			concise: ""
+		},
+		"2010": {
+			id: 2010,
+			name: "Coupe-genou",
+			description: "Si l'attaque touche un ennemi frappé d'Infirmité, vous gagnez 2...7 points d'énergie et 1...3 décharge(s) d'adrénaline.",
+			concise: ""
+		},
+		"2011": {
+			id: 2011,
+			name: "Grappin",
+			description: "La cible ennemie touchée et vous-même êtes assommés. Vous perdez votre pose actuelle.",
+			concise: ""
+		},
+		"2012": {
+			id: 2012,
+			name: "Faux rayonnante",
+			description: "Cette attaque inflige +2 points de dégâts pour chaque point d'énergie que vous possédez (5...50 points de dégâts maximum).",
+			concise: ""
+		},
+		"2013": {
+			id: 2013,
+			name: "Aura de Grenth",
+			description: "Tous les ennemis adjacents subissent 15...75 point de dégâts du froid. Pendant 10 secondes, cet enchantement n'a aucun effet. Lorsqu'il prend fin, tous les ennemis à proximité perdent 1 enchantement.",
+			concise: ""
+		},
+		"2014": {
+			id: 2014,
+			name: "Sceau de contrainte pieuse",
+			description: "Vous perdez un enchantement de Derviche. La cible ennemie est frappée d'Infirmité pendant 5...15 secondes. Si un enchantement a été supprimé, les ennemis dans la zone de la cible sont aussi frappés et ce Sceau se recharge 75% plus vite.",
+			concise: ""
+		},
+		"2015": {
+			id: 2015,
+			name: "Faux du fermier",
+			description: "Si cette attaque réussit, vous infligez +5...21 points de dégâts. Si vous frappez plus d'un ennemi, cette attaque se recharge instantanément.",
+			concise: ""
+		},
+		"2016": {
+			id: 2016,
+			name: "Lee Sa était énergique",
+			description: "Vous tenez les cendres de Lee Sa pendant 5...15 secondes. Pendant ce temps, vous bénéficiez d'une régénération d'énergie de +2. Lorsque vous déposez ses cendres, vous gagnez +1...10 points d'énergie.",
+			concise: ""
+		},
+		"2017": {
+			id: 2017,
+			name: "Hymne de lassitude",
+			description: "Pendant 8 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix cause aussi la Faiblesse pendant 1...16 seconde(s).",
+			concise: ""
+		},
+		"2018": {
+			id: 2018,
+			name: "Hymne d'interruption",
+			description: "Pendant 1...10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix interrompt également une action.",
+			concise: "(1...10 secondes.) La compétence d'attaque suivante des alliés à portée de voix interrompt une action."
+		},
+		"2051": {
+			id: 2051,
+			name: "Invocation des esprits (Luxon)",
+			description: "Tous les esprits que vous contrôlez font une Foulée de l'ombre vers votre position et gagnent 60...100 points de vie.",
+			concise: ""
+		},
+		"2052": {
+			id: 2052,
+			name: "Crocs de l'ombre",
+			description: "Vous faites une foulée de l'ombre vers la cible ennemie. Pendant 10 secondes, ce maléfice n'a aucun effet. Lorsqu'il prend fin, vous retournez à votre position d'origine et cet ennemi souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: "Vous faites une foulée de l'ombre vers la cible ennemie. Effet final au bout de 10 secondes : inflige la Blessure profonde (5...20 secondes). Vous regagnez votre position de départ."
+		},
+		"2053": {
+			id: 2053,
+			name: "Risque calculé",
+			description: "Pendant 3...24 secondes, l'ennemi visé inflige 10 points de dégâts supplémentaires, mais il y a 50% de chances que les dégâts de chacune de ses attaques lui soient infligés. (15...100 points de dégâts maximum.)",
+			concise: ""
+		},
+		"2054": {
+			id: 2054,
+			name: "Rétraction d'armure",
+			description: "Pendant 10 secondes, la cible ennemie souffre d'une dégénération de santé de -1...4. Lorsque ce maléfice prend fin, cet ennemi a une Armure brisée pendant 5...20 secondes.",
+			concise: ""
+		},
+		"2055": {
+			id: 2055,
+			name: "Anévrisme",
+			description: "La cible ennemie récupère toute son énergie. Pour chaque point d'énergie acquis de cette manière, cet ennemi subit 1...3 points de dégâts et tous les ennemis adjacents perdent un point d'énergie. (Energie perdue : maximum (1...30).",
+			concise: "La cible ennemie récupère toute son énergie. Pour chaque point d'énergie acquis, la cible subit 1...3 points de dégâts et tous les ennemis adjacents perdent un point d'énergie (maximum 1...30)."
+		},
+		"2056": {
+			id: 2056,
+			name: "Oeil errant",
+			description: "Pendant 4 secondes, la prochaine fois que l'ennemi visé attaque, son attaque est interrompue et tous les ennemis à proximité subissent 30...110 points de dégâts.",
+			concise: ""
+		},
+		"2057": {
+			id: 2057,
+			name: "Festin immonde",
+			description: "Vous transférez toutes les conditions de la cible alliée vers vous-même. Pour chaque condition transférée, vous gagnez 0...45 points de vie et 0...3 points d'énergie.",
+			concise: ""
+		},
+		"2058": {
+			id: 2058,
+			name: "Fiel putride",
+			description: "Pendant 5...20 secondes, la cible ennemie souffre d'une dégénération de santé de -1...3. Si elle meurt sous l'effet de ce maléfice, tous les ennemis à proximité subissent 25...85 points de dégâts.",
+			concise: ""
+		},
+		"2059": {
+			id: 2059,
+			name: "Traumatisme",
+			description: "L'ennemi ciblé subit 10...40 points de dégâts de la foudre et a une Armure brisée pendant 5...20 secondes. Ce sort à une pénétration d'armure de 25%.",
+			concise: "Inflige 10...40 points de dégâts de la foudre. Inflige la condition Armure brisée (5...20 secondes). Pénétration d'armure de 25%."
+		},
+		"2060": {
+			id: 2060,
+			name: "Glyphe d'immolation",
+			description: "Pendant 15 secondes, 1...4 prochain(s) sorts qui vise un ennemi provoque(nt) la Brûlure pendant 1...4 seconde(s).",
+			concise: "(15 secondes.) Vos prochains sorts (1...4 sort(s)) qui visent un ennemi provoque(nt) également la Brûlure (1...4 seconde(s))."
+		},
+		"2061": {
+			id: 2061,
+			name: "Esprit patient",
+			description: "Pendant 2 secondes, la cible (allié ou vous-même) est sous les effets de cet enchantement. Lorsque cet enchantement prend fin, cette cible est soignée de 30...120 points de vie.",
+			concise: ""
+		},
+		"2062": {
+			id: 2062,
+			name: "Ruban de guérison",
+			description: "La cible alliée est soignée de 20...110 points de vie. 2 autres alliés maximum à proximité de la cible sont soignés de 10...100 points de vie.",
+			concise: ""
+		},
+		"2063": {
+			id: 2063,
+			name: "Ame inébranlable",
+			description: "Pendant 3...10 secondes, la cible alliée ne peut pas être assommée.",
+			concise: ""
+		},
+		"2064": {
+			id: 2064,
+			name: "Esprit impeccable",
+			description: "Pendant 1...15 seconde(s), l'allié visé perd un maléfice toutes les 5 secondes.",
+			concise: ""
+		},
+		"2065": {
+			id: 2065,
+			name: "Ame impeccable",
+			description: "Pendant 1...15 seconde(s), l'allié visé perd une condition toutes les 3 secondes.",
+			concise: ""
+		},
+		"2066": {
+			id: 2066,
+			name: "Désarmement",
+			description: "Interrompt l'action de l'ennemi visé. S'il s'agissait d'une attaque, celle-ci et toutes les autres sont désactivées pendant 0...3 secondes.",
+			concise: ""
+		},
+		"2067": {
+			id: 2067,
+			name: "\"C'est ce que je comptais faire !\"",
+			description: "Si vous êtes assommé, vous gagnez 1...6 décharge d'adrénaline.",
+			concise: ""
+		},
+		"2068": {
+			id: 2068,
+			name: "Feu rapide",
+			description: "Pendant 5...25 secondes, vous attaquez 33% plus vite.",
+			concise: ""
+		},
+		"2069": {
+			id: 2069,
+			name: "Tir du chasseur paresseux",
+			description: "Si cette attaque réussit, la cible ennemie subit +10...25 points de dégâts. Si elle n'utilisait pas de compétence, Tir du chasseur paresseux inflige +10...35 points de dégâts supplémentaires.",
+			concise: ""
+		},
+		"2070": {
+			id: 2070,
+			name: "Trancheur d'aura",
+			description: "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si vous frappez un ennemi ayant une Armure brisée, il perd un enchantement.",
+			concise: ""
+		},
+		"2071": {
+			id: 2071,
+			name: "Frappe zélée",
+			description: "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Vous bénéficiez de 3 points d'énergie pour chaque ennemi que vous touchez.",
+			concise: ""
+		},
+		"2072": {
+			id: 2072,
+			name: "Li Ming était pure",
+			description: "Vous tenez les cendres de Li Ming pendant 5...20 secondes. Pendant ce temps, les conditions qui vous affectent prennent fin 10...50% plus vite. Lorsque vous déposez ses cendres, tous les alliés à portée de voix perdent 1...4 condition(s).",
+			concise: ""
+		},
+		"2073": {
+			id: 2073,
+			name: "Arme d'agression",
+			description: "Pendant 5...15 secondes, vous attaquez 25% plus vite.",
+			concise: ""
+		},
+		"2074": {
+			id: 2074,
+			name: "Cogne-poitrine",
+			description: "Si cette attaque touche un ennemi ayant une Armure brisée, celui-ci souffre de Blessure profonde pendant 5...20 secondes.",
+			concise: ""
+		},
+		"2075": {
+			id: 2075,
+			name: "Refrain rapide",
+			description: "Pendant 3...15 secondes, la cible (allié ou vous-même) se déplace 25% plus vite. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+			concise: ""
+		},
+		"2091": {
+			id: 2091,
+			name: "Sanctuaire de l'ombre (Kurzick)",
+			description: "Vous êtes aveuglé pendant 10 secondes. Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40 pendant 10 secondes.",
+			concise: "(10 secondes.) Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40. <gray>Vous êtes aveuglé (5 secondes).</gray>"
+		},
+		"2092": {
+			id: 2092,
+			name: "Cauchemar éthéré (Kurzick)",
+			description: "L'ennemi visé perd 5...8 points d'énergie. Pour chaque point d'énergie perdu de cette manière, la cible et tous les ennemis dans la zone subissent une dégénération de santé de -1 pendant 10 secondes.",
+			concise: ""
+		},
+		"2093": {
+			id: 2093,
+			name: "Sceau de corruption (Kurzick)",
+			description: "La cible ennemie et tous les ennemis à proximité subissent 20...30 points de dégâts. Pour chaque ennemi affecté souffrant d'une condition ou d'un maléfice, vous gagnez 2 points d'énergie (12...20 points d'énergie maximum).",
+			concise: ""
+		},
+		"2094": {
+			id: 2094,
+			name: "Seigneur élémentaire (Kurzick)",
+			description: "Pendant 40...60 secondes, toutes vos caractéristiques élémentaires augmentent de 1. Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie tous les 10 rangs de Conservation d'énergie et êtes soigné de 100...300% du coût en énergie pour ce sort.",
+			concise: ""
+		},
+		"2095": {
+			id: 2095,
+			name: "Esprit altruiste (Kurzick)",
+			description: "Pendant 15...20 secondes, les sorts lancés sur un allié coûtes 3 points d'énergie en moins.",
+			concise: "(15...20 secondes.) Les sorts lancés sur un allié coûtent 3 points d'énergie en moins."
+		},
+		"2096": {
+			id: 2096,
+			name: "Triple tir (Kurzick)",
+			description: "Vous tirez simultanément 3 flèches sur l'ennemi visé. Ces flèches infligent 40...25% de dégâts en moins.",
+			concise: ""
+		},
+		"2097": {
+			id: 2097,
+			name: "\"Sauvez votre peau !\" (Kurzick)",
+			description: "Pendant 4...6 secondes, tous les autres membres du groupe bénéficient d'un bonus d'armure de +100.",
+			concise: ""
+		},
+		"2098": {
+			id: 2098,
+			name: "Aura de la puissance sacrée (Kurzick)",
+			description: "Tous les ennemis à proximité subissent 40...50 points de dégâts sacrés. Pendant 20 secondes, vous infligez 20...32% de dégâts en plus avec votre faux. Lorsque cet enchantement prend fin, tous les ennemis à proximité subissent 40...50 points de dégâts sacrés.",
+			concise: ""
+		},
+		"2099": {
+			id: 2099,
+			name: "Javelot de furie (Kurzick)",
+			description: "Cette attaque inflige +30...40 points de dégâts. Si cette attaque touche un ennemi souffrant d'une condition, vous bénéficiez de 3...6 décharges d'adrénaline.",
+			concise: ""
+		},
+		"2100": {
+			id: 2100,
+			name: "Invocation des esprits (Kurzick)",
+			description: "Tous les esprits que vous contrôlez font une Foulée de l'ombre vers votre position et gagnent 60...100 points de vie.",
+			concise: ""
+		},
+		"2101": {
+			id: 2101,
+			name: "Agilité critique",
+			description: "Pendant 4 secondes et 1 seconde pour chaque rang d'Attaque critique, vous attaquez 33% plus vite et bénéficiez d'un bonus d'armure de +15...25. Cette compétence se relance à chaque fois que vous infligez un coup critique.",
+			concise: "(4 secondes, plus 1 seconde supplémentaires pour chaque rang d'Attaque critique). Vous attaquez 33% plus vite et bénéficiez d'un bonus d'armure de +15...25. Renouvellement : chaque fois que vous infligez un coup critique."
+		},
+		"2102": {
+			id: 2102,
+			name: "Cri de douleur",
+			description: "Interrompt la compétence de l'ennemi visé. Si celui-ci souffrait d'un maléfice d'Envoûteur, lui et tous les ennemis proches encaissent 25...50 points de dégâts et subissent une dégénération de santé de -3...5 pendant 10 secondes.",
+			concise: ""
+		},
+		"2103": {
+			id: 2103,
+			name: "Nécrose",
+			description: "Si l'ennemi visé souffre d'une condition ou d'un maléfice, il subit 60...90 points de dégâts.",
+			concise: ""
+		},
+		"2104": {
+			id: 2104,
+			name: "Intensité",
+			description: "Pendant 10 secondes, vos sorts infligent 15...25% de dégâts en plus.",
+			concise: ""
+		},
+		"2105": {
+			id: 2105,
+			name: "Graine de vie",
+			description: "Pendant 1...5 seconde(s), à chaque fois que l'allié visé subit des dégâts, tous les membres du groupe sont soignés de 2 points de vie pour chaque rang de Faveur divine.",
+			concise: "(1...5 seconde(s).) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts.<gray> Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"2107": {
+			id: 2107,
+			name: "Attaque tourbillon",
+			description: "Attaque la cible et tous les ennemis adjacents. Chaque attaque réussie inflige +13...20 points de dégâts.",
+			concise: ""
+		},
+		"2108": {
+			id: 2108,
+			name: "Saccage collectif",
+			description: "Pendant 18...25 secondes, vos familiers et vous attaquez 25% plus vite et bénéficiez d'une régénération de santé de +1...3.",
+			concise: ""
+		},
+		"2109": {
+			id: 2109,
+			name: "Aura éternelle",
+			description: "Tous les ennemis proches subissent 65...100 points de dégâts sacrés. Pendant 10 secondes, rien ne se passe. Lorsque cet enchantement prend fin, toutes les autres compétences du Derviche sont rechargées.",
+			concise: ""
+		},
+		"2110": {
+			id: 2110,
+			name: "Vampirisme",
+			description: "Crée un esprit de niveau 4...14 qui disparaît au bout de 75...150 secondes. Les attaques de cet esprit volent jusqu'à 10...20 points de vie et vous êtes soigné de 10...20 points de vie.",
+			concise: ""
+		},
+		"2112": {
+			id: 2112,
+			name: "\"Il n'y a rien à craindre !\"",
+			description: "Pendant 4 secondes plus 1 seconde supplémentaire tous les 2 points de Charisme, tous les membres du groupe à portée de voix subissent 20...35% de dégâts en moins. Les membres du groupe affectés sont soignés de 35...60 points de vie lorsque ce cri prend fin.",
+			concise: "(4 secondes, plus 1 seconde tous les 2 rangs de Charisme.) Réduit les dégâts de 20...35% pour les membres du groupe à portée de voix. Effet final : soigne de 35...60 points de vie."
+		},
+		"2116": {
+			id: 2116,
+			name: "Attaque sournoise",
+			description: "Si cette attaque réussit, la cible ennemie souffre d'Aveuglement pendant 5...8 secondes. Cette attaque compte comme une attaque main droite.",
+			concise: ""
+		},
+		"2135": {
+			id: 2135,
+			name: "Piétinement du boeuf",
+			description: "Doit succéder à une attaque main gauche. Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous touchez un ennemi frappé d'Infirmité, il est assommé.",
+			concise: "Inflige +5...20 points de dégâts. Attaque assommante si l'ennemi visé souffre d'Infirmité. <gray>Doit succéder à une attaque main gauche.</gray>"
+		},
+		"2136": {
+			id: 2136,
+			name: "Défense poudre fumigène",
+			description: "Pendant 8 secondes, la prochaine fois que vous êtes frappé, vous subissez la moitié des dégâts et tous les ennemis adjacents souffrent d'Aveuglement pendant 2...6 secondes.",
+			concise: "(8 secondes.) Au prochain coup que vous recevrez, vos dégâts seront réduits de moitié et vous infligerez l'Aveuglement (2...6 secondes) aux ennemis adjacents."
+		},
+		"2137": {
+			id: 2137,
+			name: "Images déroutantes",
+			description: "Pendant 2...10 secondes, les ennemis visés mettent deux fois plus longtemps à activer leurs compétences autre que des attaques.",
+			concise: "(2...10 secondes.) L'ennemi visé met deux fois plus longtemps à activer ses compétences autre que les attaques."
+		},
+		"2138": {
+			id: 2138,
+			name: "Vigueur du lanceur de maléfice",
+			description: "Pendant 10 secondes, vous bénéficiez d'une régénération de santé de +1...8. Ce sort prend fin si vous lancez un sort autre qu'un maléfice.",
+			concise: ""
+		},
+		"2139": {
+			id: 2139,
+			name: "Masochisme",
+			description: "Pendant 10...40 secondes, vos attributs Magie de mort et Moisson des âmes augmentent de 2 points et vous sacrifiez 5...3% de votre santé maximale lorsque vous lancez un sort.",
+			concise: "(10...40 secondes.) Vous gagnez +2 en Magie de mort et Moisson des âmes. <gray>Vous sacrifiez 5...3% de votre santé maximale lorsque vous lancez un sort.</gray>"
+		},
+		"2140": {
+			id: 2140,
+			name: "Piège perforant",
+			description: "Quand ce piège se déclenche, tous les ennemis à proximité subissent 5...50 points de dégâts perforants. Les ennemis ayant une Armure brisée subissent 15...60 points de dégâts supplémentaires. Ce piège fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+			concise: ""
+		},
+		"2141": {
+			id: 2141,
+			name: "Camaraderie",
+			description: "Si vous avez moins de santé que votre familier, vous êtes soigné de 30...120 points de vie. Si votre familier a moins de santé que vous, il est soigné de 30...120 points de vie.",
+			concise: ""
+		},
+		"2142": {
+			id: 2142,
+			name: "Agression barbare",
+			description: "Pendant 5...20 secondes, votre familier attaque 33% plus vite et inflige 3...10 points de dégâts supplémentaires.",
+			concise: "(5...20 secondes.) Votre familier attaque 33% plus vite et inflige +3...10 points de dégâts."
+		},
+		"2143": {
+			id: 2143,
+			name: "Tir d'interruption",
+			description: "Si cette attaque réussit, l'action de la cible ennemie est interrompue. S'il s'agissait d'une compétence, vous infligez +10...40 points de dégâts.",
+			concise: ""
+		},
+		"2144": {
+			id: 2144,
+			name: "Volée",
+			description: "Toutes vos préparations sont annulées. Vous décochez des flèches sur un maximum de 3 ennemis adjacents à votre cible. Ces flèches infligent +1...10 point de dégâts si elles touchent l'ennemi.",
+			concise: ""
+		},
+		"2145": {
+			id: 2145,
+			name: "Concentration experte",
+			description: "Pendant 24 secondes, vos attaques à l'arc coûtent 1...2 point(s) d'énergie en moins et infligent 1...10 point(s) de dégâts supplémentaire(s).",
+			concise: ""
+		},
+		"2146": {
+			id: 2146,
+			name: "Fureur pieuse",
+			description: "Vous perdez un enchantement. Pendant 2...6 secondes, vous attaquez 33% plus vite.",
+			concise: ""
+		},
+		"2147": {
+			id: 2147,
+			name: "Victoire paralysante",
+			description: "Si vous avez plus de santé que la cible ennemie, celle-ci est frappée d'Infirmité pendant 5...15 secondes. Cette attaque inflige +5...10 points de dégâts.",
+			concise: ""
+		},
+		"2148": {
+			id: 2148,
+			name: "Arme de fractionnement",
+			description: "Pendant 4...10 secondes, les 3 prochaines attaques de la cible (allié ou vous-même) bénéficient d'une pénétration d'armure de 10% et provoque Armure brisée pendant 5...20 seconde(s).",
+			concise: ""
+		},
+		"2149": {
+			id: 2149,
+			name: "Arme du renouveau",
+			description: "Pendant 5...20 secondes, la prochaine fois que la cible (allié ou vous-même) frappe avec une compétence d'attaque, elle reçoit 1...7 points d'énergie.",
+			concise: ""
+		},
+		"2150": {
+			id: 2150,
+			name: "Javelot mutilant",
+			description: "Si votre attaque affecte un ennemi souffrant de Saignement, celui-ci est frappé d'Infirmité pendant 5...20 secondes.",
+			concise: ""
+		},
+		"2186": {
+			id: 2186,
+			name: "Sceau de corruption mortelle",
+			description: "Cette attaque inflige 5...35 points de dégâts pour chaque condition affectant l'ennemi visé (maximum : 130).",
+			concise: "Inflige 5...35 points de dégâts (maximum : 130) pour chaque condition affectant l'ennemi visé."
+		},
+		"2187": {
+			id: 2187,
+			name: "Méthode du Maître",
+			description: "Pendant 60 secondes, lorsque vous êtes équipé d'une arme autre que les dagues, vous avez 3...33% de chances supplémentaires d'infliger un coup critique.",
+			concise: "(60 secondes.) Vous avez +3...33% de chances d'infliger un coup critique si votre arme n'est pas une dagues."
+		},
+		"2188": {
+			id: 2188,
+			name: "Défenses profanées",
+			description: "Pendant 5...20 secondes, la prochaine fois que la cible ennemie bloque, elle subit 30...120 points de dégâts.",
+			concise: ""
+		},
+		"2189": {
+			id: 2189,
+			name: "Regard d'Angorodon",
+			description: "Vous volez 10...40 points de vie à la cible ennemie. Si vous souffrez d'une condition, vous recevez 1...13 point(s) d'énergie.",
+			concise: "Vole 10...40 points de vie. Vous gagnez 1...13 point(s) d'énergie si vous souffrez d'une condition."
+		},
+		"2190": {
+			id: 2190,
+			name: "Afflux magnétique",
+			description: "L'ennemi visé subit 15...75 points de dégâts. Si vous êtes en état d'Afflux, l'Afflux magnétique enchante tous les alliés à portée de voix pendant 1...5 seconde, leur permettant de bloquer la prochain attaque.",
+			concise: ""
+		},
+		"2191": {
+			id: 2191,
+			name: "Terrain glissant",
+			description: "Si l'ennemi visé souffre d'Aveuglement ou se déplace, il est assommé. (50% de risque d'échec avec Magie de l'eau 4 ou inférieure)",
+			concise: "Provoque l'assommement si cet ennemi souffre d'Aveuglement ou se déplace. <gray>50% de risque d'échec à moins d'avoir Magie de l'eau 5 ou supérieure.</gray>"
+		},
+		"2192": {
+			id: 2192,
+			name: "Glace scintillante",
+			description: "La cible ennemie subit 5...50 points de dégâts du froid. Si elle est affectée par un maléfice de la magie de l'eau, vous recevez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
+			concise: "Inflige 5...50 points de dégâts du froid. Vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie si l'ennemi visé souffre d'un maléfice de la magie de l'eau."
+		},
+		"2193": {
+			id: 2193,
+			name: "Explosion d'énergie",
+			description: "La cible ennemie subit 1...2 points de dégâts pour chaque point d'énergie que vous possédez (130 points de dégâts maximum).",
+			concise: ""
+		},
+		"2194": {
+			id: 2194,
+			name: "Frappe de diversion",
+			description: "Si la Frappe de diversion réussit, vous n'infligez pas de dégâts mais vous interrompez l'action de la cible ennemie. Si l'ennemi a une Armure brisée, cette compétence est inutilisable pendant 30 secondes.",
+			concise: "Interrompt une action. Effet de l'interruption : désactive la compétence interrompue (30 secondes) si l'ennemie visé a une Armure brisée. <gray>N'inflige pas de dégâts.</gray>"
+		},
+		"2195": {
+			id: 2195,
+			name: "Attaque symbolique",
+			description: "Si cette attaque réussit, vous infligez +12 points de dégâts pour chaque sceau dont vous êtes équipé (maximum 70 points de dégâts).",
+			concise: ""
+		},
+		"2196": {
+			id: 2196,
+			name: "Vitesse du soldat",
+			description: "Pendant 5...20 secondes, vous vous déplacez 25% plus vite pendant que vous êtes sous les effets d'un cri ou d'un chant.",
+			concise: ""
+		},
+		"2197": {
+			id: 2197,
+			name: "Frappe corporelle",
+			description: "Si cette attaque réussit, l'ennemi visé subit +10...40 points de dégâts. S'il a une Armure brisée, il souffre de Blessure profonde pendant 5...15 secondes.",
+			concise: ""
+		},
+		"2198": {
+			id: 2198,
+			name: "Coup corporel",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si vous frappez un ennemi ayant une Armure brisée, vous bénéficiez de 5...10 points d'énergie.",
+			concise: ""
+		},
+		"2199": {
+			id: 2199,
+			name: "Sceau de Joute empoisonnée",
+			description: "Pendant 60 secondes, votre prochaine attaque provoque également l'Empoisonnement pendant 8...15 secondes.",
+			concise: ""
+		},
+		"2200": {
+			id: 2200,
+			name: "Sceau de vitesse mystique",
+			description: "Pendant 5...20 secondes, vous vous déplacez 15% plus vite pour chaque enchantement qui vous affecte (33% plus vite au maximum).",
+			concise: ""
+		},
+		"2201": {
+			id: 2201,
+			name: "Bouclier de force",
+			description: "Pendant 1...16 secondes, bloque jusqu'à 1 attaque à votre encontre. Si une attaque est bloquée, tous les ennemis adjacents qui attaquent sont assommés et souffrent de Faiblesse pendant 5...20 secondes.",
+			concise: "(1...16 secondes.) Bloque la 1 prochaine attaque à votre encontre. Assomme et inflige la Faiblesse (5...20 secondes) aux ennemis adjacents qui attaquent."
+		},
+		"2202": {
+			id: 2202,
+			name: "Etreinte réparatrice",
+			description: "La cible (allié ou vous-même) est soignée de 20...80 points de vie. Si la cible est sous les effets d'un sort d'altération d'arme, elle perd une condition.",
+			concise: ""
+		},
+		"2203": {
+			id: 2203,
+			name: "Aura de sangsue de l'esprit",
+			description: "Pendant 5...20 secondes, tous vos esprits à portée de voix infligent 5...20 points de dégâts en moins et volent 5...20 points de vie lorsqu'ils attaquent.",
+			concise: "(5...20 secondes.) Tous vos esprits à portée de voix infligent 5...20 points de dégâts en moins et volent 5...20 points de vie lorsqu'ils attaquent."
+		},
+		"2204": {
+			id: 2204,
+			name: "Rajeunissement",
+			description: "Vous créez un esprit de niveau 1...20. Celui-ci soigne tous les membres du groupe à portée de voix de 3...10 points de vie par seconde. Cet esprit perd 3...10 points de vie pour chaque membre du groupe soigné de cette manière. Il meurt au bout de 30...90 secondes.",
+			concise: "Crée un esprit de niveau 1...20 (durée de vie de 30...90 secondes). Soigne les membres du groupe à portée de voix de 3...10 points de vie par seconde. <gray>Coût des soins : cet esprit perd 3...10 points de vie.</gray>"
+		},
+		"2205": {
+			id: 2205,
+			name: "Agonie",
+			description: "Vous créez un esprit de niveau 1...12. Celui-ci fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. Cet esprit perd 3...10 points de vie pour chaque ennemi blessé de cette manière. Il meurt au bout de 30...90 secondes.",
+			concise: "Crée un esprit de niveau 1...12 (durée de vie de 30...90 secondes). Fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. <gray>Cet esprit perd 3...10 points de vie par ennemi perdant de la santé.</gray>"
+		},
+		"2206": {
+			id: 2206,
+			name: "Arme spectrale",
+			description: "Pendant 5...20 secondes, la prochaine attaque de la cible (allié ou vous-même) ne peut pas être bloquée.",
+			concise: ""
+		},
+		"2207": {
+			id: 2207,
+			name: "Discours stimulant",
+			description: "Vous perdez toute votre adrénaline et la cible alliée reçoit 1...8 décharge(s) d'adrénaline.",
+			concise: ""
+		},
+		"2208": {
+			id: 2208,
+			name: "Bouclier incandescent",
+			description: "Pendant 3...9 secondes, si vous utilisez un bouclier, la prochaine compétence d'attaque utilisée contre vous est bloquée. S'il s'agissait d'une attaque de mêlée, votre attaquant s'embrase pendant 1...6 secondes.",
+			concise: ""
+		},
+		"2209": {
+			id: 2209,
+			name: "Javelot sacré",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle frappe une créature invoquée, tous les ennemis à proximité subissent 15...90 points de dégâts sacrés, et s'embrasent pendant 3 secondes.",
+			concise: ""
+		},
+		"2210": {
+			id: 2210,
+			name: "Frappe du javelot",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts et la cible ennemie est frappée de Stupeur pendant 4...10 secondes. C'est une attaque de mêlée.",
+			concise: ""
+		},
+		"2211": {
+			id: 2211,
+			name: "Acide alchimique d'Alkar",
+			description: "Vous lancez l'Acide alchimique d'Alkar sur l'ennemi visé. La cible et les ennemis adjacents subissent 40...50 points de dégâts. Les Destructeurs subissent 45...70 points de dégâts en plus et ont une Armure brisée pendant 14...20 secondes.",
+			concise: ""
+		},
+		"2212": {
+			id: 2212,
+			name: "Lumière de Deldrimor",
+			description: "Tous les ennemis dans la zone subissent 55...80 points de dégâts sacrés. Tous les objets cachés à portée sont révélés sur votre boussole.",
+			concise: ""
+		},
+		"2213": {
+			id: 2213,
+			name: "Morsure d'oreille",
+			description: "La cible ennemie touchée subit 50...70 points de dégâts perforants et souffre de saignement pendant 15...25 secondes.",
+			concise: "Inflige 50...70 points de dégâts perforants et provoque le Saignement (15...25 secondes)."
+		},
+		"2214": {
+			id: 2214,
+			name: "Coup bas",
+			description: "Vous infligez 45...70 points de dégâts à l'adversaire. Si la cible est assommée, vous infligez 30...50 points de dégâts supplémentaires et lui infligée une Armure brisée pendant 14...20 secondes.",
+			concise: "Inflige 45...70 points de dégâts. Inflige 30...50 points de dégâts supplémentaires et la condition Armure brisée (14...20 secondes) si l'ennemi visé est assommé."
+		},
+		"2215": {
+			id: 2215,
+			name: "Coup du bagarreur",
+			description: "Vous assénez un coup de tête à la cible ennemie touchée qui lui inflige 45...70 points de dégâts et l'assomme si l'attaque réussit.",
+			concise: ""
+		},
+		"2216": {
+			id: 2216,
+			name: "\"Ne trébuche pas !\"",
+			description: "Pendant 3...5 secondes, les membres du groupe à portée de voix ne peuvent pas être assommés.",
+			concise: ""
+		},
+		"2217": {
+			id: 2217,
+			name: "\"Par le marteau d'Ural !\"",
+			description: "Vous bénéficiez d'une régénération de santé de +2 et infligez 25% de dégâts en plus pendant 7...10 secondes et pendant 7...10 secondes supplémentaires pour chaque alliés à portée de voix possédant moins de 50% de santé.",
+			concise: "(7...10 secondes.) Vous bénéficiez d'une régénération de santé de +2 et infligez +25% de dégâts en plus. Dure 7...10 secondes de plus pour chaque allié à portée de voix possédant moins de 50% de santé."
+		},
+		"2218": {
+			id: 2218,
+			name: "Maître ivre",
+			description: "Pendant 72...90 secondes, vos vitesses de mouvement et d'attaque sont augmentées de 10...15%. Si vous êtes ivre lorsque vous activez cette compétence, vos vitesses de mouvement et d'attaque sont augmentées de 25...33%",
+			concise: ""
+		},
+		"2219": {
+			id: 2219,
+			name: "Arme du Grand Nain",
+			description: "Pendant 20 secondes, l'arme de l'allié visé inflige +15...20 points de dégâts et a 28...40% de chances d'assommer.",
+			concise: ""
+		},
+		"2220": {
+			id: 2220,
+			name: "Armure du Grand Nain",
+			description: "Pendant 22...40 secondes, la cible (allié ou vous-même) reçoit un bonus d'armure de +24, +60 de santé maximum et un bonus d'armure de +24 contre les Destructeurs.",
+			concise: ""
+		},
+		"2221": {
+			id: 2221,
+			name: "Souffle du Grand Nain",
+			description: "Tous les membres du groupe sont soulagés de la Brûlure et soignés de 50...60 points de vie.",
+			concise: ""
+		},
+		"2222": {
+			id: 2222,
+			name: "Tempête de neige",
+			description: "Vous créez une tempête de neige sur la position de l'ennemi visé. Pendant 5 secondes, les ennemis adjacents à cette position subissent 30...40 points de dégâts du froid par seconde.",
+			concise: ""
+		},
+		"2223": {
+			id: 2223,
+			name: "Piège de poudre noire",
+			description: "Quand ce piège se déclenche, tous les ennemis à proximité subissent 20...30 points de dégâts, souffrent d'Aveuglement et commencent à saigner pendant 7...10 secondes. Cette compétence fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous l'utilisez.",
+			concise: ""
+		},
+		"2224": {
+			id: 2224,
+			name: "Invocation du Mursaat",
+			description: "Vous invoquez un Mursaat de niveau 14...20 qui vit pendant 40...60 secondes et est équipé de Décharge incapacitante. Vous ne pouvez activer qu'une seule invocation asura à la fois.",
+			concise: ""
+		},
+		"2225": {
+			id: 2225,
+			name: "Invocation du Jinn de rubis",
+			description: "Vous invoquez un Jinn de rubis de niveau 14...20 qui vit pendant 40...60 secondes et est équipé d'Immolation. Vous ne pouvez activer qu'une seule invocation asura à la fois.",
+			concise: "Vous invoquez un Jinn de rubis de niveau 14...20 (durée de vie de 40...60 secondes) qui est équipé d'Immolation. Vous ne pouvez activer qu'une seule invocation asura à la fois."
+		},
+		"2226": {
+			id: 2226,
+			name: "Invocation du Lutin de glace",
+			description: "Vous invoquez un Lutin de glace de niveau 14...20 qui vit pendant 40...60 secondes et est équipé de Tessons de glace. Vous ne pouvez activer qu'une seule invocation asura à la fois.",
+			concise: ""
+		},
+		"2227": {
+			id: 2227,
+			name: "Invocation du Chaman naga",
+			description: "Vous invoquez un Chaman naga de niveau 10...20 qui vit pendant 30...60 secondes et est équipé de Lapidation. Vous ne pouvez activer qu'une seule invocation asura à la fois.",
+			concise: ""
+		},
+		"2228": {
+			id: 2228,
+			name: "Frappe habile",
+			description: "Si cette attaque réussit, l'ennemi visé subit 18...30 points de dégâts. S'il possède une Armure brisée, il commence à saigner pendant 18...30 secondes.",
+			concise: "Inflige 18...30 points de dégâts. Inflige le Saignement (18...30 secondes) si l'ennemi visé a une Armure brisée."
+		},
+		"2229": {
+			id: 2229,
+			name: "Sceau d'infection",
+			description: "Si la cible souffre de Saignement, elle souffre de Maladie pendant 13...20 secondes.",
+			concise: ""
+		},
+		"2230": {
+			id: 2230,
+			name: "Sceau tryptophane",
+			description: "Pendant 14...20 secondes, la cible ennemie et tous les ennemis adjacents se déplacent et attaquent 23...40% moins vite.",
+			concise: ""
+		},
+		"2231": {
+			id: 2231,
+			name: "Etendard du courage de la bataille d'Ebon",
+			description: "Vous plantez un Etendard du courage de la bataille d'Ebon sur votre position actuelle. Pendant 14...20 secondes, les alliés autres que des esprits dans cette zone bénéficient d'un bonus d'armure de +24 et d'un bonus d'armure supplémentaire de +24 contre les Charrs.",
+			concise: ""
+		},
+		"2232": {
+			id: 2232,
+			name: "Etendard de sagesse de la bataille d'Ebon",
+			description: "Vous plantez un Etendard de sagesse de la bataille d'Ebon sur votre position actuelle. Pendant 14...20 secondes, les alliés autres que des esprits dans cette zone ont 44...60% de chances de réduire de moitié le temps de recharge des sorts qu'ils lancent.",
+			concise: ""
+		},
+		"2233": {
+			id: 2233,
+			name: "Etendard d'honneur de la bataille d'Ebon",
+			description: "Vous plantez un Etendard d'honneur de la bataille d'Ebon sur votre position actuelle. Pendant 14...20 secondes, les alliés autres que des esprits dans cette zone infligent +8...15 points de dégâts et +7...10 points de dégâts en plus contre les Charrs.",
+			concise: ""
+		},
+		"2234": {
+			id: 2234,
+			name: "Tireur d'élite de soutien de l'Avant-garde d'Ebon",
+			description: "La cible ennemie subit 54...90 points de dégâts perforants et souffre de Saignement pendant 5...25 secondes. Cette attaque a 10% de chances d'infliger 540...900 points de dégâts perforants supplémentaires. Si cette attaque frappe un Charr, elle a 25% de chances d'infliger 540...900 points de dégâts perforants supplémentaires.",
+			concise: "Inflige 54...90 points de dégâts perforants et provoque le Saignement (5...25 secondes). 10% de chances d'infliger +540...900 points de dégâts perforants. 25% de chances d'infliger +540...900 points de dégâts perforants si la cible ennemie est un Charr."
+		},
+		"2235": {
+			id: 2235,
+			name: "Assassin de soutien de l'Avant-garde d'Ebon",
+			description: "Vous invoquez un Assassin de l'Avant-garde d'Ebon de niveau 14...20 équipé de Paume d'acier, Crocs du renard et Coup des neuf queues. Cet Assassin fait une Foulée de l'ombre vers la cible ennemie. Si cette dernière est un Charr, l'Assassin vit pendant 24...30 secondes. Si ce n'est pas un Charr, l'Assassin vit pendant 12...15 secondes.",
+			concise: "Invoque un assassin de niveau 14...20 équipé de Paume d'acier, Crocs du renard et Coup des neuf queues. Cet assassin fait une foulée de l'ombre vers l'ennemi. Si cet ennemi est un Charr, l'assassin vit pendant 24...30 secondes. Si ce n'est pas un Charr, il vit pendant 12...15 secondes."
+		},
+		"2236": {
+			id: 2236,
+			name: "Puits de ruine",
+			description: "Vous utilisez le cadavre le plus proche pour créer un Puits de ruine sur sa position. Pendant 5...30 secondes, à chaque fois qu'un ennemi dans le puits subit des dégâts physiques, il a une Armure brisée pendant 5...20 secondes.",
+			concise: ""
+		},
+		"2237": {
+			id: 2237,
+			name: "Atrophie",
+			description: "Pendant 3...7 secondes, la caractéristique principale de la cible ennemie est réduite à 0.",
+			concise: ""
+		},
+		"2238": {
+			id: 2238,
+			name: "Javelot de rédemption",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle échoue, vous perdez une condition.",
+			concise: ""
+		},
+		"2353": {
+			id: 2353,
+			name: "\"Finissez-le !\"",
+			description: "Si la cible ennemie a moins de 50% de santé, elle subit 44...80 points de dégâts, a une Armure brisée et souffre de Blessure profonde pendant 12...20 secondes.",
+			concise: ""
+		},
+		"2354": {
+			id: 2354,
+			name: "\"Esquive ceci !\"",
+			description: "Pendant 16...20 secondes, votre prochaine attaque ne peux pas être bloquée et inflige +14...20 points de dégâts.",
+			concise: ""
+		},
+		"2355": {
+			id: 2355,
+			name: "\"Je suis le plus fort !\"",
+			description: "Vos 5...8 prochaines attaques infligent +14...20 points de dégâts en plus.",
+			concise: ""
+		},
+		"2356": {
+			id: 2356,
+			name: "\"Rien ne peut m'arrêter !\"",
+			description: "Pendant 16...20 secondes, vous bénéficiez d'un bonus d'armure +24 et ne pouvez pas être assommé ni frappé d'Infirmité.",
+			concise: "Pendant 16...20 secondes, vous bénéficiez d'un bonus d'armure +24 et ne pouvez pas être assommé ni frappé d'Infirmité."
+		},
+		"2357": {
+			id: 2357,
+			name: "Une pointe de ruse",
+			description: "La cible ennemie touchée subit 44...80 points de dégâts. Si cet ennemi était assommé, il ne peux pas attaquer pendant 5...8 secondes.",
+			concise: ""
+		},
+		"2358": {
+			id: 2358,
+			name: "\"Tu te déplaces comme un Nain !\"",
+			description: "L'ennemi visé est assommé et subit 44...80 points de dégâts. Lorsqu'il se relève, il est frappé d'Infirmité pendant 8...15 secondes.",
+			concise: ""
+		},
+		"2359": {
+			id: 2359,
+			name: "\"Vous êtes tous des mauviettes !\"",
+			description: "La cible ennemie et les ennemis adjacents souffrent de Faiblesse pendant 8...12 secondes.",
+			concise: ""
+		},
+		"2360": {
+			id: 2360,
+			name: "Aucune douleur",
+			description: "Pendant 30 secondes, vous bénéficiez d'une régénération de santé de +2...3. Si vous êtes ivre lorsque vous activez cette compétence, vous recevez également +200...300 de santé maximum.",
+			concise: "(30 secondes.) Vous bénéficiez d'une régénération de santé de +2...3. Vous obtenez +200...300 de santé maximum si vous êtes ivre quand vous activez cette compétence."
+		},
+		"2361": {
+			id: 2361,
+			name: "Gourdin d'un millier d'ours",
+			description: "Si cette attaque réussit, elle inflige +6...9 points de dégâts pour chaque ennemi adjacent (maximum 60 points de dégâts). Si la cible ennemie n'est pas humaine, elle est assommée.",
+			concise: ""
+		},
+		"2374": {
+			id: 2374,
+			name: "Bénédiction de l'ours",
+			description: "Vous perdez tous les effets et prenez l'apparence d'un ours. Pendant 60 secondes, vous avez 100 points d'armure et 750...800 points de vie. Toutes vos caractéristiques se remettent à 0 et les attaques de l'ours remplacent vos compétences.",
+			concise: "Vous perdez tous les effets et prenez l'apparence d'un ours (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques de l'ours remplacent vos compétences et vous avez 100 points d'armure et 750...800 points de vie."
+		},
+		"2379": {
+			id: 2379,
+			name: "Bénédiction du loup",
+			description: "Vous perdez tous les effets et prenez l'apparence d'un loup. Pendant 60 secondes, vous avez 80 points d'armure, 660...700 points de vie et une régénération de santé de 1...4. Toutes vos caractéristiques se remettent à 0 et les attaques du loup remplacent vos compétences.",
+			concise: "Vous perdez tous les effets et prenez l'apparence d'un loup (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques du loup remplacent vos compétences et vous avez 80 points d'armure, 660...700 points de vie et une régénération de santé de 1...4."
+		},
+		"2384": {
+			id: 2384,
+			name: "Bénédiction du corbeau",
+			description: "Vous perdez tous les effets et prenez l'apparence d'un corbeau. Pendant 60 secondes, vous avez 80 points d'armure, 660...700 points de vie et 20...30% de chances de bloquer. Toutes vos caractéristiques se remettent à 0 et les attaques du corbeau remplacent vos compétences.",
+			concise: "Vous perdez tous les effets et prenez l'apparence d'un corbeau (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques du corbeau remplacent vos compétences, vous avez 80 points d'armure, 660...700 points de vie et avez 20...30% de chances de bloquer."
+		},
+		"2411": {
+			id: 2411,
+			name: "Distorsion de l'esprit",
+			description: "Pendant 10...16 secondes, vous vous déplacez 20...33% plus vite et le temps d'incantation de vos sorts est réduit de 20%.",
+			concise: ""
+		},
+		"2412": {
+			id: 2412,
+			name: "Criminel improbable",
+			description: "Pendant 10...20 secondes, l'ennemi ciblé ne peut plus utiliser un sort choisi aléatoirement et Criminel improbable est remplacé par ce sort. Vous bénéficiez de 5...10 points d'énergie.",
+			concise: ""
+		},
+		"2413": {
+			id: 2413,
+			name: "Technobabillage",
+			description: "La cible ennemie et tous les ennemis adjacents subissent 30...40 points de dégâts. Si cet ennemi n'est pas un boss, lui et tous les ennemis adjacents sont frappés de Stupeur pendant 3...5 secondes.",
+			concise: "Inflige 30...40 points de dégâts à la cible et aux ennemis adjacents. Provoque la Stupeur (3...5 secondes) si la cible n'était pas un boss."
+		},
+		"2414": {
+			id: 2414,
+			name: "Champ de rayonnement",
+			description: "Pendant 5 secondes, les ennemis se trouvant dans la zone subissent une dégénération de santé de -4...6. Lorsque le portail disparaît, les ennemis dans la zone souffrent de Maladie pendant 12...20 secondes.",
+			concise: ""
+		},
+		"2415": {
+			id: 2415,
+			name: "Scan asura",
+			description: "Pendant 9...12 secondes, vos attaques contre cet ennemi infligent 45...75% de dégâts en plus.",
+			concise: ""
+		},
+		"2416": {
+			id: 2416,
+			name: "Air de supériorité",
+			description: "Pendant 20...30 secondes, vous obtenez une augmentation asura aléatoire à chaque fois que vous gagnez de l'XP en tuant un ennemi.",
+			concise: ""
+		},
+		"2417": {
+			id: 2417,
+			name: "Blocage mental",
+			description: "Pendant 5...11 secondes, vous avez 50% de chance de bloquer des attaques. Cet enchantement se réapplique à chaque fois qu'un ennemi vous attaque.",
+			concise: ""
+		},
+		"2418": {
+			id: 2418,
+			name: "Inverseur de douleur",
+			description: "Pendant 6...10 secondes, à chaque fois que l'ennemi visé inflige des dégâts, il subit 100...140% des dégâts qu'il inflige (80 points de dégâts maximum).",
+			concise: "(6...10 secondes.) Inflige 100...140% des dégâts (maximum 80 points) à la cible ennemie à chaque fois qu'elle inflige des dégâts."
+		},
+		"2420": {
+			id: 2420,
+			name: "Echappatoire d'Ebon",
+			description: "Vous faites une Foulée de l'ombre vers la cible alliée. Cet allié et vous-même êtes soignés de 70...110 points de vie.",
+			concise: "L'allié visé et vous êtes soignés de 70...110 points de vie. Effet initial : vous faites une foulée de l'ombre vers cet allié."
+		},
+		"2421": {
+			id: 2421,
+			name: "Piège de faiblesse",
+			description: "Quand ce piège se déclenche, tous les ennemis à proximité souffrent de Faiblesse pendant 10...20 secondes et subissent 24...50 poins de dégâts de la foudre. Tous les Charrs sont assommés. Ce piège fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+			concise: ""
+		},
+		"2422": {
+			id: 2422,
+			name: "Vents",
+			description: "Vous créez un esprit de niveau 4...10. Tous les ennemis dans sa portée ont 15% de risques de manquer leurs attaques à distance. Cet esprit meurt au bout de 54...90 secondes.",
+			concise: "Créez un esprit de niveau 4...10 (durée de vie de 54...90 secondes). Affecte les ennemis à portée. 15% de risques de rater les attaques à distance."
+		},
+		"2423": {
+			id: 2423,
+			name: "Stabilité naine",
+			description: "Pendant 24...30 secondes, vos poses durent 55...100% plus longtemps. Si vous avez activé cette compétence lorsque que vous étiez ivre, vous ne pouvez pas être assommé.",
+			concise: ""
+		},
+		"2657": {
+			id: 2657,
+			name: "Cri de hâte (PvP)",
+			description: "Pendant 30 secondes, votre familier bénéficie de 25% de vitesse d'attaque en plus et se déplace 25% plus vite.",
+			concise: "(30 secondes.) Votre familier se déplace et attaque 25% plus rapidement."
+		},
+		"2734": {
+			id: 2734,
+			name: "Délabrement spirituel (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2803": {
+			id: 2803,
+			name: "Gel spirituel (PvP)",
+			description: "L'ennemi visé subit 10...60 points de dégâts du froid. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...60 points de dégâts du froid en plus et se déplace 90% plus lentement pendant 1...5 secondes. Ce sort entraîne l'épuisement.",
+			concise: ""
+		},
+		"2804": {
+			id: 2804,
+			name: "Choc spirituel (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2805": {
+			id: 2805,
+			name: "Forme de brume (PvP)",
+			description: "Pendant 10...45 secondes, vous subissez 33% de dégâts en moins face aux ennemis sous l'effet d'un maléfice de la Magie de l'eau. Quand vous lancez un sort élémentaire, tous les alliés (autres qu'esprits) à portée de voix regagnent 50...250% du coût énergétique du sort. Ce sort ne soigne pas les alliés ayant plus de 80% de points de vie.",
+			concise: ""
+		},
+		"2806": {
+			id: 2806,
+			name: "Protection contre le mal (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2807": {
+			id: 2807,
+			name: "Chevauchée de l'éclair (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2808": {
+			id: 2808,
+			name: "Coup enragé (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2809": {
+			id: 2809,
+			name: "Flamme d'obsidienne (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2857": {
+			id: 2857,
+			name: "Egide (PvP)",
+			description: "Pendant 1...3 seconde(s), les sorts hostiles et les attaques contre l'allié visé échouent.",
+			concise: "(1...3 seconde(s).) Les sorts hostiles et les attaques contre l'allié visé échouent. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"2858": {
+			id: 2858,
+			name: "\"Prenez garde !\" (PvP)",
+			description: "Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25 pendant 10 secondes. Ce cri prend fin après 1...3 attaque(s).",
+			concise: ""
+		},
+		"2859": {
+			id: 2859,
+			name: "Affaiblissement (PvP)",
+			description: "La cible est frappée de Faiblesse pendant 10...30 secondes.",
+			concise: "Inflige la Faiblesse (10...30 secondes)."
+		},
+		"2860": {
+			id: 2860,
+			name: "Renouveau éthéré (PvP)",
+			description: "Pendant 10 secondes, à chaque fois que vous lancez un sort, vous gagnez 1...3 point(s) d'énergie et 5...20 points de vie pour chaque enchantement qui vous affecte.",
+			concise: "(10 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1...3 point(s) d'énergie et 5...20 points de vie par enchantement vous affectant."
+		},
+		"2861": {
+			id: 2861,
+			name: "Attaque pénétrante (PvP)",
+			description: "Si l'Attaque pénétrante réussit, vous infligez +3...10 points de dégâts et cette attaque offre une pénétration d'armure de 10%.",
+			concise: "Inflige +3...10 points de dégâts. Pénétration d'armure de 10%."
+		},
+		"2862": {
+			id: 2862,
+			name: "Silhouette (PvP)",
+			description: "Pendant 5...15 secondes, tous les sorts hostiles qui vous sont lancés échouent et toutes les attaques contre vous manquent. Lorsque la compétence prend fin, il ne vous reste que 5...50 points de vie.",
+			concise: "(5...15 secondes.) Tous les sorts hostiles qui vous sont lancés échouent et toutes les attaques contre vous manquent. <gray>Effet final : il ne vous reste que 5...50 points de vie.</gray>"
+		},
+		"2863": {
+			id: 2863,
+			name: "Discorde (PvP)",
+			description: "Si la cible ennemie souffre d'une condition et est affectée par un maléfice ou un enchantement, elle subit 30...110 points de dégâts.",
+			concise: "Inflige 30...110 points de dégâts. <gray>Sans effet si la cible ennemie ne souffre d'aucune condition et n'est sous les effets d'aucun maléfice ou enchantement.</gray>"
+		},
+		"2864": {
+			id: 2864,
+			name: "Attaque éclatante (PvP)",
+			description: "Si l'Attaque éclatante réussit, vous infligez +3...10 points de dégâts et cette attaque offre une pénétration d'armure de 10%.",
+			concise: ""
+		},
+		"2866": {
+			id: 2866,
+			name: "Chair de ma chair (PvP)",
+			description: "Vous perdez la moitié de vos points de vie. L'allié visé est ressuscité avec votre nombre de point de vie actuel et 5...20% d'énergie.",
+			concise: ""
+		},
+		"2867": {
+			id: 2867,
+			name: "Rage de l'ancêtre (PvP)",
+			description: "Pendant 3 secondes, tous les ennemis adjacents à la cible (un allié ou vous-même) subissent 1...31 points de dégâts de la foudre par seconde.",
+			concise: "(3 secondes.) Inflige 1...31 points de dégâts de la foudre par seconde aux ennemis adjacent à l'allié visé."
+		},
+		"2868": {
+			id: 2868,
+			name: "Arme à fragmentation (PvP)",
+			description: "Pendant 20 secondes, la cible (un allié ou vous-même) possède une Arme à fragmentation. Les 1...5 prochaines attaques réussies de la cible (un allié ou vous-même) infligent 5...30 points de dégâts à un maximum de 3 ennemis adjacents.",
+			concise: ""
+		},
+		"2869": {
+			id: 2869,
+			name: "Remède de l'Assassin (PvP)",
+			description: "Pendant 30 secondes, les prochaines compétences d'attaque (au nombre de 1...10) que vous utilisez suppriment une condition.",
+			concise: "(30 secondes.) Vos compétences d'attaque suivantes (1...10) suppriment une condition chacune."
+		},
+		"2871": {
+			id: 2871,
+			name: "Lumière de la délivrance (PvP)",
+			description: "Tous les membres du groupe sont soignés de 5...70 points de vie. Toutes vos Prières de châtiment sont inutilisables pendant 20 secondes.",
+			concise: "Soigne tout le groupe de 5...70 points de vie. Vos Prières de châtiment sont inutilisables (20 secondes)."
+		},
+		"2872": {
+			id: 2872,
+			name: "Sceau du pacte avec la mort (PvP)",
+			description: "Vous ressuscitez le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum. La prochaine fois que cet allié meurt dans les 120 secondes, vous mourez aussi.",
+			concise: "Ressuscite le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum."
+		},
+		"2875": {
+			id: 2875,
+			name: "Lancer d'harrier (PvP)",
+			description: "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi en mouvement, elle inflige 5...40 points de dégâts en plus.",
+			concise: ""
+		},
+		"2876": {
+			id: 2876,
+			name: "Hymne défensif (PvP)",
+			description: "Pendant 4...10 secondes, chaque membre du groupe à portée de voix a 50% de chances de bloquer les attaques qui lui sont lancées. Ce chant prend fin si cet allié frappe avec une compétence d'attaque.",
+			concise: "(4...10 secondes.) Les membres du groupe à portée de voix ont 50% de chances de bloquer."
+		},
+		"2877": {
+			id: 2877,
+			name: "Ballade de rétablissement (PvP)",
+			description: "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix subit des dégâts, il est soigné de 15...75 points de vie.",
+			concise: "(10 secondes.) Les membres du groupe à portée de voix gagnent 15...75 points de vie la prochaine fois qu'ils subissent des dégâts."
+		},
+		"2878": {
+			id: 2878,
+			name: "Chant de rétablissement (PvP)",
+			description: "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix utilise une compétence, il est soigné de 45...110 points de vie.",
+			concise: ""
+		},
+		"2879": {
+			id: 2879,
+			name: "\"Attention !\" (PvP)",
+			description: "Pendant 4...10 secondes, tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie en se déplaçant.",
+			concise: "(4...10 secondes.) Tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie en se déplaçant."
+		},
+		"2880": {
+			id: 2880,
+			name: "\"Ne vous rendez jamais !\" (PvP)",
+			description: "Pendant 10 secondes, tous les membres du groupe à portée de voix ayant moins de 75% de santé bénéficient d'une régénération de santé de +1...5.",
+			concise: ""
+		},
+		"2883": {
+			id: 2883,
+			name: "Pour la justice ! (PvP)",
+			description: "",
+			concise: ""
+		},
+		"2884": {
+			id: 2884,
+			name: "Régénération mystique (PvP)",
+			description: "Pendant 5...20 secondes, vous bénéficiez d'une régénération de santé de +1...4 pour chaque enchantement (3 maximum) qui vous affecte.",
+			concise: ""
+		},
+		"2885": {
+			id: 2885,
+			name: "Sang du faible (PvP)",
+			description: "L'ennemi visé et tous les ennemis proches souffrent de Faiblesse pendant 1...16 secondes.",
+			concise: ""
+		},
+		"2887": {
+			id: 2887,
+			name: "Sceau du jugement (PvP)",
+			description: "L'ennemi est assommé. Il subit 5...50 points de dégâts sacrés, ainsi que les ennemis adjacents.",
+			concise: "Assomme la cible. Inflige 5...50 points de dégâts sacrés à la cible et aux ennemis adjacents."
+		},
+		"2891": {
+			id: 2891,
+			name: "Aura inflexible (PvP)",
+			description: "Ressuscite un membre du groupe mort avec tous ses points de vie et d'énergie. Si vous ne maintenez pas cet enchantement ou s'il est annulé, le membre du groupe meurt et son cadavre est exploité. Si un allié protégé par l'Aura inflexible meurt, aucun handicap n'est appliqué (50% de risques d'échec avec Faveur divine 4 ou moins).",
+			concise: "Ressuscite le membre du groupe visé (santé et énergie maximum). Effet final : cet allié meurt et laisse un cadavre exploité. N'entraîne pas de handicap. <gray>50% de chances d'échouer sauf si la valeur de Faveur divine est de 5 ou plus.</gray>"
+		},
+		"2892": {
+			id: 2892,
+			name: "Lien spirituel (PvP)",
+			description: "Pendant 8 secondes, à chaque fois que la cible (un allié ou vous-même) subit plus de 60 points de dégâts infligés par les 10 prochaines attaques ou sorts, cette cible est soignée de 40...100 points de vie.",
+			concise: "(8 secondes.) Soigne de 40...100 points de vie chaque fois que l'allié visé subit plus de 60 points de dégâts. <gray>Prend fin lorsque cet allié a subi des dégâts de 10 attaques ou sorts.</gray>"
+		},
+		"2893": {
+			id: 2893,
+			name: "Arme de protection (PvP)",
+			description: "Pendant 3...8 secondes, la cible (un allié ou vous-même) possède une Arme de protection qui lui confère une régénération de santé de +2...4 et 50% de chances de bloquer les attaques. L'Arme de protection prend fin si la cible attaque.",
+			concise: "(3...8 secondes.) Confère une régénération de santé de +2...4. 50% de chances de bloquer. <gray>Prend fin si la cible attaque.</gray>"
+		},
+		"2895": {
+			id: 2895,
+			name: "Compagnon du châtiment (PvP)",
+			description: "Pendant 4 secondes, vos Prières du châtiment reçoivent un double bonus de Faveur divine.",
+			concise: ""
+		},
+		"2925": {
+			id: 2925,
+			name: "Tir du chasseur paresseux (PvP)",
+			description: "Si cette attaque réussit, la cible ennemie subit +5...15 points de dégâts. Si elle n'utilisait pas de compétence, Tir du chasseur paresseux inflige +5...20 points de dégâts supplémentaires.",
+			concise: ""
+		},
+		"2959": {
+			id: 2959,
+			name: "Dextérité de l'expert (PvP)",
+			description: "Pendant 1...20 seconde(s), vous attaquez 15% plus vite et votre caractéristique d'Adresse au tir est augmentée de 1.",
+			concise: "(1...20 seconde(s).) Vous attaquez 15% plus vite et votre caractéristique d'Adresse au tir est augmentée de +1."
+		},
+		"2965": {
+			id: 2965,
+			name: "Sceau des Esprits (PvP)",
+			description: "Vous gagnez 3...12 points d'énergie si vous êtes à portée de voix d'un esprit.",
+			concise: "Vous gagnez 3...12 points d'énergie. <gray>Aucun effet si vous n'êtes pas à portée de voix d'un esprit.</gray>"
+		},
+		"2966": {
+			id: 2966,
+			name: "Sceau de puissance spectrale (PvP)",
+			description: "Les attaques de la créature invoquée alliée ciblée infligent 5...35 points de dégâts supplémentaires. La créature meurt au bout de 10 secondes.",
+			concise: "La créature invoquée alliée ciblée inflige +5...35 points de dégâts. <gray>Cette créature meurt au bout de 10 secondes.</gray>"
+		},
+		"2969": {
+			id: 2969,
+			name: "Lecture du vent (PvP)",
+			description: "Pendant 24 secondes, vos flèches se déplacent deux fois plus vite.",
+			concise: "(24 secondes.) Vos flèches se déplacent deux fois plus vite."
+		},
+		"2998": {
+			id: 2998,
+			name: "Fragilité (PvP)",
+			description: "Pendant 8...20 secondes, l'ennemi visé subit 5...20 points de dégâts chaque fois qu'il est affecté ou libéré d'une nouvelle condition.",
+			concise: "(8...20 secondes.) L'ennemi visé subit 5...20 points de dégâts chaque fois qu'il gagne ou perd une condition."
+		},
+		"2999": {
+			id: 2999,
+			name: "Force de l'honneur (PvP)",
+			description: "Tant que cet enchantement est actif, la cible (un allié ou vous-même) inflige 1...5 points de dégâts supplémentaires au corps à corps.",
+			concise: ""
+		},
+		"3002": {
+			id: 3002,
+			name: "Endurance du Guerrier (PvP)",
+			description: "Pendant 5...35 secondes, vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. L'Endurance du Guerrier ne peut pas faire grimper votre énergie au-delà de 10...25.",
+			concise: "(5...35 secondes.) Vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. <gray>Vous ne gagnez aucun point d'énergie si votre énergie est déjà supérieur à 10...25.</gray>"
+		},
+		"3003": {
+			id: 3003,
+			name: "Armure de l'impassible (PvP)",
+			description: "Pendant 10...35 secondes, vous avez une réduction de dégâts de base de 10 pendant que vous lancez des Rituels d'asservissement.",
+			concise: "(10...35 secondes.) Vous avez une réduction de dégâts de base de 10 pendant que vous lancez des Rituels d'asservissement."
+		},
+		"3005": {
+			id: 3005,
+			name: "Union (PvP)",
+			description: "Crée un esprit de niveau 1...8. A chaque fois qu'un allié dans sa portée (autre qu'un esprit) subit des dégâts, ceux-ci sont réduits de 15 et l'esprit subit 15 points de dégâts. Il meurt au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"3006": {
+			id: 3006,
+			name: "Mélodie des Ombres (PvP)",
+			description: "Crée un esprit de niveau 1...6. Les attaques de l'esprit entraînent l'Aveuglement pendant 1...6 seconde. Il meurt au bout de 30 secondes.",
+			concise: ""
+		},
+		"3007": {
+			id: 3007,
+			name: "Douleur (PvP)",
+			description: "Crée un esprit de niveau 1...8. Les attaques de cet esprit infligent 5...30 points de dégâts. Il meurt au bout de 30...150 secondes.",
+			concise: ""
+		},
+		"3008": {
+			id: 3008,
+			name: "Destruction (PvP)",
+			description: "Crée un esprit de niveau 1...10 qui meurt au bout de 30 secondes. Lorsque cet esprit meurt, tous les ennemis dans la zone subissent 1...10 point(s) de dégâts pour chaque seconde de vie de l'esprit (Maximum : 150).",
+			concise: ""
+		},
+		"3009": {
+			id: 3009,
+			name: "Apaisement (PvP)",
+			description: "Crée un esprit de niveau 1...8. Les ennemis dans sa portée mettent deux fois plus de temps pour récupérer de l'adrénaline. Il meurt au bout de 15...45 secondes.",
+			concise: "Crée un esprit de niveau 1...8 (durée de vie de 15...45 secondes). Les ennemis à portée accumulent de l'adrénaline deux fois moins vite."
+		},
+		"3010": {
+			id: 3010,
+			name: "Déplacement (PvP)",
+			description: "Crée un esprit de niveau 1...10. Tous les alliés autre que des esprits à portée ont 75% de chances de bloquer les attaques. Chaque fois qu'une attaque est bloquée de cette manière, cet esprit subit 60 points de dégâts. Il disparaît au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"3011": {
+			id: 3011,
+			name: "Préservation (PvP)",
+			description: "Crée un esprit de niveau 1...10. Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) dans la zone de 10...115 points de vie. Il disparaît au bout de 90 secondes.",
+			concise: "Crée un esprit de niveau 1...10 (durée de vie de 90 secondes). Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) de 10...115 points de vie."
+		},
+		"3012": {
+			id: 3012,
+			name: "Vie (PvP)",
+			description: "Crée un esprit de niveau 1...10. Lorsque cet esprit meurt, tous les alliés (autres que des esprits) dans sa portée sont soignés de 1...7 point(s) de vie pour chaque seconde d'existence de cet esprit. Il meurt au bout de 20 secondes.",
+			concise: ""
+		},
+		"3013": {
+			id: 3013,
+			name: "Rétablissement (PvP)",
+			description: "Crée un esprit de niveau 1...10. Les alliés (autres que des esprits) à sa portée bénéficient d'une régénération de santé de +1...3 s'ils ont moins de 75% de vie. Cet esprit meurt au bout de 15...45 secondes.",
+			concise: ""
+		},
+		"3014": {
+			id: 3014,
+			name: "Dissonance (PvP)",
+			description: "Crée un esprit de niveau 1...12. Celui-ci inflige 5...20 points de dégâts et toute personne touchée par cette attaque est interrompue. Il meurt au bout de 10...25 secondes.",
+			concise: ""
+		},
+		"3015": {
+			id: 3015,
+			name: "Lien terrestre (PvP)",
+			description: "Crée un esprit de niveau 1...10. Tous les ennemis (autres que des esprits) assommés dans sa portée le sont pour au moins 3 secondes. Chaque fois, cet esprit perd 50...25 points de vie. Il meurt au bout de 15...45 secondes.",
+			concise: ""
+		},
+		"3016": {
+			id: 3016,
+			name: "Refuge (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3017": {
+			id: 3017,
+			name: "Désenchantement (PvP)",
+			description: "Crée un esprit de niveau 1...8. Celui-ci inflige 5...20 points de dégâts et toute personne touchée par cette attaque perd un enchantement. Il meurt au bout de 10...35 secondes.",
+			concise: ""
+		},
+		"3018": {
+			id: 3018,
+			name: "Restauration (PvP)",
+			description: "Crée un esprit de niveau 1...10. Lorsque cet esprit meurt, tous les membres du groupe dans la zone sont ressuscités avec 5...50% de leur santé et 0 points d'énergie. Cet esprit meurt au bout de 30 secondes.",
+			concise: ""
+		},
+		"3019": {
+			id: 3019,
+			name: "Mélodie du sang (PvP)",
+			description: "Crée un esprit de niveau 1...8 qui disparaît au bout de 30...150 secondes. Les attaques de cet esprit volent jusqu'à 5...25 points de vie.",
+			concise: "Crée un esprit de niveau 1...8 (durée de vie de 30...150 secondes). Ses attaques volent 5...25 points de vie."
+		},
+		"3020": {
+			id: 3020,
+			name: "Voyage (PvP)",
+			description: "Crée un esprit de niveau 1...8. Chaque fois que l'attaque de cet esprit touche un ennemi immobile, celui-ci est assommé et l'esprit perd 70...50 points de vie. Il meurt au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"3021": {
+			id: 3021,
+			name: "Chaleur de savane (PvP)",
+			description: "Vous créez une Chaleur de savane sur la position de l'ennemi visé. Pendant 5 secondes, tous les ennemis à proximité subissent 5...20 points de dégâts chaque seconde et 5...20 points de dégâts en plus pour chaque seconde d'activation de ce sort.",
+			concise: ""
+		},
+		"3022": {
+			id: 3022,
+			name: "Regard de fureur (PvP)",
+			description: "Anéantit l'esprit allié visé et crée un esprit de niveau 1...10. Les attaques de cet esprit infligent 5...20 points de dégâts. Il meurt au bout de 30...60 secondes.",
+			concise: "Détruit un esprit allié. Crée un esprit de niveau 1...10 (durée de vie de 30...60 secondes). Ses attaques infligent 5...20 points de dégâts."
+		},
+		"3023": {
+			id: 3023,
+			name: "Angoisse (PvP)",
+			description: "Crée un esprit de niveau 1...7. L'attaque de cet esprit inflige 5...20 points de dégâts et deux fois plus de dégâts à des ennemis affectés par un maléfice. L'esprit meurt au bout de 15...45 secondes.",
+			concise: "Crée un esprit de niveau 1...7 (durée de vie de 15...45 secondes). Ses attaques infligent 5...20 points de dégâts. Les ennemis victimes de maléfices subissent deux fois plus de dégâts."
+		},
+		"3024": {
+			id: 3024,
+			name: "Responsabilisation (PvP)",
+			description: "Crée un esprit de niveau 1...10. Tous les alliés dans sa portée qui portent un objet bénéficient de 15...45 de santé maximum et de 10 points d'énergie maximum. Il meurt au bout de 15...60 secondes.",
+			concise: ""
+		},
+		"3025": {
+			id: 3025,
+			name: "Récupération (PvP)",
+			description: "Crée un esprit de niveau 1...10. Les conditions affectant les alliés à portée de cet esprit prennent fin 20...50% plus vite. Il meurt au bout de 30...60 secondes.",
+			concise: ""
+		},
+		"3026": {
+			id: 3026,
+			name: "\"Visez les yeux !\" (PvP)",
+			description: "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix lance une attaque, cette attaque a 30...75% de chances d'infliger un coup critique.",
+			concise: "(10 secondes.) Les alliés à portée de voix ont +30...75% de chances d'infliger un coup critique avec leur attaque suivante."
+		},
+		"3027": {
+			id: 3027,
+			name: "\"Préparez-vous !\" (PvP)",
+			description: "Pendant 5...15 secondes, la prochaine fois qu'un allié doit être assommé, 1 ennemi à proximité subit 15...90 points de dégâts à la place.",
+			concise: "(5...15 secondes.) Empêche l'allié visé d'être assommé la fois suivante où il devrait l'être et inflige 15...90 points de dégâts à un ennemi près de lui. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+		},
+		"3028": {
+			id: 3028,
+			name: "Finale enflammé (PvP)",
+			description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur la cible (autre qu'un esprit) prend fin, tous les ennemis adjacents à cette cible s'embrasent pendant 1...3 seconde(s).",
+			concise: "(10...35 secondes.) Inflige la Brûlure (1...3 seconde(s)) aux ennemis adjacents chaque fois qu'un chant ou un cri affectant l'allié visé prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+		},
+		"3029": {
+			id: 3029,
+			name: "Refrain du Bladeturn (PvP)",
+			description: "Pendant 20 secondes, la cible alliée (autre qu'un esprit) a un bonus d'armure de +10...40 contre les dégâts tranchants. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+			concise: "(20 secondes.) L'allié visé bénéficie d'un bonus d'armure de +10...40 contre les dégâts tranchants. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+		},
+		"3030": {
+			id: 3030,
+			name: "Sceau de retour (PvP)",
+			description: "Vous ressuscitez le membre du groupe visé avec 5...15% de santé et 1...4% d'énergie pour chaque membre du groupe à portée de voix.",
+			concise: ""
+		},
+		"3031": {
+			id: 3031,
+			name: "\"Pas touche !\" (PvP)",
+			description: "Pendant 20 secondes, la 1...5 prochaine(s) compétence(s) de contact utilisée(s) contre vous échoue(nt).",
+			concise: "(20 secondes.) La 1...5 prochaine(s) compétence(s) de contact utilisée(s) contre vous échoue(nt)."
+		},
+		"3032": {
+			id: 3032,
+			name: "\"Tenez bon !\" (PvP)",
+			description: "Pendant 5...20 secondes, tous les membres du groupe à portée de voix reçoivent +24 de bonus d'armure lorsqu'ils sont immobiles. Cet effet prend fin sur l'allié affecté par ce cri lorsque cet allié attaque.",
+			concise: "(5...20 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +24 quand ils sont immobiles. Prend fin pour tout allié qui attaque."
+		},
+		"3033": {
+			id: 3033,
+			name: "\"Nous reviendrons !\" (PvP)",
+			description: "Pendant 10 secondes, chaque fois que les membres du groupe à portée de voix utilisent une compétence de résurrection, leurs alliés morts reviennent à la vie avec 10...75% de santé et 5...50% d'énergie en plus.",
+			concise: "(10 secondes.) Chaque fois que les membres du groupe à portée de voix utilisent une compétence de résurrection, leurs alliés morts reviennent à la vie avec 10...75% de santé et 5...50% d'énergie en plus."
+		},
+		"3034": {
+			id: 3034,
+			name: "\"Trouvez leur faiblesse !\" (PvP)",
+			description: "Pendant 5...20 secondes, la prochaine fois que la cible (un allié ou vous-même) inflige un coup critique, elle cause aussi une Blessure profonde pendant 5...20 secondes.",
+			concise: "(5...20 secondes.) Le prochain coup critique infligé par la cible alliée provoque la Blessure profonde (5...20 secondes)."
+		},
+		"3035": {
+			id: 3035,
+			name: "\"N'abandonnez jamais !\" (PvP)",
+			description: "Tous les alliés à portée de voix ayant moins de 75% de santé gagnent 1...10 point(s) d'énergie.",
+			concise: "Les alliés à portée de voix gagnent 1...10 point(s) d'énergie. <gray>Affecte uniquement les alliés possédant moins de 75% de santé.</gray>"
+		},
+		"3036": {
+			id: 3036,
+			name: "\"A l'aide !\" (PvP)",
+			description: "Vous bénéficiez de 5...50 points de vie. Pendant 1...10 seconde(s), les sorts alliés qui vous visent sont lancés 50% plus vite.",
+			concise: "(1...10 seconde(s).) Les sorts des autres alliés qui vous visent sont lancés 50% plus vite. Vous bénéficiez de 5...50 points de vie."
+		},
+		"3037": {
+			id: 3037,
+			name: "\"Repliez-vous !\" (PvP)",
+			description: "Pendant 4...10 secondes, tous les alliés à portée de voix bénéficient de 5...15 points de vie par seconde lorsqu'ils sont en mouvement et se déplacent 33% plus vite. \"Repliez-vous !\" prend fin sur l'allié affecté par ce cri lorsque cet allié réussit une attaque.",
+			concise: "(4...10 secondes.) Les alliés à portée de voix gagnent 5...15 points de vie par seconde quand ils sont en mouvement et se déplacent 33% plus vite. <gray>Prend fin pour tout allié réussissant une attaque.</gray>"
+		},
+		"3038": {
+			id: 3038,
+			name: "Agonie (PvP)",
+			description: "Crée un esprit de niveau 1...8. Celui-ci fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. Cet esprit perd 3...10 points de vie pour chaque ennemi blessé de cette manière. Il meurt au bout de 30...90 secondes.",
+			concise: "Crée un esprit de niveau 1...8 (durée de vie de 30...90 secondes). Fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. <gray>Cet esprit perd 3...10 points de vie par ennemi perdant de la santé.</gray>"
+		},
+		"3039": {
+			id: 3039,
+			name: "Rajeunissement (PvP)",
+			description: "Vous créez un esprit de niveau 1...16. Celui-ci soigne tous les membres du groupe à portée de voix de 3...10 points de vie par seconde. Cet esprit perd 3...10 points de vie pour chaque membre du groupe soigné de cette manière. Il meurt au bout de 30...90 secondes.",
+			concise: "Crée un esprit de niveau 1...16 (durée de vie de 30...90 secondes). Soigne les membres du groupe à portée de voix de 3...10 points de vie par seconde. <gray>Coût des soins : cet esprit perd 3...10 points de vie.</gray>"
+		},
+		"3040": {
+			id: 3040,
+			name: "Hymne d'interruption (PvP)",
+			description: "Pendant 1...10 seconde(s), la prochaine compétence d'attaque utilisée par chaque allié à portée de voix interrompt également une action.",
+			concise: "(1...10 seconde(s).) La compétence d'attaque suivante des alliés à portée de voix interrompt une action."
+		},
+		"3045": {
+			id: 3045,
+			name: "Bien-être animal (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3047": {
+			id: 3047,
+			name: "Assaut de Melandru (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3048": {
+			id: 3048,
+			name: "Linceul de détresse (PvP)",
+			description: "Pendant 30...60 secondes, si votre santé est inférieure à 50%, vous avez 75% de chances de bloquer les attaques.",
+			concise: "(30...60 secondes.) Vous avez 75% de chances de bloquer. <gray>Sans effet si votre santé est inférieure à 50%.</gray>"
+		},
+		"3049": {
+			id: 3049,
+			name: "Furie invisible (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3050": {
+			id: 3050,
+			name: "Lien du prédateur (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3051": {
+			id: 3051,
+			name: "Coup enragé (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3053": {
+			id: 3053,
+			name: "Sceau de corruption mortelle (PvP)",
+			description: "Doit succéder à une attaque d'ambidextrie. Cette attaque inflige 5...35 points de dégâts pour chaque condition affectant l'ennemi visé (maximum : 130).",
+			concise: "Inflige 5...35 points de dégâts (maximum : 130) pour chaque condition affectant l'ennemi visé. <gray>Doit succéder à une attaque d'ambidextrie</gray>"
+		},
+		"3054": {
+			id: 3054,
+			name: "Masochisme (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3058": {
+			id: 3058,
+			name: "Festin impie (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3059": {
+			id: 3059,
+			name: "Sceau d'agonie (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3060": {
+			id: 3060,
+			name: "Echappatoire (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3061": {
+			id: 3061,
+			name: "Efflorescence mortelle (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3062": {
+			id: 3062,
+			name: "Finale de rétablissement (PvP)",
+			description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
+			concise: "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin.<gray> Vous ne pouvez pas viser les esprits.</gray>"
+		},
+		"3063": {
+			id: 3063,
+			name: "Mantra de résolution (PvP)",
+			description: "Pendant 5 secondes, vous ne pouvez pas être interrompu, mais pour chaque tentative d'interruption, soit vous perdez 10...4 points d'énergie, soit le Mantra de résolution prend fin.",
+			concise: ""
+		},
+		"3141": {
+			id: 3141,
+			name: "Réflexes foudroyants (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3143": {
+			id: 3143,
+			name: "Coup de renouvellement (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3144": {
+			id: 3144,
+			name: "Guérison partagée (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3145": {
+			id: 3145,
+			name: "Flèches de verre (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3147": {
+			id: 3147,
+			name: "Flèche vive (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3148": {
+			id: 3148,
+			name: "Hymne de jalousie (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3149": {
+			id: 3149,
+			name: "Refrain de réparation (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3151": {
+			id: 3151,
+			name: "Empathie (PvP)",
+			description: "Pendant 5...15 secondes, à chaque fois que l'ennemi visé attaque, il subit 15...47 points de dégâts.",
+			concise: ""
+		},
+		"3152": {
+			id: 3152,
+			name: "Angoisse paralysante (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3156": {
+			id: 3156,
+			name: "Pose du soldat (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3157": {
+			id: 3157,
+			name: "Glaive était destructeur (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3179": {
+			id: 3179,
+			name: "Mantra des sceaux (PvP)",
+			description: "Pendant 10...40 secondes, vous bénéficiez d'un bonus d'armure de +3 pour chaque sceau dont vous êtes équipé. Chaque fois que vous utilisez un sceau, vous gagnez 5...60 points de vie.",
+			concise: ""
+		},
+		"3180": {
+			id: 3180,
+			name: "Dispersion des illusions (PvP)",
+			description: "Lève un maléfice qui frappe l'ennemi visé. Si un maléfice est levé, cet ennemi et tous les ennemis adjacents subissent 15...75 points de dégâts.",
+			concise: "Lève un maléfice d'Envoûteur de la cible ennemie. Effet de la suppression : inflige 15...75 points de dégâts à la cible et aux ennemis adjacents."
+		},
+		"3181": {
+			id: 3181,
+			name: "Armes illusoires (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3183": {
+			id: 3183,
+			name: "Migraine (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3184": {
+			id: 3184,
+			name: "Cumul de douleur (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3185": {
+			id: 3185,
+			name: "Instabilité psychique (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3186": {
+			id: 3186,
+			name: "Fardeau partagé (PvP)",
+			description: "Pendant 5...20 secondes, la cible ennemie et tous les ennemis à proximité attaquent, lancent des sorts et se déplacent 50% plus lentement.",
+			concise: ""
+		},
+		"3187": {
+			id: 3187,
+			name: "Vol de vitesse (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3188": {
+			id: 3188,
+			name: "Sceau contre nature (PvP)",
+			description: "L'ennemi visé subit 15...75 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice ou d'un enchantement, les ennemis adjacents à votre cible subissent 5...50 points de dégâts.",
+			concise: ""
+		},
+		"3189": {
+			id: 3189,
+			name: "Douleur spirituelle (PvP)",
+			description: "L'ennemi visé subit 5...40 points de dégâts. Toutes les créatures hostiles invoquées situées près de cet ennemi subissent 25...125 points de dégâts.",
+			concise: "Inflige 5...40 points de dégâts. Inflige 25...125 points de dégâts aux créatures hostiles invoquées qui sont situées près de l'ennemi visé."
+		},
+		"3190": {
+			id: 3190,
+			name: "Frustration (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3191": {
+			id: 3191,
+			name: "Défiance (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3192": {
+			id: 3192,
+			name: "Enigme de l'enchanteur (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3193": {
+			id: 3193,
+			name: "Sceau de Maladresse (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3194": {
+			id: 3194,
+			name: "Miroir de désenchantement (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3195": {
+			id: 3195,
+			name: "Oeil errant (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3196": {
+			id: 3196,
+			name: "Risque calculé (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3204": {
+			id: 3204,
+			name: "Défi à la douleur (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3232": {
+			id: 3232,
+			name: "Guérison de groupe (PvP)",
+			description: "Soigne tout le groupe de 30...75 points de vie.",
+			concise: ""
+		},
+		"3233": {
+			id: 3233,
+			name: "Vainqueur dépouillé (PvP)",
+			description: "Pendant 3...15 secondes, chaque fois que l'ennemi ciblé attaque ou lance un sort sur une créature ayant moins de santé, cet ennemi perd 15...79 points de vie.",
+			concise: "(3...15 secondes.) Provoque une perte de 15...79 points de vie chaque fois que la cible ennemie attaque ou lance un sort sur une créature ayant une santé inférieure à la sienne."
+		},
+		"3234": {
+			id: 3234,
+			name: "Visions de Regret (PvP)",
+			description: "Pendant 10 secondes, la cible et les ennemis adjacents subissent 10...31 points de dégâts chaque fois qu'ils utilisent une compétence et 5...42 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur.",
+			concise: "Inflige également des maléfices aux ennemis adjacents à la cible (10 secondes). Ils subissent 10...41 points de dégâts chaque fois qu'ils utilisent une compétence et 5...42 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur."
+		},
+		"3251": {
+			id: 3251,
+			name: "Crocs du renard (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3252": {
+			id: 3252,
+			name: "Affront sauvage (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3263": {
+			id: 3263,
+			name: "Coup de bannissement (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3264": {
+			id: 3264,
+			name: "Fauchage des deux lunes (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3265": {
+			id: 3265,
+			name: "Fauchage impérieux (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3266": {
+			id: 3266,
+			name: "Assaut pieux (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3269": {
+			id: 3269,
+			name: "Mains directrices (PvP)",
+			description: "Pendant 20 secondes, vos 0...3 prochaines attaques au corps à corps ne peuvent pas être bloquées. Supprime l'Aveuglement.",
+			concise: ""
+		},
+		"3270": {
+			id: 3270,
+			name: "Avatar de Dwayna (PvP)",
+			description: "Pendant 10...90 secondes, vos attaques infligent des dégâts sacrés. Dès que vous utilisez une compétence de Derviche, vous perdez 1 maléfice. Quand vous perdez un enchantement de Derviche, vous êtes guéri à hauteur de 5...50. Cette compétence est inactive pendant 45 secondes.",
+			concise: ""
+		},
+		"3271": {
+			id: 3271,
+			name: "Avatar de Melandru (PvP)",
+			description: "Pendant 10...90 secondes, vous bénéficiez de +100 points de vie et de +30 points d'armure élémentaire. En outre, vos attaque infligent des dégâts de la terre. Quand vous perdez un enchantement de Derviche, vous perdez 2 conditions. Cette compétence est désactivée pendant 45 secondes.",
+			concise: ""
+		},
+		"3272": {
+			id: 3272,
+			name: "Guérison mystique (PvP)",
+			description: "Vous êtes soignés 5...69 points de vie. Soigne aussi tous les membre du groupe qui sot enchantés de 5...69 points de vie.",
+			concise: ""
+		},
+		"3273": {
+			id: 3273,
+			name: "Sceau de contrainte pieuse (PvP)",
+			description: "Vous perdez un enchantement de Derviche et la cible ennemie est frappée d'Infirmité pendant 5...15 secondes. Si un enchantement a été supprimé, cette compétence se recharge 75% plus vite.",
+			concise: ""
+		},
+		"3289": {
+			id: 3289,
+			name: "Rêves enfiévrés (PvP)",
+			description: "Pendant 10...25 secondes, chaque fois que l'ennemi visé est affecté par une nouvelle condition, tous les ennemis dans la zone en sont également affectés. Si la cible est affectée par au moins 2 conditions, elle est frappée de stupeur pendant 1...3 secondes.",
+			concise: ""
+		},
+		"3346": {
+			id: 3346,
+			name: "Aura d'épines (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3347": {
+			id: 3347,
+			name: "Manteau de mirage (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3348": {
+			id: 3348,
+			name: "Hâte de Lyssa (PvP)",
+			description: "Pendant 3...16 secondes, vos enchantements de Derviche se rechargent 33% plus vite. Interrompt les ennemis adjacents à l'activation. Interrompt les ennemis adjacents à la fin de l'enchantement. 50% d'échec avec moins de 5 en Prière du vent.",
+			concise: ""
+		},
+		"3365": {
+			id: 3365,
+			name: "Attaque (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3366": {
+			id: 3366,
+			name: "Coeur de furie (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3367": {
+			id: 3367,
+			name: "Attaque blessante (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3368": {
+			id: 3368,
+			name: "Fureur pieuse (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3373": {
+			id: 3373,
+			name: "Illusion de hâte (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3374": {
+			id: 3374,
+			name: "Illusion de douleur (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3375": {
+			id: 3375,
+			name: "Aura de rétablissement (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3386": {
+			id: 3386,
+			name: "Toile d'interruption (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3396": {
+			id: 3396,
+			name: "Masse foudroyante (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3397": {
+			id: 3397,
+			name: "Flamme élémentaire (PvP)",
+			description: "",
+			concise: ""
+		},
+		"3398": {
+			id: 3398,
+			name: "Terrain glissant (PvP)",
+			description: "Si l'ennemi visé est aveuglé ou en mouvement, il est assommé. (50% de risque d'échec avec Magie de l'eau 4 ou inférieure)",
+			concise: "Provoque l'assommement si cet ennemi est aveuglé ou en mouvement. <gray>50% de risque d'échec à moins d'avoir Magie de l'eau 5 ou supérieure.</gray>"
+		},
+		"3422": {
+			id: 3422,
+			name: "Protection du temps",
+			description: "Vous créez une Protection du Temps sur votre position actuelle. Pendant 3...15 secondes, les alliés situés dans cette zone et qui ne sont pas des esprits lancent des sorts 15...10% plus vite et recharge leurs compétences 15..20% plus vite.",
+			concise: ""
+		},
+		"3423": {
+			id: 3423,
+			name: "Preneur d'Âmes",
+			description: "Pendant 3...30 secondes, vos attaques sacrifient 15...20 points de vie et infligent 15...20 points de dégâts supplémentaires.",
+			concise: ""
+		},
+		"3424": {
+			id: 3424,
+			name: "Au-delà de la limite",
+			description: "Tant que cet enchantement est actif, vos sorts se lancent 15...20% plus vite et se rechargent 15...50% plus vite, cependant vous gagnez de l'Afflux en continu.",
+			concise: ""
+		},
+		"3425": {
+			id: 3425,
+			name: "Frappe du jugement",
+			description: "Attaque au corps à corps d'élite. Attaque la cible et les ennemis adjacents. Chaque attaque inflige +13...30 de dégâts sacrés et renverse les ennemis en combats. Compétence PvE",
+			concise: ""
+		},
+		"3426": {
+			id: 3426,
+			name: "Pose des septs armes",
+			description: "Pendant 3...20 secondes, vos caractéristiques d'armes augmentent de 1...15 et vos attaques sont 33% plus rapide.",
+			concise: ""
+		},
+		"3427": {
+			id: 3427,
+			name: "\"Ensemble et unis !\"",
+			description: "Pendant 3...15 secondes, tous les membres du groupe près de vous ou de votre familier infligent +5...15 points de dégâts supplémentaires et bénéficient d'une régénération de santé de +1...7.",
+			concise: ""
+		},
+		"3428": {
+			id: 3428,
+			name: "Voleur 'ombre",
+			description: "",
+			concise: ""
+		},
+		"3429": {
+			id: 3429,
+			name: "Armes des trois forges",
+			description: "Pendant 3...20 secondes, les alliés situés à portée de voix et qui ne sont pas des esprits bénéficient des effets d'un sort d'altération d'arme aléatoire.",
+			concise: ""
+		},
+		"3430": {
+			id: 3430,
+			name: "Voeu de révolution",
+			description: "Pendant 3...10 secondes, vous bénéficiez d'une régénération d'énergie de +1...6. Cette compétence s'applique à nouveau à chaque fois que vous utilisez une compétence qui n'est pas une compétence de Derviche.",
+			concise: ""
+		},
+		"3431": {
+			id: 3431,
+			name: "Rengaine héroïque",
+			description: "Echo d'élite. Pendant 3...15 secondes, l'allié ciblé, s'il n'est pas un esprit, bénéficie de +1...3 pour toutes ses caractéristiques. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin. <gray>Compétence PvE</gray>",
+			concise: ""
+		},
+		"3437": {
+			id: 3437,
+			name: "Faux du fermier (PvP)",
+			description: "Si cette attaque réussit, vous infligez +5...35 points de dégâts. Si vous frappez plus d'un ennemi, cette attaque se recharge instantanément.",
+			concise: ""
+		},
+		"3442": {
+			id: 3442,
+			name: "Lancer puissant (PvP)",
+			description: "",
+			concise: ""
+		}
+	};
+	var fr = {
+		lang: lang,
+		skilldesc: skilldesc
+	};
+
+	/**
+	 * @created      21.08.2026
+	 * @author       smiley <smiley@chillerlan.net>
+	 * @copyright    2026 smiley
+	 * @license      MIT
+	 */
+
+
+	/** @final */
+	class SkillLangGerman extends SkillDataAbstract{
+		lang      = fr.lang;
+		skilldesc = fr.skilldesc;
 	}
 
 	exports.Attribute = Attribute;
@@ -49241,7 +58598,8 @@
 	exports.Profession = Profession;
 	exports.Skill = Skill;
 	exports.SkillLangEnglish = SkillLangEnglish;
-	exports.SkillLangGerman = SkillLangGerman;
+	exports.SkillLangFrench = SkillLangGerman;
+	exports.SkillLangGerman = SkillLangGerman$1;
 	exports.Type = Type;
 
 }));
