@@ -126,7 +126,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 		// remove/fix some templates first
 		$data    = strtr($data['revisions'][0]['slots']['main']['*'], static::PRE_PARSE_REPLACE);
-		$infobox = $this->getInfobox($data, static::INFOBOX_NAME);
+		$infobox = $this->getInfobox($data, static::INFOBOX_NAME, $id);
 
 		if($infobox === null){
 			$this->logger->warning(sprintf('could not parse infobox for skill %s', $id));
@@ -173,7 +173,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 			return null;
 		}
 
-		$data = $response->getBody()->getContents();
+		$data = MessageUtil::decompress($response);
 		$json = Str::jsonDecode($data, true);
 
 		// check for a redirect and save the response data to cache
@@ -236,7 +236,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 			throw new RuntimeException(sprintf('request error: http/%s at %s', $status, $request->getUri()->getHost()));
 		}
 
-		$content = MessageUtil::getContents($response);
+		$content = MessageUtil::decompress($response);
 
 		File::save($filename, $content);
 
@@ -304,7 +304,8 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 			// using code 420 here to indicate a cache response
 			return $this->responseFactory
 				->createResponse(420)
-				->withHeader('content-type', 'application/json')
+				->withHeader('Content-Type', 'application/json')
+				->withHeader('Accept-Encoding', 'gzip')
 				->withBody($stream);
 		}
 
@@ -319,7 +320,9 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		return $this->http->sendRequest($request);
 	}
 
-	protected function getInfobox(string $data, string $templateName):string|null{
+	protected function getInfobox(string $data, string $templateName, int $id):string|null{
+		// for some reason random html comments can break the infobox match pattern
+		$data = preg_replace('/<!--(.*)-->/', '', $data);
 		// find all matching pairs of double braces
 		preg_match_all('/\{\{(?:(?:[^\{\}]+)|(?R))*\}\}/', $data, $matches, PREG_SET_ORDER);
 

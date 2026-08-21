@@ -106,7 +106,7 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 		$infobox = preg_replace($s, $r, $infobox);
 
 		// clean out unwanted braces etc.
-		$infobox = str_ireplace(['Skill infobox', '<gray>PvE Skill</gray>', '{', '}', '[', ']', "'''"], '', $infobox);
+		$infobox = str_ireplace([self::INFOBOX_NAME, '<gray>PvE Skill</gray>', '{', '}', '[', ']', "'''"], '', $infobox);
 
 		$infobox = strtr($infobox, [
 			'(s)'         => '[s]',

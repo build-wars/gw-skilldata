@@ -104,15 +104,14 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 			'/\[\[[^\[\|]+\|([^\[\|]+)\]\]/',
 			// random templates
 			'/\{\{[a-z]+\|([^\{\}]+)\}\}/i',
-			// html comments
-			'/<!--(.*)-->/',
+			'/\s+/',
 		];
 
 		$r = [
 			'$1...$2',
 			'$1',
 			'<gray>$1</gray>',
-			'',
+			' ',
 		];
 
 		$infobox = preg_replace($s, $r, $infobox);
@@ -122,7 +121,7 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 			[
 				'{', '}',
 				'[', ']',
-				'infobox fertigkeit',
+				self::INFOBOX_NAME,
 				'kurzbeschreibungstyp',
 				'(Rollenspiel-Fertigkeit)',
 			],

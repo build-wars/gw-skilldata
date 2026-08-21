@@ -26,6 +26,7 @@ trait SkillDataAwareTrait{
 	private array $LANGUAGES = [
 		Lang::DE => SkillLangGerman::class,
 		Lang::EN => SkillLangEnglish::class,
+		Lang::FR => SkillLangFrench::class,
 	];
 
 	protected SkillDataInterface $skillData;

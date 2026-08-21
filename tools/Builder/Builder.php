@@ -20,11 +20,13 @@ use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\SkillLangEnglish;
+use Buildwars\GWSkillData\SkillLangFrench;
 use Buildwars\GWSkillData\SkillLangGerman;
 use Buildwars\GWSkillData\Type;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherAbstract;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherEnglish;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherFrench;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherGerman;
 use chillerlan\HTTP\CurlClient;
 use chillerlan\HTTP\Psr7\HTTPFactory;
@@ -56,6 +58,7 @@ use function strtoupper;
 use function strtr;
 use function trim;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
+use const DATA_DIR;
 use const SRCDIR;
 
 class Builder{
@@ -75,18 +78,21 @@ class Builder{
 	protected const JSON_LANG_FILES = [
 		Lang::DE => DATA_DIR.'/json-full/skilldesc-de.json',
 		Lang::EN => DATA_DIR.'/json-full/skilldesc-en.json',
+		Lang::FR => DATA_DIR.'/json-full/skilldesc-fr.json',
 	];
 
 	/** @var array<string, string>  */
 	public const DATABASES = [
 		Lang::DE => SkillLangGerman::class,
 		Lang::EN => SkillLangEnglish::class,
+		Lang::FR => SkillLangFrench::class,
 	];
 
 	/** @var array<string, string>  */
 	protected const WIKIFETCHERS = [
 		Lang::DE => WikiFetcherGerman::class,
 		Lang::EN => WikiFetcherEnglish::class,
+		Lang::FR => WikiFetcherFrench::class,
 	];
 
 	protected readonly SettingsContainerInterface|BuilderOptions $options;
@@ -283,24 +289,20 @@ class Builder{
 		$jsonData = File::loadJSON(static::JSON_DATA_FILE, true);
 		$jsonLang = [];
 
-		foreach(static::JSON_LANG_FILES as $lang => $file){
+		foreach(Lang::IDS as $lang){
+			$file = static::JSON_LANG_FILES[$lang];
+
 			$jsonLang[$lang] = File::loadJSON($file, true);
 		}
 
 		foreach($jsonData['skilldata'] as $skillID => &$skillData){
 			foreach(Lang::IDS as $lang){
 				$desc = $jsonLang[$lang]['skilldesc'][$skillID];
-				$prof = new Profession($skillData[Skill::DATA_PROFESSION], $lang);
 
 				$skillData['lang'][$lang] = [
 					Skill::DESC_NAME        => $desc[Skill::DESC_NAME],
 					Skill::DESC_DESCRIPTION => $desc[Skill::DESC_DESCRIPTION],
 					Skill::DESC_CONCISE     => $desc[Skill::DESC_CONCISE],
-					Skill::DATA_CAMPAIGN    => (new Campaign($skillData[Skill::DATA_CAMPAIGN], $lang))->getName(),
-					Skill::DATA_PROFESSION  => $prof->getName(),
-					'profession_abbr'       => $prof->getAbbr(),
-					Skill::DATA_ATTRIBUTE   => (new Attribute($skillData[Skill::DATA_ATTRIBUTE], $lang))->getName(),
-					Skill::DATA_TYPE        => (new Type($skillData[Skill::DATA_TYPE], $lang))->getName(),
 				];
 			}
 
@@ -328,7 +330,9 @@ class Builder{
 	 */
 	public function fetchSkilldescToCache():static{
 
-		foreach(static::WIKIFETCHERS as $lang => $fqcn){
+		foreach(Lang::IDS as $lang){
+			$fqcn = static::WIKIFETCHERS[$lang];
+
 			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger, $this->databases[$lang]);
 			$skilldesc  = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
 			$skillnames = array_column($skilldesc['skilldesc'], Skill::DESC_NAME, Skill::DATA_ID);
@@ -353,7 +357,9 @@ class Builder{
 	public function fetchSkilldesc():static{
 		$jsonData = File::loadJSON(static::JSON_DATA_FILE, true);
 
-		foreach(static::WIKIFETCHERS as $lang => $fqcn){
+		foreach(Lang::IDS as $lang){
+			$fqcn = static::WIKIFETCHERS[$lang];
+
 			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger, $this->databases[$lang]);
 			// load the previously created JSON
 			$skilldesc = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
@@ -370,6 +376,12 @@ class Builder{
 
 				// update skill descriptions
 				foreach(Skill::KEYS_DESC as $k){
+
+					if($data === null){
+						$desc[$k] = ($k === Skill::DESC_NAME) ? $desc[Skill::DESC_NAME] : '';
+
+						continue;
+					}
 
 					if($k === Skill::DESC_NAME && $data[Skill::DESC_NAME] !== $desc[Skill::DESC_NAME]){
 						$this->logger->info(sprintf('name fix: %s => %s', $desc[Skill::DESC_NAME], $data[Skill::DESC_NAME]));
@@ -444,7 +456,8 @@ class Builder{
 		$this->logger->info(sprintf('class SkillData saved to: %s', $savepath));
 
 
-		foreach(static::JSON_LANG_FILES as $lang => $file){
+		foreach(Lang::IDS as $lang){
+			$file     = self::JSON_LANG_FILES[$lang];
 			$json     = File::loadJSON($file, true);
 			$language = (new Lang($lang))->getName();
 
@@ -511,7 +524,9 @@ class Builder{
 
 	protected function saveSkillDescriptions(array $skilldesc):void{
 
-		foreach(static::JSON_LANG_FILES as $lang => $file){
+		foreach(Lang::IDS as $lang){
+			$file = self::JSON_LANG_FILES[$lang];
+
 			ksort($skilldesc[$lang]);
 
 			$jsonData = [
@@ -535,7 +550,7 @@ class Builder{
 		foreach(Skill::KEYS_DATA as $key){
 			$fields[$key] = null;
 
-			if($key === 'id'){
+			if($key === Skill::DATA_ID){
 				$fields[$key] = $id;
 			}
 		}
@@ -544,7 +559,7 @@ class Builder{
 	}
 
 	protected function createLangFields(int $id):array{
-		$fields = ['id' => $id];
+		$fields = [Skill::DATA_ID => $id];
 
 		foreach(Skill::KEYS_DESC as $key){
 			$fields[$key] = null;

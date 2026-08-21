@@ -21,6 +21,7 @@ use function array_combine;
 use function array_flip;
 use function array_key_exists;
 use function array_map;
+use function array_merge;
 use function boolval;
 use function count;
 use function date;
@@ -152,53 +153,11 @@ final class PawnedBuilder extends Builder{
 		Type::TOUCH_SIGNET            => Type::SIGNET,
 	];
 
-	protected const INI_DE = <<<ini_de
-[Menu]
-Name="Deutsch ({MODE}, {TYPE}, buildwars)"
-Hint="Daten von GuildWiki und GWW, erstellt von smiley, github.com/build-wars"
-[Update]
-Provider="buildwars"
-Date={DATE}
-Hash={HASH}
-[Network]
-DownloadSafeCSV="{FILE_URL}.csv"
-DownloadSafeINI="{FILE_URL}.ini"
-[Wiki]
-WikiShow="https://www.guildwiki.de/wiki/%wikistr%"
-WikiEdit="https://www.guildwiki.de/gwiki/index.php?title=%wikistr%&action=edit"
-PrimaryDE=False
-ShowWikia=False
-[rebuilt]
-Expect={SKILL_COUNT}
-Lang=DE
-ini_de;
-
-	protected const INI_EN = <<<ini_en
-[Menu]
-Name="Englisch ({MODE}, {TYPE}, buildwars)"
-Hint="Data from GuildWiki and GWW, by smiley, github.com/build-wars"
-[Update]
-Provider="buildwars"
-Date={DATE}
-Hash={HASH}
-[Network]
-DownloadSafeCSV="{FILE_URL}.csv"
-DownloadSafeINI="{FILE_URL}.ini"
-[Wiki]
-WikiShow="https://wiki.guildwars.com/wiki/%wikistr%"
-WikiEdit="https://wiki.guildwars.com/index.php?title=%wikistr%&action=edit"
-PrimaryEN=False
-ShowGWW=False
-ShowWikia=False
-[rebuilt]
-Expect={SKILL_COUNT}
-Lang=EN
-ini_en;
-
 	protected const ini_body = [
-		Lang::DE      => self::INI_DE,
-		Lang::EN      => self::INI_EN,
-		self::LANG_EN => self::INI_EN,
+		Lang::DE      => __DIR__.'/pawned_de.ini',
+		Lang::EN      => __DIR__.'/pawned_en.ini',
+		Lang::FR      => __DIR__.'/pawned_fr.ini',
+		self::LANG_EN => __DIR__.'/pawned_en.ini',
 	];
 
 	protected function assignKeys(array $skill):array{
@@ -309,16 +268,17 @@ ini_en;
 		$empty_fields = ['name2' => '', 'empty1' => 0, 'empty2' => 0, 'empty3' => ''];
 
 		// now create the CSV
-		foreach([Lang::DE, Lang::EN, self::LANG_EN] as $lang){
+		foreach(array_merge(Lang::IDS, [self::LANG_EN]) as $lang){
 
 			$lang2 = match($lang){
 				Lang::DE, self::LANG_EN => Lang::EN,
-				Lang::EN                => Lang::DE,
+				Lang::EN, Lang::FR      => Lang::DE,
 			};
 
 			$dblang = match($lang){
 				Lang::DE                => Lang::DE,
 				Lang::EN, self::LANG_EN => Lang::EN,
+				Lang::FR                => Lang::FR,
 			};
 
 			foreach([Skill::MODE_PVE, Skill::MODE_PVP] as $mode){
@@ -422,7 +382,9 @@ ini_en;
 			throw new RuntimeException(sprintf('could not move temp file "%s" to "%s"', $tempfile, $csvpath));
 		}
 
-		$ini = strtr(self::ini_body[$lang], [
+		$ini_body = File::load(self::ini_body[$lang]);
+
+		$ini = strtr($ini_body, [
 			'{MODE}'        => $mode,
 			'{TYPE}'        => $concise ? 'concise' : 'full',
 			'{DATE}'        => date('YmdHi'),

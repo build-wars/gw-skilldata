@@ -28,7 +28,7 @@ final class Lang{
 	public const IDS = [
 		self::DE,
 		self::EN,
-#		self::FR,
+		self::FR,
 	];
 
 	/**
