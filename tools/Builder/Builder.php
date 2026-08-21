@@ -22,7 +22,6 @@ use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\SkillLangEnglish;
 use Buildwars\GWSkillData\SkillLangFrench;
 use Buildwars\GWSkillData\SkillLangGerman;
-use Buildwars\GWSkillData\Type;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherAbstract;
 use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherEnglish;

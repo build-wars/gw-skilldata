@@ -99,7 +99,7 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		'&#20;'       => ' ',
 		'&#45;'       => '-',
 		'&#x2d;'      => '-',
-		'&#34;'      =>  '"',
+		'&#34;'       => '"',
 		'd&#39;'      => "'",
 	];
 
@@ -142,7 +142,7 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		// combine keys and values
 		$infobox = array_combine(array_column($infobox, 0), array_column($infobox, 1));
 
-		$name = ($infobox['nom_infobox'] ?: $infobox['nom']);
+		$name = ($infobox['nom_infobox'] ?: $infobox['nom']); // phpcs:ignore
 		$name .= match(true){
 			in_array($id, self::Luxon, true)                                  => ' (Luxon)',
 			in_array($id, self::Kurzick, true)                                => ' (Kurzick)',
