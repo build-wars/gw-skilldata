@@ -100,7 +100,7 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		'&#45;'       => '-',
 		'&#x2d;'      => '-',
 		'&#34;'       => '"',
-		'd&#39;'      => "'",
+		'&#39;'       => "'",
 	];
 
 	protected function parseInfobox(string $infobox, int $id):array{
