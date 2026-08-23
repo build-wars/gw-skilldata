@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 abstract class SkillData extends SkillDataAbstract{
-public const ID2DATA = [
+protected const ID2DATA = [
 0=>[0,0,0,101,false,false,false,false,0,0,0,0,0,0,0,0,0,0],
 1=>[1,0,1,21,false,false,false,false,0,21,0,0,2,4,0,0,0,0],
 2=>[2,0,0,101,false,false,false,false,0,21,0,0,3,0,0,0,0,0],

@@ -44,24 +44,28 @@ const KNOWN_DISCREPANCIES = [
 $use_known_discrepancies = true;
 
 $databases = array_map(fn(string $fqcn):SkillDataInterface => new $fqcn, Builder::DATABASES);
+$pvp_split = $databases[Lang::EN]->getIDs(true);
 $diffs     = [];
 
-foreach($databases[Lang::EN]::ID2DESC as $id => $lang1){
+foreach($databases[Lang::EN]->getIDs() as $id){
+	$pvp   = in_array($id, $pvp_split, true);
+	$lang1 = $databases[Lang::EN]->get($id, $pvp)->toArray();
+
 	foreach(Lang::IDS as $lang){
 
 		if($lang === Lang::EN){
 			continue;
 		}
 
-		$lang2 = $databases[$lang]::ID2DESC[$id];
+		$lang2 = $databases[$lang]->get($id, $pvp)->toArray();
 
-		foreach(Skill::KEYS_DESC as $pos => $key){
+		foreach(Skill::KEYS_DESC as $key){
 
 			if($key === Skill::DESC_NAME){
 				continue;
 			}
 
-			$diff = diffProgressions($lang1[$pos], $lang2[$pos]);
+			$diff = diffProgressions($lang1[$key], $lang2[$key]);
 
 			if($diff === null || ($use_known_discrepancies && in_array($id, KNOWN_DISCREPANCIES[$lang], true))){
 				continue;
@@ -70,8 +74,8 @@ foreach($databases[Lang::EN]::ID2DESC as $id => $lang1){
 			[$match1, $match2] = $diff;
 
 			$diffs[$id][$lang][$key] = [
-				Lang::EN => ['name' => $lang1[0], 'text' => $lang1[$pos], 'prog' => $match1],
-				$lang    => ['name' => $lang2[0], 'text' => $lang2[$pos], 'prog' => $match2],
+				Lang::EN => ['name' => $lang1[Skill::DESC_NAME], 'text' => $lang1[$key], 'prog' => $match1],
+				$lang    => ['name' => $lang2[Skill::DESC_NAME], 'text' => $lang2[$key], 'prog' => $match2],
 			];
 		}
 	}

@@ -14,6 +14,7 @@ namespace Buildwars\GWSkillData;
 use InvalidArgumentException;
 use function array_combine;
 use function array_key_exists;
+use function array_keys;
 use function array_map;
 use function array_merge;
 use function in_array;
@@ -22,6 +23,21 @@ use function in_array;
  * Utility methods for the static skill data and description classes
  */
 abstract class SkillDataAbstract implements SkillDataInterface{
+
+	/**
+	 * The descriptions array
+	 *
+	 * @var array<int, string>
+	 */
+	protected const ID2DESC = [];
+
+	/**
+	 * The data array
+	 *
+	 * @var array<int, scalar[]>
+	 */
+	protected const ID2DATA = [];
+
 
 	/** @phan-suppress PhanTypeMismatchArgumentNullableInternal */
 	public function get(int $id, bool $pvp = false):Skill{
@@ -128,7 +144,12 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return $this->getByKey(Skill::DATA_IS_RP, true, false);
 	}
 
-	public function getIDs(bool $pvp = false):array{
+	public function getIDs(bool|null $pvp = null):array{
+
+		if($pvp === null){
+			return array_keys(static::ID2DATA);
+		}
+
 		$keyID = Skill::getDataKeyID(Skill::DATA_IS_PVP);
 		$ids   = [];
 

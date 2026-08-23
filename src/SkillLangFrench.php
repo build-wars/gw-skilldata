@@ -3,7 +3,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 final class SkillLangFrench extends SkillData{
 public const LANG = Lang::FR;
-public const ID2DESC = [
+protected const ID2DESC = [
 0=>['Compétence vide','Emplacement de compétence vide','Emplacement vide'],
 1=>['Sceau de guérison','Vous gagnez 82...172 points de vie. Votre bonus d\'armure est réduit de -40 quand vous utilisez cette compétence.','Vous gagnez 82...172 points de vie. <gray>Votre bonus d\'armure est réduit de -40 quand vous utilisez cette compétence.</gray>'],
 2=>['Sceau de résurrection','Ressuscite un membre du groupe. Celui-ci revient à la vie avec 100% de vie et 25% d\'énergie. Ce sceau ne se recharge que lorsque vous obtenez une augmentation de moral.','Ressuscite le membre du groupe visé (100% de santé et 25% d\'énergie).'],

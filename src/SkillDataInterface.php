@@ -32,20 +32,6 @@ interface SkillDataInterface{
 	final public const KEYS_DATA = Skill::KEYS_DATA;
 
 	/**
-	 * The descriptions array
-	 *
-	 * @var array<int, string>
-	 */
-	public const ID2DESC = [];
-
-	/**
-	 * The data array
-	 *
-	 * @var array<int, scalar[]>
-	 */
-	public const ID2DATA = [];
-
-	/**
 	 * The language abbreviation, key for the several `name` arrays
 	 *
 	 * @see \Buildwars\GWSkillData\Lang::IDS
@@ -121,10 +107,11 @@ interface SkillDataInterface{
 	/**
 	 * Returns a list of all skill IDs excluding PvP versions.
 	 *
-	 * If `$pvp` is set to `true`, a list of PvP version IDs is returned.
+	 * If `$pvp` is set to `true` or `false`, a list of PvP or PvE only respecively IDs is returned,
+	 * if it is set to `null` (default), the full list of IDs is returned.
 	 *
 	 * @return int[]
 	 */
-	public function getIDs(bool $pvp = false):array;
+	public function getIDs(bool|null $pvp = null):array;
 
 }

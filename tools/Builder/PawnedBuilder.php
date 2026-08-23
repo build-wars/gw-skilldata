@@ -287,7 +287,7 @@ final class PawnedBuilder extends Builder{
 				foreach([Skill::DESC_DESCRIPTION, Skill::DESC_CONCISE] as $desc_type){
 					$pwnd = [];
 
-					foreach($this->databases[$dblang]->getIDs() as $id){
+					foreach($this->databases[$dblang]->getIDs(false) as $id){
 						$data  = $this->databases[$dblang]->get($id, $pvp)->toArray();
 						$data += $empty_fields;
 						$row   = [];
