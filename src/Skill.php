@@ -74,7 +74,7 @@ final class Skill{
 		self::DATA_ADRENALINE_PRECISE, self::DATA_SACRIFICE, self::DATA_EXHAUSTION,
 	];
 
-	public const FIELD_NAMES = [
+	private const FIELD_NAMES = [
 		self::MODE_PVE                => [Lang::DE => 'Rollenspiel',               Lang::EN => 'Roleplay',                 ],
 		self::MODE_PVP                => [Lang::DE => 'Spieler gegen Spieler',     Lang::EN => 'Player versus Player',     ],
 		self::DATA_ATTRIBUTE          => [Lang::DE => 'Attribut',                  Lang::EN => 'Attribute',                ],

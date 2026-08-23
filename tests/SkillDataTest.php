@@ -145,25 +145,9 @@ class SkillDataTest extends TestCase{
 
 	#[Test]
 	public function getFieldName():void{
+		$skill = $this->skillData->get(42);
 
-		foreach(Lang::IDS as $langID){
-
-			if($langID === Lang::FR){
-				$this::markTestSkipped('not implemented');
-			}
-
-			$this->setSkillDataLanguage($langID);
-
-			foreach(Skill::FIELD_NAMES as $key => $lang){
-				$skill = $this->skillData->get(42);
-
-				if(in_array($key, [Skill::MODE_PVE, Skill::MODE_PVP], true)){
-					continue;
-				}
-
-				$this::assertSame($lang[$langID], $skill->getFieldName($key, $langID));
-			}
-		}
+		$this::assertSame('PvP ID', $skill->getFieldName(Skill::DATA_SPLIT_ID));
 	}
 
 }

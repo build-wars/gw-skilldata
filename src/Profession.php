@@ -81,7 +81,7 @@ final class Profession extends DataObjectAbstract{
 	];
 
 	/** @var array<int, int> */
-	public const CAMPAIGN = [
+	private const CAMPAIGN = [
 		self::NONE         => Campaign::CORE,
 		self::WARRIOR      => Campaign::CORE,
 		self::RANGER       => Campaign::CORE,

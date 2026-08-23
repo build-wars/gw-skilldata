@@ -283,7 +283,7 @@ final class Type extends DataObjectAbstract{
 		],
 	];
 
-	public const SUBTYPES = [
+	private const SUBTYPES = [
 		self::ATTACK_SKILL      => [
 			self::MELEE_ATTACK, self::RANGED_ATTACK, self::BOW_ATTACK, self::AXE_ATTACK, self::LEAD_ATTACK, self::OFF_HAND_ATTACK,
 			self::DUAL_ATTACK, self::HAMMER_ATTACK, self::SCYTHE_ATTACK, self::SWORD_ATTACK, self::PET_ATTACK, self::SPEAR_ATTACK,

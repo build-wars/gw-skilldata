@@ -342,7 +342,7 @@ final class Attribute extends DataObjectAbstract{
 		],
 	];
 
-	public const PROFESSION = [
+	private const PROFESSION = [
 		self::FAST_CASTING        => Profession::MESMER,
 		self::ILLUSION_MAGIC      => Profession::MESMER,
 		self::DOMINATION_MAGIC    => Profession::MESMER,
@@ -396,7 +396,7 @@ final class Attribute extends DataObjectAbstract{
 		self::TITLE_NORN          => Profession::NONE,
 	];
 
-	public const MAX_VALUE = [
+	private const MAX_VALUE = [
 		self::FAST_CASTING        => 21,
 		self::ILLUSION_MAGIC      => 21,
 		self::DOMINATION_MAGIC    => 21,
