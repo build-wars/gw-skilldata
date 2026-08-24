@@ -4,7 +4,7 @@
  * @copyright    2026 smiley
  * @license      MIT
  */
-import {Campaign, Lang} from '../../es6/index.js';
+import {Campaign, Lang} from '../es6/index.js';
 
 import {suite, test} from 'mocha';
 import {assert} from 'chai';

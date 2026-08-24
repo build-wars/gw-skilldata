@@ -4,8 +4,8 @@
  * @copyright    2024 smiley
  * @license      MIT
  */
-import {Attribute, Campaign, Profession, SkillLangEnglish, SkillLangGerman, Type} from '../../es6/index.js';
-import SkillDataAbstract from '../../es6/SkillDataAbstract.js';
+import {Attribute, Campaign, Profession, SkillLangEnglish, SkillLangGerman, Type} from '../es6/index.js';
+import SkillDataAbstract from '../es6/SkillDataAbstract.js';
 
 import {beforeEach, suite, test} from 'mocha';
 import {assert} from 'chai';

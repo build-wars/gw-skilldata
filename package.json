@@ -66,7 +66,7 @@
 		"@rollup/rollup-linux-x64-gnu": "^4.62"
 	},
 	"scripts": {
-		"lint": "eslint ./es6 ./tests",
+		"lint": "eslint ./es6 ./tests-js",
 		"build": "rollup -c rollup.config.dist.js",
 		"build-src": "rollup -c rollup.config.src.js",
 		"test": "mocha",

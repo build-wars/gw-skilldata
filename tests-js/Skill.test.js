@@ -4,8 +4,8 @@
  * @copyright    2026 smiley
  * @license      MIT
  */
-import {Attribute, Campaign, Lang, Profession, Skill, Type} from '../../es6/index.js';
-import DataObjectAbstract from '../../es6/DataObjectAbstract.js';
+import {Attribute, Campaign, Lang, Profession, Skill, Type} from '../es6/index.js';
+import DataObjectAbstract from '../es6/DataObjectAbstract.js';
 
 import {suite, test} from 'mocha';
 import {assert} from 'chai';

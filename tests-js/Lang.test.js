@@ -4,7 +4,7 @@
  * @copyright    2026 smiley
  * @license      MIT
  */
-import {Lang} from '../../es6/index.js';
+import {Lang} from '../es6/index.js';
 
 import {suite, test} from 'mocha';
 import {assert} from 'chai';
