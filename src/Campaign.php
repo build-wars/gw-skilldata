@@ -28,7 +28,7 @@ final class Campaign extends DataObjectAbstract{
 		self::CORE             => [
 			Lang::DE => 'Basis',
 			Lang::EN => 'Core',
-			Lang::FR => 'Fondamentale',
+			Lang::FR => 'Core', //Fondamentale
 		],
 		self::PROPHECIES       => [
 			Lang::DE => 'Prophecies',
