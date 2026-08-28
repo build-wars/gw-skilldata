@@ -13,6 +13,7 @@ namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
 use function in_array;
+use function sprintf;
 use function strtolower;
 use function trim;
 
@@ -41,6 +42,12 @@ final class Lang{
 		self::FR => 'French',
 	];
 
+	public const PVP_SUFFIX = [
+		self::DE => '%s (PvP)',
+		self::EN => '%s (PvP)',
+		self::FR => '%s (PvP)',
+	];
+
 	public readonly string $id;
 
 	public function __construct(string $id){
@@ -59,5 +66,12 @@ final class Lang{
 	public function getName():string{
 		return self::NAMES[$this->id];
 	}
+	/**
+	 * Adds a "(PvP)" suffix
+	 */
+	public function getPvpName(string $name):string{
+		return sprintf(self::PVP_SUFFIX[$this->id], $name);
+	}
+
 
 }

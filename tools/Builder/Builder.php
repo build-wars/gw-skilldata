@@ -121,7 +121,7 @@ class Builder{
 	}
 
 	/**
-	 * Adds a new skill
+	 * Adds a new skill or overwrites existing data
 	 *
 	 * needs to be run before `create()`
 	 */
@@ -202,45 +202,63 @@ class Builder{
 
 		// create language skeletons for the list of known IDs
 		foreach($this->skilldata as $id => $_){
-			foreach(Lang::IDS as $lang){
-				$this->skilldesc[$lang][$id] = $this->createLangFields($id);
+			foreach(Lang::IDS as $langID){
+				$this->skilldesc[$langID][$id] = $this->createLangFields($id);
 			}
 		}
 
 		// now fill the skill data with the known values
 		foreach($this->skilldata as $id => &$row){
-			foreach(Lang::IDS as $lang){
+			$is_pvp = in_array($id, PVP_SPLIT, true);
+
+			foreach(Lang::IDS as $langID){
+				$lang = new Lang($langID);
 
 				try{
-					$current = $this->databases[$lang]->get($id, in_array($id, PVP_SPLIT, true));
+					$current = $this->databases[$langID]->get($id, $is_pvp);
+					// add the skill name
+					$this->skilldesc[$langID][$id][Skill::DESC_NAME] = $current->name;
+
 				}
-				// the skill might be a new pvp redirect, data is added later
 				catch(InvalidArgumentException){
-					$this->logger->warning(sprintf('invalid data for [%-4s][%s]', $id, $lang));
 
-					continue;
+					// the skill might be a new pvp redirect, data is added later
+					if($is_pvp){
+						// get the pve version
+						$current = $this->databases[$langID]->get(PVP_SPLIT_FLIP[$id], false);
+						// add the skill name and a (PvP) suffix
+						$this->skilldesc[$langID][$id][Skill::DESC_NAME] = $lang->getPvpName($current->name);
+					}
+					// garbage data!?
+					else{
+						$this->logger->warning(sprintf('invalid data for [%-4s][%s]', $id, $langID));
+
+						continue;
+					}
+
 				}
-
-				// add the skill name
-				$this->skilldesc[$lang][$id][Skill::DESC_NAME] = $current->name;
 
 				// we only need to update the data once here
-				if($lang !== Lang::EN){
+				if($langID !== Lang::EN){
 					continue;
 				}
 
 				// update skill data
 				foreach($current->toArray() as $key => $value){
+					// the array key is the true index here
+					if($key === Skill::DATA_ID){
+						$row[$key] = $id;
+					}
 					// we'll keep these fields as they shouldn't change, and if so, a manual update is warranted
 					if(in_array($key, [
-						Skill::DATA_ID, Skill::DATA_CAMPAIGN, Skill::DATA_PROFESSION,
+						Skill::DATA_CAMPAIGN, Skill::DATA_PROFESSION,
 						Skill::DATA_ATTRIBUTE, Skill::DATA_IS_ELITE, Skill::DATA_IS_RP,
 					], true)){
 						$row[$key] = $value;
 					}
 					// this skill *is* a pvp version
 					if($key === Skill::DATA_IS_PVP){
-						$row[$key] = in_array($id, PVP_SPLIT, true);
+						$row[$key] = $is_pvp;
 					}
 					// the skill *has* a pvp version
 					if($key === Skill::DATA_PVP_SPLIT){
@@ -263,13 +281,13 @@ class Builder{
 		foreach($this->new_skilldata as $id => $new_row){
 			$this->skilldata[$id] = $new_row;
 
-			foreach(Lang::IDS as $lang){
+			foreach(Lang::IDS as $langID){
 
-				if(!array_key_exists($id, $this->new_skilldesc[$lang])){
-					throw new RuntimeException(sprintf('invalid skill descriptions for [%-4s][%s]', $id, $lang));
+				if(!array_key_exists($id, $this->new_skilldesc[$langID])){
+					throw new RuntimeException(sprintf('invalid skill descriptions for [%-4s][%s]', $id, $langID));
 				}
 
-				$this->skilldesc[$lang][$id] = $this->new_skilldesc[$lang][$id];
+				$this->skilldesc[$langID][$id] = $this->new_skilldesc[$langID][$id];
 			}
 		}
 
@@ -357,30 +375,20 @@ class Builder{
 		$jsonData = File::loadJSON(static::JSON_DATA_FILE, true);
 
 		foreach(Lang::IDS as $lang){
-			$fqcn = static::WIKIFETCHERS[$lang];
-
-			$this->wikiFetcher = new $fqcn($this->options, $this->http, $this->logger, $this->databases[$lang]);
-			// load the previously created JSON
+			$this->wikiFetcher = new (static::WIKIFETCHERS[$lang])(
+				$this->options,
+				$this->http,
+				$this->logger,
+				$this->databases[$lang],
+			);
+			// load the previously created language JSON
 			$skilldesc = File::loadJSON(static::JSON_LANG_FILES[$lang], true);
 
 			foreach($skilldesc['skilldesc'] as &$desc){
-				$current = $this->databases[$lang]->get($desc[Skill::DATA_ID], in_array($desc[Skill::DATA_ID], PVP_SPLIT, true));
-				$data    = $this->wikiFetcher->fetch($desc[Skill::DESC_NAME], $desc[Skill::DATA_ID], $this->options->from_cache);
-
-				if($data === null){
-					$message = sprintf('invalid wiki data for [%-4s] %s', $desc[Skill::DESC_NAME], $desc[Skill::DATA_ID]);
-
-					$this->logger->warning($message);
-				}
+				$data = $this->wikiFetcher->fetch($desc[Skill::DESC_NAME], $desc[Skill::DATA_ID], $this->options->from_cache);
 
 				// update skill descriptions
 				foreach(Skill::KEYS_DESC as $k){
-
-					if($data === null){
-						$desc[$k] = ($k === Skill::DESC_NAME) ? $desc[Skill::DESC_NAME] : '';
-
-						continue;
-					}
 
 					if($k === Skill::DESC_NAME && $data[Skill::DESC_NAME] !== $desc[Skill::DESC_NAME]){
 						$this->logger->info(sprintf('name fix: %s => %s', $desc[Skill::DESC_NAME], $data[Skill::DESC_NAME]));
@@ -388,13 +396,16 @@ class Builder{
 
 					// on CI, diff descriptions against previous versions, fail if there's a certain amount of changes
 					if($k !== Skill::DESC_NAME && $this->options->diff_descriptions){
+						$current = $this->databases[$lang]
+							->get($desc[Skill::DATA_ID], in_array($desc[Skill::DATA_ID], PVP_SPLIT, true));
+
 						$this->diffDescription($current->{$k}, $data[$k]);
 					}
 
 					$desc[$k] = $data[$k];
 				}
 				// while we're at it: update skill data
-				if($this->options->update_skilldata && $data !== null){
+				if($this->options->update_skilldata){
 					// update skill data from guildwiki
 					if($this->wikiFetcher instanceof WikiFetcherGerman){
 						foreach(WikiFetcherGerman::USE_FIELDS as $k){
@@ -551,6 +562,16 @@ class Builder{
 
 			if($key === Skill::DATA_ID){
 				$fields[$key] = $id;
+			}
+
+			if($key === Skill::DATA_SPLIT_ID){
+
+				$fields[$key] = match(true){
+					array_key_exists($id, PVP_SPLIT)      => PVP_SPLIT[$id],
+					array_key_exists($id, PVP_SPLIT_FLIP) => PVP_SPLIT_FLIP[$id],
+					default                               => 0,
+				};
+
 			}
 		}
 

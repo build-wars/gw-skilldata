@@ -13,6 +13,10 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
+#use Buildwars\GWSkillData\Attribute;
+#use Buildwars\GWSkillData\Campaign;
+#use Buildwars\GWSkillData\Lang;
+#use Buildwars\GWSkillData\Profession;
 use Buildwars\GWSkillDataTools\Builder\Builder;
 use Buildwars\GWSkillDataTools\Builder\PawnedBuilder;
 use Psr\Log\LogLevel;
@@ -42,9 +46,30 @@ $pawned  = new PawnedBuilder($ptions);
 /*
  * Add new Skills
  */
-#$builder->addSkill(3442, Campaign::NIGHTFALL, Profession::PARAGON, Attribute::SPEAR_MASTERY, false, false);
-#$builder->addSkillLang(3442, SkillDataInterface::LANG_DE, 'Mächtiger Wurf (PvP)');
-#$builder->addSkillLang(3442, SkillDataInterface::LANG_EN, 'Mighty Throw (PvP)');
+/*
+$builder->addSkill(3446, Campaign::CORE, Profession::ELEMENTALIST, Attribute::ENERGY_STORAGE, false, true)
+	->addSkillLang(3446, Lang::DE, 'Soul Ignition')
+	->addSkillLang(3446, Lang::EN, 'Soul Ignition')
+	->addSkillLang(3446, Lang::FR, 'Soul Ignition');
+// Dash was moved to shadow arts
+$builder->addSkill(1043, Campaign::FACTIONS, Profession::ASSASSIN, Attribute::SHADOW_ARTS, false, false)
+	->addSkillLang(1043, Lang::DE, 'Preschen')
+	->addSkillLang(1043, Lang::EN, 'Dash')
+	->addSkillLang(1043, Lang::FR, 'Ruée');
+$builder->addSkill(3453, Campaign::FACTIONS, Profession::ASSASSIN, Attribute::SHADOW_ARTS, false, false)
+	->addSkillLang(3453, Lang::DE, 'Preschen (PvP)')
+	->addSkillLang(3453, Lang::EN, 'Dash (PvP)')
+	->addSkillLang(3453, Lang::FR, 'Ruée (PvP)');
+// Frenzy was moved to strength
+$builder->addSkill(346, Campaign::CORE, Profession::WARRIOR, Attribute::STRENGTH, false, false)
+	->addSkillLang(346, Lang::DE, 'Raserei')
+	->addSkillLang(346, Lang::EN, 'Frenzy')
+	->addSkillLang(346, Lang::FR, 'Frénésie');
+$builder->addSkill(3443, Campaign::CORE, Profession::WARRIOR, Attribute::STRENGTH, false, false)
+	->addSkillLang(3443, Lang::DE, 'Raserei (PvP)')
+	->addSkillLang(3443, Lang::EN, 'Frenzy (PvP)')
+	->addSkillLang(3443, Lang::FR, 'Frénésie (PvP)');
+*/
 
 /*
  * First, parse the paw-ned² skill data.

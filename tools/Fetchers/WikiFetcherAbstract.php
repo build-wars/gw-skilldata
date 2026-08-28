@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
+use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Type;
 use Buildwars\GWSkillDataTools\BuilderOptions;
@@ -83,7 +84,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 	];
 
 	protected const PvPShouts = [
-		2858, 2879, 2880, 2883, 3026, 3027, 3031, 3032, 3033, 3034, 3035, 3036, 3037,
+		2858, 2879, 2880, 2883, 3026, 3027, 3031, 3032, 3033, 3034, 3035, 3036, 3037, 3456,
 	];
 
 	protected readonly RequestFactoryInterface  $requestFactory;
@@ -118,10 +119,10 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 	abstract protected function parseInfobox(string $infobox, int $id):array;
 
-	protected function parseResponse(array $data, int $id):array|null{
+	protected function parseResponse(string $skillName, array $data, int $id):array{
 
 		if(!isset($data['revisions'][0]['slots']['main']['*'])){
-			return null;
+			return $this->emptySkill($skillName);
 		}
 
 		// remove/fix some templates first
@@ -131,7 +132,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		if($infobox === null){
 			$this->logger->warning(sprintf('could not parse infobox for skill %s', $id));
 
-			return null;
+			return $this->emptySkill($skillName);
 		}
 
 		return $this->parseInfobox($infobox, $id);
@@ -141,16 +142,28 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		return sprintf('%s/%s.wikitext.json', static::CACHEDIR, $id);
 	}
 
+	protected function emptySkill(string|null $name = null):array{
+		$skill = static::EMPTY_SKILL;
+
+		if($name !== null){
+			$skill[Skill::DESC_NAME]        = $name;
+			$skill[Skill::DESC_DESCRIPTION] = '';
+			$skill[Skill::DESC_CONCISE]     = '';
+		}
+
+		return $skill;
+	}
+
 	/**
 	 * @phan-suppress PhanTypeInvalidThrowsIsInterface
 	 * @throws \Psr\Http\Client\ClientExceptionInterface
 	 * @throws \JsonException
 	 */
-	public function fetch(string $skillName, int $id, bool $cached = true):array|null{
+	public function fetch(string $skillName, int $id, bool $cached = true):array{
 
 		// shortcut for the empty slot skill
 		if($id === 0){
-			return static::EMPTY_SKILL;
+			return $this->emptySkill();
 		}
 
 		$name = $this->prepareSkillName($skillName, $id);
@@ -170,7 +183,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		if(!in_array($status, [200, 420], true)){
 			$this->logger->error(sprintf('fetch error: HTTP/%s ([%-4s] %s)', $status, $id, $name));
 
-			return null;
+			return $this->emptySkill($skillName);
 		}
 
 		$data = MessageUtil::decompress($response);
@@ -189,7 +202,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 						// reset counter and exit
 						$retries = 0;
 
-						return null;
+						return $this->emptySkill($skillName);
 					}
 
 					$this->logger->warning(sprintf('redirecting [%-4s] %s to: %s',  $id, $name, $json['query']['pages']['-1']['title'])); // phpcs:ignore
@@ -199,13 +212,13 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 				$this->logger->warning(sprintf('page not found: [%-4s] %s',  $id, $name));
 
-				return null;
+				return $this->emptySkill($skillName);
 			}
 
 			File::saveJSON($this->getCachFilePath($id), array_values($json['query']['pages'])[0]);
 		}
 
-		return $this->parseResponse($json, $id);
+		return $this->parseResponse($skillName, $json, $id);
 	}
 
 	/**
@@ -247,10 +260,18 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		foreach($json['query']['pages'] as $page){
 			// we'll just skip articles that can't be assigned, these will be fetched later anyway
 			if(!array_key_exists($page['title'], $skillID_lookup)){
+				$this->logger->warning(sprintf('article not assignable: %s', $page['title']));
+
 				continue;
 			}
 
 			$id = $skillID_lookup[$page['title']];
+			// don't cache missing page responses
+			if(isset($page['missing']) || $page['revisions'] === []){
+				$this->logger->warning(sprintf('could not fetch: [%-4s] %s', $id, $page['title']));
+
+				continue;
+			}
 
 			$this->logger->info(sprintf('feched to cache: [%-4s] %s', $id, $page['title']));
 

@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Skill;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -31,7 +32,7 @@ use const Buildwars\GWSkillDataTools\PVP_SPLIT;
  */
 final class WikiFetcherFrench extends WikiFetcherAbstract{
 
-	protected const LANG          = Lang::EN;
+	protected const LANG          = Lang::FR;
 	protected const MEDIAWIKI_API = 'https://www.gwiki.fr/w/api.php';
 	protected const CACHEDIR      = BUILDDIR.'/gwiki';
 	protected const INFOBOX_NAME  = 'Infobox Compétence';
@@ -79,19 +80,17 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 	];
 
 	protected const EMPTY_SKILL = [
-		'name'        => 'Compétence vide',
-		'description' => 'Emplacement de compétence vide',
-		'concise'     => 'Emplacement vide',
-		'type'        => 0,
-		'upkeep'      => 0,
-		'energy'      => 0,
-		'activation'  => 0,
-		'recharge'    => 0,
-		'adrenaline'  => 0,
-		'sacrifice'   => 0,
-		'overcast'    => 0,
-		'range'       => 0,
-		'aoe'         => 0,
+		Skill::DESC_NAME        => 'Compétence vide',
+		Skill::DESC_DESCRIPTION => 'Représente une case vide de la barre de compétence.',
+		Skill::DESC_CONCISE     => 'Aucune compétence.',
+		Skill::DATA_TYPE        => 0,
+		Skill::DATA_UPKEEP      => 0,
+		Skill::DATA_ENERGY      => 0,
+		Skill::DATA_ACTIVATION  => 0,
+		Skill::DATA_RECHARGE    => 0,
+		Skill::DATA_ADRENALINE  => 0,
+		Skill::DATA_SACRIFICE   => 0,
+		Skill::DATA_EXHAUSTION  => 0,
 	];
 
 	protected const PRE_PARSE_REPLACE = [
@@ -111,6 +110,8 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 			'/\{\{range2?\|(\d+)\|(\d+)(?:\|([+-])?)?(?:\|(%)?)?\}\}/i',
 			// article links
 			'/\[\[[^\[\|]+\|([^\[\|]+)\]\]/',
+			// colored text
+			'/\{\{gris\|([^\{\}]+)\}\}/i',
 			'/(\d+)\s+%/',
 			'/\s+/',
 		];
@@ -118,6 +119,7 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		$r = [
 			'$3$1...$2$4',
 			'$1',
+			'<gray>$1</gray>',
 			'$1%',
 			' ',
 		];
@@ -128,13 +130,9 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		$infobox = str_ireplace([self::INFOBOX_NAME, '<b>', '</b>','{', '}', '[', ']', "'''"], '', $infobox);
 
 		$infobox = strtr($infobox, [
-			'<span style="color: grey;">'   => '<gray>',
-			'<span style="color: gray;">'   => '<gray>',
-			'<span style="color:gray;">'    => '<gray>',
-			'<span style=\'color: grey;\'>' => '<gray>',
-			'<font color="grey">'           => '<gray>',
-			'</span>'                       => '</gray>',
-			'</font>'                       => '</gray>',
+			'<span style="color: grey;">' => '<gray>',
+			'<span style="color: gray;">' => '<gray>',
+			'</span>'                     => '</gray>',
 		]);
 
 		// split into key=value pairs
@@ -151,9 +149,9 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		};
 
 		return [
-			'name'        => $name,
-			'description' => $infobox['description'],
-			'concise'     => ($infobox['desc_concise'] ?? ''),
+			Skill::DESC_NAME        => $name,
+			Skill::DESC_DESCRIPTION => $infobox['description'],
+			Skill::DESC_CONCISE     => ($infobox['desc_concise'] ?? ''),
 		];
 	}
 

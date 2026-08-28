@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Skill;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -37,7 +38,10 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 	protected const CACHEDIR      = BUILDDIR.'/guildwiki';
 	protected const INFOBOX_NAME  = 'infobox fertigkeit';
 
-	public const USE_FIELDS = ['upkeep', 'energy', 'activation', 'recharge', 'adrenaline', 'adrenaline_precise', 'sacrifice', 'overcast'];
+	public const USE_FIELDS = [
+		Skill::DATA_UPKEEP, Skill::DATA_ENERGY, Skill::DATA_ACTIVATION, Skill::DATA_RECHARGE,
+		Skill::DATA_ADRENALINE, Skill::DATA_ADRENALINE_PRECISE, Skill::DATA_SACRIFICE, Skill::DATA_EXHAUSTION,
+	];
 
 	protected const REDIRECTS = [
 		316  => 'Bis ans Limit!',
@@ -65,17 +69,17 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 	];
 
 	protected const EMPTY_SKILL = [
-		'name'               => 'Keine Fertigkeit',
-		'description'        => 'Leerer Fertigkeiten-Slot',
-		'concise'            => 'Leerer Slot',
-		'upkeep'             => 0,
-		'energy'             => 0,
-		'activation'         => 0,
-		'recharge'           => 0,
-		'adrenaline'         => 0,
-		'adrenaline_precise' => 0,
-		'sacrifice'          => 0,
-		'overcast'           => 0,
+		Skill::DESC_NAME               => 'Keine Fertigkeit',
+		Skill::DESC_DESCRIPTION        => 'Leerer Fertigkeiten-Slot',
+		Skill::DESC_CONCISE            => 'Leerer Slot',
+		Skill::DATA_UPKEEP             => 0,
+		Skill::DATA_ENERGY             => 0,
+		Skill::DATA_ACTIVATION         => 0,
+		Skill::DATA_RECHARGE           => 0,
+		Skill::DATA_ADRENALINE         => 0,
+		Skill::DATA_ADRENALINE_PRECISE => 0,
+		Skill::DATA_SACRIFICE          => 0,
+		Skill::DATA_EXHAUSTION         => 0,
 	];
 
 	protected const PRE_PARSE_REPLACE = [
@@ -162,17 +166,17 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 		$adrenaline_precise = str_replace(',', '.', ($infobox['adrenalingenau'] ?? $infobox['adrenalin'] ?? '0')); // seriously???
 
 		return [
-			'name'               => $infobox['name'],
-			'description'        => $infobox['beschreibung'],
-			'concise'            => $infobox['kurzbeschreibung'],
-			'upkeep'             => intval(($infobox['energieregeneration'] ?? 0)),
-			'energy'             => intval(($infobox['energie'] ?? 0)),
-			'activation'         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
-			'recharge'           => intval(($infobox['wiederaufladung'] ?? 0)),
-			'adrenaline'         => intval(($infobox['adrenalin'] ?? 0)),
-			'adrenaline_precise' => floatval($adrenaline_precise),
-			'sacrifice'          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
-			'overcast'           => intval(($infobox['erschöpfung'] ?? 0)),
+			Skill::DESC_NAME               => $infobox['name'],
+			Skill::DESC_DESCRIPTION        => $infobox['beschreibung'],
+			Skill::DESC_CONCISE            => $infobox['kurzbeschreibung'],
+			Skill::DATA_UPKEEP             => intval(($infobox['energieregeneration'] ?? 0)),
+			Skill::DATA_ENERGY             => intval(($infobox['energie'] ?? 0)),
+			Skill::DATA_ACTIVATION         => $this->calcFraction(($infobox['aktivierung'] ?? '0')),
+			Skill::DATA_RECHARGE           => intval(($infobox['wiederaufladung'] ?? 0)),
+			Skill::DATA_ADRENALINE         => intval(($infobox['adrenalin'] ?? 0)),
+			Skill::DATA_ADRENALINE_PRECISE => floatval($adrenaline_precise),
+			Skill::DATA_SACRIFICE          => intval(str_replace('%', '', ($infobox['lebenspunkteopfer'] ?? '0'))),
+			Skill::DATA_EXHAUSTION         => intval(($infobox['erschöpfung'] ?? 0)),
 		];
 	}
 

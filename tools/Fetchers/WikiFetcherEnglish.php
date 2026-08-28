@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Skill;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -39,7 +40,7 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 	protected const CACHEDIR      = BUILDDIR.'/gww';
 	protected const INFOBOX_NAME  = 'skill infobox';
 
-	public const USE_FIELDS = ['type'];
+	public const USE_FIELDS = [Skill::DATA_TYPE];
 
 	protected const REDIRECTS = [
 		1599 => '"It\'s Just a Flesh Wound."',
@@ -48,19 +49,19 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 	];
 
 	protected const EMPTY_SKILL = [
-		'name'        => 'No Skill',
-		'description' => 'Empty skill slot',
-		'concise'     => 'Empty slot',
-		'type'        => 0,
-		'upkeep'      => 0,
-		'energy'      => 0,
-		'activation'  => 0,
-		'recharge'    => 0,
-		'adrenaline'  => 0,
-		'sacrifice'   => 0,
-		'overcast'    => 0,
-		'range'       => 0,
-		'aoe'         => 0,
+		Skill::DESC_NAME        => 'No Skill',
+		Skill::DESC_DESCRIPTION => 'Empty skill slot',
+		Skill::DESC_CONCISE     => 'Empty slot',
+		Skill::DATA_TYPE        => 0,
+		Skill::DATA_UPKEEP      => 0,
+		Skill::DATA_ENERGY      => 0,
+		Skill::DATA_ACTIVATION  => 0,
+		Skill::DATA_RECHARGE    => 0,
+		Skill::DATA_ADRENALINE  => 0,
+		Skill::DATA_SACRIFICE   => 0,
+		Skill::DATA_EXHAUSTION  => 0,
+		'range'                 => 0,
+		'aoe'                   => 0,
 	];
 
 	protected const PRE_PARSE_REPLACE = [
@@ -139,19 +140,19 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 		};
 
 		return [
-			'name'        => $infobox['name'],
-			'description' => $infobox['description'],
-			'concise'     => $infobox['concise description'],
-			'type'        => ($this->skilltypes[ucwords($infobox['type'], ' ')] ?? 0),
-			'upkeep'      => intval(($infobox['upkeep'] ?? 0)),
-			'energy'      => intval(($infobox['energy'] ?? 0)),
-			'activation'  => $this->calcFraction(($infobox['activation'] ?? '0')),
-			'recharge'    => intval(($infobox['recharge'] ?? 0)),
-			'adrenaline'  => intval(($infobox['adrenaline'] ?? 0)),
-			'sacrifice'   => intval(str_replace('%', '', ($infobox['sacrifice'] ?? '0'))),
-			'overcast'    => intval(($infobox['overcast'] ?? 0)),
-			'range'       => ($infobox['range'] ?? '--'),
-			'aoe'         => ($infobox['aoe'] ?? '--'),
+			Skill::DESC_NAME        => $infobox['name'],
+			Skill::DESC_DESCRIPTION => $infobox['description'],
+			Skill::DESC_CONCISE     => $infobox['concise description'],
+			Skill::DATA_TYPE        => ($this->skilltypes[ucwords($infobox['type'], ' ')] ?? 0),
+			Skill::DATA_UPKEEP      => intval(($infobox['upkeep'] ?? 0)),
+			Skill::DATA_ENERGY      => intval(($infobox['energy'] ?? 0)),
+			Skill::DATA_ACTIVATION  => $this->calcFraction(($infobox['activation'] ?? '0')),
+			Skill::DATA_RECHARGE    => intval(($infobox['recharge'] ?? 0)),
+			Skill::DATA_ADRENALINE  => intval(($infobox['adrenaline'] ?? 0)),
+			Skill::DATA_SACRIFICE   => intval(str_replace('%', '', ($infobox['sacrifice'] ?? '0'))),
+			Skill::DATA_EXHAUSTION  => intval(($infobox['overcast'] ?? 0)),
+			'range'                 => ($infobox['range'] ?? '--'),
+			'aoe'                   => ($infobox['aoe'] ?? '--'),
 		];
 	}
 
