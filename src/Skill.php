@@ -75,29 +75,121 @@ final class Skill{
 	];
 
 	private const FIELD_NAMES = [
-		self::MODE_PVE                => [Lang::DE => 'Rollenspiel',               Lang::EN => 'Roleplay',                 ],
-		self::MODE_PVP                => [Lang::DE => 'Spieler gegen Spieler',     Lang::EN => 'Player versus Player',     ],
-		self::DATA_ATTRIBUTE          => [Lang::DE => 'Attribut',                  Lang::EN => 'Attribute',                ],
-		self::DATA_CAMPAIGN           => [Lang::DE => 'Kampagne',                  Lang::EN => 'Campaign',                 ],
-		self::DATA_PROFESSION         => [Lang::DE => 'Klasse',                    Lang::EN => 'Profession',               ],
-		self::DATA_TYPE               => [Lang::DE => 'Fertigkeitstyp',            Lang::EN => 'Skill type',               ],
-		self::DATA_IS_ELITE           => [Lang::DE => 'ist Elite',                 Lang::EN => 'is Elite',                 ],
-		self::DATA_IS_PVP             => [Lang::DE => 'ist PvP',                   Lang::EN => 'is PvP',                   ],
-		self::DATA_IS_RP              => [Lang::DE => 'ist Rollenspiel',           Lang::EN => 'is Roleplay',              ],
-		self::DATA_PVP_SPLIT          => [Lang::DE => 'hat PvP-Version',           Lang::EN => 'has PvP version',          ],
-		self::DATA_ID                 => [Lang::DE => 'Fertigkeits-ID',            Lang::EN => 'Skill ID',                 ],
-		self::DATA_SPLIT_ID           => [Lang::DE => 'PvP ID',                    Lang::EN => 'PvP ID',                   ],
-		self::DATA_ACTIVATION         => [Lang::DE => 'Aktivierungszeit',          Lang::EN => 'Activation time',          ],
-		self::DATA_RECHARGE           => [Lang::DE => 'Wiederaufladezeit',         Lang::EN => 'Recharge time',            ],
-		self::DATA_ENERGY             => [Lang::DE => 'Energiekosten',             Lang::EN => 'Energy cost',              ],
-		self::DATA_UPKEEP             => [Lang::DE => 'Unterhaltskosten',          Lang::EN => 'Upkeep cost',              ],
-		self::DATA_ADRENALINE         => [Lang::DE => 'Adernalinkosten',           Lang::EN => 'Adernaline cost',          ],
-		self::DATA_ADRENALINE_PRECISE => [Lang::DE => 'Adernalinkosten (präzise)', Lang::EN => 'Adernaline cost (precise)',],
-		self::DATA_SACRIFICE          => [Lang::DE => 'Opferkosten',               Lang::EN => 'Sacrifice cost',           ],
-		self::DATA_EXHAUSTION         => [Lang::DE => 'Überzaubert',               Lang::EN => 'Overcast',                 ],
-		self::DESC_NAME               => [Lang::DE => 'Fertigkeitsname',           Lang::EN => 'Skill name',               ],
-		self::DESC_DESCRIPTION        => [Lang::DE => 'Fertigkeitsbeschreibung',   Lang::EN => 'Skill description',        ],
-		self::DESC_CONCISE            => [Lang::DE => 'Kurzbeschreibung',          Lang::EN => 'Concise description',      ],
+		self::MODE_PVE                => [
+			Lang::DE => 'Rollenspiel',
+			Lang::EN => 'Roleplay',
+			Lang::FR => 'Jeu de rôle',
+		],
+		self::MODE_PVP                => [
+			Lang::DE => 'Spieler gegen Spieler',
+			Lang::EN => 'Player versus Player',
+			Lang::FR => 'Joueur contre Joueur',
+		],
+		self::DATA_ATTRIBUTE          => [
+			Lang::DE => 'Attribut',
+			Lang::EN => 'Attribute',
+			Lang::FR => 'Caractéristique',
+		],
+		self::DATA_CAMPAIGN           => [
+			Lang::DE => 'Kampagne',
+			Lang::EN => 'Campaign',
+			Lang::FR => 'Campagne',
+		],
+		self::DATA_PROFESSION         => [
+			Lang::DE => 'Klasse',
+			Lang::EN => 'Profession',
+			Lang::FR => 'Profession',
+		],
+		self::DATA_TYPE               => [
+			Lang::DE => 'Fertigkeitstyp',
+			Lang::EN => 'Skill type',
+			Lang::FR => 'Type de compétence',
+		],
+		self::DATA_IS_ELITE           => [
+			Lang::DE => 'ist Elite',
+			Lang::EN => 'is Elite',
+			Lang::FR => 'est Elite',
+		],
+		self::DATA_IS_PVP             => [
+			Lang::DE => 'ist PvP',
+			Lang::EN => 'is PvP',
+			Lang::FR => 'est PvP',
+		],
+		self::DATA_IS_RP              => [
+			Lang::DE => 'ist Rollenspiel',
+			Lang::EN => 'is Roleplay',
+			Lang::FR => 's\'agit d\'une compétence PvE',
+		],
+		self::DATA_PVP_SPLIT          => [
+			Lang::DE => 'hat PvP-Version',
+			Lang::EN => 'has PvP version',
+			Lang::FR => 'a une version PvP',
+		],
+		self::DATA_ID                 => [
+			Lang::DE => 'Fertigkeits-ID',
+			Lang::EN => 'Skill ID',
+			Lang::FR => 'ID de la compétence',
+		],
+		self::DATA_SPLIT_ID           => [
+			Lang::DE => 'PvP ID',
+			Lang::EN => 'PvP ID',
+			Lang::FR => 'PvP ID',
+		],
+		self::DATA_ACTIVATION         => [
+			Lang::DE => 'Aktivierungszeit',
+			Lang::EN => 'Activation time',
+			Lang::FR => 'Durée d\'activation',
+		],
+		self::DATA_RECHARGE           => [
+			Lang::DE => 'Wiederaufladezeit',
+			Lang::EN => 'Recharge time',
+			Lang::FR => 'Temps de rechargement',
+		],
+		self::DATA_ENERGY             => [
+			Lang::DE => 'Energiekosten',
+			Lang::EN => 'Energy cost',
+			Lang::FR => 'Coûts en énergie',
+		],
+		self::DATA_UPKEEP             => [
+			Lang::DE => 'Unterhaltskosten',
+			Lang::EN => 'Upkeep cost',
+			Lang::FR => 'Coûts en maintien',
+		],
+		self::DATA_ADRENALINE         => [
+			Lang::DE => 'Adernalinkosten',
+			Lang::EN => 'Adernaline cost',
+			Lang::FR => 'Coûts en adrénaline',
+		],
+		self::DATA_ADRENALINE_PRECISE => [
+			Lang::DE => 'Adernalinkosten (präzise)',
+			Lang::EN => 'Adernaline cost (precise)',
+			Lang::FR => 'Coûts en adrénaline (précise)',
+		],
+		self::DATA_SACRIFICE          => [
+			Lang::DE => 'Opferkosten',
+			Lang::EN => 'Sacrifice cost',
+			Lang::FR => 'Coûts en sacrifice',
+		],
+		self::DATA_EXHAUSTION         => [
+			Lang::DE => 'Überzaubert',
+			Lang::EN => 'Overcast',
+			Lang::FR => 'Epuisement',
+		],
+		self::DESC_NAME               => [
+			Lang::DE => 'Fertigkeitsname',
+			Lang::EN => 'Skill name',
+			Lang::FR => 'Nom de la compétence',
+		],
+		self::DESC_DESCRIPTION        => [
+			Lang::DE => 'Fertigkeitsbeschreibung',
+			Lang::EN => 'Skill description',
+			Lang::FR => 'Description de la compétence',
+		],
+		self::DESC_CONCISE            => [
+			Lang::DE => 'Kurzbeschreibung',
+			Lang::EN => 'Concise description',
+			Lang::FR => 'Description concise',
+		],
 	];
 
 	private const DataObjects = [

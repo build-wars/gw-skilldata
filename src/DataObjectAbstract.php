@@ -22,7 +22,7 @@ use function sprintf;
 abstract class DataObjectAbstract{
 
 	public const CSS_CLASS = '';
-	/** @var array<int, array{de: string, en: string}> */
+	/** @var array<int, array{de: string, en: string, fr: string}> */
 	public const NAME      = [];
 
 	public readonly int  $id;

@@ -40,6 +40,9 @@ final class Lang{
 		self::DE => 'German',
 		self::EN => 'English',
 		self::FR => 'French',
+		self::DE => [self::DE => 'Deutsch' ,    self::EN => 'German',  self::FR => 'Allemande',],
+		self::EN => [self::DE => 'Englisch',    self::EN => 'English', self::FR => 'Anglaise', ],
+		self::FR => [self::DE => 'Französisch', self::EN => 'French',  self::FR => 'Français', ],
 	];
 
 	public const PVP_SUFFIX = [
@@ -66,6 +69,15 @@ final class Lang{
 	public function getName():string{
 		return self::NAMES[$this->id];
 	}
+	public function getName(string|null $id = null):string{
+
+		if($id !== null && !$this->in(self::IDS)){
+			throw new InvalidArgumentException('invalid language');
+		}
+
+		return self::NAMES[$this->id][($id ?? $this->id)];
+	}
+
 	/**
 	 * Adds a "(PvP)" suffix
 	 */

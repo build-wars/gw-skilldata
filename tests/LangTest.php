@@ -30,7 +30,8 @@ final class LangTest extends TestCase{
 	public function getName():void{
 		$lang = new Lang(Lang::DE);
 
-		$this::assertSame('German', $lang->getName());
+		$this::assertSame('Deutsch', $lang->getName());
+		$this::assertSame('German', $lang->getName(Lang::EN));
 	}
 
 }
