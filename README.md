@@ -30,7 +30,7 @@
 ## Features
 
 - Guild Wars skill data
-  - Skill descriptions for English and German
+  - Skill descriptions for English, German and French
   - Skill databases for [paw·ned²](https://redeemer.biz/guild-wars/projekte/pawned2/)
 - Toolset to add other translations (hopefully maybe)
 
@@ -346,4 +346,5 @@ Use at your own risk!
 ### Licensing
 
 - Data from the [Guild Wars Wiki (GWW)](https://wiki.guildwars.com/wiki/Guild_Wars_Wiki:Copyrights) is available under the [GNU Free Documentation License](http://www.gnu.org/copyleft/fdl.html).
-- Data from [GuildWiki](https://www.guildwiki.de/wiki/GuildWiki:Lizenzhinweise) is available under [Creative Commons CC BY-NC-SA 2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/deed.de)
+- Data from [GuildWiki](https://www.guildwiki.de/wiki/GuildWiki:Lizenzhinweise) is available under [Creative Commons CC BY-NC-SA 2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/deed.de).
+- Data from [GWiki](https://www.gwiki.fr/wiki/GWiki:Copyright) is available under [Creative Commons CC BY-NC-SA 2.0 FR](https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en).

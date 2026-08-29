@@ -23,7 +23,6 @@ use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use function array_column;
 use function array_merge;
-use function in_array;
 
 /**
  * Tests basic functions of the SkillData class
