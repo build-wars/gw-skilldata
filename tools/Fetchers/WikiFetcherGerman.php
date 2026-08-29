@@ -66,6 +66,8 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 		3037 => '"Zieht Euch zurück!" (PvP)',
 		3375 => 'Wiederherstellungs-Aura (PvP)',
 		3437 => 'Sense des Bauern (PvP)',
+		3454 => 'Schildwächter (PvP)',
+		3463 => 'Reizen (PvP)',
 	];
 
 	protected const EMPTY_SKILL = [

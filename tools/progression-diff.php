@@ -32,7 +32,8 @@ const RESULT_FILE = BUILDDIR.'/progression-diff.json';
 
 const KNOWN_DISCREPANCIES = [
 	Lang::DE => [
-		27, 50, 57, 239, 242, 335, 775, 898, 979, 1335, 1345, 1758, 1815, 2013, 2218, 2223, 2806, 3180, 3191, 3192,
+		27, 50, 57, 239, 242, 335, 775, 898, 979, 1213, 1335, 1345, 1551,
+		1815, 2013, 2218, 2223, 2806, 3180, 3191, 3192, 3446, 3447,
 	],
 ];
 
@@ -60,7 +61,7 @@ foreach($databases[Lang::EN]->getIDs() as $id){
 				continue;
 			}
 
-			$diff = diffProgressions($lang1[$key], $lang2[$key]);
+			$diff = diffProgressions($lang1[$key], $lang2[$key], true);
 
 			if($diff === null || ($use_known_discrepancies && in_array($id, KNOWN_DISCREPANCIES[$lang], true))){
 				continue;

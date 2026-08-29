@@ -77,6 +77,8 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		2099 => 'Javelot de furie (Kurzick)',
 		2100 => 'Invocation des esprits (Kurzick)',
 		2116 => 'Attaque sournoise (Titre de l\'Avant-garde d\'Ebon)',
+		2883 => 'Pour la justice ! (PvP)',
+		3263 => 'Frappe implacable (PvP)',
 	];
 
 	protected const EMPTY_SKILL = [

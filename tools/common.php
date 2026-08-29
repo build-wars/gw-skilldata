@@ -22,7 +22,7 @@ use function mb_internal_encoding;
 use function preg_match_all;
 use function sort;
 use const PREG_UNMATCHED_AS_NULL;
-use const SORT_NUMERIC;
+use const SORT_NATURAL;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
@@ -258,7 +258,7 @@ function getProgressions(string $description, bool $sort = false):array|null{
 	}
 
 	if($sort){
-		sort($matches['progression'], SORT_NUMERIC);
+		sort($matches['progression'], SORT_NATURAL);
 	}
 
 	return $matches['progression'];
@@ -269,9 +269,9 @@ function getProgressions(string $description, bool $sort = false):array|null{
  *
  * Returns null if there are no differences, returns an array of progression matches if there were differences.
  */
-function diffProgressions(string $desc1, string $desc2):array|null{
-	$prog1 = getProgressions($desc1, true);
-	$prog2 = getProgressions($desc2, true);
+function diffProgressions(string $desc1, string $desc2, bool $sort = false):array|null{
+	$prog1 = getProgressions($desc1, $sort);
+	$prog2 = getProgressions($desc2, $sort);
 
 	// description does not contain progressions
 	if($prog1 === null && $prog2 === null){

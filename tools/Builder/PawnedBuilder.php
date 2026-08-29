@@ -285,6 +285,11 @@ final class PawnedBuilder extends Builder{
 				$pvp = ($mode === Skill::MODE_PVP);
 
 				foreach([Skill::DESC_DESCRIPTION, Skill::DESC_CONCISE] as $desc_type){
+
+					if($lang === Lang::FR && $desc_type === Skill::DESC_CONCISE){
+						continue;
+					}
+
 					$pwnd = [];
 
 					foreach($this->databases[$dblang]->getIDs(false) as $id){
