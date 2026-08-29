@@ -2016,8 +2016,8 @@ var skilldesc$2 = {
 	"29": {
 		id: 29,
 		name: "Blackout",
-		description: "For 2...6 seconds, all of touched target foe's skills are disabled, and all of your skills are disabled for 5 seconds.",
-		concise: "Touch Skill. (2...6 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>"
+		description: "For 2...8 seconds, all of touched target foe's skills are disabled, and all of your skills are disabled for 5 seconds.",
+		concise: "Touch Skill. (2...8 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>"
 	},
 	"30": {
 		id: 30,
@@ -2040,8 +2040,8 @@ var skilldesc$2 = {
 	"33": {
 		id: 33,
 		name: "Illusionary Weaponry",
-		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 16...50 damage to your targets for each melee attack. You have +5 armor for each equipped Illusion Magic skill.",
-		concise: "(30 seconds.) Deals 16...50 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
+		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 20...60 damage to your targets for each melee attack. You have +5 armor for each equipped Illusion Magic skill.",
+		concise: "(30 seconds.) Deals 20...60 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
 	},
 	"34": {
 		id: 34,
@@ -2112,8 +2112,8 @@ var skilldesc$2 = {
 	"45": {
 		id: 45,
 		name: "Ethereal Burden",
-		description: "For 10 seconds, target foe moves 50% slower. When Ethereal Burden ends, you gain 10...18 Energy.",
-		concise: "(10 seconds.) Target foe moves 50% slower. End effect: you gain 10...18 Energy."
+		description: "For 6...12 seconds, target foe moves 50% slower. When Ethereal Burden ends, you gain 10...18 Energy.",
+		concise: "(6...12 seconds.) Target foe moves 50% slower. End effect: you gain 10...18 Energy."
 	},
 	"46": {
 		id: 46,
@@ -2364,8 +2364,8 @@ var skilldesc$2 = {
 	"91": {
 		id: 91,
 		name: "Well of Power",
-		description: "Exploit nearest corpse or sacrifice 66% health to create a Well of Power at that location. For 8...20 seconds, allies within the area of Well of Power gain +1...6 Health regeneration and +2 Energy regeneration.",
-		concise: "(8...20 seconds.) Allies in this well have +1...6 Health regeneration and +2 Energy regeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
+		description: "Exploit nearest corpse or sacrifice 66% health to create a Well of Power at that location. For 10...30 seconds, allies within the area of Well of Power gain +1...6 Health regeneration and +2 Energy regeneration.",
+		concise: "(10...30 seconds.) Allies in this well have +1...6 Health regeneration and +2 Energy regeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 	},
 	"92": {
 		id: 92,
@@ -2400,8 +2400,8 @@ var skilldesc$2 = {
 	"97": {
 		id: 97,
 		name: "Necrotic Traversal",
-		description: "Exploit a random corpse. You teleport to that corpse's location and all nearby foes become Poisoned for 5...20 seconds.",
-		concise: "Teleport to a corpse's location. Inflicts Poisoned condition (5...20 seconds). Affects all nearby foes. <gray>Exploits a fresh corpse.</gray>"
+		description: "Exploit a random corpse or sacrifice 30...20% health to teleport to target foe's location. You become Diseased for 6 seconds and all nearby foes become Poisoned for 5...20 second[s].",
+		concise: "Teleport to a corpse's location. Inflicts Poisoned condition (5...20 seconds). Affects all nearby foes. <gray>Exploits a random corpse or sacrifices 30...20% health.</gray>"
 	},
 	"98": {
 		id: 98,
@@ -2424,8 +2424,8 @@ var skilldesc$2 = {
 	"101": {
 		id: 101,
 		name: "Barbs",
-		description: "For 30 seconds, target foe takes 1...15 more damage when hit by physical damage.",
-		concise: "(30 seconds.) Target foe takes 1...15 damage whenever it takes physical damage."
+		description: "For 30 seconds, target foe takes 4...16 more damage when hit by physical damage.",
+		concise: "(30 seconds.) Target foe takes 4...16 damage whenever it takes physical damage."
 	},
 	"102": {
 		id: 102,
@@ -2616,8 +2616,8 @@ var skilldesc$2 = {
 	"133": {
 		id: 133,
 		name: "Dark Pact",
-		description: "Deal 10...48 shadow damage to target foe.",
-		concise: "Deals 10...48 damage."
+		description: "Deal 20...60 shadow damage to target foe.",
+		concise: "Deals 20...60 damage."
 	},
 	"134": {
 		id: 134,
@@ -2628,8 +2628,8 @@ var skilldesc$2 = {
 	"135": {
 		id: 135,
 		name: "Faintheartedness",
-		description: "For the next 3...16 seconds, target foe attacks 50% slower, and that foe suffers -0...3 Health degeneration.",
-		concise: "(3...16 seconds.) Target foe attacks 50% slower and has -0...3 Health degeneration."
+		description: "For the next 4...18 seconds, target foe attacks 50% slower, and that foe suffers -1...3 Health degeneration.",
+		concise: "(4...18 seconds.) Target foe attacks 50% slower and has -1...3 Health degeneration."
 	},
 	"136": {
 		id: 136,
@@ -2796,8 +2796,8 @@ var skilldesc$2 = {
 	"164": {
 		id: 164,
 		name: "Elemental Attunement",
-		description: "For 25...60 seconds, you are attuned to Air, Fire, Water, and Earth and gain +1...2 to these attributes. You gain 50% of the base Energy cost of the skill each time you use magic associated with any of these elements.",
-		concise: "(25...60 seconds.) Your elemental attributes are increased by +1...2. You gain 50% of the Energy cost of any Air, Earth, Fire, and Water Magic skills you use."
+		description: "For 25...60 seconds, you are attuned to Air, Fire, Water, and Earth and gain +1...2 to these attributes. You gain 1 Energy plus 50% of the base Energy cost of the skill each time you use magic associated with any of these elements.",
+		concise: "(25...60 seconds.) Your elemental attributes are increased by +1...2. You gain 1 plus 50% of the Energy cost of any Air, Earth, Fire, and Water Magic skills you use."
 	},
 	"165": {
 		id: 165,
@@ -2856,8 +2856,8 @@ var skilldesc$2 = {
 	"174": {
 		id: 174,
 		name: "Aftershock",
-		description: "Nearby foes are struck for 26...100 earth damage. Knocked down foes are struck for 10...68 additional earth damage.",
-		concise: "Deals 26...100 earth damage to nearby foes. Deals 10...68 more earth damage to knocked down foes."
+		description: "Nearby foes are struck for 15...85 earth damage. Knocked down foes are struck for 15...85 additional earth damage.",
+		concise: "Deals 15...85 earth damage to nearby foes. Deals 15...85 more earth damage to knocked down foes."
 	},
 	"175": {
 		id: 175,
@@ -3036,8 +3036,8 @@ var skilldesc$2 = {
 	"204": {
 		id: 204,
 		name: "Rust",
-		description: "Deals 10...70 cold damage to target and adjacent foes. For 5...20 seconds, target foe and all adjacent foes take twice as long to activate signets. If you are Overcast, foes struck with Rust have their signets interrupted and disabled for 1...10 second[s].",
-		concise: "Deals 10...70 cold damage to target and adjacent foes. Hexes target and adjacent foes (5...20 seconds). Doubles signet activation time. Interrupts and disables signets for 1...10 second[s] if you are Overcast."
+		description: "Deals 10...85 cold damage to target and adjacent foes. For 5...20 seconds, target foe and all adjacent foes take twice as long to activate signets. If you are Overcast, foes struck with Rust have their signets interrupted and disabled for 1...10 second[s].",
+		concise: "Deals 10...85 cold damage to target and adjacent foes. Hexes target and adjacent foes (5...20 seconds). Doubles signet activation time. Interrupts and disables signets for 1...10 second[s] if you are Overcast."
 	},
 	"205": {
 		id: 205,
@@ -3144,8 +3144,8 @@ var skilldesc$2 = {
 	"222": {
 		id: 222,
 		name: "Lightning Strike",
-		description: "Strike target foe for 5...40 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 5...40 lightning damage.",
-		concise: "Deals 5...40 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 5...40 lightning damage."
+		description: "Strike target foe for 10...60 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 20...40 lightning damage.",
+		concise: "Deals 10...60 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 20...40 lightning damage."
 	},
 	"223": {
 		id: 223,
@@ -3324,8 +3324,8 @@ var skilldesc$2 = {
 	"252": {
 		id: 252,
 		name: "Banish",
-		description: "Target foe takes 20...56 holy damage. This spell does double damage to summoned creatures.",
-		concise: "Deals 20...56 holy damage. Deals double damage to summoned creatures."
+		description: "Target foe takes 20...65 holy damage. This spell does double damage to summoned creatures.",
+		concise: "Deals 20...65 holy damage. Deals double damage to summoned creatures."
 	},
 	"253": {
 		id: 253,
@@ -3354,8 +3354,8 @@ var skilldesc$2 = {
 	"257": {
 		id: 257,
 		name: "Aegis",
-		description: "For 5...11 seconds, all party members within earshot have a 50% chance to block attacks.",
-		concise: "Enchants all party members within earshot (5...11 seconds). 50% chance to block."
+		description: "For 6...15 seconds, all party members within earshot have a 50% chance to block attacks.",
+		concise: "Enchants all party members within earshot (6...15 seconds). 50% chance to block."
 	},
 	"258": {
 		id: 258,
@@ -3498,8 +3498,8 @@ var skilldesc$2 = {
 	"281": {
 		id: 281,
 		name: "Orison of Healing",
-		description: "Heal target ally for 20...70 Health.",
-		concise: "Heals for 20...70."
+		description: "Heal target ally for 30...80 Health.",
+		concise: "Heals for 30...80."
 	},
 	"282": {
 		id: 282,
@@ -3510,8 +3510,8 @@ var skilldesc$2 = {
 	"283": {
 		id: 283,
 		name: "Dwayna's Kiss",
-		description: "Heal target other ally for 15...60 Health and an additional 10...35 Health for each enchantment or hex on that ally.",
-		concise: "Heals for 15...60. Heals for 10...35 more for each enchantment and hex on target ally. <gray>Cannot self-target.</gray>"
+		description: "Heal target other ally for 20...65 Health and an additional 15...40 Health for each enchantment or hex on that ally.",
+		concise: "Heals for 20...65. Heals for 15...40 more for each enchantment and hex on target ally. <gray>Cannot self-target.</gray>"
 	},
 	"284": {
 		id: 284,
@@ -3570,8 +3570,8 @@ var skilldesc$2 = {
 	"293": {
 		id: 293,
 		name: "Signet of Devotion",
-		description: "Heal target ally for 14...100 Health.",
-		concise: "Heals for 14...100."
+		description: "Heal target ally for 20...120 Health.",
+		concise: "Heals for 20...120."
 	},
 	"294": {
 		id: 294,
@@ -3588,8 +3588,8 @@ var skilldesc$2 = {
 	"296": {
 		id: 296,
 		name: "Bane Signet",
-		description: "Target foe takes 26...56 holy damage. If target foe was attacking, that foe is knocked down.",
-		concise: "Deals 26...56 holy damage. Causes knock-down if target foe is attacking."
+		description: "Target foe takes 30...60 holy damage. If target foe was attacking, that foe is knocked down.",
+		concise: "Deals 30...60 holy damage. Causes knock-down if target foe is attacking."
 	},
 	"297": {
 		id: 297,
@@ -3690,8 +3690,8 @@ var skilldesc$2 = {
 	"313": {
 		id: 313,
 		name: "Healing Touch",
-		description: "Heal target touched ally for 16...60 Health. Health gain from Divine Favor is doubled for this spell.",
-		concise: "Touch Spell. Heals for 16...60. Double Health gain from Divine Favor for this spell."
+		description: "Heal target touched ally for 20...80 Health. Health gain from Divine Favor is doubled for this spell.",
+		concise: "Touch Spell. Heals for 20...80. Double Health gain from Divine Favor for this spell."
 	},
 	"314": {
 		id: 314,
@@ -3816,8 +3816,8 @@ var skilldesc$2 = {
 	"334": {
 		id: 334,
 		name: "Axe Rake",
-		description: "If this attack hits a foe suffering from a Deep Wound, you strike for +1...10 damage, and that foe becomes Crippled for 15 seconds.",
-		concise: "Deals +1...10 damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound."
+		description: "If this attack hits a foe suffering from a Deep Wound, you strike for +4...16 damage, and that foe becomes Crippled for 15 seconds.",
+		concise: "Deals +4...16 damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound."
 	},
 	"335": {
 		id: 335,
@@ -3828,8 +3828,8 @@ var skilldesc$2 = {
 	"336": {
 		id: 336,
 		name: "Executioner's Strike",
-		description: "If this attack hits, you strike for +10...40 damage.",
-		concise: "Deals +10...40 damage."
+		description: "If this attack hits, you strike for +15...45 damage.",
+		concise: "Deals +15...45 damage."
 	},
 	"337": {
 		id: 337,
@@ -3846,8 +3846,8 @@ var skilldesc$2 = {
 	"339": {
 		id: 339,
 		name: "Penetrating Blow",
-		description: "If this attack hits, you strike for +5...20 damage. This axe attack has 20% armor penetration.",
-		concise: "Deals +5...20 damage. 20% armor penetration."
+		description: "If this attack hits, you strike for +10...25 damage. This axe attack has 20% armor penetration.",
+		concise: "Deals +10...25 damage. 20% armor penetration."
 	},
 	"340": {
 		id: 340,
@@ -3864,8 +3864,8 @@ var skilldesc$2 = {
 	"342": {
 		id: 342,
 		name: "Axe Twist",
-		description: "If this attack hits a foe suffering from a Deep Wound, you strike for 1...20 more damage and that foe suffers from Weakness for 20 seconds.",
-		concise: "Deals +1...20 damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound."
+		description: "If this attack hits a foe suffering from a Deep Wound, you strike for 5...25 more damage and that foe suffers from Weakness for 20 seconds.",
+		concise: "Deals +5...25 damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound."
 	},
 	"343": {
 		id: 343,
@@ -3888,8 +3888,8 @@ var skilldesc$2 = {
 	"346": {
 		id: 346,
 		name: "Frenzy",
-		description: "For 8 seconds, you attack 33% faster but take double damage.",
-		concise: "(8 seconds.) You attack 33% faster. <gray>You take double damage.</gray>"
+		description: "For 8 seconds, you attack 33% faster but take 175...125%<sic/>damage.",
+		concise: "(8 seconds.) You attack 33% faster. <gray>You take 175...125% damage.</gray>"
 	},
 	"347": {
 		id: 347,
@@ -3990,8 +3990,8 @@ var skilldesc$2 = {
 	"363": {
 		id: 363,
 		name: "Shield Bash",
-		description: "For 5...11 seconds, while wielding a shield, the next attack skill used against you is blocked. If it was a melee skill, your attacker is knocked down and that skill is disabled for an additional 15 seconds.",
-		concise: "(5...11 seconds.) You block the next attack skill. Causes knock-down and +15 second recharge if it was a melee skill. <gray>No effect unless you are wielding a shield.</gray>"
+		description: "For 5...11 seconds, while wielding a shield, the next melee attack skill used against you is blocked, your attacker is knocked down and that skill is disabled for an additional 15 seconds.",
+		concise: "(5...11 seconds.) You block the next melee attack skill. Causes knock-down and +15 second recharge. <gray>No effect unless you are wielding a shield.</gray>"
 	},
 	"364": {
 		id: 364,
@@ -4116,8 +4116,8 @@ var skilldesc$2 = {
 	"385": {
 		id: 385,
 		name: "Final Thrust",
-		description: "Lose all adrenaline. If Final Thrust hits, you deal 1...40 more damage. This damage is doubled if your target was below 50% Health.",
-		concise: "Deals +1...40 damage. Deals +1...40 more damage if target foe is below 50% Health. <gray>Lose all adrenaline.</gray>"
+		description: "Lose all adrenaline. If Final Thrust hits, you deal 5...40 more damage. This damage is doubled if your target was below 50% Health.",
+		concise: "Deals +5...40 damage. Deals +5...40 more damage if target foe is below 50% Health. <gray>Lose all adrenaline.</gray>"
 	},
 	"386": {
 		id: 386,
@@ -4164,8 +4164,8 @@ var skilldesc$2 = {
 	"393": {
 		id: 393,
 		name: "Crippling Shot",
-		description: "If Crippling Shot hits, your target becomes Crippled for 1...12 second[s]. This attack cannot be blocked.",
-		concise: "Unblockable. Inflicts Crippled condition (1...12 second[s])."
+		description: "If Crippling Shot hits, your target becomes Crippled for 4...14 second[s]. This attack cannot be blocked.",
+		concise: "Unblockable. Inflicts Crippled condition (4...14 second[s])."
 	},
 	"394": {
 		id: 394,
@@ -4362,8 +4362,8 @@ var skilldesc$2 = {
 	"436": {
 		id: 436,
 		name: "Comfort Animal",
-		description: "You heal your animal companion for 20...104 Health. If your companion is dead, it is resurrected with 10...58% Health. If you have Comfort Animal equipped, your animal companion will travel with you.",
-		concise: "Your pet gains 20...104 Health. Resurrects your pet (10...58% Health.) If you have Comfort Animal equipped, your animal companion will travel with you."
+		description: "You heal your animal companion for 40...120 Health. If your companion is dead, it is resurrected with 10...58% Health. If you have Comfort Animal equipped, your animal companion will travel with you.",
+		concise: "Your pet gains 40...120 Health. Resurrects your pet (10...58% Health.) If you have Comfort Animal equipped, your animal companion will travel with you."
 	},
 	"437": {
 		id: 437,
@@ -4854,8 +4854,8 @@ var skilldesc$2 = {
 	"809": {
 		id: 809,
 		name: "Shatterstone",
-		description: "Target foe is struck for 25...100 cold damage and is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...100 cold damage.",
-		concise: "(3 seconds.) Initial effect: deals 25...100 cold damage. End effect: deals 25...100 cold damage to target and all nearby foes."
+		description: "Target foe is struck for 25...100 cold damage, moves 66% slower, and is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...100 cold damage.",
+		concise: "(3 seconds.) Initial effect: deals 25...100 cold damage and target moves 66% slower. End effect: deals 25...100 cold damage to target and all nearby foes."
 	},
 	"810": {
 		id: 810,
@@ -4980,14 +4980,14 @@ var skilldesc$2 = {
 	"831": {
 		id: 831,
 		name: "Primal Rage",
-		description: "For 1...9 second[s], you attack 33% faster and move 33% faster, but you take double damage.",
-		concise: "(1...9 second[s].) You attack 33% faster and move 33% faster. <gray>You take double damage.</gray>"
+		description: "For 1...9 second[s], you attack 33% faster and move 33% faster, but you take 150...125% damage .",
+		concise: "(1...9 second[s].) You attack 33% faster and move 33% faster. <gray>You take 150...125% damage.</gray>"
 	},
 	"832": {
 		id: 832,
 		name: "Animate Flesh Golem",
-		description: "Exploit nearest corpse to animate a level 3...25 Flesh Golem. The Flesh Golem leaves an exploitable corpse. You can have only one Flesh Golem at a time.",
-		concise: "Creates a level 3...25 flesh golem which leaves a fresh corpse when it dies. <gray>Exploits a fresh corpse. You can have only one flesh golem at a time.</gray>"
+		description: "Exploit nearest corpse to animate a level 3...25 Flesh Golem. The Flesh Golem leaves 1...4 exploitable corpse[s]. You can have only one Flesh Golem at a time.",
+		concise: "Creates a level 3...25 flesh golem which leaves 1...4 fresh corpse[s] when it dies. <gray>Exploits a fresh corpse. You can have only one flesh golem at a time.</gray>"
 	},
 	"834": {
 		id: 834,
@@ -5064,8 +5064,8 @@ var skilldesc$2 = {
 	"846": {
 		id: 846,
 		name: "Steam",
-		description: "Target foe is struck for 20...60 cold damage. If target foe is on fire, Steam Blinds that foe for 5...10 seconds.",
-		concise: "Deals 20...60 cold damage. Inflicts Blindness condition (5...10 seconds) if target foe is Burning."
+		description: "Target foe is struck for 20...60 cold damage. If target foe is on fire, Steam Blinds that foe for 5...10 seconds and they take an additional 20...60 fire damage.",
+		concise: "Deals 20...60 cold damage. Inflicts Blindness condition (5...10 seconds) and does 20...60 fire damage if target foe is Burning."
 	},
 	"847": {
 		id: 847,
@@ -5166,8 +5166,8 @@ var skilldesc$2 = {
 	"867": {
 		id: 867,
 		name: "Healing Light",
-		description: "Heal target ally for 40...100 Health. If your target has an enchantment, you gain 1...3 Energy.",
-		concise: "Heals for 40...100. You gain 1...3 Energy if target ally is enchanted."
+		description: "Heal target ally for 40...120 Health. If your target has an enchantment, you gain 1...3 Energy.",
+		concise: "Heals for 40...120. You gain 1...3 Energy if target ally is enchanted."
 	},
 	"869": {
 		id: 869,
@@ -5244,8 +5244,8 @@ var skilldesc$2 = {
 	"885": {
 		id: 885,
 		name: "Shield Guardian",
-		description: "For 1...4 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...40 and Shield Guardian ends.",
-		concise: "(1...4 second[s]). Party members in earshot have a 75% chance to block attacks. Block effect: Allies in earshot are healed for 10...40, and Shield Guardian ends."
+		description: "For 2...6 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...40 and Shield Guardian ends.",
+		concise: "(2...6 second[s]). Party members in earshot have a 75% chance to block attacks. Block effect: Allies in earshot are healed for 10...40, and Shield Guardian ends."
 	},
 	"886": {
 		id: 886,
@@ -5358,8 +5358,8 @@ var skilldesc$2 = {
 	"909": {
 		id: 909,
 		name: "Focused Shot",
-		description: "If Focused Shot hits, you strike for +10...25 damage but all of your other attack skills are disabled for 5...3 seconds.",
-		concise: "Deals +10...25 damage. <gray>Your other attack skills are disabled (5...3 seconds) if this attack hits.</gray>"
+		description: "This shot moves three times faster, cannot be blocked, and strikes for +10...40 damage but all of your other attack skills are disabled for 8...4 seconds.",
+		concise: "Deals +10...40 damage. Unblockable. This shot moves three times faster. <gray>Your other attack skills are disabled (8...4 seconds).</gray>"
 	},
 	"910": {
 		id: 910,
@@ -5436,8 +5436,8 @@ var skilldesc$2 = {
 	"925": {
 		id: 925,
 		name: "Recall",
-		description: "While you maintain Recall, nothing happens. When Recall ends, you Shadow Step to the ally you targeted when you activated this skill and all of your skills are disabled for 10 seconds.",
-		concise: "End effect: Shadow Step to target ally. <gray>Cannot self-target and disables all of your skills for 10 seconds when it ends.</gray>"
+		description: "While you maintain Recall, nothing happens. When Recall ends, you Shadow Step to the ally you targeted when you activated this skill and all of your skills are disabled for 3 seconds.",
+		concise: "End effect: Shadow Step to target ally. <gray>Cannot self-target and disables all of your skills for 3 seconds when it ends.</gray>"
 	},
 	"926": {
 		id: 926,
@@ -5526,8 +5526,8 @@ var skilldesc$2 = {
 	"941": {
 		id: 941,
 		name: "Blessed Light",
-		description: "Heal target ally for 10...140 Health and remove one condition and one hex.",
-		concise: "Heals for 10...140. Removes one condition and one hex."
+		description: "Heal target ally for 10...120 Health and remove one condition and one hex.",
+		concise: "Heals for 10...120. Removes one condition and one hex."
 	},
 	"942": {
 		id: 942,
@@ -5724,8 +5724,8 @@ var skilldesc$2 = {
 	"985": {
 		id: 985,
 		name: "Caltrops",
-		description: "Target foe and all foes adjacent to your target are Crippled for 5...15 seconds. Caltrops has half the normal range.",
-		concise: "Half Range Spell. Inflicts Crippled condition (5...15 seconds) on target and adjacent foes."
+		description: "Target foe and all foes adjacent to your target are Crippled and Bleeding for 5...15 seconds. Caltrops has half the normal range.",
+		concise: "Half Range Spell. Inflicts Crippled and Bleeding condition (5...15 seconds) on target and adjacent foes."
 	},
 	"986": {
 		id: 986,
@@ -5754,8 +5754,8 @@ var skilldesc$2 = {
 	"990": {
 		id: 990,
 		name: "Expunge Enchantments",
-		description: "Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 10...5 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
-		concise: "Touch Skill. Removes one enchantment for each non-attack skill you have. <gray>All your non-attack skills are disabled (10...5 seconds).</gray>"
+		description: "Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 8...4 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
+		concise: "Touch Skill. Removes one enchantment for each non-attack skill you have. <gray>All your non-attack skills are disabled (8...4 seconds).</gray>"
 	},
 	"991": {
 		id: 991,
@@ -5898,8 +5898,8 @@ var skilldesc$2 = {
 	"1034": {
 		id: 1034,
 		name: "Seeping Wound",
-		description: "For 1...7 second[s], target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition. This spell has half the normal range.",
-		concise: "Elite Half Range Hex Spell. (1...7 second[s].) Target foe moves 33% slower. This foe takes 5...25 damage each second while suffering from a condition."
+		description: "For 1...7 second[s], target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+		concise: "(1...7 second[s].) Target foe moves 33% slower. This foe takes 5...25 damage each second while suffering from a condition."
 	},
 	"1035": {
 		id: 1035,
@@ -6000,8 +6000,8 @@ var skilldesc$2 = {
 	"1056": {
 		id: 1056,
 		name: "Kitah's Burden",
-		description: "For 10 seconds, target foe moves 50% slower. When Kitah's Burden ends you gain 10...18 Energy.",
-		concise: "(10 seconds.) Target foe moves 50% slower. End effect: you gain 10...18 Energy."
+		description: "For 6...12 seconds, target foe moves 50% slower. When Kitah's Burden ends you gain 10...18 Energy.",
+		concise: "(6...12 seconds.) Target foe moves 50% slower. End effect: you gain 10...18 Energy."
 	},
 	"1057": {
 		id: 1057,
@@ -6294,8 +6294,8 @@ var skilldesc$2 = {
 	"1136": {
 		id: 1136,
 		name: "Penetrating Chop",
-		description: "If this attack hits, you strike for +5...20 damage. This axe attack has 20% armor penetration.",
-		concise: "Deals +5...20 damage. 20% armor penetration."
+		description: "If this attack hits, you strike for +10...25 damage. This axe attack has 20% armor penetration.",
+		concise: "Deals +10...25 damage. 20% armor penetration."
 	},
 	"1137": {
 		id: 1137,
@@ -6324,8 +6324,8 @@ var skilldesc$2 = {
 	"1146": {
 		id: 1146,
 		name: "Shove",
-		description: "Target touched foe is knocked down. If that foe was moving, that foe's stance ends and that foe takes 15...75 damage before being knocked down.",
-		concise: "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals 15...75 damage if target foe is moving."
+		description: "Target touched foe takes 15...75 damage, their stance ends, and they are knocked down.",
+		concise: "Elite Touch Skill. Target touched foe takes 15...75 damage, their stance ends, and they are knocked down."
 	},
 	"1191": {
 		id: 1191,
@@ -6372,8 +6372,8 @@ var skilldesc$2 = {
 	"1199": {
 		id: 1199,
 		name: "Glass Arrows",
-		description: "For 10...35 seconds, your arrows strike for +5...20 damage if they hit and cause Bleeding for 10...20 seconds if they are blocked.",
-		concise: "(10...35 seconds.) Your arrows deal +5...20 damage. Inflicts Bleeding condition if blocked (10...20 seconds)."
+		description: "For 10...35 seconds, your arrows strike for +6...20 damage if they hit and cause Bleeding for 10...20 seconds if they are blocked.",
+		concise: "(10...35 seconds.) Your arrows deal +6...20 damage. Inflicts Bleeding condition if blocked (10...20 seconds)."
 	},
 	"1200": {
 		id: 1200,
@@ -6456,8 +6456,8 @@ var skilldesc$2 = {
 	"1219": {
 		id: 1219,
 		name: "Protective Was Kaolai",
-		description: "Hold Kaolai's ashes for up to 15...60 seconds. While you hold his ashes, you gain 10 armor. When you drop his ashes, all party members are healed for 10...85 Health.",
-		concise: "(15...60 seconds.) You have +10 armor. Drop effect: all party members are healed for 10...85."
+		description: "Hold Kaolai's ashes for up to 15...60 seconds. While you hold his ashes, you gain 20 armor. When you drop his ashes, all party members are healed for 20...95 Health.",
+		concise: "(15...60 seconds.) You have +20 armor. Drop effect: all party members are healed for 20...95."
 	},
 	"1220": {
 		id: 1220,
@@ -6582,8 +6582,8 @@ var skilldesc$2 = {
 	"1240": {
 		id: 1240,
 		name: "Soul Twisting",
-		description: "For 5...45 seconds, your Binding Rituals cost 15 less Energy (minimum 10) and recharge instantly. Soul Twisting ends after 1...3 Binding Ritual[s].",
-		concise: "(5...45 seconds.) Your Binding Rituals cost 15 less Energy (minimum 10) and recharge instantly. <gray>Ends after 1...3 Binding Ritual[s].</gray>"
+		description: "For 5...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. Soul Twisting ends after 1...3 Binding Ritual[s].",
+		concise: "(5...45 seconds.) Your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. <gray>Ends after 1...3 Binding Ritual[s].</gray>"
 	},
 	"1244": {
 		id: 1244,
@@ -6762,8 +6762,8 @@ var skilldesc$2 = {
 	"1339": {
 		id: 1339,
 		name: "Symbols of Inspiration",
-		description: "For 1...31 seconds, this skill becomes the Elite of target foe. Elite spells you cast use your Fast Casting attribute instead of their normal attributes.",
-		concise: "(1...31 seconds.) This skill becomes the Elite of target foe. Elite spells you cast use your Fast Casting attribute instead of their normal attributes."
+		description: "For 1...31 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.",
+		concise: "(1...31 seconds.) This skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes."
 	},
 	"1340": {
 		id: 1340,
@@ -6870,8 +6870,8 @@ var skilldesc$2 = {
 	"1358": {
 		id: 1358,
 		name: "Ulcerous Lungs",
-		description: "For 10...25 seconds, target foe and all nearby foes suffer from -4 Health degeneration when Bleeding, and whenever they use a shout or chant, they Bleed for 3...15 seconds.",
-		concise: "Also hexes foes near your target (10...25 seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding (3...15 seconds) whenever these foes use a shout or chant."
+		description: "For 10...30 seconds, target foe and all nearby foes suffer from -4 Health degeneration when Bleeding, and whenever they use a shout or chant, they Bleed for 5...20 seconds.",
+		concise: "Also hexes foes near your target (10...30 seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding (5...20 seconds) whenever these foes use a shout or chant."
 	},
 	"1359": {
 		id: 1359,
@@ -6984,8 +6984,8 @@ var skilldesc$2 = {
 	"1378": {
 		id: 1378,
 		name: "Master of Magic",
-		description: "For 1...61 second[s], all of your elemental attributes are set to 8...14 and your elemental spells return 30% of their Energy cost.",
-		concise: "(1...61 second[s]). Your elemental attributes are set to 8...14 and elemental spells return 30% of their Energy cost."
+		description: "For 1...61 second[s], all of your elemental attributes are set to 8...14 and your elemental spells return 1 Energy plus 30% of their Energy cost.",
+		concise: "(1...61 second[s]). Your elemental attributes are set to 8...14 and elemental spells return 1 Energy plus 30% of their Energy cost."
 	},
 	"1379": {
 		id: 1379,
@@ -7050,8 +7050,8 @@ var skilldesc$2 = {
 	"1396": {
 		id: 1396,
 		name: "Words of Comfort",
-		description: "Target ally is healed for 15...60 Health and an additional 15...45 Health if that ally is suffering from a condition.",
-		concise: "Heals for 15...60. Heals for 15...45 more if target ally has a condition."
+		description: "Target ally is healed for 20...65 Health and an additional 20...50 Health if that ally is suffering from a condition.",
+		concise: "Heals for 20...65. Heals for 20...50 more if target ally has a condition."
 	},
 	"1397": {
 		id: 1397,
@@ -7182,8 +7182,8 @@ var skilldesc$2 = {
 	"1466": {
 		id: 1466,
 		name: "Burning Arrow",
-		description: "If this attack hits, you strike for +10...30 damage and cause Burning for 1...7 seconds.",
-		concise: "Deals +10...30 damage. Inflicts Burning condition (1...7 seconds)."
+		description: "If this attack hits, you strike for +10...30 damage and cause Burning for 2...8 seconds.",
+		concise: "Deals +10...30 damage. Inflicts Burning condition (2...8 seconds)."
 	},
 	"1467": {
 		id: 1467,
@@ -7368,8 +7368,8 @@ var skilldesc$2 = {
 	"1500": {
 		id: 1500,
 		name: "Mirage Cloak",
-		description: "For 1...7 second[s], you have a 30...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...40 earth damage.",
-		concise: "(1...7 second[s].) You have 30...60% chance to block. Initial Effect: deals 10...40 earth damage to nearby foes."
+		description: "For 20 second[s], you have a 40% chance to block and an extra 10% for each additional enchantment (max 80%). All nearby foes are struck for 10...40 earth damage each time a Dervish enchantment is removed from you.",
+		concise: "(20 second[s].) 40% chance to block and an extra 10% for each additional enchantment. 10...40 earth damage to nearby foes when you lose a Dervish enchantment."
 	},
 	"1502": {
 		id: 1502,
@@ -7548,8 +7548,8 @@ var skilldesc$2 = {
 	"1532": {
 		id: 1532,
 		name: "Mystic Sandstorm",
-		description: "Create a sandstorm at your location that lasts 3 seconds. Each second, foes nearby this location take 10...20 earth damage. Attacking foes take an additional 10...20 damage. If you are enchanted when you cast this spell, it lasts twice as long.",
-		concise: "(3 seconds.) Deals 10...20 earth damage each second. Deals an additional 10...20 damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted."
+		description: "Create a sandstorm at your location that lasts 3 seconds. Each second, foes nearby this location take 10...40 earth damage. Attacking foes take an additional 10...20 damage. If you are enchanted when you cast this spell, it lasts twice as long.",
+		concise: "(3 seconds.) Deals 10...40 earth damage each second. Deals an additional 10...20 damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted."
 	},
 	"1533": {
 		id: 1533,
@@ -7620,14 +7620,14 @@ var skilldesc$2 = {
 	"1544": {
 		id: 1544,
 		name: "Whirling Charge",
-		description: "For 1...6 second[s], you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...50 cold damage and this enchantment ends.",
-		concise: "(1...6 second[s].) You move 33% faster. Deal 10...50 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends."
+		description: "For 1...6 second[s], you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...60 cold damage and this enchantment ends.",
+		concise: "(1...6 second[s].) You move 33% faster. Deal 10...60 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends."
 	},
 	"1545": {
 		id: 1545,
 		name: "Test of Faith",
-		description: "Deals 15...75 cold damage and takes 1 enchantment from target foe. If that foe was not enchanted, that foe is Dazed for 1...4 second[s].",
-		concise: "Touch Spell. Deals 15...75 cold damage and removes 1 enchantment. Target foe is Dazed for 1...4 second[s] if that foe was not enchanted."
+		description: "Deals 15...75 cold damage and takes 1 enchantment from target foe. If that foe was not enchanted, that foe is Dazed for 2...6 second[s].",
+		concise: "Touch Spell. Deals 15...75 cold damage and removes 1 enchantment. Target foe is Dazed for 2...6 second[s] if that foe was not enchanted."
 	},
 	"1546": {
 		id: 1546,
@@ -7662,8 +7662,8 @@ var skilldesc$2 = {
 	"1551": {
 		id: 1551,
 		name: "Spear of Lightning",
-		description: "If this attack hits, it deals +8...20 lightning damage. This attack has 25% armor penetration.",
-		concise: "Deals +8...20 lightning damage. 25% armor penetration."
+		description: "Strikes all foes between you and your target. If this attack hits, it deals +10...20 lightning damage. This attack has 25% armor penetration.",
+		concise: "Deals +10...20 lightning damage. 25% armor penetration. Strikes all foes between you and your target."
 	},
 	"1552": {
 		id: 1552,
@@ -7674,8 +7674,8 @@ var skilldesc$2 = {
 	"1553": {
 		id: 1553,
 		name: "Anthem of Fury",
-		description: "For 10 seconds, all party members within earshot gain 1...4 strikes of adrenaline the next time they use an attack skill.",
-		concise: "(10 seconds.) Party members in earshot gain 1...4 adrenaline with their next attack skill."
+		description: "For 10 seconds, all party members within earshot gain 2...5 strikes of adrenaline the next time they use an attack skill.",
+		concise: "(10 seconds.) Party members in earshot gain 2...5 adrenaline with their next attack skill."
 	},
 	"1554": {
 		id: 1554,
@@ -7698,8 +7698,8 @@ var skilldesc$2 = {
 	"1557": {
 		id: 1557,
 		name: "Anthem of Flame",
-		description: "For 10 seconds, the next attack skill used by each party member within earshot also causes Burning for 1...3 second[s].",
-		concise: "(10 seconds.) Party members in earshot inflict Burning condition (1...3 second[s]) with their next attack skill."
+		description: "For 10 seconds, the next attack skill used by each party member within earshot also causes Burning for 1...5 second[s].",
+		concise: "(10 seconds.) Party members in earshot inflict Burning condition (1...5 second[s]) with their next attack skill."
 	},
 	"1558": {
 		id: 1558,
@@ -8208,8 +8208,8 @@ var skilldesc$2 = {
 	"1688": {
 		id: 1688,
 		name: "Defender's Zeal",
-		description: "For 5...25 seconds, whenever target foe hits with an attack, you gain 2 Energy.",
-		concise: "(5...25 seconds.) You gain 2 Energy whenever target foe hits with an attack."
+		description: "For 10...30 seconds, whenever target foe hits with an attack, you gain 2 Energy.",
+		concise: "(10...30 seconds.) You gain 2 Energy whenever target foe hits with an attack."
 	},
 	"1689": {
 		id: 1689,
@@ -8256,8 +8256,8 @@ var skilldesc$2 = {
 	"1696": {
 		id: 1696,
 		name: "Decapitate",
-		description: "You lose all adrenaline and all Energy. If this attack hits, you deal +5...80 damage and cause a Deep Wound for 5...20 seconds. This attack always results in a critical hit.",
-		concise: "Deals +5...80 damage. Inflicts Deep Wound condition (5...20 seconds). Automatic critical hit. <gray>You lose all adrenaline and Energy.</gray>"
+		description: "You lose all adrenaline and all Energy. This attack is unblockable, you deal +5...80 damage and cause a Deep Wound for 5...20 seconds. This attack is always critical and if foe is killed, nearby foes are Weakened for 8 seconds.",
+		concise: "Deals +5...80 damage. Inflicts Deep Wound condition (5...20 seconds). Automatic critical hit. If foe is killed, nearby foes are Weakened (8 seconds). <gray>You lose all adrenaline and Energy.</gray>"
 	},
 	"1697": {
 		id: 1697,
@@ -8382,8 +8382,8 @@ var skilldesc$2 = {
 	"1733": {
 		id: 1733,
 		name: "Wielder's Strike",
-		description: "Target foe is struck for 5...50 lightning damage. If you are under the effects of a weapon spell, you deal an additional 10...40 lightning damage.",
-		concise: "Deals 5...50 lightning damage. Deals 10...40 more lightning damage if you are under a weapon spell."
+		description: "Target foe is struck for 10...60 lightning damage. If you are under the effects of a weapon spell, you deal an additional 10...50 lightning damage.",
+		concise: "Deals 10...60 lightning damage. Deals 10...50 more lightning damage if you are under a weapon spell."
 	},
 	"1734": {
 		id: 1734,
@@ -8442,8 +8442,8 @@ var skilldesc$2 = {
 	"1744": {
 		id: 1744,
 		name: "Caretaker's Charge",
-		description: "Target foe is struck for 20...75 lightning damage. If you are holding an item, you gain 5 Energy and 5...50 Health.",
-		concise: "Deals 20...75 lightning damage. You gain 5 Energy and 5...50 Health if you are holding an item."
+		description: "Target foe is struck for 20...85 lightning damage. If you are holding an item, you gain 7 Energy and 5...50 Health.",
+		concise: "Deals 20...85 lightning damage. You gain 7 Energy and 5...50 Health if you are holding an item."
 	},
 	"1745": {
 		id: 1745,
@@ -8508,8 +8508,8 @@ var skilldesc$2 = {
 	"1756": {
 		id: 1756,
 		name: "Grenth's Grasp",
-		description: "For 20 seconds, if you are wielding a cold weapon, your attack skills also Cripple that <sic/> foe for 1...11 second[s] and you transfer 1...3 condition from yourself to that foe.",
-		concise: "(20 seconds.) Inflicts Crippled (1...11 second[s]) with your attack skills and transfer 1...3 condition. <gray>No effect unless wielding a cold weapon.</gray>"
+		description: "For 20 seconds, your attack skills also Cripple that <sic/> foe for 1...11 second[s] and you transfer 1...3 condition[s] from yourself to that foe.",
+		concise: "(20 seconds.) Inflicts Crippled (1...11 second[s]) with your attack skills and transfer 1...3 condition[s]."
 	},
 	"1757": {
 		id: 1757,
@@ -8520,8 +8520,8 @@ var skilldesc$2 = {
 	"1758": {
 		id: 1758,
 		name: "Harrier's Grasp",
-		description: "For 5...20 seconds, attacks against moving foes also Cripple that foe for 2...9 seconds. This enchantment ends after you apply Cripple 1...3 times. <sic/> When you cast this spell, you lose Cripple and 1 other condition.",
-		concise: "(5...20 seconds.) Attacks on moving foes also Cripple them. <sic/> <gray>Ends after you apply Cripple 1...3 times. <sic/> </gray> Initial Effect: you lose Cripple and 1 other condition."
+		description: "For 5...20 seconds, attacks against moving foes also Cripple that foe for 2...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3 times. <sic/>.",
+		concise: "(5...20 seconds.) Attacks on moving foes also Cripple them. <sic/> Initial Effect: you lose Cripple and 1 other condition. <gray>Ends after you apply Cripple 1...3 times. <sic/> </gray>"
 	},
 	"1759": {
 		id: 1759,
@@ -8592,8 +8592,8 @@ var skilldesc$2 = {
 	"1770": {
 		id: 1770,
 		name: "Natural Temper",
-		description: "For 4...10 seconds, you gain 33% more adrenaline while not under the effects of an Enchantment.",
-		concise: "(4...10 seconds.) You gain 33% more adrenaline. <gray>No effect if you are enchanted.</gray>"
+		description: "For 4...15 seconds, you gain 33% more adrenaline while not under the effects of an Enchantment.",
+		concise: "(4...15 seconds.) You gain 33% more adrenaline. <gray>No effect if you are enchanted.</gray>"
 	},
 	"1771": {
 		id: 1771,
@@ -8640,8 +8640,8 @@ var skilldesc$2 = {
 	"1778": {
 		id: 1778,
 		name: "Signet of Return",
-		description: "Resurrect target party member with 5...15% Health and 1...4% Energy for each party member within earshot.",
-		concise: "Resurrects target party member (5...15% Health and 1...4% Energy for each party member in earshot)."
+		description: "Resurrect target party member with 5...20% Health and 1...4% Energy for each party member within earshot.",
+		concise: "Resurrects target party member (5...20% Health and 1...4% Energy for each party member in earshot)."
 	},
 	"1779": {
 		id: 1779,
@@ -8808,8 +8808,8 @@ var skilldesc$2 = {
 	"1996": {
 		id: 1996,
 		name: "Sum of All Fears",
-		description: "For 1...10 second[s], target foe moves, attacks, and casts spells 33% slower.",
-		concise: "(1...10 second[s].) Target foe moves, attacks, and casts spells 33% slower."
+		description: "For 4...12 second[s], target foe moves, attacks, and casts spells 33% slower.",
+		concise: "(4...12 second[s].) Target foe moves, attacks, and casts spells 33% slower."
 	},
 	"1997": {
 		id: 1997,
@@ -8868,8 +8868,8 @@ var skilldesc$2 = {
 	"2006": {
 		id: 2006,
 		name: "Castigation Signet",
-		description: "Target foe takes 26...56 holy damage. If that foe was attacking, you gain 1...10 Energy.",
-		concise: "Deals 26...56 holy damage. You gain 1...10 Energy if target foe is attacking."
+		description: "Target foe takes 26...56 holy damage. If that foe was attacking, you gain 4...14 Energy.",
+		concise: "Deals 26...56 holy damage. You gain 4...14 Energy if target foe is attacking."
 	},
 	"2007": {
 		id: 2007,
@@ -8916,8 +8916,8 @@ var skilldesc$2 = {
 	"2014": {
 		id: 2014,
 		name: "Signet of Pious Restraint",
-		description: "Remove one Dervish enchantment. Target foe is Crippled for 5...15 seconds. If an enchantment was removed, all foes in the area of your target are also Crippled and this signet recharges 75% faster.",
-		concise: "Inflicts Crippled condition (5...15 seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes in the area of your target and recharges 75% faster."
+		description: "Remove 1 Dervish enchantment. Target foe is Crippled for 5...15 seconds. If an enchantment was removed, all foes in the area of your target are also Crippled and this signet recharges 75% faster.",
+		concise: "Inflicts Crippled condition (5...15 seconds). Remove 1 of your Dervish enchantments. Removal effect: also causes Cripple to foes in the area of your target and recharges 75% faster."
 	},
 	"2015": {
 		id: 2015,
@@ -8982,14 +8982,14 @@ var skilldesc$2 = {
 	"2057": {
 		id: 2057,
 		name: "Foul Feast",
-		description: "All conditions are transferred from target other ally to yourself. For each condition acquired in this way, you gain 0...45 Health and 0...2 Energy. This skill recharges twice as fast if you remove Disease from your target.",
-		concise: "Transfers all conditions from target ally to yourself. You gain 0...45 Health and 0...2 Energy for each condition transferred. Half recharge if you remove Disease. <gray>Cannot self-target.</gray>"
+		description: "All conditions are transferred from target other ally to yourself. For each condition acquired in this way, you gain 0...45 Health and 2...4 Energy. This skill recharges twice as fast if you remove Disease from your target.",
+		concise: "Transfers all conditions from target ally to yourself. You gain 0...45 Health and 2...4 Energy for each condition transferred. Half recharge if you remove Disease. <gray>Cannot self-target.</gray>"
 	},
 	"2058": {
 		id: 2058,
 		name: "Putrid Bile",
-		description: "For 5...20 seconds, target foe suffers -1...3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25...85 damage.",
-		concise: "(5...20 seconds.) Causes -1...3 Health degeneration. Deals 25...85 damage to all nearby foes if target foe dies."
+		description: "For 5...25 seconds, target foe suffers -1...3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25...85 damage.",
+		concise: "(5...25 seconds.) Causes -1...3 Health degeneration. Deals 25...85 damage to all nearby foes if target foe dies."
 	},
 	"2059": {
 		id: 2059,
@@ -9090,8 +9090,8 @@ var skilldesc$2 = {
 	"2075": {
 		id: 2075,
 		name: "Hasty Refrain",
-		description: "For 3...15 seconds, target ally moves 25% faster. This echo is reapplied every time a chant or shout ends on that ally.",
-		concise: "(3...15 seconds.) Target ally moves 25% faster. Renewal: every time a chant or shout ends on this ally."
+		description: "For 8...20 seconds, target ally moves 25% faster. This echo is reapplied every time a chant or shout ends on that ally.",
+		concise: "(8...20 seconds.) Target ally moves 25% faster. Renewal: every time a chant or shout ends on this ally."
 	},
 	"2091": {
 		id: 2091,
@@ -9414,8 +9414,8 @@ var skilldesc$2 = {
 	"2202": {
 		id: 2202,
 		name: "Mending Grip",
-		description: "Target ally is healed for 20...80 Health. If that ally is under the effects of a weapon spell, that ally loses one condition.",
-		concise: "Heals for 20...80. Removes one condition if target ally is under a Weapon <sic/> spell."
+		description: "Target ally is healed for 30...90 Health. If that ally is under the effects of a weapon spell, that ally loses one condition.",
+		concise: "Heals for 30...90. Removes one condition if target ally is under a Weapon <sic/> spell."
 	},
 	"2203": {
 		id: 2203,
@@ -9822,8 +9822,8 @@ var skilldesc$2 = {
 	"2808": {
 		id: 2808,
 		name: "Enraged Smash (PvP)",
-		description: "If Enraged Smash hits, you gain 1...4 strike[s] of adrenaline. If you hit a moving foe, you strike for +10...40 damage, and target foe is knocked down.",
-		concise: "Gives you 1...4 strike[s] of adrenaline if you hit. Deals +10...40 damage and causes knockdown if target foe was moving."
+		description: "If Enraged Smash hits, you gain 1...3 strike[s] of adrenaline. If you hit a moving foe, you strike for +10...40 damage, and target foe is knocked down.",
+		concise: "Gives you 1...3 strike[s] of adrenaline if you hit. Deals +10...40 damage and causes knockdown if target foe was moving."
 	},
 	"2809": {
 		id: 2809,
@@ -9858,8 +9858,8 @@ var skilldesc$2 = {
 	"2861": {
 		id: 2861,
 		name: "Penetrating Attack (PvP)",
-		description: "If Penetrating Attack hits, you strike for +3...10 damage and this attack has 10% armor penetration.",
-		concise: "Deals +3...10 damage. 10% armor penetration."
+		description: "If Penetrating Attack hits, you strike for +5...15 damage and this attack has 10% armor penetration.",
+		concise: "Deals +5...15 damage. 10% armor penetration."
 	},
 	"2862": {
 		id: 2862,
@@ -9876,8 +9876,8 @@ var skilldesc$2 = {
 	"2864": {
 		id: 2864,
 		name: "Sundering Attack (PvP)",
-		description: "If Sundering Attack hits, you strike for +3...10 damage and this attack has 10% armor penetration.",
-		concise: "Deals +3...10 damage. 10% armor penetration."
+		description: "If Sundering Attack hits, you strike for +5...15 damage and this attack has 10% armor penetration.",
+		concise: "Deals +5...15 damage. 10% armor penetration."
 	},
 	"2866": {
 		id: 2866,
@@ -9888,14 +9888,14 @@ var skilldesc$2 = {
 	"2867": {
 		id: 2867,
 		name: "Ancestors' Rage (PvP)",
-		description: "For 3 seconds all foes adjacent to target ally are struck for 1...41 lightning damage each second.",
-		concise: "(3 seconds.) Deals 1...41 lightning damage to foes adjacent to target ally each second."
+		description: "For 3 seconds all foes adjacent to target ally are struck for 4...50 lightning damage each second.",
+		concise: "(3 seconds.) Deals 4...50 lightning damage to foes adjacent to target ally each second."
 	},
 	"2868": {
 		id: 2868,
 		name: "Splinter Weapon (PvP)",
-		description: "For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...5 attack[s] deal 5...30 damage to up to 4 adjacent foes.",
-		concise: "(20 seconds.) Attacks deal 5...30 damage to 3 <sic/> adjacent foes. <gray>Ends after 1...5 attack[s].</gray>"
+		description: "For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...5 attack[s] deal 5...40 damage to up to 4 adjacent foes.",
+		concise: "(20 seconds.) Attacks deal 5...40 damage to 3 <sic/> adjacent foes. <gray>Ends after 1...5 attack[s].</gray>"
 	},
 	"2869": {
 		id: 2869,
@@ -10032,8 +10032,8 @@ var skilldesc$2 = {
 	"2998": {
 		id: 2998,
 		name: "Fragility (PvP)",
-		description: "For 8...20 seconds, target foe takes 5...20 damage each time that foe suffers or recovers from a new condition.",
-		concise: "(8...20 seconds.) Target foe takes 5...20 damage each time it gains or loses a condition."
+		description: "For 8...20 seconds, target foe and adjacent foes takes 5...20 damage each time they suffer or recover from a new condition.",
+		concise: "(8...20 seconds.) Also hexes foes adjacent to target. These foes take 5...20 damage each time they gains or loses a condition."
 	},
 	"2999": {
 		id: 2999,
@@ -10128,8 +10128,8 @@ var skilldesc$2 = {
 	"3017": {
 		id: 3017,
 		name: "Disenchantment (PvP)",
-		description: "Create a level 1...8 spirit. This spirit deals 5...20 damage and anyone struck by its attack loses one enchantment. This spirit dies after 10...35 seconds.",
-		concise: "Creates a level 1...8 spirit (10...35 second lifespan). Its attacks deal 5...20 damage and remove one enchantment."
+		description: "Create a level 1...8 spirit. This spirit deals 5...20 damage and anyone struck by its attack loses one enchantment. This spirit dies after 15...40 seconds.",
+		concise: "Creates a level 1...8 spirit (15...40 second lifespan). Its attacks deal 5...20 damage and remove one enchantment."
 	},
 	"3018": {
 		id: 3018,
@@ -10194,8 +10194,8 @@ var skilldesc$2 = {
 	"3028": {
 		id: 3028,
 		name: "Blazing Finale (PvP)",
-		description: "For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, all foes adjacent to that ally are set on Fire for 1...3 second[s].",
-		concise: "(10...35 seconds.) Inflicts Burning condition (1...3 second[s]) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits."
+		description: "For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, all foes adjacent to that ally are set on Fire for 1...5 second[s].",
+		concise: "(10...35 seconds.) Inflicts Burning condition (1...5 second[s]) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits."
 	},
 	"3029": {
 		id: 3029,
@@ -10206,8 +10206,8 @@ var skilldesc$2 = {
 	"3030": {
 		id: 3030,
 		name: "Signet of Return (PvP)",
-		description: "Resurrect target party member with 5...15% Health and 1...4% Energy for each party member within earshot.",
-		concise: "Resurrects target party member (5...15% Health and 1...4% Energy for each party member in earshot)."
+		description: "Resurrect target party member with 5...20% Health and 1...4% Energy for each party member within earshot.",
+		concise: "Resurrects target party member (5...20% Health and 1...4% Energy for each party member in earshot)."
 	},
 	"3031": {
 		id: 3031,
@@ -10272,8 +10272,8 @@ var skilldesc$2 = {
 	"3045": {
 		id: 3045,
 		name: "Comfort Animal (PvP)",
-		description: "You heal your animal companion for 20...104 Health. If your companion is dead, it is resurrected with 10...58% Health.",
-		concise: "Your pet gains 20...104 Health. Resurrects your pet (10...58% Health.)"
+		description: "You heal your animal companion for 40...120 Health. If your companion is dead, it is resurrected with 10...58% Health. If you have Comfort Animal equipped, your animal companion will travel with you.",
+		concise: "Your pet gains 40...120 Health. Resurrects your pet (10...58% Health.) If you have Comfort Animal equipped, your animal companion will travel with you."
 	},
 	"3047": {
 		id: 3047,
@@ -10302,8 +10302,8 @@ var skilldesc$2 = {
 	"3051": {
 		id: 3051,
 		name: "Enraged Lunge (PvP)",
-		description: "Your animal companion attempts an Enraged Lunge that deals +3...23 damage (maximum bonus 80) for each recharging Beast Mastery skill.",
-		concise: "Deals +3...23 damage (maximum 80) for each of your recharging Beast Mastery skills."
+		description: "Your animal companion attempts an Enraged Lunge that deals +3...23 damage (maximum bonus 60) for each recharging Beast Mastery skill.",
+		concise: "Deals +3...23 damage (maximum 60) for each of your recharging Beast Mastery skills."
 	},
 	"3053": {
 		id: 3053,
@@ -10374,14 +10374,14 @@ var skilldesc$2 = {
 	"3145": {
 		id: 3145,
 		name: "Glass Arrows (PvP)",
-		description: "For 10...35 seconds, your arrows strike for +5...12 damage if they hit and cause Bleeding for 10...20 seconds if they are blocked.",
-		concise: "(10...35 seconds.) Your arrows deal +5...12 damage. Inflicts Bleeding condition if blocked (10...20 seconds)."
+		description: "For 10...35 seconds, your arrows strike for +6...18 damage if they hit and cause Bleeding for 10...20 seconds if they are blocked.",
+		concise: "(10...35 seconds.) Your arrows deal +6...18 damage. Inflicts Bleeding condition if blocked (10...20 seconds)."
 	},
 	"3147": {
 		id: 3147,
 		name: "Keen Arrow (PvP)",
-		description: "If this attack hits, you strike for +1...5 damage. If you land a critical hit, you deal an additional +5...30 damage.",
-		concise: "Deals +1...5 damage. Deals +5...30 more damage if you land a critical hit."
+		description: "If this attack hits, you strike for +5...15 damage. If you land a critical hit, you deal an additional +5...30 damage.",
+		concise: "Deals +5...15 damage. Deals +5...30 more damage if you land a critical hit."
 	},
 	"3148": {
 		id: 3148,
@@ -10434,8 +10434,8 @@ var skilldesc$2 = {
 	"3181": {
 		id: 3181,
 		name: "Illusionary Weaponry (PvP)",
-		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 16...50 damage to your targets for each melee attack.",
-		concise: "(30 seconds.) Deals 16...50 damage to foes in place of other damage or effects from melee attacks. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
+		description: "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 20...60 damage to your targets for each melee attack.",
+		concise: "(30 seconds.) Deals 20...60 damage to foes in place of other damage or effects from melee attacks. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
 	},
 	"3183": {
 		id: 3183,
@@ -10704,8 +10704,8 @@ var skilldesc$2 = {
 	"3422": {
 		id: 3422,
 		name: "Time Ward",
-		description: "You create a Time Ward at your location. For 3...15 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster.",
-		concise: "(3...15 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. <gray>Allied spirits are not affected. PvE Skill</gray>"
+		description: "You create a Time Ward at your location. For 6...20 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster.",
+		concise: "(6...20 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. <gray>Allied spirits are not affected. PvE Skill</gray>"
 	},
 	"3423": {
 		id: 3423,
@@ -10716,8 +10716,8 @@ var skilldesc$2 = {
 	"3424": {
 		id: 3424,
 		name: "Over the Limit",
-		description: "While you maintain this enchantment, your spells cast 15...20% faster, and recharge 15...50% faster, but you continuously gain Overcast.",
-		concise: "Spells cast 15...20% faster and recharge 15...50% faster. Continuously gain Overcast while active."
+		description: "While you maintain this enchantment, your spells cast 20...50% faster, and recharge 40...80% faster, but you continuously gain Overcast.",
+		concise: "Spells cast 20...50% faster and recharge 40...80% faster. Continuously gain Overcast while active."
 	},
 	"3425": {
 		id: 3425,
@@ -10772,6 +10772,192 @@ var skilldesc$2 = {
 		name: "Mighty Throw (PvP)",
 		description: "Your spear moves three times faster. If it hits, you deal +10...40 damage.",
 		concise: "Deals +10...40 damage. This spear moves three times faster."
+	},
+	"3443": {
+		id: 3443,
+		name: "Frenzy (PvP)",
+		description: "For 8 seconds, you attack 33% faster but take 200...150% damage.",
+		concise: "(8 seconds.) You attack 33% faster. <gray>You take 200...150% damage.</gray>"
+	},
+	"3444": {
+		id: 3444,
+		name: "Hundred Blades (PvP)",
+		description: "For 15 seconds, whenever you attack with a sword, all adjacent foes take 10...30 slashing damage.",
+		concise: "(15 seconds.) Deals 10...30 slashing damage to all adjacent foes whenever you attack with a sword."
+	},
+	"3445": {
+		id: 3445,
+		name: "Nature's Renewal (PvP)",
+		description: "Create a level 1...10 spirit. For 30...240 seconds, enchantments and hexes cast by non-spirit creatures in range take 50...75% longer to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after 30...240 seconds.",
+		concise: "Creates a level 1...10 spirit (30...240 second lifespan). For creatures in range, enchantments and Hexes <sic/> take 50...75% as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits."
+	},
+	"3446": {
+		id: 3446,
+		name: "Soul Ignition",
+		description: "While you maintain this enchantment, reduce overcast at a rate of 1...2 per second. You and all adjacent foes are afflicted with burning while this enchantment is active.",
+		concise: "Reduce overcast at a rate of 1...2 per second. You and all adjacent foes are afflicted with burning."
+	},
+	"3447": {
+		id: 3447,
+		name: "Wastrel's Worry (PvP)",
+		description: "After 3 seconds, target foe takes 20...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+		concise: "(3 seconds). End effect: causes 20...100 damage to target and 75% of that damage to adjacent foes. <gray>No effect and ends early if target foe uses a skill.</gray>"
+	},
+	"3448": {
+		id: 3448,
+		name: "Peace and Harmony (PvP)",
+		description: "Target ally loses 0...4 condition[s] and hex[es]. For 1...3 second[s], conditions and hexes expire 90% faster on that ally. All your Smiting Prayers are disabled for 20 seconds.",
+		concise: "Target ally loses 0...4 condition[s] and hex[es]. Conditions and hexes expire 90% faster on that ally (1...3 second[s]). <gray>Disables your Smiting Prayers (20 seconds).</gray>"
+	},
+	"3449": {
+		id: 3449,
+		name: "Protector's Strike (PvP)",
+		description: "If this attack strikes a moving foe, you strike for 10...40 more damage.",
+		concise: "Deals +10...40 damage if target is moving."
+	},
+	"3450": {
+		id: 3450,
+		name: "Crippling Shot (PvP)",
+		description: "If Crippling Shot hits, your target becomes Crippled for 4...14 second[s]. This attack cannot be blocked.",
+		concise: "Unblockable. Inflicts Crippled condition (4...14 second[s])."
+	},
+	"3451": {
+		id: 3451,
+		name: "Otyugh's Cry (PvP)",
+		description: "For 5...15 seconds, your animal companion gains +24 armor and cannot be blocked.",
+		concise: "(5...15 seconds.) Your pet has +24 armor and is unblockable."
+	},
+	"3452": {
+		id: 3452,
+		name: "Shadow Shroud (PvP)",
+		description: "For 2...7 seconds, target foe cannot be the target of enchantments.",
+		concise: "(2...7 seconds.) Target foe cannot be the target of enchantments."
+	},
+	"3453": {
+		id: 3453,
+		name: "Dash (PvP)",
+		description: "For 3 seconds, you run 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds).",
+		concise: "(3 seconds.) You move 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds)."
+	},
+	"3454": {
+		id: 3454,
+		name: "Shield Guardian (PvP)",
+		description: "For 1...4 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...35 and Shield Guardian ends.",
+		concise: "(1...4 second[s]). Party members in earshot have a 75% chance to block attacks. Block effect: Allies in earshot are healed for 10...35, and Shield Guardian ends."
+	},
+	"3455": {
+		id: 3455,
+		name: "Auspicious Blow (PvP)",
+		description: "If Auspicious Blow hits, you strike for +5...20 damage and gain 2...4 Energy. If target foe is suffering from Weakness, this attack is unblockable.",
+		concise: "Deals +5...20 damage and you gain 2...4 Energy. Unblockable if target foe is Weakened."
+	},
+	"3456": {
+		id: 3456,
+		name: "\"Coward!\" (PvP)",
+		description: "If target foe is moving, that foe is knocked down.",
+		concise: "Causes knock-down if target foe is moving."
+	},
+	"3457": {
+		id: 3457,
+		name: "Protector's Defense (PvP)",
+		description: "For 4...8 seconds, allies adjacent to you have a 75% chance to block incoming attacks. Protector's Defense ends if you move.",
+		concise: "(4...8 seconds.) Allies adjacent to you have 75% chance to block. <gray>Ends if you move.</gray>"
+	},
+	"3458": {
+		id: 3458,
+		name: "Primal Rage (PvP)",
+		description: "For 1...9 second[s], you attack 33% faster and move 33% faster, but you take 200...150% damage .",
+		concise: "(1...9 second[s].) You attack 33% faster and move 33% faster. <gray>You take 200...150% damage.</gray>"
+	},
+	"3459": {
+		id: 3459,
+		name: "Melandru's Shot (PvP)",
+		description: "If Melandru's Shot hits, your target begins Bleeding for 5...25 seconds. If it hits a foe that is moving or knocked down, that foe takes +10...25 damage and is Crippled for 5...15 seconds.",
+		concise: "Inflicts Bleeding (5...25 seconds). Deals +10...25 damage and inflicts Crippled (5...15 seconds) if target foe was moving or knocked down."
+	},
+	"3460": {
+		id: 3460,
+		name: "Tranquility (PvP)",
+		description: "Create a level 1...10 spirit. Enchantments cast by non-spirit creatures within its range expire 10...30% faster. This spirit dies after 15...120 seconds.",
+		concise: "Creates a level 1...10 spirit (15...120 second lifespan). Enchantments expire 10...30% faster on creatures in range. Does not affect spirits."
+	},
+	"3461": {
+		id: 3461,
+		name: "Soul Twisting (PvP)",
+		description: "For 5...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge 25...50% faster. Soul Twisting ends after 1...3 Binding Ritual[s].",
+		concise: "(5...45 seconds.) Your Binding Rituals cost 15 less Energy (minimum 5) and recharge 25...50% faster. <gray>Ends after 1...3 Binding Ritual[s].</gray>"
+	},
+	"3462": {
+		id: 3462,
+		name: "Guided Weapon (PvP)",
+		description: "For 4...10 seconds, target ally's attacks cannot be blocked.",
+		concise: "(4...10 seconds.) Attacks are unblockable."
+	},
+	"3463": {
+		id: 3463,
+		name: "Tease (PvP)",
+		description: "If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0...5 Energy from all foes in the area.",
+		concise: "Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal 0...5 Energy from all foes in the area."
+	},
+	"3464": {
+		id: 3464,
+		name: "Flail (PvP)",
+		description: "For 1...15 second[s], you attack 33% faster but move 33% slower. Ends if you use a ranged attack skill.",
+		concise: "(1...15 second[s].) You attack 33% faster. Ends if you use a ranged attack skill. <gray>You move 33% slower.</gray>"
+	},
+	"3465": {
+		id: 3465,
+		name: "Charging Strike (PvP)",
+		description: "For 1...10 second[s], you run 33% faster. Your next successful melee hit does +10...80 damage and this stance ends. This stance ends if you use a skill.",
+		concise: "(1...10 second[s].) You move 33% faster and deal +10...80 damage with your next melee hit. <gray>Ends when you hit or if you use a skill.</gray>"
+	},
+	"3466": {
+		id: 3466,
+		name: "Infuriating Heat (PvP)",
+		description: "Create a level 1...10 spirit. Non-spirit creatures within its range gain adrenaline 33...66% as fast. This spirit dies after 30...120 seconds.",
+		concise: "Creates a level 1...10 spirit (30...120 second lifespan). Adrenaline gain increases by 33...66% for creatures in range."
+	},
+	"3467": {
+		id: 3467,
+		name: "Mystic Corruption (PvP)",
+		description: "All adjacent foes suffer from Disease for 2...6 second[s]. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
+		concise: "(20 seconds.) Initial Effect: all adjacent foes are Diseased (2...6 second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease."
+	},
+	"3468": {
+		id: 3468,
+		name: "Harrier's Grasp (PvP)",
+		description: "For 5...20 seconds, melee attacks against moving foes also Cripple those foes for 2...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3 times.",
+		concise: "(5...20 seconds.) Melee attacks on moving foes also Cripple them. <sic/> Initial Effect: you lose Cripple and 1 other condition. Ends after you apply Cripple 1...3 times. <sic/>"
+	},
+	"3469": {
+		id: 3469,
+		name: "Mirage Cloak (PvP)",
+		description: "For 1...7 second[s], you have a 30...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...40 earth damage.",
+		concise: "(1...7 second[s].) You have 30...60% chance to block. Initial Effect: deals 10...40 earth damage to nearby foes."
+	},
+	"3470": {
+		id: 3470,
+		name: "Fleeting Stability (PvP)",
+		description: "For 2...8 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
+		concise: "(2...8 seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented."
+	},
+	"3471": {
+		id: 3471,
+		name: "Pious Restoration (PvP)",
+		description: "You gain 80...150 Health and remove 1 Dervish enchantment. If an enchantment was removed in this way, you also lose 1 hex.",
+		concise: "Gain 80...150 Health and remove 1 Dervish enchantment. Removal effect: lose 1 hex."
+	},
+	"3472": {
+		id: 3472,
+		name: "Whirling Charge (PvP)",
+		description: "For 1...6 second[s], you move 33% faster than normal. The next time you strike a foe, all other nearby foes take 10...50 cold damage and this enchantment ends.",
+		concise: "(1...6 second[s].) You move 33% faster. Deal 10...50 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends."
+	},
+	"3473": {
+		id: 3473,
+		name: "Aura Slicer (PvP)",
+		description: "If this attack hits, you inflict Bleeding for 5...15 seconds. If you are enchanted, you also inflict Cracked Armor for 1...10 second[s].",
+		concise: "(5...15 seconds.)Inflicts <sic/> Bleeding condition. Also inflicts Cracked Armor (1...10 second[s]) if you are enchanted."
 	}
 };
 var en = {
@@ -11394,7 +11580,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -11494,7 +11680,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -11614,7 +11800,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 2,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -11728,13 +11914,13 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3447,
 		type: 24,
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 4,
+		recharge: 2,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -12474,7 +12660,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -12654,7 +12840,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 2,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -12673,7 +12859,7 @@ var skilldata = {
 		type: 24,
 		upkeep: 0,
 		energy: 10,
-		activation: 2,
+		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
 		adrenaline_precise: 0,
@@ -13112,9 +13298,9 @@ var skilldata = {
 		split_id: 0,
 		type: 24,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 1,
-		recharge: 12,
+		recharge: 8,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -14274,7 +14460,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 45,
+		recharge: 30,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -14732,7 +14918,7 @@ var skilldata = {
 		split_id: 0,
 		type: 24,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
@@ -14774,7 +14960,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 45,
+		recharge: 30,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -14932,9 +15118,9 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 25,
-		activation: 2,
-		recharge: 30,
+		energy: 15,
+		activation: 1.5,
+		recharge: 20,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -15054,7 +15240,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 45,
+		recharge: 30,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -15212,7 +15398,7 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 2,
 		recharge: 5,
 		adrenaline: 0,
@@ -15274,7 +15460,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.75,
-		recharge: 10,
+		recharge: 5,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -15948,8 +16134,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3448,
 		type: 23,
 		upkeep: 0,
 		energy: 5,
@@ -16554,7 +16740,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 1,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -17148,8 +17334,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3449,
 		type: 3,
 		upkeep: 0,
 		energy: 5,
@@ -17355,8 +17541,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 8,
-		adrenaline_precise: 8,
+		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17434,9 +17620,9 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 0,
-		recharge: 1,
-		adrenaline: 6,
-		adrenaline_precise: 6,
+		recharge: 0,
+		adrenaline: 5,
+		adrenaline_precise: 5,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -17544,12 +17730,12 @@ var skilldata = {
 		id: 346,
 		campaign: 0,
 		profession: 1,
-		attribute: 101,
+		attribute: 17,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3443,
 		type: 29,
 		upkeep: 0,
 		energy: 5,
@@ -18228,8 +18414,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3444,
 		type: 1,
 		upkeep: 0,
 		energy: 5,
@@ -18255,8 +18441,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 4,
-		adrenaline_precise: 4,
+		adrenaline: 3,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18275,8 +18461,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 8,
-		adrenaline_precise: 8,
+		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18295,8 +18481,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
-		adrenaline_precise: 5.6,
+		adrenaline: 5,
+		adrenaline_precise: 5,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18315,8 +18501,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 10,
-		adrenaline_precise: 9.6,
+		adrenaline: 8,
+		adrenaline_precise: 8,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -18468,11 +18654,11 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3450,
 		type: 2,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0,
 		recharge: 2,
 		adrenaline: 0,
@@ -19348,8 +19534,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3451,
 		type: 20,
 		upkeep: 0,
 		energy: 5,
@@ -19908,8 +20094,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3445,
 		type: 19,
 		upkeep: 0,
 		energy: 5,
@@ -20112,7 +20298,7 @@ var skilldata = {
 		split_id: 0,
 		type: 23,
 		upkeep: -1,
-		energy: 10,
+		energy: 5,
 		activation: 0.25,
 		recharge: 20,
 		adrenaline: 0,
@@ -20252,7 +20438,7 @@ var skilldata = {
 		split_id: 0,
 		type: 5,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0,
 		recharge: 6,
 		adrenaline: 0,
@@ -20734,7 +20920,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 25,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -20754,7 +20940,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -20788,8 +20974,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3457,
 		type: 1,
 		upkeep: 0,
 		energy: 5,
@@ -21188,8 +21374,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3458,
 		type: 29,
 		upkeep: 0,
 		energy: 5,
@@ -21272,7 +21458,7 @@ var skilldata = {
 		split_id: 2807,
 		type: 22,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
@@ -21608,8 +21794,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3459,
 		type: 2,
 		upkeep: 0,
 		energy: 5,
@@ -21813,7 +21999,7 @@ var skilldata = {
 		type: 22,
 		upkeep: 0,
 		energy: 5,
-		activation: 1,
+		activation: 0.75,
 		recharge: 4,
 		adrenaline: 0,
 		adrenaline_precise: 0,
@@ -21828,8 +22014,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3456,
 		type: 20,
 		upkeep: 0,
 		energy: 0,
@@ -22068,8 +22254,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3454,
 		type: 23,
 		upkeep: 0,
 		energy: 5,
@@ -22195,8 +22381,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 5,
-		adrenaline_precise: 4.8,
+		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22332,7 +22518,7 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
 		recharge: 5,
 		adrenaline: 0,
@@ -22368,8 +22554,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3455,
 		type: 8,
 		upkeep: 0,
 		energy: 0,
@@ -22415,8 +22601,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 8,
-		adrenaline_precise: 8,
+		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -22453,8 +22639,8 @@ var skilldata = {
 		type: 2,
 		upkeep: 0,
 		energy: 5,
-		activation: 0,
-		recharge: 2,
+		activation: 4,
+		recharge: 8,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -22712,7 +22898,7 @@ var skilldata = {
 		split_id: 0,
 		type: 23,
 		upkeep: -1,
-		energy: 15,
+		energy: 10,
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
@@ -22768,8 +22954,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3452,
 		type: 24,
 		upkeep: 0,
 		energy: 5,
@@ -22934,7 +23120,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -23012,9 +23198,9 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0.75,
-		recharge: 3,
+		recharge: 5,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -23474,7 +23660,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.75,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -23672,7 +23858,7 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0.25,
 		recharge: 10,
 		adrenaline: 0,
@@ -24404,12 +24590,12 @@ var skilldata = {
 		id: 1043,
 		campaign: 2,
 		profession: 7,
-		attribute: 101,
+		attribute: 31,
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3453,
 		type: 29,
 		upkeep: 0,
 		energy: 5,
@@ -24912,7 +25098,7 @@ var skilldata = {
 		split_id: 0,
 		type: 22,
 		upkeep: 0,
-		energy: 5,
+		energy: 10,
 		activation: 1,
 		recharge: 8,
 		adrenaline: 0,
@@ -25233,8 +25419,8 @@ var skilldata = {
 		type: 22,
 		upkeep: 0,
 		energy: 5,
-		activation: 2,
-		recharge: 30,
+		activation: 1,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -25655,8 +25841,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 8,
-		adrenaline_precise: 8,
+		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -26028,8 +26214,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3460,
 		type: 19,
 		upkeep: 0,
 		energy: 15,
@@ -26528,8 +26714,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3461,
 		type: 1,
 		upkeep: 0,
 		energy: 5,
@@ -26788,8 +26974,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3462,
 		type: 27,
 		upkeep: 0,
 		energy: 5,
@@ -27054,7 +27240,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 5,
+		recharge: 4,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -27188,13 +27374,13 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3463,
 		type: 22,
 		upkeep: 0,
 		energy: 5,
 		activation: 0.25,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -27474,7 +27660,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -27554,7 +27740,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0.75,
-		recharge: 10,
+		recharge: 5,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -28248,8 +28434,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3464,
 		type: 29,
 		upkeep: 0,
 		energy: 0,
@@ -28268,8 +28454,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3465,
 		type: 29,
 		upkeep: 0,
 		energy: 5,
@@ -28475,8 +28661,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 0,
-		adrenaline: 6,
-		adrenaline_precise: 5.2,
+		adrenaline: 5,
+		adrenaline_precise: 5,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -29148,13 +29334,13 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3469,
 		type: 33,
 		upkeep: 0,
-		energy: 10,
+		energy: 15,
 		activation: 0,
-		recharge: 15,
+		recharge: 24,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -29388,13 +29574,13 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3470,
 		type: 33,
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -29688,8 +29874,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3471,
 		type: 22,
 		upkeep: 0,
 		energy: 5,
@@ -29988,13 +30174,13 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3472,
 		type: 33,
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 10,
+		recharge: 8,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -30013,7 +30199,7 @@ var skilldata = {
 		type: 39,
 		upkeep: 0,
 		energy: 0,
-		activation: 0.75,
+		activation: 0.5,
 		recharge: 5,
 		adrenaline: 5,
 		adrenaline_precise: 5,
@@ -30055,8 +30241,8 @@ var skilldata = {
 		energy: 0,
 		activation: 1,
 		recharge: 0,
-		adrenaline: 2,
-		adrenaline_precise: 2,
+		adrenaline: 4,
+		adrenaline_precise: 4,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30115,8 +30301,8 @@ var skilldata = {
 		energy: 0,
 		activation: 1,
 		recharge: 1,
-		adrenaline: 4,
-		adrenaline_precise: 4,
+		adrenaline: 6,
+		adrenaline_precise: 6,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30195,8 +30381,8 @@ var skilldata = {
 		energy: 0,
 		activation: 1,
 		recharge: 0,
-		adrenaline: 4,
-		adrenaline_precise: 4,
+		adrenaline: 3,
+		adrenaline_precise: 3,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -30214,7 +30400,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 1,
-		recharge: 25,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -30374,7 +30560,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 1,
-		recharge: 5,
+		recharge: 0,
 		adrenaline: 6,
 		adrenaline_precise: 6,
 		sacrifice: 0,
@@ -31272,7 +31458,7 @@ var skilldata = {
 		split_id: 0,
 		type: 6,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0,
 		recharge: 8,
 		adrenaline: 0,
@@ -31592,7 +31778,7 @@ var skilldata = {
 		split_id: 0,
 		type: 24,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 0.25,
 		recharge: 15,
 		adrenaline: 0,
@@ -31634,7 +31820,7 @@ var skilldata = {
 		upkeep: -1,
 		energy: 5,
 		activation: 0.25,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -31892,7 +32078,7 @@ var skilldata = {
 		split_id: 0,
 		type: 23,
 		upkeep: 0,
-		energy: 10,
+		energy: 5,
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
@@ -32235,8 +32421,8 @@ var skilldata = {
 		energy: 0,
 		activation: 0,
 		recharge: 1,
-		adrenaline: 8,
-		adrenaline_precise: 8,
+		adrenaline: 7,
+		adrenaline_precise: 7,
 		sacrifice: 0,
 		overcast: 0
 	},
@@ -32468,8 +32654,8 @@ var skilldata = {
 		is_elite: true,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3466,
 		type: 19,
 		upkeep: 0,
 		energy: 5,
@@ -32928,8 +33114,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3467,
 		type: 33,
 		upkeep: 0,
 		energy: 5,
@@ -32988,8 +33174,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3468,
 		type: 33,
 		upkeep: 0,
 		energy: 10,
@@ -33214,7 +33400,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 10,
 		activation: 0,
-		recharge: 60,
+		recharge: 45,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -33393,7 +33579,7 @@ var skilldata = {
 		type: 21,
 		upkeep: 0,
 		energy: 0,
-		activation: 5,
+		activation: 4,
 		recharge: 5,
 		adrenaline: 0,
 		adrenaline_precise: 0,
@@ -33434,7 +33620,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -34154,7 +34340,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 1,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -34788,8 +34974,8 @@ var skilldata = {
 		is_elite: false,
 		is_rp: false,
 		is_pvp: false,
-		pvp_split: false,
-		split_id: 0,
+		pvp_split: true,
+		split_id: 3473,
 		type: 3,
 		upkeep: 0,
 		energy: 0,
@@ -37294,7 +37480,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 1,
-		recharge: 30,
+		recharge: 20,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -37312,7 +37498,7 @@ var skilldata = {
 		split_id: 836,
 		type: 22,
 		upkeep: 0,
-		energy: 15,
+		energy: 5,
 		activation: 1,
 		recharge: 10,
 		adrenaline: 0,
@@ -37534,7 +37720,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 4,
-		recharge: 10,
+		recharge: 6,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -37614,7 +37800,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 10,
+		recharge: 8,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -37674,7 +37860,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 2,
-		recharge: 25,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -37794,7 +37980,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 0.25,
-		recharge: 12,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -38313,8 +38499,8 @@ var skilldata = {
 		type: 18,
 		upkeep: 0,
 		energy: 15,
-		activation: 5,
-		recharge: 60,
+		activation: 3,
+		recharge: 45,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -38353,8 +38539,8 @@ var skilldata = {
 		type: 18,
 		upkeep: 0,
 		energy: 25,
-		activation: 5,
-		recharge: 45,
+		activation: 3,
+		recharge: 30,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -38413,7 +38599,7 @@ var skilldata = {
 		type: 18,
 		upkeep: 0,
 		energy: 10,
-		activation: 5,
+		activation: 3,
 		recharge: 45,
 		adrenaline: 0,
 		adrenaline_precise: 0,
@@ -38613,7 +38799,7 @@ var skilldata = {
 		type: 21,
 		upkeep: 0,
 		energy: 0,
-		activation: 5,
+		activation: 4,
 		recharge: 20,
 		adrenaline: 0,
 		adrenaline_precise: 0,
@@ -38634,7 +38820,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 0,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -39374,7 +39560,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 15,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -39612,7 +39798,7 @@ var skilldata = {
 		split_id: 1349,
 		type: 22,
 		upkeep: 0,
-		energy: 15,
+		energy: 10,
 		activation: 1,
 		recharge: 20,
 		adrenaline: 0,
@@ -39694,7 +39880,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 15,
 		activation: 1,
-		recharge: 20,
+		recharge: 10,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -39954,7 +40140,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 1,
-		recharge: 10,
+		recharge: 16,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -39974,7 +40160,7 @@ var skilldata = {
 		upkeep: 0,
 		energy: 5,
 		activation: 1,
-		recharge: 20,
+		recharge: 15,
 		adrenaline: 0,
 		adrenaline_precise: 0,
 		sacrifice: 0,
@@ -40494,9 +40680,629 @@ var skilldata = {
 		upkeep: 0,
 		energy: 0,
 		activation: 1,
+		recharge: 1,
+		adrenaline: 4,
+		adrenaline_precise: 4,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3443": {
+		id: 3443,
+		campaign: 0,
+		profession: 1,
+		attribute: 17,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 346,
+		type: 29,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 4,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3444": {
+		id: 3444,
+		campaign: 0,
+		profession: 1,
+		attribute: 20,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 381,
+		type: 1,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 20,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3445": {
+		id: 3445,
+		campaign: 0,
+		profession: 2,
+		attribute: 24,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 476,
+		type: 19,
+		upkeep: 0,
+		energy: 5,
+		activation: 2,
+		recharge: 60,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3446": {
+		id: 3446,
+		campaign: 0,
+		profession: 6,
+		attribute: 12,
+		is_elite: false,
+		is_rp: true,
+		is_pvp: false,
+		pvp_split: false,
+		split_id: 0,
+		type: 23,
+		upkeep: -1,
+		energy: 10,
+		activation: 0.5,
+		recharge: 30,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3447": {
+		id: 3447,
+		campaign: 1,
+		profession: 5,
+		attribute: 2,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 50,
+		type: 24,
+		upkeep: 0,
+		energy: 5,
+		activation: 0.25,
+		recharge: 4,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3448": {
+		id: 3448,
+		campaign: 1,
+		profession: 3,
+		attribute: 16,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 266,
+		type: 23,
+		upkeep: 0,
+		energy: 5,
+		activation: 0.25,
+		recharge: 15,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3449": {
+		id: 3449,
+		campaign: 1,
+		profession: 1,
+		attribute: 17,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 326,
+		type: 3,
+		upkeep: 0,
+		energy: 5,
+		activation: 0.5,
+		recharge: 6,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3450": {
+		id: 3450,
+		campaign: 1,
+		profession: 2,
+		attribute: 25,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 393,
+		type: 2,
+		upkeep: 0,
+		energy: 10,
+		activation: 0,
 		recharge: 2,
-		adrenaline: 2,
-		adrenaline_precise: 2,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3451": {
+		id: 3451,
+		campaign: 1,
+		profession: 2,
+		attribute: 22,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 447,
+		type: 20,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 30,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3452": {
+		id: 3452,
+		campaign: 2,
+		profession: 7,
+		attribute: 31,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 928,
+		type: 24,
+		upkeep: 0,
+		energy: 5,
+		activation: 0.25,
+		recharge: 20,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3453": {
+		id: 3453,
+		campaign: 2,
+		profession: 7,
+		attribute: 31,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1043,
+		type: 29,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 12,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3454": {
+		id: 3454,
+		campaign: 2,
+		profession: 3,
+		attribute: 15,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 885,
+		type: 23,
+		upkeep: 0,
+		energy: 5,
+		activation: 1.5,
+		recharge: 25,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3455": {
+		id: 3455,
+		campaign: 2,
+		profession: 1,
+		attribute: 19,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 905,
+		type: 8,
+		upkeep: 0,
+		energy: 0,
+		activation: 0,
+		recharge: 0,
+		adrenaline: 5,
+		adrenaline_precise: 4.8,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3456": {
+		id: 3456,
+		campaign: 2,
+		profession: 1,
+		attribute: 101,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 869,
+		type: 20,
+		upkeep: 0,
+		energy: 0,
+		activation: 0,
+		recharge: 4,
+		adrenaline: 4,
+		adrenaline_precise: 4,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3457": {
+		id: 3457,
+		campaign: 2,
+		profession: 1,
+		attribute: 21,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 810,
+		type: 1,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 30,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3458": {
+		id: 3458,
+		campaign: 2,
+		profession: 1,
+		attribute: 17,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 831,
+		type: 29,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 4,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3459": {
+		id: 3459,
+		campaign: 2,
+		profession: 2,
+		attribute: 25,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 853,
+		type: 2,
+		upkeep: 0,
+		energy: 5,
+		activation: 1,
+		recharge: 12,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3460": {
+		id: 3460,
+		campaign: 2,
+		profession: 2,
+		attribute: 24,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1213,
+		type: 19,
+		upkeep: 0,
+		energy: 15,
+		activation: 2,
+		recharge: 60,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3461": {
+		id: 3461,
+		campaign: 2,
+		profession: 8,
+		attribute: 36,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1240,
+		type: 1,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 15,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3462": {
+		id: 3462,
+		campaign: 2,
+		profession: 8,
+		attribute: 32,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1259,
+		type: 27,
+		upkeep: 0,
+		energy: 5,
+		activation: 2,
+		recharge: 12,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3463": {
+		id: 3463,
+		campaign: 3,
+		profession: 5,
+		attribute: 3,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1342,
+		type: 22,
+		upkeep: 0,
+		energy: 5,
+		activation: 0.25,
+		recharge: 20,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3464": {
+		id: 3464,
+		campaign: 3,
+		profession: 1,
+		attribute: 17,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1404,
+		type: 29,
+		upkeep: 0,
+		energy: 0,
+		activation: 0,
+		recharge: 0,
+		adrenaline: 4,
+		adrenaline_precise: 4,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3465": {
+		id: 3465,
+		campaign: 3,
+		profession: 1,
+		attribute: 17,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1405,
+		type: 29,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 5,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3466": {
+		id: 3466,
+		campaign: 3,
+		profession: 2,
+		attribute: 23,
+		is_elite: true,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1730,
+		type: 19,
+		upkeep: 0,
+		energy: 5,
+		activation: 2,
+		recharge: 30,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3467": {
+		id: 3467,
+		campaign: 3,
+		profession: 10,
+		attribute: 44,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1755,
+		type: 33,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 10,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3468": {
+		id: 3468,
+		campaign: 3,
+		profession: 10,
+		attribute: 42,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1758,
+		type: 33,
+		upkeep: 0,
+		energy: 10,
+		activation: 0,
+		recharge: 15,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3469": {
+		id: 3469,
+		campaign: 3,
+		profession: 10,
+		attribute: 43,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1500,
+		type: 33,
+		upkeep: 0,
+		energy: 10,
+		activation: 0,
+		recharge: 15,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3470": {
+		id: 3470,
+		campaign: 3,
+		profession: 10,
+		attribute: 43,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1514,
+		type: 33,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 10,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3471": {
+		id: 3471,
+		campaign: 3,
+		profession: 10,
+		attribute: 42,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1529,
+		type: 22,
+		upkeep: 0,
+		energy: 5,
+		activation: 1,
+		recharge: 15,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3472": {
+		id: 3472,
+		campaign: 3,
+		profession: 10,
+		attribute: 42,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 1544,
+		type: 33,
+		upkeep: 0,
+		energy: 5,
+		activation: 0,
+		recharge: 10,
+		adrenaline: 0,
+		adrenaline_precise: 0,
+		sacrifice: 0,
+		overcast: 0
+	},
+	"3473": {
+		id: 3473,
+		campaign: 4,
+		profession: 10,
+		attribute: 44,
+		is_elite: false,
+		is_rp: false,
+		is_pvp: true,
+		pvp_split: false,
+		split_id: 2070,
+		type: 3,
+		upkeep: 0,
+		energy: 0,
+		activation: 0,
+		recharge: 0,
+		adrenaline: 5,
+		adrenaline_precise: 5,
 		sacrifice: 0,
 		overcast: 0
 	}
@@ -40873,8 +41679,8 @@ var skilldesc$1 = {
 	"29": {
 		id: 29,
 		name: "Blackout",
-		description: "2...6 Sekunden lang werden alle Fertigkeiten des berührten Gegners deaktiviert und alle Eure eigenen Fertigkeiten werden 5 Sekunden lang deaktiviert.",
-		concise: "2...6 Sekunden: Deaktiviert Fertigkeiten. <gray>Eure Fertigkeiten werden deaktiviert (5 Sekunden).</gray>"
+		description: "2...8 Sekunden lang werden alle Fertigkeiten des berührten Gegners deaktiviert und alle Eure eigenen Fertigkeiten werden 5 Sekunden lang deaktiviert.",
+		concise: "2...8 Sekunden: Deaktiviert Fertigkeiten. <gray>Eure Fertigkeiten werden deaktiviert (5 Sekunden).</gray>"
 	},
 	"30": {
 		id: 30,
@@ -40897,8 +41703,8 @@ var skilldesc$1 = {
 	"33": {
 		id: 33,
 		name: "Illusion der Waffen",
-		description: "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 16...50 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
-		concise: "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 16...50 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
+		description: "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 20...60 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
+		concise: "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 20...60 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
 	},
 	"34": {
 		id: 34,
@@ -40969,8 +41775,8 @@ var skilldesc$1 = {
 	"45": {
 		id: 45,
 		name: "Ätherische Bürde",
-		description: "10 Sekunden lang bewegt sich der Zielgegner um 50% langsamer. Wenn Ätherische Bürde endet, erhaltet Ihr 10...18 Energiepunkte.",
-		concise: "10 Sekunden: Gegner bewegt sich um 50% langsamer. Wirkung am Ende: Ihr erhaltet 10...18 Energiepunkte."
+		description: "6...12 Sekunden lang bewegt sich der Zielgegner um 50% langsamer. Wenn Ätherische Bürde endet, erhaltet Ihr 10...18 Energiepunkte.",
+		concise: "6...12 Sekunden: Gegner bewegt sich um 50% langsamer. Wirkung am Ende: Ihr erhaltet 10...18 Energiepunkte."
 	},
 	"46": {
 		id: 46,
@@ -41221,8 +42027,8 @@ var skilldesc$1 = {
 	"91": {
 		id: 91,
 		name: "Brunnen der Kraft",
-		description: "Der nächste Kadaver wird an seiner Position in einen Brunnen der Kraft verwandelt. 8...20 Sekunden lang erfreuen sich Verbündete im Bereich des Brunnens der Kraft einer Lebenspunktregeneration in Höhe von +1...6 und einer Energieregeneration von +2.",
-		concise: "(8...20 Sekunden.) Verbündete in diesem Brunnen erhalten eine Lebenspunktregeneration in Höhe von +1...6 und eine Energieregeneration von +2. <gray>Benutzt frischen Kadaver.</gray>"
+		description: "Der nächste Kadaver wird an seiner Position in einen Brunnen der Kraft verwandelt. 10...30 Sekunden lang erfreuen sich Verbündete im Bereich des Brunnens der Kraft einer Lebenspunktregeneration in Höhe von +1...6 und einer Energieregeneration von +2.",
+		concise: "(10...30 Sekunden.) Verbündete in diesem Brunnen erhalten eine Lebenspunktregeneration in Höhe von +1...6 und eine Energieregeneration von +2. <gray>Benutzt frischen Kadaver.</gray>"
 	},
 	"92": {
 		id: 92,
@@ -41257,8 +42063,8 @@ var skilldesc$1 = {
 	"97": {
 		id: 97,
 		name: "Nekrotische Verwechslung",
-		description: "Benutzt einen willkürlichen Kadaver, um einen Schattenschritt an seine Position zu unternehmen, und alle Feinde in dessen Nähe werden 5...20 Sekunden lang vergiftet.",
-		concise: "Unternehmt einen Schattenschritt zur Position eines Kadavers. Verursacht Zustand Gift (5...20 Sekunden). Betrifft alle Feinde in der Nähe. <gray>Benutzt frischen Kadaver.</gray>"
+		description: "Benutzt einen willkürlichen Kadaver oder opfert 30...20% Eurer maximalen Lebenspunkte, um einen Schattenschritt zum Gegner zu unternehmen. Ihr seid 6 Sekunden lang erkrankt und alle Feinde in der Nähe werden 5...20 Sekunden lang vergiftet.",
+		concise: "Unternehmt einen Schattenschritt zum Gegner. Ihr seid erkrankt (6 Sekunden). Verursacht den Zustand Vergiftung bei Feinden in der Nähe (5...20 Sekunden). <gray>Benutzt einen willkürlichen Kadaver oder opfert 30...20% Eurer maximalen Lebenspunkte.</gray>"
 	},
 	"98": {
 		id: 98,
@@ -41281,8 +42087,8 @@ var skilldesc$1 = {
 	"101": {
 		id: 101,
 		name: "Widerhaken",
-		description: "Der Gegner erleidet 30 Sekunden lang 1...15 Punkte mehr Schaden, wenn ihm physischer Schaden zugefügt wird.",
-		concise: "30 Sekunden: Gegner erleidet jedes Mal 1...15 Punkte Schaden, wenn er physischen Schaden erhält."
+		description: "Der Gegner erleidet 30 Sekunden lang 4...16 Punkte mehr Schaden, wenn ihm physischer Schaden zugefügt wird.",
+		concise: "30 Sekunden: Gegner erleidet jedes Mal 4...16 Punkte Schaden, wenn er physischen Schaden erhält."
 	},
 	"102": {
 		id: 102,
@@ -41473,8 +42279,8 @@ var skilldesc$1 = {
 	"133": {
 		id: 133,
 		name: "Dunkler Pakt",
-		description: "Fügt dem Gegner Schattenschaden in Höhe von 10...48 zu.",
-		concise: "Richtet 10...48 Punkte Schaden an."
+		description: "Fügt dem Gegner Schattenschaden in Höhe von 20...60 zu.",
+		concise: "Richtet 20...60 Punkte Schaden an."
 	},
 	"134": {
 		id: 134,
@@ -41485,8 +42291,8 @@ var skilldesc$1 = {
 	"135": {
 		id: 135,
 		name: "Mutlosigkeit",
-		description: "Während der nächsten 3...16 Sekunden greift der Gegner um 50% langsamer an und unterliegt einer Lebenspunktdegeneration von -0...3.",
-		concise: "3...16 Sekunden: Gegner greift um 50% langsamer an und hat -0...3 Lebenspunktdegeneration."
+		description: "Während der nächsten 4...18 Sekunden greift der Gegner um 50% langsamer an und unterliegt einer Lebenspunktdegeneration von -1...3.",
+		concise: "4...18 Sekunden: Gegner greift um 50% langsamer an und hat -1...3 Lebenspunktdegeneration."
 	},
 	"136": {
 		id: 136,
@@ -41713,8 +42519,8 @@ var skilldesc$1 = {
 	"174": {
 		id: 174,
 		name: "Nachbeben",
-		description: "Feinde, die in der Nähe von Euch stehen, erleiden 26...100 Punkte Erdschaden. Umgestoßene Gegner erleiden 10...68 Punkte zusätzlichen Erdschaden.",
-		concise: "Richtet bei in der Nähe befindlichen Feinden 26...100 Punkte Erdschaden an. Zu Boden geworfene Feinde erleiden zusätzlich 10...68 Punkte Erdschaden."
+		description: "Feinde, die in der Nähe von Euch stehen, erleiden 15...85 Punkte Erdschaden. Umgestoßene Gegner erleiden 15...85 Punkte zusätzlichen Erdschaden.",
+		concise: "Richtet bei in der Nähe befindlichen Feinden 15...85 Punkte Erdschaden an. Zu Boden geworfene Feinde erleiden zusätzlich 15...85 Punkte Erdschaden."
 	},
 	"175": {
 		id: 175,
@@ -41893,14 +42699,14 @@ var skilldesc$1 = {
 	"204": {
 		id: 204,
 		name: "Rost",
-		description: "Richtet beim Gegner und allen umstehenden Feinden 10...70 Punkte Kälteschaden an. 5...20 Sekunden lang benötigen der Gegner und alle umstehenden Feinden<sic/> doppelt so lange, um Siegel zu aktivieren. Wenn Ihr Überzaubert seid, werden Siegel von Gegnern, die von Rost getroffen sind, unterbrochen und für 1...10 Sekunden deaktiviert.",
-		concise: "Richtet beim Gegner und umstehenden Feinden 10...70 Punkte Kälteschaden an. Verhext den Gegner und umstehende Feinde (5...20 Sekunden). Verdoppelt die Aktivierungszeit von Siegeln. Unterbricht und deaktiviert Siegel für 1...10 Sekunden, wenn Ihr Überzaubert seid."
+		description: "Richtet beim Gegner und allen umstehenden Feinden 10...85 Punkte Kälteschaden an. 5...20 Sekunden lang benötigen der Gegner und alle umstehenden Feinden<sic/> doppelt so lange, um Siegel zu aktivieren. Wenn Ihr Überzaubert seid, werden Siegel von Gegnern, die von Rost getroffen sind, unterbrochen und für 1...10 Sekunden deaktiviert.",
+		concise: "Richtet beim Gegner und umstehenden Feinden 10...85 Punkte Kälteschaden an. Verhext den Gegner und umstehende Feinde (5...20 Sekunden). Verdoppelt die Aktivierungszeit von Siegeln. Unterbricht und deaktiviert Siegel für 1...10 Sekunden, wenn Ihr Überzaubert seid."
 	},
 	"205": {
 		id: 205,
 		name: "Blitzwelle",
-		description: "Nach 3 Sekunden wird der Zielgegner zu Boden geworfen, erleidet 14...100 Punkte Blitzschaden und leidet 5...20 Sekunden lang an Beschädigter Rüstung. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
-		concise: "3 Sekunden: Wirkung am Ende: Richtet 14...100 Punkte Blitzschaden an, wirft zu Boden und verursacht Beschädigte Rüstung (5...20 Sekunden). 25% Rüstungsdurchdringung."
+		description: "Nach 3 Sekunden wird der Zielgegner zu Boden geworfen, leidet 5...20 Sekunden lang an Beschädigter Rüstung und erleidet 14...100 Punkte Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+		concise: "3 Sekunden: Wirkung am Ende: Wirft zu Boden, verursacht Beschädigte Rüstung (5...20 Sekunden), richtet 14...100 Punkte Blitzschaden an. 25% Rüstungsdurchdringung."
 	},
 	"206": {
 		id: 206,
@@ -42001,8 +42807,8 @@ var skilldesc$1 = {
 	"222": {
 		id: 222,
 		name: "Blitzschlag",
-		description: "Fügt dem Gegner 5...40 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 5...40 Punkte Blitzschaden zugefügt.",
-		concise: "Richtet 5...40 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 5...40 Punkte Blitzschaden an."
+		description: "Fügt dem Gegner 10...60 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 20...40 Punkte Blitzschaden zugefügt.",
+		concise: "Richtet 10...60 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 20...40 Punkte Blitzschaden an."
 	},
 	"223": {
 		id: 223,
@@ -42181,8 +42987,8 @@ var skilldesc$1 = {
 	"252": {
 		id: 252,
 		name: "Verbannung",
-		description: "Der Gegner erleidet 20...56 Punkte heiligen Schaden. Dieser Zauber fügt herbeigerufenen Kreaturen doppelten Schaden zu.",
-		concise: "Richtet 20...56 Punkte heiligen Schaden an. Fügt herbeigerufenen Kreaturen doppelten Schaden zu."
+		description: "Der Gegner erleidet 20...65 Punkte heiligen Schaden. Dieser Zauber fügt herbeigerufenen Kreaturen doppelten Schaden zu.",
+		concise: "Richtet 20...65 Punkte heiligen Schaden an. Fügt herbeigerufenen Kreaturen doppelten Schaden zu."
 	},
 	"253": {
 		id: 253,
@@ -42211,8 +43017,8 @@ var skilldesc$1 = {
 	"257": {
 		id: 257,
 		name: "Aegis",
-		description: "5...11 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite eine 50%ige Chance, Angriffe zu blocken.",
-		concise: "Verzaubert alle Gruppenmitglieder in Hörweite (5...11 Sekunden). 50%ige Chance zu blocken."
+		description: "6...15 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite eine 50%ige Chance, Angriffe zu blocken.",
+		concise: "Verzaubert alle Gruppenmitglieder in Hörweite (6...15 Sekunden). 50%ige Chance zu blocken."
 	},
 	"258": {
 		id: 258,
@@ -42355,8 +43161,8 @@ var skilldesc$1 = {
 	"281": {
 		id: 281,
 		name: "Fürbitte der Heilung",
-		description: "Heilt Verbündeten (bzw. Euch selbst) um 20...70 Punkte.",
-		concise: "Heilt um 20...70 Lebenspunkte."
+		description: "Heilt Verbündeten (bzw. Euch selbst) um 30...80 Punkte.",
+		concise: "Heilt um 30...80 Lebenspunkte."
 	},
 	"282": {
 		id: 282,
@@ -42367,8 +43173,8 @@ var skilldesc$1 = {
 	"283": {
 		id: 283,
 		name: "Dwaynas Kuss",
-		description: "Heilt Verbündeten um 15...60 Punkte und um zusätzlich 10...35 Punkte für jede Verzauberung oder Verhexung, die auf diesem Verbündeten liegt.",
-		concise: "Heilt um 15...60 Lebenspunkte. Heilt für jede Verzauberung und Verhexung auf dem Verbündeten um weitere 10...35 Lebenspunkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
+		description: "Heilt Verbündeten um 20...65 Punkte und um zusätzlich 15...40 Punkte für jede Verzauberung oder Verhexung, die auf diesem Verbündeten liegt.",
+		concise: "Heilt um 20...65 Lebenspunkte. Heilt für jede Verzauberung und Verhexung auf dem Verbündeten um weitere 15...40 Lebenspunkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 	},
 	"284": {
 		id: 284,
@@ -42427,8 +43233,8 @@ var skilldesc$1 = {
 	"293": {
 		id: 293,
 		name: "Siegel der Hingabe",
-		description: "Heilt Verbündeten (bzw. Euch selbst) um 14...100 Lebenspunkte.",
-		concise: "Heilt um 14...100 Lebenspunkte."
+		description: "Heilt Verbündeten (bzw. Euch selbst) um 20...120 Lebenspunkte.",
+		concise: "Heilt um 20...120 Lebenspunkte."
 	},
 	"294": {
 		id: 294,
@@ -42445,8 +43251,8 @@ var skilldesc$1 = {
 	"296": {
 		id: 296,
 		name: "Siegel des Ruins",
-		description: "Gegner erleidet 26...56 Punkte heiligen Schaden. Falls er gerade angreift, wird er zu Boden geworfen.",
-		concise: "Richtet 26...56 Punkte heiligen Schaden an. Wirft den Gegner zu Boden, falls dieser gerade angreift."
+		description: "Gegner erleidet 30...60 Punkte heiligen Schaden. Falls er gerade angreift, wird er zu Boden geworfen.",
+		concise: "Richtet 30...60 Punkte heiligen Schaden an. Wirft den Gegner zu Boden, falls dieser gerade angreift."
 	},
 	"297": {
 		id: 297,
@@ -42547,8 +43353,8 @@ var skilldesc$1 = {
 	"313": {
 		id: 313,
 		name: "Heilende Berührung",
-		description: "Berührt einen Verbündeten (bzw. Euch selbst) und heilt ihn für 16...60 Lebenspunkte. Der Gunst-der-Götter-Bonus wird bei diesem Zauber verdoppelt.",
-		concise: "Heilt um 16...60 Lebenspunkte. Gunst-der-Götter-Bonus wird bei diesem Zauber verdoppelt."
+		description: "Berührt einen Verbündeten (bzw. Euch selbst) und heilt ihn für 20...80 Lebenspunkte. Der Gunst-der-Götter-Bonus wird bei diesem Zauber verdoppelt.",
+		concise: "Heilt um 20...80 Lebenspunkte. Gunst-der-Götter-Bonus wird bei diesem Zauber verdoppelt."
 	},
 	"314": {
 		id: 314,
@@ -42673,8 +43479,8 @@ var skilldesc$1 = {
 	"334": {
 		id: 334,
 		name: "Harkenaxt",
-		description: "Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde<sic/> leidet, fügt Ihr 1...10 Punkte zusätzlichen Schaden zu und dieser Gegner erleidet 15 Sekunden lang eine Verkrüppelung.",
-		concise: "Richtet +1...10 Punkte Schaden an und verursacht Zustand Verkrüppelung (15 Sekunden), falls Gegner eine Tiefe Wunde hat."
+		description: "Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde<sic/> leidet, fügt Ihr 4...16 Punkte zusätzlichen Schaden zu und dieser Gegner erleidet 15 Sekunden lang eine Verkrüppelung.",
+		concise: "Richtet +4...16 Punkte Schaden an und verursacht Zustand Verkrüppelung (15 Sekunden), falls Gegner eine Tiefe Wunde hat."
 	},
 	"335": {
 		id: 335,
@@ -42685,8 +43491,8 @@ var skilldesc$1 = {
 	"336": {
 		id: 336,
 		name: "Henkerschlag",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr 10...40 Punkte zusätzlichen Schaden zu.",
-		concise: "Richtet +10...40 Punkte Schaden an."
+		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr 15...45 Punkte zusätzlichen Schaden zu.",
+		concise: "Richtet +15...45 Punkte Schaden an."
 	},
 	"337": {
 		id: 337,
@@ -42703,8 +43509,8 @@ var skilldesc$1 = {
 	"339": {
 		id: 339,
 		name: "Durchdringender Schlag",
-		description: "Wenn dieser Angriff erfolgreich ist, trefft Ihr für 5...20 Punkte zusätzlichen Schaden. Dieser Axtangriff hat eine Rüstungsdurchdringung von 20%.",
-		concise: "Richtet +5...20 Punkte Schaden an. 20% Rüstungsdurchdringung."
+		description: "Wenn dieser Angriff erfolgreich ist, trefft Ihr für 10...25 Punkte zusätzlichen Schaden. Dieser Axtangriff hat eine Rüstungsdurchdringung von 20%.",
+		concise: "Richtet +10...25 Punkte Schaden an. 20% Rüstungsdurchdringung."
 	},
 	"340": {
 		id: 340,
@@ -42721,8 +43527,8 @@ var skilldesc$1 = {
 	"342": {
 		id: 342,
 		name: "Axtdrehung",
-		description: "Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde leidet, fügt Ihr 1...20 Punkte mehr Schaden zu und dieser Gegner leidet 20 Sekunden lang unter Schwäche.",
-		concise: "Richtet +1...20 Punkte Schaden an und verursacht Zustand Schwäche (20 Sekunden), falls Gegner eine Tiefe Wunde hat."
+		description: "Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde leidet, fügt Ihr 5...25 Punkte mehr Schaden zu und dieser Gegner leidet 20 Sekunden lang unter Schwäche.",
+		concise: "Richtet +5...25 Punkte Schaden an und verursacht Zustand Schwäche (20 Sekunden), falls Gegner eine Tiefe Wunde hat."
 	},
 	"343": {
 		id: 343,
@@ -42745,8 +43551,8 @@ var skilldesc$1 = {
 	"346": {
 		id: 346,
 		name: "Raserei",
-		description: "8 Sekunden lang greift Ihr um 33% schneller an, erleidet aber doppelten Schaden.",
-		concise: "8 Sekunden: Ihr greift um 33% schneller an. <gray>Ihr erleidet doppelten Schaden.</gray>"
+		description: "Ihr greift 8 Sekunden lang 33% schneller an, erleidet aber 175...125% Schaden.",
+		concise: "8 Sekunden: Ihr greift um 33% schneller an. <gray>Ihr erleidet 175...125% Schaden.</gray>"
 	},
 	"347": {
 		id: 347,
@@ -42847,8 +43653,8 @@ var skilldesc$1 = {
 	"363": {
 		id: 363,
 		name: "Heftiger Schildschlag",
-		description: "5...11 Sekunden lang wird, wenn Ihr einen Schild benutzt, die nächste Angriffsfertigkeit gegen Euch geblockt. Falls es sich dabei um eine Nahkampffertigkeit gehandelt hat, wird Euer Angreifer zu Boden geworfen und diese Fertigkeit wird für weitere 15 Sekunden deaktiviert.",
-		concise: "5...11 Sekunden: Ihr blockt die nächste Angriffsfertigkeit. Wirft den Angreifer im Fall einer Nahkampffertigkeit zu Boden und fügt +15 Sekunden zur Aufladezeit hinzu. <gray>Keine Wirkung, falls Ihr keinen Schild benutzt.</gray>"
+		description: "Die nächsten 5...11 Sekunden wird, solange Ihr ein Schild benutzt, die nächste Nahkampfangriff-Fertigkeit geblockt, die gegen euch eingesetzt wird, der Angreifer wird niedergeschlagen, und diese Fertigkeit kann 15 Sekunden länger nicht eingesetzt werden.",
+		concise: "5...11 Sekunden: Ihr blockt die nächste Nahkampfangriff-Fertigkeit. Verursacht Niederschlag und + 15 Sekunden Wiederaufladung. <gray>Kein Effekt, sofern Ihr keinen Schild benutzt.</gray>"
 	},
 	"364": {
 		id: 364,
@@ -42973,8 +43779,8 @@ var skilldesc$1 = {
 	"385": {
 		id: 385,
 		name: "Endstoß",
-		description: "Alles Adrenalin geht verloren. Wenn Endstoß trifft, fügt Ihr 1...40 Punkte mehr Schaden zu. Dieser Schaden wird verdoppelt, wenn die Lebenspunkte Eures Ziels unter 50% lagen.",
-		concise: "Richtet +1...40 Punkte Schaden an. Richtet zusätzlich +1...40 Punkt Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. <gray>Ihr verliert alles Adrenalin.</gray>"
+		description: "Alles Adrenalin geht verloren. Wenn Endstoß trifft, fügt Ihr 5...40 Punkte mehr Schaden zu. Dieser Schaden wird verdoppelt, wenn die Lebenspunkte Eures Ziels unter 50% lagen.",
+		concise: "Richtet +5...40 Punkte Schaden an. Richtet zusätzlich +5...40 Punkt Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. <gray>Ihr verliert alles Adrenalin.</gray>"
 	},
 	"386": {
 		id: 386,
@@ -43021,8 +43827,8 @@ var skilldesc$1 = {
 	"393": {
 		id: 393,
 		name: "Verkrüppelungs-Schuss",
-		description: "Wenn Verkrüppelungs-Schuss trifft, leidet Euer Ziel 1...12 Sekunden lang an einer Verkrüppelung. Dieser Angriff kann nicht geblockt werden.",
-		concise: "Kann nicht geblockt werden. Verursacht Zustand Verkrüppelung (1...12 Sekunden)."
+		description: "Wenn Verkrüppelungs-Schuss trifft, leidet Euer Ziel 4...14 Sekunden lang an einer Verkrüppelung. Dieser Angriff kann nicht geblockt werden.",
+		concise: "Kann nicht geblockt werden. Verursacht Zustand Verkrüppelung (4...14 Sekunden)."
 	},
 	"394": {
 		id: 394,
@@ -43219,8 +44025,8 @@ var skilldesc$1 = {
 	"436": {
 		id: 436,
 		name: "Tier erquicken",
-		description: "Ihr heilt Euren Tiergefährten um 20...104 Lebenspunkte. Ist Euer Gefährte tot, wird er mit 10...58% der Lebenspunkte wiederbelebt. Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch.",
-		concise: "Heilt Euren Tiergefährten um 20...104 Lebenspunkte. Euer Tiergefährte wird wiederbelebt (10...58% Lebenspunkte). Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch."
+		description: "Ihr heilt Euren Tiergefährten um 40...120 Lebenspunkte. Ist Euer Gefährte tot, wird er mit 10...58% der Lebenspunkte wiederbelebt. Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch.",
+		concise: "Heilt Euren Tiergefährten um 40...120 Lebenspunkte. Euer Tiergefährte wird wiederbelebt (10...58% Lebenspunkte). Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch."
 	},
 	"437": {
 		id: 437,
@@ -43471,8 +44277,8 @@ var skilldesc$1 = {
 	"571": {
 		id: 571,
 		name: "Unterbrechender Dolch",
-		description: "Ein unterbrechender Dolch fliegt auf den Gegner zu und fügt 10...35 Punkte Erdschaden zu. Wenn dieser Gegner eine Fertigkeit aktiviert hat, wird diese unterbrochen. Dieser Zauber hat nur die halbe Reichweite.",
-		concise: "Geschoss: Richtet 10...35 Punkte Erdschaden an. Unterbricht eine Fertigkeit."
+		description: "Ein unterbrechender Dolch fliegt schnell auf den Gegner zu und fügt 10...35 Punkte Erdschaden zu. Wenn dieser Gegner eine Fertigkeit aktiviert hat, wird diese unterbrochen. Dieser Zauber hat nur die halbe Reichweite.",
+		concise: "Schnelles Geschoss: Richtet 10...35 Punkte Erdschaden an. Unterbricht eine Fertigkeit."
 	},
 	"572": {
 		id: 572,
@@ -43711,8 +44517,8 @@ var skilldesc$1 = {
 	"809": {
 		id: 809,
 		name: "Trümmerstein",
-		description: "Der Gegner erleidet 25...100 Punkte Kälteschaden und wird 3 Sekunden lang mit Trümmerstein verhext. Wenn Trümmerstein endet, erleiden der Gegner und alle Feinde in der Nähe 25...100 Punkte Kälteschaden.",
-		concise: "3 Sekunden: Anfangswirkung: Richtet 25...100 Punkte Kälteschaden an. Wirkung am Ende: Richtet beim Gegner und allen Feinden in der Nähe 25...100 Punkte Kälteschaden an."
+		description: "Der Gegner erleidet 25...100 Punkte Kälteschaden. 3 Sekunden lang bewegt er sich 66% langsamer. Wenn Trümmerstein endet, erleiden der Gegner und alle Feinde in der Nähe 25...100 Punkte Kälteschaden.",
+		concise: "(3 Sekunden.) Anfangseffekt: Verursacht 25...100 Kälteschaden, und Ziel bewegt sich 66% langsamer. Effekt endet: Fügt dem Ziel und allen Gegnern in der Nähe 25...100 Kälteschaden zu."
 	},
 	"810": {
 		id: 810,
@@ -43837,14 +44643,14 @@ var skilldesc$1 = {
 	"831": {
 		id: 831,
 		name: "Urzorn",
-		description: "1...9 Sekunden lang sind Eure Angriffe um 33% und Bewegungen um 33% schneller, aber Ihr erleidet die doppelte Schadensmenge.",
-		concise: "1...9 Sekunde: Eure Angriffe sind um 33% und Eure Bewegungen um 33% schneller. <gray>Ihr erleidet die doppelte Schadensmenge.</gray>"
+		description: "1...9 Sekunden lang greift Ihr 33% schneller an, und Ihr bewegt Euch 33% schneller, aber Ihr erleidet 150...125% Schaden.",
+		concise: "(1...9 Sekunden.) Ihr greift 33% schneller an und bewegt Euch 33% schneller. <gray>Ihr erleidet 150...125% Schaden.</gray>"
 	},
 	"832": {
 		id: 832,
 		name: "Fleischgolem beleben",
-		description: "Der nächste Kadaver wird als Fleischgolem der Stufe 3...25 wieder belebt. Der Fleischgolem hinterlässt einen verwendbaren Leichnam. Ihr könnt jeweils nur einen Fleischgolem haben.",
-		concise: "Erstellt einen Fleischgolem der Stufe 3...25, welcher einen frischen Kadaver zurücklässt, wenn er stirbt. <gray>Benutzt einen frischen Kadaver. Ihr könnt immer nur einen Fleischgolem haben.</gray>"
+		description: "Nutzt die nächstbeste Leiche, um einen Fleischgolem der Stufe 3...25 zu animieren. Der Fleischgolem hinterlässt 1...4 nutzbare Leichen. Ihr könnt immer nur einen Fleischgolem gleichzeitig haben.",
+		concise: "Erzeugt einen Fleischgolem der Stufe 3...25, der nach dem Tod 1...4 nutzbare Leichen zurücklässt. <gray>Nutzt eine frische Leiche. Ihr könnt immer nur einen Fleischgolem gleichzeitig haben.</gray>"
 	},
 	"834": {
 		id: 834,
@@ -43921,8 +44727,8 @@ var skilldesc$1 = {
 	"846": {
 		id: 846,
 		name: "Dampf",
-		description: "Der Gegner erleidet 20...60 Punkte Kälteschaden. Brennt der Gegner, wird er 5...10 Sekunden lang durch den Dampf geblendet.",
-		concise: "Richtet 20...60 Punkte Kälteschaden an. Verursacht Zustand Blindheit (5...10 Sekunden), falls der Gegner brennt."
+		description: "Der Zielgegner erleidet 20...60 Kälteschaden. Wenn der Zielgegner in Flammen steht, blendet Dampf diesen Gegner 5...10 Sekunden lang, und er erleidet zusätzlich 20...60 Feuerschaden.",
+		concise: "Verursacht 20...60 Kälteschaden. Verursacht Zustand Blindheit (5...10 Sekunden) und 20...60 Feuerschaden, wenn der Zielgegner brennt."
 	},
 	"847": {
 		id: 847,
@@ -44023,8 +44829,8 @@ var skilldesc$1 = {
 	"867": {
 		id: 867,
 		name: "Heilendes Licht",
-		description: "Heilt den Verbündeten (bzw. Euch selbst) um 40...100 Lebenspunkte. Wenn Euer Ziel einer Verzauberung unterliegt, erhaltet Ihr 1...3 Energiepunkte.",
-		concise: "Heilt um 40...100 Lebenspunkte. Ihr erhaltet 1...3 Energiepunkte, falls der Verbündete (bzw. Ihr selbst) verzaubert ist."
+		description: "Heilt den Verbündeten (bzw. Euch selbst) um 40...120 Lebenspunkte. Wenn Euer Ziel einer Verzauberung unterliegt, erhaltet Ihr 1...3 Energiepunkte.",
+		concise: "Heilt um 40...120 Lebenspunkte. Ihr erhaltet 1...3 Energiepunkte, falls der Verbündete (bzw. Ihr selbst) verzaubert ist."
 	},
 	"869": {
 		id: 869,
@@ -44101,8 +44907,8 @@ var skilldesc$1 = {
 	"885": {
 		id: 885,
 		name: "Schildwächter",
-		description: "1...4 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff geblockt wird, werden alle Verbündeten in Hörweite um 10...40 Lebenspunkte geheilt und Schildwächter endet.",
-		concise: "(1...4 Sekunden.) Gruppenmitglieder in Hörweite haben eine 75%ige Chance, Angriffe zu blocken. Blockwirkung: Verbündete in Hörweite werden um 10...40 geheilt und Schildwächter endet."
+		description: "2...6 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff geblockt wird, werden alle Verbündeten in Hörweite um 10...40 Lebenspunkte geheilt und Schildwächter endet.",
+		concise: "(2...6 Sekunden.) Gruppenmitglieder in Hörweite haben eine 75%ige Chance, Angriffe zu blocken. Blockwirkung: Verbündete in Hörweite werden um 10...40 geheilt und Schildwächter endet."
 	},
 	"886": {
 		id: 886,
@@ -44215,8 +45021,8 @@ var skilldesc$1 = {
 	"909": {
 		id: 909,
 		name: "Scharfschuss",
-		description: "Wenn Scharfschuss erfolgreich ist, fügt Ihr +10...25 Punkte Schaden zu, aber alle Eure anderen Angriffs-Fertigkeiten werden 5...3 Sekunden lang deaktiviert.",
-		concise: "Richtet +10...25 Punkte Schaden an. <gray>Eure anderen Angriffsfertigkeiten werden deaktiviert (5...3 Sekunden), falls dieser Angriff trifft.</gray>"
+		description: "Schießt einen Pfeil ab, der sich dreimal schneller bewegt und nicht geblockt werden kann. Wenn Scharfschuss erfolgreich ist, fügt Ihr +10...40 Punkte Schaden zu, aber alle Eure anderen Angriffs-Fertigkeiten werden 8...4 Sekunden lang deaktiviert.",
+		concise: "Richtet +10...40 Punkte Schaden an. Bewegt sich dreimal schneller. Kann nicht geblockt werden. <gray>Eure anderen Angriffsfertigkeiten werden deaktiviert (8...4 Sekunden), falls dieser Angriff trifft.</gray>"
 	},
 	"910": {
 		id: 910,
@@ -44293,8 +45099,8 @@ var skilldesc$1 = {
 	"925": {
 		id: 925,
 		name: "Rückruf",
-		description: "Solange Rückruf aufrecht erhalten wird, passiert nichts. Wenn Rückruf endet, unternehmt Ihr einen Schattenschritt zu dem Verbündeten, den Ihr beim Aktivieren dieser Fertigkeit ausgewählt hattet, und alle Eure Fertigkeiten sind 10 Sekunden lang deaktiviert.",
-		concise: "Wirkung am Ende: Unternehmt einen Schattenschritt zum Verbündeten. <gray>Sich selbst als Ziel wählen nicht möglich. Deaktiviert am Ende alle Eure Fertigkeiten (10 Sekunden).</gray>"
+		description: "Solange Rückruf aufrecht erhalten wird, passiert nichts. Wenn Rückruf endet, unternehmt Ihr einen Schattenschritt zu dem Verbündeten, den Ihr beim Aktivieren dieser Fertigkeit ausgewählt hattet, und alle Eure Fertigkeiten sind 3 Sekunden lang deaktiviert.",
+		concise: "Wirkung am Ende: Unternehmt einen Schattenschritt zum Verbündeten. <gray>Sich selbst als Ziel wählen nicht möglich. Deaktiviert am Ende alle Eure Fertigkeiten (3 Sekunden).</gray>"
 	},
 	"926": {
 		id: 926,
@@ -44383,8 +45189,8 @@ var skilldesc$1 = {
 	"941": {
 		id: 941,
 		name: "Gesegnetes Licht",
-		description: "Heilt den Verbündeten (bzw. Euch selbst) um 10...140 Lebenspunkte und entfernt einen Zustand und eine Verhexung.",
-		concise: "Heilt um 10...140 Lebenspunkte. Entfernt einen Zustand und eine Verhexung."
+		description: "Heilt den Verbündeten (bzw. Euch selbst) um 10...120 Lebenspunkte und entfernt einen Zustand und eine Verhexung.",
+		concise: "Heilt um 10...120 Lebenspunkte. Entfernt einen Zustand und eine Verhexung."
 	},
 	"942": {
 		id: 942,
@@ -44581,8 +45387,8 @@ var skilldesc$1 = {
 	"985": {
 		id: 985,
 		name: "Trittnägel",
-		description: "Der Feind und alle umstehenden Gegner werden 5...15 Sekunden lang verkrüppelt. Trittnägel haben nur die halbe Reichweite.",
-		concise: "Verursacht beim Gegner und umstehenden Feinden Zustand Verkrüppelung (5...15 Sekunden)."
+		description: "Der Feind und alle umstehenden Gegner werden 5...15 Sekunden lang verkrüppelt und bluten. Trittnägel haben nur die halbe Reichweite.",
+		concise: "Verursacht beim Gegner und umstehenden Feinden Zustand Verkrüppelung und Blutung (5...15 Sekunden)."
 	},
 	"986": {
 		id: 986,
@@ -44611,8 +45417,8 @@ var skilldesc$1 = {
 	"990": {
 		id: 990,
 		name: "Verzauberungen ausmerzen",
-		description: "Der Gegner verliert 1<sic/> Verzauberung. Alle anderen Nicht-Angriffsfertigkeiten werden 10...5 Sekunden lang deaktiviert. Für jede Fertigkeit, die auf diese Weise deaktiviert wird, verliert der berührte Gegner 1<sic/> weitere Verzauberung.",
-		concise: "Entfernt für jede Eurer Nicht-Angriffsfertigkeiten eine Verzauberung. <gray>Alle Eure Nicht-Angriffsfertigkeiten werden deaktiviert (10...5 Sekunden).</gray>"
+		description: "Der Gegner verliert 1<sic/> Verzauberung. Alle anderen Nicht-Angriffsfertigkeiten werden 8...4 Sekunden lang deaktiviert. Für jede Fertigkeit, die auf diese Weise deaktiviert wird, verliert der berührte Gegner 1<sic/> weitere Verzauberung.",
+		concise: "Entfernt für jede Eurer Nicht-Angriffsfertigkeiten eine Verzauberung. <gray>Alle Eure Nicht-Angriffsfertigkeiten werden deaktiviert (8...4 Sekunden).</gray>"
 	},
 	"991": {
 		id: 991,
@@ -44755,7 +45561,7 @@ var skilldesc$1 = {
 	"1034": {
 		id: 1034,
 		name: "Eiternde Wunde",
-		description: "1...7 Sekunden lang bewegt sich der Gegner um 33% langsamer. Wenn der Gegner unter einem Zustand leidet, erleidet er 5...25 Punkte Schaden pro Sekunde. Die Reichweite dieses Zaubers ist nur halb so groß wie gewöhnlich.",
+		description: "1...7 Sekunden lang bewegt sich der Gegner um 33% langsamer. Wenn der Gegner unter einem Zustand leidet, erleidet er 5...25 Punkte Schaden pro Sekunde.",
 		concise: "(1...7 Sekunden.) Gegner bewegt sich um 33% langsamer. Verursacht an Feinden, die an einem Zustand leiden, 5...25 Punkte Schaden pro Sekunde."
 	},
 	"1035": {
@@ -44857,8 +45663,8 @@ var skilldesc$1 = {
 	"1056": {
 		id: 1056,
 		name: "Kitahs Bürde",
-		description: "10 Sekunden lang bewegt sich der Gegner um 50% langsamer. Wenn Kitahs Bürde endet, erhaltet Ihr 10...18 Energiepunkte.",
-		concise: "10 Sekunden: Gegner bewegt sich um 50% langsamer. Wirkung am Ende: Ihr erhaltet 10...18 Energiepunkte."
+		description: "6...12 Sekunden lang bewegt sich der Zielgegner um 50% langsamer. Wenn Ätherische Bürde endet, erhaltet Ihr 10...18 Energiepunkte.",
+		concise: "6...12 Sekunden: Gegner bewegt sich um 50% langsamer. Wirkung am Ende: Ihr erhaltet 10...18 Energiepunkte."
 	},
 	"1057": {
 		id: 1057,
@@ -44953,7 +45759,7 @@ var skilldesc$1 = {
 	"1081": {
 		id: 1081,
 		name: "Teinais Wind",
-		description: "Der Gegner und alle umstehenden Feinde erleiden 10...40 Punkte Kälteschaden. Brennende Feinde, die durch Teinais Wind getroffen werden, erleiden stattdessen 50...120 Punkte Kälteschaden und werden unterbrochen.",
+		description: "Gegner und alle umstehenden Feinde erleiden 10...40 Punkte Kälteschaden. Brennende Feinde, die durch Teinais Wind getroffen werden, erleiden zusätzlich 40...80 Punkte Schaden und werden unterbrochen.",
 		concise: "Richtet 10...40 Punkte Kälteschaden an. Brennende Feinde erleiden +40...80 Punkte Schaden und werden unterbrochen. Trifft auch umstehende Gegner."
 	},
 	"1082": {
@@ -45151,8 +45957,8 @@ var skilldesc$1 = {
 	"1136": {
 		id: 1136,
 		name: "Durchdringender Hieb",
-		description: "Wenn dieser Angriff erfolgreich ist, trefft Ihr für 5...20 Punkte zusätzlichen Schaden. Dieser Axtangriff hat eine Rüstungsdurchdringung von 20%.",
-		concise: "Richtet +5...20 Punkte Schaden an. 20% Rüstungsdurchdringung."
+		description: "Wenn dieser Angriff erfolgreich ist, trefft Ihr für 10...25 Punkte zusätzlichen Schaden. Dieser Axtangriff hat eine Rüstungsdurchdringung von 20%.",
+		concise: "Richtet +10...25 Punkte Schaden an. 20% Rüstungsdurchdringung."
 	},
 	"1137": {
 		id: 1137,
@@ -45181,8 +45987,8 @@ var skilldesc$1 = {
 	"1146": {
 		id: 1146,
 		name: "Schubs",
-		description: "Der berührte Gegner wird zu Boden geworfen. Wenn dieser Gegner in Bewegung war, erleidet er 15...75 Punkte Schaden und jede eingesetzte Haltung endet, bevor er zu Boden geworfen wird.",
-		concise: "Wirft den Gegner zu Boden. Feinde, die sich bewegen, erleiden 15...75 Punkte Schaden und verlieren ihre aktuelle Haltung, bevor sie zu Boden geworfen werden."
+		description: "Der berührte Zielgegner erleidet 15...75 Schaden, seine Haltung endet, und er wird niedergeschlagen.",
+		concise: "Der berührte Zielgegner erleidet 15...75 Schaden, seine Haltung endet, und er wird niedergeschlagen."
 	},
 	"1191": {
 		id: 1191,
@@ -45229,8 +46035,8 @@ var skilldesc$1 = {
 	"1199": {
 		id: 1199,
 		name: "Glaspfeile",
-		description: "Während der nächsten 10...35 Sekunden fügen Eure Pfeile bei einem Treffer +5...20 Punkte Schaden zu und führen 10...20 Sekunden lang zu einer Blutung, wenn sie geblockt werden.",
-		concise: "10...35 Sekunden: Eure Pfeile richten +5...20 Punkte Schaden an. Verursacht Zustand Blutung (10...20 Sekunden), falls geblockt."
+		description: "Während der nächsten 10...35 Sekunden fügen Eure Pfeile bei einem Treffer +6...20 Punkte Schaden zu und führen 10...20 Sekunden lang zu einer Blutung, wenn sie geblockt werden.",
+		concise: "10...35 Sekunden: Eure Pfeile richten +6...20 Punkte Schaden an. Verursacht Zustand Blutung (10...20 Sekunden), falls geblockt."
 	},
 	"1200": {
 		id: 1200,
@@ -45288,9 +46094,9 @@ var skilldesc$1 = {
 	},
 	"1213": {
 		id: 1213,
-		name: "Ruhe",
-		description: "Erstellt einen Geist der Stufe 1...10. Von Kreaturen in seiner Reichweite, die keine Geister sind, gewirkte Verzauberungen enden 20...50% schneller . Dieser Geist stirbt nach 15...120 Sekunden.",
-		concise: "Erstellt einen Geist der Stufe 1...10 (15...120 Sekunden Lebensdauer). Verzauberungen enden bei Kreaturen in Reichweite um 20...50% schneller. Keine Wirkung auf Geister."
+		name: "Ruhe (PvP)",
+		description: "Erstellt einen Geist der Stufe 1...10. Von Kreaturen in seiner Reichweite, die keine Geister sind, gewirkte Verzauberungen enden 10...30% schneller . Dieser Geist stirbt nach 15...120 Sekunden.",
+		concise: "Erstellt einen Geist der Stufe 1...10 (15...120 Sekunden Lebensdauer). Verzauberungen enden bei Kreaturen in Reichweite um 10...30% schneller. Keine Wirkung auf Geister."
 	},
 	"1215": {
 		id: 1215,
@@ -45313,8 +46119,8 @@ var skilldesc$1 = {
 	"1219": {
 		id: 1219,
 		name: "Schützend war Kaolai",
-		description: "Haltet Kaolais Asche bis zu 15...60 Sekunden lang. Während Ihr seine Asche haltet, erhaltet Ihr 10 Rüstung. Wenn ihr seine Asche fallen lasst, werden alle Gruppenmitglieder um 10...85 Lebenspunkte geheilt.",
-		concise: "15...60 Sekunden: Ihr habt +10 Rüstung. Fallwirkung: Alle Gruppenmitglieder werden um 10...85 Lebenspunkte geheilt."
+		description: "Haltet Kaolais Asche bis zu 15...60 Sekunden lang. Während Ihr seine Asche haltet, erhaltet Ihr 20 Rüstung. Wenn ihr seine Asche fallen lasst, werden alle Gruppenmitglieder um 20...95 Lebenspunkte geheilt.",
+		concise: "15...60 Sekunden: Ihr habt +20 Rüstung. Fallwirkung: Alle Gruppenmitglieder werden um 20...95 Lebenspunkte geheilt."
 	},
 	"1220": {
 		id: 1220,
@@ -45439,8 +46245,8 @@ var skilldesc$1 = {
 	"1240": {
 		id: 1240,
 		name: "Seelenverflechtung",
-		description: "5...45 Sekunden lang kosten die nächsten 1...3 Binderituale, die Ihr ausführt, 15 weniger Energiepunkte (mindestens 10) und laden sich sofort wieder auf.",
-		concise: "(5...45 Sekunden.) Die nächsten 1...3 Binderituale, die Ihr ausführt, kosten 15 weniger Energiepunkte (mindestens 10) und laden sich sofort wieder auf."
+		description: "5...45 Sekunden lang kosten Eure Binderituale 15 weniger Energiepunkte (mindestens 5) und laden sich sofort wieder auf. Seelenverflechtung endet nach 1...3 Binderitualen.",
+		concise: "(5...45 Sekunden.) Eure Binderituale 15 kosten weniger Energiepunkte (mindestens 5) und laden sich sofort wieder auf. Endet nach 1...3 Binderitualen."
 	},
 	"1244": {
 		id: 1244,
@@ -45518,7 +46324,7 @@ var skilldesc$1 = {
 		id: 1259,
 		name: "Gelenkte Waffe",
 		description: "4...10 Sekunden lang können die Angriffe des Verbündeten (bzw. Eure eigenen) nicht geblockt werden.",
-		concise: "4...10 Sekunden: Angriffe können nicht geblockt werden"
+		concise: "4...10 Sekunden: Angriffe können nicht geblockt werden."
 	},
 	"1260": {
 		id: 1260,
@@ -45619,8 +46425,8 @@ var skilldesc$1 = {
 	"1339": {
 		id: 1339,
 		name: "Symbole der Inspiration",
-		description: "1...31 Sekunden lang wird diese Fertigkeit zur Elite-Fertigkeit des Gegners. Elite-Zauber, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut.",
-		concise: "1...31 Sekunden: Diese Fertigkeit wird zur Elite-Fertigkeit des Gegners. Elite-Zauber, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut."
+		description: "1...31 Sekunden lang wird diese Fertigkeit zur Elite-Fertigkeit des Gegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut.",
+		concise: "1...31 Sekunden: Diese Fertigkeit wird zur Elite-Fertigkeit des Gegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut."
 	},
 	"1340": {
 		id: 1340,
@@ -45727,8 +46533,8 @@ var skilldesc$1 = {
 	"1358": {
 		id: 1358,
 		name: "Geschwürige Lungen",
-		description: "10...25 Sekunden lang unterliegt der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -4, wenn sie bluten und erleiden jedes Mal, wenn sie einen Schrei oder Anfeuerungsruf anwenden, 3...15 Sekunden lang eine Blutung.",
-		concise: "Verhext den Gegner und Feinde in der Nähe (10...25 Sekunden). Verursacht bei allen Betroffenen, die bluten, -4 Lebenspunktdegeneration. Verursacht jedes mal eine Blutung (3...15 Sekunden), wenn einer der Betroffenen einen Schrei oder Anfeuerungsruf benutzt."
+		description: "10...30 Sekunden lang unterliegt der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -4, wenn sie bluten und erleiden jedes Mal, wenn sie einen Schrei oder Anfeuerungsruf anwenden, 5...20 Sekunden lang eine Blutung.",
+		concise: "Verhext den Gegner und Feinde in der Nähe (10...30 Sekunden). Verursacht bei allen Betroffenen, die bluten, -4 Lebenspunktdegeneration. Verursacht jedes mal eine Blutung (5...20 Sekunden), wenn einer der Betroffenen einen Schrei oder Anfeuerungsruf benutzt."
 	},
 	"1359": {
 		id: 1359,
@@ -45841,8 +46647,8 @@ var skilldesc$1 = {
 	"1378": {
 		id: 1378,
 		name: "Meister der Magie",
-		description: "1...61 Sekunden lang betragen alle Eure Elementarattribute 8...14 und Eure Elementarzauber geben Euch 30% ihrer Energiekosten zurück.",
-		concise: "1...61 Sekunden: Eure Elementarattribute werden betragen 8...14 und Elementarzauber geben Euch 30% ihrer Energiekosten zurück."
+		description: "1...61 Sekunden lang werden alle Eure Elementarattribute auf 8...14 gesetzt, und Eure Elementarzauber geben 1 Energie plus 30% ihrer Kosten zurück.",
+		concise: "(1...61 Sekunden.) Eure Elementarattribute werden auf 8...14 gesetzt. Elementarzauber geben 1 Energie plus 30% ihrer Kosten zurück."
 	},
 	"1379": {
 		id: 1379,
@@ -45907,8 +46713,8 @@ var skilldesc$1 = {
 	"1396": {
 		id: 1396,
 		name: "Tröstende Worte",
-		description: "Der Verbündete (bzw. Ihr selbst) wird um 15...60 Lebenspunkte geheilt und zusätzlich um 15...45 Lebenspunkte, wenn er unter einem Zustand leidet.",
-		concise: "Heilt um 15...60 Lebenspunkte. Heilt um weitere 15...45 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) einen Zustand hat."
+		description: "Der Verbündete (bzw. Ihr selbst) wird um 20...65 Lebenspunkte geheilt und zusätzlich um 20...50 Lebenspunkte, wenn er unter einem Zustand leidet.",
+		concise: "Heilt um 20...65 Lebenspunkte. Heilt um weitere 20...50 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) einen Zustand hat."
 	},
 	"1397": {
 		id: 1397,
@@ -46039,8 +46845,8 @@ var skilldesc$1 = {
 	"1466": {
 		id: 1466,
 		name: "Brennender Pfeil",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...30 Punkte Schaden zu und verursacht 1...7 Sekunden lang Brennen.",
-		concise: "Richtet +10...30 Punkte Schaden an. Verursacht Zustand Brennen (1...7 Sekunden)."
+		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...30 Punkte Schaden zu und verursacht 2...8 Sekunden lang Brennen.",
+		concise: "Richtet +10...30 Punkte Schaden an. Verursacht Zustand Brennen (2...8 Sekunden)."
 	},
 	"1467": {
 		id: 1467,
@@ -46225,8 +47031,8 @@ var skilldesc$1 = {
 	"1500": {
 		id: 1500,
 		name: "Trugbild-Umhang",
-		description: "1...7 Sekunden lang habt Ihr eine 30...60%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
-		concise: "(1...7 Sekunden.) Ihr habt eine 30...60%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
+		description: "20 Sekunden lang habt Ihr Chance von 40%, zu blocken plus 10% für jede zusätzliche Verzauberung (max. 80%). Alle Gegner in der Nähe erleiden jedes Mal 10...40 Erdschaden, wenn eine Derwisch-Verzauberung von Euch entfernt wird.",
+		concise: "(20 Sekunden.) Chance von 40%, zu blocken plus 10% für jede zusätzliche Verzauberung. Gegner in der Nähe erleiden 10...40 Erdschaden, wenn Ihre<sic/> eine Derwisch-Verzauberung verliert."
 	},
 	"1502": {
 		id: 1502,
@@ -46405,8 +47211,8 @@ var skilldesc$1 = {
 	"1532": {
 		id: 1532,
 		name: "Mystischer Sandsturm",
-		description: "An der<sic/> Eurer Position wird ein Sandsturm erzeugt, der 3 Sekunden lang anhält. Feinde in der Nähe Eurer ursprünglichen Position erleiden pro Sekunde 10...20 Punkte Erdschaden. Angreifende Feinde erleiden zusätzlich 10...20 Punkte Schaden. Wenn Ihr beim Wirken dieses Zaubers verzaubert seid, hält die Wirkung doppelt so lange an.",
-		concise: "(3 Sekunden.) Richtet 10...20 Punkte Erdschaden pro Sekunde an. Richtet bei angreifenden Feinden zusätzlich 10...20 Punkte Schaden an. Trifft Feinde in der Nähe Eurer ursprünglichen Position. Die Wirkung hält doppelt so lange an, wenn Ihr verzaubert seid."
+		description: "An der<sic/> Eurer Position wird ein Sandsturm erzeugt, der 3 Sekunden lang anhält. Feinde in der Nähe Eurer ursprünglichen Position erleiden pro Sekunde 10...40 Punkte Erdschaden. Angreifende Feinde erleiden zusätzlich 10...20 Punkte Schaden. Wenn Ihr beim Wirken dieses Zaubers verzaubert seid, hält die Wirkung doppelt so lange an.",
+		concise: "(3 Sekunden.) Richtet 10...40 Punkte Erdschaden pro Sekunde an. Richtet bei angreifenden Feinden zusätzlich 10...20 Punkte Schaden an. Trifft Feinde in der Nähe Eurer ursprünglichen Position. Die Wirkung hält doppelt so lange an, wenn Ihr verzaubert seid."
 	},
 	"1533": {
 		id: 1533,
@@ -46477,14 +47283,14 @@ var skilldesc$1 = {
 	"1544": {
 		id: 1544,
 		name: "Wirbelangriff",
-		description: "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...50 Kälteschaden und diese Verzauberung endet.",
-		concise: "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...50 Kälteschaden zu und die Verzauberung endet."
+		description: "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...60 Kälteschaden und diese Verzauberung endet.",
+		concise: "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...60 Kälteschaden zu und die Verzauberung endet."
 	},
 	"1545": {
 		id: 1545,
 		name: "Glaubensprüfung",
-		description: "Fügt dem berührten Gegner 15...75 Punkte Kälteschaden zu und entfernt 1 Verzauberung vom diesem. Wenn der Gegner nicht verzaubert war, leidet er 1...4 Sekunden lang unter Benommenheit.",
-		concise: "Fügt 15...75 Punkte Kälteschaden zu und entfernt 1 Verzauberung vom Gegner. Wenn der Gegner nicht verzaubert war, leidet er 1...4 Sekunden lang unter Benommenheit."
+		description: "Fügt dem berührten Gegner 15...75 Punkte Kälteschaden zu und entfernt 1 Verzauberung vom diesem. Wenn der Gegner nicht verzaubert war, leidet er 2...6 Sekunden lang unter Benommenheit.",
+		concise: "Fügt 15...75 Punkte Kälteschaden zu und entfernt 1 Verzauberung vom Gegner. Wenn der Gegner nicht verzaubert war, leidet er 2...6 Sekunden lang unter Benommenheit."
 	},
 	"1546": {
 		id: 1546,
@@ -46519,8 +47325,8 @@ var skilldesc$1 = {
 	"1551": {
 		id: 1551,
 		name: "Speer des Blitzes",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +8...20 Punkte Blitzschaden zu. Dieser Angriff hat eine Rüstungsdurchdringung von 25%.",
-		concise: "Richtet +8...20 Punkte Blitzschaden an. 25% Rüstungsdurchdringung."
+		description: "Wenn dieser Angriff trifft, verursacht er +10...20 Blitzschaden. Feinde zwischen Euch und Eurem Ziel erleiden 10...20 Blitzschaden. Dieser Angriff hat 25% Rüstungsdurchdringung.",
+		concise: "Verursacht +10...20 Blitzschaden. Alle Feinde zwischen Euch und Eurem Ziel erleiden 10...20 Blitzschaden. 25% Rüstungsdurchdringung."
 	},
 	"1552": {
 		id: 1552,
@@ -46531,8 +47337,8 @@ var skilldesc$1 = {
 	"1553": {
 		id: 1553,
 		name: "Hymne der Wut",
-		description: "10 Sekunden erhalten alle Gruppenmitglieder in Hörweite bei der nächsten Verwendung einer Angriffsfertigkeit 1...4 Adrenalinstöße.",
-		concise: "10 Sekunden: Gruppenmitglieder in Hörweite erhalten bei Benutzung ihrer nächsten Angriffsfertigkeit 1...4 Adrenalin."
+		description: "10 Sekunden erhalten alle Gruppenmitglieder in Hörweite bei der nächsten Verwendung einer Angriffsfertigkeit 2...5 Adrenalinstöße.",
+		concise: "10 Sekunden: Gruppenmitglieder in Hörweite erhalten bei Benutzung ihrer nächsten Angriffsfertigkeit 2...5 Adrenalin."
 	},
 	"1554": {
 		id: 1554,
@@ -46555,8 +47361,8 @@ var skilldesc$1 = {
 	"1557": {
 		id: 1557,
 		name: "Hymne der Flamme",
-		description: "Jedes Gruppenmitglied in Hörweite fügt, wenn es in den nächsten 10 Sekunden das nächste Mal mit einer Angriffsfertigkeit einen Treffer landet, vor dem Treffer auch 1...3 Sekunden lang Brennen zu.",
-		concise: "10 Sekunden: Gruppenmitglieder in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Brennen (1...3 Sekunden)."
+		description: "Jedes Gruppenmitglied in Hörweite fügt, wenn es in den nächsten 10 Sekunden das nächste Mal mit einer Angriffsfertigkeit einen Treffer landet, vor dem Treffer auch 1...5 Sekunden lang Brennen zu.",
+		concise: "10 Sekunden: Gruppenmitglieder in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Brennen (1...5 Sekunden)."
 	},
 	"1558": {
 		id: 1558,
@@ -47065,8 +47871,8 @@ var skilldesc$1 = {
 	"1688": {
 		id: 1688,
 		name: "Eifer des Verteidigers",
-		description: "5...25 Sekunden lang erhaltet Ihr jedes Mal, wenn der Gegner einen erfolgreichen Angriff landet, 2 Energiepunkte.",
-		concise: "5...25 Sekunden: Ihr erhaltet jedes Mal 2 Energiepunkte, wenn ein Angriff des Gegners trifft."
+		description: "10...30 Sekunden lang erhaltet Ihr jedes Mal, wenn der Gegner einen erfolgreichen Angriff landet, 2 Energiepunkte.",
+		concise: "10...30 Sekunden: Ihr erhaltet jedes Mal 2 Energiepunkte, wenn ein Angriff des Gegners trifft."
 	},
 	"1689": {
 		id: 1689,
@@ -47113,8 +47919,8 @@ var skilldesc$1 = {
 	"1696": {
 		id: 1696,
 		name: "Köpfen",
-		description: "Ihr verliert Euer gesamtes Adrenalin und alle Energie. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...80 Punkte Schaden und 5...20 Sekunden lang eine Tiefe Wunde zu. Dieser Angriff führt zu einem kritischen Treffer.",
-		concise: "Richtet +5...80 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden). Immer ein kritischer Treffer. <gray>Ihr verliert alles Adrenalin und alle Energiepunkte.</gray>"
+		description: "Ihr verliert Euer gesamtes Adrenalin und alle Energie. Dieser Angriff ist nicht blockbar, Ihr fügt +5...80 Punkte Schaden und 5...20 Sekunden lang eine Tiefe Wunde zu. Dieser Angriff führt zu einem kritischen Treffer, stirbt das Ziel dabei, leiden alle Feinde in der Nähe 8 Sekunden an Schwäche.",
+		concise: "Richtet +5...80 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden). Immer ein kritischer Treffer. Wenn der Feind stirbt leiden alle Feinde in der Nähe an Schwäche (8 Sekunden). <gray>Ihr verliert alles Adrenalin und alle Energiepunkte.</gray>"
 	},
 	"1697": {
 		id: 1697,
@@ -47239,8 +48045,8 @@ var skilldesc$1 = {
 	"1733": {
 		id: 1733,
 		name: "Stoß des Ausübers",
-		description: "Der Gegner erleidet 5...50 Punkte Blitzschaden. Wenn Ihr unter dem Einfluss eines Waffenzaubers steht, fügt Ihr zusätzlich 10...40 Punkte Blitzschaden zu.",
-		concise: "Richtet 5...50 Punkte Blitzschaden an. Richtet zusätzlich 10...40 Punkte Blitzschaden an, falls Ihr unter dem Einfluss eines Waffenzaubers steht."
+		description: "Der Gegner erleidet 10...60 Punkte Blitzschaden. Wenn Ihr unter dem Einfluss eines Waffenzaubers steht, fügt Ihr zusätzlich 10...50 Punkte Blitzschaden zu.",
+		concise: "Richtet 10...60 Punkte Blitzschaden an. Richtet zusätzlich 10...50 Punkte Blitzschaden an, falls Ihr unter dem Einfluss eines Waffenzaubers steht."
 	},
 	"1734": {
 		id: 1734,
@@ -47299,8 +48105,8 @@ var skilldesc$1 = {
 	"1744": {
 		id: 1744,
 		name: "Angriff des Verwalters",
-		description: "Der Gegner erleidet 20...75 Punkte Blitzschaden. Wenn Ihr einen Gegenstand haltet, erhaltet Ihr 5 Energiepunkte und 5...50 Lebenspunkte.",
-		concise: "Richtet 20...75 Punkte Blitzschaden an. Ihr erhaltet 5 Energiepunkte und 5...50 Lebenspunkte, falls Ihr einen Gegenstand haltet."
+		description: "Der Gegner erleidet 20...85 Punkte Blitzschaden. Wenn Ihr einen Gegenstand haltet, erhaltet Ihr 7 Energiepunkte und 5...50 Lebenspunkte.",
+		concise: "Richtet 20...85 Punkte Blitzschaden an. Ihr erhaltet 7 Energiepunkte und 5...50 Lebenspunkte, falls Ihr einen Gegenstand haltet."
 	},
 	"1745": {
 		id: 1745,
@@ -47365,8 +48171,8 @@ var skilldesc$1 = {
 	"1756": {
 		id: 1756,
 		name: "Grenths Griff",
-		description: "20 Sekunden lang verkrüppeln Eure Angriffsfertigkeiten den Gegner außerdem 1...11 Sekunden lang, wenn Ihr eine Kältewaffe führt, und Ihr übertragt 1...3 Zustände von Euch auf diesen Gegner.",
-		concise: "(20 Sekunden.) Eure Angriffsfertigkeiten verursachen Verkrüppelung (1...11 Sekunden) und übertragen 1...3 Zustände. <gray>Keine Wirkung, falls Ihr keine Kältewaffe benutzt.</gray>"
+		description: "20 Sekunden lang verkrüppeln Eure Angriffsfertigkeiten den Gegner außerdem 1...11 Sekunden lang und Ihr übertragt 1...3 Zustände von Euch auf diesen Gegner.",
+		concise: "(20 Sekunden.) Eure Angriffsfertigkeiten verursachen Verkrüppelung (1...11 Sekunden) und übertragen 1...3 Zustände."
 	},
 	"1757": {
 		id: 1757,
@@ -47449,8 +48255,8 @@ var skilldesc$1 = {
 	"1770": {
 		id: 1770,
 		name: "Natürliche Laune",
-		description: "4...10 Sekunden lang erhaltet Ihr um 33% mehr Adrenalin, wenn Ihr nicht mit einer Verzauberung belegt seid.",
-		concise: "4...10 Sekunden: Ihr erhaltet 33% mehr Adrenalin. <gray>Keine Wirkung, falls ihr verzaubert seid.</gray>"
+		description: "4...15 Sekunden lang erhaltet Ihr um 33% mehr Adrenalin, wenn Ihr nicht mit einer Verzauberung belegt seid.",
+		concise: "4...15 Sekunden: Ihr erhaltet 33% mehr Adrenalin. <gray>Keine Wirkung, falls ihr verzaubert seid.</gray>"
 	},
 	"1771": {
 		id: 1771,
@@ -47497,8 +48303,8 @@ var skilldesc$1 = {
 	"1778": {
 		id: 1778,
 		name: "Siegel der Wiederkehr",
-		description: "Belebt das ausgewählte Gruppenmitglied mit 5...15% seiner Lebens- und 1...4% seiner Energiepunkte pro Gruppenmitglied in Hörweite.",
-		concise: "Das Gruppenmitglied wird wiederbelebt (5...15% Lebenspunkte und 1...4% Energiepunkte pro Gruppenmitglied in Hörweite)."
+		description: "Belebt das ausgewählte Gruppenmitglied mit 5...20% seiner Lebens- und 1...4% seiner Energiepunkte pro Gruppenmitglied in Hörweite.",
+		concise: "Das Gruppenmitglied wird wiederbelebt (5...20% Lebenspunkte und 1...4% Energiepunkte pro Gruppenmitglied in Hörweite)."
 	},
 	"1779": {
 		id: 1779,
@@ -47665,8 +48471,8 @@ var skilldesc$1 = {
 	"1996": {
 		id: 1996,
 		name: "Summe aller Ängste",
-		description: "1...10 Sekunden lang sind die Bewegungen, Angriffe und Wirkgeschwindigkeit von Zaubern des Gegners um 33% langsamer.",
-		concise: "1...10 Sekunden: Bewegung, Angriffe und das Wirken von Zaubern sind beim Gegner um 33% verlangsamt."
+		description: "4...12 Sekunden lang sind die Bewegungen, Angriffe und Wirkgeschwindigkeit von Zaubern des Gegners um 33% langsamer.",
+		concise: "4...12 Sekunden: Bewegung, Angriffe und das Wirken von Zaubern sind beim Gegner um 33% verlangsamt."
 	},
 	"1997": {
 		id: 1997,
@@ -47725,8 +48531,8 @@ var skilldesc$1 = {
 	"2006": {
 		id: 2006,
 		name: "Geißelungs-Siegel",
-		description: "Der Gegner erleidet 26...56 Punkte heiligen Schaden. Falls er angegriffen hat, erhaltet Ihr 1...10 Energiepunkte.",
-		concise: "Richtet 26...56 Punkte heiligen Schaden an. Ihr erhaltet 1...10 Energiepunkte, falls der Gegner gerade angreift."
+		description: "Der Gegner erleidet 26...56 Punkte heiligen Schaden. Falls er angegriffen hat, erhaltet Ihr 4...14 Energiepunkte.",
+		concise: "Richtet 26...56 Punkte heiligen Schaden an. Ihr erhaltet 4...14 Energiepunkte, falls der Gegner gerade angreift."
 	},
 	"2007": {
 		id: 2007,
@@ -47839,14 +48645,14 @@ var skilldesc$1 = {
 	"2057": {
 		id: 2057,
 		name: "Widerliches Gelage",
-		description: "Alle Zustände werden vom Verbündeten auf Euch übertragen. Für jeden auf diese Weise erhaltenen Zustand werdet Ihr um 0...45 Lebenspunkte geheilt und erhaltet 0...2 Energiepunkte. Wenn Ihr \"Krankheit\" von Eurem Ziel entfernt, beträgt die Wiederaufladezeit unveränderlich 2 Sekunden.",
-		concise: "Alle Zustände werden vom Verbündeten auf Euch übertragen. Ihr werdet für jeden übertragenen Zustand um 0...45 Lebenspunkte geheilt und erhaltet 0...2 Energiepunkte. Unveränderliche Wiederaufladezeit von 2 Sekunden, wenn Ihr \"Krankheit\" entfernt. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
+		description: "Alle Zustände werden vom Verbündeten auf Euch übertragen. Für jeden auf diese Weise erhaltenen Zustand werdet Ihr um 0...45 Lebenspunkte geheilt und erhaltet 2...4 Energiepunkte. Wenn Ihr \"Krankheit\" von Eurem Ziel entfernt, beträgt die Wiederaufladezeit unveränderlich 2 Sekunden.",
+		concise: "Alle Zustände werden vom Verbündeten auf Euch übertragen. Ihr werdet für jeden übertragenen Zustand um 0...45 Lebenspunkte geheilt und erhaltet 2...4 Energiepunkte. Unveränderliche Wiederaufladezeit von 2 Sekunden, wenn Ihr \"Krankheit\" entfernt. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 	},
 	"2058": {
 		id: 2058,
 		name: "Verwesende Galle",
-		description: "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkte Schaden.",
-		concise: "5...20 Sekunden: Verursacht -1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
+		description: "5...25 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkte Schaden.",
+		concise: "5...25 Sekunden: Verursacht -1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
 	},
 	"2059": {
 		id: 2059,
@@ -47947,8 +48753,8 @@ var skilldesc$1 = {
 	"2075": {
 		id: 2075,
 		name: "Hastiger Refrain",
-		description: "3...15 Sekunden lang bewegt sich der Verbündete (bzw. Ihr selbst) um 25% schneller. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
-		concise: "3...15 Sekunden: Der Verbündete (bzw. Ihr selbst) bewegt sich um 25% schneller. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet."
+		description: "8...20 Sekunden lang bewegt sich der Verbündete (bzw. Ihr selbst) um 25% schneller. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
+		concise: "8...20 Sekunden: Der Verbündete (bzw. Ihr selbst) bewegt sich um 25% schneller. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet."
 	},
 	"2091": {
 		id: 2091,
@@ -48271,8 +49077,8 @@ var skilldesc$1 = {
 	"2202": {
 		id: 2202,
 		name: "Genesungsgriff",
-		description: "Der Verbündete (bzw. Ihr selbst) wird um 20...80 Lebenspunkte geheilt. Wenn dieser Verbündete unter den Auswirkungen eines Waffenzaubers leidet<sic/>, verliert er einen Zustand.",
-		concise: "Heilt um 20...80 Lebenspunkte. Entfernt einen Zustand, falls der Verbündete (bzw. Ihr selbst) unter dem Einfluss eines Waffenzaubers steht."
+		description: "Der Verbündete (bzw. Ihr selbst) wird um 30...90 Lebenspunkte geheilt. Wenn dieser Verbündete unter den Auswirkungen eines Waffenzaubers leidet<sic/>, verliert er einen Zustand.",
+		concise: "Heilt um 30...90 Lebenspunkte. Entfernt einen Zustand, falls der Verbündete (bzw. Ihr selbst) unter dem Einfluss eines Waffenzaubers steht."
 	},
 	"2203": {
 		id: 2203,
@@ -48679,8 +49485,8 @@ var skilldesc$1 = {
 	"2808": {
 		id: 2808,
 		name: "Erzürnter Schlag (PvP)",
-		description: "Wenn Erzürnter Schlag erfolgreich ist, erhaltet Ihr 1...4 Adrenalinstöße. Wenn Ihr einen sich bewegenden Feind trefft, erleidet dieser +10...40 Schaden und wird zu Boden geworfen.",
-		concise: "Gibt Euch 1...4 Adrenalinstöße, wenn Ihr trefft. Richtet +10...40 Punkte Schaden und wirft den Gegner zu Boden, wenn er sich bewegt hat."
+		description: "Wenn Erzürnter Schlag erfolgreich ist, erhaltet Ihr 1...3 Adrenalinstöße. Wenn Ihr einen sich bewegenden Feind trefft, erleidet dieser +10...40 Schaden und wird zu Boden geworfen.",
+		concise: "Gibt Euch 1...3 Adrenalinstöße, wenn Ihr trefft. Richtet +10...40 Punkte Schaden und wirft den Gegner zu Boden, wenn er sich bewegt hat."
 	},
 	"2809": {
 		id: 2809,
@@ -48715,8 +49521,8 @@ var skilldesc$1 = {
 	"2861": {
 		id: 2861,
 		name: "Durchbohr-Angriff (PvP)",
-		description: "Wenn Durchbohr-Angriff trifft, fügt Ihr +3...10 Punkte Schaden zu. Dieser Angriff hat eine Rüstungsdurchdringung von 10%.",
-		concise: "Richtet +3...10 Punkte Schaden an. 10% Rüstungsdurchdringung."
+		description: "Wenn Durchbohr-Angriff trifft, fügt Ihr +5...15 Punkte Schaden zu. Dieser Angriff hat eine Rüstungsdurchdringung von 10%.",
+		concise: "Richtet +5...15 Punkte Schaden an. 10% Rüstungsdurchdringung."
 	},
 	"2862": {
 		id: 2862,
@@ -48733,8 +49539,8 @@ var skilldesc$1 = {
 	"2864": {
 		id: 2864,
 		name: "Trennender Angriff (PvP)",
-		description: "Wenn Trennender Angriff trifft, fügt Ihr +3...10 Punkte Schaden zu. Dieser Angriff hat eine Rüstungsdurchdringung von 10%.",
-		concise: "Richtet +3...10 Punkte Schaden an. 10% Rüstungsdurchdringung."
+		description: "Wenn Trennender Angriff trifft, fügt Ihr +5...15 Punkte Schaden zu. Dieser Angriff hat eine Rüstungsdurchdringung von 10%.",
+		concise: "Richtet +5...15 Punkte Schaden an. 10% Rüstungsdurchdringung."
 	},
 	"2866": {
 		id: 2866,
@@ -48745,14 +49551,14 @@ var skilldesc$1 = {
 	"2867": {
 		id: 2867,
 		name: "Wut der Vorfahren (PvP)",
-		description: "3 Sekunden lang erleiden alle den Verbündeten (bzw. Euch selbst) umstehenden Feinde pro Sekunde 1...41 Punkte Blitzschaden.",
-		concise: "3 Sekunden: Richtet bei den Verbündeten (bzw. Euch selbst) umstehenden Feinden pro Sekunde 1...41 Punkte Blitzschaden an."
+		description: "3 Sekunden lang erleiden alle den Verbündeten (bzw. Euch selbst) umstehenden Feinde pro Sekunde 4...50 Punkte Blitzschaden.",
+		concise: "3 Sekunden: Richtet bei den Verbündeten (bzw. Euch selbst) umstehenden Feinden pro Sekunde 4...50 Punkte Blitzschaden an."
 	},
 	"2868": {
 		id: 2868,
 		name: "Splitterwaffe (PvP)",
-		description: "Während der nächsten 20 Sekunden hat der Verbündete (bzw. Ihr selbst) eine Splitterwaffe. Die nächsten 1...5 Angriffe des Verbündeten (bzw. Eure eigenen) fügen bis zu 3 umstehenden Feinden 5...30 Punkte Schaden zu.",
-		concise: "20 Sekunden: Angriffe richten bei 3 umstehenden Feinden 5...30 Punkte Schaden an. <gray>Endet nach 1...5 Angriffen.</gray>"
+		description: "Während der nächsten 20 Sekunden hat der Verbündete (bzw. Ihr selbst) eine Splitterwaffe. Die nächsten 1...5 Angriffe des Verbündeten (bzw. Eure eigenen) fügen bis zu 3 umstehenden Feinden 5...40 Punkte Schaden zu.",
+		concise: "20 Sekunden: Angriffe richten bei 3 umstehenden Feinden 5...40 Punkte Schaden an. <gray>Endet nach 1...5 Angriffen.</gray>"
 	},
 	"2869": {
 		id: 2869,
@@ -48889,8 +49695,8 @@ var skilldesc$1 = {
 	"2998": {
 		id: 2998,
 		name: "Zerbrechlichkeit (PvP)",
-		description: "8...20 Sekunden lang erleidet der Gegner jedes Mal, wenn er unter einem neuen Zustand leidet oder sich davon erholt, 5...20 Punkte Schaden.",
-		concise: "(8...20 Sekunden) Der Gegner erleidet jedes Mal, wenn er unter einem neuen Zustand leidet oder sich davon erholt, 5...20 Punkte Schaden."
+		description: "8...20 Sekunden lang erleiden der Gegner und umstehende Feinde jedes Mal, wenn er unter einem neuen Zustand leidet oder sich davon erholt, 5...20 Punkte Schaden.",
+		concise: "Verhext außerdem den Gegner und umstehende Feinde (8...20 Sekunden). Diese Gegner erleiden jedes Mal, wenn sie unter einem neuen Zustand leiden oder sich davon erholen, 5...20 Punkte Schaden."
 	},
 	"2999": {
 		id: 2999,
@@ -48985,8 +49791,8 @@ var skilldesc$1 = {
 	"3017": {
 		id: 3017,
 		name: "Entzauberung (PvP)",
-		description: "Erstellt einen Geist der Stufe 1...8. Dieser Geist fügt 5...20 Punkte Schaden zu und all jene, die von einem seiner Angriffe getroffen werden, verlieren eine Verzauberung. Dieser Geist stirbt nach 10...35 Sekunden.",
-		concise: "Erstellt einen Geist der Stufe 1...8 (10...35 Sekunden Lebensdauer). Seine Angriffe richten 5...20 Punkte Schaden an und entfernen eine Verzauberung."
+		description: "Erstellt einen Geist der Stufe 1...8. Dieser Geist fügt 5...20 Punkte Schaden zu und all jene, die von einem seiner Angriffe getroffen werden, verlieren eine Verzauberung. Dieser Geist stirbt nach 15...40 Sekunden.",
+		concise: "Erstellt einen Geist der Stufe 1...8 (15...40 Sekunden Lebensdauer). Seine Angriffe richten 5...20 Punkte Schaden an und entfernen eine Verzauberung."
 	},
 	"3018": {
 		id: 3018,
@@ -49051,8 +49857,8 @@ var skilldesc$1 = {
 	"3028": {
 		id: 3028,
 		name: "Loderndes Finale (PvP)",
-		description: "10...35 Sekunden lang werden jedes Mal, wenn ein auf den Nicht-Geister-Verbündeten (bzw. Euch selbst) gerichteter Anfeuerungsruf oder Schrei endet, alle diesen Verbündeten umstehenden Feinde 1...3 Sekunden lang in Brand gesetzt.",
-		concise: "10...35 Sekunden: Verursacht bei umstehenden Feinden jedes Mal Zustand Brennen (1...3 Sekunden), wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet. <gray>Nicht auf Geister anwendbar.</gray>"
+		description: "10...35 Sekunden lang werden jedes Mal, wenn ein auf den Nicht-Geister-Verbündeten (bzw. Euch selbst) gerichteter Anfeuerungsruf oder Schrei endet, alle diesen Verbündeten umstehenden Feinde 1...5 Sekunden lang in Brand gesetzt.",
+		concise: "10...35 Sekunden: Verursacht bei umstehenden Feinden jedes Mal Zustand Brennen (1...5 Sekunden), wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet. <gray>Nicht auf Geister anwendbar.</gray>"
 	},
 	"3029": {
 		id: 3029,
@@ -49063,8 +49869,8 @@ var skilldesc$1 = {
 	"3030": {
 		id: 3030,
 		name: "Siegel der Wiederkehr (PvP)",
-		description: "Belebt das ausgewählte Gruppenmitglied mit 5...15% seiner Lebens- und 1...4% seiner Energiepunkte pro Gruppenmitglied in Hörweite.",
-		concise: "Das Gruppenmitglied wird wiederbelebt (5...15% Lebenspunkte und 1...4% Energiepunkte pro Gruppenmitglied in Hörweite)."
+		description: "Belebt das ausgewählte Gruppenmitglied mit 5...20% seiner Lebens- und 1...4% seiner Energiepunkte pro Gruppenmitglied in Hörweite.",
+		concise: "Das Gruppenmitglied wird wiederbelebt (5...20% Lebenspunkte und 1...4% Energiepunkte pro Gruppenmitglied in Hörweite)."
 	},
 	"3031": {
 		id: 3031,
@@ -49129,8 +49935,8 @@ var skilldesc$1 = {
 	"3045": {
 		id: 3045,
 		name: "Tier erquicken (PvP)",
-		description: "Ihr heilt Euren Tiergefährten um 20...104 Punkte. Ist Euer Gefährte tot, wird er mit 10...58% der Lebenspunkte wiederbelebt.",
-		concise: "Heilt Euren Tiergefährten um 20...104 Lebenspunkte. Euer Tiergefährte wird wiederbelebt (10...58% Lebenspunkte)."
+		description: "Ihr heilt Euren Tiergefährten um 40...120 Lebenspunkte. Ist Euer Gefährte tot, wird er mit 10...58% der Lebenspunkte wiederbelebt. Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch.",
+		concise: "Heilt Euren Tiergefährten um 40...120 Lebenspunkte. Euer Tiergefährte wird wiederbelebt (10...58% Lebenspunkte). Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch."
 	},
 	"3047": {
 		id: 3047,
@@ -49159,8 +49965,8 @@ var skilldesc$1 = {
 	"3051": {
 		id: 3051,
 		name: "Erzürnter Ausfall (PvP)",
-		description: "Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der für jede Tierbeherrschungs-Fertigkeit, die wieder aufgeladen wird, +3...23 Punkte Schaden (maximaler Bonus 80) zufügt.",
-		concise: "Richtet für jede Eurer sich aufladenden Tierbeherrschungs-Fertigkeiten +3...23 Punkte Schaden an (maximal 80)."
+		description: "Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der für jede Tierbeherrschungs-Fertigkeit, die wieder aufgeladen wird, +3...23 Punkte Schaden (maximaler Bonus 60) zufügt.",
+		concise: "Richtet für jede Eurer sich aufladenden Tierbeherrschungs-Fertigkeiten +3...23 Punkte Schaden an (maximal 60)."
 	},
 	"3053": {
 		id: 3053,
@@ -49231,14 +50037,14 @@ var skilldesc$1 = {
 	"3145": {
 		id: 3145,
 		name: "Glaspfeile (PvP)",
-		description: "Während der nächsten 10...35 Sekunden fügen Eure Pfeile bei einem Treffer +5...12 Punkte Schaden zu und führen 10...20 Sekunden lang zu einer Blutung, wenn sie geblockt werden.",
-		concise: "10...35 Sekunden: Eure Pfeile richten +5...12 Punkte Schaden an. Verursacht Zustand Blutung (10...20 Sekunden), falls geblockt."
+		description: "Während der nächsten 10...35 Sekunden fügen Eure Pfeile bei einem Treffer +6...18 Punkte Schaden zu und führen 10...20 Sekunden lang zu einer Blutung, wenn sie geblockt werden.",
+		concise: "10...35 Sekunden: Eure Pfeile richten +6...18 Punkte Schaden an. Verursacht Zustand Blutung (10...20 Sekunden), falls geblockt."
 	},
 	"3147": {
 		id: 3147,
 		name: "Scharfer Pfeil (PvP)",
-		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...5 Punkte Schaden zu. Falls Ihr einen kritischen Treffer landet, fügt Ihr zusätzlich +5...30 Punkte Schaden zu.",
-		concise: "Richtet +1...5 Punkte Schaden an. Richtet zusätzlich +5...30 Punkte Schaden an, falls Ihr einen kritischen Treffer landet."
+		description: "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...15 Punkte Schaden zu. Falls Ihr einen kritischen Treffer landet, fügt Ihr zusätzlich +5...30 Punkte Schaden zu.",
+		concise: "Richtet +5...15 Punkte Schaden an. Richtet zusätzlich +5...30 Punkte Schaden an, falls Ihr einen kritischen Treffer landet."
 	},
 	"3148": {
 		id: 3148,
@@ -49291,8 +50097,8 @@ var skilldesc$1 = {
 	"3181": {
 		id: 3181,
 		name: "Illusion der Waffen (PvP)",
-		description: "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 16...50 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
-		concise: "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 16...50 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
+		description: "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 20...60 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
+		concise: "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 20...60 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
 	},
 	"3183": {
 		id: 3183,
@@ -49561,8 +50367,8 @@ var skilldesc$1 = {
 	"3422": {
 		id: 3422,
 		name: "Zeitabwehr",
-		description: "Ihr erschaftt eine Zeitabwehr an Eurem aktuellen Standort. Für 3...15 Sekunden wirken verbündete Nicht-Geister Zauber in diesem Gebiet um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf.",
-		concise: "(3...15 Sekunden.) Verbündete in dieser Abwehr wirken Zauber um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf. Betrifft nicht verbündete Geister."
+		description: "Ihr erschaftt eine Zeitabwehr an Eurem aktuellen Standort. Für 6...20 Sekunden wirken verbündete Nicht-Geister Zauber in diesem Gebiet um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf.",
+		concise: "(6...20 Sekunden.) Verbündete in dieser Abwehr wirken Zauber um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf. Betrifft nicht verbündete Geister."
 	},
 	"3423": {
 		id: 3423,
@@ -49573,8 +50379,8 @@ var skilldesc$1 = {
 	"3424": {
 		id: 3424,
 		name: "Über die Grenze hinaus",
-		description: "Während Ihr diese Verzauberung aufrecht erhaltet, werden Eure Zauber um 15...20% schneller gewirkt und laden sich 15...50% schneller auf, aber Ihr erhaltet einen Punkt Überzauberung pro Sekunde.",
-		concise: "Zauber wirken um 15...20% schneller und laden sich um 15...50% schneller auf. Verursacht 1 Überzauberung pro Sekunde."
+		description: "Während Ihr diese Verzauberung aufrecht erhaltet, werden Eure Zauber um 20...50% schneller gewirkt und laden sich 40...80% schneller auf, aber Ihr erhaltet 3 Punkte Überzauberung pro Sekunde.",
+		concise: "Zauber wirken um 20...50% schneller und laden sich um 40...80% schneller auf. Verursacht 3 Überzauberung pro Sekunde."
 	},
 	"3425": {
 		id: 3425,
@@ -49629,6 +50435,192 @@ var skilldesc$1 = {
 		name: "Mächtiger Wurf (PvP)",
 		description: "Euer Speer bewegt sich dreimal so schnell. Wenn er trifft, fügt Ihr +10...40 Punkte Schaden zu.",
 		concise: "Richtet +10...40 Punkte Schaden an. Dieser Speer bewegt sich mit dreifacher Geschwindigkeit."
+	},
+	"3443": {
+		id: 3443,
+		name: "Raserei (PvP)",
+		description: "Ihr greift 8 Sekunden lang 33% schneller an, erleidet aber 200...150% Schaden.",
+		concise: "8 Sekunden: Ihr greift um 33% schneller an. <gray>Ihr erleidet 200...150% Schaden.</gray>"
+	},
+	"3444": {
+		id: 3444,
+		name: "Hundert Klingen (PvP)",
+		description: "15 Sekunden lang erleiden alle umstehenden Feinde jedes Mal, wenn Ihr mit einem Schwert angreift, 10...30 Punkte Hiebschaden.",
+		concise: "15 Sekunden: Richtet jedes Mal, wenn Ihr mit einem Schwert angreift, bei allen umstehenden Feinden 10...30 Punkte Schaden an."
+	},
+	"3445": {
+		id: 3445,
+		name: "Erneuerung der Natur (PvP)",
+		description: "Erstellt einen Geist der Stufe 1...10. 30...240 Sekunden lang dauert das Wirken von Verzauberungen und Verhexungen von Kreaturen, die keine Geister sind, 50...75% länger und das Aufrechterhalten von Verzauberungen benötigt doppelt soviel Energie. Dieser Geist stirbt nach 30...240 Sekunden.",
+		concise: "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Die Wirkzeit von Verzauberungen und Verhexungen wird bei Kreaturen in Reichweite um 50...75% ehöht und es kostet doppelt so viele Energiepunkte, Verzauberungen aufrechtzuerhalten. Keine Wirkung auf Geister."
+	},
+	"3446": {
+		id: 3446,
+		name: "Soul Ignition",
+		description: "Während Ihr diese Verzauberung aufrechterhaltet, passiert Folgendes jede Sekunde: Ihr reduziert Überzaubert um 1...2, Ihr und alle umstehenden Feinde werden 1...2 Sekunden lang in Brand gesetzt und wenn Ihr nicht mehr überzaubert seid, endet Soul Ignition.",
+		concise: "Jede Sekunde: Entfernt 1...2 Überzaubert, verursacht Brennen bei Euch und umstehenden Feinden (1...2 Sekunden). <gray>Endet, wenn Ihr nicht mehr überzaubert seid.</gray>"
+	},
+	"3447": {
+		id: 3447,
+		name: "Verschwendung (PvP)",
+		description: "Nach 3 Sekunden erleidet der Gegner 20...100 Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (15...75). Setzt der Gegner erfolgreich eine Fertigkeit ein, endet Verschwendung vorzeitig und verursacht keinen Schaden.",
+		concise: "(3 Sekunden.) Wirkung am Ende: richtet beim Gegner 20...100 Punkte Schaden an und bei allen umstehenden Feinden 75% dieses Schadens (15...75). <gray>Kein Effekt und endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
+	},
+	"3448": {
+		id: 3448,
+		name: "Frieden und Harmonie (PvP)",
+		description: "Der Verbündete (bzw. Ihr selbst) verliert 0...4 Zustände und Verhexungen. 1...3 Sekunden lang enden Zustände und Verhexungen bei diesem Verbündeten um 90% schneller. All Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
+		concise: "Der Verbündete (bzw. Ihr selbst) verliert 0...4 Zustände und Verhexungen. Zustände und Verhexungen beim Verbündeten enden um 90% schneller (1...3 Sekunden). <gray>Deaktiviert Eure Peinigungsgebete (20 Sekunde<sic/>).</gray>"
+	},
+	"3449": {
+		id: 3449,
+		name: "Schlag des Beschützers (PvP)",
+		description: "Trifft dieser Schlag einen Gegner in der Bewegung, fügt Ihr 10...40 Punkte zusätzlichen Schaden zu.",
+		concise: "Richtet +10...40 Punkte Schaden an, falls der Gegner sich bewegt."
+	},
+	"3450": {
+		id: 3450,
+		name: "Verkrüppelungs-Schuss (PvP)",
+		description: "Wenn Verkrüppelungs-Schuss trifft, leidet Euer Ziel 4...14 Sekunden lang an einer Verkrüppelung. Dieser Angriff kann nicht geblockt werden.",
+		concise: "Kann nicht geblockt werden. Verursacht Zustand Verkrüppelung (4...14 Sekunden)."
+	},
+	"3451": {
+		id: 3451,
+		name: "Otyughs Schrei (PvP)",
+		description: "5...15 Sekunden lang hat euer<sic/> Tiergefährte +24 Rüstung und kann nicht geblockt werden.",
+		concise: "5...15 Sekunden: Euer Tiergefährte hat +24 Rüstung und seine Angriffe können nicht geblockt werden."
+	},
+	"3452": {
+		id: 3452,
+		name: "Schattenschleier (PvP)",
+		description: "2...7 Sekunden lang kann der Gegner nicht zum Ziel von Verzauberungen werden.",
+		concise: "2...7 Sekunden: Der Gegner kann nicht Ziel von Verzauberungen sein."
+	},
+	"3453": {
+		id: 3453,
+		name: "Preschen (PvP)",
+		description: "3 Sekunden lang läuft<sic/> Ihr 50% schneller. Für je 2 Punkte in \"Schattenkünste\" wird die Wiederaufladung um 1 Sekunde reduziert (max. 6 Sekunden).",
+		concise: "(3 Sekunden.) Ihr bewegt Euch 50% schneller. Für je 2 Punkte in \"Schattenkünste\" wird die Wiederaufladung um 1 Sekunde reduziert (max. 6 Sekunden)."
+	},
+	"3454": {
+		id: 3454,
+		name: "Schildwächter (PvP)",
+		description: "1...4 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff geblockt wird, werden alle Verbündeten in Hörweite um 10...35 Lebenspunkte geheilt und Schildwächter endet.",
+		concise: "(1...4 Sekunden.) Gruppenmitglieder in Hörweite haben eine 75%ige Chance, Angriffe zu blocken. Blockwirkung: Verbündete in Hörweite werden um 10...35 geheilt und Schildwächter endet."
+	},
+	"3455": {
+		id: 3455,
+		name: "Günstiger Schlag (PvP)",
+		description: "Wenn Günstiger Schlag trifft, fügt Ihr +5...20 Punkte Schaden zu und erhaltet 2...4 Energiepunkte. Wenn der Gegner unter Schwäche leidet, kann dieser Angriff nicht geblockt werden.",
+		concise: "Richtet +5...20 Punkte Schaden an. Ihr erhaltet 2...4 Energiepunkte. Kann nicht geblockt werden, wenn der Gegner geschwächt ist."
+	},
+	"3456": {
+		id: 3456,
+		name: "\"Feigling!\" (PvP)",
+		description: "Wenn sich der Gegner bewegt, wird er zu Boden geworfen.",
+		concise: "Wirft zu Boden, falls der Gegner sich bewegt."
+	},
+	"3457": {
+		id: 3457,
+		name: "Verteidigung des Beschützers (PvP)",
+		description: "4...8 Sekunden lang habt Ihr selbst und alle Euch umstehenden Verbündeten eine 75%ige Chance, Angriffe zu blocken. Verteidigung des Beschützers endet, wenn Ihr Euch bewegt.",
+		concise: "4...8 Sekunden: Umstehende Verbündete haben eine 75%ige Chance zu blocken. <gray>Endet, wenn Ihr Euch bewegt.</gray>"
+	},
+	"3458": {
+		id: 3458,
+		name: "Urzorn (PvP)",
+		description: "1...9 Sekunden lang greift Ihr 33% schneller an, und Ihr bewegt Euch 33% schneller, aber Ihr erleidet 200...150% Schaden.",
+		concise: "(1...9 Sekunden.) Ihr greift 33% schneller an und bewegt Euch 33% schneller. <gray>Ihr erleidet 200...150% Schaden.</gray>"
+	},
+	"3459": {
+		id: 3459,
+		name: "Melandrus Schuss (PvP)",
+		description: "Wenn Melandrus Schuss trifft, leidet Euer Gegner 5...25 Sekunden lang an einer Blutung. Wenn er einen Gegner trifft, der sich bewegt oder zu Boden geworfen wurde, erleidet dieser +10...25 Punkte Schaden und leidet 5...15 Sekunden lang an Verkrüppelung.",
+		concise: "Verursacht Blutung (5...25 Sekunden). Richtet +10...25 Punkte Schaden an und verursacht Verkrüppelung (5...15 Sekunden), falls der Gegner sich bewegt oder zu Boden geworfen wurde."
+	},
+	"3460": {
+		id: 3460,
+		name: "Ruhe (PvP)",
+		description: "Erstellt einen Geist der Stufe 1...10. Von Kreaturen in seiner Reichweite, die keine Geister sind, gewirkte Verzauberungen enden 10...30% schneller . Dieser Geist stirbt nach 15...120 Sekunden.",
+		concise: "Erstellt einen Geist der Stufe 1...10 (15...120 Sekunden Lebensdauer). Verzauberungen enden bei Kreaturen in Reichweite um 10...30% schneller. Keine Wirkung auf Geister."
+	},
+	"3461": {
+		id: 3461,
+		name: "Seelenverflechtung (PvP)",
+		description: "5...45 Sekunden lang kosten Eure Binderituale 15 Energie weniger (min. 5) und sie laden 25...50% schneller wieder auf. Seelenverflechtung endet nach 1...3 Binderitualen.",
+		concise: "(5...45 Sekunden.) Eure Binderituale kosten 15 Energie weniger (min. 5) und laden 25...50% schneller wieder auf. Endet nach 1...3 Binderitualen."
+	},
+	"3462": {
+		id: 3462,
+		name: "Gelenkte Waffe (PvP)",
+		description: "4...10 Sekunden lang können die Angriffe des Verbündeten (bzw. Eure eigenen) nicht geblockt werden.",
+		concise: "4...10 Sekunden: Angriffe können nicht geblockt werden."
+	},
+	"3463": {
+		id: 3463,
+		name: "Reizen (PvP)",
+		description: "Falls der Gegner eine Fertigkeit verwendet, werden er selbst sowie alle Gegner im Bereich unterbrochen und Ihr entzieht allen Gegnern im Bereich 0...5 Energiepunkte.",
+		concise: "Unterbricht eine Fertigkeit. Unterbrechungswirkung: Unterbricht außerdem andere Gegner im Bereich und Ihr entzieht allen Gegnern im Bereich 0...5 Energiepunkte."
+	},
+	"3464": {
+		id: 3464,
+		name: "Dreschen (PvP)",
+		description: "1...15 Sekunden lang greift Ihr um 33% schneller an und bewegt Euch 33% langsamer. Endet, sobald Ihr eine Distanzangriff-Fertigkeit benutzt.",
+		concise: "1...15 Sekunden: Ihr greift um 33% schneller an. Endet, sobald Ihr eine Distanzangriff-Fertigkeit benutzt. <gray>Ihr bewegt Euch um 33% langsamer</gray>"
+	},
+	"3465": {
+		id: 3465,
+		name: "Angreifender Schlag (PvP)",
+		description: "1...10 Sekunden lang lauft Ihr um 33% schneller. Euer nächster erfolgreicher Nahkampftreffer fügt +10...80 Punkte Schaden zu und diese Haltung endet. Diese Haltung endet, wenn Ihr eine Fertigkeit verwendet.",
+		concise: "1...10 Sekunden: Ihr bewegt Euch um 33% schneller und richtet mit Eurem nächsten Nahkampftreffer +10...80 Punkte Schaden an. <gray>Endet, wenn Ihr trefft oder eine Fertigkeit benutzt.</gray>"
+	},
+	"3466": {
+		id: 3466,
+		name: "Irritierende Hitze (PvP)",
+		description: "Erstellt einen Geist der Stufe 1...10. Kreaturen in seiner Reichweite, die keine Geister sind, erhalten 33...66% mehr Adrenalin. Dieser Geist stirbt nach 30...120 Sekunden.",
+		concise: "Erstellt einen Geist der Stufe 1...10 (30...120 Sekunden Lebensdauer). Erhöht für Kreaturen in Reichweite die erhaltene Adrenalinmenge um 33...66%."
+	},
+	"3467": {
+		id: 3467,
+		name: "Mystische Verdorbenheit (PvP)",
+		description: "Alle umstehenden Feinde leiden 2...6 Sekunden lang an Krankheit. 20 Sekunden lang geschieht nichts. Wenn Ihr verzaubert seid, während Ihr diese Fertigkeit aktiviert, wird die Dauer von Krankheit verdoppelt. Wenn diese Verzauberung endet, werden alle Gruppenmitglieder in Hörweite von Krankheit geheilt.",
+		concise: "(20 Sekunden.) Anfangswirkung: Alle umstehenden Feinde leiden unter Krankheit.<sic/> (2...6 Sekunden.) Doppelte Dauer, wenn Ihr bereits verzaubert seid. Wirkung am Ende: Gruppenmitglieder in Hörweite werden von Krankheit geheilt."
+	},
+	"3468": {
+		id: 3468,
+		name: "Griff des Läufers (PvP)",
+		description: "Während der nächsten 5...20 Sekunden führen Nahkampfangriffe gegen Feinde, die sich bewegen, 2...9 Sekunden lang zu Verkrüppelung. Wenn Ihr diese Verzauberung wirkt, werden Verkrüppelung und 1 weiterer Zustand von Euch entfernt. Diese Verzauberung endet, wenn Ihr 1...3 Mal Verküppelung zugefügt habt.",
+		concise: "(5...20 Sekunden.) Nahkampfangriffe auf sich bewegende Feinde fügen zusätzlich \"Verkrüppelung\" (2...9 Sekunden) zu. Anfangswirkung: Ihr verliert \"Verkrüppelung\" und 1 weiteren Zustand. Endet, wenn Ihr 1...3 Mal Verküppelung zugefügt habt."
+	},
+	"3469": {
+		id: 3469,
+		name: "Trugbild-Umhang (PvP)",
+		description: "1...7 Sekunden lang habt Ihr eine 30...60%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
+		concise: "(1...7 Sekunden.) Ihr habt eine 30...60%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
+	},
+	"3470": {
+		id: 3470,
+		name: "Flüchtige Stabilität (PvP)",
+		description: "Während der nächsten 2...8 Sekunden könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
+		concise: "(2...8 Sekunden.) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
+	},
+	"3471": {
+		id: 3471,
+		name: "Fromme Wiederherstellung (PvP)",
+		description: "Ihr erhaltet 80...150 Lebenspunkte und entfernt 1 Derwisch-Verzauberung. Wenn eine Verzauberung auf diese Weise entfernt wurde, verliert Ihr außerdem 1 Verhexung.",
+		concise: "Ihr erhaltet 80...150 Lebenspunkte und entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Ihr verliert 1 Verhexung."
+	},
+	"3472": {
+		id: 3472,
+		name: "Wirbelangriff (PvP)",
+		description: "1...6 Sekunden lang bewegt Ihr Euch um 33% schneller als gewöhnlich. Das nächste Mal, wenn Ihr einen Feind trefft, erleiden alle anderen Feinde in der Nähe 10...50 Kälteschaden und diese Verzauberung endet.",
+		concise: "(1...6 Sekunden.) Ihr bewegt Euch um 33% schneller. Fügt das nächste Mal, wenn Ihr einen Feind trefft, allen anderen Feinden in der Nähe 10...50 Kälteschaden zu und die Verzauberung endet."
+	},
+	"3473": {
+		id: 3473,
+		name: "Auraschneider (PvP)",
+		description: "Wenn dieser Angriff erfolgreich ist, leidet Euer Gegner 5...15 Sekunden lang an einer Blutung. Falls Ihr verzaubert seid, fügt Ihr außerdem 1...10 Sekunde lang Beschädigte Rüstung zu.",
+		concise: "Verursacht Blutung (5...15 Sekunden). Verursacht ebenfalls Beschädigte Rüstung (1...10 Sekunden), falls Ihr verzaubert seid."
 	}
 };
 var de = {
@@ -49655,8 +50647,8 @@ var skilldesc = {
 	"0": {
 		id: 0,
 		name: "Compétence vide",
-		description: "Emplacement de compétence vide",
-		concise: "Emplacement vide"
+		description: "Représente une case vide de la barre de compétence.",
+		concise: "Aucune compétence."
 	},
 	"1": {
 		id: 1,
@@ -51683,7 +52675,7 @@ var skilldesc = {
 	"346": {
 		id: 346,
 		name: "Frénésie",
-		description: "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez deux fois plus de dégâts.",
+		description: "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez 175...125% de dégâts.",
 		concise: ""
 	},
 	"347": {
@@ -55614,7 +56606,7 @@ var skilldesc = {
 		id: 1577,
 		name: "Finale de rétablissement",
 		description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
-		concise: "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin.<gray> Vous ne pouvez pas viser les esprits.</gray>"
+		concise: "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
 	},
 	"1578": {
 		id: 1578,
@@ -56976,7 +57968,7 @@ var skilldesc = {
 		id: 2105,
 		name: "Graine de vie",
 		description: "Pendant 1...5 seconde(s), à chaque fois que l'allié visé subit des dégâts, tous les membres du groupe sont soignés de 2 points de vie pour chaque rang de Faveur divine.",
-		concise: "(1...5 seconde(s).) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts.<gray> Vous ne pouvez pas vous prendre pour cible.</gray>"
+		concise: "(1...5 seconde(s).) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
 	},
 	"2107": {
 		id: 2107,
@@ -57581,7 +58573,7 @@ var skilldesc = {
 	"2734": {
 		id: 2734,
 		name: "Délabrement spirituel (PvP)",
-		description: "",
+		description: "Pendant 5...40 secondes, lorsque cet ennemi est la cible de l'une des vos compétences d'Envoûteur autre qu'un maléfice, il perd 1 point d'énergie. Si l'énergie de l'ennemi visé tombe à 0, le Déliberament spirituel prend fin et l'ennemi subit 15...100 points de dégâts.",
 		concise: ""
 	},
 	"2803": {
@@ -57593,7 +58585,7 @@ var skilldesc = {
 	"2804": {
 		id: 2804,
 		name: "Choc spirituel (PvP)",
-		description: "",
+		description: "La cible ennemie subit 10...50 points de dégâts de la foudre. Si vous avez plus d'énergie qu'elle, elle subit 10...50 points de dégâts de la foudre supplémentaires et est renversée. Ce sort a une pénétration d'armure de 25%.",
 		concise: ""
 	},
 	"2805": {
@@ -57605,25 +58597,25 @@ var skilldesc = {
 	"2806": {
 		id: 2806,
 		name: "Protection contre le mal (PvP)",
-		description: "",
+		description: "Crée une protection contre le mal à cette position. Pendant 5...15 secondes, les alliés (autres qu'esprits) dans cette zone bénéficient de +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. Ce sort est désactivé pendant 30 secondes.",
 		concise: ""
 	},
 	"2807": {
 		id: 2807,
 		name: "Chevauchée de l'éclair (PvP)",
-		description: "",
+		description: "Vous rejoignez la cible à la vitesse de l'éclair. Tous les ennemis adjacents sont avaeuglés pendant 1...5 seconde(s). Si votre cible est un ennemi, il subit 10...70 points de dégâts de la foudre. Ce sort a une pénétration d'armure de 25%.",
 		concise: ""
 	},
 	"2808": {
 		id: 2808,
 		name: "Coup enragé (PvP)",
-		description: "",
+		description: "Votre familier tente un Coup enragé qui inflige +3...23 points de dégâts (bonus maximal: 60) pour chaque compétence de Domptage qui se recharge.",
 		concise: ""
 	},
 	"2809": {
 		id: 2809,
 		name: "Flamme d'obsidienne (PvP)",
-		description: "",
+		description: "Inflige 22...92 points de dégâts à la cible ennemi. Ce sort ignore ls armure.",
 		concise: ""
 	},
 	"2857": {
@@ -57749,8 +58741,8 @@ var skilldesc = {
 	"2883": {
 		id: 2883,
 		name: "Pour la justice ! (PvP)",
-		description: "",
-		concise: ""
+		description: "Pendant 8 secondes, chaque fois que vous réussissez une attaque, vous obtenez 1 décharge d'adrénaline supplémentaire.",
+		concise: "(8 secondes.) Vous obtenez 1 décharge d'adrénaline supplémentaire à chaque fois que vous réussissez une attaque."
 	},
 	"2884": {
 		id: 2884,
@@ -57917,7 +58909,7 @@ var skilldesc = {
 	"3016": {
 		id: 3016,
 		name: "Refuge (PvP)",
-		description: "",
+		description: "Crée un esprit de niveau 1...8. Les alliés (autres que des esprits) dans sa portée ne peuvent pas perdre plus de 10% de leur santé maximum sur une attaque. Lorsque cet esprit empêche les dégâts, il perd 75...45 points de vie. Cet esprit dure 30...60 secondes.",
 		concise: ""
 	},
 	"3017": {
@@ -58067,13 +59059,13 @@ var skilldesc = {
 	"3045": {
 		id: 3045,
 		name: "Bien-être animal (PvP)",
-		description: "",
+		description: "Vous soignez votre familier de 20...104 points de vie. S'il est mort, il est ressuscité avec 10...58% de santé. Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements.",
 		concise: ""
 	},
 	"3047": {
 		id: 3047,
 		name: "Assaut de Melandru (PvP)",
-		description: "",
+		description: "Votre familier tente un Assaut de Melandru qui inflige +5...20 points de dégâts. Si cette attaque frappe un ennemi sous l'effet d'un enchantement, cet ennemi, ainsi que tous les ennemis adjacents, subissent +5...35 points de dégâts.",
 		concise: ""
 	},
 	"3048": {
@@ -58085,19 +59077,19 @@ var skilldesc = {
 	"3049": {
 		id: 3049,
 		name: "Furie invisible (PvP)",
-		description: "",
+		description: "Pendant 15...60 secondes, vous ne pouvez pas être bloquèe par des ennemis aveuglés.",
 		concise: ""
 	},
 	"3050": {
 		id: 3050,
 		name: "Lien du prédateur (PvP)",
-		description: "",
+		description: "Pendant 5...20 secondes, les attaques réussies de votre familiar vous soignent de 1...31 point(s) de vie.",
 		concise: ""
 	},
 	"3051": {
 		id: 3051,
 		name: "Coup enragé (PvP)",
-		description: "",
+		description: "Votre familier tente un Coup enragé qui inflige +3...23 points de dégâts (bonus maximal: 60) pour chaque compétence de Domptage qui se recharge.",
 		concise: ""
 	},
 	"3053": {
@@ -58109,38 +59101,38 @@ var skilldesc = {
 	"3054": {
 		id: 3054,
 		name: "Masochisme (PvP)",
-		description: "",
+		description: "Pendant 30 secondes, vous gagnez 1...3 points d'énergie chaque fois que vous sacrifiez de la santé.",
 		concise: ""
 	},
 	"3058": {
 		id: 3058,
 		name: "Festin impie (PvP)",
-		description: "",
+		description: "Vous volez jusqu'à 10...65 points de vie à 1...4 ennemi maximum se trouvant dans la zone.",
 		concise: ""
 	},
 	"3059": {
 		id: 3059,
 		name: "Sceau d'agonie (PvP)",
-		description: "",
+		description: "Vous souffrez de Saignement pendant 25 secondes. Tous les ennemis à proximité subissent 10...70 points de dégâts.",
 		concise: ""
 	},
 	"3060": {
 		id: 3060,
-		name: "Echappatoire (PvP)",
-		description: "",
-		concise: ""
+		name: "Evasion (PvP)",
+		description: "Pendant 1...8 seconde(s), vous vous déplacez 33% plus vite et avez 75% de chances de bloquer les attaques. L'Evasion prend fin si vous effectuez une attaque au corps à corps.",
+		concise: "(1...8 seconde(s).) Vous vous déplacez 33% plus vite et avez 75% de chances de bloquer. <gray>Prend fin si vous effectuez une attaque au corps à corps.</gray>"
 	},
 	"3061": {
 		id: 3061,
 		name: "Efflorescence mortelle (PvP)",
-		description: "",
+		description: "Doit succéder à une attaque main gauche. Si elle réussit, l'Efflorescence mortelle inflige +20...45 points de dégâts à l'ennemi visé et 20...45 points de dégâts à tous les ennemis adjacents.",
 		concise: ""
 	},
 	"3062": {
 		id: 3062,
 		name: "Finale de rétablissement (PvP)",
 		description: "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
-		concise: "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin.<gray> Vous ne pouvez pas viser les esprits.</gray>"
+		concise: "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
 	},
 	"3063": {
 		id: 3063,
@@ -58151,43 +59143,43 @@ var skilldesc = {
 	"3141": {
 		id: 3141,
 		name: "Réflexes foudroyants (PvP)",
-		description: "",
+		description: "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Vous attaquez aussi 33% plus vite.",
 		concise: ""
 	},
 	"3143": {
 		id: 3143,
 		name: "Coup de renouvellement (PvP)",
-		description: "",
+		description: "Si Coup de renouvellement réussit, il inflige +5...20 points de dégâts. Si vous frappez un ennemi assommé, vous gagnez 3 points d'énergie et cette attaque se recharge instantanément.",
 		concise: ""
 	},
 	"3144": {
 		id: 3144,
 		name: "Guérison partagée (PvP)",
-		description: "",
+		description: "Si votre santé ou celle de votre familier est en dessous 75%, vous regagnez tous les deux 25...145 points de vie. Si votre familier est mort, il est ressucité avec 50% de santé.",
 		concise: ""
 	},
 	"3145": {
 		id: 3145,
 		name: "Flèches de verre (PvP)",
-		description: "",
+		description: "Pendant 10...35 secondes, vos flèches infligent +6...18 points de dégâts si elles touchent leur objectif, et entraînent le Saignement pendant 10...20 secondes si elles sont bloquées.",
 		concise: ""
 	},
 	"3147": {
 		id: 3147,
 		name: "Flèche vive (PvP)",
-		description: "",
+		description: "Cette attaque inflige +5...15 points de dégâts si elle réussit. Si vous causez un coup critique, vous infligez +5...30 points de dégâts supplémentaires.",
 		concise: ""
 	},
 	"3148": {
 		id: 3148,
 		name: "Hymne de jalousie (PvP)",
-		description: "",
+		description: "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix inflige +10...20 points de dégâts contre les ennemis ayant plus de 50% de santé.",
 		concise: ""
 	},
 	"3149": {
 		id: 3149,
 		name: "Refrain de réparation (PvP)",
-		description: "",
+		description: "Pendant 15 secondes, vous bénéficiez d'une régénération de santé de +2...3. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
 		concise: ""
 	},
 	"3151": {
@@ -58199,19 +59191,19 @@ var skilldesc = {
 	"3152": {
 		id: 3152,
 		name: "Angoisse paralysante (PvP)",
-		description: "",
-		concise: ""
+		description: "Pendant 5...20 secondes, la cible se déplace 50% moins vite et subit une dégénération de santé de -2...6.",
+		concise: "(5...20 secondes.) L'ennemi visé se déplace 50% moins vite et subit une dégénération de santé de -2...6."
 	},
 	"3156": {
 		id: 3156,
 		name: "Pose du soldat (PvP)",
-		description: "",
+		description: "Pendant 4...10 secondes, vous attaquez 33% plus le vite lorsque que vous êtes sous l'effet d'un cri ou d'un chant.",
 		concise: ""
 	},
 	"3157": {
 		id: 3157,
-		name: "Glaive était destructeur (PvP)",
-		description: "",
+		name: "Glaive était destructrice (PvP)",
+		description: "Vous tenez les cendres de Glaive pendant un maximum de 30...60 secondes. En tenant ses cendres, toutes les compétences de Ritualiste bénéficient de 10% pénétration d'armure. Lorsque vous les déposez, tous les ennemis dans la zone subissent 15...85 points de dégâts de la foudre.",
 		concise: ""
 	},
 	"3179": {
@@ -58229,25 +59221,25 @@ var skilldesc = {
 	"3181": {
 		id: 3181,
 		name: "Armes illusoires (PvP)",
-		description: "",
+		description: "Pendant 30 secondes, vos attaques au corps à corps ne peuvent ni réussir ni échouer. La compétence Armes illusoires inflige à la place 20...60 points de dégâts à vos cibles chaque fois que vous attaquez au corps à corps.",
 		concise: ""
 	},
 	"3183": {
 		id: 3183,
 		name: "Migraine (PvP)",
-		description: "",
+		description: "Pendant 4...16 secondes, la cible ennemie subit une dégénération de santé de -1...8 et le temps d'activation de ses compétences est rallongé de 100%.",
 		concise: ""
 	},
 	"3184": {
 		id: 3184,
 		name: "Cumul de douleur (PvP)",
-		description: "",
+		description: "L'ennemie visé subit 10...35 points de dégâts. Si celui-ci est affecté 2 maléfices ou plus, il souffre de Blessure profonde pendant 5...20 secondes.",
 		concise: ""
 	},
 	"3185": {
 		id: 3185,
 		name: "Instabilité psychique (PvP)",
-		description: "",
+		description: "Interrompt l'action de l'ennemi visé. S'il s'agit d'une compétence, cet ennemi et tous les ennemis à proximité sont assommés pendant 2...3 secondes. (50% de risques d'échec avec Incantation rapide 4 ou inférieure.)",
 		concise: ""
 	},
 	"3186": {
@@ -58259,7 +59251,7 @@ var skilldesc = {
 	"3187": {
 		id: 3187,
 		name: "Vol de vitesse (PvP)",
-		description: "",
+		description: "Pendant 1...10 seconde(s), le temps d'incantation des sorts de l'ennemi visé et de tous les ennemis adjacents est doublé. Le temps d'incantation des sorts que vous lancez sur ces ennemis visés est réduit de est 50%.",
 		concise: ""
 	},
 	"3188": {
@@ -58277,49 +59269,49 @@ var skilldesc = {
 	"3190": {
 		id: 3190,
 		name: "Frustration (PvP)",
-		description: "",
+		description: "Pendant 5...20 secondes, la cible ennemie lance ses sorts 50% moins vite et subit 5...50 points de dégâts chaque fois qu'elle est interrompue.",
 		concise: ""
 	},
 	"3191": {
 		id: 3191,
 		name: "Défiance (PvP)",
-		description: "",
+		description: "Pendant 6 secondes, le prochain sort que l'ennemi ciblé lance sur l'un de vos alliés échoue et inflige 10...60 points de dégâts à cet ennemi ainsi que 75% de ces degâts à tous les ennemis à proximité.",
 		concise: ""
 	},
 	"3192": {
 		id: 3192,
 		name: "Enigme de l'enchanteur (PvP)",
-		description: "",
+		description: "Pendant 10 secondes, l'ennemi ciblé lance ses enchantements 100...200% moins vite. Si aucun enchantement n'affecte l'ennemi ciblé lorsque ce maléfice est appliqué, il subit 10...100 points de dégâts et tous les ennemis adjacent encaissent 75% de ces dégâts.",
 		concise: ""
 	},
 	"3193": {
 		id: 3193,
 		name: "Sceau de Maladresse (PvP)",
-		description: "",
+		description: "Si la cible ennemie attaque, cet ennemi ainsi que tous les ennemis adjacents sont interrompus et subissent 15...60 points de dégâts. Tous les ennemis utilisant des compétences d'attaque sont assommés.",
 		concise: ""
 	},
 	"3194": {
 		id: 3194,
 		name: "Miroir de désenchantement (PvP)",
-		description: "",
+		description: "Dissipe un enchantement de la cible ennemie. Tous les membres du groupe de cet ennemi perdent aussi cet enchantement.",
 		concise: ""
 	},
 	"3195": {
 		id: 3195,
 		name: "Oeil errant (PvP)",
-		description: "",
+		description: "Pendant 4 secondes, la prochaine fois que l'ennemi visé attaque, son attaque est interrompue et tous les ennemis à proximité subissent 10...92 points de dégâts.",
 		concise: ""
 	},
 	"3196": {
 		id: 3196,
 		name: "Risque calculé (PvP)",
-		description: "",
+		description: "Pendant 3...12 secondes, les attaques de l'ennemi visé infligent 10 points de dégâts supplémentaires, mais il y a 50% de chances que les dégâts de chacune de ses attaques lui soient infligés. (Maximum 15...15 points de dégâts.)",
 		concise: ""
 	},
 	"3204": {
 		id: 3204,
 		name: "Défi à la douleur (PvP)",
-		description: "",
+		description: "Pendant 20 secondes, vous avez 90...300 points de vie supplémentaires et bénéficiez d'un bonus d'armure de 20.",
 		concise: ""
 	},
 	"3232": {
@@ -58343,37 +59335,37 @@ var skilldesc = {
 	"3251": {
 		id: 3251,
 		name: "Crocs du renard (PvP)",
-		description: "",
+		description: "Doit succéder à une attaque main droite. Crocs du renard est une attaque impossible à bloquer ; elle inflige +10...25 points de dégâts si elle réussit.",
 		concise: ""
 	},
 	"3252": {
 		id: 3252,
 		name: "Affront sauvage (PvP)",
-		description: "",
+		description: "Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...35 points de dégâts et chaque pose utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
 		concise: ""
 	},
 	"3263": {
 		id: 3263,
-		name: "Coup de bannissement (PvP)",
-		description: "",
+		name: "Frappe implacable (PvP)",
+		description: "Si cette attaque réussit, elle inflige 10...60 points de dégâts sacrés. Elle inflige deux fois plus de dégâts aux créatures invoquées.",
 		concise: ""
 	},
 	"3264": {
 		id: 3264,
 		name: "Fauchage des deux lunes (PvP)",
-		description: "",
+		description: "Vous perdez un enchantement de Derviche et gagnez 10...20 points de vie. Si un enchantement est perdu de cette manière, vous à deux reprises (en infligeant à chaque fois 25% de dégâts de moins que la normale) et vous gagnez 10...30 points de vie supplémentaires.",
 		concise: ""
 	},
 	"3265": {
 		id: 3265,
 		name: "Fauchage impérieux (PvP)",
-		description: "",
+		description: "Inflige +3...15 points de dégâts et supprime un enchantement de Derviche. Si vous perdez un enchantement de cette manière, le Fauchage impérieux ne peut pas être bloqué et supprime une pose de combat.",
 		concise: ""
 	},
 	"3266": {
 		id: 3266,
 		name: "Assaut pieux (PvP)",
-		description: "",
+		description: "Vous supprimez un enchantement de Derviche. En cas de perte d'un enchantement de Derviche, cette compétence se recharge 75% plus vite et les ennemis adjacents subissent 15...40 points de dégâts.",
 		concise: ""
 	},
 	"3269": {
@@ -58415,13 +59407,13 @@ var skilldesc = {
 	"3346": {
 		id: 3346,
 		name: "Aura d'épines (PvP)",
-		description: "",
+		description: "Tous les ennemis adjacents souffrent de Saignement pendant 5...15 secondes. Pendant 30 secondes, cet enchantement est sans effet. Lorsque cet enchantement prend fin, tous les ennemis à proximité sont frappés d'Infirmité pendant 3...8 secondes.",
 		concise: ""
 	},
 	"3347": {
 		id: 3347,
 		name: "Manteau de mirage (PvP)",
-		description: "",
+		description: "Pendant 1...7 seconde(s), vous avez 30...60% de chances de bloquer les attaques. Lorsque vous lances cet enchantement, tous les ennemis adjacents reçovient 10...40 points de dégâts de la Terre.",
 		concise: ""
 	},
 	"3348": {
@@ -58433,61 +59425,61 @@ var skilldesc = {
 	"3365": {
 		id: 3365,
 		name: "Attaque (PvP)",
-		description: "",
+		description: "Pendant 2...8 secondes, vous attaquez et vous gagnez de l'adrenaline 25% plus vite.",
 		concise: ""
 	},
 	"3366": {
 		id: 3366,
 		name: "Coeur de furie (PvP)",
-		description: "",
+		description: "Pendant 5...20 secondes, vous attaquez 25% plus vite.",
 		concise: ""
 	},
 	"3367": {
 		id: 3367,
 		name: "Attaque blessante (PvP)",
-		description: "",
+		description: "Si cette attaque réussit, l'ennemie ciblé souffre de Saignement pendant 5...20 secondes et vous perdez un enchantement de Derviche. Si un enchantement a été levé, l'ennemie ciblé souffre également de Blessure profonde pendant 5...20 secondes.",
 		concise: ""
 	},
 	"3368": {
 		id: 3368,
 		name: "Fureur pieuse (PvP)",
-		description: "",
+		description: "Supprime un enchantement de Derviche. Pendant 1...5 seconde(s), vous attaquez 25% plus vite. Si un enchantement a été supprimé, cette pose de combat dure deux fois plus longtemps.",
 		concise: ""
 	},
 	"3373": {
 		id: 3373,
 		name: "Illusion de hâte (PvP)",
-		description: "",
+		description: "Pendant 5...11 secondes, vous vous déplacez 33% plus vite. Lorsque l'Illusion de hâte prend fin, vous souffrez d'Infirmité pendant 3 secondes.",
 		concise: ""
 	},
 	"3374": {
 		id: 3374,
 		name: "Illusion de douleur (PvP)",
-		description: "",
+		description: "Pendant 8 secondes, l'ennemi visé souffre d'une dégénération de santé de -3...10 et subit 3...10 points de dégâts par seconde. Quand Illusion de douleur prend fin ou se renouvelle, cet ennemi est soigné de 36...120 points de vie.",
 		concise: ""
 	},
 	"3375": {
 		id: 3375,
 		name: "Aura de rétablissement (PvP)",
-		description: "",
+		description: "Pendant 60 secondes, vous gagnez 0...1 points d'énergie et êtes soigné de 200...400% du coût en énergie pour chaque sort que vous lancez.",
 		concise: ""
 	},
 	"3386": {
 		id: 3386,
 		name: "Toile d'interruption (PvP)",
-		description: "",
+		description: "Interrompt la cible ennemi. Pendant 10 secondes, la cible ennemie est sous l'emprise de Toile d'interruption. Lorsque ce maléfice prend fin, cet ennemi est interrompu à nouveau.",
 		concise: ""
 	},
 	"3396": {
 		id: 3396,
 		name: "Masse foudroyante (PvP)",
-		description: "",
+		description: "La cible ennemi subit 10...100 points de dégâts de la foudre. La Masse foudroyante a 25% de pénétration d'armure.",
 		concise: ""
 	},
 	"3397": {
 		id: 3397,
 		name: "Flamme élémentaire (PvP)",
-		description: "",
+		description: "Pendant 5...20 secondes, chaque fois que vous infligez unmaléfice élémentaire à un ennemi ciblé, cet ennemi s'embrase pendant 1...2 secondes.",
 		concise: ""
 	},
 	"3398": {
@@ -58534,8 +59526,8 @@ var skilldesc = {
 	},
 	"3428": {
 		id: 3428,
-		name: "Voleur 'ombre",
-		description: "",
+		name: "Voleur d'ombre",
+		description: "Vous faites une Foulée de l'ombre jusqu'à la cible ennemie. Pendant 5...20 secondes, les caractéristiques de cet ennemi sont réduites de 1...5 et vos caractéristiques sont augmentées de 1...5. Cette compétence compte comme une attaque main droite.",
 		concise: ""
 	},
 	"3429": {
@@ -58565,7 +59557,193 @@ var skilldesc = {
 	"3442": {
 		id: 3442,
 		name: "Lancer puissant (PvP)",
+		description: "Votre javelot se déplace trois fois plus vite. Si l'attaque réussit, vous infligez +10...40 points de dégâts.",
+		concise: ""
+	},
+	"3443": {
+		id: 3443,
+		name: "Frénésie (PvP)",
+		description: "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez 200...150% de dégâts.",
+		concise: ""
+	},
+	"3444": {
+		id: 3444,
+		name: "Cent lames (PvP)",
+		description: "Pendant 15 secondes, à chaque fois que vous attaquez avec une épée, tous les ennemis adjacents subissent 10...30 points de dégâts tranchants.",
+		concise: ""
+	},
+	"3445": {
+		id: 3445,
+		name: "Renouveau de la nature (PvP)",
+		description: "Crée un esprit de niveau 1...10. Pendant 30...240 secondes, la durée d'incantation de tous les enchantements et maléfices lancés par des créatures (autres que des esprits) prendre 30...240% de temps en plus. Le maintien des enchantements consomme deux fois plus d'énergie. Cet esprit disparaît au bout de 30...240 secondes.",
+		concise: ""
+	},
+	"3446": {
+		id: 3446,
+		name: "Soul Ignition",
 		description: "",
+		concise: ""
+	},
+	"3447": {
+		id: 3447,
+		name: "Embarras de l'incapable (PvP)",
+		description: "Après 3 secondes, l'ennemie ciblé subit 20...100 et les ennemis adjacents subissent 75% de ces dégâts. Si cet ennemi réussit à utiliser une compétence, Embarras de l'incapable prend fin prématurément et n'inflige aucun de dégât.",
+		concise: ""
+	},
+	"3448": {
+		id: 3448,
+		name: "Paix et harmonie (PvP)",
+		description: "La cible alliée perd 0...4 condition(s) et maléfice(s). Pendant 1...3 seconde(s), les conditions et maléfices expirent 90% plus vite sur cet allié. Toutes vos Prières de châtiment sont désactivées pendant 20 secondes.",
+		concise: ""
+	},
+	"3449": {
+		id: 3449,
+		name: "Attaque du protecteur (PvP)",
+		description: "Si cette attaque frappe un ennemi en mouvement, vous infligez 10...40 points de dégâts supplémentaires.",
+		concise: ""
+	},
+	"3450": {
+		id: 3450,
+		name: "Tir incapacitant (PvP)",
+		description: "Si le Tir incapacitant réussit, la cible est frappée d'Infirmité pendant 4...14 seconde(s). Cette attaque ne peut pas être bloquée.",
+		concise: ""
+	},
+	"3451": {
+		id: 3451,
+		name: "Cri d'Otyugh (PvP)",
+		description: "Pendant 10...15 secondes, votre familier bénéficie d'un bonus d'armure de +24 et ne peut pas être bloqué.",
+		concise: ""
+	},
+	"3452": {
+		id: 3452,
+		name: "Linceul de l'Ombre (PvP)",
+		description: "Pendant 2...7 secondes, l'ennemi visé ne peut pas être la cible d'enchantements.",
+		concise: ""
+	},
+	"3453": {
+		id: 3453,
+		name: "Ruée (PvP)",
+		description: "Pendant 3 secondes, vous courez 50% plus vite. Tous les 2 points d'arts des ombres réduisent le temps de recharge de 1 seconde (maximum 6 secondes).",
+		concise: ""
+	},
+	"3454": {
+		id: 3454,
+		name: "Gardien protecteur (PvP)",
+		description: "Pendant 2...6 secondes, tous les membres du groupe à portée de voix ont 75% de chances de bloquer les attaques. Le cas échéant, tous les alliés à proximité sont soignés de 10...35 points de vie et la compétence prend fin.",
+		concise: ""
+	},
+	"3455": {
+		id: 3455,
+		name: "Coup propice (PvP)",
+		description: "Si Coup propice réussit, il inflige +5...20 points de dégâts et vous gagnez 2...4 points d'énergie. Si la cible ennemie souffre de Faiblesse, cette attaque ne peut être bloquee.",
+		concise: ""
+	},
+	"3456": {
+		id: 3456,
+		name: "\"Froussard !\" (PvP)",
+		description: "Si la cible ennemie est en mouvement, elle sera assommée.",
+		concise: ""
+	},
+	"3457": {
+		id: 3457,
+		name: "Défense du protecteur (PvP)",
+		description: "Pendant 4...8 secondes, les alliés adjacents à votre position ont 75% de chances de bloquer les attaques. La défense du protecteur prend fin si vous bougez.",
+		concise: ""
+	},
+	"3458": {
+		id: 3458,
+		name: "Rage primitive (PvP)",
+		description: "Pendant 1...9 seconde(s), vous attaquez 33% plus vite et vous vous déplacez 33% plus rapidement, mais vous subissez 200...150% de dégâts.",
+		concise: ""
+	},
+	"3459": {
+		id: 3459,
+		name: "Tir de Melandru (PvP)",
+		description: "Si le Tir de Melandru réussit, votre cible souffre de Saignement pendant 5...25 secondes. Si le tir touche un ennemi en fuite ou assommé, ce dernier reçoit +10...25 points de dégâts et souffre d'Infirmité pendant 5...15.",
+		concise: ""
+	},
+	"3460": {
+		id: 3460,
+		name: "Tranquillité (PvP)",
+		description: "Crée un esprit de niveau 1...10. Les enchantements lancés par les créatures (autres que des esprits) se trouvant dans sa portée se terminent 10...30% plus vite. Cet esprit disparaît au bout de 15...120 secondes.",
+		concise: ""
+	},
+	"3461": {
+		id: 3461,
+		name: "Contorsion de l'âme (PvP)",
+		description: "Pendant 5...45 secondes, vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 5) et se rechargent instantanément. Contorsion de l'âme prend fin après 1...3 Rituels d'asservissement.",
+		concise: ""
+	},
+	"3462": {
+		id: 3462,
+		name: "Arme guidée (PvP)",
+		description: "Pendant 4...10 secondes, les attaques de la cible visée (allié ou vous-même) ne peuvent pas être bloquées.",
+		concise: ""
+	},
+	"3463": {
+		id: 3463,
+		name: "Taquinerie (PvP)",
+		description: "Si la cible ennemie utilise une compétence, elle et les autres ennemis de la zone sont interrompus et vous volez 0...5 point(s) d'énergie à chaque ennemi de la zone.",
+		concise: ""
+	},
+	"3464": {
+		id: 3464,
+		name: "Peste (PvP)",
+		description: "Pendant 1...15 seconde(s), vous attaquez 33% plus vite, mais vous vous déplacez 33% plus lentement. Prend fin si vous utilisez une compétence d'attaque à distance.",
+		concise: ""
+	},
+	"3465": {
+		id: 3465,
+		name: "Frappe de charge (PvP)",
+		description: "Pendant 1...10 secondes, vous courez 33% plus vite. Votre prochaine attaque de mêlée réussie inflige +10...80 points de dégâts et cette pose prend fin. Cette pose prend fin si vous utilisez une compétence.",
+		concise: ""
+	},
+	"3466": {
+		id: 3466,
+		name: "Chaleur exaspérante (PvP)",
+		description: "Crée un esprit de niveau 1...10. Les créatures dans sa portée (autres que des esprits) récupèrent de l'adrénaline 33...66% plus vite. Cet esprit disparaît au bout de 30...120 secondes.",
+		concise: ""
+	},
+	"3467": {
+		id: 3467,
+		name: "Corruption mystique (PvP)",
+		description: "Tous les ennemis adjacents sont frappés de Maladie pendant 2...6 secondes. Pendant 20 secondes, rien ne se passe. La durée de la Maladie est doublée si vous êtes sous le coup d'un enchantement quand vous activez cette compétence. Une fois cet enchantement dissipé, tous les membres du groupe à portée de voix sont soignés de la Maladie.",
+		concise: ""
+	},
+	"3468": {
+		id: 3468,
+		name: "Empoigne d'harrier (PvP)",
+		description: "Pendant 5...20 secondes, les attaques au corps à corps lancées contre des ennemis en mouvement causent l'Infirmité chez ces ennemis pendant 2...9 secondes. Lorseque vous lances cet enchantement, vous perdez Infirmité et une autre altération. Cet enchantement prend fin après 1...3 application(s) d'infirmité.",
+		concise: ""
+	},
+	"3469": {
+		id: 3469,
+		name: "Manteau de mirage (PvP)",
+		description: "Pendant 1...7 seconde(s), vous avez 30...60% de chances de bloquer les attaques. Lorsque vous lances cet enchantement, tous les ennemis adjacents reçovient 10...40 points de dégâts de la Terre.",
+		concise: ""
+	},
+	"3470": {
+		id: 3470,
+		name: "Brève stabilité (PvP)",
+		description: "Pendant 2...8 secondes, vous ne pouvez pas être assommé et vous vous déplacez 25% plus vite. Cet enchantement prend fin prématuremént s'il vous empêche d'être assommé.",
+		concise: ""
+	},
+	"3471": {
+		id: 3471,
+		name: "Rétablissement pieux (PvP)",
+		description: "Vous gagnez 80...150 points de vie et levez un enchantement de Derviche. Si un enchantement est leve de cette façon, vous perdez également 1 maléfice.",
+		concise: ""
+	},
+	"3472": {
+		id: 3472,
+		name: "Charge tourbillonnante (PvP)",
+		description: "Pendant 1...6 seconde(s), vous vous déplacez 33% plus vite que la normale. La prochaine fois que vous touchez un ennemi, tous les ennemis à proximité subissent 10...50 points de dégâts du froid et cet enchantement prend fin.",
+		concise: ""
+	},
+	"3473": {
+		id: 3473,
+		name: "Trancheur d'aura (PvP)",
+		description: "Si cette attaque réussit, vous infligez un Saignement pendant 5...15 secondes. Si vous êtes sous l'effet d'un enchantement, vous infligez en outre Armure brisée pendant 1...10 secondes.",
 		concise: ""
 	}
 };

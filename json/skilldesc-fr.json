@@ -5,8 +5,8 @@
 		"0": {
 			"id": 0,
 			"name": "Compétence vide",
-			"description": "Emplacement de compétence vide",
-			"concise": "Emplacement vide"
+			"description": "Représente une case vide de la barre de compétence.",
+			"concise": "Aucune compétence."
 		},
 		"1": {
 			"id": 1,
@@ -2033,7 +2033,7 @@
 		"346": {
 			"id": 346,
 			"name": "Frénésie",
-			"description": "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez deux fois plus de dégâts.",
+			"description": "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez 175...125% de dégâts.",
 			"concise": ""
 		},
 		"347": {
@@ -5964,7 +5964,7 @@
 			"id": 1577,
 			"name": "Finale de rétablissement",
 			"description": "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
-			"concise": "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin.<gray> Vous ne pouvez pas viser les esprits.</gray>"
+			"concise": "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
 		},
 		"1578": {
 			"id": 1578,
@@ -7326,7 +7326,7 @@
 			"id": 2105,
 			"name": "Graine de vie",
 			"description": "Pendant 1...5 seconde(s), à chaque fois que l'allié visé subit des dégâts, tous les membres du groupe sont soignés de 2 points de vie pour chaque rang de Faveur divine.",
-			"concise": "(1...5 seconde(s).) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts.<gray> Vous ne pouvez pas vous prendre pour cible.</gray>"
+			"concise": "(1...5 seconde(s).) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
 		},
 		"2107": {
 			"id": 2107,
@@ -7931,7 +7931,7 @@
 		"2734": {
 			"id": 2734,
 			"name": "Délabrement spirituel (PvP)",
-			"description": "",
+			"description": "Pendant 5...40 secondes, lorsque cet ennemi est la cible de l'une des vos compétences d'Envoûteur autre qu'un maléfice, il perd 1 point d'énergie. Si l'énergie de l'ennemi visé tombe à 0, le Déliberament spirituel prend fin et l'ennemi subit 15...100 points de dégâts.",
 			"concise": ""
 		},
 		"2803": {
@@ -7943,7 +7943,7 @@
 		"2804": {
 			"id": 2804,
 			"name": "Choc spirituel (PvP)",
-			"description": "",
+			"description": "La cible ennemie subit 10...50 points de dégâts de la foudre. Si vous avez plus d'énergie qu'elle, elle subit 10...50 points de dégâts de la foudre supplémentaires et est renversée. Ce sort a une pénétration d'armure de 25%.",
 			"concise": ""
 		},
 		"2805": {
@@ -7955,25 +7955,25 @@
 		"2806": {
 			"id": 2806,
 			"name": "Protection contre le mal (PvP)",
-			"description": "",
+			"description": "Crée une protection contre le mal à cette position. Pendant 5...15 secondes, les alliés (autres qu'esprits) dans cette zone bénéficient de +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. Ce sort est désactivé pendant 30 secondes.",
 			"concise": ""
 		},
 		"2807": {
 			"id": 2807,
 			"name": "Chevauchée de l'éclair (PvP)",
-			"description": "",
+			"description": "Vous rejoignez la cible à la vitesse de l'éclair. Tous les ennemis adjacents sont avaeuglés pendant 1...5 seconde(s). Si votre cible est un ennemi, il subit 10...70 points de dégâts de la foudre. Ce sort a une pénétration d'armure de 25%.",
 			"concise": ""
 		},
 		"2808": {
 			"id": 2808,
 			"name": "Coup enragé (PvP)",
-			"description": "",
+			"description": "Votre familier tente un Coup enragé qui inflige +3...23 points de dégâts (bonus maximal: 60) pour chaque compétence de Domptage qui se recharge.",
 			"concise": ""
 		},
 		"2809": {
 			"id": 2809,
 			"name": "Flamme d'obsidienne (PvP)",
-			"description": "",
+			"description": "Inflige 22...92 points de dégâts à la cible ennemi. Ce sort ignore ls armure.",
 			"concise": ""
 		},
 		"2857": {
@@ -8099,8 +8099,8 @@
 		"2883": {
 			"id": 2883,
 			"name": "Pour la justice ! (PvP)",
-			"description": "",
-			"concise": ""
+			"description": "Pendant 8 secondes, chaque fois que vous réussissez une attaque, vous obtenez 1 décharge d'adrénaline supplémentaire.",
+			"concise": "(8 secondes.) Vous obtenez 1 décharge d'adrénaline supplémentaire à chaque fois que vous réussissez une attaque."
 		},
 		"2884": {
 			"id": 2884,
@@ -8267,7 +8267,7 @@
 		"3016": {
 			"id": 3016,
 			"name": "Refuge (PvP)",
-			"description": "",
+			"description": "Crée un esprit de niveau 1...8. Les alliés (autres que des esprits) dans sa portée ne peuvent pas perdre plus de 10% de leur santé maximum sur une attaque. Lorsque cet esprit empêche les dégâts, il perd 75...45 points de vie. Cet esprit dure 30...60 secondes.",
 			"concise": ""
 		},
 		"3017": {
@@ -8417,13 +8417,13 @@
 		"3045": {
 			"id": 3045,
 			"name": "Bien-être animal (PvP)",
-			"description": "",
+			"description": "Vous soignez votre familier de 20...104 points de vie. S'il est mort, il est ressuscité avec 10...58% de santé. Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements.",
 			"concise": ""
 		},
 		"3047": {
 			"id": 3047,
 			"name": "Assaut de Melandru (PvP)",
-			"description": "",
+			"description": "Votre familier tente un Assaut de Melandru qui inflige +5...20 points de dégâts. Si cette attaque frappe un ennemi sous l'effet d'un enchantement, cet ennemi, ainsi que tous les ennemis adjacents, subissent +5...35 points de dégâts.",
 			"concise": ""
 		},
 		"3048": {
@@ -8435,19 +8435,19 @@
 		"3049": {
 			"id": 3049,
 			"name": "Furie invisible (PvP)",
-			"description": "",
+			"description": "Pendant 15...60 secondes, vous ne pouvez pas être bloquèe par des ennemis aveuglés.",
 			"concise": ""
 		},
 		"3050": {
 			"id": 3050,
 			"name": "Lien du prédateur (PvP)",
-			"description": "",
+			"description": "Pendant 5...20 secondes, les attaques réussies de votre familiar vous soignent de 1...31 point(s) de vie.",
 			"concise": ""
 		},
 		"3051": {
 			"id": 3051,
 			"name": "Coup enragé (PvP)",
-			"description": "",
+			"description": "Votre familier tente un Coup enragé qui inflige +3...23 points de dégâts (bonus maximal: 60) pour chaque compétence de Domptage qui se recharge.",
 			"concise": ""
 		},
 		"3053": {
@@ -8459,38 +8459,38 @@
 		"3054": {
 			"id": 3054,
 			"name": "Masochisme (PvP)",
-			"description": "",
+			"description": "Pendant 30 secondes, vous gagnez 1...3 points d'énergie chaque fois que vous sacrifiez de la santé.",
 			"concise": ""
 		},
 		"3058": {
 			"id": 3058,
 			"name": "Festin impie (PvP)",
-			"description": "",
+			"description": "Vous volez jusqu'à 10...65 points de vie à 1...4 ennemi maximum se trouvant dans la zone.",
 			"concise": ""
 		},
 		"3059": {
 			"id": 3059,
 			"name": "Sceau d'agonie (PvP)",
-			"description": "",
+			"description": "Vous souffrez de Saignement pendant 25 secondes. Tous les ennemis à proximité subissent 10...70 points de dégâts.",
 			"concise": ""
 		},
 		"3060": {
 			"id": 3060,
-			"name": "Echappatoire (PvP)",
-			"description": "",
-			"concise": ""
+			"name": "Evasion (PvP)",
+			"description": "Pendant 1...8 seconde(s), vous vous déplacez 33% plus vite et avez 75% de chances de bloquer les attaques. L'Evasion prend fin si vous effectuez une attaque au corps à corps.",
+			"concise": "(1...8 seconde(s).) Vous vous déplacez 33% plus vite et avez 75% de chances de bloquer. <gray>Prend fin si vous effectuez une attaque au corps à corps.</gray>"
 		},
 		"3061": {
 			"id": 3061,
 			"name": "Efflorescence mortelle (PvP)",
-			"description": "",
+			"description": "Doit succéder à une attaque main gauche. Si elle réussit, l'Efflorescence mortelle inflige +20...45 points de dégâts à l'ennemi visé et 20...45 points de dégâts à tous les ennemis adjacents.",
 			"concise": ""
 		},
 		"3062": {
 			"id": 3062,
 			"name": "Finale de rétablissement (PvP)",
 			"description": "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
-			"concise": "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin.<gray> Vous ne pouvez pas viser les esprits.</gray>"
+			"concise": "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
 		},
 		"3063": {
 			"id": 3063,
@@ -8501,43 +8501,43 @@
 		"3141": {
 			"id": 3141,
 			"name": "Réflexes foudroyants (PvP)",
-			"description": "",
+			"description": "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Vous attaquez aussi 33% plus vite.",
 			"concise": ""
 		},
 		"3143": {
 			"id": 3143,
 			"name": "Coup de renouvellement (PvP)",
-			"description": "",
+			"description": "Si Coup de renouvellement réussit, il inflige +5...20 points de dégâts. Si vous frappez un ennemi assommé, vous gagnez 3 points d'énergie et cette attaque se recharge instantanément.",
 			"concise": ""
 		},
 		"3144": {
 			"id": 3144,
 			"name": "Guérison partagée (PvP)",
-			"description": "",
+			"description": "Si votre santé ou celle de votre familier est en dessous 75%, vous regagnez tous les deux 25...145 points de vie. Si votre familier est mort, il est ressucité avec 50% de santé.",
 			"concise": ""
 		},
 		"3145": {
 			"id": 3145,
 			"name": "Flèches de verre (PvP)",
-			"description": "",
+			"description": "Pendant 10...35 secondes, vos flèches infligent +6...18 points de dégâts si elles touchent leur objectif, et entraînent le Saignement pendant 10...20 secondes si elles sont bloquées.",
 			"concise": ""
 		},
 		"3147": {
 			"id": 3147,
 			"name": "Flèche vive (PvP)",
-			"description": "",
+			"description": "Cette attaque inflige +5...15 points de dégâts si elle réussit. Si vous causez un coup critique, vous infligez +5...30 points de dégâts supplémentaires.",
 			"concise": ""
 		},
 		"3148": {
 			"id": 3148,
 			"name": "Hymne de jalousie (PvP)",
-			"description": "",
+			"description": "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix inflige +10...20 points de dégâts contre les ennemis ayant plus de 50% de santé.",
 			"concise": ""
 		},
 		"3149": {
 			"id": 3149,
 			"name": "Refrain de réparation (PvP)",
-			"description": "",
+			"description": "Pendant 15 secondes, vous bénéficiez d'une régénération de santé de +2...3. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
 			"concise": ""
 		},
 		"3151": {
@@ -8549,19 +8549,19 @@
 		"3152": {
 			"id": 3152,
 			"name": "Angoisse paralysante (PvP)",
-			"description": "",
-			"concise": ""
+			"description": "Pendant 5...20 secondes, la cible se déplace 50% moins vite et subit une dégénération de santé de -2...6.",
+			"concise": "(5...20 secondes.) L'ennemi visé se déplace 50% moins vite et subit une dégénération de santé de -2...6."
 		},
 		"3156": {
 			"id": 3156,
 			"name": "Pose du soldat (PvP)",
-			"description": "",
+			"description": "Pendant 4...10 secondes, vous attaquez 33% plus le vite lorsque que vous êtes sous l'effet d'un cri ou d'un chant.",
 			"concise": ""
 		},
 		"3157": {
 			"id": 3157,
-			"name": "Glaive était destructeur (PvP)",
-			"description": "",
+			"name": "Glaive était destructrice (PvP)",
+			"description": "Vous tenez les cendres de Glaive pendant un maximum de 30...60 secondes. En tenant ses cendres, toutes les compétences de Ritualiste bénéficient de 10% pénétration d'armure. Lorsque vous les déposez, tous les ennemis dans la zone subissent 15...85 points de dégâts de la foudre.",
 			"concise": ""
 		},
 		"3179": {
@@ -8579,25 +8579,25 @@
 		"3181": {
 			"id": 3181,
 			"name": "Armes illusoires (PvP)",
-			"description": "",
+			"description": "Pendant 30 secondes, vos attaques au corps à corps ne peuvent ni réussir ni échouer. La compétence Armes illusoires inflige à la place 20...60 points de dégâts à vos cibles chaque fois que vous attaquez au corps à corps.",
 			"concise": ""
 		},
 		"3183": {
 			"id": 3183,
 			"name": "Migraine (PvP)",
-			"description": "",
+			"description": "Pendant 4...16 secondes, la cible ennemie subit une dégénération de santé de -1...8 et le temps d'activation de ses compétences est rallongé de 100%.",
 			"concise": ""
 		},
 		"3184": {
 			"id": 3184,
 			"name": "Cumul de douleur (PvP)",
-			"description": "",
+			"description": "L'ennemie visé subit 10...35 points de dégâts. Si celui-ci est affecté 2 maléfices ou plus, il souffre de Blessure profonde pendant 5...20 secondes.",
 			"concise": ""
 		},
 		"3185": {
 			"id": 3185,
 			"name": "Instabilité psychique (PvP)",
-			"description": "",
+			"description": "Interrompt l'action de l'ennemi visé. S'il s'agit d'une compétence, cet ennemi et tous les ennemis à proximité sont assommés pendant 2...3 secondes. (50% de risques d'échec avec Incantation rapide 4 ou inférieure.)",
 			"concise": ""
 		},
 		"3186": {
@@ -8609,7 +8609,7 @@
 		"3187": {
 			"id": 3187,
 			"name": "Vol de vitesse (PvP)",
-			"description": "",
+			"description": "Pendant 1...10 seconde(s), le temps d'incantation des sorts de l'ennemi visé et de tous les ennemis adjacents est doublé. Le temps d'incantation des sorts que vous lancez sur ces ennemis visés est réduit de est 50%.",
 			"concise": ""
 		},
 		"3188": {
@@ -8627,49 +8627,49 @@
 		"3190": {
 			"id": 3190,
 			"name": "Frustration (PvP)",
-			"description": "",
+			"description": "Pendant 5...20 secondes, la cible ennemie lance ses sorts 50% moins vite et subit 5...50 points de dégâts chaque fois qu'elle est interrompue.",
 			"concise": ""
 		},
 		"3191": {
 			"id": 3191,
 			"name": "Défiance (PvP)",
-			"description": "",
+			"description": "Pendant 6 secondes, le prochain sort que l'ennemi ciblé lance sur l'un de vos alliés échoue et inflige 10...60 points de dégâts à cet ennemi ainsi que 75% de ces degâts à tous les ennemis à proximité.",
 			"concise": ""
 		},
 		"3192": {
 			"id": 3192,
 			"name": "Enigme de l'enchanteur (PvP)",
-			"description": "",
+			"description": "Pendant 10 secondes, l'ennemi ciblé lance ses enchantements 100...200% moins vite. Si aucun enchantement n'affecte l'ennemi ciblé lorsque ce maléfice est appliqué, il subit 10...100 points de dégâts et tous les ennemis adjacent encaissent 75% de ces dégâts.",
 			"concise": ""
 		},
 		"3193": {
 			"id": 3193,
 			"name": "Sceau de Maladresse (PvP)",
-			"description": "",
+			"description": "Si la cible ennemie attaque, cet ennemi ainsi que tous les ennemis adjacents sont interrompus et subissent 15...60 points de dégâts. Tous les ennemis utilisant des compétences d'attaque sont assommés.",
 			"concise": ""
 		},
 		"3194": {
 			"id": 3194,
 			"name": "Miroir de désenchantement (PvP)",
-			"description": "",
+			"description": "Dissipe un enchantement de la cible ennemie. Tous les membres du groupe de cet ennemi perdent aussi cet enchantement.",
 			"concise": ""
 		},
 		"3195": {
 			"id": 3195,
 			"name": "Oeil errant (PvP)",
-			"description": "",
+			"description": "Pendant 4 secondes, la prochaine fois que l'ennemi visé attaque, son attaque est interrompue et tous les ennemis à proximité subissent 10...92 points de dégâts.",
 			"concise": ""
 		},
 		"3196": {
 			"id": 3196,
 			"name": "Risque calculé (PvP)",
-			"description": "",
+			"description": "Pendant 3...12 secondes, les attaques de l'ennemi visé infligent 10 points de dégâts supplémentaires, mais il y a 50% de chances que les dégâts de chacune de ses attaques lui soient infligés. (Maximum 15...15 points de dégâts.)",
 			"concise": ""
 		},
 		"3204": {
 			"id": 3204,
 			"name": "Défi à la douleur (PvP)",
-			"description": "",
+			"description": "Pendant 20 secondes, vous avez 90...300 points de vie supplémentaires et bénéficiez d'un bonus d'armure de 20.",
 			"concise": ""
 		},
 		"3232": {
@@ -8693,37 +8693,37 @@
 		"3251": {
 			"id": 3251,
 			"name": "Crocs du renard (PvP)",
-			"description": "",
+			"description": "Doit succéder à une attaque main droite. Crocs du renard est une attaque impossible à bloquer ; elle inflige +10...25 points de dégâts si elle réussit.",
 			"concise": ""
 		},
 		"3252": {
 			"id": 3252,
 			"name": "Affront sauvage (PvP)",
-			"description": "",
+			"description": "Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...35 points de dégâts et chaque pose utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
 			"concise": ""
 		},
 		"3263": {
 			"id": 3263,
-			"name": "Coup de bannissement (PvP)",
-			"description": "",
+			"name": "Frappe implacable (PvP)",
+			"description": "Si cette attaque réussit, elle inflige 10...60 points de dégâts sacrés. Elle inflige deux fois plus de dégâts aux créatures invoquées.",
 			"concise": ""
 		},
 		"3264": {
 			"id": 3264,
 			"name": "Fauchage des deux lunes (PvP)",
-			"description": "",
+			"description": "Vous perdez un enchantement de Derviche et gagnez 10...20 points de vie. Si un enchantement est perdu de cette manière, vous à deux reprises (en infligeant à chaque fois 25% de dégâts de moins que la normale) et vous gagnez 10...30 points de vie supplémentaires.",
 			"concise": ""
 		},
 		"3265": {
 			"id": 3265,
 			"name": "Fauchage impérieux (PvP)",
-			"description": "",
+			"description": "Inflige +3...15 points de dégâts et supprime un enchantement de Derviche. Si vous perdez un enchantement de cette manière, le Fauchage impérieux ne peut pas être bloqué et supprime une pose de combat.",
 			"concise": ""
 		},
 		"3266": {
 			"id": 3266,
 			"name": "Assaut pieux (PvP)",
-			"description": "",
+			"description": "Vous supprimez un enchantement de Derviche. En cas de perte d'un enchantement de Derviche, cette compétence se recharge 75% plus vite et les ennemis adjacents subissent 15...40 points de dégâts.",
 			"concise": ""
 		},
 		"3269": {
@@ -8765,13 +8765,13 @@
 		"3346": {
 			"id": 3346,
 			"name": "Aura d'épines (PvP)",
-			"description": "",
+			"description": "Tous les ennemis adjacents souffrent de Saignement pendant 5...15 secondes. Pendant 30 secondes, cet enchantement est sans effet. Lorsque cet enchantement prend fin, tous les ennemis à proximité sont frappés d'Infirmité pendant 3...8 secondes.",
 			"concise": ""
 		},
 		"3347": {
 			"id": 3347,
 			"name": "Manteau de mirage (PvP)",
-			"description": "",
+			"description": "Pendant 1...7 seconde(s), vous avez 30...60% de chances de bloquer les attaques. Lorsque vous lances cet enchantement, tous les ennemis adjacents reçovient 10...40 points de dégâts de la Terre.",
 			"concise": ""
 		},
 		"3348": {
@@ -8783,61 +8783,61 @@
 		"3365": {
 			"id": 3365,
 			"name": "Attaque (PvP)",
-			"description": "",
+			"description": "Pendant 2...8 secondes, vous attaquez et vous gagnez de l'adrenaline 25% plus vite.",
 			"concise": ""
 		},
 		"3366": {
 			"id": 3366,
 			"name": "Coeur de furie (PvP)",
-			"description": "",
+			"description": "Pendant 5...20 secondes, vous attaquez 25% plus vite.",
 			"concise": ""
 		},
 		"3367": {
 			"id": 3367,
 			"name": "Attaque blessante (PvP)",
-			"description": "",
+			"description": "Si cette attaque réussit, l'ennemie ciblé souffre de Saignement pendant 5...20 secondes et vous perdez un enchantement de Derviche. Si un enchantement a été levé, l'ennemie ciblé souffre également de Blessure profonde pendant 5...20 secondes.",
 			"concise": ""
 		},
 		"3368": {
 			"id": 3368,
 			"name": "Fureur pieuse (PvP)",
-			"description": "",
+			"description": "Supprime un enchantement de Derviche. Pendant 1...5 seconde(s), vous attaquez 25% plus vite. Si un enchantement a été supprimé, cette pose de combat dure deux fois plus longtemps.",
 			"concise": ""
 		},
 		"3373": {
 			"id": 3373,
 			"name": "Illusion de hâte (PvP)",
-			"description": "",
+			"description": "Pendant 5...11 secondes, vous vous déplacez 33% plus vite. Lorsque l'Illusion de hâte prend fin, vous souffrez d'Infirmité pendant 3 secondes.",
 			"concise": ""
 		},
 		"3374": {
 			"id": 3374,
 			"name": "Illusion de douleur (PvP)",
-			"description": "",
+			"description": "Pendant 8 secondes, l'ennemi visé souffre d'une dégénération de santé de -3...10 et subit 3...10 points de dégâts par seconde. Quand Illusion de douleur prend fin ou se renouvelle, cet ennemi est soigné de 36...120 points de vie.",
 			"concise": ""
 		},
 		"3375": {
 			"id": 3375,
 			"name": "Aura de rétablissement (PvP)",
-			"description": "",
+			"description": "Pendant 60 secondes, vous gagnez 0...1 points d'énergie et êtes soigné de 200...400% du coût en énergie pour chaque sort que vous lancez.",
 			"concise": ""
 		},
 		"3386": {
 			"id": 3386,
 			"name": "Toile d'interruption (PvP)",
-			"description": "",
+			"description": "Interrompt la cible ennemi. Pendant 10 secondes, la cible ennemie est sous l'emprise de Toile d'interruption. Lorsque ce maléfice prend fin, cet ennemi est interrompu à nouveau.",
 			"concise": ""
 		},
 		"3396": {
 			"id": 3396,
 			"name": "Masse foudroyante (PvP)",
-			"description": "",
+			"description": "La cible ennemi subit 10...100 points de dégâts de la foudre. La Masse foudroyante a 25% de pénétration d'armure.",
 			"concise": ""
 		},
 		"3397": {
 			"id": 3397,
 			"name": "Flamme élémentaire (PvP)",
-			"description": "",
+			"description": "Pendant 5...20 secondes, chaque fois que vous infligez unmaléfice élémentaire à un ennemi ciblé, cet ennemi s'embrase pendant 1...2 secondes.",
 			"concise": ""
 		},
 		"3398": {
@@ -8884,8 +8884,8 @@
 		},
 		"3428": {
 			"id": 3428,
-			"name": "Voleur 'ombre",
-			"description": "",
+			"name": "Voleur d'ombre",
+			"description": "Vous faites une Foulée de l'ombre jusqu'à la cible ennemie. Pendant 5...20 secondes, les caractéristiques de cet ennemi sont réduites de 1...5 et vos caractéristiques sont augmentées de 1...5. Cette compétence compte comme une attaque main droite.",
 			"concise": ""
 		},
 		"3429": {
@@ -8915,7 +8915,193 @@
 		"3442": {
 			"id": 3442,
 			"name": "Lancer puissant (PvP)",
+			"description": "Votre javelot se déplace trois fois plus vite. Si l'attaque réussit, vous infligez +10...40 points de dégâts.",
+			"concise": ""
+		},
+		"3443": {
+			"id": 3443,
+			"name": "Frénésie (PvP)",
+			"description": "Pendant 8 secondes, vous attaquez 33% plus vite, mais vous subissez 200...150% de dégâts.",
+			"concise": ""
+		},
+		"3444": {
+			"id": 3444,
+			"name": "Cent lames (PvP)",
+			"description": "Pendant 15 secondes, à chaque fois que vous attaquez avec une épée, tous les ennemis adjacents subissent 10...30 points de dégâts tranchants.",
+			"concise": ""
+		},
+		"3445": {
+			"id": 3445,
+			"name": "Renouveau de la nature (PvP)",
+			"description": "Crée un esprit de niveau 1...10. Pendant 30...240 secondes, la durée d'incantation de tous les enchantements et maléfices lancés par des créatures (autres que des esprits) prendre 30...240% de temps en plus. Le maintien des enchantements consomme deux fois plus d'énergie. Cet esprit disparaît au bout de 30...240 secondes.",
+			"concise": ""
+		},
+		"3446": {
+			"id": 3446,
+			"name": "Soul Ignition",
 			"description": "",
+			"concise": ""
+		},
+		"3447": {
+			"id": 3447,
+			"name": "Embarras de l'incapable (PvP)",
+			"description": "Après 3 secondes, l'ennemie ciblé subit 20...100 et les ennemis adjacents subissent 75% de ces dégâts. Si cet ennemi réussit à utiliser une compétence, Embarras de l'incapable prend fin prématurément et n'inflige aucun de dégât.",
+			"concise": ""
+		},
+		"3448": {
+			"id": 3448,
+			"name": "Paix et harmonie (PvP)",
+			"description": "La cible alliée perd 0...4 condition(s) et maléfice(s). Pendant 1...3 seconde(s), les conditions et maléfices expirent 90% plus vite sur cet allié. Toutes vos Prières de châtiment sont désactivées pendant 20 secondes.",
+			"concise": ""
+		},
+		"3449": {
+			"id": 3449,
+			"name": "Attaque du protecteur (PvP)",
+			"description": "Si cette attaque frappe un ennemi en mouvement, vous infligez 10...40 points de dégâts supplémentaires.",
+			"concise": ""
+		},
+		"3450": {
+			"id": 3450,
+			"name": "Tir incapacitant (PvP)",
+			"description": "Si le Tir incapacitant réussit, la cible est frappée d'Infirmité pendant 4...14 seconde(s). Cette attaque ne peut pas être bloquée.",
+			"concise": ""
+		},
+		"3451": {
+			"id": 3451,
+			"name": "Cri d'Otyugh (PvP)",
+			"description": "Pendant 10...15 secondes, votre familier bénéficie d'un bonus d'armure de +24 et ne peut pas être bloqué.",
+			"concise": ""
+		},
+		"3452": {
+			"id": 3452,
+			"name": "Linceul de l'Ombre (PvP)",
+			"description": "Pendant 2...7 secondes, l'ennemi visé ne peut pas être la cible d'enchantements.",
+			"concise": ""
+		},
+		"3453": {
+			"id": 3453,
+			"name": "Ruée (PvP)",
+			"description": "Pendant 3 secondes, vous courez 50% plus vite. Tous les 2 points d'arts des ombres réduisent le temps de recharge de 1 seconde (maximum 6 secondes).",
+			"concise": ""
+		},
+		"3454": {
+			"id": 3454,
+			"name": "Gardien protecteur (PvP)",
+			"description": "Pendant 2...6 secondes, tous les membres du groupe à portée de voix ont 75% de chances de bloquer les attaques. Le cas échéant, tous les alliés à proximité sont soignés de 10...35 points de vie et la compétence prend fin.",
+			"concise": ""
+		},
+		"3455": {
+			"id": 3455,
+			"name": "Coup propice (PvP)",
+			"description": "Si Coup propice réussit, il inflige +5...20 points de dégâts et vous gagnez 2...4 points d'énergie. Si la cible ennemie souffre de Faiblesse, cette attaque ne peut être bloquee.",
+			"concise": ""
+		},
+		"3456": {
+			"id": 3456,
+			"name": "\"Froussard !\" (PvP)",
+			"description": "Si la cible ennemie est en mouvement, elle sera assommée.",
+			"concise": ""
+		},
+		"3457": {
+			"id": 3457,
+			"name": "Défense du protecteur (PvP)",
+			"description": "Pendant 4...8 secondes, les alliés adjacents à votre position ont 75% de chances de bloquer les attaques. La défense du protecteur prend fin si vous bougez.",
+			"concise": ""
+		},
+		"3458": {
+			"id": 3458,
+			"name": "Rage primitive (PvP)",
+			"description": "Pendant 1...9 seconde(s), vous attaquez 33% plus vite et vous vous déplacez 33% plus rapidement, mais vous subissez 200...150% de dégâts.",
+			"concise": ""
+		},
+		"3459": {
+			"id": 3459,
+			"name": "Tir de Melandru (PvP)",
+			"description": "Si le Tir de Melandru réussit, votre cible souffre de Saignement pendant 5...25 secondes. Si le tir touche un ennemi en fuite ou assommé, ce dernier reçoit +10...25 points de dégâts et souffre d'Infirmité pendant 5...15.",
+			"concise": ""
+		},
+		"3460": {
+			"id": 3460,
+			"name": "Tranquillité (PvP)",
+			"description": "Crée un esprit de niveau 1...10. Les enchantements lancés par les créatures (autres que des esprits) se trouvant dans sa portée se terminent 10...30% plus vite. Cet esprit disparaît au bout de 15...120 secondes.",
+			"concise": ""
+		},
+		"3461": {
+			"id": 3461,
+			"name": "Contorsion de l'âme (PvP)",
+			"description": "Pendant 5...45 secondes, vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 5) et se rechargent instantanément. Contorsion de l'âme prend fin après 1...3 Rituels d'asservissement.",
+			"concise": ""
+		},
+		"3462": {
+			"id": 3462,
+			"name": "Arme guidée (PvP)",
+			"description": "Pendant 4...10 secondes, les attaques de la cible visée (allié ou vous-même) ne peuvent pas être bloquées.",
+			"concise": ""
+		},
+		"3463": {
+			"id": 3463,
+			"name": "Taquinerie (PvP)",
+			"description": "Si la cible ennemie utilise une compétence, elle et les autres ennemis de la zone sont interrompus et vous volez 0...5 point(s) d'énergie à chaque ennemi de la zone.",
+			"concise": ""
+		},
+		"3464": {
+			"id": 3464,
+			"name": "Peste (PvP)",
+			"description": "Pendant 1...15 seconde(s), vous attaquez 33% plus vite, mais vous vous déplacez 33% plus lentement. Prend fin si vous utilisez une compétence d'attaque à distance.",
+			"concise": ""
+		},
+		"3465": {
+			"id": 3465,
+			"name": "Frappe de charge (PvP)",
+			"description": "Pendant 1...10 secondes, vous courez 33% plus vite. Votre prochaine attaque de mêlée réussie inflige +10...80 points de dégâts et cette pose prend fin. Cette pose prend fin si vous utilisez une compétence.",
+			"concise": ""
+		},
+		"3466": {
+			"id": 3466,
+			"name": "Chaleur exaspérante (PvP)",
+			"description": "Crée un esprit de niveau 1...10. Les créatures dans sa portée (autres que des esprits) récupèrent de l'adrénaline 33...66% plus vite. Cet esprit disparaît au bout de 30...120 secondes.",
+			"concise": ""
+		},
+		"3467": {
+			"id": 3467,
+			"name": "Corruption mystique (PvP)",
+			"description": "Tous les ennemis adjacents sont frappés de Maladie pendant 2...6 secondes. Pendant 20 secondes, rien ne se passe. La durée de la Maladie est doublée si vous êtes sous le coup d'un enchantement quand vous activez cette compétence. Une fois cet enchantement dissipé, tous les membres du groupe à portée de voix sont soignés de la Maladie.",
+			"concise": ""
+		},
+		"3468": {
+			"id": 3468,
+			"name": "Empoigne d'harrier (PvP)",
+			"description": "Pendant 5...20 secondes, les attaques au corps à corps lancées contre des ennemis en mouvement causent l'Infirmité chez ces ennemis pendant 2...9 secondes. Lorseque vous lances cet enchantement, vous perdez Infirmité et une autre altération. Cet enchantement prend fin après 1...3 application(s) d'infirmité.",
+			"concise": ""
+		},
+		"3469": {
+			"id": 3469,
+			"name": "Manteau de mirage (PvP)",
+			"description": "Pendant 1...7 seconde(s), vous avez 30...60% de chances de bloquer les attaques. Lorsque vous lances cet enchantement, tous les ennemis adjacents reçovient 10...40 points de dégâts de la Terre.",
+			"concise": ""
+		},
+		"3470": {
+			"id": 3470,
+			"name": "Brève stabilité (PvP)",
+			"description": "Pendant 2...8 secondes, vous ne pouvez pas être assommé et vous vous déplacez 25% plus vite. Cet enchantement prend fin prématuremént s'il vous empêche d'être assommé.",
+			"concise": ""
+		},
+		"3471": {
+			"id": 3471,
+			"name": "Rétablissement pieux (PvP)",
+			"description": "Vous gagnez 80...150 points de vie et levez un enchantement de Derviche. Si un enchantement est leve de cette façon, vous perdez également 1 maléfice.",
+			"concise": ""
+		},
+		"3472": {
+			"id": 3472,
+			"name": "Charge tourbillonnante (PvP)",
+			"description": "Pendant 1...6 seconde(s), vous vous déplacez 33% plus vite que la normale. La prochaine fois que vous touchez un ennemi, tous les ennemis à proximité subissent 10...50 points de dégâts du froid et cet enchantement prend fin.",
+			"concise": ""
+		},
+		"3473": {
+			"id": 3473,
+			"name": "Trancheur d'aura (PvP)",
+			"description": "Si cette attaque réussit, vous infligez un Saignement pendant 5...15 secondes. Si vous êtes sous l'effet d'un enchantement, vous infligez en outre Armure brisée pendant 1...10 secondes.",
 			"concise": ""
 		}
 	}
