@@ -18,12 +18,8 @@ namespace Buildwars\GWSkillData;
  */
 trait SkillDataAwareTrait{
 
-	/**
-	 * @todo change to constant in PHP 8.2+
-	 *
-	 * @var array<string, string>
-	 */
-	private array $LANGUAGES = [
+	/** @var array<string, string> */
+	private const array LANGUAGES = [
 		Lang::DE => SkillLangGerman::class,
 		Lang::EN => SkillLangEnglish::class,
 		Lang::FR => SkillLangFrench::class,

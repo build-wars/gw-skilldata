@@ -48,15 +48,19 @@ final class Lang{
 		self::FR => '%s (PvP)',
 	];
 
-	public readonly string $id;
+	protected(set) string $id {
+		set{
+			$value = trim(strtolower($value));
+
+			if(!in_array($value, self::IDS, true)){
+				throw new InvalidArgumentException('invalid language');
+			}
+
+			$this->id = $value;
+		}
+	}
 
 	public function __construct(string $id){
-		$id = trim(strtolower($id));
-
-		if(!in_array($id, self::IDS, true)){
-			throw new InvalidArgumentException('invalid language');
-		}
-
 		$this->id = $id;
 	}
 

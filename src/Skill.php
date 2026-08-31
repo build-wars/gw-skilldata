@@ -192,51 +192,85 @@ final class Skill{
 		],
 	];
 
-	private const DataObjects = [
-		self::DATA_ATTRIBUTE  => Attribute::class,
-		self::DATA_CAMPAIGN   => Campaign::class,
-		self::DATA_PROFESSION => Profession::class,
-		self::DATA_TYPE       => Type::class,
-	];
+	private(set) Lang $lang {
+		set(Lang|string $lang){
 
-	public readonly Lang       $lang;
-	public readonly int        $id;
-	public readonly Attribute  $attribute;
-	public readonly Campaign   $campaign;
-	public readonly Profession $profession;
-	public readonly Type       $type;
-	public readonly bool       $is_elite;
-	public readonly bool       $is_pvp;
-	public readonly bool       $is_rp;
-	public readonly bool       $pvp_split;
-	public readonly int        $split_id;
-	public readonly int|float  $activation;
-	public readonly int        $recharge;
-	public readonly int        $energy;
-	public readonly int        $upkeep;
-	public readonly int        $adrenaline;
-	public readonly int|float  $adrenaline_precise;
-	public readonly int        $sacrifice;
-	public readonly int        $overcast;
+			if(!$lang instanceof Lang){
+				$lang = new Lang($lang);
+			}
 
-	public readonly string     $name;
-	public readonly string     $description;
-	public readonly string     $concise;
+			$this->lang = $lang;
+		}
+	}
+
+	private(set) Attribute $attribute{
+		set(Attribute|int $attribute){
+
+			if(!$attribute instanceof Attribute){
+				$attribute = new Attribute($attribute);
+			}
+
+			$this->attribute = $attribute;
+		}
+	}
+
+	private(set) Campaign $campaign{
+		set(Campaign|int $campaign){
+
+			if(!$campaign instanceof Campaign){
+				$campaign = new Campaign($campaign);
+			}
+
+			$this->campaign = $campaign;
+		}
+	}
+
+	private(set) Profession $profession{
+		set(Profession|int $profession){
+
+			if(!$profession instanceof Profession){
+				$profession = new Profession($profession);
+			}
+
+			$this->profession = $profession;
+		}
+	}
+
+	private(set) Type $type{
+		set(Type|int $type){
+
+			if(!$type instanceof Type){
+				$type = new Type($type);
+			}
+
+			$this->type = $type;
+		}
+	}
+
+	private(set) int        $id;
+	private(set) bool       $is_elite;
+	private(set) bool       $is_pvp;
+	private(set) bool       $is_rp;
+	private(set) bool       $pvp_split;
+	private(set) int        $split_id;
+	private(set) int|float  $activation;
+	private(set) int        $recharge;
+	private(set) int        $energy;
+	private(set) int        $upkeep;
+	private(set) int        $adrenaline;
+	private(set) int|float  $adrenaline_precise;
+	private(set) int        $sacrifice;
+	private(set) int        $overcast;
+
+	private(set) string     $name;
+	private(set) string     $description;
+	private(set) string     $concise;
 
 	public function __construct(array $skilldata, Lang|string $lang = Lang::EN){
-
-		if(!$lang instanceof Lang){
-			$lang = new Lang($lang);
-		}
-
 		$this->lang = $lang;
 
 		foreach($skilldata as $key => $val){
 			if(property_exists($this, $key)){
-				if(array_key_exists($key, self::DataObjects) && !$val instanceof (self::DataObjects[$key])){
-					$val = new (self::DataObjects[$key])($val, $this->lang);
-				}
-
 				$this->{$key} = $val;
 			}
 		}
@@ -268,8 +302,8 @@ final class Skill{
 		foreach(array_merge(self::KEYS_DATA, self::KEYS_DESC) as $key){
 			$value = $this->{$key};
 
-			if($value instanceof DataObjectAbstract){
-				$value = $this->{$key}->id;
+			if($value instanceof DataObjectInterface){
+				$value = $value->id;
 			}
 
 			$data[$key] = $value;

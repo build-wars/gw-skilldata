@@ -450,7 +450,7 @@ final class Attribute extends DataObjectAbstract{
 		self::TITLE_NORN          => 10,
 	];
 
-	protected int $level = 0;
+	protected(set) int $level = 0;
 
 	/**
 	 * Sets the attribute level
@@ -470,6 +470,7 @@ final class Attribute extends DataObjectAbstract{
 
 	/**
 	 * Returns the current attribute level
+	 * @deprecated 3.0.0 use the public property $level instead
 	 */
 	public function getLevel():int{
 		return $this->level;

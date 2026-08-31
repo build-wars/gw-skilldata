@@ -19,25 +19,30 @@ use function sprintf;
 /**
  * Abstract parent to the Attribute, Campaign, Profession and Skilltype classes
  */
-abstract class DataObjectAbstract{
+abstract class DataObjectAbstract implements DataObjectInterface{
 
-	public const CSS_CLASS = '';
-	/** @var array<int, array{de: string, en: string, fr: string}> */
-	public const NAME      = [];
+	protected(set) int $id {
+		set{
+			if(!array_key_exists($value, static::NAME)){
+				throw new InvalidArgumentException(sprintf('invalid ID "%s" (%s)', $value, static::class));
+			}
 
-	public readonly int  $id;
-	public readonly Lang $lang;
+			$this->id = $value;
+		}
+	}
+
+	protected(set) Lang $lang {
+		set(Lang|string $lang){
+
+			if(!$lang instanceof Lang){
+				$lang = new Lang($lang);
+			}
+
+			$this->lang = $lang;
+		}
+	}
 
 	public function __construct(int $id, Lang|string $lang = Lang::EN){
-
-		if(!array_key_exists($id, static::NAME)){
-			throw new InvalidArgumentException(sprintf('invalid ID "%s" (%s)', $id, static::class));
-		}
-
-		if(!$lang instanceof Lang){
-			$lang = new Lang($lang);
-		}
-
 		$this->id   = $id;
 		$this->lang = $lang;
 	}
