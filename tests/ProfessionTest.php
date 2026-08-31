@@ -23,7 +23,7 @@ final class ProfessionTest extends TestCase{
 	#[Test]
 	public function constructInvalidIdException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid ID');
+		$this->expectExceptionMessageIsOrContains('invalid ID');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Profession(666);
 	}
@@ -31,7 +31,7 @@ final class ProfessionTest extends TestCase{
 	#[Test]
 	public function constructInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Profession(Profession::ELEMENTALIST, 'foo');
 	}
@@ -47,7 +47,7 @@ final class ProfessionTest extends TestCase{
 	#[Test]
 	public function getNameInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 
 		(new Profession(Profession::ELEMENTALIST))->getName('foo');
 	}
@@ -63,7 +63,7 @@ final class ProfessionTest extends TestCase{
 	#[Test]
 	public function getAbbrInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 
 		(new Profession(Profession::ELEMENTALIST))->getAbbr('foo');
 	}

@@ -22,7 +22,7 @@ final class CampaignTest extends TestCase{
 	#[Test]
 	public function constructInvalidIdException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid ID');
+		$this->expectExceptionMessageIsOrContains('invalid ID');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Campaign(666);
 	}
@@ -30,7 +30,7 @@ final class CampaignTest extends TestCase{
 	#[Test]
 	public function constructInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Campaign(Campaign::CORE, 'foo');
 	}
@@ -46,7 +46,7 @@ final class CampaignTest extends TestCase{
 	#[Test]
 	public function getNameInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 
 		(new Campaign(Campaign::CORE))->getName('foo');
 	}
@@ -62,7 +62,7 @@ final class CampaignTest extends TestCase{
 	#[Test]
 	public function getContinentNameInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 
 		(new Campaign(Campaign::CORE))->getContinentName('foo');
 	}

@@ -25,7 +25,7 @@ final class AttributeTest extends TestCase{
 	#[Test]
 	public function constructInvalidIdException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid ID');
+		$this->expectExceptionMessageIsOrContains('invalid ID');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Attribute(666);
 	}
@@ -33,7 +33,7 @@ final class AttributeTest extends TestCase{
 	#[Test]
 	public function constructInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Attribute(Attribute::FAST_CASTING, 'foo');
 	}
@@ -49,7 +49,7 @@ final class AttributeTest extends TestCase{
 	#[Test]
 	public function getNameInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 
 		(new Attribute(Attribute::FAST_CASTING))->getName('foo');
 	}

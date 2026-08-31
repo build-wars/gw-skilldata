@@ -21,7 +21,7 @@ final class LangTest extends TestCase{
 	#[Test]
 	public function constructInvalidLanguageException():void{
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('invalid language');
+		$this->expectExceptionMessageIsOrContains('invalid language');
 		/** @phan-suppress-next-line PhanNoopNew */
 		new Lang('foo');
 	}
