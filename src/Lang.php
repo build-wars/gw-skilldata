@@ -33,8 +33,7 @@ final class Lang{
 	];
 
 	/**
-	 * @todo: translated names
-	 * @var array<string, string>
+	 * @var array<string, array<string, string>>
 	 */
 	public const NAMES = [
 		self::DE => [self::DE => 'Deutsch' ,    self::EN => 'German',  self::FR => 'Allemande',],
@@ -70,7 +69,7 @@ final class Lang{
 	/**
 	 * Checks whether the object ID is in the given array of IDs
 	 *
-	 * @param int[] $ids
+	 * @param string[] $ids
 	 */
 	public function in(array $ids):bool{
 		return in_array($this->id, $ids, true);
