@@ -37,9 +37,6 @@ final class Lang{
 	 * @var array<string, string>
 	 */
 	public const NAMES = [
-		self::DE => 'German',
-		self::EN => 'English',
-		self::FR => 'French',
 		self::DE => [self::DE => 'Deutsch' ,    self::EN => 'German',  self::FR => 'Allemande',],
 		self::EN => [self::DE => 'Englisch',    self::EN => 'English', self::FR => 'Anglaise', ],
 		self::FR => [self::DE => 'Französisch', self::EN => 'French',  self::FR => 'Français', ],
@@ -64,11 +61,24 @@ final class Lang{
 	}
 
 	/**
+	 * Checks whether the object ID is equal to the given ID
+	 */
+	public function is(string $id):bool{
+		return $this->id === $id;
+	}
+
+	/**
+	 * Checks whether the object ID is in the given array of IDs
+	 *
+	 * @param int[] $ids
+	 */
+	public function in(array $ids):bool{
+		return in_array($this->id, $ids, true);
+	}
+
+	/**
 	 * Returns the readable name of the given language ID
 	 */
-	public function getName():string{
-		return self::NAMES[$this->id];
-	}
 	public function getName(string|null $id = null):string{
 
 		if($id !== null && !$this->in(self::IDS)){

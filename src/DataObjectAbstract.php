@@ -31,7 +31,7 @@ abstract class DataObjectAbstract{
 	public function __construct(int $id, Lang|string $lang = Lang::EN){
 
 		if(!array_key_exists($id, static::NAME)){
-			throw new InvalidArgumentException('invalid ID');
+			throw new InvalidArgumentException(sprintf('invalid ID "%s" (%s)', $id, static::class));
 		}
 
 		if(!$lang instanceof Lang){
