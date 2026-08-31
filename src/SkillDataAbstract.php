@@ -29,14 +29,14 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	 *
 	 * @var array<int, string>
 	 */
-	protected const ID2DESC = [];
+	protected const array ID2DESC = [];
 
 	/**
 	 * The data array
 	 *
 	 * @var array<int, scalar[]>
 	 */
-	protected const ID2DATA = [];
+	protected const array ID2DATA = [];
 
 
 	/** @phan-suppress PhanTypeMismatchArgumentNullableInternal */

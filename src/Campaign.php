@@ -16,15 +16,15 @@ namespace Buildwars\GWSkillData;
  */
 final class Campaign extends DataObjectAbstract{
 
-	public const CSS_CLASS = 'campaign';
+	public const string CSS_CLASS = 'campaign';
 
-	public const CORE             = 0;
-	public const PROPHECIES       = 1;
-	public const FACTIONS         = 2;
-	public const NIGHTFALL        = 3;
-	public const EYE_OF_THE_NORTH = 4;
+	public const int CORE             = 0;
+	public const int PROPHECIES       = 1;
+	public const int FACTIONS         = 2;
+	public const int NIGHTFALL        = 3;
+	public const int EYE_OF_THE_NORTH = 4;
 
-	public const NAME = [
+	public const array NAME = [
 		self::CORE             => [
 			Lang::DE => 'Basis',
 			Lang::EN => 'Core',
@@ -52,7 +52,7 @@ final class Campaign extends DataObjectAbstract{
 		],
 	];
 
-	public const CONTINENT_NAME = [
+	public const array CONTINENT_NAME = [
 		self::CORE             => [
 			Lang::DE => 'Die Nebel',
 			Lang::EN => 'The Mists',

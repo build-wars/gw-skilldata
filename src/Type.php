@@ -19,53 +19,53 @@ use const SORT_NUMERIC;
  */
 final class Type extends DataObjectAbstract{
 
-	public const CSS_CLASS = 'skilltype';
+	public const string CSS_CLASS = 'skilltype';
 
-	public const NONE                    = 0;
-	public const SKILL                   = 1;
-	public const BOW_ATTACK              = 2;
-	public const MELEE_ATTACK            = 3;
-	public const AXE_ATTACK              = 4;
-	public const LEAD_ATTACK             = 5;
-	public const OFF_HAND_ATTACK         = 6;
-	public const DUAL_ATTACK             = 7;
-	public const HAMMER_ATTACK           = 8;
-	public const SCYTHE_ATTACK           = 9;
-	public const SWORD_ATTACK            = 10;
-	public const PET_ATTACK              = 11;
-	public const SPEAR_ATTACK            = 12;
-	public const CHANT                   = 13;
-	public const ECHO                    = 14;
-	public const FORM                    = 15;
-	public const GLYPH                   = 16;
-	public const PREPARATION             = 17;
-	public const BINDING_RITUAL          = 18;
-	public const NATURE_RITUAL           = 19;
-	public const SHOUT                   = 20;
-	public const SIGNET                  = 21;
-	public const SPELL                   = 22;
-	public const ENCHANTMENT_SPELL       = 23;
-	public const HEX_SPELL               = 24;
-	public const ITEM_SPELL              = 25;
-	public const WARD_SPELL              = 26;
-	public const WEAPON_SPELL            = 27;
-	public const WELL_SPELL              = 28;
-	public const STANCE                  = 29;
-	public const TRAP                    = 30;
-	public const RANGED_ATTACK           = 31;
-	public const EBON_VANGUARD_RITUAL    = 32;
-	public const FLASH_ENCHANTMENT_SPELL = 33;
-	public const ATTACK_SKILL            = 34;
-	public const DAGGER_ATTACK           = 35;
-	public const RITUAL                  = 36;
-	public const DOUBLE_ENCHANTMENT      = 37;
-	public const TOUCH_SKILL             = 38;
-	public const TOUCH_SPELL             = 39;
-	public const TOUCH_ENCHANTMENT_SPELL = 40;
-	public const TOUCH_HEX_SPELL         = 41;
-	public const TOUCH_SIGNET            = 42;
+	public const int NONE                    = 0;
+	public const int SKILL                   = 1;
+	public const int BOW_ATTACK              = 2;
+	public const int MELEE_ATTACK            = 3;
+	public const int AXE_ATTACK              = 4;
+	public const int LEAD_ATTACK             = 5;
+	public const int OFF_HAND_ATTACK         = 6;
+	public const int DUAL_ATTACK             = 7;
+	public const int HAMMER_ATTACK           = 8;
+	public const int SCYTHE_ATTACK           = 9;
+	public const int SWORD_ATTACK            = 10;
+	public const int PET_ATTACK              = 11;
+	public const int SPEAR_ATTACK            = 12;
+	public const int CHANT                   = 13;
+	public const int ECHO                    = 14;
+	public const int FORM                    = 15;
+	public const int GLYPH                   = 16;
+	public const int PREPARATION             = 17;
+	public const int BINDING_RITUAL          = 18;
+	public const int NATURE_RITUAL           = 19;
+	public const int SHOUT                   = 20;
+	public const int SIGNET                  = 21;
+	public const int SPELL                   = 22;
+	public const int ENCHANTMENT_SPELL       = 23;
+	public const int HEX_SPELL               = 24;
+	public const int ITEM_SPELL              = 25;
+	public const int WARD_SPELL              = 26;
+	public const int WEAPON_SPELL            = 27;
+	public const int WELL_SPELL              = 28;
+	public const int STANCE                  = 29;
+	public const int TRAP                    = 30;
+	public const int RANGED_ATTACK           = 31;
+	public const int EBON_VANGUARD_RITUAL    = 32;
+	public const int FLASH_ENCHANTMENT_SPELL = 33;
+	public const int ATTACK_SKILL            = 34;
+	public const int DAGGER_ATTACK           = 35;
+	public const int RITUAL                  = 36;
+	public const int DOUBLE_ENCHANTMENT      = 37;
+	public const int TOUCH_SKILL             = 38;
+	public const int TOUCH_SPELL             = 39;
+	public const int TOUCH_ENCHANTMENT_SPELL = 40;
+	public const int TOUCH_HEX_SPELL         = 41;
+	public const int TOUCH_SIGNET            = 42;
 
-	public const NAME = [
+	public const array NAME = [
 		self::NONE                    => [
 			Lang::DE => 'Keine Fertigkeit',
 			Lang::EN => 'No Skill',
@@ -283,7 +283,7 @@ final class Type extends DataObjectAbstract{
 		],
 	];
 
-	private const SUBTYPES = [
+	private const array SUBTYPES = [
 		self::ATTACK_SKILL      => [
 			self::MELEE_ATTACK, self::RANGED_ATTACK, self::BOW_ATTACK, self::AXE_ATTACK, self::LEAD_ATTACK, self::OFF_HAND_ATTACK,
 			self::DUAL_ATTACK, self::HAMMER_ATTACK, self::SCYTHE_ATTACK, self::SWORD_ATTACK, self::PET_ATTACK, self::SPEAR_ATTACK,

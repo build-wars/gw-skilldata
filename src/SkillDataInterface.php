@@ -16,27 +16,11 @@ namespace Buildwars\GWSkillData;
 interface SkillDataInterface{
 
 	/**
-	 * The array keys for the descriptions array
-	 *
-	 * @var string[]
-	 * @deprecated 2.0.1 use Skill::KEYS_DESC instead
-	 */
-	final public const KEYS_DESC = Skill::KEYS_DESC;
-
-	/**
-	 * The array keys for the data array
-	 *
-	 * @var string[]
-	 * @deprecated 2.0.1 use Skill::KEYS_DATA instead
-	 */
-	final public const KEYS_DATA = Skill::KEYS_DATA;
-
-	/**
 	 * The language abbreviation, key for the several `name` arrays
 	 *
 	 * @see \Buildwars\GWSkillData\Lang::IDS
 	 */
-	public const LANG = '';
+	public const string LANG = '';
 
 	/**
 	 * Returns the data for the given skill ID, including descriptions for the current language

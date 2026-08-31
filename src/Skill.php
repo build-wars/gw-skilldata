@@ -27,54 +27,54 @@ use function strtolower;
  */
 final class Skill{
 
-	public const CSS_CLASS = 'skill';
+	public const string CSS_CLASS = 'skill';
 
-	public const MODE_PVE = 'pve';
-	public const MODE_PVP = 'pvp';
+	public const string MODE_PVE = 'pve';
+	public const string MODE_PVP = 'pvp';
 
-	public const DATA_ATTRIBUTE          = 'attribute';
-	public const DATA_CAMPAIGN           = 'campaign';
-	public const DATA_PROFESSION         = 'profession';
-	public const DATA_TYPE               = 'type';
-	public const DATA_IS_ELITE           = 'is_elite';
-	public const DATA_IS_PVP             = 'is_pvp';
-	public const DATA_IS_RP              = 'is_rp';
-	public const DATA_PVP_SPLIT          = 'pvp_split';
-	public const DATA_ID                 = 'id';
-	public const DATA_SPLIT_ID           = 'split_id';
-	public const DATA_ACTIVATION         = 'activation';
-	public const DATA_RECHARGE           = 'recharge';
-	public const DATA_ENERGY             = 'energy';
-	public const DATA_UPKEEP             = 'upkeep';
-	public const DATA_ADRENALINE         = 'adrenaline';
-	public const DATA_ADRENALINE_PRECISE = 'adrenaline_precise';
-	public const DATA_SACRIFICE          = 'sacrifice';
-	public const DATA_EXHAUSTION         = 'overcast';
+	public const string DATA_ATTRIBUTE          = 'attribute';
+	public const string DATA_CAMPAIGN           = 'campaign';
+	public const string DATA_PROFESSION         = 'profession';
+	public const string DATA_TYPE               = 'type';
+	public const string DATA_IS_ELITE           = 'is_elite';
+	public const string DATA_IS_PVP             = 'is_pvp';
+	public const string DATA_IS_RP              = 'is_rp';
+	public const string DATA_PVP_SPLIT          = 'pvp_split';
+	public const string DATA_ID                 = 'id';
+	public const string DATA_SPLIT_ID           = 'split_id';
+	public const string DATA_ACTIVATION         = 'activation';
+	public const string DATA_RECHARGE           = 'recharge';
+	public const string DATA_ENERGY             = 'energy';
+	public const string DATA_UPKEEP             = 'upkeep';
+	public const string DATA_ADRENALINE         = 'adrenaline';
+	public const string DATA_ADRENALINE_PRECISE = 'adrenaline_precise';
+	public const string DATA_SACRIFICE          = 'sacrifice';
+	public const string DATA_EXHAUSTION         = 'overcast';
 
-	public const DESC_NAME               = 'name';
-	public const DESC_DESCRIPTION        = 'description';
-	public const DESC_CONCISE            = 'concise';
+	public const string DESC_NAME               = 'name';
+	public const string DESC_DESCRIPTION        = 'description';
+	public const string DESC_CONCISE            = 'concise';
 
 	/**
 	 * The array keys for the descriptions array
 	 *
 	 * @var string[]
 	 */
-	public const KEYS_DESC = [self::DESC_NAME, self::DESC_DESCRIPTION, self::DESC_CONCISE];
+	public const array KEYS_DESC = [self::DESC_NAME, self::DESC_DESCRIPTION, self::DESC_CONCISE];
 
 	/**
 	 * The array keys for the data array
 	 *
 	 * @var string[]
 	 */
-	public const KEYS_DATA = [
+	public const array KEYS_DATA = [
 		self::DATA_ID, self::DATA_CAMPAIGN, self::DATA_PROFESSION, self::DATA_ATTRIBUTE, self::DATA_IS_ELITE,
 		self::DATA_IS_RP, self::DATA_IS_PVP, self::DATA_PVP_SPLIT, self::DATA_SPLIT_ID, self::DATA_TYPE,
 		self::DATA_UPKEEP, self::DATA_ENERGY, self::DATA_ACTIVATION, self::DATA_RECHARGE, self::DATA_ADRENALINE,
 		self::DATA_ADRENALINE_PRECISE, self::DATA_SACRIFICE, self::DATA_EXHAUSTION,
 	];
 
-	private const FIELD_NAMES = [
+	private const array FIELD_NAMES = [
 		self::MODE_PVE                => [
 			Lang::DE => 'Rollenspiel',
 			Lang::EN => 'Roleplay',

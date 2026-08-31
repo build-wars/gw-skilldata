@@ -446,7 +446,7 @@ class Builder{
 			'declare(strict_types=1);',
 			'namespace Buildwars\\GWSkillData;',
 			'abstract class SkillData extends SkillDataAbstract{',
-			'protected const ID2DATA = [',
+			'protected const array ID2DATA = [',
 		];
 
 		foreach($json['skilldata'] as $skillID => $data){
@@ -469,7 +469,7 @@ class Builder{
 		foreach(Lang::IDS as $lang){
 			$file     = self::JSON_LANG_FILES[$lang];
 			$json     = File::loadJSON($file, true);
-			$language = (new Lang($lang))->getName();
+			$language = (new Lang($lang))->getName(Lang::EN);
 
 			// unset the "id" field here
 			foreach($json['skilldesc'] as &$row){
@@ -481,8 +481,8 @@ class Builder{
 				'declare(strict_types=1);',
 				'namespace Buildwars\\GWSkillData;',
 				sprintf('final class SkillLang%s extends SkillData{', $language),
-				sprintf('public const LANG = Lang::%s;', strtoupper($lang)),
-				'protected const ID2DESC = [',
+				sprintf('public const string LANG = Lang::%s;', strtoupper($lang)),
+				'protected const array ID2DESC = [',
 			];
 
 			foreach($json['skilldesc'] as $skillID => $data){

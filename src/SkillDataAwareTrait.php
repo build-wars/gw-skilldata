@@ -37,7 +37,7 @@ trait SkillDataAwareTrait{
 			$lang = new Lang($lang);
 		}
 
-		$this->skillData = new ($this->LANGUAGES[$lang->id]);
+		$this->skillData = new (self::LANGUAGES[$lang->id]);
 
 		return $this;
 	}

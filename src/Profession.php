@@ -22,21 +22,21 @@ use function strtolower;
  */
 final class Profession extends DataObjectAbstract{
 
-	public const CSS_CLASS = 'profession';
+	public const string CSS_CLASS = 'profession';
 
-	public const NONE         = 0;
-	public const WARRIOR      = 1;
-	public const RANGER       = 2;
-	public const MONK         = 3;
-	public const NECROMANCER  = 4;
-	public const MESMER       = 5;
-	public const ELEMENTALIST = 6;
-	public const ASSASSIN     = 7;
-	public const RITUALIST    = 8;
-	public const PARAGON      = 9;
-	public const DERVISH      = 10;
+	public const int NONE         = 0;
+	public const int WARRIOR      = 1;
+	public const int RANGER       = 2;
+	public const int MONK         = 3;
+	public const int NECROMANCER  = 4;
+	public const int MESMER       = 5;
+	public const int ELEMENTALIST = 6;
+	public const int ASSASSIN     = 7;
+	public const int RITUALIST    = 8;
+	public const int PARAGON      = 9;
+	public const int DERVISH      = 10;
 
-	public const NAME = [
+	public const array NAME = [
 		self::NONE         => [Lang::DE => 'keine',           Lang::EN => 'none',         Lang::FR => 'aucun',        ],
 		self::WARRIOR      => [Lang::DE => 'Krieger',         Lang::EN => 'Warrior',      Lang::FR => 'Guerrier',     ],
 		self::RANGER       => [Lang::DE => 'Waldläufer',      Lang::EN => 'Ranger',       Lang::FR => 'Rôdeur',       ],
@@ -51,7 +51,7 @@ final class Profession extends DataObjectAbstract{
 	];
 
 	/** @var array<int, array{de: string, en: string}> */
-	public const NAME_ABBR = [
+	public const array NAME_ABBR = [
 		self::NONE         => [Lang::DE => 'X',  Lang::EN => 'X',  Lang::FR => 'X', ],
 		self::WARRIOR      => [Lang::DE => 'K',  Lang::EN => 'W',  Lang::FR => 'G', ],
 		self::RANGER       => [Lang::DE => 'W',  Lang::EN => 'R',  Lang::FR => 'R', ],
@@ -66,7 +66,7 @@ final class Profession extends DataObjectAbstract{
 	];
 
 	/** @var array<int, int> */
-	public const PRIMARY_ATTRIBUTE = [
+	public const array PRIMARY_ATTRIBUTE = [
 		self::NONE         => Attribute::NONE,
 		self::WARRIOR      => Attribute::STRENGTH,
 		self::RANGER       => Attribute::EXPERTISE,
@@ -81,7 +81,7 @@ final class Profession extends DataObjectAbstract{
 	];
 
 	/** @var array<int, int> */
-	private const CAMPAIGN = [
+	private const array CAMPAIGN = [
 		self::NONE         => Campaign::CORE,
 		self::WARRIOR      => Campaign::CORE,
 		self::RANGER       => Campaign::CORE,

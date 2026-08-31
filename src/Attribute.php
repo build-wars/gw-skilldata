@@ -28,63 +28,63 @@ use function strtolower;
  */
 final class Attribute extends DataObjectAbstract{
 
-	public const CSS_CLASS = 'attribute';
+	public const string CSS_CLASS = 'attribute';
 
-	public const FAST_CASTING        = 0;
-	public const ILLUSION_MAGIC      = 1;
-	public const DOMINATION_MAGIC    = 2;
-	public const INSPIRATION_MAGIC   = 3;
-	public const BLOOD_MAGIC         = 4;
-	public const DEATH_MAGIC         = 5;
-	public const SOUL_REAPING        = 6;
-	public const CURSES              = 7;
-	public const AIR_MAGIC           = 8;
-	public const EARTH_MAGIC         = 9;
-	public const FIRE_MAGIC          = 10;
-	public const WATER_MAGIC         = 11;
-	public const ENERGY_STORAGE      = 12;
-	public const HEALING_PRAYERS     = 13;
-	public const SMITING_PRAYERS     = 14;
-	public const PROTECTION_PRAYERS  = 15;
-	public const DIVINE_FAVOR        = 16;
-	public const STRENGTH            = 17;
-	public const AXE_MASTERY         = 18;
-	public const HAMMER_MASTERY      = 19;
-	public const SWORDMANSHIP        = 20;
-	public const TACTICS             = 21;
-	public const BEAST_MASTERY       = 22;
-	public const EXPERTISE           = 23;
-	public const WILDERNESS_SURVIVAL = 24;
-	public const MARKMANSHIP         = 25;
-	public const DAGGER_MASTERY      = 29;
-	public const DEADLY_ARTS         = 30;
-	public const SHADOW_ARTS         = 31;
-	public const COMMUNING           = 32;
-	public const RESTORATION_MAGIC   = 33;
-	public const CHANNELING_MAGIC    = 34;
-	public const CRITICAL_STRIKES    = 35;
-	public const SPAWNING_POWER      = 36;
-	public const SPEAR_MASTERY       = 37;
-	public const COMMAND             = 38;
-	public const MOTIVATION          = 39;
-	public const LEADERSHIP          = 40;
-	public const SCYTHE_MASTERY      = 41;
-	public const WIND_PRAYERS        = 42;
-	public const EARTH_PRAYERS       = 43;
-	public const MYSTICISM           = 44;
+	public const int FAST_CASTING        = 0;
+	public const int ILLUSION_MAGIC      = 1;
+	public const int DOMINATION_MAGIC    = 2;
+	public const int INSPIRATION_MAGIC   = 3;
+	public const int BLOOD_MAGIC         = 4;
+	public const int DEATH_MAGIC         = 5;
+	public const int SOUL_REAPING        = 6;
+	public const int CURSES              = 7;
+	public const int AIR_MAGIC           = 8;
+	public const int EARTH_MAGIC         = 9;
+	public const int FIRE_MAGIC          = 10;
+	public const int WATER_MAGIC         = 11;
+	public const int ENERGY_STORAGE      = 12;
+	public const int HEALING_PRAYERS     = 13;
+	public const int SMITING_PRAYERS     = 14;
+	public const int PROTECTION_PRAYERS  = 15;
+	public const int DIVINE_FAVOR        = 16;
+	public const int STRENGTH            = 17;
+	public const int AXE_MASTERY         = 18;
+	public const int HAMMER_MASTERY      = 19;
+	public const int SWORDMANSHIP        = 20;
+	public const int TACTICS             = 21;
+	public const int BEAST_MASTERY       = 22;
+	public const int EXPERTISE           = 23;
+	public const int WILDERNESS_SURVIVAL = 24;
+	public const int MARKMANSHIP         = 25;
+	public const int DAGGER_MASTERY      = 29;
+	public const int DEADLY_ARTS         = 30;
+	public const int SHADOW_ARTS         = 31;
+	public const int COMMUNING           = 32;
+	public const int RESTORATION_MAGIC   = 33;
+	public const int CHANNELING_MAGIC    = 34;
+	public const int CRITICAL_STRIKES    = 35;
+	public const int SPAWNING_POWER      = 36;
+	public const int SPEAR_MASTERY       = 37;
+	public const int COMMAND             = 38;
+	public const int MOTIVATION          = 39;
+	public const int LEADERSHIP          = 40;
+	public const int SCYTHE_MASTERY      = 41;
+	public const int WIND_PRAYERS        = 42;
+	public const int EARTH_PRAYERS       = 43;
+	public const int MYSTICISM           = 44;
 	// not exactly sure what to do with the "no attribute" - technically we could move it to -1
-	public const NONE                = 101;
+	public const int NONE                = 101;
 	// PvE titles are technically attributes - WTB "official" internal IDs
-	public const TITLE_SUNSPEAR      = 102;
-	public const TITLE_LIGHTBRINGER  = 103;
-	public const TITLE_LUXON         = 104;
-	public const TITLE_KURZICK       = 105;
-	public const TITLE_ASURA         = 106;
-	public const TITLE_DELDRIMOR     = 107;
-	public const TITLE_VANGUARD      = 108;
-	public const TITLE_NORN          = 109;
+	public const int TITLE_SUNSPEAR      = 102;
+	public const int TITLE_LIGHTBRINGER  = 103;
+	public const int TITLE_LUXON         = 104;
+	public const int TITLE_KURZICK       = 105;
+	public const int TITLE_ASURA         = 106;
+	public const int TITLE_DELDRIMOR     = 107;
+	public const int TITLE_VANGUARD      = 108;
+	public const int TITLE_NORN          = 109;
 
-	public const NAME = [
+	public const array NAME = [
 		self::FAST_CASTING        => [
 			Lang::DE => 'Schnellwirkung',
 			Lang::EN => 'Fast Casting',
@@ -342,7 +342,7 @@ final class Attribute extends DataObjectAbstract{
 		],
 	];
 
-	private const PROFESSION = [
+	private const array PROFESSION = [
 		self::FAST_CASTING        => Profession::MESMER,
 		self::ILLUSION_MAGIC      => Profession::MESMER,
 		self::DOMINATION_MAGIC    => Profession::MESMER,
@@ -396,7 +396,7 @@ final class Attribute extends DataObjectAbstract{
 		self::TITLE_NORN          => Profession::NONE,
 	];
 
-	private const MAX_VALUE = [
+	private const array MAX_VALUE = [
 		self::FAST_CASTING        => 21,
 		self::ILLUSION_MAGIC      => 21,
 		self::DOMINATION_MAGIC    => 21,

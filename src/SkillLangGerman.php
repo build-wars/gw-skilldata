@@ -2,8 +2,8 @@
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 final class SkillLangGerman extends SkillData{
-public const LANG = Lang::DE;
-protected const ID2DESC = [
+public const string LANG = Lang::DE;
+protected const array ID2DESC = [
 0=>['Keine Fertigkeit','Leerer Fertigkeiten-Slot','Leerer Slot'],
 1=>['Siegel der Heilung','Ihr heilt Euch um 82...172 Lebenspunkte. Während diese Fertigkeit benutzt wird, habt Ihr -40 Rüstung.','Heilt Euch um 82...172 Lebenspunkte. <gray>Während Ihr diese Fertigkeit benutzt, habt Ihr -40 Rüstung.</gray>'],
 2=>['Siegel der Wiederbelebung','Das als Ziel ausgewählte Gruppenmitglied wird wiederbelebt. Dieses Gruppenmitglied kehrt mit 100% seiner Lebenspunkte und 25% seiner Energiepunkte ins Leben zurück. Dieses Siegel wird nur dann wieder aufgeladen, wenn Ihr einen Moralschub erhaltet.','Das Gruppenmitglied wird wiederbelebt (100% Lebenspunkte, 25% Energiepunkte). <gray>Dieses Siegel wird nur dann wieder aufgeladen, wenn Ihr einen Moralschub erhaltet.</gray>'],

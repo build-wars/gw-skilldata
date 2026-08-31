@@ -22,11 +22,11 @@ use function trim;
  */
 final class Lang{
 
-	public const DE = 'de';
-	public const EN = 'en';
-	public const FR = 'fr';
+	public const string DE = 'de';
+	public const string EN = 'en';
+	public const string FR = 'fr';
 
-	public const IDS = [
+	public const array IDS = [
 		self::DE,
 		self::EN,
 		self::FR,
@@ -35,13 +35,14 @@ final class Lang{
 	/**
 	 * @var array<string, array<string, string>>
 	 */
-	public const NAMES = [
+	public const array NAMES = [
 		self::DE => [self::DE => 'Deutsch' ,    self::EN => 'German',  self::FR => 'Allemande',],
 		self::EN => [self::DE => 'Englisch',    self::EN => 'English', self::FR => 'Anglaise', ],
 		self::FR => [self::DE => 'Französisch', self::EN => 'French',  self::FR => 'Français', ],
 	];
 
 	public const PVP_SUFFIX = [
+	public const array PVP_SUFFIX = [
 		self::DE => '%s (PvP)',
 		self::EN => '%s (PvP)',
 		self::FR => '%s (PvP)',

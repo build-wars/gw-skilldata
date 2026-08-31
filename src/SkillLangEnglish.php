@@ -2,8 +2,8 @@
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 final class SkillLangEnglish extends SkillData{
-public const LANG = Lang::EN;
-protected const ID2DESC = [
+public const string LANG = Lang::EN;
+protected const array ID2DESC = [
 0=>['No Skill','Empty skill slot','Empty slot'],
 1=>['Healing Signet','You gain 82...172 Health. You have -40 armor while using this skill.','You gain 82...172 Health. <gray>You have -40 armor while using this skill.</gray>'],
 2=>['Resurrection Signet','Resurrect target party member. That party member is returned to life with 100% Health and 25% Energy. This signet only recharges when you gain a morale boost.','Resurrects target party member (100% Health, 25% Energy). This signet only recharges when you gain a morale boost.'],
