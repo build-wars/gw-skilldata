@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 use Closure;
+use Deprecated;
 use function array_map;
 use function floor;
 use function implode;
@@ -75,14 +76,14 @@ final class Attribute extends DataObjectAbstract{
 	// not exactly sure what to do with the "no attribute" - technically we could move it to -1
 	public const int NONE                = 101;
 	// PvE titles are technically attributes - WTB "official" internal IDs
-	public const int TITLE_SUNSPEAR      = 102;
-	public const int TITLE_LIGHTBRINGER  = 103;
-	public const int TITLE_LUXON         = 104;
-	public const int TITLE_KURZICK       = 105;
-	public const int TITLE_ASURA         = 106;
-	public const int TITLE_DELDRIMOR     = 107;
-	public const int TITLE_VANGUARD      = 108;
-	public const int TITLE_NORN          = 109;
+	public const int TITLE_SUNSPEAR      = 102; // 17
+	public const int TITLE_LIGHTBRINGER  = 103; // 20
+	public const int TITLE_LUXON         = 104; // 6
+	public const int TITLE_KURZICK       = 105; // 5
+	public const int TITLE_ASURA         = 106; // 38
+	public const int TITLE_DELDRIMOR     = 107; // 39
+	public const int TITLE_VANGUARD      = 108; // 40
+	public const int TITLE_NORN          = 109; // 41
 
 	public const array NAME = [
 		self::FAST_CASTING        => [
@@ -470,8 +471,8 @@ final class Attribute extends DataObjectAbstract{
 
 	/**
 	 * Returns the current attribute level
-	 * @deprecated 3.0.0 use the public property $level instead
 	 */
+	#[Deprecated('use the public property $level instead', '3.0.0')]
 	public function getLevel():int{
 		return $this->level;
 	}
