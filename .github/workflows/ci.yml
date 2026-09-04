@@ -72,9 +72,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os:
-          - ubuntu-latest
-          - windows-latest
+        os: [ubuntu-latest, windows-latest]
         php-version:
           - "8.4"
           - "8.5"
@@ -101,7 +99,7 @@ jobs:
         run: php vendor/bin/phpunit --colors=always --configuration=phpunit.xml.dist
 
       - name: "Send code coverage report to Codecov.io"
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: .build/coverage/clover.xml
@@ -188,12 +186,17 @@ jobs:
           mkdir ./public/json/skills
           cp ./data/json-skills/*.json ./public/json/skills
           mkdir ./public/pawned
-          cp ./.build/*.ini ./public/pawned
-          cp ./.build/*.csv ./public/pawned
+          cp ./.build/pawned/*.csv ./public/pawned
+          cp ./.build/pawned/*.ini ./public/pawned
           mkdir ./public/schemas
           cp ./data/schemas/*.schema.json ./public/schemas
 
-      - name: "upload artifacts"
+      # windows: 7z a -r archive.zip ./dir/*
+      - name: "Zip release files"
+        shell: bash
+        run: zip -r buildwars-gw-skilldata.zip ./public
+
+      - name: "Upload artifacts"
         uses: actions/upload-artifact@v7
         with:
           name: gw-skilldata-${{ github.sha }}
@@ -204,18 +207,7 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           files: |
-            dist/gw-skilldata-es6.js
-            dist/gw-skilldata-es6-src.js
-            dist/gw-skilldata-iife.js
-            dist/gw-skilldata-iife-src.js
-            dist/gw-skilldata-node.cjs
-            dist/gw-skilldata-node-src.cjs
-            dist/gw-skilldata-umd.js
-            dist/gw-skilldata-umd-src.js
-            public/json-full/skilldata.json
-            public/json-full/skilldata-combined.json
-            public/json-full/skilldesc-*.json
-            public/pawned/*
+            buildwars-gw-skilldata.zip
 
       - name: "Publish files to gh-pages"
         if: github.ref_name == 'main'
