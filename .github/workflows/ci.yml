@@ -194,7 +194,7 @@ jobs:
       # windows: 7z a -r archive.zip ./dir/*
       - name: "Zip release files"
         shell: bash
-        working-directory: build
+        working-directory: ./public
         run: zip -r ./buildwars-gw-skilldata.zip .
 
       - name: "Upload artifacts"
