@@ -248,10 +248,31 @@ final class Lang{
 		],
 	];
 
+	private const array STR_STACKING = [
+		self::DE => '%s <gray>(Stapelbar)</gray>',
+		self::EN => '%s <gray>(Stacking)</gray>',
+		self::ES => '',
+		self::FR => '%s <gray>(Cumulable)</gray>',
+		self::IT => '',
+		self::JA => '',
+		self::KO => '',
+		self::PL => '',
+		self::RU => '',
+		self::XX => '',
 	];
 
-	public const PVP_SUFFIX = [
-	public const array PVP_SUFFIX = [
+	private const array STR_NONSTACKING = [
+		self::DE => '%s <gray>(Nicht stapelbar)</gray>',
+		self::EN => '%s <gray>(Non-stacking)</gray>',
+		self::ES => '',
+		self::FR => '%s <gray>(Non cumulable)</gray>',
+		self::IT => '',
+		self::JA => '',
+		self::KO => '',
+		self::PL => '',
+		self::RU => '',
+		self::XX => '',
+	];
 
 	private const array PVP_SUFFIX = [
 		self::DE => '%s (PvP)',
@@ -323,6 +344,15 @@ final class Lang{
 	 */
 	public function getPvpName(string $name):string{
 		return sprintf(self::PVP_SUFFIX[$this->id], $name);
+	}
+
+	/**
+	 * Adds a "stacking" or "non-stacking" suffix
+	 */
+	public function getStackable(string $affix, bool $stackable):string{
+		$suffix = ($stackable ? self::STR_NONSTACKING : self::STR_STACKING);
+
+		return sprintf($suffix[$this->id], $affix);
 	}
 
 	public function getClassName(string|null $id = null):string{
