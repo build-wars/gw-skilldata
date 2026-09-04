@@ -19,6 +19,7 @@ interface SkillDataInterface{
 	public const array SKILLS_DELDRIMOR    = [];
 	public const array SKILLS_VANGUARD     = [];
 	public const array SKILLS_NORN         = [];
+
 	/**
 	 * The language abbreviation, key for the several `name` arrays
 	 *

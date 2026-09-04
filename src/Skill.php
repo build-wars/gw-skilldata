@@ -273,6 +273,9 @@ final class Skill{
 	private(set) string     $description;
 	private(set) string     $concise;
 
+	/**
+	 * @param array<string, scalar|\Buildwars\GWSkillData\DataObjectInterface> $skilldata
+	 */
 	public function __construct(array $skilldata, Lang|string $lang = Lang::EN){
 		$this->lang = $lang;
 
@@ -321,6 +324,8 @@ final class Skill{
 
 	/**
 	 * Returns the display name for the given field
+	 *
+	 * @throws \InvalidArgumentException
 	 */
 	public function getFieldName(string $field, Lang|string $lang = Lang::EN):string{
 

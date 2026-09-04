@@ -60,7 +60,7 @@ final class AttributeTest extends TestCase{
 
 		$attr->setLevel(69); // test clamping
 
-		$this::assertSame(21, $attr->getLevel());
+		$this::assertSame(21, $attr->level);
 	}
 
 	#[Test]
@@ -70,7 +70,7 @@ final class AttributeTest extends TestCase{
 		$attr->setLevel(12);
 		$attr->addLevel(4);
 
-		$this::assertSame(16, $attr->getLevel());
+		$this::assertSame(16, $attr->lang);
 	}
 
 	public static function professionProvider():array{
@@ -102,6 +102,11 @@ final class AttributeTest extends TestCase{
 		$this::assertSame($expected, (new Attribute($attribute))->getMaxValue());
 	}
 
+	/**
+	 * @param int[] $expected
+	 *
+	 * @return void
+	 */
 	#[Test]
 	#[TestWith([Profession::MESMER, [
 		Attribute::FAST_CASTING, Attribute::ILLUSION_MAGIC,
@@ -168,6 +173,9 @@ final class AttributeTest extends TestCase{
 		];
 	}
 
+	/**
+	 * @param array<int, int> $expected
+	 */
 	#[Test]
 	#[DataProvider('progressionValueProvider')]
 	public function getProgressionValue(int $attribute, int $val0, int $val15, array $expected):void{
@@ -185,6 +193,9 @@ final class AttributeTest extends TestCase{
 		}
 	}
 
+	/**
+	 * @param array<int, int> $expected
+	 */
 	#[Test]
 	#[DataProvider('progressionValueProvider')]
 	public function progressionTable(int $attribute, int $val0, int $val15, array $expected):void{

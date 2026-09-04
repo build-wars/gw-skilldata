@@ -12,7 +12,7 @@
  * @copyright    2026 smiley
  * @license      MIT
  */
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Builder;
 
@@ -80,6 +80,11 @@ final class BuildDataFromToolbox extends BuilderAbstract{
 		return $this->saveDataJSON($skillData)->createDataClass($skillData);
 	}
 
+	/**
+	 * @param array<string, scalar> $skill
+	 *
+	 * @return array<string, scalar>
+	 */
 	private function createSkill(array $skill):array{
 		$newSkill = $this->createDataFields($skill['id']);
 
@@ -120,6 +125,9 @@ final class BuildDataFromToolbox extends BuilderAbstract{
 		return $newSkill;
 	}
 
+	/**
+	 * @return array<string, scalar>
+	 */
 	private function createDataFields(int $id):array{
 		$fields = [];
 

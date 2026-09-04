@@ -88,6 +88,11 @@ final class BuildFromWiki extends BuilderAbstract{
 		return $this;
 	}
 
+	/**
+	 * @param array<string, scalar> $data
+	 * @param array<string, scalar> $current
+	 * @return array<string, scalar>
+	 */
 	private function updateSkillDesc(array $data, array $current, string $knownName):array{
 
 		if($data[Skill::DESC_NAME] !== $knownName){
@@ -101,6 +106,11 @@ final class BuildFromWiki extends BuilderAbstract{
 		return $current;
 	}
 
+	/**
+	 * @param array<string, scalar> $data
+	 * @param array<string, scalar> $current
+	 * @return array<string, scalar>
+	 */
 	private function updateSkillData(array $data, array $current):array{
 
 		foreach(Skill::KEYS_DATA as $key){

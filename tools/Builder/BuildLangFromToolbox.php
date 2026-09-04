@@ -71,6 +71,10 @@ final class BuildLangFromToolbox extends BuilderAbstract{
 		return $this;
 	}
 
+	/**
+	 * @param array<string, scalar> $skill
+	 * @return array<string, scalar>
+	 */
 	private function createDesc(array $skill):array{
 		$desc = $this->createLangFields($skill['id']);
 
@@ -85,6 +89,10 @@ final class BuildLangFromToolbox extends BuilderAbstract{
 		return $desc;
 	}
 
+	/**
+	 * @param array<string, scalar> $skill
+	 * @return array<string, string|int>
+	 */
 	private function createLangFields(int $id):array{
 		$fields = [Skill::DATA_ID => $id];
 

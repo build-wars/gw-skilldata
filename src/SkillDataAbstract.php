@@ -38,8 +38,10 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	 */
 	protected const array ID2DATA = [];
 
-
-	/** @phan-suppress PhanTypeMismatchArgumentNullableInternal */
+	/**
+	 * @throws \InvalidArgumentException
+	 * @phan-suppress PhanTypeMismatchArgumentNullableInternal
+	 */
 	public function get(int $id, bool $pvp = false):Skill{
 
 		if(!array_key_exists($id, static::ID2DATA)){
@@ -77,7 +79,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return $skills;
 	}
 
-	public function getAll(array $IDs, bool $pvp = false):array{
+	public function getAll(array $IDs, bool $pvp = false):array{ // phpcs:ignore
 		return array_map(fn(int $id):Skill => $this->get($id, $pvp), $IDs);
 	}
 

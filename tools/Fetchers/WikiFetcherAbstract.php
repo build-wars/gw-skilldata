@@ -78,6 +78,8 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 	/**
 	 * WikiFetcher constructor
+	 *
+	 * @throws \RuntimeException
 	 */
 	public function __construct(
 		protected readonly SettingsContainerInterface|BuilderOptions $options,
@@ -97,8 +99,14 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		$this->skilltypes = array_combine(array_column(Type::NAME, static::LANG), array_keys(Type::NAME));
 	}
 
+	/**
+	 * @return array<string, scalar>
+	 */
 	abstract protected function parseInfobox(string $infobox, int $id):array;
 
+	/**
+	 * @param array<string, mixed> $data
+	 */
 	protected function parseResponse(string $skillName, array $data, int $id):array{
 
 		if(!isset($data['revisions'][0]['slots']['main']['*'])){
@@ -327,6 +335,9 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		return ($calc($parts[0]) + $calc($parts[1]));
 	}
 
+	/**
+	 * @param string[] $needles
+	 */
 	protected function strContainsAny(string $haystack, array $needles, bool $case_insensitive = false):bool{
 
 		if($case_insensitive){

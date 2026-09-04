@@ -74,7 +74,7 @@ final class ProfessionTest extends TestCase{
 		$attribute  = $profession->getPrimaryAttribute(16);
 
 		$this::assertSame(Attribute::ENERGY_STORAGE, $attribute->id);
-		$this::assertSame(16, $attribute->getLevel());
+		$this::assertSame(16, $attribute->level);
 	}
 
 	#[Test]

@@ -242,6 +242,7 @@ INI;
 			$wikiedit = sprintf('"https://%s/index.php?title=%%wikistr%%&action=edit"', self::INI_METADATA[$lang]['wiki']);
 		}
 
+		/** @phan-suppress-next-line PhanParamSuspiciousOrder */
 		$ini = strtr(self::INI_BODY, [
 			'{LANG}'        => self::INI_METADATA[$lang]['lang'],
 			'{MODE}'        => $mode,

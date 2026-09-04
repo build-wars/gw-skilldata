@@ -16,16 +16,12 @@ use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 use chillerlan\Utilities\File;
 use function sprintf;
-use function var_dump;
 
 final class BuildCombinedJSON extends BuilderAbstract{
 	use SkillDataAwareTrait;
 
 	public function build():static{
 		$jsonData = File::loadJSON(self::JSON_SKILLDATA_FILE, true);
-		// change the schema
-		$jsonData['$schema'] = self::SCHEMA_SKILLDATA_COMBINED;
-
 		// cache the languages
 		$jsonLang = [];
 
@@ -49,6 +45,9 @@ final class BuildCombinedJSON extends BuilderAbstract{
 
 			$this->logger->info(sprintf('JSON for [%-4s] [%s]', $skillID, $skillData['lang'][Lang::EN][Skill::DESC_NAME]));
 		}
+
+		// change the schema
+		$jsonData['$schema'] = self::SCHEMA_SKILLDATA_COMBINED;
 
 		$savepath = $this->saveJSON(static::JSON_SKILLDATA_COMBINED, $jsonData);
 

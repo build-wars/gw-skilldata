@@ -27,7 +27,7 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 				throw new InvalidArgumentException(sprintf('invalid ID "%s" (%s)', $value, static::class));
 			}
 
-			$this->id = $value;
+			$this->id = $value; // phpcs:ignore
 		}
 	}
 
@@ -60,36 +60,20 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 		return new Lang($lang);
 	}
 
-	/**
-	 * Returns the readable name of the given ID
-	 */
 	public function getName(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
 		return static::NAME[$this->id][$lang->id];
 	}
 
-	/**
-	 * Checks whether the object ID is equal to the given ID
-	 */
 	public function is(int $id):bool{
 		return $this->id === $id;
 	}
 
-	/**
-	 * Checks whether the object ID is in the given array of IDs
-	 *
-	 * @param int[] $ids
-	 */
-	public function in(array $ids):bool{
+	public function in(array $ids):bool{ // phpcs:ignore
 		return in_array($this->id, $ids, true);
 	}
 
-	/**
-	 * @param \Buildwars\GWSkillData\Lang|string|null $lang
-	 *
-	 * @return string
-	 */
 	public function toHTML(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 

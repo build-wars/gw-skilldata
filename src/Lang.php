@@ -281,9 +281,9 @@ final class Lang{
 	public function __construct(string $id){
 		// wiki lang fixtures
 		$this->id = match($id){
-			Lang::DE_GUILDWIKI => Lang::DE,
-			Lang::EN_GWW       => Lang::EN,
-			Lang::FR_GWIKI     => Lang::FR,
+			self::DE_GUILDWIKI => self::DE,
+			self::EN_GWW       => self::EN,
+			self::FR_GWIKI     => self::FR,
 			default            => $id,
 		};
 	}
@@ -306,6 +306,8 @@ final class Lang{
 
 	/**
 	 * Returns the readable name of the given language ID
+	 *
+	 * @throws \InvalidArgumentException
 	 */
 	public function getName(string|null $id = null):string{
 

@@ -130,6 +130,10 @@ abstract class BuilderAbstract implements BuilderInterface{
 		return new Logger('log', [$logHandler]);
 	}
 
+	/**
+	 * @param string[] $dirs
+	 * @throws \RuntimeException
+	 */
 	protected function createCacheDirectories(array $dirs):static{
 
 		foreach($dirs as $dir){
@@ -166,6 +170,9 @@ abstract class BuilderAbstract implements BuilderInterface{
 		return File::realpath($filepath);
 	}
 
+	/**
+	 * @param array<string, mixed> $data
+	 */
 	protected function saveJSON(string $filepath, array $data):string{
 		return $this->saveFile($filepath, strtr(Str::jsonEncode($data), ['    ' => "\t"]));
 	}
@@ -174,6 +181,9 @@ abstract class BuilderAbstract implements BuilderInterface{
 		return sprintf(self::JSON_LANG_FILE, $langID);
 	}
 
+	/**
+	 * @param array<int, array<string, scalar>> $skillData
+	 */
 	protected function saveDataJSON(array $skillData, string $file = self::JSON_SKILLDATA_FILE):static{
 		ksort($skillData);
 
@@ -185,6 +195,9 @@ abstract class BuilderAbstract implements BuilderInterface{
 		return $this;
 	}
 
+	/**
+	 * @param array<int, array<string, string|int>> $skillDesc
+	 */
 	protected function saveLangJSON(array $skillDesc, string $langID):static{
 		ksort($skillDesc);
 
@@ -196,6 +209,9 @@ abstract class BuilderAbstract implements BuilderInterface{
 		return $this;
 	}
 
+	/**
+	 * @param array<int, array<string, scalar>> $skillData
+	 */
 	protected function createDataClass(array $skillData):static{
 
 		$content = [
@@ -225,6 +241,9 @@ abstract class BuilderAbstract implements BuilderInterface{
 		return $this;
 	}
 
+	/**
+	 * @param array<int, array<string, string|int>> $skillDesc
+	 */
 	protected function createLangClass(array $skillDesc, string $langID):static{
 		$lang      = new Lang($langID);
 		$className = $lang->getClassName($langID);
