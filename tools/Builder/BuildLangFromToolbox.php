@@ -90,7 +90,6 @@ final class BuildLangFromToolbox extends BuilderAbstract{
 	}
 
 	/**
-	 * @param array<string, scalar> $skill
 	 * @return array<string, string|int>
 	 */
 	private function createLangFields(int $id):array{
