@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 use InvalidArgumentException;
+use function array_key_exists;
 use function in_array;
 use function sprintf;
 use function strtolower;
@@ -22,6 +23,7 @@ use function trim;
  */
 final class Lang{
 
+	public const string CN = 'chs'; // simplified chinese
 	public const string DE = 'de';
 	public const string EN = 'en';
 	public const string ES = 'es';
@@ -32,22 +34,66 @@ final class Lang{
 	public const string PL = 'pl';
 	public const string RU = 'ru';
 	public const string XX = 'bork';
+	public const string ZH = 'cht'; // traditional chinese
+
+	public const string DE_GUILDWIKI = 'de-guildwiki';
+	public const string EN_GWW       = 'en-gww';
+	public const string FR_GWIKI     = 'fr-gwiki';
 
 	public const array IDS = [
+		self::CN,
 		self::DE,
 		self::EN,
 		self::ES,
 		self::FR,
+		self::IT,
+		self::JA,
+		self::KO,
+		self::PL,
+		self::RU,
+		self::XX,
+		self::ZH,
+	];
+
+	private const array CLASSNAME_SUFFIX = [
+		self::CN => 'SimplifiedChinese',
+		self::DE => 'German',
+		self::EN => 'English',
+		self::ES => 'Spanish',
+		self::FR => 'French',
+		self::IT => 'Italian',
+		self::JA => 'Japanese',
+		self::KO => 'Korean',
+		self::PL => 'Polish',
+		self::RU => 'Russian',
+		self::XX => 'Bork',
+		self::ZH => 'TraditionalChinese',
+		// special types
+		self::DE_GUILDWIKI => 'GermanGuildWiki',
+		self::EN_GWW       => 'EnglishGWW',
+		self::FR_GWIKI     => 'FrenchGWiki',
 	];
 
 	/**
 	 * @var array<string, array<string, string>>
 	 */
 	public const array NAMES = [
-		self::DE => [self::DE => 'Deutsch' ,    self::EN => 'German',  self::FR => 'Allemande',],
-		self::EN => [self::DE => 'Englisch',    self::EN => 'English', self::FR => 'Anglaise', ],
-		self::FR => [self::DE => 'Französisch', self::EN => 'French',  self::FR => 'Français', ],
+		self::CN => [
+			self::CN => '简体中文',
+			self::DE => 'Chinesisch (vereinfacht)',
+			self::EN => 'Chinese (simplified)',
+			self::ES => 'Chino simplificado',
+			self::FR => 'Chinois simplifié',
+			self::IT => 'Cinese semplificato',
+			self::JA => '',
+			self::KO => '',
+			self::PL => '',
+			self::RU => '',
+			self::XX => '',
+			self::ZH => '簡體中文',
+		],
 		self::DE => [
+			self::CN => '',
 			self::DE => 'Deutsch',
 			self::EN => 'German',
 			self::ES => 'Alemán',
@@ -58,8 +104,10 @@ final class Lang{
 			self::PL => 'niemiecki',
 			self::RU => 'немецкий',
 			self::XX => 'Germun',
+			self::ZH => '',
 		],
 		self::EN => [
+			self::CN => '',
 			self::DE => 'Englisch',
 			self::EN => 'English',
 			self::ES => 'Inglés',
@@ -70,8 +118,10 @@ final class Lang{
 			self::PL => 'angielski',
 			self::RU => 'Английский',
 			self::XX => 'Ingleesh',
+			self::ZH => '',
 		],
 		self::ES => [
+			self::CN => '',
 			self::DE => 'Spanisch',
 			self::EN => 'Spanish',
 			self::ES => 'Español',
@@ -82,8 +132,10 @@ final class Lang{
 			self::PL => 'hiszpański',
 			self::RU => 'испанский',
 			self::XX => 'Spuneesh',
+			self::ZH => '',
 		],
 		self::FR => [
+			self::CN => '',
 			self::DE => 'Französisch',
 			self::EN => 'French',
 			self::ES => 'Francés',
@@ -94,8 +146,10 @@ final class Lang{
 			self::PL => 'francuski',
 			self::RU => 'Французский',
 			self::XX => 'French',
+			self::ZH => '',
 		],
 		self::IT => [
+			self::CN => '',
 			self::DE => 'Italienisch',
 			self::EN => 'Italian',
 			self::ES => 'Italiano',
@@ -106,8 +160,10 @@ final class Lang{
 			self::PL => 'włoski',
 			self::RU => 'итальянский',
 			self::XX => 'Itaeleeun',
+			self::ZH => '',
 		],
 		self::JA => [
+			self::CN => '',
 			self::DE => 'Japanisch',
 			self::EN => 'Japanese',
 			self::ES => 'Japonés',
@@ -118,8 +174,10 @@ final class Lang{
 			self::PL => 'japoński',
 			self::RU => 'японский',
 			self::XX => 'Jaepunese-a',
+			self::ZH => '',
 		],
 		self::KO => [
+			self::CN => '',
 			self::DE => 'Koreanisch',
 			self::EN => 'Korean',
 			self::ES => 'Coreano',
@@ -130,8 +188,10 @@ final class Lang{
 			self::PL => 'koreański',
 			self::RU => 'корейский',
 			self::XX => 'Kureun',
+			self::ZH => '',
 		],
 		self::PL => [
+			self::CN => '',
 			self::DE => 'Polnisch',
 			self::EN => 'Polish',
 			self::ES => 'Polaco',
@@ -142,8 +202,10 @@ final class Lang{
 			self::PL => 'polski',
 			self::RU => 'польский',
 			self::XX => 'Puleesh',
+			self::ZH => '',
 		],
 		self::RU => [
+			self::CN => '',
 			self::DE => 'Russisch',
 			self::EN => 'Russian',
 			self::ES => 'Ruso',
@@ -154,8 +216,10 @@ final class Lang{
 			self::PL => 'rosyjski',
 			self::RU => 'Русский',
 			self::XX => 'Roosseeun',
+			self::ZH => '',
 		],
 		self::XX => [
+			self::CN => '',
 			self::DE => 'Bork! Bork! Bork!',
 			self::EN => 'Bork! Bork! Bork!',
 			self::ES => '-¡Bork, bork, bork!-',
@@ -166,6 +230,21 @@ final class Lang{
 			self::PL => 'Bork! Bork! Bork!',
 			self::RU => '',
 			self::XX => 'Burk! Burk! Burk!',
+			self::ZH => '',
+		],
+		self::ZH => [
+			self::CN => '传统中文',
+			self::DE => 'Chinesisch (traditionell)',
+			self::EN => 'Chinese (traditional)',
+			self::ES => 'Chino tradicional',
+			self::FR => 'Chinois traditionnel',
+			self::IT => 'Tradizionale Cinese',
+			self::JA => '',
+			self::KO => '',
+			self::PL => '',
+			self::RU => '',
+			self::XX => '',
+			self::ZH => '傳統中文',
 		],
 	];
 
@@ -173,6 +252,8 @@ final class Lang{
 
 	public const PVP_SUFFIX = [
 	public const array PVP_SUFFIX = [
+
+	private const array PVP_SUFFIX = [
 		self::DE => '%s (PvP)',
 		self::EN => '%s (PvP)',
 		self::ES => '%s (PvP)',
@@ -198,7 +279,13 @@ final class Lang{
 	}
 
 	public function __construct(string $id){
-		$this->id = $id;
+		// wiki lang fixtures
+		$this->id = match($id){
+			Lang::DE_GUILDWIKI => Lang::DE,
+			Lang::EN_GWW       => Lang::EN,
+			Lang::FR_GWIKI     => Lang::FR,
+			default            => $id,
+		};
 	}
 
 	/**
@@ -236,5 +323,14 @@ final class Lang{
 		return sprintf(self::PVP_SUFFIX[$this->id], $name);
 	}
 
+	public function getClassName(string|null $id = null):string{
+		$id ??= $this->id;
+
+		if(!array_key_exists($id, self::CLASSNAME_SUFFIX)){
+			throw new InvalidArgumentException('invalid language');
+		}
+
+		return sprintf('SkillLang%s', self::CLASSNAME_SUFFIX[$id]);
+	}
 
 }
