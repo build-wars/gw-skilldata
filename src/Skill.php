@@ -71,7 +71,7 @@ final class Skill{
 	public const array KEYS_DATA = [
 		self::DATA_ID, self::DATA_CAMPAIGN, self::DATA_PROFESSION, self::DATA_ATTRIBUTE, self::DATA_IS_ELITE,
 		self::DATA_IS_RP, self::DATA_IS_PVP, self::DATA_PVP_SPLIT, self::DATA_SPLIT_ID, self::DATA_TYPE,
-		self::DATA_UPKEEP, self::DATA_ENERGY, self::DATA_ACTIVATION, /*self::DATA_AFTERCAST,*/ self::DATA_RECHARGE,
+		self::DATA_UPKEEP, self::DATA_ENERGY, self::DATA_ACTIVATION, self::DATA_AFTERCAST, self::DATA_RECHARGE,
 		self::DATA_ADRENALINE, self::DATA_ADRENALINE_PRECISE, self::DATA_SACRIFICE, self::DATA_EXHAUSTION,
 	];
 
@@ -260,6 +260,7 @@ final class Skill{
 	private(set) bool       $pvp_split;
 	private(set) int        $split_id;
 	private(set) int|float  $activation;
+	private(set) int|float  $aftercast;
 	private(set) int        $recharge;
 	private(set) int        $energy;
 	private(set) int        $upkeep;

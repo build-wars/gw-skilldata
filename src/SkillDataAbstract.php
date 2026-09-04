@@ -162,4 +162,8 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return $ids;
 	}
 
+	public function getLang():Lang{
+		return new Lang(static::LANG);
+	}
+
 }
