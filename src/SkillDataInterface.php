@@ -15,6 +15,14 @@ namespace Buildwars\GWSkillData;
 
 interface SkillDataInterface{
 
+	/*
+	 * we're keeping the IDs for the PvE skills of the several factions here as they might come in handy
+	 */
+
+	public const array SKILLS_KURZICK      = [2091, 2092, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100];
+	public const array SKILLS_LUXON        = [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1957, 2051];
+	public const array SKILLS_SUNSPEAR     = [2101, 2102, 2103, 2104, 2105, 2107, 2108, 2109, 2110, 2112];
+	public const array SKILLS_LIGHTBRINGER = [1814, 1815];
 	public const array SKILLS_ASURA        = [];
 	public const array SKILLS_DELDRIMOR    = [];
 	public const array SKILLS_VANGUARD     = [];
@@ -102,5 +110,10 @@ interface SkillDataInterface{
 	 * @return int[]
 	 */
 	public function getIDs(bool|null $pvp = null):array;
+
+	/**
+	 * Returns the current language
+	 */
+	public function getLang():Lang;
 
 }
