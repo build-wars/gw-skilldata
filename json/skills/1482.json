@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "屠魂",
+				"description": "精英咒文。 摧毁目标友方召唤生物，获得5...20点能量值。",
+				"concise": "精英咒文。 摧毁目标友方召唤生物，获得5...20点能量值。"
+			},
+			"cht": {
+				"name": "本質回收",
+				"description": "精英咒文魔法： 所有你控制的靈死去，若有一個靈死掉，你獲得5...20能量，同時所有縛靈儀式回復。",
+				"concise": "精英咒文魔法： 所有你控制的靈死去，若有一個靈死掉，你獲得5...20能量，同時所有縛靈儀式回復。"
+			},
 			"de": {
+				"name": "Essenz zurückfordern",
+				"description": "Elite-Zauber. All Eure Geister sterben. Ihr erhaltet 5...20 Energiepunkt[e] und all Eure Binderituale werden wieder aufgeladen, wenn ein Geist auf diese Weise stirbt.",
+				"concise": "Elite-Zauber. All Eure Geister sterben. Wenn ein Geist auf diese Weise stirbt, erhaltet Ihr 5...20 Energiepunkt[e] und all Eure Binderituale werden wieder aufgeladen."
+			},
+			"de-guildwiki": {
 				"name": "Essenz zurückfordern",
 				"description": "Alle Eure Geister sterben. Ihr erhaltet 5...20 Energiepunkte und all Eure Binderituale werden wieder aufgeladen, wenn ein Geist auf diese Weise stirbt.",
 				"concise": "All Eure Geister sterben. Wenn ein Geist auf diese Weise stirbt, erhaltet Ihr 5...20 Energiepunkte und all Eure Binderituale werden wieder aufgeladen."
 			},
 			"en": {
 				"name": "Reclaim Essence",
+				"description": "Elite Spell. All of your spirits die. You gain 5...20 Energy and all of your Binding Rituals are recharged if a spirit died in this way.",
+				"concise": "Elite Spell. All of your Spirits die. If a Spirit dies in this way, you gain 5...20 Energy and all of your Binding Rituals are recharged."
+			},
+			"en-gww": {
+				"name": "Reclaim Essence",
 				"description": "All of your Spirits die. You gain 5...20 Energy and all of your Binding Rituals are recharged if a Spirit died in this way.",
 				"concise": "All of your Spirits die. If a Spirit dies in this way, you gain 5...20 Energy and all of your Binding Rituals are recharged."
 			},
+			"es": {
+				"name": "Reclamo de esencia",
+				"description": "Conjuro de élite. Todos tus espíritus mueren. Ganas 5...20 de energía y todos tus rituales de encadenamiento se recargan si algún espíritu muere de esta forma.",
+				"concise": "Conjuro de élite. Todos tus espíritus mueren. Si alguno muere de esta forma, ganas 5...20 de energía y todos tus rituales de encadenamiento se recargan."
+			},
 			"fr": {
+				"name": "Essence récupérée",
+				"description": "Sort d'élite. Tous vos esprits meurent. Vous obtenez 5...20 points d'énergie et tous vos rituels d'asservissement sont rechargés si un esprit meurt de cette manière.",
+				"concise": "Sort d'élite. Tous vos esprits meurent. Si un esprit meurt de cette manière, vous obtenez 5...20 points d'énergie et tous vos rituels d'asservissement sont rechargés."
+			},
+			"fr-gwiki": {
 				"name": "Essence récupérée",
 				"description": "Tous vos esprits meurent. Vous obtenez 5...20 points d'énergie et tous vos rituels d'asservissement sont rechargés si un esprit meurt de cette manière.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Reclama Essenza",
+				"description": "Magia d'Élite. Tutti i tuoi Spiriti muoiono. Ottieni 5...20 Punto[i] Energia e tutti i tuoi Rituali Incatenanti si ricaricano se uno Spirito è morto in questo modo.",
+				"concise": "Magia d'Élite. Tutti i tuoi Spiriti muoiono. Energia conseguita se uno Spirito muore in questo modo: 5...20. Tutti i tuoi Rituali Incatenanti si ricaricano."
+			},
+			"jp": {
+				"name": "リクレイム エッセンス",
+				"description": "エリート スペル： プレイヤーが召喚した精霊がすべて消滅します。この効果により精霊が消滅すると、プレイヤーは 5...20 のエネルギーを獲得し、バインド リチュアル スキルがすぐに再使用できます。",
+				"concise": "エリート スペル： 召喚した精霊が消滅します。この効果により精霊が消滅すると、プレイヤーは 5...20 のエネルギーを獲得し、バインド リチュアル スキルがすぐに再使用できます。"
+			},
+			"kr": {
+				"name": "정기의 회수",
+				"description": "엘리트 마법. 대상 지정: 없음. 자신의 영혼이 전부 죽습니다. 영혼이 죽으면 5...20의 에너지를 얻고, 모든 영혼 결속 스킬이 재활성됩니다.",
+				"concise": "엘리트 마법. 자신의 영혼이 전부 죽습니다. 영혼이 죽으면 5...20의 에너지를 얻고, 모든 영혼 결속 스킬이 재활성됩니다."
+			},
+			"pl": {
+				"name": "Odzyskanie Esencji",
+				"description": "Elitarny czar. Wszystkie twoje duchy giną. Otrzymujesz 5...20 pkt. energii, a wszystkie twoje rytuały spętania natychmiast się odnawiają, jeżeli w ten sposób zginie jakiś duch.",
+				"concise": "Elitarny czar. Giną wszystkie twoje duchy. Jeżeli w ten sposób zginie duch, otrzymujesz 5...20 pkt. energii, a wszystkie twoje Rytuały Spętania natychmiast się odnawiają."
+			},
+			"ru": {
+				"name": "Reclaim Essence",
+				"description": "Элитное заклинание. Все ваши духи умирают. Вы получите 5...20 ед. энергии, и все ваши связующие ритуалы будут перезаряжены, если дух будет уничтожен с помощью этого умения.",
+				"concise": "Элитное заклинание. Все ваши духи умирают. Если дух уничтожен с помощью этого умения, вы получаете 5...20 ед. энергии, и все ваши связующие ритуалы оказываются перезаряжеными."
+			},
+			"bork": {
+				"name": "Reclaeeem Issence-a",
+				"description": "Ileete-a Spell. Aell ooff yuoor spureets deee-a. Yuoo gaeeen 5...20 Inergy und aell ooff yuoor Beendeeng Reetooaels aere-a rechaerged iff a spureet deeed in thees vaey.",
+				"concise": "Ileete-a Spell. Aell ooff yuoor Spureets deee-a. Iff a Spureet deees in thees vaey, yuoo gaeeen 5...20 Inergy und aell ooff yuoor Beendeeng Reetooaels aere-a rechaerged. Bork! Bork! Bork!"
 			}
 		}
 	}

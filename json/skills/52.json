@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "惊恐",
+				"description": "精英负面魔法。 使目标敌人及其附近的敌人遭受 2点「能量衰减」，每当这些敌人使用「纹章」类技能时，将会受到 10...82点 伤害，效果持续 1...10秒。",
+				"concise": "精英负面魔法。 使目标敌人及其附近的敌人遭受 2点「能量衰减」，每当这些敌人使用「纹章」类技能时，将会受到 10...82点 伤害，效果持续 1...10秒。"
+			},
+			"cht": {
+				"name": "恐慌",
+				"description": "精英降咒魔法： 持續 1...10 秒，同時降咒目標及其附近敵人，每當他們成功使用技能時，附近其他敵人的動作將被中斷。",
+				"concise": "精英降咒魔法： 持續 1...10 秒，同時降咒目標及其附近敵人，每當他們成功使用技能時，附近其他敵人的動作將被中斷。"
+			},
 			"de": {
+				"name": "Panik",
+				"description": "Elite-Verhexung. 1...10 Sekunde[n] lang wirkt die Verhexung \"Panik\" auf den Gegner und alle Gegner in der Nähe. Verwendet ein mit \"Panik\" verhexter Gegner eine Fertigkeit erfolgreich, werden alle Gegner in der Nähe unterbrochen.",
+				"concise": "Elite-Verhexung. Verhext außerdem Feinde in der Nähe des Gegners (1...10 Sekunde[n]). Unterbricht alle Gegner in der Nähe, wenn ein verhexter Gegner eine Fertigkeit erfolgreich aktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Panik",
 				"description": "1...10 Sekunden lang wirkt die Verhexung Panik auf den Gegner und alle Gegner in der Nähe. Verwendet ein mit Panik verhexter Gegner eine Fertigkeit erfolgreich, unterbricht Panik die Aktionen aller Feinde in der Nähe.",
 				"concise": "Verhext außerdem Feinde in der Nähe des Gegners (1...10 Sekunden). Unterbricht die Aktion aller Gegner in der Nähe, wenn ein verhexter Gegner eine Fertigkeit erfolgreich aktiviert."
 			},
 			"en": {
 				"name": "Panic",
+				"description": "Elite Hex Spell. For 1...10 seconds, target foe and all nearby foes are hexed with Panic. When a foe hexed with Panic successfully uses a skill, all other nearby foes are interrupted.",
+				"concise": "Elite Hex Spell. Also hexes foes near your target (1...10 seconds). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill."
+			},
+			"en-gww": {
+				"name": "Panic",
 				"description": "For 1...10 second[s], target foe and all nearby foes are hexed with Panic. When a foe hexed with Panic successfully uses a skill, all other nearby foes are interrupted.",
 				"concise": "Also hexes foes near your target (1...10 second[s]). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill."
 			},
+			"es": {
+				"name": "Pánico",
+				"description": "Conjuro con maleficio de élite. Durante 1...10 segundos, el enemigo objetivo y los enemigos cercanos sufren el maleficio del Pánico. Cuando un enemigo con el maleficio del Pánico utiliza una habilidad con éxito, se interrumpe la acción de todos los enemigos cercanos a él.",
+				"concise": "Conjuro con maleficio de élite. También se aplica el maleficio a los enemigos cercanos al objetivo (1...10 segundos). Interrumpe la acción de los enemigos cercanos cuando un enemigo con maleficio activa una habilidad con éxito."
+			},
 			"fr": {
+				"name": "Panique",
+				"description": "Maléfice d'élite. Pendant 1...10 secondes, la cible ennemie et tous les ennemis à proximité sont sous l'emprise de Panique. Lorsqu'un ennemi sous l'emprise de Panique parvient à utiliser une compétence, tous les ennemis à proximité sont interrompus.",
+				"concise": "Maléfice d'élite. Inflige également des maléfices aux ennemis proches de votre cible (1...10 secondes). Interrompt tous les ennemis à proximité lorsqu'un ennemi affecté parvient à activer une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Panique",
 				"description": "Pendant 1...10 secondes, la cible ennemie et tous les ennemis adjacents sont frappés par Panique. Lorsqu'un ennemi sous l'emprise de Panique réussit à utiliser une compétence, tous les ennemis à proximité sont interrompus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Panico",
+				"description": "Fattura d'Élite. Per 1...10 secondi l'obiettivo nemico e tutti i nemici nei dintorni vengono colpiti da Panico. Quando un nemico colpito da Panico utilizza un'abilità, tutti gli altri nemici nei dintorni vengono interrotti.",
+				"concise": "Fattura d'Élite. Colpisce con una fattura anche i nemici vicini all'obiettivo (1...10 secondi). Interrompe tutti i nemici nei dintorni ogni volta che un nemico colpito da fattura riesce ad attivare un'abilità."
+			},
+			"jp": {
+				"name": "パニック",
+				"description": "エリート弱体化スペル： 1...10 秒間、ターゲットした敵および周囲にいる敵がスキルを使用すると、周囲にいるその他の敵のアクションがすべて中断されます。",
+				"concise": "エリート弱体化スペル： (1...10 秒) ターゲットした敵およびその周囲にいる敵は、スキルの発動が成功するたびに周囲にいる他の敵のアクションを中断します。"
+			},
+			"kr": {
+				"name": "공황",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 1...10초 동안 대상과 그 부근의 모든 적이 공황에 빠집니다. 공황에 빠진 적이 스킬을 성공적으로 사용하면 그에 인접한 모든 적은 동작을 방해 받습니다.",
+				"concise": "엘리트 약화 마법. 대상과 그 부근 적들이 스킬을 성공적으로 사용할 때마다 부근의 다른 적들의 동작이 방해 받습니다.(1...10초)"
+			},
+			"pl": {
+				"name": "Panika",
+				"description": "Elitarna klątwa (czar). Przez 1...10 sek., wybrany przeciwnik i wszyscy wrogowie w jego pobliżu znajdują sie pod działaniem Paniki. Kiedy spanikowany przeciwnik użyje umiejętności, akcje wszystkich pobliskich wrogów zostają przerwane.",
+				"concise": "Elitarna klątwa (czar). Klątwa działa także na wrogów w pobliżu celu (1...10 sek.). Przerywa akcje wszystkich pobliskich wrogów, za każdym razem, gdy przeciwnik z klątwą uaktywni jakąś umiejętność."
+			},
+			"ru": {
+				"name": "Panic",
+				"description": "Элитное заклинание-проклятье. В течение 1...10 сек выбраный противник и все противники поблизости будут поражены проклятьем Panic. Когда находящийся под действием этого проклятья противник успешно применит умение, все противники поблизости от этого противника, будут прерваны.",
+				"concise": "Элитное заклинание-проклятье. Также накладывает проклятье на противников поблизости от вашей цели (1...10 сек). Прерывает всех других противников поблизости каждый раз, когда проклятым противником было успешно активировано умение."
+			},
+			"bork": {
+				"name": "Puneec",
+				"description": "Ileete-a Hex Spell. Fur 1...10 secunds, taerget fue-a und aell neaerby fues aere-a hexed veet Puneec. Vhee a fue-a hexed veet Puneec sooccessffoolly uses a skeell, aell oozeer neaerby fues aere-a interroopted.",
+				"concise": "Ileete-a Hex Spell. Aelsu hexes fues neaer yuoor taerget (1...10 secunds). Interroopts aell oozeer neaerby fues vhenefer a hexed fue-a sooccessffoolly aecteefaetes a skeell."
 			}
 		}
 	}

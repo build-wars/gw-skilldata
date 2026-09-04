@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "天谴",
+				"description": "增益魔法。 当你维持此「增益魔法」时，每当友方目标受到攻击伤害，将会反弹33%的伤害给攻击者。（伤害反弹上限为5...20点）",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，每当友方目标受到攻击伤害，将会反弹33%的伤害给攻击者。（伤害反弹上限为 5...20点）"
+			},
+			"cht": {
+				"name": "天譴",
+				"description": "加持魔法： 當你維持此「加持」時，每當目標盟友受到攻擊傷害，將會反彈 33% 傷害給攻擊者。（反彈傷害上限 5...20）",
+				"concise": "加持魔法： 當你維持此「加持」時，每當目標盟友受到攻擊傷害，將會反彈 33% 傷害給攻擊者。（反彈傷害上限 5...20）"
+			},
 			"de": {
+				"name": "Vergeltung",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, wirft dieser Zauber jedes Mal, wenn der Verbündete (bzw. Ihr selbst) Angriffsschaden erleidet, 33% des Schadens auf die Quelle zurück (maximal 5...20 Schadenspunkt[e]).",
+				"concise": "Verzauberung. Wirft 33% des Schadens durch Angriffe (maximal 5...20 Punkt[e]) auf den Verursacher zurück."
+			},
+			"de-guildwiki": {
 				"name": "Vergeltung",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, fügt Vergeltung jedes Mal, wenn der Verbündete (bzw. Ihr selbst) Angriffsschaden erleidet, dem Angreifer ebenfalls Schaden in Höhe von 33% des Schadens als Heiligen Schaden zu (maximal 5...20 Schadenspunkte).",
 				"concise": "Wirft 33% des Schadens durch Angriffe (maximal 5...20 Punkte) auf den Verursacher zurück."
 			},
 			"en": {
 				"name": "Retribution",
+				"description": "Enchantment Spell. While you maintain this enchantment, whenever target ally takes attack damage, this spell deals 33% of the damage back to the source (maximum 5...20 damage).",
+				"concise": "Enchantment Spell. Deals 33% of each attack's damage (maximum 5...20) back to the source."
+			},
+			"en-gww": {
+				"name": "Retribution",
 				"description": "While you maintain this enchantment, whenever target ally takes attack damage, this spell deals 33% of the damage back to the source (maximum 5...20 damage).",
 				"concise": "Deals 33% of each attack's damage (maximum 5...20) back to the source."
 			},
+			"es": {
+				"name": "Retribución",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, siempre que el objetivo (un aliado o tú mismo) reciba daño al ser atacado, se devolverá un 33% del daño al que lo ha causado (5...20 como máximo).",
+				"concise": "Conjuro con encantamiento. Hace que el 33% de cada daño vuelva al atacante (máximo 5...20)."
+			},
 			"fr": {
+				"name": "Punition",
+				"description": "Enchantement. Tant que cet enchantement est actif, à chaque fois que la cible (un allié ou vous-même) subit des dégâts issus d'attaques, ce sort renvoie 33% des dégâts à l'attaquant. (Maximum de 5...20 points de dégâts).",
+				"concise": "Enchantement. Inflige 33% des dégâts de chaque attaque (maximum : 5...20) à l'assaillant."
+			},
+			"fr-gwiki": {
 				"name": "Punition",
 				"description": "Tant que cet enchantement est actif, à chaque fois que la cible (un allié ou vous-même) subit des dégâts d'attaque, ce sort renvoie 33% des dégâts à l'attaquant. (maximum de 5...20 points de dégâts).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Punizione",
+				"description": "Incantesimo. Mantenendo questo incantesimo, se l'obiettivo (un alleato o te stesso) viene attaccato e subisce danni, un 33% dei danni viene trasferito a chi li ha causati (fino a un massimo di 5...20).",
+				"concise": "Incantesimo. Rimanda alla fonte un 33% del danno causato da ogni attacco (max 5...20)."
+			},
+			"jp": {
+				"name": "レトリビューション",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした味方が攻撃によるダメージを受けるたびに、そのダメージの 33% を攻撃者に返します (最大 5...20 のダメージ)。",
+				"concise": "強化スペル： 攻撃により受けるダメージの 33% を攻撃者に返します (最大 5...20)。"
+			},
+			"kr": {
+				"name": "신의 심판",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상이 받는 대미지의 33%를 적에게 되돌려 줍니다. 되돌려 주는 대미지는 최대 5...20입니다.",
+				"concise": "강화 마법. 받는 공격 대미지의 33%를 적에게 되돌려 줍니다.(최대 5...20의 대미지)"
+			},
+			"pl": {
+				"name": "Pomsta",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, za każdym razem, kiedy wybrany sojusznik otrzymuje obrażenia pochodzące z ataków, czar zadaje atakującemu 33% tych obrażeń (maksymalnie 5...20 pkt. obrażeń).",
+				"concise": "Zaklęcie (czar). Przekazuje źródłu 33% obrażeń z każdego ataku (maksymalnie 5...20)."
+			},
+			"ru": {
+				"name": "Retribution",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, каждый раз, когда выбранный союзник получает урон от вражеских атак, это заклинание наносит атаковавшему противнику урон на 33% от полученного урона (максимально 5...20 ед. урона).",
+				"concise": "Заклинание-чары. Наносит 33% от каждого полученного урона от атак (но не более 5...20 ед. урона) атаковавшему."
+			},
+			"bork": {
+				"name": "Retreebooshun",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, vhenefer taerget aelly taekes aettaeck daemaege-a, thees spell deaels 33% ooff zee daemaege-a baeck tu zee suoorce-a (maexeemoom 5...20 daemaege-a).",
+				"concise": "Inchuntment Spell. Deaels 33% ooff iaech aettaeck's daemaege-a (maexeemoom 5...20) baeck tu zee suoorce-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "制裁之光",
+				"description": "精英咒文。 除了「惩戒祷言」属性的技能外，你的其他技能在5秒之内无法使用。使目标及其邻近的敌人受到10...50点神圣伤害。如果敌方的亡灵仆从受到此技能的伤害，将遭受「灼烧」症状1...3秒。",
+				"concise": "精英咒文。 除了「惩戒祷言」属性的技能外，其他技能在5秒之内无法使用。使目标及其邻近的敌人受到 10...50 神圣伤害。如果敌方的亡灵仆从受到此技能的伤害，将遭受「灼烧」症状 1...3 秒。"
+			},
+			"cht": {
+				"name": "制裁目光",
+				"description": "精英咒文魔法： 持續5秒，每秒對目標以及鄰近敵人造成10...50神聖傷害以及著火1...3秒。",
+				"concise": "精英咒文魔法： 持續5秒，每秒對目標以及鄰近敵人造成10...50神聖傷害以及著火1...3秒。"
+			},
 			"de": {
+				"name": "Strahl des Urteils",
+				"description": "Elite-Zauber. An der aktuellen Position des Gegners wird ein Strahl des Urteils erzeugt. 5 Sekunde[n] erleiden umstehende Feinde um diesen Bereich 10...50 Punkt[e] heiligen Schaden und beginnen für 1...3 Sekunden pro Sekunde zu brennen.",
+				"concise": "Elite-Zauber. Richtet jede Sekunde 10...50 Punkt[e] heiligen Schaden an und verursacht Brennen (1...3 Sekunde[n]) jede Sekunde (5 Sekunde[n]). Trifft umstehende Feinde um anfängliche Position des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Strahl des Urteils",
 				"description": "An der aktuellen Position des Gegners wird ein Strahl des Urteils erzeugt, der 5 Sekunden lang jede Sekunde umstehenden Feinden 10...50 Punkte heiligen Schaden und 1...3 Sekunden brennen zufügt.",
 				"concise": "Richtet jede Sekunde 10...50 Punkte heiligen Schaden an und verursacht Brennen (1...3 Sekunden) jede Sekunde (5 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
 			},
 			"en": {
 				"name": "Ray of Judgment",
+				"description": "Elite Spell. Invoke a Ray of Judgment at target foe's location. For 5 seconds, foes adjacent to that location are struck for 10...50 holy damage and begin Burning for 1...3 seconds every second.",
+				"concise": "Elite Spell. Deals 10...50 holy damage and inflicts Burning (1...3 seconds) every second (5 seconds). Hits foes adjacent to target's initial location."
+			},
+			"en-gww": {
+				"name": "Ray of Judgment",
 				"description": "Invoke a Ray of Judgment at target foe's location. For 5 seconds, target foe and all foes adjacent to this location take 10...50 holy damage each second and begin Burning for 1...3 second[s].",
 				"concise": "Deals 10...50 holy damage and inflicts Burning (1...3 second[s]) every second (5 seconds). Hits foes adjacent to target's initial location."
 			},
+			"es": {
+				"name": "Rayo del juicio",
+				"description": "Conjuro de élite. Invocas un Rayo del juicio en la ubicación del enemigo objetivo. Durante 5 segundos, los enemigos adyacentes a esa ubicación recibirán 10...50 de daño sagrado y arderán durante 1...3 segundos por segundo.",
+				"concise": "Conjuro de élite. Hace 10...50 de daño sagrado y causa quemadura (1...3 segundos) por cada segundo (5 segundos). Alcanza a los enemigos adyacentes a la ubicación inicial del enemigo objetivo."
+			},
 			"fr": {
+				"name": "Lumière du jugement",
+				"description": "Sort d'élite. Invoque Lumière de jugement sur la position de la cible ennemie. Pendant 5 secondes, les ennemis adjacents à cette position subissent 10...50 points de dégâts sacrés et s'embrasent pendant 1...3 secondes toutes les secondes.",
+				"concise": "Sort d'élite. Inflige 10...50 points de dégâts sacrés et une Brûlure (1...3 secondes) toutes les secondes (5 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Lumière du jugement",
 				"description": "Invoque Lumière de jugement sur la position de la cible ennemie. Pendant 5 secondes, les ennemis adjacents à cette position subissent 5...45 points de dégâts sacrés et s'embrasent pendant 1...3 seconde(s) toutes les secondes.",
 				"concise": "Inflige 5...45 points de dégâts sacrés et une Brûlure (1...3 seconde(s)) toutes les secondes (5 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+			},
+			"it": {
+				"name": "Raggio del Giudizio",
+				"description": "Magia d'Élite. Invochi un Raggio del Giudizio nella posizione dell'obiettivo nemico. Per 5 secondo[i], i nemici adiacenti a quella posizione vengono colpiti da 10...50 danno[i] sacro[i] e subiscono Bruciatura di 1...3 secondo[i] per ogni secondo.",
+				"concise": "Magia d'Élite. Assesta 10...50 danno[i] sacro[i] e infligge Bruciatura (1...3 second[i]) ogni secondo (5 second[i]). Colpisce i nemici adiacenti alla posizione iniziale dell'obiettivo."
+			},
+			"jp": {
+				"name": "ジャッジ レイ",
+				"description": "エリート スペル： ターゲットした敵の場所に光柱が現れます。5 秒間、その場所に隣接する敵に毎秒 10...50 の神聖ダメージを与え、1...3 秒間「火傷」状態にします。",
+				"concise": "エリート スペル： (5 秒) 発動時にターゲットした敵がいた場所に隣接する敵に毎秒 10...50 の神聖ダメージを与え、「火傷」状態にします (1...3 秒)。"
+			},
+			"kr": {
+				"name": "심판의 서광",
+				"description": "엘리트 마법. 대상 지정: 적. 대상의 위치에 심판의 서광을 비춥니다. 5초 동안 그 위치에 인접한 적들은 매초마다 10...50의 신성 대미지를 입고, 1...3초 동안 화상 상태가 됩니다.",
+				"concise": "엘리트 마법. 대상의 위치에 인접한 적들에게 5초 동안 매초마다 10...50의 신성 대미지를 주고, 화상을 입힙니다(1...3초)."
+			},
+			"pl": {
+				"name": "Promień Osądu",
+				"description": "Elitarny czar. Wywołujesz Promień Osądu w miejscu, gdzie znajduje się wybrany przeciwnik. Przez 5 sek., przeciwnicy bezpośrednio przy tym miejscu otrzymują w każdej sekundzie po 10...50 pkt. świętych obrażeń i zaczynają płonąć na 1...3 sek.",
+				"concise": "Elitarny czar. W każdej sekundzie (5 sek.) zadaje 10...50 pkt. świętych obrażeń i wywołuje przypadłość płonięcie (1...3 sek.). Trafia przeciwników bezpośrednio przy początkowym miejscu celu."
+			},
+			"ru": {
+				"name": "Ray of Judgment",
+				"description": "Элитное заклинание. Вызывает Ray of Judgment в местоположении выбранного противника. В течение 5 сек каждую секунду все противники, окружающие это место, получают 10...50 ед. урона святой силой каждую секунду и загораются на 1...3 сек.",
+				"concise": "Элитное заклинание. Наносит 10...50 ед. урона святой силой и поджигает (1...3 сек) каждую секунду (5 сек). Поражает противников, окружающих первоначальное положение выбранной цели."
+			},
+			"bork": {
+				"name": "Raey ooff Joodgment",
+				"description": "Ileete-a Spell. Infuke-a a Raey ooff Joodgment aet taerget fue-a's lucaeshun. Fur 5 secunds, fues aedjaecent tu thaet lucaeshun aere-a stroock fur 10...50 huly daemaege-a und begeen Boorneeng fur 1...3 secunds ifery secund.",
+				"concise": "Ileete-a Spell. Deaels 10...50 huly daemaege-a und inffleects Boorneeng (1...3 secunds) ifery secund (5 secunds). Heets fues aedjaecent tu taerget's ineeteeael lucaeshun."
 			}
 		}
 	}

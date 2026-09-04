@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "流毒",
+				"description": "咒文。 驱散目标敌人身上的一项「增益魔法」。根据目标敌人身上剩余的「增益魔法」数量，每一项可以使其「中毒」3...10秒。",
+				"concise": "咒文。 驱散目标敌人身上的一项「增益魔法」。根据目标敌人身上剩余的「增益魔法」数量，每一项可以使其「中毒」3...10秒。"
+			},
+			"cht": {
+				"name": "加持毒害",
+				"description": "咒文魔法： 使目標敵人失去一項「加持」。並且依照其身上剩餘的「加持」數量，每項使其遭受「中毒」病症 3...10 秒。",
+				"concise": "咒文魔法： 使目標敵人失去一項「加持」。並且依照其身上剩餘的「加持」數量，每項使其遭受「中毒」病症 3...10 秒。"
+			},
 			"de": {
+				"name": "Verzauberungen vergiften",
+				"description": "Zauber. Der Gegner verliert eine Verzauberung. Für jede verbleibende Verzauberung wird der Gegner 3...10 Sekunde[n] lang vergiftet.",
+				"concise": "Zauber. Entfernt eine Verzauberung vom Gegner. Verursacht Zustand Gift (3...10 Sekunde[n] pro verbleibender Verzauberung auf dem Gegner)."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberungen vergiften",
 				"description": "Der Gegner verliert eine Verzauberung. Für jede verbleibende Verzauberung wird der Gegner 3...10 Sekunden lang vergiftet.",
 				"concise": "Entfernt eine Verzauberung vom Gegner. Verursacht Zustand Gift (3...10 Sekunden pro verbleibender Verzauberung auf dem Gegner)."
 			},
 			"en": {
 				"name": "Envenom Enchantments",
+				"description": "Spell. Target foe loses one enchantment. For every remaining enchantment, target foe is poisoned for 3...10 seconds.",
+				"concise": "Spell. Removes one enchantment from target foe. Inflicts Poisoned condition (3...10 seconds for each remaining enchantment on that foe)."
+			},
+			"en-gww": {
+				"name": "Envenom Enchantments",
 				"description": "Target foe loses one enchantment. For every remaining enchantment, target foe is poisoned for 3...10 seconds.",
 				"concise": "Removes one enchantment from target foe. Inflicts Poisoned condition (3...10 seconds for each remaining enchantment on that foe)."
 			},
+			"es": {
+				"name": "Envenenaencantamientos",
+				"description": "Conjuro. El enemigo objetivo pierde un encantamiento. Por cada uno que le quede, estará envenenado durante 3...10 segundos.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. Causa envenenamiento (3...10 segundos por cada encantamiento que le quede a ese enemigo)."
+			},
 			"fr": {
+				"name": "Enchantements envenimés",
+				"description": "Sort. La cible ennemie perd un enchantement. Pour chaque enchantement restant, la cible ennemie est empoisonnée pendant 3...10 secondes.",
+				"concise": "Sort. Supprime un enchantement chez la cible ennemie. Provoque l'Empoisonnement (3...10 secondes par enchantement restant)."
+			},
+			"fr-gwiki": {
 				"name": "Enchantements envenimés",
 				"description": "La cible ennemie perd un enchantement. Pour chaque enchantement restant, la cible ennemie est empoisonnée pendant 3...10 secondes.",
 				"concise": "Supprime un enchantement chez la cible ennemie. Provoque l'Empoisonnement (3...10 secondes par enchantement restant)."
+			},
+			"it": {
+				"name": "Avvelena Incantesimi",
+				"description": "Magia. L'obiettivo nemico perde un incantesimo. Per ogni incantesimo residuo l'obiettivo nemico viene avvelenato per 3...10 secondo[i].",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. Condizione inflitta: Veleno (3...10 secondo[i] per ogni incantesimo rimasto su quel nemico)."
+			},
+			"jp": {
+				"name": "インヴェナム エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルが1個解除されます。その敵は、解除されなかった強化スペルごとに 3...10 秒間「毒」状態になります。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除し、「毒」状態にします (ターゲットにかけられている強化スペルごとに 3...10 秒) 。"
+			},
+			"kr": {
+				"name": "독성 강화 마법",
+				"description": "마법. 대상 지정: 적. 대상에 걸린 강화 마법 하나가 무효화되고, 대상은 남은 강화 마법 하나당 3...10초 동안 중독 상태가 됩니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 하나를 무효화하고, 중독시킵니다.(남은 강화 마법 하나당 3...10초)"
+			},
+			"pl": {
+				"name": "Zatruwające Zaklęcia",
+				"description": "Czar. Wybrany przeciwnik traci jedno zaklęcie. Na każde pozostałe zaklęcie, wybrany przeciwnik zostaje zatruty na 3...10 sek.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa jedno zaklęcie. Wywołuje przypadłość zatrucie (3...10 sek. za każde pozostałe zaklęcie na tym przeciwniku)."
+			},
+			"ru": {
+				"name": "Envenom Enchantments",
+				"description": "Заклинание. Выбранный противник теряет один лежащие на нем чары. За каждые оставшиеся на нем чары противник будет отравлен на 3...10 сек.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Вызывает отравление (3...10 сек за каждые оставшиеся на этом противнике чары)."
+			},
+			"bork": {
+				"name": "Infenum Inchuntments",
+				"description": "Spell. Taerget fue-a luses oone-a inchuntment. Fur ifery remaeeeneeng inchuntment, taerget fue-a is pueesuned fur 3...10 secunds.",
+				"concise": "Spell. Remufes oone-a inchuntment frum taerget fue-a. Inffleects Pueesuned cundeeshun (3...10 secunds fur iaech remaeeeneeng inchuntment oon thaet fue-a)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Glyph of Swiftness",
+				"description": "雕文魔法。 For 15 seconds, your next 1...5 spells recharge 25% faster and projectiles from the affected spells move 200% faster.",
+				"concise": "雕文魔法。 (15 seconds.) Your next 1...5 spells recharge 25% faster and projectiles from them move 200% faster."
+			},
+			"cht": {
+				"name": "敏捷符號",
+				"description": "符號： 持續 15 秒，你的下 1...5 個魔法技能回復時間加快 25%，而受到此效果的投射攻擊技能投射速度加快 200%。",
+				"concise": "符號： 持續 15 秒，你的下 1...5 個魔法技能回復時間加快 25%，而受到此效果的投射攻擊技能投射速度加快 200%。"
+			},
 			"de": {
+				"name": "Glyphe der Schnelligkeit",
+				"description": "Glyphe. 15 Sekunde[n] lang werden Eure nächsten 1...5 Zauber um 25% schneller wieder aufgeladen und Geschosse von ihnen bewegen sich um 200% schneller.",
+				"concise": "Glyphe. (15 Sekunde[n].) Eure nächsten 1...5 Zauber laden sich um 25% schneller auf und mit ihnen abgefeuerte Geschosse bewegen sich um 200% schneller."
+			},
+			"de-guildwiki": {
 				"name": "Glyphe der Schnelligkeit",
 				"description": "15 Sekunden lang werden Eure nächsten 1...5 Zauber um 25% schneller wieder aufgeladen und Geschosse von ihnen bewegen sich um 200% schneller.",
 				"concise": "15 Sekunden: Eure nächsten 1...5 Zauber laden sich um 25% schneller auf und mit ihnen abgefeuerte Geschosse bewegen sich um 200% schneller."
 			},
 			"en": {
 				"name": "Glyph of Swiftness",
+				"description": "Glyph. For 15 seconds, your next 1...5 spells recharge 25% faster and projectiles from the affected spells move 200% faster.",
+				"concise": "Glyph. (15 seconds.) Your next 1...5 spells recharge 25% faster and projectiles from them move 200% faster."
+			},
+			"en-gww": {
+				"name": "Glyph of Swiftness",
 				"description": "For 15 seconds, your next 1...5 spell[s] recharge 25% faster and projectiles from the affected spells move 200% faster.",
 				"concise": "(15 seconds.) Your next 1...5 spell[s] recharge 25% faster and projectiles from them move 200% faster."
 			},
+			"es": {
+				"name": "Glifo de rapidez",
+				"description": "Glifo. Durante 15 segundos, tus próximos conjuros (1...5) se recargan un 25% más rápido y sus proyectiles se mueven un 200% más deprisa.",
+				"concise": "Glifo. (15 segundos). Tus siguientes 1...5 conjuro[\"conjuros\"] se recargan un 25% más rápido y sus proyectiles se mueven un 200% más deprisa."
+			},
 			"fr": {
+				"name": "Glyphe de rapidité",
+				"description": "Glyphe. Pendant 15 secondes, 1...5 prochains sorts lancés se rechargent 25% plus vite et les projectiles propulsés se déplacent 200% plus vite.",
+				"concise": "Glyphe. (15 secondes.) 1...5 de vos sorts suivants se rechargent 25% plus vite et les projectiles correspondants se déplacent 200% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Glyphe de rapidité",
 				"description": "Pendant 15 secondes, 1...3 prochain(s) sort(s) lancé(s) se recharge(nt) 25% plus vite, et les projectiles propulsés se déplacent 200% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Glifo della Rapidità",
+				"description": "Glifo. Per 15 secondi, la velocità di ricarica di 1...5 delle tue magie successive aumenta di un 25% e i proiettili da esse provenienti hanno una velocità superiore del 200%.",
+				"concise": "Glifo. (Secondi: 15.) Incremento velocità di ricarica di 1...5 delle tue magie successive: 25%. Incremento velocità dei proiettili risultanti: 200%."
+			},
+			"jp": {
+				"name": "スウィフトネス グリフ",
+				"description": "グリフ： 15 秒間、次に詠唱する 1...5 個のスペルは再使用時間が 25% 減少し、遠投攻撃スペルを詠唱すると飛速度が200%増加します。",
+				"concise": "グリフ： (15 秒) 次に詠唱する 1...5 個のスペルは、再使用時間が 25% 減少します。遠投攻撃スペルの場合、その飛速度が200%増加します。"
+			},
+			"kr": {
+				"name": "신속의 수인",
+				"description": "수인. 대상 지정: 없음. 15초 동안 마법의 재활성 시간이 25% 빨라지고, 마법 발사체의 속도가 200% 빨라집니다. 처음 1...5번의 마법에만 효과가 있습니다.",
+				"concise": "수인. (15초) 마법의 재활성 시간이 25% 빨라지고, 마법 발사체의 속도가 200% 빨라집니다. 처음 1...5번의 마법에 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Glif Szybkości",
+				"description": "Glif. Przez 15 sek. twoje następne czary w liczbie 1...5 odnawiają się o 25% szybciej, a pociski z nich poruszają się o 200% szybciej.",
+				"concise": "Glif. (15 sek.) Twoje następne czary w liczbie 1...5 odnawiają się o 25% szybciej, a pociski z nich poruszają się o 200% szybciej."
+			},
+			"ru": {
+				"name": "Glyph of Swiftness",
+				"description": "Глиф. В течение 15 сек ваши следующие заклинания (1...5) перезаряжаются на 25% быстрее, а созданные ими метательные снаряды летят на 200% быстрее.",
+				"concise": "Глиф. (15 сек) Ваши следующие заклинания (1...5) перезаряжаются на 25% быстрее, а созданные ими метательные снаряды летят на 200% быстрее."
+			},
+			"bork": {
+				"name": "Glyph ooff Sveefftness",
+				"description": "Glyph. Fur 15 secunds, yuoor next 1...5 spells recharge 25% faester und prujecteeles frum zee aeffffected spells mufe-a 200% faester.",
+				"concise": "Glyph. (15 secunds.) Yuoor next 1...5 spells rechaerge-a 25% faester und prujecteeles frum zeem mufe-a 200% faester."
 			}
 		}
 	}

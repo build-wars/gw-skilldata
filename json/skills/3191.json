@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猜疑",
+				"description": "负面魔法。 6秒内，目标敌军对你的一个友军施放的下个法术失效，并对该敌军造成10...60点伤害且邻近的敌军承受该伤害75%的伤害。",
+				"concise": "负面魔法。 （6秒）目标敌军对你的一个友军施放的下个法术失效，并对该敌军造成10...60点伤害且邻近的敌军承受该伤害75%的伤害。"
+			},
+			"cht": {
+				"name": "疑惑",
+				"description": "降咒魔法： For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...60 damage to that foe and 75% of that damage to all nearby foes.",
+				"concise": "降咒魔法： (6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...60 damage to target and and 75% of that damage to nearby foes."
+			},
 			"de": {
 				"name": "Argwohn (PvP)",
-				"description": "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht bei niemandem 10...60 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...45).",
-				"concise": "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet bei niemandem 10...60 Punkte Schaden und beim Gegner und allen Feinden in der Nähe 75% dieses Schadens (~7...45) an."
+				"description": "Verhexung. Für 6 Sekunden schlägt der nächste Zauber, den der anvisierte Gegner auf einen Eurer Verbündeten wirkt, fehl und verursacht bei diesem Gegner 10...60 Schaden, sowie 75 % dieses Schadens bei allen benachbarten Gegnern.",
+				"concise": "Verhexung. (6 Sekunden). Der nächste Zauber, den der anvisierte Gegner auf einen Eurer Verbündeten wirkt, schlägt fehl und verursacht bei diesem Gegner 10...60 Schaden, sowie 75 % dieses Schadens bei allen benachbarten Gegnern."
+			},
+			"de-guildwiki": {
+				"name": "Argwohn (PvP)",
+				"description": "Während der nächsten 6 Sekunden scheitert der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, und verursacht beim Gegner 10...60 Punkte Schaden und bei allen Feinden in der Nähe 75% dieses Schadens (~7...45).",
+				"concise": "6 Sekunden: Der nächste Zauber, den der Gegner auf einen seiner Feinde richtet, scheitert und richtet beim Gegner 10...60 Punkte Schaden und bei allen Feinden in der Nähe 75% dieses Schadens (~7...45) an."
 			},
 			"en": {
+				"name": "Mistrust (PvP)",
+				"description": "Hex Spell. For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...60 damage to that foe and 75% of that damage to all nearby foes.",
+				"concise": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...60 damage to target and 75% of that damage to nearby foes."
+			},
+			"en-gww": {
 				"name": "Mistrust (PvP)",
 				"description": "For 6 seconds, the next spell that target foe casts on one of your allies fails and deals 10...60 damage to that foe and 75% of that damage to all nearby foes.",
 				"concise": "(6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...60 damage to target and 75% of that damage to nearby foes."
 			},
+			"es": {
+				"name": "Recelo (PvP)",
+				"description": "Conjuro con maleficio. Durante 6 segundos, el siguiente conjuro que el enemigo objetivo lance sobre uno de tus aliados falla y haces 10...60 de daño a este enemigo y un 75 % de ese daño a todos los enemigos adyacentes.",
+				"concise": "Conjuro con maleficio. (6 segundos). El siguiente conjuro que el enemigo objetivo lance sobre uno de tus aliados falla y haces 10...60 de daño a este enemigo y un 75 % de ese daño a todos los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Défiance (PvP)",
+				"description": "Maléfice. Pendant 6 secondes, le prochain sort que l'ennemi ciblé lance sur l'un de vos alliés échoue et inflige 10...60 points de dégâts à cet ennemi ainsi que 75% de ces dégâts à tous les ennemis à proximité.",
+				"concise": "Maléfice. (6 secondes.) Le prochain sort que l'ennemi ciblé lance sur l'un de vos alliés échoue et lui inflige 10...60 points de dégâts ainsi que 75% de ces dégâts aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Défiance (PvP)",
 				"description": "Pendant 6 secondes, le prochain sort que l'ennemi ciblé lance sur l'un de vos alliés échoue et inflige 10...60 points de dégâts à cet ennemi ainsi que 75% de ces degâts à tous les ennemis à proximité.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Diffidenza (PvP)",
+				"description": "Fattura. Per 6 secondo/i, la prima magia scagliata dal bersaglio su uno dei tuoi alleati manca, e infligge 10...60 a quel nemico e il 75% di quei danni a tutti i nemici vicini.",
+				"concise": "Fattura. (6 secondo/i). La prima magia scagliata dal bersaglio su uno dei tuoi alleati non va a segno, infliggendo 10...60 a quel nemico e il 75% di quei danni a tutti i nemici vicini."
+			},
+			"jp": {
+				"name": "ミストラスト (PvP)",
+				"description": "弱体化スペル： 6秒間、標的となった敵があなたの味方の1人に対して唱える次のスペルは失敗し、その敵に10...60ダメージを与え、すべての近くの敵にそのダメージの75%を与えます。",
+				"concise": "弱体化スペル： （6秒）標的となった敵があなたの味方の1人に対して唱える次のスペルは失敗し、その標的に10...60ダメージを与え、近くの敵にそのダメージの75%を与えます。"
+			},
+			"kr": {
+				"name": "불신의 기운(대인전)",
+				"description": "약화 마법. 대상 지정: 적. 6초 동안 대상이 아군에게 외우는 마법이 실패하고, 대상은 10...60의 대미지를 입으며, 주변의 모든 적은 그 대미지의 75%를 받습니다.",
+				"concise": "약화 마법. (6초) 대상이 아군에게 시전하는 마법이 실패하고, 대상은 10...60의 대미지를 입으며, 주변의 적들은 그 대미지의 75%를 받습니다."
+			},
+			"pl": {
+				"name": "Nieufność (PvP)",
+				"description": "Klątwa (czar). Przez 6 sek. następny czar wybranego przeciwnika wymierzony przeciwko twojemu sojusznikowi zawiedzie, przeciwnik ten odniesie 10...60 pkt. obrażeń, a wszyscy przeciwnicy w jego pobliżu odniosą 75% tych obrażeń.",
+				"concise": "Klątwa (czar). (6 sek.). Następny czar wybranego przeciwnika wymierzony przeciwko twojemu sojusznikowi zawiedzie, przeciwnik ten odniesie 10...60 pkt. obrażeń, a przeciwnicy w jego pobliżu odniosą 75% tych obrażeń."
+			},
+			"ru": {
+				"name": "Mistrust (PvP)",
+				"description": "Заклинание-проклятье. В течение 6 сек. следующее заклинание, использованное целью против одного из ваших союзников, проваливается и наносит врагу 10...60 урона и 75% урона всем ближайшим врагам.",
+				"concise": "Заклинание-проклятье. (6 сек.) Следующее заклинание, использованное целью против одного из ваших союзников, проваливается и наносит врагу 10...60 урона и 75% урона ближайшим врагам."
+			},
+			"bork": {
+				"name": "Meestroost (PfP)",
+				"description": "Hex Spell. Fur 6 secunds, zee next spell thaet taerget fue-a caests oon oone-a ooff yuoor aelleees faeeels und deaels 10...60 daemaege-a tu thaet fue-a und 75% ooff thaet daemaege-a tu aell neaerby fues.",
+				"concise": "Hex Spell. (6 secunds.) Zee next spell thaet taerget fue-a caests oon oone-a ooff yuoor aelleees faeeels und deaels 10...60 daemaege-a tu taerget und 75% ooff thaet daemaege-a tu neaerby fues."
 			}
 		}
 	}

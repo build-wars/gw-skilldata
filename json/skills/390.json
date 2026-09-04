@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "野蛮斩击",
+				"description": "剑术。 命中时，打断目标敌人的动作，如果目标敌人在施法中被打断，则对其造成1...40点额外伤害。",
+				"concise": "剑术。 打断目标的动作，如果目标在施法中被打断，则对其造成1...40点的额外伤害。"
+			},
+			"cht": {
+				"name": "猛烈斬擊",
+				"description": "劍術攻擊技能： 命中時造成目標動作中斷，若該目標正在施展「魔法」，則對其造成 1...40 的額外傷害。",
+				"concise": "劍術攻擊技能： 命中時造成目標動作中斷，若該目標正在施展「魔法」，則對其造成 1...40 的額外傷害。"
+			},
 			"de": {
+				"name": "Wilder Hieb",
+				"description": "Schwertangriff. Wenn dieser Angriff erfolgreich ist, unterbricht er die Aktion des Feindes. Wenn es sich dabei um einen Zauber gehandelt hat, verursacht Ihr 1...40 Punkt[e] zusätzlichen Schaden.",
+				"concise": "Schwertangriff. Unterbricht eine Aktion. Unterbrechungswirkung: Richtet +1...40 Punkt[e] Schaden an, falls die Aktion ein Zauber war."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Hieb",
 				"description": "Wenn dieser Angriff trifft, unterbricht er die Aktion des Gegners. Wenn diese Aktion ein Zauber war, fügt Ihr 1...40 Punkte zusätzlichen Schaden zu.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Richtet +1...40 Punkte Schaden an, falls die Aktion ein Zauber war."
 			},
 			"en": {
 				"name": "Savage Slash",
+				"description": "Sword Attack. If this attack hits, it interrupts target foe's action. If that action was a spell, you deal 1...40 extra damage.",
+				"concise": "Sword Attack. Interrupts an action. Interruption effect: deals +1...40 damage if action was a spell."
+			},
+			"en-gww": {
+				"name": "Savage Slash",
 				"description": "If this attack hits, it interrupts target foe's action. If that action was a spell, you deal 1...40 extra damage.",
 				"concise": "Interrupts an action. Interruption effect: deals +1...40 damage if action was a spell."
 			},
+			"es": {
+				"name": "Tajo salvaje",
+				"description": "Ataque con espada. Si este ataque impacta, interrumpe la acción del enemigo objetivo. Si la acción era un conjuro, haces 1...40 de daño adicional.",
+				"concise": "Ataque con espada. Interrumpe una acción. Efecto de la interrupción: +1...40 de daño si la acción era un conjuro."
+			},
 			"fr": {
+				"name": "Taillade sauvage",
+				"description": "Attaque à l'épée. Si cette attaque réussit, elle interrompt l'action de la cible ennemie. Si cette action était un sort, vous infligez 1...40 points de dégâts supplémentaires.",
+				"concise": "Attaque à l'épée. Interrompt une action. Effet de l'interruption : inflige +1...40 points de dégâts si l'action est un sort."
+			},
+			"fr-gwiki": {
 				"name": "Taillade sauvage",
 				"description": "Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, vous infligez 1...40 point(s) de dégâts en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Selvaggio",
+				"description": "Attacco con Spada. Se questo attacco va a segno, l'azione dell'obiettivo nemico viene interrotta. Se tale azione era una magia, infliggi 1...40 danni aggiuntivi.",
+				"concise": "Attacco con Spada. Interrompe un'azione. Effetto dell'interruzione: assesta +1...40 danno[i] se l'azione era una magia."
+			},
+			"jp": {
+				"name": "サベージ スラッシュ",
+				"description": "ソード アタック： この攻撃が成功すると、ターゲットした敵のアクションを中断します。スペルを中断した場合、1...40 の追加ダメージを与えます。",
+				"concise": "ソード アタック： アクションを中断します。中断効果： スペルを中断した場合、1...40 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "맹렬한 베기",
+				"description": "칼 공격. 대상 지정: 적. 대상의 동작을 방해합니다. 방해한 동작이 마법이라면 1...40의 대미지를 추가로 줍니다.",
+				"concise": "칼 공격. 동작을 방해합니다. 방해 효과: 마법을 방해하면 1...40의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Brutalne Cięcie",
+				"description": "Atak mieczem. Jeżeli atak trafi, przerywasz czynność wybranego przeciwnika. Jeśli tą czynnością było użycie czaru, to zadajesz 1...40 pkt. dodatkowych obrażeń.",
+				"concise": "Atak mieczem. Przerywa czynność. Efekt przerwania: zadaje +1...40 pkt. obrażeń, jeżeli czynnością było rzucanie czaru."
+			},
+			"ru": {
+				"name": "Savage Slash",
+				"description": "Атака мечом. Если эта атака попадает в цель, действие выбранного противника будет прервано. Если было прервано заклинание, вы наносите дополнительно 1...40 ед. урона.",
+				"concise": "Атака мечом. Прерывает действие. Эффект прерывания: наносит дополнительно 1...40 ед. урона, если было прервано заклинание."
+			},
+			"bork": {
+				"name": "Saefaege-a Slaesh",
+				"description": "Svurd Aettaeck. Iff thees aettaeck heets, it interroopts taerget fue-a's aecshun. Iff thaet aecshun vaes a spell, yuoo deael 1...40 ixtra daemaege-a.",
+				"concise": "Svurd Aettaeck. Interroopts un aecshun. Interroopshun iffffect: deaels +1...40 daemaege-a iff aecshun vaes a spell."
 			}
 		}
 	}

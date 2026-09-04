@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "妖咒粉碎",
+				"description": "咒文。 驱散友方目标身上的一个「负面魔法」，驱散成功后，对友方目标附近的敌人造成30...120点伤害。",
+				"concise": "咒文。 驱散友方目标身上的一个「负面魔法」，驱散成功后，友方目标附近的敌人将受到30...120点伤害。"
+			},
+			"cht": {
+				"name": "降咒粉碎",
+				"description": "咒文魔法： 移除目標盟友身上的一項「降咒」，同時對目標盟友附近的敵人造成 30...120 傷害。",
+				"concise": "咒文魔法： 移除目標盟友身上的一項「降咒」，同時對目標盟友附近的敵人造成 30...120 傷害。"
+			},
 			"de": {
+				"name": "Verhexung brechen",
+				"description": "Zauber. Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Beim Entfernen einer Verhexung erleiden alle Gegner in der Nähe dieses Verbündeten 30...120 Punkt[e] Schaden.",
+				"concise": "Zauber. Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkung: Richtet bei Feinden in der Nähe 30...120 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Verhexung brechen",
 				"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Beim Entfernen einer Verhexung erleiden alle Gegner in der Nähe dieses Verbündeten 30...120 Punkte Schaden.",
 				"concise": "Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkung: Richtet bei Feinden in der Nähe 30...120 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Shatter Hex",
+				"description": "Spell. Remove a hex from target ally. If a hex is removed, foes near that ally take 30...120 damage.",
+				"concise": "Spell. Removes a hex from target ally. Removal effect: deals 30...120 damage to foes near this ally."
+			},
+			"en-gww": {
+				"name": "Shatter Hex",
 				"description": "Remove a hex from target ally. If a hex is removed, foes near that ally take 30...120 damage.",
 				"concise": "Removes a hex from target ally. Removal effect: deals 30...120 damage to foes near this ally."
 			},
+			"es": {
+				"name": "Destruir maleficio",
+				"description": "Conjuro. Se elimina un maleficio del objetivo (un aliado o tú mismo). Si se quita un maleficio, los enemigos cercanos a ese aliado reciben 30...120 de daño.",
+				"concise": "Conjuro. Elimina un maleficio del objetivo (un aliado o tú mismo). Efecto de la eliminación: 30...120 de daño a los enemigos cercanos a este aliado."
+			},
 			"fr": {
+				"name": "Annihilateur de maléfices",
+				"description": "Sort. Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé, les ennemis proches de la cible subissent 30...120 points de dégâts.",
+				"concise": "Sort. Lève un maléfice qui frappe la cible alliée. Effet de la suppression : inflige 30...120 points de dégâts aux ennemis à proximité de cet allié."
+			},
+			"fr-gwiki": {
 				"name": "Annihilateur de maléfices",
 				"description": "Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé, les ennemis proches de la cible subissent 30...120 points de dégâts.",
 				"concise": "Lève un maléfice qui frappe la cible alliée. Effet de la suppression : inflige 30...120 points de dégâts aux ennemis à proximité de cet allié."
+			},
+			"it": {
+				"name": "Spezza Fattura",
+				"description": "Magia. Elimini una fattura dall'obiettivo (un alleato o te stesso) e infliggi 30...120 danno[i] ai nemici nei dintorni.",
+				"concise": "Magia. Rimuove una fattura dall'obiettivo (un alleato o te stesso). Effetto della rimozione: 30...120 danno[i] ai nemici vicini a questo alleato."
+			},
+			"jp": {
+				"name": "シャター ヘックス",
+				"description": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除します。弱体化スペルを解除すると、その味方の周囲にいる敵は 30...120 のダメージを受けます。",
+				"concise": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除します。解除効果： その味方の周囲にいる敵に 30...120 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "약화 마법 분쇄",
+				"description": "마법. 대상 지정: 아군. 대상에게 걸려 있는 약화 마법 중 하나를 해제합니다. 대상 부근의 적들은 30...120 대미지를 입습니다.",
+				"concise": "마법. 대상에 걸린 약화 마법 하나를 해제합니다. 해제 효과: 대상 부근의 적들에게 30...120의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Rozbicie Klątwy",
+				"description": "Czar. Z wybranego sojusznika usuwasz jedną klątwę. Jeśli klątwa zostanie usunięta, to każdy przeciwnik w pobliżu sojusznika otrzyma 30...120 pkt. obrażeń.",
+				"concise": "Czar. Z wybranego sojusznika usuwa jedną klątwę. Efekt usunięcia: zadaje po 30...120 pkt. obrażeń przeciwnikom w pobliżu tego sojusznika."
+			},
+			"ru": {
+				"name": "Shatter Hex",
+				"description": "Заклинание. Снимает проклятье с выбранного союзника. Если проклятье было снято, противники, находящиеся поблизости от этого союзника, получают 30...120 ед. урона.",
+				"concise": "Заклинание. Снимает проклятье с выбранного союзника. Эффект снятия: 30...120 ед. урона противникам поблизости от этого союзника."
+			},
+			"bork": {
+				"name": "Shaetter Hex",
+				"description": "Spell. Remufe-a a hex frum taerget aelly. Iff a hex is remufed, fues neaer thaet aelly taeke-a 30...120 daemaege-a.",
+				"concise": "Spell. Remufes a hex frum taerget aelly. Remufael iffffect: deaels 30...120 daemaege-a tu fues neaer thees aelly."
 			}
 		}
 	}

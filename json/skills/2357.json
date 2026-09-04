@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "A Touch of Guile",
+				"description": "负面魔法。 Target touched foe takes 44...80 damage. If target foe was knocked down, that foe cannot attack for 5...8 seconds.",
+				"concise": "负面触摸法术。 Deals 44...80 damage. Target foe cannot attack (5...8 seconds) if it was knocked-down."
+			},
+			"cht": {
+				"name": "狡詐之為",
+				"description": "降咒魔法： 碰觸目標敵人使其受到 44...80 傷害。若目標敵人已被擊倒，則於 5...8 秒內無法進行攻擊。",
+				"concise": "碰觸降咒魔法： Target touched foe takes 44...80 damage. If target foe was knocked down, that foe cannot attack for 5...8 seconds."
+			},
 			"de": {
+				"name": "Ein Funken Arglist",
+				"description": "Verhexung. Der berührte Gegner erleidet 44...80 Punkt[e] Schaden. Wenn er zu Boden geworfen wurde, kann er 5...8 Sekunde[n] lang nicht angreifen.",
+				"concise": "Berührungs-Verhexung. Richtet 44...80 Punkt[e] Schaden an. Gegner kann nicht angreifen (5...8 Sekunde[n]), falls er zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Ein Funken Arglist",
 				"description": "Der berührte Gegner erleidet 44...80 Punkte Schaden. Wenn er zu Boden geworfen wurde, kann er 5...8 Sekunden lang nicht angreifen.",
 				"concise": "Richtet 44...80 Punkte Schaden an. Gegner kann nicht angreifen (5...8 Sekunden), falls er zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "A Touch of Guile",
+				"description": "Hex Spell. Target touched foe takes 44...80 damage. If target foe was knocked down, that foe cannot attack for 5...8 seconds.",
+				"concise": "Touch Hex Spell. Deals 44...80 damage. Target foe cannot attack (5...8 seconds) if it was knocked-down."
+			},
+			"en-gww": {
+				"name": "A Touch of Guile",
 				"description": "Target touched foe takes 44...80 damage. If target foe was knocked down, that foe cannot attack for 5...8 seconds.",
 				"concise": "Touch Hex Spell. Deals 44...80 damage. Target foe cannot attack (5...8 seconds) if it was knocked-down."
 			},
+			"es": {
+				"name": "Un toque de astucia",
+				"description": "Conjuro con maleficio. Haces 44...80 de daño al enemigo objetivo tocado. Si estaba derribado, no podrá atacar durante 5...8 segundos.",
+				"concise": "Conjuro con maleficio de toque. Hace 44...80 de daño. El enemigo objetivo no puede atacar (5...8 segundos) si estaba derribado."
+			},
 			"fr": {
+				"name": "Une pointe de ruse",
+				"description": "Maléfice. La cible ennemie touchée subit 44...80 points de dégâts. Si cet ennemi était assommé, il ne peut pas attaquer pendant 5...8 secondes.",
+				"concise": "Maléfice de toucher. Inflige 44...80 points de dégâts. L'ennemi visé ne peut pas attaquer (5...8 secondes) s'il a été assommé."
+			},
+			"fr-gwiki": {
 				"name": "Une pointe de ruse",
 				"description": "La cible ennemie touchée subit 44...80 points de dégâts. Si cet ennemi était assommé, il ne peux pas attaquer pendant 5...8 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tocco d'Astuzia",
+				"description": "Fattura. L'obiettivo nemico toccato subisce 44...80 danno[i]; se era stato abbattuto non potrà attaccare per 5...8 secondo[i].",
+				"concise": "Fattura a Tocco. Danni inferti: 44...80. L'obiettivo nemico non può attaccare (5...8 secondo[i]) se era stato abbattuto."
+			},
+			"jp": {
+				"name": "ガイル タッチ",
+				"description": "弱体化スペル： 接触した敵に 44...80 のダメージを与えます。ターゲットが転倒している場合、その敵は 5...8 秒間、攻撃することができません。",
+				"concise": "弱体化スペル (接触)： 44...80 のダメージを与えます。ターゲットした敵が転倒している場合、その敵は攻撃することができません (5...8 秒) 。"
+			},
+			"kr": {
+				"name": "교활한 손길",
+				"description": "약화 마법. 적에게 44...80의 대미지를 줍니다. 바닥에 넘어져 있던 적은 5...8초 동안 공격을 할 수 없습니다. 대상에 접근해서 사용해야 합니다.",
+				"concise": "약화 마법(접근용). 44...80의 대미지를 줍니다. 대상은 바닥에 넘어져 있으면 공격을 할 수 없게 됩니다.(5...8초)"
+			},
+			"pl": {
+				"name": "Podstępny Dotyk",
+				"description": "Klątwa (czar). Dotknięty wybrany przeciwnik otrzymuje 44...80 pkt. obrażeń. Jeśli ten przeciwnik jest powalony, to nie może atakować przez 5...8 sek.",
+				"concise": "Klątwa dotykowa - czar. Zadaje 44...80 pkt. obrażeń. Wybrany przeciwnik nie może atakować (5...8 sek.), jeżeli był powalony."
+			},
+			"ru": {
+				"name": "A Touch of Guile",
+				"description": "Заклинание-проклятье. Выбранный противник, до которого вы дотронулись, получает 44...80 ед. урона. Если этот противник был сбит с ног, он не сможет атаковать в течение 5...8 сек.",
+				"concise": "Заклинание-проклятье с прикосновением. Наносит 44...80 ед. урона. Выбранный противник не может атаковать (5...8 сек), если он был сбит с ног."
+			},
+			"bork": {
+				"name": "A Tuooch ooff Gooeele-a",
+				"description": "Hex Spell. Taerget tuooched fue-a taekes 44...80 daemaege-a. Iff taerget fue-a vaes knucked doon, thaet fue-a cunnut aettaeck fur 5...8 secunds.",
+				"concise": "Tuooch Hex Spell. Deaels 44...80 daemaege-a. Taerget fue-a cunnut aettaeck (5...8 secunds) iff it vaes knucked-doon."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 5,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "重生",
+				"description": "咒文。 复活目标队友，将该队友传送到你所在的地点，并恢复他25%的生命值和0点能量值。复活后，该队友的所有技能在10...3秒之内将无法使用，此法术将消耗你剩余的所有能量。",
+				"concise": "咒文。 复活目标队员，并将该队员传送到你所在的地点。复活后，该队员的所有技能在10...3秒之内无法使用，此法术将消耗你剩余的所有能量。"
+			},
+			"cht": {
+				"name": "重生",
+				"description": "咒文魔法： 復活目標隊員，傳送該隊員到你所在地點。復活後該隊員獲得 25% 的體力以及 0 能量而且所有技能在 10...3 秒內無法使用，而且此魔法將消耗你剩餘的所有能量。",
+				"concise": "咒文魔法： 復活目標隊員，傳送該隊員到你所在地點。復活後該隊員獲得 25% 的體力以及 0 能量而且所有技能在 10...3 秒內無法使用，而且此魔法將消耗你剩餘的所有能量。"
+			},
 			"de": {
+				"name": "Wiedergeburt",
+				"description": "Zauber. Das als Ziel ausgewählte Gruppenmitglied wird wieder belebt, kehrt mit 25% seiner Lebenspunkte und 0 Energiepunkten ins Leben zurück und wird zu Eurer aktuellen Position teleportiert. Alle seine Fertigkeiten werden 10...3 Sekunde[n] lang deaktiviert. Dieser Zauber verbraucht Eure gesamten verbliebenen Energiepunkte.",
+				"concise": "Zauber. Das Gruppenmitglied wird wiederbelebt (25% Lebenspunkte, 0 Energiepunkte). Teleportiert das Ziel zu Euch. Deaktiviert die Fertigkeiten des Ziels (10...3 Sekunde[n]). Ihr verliert alle Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Wiedergeburt",
 				"description": "Das als Ziel ausgewählte Gruppenmitglied wird wieder belebt, kehrt mit 25% seiner Lebenspunkte und 0 Energiepunkten ins Leben zurück und unternimmt einen Schattenschritt zu Eurer aktuellen Position. Alle seine Fertigkeiten werden 10...3 Sekunden lang deaktiviert. Dieser Zauber verbraucht Eure gesamten verbliebenen Energiepunkte.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (25% Lebenspunkte, 0 Energiepunkte) und unternimmt einen Schattenschritt zu Euch. <gray>Deaktiviert die Fertigkeiten des Ziels (10...3 Sekunden). Ihr verliert alle Energiepunkte.</gray>"
 			},
 			"en": {
 				"name": "Rebirth",
+				"description": "Spell. Resurrect target party member. Target party member is returned to life with 25% Health and zero Energy, and is teleported to your current location. All of target's skills are disabled for 10...3 seconds. This spell consumes all of your remaining Energy.",
+				"concise": "Spell. Resurrects target party member (25% Health, 0 Energy). Teleports target to you. Disables target's skills (10...3 seconds). You lose all Energy."
+			},
+			"en-gww": {
+				"name": "Rebirth",
 				"description": "Resurrect target party member. Target party member is returned to life with 25% Health and zero Energy, and is teleported to your current location. All of target's skills are disabled for 10...3 seconds. This spell consumes all of your remaining Energy.",
 				"concise": "Resurrects target party member (25% Health, 0 Energy). Teleports target to you. <gray>Disables target's skills (10...3 seconds). You lose all Energy.</gray>"
 			},
+			"es": {
+				"name": "Renacimiento",
+				"description": "Conjuro. Resucitas a un aliado con el 25% de salud y 0 puntos de energía, y lo teletransportas además a tu ubicación actual. Todas sus habilidades estarán desactivadas durante 10...3 segundos. Este conjuro utilizará el resto de tu energía.",
+				"concise": "Conjuro. Resucita al miembro del equipo objetivo (25% de salud, 0 de energía). Teletransportas al objetivo hasta tu ubicación. Desactiva sus habilidades (10...3 segundoss). Pierdes toda la energía."
+			},
 			"fr": {
+				"name": "Renaissance",
+				"description": "Sort. Ressuscite un membre du groupe. Celui-ci revient à la vie avec 25% de santé et aucun point d'énergie et est téléporté à votre position. Toutes ses compétences sont inutilisables pendant 10...3 secondes. Ce sort consomme toute l'énergie qu'il vous reste.",
+				"concise": "Sort. Ressuscite le membre du groupe visé (25% de santé et 0 point d'énergie). Téléporte la cible vers vous. Désactive les compétences de la cible (10...3 secondes). Vous perdez toute votre énergie."
+			},
+			"fr-gwiki": {
 				"name": "Renaissance",
 				"description": "Ressuscite un membre du groupe. Celui-ci revient à la vie avec 25% de santé et aucun point d'énergie et est téléporté à votre position. Toutes ses compétences sont inutilisables pendant 10...3 secondes. Ce sort consomme l'énergie qu'il vous reste.",
 				"concise": "Ressuscite le membre du groupe visé (25% de santé et 0 point d'énergie). Téléporte la cible vers vous. Désactive les compétences de la cible (10...3 secondes). Vous perdez toute votre énergie."
+			},
+			"it": {
+				"name": "Rinascita",
+				"description": "Magia. Resusciti un membro della squadra facendolo ritornare in vita con il 25% di Salute e zero Energia e teletrasportandolo nella tua posizione corrente. Tutte le sue abilità restano inattive per 10...3 secondo[i]. Questa magia consuma tutta la tua Energia residua.",
+				"concise": "Magia. Fa risorgere il membro della squadra selezionato (Salute: 25%; Energia: 0). Teletrasporta l'obiettivo nella tua posizione. Disattiva le abilità dell'obiettivo (10...3 secondo[i]). Perdi tutta l'Energia."
+			},
+			"jp": {
+				"name": "リバース",
+				"description": "スペル： ターゲットしたパーティー メンバーが25%の体力と0のエネルギーでプレイヤーのいる場所に復活します。ターゲットは、10...3 秒間すべてのスキルを使用することができません。このスペルは、詠唱時に残っているエネルギーをすべて消費します。",
+				"concise": "スペル： ターゲットしたパーティー メンバーがプレイヤーのいる場所で復活します (25%の体力と0のエネルギー)。ターゲットはすべてのスキルを使用することができず (10...3 秒)、プレイヤーはエネルギーをすべて失います。"
+			},
+			"kr": {
+				"name": "부활 소환",
+				"description": "마법. 대상 지정: 파티원. 자신의 남아 있는 모든 에너지를 소모하여 전사한 파티원을 자신이 있는 곳에 부활시킵니다. 그 파티원은 25%의 체력과 0의 에너지를 가진 채 부활하고, 부활한 파티원은 10...3초 동안 모든 스킬을 사용할 수 없습니다.",
+				"concise": "마법. 파티원을 자신의 위치로 부활시킵니다.(체력 25%, 에너지 0) 부활한 파티원은 스킬을 사용할 수 없습니다.(10...3 seconds) 자신의 에너지를 모두 소모합니다."
+			},
+			"pl": {
+				"name": "Odrodzenie",
+				"description": "Czar. Wskrzeszasz wybranego członka drużyny. Wraca on do życia z 25% pkt. żywotności i bez energii, zostaje też przeniesiony do miejsca, w którym się aktualnie znajdujesz. Wszystkie umiejętności wskrzeszonego będą niedostępne przez 10...3 sek. Ten czar pochłania całą twoją pozostałą energię.",
+				"concise": "Czar. Wskrzesza wybranego członka drużyny (25% żywotności, 0 pkt. energii). Teleportuje cel do ciebie. Wyłącza umiejętności celu (10...3 sek.). Tracisz całą energię."
+			},
+			"ru": {
+				"name": "Rebirth",
+				"description": "Заклинание. Воскрешает выбранного члена вашего отряда. Он будет возвращен к жизни с 25% здоровья, 0 ед. энергии и будет телепортирован в ваше текущее местоположение. Все умения воскрешенного будут недоступны в течение 10...3 сек. Это заклинание поглощает всю вашу оставшуюся энергию.",
+				"concise": "Заклинание. Воскрешает выбранного члена вашего отряда (25% здоровья, 0 ед. энергии). Переносит его к вам. Все умения воскрешенного недоступны (10...3 сек). Вы теряете всю энергию."
+			},
+			"bork": {
+				"name": "Reburt",
+				"description": "Spell. Resoorrect taerget paerty member. Taerget paerty member is retoorned tu leeffe-a veet 25% Heaelt und zeru Inergy, und is telepurted tu yuoor coorrent lucaeshun. Aell ooff taerget's skeells aere-a deesaebled fur 10...3 secunds. Thees spell cunsoomes aell ooff yuoor remaeeeneeng Inergy.",
+				"concise": "Spell. Resoorrects taerget paerty member (25% Heaelt, 0 Inergy). Telepurts taerget tu yuoo. Deesaebles taerget's skeells (10...3 secunds). Yuoo luse-a aell Inergy."
 			}
 		}
 	}

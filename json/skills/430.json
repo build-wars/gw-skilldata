@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 24,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "射手的赌注",
+				"description": "精英预备技。 持续 18秒，每当你的弓箭命中目标时，你获得 5...10点 能量，但是若你失误则损失 10点 能量。",
+				"concise": "精英预备技。 持续 18秒，每当你的弓箭命中目标时，你获得 5...10点 能量，但是若你失误则损失 10点 能量。"
+			},
+			"cht": {
+				"name": "弓手的賭注",
+				"description": "精英準備技能： 持續 18 秒，每當你的弓箭命中目標時，你獲得 5...10 能量，但是若你失誤則損失 10 能量。",
+				"concise": "精英準備技能： 持續 18 秒，每當你的弓箭命中目標時，你獲得 5...10 能量，但是若你失誤則損失 10 能量。"
+			},
 			"de": {
+				"name": "Schützenwette",
+				"description": "Elite-Vorbereitung. 18 Sekunde[n] lang erhaltet Ihr für jeden Eurer Pfeiltreffer 5...10 Energiepunkt[e], aber Ihr verliert jedes Mal 10 Energiepunkte, wenn Eure Pfeile ihr Ziel verfehlen.",
+				"concise": "Elite-Vorbereitung. 18 Sekunde[n]: Ihr erhaltet jedes Mal 5...10 Energiepunkt[e], wenn einer Eurer Pfeile trifft. Ihr verliert bei Fehlschüssen 10 Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Schützenwette",
 				"description": "18 Sekunden lang erhaltet Ihr für jeden Eurer Pfeiltreffer 5...10 Energiepunkte, aber Ihr verliert jedes Mal 10 Energiepunkte, wenn Eure Pfeile das Ziel verfehlen.",
 				"concise": "18 Sekunden: Ihr erhaltet jedes Mal 5...10 Energiepunkte, wenn einer eurer Pfeile trifft. <gray>Ihr verliert bei Fehlschüssen 10 Energiepunkte.</gray>"
 			},
 			"en": {
 				"name": "Marksman's Wager",
+				"description": "Elite Preparation. For 18 seconds, you gain 5...10 Energy whenever your arrows hit, but lose 10 Energy whenever your arrows fail to strike.",
+				"concise": "Elite Preparation. (18 seconds.) Gain 5...10 Energy whenever your arrows hit. Lose 10 Energy whenever you fail to hit."
+			},
+			"en-gww": {
+				"name": "Marksman's Wager",
 				"description": "For 18 seconds, you gain 5...10 Energy whenever your arrows hit, but lose 10 Energy whenever your arrows fail to strike.",
 				"concise": "(18 seconds.) Gain 5...10 Energy whenever your arrows hit. <gray>Lose 10 Energy whenever your arrows fail to hit.</gray>"
 			},
+			"es": {
+				"name": "Apuesta del tirador",
+				"description": "Preparación[\"Preparaciones\"] de élite. Durante 18 segundos, ganas 5...10 de energía siempre que tus flechas impacten, pero pierdes 10 de energía siempre que fallen.",
+				"concise": "Preparación[\"Preparaciones\"] de élite. (18 segundos). Ganas 5...10 de energía cada vez que tus flechas alcancen a un enemigo. Pierdes 10 de energía si fallas."
+			},
 			"fr": {
+				"name": "Pari du tireur",
+				"description": "Préparation d'élite. Pendant 18 secondes, vous gagnez 5...10 points d'énergie quand vos flèches touchent leur cible, mais en perdez 10 si elles ratent leur objectif.",
+				"concise": "Préparation d'élite. (18 secondes). Vous gagnez 5...10 points d'énergie chaque fois que vos flèches font mouche. Vous perdez 10 points d'énergie chaque fois que vous manquez votre cible."
+			},
+			"fr-gwiki": {
 				"name": "Pari du tireur",
 				"description": "Pendant 18 secondes, vous gagnez 5...10 points d'énergie quand vos flèches touchent leur cible, mais en perdez 10 si elles ratent leur objectif.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Scommessa del Tiratore",
+				"description": "Preparazione d'Élite. Per 18 secondo[i], ottieni 5...10 Punto[i] Energia ogni volta che le tue frecce vanno a segno, ma ne perdi 10 se mancano il bersaglio.",
+				"concise": "Preparazione d'Élite. (Secondi: 18) Energia conseguita ogni volta che le tue frecce vanno a segno: 5...10. Perdi 10 Punti Energia ogni volta che non vanno a segno."
+			},
+			"jp": {
+				"name": "マークスマン ウェイジャー",
+				"description": "エリート プレパレーション： 18 秒間、矢が命中するたびに 5...10 のエネルギーを獲得します。ただし、失敗するとエネルギーが10減少します。",
+				"concise": "エリート プレパレーション： (18 秒) 矢が命中するたびに 5...10 のエネルギーを獲得します。攻撃に失敗するたびにエネルギーが10減少します。"
+			},
+			"kr": {
+				"name": "저격수의 도박",
+				"description": "엘리트 준비. 대상 지정: 없음. 18초 동안 화살이 적중하면 5...10의 에너지를 얻고, 빗나가면 10의 에너지를 잃습니다.",
+				"concise": "엘리트 준비. (18초) 자신의 화살이 명중할 때마다 5...10의 에너지를 얻습니다. 화살이 빗나갈 때마다 10의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Ryzyko Strzelca",
+				"description": "Elitarne przygotowanie. Przez 18 sek., za każdym razem kiedy twoja strzała trafi otrzymujesz 5...10 pkt. energii, ale za każdym razem kiedy chybi tracisz 10 pkt. energii.",
+				"concise": "Elitarne przygotowanie. (18 sek.) Otrzymujesz 5...10 pkt. energii, za każdym razem, kiedy twoje strzały trafiają. Tracisz 10 pkt. energii, jeśli nie trafisz."
+			},
+			"ru": {
+				"name": "Marksman's Wager",
+				"description": "Элитная подготовка. В течение 18 сек вы получаете 5...10 ед. энергии каждый раз, когда ваши стрелы попадают в цель, но теряете 10 ед. энергии при каждом неудачном выстреле.",
+				"concise": "Элитная подготовка. (18 сек) Вы получаете 5...10 ед. энергии каждый раз, когда ваши стрелы попадают в цель. Вы теряете 10 ед. энергии при каждом промахе."
+			},
+			"bork": {
+				"name": "Maerksmun's Vaeger",
+				"description": "Ileete-a Prepaeraeshun. Fur 18 secunds, yuoo gaeeen 5...10 Inergy vhenefer yuoor aerroos heet, boot luse-a 10 Inergy vhenefer yuoor aerroos faeeel tu streeke-a.",
+				"concise": "Ileete-a Prepaeraeshun. (18 secunds.) Gaeeen 5...10 Inergy vhenefer yuoor aerroos heet. Luse-a 10 Inergy vhenefer yuoo faeeel tu heet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "格雷薇的毁灭",
+				"description": "精英物品法术。 最多能够持有30...60秒，当你持有格雷薇的骨灰时，所有的「祭司类」技能将带有10%的护甲穿透效果。当你丢掉格雷薇的骨灰时，你将失去所有「增益魔法」，并对所有区域内的敌人造成15...85点闪电伤害。",
+				"concise": "精英物品法术。 最多能够持有30...60秒，当你持有格雷薇的骨灰时，所有的「祭司类」技能将带有10%的护甲穿透效果。当你丢掉格雷薇的骨灰时，你将失去所有「增益魔法」，并对所有区域内的敌人造成15...85点闪电伤害。"
+			},
+			"cht": {
+				"name": "毀滅者葛雷薇",
+				"description": "精英抱持魔法： 最多可抱持 30...60 秒，你所有祭祀者技能具有 20% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 15...85 閃電傷害。",
+				"concise": "精英抱持魔法： 最多可抱持 30...60 秒，你所有祭祀者技能具有 20% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 15...85 閃電傷害。"
+			},
 			"de": {
+				"name": "Vernichtend war Glaive",
+				"description": "Elite-Gegenstandszauber. Haltet Glaives Asche bis zu 30...60 Sekunde[n] lang. Während Ihr ihre Asche haltet, haben alle Ritualisten-Fertigkeiten eine Rüstungsdurchdringung von 20%. Wenn Ihr ihre Asche fallen lasst, erleiden alle Feinde in dem Bereich 15...85 Punkt[e] Blitzschaden.",
+				"concise": "Elite-Gegenstandszauber. (30...60 Sekunde[n].) Eure Ritualisten-Fertigkeiten haben eine Rüstungsdurchdringung von 20%. Fallwirkung: Richtet bei allen Feinden im Bereich 15...85 Punkt[e] Blitzschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Vernichtend war Glaive",
 				"description": "Haltet Glaives Asche bis zu 30...60 Sekunden lang. Während Ihr ihre Asche haltet, haben alle Ritualisten-Fertigkeiten eine Rüstungsdurchdringung von 20%. Wenn Ihr ihre Asche fallen lasst, erleiden alle Feinde in dem Bereich 15...85 Punkte Blitzschaden.",
 				"concise": "(30...60 Sekunden). Eure Ritualisten-Fertigkeiten haben eine Rüstungsdurchdringung von 20%. Fallwirkung: Richtet bei allen Feinden im Bereich 15...85 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Destructive Was Glaive",
+				"description": "Elite Item Spell. Hold Glaive's ashes for up to 30...60 seconds. While you hold her ashes, all Ritualist skills have 20% armor penetration. When you drop her ashes, all foes in the area are struck for 15...85 lightning damage.",
+				"concise": "Elite Item Spell. (30...60 seconds.) Your Ritualist skills have 20% armor penetration. Drop effect: deals 15...85 lightning damage to all foes in the area."
+			},
+			"en-gww": {
+				"name": "Destructive Was Glaive",
 				"description": "Hold Glaive's ashes for up to 30...60 seconds. While you hold her ashes, all Ritualist skills have 20% armor penetration. When you drop her ashes, all foes in the area are struck for 15...85 lightning damage.",
 				"concise": "(30...60 seconds.) Your Ritualist skills have 20% armor penetration. Drop effect: deals 15...85 lightning damage to all foes in the area."
 			},
+			"es": {
+				"name": "Destructora sea Glaive",
+				"description": "Conjuro con objeto de élite. Llevas las cenizas de Glaive durante 30...60 segundos. Mientras las lleves, todas las habilidades de Ritualista tienen 20% de penetración de armadura. Cuando las sueltes, todos los enemigos de la zona reciben 15...85 de daño de relámpago.",
+				"concise": "Conjuro con objeto de élite. (30...60 segundos). Tus habilidades de Ritualista tienen un 20% de penetración de armadura. Efecto al soltarse: hace 15...85 de daño de relámpago a los enemigos de la zona."
+			},
 			"fr": {
+				"name": "Glaive était destructrice",
+				"description": "Sort d'altération d'objet d'élite. Vous tenez les cendres de Glaive pendant un maximum de 30...60 secondes. En tenant ses cendres, toutes les compétences du Ritualiste bénéficient de 20% de pénétration d'armure. Lorsque vous déposez ses cendres, tous les ennemis dans la zone subissent 15...85 points de dégâts de la foudre.",
+				"concise": "Sort d'altération d'objet d'élite. (30...60 secondes.) Vos compétences de Ritualiste bénéficient de 20% de pénétration d'armure. Effet de la pose : inflige 15...85 points de dégâts de la foudre à tous les ennemis dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Glaive était destructrice",
 				"description": "Vous tenez les cendres de Glaive pendant un maximum de 30...60 secondes. Pendant ce temps, toutes les compétences de Ritualiste ont une pénétration d'armure de 20%. Lorsque vous les déposez, tous les ennemis dans la zone reçoivent 10...100 points de dégâts de la foudre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Glaive era Distruttiva",
+				"description": "Magia d'Élite Altera-oggetto. Mantieni le ceneri di Glaive per un massimo di 30...60 secondo[i]. Mentre mantieni le ceneri di Glaive, tutte le abilità Ritualista ricevono 20% di penetrazione armatura. Quando rilasci le ceneri, tutti i nemici nell'area subiscono 15...85 danno[i] da fulmine.",
+				"concise": "Magia d'Élite Altera-oggetto. (Secondo[i]: 30...60). Le tue abilità Ritualista aumentano di 20% di penetrazione armatura. Rilascio: Danni da fulmine inferti a tutti i nemici nell'area: 15...85."
+			},
+			"jp": {
+				"name": "ディストラクティブ ワズ グレイブ",
+				"description": "エリート アイテムスペル： 最大 30...60 秒間、グレイブの灰を持ちます。その間、リチュアリスト スキルのアーマー貫通効果が 20% になります。この灰を落とすと、エリア内にいるすべての敵に 15...85 のライトニング ダメージを与えます。",
+				"concise": "エリート アイテムスペル： (30...60 秒) リチュアリスト スキルのアーマー貫通効果が 20% になります。ドロップ効果： エリア内にいるすべての敵に 15...85 のライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "글레이브의 파괴력",
+				"description": "엘리트 드롭아이템. 대상 지정: 없음. 30...60초 동안 유지되는 글레이브의 마력석을 만듭니다. 마력석을 들고 있는 동안 모든 리추얼리스트 스킬은 20%의 갑옷 관통 효과를 가집니다. 마력석을 바닥에 떨어뜨리면 일정 범위 내에 있는 모든 적에게 15...85의 번개 대미지를 줍니다.",
+				"concise": "엘리트 드롭아이템. (30...60초) 리추얼리스트 스킬이 20%의 갑옷 관통 효과를 가집니다. 드롭 효과: 일정 범위 내에 있는 적들에게 15...85의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Niszczycielską Była Glewia",
+				"description": "Elitarny czar z przedmiotu. Trzymaj prochy Glewii przez maksymalnie 30...60 sek. Kiedy je trzymasz, wszystkie umiejętności Rytualisty otrzymują 20% do penetracji pancerza. Gdy upuścisz jej prochy, wszyscy przeciwnicy w okolicy otrzymają 15...85 pkt. obrażeń od błyskawic.",
+				"concise": "Elitarny czar z przedmiotu. (30...60 sek.) Twoje umiejętności Rytualisty otrzymują 20% do penetracji pancerza. Efekt upuszczenia: wszyscy przeciwnicy w okolicy otrzymują po 15...85 pkt. obrażeń od błyskawic."
+			},
+			"ru": {
+				"name": "Destructive Was Glaive",
+				"description": "Элитное артефактное заклинание. Вы держите прах Glaive до 30...60 сек. До тех пор, пока вы держите ее прах, все умения профессии Ritualist игнорируют 20% защиты противника. Когда вы бросаете ее прах, все противники в зоне досягаемости получают 15...85 ед. урона силой молнии.",
+				"concise": "Элитное артефактное заклинание. (30...60 сек) Ваши умения профессии Ritualist игнорируют 20% защиты противника. Эффект от бросания: наносит 15...85 ед. урона силой молнии всем противникам в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Destroocteefe-a Vaes Glaeeefe-a",
+				"description": "Ileete-a Item Spell. Huld Glaeeefe-a's aeshes fur up tu 30...60 secunds. Vheele-a yuoo huld her aeshes, aell Reetooaeleest skeells haefe-a 20% aermur penetraeshun. Vhee yuoo drup her aeshes, aell fues in zee aerea aere-a stroock fur 15...85 leeghtneeng daemaege-a.",
+				"concise": "Ileete-a Item Spell. (30...60 secunds.) Yuoor Reetooaeleest skeells haefe-a 20% aermur penetraeshun. Drup iffffect: deaels 15...85 leeghtneeng daemaege-a tu aell fues in zee aerea."
 			}
 		}
 	}

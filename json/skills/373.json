@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "弓箭无用",
+				"description": "姿态。 在1...6秒之内，使你有75%的几率格挡弓箭射击。如果你在此「姿态」下击中敌人，则「姿态」效果消失。",
+				"concise": "姿态。 在1...6秒之内，使你格挡弓箭射击的几率提高75%。如果你在此「姿态」下击中敌人，则「姿态」效果消失。"
+			},
+			"cht": {
+				"name": "弓箭閃避態勢",
+				"description": "態勢： 持續 1...6 秒，你有 75% 機率格檔投射攻擊，每次你格檔成功時將會使鄰近敵人遭受流血 5...15 秒。",
+				"concise": "態勢： 持續 1...6 秒，你有 75% 機率格檔投射攻擊，每次你格檔成功時將會使鄰近敵人遭受流血 5...15 秒。"
+			},
 			"de": {
+				"name": "Pfeilablenkung",
+				"description": "Haltung. 1...6 Sekunde[n] lang habt Ihr eine Chance von 75%, Angriffe zu blocken. Wenn Ihr einen Geschossangriff blockt, leiden umstehende Feinde 5...15 Sekunde[n] lang unter einer Blutung.",
+				"concise": "Haltung. (1...6 Sekunde[n].) Ihr habt eine 75%ige Chance, Angriffe zu blocken. Wenn Ihr einen Geschossangriff blockt, erleiden umstehende Feinde eine Blutung (5...15 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Pfeilablenkung",
 				"description": "1...6 Sekunden lang habt Ihr eine 75%ige Chance, Angriffe zu blocken. Wenn Ihr einen Geschossangriff blockt, leiden umstehende Feinde 5...15 Sekunden lang unter einer Blutung.",
 				"concise": "(1...6 Sekunden.) Ihr habt eine 75%ige Chance, Angriffe zu blocken. Wenn Ihr einen Geschossangriff blockt, erleiden umstehende Feinde eine Blutung (5...15 Sekunden)."
 			},
 			"en": {
 				"name": "Deflect Arrows",
+				"description": "Stance. For 1...6 seconds, you have a 75% chance to block attacks. If you block a projectile attack, adjacent foes suffer from Bleeding for 5...15 seconds.",
+				"concise": "Stance. (1...6 seconds.) You have 75% chance to block attacks. Adjacent foes suffer Bleeding (5...15 seconds) when you block a projectile attack."
+			},
+			"en-gww": {
+				"name": "Deflect Arrows",
 				"description": "For 1...6 second[s], you have a 75% chance to block attacks. If you block a projectile attack, adjacent foes suffer from Bleeding for 5...15 seconds.",
 				"concise": "(1...6 second[s].) You have 75% chance to block attacks. Adjacent foes suffer Bleeding (5...15 seconds) when you block a projectile attack."
 			},
+			"es": {
+				"name": "Desviar flechas",
+				"description": "Actitud. Durante 1...6 segundos, tienes un 75% de posibilidades de bloquear ataques. Si bloqueas un ataque con proyectil, los enemigos adyacentes sufren una hemorragia durante 5...15 segundos.",
+				"concise": "Actitud. (1...6 segundos). Tienes un 75% de probabilidades de bloquear ataques. Los enemigos adyacentes sufren una hemorragia (5...15 segundos) si bloqueas un ataque con proyectil."
+			},
 			"fr": {
+				"name": "Déviation des flèches",
+				"description": "Pose de combat. Pendant 1...6 secondes, vous avez 75% de chances de bloquer les attaques. Si vous bloquez un projectile, les ennemis adjacents souffrent de Saignement pendant 5...15 secondes.",
+				"concise": "Pose de combat. (1...6 secondes.) Vous avez 75% de chances de bloquer les attaques. Les ennemis adjacents souffrent de Saignement (5...15 secondes) chaque fois que vous bloquez un projectile."
+			},
+			"fr-gwiki": {
 				"name": "Déviation des flèches",
 				"description": "Pendant 1...6 secondes, vous bénéficiez de 75% de chances de bloquer. Chaque fois que bloquez un projectile, les ennemis adjacent souffre de Saignement pendant 5...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Devia Frecce",
+				"description": "Posizione. Per 1...6 secondo[i] hai un 75% di probabilità di bloccare gli attacchi. Se blocchi un attacco proiettile, i nemici adiacenti subiscono danni da Emorragia per 5...15 secondo[i].",
+				"concise": "Posizione. (Secondo[i]: 1...6). Probabilità di blocco: 75%. Per 5...15 secondo[i] i nemici adiacenti subiscono danni da Emorragia quando blocchi un attacco proiettile."
+			},
+			"jp": {
+				"name": "ディフレクト アロー",
+				"description": "スタンス： 1...6 秒間、75% の確率で攻撃をブロックします。遠投攻撃をブロックすると、隣接する敵は 5...15 秒間「出血」状態になります。",
+				"concise": "スタンス： (1...6 秒) 75% の確率で攻撃をブロックします。遠投攻撃をブロックすると、隣接する敵が「出血」状態になります (5...15 秒)。"
+			},
+			"kr": {
+				"name": "화살 쳐내기",
+				"description": "자세. 대상 지정: 없음. 1...6초 동안 75% 확률로 적의 공격을 막아 냅니다. 발사체 공격을 막아 내면 인접한 적들을 5...15초 동안 출혈 상태로 만듭니다.",
+				"concise": "자세. (1...6초) 75% 확률로 적의 공격을 막아 냅니다. 발사체 공격을 막으면 인접한 적들이 출혈을 일으킵니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Odbijanie Strzał",
+				"description": "Postawa. Przez 1...6 sek., masz 75% szans na zablokowanie ataków. Jeśli zablokujesz pocisk, pobliscy wrogowie zaczyną krwawić przez 5...15 sek.",
+				"concise": "Postawa. (1...6 sek) Masz 75% szans na zablokowanie ataków. Pobliscy wrogowie zaczyną krwawić przez (5...15 sek.), jeśli uda ci się zablokować pocisk."
+			},
+			"ru": {
+				"name": "Deflect Arrows",
+				"description": "Стойка. В течение 1...6 сек у вас есть 75%-й шанс блокировать атаки. Если вы блокируете метательную атаку, окружающие противники будут кровоточить в течение 5...15 сек.",
+				"concise": "Стойка. (1...6 сек) Вы получаете 75%-й шанс блокировать атаки. Окружающие противники кровоточат (5...15 сек), если вы блокируете метательную атаку."
+			},
+			"bork": {
+				"name": "Defflect Aerroos",
+				"description": "Stunce-a. Fur 1...6 secunds, yuoo haefe-a a 75% chunce-a tu bluck aettaecks. Iff yuoo bluck a prujecteele-a aettaeck, aedjaecent fues sooffffer frum Bleedeeng fur 5...15 secunds.",
+				"concise": "Stunce-a. (1...6 secunds.) Yuoo haefe-a 75% chunce-a tu bluck aettaecks. Aedjaecent fues sooffffer Bleedeeng (5...15 secunds) vhee yuoo bluck a prujecteele-a aettaeck."
 			}
 		}
 	}

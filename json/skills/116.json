@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黑暗光环",
+				"description": "增益魔法。 在30秒之内，每当友方目标进行「生命牺牲」时，邻近的敌人都会受到5...50点暗影伤害，同时你将损失5...20点生命值。",
+				"concise": "增益魔法。 在30秒之内，每当友方目标进行「生命牺牲」时，邻近的敌人都会受到5...50点暗影伤害，同时你将失去5...20点生命值。"
+			},
+			"cht": {
+				"name": "暗黑靈氣",
+				"description": "加持魔法： 持續 30 秒，每當目標盟友犧牲體力時，暗黑靈氣對鄰近該盟友的敵人造成 5...50 暗影傷害，同時你將損失 5...20 體力。",
+				"concise": "加持魔法： 持續 30 秒，每當目標盟友犧牲體力時，暗黑靈氣對鄰近該盟友的敵人造成 5...50 暗影傷害，同時你將損失 5...20 體力。"
+			},
 			"de": {
+				"name": "Dunkle Aura",
+				"description": "Verzauberung. 30 Sekunden lang fügt \"Dunkle Aura\" jedes Mal, wenn der Verbündete (bzw. Ihr selbst) Lebenspunkte opfert, allen umstehenden Feinden 5...50 Punkt[e] Schattenschaden zu. Außerdem verliert Ihr 5...20 Lebenspunkt[e].",
+				"concise": "Verzauberung. 30 Sekunden: Richtet bei umstehenden Gegnern jedes Mal 5...50 Punkt[e] Schaden an, wenn der Verbündete (bzw. Ihr selbst) Lebenspunkte opfert. Schadenskosten: Ihr verliert 5...20 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Dunkle Aura",
 				"description": "30 Sekunden lang fügt Dunkle Aura jedes Mal, wenn der Verbündete (bzw. Ihr selbst) Lebenspunkte opfert, allen umstehenden Feinden 5...50 Punkte Schattenschaden zu. Außerdem verliert Ihr 5...20 Lebenspunkte.",
 				"concise": "30 Sekunden: Richtet bei umstehenden Gegnern jedes Mal 5...50 Punkte Schaden an, wenn der Verbündete (bzw. Ihr selbst) Lebenspunkte opfert. <gray>Schadenskosten: Ihr verliert 5...20 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Dark Aura",
+				"description": "Enchantment Spell. For 30 seconds, whenever target ally sacrifices Health, Dark Aura deals 5...50 shadow damage to adjacent foes, and you lose 5...20 Health.",
+				"concise": "Enchantment Spell. (30 seconds.) Deals 5...50 damage to adjacent foes whenever target ally sacrifices Health. Damage cost: you lose 5...20 Health."
+			},
+			"en-gww": {
+				"name": "Dark Aura",
 				"description": "For 30 seconds, whenever target ally sacrifices Health, Dark Aura deals 5...50 shadow damage to adjacent foes, and you lose 5...20 Health.",
 				"concise": "(30 seconds). Deals 5...50 damage to adjacent foes whenever target ally sacrifices Health. <gray>Damage cost: you lose 5...20 Health.</gray>"
 			},
+			"es": {
+				"name": "Aura oscura",
+				"description": "Conjuro con encantamiento. Durante 30 segundos, siempre que el objetivo (un aliado o tú mismo) sacrifique salud, el Aura oscura hará 5...50 de daño a los enemigos adyacentes y perderás 5...20 de salud.",
+				"concise": "Conjuro con encantamiento. (30 segundos). Hace 5...50 de daño a los enemigos adyacentes siempre que el objetivo (un aliado o tú mismo) sacrifique salud. Coste del daño: pierdes 5...20 de salud."
+			},
 			"fr": {
+				"name": "Aura noire",
+				"description": "Enchantement. Pendant 30 secondes, à chaque fois que la cible (un allié ou vous-même) sacrifie des points de vie, l'Aura noire inflige 5...50 points de dégâts de l'ombre à tous les ennemis adjacents et vous perdez 5...20 points de vie .",
+				"concise": "Enchantement. (30 secondes.) Inflige 5...50 points de dégâts aux ennemis adjacents chaque fois que l'allié visé sacrifie de la santé. Coût des dégâts : vous perdez 5...20 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Aura noire",
 				"description": "Pendant 30 secondes, à chaque fois que la cible (un allié ou vous-même) sacrifie des points de vie, l'Aura noire inflige 5...50 points de dégâts de l'ombre à tous les ennemis adjacents et vous perdez 5...20 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura Oscura",
+				"description": "Incantesimo. Per 30 secondi, ogni volta che l'obiettivo (un alleato o te stesso) sacrifica della Salute, l'Aura Oscura infligge 5...50 danno[i] da ombra ai nemici adiacenti e tu perdi 5...20 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 30) Danni ai nemici adiacenti ogni volta che l'obiettivo (un alleato o te stesso) sacrifica Salute: 5...50. Costo del danno: perdi 5...20 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "ダーク オーラ",
+				"description": "強化スペル： 30秒間、ターゲットした味方が体力を犠牲にするたびに隣接する敵に 5...50 の暗黒ダメージを与えますが、プレイヤーの体力も 5...20 減少します。",
+				"concise": "強化スペル： (30秒) ターゲットした味方が体力を犠牲にするたびに、隣接する敵に 5...50 のダメージを与えます。ダメージ コスト： プレイヤーの体力が 5...20 減少します。"
+			},
+			"kr": {
+				"name": "암흑의 오라",
+				"description": "강화 마법. 대상 지정: 아군. 30초 동안 대상이 체력을 소모하는 스킬을 사용하면 대상에 인접한 적들은 5...50의 암흑 대미지를 입습니다. 자신은 5...20의 체력을 소모합니다.",
+				"concise": "강화 마법. (30초) 대상 아군이 체력을 소모하는 스킬을 사용할 때마다 인접한 적들은 5...50의 대미지를 입습니다. 대미지 대가: 자신은 5...20의 체력을 소모합니다."
+			},
+			"pl": {
+				"name": "Mroczna Aura",
+				"description": "Zaklęcie (czar). Przez 30 sek., za każdym razem, kiedy wybrany sojusznik poświęca punkty żywotności, Mroczna Aura zadaje 5...50 pkt. obrażeń od cienia przeciwnikom bezpośrednio przy nim, a ty tracisz 5...20 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (30 sek.) Zadaje 5...50 pkt. obrażeń przeciwnikom bezpośrednio przy wybranym sojuszniku, za każdym razem, kiedy poświęca on żywotność. Koszt obrażeń: tracisz 5...20 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Dark Aura",
+				"description": "Заклинание-чары. В течение 30 сек каждый раз, когда выбранный союзник жертвует здоровьем, Dark Aura наносит 5...50 ед. урона силой тьмы окружающим противникам, а вы теряете 5...20 ед. здоровья.",
+				"concise": "Заклинание-чары. (30 сек) Наносит 5...50 ед. урона окружающим противникам каждый раз, когда выбранный союзник жертвует здоровьем. Цена за урон: вы теряете 5...20 ед. здоровья."
+			},
+			"bork": {
+				"name": "Daerk Oora",
+				"description": "Inchuntment Spell. Fur 30 secunds, vhenefer taerget aelly saecreeffeeces Heaelt, Daerk Oora deaels 5...50 shaedoo daemaege-a tu aedjaecent fues, und yuoo luse-a 5...20 Heaelt.",
+				"concise": "Inchuntment Spell. (30 secunds.) Deaels 5...50 daemaege-a tu aedjaecent fues vhenefer taerget aelly saecreeffeeces Heaelt. Daemaege-a cust: yuoo luse-a 5...20 Heaelt."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命恩赐",
+				"description": "增益魔法。 在20秒之内，使你的最大生命值提高40...100点。当此「增益魔法」消失时，你回复75...200点生命值。",
+				"concise": "增益魔法。 在20秒之内，使你的最大生命值提高40...100点。当此「增益魔法」消失时，你回复75...200点生命值。"
+			},
+			"cht": {
+				"name": "生命恩賜",
+				"description": "加持魔法： 持續 20 秒，使你的體力最大值增加 40...100 。當此「加持」結束時，你獲得 75...200 體力。",
+				"concise": "加持魔法： 持續 20 秒，使你的體力最大值增加 40...100 。當此「加持」結束時，你獲得 75...200 體力。"
+			},
 			"de": {
+				"name": "Wesentliche Wohltat",
+				"description": "Verzauberung. 20 Sekunde[n] lang habt Ihr +40...100 maximale Lebenspunk[e]. Wenn diese Verzauberung endet, werdet Ihr um 75...200 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. 20 Sekunde[n]: Ihr habt +40...100 maximale Lebenspunkte. Wirkung am Ende: Heilt Euch um 75...200 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Wesentliche Wohltat",
 				"description": "20 Sekunden lang habt Ihr +40...100 maximale Lebenspunkte. Wenn diese Verzauberung endet, erhaltet Ihr 75...200 Lebenspunkte.",
 				"concise": "20 Sekunden: Ihr habt +40...100 maximale Lebenspunkte. Wirkung am Ende: Erhaltet 75...200 Lebenspunkte."
 			},
 			"en": {
 				"name": "Vital Boon",
+				"description": "Enchantment Spell. For 20 seconds, you have +40...100 maximum Health. When this enchantment ends, you are healed for 75...200 Health.",
+				"concise": "Enchantment Spell. (20 seconds.) You have +40...100 maximum Health. End effect: heals you for 75...200."
+			},
+			"en-gww": {
+				"name": "Vital Boon",
 				"description": "For 20 seconds, you have +40...100 maximum Health. When this enchantment ends, you are healed for 75...200 Health.",
 				"concise": "(20 seconds.) You have +40...100 maximum Health. End effect: Heals you for 75...200."
 			},
+			"es": {
+				"name": "Dádiva vital",
+				"description": "Conjuro con encantamiento. Durante 20 segundos, tienes +40...100 de salud máxima. Cuando este encantamiento termine, te curarás 75...200 de salud.",
+				"concise": "Conjuro con encantamiento. (20 segundos). Tienes +40...100 de salud máxima. Efecto final: te curas 75...200 de salud."
+			},
 			"fr": {
+				"name": "Compagnon vital",
+				"description": "Enchantement. Pendant 20 secondes, vous avez +40...100 de santé maximum. Lorsque cet enchantement prend fin, vous êtes soigné[f:\"soignée\"] de 75...200 points de vie.",
+				"concise": "Enchantement. (20 secondes.) Vous avez +40...100 de santé maximum. Effet final : vous soigne de 75...200 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Compagnon vital",
 				"description": "Pendant 20 secondes, vous avez +40...100 de santé maximum. Lorsque cet enchantement prend fin, vous êtes soigné de 75...200 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dono Vitale",
+				"description": "Incantesimo. Per 20 secondo[i], la tua Salute massima aumenta di +40...100. Quando questo incantesimo termina vieni curato di 75...200 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 20) Tua Salute massima: +40...100. Effetto al termine: ti cura di 75...200."
+			},
+			"jp": {
+				"name": "バイタル ブーン",
+				"description": "強化スペル： 20 秒間、体力の上限が 40...100 増加します。この効果が消失すると、体力が 75...200 回復します。",
+				"concise": "強化スペル： (20 秒) 体力の上限が 40...100 増加します。終了効果： 体力が 75...200 回復します。"
+			},
+			"kr": {
+				"name": "활력의 은총",
+				"description": "강화 마법. 대상 지정: 없음. 20초 동안 최대 체력이 40...100 증가합니다. 효과가 끝나면 75...200의 체력을 회복합니다.",
+				"concise": "강화 마법. (20초) 최대 체력이 40...100만큼 증가합니다. 종료 효과: 75...200의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Życiodajny Dar",
+				"description": "Zaklęcie (czar). Na 20 sek. twoja maksymalna żywotność wzrasta o +40...100 pkt. Kiedy zaklęcie przestanie działać, otrzymujesz 75...200 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (20 sek.) Twoja maksymalna żywotność zwiększa się o +40...100 pkt. Efekt końcowy: otrzymujesz 75...200 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Vital Boon",
+				"description": "Заклинание-чары. В течение 20 сек ваш максимальный уровень здоровья увеличивается на 40...100 ед. Когда эти чары заканчивают свое действие, вы исцеляетесь на 75...200 ед. здоровья.",
+				"concise": "Заклинание-чары. (20 сек) Вы получаете +40...100 ед. к максимальному уровню здоровья. Эффект окончания: исцеляет вас на 75...200 ед. здоровья."
+			},
+			"bork": {
+				"name": "Feetael Buun",
+				"description": "Inchuntment Spell. Fur 20 secunds, yuoo haefe-a +40...100 maexeemoom Heaelt. Vhee thees inchuntment inds, yuoo aere-a heaeled fur 75...200 Heaelt.",
+				"concise": "Inchuntment Spell. (20 secunds.) Yuoo haefe-a +40...100 maexeemoom Heaelt. Ind iffffect: heaels yuoo fur 75...200."
 			}
 		}
 	}

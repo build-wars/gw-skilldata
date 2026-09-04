@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Great Dwarf Weapon",
+				"description": "武咒。 For 20 seconds, target other ally's weapon strikes for +15...20 damage and has a 28...40% chance to cause knock down.",
+				"concise": "武咒。 (20 seconds.) +15...20 weapon damage and 28...40% chance to cause knock-down with attacks. Cannot self-target."
+			},
+			"cht": {
+				"name": "偉大矮人武力",
+				"description": "武裝魔法： 持續 20 秒，其他目標盟友的武器可造成 +15...20 傷害並有 28...40% 的機率出現「擊倒」效果。",
+				"concise": "武裝魔法： For 20 seconds, target other ally's weapon strikes for +15...20 damage and has a 28...40% chance to cause knock down."
+			},
 			"de": {
+				"name": "Waffe des Großen Zwergs",
+				"description": "Waffenzauber. 20 Sekunde[n] lang fügt die Waffe des Verbündeten +15...20 Punkt[e] Schaden zu und hat eine 28...40%ige Chance Feinde zu Boden zu werfen.",
+				"concise": "Waffenzauber. 20 Sekunde[n]: +15...20 Punkt[e] Waffenschaden und 28...40%ige Chance, Feinde mit Angriffen zu Boden zu werfen. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Waffe des Großen Zwergs",
 				"description": "20 Sekunden lang fügt die Waffe des Verbündeten +15...20 Punkte Schaden zu und hat eine 28...40%ige Chance, Feinde zu Boden zu werfen.",
 				"concise": "20 Sekunden: +15...20 Punkte Waffenschaden und 28...40%ige Chance, Feinde mit Angriffen zu Boden zu werfen. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Great Dwarf Weapon",
+				"description": "Weapon Spell. For 20 seconds, target other ally's weapon strikes for +15...20 damage and has a 28...40% chance to cause knock down.",
+				"concise": "Weapon Spell. (20 seconds.) +15...20 weapon damage and 28...40% chance to cause knock-down with attacks. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Great Dwarf Weapon",
 				"description": "For 20 seconds, target other ally's weapon strikes for +15...20 damage and has a 28...40% chance to cause knock down.",
 				"concise": "(20 seconds.) +15...20 weapon damage and 28...40% chance to cause knock-down with attacks. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Arma del Gran Enano",
+				"description": "Conjuro con arma. Durante 20 segundos, el arma del aliado objetivo hace +15...20 de daño y tiene 28...40% de posibilidades de causar derribos.",
+				"concise": "Conjuro con arma. (20 segundos). +15...20 de daño con el arma y 28...40% de probabilidades de causar derribo al atacar. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Arme du Grand Nain",
+				"description": "Sort d'altération d'arme. Pendant 20 secondes, l'arme de l'allié visé inflige +15...20 points de dégâts et a 28...40% de chances d'assommer.",
+				"concise": "Sort d'altération d'arme. (20 secondes.) +15...20 de dégâts d'arme et 28...40% de chances d'assommer avec les attaques. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Arme du Grand Nain",
 				"description": "Pendant 20 secondes, l'arme de l'allié visé inflige +15...20 points de dégâts et a 28...40% de chances d'assommer.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma del Grande Nano",
+				"description": "Magia Altera-arma. Per 20 secondo[i], l'arma dell'obiettivo alleato provoca +15...20 danno[i] e ha un 28...40% di probabilità di abbattere.",
+				"concise": "Magia Altera-arma. (Secondi: 20) Danno da arma: +15...20. Probabilità di provocare abbattimento con gli attacchi: 28...40%. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "グレート ドワーフ ウェポン",
+				"description": "ウェポン スペル： 20 秒間、ターゲットした自分以外の味方による武器を使用した攻撃は、15...20 の追加ダメージを与え、28...40% の確率で敵を転倒させます。",
+				"concise": "ウェポン スペル： (20 秒) ウェポン ダメージが 15...20 増加し、28...40% の確率で攻撃した敵が転倒します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "드워프 수호자의 무기",
+				"description": "마법 무기. 20초 동안 대상 아군의 무기 공격이 15...20의 대미지를 추가로 주고, 28...40%의 확률로 적을 바닥에 넘어뜨립니다.",
+				"concise": "마법 무기. (20초) 무기 대미지가 15...20 증가하고, 28...40%의 확률로 적을 바닥에 넘어뜨립니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Oręż Wielkiego Krasnoluda",
+				"description": "Czar z broni. Przez 20 sek., broń wybranego sojusznika innego niż ty zadaje +15...20 pkt. obrażeń i posiada 28...40% szans na powalenie.",
+				"concise": "Czar z broni. (20 sek.) +15...20 pkt. obrażeń od broni i 28...40% szans na powalenie w czasie ataków. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Great Dwarf Weapon",
+				"description": "Оружейное заклинание. В течение 20 сек оружие выбранного союзника (но не ваше) наносит дополнительно 15...20 ед. урона и получает 28...40%-й шанс сбить противника с ног.",
+				"concise": "Оружейное заклинание. (20 сек) Увеличивает на 15...20 ед. урон оружия и дает 28...40%-й шанс сбить с ног при атаке. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Greaet Dvaerff Veaepun",
+				"description": "Veaepun Spell. Fur 20 secunds, taerget oozeer aelly's veaepun streekes fur +15...20 daemaege-a und haes a 28...40% chunce-a tu coose-a knuck doon. Bork! Bork! Bork!",
+				"concise": "Veaepun Spell. (20 secunds.) +15...20 veaepun daemaege-a und 28...40% chunce-a tu coose-a knuck-doon veet aettaecks. Cunnut selff-taerget."
 			}
 		}
 	}

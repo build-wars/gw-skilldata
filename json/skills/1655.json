@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "傲慢之悔",
+				"description": "负面魔法。 在5秒之内，目标敌人每使用一次精英技能，他将失去3...15点能量。",
+				"concise": "负面魔法。 在5秒之内，目标敌人每使用一次精英技能，他将失去3...15点能量。"
+			},
+			"cht": {
+				"name": "驕傲的代價",
+				"description": "降咒魔法： 持續 5 秒，使目標敵人「下一次」使用「精英技能」時損失 3...15 能量。",
+				"concise": "降咒魔法： 持續 5 秒，使目標敵人「下一次」使用「精英技能」時損失 3...15 能量。"
+			},
 			"de": {
+				"name": "Preis des Stolzes",
+				"description": "Verhexung. Während der nächsten 5 Sekunde[n] verliert der Gegner bei der nächsten Verwendung einer Elite-Fertigkeit 3...15 Energiepunkt[e].",
+				"concise": "Verhexung. 5 Sekunde[n]: Lässt den Gegner 3...15 Energiepunkt[e] verlieren, wenn er das nächste Mal eine Elite-Fertigkeit benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Preis des Stolzes",
 				"description": "Während der nächsten 5 Sekunden verliert der Gegner bei der nächsten Verwendung einer Elite-Fertigkeit 3...15 Energiepunkte.",
 				"concise": "5 Sekunden: Lässt den Gegner 3...15 Energiepunkte verlieren, wenn er das nächste Mal eine Elite-Fertigkeit benutzt."
 			},
 			"en": {
 				"name": "Price of Pride",
+				"description": "Hex Spell. For 5 seconds, the next time target foe uses an elite skill, that foe loses 3...15 Energy.",
+				"concise": "Hex Spell. (5 seconds.) Causes 3...15 Energy loss the next time target foe uses an elite skill."
+			},
+			"en-gww": {
+				"name": "Price of Pride",
 				"description": "For 5 seconds, the next time target foe uses an elite skill, that foe loses 3...15 Energy.",
 				"concise": "(5 seconds.) Causes 3...15 Energy loss the next time target foe uses an elite skill."
 			},
+			"es": {
+				"name": "Precio del orgullo",
+				"description": "Conjuro con maleficio. Durante 5 segundos, la próxima vez que el enemigo objetivo use una habilidad de élite, perderá 3...15 de energía.",
+				"concise": "Conjuro con maleficio. (5 segundos). Hace perder 3...15 de energía la próxima vez que el enemigo objetivo use una habilidad de élite."
+			},
 			"fr": {
+				"name": "Prix de l'orgueil",
+				"description": "Maléfice. Pendant 5 secondes, la prochaine fois que la cible ennemie utilise une compétence d'élite, elle perd 3...15 points d'énergie.",
+				"concise": "Maléfice. (5 secondes.) L'ennemi visé perdra 3...15 points d'énergie la prochaine fois qu'il utilisera une compétence élite."
+			},
+			"fr-gwiki": {
 				"name": "Prix de l'orgueil",
 				"description": "Pendant 5 secondes, la prochaine fois que la cible ennemie utilise une compétence élite, elle perd 3...15 point d'énergie.",
 				"concise": "(5 secondes.) L'ennemi visé perdra 3...15 point d'énergie la prochaine fois qu'il utilisera une compétence élite."
+			},
+			"it": {
+				"name": "Prezzo dell'Orgoglio",
+				"description": "Fattura. Per 5 secondo[i], la prossima volta che l'obiettivo nemico utilizza un'abilità d'élite perde 3...15 Punto[i] Energia.",
+				"concise": "Fattura. (Secondi: 5) Provoca una perdita di 3...15 Punto[i] Energia la prossima volta che l'obiettivo nemico usa un'abilità d'élite."
+			},
+			"jp": {
+				"name": "プライド プライス",
+				"description": "弱体化スペル： 5 秒間、ターゲットした敵が、次にエリート スキルを使用した場合、その敵は 3...15 のエネルギーを失います。",
+				"concise": "弱体化スペル： (5 秒) ターゲットした敵は次にエリート スキルを使用すると 3...15 のエネルギーを失います。"
+			},
+			"kr": {
+				"name": "자부심의 대가",
+				"description": "약화 마법. 대상 지정: 적. 5초 동안 대상이 엘리트 스킬을 사용하면 3...15의 에너지를 잃습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법. (5초) 대상이 엘리트 스킬을 사용하면 3...15의 에너지를 잃습니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Cena Dumy",
+				"description": "Klątwa (czar). Przez 5 sek., kiedy wybrany przeciwnik użyje następnym razem umiejętności elitarnej, straci 3...15 pkt. energii.",
+				"concise": "Klątwa (czar). (5 sek.) Powoduje utratę 3...15 pkt. energii, następnym razem, kiedy wybrany przeciwnik użyje umiejętności elitarnej."
+			},
+			"ru": {
+				"name": "Price of Pride",
+				"description": "Заклинание-проклятье. В течение 5 сек в следующий раз, когда выбранный противник будет использовать элитное умение, он потеряет 3...15 ед. энергии.",
+				"concise": "Заклинание-проклятье. (5 сек) Вызывает потерю 3...15 ед. энергии в следующий раз, когда выбранный противник использует элитное умение."
+			},
+			"bork": {
+				"name": "Preece-a ooff Preede-a",
+				"description": "Hex Spell. Fur 5 secunds, zee next teeme-a taerget fue-a uses un ileete-a skeell, thaet fue-a luses 3...15 Inergy.",
+				"concise": "Hex Spell. (5 secunds.) Cooses 3...15 Inergy luss zee next teeme-a taerget fue-a uses un ileete-a skeell."
 			}
 		}
 	}

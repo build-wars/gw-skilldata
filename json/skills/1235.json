@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "迟钝",
+				"description": "负面魔法。 持续 5...20 秒，使目标及其附近的所有敌人无法击出致命一击。",
+				"concise": "负面魔法。 持续 5...20 秒，使目标及其附近的所有敌人无法击出致命一击。"
+			},
+			"cht": {
+				"name": "鈍化武器",
+				"description": "降咒魔法： 持續 5...20 秒，目標及其鄰近敵人無法擊出致命攻擊，且攻擊傷害減少 3...20 。",
+				"concise": "降咒魔法： 持續 5...20 秒，目標及其鄰近敵人無法擊出致命攻擊，且攻擊傷害減少 3...20 。"
+			},
 			"de": {
+				"name": "Stumpfe Waffe",
+				"description": "Verhexung. 5...20 Sekunde[n] lang können der Gegner und alle umstehenden Feinde in der Nähe keine kritischen Treffer landen und verursachen 3...20 Punkt[e] weniger Schaden.",
+				"concise": "Verhexung. Verhext den Gegner sowie umstehende Feinde (5...20 Sekunde[n]). Entfernt die Fähigkeit, kritische Treffer zu landen. Reduziert den Schaden um 3...20 Punkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Stumpfe Waffe",
 				"description": "5...20 Sekunden lang können der Gegner und alle umstehenden Feinde keine kritischen Treffer landen und verursachen 3...20 Punkte weniger Schaden.",
 				"concise": "Verhext den Gegner sowie umstehende Feinde (5...20 Sekunden). Entfernt die Fähigkeit, kritische Treffer zu landen. Reduziert den Schaden um 3...20 Punkte."
 			},
 			"en": {
 				"name": "Dulled Weapon",
+				"description": "Hex Spell. For 5...20 seconds, target foe and all adjacent foes cannot achieve a critical hit and deal 3...20 less damage.",
+				"concise": "Hex Spell. Also hexes foes adjacent to your target (5...20 seconds). Removes ability to land a critical hit. Reduces damage by 3...20."
+			},
+			"en-gww": {
+				"name": "Dulled Weapon",
 				"description": "For 5...20 seconds, target foe and all adjacent foes cannot achieve a critical hit and deal 3...20 less damage.",
 				"concise": "Also hexes foes adjacent to your target (5...20 seconds). Removes ability to land a critical hit. Reduces damage by 3...20."
 			},
+			"es": {
+				"name": "Arma deslustrada",
+				"description": "Conjuro con maleficio. Durante 5...20 segundos, el enemigo objetivo y los adyacentes no podrán hacer un golpe crítico y hacen 3...20 menos de daño.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos adyacentes al objetivo (5...20 segundos). Elimina la posibilidad de hacer un golpe crítico. Reduce el daño en 3...20."
+			},
 			"fr": {
+				"name": "Arme émoussée",
+				"description": "Maléfice. Pendant 5...20 secondes, la cible ennemie et tous les ennemis adjacents ne peuvent pas infliger de coups critiques et infligent 3...20 points de dégâts en moins.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à votre cible (5...20 secondes). Supprime la capacité à réaliser un coup critique. Réduit les dégâts de 3...20."
+			},
+			"fr-gwiki": {
 				"name": "Arme émoussée",
 				"description": "Pendant 5...50 secondes, la cible ennemie et tous les ennemis adjacents ne peuvent réaliser de coups critique et infligent 3...20 point(s) de dégâts en moins.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma Smussata",
+				"description": "Fattura. Per 5...20 secondo[i], l'obiettivo nemico e tutti i nemici nei dintorni non possono mettere a segno un colpo critico e infliggono 3...20 danno[i] in meno.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici adiacenti all'obiettivo (5...20 secondo[i]). Rimuove la capacità di mettere a segno colpi critici. Riduzione del danno: 3...20."
+			},
+			"jp": {
+				"name": "ダル ウェポン",
+				"description": "弱体化スペル： 5...20 秒間、ターゲットした敵および周囲にいるすべての敵は攻撃がクリティカル ヒットにならず、与えるダメージも 3...20 減少します。",
+				"concise": "弱体化スペル： (5...20 秒) ターゲットした敵および隣接する敵の攻撃からクリティカル ヒットになる効果を解除し、与えるダメージを 3...20 減少させます。"
+			},
+			"kr": {
+				"name": "녹슨 무기",
+				"description": "약화 마법. 대상 지정: 적. 5...20초 동안 대상과 그에 인접한 모든 적은 치명타를 터뜨리지 못하고, 대미지가 3...20만큼 감소합니다.",
+				"concise": "약화 마법. (5...20초) 대상과 그에 인접한 적들은 치명타를 터뜨리지 못 하고, 대미지가 3...20만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Stępiony Oręż",
+				"description": "Klątwa (czar). Przez 5...20 sek., wybrany przeciwnik i wszyscy sąsiadujący wrogowie nie mogą wykonać krytycznego trafiania i zadają 3...20 pkt. obrażeń mniej.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w bezpośrednim sąsiedztwie celu (5...20 sek.). Neguje zdolność wykonywania trafień krytycznych. Zmniejsza obrażnia o 3...20."
+			},
+			"ru": {
+				"name": "Dulled Weapon",
+				"description": "Заклинание-проклятье. В течение 5...20 сек выбранный противник и все окружающие противники не могут добиться критических попаданий и наносят на 3...20 ед. урона меньше.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на окружающих вашу цель противников (5...20 сек). Делает невозможным нанесение критического удара. Уменьшает наносимый урон на 3...20 ед."
+			},
+			"bork": {
+				"name": "Doolled Veaepun",
+				"description": "Hex Spell. Fur 5...20 secunds, taerget fue-a und aell aedjaecent fues cunnut aecheeefe-a a creeteecael heet und deael 3...20 less daemaege-a.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu yuoor taerget (5...20 secunds). Remufes aebeeleety tu lund a creeteecael heet. Redooces daemaege-a by 3...20."
 			}
 		}
 	}

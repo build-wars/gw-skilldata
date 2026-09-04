@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "制裁纹章",
+				"description": "精英纹章。 击倒目标敌人，并且使目标及其所有邻近的敌人受到15...75点神圣伤害。",
+				"concise": "精英纹章。 击倒目标敌人，并且使目标及其所有邻近的敌人受到15...75点神圣伤害。"
+			},
+			"cht": {
+				"name": "制裁紋章",
+				"description": "精英紋章： 擊倒目標，對目標以及鄰近敵人造成15...75神聖傷害。",
+				"concise": "精英紋章： 擊倒目標，對目標以及鄰近敵人造成15...75神聖傷害。"
+			},
 			"de": {
+				"name": "Siegel des Urteils",
+				"description": "Elite-Siegel. Der Gegner wird zu Boden geworfen. Er und alle umstehenden Feinde erleiden 15...75 Punkt[e] heiligen Schaden.",
+				"concise": "Elite-Siegel. Wirft Gegner zu Boden. Richtet beim Gegner und umstehenden Feinden 15...75 Punkt[e] heiligen Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des Urteils",
 				"description": "Der Gegner wird zu Boden geworfen. Er und alle umstehenden Feinde erleiden 15...75 Punkte heiligen Schaden.",
 				"concise": "Wirft Gegner zu Boden<sic/>. Richtet beim Gegner und umstehenden Feinden 15...75 Punkte heiligen Schaden an."
 			},
 			"en": {
 				"name": "Signet of Judgment",
+				"description": "Elite Signet. Target foe is knocked down. That foe and all adjacent foes take 15...75 holy damage.",
+				"concise": "Elite Signet. Knocks down target. Deals 15...75 holy damage to target and adjacent foes."
+			},
+			"en-gww": {
+				"name": "Signet of Judgment",
 				"description": "Target foe is knocked down. That foe and all adjacent foes take 15...75 holy damage.",
 				"concise": "Knocks down target. Deals 15...75 holy damage to target and adjacent foes."
 			},
+			"es": {
+				"name": "Sello del juicio",
+				"description": "Sello de élite. Derribas al enemigo objetivo. Ese enemigo y todos los adyacentes reciben 15...75 de daño sagrado.",
+				"concise": "Sello de élite. Derriba al objetivo. Hace 15...75 de daño sagrado al enemigo objetivo y los adyacentes."
+			},
 			"fr": {
+				"name": "Sceau du jugement",
+				"description": "Sceau d'élite. La cible ennemie est assommée. Elle subit 15...75 points de dégâts sacrés, ainsi que les ennemis adjacents.",
+				"concise": "Sceau d'élite. Assomme la cible. Inflige 15...75 points de dégâts sacrés à la cible et aux ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du jugement",
 				"description": "L'ennemi est assommé. Il subit 15...75 points de dégâts sacrés, ainsi que les ennemis adjacents.",
 				"concise": "Assomme la cible. Inflige 15...75 points de dégâts sacrés à la cible et aux ennemis adjacents."
+			},
+			"it": {
+				"name": "Sigillo del Giudizio",
+				"description": "Sigillo d'Élite. L'obiettivo nemico viene buttato a terra e sia lui che tutti i nemici adiacenti subiscono 15...75 danno[i] sacro[i].",
+				"concise": "Sigillo d'Élite. Abbatte l'obiettivo. Danni sacri all'obiettivo e ai nemici adiacenti: 15...75."
+			},
+			"jp": {
+				"name": "ジャッジ シグネット",
+				"description": "エリート シグネット： ターゲットした敵が転倒します。その敵および隣接するすべての敵に 15...75 の神聖ダメージを与えます。",
+				"concise": "エリート シグネット： ターゲットした敵が転倒します。ターゲットおよび隣接する敵に 15...75 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "천벌 인장",
+				"description": "엘리트 인장. 대상 지정: 적. 대상을 넘어뜨리고 대상과 그에 인접한 모든 적에게 15...75의 신성 대미지를 줍니다.",
+				"concise": "엘리트 인장. 대상을 바닥에 넘어뜨리고, 대상과 그에 인접한 적들에게 15...75의 신성 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Osądu",
+				"description": "Sygnet elitarny. Cel zostaje powalony. Wybrany przeciwnik i wszyscy przeciwnicy przy nim otrzymują 15...75 pkt. świętych obrażeń.",
+				"concise": "Sygnet elitarny. Powala cel. Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 15...75 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Signet of Judgment",
+				"description": "Элитная печать. Выбранный противник будет сбит с ног. Он и все окружающие его противники получат 15...75 ед. урона святой силой.",
+				"concise": "Элитная печать. Сбивает с ног. Наносит 15...75 ед. урона святой силой выбранному и окружающим противникам."
+			},
+			"bork": {
+				"name": "Seegnet ooff Joodgment",
+				"description": "Ileete-a Seegnet. Taerget fue-a is knucked doon. Thaet fue-a und aell aedjaecent fues taeke-a 15...75 huly daemaege-a.",
+				"concise": "Ileete-a Seegnet. Knucks doon taerget. Deaels 15...75 huly daemaege-a tu taerget und aedjaecent fues."
 			}
 		}
 	}

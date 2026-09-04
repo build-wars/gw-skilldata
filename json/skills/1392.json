@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "守望",
+				"description": "增益魔法。 在10秒之内，使友方目标获得1...4点「生命再生」。如果此效果提前消失，则友方目标获得30...120点生命值。",
+				"concise": "增益魔法。 在10秒之内，使友方目标获得1...4点「生命再生」。如果此效果提前消失，则友方目标获得30...120点生命值。"
+			},
+			"cht": {
+				"name": "警戒治癒",
+				"description": "加持魔法： 持續 10 秒，使目標盟友體力再生增加 1...4 。若此技能的效果提前終止，則該盟友獲得 30...120 體力。",
+				"concise": "加持魔法： 持續 10 秒，使目標盟友體力再生增加 1...4 。若此技能的效果提前終止，則該盟友獲得 30...120 體力。"
+			},
 			"de": {
+				"name": "Wachsame Heilung",
+				"description": "Verzauberung. 10 Sekunden lang erhält der Verbündete (bzw. Ihr selbst) eine Lebenspunktregeneration von +1...4. Wenn diese Fertigkeit vorzeitig endet, erhält dieser Verbündete 30...120 Lebenspunkt[e].",
+				"concise": "Verzauberung. 10 Sekunden: Der Verbündete (bzw. Ihr selbst) hat +1...4 Lebenspunktregeneration und erhält 30...120 Lebenspunkt[e], falls diese Verzauberung vorzeitig endet."
+			},
+			"de-guildwiki": {
 				"name": "Wachsame Heilung",
 				"description": "10 Sekunden lang erhält der Verbündete (bzw. Ihr selbst) eine Lebenspunktregeneration von +1...4. Wenn diese Fertigkeit vorzeitig endet, wird dieser Verbündete um 30...120 Lebenspunkte geheilt.",
 				"concise": "10 Sekunden: Der Verbündete (bzw. Ihr selbst) hat +1...4 Lebenspunktregeneration und heilt um 30...120 Lebenspunkte, falls diese Verzauberung vorzeitig endet."
 			},
 			"en": {
 				"name": "Watchful Healing",
+				"description": "Enchantment Spell. For 10 seconds, target ally gains +1...4 Health regeneration. If this skill ends prematurely, that ally gains 30...120 Health.",
+				"concise": "Enchantment Spell. (10 seconds.) Target ally has +1...4 Health regeneration and gains 30...120 Health if this enchantment ends early."
+			},
+			"en-gww": {
+				"name": "Watchful Healing",
 				"description": "For 10 seconds, target ally gains +1...4 Health regeneration. If this skill ends prematurely, that ally gains 30...120 Health.",
 				"concise": "(10 seconds.) Target ally has +1...4 Health regeneration and gains 30...120 Health if this enchantment ends early."
 			},
+			"es": {
+				"name": "Curación atenta",
+				"description": "Conjuro con encantamiento. Durante 10 segundos, el objetivo (un aliado o tú mismo) gana una regeneración de salud de +1...4. Si esta habilidad acaba antes de tiempo, ganará además 30...120 de salud.",
+				"concise": "Conjuro con encantamiento. (10 segundos). El objetivo (un aliado o tú mismo) tiene +1...4 de regeneración de salud y gana 30...120 de salud si este encantamiento acaba antes de tiempo."
+			},
 			"fr": {
+				"name": "Guérison attentive",
+				"description": "Enchantement. Pendant 10 secondes, la cible (un allié ou vous-même) bénéficie d'une régénération de santé de +1...4. Si cette compétence prend fin prématurément, la cible récupère 30...120 points de vie.",
+				"concise": "Enchantement. (10 secondes.) L'allié visé bénéficie d'une régénération de santé de +1...4 et gagne 30...120 points de vie si cet enchantement prend fin prématurément."
+			},
+			"fr-gwiki": {
 				"name": "Guérison attentive",
 				"description": "Pendant 10 secondes, la cible (un allié ou vous-même) bénéficie d'une régénération de santé de +1...4. Si cette compétence prend fin prématurément, la cible récupère 30...120 points de vie.",
 				"concise": "(10 secondes.) L'allié visé bénéficie d'une régénération de santé de +1...4 et gagne 30...120 points de vie si cet enchantement prend fin prématurément."
+			},
+			"it": {
+				"name": "Attenta Guarigione",
+				"description": "Incantesimo. Per 10 secondi, l'obiettivo (un alleato o te stesso) ottiene +1...4 di Rigenerazione della Salute. Se questa abilità termina prematuramente quell'alleato ottiene 30...120 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 10) Rigenerazione Salute: +1...4. Salute conseguita se questo incantesimo termina prematuramente: 30...120."
+			},
+			"jp": {
+				"name": "ウォッチフル ヒーリング",
+				"description": "強化スペル： 10秒間、ターゲットした味方は体力の自然回復力が 1...4 増加します。時間切れ前に中断されると、その味方は 30...120 の体力を獲得します。",
+				"concise": "強化スペル： (10秒) ターゲットした味方は体力の自然回復力が 1...4 増加します。この効果が途中で消失すると、30...120 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "사려 깊은 치유",
+				"description": "강화 마법. 대상 지정: 아군. 10초 동안 대상의 체력 재생이 1...4 증가합니다. 지속 시간 전에 효과가 끝나면 대상은 30...120의 체력을 얻습니다.",
+				"concise": "강화 마법. (10초) 체력 재생을 1...4 증가시킵니다. 지속 시간 전에 효과가 끝나면 대상은 30...120의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Czujne Uzdrawianie",
+				"description": "Zaklęcie (czar). Przez 10 sek. wybrany sojusznik posiada regenerację żywotności równą +1...4. Jeżeli umiejętność przestanie działać przed tym czasem, to sojusznik otrzymuje 30...120 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (10 sek.) Wybrany sojusznik posiada regenerację żywotności +1...4 i otrzymuje 30...120 pkt. żywotności, jeżeli to zaklęcie przedwcześnie przestanie działać."
+			},
+			"ru": {
+				"name": "Watchful Healing",
+				"description": "Заклинание-чары. В течение 10 сек скорость восстановления здоровья выбранного союзника увеличивается на 1...4 ед. Если это умение завершает свое действие преждевременно, этот союзник получит 30...120 единиц здоровья.",
+				"concise": "Заклинание-чары. (10 сек) Выбранный союзник получает +1...4 ед. к скорости восстановления здоровья, а также получает 30...120 ед. здоровья, если эти чары завершатся преждевременно."
+			},
+			"bork": {
+				"name": "Vaetchffool Heaeleeng",
+				"description": "Inchuntment Spell. Fur 10 secunds, taerget aelly gaeeens +1...4 Heaelt regeneraeshun. Iff thees skeell inds premaetoorely, thaet aelly gaeeens 30...120 Heaelt.",
+				"concise": "Inchuntment Spell. (10 secunds.) Taerget aelly haes +1...4 Heaelt regeneraeshun und gaeeens 30...120 Heaelt iff thees inchuntment inds iaerly."
 			}
 		}
 	}

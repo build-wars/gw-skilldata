@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "死神之花",
+				"description": "双重攻击。 此技能必须接续在「副手技」之后使用。对目标敌人造成 20...45点 额外伤害，同时对所有邻近目标的敌人造成 20...45点 伤害。",
+				"concise": "双重攻击。 对目标制造额外20...45点伤害，同时影响所有邻近目标的敌人。此技能必须接续在「副手技」之后使用。"
+			},
+			"cht": {
+				"name": "死神之花",
+				"description": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 20...45 額外傷害，同時對所有鄰近目標的敵人造成 20...45 傷害。",
+				"concise": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時，死神之花對目標敵人造成 20...45 額外傷害，同時對所有鄰近目標的敵人造成 20...45 傷害。"
+			},
 			"de": {
+				"name": "Todesblüte (PvP)",
+				"description": "Doppelangriff. Muss einem Begleithandangriff folgen. Wenn Todesblüte erfolgreich ist, erleidet der Gegner +20...45 Punkt[e] Schaden und alle umstehenden Feinde 20...45 Punkt[e] Schaden.",
+				"concise": "Doppelangriff. Richtet +20...45 Punkt[e] Schaden an. Außerdem werden alle umstehenden Feinde betroffen. Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Todesblüte (PvP)",
 				"description": "Muss einem Begleithandangriff folgen. Wenn Todesblüte erfolgreich ist, erleidet der Gegner +20...45 Punkte Schaden und alle umstehenden Feinde 20...45 Punkte Schaden.",
 				"concise": "Richtet +20...45 Punkte Schaden an. Außerdem werden alle umstehende Feinde betroffen. <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Death Blossom (PvP)",
+				"description": "Dual Attack. Must follow an off-hand attack. If it hits, Death Blossom strikes target foe for +20...45 damage and all adjacent foes take 20...45 damage.",
+				"concise": "Dual Attack. Deals +20...45 damage. Also affects foes adjacent to target foe. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Death Blossom (PvP)",
 				"description": "Must follow an off-hand attack. If it hits, Death Blossom strikes target foe for +20...45 damage and all adjacent foes take 20...45 damage.",
 				"concise": "Deals +20...45 damage. Also affects foes adjacent to target foe. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Brote mortal (PvP)",
+				"description": "Ataque doble. Debe ir precedido de un ataque complementario. Si impacta, el Brote mortal causará +20...45 de daño al enemigo objetivo y 20...45 a todos los enemigos adyacentes.",
+				"concise": "Ataque doble. Causa +20...45 de daño. También afecta a los enemigos adyacentes al objetivo. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Efflorescence mortelle (PvP)",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main gauche. Si elle réussit, l'Efflorescence mortelle inflige +20...45 points de dégâts à l'ennemi visé et 20...45 points de dégâts à tous les ennemis adjacents.",
+				"concise": "Attaque ambidextre. Inflige +20...45 points de dégâts. Affecte également les ennemis près de la cible. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Efflorescence mortelle (PvP)",
 				"description": "Doit succéder à une attaque main gauche. Si elle réussit, l'Efflorescence mortelle inflige +20...45 points de dégâts à l'ennemi visé et 20...45 points de dégâts à tous les ennemis adjacents.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fiore della Morte (PvP)",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma secondaria. Se va a segno, l'obiettivo nemico subisce danni pari a +20...45 e tutti i nemici adiacenti subiscono danni pari a 20...45.",
+				"concise": "Attacco Doppio[_]. Danni inferti: +20...45. Colpisce anche i nemici adiacenti all'obiettivo. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "デス ブラッサム (PvP)",
+				"description": "デュアル アタック： このスキルは、オフハンド アタックの次に使用します。攻撃が成功すると、ターゲットした敵に 20...45 の追加ダメージを与え、隣接するすべての敵に 20...45 のダメージを与えます。",
+				"concise": "デュアル アタック： ターゲットした敵および隣接する敵に 20...45 の追加ダメージを与えます。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "죽음의 꽃(대인전)",
+				"description": "쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 20...45의 대미지를 추가로 주고, 대상에 인접한 모든 적에게 20...45의 대미지를 줍니다.",
+				"concise": "쌍수 공격. 대상과 그에 인접한 적들에게 20...45의 대미지를 추가로 줍니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Zabójczy Kwiat (PvP)",
+				"description": "Atak podwójny. Musi nastąpić po ataku drugą ręką. Zabójczy Kwiat zadaje wybranemu przeciwnikowi +20...45 pkt. obrażeń, wszyscy przeciwnicy bezpośrednio przy nim otrzymują 20...45 pkt. obrażeń.",
+				"concise": "Atak podwójny. Zadaje +20...45 pkt. obrażeń. Działa także na przeciwników bezpośrednio przy wybranym przeciwniku. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Death Blossom (PVP)",
+				"description": "Двойная атака. Должен следовать за атакой второй рукой. Если удар попадает в цель, выбранный противник получает дополнительно 20...45 ед. урона, а все окружающие противники получают 20...45 ед. урона.",
+				"concise": "Двойная атака. Наносит дополнительно 20...45 ед. урона. Также поражает окружающих цель противников. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Deaet Blussum (PfP)",
+				"description": "Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, Deaet Blussum streekes taerget fue-a fur +20...45 daemaege-a und aell aedjaecent fues taeke-a 20...45 daemaege-a.",
+				"concise": "Dooael Aettaeck. Deaels +20...45 daemaege-a. Aelsu aeffffects fues aedjaecent tu taerget fue-a. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

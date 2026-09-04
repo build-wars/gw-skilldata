@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命之护",
+				"description": "精英增益魔法。 在8秒之内，目标盟友所受到的下0...2点伤害将被吸收。",
+				"concise": "精英增益魔法。 持续 8 秒，目标盟友下一次受到的伤害中， 0...2 被吸收。"
+			},
+			"cht": {
+				"name": "生命保護",
+				"description": "精英加持魔法： 持續8秒，移除目標盟友身上0...2個 病症，同時下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多20...100。",
+				"concise": "精英加持魔法： 持續8秒，移除目標盟友身上0...2個 病症，同時下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多20...100。"
+			},
 			"de": {
+				"name": "Lebensmantel",
+				"description": "Elite-Verzauberung. Entfernt beim Verbündeten 0...2 Zustände. 8 Sekunde[n] lang erhält der Verbündete, wenn er das nächste Mal Schaden erleiden oder Lebenspunkte entzogen bekommen würde, stattdessen den entsprechenden Wert als Lebenspunkte (maximal 20...100).",
+				"concise": "Elite-Verzauberung. (8 Sekunde[n].) Wandelt den nächsten erlittenen Schaden bzw. die nächsten entzogenen Lebenspunkte (maximal 20...100 Punkt[e]) in Heilung um. Anfangswirkung: Entfernt 0...2 Zustände."
+			},
+			"de-guildwiki": {
 				"name": "Lebensmantel",
 				"description": "Entfernt beim Verbündeten (bzw. Euch selbst) 0...2 Zustände. 8 Sekunden lang wird der Verbündete (bzw. Ihr selbst), wenn er das nächste Mal Schaden erleiden oder Lebenspunkte entzogen bekommen würde, stattdessen um den entsprechenden Wert geheilt (maximal 20...100).",
 				"concise": "(8 Sekunden.) Wandelt den nächsten erlittenen Schaden bzw. die nächsten entzogenen Lebenspunkte (maximal 20...100 Punkte) in Heilung um. Anfangswirkung: Entfernt 0...2 Zustände."
 			},
 			"en": {
 				"name": "Life Sheath",
+				"description": "Elite Enchantment Spell. Remove 0...2 conditions from target ally. For 8 seconds, the next time that ally would take damage or life steal, that ally gains that amount of Health instead (maximum 20...100).",
+				"concise": "Elite Enchantment Spell. (8 seconds.) Converts the next incoming damage or life steal (maximum 20...100) to healing. Initial effect: Removes 0...2 conditions."
+			},
+			"en-gww": {
+				"name": "Life Sheath",
 				"description": "Remove 0...2 condition[s] from target ally. For 8 seconds, the next time that ally would take damage or life steal, that ally gains that amount of Health instead (maximum 20...100).",
 				"concise": "(8 seconds.) Converts the next incoming damage or life steal (maximum 20...100) to healing. Initial effect: Removes 0...2 condition[s]."
 			},
+			"es": {
+				"name": "Vaina de vida",
+				"description": "Conjuro con encantamiento de élite. Eliminas 0...2 condiciones del objetivo aliado. Durante 8 segundos, la próxima vez que hagan daño o roben salud al aliado, éste ganará esa cantidad de salud en lugar de perderla (máximo 20...100).",
+				"concise": "Conjuro con encantamiento de élite. (8 segundos.) Convierte el siguiente daño o robo de salud recibido (máximo 20...100) en curación. Efecto inicial: Elimina 0...2 condiciones."
+			},
 			"fr": {
+				"name": "Bouclier de vie",
+				"description": "Enchantement d'élite. Supprime 0...2 conditions affectant la cible alliée. Pendant 8 secondes, la prochaine fois que cet allié doit subir des dégâts ou un vol de vie, il gagne à la place l'équivalent en points de vie (maximum 20...100 points).",
+				"concise": "Enchantement d'élite. (8 secondes.) Les prochains dégâts subis ou le prochain vol de vie seront convertis en soins (maximum : 20...100 points). Effet initial : supprime 0...2 conditions."
+			},
+			"fr-gwiki": {
 				"name": "Bouclier de vie",
 				"description": "Supprime 0...2 conditions sur la cible alliée. Pendant 8 secondes, la prochaine fois que cet allié doit subir des dégâts ou un vol de vie, il gagne à la place l'équivalent en points de vie (maximum 20...100 points).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Preserva Vita",
+				"description": "Incantesimo d'Élite. Condizioni rimosse dall'obiettivo alleato: 0...2. Per 8 secondi, la volta successiva in cui l'alleato viene colpito da un attacco che dovrebbe infliggere danni o sottrazione vita, ottiene il corrispettivo in punti Salute (max. 20...100) dei danni o della sottrazione vita.",
+				"concise": "Incantesimo d'Élite. (Secondi: 8) Converte il danno in arrivo o la sottrazione vita successivi in Punti Salute (max. 20...100). Effetto iniziale: rimuove 0...2 condizioni."
+			},
+			"jp": {
+				"name": "ライフ シース",
+				"description": "エリート強化スペル： ターゲットした味方にかけられている「状態異常」を 0...2 個解除します。8 秒間、次にこの味方がダメージを受けるか体力を奪い取られると、それと同量の体力が回復します (最大 20...100)。",
+				"concise": "エリート強化スペル： (8 秒) 次に受けるダメージまたは奪い取られる体力を変換し、体力の回復に使用します (最大 20...100)。発動効果： 「状態異常」が 0...2 個、解除されます。"
+			},
+			"kr": {
+				"name": "방어 조끼",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 대상에 걸린 상태이상 0...2개를 무효화합니다. 8초 동안 처음 대상이 공격 대미지나 체력 흡수 대미지를 입어야 할 때, 대미지를 입지 않고 그만큼의 체력을 얻습니다.(최대 20...100의 체력)",
+				"concise": "엘리트 강화 마법. (8초) 대상이 공격 대미지나 체력 흡수 대미지를 입어야 할 때 대미지를 입지 않고, 대신 그만큼의 체력을 얻습니다.(최대 20...100의 체력) 초기 효과: 대상에 걸린 상태이상 0...2개를 제거합니다."
+			},
+			"pl": {
+				"name": "Osłona Życia",
+				"description": "Elitarne zaklęcie (czar). Z wybranego sojusznika usuwasz 0...2 przypadłości. Przez 8 sek., kiedy następnym razem wybrany sojusznik miałaby otrzymać obrażenia lub stracić żywotność na rzecz przeciwnika, dostanie w zamian tyle samo pkt. żywotności (maksymalnie 20...100).",
+				"concise": "Elitarne zaklęcie (czar). (8 sek.) Zamienia następne obrażenia lub wykradzioną żywotność (maksymalnie 20...100) w leczenie. Efekt początkowy: Usuwa przypadłości (0...2)."
+			},
+			"ru": {
+				"name": "Life Sheath",
+				"description": "Элитное заклинание-чары. Снимает состояния (0...2) с выбранного союзника. В течение 8 сек в следующий раз, когда этот союзник должен был бы получить урон или у него похитили бы здоровье, вместо этого он получит равное урону количество здоровья (но не более 20...100 ед.).",
+				"concise": "Элитное заклинание-чары. (8 сек) Преобразует следующий полученный урон или похищение здоровья (но не более 20...100 ед.) в исцеление. Начальный эффект: снимает состояния (0...2)."
+			},
+			"bork": {
+				"name": "Leeffe-a Sheaet",
+				"description": "Ileete-a Inchuntment Spell. Remufe-a 0...2 cundeeshuns frum taerget aelly. Fur 8 secunds, zee next teeme-a thaet aelly vuoold taeke-a daemaege-a oor leeffe-a steael, thaet aelly gaeeens thaet aemuoont ooff Heaelt insteaed (maexeemoom 20...100).",
+				"concise": "Ileete-a Inchuntment Spell. (8 secunds.) Cunferts zee next incumeeng daemaege-a oor leeffe-a steael (maexeemoom 20...100) tu heaeleeng. Ineeteeael iffffect: Remufes 0...2 cundeeshuns."
 			}
 		}
 	}

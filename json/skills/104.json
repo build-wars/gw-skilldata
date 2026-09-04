@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "死亡新星",
+				"description": "增益魔法。 在30秒之内，当友方目标死亡时，邻近所有敌人将会受到26...100点伤害，并遭受「中毒」症状15秒。",
+				"concise": "增益魔法。 在30秒之内，当友方目标死亡时，所有邻近友方目标的我方敌人将会受到26...100点伤害，并遭受「中毒」症状15秒。"
+			},
+			"cht": {
+				"name": "死亡新星",
+				"description": "加持魔法： 持續 30 秒，當目標盟友死亡時，鄰近該盟友的所有敵人將會受到 26...100 傷害並且遭受「中毒」病症 15 秒。",
+				"concise": "加持魔法： 持續 30 秒，當目標盟友死亡時，鄰近該盟友的所有敵人將會受到 26...100 傷害並且遭受「中毒」病症 15 秒。"
+			},
 			"de": {
+				"name": "Todesnova",
+				"description": "Verzauberung. Falls der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 30 Sekunden stirbt, erleiden alle umstehenden Feinde 26...100 Punkt[e] Schaden und werden 15 Sekunde[n] lang vergiftet.",
+				"concise": "Verzauberung. 30 Sekunden: Falls der Verbündete (bzw. Ihr selbst) stirbt, erhalten umstehende Feinde 26...100 Punkt[e] Schaden und Zustand Gift (15 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Todesnova",
 				"description": "Falls der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 30 Sekunden stirbt, erleiden alle umstehenden Feinde 26...100 Punkte Schaden und werden 15 Sekunden lang vergiftet.",
 				"concise": "30 Sekunden: Falls der Verbündete (bzw. Ihr selbst) stirbt, erhalten umstehende Feinde 26...100 Punkte Schaden und Zustand Gift (15 Sekunden)."
 			},
 			"en": {
 				"name": "Death Nova",
+				"description": "Enchantment Spell. For 30 seconds, if target ally dies, all adjacent foes take 26...100 damage and are Poisoned for 15 seconds.",
+				"concise": "Enchantment Spell. (30 seconds.) Deals 26...100 damage and inflicts Poisoned condition (15 seconds) on adjacent foes if target ally dies."
+			},
+			"en-gww": {
+				"name": "Death Nova",
 				"description": "For 30 seconds, if target ally dies, all adjacent foes take 26...100 damage and are Poisoned for 15 seconds.",
 				"concise": "(30 seconds.) Deals 26...100 damage and inflicts Poisoned condition (15 seconds) on adjacent foes if target ally dies."
 			},
+			"es": {
+				"name": "Nova de muerte",
+				"description": "Conjuro con encantamiento. Durante 30 segundos, si el objetivo (un aliado o tú mismo) muere, todos los enemigos cercanos recibirán 26...100 de daño y estarán envenenados durante 15 segundos.",
+				"concise": "Conjuro con encantamiento. (30 segundos). Hace 26...100 de daño y causa envenenamiento (15 segundos) a los enemigos adyacentes si el objetivo muere."
+			},
 			"fr": {
+				"name": "Nova mortelle",
+				"description": "Enchantement. Pendant 30 secondes, si la cible (un allié ou vous-même) meurt, tous les ennemis adjacents reçoivent 26...100 points de dégâts et sont empoisonnés pendant 15 secondes.",
+				"concise": "Enchantement. (30 secondes.) Inflige 26...100 points de dégâts et provoque l'Empoisonnement (15 secondes) des ennemis adjacents si l'allié visé meurt."
+			},
+			"fr-gwiki": {
 				"name": "Nova mortelle",
 				"description": "Pendant 30 secondes, si la cible (un allié ou vous-même) meurt, tous les ennemis adjacents reçoivent 26...100 points de dégâts et sont empoisonnés pendant 15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Nova della Morte",
+				"description": "Incantesimo. Per 30 secondi, se l'obiettivo alleato muore, tutti i nemici adiacenti subiscono 26...100 danno[i] e vengono avvelenati per 15 secondo[i].",
+				"concise": "Incantesimo. (Secondi: 30) Danni inferti: 26...100. Condizione inflitta ai nemici adiacenti se l'obiettivo alleato muore: Veleno (15 secondo[i])."
+			},
+			"jp": {
+				"name": "デス ノヴァ",
+				"description": "強化スペル： 30秒間、ターゲットした味方が戦闘不能になると、隣接するすべての敵は 26...100 のダメージを受け、15 秒間「毒」状態になります。",
+				"concise": "強化スペル： (30秒) ターゲットした味方が戦闘不能になると、隣接する敵に 26...100 のダメージを与えて「毒」状態にします (15 秒)。"
+			},
+			"kr": {
+				"name": "죽음의 폭풍",
+				"description": "강화 마법. 대상 지정: 아군. 대상이 30초 안에 전사하면 대상에 인접한 모든 적은 26...100 대미지를 입고, 15초 동안 중독 상태가 됩니다.",
+				"concise": "강화 마법. (30초) 대상 아군이 죽으면 그에 인접한 적들에게 26...100의 대미지를 주고, 중독시킵니다.(15초)"
+			},
+			"pl": {
+				"name": "Zabójczy Wybuch",
+				"description": "Zaklęcie (czar). Przez 30 sek., jeżeli wybrany sojusznik zginie, wszyscy przeciwnicy bezpośrednio przy nim otrzymają 26...100 pkt. obrażeń i zostaną zatruci na 15 sek.",
+				"concise": "Zaklęcie (czar). (30 sek.) Jeżeli wybrany sojusznik umrze, umiejętność zadaje 26...100 pkt. obrażeń przeciwnikom bezpośrednio przy nim i wywołuje u nich przypadłość zatrucie (15 sek.)."
+			},
+			"ru": {
+				"name": "Death Nova",
+				"description": "Заклинание-чары. Если выбранный союзник умрет в течение 30 сек, все окружающие противники получат 26...100 ед. урона и будут отравлены на 15 сек.",
+				"concise": "Заклинание-чары. (30 сек) Наносит 26...100 ед. урона и вызывает отравление (15 сек) у окружающих противников, если выбранный союзник умрет."
+			},
+			"bork": {
+				"name": "Deaet Nufa",
+				"description": "Inchuntment Spell. Fur 30 secunds, iff taerget aelly deees, aell aedjaecent fues taeke-a 26...100 daemaege-a und aere-a Pueesuned fur 15 secunds. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (30 secunds.) Deaels 26...100 daemaege-a und inffleects Pueesuned cundeeshun (15 secunds) oon aedjaecent fues iff taerget aelly deees."
 			}
 		}
 	}

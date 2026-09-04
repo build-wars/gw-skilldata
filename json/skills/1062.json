@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法术转移",
+				"description": "咒文。 在5...35秒之内，随机使目标敌人的一项法术无法使用，同时将此法术偷取过来，取代技能栏上的「法术转移」。",
+				"concise": "咒文。 在5...35秒之内，随机使目标敌人的一项法术无法使用，同时将此法术偷取过来。"
+			},
+			"cht": {
+				"name": "盜竊魔法",
+				"description": "咒文魔法： 持續 5...35 秒，隨機使目標敵人身上的一項「魔法」無法使用，同時盜竊魔法被該「魔法」取代。",
+				"concise": "咒文魔法： 持續 5...35 秒，隨機使目標敵人身上的一項「魔法」無法使用，同時盜竊魔法被該「魔法」取代。"
+			},
 			"de": {
+				"name": "Arkane Entwendung",
+				"description": "Zauber. 5...35 Sekunde[n] lang wird ein zufällig gewählter Zauber des Gegners deaktiviert und Arkane Entwendung wird durch diesen Zauber ersetzt.",
+				"concise": "Zauber. 5...35 Sekunde[n]: Deaktiviert einen willkürlichen Zauber. Diese Fertigkeit wird zum betreffenden Zauber."
+			},
+			"de-guildwiki": {
 				"name": "Arkane Entwendung",
 				"description": "5...35 Sekunden lang wird ein zufällig gewählter Zauber des Gegners deaktiviert und Arkane Entwendung wird durch diesen Zauber ersetzt.",
 				"concise": "5...35 Sekunden: Deaktiviert einen willkürlichen Zauber. Diese Fertigkeit wird zum betreffenden Zauber."
 			},
 			"en": {
 				"name": "Arcane Larceny",
+				"description": "Spell. For 5...35 seconds, one random spell is disabled for target foe and Arcane Larceny is replaced by that spell.",
+				"concise": "Spell. (5...35 seconds.) Disables one random spell. This skill becomes that spell."
+			},
+			"en-gww": {
+				"name": "Arcane Larceny",
 				"description": "For 5...35 seconds, one random spell is disabled for target foe and Arcane Larceny is replaced by that spell.",
 				"concise": "(5...35 seconds.) Disables one random spell. This skill becomes that spell."
 			},
+			"es": {
+				"name": "Latrocinio arcano",
+				"description": "Conjuro. Durante 5...35 segundos, un conjuro aleatorio del enemigo objetivo se desactiva y el Latrocinio arcano es sustituido por ese conjuro.",
+				"concise": "Conjuro. (5...35 segundos). Desactiva un conjuro al azar. Esta habilidad se convierte en ese conjuro."
+			},
 			"fr": {
+				"name": "Larcin arcane",
+				"description": "Sort. Pendant 5...35 secondes, l'ennemi ciblé ne peut plus utiliser un sort choisi aléatoirement et le Larcin arcane est remplacé par ce sort.",
+				"concise": "Sort. (5...35 secondes.) Désactive un sort aléatoire. Cette compétence remplace ce sort."
+			},
+			"fr-gwiki": {
 				"name": "Larcin arcane",
 				"description": "Pendant 5...35 secondes, l'ennemi ne peut plus utiliser un sort choisi aléatoirement et le Larcin arcane est remplacé par ce sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ruberia Arcana",
+				"description": "Magia. Dura 5...35 secondo[i]; una magia a caso dell'obiettivo nemico viene disattivata e si sostituisce alla Ruberia Arcana.",
+				"concise": "Magia. (Secondi: 5...35) Disattiva una magia a caso. Questa abilità si trasforma in quella magia."
+			},
+			"jp": {
+				"name": "アルカナ ラーサニー",
+				"description": "スペル： 5...35 秒間、ターゲットした敵が装備しているスペルをランダムに1個封じ込め、そのスペルと入れ替わります。",
+				"concise": "スペル： (5...35 秒) ランダムに選ばれたスペルを1個封じ込め、そのスペルと入れ替わります。"
+			},
+			"kr": {
+				"name": "마법 강탈",
+				"description": "마법. 대상 지정: 적. 5...35초 동안 대상의 마법 중 하나를 무작위로 빼앗아 이 스킬 대신 사용할 수 있습니다. 대상은 그동안 뺏긴 마법을 사용할 수 없습니다.",
+				"concise": "마법. (5...35초) 대상은 마법 하나를 사용할 수 없습니다. 이 스킬이 그 마법으로 바뀝니다."
+			},
+			"pl": {
+				"name": "Magiczna Kradzież",
+				"description": "Czar. Na 5...35 sek. jeden losowy czar wybranego przeciwnika zostaje wyłączony, a Magiczna Kradzież zostaje zastąpiona tym czarem.",
+				"concise": "Czar. (5...35 sek.) Wyłącza jeden losowy czar. Ta umiejętność staje się tym czarem."
+			},
+			"ru": {
+				"name": "Arcane Larceny",
+				"description": "Заклинание. В течение 5...35 сек у выбранного противника будет недоступно одно случайно выбранное заклинание, а Arcane Larceny будет замещено этим заклинанием.",
+				"concise": "Заклинание. (5...35 сек) Делает недоступным одно случайно выбранное заклинание. Это умение замещается этим заклинанием."
+			},
+			"bork": {
+				"name": "Aercune-a Laerceny",
+				"description": "Spell. Fur 5...35 secunds, oone-a rundum spell is deesaebled fur taerget fue-a und Aercune-a Laerceny is replaeced by thaet spell.",
+				"concise": "Spell. (5...35 secunds.) Deesaebles oone-a rundum spell. Thees skeell becumes thaet spell."
 			}
 		}
 	}

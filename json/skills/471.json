@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冻土",
+				"description": "自然仪式。 创造一只等级为1...10的冻土精灵，使区域内所有「非灵体」类生物在死亡之后无法被复活。冻土精灵在30...180秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的冻土精灵，使区域内所有「非灵体」类生物在死亡之后无法被复活。冻土精灵在30...180秒后消失。"
+			},
+			"cht": {
+				"name": "凍土",
+				"description": "自然儀式： 創造一隻等級 1...10 的凍土精靈，使區域內所有生物在死亡之後無法被復活。凍土精靈在 30...180 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的凍土精靈，使區域內所有生物在死亡之後無法被復活。凍土精靈在 30...180 秒後消失。"
+			},
 			"de": {
+				"name": "Eisboden",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Kreaturen in seiner Reichweite, die keine Geister sind, können keine Wiederbelebungsfertigkeiten aktivieren. Dieser Geist stirbt nach 30...180 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...180 Sekunde[n] Lebensdauer). Kreaturen in Reichweite können keine Wiederbelebungsfertigkeiten aktivieren. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Eisboden",
 				"description": "Erstellt einen Geist der Stufe 1...10. Kreaturen in seiner Reichweite, die keine Geister sind, können keine Wiederbelebungsfertigkeiten aktivieren. Dieser Geist stirbt nach 30...180 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Kreaturen in Reichweite können keine Wiederbelebungsfertigkeiten aktivieren. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Frozen Soil",
+				"description": "Nature Ritual. Create a level 1...10 spirit. Non-spirit creatures within its range cannot activate resurrection skills. This spirit dies after 30...180 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...180 second lifespan). Creatures in range cannot activate resurrection skills. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Frozen Soil",
 				"description": "Create a level 1...10 spirit. Non-spirit creatures within its range cannot activate resurrection skills. This spirit dies after 30...180 seconds.",
 				"concise": "Creates a level 1...10 spirit. (30...180 second lifespan). Creatures in range cannot activate resurrection skills. Does not affect spirits."
 			},
+			"es": {
+				"name": "Suelo congelado",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Las criaturas no espíritus que estén en su zona no podrán activar habilidades de resurrección. Morirá a los 30...180 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...180 segundos de vida). Las criaturas dentro de la zona no pueden activar habilidades de resurrección. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Terre gelée",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Les créatures autres que des esprits dans sa portée ne peuvent pas activer de compétences de résurrection. Cet esprit meurt au bout de 30...180 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Les créatures à portée ne peuvent pas activer de compétences de résurrection. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Terre gelée",
 				"description": "Crée un esprit de niveau 1...10. Les créatures autres que des esprits dans sa portée ne peuvent pas activer de compétences de résurrection. Cet esprit meurt au bout de 30...180 secondes.",
 				"concise": "Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Les créatures à portée ne peuvent pas activer de compétences de résurrection. N'affecte pas les esprits."
+			},
+			"it": {
+				"name": "Terreno Gelato",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Le creature nella sua portata (Spiriti esclusi) non possono attivare le abilità di resurrezione. Lo Spirito si esaurisce dopo 30...180 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...180 secondo[i]). Le creature nella portata non possono attivare abilità di resurrezione. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "フローズン ソイル",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物は復活スキルを発動させることができません。この精霊は 30...180 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...180 秒)。この精霊の効果範囲内では、復活スキルを発動させることができません。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "동결의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체는 부활 마법을 시전할 수 없습니다. 영혼은 30...180초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...180초) 영혼이 아닌 생물체에 영향을 미칩니다. 부활 마법을 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Zmarznięta Ziemia",
+				"description": "Obrządek natury. Tworzy 1...10 poziomowego Ducha. Żadne stworzenie nie-Duch w jego zasięgu nie może używać umiejętności wskrzeszania. Duch umiera po 30...180 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...180 sek.). Stworzenia w zasięgu nie mogą używać umiejętności wskrzeszania. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Frozen Soil",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Не являющиеся духами создания, находящиеся в зоне его действия, не могут использовать воскрешающие умения. Этот дух умирает через 30...180 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...180 сек жизни). Создания в зоне его действия не могут использовать воскрешающие умения. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Fruzee Sueel",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Nun-spureet creaetoores veetheen its runge-a cunnut aecteefaete-a resoorrecshun skeells. Thees spureet deees aeffter 30...180 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...180 secund leeffespun). Creaetoores in runge-a cunnut aecteefaete-a resoorrecshun skeells. Dues nut aeffffect spureets."
 			}
 		}
 	}

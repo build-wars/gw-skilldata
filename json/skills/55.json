@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "梦境感染",
+				"description": "精英负面魔法。 每当目标敌人遭受新的「症状」时，该「症状」会传染给范围内所有敌人，效果持续 10...25秒。",
+				"concise": "精英负面魔法。 每当目标敌人遭受新的「症状」时，该「症状」会传染给范围内所有敌人，效果持续 10...25秒。"
+			},
+			"cht": {
+				"name": "惡夢傳染",
+				"description": "精英降咒魔法： 持續10...25秒，每當目標敵人遭受到新的病症時，範圍內所有敵人也受到同樣病症影響，若目標身上有兩個以上的病症則造成暈眩1...3秒。",
+				"concise": "精英降咒魔法： 持續10...25秒，每當目標敵人遭受到新的病症時，範圍內所有敵人也受到同樣病症影響，若目標身上有兩個以上的病症則造成暈眩1...3秒。"
+			},
 			"de": {
+				"name": "Fieberträume",
+				"description": "Elite-Verhexung. 10...25 Sekunde[n] lang leiden jedes Mal, wenn der Gegner unter einem neuen Zustand leidet, alle Feinde in dem Bereich ebenfalls unter diesem. Wenn der Gegner mit zwei oder mehr Zuständen belegt ist, wird er für 1...3 Sekunde[n] benommen sein.",
+				"concise": "Elite-Verhexung. 10...25 Sekunde[n]: Alle neuen Zustände, die der Gegner erhält, gehen auch auf Feinde im Bereich über. Wenn der Gegner mit zwei oder mehr Zuständen belegt ist, wird er für 1...3 Sekunde[n] benommen sein."
+			},
+			"de-guildwiki": {
 				"name": "Fieberträume",
 				"description": "10...25 Sekunden lang leiden jedes Mal, wenn der Gegner unter einem neuen Zustand leidet, alle Feinde in dem Bereich ebenfalls unter diesem. Wenn der Gegner mit zwei oder mehr Zuständen belegt ist, wird er für 1...3 Sekunden benommen sein.",
 				"concise": "10...25 Sekunden: Alle neuen Zustände, die der Gegner erhält, gehen auch auf Feinde im Bereich über. Wenn der Gegner mit zwei oder mehr Zuständen belegt ist, wird er für 1...3 Sekunden benommen sein."
 			},
 			"en": {
 				"name": "Fevered Dreams",
+				"description": "Elite Hex Spell. For 10...25 seconds, whenever target foe suffers from a new condition, all foes in the area suffer from that condition as well. If target foe has two or more conditions, that foe is Dazed for 1...3 seconds.",
+				"concise": "Elite Hex Spell. (10...25 seconds.) Foes in the area also have any new conditions that target foe acquires. Inflicts Dazed on target foe (1...3 seconds) if that foe has two or more conditions."
+			},
+			"en-gww": {
+				"name": "Fevered Dreams",
 				"description": "For 10...25 seconds, whenever target foe suffers from a new condition, all foes in the area suffer from that condition as well. If target foe has two or more conditions that foe is Dazed for 1...3 second[s].",
 				"concise": "(10...25 seconds.) Foes in the area also have any new conditions that target foe acquires. Inflicts Dazed on target foe (1...3 second[s]) if that foe has two or more conditions."
 			},
+			"es": {
+				"name": "Sueños febriles",
+				"description": "Conjuro con maleficio de élite. Durante 10...25 segundos, siempre que el objetivo enemigo sufra una nueva condición, todos los enemigos de la zona también sufrirán la misma. Si el enemigo objetivo tiene dos o más condiciones, queda aturdido durante 1...3 segundos.",
+				"concise": "Conjuro con maleficio de élite. (10...25 segundos). Los enemigos de la zona también padecen las nuevas condiciones que el enemigo objetivo adquiera. Causa aturdimiento (1...3 segundos) si ese enemigo tiene dos o más condiciones."
+			},
 			"fr": {
+				"name": "Rêves enfiévrés",
+				"description": "Maléfice d'élite. Pendant 10...25 secondes, chaque fois que l'ennemi visé est affecté par une nouvelle condition, tous les ennemis dans la zone en sont également affectés. Si la cible est affectée par au moins deux conditions, elle est frappée de Stupeur pendant 1...3 secondes.",
+				"concise": "Maléfice d'élite. (10...25 secondes.) Les ennemis dans la zone sont affectés par toute nouvelle condition qui affecte la cible ennemie. Inflige la Stupeur à la cible ennemie (1...3 secondes) si cette dernière est affectée par au moins deux conditions."
+			},
+			"fr-gwiki": {
 				"name": "Rêves enfiévrés",
 				"description": "Pendant 10...25 secondes, chaque fois que l'ennemi visé est affecté par une nouvelle condition, tous les ennemis dans la zone en sont également affectés. Si la cible est affectée par au moins 2 conditions, elle est frappée de stupeur pendant 1...3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sogni Febbrili",
+				"description": "Fattura d'Élite. Per 10...25 secondo[i], ogni volta che l'obiettivo nemico subisce una nuova condizione, tutti i nemici nell'area risentono della stessa condizione e se quel nemico è affetto da due o più condizioni subisce Stordimento per 1...3 secondo[i].",
+				"concise": "Fattura d'Élite. (Secondi: 10...25) I nemici nell'area ricevono le stesse condizioni di cui è affetto l'obiettivo nemico. Condizione inflitta all'obiettivo nemico se è affetto già da due o più condizioni: Stordimento (1...3 secondo[i])."
+			},
+			"jp": {
+				"name": "フィーバー ドリーム",
+				"description": "エリート弱体化スペル： 10...25 秒間、ターゲットした敵が「状態異常」をかけられるたびに、エリア内にいるすべての敵も同じ「状態異常」にかかります。ターゲットに複数の「状態異常」がかけられている場合、その敵は 1...3 秒間「放心」状態になります。",
+				"concise": "エリート弱体化スペル： (10...25 秒) ターゲットした敵に「状態異常」がかけられると、エリア内にいる敵も同じ「状態異常」にかかります。ターゲットに複数の「状態異常」がかけられている場合、ターゲットは「放心」状態になります (1...3 秒)。"
+			},
+			"kr": {
+				"name": "몽환의 전이",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 10...25초 동안 대상이 새로운 상태이상에 걸릴 때마다 대상을 중심으로 일정 범위 내에 있는 적들도 동일한 상태이상에 걸립니다. 대상에 2개 이상의 상태이상이 걸려 있으면 1...3초 동안 현혹 상태로 만듭니다.",
+				"concise": "엘리트 약화 마법. (10...25초) 대상이 새로운 상태이상에 걸리면 대상을 중심으로 일정 범위 내에 있는 적들도 동일한 상태이상에 걸립니다. 대상에 2개 이상의 상태이상이 걸려 있으면 현혹시킵니다.(1...3초)"
+			},
+			"pl": {
+				"name": "Gorączkowe Sny",
+				"description": "Elitarna klątwa (czar). Przez 10...25 sek., za każdym razem, kiedy wybrany przeciwnik zaczyna cierpieć na nową przypadłość, wszyscy przeciwnicy w okolicy zaczynają cierpieć na tą samą przypadłość. Jeśli przeciwnik cierpi na dwie lub więcej przypadłości, zostaje on ponadto oszołomiony na 1...3 sek.",
+				"concise": "Elitarna klątwa (czar). (10...25 sek.) Przeciwnicy w okolicy otrzymują wszystkie nowe przypadłości, które dostaje wybrany przeciwnik. Wywołuje przypadłość oszołomienie (1...3 sek.), jeżeli wybrany przeciwnik cierpi na dwie lub więcej przypadłości."
+			},
+			"ru": {
+				"name": "Fevered Dreams",
+				"description": "Элитное заклинание-проклятье. В течение 10...25 сек каждый раз, когда выбранный противник получает новое состояние, все противники в зоне досягаемости получают то же самое состояние. Если на выбранном противнике оказываются два и более состояний, этот противник будет ошеломлен в течение 1...3 сек.",
+				"concise": "Элитное заклинание-проклятье. (10...25 сек) Противники в зоне досягаемости также получают любое новое состояние, которое получает выбранный противник. Вызывает ошеломление у выбранного противника (1...3 сек), если на этом противнике оказываются два и более состояния."
+			},
+			"bork": {
+				"name": "Fefered Dreaems",
+				"description": "Ileete-a Hex Spell. Fur 10...25 secunds, vhenefer taerget fue-a sooffffers frum a noo cundeeshun, aell fues in zee aerea sooffffer frum thaet cundeeshun aes vell. Iff taerget fue-a haes tvu oor mure-a cundeeshuns, thaet fue-a is Daezed fur 1...3 secunds.",
+				"concise": "Ileete-a Hex Spell. (10...25 secunds.) Fues in zee aerea aelsu haefe-a uny noo cundeeshuns thaet taerget fue-a aecqooures. Inffleects Daezed oon taerget fue-a (1...3 secunds) iff thaet fue-a haes tvu oor mure-a cundeeshuns."
 			}
 		}
 	}

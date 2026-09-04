@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "地动山摇",
+				"description": "精英咒文。 在目标敌人处创造地动山摇。持续 5 秒，使该地点附近的敌人受到 10...40 地系伤害，攻击中的敌人将受影响而被击倒。",
+				"concise": "精英咒文。 在目标敌人处创造地动山摇。持续 5 秒，使该地点附近的敌人受到 10...40 地系伤害，攻击中的敌人将受影响而被击倒。"
+			},
+			"cht": {
+				"name": "地動山搖",
+				"description": "精英咒文魔法： 在目標敵人處創造地動山搖。持續 5 秒，使該地點附近的敵人受到 10...40 土系傷害，攻擊中的敵人將受影響而被擊倒。",
+				"concise": "精英咒文魔法： 在目標敵人處創造地動山搖。持續 5 秒，使該地點附近的敵人受到 10...40 土系傷害，攻擊中的敵人將受影響而被擊倒。"
+			},
 			"de": {
+				"name": "Schwankender Boden",
+				"description": "Elite-Zauber. Am Standort des Feindes wird ein Schwankender Boden erzeugt. In den nächsten 5 Sekunde[n] erleiden Gegner in der Nähe 10...40 Punkt[e] Erdschaden pro Sekunde. Angreifende Gegner, die von Schwankender Boden getroffen werden, werden zu Boden geworfen.",
+				"concise": "Elite-Zauber. Richtet jede Sekunde 10...40 Punkt[e] Erdschaden an (5 Sekunde[n]) und wirft angreifende Gegner zu Boden. Trifft Feinde in der Nähe der ursprünglichen Position des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Schwankender Boden",
 				"description": "Am Standort des Feindes wird Schwankender Boden erzeugt. In den nächsten 5 Sekunden erleiden Gegner in der Nähe 10...40 Punkte Erdschaden pro Sekunde. Angreifende Gegner, die von Schwankender Boden getroffen werden, werden zu Boden geworfen.",
 				"concise": "Richtet jede Sekunde 10...40 Punkte Erdschaden an (5 Sekunden) und wirft angreifende Gegner zu Boden. Trifft Feinde in der Nähe der anfänglichen Position des Ziels."
 			},
 			"en": {
 				"name": "Unsteady Ground",
+				"description": "Elite Spell. You create Unsteady Ground at target foe's location. For 5 seconds, nearby foes take 10...40 earth damage each second. Attacking foes struck by Unsteady Ground are knocked down.",
+				"concise": "Elite Spell. Deals 10...40 earth damage each second (5 seconds) and causes knock-down to attacking foes. Hits foes near target's initial location."
+			},
+			"en-gww": {
+				"name": "Unsteady Ground",
 				"description": "You create Unsteady Ground at target foe's location. For 5 seconds, nearby foes take 10...40 earth damage each second. Attacking foes struck by Unsteady Ground are knocked down.",
 				"concise": "Deals 10...40 earth damage each second (5 seconds) and causes knock-down to attacking foes. Hits foes near target's initial location."
 			},
+			"es": {
+				"name": "Suelo inestable",
+				"description": "Conjuro de élite. Creas un Suelo inestable donde se encuentre el enemigo objetivo. Durante 5 segundos, los enemigos cercanos reciben 10...40 de daño de tierra por segundo. Los enemigos alcanzados por Suelo inestable que estén atacando serán derribados.",
+				"concise": "Conjuro de élite. Hace 10...40 de daño de tierra por segundo (5 segundos) y causa derribo a los enemigos que estén atacando. Alcanza a los enemigos cercanos a la ubicación inicial del objetivo."
+			},
 			"fr": {
+				"name": "Sol instable",
+				"description": "Sort d'élite. Vous créez un Sol instable sur la position de l'ennemi visé. Pendant 5 secondes, les ennemis à proximité subissent 10...40 points de dégâts de la terre chaque seconde. Les ennemis qui attaquent et sont frappés par Sol instable sont renversés.",
+				"concise": "Sort d'élite. Inflige 10...40 points de dégâts de la terre par seconde (5 secondes) et renverse les attaquants ennemis. Frappe les ennemis à proximité de la position initiale de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Sol instable",
 				"description": "Vous créez un Sol instable sur la position de l'ennemi visé. Pendant 5 secondes, les ennemis à proximité subissent 10...40 points de dégâts de la terre chaque seconde. Les ennemis qui attaquent et qui sont frappés du Sol instable sont assommés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Terreno Instabile",
+				"description": "Magia d'Élite. Crei un Terreno Instabile nella posizione dell'obiettivo nemico. Per 5 secondi i nemici nei dintorni subiscono 10...40 danni da terra al secondo. I nemici all'attacco colpiti dal Terreno Instabile vengono abbattuti.",
+				"concise": "Magia d'Élite. Danni da terra inferti al secondo: 10...40 (5 secondi); provoca abbattimento ai nemici all'attacco. Colpisce i nemici vicini alla posizione iniziale dell'obiettivo."
+			},
+			"jp": {
+				"name": "アンステディ グラウンド",
+				"description": "エリート スペル： ターゲットした敵の場所がぐらぐらと揺れます。5 秒間、周囲にいる敵は毎秒 10...40 のアース ダメージを受け、攻撃中の敵は転倒します。",
+				"concise": "エリート スペル： 発動時にターゲットした敵がいた場所の周囲にいる敵に毎秒 10...40 のアース ダメージを与え (5 秒)、攻撃中の敵を転倒させます。"
+			},
+			"kr": {
+				"name": "불규칙한 진동",
+				"description": "엘리트 마법. 대상 지정: 적. 대상이 있는 위치에 5초 동안 불규칙한 진동을 일으켜서 그 부근의 적들에게 매초 10...40의 대지 대미지를 줍니다. 공격하고 있던 적은 바닥에 넘어집니다.",
+				"concise": "엘리트 마법. 대상 위치 부근의 적들에게 매초 10...40의 대지 대미지를 줍니다.(5초) 공격하고 있던 적은 바닥에 넘어집니다."
+			},
+			"pl": {
+				"name": "Niestabilny Grunt",
+				"description": "Elitarny czar. Stwórz Niestabilny Grunt w miejscu, gdzie znajduje się wybrany przeciwnik. Przez 5 sek., przeciwnicy w pobliżu otrzymują co sekundę 10...40 pkt. obrażeń od ziemi. Atakujący przeciwnicy uderzeni Niestabilnym Gruntem zostają powaleni.",
+				"concise": "Elitarny czar. W każdej sekundzie zadaje 10...40 pkt. obrażeń od ziemi (5 sek.) i powala atakujących przeciwników. Trafia przeciwników w pobliżu początkowego miejsca celu."
+			},
+			"ru": {
+				"name": "Unsteady Ground",
+				"description": "Элитное заклинание. Вы создаете Unsteady Ground в точке нахождения выбранного противника. В течение 5 сек все противники, находящиеся поблизости от этого места, получают каждую секунду 10...40 ед. урона силой земли. Атакующие противники, пораженные Unsteady Ground, будут сбиты с ног.",
+				"concise": "Элитное заклинание. Наносит 10...40 ед. урона силой земли каждую секунду (5 сек) и сбивает с ног атакующих противников. Поражает противников поблизости от первоначального местоположения цели."
+			},
+			"bork": {
+				"name": "Unsteaedy Gruoond",
+				"description": "Ileete-a Spell. Yuoo creaete-a Unsteaedy Gruoond aet taerget fue-a's lucaeshun. Fur 5 secunds, neaerby fues taeke-a 10...40 iaert daemaege-a iaech secund. Aettaeckeeng fues stroock by Unsteaedy Gruoond aere-a knucked doon.",
+				"concise": "Ileete-a Spell. Deaels 10...40 iaert daemaege-a iaech secund (5 secunds) und cooses knuck-doon tu aettaeckeeng fues. Heets fues neaer taerget's ineeteeael lucaeshun. Bork! Bork! Bork!"
 			}
 		}
 	}

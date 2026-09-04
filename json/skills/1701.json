@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "不动如山",
+				"description": "精英姿态。 在10秒之内，下一次当你被击倒时，你获得等同于1...4次攻击所得的怒气和1...7点能量。",
+				"concise": "精英姿态。 在10秒之内，下一次当你被击倒时，你获得等同于1...4次攻击所得的怒气和1...7点能量。"
+			},
+			"cht": {
+				"name": "堅定態勢",
+				"description": "精英態勢： 持續 10 秒，當你「下一次」將被敵人擊倒時，由取得等同 1...4 次攻擊成功累積的怒氣值，及 1...7 能量取代。",
+				"concise": "精英態勢： 持續 10 秒，當你「下一次」將被敵人擊倒時，由取得等同 1...4 次攻擊成功累積的怒氣值，及 1...7 能量取代。"
+			},
 			"de": {
+				"name": "Ruhige Haltung",
+				"description": "Elite-Haltung. 10 Sekunde[n] lang erhaltet Ihr das nächste Mal, wenn Ihr zu Boden geworfen würdet, stattdessen 1...4 Adrenalinstöße und 1...7 Energiepunkt[e].",
+				"concise": "Elite-Haltung. 10 Sekunde[n]: Das nächste Mal, wenn Ihr zu Boden geworfen würdet, erhaltet Ihr stattdessen 1...4 Adrenalinstöße und 1...7 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Ruhige Haltung",
 				"description": "10 Sekunden lang erhaltet Ihr das nächste Mal, wenn Ihr zu Boden geworfen würdet, stattdessen 1...4 Adrenalinstöße und 1...7 Energiepunkte.",
 				"concise": "10 Sekunden: Das nächste Mal. wenn Ihr zu Boden geworfen würdet, erhaltet Ihr stattdessen 1...4 Adrenalinstöße und 1...7 Energiepunkte."
 			},
 			"en": {
 				"name": "Steady Stance",
+				"description": "Elite Stance. For 10 seconds, the next time you would be knocked down, you gain 1...4 strikes of adrenaline and 1...7 Energy instead.",
+				"concise": "Elite Stance. (10 seconds.) The next time you would be knocked-down, you gain 1...4 adrenaline and 1...7 Energy instead."
+			},
+			"en-gww": {
+				"name": "Steady Stance",
 				"description": "For 10 seconds, the next time you would be knocked down, you gain 1...4 strike[s] of adrenaline and 1...7 Energy instead.",
 				"concise": "(10 seconds.) The next time you would be knocked-down, you gain 1...4 adrenaline and 1...7 Energy instead."
 			},
+			"es": {
+				"name": "Actitud firme",
+				"description": "Actitud de élite. Durante 10 segundos, la próxima vez que intenten derribarte, en lugar de ello ganas 1...4 golpes de adrenalina y 1...7 de energía.",
+				"concise": "Actitud de élite. (10 segundos). La próxima vez que deberías ser derribado, ganas 1...4 de adrenalina y 1...7 de energía."
+			},
 			"fr": {
+				"name": "Pose stable",
+				"description": "Pose de combat d'élite. Pendant 10 secondes), la prochaine attaque qui doit vous assommer échoue et vous recevez 1...4 décharges) d'adrénaline et 1...7 points d'énergie.",
+				"concise": "Pose de combat d'élite. (10 secondes.) La prochaine attaque qui devrait vous assommer échoue et vous gagnez 1...4 décharges d'adrénaline et 1...7 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Pose stable",
 				"description": "Pendant 10 secondes, la prochaine attaque qui doit vous assommer échoue et vous gagnez 1...4 décharge d'adrénaline et 1...7 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione Salda",
+				"description": "Posizione d'Élite. Dura 10 secondi. La prossima volta che un avversario cercherà di abbatterti, non potrà farlo e otterrai 1...4 dosi di Adrenalina e 1...7 Punti Energia.",
+				"concise": "Posizione d'Élite. (Secondi: 10) La prossima volta che saresti abbattuto ottieni 1...4 dose[i] di adrenalina e 1...7 di Energia."
+			},
+			"jp": {
+				"name": "ステディ スタンス",
+				"description": "エリート スタンス： 10 秒間、次にプレイヤーが転倒しそうになると、転倒する代わりに 1...4 発のアドレナリンと 1...7 のエネルギーを獲得します。",
+				"concise": "エリート スタンス： (10 秒) 次に転倒しそうになったとき、転倒せずにアドレナリンを 1...4 発、エネルギーを 1...7 獲得します。"
+			},
+			"kr": {
+				"name": "안정적인 방어 자세",
+				"description": "엘리트 자세. 대상 지정: 없음. 10초 동안 바닥에 넘어져야 할 때 넘어지지 않고 1...4번 공격한 만큼의 아드레날린과 1...7의 에너지를 얻습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "엘리트 자세. (10초) 바닥에 넘어져야 할 때 넘어지지 않고, 1...4의 아드레날린과 1...7의 에너지를 얻습니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Stabilna Postawa",
+				"description": "Postawa elitarna. Przez 10 sek., kiedy następnym razem będziesz miał zostać powalony, otrzymasz w zamian 1...7 pkt. energii i dawki adrenaliny w liczbie 1...4.",
+				"concise": "Postawa elitarna. (10 sek.) Kiedy następnym razem będziesz miał zostać powalony, otrzymasz w zamian 1...7 pkt. energii i dawki adrenaliny w liczbie 1...4."
+			},
+			"ru": {
+				"name": "Steady Stance",
+				"description": "Элитная стойка. В течение 10 сек в следующий раз, когда вас должны были бы сбить с ног, вы получаете вместо этого 1...4 ед. адреналина и 1...7 ед. энергии.",
+				"concise": "Элитная стойка. (10 сек) В следующий раз, когда вас должны были бы сбить с ног, вы получаете вместо этого 1...4 ед. адреналина и 1...7 ед. энергии."
+			},
+			"bork": {
+				"name": "Steaedy Stunce-a",
+				"description": "Ileete-a Stunce-a. Fur 10 secunds, zee next teeme-a yuoo vuoold be-a knucked doon, yuoo gaeeen 1...4 streeke-as ooff aedrenaeleene-a und 1...7 Inergy insteaed.",
+				"concise": "Ileete-a Stunce-a. (10 secunds.) Zee next teeme-a yuoo vuoold be-a knucked-doon, yuoo gaeeen 1...4 aedrenaeleene-a und 1...7 Inergy insteaed. Bork! Bork! Bork!"
 			}
 		}
 	}

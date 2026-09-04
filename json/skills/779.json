@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黑莲杀",
+				"description": "起手技。 此技能只能作用于带有「负面魔法」的敌人。命中时对目标造成 10...31点 额外伤害，同时你获得 5...13点 能量。",
+				"concise": "起手技。 此技能只能作用于带有「负面魔法」的敌人。命中时对目标造成 10...31点 额外伤害，同时你获得 5...13点 能量。"
+			},
+			"cht": {
+				"name": "黑蓮狙殺",
+				"description": "引導攻擊： 命中時對目標造成 10...31 額外傷害；若目標敵人正遭受「降咒」時，你獲得 5...13 能量。",
+				"concise": "引導攻擊： 必須以身上有「降咒」的敵人為目標。命中時對目標造成 10...31 額外傷害，同時你獲得 5...13 能量。"
+			},
 			"de": {
+				"name": "Schwarzer Lotus-Stoß",
+				"description": "Leithandangriff. Wenn Schwarzer Lotus-Stoß erfolgreich ist, fügt er +10...31 Punkt[e] Schaden zu. Wenn der Gegner unter einer Verhexung leidet, erhaltet Ihr 5...13 Energiepunkt[e].",
+				"concise": "Leithandangriff. Richtet +10...31 Punkt[e] Schaden an. Ihr erhaltet 5...13 Energiepunkt[e], falls Gegner verhext ist."
+			},
+			"de-guildwiki": {
 				"name": "Schwarzer Lotus-Stoß",
 				"description": "Wenn Schwarzer Lotus-Stoß erfolgreich ist, fügt er +10...31 Punkte Schaden zu. Wenn der Gegner unter einer Verhexung leidet, erhaltet Ihr 5...13 Energiepunkte.",
 				"concise": "Richtet +10...31 Punkte Schaden an. Ihr erhaltet 5...13 Energiepunkte, falls der Gegner verhext ist."
 			},
 			"en": {
 				"name": "Black Lotus Strike",
+				"description": "Lead Attack. If it hits, Black Lotus Strike strikes for +10...31 damage. If target foe is suffering from a hex, you gain 5...13 Energy.",
+				"concise": "Lead Attack. Deals +10...31 damage. You gain 5...13 Energy if target foe is hexed."
+			},
+			"en-gww": {
+				"name": "Black Lotus Strike",
 				"description": "If it hits, Black Lotus Strike strikes for +10...31 damage. If target foe is suffering from a Hex, you gain 5...13 Energy.",
 				"concise": "Deals +10...31 damage. You gain 5...13 Energy if target foe is hexed."
 			},
+			"es": {
+				"name": "Loto negra",
+				"description": "Ataque inicial. Si impacta, este ataque hace +10...31 de daño. Si el enemigo objetivo está sufriendo un maleficio, ganas 5...13 de energía.",
+				"concise": "Ataque inicial. Hace +10...31 de daño. Ganas 5...13 de energía si el enemigo objetivo está maldito."
+			},
 			"fr": {
+				"name": "Coup du lotus noir",
+				"description": "Attaque main droite. Si le coup du lotus réussit, il inflige +10...31 points de dégâts. Si la cible ennemie souffre d'un maléfice, vous gagnez 5...13 points d'énergie.",
+				"concise": "Attaque main droite. Inflige +10...31 points de dégâts. Vous gagnez 5...13 points d'énergie si la cible ennemie souffre d'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Coup du lotus noir",
 				"description": "Si le Coup du lotus réussit, il inflige +10...31 points de dégâts. Si la cible ennemie souffre d'un maléfice, vous gagnez 5...13 points d'énergie.",
 				"concise": "Inflige +10...31 points de dégâts. Vous gagnez 5...13 points d'énergie si la cible ennemie souffre d'un maléfice."
+			},
+			"it": {
+				"name": "Colpo del Loto Nero",
+				"description": "Attacco con Arma Primaria. Se il Colpo del Loto Nero va a segno, infliggi +10...31 danno[i]; se l'obiettivo nemico è affetto da una fattura, ottieni 5...13 Punto[i] Energia.",
+				"concise": "Attacco con Arma Primaria. Danni inferti: +10...31. Energia conseguita se l'obiettivo nemico è affetto da fattura: 5...13."
+			},
+			"jp": {
+				"name": "ブラック ロータス ストライク",
+				"description": "リード アタック： 攻撃が成功すると 10...31 の追加ダメージを与えます。ターゲットした敵に弱体化スペルがかけられている場合、プレイヤーは 5...13 のエネルギーを獲得します。",
+				"concise": "リード アタック： 10...31 の追加ダメージを与えます。ターゲットした敵に弱体化スペルがかけられている場合、プレイヤーは 5...13 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "검은연꽃 강타",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...31의 대미지를 추가로 주고, 대상이 약화 마법에 걸린 상태라면 자신은 5...13의 에너지를 얻습니다.",
+				"concise": "주 공격. 10...31의 대미지를 추가로 주고, 대상이 약화 마법에 걸려 있으면 자신은 5...13의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Czarnego Lotosu",
+				"description": "Atak poprzedzający. Jeśli atak trafi, Uderzenie Czarnego Lotosu zadaje +10...31 pkt. obrażeń. Jeżeli wybrany przeciwnik jest pod działaniem klątwy, otrzymujesz 5...13 pkt. energii.",
+				"concise": "Atak poprzedzający. Zadaje +10...31 pkt. obrażeń. Jeżeli wybrany przeciwnik jest pod działaniem klątwy, otrzymujesz 5...13 pkt. energii."
+			},
+			"ru": {
+				"name": "Black Lotus Strike",
+				"description": "Ведущая атака. Если удар попадает в цель, противник получает 10...31 ед. урона. Если противник находится под действием проклятья, вы получаете 5...13 ед. энергии.",
+				"concise": "Ведущая атака. Наносит дополнительно 10...31 ед. урона. Вы получаете 5...13 ед. энергии, если на выбранного противника наложено проклятье."
+			},
+			"bork": {
+				"name": "Blaeck Lutoos Streeke-a",
+				"description": "Leaed Aettaeck. Iff it heets, Blaeck Lutoos Streeke-a streekes fur +10...31 daemaege-a. Iff taerget fue-a is sooffffereeng frum a hex, yuoo gaeeen 5...13 Inergy. Bork! Bork! Bork!",
+				"concise": "Leaed Aettaeck. Deaels +10...31 daemaege-a. Yuoo gaeeen 5...13 Inergy iff taerget fue-a is hexed. Bork! Bork! Bork!"
 			}
 		}
 	}

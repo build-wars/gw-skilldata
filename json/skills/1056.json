@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "负罪枷锁",
+				"description": "负面魔法。 在6...12秒之内，使目标敌人的移动速度减缓50%。当「负罪枷锁」效果消失时，你将获得10...18点能量值。",
+				"concise": "负面魔法。 使目标敌人的移动速度减缓 50%，效果持续 6...12秒。当「负罪枷锁」效果消失，你将获得 10...18点 能量值。"
+			},
+			"cht": {
+				"name": "吉塔的負荷",
+				"description": "降咒魔法： 持續 6...12 秒，使目標敵人的移動速度減慢 50%。當吉塔的負荷效果終止，你獲得 10...18 能量。",
+				"concise": "降咒魔法： 持續 6...12 秒，使目標敵人的移動速度減慢 50%。當吉塔的負荷效果終止，你獲得 10...18 能量。"
+			},
 			"de": {
+				"name": "Kitahs Bürde",
+				"description": "Verhexung. 6...12 Sekunden lang bewegt sich der Gegner um 50% langsamer. Wenn Kitahs Bürde endet, erhaltet Ihr 10...18 Energiepunkt[e].",
+				"concise": "Verhexung. 6...12 Sekunden: Gegner bewegt sich um 50% langsamer. Wirkung am Ende: Ihr erhaltet 10...18 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Kitahs Bürde",
 				"description": "6...12 Sekunden lang bewegt sich der Zielgegner um 50% langsamer. Wenn Ätherische Bürde endet, erhaltet Ihr 10...18 Energiepunkte.",
 				"concise": "6...12 Sekunden: Gegner bewegt sich um 50% langsamer. Wirkung am Ende: Ihr erhaltet 10...18 Energiepunkte."
 			},
 			"en": {
 				"name": "Kitah's Burden",
+				"description": "Hex Spell. For 6...12 seconds, target foe moves 50% slower. When Kitah's Burden ends you gain 10...18 Energy.",
+				"concise": "Hex Spell. (6...12 seconds.) Target foe moves 50% slower. End effect: you gain 10...18 Energy."
+			},
+			"en-gww": {
+				"name": "Kitah's Burden",
 				"description": "For 6...12 seconds, target foe moves 50% slower. When Kitah's Burden ends you gain 10...18 Energy.",
 				"concise": "(6...12 seconds.) Target foe moves 50% slower. End effect: you gain 10...18 Energy."
 			},
+			"es": {
+				"name": "Carga de Kitah",
+				"description": "Conjuro con maleficio. Durante 6...12 segundos, el enemigo objetivo se moverá un 50% más lento. Cuando la Carga de Kitah finalice, ganarás 10...18 de energía.",
+				"concise": "Conjuro con maleficio. (6...12 segundos). El enemigo objetivo se mueve un 50% más lento. Efecto final: ganas 10...18 de energía."
+			},
 			"fr": {
+				"name": "Fardeau de Kitah",
+				"description": "Maléfice. Pendant 6...12 secondes, la cible ennemie se déplace 50% moins vite. Quand le Fardeau de Kitah prend fin, vous gagnez 10...18 points d'énergie.",
+				"concise": "Maléfice. (6...12 secondes.) La cible ennemie se déplace 50% moins vite. Effet final : vous gagnez 10...18 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Fardeau de Kitah",
 				"description": "Pendant 10 secondes, la cible ennemie se déplace 50% moins vite. Quand le Fardeau de Kitah prend fin, vous gagnez 10...22 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fardello di Kitah",
+				"description": "Fattura. Per 6...12 secondi, i movimenti dell'obiettivo nemico rallentano del 50%. Quando il Fardello di Kitah termina, ottieni 10...18 Punto[i] Energia.",
+				"concise": "Fattura. (Secondi: 6...12) Rallentamento velocità di movimento dell'obiettivo nemico: 50%. Effetto al termine: ottieni 10...18 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "キータ バーデン",
+				"description": "弱体化スペル： 6...12秒間、ターゲットした敵は移動速度が50%減少します。この効果が消失すると、プレイヤーは 10...18 のエネルギーを獲得します。",
+				"concise": "弱体化スペル： (6...12秒) ターゲットした敵は移動速度が50%減少します。終了効果： プレイヤーは 10...18 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "키타의 속박",
+				"description": "약화 마법. 대상 지정: 적. 6...12초 동안 대상의 이동 속도가 50% 느려집니다. 효과가 끝나면 자신은 10...18의 에너지를 얻습니다.",
+				"concise": "약화 마법. (6...12초) 대상의 이동 속도가 50% 느려집니다. 종료 효과: 자신이 10...18의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Brzemię Kitaha",
+				"description": "Klątwa (czar). Przez 6...12 sek., wybrany przeciwnik porusza się 50% wolniej. Gdy Brzemię Kitaha przestanie działać, otrzymujesz 10...18 pkt. energii.",
+				"concise": "Klątwa (czar). (6...12 sek.) Wybrany przeciwnik porusza się o 50% wolniej. Efekt końcowy: otrzymujesz 10...18 pkt. energii."
+			},
+			"ru": {
+				"name": "Kitah's Burden",
+				"description": "Заклинание-проклятье. В течение 6...12 сек выбранный противник двигается на 50% медленнее. Когда Kitah's Burden заканчивает свое действие, вы получаете 10...18 ед. энергии.",
+				"concise": "Заклинание-проклятье. (6...12 сек) Выбранный противник двигается на 50% медленнее. Эффект окончания: вы получаете 10...18 ед. энергии."
+			},
+			"bork": {
+				"name": "Keetaeh's Boordee",
+				"description": "Hex Spell. Fur 6...12 secunds, taerget fue-a mufes 50% slooer. Vhee Keetaeh's Boordee inds yuoo gaeeen 10...18 Inergy.",
+				"concise": "Hex Spell. (6...12 secunds.) Taerget fue-a mufes 50% slooer. Ind iffffect: yuoo gaeeen 10...18 Inergy."
 			}
 		}
 	}

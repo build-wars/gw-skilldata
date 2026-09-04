@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "热忱",
+				"description": "精英咒文。 治疗友方目标30...180点生命值。如果目标的生命值低于50%，你将获得7点能量值。",
+				"concise": "精英咒文。 治疗友方目标30...180点生命值。如果目标的生命值低于50%，你将获得7点能量值。"
+			},
+			"cht": {
+				"name": "狂熱祝福",
+				"description": "精英咒文魔法： 治癒目標盟友 30...180 體力，若該目標體力低於 50% ，則你獲得 7 能量。",
+				"concise": "精英咒文魔法： 治癒目標盟友 30...180 體力，若該目標體力低於 50% ，則你獲得 7 能量。"
+			},
 			"de": {
+				"name": "Eifrige Segnung",
+				"description": "Elite-Zauber. Heilt den Verbündeten (bzw. Euch selbst) um 30...180 Lebenspunkt[e]. Wenn seine Lebenspunkte unter 50% lagen, erhaltet Ihr 7 Energiepunkt[e].",
+				"concise": "Elite-Zauber. Heilt um 30...180 Lebenspunkt[e]. Ihr erhaltet 7 Energiepunkt[e], falls der Verbündete (bzw. Ihr selbst) weniger als 50% seiner maximalen Lebenspunkte hatte."
+			},
+			"de-guildwiki": {
 				"name": "Eifrige Segnung",
 				"description": "Heilt den Verbündeten (bzw. Euch selbst) um 30...180 Lebenspunkte. Wenn seine Lebenspunkte unter 50% lagen, erhaltet Ihr 7 Energiepunkte.",
 				"concise": "Heilt um 30...180 Lebenspunkte. Ihr erhaltet 7 Energiepunkte, falls der Verbündete (bzw. Ihr selbst) weniger als 50% seiner maximalen Lebenspunkte hatte."
 			},
 			"en": {
 				"name": "Zealous Benediction",
+				"description": "Elite Spell. Heal target ally for 30...180 Health. If target was below 50% Health, you gain 7 Energy.",
+				"concise": "Elite Spell. Heals for 30...180. You gain 7 Energy if target ally was below 50% Health."
+			},
+			"en-gww": {
+				"name": "Zealous Benediction",
 				"description": "Heal target ally for 30...180 Health. If target was below 50% Health, you gain 7 Energy.",
 				"concise": "Heals for 30...180. You gain 7 Energy if target ally was below 50% Health."
 			},
+			"es": {
+				"name": "Bendición de celo",
+				"description": "Conjuro de élite. Curas al objetivo (un aliado o tú mismo) 30...180 de salud. Si estaba por debajo del 50% de salud, ganarás 7 de energía.",
+				"concise": "Conjuro de élite. Cura 30...180 de salud. Ganas 7 de energía si el objetivo (un aliado o tú mismo) estaba por debajo del 50% de salud."
+			},
 			"fr": {
+				"name": "Bénédiction zélée",
+				"description": "Sort d'élite. Vous guérissez la cible (un allié ou vous-même) de 30...180 points de vie. Si celle-ci possédait moins de 50% de santé, vous récupérez 7 points d'énergie.",
+				"concise": "Sort d'élite. Soigne de 30...180 points de vie. Vous gagnez 7 points d'énergie si l'allié visé avait moins de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Bénédiction zélée",
 				"description": "Vous guérissez la cible (un allié ou vous-même) de 30...180 points de vie. Si celle-ci possédait moins de 50% de santé, vous récupérez 7 points d'énergie.",
 				"concise": "Soigne de 30...180 points de vie. Vous gagnez 7 points d'énergie si l'allié visé avait moins de 50% de santé."
+			},
+			"it": {
+				"name": "Benedizione Zelante",
+				"description": "Magia d'Élite. Curi l'obiettivo (un alleato o te stesso) di 30...180 Punto[i] Salute; se la Salute dell'obiettivo era inferiore al 50% ottieni 7 Punto[i] Energia.",
+				"concise": "Magia d'Élite. Cure: 30...180. Energia conseguita se la Salute dell'obiettivo (un alleato o te stesso) è inferiore al 50%: 7."
+			},
+			"jp": {
+				"name": "ゼラス ベネディクション",
+				"description": "エリート スペル： ターゲットした味方の体力を 30...180 回復させます。ターゲットした味方の体力が上限の50%に満たない場合、プレイヤーは 7 のエネルギーを獲得します。",
+				"concise": "エリート スペル： 体力が 30...180 回復します。ターゲットした味方の体力が上限の50%未満の場合、7 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "열광적인 기도",
+				"description": "엘리트 마법. 대상 지정: 아군. 대상은 30...180의 체력을 회복합니다. 대상의 체력이 50%미만이면 자신은 7의 에너지를 얻습니다.",
+				"concise": "엘리트 마법. 30...180의 체력을 회복시킵니다. 대상의 체력이 50% 미만이면 자신은 7의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Błogosławieństwo Gorliwości",
+				"description": "Elitarny czar. Uzdrawiasz wybranego sojusznika dodając mu 30...180 pkt. żywotności. Jeżeli miał on mniej niż 50% punktów żywotności, otrzymujesz 7 pkt. energii.",
+				"concise": "Elitarny czar. Dodaje 30...180 pkt. żywotności. Otrzymujesz 7 pkt. energii, jeśli żywotność wybranego sojusznika była poniżej 50%."
+			},
+			"ru": {
+				"name": "Zealous Benediction",
+				"description": "Элитное заклинание. Исцеляет выбранного союзника на 30...180 ед. здоровья. Если уровень здоровья этого союзника был ниже 50%, вы получаете 7 ед. энергии.",
+				"concise": "Элитное заклинание. Исцеляет на 30...180 ед. здоровья. Вы получаете 7 ед. энергии, если у выбранного союзника было менее 50% здоровья."
+			},
+			"bork": {
+				"name": "Zeaeluoos Benedeecshun",
+				"description": "Ileete-a Spell. Heael taerget aelly fur 30...180 Heaelt. Iff taerget vaes beloo 50% Heaelt, yuoo gaeeen 7 Inergy.",
+				"concise": "Ileete-a Spell. Heaels fur 30...180. Yuoo gaeeen 7 Inergy iff taerget aelly vaes beloo 50% Heaelt."
 			}
 		}
 	}

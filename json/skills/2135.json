@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Trampling Ox",
+				"description": "双重攻击。 Must follow an off-hand attack. If it hits, you deal +5...20 damage. If you a hit a Crippled foe, that foe is knocked down.",
+				"concise": "双重攻击。 Deals +5...20 damage; causes knock-down if target foe is Crippled. Must follow an off-hand attack."
+			},
+			"cht": {
+				"name": "牛之踩踏",
+				"description": "雙重攻擊： 必須接續在「即刻攻擊」之後，命中時你將 +5...20 傷害。若你命中正遭受「殘廢」的敵人，該敵人將被「擊倒」。",
+				"concise": "雙重攻擊： 必須接續在「即刻攻擊」之後，命中時你將 +5...20 傷害。若你命中正遭受「殘廢」的敵人，該敵人將被「擊倒」。"
+			},
 			"de": {
+				"name": "Trampelnder Ochse",
+				"description": "Doppelangriff. Muss einem Begleithandangriff folgen. Wenn Ihr erfolgreich seid, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Ihr einen verkrüppelten Feind trefft, wird dieser zu Boden geworfen.",
+				"concise": "Doppelangriff. Richtet +5...20 Punkt[e] Schaden an; wirft den Gegner zu Boden, falls er verkrüppelt ist. Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Trampelnder Ochse",
 				"description": "Muss einem Begleithandangriff folgen. Wenn Ihr erfolgreich seid, fügt Ihr +5...20 Punkte Schaden zu. Wenn Ihr einen verkrüppelten Feind trefft, wird dieser zu Boden geworfen.",
 				"concise": "Richtet +5...20 Punkte Schaden an; wirft den Gegner zu Boden, falls er verkrüppelt ist. <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Trampling Ox",
+				"description": "Dual Attack. Must follow an off-hand attack. If it hits, you deal +5...20 damage. If you a hit a Crippled foe, that foe is knocked down.",
+				"concise": "Dual Attack. Deals +5...20 damage; causes knock-down if target foe is Crippled. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Trampling Ox",
 				"description": "Must follow an off-hand attack. If it hits, you deal +5...20 damage. If you a <sic/> hit a Crippled foe, that foe is knocked down.",
 				"concise": "Deals +5...20 damage; causes knock-down if target foe is Crippled. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Buey pisoteador",
+				"description": "Ataque doble. Debe ir precedido de un ataque complementario. Si impacta, harás +5...20 de daño. Si alcanzas a un enemigo lisiado, le derribirás.",
+				"concise": "Ataque doble. Hace +5...20 de daño. Causa derribo si el enemigo objetivo está lisiado. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Piétinement du boeuf",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main gauche. Si l'attaque réussit, Vous infligez +5...20 points de dégâts. Si vous touchez un ennemi frappé d'Infirmité, il est assommé.",
+				"concise": "Attaque ambidextre. Inflige +5...20 points de dégâts. Attaque assommante si l'ennemi visé souffre d'Infirmité. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Piétinement du boeuf",
 				"description": "Doit succéder à une attaque main gauche. Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous touchez un ennemi frappé d'Infirmité, il est assommé.",
 				"concise": "Inflige +5...20 points de dégâts. Attaque assommante si l'ennemi visé souffre d'Infirmité. <gray>Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Bue Calpestante",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma secondaria. Se va a segno, infliggi +5...20 danno[i]; se colpisce un nemico affetto da Storpiatura lo abbatte.",
+				"concise": "Attacco Doppio[_]. Danni inferti: +5...20. Provoca abbattimento se l'obiettivo nemico è affetto da Storpiatura. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "トランプル オックス",
+				"description": "デュアル アタック： このスキルは、オフハンド アタックの次に使用します。攻撃が成功すると、5...20 の追加ダメージを与えます。「不自由」状態の敵を攻撃した場合、敵は転倒します。",
+				"concise": "デュアル アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が「不自由」状態の場合、ターゲットは転倒します。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "황소 찌르기",
+				"description": "쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 5...20의 대미지를 추가로 주고, 다리 부상을 입은 적을 가격하면 바닥에 넘어뜨립니다.",
+				"concise": "쌍수 공격. 5...20의 대미지를 추가로 줍니다. 대상이 다리 부상을 입었으면 바닥에 넘어뜨립니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Tratujący Wół",
+				"description": "Atak podwójny. Musi nastąpić po ataku drugą ręką. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeśli atak trafi okulawionego przeciwnika, ten przeciwnik zostaje powalony.",
+				"concise": "Atak podwójny. Zadaje +5...20 pkt. obrażeń; powala, jeżeli wybrany przeciwnik jest okulawiony. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Trampling Ox",
+				"description": "Двойная атака. Должен следовать за атакой второй рукой. Если удар попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если вы попадаете по хромающему противнику, этот противник будет сбит с ног.",
+				"concise": "Двойная атака. Наносит дополнительно 5...20 ед. урона; сбивает с ног, если выбранный противник хромал. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Traempleeng Oox",
+				"description": "Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, yuoo deael +5...20 daemaege-a. Iff yuoo a heet a Creeppled fue-a, thaet fue-a is knucked doon.",
+				"concise": "Dooael Aettaeck. Deaels +5...20 daemaege-a; cooses knuck-doon iff taerget fue-a is Creeppled. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

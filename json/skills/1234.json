@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魂体治愈",
+				"description": "咒文。 目标盟友恢复20...115点生命值。若所有「灵体」在你的「音波」范围内，将移除目标盟友一项「症状」。",
+				"concise": "咒文。 治疗友方目标20...115点生命值，并根据「音波」范围内的「友方灵体」数目为其移除相应数量的「症状」。"
+			},
+			"cht": {
+				"name": "魂體治癒",
+				"description": "咒文魔法： 治癒目標盟友 20...115 體力，同時依照音量所及範圍內我方「靈」的數量，移除該盟友身上同樣數量的「病症」。",
+				"concise": "咒文魔法： 治癒目標盟友 20...115 體力，同時依照音量所及範圍內我方「靈」的數量，移除該盟友身上同樣數量的「病症」。"
+			},
 			"de": {
+				"name": "Körper und Seele heilen",
+				"description": "Zauber. Heilt Verbündeten (bzw. Euch selbst) um 20...115 Lebenspunkt[e]. Der betreffende Verbündete verliert für jeden verbündten Geist in Hörweite einen Zustand.",
+				"concise": "Zauber. Heilt um 20...115 Lebenspunkt[e]. Entfernt für jeden Geist in Hörweite einen Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Körper und Seele heilen",
 				"description": "Der Verbündete (bzw. Ihr selbst) wird um 20...115 Lebenspunkte geheilt. Der betreffende Verbündete verliert für jeden Geist in Hörweite einen Zustand.",
 				"concise": "Heilt um 20...115 Lebenspunkte. Entfernt für jeden Geist in Hörweite einen Zustand."
 			},
 			"en": {
 				"name": "Mend Body and Soul",
+				"description": "Spell. Target ally is healed for 20...115 Health. That ally loses one condition for each spirit within earshot.",
+				"concise": "Spell. Heals for 20...115. Removes one condition for each spirit within earshot."
+			},
+			"en-gww": {
+				"name": "Mend Body and Soul",
 				"description": "Target ally is healed for 20...115 Health. That ally loses one condition for each spirit within earshot.",
 				"concise": "Heals for 20...115. Removes one condition for each spirit within earshot."
 			},
+			"es": {
+				"name": "Unir cuerpo y alma",
+				"description": "Conjuro. Curas 20...115 de salud al aliado objetivo. El aliado pierde una condición por cada espíritu al alcance del oído.",
+				"concise": "Conjuro. Cura 20...115 de salud. Quita una condición por cada espíritu al alcance del oído."
+			},
 			"fr": {
+				"name": "Guérison du corps et de l'âme",
+				"description": "Sort. Soigne l'allié ciblé à hauteur de 20...115 points de vie. Cet allié est débarrassé d'une condition par esprit à portée de voix.",
+				"concise": "Sort. Soigne de 20...115 points de vie. Supprime une condition par esprit à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Guérison du corps et de l'âme",
 				"description": "La cible (un allié ou vous-même) est soignée de 20...115 points de vie et perd une condition pour tous les esprits à portée de voix.",
 				"concise": "Soigne de 20...115 points de vie. Supprime une condition par esprit à portée de voix."
+			},
+			"it": {
+				"name": "Cura Corpo e Anima",
+				"description": "Magia. L'obiettivo alleato viene curato di 20...115 Punti Salute. Tale alleato perde una condizione per ogni Spirito a portata d'orecchio.",
+				"concise": "Magia. Cure: 20...115. Rimuove una condizione per ogni Spirito a portata d'orecchio."
+			},
+			"jp": {
+				"name": "メンド ボディ アンド ソウル",
+				"description": "スペル： ターゲットした味方は体力が 20...115 回復します。ターゲットは、声の届く範囲内にいる精霊ごとにかけられている「状態異常」が1個解除されます。",
+				"concise": "スペル： 体力を 20...115 回復します。声の届く範囲内にいる精霊ごとに、かけられている「状態異常」が1個解除されます。"
+			},
+			"kr": {
+				"name": "심신 정화",
+				"description": "마법. 대상 지정: 아군. 대상의 체력을 20...115 회복시키고, 가청 범위 내에 있는 영혼 하나당 대상에 걸린 상태이상 하나를 치료합니다.",
+				"concise": "마법. 20...115의 체력을 회복시킵니다. 가청 범위 내에 있는 아군 영혼 하나당 대상에 걸린 상태이상 하나를 치료합니다."
+			},
+			"pl": {
+				"name": "Odnowa Ciała i Duszy",
+				"description": "Czar. Wybrany sojusznik otrzymuje 20...115 pkt. żywotności. Sojusznik ten traci jedną przypadłość za każdego ducha w zasięgu słuchu.",
+				"concise": "Czar. Dodaje 20...115 pkt. żywotności. Usuwa jedną przypadłość na każdego ducha w zasięgu słuchu."
+			},
+			"ru": {
+				"name": "Mend Body and Soul",
+				"description": "Заклинание. Выбранный союзник исцеляется на 20...115 ед. здоровья. С этого союзника будет снято по одному состоянию за каждого духа, находящегося в зоне слышимости.",
+				"concise": "Заклинание. Исцеляет на 20...115 ед. здоровья. Снимает по одному состоянию за каждого духа в зоне слышимости."
+			},
+			"bork": {
+				"name": "Mend Budy und Suool",
+				"description": "Spell. Taerget aelly is heaeled fur 20...115 Heaelt. Thaet aelly luses oone-a cundeeshun fur iaech spureet veetheen iaershut.",
+				"concise": "Spell. Heaels fur 20...115. Remufes oone-a cundeeshun fur iaech spureet veetheen iaershut."
 			}
 		}
 	}

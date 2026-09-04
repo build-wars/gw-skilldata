@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法腐蚀",
+				"description": "Flash Enchantment Spell。 在20秒之内，根据你身上所带有的「增益魔法」效果数量，每一项可以使你造成的「症状」延长2...6%。（最多延长0%）",
+				"concise": "Flash Enchantment Spell。 在20秒之内，根据你身上所带有的「增益魔法」效果数量，每一项可以使你造成的「症状」延长2...6%。（最多延长0%）"
+			},
+			"cht": {
+				"name": "腐壞祕法",
+				"description": "即刻加持魔法： 使鄰近敵人遭受疾病 2...6 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。",
+				"concise": "即刻加持魔法： 使鄰近敵人遭受疾病 2...6 秒，若施展時你有加持效果，則疾病時間加倍。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，將治好音量所及範圍內的所有隊友身上的疾病。"
+			},
 			"de": {
+				"name": "Mystische Verdorbenheit",
+				"description": "Blitzverzauberung. Alle umstehenden Feinde leiden 2...6 Sekunde[n] lang an Krankheit. 20 Sekunde[n] lang geschieht nichts. Wenn Ihr verzaubert seid, während Ihr diese Fertigkeit aktiviert, wird die Dauer von Krankheit verdoppelt. Wenn diese Verzauberung endet, werden alle Gruppenmitglieder in Hörweite von Krankheit geheilt.",
+				"concise": "Blitzverzauberung. (20 Sekunde[n].) Anfangswirkung: Alle umstehenden Feinde leiden unter Krankheit. (2...6 Sekunde[n]). Doppelte Dauer, wenn Ihr bereits verzaubert seid. Wirkung am Ende: Gruppenmitglieder in Hörweite werden von Krankheit geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Mystische Verdorbenheit (PvP)",
 				"description": "Alle umstehenden Feinde leiden 2...6 Sekunden lang an Krankheit. 20 Sekunden lang geschieht nichts. Wenn Ihr verzaubert seid, während Ihr diese Fertigkeit aktiviert, wird die Dauer von Krankheit verdoppelt. Wenn diese Verzauberung endet, werden alle Gruppenmitglieder in Hörweite von Krankheit geheilt.",
 				"concise": "(20 Sekunden.) Anfangswirkung: Alle umstehenden Feinde leiden unter Krankheit.<sic/> (2...6 Sekunden.) Doppelte Dauer, wenn Ihr bereits verzaubert seid. Wirkung am Ende: Gruppenmitglieder in Hörweite werden von Krankheit geheilt."
 			},
 			"en": {
 				"name": "Mystic Corruption (PvP)",
+				"description": "Flash Enchantment Spell. All adjacent foes suffer from Disease for 2...6 seconds. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
+				"concise": "Flash Enchantment Spell. (20 seconds.) Initial Effect: all adjacent foes are Diseased (2...6 seconds). Double duration if you are already enchanted. End Effect: party members in earshot lose Disease."
+			},
+			"en-gww": {
+				"name": "Mystic Corruption (PvP)",
 				"description": "All adjacent foes suffer from Disease for 2...6 second[s]. For 20 seconds, nothing happens. Disease duration is doubled if you are enchanted when you activate this skill. When this enchantment ends, all party members in earshot are cured of Disease.",
 				"concise": "(20 seconds.) Initial Effect: all adjacent foes are Diseased (2...6 second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease."
 			},
+			"es": {
+				"name": "Corrupción mística",
+				"description": "Conjuro con encantamiento de destello. Todos los enemigos adyacentes sufren enfermedad durante 2...6 segundos. Durante 20 segundos, no ocurre nada. La duración de la enfermedad se dobla si estás encantado cuando activas esta habilidad. Cuando termina este encantamiento, todos los miembros del grupo que estén al alcance del oído se curan de la enfermedad.",
+				"concise": "Conjuro con encantamiento de destello. (20 segundos). Efecto inicial: todos los enemigos cercanos sufren enfermedad (2...6 segundos). Si ya estás encantado, la duración se dobla. Efecto final: los miembros del grupo al alcance del oído pierden la enfermedad."
+			},
 			"fr": {
+				"name": "Corruption mystique",
+				"description": "Enchantement instantané. Tous les ennemis adjacents sont frappés de Maladie pendant 2...6 secondes. Pendant 20 secondes, rien ne se passe. La durée de la Maladie est doublée si vous êtes sous le coup d'un enchantement quand vous activez cette compétence. Une fois cet enchantement dissipé, tous les membres du groupe à portée de voix sont soignés de la Maladie.",
+				"concise": "Enchantement instantané. (20 secondes.) Effet initial : tous les ennemis adjacents souffrent de Maladie (pendant 2...6 secondes). Durée doublée si vous êtes déjà sous le coup d'un enchantement. Effet final : les membres du groupe à portée de voix perdent Maladie."
+			},
+			"fr-gwiki": {
 				"name": "Corruption mystique (PvP)",
 				"description": "Tous les ennemis adjacents sont frappés de Maladie pendant 2...6 secondes. Pendant 20 secondes, rien ne se passe. La durée de la Maladie est doublée si vous êtes sous le coup d'un enchantement quand vous activez cette compétence. Une fois cet enchantement dissipé, tous les membres du groupe à portée de voix sont soignés de la Maladie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Corruzione Mistica",
+				"description": "Incantesimo Lampo. Tutti i nemici adiacenti vengono colpiti da Malattia per 2...6 secondi. Per 20 secondi non si verificano effetti. La durata della Malattia è raddoppiata se sei sotto incantesimo quando attivi questa abilità. Al termine dell'incantesimo, tutti i membri della squadra a portata d'orecchio sono curati da Malattia.",
+				"concise": "Incantesimo Lampo. (Secondi: 20). Effetto iniziale: tutti i nemici adiacenti vengono colpiti da Malattia (2...6 secondi). La durata è doppia se sei già sotto incantesimo. Effetto al termine: i membri della squadra a portata d'orecchio sono curati da Malattia."
+			},
+			"jp": {
+				"name": "ミスティック コラプション",
+				"description": "フラッシュ強化スペル： 隣接するすべての敵を 2...6 秒間、「疾病」状態にします。20 秒間、何も起こりません。このスキルを発動するとき、プレイヤーに強化スペルがかけられている場合、「疾病」状態の持続時間が倍増します。この効果が消失するとき、声の届く範囲内にいるパーティー メンバーはすべて、「疾病」状態から回復します。",
+				"concise": "フラッシュ強化スペル： (20 秒) 発動効果： 隣接するすべての敵を「疾病」状態にします (2...6 秒) 。すでにプレイヤーに強化スペルがかけられている場合、持続時間が倍増します。終了効果： 声の届く範囲内にいるパーティー メンバーにかけられている「疾病」状態を解除します。"
+			},
+			"kr": {
+				"name": "은밀한 악영향",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 인접한 모든 적이 2...6초 동안 질병 상태가 됩니다. 20초 동안 아무 변화가 없습니다. 이 스킬을 시전할 때 자신에게 강화 마법이 걸려 있으면 질병 지속 시간이 2배가 됩니다. 효과가 끝나면 가청 범위 내에 있는 모든 파티원의 질병을 치료합니다.",
+				"concise": "순간 시전 강화 마법. (20초) 초기 효과: 인접한 모든 적이 질병에 걸리고,(2...6초) 자신이 강화 마법에 걸려 있으면 지속 시간이 2배가 됩니다. 종료 효과: 가청 범위 내에 있는 파티원들의 질병을 치료합니다."
+			},
+			"pl": {
+				"name": "Mistyczne Zepsucie",
+				"description": "Zaklęcie błysku (czar). Wszyscy wrogowie w bezpośrednim sąsiedztwie cierpią przez 2...6 sek. z powodu choroby. Przez 20 sek. nic się nie dzieje. Czas trwania choroby zostaje podwojony, jeśli w momencie aktywacji tej umiejętności znajdujesz się pod wpływem zaklęcia. Kiedy zaklęcie to dobiegnie końca, wszyscy członkowie drużyny w zasięgu słuchu zostają wyleczeni z chorób.",
+				"concise": "Zaklęcie błysku (czar). (20 sek.) Efekt początkowy: Wszyscy wrogowie w bezpośrednim sąsiedztwie zaczynają chorować (2...6 sek). Podwojony czas trwania, jeśli już znajdujesz się pod wpływem zaklęcia. Efekt końcowy: Członkowie drużyny w zasięgu słuchu przestają chorować."
+			},
+			"ru": {
+				"name": "Mystic Corruption",
+				"description": "Мгновенное заклинание-чары. Все окружающие противники будут больны в течение 2...6 сек. В течение 20 сек ничего не происходит. Если на вас были наложены чары в момент активации этого умения, длительность болезни удваивается. Когда действие этих чар закончится, все члены отряда в зоне слышимости будут освобождены от болезни.",
+				"concise": "Мгновенное заклинание-чары. (20 сек) Начальный эффект: все окружающие противники будут больны (2...6 сек). Длительность болезни удваивается, если на вас были наложены чары. Эффект окончания: члены отряда в зоне слышимости будут освобождены от болезни."
+			},
+			"bork": {
+				"name": "Mysteec Curroopshun (PfP)",
+				"description": "Flaesh Inchuntment Spell. Aell aedjaecent fues sooffffer frum Deeseaese-a fur 2...6 secunds. Fur 20 secunds, nutheeng haeppens. Deeseaese-a dooraeshun is duoobled iff yuoo aere-a inchunted vhee yuoo aecteefaete-a thees skeell. Vhee thees inchuntment inds, aell paerty members in iaershut aere-a coored ooff Deeseaese-a.",
+				"concise": "Flaesh Inchuntment Spell. (20 secunds.) Ineeteeael Iffffect: aell aedjaecent fues aere-a Deeseaesed (2...6 secunds). Duooble-a dooraeshun iff yuoo aere-a aelreaedy inchunted. Ind Iffffect: paerty members in iaershut luse-a Deeseaese-a."
 			}
 		}
 	}

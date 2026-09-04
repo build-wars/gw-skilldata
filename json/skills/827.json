@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "力量虹吸",
+				"description": "精英负面魔法。 使目标敌人在5...20秒之内的攻击伤害减少5...50点，而你命中遭受此「负面魔法」的敌人时，会有额外50%的几率打出致命一击。",
+				"concise": "精英负面魔法。 使目标敌人在5...20秒之内的攻击伤害减少 5...50点，而你的攻击在命中时造成致命一击的几率提高 50%。"
+			},
+			"cht": {
+				"name": "吸取力量",
+				"description": "精英降咒魔法： 使目標敵人在 5...20 秒內的攻擊傷害減少 5...50 ，同時你的攻擊在命中該目標時造成致命攻擊的機率增加 50% 。",
+				"concise": "精英降咒魔法： 使目標敵人在 5...20 秒內的攻擊傷害減少 5...50 ，同時你的攻擊在命中該目標時造成致命攻擊的機率增加 50% 。"
+			},
 			"de": {
+				"name": "Kraft abzapfen",
+				"description": "Elite-Verhexung. 5...20 Sekunde[n] lang verursacht der Gegner mit seinen Angriffen -5...50 Schaden und alle Eure Angriffe auf diesen Gegner haben zusätzlich eine 50%ige Wahrscheinlichkeit, kritische Treffer zu sein.",
+				"concise": "Elite-Verhexung. 5...20 Sekunde[n]: Gegner richtet -5...50 Punkt[e] Angriffsschaden an. Ihr habt bei diesem Gegner +50% zur Chance auf kritische Treffer."
+			},
+			"de-guildwiki": {
 				"name": "Kraft abzapfen",
 				"description": "5...20 Sekunden lang verursacht der Gegner mit seinen Angriffen -5...50 Schaden und alle Eure Angriffe auf diesen Gegner haben zusätzlich eine 50%ige Wahrscheinlichkeit, kritische Treffer zu sein.",
 				"concise": "5...20 Sekunden: Gegner richtet -5...50 Punkte Angriffsschaden an. Ihr habt bei diesem Gegner +50% zur Chance auf kritische Treffer."
 			},
 			"en": {
 				"name": "Siphon Strength",
+				"description": "Elite Hex Spell. For 5...20 seconds, target foe deals -5...50 damage with attacks and all of your attacks against that foe have an additional 50% chance of being a critical hit.",
+				"concise": "Elite Hex Spell. (5...20 seconds.) Target foe deals -5...50 attack damage. You have +50% chance to land a critical hit on this foe."
+			},
+			"en-gww": {
+				"name": "Siphon Strength",
 				"description": "For 5...20 seconds, target foe deals 5...50 less damage with attacks and all of your attacks against that foe have an additional 50% chance of being a critical hit.",
 				"concise": "(5...20 seconds.) Target foe deals -5...50 attack damage. You have +50% chance to land a critical hit on this foe."
 			},
+			"es": {
+				"name": "Sifón de fuerza",
+				"description": "Conjuro con maleficio de élite. Durante 5...20 segundos, el enemigo objetivo hace 5...50 de daño menos con sus ataques, y todos tus ataques contra él tienen un 50% más de probabilidades de ser críticos.",
+				"concise": "Conjuro con maleficio de élite. (5...20 segundos). El enemigo objetivo hace -5...50 de daño de ataque. Tienes +50% de probabilidades de dar un golpe crítico a este enemigo."
+			},
 			"fr": {
+				"name": "Siphon de force",
+				"description": "Maléfice d'élite. Pendant 5...20 secondes, la cible ennemie inflige -5...50 points de dégâts avec ses attaques et toutes vos attaques contre cet ennemi ont 50% de chances supplémentaires d'être des coups critiques.",
+				"concise": "Maléfice d'élite. (5...20 secondes.) La cible ennemie inflige -5...50 points de dégâts lors de ses attaques. Vous avez +50% de chances d'infliger un coup critique à cet ennemi."
+			},
+			"fr-gwiki": {
 				"name": "Siphon de force",
 				"description": "Pendant 5...20 secondes, la cible ennemie inflige -5...50 points de dégâts avec ses attaques et toutes vos attaques contre cet ennemi ont 50% de chances supplémentaires d'être des coups critiques.",
 				"concise": "(5...20 secondes.) La cible ennemie inflige -5...50 points de dégâts lors de ces attaques. Vous avez +50% de chances d'infliger un coup critique à cet ennemi."
+			},
+			"it": {
+				"name": "Sifone della Forza",
+				"description": "Fattura d'Élite. Per 5...20 secondo[i], l'obiettivo nemico infligge -5...50 danno[i] quando attacca e tutti i tuoi attacchi contro di lui hanno un 50% in più di probabilità di essere colpi critici.",
+				"concise": "Fattura d'Élite. (Secondi: 5...20) Riduzione danni assestati dall'obiettivo nemico: -5...50. Aumento probabilità di assestargli un colpo critico: +50%."
+			},
+			"jp": {
+				"name": "サイフォン ストレングス",
+				"description": "エリート弱体化スペル： 5...20 秒間、ターゲットした敵は攻撃により与えるダメージが 5...50 減少し、その敵に対するプレイヤーの攻撃はすべて、クリティカルヒットになる確率が 50% 増加します。",
+				"concise": "エリート弱体化スペル： (5...20 秒) ターゲットした敵が行う攻撃は、ダメージが 5...50 減少します。プレイヤーは、この敵への攻撃がクリティカル ヒットになる確率が 50% 増加します。"
+			},
+			"kr": {
+				"name": "전투력 흡수",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 5...20초 동안 대상의 공격 대미지는 5...50 감소하고, 자신이 대상을 공격하면 치명타가 될 확률이 50% 증가합니다.",
+				"concise": "엘리트 약화 마법. (5...20초) 대상의 공격 대미지가 5...50 감소하고, 대상에 대한 자신의 공격이 치명타가 될 확률이 50% 증가합니다."
+			},
+			"pl": {
+				"name": "Wyssanie Siły",
+				"description": "Elitarna klątwa (czar). Przez 5...20 sek., wybrany przeciwnik zadaje atakami -5...50 pkt. obrażeń, a wszystkie twoje ataki na tego przeciwnika maja 50% więcej szans na uzyskanie trafienia krytycznego.",
+				"concise": "Elitarna klątwa (czar). (5...20 sek.) Wybrany przeciwnik zadaje -5...50 pkt. obrażeń. Posiadasz +50% szans na wykonanie trafienia krytycznego w tego przeciwnika."
+			},
+			"ru": {
+				"name": "Siphon Strength",
+				"description": "Элитное заклинание-проклятье. В течение 5...20 сек атаки выбранного противника наносят на 5...50 ед. урона меньше, а все ваши атаки против этого противника имеют дополнительно 50%-й шанс завершиться критическим ударом.",
+				"concise": "Элитное заклинание-проклятье. (5...20 сек) Атаки выбранного противника наносят на 5...50 ед. урона меньше. Вы получаете дополнительно 50%-й шанс нанести критический удар этому противнику."
+			},
+			"bork": {
+				"name": "Seephun Strengt",
+				"description": "Ileete-a Hex Spell. Fur 5...20 secunds, taerget fue-a deaels -5...50 daemaege-a veet aettaecks und aell ooff yuoor aettaecks aegaeeenst thaet fue-a haefe-a un aeddeeshunael 50% chunce-a ooff beeeng a creeteecael heet.",
+				"concise": "Ileete-a Hex Spell. (5...20 secunds.) Taerget fue-a deaels -5...50 aettaeck daemaege-a. Yuoo haefe-a +50% chunce-a tu lund a creeteecael heet oon thees fue-a."
 			}
 		}
 	}

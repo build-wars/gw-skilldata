@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疾速",
+				"description": "增益魔法。 在10...35秒之内，使你的\"半程\"法术施放速度提升5...50%，冷却速度提升5...60%。",
+				"concise": "增益魔法。 在10...35秒之内，使你的\"半程\"法术施放速度提升5...50%，冷却速度提升5...60%。"
+			},
+			"cht": {
+				"name": "致命速度",
+				"description": "加持魔法： 持續 10...35 秒，所有施展距離為平常一半的「魔法」，其施展速度加快 5...50% 且回復速度加快 5...60% 。",
+				"concise": "加持魔法： 持續 10...35 秒，所有施展距離為平常一半的「魔法」，其施展速度加快 5...50% 且回復速度加快 5...60% 。"
+			},
 			"de": {
+				"name": "Tödliche Eile",
+				"description": "Verzauberung. 10...35 Sekunde[n] lang werden Zauber mit halber Reichweite um 5...50% schneller gewirkt und um 5...60% schneller wieder aufgeladen.",
+				"concise": "Verzauberung. 10...35 Sekunde[n]: Ihr könnt Eure Zauber mit halber Reichweite um 5...50% schneller wirken und sie laden sich um 5...60% schneller wieder auf."
+			},
+			"de-guildwiki": {
 				"name": "Tödliche Eile",
 				"description": "10...35 Sekunden lang werden Zauber mit halber Reichweite um 5...50% schneller gewirkt und um 5...60% schneller wieder aufgeladen.",
 				"concise": "10...35 Sekunden: Ihr könnt Eure Zauber mit halber Reichweite um 5...50% schneller wirken und sie laden sich um 5...60% schneller auf."
 			},
 			"en": {
 				"name": "Deadly Haste",
+				"description": "Enchantment Spell. For 10...35 seconds, half-ranged spells cast 5...50% faster and recharge 5...60% faster.",
+				"concise": "Enchantment Spell. (10...35 seconds.) Your half-ranged spells cast 5...50% faster and recharge 5...60% faster."
+			},
+			"en-gww": {
+				"name": "Deadly Haste",
 				"description": "For 10...35 seconds, half-ranged spells cast 5...50% faster and recharge 5...60% faster.",
 				"concise": "(10...35 seconds.) Your half-ranged spells cast 5...50% faster and recharge 5...60% faster."
 			},
+			"es": {
+				"name": "Prisa mortal",
+				"description": "Conjuro con encantamiento. Durante 10...35 segundos, los conjuros de alcance medio se lanzarán y se recargarán un 5...50% y un 5...60% más deprisa respectivamente.",
+				"concise": "Conjuro con encantamiento. (10...35 segundos). Tus conjuros de alcance medio se lanzan y se recargan un 5...50% y un 5...60% más deprisa respectivamente."
+			},
 			"fr": {
+				"name": "Hâte mortelle",
+				"description": "Enchantement. Pendant 10...35 secondes, les sorts dont la portée est réduite de moitié sont lancés 5...50% plus vite et se rechargent 5...60% plus vite.",
+				"concise": "Enchantement. (10...35 secondes.) Vos sorts dont la portée est réduite de moitié sont lancés 5...50% plus vite et se rechargent 5...60% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Hâte mortelle",
 				"description": "Pendant 10...35 secondes, les sorts dont la portée est réduite de moitié sont lancés 5...60% plus vite et se rechargent 5...60% plus vite.",
 				"concise": "(10...35 secondes.) Vos sorts dont la portée est réduite de moitié sont lancés 5...60% plus vite et se rechargent 5...60% plus vite."
+			},
+			"it": {
+				"name": "Fretta Letale",
+				"description": "Incantesimo. Per 10...35 secondo[i], le magie con metà della portata normale hanno un tempo di lancio superiore del 5...50% e si ricaricano con una velocità superiore del 5...60%.",
+				"concise": "Incantesimo. (Secondi: 10...35) Le tue magie con metà della portata normale hanno un tempo di lancio superiore del 5...50% e si ricaricano con una velocità superiore del 5...60%."
+			},
+			"jp": {
+				"name": "デッドリー ヘイスト",
+				"description": "強化スペル： 10...35 秒間、効果範囲が通常の半分のスペルは詠唱速度が 5...50%、再使用速度が 5...60% 増加します。",
+				"concise": "強化スペル： (10...35 秒) 攻撃範囲が通常の半分のスペルは詠唱速度が 5...50%、再使用速度が 5...60% 増加します。"
+			},
+			"kr": {
+				"name": "치명적인 신속함",
+				"description": "강화 마법. 대상 지정: 없음. 10...35초 동안 사정거리가 절반인 마법의 시전 속도는 5...50%, 재활성 속도는 5...60% 빨라집니다.",
+				"concise": "강화 마법. (10...35초) 사정거리가 절반인 마법의 시전 속도가 5...50%, 재활성 속도가 5...60% 빨라집니다."
+			},
+			"pl": {
+				"name": "Śmiercionośny Pośpiech",
+				"description": "Zaklęcie (czar). Przez 10...35 sek., czary o połowie zasięgu rzucane są w czasie o 5...50% krótszym i odnawiają się o 5...60% szybciej.",
+				"concise": "Zaklęcie (czar). (10...35 sek.) Twoje czary o połowie zasięgu rzucane są w czasie o 5...50% krótszym i odnawiają się o 5...60% szybciej."
+			},
+			"ru": {
+				"name": "Deadly Haste",
+				"description": "Заклинание-чары. В течение 10...35 сек заклинания с уменьшенной вдвое дальностью произносятся на 5...50% быстрее и перезаряжаются на 5...60% быстрее, чем обычно.",
+				"concise": "Заклинание-чары. (10...35 сек) Ваши заклинания с уменьшенной вдвое дальностью активируются на 5...50% быстрее и перезаряжаются на 5...60% быстрее."
+			},
+			"bork": {
+				"name": "Deaedly Haeste-a",
+				"description": "Inchuntment Spell. Fur 10...35 secunds, haelff-runged spells caest 5...50% faester und rechaerge-a 5...60% faester.",
+				"concise": "Inchuntment Spell. (10...35 secunds.) Yuoor haelff-runged spells caest 5...50% faester und rechaerge-a 5...60% faester."
 			}
 		}
 	}

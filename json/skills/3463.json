@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "嘲弄",
+				"description": "精英咒文。 触摸目标敌人，使其在0秒之内所使用的技能恢复时间延长0...5%。被目标敌人击中时，技能效果消失。",
+				"concise": "精英咒文。 触摸目标敌人，使其在0秒之内所使用的技能恢复时间延长0...5%。被目标敌人击中时，技能效果消失。"
+			},
+			"cht": {
+				"name": "嘲弄",
+				"description": "精英咒文魔法： 若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 0...5 能量。",
+				"concise": "精英咒文魔法： 若目標敵人正在使用技能，則該目標及範圍內所有敵人動作將被中斷，偷取範圍內所有敵人 0...5 能量。"
+			},
 			"de": {
+				"name": "Reizen",
+				"description": "Elite-Zauber. Falls der Gegner eine Fertigkeit verwendet, werden er selbst sowie alle Gegner im Bereich unterbrochen und Ihr entzieht allen unterbrochenen Gegnern im Bereich 0...5 Energiepunkt[e].",
+				"concise": "Elite-Zauber. Unterbricht eine Fertigkeit. Unterbrechungswirkung: Unterbricht außerdem andere Gegner im Bereich und Ihr entzieht allen Gegnern im Bereich 0...5 Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Reizen (PvP)",
 				"description": "Falls der Gegner eine Fertigkeit verwendet, werden er selbst sowie alle Gegner im Bereich unterbrochen und Ihr entzieht allen Gegnern im Bereich 0...5 Energiepunkte.",
 				"concise": "Unterbricht eine Fertigkeit. Unterbrechungswirkung: Unterbricht außerdem andere Gegner im Bereich und Ihr entzieht allen Gegnern im Bereich 0...5 Energiepunkte."
 			},
 			"en": {
 				"name": "Tease (PvP)",
+				"description": "Elite Spell. If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0...5 Energy from all foes in the area.",
+				"concise": "Elite Spell. Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal 0...5 Energy from all foes in the area."
+			},
+			"en-gww": {
+				"name": "Tease (PvP)",
 				"description": "If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0...5 Energy from all foes in the area.",
 				"concise": "Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal 0...5 Energy from all foes in the area."
 			},
+			"es": {
+				"name": "Bromista",
+				"description": "Conjuro de élite. Si el enemigo objetivo está utilizando una habilidad, ese enemigo y los de la zona serán interrumpidos y tú robarás 0...5 de energía de todos ellos.",
+				"concise": "Conjuro de élite. Interrumpe una habilidad. Efecto de interrupción: también interrumpe a otros enemigos de la zona y robas 0...5 de energía a todos ellos."
+			},
 			"fr": {
+				"name": "Taquinerie",
+				"description": "Sort d'élite. Si la cible ennemie utilise une compétence, elle et les autres ennemis de la zone sont interrompus et vous volez 0...5 points d'énergie à chaque ennemi de la zone.",
+				"concise": "Sort d'élite. Interrompt une compétence. Effet de l'interruption : les autres ennemis de la zone sont aussi interrompus et vous volez 0...5 points d'énergie à chaque ennemi de la zone."
+			},
+			"fr-gwiki": {
 				"name": "Taquinerie (PvP)",
 				"description": "Si la cible ennemie utilise une compétence, elle et les autres ennemis de la zone sont interrompus et vous volez 0...5 point(s) d'énergie à chaque ennemi de la zone.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Burla",
+				"description": "Magia d'Élite. Se l'obiettivo nemico ha attivato un'abilità, lui e gli altri nemici nell'area vengono interrotti e tu sottrai 0...5 Punti Energia a tutti i nemici nell'area.",
+				"concise": "Magia d'Élite. Interrompe un'abilità. Effetto dell'interruzione: interrompe anche gli altri nemici nell'area e tu sottrai 0...5 Punti Energia a tutti i nemici nell'area."
+			},
+			"jp": {
+				"name": "ティーズ",
+				"description": "エリート スペル： ターゲットした敵がスキルを使用している場合、その敵とエリア内にいる他の敵のアクションを中断し、エリア内にいるすべての敵から 0...5 のエネルギーを奪い取ります。",
+				"concise": "エリート スペル： スキルを中断します。中断効果： エリア内にいる他の敵のアクションも中断し、エリア内にいるすべての敵から 0...5 のエネルギーを奪い取ります。"
+			},
+			"kr": {
+				"name": "조롱",
+				"description": "엘리트 마법. 대상 지정: 적. 대상이 스킬을 사용 중이면, 대상과 일정 범위 내에 있는 다른 적들이 동작을 방해 받고, 자신은 일정 범위 내에 있는 모든 적에게서 0...5의 에너지를 뺏습니다.",
+				"concise": "엘리트 마법. 스킬을 방해합니다. 방해 효과: 일정 범위 내에 있는 다른 적들의 스킬도 방해하고, 0...5의 에너지를 뺏습니다."
+			},
+			"pl": {
+				"name": "Dokuczliwość",
+				"description": "Elitarny czar. Jeżeli wybrany przeciwnik używa umiejętności, aktualnie wykonywana czynność tego przeciwnika i czynność każdego przeciwnika w okolicy zostają przerwane. Dodatkowo wykradasz 0...5 energii od wszystkich wrogów w okolicy.",
+				"concise": "Elitarny czar. Przerywa umiejętność. Efekt przerwania: przerywasz także czynności innych wrogów w okolicy i wykradasz 0...5 energii od wszystkich wrogów w okolicy."
+			},
+			"ru": {
+				"name": "Tease",
+				"description": "Элитное заклинание. Если выбранный противник использует умение, этот противник и все противники в зоне досягаемости будут прерваны, а вы похитите 0...5 ед. энергии у всех противников в зоне досягаемости.",
+				"concise": "Элитное заклинание. Прерывает умение. Эффект прерывания: также прерывает других противников в зоне досягаемости, а вы похищаете 0...5 ед. энергии у всех противников в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Teaese-a (PfP)",
+				"description": "Ileete-a Spell. Iff taerget fue-a is useeng a skeell, thaet fue-a und oozeer fues in zee aerea aere-a interroopted und yuoo steael 0...5 Inergy frum aell fues in zee aerea.",
+				"concise": "Ileete-a Spell. Interroopts a skeell. Interroopshun iffffect: aelsu interroopts oozeer fues in zee aerea, und yuoo steael 0...5 Inergy frum aell fues in zee aerea."
 			}
 		}
 	}

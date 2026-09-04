@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "激励之曲",
+				"description": "回音技。 在5...25秒之内，使你的攻击速度提升25%。当「圣歌」或「战吼」的效果在你身上消失时，此「回音技」的效果将被重置。",
+				"concise": "回音技。 在5...25秒之内，使你的攻击速度提升25%。当「圣歌」或「战吼」的效果在你身上消失时，此「回音技」的效果将被重置。"
+			},
+			"cht": {
+				"name": "侵略合聲",
+				"description": "迴響： 持續 5...25 秒，你的攻擊速度增加 25%，但是防禦減少 20 ，若有戰嚎或者聖歌在你身上終止，此迴響時間回復。",
+				"concise": "迴響： 持續 5...25 秒，你的攻擊速度增加 25%，但是防禦減少 20 ，若有戰嚎或者聖歌在你身上終止，此迴響時間回復。"
+			},
 			"de": {
+				"name": "Aggressiver Refrain",
+				"description": "Echo. 5...25 Sekunde[n] lang sind Eure Angriffe um 25% schneller, aber Ihr habt -20 Rüstung. Dieses Echo wird jedes Mal wiederholt, wenn ein auf Euch gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. (5...25 Sekunde[n].) Ihr greift um 25% schneller an. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf Euch endet. Ihr habt -20 Rüstung."
+			},
+			"de-guildwiki": {
 				"name": "Aggressiver Refrain",
 				"description": "5...25 Sekunden lang sind Eure Angriffe um 25% schneller, aber Ihr habt -20 Rüstung. Dieses Echo wird jedes Mal wiederholt, wenn ein auf Euch gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "(5...25 Sekunden.) Ihr greift um 25% schneller an. Erneuerung: Jedes Mal, wenn ein Schrei oder ein Anfeuerungsruf auf Euch endet. <gray>Ihr habt -20 Rüstung.</gray>"
 			},
 			"en": {
 				"name": "Aggressive Refrain",
+				"description": "Echo. For 5...25 seconds, you attack 25% faster but have -20 armor. This echo is reapplied every time a chant or shout ends on you.",
+				"concise": "Echo. (5...25 seconds.) You attack 25% faster. Renewal: whenever a chant or shout ends on you. You have -20 armor."
+			},
+			"en-gww": {
+				"name": "Aggressive Refrain",
 				"description": "For 5...25 seconds, you attack 25% faster but have -20 armor. This echo is reapplied every time a chant or shout ends on you.",
 				"concise": "(5...25 seconds.) You attack 25% faster. Renewal: whenever a chant or shout ends on you. <gray>You have -20 armor.</gray>"
 			},
+			"es": {
+				"name": "Estribillo agresivo",
+				"description": "Eco. Durante 5...25 segundos, atacas un 25% más rápido pero tienes -20 de armadura. Este eco se reactivará cada vez que los efectos de un cántico o grito te alcancen.",
+				"concise": "Eco. (5...25 segundos). Atacas un 25% más rápido. Renovación: cada vez que los efectos de un cántico o grito acaben. Tienes -20 de armadura."
+			},
 			"fr": {
+				"name": "Refrain agressif",
+				"description": "Echo. Pendant 5...25 secondes, vous attaquez 25% plus vite mais votre armure est réduite de -20. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
+				"concise": "Echo. (5...25 secondes.) Votre vitesse d'attaque est augmentée de 25%. Renouvellement : chaque fois qu'un chant ou un cri vous affectant prend fin. Vous avez un malus d'armure de -20."
+			},
+			"fr-gwiki": {
 				"name": "Refrain agressif",
 				"description": "Pendant 5...25 secondes, vous attaquez 25% plus vite mais votre armure est réduite de 20 pendant 20 secondes. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ritornello Aggressivo",
+				"description": "Eco. Per 5...25 secondo[i] la tua velocità d'attacco aumenta di un 25% ma hai -20 di armatura. L'eco si rinnova ogni volta che un canto o un urlo termina su di te.",
+				"concise": "Eco. (Secondo[i]: 5...25). Incremento della tua velocità d'attacco: 25%. Rinnovo: ogni volta che un canto o un urlo termina su di te. Hai -20 di armatura."
+			},
+			"jp": {
+				"name": "アグレッシブ リフレイン",
+				"description": "エコー： 5...25 秒間、攻撃速度が 25% 増加しますが、防御力は20減少します。この効果は、かけられているチャントやシャウトが消失するたびに更新されます。",
+				"concise": "エコー： (5...25 秒) 攻撃速度が 25% 増加します。更新：かけられているチャントやシャウトが消失するたび。防御力が20減少します。"
+			},
+			"kr": {
+				"name": "공세의 공명",
+				"description": "공명. 대상 지정: 없음. 5...25초 동안 공격 속도가 25% 빨라지고, 대신 방어력이 20만큼 감소합니다. 고함이나 영창이 끝날 때마다 효과가 갱신됩니다.",
+				"concise": "공명. (5...25초) 공격 속도가 25% 빨라집니다. 갱신 조건: 고함이나 영창이 끝날 때마다. 방어력이 20만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Agresywny Zaśpiew",
+				"description": "Echo. Przez 5...25 sek., atakujesz 25% szybciej ale masz -20 pkt. pancerza. To echo jest ponownie nakładane za każdym razem, kiedy przestaje na tobie działać pieśń lub okrzyk.",
+				"concise": "Echo. (5...25 sek.) Atakujesz o 25% szybciej. Odnowienie: za każdym razem, kiedy przestaje na tobie działać pieśń lub okrzyk. Posiadasz -20 pkt. pancerza."
+			},
+			"ru": {
+				"name": "Aggressive Refrain",
+				"description": "Эхо. В течение 5...25 сек вы атакуете на 25% быстрее, но ваша защита уменьшается на 20 ед. Это эхо применяется заново каждый раз, когда заканчивает свое действие влияющий на вас хорал или крик.",
+				"concise": "Эхо. (5...25 сек) Вы атакуете на 25% быстрее. Обновление: каждый раз, когда заканчивается хорал или крик, влияющий на вас. Вы получаете -20 ед. к защите."
+			},
+			"bork": {
+				"name": "Aeggresseefe-a Reffraeeen",
+				"description": "Ichu. Fur 5...25 secunds, yuoo aettaeck 25% faester boot haefe-a -20 aermur. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon yuoo. Bork! Bork! Bork!",
+				"concise": "Ichu. (5...25 secunds.) Yuoo aettaeck 25% faester. Renooael: vhenefer a chunt oor shuoot inds oon yuoo. Yuoo haefe-a -20 aermur."
 			}
 		}
 	}

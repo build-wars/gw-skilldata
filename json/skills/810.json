@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "防护姿态",
+				"description": "技能。 持续 5...11 秒，使邻近的盟友有 75% 概率格挡敌人的攻击。如果你在此姿态下移动，则姿态效果停止。",
+				"concise": "技能。 持续 5...11 秒，使邻近的盟友有 75% 概率格挡敌人的攻击。如果你在此姿态下移动，则姿态效果停止。"
+			},
+			"cht": {
+				"name": "保護者態勢",
+				"description": "技能： 持續 5...11 秒，使鄰近的盟友有 75% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。",
+				"concise": "技能： 持續 5...11 秒，使鄰近的盟友有 75% 機率「格擋」敵人的攻擊。若你在此態勢下移動，則態勢效果停止。"
+			},
 			"de": {
+				"name": "Verteidigung des Beschützers",
+				"description": "Fertigkeit. 5...11 Sekunde[n] lang haben Euch umstehende Verbündete eine 75%ige Chance, Angriffe zu blocken. Verteidigung des Beschützers endet, wenn Ihr Euch bewegt.",
+				"concise": "Fertigkeit. 5...11 Sekunde[n]: Euch umstehende Verbündete haben eine 75%ige Chance zu blocken. Endet, wenn Ihr Euch bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Verteidigung des Beschützers",
 				"description": "5...11 Sekunden lang habt Ihr selbst und alle Euch umstehenden Verbündeten eine 75%ige Chance, Angriffe zu blocken. Verteidigung des Beschützers endet, wenn Ihr Euch bewegt.",
 				"concise": "5...11 Sekunden: Umstehende Verbündete haben eine 75%ige Chance zu blocken. <gray>Endet, wenn Ihr Euch bewegt.</gray>"
 			},
 			"en": {
 				"name": "Protector's Defense",
+				"description": "Skill. For 5...11 seconds, allies adjacent to you have a 75% chance to block incoming attacks. Protector's Defense ends if you move.",
+				"concise": "Skill. (5...11 seconds.) Allies adjacent to you have 75% chance to block. Ends if you move."
+			},
+			"en-gww": {
+				"name": "Protector's Defense",
 				"description": "For 5...11 seconds, allies adjacent to you have a 75% chance to block incoming attacks. Protector's Defense ends if you move.",
 				"concise": "(5...11 seconds.) Allies adjacent to you have 75% chance to block. <gray>Ends if you move.</gray>"
 			},
+			"es": {
+				"name": "Defensa del protector",
+				"description": "Habilidad. Durante 5...11 segundos, los aliados adyacentes tienen un 75% de probabilidades de bloquear ataques. La Defensa del protector acaba cuando te muevas.",
+				"concise": "Habilidad. (5...11 segundos). Los aliados adyacentes tienen un 75% de probabilidades de bloquear. Acaba si te mueves."
+			},
 			"fr": {
+				"name": "Défense du protecteur",
+				"description": "Compétence. Pendant 5...11 secondes, les alliés adjacents à votre position ont 75% de chances de bloquer les attaques. La défense du protecteur prend fin si vous bougez.",
+				"concise": "Compétence. (5...11 secondes.) Les alliés adjacents à votre position ont 75% de chances de bloquer. Prend fin si vous vous déplacez."
+			},
+			"fr-gwiki": {
 				"name": "Défense du protecteur",
 				"description": "Pendant 5...11 secondes, les alliés adjacents ont 75% de chances de bloquer les attaques. La défense du protecteur prend fin si vous bougez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Difesa del Protettore",
+				"description": "Abilità. Per 5...11 secondo[i], gli alleati adiacenti a te hanno una probabilità del 75% di bloccare gli attacchi. La Difesa del Protettore termina se ti sposti.",
+				"concise": "Abilità. (Secondi: 5...11) Probabilità di blocco degli alleati adiacenti a te: 75%. Termina se ti muovi."
+			},
+			"jp": {
+				"name": "プロテクター ディフェンス",
+				"description": "スキル： 5...11 秒間、プレイヤーに隣接する味方は75%の確率で攻撃をブロックすることができます。プレイヤーが移動すると、この効果は消失します。",
+				"concise": "スキル： (5...11 秒) プレイヤーに隣接する味方は75%の確率で攻撃をブロックします。プレイヤーが移動すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "보호자의 방어 자세",
+				"description": "스킬. 대상 지정: 없음. 5...11초 동안 인접한 아군들은 75% 확률로 공격을 막습니다. 이동하면 방어 자세가 끝납니다.",
+				"concise": "스킬. (5...11초) 인접한 아군들이 75% 확률로 공격을 막습니다. 자신이 이동하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Zastawa Obrońcy",
+				"description": "Umiejętność. Przez 5...11 sek., sojusznicy bezpośrednio przy tobie mają 75% szans na blokowanie ataków. Zastawa Obrońcy skończy się, jeśli się poruszysz.",
+				"concise": "Umiejętność. (5...11 sek.) Sojusznicy w bezpośredniej odległości mają 75% szans na blokowanie. Przestanie działać, jeśli się ruszysz."
+			},
+			"ru": {
+				"name": "Protector's Defense",
+				"description": "Умение. В течение 5...11 сек окружающие вас союзники получают 75%-й шанс блокировать направленные против них атаки. Protector's Defense прекращает свое действие, если вы начинаете двигаться.",
+				"concise": "Умение. (5...11 сек) Окружающие вас союзники получают 75%-й шанс блокировать атаки. Заканчивается, если вы двигаетесь."
+			},
+			"bork": {
+				"name": "Prutectur's Deffense-a",
+				"description": "Skeell. Fur 5...11 secunds, aelleees aedjaecent tu yuoo haefe-a a 75% chunce-a tu bluck incumeeng aettaecks. Prutectur's Deffense-a inds iff yuoo mufe-a.",
+				"concise": "Skeell. (5...11 secunds.) Aelleees aedjaecent tu yuoo haefe-a 75% chunce-a tu bluck. Inds iff yuoo mufe-a."
 			}
 		}
 	}

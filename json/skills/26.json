@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "物理反噬",
+				"description": "负面魔法。 在5...15秒之内，每当目标敌人进行武器攻击时，该敌人将会受到10...55点伤害。",
+				"concise": "负面魔法。 在5...15秒之内，每当目标敌人进行攻击时，该敌人将会受到10...55点伤害。"
+			},
+			"cht": {
+				"name": "自虐",
+				"description": "降咒魔法： 持續 5...15 秒，每當目標敵人攻擊時將受到 10...55 傷害，且該敵人造成的傷害減少 1...15 。",
+				"concise": "降咒魔法： 持續 5...15 秒，每當目標敵人攻擊時將受到 10...55 傷害，且該敵人造成的傷害減少 1...15 。"
+			},
 			"de": {
+				"name": "Empathie",
+				"description": "Verhexung. 5...15 Sekunde[n] lang erleidet der Gegner bei jedem seiner Angriffe 10...55 Punkt[e] Schaden und verursacht 1...15 Punkt[e] weniger Schaden.",
+				"concise": "Verhexung. (5...15 Sekunde[n].) Gegner erleidet bei jedem seiner Angriffe 10...55 Punkt[e] Schaden und fügt 1...15 Punkt[e] weniger Schaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Empathie",
 				"description": "5...15 Sekunden lang erleidet der Gegner bei jedem seiner Angriffe 10...55 Punkte Schaden und verursacht 1...15 Punkte weniger Schaden.",
 				"concise": "5...15 Sekunden: Gegner erleidet bei jedem seiner Angriffe 10...55 Punkte Schaden und fügt 1...15 Punkte weniger Schaden zu."
 			},
 			"en": {
 				"name": "Empathy",
+				"description": "Hex Spell. For 5...15 seconds, whenever target foe attacks, that foe takes 10...55 damage and deals 1...15 less damage.",
+				"concise": "Hex Spell. (5...15 seconds.) Target foe's attacks deal 1...15 less damage, and that foe takes 10...55 damage with each attack."
+			},
+			"en-gww": {
+				"name": "Empathy",
 				"description": "For 5...15 seconds, whenever target foe attacks, that foe takes 10...55 damage and deals 1...15 less damage.",
 				"concise": "(5...15 seconds.) Target foe's attacks deal 1...15 less damage, and that foe takes 10...55 damage with each attack."
 			},
+			"es": {
+				"name": "Empatía",
+				"description": "Conjuro con maleficio. Durante 5...15 segundos, siempre que el enemigo objetivo ataque, éste recibirá 10...55 de daño y hará 1...15 menos de daño.",
+				"concise": "Conjuro con maleficio. (5...15 segundos). Los ataques del enemigo objetivo hacen 1...15 menos de daño y ese enemigo recibe 10...55 de daño con cada ataque."
+			},
 			"fr": {
+				"name": "Empathie",
+				"description": "Maléfice. Pendant 5...15 secondes, chaque fois que l'ennemi visé attaque, il subit 10...55 points de dégâts et inflige 1...15 points de dégâts en moins.",
+				"concise": "Maléfice. (5...15 secondes.) Chaque fois que l'ennemi visé attaque, il inflige 1...15 points de dégâts en moins, et subit 10...55 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Empathie",
 				"description": "Pendant 5...15 secondes, à chaque fois que l'ennemi visé attaque, il subit 15...55 points de dégâts. L'ennemi visé inflige 1...15 point(s) de dégâts en moins à chaque attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Empatia",
+				"description": "Fattura. Per 5...15 secondi, ogni volta che l'obiettivo nemico attacca subisce 10...55 danni e infligge 1...15 danni in meno.",
+				"concise": "Fattura. (Secondi: 5...15). Riduzione dei danni causati dagli attacchi dell'obiettivo nemico: 1...15; danni subiti dall'obiettivo nemico ad ogni attacco: 10...55."
+			},
+			"jp": {
+				"name": "エンパシー",
+				"description": "弱体化スペル： 5...15 秒間、ターゲットした敵は攻撃を行うたびに 10...55 のダメージを受け、攻撃により与えるダメージが 1...15 減少します。",
+				"concise": "弱体化スペル： (5...15 秒) ターゲットした敵は、攻撃により与えるダメージが 1...15 減少し、攻撃を行うたびに 10...55 のダメージを受けます。"
+			},
+			"kr": {
+				"name": "자학",
+				"description": "약화 마법. 대상 지정: 적. 5...15초 동안 대상은 공격할 때마다 공격 대미지가 1...15만큼 감소하고, 스스로 10...55의 대미지를 입습니다.",
+				"concise": "약화 마법. (5...15초) 대상은 공격할 때마다 10...55의 대미지를 입고, 공격 대미지가 1...15만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Empatia",
+				"description": "Klątwa (czar). Przez 5...15 sek., za każdym razem, kiedy wybrany przeciwnik atakuje, ten przeciwnik otrzymuje 10...55 pkt. obrażeń, a sam zadaje 1...15 obrażeń mniej.",
+				"concise": "Klątwa (czar). (5...15 sek.) Wybrany przeciwnik otrzymuje 10...55 pkt. obrażeń za każdym razem, kiedy atakuje, i zadaje 1...15 pkt. obrażeń mniej każdym swoim atakiem."
+			},
+			"ru": {
+				"name": "Empathy",
+				"description": "Заклинание-проклятье. В течение 5...15 сек каждый раз, когда выбранный противник атакует, он получает 10...55 ед. урона и наносит урона на 1...15 ед. меньше.",
+				"concise": "Заклинание-проклятье. (5...15 сек) Атаки выбранного противника наносят на 1...15 ед. урона меньше, а этот противник получает 10...55 ед. урона при каждой атаке."
+			},
+			"bork": {
+				"name": "Impaethy",
+				"description": "Hex Spell. Fur 5...15 secunds, vhenefer taerget fue-a aettaecks, thaet fue-a taekes 10...55 daemaege-a und deaels 1...15 less daemaege-a.",
+				"concise": "Hex Spell. (5...15 secunds.) Taerget fue-a's aettaecks deael 1...15 less daemaege-a, und thaet fue-a taekes 10...55 daemaege-a veet iaech aettaeck. Bork! Bork! Bork!"
 			}
 		}
 	}

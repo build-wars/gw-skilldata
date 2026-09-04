@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火凤凰",
+				"description": "咒文。 召唤一只火凤凰，召唤时对邻近你的敌人造成20...80点火焰伤害，然后飞向目标敌人，并在接近目标敌人时爆炸，对其造成10...60点火焰伤害。",
+				"concise": "咒文。 召唤一只火凤凰，对你附近的敌人造成 20...80点 火焰伤害，然后飞向目标并在接近目标时爆炸，对目标造成 10...60点 火焰伤害。"
+			},
+			"cht": {
+				"name": "火鳳凰",
+				"description": "咒文魔法： 火鳳凰從你的位置升起，對鄰近的敵人造成 20...80 火焰傷害，同時火鳳凰飛向目標並且在接觸時爆炸，對目標造成 10...60 火焰傷害。",
+				"concise": "咒文魔法： 火鳳凰從你的位置升起，對鄰近的敵人造成 20...80 火焰傷害，同時火鳳凰飛向目標並且在接觸時爆炸，對目標造成 10...60 火焰傷害。"
+			},
 			"de": {
+				"name": "Phönix",
+				"description": "Zauber. An Eurer Position steigt ein feuriger Phönix empor, fliegt zu Eurem Ziel und explodiert, sobald er dort aufschlägt. Diese Explosion richtet beim Gegner und umstehenden Feinden 10...60 Punkte Feuerschaden an. Wenn Ihr Überzaubert seid, werden Verbündete im Explosionsradius für 20...80 Lebenspunkte geheilt.",
+				"concise": "Zauber. Geschoss: Richtet beim Gegner und umstehenden Feinden 10...60 Punkte Feuerschaden an. Heilt Verbündete für 20...80, wenn Ihr Überzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Phönix",
 				"description": "An Eurer Position steigt ein feuriger Phönix empor, fliegt zu Eurem Ziel und explodiert, sobald er dort aufschlägt. Diese Explosion richtet beim Gegner und umstehenden Feinden 10...60 Punkte Feuerschaden an. Wenn Ihr Überzaubert seid, werden Verbündete im Explosionsradius für 20...80 Lebenspunkte geheilt.",
 				"concise": "Geschoss: Richtet beim Gegner und umstehenden Feinden um den Gegner 10...60 Punkte Feuerschaden an. Heilt umstehende Verbündete am Zielort für 20...80 Lebenspunkte, wenn Ihr Überzaubert seid."
 			},
 			"en": {
 				"name": "Phoenix",
+				"description": "Spell. A fiery Phoenix rises at your location and flies out to your target, exploding on impact. This explosion strikes your target and nearby foes for 10...60 fire damage. If you are Overcast, allies in the blast radius are healed for 20...80 Health.",
+				"concise": "Spell. Projectile: deals 10...60 fire damage to target and nearby foes. Heals allies for 20...80 if you are Overcast."
+			},
+			"en-gww": {
+				"name": "Phoenix",
 				"description": "A fiery Phoenix rises at your location and flies out to your target, exploding on impact. This explosion strikes your target and nearby foes for 10...60 fire damage. If you are Overcast, allies in the blast radius are healed for 20...80 Health.",
 				"concise": "Projectile: deals 10...60 fire damage to target and nearby foes. Heals allies for 20...80 if you are Overcast."
 			},
+			"es": {
+				"name": "Fénix",
+				"description": "Conjuro. Un fénix envuelto en llamas surge en tu ubicación y se dirige hacia tu objetivo, explotando al impactar. La explosión alcanzará al enemigo objetivo y los adyacentes y les hará 10...60 de daño de fuego. Si estás sobrelanzando, los aliados en el radio de la explosión reciben 20...80 de salud.",
+				"concise": "Conjuro. Proyectil: hace 10...60 de daño de fuego al objetivo y a los enemigos cercanos. Cura 20...80 a los aliados si estás sobrelanzando."
+			},
 			"fr": {
+				"name": "Phénix",
+				"description": "Sort. Un Phénix flamboyant apparaît près de vous, avant de s'envoler vers votre cible pour exploser à l'impact. Cette explosion inflige 10...60 points de dégâts du feu à votre cible et aux ennemis à proximité. Si vous êtes en état d'Afflux, les alliés dans le rayon d'action sont soignées de 20...80 points de vie.",
+				"concise": "Sort. Projectile : inflige 10...60 points de dégâts du feu à la cible et aux ennemis à proximité. Les alliés sont soignés de 20...80 points de vie si vous êtes en état d'Afflux."
+			},
+			"fr-gwiki": {
 				"name": "Phénix",
 				"description": "Un phénix flamboyant apparaît près de vous et inflige 7...112 points de dégâts du feu à tous les ennemis adjacents, avant de s'envoler vers la cible pour exploser à l'impact. Cette explosion inflige 15...90 points de dégâts du feu supplémentaires.",
 				"concise": "Projectile : inflige 15...90 points de dégâts du feu à la cible et aux ennemis adjacents. Effet initial: inflige 7...112 points de dégâts du feu aux ennemis qui vous sont adjacents."
+			},
+			"it": {
+				"name": "Fenice",
+				"description": "Magia. Una fiera Fenice sorge nella tua posizione e vola verso l'obiettivo, esplodendo all'impatto. L'esplosione colpisce l'obiettivo e i nemici nei dintorni provocando 10...60 danni da fuoco. Se sei sotto Sforzo, gli alleati nel raggio di impatto vengono curati di 20...80 Punti Salute.",
+				"concise": "Magia. Proiettile: danni da fuoco inferti all'obiettivo e a tutti i nemici nei dintorni: 10...60. Cure agli alleati se sotto Sforzo: 20...80."
+			},
+			"jp": {
+				"name": "フェニックス",
+				"description": "スペル： プレイヤーのいる場所にフェニックスが現れてターゲットに向かって飛び、衝突すると爆発します。その崔、ターゲットおよびその爆発地点に隣接する敵に 10...60 のファイア ダメージを与えます。プレイヤーが「疲労」状態の場合、爆発範囲内にいる味方は体力が 20...80 回復します。",
+				"concise": "スペル： 遠投攻撃： ターゲットした敵および周囲にいる敵に 10...60 のファイア ダメージを与えます。プレイヤーが「疲労」状態の場合、味方の体力が 20...80 回復します。"
+			},
+			"kr": {
+				"name": "불사조 소환",
+				"description": "마법. 대상 지정: 적. 화염의 불사조를 만들어 대상의 위치로 날려 폭발시킵니다. 이 폭발은 대상과 부근의 적들에게 10...60의 불 대미지를 줍니다. 자신이 탈진 상태면 범위 내 아군의 체력을 20...80만큼 회복시킵니다.",
+				"concise": "마법. 발사체: 대상과 그 부근의 적들에게 10...60의 불 대미지를 줍니다. 자신이 탈진 상태면 범위 내 아군의 체력을 20...80만큼 회복시킵니다."
+			},
+			"pl": {
+				"name": "Feniks",
+				"description": "Czar. Ognisty Feniks pojawia się obok ciebie i leci w kierunku celu, wybuchając trafia w cel. Wybuch rani cel oraz pobliskich przeciwników za 10...60 pkt. obrażeń od ognia. Podczas Przemagicznienia, sojusznicy znajdujący się w zasięgu wybuchu zostają uzdrowieni o 20...80 pkt. żywotności.",
+				"concise": "Czar. Pocisk: wybranemu przeciwnikowi i pobliskim przeciwnikom zadaje po 10...60 pkt. obrażeń od ognia. Uzdrawia sojuszników o 20...80, jeśli jesteś pod wpływem Przemagicznienia."
+			},
+			"ru": {
+				"name": "Phoenix",
+				"description": "Заклинание. В точке вашего местоположения возникает огненный феникс, который летит к указанной вами цели, взрываясь при столкновении. Этот взрыв поражает вашу цель и противников поблизости, нанося 10...60 ед. урона силой огня. Если вы утомлены, союзники в радиусе взрыва будут исцелены на 20...80 ед. здоровья.",
+				"concise": "Заклинание. Метательный снаряд: наносит 10...60 ед. урона силой огня выбранному противнику и противникам поблизости. Исцеляет союзников на 20...80 ед. здоровья, если вы утомлены."
+			},
+			"bork": {
+				"name": "Phueneex",
+				"description": "Spell. A feeery Phueneex reeses aet yuoor lucaeshun und fleees oooot tu yuoor taerget, ixpludeeng oon impaect. Thees ixpluseeun streekes yuoor taerget und neaerby fues fur 10...60 fure-a daemaege-a. Iff yuoo aere-a Oofercaest, aelleees in zee blaest raedeeoos aere-a heaeled fur 20...80 Heaelt. Bork! Bork! Bork!",
+				"concise": "Spell. Prujecteele-a: deaels 10...60 fure-a daemaege-a tu taerget und neaerby fues. Heaels aelleees fur 20...80 iff yuoo aere-a Oofercaest."
 			}
 		}
 	}

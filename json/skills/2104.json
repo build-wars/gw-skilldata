@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "元素强化",
+				"description": "技能。 在10秒内，你的法术伤害提高0%。",
+				"concise": "技能。 在10秒内，你的法术伤害提高0%。"
+			},
+			"cht": {
+				"name": "強光",
+				"description": "技能： 持續 10 秒，下一次你造成元素傷害時，目標附近的敵人也會受到該傷害值的 60...70% 傷害。",
+				"concise": "技能： 持續 10 秒，下一次你造成元素傷害時，目標附近的敵人也會受到該傷害值的 60...70% 傷害。"
+			},
 			"de": {
+				"name": "Intensität",
+				"description": "Fertigkeit. 10 Sekunden lang fügt Ihr das nächste Mal, wenn Ihr einem Gegner mit einem Zauber Elementarschaden zufügt, 60...70% dieses Schadens allen Feinden in dem Bereich zu.",
+				"concise": "Fertigkeit. (10 Sekunden.) Das nächste Mal, wenn Ihr Elementarschaden mit einem Zauber zufügt, erleiden andere Feinde in dem Bereich 60...70% dieses Schadens."
+			},
+			"de-guildwiki": {
 				"name": "Intensität",
 				"description": "10 Sekunden lang fügt Ihr das nächste Mal, wenn Ihr einem Gegner mit einem Zauber Elementarschaden zufügt, 60...70% dieses Schadens allen Feinden in dem Bereich zu.",
 				"concise": "(10 Sekunden.) Das nächste Mal, wenn Ihr Elementarschaden mit einem Zauber zufügt, erleiden andere Feinde in dem Bereich 60...70% dieses Schadens."
 			},
 			"en": {
 				"name": "Intensity",
+				"description": "Skill. For 10 seconds, the next time you deal elemental damage with a spell to a target, you deal 60...70% of that damage to all other foes in the area.",
+				"concise": "Skill. (10 seconds.) The next time you deal elemental damage with a spell, other targets in the area take 60...70% of that damage."
+			},
+			"en-gww": {
+				"name": "Intensity",
 				"description": "For 10 seconds, the next time you deal elemental damage with a spell to a target, you deal 60...70% of that damage to all other foes in the area.",
 				"concise": "(10 seconds.) The next time you deal elemental damage with a spell, other targets in the area take 60...70% of that damage."
 			},
+			"es": {
+				"name": "Intensidad",
+				"description": "Habilidad. Durante 10 segundos, la próxima vez que causes daño elemental con un conjuro a un objetivo, todos los demás enemigos de la zona recibirán un 60...70% de ese daño.",
+				"concise": "Habilidad. (10 segundos.) La próxima vez que causes daño elemental con un conjuro, los demás objetivos de la zona recibirán un 60...70% de ese daño."
+			},
 			"fr": {
+				"name": "Intensité",
+				"description": "Compétence. Pendant 10 secondes, la prochaine fois que vous infligez des dégâts élémentaires via un sort, tous les autres ennemis dans la zone de la cible subissent 60...70% de ces dégâts.",
+				"concise": "Compétence. (10 secondes.) La prochaine fois que vous infligez des dégâts élémentaires via un sort, tous les autres ennemis dans la zone de la cible subissent 60...70% de ces dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Intensité",
 				"description": "Pendant 10 secondes, vos sorts infligent 15...25% de dégâts en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Intensità",
+				"description": "Abilità. Per 10 secondi, la prossima volta che infliggi un danno elementale tramite incantesimo a un obiettivo, assesti anche un 60...70% di quel danno a tutti i nemici nell'area.",
+				"concise": "Abilità. (Secondi: 10.) La prossima volta che infliggi un danno elementale con un incantesimo, gli altri obiettivi nell'area subiscono un 60...70% di quel danno."
+			},
+			"jp": {
+				"name": "インテンシティ",
+				"description": "スキル： 10 秒間、次にターゲットした敵に対して元素ダメージを与えるスペルを詠唱すると、与えるダメージの 60...70% をエリア内にいる他のすべての敵に与えます。",
+				"concise": "スキル： (10 秒) 次にターゲットした敵にスペルによる元素ダメージを与えると、そのダメージの 60...70% をエリア内にいる他の敵に与えます。"
+			},
+			"kr": {
+				"name": "전념",
+				"description": "스킬. 10초 동안 처음 적에게 마법으로 정령 대미지를 줄 때 그 대미지의 60...70%만큼 일정 범위 내에 있는 다른 모든 적에게도 대미지를 줍니다.",
+				"concise": "스킬. (10초) 처음 적에게 마법으로 정령 대미지를 줄 때 그 대미지의 60...70%만큼 일정 범위 내에 있는 다른 적들에게도 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Spotęgowanie",
+				"description": "Umiejętność. Przez 10 sek., kiedy następnym razem zadasz celowi obrażenia od żywiołów za pomocą czaru, zadajesz także 60...70% tych obrażeń wszystkim wrogom w okolicy.",
+				"concise": "Umiejętność. (10 sek.) Kiedy następnym razem zadajesz celowi obrażenia od żywiołów za pomocą czaru, wszyscy wrogowie w okolicy otrzymują 60...70% tych obrażeń."
+			},
+			"ru": {
+				"name": "Intensity",
+				"description": "Умение. В течение 10 сек в следующий раз, когда вы нанесете своей цели урон силами Стихий при помощи заклинания, вы нанесете 60...70% от этого урона всем другим противникам в зоне досягаемости.",
+				"concise": "Умение. (10 сек) В следующий раз, когда вы нанесете своей цели урон силами Стихий при помощи заклинания, все другие противники в зоне досягаемости получат 60...70% от этого урона."
+			},
+			"bork": {
+				"name": "Intenseety",
+				"description": "Skeell. Fur 10 secunds, zee next teeme-a yuoo deael ilementael daemaege-a veet a spell tu a taerget, yuoo deael 60...70% ooff thaet daemaege-a tu aell oozeer fues in zee aerea.",
+				"concise": "Skeell. (10 secunds.) Zee next teeme-a yuoo deael ilementael daemaege-a veet a spell, oozeer taergets in zee aerea taeke-a 60...70% ooff thaet daemaege-a."
 			}
 		}
 	}

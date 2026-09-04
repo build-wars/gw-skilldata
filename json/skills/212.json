@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰霜爆裂",
+				"description": "负面魔法。 使你附近所有敌人受到 10...85点 冰冻伤害，并且使这些敌人移动速度降低 66%，持续 3...8秒。",
+				"concise": "负面魔法。 使你附近所有敌人受到 10...85点 冰冻伤害，并且使这些敌人移动速度降低 66%，持续 3...8秒。"
+			},
+			"cht": {
+				"name": "冰霜爆裂",
+				"description": "降咒魔法： 使你附近所有敵人受到 10...85 冰凍傷害，並且使這些敵人移動速度減慢 66% ，持續 3...8 秒。",
+				"concise": "降咒魔法： 使你附近所有敵人受到 10...85 冰凍傷害，並且使這些敵人移動速度減慢 66% ，持續 3...8 秒。"
+			},
 			"de": {
+				"name": "Frostexplosion",
+				"description": "Verhexung. Alle in der Nähe befindlichen Gegner erleiden 10...85 Punkt[e] Kälteschaden und bewegen sich 3...8 Sekunde[n] lang um 66% langsamer.",
+				"concise": "Verhexung. Verhext Feinde in Eurer Nähe. Diese Feinde bewegen sich um 66% langsamer (3...8 Sekunde[n]). Anfangswirkung: Richtet bei Feinden in Eurer Nähe 10...85 Punkt[e] Kälteschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Frostexplosion",
 				"description": "Alle in der Nähe befindlichen Gegner erleiden 10...85 Punkte Kälteschaden und bewegen sich 3...8 Sekunden lang um 66% langsamer.",
 				"concise": "Verhext Feinde in Eurer Nähe. Die Betroffenen bewegen sich um 66% langsamer (3...8 Sekunden). Anfangswirkung: Richtet bei Feinden in Eurer Nähe 10...85 Punkte Kälteschaden an."
 			},
 			"en": {
 				"name": "Frozen Burst",
+				"description": "Hex Spell. All nearby foes are struck for 10...85 cold damage and move 66% slower for 3...8 seconds.",
+				"concise": "Hex Spell. Hexes foes near you. These foes move 66% slower (3...8 seconds). Initial effect: deals 10...85 cold damage to foes near you."
+			},
+			"en-gww": {
+				"name": "Frozen Burst",
 				"description": "All nearby foes are struck for 10...85 cold damage and move 66% slower for 3...8 seconds.",
 				"concise": "Hexes foes near you. These foes move 66% slower (3...8 seconds). Initial effect: deals 10...85 cold damage to foes near you."
 			},
+			"es": {
+				"name": "Estallido helado",
+				"description": "Conjuro con maleficio. Todos los enemigos cercanos reciben 10...85 de daño frío y se mueven un 66% más lentos durante 3...8 segundos.",
+				"concise": "Conjuro con maleficio. Afecta a los enemigos cercanos a ti. Estos enemigos se moverán un 66% más despacio (3...8 segundos). Efecto inicial: hace 10...85 de daño frío a los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Explosion glaciale",
+				"description": "Maléfice. Tous les ennemis proches subissent 10...85 points de dégâts du froid et sont ralentis de 66% pendant 3...8 secondes.",
+				"concise": "Maléfice. Inflige des maléfices aux ennemis à proximité de vous. Ces ennemis se déplacent 66% moins vite (3...8 secondes). Effet initial : inflige 10...85 points de dégâts du froid aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Explosion glaciale",
 				"description": "Tous les ennemis proches subissent 10...85 points de dégâts du froid et sont ralentis de 66% pendant 3...8 secondes.",
 				"concise": "Lance un maléfice aux ennemis à proximité de vous. Ces ennemis se déplacent 66% moins vite (3...8 secondes). Effet initial : inflige 10...85 points de dégâts du froid aux ennemis à proximité de vous."
+			},
+			"it": {
+				"name": "Esplosione di Ghiaccio",
+				"description": "Fattura. Tutti i nemici nei dintorni subiscono 10...85 danni da freddo e i loro movimenti rallentano del 66% per 3...8 secondi.",
+				"concise": "Fattura. Colpisce con una fattura i nemici vicini a te. I movimenti di questi nemici sono più lenti del 66% (3...8 secondi). Effetto iniziale: danni da freddo inferti ai nemici vicini a te: 10...85."
+			},
+			"jp": {
+				"name": "フローズン バースト",
+				"description": "弱体化スペル： 周囲にいるすべての敵に 10...85 のコールド ダメージを与え、3...8 秒間、移動速度を66%減少させます。",
+				"concise": "弱体化スペル： (3...8 秒) 周囲にいる敵は移動速度が66%減少します。発動効果： 周囲にいる敵に 10...85 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "냉기 폭발",
+				"description": "약화 마법. 대상 지정: 없음. 부근에 있는 모든 적은 10...85의 냉기 대미지를 입고, 3...8초 동안 이동 속도가 66% 느려집니다.",
+				"concise": "약화 마법. 부근 적들의 이동 속도가 66% 느려집니다.(3...8초) 초기 효과: 부근 적들에게 10...85의 냉기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Mroźny Wybuch",
+				"description": "Klątwa (czar). Wszyscy przeciwnicy w pobliżu otrzymują 10...85 obrażeń od zimna oraz poruszają się o 66% wolniej przez 3...8 sek.",
+				"concise": "Klątwa (czar). Nakłada klątwę na przeciwników w pobliżu ciebie. Ci przeciwnicy poruszają się o 66% wolniej (3...8 sek.). Efekt początkowy: przeciwnikom w pobliżu ciebie zadaje po 10...85 pkt. obrażeń od zimna."
+			},
+			"ru": {
+				"name": "Frozen Burst",
+				"description": "Заклинание-проклятье. Все противники поблизости получают 10...85 ед. урона силой холода и двигаются на 66% медленнее в течение 3...8 сек.",
+				"concise": "Заклинание-проклятье. Накладывает проклятье на противников поблизости от вас. Эти противники двигаются на 66% медленнее (3...8 сек). Начальный эффект: наносит 10...85 ед. урона силой холода противникам поблизости от вас."
+			},
+			"bork": {
+				"name": "Fruzee Boorst",
+				"description": "Hex Spell. Aell neaerby fues aere-a stroock fur 10...85 culd daemaege-a und mufe-a 66% slooer fur 3...8 secunds.",
+				"concise": "Hex Spell. Hexes fues neaer yuoo. Zeese-a fues mufe-a 66% slooer (3...8 secunds). Ineeteeael iffffect: deaels 10...85 culd daemaege-a tu fues neaer yuoo."
 			}
 		}
 	}

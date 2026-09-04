@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魂之裂痕",
+				"description": "咒文。 在目标敌人所在处开启一个魂之裂痕。在 3 秒后，使所有邻近裂缝的敌人受到 25...125 闪电伤害。",
+				"concise": "咒文。 在目标敌人所在处开启一个魂之裂痕。在 3 秒后，使所有邻近裂缝的敌人受到 25...125 闪电伤害。"
+			},
+			"cht": {
+				"name": "生靈裂縫",
+				"description": "咒文魔法： 於目標敵人的位置開啟生靈裂縫， 3 秒後所有鄰近敵人受到 25...125 閃電傷害且遭受碎甲 1...20 秒。",
+				"concise": "咒文魔法： 於目標敵人的位置開啟生靈裂縫， 3 秒後所有鄰近敵人受到 25...125 閃電傷害且遭受碎甲 1...20 秒。"
+			},
 			"de": {
+				"name": "Geisterriss",
+				"description": "Zauber. Öffnet an der Position des Gegners einen Geisterriss. Nach 3 Sekunde[n] erleiden alle umstehenden Feinde 25...125 Punkt[e] Blitzschaden und leiden 1...20 Sekunde[n] lang an Beschädigter Rüstung.",
+				"concise": "Zauber. Trifft nach 3 Sekunde[n] Feinde in der Nähe der ursprünglichen Position des Gegners. Richtet 25...125 Punkt[e] Blitzschaden an und verursacht Beschädigte Rüstung (1...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Geisterriss",
 				"description": "An der Position des Gegners wird ein Geisterriss erzeugt. Nach 3 Sekunden erleiden alle umstehenden Feinde 25...125 Punkte Blitzschaden. Wenn Geisterriss endet, leiden die im Wirkungsbereich befindlichen Feinde 1...20 Sekunden lang an Beschädigter Rüstung.",
 				"concise": "(3 Sekunden.) Trifft Feinde in der Nähe der ursprünglichen Position des Gegners. Richtet nach 3 Sekunden 25...125 Punkte Blitzschaden an. Wirkung am Ende: Verursacht 1...20 Sekunden lang Beschädigte Rüstung."
 			},
 			"en": {
 				"name": "Spirit Rift",
+				"description": "Spell. Open a Spirit Rift at target foe's location. After 3 seconds, all adjacent foes are struck for 25...125 lightning damage and suffer from Cracked Armor for 1...20 seconds.",
+				"concise": "Spell. After 3 seconds, affects foes adjacent to target's initial location. Deals 25...125 lightning damage and inflicts Cracked Armor (1...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Spirit Rift",
 				"description": "Open a Spirit Rift at target foe's location. After 3 seconds, all adjacent foes are struck for 25...125 lightning damage and suffer from Cracked Armor for 1...20 second[s].",
 				"concise": "After 3 seconds, affects foes adjacent to target's initial location. Deals 25...125 lightning damage and inflicts Cracked Armor (1...20 second[s])."
 			},
+			"es": {
+				"name": "Grieta del abismo",
+				"description": "Conjuro. Abres un abismo en la ubicación del enemigo objetivo. Después de 3 segundoss, todos los enemigos adyacentes reciben 25...125 de daño de relámpago y tienen la armadura rota durante 1...20 segundos.",
+				"concise": "Conjuro. Después de 3 segundos, afecta a los enemigos adyacentes a la ubicación inicial del enemigo. Hace 25...125 de daño de relámpago y causa armadura rota (1...20 segundos)."
+			},
 			"fr": {
+				"name": "Faille de l'esprit",
+				"description": "Sort. Ouvre une Faille de l'esprit sur la position de la cible ennemie. Après 3 secondes, tous les ennemis adjacents subissent 25...125 points de dégâts de la foudre et souffrent d'Armure brisée pendant 1...20 secondes.",
+				"concise": "Sort. Après 3 secondes, affecte les ennemis adjacents à la position initiale de l'ennemi. Inflige 25...125 points de dégâts de la foudre et la condition Armure brisée (1...20 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Faille de l'esprit",
 				"description": "Ouvre une Faille de l'esprit à l'emplacement de l'ennemi visé. Après 3 secondes, tous les ennemis adjacents subissent 25...135 points de dégâts de la foudre et souffrent d'Armure brisée pendant 1...20 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Voragine Fantasma",
+				"description": "Magia. Apre una Voragine Fantasma sulla posizione dell'obiettivo nemico. Dopo 3 secondo[i], tutti i nemici adiacenti ricevono 25...125 danno[i] da fulmine e subiscono Armatura Incrinata per 1...20 secondo[i].",
+				"concise": "Magia. Dopo 3 secondo[i], colpisce i nemici adiacenti alla posizione iniziale dell'obiettivo. Danni da fulmine inferti: 25...125. Condizione inflitta: Armatura Incrinata (1...20 secondo[i])."
+			},
+			"jp": {
+				"name": "スピリット リフト",
+				"description": "スペル： ターゲットした敵がいる場所にスピリット リフトを開きます。3 秒後、隣接するすべての敵に 25...125 のライトニング ダメージを与え、1...20 秒間「防具破損」状態にします。",
+				"concise": "スペル： 3 秒後、発動時にターゲットした敵がいた場所に隣接する敵に 25...125 のライトニング ダメージを与え、「防具破損」状態にします (1...20 秒)。"
+			},
+			"kr": {
+				"name": "영혼의 균열",
+				"description": "마법. 대상 지정: 적. 대상이 있는 자리에 영혼의 균열을 만듭니다. 3초 후에 균열에 인접한 모든 적은 25...125의 번개 대미지를 입고, 1...20초 동안 방어 손상 상태가 됩니다.",
+				"concise": "마법. 3초 후에 대상의 위치에 인접한 적들에게 25...125의 번개 대미지를 주고, 방어 손상을 입힙니다.(1...20초)"
+			},
+			"pl": {
+				"name": "Duchowa Rozpadlina",
+				"description": "Czar. Otwiera duchową szczelinę w miejscu pobytu wroga. Po 3 sek., wszyscy przeciwnicy w bezpośrednim sąsiedztwie otrzymują 25...125 pkt. obrażeń od błyskawic oraz przez 1...20 sek. znajdą się pod działaniem Pękniętej Zbroi.",
+				"concise": "Czar. (3 sek.) Działa na przeciwników w bezpośrednim sąsiedztwie początkowej lokacji wybranego wroga. Zadaje 25...125 pkt. obrażeń od błyskawic i powoduje pęknięcie zbroi (1...20 sek.)"
+			},
+			"ru": {
+				"name": "Spirit Rift",
+				"description": "Заклинание. Открывает Spirit Rift в точке нахождения выбранного противника. Через 3 сек все окружающие противники получат 25...125 ед. урона силой молнии, и у них будут треснувшие доспехи в течение 1...20 сек.",
+				"concise": "Заклинание. Через 3 сек поражает противников, окружающих первоначальное местоположение цели. Наносит 25...125 ед. урона силой молнии и дает треснувшие доспехи (1...20 сек)."
+			},
+			"bork": {
+				"name": "Spureet Reefft",
+				"description": "Spell. Oopee a Spureet Reefft aet taerget fue-a's lucaeshun. Aeffter 3 secunds, aell aedjaecent fues aere-a stroock fur 25...125 leeghtneeng daemaege-a und sooffffer frum Craecked Aermur fur 1...20 secunds.",
+				"concise": "Spell. Aeffter 3 secunds, aeffffects fues aedjaecent tu taerget's ineeteeael lucaeshun. Deaels 25...125 leeghtneeng daemaege-a und inffleects Craecked Aermur (1...20 secunds)."
 			}
 		}
 	}

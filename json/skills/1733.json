@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "持物者打击",
+				"description": "咒文。 对目标敌人造成10...60点闪电伤害。如果你正受到「武咒」的效果影响，敌人将再受到10...50点额外闪电伤害。",
+				"concise": "咒文。 对目标敌人造成10...60点闪电伤害。如果你正受到「武咒」的效果影响，敌人将再受到10...50点额外闪电伤害。"
+			},
+			"cht": {
+				"name": "指揮者之擊",
+				"description": "咒文魔法： 對目標敵人造成 10...60 閃電傷害。若你擁有「武裝魔法」的效果，則對該目標額外造成 10...50 閃電傷害。",
+				"concise": "咒文魔法： 對目標敵人造成 10...60 閃電傷害。若你擁有「武裝魔法」的效果，則對該目標額外造成 10...50 閃電傷害。"
+			},
 			"de": {
+				"name": "Stoß des Ausübers",
+				"description": "Zauber. Der Gegner erleidet 10...60 Punkte Blitzschaden. Wenn Ihr unter dem Einfluss eines Waffenzaubers steht, fügt Ihr zusätzlich 10...50 Punkt[e] Blitzschaden zu.",
+				"concise": "Zauber. Richtet 10...60 Punkt[e] Blitzschaden an. Richtet zusätzlich 10...50 Punkt[e] Blitzschaden an, falls Ihr unter dem Einfluss eines Waffenzaubers steht."
+			},
+			"de-guildwiki": {
 				"name": "Stoß des Ausübers",
 				"description": "Der Gegner erleidet 10...60 Punkte Blitzschaden. Wenn Ihr unter dem Einfluss eines Waffenzaubers steht, fügt Ihr zusätzlich 10...50 Punkte Blitzschaden zu.",
 				"concise": "Richtet 10...60 Punkte Blitzschaden an. Richtet zusätzlich 10...50 Punkte Blitzschaden an, falls Ihr unter dem Einfluss eines Waffenzaubers steht."
 			},
 			"en": {
 				"name": "Wielder's Strike",
+				"description": "Spell. Target foe is struck for 10...60 lightning damage. If you are under the effects of a weapon spell, you deal an additional 10...50 lightning damage.",
+				"concise": "Spell. Deals 10...60 lightning damage. Deals 10...50 more lightning damage if you are under a weapon spell."
+			},
+			"en-gww": {
+				"name": "Wielder's Strike",
 				"description": "Target foe is struck for 10...60 lightning damage. If you are under the effects of a weapon spell, you deal an additional 10...50 lightning damage.",
 				"concise": "Deals 10...60 lightning damage. Deals 10...50 more lightning damage if you are under a weapon spell."
 			},
+			"es": {
+				"name": "Golpe del atacante",
+				"description": "Conjuro. El enemigo objetivo recibe 10...60 de daño de relámpago. Si estás bajo los efectos de un conjuro para armas, le harás 10...50 de daño de relámpago extra.",
+				"concise": "Conjuro. Hace 10...60 de daño de relámpago. 10...50 de daño de relámpago extra si tienes un conjuro con arma."
+			},
 			"fr": {
+				"name": "Attaque du porteur",
+				"description": "Sort. La cible ennemie reçoit 10...60 points de dégâts de la foudre. Si vous êtes sous les effets d'un sort d'altération d'arme, vous infligez 10...50 points de dégâts de la foudre supplémentaires.",
+				"concise": "Sort. Inflige 10...60 points de dégâts de la foudre. Inflige 10...50 points de dégâts de la foudre supplémentaires si vous êtes sous l'effet d'un sort d'altération d'arme."
+			},
+			"fr-gwiki": {
 				"name": "Attaque du porteur",
 				"description": "La cible ennemie reçoit 5...50 points de dégâts de la foudre. Si vous êtes sous les effets d'un sort d'altération d'arme, vous infligez 10...40 points de dégâts de la foudre supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo del Portatore",
+				"description": "Magia. L'obiettivo nemico subisce 10...60 danno[i] da fulmine. Se sei affetto da una magia altera-arma infliggi 10...50 danno[i] da fulmine in più.",
+				"concise": "Magia. Danni da fulmine inferti: 10...60. Assesta 10...50 danno[i] da fulmine in più se sei sotto gli effetti di una magia altera-arma."
+			},
+			"jp": {
+				"name": "ウィルダー ストライク",
+				"description": "スペル： ターゲットした敵に 10...60 のライトニング ダメージを与えます。プレイヤーにウェポン スペルがかかっている場合、さらに 10...50 の追加ライトニング ダメージを与えます。",
+				"concise": "スペル： 10...60 のライトニング ダメージを与えます。ウェポン スペルがかけられている場合、さらに 10...50 のライトニング ダメージを追加で与えます。"
+			},
+			"kr": {
+				"name": "통제자의 일격",
+				"description": "마법. 대상 지정: 적. 대상에게 10...60의 번개 대미지를 줍니다. 자신이 마법 무기 효과에 걸려 있으면 10...50의 번개 대미지를 추가로 줍니다.",
+				"concise": "마법. 10...60의 번개 대미지를 줍니다. 자신이 마법 무기 효과에 걸려 있으면 10...50의 번개 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Uderzenie Posiadacza",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 10...60 pkt. obrażeń od błyskawic. Jeśli posiadasz zaczarowaną broń, zadajesz dodatkowe 10...50 pkt. obrażeń od błyskawic.",
+				"concise": "Czar. Zadaje 10...60 pkt. obrażeń od błyskawic. Zadaje 10...50 pkt. dodatkowych obrażeń od błyskawic, jeżeli jesteś pod działaniem zaczarowanej broni."
+			},
+			"ru": {
+				"name": "Wielder's Strike",
+				"description": "Заклинание. Выбранный противник получает 10...60 ед. урона силой молнии. Если вы находитесь под воздействием какого-либо оружейного заклинания, вы наносите дополнительно 10...50 ед. урона силой молнии.",
+				"concise": "Заклинание. Наносит 10...60 ед. урона силой молнии. Наносит дополнительно 10...50 ед. урона силой молнии, если на вас наложено оружейное заклинание."
+			},
+			"bork": {
+				"name": "Veeelder's Streeke-a",
+				"description": "Spell. Taerget fue-a is stroock fur 10...60 leeghtneeng daemaege-a. Iff yuoo aere-a under zee iffffects ooff a veaepun spell, yuoo deael un aeddeeshunael 10...50 leeghtneeng daemaege-a.",
+				"concise": "Spell. Deaels 10...60 leeghtneeng daemaege-a. Deaels 10...50 mure-a leeghtneeng daemaege-a iff yuoo aere-a under a veaepun spell."
 			}
 		}
 	}

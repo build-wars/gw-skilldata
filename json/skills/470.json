@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "围猎季节",
+				"description": "自然仪式。 创造一只等级为1...10的围猎精灵。使区域内所有「非灵体」类生物被治疗时的效果降低 20%。若你在区域内攻击成功，你获得 5点 生命值。围猎精灵在 30...240秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的围猎精灵。使区域内所有「非灵体」类生物被治疗时的效果降低 20%。若你在区域内攻击成功，你获得 5点 生命值。围猎精灵在 30...240秒后消失。"
+			},
+			"cht": {
+				"name": "獵食季節",
+				"description": "自然儀式： 創造一隻等級 1...10 的獵食者精靈。使區域內所有生物被治療時的效果降低 20% 。若你在區域內攻擊成功，你獲得 5 體力。獵食者精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的獵食者精靈。使區域內所有生物被治療時的效果降低 20% 。若你在區域內攻擊成功，你獲得 5 體力。獵食者精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Jagdsaison",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Die Heilung aller Kreaturen in seiner Reichweite, die keine Geister sind, ist um 20% reduziert. Wenn Euer Angriff trifft, erhaltet Ihr 5 Lebenspunkte. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Verringert die Wirkung von Heilungen bei Kreaturen in Reichweite um 20%. Kreaturen erhalten für jeden Treffer, den sie mit einem Angriff landen, 5 Lebenspunkte. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Jagdsaison",
 				"description": "Erstellt einen Geist der Stufe 1...10 . Die Heilung aller Kreaturen in seiner Reichweite, die keine Geister sind, ist um 20% reduziert. Wenn euer Angriff trifft, erhaltet Ihr 5 Lebenspunkte. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Verringert die Wirkung von Heilungen bei Kreaturen in Reichweite um 20%. Kreaturen erhalten für jeden Treffer, den sie mit einem Angriff landen, 5 Lebenspunkte. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Predatory Season",
+				"description": "Nature Ritual. Create a level 1...10 spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 Health each time they hit with an attack. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Predatory Season",
 				"description": "Create a level 1...10 spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits."
 			},
+			"es": {
+				"name": "Temporada de depredadores",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Las criaturas no espíritus que estén en su zona se benefician un 20% menos de las curaciones. Si tus ataques impactan, ganarás 5 de salud. Morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...240 segundos de vida). Las criaturas dentro de la zona se benefician un 20% menos de las curaciones. Las criaturas ganan 5 de salud cada vez que ataquen. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Saison des prédateurs",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Pour les créatures dans sa portée autres que des esprits, la guérison est réduite de 20%. Si vos attaques réussissent, vous gagnerez 5 points de vie. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Les soins rendent 20% de santé en moins aux créatures à portée. Elles gagnent 5 points de vie chaque fois qu'elles réussissent une attaque. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Saison des prédateurs",
 				"description": "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée autres que des esprits, la guérison est réduite de 20%. Si vos attaques réussissent, vous gagnerez 5 points de vie. Cet esprit disparaît au bout de 30...240 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Stagione della Caccia",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Per le creature nella sua portata (Spiriti esclusi), tutte le cure vengono ridotte del 20%. Se uno dei tuoi attacchi va a segno, ottieni 5 Punto[i] Salute. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Le creature nella portata ricevono un 20% in meno di cure. Le creature ottengono 5 Punti Salute ogni volta che un loro attacco va a segno. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "プレダトリー シーズン",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物が受ける回復スペルによる体力の回復量が20%減少します。プレイヤーは攻撃が成功すると5の体力を獲得します。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内では、回復スペルによる体力の回復量が20%減少しますが、攻撃によりダメージを与えるたびに5の体力を獲得します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "약탈의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체에 대한 치유 효과가 20% 감소합니다. 자신의 공격이 성공하면 체력이 5 회복됩니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 치유 효과가 20% 감소합니다. 공격이 성공할 때마다 5의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Sezon Łowów",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Dla stworzeń nie-duchów w jego zasięgu, uleczanie jest obniżone o 20%. Za każdy swój trafiony atak otrzymujesz 5 pkt. żywotności. Duch umiera po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Stworzenia w zasięgu otrzymują o 20% mniej pkt. żywotności. Stworzenia otrzymują 5 pkt. energii, za każdym razem, kiedy ich atak wręcz trafi. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Predatory Season",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Для всех не являющихся духами созданий, находящихся в зоне его действия, эффективность лечения снижается на 20%. Если любая ваша атака попадает в цель, вы получаете 5 ед. здоровья. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Создания в зоне его действия получают на 20% меньше здоровья при исцелении. Создания получают 5 ед. здоровья каждый раз, когда они проводят успешную атаку. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Predaetury Seaesun",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Fur nun-spureet creaetoores veetheen its runge-a, aell heaeleeng is redooced by 20%. Iff uny ooff yuoor aettaecks heet, yuoo gaeeen 5 Heaelt. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Creaetoores in runge-a receeefe-a 20% less frum heaeleeng. Creaetoores gaeeen 5 Heaelt iaech teeme-a zeey heet veet un aettaeck. Dues nut aeffffect spureets."
 			}
 		}
 	}

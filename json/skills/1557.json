@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "烈焰圣歌",
+				"description": "圣歌。 在10秒之内，「音波」范围内任何友方的下一次攻击技能都将对敌人造成「灼烧」症状1...5秒。",
+				"concise": "圣歌。 在10秒之内，「音波」范围内任何友方的下一次攻击技能都将对敌人造成「灼烧」症状1...5秒。"
+			},
+			"cht": {
+				"name": "火焰聖歌",
+				"description": "聖歌： 持續 10 秒，在音量所及範圍內的隊伍成員，「下一次」使用「攻擊技能」時，使目標遭受「著火」病症 1...5 秒。",
+				"concise": "聖歌： 持續 10 秒，在音量所及範圍內的盟友，「下一次」使用「攻擊技能」時，使目標遭受「著火」病症 1...5 秒。"
+			},
 			"de": {
+				"name": "Hymne der Flamme",
+				"description": "Anfeuerungsruf. 10 Sekunde[n] lang führt die nächste Angriffsfertigkeit von jedem Gruppenmitglied in Hörweite auch 1...5 Sekunde[n] lang zu Brennen.",
+				"concise": "Anfeuerungsruf. 10 Sekunde[n]: Gruppenmitglieder in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Brennen (1...5 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Hymne der Flamme",
 				"description": "Jedes Gruppenmitglied in Hörweite fügt, wenn es in den nächsten 10 Sekunden das nächste Mal mit einer Angriffsfertigkeit einen Treffer landet, vor dem Treffer auch 1...5 Sekunden lang Brennen zu.",
 				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Brennen (1...5 Sekunden)."
 			},
 			"en": {
 				"name": "Anthem of Flame",
+				"description": "Chant. For 10 seconds, the next attack skill used by each party member within earshot also causes Burning for 1...5 seconds.",
+				"concise": "Chant. (10 seconds.) Party members in earshot inflict Burning condition (1...5 seconds) with their next attack skill."
+			},
+			"en-gww": {
+				"name": "Anthem of Flame",
 				"description": "For 10 seconds, the next attack skill used by each party member within earshot also causes Burning for 1...5 second[s].",
 				"concise": "(10 seconds.) Party members in earshot inflict Burning condition (1...5 second[s]) with their next attack skill."
 			},
+			"es": {
+				"name": "Himno de fuego",
+				"description": "Cántico. Durante 10 segundos, la siguiente habilidad de ataque que usen los compañeros al alcance del oído causa también una quemadura durante 1...5 segundos.",
+				"concise": "Cántico. (10 segundos). Los miembros del grupo al alcance del oído causan quemadura (1...5 segundos) con su siguiente habilidad de ataque."
+			},
 			"fr": {
+				"name": "Hymne de flamme",
+				"description": "Chant. Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix cause aussi la Brûlure pendant 1...5 secondes.",
+				"concise": "Chant. (10 secondes.) Les membres du groupe à portée de voix infligent la Brûlure (1...5 secondes) avec leur compétence d'attaque suivante."
+			},
+			"fr-gwiki": {
 				"name": "Hymne de flamme",
 				"description": "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix cause aussi la Brûlure pendant 1...3 seconde(s).",
 				"concise": "Les membres du groupe à portée de voix infligent la Brûlure (1...3 secondes) avec leur compétence d'attaque suivante."
+			},
+			"it": {
+				"name": "Inno della Fiamma",
+				"description": "Canto. Per 10 secondo[i] la prossima abilità d'attacco utilizzata da ogni membro della squadra a portata d'orecchio provoca anche Bruciatura per 1...5 secondo[i].",
+				"concise": "Canto. (Secondi: 10) Condizione inflitta dai membri della squadra a portata d'orecchio con la loro abilità d'attacco successiva: Bruciatura (1...5 secondo[i])."
+			},
+			"jp": {
+				"name": "フレイム アンセム",
+				"description": "チャント： 10 秒間、声の届く範囲内にいるパーティー メンバーはそれぞれ、次にアタック スキルを使用すると、その効果に加えて敵が 1...5 秒間「火傷」状態になります。",
+				"concise": "チャント： (10 秒) 声の届く範囲内にいるパーティー メンバーは、次にアタック スキルを使用すると敵を「火傷」状態にします (1...5 秒) 。"
+			},
+			"kr": {
+				"name": "화염의 성가",
+				"description": "영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원이 공격 스킬을 사용하면 적은 1...5초 동안 화상 상태가 됩니다. 파티원마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (10초) 가청 범위 내에 있는 파티원들이 처음 공격 스킬을 사용하면 적에게 화상을 입힙니다.(1...5초)"
+			},
+			"pl": {
+				"name": "Hymn Płomienia",
+				"description": "Zaśpiew. Przez 10 sek. następna umiejętność związana z atakiem, użyta przez każdego członka drużyny w zasięgu słuchu podpali przeciwnika na 1...5 sek.",
+				"concise": "Zaśpiew. (10 sek.) Członkowie drużyny w zasięgu słuchu, ze swoją następną umiejętnością związaną z atakiem wywołują przypadłość płonięcie (1...5 sek.)."
+			},
+			"ru": {
+				"name": "Anthem of Flame",
+				"description": "Хорал. В течение 10 сек от следующего атакующего умения, использованного каждым членом вашего отряда, находящимся в зоне слышимости, противник также загорится на 1...5 сек.",
+				"concise": "Хорал. (10 сек) Члены отряда в зоне слышимости поджигают противника (1...5 сек) при следующем использовании ими атакующего умения."
+			},
+			"bork": {
+				"name": "Unzeem ooff Flaeme-a",
+				"description": "Chunt. Fur 10 secunds, zee next aettaeck skeell used by iaech paerty member veetheen iaershut aelsu cooses Boorneeng fur 1...5 secunds.",
+				"concise": "Chunt. (10 secunds.) Paerty members in iaershut inffleect Boorneeng cundeeshun (1...5 secunds) veet zeeur next aettaeck skeell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「撤退！」",
+				"description": "战吼。 如果范围内有任何死亡的盟友，则所有队员的移动速度将提高 33% ，持续 5...11秒。",
+				"concise": "战吼。 如果范围内有任何死亡的盟友，则所有队员的移动速度将提高 33% ，持续 5...11秒。"
+			},
+			"cht": {
+				"name": "「撤退！」",
+				"description": "戰嚎： 在音量所及範圍內若有任何盟友死亡，則所有隊伍成員的移動速度增加 33% ，持續 5...11 秒。",
+				"concise": "戰嚎： 在音量所及範圍內若有任何盟友死亡，則所有隊伍成員的移動速度增加 33% ，持續 5...11 秒。"
+			},
 			"de": {
+				"name": "\"Rückzug!\"",
+				"description": "Schrei. Wenn sich in Hörweite tote Verbündete befinden, bewegt sich Eure Gruppe 5...11 Sekunde[n] lang um 33% schneller.",
+				"concise": "Schrei. (5...11 Sekunde[n].) Gruppenmitglieder in Hörweite bewegen sich um 33% schneller. Bleibt wirkungslos, wenn sich in Hörweite keine toten Verbündeten befinden."
+			},
+			"de-guildwiki": {
 				"name": "\"Rückzug!\"",
 				"description": "Wenn sich in Hörweite tote Verbündete befinden, bewegt sich Eure Gruppe 5...11 Sekunden lang um 33% schneller.",
 				"concise": "5...11 Sekunden: Gruppenmitglieder in Hörweite bewegen sich um 33% schneller. <gray>Bleibt wirkungslos, wenn sich in Hörweite keine toten Verbündeten befinden.</gray>"
 			},
 			"en": {
 				"name": "\"Retreat!\"",
+				"description": "Shout. If there are any dead allies within earshot, your party moves 33% faster for 5...11 seconds.",
+				"concise": "Shout. (5...11 seconds.) Party members in earshot move 33% faster. No effect unless there are dead allies within earshot."
+			},
+			"en-gww": {
+				"name": "\"Retreat!\"",
 				"description": "If there are any dead allies within earshot, your party moves 33% faster for 5...11 seconds.",
 				"concise": "(5...11 seconds.) Party members in earshot move 33% faster. <gray>No effect unless there are dead allies within earshot.</gray>"
 			},
+			"es": {
+				"name": "\"¡Retirada!\"",
+				"description": "Grito. Si hay algún aliado muerto al alcance del oído, tu grupo se moverá un 33% más deprisa durante 5...11 segundos.",
+				"concise": "Grito. (5...11 segundos). Los miembros del grupo al alcance del oído se mueven un 33% más rápido. No tiene efecto a menos que haya aliados muertos al alcance del oído."
+			},
 			"fr": {
+				"name": "\"Battez en retraite !\"",
+				"description": "Cri. Si des alliés morts se trouvent à portée de voix, votre groupe se déplace 33% plus vite pendant 5...11 secondes.",
+				"concise": "Cri. (5...11 secondes.) Les membres du groupe à portée de voix se déplacent 33% plus vite. Ne fonctionne que si des alliés morts se trouvent à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "\"Battez en retraite !\"",
 				"description": "Si des alliés morts se trouvent à portée de voix, votre groupe se déplace 33% plus vite pendant 5...11 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Ritirata!\"",
+				"description": "Urlo. Se sono presenti alleati morti a portata d'orecchio, la velocità della squadra aumenta di un 33% per 5...11 secondo[i].",
+				"concise": "Urlo. (Secondo[i]: 5...11). La velocità di movimento degli alleati a portata d'orecchio aumento di un 33%. Non ha effetti se non ci sono alleati morti a portata d'orecchio."
+			},
+			"jp": {
+				"name": "リトリート！",
+				"description": "シャウト： 声の届く範囲内に戦闘不能な味方がいる場合、5...11 秒間パーティー メンバーの移動速度が33%増加します。",
+				"concise": "シャウト： (5...11 秒) 声の届く範囲内にいるパーティー メンバーは移動速度が33%増加します。声の届く範囲内に戦闘不能な味方がいない場合は無効です。"
+			},
+			"kr": {
+				"name": "신속히 후퇴하라!",
+				"description": "고함. 대상 지정: 없음. 가청 범위 내에 전사한 아군이 있으면 파티원들의 이동 속도가 5...11초 동안 33% 빨라집니다.",
+				"concise": "고함. (5...11초) 파티원들의 이동 속도가 33% 빨라집니다. 가청 범위 내에 전사한 아군이 있어야 합니다."
+			},
+			"pl": {
+				"name": "\"Wycofać Się!\"",
+				"description": "Okrzyk. Jeśli w zasięgu słuchu znajdują się martwi sojusznicy, to przez 5...11 sek. twoja drużyna porusza się o 33% szybciej.",
+				"concise": "Okrzyk. (5...11 sek.) Członkowie drużyny w zasięgu słuchu poruszają się o 33% szybciej. Bez efektu, chyba że w zasięgu słuchu są martwi sojusznicy."
+			},
+			"ru": {
+				"name": "\"Retreat!\"",
+				"description": "Крик. Если в зоне слышимости есть мертвые союзники, ваш отряд двигается быстрее на 33% в течение 5...11 сек.",
+				"concise": "Крик. (5...11 сек) Члены от ряда в зоне слышимости двигаются на 33% быстрее. Не действует, если в зоне слышимости нет мертвых членов отряда."
+			},
+			"bork": {
+				"name": "\"Retreaet!\"",
+				"description": "Shuoot. Iff zeere-a aere-a uny deaed aelleees veetheen iaershut, yuoor paerty mufes 33% faester fur 5...11 secunds. Bork! Bork! Bork!",
+				"concise": "Shuoot. (5...11 secunds.) Paerty members in iaershut mufe-a 33% faester. Nu iffffect unless zeere-a aere-a deaed aelleees veetheen iaershut."
 			}
 		}
 	}

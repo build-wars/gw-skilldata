@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "纯净沉思",
+				"description": "技能。 失去所有的「增益魔法」。每失去一个「增益魔法」，使你恢复 0...80点 生命值，并移除自身的一个「负面魔法」和一个「症状」。（最多可以移除 1...8个「负面魔法」和「症状」）",
+				"concise": "技能。 失去所有的「增益魔法」。每失去一个「增益魔法」，使你恢复 0...80点 生命值，并移除自身的一个「负面魔法」和一个「症状」。（最多可以移除 1...8个「负面魔法」和「症状」）"
+			},
+			"cht": {
+				"name": "純淨的冥想",
+				"description": "技能： 失去所有「加持」。每失去一項「加持」，使你回復 0...80 體力，並消除自身的一項「降咒」和一項「病症」。(最多消去 1...8 項「降咒」和「病症」)",
+				"concise": "技能： 失去所有「加持」。每失去一項「加持」，使你回復 0...80 體力，並消除自身的一項「降咒」和一項「病症」。(最多消去 1...8 項「降咒」和「病症」)"
+			},
 			"de": {
+				"name": "Gebot der Reinheit",
+				"description": "Fertigkeit. Alle Verzauberungen gehen verloren. Für jede verlorene Verzauberung erhaltet Ihr 0...80 Lebenspunkt[e] und verliert eine Verhexung sowie einen Zustand (maximal 1...8 Verhexung[en] und Zustand[f:\"Zustände\"]).",
+				"concise": "Fertigkeit. Für jede Verzauberung auf Euch erhaltet Ihr 0...80 Lebenspunkt[e] und verliert eine Verhexung sowie einen Zustand (maximal 1...8 Verhexungen und Zustände). Ihr verliert alle Verzauberungen."
+			},
+			"de-guildwiki": {
 				"name": "Gebot der Reinheit",
 				"description": "Alle Verzauberungen gehen verloren. Für jede verlorene Verzauberung erhaltet Ihr 0...80 Lebenspunkte und verliert eine Verhexung sowie einen Zustand (maximal 1...8 Verhexungen und Zustände).",
 				"concise": "Für jede Verzauberung auf Euch erhaltet Ihr 0...80 Lebenspunkte und verliert eine Verhexung sowie einen Zustand (maximal 1...8 Verhexung und Zustand). <gray>Ihr verliert alle Verzauberungen.</gray>"
 			},
 			"en": {
 				"name": "Contemplation of Purity",
+				"description": "Skill. Lose all enchantments. For each one lost, you gain 0...80 Health, lose one hex, and lose one condition (maximum 1...8 hexes and conditions).",
+				"concise": "Skill. You gain 0...80 Health and lose one hex and one condition for each enchantment on you (maximum 1...8 hexes and conditions). You lose all enchantments."
+			},
+			"en-gww": {
+				"name": "Contemplation of Purity",
 				"description": "Lose all enchantments. For each one lost, you gain 0...80 Health, lose one hex, and lose one condition (maximum 1...8 hexes and conditions).",
 				"concise": "You gain 0...80 Health and lose one hex and one condition for each enchantment on you (maximum 1...8 hexes and conditions). <gray>You lose all enchantments.</gray>"
 			},
+			"es": {
+				"name": "Contemplación de pureza",
+				"description": "Habilidad. Pierdes todos los encantamientos. Por cada uno que se pierda, ganas 0...80 de salud y pierdes un maleficio y una condición (máximo 1...8 maleficios y condiciones).",
+				"concise": "Habilidad. Ganas 0...80 de salud y pierdes un maleficio y una condición por cada encantamiento que tengas (máximo 1...8 maleficios y condiciones . Pierdes todos los encantamientos."
+			},
 			"fr": {
+				"name": "Contemplation de la pureté",
+				"description": "Compétence. Perte de tous les enchantements. Pour chaque enchantement perdu, vous gagnez 0...80 points de vie et êtes libéré d'un maléfice et d'une condition (1...8 maléfices et conditions maximum).",
+				"concise": "Compétence. Vous gagnez 0...80 points de vie et perdez un maléfice et une condition par enchantement vous affectant. (maximum : 1...8 maléfices et conditions). Vous perdez tous vos enchantements."
+			},
+			"fr-gwiki": {
 				"name": "Contemplation de la pureté",
 				"description": "Perte de tous les enchantements. Pour chaque enchantement perdu, vous gagnez 0...80 points de vie et êtes libéré d'un maléfice et d'une condition (1...8 maléfice(s) et condition(s) maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Contemplazione della Purezza",
+				"description": "Abilità. Perdi tutti gli incantesimi; per ogni incantesimo perso ottieni 0...80 Punto[i] Salute e perdi una fattura e una condizione (max. 1...8 fattura[e] e condizione[i]).",
+				"concise": "Abilità. Ottieni 0...80 Punto[i] Salute e perdi una fattura e una condizione per ogni incantesimo presente su di te (max 1...8 fattura[e] e condizione[i]). Perdi tutti gli incantesimi."
+			},
+			"jp": {
+				"name": "ピュリティ コンテンプレーション",
+				"description": "スキル： かけられている強化スペルがすべて解除されます。解除された強化スペルごとに 0...80 の体力を獲得し、かけられている弱体化スペルが1個、「状態異常」が1個解除されます (最大 1...8 個)。",
+				"concise": "スキル： かけられている強化スペルごとに 0...80 の体力を獲得し、弱体化スペルおよび「状態異常」を1個ずつ解除します (最大 1...8 個)。かけられている強化スペルがすべて解除されます。"
+			},
+			"kr": {
+				"name": "순수한 명상",
+				"description": "스킬. 대상 지정: 없음. 자신에게 걸려 있는 모든 강화 마법을 제거합니다. 제거된 강화 마법 하나당 0...80의 체력을 회복하고, 약화 마법과 상태이상을 하나씩, 최대 1...8개까지 없앨 수 있습니다.",
+				"concise": "스킬. 자신에게 걸려 있는 강화 마법 하나당 0...80의 체력을 회복하고, 약화 마법과 상태이상을 하나씩 무효화합니다.(최대 1...8개의 약화 마법과 상태이상) 강화 마법이 모두 무효화됩니다."
+			},
+			"pl": {
+				"name": "Kontemplacja Czystości",
+				"description": "Umiejętność. Tracisz wszystkie zaklęcia. Za każde stracone otrzymujesz 0...80 pkt. żywotności, oczyszczasz się z jednej klątwy i jednej przypadłości (maksymalna liczba klątw i przypadłości, które zostaną zdjęte: 1...8).",
+				"concise": "Umiejętność. Za każde zaklęcie, które masz na sobie otrzymujesz 0...80 pkt. żywotności i tracisz klątwę oraz przypadłość (maksymalna liczba dla klątw i przypadłości to 1...8). Tracisz wszystkie zaklęcia."
+			},
+			"ru": {
+				"name": "Contemplation of Purity",
+				"description": "Умение. Вы теряете все лежащие на вас чары. За каждые потерянные чары вы получаете 0...80 ед. здоровья, с вас снимается одно проклятье и одно состояние (но не более 1...8 проклятий и состояний).",
+				"concise": "Умение. Вы получаете 0...80 ед. здоровья и теряете одно проклятье и одно состояние за каждые лежащие на вас чары (но не более 1...8 проклятий и состояний). Вы теряете все наложенные на вас чары."
+			},
+			"bork": {
+				"name": "Cuntemplaeshun ooff Pooreety",
+				"description": "Skeell. Luse-a aell inchuntments. Fur iaech oone-a lust, yuoo gaeeen 0...80 Heaelt, luse-a oone-a hex, und luse-a oone-a cundeeshun (maexeemoom 1...8 hexes und cundeeshuns).",
+				"concise": "Skeell. Yuoo gaeeen 0...80 Heaelt und luse-a oone-a hex und oone-a cundeeshun fur iaech inchuntment oon yuoo (maexeemoom 1...8 hexes und cundeeshuns). Yuoo luse-a aell inchuntments."
 			}
 		}
 	}

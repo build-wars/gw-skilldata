@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "迅捷长枪",
+				"description": "矛术。 命中时，对敌人造成5...20点额外伤害。当你带有「增益魔法」效果时，长枪的飞行速度将加倍，且无法被格挡。",
+				"concise": "矛术。 命中时，对敌人造成5...20点额外伤害。当你带有「增益魔法」效果时，长枪的飞行速度将加倍，且无法被格挡。"
+			},
+			"cht": {
+				"name": "迅捷之矛",
+				"description": "矛術攻擊技能： 命中時對目標造成 5...20 額外傷害。若你具有「加持」效果，則射出的矛飛行速度是平常的兩倍，而且無法被「格擋」。",
+				"concise": "矛術攻擊技能： 命中時對目標造成 5...20 額外傷害。若你具有「加持」效果，則射出的矛飛行速度是平常的兩倍，而且無法被「格擋」。"
+			},
 			"de": {
+				"name": "Schneller Speer",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Ihr mit einer Verzauberung belegt seid, fliegt dieser Speer doppelt so schnell und kann nicht geblockt werden.",
+				"concise": "Speerangriff. Richtet +5...20 Punkt[e] Schaden an. Dieser Speer bewegt sich mit doppelter Geschwindigkeit und kann nicht geblockt werden, falls Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Schneller Speer",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn Ihr mit einer Verzauberung belegt seid, fliegt dieser Speer doppelt so schnell und kann nicht geblockt werden.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Dieser Speer fliegt mit doppelter Geschwindigkeit und kann nicht geblockt werden, falls Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Swift Javelin",
+				"description": "Spear Attack. If this attack hits, you deal +5...20 damage. If you are under the effects of an enchantment, this spear flies twice as fast and cannot be blocked.",
+				"concise": "Spear Attack. Deals +5...20 damage. This spear moves twice as fast and is unblockable if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Swift Javelin",
 				"description": "If this attack hits, you deal +5...20 damage. If you are under the effects of an enchantment, this spear flies twice as fast and cannot be blocked.",
 				"concise": "Deals +5...20 damage. This spear moves twice as fast and is unblockable if you are enchanted."
 			},
+			"es": {
+				"name": "Jabalina ligera",
+				"description": "Ataque con lanza. Si este ataque impacta, harás +5...20 de daño. Si estás bajo los efectos de un encantamiento, la jabalina irá el doble de rápido y no se podrá bloquear.",
+				"concise": "Ataque con lanza. Hace +5...20 de daño. Esta lanza vuela el doble de rápido y no se puede bloquear si tienes un encantamiento."
+			},
 			"fr": {
+				"name": "Javeline leste",
+				"description": "Attaque au javelot. Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous êtes sous les effets d'un enchantement, ce javelot vole deux fois plus vite et ne peut pas être bloqué.",
+				"concise": "Attaque au javelot. Inflige +5...20 points de dégâts. Ce javelot se déplace deux fois plus vite et ne peut être bloqué si vous êtes enchanté[f:\"enchantée\"]."
+			},
+			"fr-gwiki": {
 				"name": "Javeline leste",
 				"description": "Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous êtes sous les effets d'un enchantement, ce javelot vole deux fois plus vite et ne peut pas être bloqué.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Giavellotto Rapido",
+				"description": "Attacco con Lancia. Se questo attacco va a segno, infligge +5...20 danno[i]; se sei sotto gli effetti di un incantesimo, questa lancia vola a velocità doppia e non può essere bloccata.",
+				"concise": "Attacco con Lancia. Danni inferti: +5...20. Questa lancia si muove a velocità doppia e non è bloccabile se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "スイフト ジャベリン",
+				"description": "スピア アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。プレイヤーに強化スペルがかけられている場合、槍を2倍のスピードで投げることができ、その攻撃はブロックされません。",
+				"concise": "スピア アタック： 5...20 の追加ダメージを与えます。強化スペルがかけられている場合、槍が通常よりも2倍早く動き、その攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "재빠른 투창",
+				"description": "창 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 자신이 강화 마법에 걸려 있으면 창은 2배의 속도로 날아가고, 이 창은 막을 수 없습니다.",
+				"concise": "창 공격. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 자신이 강화 마법에 걸려 있으면 창은 2배의 속도로 날아가고, 이 창은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Szybki Oszczep",
+				"description": "Atak włócznią. Jeśli atak trafi, zadaje +5...20 pkt. obrażeń. Jeśli jesteś pod działaniem zaklęcia, to twoja włócznia leci dwa razy szybciej, a przeciwnik nie może jej zablokować.",
+				"concise": "Atak włócznią. Zadaje +5...20 pkt. obrażeń. Ta włócznia leci dwa razy szybciej i jest nie do zablokowania, jeżeli jesteś pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Swift Javelin",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если на вас были наложены какие-либо чары, ваше копье будет лететь в два раза быстрее, и его будет нельзя блокировать.",
+				"concise": "Атака копьем. Наносит дополнительно 5...20 ед. урона. Это копье летит в два раза быстрее и его нельзя блокировать, если на вас наложены чары."
+			},
+			"bork": {
+				"name": "Sveefft Jaefeleen",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff yuoo aere-a under zee iffffects ooff un inchuntment, thees speaer fleees tveece-a aes faest und cunnut be-a blucked.",
+				"concise": "Speaer Aettaeck. Deaels +5...20 daemaege-a. Thees speaer mufes tveece-a aes faest und is unbluckaeble-a iff yuoo aere-a inchunted."
 			}
 		}
 	}

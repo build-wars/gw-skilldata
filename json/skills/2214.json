@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.75,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Low Blow",
+				"description": "技能。 Strike target foe for 45...70 damage. If target foe is knocked down, that foe suffers from Cracked Armor for 14...20 seconds.",
+				"concise": "触摸技。 Deals 45...70 damage. Inflicts Cracked Armor (14...20 seconds) if target foe is knocked-down."
+			},
+			"cht": {
+				"name": "低鳴",
+				"description": "技能： 碰觸目標敵人造成45...70傷 害。若目標倒地，再增加30...50傷 害並引發碎甲14...20秒。",
+				"concise": "碰觸技能： 碰觸目標敵人造成45...70傷 害。若目標倒地，再增加30...50傷 害並引發碎甲14...20秒。"
+			},
 			"de": {
+				"name": "Unter der Gürtellinie",
+				"description": "Fertigkeit. Fügt dem Gegner 45...70 Punkt[e] Schaden zu. Liegt er am Boden, erleidet er zusätzlich 30...50 Punkt[e] Schaden und leidet 14...20 Sekunde[n] lang an Beschädigter Rüstung.",
+				"concise": "Berührungs-Fertigkeit. Richtet 45...70 Punkt[e] Schaden an. Richtet +30...50 Punkt[e] zusätzlichen Schaden an und verursacht Beschädigte Rüstung (14...20 Sekunde[n]), falls der Gegner zu Boden geworfen wurde."
+			},
+			"de-guildwiki": {
 				"name": "Unter der Gürtellinie",
 				"description": "Fügt dem berührten Gegner 45...70 Punkte Schaden zu. Liegt er am Boden, erleidet er zusätzlich 30...50 Punkte Schaden und leidet 14...20 Sekunden lang an Beschädigter Rüstung.",
 				"concise": "Richtet 45...70 Punkte Schaden an. Richtet +30...50 Punkte zusätzlichen Schaden an und verursacht Beschädigte Rüstung (14...20 Sekunden), falls der Gegner zu Boden geworfen wurde."
 			},
 			"en": {
 				"name": "Low Blow",
+				"description": "Skill. Strike target foe for 45...70 damage. If target foe is knocked down, that foe takes an additional 30...50 damage and suffers from Cracked Armor for 14...20 seconds.",
+				"concise": "Touch Skill. Deals 45...70 damage. Deals 30...50 more damage and Inflicts Cracked Armor (14...20 seconds) if target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Low Blow",
 				"description": "Strike target foe for 45...70 damage. If target foe is knocked down, that foe takes an additional 30...50 damage and suffers from Cracked Armor for 14...20 seconds.",
 				"concise": "Touch Skill. Deals 45...70 damage. Inflicts 30...50 damage and Cracked Armor (14...20 seconds) if target foe is knocked down."
 			},
+			"es": {
+				"name": "Golpe bajo",
+				"description": "Habilidad. Golpeas al enemigo objetivo con 45...70 de daño. Si el enemigo está derribado, recibirá 30...50 de daño adicional y tendrá la armadura rota durante 14...20 segundos.",
+				"concise": "Habilidad de toque. Hace 45...70 de daño. Hace 30...50 más de daño y rompe la armadura (durante 14...20 segundos) si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Coup bas",
+				"description": "Compétence. Inflige 45...70 points de dégâts à l'ennemi visé. Si l'ennemi visé est assommé, il reçoit 30...50 points de dégâts supplémentaires et subit la condition Armure brisée pendant 14...20 secondes.",
+				"concise": "Compétence de toucher. Inflige 45...70 points de dégâts. Inflige 30...50 points de dégâts supplémentaires et la condition Armure brisée (14...20 secondes) si l'ennemi visé est assommé."
+			},
+			"fr-gwiki": {
 				"name": "Coup bas",
 				"description": "Vous infligez 45...70 points de dégâts à l'adversaire. Si la cible est assommée, vous infligez 30...50 points de dégâts supplémentaires et lui infligée une Armure brisée pendant 14...20 secondes.",
 				"concise": "Inflige 45...70 points de dégâts. Inflige 30...50 points de dégâts supplémentaires et la condition Armure brisée (14...20 secondes) si l'ennemi visé est assommé."
+			},
+			"it": {
+				"name": "Colpo Basso",
+				"description": "Abilità. L'obiettivo nemico subisce 45...70 danni. Se viene abbattuto, subisce 30...50 danni in più ed è affetto da Armatura Incrinata per 14...20 secondi.",
+				"concise": "Abilità a Tocco. Danni inferti: 45...70. Per gli obiettivi nemici abbattuti: Danni inferti in più: 30...50. Condizione inflitta: Armatura Incrinata (14...20 secondi)."
+			},
+			"jp": {
+				"name": "ロウ ブロウ",
+				"description": "スキル： ターゲットした敵に 45...70 のダメージを与えます。ターゲットが転倒している場合、30...50 の追加ダメージを与え、14...20 秒間「防具破損」状態にします。",
+				"concise": "スキル (接触)： 45...70 のダメージを与えます。ターゲットした敵が転倒中の場合、30...50 の追加ダメージを与え、｢防具破損｣状態にします (14...20 秒) 。"
+			},
+			"kr": {
+				"name": "하단 강타",
+				"description": "스킬. 대상에게 45...70의 대미지를 줍니다. 대상이 바닥에 넘어져 있다면 30...50의 대미지를 추가로 주고, 14...20초 동안 방어 손상을 입힙니다.",
+				"concise": "스킬(접근용). 45...70의 대미지를 줍니다. 대상이 바닥에 넘어져 있으면 30...50의 추가 대미지를 주고, 방어 손상을 입힙니다.(14...20초)"
+			},
+			"pl": {
+				"name": "Cios Poniżej Pasa",
+				"description": "Umiejętność. Wybranemu przeciwnikowi zadajesz +45...70 pkt. obrażeń. Jeżeli zostanie powalony, otrzymuje dodatkowe 30...50 pkt. obrażeń i cierpi z powodu pęknięcia zbroi przez 14...20 sek.",
+				"concise": "Umiejętność dotykowa. Zadaje 45...70 pkt. obrażeń. Zadaje dodatkowe 30...50 obrażeń i powoduje pęknięcie zbroi (14...20 sek.), jeżeli wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Low Blow",
+				"description": "Умение. Наносит выбранному противнику 45...70 ед. урона. Если этот противник был сбит с ног, он получит дополнительно 30...50 ед. урона и у него будут треснувшие доспехи в течение 14...20 сек.",
+				"concise": "Умение прикосновения. Наносит 45...70 ед. урона. Наносит дополнительно 30...50 ед.урона и дает треснувшие доспехи (14...20 сек), если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Loo Bloo",
+				"description": "Skeell. Streeke-a taerget fue-a fur 45...70 daemaege-a. Iff taerget fue-a is knucked doon, thaet fue-a taekes un aeddeeshunael 30...50 daemaege-a und sooffffers frum Craecked Aermur fur 14...20 secunds.",
+				"concise": "Tuooch Skeell. Deaels 45...70 daemaege-a. Deaels 30...50 mure-a daemaege-a und Inffleects Craecked Aermur (14...20 secunds) iff taerget fue-a is knucked-doon."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "琳薇之痛",
+				"description": "物品法术。 最多可持有琳薇的骨灰10...60秒。当丢下琳薇的骨灰的同时，召唤出一只等级为1...5的痛苦缚灵，缚灵攻击敌人造成50点伤害。此缚灵将在10...60秒后自然消失。",
+				"concise": "物品法术。 最多可持有琳薇的骨灰 10...60 秒。当丢下琳薇的骨灰同时，召唤出等级为1...5的痛苦缚灵，对敌人攻击造成 50 伤害。此缚灵将在10...60秒后消失。"
+			},
+			"cht": {
+				"name": "苦痛者琳葳",
+				"description": "抱持魔法： 最多可抱持 10...60 秒，你所有祭祀者降咒消耗能量減少 1...5 且持續時間增加 50% 。當你丟下她的骨灰時，你所有祭祀者降咒立即回復。",
+				"concise": "抱持魔法： 最多可抱持 10...60 秒，你所有祭祀者降咒消耗能量減少 1...5 且持續時間增加 50% 。當你丟下她的骨灰時，你所有祭祀者降咒立即回復。"
+			},
 			"de": {
+				"name": "Gequält war Lingwah",
+				"description": "Gegenstandszauber. Haltet Lingwahs Asche bis zu 10...60 Sekunde[n] lang. Während Ihr ihre Asche haltet, kosten Eure Ritualisten-Verhexungen 1...5 weniger Energiepunkt[e] und halten um 50% länger an. Wenn Ihr ihre Asche fallen lasst, werden alle Eure Ritualisten-Verhexungen wieder aufgeladen.",
+				"concise": "Gegenstandszauber. (10...60 Sekunde[n].) Eure Ritualisten-Verhexungen kosten 1...5 weniger Energiepunkt[e] und halten um 50% länger an. Fallwirkung: Alle Eure Ritualisten-Verhexungen werden wieder aufgeladen."
+			},
+			"de-guildwiki": {
 				"name": "Gequält war Lingwah",
 				"description": "Haltet Lingwahs Asche bis zu 10...60 Sekunden lang. Während Ihr ihre Asche haltet, kosten Eure Ritualisten-Verhexungen 1...5 weniger Energiepunkte und halten um 50% länger an. Wenn Ihr ihre Asche fallen lasst, werden alle Eure Ritualisten-Verhexungen wieder aufgeladen.",
 				"concise": "(10...60 Sekunden.) Eure Ritualisten-Verhexungen kosten 1...5 weniger Energiepunkte und halten um 50% länger an. Fallwirkung: Alle Eure Ritualisten-Verhexungen werden wieder aufgeladen."
 			},
 			"en": {
 				"name": "Anguished Was Lingwah",
+				"description": "Item Spell. Hold Lingwah's ashes for up to 10...60 seconds. While you hold her ashes, your Ritualist hexes cost 1...5 less energy and last 50% longer. When you drop her ashes all your Ritualist hexes are recharged.",
+				"concise": "Item Spell. (10...60 seconds.) Your Ritualist hexes cost 1...5 less energy and last 50% longer. Drop effect: all your Ritualist hexes are recharged."
+			},
+			"en-gww": {
+				"name": "Anguished Was Lingwah",
 				"description": "Hold Lingwah's ashes for up to 10...60 seconds. While you hold her ashes, your Ritualist hexes cost 1...5 less energy and last 50% longer. When you drop her ashes all your Ritualist hexes are recharged.",
 				"concise": "(10...60 seconds.) Your Ritualist hexes cost 1...5 less energy and last 50% longer. Drop effect: all your Ritualist hexes are recharged."
 			},
+			"es": {
+				"name": "Angustiosa sea Lingwah",
+				"description": "Conjuro con objeto. Llevas las cenizas de Lingwah durante 10...60 segundos. Mientras las lleves, tus maleficios de Ritualista cuestan 1...5 menos de energía y duran un 50% más. Cuando sueltes las cenizas, se recargarán todos tus maleficios de Ritualista.",
+				"concise": "Conjuro con objeto. (10...60 segundos). Tus maleficios de Ritualista cuestan 1...5 menos de energía y duran un 50% más. Efecto al soltarse: todos tus maleficios de Ritualista se recargan."
+			},
 			"fr": {
+				"name": "Lingwah était angoissée",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Lingwah pendant un maximum de 10...60 secondes. En tenant ses cendres, vos maléfices de Ritualiste coûtent 1...5 points d'énergie en moins et durent 50% plus longtemps. Lorsque vous déposez ses cendres, tous vos maléfices de Ritualiste sont rechargés.",
+				"concise": "Sort d'altération d'objet. (10...60 secondes.) Vos maléfices de Ritualiste coûtent 1...5 points d'énergie en moins et durent 50% plus longtemps. Effet de la pose : tous vos maléfices de Ritualiste sont rechargés."
+			},
+			"fr-gwiki": {
 				"name": "Lingwah était angoissée",
 				"description": "Pendant 10...60 secondes les maléfices de votre Ritualiste coûtent 1...5 point(s) d'énergie en moins et leur durée est augmentée de 50%. Lorsque vous déposez les cendres de Lingwah, tous les maléfices de votre Ritualiste sont rechargés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lingwah era Tormentata",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Kaolai per un massimo di 10...60 secondo[i]. Menrte mantieni le ceneri, le tue fatture Ritualista costano 1...5 Punto[i] Energia in meno e durano un 50% in più. Quando rilasci le ceneri, tutte le tue fatture Ritualista si ricaricano.",
+				"concise": "Magia Altera-oggetto. (Secondo[i]: 10...60). Le tue fatture Ritualista costano 1...5 Punto[i] Energia in meno e durano un 50% in più. Rilascio: tutte le tue fatture Ritualista si ricaricano."
+			},
+			"jp": {
+				"name": "リンワア アングウィッシュ",
+				"description": "アイテム スペル： 最大 10...60 秒間、リンワアの遺灰を持ちます。その間、リチュアリストの弱体化スペルは消費エネルギーが 1...5 減少し、持続時間が 50% 増加します。この遺灰を落とすと、リチュアリストの弱体化スペルをすべて再使用することができます。",
+				"concise": "アイテム スペル： (10...60 秒) リチュアリストの弱体化スペルは消費エネルギーが 1...5 減少し、持続時間が 50% 増加します。ドロップ効果： リチュアリストの弱体化スペルをすべて再使用することができます。"
+			},
+			"kr": {
+				"name": "링와의 고통",
+				"description": "드롭아이템. 대상 지정: 없음. 10...60초 동안 유지되는 링와의 마력석을 만듭니다. 마력석을 들고 있는 동안은 리추얼리스트 약화 마법의 소모 에너지가 1...5만큼 감소하고, 지속 시간이 50% 늘어납니다. 마력석을 바닥에 떨어뜨리면 모든 리추얼리스트 스킬이 재활성됩니다.",
+				"concise": "드롭아이템. (10...60초) 리추얼리스트 약화 마법의 소모 에너지가 1...5만큼 감소하고, 지속 시간이 50% 늘어납니다. 드롭 효과: 모든 리추얼리스트 스킬이 즉시 활성됩니다."
+			},
+			"pl": {
+				"name": "Udręczoną Była Lingwah",
+				"description": "Czar z przedmiotu. Trzymaj prochy Lingwah przez maksymalnie 10...60 sek. Kiedy je trzymasz, wszystkie klątwy Rytualisty kosztują o 1...5 mniej energii i trwają 50% dłużej. Gdy upuścisz jej prochy, wszystkie twoje klątwy Rytualisty zostaną odnowione.",
+				"concise": "Czar z przedmiotu. (10...60 sek.) Twoje klątwy Rytualisty kosztują o 1...5 mniej energii i trwają 50%. Efekt upuszczenia: wszystkie twoje klątwy Rytualisty zostaną odnowione."
+			},
+			"ru": {
+				"name": "Anguished Was Lingwah",
+				"description": "Артефактное заклинание. Вы держите прах Lingwah до 10...60 сек. До тех пор, пока вы держите ее прах, ваши проклятья профессии Ritualist требуют для активации на 1...5 ед. энергии меньше и длятся на 50% дольше. Когда вы бросаете ее прах, все ваши проклятья профессии Ritualist будут перезаряжены.",
+				"concise": "Артефактное заклинание. (10...60 сек) Ваши проклятья профессии Ritualist требуют для активации на 1...5 ед. энергии меньше и длятся на 50% дольше. Эффект от бросания: все ваши проклятья профессии Ritualist будут перезаряжены."
+			},
+			"bork": {
+				"name": "Ungooeeshed Vaes Leengvaeh",
+				"description": "Item Spell. Huld Leengvaeh's aeshes fur up tu 10...60 secunds. Vheele-a yuoo huld her aeshes, yuoor Reetooaeleest hexes cust 1...5 less inergy und laest 50% lunger. Vhee yuoo drup her aeshes aell yuoor Reetooaeleest hexes aere-a rechaerged.",
+				"concise": "Item Spell. (10...60 secunds.) Yuoor Reetooaeleest hexes cust 1...5 less inergy und laest 50% lunger. Drup iffffect: aell yuoor Reetooaeleest hexes aere-a rechaerged."
 			}
 		}
 	}

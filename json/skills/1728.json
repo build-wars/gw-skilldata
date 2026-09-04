@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蟾蜍的复仇",
+				"description": "姿态。 在5...11秒之内，使你的攻击速度提升33%，如果你使用攻击技能，则此「姿态」消失。",
+				"concise": "姿态。 在5...11秒之内，使你的攻击速度提升33%，如果你使用攻击技能，则此「姿态」消失。"
+			},
+			"cht": {
+				"name": "哈克衝擊",
+				"description": "態勢： 持續 5...11 秒，使你的攻擊速度加快 33% 。若你使用攻擊技能，則此態勢的效果終止。",
+				"concise": "態勢： 持續 5...11 秒，使你的攻擊速度加快 33% 。若你使用攻擊技能，則此態勢的效果終止。"
+			},
 			"de": {
+				"name": "Heket-Toben",
+				"description": "Haltung. 5...11 Sekunde[n] lang sind Eure Angriffe um 33% schneller. Diese Haltung endet, sobald Ihr eine Angriffsfertigkeit verwendet.",
+				"concise": "Haltung. 5...11 Sekunde[n]: Ihr greift um 33% schneller an. Endet, sobald Ihr eine Angriffsfertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Heket-Toben",
 				"description": "5...11 Sekunden lang sind Eure Angriffe um 33% schneller. Diese Haltung endet, sobald Ihr eine Angriffsfertigkeit verwendet.",
 				"concise": "5...11 Sekunden: Ihr greift um 33% schneller an. <gray>Endet, sobald Ihr eine Angriffsfertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Heket's Rampage",
+				"description": "Stance. For 5...11 seconds, you attack 33% faster. This stance ends if you use an attack skill.",
+				"concise": "Stance. (5...11 seconds.) You attack 33% faster. Ends if you use an attack skill."
+			},
+			"en-gww": {
+				"name": "Heket's Rampage",
 				"description": "For 5...11 seconds, you attack 33% faster. This stance ends if you use an attack skill.",
 				"concise": "(5...11 seconds). You attack 33% faster. <gray>Ends if you use an attack skill.</gray>"
 			},
+			"es": {
+				"name": "Violencia del heket",
+				"description": "Actitud. Durante 5...11 segundos, atacas un 33% más deprisa. Esta actitud termina si usas una habilidad de ataque.",
+				"concise": "Actitud. (5...11 segundos). Atacas un 33% más deprisa. Acaba si usas una habilidad."
+			},
 			"fr": {
+				"name": "Saccage du Heket",
+				"description": "Pose de combat. Pendant 5...11 secondes, vous attaquez 33% plus vite. Cette pose de combat prend fin si vous utilisez une compétence d'attaque.",
+				"concise": "Pose de combat. (5...11 secondes.) Vous attaquez 33% plus vite. Prend fin si vous utilisez une compétence d'attaque."
+			},
+			"fr-gwiki": {
 				"name": "Saccage du Heket",
 				"description": "Pendant 5...11 secondes, vous attaquez 33% plus vite. Cette Pose de combat prend fin si vous utilisez une compétence d'attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Furore dell'Ecate",
+				"description": "Posizione. Per 5...11 secondo[i] la velocità dei tuoi attacchi aumenta di un 33%; questa posizione termina se utilizzi un'abilità d'attacco.",
+				"concise": "Posizione. (Secondi: 5...11) Incremento tua velocità d'attacco: 33%. Termina se usi un'abilità d'attacco."
+			},
+			"jp": {
+				"name": "ヘケット ランペイジ",
+				"description": "スタンス： 5...11 秒間、プレイヤーの攻撃速度が 33% 増加します。アタック スキルを使用するとこのスタンスの効果は消失します。",
+				"concise": "スタンス： (5...11 秒) 攻撃速度が 33% 増加します。アタック スキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "두꺼비의 흥분",
+				"description": "자세. 대상 지정: 없음. 5...11초 동안 공격 속도가 33% 빨라집니다. 공격 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "자세. (5...11초) 공격 속도가 33% 빨라집니다. 공격 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Szał Heketa",
+				"description": "Postawa. Przez 5...11 sek. atakujesz o 33% szybciej. Postawa przestanie działać, kiedy użyjesz umiejętności związanej z atakami.",
+				"concise": "Postawa. (5...11 sek.) Atakujesz o 33% szybciej. Przestanie działać, jeśli użyjesz umiejętności związanej z atakami."
+			},
+			"ru": {
+				"name": "Heket's Rampage",
+				"description": "Стойка. В течение 5...11 сек вы атакуете на 33% быстрее. Эта стойка прекращает свое действие, если вы используете атакующее умение.",
+				"concise": "Стойка. (5...11 сек) Вы атакуете на 33% быстрее. Заканчивается, если вы используете атакующее умение."
+			},
+			"bork": {
+				"name": "Heket's Raempaege-a",
+				"description": "Stunce-a. Fur 5...11 secunds, yuoo aettaeck 33% faester. Thees stunce-a inds iff yuoo use-a un aettaeck skeell.",
+				"concise": "Stunce-a. (5...11 secunds.) Yuoo aettaeck 33% faester. Inds iff yuoo use-a un aettaeck skeell."
 			}
 		}
 	}

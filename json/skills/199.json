@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量雕文",
+				"description": "精英雕文魔法。 在 15秒 之内，使你的下一个法术的能量消耗减少 25点，并且不会受到「疲劳」症状的影响。",
+				"concise": "精英雕文魔法。 在 15秒 之内，使你的下一个法术的能量消耗减少 25点，并且不会受到「疲劳」症状的影响。"
+			},
+			"cht": {
+				"name": "能量符號",
+				"description": "精英符號： 持續15秒，你下一個魔法消耗能量減少10...25，且不會造成精疲力竭。",
+				"concise": "精英符號： 持續15秒，你下一個魔法消耗能量減少10...25，且不會造成精疲力竭。"
+			},
 			"de": {
+				"name": "Glyphe der Energie",
+				"description": "Elite-Glyphe. Eure nächsten 1...3 Zauber verursachen kein Überzaubern und kosten 10...25 Energiepunkte weniger. Eure Elementarattribute sind um 1...2 erhöht.",
+				"concise": "Elite-Glyphe. Eure nächsten 1...3 Zauber verursachen kein Überzaubern und kosten 10...25 Energiepunkte weniger. Ihr erhaltet 1...2 aus alle Elementarattribute."
+			},
+			"de-guildwiki": {
 				"name": "Glyphe der Energie",
 				"description": "Euer nächster<sic/> 1...3 Zauber verursachen kein Überzaubern<sic/> und kosten 10...25 Energiepunkte weniger. Eure Elementarattribute sind um 1...2 erhöht.",
 				"concise": "Euer nächster<sic/> 1...3 Zauber verursachen kein Überzaubern<sic/> und kosten 10...25 Energiepunkte weniger. Ihr erhaltet 1...2 aus<sic/> alle Elementarattribute."
 			},
 			"en": {
 				"name": "Glyph of Energy",
+				"description": "Elite Glyph. Your next 1...3 spells do not cause Overcast and cost 10...25 less Energy to cast. Your elemental attributes are increased by 1...2.",
+				"concise": "Elite Glyph. Your next 1...3 spells do not cause Overcast and cost 10...25 less Energy. Gain 1...2 to all elemental attributes."
+			},
+			"en-gww": {
+				"name": "Glyph of Energy",
 				"description": "Your next 1...3 spell[s] do[es] not cause Overcast and cost[s] 10...25 less Energy to cast. Your elemental attributes are increased by 1...2.",
 				"concise": "Your next 1...3 spell[s] do[es] not cause Overcast and cost[s] 10...25 less Energy. Gain 1...2 to all elemental attributes."
 			},
+			"es": {
+				"name": "Glifo de energía",
+				"description": "Glifo de élite. Tus siguientes 1...3 conjuros no causan sobrelanzamiento y lanzarlos cuesta 10...25 menos de energía. Tus atributos de los elementos aumentan en 1...2.",
+				"concise": "Glifo de élite. Tus siguientes 1...3 conjuros no causan sobrelanzamiento y cuestan 10...25 menos de energía. Ganas 1...2 en todos los atributos de los elementos."
+			},
 			"fr": {
+				"name": "Glyphe d'énergie",
+				"description": "Glyphe d'élite. 1...3 des prochains sorts ne causent pas l'Afflux et coûtent 10...25 points d'énergie en moins. Vos caractéristiques élémentaires augmentent de 1...2.",
+				"concise": "Glyphe d'élite. 1...3 des prochains sorts ne causent pas l'Afflux et coûtent 10...25 points d'énergie en moins. Vos caractéristiques élémentaires augmentent de 1...2."
+			},
+			"fr-gwiki": {
 				"name": "Glyphe d'énergie",
 				"description": "1...3 des prochains sorts ne causent pas l'Afflux et coûtent 10...25 points d'énergie en moins. Vos caractéristiques élémentaires augmentent de 1...2.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Glifo dell'Energia",
+				"description": "Glifo d'Élite. 1...3 delle tue prossime magie non provocheranno Sforzo e costeranno 10...25 Punti Energia in meno per essere lanciate. Incremento dei tuoi attributi elementali: 1...2.",
+				"concise": "Glifo d'Élite. 1...3 delle tue prossime magie non provocheranno Sforzo e costeranno 10...25 Punti Energia in meno. Ottieni 1...2 per tutti gli attributi elementali."
+			},
+			"jp": {
+				"name": "エネルギー グリフ",
+				"description": "エリート グリフ： 次に詠唱する 1...3 個のスペルは「疲労」状態になることがなく、詠唱に必要なエネルギーが 10...25 減少します。元素の特性レベルが 1...2 増加します。",
+				"concise": "エリート グリフ： 次に詠唱する 1...3 個のスペルは「疲労」状態になることがなく、詠唱に必要なエネルギーが 10...25 減少します。元素の特性レベルがすべて 1...2 増加します。"
+			},
+			"kr": {
+				"name": "에너지 수인",
+				"description": "엘리트 수인. 대상 지정: 없음. 다음에 사용하는 1...3번의 마법 소모 에너지가 10...25만큼 감소하고, 마법 사용 후 최대 에너지가 감소하지 않습니다. 정령 특성 레벨이 1...2만큼 증가합니다.",
+				"concise": "엘리트 수인. 다음에 사용하는 1...3번의 마법 소모 에너지가 10...25만큼 감소하고, 마법 사용 후 최대 에너지가 감소하지 않습니다. 정령 특성 레벨이 1...2만큼 증가합니다."
+			},
+			"pl": {
+				"name": "Glif Energii",
+				"description": "Elitarny glif. Twoje kolejne zaklęcia 1...3 nie wywołują limitu aktywacyjnego i kosztują 10...25 mniej energii. Twoje atrybuty związane z żywiołami są zwiększane o 1...2.",
+				"concise": "Elitarny glif. Twoje kolejne zaklęcia 1...3 nie wywołują limitu aktywacyjnego i kosztują 10...25 mniej energii. Premia 1...2 do wszystkich atrybutów związanych z żywiołami."
+			},
+			"ru": {
+				"name": "Glyph of Energy",
+				"description": "Элитный глиф. Ваши следующие заклинания (1...3) не вызовут Утомления и потребуют для активации на 10...25 ед. энергии меньше. Ваши таланты в магиях стихий будут увеличены на 1...2 ед.",
+				"concise": "Элитный глиф. Ваши следующие заклинания (1...3) не вызовут Утомления и потребуют для активации на 10...25 ед. энергии меньше. Дает +1...2 ед. к уровням талантов во всех магиях стихий."
+			},
+			"bork": {
+				"name": "Glyph ooff Inergy",
+				"description": "Ileete-a Glyph. Yuoor next 1...3 spells do nut coose-a Oofercaest und cost 10...25 less Inergy tu caest. Yuoor ilementael aettreebootes aere-a increaesed by 1...2.",
+				"concise": "Ileete-a Glyph. Yuoor next 1...3 spells do nut coose-a Oofercaest und cost 10...25 less Inergy. Gaeeen 1...2 tu aell ilementael aettreebootes."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力之风",
+				"description": "自然仪式。 创造一只等级为1...6的法力精灵。使区域内所有生物的技能能量消耗减少 15点（最少消耗 10点 能量），但技能恢复速度减缓 25%。法力精灵在1...60秒 后消失。",
+				"concise": "自然仪式。 创造一只 1...6级 的法力精灵。使区域内所有生物的技能能量消耗减少 15点（最少消耗 10点 能量），但技能恢复速度减缓 25%。法力精灵在1...60秒 后消失。"
+			},
+			"cht": {
+				"name": "能量之風",
+				"description": "自然儀式： 創造一隻等級 1...6 的能量風精靈。使區域內所有非「靈」的生物使用技能減少 15 能量消耗（最少消耗 10 能量），但技能回復速度減慢 25% 。能量風精靈在 1...60 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...6 的能量風精靈。使區域內所有非「靈」的生物使用技能減少 15 能量消耗（最少消耗 10 能量），但技能回復速度減慢 25% 。能量風精靈在 1...60 秒後消失。"
+			},
 			"de": {
+				"name": "Treibwind",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 15. Für Kreaturen in seiner Reichweite, die keine Geister sind, kosten alle Fertigkeiten 15 Energiepunkte weniger (minimale Kosten von 10 Energiepunkten) und die Wiederaufladezeit ist um 25% langsamer. Dieser Geist stirbt nach 1...60 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...6 (1...60 Sekunde[n] Lebensdauer). Fertigkeiten kosten Kreaturen in Reichweite 15 Energiepunkte weniger (Mindestkosten 10 Energiepunkte) und laden sich um 25% langsamer auf. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Treibwind",
 				"description": "Erstellt einen Geist der Stufe 1...6. Für Kreaturen in seiner Reichweite, die keine Geister sind, kosten alle Fertigkeiten höchstens 10 Energiepunkte und die Wiederaufladezeit ist um 25% langsamer. Dieser Geist stirbt nach 1...60 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...6 (1...60 Sekunden Lebensdauer). Fertigkeiten kosten Kreaturen in Reichweite höchstens 10 Energie und laden sich um 25% langsamer auf. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Energizing Wind",
+				"description": "Nature Ritual. Create a level 1...6 spirit. For non-spirit creatures within its range, all skills cost 15 less Energy (minimum cost 10 Energy), and skills recharge 25% slower. This spirit dies after 1...60 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...6 spirit (1...60 second lifespan). Skills cost 15 less Energy (minimum cost 10 Energy) and recharge 25% slower for creatures in range. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Energizing Wind",
 				"description": "Create a level 1...6 spirit. For non-spirit creatures within its range, all skills cost 15 less Energy (minimum cost 10 Energy), and skills recharge 25% slower. This spirit dies after 1...60 second[s].",
 				"concise": "Creates a level 1...6 spirit (1...60 second[s] lifespan). Skills cost 15 less energy (minimum cost 10 energy) and recharge 25% slower for creatures in range. Does not affect spirits."
 			},
+			"es": {
+				"name": "Viento vigorizante",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...6. A las criaturas no espíritus que estén en su zona les costará 15 de energía menos usar las habilidades (coste mínimo 10) y éstas se recargarán un 25% más lento. Morirá a los 1...60 segundos.",
+				"concise": "Ritual de la naturaleza. Creas un espíritu de nivel 1...6 (1...60 segundos de vida). Las habilidades cuestan 15 menos de energía (coste mínimo 10) y se recargan un 25% más lento para las criaturas de la zona. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Vent énergisant",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...6. Pour les créatures dans sa portée autres que des esprits, toutes les compétences coûtent 15 points d'énergie en moins (coût minimum de 10 points) et se rechargent 25% moins vite. Cet esprit disparaît au bout de 1...60 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...6 (durée de vie de 1...60 secondes). Le coût en énergie des compétences est réduit de 15 points (coût minimum de 10 points d'énergie) et leur temps de recharge est accru de 25% pour les créatures à portée. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Vent énergisant",
 				"description": "Crée un esprit de niveau 1...6. Pour les créatures dans sa portée autres que des esprits, toutes les compétences coûtent 15 points d'énergie en moins (coût minimum de 10 points) et se rechargent 25% moins vite. Cet esprit disparaît au bout de 1...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vento di Energia",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...6. Per le creature nella sua portata (Spiriti esclusi), tutte le abilità costano 15 Punti Energia in meno (costo minimo 10 Punti Energia) e le abilità si ricaricano con una velocità inferiore del 25%. Lo Spirito si esaurisce dopo 1...60 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...6 (in vita per 1...60 secondo[i]). Riduzione costo delle abilità: 15 Punti Energia in meno (costo minimo 10). Rallentamento velocità di ricarica delle abilità per le creature nella portata: 25%. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "エネルギー ウインド",
+				"description": "ネイチャー リチュアル： レベル 1...6 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物が使用するスキルはすべて詠唱に必要なエネルギーが15減少しますが (最低10のエネルギー)、スキルの再使用時間が25%増加します。この精霊は 1...60 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...6 の精霊を召喚します (1...60 秒)。この精霊の効果範囲内では、スキルの使用に必要なエネルギーが15減少しますが (最低10のエネルギー消費)、再使用時間が25%増加します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "절제의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...6레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체가 사용하는 모든 스킬의 에너지 소모가 15 감소합니다. 최소 10의 에너지는 소모합니다. 스킬의 재활성 시간은 25% 늘어납니다. 영혼은 1...60초 후 사라집니다.",
+				"concise": "자연의 이해. 1...6레벨 영혼을 소환합니다.(수명: 1...60초) 영혼이 아닌 생물체에 영향을 미칩니다. 스킬의 소모 에너지가 15 감소하지만, 재활성 시간은 25% 늘어납니다. (단, 소모 에너지가 10이 넘는 스킬의 경우 최소 10의 에너지는 소모합니다.)"
+			},
+			"pl": {
+				"name": "Pobudzający Wiatr",
+				"description": "Obrządek natury. Tworzysz 1...6 poziomowego ducha. Dla stworzeń nie-duchów w jego zasięgu wszystkie umiejętności kosztują o 15 pkt. energii mniej (minimalny koszt to 10 pkt. energii), ale odnawiają się o 25% wolniej. Duch umiera po 1...60 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...6 (czas życia 1...60 sek.). Umiejętności stworzeń w zasięgu kosztują o 15 pkt. energii mniej (minimalny koszt 10 pkt. energii) i odnawiają się o 25% wolniej. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Energizing Wind",
+				"description": "Природный ритуал. Создает духа 1...6 уровня. Для не являющихся духами созданий, находящихся в зоне его действия, все умения стоят на 15 ед. энергии меньше (но не менее 10 ед.), а перезаряжаются умения на 25% медленнее. Этот дух умирает через 1...60 сек.",
+				"concise": "Природный ритуал. Создает духа 1...6 уровня (1...60 сек жизни). У созданий в зоне его действия умения требуют на 15 ед. энергии меньше (но не менее 10 ед.) и перезаряжаются на 25% медленнее. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Inergeezeeng Veend",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...6 spureet. Fur nun-spureet creaetoores veetheen its runge-a, aell skeells cust 15 less Inergy (meeneemoom cust 10 Inergy), und skeells rechaerge-a 25% slooer. Thees spureet deees aeffter 1...60 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...6 spureet (1...60 secund leeffespun). Skeells cust 15 less Inergy (meeneemoom cust 10 Inergy) und rechaerge-a 25% slooer fur creaetoores in runge-a. Dues nut aeffffect spureets."
 			}
 		}
 	}

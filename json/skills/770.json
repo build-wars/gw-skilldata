@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "影返",
+				"description": "咒文。 使邻近的所有敌人遭受「致残」症状3...8秒，同时迅速移动至目标盟友身旁。",
+				"concise": "咒文。 使邻近的所有敌人遭受「致残」症状 3...8秒，同时迅速移动至目标盟友身旁。"
+			},
+			"cht": {
+				"name": "影返",
+				"description": "咒文魔法： 使鄰近的所有敵人遭受「殘廢 」病症 3...8 秒，同時迅速移動至目標其他隊友身旁。",
+				"concise": "咒文魔法： 使鄰近的所有敵人遭受「殘廢 」病症 3...8 秒，同時迅速移動至目標其他隊友身旁。"
+			},
 			"de": {
+				"name": "Rückkehr",
+				"description": "Zauber. Alle umstehenden Gegner werden 3...8 Sekunde[n] lang verkrüppelt. Unternehmt Schattenschritt zur Position des ausgewählten Verbündeten.",
+				"concise": "Zauber. Verursacht bei allen umstehenden Feinden um Euch Zustand Verkrüppelung (3...8 Sekunde[n]). Ihr unternehmt einen Schattenschritt zur Position des Verbündeten. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Rückkehr",
 				"description": "Alle umstehenden Gegner werden 3...8 Sekunden lang verkrüppelt. Unternehmt Schattenschritt zur Position des ausgewählten Verbündeten.",
 				"concise": "Verursacht bei allen umstehenden Feinden um Euch Zustand Verkrüppelung (3...8 Sekunden). Ihr unternehmt einen Schattenschritt zur Position des Verbündeten. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Return",
+				"description": "Spell. All adjacent foes are Crippled for 3...8 seconds. Shadow Step to target other ally's location.",
+				"concise": "Spell. Inflicts Crippled condition (3...8 seconds) on all foes adjacent to you. You Shadow Step to target ally's location. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Return",
 				"description": "All adjacent foes are Crippled for 3...8 seconds. Shadow Step to target other ally's location.",
 				"concise": "Inflicts Crippled condition (3...8 seconds) on all foes adjacent to you. You Shadow Step to target ally's location. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Retorno",
+				"description": "Conjuro. Todos los enemigos adyacentes quedan lisiados durante 3...8 segundos. Das un paso sombrío a la ubicación del aliado objetivo.",
+				"concise": "Conjuro. Causa lisiadura (3...8 segundos) a todos los enemigos adyacentes a ti. Das un paso sombrío hasta el aliado objetivo. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Retour",
+				"description": "Sort. Tous les ennemis adjacents souffrent d'Infirmité pendant 3...8 secondes. Vous faites une Foulée de l'ombre jusqu'à la position de l'allié visé.",
+				"concise": "Sort. Provoque l'Infirmité (3...8 secondes) chez tous les ennemis adjacents. Vous effectuez une foulée de l'ombre vers la position de la cible alliée. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Retour",
 				"description": "Tous les ennemis adjacents souffrent d'Infirmité pendant 3...8 secondes. Vous vous téléportez sur la position de l'allié visé.",
 				"concise": "Provoque l'Infirmité (3...8 secondes) chez tous les ennemis adjacents. Vous effectuez une foulée de l'ombre vers la position de la cible alliée visée. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "Ritorno",
+				"description": "Magia. Tutti i nemici adiacenti diventano storpi per 3...8 secondo[i] e tu compi un Passo nell'Ombra nella posizione dell'obiettivo alleato.",
+				"concise": "Magia. Condizione inflitta a tutti i nemici a te adiacenti: Storpiatura (3...8 secondo[i]). Compi un Passo nell'Ombra nella posizione dell'obiettivo alleato. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "リターン",
+				"description": "スペル： 隣接するすべての敵は 3...8 秒間「不自由」状態になり、プレイヤーはターゲットした自分以外の味方のそばに瞬間移動します。",
+				"concise": "スペル： プレイヤーに隣接するすべての敵は「不自由」状態になり (3...8 秒)、プレイヤーはターゲットした味方のそばに瞬間移動します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "아군으로의 귀환",
+				"description": "마법. 대상 지정: 아군. 인접한 모든 적은 3...8초 동안 다리 부상 상태가 되고, 자신은 대상이 있는 위치로 순간 이동합니다. 자신을 대상으로 사용할 수 없습니다.",
+				"concise": "마법. 인접한 모든 적에게 다리 부상을 입힙니다.(3...8초) 자신은 대상 아군이 있는 위치로 순간 이동합니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Powrót",
+				"description": "Czar. Wszyscy przeciwnicy bezpośrednio przy Tobie zostają okulawieni na 3...8 sek. Wykonujesz krok cienia do wybranego sojusznika.",
+				"concise": "Czar. Okulawia (3...8 sek.) wszystkich przeciwników bezpośrednio przy tobie. Wykonujesz krok cienia do miejsca wybranego sojusznika. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Return",
+				"description": "Заклинание. Все окружающие противники будут хромать в течение 3...8 сек. Вы делаете призрачный шаг в местоположение выбранного союзника (но не вас).",
+				"concise": "Заклинание. Вызывает хромоту (3...8 сек) у всех окружающих вас противников. Вы делаете призрачный шаг к выбранному союзнику. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Retoorn",
+				"description": "Spell. Aell aedjaecent fues aere-a Creeppled fur 3...8 secunds. Shaedoo Step tu taerget oozeer aelly's lucaeshun.",
+				"concise": "Spell. Inffleects Creeppled cundeeshun (3...8 secunds) oon aell fues aedjaecent tu yuoo. Yuoo Shaedoo Step tu taerget aelly's lucaeshun. Cunnut selff-taerget."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火焰陷阱",
+				"description": "陷阱技。 当火焰陷阱被触动时，陷阱附近的所有敌人将受到每秒5...20点的火焰伤害(持续 3秒)，遭受「灼烧」症状 1...3秒。火焰陷阱在 90秒 后消失。此技能发动时容易被打断。",
+				"concise": "陷阱技。 当火焰陷阱被触动时，陷阱附近的所有敌人将受到每秒5...20点的火焰伤害(持续 3秒)，遭受「灼烧」症状 1...3秒。火焰陷阱在 90秒 后消失。此技能发动时容易被打断。"
+			},
+			"cht": {
+				"name": "火焰陷阱",
+				"description": "陷阱： 當火焰陷阱被觸動時，使陷阱附近的所有敵人每秒受到 5...20 火焰傷害(持續3秒)，並且使其遭受「著火」病症 1...3 秒。火焰陷阱在 90 秒後消失。此技能發動時容易被中斷。",
+				"concise": "陷阱： 當火焰陷阱被觸動時，使陷阱附近的所有敵人每秒受到 5...20 火焰傷害(持續3秒)，並且使其遭受「著火」病症 1...3 秒。火焰陷阱在 90 秒後消失。此技能發動時容易被中斷。"
+			},
 			"de": {
+				"name": "Flammenfalle",
+				"description": "Falle. Wird Flammenfalle aktiviert, erleiden alle Gegner in der Nähe pro Sekunde (insgesamt 3 Sekunden lang) 5...20 Punkt[e] Flammenschaden und werden 1...3 Sekunde[n] lang in Brand gesetzt. Flammenfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunden: Betrifft Feinde in der Nähe. Richtet jede Sekunde 5...20 Punkt[e] Feuerschaden an (3 Sekunden). Verursacht Zustand Brennen (1...3 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Flammenfalle",
 				"description": "Wird Flammenfalle aktiviert, erleiden alle Gegner in der Nähe pro Sekunde (insgesamt 3 Sekunden lang) 5...20 Punkte Flammenschaden und werden 1...3 Sekunden lang in Brand gesetzt. Flammenfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet jede Sekunde 5...20 Punkte Feuerschaden an (3 Sekunden). Verursacht Zustand Brennen (1...3 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Flame Trap",
+				"description": "Trap. When Flame Trap is triggered, every second (for 3 seconds total), all nearby foes are struck for 5...20 fire damage and set on fire for 1...3 seconds. Flame Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Deals 5...20 fire damage every second (3 seconds). Inflicts Burning condition (1...3 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Flame Trap",
 				"description": "When Flame Trap is triggered, every second (for 3 seconds total), all nearby foes are struck for 5...20 fire damage and set on fire for 1...3 second[s]. Flame Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Deals 5...20 fire damage every second (3 seconds). Inflicts Burning condition (1...3 second[s]). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Trampa de fuego",
+				"description": "Trampa. Cuando se active esta trampa, por cada segundo que pase (3 en total) todos los enemigos del área reciben 5...20 de daño de fuego y arden durante 1...3 segundos. La Trampa de fuego se desactiva a los 90 segundos. Cuando la estés colocando, se te podrá interrumpir con facilidad.",
+				"concise": "Trampa. (90 segundos). Afecta a los enemigos cercanos. Hace 5...20 de daño de fuego por segundo (3 segundos). Causa quemadura (1...3 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège de flammes",
+				"description": "Piège. Quand le Piège de flammes se déclenche, tous les ennemis proches de la zone d'effet subissent 5...20 points de dégâts du feu chaque seconde (pendant 3 secondes) et s'embrasent pendant 1...3 secondes. Le Piège de flammes se termine au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige 5...20 points de dégâts du feu par seconde (3 secondes). Inflige la Brûlure (1...3 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Piège de flammes",
 				"description": "Quand le Piège de flammes se déclenche, tous les ennemis proches de la zone d'effet subissent 5...20 points de dégâts du feu chaque seconde (pendant 3 secondes) et s'embrasent pendant 1...3 seconde. Le Piège de flammes se termine au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trappola di Fiamme",
+				"description": "Trappola. Quando la Trappola di Fiamme viene attivata, ogni secondo, per un totale di 3 secondi, tutti i nemici nei dintorni subiscono 5...20 danno[i] da fuoco e prendono fuoco per 1...3 secondo[i]. Termina dopo 90 secondi. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Danni da fuoco inferti al secondo: 5...20 (3 secondi). Condizione inflitta: Bruciatura (1...3 secondo[i]). Facile interruzione."
+			},
+			"jp": {
+				"name": "フレイム トラップ",
+				"description": "トラップ： このトラップが作動すると、3秒間、周囲にいるすべての敵は毎秒 5...20 のファイア ダメージを受け、1...3 秒間「火傷」状態になります。このトラップは90秒後に消滅します。このスキルの詠唱は容易に中断されます。",
+				"concise": "トラップ： (90秒) 周囲にいる敵に毎秒 5...20 のファイア ダメージを与え (3秒)、「火傷」状態にします (1...3 秒)。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "화염 함정",
+				"description": "함정. 대상 지정: 없음. 함정이 작동한 뒤 총 3초 동안 함정 부근의 모든 적은 매초 5...20의 불 대미지를 입고, 1...3초 동안 화상 상태가 됩니다. 함정은 90초 뒤에 사라지며, 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 영향을 미칩니다. 매초 5...20의 불 대미지를 주고(3초), 화상을 입힙니다.(1...3초) 설치 동작이 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Płomienna Pułapka",
+				"description": "Pułapka. Kiedy Płomienna Pułapka zostanie uruchomiona, to w każdej sekundzie (z 3 łącznie) wszyscy przeciwnicy w pobliżu otrzymują 5...20 pkt. obrażeń od ognia i zaczynają płonąć przez 1...3 sek. Płomienna Pułapka przestaje działać po 90 sekundach. W czasie, kiedy będziesz używać tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. W każdej sekundzie zadaje 5...20 pkt. obrażeń od ognia (3 sek.). Wywołuje przypadłość płonięcie (1...3 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Flame Trap",
+				"description": "Ловушка. Когда Flame Trap срабатывает, каждую секунду в течение 3 сек все противники поблизости получают 5...20 ед. урона силой огня и загораются на 1...3 сек. Flame Trap разряжается через 90 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Наносит 5...20 ед. урона силой огня каждую секунду (3 сек). Поджигает противников (1...3 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Flaeme-a Traep",
+				"description": "Traep. Vhee Flaeme-a Traep is treeggered, ifery secund (fur 3 secunds tutael), aell neaerby fues aere-a stroock fur 5...20 fure-a daemaege-a und set oon fure-a fur 1...3 secunds. Flaeme-a Traep inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Deaels 5...20 fure-a daemaege-a ifery secund (3 secunds). Inffleects Boorneeng cundeeshun (1...3 secunds). Iaeseely interroopted."
 			}
 		}
 	}

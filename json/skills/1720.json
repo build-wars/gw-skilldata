@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "锐锋箭",
+				"description": "弓术。 命中时，对敌人造成5...20点额外伤害。如果你打出致命一击，你将造成额外5...25点伤害。",
+				"concise": "弓术。 命中时，对敌人造成5...20点额外伤害。如果你打出致命一击，你将造成额外5...25点伤害。"
+			},
+			"cht": {
+				"name": "鋒銳之箭",
+				"description": "弓術攻擊技能： 命中時對目標造成 5...20 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5...25 傷害。",
+				"concise": "弓術攻擊技能： 命中時對目標造成 5...20 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5...25 傷害。"
+			},
 			"de": {
+				"name": "Scharfer Pfeil",
+				"description": "Bogenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Falls Ihr einen kritischen Treffer landet, fügt Ihr zusätzlich 5...25 Punkt[e] Schaden zu.",
+				"concise": "Bogenangriff. Richtet +5...20 Punkt[e] Schaden an. Richtet zusätzlich +5...25 Punkt[e] Schaden an, falls Ihr einen kritischen Treffer landet."
+			},
+			"de-guildwiki": {
 				"name": "Scharfer Pfeil",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Falls Ihr einen kritischen Treffer landet, fügt Ihr zusätzlich 5...25 Punkte Schaden zu.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Richtet zusätzlich +5...25 Punkte Schaden an, falls Ihr einen kritischen Treffer landet."
 			},
 			"en": {
 				"name": "Keen Arrow",
+				"description": "Bow Attack. If this attack hits, you strike for +5...20 damage. If you land a critical hit, you deal an additional +5...25 damage.",
+				"concise": "Bow Attack. Deals +5...20 damage. Deals +5...25 more damage if you land a critical hit."
+			},
+			"en-gww": {
+				"name": "Keen Arrow",
 				"description": "If this attack hits, you strike for +5...20 damage. If you land a critical hit, you deal an additional +5...25 damage.",
 				"concise": "Deals +5...20 damage. Deals +5...25 more damage if you land a critical hit."
 			},
+			"es": {
+				"name": "Flecha afilada",
+				"description": "Ataque con arco. Si este ataque impacta, harás +5...20 de daño. Si es además un golpe crítico, harás +5...25 de daño adicional.",
+				"concise": "Ataque con arco. Hace +5...20 de daño. +5...25 de daño extra si das un golpe crítico."
+			},
 			"fr": {
+				"name": "Flèche vive",
+				"description": "Attaque à l'arc. Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous causez un coup critique, vous infligez +5...25 points de dégâts supplémentaires.",
+				"concise": "Attaque à l'arc. Inflige +5...20 points de dégâts. Inflige +5...25 points de dégâts supplémentaires si vous faites un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Flèche vive",
 				"description": "Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si vous causez un coup critique, vous infligez +5...25 points de dégâts supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Freccia Affilata",
+				"description": "Attacco con Arco. Se questo attacco va a segno, infliggi +5...20 danno[i]; se metti a segno un attacco critico infliggi anche +5...25 danno[i].",
+				"concise": "Attacco con Arco. Danni inferti: +5...20. Assesta +5...25 danno[i] in più se metti a segno un colpo critico."
+			},
+			"jp": {
+				"name": "キーン アロー",
+				"description": "ボウ アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。クリティカルヒットであった場合、さらに 5...25 の追加ダメージを与えます。",
+				"concise": "ボウ アタック： 5...20 の追加ダメージを与えます。クリティカル ヒットが成功した場合、さらに 5...25 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "예리한 화살",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 치명타를 터뜨리면 5...25의 대미지를 추가로 줍니다.",
+				"concise": "활 공격. 5...20의 대미지를 추가로 줍니다. 치명타를 터뜨리면 5...25의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Ostra Strzała",
+				"description": "Strzał z łuku. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeśli jest to trafienie krytyczne, zdajesz dodatkowe +5...25 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Zadaje +5...20 pkt. obrażeń. Zadaje +5...25 pkt. dodatkowych obrażeń, jeżeli wykonasz trafienie krytyczne."
+			},
+			"ru": {
+				"name": "Keen Arrow",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если выстрел завершается критическим попаданием, вы наносите дополнительно еще 5...25 ед. урона.",
+				"concise": "Атака из лука. Наносит дополнительно 5...20 ед. урона. Наносит дополнительно еще 5...25 ед. урона, если вы наносит критический удар."
+			},
+			"bork": {
+				"name": "Keee Aerroo",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +5...20 daemaege-a. Iff yuoo lund a creeteecael heet, yuoo deael un aeddeeshunael +5...25 daemaege-a.",
+				"concise": "Boo Aettaeck. Deaels +5...20 daemaege-a. Deaels +5...25 mure-a daemaege-a iff yuoo lund a creeteecael heet."
 			}
 		}
 	}

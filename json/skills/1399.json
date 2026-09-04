@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "吸收之盾",
+				"description": "增益魔法。 在3...7秒之内，当友方目标受到此「增益魔法」效果影响时，使他每次所承受的伤害依次减少5点。",
+				"concise": "增益魔法。 在3...7秒之内，当友方目标受到此「增益魔法」效果影响时，使他每次所承受的伤害依次减少5点。"
+			},
+			"cht": {
+				"name": "吸收盾",
+				"description": "加持魔法： 使目標盟友在 3...7 秒內每當受到傷害時，傷害值依其受到傷害的次數以 5 的倍數遞減。",
+				"concise": "加持魔法： 使目標盟友在 3...7 秒內每當受到傷害時，傷害值依其受到傷害的次數以 5 的倍數遞減。"
+			},
 			"de": {
+				"name": "Schild der Absorption",
+				"description": "Verzauberung. 3...7 Sekunde[n] lang ist Schaden, den der Verbündete (bzw. Ihr selbst) erleidet, für jeden Treffer, den dieser Verbündete erleidet, während er unter dieser Verzauberung steht, um 5 Punkt[e] reduziert.",
+				"concise": "Verzauberung. 3...7 Sekunde[n]: Reduziert erlittenen Schaden jedes Mal um 5 Punkt[e], wenn der Verbündete (bzw. Ihr selbst) Schaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Schild der Absorption",
 				"description": "3...7 Sekunden lang ist Schaden, den der Verbündete (bzw. Ihr selbst) erleidet, für jeden Treffer, den dieser Verbündete erleidet, während er unter dieser Verzauberung steht, um 5 Punkte reduziert.",
 				"concise": "3...7 Sekunden: Reduziert erlittenen Schaden jedes Mal um 5 Punkte, wenn der Verbündete (bzw. Ihr selbst) Schaden erleidet."
 			},
 			"en": {
 				"name": "Shield of Absorption",
+				"description": "Enchantment Spell. For 3...7 seconds, damage received by target ally is reduced by 5 each time that ally is hit while under the effects of this enchantment.",
+				"concise": "Enchantment Spell. (3...7 seconds.) Reduces incoming damage by 5 each time target ally takes damage."
+			},
+			"en-gww": {
+				"name": "Shield of Absorption",
 				"description": "For 3...7 seconds, damage received by target ally is reduced by 5 each time that ally is hit while under the effects of this enchantment.",
 				"concise": "(3...7 seconds.) Reduces incoming damage by 5 each time target ally takes damage."
 			},
+			"es": {
+				"name": "Escudo de absorción",
+				"description": "Conjuro con encantamiento. Durante 3...7 segundos, el daño que reciba el objetivo (un aliado o tú mismo) se reduce en 5 cada vez que éste sea golpeado estando bajo los efectos de este encantamiento.",
+				"concise": "Conjuro con encantamiento. (3...7 segundos). Reduce 5 del daño que el objetivo (un aliado o tú mismo) reciba."
+			},
 			"fr": {
+				"name": "Bouclier d'absorption",
+				"description": "Enchantement. Pendant 3...7 secondes, les dégâts reçus par la cible (un allié ou vous-même) sont réduits de 5 points chaque fois que cette cible est blessée pendant qu'elle se trouve sous les effets de cet enchantement.",
+				"concise": "Enchantement. (3...7 secondes.) Réduit les dégâts subis par l'allié visé de 5 points à chaque attaque."
+			},
+			"fr-gwiki": {
 				"name": "Bouclier d'absorption",
 				"description": "Pendant 3...7 secondes, les dégâts reçus par la cible (un allié ou vous-même) sont réduits de 5 chaque fois que cette cible est blessée pendant qu'elle se trouve sous les effets de cet enchantement.",
 				"concise": "(3...7 secondes.) Réduit les dégâts subits par l'allié visé de 5 points à chaque attaque."
+			},
+			"it": {
+				"name": "Scudo dell'Assorbimento",
+				"description": "Incantesimo. Per 3...7 secondo[i], il danno ricevuto dall'obiettivo alleato viene ridotto di 5 ogni volta che l'alleato viene colpito mentre si trova sotto gli effetti di questo incantesimo.",
+				"concise": "Incantesimo. (Secondi: 3...7) Riduce di 5 i danni in arrivo ogni volta che l'obiettivo (un alleato o te stesso) subisce danni."
+			},
+			"jp": {
+				"name": "アブソープション シールド",
+				"description": "強化スペル： 3...7 秒間、ターゲットした味方が攻撃を受けるたびに、その味方の受けるダメージが 5 減少します。",
+				"concise": "強化スペル： (3...7 秒) ターゲットした味方がダメージを受けるたびに、そのダメージは 5 減少します。"
+			},
+			"kr": {
+				"name": "흡수의 방패",
+				"description": "강화 마법. 대상 지정: 아군. 3...7초 동안 대상이 명중될 때마다 받는 대미지가 5 감소합니다.",
+				"concise": "강화 마법. (3...7초) 대상이 받는 대미지가 5 감소합니다."
+			},
+			"pl": {
+				"name": "Pochłaniająca Tarcza",
+				"description": "Zaklęcie (czar). Przez 3...7 sek., za każdym razem, kiedy wybrany sojusznik zostanie trafiony będąc pod działaniem tego zaklęcia, obrażenia przez niego otrzymywane są obniżane o 5.",
+				"concise": "Zaklęcie (czar). (3...7 sek.) Obniża otrzymywane obrażenia o 5, za każdym razem, kiedy wybrany sojusznik otrzymuje obrażenia."
+			},
+			"ru": {
+				"name": "Shield of Absorption",
+				"description": "Заклинание-чары. В течение 3...7 сек урон, получаемый выбранным союзником, уменьшается на 5 ед. каждый раз, когда этот союзник получает повреждения, находясь под действием этих чар.",
+				"concise": "Заклинание-чары. (3...7 сек) Уменьшает получаемый урон на 5 ед. каждый раз, когда выбранный союзник получает урон."
+			},
+			"bork": {
+				"name": "Sheeeld ooff Aebsurpshun",
+				"description": "Inchuntment Spell. Fur 3...7 secunds, daemaege-a receeefed by taerget aelly is redooced by 5 iaech teeme-a thaet aelly is heet vheele-a under zee iffffects ooff thees inchuntment.",
+				"concise": "Inchuntment Spell. (3...7 secunds.) Redooces incumeeng daemaege-a by 5 iaech teeme-a taerget aelly taekes daemaege-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失败的代价",
+				"description": "负面魔法。 在30秒之内，使目标敌人有25%的几率攻击失误，每当攻击失误时，目标敌人都会受到1...46点伤害。",
+				"concise": "负面魔法。 使目标敌人的命中率下降 25%，每当攻击未命中时，目标敌人都会受到 1...46点 伤害，效果持续 30秒。"
+			},
+			"cht": {
+				"name": "失敗的代價",
+				"description": "降咒魔法： 持續 30 秒，使目標敵人有 25% 的機率發生攻擊「失誤」，而且每次該目標攻擊「失敗」時將受到 1...46 傷害。",
+				"concise": "降咒魔法： 持續 30 秒，使目標敵人有 25% 的機率發生攻擊「失誤」，而且每次該目標攻擊「失敗」時將受到 1...46 傷害。"
+			},
 			"de": {
+				"name": "Preis des Versagens",
+				"description": "Verhexung. 30 Sekunden lang besteht eine 25%ige Wahrscheinlichkeit, dass die Angriffe des Gegners fehlschlagen. Für jeden Fehlschlag im Kampf erleidet er 1...46 Punkt[e] Schaden.",
+				"concise": "Verhexung. 30 Sekunden: Die Angriffe des Gegners gehen mit 25%iger Wahrscheinlichkeit daneben. Gegner erleidet für jeden misslungenen Angriff 1...46 Punkt[e] Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Preis des Versagens",
 				"description": "30 Sekunden lang besteht eine 25%ige Wahrscheinlichkeit, dass die Angriffe des Gegners fehlschlagen. Für jeden Fehlschlag im Kampf erleidet er 1...46 Punkte Schaden.",
 				"concise": "30 Sekunden: Die Angriffe des Gegners gehen mit 25%iger Wahrscheinlichkeit daneben. Gegner erleidet für jeden misslungenen Angriff 1...46 Punkte Schaden."
 			},
 			"en": {
 				"name": "Price of Failure",
+				"description": "Hex Spell. For 30 seconds, target foe has a 25% chance to miss with attacks and takes 1...46 damage whenever that foe fails to hit in combat.",
+				"concise": "Hex Spell. (30 seconds.) 25% chance to miss. Target foe takes 1...46 damage whenever it fails to hit."
+			},
+			"en-gww": {
+				"name": "Price of Failure",
 				"description": "For 30 seconds, target foe has a 25% chance to miss with attacks and takes 1...46 damage whenever that foe fails to hit in combat.",
 				"concise": "(30 seconds.) 25% chance to miss. Target foe takes 1...46 damage whenever it fails to hit."
 			},
+			"es": {
+				"name": "Precio del fracaso",
+				"description": "Conjuro con maleficio. Durante 30 segundos, el enemigo objetivo tendrá un 25% de posibilidades de fallar sus ataques y recibirá 1...46 de daño siempre que falle.",
+				"concise": "Conjuro con maleficio. (30 segundos). 25% de probabilidades de fallar. El enemigo objetivo recibe 1...46 de daño cuando falle."
+			},
 			"fr": {
+				"name": "Prix de l'échec",
+				"description": "Maléfice. Pendant 30 secondes, l'ennemi a 25% de risques de rater ses attaques et de subir 1...46 points de dégâts à chaque attaque ratée.",
+				"concise": "Maléfice. (30 secondes.) 25% de chances de manquer. L'ennemi visé subit 1...46 points de dégâts chaque fois qu'il manque une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Prix de l'échec",
 				"description": "Pendant 30 secondes, l'ennemi a 25% de risques de rater ses attaques et de subir 1...46 points de dégâts à chaque attaque ratée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Prezzo del Fallimento",
+				"description": "Fattura. Per 30 secondi, l'obiettivo nemico ha il 25% di probabilità di sbagliare gli attacchi e subisce 1...46 danno[i] ogni volta che manca l'obiettivo.",
+				"concise": "Fattura. (Secondi: 30) Probabilità di mancare il bersaglio: 25%. L'obiettivo nemico subisce 1...46 danno[i] ogni volta che manca il bersaglio."
+			},
+			"jp": {
+				"name": "フェイリア プライス",
+				"description": "弱体化スペル： 30秒間、ターゲットした敵は25%の確率で攻撃に失敗し、そのたびに 1...46 のダメージを受けます。",
+				"concise": "弱体化スペル： (30秒) 25%の確率で攻撃に失敗します。ターゲットした敵が攻撃に失敗するたびに 1...46 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "실패의 덫",
+				"description": "약화 마법. 대상 지정: 적. 30초 동안 대상은 25%의 확률로 공격에 실패합니다. 공격에 실패할 때마다 대상은 1...46의 대미지를 입습니다.",
+				"concise": "약화 마법. (30초) 대상은 25%의 확률로 공격에 실패하고, 공격에 실패할 때마다 1...46의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Cena Porażki",
+				"description": "Klątwa (czar). Przez 30 sek., wybrany przeciwnik ma 25% szansy na nieudany atak i otrzymuje 1...46 pkt. obrażeń za każdym razem, kiedy spudłuje w walce.",
+				"concise": "Klątwa (czar). (30 sek.) 25% szans na nietrafianie. Wybrany przeciwnik otrzymuje 1...46 pkt. obrażeń, za każdym razem, kiedy nie trafi."
+			},
+			"ru": {
+				"name": "Price of Failure",
+				"description": "Заклинание-проклятье. В течение 30 сек выбранный противник получает 25%-й шанс промахнуться при атаке. Этот противник получает 1...46 ед. урона за каждый промах в бою.",
+				"concise": "Заклинание-проклятье. (30 сек) 25% шанс промахнуться. Выбранный противник получает 1...46 ед. урона за каждую неудачную атаку."
+			},
+			"bork": {
+				"name": "Preece-a ooff Faeeeloore-a",
+				"description": "Hex Spell. Fur 30 secunds, taerget fue-a haes a 25% chunce-a tu meess veet aettaecks und taekes 1...46 daemaege-a vhenefer thaet fue-a faeeels tu heet in cumbaet.",
+				"concise": "Hex Spell. (30 secunds.) 25% chunce-a tu meess. Taerget fue-a taekes 1...46 daemaege-a vhenefer it faeeels tu heet."
 			}
 		}
 	}

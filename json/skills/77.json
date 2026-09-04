@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "混乱风暴",
+				"description": "咒文。 向敌人施放混乱风暴。在10秒之内，所有邻近风暴圈的敌人每秒将受到5...25点伤害。如果命中正在施法的敌人，那么敌人每受到混乱风暴的伤害一次，他将失去0...2点能量。",
+				"concise": "咒文。 向敌人施放混乱风暴，所有风暴圈附近的敌人每秒将受到 5...25点 伤害。如果命中正在施法的敌人，那么敌人每受创一次，将会抽取其 0...2点 能量，效果持续 10秒。"
+			},
+			"cht": {
+				"name": "混沌風暴",
+				"description": "咒文魔法： 在目標敵人位置創造渾沌風暴，持續 10 秒。每秒使鄰近敵人受到 5...25 傷害及失去 0...2 能量。",
+				"concise": "咒文魔法： 在目標敵人位置創造渾沌風暴，持續 10 秒。每秒使鄰近敵人受到 5...25 傷害及失去 0...2 能量。"
+			},
 			"de": {
+				"name": "Chaossturm",
+				"description": "Zauber. An der Position des Gegners wird ein Chaossturm erzeugt, der 10 Sekunden lang anhält. Umstehende Feinde erleiden pro Sekunde 5...25 Punkt[e] Schaden und verlieren 0...2 Energiepunkt[e].",
+				"concise": "Zauber. Fügt pro Sekunde 5...25 Punkt[e] Schaden zu und verursacht einen Verlust von 0...2 Energiepunkt[en] (10 Sekunde[n]). Trifft umstehende Feinde um anfängliche Position des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Chaossturm",
 				"description": "An der Position des Gegners wird ein Chaossturm erzeugt, der 10 Sekunden lang anhält. Umstehende Feinde erleiden pro Sekunde 5...25 Punkte Schaden und verlieren 0...2 Energiepunkte.",
 				"concise": "Fügt pro Sekunde 5...25 Punkte Schaden zu und verursacht einen Verlust von 0...2 Energiepunkten (10 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
 			},
 			"en": {
 				"name": "Chaos Storm",
+				"description": "Spell. Create a Chaos Storm at target foe's location that lasts for 10 seconds. Each second, foes adjacent to this location take 5...25 damage and lose 0...2 Energy.",
+				"concise": "Spell. Deals 5...25 damage and causes 0...2 Energy loss each second (10 seconds). Hits foes adjacent to target's initial location."
+			},
+			"en-gww": {
+				"name": "Chaos Storm",
 				"description": "Create a Chaos Storm at target foe's location that lasts for 10 seconds. Each second, foes adjacent to this location take 5...25 damage and lose 0...2 Energy.",
 				"concise": "Deals 5...25 damage and causes 0...2 Energy loss each second (10 seconds). Hits foes adjacent to target's initial location."
 			},
+			"es": {
+				"name": "Tormenta del caos",
+				"description": "Conjuro. Creas una Tormenta del caos en la ubicación del enemigo objetivo que dura 10 segundos. Cada segundos, los enemigos adyacentes a su ubicación recibirán 5...25 de daño y perderán 0...2 de energía.",
+				"concise": "Conjuro. Hace 5...25 de daño y causa 0...2 de pérdida de energía por segundo (10 segundos). Alcanza a los enemigos adyacentes a la ubicación inicial del objetivo."
+			},
 			"fr": {
+				"name": "Tempête chaotique",
+				"description": "Sort. Crée une Tempête chaotique sur la position de l'ennemi d'une durée de 10 secondes. Toutes les secondes, les ennemis adjacents à cette position subissent 5...25 points de dégâts et perdent 0...2 points d'énergie.",
+				"concise": "Sort. Inflige 5...25 points de dégâts et entraîne la perte de 0...2 points d'énergie toutes les secondes (10 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Tempête chaotique",
 				"description": "Crée une Tempête chaotique sur la position de l'ennemi qui dure 10 secondes. Chaque seconde, les ennemis adjacents à cette position subissent 5...25 points de dégâts et perdent 0...2 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tempesta di Caos",
+				"description": "Magia. Crea un Tempesta di Caos in corrispondenza dell'obiettivo nemico che dura almeno 10 secondi. I nemici adiacenti subiscono 5...25 danni e perdono 0...2 Punti Energia al secondo.",
+				"concise": "Magia. Infligge 5...25 danni e provoca la perdita di 0...2 Punti Energia al secondo (10 secondi). Colpisce i nemici adiacenti alla posizione iniziale dell'obiettivo."
+			},
+			"jp": {
+				"name": "カオス ストーム",
+				"description": "スペル： ターゲットした敵がいる場所に 10 秒間、強風を起こします。この場所に隣接する敵に毎秒 5...25 のダメージを与え、エネルギーを 0...2 減少させます。",
+				"concise": "スペル： (10 秒) 発動時にターゲットした敵がいた場所に隣接する敵に毎秒 5...25 のダメージを与え、エネルギーを 0...2 減少させます。"
+			},
+			"kr": {
+				"name": "혼돈의 폭풍",
+				"description": "마법. 대상 지정: 적. 대상의 위치에 혼돈의 폭풍을 만듭니다. 10초 동안 혼돈의 폭풍에 인접한 적들은 매초 5...25의 대미지를 입고, 0...2의 에너지를 잃습니다.",
+				"concise": "마법. (0...2초) 대상 위치에 인접한 적들에게 매초 5...25의 대미지와 0...2의 에너지 손실을 줍니다."
+			},
+			"pl": {
+				"name": "Burza Chaosu",
+				"description": "Czar. Tworzy Burzę Chaosu w miejscu, w którym znajduje się wybrany przeciwnik. Burza trwa 10 sek. Przeciwnicy bezpośrednio przy tym miejscu co sekundę otrzymują 5...25 pkt. obrażeń i tracą 0...2 energii.",
+				"concise": "Czar. W każdej sekundzie zadaje 5...25 pkt. obrażeń i powoduje utratę 0...2 energii (10 sek.). Trafia przeciwników bezpośrednio przy początkowym miejscu pobytu celu."
+			},
+			"ru": {
+				"name": "Chaos Storm",
+				"description": "Заклинание. Создает Chaos Storm в точке нахождения выбранного противника, который длится 10 сек. Каждую секунду противники, окружающие это место, получают 5...25 ед. урона и теряют 0...2 ед. энергии.",
+				"concise": "Заклинание. Наносит 5...25 ед. урона и вызывает потерю 0...2 ед. энергии каждую секунду (10 сек). Поражает противников, окружающих первоначальное местоположение цели."
+			},
+			"bork": {
+				"name": "Chaeus Sturm",
+				"description": "Spell. Creaete-a a Chaeus Sturm aet taerget fue-a's lucaeshun thaet laests fur 10 secunds. Iaech secund, fues aedjaecent tu thees lucaeshun taeke-a 5...25 daemaege-a und luse-a 0...2 Inergy.",
+				"concise": "Spell. Deaels 5...25 daemaege-a und cooses 0...2 Inergy luss iaech secund (10 secunds). Heets fues aedjaecent tu taerget's ineeteeael lucaeshun. Bork! Bork! Bork!"
 			}
 		}
 	}

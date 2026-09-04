@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻影突袭",
+				"description": "镰刀术。 命中时，对敌人造成1...10点额外伤害，如果你带有「增益魔法」效果，则为你回复50点能量值。",
+				"concise": "镰刀术。 命中时，对敌人造成1...10点额外伤害，如果你带有「增益魔法」效果，则为你回复50点能量值。"
+			},
+			"cht": {
+				"name": "麗莎之突襲",
+				"description": "鐮刀攻擊技能： 命中時中斷目標動作。若你身上有加持，則被中斷的技能在 1...10 秒內無法使用。此技能只有平常的50%傷害。",
+				"concise": "鐮刀攻擊技能： 命中時中斷目標動作。若你身上有加持，則被中斷的技能在 1...10 秒內無法使用。此技能只有平常的50%傷害。"
+			},
 			"de": {
+				"name": "Lyssas Angriff",
+				"description": "Sensenangriff. Wenn dieser Angriff trifft, unterbricht er eine Aktion. Falls Ihr verzaubert seid, wird jeder von Euch unterbrochene Zauber zudem 1...10 Sekunde[n] lang deaktiviert. Dieser Angriff fügt 50% des normalem Schadens zu.",
+				"concise": "Sensenangriff. Unterbricht eine Aktion. Falls Ihr verzaubert seid, wird der unterbrochene Zauber zudem 1...10 Sekunde[n] lang deaktiviert. Dieser Angriff fügt 50% des normalem Schadens zu."
+			},
+			"de-guildwiki": {
 				"name": "Lyssas Angriff",
 				"description": "Wenn dieser Angriff trifft, unterbricht er eine Aktion. Falls Ihr verzaubert seid, wird jede von Euch unterbrochene Fertigkeit zudem 1...10 Sekunden lang deaktiviert. Dieser Angriff fügt nur 50% des normalen Schadens zu.",
 				"concise": "Unterbricht eine Aktion. Falls Ihr verzaubert seid, werden die unterbrochenen Fertigkeiten zudem 1...10 Sekunden lang deaktiviert. Dieser Angriff fügt nur 50% des normalen Schadens zu."
 			},
 			"en": {
 				"name": "Lyssa's Assault",
+				"description": "Scythe Attack. This attack interrupts an action if it hits. If you are enchanted, any skill you interrupt is disabled for an additional 1...10 seconds. This attack does 50% of normal damage.",
+				"concise": "Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional 1...10 seconds. This attack does 50% of normal damage."
+			},
+			"en-gww": {
+				"name": "Lyssa's Assault",
 				"description": "This attack interrupts an action if it hits. If you are enchanted, any skill you interrupt is disabled for additional 1...10 second[s]. This attack does 50% normal damage.",
 				"concise": "Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional 1...10 second[s]. This attack does 50% of normal damage."
 			},
+			"es": {
+				"name": "Asalto de Lyssa",
+				"description": "Ataque con guadaña. Si impacta, este ataque interrumpe la acción. Si estás encantado, todas las habilidades que interrumpas se desactivarán durante 1...10 segundos más. Este ataque hace 50% de daño normal.",
+				"concise": "Ataque con guadaña. Interrumpe una acción. Si estás encantado, las habilidades que interrumpas se desactivarán durante 1...10 segundos más. Este ataque hace 50% de daño normal."
+			},
 			"fr": {
+				"name": "Assaut de Lyssa",
+				"description": "Attaque à la faux. Si cette attaque réussit, elle interrompt une action. Si vous êtes sous le coup d'un enchantement, toute compétence que vous interrompez est désactivée pendant 1...10 secondes de plus. Cette attaque inflige 50% des dégâts normaux.",
+				"concise": "Attaque à la faux. Interrompt une action. Si vous êtes sous le coup d'un enchantement, la compétence interrompue est désactivée pendant 1...10 secondes de plus. Cette attaque inflige 50% des dégâts normaux."
+			},
+			"fr-gwiki": {
 				"name": "Assaut de Lyssa",
 				"description": "Si elle réussit, cette attaque inflige +5...20 points de dégâts. Si vous êtes sous les effets d'un enchantement, vous obtenez 3...12 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Assalto di Lyssa",
+				"description": "Attacco con Falce. Se va a segno, questo attacco interrompe un'azione. Se sei sotto incantesimo, qualsiasi abilità tu interrompa viene disattivata per 1...10 secondi in più. Questo attacco infligge un 50% di danno normale.",
+				"concise": "Attacco con Falce. Interrompe un'azione. Disattivazione dell'abilità interrotta se sei sotto incantesimo: +1...10 secondi. Questo attacco infligge un 50% di danno normale."
+			},
+			"jp": {
+				"name": "リッサ アサルト",
+				"description": "サイズ アタック： この攻撃が成功すると、敵のアクションを中断します。プレイヤーに強化スペルがかけられている場合、中断したスキルの再使用時間が 1...10 秒増加します。この攻撃により与えるダメージは通常より 50% 増加します。",
+				"concise": "サイズ アタック： アクションを中断します。プレイヤーに強化スペルがかけられている場合、中断したスキルの再使用時間が 1...10 秒増加します。この攻撃により与えるダメージは通常より 50% 増加します。"
+			},
+			"kr": {
+				"name": "리사의 습격",
+				"description": "사이드 공격. 대상 지정: 없음. 공격이 성공하면 적의 동작을 방해합니다. 자신이 강화 마법에 걸려 있으면 적은 방해받은 스킬의 재활성이 추가로 1...10초 늘어납니다. 이 공격은 평소의 50%만큼 대미지를 줍니다.",
+				"concise": "사이드 공격. 동작을 방해합니다. 자신이 강화 마법에 걸려 있으면 방해한 스킬을 추가로 1...10초 동안 사용할 수 없게 합니다. 이 공격은 평소의 50%만큼 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Natarcie Lyssy",
+				"description": "Atak kosą. Jeśli ten atak trafi, powoduje przerwanie akcji. Jeśli znajdujesz się pod wpływem zaklęcia, każda umiejętność, którą przerwiesz, zostanie wyłączona na kolejne 1...10 sek. Ten atak zadaje 50% pkt. normalnych obrażeń.",
+				"concise": "Atak kosą. Przerywa czynność przeciwnika. Jeśli znajdujesz się pod wpływem zaklęcia, przerwana umiejętność zostanie wyłączona na kolejne 1...10 sek. Ten atak zadaje 50% pkt. normalnych obrażeń."
+			},
+			"ru": {
+				"name": "Lyssa's Assault",
+				"description": "Атака косой. Эта атака прерывает действие противника в случае попадания. Если вы находитесь под воздействием каких-либо чар, любое прерванное вами умение будет дополнительно недоступно в течение 1...10 сек. Эта атака наносит 50% от нормального урона.",
+				"concise": "Атака косой. Прерывает действие. Если вы находитесь под действием чар, прерванное вами умение будет дополнительно недоступно в течение 1...10 сек. Эта атака наносит 50% от нормального урона."
+			},
+			"bork": {
+				"name": "Lyssa's Aessoolt",
+				"description": "Scyzee Aettaeck. Thees aettaeck interroopts un aecshun iff it heets. Iff yuoo aere-a inchunted, uny skeell yuoo interroopt is deesaebled fur un aeddeeshunael 1...10 secunds. Thees aettaeck dues 50% ooff nurmael daemaege-a.",
+				"concise": "Scyzee Aettaeck. Interroopts un aecshun. Iff yuoo aere-a inchunted, zee interroopted skeell is deesaebled fur un aeddeeshunael 1...10 secunds. Thees aettaeck dues 50% ooff nurmael daemaege-a."
 			}
 		}
 	}

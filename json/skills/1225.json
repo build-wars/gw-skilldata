@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "引导之击",
+				"description": "咒文。 使目标敌人受到 5...95 闪电伤害。如果你身上持有着任何物品，则对该目标再提高 5...35 闪电伤害。",
+				"concise": "咒文。 使目标敌人受到 5...95 闪电伤害。如果你身上持有着任何物品，则对该目标再提高 5...35 闪电伤害。"
+			},
+			"cht": {
+				"name": "導引衝擊",
+				"description": "咒文魔法： 使目標敵人受到 5...95 閃電傷害。若你身上抱持著任何物品，則對該目標再增加 5...35 閃電傷害。",
+				"concise": "咒文魔法： 使目標敵人受到 5...95 閃電傷害。若你身上抱持著任何物品，則對該目標再增加 5...35 閃電傷害。"
+			},
 			"de": {
+				"name": "Gelenkter Schlag",
+				"description": "Zauber. Der Gegner erleidet 5...95 Punkt[e] Blitzschaden. Dieser Gegner erleidet zusätzlich 5...35 Punkt[e] Blitzschaden, wenn Ihr einen Gegenstand haltet.",
+				"concise": "Zauber. Richtet 5...95 Punkt[e] Blitzschaden an. Richtet zusätzlich 5...35 Punkt[e] Blitzschaden an, falls Ihr einen Gegenstand haltet."
+			},
+			"de-guildwiki": {
 				"name": "Gelenkter Schlag",
 				"description": "Der Gegner erleidet 5...95 Punkte Blitzschaden. Dieser Gegner erleidet zusätzlich 5...35 Punkte Blitzschaden, wenn Ihr einen Gegenstand haltet.",
 				"concise": "Richtet 5...95 Blitzschaden an. Richtet zusätzlich 5...35 Punkte Blitzschaden an, falls Ihr einen Gegenstand haltet."
 			},
 			"en": {
 				"name": "Channeled Strike",
+				"description": "Spell. Target foe is struck for 5...95 lightning damage. That foe is struck for an additional 5...35 lightning damage if you are holding an item.",
+				"concise": "Spell. Deals 5...95 lightning damage. Deals 5...35 additional lightning damage if you are holding an item."
+			},
+			"en-gww": {
+				"name": "Channeled Strike",
 				"description": "Target foe is struck for 5...95 lightning damage. That foe is struck for an additional 5...35 lightning damage if you are holding an item.",
 				"concise": "Deals 5...95 lightning damage. Deals 5...35 additional lightning damage if you are holding an item."
 			},
+			"es": {
+				"name": "Golpe canalizado",
+				"description": "Conjuro. Haces 5...95 de daño de relámpago al enemigo objetivo y 5...35 adicional si estás llevando algún objeto.",
+				"concise": "Conjuro. Hace 5...95 de daño de relámpago. 5...35 de daño de relámpago extra si llevas un objeto."
+			},
 			"fr": {
+				"name": "Frappe canalisée",
+				"description": "Sort. La cible ennemie subit 5...95 points de dégâts de la foudre. Cet ennemi reçoit 5...35 points de dégâts de la foudre supplémentaires si vous tenez un objet.",
+				"concise": "Sort. Inflige 5...95 points de dégâts de la foudre. Inflige 5...35 points de dégâts de la foudre supplémentaires si vous tenez un objet."
+			},
+			"fr-gwiki": {
 				"name": "Frappe canalisée",
 				"description": "La cible ennemie subit 5...95 points de dégâts de la foudre. Cet ennemi reçoit 5...35 points de dégâts de la foudre supplémentaires si vous tenez un objet.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Incanalato",
+				"description": "Magia. L'obiettivo nemico subisce 5...95 danno[i] da fulmine; se hai in mano un oggetto, quel nemico subisce 5...35 danno[i] da fulmine in più.",
+				"concise": "Magia. Danni da fulmine inferti: 5...95. Assesta 5...35 danno[i] da fulmine in più se hai in mano un oggetto."
+			},
+			"jp": {
+				"name": "チャネル ストライク",
+				"description": "スペル： ターゲットした敵に 5...95 のライトニング ダメージを与えます。プレイヤーが手にアイテムを持っている場合、5...35 の追加ライトニング ダメージを与えます。",
+				"concise": "スペル： 5...95 のライトニング ダメージを与えます。手にアイテムを持っている場合、5...35 の追加ライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "충격 유도",
+				"description": "마법. 대상 지정: 적. 대상에게 5...95의 번개 대미지를 줍니다. 자신이 드롭아이템을 들고 있으면 대상에게 5...35의 번개 대미지를 추가로 줍니다.",
+				"concise": "마법. 5...95의 번개 대미지를 줍니다. 자신이 드롭아이템을 들고 있으면 5...35의 번개 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Połączone Uderzenie",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...95 pkt. obrażeń od błyskawic. Ten przeciwnik otrzymuje dodatkowe 5...35 pkt. obrażeń od błyskawic, jeżeli trzymasz przedmiot.",
+				"concise": "Czar. Zadaje 5...95 pkt. obrażeń od błyskawic. Zadaje 5...35 pkt. dodatkowych obrażeń od błyskawic, jeżeli trzymasz przedmiot."
+			},
+			"ru": {
+				"name": "Channeled Strike",
+				"description": "Заклинание. Выбранный противник получает 5...95 ед. урона силой молнии. Этот противник получает дополнительно 5...35 ед. урона силой молнии, если вы держите в руках артефакт.",
+				"concise": "Заклинание. Наносит 5...95 ед. урона силой молнии. Наносит дополнительно 5...35 ед. урона силой молнии, если вы держите артефакт."
+			},
+			"bork": {
+				"name": "Chunneled Streeke-a",
+				"description": "Spell. Taerget fue-a is stroock fur 5...95 leeghtneeng daemaege-a. Thaet fue-a is stroock fur un aeddeeshunael 5...35 leeghtneeng daemaege-a iff yuoo aere-a huldeeng un item.",
+				"concise": "Spell. Deaels 5...95 leeghtneeng daemaege-a. Deaels 5...35 aeddeeshunael leeghtneeng daemaege-a iff yuoo aere-a huldeeng un item."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暴怒冲刺",
+				"description": "精英宠物攻击。 你的宠物发动暴怒冲刺，并且依照你冷却中的「野兽支配」属性技能数量，每个对目标敌人造成3...23点额外伤害。（最多60点）",
+				"concise": "精英宠物攻击。 你的宠物发动暴怒冲刺，并且依照你恢复中的「野兽支配」技能数量，每个对目标造成 3...23 额外伤害。(最大累计至 60 个)"
+			},
+			"cht": {
+				"name": "暴怒衝刺",
+				"description": "精英寵物攻擊： 你的寵物發動暴怒衝刺，並且依照你回復中的「野獸支配」技能數量，每個對目標造成 3...23 額外傷害。(最大 60 )",
+				"concise": "精英寵物攻擊： 你的寵物發動暴怒衝刺，並且依照你回復中的「野獸支配」技能數量，每個對目標造成 3...23 額外傷害。(最大 60 )"
+			},
 			"de": {
+				"name": "Erzürnter Ausfall (PvP)",
+				"description": "Elite-Tiergefährtenangriff. Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der für jede Eurer sich aufladenden Tierbeherrschungs-Fertigkeiten +3...23 Punkt[e] Schaden (maximaler Bonus 60) zufügt.",
+				"concise": "Elite-Tiergefährtenangriff. Richtet für jede Eurer sich aufladenden Tierbeherrschungs-Fertigkeiten +3...23 Punkt[e] Schaden an (maximal 60)."
+			},
+			"de-guildwiki": {
 				"name": "Erzürnter Ausfall (PvP)",
 				"description": "Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der für jede Tierbeherrschungs-Fertigkeit, die wieder aufgeladen wird, +3...23 Punkte Schaden (maximaler Bonus 60) zufügt.",
 				"concise": "Richtet für jede Eurer sich aufladenden Tierbeherrschungs-Fertigkeiten +3...23 Punkte Schaden an (maximal 60)."
 			},
 			"en": {
 				"name": "Enraged Lunge (PvP)",
+				"description": "Elite Pet Attack. Your animal companion attempts an Enraged Lunge that deals +3...23 damage (maximum bonus 60) for each recharging Beast Mastery skill.",
+				"concise": "Elite Pet Attack. Deals +3...23 damage (maximum 60) for each of your recharging Beast Mastery skills."
+			},
+			"en-gww": {
+				"name": "Enraged Lunge (PvP)",
 				"description": "Your animal companion attempts an Enraged Lunge that deals +3...23 damage (maximum bonus 60) for each recharging Beast Mastery skill.",
 				"concise": "Deals +3...23 damage (maximum 60) for each of your recharging Beast Mastery skills."
 			},
+			"es": {
+				"name": "Embestida enrabietada (PvP)",
+				"description": "Ataque con mascota de élite. Tu mascota lanzará un ataque Embestida enrabietada que causa +3...23 de daño al enemigo por cada habilidad de dominio de bestias que tengas recargándose (máximo 60).",
+				"concise": "Ataque con mascota de élite. Hace +3...23 de daño (máximo 60) por cada habilidad de dominio de bestias que tengas recargándose."
+			},
 			"fr": {
+				"name": "Coup enragé (PvP)",
+				"description": "Attaque de familier d'élite. Votre familier tente un Coup enragé qui inflige +3...23 points de dégâts (bonus maximal : 60) pour chaque compétence de Domptage qui se recharge.",
+				"concise": "Attaque de familier d'élite. Inflige +3...23 points de dégâts (maximum : 60) pour chacune de vos compétences de Domptage se rechargeant."
+			},
+			"fr-gwiki": {
 				"name": "Coup enragé (PvP)",
 				"description": "Votre familier tente un Coup enragé qui inflige +3...23 points de dégâts (bonus maximal: 60) pour chaque compétence de Domptage qui se recharge.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guizzo Furioso (PvP)",
+				"description": "Attacco d'Élite con Mascotte. La tua mascotte si cimenta in un Guizzo Furioso che infligge +3...23 di danni (bonus massimo 60) per ogni abilità di Potere sulle Belve che si sta ricaricando.",
+				"concise": "Attacco d'Élite con Mascotte. Danni inflitti per ogni abilità di Potere sulle Belve che si sta ricaricando: +3...23 (max 60)."
+			},
+			"jp": {
+				"name": "エンレイジ ランジ (PvP)",
+				"description": "エリート ペット アタック： プレイヤーのペットが、再使用準備中の「ビースト マスタリー」特性のスキルごとに 3...23 の追加ダメージを与える攻撃を開始します (最大 60 のボーナス)。",
+				"concise": "エリート ペット アタック： 再使用準備中の「ビースト マスタリー」の特性スキルごとに 3...23 の追加ダメージを与えます (最大 60)。"
+			},
+			"kr": {
+				"name": "분노의 돌진(대인전)",
+				"description": "엘리트 펫 공격. 대상 지정: 없음. 펫이 분노의 돌진을 사용하여 재활성 중인 동물 친화 스킬 하나당 3...23의 대미지를 추가로 줍니다. 최대 추가 대미지는 60입니다.",
+				"concise": "엘리트 펫 공격. 재활성 중인 동물 친화 스킬 하나당 3...23씩, 최대 60의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Rozszalałe Uderzenie (PvP)",
+				"description": "Elitarny atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Rozszalałe Uderzenie, które zadaje +3...23 pkt. obrażeń (maksymalna premia to 60 pkt.) na każdą odnawiającą się umiejętność Panowania nad Zwierzętami.",
+				"concise": "Elitarny atak zwierzaka. Zadaje +3...23 pkt. obrażeń (maksymalnie 60) za każdą odnawiającą się umiejętność Panowania nad Zwierzętami."
+			},
+			"ru": {
+				"name": "Enraged Lunge (PvP)",
+				"description": "Элитная атака питомца. Сопровождающее вас животное пытается провести удар, который наносит дополнительно 3...23 ед. урона за каждое ваше перезаряжающееся умение, связанное с талантом Beast Mastery (но не более 60 ед. дополнительного урона).",
+				"concise": "Элитная атака питомца. Наносит дополнительно 3...23 ед. урона (но не более 60 ед.) за каждое перезаряжающееся умение, связанное с талантом Beast Mastery."
+			},
+			"bork": {
+				"name": "Inraeged Loonge-a (PfP)",
+				"description": "Ileete-a Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts un Inraeged Loonge-a thaet deaels +3...23 daemaege-a (maexeemoom bunoos 60) fur iaech rechaergeeng Beaest Maestery skeell.",
+				"concise": "Ileete-a Pet Aettaeck. Deaels +3...23 daemaege-a (maexeemoom 60) fur iaech ooff yuoor rechaergeeng Beaest Maestery skeells."
 			}
 		}
 	}

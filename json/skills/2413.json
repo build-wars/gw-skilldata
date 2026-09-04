@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Technobabble",
+				"description": "咒文。 Target foe and all adjacent foes are struck for 30...40 damage. If target foe is not a boss, that foe and all adjacent foes are Dazed for 3...5 seconds.",
+				"concise": "咒文。 Deals 30...40 damage to target and adjacent foes. Inflicts Dazed condition (3...5 seconds) on these foes if target was not a boss."
+			},
+			"cht": {
+				"name": "嘈雜",
+				"description": "咒文魔法： 對目標及所有鄰近敵人造成 30...40 傷害。若目標非首領怪物，該目標及所有鄰近敵人將遭受「暈眩」3...5 秒。",
+				"concise": "咒文魔法： 對目標及所有鄰近敵人造成 30...40 傷害。若目標非首領怪物，該目標及所有鄰近敵人將遭受「暈眩」3...5 秒。"
+			},
 			"de": {
+				"name": "Technobabbel",
+				"description": "Zauber. Der Gegner und alle umstehenden Feinde erleiden 30...40 Punkt[e] Schaden. Wenn er kein Boss ist, leiden der Gegner und alle umstehenden Feinde 3...5 Sekunde[n] lang an Benommenheit.",
+				"concise": "Zauber. Richtet beim Gegner und umstehenden Feinden 30...40 Punkt[e] Schaden an. Verursacht bei Feinden Zustand Benommenheit (3...5 Sekunde[n]), falls Gegner kein Boss ist."
+			},
+			"de-guildwiki": {
 				"name": "Technobabbel",
 				"description": "Der Gegner und alle umstehenden Feinde erleiden 30...40 Punkte Schaden. Wenn er kein Boss ist, leiden der Gegner und alle umstehenden Feinde 3...5 Sekunden an Benommenheit.",
 				"concise": "Richtet beim Gegner und umstehenden Feinden 30...40 Punkte Schaden an. Verursacht bei Feinden Zustand Benommenheit (3...5 Sekunden), falls Gegner kein Boss ist."
 			},
 			"en": {
 				"name": "Technobabble",
+				"description": "Spell. Target foe and all adjacent foes are struck for 30...40 damage. If target foe is not a boss, that foe and all adjacent foes are Dazed for 3...5 seconds.",
+				"concise": "Spell. Deals 30...40 damage to target and adjacent foes. Inflicts Dazed condition (3...5 seconds) on these foes if target was not a boss."
+			},
+			"en-gww": {
+				"name": "Technobabble",
 				"description": "Target foe and all adjacent foes are struck for 30...40 damage. If target foe is not a boss, that foe and all adjacent foes are Dazed for 3...5 seconds.",
 				"concise": "Deals 30...40 damage to target and adjacent foes. Inflicts Dazed condition (3...5 seconds) on these foes if target was not a boss."
 			},
+			"es": {
+				"name": "Tecnocháchara",
+				"description": "Conjuro. El enemigo objetivo y todos los adyacentes reciben 30...40 de daño. Si el objetivo no es un jefe, él y los enemigos adyacentes quedarán aturdidos durante 3...5 segundos.",
+				"concise": "Conjuro. Hace 30...40 de daño al enemigo objetivo y los adyacentes. Causa aturdimiento (3...5 segundos) a esos enemigos si el objetivo no es un jefe."
+			},
 			"fr": {
+				"name": "Technobabillage",
+				"description": "Sort. La cible ennemie et tous les ennemis adjacents subissent 30...40 points de dégâts. Si cet ennemi n'est pas un boss, lui et tous les ennemis adjacents sont frappés de Stupeur pendant 3...5 secondes.",
+				"concise": "Sort. Inflige 30...40 points de dégâts à la cible et aux ennemis adjacents. Provoque la Stupeur (3...5 secondes) si la cible n'était pas un boss."
+			},
+			"fr-gwiki": {
 				"name": "Technobabillage",
 				"description": "La cible ennemie et tous les ennemis adjacents subissent 30...40 points de dégâts. Si cet ennemi n'est pas un boss, lui et tous les ennemis adjacents sont frappés de Stupeur pendant 3...5 secondes.",
 				"concise": "Inflige 30...40 points de dégâts à la cible et aux ennemis adjacents. Provoque la Stupeur (3...5 secondes) si la cible n'était pas un boss."
+			},
+			"it": {
+				"name": "Tecnocratese",
+				"description": "Magia. L'obiettivo nemico e tutti i nemici adiacenti vengono colpiti da 30...40 danno[i]. Se non è un boss, quel nemico e tutti i nemici adiacenti subiscono Stordimento per 3...5 secondo[i].",
+				"concise": "Magia. Danni all'obiettivo e ai nemici adiacenti: 30...40. Condizione inflitta su di loro se l'obiettivo non era un boss: Stordimento (3...5 secondo[i])."
+			},
+			"jp": {
+				"name": "テクノバブル",
+				"description": "スペル： ターゲットした敵および隣接するすべての敵に 30...40 のダメージを与えます。ターゲットがボスではない場合、その敵と隣接するすべての敵は 3...5 秒間「放心」状態になります。",
+				"concise": "スペル： ターゲットおよび隣接する敵に 30...40 のダメージを与えます。ターゲットがボスではない場合、敵を「放心」状態にします (3...5 秒) 。"
+			},
+			"kr": {
+				"name": "혼란스런 소리",
+				"description": "마법. 대상과 그에 인접한 모든 적에게 30...40의 대미지를 줍니다. 대상이 보스 몬스터가 아니면 대상과 그에 인접한 모든 적을 3...5초 동안 현혹에 빠뜨립니다.",
+				"concise": "마법. 대상과 인접한 적들에게 30...40의 대미지를 줍니다. 대상이 보스 몬스터가 아니면 적들을 현혹시킵니다.(3...5초)"
+			},
+			"pl": {
+				"name": "Technobełkot",
+				"description": "Czar. Wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim otrzymują po 30...40 pkt. obrażeń. Jeżeli wybrany przeciwnik nie jest bossem, to on i wszyscy przeciwnicy bezpośrednio przy nim zostają oszołomieni na 3...5 sek.",
+				"concise": "Czar. Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 30...40 pkt. obrażeń. U tych przeciwników wywołuje przypadłość oszołomienie (3...5 sek.), jeżeli cel nie był bossem."
+			},
+			"ru": {
+				"name": "Technobabble",
+				"description": "Заклинание. Выбранный противник и все окружающие противники получают 30...40 ед. урона. Если этот противник не является боссом, этот противник и все окружающие противники будут ошеломлены на 3...5 сек.",
+				"concise": "Заклинание. Наносит 30...40 ед. урона выбранному и окружающим противникам. Вызывает ошеломление (3...5 сек) у этих противников, если цель не была боссом."
+			},
+			"bork": {
+				"name": "Technubaebble-a",
+				"description": "Spell. Taerget fue-a und aell aedjaecent fues aere-a stroock fur 30...40 daemaege-a. Iff taerget fue-a is nut a buss, thaet fue-a und aell aedjaecent fues aere-a Daezed fur 3...5 secunds.",
+				"concise": "Spell. Deaels 30...40 daemaege-a tu taerget und aedjaecent fues. Inffleects Daezed cundeeshun (3...5 secunds) oon zeese-a fues iff taerget vaes nut a buss."
 			}
 		}
 	}

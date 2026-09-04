@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "治愈雕文",
+				"description": "雕文魔法。 在15秒之内，你的下一次法术将为你回复30...105点生命值，同时，此法术所消耗能量值的150...400%将转化为生命值。",
+				"concise": "雕文魔法。 在15秒之内，你的下一次法术将为你回复30...105点生命值，同时，此法术所消耗能量值的150...400%将转化为生命值。"
+			},
+			"cht": {
+				"name": "復原符號",
+				"description": "符號： 持續 15 秒，接下來 2 次使用魔法時，同時治療你 30...105 體力，加上該魔法消耗能量的 150...400% 。",
+				"concise": "符號： 持續 15 秒，接下來 2 次使用魔法時，同時治療你 30...105 體力，加上該魔法消耗能量的 150...400% 。"
+			},
 			"de": {
+				"name": "Glyphe der Wiederherstellung",
+				"description": "Glyphe. 15 Sekunden lang heilen Euch Eure nächsten 2 Zauber um 30...105 Lebenspunkt[e] und Ihr erfahrt Heilung in Höhe von 150...400% der Energiekosten dieser Zauber.",
+				"concise": "Glyphe. (15 Sekunden.) Eure nächsten 2 Zauber heilen Euch um 30...105 Lebenspunkt[e]. Zusätzlich werdet Ihr um 150...400% der Energiekosten dieser Zauber geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Glyphe der Wiederherstellung",
 				"description": "15 Sekunden lang heilen Euch Eure nächsten 2 Zauber um 30...105 Lebenspunkte und Ihr erfahrt Heilung in Höhe von 150...400% der Energiekosten dieser Zauber.",
 				"concise": "15 Sekunden: Eure nächsten 2 Zauber heilen Euch um 30...105 Lebenspunkte. Zusätzlich werdet Ihr um 150...400% der Energiekosten dieser Zauber geheilt."
 			},
 			"en": {
 				"name": "Glyph of Restoration",
+				"description": "Glyph. For 15 seconds, your next 2 spells heal you for 30...105 Health, and you are healed for 150...400% of the Energy cost of each spell.",
+				"concise": "Glyph. (15 seconds.) Your next 2 spells heal you for 30...105, and you are healed for 150...400% of the Energy cost of each spell."
+			},
+			"en-gww": {
+				"name": "Glyph of Restoration",
 				"description": "For 15 seconds, your next 2 spells heal you for 30...105 Health, and you are healed for 150...400% of the Energy cost of each spell.",
 				"concise": "(15 seconds.) Your next 2 spells heal you for 30...105, and you are healed for 150...400% of the Energy cost of each spell."
 			},
+			"es": {
+				"name": "Glifo de restauración",
+				"description": "Glifo. Durante 15 segundos, tus siguientes 2 conjuros te curan 30...105 de salud y además te curas el 150...400% del coste de energía de cada conjuro.",
+				"concise": "Glifo. (15 segundos.) Tus siguientes 2 conjuros te curan 30...105 de salud y además te curas el 150...400% del coste de energía de cada conjuro."
+			},
 			"fr": {
+				"name": "Glyphe de rétablissement",
+				"description": "Glyphe. Pendant 15 secondes, vos 2 prochains sorts vous guérissent de 30...105 points de vie, et vous êtes soigné[f:\"soignée\"] de 150...400% du coût en énergie de chaque sort.",
+				"concise": "Glyphe. (15 secondes.) Vos 2 prochains sorts vous guérissent de 30...105 points de vie et vous êtes soigné[f:\"soignée\"] de 150...400% du coût en énergie de chaque sort."
+			},
+			"fr-gwiki": {
 				"name": "Glyphe de rétablissement",
 				"description": "Pendant 15 secondes, vos deux prochains sorts vous guérissent de 30...105 points de vie, et vous êtes soigné de 150...400% du coût en énergie de chaque sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Glifo del Ripristino",
+				"description": "Glifo. Per 15 secondi, le tue 2 magie successive ti curano di 30...105 Punti Salute e vieni curato di un 150...400% del costo di Energia di ogni magia.",
+				"concise": "Glifo. (Secondi: 15.) Cure ricevute dalle tue 2 magie successive: 30...105. Vieni curata di un 150...400% del costo energetico di ogni magia."
+			},
+			"jp": {
+				"name": "レストレーション グリフ",
+				"description": "グリフ： 15秒間、次の2回、スペルを詠唱すると体力が 30...105 回復し、それぞれ必要な消費エネルギーの 150...400% の体力が回復します。",
+				"concise": "グリフ： (15秒) 次に詠唱する2個のスペルにより体力が 30...105 回復します。また、それぞれのスペル詠唱で消費するエネルギーの 150...400% の体力が回復します。"
+			},
+			"kr": {
+				"name": "회복의 수인",
+				"description": "수인. 대상 지정: 없음. 15초 동안 마법을 사용하면 30...105의 체력과 소모된 에너지의 150...400%만큼의 체력을 회복합니다. 처음 2번 효과가 있습니다.",
+				"concise": "수인. (15초) 마법을 사용하면 30...105의 체력을 회복하고, 소모 에너지의 150...400%를 체력으로 회복합니다. 처음 2번 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Glif Odnowy",
+				"description": "Glif. Przez 15 sek. twoje następne 2 czary uzdrawiają cię dodając po 30...105 pkt. żywotności, dodatkowo jesteś uzdrawiany o 150...400% pkt. energii zużytych na te czary.",
+				"concise": "Glif. (15 sek.) Twoje następne 2 czary dodają ci 30...105 pkt. żywotności, dodatkowo jesteś uzdrawiany o 150...400% pkt. energii zużytych na te czary."
+			},
+			"ru": {
+				"name": "Glyph of Restoration",
+				"description": "Глиф. В течение 15 сек следующие ваши 2 заклинания исцелят вас на 30...105 ед. здоровья, и вы исцелитесь дополнительно на количество здоровья, равное 150...400% энергии, необходимой для сотворения этих заклинаний.",
+				"concise": "Глиф. (15 сек) Ваше следующее заклинание исцеляет вас на 30...105 ед. здоровья, и вы также исцеляетесь на количество здоровья, равное 150...400% энергии, необходимой для этого заклинания."
+			},
+			"bork": {
+				"name": "Glyph ooff Resturaeshun",
+				"description": "Glyph. Fur 15 secunds, yuoor next 2 spells heael yuoo fur 30...105 Heaelt, und yuoo aere-a heaeled fur 150...400% ooff zee Inergy cust ooff iaech spell.",
+				"concise": "Glyph. (15 secunds.) Yuoor next 2 spells heael yuoo fur 30...105, und yuoo aere-a heaeled fur 150...400% ooff zee Inergy cust ooff iaech spell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 1,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 15,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "血之再生",
+				"description": "增益魔法。 牺牲自己最大生命值的 25%，在 10秒 内，使你的「生命再生」提高 3...6点，当技能效果消失时，你将获得 40...190点 生命值。",
+				"concise": "增益魔法。 牺牲自己最大生命值的 25%，在 10秒 内，使你的「生命再生」提高3...6点，当技能效果消失时，你将获得 40...190点 生命值。"
+			},
+			"cht": {
+				"name": "血之再生",
+				"description": "加持魔法： 持續 7 秒，你獲得 3...6 體力再生，血之再生終止時，你將被治療 40...190 體力。",
+				"concise": "加持魔法： 持續 7 秒，你獲得 3...6 體力再生，血之再生終止時，你將被治療 40...190 體力。"
+			},
 			"de": {
+				"name": "Bluterneuerung",
+				"description": "Verzauberung. 7 Sekunden lang erfreut Ihr Euch einer Lebenspunktregeneration von +3...6. Wenn Bluterneuerung endet, bekommt Ihr 40...190 Lebenspunkt[e].",
+				"concise": "Verzauberung. (7 Sekunden.) Ihr habt +3...6 Lebenspunktregeneration. Wirkung am Ende: Heilt Euch für 40...190 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Bluterneuerung",
 				"description": "7 Sekunden lang erfreut Ihr Euch einer Lebenspunktregeneration von +3...6. Wenn Bluterneuerung endet, werdet Ihr um 40...190 Lebenspunkte geheilt.",
 				"concise": "(7 Sekunden.) Ihr habt +3...6 Lebenspunktregeneration. Wirkung am Ende: Werdet um 40...190 Lebenspunkte geheilt."
 			},
 			"en": {
 				"name": "Blood Renewal",
+				"description": "Enchantment Spell. For 7 seconds, you gain +3...6 Health regeneration. When Blood Renewal ends, you gain 40...190 Health.",
+				"concise": "Enchantment Spell. (7 seconds.) You have +3...6 Health regeneration. End effect: heals you for 40...190."
+			},
+			"en-gww": {
+				"name": "Blood Renewal",
 				"description": "For 7 seconds, you gain +3...6 Health regeneration. When Blood Renewal ends, you gain 40...190 Health.",
 				"concise": "(7 seconds.) You have +3...6 Health regeneration. End effect: heals you for 40...190."
 			},
+			"es": {
+				"name": "Renovación de la sangre",
+				"description": "Conjuro con encantamiento. Durante 7 segundos, ganas +3...6 de regeneración de salud. Cuando la Renovación de la sangre acabe, ganas 40...190 de salud.",
+				"concise": "Conjuro con encantamiento. (7 segundos). Tienes +3...6 de regeneración de salud. Efecto final: te curas 40...190 de salud."
+			},
 			"fr": {
+				"name": "Transfusion sanguine",
+				"description": "Enchantement. Pendant 7 secondes, vous bénéficiez d'une régénération de santé de +3...6. Lorsque Transfusion sanguine prend fin, vous obtenez 40...190 points de vie.",
+				"concise": "Enchantement. (7 secondes.) Vous bénéficiez d'une régénération de santé de +3...6. Effet final : vous rend 40...190 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Transfusion sanguine",
 				"description": "Pendant 7 secondes, vous bénéficiez d'une régénération de santé de +3...6. A la fin de la Transfusion sanguine, vous gagnez +40...190 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rinnovamento del Sangue",
+				"description": "Incantesimo. Per 7 secondo[i], ottieni +3...6 di Rigenerazione della Salute. Al termine dell'effetto di Rinnovamento del Sangue, ottieni 40...190 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 7). Rigenerazione Salute: +3...6. Effetto al termine: cura 40...190 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "ブラッド リニューアル",
+				"description": "強化スペル： 7 秒間、体力の自然回復力が 3...6 増加します。この効果が消失すると 40...190 の体力を獲得します。",
+				"concise": "強化スペル： (7 秒) 体力の自然回復力が 3...6 増加します。終了効果： 体力が 40...190 回復します。"
+			},
+			"kr": {
+				"name": "피의 재생",
+				"description": "강화 마법. 대상 지정: 없음. 7초 동안 체력 재생을 3...6 증가시킵니다. 효과가 끝나면 40...190의 체력이 회복됩니다.",
+				"concise": "강화 마법. (7초) 체력 재생이 3...6 증가합니다. 종료 효과: 40...190의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Krwawa Odnowa",
+				"description": "Zaklęcie (czar). Przez 7 sek., otrzymujesz regenerację żywotności równą +3...6. Gdy Krwawa Odnowa przestanie działać, otrzymujesz 40...190 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (7 sek.) Posiadasz regenerację żywotności +3...6. Efekt końcowy: otrzymujesz 40...190 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Blood Renewal",
+				"description": "Заклинание-чары. На 7 сек ваша скорость восстановления здоровья увеличивается на 3...6 ед. Когда Blood Renewal заканчивает свое действие, вы получаете 40...190 ед. здоровья.",
+				"concise": "Заклинание-чары. (7 сек) Вы получаете +3...6 ед. к скорости восстановления здоровья. Эффект окончания: исцеляет вас на 40...190 ед. здоровья."
+			},
+			"bork": {
+				"name": "Bluud Renooael",
+				"description": "Inchuntment Spell. Fur 7 secunds, yuoo gaeeen +3...6 Heaelt regeneraeshun. Vhee Bluud Renooael inds, yuoo gaeeen 40...190 Heaelt.",
+				"concise": "Inchuntment Spell. (7 secunds.) Yuoo haefe-a +3...6 Heaelt regeneraeshun. Ind iffffect: heaels yuoo fur 40...190."
 			}
 		}
 	}

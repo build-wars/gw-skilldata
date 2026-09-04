@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "连环斩",
+				"description": "副手技。 此技能必须接续在「副手技」之后使用。命中时对目标造成 10...30点 额外伤害。如果未击中目标，此技能的恢复时间将延长 15秒。",
+				"concise": "副手技。 此技能必须接续在「副手技」之后使用。命中时对目标造成 10...30点 额外伤害。如果未击中目标，此技能的恢复时间将延长 15秒。"
+			},
+			"cht": {
+				"name": "連環狙殺",
+				"description": "即刻攻擊： 必須接續在「即刻攻擊」之後。命中時對目標造成 10...30 額外傷害。若攻擊失誤，此技能的回復時間增加 15 秒。",
+				"concise": "即刻攻擊： 必須接續在「即刻攻擊」之後。命中時對目標造成 10...30 額外傷害。若攻擊失誤，此技能的回復時間增加 15 秒。"
+			},
 			"de": {
+				"name": "Wiederholender Schlag",
+				"description": "Begleithandangriff. Muss einem Begleithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...30 Punkt[e] Schaden zu. Wenn er sein Ziel verfehlt, benötigt er zusätzlich 15 Sekunden zum Wiederaufladen.",
+				"concise": "Begleithandangriff. Richtet +10...30 Punkt[e] Schaden an. +15 Sekunden zur Aufladezeit dieser Fertigkeit, falls Ihr verfehlt. Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Wiederholender Schlag",
 				"description": "Muss einem Begleithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...30 Punkte Schaden zu. Wenn er sein Ziel verfehlt, benötigt er zusätzlich 15 Sekunden zum Wiederaufladen.",
 				"concise": "Richtet +10...30 Punkte Schaden an. <gray>+15 Sekunden zur Aufladezeit dieser Fertigkeit, falls Ihr verfehlt. Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Repeating Strike",
+				"description": "Off-Hand Attack. Must follow an off-hand attack. If it hits, this attack strikes for +10...30 damage. If it misses, it takes an additional 15 seconds to recharge.",
+				"concise": "Off-Hand Attack. Deals +10...30 damage. This skill has +15 second recharge time if it misses. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Repeating Strike",
 				"description": "Must follow an off-hand attack. If it hits, this attack strikes for +10...30 damage. If it misses, it takes an additional 15 seconds to recharge.",
 				"concise": "Deals +10...30 damage. <gray>This skill has +15 second recharge time if it misses. Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Golpe repetitivo",
+				"description": "Ataque complementario. Debe ir precedido de un \"ataque complementario\". Si impacta, este ataque hará +10...30 de daño, y si falla, tardará 15 segundos más en recargarse.",
+				"concise": "Ataque complementario. Hace +10...30 de daño. Esta habilidad tarda +15 segundos más en recargarse si falla. Debe ir precedida de un ataque complementario."
+			},
 			"fr": {
+				"name": "Coup répété",
+				"description": "Attaque main gauche. Doit suivre une attaque main gauche. Si elle réussit, cette attaque inflige +10...30 points de dégâts. Si elle manque, il lui faudra 15 secondes supplémentaires pour se recharger.",
+				"concise": "Attaque main gauche. Inflige +10...30 points de dégâts. Cette compétence met 15 secondes de plus à se recharger en cas d'échec. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Coup répété",
 				"description": "Doit suivre une attaque main gauche. Si elle réussit, cette attaque inflige +10...30 points de dégâts. Si elle manque, il lui faudra 15 secondes supplémentaires pour se recharger.",
 				"concise": "Inflige +10...30 points de dégâts. <gray>Cette compétence met 15 secondes de plus à se recharger en cas d'échec. Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Colpo a Ripetizione",
+				"description": "Attacco con Arma Secondaria. Deve seguire un attacco con arma secondaria. Se va a segno, questo attacco infligge +10...30 danno[i]; se va a vuoto impiegherà 15 secondi in più per ricaricarsi.",
+				"concise": "Attacco con Arma Secondaria. Danni inferti: +10...30. Se manca l'obiettivo, il tempo di ricarica di questa abilità aumenta di +15. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "リピート ストライク",
+				"description": "オフハンド アタック： このスキルは、オフハンド アタックの次に使用します。攻撃が成功すると 10...30 の追加ダメージを与えます。失敗した場合、再使用時間が15秒増加します。",
+				"concise": "オフハンド アタック： 10...30 の追加ダメージを与えます。攻撃に失敗すると、再使用時間が15秒増加します。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "반복 공격",
+				"description": "보조 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 10...30의 대미지를 추가로 주고, 실패하면 재활성 시간이 15초 늘어납니다.",
+				"concise": "보조 공격. 10...30의 대미지를 추가로 줍니다. 공격이 실패하면 재활성 시간이 15초 늘어납니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Powtarzające się Uderzenie",
+				"description": "Atak drugą ręką. Musi nastąpić po ataku drugą ręką. Jeśli atak trafi, zadajesz +10...30 pkt. obrażeń. Jeżeli atak nie trafi, będzie się odnawiał dodatkowe 15 sek.",
+				"concise": "Atak drugą ręką. Zadaje +10...30 pkt. obrażeń. Ta umiejętność odnawia się o 15 sek. dłużej, jeżeli nie trafi. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Repeating Strike",
+				"description": "Атака второй рукой. Должен следовать за атакой второй рукой. Если удар попадает в цель, вы наносите дополнительно 10...30 ед. урона. В случае промаха это умение требует дополнительно 15 сек для перезарядки.",
+				"concise": "Атака второй рукой. Наносит дополнительно 10...30 ед. урона. Этому умению требуется дополнительно 15 сек для перезарядки в случае промаха. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Repeaeteeng Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, thees aettaeck streekes fur +10...30 daemaege-a. Iff it meesses, it taekes un aeddeeshunael 15 secunds tu rechaerge-a.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +10...30 daemaege-a. Thees skeell haes +15 secund rechaerge-a teeme-a iff it meesses. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

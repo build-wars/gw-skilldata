@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Signet of Deadly Corruption",
+				"description": "纹章。 Must follow a dual attack. This attack deals 5...35 damage for each condition on target foe (maximum 130 damage).",
+				"concise": "纹章。 Deals 5...35 damage (maximum 130) for each condition on target foe. Must follow a dual attack."
+			},
+			"cht": {
+				"name": "致命腐化紋章",
+				"description": "紋章： 必須接續在雙重攻擊之後。依照目標敵人身上的病症數量，每個將使其受到5...35傷害(最多130傷害)。",
+				"concise": "紋章： 必須接續在雙重攻擊之後。依照目標敵人身上的病症數量，每個將使其受到5...35傷害(最多130傷害)。"
+			},
 			"de": {
+				"name": "Siegel der tödlichen Verdorbenheit (PvP)",
+				"description": "Siegel. Muss einem Doppelangriff folgen. Der Gegner erleidet pro aktivem Zustand 5...35 Punkt[e] Schaden (maximal 130 Punkt[e]).",
+				"concise": "Siegel. Richtet für jeden Zustand des Gegners 5...35 Punkt[e] Schaden an (maximal 130). Muss einem Doppelangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der tödlichen Verdorbenheit (PvP)",
 				"description": "Muss einem Doppelangriff folgen. Dieser Angriff fügt pro Zustand, mit dem der Gegner belegt ist, 5...35 Punkte Schaden zu (maximal 130 Punkte).",
 				"concise": "Richtet für jeden Zustand des Gegner 5...35 Punkte Schaden an (maximal 130). <gray>Muss einem Doppelangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Signet of Deadly Corruption (PvP)",
+				"description": "Signet. Must follow a dual attack. Target foe takes 5...35 damage for each condition on that foe (maximum 130 damage).",
+				"concise": "Signet. Deals 5...35 damage (maximum 130) for each condition on target foe. Must follow a dual attack."
+			},
+			"en-gww": {
+				"name": "Signet of Deadly Corruption (PvP)",
 				"description": "Must follow a dual attack. Target foe takes 5...35 damage for each condition on that foe (maximum 130 damage).",
 				"concise": "Deals 5...35 damage (maximum 130) for each condition on target foe. <gray>Must follow a dual attack.</gray>"
 			},
+			"es": {
+				"name": "Sello de corrupción mortal (PvP)",
+				"description": "Sello. Debe ir precedido de un ataque doble. El enemigo objetivo recibe 5...35 de daño por cada condición que tenga (daño máximo: 130).",
+				"concise": "Sello. Causa 5...35 de daño (máximo 130) por cada condición que tenga el enemigo objetivo. Debe ir precedido de un ataque doble."
+			},
 			"fr": {
+				"name": "Sceau de corruption mortelle (PvP)",
+				"description": "Sceau. Doit succéder à une attaque d'ambidextrie. La cible ennemie subit 5...35 points de dégâts pour chaque condition affectant cet ennemi (maximum : 130).",
+				"concise": "Sceau. Inflige 5...35 points de dégâts (maximum : 130) pour chaque condition affectant l'ennemi visé. Doit succéder à une attaque d'ambidextrie."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de corruption mortelle (PvP)",
 				"description": "Doit succéder à une attaque d'ambidextrie. Cette attaque inflige 5...35 points de dégâts pour chaque condition affectant l'ennemi visé (maximum : 130).",
 				"concise": "Inflige 5...35 points de dégâts (maximum : 130) pour chaque condition affectant l'ennemi visé. <gray>Doit succéder à une attaque d'ambidextrie</gray>"
+			},
+			"it": {
+				"name": "Sigillo della Corruzione Letale (PvP)",
+				"description": "Sigillo. Deve seguire un attacco doppio. L'obiettivo nemico infligge 5...35 danni per ogni condizione presente sull'obiettivo nemico (danni max: 130).",
+				"concise": "Sigillo. Danni inferti per ogni condizione presente sull'obiettivo nemico: 5...35 (max 130). Deve seguire un attacco doppio."
+			},
+			"jp": {
+				"name": "デッドリー コラプション シグネット (PvP)",
+				"description": "シグネット： デュアル アタックの次に使用します。ターゲットした敵にかけられている「状態異常」ごとに 5...35 のダメージを与えます (最大 130 のダメージ) 。",
+				"concise": "シグネット： ターゲットした敵にかけられている弱体化スペルごとに 5...35 のダメージを与えます (最大 130 のダメージ) 。このスキルは、デュアル アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "치명적인 오염 인장(대인전)",
+				"description": "인장. 쌍수 공격 스킬 바로 다음에 사용할 수 있습니다. 대상의 몸에 걸린 상태이상 하나당 5...35씩, 최대 130의 대미지를 줍니다.",
+				"concise": "인장. 대상이 걸린 상태이상 하나당 5...35씩, 최대 130의 대미지를 줍니다. 쌍수 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Sygnet Śmiertelnego Zepsucia (PvP)",
+				"description": "Sygnet. Musi następować po podwójnym ataku. Zaatakowany wróg otrzymuje 5...35 pkt. obrażeń za każdą posiadaną przypadłość (maksymalnie 130 pkt. obrażeń).",
+				"concise": "Sygnet. Zadaje 5...35 pkt. obrażeń (maksymalnie 130) za każdą przypadłość na wybranym przeciwniku. Musi nastąpić po ataku podwójnym."
+			},
+			"ru": {
+				"name": "Signet of Deadly Corruption (PvP)",
+				"description": "Печать. Должен следовать за двойной атакой. Выбранный противник получает 5...35 ед. урона за каждое лежащее на нем состояние (максимум 130 ед. урона).",
+				"concise": "Печать. Наносит 5...35 ед. урона (но не более 130 ед.) за каждое состояние на выбранном противнике. Должен следовать за двойной атакой."
+			},
+			"bork": {
+				"name": "Seegnet ooff Deaedly Curroopshun (PfP)",
+				"description": "Seegnet. Moost fulloo a dooael aettaeck. Taerget fue-a taekes 5...35 daemaege-a fur iaech cundeeshun oon thaet fue-a (maexeemoom 130 daemaege-a).",
+				"concise": "Seegnet. Deaels 5...35 daemaege-a (maexeemoom 130) fur iaech cundeeshun oon taerget fue-a. Moost fulloo a dooael aettaeck."
 			}
 		}
 	}

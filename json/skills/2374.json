@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Ursan Blessing",
+				"description": "精英形态。 You take on the aspect of the bear. Your Energy returns to maximum and you have -60 Energy degeneration. You have +20 armor and +750...800 maximum Health. All enchantments upon you are removed. Bear attacks replace your skills. You gain Energy every time you take or deal damage. This skill ends when your Energy drops to 0.",
+				"concise": "精英形态。 Lose all your enchantments. You take on the aspect of the bear. Your Energy returns to maximum and you have -60 Energy degeneration. You have +20 armor and +750...800 maximum Health. Bear attacks replace your skills. You gain Energy every time you take or deal damage. Ends when your Energy drops to 0."
+			},
+			"cht": {
+				"name": "烏杉賜福",
+				"description": "精英型態： 精英型態(60秒)：化身為熊的型態。你失去目前所有狀態，同時防禦調整至100、體力調整至750...800，你的所有屬性將歸零且技能被熊技能所取代。",
+				"concise": "精英型態： 精英型態(60秒)：化身為熊的型態。你失去目前所有狀態，同時防禦調整至100、體力調整至750...800，你的所有屬性將歸零且技能被熊技能所取代。"
+			},
 			"de": {
+				"name": "Segen der Bärin",
+				"description": "Elite-Form. Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild der Bärin an. 60 Sekunde[n] lang habt Ihr 100 Rüstung und 750...800 Lebenspunkt[e]. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Bärenangriffe ersetzt.",
+				"concise": "Elite-Form. Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild der Bärin an (60 Sekunde[n]). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Bärenangriffe ersetzt und Ihr habt 100 Rüstung und 750...800 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Segen der Bärin",
 				"description": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild der Bärin an. 60 Sekunden lang habt Ihr 100 Rüstung und 750...800 Lebenspunkte. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Bärenangriffe ersetzt.",
 				"concise": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild der Bärin an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Bärenangriffe ersetzt und Ihr habt 100 Rüstung und 750...800 Lebenspunkte."
 			},
 			"en": {
 				"name": "Ursan Blessing",
+				"description": "Elite Form. You lose all effects and take on the aspect of the bear. For 60 seconds, you have 100 armor and 750...800 Health. All your attributes are set to 0 and bear attacks replace your skills.",
+				"concise": "Elite Form. You lose all effects and take on the aspect of the bear (60 seconds). All your attributes are set to 0 and bear attacks replace your skills, and you have 100 armor and 750...800 Health."
+			},
+			"en-gww": {
+				"name": "Ursan Blessing",
 				"description": "You lose all effects and take on the aspect of the bear. For 60 seconds, you have 100 armor and 750...800 Health. All your attributes are set to 0 and bear attacks replace your skills.",
 				"concise": "You lose all effects and take on the aspect of the bear (60 seconds). All your attributes are set to 0 and bear attacks replace your skills, and you have 100 armor and 750...800 Health."
 			},
+			"es": {
+				"name": "Bendición de la Osa Mayor",
+				"description": "Transformación[\"Transformaciones\"] de élite. Pierdes todos tus efectos y adoptas el aspecto de la Osa. Durante 60 segundos, tienes 100 de armadura y 750...800 de salud. Todos tus atributos bajan a 0 y tus habilidades son reemplazadas por las de la Osa.",
+				"concise": "Transformación[\"Transformaciones\"] de élite. Pierdes todos tus efectos y adoptas el aspecto de la Osa (60 segundos). Todos tus atributos bajan a 0 y tus habilidades son reemplazadas por las de la Osa. Tienes 100 de armadura y 750...800 de salud."
+			},
 			"fr": {
+				"name": "Bénédiction de l'ours",
+				"description": "Transformation d'élite. Vous perdez tous les effets et prenez l'apparence d'un ours. Pendant 60 secondes, vous avez 100 points d'armure et 750...800 points de vie. Toutes vos caractéristiques se remettent à 0 et les attaques de l'ours remplacent vos compétences.",
+				"concise": "Transformation d'élite. Vous perdez tous les effets et prenez l'apparence d'un ours (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques de l'ours remplacent vos compétences et vous avez 100 points d'armure et 750...800 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Bénédiction de l'ours",
 				"description": "Vous perdez tous les effets et prenez l'apparence d'un ours. Pendant 60 secondes, vous avez 100 points d'armure et 750...800 points de vie. Toutes vos caractéristiques se remettent à 0 et les attaques de l'ours remplacent vos compétences.",
 				"concise": "Vous perdez tous les effets et prenez l'apparence d'un ours (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques de l'ours remplacent vos compétences et vous avez 100 points d'armure et 750...800 points de vie."
+			},
+			"it": {
+				"name": "Benedizione dell'Urside",
+				"description": "Forma d'Élite. Perdi tutti gli effetti e assumi le sembianze dell'orsa. Per 60 secondo[i], hai 100 di armatura e 750...800 Punto[i] Salute. Il grado di tutti i tuoi attributi scende a 0 e gli attacchi dell'orsa si sostituiscono alle tue abilità.",
+				"concise": "Forma d'Élite. Perdi tutti gli effetti e assumi le sembianze dell'orsa (60 secondo[i]). Il grado di tutti i tuoi attributi scende a 0 e gli attacchi dell'orsa si sostituiscono alle tue abilità. Armatura: 100. Salute: 750...800."
+			},
+			"jp": {
+				"name": "ウルサ ブレス",
+				"description": "エリート フォーム： かけられている効果を解除してクマの化身となります。60 秒間、防御力が100、体力の上限が 750...800 になります。特性レベルがすべて0になり、装備しているスキルがすべてベア アタックになります。",
+				"concise": "エリート フォーム： かけられている効果を解除してクマの化身となります (60 秒) 。特性レベルがすべて0に、装備しているスキルがベア アタックになります。また、防御力が100、体力の上限が 750...800 になります。"
+			},
+			"kr": {
+				"name": "우르자의 축복",
+				"description": "엘리트 형상. 몸에 걸린 모든 효과가 사라지고 곰의 형상을 취합니다. 60초 동안 체력이 750...800, 방어력이 100이 됩니다. 특성 레벨이 모두 0이 되고, 스킬이 우르자의 공격 스킬로 바뀝니다.",
+				"concise": "엘리트 형상. 몸에 걸린 모든 효과가 사라지고 곰의 형상을 취합니다.(60초) 특성 레벨이 모두 0이 되고, 스킬이 우르자의 공격 스킬로 바뀝니다. 체력이 750...800, 방어력이 100이 됩니다."
+			},
+			"pl": {
+				"name": "Błogosławieństwo Niedźwiedzicy",
+				"description": "Elitarna forma. Tracisz wszystkie efekty i znajdujesz się pod wpływem aspektu niedźwiedzicy. Przez 60 sek. posiadasz 100 pkt. pancerza i 750...800 pkt. żywotności. Wszystkie twoje atrybuty mają wartość 0, a umiejętności zamieniane są na ataki niedźwiedzicy.",
+				"concise": "Elitarna forma. Tracisz wszystkie efekty i znajdujesz się pod wpływem aspektu niedźwiedzicy (60 sek.). Wszystkie twoje atrybuty mają wartość 0, a umiejętności zamieniane są na ataki niedźwiedzicy. Posiadasz 100 pkt. pancerza i 750...800 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Ursan Blessing",
+				"description": "Элитный образ. С вас снимаются все эффекты, и вы принимаете вид медведя. В течение 60 сек ваша защита равна 100 ед., а ваше здоровье равно 750...800 ед. Уровень всех ваших талантов становится равен 0, а ваши умения заменяются атаками медведя.",
+				"concise": "Элитный образ. С вас снимаются все эффекты, и вы принимаете вид медведя (60 сек). Уровень ваших талантов становится равен 0, ваши умения заменяются атаками медведя, ваша защита равна 100 ед., а ваше здоровье равно 750...800 ед."
+			},
+			"bork": {
+				"name": "Ursun Blesseeng",
+				"description": "Ileete-a Furm. Yuoo luse-a aell iffffects und taeke-a oon zee aespect ooff zee beaer. Fur 60 secunds, yuoo haefe-a 100 aermur und 750...800 Heaelt. Aell yuoor aettreebootes aere-a set tu 0 und beaer aettaecks replaece-a yuoor skeells.",
+				"concise": "Ileete-a Furm. Yuoo luse-a aell iffffects und taeke-a oon zee aespect ooff zee beaer (60 secunds). Aell yuoor aettreebootes aere-a set tu 0 und beaer aettaecks replaece-a yuoor skeells, und yuoo haefe-a 100 aermur und 750...800 Heaelt."
 			}
 		}
 	}

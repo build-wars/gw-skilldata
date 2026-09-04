@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "剧毒",
+				"description": "负面魔法。 使目标敌人遭受 1...5点「生命衰减」，持续 5秒。如果敌人在「剧毒」的效果消失前移动，毒素将再发作 5秒。",
+				"concise": "负面魔法。 使目标敌人遭受 1...5点「生命衰减」，持续 5秒。如果敌人在「持续毒素」的效果消失前移动，毒素将再发作 5秒。"
+			},
+			"cht": {
+				"name": "持續毒素",
+				"description": "降咒魔法： 持續 5 秒，使目標敵人遭受體力衰減 1...5 。若敵人在持續毒素的效果結束前移動，毒素效果在敵人身上的持續時間將增加 5 秒。",
+				"concise": "降咒魔法： 持續 5 秒，使目標敵人遭受體力衰減 1...5 。若敵人在持續毒素的效果結束前移動，毒素效果在敵人身上的持續時間將增加 5 秒。"
+			},
 			"de": {
+				"name": "Dauerhaftes Toxin",
+				"description": "Verhexung. 5 Sekunden lang leidet der Gegner unter einer Lebenspunktdegeneration von -1...5. Falls sich der Gegner bewegt, wenn Dauerhaftes Toxin enden sollte, wird es um 5 zusätzliche Sekunden verlängert.",
+				"concise": "Verhexung. 5 Sekunden: Verursacht -1...5 Lebenspunktdegeneration. Erneuerung: Falls der Gegner sich bewegt, wenn diese Verhexung endet."
+			},
+			"de-guildwiki": {
 				"name": "Dauerhaftes Toxin",
 				"description": "5 Sekunden lang leidet der Gegner unter einer Lebenspunktdegeneration von -1...5. Falls sich der Gegner bewegt, wenn Dauerhaftes Toxin enden sollte, wird es um 5 zusätzliche Sekunden verlängert.",
 				"concise": "5 Sekunden: Verursacht -1...5 Lebenspunkdegeneration. Erneuerung: Falls der Gegner sich bewegt, wenn diese Verhexung endet."
 			},
 			"en": {
 				"name": "Enduring Toxin",
+				"description": "Hex Spell. For 5 seconds, target foe suffers -1...5 Health degeneration. If that foe is moving when Enduring Toxin would end, Enduring Toxin is renewed for another 5 seconds.",
+				"concise": "Hex Spell. (5 seconds.) Causes -1...5 Health degeneration. Renewal: if target foe is moving when this hex ends."
+			},
+			"en-gww": {
+				"name": "Enduring Toxin",
 				"description": "For 5 seconds, target foe suffers -1...5 Health degeneration. If that foe is moving when Enduring Toxin would end, Enduring Toxin is renewed for another 5 seconds.",
 				"concise": "(5 seconds.) Causes -1...5 Health degeneration. Renewal: if the target foe is moving when this hex ends."
 			},
+			"es": {
+				"name": "Toxina persistente",
+				"description": "Conjuro con maleficio. Durante 5 segundos, el enemigo objetivo sufre una degeneración de -1...5 de salud. Si el enemigo está en movimiento cuando la Toxina persistente acabe, ésta se renovará durante otros 5 segundos.",
+				"concise": "Conjuro con maleficio. (5 segundos). Causa -1...5 de degeneración de salud. Renovación: si el enemigo objetivo se está moviendo cuando este maleficio acabe."
+			},
 			"fr": {
+				"name": "Toxine immuable",
+				"description": "Maléfice. Pendant 5 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5. Si cet ennemi est en mouvement lorsque la Toxine immuable doit prendre fin, elle durera pendant encore 5 secondes.",
+				"concise": "Maléfice. (5 secondes.) Provoque une dégénération de santé de -1...5. Renouvellement : si l'ennemi visé se déplace lorsque ce maléfice prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Toxine immuable",
 				"description": "Pendant 5 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5. Si cet ennemi est en mouvement lorsque la Toxine immuable doit prendre fin, elle durera pendant encore 5 secondes.",
 				"concise": "(5 secondes.) Provoque une dégénération de santé de -1...5. Renouvellement : si l'ennemi visé se déplace lorsque ce maléfice prend fin."
+			},
+			"it": {
+				"name": "Tossina Permanente",
+				"description": "Fattura. Per 5 secondi, l'obiettivo nemico subisce una Degenerazione della Salute di -1...5. Se si muove nel momento in cui la Tossina Permanente dovrebbe terminare, il suo effetto continua per altri 5 secondi.",
+				"concise": "Fattura. (Secondi: 5) Degenerazione Salute: -1...5. Rinnovo: se l'obiettivo nemico si sta muovendo quando termina."
+			},
+			"jp": {
+				"name": "インデュア トキシン",
+				"description": "弱体化スペル： 5秒間、ターゲットした敵は体力の自然回復力が 1...5 減少します。この効果が消失するときにその敵が移動中の場合、この効果は5秒更新されます。",
+				"concise": "弱体化スペル： (5秒) 体力の自然回復力が 1...5 減少します。更新： この効果の消失時にターゲットした敵が移動している場合。"
+			},
+			"kr": {
+				"name": "끈질긴 독소",
+				"description": "약화 마법. 대상 지정: 적. 5초 동안 대상의 체력 재생이 1...5 감소합니다. 효과가 끝날 때 대상이 이동 중이라면 스킬의 효과가 다시 시작됩니다.",
+				"concise": "약화 마법. (5초) 체력 재생이 1...5 감소합니다. 갱신 조건: 효과가 끝날 때 대상이 이동 중."
+			},
+			"pl": {
+				"name": "Trwała Trucizna",
+				"description": "Klątwa (czar). Przez 5 sek., wybrany przeciwnik posiada degeneracji żywotności -1...5. Jeżeli przeciwnik ten porusza się, gdy Trwała Trucizna powinna przestać działać, zostaje ona odnowiona na kolejne 5 sek.",
+				"concise": "Klątwa (czar). (5 sek.) Powoduje degenerację żywotności -1...5. Odnowienie: jeżeli wybrany przeciwnik jest w ruchu, kiedy ta klątwa się kończy."
+			},
+			"ru": {
+				"name": "Enduring Toxin",
+				"description": "Заклинание-проклятье. На 5 сек скорость восстановления здоровья выбранного противника уменьшается на 1...5 ед. Если противник будет двигаться в момент окончания действия Enduring Toxin, то Enduring Toxin будет продлен еще на 5 сек.",
+				"concise": "Заклинание-проклятье. (5 сек) Уменьшает на 1...5 ед. скорость восстановления здоровья. Обновление: если выбранный противник двигался в момент окончания действия этого проклятья."
+			},
+			"bork": {
+				"name": "Indooreeng Tuxeen",
+				"description": "Hex Spell. Fur 5 secunds, taerget fue-a sooffffers -1...5 Heaelt degeneraeshun. Iff thaet fue-a is mufeeng vhee Indooreeng Tuxeen vuoold ind, Indooreeng Tuxeen is renooed fur unuzeer 5 secunds.",
+				"concise": "Hex Spell. (5 secunds.) Cooses -1...5 Heaelt degeneraeshun. Renooael: iff taerget fue-a is mufeeng vhee thees hex inds."
 			}
 		}
 	}

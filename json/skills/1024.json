@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黑螳之刺",
+				"description": "起手技。 命中时对目标造成 8...20点 额外伤害，如果该目标敌人带有「负面魔法」，则其将遭受「致残」症状 3...15秒。",
+				"concise": "起手技。 命中时对目标造成 8...20点 额外伤害，如果该目标敌人带有「负面魔法」，则其将遭受「致残」症状 3...15秒。"
+			},
+			"cht": {
+				"name": "黑螳螂刺擊",
+				"description": "引導攻擊： 命中時對目標造成 8...20 額外傷害，若該目標敵人正被「降咒」，該目標將遭受「殘廢」病症 3...15 秒。",
+				"concise": "引導攻擊： 命中時對目標造成 8...20 額外傷害，若該目標敵人正被「降咒」，該目標將遭受「殘廢」病症 3...15 秒。"
+			},
 			"de": {
+				"name": "Stoß der schwarzen Mantis",
+				"description": "Leithandangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +8...20 Punkt[e] Schaden zu. Wenn Euer Gegner unter einer Verhexung leidet, wird er 3...15 Sekunde[n] lang verkrüppelt.",
+				"concise": "Leithandangriff. Richtet +8...20 Punkt[e] Schaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunde[n]), falls der Gegner verhext ist."
+			},
+			"de-guildwiki": {
 				"name": "Stoß der schwarzen Mantis",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +8...20 Punkte Schaden zu. Wenn Euer Gegner unter einer Verhexung leidet, wird er 3...15 Sekunden lang verkrüppelt.",
 				"concise": "Richtet +8...20 Punkte Schaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunden), falls der Gegner verhext ist."
 			},
 			"en": {
 				"name": "Black Mantis Thrust",
+				"description": "Lead Attack. If this attack hits, you strike for +8...20 damage. If target foe is suffering from a hex, that foe is Crippled for 3...15 seconds.",
+				"concise": "Lead Attack. Deals +8...20 damage. Inflicts Crippled condition (3...15 seconds) if target foe is hexed."
+			},
+			"en-gww": {
+				"name": "Black Mantis Thrust",
 				"description": "If this attack hits, you strike for +8...20 damage. If target foe is suffering from a Hex, that foe is Crippled for 3...15 seconds.",
 				"concise": "Deals +8...20 damage. Inflicts Crippled condition (3...15 seconds) if target foe is hexed."
 			},
+			"es": {
+				"name": "Estocada de la mantis negra",
+				"description": "Ataque inicial. Si impacta, harás al enemigo objetivo +8...20 de daño. Si tiene un maleficio, quedará lisiado durante 3...15 segundos.",
+				"concise": "Ataque inicial. Hace +8...20 de daño. Causa lisiadura (3...15 segundos) si el enemigo objetivo tiene un maleficio."
+			},
 			"fr": {
+				"name": "Attaque de la mante noire",
+				"description": "Attaque main droite. Si cette attaque réussit, vous infligez +8...20 points de dégâts. Si la cible ennemie est sous les effets d'un maléfice, elle souffre d'Infirmité pendant 3...15 secondes.",
+				"concise": "Attaque main droite. Inflige +8...20 points de dégâts. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est affectée par un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Attaque de la mante noire",
 				"description": "Si cette attaque réussit, vous infligez +8...20 points de dégâts. Si la cible ennemie est sous les effets d'un maléfice, elle souffre d'Infirmité pendant 3...15 secondes.",
 				"concise": "Inflige +8...20 points de dégâts. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est affectée par un maléfice."
+			},
+			"it": {
+				"name": "Affondo della Mantide Nera",
+				"description": "Attacco con Arma Primaria. Se questo attacco va a segno, infliggi +8...20 danno[i]; se l'obiettivo nemico è affetto da una fattura diventa storpio per 3...15 secondo[i].",
+				"concise": "Attacco con Arma Primaria. Danni inferti: +8...20. Condizione inflitta se l'obiettivo nemico è affetto da fattura: Storpiatura (3...15 secondo[i])."
+			},
+			"jp": {
+				"name": "ブラック マンティス スラスト",
+				"description": "リード アタック： この攻撃が成功すると 8...20 の追加ダメージを与えます。ターゲットした敵に弱体化スペルがかけられている場合、その敵は 3...15 秒間「不自由」状態になります。",
+				"concise": "リード アタック： 8...20 の追加ダメージを与えます。ターゲットした敵に弱体化スペルがかけられている場合、「不自由」状態にします (3...15 秒)。"
+			},
+			"kr": {
+				"name": "흑사마귀 찌르기",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상에게 8...20의 대미지를 추가로 줍니다. 그 대상이 약화 마법에 걸렸다면 3...15초 동안 다리 부상 상태가 됩니다.",
+				"concise": "주 공격. 8...20의 대미지를 추가로 줍니다. 대상이 약화 마법에 걸려 있으면 다리 부상을 입힙니다.(3...15초)"
+			},
+			"pl": {
+				"name": "Pchnięcie Czarnej Modliszki",
+				"description": "Atak poprzedzający. Jeśli atak trafi, zadajesz +8...20 pkt. obrażeń. Jeśli wybrany przeciwnik jest pod wpływem klątwy, zostaje on okulawiony na 3...15 sek.",
+				"concise": "Atak poprzedzający. Zadaje +8...20 pkt. obrażeń. Wywołuje przypadłość okulawienie (3...15 sek.), jeżeli wybrany przeciwnik jest pod działaniem klątwy."
+			},
+			"ru": {
+				"name": "Black Mantis Thrust",
+				"description": "Ведущая атака. Если эта атака достигает цели, вы наносите дополнительно 8...20 ед. урона. Если на выбранного противника наложено проклятье, то он будет хромать в течение 3...15 сек.",
+				"concise": "Ведущая атака. Наносит дополнительно 8...20 ед. урона. Вызывает хромоту (3...15 сек), если на выбранного противника наложено проклятье."
+			},
+			"bork": {
+				"name": "Blaeck Muntees Throost",
+				"description": "Leaed Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +8...20 daemaege-a. Iff taerget fue-a is sooffffereeng frum a hex, thaet fue-a is Creeppled fur 3...15 secunds.",
+				"concise": "Leaed Aettaeck. Deaels +8...20 daemaege-a. Inffleects Creeppled cundeeshun (3...15 secunds) iff taerget fue-a is hexed."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵动",
+				"description": "精英姿态。 在1...20秒之内，你所有的攻击技能将多消耗15%点能量，冷却速度加快1%。",
+				"concise": "精英姿态。 在1...20秒之内，你所有的攻击技能将多消耗15%点能量，冷却速度加快1%。"
+			},
+			"cht": {
+				"name": "專精者靈巧",
+				"description": "精英態勢： 持續1...20秒，攻擊速度增加15%，弓術精通屬性+1。",
+				"concise": "精英態勢： 持續1...20秒，攻擊速度增加15%，弓術精通屬性+1。"
+			},
 			"de": {
+				"name": "Gewandtheit des Profis (PvP)",
+				"description": "Elite-Haltung. 1...20 Sekunde[n] lang greift Ihr um 15% schneller an und Euer Attribut Treffsicherheit ist um 1 erhöht.",
+				"concise": "Elite-Haltung. 1...20 Sekunde[n]: Ihr greift um 15% schneller an und Euer Attribut Treffsicherheit wird um +1 erhöht."
+			},
+			"de-guildwiki": {
 				"name": "Gewandtheit des Profis (PvP)",
 				"description": "1...20 Sekunden lang greift Ihr um 15% schneller an und Euer Attribut Treffsicherheit ist um 1 erhöht.",
 				"concise": "1...20 Sekunden: Ihr greift um 15% schneller an und Euer Attribut Treffsicherheit wird um +1 erhöht."
 			},
 			"en": {
 				"name": "Expert's Dexterity (PvP)",
+				"description": "Elite Stance. For 1...20 seconds, you attack 15% faster and your Marksmanship attribute is increased by 1.",
+				"concise": "Elite Stance. (1...20 seconds.) You attack 15% faster and you gain +1 to your Marksmanship attribute."
+			},
+			"en-gww": {
+				"name": "Expert's Dexterity (PvP)",
 				"description": "For 1...20 second[s], you attack 15% faster and your Marksmanship attribute is increased by 1.",
 				"concise": "(1...20 second[s].) You attack 15% faster and you gain +1 to your Marksmanship attribute."
 			},
+			"es": {
+				"name": "Destreza del experto (PvP)",
+				"description": "Actitud de élite. Durante 1...20 segundos, atacas un 15% más deprisa y tu atributo puntería sube 1.",
+				"concise": "Actitud de élite. (1...20 segundos). Atacas un 15% más deprisa y ganas +1 en tu atributo puntería."
+			},
 			"fr": {
+				"name": "Dextérité de l'expert (PvP)",
+				"description": "Pose de combat d'élite. Pendant 1...20 secondes, vous attaquez 15% plus vite et votre caractéristique d'Adresse au tir est augmentée de 1.",
+				"concise": "Pose de combat d'élite. (1...20 secondes.) Vous attaquez 15% plus vite et votre caractéristique d'Adresse au tir est augmentée de +1."
+			},
+			"fr-gwiki": {
 				"name": "Dextérité de l'expert (PvP)",
 				"description": "Pendant 1...20 seconde(s), vous attaquez 15% plus vite et votre caractéristique d'Adresse au tir est augmentée de 1.",
 				"concise": "(1...20 seconde(s).) Vous attaquez 15% plus vite et votre caractéristique d'Adresse au tir est augmentée de +1."
+			},
+			"it": {
+				"name": "Destrezza dell'Esperto (PvP)",
+				"description": "Posizione d'Élite. Per 1...20 secondo[i] hai una velocità d'attacco superiore di un 15% e il grado dell'attributo Precisione aumenta di 1.",
+				"concise": "Posizione d'Élite. (Secondi: 1...20) Aumento tua velocità d'attacco: 15%. Incremento grado dell'attributo Precisione: +1."
+			},
+			"jp": {
+				"name": "エキスパート デクスタリティ (PvP)",
+				"description": "エリート スタンス： 1...20 秒間、攻撃速度が 15%、「ボウマスタリー」の特性が 1 増加します。",
+				"concise": "エリート スタンス： (1...20 秒) 攻撃速度が 15%、「ボウマスタリー」の特性が 1 増加します。"
+			},
+			"kr": {
+				"name": "전문가의 기민함(대인전)",
+				"description": "엘리트 자세. 대상 지정: 없음. 1...20초 동안 공격 속도가 15% 빨라지고, 궁술 특성 레벨이 1 증가합니다.",
+				"concise": "엘리트 자세. (1...20초) 공격 속도가 15% 빨라지고, 궁술 특성 레벨이 1 증가합니다."
+			},
+			"pl": {
+				"name": "Mistrzowska Sprawność (PvP)",
+				"description": "Postawa elitarna. Przez 1...20 sek. atakujesz o 15% szybciej, a twoje Umiejętności Strzeleckie zwiększają się o 1.",
+				"concise": "Postawa elitarna. (1...20 sek.) Atakujesz o 15% szybciej i posiadasz +1 do Umiejętności Strzeleckich."
+			},
+			"ru": {
+				"name": "Expert's Dexterity (PvP)",
+				"description": "Элитная стойка. В течение 1...20 сек вы атакуете на 15% быстрее, а ваш талант Marksmanship увеличивается на 1.",
+				"concise": "Элитная стойка. (1...20 сек) Вы атакуете на 15% быстрее и получаете +1 к вашему таланту Marksmanship."
+			},
+			"bork": {
+				"name": "Ixpert's Dextereety (PfP)",
+				"description": "Ileete-a Stunce-a. Fur 1...20 secunds, yuoo aettaeck 15% faester und yuoor Maerksmunsheep aettreeboote-a is increaesed by 1.",
+				"concise": "Ileete-a Stunce-a. (1...20 secunds.) Yuoo aettaeck 15% faester und yuoo gaeeen +1 tu yuoor Maerksmunsheep aettreeboote-a."
 			}
 		}
 	}

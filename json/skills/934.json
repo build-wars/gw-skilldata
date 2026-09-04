@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "异常纹章",
+				"description": "纹章。 对目标敌人造成15...75点伤害。如果目标是\"召唤类生物\"，则追加一倍伤害，并且此纹章技能立即冷却。",
+				"concise": "纹章。 对目标敌人造成15...75点伤害。如果目标是\"召唤类生物\"，则追加一倍伤害，并且技能立即冷却。"
+			},
+			"cht": {
+				"name": "反常紋章",
+				"description": "紋章： 對目標敵人造成 15...75 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 5...50 傷害。",
+				"concise": "紋章： 對目標敵人造成 15...75 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 5...50 傷害。"
+			},
 			"de": {
+				"name": "Unnatürliches Siegel",
+				"description": "Siegel. Der Gegner erleidet 15...75 Punkt[e] Schaden. Unterliegt der Gegner einer Verzauberung oder Verhexung, erleiden umstehende Feinde 5...50 Punkt[e] Schaden.",
+				"concise": "Siegel. Richtet 15...75 Punkt[e] Schaden an. Richtet bei anderen umstehenden Feinden 5...50 Punkt[e] Schaden an, falls der Gegner verhext oder verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Unnatürliches Siegel",
 				"description": "Der Gegner erleidet 15...75 Punkte Schaden. Unterliegt der Gegner einer Verzauberung oder Verhexung, erleiden umstehende Feinde 5...50 Punkte Schaden.",
 				"concise": "Richtet 15...75 Punkte Schaden an. Richtet bei anderen umstehenden Feinden 5...50 Punkte Schaden an, falls der Gegner verhext oder verzaubert ist."
 			},
 			"en": {
 				"name": "Unnatural Signet",
+				"description": "Signet. Target foe takes 15...75 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 5...50 damage.",
+				"concise": "Signet. Deals 15...75 damage. Deals 5...50 damage to other adjacent foes if the target is hexed or enchanted."
+			},
+			"en-gww": {
+				"name": "Unnatural Signet",
 				"description": "Target foe takes 15...75 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 5...50 damage.",
 				"concise": "Deals 15...75 damage. Deals 5...50 damage to other adjacent foes if the target is hexed or enchanted."
 			},
+			"es": {
+				"name": "Sello antinatural",
+				"description": "Sello. El enemigo objetivo recibe 15...75 de daño. Si el enemigo se encuentra bajo los efectos de un maleficio o un encantamiento, los enemigos adyacentes al objetivo reciben 5...50 de daño.",
+				"concise": "Sello. Hace 15...75 de daño. Hace 5...50 de daño a otros enemigos adyacentes si el objetivo tiene un maleficio o un encantamiento."
+			},
 			"fr": {
+				"name": "Sceau contre nature",
+				"description": "Sceau. L'ennemi visé subit 15...75 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice ou d'un enchantement, les ennemis adjacents à votre cible subissent 5...50 points de dégâts.",
+				"concise": "Sceau. Inflige 15...75 points de dégâts. Inflige 5...50 points de dégâts aux autres ennemis adjacents si la cible est sous l'effet d'un maléfice ou d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Sceau contre nature",
 				"description": "La cible ennemie subit 15...75 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice ou d'un enchantement, les ennemis adjacents à votre cible subissent 5...50 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo Innaturale",
+				"description": "Sigillo. L'obiettivo nemico subisce 15...75 danni. Se è sotto gli effetti di una fattura o di un incantesimo, i nemici adiacenti subiscono 5...50 danni.",
+				"concise": "Sigillo. Danni inferti: 15...75. Se l'obiettivo era sotto gli effetti di una fattura o di un incantesimo, infligge 5...50 danni ai nemici adiacenti."
+			},
+			"jp": {
+				"name": "アンナチュラル シグネット",
+				"description": "シグネット： ターゲットした敵に 15...75 のダメージを与えます。その敵に弱体化または強化スペルがかけられている場合、ターゲットに隣接する敵に 5...50 のダメージを与えます。",
+				"concise": "シグネット： 15...75 のダメージを与えます。ターゲットした敵に弱体化または強化スペルがかけられている場合、隣接するその他の敵に 5...50 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "비자연 인장",
+				"description": "인장. 대상 지정: 적. 대상에게 15...75의 대미지를 줍니다. 대상이 강화 마법이나 약화 마법에 걸려 있으면 대상에 인접한 적들에게 5...50의 대미지를 줍니다.",
+				"concise": "인장. 15...75의 대미지를 줍니다. 대상이 강화 마법이나 약화 마법에 걸려 있으면 인접한 다른 적들에게 5...50의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Nienaturalny Sygnet",
+				"description": "Sygnet. Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń. Jeśli jest on pod działaniem klątwy lub zaklęcia, przeciwnicy w bezpośrednim sąsiedztwie celu otrzymują 5...50 pkt. obrażeń.",
+				"concise": "Sygnet. Zadaje 15...75 pkt. obrażeń. Zadaje 5...50 pkt. obrażeń innym wrogom w sąsiedztwie, jeśli cel jest pod działaniem klątwy lub zaklęcia."
+			},
+			"ru": {
+				"name": "Unnatural Signet",
+				"description": "Печать. Выбранный противник получает 15...75 ед. урона. Если этот противник находится под действием проклятья или чар, окружающие вашу цель противники получат 5...50 ед. урона.",
+				"concise": "Печать. Наносит 15...75 ед. урона. Наносит 5...50 ед. урона окружающим противникам, если цель находится под действием проклятья или чар."
+			},
+			"bork": {
+				"name": "Unnaetoorael Seegnet",
+				"description": "Seegnet. Taerget fue-a taekes 15...75 daemaege-a. Iff thaet fue-a is under zee iffffects ooff a hex oor inchuntment, fues aedjaecent tu yuoor taerget taeke-a 5...50 daemaege-a. Bork! Bork! Bork!",
+				"concise": "Seegnet. Deaels 15...75 daemaege-a. Deaels 5...50 daemaege-a tu oozeer aedjaecent fues iff zee taerget is hexed oor inchunted."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "上古回音",
+				"description": "自然仪式。 创造一只等级为1...10的回音精灵。使区域内所有「非灵体」类生物在使用任何「纹章」类技能时，消耗10点能量。回音精灵在30...240秒后消失。",
+				"concise": "自然仪式。 创造一只 1...10级 的回音精灵。使区域内所有生物在使用任何「纹章」类技能时，需要消耗 10点 能量。回音精灵在30...240秒 后消失。"
+			},
+			"cht": {
+				"name": "太古回音",
+				"description": "自然儀式： 創造一隻等級 1...10 的太古回音精靈。使區域內所有非「靈」的生物在使用任何「紋章」類型技能時，消耗 10 能量。太古回音精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的太古回音精靈。使區域內所有非「靈」的生物在使用任何「紋章」類型技能時，消耗 10 能量。太古回音精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Urechos",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Die Verwendung von Siegeln kostet Kreaturen in seiner Reichweite, die keine Geister sind, 10 Energiepunkte. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Siegel kosten Kreaturen in Reichweite 10 Energiepunkte. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Urechos",
 				"description": "Erstellt einen Geist der Stufe 1...10. Die Verwendung von Siegeln kostet Kreaturen in seiner Reichweite, die keine Geister sind, 10 Energiepunkte. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Siegel kosten Kreaturen in Reichweite 10 Energiepunkte. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Primal Echoes",
+				"description": "Nature Ritual. Create a level 1...10 spirit. For non-spirit creatures within its range, signets cost 10 Energy to use. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Signets cost 10 Energy for creatures in range. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Primal Echoes",
 				"description": "Create a level 1...10 Spirit. For non-Spirit creatures within its range, Signets cost 10 Energy to use. This Spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Signets cost 10 energy for creatures in range. Does not affect spirits."
 			},
+			"es": {
+				"name": "Ecos primarios",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. A las criaturas no espíritus que estén en su zona les costará 10 de energía usar sellos. Morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10 (30...240 segundos de vida). Los sellos cuestan 10 de energía a las criaturas de la zona. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Echos primitifs",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Pour les créatures dans sa portée (sauf les esprits), l'utilisation des sceaux coûte 10 points d'énergie. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Les sceaux coûtent 10 points d'énergie pour les créatures à portée. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Echos primitifs",
 				"description": "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée (sauf les esprits), l'utilisation des sceaux coûte 10 points d'énergie. Cet esprit disparaît au bout de 30...240 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Echi Primordiali",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Per le creature nella sua portata (Spiriti esclusi), i Sigilli costano 10 Punti Energia. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Costo Sigilli per le creature nella portata: 10 Punti Energia. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "プライマル エコー",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物はシグネット スキルの使用に10のエネルギーを消費します。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内では、シグネットを使用すると10のエネルギーを消費します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "메아리의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체가 인장 계열 스킬을 사용할 때 10의 에너지를 소모합니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 인장을 사용할 때 10의 에너지를 소모합니다."
+			},
+			"pl": {
+				"name": "Pierwotne Echa",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Dla stworzeń nie-duchów w jego zasięgu użycie sygnetów kosztuje 10 pkt. energii. Duch umiera po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Użycie sygnetu przez stworzenia w zasięgu kosztuje 10 pkt. energii. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Primal Echoes",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Для всех не являющихся духами созданий, находящихся в зоне его действия, использование любой печати стоит 10 ед. энергии. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Использование печатей требует 10 ед. энергии для созданий в зоне его действия. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Preemael Ichues",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Fur nun-spureet creaetoores veetheen its runge-a, seegnets cust 10 Inergy tu use-a. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Seegnets cust 10 Inergy fur creaetoores in runge-a. Dues nut aeffffect spureets."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 8,
 		"adrenaline_precise": 8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "大地践踏",
+				"description": "精英锤术。 将目标敌人及邻近他的所有我方敌人击倒。（当「锤系专精」属性投入在4点以下时，此技能有50%的几率失败。）",
+				"concise": "精英锤术。 将目标敌人及所有邻近的敌人击倒。（当「锤系专精」属性投入少于 4点时，此技能有 50% 的几率失败。）"
+			},
+			"cht": {
+				"name": "震動大地",
+				"description": "精英鎚術攻擊技能： 擊倒標敵人及所有鄰近該目標的敵人。（精通鎚術 4 以下，有 50% 失敗機率）",
+				"concise": "精英鎚術攻擊技能： 擊倒標敵人及所有鄰近該目標的敵人。（精通鎚術 4 以下，有 50% 失敗機率）"
+			},
 			"de": {
+				"name": "Erdrüttler",
+				"description": "Elite-Hammerangriff. Der Gegner und alle umstehenden Feinde werden zu Boden geworfen. (Bei einer Hammerbeherrschung von 4 oder weniger besteht eine 50%ige Chance für einen Misserfolg.)",
+				"concise": "Elite-Hammerangriff. Wirft Gegner und umstehende Feinde zu Boden. Mindestens Hammerbeherrschung 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Erdrüttler",
 				"description": "Wenn Erdrüttler trifft, werden der Gegner und alle ihn umstehenden Feinde zu Boden geworfen. (Bei einer Hammerbeherrschung von 4 oder weniger besteht eine 50%ige Chance für einen Misserfolg.)",
 				"concise": "Wirft Gegner und umstehende Feinde zu Boden. <gray>Mindestens Hammerbeherrschung 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Earth Shaker",
+				"description": "Elite Hammer Attack. Target foe and all adjacent foes are knocked down. (50% failure chance with Hammer Mastery 4 or less.)",
+				"concise": "Elite Hammer Attack. Knocks down target and adjacent foes. 50% failure chance unless Hammer Mastery 5 or more."
+			},
+			"en-gww": {
+				"name": "Earth Shaker",
 				"description": "Target foe and all adjacent foes are knocked down. (50% failure chance with Hammer Mastery 4 or less.)",
 				"concise": "Knocks down target and adjacent foes. <gray>50% failure chance unless Hammer Mastery is 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Temblor de tierra",
+				"description": "Ataque con martillo de élite. El enemigo objetivo y todos los adyacentes caen al suelo. (50% de posibilidades de fallo con dominio del martillo 4 o inferior).",
+				"concise": "Ataque con martillo de élite. Causa derribo al enemigo objetivo y los adyacentes. 50% de probabilidades de fallar con un nivel de dominio del martillo inferior a 5."
+			},
 			"fr": {
+				"name": "Marteau pilon",
+				"description": "Attaque au marteau d'élite. L'ennemi ciblé et tous les ennemis adjacents sont assommés (50% de risques d'échec avec Maîtrise du marteau 4 ou moins).",
+				"concise": "Attaque au marteau d'élite. Assomme la cible et les ennemis adjacents. 50% de chances d'échouer sauf si la valeur de Maîtrise du marteau est de 5 ou plus."
+			},
+			"fr-gwiki": {
 				"name": "Marteau pilon",
 				"description": "L'ennemi ciblé et tous les ennemis adjacents sont assommés (50% de risques d'échec avec Maîtrise du marteau 4 ou moins).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Scuoti-terra",
+				"description": "Attacco d'Élite con Martello. L'obiettivo nemico e tutti i nemici adiacenti vengono abbattuti (50% di probabilità di fallimento con Abilità col Martello di livello 4 o inferiore).",
+				"concise": "Attacco d'Élite con Martello. Abbatte l'obiettivo e i nemici adiacenti. Probabilità di fallimento: 50% se il grado di Abilità col Martello è inferiore a 5."
+			},
+			"jp": {
+				"name": "アース シェイカー",
+				"description": "エリート ハンマー アタック： ターゲットした敵および隣接するすべての敵は転倒します。「ハンマー マスタリー」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "エリート ハンマー アタック： ターゲットした敵および隣接する敵が転倒します。「ハンマー マスタリー」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "대지 진동",
+				"description": "엘리트 해머 공격. 대상 지정: 없음. 대상과 그에 인접한 모든 적을 넘어뜨립니다. 해머 특성 레벨이 4이하면 50% 확률로 실패합니다.",
+				"concise": "엘리트 해머 공격. 대상과 그에 인접한 적들을 바닥에 넘어뜨립니다. 해머 특성 레벨이 4이하면 50%의 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Wstrząsotwórca",
+				"description": "Elitarny atak młotem. Wszyscy przeciwnicy bezpośrednio przy tobie zostają powaleni. (50% szans na niepowodzenie, jeśli Biegłość w Młotach wynosi 4 lub mniej.)",
+				"concise": "Elitarny atak młotem. Powalasz wybranego przeciwnika i przeciwników bezpośrednio przy nim. 50% szans na niepowodzenie, chyba że wartość Biegłości w Młotach wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Earth Shaker",
+				"description": "Элитная атака молотом. Выбранный противник и все окружающие противники будут сбиты с ног. (50%-й шанс неудачи, если ваш талант Hammer Mastery меньше или равен 4).",
+				"concise": "Элитная атака молотом. Сбивает с ног выбранного и окружающих противников. 50%-й шанс неудачи, если ваш талант Hammer Mastery меньше 5."
+			},
+			"bork": {
+				"name": "Iaert Shaeker",
+				"description": "Ileete-a Haemmer Aettaeck. Taerget fue-a und aell aedjaecent fues aere-a knucked doon. (50% faeeeloore-a chunce-a veet Haemmer Maestery 4 oor less.)",
+				"concise": "Ileete-a Haemmer Aettaeck. Knucks doon taerget und aedjaecent fues. 50% faeeeloore-a chunce-a unless Haemmer Maestery 5 oor mure-a."
 			}
 		}
 	}

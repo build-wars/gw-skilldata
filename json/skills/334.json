@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "利斧横扫",
+				"description": "斧术。 如果使用此技能击中正遭受「重伤」症状的敌人，会对其造成4...16点额外伤害，并且使该目标遭受的症状转化为「残废」，总计15秒。",
+				"concise": "斧术。 如果使用此技能击中正遭受「重伤」症状的敌人，会对其造成4...16点额外伤害，并且使该目标遭受的症状转化为「残废」，总计15秒。"
+			},
+			"cht": {
+				"name": "銳斧掃蕩",
+				"description": "斧術攻擊技能： 若用此技能擊中正遭受「重傷」病症的敵人，對其造成 4...16 額外傷害，並且使該目標遭受的病症轉變為「殘廢」15秒。",
+				"concise": "斧術攻擊技能： 若用此技能擊中正遭受「重傷」病症的敵人，對其造成 4...16 額外傷害，並且使該目標遭受的病症轉變為「殘廢」15秒。"
+			},
 			"de": {
+				"name": "Harkenaxt",
+				"description": "Axtangriff. Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde leidet, fügt Ihr 4...16 Punkt[e] zusätzlichen Schaden zu und dieser Gegner erleidet 15 Sekunden lang eine Verkrüppelung.",
+				"concise": "Axtangriff. Richtet +4...16 Punkt[e] Schaden an und verursacht Zustand Verkrüppelung (15 Sekunden), falls Gegner eine Tiefe Wunde hat."
+			},
+			"de-guildwiki": {
 				"name": "Harkenaxt",
 				"description": "Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde<sic/> leidet, fügt Ihr 4...16 Punkte zusätzlichen Schaden zu und dieser Gegner erleidet 15 Sekunden lang eine Verkrüppelung.",
 				"concise": "Richtet +4...16 Punkte Schaden an und verursacht Zustand Verkrüppelung (15 Sekunden), falls Gegner eine Tiefe Wunde hat."
 			},
 			"en": {
 				"name": "Axe Rake",
+				"description": "Axe Attack. If this attack hits a foe suffering from a Deep Wound, you strike for +4...16 damage, and that foe becomes Crippled for 15 seconds.",
+				"concise": "Axe Attack. Deals +4...16 damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound."
+			},
+			"en-gww": {
+				"name": "Axe Rake",
 				"description": "If this attack hits a foe suffering from a Deep Wound, you strike for +4...16 damage, and that foe becomes Crippled for 15 seconds.",
 				"concise": "Deals +4...16 damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound."
 			},
+			"es": {
+				"name": "Barrido de hacha",
+				"description": "Ataque con hacha. Si este ataque impacta a un enemigo que tenga una herida grave, harás +4...16 de daño, y ese enemigo quedará lisiado durante 15 segundos.",
+				"concise": "Ataque con hacha. Hace +4...16 de daño y causa lisiadura (15 segundos) si el enemigo objetivo tiene una herida grave."
+			},
 			"fr": {
+				"name": "Ratissage",
+				"description": "Attaque à la hache. Si cette attaque frappe un ennemi souffrant d'une Blessure profonde, vous infligez +4...16 points de dégâts et la cible est frappée d'Infirmité pendant 15 secondes.",
+				"concise": "Attaque à la hache. Inflige +4...16 points de dégâts et provoque l'Infirmité (15 secondes) si l'ennemi visé souffre de Blessure profonde."
+			},
+			"fr-gwiki": {
 				"name": "Ratissage",
 				"description": "Si cette attaque frappe un ennemi souffrant d'une Blessure profonde, vous infligez +1...10 point(s) de dégâts et la cible est frappée d'Infirmité pendant 15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ascia Rastrello",
+				"description": "Attacco con Ascia. Se questo attacco va a segno su un obiettivo nemico affetto dalla Ferita Profonda, infliggi +4...16 danno[i] e il nemico diventa storpio per 15 secondi.",
+				"concise": "Attacco con Ascia. Danni inferti: +4...16. Condizione inflitta se l'obiettivo nemico ha una Ferita Profonda: Storpiatura (15 secondi)."
+			},
+			"jp": {
+				"name": "アックス レーキ",
+				"description": "アックス アタック： 「重傷」状態の敵に対してこの攻撃が成功すると 4...16 の追加ダメージを与え、その敵を15秒間「不自由」状態にします。",
+				"concise": "アックス アタック： ターゲットした敵が「重傷」状態の場合、4...16 の追加ダメージを与えて「不自由」状態にします (15秒)。"
+			},
+			"kr": {
+				"name": "도끼 회전",
+				"description": "도끼 공격. 대상 지정: 적. 중상 상태인 대상에게 공격이 성공하면 4...16의 대미지를 추가로 주고, 15초 동안 다리부상 상태로 만듭니다.",
+				"concise": "도끼 공격. 4...16의 대미지를 추가로 주고, 중상인 적에게는 다리부상을 입힙니다.(15초)"
+			},
+			"pl": {
+				"name": "Podcięcie Toporem",
+				"description": "Atak toporem. Jeśli atak trafi przeciwnika z głęboką raną, zadajesz +4...16 pkt. obrażeń, a ten przeciwnik na 15 sek. zostaje okulawiony.",
+				"concise": "Atak toporem. Zadaje +4...16 pkt. obrażeń i wywołuje przypadłość okulawienie (15 sek.), jeżeli wybrany przeciwnik ma głęboką ranę."
+			},
+			"ru": {
+				"name": "Axe Rake",
+				"description": "Атака топором. Если эта атака попадает по противнику с глубокой раной, вы наносите дополнительно 4...16 ед. урона, а противник будет хромать в течение 15 сек.",
+				"concise": "Атака топором. Наносит дополнительно 4...16 ед. урона и вызывает хромоту (15 сек), если у выбранного противника глубокая рана."
+			},
+			"bork": {
+				"name": "Aexe-a Raeke-a",
+				"description": "Aexe-a Aettaeck. Iff thees aettaeck heets a fue-a sooffffereeng frum a Deep Vuoond, yuoo streeke-a fur +4...16 daemaege-a, und thaet fue-a becumes Creeppled fur 15 secunds.",
+				"concise": "Aexe-a Aettaeck. Deaels +4...16 daemaege-a und inffleects Creeppled cundeeshun (15 secunds) iff taerget fue-a haes a Deep Vuoond."
 			}
 		}
 	}

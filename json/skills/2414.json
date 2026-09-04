@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Radiation Field",
+				"description": "结界魔法。 For 5 seconds, foes in the area have -4...6 Health degeneration. When the portal ends, foes in the area are Diseased for 12...20 seconds.",
+				"concise": "结界魔法。 (5 seconds.) Causes -4...6 Health degeneration to foes in the area. End effect: inflicts Disease condition (12...20 seconds) to foes in the area."
+			},
+			"cht": {
+				"name": "輻射之層",
+				"description": "結界魔法： 持續 5 秒，區域內的敵人會遭受 -4...6 體力衰退。當入口關閉時，區域內的敵人也將遭受「疫病」12...20 秒。",
+				"concise": "結界魔法： For 5 seconds, foes in the area have -4...6 Health degeneration. When the portal ends, foes in the area are Diseased for 12...20 seconds."
+			},
 			"de": {
+				"name": "Strahlungsfeld",
+				"description": "Abwehrzauber. 5 Sekunden lang unterliegen Feinde in dem Bereich einer Lebenspunktdegeneration von -4...6. Wenn das Portal endet, leiden alle Gegner in dem Bereich 12...20 Sekunde[n] lang an Krankheit.",
+				"concise": "Abwehrzauber. 5 Sekunden: Verursacht bei Feinden im Bereich -4...6 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Feinden im Bereich den Zustand Krankheit (12...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Strahlungsfeld",
 				"description": "5 Sekunden lang unterliegen Feinde in dem Bereich einer Lebenspunktdegeneration von -4...6. Wenn das Portal endet, leiden alle Feinde in dem Bereich 12...20 Sekunden lang an Krankheit.",
 				"concise": "5 Sekunden: Verursacht bei Feinden im Bereich -4...6 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Feinden im Bereich den Zustand Krankheit (12...20 Sekunden)."
 			},
 			"en": {
 				"name": "Radiation Field",
+				"description": "Ward Spell. For 5 seconds, foes in the area have -4...6 Health degeneration. When the portal ends, foes in the area are Diseased for 12...20 seconds.",
+				"concise": "Ward Spell. (5 seconds.) Causes -4...6 Health degeneration to foes in the area. End effect: inflicts Disease condition (12...20 seconds) to foes in the area."
+			},
+			"en-gww": {
+				"name": "Radiation Field",
 				"description": "For 5 seconds, foes in the area have -4...6 Health degeneration. When the portal ends, foes in the area are Diseased for 12...20 seconds.",
 				"concise": "(5 seconds.) Causes -4...6 Health degeneration to foes in the area. End effect: inflicts Disease condition (12...20 seconds) to foes in the area."
 			},
+			"es": {
+				"name": "Campo de radiación",
+				"description": "Conjuro de protección. Durante 5 segundos, los enemigos en la zona tienen una degeneración de salud de -4...6. Cuando este portal acabe, los enemigos en la zona quedan enfermos durante 12...20 segundos.",
+				"concise": "Conjuro de protección. (5 segundos). Causa -4...6 de degeneración de salud a los enemigos de la zona. Efecto final: causa enfermedad (12...20 segundos) a los enemigos de la zona."
+			},
 			"fr": {
+				"name": "Champ de rayonnement",
+				"description": "Sort de protection. Pendant 5 secondes, les ennemis se trouvant dans la zone subissent une dégénération de santé de -4...6. Lorsque le portail disparaît, les ennemis dans la zone souffrent de Maladie pendant 12...20 secondes.",
+				"concise": "Sort de protection. (5 secondes.) Fait subir une dégénération de santé de -4...6 aux ennemis dans la zone. Effet final : inflige la Maladie (12...20 secondes) aux ennemis dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Champ de rayonnement",
 				"description": "Pendant 5 secondes, les ennemis se trouvant dans la zone subissent une dégénération de santé de -4...6. Lorsque le portail disparaît, les ennemis dans la zone souffrent de Maladie pendant 12...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Campo Radioattivo",
+				"description": "Guardia. Per 5 secondi, i nemici nell'area subiscono una Degenerazione della Salute di -4...6. Quando il portale si esaurisce i nemici nell'area soffrono di Malattia per 12...20 secondo[i].",
+				"concise": "Guardia. (Secondi: 5) Degenerazione Salute dei nemici nell'area: -4...6. Effetto al termine: infligge Malattia (12...20 secondo[i]) ai nemici nell'area."
+			},
+			"jp": {
+				"name": "ラジエーション フィールド",
+				"description": "ウォード スペル： 5秒間、エリア内にいる敵は体力の自然回復力が 4...6 減少します。ポータルが閉じると、エリア内にいる敵は 12...20 秒間「疾病」状態になります。",
+				"concise": "ウォード スペル： (5秒) エリア内にいる敵は体力の自然回復力が 4...6 減少します。終了効果： エリア内にいる敵を「疾病」状態にします (12...20 秒) 。"
+			},
+			"kr": {
+				"name": "방사능 영역",
+				"description": "결계. 5초 동안 일정 범위 내에 있는 적들의 체력 재생이 4...6 감소합니다. 효과가 끝나면 일정 범위 내에 있는 적들은 12...20초 동안 질병에 걸립니다.",
+				"concise": "결계. (5초) 일정 범위 내에 있는 적들의 체력 재생이 4...6 감소합니다. 종료 효과: 일정 범위 내에 있는 적들에게 질병을 겁니다.(12...20초)"
+			},
+			"pl": {
+				"name": "Napromieniowany Obszar",
+				"description": "Ochrona (czar). Przez 5 sek., przeciwnicy w okolicy posiadają degenerację żywotności -4...6. Kiedy portal przestanie działać, przeciwnicy w okolicy znajdą się na 12...20 sek. pod działaniem choroby.",
+				"concise": "Ochrona (czar). (5 sek.) Przeciwnicy w okolicy posiadają degenerację żywotności -4...6. Efekt końcowy: u przeciwników w okolicy wywołuje przypadłość choroba (12...20 sek.)."
+			},
+			"ru": {
+				"name": "Radiation Field",
+				"description": "Заклинание опеки. В течение 5 сек скорость восстановления здоровья у находящихся в зоне досягаемости противников уменьшается на 4...6 ед. Когда портал заканчивает свое действие, противники в зоне досягаемости будут больны в течение 12...20 сек.",
+				"concise": "Заклинание опеки. (5 сек) Уменьшает на 4...6 ед. скорость восстановления здоровья у противников в зоне досягаемости. Эффект окончания: вызывает болезнь (12...20 сек) у противников в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Raedeeaeshun Feeeld",
+				"description": "Vaerd Spell. Fur 5 secunds, fues in zee aerea haefe-a -4...6 Heaelt degeneraeshun. Vhee zee purtael inds, fues in zee aerea aere-a Deeseaesed fur 12...20 secunds.",
+				"concise": "Vaerd Spell. (5 secunds.) Cooses -4...6 Heaelt degeneraeshun tu fues in zee aerea. Ind iffffect: inffleects Deeseaese-a cundeeshun (12...20 secunds) tu fues in zee aerea."
 			}
 		}
 	}

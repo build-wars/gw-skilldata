@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "烟雾陷阱",
+				"description": "精英陷阱技。 烟雾陷阱触发时，区域内的地人被致盲及晕眩5...10秒。烟雾陷阱90秒后消失。在激活此技能时，你易被打断。",
+				"concise": "精英陷阱技。 （90秒）给区域内的敌人附加5...10秒致盲及晕眩。容易被打断。"
+			},
+			"cht": {
+				"name": "煙霧陷阱",
+				"description": "精英陷阱： When Smoke Trap is triggered, foes in the area are Blinded and Dazed for 5...10 seconds. Smoke Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "精英陷阱： (90 seconds.) Inflicts Blinded and Dazed conditions (5...10 seconds) to foes in the area. Easily interrupted."
+			},
 			"de": {
+				"name": "Rauchfalle",
+				"description": "Elite-Falle. Wenn die Rauchfalle ausgelöst wird, werden Gegner im Bereich 5...10 Sekunden lang geblendet und benommen. Die Rauchfalle endet nach 90 Sekunden. Beim Aktivieren dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Elite-Falle. (90 Sekunden.) Fügt Gegnern im Bereich die Zustände Geblendet und Benommen zu (5...10 Sekunden). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Rauchfalle",
 				"description": "Wird Rauchfalle aktiviert, werden alle Gegner in der Nähe 5...10 Sekunden lang geblendet und benommen. Rauchfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Verursacht bei Feinden in der Nähe die Zustände Blindheit und Benommenheit (5...10 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Smoke Trap",
+				"description": "Elite Trap. When Smoke Trap is triggered, foes in the area are Blinded and Dazed for 5...10 seconds. Smoke Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Elite Trap. (90 seconds.) Inflicts Blinded and Dazed conditions (5...10 seconds) to foes in the area. Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Smoke Trap",
 				"description": "When Smoke Trap is triggered, nearby foes are Blinded and Dazed for 5...10 seconds. Smoke Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Inflicts Blinded and Dazed conditions (5...10 seconds) to nearby foes. <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Trampa de humo",
+				"description": "Trampa de élite. Cuando se active esta trampa de humo, todos los enemigos situados en la zona quedarán cegados y atontados durante 5...10 segundos. La trampa de humo dura 90 segundos. Se te podrá interrumpir con facilidad mientras la coloques.",
+				"concise": "Trampa de élite. (90 segundos). Causa ceguera y aturdimiento (5...10 segundos) a los enemigos de la zona. Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège de fumée",
+				"description": "Piège d'élite. Lorsque le Piège de fumée est déclenché, les ennemis à proximité sont frappés d'Aveuglement et de Stupeur pendant 5...10 secondes. Le Piège de fumée prend fin au bout de 90 secondes. Vous êtes plus susceptible d'être victime d'interruption lorsque vous activez cette compétence.",
+				"concise": "Piège d'élite. (90 secondes.) Inflige les altérations Aveuglement et Stupeur (5...10 secondes) aux ennemis dans la zone. Interruption facile."
+			},
+			"fr-gwiki": {
 				"name": "Piège de fumée",
 				"description": "Lorsque le Piège de fumée est déclenché, les ennemis à proximité sont frappés d'Aveuglement et de Stupeur pendant 5...10 secondes. Le Piège de fumée prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trappola di Fumo",
+				"description": "Trappola d'Élite. Quando Trappola fumogena viene attivata, i nemici nell'area restano accecati e storditi per 5...10 secondo/i. Trappola fumogena termina dopo 90 secondi. Mentre attivi questa abilità puoi essere interrotto facilmente.",
+				"concise": "Trappola d'Élite. (90 secondi). Infligge le condizioni accecato e stordito (5...10 secondo/i) ai nemici nell'area. Si può interrompere facilmente."
+			},
+			"jp": {
+				"name": "スモーク トラップ",
+				"description": "エリート トラップ： スモークトラップが発動すると、エリア内の敵は5...10秒間、盲目状態と混乱状態になります。スモークトラップは90秒後に終了します。このスキルを発動している間は簡単に中断されます。",
+				"concise": "エリート トラップ： （90秒）エリア内の敵を盲目状態と混乱状態にします（5...10秒）。簡単に中断されます。"
+			},
+			"kr": {
+				"name": "연막 함정",
+				"description": "엘리트 함정. 함정이 작동하면 해당 지역 내 적들은 5...10초 동안 실명과 현혹 상태가 됩니다. 함정은 90초 뒤에 사라지며, 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "엘리트 함정. (90초) 일정 범위 내의 적을 실명 및 현혹 상태로 만듭니다(5...10초). 쉽게 방해받습니다."
+			},
+			"pl": {
+				"name": "Pułapka Dymna",
+				"description": "Pułapka elitarna. Kiedy Pułapka Dymna zostanie uaktywniona, przeciwnicy w okolicy zostają oślepieni i oszołomieni na 5...10 sek. Pułapka Dymna przestaje działać po 90 sekundach. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka elitarna. (90 sek.). Wywołuje przypadłość oślepienie i oszołomienie (na 5...10 sek.) u wrogów na obszarze działania. Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Smoke Trap",
+				"description": "Элитная ловушка. Когда срабатывает Smoke Trap, враги в области получают эффекты Blinded и Dazed на 5...10 сек. Smoke Trap длится 90 сек. Вас легко прервать при активации этого навыка.",
+				"concise": "Элитная ловушка. (90 сек.) Накладывает состояния Blinded и Dazed (5...10 сек.) на врагов в области. Легко прервать."
+			},
+			"bork": {
+				"name": "Smuke-a Traep",
+				"description": "Ileete-a Traep. Vhee Smuke-a Traep is treeggered, fues in zee aerea aere-a Bleended und Daezed fur 5...10 secunds. Smuke-a Traep inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Ileete-a Traep. (90 secunds.) Inffleects Bleended und Daezed cundeeshuns (5...10 secunds) tu fues in zee aerea. Iaeseely interroopted."
 			}
 		}
 	}

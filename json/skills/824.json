@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "熔岩之箭",
+				"description": "咒文。 熔岩之箭飞出，对最多 3 名接近你的敌人造成 20...65 伤害。此技能的施放距离只有正常技能的一半。",
+				"concise": "咒文。 对在你附近的最多2名敌人进行投射攻击，使其遭受20...65点火焰伤害。"
+			},
+			"cht": {
+				"name": "熔岩之箭",
+				"description": "咒文魔法： 最多射出三支熔岩之箭攻擊目標以及其附近敵人，造成20...65火焰傷害。",
+				"concise": "咒文魔法： 最多射出三支熔岩之箭攻擊目標以及其附近敵人，造成20...65火焰傷害。"
+			},
 			"de": {
+				"name": "Lavapfeile",
+				"description": "Zauber. Lavapfeile fliegen auf bis zu drei Gegner in der Nähe Eures Zieles zu und verursachen bei einem Treffer 20...65 Punkt[e] Feuerschaden.",
+				"concise": "Zauber. Geschoss: Richtet 20...65 Punkt[e] Feuerschaden an. Bonuswirkung: Schickt Geschosse zu 2 weiteren Feinden in der Nähe des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Lavapfeile",
 				"description": "Lavapfeile fliegen auf den Gegner und bis zu zwei Feinde in seiner Nähe zu und fügen bei einem Treffer 20...65 Punkte Feuerschaden zu.",
 				"concise": "Geschoss: Richtet 20...65 Punkte Feuerschaden an. Bonuswirkung: Schickt Geschosse zu 2 weiteren Feinden in der Nähe des Ziels."
 			},
 			"en": {
 				"name": "Lava Arrows",
+				"description": "Spell. Lava Arrows fly toward up to 3 foes near your target and strike for 20...65 fire damage if they hit.",
+				"concise": "Spell. Projectile: deals 20...65 fire damage. Bonus effect: sends projectiles at 2 other foes near your target."
+			},
+			"en-gww": {
+				"name": "Lava Arrows",
 				"description": "Lava Arrows fly toward up to 3 foes near your target and strike for 20...65 fire damage if they hit.",
 				"concise": "Projectile: deals 20...65 fire damage. Bonus effect: sends projectiles at 2 other foes near your target."
 			},
+			"es": {
+				"name": "Flechas de lava",
+				"description": "Conjuro. Las flechas de lava pueden alcanzar a 3 enemigos cercanos al objetivo y causan 20...65 de daño de fuego si impactan.",
+				"concise": "Conjuro. Proyectil: hace 20...65 de daño de fuego. Efecto extra: lanza proyectiles a otros 2 enemigos cerca de tu objetivo."
+			},
 			"fr": {
+				"name": "Flèches de Lave",
+				"description": "Sort. Les Flèches de Lave se dirigent vers un maximum de 3 ennemis proches de votre cible et infligent 20...65 points de dégâts du feu si elles atteignent leur cible.",
+				"concise": "Sort. Projectile : inflige 20...65 points de dégâts du feu. Effet bonus : envoie des projectiles sur 2 autres ennemis proches de votre cible."
+			},
+			"fr-gwiki": {
 				"name": "Flèches de Lave",
 				"description": "Les Flèches de Lave se dirigent vers un maximum de 3 ennemis près de votre cible et infligent 20...65 points de dégâts si elles atteignent leur cible.",
 				"concise": "Projectile : Inflige 20...65 points de dégâts du feu. Effet supplémentaire envoie des projectiles sur 2 autres ennemis près de votre cible."
+			},
+			"it": {
+				"name": "Frecce di Lava",
+				"description": "Magia. Le Frecce di Lava vengono lanciate su un massimo di 3 nemici vicini al tuo obiettivo infliggendo 20...65 danni da fuoco se vanno a segno.",
+				"concise": "Magia. Proiettile: danni da fuoco inferti: 20...65. Effetto bonus: lancia proiettili ad altri 2 nemici vicini al tuo obiettivo."
+			},
+			"jp": {
+				"name": "ラヴァ アロー",
+				"description": "スペル： ターゲットした敵およびその周囲にいる最大3体の敵に溶岩の矢を放ちます。命中すると 20...65 のファイア ダメージを与えます。",
+				"concise": "スペル： 遠投攻撃： 20...65 のファイア ダメージを与えます。ボーナス効果： ターゲットした敵の周囲にいる2体の敵にもダメージを与えます。"
+			},
+			"kr": {
+				"name": "용암 화살",
+				"description": "마법. 대상 지정: 적. 용암 화살이 대상과 그 부근에 있는 3명의 적에게 날아가고, 공격이 명중하면 20...65의 불 대미지를 줍니다.",
+				"concise": "마법. 발사체: 20...65의 불 대미지를 줍니다. 추가 효과: 대상 부근의 적 2명에게 발사체를 날립니다."
+			},
+			"pl": {
+				"name": "Magmowe Strzały",
+				"description": "Czar. Magmowe Strzały lecą w kierunku maksymalnie 3 przeciwników w pobliżu twojego celu i jeżeli trafią, zadają 20...65 pkt. obrażeń od ognia.",
+				"concise": "Czar. Pocisk: zadaje 20...65 pkt. obrażeń od ognia. Efekt dodatkowy: wystrzeliwuje pociski w 2 innych przeciwników w pobliżu twojego celu."
+			},
+			"ru": {
+				"name": "Lava Arrows",
+				"description": "Заклинание. Лавовые стрелы летят вперед, поражая до 3 противников, находящихся поблизости от вашей цели, и наносят 20...65 ед. огненного урона в случае попадания.",
+				"concise": "Заклинание. Метательный снаряд: наносит 20...65 ед. урона силой огня. Дополнительный эффект: посылает метательные снаряды в двух других противников поблизости от вашей цели."
+			},
+			"bork": {
+				"name": "Laefa Aerroos",
+				"description": "Spell. Laefa Aerroos fly tooaerd up tu 3 fues neaer yuoor taerget und streeke-a fur 20...65 fure-a daemaege-a iff zeey heet.",
+				"concise": "Spell. Prujecteele-a: deaels 20...65 fure-a daemaege-a. Bunoos iffffect: sends prujecteeles aet 2 oozeer fues neaer yuoor taerget."
 			}
 		}
 	}

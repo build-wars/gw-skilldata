@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暗影纹章",
+				"description": "纹章。 对目标敌人造成 5...35点 伤害，如果该目标带有「盲目」症状，则对其再造成 15...60点 额外伤害。",
+				"concise": "纹章。 对目标敌人造成 5...35点 伤害，如果该目标带有「盲目」症状，则对其再造成 15...60点 额外伤害。"
+			},
+			"cht": {
+				"name": "暗影紋章",
+				"description": "紋章： 對目標敵人造成 5...35 傷害，若該目標正遭受「盲目」病症，則對其再造成 15...60 額外傷害。",
+				"concise": "紋章： 對目標敵人造成 5...35 傷害，若該目標正遭受「盲目」病症，則對其再造成 15...60 額外傷害。"
+			},
 			"de": {
+				"name": "Siegel der Schatten",
+				"description": "Siegel. Der Gegner erleidet 5...35 Punkt[e] Schaden. Wenn Euer Ziel geblendet wurde, erleidet es zusätzlich 15...60 Punkt[e] Schaden.",
+				"concise": "Siegel. Richtet 5...35 Punkt[e] Schaden an. Richtet zusätzlich 15...60 Punkt[e] Schaden an, falls der Gegner geblendet ist."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Schatten",
 				"description": "Der Gegner erleidet 5...35 Punkte Schaden. Wenn Euer Ziel geblendet wurde, erleidet es zusätzlich 15...60 Punkte Schaden.",
 				"concise": "Richtet 5...35 Punkte Schaden an. Richtet zusätzlich 15...60 Punkte Schaden an, falls der Gegner geblendet ist."
 			},
 			"en": {
 				"name": "Signet of Shadows",
+				"description": "Signet. Target foe takes 5...35 damage. If your target was Blinded, that foe suffers an additional 15...60 damage.",
+				"concise": "Signet. Deals 5...35 damage. Deals 15...60 more damage if target foe is Blinded."
+			},
+			"en-gww": {
+				"name": "Signet of Shadows",
 				"description": "Target foe takes 5...35 damage. If your target was Blinded, that foe suffers an additional 15...60 damage.",
 				"concise": "Deals 5...35 damage. Deals 15...60 more damage if target foe is Blinded."
 			},
+			"es": {
+				"name": "Sello de sombras",
+				"description": "Sello. Haces 5...35 de daño al enemigo objetivo. Si éste estaba ciego, le harás 15...60 de daño de sombra adicional.",
+				"concise": "Sello. Hace +5...35 de daño. +15...60 de daño extra si el enemigo objetivo sufre ceguera."
+			},
 			"fr": {
+				"name": "Sceau des Ombres",
+				"description": "Sceau. L'ennemi ciblé subit 5...35 points de dégâts. S'il était aveuglé, cet ennemi subira 15...60 points de dégâts en plus.",
+				"concise": "Sceau. Inflige 5...35 points de dégâts. Inflige 15...60 points de dégâts supplémentaires si la cible ennemie est aveuglée."
+			},
+			"fr-gwiki": {
 				"name": "Sceau des Ombres",
 				"description": "L'ennemi ciblé subit 5...35 points de dégâts. S'il était aveuglé, cet ennemi subira 15...60 points de dégâts en plus.",
 				"concise": "Inflige 5...35 points de dégâts. Inflige 15...60 points de dégâts supplémentaires si la cible est aveuglée."
+			},
+			"it": {
+				"name": "Sigillo delle Ombre",
+				"description": "Sigillo. L'obiettivo nemico subisce 5...35 danno[i]; se era stato accecato subisce 15...60 danno[i] in più.",
+				"concise": "Sigillo. Danni inferti: 5...35. Assesta 15...60 danno[i] in più se l'obiettivo nemico è affetto da Accecamento."
+			},
+			"jp": {
+				"name": "シャドウ シグネット",
+				"description": "シグネット： ターゲットした敵に 5...35 のダメージを与えます。ターゲットした敵が「盲目」状態の場合、15...60 の追加ダメージを与えます。",
+				"concise": "シグネット： 5...35 のダメージを与えます。ターゲットした敵が「盲目」状態の場合、15...60 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "그림자 인장",
+				"description": "인장. 대상 지정: 적. 대상은 5...35의 대미지를 입습니다. 그 대상이 실명 상태라면 15...60의 대미지를 추가로 입습니다.",
+				"concise": "인장. 5...35의 대미지를 줍니다. 대상이 실명 상태라면 15...60의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Cienia",
+				"description": "Sygnet. Wybrany przeciwnik otrzymuje 5...35 pkt. obrażeń. Jeżeli ten przeciwnik był oślepiony, zdajesz dodatkowe 15...60 pkt. obrażeń.",
+				"concise": "Sygnet. Zadaje 5...35 pkt. obrażeń. Zadaje 15...60 pkt. dodatkowych obrażeń, jeżeli cel jest oślepiony."
+			},
+			"ru": {
+				"name": "Signet of Shadows",
+				"description": "Печать. Выбранный противник получает5...35 ед. урона. Если он был ослеплен, то он получает дополнительно 15...60 ед. урона.",
+				"concise": "Печать. Наносит 5...35 ед. урона. Наносит дополнительно 15...60 ед. урона, если выбранный противник ослеплен."
+			},
+			"bork": {
+				"name": "Seegnet ooff Shaedoos",
+				"description": "Seegnet. Taerget fue-a taekes 5...35 daemaege-a. Iff yuoor taerget vaes Bleended, thaet fue-a sooffffers un aeddeeshunael 15...60 daemaege-a.",
+				"concise": "Seegnet. Deaels 5...35 daemaege-a. Deaels 15...60 mure-a daemaege-a iff taerget fue-a is Bleended."
 			}
 		}
 	}

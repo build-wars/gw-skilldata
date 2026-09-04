@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "斗士的防御",
+				"description": "精英姿态。 使你有75%的几率格挡攻击。每当你格挡近战攻击成功时，攻击者将受到5...35点伤害，技能持续5...11秒。",
+				"concise": "精英姿态。 使你的格挡几率提高75%。每当你格挡近战攻击成功时，攻击者将受到 5...35点 伤害，技能持续 5...11秒。"
+			},
+			"cht": {
+				"name": "鬥士防禦態勢",
+				"description": "精英態勢： 持續 5...11 秒，你有 75% 機率「格擋」敵人的攻擊。每當你「格擋」近身攻擊成功時，攻擊者受到 5...35 傷害。",
+				"concise": "精英態勢： 持續 5...11 秒，你有 75% 機率「格擋」敵人的攻擊。每當你「格擋」近身攻擊成功時，攻擊者受到 5...35 傷害。"
+			},
 			"de": {
+				"name": "Gladiatoren-Verteidigung",
+				"description": "Elite-Haltung. 5...11 Sekunde[n] lang habt Ihr eine 75%ige Chance, Angriffe zu blocken. Immer, wenn Ihr einen Nahkampfangriff auf diese Weise blockt, erleidet der Angreifer 5...35 Punkt[e] Schaden.",
+				"concise": "Elite-Haltung. 5...11 Sekunde[n]: Ihr habt eine 75%ige Chance zu blocken. Angreifer erleidet jedes Mal 5...35 Punkt[e] Schaden, wenn Ihr einen Nahkampfangriff auf diese Weise blockt."
+			},
+			"de-guildwiki": {
 				"name": "Gladiatoren-Verteidigung",
 				"description": "5...11 Sekunden lang habt Ihr eine 75%ige Chance, Angriffe zu blocken. Immer, wenn Ihr einen Nahkampfangriff auf diese Weise blockt, erleidet der Angreifer 5...35 Punkte Schaden.",
 				"concise": "5...11 Sekunden: Ihr habt eine 75%ige Chance zu blocken. Angreifer erleidet jedes Mal 5...35 Punkte Schaden, wenn Ihr einen Nahkampfangriff auf diese Weise blockt."
 			},
 			"en": {
 				"name": "Gladiator's Defense",
+				"description": "Elite Stance. For 5...11 seconds, you have a 75% chance to block incoming attacks. Whenever you block a melee attack this way, the attacker suffers 5...35 damage.",
+				"concise": "Elite Stance. (5...11 seconds.) You have 75% chance to block. Your attacker takes 5...35 damage whenever you block a melee attack this way."
+			},
+			"en-gww": {
+				"name": "Gladiator's Defense",
 				"description": "For 5...11 seconds, you have a 75% chance to block incoming attacks. Whenever you block a melee attack this way, the attacker suffers 5...35 damage.",
 				"concise": "(5...11 seconds.) You have 75% chance to block. Your attacker takes 5...35 damage whenever you block a melee attack this way."
 			},
+			"es": {
+				"name": "Defensa del gladiador",
+				"description": "Actitud de élite. Durante 5...11 segundos, tienes un 75% de posibilidades de bloquear los ataques que te hagan. Siempre que bloquees de este modo un ataque cuerpo a cuerpo, el atacante sufrirá 5...35 de daño.",
+				"concise": "Actitud de élite. (5...11 segundos). Tienes un 75% de posibilidades de bloquear. Tu atacante recibe 5...35 de daño cuando bloquees un ataque cuerpo a cuerpo de esta forma."
+			},
 			"fr": {
+				"name": "Défense du gladiateur",
+				"description": "Pose de combat d'élite. Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques. A chaque fois que vous bloquez une attaque au corps à corps de cette manière, l'attaquant subit 5...35 points de dégâts.",
+				"concise": "Pose de combat d'élite. (5...11 secondes.) Vous avez 75% de chances de bloquer. Votre assaillant subit 5...35 points de dégâts chaque fois que vous bloquez une attaque au corps à corps ainsi."
+			},
+			"fr-gwiki": {
 				"name": "Défense du gladiateur",
 				"description": "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques. A chaque fois que vous bloquez une attaque au corps à corps de cette manière, l'attaquant subit 5...35 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Difesa del Gladiatore",
+				"description": "Posizione d'Élite. Per 5...11 secondo[i] hai una probabilità del 75% di bloccare gli attacchi in arrivo. Ogni volta che blocchi un attacco ravvicinato in questo modo, l'attaccante subisce 5...35 danno[i].",
+				"concise": "Posizione d'Élite. (Secondi: 5...11) Probabilità di blocco: 75%. Il tuo aggressore subisce 5...35 danno[i] ogni volta che blocchi un attacco in mischia in questo modo."
+			},
+			"jp": {
+				"name": "グラディエーター ディフェンス",
+				"description": "エリート スタンス： 5...11 秒間、75%の確率で攻撃をブロックします。この効果により近接攻撃をブロックするたびに、その攻撃者に 5...35 のダメージを与えます。",
+				"concise": "エリート スタンス： (5...11 秒) 75%の確率で攻撃をブロックします。この効果により近接攻撃をブロックするたびに、その攻撃者に 5...35 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "검투사의 방어 자세",
+				"description": "엘리트 자세. 대상 지정: 없음. 5...11초 동안 75% 확률로 적의 공격을 막아 냅니다. 근접 물리 공격을 막을 때마다 적은 5...35의 대미지를 입습니다.",
+				"concise": "엘리트 자세. (5...11초) 75% 확률로 적의 공격을 막아 냅니다. 근접 물리 공격을 막을 때마다 적은 5...35의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Obrona Gladiatora",
+				"description": "Postawa elitarna. Przez 5...11 sek., masz 75% szans na blokowanie skierowanych przeciwko tobie ataków. Jeśli zablokujesz w ten sposób atak w walce wręcz, atakujący otrzymuje 5...35 pkt. obrażeń.",
+				"concise": "Postawa elitarna. (5...11 sek.) Masz 75% szans na blokowanie. Atakujący otrzymuje 5...35 pkt. obrażeń, za każdym razem, kiedy zablokujesz w ten sposób atak wręcz."
+			},
+			"ru": {
+				"name": "Gladiator's Defense",
+				"description": "Элитная стойка. В течение 5...11 сек у вас есть 75%-й шанс блокировать направленные против вас атаки. Каждый раз, когда вы блокируете при помощи этого умения рукопашную атаку, нападающий получает 5...35 ед. урона.",
+				"concise": "Элитная стойка. (5...11 сек) Вы получаете 75%-й шанс блокировать атаки. Атаковавший вас противник получает 5...35 ед. урона каждый раз, когда вы блокируете рукопашную атаку с помощью этого умения."
+			},
+			"bork": {
+				"name": "Glaedeeaetur's Deffense-a",
+				"description": "Ileete-a Stunce-a. Fur 5...11 secunds, yuoo haefe-a a 75% chunce-a tu bluck incumeeng aettaecks. Vhenefer yuoo bluck a melee-a aettaeck thees vaey, zee aettaecker sooffffers 5...35 daemaege-a.",
+				"concise": "Ileete-a Stunce-a. (5...11 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Yuoor aettaecker taekes 5...35 daemaege-a vhenefer yuoo bluck a melee-a aettaeck thees vaey."
 			}
 		}
 	}

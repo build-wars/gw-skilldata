@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "造物者的恩赐",
+				"description": "增益魔法。 在15...60秒之内，每当你召唤缚灵时，你获得5...50点生命值与1...6点能量值。",
+				"concise": "增益魔法。 持续 15...60 秒，每当你召唤缚灵时，你获得1...6生命与1...6能量。"
+			},
+			"cht": {
+				"name": "創物者恩賜",
+				"description": "加持魔法： 持續 15...60 秒，每當你召喚生物時，你獲得 5...50 體力與 1...6 能量。",
+				"concise": "加持魔法： 持續 15...60 秒，每當你召喚縛靈時，你獲得 5...50 體力與 1...6 能量。"
+			},
 			"de": {
+				"name": "Segen der Schöpfung",
+				"description": "Verzauberung. 15...60 Sekunde[n] lang erhaltet Ihr jedes Mal, wenn Ihr eine Kreatur erschafft, 5...50 Lebenspunkt[e] und 1...6 Energiepunkt[e].",
+				"concise": "Verzauberung. 15...60 Sekunde[n]: Ihr erhaltet jedes Mal 5...50 Lebenspunkt[e] und 1...6 Energiepunkt[e], wenn Ihr eine Kreatur erstellt."
+			},
+			"de-guildwiki": {
 				"name": "Segen der Schöpfung",
 				"description": "15...60 Sekunden lang erhaltet Ihr jedes Mal, wenn Ihr eine Kreatur erschafft, 1...6 Energiepunkte und werdet um 5...50 Lebenspunkte geheilt.",
 				"concise": "15...60 Sekunden: Ihr erhaltet jedes Mal 1...6 Energiepunkte und werdet um 5...50 Lebenspunkte geheilt, wenn Ihr eine Kreatur erstellt."
 			},
 			"en": {
 				"name": "Boon of Creation",
+				"description": "Enchantment Spell. For 15...60 seconds, whenever you create a creature, you gain 5...50 Health and 1...6 Energy.",
+				"concise": "Enchantment Spell. (15...60 seconds.) You gain 5...50 Health and 1...6 Energy whenever you create a creature."
+			},
+			"en-gww": {
+				"name": "Boon of Creation",
 				"description": "For 15...60 seconds, whenever you create a creature, you gain 5...50 Health and 1...6 Energy.",
 				"concise": "(15...60 seconds.) You gain 5...50 Health and 1...6 Energy whenever you create a creature."
 			},
+			"es": {
+				"name": "Bendición creadora",
+				"description": "Conjuro con encantamiento. Durante 15...60 segundos, cuando crees una criatura ganarás 5...50 de salud y 1...6 de energía.",
+				"concise": "Conjuro con encantamiento. (15...60 segundos). Ganas 5...50 de salud y 1...6 de energía cada vez que invoques una criatura."
+			},
 			"fr": {
+				"name": "Compagnon de création",
+				"description": "Enchantement. Pendant 15...60 secondes, chaque fois que vous créez une créature, vous bénéficiez de 5...50 points de vie et de 1...6 points d'énergie.",
+				"concise": "Enchantement. (15...60 secondes.) Vous gagnez 5...50 points de vie et 1...6 points d'énergie chaque fois que vous créez une créature."
+			},
+			"fr-gwiki": {
 				"name": "Compagnon de création",
 				"description": "Pendant 15...60 secondes, chaque fois que vous créez une créature, vous bénéficiez de 5...50 points de vie et de 1...6 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Soccorso della Creazione",
+				"description": "Incantesimo. Per 15...60 secondo[i], ogni volta che dai vita ad una creatura, ottieni 5...50 Punto[i] Salute e 1...6 Punto[i] Energia.",
+				"concise": "Incantesimo. (Secondi: 15...60) Consegui 5...50 Punto[i] Salute e 1...6 Punto[i] Energia ogni volta che dai vita ad una creatura."
+			},
+			"jp": {
+				"name": "クリエーション ブーン",
+				"description": "強化スペル： 15...60 秒間、ミニオンや精霊を召喚するたびに 5...50 の体力と 1...6 のエネルギーを獲得します。",
+				"concise": "強化スペル： (15...60 秒) ミニオンや精霊を召喚するたびに、プレイヤーは 5...50 の体力と 1...6 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "소환의 혜택",
+				"description": "강화 마법. 대상 지정: 없음. 15...60초 동안 소환물(언데드 노예 포함)을 만들 때마다 5...50의 체력과 1...6의 에너지를 얻습니다.",
+				"concise": "강화 마법. (15...60초) 소환물을 만들 때마다 5...50의 체력과 1...6의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Dar Tworzenia",
+				"description": "Zaklęcie (czar). Przez 15...60 sek., za każdym razem, kiedy tworzysz kreaturę, zyskujesz +5...50 pkt. żywotności oraz 1...6 pkt. energii.",
+				"concise": "Zaklęcie (czar). (15...60 sek.) Otrzymujesz 5...50 pkt. żywotności i 1...6 pkt. energii, za każdym razem, kiedy stworzysz stworzenie."
+			},
+			"ru": {
+				"name": "Boon of Creation",
+				"description": "Заклинание-чары. В течение 15...60 сек каждый раз, когда вы создаете какое-либо существо, вы получаете 5...50 ед. здоровья и 1...6 ед. энергии.",
+				"concise": "Заклинание-чары. (15...60 сек) Вы получаете 5...50 ед. здоровья и 1...6 ед. энергии каждый раз, когда вы создаете какое-либо существо."
+			},
+			"bork": {
+				"name": "Buun ooff Creaeshun",
+				"description": "Inchuntment Spell. Fur 15...60 secunds, vhenefer yuoo creaete-a a creaetoore-a, yuoo gaeeen 5...50 Heaelt und 1...6 Inergy.",
+				"concise": "Inchuntment Spell. (15...60 secunds.) Yuoo gaeeen 5...50 Heaelt und 1...6 Inergy vhenefer yuoo creaete-a a creaetoore-a."
 			}
 		}
 	}

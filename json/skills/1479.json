@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 3,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 17,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "奉灵",
+				"description": "精英咒文。 牺牲最大生命值的17%，回复8...17点能量值。如果在「音波」范围内有任何缚灵，你将不会消耗生命值。",
+				"concise": "精英咒文。 牺牲最大生命值的17%，回复8...17点能量值。如果在「音波」范围内有任何缚灵，你将不会消耗生命值。"
+			},
+			"cht": {
+				"name": "生靈奉獻",
+				"description": "精英咒文魔法： 犧牲自身最大體力的 17% ，獲得 8...17 能量。若音量所及範圍內有「靈」存在，則你將不需要犧牲任何體力。",
+				"concise": "精英咒文魔法： 犧牲自身最大體力的 17% ，獲得 8...17 能量。若音量所及範圍內有「靈」存在，則你將不需要犧牲任何體力。"
+			},
 			"de": {
+				"name": "Opfer des Geistes",
+				"description": "Elite-Zauber. Erhaltet 8...17 Energiepunkt[e]. Wenn sich Geister in Hörweite befinden, opfert Ihr keine Lebenspunkte.",
+				"concise": "Elite-Zauber. Ihr erhaltet 8...17 Energiepunkt[e]. Ihr opfert keine Lebenspunkte, falls Geister in Hörweite sind."
+			},
+			"de-guildwiki": {
 				"name": "Opfer des Geistes",
 				"description": "Ihr erhaltet 8...17 Energiepunkte. Wenn sich Geister in Hörweite befinden, opfert Ihr keine Lebenspunkte.",
 				"concise": "Ihr erhaltet 8...17 Energiepunkte. Ihr opfert keine Lebenspunkte, falls Geister in Hörweite sind."
 			},
 			"en": {
 				"name": "Offering of Spirit",
+				"description": "Elite Spell. Gain 8...17 Energy. If any spirits are within earshot, you do not sacrifice Health.",
+				"concise": "Elite Spell. You gain 8...17 Energy. You do not sacrifice Health if any spirits are within earshot."
+			},
+			"en-gww": {
+				"name": "Offering of Spirit",
 				"description": "Gain 8...17 Energy. If any spirits are within earshot, you do not sacrifice Health.",
 				"concise": "You gain 8...17 Energy. You do not sacrifice Health if any spirits are within earshot."
 			},
+			"es": {
+				"name": "Ofrenda de espíritu",
+				"description": "Conjuro de élite. Ganas 8...17 de energía. Si hay espíritus al alcance del oído, no sacrificas salud",
+				"concise": "Conjuro de élite. Ganas 8...17 de energía. No sacrificas salud si hay espíritus al alcance del oído."
+			},
 			"fr": {
+				"name": "Offrande de l'esprit",
+				"description": "Sort d'élite. Vous gagnez 8...17 points d'énergie. Si des esprits se trouvent à portée de voix, vous ne sacrifiez pas de santé.",
+				"concise": "Sort d'élite. Vous gagnez 8...17 points d'énergie. Vous ne sacrifiez pas de santé si vous êtes à portée de voix d'un esprit."
+			},
+			"fr-gwiki": {
 				"name": "Offrande de l'esprit",
 				"description": "Vous gagnez 8...17 points d'énergie. Si des esprits se trouvent à portée de voix, vous ne sacrifiez pas de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Offerta dello Spirito",
+				"description": "Magia d'Élite. Ottieni 8...17 Punto[i] Energia. Se sono presenti degli Spiriti a portata d'orecchio, non sacrifichi alcuna Salute.",
+				"concise": "Magia d'Élite. Energia conseguita: 8...17. Non sacrifichi Salute se c'è uno Spirito a portata d'orecchio."
+			},
+			"jp": {
+				"name": "スピリット オファー",
+				"description": "エリート スペル： 8...17 のエネルギーを獲得します。声の届く範囲内に精霊がいる場合、体力を犠牲にする必要がありません。",
+				"concise": "エリート スペル： 8...17 のエネルギーを獲得します。声の届く範囲内に精霊がいる場合、体力を犠牲にする必要がありません。"
+			},
+			"kr": {
+				"name": "영혼의 도움",
+				"description": "엘리트 마법. 대상 지정: 없음. 8...17의 에너지를 얻습니다. 가청 범위 내에 영혼이 하나라도 있으면 체력을 소모하지 않습니다.",
+				"concise": "엘리트 마법. 8...17의 에너지를 얻습니다. 가청 범위 내에 영혼이 하나라도 있으면 체력을 소모하지 않습니다."
+			},
+			"pl": {
+				"name": "Duchowa Ofiara",
+				"description": "Elitarny czar. Otrzymujesz 8...17 pkt. energii. Jeżeli w zasięgu słuchu znajdują się jakieś duchy, nie poświęcasz punktów żywotności.",
+				"concise": "Elitarny czar. Otrzymujesz 8...17 pkt. energii. Nie poświęcasz żywotności, jeżeli w zasięgu słuchu jest jakiś duch."
+			},
+			"ru": {
+				"name": "Offering of Spirit",
+				"description": "Элитное заклинание. Вы получаете 8...17 ед. энергии. Если в зоне слышимости находится какой-либо дух, вам не нужно жертвовать здоровье.",
+				"concise": "Элитное заклинание. Вы получаете 8...17 ед. энергии. Вы не жертвуете здоровье, если в зоне слышимости находится дух."
+			},
+			"bork": {
+				"name": "Ooffffereeng ooff Spureet",
+				"description": "Ileete-a Spell. Gaeeen 8...17 Inergy. Iff uny spureets aere-a veetheen iaershut, yuoo du nut saecreeffeece-a Heaelt.",
+				"concise": "Ileete-a Spell. Yuoo gaeeen 8...17 Inergy. Yuoo du nut saecreeffeece-a Heaelt iff uny spureets aere-a veetheen iaershut."
 			}
 		}
 	}

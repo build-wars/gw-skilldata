@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "风灵之速",
+				"description": "增益魔法。 在10...25秒之内，使你的移动速度提升25%，当你移动时，每秒损失1点能量值。",
+				"concise": "增益魔法。 在10...25秒之内，使你的移动速度提升25%，当你移动时，每秒损失1点能量值。"
+			},
+			"cht": {
+				"name": "風靈之速",
+				"description": "加持魔法： 持續 10...25 秒，使你的移動速度加快 25% ，但在此「加持」下移動，每秒將使你失去 1 能量。",
+				"concise": "加持魔法： 持續 10...25 秒，使你的移動速度加快 25% ，但在此「加持」下移動，每秒將使你失去 1 能量。"
+			},
 			"de": {
+				"name": "Eile des Sturm-Dschinn",
+				"description": "Verzauberung. 10...25 Sekunde[n] lang bewegt Ihr Euch um 25% schneller. Ihr verliert pro Sekunde, die Ihr Euch bewegt, 1 Energiepunkt[e].",
+				"concise": "Verzauberung. (10...25 Sekunde[n].) Ihr bewegt Euch um 25% schneller. Ihr verliert pro Sekunde, die Ihr Euch bewegt, 1 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Eile des Sturm-Dschinn",
 				"description": "10...25 Sekunden lang bewegt Ihr Euch um 25% schneller. Ihr verliert pro Sekunde, die Ihr Euch bewegt, 1 Energiepunkt.",
 				"concise": "10...25 Sekunden: Ihr bewegt Euch um 25% schneller. <gray>Ihr verliert jede Sekunde 1 Energiepunkt, wenn Ihr Euch bewegt.</gray>"
 			},
 			"en": {
 				"name": "Storm Djinn's Haste",
+				"description": "Enchantment Spell. For 10...25 seconds, you move 25% faster. Each second that you are moving, you lose 1 Energy.",
+				"concise": "Enchantment Spell. (10...25 seconds.) You move 25% faster. Lose 1 Energy each second while moving."
+			},
+			"en-gww": {
+				"name": "Storm Djinn's Haste",
 				"description": "For 10...25 seconds, you move 25% faster. Each second that you are moving, you lose 1 Energy.",
 				"concise": "(10...25 seconds.) You move 25% faster. <gray>Lose 1 Energy each second while moving.</gray>"
 			},
+			"es": {
+				"name": "Prisa del Djinn de tormenta",
+				"description": "Conjuro con encantamiento. Te mueves un 25% más rápido durante 10...25 segundos. Por cada segundo en movimiento, pierdes 1 de energía.",
+				"concise": "Conjuro con encantamiento. (10...25 segundos). Te mueves un 25% más rápido. Pierdes 1 de energía cada segundo mientras te estés moviendo."
+			},
 			"fr": {
+				"name": "Hâte du jinn de tempête",
+				"description": "Enchantement. Pendant 10...25 secondes, vous vous déplacez 25% plus vite. Chaque seconde de déplacement vous fait perdre 1 points d'énergie.",
+				"concise": "Enchantement. (10...25 secondes.) Vous vous déplacez 25% plus vite. Vous perdez 1 points d'énergie par seconde de déplacement."
+			},
+			"fr-gwiki": {
 				"name": "Hâte du jinn de tempête",
 				"description": "Pendant 10...25 secondes, vous vous déplacez 25% plus vite. Pendant chaque secondes de mouvement, vous perdez 1 point d'énergie.",
 				"concise": "(10...25 secondes.) Vous vous déplacez 25% plus vite. Vous perdez 1 point d'énergie par seconde lorsque vous vous déplacez."
+			},
+			"it": {
+				"name": "Fretta del Djinn della Tempesta",
+				"description": "Incantesimo. Per 10...25 secondi, la tua velocità di movimento aumenta di un 25%. Per ogni secondo in cui ti muovi perdi 1 Punti Energia.",
+				"concise": "Incantesimo. (Secondi: 10...25.) Aumento della velocità di movimento: 25%. Perdi 1 Punti Energia per ogni secondo in cui ti muovi."
+			},
+			"jp": {
+				"name": "ストーム ジン ヘイスト",
+				"description": "強化スペル： 10...25 秒間、移動速度が 25% 増加します。移動中は毎秒 1 のエネルギーを失います。",
+				"concise": "強化スペル： (10...25 秒) 移動速度が 25% 増加します。移動中は毎秒 1 のエネルギーを失います。"
+			},
+			"kr": {
+				"name": "폭풍 지니의 신속함",
+				"description": "강화 마법. 대상 지정: 없음. 10...25초 동안 이동 속도가 25% 빨라집니다. 이동 중에는 매초 1의 에너지를 잃습니다.",
+				"concise": "강화 마법. (10...25초) 이동 속도가 25% 빨라집니다. 이동 중에는 매초 1의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Pośpiech Burzowego Dżinna",
+				"description": "Zaklęcie (czar). Przez 10...25 sek., poruszasz się o 25% szybciej. W każdej sekundzie, kiedy się poruszasz, tracisz 1 pkt. energii.",
+				"concise": "Zaklęcie (czar). (10...25 sek.) Poruszasz się o 25% szybciej. Tracisz 1 pkt. energii w każdej sekundzie ruchu."
+			},
+			"ru": {
+				"name": "Storm Djinn's Haste",
+				"description": "Заклинание-чары. В течение 10...25 сек вы двигаетесь на 25% быстрее. Каждую секунду вашего движения вы теряете 1 ед. энергии.",
+				"concise": "Заклинание-чары. (10...25 сек) Вы двигаетесь на 25% быстрее. Вы теряете 1 ед. энергии за каждую секунду движения."
+			},
+			"bork": {
+				"name": "Sturm Djeenn's Haeste-a",
+				"description": "Inchuntment Spell. Fur 10...25 secunds, yuoo mufe-a 25% faester. Iaech secund thaet yuoo aere-a mufeeng, yuoo luse-a 1 Inergy. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (10...25 secunds.) Yuoo mufe-a 25% faester. Luse-a 1 Inergy iaech secund vheele-a mufeeng."
 			}
 		}
 	}

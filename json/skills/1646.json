@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "濒死",
+				"description": "负面魔法。 在5...35秒之内，当下一次目标敌人的生命值低于50%时，你将使用「影步」移动到他身边，并使他遭受「重伤」状态5...20秒。此技能的施放距离只有正常技能的一半。",
+				"concise": "半程负面法术。 在5...35秒之内，当下一次目标敌人的生命值低于50%时，你将使用「影步」移动到他身边，并使他遭受「重伤」状态5...20秒。此技能的施放距离只有正常技能的一半。"
+			},
+			"cht": {
+				"name": "死亡預言",
+				"description": "降咒魔法： 持續 5...35 秒，「下一次」傷害時，將使目標敵人的體力降低於 50% ，你將以暗影步伐傳送至目標處，同時使敵人遭受「重傷」病症 5...20 秒。此「魔法」的有效距離是普通的一半。",
+				"concise": "半距降咒魔法： 持續 5...35 秒，「下一次」當目標敵人的體力低於 50% 時，你將以暗影步伐傳送至目標處，但同時你也將遭受「重傷」病症 5...20 秒。此「魔法」的有效距離是普通的一半。"
+			},
 			"de": {
+				"name": "Todesomen",
+				"description": "Verhexung. Während der nächsten 5...35 Sekunde[n] fügt Ihr das nächste Mal, wenn die Lebenspunkte des Gegners durch hinzugefügten Schaden auf weniger als 50% fallen, 5...20 Sekunde[n] lang eine Tiefe Wunde zu und unternehmt einen Schattenschritt zu diesem Gegner hin. Dieser Zauber hat nur die halbe Reichweite.",
+				"concise": "Mitteldistanz-Verhexung. 5...35 Sekunde[n]: Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]) und unternimmt einen Schattenschritt zum Gegner, wenn Schaden seine Lebenspunkte das nächste Mal unter 50% seiner maximalen Lebenspunkte bringen würde."
+			},
+			"de-guildwiki": {
 				"name": "Todesomen",
 				"description": "Während den nächsten 5...35 Sekunden fügt Ihr das nächste Mal, wenn die Lebenspunkte des Gegners nach dem Hinzufügen von Schaden unter 50% fallen, 5...20 Sekunden lang eine Tiefe Wunde zu und unternehmt einen Schattenschritt zu diesem Gegner hin. Dieser Zauber hat nur die halbe Reichweite.",
 				"concise": "5...35 Sekunden: Verursacht Zustand Tiefe Wunde (5...20 Sekunden) und unternimmt einen Schattenschritt zum Gegner, wenn Schaden seine Lebenspunkte das nächste Mal unter 50% seiner maximalen Lebenspunkte bringen würde."
 			},
 			"en": {
 				"name": "Augury of Death",
+				"description": "Hex Spell. For 5...35 seconds, the next time damage would drop target foe's Health below 50%, you inflict a Deep Wound for 5...20 seconds and Shadow Step to that foe. This spell has half the normal range.",
+				"concise": "Half Range Hex Spell. (5...35 seconds.) Inflict Deep Wound condition (5...20 seconds) and Shadow Step to target foe the next time damage would drop this foe's Health below 50%."
+			},
+			"en-gww": {
+				"name": "Augury of Death",
 				"description": "For 5...35 seconds, the next time damage would drop target foe's Health below 50%, you inflict a Deep Wound for 5...20 seconds and Shadow Step to that foe. This spell has half the normal range.",
 				"concise": "Half Range Hex Spell. (5...35 seconds.) Inflict Deep Wound condition (5...20 seconds) and Shadow Step to target foe the next time damage would drop this foe's Health below 50%."
 			},
+			"es": {
+				"name": "Augurio de muerte",
+				"description": "Conjuro con maleficio. Durante 5...35 segundos, la próxima vez que un ataque debería dejar al enemigo objetivo con menos del 50% de salud, le harás una herida grave durante 5...20 segundos y darás un paso sombrío hasta él. Este conjuro tiene la mitad de alcance de lo normal.",
+				"concise": "Conjuro con maleficio con mitad de alcance. (5...35 segundos). Causa herida grave (5...20 segundos) y das un paso sombrío hasta el enemigo objetivo la próxima vez que un ataque le deje con menos del 50% de salud."
+			},
 			"fr": {
+				"name": "Présage mortel",
+				"description": "Maléfice. Pendant 5...35 secondes, la prochaine fois que les dégâts font chuter la santé de l'ennemi en dessous de 50%, vous infligez une Blessure profonde pendant 5...20 secondes et vous faites une foulée de l'ombre vers cet ennemi. Sa portée est la moitié de celle d'un sort normal.",
+				"concise": "Maléfice de moitié de portée. (5...35 secondes.) Inflige la Blessure profonde (5...20 secondes) à l'ennemi visé. Vous faites une foulée de l'ombre vers lui dès que les dégâts font chuter sa santé en dessous de 50%."
+			},
+			"fr-gwiki": {
 				"name": "Présage mortel",
 				"description": "Pendant 5...35 secondes, la prochaine fois que les dégâts font chuter la santé de l'ennemi en dessous de 50%, vous infligez une Blessure profonde pendant 5...20 secondes et vous faites une foulée de l'ombre vers cet ennemi. Sa portée est la moitié de celle d'un sort normal.",
 				"concise": "(5...35 secondes.) Inflige la Blessure profonde (5...20 secondes) à l'ennemi visé. Vous faites une foulée de l'ombre vers lui dès que les dégâts font chuter sa santé en-dessous de 50%."
+			},
+			"it": {
+				"name": "Presagio di Morte",
+				"description": "Fattura. Dura 5...35 secondo[i]; la prossima volta che il danno farebbe calare la Salute dell'obiettivo nemico al di sotto del 50%, infliggi una Ferita Profonda per 5...20 secondo[i] e compi un Passo nell'Ombra verso quel nemico. La portata di questa magia è la metà del normale.",
+				"concise": "Fattura a Portata Dimezzata. (Secondi: 5...35) Condizione inflitta: Ferita Profonda (5...20 secondo[i]); compi un Passo nell'Ombra verso l'obiettivo nemico la prossima volta che il danno farebbe calare la sua Salute al di sotto del 50%."
+			},
+			"jp": {
+				"name": "デス オーグリー",
+				"description": "弱体化スペル： 5...35 秒間、ターゲットした敵の体力が次にダメージを受けて上限の 50% 未満になると、その敵は 5...20 秒間「重傷」状態になり、プレイヤーはその敵のそばへ瞬間移動します。このスペルの効果範囲は通常の半分です。",
+				"concise": "弱体化スペル (半分の効果範囲)： (5...35 秒) ターゲットした敵を「重傷」状態にして (5...20 秒) 、次に体力が上限の 50% を切ったときにターゲットの位置に瞬間移動します。"
+			},
+			"kr": {
+				"name": "죽음의 전조",
+				"description": "약화 마법. 대상 지정: 적. 5...35초 동안 대상에게 대미지를 주어서 체력을 50% 미만으로 떨어뜨리면, 대상을 5...20초 동안 중상 상태로 만들고 대상의 위치로 순간 이동합니다. 이 스킬은 사정거리가 다른 스킬의 절반이며, 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법(사거리 절반). (5...35초) 대상의 체력이 50% 미만으로 떨어지면 대상에게 중상을 입히고(5...20초), 대상의 위치로 순간 이동합니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Wróżba Śmierci",
+				"description": "Klątwa (czar). Przez 5...35 sek., następnym razem, kiedy obrażenia zmniejszą żywotność wybranego przeciwnika poniżej 50%, zadasz mu głęboką ranę na 5...20 sek. i wykonasz do niego krok cienia. Ten czar posiada zasięg dwa razy mniejszy niż zwykły czar.",
+				"concise": "Klątwa o połowie zasięgu - czar. (5...35 sek.) Wywołuje przypadłość głęboka rana (5...20 sek.), a następnym razem, kiedy obrażenia zmniejszą żywotność przeciwnika poniżej 50%, wykonujesz krok cienia do tego przeciwnika."
+			},
+			"ru": {
+				"name": "Augury of Death",
+				"description": "Заклинание-проклятье. В течение 5...35 сек в следующий раз, когда выбранный противник получит урон, уменьшающий уровень его здоровья ниже 50%, этот противник получит глубокую рану на 5...20 сек, а вы делаете призрачный шаг к этому противнику. Это заклинание имеет вдвое меньшую дальность, чем обычно.",
+				"concise": "Заклинание-проклятье на среднее расстояние. (5...35 сек) Вызовет глубокую рану (5...20 сек), и вы делаете призрачный шаг к выбранному противнику в следующий раз, когда выбранный противник получит урон, уменьшающий уровень его здоровья ниже 50%."
+			},
+			"bork": {
+				"name": "Oogoory ooff Deaet",
+				"description": "Hex Spell. Fur 5...35 secunds, zee next teeme-a daemaege-a vuoold drup taerget fue-a's Heaelt beloo 50%, yuoo inffleect a Deep Vuoond fur 5...20 secunds und Shaedoo Step tu thaet fue-a. Thees spell haes haelff zee nurmael runge-a.",
+				"concise": "Haelff Runge-a Hex Spell. (5...35 secunds.) Inffleect Deep Vuoond cundeeshun (5...20 secunds) und Shaedoo Step tu taerget fue-a zee next teeme-a daemaege-a vuoold drup thees fue-a's Heaelt beloo 50%. Bork! Bork! Bork!"
 			}
 		}
 	}

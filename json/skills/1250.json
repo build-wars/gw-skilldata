@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "保护",
+				"description": "精英缚灵仪式。 创造一只等级为1...14的保护缚灵。每4秒，缚灵治疗一名范围内的「非灵体」类友方10...115点生命。缚灵在90秒后自然消失。",
+				"concise": "精英缚灵仪式。 创造一只等级为1...14的保护缚灵。每 4 秒，缚灵治疗一名范围内的盟友 10...115 生命。缚灵在90秒后自然消失。"
+			},
+			"cht": {
+				"name": "保護",
+				"description": "精英縛靈儀式： 創造等級 1...14 的縛靈。每 4 秒，縛靈治療一名範圍內的盟友 10...115 體力。縛靈在 90 秒後死亡。",
+				"concise": "精英縛靈儀式： 創造等級 1...14 的縛靈。每 4 秒，縛靈治療一名範圍內的盟友 10...115 體力。縛靈在 90 秒後死亡。"
+			},
 			"de": {
+				"name": "Erhaltung",
+				"description": "Elite-Binderitual. Erstellt einen Geist der Stufe 1...14. Dieser Geist heilt alle 4 Sekunden einen Verbündeten in dem Bereich, der kein Geist ist, um 10...115 Lebenspunkt[e]. Dieser Geist stirbt nach 90 Sekunde[n].",
+				"concise": "Elite-Binderitual. Erstellt einen Geist der Stufe 1...14 (90 Sekunde[n] Lebensdauer). Alle 4 Sekunden heilt der Geist einen Verbündeten, der kein Geist ist, um 10...115 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Erhaltung",
 				"description": "Erstellt einen Geist der Stufe 1...14. Dieser Geist heilt alle 4 Sekunden einen Verbündeten in dem Bereich um 10...115 Lebenspunkte. Dieser Geist stirbt nach 90 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...14 (90 Sekunden Lebensdauer). Alle 4 Sekunden heilt der Geist einen Verbündeten, der kein Geist ist, um 10...115 Lebenspunkte."
 			},
 			"en": {
 				"name": "Preservation",
+				"description": "Elite Binding Ritual. Create a level 1...14 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10...115 Health. This spirit dies after 90 seconds.",
+				"concise": "Elite Binding Ritual. Creates a level 1...14 spirit (90 second lifespan). Every 4 seconds, this spirit heals one non-spirit ally for 10...115."
+			},
+			"en-gww": {
+				"name": "Preservation",
 				"description": "Create a level 1...14 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10...115 Health. This spirit dies after 90 seconds.",
 				"concise": "Creates a level 1...14 spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for 10...115."
 			},
+			"es": {
+				"name": "Conservación",
+				"description": "Ritual con espíritus de élite. Creas un espíritu de nivel 1...14 que, cada 4 segundos, curará a un aliado no espíritu de la zona 10...115 de salud. Morirá a los 90 segundos.",
+				"concise": "Ritual con espíritus de élite. Crea un espíritu de nivel 1...14 (90 segundos de vida). Cada 4 segundos, este espíritu cura 10...115 de salud a un aliado no espíritu de la zona."
+			},
 			"fr": {
+				"name": "Préservation",
+				"description": "Rituel d'asservissement d'élite. Vous créez un esprit de niveau 1...14. Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) dans la zone de 10...115 points de vie. Il meurt au bout de 90 secondes.",
+				"concise": "Rituel d'asservissement d'élite. Crée un esprit de niveau 1...14 (durée de vie de 90 secondes). Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) de 10...115 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Préservation",
 				"description": "Vous créez un esprit de niveau 1...14. Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) dans la zone de 10...115 points de vie. Il meurt au bout de 90 secondes.",
 				"concise": "Crée un esprit de niveau 1...14 (durée de vie de 90 secondes). Toutes les 4 secondes, cet esprit soigne un allié (autre qu'un esprit) de 10...115 points de vie."
+			},
+			"it": {
+				"name": "Preservazione",
+				"description": "Rituale Incatenante d'Élite. Crei uno Spirito di livello 1...14. Ogni 4 secondi questo Spirito cura un alleato nell'area (Spiriti esclusi) di 10...115 Punto[i] Salute. Lo Spirito si esaurisce dopo 90 secondo[i].",
+				"concise": "Rituale Incatenante d'Élite. Crei uno Spirito di livello 1...14 (in vita per 90 secondo[i]). Ogni 4 secondi questo Spirito cura un alleato (Spiriti esclusi) di 10...115."
+			},
+			"jp": {
+				"name": "プリザベーション",
+				"description": "エリート バインド リチュアル： レベル 1...14 の精霊を召喚します。この精霊は4秒おきにエリア内にいる精霊以外の味方ひとりの体力を 10...115 回復します。この精霊は 90 秒後に消滅します。",
+				"concise": "エリート バインド リチュアル： レベル 1...14 の精霊を召喚します (90 秒)。この精霊は4秒おきに、精霊以外の味方1体の体力を 10...115 回復します。"
+			},
+			"kr": {
+				"name": "보존의 영혼",
+				"description": "엘리트 영혼 결속. 대상 지정: 없음. 1...14레벨의 영혼을 소환합니다. 4초마다 일정 범위 내에 있는 영혼이 아닌 아군 1명의 체력을 10...115 회복시킵니다. 영혼은 90초 후 사라집니다.",
+				"concise": "엘리트 영혼 결속. 1...14레벨 영혼을 소환합니다.(수명: 90초) 4초마다 영혼이 아닌 아군의 체력을 10...115 회복시킵니다."
+			},
+			"pl": {
+				"name": "Zabezpieczenie",
+				"description": "Elitarny rytuał spętania. Tworzysz 1...14 poziomowego ducha. Co 4 sek. ten duch leczy jednego nie będącego duchem sojusznika w okolicy dodając mu 10...115 pkt. żywotności. Ten duch ginie po 90 sek.",
+				"concise": "Elitarny rytuał spętania. Tworzy ducha na poziomie 1...14 (czas życia 90 sek.). Co 4 sek. ten duch leczy jednego sojusznika nie-ducha, dodając mu 10...115 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Preservation",
+				"description": "Элитный связующий ритуал. Создает духа 1...14 уровня. Каждые 4 сек этот дух исцеляет одного не являющегося духом союзника в зоне досягаемости на 10...115 ед. здоровья. Этот дух умирает через 90 сек.",
+				"concise": "Элитный связующий ритуал. Создает духа 1...14 уровня (90 сек жизни). Каждые сек этот дух исцеляет одного не являющегося духом союзника на 10...115 ед. здоровья."
+			},
+			"bork": {
+				"name": "Preserfaeshun",
+				"description": "Ileete-a Beendeeng Reetooael. Creaete-a a lefel 1...14 spureet. Ifery 4 secunds, thees spureet heaels oone-a nun-spureet aelly in zee aerea fur 10...115 Heaelt. Thees spureet deees aeffter 90 secunds.",
+				"concise": "Ileete-a Beendeeng Reetooael. Creaetes a lefel 1...14 spureet (90 secund leeffespun). Ifery 4 secunds, thees spureet heaels oone-a nun-spureet aelly fur 10...115."
 			}
 		}
 	}

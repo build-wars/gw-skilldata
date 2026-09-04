@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "腐肉撕咬",
+				"description": "宠物攻击。 命令你的宠物发动腐肉撕咬，对敌人造成10...25点额外伤害，如果被宠物击中的敌人带有任何一种「症状」，则该敌人会受到3...15点额外伤害。",
+				"concise": "宠物攻击。 命令你的宠物发动腐肉撕咬，对敌人造成10...25点额外伤害，如果被宠物击中的敌人带有任何一种「症状」，则该敌人会受到3...15点额外伤害。"
+			},
+			"cht": {
+				"name": "食腐獸之擊",
+				"description": "寵物攻擊： 你的寵物發動食腐獸之擊對敵人造成 10...25 額外傷害。若被寵物擊中的敵人正遭受任何一種「病症」，你獲得3...15能量。",
+				"concise": "寵物攻擊： 你的寵物發動食腐獸之擊對敵人造成 10...25 額外傷害。若被寵物擊中的敵人正遭受任何一種「病症」，你獲得3...15能量。"
+			},
 			"de": {
+				"name": "Aasfresser-Schlag",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit Aasfresser-Schlag an und fügt +10...25 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, der unter einem Zustand leidet, erhaltet Ihr 3...15 Energiepunkt[e].",
+				"concise": "Tiergefährtenangriff. Richtet +10...25 Punkt[e] Schaden an. Ihr erhaltet 3...15 Energiepunkt[e], falls Gegner einen Zustand hat."
+			},
+			"de-guildwiki": {
 				"name": "Aasfresser-Schlag",
 				"description": "Euer Tiergefährte greift mit Aasfresser-Schlag an und fügt +10...25 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, der unter einem Zustand leidet, erhaltet Ihr 3...15 Energiepunkte.",
 				"concise": "Richtet +10...25 Punkte Schaden an. Ihr erhaltet 3...15 Energiepunkte, falls Gegner einen Zustand hat."
 			},
 			"en": {
 				"name": "Scavenger Strike",
+				"description": "Pet Attack. Your animal companion attempts a Scavenger Strike that deals +10...25 damage. If the attack strikes a foe who is suffering from a condition, you gain 3...15 Energy.",
+				"concise": "Pet Attack. Deals +10...25 damage. You gain 3...15 Energy if target foe has a condition."
+			},
+			"en-gww": {
+				"name": "Scavenger Strike",
 				"description": "Your animal companion attempts a Scavenger Strike that deals +10...25 damage. If the attack strikes a foe who is suffering a condition, you gain 3...15 Energy.",
 				"concise": "Deals +10...25 damage. You gain 3...15 Energy if target foe has a condition."
 			},
+			"es": {
+				"name": "Golpe carroñero",
+				"description": "Ataque con mascota. Con el Golpe carroñero tu compañero animal hará +10...25 de daño. Si el ataque alcanza a un enemigo que esté sufriendo una condición, ganas 3...15 de energía.",
+				"concise": "Ataque con mascota. Hace +10...25 de daño. Ganas 3...15 de energía si el enemigo objetivo tiene alguna condición."
+			},
 			"fr": {
+				"name": "Assaut de charognard",
+				"description": "Attaque de familier. Votre familier tente un Assaut de charognard qui inflige +10...25 points de dégâts. Si cette attaque touche un ennemi qui souffre d'une condition, vous obtenez 3...15 points d'énergie.",
+				"concise": "Attaque de familier. Inflige +10...25 points de dégâts. Vous gagnez 3...15 points d'énergie si l'ennemi visé souffre d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Assaut de charognard",
 				"description": "Votre familier tente un Assaut de charognard qui inflige +10...25 points de dégâts. Si cette attaque touche un ennemi qui souffre d'une condition, vous obtenez +3...15 points d'énergie.",
 				"concise": "Inflige +10...25 points de dégâts. Vous bénéficiez de +3...15 points d’énergie si vous frappez un ennemi souffrant d’une condition."
+			},
+			"it": {
+				"name": "Attacco Predatore",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in un Attacco Predatore che infligge +10...25 danno[i]; se colpisce un avversario già affetto da una condizione ottieni 3...15 Punto[i] Energia.",
+				"concise": "Attacco con Mascotte. Danni inferti: +10...25. Energia conseguita se l'obiettivo nemico è affetto da una condizione: 3...15."
+			},
+			"jp": {
+				"name": "スカベンジャー ストライク",
+				"description": "ペット アタック： プレイヤーのペットが敵に 10...25 の追加ダメージを与える攻撃を開始します。「状態異常」をかけられている敵に攻撃が成功すると、プレイヤーは 3...15 のエネルギーを獲得します。",
+				"concise": "ペット アタック： 10...25 の追加ダメージを与えます。ターゲットした敵に「状態異常」がかけられている場合、プレイヤーは 3...15 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "사나운 발톱",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 사나운 발톱을 사용하여 10...25의 대미지를 추가로 줍니다. 적이 상태이상에 걸려 있다면 자신은 3...15의 에너지를 얻습니다.",
+				"concise": "펫 공격. 펫이 10...25의 대미지를 추가로 줍니다. 적이 상태이상에 걸려 있으면 자신은 3...15의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Padlinożercy",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Uderzenie Padlinożercy, które zadaje +10...25 pkt. obrażeń. Jeśli atak trafi przeciwnika, pod działaniem przypadłości, to otrzymujesz +3...15 pkt. energii.",
+				"concise": "Atak zwierzaka. Zadaje +10...25 pkt. obrażeń. Otrzymujesz 3...15 pkt. energii, jeżeli wybrany przeciwnik jest pod działaniem przypadłości."
+			},
+			"ru": {
+				"name": "Scavenger Strike",
+				"description": "Атака питомца. Ваше животное пытается провести Scavenger Strike, который наносит дополнительно 10...25 ед. урона. Если атака попадает по противнику, который находится под воздействием какого-либо состояния, вы получите 3...15 ед. энергии.",
+				"concise": "Атака питомца. Наносит дополнительно 10...25 ед. урона. Вы получаете 3...15 ед. энергии, если на выбранном противнике было какое-либо состояние."
+			},
+			"bork": {
+				"name": "Scaefenger Streeke-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Scaefenger Streeke-a thaet deaels +10...25 daemaege-a. Iff zee aettaeck streekes a fue-a vhu is sooffffereeng frum a cundeeshun, yuoo gaeeen 3...15 Inergy.",
+				"concise": "Pet Aettaeck. Deaels +10...25 daemaege-a. Yuoo gaeeen 3...15 Inergy iff taerget fue-a haes a cundeeshun."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "尖刺之躯",
+				"description": "武咒。 在20秒之内，友方目标将拥有「尖刺之躯」，他下1...5次的攻击会对所有邻近的敌人造成5...50点伤害。",
+				"concise": "武咒。 在20秒之内，友方目标将拥有「尖刺之躯」，他下1...5次的攻击会对所有邻近的敌人造成5...50点伤害。"
+			},
+			"cht": {
+				"name": "爆刺武裝",
+				"description": "武裝魔法： 使目標盟友擁有爆刺武裝。在 20 秒內，使該盟友的下 1...5 次攻擊對其鄰近的 4名敵人造成 5...50 傷害。",
+				"concise": "武裝魔法： 使目標盟友擁有爆刺武裝。在 20 秒內，使該盟友的下 1...5 次攻擊對其鄰近的所有敵人造成 5...50 傷害。"
+			},
 			"de": {
+				"name": "Splitterwaffe",
+				"description": "Waffenzauber. Ein verbündetes Ziel erhält für eine Dauer von 20 Sekunde[n] eine Splitterwaffe. Die nächsten 1...5 Angriffe des Verbündeten (bzw. Eure eigenen) fügen bis zu 4 umstehenden Feinden 5...50 Punkt[e] Schaden zu.",
+				"concise": "Waffenzauber. 20 Sekunde[n]: Angriffe richten bei 3 umstehenden Feinden 5...50 Punkt[e] Schaden an. Endet nach 1...5 Angriff[en]."
+			},
+			"de-guildwiki": {
 				"name": "Splitterwaffe",
 				"description": "Während der nächsten 20 Sekunden hat der Verbündete (bzw. Ihr selbst) eine Splitterwaffe. Die nächsten 1...5 Angriffe des Verbündeten (bzw. Eure eigenen) fügen bis zu 4 umstehenden Feinden 5...50 Punkte Schaden zu.",
 				"concise": "20 Sekunden: Angriffe richten bei 4 umstehenden Feinden 5...50 Punkte Schaden an. <gray>Endet nach 1...5 Angriffen.</gray>"
 			},
 			"en": {
 				"name": "Splinter Weapon",
+				"description": "Weapon Spell. For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...5 attacks deal 5...50 damage to up to 4 adjacent foes.",
+				"concise": "Weapon Spell. (20 seconds.) Attacks deal 5...50 damage to 3 adjacent foes. Ends after 1...5 attacks."
+			},
+			"en-gww": {
+				"name": "Splinter Weapon",
 				"description": "For 20 seconds, target ally has a Splinter Weapon. Target ally's next 1...5 attack[s] deal 5...50 damage to up to 4 adjacent foes.",
 				"concise": "(20 seconds.) Attacks deal 5...50 damage to 3 <sic/> adjacent foes. <gray>Ends after 1...5 attack[s].</gray>"
 			},
+			"es": {
+				"name": "Arma de astillas",
+				"description": "Conjuro con arma. Durante 20 segundos, el aliado objetivo tiene un Arma de astillas. Los siguientes (1...5) ataques del aliado objetivo harán 5...50 de daño a un máximo de 4 enemigos adyacentes.",
+				"concise": "Conjuro con arma. (20 segundos). Sus ataques hacen 5...50 de daño hasta a 3 enemigos adyacentes. Acaba después de 1...5 ataques."
+			},
 			"fr": {
+				"name": "Arme à fragmentation",
+				"description": "Sort d'altération d'arme. Pendant 20 secondes, la cible (un allié ou vous-même) possède une Arme à fragmentation. 1...5 de ses prochaines attaques réussies infligent 5...50 points de dégâts à 4 ennemis adjacents maximum.",
+				"concise": "Sort d'altération d'arme. (20 secondes.) Les attaques infligent 5...50 points de dégâts à 3 ennemis adjacents. Prend fin au bout de 1...5 attaques."
+			},
+			"fr-gwiki": {
 				"name": "Arme à fragmentation",
 				"description": "Pendant 20 secondes, la cible (un allié ou vous-même) possède une Arme à fragmentation. Les 1...5 prochaines attaques réussies de la cible (un allié ou vous-même) infligent 5...50 points de dégâts à un maximum de 3 ennemis adjacents.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma a Frammentazione",
+				"description": "Magia Altera-arma. Per 20 secondi, l'obiettivo alleato ha un'Arma a Frammentazione e in 1...5 degli attacchi successivi infliggerà 5...50 danni a un massimo di 4 nemici adiacenti.",
+				"concise": "Magia Altera-arma. (Secondi: 20) Gli attacchi assestano 5...50 danno[i] a 3 nemici adiacenti. Termina dopo 1...5 attacchi."
+			},
+			"jp": {
+				"name": "スプリンター ウェポン",
+				"description": "ウェポン スペル： 20 秒間、ターゲットした味方が次に行う 1...5 回の攻撃は、最大4体の隣接する敵に 5...50 のダメージを与えます。",
+				"concise": "ウェポン スペル： (20 秒) 隣接する3体の敵に 5...50 のダメージを与えます。1...5 回攻撃すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "파열의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 20초 동안 대상은 \"파열의 무기\" 효과를 얻습니다. 이후 대상이 시도하는 1...5번의 공격은 인접한 적 4명에게 5...50의 대미지를 줍니다.",
+				"concise": "마법 무기. (20초) 인접한 3명의 적에게 5...50의 대미지를 줍니다. 1...5번 공격하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Odłamkowy Oręż",
+				"description": "Czar z broni. Przez 20 sek. wskazany sprzymierzeniec otrzymuje Odłamkowy Oręż. Kolejne ataki sojusznika (1...5 ) zadają 5...50 pkt.obrażeń maksymalnie 4 pobliskim wrogom.",
+				"concise": "Czar z broni. (20 sek.) Ataki zadają po 5...50 pkt. obrażeń 3 przeciwnikom w bezpośredniej odległości. Koniec po 1...5 atakach."
+			},
+			"ru": {
+				"name": "Splinter Weapon",
+				"description": "Оружейное заклинание. В течение 20 сек у выбранного союзника будет Splinter Weapon. Следующие атаки (1...5) этого союзника наносят 5...50 ед. урона не более чем 4 окружающим противникам.",
+				"concise": "Оружейное заклинание. (20 сек) Атаки наносят 5...50 ед. урона 3 окружающим противникам. Заканчивается после 1...5 атак."
+			},
+			"bork": {
+				"name": "Spleenter Veaepun",
+				"description": "Veaepun Spell. Fur 20 secunds, taerget aelly haes a Spleenter Veaepun. Taerget aelly's next 1...5 aettaecks deal 5...50 daemaege-a tu up tu 4 aedjaecent fues.",
+				"concise": "Veaepun Spell. (20 secunds.) Aettaecks deael 5...50 daemaege-a tu 3 aedjaecent fues. Inds aeffter 1...5 aettaecks."
 			}
 		}
 	}

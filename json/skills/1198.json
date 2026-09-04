@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "阔首箭",
+				"description": "精英弓术。 射出阔首的箭矢，飞行速度比一般的箭慢。但命中目标时将打断其施法，并使其遭受「晕眩」症状5...20秒。",
+				"concise": "精英弓术。 射出阔首的箭矢，飞行速度比一般的箭慢。但命中目标时将打断其动作并使其遭受「晕眩」症状 5...20 秒。"
+			},
+			"cht": {
+				"name": "闊首箭",
+				"description": "精英弓術攻擊技能： 射出闊首的箭矢，飛行速度比一般的箭慢。但命中目標時將使其遭受「暈眩」病症 5...20 秒，而當目標正在施展魔法時，該魔法被中斷。",
+				"concise": "精英弓術攻擊技能： 射出闊首的箭矢，飛行速度比一般的箭慢。但命中目標時將使其遭受「暈眩」病症 5...20 秒，而當目標正在施展魔法時，該魔法被中斷。"
+			},
 			"de": {
+				"name": "Stahlspitzenpfeil",
+				"description": "Elite-Bogenangriff. Ihr schießt einen Stahlspitzenpfeil ab, der sich langsamer als normal bewegt. Wenn er trifft, leidet der Gegner 5...20 Sekunde[n] lang unter Benommenheit und falls er einen Zauber wirkt, wird dieser unterbrochen.",
+				"concise": "Elite-Bogenangriff. Langsamer Pfeil. Unterbricht einen Zauber. Verursacht Zustand Benommenheit (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Stahlspitzenpfeil",
 				"description": "Ihr schießt einen Stahlspitzenpfeil ab, der sich langsamer als normal bewegt. Wenn er trifft, leidet der Gegner 5...20 Sekunden lang unter Benommenheit und falls er einen Zauber wirkt, wird dieser unterbrochen.",
 				"concise": "Langsamer Pfeil. Unterbricht einen Zauber. Verursacht Zustand Benommenheit (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Broad Head Arrow",
+				"description": "Elite Bow Attack. You shoot a broad head arrow that moves slower than normal. If it hits, target foe is Dazed for 5...20 seconds, and if target foe is casting a spell that spell is interrupted.",
+				"concise": "Elite Bow Attack. Slow-moving arrow. Interrupts a spell. Inflicts Dazed condition (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Broad Head Arrow",
 				"description": "You shoot a broad head arrow that moves slower than normal. If it hits, target foe is Dazed for 5...20 seconds, and if target foe is casting a spell that spell is interrupted.",
 				"concise": "Slow moving arrow. Interrupts a spell. Inflicts Dazed condition (5...20 seconds)."
 			},
+			"es": {
+				"name": "Flecha de punta ancha",
+				"description": "Ataque con arco de élite. Lanzas una flecha de punta ancha que se mueve más despacio de lo normal. Si consigues alcanzar al enemigo, quedará aturdido durante 5...20 segundos y si además estaba lanzando un conjuro, le interrumpirás.",
+				"concise": "Ataque con arco de élite. Flecha lenta. Interrumpe un conjuro. Causa aturdimiento (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Flèche à pointe large",
+				"description": "Attaque à l'arc d'élite. Vous décochez une flèche à pointe large qui se déplace plus lentement que la normale. Si l'attaque réussit, l'ennemi ciblé est frappé de Stupeur pendant 5...20 secondes et si la cible ennemie lance un sort, celui-ci est interrompu.",
+				"concise": "Attaque à l'arc d'élite. Flèche lente. Interrompt un sort. Inflige la Stupeur (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Flèche à pointe large",
 				"description": "Vous décochez une flèche à pointe large qui se déplace plus lentement que la normale. Si l'attaque réussit, l'ennemi ciblé est frappé de Stupeur pendant 5...20 secondes et si la cible ennemie lance un sort, celui-ci est interrompu.",
 				"concise": "Flèche lente. Interrompt un sort. Inflige la Stupeur (5...20 secondes)."
+			},
+			"it": {
+				"name": "Freccia a Punta Larga",
+				"description": "Attacco con Arco d'Élite. Lanci una freccia a punta larga che si muove più lentamente del normale; se va a segno, l'obiettivo nemico viene stordito per 5...20 secondo[i] e se sta lanciando una magia, questa viene interrotta.",
+				"concise": "Attacco con Arco d'Élite. Freccia lenta. Interrompe una magia. Condizione inflitta: Stordimento (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "ブロード ヘッド アロー",
+				"description": "エリート ボウ アタック： 通常より飛速度の遅い大きな矢じりで攻撃します。攻撃が成功すると、ターゲットした敵は 5...20 秒間「放心」状態になります。その敵がスペルを詠唱中の場合、そのスペルを中断します。",
+				"concise": "エリート ボウ アタック： 飛速度の遅い弓攻撃： スペルを1個中断し、「放心」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "넓은촉 화살",
+				"description": "엘리트 활 공격. 대상 지정: 적. 일반 화살보다 느린 촉이 넓은 화살을 날립니다. 공격이 성공하면 대상은 5...20초 동안 현혹 상태가 됩니다. 그 대상이 마법을 외우고 있었다면 그 마법 시전을 방해합니다.",
+				"concise": "엘리트 활 공격. 느리게 날아가는 화살. 마법을 방해하고 현혹시킵니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Strzała z Szerokim Grotem",
+				"description": "Elitarny strzał z łuku. Wystrzeliwujesz strzałę o szerokim grocie, która leci wolniej niż normalnie. Jeśli atak trafi, wybrany przeciwnik zostanie oszołomiony na 5...20 sek., a jeśli rzucał czar, to czar zostanie przerwany.",
+				"concise": "Elitarny strzał z łuku. Wolno lecąca strzała. Przerywa czar. Wywołuje przypadłość oszołomienie (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Broad Head Arrow",
+				"description": "Элитная атака из лука. Вы стреляете стрелой с широким наконечником, которая летит медленнее обычной стрелы. При попадании выбранный противник будет ошеломлен на 5...20 сек, и если он произносил заклинание, это заклинание будет прервано.",
+				"concise": "Элитная атака из лука. Медленно летящая стрела. Прерывает заклинание. Вызывает ошеломление (5...20 сек)."
+			},
+			"bork": {
+				"name": "Bruaed Heaed Aerroo",
+				"description": "Ileete-a Boo Aettaeck. Yuoo shuut a bruaed heaed aerroo thaet mufes slooer thun nurmael. Iff it heets, taerget fue-a is Daezed fur 5...20 secunds, und iff taerget fue-a is caesteeng a spell thaet spell is interroopted.",
+				"concise": "Ileete-a Boo Aettaeck. Sloo-mufeeng aerroo. Interroopts a spell. Inffleects Daezed cundeeshun (5...20 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魔法统御",
+				"description": "精英增益魔法。 1...61秒内，你的所有元素属性固定为8...14点，且元素法术恢复1点+30%其能量消耗的能量。",
+				"concise": "精英增益魔法。 （1...61秒）你的元素属性固定为8...14点且元素法术恢复1点+30%其能量消耗的能量。"
+			},
+			"cht": {
+				"name": "魔法大師",
+				"description": "精英加持魔法： For 1...61 seconds, all of your elemental attributes are set to 8...14, and your elemental spells return 1 Energy plus 30% of their cost.",
+				"concise": "精英加持魔法： (1...61 seconds). Your elemental attributes are set to 8...14 and elemental spells return 1 Energy plus 30% of their cost."
+			},
 			"de": {
+				"name": "Meister der Magie",
+				"description": "Elite-Verzauberung. 1...61 Sekunden lang werden alle Eure Elementarattribute auf 8...14 gesetzt, und Eure Elementarzauber geben 1 Energie plus 30 % ihrer Kosten zurück.",
+				"concise": "Elite-Verzauberung. (1...61 Sekunden.) Eure Elementarattribute werden auf 8...14 gesetzt, Elementarzauber geben 1 Energie plus 30 % ihrer Kosten zurück."
+			},
+			"de-guildwiki": {
 				"name": "Meister der Magie",
 				"description": "1...61 Sekunden lang werden alle Eure Elementarattribute auf 8...14 gesetzt, und Eure Elementarzauber geben 1 Energie plus 30% ihrer Kosten zurück.",
 				"concise": "(1...61 Sekunden.) Eure Elementarattribute werden auf 8...14 gesetzt. Elementarzauber geben 1 Energie plus 30% ihrer Kosten zurück."
 			},
 			"en": {
 				"name": "Master of Magic",
+				"description": "Elite Enchantment Spell. For 1...61 seconds, all of your elemental attributes are set to 8...14, and your elemental spells return 1 Energy plus 30% of their cost.",
+				"concise": "Elite Enchantment Spell. (1...61 seconds). Your elemental attributes are set to 8...14 and elemental spells return 1 Energy plus 30% of their cost."
+			},
+			"en-gww": {
+				"name": "Master of Magic",
 				"description": "For 1...61 second[s], all of your elemental attributes are set to 8...14 and your elemental spells return 1 Energy plus 30% of their Energy cost.",
 				"concise": "(1...61 second[s]). Your elemental attributes are set to 8...14 and elemental spells return 1 Energy plus 30% of their Energy cost."
 			},
+			"es": {
+				"name": "Maestro de magias",
+				"description": "Conjuro con encantamiento de élite. Durante 1...61 segundos, todos tus atributos de los elementos pasan a 8...14 y tus conjuros de los elementos devuelven 1 de energía más el 30 % de su coste.",
+				"concise": "Conjuro con encantamiento de élite. (1...61 segundos). Tus atributos de los elementos pasan a 8...14 y tus conjuros de los elementos devuelven 1 de energía más el 30 % de su coste."
+			},
 			"fr": {
+				"name": "Maître de la Magie",
+				"description": "Enchantement d'élite. Pendant 1...61 secondes, toutes vos caractéristiques élémentaires passent à 8...14 et vos sorts élémentaires vous rendent 1 point d'énergie plus 30% de leur coût en énergie.",
+				"concise": "Enchantement d'élite. (1...61 secondes.) Vos caractéristiques élémentaires passent à 8...14 et vos sorts élémentaires rendent 1 point d'énergie plus 30% de leur coût en énergie."
+			},
+			"fr-gwiki": {
 				"name": "Maître de la Magie",
 				"description": "Pendant 1...61 seconde(s), toutes vos caractéristiques élémentaires sont fixées à 12 et vous bénéficiez d'une régénération d'énergie de +0...2. Cet enchantement prend fin si vous utilisez une compétence non élémentaire.",
 				"concise": "(1...61 seconde(s).) Vos caractéristiques élémentaires sont fixées à 12 et vous bénéficiez d'une régénération d'énergie de +0...2. <gray>Prend fin si vous utilisez une compétence non élémentaire.</gray>"
+			},
+			"it": {
+				"name": "Maestro di Magia",
+				"description": "Incantesimo d'Élite. Per 1...61 secondo/i tutti gli attributi elementali salgono a 8...14, e le magie elementali restituiscono 1 punto energia più il 30% del loro costo.",
+				"concise": "Incantesimo d'Élite. (1...61 secondo/i) Tutti gli attributi elementali salgono a 8...14, e le magie elementali restituiscono 1 punto energia più il 30% del loro costo."
+			},
+			"jp": {
+				"name": "マジック マスター",
+				"description": "エリート強化スペル： 1...61秒間、すべてのエレメンタル属性が8...14に設定され、あなたのエレメンタルスペルは1エネルギーとコストの30%を返還します。",
+				"concise": "エリート強化スペル： （1...61秒）エレメンタル属性が8...14に設定され、エレメンタルスペルは1エネルギーとコストの30%を返還します。"
+			},
+			"kr": {
+				"name": "마법의 대가",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 1...61초 동안 모든 정령 특성 레벨이 8...14[이가] 되고, 정령 마법을 사용하면 에너지 1 및 소모 에너지의 30%를 되돌려받습니다.",
+				"concise": "엘리트 강화 마법. (1...61초) 정령 특성 레벨이 8...14[이가] 되고, 정령 마법을 사용하면 에너지 1 및 소모 에너지의 30%를 되돌려받습니다."
+			},
+			"pl": {
+				"name": "Mistrz Magii",
+				"description": "Elitarne zaklęcie (czar). Przez 1...61 sek. wszystkie twoje atrybuty związane z żywiołami wynoszą 8...14 i twoje zaklęcia związane z żywiołami zwracają ci 1 pkt. energii oraz 30% ich kosztu.",
+				"concise": "Elitarne zaklęcie (czar). (1...61 sek.) Wszystkie twoje atrybuty związane z żywiołami wynoszą 8...14 i twoje zaklęcia związane z żywiołami zwracają ci 1 pkt. energii oraz 30% ich kosztu."
+			},
+			"ru": {
+				"name": "Master of Magic",
+				"description": "Элитное заклинание-чары. На 1...61 сек. все ваши стихийные параметры равны 8...14, а ваши стихийные заклинания восстанавливают энергию в размере 1+30% затрат.",
+				"concise": "Элитное заклинание-чары. (1...61 сек.) Ваши стихийные параметры равны 8...14, а стихийные заклинания восстанавливают энергию в размере 1+30% затрат."
+			},
+			"bork": {
+				"name": "Maester ooff Maegeec",
+				"description": "Ileete-a Inchuntment Spell. Fur 1...61 secunds, aell ooff yuoor ilementael aettreebootes aere-a set tu 8...14, und yuoor ilementael spells retoorn 1 Inergy ploos 30% ooff zeeur cust.",
+				"concise": "Ileete-a Inchuntment Spell. (1...61 secunds). Yuoor ilementael aettreebootes aere-a set tu 8...14 und ilementael spells retoorn 1 Inergy ploos 30% ooff zeeur cust."
 			}
 		}
 	}

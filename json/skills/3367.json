@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猛斩",
+				"description": "精英镰刀术。 如果命中时你带有「增益魔法」效果，则目标敌人将遭受「重伤」5...20秒。反之，则使目标敌人遭受「流血」0秒。",
+				"concise": "精英镰刀术。 如果命中时你带有「增益魔法」效果，则目标敌人将遭受「重伤」5...20秒。反之，则使目标敌人遭受「流血」0秒。"
+			},
+			"cht": {
+				"name": "創傷攻擊",
+				"description": "精英鐮刀攻擊技能： 命中時造成 0 額外傷害，且使目標流血 5...20 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 5...20 秒。",
+				"concise": "精英鐮刀攻擊技能： 命中時造成 0 額外傷害，且使目標流血 5...20 秒，移除自身一項神喚使加持，若移除成功，再引發敵人重傷 5...20 秒。"
+			},
 			"de": {
+				"name": "Verwundender Schlag (PvP)",
+				"description": "Elite-Sensenangriff. Wenn dieser Angriff erfolgreich ist, leidet der Gegner 5...20 Sekunde[n] lang an einer Blutung und Ihr verliert 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wurde, erleidet der Gegner außerdem 5...20 Sekunde[n] lang eine Tiefe Wunde.",
+				"concise": "Elite-Sensenangriff. Verursacht Zustand Blutung (5...20 Sekunde[n]). Entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verwundender Schlag (PvP)",
 				"description": "Wenn dieser Angriff erfolgreich ist, leidet der Gegner 5...20 Sekunden lang an einer Blutung und Ihr verliert 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wurde, erleidet der Gegner außerdem 5...20 Sekunden lang eine Tiefe Wunde.",
 				"concise": "Verursacht Zustand Blutung (5...20 Sekunden). Entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Wounding Strike (PvP)",
+				"description": "Elite Scythe Attack. If this attack hits, target foe suffers from Bleeding for 5...20 seconds, and you lose 1 Dervish enchantment. If an enchantment was removed, target foe also suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "Elite Scythe Attack. Inflicts Bleeding condition (5...20 seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Wounding Strike (PvP)",
 				"description": "If this attack hits, target foe suffers from Bleeding for 5...20 seconds, and you lose 1 Dervish enchantment. If an enchantment is removed, target foe also suffers from a Deep Wound for 5...20 seconds.",
 				"concise": "Inflicts Bleeding condition (5...20 seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition (5...20 seconds)."
 			},
+			"es": {
+				"name": "Golpe hiriente (PvP)",
+				"description": "Ataque con guadaña de élite. Si este ataque impacta, el enemigo objetivo sufre hemorragia durante 5...20 segundos y pierdes un encantamiento de Derviche. Si se quitó un encantamiento, el enemigo objetivo también padecerá herida grave durante 5...20 segundos.",
+				"concise": "Ataque con guadaña de élite. Causa hemorragia (5...20 segundos). Quita un encantamiento de Derviche. Efecto de eliminación: causa una herida grave (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Attaque blessante (PvP)",
+				"description": "Attaque à la faux d'élite. Si cette attaque réussit, l'ennemi ciblé souffre de Saignement pendant 5...20 secondes et vous perdez un enchantement de Derviche. Si un enchantement a été levé, l'ennemi ciblé souffre également de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Attaque à la faux d'élite. Provoque le Saignement (5...20 secondes). Supprime un enchantement de Derviche. Effet de la suppression : inflige une Blessure profonde (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Attaque blessante (PvP)",
 				"description": "Si cette attaque réussit, l'ennemie ciblé souffre de Saignement pendant 5...20 secondes et vous perdez un enchantement de Derviche. Si un enchantement a été levé, l'ennemie ciblé souffre également de Blessure profonde pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Lacerante (PvP)",
+				"description": "Attacco d'Élite con Falce. Se l'attacco va a segno, l'obiettivo nemico soffre di Emorragia per 5...20 secondi e perdi 1 Incantesimo del Derviscio. Se un incantesimo viene rimosso, l'obiettivo nemico è affetto inoltre da Ferita Profonda per 5...20 secondi.",
+				"concise": "Attacco d'Élite con Falce. Condizione inflitta: Emorragia (5...20 secondi). Rimuove 1 Incantesimo del Derviscio. Effetto della rimozione: Condizione inflitta: Ferita Profonda (5...20 secondi)."
+			},
+			"jp": {
+				"name": "ウンド ストライク (PvP)",
+				"description": "エリート サイズ アタック： この攻撃が成功すると、ターゲットした敵は 5...20 秒間、「出血」状態になり、プレイヤーにかけられているダルウィーシュの強化スペルが1個解除されます。この効果が解除されると、ターゲットした敵は 5...20 秒間、「重傷」状態になります。",
+				"concise": "エリート サイズ アタック： 「出血」状態にします (5...20 秒) 。ダルウィーシュの強化スペルを1個解除します。解除効果： 「重傷」状態にします (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "상처의 일격(대인전)",
+				"description": "엘리트 사이드 공격. 대상 지정: 적. 대상은 5...20초 동안 출혈 상태가 되고, 자신은 더비시 강화 마법 하나를 잃습니다. 이렇게 강화 마법을 잃으면 대상은 5...20초 동안 중상 상태도 됩니다.",
+				"concise": "엘리트 사이드 공격. 출혈을 일으키게 합니다.(5...20초) 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Raniące Uderzenie (PvP)",
+				"description": "Elitarny atak kosą. Jeśli ten atak dojdzie celu, docelowy wróg zaczyna krwawić przez 5...20 sek. i tracisz 1 zaklęcie derwisza. Jeśli doszło do usunięcia zaklęcia, docelowy wróg otrzymuje także głęboką ranę na 5...20 sek.",
+				"concise": "Elitarny atak kosą. Wywołuje przypadłość krwawienie (5...20 sek.). Usuwa jedno zaklęcie derwisza. Efekt usunięcia: Powoduje głęboką ranę (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Wounding Strike (PvP)",
+				"description": "Элитная атака косой. Если эта атака попадает в цель, выбранный противник будет кровоточить в течение 5...20 сек, и вы потеряете 1 чары профессии Dervish. Если чары будут успешно сняты, выбранный противник также получит глубокую рану на 5...20 сек.",
+				"concise": "Элитная атака косой. Вызывает кровотечение (5...20 сек). Снимает 1 чары профессии Dervish. Эффект снятия: вызывает глубокую рану (5...20 сек)."
+			},
+			"bork": {
+				"name": "Vuoondeeng Streeke-a (PfP)",
+				"description": "Ileete-a Scyzee Aettaeck. Iff thees aettaeck heets, taerget fue-a sooffffers frum Bleedeeng fur 5...20 secunds, und yuoo luse-a 1 Derfeesh inchuntment. Iff un inchuntment vaes remufed, taerget fue-a aelsu sooffffers frum a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Ileete-a Scyzee Aettaeck. Inffleects Bleedeeng cundeeshun (5...20 secunds). Remufes 1 Derfeesh inchuntment. Remufael iffffect: inffleects Deep Vuoond cundeeshun (5...20 secunds)."
 			}
 		}
 	}

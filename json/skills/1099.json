@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "水晶术",
+				"description": "咒文。 使邻近你的敌人受到 20...40点 伤害，但是会移除他们身上的所有「症状」。",
+				"concise": "咒文。 使邻近你的敌人受到 20...40点 伤害，但是会移除他们身上的所有「症状」。"
+			},
+			"cht": {
+				"name": "邸內水晶",
+				"description": "咒文魔法： 使鄰近你的敵人受到 20...40 傷害，但是會解除他們身上的所有「病症」。此魔法忽視目標的防禦力及魔法抗性。",
+				"concise": "咒文魔法： 使鄰近你的敵人受到 20...40 傷害，但是會解除他們身上的所有「病症」。此魔法忽視目標的防禦力及魔法抗性。"
+			},
 			"de": {
+				"name": "Teinais Kristalle",
+				"description": "Zauber. Der Gegner erleidet 20...40 Punkte Schaden. Wenn der Gegner unter einer Wassermagie-Verhexung leidet, richtet dieser Zauber beim Gegner und Feinden in der Nähe zusätzlich 20...40 Punkte Schaden an, und Feinde in der Nähe erleiden Beschädigte Rüstung für 5...15 Sekunden.",
+				"concise": "Zauber. Fügt dem Gegner 20...40 Punkte Schaden zu. Verursacht +20...40 mehr Schaden und verursacht Beschädigte Rüstung (5...15 Sekunden) bei Feinden in der Nähe, die unter einer Wasserverhexung leiden."
+			},
+			"de-guildwiki": {
 				"name": "Teinais Kristalle",
 				"description": "Der Gegner erleidet 20...40 Punkte rüstungsignorierenden Erdschaden. Wenn der Gegner unter einer Wassermagie-Verhexung leidet, richtet dieser Zauber beim Gegner und Feinden in der Nähe zusätzlich 20...40 Punkte rüstungsignorierenden Erdschaden und 5...15 Sekunden lang Beschädigte Rüstung an.",
 				"concise": "Fügt dem Gegner 20...40 Punkte rüstungsignorierenden Erdschaden zu. Verursacht 20...40 rüstungsignorierenden Erdschaden und Beschädigte Rüstung (5...15 Sekunden) beim Gegner und Feinden in der Nähe, falls der Gegner unter einer Wassermagie-Verhexung leidet."
 			},
 			"en": {
 				"name": "Teinai's Crystals",
+				"description": "Spell. Target foe takes 20...40 damage. If target foe has a Water Magic hex, this spell strikes target and nearby foes for an additional 20...40 damage, and nearby foes also suffer Cracked Armor for 5...15 seconds.",
+				"concise": "Spell. Deals 20...40 damage to target. Deals +20...40 more damage and causes Cracked Armor (5...15 seconds) nearby if that foe had a Water Magic hex."
+			},
+			"en-gww": {
+				"name": "Teinai's Crystals",
 				"description": "Target foe takes 20...40 damage. If target foe has a Water Magic hex, this spell strikes target and nearby foes for an additional 20...40 damage, and nearby foes also suffer Cracked Armor for 5...15 seconds.",
 				"concise": "Deals 20...40 damage to target. Deals +20...40 more <sic/> damage and causes Cracked Armor (5...15 seconds) nearby if that foe had a Water Magic hex."
 			},
+			"es": {
+				"name": "Cristales de Teinai",
+				"description": "Conjuro. El enemigo objetivo recibe 20...40 de daño. Si el enemigo objetivo tiene una maldición de magia de agua, este conjuro le causa a él y a los enemigos cercanos 20...40 puntos de daño adicionales y los enemigos cercanos también tienen la armadura rota durante 5...15 segundos.",
+				"concise": "Conjuro. Hace 20...40 de daño al objetivo. Hace +20...40 más de daño y rompe la armadura (5...15 segundos) a los enemigos cercanos si ese enemigo tenía un maleficio de magia de agua."
+			},
 			"fr": {
+				"name": "Cristaux de Teinai",
+				"description": "Sort. L'ennemi visé subit 20...40 points de dégâts. Si l'ennemi visé est sous l'effet d'un maléfice de la Magie de l'eau, lui et les ennemis à proximité reçoivent 20...40 points de dégâts supplémentaires, et les ennemis à proximité subissent la condition Armure brisée pendant 5...15 secondes.",
+				"concise": "Sort. Inflige 20...40 points de dégâts à la cible. Inflige +20...40 points de dégâts supplémentaires et la condition Armure brisée (5...15 secondes) si l'ennemi visé est sous l'effet d'un maléfice de la Magie de l'eau."
+			},
+			"fr-gwiki": {
 				"name": "Cristaux de Teinai",
 				"description": "Les ennemis qui vous sont adjacents subissent 10...100 points de dégâts, mais sont libérés de toute condition négative.",
 				"concise": "Inflige 10...100 points de dégâts aux ennemis adjacents. <gray>Ces ennemis sont guéris de toute condition.</gray>"
+			},
+			"it": {
+				"name": "Cristalli di Teinai",
+				"description": "Magia. L'obiettivo nemico subisce 20...40 danni. Se l'obiettivo nemico ha una fattura Magia dell'Acqua, questo incantesimo colpisce l'obiettivo e tutti i nemici nei dintorni per un danno aggiuntivo di 20...40 e i nemici nei dintorni soffrono inoltre di Armatura Incrinata per 5...15 secondi.",
+				"concise": "Magia. Danni inferti all'obiettivo nemico: 20...40. Danno aggiuntivo al nemico con fattura Magia dell'Acqua: +20...40. Condizione inflitta ai nemici nei dintorni: Armatura Incrinata (Secondi: 5...15)."
+			},
+			"jp": {
+				"name": "テイナイ クリスタル",
+				"description": "スペル： ターゲットした敵に 20...40 のダメージを与えます。ターゲットに「ウォーター」特性の弱体化スペルがかけられている場合、ターゲットおよび周囲にいる敵に 20...40 の追加ダメージを与えます。また、周囲にいる敵は 5...15 秒間「防具破損」状態になります。",
+				"concise": "スペル： ターゲットした敵に 20...40 のダメージを与えます。その敵に「ウォーター」特性の弱体化スペルがかけられている場合、周囲にいる敵に 20...40 の追加ダメージを与え、「防具破損」状態にします (5...15 秒)。"
+			},
+			"kr": {
+				"name": "테이나이의 수정",
+				"description": "마법. 대상 지정: 적. 대상에게 20...40의 대미지를 줍니다. 대상이 물 속성 약화 마법에 걸려 있으면 대상과 그 부근의 적들에게 추가로 20...40의 대미지를 주고, 부근의 적들은 5...15초 동안 방어 손상 상태가 됩니다.",
+				"concise": "마법. 대상에게 20...40의 대미지를 줍니다. 대상이 물 속성 약화에 걸려 있으면 부근의 적들에게도 20...40의 대미지를 주고, 방어 손상을 입힙니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Kryształy Teinai",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 20...40 pkt. obrażeń. Jeśli cel jest przeklęty Magią Wody, to zaklęcie trafia cel i pobliskich przeciwników za dodatkowe 20...40 pkt. obrażeń, a pobliscy przeciwnicy cierpią przez 5...15 sek. z powodu Pękniętego Pancerza.",
+				"concise": "Czar. Zadaje wybranemu przeciwnikowi 20...40 pkt. obrażeń. Zadaje przeciwnikowi +20...40 więcej obrażeń i powoduje Pęknięty Pancerz (przez 5...15 sek.) u pobliskich przeciwników, jeśli cel był pod wpływem klątwy Magii Wody."
+			},
+			"ru": {
+				"name": "Teinai's Crystals",
+				"description": "Заклинание. Выбранный противник получает 20...40 ед. урона. Если он находится под действием проклятья, связанного с Water Magic, это заклинание наносит цели и противникам поблизости дополнительно 20...40 ед. урона, а у противников поблизости также будут треснувшие доспехи в течение 5...15 сек.",
+				"concise": "Заклинание. Наносит 20...40 ед. урона цели. Наносит дополнительно 20...40 ед. урона и накладывает треснувшие доспехи (5...15 сек) противникам поблизости, если выбранный противник находится под действием проклятья, связанного с Water Magic."
+			},
+			"bork": {
+				"name": "Teeenaeee's Crystaels",
+				"description": "Spell. Taerget fue-a taekes 20...40 daemaege-a. Iff taerget fue-a haes a Vaeter Maegeec hex, thees spell streekes taerget und neaerby fues fur un aeddeeshunael 20...40 daemaege-a, und neaerby fues aelsu sooffffer Craecked Aermur fur 5...15 secunds.",
+				"concise": "Spell. Deaels 20...40 daemaege-a tu taerget. Deaels +20...40 mure-a daemaege-a und cooses Craecked Aermur (5...15 secunds) neaerby iff thaet fue-a haed a Vaeter Maegeec hex."
 			}
 		}
 	}

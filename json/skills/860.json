@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱纹章",
+				"description": "纹章。 如果目标敌人正在施法，则该法术被打断，并且对其造成 10...51点 伤害。如果该目标身上带有「负面魔法」，则「扰乱纹章」将打断其使用的任何「非魔法」类型技能。",
+				"concise": "纹章。 如果目标敌人正在施法，则该法术被打断，并且对其造成 10...51点 伤害。如果该目标身上带有「负面魔法」，则「扰乱纹章」将打断其使用的任何「非魔法」类型技能。"
+			},
+			"cht": {
+				"name": "擾亂紋章",
+				"description": "紋章： 若目標敵人正在施展「魔法」，則該「魔法」被中斷並且對其造成 10...51 傷害。若該目標身上有「降咒」，則擾亂紋章將中斷其使用的任何「非魔法」類型技能。",
+				"concise": "紋章： 若目標敵人正在施展「魔法」，則該「魔法」被中斷並且對其造成 10...51 傷害。若該目標身上有「降咒」，則擾亂紋章將中斷其使用的任何「非魔法」類型技能。"
+			},
 			"de": {
+				"name": "Siegel der Unterbrechung",
+				"description": "Siegel. Wenn der Gegner einen Zauber wirkt, wird dieser unterbrochen und der Gegner erleidet 10...51 Punkt[e] Schaden. Ist dieser Gegner verhext, kann Siegel der Unterbrechung beliebige Fertigkeiten unterbrechen, die keine Zauber sind.",
+				"concise": "Siegel. Unterbricht einen Zauber. Kann eine beliebige Fertigkeit unterbrechen, wenn der Gegner verhext ist. Unterbrechungswirkung: Richtet 10...51 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Unterbrechung",
 				"description": "Wenn der Gegner einen Zauber wirkt, wird dieser unterbrochen und der Gegner erleidet 10...51 Punkte Schaden. Wenn dieser Gegner verhext ist, kann Siegel der Unterbrechung alle Fertigkeiten, die nicht auf Zaubern beruhen, unterbrechen.",
 				"concise": "Unterbricht einen Zauber. Kann jede Fertigkeit unterbrechen, falls der Gegner verhext ist. Unterbrechungswirkung: Richtet 10...51 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Signet of Disruption",
+				"description": "Signet. If target foe is casting a spell, the spell is interrupted and that foe suffers 10...51 damage. If that foe is hexed, Signet of Disruption can interrupt any non-spell skills.",
+				"concise": "Signet. Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals 10...51 damage."
+			},
+			"en-gww": {
+				"name": "Signet of Disruption",
 				"description": "If target foe is casting a spell, the spell is interrupted and that foe suffers 10...51 damage. If that foe is hexed, Signet of Disruption can interrupt any non-spell skills.",
 				"concise": "Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals 10...51 damage."
 			},
+			"es": {
+				"name": "Sello de interrupción",
+				"description": "Sello. Si el enemigo objetivo está lanzando un conjuro, le interrumpes y le haces 10...51 de daño. Si el enemigo tiene un maleficio, el Sello de interrupción podrá interrumpir habilidades que no sean conjuros.",
+				"concise": "Sello. Interrumpe un conjuro. Puede interrumpir cualquier habilidad si el enemigo objetivo tiene algún maleficio. Efecto de interrupción: hace 10...51 de daño."
+			},
 			"fr": {
+				"name": "Sceau d'interruption",
+				"description": "Sceau. Si l'ennemi visé est en train de lancer un sort, celui-ci est interrompu et l'ennemi subit 10...51 points de dégâts. S'il est affecté par un maléfice, le Sceau d'Interruption peut interrompre toutes les compétences n'étant pas des sorts.",
+				"concise": "Sceau. Interrompt un sort. Peut interrompre n'importe quelle compétence si la cible ennemie est victime d'un maléfice. Effet de l'interruption : inflige 10...51 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Sceau d'interruption",
 				"description": "Si la cible ennemie lance un sort, celui-ci est interrompu et l'ennemi subit 10...51 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice, le Sceau d'Interruption peut interrompre toutes les compétences n'étant pas des sorts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Disturbo",
+				"description": "Sigillo. Se l'obiettivo nemico sta lanciando una magia, la magia viene interrotta e il nemico subisce 10...51 danni. Se l'obiettivo nemico è colpito da fattura, il Sigillo del Disturbo interrompe tutte le abilità diverse dalle magie.",
+				"concise": "Sigillo. Interrompe una magia. Se l'obiettivo nemico è colpito da fattura, interrompe qualsiasi abilità. Effetto dell'interruzione: 10...51 danni inferti."
+			},
+			"jp": {
+				"name": "ディスラプション シグネット",
+				"description": "シグネット： ターゲットした敵がスペルを詠唱中の場合、そのスペルを中断して 10...51 のダメージを与えます。ターゲットに弱体化スペルがかけられている場合、スペル以外のスキルを中断することができます。",
+				"concise": "シグネット： スペルを中断します。ターゲットした敵得に弱体化スペルがかけられている場合、スペル以外も中断することができます。中断効果： 10...51 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "혼란 인장",
+				"description": "인장. 대상 지정: 적. 대상의 마법 시전을 방해하고 10...51의 대미지를 줍니다. 대상이 약화 마법에 걸려 있으면 마법이 아닌 스킬도 방해합니다.",
+				"concise": "인장. 마법을 방해합니다. 대상이 약화 마법에 걸려 있으면 마법이 아닌 스킬도 방해합니다. 방해 효과: 10...51의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Przerwania",
+				"description": "Sygnet. Jeśli cel rzuca właśnie czar, zostaje on przerwany, a cel otrzymuje 10...51 pkt. obrażeń. Jeśli dany cel jest przeklęty, Sygnet Przerwania może przerwać wszystkie umiejętności poza czarami.",
+				"concise": "Sygnet. Przerywa rzucenie czaru. Może przerwać dowolną umiejętność, jeżeli cel jest przeklęty. Skutek przerwania: zadaje 10...51 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Signet of Disruption",
+				"description": "Печать. Если выбранный противник произносил заклинание, оно будет прервано, а противник получит 10...51 ед. урона. Если на этого противника наложено проклятье, с помощью Signet of Disruption можно прервать любое не являющееся заклинанием умение.",
+				"concise": "Печать. Прерывает заклинание. Может прервать любое умение, если на выбранного противника наложено проклятье. Эффект прерывания: наносит 10...51 ед. урона."
+			},
+			"bork": {
+				"name": "Seegnet ooff Deesroopshun",
+				"description": "Seegnet. Iff taerget fue-a is caesteeng a spell, zee spell is interroopted und thaet fue-a sooffffers 10...51 daemaege-a. Iff thaet fue-a is hexed, Seegnet ooff Deesroopshun cun interroopt uny nun-spell skeells.",
+				"concise": "Seegnet. Interroopts a spell. Cun interroopt uny skeell iff taerget fue-a is hexed. Interroopshun iffffect: deaels 10...51 daemaege-a."
 			}
 		}
 	}

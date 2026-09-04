@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 4,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复仇意志",
+				"description": "增益魔法。 将已经死亡的目标盟友召唤回战场，完全恢复其生命和能量，队友的攻击力也会提升15%，效果持续30秒。当此「增益魔法」被驱散或是自然消失时，该队友死亡，因「复仇意志」而再次死亡的队友不会受到死亡惩罚。",
+				"concise": "增益魔法。 将已经死亡的目标盟友召唤回战场，完全恢复其生命和能量，队友的攻击力也会提升15%，效果持续30秒。当此「增益魔法」被驱散或是自然消失时，该队友死亡，因「复仇意志」而再次死亡的队友不会受到死亡惩罚。"
+			},
+			"cht": {
+				"name": "復仇意志",
+				"description": "加持魔法： 使目標死亡隊友復活並且完全回復其體力和能量。持續30秒，該隊友造成的攻擊傷害增加25%。當此加持效果終止時，該隊友死亡。在此加持效果下死亡的隊員，不會受到死亡懲罰。",
+				"concise": "加持魔法： 使目標死亡隊友復活並且完全回復其體力和能量。持續30秒，該隊友造成的攻擊傷害增加25%。當此加持效果終止時，該隊友死亡。在此加持效果下死亡的隊員，不會受到死亡懲罰。"
+			},
 			"de": {
+				"name": "Rache",
+				"description": "Verzauberung. Das tote Gruppenmitglied wird mit allen Lebenspunkten und voller Energie wiederbelebt. 30 Sekunden lang fügt dieses Gruppenmitglied 25% mehr Schaden zu. Wenn diese Verzauberung endet, stirbt es. Beim Tod unter dem Einfluss dieser Verzauberung gibt es keinen Sterbemalus.",
+				"concise": "Verzauberung. 30 Sekunden: Das Gruppenmitglied wird wiederbelebt (volle Lebenspunkte, volle Energiepunkte). Der Verbündete richtet 25% mehr Schaden an und erhält keinen Sterbemalus. Wirkung am Ende: Der Verbündete stirbt."
+			},
+			"de-guildwiki": {
 				"name": "Rache",
 				"description": "Das tote Gruppenmitglied wird mit allen Lebenspunkten und voller Energie wiederbelebt. 30 Sekunden lang fügt dieses Gruppenmitglied 25% mehr Schaden zu. Wenn diese Verzauberung endet, stirbt es. Beim Tod unter dem Einfluss dieser Verzauberung gibt es keinen Sterbemalus.",
 				"concise": "30 Sekunden: Das Gruppenmitglied wird wiederbelebt (volle Lebenspunkte, volle Energiepunkte). Der Verbündete richtet 25% mehr Schaden an und erhält keinen Sterbemalus. <gray>Wirkung am Ende: Der Verbündete stirbt.</gray>"
 			},
 			"en": {
 				"name": "Vengeance",
+				"description": "Enchantment Spell. Bring target dead party member back to life at full Health and full Energy. For 30 seconds, that party member deals 25% more damage. When this enchantment ends, target party member dies. Deaths while under the effects of this enchantment do not incur a death penalty.",
+				"concise": "Enchantment Spell. (30 seconds.) Resurrects target party member (full Health, full Energy). This ally deals 25% more damage and does not incur death penalty. End effect: this ally dies."
+			},
+			"en-gww": {
+				"name": "Vengeance",
 				"description": "Bring target dead party member back to life at full Health and full Energy. For 30 seconds, that party member deals 25% more damage. When this enchantment ends, target party member dies. Deaths while under the effects of this enchantment do not incur a death penalty.",
 				"concise": "(30 seconds.) Resurrects target party member (full Health, full Energy). This ally deals 25% more damage and does not incur death penalty. <gray>End effect: this ally dies.</gray>"
 			},
+			"es": {
+				"name": "Venganza",
+				"description": "Conjuro con encantamiento. Devuelve la vida al aliado objetivo con la salud y energía al máximo. Durante 30 segundos, ese aliado hará un 25% más de daño pero morirá cuando este encantamiento termine. No se penalizará por resucitar si se muere bajo sus efectos.",
+				"concise": "Conjuro con encantamiento. (30 segundos). Resucita al miembro del equipo objetivo (con toda la salud y energía). Este aliado hace 25% más de daño y no sufre penalización por morir. Efecto final: este aliado muere."
+			},
 			"fr": {
+				"name": "Vengeance",
+				"description": "Enchantement. Ressuscite un membre du groupe mort avec tous ses points de vie et d'énergie. Pendant 30 secondes, ce membre du groupe inflige 25% de dégâts en plus. Lorsque cet enchantement prend fin, le membre du groupe visé meurt. Les personnages mourant sous les effets de cet enchantement n'obtiennent pas de handicap.",
+				"concise": "Enchantement. (30 secondes.) Ressuscite le membre du groupe visé (santé et énergie maximum). Cet allié inflige 25% de dégâts en plus et ne subit pas de handicap. Effet final : cet allié meurt."
+			},
+			"fr-gwiki": {
 				"name": "Vengeance",
 				"description": "Ressuscite un membre du groupe mort avec tous ses points de vie et d'énergie. Pendant 30 secondes, ce membre du groupe inflige 25% de dégâts en plus. Lorsque cet enchantement prend fin, le membre du groupe visé meurt. Les personnages mourant sous les effets de cet enchantement n'obtiennent pas de handicap.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vendetta",
+				"description": "Incantesimo. Riporti in vita un membro della squadra morto, con Salute ed Energia al massimo, che per 30 secondi infligge un 25% di danni in più. Quando questo incantesimo termina, il membro della squadra muore. Morire mentre si è sotto il suo effetto non comporta Debilitazione.",
+				"concise": "Incantesimo. (Secondi: 30) Fa risorgere il membro della squadra selezionato (piena Salute e piena Energia). Quest'alleato assesta un 25% in più di danni e non subisce Debilitazione. Effetto al termine: quest'alleato muore."
+			},
+			"jp": {
+				"name": "ベンジェンス",
+				"description": "強化スペル： ターゲットした戦闘不能のパーティー メンバーは、体力およびエネルギーが完全な状態で復活します。そのパーティー メンバーは30秒間、敵に与えるダメージが25%増加しますが、この効果が消失すると再び戦闘不能状態に戻ります。このスペルによる復活中に戦闘不能になった場合、デスペナルティーが発生しません。",
+				"concise": "強化スペル： (30秒) ターゲットしたパーティー メンバーは体力とエネルギーが全回復した状態で復活します。この味方が与えるダメージは25%増加し、戦闘不能になってもデスペナルティーが発生しません。終了効果： この味方は戦闘不能になります。"
+			},
+			"kr": {
+				"name": "복수의 부활",
+				"description": "강화 마법. 대상 지정: 파티원. 전사한 파티원을 체력과 에너지가 최대인 상태로 부활시키고, 그 파티원이 주는 대미지가 25% 증가합니다. 효과가 끝나면 다시 죽은 상태로 돌아가지만 전사페널티는 받지 않습니다.",
+				"concise": "강화 마법. (30초) 파티원을 부활합니다.(체력 100%, 에너지 100%) 그 파티원은 주는 대미지가 25% 증가하고, 전사 페널티는 받지 않습니다. 종료 효과: 다시 죽은 상태로 돌아갑니다."
+			},
+			"pl": {
+				"name": "Zemsta",
+				"description": "Zaklęcie (czar). Przywraca do życia martwego członka drużyny z pełną żywotnością i energią. Po 30 sek. ten członek drużyny zadaje o 25% więcej obrażeń. Kiedy to zaklęcie przestanie działać, członek drużyny zginie. Śmierci poniesione podczas działania tego zaklęcia nie zwiększają kary za śmierć.",
+				"concise": "Zaklęcie (czar). (30 sek.) Wskrzesza wybranego członka drużyny (pełna żywotności, pełna energia). Ten sojusznik zadaje o 25% więcej obrażeń i nie otrzymuje kary za śmierć. Efekt końcowy: ten sojusznik ginie."
+			},
+			"ru": {
+				"name": "Vengeance",
+				"description": "Заклинание-чары. Возвращает выбранного мертвого члена отряда к жизни с полным запасом здоровья и энергии. В течение 30 сек выбранный член отряда наносит урон на 15% больше. Когда эти чары заканчивают свое действие, выбранный член отряда умрет. Гибель в момент нахождения под действием Vengeance не увеличивает штраф за смерть.",
+				"concise": "Заклинание-чары. (30 сек) Воскрешает выбранного члена отряда (полное здоровье, полная энергия). Этот союзник наносит на 25% больше урона и не получает штраф за смерть. Эффект окончания: этот союзник умирает."
+			},
+			"bork": {
+				"name": "Fengeunce-a",
+				"description": "Inchuntment Spell. Breeng taerget deaed paerty member baeck tu leeffe-a aet fooll Heaelt und fooll Inergy. Fur 30 secunds, thaet paerty member deaels 25% mure-a daemaege-a. Vhee thees inchuntment inds, taerget paerty member deees. Deaeths vheele-a under zee iffffects ooff thees inchuntment du nut incoor a deaet penaelty.",
+				"concise": "Inchuntment Spell. (30 secunds.) Resoorrects taerget paerty member (fooll Heaelt, fooll Inergy). Thees aelly deaels 25% mure-a daemaege-a und dues nut incoor deaet penaelty. Ind iffffect: thees aelly deees."
 			}
 		}
 	}

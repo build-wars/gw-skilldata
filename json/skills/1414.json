@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暴怒冲击",
+				"description": "姿态。 在5...15秒之内，使你的移动速度提升25%。当你成功击中目标时，「暴怒冲击」的效果消失，并使你获得等同于0...3次攻击所得的怒气。",
+				"concise": "姿态。 在5...15秒之内，使你的移动速度提升25%。当你成功击中目标时，「暴怒冲击」的效果消失，并使你获得等同于0...3次攻击所得的怒气。"
+			},
+			"cht": {
+				"name": "怒氣急聚",
+				"description": "態勢： 持續 5...15 秒，移動速度增加 25%，當你下一次以近身攻擊擊中敵人時，此態勢終止且你獲得等同於 0...3 次攻擊的怒氣值。",
+				"concise": "態勢： 持續 5...15 秒，移動速度增加 25%，當你下一次以近身攻擊擊中敵人時，此態勢終止且你獲得等同於 0...3 次攻擊的怒氣值。"
+			},
 			"de": {
+				"name": "Wütender Angriff",
+				"description": "Haltung. 5...15 Sekunde[n] lang bewegt Ihr Euch um 25% schneller. Wütender Angriff endet, wenn Ihr ein Ziel erfolgreich trefft. Dabei erhaltet Ihr 0...3 Adrenalinstöße, sofern Ihr mit einem Nahkampfangriff trefft.",
+				"concise": "Haltung. (5...15 Sekunde[n].) Ihr bewegt Euch um 25% schneller. Erhaltet bei Eurem nächsten Nahkampfangriff +0...3 Adrenalin. <c x=\"SkillDull\">Endet nach Eurem nächsten Treffer."
+			},
+			"de-guildwiki": {
 				"name": "Wütender Angriff",
 				"description": "5...15 Sekunden lang bewegt Ihr Euch um 25% schneller. Wütender Angriff endet, wenn Ihr ein Ziel erfolgreich trefft. Dabei erhaltet Ihr 0...3 Adrenalinstöße, sofern Ihr mit einem Nahkampfangriff trefft.",
 				"concise": "5...15 Sekunden: Ihr bewegt Euch um 25% schneller. Erhaltet bei Eurem nächsten Nahkampfangriff +0...3 Adrenalin. Endet nach Eurem nächsten Treffer."
 			},
 			"en": {
 				"name": "Enraging Charge",
+				"description": "Stance. For 5...15 seconds, you move 25% faster. Enraging Charge ends when you successfully strike a target, at which point you gain 0...3 strikes of adrenaline if you hit with a melee attack.",
+				"concise": "Stance. (5...15 seconds.) You move 25% faster. Gain +0...3 adrenaline on your next melee attack. Ends after your next hit."
+			},
+			"en-gww": {
+				"name": "Enraging Charge",
 				"description": "For 5...15 seconds, you move 25% faster. Enraging Charge ends when you successfully strike a target, at which point you gain 0...3 strike[s] of adrenaline if you hit with a melee attack.",
 				"concise": "(5...15 seconds.) You move 25% faster. Gain +0...3 adrenaline on your next melee attack. <gray>Ends after your next hit.</gray>"
 			},
+			"es": {
+				"name": "Carga enrabietada",
+				"description": "Actitud. Corres un 25% más rápido durante 5...15 segundos. La Carga enrabietada termina cuando consigues dar a un enemigo, y ganas 0...3 golpes de adrenalina si golpeas con un ataque cuerpo a cuerpo.",
+				"concise": "Actitud. (5...15 segundos.) Te mueves un 25% más rápido. Ganas +0...3 de adrenalina en el próximo ataque cuerpo a cuerpo. <c x=\"SkillDull\">Termina cuando vuelves a golpear."
+			},
 			"fr": {
+				"name": "Charge enragée",
+				"description": "Pose de combat. Pendant 5...15 secondes, vous vous déplacez 25% plus vite. La Charge enragée prend fin lorsque vous touchez une cible. Vous gagnez alors 0...3 décharges d'adrénaline lorsque vous réussissez une attaque au corps à corps.",
+				"concise": "Pose de combat. (5...15 secondes.) Vous vous déplacez 25% plus vite. Votre attaque au corps à corps suivante vous procure +0...3 décharges d'adrénaline. <c x=\"SkillDull\">Cette compétence prend fin à l'issue de votre attaque suivante."
+			},
+			"fr-gwiki": {
 				"name": "Charge enragée",
 				"description": "Pendant 5...16 secondes, vous vous déplacez 25% plus vite. La Charge enragée prend fin lorsque vous touchez une cible. Vous gagnez alors 0...3 décharges d’adrénaline lorsque vous réussissez une attaque au corps à corps.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Carica Infuriante",
+				"description": "Posizione. Per 5...15 secondi la tua velocità aumenta di un 25%. La Carica Infuriante termina quando colpisci un obiettivo e ti conferisce 0...3 dosi di adrenalina per il tuo prossimo attacco in mischia andato a segno.",
+				"concise": "Posizione. (Secondi: 5...15). Aumento della tua velocità di movimento: 25%. Dosi di adrenalina ottenute dal tuo prossimo attacco in mischia: +0...3. <c x=\"SkillDull\">Termina dopo il tuo prossimo attacco andato a segno."
+			},
+			"jp": {
+				"name": "エンレイジ チャージ",
+				"description": "スタンス： 5...15 秒間、移動速度が 25% 増加します。ターゲットへの攻撃が成功すると、この効果は消失します。近接攻撃が成功すると、0...3 発のアドレナリンを獲得します。",
+				"concise": "スタンス： (5...15 秒) 移動速度が 25% 増加します。次の近接攻撃によりアドレナリンを 0...3 発追加で獲得します。攻撃を行うと、この効果は消失します。"
+			},
+			"kr": {
+				"name": "성난 돌격",
+				"description": "자세. 대상 지정: 없음. 5...15초 동안 이동 속도가 25% 빨라집니다. 공격이 성공하면 효과가 끝나고, 근접 물리 공격이 성공하면 0...3번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "자세. (5...15초) 이동 속도가 25% 빨라지고, 근접 물리 공격 시에 0...3번 공격에 성공한 만큼의 아드레날린을 얻습니다. 공격이 성공하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Wściekła Szarża",
+				"description": "Postawa. Twoja szybkość poruszania się rośnie o 25% na najbliższe 5...15 sek. Wściekła Szarża dobiega końca, gdy uda ci się trafić jakiś cel. Jeśli trafisz go atakiem wręcz, zyskujesz wtedy również impulsy adrenaliny (0...3).",
+				"concise": "Postawa. (5...15 sek.) Poruszasz się 25% szybciej. Zyskujesz +0...3 adrealiny przy następnym ataku wręcz. <c x=\"SkillDull\">Kończy się, gdy trafisz wroga."
+			},
+			"ru": {
+				"name": "Enraging Charge",
+				"description": "Стойка. В течение 5...15 сек вы двигаетесь на 25% быстрее. Если вы успешно нанесли удар по противнику, Enraging Charge заканчивает свое действие, а вы получаете 0...3 ед. адреналина, если это была рукопашная атака.",
+				"concise": "Стойка. (5...15 сек) Вы двигаетесь на 25% быстрее. Дает дополнительно 0...3 ед. адреналина при вашей следующей рукопашной атаке. Заканчивается, если вы наносите успешный удар."
+			},
+			"bork": {
+				"name": "Inraegeeng Chaerge-a",
+				"description": "Stunce-a. Fur 5...15 secunds, yuoo mufe-a 25% faester. Inraegeeng Chaerge-a inds vhee yuoo sooccessffoolly streeke-a a taerget, aet vheech pueent yuoo gaeeen 0...3 streeke-as ooff aedrenaeleene-a iff yuoo heet veet a melee-a aettaeck.",
+				"concise": "Stunce-a. (5...15 secunds.) Yuoo mufe-a 25% faester. Gaeeen +0...3 aedrenaeleene-a oon yuoor next melee-a aettaeck. Inds aeffter yuoor next heet."
 			}
 		}
 	}

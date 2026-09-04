@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "梦魇之躯",
+				"description": "武咒。 在12秒之内，友方目标将拥有「梦魇之躯」，使他下3次的攻击伤害下降10...50点，并偷取敌人最多10...50点生命值。",
+				"concise": "武咒。 在12秒之内，友方目标将拥有「梦魇之躯」，使他下3次的攻击伤害下降10...50点，并偷取敌人最多10...50点生命值。"
+			},
+			"cht": {
+				"name": "夢魘武裝",
+				"description": "武裝魔法： 使目標盟友擁有夢魘武裝。在 12 秒內，使該盟友下 3 次攻擊造成的傷害減少 10...50 ，但是偷取敵人最多 10...50 體力。",
+				"concise": "武裝魔法： 使目標盟友擁有夢魘武裝。在 12 秒內，使該盟友下 3 次攻擊造成的傷害減少 10...50 ，但是偷取敵人最多 10...50 體力。"
+			},
 			"de": {
+				"name": "Alptraumwaffe",
+				"description": "Waffenzauber. Während der nächsten 12 Sekunde[n] hat der Verbündete (bzw. Ihr selbst) eine Alptraumwaffe. Die nächsten 3 Angriffe des Verbündeten (bzw. Eure eigenen) werden um 10...50 Schadenspunkt[e] reduziert und entziehen bis zu 10...50 Lebenspunkt[e].",
+				"concise": "Waffenzauber. 12 Sekunde[n]: Angriffe des Verbündeten (bzw. von Euch selbst) entziehen 10...50 Lebenspunkt[e], richten aber 10...50 Punkt[e] weniger Schaden an. Endet nach 3 Angriff[en]."
+			},
+			"de-guildwiki": {
 				"name": "Alptraumwaffe",
 				"description": "Während der nächsten 12 Sekunden hat der Verbündete (bzw. Ihr selbst) eine Alptraumwaffe. Die nächsten 3 Angriffe des Verbündeten (bzw. Eure eigenen) werden um 10...50 Schadenspunkte reduziert und entziehen bis zu 10...50 Lebenspunkte.",
 				"concise": "12 Sekunden: Angriffe des Verbündeten (bzw. von Euch selbst) entziehen 10...50 Lebenspunkte, richten aber 10...50 Punkte weniger Schaden an. <gray>Endet nach 3 Angriffen.</gray>"
 			},
 			"en": {
 				"name": "Nightmare Weapon",
+				"description": "Weapon Spell. For 12 seconds, target ally has a Nightmare Weapon. Target ally's next 3 attacks are reduced by 10...50 damage and steal up to 10...50 Health.",
+				"concise": "Weapon Spell. (12 seconds.) Target ally's attacks steal 10...50 Health but deal 10...50 less damage. Ends after 3 attacks."
+			},
+			"en-gww": {
+				"name": "Nightmare Weapon",
 				"description": "For 12 seconds, target ally has a Nightmare Weapon. Target ally's next 3 attacks are reduced by 10...50 damage and steal up to 10...50 Health.",
 				"concise": "(12 seconds.) Target ally's attacks steal 10...50 Health but deal 10...50 less damage. <gray>Ends after 3 attacks.</gray>"
 			},
+			"es": {
+				"name": "Arma de pesadilla",
+				"description": "Conjuro con arma. Durante 12 segundos, el aliado objetivo llevará un Arma de pesadilla, gracias a la que el daño de sus siguientes ataques (3) se reduce en 10...50 y roban hasta 10...50 de salud.",
+				"concise": "Conjuro con arma. (12 segundos). Los ataques del objetivo (un aliado o tú mismo) roban 10...50 de salud pero hacen 10...50 menos de daño. Acaba después de 3 ataques."
+			},
 			"fr": {
+				"name": "Arme du tourment",
+				"description": "Sort d'altération d'arme. Pendant 12 secondes, la cible (un allié ou vous-même) possède une Arme du tourment. Les prochaines attaques (au nombre de 3) de la cible (un allié ou vous-même) infligent 10...50 points de dégâts en moins et absorbent jusqu'à 10...50 points de vie.",
+				"concise": "Sort d'altération d'arme. (12 secondes.) Les attaques de l'allié visé volent 10...50 points de vie mais infligent 10...50 points de dégâts en moins. Prend fin au bout de 3 attaques."
+			},
+			"fr-gwiki": {
 				"name": "Arme du tourment",
 				"description": "Pendant 12 secondes, la cible (un allié ou vous-même) possède une ''Arme du tourment''. Les prochaines attaques (au nombre de 3) de la cible (un allié ou vous-même) infligent 10...50 points de dégâts en moins et absorbent jusqu'à 10...50 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma Incubo",
+				"description": "Magia Altera-arma. Per 12 secondo[i], l'obiettivo (un alleato o te stesso) avrà un'Arma Incubo; il danno inflitto da lui con [il] 3 attacco[hi] successivo[i] viene ridotto di 10...50 e sottrae fino a 10...50 Punto[i] Salute.",
+				"concise": "Magia Altera-arma. (Secondi: 12) Gli attacchi dell'obiettivo alleato sottraggono 10...50 Punto[i] Salute ma assestano 10...50 danno[i] in meno. Termina dopo 3 attacchi."
+			},
+			"jp": {
+				"name": "ナイトメア ウェポン",
+				"description": "ウェポン スペル： 12 秒間、 ターゲットした味方が次に行う 3 回の攻撃は、与えるダメージが 10...50 減少しますが最大 10...50 の体力を奪い取ります。",
+				"concise": "ウェポン スペル： (12 秒) ターゲットした味方の攻撃は 10...50 の体力を奪い取りますが、与えるダメージは 10...50 減少します。3 回攻撃すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "악몽의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 12초 동안 대상은 \"악몽의 무기\" 효과를 얻습니다. 이후 대상이 시도하는 3번의 공격은 대미지가 10...50만큼 감소하는 대신 적에게서 10...50의 체력을 뺏습니다.",
+				"concise": "마법 무기. (12초) 대상의 공격은 대미지가 10...50만큼 감소하는 대신 10...50의 체력을 뺏습니다. 3번 공격하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Upiorny Oręż",
+				"description": "Czar z broni. Na 12 sek., wybrany sojusznik zyskuje Upiorny Oręż. Kolejne (3) ataki tego sojusznika zadają 10...50 pkt. obrażeń mniej i wykradają do 10...50 pkt. żywotności.",
+				"concise": "Czar z broni. (12 sek.) Ataki wybranego sojusznika wykradają 10...50 pkt. żywotności, ale zadają 10...50 pkt. obrażeń mniej. Koniec po 3 atakach."
+			},
+			"ru": {
+				"name": "Nightmare Weapon",
+				"description": "Оружейное заклинание. В течение 12 сек у выбранного союзника будет Nightmare Weapon. Урон от следующих успешных атак (3) этого союзника будет меньше на 10...50 ед., а союзник похитит до 10...50 ед. здоровья.",
+				"concise": "Оружейное заклинание. (12 сек) Атаки выбранного союзника похищают 10...50 ед. здоровья, но наносят на 10...50 ед. урона меньше. Заканчивается после 3 атак."
+			},
+			"bork": {
+				"name": "Neeghtmaere-a Veaepun",
+				"description": "Veaepun Spell. Fur 12 secunds, taerget aelly haes a Neeghtmaere-a Veaepun. Taerget aelly's next 3 aettaecks aere-a redooced by 10...50 daemaege-a und steael up tu 10...50 Heaelt.",
+				"concise": "Veaepun Spell. (12 secunds.) Taerget aelly's aettaecks steael 10...50 Heaelt boot deael 10...50 less daemaege-a. Inds aeffter 3 aettaecks."
 			}
 		}
 	}

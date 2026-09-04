@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻象苦楚",
+				"description": "负面魔法。 使目标敌人遭受 1...4点「生命衰减」。当「幻象苦楚」效果消失时，目标敌人将遭受「重伤」症状，在 5...20秒内，最大生命值降低 20%，效果持续 10秒。",
+				"concise": "负面魔法。 使目标敌人遭受 1...4点「生命衰减」。当「幻象苦楚」效果消失时，目标敌人将遭受「重伤」症状，在 5...20秒内，最大生命值降低 20%，效果持续10秒。"
+			},
+			"cht": {
+				"name": "痛苦幻影",
+				"description": "降咒魔法： 持續 10 秒，使目標敵人遭受體力衰減 1...4 。而當痛苦幻影的效果終止時，該目標將遭受「重傷」病症，最大體力值降低 20% 並持續 5...20 秒。",
+				"concise": "降咒魔法： 持續 10 秒，使目標敵人遭受體力衰減 1...4 。而當痛苦幻影的效果終止時，該目標將遭受「重傷」病症，最大體力值降低 20% 並持續 5...20 秒。"
+			},
 			"de": {
+				"name": "Phantomschmerz",
+				"description": "Verhexung. 10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4. Wenn Phantomschmerz endet, erleidet dieser Gegner eine Tiefe Wunde, die seine maximalen Lebenspunkte 5...20 Sekunde[n] lang um 20% reduziert.",
+				"concise": "Verhexung. 10 Sekunden: Verursacht -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Phantomschmerz",
 				"description": "10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4. Wenn Phantomschmerz endet, erhält dieser Gegner eine Tiefe Wunde, die seine maximalen Lebenspunkte 5...20 Sekunden lang um 20% reduziert.",
 				"concise": "10 Sekunden: Verursacht -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Phantom Pain",
+				"description": "Hex Spell. For 10 seconds, target foe suffers -1...4 Health degeneration. When Phantom Pain ends, that foe suffers a Deep Wound, lowering that foe's maximum Health by 20% for 5...20 seconds.",
+				"concise": "Hex Spell. (10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Deep Wound condition (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Phantom Pain",
 				"description": "For 10 seconds, target foe suffers -1...4 Health degeneration. When Phantom Pain ends, that foe suffers a Deep Wound, lowering that foe's maximum Health by 20% for 5...20 seconds.",
 				"concise": "(10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Deep Wound condition (5...20 seconds)."
 			},
+			"es": {
+				"name": "Dolor fantasma",
+				"description": "Conjuro con maleficio. Durante 10 segundos, el enemigo objetivo sufre una degeneración de -1...4 de salud. Cuando finalice el Dolor fantasma, ese enemigo sufrirá una herida grave, lo que reducirá su salud máxima en un 20% durante 5...20 segundos.",
+				"concise": "Conjuro con maleficio. (10 segundos). Causa -1...4 de degeneración de salud. Efecto final: causa una herida grave (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Douleur fantôme",
+				"description": "Maléfice. Pendant 10 secondes, la cible ennemie subit une dégénération de santé de -1...4. Quand la Douleur fantôme cesse, la cible souffre d'une Blessure profonde qui réduit sa santé maximum de 20% pendant 5...20 secondes.",
+				"concise": "Maléfice. (10 secondes.) Provoque une dégénération de santé de -1...4. Effet final : provoque la Blessure profonde (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Douleur fantôme",
 				"description": "Pendant 10 secondes, la cible ennemie subit une dégénération de santé de -1...4. Quand la Douleur fantôme cesse, la cible souffre d'une Blessure profonde qui réduit sa santé maximum de 20% pendant 5...20 secondes.",
 				"concise": "(10 secondes.) Provoque une dégénération de santé de -1...4. Effet initial : provoque la Blessure profonde (5...20 secondes.)"
+			},
+			"it": {
+				"name": "Dolore Fantasma",
+				"description": "Fattura. Per 10 secondi, l'obiettivo nemico subisce di -1...4 punto[i] di Degenerazione della Salute. Quando il Dolore Fantasma termina, il nemico subisce una Ferita Profonda che fa diminuire la sua Salute massima del 20% per 5...20 secondo[i].",
+				"concise": "Fattura. (Secondi: 10) Degenerazione Salute: -1...4. Effetto al termine: infliggi Ferita Profonda (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "ファントム ペイン",
+				"description": "弱体化スペル： 10秒間、ターゲットした敵は体力の自然回復力が 1...4 減少します。この効果が消失すると、その敵は 5...20 秒間「重傷」状態になり、体力の上限が20%減少します。",
+				"concise": "弱体化スペル： (10秒) 体力の自然回復力が 1...4 減少します。終了効果： 「重傷」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "고통의 환상",
+				"description": "약화 마법. 대상 지정: 적. 10초 동안 대상의 체력 재생이 1...4 감소합니다. 효과가 끝나면 대상은 중상 상태가 되어 5...20초 동안 최대 체력이 20% 감소합니다.",
+				"concise": "약화 마법. (10초) 체력 재생이 1...4 감소시킵니다. 종료 효과: 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Widmowy Ból",
+				"description": "Klątwa (czar). Przez 10 sek., wybrany przeciwnik cierpi -1...4 degeneracji żywotności. Gdy Widmowy Ból przestanie działać, ten przeciwnik otrzymuje Głęboką Ranę, obniżając maksymalną żywotność przeciwnika o 20% na 5...20 sek.",
+				"concise": "Klątwa (czar). (10 sek.) Powoduje degenerację żywotności -1...4. Efekt końcowy: wywołuje przypadłość głęboka rana (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Phantom Pain",
+				"description": "Заклинание-проклятье. В течение 10 сек скорость восстановления здоровья выбранного противника уменьшается на 1...4 ед. Когда Phantom Pain заканчивает свое действие, этот противник получает глубокую рану, понижающую на 5...20 сек максимальный уровень его здоровья на 20%.",
+				"concise": "Заклинание-проклятье. (10 сек) Уменьшает на 1...4 ед. скорость восстановления здоровья. Эффект окончания: вызывает глубокую рану (5...20 сек)."
+			},
+			"bork": {
+				"name": "Phuntum Paeeen",
+				"description": "Hex Spell. Fur 10 secunds, taerget fue-a sooffffers -1...4 Heaelt degeneraeshun. Vhee Phuntum Paeeen inds, thaet fue-a sooffffers a Deep Vuoond, looereeng thaet fue-a's maexeemoom Heaelt by 20% fur 5...20 secunds.",
+				"concise": "Hex Spell. (10 secunds.) Cooses -1...4 Heaelt degeneraeshun. Ind iffffect: inffleects Deep Vuoond cundeeshun (5...20 secunds)."
 			}
 		}
 	}

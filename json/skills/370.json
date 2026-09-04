@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂暴姿态",
+				"description": "姿态。 8...14秒内，你的攻击速度提升33%并获得额外100%怒气。施放技能时狂战士姿态将终止。",
+				"concise": "姿态。 （8...14秒）你的攻击速度提升33%并获得额外100%怒气。使用技能时终止。"
+			},
+			"cht": {
+				"name": "狂戰士態勢",
+				"description": "態勢： For 8...14 seconds, you attack 33% faster and gain 100% more adrenaline. Berserker Stance ends if you use a skill.",
+				"concise": "態勢： (8...14 seconds.) You attack 33% faster and gain 100% more adrenaline. Ends if you use a skill."
+			},
 			"de": {
+				"name": "Berserkerhaltung",
+				"description": "Haltung. Für 8...14 Sekunden greift Ihr um 33 % schneller an und erhaltet 100 % mehr Adrenalin. Die Berserkerhaltung endet, wenn Ihr eine Fertigkeit verwendet.",
+				"concise": "Haltung. (8...14 Sekunden). Ihr greift um 33 % schneller an und erhaltet 100 % mehr Adrenalin. Endet, wenn Ihr eine Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Berserkerhaltung",
 				"description": "8...14 Sekunden lang greift Ihr um 33% schneller als normal an und erhaltet 100% mehr Adrenalin für jeden Eurer Treffer im Nahkampf. Berserkerhaltung endet, sobald Ihr eine Fertigkeit verwendet.",
 				"concise": "8...14 Sekunden: Ihr greift um 33% schneller an und erhaltet 100% mehr Adrenalin. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Berserker Stance",
+				"description": "Stance. For 8...14 seconds, you attack 33% faster and gain 100% more adrenaline. Berserker Stance ends if you use a skill.",
+				"concise": "Stance. (8...14 seconds.) You attack 33% faster and gain 100% more adrenaline. Ends if you use a skill."
+			},
+			"en-gww": {
+				"name": "Berserker Stance",
 				"description": "For 8...14 seconds, you attack 33% faster and gain 100% more adrenaline. Berserker Stance ends if you use a skill.",
 				"concise": "(8...14 seconds.) You attack 33% faster and gain 100% more adrenaline. <gray>Ends if you use a skill.</gray>"
 			},
+			"es": {
+				"name": "Actitud berserker",
+				"description": "Actitud. Durante 8...14 segundos, atacas un 33% más rápido y ganas un 100 % más de adrenalina. La Actitud Berserker finaliza si usas una habilidad.",
+				"concise": "Actitud. (8...14 segundos). Atacas un 33% más deprisa y ganas 100 % más de adrenalina. Acaba si usas una habilidad."
+			},
 			"fr": {
+				"name": "Pose du berserker",
+				"description": "Pose de combat. Pendant 8...14 secondes, vous attaquez 33% plus vite et gagnez 100% d'adrénaline en plus. La Pose du Berserker prend fin si vous utilisez une compétence.",
+				"concise": "Pose de combat. (8...14 secondes.) Vous attaquez 33% plus vite et recevez 100% d'adrénaline en plus. Prend fin si vous utilisez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Pose du berserker",
 				"description": "Pendant 5...11 secondes, vous attaquez 33% plus vite et gagnez 50% d'adrénaline en plus. La Pose du Berserker prend fin si vous utilisez une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione del Guerriero Furioso",
+				"description": "Posizione. Per 8...14 secondo/i, attacchi il 33% più velocemente e ottieni il 100% in più di adrenalina. La posizione Berserker termina se usi un'abilità.",
+				"concise": "Posizione. (8...14 secondo/i). Attacchi il 33% più velocemente e ottieni il 100% in più di adrenalina. Termina se usi un'abilità."
+			},
+			"jp": {
+				"name": "バーサーカー スタンス",
+				"description": "スタンス： 8...14秒間、攻撃速度が33%上昇し、獲得するアドレナリンが100%増加します。スキルを使用するとバーサーカースタンスは終了します。",
+				"concise": "スタンス： （8...14秒）攻撃速度が33%上昇し、獲得するアドレナリンが100%増加します。スキルを使用すると終了します。"
+			},
+			"kr": {
+				"name": "광전사의 전투 자세",
+				"description": "자세. 대상 지정: 없음. 8...14초 동안 공격 속도가 33% 빨라지고 아드레날린을 100% 더 얻습니다. 스킬을 사용하면 광전사의 전투 자세가 종료됩니다.",
+				"concise": "자세. (8...14초) 공격 속도가 33% 빨라지고 아드레날린을 100% 더 얻습니다. 스킬을 사용하면 종료됩니다."
+			},
+			"pl": {
+				"name": "Postawa Berserkera",
+				"description": "Postawa. Przez 8...14 sek., atakujesz o 33% szybciej i otrzymujesz o 100% adrenaliny więcej. Postawa Berserkera przestanie działać, kiedy użyjesz umiejętności.",
+				"concise": "Postawa. (8...14 sek.) Atakujesz o 33% szybciej i otrzymujesz o 100% więcej adrenaliny. Przestanie działać, jeśli użyjesz umiejętności."
+			},
+			"ru": {
+				"name": "Berserker Stance",
+				"description": "Стойка. В течение 8...14 сек. ваши атаки на 33% быстрее и дают на 100% больше адреналина. Berserker Stance прекращается, если вы используете навык.",
+				"concise": "Стойка. (8...14 сек.) Ваши атаки на 33% быстрее и дают на 100% больше адреналина. Прекращается, если вы используете навык."
+			},
+			"bork": {
+				"name": "Berserker Stunce-a",
+				"description": "Stunce-a. Fur 8...14 secunds, yuoo aettaeck 33% faester und gaeeen 100% mure-a aedrenaeleene-a. Berserker Stunce-a inds iff yuoo use-a a skeell.",
+				"concise": "Stunce-a. (8...14 secunds.) Yuoo aettaeck 33% faester und gaeeen 100% mure-a aedrenaeleene-a. Inds iff yuoo use-a a skeell."
 			}
 		}
 	}

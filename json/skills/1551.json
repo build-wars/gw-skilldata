@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电矛",
+				"description": "矛术。 斩击你与目标之间的所有敌军。命中时+10...20点闪电伤害。此攻击具有25%护甲穿透。",
+				"concise": "矛术。 施加10...20点闪电伤害。25%护甲穿透。斩击你与目标之间的所有敌军。"
+			},
+			"cht": {
+				"name": "閃電之矛",
+				"description": "矛術攻擊技能： Strikes all foes between you and your target. If this attack hits, it deals +10...20 lightning damage. This attack has 25% armor penetration.",
+				"concise": "矛術攻擊技能： Deals +10...20 lightning damage. 25% armor penetration. Strikes all foes between you and your target."
+			},
 			"de": {
+				"name": "Speer des Blitzes",
+				"description": "Speerangriff. Greift alle Gegner zwischen Euch und Eurem Ziel an. Wenn dieser Angriff trifft, verursacht er +10...20 Blitzschaden. Dieser Angriff hat 25 % Rüstungsdurchdringung.",
+				"concise": "Speerangriff. Verursacht +10...20 Blitzschaden. 25 % Rüstungsdurchdringung. Greift alle Gegner zwischen Euch und Eurem Ziel an."
+			},
+			"de-guildwiki": {
 				"name": "Speer des Blitzes",
 				"description": "Wenn dieser Angriff trifft, verursacht er +10...20 Blitzschaden. Feinde zwischen Euch und Eurem Ziel erleiden 10...20 Blitzschaden. Dieser Angriff hat 25% Rüstungsdurchdringung.",
 				"concise": "Verursacht +10...20 Blitzschaden. Alle Feinde zwischen Euch und Eurem Ziel erleiden 10...20 Blitzschaden. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Spear of Lightning",
+				"description": "Spear Attack. Strikes all foes between you and your target. If this attack hits, it deals +10...20 lightning damage. This attack has 25% armor penetration.",
+				"concise": "Spear Attack. Deals +10...20 lightning damage. 25% armor penetration. Strikes all foes between you and your target."
+			},
+			"en-gww": {
+				"name": "Spear of Lightning",
 				"description": "Strikes all foes between you and your target. If this attack hits, it deals +10...20 lightning damage. This attack has 25% armor penetration.",
 				"concise": "Deals +10...20 lightning damage. 25% armor penetration. Strikes all foes between you and your target."
 			},
+			"es": {
+				"name": "Lanza de relámpago",
+				"description": "Ataque con lanza. Golpea a todos los enemigos que haya entre tu objetivo y tú. Si impacta, inflige +10...20 de daño de relámpago. Este ataque tiene un 25 % de penetración de armadura.",
+				"concise": "Ataque con lanza. Inflige +10...20 de daño de relámpago. 25 % de penetración de armadura. Golpea a todos los enemigos que haya entre tu objetivo y tú."
+			},
 			"fr": {
+				"name": "Javelot d'éclair",
+				"description": "Attaque au javelot. Frappe tous les ennemis entre vous et votre cible. Si cette attaque réussit, elle inflige +10...20 points de dégâts de foudre. Cette attaque a 25% de pénétration d'armure.",
+				"concise": "Attaque au javelot. Inflige +10...20 points de dégâts de la foudre. Pénétration d'armure de 25%. Frappe tous les ennemis entre vous et votre cible."
+			},
+			"fr-gwiki": {
 				"name": "Javelot d'éclair",
 				"description": "Si cette attaque réussit, elle inflige +8...20 points de dégâts de foudre. Cette attaque a 25% de pénétration d'armure.",
 				"concise": "Inflige +8...20 points de dégâts de la foudre. Pénétration d'armure de 25%."
+			},
+			"it": {
+				"name": "Lancia del Fulmine",
+				"description": "Attacco con Lancia. Colpisce tutti i nemici che si trovano tra te e il bersaglio. Se l'attacco va a segno, infligge +10...20 danni da fulmine. Questo attacco ha una penetrazione dell'armatura del 25%.",
+				"concise": "Attacco con Lancia. Infligge +10...20 danni da fulmine. Penetrazione dell'armatura del 25%. Colpisce tutti i nemici tra te e il bersaglio."
+			},
+			"jp": {
+				"name": "ライトニング スピア",
+				"description": "スピア アタック： あなたとあなたの標的の間にいるすべての敵を攻撃します。この攻撃が命中した場合、10...20の稲妻ダメージを追加で与えます。この攻撃は25%の鎧貫通を与えます。",
+				"concise": "スピア アタック： 10...20の稲妻ダメージを追加で与えます。25%の鎧貫通を与えます。あなたとあなたの標的の間にいるすべての敵を攻撃します。"
+			},
+			"kr": {
+				"name": "번개창",
+				"description": "창 공격. 자신과 대상 사이에 있는 모든 적을 공격합니다. 공격에 성공하면 10...20의 번개 대미지를 추가로 줍니다. 이 공격은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "창 공격. 10...20의 번개 대미지를 추가로 줍니다. 25%의 갑옷 관통 효과를 갖습니다. 자신과 대상 사이에 있는 모든 적을 공격합니다."
+			},
+			"pl": {
+				"name": "Włócznia Błyskawicy",
+				"description": "Atak włócznią. Atakuje wszystkich przeciwników znajdujących się między tobą a celem. Jeśli atak trafi, zadaje +10...20 pkt. obrażeń od piorunów. Atak ma 25% penetracji pancerza.",
+				"concise": "Atak włócznią. Zadaje +10...20 pkt. obrażeń od piorunów. 25% penetracji pancerza. Atakuje wszystkich wrogów między tobą a twoim celem."
+			},
+			"ru": {
+				"name": "Spear of Lightning",
+				"description": "Атака копьем. Поражает всех врагов между вами и целью. Если атака достигает цели, она наносит +10...20 ед. урона молнией. Атака получает 25% пробития брони.",
+				"concise": "Атака копьем. Наносит +10...20 ед. урона молнией. 25% пробития брони. Поражает всех врагов между вами и целью."
+			},
+			"bork": {
+				"name": "Speaer ooff Leeghtneeng",
+				"description": "Speaer Aettaeck. Streekes aell fues betveee yuoo und yuoor taerget. Iff thees aettaeck heets, it deaels +10...20 leeghtneeng daemaege-a. Thees aettaeck haes 25% aermur penetraeshun.",
+				"concise": "Speaer Aettaeck. Deaels +10...20 leeghtneeng daemaege-a. 25% aermur penetraeshun. Streekes aell fues betveee yuoo und yuoor taerget."
 			}
 		}
 	}

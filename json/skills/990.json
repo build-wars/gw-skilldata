@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益抹杀",
+				"description": "技能。 使你的所有非攻击性技能在8...4秒之内无法使用。有几个技能无法使用，被触摸的目标敌人则失去相同数量的「增益魔法」。",
+				"concise": "触摸技。 每装备一项非攻击性技能时，使用此技能，你将移除敌人一项「增益魔法」。你的所有非攻击性技能将在8...4秒内无法使用。"
+			},
+			"cht": {
+				"name": "抹除加持",
+				"description": "技能： 目標敵人失去 1「加持」。你的所有非攻擊技能在 8...4 秒內無法使用。依照無法使用的技能數量，額外的使被碰觸的目標敵人失去相同數量的「加持」。",
+				"concise": "碰觸技能： 你的所有非攻擊技能在 8...4 秒內無法使用。依照你無法使用的技能數量，被碰觸的目標敵人失去相同數量的「加持」。"
+			},
 			"de": {
+				"name": "Verzauberungen ausmerzen",
+				"description": "Fertigkeit. Der Gegner verliert 1 Verzauberung. Alle anderen Nicht-Angriffsfertigkeiten werden 8...4 Sekunde[n] lang deaktiviert. Für jede Fertigkeit, die auf diese Weise deaktiviert wird, verliert der berührte Gegner 1 weitere Verzauberung.",
+				"concise": "Berührungs-Fertigkeit. Entfernt für jede Eurer Nicht-Angriffsfertigkeiten eine Verzauberung. Alle Eure Nicht-Angriffsfertigkeiten werden deaktiviert (8...4 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberungen ausmerzen",
 				"description": "Der Gegner verliert 1<sic/> Verzauberung. Alle anderen Nicht-Angriffsfertigkeiten werden 8...4 Sekunden lang deaktiviert. Für jede Fertigkeit, die auf diese Weise deaktiviert wird, verliert der berührte Gegner 1<sic/> weitere Verzauberung.",
 				"concise": "Entfernt für jede Eurer Nicht-Angriffsfertigkeiten eine Verzauberung. <gray>Alle Eure Nicht-Angriffsfertigkeiten werden deaktiviert (8...4 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Expunge Enchantments",
+				"description": "Skill. Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 8...4 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
+				"concise": "Touch Skill. Removes one enchantment for each non-attack skill you have. All your non-attack skills are disabled (8...4 seconds)."
+			},
+			"en-gww": {
+				"name": "Expunge Enchantments",
 				"description": "Target foe loses 1 enchantment. All of your other non-attack skills are disabled for 8...4 seconds. For each skill disabled in this way, target touched foe loses 1 additional enchantment.",
 				"concise": "Touch Skill. Removes one enchantment for each non-attack skill you have. <gray>All your non-attack skills are disabled (8...4 seconds).</gray>"
 			},
+			"es": {
+				"name": "Cancelar encantamientos",
+				"description": "Habilidad. El enemigo objetivo pierde un encantamiento. Todas tus demás habilidades que no sean de ataque quedarán desactivadas durante 8...4 segundos. Por cada habilidad desactivada de esta manera, el enemigo objetivo tocado pierde 1 encantamiento extra.",
+				"concise": "Habilidad de toque. Eliminas un encantamiento por cada habilidad no de ataque que tengas. Todas tus habilidades que no sean de ataque están desactivadas (8...4 segundos)."
+			},
 			"fr": {
+				"name": "Censure d'Enchantements",
+				"description": "Compétence. La cible ennemie perd 1 enchantement. Toutes vos autres compétences n'étant pas des attaques sont inutilisables pendant 8...4 secondes. Pour chaque compétence désactivée de cette manière, la cible ennemie touchée perd 1 enchantement supplémentaire.",
+				"concise": "Compétence de toucher. Supprime un enchantement pour chaque compétence non offensive dont vous disposez. Toutes vos compétences non offensives sont désactivées (8...4 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Censure d'Enchantements",
 				"description": "La cible ennemie perd 1 enchantement. Toutes vos autres compétences n'étant pas des attaques sont inutilisables pendant 10...5 secondes. Pour chaque compétence désactivée de cette manière, la cible ennemie touchée perd 1 enchantement supplémentaire.",
 				"concise": "Supprime un enchantement pour chaque compétence non offensive dont vous disposez. <gray>Toutes vos compétences non offensive sont désactivées (10...5 secondes).</gray>"
+			},
+			"it": {
+				"name": "Sopprimi Incantesimi",
+				"description": "Abilità. L'obiettivo nemico perde 1 incantesimo. Tutte le altre abilità che hai equipaggiato (fatta eccezione per gli attacchi) vengono disattivate per 8...4 secondo[i]; per ogni abilità così disattivata, l'obiettivo nemico toccato perde 1 incantesimo in più.",
+				"concise": "Abilità a Tocco. Rimuove un incantesimo per ogni abilità equipaggiata (attacchi esclusi). Tutte le tue abilità (esclusi gli attacchi) sono disattivate (8...4 secondo[i])."
+			},
+			"jp": {
+				"name": "エクシパンジ エンチャント",
+				"description": "スキル： ターゲットした敵にかけられている強化スペルを1個解除します。プレイヤーはアタック スキル以外のスキルを 8...4 秒間使用することができなくなります。この効果により使用することのできなくなったスキルごとに、接触した敵にかけられている強化スペルをさらに1個解除します。",
+				"concise": "スキル (接触)： プレイヤーが装備しているアタック スキル以外のスキルごとに、強化スペルを1個解除します。プレイヤーはアタック スキル以外のスキルを使用することができなくなります (8...4 秒)。"
+			},
+			"kr": {
+				"name": "강화 말소",
+				"description": "스킬. 대상 지정: 적. 대상에 걸린 강화 마법 하나를 무효화합니다. 8...4초 동안 자신의 다른 비공격 스킬을 사용할 수 없습니다. 사용할 수 없는 스킬 하나당 대상의 강화 마법 하나를 추가로 무효화합니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "스킬(접근용). 자신의 비공격 스킬 하나당 대상의 강화 마법 하나를 무효화합니다. 자신의 비공격 스킬 재활성 시간이 늘어납니다.(8...4초)"
+			},
+			"pl": {
+				"name": "Przegnanie Zaklęć",
+				"description": "Umiejętność. Wybrany przeciwnik traci 1 zaklęcie. Wszystkie twoje pozostałe umiejętności, nie związane z atakowaniem, zostają wyłączone na 8...4 sek. Za każdą umiejętność wyłączoną w ten sposób, wybrany dotknięty przeciwnik traci jedno dodatkowe zaklęcie.",
+				"concise": "Umiejętność dotykowa. Zdejmuje jedno zaklęcie na każdą umiejętność nie związaną z atakami, którą posiadasz. Wszystkie twoje umiejętności nie związane z atakami są wyłączone (8...4 sek.)."
+			},
+			"ru": {
+				"name": "Expunge Enchantments",
+				"description": "Умение. Выбранный противник теряет одни чары. Все ваши остальные неатакующие умения становятся недоступными на 8...4 сек. За каждое умение, ставшее недоступным, выбранный противник, до которого вы дотронулись, теряет дополнительно одни наложенные на него чары.",
+				"concise": "Умение прикосновения. Снимает одни чары за каждое имеющееся у вас неатакующее умение. Все ваши неатакующие умения будут недоступны (8...4 сек)."
+			},
+			"bork": {
+				"name": "Ixpoonge-a Inchuntments",
+				"description": "Skeell. Taerget fue-a luses 1 inchuntment. Aell ooff yuoor oozeer nun-aettaeck skeells aere-a deesaebled fur 8...4 secunds. Fur iaech skeell deesaebled in thees vaey, taerget tuooched fue-a luses 1 aeddeeshunael inchuntment.",
+				"concise": "Tuooch Skeell. Remufes oone-a inchuntment fur iaech nun-aettaeck skeell yuoo haefe-a. Aell yuoor nun-aettaeck skeells aere-a deesaebled (8...4 secunds)."
 			}
 		}
 	}

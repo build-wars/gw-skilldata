@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致残匕首",
+				"description": "咒文。 对目标敌人射出一把致残的匕首，命中时使其受到15...60点地系伤害,并使移动中的敌人遭受「致残」症状3...15秒。此技能的施放距离只有正常技能的一半。",
+				"concise": "半程法术。 对目标敌人射出一把致残的匕首，命中时使其受到 15...60点 地系伤害，并且遭受「致残」症状 3...15秒。此技能的施放距离只有正常技能的一半。"
+			},
+			"cht": {
+				"name": "致殘匕首",
+				"description": "咒文魔法： 對目標敵人射出殘廢匕首，命中時造成 15...60 土系傷害並且使移動中的敵人遭受「殘廢」病症 3...15 秒。此魔法的有效施展距離是平常的一半。",
+				"concise": "半距魔法： 對目標敵人射出殘廢匕首，命中時造成 15...60 土系傷害並且使移動中的敵人遭受「殘廢」病症 3...15 秒。此魔法的有效施展距離是平常的一半。"
+			},
 			"de": {
+				"name": "Verkrüppelnder Dolch",
+				"description": "Zauber. Ein Verkrüppelnder Dolch fliegt auf den Gegner zu. Verkrüppelnder Dolch fügt bei einem Treffer 15...60 Punkt[e] Erdschaden zu und verkrüppelt sich bewegende Feinde 3...15 Sekunde[n] lang. Dieser Zauber hat nur die halbe Reichweite.",
+				"concise": "Mitteldistanz-Zauber. Geschoss: Richtet 15...60 Punkt[e] Erdschaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunde[n]), falls der Gegner sich bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelnder Dolch",
 				"description": "Ein Verkrüppelnder Dolch fliegt auf den Gegner zu. Verkrüppelnder Dolch fügt bei einem Treffer 15...60 Punkte Erdschaden zu und verkrüppelt sich bewegende Feinde 3...15 Sekunden lang. Dieser Zauber hat nur die halbe Reichweite.",
 				"concise": "Geschoss: Richtet 15...60 Punkte Erdschaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunden), falls der Gegner sich bewegt."
 			},
 			"en": {
 				"name": "Crippling Dagger",
+				"description": "Spell. Send out a Crippling Dagger at target foe. Crippling Dagger strikes for 15...60 earth damage if it hits, and Cripples moving foes for 3...15 seconds. This spell has half the normal range.",
+				"concise": "Half Range Spell. Projectile: deals 15...60 earth damage. Inflicts Crippled condition (3...15 seconds) if target foe is moving."
+			},
+			"en-gww": {
+				"name": "Crippling Dagger",
 				"description": "Send out a Crippling Dagger at target foe. Crippling Dagger strikes for 15...60 earth damage if it hits, and Cripples moving foes for 3...15 seconds. This spell has half the normal range.",
 				"concise": "Half Range Spell. Projectile: deals 15...60 earth damage. Inflicts Crippled condition (3...15 seconds) if target foe is moving."
 			},
+			"es": {
+				"name": "Daga lisiadora",
+				"description": "Conjuro. Envías una Daga lisiadora al enemigo objetivo, que le hará 15...60 de daño de tierra y le dejará lisiado durante 3...15 segundos si estaba en movimiento. Este conjuro tiene la mitad de alcance de lo normal.",
+				"concise": "Conjuro con mitad de alcance. Proyectil: hace +15...60 de daño de tierra. Causa lisiadura (3...15 segundos) si el enemigo objetivo está moviéndose."
+			},
 			"fr": {
+				"name": "Dague d'Infirmité",
+				"description": "Sort. Vous envoyez une Dague d'Infirmité sur la cible ennemie. L'attaque inflige 15...60 points de dégâts de la terre si elle réussit, et cause l'Infirmité chez les ennemis en mouvement pendant 3...15 secondes. La portée de ce sort est deux fois plus courte.",
+				"concise": "Sort de moitié de portée. Projectile : inflige 15...60 points de dégâts de la terre. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est en mouvement."
+			},
+			"fr-gwiki": {
 				"name": "Dague d'Infirmité",
 				"description": "Vous envoyez une Dague d'Infirmité sur la cible ennemie. L'attaque inflige 15...60 points de dégâts de la terre si elle réussit, et cause l'Infirmité chez les ennemis en mouvement pendant 3...15 secondes. La portée de ce sort est deux fois plus courte.",
 				"concise": "Projectile : inflige 15...60 points de dégâts de la terre. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est en mouvement."
+			},
+			"it": {
+				"name": "Pugnale Azzoppante",
+				"description": "Magia. Scagli contro l'obiettivo nemico un Pugnale Azzoppante che infligge 15...60 danno[i] da terra se va a segno e rende storpi i nemici in movimento per 3...15 secondo[i]. La portata di questa magia è la metà del normale.",
+				"concise": "Magia a Portata Dimezzata. Proiettile. Danni da terra: 15...60. Condizione inflitta se l'obiettivo nemico si sta muovendo: Storpiatura (3...15 secondo[i])."
+			},
+			"jp": {
+				"name": "クリップル ダガー",
+				"description": "スペル： ターゲットした敵に、命中すると 15...60 のアース ダメージを与えるダガーを投げつけます。移動中の敵は 3...15 秒間「不自由」状態になります。このスペルの射程は通常の半分です。",
+				"concise": "スペル (半分の効果範囲)： 遠投攻撃： 15...60 のアース ダメージを与えます。ターゲットした敵が移動中の場合、「不自由」状態にします (3...15 秒)。"
+			},
+			"kr": {
+				"name": "속박의 비수",
+				"description": "마법. 대상 지정: 적. 대상에게 속박의 비수를 날립니다. 명중하면 대상은 15...60의 대지 대미지를 입고, 이동 중이던 대상에게 명중하면 3...15초 동안 다리 부상 상태가 됩니다. 이 스킬은 사정거리가 다른 스킬의 절반입니다.",
+				"concise": "마법(사거리 절반). 발사체: 15...60의 대지 대미지를 줍니다. 대상이 이동 중이면 다리 부상을 입힙니다.(3...15초)"
+			},
+			"pl": {
+				"name": "Okulawiający Sztylet",
+				"description": "Czar. Rzuć Okulawiający Sztylet w wybranego przeciwnika. Jeżeli atak trafi, Okulawiający Sztylet zadaje 15...60 pkt. obrażeń od ziemi oraz okulawia poruszających się przeciwników na 3...15 sek. Ten czar posiada zasięg dwa razy mniejszy niż zwykły czar.",
+				"concise": "Czar o połowie zasięgu. Pocisk: zadaje 15...60 pkt. obrażeń od ziemi. Wywołuje przypadłość okulawienie (3...15 sek.), jeżeli wybrany przeciwnik porusza się."
+			},
+			"ru": {
+				"name": "Crippling Dagger",
+				"description": "Заклинание. Бросок калечащим кинжалом по выбранному противнику. Crippling Dagger наносит 15...60 ед. урона силой земли при попадании в цель, а если противник двигался, то он будет хромать в течение 3...15 сек. Это заклинание имеет меньшую дальность, чем обычные заклинания.",
+				"concise": "Заклинание на среднее расстояние. Метательный снаряд: наносит 15...60 ед. урона силой земли. Вызывает хромоту (3...15 сек), если выбранный противник двигался."
+			},
+			"bork": {
+				"name": "Creeppleeng Daegger",
+				"description": "Spell. Send oooot a Creeppleeng Daegger aet taerget fue-a. Creeppleeng Daegger streekes fur 15...60 iaert daemaege-a iff it heets, und Creepples mufeeng fues fur 3...15 secunds. Thees spell haes haelff zee nurmael runge-a.",
+				"concise": "Haelff Runge-a Spell. Prujecteele-a: deaels 15...60 iaert daemaege-a. Inffleects Creeppled cundeeshun (3...15 secunds) iff taerget fue-a is mufeeng."
 			}
 		}
 	}

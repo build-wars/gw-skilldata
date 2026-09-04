@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "食腐兽的哀嚎",
+				"description": "战吼。 在10...25秒之内，使你的宠物获得24点护甲值，而它们的攻击将无法被格挡。",
+				"concise": "战吼。 使范围内的所有动物对你的目标敌人产生敌意，同时所有动物在 30秒内护甲值提高20点。此技能对已被诱捕的宠物无效（「野兽大师」属性投入在 4点 以下时，此技能有 50% 的几率失败。）"
+			},
+			"cht": {
+				"name": "食腐獸的吶喊",
+				"description": "戰嚎： 持續 10...25 秒，你的寵物增加 24 防禦且無法被「格擋」。",
+				"concise": "戰嚎： 使範圍內的所有動物對你的目標產生敵意，同時所有動物在 30 秒內增加 20 防禦。食腐獸的吶喊無法令已經被迷魅的動物對自己的主人及隊友產生敵意。（野獸支配 4 以下有 50% 技能失敗機率）"
+			},
 			"de": {
+				"name": "Otyughs Schrei",
+				"description": "Schrei. 10...25 Sekunde[n] lang erhält Euer Tiergefährte +24 Rüstung und kann nicht geblockt werden.",
+				"concise": "Schrei. 10...25 Sekunde[n]: Euer Tiergefährte hat +24 Rüstung und seine Angriffe können nicht geblockt werden."
+			},
+			"de-guildwiki": {
 				"name": "Otyughs Schrei",
 				"description": "10...25 Sekunden lang hat euer Tiergefährte +24 Rüstung und kann nicht geblockt werden.",
 				"concise": "10...25 Sekunden: Euer Tiergefährte hat +24 Rüstung und seine Angriffe können nicht geblockt werden."
 			},
 			"en": {
 				"name": "Otyugh's Cry",
+				"description": "Shout. For 10...25 seconds, your animal companion gains +24 armor and cannot be blocked.",
+				"concise": "Shout. (10...25 seconds.) Your pet has +24 armor and is unblockable."
+			},
+			"en-gww": {
+				"name": "Otyugh's Cry",
 				"description": "For 10...25 seconds, your animal companion gains +24 armor and cannot be blocked.",
 				"concise": "(10...25 seconds.) Your pet has +24 armor and is unblockable."
 			},
+			"es": {
+				"name": "Grito de Otyugh",
+				"description": "Grito. Durante 10...25 segundos, tu compañero animal gana +24 de armadura y no se le puede bloquear.",
+				"concise": "Grito. (10...25 segundos). Tu mascota tiene +24 de armadura y no la pueden bloquear."
+			},
 			"fr": {
+				"name": "Cri d'Otyugh",
+				"description": "Cri. Pendant 10...25 secondes, votre familier bénéficie d'un bonus d'armure de +24 et ne peut pas être bloqué.",
+				"concise": "Cri. (10...25 secondes.) Votre familier bénéficie d'un bonus d'armure de +24 et ses attaques ne peuvent être bloquées."
+			},
+			"fr-gwiki": {
 				"name": "Cri d'Otyugh",
 				"description": "Pendant 10...25 secondes, votre familier bénéficie d'un bonus d'armure de +24 et ne peut pas être bloqué.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Urlo di Otyugh",
+				"description": "Urlo. Per 10...25 secondo[i], la tua mascotte ottiene +24 di armatura e non può essere bloccata.",
+				"concise": "Urlo. (Secondi: 10...25) La tua mascotte ha +24 di armatura e non può essere bloccata."
+			},
+			"jp": {
+				"name": "オチュー クライ",
+				"description": "シャウト： 10...25 秒間、プレイヤーのペットは防御力が 24 増加し、攻撃がブロックされません。",
+				"concise": "シャウト： (10...25 秒) ペットの防御力が 24 増加し、攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "오튜의 포효",
+				"description": "고함. 대상 지정: 없음. 10...25초 동안 펫의 방어력이 20 증가하고, 펫의 공격은 적이 막을 수 없습니다.",
+				"concise": "고함. (10...25초) 펫의 방어력이 24 증가하고, 펫의 공격은 적이 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Ryk Otyugha",
+				"description": "Okrzyk. Przez 10...25 sek., twój zwierzęcy towarzysz posiada +24 pkt. pancerza, dodatkowo jego ataków nie można zablokować.",
+				"concise": "Okrzyk. (10...25 sek.) Twój zwierzęcy towarzysz ma +24 pkt. pancerza, a jego ataków nie można blokować."
+			},
+			"ru": {
+				"name": "Otyugh's Cry",
+				"description": "Крик. В течение 10...25 сек защита сопровождающего вас животного увеличивается на 24 ед., и его атаки не могут быть блокированы.",
+				"concise": "Крик. (10...25 сек) Ваш питомец получает +24 ед. к защите, и его атаки нельзя блокировать."
+			},
+			"bork": {
+				"name": "Ootyoogh's Cry",
+				"description": "Shuoot. Fur 10...25 secunds, yuoor uneemael cumpuneeun gaeeens +24 aermur und cunnut be-a blucked. Bork! Bork! Bork!",
+				"concise": "Shuoot. (10...25 secunds.) Yuoor pet haes +24 aermur und is unbluckaeble-a."
 			}
 		}
 	}

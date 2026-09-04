@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "制裁纹章",
+				"description": "精英纹章。 击倒目标敌人，并且使目标及其所有邻近的敌人受到5...50点神圣伤害。",
+				"concise": "Elite Half Range Signet。 击倒目标敌人，并且使目标及其所有邻近的敌人受到5...50点神圣伤害。"
+			},
+			"cht": {
+				"name": "制裁紋章",
+				"description": "精英紋章： 擊倒目標，對目標以及鄰近敵人造成5...50神聖傷害，此技能的施展距離為普通的一半。",
+				"concise": "Elite Half Range Signet： 擊倒目標，對目標以及鄰近敵人造成5...50神聖傷害，此技能的施展距離為普通的一半。"
+			},
 			"de": {
+				"name": "Siegel des Urteils (PvP)",
+				"description": "Elite-Siegel. Der Gegner wird zu Boden geworfen. Er und alle umstehenden Feinde erleiden 5...50 Punkt[e] heiligen Schaden. Dieses Siegel hat nur die halbe Reichweite.",
+				"concise": "Elite-Mitteldistanz-Siegel. Wirft Gegner zu Boden. Richtet beim Gegner und umstehenden Feinden 5...50 Punkt[e] heiligen Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des Urteils (PvP)",
 				"description": "Der Gegner wird zu Boden geworfen. Er und alle umstehenden Feinde erleiden 5...50 Punkte heiligen Schaden. Dieses Siegel hat nur halbe Reichweite.",
 				"concise": "Wirft Gegner zu Boden<sic/>. Richtet beim Gegner und umstehenden Feinden 5...50 Punkte heiligen Schaden an."
 			},
 			"en": {
 				"name": "Signet of Judgment (PvP)",
+				"description": "Elite Signet. Target foe is knocked down. That foe and all adjacent foes take 5...50 holy damage. This signet has half the normal range.",
+				"concise": "Elite Half Range Signet. Knocks down target. Deals 5...50 holy damage to target and adjacent foes."
+			},
+			"en-gww": {
+				"name": "Signet of Judgment (PvP)",
 				"description": "Target foe is knocked down. That foe and all adjacent foes take 5...50 holy damage. This signet has half the normal range.",
 				"concise": "Elite Half Range Signet. Knocks down target. Deals 5...50 holy damage to target and adjacent foes."
 			},
+			"es": {
+				"name": "Sello del juicio (PvP)",
+				"description": "Sello de élite. Derribas al enemigo objetivo. Ese enemigo y todos los adyacentes reciben 5...50 de daño sagrado. Este sello tiene la mitad de alcance de lo normal.",
+				"concise": "Sello de élite con mitad de alcance. Derriba al objetivo. Hace 5...50 de daño sagrado al enemigo objetivo y los adyacentes."
+			},
 			"fr": {
+				"name": "Sceau du jugement (PvP)",
+				"description": "Sceau d'élite. La cible ennemie est assommée. Elle subit 5...50 points de dégâts sacrés, ainsi que les ennemis adjacents. Sa portée est la moitié de celle d'un sceau normal.",
+				"concise": "Sceau de moitié de portée d'élite. Assomme la cible. Inflige 5...50 points de dégâts sacrés à la cible et aux ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du jugement (PvP)",
 				"description": "L'ennemi est assommé. Il subit 5...50 points de dégâts sacrés, ainsi que les ennemis adjacents.",
 				"concise": "Assomme la cible. Inflige 5...50 points de dégâts sacrés à la cible et aux ennemis adjacents."
+			},
+			"it": {
+				"name": "Sigillo del Giudizio (PvP)",
+				"description": "Sigillo d'Élite. L'obiettivo nemico viene buttato a terra e sia lui che tutti i nemici adiacenti subiscono 5...50 danno[i] sacro[i]. La portata di questo Sigillo è la metà del normale.",
+				"concise": "Sigillo d'Élite a Portata Dimezzata. Abbatte l'obiettivo. Danni sacri all'obiettivo e ai nemici adiacenti: 5...50."
+			},
+			"jp": {
+				"name": "ジャッジ シグネット (PvP)",
+				"description": "エリート シグネット： ターゲットした敵が転倒します。その敵および隣接するすべての敵に 5...50 の神聖ダメージを与えます。このシグネットの効果範囲は通常の半分です。",
+				"concise": "エリート シグネット (半分の効果範囲)： ターゲットした敵が転倒します。ターゲットおよび隣接する敵に 5...50 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "천벌 인장(대인전)",
+				"description": "엘리트 인장. 대상 지정: 적. 대상을 넘어뜨리고 대상과 그에 인접한 모든 적에게 5...50의 신성 대미지를 줍니다. 사정 거리가 다른 스킬의 절반입니다.",
+				"concise": "엘리트 인장(사거리 절반). 대상을 바닥에 넘어뜨리고, 대상과 그에 인접한 적들에게 5...50의 신성 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Osądu (PvP)",
+				"description": "Sygnet elitarny. Cel zostaje powalony. Wybrany przeciwnik i wszyscy przeciwnicy przy nim otrzymują 5...50 pkt. świętych obrażeń. Sygnet ma połowę normalnego zasięgu.",
+				"concise": "Elitarny sygnet o połowie zasięgu. Powala cel. Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 5...50 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Signet of Judgment (PvP)",
+				"description": "Элитная печать. Выбранный противник будет сбит с ног. Он и все окружающие его противники получат 5...50 ед. урона святой силой. У этой печати вдвое меньше радиус действия.",
+				"concise": "Элитная печать на среднее расстояние. Сбивает с ног. Наносит 5...50 ед. урона святой силой выбранному и окружающим противникам."
+			},
+			"bork": {
+				"name": "Seegnet ooff Joodgment (PfP)",
+				"description": "Ileete-a Seegnet. Taerget fue-a is knucked doon. Thaet fue-a und aell aedjaecent fues taeke-a 5...50 huly daemaege-a. Thees seegnet haes haelff zee nurmael runge-a.",
+				"concise": "Ileete-a Haelff Runge-a Seegnet. Knucks doon taerget. Deaels 5...50 huly daemaege-a tu taerget und aedjaecent fues."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "萎靡",
+				"description": "负面魔法。 在5...35秒之内，使目标敌人遭受2点「能量衰减」，而你遭受2点「生命衰减」。当目标敌人能量为零时，「萎靡」自然消失，并对其造成5...50点伤害。",
+				"concise": "负面魔法。 在5...35秒之内，使目标敌人遭受1点「能量衰减」，而你遭受2点「生命衰减」。当目标敌人能量为零时，「萎靡」自然消失，并对其造成5...50点伤害。"
+			},
+			"cht": {
+				"name": "萎靡不振",
+				"description": "降咒魔法： 持續 5...35 秒，目標敵人遭受能量衰減 1，而你遭受體力衰減 1。 當目標敵人能量成為 0 時，該目標受到 5...50 傷害而萎靡不振的效果終止。",
+				"concise": "降咒魔法： 持續 5...35 秒，目標敵人遭受能量衰減 1，而你遭受體力衰減 2。 當目標敵人能量成為 0 時，該目標受到 5...50 傷害而萎靡不振的效果終止。"
+			},
 			"de": {
+				"name": "Unwohlsein",
+				"description": "Verhexung. 5...35 Sekunde[n] lang unterliegt der Gegner einer Energiedegeneration von -1 und Ihr erleidet eine Lebenspunktdegeneration von -1. Wenn die Energie des Gegners auf 0 gefallen ist, erleidet er 5...50 Punkt[e] Schaden und Unwohlsein endet.",
+				"concise": "Verhexung. 5...35 Sekunde[n]: Verursacht -1 Energiedegeneration. Richtet 5...50 Punkt[e] Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. Ihr habt -1 Lebenspunktdegeneration. Endet, wenn die Energiepunkte des Gegners auf 0 sinken."
+			},
+			"de-guildwiki": {
 				"name": "Unwohlsein",
 				"description": "5...35 Sekunden lang unterliegt der Gegner einer Energiedegeneration von -1 und Ihr erleidet eine Lebenspunktdegeneration von -1. Wenn die Energie des Gegners auf 0 gefallen ist, erleidet er 5...50 Punkte Schaden und Unwohlsein endet.",
 				"concise": "5...35 Sekunden: Verursacht -1 Energiedegeneration. Richtet 5...50 Punkte Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. <gray>Ihr habt -1 Lebenspunktdegeneration. Endet, wenn die Energiepunkte des Gegners auf 0 sinken.</gray>"
 			},
 			"en": {
 				"name": "Malaise",
+				"description": "Hex Spell. For 5...35 seconds, target foe suffers -1 Energy degeneration and you suffer -1 Health degeneration. If target foe's Energy reaches 0, that foe takes 5...50 damage and Malaise ends.",
+				"concise": "Hex Spell. (5...35 seconds.) Causes -1 Energy degeneration. Deals 5...50 damage if target foe's Energy drops to 0. You have -1 Health degeneration. Ends if this foe's Energy drops to 0."
+			},
+			"en-gww": {
+				"name": "Malaise",
 				"description": "For 5...35 seconds, target foe suffers -1 Energy degeneration and you suffer -1 Health degeneration. If target foe's Energy reaches 0, that foe takes 5...50 damage and Malaise ends.",
 				"concise": "(5...35 seconds.) Causes -1 Energy degeneration. Deals 5...50 damage if target foe's Energy drops to 0. <gray>You have -1 Health degeneration. Ends if this foe's Energy drops to 0.</gray>"
 			},
+			"es": {
+				"name": "Malestar",
+				"description": "Conjuro con maleficio. Durante 5...35 segundos, el enemigo objetivo sufre una degeneración de -1 de energía y tú una degeneración de -1 de salud. Si la energía del enemigo objetivo llega a 0, el Malestar finalizará y el enemigo recibirá 5...50 de daño.",
+				"concise": "Conjuro con maleficio. (5...35 segundos). Causa -1 de degeneración de energía. Hace 5...50 de daño si la energía del enemigo objetivo cae a 0. Tienes -1 de degeneración de salud. Acaba si la energía del enemigo objetivo cae a 0."
+			},
 			"fr": {
+				"name": "Malaise",
+				"description": "Maléfice. Pendant 5...35 secondes, la cible ennemie subit une dégénération d'énergie de -1 et vous subissez une dégénération de santé de -1. Si l'énergie de l'ennemi visé devient nulle, il subit 5...50 points de dégâts et Malaise prend fin.",
+				"concise": "Maléfice. (5...35 secondes.) Provoque une dégénération d'énergie de -1. Inflige 5...50 points de dégâts si l'énergie de l'ennemi visé tombe à 0. Vous subissez une dégénération de santé de -1. Prend fin si l'énergie de l'ennemi visé tombe à 0."
+			},
+			"fr-gwiki": {
 				"name": "Malaise",
 				"description": "Pendant 5...35 secondes, la cible ennemie subit une dégénération d'énergie de -1 et vous subissez une dégénération de santé de -1. Si l'énergie de l'ennemi visé devient nulle, il subit 5...50 points de dégâts et Malaise prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Malessere",
+				"description": "Fattura. Per 5...35 secondo[i], l'obiettivo nemico subisce una Degenerazione Energia di -1 e tu una Degenerazione Salute di -1; se l'Energia dell'obiettivo nemico scende a 0, quel nemico subisce 5...50 danno[i] e Malessere termina.",
+				"concise": "Fattura. (Secondi: 5...35) Degenerazione Energia: -1. Danni inferti se l'Energia dell'obiettivo nemico scende a 0: 5...50. Degenerazione tua Salute: -1. Termina se l'Energia di questo nemico scende a 0."
+			},
+			"jp": {
+				"name": "マレイズ",
+				"description": "弱体化スペル： 5...35 秒間、ターゲットした敵はエネルギーの自然回復力が1減少し、プレイヤーは体力の自然回復力が1減少します。ターゲットした敵のエネルギーが0になると、その敵に 5...50 のダメージを与え、この効果は消失します。",
+				"concise": "弱体化スペル： (5...35 秒) ターゲットした敵はエネルギーの自然回復力が1減少し、エネルギーが0になると 5...50 のダメージを受けます。プレイヤーは体力の自然回復力が1減少します。ターゲットのエネルギーが0になると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "무기력 전염",
+				"description": "약화 마법. 대상 지정: 적. 5...35초 동안 대상의 에너지 재생을 1 감소시킵니다. 자신의 체력 재생도 2 감소합니다. 대상의 에너지가 0이 되면 대상은 5...50의 대미지를 입고 효과가 끝납니다.",
+				"concise": "약화 마법. (5...35초) 대상의 에너지 재생을 1 감소시키고, 대상의 에너지가 0이 되면 5...50의 대미지를 줍니다. 자신의 체력 재생이 1 감소하고, 대상의 체력이 0이 되면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Niemoc",
+				"description": "Klątwa (czar). Przez 5...35 sek., wybrany przeciwnik posiada degenerację energii -1, zaś ty posiadasz degeneracją żywotności -1. Jeżeli energia wybranego przeciwnika dojdzie do 0, otrzyma on 5...50 pkt. obrażeń, a Niemoc przestanie działać.",
+				"concise": "Klątwa (czar). (5...35 sek.) Powoduje degenerację energii -1. Zadaje 5...50 pkt. obrażeń, jeżeli energia wybranego przeciwnika spadnie do 0. Posiadasz degenerację żywotności -1. Przestanie działać, jeśli energia tego przeciwnika spadnie do 0."
+			},
+			"ru": {
+				"name": "Malaise",
+				"description": "Заклинание-проклятье. В течение 5...35 сек скорость восстановления энергии у выбранного противника уменьшается на 1 ед., а ваша скорость восстановления здоровья уменьшается на 1 ед. Если энергия у противника достигает 0, он получает 5...50 ед. урона, а Malaise прекращает свое действие",
+				"concise": "Заклинание-проклятье. (5...35 сек) Уменьшает на 1 ед. скорость восстановления энергии. Наносит 5...50 ед. урона, если у выбранного противника энергия падает до 0. Вы получаете -1 ед. к скорости восстановления здоровья. Заканчивается, если у этого противника энергия падает до 0."
+			},
+			"bork": {
+				"name": "Maelaeeese-a",
+				"description": "Hex Spell. Fur 5...35 secunds, taerget fue-a sooffffers -1 Inergy degeneraeshun und yuoo sooffffer -1 Heaelt degeneraeshun. Iff taerget fue-a's Inergy reaeches 0, thaet fue-a taekes 5...50 daemaege-a und Maelaeeese-a inds. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (5...35 secunds.) Cooses -1 Inergy degeneraeshun. Deaels 5...50 daemaege-a iff taerget fue-a's Inergy drups tu 0. Yuoo haefe-a -1 Heaelt degeneraeshun. Inds iff thees fue-a's Inergy drups tu 0."
 			}
 		}
 	}

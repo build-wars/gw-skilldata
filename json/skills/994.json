@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恢复猛击",
+				"description": "锤术。 命中时对目标造成 10...40 额外伤害，并且使你的所有「战士姿态」类型技能恢复。",
+				"concise": "锤术。 命中时对目标造成 10...40 额外伤害，并且使你的所有「战士姿态」类型技能恢复。"
+			},
+			"cht": {
+				"name": "復原猛擊",
+				"description": "鎚術攻擊技能： 命中時造成 10...40 額外傷害，若是目標被擊倒，則你獲得 3 能量且復原猛擊立即回復。",
+				"concise": "鎚術攻擊技能： 命中時造成 10...40 額外傷害，若是目標被擊倒，則你獲得 3 能量且復原猛擊立即回復。"
+			},
 			"de": {
+				"name": "Erneuernder Schlag",
+				"description": "Hammerangriff. Wenn Erneuernder Schlag trifft, fügt er +10...40 Punkt[e] Schaden zu. Wenn Ihr einen zu Boden geworfenen Feind trefft, erhaltet Ihr 3 Energiepunkt[e] und dieser Angriff wird sofort wieder aufgeladen.",
+				"concise": "Hammerangriff. Richtet +10...40 Punkt[e] Schaden an. Ihr erhaltet 3 Energiepunkt[e] und dieser Angriff wird sofort wieder aufgeladen, wenn der Gegner zu Boden geworfen wurde."
+			},
+			"de-guildwiki": {
 				"name": "Erneuernder Schlag",
 				"description": "Wenn Erneuernder Schlag trifft, fügt er +10...40 Punkte Schaden zu. Wenn Ihr einen zu Boden geworfenen Feind trefft, erhaltet Ihr 3 Energiepunkte und dieser Angriff wird sofort wieder aufgeladen.",
 				"concise": "Richtet +10...40 Punkte Schaden an. Ihr erhaltet 3 Energiepunkte und dieser Angriff wird sofort wieder aufgeladen, wenn der Gegner zu Boden geworfen wurde."
 			},
 			"en": {
 				"name": "Renewing Smash",
+				"description": "Hammer Attack. If Renewing Smash hits, it deals +10...40 damage. If you hit a knocked-down foe, you gain 3 Energy and this attack recharges instantly.",
+				"concise": "Hammer Attack. Deals +10...40 damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down."
+			},
+			"en-gww": {
+				"name": "Renewing Smash",
 				"description": "If Renewing Smash hits, it deals +10...40 damage. If you hit a knocked-down foe, you gain 3 Energy and this attack recharges instantly.",
 				"concise": "Deals +10...40 damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down."
 			},
+			"es": {
+				"name": "Golpe renovador",
+				"description": "Ataque con martillo. Si impacta, el Golpe renovador hace +10...40 de daño. Si golpeas a un enemigo derribado, ganas 3 de energía y esta habilidad se recargará instantáneamente.",
+				"concise": "Ataque con martillo. Hace +10...40 de daño. Ganas 3 de energía y esta habilidad se recargará instantáneamente si el enemigo estaba derribado."
+			},
 			"fr": {
+				"name": "Coup de renouvellement",
+				"description": "Attaque au marteau. Si Coup de renouvellement réussit, il inflige +10...40 points de dégâts. Si vous frappez un ennemi assommé, vous gagnez 3 points d'énergie et cette attaque se recharge instantanément.",
+				"concise": "Attaque au marteau. Inflige +10...40 points de dégâts. Vous gagnez 3 points d'énergie et cette attaque se recharge instantanément si la cible ennemie était assommée."
+			},
+			"fr-gwiki": {
 				"name": "Coup de renouvellement",
 				"description": "Si le Coup de renouvellement réussit, il inflige +10...40 points de dégâts. Si vous frappez un ennemi assommé, vous gagnez 3 points d'énergie, et cette compétence se recharge instantanément.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Percossa Rinnovatrice",
+				"description": "Attacco con Martello. Se Percossa Rinnovatrice va a segno, infligge +10...40 danno[i]. Se colpisci un nemico a terra, ottieni 3 Punto[i] Energia; questo attacco si ricarica istantaneamente.",
+				"concise": "Attacco con Martello. Danni inferti: +10...40. Ottieni 3 Punto[i] Energia e questo attacco si ricarica istantaneamente se il nemico è a terra."
+			},
+			"jp": {
+				"name": "リニュー スマッシュ",
+				"description": "ハンマー アタック： 攻撃が成功すると 10...40 の追加ダメージを与えます。敵が転倒中の場合、プレイヤーは 3 のエネルギーを獲得し、このスキルをすぐに再使用することができます。",
+				"concise": "ハンマー アタック： 10...40 の追加ダメージを与えます。ターゲットした敵が転倒中の場合、プレイヤーは 3 のエネルギーを獲得し、このアタック スキルをすぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "회복의 휘두르기",
+				"description": "해머 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...40의 대미지를 추가로 줍니다. 바닥에 넘어진 적에게 공격이 성공하면 3의 에너지를 얻고, 이 스킬이 즉시 재활성됩니다.",
+				"concise": "해머 공격. 10...40의 대미지를 추가로 줍니다. 대상이 바닥에 넘어져 있으면 3의 에너지를 얻고, 이 스킬이 즉시 재활성됩니다."
+			},
+			"pl": {
+				"name": "Cios Odnowy",
+				"description": "Atak młotem. Jeśli Cios Odnowy trafi, zadaje +10...40 pkt. obrażeń. Jeśli trafisz powalonego wroga, otrzymujesz 3 pkt. energii, a atak ten natychmiast się odnawia.",
+				"concise": "Atak młotem. Zadaje +10...40 pkt. obrażeń. Otrzymujesz 3 pkt. energii, zaś atak ten natychmiast się odnawia, jeśli wybrany przeciwnik był powalony."
+			},
+			"ru": {
+				"name": "Renewing Smash",
+				"description": "Атака молотом. Если этот удар попадает в цель, вы наносите дополнительно 10...40 ед. урона. Если вы наносите удар по сбитому с ног противнику, вы получаете 3 ед. энергии, а эта атака будет немедленно перезаряжена.",
+				"concise": "Атака молотом. Наносит дополнительно 10...40 ед. урона. Вы получаете 3 ед. энергии, и эта атака будет немедленно перезаряжена, если выбранный противник был сбит с ног."
+			},
+			"bork": {
+				"name": "Renooeeng Smaesh",
+				"description": "Haemmer Aettaeck. Iff Renooeeng Smaesh heets, it deaels +10...40 daemaege-a. Iff yuoo heet a knucked-doon fue-a, yuoo gaeeen 3 Inergy und thees aettaeck rechaerges instuntly.",
+				"concise": "Haemmer Aettaeck. Deaels +10...40 daemaege-a. Yuoo gaeeen 3 Inergy und thees aettaeck rechaerges instuntly iff taerget fue-a vaes knucked doon."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "乌木投射",
+				"description": "咒文。 对敌人进行投掷性攻击，命中时对其造成10...85点地系伤害。如果击中移动或攻击中的敌人，将使其遭受「虚弱」症状5...15秒。",
+				"concise": "咒文。 对敌人进行投掷性攻击，命中时对其造成10...85点地系伤害。如果击中移动或攻击中的敌人，将使其遭受「虚弱」症状5...15秒。"
+			},
+			"cht": {
+				"name": "烏木之鷹",
+				"description": "咒文魔法： 此技能為投射性攻擊，命中時對目標敵人造成10...85土系傷害，造成敵人虛弱5...15秒。",
+				"concise": "咒文魔法： 此技能為投射性攻擊，命中時對目標敵人造成10...85土系傷害，造成敵人虛弱5...15秒。"
+			},
 			"de": {
+				"name": "Ebonfalke",
+				"description": "Zauber. Sendet ein Geschoss aus, das dem Gegner 10...85 Punkt[e] Erdschaden zufügt und 5...15 Sekunde[n] lang Schwäche verursacht, wenn es trifft.",
+				"concise": "Zauber. Geschoss: Richtet 10...85 Punkt[e] Erdschaden an und verursacht Zustand Schwäche (5...15 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Ebonfalke",
 				"description": "Sendet ein Geschoss, das dem Gegner 10...85 Punkte Erdschaden zufügt und 5...15 Sekunden lang Schwäche verursacht, wenn es trifft.",
 				"concise": "Geschoss: Richtet 10...85 Punkte Erdschaden an und verursacht Zustand Schwäche (5...15 Sekunden)."
 			},
 			"en": {
 				"name": "Ebon Hawk",
+				"description": "Spell. Send a projectile that strikes target foe for 10...85 earth damage and causes Weakness for 5...15 seconds if it hits.",
+				"concise": "Spell. Projectile: deals 10...85 earth damage and inflicts Weakness condition (5...15 seconds)."
+			},
+			"en-gww": {
+				"name": "Ebon Hawk",
 				"description": "Send a projectile that strikes target foe for 10...85 earth damage and causes Weakness for 5...15 seconds if it hits.",
 				"concise": "Projectile: deals 10...85 earth damage and inflicts Weakness condition (5...15 seconds)."
 			},
+			"es": {
+				"name": "Halcón de ébano",
+				"description": "Conjuro. Lanza un proyectil que provoca 10...85 de daño de tierra en el objetivo y causa debilitamiento durante 5...15 segundos si alcanza al enemigo.",
+				"concise": "Conjuro. Proyectil: causa 10...85 de daño de tierra y provoca debilitamiento (5...15 segundos)."
+			},
 			"fr": {
+				"name": "Faucon d'ébène",
+				"description": "Sort. Vous envoyez un projectile qui inflige 10...85 points de dégâts de la terre et entraîne la Faiblesse pendant 5...15 secondes si elle réussit.",
+				"concise": "Sort. Projectile : inflige 10...85 points de dégâts de la terre et provoque la Faiblesse (5...15 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Faucon d'ébène",
 				"description": "Vous envoyez un projectile qui inflige 10...85 points de dégâts de la terre et entraine la Faiblesse pendant 5...15 secondes.",
 				"concise": "Projectile : Inflige 10...85 points de dégâts de la terre et provoque la Faiblesse (5...15 secondes)."
+			},
+			"it": {
+				"name": "Falco d'Ebano",
+				"description": "Magia. Lanci un proiettile che colpisce l'obiettivo nemico infliggendo 10...85 danni da terra. Se va a segno, provoca Debolezza per 5...15 secondi.",
+				"concise": "Magia. Proiettile: danni da terra inferti: 10...85. Condizione inflitta: Debolezza (secondi: 5...15)."
+			},
+			"jp": {
+				"name": "エボン ホーク",
+				"description": "スペル： ターゲットした敵に、命中すると 10...85 のアース ダメージを与えて 5...15 秒間「衰弱」状態にする攻撃を行います。",
+				"concise": "スペル： 遠投攻撃： 10...85 のアース ダメージを与えて「衰弱」状態にします (5...15 秒)。"
+			},
+			"kr": {
+				"name": "검은 매",
+				"description": "마법. 대상 지정: 적. 대상에게 발사체를 날려 명중하면 10...85의 대지 대미지를 주고, 5...15초 동안 약체 상태로 만듭니다.",
+				"concise": "마법. 발사체: 10...85의 대지 대미지를 주고, 중독시킵니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Hebanowy Jastrząb",
+				"description": "Czar. Wystrzeliwujesz pocisk, który po trafieniu zadaje wybranemu przeciwnikowi 10...85 pkt. obrażeń od ziemi i na 5...15 sek. powoduje u niego osłabienie.",
+				"concise": "Czar. Pocisk: zadaje 10...85 pkt. obrażeń i wywołuje osłabienie (5...15 sek.)."
+			},
+			"ru": {
+				"name": "Ebon Hawk",
+				"description": "Заклинание. Бросок метательным снарядом, который наносит 10...85 ед. урона силой земли и вызывает слабость на 5...15 сек в случае попадания.",
+				"concise": "Заклинание. Метательный снаряд: наносит 10...85 ед. урона силой земли и вызывает слабость (5...15 сек)."
+			},
+			"bork": {
+				"name": "Ibun Haevk",
+				"description": "Spell. Send a prujecteele-a thaet streekes taerget fue-a fur 10...85 iaert daemaege-a und cooses Veaekness fur 5...15 secunds iff it heets.",
+				"concise": "Spell. Prujecteele-a: deaels 10...85 iaert daemaege-a und inffleects Veaekness cundeeshun (5...15 secunds). Bork! Bork! Bork!"
 			}
 		}
 	}

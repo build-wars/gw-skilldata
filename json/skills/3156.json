@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "军士姿态",
+				"description": "精英姿态。 在4...10秒之内，当你受到「战吼」或「圣歌」效果影响时，使你的攻击速度提升33%。",
+				"concise": "精英姿态。 在4...10秒之内，当你受到「战吼」或「圣歌」效果影响时，使你的攻击速度提升33%。"
+			},
+			"cht": {
+				"name": "士兵態勢",
+				"description": "精英態勢： 持續 4...10 秒，若你擁有「聖歌」或「戰嚎」的效果，則你的攻擊速度加快 33% 。",
+				"concise": "精英態勢： 持續 4...10 秒，若你擁有「聖歌」或「戰嚎」的效果，則你的攻擊速度加快 33% 。"
+			},
 			"de": {
+				"name": "Soldaten-Haltung (PvP)",
+				"description": "Elite-Haltung. 4...10 Sekunde[n] lang greift Ihr um 33% schneller an, wenn Ihr mit einem Schrei oder Anfeuerungsruf belegt seid.",
+				"concise": "Elite-Haltung. (4...10 Sekunde[n].) Ihr greift um 33% schneller an, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht."
+			},
+			"de-guildwiki": {
 				"name": "Soldaten-Haltung (PvP)",
 				"description": "4...10 Sekunden lang greift Ihr um 33% schneller an, wenn Ihr mit einem Schrei oder Anfeuerungsruf belegt seid.",
 				"concise": "4...10 Sekunden: Ihr greift um 33% schneller an, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht."
 			},
 			"en": {
 				"name": "Soldier's Stance (PvP)",
+				"description": "Elite Stance. For 4...10 seconds, you attack 33% faster while under the effects of a shout or chant.",
+				"concise": "Elite Stance. (4...10 seconds.) You attack 33% faster while under the effects of a shout or chant."
+			},
+			"en-gww": {
+				"name": "Soldier's Stance (PvP)",
 				"description": "For 4...10 seconds, you attack 33% faster while under the effects of a shout or chant.",
 				"concise": "(4...10 seconds.) You attack 33% faster while under the effects of a shout or chant."
 			},
+			"es": {
+				"name": "Actitud del soldado (PvP)",
+				"description": "Actitud de élite. Durante 4...10 segundos, atacas un 33% más deprisa si estás bajo los efectos de un grito o cántico.",
+				"concise": "Actitud de élite. (4...10 segundos). Atacas un 33% más deprisa si estás bajo los efectos de un grito o cántico."
+			},
 			"fr": {
+				"name": "Pose du soldat (PvP)",
+				"description": "Pose de combat d'élite. Pendant 4...10 secondes, vous attaquez 33% plus vite lorsque que vous êtes sous l'effet d'un cri ou d'un chant.",
+				"concise": "Pose de combat d'élite. (4...10 secondes.) Vous attaquez 33% plus vite lorsque vous êtes sous l'effet d'un cri ou d'un chant."
+			},
+			"fr-gwiki": {
 				"name": "Pose du soldat (PvP)",
 				"description": "Pendant 4...10 secondes, vous attaquez 33% plus le vite lorsque que vous êtes sous l'effet d'un cri ou d'un chant.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione del Soldato (PvP)",
+				"description": "Posizione d'Élite. Per 4...10 secondo[i], la tua velocità d'attacco aumenta di un 33% mentre sei sotto l'influenza di un urlo o un canto.",
+				"concise": "Posizione d'Élite. (Secondo[i]: 4...10). Incremento velocità d'attacco mentre sei sotto gli effetti di un urlo o un canto: 33%."
+			},
+			"jp": {
+				"name": "ソルジャー スタンス (PvP)",
+				"description": "エリート スタンス： 4...10 秒間、シャウトもしくはチャントがかけられている場合、攻撃速度が 33% 増加します。",
+				"concise": "エリート スタンス： (4...10 秒) シャウトまたはチャントがかけられている場合、攻撃速度が 33% 増加します。"
+			},
+			"kr": {
+				"name": "병사의 전투 자세(대인전)",
+				"description": "엘리트 자세. 대상 지정: 없음. 4...10초 동안 고함이나 영창의 효과를 받으면 공격 속도가 33% 빨라집니다.",
+				"concise": "엘리트 자세. (4...10초) 고함이나 영창의 효과를 받으면 공격 속도가 33% 빨라집니다."
+			},
+			"pl": {
+				"name": "Postawa Żołnierza (PvP)",
+				"description": "Postawa elitarna. Przez 4...10 sek., kiedy będziesz pod działaniem okrzyku lub pieśni, atakujesz o 33% szybciej.",
+				"concise": "Postawa elitarna. (4...10 sek.) Atakujesz o 33% szybciej, jeżeli jesteś pod działaniem okrzyku lub pieśni."
+			},
+			"ru": {
+				"name": "Soldier's Stance (PvP)",
+				"description": "Элитная стойка. В течение 4...10 сек вы атакуете на 33% быстрее до тех пор, пока вы находитесь под влиянием какого-либо крика или хорала.",
+				"concise": "Элитная стойка. (4...10 сек) Вы атакуете на 33% быстрее, пока находитесь под воздействием крика или хорала."
+			},
+			"bork": {
+				"name": "Suldeeer's Stunce-a (PfP)",
+				"description": "Ileete-a Stunce-a. Fur 4...10 secunds, yuoo aettaeck 33% faester vheele-a under zee iffffects ooff a shuoot oor chunt.",
+				"concise": "Ileete-a Stunce-a. (4...10 secunds.) Yuoo aettaeck 33% faester vheele-a under zee iffffects ooff a shuoot oor chunt."
 			}
 		}
 	}

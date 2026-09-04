@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "地缚",
+				"description": "缚灵仪式。 创造一只等级为1...14的大地缚灵，范围内的「非灵体」类敌人一旦被击倒，倒地效果将持续至少3秒。而当此效果发生作用时，缚灵失去50...25点生命值。大地缚灵将在15...45秒后自动消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...14的大地缚灵，范围内的敌人一旦被击倒，倒地效果将持续至少 3 秒。而当此效果发生时，缚灵失去 50...25 生命。大地缚灵将在15...45秒后消失。"
+			},
+			"cht": {
+				"name": "地縛",
+				"description": "縛靈儀式： 創造等級 1...14 的大地縛靈，範圍內的敵人一旦被擊倒，倒地效果將持續至少 3 秒。而當此效果發生時，縛靈失去 50...25 體力。大地縛靈將在 15...45 秒後消失。",
+				"concise": "縛靈儀式： 創造等級 1...14 的大地縛靈，範圍內的敵人一旦被擊倒，倒地效果將持續至少 3 秒。而當此效果發生時，縛靈失去 50...25 體力。大地縛靈將在 15...45 秒後消失。"
+			},
 			"de": {
+				"name": "Erdbindung",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...14. Alle Gegner, die keine Geister sind, die in seiner Reichweite zu Boden geworfen werden, bleiben mindestens 3 Sekunden lang am Boden. Jedes Mal, wenn dies geschieht, verliert der Geist 50...25 Lebenspunkt[e]. Dieser Geist stirbt nach 15...45 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...14 (15...45 Sekunde[n] Lebensdauer). Feinde in Reichweite, die keine Geister sind und zu Boden geworfen werden, bleiben mindestens 3 Sekunden lang am Boden. Bodenwurfkosten: Der Geist verliert 50...25 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Erdbindung",
 				"description": "Erstellt einen Geist der Stufe 1...14. Alle Gegner, die keine Geister sind, die in seiner Reichweite zu Boden geworfen werden, bleiben mindestens 3 Sekunden lang am Boden. Jedes Mal, wenn dies geschieht, verliert der Geist 50...25 Lebenspunkte. Dieser Geist stirbt nach 15...45 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...14 (15...45 Sekunden Lebensdauer). Feinde in Reichweite, die keine Geister sind und zu Boden geworfen werden, bleiben mindestens 3 Sekunden lang am Boden. <gray>Bodenwurfkosten: Der Geist verliert 50...25 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Earthbind",
+				"description": "Binding Ritual. Create a level 1...14 spirit. All non-spirit foes knocked down within its range are knocked down for at least 3 seconds. Whenever this happens, this spirit loses 50...25 Health. This spirit dies after 15...45 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...14 spirit (15...45 second lifespan). Any time non-spirit foes within range are knocked-down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses 50...25 Health."
+			},
+			"en-gww": {
+				"name": "Earthbind",
 				"description": "Create a level 1...14 spirit. All non-spirit foes knocked down within its range are knocked down for at least 3 seconds. Whenever this happens, this spirit loses 50...25 Health. This spirit dies after 15...45 seconds.",
 				"concise": "Creates a level 1...14 spirit (15...45 second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. <gray>Knock-down cost: this spirit loses 50...25 Health.</gray>"
 			},
+			"es": {
+				"name": "Atadura terrenal",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...14. Todos los enemigos no espíritu derribados dentro de su zona no se podrán levantar en al menos 3 segundos. Cuando esto ocurra, el espíritu perderá 50...25 de salud. Morirá a los 15...45 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...14 (15...45 segundos de vida). Cada vez que los enemigos no espíritu de la zona sean derribados, estarán en el suelo al menos 3 segundos. Coste del derribo: el espíritu pierde 50...25 de salud."
+			},
 			"fr": {
+				"name": "Lien terrestre",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...14. Tous les ennemis (autres que des esprits) assommés dans sa portée le sont pour au moins 3 secondes. Chaque fois, cet esprit perd 50...25 points de vie. Il meurt au bout de 15...45 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...14 (durée de vie de 15...45 secondes). Chaque fois que des ennemis (autres que des esprits) à portée sont assommés, ils le sont pour au moins 3 secondes. Coût de l'assommement : cet esprit perd 50...25 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Lien terrestre",
 				"description": "Crée un esprit de niveau 1...14. Tous les ennemis (autres que des esprits) assommés dans sa portée le sont pour au moins 3 secondes. Chaque fois, cet esprit perd 50...25 points de vie. Il meurt au bout de 15...45 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legaterra",
+				"description": "Rituale Incatenante. Crei uno Spirito di livello 1...14. Tutti i nemici abbattuti nella sua portata (Spiriti esclusi) restano a terra per almeno 3 secondi. Ogni volta che ciò accade, lo Spirito perde 50...25 Punto[i] Salute. Lo Spirito si esaurisce dopo 15...45 secondo[i].",
+				"concise": "Rituale Incatenante. Crei uno Spirito di livello 1...14 (in vita per 15...45 secondo[i]). Ogni volta che i nemici (Spiriti esclusi) nella portata vengono abbattuti restano a terra per almeno 3 secondi. Costo dell'abbattimento: questo Spirito perde 50...25 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "アースバインド",
+				"description": "バインド リチュアル： レベル 1...14 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の敵が転倒すると3秒以内に立ち上がることができません。敵が転倒するたびに精霊は 50...25 の体力を失います。この精霊は 15...45 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...14 の精霊を召喚します (15...45 秒)。この精霊の効果範囲内では、精霊以外の敵が転倒すると3秒以内に立ち上がることができません。転倒コスト： この精霊は体力が 50...25 減少します。"
+			},
+			"kr": {
+				"name": "고착의 영혼",
+				"description": "영혼 결속. 대상 지정: 없음. 1...14레벨의 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 적이 넘어지면 최소한 3초 동안 넘어진 상태로 있습니다. 그럴 때마다 영혼은 50...25의 체력을 잃습니다. 영혼은 15...45초 후 사라집니다.",
+				"concise": "영혼 결속. 1...14레벨 영혼을 소환합니다.(수명: 15...45초) 영혼이 아닌 적이 넘어지면 최소한 3초 동안 넘어진 상태로 있습니다. 넘어뜨린 대가: 영혼이 50...25의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Uziemienie",
+				"description": "Rytuał spętania. Tworzysz 1...14 poziomowego ducha. Wszyscy nie będący duchami przeciwnicy powaleni w zasięgu tego ducha, zostają powaleni na przynajmniej 3 sek. Za każdym razem, kiedy tak się dzieje, ten duch traci 50...25 pkt. żywotności. Ten duch ginie po 15...45 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...14 (czas życia 15...45 sek.). Za każdym razem, kiedy przeciwnik nie-duch w zasięgu zostanie powalony, będzie powalony przez przynajmniej 3 sek. Koszt powalenia: ten duch traci 50...25 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Earthbind",
+				"description": "Связующий ритуал. Создает духа 1...14 уровня. Все не являющиеся духами противники, сбитые с ног в зоне его действия, останутся лежать на земле по меньшей мере 3 сек. Каждый раз, когда это происходит, этот дух теряет 50...25 ед. здоровья. Этот дух умирает через 15...45 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...14 уровня (15...45 сек жизни). В любой момент, когда не являющиеся духами противники будут сбиты с ног в зоне его действия, они останутся лежать по меньшей мере 3 сек. Цена сбивания с ног: этот дух теряет 50...25 ед. здоровья."
+			},
+			"bork": {
+				"name": "Iaerthbeend",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...14 spureet. Aell nun-spureet fues knucked doon veetheen its runge-a aere-a knucked doon fur aet leaest 3 secunds. Vhenefer thees haeppens, thees spureet luses 50...25 Heaelt. Thees spureet deees aeffter 15...45 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...14 spureet (15...45 secund leeffespun). Uny teeme-a nun-spureet fues veetheen runge-a aere-a knucked-doon, zeey aere-a knucked doon fur aet leaest 3 secunds. Knuck-doon cust: thees spureet luses 50...25 Heaelt."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "虔诚之盟",
+				"description": "增益魔法。 在20秒之内，每当你失去一项「增益魔法」，范围内将有1名盟友获得1...4点生命值。",
+				"concise": "增益魔法。 在20秒之内，每当你失去一项「增益魔法」，范围内将有1名盟友获得1...4点生命值。"
+			},
+			"cht": {
+				"name": "虔誠誓言",
+				"description": "加持魔法： 持續20秒，防禦增加24，而且體力再生1...4，若有一項加持在你身上終止，虔誠誓言回復到20秒。",
+				"concise": "加持魔法： 持續20秒，防禦增加24，而且體力再生1...4，若有一項加持在你身上終止，虔誠誓言回復到20秒。"
+			},
 			"de": {
+				"name": "Gelübde der Frömmigkeit",
+				"description": "Verzauberung. 20 Sekunde[n] lang habt Ihr +24 Rüstung und eine Lebenspunktregeneration von +1...4. Das Gelübde der Frömmigkeit erneuert sich jedes Mal, wenn eine Verzauberung, mit der Ihr belegt seid, endet.",
+				"concise": "Verzauberung. (20 Sekunde[n].) +24 Rüstung und +1...4 Lebenspunktregeneration. Erneuerung: jedes Mal, wenn eine Verzauberung, mit der Ihr belegt seid, endet."
+			},
+			"de-guildwiki": {
 				"name": "Gelübde der Frömmigkeit",
 				"description": "20 Sekunden lang habt Ihr +24 Rüstung und eine Lebenspunktregeneration von +1...4. Das Gelübde der Frömmigkeit erneuert sich jedes Mal, wenn eine Verzauberung, mit der Ihr belegt seid, endet.",
 				"concise": "(20 Sekunden.) +24 Rüstung und +1...4 Lebenspunktregeneration. Erneuerung: jedes Mal, wenn eine Verzauberung, mit der Ihr belegt seid, endet."
 			},
 			"en": {
 				"name": "Vow of Piety",
+				"description": "Enchantment Spell. For 20 seconds, you have +24 armor and +1...4 Health regeneration. Vow of Piety renews whenever an enchantment on you ends.",
+				"concise": "Enchantment Spell. (20 seconds.) +24 armor and +1...4 Health regeneration. Renewal: whenever an enchantment on you ends."
+			},
+			"en-gww": {
+				"name": "Vow of Piety",
 				"description": "For 20 seconds, you have +24 armor and +1...4 Health regeneration. Vow of Piety renews whenever an enchantment on you ends.",
 				"concise": "(20 seconds) +24 armor and +1...4 Health regeneration. Renewal: Whenever an enchantment on you ends."
 			},
+			"es": {
+				"name": "Voto de piedad",
+				"description": "Conjuro con encantamiento. Durante 20 segundos tienes +24 de armadura y +1...4 de regeneración de salud. Voto de piedad se renueva cada vez que finaliza un encantamiento sobre tu personaje.",
+				"concise": "Conjuro con encantamiento. (20 segundos). +24 de armadura y +1...4 de regeneración de salud. Renovación: cada vez que finaliza un encantamiento sobre tu personaje."
+			},
 			"fr": {
+				"name": "Voeu de piété",
+				"description": "Enchantement. Pendant 20 secondes, vous bénéficiez d'un bonus d'armure de +24 et d'une régénération de santé de +1...4. Voeu de piété se renouvelle chaque fois qu'un enchantement cesse de faire effet sur vous.",
+				"concise": "Enchantement. (20 secondes.) +24 de bonus d'armure et +1...4 de régénération de santé. Renouvellement : chaque fois qu'un enchantement vous affectant prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Voeu de piété",
 				"description": "Pendant 20 secondes, vous bénéficiez d'un bonus d'armure de +24 et d'une régénération de santé de +1...4. Voeu de piété prend fin chaque fois qu'un enchantement cesse de faire effet sur vous.",
 				"concise": "(20 secondes.) +24 de bonus d'armure et +1...4 de régénération de santé. Renouvellement : chaque fois qu'un enchantement vous affectant prend fin."
+			},
+			"it": {
+				"name": "Voto della Pietà",
+				"description": "Incantesimo. Per 20 secondi ottieni +24 di armatura e +1...4 di Rigenerazione della Salute. Il Voto della Pietà si rinnova ogni volta che un incantesimo presente su di te termina.",
+				"concise": "Incantesimo. (Secondi: 20). Armatura: +24. Rigenerazione Salute: +1...4. Rinnovo: ogni volta che un incantesimo presente su di te termina."
+			},
+			"jp": {
+				"name": "パイエティ バウ",
+				"description": "強化スペル： 20 秒間、防御力が24、体力の自然回復力が 1...4 増加します。この効果は、かけられている強化スペルの効果が消失するたびに更新されます。",
+				"concise": "強化スペル： (20 秒) 防御力が24、体力の自然回復力が 1...4 増加します。更新効果：かけられている強化スペルの効果が消失するたび。"
+			},
+			"kr": {
+				"name": "경건한 맹약",
+				"description": "강화 마법. 대상 지정: 없음. 20초 동안 방어력이 24만큼, 체력 재생이 1...4만큼 증가합니다. 자신에게 걸린 강화 마법 효과가 끝날 때마다 경건한 맹약 효과가 새로 시작됩니다.",
+				"concise": "강화 마법. (20초) 방어력이 24만큼, 체력 재생이 1...4만큼 증가합니다. 갱신 조건: 자신에게 걸린 강화 마법 효과가 끝날 때마다."
+			},
+			"pl": {
+				"name": "Ślub Pobożności",
+				"description": "Zaklęcie (czar). Przez 20 sek. otrzymujesz +24 do pancerza i +1...4 do regeneracji żywotności. Ślub Pobożności odnawia się za każdym razem gdy kończy się rzucone na ciebie zaklęcie.",
+				"concise": "Zaklęcie (czar). (20 sek.) +24 do pancerza oraz +1...4 do regeneracji żywotności. Odnowienie: za każdym razem gdy kończy się rzucone na ciebie zaklęcie."
+			},
+			"ru": {
+				"name": "Vow of Piety",
+				"description": "Заклинание-чары. В течение 20 сек ваша защита увеличивается на 24 ед., а ваша скорость восстановления здоровья увеличивается на 1...4 ед. Vow of Piety обновляется каждый раз, когда заканчивается действие наложенных на вас чар.",
+				"concise": "Заклинание-чары. (20 сек) Дает +24 ед. к защите и +1...4 ед. к скорости восстановления здоровья. Обновление: каждый раз, когда заканчивается действие наложенных на вас чар."
+			},
+			"bork": {
+				"name": "Foo ooff Peeety",
+				"description": "Inchuntment Spell. Fur 20 secunds, yuoo haefe-a +24 aermur und +1...4 Heaelt regeneraeshun. Foo ooff Peeety renoos vhenefer un inchuntment oon yuoo inds.",
+				"concise": "Inchuntment Spell. (20 secunds.) +24 aermur und +1...4 Heaelt regeneraeshun. Renooael: vhenefer un inchuntment oon yuoo inds."
 			}
 		}
 	}

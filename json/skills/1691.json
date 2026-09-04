@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "康复",
+				"description": "咒文。 移除友方目标身上的一种「症状」。如果该目标带有「增益魔法」，则治疗他15...75点生命值。",
+				"concise": "咒文。 移除友方目标身上的一种「症状」。如果该目标带有「增益魔法」，则治疗他15...75点生命值。"
+			},
+			"cht": {
+				"name": "破除病症",
+				"description": "咒文魔法： 為目標盟友消去一項「病症」，若該盟友擁有「加持」效果，則該盟友被治癒 15...75 體力。",
+				"concise": "咒文魔法： 為目標盟友消去一項「病症」，若該盟友擁有「加持」效果，則該盟友被治癒 15...75 體力。"
+			},
 			"de": {
+				"name": "Zustand aufheben",
+				"description": "Zauber. Entfernt einen Zustand vom Verbündeten (bzw. Euch selbst). Wenn dieser Verbündete unter den den Auswirkungen einer Verzauberung leidet, wird er um 15...75 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Entfernt einen Zustand. Heilt um 15...75 Lebenspunkt[e], falls der Verbündete (bzw. Ihr selbst) verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Zustand aufheben",
 				"description": "Entfernt einen Zustand vom Verbündeten (bzw. Euch selbst). Wenn dieser Verbündete unter den Auswirkungen einer Verzauberung leidet<sic/>, wird er um 15...75 Lebenspunkte geheilt.",
 				"concise": "Entfernt einen Zustand. Heilt um 15...75 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) verzaubert ist."
 			},
 			"en": {
 				"name": "Dismiss Condition",
+				"description": "Spell. Remove one condition from target ally. If that ally is under the effects of an enchantment, that ally is healed for 15...75 Health.",
+				"concise": "Spell. Removes one condition. Heals for 15...75 if target ally is enchanted."
+			},
+			"en-gww": {
+				"name": "Dismiss Condition",
 				"description": "Remove one condition from target ally. If that ally is under the effects of an enchantment, that ally is healed for 15...75 Health.",
 				"concise": "Removes one condition. Heals for 15...75 if target ally is enchanted."
 			},
+			"es": {
+				"name": "Terminar condición",
+				"description": "Conjuro. Quitas una condición al objetivo (un aliado o tú mismo). Si el objetivo está bajo los efectos de un encantamiento, se curará 15...75 de salud.",
+				"concise": "Conjuro. Elimina una condición. Cura 15...75 de salud si el objetivo (un aliado o tú mismo) tiene un encantamiento."
+			},
 			"fr": {
+				"name": "Suppression de condition",
+				"description": "Sort. Supprime une condition affectant une cible (un allié ou vous-même). Si cette cible est sous les effets d'un enchantement, elle est soignée de 15...75 points de vie.",
+				"concise": "Sort. Supprime une condition. Soigne de 15...75 points de vie si l'allié visé est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Suppression de condition",
 				"description": "Supprime une condition affectant une cible (un allié ou vous-même). Si cette cible est sous les effets d'un enchantement, elle est soignée de 15...75 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Congeda Condizione",
+				"description": "Magia. Rimuovi una condizione dall'obiettivo alleato; se quell'alleato è sotto gli effetti di un incantesimo viene curato di 15...75 Punto[i] Salute.",
+				"concise": "Magia. Rimuove una condizione. Cura di 15...75 se l'obiettivo alleato è sotto incantesimo."
+			},
+			"jp": {
+				"name": "ディスミス コンディション",
+				"description": "スペル： ターゲットした味方の「状態異常」を1個解除します。その味方に強化スペルがかけられていた場合、その味方は体力が 15...75 回復します。",
+				"concise": "スペル： 「状態異常」を1個解除します。ターゲットした味方に強化スペルがかけられている場合、体力が 15...75 回復します。"
+			},
+			"kr": {
+				"name": "상태이상 전환",
+				"description": "마법. 대상 지정: 아군. 대상의 상태이상 하나를 무효화합니다. 대상에게 강화 마법이 걸려 있으면 대상은 15...75의 체력을 회복합니다.",
+				"concise": "마법. 상태이상 하나를 무효화합니다. 대상에게 강화 마법이 걸려 있으면 15...75의 체력을 회복시킵니다."
+			},
+			"pl": {
+				"name": "Przegnanie Przypadłości",
+				"description": "Czar. Z wybranego sojusznika usuwasz jedną przypadłość. Jeżeli wybrany sojusznik jest pod działaniem zaklęcia, to otrzymuje 15...75 pkt. żywotności.",
+				"concise": "Czar. Usuwa przypadłość. Dodaje 15...75 pkt. żywotności, jeżeli wybrany sojusznik jest pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Dismiss Condition",
+				"description": "Заклинание. Снимает одно состояние с выбранного союзника. Если этот союзник находится под воздействием каких-либо чар, то он будет исцелен на 15...75 ед. здоровья.",
+				"concise": "Заклинание. Снимает одно состояние. Исцеляет на 15...75 ед. здоровья, если на выбранном союзнике лежат чары."
+			},
+			"bork": {
+				"name": "Deesmeess Cundeeshun",
+				"description": "Spell. Remufe-a oone-a cundeeshun frum taerget aelly. Iff thaet aelly is under zee iffffects ooff un inchuntment, thaet aelly is heaeled fur 15...75 Heaelt.",
+				"concise": "Spell. Remufes oone-a cundeeshun. Heaels fur 15...75 iff taerget aelly is inchunted."
 			}
 		}
 	}

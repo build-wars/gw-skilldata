@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "精力充沛",
+				"description": "增益魔法。 在30秒之内，每当友方目标攻击或施法时，可以获得5...20点生命值。",
+				"concise": "增益魔法。 当友方目标攻击或施法时，可以获得 5...20点 生命值，效果持续 30秒。"
+			},
+			"cht": {
+				"name": "精力充沛",
+				"description": "加持魔法： 持續 30 秒，每當目標盟友攻擊或施展「魔法」時， 該盟友回復 5...20 體力。",
+				"concise": "加持魔法： 持續 30 秒，每當目標盟友攻擊或施展「魔法」時， 該盟友回復 5...20 體力。"
+			},
 			"de": {
+				"name": "Energischer Geist",
+				"description": "Verzauberung. 30 Sekunden lang wird der Verbündete (oder Ihr selbst) jedes Mal, wenn er angreift oder einen Zauber wirkt, um 5...20 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. 30 Sekunden: Heilt jedes Mal um 5...20 Lebenspunkt[e], wenn der Verbündete (bzw. Ihr selbst) angreift oder einen Zauber wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Energischer Geist",
 				"description": "30 Sekunden lang wird der Verbündete (bzw. Ihr selbst) jedes Mal, wenn er angreift oder einen Zauber wirkt, um 5...20 Punkte geheilt.",
 				"concise": "30 Sekunden: Heilt jedes Mal um 5...20 Lebenspunkte, wenn der Verbündete (bzw. Ihr selbst) angreift oder einen Zauber wirkt."
 			},
 			"en": {
 				"name": "Vigorous Spirit",
+				"description": "Enchantment Spell. For 30 seconds, each time target ally attacks or casts a spell, that ally is healed for 5...20 Health.",
+				"concise": "Enchantment Spell. (30 seconds.) Heals for 5...20 each time target ally attacks or casts a spell."
+			},
+			"en-gww": {
+				"name": "Vigorous Spirit",
 				"description": "For 30 seconds, each time target ally attacks or casts a spell, that ally is healed for 5...20 Health.",
 				"concise": "(30 seconds.) Heals for 5...20 each time target ally attacks or casts a spell."
 			},
+			"es": {
+				"name": "Espíritu vigoroso",
+				"description": "Conjuro con encantamiento. Durante 30 segundos, cada vez que el objetivo (un aliado o tú mismo) ataque o lance un conjuro, éste se curará 5...20 de salud.",
+				"concise": "Conjuro con encantamiento. (30 segundos). Cura 5...20 cada vez que el objetivo (un aliado o tú mismo) ataque o lance un conjuro."
+			},
 			"fr": {
+				"name": "Esprit vigoureux",
+				"description": "Enchantement. Pendant 30 secondes, à chaque fois que la cible (un allié ou vous-même) attaque ou lance un sort, elle est soignée de 5...20 points de vie.",
+				"concise": "Enchantement. (30 secondes.) Soigne de 5...20 points de vie chaque fois que l'allié visé attaque ou lance un sort."
+			},
+			"fr-gwiki": {
 				"name": "Esprit vigoureux",
 				"description": "Pendant 30 secondes, à chaque fois que la cible (un allié ou vous-même) attaque ou lance un sort, elle est soignée de 5...20 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito Vigoroso",
+				"description": "Incantesimo. Per 30 secondi, ogni volta che l'obiettivo (un alleato o te stesso) attacca o compie una magia, viene curato di 5...20 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 30) Cure ogni volta che l'obiettivo (un alleato o te stesso) attacca o lancia una magia: 5...20."
+			},
+			"jp": {
+				"name": "ビガラス スピリット",
+				"description": "強化スペル： 30秒間、ターゲットした味方は、攻撃またはスペル詠唱を行うたびに体力が 5...20 回復します。",
+				"concise": "強化スペル： (30秒) ターゲットした味方は、攻撃またはスペル詠唱を行うたびに体力が 5...20 回復します。"
+			},
+			"kr": {
+				"name": "활력의 성령",
+				"description": "강화 마법. 대상 지정: 아군. 30초 동안 대상이 공격을 하거나 마법을 외울 때마다 대상의 체력이 5...20 회복됩니다.",
+				"concise": "강화 마법. (30초) 대상은 공격을 하거나 마법 시전을 할 때마다 5...20의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Życiodajny Duch",
+				"description": "Zaklęcie (czar). Przez 30 sek., za każdym razem, kiedy wybrany sojusznik atakuje lub rzuca czar, otrzymuje 5...20 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (30 sek.) Dodaje 5...20 pkt. żywotności, za każdym razem, kiedy wybrany sojusznik atakuje lub rzuca czar."
+			},
+			"ru": {
+				"name": "Vigorous Spirit",
+				"description": "Заклинание-чары. В течение 30 сек каждый раз, когда выбранный союзник атакует или произносит заклинание, этот союзник исцеляется на 5...20 ед. здоровья.",
+				"concise": "Заклинание-чары. (30 сек) Исцеляет на 5...20 ед. здоровья каждый раз, когда выбранный союзник атакует или произносит заклинание."
+			},
+			"bork": {
+				"name": "Feeguruoos Spureet",
+				"description": "Inchuntment Spell. Fur 30 secunds, iaech teeme-a taerget aelly aettaecks oor caests a spell, thaet aelly is heaeled fur 5...20 Heaelt.",
+				"concise": "Inchuntment Spell. (30 secunds.) Heaels fur 5...20 iaech teeme-a taerget aelly aettaecks oor caests a spell."
 			}
 		}
 	}

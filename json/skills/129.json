@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 10,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "血肉污染",
+				"description": "负面魔法。 牺牲自己最大生命值的10%。在5...35秒之内，使目标敌人受到的治疗效果降低1/3。",
+				"concise": "负面魔法。 牺牲自己最大生命值的10%。在5...35秒之内，使目标敌人受到的治疗效果降低1/3。"
+			},
+			"cht": {
+				"name": "肉體敗壞",
+				"description": "降咒魔法： 犧牲自己最大體力的 10% 。持續 5...35 秒，使目標敵人受到治療時的效果減少三分之一。",
+				"concise": "降咒魔法： 犧牲自己最大體力的 10% 。持續 5...35 秒，使目標敵人受到治療時的效果減少三分之一。"
+			},
 			"de": {
+				"name": "Fleisch schänden",
+				"description": "Verhexung. 5...35 Sekunde[n] lang erhält der Gegner bei einer Heilung nur zwei Drittel der Lebenspunkte.",
+				"concise": "Verhexung. 5...35 Sekunde[n]: Verringert die Wirkung von Heilungen beim Gegner um 33%. Nur Fertigkeiten mit dem Wort \"heilen\" in der Beschreibung sind betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Fleisch schänden",
 				"description": "5...35 Sekunden lang erhält der Gegner bei einer Heilung nur zwei Drittel der Lebenspunkte.",
 				"concise": "5...35 Sekunden: Verringert die Wirkung von Heilung beim Gegner um 33%. <gray>Nur Fertigkeiten mit dem Wort \"heilen\" in der Beschreibung sind betroffen.</gray>"
 			},
 			"en": {
 				"name": "Defile Flesh",
+				"description": "Hex Spell. For 5...35 seconds, target foe gains only two-thirds Health from healing.",
+				"concise": "Hex Spell. (5...35 seconds.) Reduces healing target foe receives by 33%. Only skills with the word \"heal\" in the description are affected."
+			},
+			"en-gww": {
+				"name": "Defile Flesh",
 				"description": "For 5...35 seconds, target foe gains only two-thirds Health from healing.",
 				"concise": "(5...35 seconds.) Reduces healing target foe receives by 33%. <gray>Only skills with the word \"heal\" in the description are affected.</gray>"
 			},
+			"es": {
+				"name": "Profanar la carne",
+				"description": "Conjuro con maleficio. Durante 5...35 segundos, el enemigo objetivo se beneficiará sólo dos tercios de las curaciones.",
+				"concise": "Conjuro con maleficio. (5...35 segundos). Reduce la curación sobre el enemigo objetivo un 33%. Sólo están afectadas las habilidades con la palabra \"curar\"."
+			},
 			"fr": {
+				"name": "Souillure charnelle",
+				"description": "Maléfice. Pendant 5...35 secondes, l'ennemi visé ne reçoit que deux tiers des points de vie habituellement restitués par la guérison.",
+				"concise": "Maléfice. (5...35 secondes.) Réduit de 33% les soins reçus par l'ennemi visé. Seules les compétences dont la description contient le mot \"soins/guérison\" sont affectées."
+			},
+			"fr-gwiki": {
 				"name": "Souillure charnelle",
 				"description": "Pendant 5...35 secondes, l'ennemi visé ne reçoit que deux tiers des points de vie habituellement restitués par la guérison.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Contaminazione della Carne",
+				"description": "Fattura. Per 5...35 secondo[i], l'obiettivo nemico ottiene solo due terzi di Salute dalle cure.",
+				"concise": "Fattura. (Secondi: 5...35) Riduzione cure ricevute dall'obiettivo nemico: -33%. Ha effetto solo sulle abilità che parlano di \"cure\"."
+			},
+			"jp": {
+				"name": "ディファイル フレッシュ",
+				"description": "弱体化スペル： 5...35 秒間、ターゲットした敵は、回復スペルによる体力の回復量が3分の2になります。",
+				"concise": "弱体化スペル： (5...35 秒) ターゲットした敵は回復スペルによる体力の回復量が33%減少します。「回復」と銘打っているスキルのみが対象です。"
+			},
+			"kr": {
+				"name": "육체의 모독",
+				"description": "약화 마법. 대상 지정: 적. 5...35초 동안 대상이 받는 치유 효과가 3분의 2로 감소됩니다.",
+				"concise": "약화 마법. (5...35초) 대상에 대한 치유 효과가 33% 감소됩니다. 스킬 설명에 '치유'나 '회복'이란 단어가 있는 스킬에만 영향이 있습니다."
+			},
+			"pl": {
+				"name": "Splugawienie Ciała",
+				"description": "Klątwa (czar). Przez 5...35 sek. wybrany przeciwnik otrzymuje jedynie dwie trzecie punktów żywotności podczas leczenia.",
+				"concise": "Klątwa (czar). (5...35 sek.) Zmniejsza o 33% liczbę punktów żywotności jakie otrzymuje wybrany przeciwnik. Działa tylko na umiejętności zawierające w opisie słowo \"otrzymuje\"."
+			},
+			"ru": {
+				"name": "Defile Flesh",
+				"description": "Заклинание-проклятье. В течение 5...35 сек выбранный противник получает при исцелении на одну треть здоровья меньше.",
+				"concise": "Заклинание-проклятье. (5...35 сек) Выбранный противник получает при исцелении на 33% здоровья меньше. Затрагивает только умения со словом \"исцеляет\" в описании."
+			},
+			"bork": {
+				"name": "Deffeele-a Flesh",
+				"description": "Hex Spell. Fur 5...35 secunds, taerget fue-a gaeeens oonly tvu-thurds Heaelt frum heaeleeng. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (5...35 secunds.) Redooces heaeleeng taerget fue-a receeefes by 33%. Oonly skeells veet zee vurd \"heael\" in zee descreepshun aere-a aeffffected."
 			}
 		}
 	}

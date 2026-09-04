@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "捕猎者的专注",
+				"description": "精英预备技。 持续 12...36 秒，使你的「陷阱」类型技能在发动时不容易被打断。",
+				"concise": "精英预备技。 持续 12...36 秒，使你的「陷阱」类型技能在发动时不容易被打断。"
+			},
+			"cht": {
+				"name": "設陷者的專注",
+				"description": "精英準備技能： 持續12...36秒，施展陷阱時不容易被中斷，同時求生屬性+0...4。",
+				"concise": "精英準備技能： 持續12...36秒，施展陷阱時不容易被中斷，同時求生屬性+0...4。"
+			},
 			"de": {
+				"name": "Fokus des Fallenstellers",
+				"description": "Elite-Vorbereitung. 12...36 Sekunde[n] lang können Eure Fallen-Fertigkeiten nicht leicht unterbrochen werden und Euer Attribut Überleben in der Wildnis ist um 0...4 erhöht.",
+				"concise": "Elite-Vorbereitung. 12...36 Sekunde[n]: Eure Fallen-Fertigkeiten können nicht länger leicht unterbrochen werden. Ihr erhaltet +0...4 bei Eurem Attribut Überleben in der Wildnis."
+			},
+			"de-guildwiki": {
 				"name": "Fokus des Fallenstellers",
 				"description": "12...36 Sekunden lang können Eure Fallen-Fertigkeiten nicht leicht unterbrochen werden und Euer Attribut Überleben in der Wildnis ist um 0...4 erhöht.",
 				"concise": "12...36 Sekunden: Eure Fallen-Fertigkeiten können nicht länger leicht unterbrochen werden. Ihr erhaltet +0...4 bei Eurem Attribut Überleben in der Wildnis."
 			},
 			"en": {
 				"name": "Trapper's Focus",
+				"description": "Elite Preparation. For 12...36 seconds, your trap skills are not easily interruptible and your Wilderness Survival attribute is increased by 0...4.",
+				"concise": "Elite Preparation. (12...36 seconds.) Your trap skills are no longer easy to interrupt. You gain +0...4 to your Wilderness Survival attribute."
+			},
+			"en-gww": {
+				"name": "Trapper's Focus",
 				"description": "For 12...36 seconds, your trap skills are not easily interruptible and your Wilderness Survival attribute is increased by +0...4.",
 				"concise": "(12...36 seconds.) Your trap skills are no longer easy to interrupt. You gain +0...4 to your Wilderness Survival attribute."
 			},
+			"es": {
+				"name": "Poder de tramperos",
+				"description": "Preparación[\"Preparaciones\"] de élite. Durante 12...36 segundos, será más difícil que te interrumpan si estás colocando una trampa y tu atributo supervivencia en la naturaleza aumenta 0...4.",
+				"concise": "Preparación[\"Preparaciones\"] de élite. (12...36 segundos). Será más difícil que te interrumpan si estás colocando una trampa. Ganas +0...4 de supervivencia en la naturaleza."
+			},
 			"fr": {
+				"name": "Concentration du trappeur",
+				"description": "Préparation d'élite. Pendant 12...36 secondes, vos compétences de piège sont difficiles à interrompre et votre caractéristique de Survie est augmentée de 0...4.",
+				"concise": "Préparation d'élite. (12...36 secondes.) Vos compétences de piège sont difficiles à interrompre. Votre caractéristique de Survie est augmentée de +0...4."
+			},
+			"fr-gwiki": {
 				"name": "Concentration du trappeur",
 				"description": "Pendant 12...36 secondes, vos compétences de piège sont difficiles à interrompre et votre caractéristique de Survie est augmentée de +0...4.\"",
 				"concise": ""
+			},
+			"it": {
+				"name": "Concentrazione del Cacciatore",
+				"description": "Preparazione d'Élite. Per 12...36 secondo[i] mentre poni le trappole non potrai essere facilmente interrotto e il tuo grado di Sopravvivenza nella Natura aumenta di 0...4.",
+				"concise": "Preparazione d'Élite. (Secondi: 12...36) Le tue trappole diventano difficili da interrompere. Incremento attributo Sopravvivenza nella Natura: +0...4."
+			},
+			"jp": {
+				"name": "トラッパー フォーカス",
+				"description": "エリート プレパレーション： 12...36 秒間、トラップ スキルが中断されにくくなり、「サバイバル」の特性レベルが 0...4 増加します。",
+				"concise": "エリート プレパレーション： (12...36 秒) トラップ スキルが中断されにくくなります。「サバイバル」の特性レベルが 0...4 増加します。"
+			},
+			"kr": {
+				"name": "능숙한 함정 설치",
+				"description": "엘리트 준비. 대상 지정: 없음. 12...36초 동안 함정 설치 동작이 쉽게 방해받지 않습니다. 생존술 특성 레벨이 0...4 증가합니다.",
+				"concise": "엘리트 준비. (12...36초) 함정 설치 동작이 쉽게 방해 받지 않습니다. 생존술 특성 레벨 0...4 증가합니다."
+			},
+			"pl": {
+				"name": "Skupienie Trapera",
+				"description": "Elitarne przygotowanie. Przez 12...36 sek. nie będzie ci łatwo przerwać, kiedy będziesz używał umiejętności związanych z ustawianiem pułapek. Atrybut Przetrwanie w Dziczy zwiększa się o 0...4.",
+				"concise": "Elitarne przygotowanie. (12...36 sek.) Twoje umiejętności związane z pułapkami nie są już łatwe do przerwania. Otrzymujesz +0...4 do atrybutu Przetrwanie w Dziczy."
+			},
+			"ru": {
+				"name": "Trapper's Focus",
+				"description": "Элитная подготовка. В течение 12...36 сек вы не можете быть легко прерваны при установке ловушек, а ваш талант Wilderness Survival увеличивается на 0...4 ед.",
+				"concise": "Элитная подготовка. (12...36 сек) Вы не можете быть легко прерваны при установке ловушек. Вы получаете +0...4 ед. к вашему таланту Wilderness Survival."
+			},
+			"bork": {
+				"name": "Traepper's Fucoos",
+				"description": "Ileete-a Prepaeraeshun. Fur 12...36 secunds, yuoor traep skeells aere-a nut iaeseely interroopteeble-a und yuoor Veelderness Soorfeefael aettreeboote-a is increaesed by 0...4.",
+				"concise": "Ileete-a Prepaeraeshun. (12...36 secunds.) Yuoor traep skeells aere-a nu lunger iaesy tu interroopt. Yuoo gaeeen +0...4 tu yuoor Veelderness Soorfeefael aettreeboote-a."
 			}
 		}
 	}

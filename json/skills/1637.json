@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "金狐斩",
+				"description": "起手技。 命中时，对敌人造成10...30点额外伤害。如果你受到「增益魔法」效果的影响，那么此技能将无法被格挡。",
+				"concise": "起手技。 命中时，对敌人造成10...30点额外伤害。如果你受到「增益魔法」效果的影响，那么此技能将无法被格挡。"
+			},
+			"cht": {
+				"name": "金狐狸狙殺",
+				"description": "引導攻擊： 命中時對目標造成 10...30 額外傷害，若你擁有「加持」，則此攻擊無法被「格擋」。",
+				"concise": "引導攻擊： 命中時對目標造成 10...30 額外傷害，若你擁有「加持」，則此攻擊無法被「格擋」。"
+			},
 			"de": {
+				"name": "Goldener Fuchs-Stoß",
+				"description": "Leithandangriff. Wenn dieser Angriff erfolgreich ist, erleidet der Gegner +10...30 Punkt[e] Schaden. Wenn Ihr unter dem Einfluss einer Verzauberung steht, kann der Angriff nicht geblockt werden.",
+				"concise": "Leithandangriff. Richtet +10...30 Punkt[e] Schaden an. Kann nicht geblockt werden, falls Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Goldener Fuchs-Stoß",
 				"description": "Wenn dieser Angriff erfolgreich ist, erleidet der Gegner +10...30 Punkte Schaden. Wenn Ihr unter dem Einfluss einer Verzauberung steht, kann der Angriff nicht geblockt werden.",
 				"concise": "Richtet +10...30 Punkte Schaden an. Kann nicht geblockt werden, falls Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Golden Fox Strike",
+				"description": "Lead Attack. If this attack hits, target foe takes +10...30 damage. If you are under the effects of an enchantment, this attack cannot be blocked.",
+				"concise": "Lead Attack. Deals +10...30 damage. Unblockable if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Golden Fox Strike",
 				"description": "If this attack hits, target foe takes +10...30 damage. If you are under the effects of an Enchantment, this attack cannot be blocked.",
 				"concise": "Deals +10...30 damage. Unblockable if you are Enchanted."
 			},
+			"es": {
+				"name": "Golpe del zorro dorado",
+				"description": "Ataque inicial. Si este ataque impacta, harás +10...30 de daño al enemigo objetivo. Si estás bajo los efectos de un encantamiento, no se te podrá bloquear.",
+				"concise": "Ataque inicial. Hace +10...30 de daño. No se puede bloquear si tienes un encantamiento."
+			},
 			"fr": {
+				"name": "Coup du renard doré",
+				"description": "Attaque main droite. Si cette attaque réussit, vous infligez +10...30 points de dégâts à l'ennemi ciblé. Si vous vous trouvez sous les effets d'un enchantement, cette attaque ne pourra pas être bloquée.",
+				"concise": "Attaque main droite. Inflige +10...30 points de dégâts. Impossible à bloquer si vous êtes enchanté[f:\"enchantée\"]."
+			},
+			"fr-gwiki": {
 				"name": "Coup du renard doré",
 				"description": "Si cette attaque réussit, vous infligez +10...30 points de dégâts à l'ennemi ciblé. Si vous vous trouvez sous les effets d'un enchantement, cette attaque ne pourra pas être bloquée.",
 				"concise": "Inflige +10...30 points de dégâts. Impossible à bloquer si vous êtes enchantée."
+			},
+			"it": {
+				"name": "Colpo della Volpe Dorata",
+				"description": "Attacco con Arma Primaria. Se questo attacco va a segno, l'obiettivo nemico subisce +10...30 danno[i]. Se ti trovi sotto gli effetti di un incantesimo, questo attacco non può essere bloccato.",
+				"concise": "Attacco con Arma Primaria. Danni inferti: +10...30. Non bloccabile se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ゴールデン フォックス ストライク",
+				"description": "リード アタック： この攻撃が成功すると、ターゲットした敵に 10...30 の追加ダメージを与えます。プレイヤーに強化スペルがかかっている場合、この攻撃はブロックされません。",
+				"concise": "リード アタック： 10...30 の追加ダメージを与えます。プレイヤーに強化スペルがかけられている場合、ブロックされません。"
+			},
+			"kr": {
+				"name": "금빛여우 일격",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...30의 대미지를 추가로 줍니다. 자신이 강화 마법에 걸려 있으면 이 공격은 막을 수 없습니다.",
+				"concise": "주 공격. 10...30의 대미지를 추가로 줍니다. 자신이 강화 마법에 걸려 있으면 이 공격은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Złotego Lisa",
+				"description": "Atak poprzedzający. Jeżeli atak trafi, wybrany przeciwnik otrzymuje +10...30 pkt. obrażeń. Jeśli jesteś pod działaniem zaklęcia, to atak nie może zostać zablokowany.",
+				"concise": "Atak poprzedzający. Zadaje +10...30 pkt. obrażeń. Nie do zablokowania, jeżeli jesteś pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Golden Fox Strike",
+				"description": "Ведущая атака. Если эта атака достигает цели, выбранный противник получает дополнительно 10...30 ед. урона. Если на вас наложены какие-либо чары, эту атаку невозможно блокировать.",
+				"concise": "Ведущая атака. Наносит дополнительно 10...30 ед. урона. Нельзя блокировать, если на вас наложены чары."
+			},
+			"bork": {
+				"name": "Guldee Fux Streeke-a",
+				"description": "Leaed Aettaeck. Iff thees aettaeck heets, taerget fue-a taekes +10...30 daemaege-a. Iff yuoo aere-a under zee iffffects ooff un inchuntment, thees aettaeck cunnut be-a blucked.",
+				"concise": "Leaed Aettaeck. Deaels +10...30 daemaege-a. Unbluckaeble-a iff yuoo aere-a inchunted."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"坚守岗位！\"",
+				"description": "战吼。 在5...20秒之内，音波范围内所有静止的友方将获得24点护甲值。",
+				"concise": "战吼。 在5...20秒之内，音波范围内所有静止的友方将获得24点护甲值。"
+			},
+			"cht": {
+				"name": "「堅守崗位！」(PvP)",
+				"description": "戰嚎： 持續5...20秒，音量所 及範圍內的盟友，不移動時防禦增加24，攻擊時此效果終止。",
+				"concise": "戰嚎： 持續5...20秒，音量所 及範圍內的盟友，不移動時防禦增加24，攻擊時此效果終止。"
+			},
 			"de": {
+				"name": "\"Haltet Eure Stellung!\" (PvP)",
+				"description": "Schrei. 5...20 Sekunde[n] lang erhalten alle Gruppenmitglieder in Hörweite +24 Rüstung, wenn sie sich nicht bewegen. Dieser Effekt endet bei einem Verbündeten, der von diesem Schrei betroffen ist, wenn er erfolgreich angreift.",
+				"concise": "Schrei. (5...20 Sekunde[n].) Gruppenmitglieder in Hörweite erhalten +24 Rüstung, wenn sie sich nicht bewegen. Endet für einen Verbündeten, wenn er angreift."
+			},
+			"de-guildwiki": {
 				"name": "\"Haltet Eure Stellung!\" (PvP)",
 				"description": "5...20 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite +24 Rüstung, wenn sie sich nicht bewegen. Dieser Effekt endet bei einem Verbündeten, der von diesem Schrei betroffen ist, wenn er erfolgreich angreift.",
 				"concise": "5...20 Sekunden: Gruppenmitglieder in Hörweite erhalten +24 Rüstung, wenn sie sich nicht bewegen. <gray>Endet für einen Verbündeten, wenn er angreift.</gray>"
 			},
 			"en": {
 				"name": "\"Stand Your Ground!\" (PvP)",
+				"description": "Shout. For 5...20 seconds, all party members within earshot receive +24 armor when not moving. This effect ends on an ally affected by this shout when that ally attacks.",
+				"concise": "Shout. (5...20 seconds.) Party members in earshot gain +24 armor when not moving. Ends for an ally if that ally attacks."
+			},
+			"en-gww": {
+				"name": "\"Stand Your Ground!\" (PvP)",
 				"description": "For 5...20 seconds, all party members within earshot receive +24 armor when not moving. This effect ends on an ally affected by this shout when that ally attacks.",
 				"concise": "(5...20 seconds.) Party members in earshot gain +24 armor when not moving. Ends for an ally if that ally attacks."
 			},
+			"es": {
+				"name": "\"¡Mantente en guardia!\" (PvP)",
+				"description": "Grito. Durante 5...20 segundos, todos los miembros del grupo al alcance del oído ganan +24 de armadura si no se están moviendo. Este efecto alcanza a un aliado afectado por este grito si el aliado ataca.",
+				"concise": "Grito. (5...20 segundos.) Los miembros del grupo al alcance del oído ganan +24 de armadura si no se están moviendo. Alcanza a un aliado si éste ataca."
+			},
 			"fr": {
+				"name": "\"Tenez bon !\" (PvP)",
+				"description": "Cri. Pendant 5...20 secondes, tous les membres du groupe à portée de voix reçoivent +24 de bonus d'armure lorsqu'ils sont immobiles. Cet effet prend fin sur l'allié affecté par ce cri lorsque cet allié attaque.",
+				"concise": "Cri. (5...20 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +24 quand ils sont immobiles. Prend fin pour tout allié qui attaque."
+			},
+			"fr-gwiki": {
 				"name": "\"Tenez bon !\" (PvP)",
 				"description": "Pendant 5...20 secondes, tous les membres du groupe à portée de voix reçoivent +24 de bonus d'armure lorsqu'ils sont immobiles. Cet effet prend fin sur l'allié affecté par ce cri lorsque cet allié attaque.",
 				"concise": "(5...20 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +24 quand ils sont immobiles. Prend fin pour tout allié qui attaque."
+			},
+			"it": {
+				"name": "\"Non Muovetevi!\" (PvP)",
+				"description": "Urlo. Per 5...20 secondi tutti i membri della squadra a portata d'orecchio ottengono +24 di armatura quando restano fermi. Termina per i membri della squadra quando sferrano un attacco.",
+				"concise": "Urlo. (Secondi: 5...20) I membri della squadra a portata d'orecchio ottengono +24 di armatura quando restano fermi. Termina per un alleato quando sferra un attacco."
+			},
+			"jp": {
+				"name": "スタンド ユア グラウンド！(PvP)",
+				"description": "シャウト： 5...20 秒間、声の届く範囲内にいるパーティー メンバーはすべて、移動していない間の防御力が24増加します。この効果は、それぞれの味方ごとに攻撃を行うと消失します。",
+				"concise": "シャウト： (5...20 秒) 声の届く範囲内にいるパーティー メンバーは、移動していない間の防御力が24増加します。その味方が攻撃を行うと、この効果は消失します。"
+			},
+			"kr": {
+				"name": "물러서지 마라!(대인전)",
+				"description": "고함. 대상 지정: 없음. 5...20초 동안 가청 범위 내에 있는 모든 파티원은 이동하지 않으면 방어력이 24 증가합니다. 효과를 받는 대상이 공격을 하면 그 효과가 끝납니다.",
+				"concise": "고함. (5...20초) 가청 범위 내에 있는 파티원들이 멈춰 있을 때 방어력이 24 증가합니다. 효과를 받는 파티원이 공격하면 그 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Utrzymać Pozycje! (PvP)",
+				"description": "Okrzyk. Przez 5...20 sek., wszyscy członkowie drużyny w zasięgu słuchu otrzymują +24 pkt. pancerza, jeśli się nie poruszają. Efekt przestaje działać na sojuszniku, jeśli ten zaatakuje.",
+				"concise": "Okrzyk. (5...20 sek.) Członkowie drużyny w zasięgu słuchu otrzymują +24 pkt. pancerza, jeżeli się nie poruszają. Przestaje działać, jeśli dany sojusznik zaatakuje."
+			},
+			"ru": {
+				"name": "\"Stand Your Ground!\" (PvP)",
+				"description": "Крик. В течение 5...20 сек у всех членов вашего отряда, находящихся в зоне слышимости, защита увеличивается на 24 ед., когда они не двигаются. У союзника, затронутого этим эффектом, действие этого умения закончится, если этот союзник атакует.",
+				"concise": "Крик. (5...20 сек) Члены отряда в зоне слышимости получают +24 ед. к защите, пока они не двигаются. Заканчивается у союзника, который атакует."
+			},
+			"bork": {
+				"name": "\"Stund Yuoor Gruoond!\" (PfP)",
+				"description": "Shuoot. Fur 5...20 secunds, aell paerty members veetheen iaershut receeefe-a +24 aermur vhee nut mufeeng. Thees iffffect inds oon un aelly aeffffected by thees shuoot vhee thaet aelly aettaecks.",
+				"concise": "Shuoot. (5...20 secunds.) Paerty members in iaershut gaeeen +24 aermur vhee nut mufeeng. Inds fur un aelly iff thaet aelly aettaecks."
 			}
 		}
 	}

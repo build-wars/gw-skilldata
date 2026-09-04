@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "熔岩之泉",
+				"description": "咒文。 使邻近「熔岩之泉」的敌人受到 5...50点 火焰伤害，效果持续 5秒。",
+				"concise": "咒文。 使邻近「熔岩之泉」的敌人受到 5...50点 火焰伤害，效果持续 5秒。"
+			},
+			"cht": {
+				"name": "熔岩",
+				"description": "咒文魔法： 持續 5 秒，鄰近熔岩引發地點的敵人受到 5...50 火焰傷害。",
+				"concise": "咒文魔法： 持續 5 秒，鄰近熔岩引發地點的敵人受到 5...50 火焰傷害。"
+			},
 			"de": {
+				"name": "Lavabecken",
+				"description": "Zauber. 5 Sekunden lang erleiden umstehende Gegner am Wirkungsort dieses Zaubers 5...50 Punkte Feuerschaden pro Sekunde. Wenn Ihr Überzaubert seid, trifft dieser Zauber Feinde in der Nähe, anstatt umstehende Feinde.",
+				"concise": "Zauber. Richtet 5...50 Punkte Feuerschaden pro Sekunde an (5 Sekunden). Trifft Feinde in der Nähe Eurer ursprünglichen Position. Wenn Überzaubert, dann wird die Reichweite zu In der Nähe erhöht."
+			},
+			"de-guildwiki": {
 				"name": "Lavabecken",
 				"description": "5 Sekunden lang erleiden umstehende Gegner am Wirkungsort dieses Zaubers 5...50 Punkte Feuerschaden pro Sekunde. Wenn Ihr Überzaubert seid, trifft dieser Zauber Feinde in der Nähe, anstatt umstehende Feinde.",
 				"concise": "Richtet jede Sekunde 5...50 Punkte Feuerschaden an (5 Sekunden). Trifft umstehende Feinde an Eurer ursprünglichen Position. Wenn Überzaubert, dann wird die Reichweite zu In der Nähe erhöht."
 			},
 			"en": {
 				"name": "Lava Font",
+				"description": "Spell. For 5 seconds, foes adjacent to the location where this spell was cast are struck for 5...50 fire damage each second. If you are Overcast, this spell strikes nearby foes instead of adjacent ones.",
+				"concise": "Spell. Deals 5...50 fire damage each second (5 seconds). Hits foes adjacent to your initial location. If Overcast, range increased to nearby."
+			},
+			"en-gww": {
+				"name": "Lava Font",
 				"description": "For 5 seconds, foes adjacent to the location where this spell was cast are struck for 5...50 fire damage each second. If you are Overcast, this spell strikes nearby foes instead of adjacent ones.",
 				"concise": "Deals 5...50 fire damage each second (5 seconds). Hits foes adjacent to your initial location. If Overcast, range increased to nearby."
 			},
+			"es": {
+				"name": "Fuente de lava",
+				"description": "Conjuro. Durante 5 segundos, los enemigos adyacentes al lugar donde se lanzó el conjuro recibirán 5...50 de daño de fuego por segundo. Si estás sobrelanzando, este conjuro golpea a los enemigos cercanos en vez de a los adyacentes.",
+				"concise": "Conjuro. Hace 5...50 de daño de fuego por segundo (5 segundos). Alcanza a los enemigos adyacentes a tu ubicación inicial. Si estás sobrelanzando, se aumenta el alcance a los cercanos."
+			},
 			"fr": {
+				"name": "Fontaine de lave",
+				"description": "Sort. Pendant 5 secondes, les ennemis adjacents à la position où le sort a été lancé subissent 5...50 points de dégâts du feu chaque seconde. Si vous êtes en état d'Afflux, le sort frappe les ennemis à proximité au lieu des ennemis adjacents.",
+				"concise": "Sort. Inflige 5...50 points de dégâts du feu par seconde (5 secondes). Affecte les ennemis adjacents à votre position initiale. En état d'Afflux, le rayon d'action est étendu aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Fontaine de lave",
 				"description": "Pendant 5 secondes, les ennemis adjacents à la position où le sort a été lancé subissent 5...50 points de dégâts du feu.",
 				"concise": "Inflige 5...50 points de dégâts du feu par secondes (5 secondes). Affecte les ennemis adjacents à votre position initiale."
+			},
+			"it": {
+				"name": "Sorgente di Lava",
+				"description": "Magia. Per 5 secondi, i nemici adiacenti alla posizione in cui viene attivata questa magia subiscono 5...50 danni da fuoco al secondo. Se sei sotto Sforzo, questa magia colpisce i nemici nelle vicinanze anziché quelli adiacenti.",
+				"concise": "Magia. Danni da fuoco inflitti al secondo: 5...50 al secondo (5 secondi). Colpisce i nemici adiacenti alla tua posizione iniziale. Se sotto Sforzo, il raggio si estende alle vicinanze."
+			},
+			"jp": {
+				"name": "ラヴァ フォント",
+				"description": "スペル： 5秒間、スペルを詠唱した場所に隣接する敵に毎秒 5...50 のファイア ダメージを与えます。プレイヤーが「疲労」状態の場合、周囲にいる敵にダメージを与えます。",
+				"concise": "スペル： 発動時にプレイヤーがいた場所に隣接する敵に毎秒 5...50 のファイア ダメージを与えます (5秒)。「疲労」状態の場合、攻撃範囲が周囲にいる敵まで広がります。"
+			},
+			"kr": {
+				"name": "용암의 열기",
+				"description": "마법. 대상 지정: 없음. 마법을 사용했던 위치에 인접한 적들은 5초 동안 매초 5...50의 불 대미지를 입습니다. 자신이 탈진 상태면 인접한 적들이 아니라 부근의 적들에게 효과를 줍니다.",
+				"concise": "마법. 마법 시전 위치에 인접한 적들에게 매초 5...50의 불 대미지를 줍니다.(5초) 자신이 탈진 상태면 부근의 적들에게 효과를 줍니다."
+			},
+			"pl": {
+				"name": "Krynica Lawy",
+				"description": "Czar. Przez 5 sek. przeciwnicy znajdujący się bezpośrednio w miejscu, w którym ten czar został rzucony otrzymują w każdej sekundzie 5...50 pkt. obrażeń od ognia. Jeśli jesteś pod wpływem Przemagicznienia, to zaklęcie trafia pobliskich wrogów, zamiast tych będących w bezpośrednim sąsiedztwie.",
+				"concise": "Czar. Zadaje 5...50 pkt. obrażeń od ognia na sek. (przez 5 sek.). Trafia wrogów w pobliżu twojego początkowego położenia. Podczas Przemagicznienia zasięg zwiększony do pobliskich przeciwników."
+			},
+			"ru": {
+				"name": "Lava Font",
+				"description": "Заклинание. В течение 5 сек противники, окружающие место, где было произнесено это заклинание, получают 5...50 ед. урона силой огня каждую секунду.",
+				"concise": "Заклинание. Наносит 5...50 ед. урона силой огня каждую секунду (5 сек). Поражает противников, окружающих ваше первоначальное местоположение."
+			},
+			"bork": {
+				"name": "Laefa Funt",
+				"description": "Spell. Fur 5 secunds, fues aedjaecent tu zee lucaeshun vhere-a thees spell vaes caest aere-a stroock fur 5...50 fure-a daemaege-a iaech secund. Iff yuoo aere-a Oofercaest, thees spell streekes neaerby fues insteaed ooff aedjaecent oones.",
+				"concise": "Spell. Deaels 5...50 fure-a daemaege-a iaech secund (5 secunds). Heets fues aedjaecent tu yuoor ineeteeael lucaeshun. Iff Oofercaest, runge-a increaesed tu neaerby."
 			}
 		}
 	}

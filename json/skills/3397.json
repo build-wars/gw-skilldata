@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "元素火焰",
+				"description": "增益魔法。 在5...20秒之内，当作用在目标敌人身上的某个「元素类负面魔法」消失时，该敌人将遭受「灼烧」症状1...2秒。",
+				"concise": "增益魔法。 在5...20秒之内，当作用在目标敌人身上的某个「元素类负面魔法」消失时，该敌人将遭受「灼烧」症状1...2秒。"
+			},
+			"cht": {
+				"name": "元素火焰",
+				"description": "加持魔法： 持續5...20秒，每當一項元素降咒加到目標敵人上，該目標受到著火1...2秒。",
+				"concise": "加持魔法： 持續5...20秒，每當一項元素降咒加到目標敵人上，該目標受到著火1...2秒。"
+			},
 			"de": {
+				"name": "Elementare Flamme (PvP)",
+				"description": "Verzauberung. Während der nächsten 5...20 Sekunden wird der Gegner jedes Mal, wenn auf ihn eine Elementar-Verhexung gerichtet wird, 1...2 Sekunden lang in Brand gesetzt.",
+				"concise": "Verzauberung. (5...20 Sekunden.) Verursacht jedes Mal den Zustand Brennen (1...2 Sekunden), wenn eine Elementar-Verhexung auf den Gegner gerichtet wird."
+			},
+			"de-guildwiki": {
 				"name": "Elementare Flamme (PvP)",
 				"description": "Während der nächsten 5...20 Sekunden wird der Gegner jedes Mal, wenn auf ihn eine Elementar-Verhexung gerichtet wird, 1...2 Sekunden lang in Brand gesetzt.",
 				"concise": "(5...20 Sekunden.) Verursacht jedes Mal Zustand Brennen (1...2 Sekunden), wenn eine Elementar-Verhexung auf den Gegner gerichtet wird."
 			},
 			"en": {
 				"name": "Elemental Flame (PvP)",
+				"description": "Enchantment Spell. For 5...20 seconds, whenever you apply an Elemental hex to a foe, that foe is set on fire for 1...2 seconds.",
+				"concise": "Enchantment Spell. (5...20 seconds.) Inflicts Burning condition (1...2 seconds) whenever you apply an Elemental hex to a target."
+			},
+			"en-gww": {
+				"name": "Elemental Flame (PvP)",
 				"description": "For 5...20 seconds, whenever you apply an Elemental hex to a foe, that foe is set on fire for 1...2 second[s].",
 				"concise": "(5...20 seconds.) Inflicts Burning condition (1...2 second[s]) whenever you apply an Elemental hex to a target."
 			},
+			"es": {
+				"name": "Llama elemental (PvP)",
+				"description": "Conjuro con encantamiento. Durante 5...20 segundos, siempre que apliques un maleficio elemental a un enemigo, arderá durante 1...2 segundos.",
+				"concise": "Conjuro con encantamiento. (5...20 segundos.) Causa quemadura (1...2 segundos) cuando se lanza un maleficio elemental al objetivo."
+			},
 			"fr": {
+				"name": "Flamme élémentaire (PvP)",
+				"description": "Enchantement. Pendant 5...20 secondes, chaque fois que vous infligez un maléfice élémentaire à un ennemi ciblé, cet ennemi s'embrase pendant 1...2 secondes.",
+				"concise": "Enchantement. (5...20 secondes.) Inflige la Brûlure (1...2 secondes) chaque fois que vous infligez un maléfice élémentaire à un ennemi visé."
+			},
+			"fr-gwiki": {
 				"name": "Flamme élémentaire (PvP)",
 				"description": "Pendant 5...20 secondes, chaque fois que vous infligez unmaléfice élémentaire à un ennemi ciblé, cet ennemi s'embrase pendant 1...2 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fiamma Elementale (PvP)",
+				"description": "Incantesimo. Per 5...20 secondi, ogni volta che una fattura Elementale termina sull'obiettivo nemico, questi prende fuoco per 1...2 secondi.",
+				"concise": "Incantesimo. (Secondi: 5...20.) Condizione inflitta ogni volta che una fattura Elementale viene applicata all'obiettivo nemico: Bruciatura (Secondi: 1...2)."
+			},
+			"jp": {
+				"name": "エレメンタル フレイム (PvP)",
+				"description": "強化スペル： 5...20 秒間、プレイヤーが敵に元素特性の弱体化スペルをかけるたびに、その敵は 1...2 秒間「火傷」状態になります。",
+				"concise": "強化スペル： (5...20 秒) ターゲットした敵に元素特性の弱体化スペルをかけるたびに、「火傷」状態にします (1...2 秒)。"
+			},
+			"kr": {
+				"name": "정령 불꽃(대인전)",
+				"description": "강화 마법. 대상 지정: 적. 5...20초 동안 정령 속성 약화 마법을 대상에게 걸 때마다 대상은 1...2초 동안 화상 상태가 됩니다.",
+				"concise": "강화 마법. (5...20초) 적에게 정령 속성 약화 마법을 걸 때마다 화상을 입힙니다.(1...2초)"
+			},
+			"pl": {
+				"name": "Żywiołowy Płomień (PvP)",
+				"description": "Zaklęcie (czar). Przez 5...20 sek., za każdym razem, kiedy nałożysz klątwę żywiołu na wybranego przeciwnika, zacznie on płonąć przez 1...2 sek.",
+				"concise": "Zaklęcie (czar). (5...20 sek.) Powoduje podpalenie (przez 1...2 sek.) za każdym razem, kiedy rzucisz klątwę żywiołu na cel."
+			},
+			"ru": {
+				"name": "Elemental Flame (PvP)",
+				"description": "Заклинание-чары. В течение 5...20 сек каждый раз, когда вы накладываете на противника проклятье, связанное с талантом какой-либо Стихии, этот противник загорится на 1...2 сек.",
+				"concise": "Заклинание-чары. (5...20 сек) Поджигает (1...2 сек) каждый раз, когда вы накладывается на цель проклятье, связанное с талантом какой-либо Стихии."
+			},
+			"bork": {
+				"name": "Ilementael Flaeme-a (PfP)",
+				"description": "Inchuntment Spell. Fur 5...20 secunds, vhenefer yuoo aepply un Ilementael hex tu a fue-a, thaet fue-a is set oon fure-a fur 1...2 secunds.",
+				"concise": "Inchuntment Spell. (5...20 secunds.) Inffleects Boorneeng cundeeshun (1...2 secunds) vhenefer yuoo aepply un Ilementael hex tu a taerget."
 			}
 		}
 	}

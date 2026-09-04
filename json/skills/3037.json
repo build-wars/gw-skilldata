@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"后退！\"",
+				"description": "战吼。 在4...10秒之内，使「音波」范围内，所有正在移动的友方移动速度提升33%，同时每秒获得5...15点生命值。当友方击中敌人时，此技能的效果消失。",
+				"concise": "战吼。 在4...10秒之内，使「音波」范围内，所有正在移动的友方移动速度提升33%，同时每秒获得5...15点生命值。当友方击中敌人时，此技能的效果消失。"
+			},
+			"cht": {
+				"name": "「回防！」(PvP)",
+				"description": "戰嚎： 持續4...10秒，在音量所及範圍內的盟友移動速度增加33%且移動時每秒獲得5...15體力。而當盟友成功擊中目標時，此戰嚎對其的影響終止。",
+				"concise": "戰嚎： 持續4...10秒，在音量所及範圍內的盟友移動速度增加33%且移動時每秒獲得5...15體力。而當盟友成功擊中目標時，此戰嚎對其的影響終止。"
+			},
 			"de": {
+				"name": "\"Zurückweichen!\" (PvP)",
+				"description": "Schrei. 4...10 Sekunde[n] erhalten alle Verbündeten in Hörweite 5...15 Lebenspunkt[e] pro Sekunde, wenn sie sich bewegen und bewegen sich um 33% schneller. \"Zurückweichen!\" endet bei einem Verbündeten, der von diesem Schrei betroffen ist, wenn er erfolgreich angreift.",
+				"concise": "Schrei. (4...10 Sekunde[n].) Verbündete in Hörweite erhalten 5...15 Lebenspunkt[e] pro Sekunde, wenn sie sich bewegen. Sie bewegen sich um 33% schneller. Endet für einen Verbündeten, wenn er mit einem Angriff trifft."
+			},
+			"de-guildwiki": {
 				"name": "\"Zurückweichen!\" (PvP)",
 				"description": "4...10 Sekunden erhalten alle Verbündeten in Hörweite 5...15 Lebenspunkte pro Sekunde, wenn sie sich bewegen und bewegen sich um 33% schneller. \"Zurückweichen!\" endet bei einem Verbündeten, der von diesem Schrei betroffen ist, wenn er erfolgreich angreift.",
 				"concise": "4...10 Sekunden: Verbündete in Hörweite erhalten 5...15 Lebenspunkte pro Sekunde, wenn sie sich bewegen. Sie bewegen sich um 33% schneller. <gray>Endet für einen Verbündeten, wenn er mit einem Angriff trifft.</gray>"
 			},
 			"en": {
 				"name": "\"Fall Back!\" (PvP)",
+				"description": "Shout. For 4...10 seconds, all allies within earshot gain 5...15 Health per second while moving and move 33% faster. \"Fall Back!\" ends on an ally affected by this shout when that ally successfully hits with an attack.",
+				"concise": "Shout. (4...10 seconds.) Allies in earshot gain 5...15 Health per second while moving and move 33% faster. Ends for an ally if that ally hits with an attack."
+			},
+			"en-gww": {
+				"name": "\"Fall Back!\" (PvP)",
 				"description": "For 4...10 seconds, all allies within earshot gain 5...15 Health per second while moving and move 33% faster. \"Fall Back!\" ends on an ally affected by this shout when that ally successfully hits with an attack.",
 				"concise": "(4...10 seconds.) Allies in earshot gain 5...15 Health per second while moving and move 33% faster. <gray>Ends for an ally if that ally hits with an attack.</gray>"
 			},
+			"es": {
+				"name": "\"¡Atrás!\" (PvP)",
+				"description": "Grito. Durante 4...10 segundos, todos los aliados al alcance del oído ganan 5...15 de salud por segundo mientras se muevan y se mueven un 33% más deprisa. Este grito termina en un aliado si éste logra hacer un ataque.",
+				"concise": "Grito. (4...10 segundos.) Los aliados al alcance del oído se mueven un 33% más deprisa y ganan 5...15 de salud por segundo mientras se muevan. Alcanza a un aliado si éste logra hacer un ataque."
+			},
 			"fr": {
+				"name": "\"Repliez-vous !\" (PvP)",
+				"description": "Cri. Pendant 4...10 secondes, tous les alliés à portée de voix bénéficient de 5...15 points de vie par seconde lorsqu'ils sont en mouvement et se déplacent 33% plus vite. \"Repliez-vous !\" prend fin sur l'allié affecté par ce cri lorsque cet allié réussit une attaque.",
+				"concise": "Cri. (4...10 secondes.) Les alliés à portée de voix gagnent 5...15 points de vie par seconde quand ils sont en mouvement et se déplacent 33% plus vite. Prend fin pour tout allié réussissant une attaque."
+			},
+			"fr-gwiki": {
 				"name": "\"Repliez-vous !\" (PvP)",
 				"description": "Pendant 4...10 secondes, tous les alliés à portée de voix bénéficient de 5...15 points de vie par seconde lorsqu'ils sont en mouvement et se déplacent 33% plus vite. \"Repliez-vous !\" prend fin sur l'allié affecté par ce cri lorsque cet allié réussit une attaque.",
 				"concise": "(4...10 secondes.) Les alliés à portée de voix gagnent 5...15 points de vie par seconde quand ils sont en mouvement et se déplacent 33% plus vite. <gray>Prend fin pour tout allié réussissant une attaque.</gray>"
+			},
+			"it": {
+				"name": "\"Ripieghiamo!\" (PvP)",
+				"description": "Urlo. Per 4...10 secondi tutti gli alleati a portata d'orecchio ottengono 5...15 Punti Salute al secondo mentre si muovono e la loro velocità di movimento aumenta del 33%. Questa abilità termina su un alleato affetto da questo urlo se questi mette a segno un attacco.",
+				"concise": "Urlo. (Secondi: 4...10). Incremento velocità di movimento di tutti gli alleati a portata d'orecchio: 33%. Salute conseguita mentre si muovono: 5...15. Termina per un alleato se un suo attacco va a segno."
+			},
+			"jp": {
+				"name": "フォール バック！ (PvP)",
+				"description": "シャウト： 4...10 秒間、声の届く範囲内を移動中の味方は、体力を毎秒 5...15 獲得し、移動速度が 33% 増加します。この効果は、各味方ごとに攻撃が成功すると消失します。",
+				"concise": "シャウト： (4...10 秒) 声の届く範囲内にいる味方は移動中、毎秒 5...15 の体力を獲得し、移動速度が 33% 増加します。ターゲットが攻撃に成功すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "후퇴!(대인전)",
+				"description": "고함. 대상 지정: 없음. 4...10초 동안 가청 범위 내에서 이동 중인 모든 아군은 매초 5...15의 체력을 회복하고, 이동 속도가 33% 빨라집니다. 공격이 성공한 아군은 이 고함의 효과를 잃습니다.",
+				"concise": "고함. (4...10초) 가청 범위 내에 있는 아군은 이동 중에 매초 5...15의 체력을 얻고, 이동 속도가 33% 빨라집니다. 공격이 성공한 아군은 이 고함의 효과를 잃습니다."
+			},
+			"pl": {
+				"name": "Wycofać Się! (PvP)",
+				"description": "Okrzyk. Przez 4...10 sek. wszyscy poruszający się sojusznicy w zasięgu słuchu otrzymują 5...15 pkt. żywotności na sek., a ich szybkość zwiększa się o 33%. \"Wycofać Się!\" przestanie działać na sojuszniku z jego kolejnym trafionym atakiem.",
+				"concise": "Okrzyk. (4...10 sek.) Wszyscy poruszający się sojusznicy w zasięgu słuchu otrzymują 5...15 pkt. żywotności na sek., a ich szybkość ruchu zwiększa się o 33%. Przestanie działać na sojusznika, jeśli jego atak trafi."
+			},
+			"ru": {
+				"name": "\"Fall Back!\" (PvP)",
+				"description": "Крик. В течение 4...10 сек все союзники, находящиеся в зоне слышимости, двигаются на 33% быстрее и получают 5...15 ед. здоровья каждую секунду до тех пор, пока они находятся в движении. Воздействие \"Fall Back!\" на союзника заканчивается после того, как этот союзник проведет успешную атаку.",
+				"concise": "Крик. (4...10 сек) Союзники в зоне слышимости получают 5...15 ед. здоровья в секунду во время движения и двигаются на 33% быстрее. Заканчивается для тех союзников, которые проводят успешную атаку."
+			},
+			"bork": {
+				"name": "\"Faell Baeck!\" (PfP)",
+				"description": "Shuoot. Fur 4...10 secunds, aell aelleees veetheen iaershut gaeeen 5...15 Heaelt per secund vheele-a mufeeng und mufe-a 33% faester. \"Faell Baeck!\" inds oon un aelly aeffffected by thees shuoot vhee thaet aelly sooccessffoolly heets veet un aettaeck.",
+				"concise": "Shuoot. (4...10 secunds.) Aelleees in iaershut gaeeen 5...15 Heaelt per secund vheele-a mufeeng und mufe-a 33% faester. Inds fur un aelly iff thaet aelly heets veet un aettaeck."
 			}
 		}
 	}

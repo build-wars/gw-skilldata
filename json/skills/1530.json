@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神光纹章",
+				"description": "纹章。 驱散自身的一项「增益魔法」，并治疗友方目标30...150点生命值。驱散成功后，此技能将立即冷却。",
+				"concise": "纹章。 驱散自身的一项「增益魔法」，并治疗友方目标30...150点生命值。驱散成功后，此技能将立即冷却。"
+			},
+			"cht": {
+				"name": "虔誠紋章",
+				"description": "紋章： 治療目標盟友 30...150 體力，移除自身一項神喚使加持，若移除成功，則此技能回復速度加快 75% 。",
+				"concise": "紋章： 治療目標盟友 30...150 體力，移除自身一項神喚使加持，若移除成功，則此技能回復速度加快 75% 。"
+			},
 			"de": {
+				"name": "Siegel des frommen Lichts",
+				"description": "Siegel. Entfernt 1 Derwisch-Verzauberung. Heilt Verbündeten (bzw. Euch selbst) um 30...150 Lebenspunkt[e]. Wenn eine Verzauberung auf diese Weise entfernt wird, lädt dieses Siegel 75% schneller wieder auf.",
+				"concise": "Siegel. Heilt 30...150 Lebenspunkt[e]. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Lädt 75% schneller wieder auf."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des frommen Lichts",
 				"description": "Entfernt 1 Derwisch-Verzauberung. Heilt Verbündeten (bzw. Euch selbst) um 30...150 Lebenspunkte. Wenn eine Verzauberung auf diese Weise entfernt wird, lädt dieses Siegel 75% schneller wieder auf.",
 				"concise": "Heilt 30...150 Lebenspunkte. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungswirkung: Lädt 75% schneller wieder auf."
 			},
 			"en": {
 				"name": "Signet of Pious Light",
+				"description": "Signet. Remove 1 Dervish enchantment. Target ally is healed for 30...150 Health. If an enchantment was removed in this way, this signet recharges 75% faster.",
+				"concise": "Signet. Heals for 30...150 Health. Removes 1 of your Dervish enchantments. Removal effect: recharges 75% faster."
+			},
+			"en-gww": {
+				"name": "Signet of Pious Light",
 				"description": "Remove 1 Dervish enchantment. Target ally is healed for 30...150 Health. If an enchantment was removed in this way, this signet recharges 75% faster.",
 				"concise": "Heals for 30...150. Removes one of your Dervish enchantments. Removal effect: recharges 75% faster."
 			},
+			"es": {
+				"name": "Sello de luz piadosa",
+				"description": "Sello. Quita un encantamiento de Derviche. Curas 30...150 de salud al aliado objetivo. Si se quitó un encantamiento de esta manera, este sello se recarga un 75% más rápido.",
+				"concise": "Sello. Cura 30...150 de salud. Quita uno de tus encantamientos de Derviche. Efecto de eliminación: se recarga un 75% más rápido."
+			},
 			"fr": {
+				"name": "Sceau de lumière pieuse",
+				"description": "Sceau. Supprime un enchantement de Derviche. Soigne l'allié ciblé à hauteur de 30...150 points de vie. Si un enchantement est levé de cette façon, ce Sceau se recharge 75% plus vite.",
+				"concise": "Sceau. Soigne de 30...150 points de vie. Supprime un de vos enchantements de Derviche. Effet de la suppression : rechargement 75% plus rapide."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de lumière pieuse",
 				"description": "Vous perdez 1 enchantement. La cible visée (un allié ou vous-même) est soignée de 30...120 points de vie. Si un enchantement a été supprimé de cette manière, ce sceau se recharge immédiatement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo di Luce Pia",
+				"description": "Sigillo. Rimuove 1 Incantesimo del Derviscio. L'obiettivo alleato viene curato di 30...150 Punti Salute. Se un incantesimo è stato rimosso in questo modo, questo sigillo si ricarica più velocemente di un 75%.",
+				"concise": "Sigillo. Cura: 30...150 Punti Salute. Rimuove uno dei tuoi Incantesimi del Derviscio. Effetto della rimozione: ricarica più veloce del 75%."
+			},
+			"jp": {
+				"name": "パイアス ライト シグネット",
+				"description": "シグネット： ダルウィーシュの強化スペルを1個解除します。ターゲットした味方は体力が 30...150 回復します。この効果により強化スペルを解除すると、このシグネットの再使用時間が 75% 減少します。",
+				"concise": "シグネット： 体力が 30...150 回復します。かけられているダルウィーシュの強化スペルを1個解除します。解除効果： 再使用時間が 75% 減少します。"
+			},
+			"kr": {
+				"name": "경건한 빛 인장",
+				"description": "인장. 대상 지정: 아군. 자신에게 걸린 더비시 강화 마법 하나가 무효화되고, 대상의 체력을 30...150만큼 회복시킵니다. 이렇게 강화 마법이 무효화되면 이 인장의 재활성이 75% 빨라집니다.",
+				"concise": "인장. 체력을 30...150만큼 회복시키고, 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 재활성이 75% 빨라집니다."
+			},
+			"pl": {
+				"name": "Sygnet Nabożnego Światła",
+				"description": "Sygnet. Usuwa jedno zaklęcie derwisza. Wybrany sojusznik odzyskuje 30...150 pkt. żywotności. Jeśli w ten sposób zostanie usunięte zaklęcie, sygnet ten odnowi się 75% szybciej.",
+				"concise": "Sygnet. Przywraca 30...150 pkt. żywotności. Usuwa jedno z twoich zaklęć derwisza. Efekt usunięcia: Odnawia się 75% szybciej."
+			},
+			"ru": {
+				"name": "Signet of Pious Light",
+				"description": "Печать. Снимает 1 чары профессии Dervish. Выбранный союзник будет исцелен на 30...150 ед. здоровья. Если чары были сняты при помощи этого умения, эта печать перезаряжается на 75% быстрее.",
+				"concise": "Печать. Исцеляет на 30...150 ед. здоровья. Снимает с вас 1 чары профессии Dervish. Эффект снятия: перезаряжается на 75% быстрее."
+			},
+			"bork": {
+				"name": "Seegnet ooff Peeuoos Leeght",
+				"description": "Seegnet. Remufe-a 1 Derfeesh inchuntment. Taerget aelly is heaeled fur 30...150 Heaelt. Iff un inchuntment vaes remufed in thees vaey, thees seegnet rechaerges 75% faester.",
+				"concise": "Seegnet. Heaels fur 30...150 Heaelt. Remufes 1 ooff yuoor Derfeesh inchuntments. Remufael iffffect: rechaerges 75% faester."
 			}
 		}
 	}

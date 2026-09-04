@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "巨龙践踏",
+				"description": "咒文。 在目标敌人处引发巨龙践踏。使接近该地点的所有敌人受到 26...100 地系伤害并且被击倒。此魔法会造成施法者疲劳。",
+				"concise": "咒文。 在目标敌人处引发巨龙践踏。使接近该地点的所有敌人受到 26...100 地系伤害并且被击倒。此魔法会造成施法者疲劳。"
+			},
+			"cht": {
+				"name": "地龍踩踏",
+				"description": "咒文魔法： 在目標敵人處引發地龍踩踏。使接近該地點的所有敵人受到 26...100 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。",
+				"concise": "咒文魔法： 在目標敵人處引發地龍踩踏。使接近該地點的所有敵人受到 26...100 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Drachenstampfer",
+				"description": "Zauber. An der Position des Gegners wird ein Drachenstampfer beschworen. Alle Gegner in diesem Gebiet werden zu Boden geworfen und erleiden 26...100 Punkt[e] Erdschaden.",
+				"concise": "Zauber. Richtet 26...100 Punkt[e] Erdschaden an. Wirft zu Boden. Trifft auch Feinde in der Nähe des Gegners."
+			},
+			"de-guildwiki": {
 				"name": "Drachenstampfer",
 				"description": "Ihr beschwört an der Position des Zielgegners einen Drachenstampfer. Alle Gegner in diesem Gebiet werden zu Boden geworfen und erleiden 26...100 Punkte Erdschaden.",
 				"concise": "Richtet 26...100 Punkte Erdschaden an. Trifft auch Feinde in der Nähe des Gegners."
 			},
 			"en": {
 				"name": "Dragon's Stomp",
+				"description": "Spell. You invoke a Dragon's Stomp at target foe's location. All foes near this location are knocked down and are struck for 26...100 earth damage.",
+				"concise": "Spell. Deals 26...100 earth damage. Causes knock-down. Also hits foes near this foe."
+			},
+			"en-gww": {
+				"name": "Dragon's Stomp",
 				"description": "You invoke a Dragon's Stomp at target foe's location. All foes near this location are knocked down and are struck for 26...100 earth damage.",
 				"concise": "Deals 26...100 earth damage. Causes knock-down. Also hits foes near this foe."
 			},
+			"es": {
+				"name": "Pisotón de dragón",
+				"description": "Conjuro. Invocas un Pisotón de dragón en la ubicación del enemigo objetivo. Todos los enemigos cercanos a esa ubicación son derribados y reciben 26...100 de daño de tierra.",
+				"concise": "Conjuro. Causa 26...100 de daño de tierra. Causa derribo. También afecta a los enemigos cercanos a este enemigo."
+			},
 			"fr": {
+				"name": "Pas du dragon",
+				"description": "Sort. Vous invoquez un Pas du dragon sur la position de l'ennemi visé. Tous les ennemis près de cette position sont renversés et subissent 26...100 points de dégâts de la terre.",
+				"concise": "Sort. Inflige 26...100 points de dégâts de la terre. Renverse. Affecte également les ennemis près de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Pas du dragon",
 				"description": "Vous invoquez un Pas du dragon sur la position de l'ennemi visé. Tous les ennemis près de cette position sont assommés et subissent 26...100 points de dégâts de la terre. Ce sort entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Passo del Drago",
+				"description": "Magia. Evochi un Passo del Drago nella posizione dell'obiettivo nemico. Tutti i nemici nei dintorni di questa posizione vengono abbattuti e subiscono 26...100 danni da terra.",
+				"concise": "Magia. Infligge 26...100 danni da terra. Provoca abbattimento. Colpisce anche i nemici vicino a questo nemico."
+			},
+			"jp": {
+				"name": "ドラゴン ストンプ",
+				"description": "スペル： ターゲットした敵の場所に大地震を起こします。その周囲にいる敵はすべて転倒し、26...100 のアース ダメージを受けます。",
+				"concise": "スペル： ターゲットした敵および周囲にいる敵に 26...100 のアース ダメージを与えて転倒させます。"
+			},
+			"kr": {
+				"name": "용의 발구름",
+				"description": "마법. 대상 지정: 적. 대상이 있는 위치에 강력한 용의 발구름을 일으킵니다. 그 부근의 모든 적은 바닥에 넘어지고, 26...100의 대지 대미지를 입습니다.",
+				"concise": "마법. 대상과 그 부근의 적들에게 26...100의 대지 대미지를 주고, 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Tupnięcie Smoka",
+				"description": "Czar. W miejscu, gdzie znajduje się wybrany przeciwnik wywołujesz Tupnięcie Smoka. Wszyscy przeciwnicy na tym obszarze zostają powaleni i otrzymują 26...100 pkt. obrażeń od ziemi. Ten czar powoduje wyczerpanie.",
+				"concise": "Czar. Zadaje 26...100 pkt. obrażeń od ziemi. Powoduje powalenie. Trafia także przeciwników w pobliżu tego przeciwnika. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Dragon's Stomp",
+				"description": "Заклинание. Вы вызываете Dragon's Stomp в точке нахождения выбранного противника. Все противники, находящиеся поблизости от этого места, будут сбиты с ног и получат 26...100 ед. урона силой земли.",
+				"concise": "Заклинание. Наносит 26...100 ед. урона силой земли. Сбивает с ног. Также поражает противников поблизости от этого противника."
+			},
+			"bork": {
+				"name": "Draegun's Stump",
+				"description": "Spell. Yuoo infuke-a a Draegun's Stump aet taerget fue-a's lucaeshun. Aell fues neaer thees lucaeshun aere-a knucked doon und aere-a stroock fur 26...100 iaert daemaege-a.",
+				"concise": "Spell. Deaels 26...100 iaert daemaege-a. Cooses knuck-doon. Aelsu heets fues neaer thees fue-a."
 			}
 		}
 	}

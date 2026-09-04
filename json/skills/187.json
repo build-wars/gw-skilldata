@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "流星",
+				"description": "咒文。 击倒目标敌人及邻近他的所有我方敌人，并使他们受到7...112点火焰伤害。此法术会引发施法者的「疲劳」状态。",
+				"concise": "咒文。 向目标射出一个火球，火球击中目标后产生爆炸，溅射的火屑对该目标及其所有附近的敌人造成7...112点火焰伤害。"
+			},
+			"cht": {
+				"name": "隕石",
+				"description": "咒文魔法： 使目標敵人及其所有鄰近的敵人受到 7...112 火焰傷害並且被擊倒。此魔法會造成施法者精疲力竭。",
+				"concise": "咒文魔法： 使目標敵人及其所有鄰近的敵人受到 7...112 火焰傷害並且被擊倒。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Meteor",
+				"description": "Zauber. Der Gegner und alle umstehenden Feinde erleiden 7...112 Punkt[e] Feuerschaden und werden zu Boden geworfen.",
+				"concise": "Zauber. Richtet 7...112 Punkt[e] Feuerschaden an und wirft zu Boden. Trifft auch umstehende Feinde um den Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Meteor",
 				"description": "Der Gegner und alle umstehenden Feinde erleiden 7...112 Punkte Feuerschaden und werden zu Boden geworfen.",
 				"concise": "Richtet 7...112 Punkte Feuerschaden an und wirft zu Boden. Trifft auch umstehende Feinde um den Gegner."
 			},
 			"en": {
 				"name": "Meteor",
+				"description": "Spell. Target foe and all adjacent foes are struck for 7...112 fire damage and knocked down.",
+				"concise": "Spell. Deals 7...112 fire damage and causes knock-down. Also hits foes adjacent to target foe."
+			},
+			"en-gww": {
+				"name": "Meteor",
 				"description": "Target foe and all adjacent foes are struck for 7...112 fire damage and knocked down.",
 				"concise": "Deals 7...112 fire damage and causes knock-down. Also hits foes adjacent to target foe."
 			},
+			"es": {
+				"name": "Meteoro",
+				"description": "Conjuro. El enemigo objetivo y todos los adyacentes son derribados y reciben 7...112 de daño de fuego.",
+				"concise": "Conjuro. Hace 7...112 de daño de fuego y causa derribo. También afecta a los enemigos adyacentes al enemigo objetivo."
+			},
 			"fr": {
+				"name": "Météore",
+				"description": "Sort. La cible ennemie et tous les ennemis adjacents sont renversés et subissent 7...112 points de dégâts du feu.",
+				"concise": "Sort. Inflige 7...112 points de dégâts du feu et renverse. Affecte également les ennemis près de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Météore",
 				"description": "L'ennemi visé et tous les ennemis adjacents reçoivent 7...112 points de dégâts du feu et sont assommés. Ce sort entraîne l'épuisement.",
 				"concise": "Inflige 7...112 points de dégâts du feu et assomme. Frappe également les ennemis adjacents à la cible. <gray>Vous souffrez d'Epuisement.</gray>"
+			},
+			"it": {
+				"name": "Meteora",
+				"description": "Magia. L'obiettivo nemico e tutti i nemici adiacenti subiscono 7...112 danni da fuoco e vengono abbattuti.",
+				"concise": "Magia. Danni da fuoco inferti: 7...112. Provoca abbattimento. Colpisce anche i nemici adiacenti all'obiettivo."
+			},
+			"jp": {
+				"name": "メテオ",
+				"description": "スペル： ターゲットした敵および隣接するすべての敵に 7...112 のファイア ダメージを与え、転倒させます。",
+				"concise": "スペル： ターゲットした敵および隣接する敵に 7...112 のファイア ダメージを与えて転倒させます。"
+			},
+			"kr": {
+				"name": "유성 강타",
+				"description": "마법. 대상 지정: 적. 대상과 그에 인접한 모든 적은 바닥에 넘어지면서 7...112의 불 대미지를 입습니다.",
+				"concise": "마법. 대상과 그에 인접한 적들을 바닥에 넘어뜨리고, 7...112의 불 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Meteoryt",
+				"description": "Czar. Wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim otrzymują 7...112 pkt. obrażeń od ognia i zostają powaleni. Ten czar powoduje wyczerpanie.",
+				"concise": "Czar. Zadaje 7...112 pkt. obrażeń od ognia i powala. Trafia także przeciwników bezpośrednio przy wybranym przeciwniku. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Meteor",
+				"description": "Заклинание. Выбранный противник и все окружающие его противники получают 7...112 ед. урона силой огня и будут сбиты с ног.",
+				"concise": "Заклинание. Наносит 7...112 ед. урона силой огня и сбивает с ног. Также поражает противников, окружающих выбранного противника."
+			},
+			"bork": {
+				"name": "Meteur",
+				"description": "Spell. Taerget fue-a und aell aedjaecent fues aere-a stroock fur 7...112 fure-a daemaege-a und knucked doon. Bork! Bork! Bork!",
+				"concise": "Spell. Deaels 7...112 fure-a daemaege-a und cooses knuck-doon. Aelsu heets fues aedjaecent tu taerget fue-a."
 			}
 		}
 	}

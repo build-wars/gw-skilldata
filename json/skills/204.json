@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "锈蚀",
+				"description": "负面魔法。 使目标及其所有邻近的敌人的「纹章」类技能施法时间增加三倍，技能持续5...20秒。",
+				"concise": "负面魔法。 使目标及其所有邻近的敌人的「纹章」类技能施法时间增加三倍，技能持续5...20秒。"
+			},
+			"cht": {
+				"name": "紋章鏽蝕",
+				"description": "降咒魔法： 持續5...20秒，對目標及其鄰近的敵人造成10...85冰凍傷害，並使這些敵人施展紋章時施法時間增加為2倍。",
+				"concise": "降咒魔法： 持續 5...20 秒，對目標及其鄰近的敵人造成 10...85 冰凍傷害，並使這些敵人施展紋章時施法時間增加為 2 倍。"
+			},
 			"de": {
+				"name": "Rost",
+				"description": "Verhexung. Richtet beim Gegner und umstehenden Feinden 10...85 Punkte Kälteschaden an. 5...20 Sekunden lang benötigen der Gegner und alle umstehenden Feinden doppelt so lange, um Siegel zu aktivieren. Wenn Ihr Überzaubert seid, werden Siegel von Gegnern, die von Rost getroffen sind, unterbrochen und für 1...10 Sekunden deaktiviert.",
+				"concise": "Verhexung. Richtet beim Gegner und umstehenden Feinden 10...85 Punkte Kälteschaden an. Verhext den Gegner und umstehende Feinde (5...20 Sekunden). Verdoppelt die Aktivierungszeit von Siegeln. Unterbricht und deaktiviert Siegel für 1...10 Sekunden, wenn Ihr Überzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Rost",
 				"description": "Richtet beim Gegner und allen umstehenden Feinden 10...85 Punkte Kälteschaden an. 5...20 Sekunden lang benötigen der Gegner und alle umstehenden Feinden<sic/> doppelt so lange, um Siegel zu aktivieren. Wenn Ihr Überzaubert seid, werden Siegel von Gegnern, die von Rost getroffen sind, unterbrochen und für 1...10 Sekunden deaktiviert.",
 				"concise": "Richtet beim Gegner und umstehenden Feinden 10...85 Punkte Kälteschaden an. Verhext den Gegner und umstehende Feinde (5...20 Sekunden). Verdoppelt die Aktivierungszeit von Siegeln. Unterbricht und deaktiviert Siegel für 1...10 Sekunden, wenn Ihr Überzaubert seid."
 			},
 			"en": {
 				"name": "Rust",
+				"description": "Hex Spell. Deals 10...85 cold damage to target and adjacent foes. For 5...20 seconds, target foe and all adjacent foes take twice as long to activate signets. If you are Overcast, foes struck with Rust have their signets interrupted and disabled for 1...10 seconds.",
+				"concise": "Hex Spell. Deals 10...85 cold damage to target and adjacent foes. Hexes target and adjacent foes (5...20 seconds). Doubles signet activation time. Interrupts and disables signets for 1...10 seconds if you are Overcast."
+			},
+			"en-gww": {
+				"name": "Rust",
 				"description": "Deals 10...85 cold damage to target and adjacent foes. For 5...20 seconds, target foe and all adjacent foes take twice as long to activate signets. If you are Overcast, foes struck with Rust have their signets interrupted and disabled for 1...10 second[s].",
 				"concise": "Deals 10...85 cold damage to target and adjacent foes. Hexes target and adjacent foes (5...20 seconds). Doubles signet activation time. Interrupts and disables signets for 1...10 second[s] if you are Overcast."
 			},
+			"es": {
+				"name": "Óxido",
+				"description": "Conjuro con maleficio. Hace 10...85 de daño frío al enemigo objetivo y los adyacentes. Durante 5...20 segundos, el enemigo objetivo y todos los adyacentes tardarán el doble en activar sellos. Si estás sobrelanzando, los sellos de los enemigos impactados con Óxido quedan interrumpidos y desactivados durante 1...10 segundos.",
+				"concise": "Conjuro con maleficio. Hace 10...85 de daño frío al enemigo objetivo y los adyacentes. Maldice a los enemigos adyacentes (5...20 segundos). Duplica el tiempo de activación de sellos. Interrumpe y desactiva los sellos durante 1...10 segundos si estás sobrelanzando."
+			},
 			"fr": {
+				"name": "Rouille",
+				"description": "Maléfice. Inflige 10...85 points de dégâts du froid à la cible et aux ennemis adjacents. Pendant 5...20 secondes, l'ennemi visé et tous les ennemis adjacents mettent deux fois plus de temps pour activer les sceaux. Si vous êtes en état d'Afflux, les sceaux des ennemis touchés sont interrompus et désactivés pendant 1...10 secondes.",
+				"concise": "Maléfice. Inflige 10...85 points de dégâts du froid à la cible et aux ennemis adjacents. Inflige des maléfices à la cible et aux ennemis adjacents (5...20 secondes). Double le temps d'activation des sceaux. Interrompt et désactive les sceaux pendant 1...10 secondes si vous êtes en état d'Afflux."
+			},
+			"fr-gwiki": {
 				"name": "Rouille",
 				"description": "Inflige 10...70 points de dégâts du froid. Pendant 5...20 secondes, la cible ennemie et tous les ennemis adjacents mettent 2 fois plus de temps à activer les Sceaux.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ruggine",
+				"description": "Fattura. Infligge 10...85 danni da freddo all'obiettivo e ai nemici adiacenti. Per 5...20 secondi, l'obiettivo nemico e tutti i nemici adiacenti impiegano 2 volte il tempo normale per attivare i Sigilli. Se sei sotto Sforzo, i sigilli dei nemici colpiti da Ruggine vengono interrotti e disattivati per 1...10 secondi.",
+				"concise": "Fattura. Danni da freddo inferti all'obiettivo e ai nemici adiacenti: 10...85. Colpisce con una fattura anche i nemici adiacenti (5...20 secondi). Raddoppia il tempo di attivazione dei Sigilli. Tempo di interruzione e disattivazione dei sigilli quando sotto Sforzo: 1...10 secondi."
+			},
+			"jp": {
+				"name": "ラスト",
+				"description": "弱体化スペル： ターゲットした敵および隣接する敵に 10...85 のコールド ダメージを与えます。5...20 秒間、ターゲットした敵および隣接するすべての敵は、シグネット スキルの発動に2倍の時間がかかります。プレイヤーが「疲労」状態の場合、この攻撃を受けた敵が使用するシグネットを中断し、1...10 秒間封じ込めます。",
+				"concise": "弱体化スペル： ターゲットした敵および隣接する敵に 10...85 のコールド ダメージを与えます。ターゲットおよび隣接する敵はシグネットの発動に2倍の時間がかかります (5...20 秒)。プレイヤーが「疲労」状態の場合、使用するシグネットを中断し、1...10 秒間封じ込めます。"
+			},
+			"kr": {
+				"name": "녹슨 인장",
+				"description": "약화 마법. 대상 지정: 적. 대상과 그에 인접한 적들에게 10...85의 냉기 대미지를 줍니다. 5...20초 동안 대상과 그에 인접한 모든 적은 인장 계열 스킬의 시전 시간이 2배로 늘어납니다. 자신이 탈진 상태면 적중 당한 적들의 인장 스킬을 방해하고, 1...10초 동안 사용할 수 없게 합니다.",
+				"concise": "약화 마법. 대상과 그에 인접한 적들에게 10...85의 냉기 대미지를 줍니다. 대상과 그에 인접한 적들의 인장 계열 스킬의 시전 시간이 2배로 늘어납니다.(5...20초) 자신이 탈진 상태면 적들의 인장 스킬을 방해하고, 1...10초 동안 사용할 수 없게 합니다."
+			},
+			"pl": {
+				"name": "Rdza",
+				"description": "Klątwa (czar). Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 10...85 pkt. obrażeń od zimna. Przez 5...20 sek. wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim potrzebują 2 razy więcej czasu na użycie sygnetów. Jeśli jesteś pod wpływem Przemagicznienia, przeciwnicy trafieni Rdzą nie mogą skorzystać ze swoich sygnetów przez 1...10 sek.",
+				"concise": "Klątwa (czar). Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 10...85 pkt. obrażeń od zimna. Nakłada klątwę na cel i przeciwników bezpośrednio przy nim (na 5...20 sek.). Podwaja czas aktywacji sygnetów. Przerywa i uniemożliwia wykorzystanie sygnetów na 1...10 sek., jeśli jesteś pod wpływem Przemagicznienia."
+			},
+			"ru": {
+				"name": "Rust",
+				"description": "Заклинание-проклятье. Наносит 10...85 ед. урона силой холода выбранному и окружающим противникам. В течение 5...20 сек выбранному противнику и всем окружающим его противникам требуется в 2 раза больше времени на активацию печатей. Если вы утомлены, печати у пораженных этим заклинанием противников будут прерваны и недоступны в течение 1...10 сек.",
+				"concise": "Заклинание-проклятье. Наносит 10...85 ед. урона силой холода выбранному и окружающим противникам. Также накладывает проклятье на цель и противников, окружающих цель (5...20 сек). Увеличивает в 2 раза время активации печатей. Прерывает печати и делает их недоступными на 1...10 сек, если вы утомлены."
+			},
+			"bork": {
+				"name": "Roost",
+				"description": "Hex Spell. Deaels 10...85 culd daemaege-a tu taerget und aedjaecent fues. Fur 5...20 secunds, taerget fue-a und aell aedjaecent fues taeke-a tveece-a aes lung tu aecteefaete-a seegnets. Iff yuoo aere-a Oofercaest, fues stroock veet Roost haefe-a zeeur seegnets interroopted und deesaebled fur 1...10 secunds. Bork! Bork! Bork!",
+				"concise": "Hex Spell. Deaels 10...85 culd daemaege-a tu taerget und aedjaecent fues. Hexes taerget und aedjaecent fues (5...20 secunds). Duoobles seegnet aecteefaeshun teeme-a. Interroopts und deesaebles seegnets fur 1...10 secunds iff yuoo aere-a Oofercaest."
 			}
 		}
 	}

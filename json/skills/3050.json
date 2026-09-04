@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猎杀链接",
+				"description": "战吼。 持续 5...20 秒，当你的宠物攻击命中目标时，你获得 1...31 生命。",
+				"concise": "战吼。 持续 5...20 秒，当你的宠物攻击命中目标时，你获得 1...31 生命。"
+			},
+			"cht": {
+				"name": "獵殺連結",
+				"description": "戰嚎： 持續5...20秒，每當寵物攻擊成功時你獲得1...31體力。",
+				"concise": "戰嚎： 持續5...20秒，每當寵物攻擊成功時你獲得1...31體力。"
+			},
 			"de": {
+				"name": "Raubtierverbindung (PvP)",
+				"description": "Schrei. Während der nächsten 5...20 Sekunde[n] werdet Ihr durch erfolgreiche Angriffe Eures Tiergefährten um 1...31 Punkt[e] geheilt.",
+				"concise": "Schrei. (5...20 Sekunde[n].) Ihr erhaltet bei jedem erfolgreichen Angriff Eures Tiergefährten 1...31 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Raubtierverbindung (PvP)",
 				"description": "Während der nächsten 5...20 Sekunden werdet Ihr durch Treffer Eures Tiergefährten um 1...31 Punkte geheilt.",
 				"concise": "5...20 Sekunden: Ihr erhaltet bei jedem erfolgreichen Angriff Eures Tiergefährten 1...31 Lebenspunkte."
 			},
 			"en": {
 				"name": "Predatory Bond (PvP)",
+				"description": "Shout. For 5...20 seconds, successful attacks by your animal companion heal you for 1...31 Health.",
+				"concise": "Shout. (5...20 seconds.) You gain 1...31 Health whenever your pet makes a successful attack."
+			},
+			"en-gww": {
+				"name": "Predatory Bond (PvP)",
 				"description": "For 5...20 seconds, attacks by your animal companion heal you for 1...31 Health.",
 				"concise": "(5...20 seconds.) You gain 1...31 Health whenever your pet makes a successful attack."
 			},
+			"es": {
+				"name": "Vínculo depredador (PvP)",
+				"description": "Grito. Durante 5...20 segundos, los ataques de tu mascota que alcancen al enemigo te harán recuperar 1...31 de salud.",
+				"concise": "Grito. (5...20 segundos.) Recuperarás 1...31 de salud cada vez que un ataque de tu mascota alcance al enemigo."
+			},
 			"fr": {
+				"name": "Lien du prédateur (PvP)",
+				"description": "Cri. Pendant 5...20 secondes, les attaques réussies de votre familier vous soignent de 1...31 points de vie.",
+				"concise": "Cri. (5...20 secondes.) Vous obtenez 1...31 points de vie chaque fois que votre familier réussit une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Lien du prédateur (PvP)",
 				"description": "Pendant 5...20 secondes, les attaques réussies de votre familiar vous soignent de 1...31 point(s) de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame Predatore (PvP)",
+				"description": "Urlo. Per 5...20 secondi gli attacchi messi a segno dalla tua mascotte ti curano di 1...31 Punti Salute.",
+				"concise": "Urlo. (Secondi: 5...20). Punti Salute ottenuti ogni volta che la tua mascotte mette a segno un attacco: 1...31."
+			},
+			"jp": {
+				"name": "プレダトリー ボンド (PvP)",
+				"description": "シャウト： 5...20 秒間、プレイヤーのペットによる攻撃が成功するたびに、プレイヤーは体力が 1...31 回復します。",
+				"concise": "シャウト： (5...20 秒) ペットが攻撃に成功すると、プレイヤーは 1...31 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "야수의 결속(대인전)",
+				"description": "고함. 대상 지정: 없음. 5...20초 동안 펫의 공격이 성공할 때마다 자신은 1...31의 체력을 회복합니다.",
+				"concise": "고함. (5...20초) 펫의 공격이 성공할 때마다 자신은 1...31의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Drapieżcza Więź (PvP)",
+				"description": "Okrzyk. Przez 5...20 s, ataki twojego zwierzęcego towarzysza leczą cię, dodając ci 1...31 pkt. żywotnoci.",
+				"concise": "Okrzyk. (5...20 s) Otrzymujesz 1...31 pkt. żywotności, za każdym razem, kiedy twój zwierzęcy towarzysz wykona udany atak."
+			},
+			"ru": {
+				"name": "Predatory Bond (PvP)",
+				"description": "Крик. В течение 5...20 сек успешные атаки сопровождающего вас животного исцеляют вас на 1...31 ед. здоровья.",
+				"concise": "Крик. (5...20 сек) Вы получаете 1...31 ед. здоровья каждый раз, когда ваш питомец проводит успешную атаку."
+			},
+			"bork": {
+				"name": "Predaetury Bund (PfP)",
+				"description": "Shuoot. Fur 5...20 secunds, sooccessffool aettaecks by yuoor uneemael cumpuneeun heael yuoo fur 1...31 Heaelt.",
+				"concise": "Shuoot. (5...20 secunds.) Yuoo gaeeen 1...31 Heaelt vhenefer yuoor pet maekes a sooccessffool aettaeck."
 			}
 		}
 	}

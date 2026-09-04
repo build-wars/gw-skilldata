@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "压制",
+				"description": "近战技能。 当此技能命中目标时，如果你的生命值比该目标多，则会对其造成20...40点额外伤害。",
+				"concise": "近战技能。 当此技能命中目标时，如果你的生命值比该目标多，则会对其造成20...40点额外伤害。"
+			},
+			"cht": {
+				"name": "勝利的感動",
+				"description": "近身攻擊技能： 命中時造成 20...40 額外傷害，若是你的體力比目標還多，則你獲得 1...2 次攻擊的怒氣值。",
+				"concise": "近身攻擊技能： 命中時造成 20...40 額外傷害，若是你的體力比目標還多，則你獲得 1...2 次攻擊的怒氣值。"
+			},
 			"de": {
+				"name": "Rausch des Sieges",
+				"description": "Nahkampfangriff. Wenn dieser Schlag trifft, verursacht Ihr +20...40 Punkt[e] Schaden. Wenn Ihr mehr Lebenspunkte als der Gegner habt, erhaltet Ihr 1...2 Adrenalinstöße.",
+				"concise": "Nahkampfangriff. Richtet +20...40 Punkt[e] Schaden an. Wenn Ihr mehr Lebenspunkte als der Gegner habt, erhaltet Ihr 1...2 Punkte Adrenalin."
+			},
+			"de-guildwiki": {
 				"name": "Rausch des Sieges",
 				"description": "Wenn dieser Schlag trifft, verursacht Ihr +20...40 Punkte Schaden. Wenn Ihr mehr Lebenspunkte als der Gegner habt, erhaltet Ihr 1...2 Adrenalinstöße.",
 				"concise": "Richtet +20...40 Punkte Schaden an. Wenn Ihr mehr Lebenspunkte als der Gegner habt, erhaltet Ihr 1...2 Punkte Adrenalin."
 			},
 			"en": {
 				"name": "Thrill of Victory",
+				"description": "Melee Attack. If this blow hits, you deal +20...40 damage. If you have more Health than target foe, you gain 1...2 strikes of adrenaline.",
+				"concise": "Melee Attack. Deals +20...40 damage. If you have more Health than your target, gain 1...2 adrenaline."
+			},
+			"en-gww": {
+				"name": "Thrill of Victory",
 				"description": "If this blow hits, you deal +20...40 damage. If you have more Health than target foe, you gain 1...2 strike[s] of adrenaline.",
 				"concise": "Deals +20...40 damage. If you have more Health than your target, you gain 1...2 adrenaline."
 			},
+			"es": {
+				"name": "Emoción de la victoria",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, hace +20...40 de daño. Si tienes más salud que el enemigo objetivo, ganas 1...2 golpes de adrenalina.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +20...40 de daño. Si tienes más salud que tu objetivo, ganas 1...2 de adrenalina."
+			},
 			"fr": {
+				"name": "Frisson de victoire",
+				"description": "Attaque au corps à corps. Si ce coup réussit, il inflige +20...40 points de dégâts. Si vous disposez de plus de points de vie que la cible ennemie, vous obtenez 1...2 décharges d'adrénaline.",
+				"concise": "Attaque au corps à corps. Inflige +20...40 points de dégâts. Si vous disposez de plus de points de vie que votre cible, vous obtenez 1...2 décharges d'adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Frisson de victoire",
 				"description": "Si ce coup réussit, vous infligez +20...40 points de dégâts. Si vous avez plus de points de santé que l'ennemi visé, vous gagnez 1...2 décharge(s) d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Brivido della Vittoria",
+				"description": "Attacco Ravvicinato. Se l'attacco va a segno, infliggi +20...40 di danni. Se la tua Salute è superiore a quella dell'obiettivo nemico, ottieni 1...2 dose[i] di adrenalina.",
+				"concise": "Attacco Ravvicinato. Danni inferti: +20...40. Se la tua Salute è superiore a quella dell'obiettivo, ottieni 1...2 dose[i] di adrenalina."
+			},
+			"jp": {
+				"name": "ビクトリー スリル",
+				"description": "メーレー アタック： この攻撃が成功すると 20...40 の追加ダメージを与えます。自分の体力がターゲットした敵より多い場合、1...2 発のアドレナリンを獲得します。",
+				"concise": "メーレー アタック： 20...40 の追加ダメージを与えます。自分の体力がターゲットした敵の体力より多い場合、1...2 発のアドレナリンを獲得します。"
+			},
+			"kr": {
+				"name": "승리의 감동",
+				"description": "근접 물리 공격. 대상 지정: 적. 공격이 성공하면 20...40의 대미지를 줍니다. 자신이 대상보다 체력이 높으면 1...2번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "근접 물리 공격. 20...40의 대미지를 추가로 줍니다. 자신의 체력이 대상보다 많으면 1...2의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Dreszcz Zwycięstwa",
+				"description": "Atak wręcz. Jeśli ten cios trafi, otrzymujesz +20...40 pkt. obrażeń. Jeśli posiadasz więcej żywotności niż wybrany przeciwnik, otrzymujesz dawki adrenaliny w liczbie 1...2.",
+				"concise": "Atak wręcz. Zadaje +20...40 pkt. obrażeń. Jeśli masz większą żywotność od przeciwnika, otrzymujesz dawki adrenaliny w liczbie 1...2."
+			},
+			"ru": {
+				"name": "Thrill of Victory",
+				"description": "Рукопашная атака. Если этот удар попадает в цель, вы наносите дополнительно 20...40 ед. урона. Если ваш уровень здоровья выше, чем у выбранного противника, вы получаете 1...2 ед. адреналина.",
+				"concise": "Рукопашная атака. Наносит дополнительно 20...40 ед. урона. Если у вас больше здоровья, чем у вашей цели, вы получаете 1...2 ед. адреналина."
+			},
+			"bork": {
+				"name": "Threell ooff Feectury",
+				"description": "Melee-a Aettaeck. Iff thees bloo heets, yuoo deael +20...40 daemaege-a. Iff yuoo haefe-a mure-a Heaelt thun taerget fue-a, yuoo gaeeen 1...2 streeke-as ooff aedrenaeleene-a.",
+				"concise": "Melee-a Aettaeck. Deaels +20...40 daemaege-a. Iff yuoo haefe-a mure-a Heaelt thun yuoor taerget, gaeeen 1...2 aedrenaeleene-a."
 			}
 		}
 	}

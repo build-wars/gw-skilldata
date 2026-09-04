@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致盲粉",
+				"description": "咒文。 此技能必须接续在「副手技」之后使用，使目标敌人及所有邻近的敌人遭受「盲目」症状 3...15秒。",
+				"concise": "咒文。 此技能必须接续在「副手技」之后使用，使目标敌人及所有邻近的敌人遭受「盲目」症状 3...15秒。"
+			},
+			"cht": {
+				"name": "致盲粉",
+				"description": "咒文魔法： 必須接續在「即刻攻擊」之後，使目標及其鄰近的所有敵人遭受「盲目」病症 3...15 秒。",
+				"concise": "咒文魔法： 必須接續在「即刻攻擊」之後，使目標及其鄰近的所有敵人遭受「盲目」病症 3...15 秒。"
+			},
 			"de": {
+				"name": "Blendpulver",
+				"description": "Zauber. Muss einem Begleithandangriff folgen. Der Gegner und alle umstehenden Feinde werden 3...15 Sekunde[n] lang geblendet.",
+				"concise": "Zauber. Verursacht beim Gegner und umstehenden Feinden Zustand Blindheit (3...15 Sekunde[n]). Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Blendpulver",
 				"description": "Muss einem Begleithandangriff folgen. Der Gegner und alle umstehenden Feinde werden 3...15 Sekunden lang geblendet.",
 				"concise": "Verursacht beim Gegner und umstehenden Feinden Zustand Blindheit (3...15 Sekunden). <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Blinding Powder",
+				"description": "Spell. Must follow an off-hand attack. Target foe and all adjacent foes become Blinded for 3...15 seconds.",
+				"concise": "Spell. Inflicts Blindness condition (3...15 seconds) on target and adjacent foes. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Blinding Powder",
 				"description": "Must follow an off-hand attack. Target foe and all adjacent foes become Blinded for 3...15 seconds.",
 				"concise": "Inflicts Blindness condition (3...15 seconds) on target and adjacent foes. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Pólvora lacrimosa",
+				"description": "Conjuro. Debe ir precedido de un ataque complementario. El enemigo objetivo y todos los adyacentes quedarán cegados durante 3...15 segundos.",
+				"concise": "Conjuro. Causa ceguera (3...15 segundos) al enemigo objetivo y los adyacentes. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Poudre aveuglante",
+				"description": "Sort. Doit succéder à une attaque main gauche. La cible ennemie et tous les ennemis adjacents sont aveuglés pendant 3...15 secondes.",
+				"concise": "Sort. Inflige l'Aveuglement (3...15 secondes) à la cible et à tous les ennemis adjacents. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Poudre aveuglante",
 				"description": "Doit succéder à une attaque main gauche. La cible ennemie et tous les ennemis adjacents sont aveuglés pendant 3...15 secondes.",
 				"concise": "Inflige l'Aveuglement (3...15 secondes) à la cible et à tous les ennemis adjacents. <gray>Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Polvere Accecante",
+				"description": "Magia. Deve seguire un attacco con arma secondaria. L'obiettivo nemico e tutti i nemici adiacenti vengono accecati per 3...15 secondo[i].",
+				"concise": "Magia. Condizione inflitta all'obiettivo e ai nemici adiacenti: Accecamento (3...15 secondo[i]). Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "ブラインド パウダー",
+				"description": "スペル： このスペルは、オフハンド アタックの次に使用します。ターゲットした敵および隣接するすべての敵が 3...15 秒間、「盲目」状態になります。",
+				"concise": "スペル： ターゲットした敵および隣接する敵は「盲目」状態になります (3...15 秒)。このスペルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "섬광 화약",
+				"description": "마법. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 대상과 그에 인접한 모든 적은 3...15초 동안 실명 상태가 됩니다.",
+				"concise": "마법. 대상과 그에 인접한 적들을 실명시킵니다.(3...15초) 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Proszek Oślepiający",
+				"description": "Czar. Musi nastąpić po ataku drugą ręką. Wybrany przeciwnik zostaje oślepiony na 3...15 sek.",
+				"concise": "Czar. Oślepia (3...15 sek.) wybranego przeciwnika i wszystkich przeciwników bezpośrednio przy nim. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Blinding Powder",
+				"description": "Заклинание. Должен следовать за атакой второй рукой. Выбранный противник и все окружающие его противники будут ослеплены в течение 3...15 сек.",
+				"concise": "Заклинание. Вызывает слепоту (3...15 сек) у выбранного и окружающих противников. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Bleendeeng Pooder",
+				"description": "Spell. Moost fulloo un ooffff-hund aettaeck. Taerget fue-a und aell aedjaecent fues becume-a Bleended fur 3...15 secunds.",
+				"concise": "Spell. Inffleects Bleendness cundeeshun (3...15 secunds) oon taerget und aedjaecent fues. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

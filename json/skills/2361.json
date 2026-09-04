@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Club of a Thousand Bears",
+				"description": "近战技能。 If this attack hits, it deals +6...9 damage for each adjacent foe (maximum 60 damage). If target foe is non-human it is knocked down.",
+				"concise": "近战技能。 Deals +6...9 damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human."
+			},
+			"cht": {
+				"name": "千熊之鎚",
+				"description": "近身攻擊技能： 此攻擊命中時，對每個鄰近敵人造成 +6...9 傷害 (最多 60 傷害值)。若目標敵人為非人類，則被擊倒。",
+				"concise": "近身攻擊技能： 此攻擊命中時，對每個鄰近敵人造成 +6...9 傷害 (最多 60 傷害值)。若目標敵人為非人類，則被擊倒。"
+			},
 			"de": {
+				"name": "Tausend-Bären-Prügel",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, fügt er jedem umstehenden Feind +6...9 Punkt[e] Schaden zu (maximal 60 Punkte). Wenn der Feind kein Mensch ist, wird er zu Boden geworfen.",
+				"concise": "Nahkampfangriff. Richtet pro umstehendem Feind +6...9 Punkt[e] Schaden an (maximal 60 Punkte). Wirft zu Boden, falls der Gegner kein Mensch ist."
+			},
+			"de-guildwiki": {
 				"name": "Tausend-Bären-Prügel",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt er dem Gegner für jeden umstehenden Feind +6...9 Punkte Schaden zu (maximal 60 Punkte). Wenn der Feind kein Mensch ist, wird er zu Boden geworfen.",
 				"concise": "Richtet pro umstehendem Feind +6...9 Punkte Schaden an (maximal 60 Punkte). Wirft zu Boden, falls der Gegner kein Mensch ist."
 			},
 			"en": {
 				"name": "Club of a Thousand Bears",
+				"description": "Melee Attack. If this attack hits, it deals +6...9 damage for each adjacent foe (maximum 60 damage). If target foe is non-human it is knocked down.",
+				"concise": "Melee Attack. Deals +6...9 damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human."
+			},
+			"en-gww": {
+				"name": "Club of a Thousand Bears",
 				"description": "If this attack hits, it deals +6...9 damage for each adjacent foe (maximum 60 damage). If target foe is non-human it is knocked down.",
 				"concise": "Deals +6...9 damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human."
 			},
+			"es": {
+				"name": "Garrote de los mil osos",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, harás +6...9 de daño por cada enemigo adyacente (máximo 60 de daño). Si el enemigo objetivo no era humano, le derribarás.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +6...9 de daño por cada enemigo adyacente (máximo 60 de daño). Causa derribo si el enemigo objetivo no es humano."
+			},
 			"fr": {
+				"name": "Gourdin d'un millier d'ours",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, elle inflige +6...9 points de dégâts pour chaque ennemi adjacent (maximum 60 points de dégâts). Si la cible ennemie n'est pas humaine, elle est assommée.",
+				"concise": "Attaque au corps à corps. Inflige +6...9 points de dégâts (60 points maximum) par ennemi adjacent. Attaque assommante si l'ennemi visé n'est pas humain."
+			},
+			"fr-gwiki": {
 				"name": "Gourdin d'un millier d'ours",
 				"description": "Si cette attaque réussit, elle inflige +6...9 points de dégâts pour chaque ennemi adjacent (maximum 60 points de dégâts). Si la cible ennemie n'est pas humaine, elle est assommée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mazza di Mille Orsi",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno infliggi +6...9 danno[i] per ogni nemico adiacente (max. 60 danni). Se l'obiettivo nemico non è umano viene abbattuto.",
+				"concise": "Attacco Ravvicinato. Danni inferti per ogni nemico adiacente: +6...9 (max 60). Provoca abbattimento se l'obiettivo nemico non è umano."
+			},
+			"jp": {
+				"name": "サウザンド ベア クラブ",
+				"description": "メーレー アタック： 攻撃が成功すると、隣接する敵ごとに 6...9 の追加ダメージを与えます (最大60ダメージ) 。人間以外の敵は転倒します。",
+				"concise": "メーレー アタック： 隣接する敵ごとに 6...9 の追加ダメージを与えます (最大60ダメージ) 。人間以外の敵は転倒します。"
+			},
+			"kr": {
+				"name": "절대의 곰 몽둥이",
+				"description": "근접 물리 공격. 공격이 성공하면 인접한 적 하나당 6...9씩, 최대 60의 대미지를 추가로 주고, 적이 인간이 아니면 바닥에 넘어뜨립니다.",
+				"concise": "근접 물리 공격. 인접한 적 하나당 6...9씩, 최대 60의 대미지를 추가로 줍니다. 대상이 인간이 아니면 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Maczuga Tysiąca Niedźwiedzi",
+				"description": "Atak wręcz. Jeżeli atak trafi, zadajesz +6...9 pkt. obrażeń na każdego przeciwnika bezpośrednio przy tobie (maksymalnie 60 pkt. obrażeń). Jeśli przeciwnik nie jest człowiekiem, to zostaje powalony.",
+				"concise": "Atak wręcz. Zadaje +6...9 pkt. obrażeń za każdego przeciwnika w bezpośredniej odległości (maksymalnie 60). Powoduje powalenie, jeżeli wybrany przeciwnik nie jest człowiekiem."
+			},
+			"ru": {
+				"name": "Club of a Thousand Bears",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, она наносит дополнительно 6...9 ед. урона за каждого окружающего противника (но не более 60 ед. урона). Если выбранный противник не был человеком, он будет сбит с ног.",
+				"concise": "Рукопашная атака. Наносит дополнительно 6...9 ед. урона за каждого окружающего противника (но не более 60 ед.). Сбивает с ног, если выбранный противник не был человеком."
+			},
+			"bork": {
+				"name": "Cloob ooff a Thuoosund Beaers",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, it deaels +6...9 daemaege-a fur iaech aedjaecent fue-a (maexeemoom 60 daemaege-a). Iff taerget fue-a is nun-hoomun it is knucked doon.",
+				"concise": "Melee-a Aettaeck. Deaels +6...9 daemaege-a fur iaech aedjaecent fue-a (maexeemoom 60 daemaege-a). Cooses knuck-doon iff taerget fue-a is nun-hoomun."
 			}
 		}
 	}

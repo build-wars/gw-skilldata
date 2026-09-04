@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "楔石纹章",
+				"description": "精英纹章。 除本技能外的所有「纹章」类技能立即恢复，但是所有非「纹章」类技能在 15...60秒 内将无法使用。",
+				"concise": "精英纹章。 除本技能外的所有「纹章」类技能立即恢复，但是所有非「纹章」类技能在 15...60秒 内将无法使用。"
+			},
+			"cht": {
+				"name": "楔石紋章",
+				"description": "精英紋章： 所有其他紋章立即回復。持續 20 秒，接下來你對敵人施展的 0...6 次紋章，同時使鄰近敵人受到 15...60 傷害且中斷他們的動作。",
+				"concise": "精英紋章： 所有其他紋章立即回復。持續 20 秒，接下來你對敵人施展的 0...6 次紋章，同時使鄰近敵人受到 15...60 傷害且中斷他們的動作。"
+			},
 			"de": {
+				"name": "Schlussstein-Siegel",
+				"description": "Elite-Siegel. Alle Eure Siegel außer dem Schlussstein-Siegel werden wieder aufgeladen. Wenn Ihr in den nächsten 20 Sekunden die nächsten 0...6 Mal ein Siegel gegen einen Gegner einsetzt, erleiden alle anderen umstehenden Feinde 15...60 Punkt[e] Schaden und werden unterbrochen.",
+				"concise": "Elite-Siegel. (20 Sekunden.) Eure nächsten 0...6 Siegel unterbrechen den Gegner und alle umstehende Feinde und fügen ihnen 15...60 Punkt[e] Schaden zu. Anfangswirkung: lädt Eure anderen Siegel wieder auf."
+			},
+			"de-guildwiki": {
 				"name": "Schlussstein-Siegel",
 				"description": "Alle Eure Siegel außer dem Schlussstein-Siegel werden wieder aufgeladen. Wenn Ihr in den nächsten 20 Sekunden die nächsten 0...6 Mal ein Siegel gegen einen Gegner einsetzt, erleiden alle anderen umstehenden Feinde 15...60 Punkte Schaden und werden unterbrochen.",
 				"concise": "(20 Sekunden.) Eure nächsten 0...6 Siegel unterbrechen die den Gegner umstehenden Feinde und fügen ihnen 15...60 Punkte Schaden zu. Anfangswirkung: lädt alle anderen Siegel wieder auf."
 			},
 			"en": {
 				"name": "Keystone Signet",
+				"description": "Elite Signet. All of your signets except Keystone Signet are recharged. For 20 seconds, the next 0...6 times you use a signet that targets a foe, all other foes adjacent to your target take 15...60 damage and are interrupted.",
+				"concise": "Elite Signet. (20 seconds.) Your next 0...6 signets interrupt and deal 15...60 damage to other foes adjacent to your target. Initial Effect: recharges all of your other signets."
+			},
+			"en-gww": {
+				"name": "Keystone Signet",
 				"description": "All of your signets except Keystone Signet are recharged. For 20 seconds, the next 0...6 time[s] you use a signet that targets a foe, all other foes adjacent to your target take 15...60 damage and are interrupted.",
 				"concise": "(20 seconds.) Your next 0...6 signet[s] interrupt <sic/> and deal 15...60 damage to other foes adjacent to your target. Initial Effect: <sic/> recharges all of your other signets."
 			},
+			"es": {
+				"name": "Sello de la piedra angular",
+				"description": "Sello de élite. Todos tus otros sellos excepto el Sello de la piedra angular se recargarán. Durante 20 segundos, las próximas 0...6 veces que utilices un sello que alcance a un enemigo, todos los enemigos adyacentes a tu objetivo reciben 15...60 de daño y se interrumpe su acción.",
+				"concise": "Sello de élite. (20 segundos). Tus próximos 0...6 sellos interrumpen la acción de los enemigos adyacentes a tu objetivo y les hacen 15...60 de daño. Efecto inicial: recarga todos tus demás sellos."
+			},
 			"fr": {
+				"name": "Sceau de voûte",
+				"description": "Sceau d'élite. Tous les sceaux hormis le Sceau de voûte sont rechargés. Pendant 20 secondes, les 0...6 prochaines fois que vous utiliserez un sceau visant un ennemi, tous les autres ennemis proches de votre cible subiront 15...60 points de dégâts et seront interrompus.",
+				"concise": "Sceau d'élite. (20 secondes.) 0...6 de vos prochains sceaux interrompent et infligent 15...60 points aux ennemis adjacents à votre cible. Effet initial : recharge tous vos autres sceaux."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de voûte",
 				"description": "Tous les sceaux hormis le sceau Clé de voûte sont rechargés. Pendant 20 secondes, les 0...6 prochaine(s) fois que vous utiliserez un sceau visant un ennemi, tous les autres ennemis proches de votre cible subiront 15...60 points de dégâts et seront interrompus.",
 				"concise": "(20 secondes.) 0...6 de vos prochains sceaux interrompent et infligent 15...60 points aux ennemis adjacents à votre cible. Effet initial : recharge tous vos autres sceaux."
+			},
+			"it": {
+				"name": "Sigillo della Pietra di Volta",
+				"description": "Sigillo d'Élite. Ricarica tutti i tuoi Sigilli tranne il Sigillo della Pietra di Volta. Per 20 secondi, le prossime 0...6 volte in cui utilizzi un Sigillo contro un nemico tutti i nemici adiacenti subiscono 15...60 danni e vengono interrotti.",
+				"concise": "Sigillo d'Élite. (Secondi: 20) I tuoi prossimi 0...6 sigilli interrompono l'azione dell'obiettivo e infliggono 15...60 danni ai nemici adiacenti al tuo obiettivo. Effetto iniziale: ricarica tutti i tuoi Sigilli."
+			},
+			"jp": {
+				"name": "キーストーン シグネット",
+				"description": "エリート シグネット： 他のシグネット スキルはすべて、すぐに再使用することができます。20 秒間、次の 0...6 回、敵に対してシグネットを使用すると、その敵に隣接する他のすべての敵に 15...60 のダメージを与えてアクションを中断します。",
+				"concise": "エリート シグネット： (20 秒) 次に使用する 0...6 個のシグネットは、ターゲットした敵に隣接する他の敵のアクションを中断し、15...60 のダメージを与えます。発動効果： 他のシグネットをすぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "활성 인장",
+				"description": "엘리트 인장. 대상 지정: 없음. 활성 인장을 제외한 모든 인장 계열 스킬이 활성화됩니다. 20초 동안 적을 대상으로 인장을 사용하면 그 적에 인접한 다른 적들에게 15...60의 대미지를 주고, 동작을 방해합니다. 처음 0...6번 효과가 있습니다.",
+				"concise": "엘리트 인장. (20초) 다음 0...6번의 인장 사용 시 대상에 인접한 다른 적들에게 15...60의 대미지를 주고, 동작을 방해합니다. 초기 효과: 다른 인장 스킬이 모두 활성화됩니다."
+			},
+			"pl": {
+				"name": "Sygnet Klucza",
+				"description": "Sygnet elitarny. Wszystkie twoje sygnety poza Sygnetem Klucza zostają odnowione. Przez 20 sek., następne 0...6 razy kiedy użyjesz sygnetu działającego na wroga, wszyscy wrogowie sąsiadujący z twoim celem otrzymają 15...60 pkt. obrażeń i przerwą wykonywanie akcji.",
+				"concise": "Sygnet elitarny. (20 sek.) Twoje kolejne (0...6) sygnety przerywają wykonywanie akcji przeciwników sąsiadujących z twoim celem i zadają im 15...60 pkt. obrażeń. Efekt początkowy: odnawia wszystkie twoje pozostałe sygnety."
+			},
+			"ru": {
+				"name": "Keystone Signet",
+				"description": "Элитная печать. Все другие ваши печати, за исключением Keystone Signet, будут полностью перезаряжены. В течение 20 сек в следующие несколько раз (0...6), когда вы будете использовать печать, направленную на противника, все окружающие цель противники, получат 15...60 ед. урона и будут прерваны.",
+				"concise": "Элитная печать. (20 сек) Ваши следующие печати (0...6) наносят 15...60 ед. урона и прерывают всех окружающих вашу цель противников. Начальный эффект: перезаряжает все ваши печати, исключая эту."
+			},
+			"bork": {
+				"name": "Keystune-a Seegnet",
+				"description": "Ileete-a Seegnet. Aell ooff yuoor seegnets ixcept Keystune-a Seegnet aere-a rechaerged. Fur 20 secunds, zee next 0...6 teeme-as yuoo use-a a seegnet thaet taergets a fue-a, aell oozeer fues aedjaecent tu yuoor taerget taeke-a 15...60 daemaege-a und aere-a interroopted.",
+				"concise": "Ileete-a Seegnet. (20 secunds.) Yuoor next 0...6 seegnets interroopt und deael 15...60 daemaege-a tu oozeer fues aedjaecent tu yuoor taerget. Ineeteeael Iffffect: rechaerges aell ooff yuoor oozeer seegnets."
 			}
 		}
 	}

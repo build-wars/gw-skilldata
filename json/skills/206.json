@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰霜护体",
+				"description": "增益魔法。 使你的物理护甲值提高 40点，持续 10...34秒。若使用任何火系魔法则「冰霜护体」的效果消失。",
+				"concise": "增益魔法。 使你的物理护甲值提高40点，持续 10...34秒。若使用任何火系魔法则「冰霜护体」的效果消失。"
+			},
+			"cht": {
+				"name": "冰霜護甲",
+				"description": "加持魔法： 持續 10...34 秒，你增加 40 物理防禦。若使用任何火系魔法則會使冰霜護甲的效果終止。",
+				"concise": "加持魔法： 持續 10...34 秒，你增加 40 物理防禦。若使用任何火系魔法則會使冰霜護甲的效果終止。"
+			},
 			"de": {
+				"name": "Frostrüstung",
+				"description": "Verzauberung. 10...34 Sekunde[n] lang bekommt Ihr +40 Rüstung gegen physischen Schaden und Eure Wassermagie ist um +1 erhöht.",
+				"concise": "Verzauberung. (10...34 Sekunde[n].) Ihr bekommt +40 Rüstung gegen physischen Schaden und Eure Wassermagie ist um +1 erhöht."
+			},
+			"de-guildwiki": {
 				"name": "Frostrüstung",
 				"description": "10...34 Sekunden lang erhaltet Ihr +40 Rüstung gegen physischen Schaden. Eure Wassermagie ist um +1 erhöht.",
 				"concise": "10...34 Sekunden: Ihr habt +40 Rüstung gegen physischen Schaden. Eure Wassermagie ist um +1 erhöht."
 			},
 			"en": {
 				"name": "Armor of Frost",
+				"description": "Enchantment Spell. For 10...34 seconds, you gain +40 armor against physical damage and have +1 Water Magic.",
+				"concise": "Enchantment Spell. (10...34 seconds.) You gain +40 armor against physical damage and have +1 Water Magic."
+			},
+			"en-gww": {
+				"name": "Armor of Frost",
 				"description": "For 10...34 seconds, you gain +40 armor against physical damage and have +1 Water Magic.",
 				"concise": "(10...34 seconds.) You have +40 armor against physical damage and have +1 Water Magic."
 			},
+			"es": {
+				"name": "Armadura de escarcha",
+				"description": "Conjuro con encantamiento. Durante 10...34 segundos, ganas +40 de armadura contra daño físico y tienes +1 magia de agua.",
+				"concise": "Conjuro con encantamiento. (10...34 segundos). Ganas +40 de armadura contra daño físico y tienes +1 magia de agua."
+			},
 			"fr": {
+				"name": "Armure de givre",
+				"description": "Enchantement. Pendant 10...34 secondes, vous bénéficiez de +40 en armure contre les dégâts physiques et de +1 en Magie de l'eau.",
+				"concise": "Enchantement. (10...34 secondes.) Vous gagnez +40 en armure contre les dégâts physiques et +1 en Magie de l'eau."
+			},
+			"fr-gwiki": {
 				"name": "Armure de givre",
 				"description": "Pendant 10...34 secondes, vous bénéficiez d'un bonus d'armure de +40 contre les dégâts physiques. LArmure de givre'' se dissipe dès que vous utilisez la Magie du feu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armatura di Brina",
+				"description": "Incantesimo. Per 10...34 secondi, ottieni +40 di armatura contro danni fisici e +1 a Magia dell'Acqua.",
+				"concise": "Incantesimo. (Secondi: 10...34.) Ottieni +40 di armatura contro danni fisici e +1 a Magia dell'Acqua."
+			},
+			"jp": {
+				"name": "フロスト アーマー",
+				"description": "強化スペル： 10...34 秒間、物理ダメージに対する防御力が40、「ウォーター」の特性が 1 増加します。",
+				"concise": "強化スペル： (10...34 秒) 物理ダメージに対する防御力が40、「ウォーター」の特性が 1 増加します。"
+			},
+			"kr": {
+				"name": "얼음의 갑옷",
+				"description": "강화 마법. 대상 지정: 없음. 10...34초 동안 물리 대미지에 대한 방어력이 40만큼 증가하고, 물 특성 레벨이 1만큼 증가합니다.",
+				"concise": "강화 마법. (10...34초) 물리 대미지에 대한 방어력이 40만큼 증가하고, 물 특성 레벨이 1만큼 증가합니다."
+			},
+			"pl": {
+				"name": "Zbroja Mrozu",
+				"description": "Zaklęcie (czar). Przez 10...34 sek., przeciwko obrażeniom fizycznym posiadasz +40 pkt. pancerza. Zbroja Mrozu przestanie działać, jeżeli użyjesz Magii Ognia.",
+				"concise": "Zaklęcie (czar). (10...34 sek.) Posiadasz +40 pkt. pancerza przeciwko obrażeniom fizycznym. Przestanie działać, jeśli użyjesz Magii Ognia."
+			},
+			"ru": {
+				"name": "Armor of Frost",
+				"description": "Заклинание-чары. В течение 10...34 сек ваша защита против физического урона увеличивается на 40 ед., а ваш талан Water Magic увеличивается на 1 ед.",
+				"concise": "Заклинание-чары. (10...34 сек) Вы получаете +40 ед. к защите против физического урона и +1 ед. к уровню таланта Water Magic."
+			},
+			"bork": {
+				"name": "Aermur ooff Frust",
+				"description": "Inchuntment Spell. Fur 10...34 secunds, yuoo gaeeen +40 aermur aegaeeenst physeecael daemaege-a und haefe-a +1 Vaeter Maegeec.",
+				"concise": "Inchuntment Spell. (10...34 secunds.) Yuoo gaeeen +40 aermur aegaeeenst physeecael daemaege-a und haefe-a +1 Vaeter Maegeec."
 			}
 		}
 	}

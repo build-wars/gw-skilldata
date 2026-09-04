@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Zealous Sweep",
+				"description": "镰刀术。 If this attack hits, you deal +3 damage. You gain 5...20 Energy for each foe you hit.",
+				"concise": "镰刀术。 Deals +3 damage. You gain 5...20 Energy for each foe you hit."
+			},
+			"cht": {
+				"name": "狂熱掃蕩",
+				"description": "鐮刀攻擊技能： 命中時造成 5...20 額外傷害，每一名命中的敵人使你獲得 3 能量和 1 怒氣值。",
+				"concise": "鐮刀攻擊技能： 命中時造成 5...20 額外傷害，每一名命中的敵人使你獲得 3 能量和 1 怒氣值。"
+			},
 			"de": {
+				"name": "Eifriger Schwung",
+				"description": "Sensenangriff. Wenn dieser Angriff erfolgreich ist, verursacht Ihr +5...20 Punkt[e] Schaden. Ihr erhaltet für jeden getroffenen Feind 3 Energiepunkt[e] und 1 Adrenalinstoß.",
+				"concise": "Sensenangriff. Richtet 5...20 Punkt[e] Schaden an. Ihr erhaltet für jeden getroffenen Feind 3 Energiepunkt[e] und 1 Adrenalinstoß."
+			},
+			"de-guildwiki": {
 				"name": "Eifriger Schwung",
 				"description": "Wenn dieser Angriff erfolgreich ist, verursacht Ihr +5...20 Punkte Schaden. Ihr erhaltet für jeden getroffenen Feind 3 Energiepunkte und 1 Adrenalinstoß.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Ihr erhaltet für jeden getroffenen Feind 3 Energiepunkte und 1 Adrenalinstoß."
 			},
 			"en": {
 				"name": "Zealous Sweep",
+				"description": "Scythe Attack. If this attack hits, you deal +5...20 damage. You gain 3 Energy and 1 strike of adrenaline for each foe you hit.",
+				"concise": "Scythe Attack. Deals +5...20 damage. You gain 3 Energy and 1 adrenaline for each foe you hit."
+			},
+			"en-gww": {
+				"name": "Zealous Sweep",
 				"description": "If this attack hits, you deal +5...20 damage. You gain 3 Energy and 1 adrenaline for each foe you hit.",
 				"concise": "Deals +5...20 damage. You gain 3 Energy and 1 adrenaline for each foe you hit."
 			},
+			"es": {
+				"name": "Barrido celoso",
+				"description": "Ataque con guadaña. Si impacta, este ataque hace +5...20 de daño. Ganas 3 de energía y 1 de adrenalina por cada enemigo que golpees.",
+				"concise": "Ataque con guadaña. Hace +5...20 de daño. Ganas 3 de energía y 1 de adrenalina por cada enemigo que golpees."
+			},
 			"fr": {
+				"name": "Frappe zélée",
+				"description": "Attaque à la faux. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Vous gagnez 3 points d'énergie et 1 décharge d'adrénaline à chaque adversaire touché.",
+				"concise": "Attaque à la faux. Inflige +5...20 points de dégâts. Vous gagnez 3 points d'énergie et 1 décharge d'adrénaline à chaque adversaire touché."
+			},
+			"fr-gwiki": {
 				"name": "Frappe zélée",
 				"description": "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Vous bénéficiez de 3 points d'énergie pour chaque ennemi que vous touchez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falciata Zelante",
+				"description": "Attacco con Falce. Se l'attacco va a segno, infliggi +5...20 danni. Ottieni 3 Punti Energia e 1 dose di adrenalina per ogni nemico colpito.",
+				"concise": "Attacco con Falce. Danni inferti: +5...20. Ottieni 3 Punti Energia e 1 dose di adrenalina per ogni nemico colpito."
+			},
+			"jp": {
+				"name": "ゼラス スウィープ",
+				"description": "サイズ アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。攻撃が成功した敵ごとに 3 のエネルギーとアドレナリンを1発獲得します。",
+				"concise": "サイズ アタック： 5...20 の追加ダメージを与えます。攻撃が成功した敵ごとに 3 のエネルギーとアドレナリンを1発獲得します。"
+			},
+			"kr": {
+				"name": "열정의 휩쓸기",
+				"description": "사이드 공격. 대상 지정: 적. 공격이 성공하면 5...20의 대미지를 추가로 주고, 적중당한 적에게서 3의 에너지와 1번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "사이드 공격. 5...20의 대미지를 추가로 주고, 3의 에너지와 1번 공격에 성공한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Gorliwy Zamach",
+				"description": "Atak kosą. Jeśli ten atak dojdzie celu, zadajesz +5...20 pkt. obrażeń. Za każdego trafionego wroga otrzymujesz 3 pkt. energii oraz 1 dawkę adrenaliny.",
+				"concise": "Atak kosą. Zadaje +5...20 pkt. obrażeń. Za każdego trafionego wroga otrzymujesz 3 pkt. energii oraz 1 dawkę adrenaliny."
+			},
+			"ru": {
+				"name": "Zealous Sweep",
+				"description": "Атака косой. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Вы получаете 3 ед. энергии и 1 ед. адреналина за каждого противника, пораженного этой атакой.",
+				"concise": "Атака косой. Наносит дополнительно 5...20 ед. урона. Вы получаете 3 ед. энергии и 1 ед. адреналина за каждого пораженного вами противника."
+			},
+			"bork": {
+				"name": "Zeaeluoos Sveep",
+				"description": "Scyzee Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Yuoo gaeeen 3 Inergy und 1 streeke-a ooff aedrenaeleene-a fur iaech fue-a yuoo heet.",
+				"concise": "Scyzee Aettaeck. Deaels +5...20 daemaege-a. Yuoo gaeeen 3 Inergy und 1 aedrenaeleene-a fur iaech fue-a yuoo heet."
 			}
 		}
 	}

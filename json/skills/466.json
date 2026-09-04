@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "焚烧",
+				"description": "自然仪式。 创造一只等级为1...10的焚烧精灵。使区域内的「非灵体」类生物在被你射出的箭命中时受到火焰伤害。焚烧精灵在30...240秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的焚烧精灵。使区域内的「非灵体」类生物在被你射出的箭命中时受到火焰伤害。焚烧精灵在30...240秒后消失。"
+			},
+			"cht": {
+				"name": "火靈",
+				"description": "自然儀式： 創造一隻等級 1...10 的火箭精靈。使區域內的生物在被你射出的箭命中時受到火焰傷害。火箭精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的火箭精靈。使區域內的生物在被你射出的箭命中時受到火焰傷害。火箭精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Feuersbrunst",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Alle Pfeiltreffer fügen Kreaturen in seiner Reichweite, die keine Geister sind, Feuerschaden zu. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Für Kreaturen in Reichweite richten alle Pfeile Feuerschaden an. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Feuersbrunst",
 				"description": "Erstellt einen Geist der Stufe 1...10. Alle Pfeiltreffer fügen Kreaturen in seiner Reichweite, die keine Geister sind, Feuerschaden zu. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Für Kreaturen in Reichweite richten alle Pfeile Feuerschaden an. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Conflagration",
+				"description": "Nature Ritual. Create a level 1...10 spirit. For non-spirit creatures within its range, all arrows that hit strike for fire damage. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). All arrows deal fire damage for creatures in range. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Conflagration",
 				"description": "Create a level 1...10 spirit. For non-spirit creatures within its range, all arrows that hit strike for fire damage. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). All arrows deal fire damage for creatures in range. Does not affect spirits."
 			},
+			"es": {
+				"name": "Conflagración",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Las criaturas no espíritus que estén en su zona recibirán daño de fuego cuando sean alcanzados por flechas. Morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...240 segundos de vida). Todas las flechas que disparen las criaturas de la zona hacen daño de fuego. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Brasier",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Pour les créatures (autres que des esprits) se trouvant dans sa portée, toutes vos flèches qui touchent leur objectif infligent des dégâts du feu. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Toutes les flèches infligent des dégâts du feu pour les créatures à portée. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Brasier",
 				"description": "Crée un esprit de niveau 1...10. Pour les créatures (autres que des esprits) se trouvant dans sa portée, toutes vos flèches qui touchent leur objectif infligent des dégâts de feu. Cet esprit disparaît au bout de 30...240 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Conflagrazione",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Per le creature nella sua portata (Spiriti esclusi) tutte le frecce che vanno a segno infliggono danni da fuoco. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Tutte le frecce assestano danni da fuoco alle creature nella portata. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "コンフラグレーション",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物が行う弓攻撃はすべてファイア ダメージを与えます。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内にいる生物に対する弓攻撃はすべて、ファイア ダメージになります。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "불화살 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 일정 범위 내에 있는 영혼이 아닌 생물체의 모든 활 공격은 불 대미지를 줍니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 모든 활 공격이 불 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Pożoga",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Wszystkie strzały, które trafiają stworzenia nie-duchy w jego zasięgu zadają obrażenia od ognia. Ten duch ginie po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Wszystkie strzały stworzeń w zasięgu zadają obrażenia od ognia. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Conflagration",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Все создания, находящиеся в зоне его действия и не являющиеся духами, при поражении стрелами получают урон силой огня. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Все стрелы наносят урон силой огня созданиям в зоне его действия. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Cunfflaegraeshun",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Fur nun-spureet creaetoores veetheen its runge-a, aell aerroos thaet heet streeke-a fur fure-a daemaege-a. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Aell aerroos deael fure-a daemaege-a fur creaetoores in runge-a. Dues nut aeffffect spureets."
 			}
 		}
 	}

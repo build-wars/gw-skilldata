@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 8,
 		"adrenaline_precise": 8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黄蜂尾刺",
+				"description": "剑术。 命中时对目标造成5...40点额外伤害。若该目标生命值低于50%，则受到的伤害加倍。使用此技能会失去所有的怒气值。",
+				"concise": "剑术。 命中时对目标造成5...40点额外伤害。若该目标生命值低于50%，则受到的伤害加倍。使用此技能会失去所有的怒气值。"
+			},
+			"cht": {
+				"name": "終結刺擊",
+				"description": "劍術攻擊技能： 命中時對目標造成 5...40 額外傷害。若該目標體力低於 50% ，則其受到的傷害加倍。使用此技能會失去所有怒氣值。",
+				"concise": "劍術攻擊技能： 命中時對目標造成 5...40 額外傷害。若該目標體力低於 50% ，則其受到的傷害加倍。使用此技能會失去所有怒氣值。"
+			},
 			"de": {
+				"name": "Endstoß",
+				"description": "Schwertangriff. Alles Adrenalin geht verloren. Wenn Endstoß trifft, fügt Ihr 5...40 Punkt[e] mehr Schaden zu. Dieser Schaden wird verdoppelt, wenn die Lebenspunkte Eures Ziels unter 50% lagen.",
+				"concise": "Schwertangriff. Richtet +5...40 Punkt[e] Schaden an. Richtet zusätzlich +5...40 Punkt[e] Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. Ihr verliert alles Adrenalin."
+			},
+			"de-guildwiki": {
 				"name": "Endstoß",
 				"description": "Alles Adrenalin geht verloren. Wenn Endstoß trifft, fügt Ihr 5...40 Punkte mehr Schaden zu. Dieser Schaden wird verdoppelt, wenn die Lebenspunkte Eures Ziels unter 50% lagen.",
 				"concise": "Richtet +5...40 Punkte Schaden an. Richtet zusätzlich +5...40 Punkt Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. <gray>Ihr verliert alles Adrenalin.</gray>"
 			},
 			"en": {
 				"name": "Final Thrust",
+				"description": "Sword Attack. Lose all adrenaline. If Final Thrust hits, you deal 5...40 more damage. This damage is doubled if your target was below 50% Health.",
+				"concise": "Sword Attack. Deals +5...40 damage. Deals +5...40 more damage if target foe is below 50% Health. Lose all adrenaline."
+			},
+			"en-gww": {
+				"name": "Final Thrust",
 				"description": "Lose all adrenaline. If Final Thrust hits, you deal 5...40 more damage. This damage is doubled if your target was below 50% Health.",
 				"concise": "Deals +5...40 damage. Deals +5...40 more damage if target foe is below 50% Health. <gray>Lose all adrenaline.</gray>"
 			},
+			"es": {
+				"name": "Estocada final",
+				"description": "Ataque con espada. Se pierde toda la adrenalina. Si la Estocada final impacta, harás 5...40 más de daño. El daño se dobla si el objetivo tenía menos del 50% de salud.",
+				"concise": "Ataque con espada. Hace +5...40 de daño. +5...40 de daño extra si el enemigo objetivo está por debajo del 50% de salud. Pierdes toda la adrenalina."
+			},
 			"fr": {
+				"name": "Botte fatale",
+				"description": "Attaque à l'épée. Perte de toute l'adrénaline. Si la Botte fatale touche sa cible, vous infligez 5...40 points de dégâts supplémentaires. Ces dégâts sont doublés si la cible a moins de 50% de ses points de vie.",
+				"concise": "Attaque à l'épée. Inflige +5...40 points de dégâts. Inflige +5...40 points de dégâts supplémentaires si l'ennemi visé a moins de 50% de santé. Vous perdez toute votre adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Botte fatale",
 				"description": "Perte de toute l'adrénaline. Si la Botte fatale touche sa cible, vous infligez 1...40 point(s) de dégâts supplémentaires. Ces dégâts sont doublés si la cible a moins de 50% de ses points de vie.",
 				"concise": "Inflige +1...40 points de dégâts. Inflige +1...40 points de dégâts supplémentaires si l'ennemi visé a moins de 50% de santé."
+			},
+			"it": {
+				"name": "Affondo Finale",
+				"description": "Attacco con Spada. Perdi tutta l'adrenalina. Se va a segno, infliggi 5...40 danno[i] in più. Questo danno si raddoppia se l'obiettivo ha meno del 50% di Salute.",
+				"concise": "Attacco con Spada. Danni inferti: +5...40. Se la Salute dell'obiettivo nemico è inferiore al 50% assesta +5...40 danno[i] in più. Perdi tutta l'adrenalina."
+			},
+			"jp": {
+				"name": "ファイナル スラスト",
+				"description": "ソード アタック： アドレナリンをすべて失います。攻撃が成功すると 5...40 の追加ダメージを与えます。ターゲットの体力が上限の50%未満の場合、与えるダメージが2倍になります。",
+				"concise": "ソード アタック： 5...40 の追加ダメージを与えます。ターゲットした敵の体力が上限の50%未満の場合、さらに 5...40 の追加ダメージを与えます。アドレナリンをすべて失います。"
+			},
+			"kr": {
+				"name": "궁극의 찌르기",
+				"description": "칼 공격. 대상 지정: 적. 모든 아드레날린을 소모하여 대상에게 5...40의 대미지를 추가로 줍니다. 이때 대상의 체력이 50% 미만이면 대미지는 2배가 됩니다.",
+				"concise": "칼 공격. 5...40의 대미지를 추가로 줍니다. 대상의 체력이 50% 미만이면 거기에 5...40의 대미지를 추가로 줍니다. 아드레날린을 모두 소모합니다."
+			},
+			"pl": {
+				"name": "Kończące Pchnięcie",
+				"description": "Atak mieczem. Tracisz całą adrenalinę. Jeśli Kończące Pchnięcie trafi, zadajesz 5...40 pkt. dodatkowych obrażeń. Te obrażenia zostają podwojone, jeśli żywotność twojego celu była poniżej 50%.",
+				"concise": "Atak mieczem. Zadaje +5...40 pkt. obrażeń. Zadaje +5...40 pkt. dodatkowych obrażeń, jeżeli wybrany przeciwnik ma poniżej 50% żywotności. Pochłania całą adrenalinę."
+			},
+			"ru": {
+				"name": "Final Thrust",
+				"description": "Атака мечом. Вы теряете весь адреналин. Если Final Thrust попадает в цель, вы наносите дополнительно 5...40 ед. урона. Дополнительный урон удваивается, если уровень здоровья вашей цели был ниже 50%.",
+				"concise": "Атака мечом. Наносит дополнительно 5...40 ед. урона. Наносит дополнительно еще 5...40 ед. урона, если у выбранного противника было меньше 50% здоровья. Вы теряете весь адреналин."
+			},
+			"bork": {
+				"name": "Feenael Throost",
+				"description": "Svurd Aettaeck. Luse-a aell aedrenaeleene-a. Iff Feenael Throost heets, yuoo deael 5...40 mure-a daemaege-a. Thees daemaege-a is duoobled iff yuoor taerget vaes beloo 50% Heaelt.",
+				"concise": "Svurd Aettaeck. Deaels +5...40 daemaege-a. Deaels +5...40 mure-a daemaege-a iff taerget fue-a is beloo 50% Heaelt. Luse-a aell aedrenaeleene-a."
 			}
 		}
 	}

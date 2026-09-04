@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "太阳拳",
+				"description": "精英副手技。 此技能必须接续在「起手技」之后使用。命中时将使目标敌人同时遭受「盲目」和「晕眩」症状 1...10秒，同时会打断目标敌人的施法。",
+				"concise": "精英副手技。 命中时将使目标敌人同时遭受「盲目」和「晕眩」症状 1...10秒，同时会打断目标敌人的施法。此技能必须接续在「起手技」之后使用。"
+			},
+			"cht": {
+				"name": "太陽穴狙殺",
+				"description": "精英即刻攻擊： 必須接續在「引導攻擊」之後。命中時將使目標敵人同時遭受「盲目」及「暈眩」病症 1...10 秒，若該目標正在施展「魔法」，則中斷其動作。",
+				"concise": "精英即刻攻擊： 必須接續在「引導攻擊」之後。命中時將使目標敵人同時遭受「盲目」及「暈眩」病症 1...10 秒，若該目標正在施展「魔法」，則中斷其動作。"
+			},
 			"de": {
+				"name": "Schläfenstoß",
+				"description": "Elite-Begleithandangriff. Muss einem Leithandangriff folgen. Wenn dieser Angriff erfolgreich ist, leidet der Gegner 1...10 Sekunde[n] lang unter Benommenheit und Blindheit und wenn er einen Zauber wirkt, wird er dabei unterbrochen.",
+				"concise": "Elite-Begleithandangriff. Unterbricht einen Zauber. Verursacht Zustände Benommenheit und Blindheit (1...10 Sekunde[n]). Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Schläfenstoß",
 				"description": "Muss einem Leithandangriff folgen. Wenn dieser Angriff erfolgreich ist, leidet der Gegner 1...10 Sekunden lang unter Benommenheit und Blindheit und wenn er einen Zauber wirkt, wird er dabei unterbrochen.",
 				"concise": "Unterbricht einen Zauber. Verursacht Zustände Benommenheit und Blindheit (1...10 Sekunden). <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Temple Strike",
+				"description": "Elite Off-Hand Attack. Must follow a lead attack. If this attack hits, target foe is Dazed and Blinded for 1...10 seconds, and if target foe is casting a spell, that foe is interrupted.",
+				"concise": "Elite Off-Hand Attack. Interrupts a spell. Inflicts Dazed and Blindness conditions (1...10 seconds). Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Temple Strike",
 				"description": "Must follow a lead attack. If this attack hits, target foe is Dazed and Blinded for 1...10 seconds, and if target foe is casting a spell, that foe is interrupted.",
 				"concise": "Interrupts a spell. Inflicts Dazed and Blindness conditions (1...10 seconds). <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Golpe en las sienes",
+				"description": "Ataque complementario de élite. Debe ir precedido de un ataque inicial. Si impacta, el enemigo objetivo quedará aturdido y cegado durante 1...10 segundos y, si estaba lanzando un conjuro, le interrumpirás.",
+				"concise": "Ataque complementario de élite. Interrumpe un conjuro. Causa aturdimiento y ceguera (1...10 segundos). Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Frappe à la tempe",
+				"description": "Attaque main gauche d'élite. Doit suivre une attaque main droite. Si l'attaque réussit, la cible ennemie est frappée de Stupeur et d'Aveuglement pendant 1...10 secondes. Si la cible ennemie était en train de lancer un sort, ce sort est interrompu.",
+				"concise": "Attaque main gauche d'élite. Interrompt un sort. Provoque la Stupeur et l'Aveuglement (1...10 secondes). Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Frappe à la tempe",
 				"description": "Doit suivre une attaque main droite. Si l'attaque réussit, la cible ennemie est frappée de Stupeur et d'Aveuglement pendant 1...10 seconde(s). Si la cible ennemie était en train de lancer un sort, ce sort est interrompu.",
 				"concise": "Interrompt un sort. Provoque la Stupeur et l'Aveuglement (1...10 seconde(s)). <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Colpo alle Tempie",
+				"description": "Attacco d'Élite con Arma Secondaria. Deve seguire un attacco con arma primaria. Se questo attacco va a segno, l'obiettivo nemico viene stordito ed accecato per 1...10 secondo[i] e se sta lanciando una magia viene interrotto.",
+				"concise": "Attacco d'Élite con Arma Secondaria. Interrompe una magia. Condizioni inflitte: Stordimento e Accecamento (1...10 secondo[i]). Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "テンプル ストライク",
+				"description": "エリート オフハンド アタック： このスキルは、リード アタックの次に使用します。攻撃が成功すると、ターゲットした敵は 1...10 秒間「放心」および「盲目」状態になります。また、その敵がスペルを詠唱中の場合、その詠唱を中断させます。",
+				"concise": "エリート オフハンド アタック： スペルを中断し、「放心」および「出血」状態にします (1...10 秒)。このスキルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "관자놀이 공격",
+				"description": "엘리트 보조 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상은 1...10초 동안 현혹과 실명 상태가 됩니다. 그 대상이 마법을 외우는 중이라면 그 마법을 방해받습니다.",
+				"concise": "엘리트 보조 공격. 마법을 방해하고, 현혹과 실명에 빠뜨립니다.(1...10초) 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Rozbicie Skroni",
+				"description": "Elitarny atak drugą ręką. Musi nastąpić po ataku poprzedzającym. Jeśli atak trafi, wybrany przeciwnik zostaje oszołomiony i oślepiony na 1...10 sek., a jeżeli przeciwnik ten rzucał czar, zostaje on przerwany.",
+				"concise": "Elitarny atak drugą ręką. Przerywa czar. Wywołuje przypadłości oszołomienie i oślepienie (1...10 sek.). Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Temple Strike",
+				"description": "Элитная атака второй рукой. Должен следовать за ведущей атакой. Если удар попадает в цель, выбранный противник будет ошеломлен и ослеплен на 1...10 сек, а если этот противник произносил заклинание, то оно будет прервано.",
+				"concise": "Элитная атака второй рукой. Прерывает заклинание. Вызывает ошеломление и слепоту (1...10 сек). Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Temple-a Streeke-a",
+				"description": "Ileete-a Ooffff-Hund Aettaeck. Moost fulloo a leaed aettaeck. Iff thees aettaeck heets, taerget fue-a is Daezed und Bleended fur 1...10 secunds, und iff taerget fue-a is caesteeng a spell, thaet fue-a is interroopted.",
+				"concise": "Ileete-a Ooffff-Hund Aettaeck. Interroopts a spell. Inffleects Daezed und Bleendness cundeeshuns (1...10 secunds). Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

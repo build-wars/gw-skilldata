@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "治疗之泉",
+				"description": "陷阱技。 在10秒之内，使邻近的所有友方每2秒恢复15...60点生命值。此技能发动时容易被打断。",
+				"concise": "陷阱技。 持续 10秒，使附近的所有队友每 2秒 受到 15...60点 的生命治疗。此技能发动时容易被打断。"
+			},
+			"cht": {
+				"name": "治癒之泉",
+				"description": "陷阱： 持續 10 秒，使附近的所有盟友每 2 秒受到 15...60 體力治癒。此技能發動時容易被中斷。",
+				"concise": "陷阱： 持續 10 秒，使附近的所有盟友每 2 秒受到 15...60 體力治癒。此技能發動時容易被中斷。"
+			},
 			"de": {
+				"name": "Heilquelle",
+				"description": "Falle. 10 Sekunden lang werden alle umstehenden Verbündeten alle 2 Sekunden um 15...60 Punkt[e] geheilt. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 10 Sekunden: Betrifft umstehende Verbündete. Heilt alle 2 Sekunden um 15...60 Lebenspunkt[e]. Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Heilquelle",
 				"description": "10 Sekunden lang werden alle umstehenden Verbündeten alle 2 Sekunden um 15...60 Punkte geheilt. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "10 Sekunden: Betrifft umstehende Verbündete. Heilt alle 2 Sekunden um 15...60 Lebenspunkte. <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Healing Spring",
+				"description": "Trap. For 10 seconds, all adjacent allies are healed for 15...60 every 2 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (10 seconds.) Affects adjacent allies. Heals for 15...60 every 2 seconds. Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Healing Spring",
 				"description": "For 10 seconds, all adjacent allies are healed for 15...60 every 2 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(10 seconds.) Affects adjacent allies. Heals for 15...60 every 2 seconds. <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Manantial de curación",
+				"description": "Trampa. Durante 10 segundos, los aliados adyacentes se curan 15...60 de salud cada 2 segundos. Se te podrá interrumpir con facilidad mientras estés activando esta habilidad.",
+				"concise": "Trampa. (10 segundos). Afecta a los aliados adyacentes. Cura 15...60 de salud cada 2 segundos. Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Source de guérison",
+				"description": "Piège. Pendant 10 secondes, tous les alliés adjacents sont soignés de 15...60 points de vie toutes les 2 secondes. Cette action peut facilement être interrompue.",
+				"concise": "Piège. (10 secondes.) Affecte les alliés adjacents. Soigne de 15...60 points de vie toutes les 2 secondes. Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Source de guérison",
 				"description": "Pendant 10 secondes, tous les alliés adjacents sont soignés de 15...60 points de vie toutes les 2 secondes. Cette action peut facilement être interrompue.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sorgente Curativa",
+				"description": "Trappola. Per 10 secondi, tutti gli alleati adiacenti vengono curati di 15...60 punto[i] ogni 2 secondi. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 10) Ha effetto sugli alleati adiacenti. Cure impartite ogni 2 secondi: 15...60. Facile interruzione."
+			},
+			"jp": {
+				"name": "ヒーリング スプリング",
+				"description": "トラップ： 10秒間、隣接するすべての味方は体力が2秒おきに 15...60 回復します。このスキルの詠唱は容易に中断されます。",
+				"concise": "トラップ： (10秒) 隣接する味方は、2秒おきに体力が 15...60 回復します。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "치유의 샘",
+				"description": "함정. 대상 지정: 없음. 10초 동안 인접한 모든 아군은 2초마다 체력을 15...60씩 회복합니다. 스킬 사용 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (10초) 인접한 아군은 2초마다 체력을 15...60씩 회복합니다. 스킬이 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Uzdrawiające Źródło",
+				"description": "Pułapka. Przez 10 sek., wszyscy sojusznicy znajdujący się bezpośrednio przy źródle są uzdrawiani co 2 sekundy, otrzymując 15...60 pkt. żywotności. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (10 sek.) Działa na sojuszników w bezpośredniej odległości. Co 2 sek. dodaje 15...60 pkt. żywotności. Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Healing Spring",
+				"description": "Ловушка. В течение 10 сек все окружающие вас союзники исцеляются на 15...60 ед. здоровья каждые 2 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (10 сек) Действует на окружающих союзников. Исцеляет на 15...60 ед. здоровья каждые 2 секунды. Легко прервать."
+			},
+			"bork": {
+				"name": "Heaeleeng Spreeng",
+				"description": "Traep. Fur 10 secunds, aell aedjaecent aelleees aere-a heaeled fur 15...60 ifery 2 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (10 secunds.) Aeffffects aedjaecent aelleees. Heaels fur 15...60 ifery 2 secunds. Iaeseely interroopted."
 			}
 		}
 	}

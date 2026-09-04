@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "圣光链",
+				"description": "精英技能。 在10秒之内，你将平均分担目标盟友所承受的所有伤害。",
+				"concise": "精英技能。 在10秒之内，你将平均分担目标盟友所承受的所有伤害。"
+			},
+			"cht": {
+				"name": "天使連結",
+				"description": "精英技能： 持續10秒，若有一個盟友會遭受致死的傷害時，該傷害無效且治療其20...200體力，同時其他盟友身上的天使連結終止。",
+				"concise": "精英技能： 持續10秒，若有一個盟友會遭受致死的傷害時，該傷害無效且治療其20...200體力，同時其他盟友身上的天使連結終止。"
+			},
 			"de": {
+				"name": "Engelsbindung",
+				"description": "Elite-Fertigkeit. 10 Sekunde[n] lang wird das nächste Mal, wenn ein Verbündeter in Hörweite tödlichen Schaden erleiden würde, dieser Schaden aufgehoben und der Verbündete um 20...200 Lebenspunkt[e] geheilt. Engelsbindung endet bei allen anderen Verbündeten.",
+				"concise": "Elite-Fertigkeit. 10 Sekunde[n]: Das nächste Mal, wenn ein Verbündeter in Hörweite tödlichen Schaden erleiden würde, wird dieser Schaden aufgehoben und der Verbündete um 20...200 geheilt. Endet bei allen anderen Verbündeten."
+			},
+			"de-guildwiki": {
 				"name": "Engelsbindung",
 				"description": "10 Sekunden lang wird das nächste Mal, wenn ein Verbündeter in Hörweite tödlichen Schaden erleiden würde, dieser Schaden aufgehoben und der Verbündete um 20...200 Lebenspunkte geheilt. Engelsbindung endet bei allen anderen Verbündeten.",
 				"concise": "10 Sekunden: Das nächste Mal, wenn ein Verbündeter in Hörweite tödlichen Schaden erleiden würde, wird dieser Schaden aufgehoben und der Verbündete um 20...200 geheilt. <gray>Endet bei allen anderen Verbündeten.</gray>"
 			},
 			"en": {
 				"name": "Angelic Bond",
+				"description": "Elite Skill. For 10 seconds, the next time an ally within earshot would take fatal damage, that damage is negated and that ally is healed for 20...200 Health. Angelic Bond ends on all other allies.",
+				"concise": "Elite Skill. (10 seconds.) The next time an ally within earshot would take fatal damage, that damage is negated and that ally is healed for 20...200. Ends on all other allies."
+			},
+			"en-gww": {
+				"name": "Angelic Bond",
 				"description": "For 10 seconds, the next time an ally within earshot would take fatal damage, that damage is negated and that ally is healed for 20...200 Health. Angelic Bond ends on all other allies.",
 				"concise": "(10 seconds.) The next time an ally within earshot would take fatal damage, that damage is negated and that ally is healed for 20...200. <gray>Ends on other allies.</gray>"
 			},
+			"es": {
+				"name": "Vínculo angelical",
+				"description": "Habilidad de élite. Durante 10 segundos, la próxima vez que un objetivo (un aliado o tú mismo) al alcance del oído reciba daño que podría ser letal, el daño es bloqueado y ese objetivo recupera 20...200 de salud. El Vínculo angelical acaba en los demás aliados.",
+				"concise": "Habilidad de élite. (10 segundos). La próxima vez que un objetivo (un aliado o tú mismo) al alcance del oído reciba daño que podría ser letal, el daño es bloqueado y ese objetivo recupera 20...200 de salud. Acaba en los demás aliados."
+			},
 			"fr": {
+				"name": "Lien angélique",
+				"description": "Compétence élite. Pendant 10 secondes, la prochaine fois qu'un allié à portée de voix doit subir des dégâts mortels, ces derniers sont annulés et il est soigné de 20...200 points de vie. Lien angélique prend fin sur tous les autres alliés.",
+				"concise": "Compétence élite. (10 secondes.) La prochaine fois qu'un allié à portée de voix doit subir des dégâts mortels, ces derniers sont annulés et il est soigné de 20...200 points de vie. Prend fin sur tous les autres alliés."
+			},
+			"fr-gwiki": {
 				"name": "Lien angélique",
 				"description": "Pendant 10 secondes, la prochaine fois qu'un allié à portée de voix doit subir des dégâts mortels, ces derniers sont annulés et il est soigné de 20...200 points de vie. Lien angélique prend fin sur tous les autres alliés.",
 				"concise": "(10 secondes.) La prochaine fois qu'un allié à portée de voix doit subir des dégâts mortels, ces derniers sont annulés et il est soigné de 20...200 points de vie. <gray>Prend fin sur tous les autres alliés.</gray>"
+			},
+			"it": {
+				"name": "Legame Angelico",
+				"description": "Abilità d'Élite. Per 10 secondo[i], la prossima volta che un alleato a portata d'orecchio dovrebbe subire un danno fatale, quel danno si annulla e l'alleato riceve 20...200 Punto[i] Salute. Il Legame Angelico termina su tutti gli altri alleati.",
+				"concise": "Abilità d'Élite. (Secondi: 10) La prossima volta che un alleato a portata d'orecchio dovrebbe subire un danno fatale, quel danno si annulla e l'alleato riceve 20...200 di Salute. Termina su tutti gli altri alleati."
+			},
+			"jp": {
+				"name": "アンジェリック ボンド",
+				"description": "エリート スキル： 10 秒間、次に声の届く範囲内にいる味方1体が致命的なダメージを受けると、そのダメージは無効になり、その味方は体力が 20...200 回復します。その際、他の味方からこの効果が消失します。",
+				"concise": "エリート スキル： (10 秒) 声の届く範囲内にいる味方1体が次に致命的なダメージを受けると、そのダメージを無効にして、体力を 20...200 回復させます。他の味方から、この効果が消失します。"
+			},
+			"kr": {
+				"name": "고결한 유대",
+				"description": "엘리트 스킬. 대상 지정: 아군. 10초 동안 가청 범위 내에 있는 아군 한 명이 죽음에 이를 대미지를 받을 때 대미지를 입는 대신 20...200의 체력을 회복하고, 고결한 유대 효과가 끝납니다.",
+				"concise": "엘리트 스킬. (10초) 가청 범위 내에 있는 아군 한 명이 죽음에 이르게 할 대미지를 받을 때 그 대미지를 입지 않고, 20...200의 체력을 회복합니다. 모든 아군에게 걸린 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Anielska Więź",
+				"description": "Umiejętność elitarna. Przez 10 sek., kiedy następnym razem sojusznik w zasięgu słuchu ma otrzymać śmiertelne obrażenia, to są one negowane i w zamian otrzyma on 20...200 pkt. żywotności. Anielska Więź przestaje działać na wszystkich pozostałych sojusznikach.",
+				"concise": "Umiejętność elitarna. (10 sek.) Kiedy następnym razem sojusznik w zasięgu słuchu ma otrzymać śmiertelne obrażenia, to są one negowane i w zamian otrzyma on 20...200 pkt. żywotności. Przestaje działać na wszystkich pozostałych sojusznikach."
+			},
+			"ru": {
+				"name": "Angelic Bond",
+				"description": "Элитное умение. В течение 10 сек в следующий раз, когда находящийся в зоне слышимости союзник должен был бы получить смертельный урон, этот урон будет отменен, а этот союзник будет исцелен на 20...200 ед. здоровья. Воздействие Angelic Bonds на всех других союзников после этого заканчивается.",
+				"concise": "Элитное умение. (10 сек) В следующий раз, когда находящийся в зоне слышимости союзник должен был бы получить смертельный урон, этот урон будет отменен, а этот союзник будет исцелен на 20...200 ед. здоровья. Воздействие на других союзников заканчивается."
+			},
+			"bork": {
+				"name": "Ungeleec Bund",
+				"description": "Ileete-a Skeell. Fur 10 secunds, zee next teeme-a un aelly veetheen iaershut vuoold taeke-a faetael daemaege-a, thaet daemaege-a is negaeted und thaet aelly is heaeled fur 20...200 Heaelt. Ungeleec Bund inds oon aell oozeer aelleees.",
+				"concise": "Ileete-a Skeell. (10 secunds.) Zee next teeme-a un aelly veetheen iaershut vuoold taeke-a faetael daemaege-a, thaet daemaege-a is negaeted und thaet aelly is heaeled fur 20...200. Inds oon aell oozeer aelleees."
 			}
 		}
 	}

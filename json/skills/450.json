@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "旋风防御",
+				"description": "姿态。 在8...20秒之内，使你有75%的几率「格挡」攻击，每当你成功「格挡」一次投掷性攻击，会对邻近的敌人造成5...11点伤害。",
+				"concise": "姿态。 在8...20秒之内，使你的「格挡」率提高至 75%，每当你成功「格挡」一次投掷性攻击，会对邻近的敌人造成5...11点伤害。"
+			},
+			"cht": {
+				"name": "旋風防禦",
+				"description": "態勢： 持續 8...20 秒，你有 75% 的機會「格擋」攻擊。每當你成功「格擋」投射性的攻擊時，對鄰近的敵人造成 5...11 傷害。",
+				"concise": "態勢： 持續 8...20 秒，你有 75% 的機會「格擋」攻擊。每當你成功「格擋」投射性的攻擊時，對鄰近的敵人造成 5...11 傷害。"
+			},
 			"de": {
+				"name": "Wirbelverteidigung",
+				"description": "Haltung. 8...20 Sekunde[n] lang habt Ihr eine 75%ige Chance, Angriffe zu blocken. Beim Blocken eines Geschosses auf diese Weise erleiden umstehende Gegner 5...11 Punkt[e] Schaden.",
+				"concise": "Haltung. 8...20 Sekunde[n]: Ihr habt eine 75%ige Chance zu blocken. Richtet jedes Mal 5...11 Punkt[e] Schaden bei umstehenden Feinden an, wenn Ihr einen Geschossangriff blockt."
+			},
+			"de-guildwiki": {
 				"name": "Wirbelverteidigung",
 				"description": "8...20 Sekunden lang habt Ihr eine 75%ige Chance, Angriffe zu blocken. Beim Blocken eines Geschosses erleiden umstehende Gegner 5...11 Punkte Schaden.",
 				"concise": "8...20 Sekunden: Ihr habt eine 75%ige Chance zu blocken. Richtet jedes Mal 5...11 Punkte Schaden bei umstehenden Feinden an, wenn ihr einen Geschossangriff blockt."
 			},
 			"en": {
 				"name": "Whirling Defense",
+				"description": "Stance. For 8...20 seconds, you have 75% chance to block attacks. Whenever you block a projectile in this way, adjacent foes take 5...11 damage.",
+				"concise": "Stance. (8...20 seconds.) You have 75% chance to block. Deals 5...11 damage to adjacent foes whenever you block a projectile attack."
+			},
+			"en-gww": {
+				"name": "Whirling Defense",
 				"description": "For 8...20 seconds, you have 75% chance to block attacks. Whenever you block a projectile in this way, adjacent foes take 5...11 damage.",
 				"concise": "(8...20 seconds.) You have 75% chance to block. Deals 5...11 damage to adjacent foes whenever you block a projectile attack."
 			},
+			"es": {
+				"name": "Torbellino defensivo",
+				"description": "Actitud. Durante 8...20 segundos, tienes un 75% de posibilidades de bloquear ataques. Si consigues bloquear un proyectil, los enemigos adyacentes recibirán 5...11 de daño.",
+				"concise": "Actitud. (8...20 segundos). Tienes un 75% de posibilidades de bloquear. Haces 5...11 de daño a los enemigos adyacentes cuando bloquees un ataque con proyectil."
+			},
 			"fr": {
+				"name": "Tourbillon défensif",
+				"description": "Pose de combat. Pendant 8...20 secondes, vous avez 75% de chances de bloquer les attaques. Bloquer un projectile de la sorte infligera 5...11 points de dégâts aux ennemis adjacents.",
+				"concise": "Pose de combat. (8...20 secondes.) Vous avez 75% de chances de bloquer. Inflige 5...11 points de dégâts aux ennemis adjacents chaque fois que vous bloquez un projectile."
+			},
+			"fr-gwiki": {
 				"name": "Tourbillon défensif",
 				"description": "Pendant 8...20 secondes, vous avez 75% de chances de bloquer les attaques. Bloquer un projectile de la sorte infligera 5...11 points de dégâts aux ennemis adjacents.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vortice Difensivo",
+				"description": "Posizione. Per 8...20 secondo[i], hai il 75% di probabilità di bloccare gli attacchi. Se blocchi in questo modo un proiettile, i nemici adiacenti ricevono 5...11 danno[i].",
+				"concise": "Posizione. (Secondi: 8...20) Probabilità di blocco: 75%. Assesta 5...11 danno[i] ai nemici adiacenti ogni volta che blocchi un attacco proiettile."
+			},
+			"jp": {
+				"name": "ホワール ディフェンス",
+				"description": "スタンス： 8...20 秒間、75%の確率で攻撃をブロックします。この効果により遠投攻撃をブロックするたびに、隣接する敵に 5...11 のダメージを与えます。",
+				"concise": "スタンス： (8...20 秒) 攻撃を75%の確率でブロックします。遠投攻撃をブロックするたびに、隣接する敵に 5...11 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "회전 방어",
+				"description": "자세. 대상 지정: 없음. 8...20초 동안 75% 확률로 공격을 막습니다. 원거리 공격을 막는 경우 인접한 적들이 5...11의 대미지를 입습니다.",
+				"concise": "자세. (8...20초) 75%의 확률로 공격을 막습니다. 원거리 공격을 막을 때마다 인접한 적들에게 5...11의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Wirująca Obrona",
+				"description": "Postawa. Przez 8...20 sek., masz 75% szans na zablokowanie ataków. Jeśli zablokujesz w ten sposób atak strzelecki, przeciwnicy bezpośrednio przy tobie otrzymają 5...11 pkt. obrażeń.",
+				"concise": "Postawa. (8...20 sek.) Masz 75% szans na blokowanie. Zadaje 5...11 pkt. obrażeń przeciwnikom bezpośrednio przy tobie, za każdym razem, kiedy zablokujesz atak zasięgowy."
+			},
+			"ru": {
+				"name": "Whirling Defense",
+				"description": "Стойка. В течение 8...20 сек у вас есть 75%-й шанс блокировать атаки. Каждый раз, когда вы с помощью этого умения блокируете летящее в вас метательное оружие, окружающие вас противники получают 5...11 ед. урона.",
+				"concise": "Стойка. (8...20 сек) У вас есть 75%-й шанс блокировать атаки. Наносит 5...11 ед. урона окружающим противникам каждый раз, когда вы блокируете метательную атаку."
+			},
+			"bork": {
+				"name": "Vhurleeng Deffense-a",
+				"description": "Stunce-a. Fur 8...20 secunds, yuoo haefe-a 75% chunce-a tu bluck aettaecks. Vhenefer yuoo bluck a prujecteele-a in thees vaey, aedjaecent fues taeke-a 5...11 daemaege-a.",
+				"concise": "Stunce-a. (8...20 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Deaels 5...11 daemaege-a tu aedjaecent fues vhenefer yuoo bluck a prujecteele-a aettaeck."
 			}
 		}
 	}

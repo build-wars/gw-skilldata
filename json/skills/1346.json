@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻术纹章",
+				"description": "精英纹章。 你的下1...3个非幻术法术使用你的幻术属性而非其普通属性。",
+				"concise": "精英纹章。 你的下1...3个非幻术法术使用你的幻术属性而非其普通属性。"
+			},
+			"cht": {
+				"name": "幻術紋章",
+				"description": "精英紋章： Your next 1...3 non-Illusion spells use your Illusion attribute instead of their normal attribute.",
+				"concise": "精英紋章： Your next 1...3 non-Illusion spells use your Illusion attribute instead of their normal attribute."
+			},
 			"de": {
+				"name": "Siegel der Illusionen",
+				"description": "Elite-Siegel. Eure nächsten 1...3 Nicht-Illusionszauber verwenden Euer Illusions-Attribut anstelle seiner normalen Attribute.",
+				"concise": "Elite-Siegel. Eure nächsten 1...3 Nicht-Illusionszauber verwenden Euer Illusions-Attribut anstelle seiner normalen Attribute."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Illusionen",
 				"description": "Eure nächsten 1...3 Nicht-Illusionsmagie-Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut.",
 				"concise": "Eure nächsten 1...3 Nicht-Illusionsmagie-Zauber verwenden anstelle ihrer normalen Attribute Euer Illusions-Attribut."
 			},
 			"en": {
 				"name": "Signet of Illusions",
+				"description": "Elite Signet. Your next 1...3 non-Illusion spells use your Illusion attribute instead of their normal attribute.",
+				"concise": "Elite Signet. Your next 1...3 non-Illusion spells use your Illusion attribute instead of their normal attribute."
+			},
+			"en-gww": {
+				"name": "Signet of Illusions",
 				"description": "Your next 1...3 non-Illusion spell[s] use your Illusion attribute instead of its normal attribute.",
 				"concise": "Your next 1...3 non-Illusion spell[s] use your Illusion attribute instead of its normal attribute."
 			},
+			"es": {
+				"name": "Sello de las ilusiones",
+				"description": "Sello de élite. Tus siguientes conjuros (1...3) usan el atributo \"magia de ilusión\" en vez de su atributo normal.",
+				"concise": "Sello de élite. Tus siguientes conjuros (1...3) usan el atributo \"magia de ilusión\" en vez de su atributo normal."
+			},
 			"fr": {
+				"name": "Sceau des illusions",
+				"description": "Sceau d'élite. Vos prochains sorts autres que d'Illusion (1...3 sorts) utilisent la caractéristique d'Illusion au lieu de leur caractéristique normale.",
+				"concise": "Sceau d'élite. Vos prochains sorts autres que d'Illusion (1...3 sorts) utilisent la caractéristique d'Illusion au lieu de leur caractéristique normale."
+			},
+			"fr-gwiki": {
 				"name": "Sceau des illusions",
 				"description": "1...3 prochains sorts utiliseront la caractéristique d'Illusion au lieu de leur caractéristique normale.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo delle Illusioni",
+				"description": "Sigillo d'Élite. La tua prossima 1...3 magia/e, purché non sia un'illusione, sfrutta l'attributo Illusione al posto del suo normale attributo.",
+				"concise": "Sigillo d'Élite. La tua prossima 1...3 magia/e, purché non sia un'illusione, sfrutta l'attributo Illusione al posto del suo normale attributo."
+			},
+			"jp": {
+				"name": "イリュージョン シグネット",
+				"description": "エリート シグネット： 次の1...3個の非イリュージョンのスペルは、通常の属性の代わりにあなたのイリュージョン属性を使用します。",
+				"concise": "エリート シグネット： 次の1...3個の非イリュージョンのスペルは、通常の属性の代わりにあなたのイリュージョン属性を使用します。"
+			},
+			"kr": {
+				"name": "환영 인장",
+				"description": "엘리트 인장. 대상 지정: 없음. 다음에 사용하는 1...3번의 환상 특성이 아닌 마법은 원래의 특성 대신 환상 특성을 사용합니다.",
+				"concise": "엘리트 인장. 다음에 사용하는 1...3번의 환상 특성이 아닌 마법은 원래의 특성 대신 환상 특성을 사용합니다."
+			},
+			"pl": {
+				"name": "Sygnet Iluzji",
+				"description": "Sygnet elitarny. Twoje następne nieiluzyjne czary (1...3) używają atrybutu Magia Iluzji, zamiast swojego normalnego atrybutu.",
+				"concise": "Sygnet elitarny. Twoje następne nieiluzyjne czary (1...3) używają atrybutu Magia Iluzji, zamiast swojego normalnego atrybutu."
+			},
+			"ru": {
+				"name": "Signet of Illusions",
+				"description": "Элитная печать. Ваши следующие заклинания (1...3), не относящиеся к школе Illusion, используют ваш параметр Illusion вместо своего обычного параметра.",
+				"concise": "Элитная печать. Ваши следующие заклинания (1...3), не относящиеся к школе Illusion, используют ваш параметр Illusion вместо своего обычного параметра."
+			},
+			"bork": {
+				"name": "Seegnet ooff Illooseeuns",
+				"description": "Ileete-a Seegnet. Yuoor next 1...3 nun-Illooseeun spells use yuoor Illooseeun aettreeboote-a insteaed ooff their nurmael aettreeboote-a.",
+				"concise": "Ileete-a Seegnet. Yuoor next 1...3 nun-Illooseeun spells use yuoor Illooseeun aettreeboote-a insteaed ooff their nurmael aettreeboote-a."
 			}
 		}
 	}

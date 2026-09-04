@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.5,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 5,
 		"adrenaline_precise": 5,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信仰试炼",
+				"description": "咒文。 触摸目标敌人，使其和邻近的所有敌人受到15...75点冰冻伤害，如果被此技能击中的敌人生命值低于2...6%，则使他失去所有「增益魔法」。",
+				"concise": "触摸法术。 触摸目标敌人，使其和邻近的所有敌人受到15...75点冰冻伤害，如果被此技能击中的敌人生命值低于2...6%，则使他失去所有「增益魔法」。"
+			},
+			"cht": {
+				"name": "信仰考驗",
+				"description": "咒文魔法： 對目標敵人造成 15...75 冰凍傷害，且使該敵人失去一項加持，若該敵人沒有加持效果，將使其暈眩 2...6 秒。",
+				"concise": "碰觸魔法： 對目標敵人造成 15...75 冰凍傷害，且使該敵人失去一項加持，若該敵人沒有加持效果，將使其暈眩 2...6 秒。"
+			},
 			"de": {
+				"name": "Glaubensprüfung",
+				"description": "Zauber. Fügt 15...75 Punkt[e] Kälteschaden zu und entfernt 1 Verzauberung vom Gegner. Wenn der Gegner nicht verzaubert war, leidet er 2...6 Sekunde[n] lang unter Benommenheit.",
+				"concise": "Berührungs-Zauber. Fügt 15...75 Punkt[e] Kälteschaden zu und entfernt 1 Verzauberung vom Gegner. Wenn der Gegner nicht verzaubert war, leidet er 2...6 Sekunde[n] lang unter Benommenheit."
+			},
+			"de-guildwiki": {
 				"name": "Glaubensprüfung",
 				"description": "Fügt dem berührten Gegner 15...75 Punkte Kälteschaden zu und entfernt 1 Verzauberung vom diesem. Wenn der Gegner nicht verzaubert war, leidet er 2...6 Sekunden lang unter Benommenheit.",
 				"concise": "Fügt 15...75 Punkte Kälteschaden zu und entfernt 1 Verzauberung vom Gegner. Wenn der Gegner nicht verzaubert war, leidet er 2...6 Sekunden lang unter Benommenheit."
 			},
 			"en": {
 				"name": "Test of Faith",
+				"description": "Spell. Deals 15...75 cold damage and takes 1 enchantment from target foe. If that foe was not enchanted, that foe is Dazed for 2...6 seconds.",
+				"concise": "Touch Spell. Deals 15...75 cold damage and removes 1 enchantment. Target foe is Dazed for 2...6 seconds if that foe was not enchanted."
+			},
+			"en-gww": {
+				"name": "Test of Faith",
 				"description": "Deals 15...75 cold damage and takes 1 enchantment from target foe. If that foe was not enchanted, that foe is Dazed for 2...6 second[s].",
 				"concise": "Touch Spell. Deals 15...75 cold damage and removes 1 enchantment. Target foe is Dazed for 2...6 second[s] if that foe was not enchanted."
 			},
+			"es": {
+				"name": "Prueba de fe",
+				"description": "Conjuro. Hace 15...75 de daño frío y recibe un encantamiento por enemigo. Si un enemigo no estaba encantado, queda aturdido durante 2...6 segundos.",
+				"concise": "Conjuro de toque. Hace 15...75 de daño frío y elimina un encantamiento. El enemigo queda aturdido durante 2...6 segundos si no estaba encantado."
+			},
 			"fr": {
+				"name": "Test de foi",
+				"description": "Sort. Inflige 15...75 points de dégâts du froid à la cible ennemie et lui enlève 1 enchantement. Si cet ennemi n'était pas enchanté, il souffre de Stupeur pendant 2...6 secondes.",
+				"concise": "Sort de toucher. Inflige +15...75 points de dégâts du froid et retire 1 enchantement. L'ennemi visé est frappé de Stupeur pendant 2...6 secondes s'il n'est pas enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Test de foi",
 				"description": "Inflige 15...75 de dégâts du froid et supprime 1 enchantement de la cible. Si la cible n'est pas enchantée, elle est frappée de Stupeur pendant 1...4 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Prova di Fede",
+				"description": "Magia. Infligge 15...75 danni da freddo e sottrae 1 incantesimo all'obiettivo nemico. Se quel nemico non è sotto incantesimo, subisce Stordimento per 2...6 secondi.",
+				"concise": "Magia a Tocco. Danni da freddo inferti: 15...75 e rimuove un incantesimo. Condizione subita dall'obiettivo nemico se non è sotto incantesimo: Stordimento (2...6 secondi)."
+			},
+			"jp": {
+				"name": "フェイス テスト",
+				"description": "スペル： 15...75 のコールド ダメージを与え、ターゲットした敵にかけられている強化スペルを1個解除します。その敵に強化スペルがかけられていない場合、2...6 秒間「放心」状態にします。",
+				"concise": "スペル (接触)： 15...75 のコールド ダメージを与え、かけられている強化スペルを1個解除します。ターゲットした敵に強化スペルがかけられていない場合、2...6 秒間「放心」状態にします。"
+			},
+			"kr": {
+				"name": "신념의 시험",
+				"description": "마법. 대상 지정: 적. 대상의 강화 마법 하나를 무효화하고, 15...75의 냉기 대미지를 줍니다. 대상에게 강화 마법이 걸려 있지 않으면 2...6초 동안 현혹 상태로 만듭니다.",
+				"concise": "마법(접근용). 15...75의 냉기 대미지를 주고, 강화 마법 하나를 제거합니다. 적에게 강화 마법이 걸려 있지 않으면 현혹시킵니다.(2...6초)"
+			},
+			"pl": {
+				"name": "Próba Wiary",
+				"description": "Czar. Zadaje 15...75 pkt. obrażeń i zdejmuje 1 zaklęcie z wybranego przeciwnika. Jeśli przeciwnik ten nie znajdował się pod wpływem zaklęcia, zostaje oszołomiony na 2...6 sek.",
+				"concise": "Czar dotykowy. Zadaje +15...75 pkt. obrażeń od zimna i usuwa 1 zaklęcie. Wybrany wróg zostaje oszołomiony na 2...6 sek., jeśli nie znajdował się pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Test of Faith",
+				"description": "Заклинание. Наносит 15...75 ед. урона силой холода и снимает 1 чары с выбранного противника. Если на противнике не было чар, он будет ошеломлен на 2...6 сек.",
+				"concise": "Заклинание прикосновения. Наносит 15...75 ед. урона силой холода и снимает 1 чары. Выбранный противник будет ошеломлен на 2...6 сек, если на нем не было чар."
+			},
+			"bork": {
+				"name": "Test ooff Faeeet",
+				"description": "Spell. Deaels 15...75 culd daemaege-a und taekes 1 inchuntment frum taerget fue-a. Iff thaet fue-a vaes nut inchunted, thaet fue-a is Daezed fur 2...6 secunds.",
+				"concise": "Tuooch Spell. Deaels 15...75 culd daemaege-a und remufes 1 inchuntment. Taerget fue-a is Daezed fur 2...6 secunds iff thaet fue-a vaes nut inchunted."
 			}
 		}
 	}

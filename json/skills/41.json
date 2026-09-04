@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力支配",
+				"description": "负面魔法。 使你失去所有能量，对目标敌人造成 1...3点「能量衰减」，同时你的「能量再生」提高 1...3点，效果持续 5...10秒。",
+				"concise": "负面魔法。 使你失去所有能量，对目标敌人造成 1...3点「能量衰减」，同时你的「能量再生」提高1...3点，效果持续 5...10秒。"
+			},
+			"cht": {
+				"name": "精神支配",
+				"description": "降咒魔法： 你失去所有能量。在 5...10 秒內，使目標敵人遭受能量衰減 1...3 ，同時你的能量再生增加 1...3 。",
+				"concise": "降咒魔法： 你失去所有能量。在 5...10 秒內，使目標敵人遭受能量衰減 1...3 ，同時你的能量再生增加 1...3 。"
+			},
 			"de": {
+				"name": "Herr über den Äther",
+				"description": "Verhexung. Ihr verliert Eure gesamte Energie. 5...10 Sekunde[n] lang unterliegt der Gegner einer Energiedegeneration von -1...3 und Ihr erfreut Euch einer zusätzlichen Energieregeneration von 1...3.",
+				"concise": "Verhexung. Ihr verliert alle Energiepunkte. Gegner hat -1...3 Energiedegeneration und Ihr habt +1...3 Energieregeneration (5...10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Herr über den Äther",
 				"description": "Ihr verliert Eure gesamte Energie. 5...10 Sekunden lang unterliegt der Gegner einer Energiedegeneration von -1...3 und Ihr erfreut Euch einer Energieregeneration von +1...3.",
 				"concise": "<gray>Ihr verliert alle Energiepunkte.</gray> Gegner hat -1...3 Energiedegeneration und Ihr habt +1...3 Energieregeneration. (5...10 Sekunden)."
 			},
 			"en": {
 				"name": "Ether Lord",
+				"description": "Hex Spell. You lose all Energy. For 5...10 seconds, target foe suffers -1...3 Energy degeneration, and you experience +1...3 Energy regeneration.",
+				"concise": "Hex Spell. You lose all Energy. Target foe has -1...3 Energy degeneration and you have +1...3 Energy regeneration (5...10 seconds)."
+			},
+			"en-gww": {
+				"name": "Ether Lord",
 				"description": "You lose all Energy. For 5...10 seconds, target foe suffers -1...3 Energy degeneration, and you experience +1...3 Energy regeneration.",
 				"concise": "<gray>You lose all Energy.</gray> Target foe has -1...3 Energy degeneration and you have +1...3 Energy regeneration (5...10 seconds)."
 			},
+			"es": {
+				"name": "Señor del éter",
+				"description": "Conjuro con maleficio. Pierdes toda tu energía. Durante 5...10 segundos, el enemigo objetivo sufre una degeneración de energía de -1...3 y tú obtienes una regeneración de energía de +1...3.",
+				"concise": "Conjuro con maleficio. Pierdes toda la energía. El enemigo objetivo tiene -1...3 de degeneración de energía y tú +1...3 de regeneración (5...10 segundos)."
+			},
 			"fr": {
+				"name": "Seigneur éthéré",
+				"description": "Maléfice. Vous perdez toute votre énergie. Pendant 5...10 secondes, la cible ennemie subit une dégénération d'énergie de -1...3 et vous bénéficiez d'une régénération d'énergie de +1...3.",
+				"concise": "Maléfice. Vous perdez toute votre énergie. L'ennemi visé subit une dégénération d'énergie de -1...3 et vous bénéficiez d'une régénération d'énergie de +1...3. (5...10 secondes.)"
+			},
+			"fr-gwiki": {
 				"name": "Seigneur éthéré",
 				"description": "Vous perdez toute votre énergie. Pendant 5...10 secondes, la cible ennemie subit une dégénération d'énergie de -1...3 et vous bénéficiez d'une régénération d'énergie de +1...3.",
 				"concise": "L'ennemi visé subit une dégénération d'énergie de -1...3 et vous bénéficiez d'une régénration d'énergie de +1...3. (5...10 secondes)."
+			},
+			"it": {
+				"name": "Signore dell'Etere",
+				"description": "Fattura. Perdi tutta l'Energia. Per 5...10 secondo[i], l'obiettivo nemico subisce -1...3 punto[i] di Degenerazione dell'Energia e tu benefici di +1...3 punto[i] di Rigenerazione dell'Energia.",
+				"concise": "Fattura. Perdi tutta l'Energia. Degenerazione Energia dell'obiettivo nemico: -1...3. Rigenerazione tua Energia: +1...3 (5...10 secondo[i])."
+			},
+			"jp": {
+				"name": "エーテル ロード",
+				"description": "弱体化スペル： すべてのエネルギーを失います。5...10 秒間、ターゲットした敵はエネルギーの自然回復力が 1...3 減少し、プレイヤーはエネルギーの自然回復力が 1...3 増加します。",
+				"concise": "弱体化スペル： エネルギーをすべて失います。ターゲットした敵はエネルギーの自然回復力が 1...3 減少し、プレイヤーは自然回復力が 1...3 増加します (5...10 秒)。"
+			},
+			"kr": {
+				"name": "정신의 지배",
+				"description": "약화 마법. 대상 지정: 적. 자신의 모든 에너지를 소모합니다. 5...10초 동안 대상의 에너지 재생은 1...3 감소하고, 자신의 에너지 재생은 1...3 증가합니다.",
+				"concise": "약화 마법. 에너지를 모두 소모합니다. 대상은 에너지 재생이 1...3 감소하고, 자신의 에너지 재생은 1...3 증가합니다.(5...10초)"
+			},
+			"pl": {
+				"name": "Władca Eteru",
+				"description": "Klątwa (czar). Tracisz całą energię. Przez 5...10 sek., wybrany przeciwnik cierpi na -1...3 degeneracji energii, a ty otrzymujesz +1...3 regeneracji energii.",
+				"concise": "Klątwa (czar). Tracisz całą energię. Wybrany przeciwnik posiada degenerację energii -1...3, a ty posiadasz regenerację energii +1...3 (5...10 sek.)."
+			},
+			"ru": {
+				"name": "Ether Lord",
+				"description": "Заклинание-проклятье. Вы теряете всю энергию. В течение 5...10 сек скорость восстановления энергии выбранного противника уменьшается на 1...3 ед., а ваша скорость восстановления энергии увеличивается на 1...3 ед.",
+				"concise": "Заклинание-проклятье. (5...10 сек) Скорость восстановления энергии у выбранного противника уменьшается на 1...3 ед., а у вас увеличивается на 1...3 ед. Вы теряете всю энергию."
+			},
+			"bork": {
+				"name": "Izeer Lurd",
+				"description": "Hex Spell. Yuoo luse-a aell Inergy. Fur 5...10 secunds, taerget fue-a sooffffers -1...3 Inergy degeneraeshun, und yuoo ixpereeence-a +1...3 Inergy regeneraeshun.",
+				"concise": "Hex Spell. Yuoo luse-a aell Inergy. Taerget fue-a haes -1...3 Inergy degeneraeshun und yuoo haefe-a +1...3 Inergy regeneraeshun (5...10 secunds)."
 			}
 		}
 	}

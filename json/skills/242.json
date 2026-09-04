@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "巴萨泽的精神",
+				"description": "增益魔法。 当你维持此「增益魔法」时，如果友方目标受到伤害，可以使其获得怒气值和能量值。（你的「惩戒祷言」属性越高，友方目标获得的怒气值越多）",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，如果友方目标受到伤害，可以使其获得怒气值和能量值。（你的「惩戒祷言」属性越高，友方目标获得的怒气值越多）"
+			},
+			"cht": {
+				"name": "巴薩澤的精神",
+				"description": "加持魔法： 當你維持此「加持」時，若目標盟友受到傷害，則該盟友獲得怒氣值和能量。（你的懲戒祈禱屬性越高，目標盟友得到的怒氣值越多）",
+				"concise": "加持魔法： 當你維持此「加持」時，若目標盟友受到傷害，則該盟友獲得怒氣值和能量。（你的懲戒祈禱屬性越高，目標盟友得到的怒氣值越多）"
+			},
 			"de": {
+				"name": "Balthasars Geist",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, erhält der Verbündete (bzw. Ihr selbst), nachdem er Schaden erlitten hat, Adrenalin und Energiepunkte. (Die erhaltene Adrenalinmenge erhöht sich je nach Eurem Rang bei Peinigungsgebeten.)",
+				"concise": "Verzauberung. Der Verbündete (bzw. Ihr selbst) erhält Adrenalin und 1 Energiepunkt, wenn er Schaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Balthasars Geist",
 				"description": "Solange Ihr diese Verzauberung aufrecht erhaltet, erhält der Verbündete (bzw. Ihr selbst), nachdem er Schaden erlitten hat, 2...5 Fünfundzwanzigstel eines Adrenalinstoßes und 1 Energiepunkt.",
 				"concise": "Der Verbündete (bzw. Ihr selbst) erhält Adrenalin und 1 Energiepunkt, wenn er Schaden erleidet."
 			},
 			"en": {
 				"name": "Balthazar's Spirit",
+				"description": "Enchantment Spell. While you maintain this enchantment, target ally gains adrenaline and Energy after taking damage. (The amount of adrenaline gained increases depending on your rank in Smiting Prayers.)",
+				"concise": "Enchantment Spell. Target ally gains adrenaline and 1 Energy when taking damage."
+			},
+			"en-gww": {
+				"name": "Balthazar's Spirit",
 				"description": "While you maintain this enchantment, target ally gains adrenaline and 1 Energy after taking damage. (The amount of adrenaline gained increases depending on your rank in Smiting Prayers.)",
 				"concise": "Target ally gains adrenaline and 1 Energy when taking damage."
 			},
+			"es": {
+				"name": "Espíritu de Balthazar",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, el objetivo (un aliado o tú mismo) ganará adrenalina y energía siempre que reciba daño (la cantidad de adrenalina dependerá del nivel de plegarias de ataques que se tenga).",
+				"concise": "Conjuro con encantamiento. El objetivo (un aliado o tú mismo) gana adrenalina y 1 de energía al recibir daño."
+			},
 			"fr": {
+				"name": "Esprit de Balthazar",
+				"description": "Enchantement. Tant que cet enchantement est actif, la cible (un allié ou vous-même) gagne de l'adrénaline et de l'énergie après avoir subi des dégâts. (La quantité d'adrénaline dépendra de la valeur de vos Prières de Châtiment.)",
+				"concise": "Enchantement. L'allié visé gagne de l'adrénaline et 1 point d'énergie quand il subit des dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Esprit de Balthazar",
 				"description": "Tant que cet enchantement est actif, la cible (un allié ou vous-même) gagne de l'adrénaline et de l'énergie après avoir subi des dégâts. (La quantité d'adrénaline dépendra de la valeur de vos Prières de châtiment.)",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito di Balthazar",
+				"description": "Incantesimo. Mantenendo questo incantesimo, l'obiettivo (un alleato o te stesso) ottiene adrenalina ed Energia dopo aver subito danno (la quantità di adrenalina varia a seconda del livello delle Preghiere Punitive).",
+				"concise": "Incantesimo. L'obiettivo (un alleato o te stesso) ottiene adrenalina e 1 Punto Energia quando riceve danni."
+			},
+			"jp": {
+				"name": "バルタザール スピリット",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした味方はダメージを受けるたびにアドレナリンおよびエネルギーを獲得します。獲得するアドレナリン量は、「ホーリー」の特性レベルに応じます。",
+				"concise": "強化スペル： ターゲットした味方は、ダメージを受けるとアドレナリンと1のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "발타자르의 성령",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상은 대미지를 입을 때마다 아드레날린과 에너지를 얻습니다.(당신의 천벌 특성 레벨이 높을수록 대상이 얻는 아드레날린의 양이 증가합니다.)",
+				"concise": "강화 마법. 대상은 대미지를 입을 때 아드레날린과 1의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Duch Baltazara",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, kiedy wybrany sojusznik otrzyma obrażenia, zwiększy się jego adrenalina i energia. (Ilość otrzymywanej adrenaliny jest wprost proporcjonalna do wartości atrybutu Modlitwy Ofensywne.)",
+				"concise": "Zaklęcie (czar). Wybrany sojusznik dostaje adrenalinę i 1 pkt. energii, kiedy otrzymuje obrażenia."
+			},
+			"ru": {
+				"name": "Balthazar's Spirit",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, выбранный союзник пополняет свой запас адреналина и энергии при получении урона. (Количество получаемого адреналина увеличивается в зависимости от уровня вашего таланта Smiting Prayers.)",
+				"concise": "Заклинание-чары. Выбранный союзник получает адреналин и 1 ед. энергии, когда ему наносится урон."
+			},
+			"bork": {
+				"name": "Baelthaezaer's Spureet",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, taerget aelly gaeeens aedrenaeleene-a und Inergy aeffter taekeeng daemaege-a. (Zee aemuoont ooff aedrenaeleene-a gaeeened increaeses dependeeng oon yuoor runk in Smeeteeng Praeyers.)",
+				"concise": "Inchuntment Spell. Taerget aelly gaeeens aedrenaeleene-a und 1 Inergy vhee taekeeng daemaege-a."
 			}
 		}
 	}

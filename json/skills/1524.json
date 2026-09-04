@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "隐士的热诚",
+				"description": "增益魔法。 驱散自身的一项「增益魔法」，然后根据邻近的敌人数量，每一个为你回复1...3点能量。（最多8点能量值）",
+				"concise": "增益魔法。 驱散自身的一项「增益魔法」，然后根据邻近的敌人数量，每一个为你回复1...3点能量。（最多8点能量值）"
+			},
+			"cht": {
+				"name": "隱士熱誠",
+				"description": "加持魔法： 依照音量所及範圍內的敵人數量，每個使你獲得 1...3 能量，最多 8 能量。接下來的 10 秒，此加持並沒有直接效果。此加持結束時，再照音量所及範圍內的敵人數量，每個使你獲得 1...3 能量，最多 8 能量。",
+				"concise": "加持魔法： 依照音量所及範圍內的敵人數量，每個使你獲得 1...3 能量，最多 8 能量。接下來的 10 秒，此加持並沒有直接效果。此加持結束時，再照音量所及範圍內的敵人數量，每個使你獲得 1...3 能量，最多 8 能量。"
+			},
 			"de": {
+				"name": "Eifer des Eremiten",
+				"description": "Verzauberung. Ihr erhaltet für jeden Feind in der Nähe 1...3 Energiepunkt[e] (maximal 8 Energiepunkte). 10 Sekunde[n] danach bewirkt diese Verzauberung nichts Wenn diese Verzauberung endet, erhaltet Ihr 1...3 Energiepunkt[e] für jeden umstehenden Gegner (maximal 8 Energiepunkt[e]).",
+				"concise": "Verzauberung. (10 Sekunde[n].) Anfangswirkung: Ihr erhaltet für jeden Feind in der Nähe 1...3 Energiepunkt[e] (maximal 8). Wirkung am Ende: Ihr erhaltet für jeden Feind in der Nähe 1...3 Energiepunkt[e] (maximal 8)."
+			},
+			"de-guildwiki": {
 				"name": "Eifer des Eremiten",
 				"description": "Ihr erhaltet für jeden Feind in Hörweite 1...3 Energiepunkte (maximal 8 Energiepunkte). 10 Sekunden lang bewirkt diese Verzauberung nichts. Wenn diese Verzauberung endet, erhaltet Ihr 1...3 Energiepunkte für jeden Feind in Hörweite (maximal 8 Energiepunkte).",
 				"concise": "(10 Sekunden.) Anfangswirkung: Ihr erhaltet für jeden Feind in Hörweite 1...3 Energiepunkte (maximal 8). Wirkung am Ende: Ihr erhaltet für jeden Feind in Hörweite 1...3 Energiepunkte (maximal 8)."
 			},
 			"en": {
 				"name": "Eremite's Zeal",
+				"description": "Enchantment Spell. You gain 1...3 Energy for each foe within earshot, maximum 8 Energy. For 10 seconds afterward, this enchantment does nothing. When this enchantment ends, you gain 1...3 Energy for each foe within earshot, maximum 8 Energy.",
+				"concise": "Enchantment Spell. (10 seconds.) Initial effect: you gain 1...3 Energy (maximum 8) for each foe in earshot. End effect: you gain 1...3 Energy (maximum 8) for each foe in earshot."
+			},
+			"en-gww": {
+				"name": "Eremite's Zeal",
 				"description": "You gain 1...3 Energy for each foe within earshot, maximum 8 Energy. For 10 seconds afterward, this enchantment does nothing. When this enchantment ends, you gain 1...3 Energy for each foe within earshot, maximum 8 Energy.",
 				"concise": "(10 seconds.) Initial effect: you gain 1...3 Energy (maximum 8) for each foe in earshot. End effect: you gain 1...3 Energy (maximum 8) for each foe in earshot."
 			},
+			"es": {
+				"name": "Celo del ermitaño",
+				"description": "Conjuro con encantamiento. Ganas 1...3 de energía (máximo 8) por cada enemigo al alcance del oído. Durante los 10 segundos posteriores, este encantamiento no tendrá ningún efecto. Cuando este encantamiento termina, ganas 1...3 de energía (máximo 8) por cada enemigo al alcance del oído.",
+				"concise": "Conjuro con encantamiento. (10 segundos). Efecto inicial: ganas 1...3 de energía (máximo 8) por cada enemigo al alcance del oído. Efecto final: ganas 1...3 de energía (máximo 8) por cada enemigo al alcance del oído."
+			},
 			"fr": {
+				"name": "Zèle érémitique",
+				"description": "Enchantement. Vous gagnez 1...3 points d'énergie (maximum : 8 points d'énergie) par ennemi à portée de voix. Pendant 10 secondes à partir de ce moment, cet enchantement est sans effet. A l'issue de l'enchantement, vous gagnez 1...3 points d'énergie par ennemi à portée de voix (maximum 8 points d'énergie).",
+				"concise": "Enchantement. (10 secondes.) Effet initial : vous gagnez 1...3 points d'énergie (maximum : 8 points d'énergie) par ennemi à portée de voix. Effet final : vous gagnez 1...3 points d'énergie (maximum : 8 points d'énergie) par ennemi à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Zèle érémitique",
 				"description": "Vous perdez un enchantement. Vous bénéficiez de 1...6 point(s) d'énergie pour chaque ennemi adjacent (maximum 15 points d'énergie).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Zelo dell'Eremita",
+				"description": "Incantesimo. Ottieni 1...3 Punti Energia (max 8) per ogni nemico a portata d'orecchio. Per 10 secondi successivi, questo incantesimo non sortisce effetti. Al termine dell'incantesimo, ottieni 1...3 Punti Energia (max 8) per ogni nemico a portata d'orecchio.",
+				"concise": "Incantesimo. (Secondi: 10). Effetto iniziale: ottieni 1...3 Punti Energia (max 8) per ogni nemico a portata d'orecchio. Effetto al termine: ottieni 1...3 Punti Energia (max 8) per ogni nemico a portata d'orecchio."
+			},
+			"jp": {
+				"name": "アーマイト ジール",
+				"description": "強化スペル： 声の届く範囲内にいる敵ごとに 1...3 のエネルギーを獲得します (最大 8 のエネルギー) 。10 秒間、何も起こりません。このスペルの効果が終了するとき、声の届く範囲内にいる敵ごとに 1...3 のエネルギーを獲得します (最大 8 のエネルギー) 。",
+				"concise": "強化スペル： (10 秒) 発動効果： 声の届く範囲内にいる敵ごとに 1...3 のエネルギーを獲得します (最大 8) 。終了効果： 声の届く範囲内にいる敵ごとに 1...3 のエネルギーを獲得します (最大 8) 。"
+			},
+			"kr": {
+				"name": "은둔자의 열정",
+				"description": "강화 마법. 대상 지정: 없음. 가청 범위 내에 있는 적 하나당 1...3씩, 최대 8의 에너지를 얻습니다. 강화 마법이 지속되는 10초 동안 아무 변화가 없지만, 효과가 끝나면 가청 범위 내에 있는 적 하나당 1...3씩, 최대 8의 에너지를 얻습니다.",
+				"concise": "강화 마법. (10초) 초기 효과: 가청 범위 내에 있는 적 하나당 1...3씩, 최대 8의 에너지를 얻습니다. 종료 효과: 가청 범위 내에 있는 적 하나당 1...3씩, 최대 8의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Gorliwość Eremity",
+				"description": "Zaklęcie (czar). Za każdego wroga w zasięgu słuchu otrzymujesz 1...3 pkt. energii (maksymalnie 8). Następnie, przez 10 sek. zaklęcie to nic nie robi. Kiedy zaklęcie dobiegnie końca, za każdego wroga w zasięgu słuchu otrzymujesz 1...3 pkt. energii (maksymalnie 8).",
+				"concise": "Zaklęcie (czar). (10 sek.) Efekt początkowy: Za każdego wroga w zasięgu słuchu otrzymujesz 1...3 pkt. energii (maksymalnie 8). Efekt końcowy: Za każdego wroga w zasięgu słuchu otrzymujesz 1...3 pkt. energii (maksymalnie 8)."
+			},
+			"ru": {
+				"name": "Eremite's Zeal",
+				"description": "Заклинание-чары. Вы получаете 1...3 ед. энергии за каждого противника в зоне слышимости, но не более 8 ед. энергии. Затем в течение 10 сек эти чары ничего не делают. Когда действие этих чар заканчивается, вы получаете 1...3 ед. энергии за каждого противника в зоне слышимости, но не более 8 ед. энергии.",
+				"concise": "Заклинание-чары. (10 сек) Начальный эффект: вы получаете 1...3 ед. энергии за каждого противника в зоне слышимости (но не более 8 ед. энергии). Эффект окончания: вы получаете 1...3 ед. энергии за каждого противника в зоне слышимости (но не более 8 ед. энергии)."
+			},
+			"bork": {
+				"name": "Iremeete-a's Zeael",
+				"description": "Inchuntment Spell. Yuoo gaeeen 1...3 Inergy fur iaech fue-a veetheen iaershut, maexeemoom 8 Inergy. Fur 10 secunds aefftervaerd, thees inchuntment dues nutheeng. Vhee thees inchuntment inds, yuoo gaeeen 1...3 Inergy fur iaech fue-a veetheen iaershut, maexeemoom 8 Inergy.",
+				"concise": "Inchuntment Spell. (10 secunds.) Ineeteeael iffffect: yuoo gaeeen 1...3 Inergy (maexeemoom 8) fur iaech fue-a in iaershut. Ind iffffect: yuoo gaeeen 1...3 Inergy (maexeemoom 8) fur iaech fue-a in iaershut."
 			}
 		}
 	}

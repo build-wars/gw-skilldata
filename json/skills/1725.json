@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "怒吼之风",
+				"description": "自然仪式。 创造一只等级为1...10的怒吼精灵。使「圣歌」和「战吼」所消耗的能量值增加1...5点。怒吼精灵在30...180秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的怒吼精灵。使「圣歌」和「战吼」所消耗的能量值增加1...5点。怒吼精灵在30...180秒后消失。"
+			},
+			"cht": {
+				"name": "怒吼之風",
+				"description": "自然儀式： 創造一隻等級 1...10 的怒吼精靈。使區域內的「聖歌」及「戰嚎」消耗的能量增加 1...5 。怒吼精靈將在 30...180 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的怒吼精靈。使區域內的「聖歌」及「戰嚎」消耗的能量增加 1...5 。怒吼精靈將在 30...180 秒後消失。"
+			},
 			"de": {
+				"name": "Tosender Wind",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Anfeuerungsrufe und Schreie kosten 1...5 Punkt[e] mehr Energie. Dieser Geist stirbt nach 30...180 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...180 Sekunde[n] Lebensdauer). Schreie und Anfeuerungsrufe kosten Kreaturen in Reichweite +1...5 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Tosender Wind",
 				"description": "Erstellt einen Geist der Stufe 1...10. Anfeuerungsrufe und Schreie kosten 1...5 Energiepunkte mehr. Dieser Geist stirbt nach 30...180 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Schreie und Anfeuerungsrufe kosten Kraturen in Reichweite +1...5 Energiepunkte."
 			},
 			"en": {
 				"name": "Roaring Winds",
+				"description": "Nature Ritual. Create a level 1...10 spirit. Chants and shouts cost 1...5 more Energy. This spirit dies after 30...180 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...180 second lifespan). Chants and shouts cost 1...5 more Energy for creatures in range."
+			},
+			"en-gww": {
+				"name": "Roaring Winds",
 				"description": "Create a level 1...10 spirit. Chants and shouts cost 1...5 more Energy. This spirit dies after 30...180 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...180 second lifespan). Chants and shouts cost 1...5 more Energy for creatures in range."
 			},
+			"es": {
+				"name": "Vientos ruidosos",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10, que hará que los cánticos y gritos cuesten 1...5 más de energía. Morirá a los 30...180 segundos.",
+				"concise": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10 (30...180 segundos de vida). A las criaturas de la zona les cuesta 1...5 de energía usar cánticos y gritos."
+			},
 			"fr": {
+				"name": "Vents mugissants",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Les chants et les cris coûtent 1...5 points d'énergie en plus. L'esprit meurt au bout de 30...180 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Les chants et les cris coûtent 1...5 points d'énergie en plus pour les créatures à portée."
+			},
+			"fr-gwiki": {
 				"name": "Vents mugissants",
 				"description": "Crée un esprit de niveau 1...10. Les Chants et les Cris coûtent 1...5 point(s) d'énergie en plus. L'esprit meurt au bout de 30...180 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Venti Impetuosi",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. I canti e le urla costano 1...5 Punto[i] Energia in più. Lo Spirito si esaurisce dopo 30...180 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...180 secondo[i]). Incremento del costo energetico di canti e urla per le creature nella portata: 1...5."
+			},
+			"jp": {
+				"name": "ウインド ロア",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。シャウトやチャントの消費エネルギーが 1...5 増加します。この精霊は、30...180 秒後に消えます。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...180 秒) 。この精霊の効果範囲内では、チャントおよびシャウトに必要なエネルギーが 1...5 増加します。"
+			},
+			"kr": {
+				"name": "광풍의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 고함과 영창에 소모되는 에너지가 1...5 증가합니다. 영혼은 30...180초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...180초) 고함과 영창에 소모되는 에너지가 1...5 증가합니다."
+			},
+			"pl": {
+				"name": "Ryczące Wiatry",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Pieśni i okrzyki kosztują o 1...5 pkt. energii więcej. Ten duch ginie po 30...180 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...180 sek.). Zaśpiewy i okrzyki stworzeń w zasięgu kosztują o 1...5 pkt. energii więcej."
+			},
+			"ru": {
+				"name": "Roaring Winds",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Хоралы и крики требуют для активации на 1...5 ед. энергии больше. Этот дух умирает через 30...180 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...180 сек жизни). Крики и хоралы требуют на 1...5 ед. энергии больше для созданий в зоне его действия."
+			},
+			"bork": {
+				"name": "Ruaereeng Veends",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Chunts und shuoots cust 1...5 mure-a Inergy. Thees spureet deees aeffter 30...180 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...180 secund leeffespun). Chunts und shuoots cust 1...5 mure-a Inergy fur creaetoores in runge-a."
 			}
 		}
 	}

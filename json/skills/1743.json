@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "束缚纹章",
+				"description": "纹章。 使目标友方召唤生物的最大生命值提高200...50点，但在0秒之后，该生物将死亡。",
+				"concise": "纹章。 使目标友方召唤生物的最大生命值提高200...50点，但在0秒之后，该生物将死亡。"
+			},
+			"cht": {
+				"name": "束縛紋章",
+				"description": "紋章： 你失去 200...50 體力，控制目標靈，當召喚屬性為 4 或以下時有 50% 失敗機率。",
+				"concise": "紋章： 你失去 200...50 體力，控制目標靈，當召喚屬性為 4 或以下時有 50% 失敗機率。"
+			},
 			"de": {
+				"name": "Siegel der Bindung",
+				"description": "Siegel. Ihr verliert 200...50 Lebenspunkt[e] und übernehmt die Kontrolle über den vom Gegner kontrollierten Geist. (Bei einer Macht des Herbeirufens von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Siegel. Ihr verliert 200...50 Lebenspunkt[e]. Übernehmt die Kontrolle über den vom Gegner kontrollierten Geist. <c x=\"SkillDull\">Mindestens Macht des Herbeirufens 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Bindung",
 				"description": "Ihr verliert 200...50 Lebenspunkte und übernehmt die Kontrolle über den vom Gegner kontrollierten Geist. (Bei einer Macht des Herbeirufens von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
 				"concise": "Ihr verliert 200...50 Lebenspunkte. Übernehmt die Kontrolle über den vom Gegner kontrollierten Geist. Mindestens Macht des Herbeirufens 5, sonst 50%ige Chance auf Misserfolg."
 			},
 			"en": {
 				"name": "Signet of Binding",
+				"description": "Signet. You lose 200...50 Health and take control of target enemy-controlled spirit. (50% failure chance with Spawning Power 4 or less.)",
+				"concise": "Signet. You lose 200...50 Health. Gain control of target enemy-controlled spirit. 50% failure chance unless Spawning Power 5 or more."
+			},
+			"en-gww": {
+				"name": "Signet of Binding",
 				"description": "You lose 200...50 Health and take control of target enemy-controlled spirit. (50% failure chance with Spawning Power 4 or less.)",
 				"concise": "You lose 200...50 Health. Gain control of target enemy-controlled spirit. <gray>50% failure chance unless Spawning Power 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Sello de encadenamiento",
+				"description": "Sello. Pierdes 200...50 de salud y asumes el control del espíritu objetivo controlado por el enemigo. (50% de posibilidades de fallar con engendramiento 4 o inferior.)",
+				"concise": "Sello. Pierdes 200...50 de salud. Asumes el control del espíritu objetivo controlado por el enemigo. <c x=\"SkillDull\">50% de posibilidades de fallar a menos que tengas engendramiento 5 o superior."
+			},
 			"fr": {
+				"name": "Sceau d'asservissement",
+				"description": "Sceau. Vous perdez 200...50 points de vie et asservissez l'esprit visé contrôlé par l'ennemi. (50% de risques d'échec avec Puissance de l'Invocation 4 ou inférieure.)",
+				"concise": "Sceau. Vous perdez 200...50 points de vie. Vous asservissez l'esprit visé contrôlé par l'ennemi. <c x=\"SkillDull\">50% de risques d'échec avec Puissance de l'Invocation 5 ou supérieure."
+			},
+			"fr-gwiki": {
 				"name": "Sceau d'asservissement",
 				"description": "Vous perdez 200...50 points de vie et asservissez l'esprit visé. (50% de risques d’échec avec Puissance de l’Invocation 4 ou inférieure.)",
 				"concise": "Vous perdez 200...50 points de vie et asservissez l'esprit visé. 50% de risques d’échec avec Puissance de l’Invocation 4 ou inférieure."
+			},
+			"it": {
+				"name": "Sigillo di Incatenamento",
+				"description": "Sigillo. Perdi 200...50 Punti Salute e ottieni il controllo dello Spirito del nemico. (50% di probabilità di fallimento con Riti Sacrificali di grado 4 o inferiore).",
+				"concise": "Sigillo. Punti salute persi: 200...50. Ottieni il controllo dello Spirito del nemico. <c x=\"SkillDull\">Probabilità di fallimento se il grado di Riti Sacrificali è inferiore a 5: 50%."
+			},
+			"jp": {
+				"name": "バインド シグネット",
+				"description": "シグネット： 200...50 の体力を失い、ターゲットした敵が管理する精霊のマスターになります。「スポーン パワー」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "シグネット： 200...50 の体力を失い、ターゲットした敵が管理する精霊のマスターになります。「スポーン パワー」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "구속 인장",
+				"description": "인장. 대상 지정: 적 영혼. 체력을 200...50만큼 소모해 대상을 조종합니다. 생성 특성 레벨이 4 이하이면 50% 확률로 실패합니다.",
+				"concise": "인장. 200...50의 체력을 소모해 대상 적 영혼을 조종합니다. 생성 특성 레벨이 4 이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Sygnet Spętania",
+				"description": "Sygnet. Tracisz 200...50 pkt. żywotności, by przejąć kontrolę nad wybranym duchem nalezącym do wroga. (Szansa porażki wynosi 50%, jeśli twoja Moc Przywoływania ma wartość 4 lub mniejszą.)",
+				"concise": "Sygnet. Tracisz 200...50 pkt. żywotności. Zyskujesz kontrolę nad wybranym duchem wroga. <c x=\"SkillDull\">Jeśli twoja Moc Przywoływania jest niższa niż 5, szansa porażki wynosi 50%."
+			},
+			"ru": {
+				"name": "Signet of Binding",
+				"description": "Печать. Вы теряете 200...50 ед. здоровья и получаете контроль над выбранным духом, контролируемым противником. (50% шанс неудачи, если уровень вашего таланта Spawning Power меньше или равен 4)",
+				"concise": "Печать. Вы теряете 200...50 ед. здоровья и получаете контроль над выбранным духом, контролируемым противником. 50% шанс неудачи, если уровень таланта Spawning Power меньше 5."
+			},
+			"bork": {
+				"name": "Seegnet ooff Beendeeng",
+				"description": "Seegnet. Yuoo luse-a 200...50 Heaelt und taeke-a cuntrul ooff taerget inemy-cuntrulled spureet. (50% faeeeloore-a chunce-a veet Spaevneeng Pooer 4 oor less.)",
+				"concise": "Seegnet. Yuoo luse-a 200...50 Heaelt. Gaeeen cuntrul ooff taerget inemy-cuntrulled spureet. 50% faeeeloore-a chunce-a unless Spaevneeng Pooer 5 oor mure-a."
 			}
 		}
 	}

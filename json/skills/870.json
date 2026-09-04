@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "热疫",
+				"description": "自然仪式。 创造一只等级为1...10的热疫精灵。如果范围内有任何生物死亡，该生物所带有的「症状」将会传染给所有附近的生物。热疫精灵在30...180秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的热疫精灵。如果范围内有任何生物死亡，该生物所带有的「症状」将会传染给所有附近的生物。热疫精灵在30...180秒后消失。"
+			},
+			"cht": {
+				"name": "瘟疫",
+				"description": "自然儀式： 創造一隻等級 1...10 的瘟疫精靈。當區域內有非靈生物死亡時，該生物遭受的所有「病症」將會傳染給範圍內所有正遭受「病症」的生物。瘟疫精靈將在 30...180 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的瘟疫精靈。當區域內有生物死亡時，其身上遭受的所有「病症」將會傳染給附近的所有生物。瘟疫精靈將在 30...180 秒後消失。"
+			},
 			"de": {
+				"name": "Pestilenz",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Wenn eine Kreatur, die kein Geist ist, in seiner Reichweite stirbt, werden alle Zustände, mit denen sie belegt ist, auf alle Kreaturen in dem Bereich verteilt, die bereits an einem Zustand leiden. Dieser Geist stirbt nach 30...180 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...180 Sekunde[n] Lebensdauer). Wenn eine Kreatur in Reichweite stirbt, werden die Zustände dieser Kreatur auf alle anderen Kreaturen im Bereich übertragen, die einen Zustand haben. Geister sind nicht betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Pestilenz",
 				"description": "Erstellt einen Geist der Stufe 1...10. Wenn eine Kreatur, die kein Geist ist, in seiner Reichweite stirbt, werden alle Zustände, mit denen sie belegt ist, auf alle Kreaturen in dem Bereich verteilt, die bereits an einem Zustand leiden. Dieser Geist stirbt nach 30...180 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Wenn eine Kreatur in Reichweite stirbt, werden die Zustände dieser Kreatur auf alle anderen Kreaturen im Bereich übertragen, die einen Zustand haben. Geister sind nicht betroffen."
 			},
 			"en": {
 				"name": "Pestilence",
+				"description": "Nature Ritual. Create a level 1...10 spirit. When any non-spirit creature within its range dies, conditions on that creature spread to any creature in the area already suffering from a condition. This spirit dies after 30...180 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...180 second lifespan). When any creature in range dies, conditions on this creature spread to any creature in the area with a condition. Spirits are not affected."
+			},
+			"en-gww": {
+				"name": "Pestilence",
 				"description": "Create a level 1...10 spirit. When any creature within its range dies, conditions on that creature spread to any creature in the area already suffering from a condition. This spirit dies after 30...180 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...180 second lifespan). When any creature in range dies, conditions on this creature spread to any creature in the area with a condition. Spirits are not affected."
 			},
+			"es": {
+				"name": "Pestilencia",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Si alguna criatura no espíritu muere en su zona, todas las condiciones que tenía se contagian a las criaturas de la zona que ya tenían alguna condición. El espíritu morirá a los 30...180 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...180 segundos de vida). Cuando alguna criatura de la zona muera, las condiciones que tenía se contagian a las criaturas de la zona que ya tenían alguna condición. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Pestilence",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Lorsqu'une créature autre qu'un esprit meurt dans sa portée, les conditions dont elle souffrait sont transmises à toutes les créatures dans la zone souffrant déjà d'une condition. Cet esprit disparaît au bout de 30...180 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Quand une créature meurt à portée, les conditions dont elle souffrait sont transmises à toute créature de la zone souffrant déjà d'une condition. Les esprits ne sont pas affectés."
+			},
+			"fr-gwiki": {
 				"name": "Pestilence",
 				"description": "Crée un esprit de niveau 1...10. Lorsqu'une créature autre qu'un esprit meurt dans sa portée, les conditions dont elle souffrait sont transmises à toutes les créatures dans la zone souffrant déjà d'une condition. Cet esprit disparaît au bout de 30...180 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pestilenza",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Quando una creatura (Spiriti esclusi) nella sua portata muore, le condizioni che aveva addosso si diffondono su tutte le creature nell'area che sono già affette da una condizione. Questo Spirito si esaurisce dopo 30...180 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...180 secondo[i]). Quando una creatura nella portata muore, le condizioni di cui soffriva si diffondono sulle creature nell'area già affette da una condizione. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ペストランス",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、「状態異常」をかけられている精霊以外の生物が戦闘不能になると、その「状態異常」が同じ範囲内にいる他の「状態異常」の生物に伝染します。この精霊は 30...180 秒後に消えます。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...180 秒) 。この精霊の効果範囲内では、戦闘不能になった生物にかけられている「状態異常」が、他の「状態異常」をかけられている精霊以外の生物に伝染します。"
+			},
+			"kr": {
+				"name": "전염의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼을 중심으로 한 일정 범위 내에서 영혼이 아닌 생물체가 죽으면 그에게 걸려 있던 모든 상태이상이 그를 중심으로 일정 범위 내에 있는 상태이상에 하나라도 걸려 있는 이에게 전염됩니다. 영혼은 30...180초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...180초) 생물체가 죽으면 그에게 걸려 있던 상태이상이 일정 범위 내에 있는 모두에게 전염됩니다."
+			},
+			"pl": {
+				"name": "Zaraza",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Jeśli w jego zasięgu zginie jakieś stworzenie nie-duch, to przypadłości tego stworzenia przenoszą się na inne stworzenie w okolicy będące już pod działaniem przypadłości. Duch ginie po 30...180 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...180 sek.). Jeśli w jego zasięgu zginie jakieś stworzenie, to przypadłości tego stworzenia przenoszą się na inne stworzenia w okolicy będące już pod działaniem przypadłości. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Pestilence",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Когда в зоне действия духа умирает создание, не являющееся духом, все состояния этого создания распространяются на любое создание в зоне досягаемости, которое уже находится под действием какого-либо состояния. Этот дух умирает через 30...180 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...180 сек). Когда в зоне его действия умирает любое создание, то все состояния с этого создания распространяются на любое создание в зоне досягаемости, которое уже находится под действием состояния."
+			},
+			"bork": {
+				"name": "Pesteelence-a",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Vhee uny nun-spureet creaetoore-a veetheen its runge-a deees, cundeeshuns oon thaet creaetoore-a spreaed tu uny creaetoore-a in zee aerea aelreaedy sooffffereeng frum a cundeeshun. Thees spureet deees aeffter 30...180 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...180 secund leeffespun). Vhee uny creaetoore-a in runge-a deees, cundeeshuns oon thees creaetoore-a spreaed tu uny creaetoore-a in zee aerea veet a cundeeshun. Spureets aere-a nut aeffffected."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "腹部猛击",
+				"description": "锤术。 如果命中已倒地的敌人，扬起的尘土会让邻近你的敌人遭受「盲目」症状 3...7秒。",
+				"concise": "锤术。 如果命中已倒地的敌人，扬起的尘土会让邻近你的敌人遭受「盲目」症状 3...7秒。"
+			},
+			"cht": {
+				"name": "腹部猛擊",
+				"description": "鎚術攻擊技能： 若擊中正倒在地上的敵人，揚起的塵雲將會讓你鄰近的敵人遭受「盲目」病症 3...7 秒。",
+				"concise": "鎚術攻擊技能： 若擊中正倒在地上的敵人，揚起的塵雲將會讓你鄰近的敵人遭受「盲目」病症 3...7 秒。"
+			},
 			"de": {
+				"name": "Bauchklatscher",
+				"description": "Hammerangriff. Wenn dieser Angriff einen zu Boden geworfenen Gegner trifft, führt die entstehende Staubwolke bei umstehenden Feinden 3...7 Sekunde[n] lang zu Blindheit.",
+				"concise": "Hammerangriff. Verursacht bei umstehenden Feinden den Zustand Blindheit (3...7 Sekunde[n]), falls der Gegner zu Boden geworfen wurde."
+			},
+			"de-guildwiki": {
 				"name": "Bauchklatscher",
 				"description": "Trifft dieser Angriff einen am Boden liegenden Gegner, führt die entstehende Staubwolke bei umstehenden Gegnern 3...7 Sekunden lang zu Blindheit.",
 				"concise": "Verursacht bei umstehenden Feinden Zustand Blindheit (3...7 Sekunden), falls Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Belly Smash",
+				"description": "Hammer Attack. If this attack strikes a foe who is knocked down, the resulting dust cloud will blind adjacent foes for 3...7 seconds.",
+				"concise": "Hammer Attack. Inflicts Blindness condition to adjacent foes (3...7 seconds) if target foe is knocked down."
+			},
+			"en-gww": {
+				"name": "Belly Smash",
 				"description": "If this attack strikes a foe who is knocked down, the resulting dust cloud will blind adjacent foes for 3...7 seconds.",
 				"concise": "Inflicts Blindness condition to adjacent foes (3...7 seconds) if target foe is knocked down."
 			},
+			"es": {
+				"name": "Golpe de barriga",
+				"description": "Ataque con martillo. Si este ataque golpea a un enemigo que esté derribado, la nube de polvo resultante cegará a los enemigos adyacentes durante 3...7 segundos.",
+				"concise": "Ataque con martillo. Causa ceguera a los enemigos adyacentes (3...7 segundos) si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Coup ventral",
+				"description": "Attaque au marteau. Si cette attaque frappe un ennemi assommé, le nuage de poussière soulevé aveugle les ennemis adjacents pendant 3...7 secondes.",
+				"concise": "Attaque au marteau. Inflige l'Aveuglement aux ennemis adjacents (3...7 secondes) si l'ennemi visé est assommé."
+			},
+			"fr-gwiki": {
 				"name": "Coup ventral",
 				"description": "Si cette attaque frappe un ennemi à terre, le nuage de poussière soulevé aveugle les ennemis adjacents pendant 3...7 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spanciata",
+				"description": "Attacco con Martello. Se questo attacco colpisce un nemico che si trova a terra, la nube di polvere che si sprigiona acceca i nemici adiacenti per 3...7 secondo[i].",
+				"concise": "Attacco con Martello. Condizione inflitta ai nemici adiacenti se l'obiettivo nemico è abbattuto: Accecamento (3...7 secondo[i])."
+			},
+			"jp": {
+				"name": "ベリー スマッシュ",
+				"description": "ハンマー アタック： この攻撃が転倒中の敵に対して成功すると、塵の雲が発生して隣接する敵を 3...7 秒間「盲目」状態にします。",
+				"concise": "ハンマー アタック： ターゲットした敵が転倒中の場合、隣接する敵を「盲目」状態にします (3...7 秒)。"
+			},
+			"kr": {
+				"name": "바닥 강타",
+				"description": "해머 공격. 대상 지정: 적. 바닥에 넘어진 대상을 강타하여 먼지 구름을 만들고, 대상에 인접한 적들의 눈을 3...7초 동안 멀게 합니다.",
+				"concise": "해머 공격. 대상이 바닥에 넘어져 있으면 그에 인접한 적들을 실명시킵니다.(3...7초)"
+			},
+			"pl": {
+				"name": "Uderzenie w Brzuch",
+				"description": "Atak młotem. Jeśli ten atak trafi powalnego przeciwnika, to wzbije się chmura pyłu, która na 3...7 sek. oślepi sąsiadujących przeciwników.",
+				"concise": "Atak młotem. Wywołuje przypadłość oślepienie u sąsiadujących przeciwników (3...7 sek.), jeżeli wybrany przeciwnik zostanie powalony."
+			},
+			"ru": {
+				"name": "Belly Smash",
+				"description": "Атака молотом. Если этот удар попадает по сбитому с ног противнику, поднявшееся облако пыли ослепит окружающих противников на 3...7 сек.",
+				"concise": "Атака молотом. Вызывает слепоту у окружающих противников (3...7 сек), если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Belly Smaesh",
+				"description": "Haemmer Aettaeck. Iff thees aettaeck streekes a fue-a vhu is knucked doon, zee resoolteeng doost cluood veell bleend aedjaecent fues fur 3...7 secunds.",
+				"concise": "Haemmer Aettaeck. Inffleects Bleendness cundeeshun tu aedjaecent fues (3...7 secunds) iff taerget fue-a is knucked doon."
 			}
 		}
 	}

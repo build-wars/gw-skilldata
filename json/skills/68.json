@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益抽取",
+				"description": "咒文。 驱散目标敌人身上的一个「增益魔法」，驱散成功后，你将获得8...17点能量。",
+				"concise": "咒文。 驱散目标敌人身上的一个「增益魔法」，驱散成功后，你将获得8...17点能量。"
+			},
+			"cht": {
+				"name": "加持吸收",
+				"description": "咒文魔法： 移除目標敵人一項加持。若移除成功，你獲得8...17能量和40...120體力。",
+				"concise": "咒文魔法： 移除目標敵人一項加持。若移除成功，你獲得8...17能量和40...120體力。"
+			},
 			"de": {
+				"name": "Verzauberung entziehen",
+				"description": "Zauber. Entfernt eine Verzauberung vom Gegner. Wenn eine Verzauberung entfernt wird, bekommt Ihr 8...17 Energiepunkt[e] und 40...120 Lebenspunkt[e].",
+				"concise": "Zauber. Entfernt beim Gegner eine Verzauberung. Entfernungswirkung: Ihr erhaltet 8...17 Energiepunkt[e] und 40...120 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberung entziehen",
 				"description": "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung bekommt Ihr 8...17 Energiepunkte und heilt Euch um 40...120 Lebenspunkte.",
 				"concise": "Entfernt beim Gegner eine Verzauberung. Entfernungswirkung: Ihr erhaltet 8...17 Energiepunkte und heilt Euch um 40...120 Lebenspunkte."
 			},
 			"en": {
 				"name": "Drain Enchantment",
+				"description": "Spell. Remove an enchantment from target foe. If an enchantment is removed, you gain 8...17 Energy and 40...120 Health.",
+				"concise": "Spell. Removes an enchantment from target foe. Removal effect: you gain 8...17 Energy and 40...120 Health."
+			},
+			"en-gww": {
+				"name": "Drain Enchantment",
 				"description": "Remove an enchantment from target foe. If an enchantment is removed, you gain 8...17 Energy and 40...120 Health.",
 				"concise": "Removes an enchantment from target foe. Removal effect: you gain 8...17 Energy and 40...120 Health."
 			},
+			"es": {
+				"name": "Drenar encantamiento",
+				"description": "Conjuro. Quitas un encantamiento del enemigo objetivo. Si se quita un encantamiento, ganarás 8...17 de energía y 40...120 de salud.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. Efecto de la eliminación: ganas 8...17 de energía y 40...120 de salud."
+			},
 			"fr": {
+				"name": "Drain d'enchantement",
+				"description": "Sort. Ote un enchantement à l'ennemi visé. Si l'enchantement est supprimé, vous gagnez 8...17 points d'énergie et 40...120 points de vie.",
+				"concise": "Sort. Supprime un enchantement à la cible ennemie. Effet de la suppression : vous gagnez 8...17 points d'énergie et 40...120 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Drain d'enchantement",
 				"description": "Ôte un enchantement à l'ennemi visé. Si l'enchantement est supprimé, vous gagnez 8...17 points d'énergie et 40...120 points de santé.",
 				"concise": "Supprime un enchantement à la cible ennemie. Effet de la suppression : vous gagnez 8...17 points d'énergie et 40...120 points de vie."
+			},
+			"it": {
+				"name": "Prosciuga Incantesimo",
+				"description": "Magia. Elimini un incantesimo dall'obiettivo nemico e ottieni 8...17 Punto[i] Energia e 40...120 Punto[i] Salute.",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. Effetto della rimozione: ottieni 8...17 Punto[i] Energia e 40...120 di Salute."
+			},
+			"jp": {
+				"name": "ドレイン エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。強化スペルを解除すると、プレイヤーは 8...17 のエネルギーと 40...120 の体力を獲得します。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。解除効果： プレイヤーは 8...17 のエネルギーと 40...120 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "강화 마법 흡수",
+				"description": "마법. 대상 지정: 적. 대상에게 걸려 있는 강화 마법 중 하나를 해제하고, 40...120의 체력과 8...17의 에너지를 얻습니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 하나를 해제합니다. 해제 효과: 자신은 40...120의 체력과 8...17의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Wyssanie Zaklęcia",
+				"description": "Czar. Z wybranego przeciwnika usuwasz jedno zaklęcie. Jeżeli zaklęcie zostało usunięte, otrzymujesz 8...17 pkt. energii i 40...120 pkt. żywotności.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa zaklęcie. Efekt usunięcia: otrzymujesz 8...17 pkt. energii i 40...120 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Drain Enchantment",
+				"description": "Заклинание. Снимает одни лежащие на выбранном противнике чары. Если чары были успешно сняты, вы получаете 8...17 ед. энергии и 40...120 ед. здоровья.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Эффект снятия: вы получаете 8...17 ед. энергии и 40...120 ед. здоровья."
+			},
+			"bork": {
+				"name": "Draeeen Inchuntment",
+				"description": "Spell. Remufe-a un inchuntment frum taerget fue-a. Iff un inchuntment is remufed, yuoo gaeeen 8...17 Inergy und 40...120 Heaelt.",
+				"concise": "Spell. Remufes un inchuntment frum taerget fue-a. Remufael iffffect: yuoo gaeeen 8...17 Inergy und 40...120 Heaelt."
 			}
 		}
 	}

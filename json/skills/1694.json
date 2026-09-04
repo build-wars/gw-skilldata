@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "破法斩",
+				"description": "精英近战技能。 命中时，对目标敌人造成7...25点额外伤害。如果敌人带有「增益魔法」，则此次攻击将无法被格挡。",
+				"concise": "精英近战技能。 命中时，对目标敌人造成7...25点额外伤害。如果敌人带有「增益魔法」，则此次攻击将无法被格挡。"
+			},
+			"cht": {
+				"name": "獵魔者攻擊",
+				"description": "精英近身攻擊技能： 命中時對目標造成 7...25 額外傷害，若該目標擁有「加持」，則此攻擊無法被「格擋」。",
+				"concise": "精英近身攻擊技能： 命中時對目標造成 7...25 額外傷害，若該目標擁有「加持」，則此攻擊無法被「格擋」。"
+			},
 			"de": {
+				"name": "Magierschlag",
+				"description": "Elite-Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, fügt er +7...25 Punkt[e] Schaden zu. Wenn Euer Gegner unter dem Einfluss einer Verzauberung steht, kann der Angriff nicht geblockt werden.",
+				"concise": "Elite-Nahkampfangriff. Richtet +7...25 Punkt[e] Schaden an. Kann nicht geblockt werden, falls Gegner verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Magierschlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt er +7...25 Punkte Schaden zu. Wenn Euer Gegner unter dem Einfluss einer Verzauberung steht, ist ein Blocken bei dem Angriff nicht möglich.",
 				"concise": "Richtet +7...25 Punkte Schaden an. Kann nicht geblockt werden, falls Gegner verzaubert ist."
 			},
 			"en": {
 				"name": "Magehunter Strike",
+				"description": "Elite Melee Attack. If this attack hits, you strike for +7...25 damage. If your target is under the effects of an enchantment, this attack cannot be blocked.",
+				"concise": "Elite Melee Attack. Deals +7...25 damage. Unblockable if target foe is enchanted."
+			},
+			"en-gww": {
+				"name": "Magehunter Strike",
 				"description": "If this attack hits, you strike for +7...25 damage. If your target is under the effects of an enchantment, this attack cannot be blocked.",
 				"concise": "Deals +7...25 damage. Unblockable if target foe is enchanted."
 			},
+			"es": {
+				"name": "Golpe antihechizos",
+				"description": "Ataque cuerpo a cuerpo de élite. Si este ataque impacta, harás +7...25 de daño. Si el objetivo está bajo los efectos de un encantamiento, no lo podrá bloquear.",
+				"concise": "Ataque cuerpo a cuerpo de élite. Hace +7...25 de daño. No se puede bloquear si el enemigo objetivo tiene un encantamiento."
+			},
 			"fr": {
+				"name": "Frappe du chasseur de mages",
+				"description": "Attaque au corps à corps d'élite. Si cette attaque réussit, vous infligez +7...25 points de dégâts. Si votre cible se trouve sous les effets d'un enchantement, cette attaque ne pourra pas être bloquée.",
+				"concise": "Attaque au corps à corps d'élite. Inflige +7...25 points de dégâts. Impossible à bloquer si l'ennemi visé est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Frappe du chasseur de mages",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si votre cible se trouve sous les effets d'un enchantement, cette attaque ne pourra pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Cacciamaghi",
+				"description": "Attacco d'Élite Ravvicinato. Se questo attacco colpisce, infliggi +7...25 danno[i]; se l'obiettivo è affetto da un incantesimo, questo attacco non può essere bloccato.",
+				"concise": "Attacco d'Élite Ravvicinato. Danni inferti: +7...25. Non bloccabile se l'obiettivo nemico è sotto incantesimo."
+			},
+			"jp": {
+				"name": "メイジハンター ストライク",
+				"description": "エリート メーレー アタック： この攻撃が成功すると、7...25 の追加ダメージを与えます。ターゲットに強化スペルがかけられている場合、この攻撃はブロックされません。",
+				"concise": "エリート メーレー アタック： 7...25 の追加ダメージを与えます。ターゲットした敵に強化スペルがかけられている場合、攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "대마법 일격",
+				"description": "엘리트 근접 물리 공격. 대상 지정: 적. 공격이 성공하면 대상은 7...25의 대미지를 추가로 입습니다. 대상에 강화 마법이 걸려 있으면 대상은 이 공격을 막을 수 없습니다.",
+				"concise": "엘리트 근접 물리 공격. 7...25의 대미지를 추가로 줍니다. 대상에 강화 마법이 걸려 있으면 이 공격을 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Cios Łowcy Magów",
+				"description": "Elitarny atak wręcz. Jeśli atak trafi, zadajesz +7...25 pkt. obrażeń. Jeśli twój cel jest pod działaniem zaklęcia, to atak ten nie może zostać zablokowany.",
+				"concise": "Elitarny atak wręcz. Zadaje +7...25 pkt. obrażeń. Nie do zablokowania, jeżeli wybrany przeciwnik ma na sobie zaklęcie."
+			},
+			"ru": {
+				"name": "Magehunter Strike",
+				"description": "Элитная рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 7...25 ед. урона. Если на вашего противника были наложены какие-либо чары, эту атаку нельзя блокировать.",
+				"concise": "Элитная рукопашная атака. Наносит дополнительно 7...25 ед. урона. Нельзя блокировать, если на выбранном противнике есть чары."
+			},
+			"bork": {
+				"name": "Maegehoonter Streeke-a",
+				"description": "Ileete-a Melee-a Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +7...25 daemaege-a. Iff yuoor taerget is under zee iffffects ooff un inchuntment, thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Melee-a Aettaeck. Deaels +7...25 daemaege-a. Unbluckaeble-a iff taerget fue-a is inchunted."
 			}
 		}
 	}

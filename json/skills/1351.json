@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "操纵游骸",
+				"description": "咒文。 利用最近的尸骸召唤出一只等级为1...17的游骸。当游骸死亡时，从游骸的尸骨上将会复生出一只0...15级的构造体，构造体的每次攻击都能造成「流血」的效果。",
+				"concise": "咒文。 利用最近的尸骸召唤出一只等级为1...17的游骸。当游骸死亡时，从游骸的尸骨上将会复生出一只0...15级的构造体，构造体的每次攻击都能造成「流血」的效果。"
+			},
+			"cht": {
+				"name": "操縱爬行骸骨",
+				"description": "咒文魔法： 利用最近的屍體召喚一隻等級 1...17 的爬行骸骨。當爬行骸骨死亡時，將產生一隻等級 0...15 的鋸齒骸骨，攻擊命中敵人時使其遭受「流血」病症。",
+				"concise": "咒文魔法： 利用最近的屍體召喚一隻等級 1...17 的爬行骸骨。當爬行骸骨死亡時，將產生一隻等級 0...15 的鋸齒骸骨，攻擊命中敵人時使其遭受「流血」病症。"
+			},
 			"de": {
+				"name": "Schlurfschreck beleben",
+				"description": "Zauber. Der nächste Kadaver wird als Schlurfschreck der Stufe 1...17 belebt. Wenn der Schlurfschreck stirbt, wird er durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft.",
+				"concise": "Zauber. Erstellt einen Schlurfschreck der Stufe 1...17. Wenn der Schlurfschreck stirbt, wird er durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft. Benutzt frischen Kadaver."
+			},
+			"de-guildwiki": {
 				"name": "Schlurfschreck beleben",
 				"description": "Der nächste Kadaver wird als Schlurfschreck der Stufe 1...17 belebt. Wenn der Schlurfschreck stirbt, wird er durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft.",
 				"concise": "Erstellt einen Schlurfschreck der Stufe 1...17. Wenn der Schlurfschreck stirbt, wird er durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Animate Shambling Horror",
+				"description": "Spell. Exploit nearest corpse to create a level 1...17 shambling horror. When the shambling horror dies, it is replaced by a level 0...15 jagged horror that causes Bleeding with each of its attacks.",
+				"concise": "Spell. Creates a level 1...17 shambling horror. When the shambling horror dies, it is replaced by a level 0...15 jagged horror that causes Bleeding with each of its attacks. Exploits a fresh corpse."
+			},
+			"en-gww": {
+				"name": "Animate Shambling Horror",
 				"description": "Exploit nearest corpse to create a level 1...17 shambling horror. When the shambling horror dies, it is replaced by a level 0...15 jagged horror that causes Bleeding with each of its attacks.",
 				"concise": "Creates a level 1...17 shambling horror. When the shambling horror dies, it is replaced by a level 0...15 jagged horror that causes Bleeding with each of its attacks. <gray>Exploits a fresh corpse.</gray>"
 			},
+			"es": {
+				"name": "Animar horror de mole",
+				"description": "Conjuro. Explotas al cadáver más cercano para crear un horror de mole de nivel 1...17. Cuando muera, se sustituirá por un horror de sierra de nivel 0...15 que causará hemorragias al atacar.",
+				"concise": "Conjuro. Crea un horror de mole de nivel 1...17. Cuando muera, se sustituirá por un horror de sierra de nivel 0...15 que causa hemorragias al atacar. Explotas un cadáver."
+			},
 			"fr": {
+				"name": "Animation d'horreur dévastatrice",
+				"description": "Sort. Vous exploitez le cadavre le plus proche pour créer une horreur dévastatrice de niveau 1...17. Lorsque celle-ci meurt, elle est remplacée par une horreur broyée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques.",
+				"concise": "Sort. Crée une horreur dévastatrice de niveau 1...17. Lorsque celle-ci meurt, elle est remplacée par une horreur déchiquetée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques. Exploite un cadavre récent."
+			},
+			"fr-gwiki": {
 				"name": "Animation d'horreur dévastatrice",
 				"description": "Vous exploitez le cadavre le plus proche pour créer une horreur dévastatrice de niveau 1...17. Lorsque celle-ci meurt, elle est remplacée par une horreur broyée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Anima Orrore Storpio",
+				"description": "Magia. Sfrutti il cadavere più vicino per creare un orrore storpio di livello 1...17. Quando muore viene rimpiazzato da un orrore seghettato di livello 0...15 che provoca Emorragia ad ogni attacco.",
+				"concise": "Magia. Crea un Orrore Storpio di livello 1...17. Quando muore viene rimpiazzato da un Orrore Seghettato di livello 0...15 che infligge Emorragia con ogni attacco. Utilizza un cadavere sfruttabile."
+			},
+			"jp": {
+				"name": "アニメート シャンブル ホラー",
+				"description": "スペル： 最寄の死体を使用してレベル 1...17 のシャンブル ホラーを召喚します。シャンブル ホラーが消滅するたびに、レベル 0...15 のジャグ ホラーが召喚されます。ジャグ ホラーの攻撃により、敵は「出血」状態になります。",
+				"concise": "スペル： レベル 1...17 のシャンブル ホラーを1体召喚します。このシャンブル ホラーが消滅すると、攻撃によって敵を「出血」状態にするレベル 0...15 のジャグ ホラーが召喚されます。死体がない場合は無効です。"
+			},
+			"kr": {
+				"name": "좀비 악령",
+				"description": "마법. 대상 지정: 없음. 가장 가까이 있는 시체를 1...17레벨의 좀비 악령으로 만듭니다. 좀비 악령이 죽으면 0...15레벨의 칼날 악령이 생깁니다. 칼날 악령의 공격을 받으면 출혈 상태가 됩니다.",
+				"concise": "마법. 1...17레벨의 좀비 악령을 만듭니다. 좀비 악령이 죽으면 0...15레벨의 칼날 악령이 생깁니다. 칼날 악령의 공격은 출혈을 일으킵니다. 시체를 이용해야 합니다."
+			},
+			"pl": {
+				"name": "Ożywienie Ociężałej Poczwary",
+				"description": "Czar. Wykorzystujesz najbliższe zwłoki, by ożywić Ociężałą Poczwarę na 1...17 poz. Kiedy Ocieżała Poczwara zginie, zastępowany jest przez Strzępiastą Poczwarę na 0...15 poz., której ataki wywołują krwawienie.",
+				"concise": "Czar. Tworzy ociężałą poczwarę na poziomie 1...17. Kiedy ociężała poczwara zginie, zastępowana jest przez strzępiastą poczwarę na 0...15 poz., której ataki wywołują krwawienie. Zużywa świeże ciało."
+			},
+			"ru": {
+				"name": "Animate Shambling Horror",
+				"description": "Заклинание. Вы используете ближайший труп, чтобы оживить Shambling Horror 1...17 уровня. Когда Shambling Horror умирает, он порождает Jagged Horror 0...15 уровня, каждая атака которого вызывает у противника кровотечение.",
+				"concise": "Заклинание. Создает Shambling Horror 1...17 уровня. Когда Shambling Horror умирает, он порождает Jagged Horror 0...15 уровня, каждая атака которого вызывает кровотечение. Используется свежий труп."
+			},
+			"bork": {
+				"name": "Uneemaete-a Shaembleeng Hurrur",
+				"description": "Spell. Ixplueet neaerest curpse-a tu creaete-a a lefel 1...17 shaembleeng hurrur. Vhee zee shaembleeng hurrur deees, it is replaeced by a lefel 0...15 jaegged hurrur thaet cooses Bleedeeng veet iaech ooff its aettaecks.",
+				"concise": "Spell. Creaetes a lefel 1...17 shaembleeng hurrur. Vhee zee shaembleeng hurrur deees, it is replaeced by a lefel 0...15 jaegged hurrur thaet cooses Bleedeeng veet iaech ooff its aettaecks. Ixplueets a fresh curpse-a."
 			}
 		}
 	}

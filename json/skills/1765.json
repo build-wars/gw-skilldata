@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "撕裂光环",
+				"description": "Flash Enchantment Spell。 在30秒之内，当你被近战攻击打中时，攻击者将失去一项「增益魔法」。",
+				"concise": "Flash Enchantment Spell。 在30秒之内，当你被近战攻击打中时，攻击者将失去一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "撕裂靈氣",
+				"description": "即刻加持魔法： 施展此加持時，對附近敵人造成 10...40 冰凍傷害。持續 30 秒，你使用攻擊技能擊中倒地的敵人時，將使該敵人失去一項加持。此加持結束時，使附近敵人遭受碎甲 1...10 秒。",
+				"concise": "即刻加持魔法： 施展此加持時，對附近敵人造成 10...40 冰凍傷害。持續 30 秒，你使用攻擊技能擊中倒地的敵人時，將使該敵人失去一項加持。此加持結束時，使附近敵人遭受碎甲 1...10 秒。"
+			},
 			"de": {
+				"name": "Zerreißende Aura",
+				"description": "Blitzverzauberung. Wenn Ihr diese Verzauberung wirkt, erleiden alle Feinde in der Nähe 10...40 Punkt[e] Kälteschaden. 30 Sekunde[n] lang entfernen Eure Angriffsfertigkeiten Verzauberungen von zu Boden geworfenen Feinden. Wenn diese Verzauberung endet, leiden in der Nähe befindliche Feinde 1...10 Sekunde[n] unter \"Beschädigte Rüstung\".",
+				"concise": "Blitzverzauberung. (30 Sekunde[n].) Eure Angriffsfertigkeiten entfernen Verzauberungen von zu Boden geworfenen Feinden. Anfangswirkung: Richtet bei allen Feinden in der Nähe 10...40 Punkt[e] Kälteschaden an. Wirkung am Ende: In der Nähe befindliche Feinde leiden 1...10 Sekunde[n] lang an Beschädigter Rüstung."
+			},
+			"de-guildwiki": {
 				"name": "Zerreißende Aura",
 				"description": "Wenn Ihr diese Verzauberung wirkt, erleiden alle Feinde in der Nähe 10...40 Punkte Kälteschaden. 30 Sekunden lang entfernen Eure Angriffsfertigkeiten Verzauberungen von zu Boden geworfenen Feinden. Wenn diese Verzauberung endet, leiden in der Nähe befindliche Feinde 1...10 Sekunden unter \"Beschädigte Rüstung\".",
 				"concise": "(30 Sekunden.) Eure Angriffsfertigkeiten entfernen Verzauberungen von zu Boden geworfenen Feinden. Anfangswirkung: Richtet bei allen Feinden in der Nähe 10...40 Punkte Kälteschaden an. Wirkung am Ende: In der Nähe befindliche Feinde leiden 1...10 Sekunden lang an Beschädigter Rüstung."
 			},
 			"en": {
 				"name": "Rending Aura",
+				"description": "Flash Enchantment Spell. When you cast this enchantment, all nearby foes take 10...40 cold damage. For 30 seconds, your attack skills remove enchantments from knocked-down foes. When this enchantment ends, nearby foes are affected by Cracked Armor for 1...10 seconds.",
+				"concise": "Flash Enchantment Spell. (30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: Deals 10...40 cold damage to all nearby foes. End Effect: nearby foes have Cracked Armor for 1...10 seconds."
+			},
+			"en-gww": {
+				"name": "Rending Aura",
 				"description": "When you cast this enchantment, all nearby foes take 10...40 cold damage. For 30 <sic/> seconds, your attack skills remove enchantments from knocked-down foes. When this enchantment ends, nearby foes are affected by Cracked Armor for 1...10 second[s].",
 				"concise": "(30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals 10...40 cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for 1...10 second[s]."
 			},
+			"es": {
+				"name": "Aura desgarradora",
+				"description": "Conjuro con encantamiento de destello. Cuando lanzas este encantamiento, todos los enemigos cercanos reciben 10...40 de daño de frío. Durante 30 segundos, tus habilidades de ataque quitan encantamientos a los enemigos derribados. Cuando termina este encantamiento, todos los enemigos cercanos tienen la armadura rota durante 1...10 segundos.",
+				"concise": "Conjuro con encantamiento de destello. (30 segundos). Tus habilidades de ataque quitan encantamientos a los enemigos derribados. Efecto inicial: hace 10...40 de daño de frío a todos los enemigos cercanos. Efecto final: los enemigos cercanos tienen la armadura rota durante 1...10 segundos."
+			},
 			"fr": {
+				"name": "Aura déchirante",
+				"description": "Enchantement instantané. Lorsque vous lancez cet enchantement, tous les ennemis à proximité subissent 10...40 points de dégâts du froid. Pendant 30 secondes, vos compétences d'attaque suppriment les enchantements des ennemis assommés. A l'issue de cet enchantement, tous les ennemis adjacents sont affectés par Armure brisée pendant 1...10 secondes.",
+				"concise": "Enchantement instantané. (30 secondes.) Vos compétences d'attaque suppriment les enchantements des ennemis assommés. Effet initial : inflige 10...40 points de dégâts du froid aux ennemis proches. Effet final : les ennemis proches subissent Armure brisée pendant 1...10 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Aura déchirante",
 				"description": "Lorsque vous lancez cet enchantement, tous les ennemis à proximité subissent 10...42 points de dégâts du froid. Pendant 30 secondes, vos compétences d'attaque suppriment les enchantements des ennemis assommés. A l'issue de cet enchantement, tous les ennemis adjacents sont affectés par Armure brisée pendant 1...11 secondes.",
 				"concise": "(30 secondes.) Vos compétences d'attaque suppriment les enchantements des ennemis assommés. Effet initial : inflige 10...42 points de dégâts du froid aux ennemis proches. Effet final : les ennemis proches subissent Armure brisée pendant 1...11 secondes."
+			},
+			"it": {
+				"name": "Aura Strappante",
+				"description": "Incantesimo Lampo. Quando lanci quest'incantesimo, tutti i nemici nei dintorni subiscono 10...40 danni da freddo. Per 30 secondi, le tue abilità d'attacco rimuovono incantesimi dai nemici abbattuti. Al termine dell'incantesimo, tutti i nemici nei dintorni subiscono Armatura Incrinata per 1...10 secondi.",
+				"concise": "Incantesimo Lampo. (Secondi: 30). Le tue abilità d'attacco rimuovono incantesimi dai nemici abbattuti. Effetto iniziale: Danni da freddo inflitti a tutti i nemici nei dintorni: 10...40. Effetto al termine: Condizione inflitta ai nemici nei dintorni: Armatura Incrinata (per 1...10 secondi)."
+			},
+			"jp": {
+				"name": "レンド オーラ",
+				"description": "フラッシュ強化スペル： この強化スペルと詠唱するとき、周囲にいるすべての敵に 10...40 のコールド ダメージを与えます。30 秒間、転倒している敵にアタック スキルを使用すると、その敵にかけられている強化スペルを解除します。この効果が消失するとき、周囲にいる敵は 1...10 秒間「防具破損」状態になります。",
+				"concise": "フラッシュ強化スペル： (30 秒) 転倒している敵にアタック スキルを使用すると、その敵にかけられている強化スペルを解除します。発動効果： 周囲にいる敵に 10...40 のコールド ダメージを与えます。終了効果： 周囲にいる敵を 1...10 秒間、「防具破損」状態にします。"
+			},
+			"kr": {
+				"name": "파열의 오라",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 이 강화 마법을 시전할 때 부근의 모든 적에게 10...40의 냉기 대미지를 줍니다. 30초 동안 공격 스킬을 사용하면 넘어진 적들의 강화 마법을 무효화합니다. 효과가 끝나면 부근의 적들이 1...10초 동안 방어 손상 상태가 됩니다.",
+				"concise": "순간 시전 강화 마법. (30초) 공격 스킬을 사용하면 넘어진 적들의 강화 마법을 무효화합니다. 초기 효과: 부근의 모든 적에게 10...40의 냉기 대미지를 줍니다. 종료 효과: 부근의 적들에게 방어 손상을 입힙니다.(1...10초)"
+			},
+			"pl": {
+				"name": "Rozrywająca Aura",
+				"description": "Zaklęcie błysku (czar). Kiedy rzucisz to zaklęcie, wszyscy wrogowie w pobliżu otrzymują 10...40 pkt. obrażeń od zimna. Przez 30 sek., twoje umiejętności związane z atakiem usuwają zaklęcia z powalonych przeciwników. Kiedy to zaklęcie dobiegnie końca, pobliscy wrogowie mają pękniętą zbroję przez 1...10 sek.",
+				"concise": "Zaklęcie błysku (czar). (30 sek.) Twoje umiejętności związane z atakiem usuwają zaklęcia z powalonych wrogów. Efekt początkowy: Wszystkim przeciwnikom w pobliżu zadaje po 10...40 pkt. obrażeń od zimna. Efekt końcowy: Pobliscy przeciwnicy przez 1...10 sek. posiadają pękniętą zbroję."
+			},
+			"ru": {
+				"name": "Rending Aura",
+				"description": "Мгновенное заклинание-чары. Когда вы активируете эти чары, все противники поблизости получают 10...40 ед. урона силой холода. В течение 30 сек ваши атакующие умения снимают чары со сбитых с ног противников. Когда действие этих чар заканчивается, у всех противников поблизости будут треснувшие доспехи в течение 1...10 сек.",
+				"concise": "Мгновенное заклинание-чары. (30 сек) Ваши атакующие умения снимают чары со сбитых с ног противников. Начальный эффект: все противники поблизости получают 10...40 ед. урона силой холода. Эффект окончания: у всех противников поблизости будут треснувшие доспехи (1...10 сек)."
+			},
+			"bork": {
+				"name": "Rendeeng Oora",
+				"description": "Flaesh Inchuntment Spell. Vhee yuoo caest thees inchuntment, aell neaerby fues taeke-a 10...40 culd daemaege-a. Fur 30 secunds, yuoor aettaeck skeells remufe-a inchuntments frum knucked-doon fues. Vhee thees inchuntment inds, neaerby fues aere-a aeffffected by Craecked Aermur fur 1...10 secunds.",
+				"concise": "Flaesh Inchuntment Spell. (30 secunds.) Yuoor aettaeck skeells remufe-a inchuntments frum knucked-doon fues. Ineeteeael iffffect: Deaels 10...40 culd daemaege-a tu aell neaerby fues. Ind Iffffect: neaerby fues haefe-a Craecked Aermur fur 1...10 secunds."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 1,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "乱射",
+				"description": "精英弓术。 同时攻击最多六名邻近目标的敌人，对这些敌人造成5...20点额外伤害。使用时，所有的「预备技」效果将被移除。",
+				"concise": "精英弓术。 同时攻击最多六名邻近目标的敌人，对这些敌人造成5...20点额外伤害。使用时，所有的「预备技」效果将被移除。"
+			},
+			"cht": {
+				"name": "齊射",
+				"description": "精英弓術攻擊技能： 同時攻擊最多 6 名鄰近目標的敵人，對這些敵人造成 5...20 額外傷害。使用此技能會讓你的所有「準備」狀態終止。",
+				"concise": "精英弓術攻擊技能： 同時攻擊最多 6 名鄰近目標的敵人，對這些敵人造成 5...20 額外傷害。使用此技能會讓你的所有「準備」狀態終止。"
+			},
 			"de": {
+				"name": "Sperrfeuer",
+				"description": "Elite-Bogenangriff. Entfernt alle Eure Vorbereitungen. Schießt Pfeile auf Euren Zielgegner und bis zu 5 um ihn herum stehende Feinde. Bei Treffern verursachen diese Pfeile 5...20 Punkt[e] Schaden.",
+				"concise": "Elite-Bogenangriff. Verursacht +5...20 Punkt[e] Schaden. Trifft 5 um Euren Zielgegner herum stehende Feinde. Entfernt alle Eure Vorbereitungen."
+			},
+			"de-guildwiki": {
 				"name": "Sperrfeuer",
 				"description": "Entfernt alle Eure Vorbereitungen. Schießt Pfeile auf Euren Zielgegner und bis zu 5 um ihn herum stehende Feinde. Bei Treffern verursachen diese Pfeile +5...20 Schaden.",
 				"concise": "Verursacht +5...20 Punkte Schaden. Trifft 5 um Euren Zielgegner herum stehende Feinde. <gray>Entfernt alle Eure Vorbereitungen.</gray>"
 			},
 			"en": {
 				"name": "Barrage",
+				"description": "Elite Bow Attack. All your preparations are removed. Shoot arrows at target foe and up to 5 foes adjacent to your target. These arrows strike for +5...20 damage if they hit.",
+				"concise": "Elite Bow Attack. Deals +5...20 damage. Hits 5 foes adjacent to your target. All your preparations are removed."
+			},
+			"en-gww": {
+				"name": "Barrage",
 				"description": "All your preparations are removed. Shoot arrows at target foe and up to 5 foes adjacent to your target. These arrows strike for +5...20 damage if they hit.",
 				"concise": "Deals +5...20 damage. Hits 5 foes adjacent to your target. <gray>All your preparations are removed.</gray>"
 			},
+			"es": {
+				"name": "Descarga de flechas",
+				"description": "Ataque con arco de élite. Se eliminan todas tus preparaciones. Disparas flechas al enemigo objetivo y a un máximo de 5 enemigos adyacentes a él. Estas flechas hacen +5...20 de daño si impactan.",
+				"concise": "Ataque con arco de élite. Hace +5...20 de daño. Golpea a 5 enemigos adyacentes a tu objetivo. Se eliminan todas tus preparaciones."
+			},
 			"fr": {
+				"name": "Tir de barrage",
+				"description": "Attaque à l'arc d'élite. Toutes vos préparations sont annulées. Vous décochez des flèches sur l'ennemi visé et jusqu'à 5 ennemis adjacents à votre cible. Ces flèches infligent +5...20 points de dégâts si elles font mouche.",
+				"concise": "Attaque à l'arc d'élite. Inflige +5...20 points de dégâts. Frappe 5 ennemis adjacents à votre cible. Toutes vos préparations sont annulées."
+			},
+			"fr-gwiki": {
 				"name": "Tir de barrage",
 				"description": "Toutes vos préparations sont annulées. Vous lancez des flèches sur un maximum de 6 ennemis adjacents à votre cible. Ces flèches infligent +5...20 point de dégâts si elles touchent l'ennemi.",
 				"concise": "Inflige +5...20 points de dégâts. Affecte 6 ennemis adjacents à votre cible. <gray>Toutes vos préparations sont annulées.</gray>"
+			},
+			"it": {
+				"name": "Raffica",
+				"description": "Attacco con Arco d'Élite. Rimuove tutte le tue Preparazioni. Tira frecce all'obiettivo nemico e fino a un massimo di 5 nemici adiacenti. Se colpiscono l'obiettivo, le frecce infliggono +5...20 di danni.",
+				"concise": "Attacco con Arco d'Élite. Danni inferti: +5...20. Colpisce 5 nemici adiacenti al tuo obiettivo. Rimuove tutte le tue Preparazioni."
+			},
+			"jp": {
+				"name": "バラージ",
+				"description": "エリート ボウ アタック： プレイヤーのプレパレーションはすべて解除されます。ターゲットした敵およびターゲットに隣接する最大5体の敵に対して弓攻撃を行い、矢が命中すると 5...20 の追加ダメージを与えます。",
+				"concise": "エリート ボウ アタック： ターゲットした敵に隣接する5体の敵に 5...20 の追加ダメージを与えます。プレイヤーにかけられているプレパレーション スキルがすべて解除されます。"
+			},
+			"kr": {
+				"name": "다중 사격",
+				"description": "엘리트 활 공격. 대상 지정: 적. 화살을 난사하여 대상과 그에 인접한 5명의 적에게 5...20의 대미지를 추가로 줍니다. 이 스킬을 사용하면 준비 스킬의 효과가 끝납니다.",
+				"concise": "엘리트 활 공격. 대상과 그에 인접한 5명의 적에게 5...20의 대미지를 추가로 줍니다. 자신의 모든 준비 스킬 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Grad Strzał",
+				"description": "Elitarny strzał z łuku. Wszystkie przygotowania zostają usunięte. Wystrzeliwuje strzały w wybranego wroga i maksymalnie 5 stojących obok celów. Każda z tych strzał zadaje +5...20 pkt. obrażeń, jeśli trafi.",
+				"concise": "Elitarny strzał z łuku. Zadaje 5...20 pkt. obrażeń. Trafia 5 wrogów stojących obok celu. Wszystkie przygotowania zostają usunięte."
+			},
+			"ru": {
+				"name": "Barrage",
+				"description": "Элитная атака из лука. Все ваши подготовки отменяются. Вы выпускаете стрелы по своей цели и не более чем 5 противникам, окружающим вашу цель. Эти стрелы наносят дополнительно 5...20 ед. урона при попадании.",
+				"concise": "Элитная атака из лука. Наносит дополнительно 5...20 ед. урона. Поражает 5 противников, окружающих вашу цель. Снимает все ваши подготовки."
+			},
+			"bork": {
+				"name": "Baerraege-a",
+				"description": "Ileete-a Boo Aettaeck. Aell yuoor prepaeraeshuns aere-a remufed. Shuut aerroos aet taerget fue-a und up tu 5 fues aedjaecent tu yuoor taerget. Zeese-a aerroos streeke-a fur +5...20 daemaege-a iff zeey heet. Bork! Bork! Bork!",
+				"concise": "Ileete-a Boo Aettaeck. Deaels +5...20 daemaege-a. Heets 5 fues aedjaecent tu yuoor taerget. Aell yuoor prepaeraeshuns aere-a remufed."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "倒戈之音",
+				"description": "回音技。 在20秒之内，使「非灵体」的目标盟友防御锐器的护甲值提高10...40点，当「圣歌」或「战吼」的效果在该盟友身上消失时，此「回音技」的效果将被重置。",
+				"concise": "回音技。 在20秒之内，使「非灵体」的目标盟友防御锐器的护甲值提高10...40点，当「圣歌」或「战吼」的效果在该盟友身上消失时，此「回音技」的效果将被重置。"
+			},
+			"cht": {
+				"name": "刃轉合聲 (PvP)",
+				"description": "迴響： 持續20秒，非靈的目標盟友對砍擊的防禦增加10...40，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。",
+				"concise": "迴響： 持續20秒，非靈的目標盟友對砍擊的防禦增加10...40，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。"
+			},
 			"de": {
+				"name": "Klingenumkehr-Refrain (PvP)",
+				"description": "Echo. 20 Sekunde[n] lang hat der Nicht-Geister-Verbündete +10...40 Rüstung gegen Hiebschaden. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. (20 Sekunde[n].) Der Verbündete hat +10...40 Rüstung gegen Hiebschaden. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Klingenumkehr-Refrain (PvP)",
 				"description": "20 Sekunden lang hat der Nicht-Geister-Verbündete (bzw. Ihr selbst) +10...40 Rüstung gegen Hiebschaden. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "20 Sekunden: Der Verbündete (bzw. Ihr selbst) hat +10...40 Rüstung gegen Hiebschaden. Erneuerung: Jedes mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Bladeturn Refrain (PvP)",
+				"description": "Echo. For 20 seconds, target non-spirit ally has +10...40 armor against slashing damage. This echo is reapplied every time a chant or shout ends on that ally.",
+				"concise": "Echo. (20 seconds.) Target ally has +10...40 armor against slashing damage. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Bladeturn Refrain (PvP)",
 				"description": "For 20 seconds, target non-spirit ally has +10...40 armor against slashing damage. This echo is reapplied every time a chant or shout ends on that ally.",
 				"concise": "(20 seconds.) Target ally has +10...40 armor against slashing damage. Renewal: Whenever a chant or shout ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Estribillo afilado (PvP)",
+				"description": "Eco. Durante 20 segundos, el aliado no espíritu objetivo tendrá +10...40 de armadura contra daño cortante. Este eco se reactivará cada vez que los efectos de un cántico o grito alcancen al aliado.",
+				"concise": "Eco. (20 segundos.) El aliado objetivo tiene +10...40 de armadura contra daño cortante. Renovación: Cada vez que los efectos de un cántico o grito alcancen al aliado. No puedes apuntar a los espíritus."
+			},
 			"fr": {
+				"name": "Refrain du Bladeturn (PvP)",
+				"description": "Echo. Pendant 20 secondes, la cible alliée (autre qu'un esprit) a un bonus d'armure de +10...40 contre les dégâts tranchants. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+				"concise": "Echo. (20 secondes.) L'allié visé bénéficie d'un bonus d'armure de +10...40 contre les dégâts tranchants. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Refrain du Bladeturn (PvP)",
 				"description": "Pendant 20 secondes, la cible alliée (autre qu'un esprit) a un bonus d'armure de +10...40 contre les dégâts tranchants. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
 				"concise": "(20 secondes.) L'allié visé bénéficie d'un bonus d'armure de +10...40 contre les dégâts tranchants. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+			},
+			"it": {
+				"name": "Ritornello Ruotalama (PvP)",
+				"description": "Eco. Per 20 secondi l'obiettivo alleato (spiriti esclusi) ha +10...40 di armatura contro i danni da taglio. Questa eco si rinnova ogni volta che un canto o un urlo finisce su quell'alleato.",
+				"concise": "Eco. (Secondi: 20). Armatura dell'obiettivo alleato contro il danno da taglio: +10...40. Rinnovo: ogni volta che un canto o un urlo termina su quell'alleato. Impossibile selezionare gli spiriti."
+			},
+			"jp": {
+				"name": "ブレードターン リフレイン (PvP)",
+				"description": "エコー： 20 秒間、ターゲットした精霊以外の味方はスラッシュ ダメージに対する防御力が 10...40 増加します。この効果は、その味方にかけられたチャントやシャウトが消失するたびに再適用されます。",
+				"concise": "エコー： (20 秒) ターゲットした味方はスラッシュ ダメージに対する防御力が 10...40 増加します。更新： ターゲットした味方にかけられているチャントまたはシャウトの効果が消失するたび。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "대검술 공명(대인전)",
+				"description": "공명. 대상 지정: 아군. 20초 동안 영혼이 아닌 대상은 베는 대미지에 대한 방어력이 10...40 증가합니다. 이 공명은 대상에 걸린 고함이나 영창이 끝날 때마다 새로 시작됩니다.",
+				"concise": "공명. (20초) 대상 아군은 베는 대미지에 대한 방어력이 10...40 증가합니다. 갱신 조건: 대상에 걸린 고함이나 영창이 끝날 때마다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Zaśpiew Odpędzenia Ostrzy (PvP)",
+				"description": "Echo. Przez 20 sek. wybrany sojusznik nie-duch posiada +10...40 pkt. pancerza przeciwko obrażeniom ciętym. To echo jest ponownie nakładane za każdym razem, kiedy przestanie na tym sojuszniku działać zaśpiew lub okrzyk.",
+				"concise": "Echo. (20 sek.) Wybrany sojusznik posiada +10...40 pkt. pancerza przeciwko obrażeniom ciętym. Odnowienie: za każdym razem, kiedy przestaje na tym sojuszniku działać zaśpiew lub okrzyk. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Bladeturn Refrain (PvP)",
+				"description": "Эхо. В течение 20 сек у выбранного союзника, не являющегося духом, защита против урона рубящим оружием увеличивается на 10...40 ед. Это эхо применяется заново каждый раз, когда заканчивает свое действие хорал или крик, влияющий на этого союзника.",
+				"concise": "Эхо. (20 сек) Выбранный союзник получает +10...40 ед. к защите против урона рубящим оружием. Обновление: каждый раз, когда заканчивается хорал или крик, влияющий на этого союзника. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Blaedetoorn Reffraeeen (PfP)",
+				"description": "Ichu. Fur 20 secunds, taerget nun-spureet aelly haes +10...40 aermur aegaeeenst slaesheeng daemaege-a. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon thaet aelly.",
+				"concise": "Ichu. (20 secunds.) Taerget aelly haes +10...40 aermur aegaeeenst slaesheeng daemaege-a. Renooael: Vhenefer a chunt oor shuoot inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

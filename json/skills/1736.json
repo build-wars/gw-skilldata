@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂之力",
+				"description": "精英增益魔法。 在15...60秒之内，在「武咒」的作用下，你的攻击将会造成5...35点额外伤害。",
+				"concise": "精英增益魔法。 在15...60秒之内，在「武咒」的作用下，你的攻击将会造成5...35点额外伤害。"
+			},
+			"cht": {
+				"name": "靈之力",
+				"description": "精英加持魔法： 持續 15...60 秒，當你擁有「武裝魔法」的效果時，你的攻擊傷害增加 5...35 。",
+				"concise": "精英加持魔法： 持續 15...60 秒，當你擁有「武裝魔法」的效果時，你的攻擊傷害增加 5...35 。"
+			},
 			"de": {
+				"name": "Geistesstärke",
+				"description": "Elite-Verzauberung. 15...60 Sekunde[n] lang fügen Eure Angriffe 5...35 Punkt[e] mehr Schaden zu, wenn Ihr unter den Auswirkungen eines Waffenzaubers steht.",
+				"concise": "Elite-Verzauberung. 15...60 Sekunde[n]: Eure Angriffe richten +5...35 Punkt[e] Schaden an, falls Ihr unter dem Einfluss eines Waffenzaubers steht."
+			},
+			"de-guildwiki": {
 				"name": "Geistesstärke",
 				"description": "15...60 Sekunden lang fügen Eure Angriffe 5...35 Punkte mehr Schaden zu, wenn Ihr unter den Auswirkungen eines Waffenzaubers steht.",
 				"concise": "15...60 Sekunden: Eure Angriffe richten +5...35 Punkte Schaden an, falls Ihr unter dem Einfluss eines Waffenzaubers steht."
 			},
 			"en": {
 				"name": "Spirit's Strength",
+				"description": "Elite Enchantment Spell. For 15...60 seconds, your attacks deal 5...35 more damage while under the effects of a weapon spell.",
+				"concise": "Elite Enchantment Spell. (15...60 seconds.) Your attacks deal +5...35 damage if you are under a weapon spell."
+			},
+			"en-gww": {
+				"name": "Spirit's Strength",
 				"description": "For 15...60 seconds, your attacks deal 5...35 more damage while under the effects of a weapon spell.",
 				"concise": "(15...60 seconds.) Your attacks deal +5...35 damage if you are under a weapon spell."
 			},
+			"es": {
+				"name": "Fuerza espiritual",
+				"description": "Conjuro con encantamiento de élite. Durante 15...60 segundos, tus ataques hacen 5...35 más de daño mientras estés bajo los efectos de un conjuro para arma.",
+				"concise": "Conjuro con encantamiento de élite. (15...60 segundos). Tus ataques hacen +5...35 de daño si tienes un conjuro con arma."
+			},
 			"fr": {
+				"name": "Force de l'esprit",
+				"description": "Enchantement d'élite. Pendant 15...60 secondes, vos attaques infligent 5...35 points de dégâts en plus sous les effets d'un sort d'altération d'arme.",
+				"concise": "Enchantement d'élite. (15...60 secondes.) Vos attaques infligent +5...35 points de dégâts si vous êtes sous l'effet d'un sort d'altération d'arme."
+			},
+			"fr-gwiki": {
 				"name": "Force de l'esprit",
 				"description": "Pendant 15...60 secondes, vos attaques infligent 5...35 points de dégâts en plus sous les effets d'un sort d'altération d'arme.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Forza dello Spirito",
+				"description": "Incantesimo d'Élite. Per 15...60 secondo[i], i tuoi attacchi infliggono 5...35 danno[i] in più mentre sei sotto l'influenza di una magia altera-arma.",
+				"concise": "Incantesimo d'Élite. (Secondi: 15...60) I tuoi attacchi assestano +5...35 danno[i] se sei sotto gli effetti di una magia altera-arma."
+			},
+			"jp": {
+				"name": "スピリット ストレングス",
+				"description": "エリート強化スペル： 15...60 秒間、ウェポン スペルの影響下の場合 5...35 の追加ダメージを与えます。",
+				"concise": "エリート強化スペル： (15...60 秒) ウェポン スペルがかけられている場合、5...35 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "영혼의 힘",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 15...60초 동안 마법 무기 효과를 받으면 공격 시에 5...35의 대미지를 추가로 줍니다.",
+				"concise": "엘리트 강화 마법. (15...60초) 마법 무기 효과를 받으면 공격 시에 5...35의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Duchowa Siła",
+				"description": "Elitarne zaklęcie (czar). Przez 15...60 sek., kiedy posiadasz zaczarowaną broń twoje ataki zadają 5...35 pkt. dodatkowych obrażeń.",
+				"concise": "Elitarne zaklęcie (czar). (15...60 sek.) Twoje ataki zadają +5...35 pkt. obrażeń, jeżeli jesteś pod działaniem zaczarowanej broni."
+			},
+			"ru": {
+				"name": "Spirit's Strength",
+				"description": "Элитное заклинание-чары. В течение 15...60 сек ваши атаки наносят на 5...35 ед. урона больше до тех пор, пока на вас наложено какое-либо оружейное заклинание.",
+				"concise": "Элитное заклинание-чары. (15...60 сек) Ваши атаки наносят дополнительно 5...35 ед. урона, если на вас наложено оружейное заклинание."
+			},
+			"bork": {
+				"name": "Spureet's Strengt",
+				"description": "Ileete-a Inchuntment Spell. Fur 15...60 secunds, yuoor aettaecks deael 5...35 mure-a daemaege-a vheele-a under zee iffffects ooff a veaepun spell.",
+				"concise": "Ileete-a Inchuntment Spell. (15...60 secunds.) Yuoor aettaecks deael +5...35 daemaege-a iff yuoo aere-a under a veaepun spell."
 			}
 		}
 	}

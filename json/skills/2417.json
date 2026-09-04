@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Mental Block",
+				"description": "增益魔法。 For 5...11 seconds you have a 50% chance to block attacks. This enchantment is reapplied every time an enemy strikes you.",
+				"concise": "增益魔法。 (5...11 seconds.) You have 50% chance to block. Renewal: every time an enemy hits you."
+			},
+			"cht": {
+				"name": "精神隔絕",
+				"description": "加持魔法： 持續 5...11 秒，你有 50% 的機率可格擋攻擊。每次受到敵人攻擊時，皆會重新啟動此加持效果。",
+				"concise": "加持魔法： For 5...11 seconds you have a 50% chance to block attacks. This Enchantment is reapplied every time an enemy strikes you."
+			},
 			"de": {
+				"name": "Geistige Sperre",
+				"description": "Verzauberung. 5...11 Sekunde[n] lang habt Ihr eine 50%ige Chance Angriffe zu blocken. Diese Verzauberung wird jedes Mal, wenn Ihr von einem Feind getroffen werdet, neu aufgetragen.",
+				"concise": "Verzauberung. 5...11 Sekunde[n]: Ihr habt eine 50%ige Chance zu blocken. Erneuerung: Jedes Mal, wenn ein Feind Euch trifft."
+			},
+			"de-guildwiki": {
 				"name": "Geistige Sperre",
 				"description": "5...11 Sekunden lang habt Ihr eine 50%ige Chance Angriffe zu blocken. Diese Verzauberung wird jedes Mal, wenn Ihr von einem Feind getroffen werdet, erneuert.",
 				"concise": "5...11 Sekunden: Ihr habt eine 50%ige Chance Angriffe zu blocken. Erneuerung: jedes Mal, wenn ein Feind Euch trifft."
 			},
 			"en": {
 				"name": "Mental Block",
+				"description": "Enchantment Spell. For 5...11 seconds you have a 50% chance to block attacks. This enchantment is reapplied every time an enemy strikes you.",
+				"concise": "Enchantment Spell. (5...11 seconds.) You have 50% chance to block. Renewal: every time an enemy hits you."
+			},
+			"en-gww": {
+				"name": "Mental Block",
 				"description": "For 5...11 seconds you have a 50% chance to block attacks. This Enchantment is reapplied every time an enemy strikes you.",
 				"concise": "(5...11 seconds.) You have a 50% chance to block. Renewal: every time an enemy hits you."
 			},
+			"es": {
+				"name": "Bloqueo mental",
+				"description": "Conjuro con encantamiento. Durante 5...11 segundos, tienes un 50% de probabilidades de bloquear ataques. Este encantamiento se vuelve a activar cada vez que un enemigo te golpee.",
+				"concise": "Conjuro con encantamiento. (5...11 segundos). Tienes 50% de probabilidades de bloquear. Renovación: cada vez que un enemigo te alcance."
+			},
 			"fr": {
+				"name": "Blocage mental",
+				"description": "Enchantement. Pendant 5...11 secondes, vous avez 50% de chances de bloquer des attaques. Cet enchantement se réapplique à chaque fois qu'un ennemi vous attaque.",
+				"concise": "Enchantement. (5...11 secondes.) Vous avez 50% de chances de bloquer. Renouvellement : chaque fois qu'un ennemi vous frappe."
+			},
+			"fr-gwiki": {
 				"name": "Blocage mental",
 				"description": "Pendant 5...11 secondes, vous avez 50% de chance de bloquer des attaques. Cet enchantement se réapplique à chaque fois qu'un ennemi vous attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Blocco Mentale",
+				"description": "Incantesimo. Per 5...11 secondo[i], hai una probabilità del 50% di bloccare gli attacchi. Questo incantesimo si riapplica ogni volta che un nemico ti colpisce.",
+				"concise": "Incantesimo. (Secondi: 5...11) Tua probabilità di blocco: 50%. Rinnovo: ogni volta che vieni colpito da un nemico."
+			},
+			"jp": {
+				"name": "メンタル ブロック",
+				"description": "強化スペル： 5...11 秒間、50% の確率で攻撃をブロックします。ブロックに失敗するたびに、この効果は更新されます。",
+				"concise": "強化スペル： (5...11 秒) 50% の確率で攻撃をブロックします。更新： ブロックが失敗するたび。"
+			},
+			"kr": {
+				"name": "지능적인 막기",
+				"description": "강화 마법. 5...11초 동안 50%의 확률로 공격을 막습니다. 자신에 대한 적의 공격 성공하면 효과가 다시 시작합니다.",
+				"concise": "강화 마법. (5...11초) 50%의 확률로 공격을 막습니다. 갱신 조건: 자신에 대한 적의 공격 성공할 때."
+			},
+			"pl": {
+				"name": "Mentalny Blok",
+				"description": "Zaklęcie (czar). Przez 5...11 sek. masz 50% szans na blokowanie ataków. Zaklęcie zostaje ponownie nałożone za każdym razem, kiedy przeciwnik cię trafi.",
+				"concise": "Zaklęcie (czar). (5...11 sek.) Masz 50% szans na blokowanie. Odnowienie: za każdym razem, kiedy przeciwnik cię trafi."
+			},
+			"ru": {
+				"name": "Mental Block",
+				"description": "Заклинание-чары. В течение 5...11 сек вы получаете 50%-й шанс блокировать атаки. Эти чары обновляются каждый раз, когда в вас попадает вражеская атака или заклинание.",
+				"concise": "Заклинание-чары. (5...11 сек) Вы получаете 50%-й шанс блокировать атаки. Обновление: каждый раз, когда противник попадает в вас."
+			},
+			"bork": {
+				"name": "Mentael Bluck",
+				"description": "Inchuntment Spell. Fur 5...11 secunds yuoo haefe-a a 50% chunce-a tu bluck aettaecks. Thees inchuntment is reaeppleeed ifery teeme-a un inemy streekes yuoo.",
+				"concise": "Inchuntment Spell. (5...11 secunds.) Yuoo haefe-a 50% chunce-a tu bluck. Renooael: ifery teeme-a un inemy heets yuoo."
 			}
 		}
 	}

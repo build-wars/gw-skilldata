@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "警戒守护",
+				"description": "增益魔法。 在60秒之内，当下一次目标盟友的生命值低于25%时，治疗该盟友50...200点生命值。",
+				"concise": "增益魔法。 在60秒之内，当下一次目标盟友的生命值低于25%时，治疗该盟友50...200点生命值。"
+			},
+			"cht": {
+				"name": "警戒干涉",
+				"description": "加持魔法： 持續 60 秒，當目標盟友「下一次」體力值低於 25% 時，該盟友獲得 50...200 體力。",
+				"concise": "加持魔法： 持續 60 秒，當目標盟友「下一次」體力值低於 25% 時，該盟友獲得 50...200 體力。"
+			},
 			"de": {
+				"name": "Wachsame Intervention",
+				"description": "Verzauberung. 60 Sekunde[n] lang wird der Verbündete (bzw. Ihr selbst) das nächste Mal, wenn er Schaden erleidet und seine Lebenspunkte dadurch unter 25% sinken, um 50...200 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. 60 Sekunde[n]: Heilt um 50...200 Lebenspunkt[e], wenn Schaden die Lebenspunkte des Verbündeten (bzw. von Euch selbst) das nächste Mal unter 25% seiner maximalen Lebenspunkte senkt."
+			},
+			"de-guildwiki": {
 				"name": "Wachsame Intervention",
 				"description": "60 Sekunden lang wird der Verbündete (bzw. Ihr selbst) das nächste Mal, wenn er Schaden erleidet und seine Lebenspunkte dadurch unter 25% sinken, um 50...200 Lebenspunkte geheilt.",
 				"concise": "60 Sekunden: Heilt um 50...200 Lebenspunkte, wenn Schaden die Lebenspunkte des Verbündeten (bzw. von Euch selbst) das nächste Mal unter 25% seiner maximalen Lebenspunkte senkt."
 			},
 			"en": {
 				"name": "Watchful Intervention",
+				"description": "Enchantment Spell. For 60 seconds, the next time damage drops target ally's Health below 25%, that ally is healed for 50...200 Health.",
+				"concise": "Enchantment Spell. (60 seconds.) Heals for 50...200 the next time damage drops target ally's Health below 25%."
+			},
+			"en-gww": {
+				"name": "Watchful Intervention",
 				"description": "For 60 seconds, the next time damage drops target ally's Health below 25%, that ally is healed for 50...200 Health.",
 				"concise": "(60 seconds.) Heals for 50...200 the next time damage drops target ally's Health below 25%."
 			},
+			"es": {
+				"name": "Intervención atenta",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, la próxima vez que un ataque haga caer la salud del objetivo (un aliado o tú mismo) por debajo del 25%, se curará 50...200 de salud.",
+				"concise": "Conjuro con encantamiento. (60 segundos). Cura 50...200 de salud la próxima vez que el daño haga caer la salud del objetivo (un aliado o tú mismo) por debajo del 25%."
+			},
 			"fr": {
+				"name": "Intervention vigilante",
+				"description": "Enchantement. Pendant 60 secondes, la prochaine fois que la santé de la cible (un allié ou vous-même) est inférieure à 25%, cette cible est soignée de 50...200 points de vie.",
+				"concise": "Enchantement. (60 secondes.) Soigne de 50...200 points de vie la prochaine fois que la santé de l'allié est inférieure à 25%."
+			},
+			"fr-gwiki": {
 				"name": "Intervention vigilante",
 				"description": "Pendant 60 secondes, la prochaine fois que la santé de la cible (un allié ou vous-même) chute en dessous de 25%, cette cible est soignée de 50...200 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Intervento Vigile",
+				"description": "Incantesimo. Per 60 secondo[i], la prossima volta che il danno fa scendere la Salute dell'obiettivo (un alleato o te stesso) al di sotto del 25%, quell'alleato viene curato di 50...200 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 60) Cure impartite la prossima volta che il danno fa calare la Salute dell'obiettivo alleato al di sotto di un 25%: 50...200."
+			},
+			"jp": {
+				"name": "ウォッチフル インタベンション",
+				"description": "強化スペル： 60 秒間、ターゲットした味方の体力が次に上限の 25% を切ると、その味方は体力が 50...200 回復します。",
+				"concise": "強化スペル： (60 秒) ターゲットした味方が次にダメージを受けて体力が上限の 25% 未満になると、50...200 の体力が回復します。"
+			},
+			"kr": {
+				"name": "수호신의 중재",
+				"description": "강화 마법. 대상 지정: 아군. 60초 동안 대상이 대미지를 입어 체력이 25%미만이 되면 대상은 50...200의 체력을 회복합니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "강화 마법. (60초) 대상이 대미지를 입어 체력이 25%미만이 되면 대상은 50...200의 체력을 회복합니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Czujna Interwencja",
+				"description": "Zaklęcie (czar). Przez 60 sek., kiedy obrażenia sprowadzą żywotność wybranego sojusznika poniżej 25%, otrzymuje on 50...200 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (60 sek.) Dodaje 50...200 pkt. żywotności, kiedy następnym razem obrażenia sprowadzą żywotność wybranego sojusznika poniżej 25%."
+			},
+			"ru": {
+				"name": "Watchful Intervention",
+				"description": "Заклинание-чары. В течение 60 сек в следующий раз, когда уровень здоровья выбранного союзника упадет ниже 25% из-за полученного урона, этот союзник будет исцелен на 50...200 ед. здоровья.",
+				"concise": "Заклинание-чары. (60 сек) Исцеляет на 50...200 ед. здоровья в следующий раз, когда здоровье выбранного союзника упадет из-за урона ниже 25%."
+			},
+			"bork": {
+				"name": "Vaetchffool Interfenshun",
+				"description": "Inchuntment Spell. Fur 60 secunds, zee next teeme-a daemaege-a drups taerget aelly's Heaelt beloo 25%, thaet aelly is heaeled fur 50...200 Heaelt.",
+				"concise": "Inchuntment Spell. (60 secunds.) Heaels fur 50...200 zee next teeme-a daemaege-a drups taerget aelly's Heaelt beloo 25%."
 			}
 		}
 	}

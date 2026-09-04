@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "坚韧福音",
+				"description": "回音技。 在10...35秒之内，使目标盟友身上的「战吼」或「圣歌」效果延长50%，此技能只能对「非灵体」友方施放。",
+				"concise": "回音技。 在10...35秒之内，使目标盟友身上的「战吼」或「圣歌」效果延长50%，此技能只能对「非灵体」友方施放。"
+			},
+			"cht": {
+				"name": "恆久福音　",
+				"description": "迴響： 持續 10...35 秒，使「聖歌」及「戰嚎」在「非靈」的目標盟友身上的持續時間延長 50%。",
+				"concise": "迴響： 持續 10...35 秒，使「聖歌」及「戰嚎」在「非靈」的目標盟友身上的持續時間延長 50%。"
+			},
 			"de": {
+				"name": "Dauerhafte Harmonie",
+				"description": "Echo. 10...35 Sekunde[n] lang dauern Anfeuerungsrufe und Schreie, die auf den Nicht-Geister-Verbündeten (bzw. Euch selbst) gerichtet sind, um 50% länger.",
+				"concise": "Echo. 10...35 Sekunde[n]: Schreie und Anfeuerungsrufe halten beim Verbündeten (bzw. Euch selbst) um 50% länger an. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Dauerhafte Harmonie",
 				"description": "Anfeuerungsrufe und Schreie, die in den nächsten 10...35 Sekunden auf den Nicht-Geister-Verbündeten (bzw. Euch selbst) gewirkt werden, dauern um 50% länger.",
 				"concise": "10...35 Sekunden: Schreie und Anfeuerungsrufe halten beim Verbündeten (bzw. Euch selbst) um 50% länger an. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Enduring Harmony",
+				"description": "Echo. For 10...35 seconds, chants and shouts last 50% longer on target non-spirit ally.",
+				"concise": "Echo. (10...35 seconds.) Chants and shouts last 50% longer on target ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Enduring Harmony",
 				"description": "For 10...35 seconds, chants and shouts last 50% longer on target non-spirit ally.",
 				"concise": "(10...35 seconds.) Chants and shouts last 50% longer on target ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Armonía duradera",
+				"description": "Eco. Durante 10...35 segundos, el efecto de los cánticos y gritos durarán un 50% más en el aliado objetivo no espíritu.",
+				"concise": "Eco. (10...35 segundos). Los cánticos y gritos duran un 50% más en el aliado objetivo. No se puede apuntar a un espíritu."
+			},
 			"fr": {
+				"name": "Harmonie persistante",
+				"description": "Echo. Pendant 10...35 secondes, les chants et les cris durent 50% plus longtemps sur la cible alliée (autre qu'un esprit).",
+				"concise": "Echo. (10...35 secondes.) Les chants et les cris affectant l'allié visé durent 50% plus longtemps. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Harmonie persistante",
 				"description": "Pendant 10...35 secondes, les chants et les cris durent 50% plus longtemps sur la cible alliée (autre qu'un esprit).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armonia Permanente",
+				"description": "Eco. Per 10...35 secondo[i] i canti e le urla durano un 50% in più sull'obiettivo alleato (Spiriti esclusi).",
+				"concise": "Eco. (Secondi: 10...35) Incremento durata di canti e urla sull'obiettivo alleato: 50%. Impossibile selezionare gli Spiriti."
+			},
+			"jp": {
+				"name": "インデュア ハーモニー",
+				"description": "エコー： 10...35 秒間、ターゲットした精霊以外の味方にかけられたチャントとシャウトの持続時間が 50% 増加します。",
+				"concise": "エコー： (10...35 秒) ターゲットした味方にかけられたチャントとシャウトの持続時間が 50% 増加します。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "인내의 화음",
+				"description": "공명. 대상 지정: 아군. 10...35초 동안 영혼이 아닌 대상에게 거는 자신의 고함과 영창의 지속 시간이 50% 늘어납니다.",
+				"concise": "공명. (10...35초) 대상 아군에게 거는 고함과 영창의 지속 시간이 50% 늘어납니다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Trwała Harmonia",
+				"description": "Echo. Przez 10...35 sek. zaśpiewy i okrzyki na wybranym sojuszniku nie-duchu trwają o 50% dłużej.",
+				"concise": "Echo. (10...35 sek.) Zaśpiewy i okrzyki na wybranym sojuszniku trwają o 50% dłużej. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Enduring Harmony",
+				"description": "Эхо. В течение 10...35 сек влияние хоралов и криков на выбранного союзника, который не является духом, длится на 50% дольше.",
+				"concise": "Эхо. (10...35 сек) Хоралы и крики действуют на 50% дольше на выбранного союзника. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Indooreeng Haermuny",
+				"description": "Ichu. Fur 10...35 secunds, chunts und shuoots laest 50% lunger oon taerget nun-spureet aelly.",
+				"concise": "Ichu. (10...35 secunds.) Chunts und shuoots laest 50% lunger oon taerget aelly. Cunnut taerget spureets."
 			}
 		}
 	}

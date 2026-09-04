@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暗黑链接",
+				"description": "增益魔法。 在接下来的30...60秒之内，当你受到伤害时，最接近你的不死仆从将替你遭受 75% 的伤害。",
+				"concise": "增益魔法。 在接下来的30...60秒之内，当你受到伤害时，你的亡灵仆从中，最接近你的那只将承受该伤害的75%。"
+			},
+			"cht": {
+				"name": "暗黑連結",
+				"description": "加持魔法： 在接下來的 30...60 秒內，當你受到傷害時，最接近你的不死爪牙將為你承受 75% 的傷害。",
+				"concise": "加持魔法： 在接下來的 30...60 秒內，當你受到傷害時，最接近你的不死爪牙將為你承受 75% 的傷害。"
+			},
 			"de": {
+				"name": "Dunkles Band",
+				"description": "Verzauberung. Während der nächsten 30...60 Sekunde[n] erleidet der Diener, der Euch am nächsten ist, jedes Mal, wenn Ihr Schaden unterliegt, 75% dieses Schadens an Eurer Stelle.",
+				"concise": "Verzauberung. 30...60 Sekunde[n]: Überträgt 75% des erlittenen Schadens von Euch auf Euren am nächsten befindlichen Diener."
+			},
+			"de-guildwiki": {
 				"name": "Dunkles Band",
 				"description": "Während der nächsten 30...60 Sekunden erleidet Euer Diener, der Euch am nächsten ist, jedes Mal, wenn Ihr Schaden erleidet, 75% dieses Schadens an Eurer Stelle.",
 				"concise": "30...60 Sekunden: Überträgt 75% des erlittenen Schadens von Euch auf Euren am nächsten befindlichen Diener."
 			},
 			"en": {
 				"name": "Dark Bond",
+				"description": "Enchantment Spell. For the next 30...60 seconds, whenever you receive damage, your closest minion suffers 75% of that damage for you.",
+				"concise": "Enchantment Spell. (30...60 seconds.) Transfers 75% of incoming damage from you to your nearest servant."
+			},
+			"en-gww": {
+				"name": "Dark Bond",
 				"description": "For the next 30...60 seconds, whenever you receive damage, your closest minion suffers 75% of that damage for you.",
 				"concise": "(30...60 seconds.) Transfers 75% of incoming damage from you to your nearest servant."
 			},
+			"es": {
+				"name": "Vínculo oscuro",
+				"description": "Conjuro con encantamiento. Durante los próximos 30...60 segundos, siempre que recibas daños, el 75% de ese daño lo sufrirá tu siervo más cercano.",
+				"concise": "Conjuro con encantamiento. (30...60 segundos). Transfieres el 75% de los daños que recibas a tu siervo más cercano."
+			},
 			"fr": {
+				"name": "Lien noir",
+				"description": "Enchantement. Durant les prochaines 30...60 secondes, à chaque fois que vous subissez des dégâts, 75% de ces dégâts sont infligés à votre plus proche serviteur.",
+				"concise": "Enchantement. (30...60 secondes.) Transfère 75% des dégâts que vous subissez à votre serviteur le plus proche."
+			},
+			"fr-gwiki": {
 				"name": "Lien noir",
 				"description": "Durant les prochaines 30...60 secondes, à chaque fois que vous subissez des dégâts, 75% de ces dégâts sont infligés à votre plus proche serviteur.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame Oscuro",
+				"description": "Incantesimo. Per i prossimi 30...60 secondo[i], se subisci un danno, lo sgherro che ti sta più vicino riceverà 75% del danno al posto tuo.",
+				"concise": "Incantesimo. (Secondi: 30...60) Trasferisce al tuo morto vivente più vicino 75% dei danni diretti verso di te."
+			},
+			"jp": {
+				"name": "ダーク ボンド",
+				"description": "強化スペル： 30...60 秒間、ダメージを受けるたびに、プレイヤーが操作している最寄のミニオンにそのダメージの75%を転移します。",
+				"concise": "強化スペル： (30...60 秒) 受けるダメージの75%を最寄の自分のミニオンに転移します。"
+			},
+			"kr": {
+				"name": "어둠의 결속",
+				"description": "강화 마법. 대상 지정: 없음. 30...60초 동안 자신이 입는 대미지의 75%를 가장 가까이에 있는 언데드 노예가 대신 입습니다.",
+				"concise": "강화 마법. (30...60초) 자신이 입을 대미지의 75%를 가장 가까이 있는 언데드 노예가 대신 입습니다."
+			},
+			"pl": {
+				"name": "Mroczne Więzy",
+				"description": "Zaklęcie (czar). Przez 30...60 sek., za każdym razem, kiedy otrzymujesz obrażenia, najbliższy sługus otrzymuje zamiast ciebie 75% tych obrażeń.",
+				"concise": "Zaklęcie (czar). (30...60 sek.) Przenosi 75% obrażeń z ciebie na twojego najbliższego sługę."
+			},
+			"ru": {
+				"name": "Dark Bond",
+				"description": "Заклинание-чары. В течение следующих 30...60 сек каждый раз, когда вы получаете урон, 75% этого урона получает вместо вас ближайший к вам Minion.",
+				"concise": "Заклинание-чары. (30...60 сек) Переносит 75% получаемого урона от вас на вашего ближайшего прислужника-нежить."
+			},
+			"bork": {
+				"name": "Daerk Bund",
+				"description": "Inchuntment Spell. Fur zee next 30...60 secunds, vhenefer yuoo receeefe-a daemaege-a, yuoor clusest meeneeun sooffffers 75% ooff thaet daemaege-a fur yuoo.",
+				"concise": "Inchuntment Spell. (30...60 secunds.) Trunsffers 75% ooff incumeeng daemaege-a frum yuoo tu yuoor neaerest serfunt."
 			}
 		}
 	}

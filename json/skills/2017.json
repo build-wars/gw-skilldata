@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Anthem of Weariness",
+				"description": "圣歌。 For 8 seconds, the next attack skill used by each ally within earshot also causes Weakness for 1...16 seconds.",
+				"concise": "圣歌。 (8 seconds.) Allies in earshot inflict Weakness (1...16 seconds) with their next attack skill."
+			},
+			"cht": {
+				"name": "疲倦聖歌",
+				"description": "聖歌： 持續 8 秒，音量所及範圍的每一盟友下一次使用的攻擊技能將同時造成目標敵人「虛弱」 1...16 秒。",
+				"concise": "聖歌： 持續 8 秒，音量所及範圍的每一盟友下一次使用的攻擊技能將同時造成目標敵人「虛弱」 1...16 秒。"
+			},
 			"de": {
+				"name": "Hymne der Müdigkeit",
+				"description": "Anfeuerungsruf. 8 Sekunde[n] lang führt die nächste Angriffsfertigkeit von jedem Verbündeten in Hörweite auch 1...16 Sekunde[n] lang zu Schwäche.",
+				"concise": "Anfeuerungsruf. 8 Sekunde[n]: Verbündete in Hörweite verursachen bei Benutzung ihrer nächsten Angriffsfertigkeit Schwäche (1...16 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Hymne der Müdigkeit",
 				"description": "8 Sekunden lang führt die nächste Angriffsfertigkeit von jedem Verbündeten in Hörweite auch 1...16 Sekunden lang zu Schwäche.",
 				"concise": "8 Sekunden: Verbündete in Hörweite verursachen bei Benutzung ihrer nächsten Angriffsfertigkeit Schwäche (1...16 Sekunden)"
 			},
 			"en": {
 				"name": "Anthem of Weariness",
+				"description": "Chant. For 8 seconds, the next attack skill used by each ally within earshot also causes Weakness for 1...16 seconds.",
+				"concise": "Chant. (8 seconds.) Allies in earshot inflict Weakness (1...16 seconds) with their next attack skill."
+			},
+			"en-gww": {
+				"name": "Anthem of Weariness",
 				"description": "For 8 seconds, the next attack skill used by each ally within earshot also causes Weakness for 1...16 second[s].",
 				"concise": "(8 seconds.) Allies in earshot inflict Weakness (1...16 second[s]) with their next attack skill."
 			},
+			"es": {
+				"name": "Himno de debilidad",
+				"description": "Cántico. Durante 8 segundos, la siguiente habilidad de ataque que usen los aliados al alcance del oído causa también debilitamiento durante 1...16 segundos.",
+				"concise": "Cántico. (8 segundos). Los aliados al alcance del oído causan debilitamiento (1...16 segundos) con su próxima habilidad de ataque."
+			},
 			"fr": {
+				"name": "Hymne de lassitude",
+				"description": "Chant. Pendant 8 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix cause aussi la Faiblesse pendant 1...16 secondes.",
+				"concise": "Chant. (8 secondes.) La compétence d'attaque suivante des alliés à portée de voix inflige la Faiblesse (1...16 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Hymne de lassitude",
 				"description": "Pendant 8 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix cause aussi la Faiblesse pendant 1...16 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Inno della Stanchezza",
+				"description": "Canto. Per 8 secondo[i] la prossima abilità d'attacco utilizzata da ogni alleato a portata d'orecchio provoca anche Debolezza per 1...16 secondo[i].",
+				"concise": "Canto. (Secondi: 8) Condizione inflitta dagli alleati a portata d'orecchio con la prossima abilità d'attacco: Debolezza (1...16 secondo[i])."
+			},
+			"jp": {
+				"name": "ウィアリネス アンセム",
+				"description": "チャント： 8 秒間、声の届く範囲内にいる味方はそれぞれ、次に使用するアタック スキルによって敵を 1...16 秒間「衰弱」状態にします。",
+				"concise": "チャント： (8 秒) 声の届く範囲内にいる味方はそれぞれ、次に使用するアタック スキルによって敵を 「衰弱」状態にします (1...16 秒) 。"
+			},
+			"kr": {
+				"name": "피로의 성가",
+				"description": "영창. 8초 동안 가청 범위 내에 있는 아군의 공격 스킬은 적을 1...16초간 약체로 만듭니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (8초) 가청 범위 내에 있는 아군의 공격 스킬은 적을 약체로 만듭니다.(1...16초) 아군마다 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Hymn Znużenia",
+				"description": "Zaśpiew. Przez 8 sek. następna umiejętność związana z atakiem, użyta przez każdego sojusznika w zasięgu słuchu, dodatkowo osłabi przeciwnika na 1...16 sek.",
+				"concise": "Zaśpiew. (8 sek.) Sojusznicy w zasięgu słuchu swoją następną umiejętnością związaną z atakiem wywołują osłabienie (1...16 sek.)."
+			},
+			"ru": {
+				"name": "Anthem of Weariness",
+				"description": "Хорал. В течение 8 сек следующее атакующее умение, использованное каждым находящимся в зоне слышимости союзником, также сделает противника слабым на 1...16 сек.",
+				"concise": "Хорал. (8 сек) Союзники в зоне слышимости вызовут у противника слабость (1...16 сек) при следующем использовании ими атакующего умения."
+			},
+			"bork": {
+				"name": "Unzeem ooff Veaereeness",
+				"description": "Chunt. Fur 8 secunds, zee next aettaeck skeell used by iaech aelly veetheen iaershut aelsu cooses Veaekness fur 1...16 secunds.",
+				"concise": "Chunt. (8 secunds.) Aelleees in iaershut inffleect Veaekness (1...16 secunds) veet zeeur next aettaeck skeell."
 			}
 		}
 	}

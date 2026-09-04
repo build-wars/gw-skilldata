@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "弧光射击",
+				"description": "弓术。 命中时，对敌人造成10...35点额外伤害。此技能无法被格挡，但是箭的飞行速度比正常要慢50%。",
+				"concise": "弓术。 命中时，对敌人造成10...35点额外伤害。此技能无法被格挡，但是箭的飞行速度比正常要慢50%。"
+			},
+			"cht": {
+				"name": "弧光射擊",
+				"description": "弓術攻擊技能： 命中時對目標造成 10...35 額外傷害。此攻擊無法被「格擋」，但是箭矢的飛行速度比平常慢 50% 。",
+				"concise": "弓術攻擊技能： 命中時對目標造成 10...35 額外傷害。此攻擊無法被「格擋」，但是箭矢的飛行速度比平常慢 50% 。"
+			},
 			"de": {
+				"name": "Bogenschuss",
+				"description": "Bogenangriff. Wenn dieser Pfeil trifft, fügt er +10...35 Punkt[e] Schaden zu. Dieser Pfeil kann nicht geblockt werden, doch er bewegt sich um 50% langsamer.",
+				"concise": "Bogenangriff. Richtet +10...35 Punkt[e] Schaden an. Kann nicht geblockt werden. Dieser Pfeil bewegt sich um 50% langsamer."
+			},
+			"de-guildwiki": {
 				"name": "Bogenschuss",
 				"description": "Wenn dieser Pfeil trifft, fügt er +10...35 Punkte Schaden zu. Dieser Pfeil kann nicht geblockt werden, doch er bewegt sich um 50% langsamer.",
 				"concise": "Richtet +10...35 Punkte Schaden an. Kann nicht geblockt werden. <gray>Dieser Pfeil bewegt sich um 50% langsamer.</gray>"
 			},
 			"en": {
 				"name": "Arcing Shot",
+				"description": "Bow Attack. If this arrow hits, it strikes for +10...35 damage. This arrow cannot be blocked, but it moves 50% slower.",
+				"concise": "Bow Attack. Deals +10...35 damage. Unblockable. This arrow moves 50% slower."
+			},
+			"en-gww": {
+				"name": "Arcing Shot",
 				"description": "If this arrow hits, it strikes for +10...35 damage. This arrow cannot be blocked, but it moves 50% slower.",
 				"concise": "Deals +10...35 damage. Unblockable. <gray>This arrow moves 50% slower.</gray>"
 			},
+			"es": {
+				"name": "Disparo parabólico",
+				"description": "Ataque con arco. Si esta flecha impacta, hará +10...35 de daño. No se podrá bloquear, pero va un 50% más despacio que las normales.",
+				"concise": "Ataque con arco. Hace +10...35 de daño. No se puede bloquear. Esta flecha se mueve un 50% más despacio."
+			},
 			"fr": {
+				"name": "Tir arqué",
+				"description": "Attaque à l'arc. Si cette flèche fait mouche, elle inflige +10...35 points de dégâts. Cette flèche ne peut pas être bloquée, mais se déplace 50% moins vite.",
+				"concise": "Attaque à l'arc. Inflige +10...35 points de dégâts. Impossible à bloquer. Cette flèche progresse 50% moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Tir arqué",
 				"description": "Si cette flèche fait mouche, elle inflige +10...35 points de dégâts. Cette flèche ne peut pas être bloquée, mais se déplace 50% moins vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Parabolico",
+				"description": "Attacco con Arco. Se questa freccia va a segno infligge +10...35 danno[i]. Questa freccia non può essere bloccata, ma si muove ad una velocità inferiore del 50%.",
+				"concise": "Attacco con Arco. Danni inferti: +10...35. Non bloccabile. Rallentamento della velocità di questa freccia: 50%."
+			},
+			"jp": {
+				"name": "アーク ショット",
+				"description": "ボウ アタック： この弓攻撃が成功すると、10...35 の追加ダメージを与えます。この攻撃はブロックされませんが、矢は 50% 遅く飛びます。",
+				"concise": "ボウ アタック： 10...35 の追加ダメージを与えます。この攻撃はブロックされません。この矢の飛速度は 50% 減少します。"
+			},
+			"kr": {
+				"name": "호선 사격",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...35의 대미지를 추가로 줍니다. 화살은 50% 느린 속도로 날아갑니다. 이 화살은 막을 수 없습니다.",
+				"concise": "활 공격. 10...35의 대미지를 추가로 줍니다. 이 화살은 막을 수 없습니다. 화살은 50% 느린 속도로 날아갑니다."
+			},
+			"pl": {
+				"name": "Wysoki Strzał",
+				"description": "Strzał z łuku. Jeśli strzała trafi, zadaje +10...35 pkt. obrażeń. Nie można jej zablokować, ale leci o 50% wolniej.",
+				"concise": "Strzał z łuku. Zadaje +10...35 pkt. obrażeń. Nie do zablokowania. Ta strzała leci o 50% wolniej."
+			},
+			"ru": {
+				"name": "Arcing Shot",
+				"description": "Атака из лука. Если эта стрела попадает в цель, она наносит дополнительно 10...35 ед. урона. Эту стрелу нельзя блокировать, но она летит на 50% медленнее.",
+				"concise": "Атака из лука. Наносит дополнительно 10...35 ед. урона. Нельзя блокировать. Эта стрела летит на 50% медленнее."
+			},
+			"bork": {
+				"name": "Aerceeng Shut",
+				"description": "Boo Aettaeck. Iff thees aerroo heets, it streekes fur +10...35 daemaege-a. Thees aerroo cunnut be-a blucked, boot it mufes 50% slooer.",
+				"concise": "Boo Aettaeck. Deaels +10...35 daemaege-a. Unbluckaeble-a. Thees aerroo mufes 50% slooer."
 			}
 		}
 	}

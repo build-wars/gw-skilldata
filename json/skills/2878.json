@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "痊愈之歌",
+				"description": "精英圣歌。 在10秒之内，所有「音波」范围内的队友在下一次使用技能时，将会回复45...110点生命值。",
+				"concise": "精英圣歌。 在10秒之内，所有「音波」范围内的队友在下一次使用技能时，将会回复45...110点生命值。"
+			},
+			"cht": {
+				"name": "復原之歌",
+				"description": "精英聖歌： 持續 10 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 45...110 體力。",
+				"concise": "精英聖歌： 持續 10 秒，使音量所及範圍內的隊友「下一次」使用「技能」時，該名隊友獲得 45...110 體力。"
+			},
 			"de": {
+				"name": "Gesang der Wiederherstellung (PvP)",
+				"description": "Elite-Anfeuerungsruf. 10 Sekunde[n] lang erhält jedes Gruppenmitglied in Hörweite, wenn es das nächste Mal eine Fertigkeit einsetzt, 45...110 Lebenspunkt[e].",
+				"concise": "Elite-Anfeuerungsruf. 10 Sekunde[n]: Gruppenmitglieder in Hörweite erhalten bei Benutzung ihrer nächsten Fertigkeit 45...110 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Gesang der Wiederherstellung (PvP)",
 				"description": "10 Sekunden lang erhält jedes Gruppenmitglied in Hörweite, wenn es das nächste Mal eine Fertigkeit einsetzt, 45...110 Lebenspunkte.",
 				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite erhalten bei Benutzung ihrer nächsten Fertigkeit 45...110 Lebenspunkte."
 			},
 			"en": {
 				"name": "Song of Restoration (PvP)",
+				"description": "Elite Chant. For 10 seconds, the next time each party member within earshot uses a skill, that party member gains 45...110 Health.",
+				"concise": "Elite Chant. (10 seconds.) Party members in earshot gain 45...110 Health with their next skill."
+			},
+			"en-gww": {
+				"name": "Song of Restoration (PvP)",
 				"description": "For 10 seconds, the next time each party member within earshot uses a skill, that party member gains 45...110 Health.",
 				"concise": "(10 seconds.) Party members in earshot gain 45...110 Health with their next skill."
 			},
+			"es": {
+				"name": "Canción de restauración (PvP)",
+				"description": "Cántico de élite. Durante 10 segundos, la próxima vez que algún miembro del grupo al alcance del oído use una habilidad, se curará 45...110 de salud.",
+				"concise": "Cántico de élite. (10 segundos). Los miembros del grupo al alcance del oído ganan 45...110 de salud con su siguiente habilidad."
+			},
 			"fr": {
+				"name": "Chant de rétablissement (PvP)",
+				"description": "Chant d'élite. Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix utilise une compétence, il est soigné de 45...110 points de vie.",
+				"concise": "Chant d'élite. (10 secondes.) Les membres du groupe à portée de voix récupèrent 45...110 points de vie grâce à leur prochaine compétence."
+			},
+			"fr-gwiki": {
 				"name": "Chant de rétablissement (PvP)",
 				"description": "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix utilise une compétence, il est soigné de 45...110 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Canto del Ripristino (PvP)",
+				"description": "Canto d'Élite. Per 10 secondo[i], la prossima volta che ogni membro della squadra a portata d'orecchio usa un'abilità, ottiene 45...110 Punto[i] Salute.",
+				"concise": "Canto d'Élite. (Secondi: 10) Salute conseguita dai membri della squadra a portata d'orecchio con l'abilità successiva: 45...110."
+			},
+			"jp": {
+				"name": "レストレーション ソング (PvP)",
+				"description": "エリート チャント： 10 秒間、声の届く範囲内にいる各パーティー メンバーは、次にスキルを使用するときに 45...110 の体力を獲得します。",
+				"concise": "エリート チャント： (10 秒) 声の届く範囲内にいるパーティー メンバーは、次にスキルを使用するときに 45...110 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "회복의 노래(대인전)",
+				"description": "엘리트 영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원이 스킬을 사용하면 45...110의 체력을 회복합니다. 파티원마다 처음 한 번만 효과가 있습니다.",
+				"concise": "엘리트 영창. (10초) 가청 범위 내에 있는 파티원들은 처음 스킬을 사용하면 45...110의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "Pieśń Odnowy (PvP)",
+				"description": "Elitarny zaśpiew. Przez 10 sek. każdy członek drużyny w zasięgu słuchu z następnym użyciem umiejętności, otrzyma 45...110 pkt. żywotności.",
+				"concise": "Elitarny zaśpiew. (10 sek.) Członkowie drużyny w zasięgu słuchu, ze swoją następną umiejętnością otrzymują 45...110 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Song of Restoration (PvP)",
+				"description": "Элитный хорал. В течение 10 сек в следующий раз, когда каждый член вашего отряда, находящийся в зоне слышимости, использует какое-либо умение, этот член отряда получает 45...110 ед. здоровья.",
+				"concise": "Элитный хорал. (10 сек) Члены отряда в зоне слышимости получают 45...110 ед. здоровья при следующем использовании ими умения."
+			},
+			"bork": {
+				"name": "Sung ooff Resturaeshun (PfP)",
+				"description": "Ileete-a Chunt. Fur 10 secunds, zee next teeme-a iaech paerty member veetheen iaershut uses a skeell, thaet paerty member gaeeens 45...110 Heaelt.",
+				"concise": "Ileete-a Chunt. (10 secunds.) Paerty members in iaershut gaeeen 45...110 Heaelt veet zeeur next skeell."
 			}
 		}
 	}

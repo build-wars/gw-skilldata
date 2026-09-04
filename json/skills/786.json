@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "铁掌",
+				"description": "技能。 触摸目标敌人，对其造成 5...50点 伤害，如果该目标带有「负面魔法」或「症状」，则其将被击倒。此技能可作为「起手技」使用。",
+				"concise": "触摸技。 触摸目标敌人，对其造成 5...50点 伤害，如果该目标带有「负面魔法」或「症状」，则其将被击倒。此技能可作为「起手技」使用。"
+			},
+			"cht": {
+				"name": "鐵掌",
+				"description": "技能： 碰觸目標敵人，對其造成 5...50 傷害，若該目標正遭受「降咒」或「病症」，則將其擊倒。此技能可視為「引導攻擊」使用。",
+				"concise": "碰觸技能： 碰觸目標敵人，對其造成 5...50 傷害，若該目標正遭受「降咒」或「病症」，則將其擊倒。此技能可視為「引導攻擊」使用。"
+			},
 			"de": {
+				"name": "Eiserne Handfläche",
+				"description": "Fertigkeit. Der berührte Gegner erleidet 5...50 Punkt[e] Schaden und wird zu Boden geworfen, wenn er unter einer Verhexung oder einem Zustand leidet. Eiserne Handfläche zählt als Leithandangriff.",
+				"concise": "Berührungs-Fertigkeit. Richtet 5...50 Punkt[e] Schaden an. Wirft den Gegner zu Boden, falls er verhext ist oder einen Zustand hat. Zählt als Leithandangriff."
+			},
+			"de-guildwiki": {
 				"name": "Eiserne Handfläche",
 				"description": "Der berührte Gegner erleidet 5...50 Punkte Schaden und wird zu Boden geworfen, wenn er unter einer Verhexung oder einem Zustand leidet. Eiserne Handfläche zählt als Leithandangriff.",
 				"concise": "Richtet 5...50 Punkte Schaden an. Wirft den Gegner zu Boden, falls er verhext ist oder einen Zustand hat. Zählt als Leithandangriff."
 			},
 			"en": {
 				"name": "Iron Palm",
+				"description": "Skill. Target touched foe suffers 5...50 damage, and if that foe is suffering from a hex or condition that foe is knocked down. Iron Palm counts as a lead attack.",
+				"concise": "Touch Skill. Deals 5...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack."
+			},
+			"en-gww": {
+				"name": "Iron Palm",
 				"description": "Target touched foe suffers 5...50 damage, and if that foe is suffering from a hex or condition that foe is knocked down. Iron Palm counts as a lead attack.",
 				"concise": "Touch Skill. Deals 5...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack."
 			},
+			"es": {
+				"name": "Palma de hierro",
+				"description": "Habilidad. Haces 5...50 de daño al enemigo que toques y si éste estaba padeciendo una condición o un maleficio, le derribarás. La Palma de hierro cuenta como ataque inicial.",
+				"concise": "Habilidad de toque. Hace 5...50 de daño. Causa derribo si el enemigo objetivo tiene un maleficio o una condición. Esta habilidad cuenta como un ataque inicial."
+			},
 			"fr": {
+				"name": "Paume d'acier",
+				"description": "Compétence. La cible ennemie touchée subit 5...50 points de dégâts, et si elle souffre d'une condition ou d'un maléfice, elle est assommée. Cette compétence est considérée comme une attaque main droite.",
+				"concise": "Compétence de toucher. Inflige 5...50 points de dégâts. Assomme la cible ennemie si cette dernière souffre d'un maléfice ou d'une condition. Compte comme une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Paume d'acier",
 				"description": "La cible ennemie touchée subit 5...50 points de dégâts, et si elle souffre d'une condition ou d'un maléfice, elle est assommée. Cette compétence est considérée comme une attaque main droite.",
 				"concise": "Inflige 5...50 points de dégâts. Assomme la cible ennemie si cette dernière souffre d'un maléfice ou d'une condition. Compte comme une attaque main droite."
+			},
+			"it": {
+				"name": "Palmo di Ferro",
+				"description": "Abilità. L'obiettivo nemico toccato subisce 5...50 danno[i] e se è affetto da una fattura o da una condizione viene abbattuto. Il Palmo di Ferro viene considerato un attacco con arma primaria.",
+				"concise": "Abilità a Tocco. Danni inferti: 5...50. Provoca abbattimento se l'obiettivo nemico è sotto fattura o è affetto da una condizione. Vale come attacco con arma primaria."
+			},
+			"jp": {
+				"name": "アイアン パーム",
+				"description": "スキル： 接触した敵に 5...50 のダメージを与えます。その敵に弱体化スペルまたは「状態異常」がかけられている場合、その敵は転倒します。この攻撃は、リード アタックとみなされます。",
+				"concise": "スキル (接触)： 5...50 のダメージを与えます。ターゲットした敵に弱体化スペルまたは「状態異常」がかけられている場合、転倒させます。このスキルはリード アタックとみなされます。"
+			},
+			"kr": {
+				"name": "강철 손바닥",
+				"description": "스킬. 대상 지정: 적. 대상은 5...50의 대미지를 입습니다. 대상이 약화 마법이나 상태이상에 걸려 있으면 대상은 바닥에 넘어집니다. 대상에 접근해야 사용할 수 있고, 주 공격의 역할도 합니다.",
+				"concise": "스킬(접근용). 5...50의 대미지를 줍니다. 대상이 약화 마법이나 상태이상에 걸려 있으면 바닥에 넘어뜨립니다. 주 공격의 역할을 합니다."
+			},
+			"pl": {
+				"name": "Żelazna Dłoń",
+				"description": "Umiejętność. Wybrany dotknięty przeciwnik otrzymuje 5...50 pkt. obrażeń oraz jeżeli cierpiał na przypadłość lub był pod wpływem klątwy, zostaje powalony. Żelazna Dłoń liczy się jako atak poprzedzający.",
+				"concise": "Umiejętność dotykowa. Zadaje 5...50 pkt. obrażeń. Powoduje powalenie, jeżeli wybrany przeciwnik ma na sobie klątwę lub przypadłość. Traktuje się jako atak poprzedzający."
+			},
+			"ru": {
+				"name": "Iron Palm",
+				"description": "Умение. Противник, до которого вы дотронулись, получает 5...50 ед. урона. Если на него в этот момент было наложено какое-либо проклятье или состояние, то он будет сбит с ног. Iron Palm засчитывается как ведущая атака.",
+				"concise": "Умение прикосновения. Наносит 5...50 ед. урона. Сбивает с ног, если выбранный противник находится под действием проклятья или состояния. Засчитывается как ведущая атака."
+			},
+			"bork": {
+				"name": "Irun Paelm",
+				"description": "Skeell. Taerget tuooched fue-a sooffffers 5...50 daemaege-a, und iff thaet fue-a is sooffffereeng frum a hex oor cundeeshun thaet fue-a is knucked doon. Irun Paelm cuoonts aes a leaed aettaeck.",
+				"concise": "Tuooch Skeell. Deaels 5...50 daemaege-a. Cooses knuck-doon iff taerget fue-a is hexed oor haes a cundeeshun. Cuoonts aes a leaed aettaeck."
 			}
 		}
 	}

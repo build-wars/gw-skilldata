@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暗影之躯",
+				"description": "武咒。 使目标盟友拥有暗影之躯。在1...7秒之内，当该盟友遭到攻击时，将使攻击者遭受「盲目」症状 5 秒 。",
+				"concise": "武咒。 使目标盟友拥有夜影武装。在1...7秒之内，当该盟友遭到攻击时，将使攻击者遭受「盲目」症状 5 秒 。"
+			},
+			"cht": {
+				"name": "暗影武裝",
+				"description": "武裝魔法： 持續 1...7 秒，目標盟友被攻擊時，攻擊者將遭受盲目 5 秒，同時該盟友接下來 1...3 次的攻擊，命中時將使敵人遭受盲目 5 秒。",
+				"concise": "武裝魔法： 持續 1...7 秒，目標盟友被攻擊時，攻擊者將遭受盲目 5 秒，同時該盟友接下來 1...3 次的攻擊，命中時將使敵人遭受盲目 5 秒。"
+			},
 			"de": {
+				"name": "Schattenwaffe",
+				"description": "Waffenzauber. Ein verbündetes Ziel erhält für eine Dauer von 1...7 Sekunde[n] eine Schattenwaffe. Jedes Mal, wenn der Verbündete getroffen wird, wird der Angreifer für 1...7 Sekunde[n] geblendet. Die nächsten 1...3 Mal, wenn ein Angriff dieses Verbündeten trifft, wird sein Ziel 5 Sekunde[n] lang geblendet.",
+				"concise": "Waffenzauber. (1...7 Sekunde[n].) Verursacht bei jedem, der den Verbündeten (bzw. Euch selbst) angreift, den Zustand Blindheit (5 Sekunde[n]). Die nächsten 1...3 Angriffe des Ziels verursachen Blindheit (5 Sekunde[n]), wenn sie treffen."
+			},
+			"de-guildwiki": {
 				"name": "Schattenwaffe",
 				"description": "Der Verbündete (bzw. Ihr selbst) erhält für eine Dauer von 1...7 Sekunden eine Schattenwaffe. Jedes Mal, wenn der Verbündete getroffen wird, wird der Angreifer 5 Sekunden lang geblendet. Die nächsten 1...3 Mal, wenn ein Angriff dieses Verbündeten trifft, wird sein Ziel 5 Sekunden lang geblendet.",
 				"concise": "(1...7 Sekunden.) Verursacht bei jedem, der den Verbündeten (bzw. Euch selbst) angreift, den Zustand Blindheit (5 Sekunden). Die nächsten 1...3 Angriffe des Ziels verursachen Blindheit (5 Sekunden), wenn sie treffen."
 			},
 			"en": {
 				"name": "Weapon of Shadow",
+				"description": "Weapon Spell. For 1...7 seconds, target ally has a Weapon of Shadow. Whenever that ally is struck by an attack, that ally's attacker becomes Blinded for 5 seconds. The next 1...3 times that ally hits with an attack, his target is Blinded for 5 seconds.",
+				"concise": "Weapon Spell. (1...7 seconds.) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally's next 1...3 attacks inflict Blindness (5 seconds) if they hit."
+			},
+			"en-gww": {
+				"name": "Weapon of Shadow",
 				"description": "For 1...7 second[s], target ally has a Weapon of Shadow. Whenever that ally is struck by an attack, that ally's attacker becomes Blinded for 5 seconds. The next 1...3 times <sic/> that ally hits with an attack, his target is Blinded for 5 seconds.",
 				"concise": "(1...7 second[s].) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally's next 1...3 attack[s] inflict Blindness (5 seconds) if they hit."
 			},
+			"es": {
+				"name": "Arma de sombra",
+				"description": "Conjuro con arma. Durante 1...7 segundos, el aliado objetivo tiene un Arma de sombra. Cada vez que un ataque impacta sobre el aliado, el atacante queda cegado durante 5 segundos. Las próximas 1...3 veces que el aliado acierte un ataque, su objetivo quedará cegado durante 5 segundos.",
+				"concise": "Conjuro con arma. (1...7 segundos). Causa ceguera (5 segundos) sobre cualquiera que ataque al aliado objetivo. Los próximos 1...3 ataques del aliado objetivo causan ceguera (5 segundos) si aciertan."
+			},
 			"fr": {
+				"name": "Arme de l'Ombre",
+				"description": "Sort d'altération d'arme. Pendant 1...7 secondes, la cible (un allié ou vous-même) a une Arme de l'Ombre en sa possession. Chaque fois que cette cible est touchée par une attaque, son attaquant est frappé d'Aveuglement pendant 5 secondes. Les 1...3 prochaines fois que cet allié réussit une attaque, sa cible est frappée d'Aveuglement pendant 5 secondes.",
+				"concise": "Sort d'altération d'arme. (1...7 secondes.) Inflige l'Aveuglement (5 secondes) à toute créature attaquant l'allié visé. Les 1...3 prochaines attaques réussies de la cible (un allié ou vous-même) infligent Aveuglement (5 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Arme de l'Ombre",
 				"description": "Pendant 3...8 secondes, la cible (un allié ou vous-même) a une Arme de l'Ombre en sa possession. Chaque fois que la cible (un allié ou vous-même) est touchée par une attaque, son attaquant est frappé d'Aveuglement pendant 5 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma dell'Ombra",
+				"description": "Magia Altera-arma. Per 1...7 secondi, l'obiettivo (un alleato o te stesso) ha un'Arma dell'Ombra. Ogni volta che l'alleato viene colpito da un attacco, l'aggressore diventa cieco per 5 secondi. Le prossime 1...3 volte in cui quell'alleato colpisce con un attacco, il suo obiettivo viene accecato per 5 secondi.",
+				"concise": "Magia Altera-arma. (Secondi: 1...7). Condizione inflitta a chiunque attacchi l'alleato adiacente: Accecamento (5 secondi). Condizione inflitta da 1...3 attacchi successivi dell'obiettivo alleato: Accecamento (5 secondi) se colpiscono l'obiettivo."
+			},
+			"jp": {
+				"name": "シャドウ ウェポン",
+				"description": "ウェポン スペル： 1...7 秒間、ターゲットした味方が攻撃を受けるたびに、その攻撃者は 5 秒間「盲目」状態になります。その味方が行う次の 1...3 回の攻撃は、敵を 5 秒間「盲目」状態にします。",
+				"concise": "ウェポン スペル： (1...7 秒) ターゲットした味方に対する攻撃者を「盲目」状態にします (5 秒)。ターゲットが行う次の 1...3 回の攻撃は、成功すると敵を「盲目」状態にします (5 秒)。"
+			},
+			"kr": {
+				"name": "어둠의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 1...7초 동안 대상은 \"어둠의 무기\" 효과를 얻습니다. 적이 대상에 대한 공격을 성공하면 그 적은 5초 동안 실명 상태가 됩니다. 또, 다음 1...3번 대상의 공격이 성공하면 적을 5초 동안 실명 상태로 만듭니다.",
+				"concise": "마법 무기. (1...7초) 대상 아군을 공격하는 적을 실명시킵니다.(5초) 대상 아군의 다음 1...3번의 공격이 성공하면 적을 실명시킵니다.(5초)"
+			},
+			"pl": {
+				"name": "Cienisty Oręż",
+				"description": "Czar z broni. Na 1...7 sek., wybrany sojusznik zyskuje Cienisty Oręż. Za każdym razem, kiedy ten sojusznik otrzymuje cios, atakujący go zostaje oślepiony na 5 sek. Następne 1...3 razy, gdy ten sojusznik zostanie trafiony, atakujący go zostaje oślepiony na 5 sek.",
+				"concise": "Czar z broni. (1...7 sek.) Oślepia (na 5 sek.) każdego, kto zaatakuje wybranego sojusznika. Kolejne ataki sprzymierzeńca (1...3) powodują w przypadku trafienia ślepotę (na 5 sek.)."
+			},
+			"ru": {
+				"name": "Weapon of Shadow",
+				"description": "Оружейное заклинание. В течение 1...7 сек у выбранного союзника будет Weapon of Shadow. Каждый раз, когда этот союзник получит урон от атаки, атаковавший его противник будет ослеплен на 5 сек. Следующие успешные атаки (1...3) этого союзника также вызовут слепоту на 5 сек.",
+				"concise": "Оружейное заклинание. (1...7 сек) Вызывает слепоту (5 сек) у любого, кто атакует выбранного союзника. Следующие успешные атаки (1...3) этого союзника вызовут слепоту (5 сек)."
+			},
+			"bork": {
+				"name": "Veaepun ooff Shaedoo",
+				"description": "Veaepun Spell. Fur 1...7 secunds, taerget aelly haes a Veaepun ooff Shaedoo. Vhenefer thaet aelly is stroock by un aettaeck, thaet aelly's aettaecker becumes Bleended fur 5 secunds. Zee next 1...3 teemes thaet aelly heets veet un aettaeck, hees taerget is Bleended fur 5 secunds.",
+				"concise": "Veaepun Spell. (1...7 secunds.) Inffleects Bleendness cundeeshun (5 secunds) oon unyune-a vhu aettaecks taerget aelly. Taerget aelly's next 1...3 aettaecks inffleect Bleendness (5 secunds) iff zeey heet."
 			}
 		}
 	}

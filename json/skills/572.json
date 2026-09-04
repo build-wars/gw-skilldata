@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "逆行",
+				"description": "姿态。 你所有的攻击技能在10秒内无法使用。同时你的「刺客」技能施放和冷却速度提升33%，效果持续5...15秒。",
+				"concise": "姿态。 你所有的攻击技能在10秒内无法使用。同时你的「刺客」技能施放和冷却速度提升50%，效果持续5...15秒。"
+			},
+			"cht": {
+				"name": "暗殺者之舞",
+				"description": "態勢： 你的所有攻擊技能在 10 秒內將無法使用。持續 5...15 秒，你的暗殺者技能「施展」及「回復」時間加快 33% 。",
+				"concise": "態勢： 持續 5...15 秒，使你的暗殺者技能「施展」及「回復」時間加快 50% 。但是你的所有攻擊技能在 10 秒內將無法使用。"
+			},
 			"de": {
+				"name": "Tödliches Paradoxon",
+				"description": "Haltung. Alle Eure Angriffsfertigkeiten werden 10 Sekunde[n] lang deaktiviert. 5...15 Sekunde[n] lang werden Eure Assassinen-Fertigkeiten um 33% schneller aktiviert und aufgeladen.",
+				"concise": "Haltung. 5...15 Sekunde[n]: Eure Assassinen-Fertigkeiten werden um 33% schneller aktiviert und aufgeladen. Deaktiviert Eure Angriffsfertigkeiten (10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Tödliches Paradoxon",
 				"description": "Alle Eure Angriffsfertigkeiten werden 10 Sekunden lang deaktiviert. 5...15 Sekunden lang werden Eure Assassinen-Fertigkeiten um 33% schneller aktiviert und aufgeladen.",
 				"concise": "5...15 Sekunden: Eure Assassinen-Fertigkeiten werden um 33% schneller aktiviert und aufgeladen. <gray>Deaktiviert Eure Angriffsfertigkeiten (10 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Deadly Paradox",
+				"description": "Stance. All of your attack skills are disabled for 10 seconds. For 5...15 seconds, your Assassin skills activate and recharge 33% faster.",
+				"concise": "Stance. (5...15 seconds.) Your Assassin skills activate and recharge 33% faster. Disables your attack skills (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Deadly Paradox",
 				"description": "All of your attack skills are disabled for 10 seconds. For 5...15 seconds, your Assassin skills activate and recharge 33% faster.",
 				"concise": "(5...15 seconds.) Your Assassin skills activate and recharge 33% faster. <gray>Disables your attack skills (10 seconds).</gray>"
 			},
+			"es": {
+				"name": "Paradoja mortal",
+				"description": "Actitud. Todas tus habilidades de ataque quedan desactivadas durante 10 segundos. Además, durante 5...15 segundos tus habilidades de Asesino se activarán y recargarán un 33% más deprisa.",
+				"concise": "Actitud. (5...15 segundos). Tus habilidades de Asesino se activan y recargan un 33% más deprisa. Desactiva tus habilidades de ataque (10 segundos)."
+			},
 			"fr": {
+				"name": "Paradoxe mortel",
+				"description": "Pose de combat. Toutes vos compétences d'attaques sont inutilisables pendant 10 secondes. Pendant 5...15 secondes, vos compétences d'Assassin s'activent et se rechargent 33% plus vite.",
+				"concise": "Pose de combat. (5...15 secondes.) Vos compétences d'Assassin s'activent et se rechargent 33% plus vite. Désactive vos compétences d'attaque (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Paradoxe mortel",
 				"description": "Toutes vos compétences d'attaques sont inutilisables pendant 10 secondes. Pendant 5...15 secondes, vos compétences d'Assassin s'activent et se rechargent 33% plus vite.",
 				"concise": "(5...15 secondes.) Vos compétences d'Assassin s'activent et se rechargent 33% plus vite. <gray>Désactive vos compétences d'attaque (10 secondes).</gray>"
+			},
+			"it": {
+				"name": "Paradosso Letale",
+				"description": "Posizione. Tutte le tue abilità d'attacco vengono disattivate per 10 secondo[i]. Per 5...15 secondo[i], le tue abilità da Assassino si attivano e ricaricano ad una velocità maggiore del 33%.",
+				"concise": "Posizione. (Secondi: 5...15) Incremento velocità di attivazione e ricarica delle tue abilità da Assassino: 33%. Disattiva le tue abilità da attacco (10 secondo[i])."
+			},
+			"jp": {
+				"name": "デッドリー パラドックス",
+				"description": "スタンス： 10 秒間アタック スキルが使用できなくなりますが、5...15 秒間、アサシン スキルの発動および再使用時間が 33% 減少します。",
+				"concise": "スタンス： (5...15 秒) アサシン スキルの発動速度と再使用速度が 33% 増加します。アタック スキルが使用できなくなります (10 秒) 。"
+			},
+			"kr": {
+				"name": "치명적인 모순",
+				"description": "자세. 대상 지정: 없음. 모든 공격 스킬을 10초 동안 사용할 수 없지만, 5...15초 동안 어새신 스킬의 시전 속도와 재활성 속도가 33% 단축됩니다.",
+				"concise": "자세. (5...15초) 어새신 스킬의 시전 속도와 재활성 속도가 50% 빨라집니다. 공격 스킬을 사용할 수 없습니다.(10초)"
+			},
+			"pl": {
+				"name": "Zabójczy Paradoks",
+				"description": "Postawa. Wszystkie twoje umiejętności związane z atakowaniem są niedostępne przez 10 sek. Przez 5...15 sek. twoje umiejętności zabójcy aktywują się i odnawiają się o 33% szybciej.",
+				"concise": "Postawa. (5...15 sek.) Twoje umiejętności zabójcy aktywują i odnawiają się o 33% szybciej. Wyłącza twoje umiejętności związane z atakami (10 sek.)."
+			},
+			"ru": {
+				"name": "Deadly Paradox",
+				"description": "Стойка. Все ваши атакующие умения становятся недоступными на 10 сек. В течение 5...15 сек все ваши умения профессии Assassin активируются и перезаряжаются на 33% быстрее.",
+				"concise": "Стойка. (5...15 сек) Ваши умения профессии Assassin активируются и перезаряжаются на 33% быстрее. Ваши атакующие умения будут недоступны (10 сек)."
+			},
+			"bork": {
+				"name": "Deaedly Paeraedux",
+				"description": "Stunce-a. Aell ooff yuoor aettaeck skeells aere-a deesaebled fur 10 secunds. Fur 5...15 secunds, yuoor Aessaesseen skeells aecteefaete-a und rechaerge-a 33% faester.",
+				"concise": "Stunce-a. (5...15 secunds.) Yuoor Aessaesseen skeells aecteefaete-a und rechaerge-a 33% faester. Deesaebles yuoor aettaeck skeells (10 secunds)."
 			}
 		}
 	}

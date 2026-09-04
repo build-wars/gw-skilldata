@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失衡",
+				"description": "精英咒文。 如果目标敌人带有「症状」并且受到「增益魔法」或「负面魔法」效果的影响，你会对其造成30...110点伤害。",
+				"concise": "精英咒文。 如果目标敌人带有「症状」并且受到「增益魔法」或「负面魔法」效果的影响，你会对其造成 30...110点 伤害。"
+			},
+			"cht": {
+				"name": "協調破壞",
+				"description": "精英咒文魔法： 若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成30...110傷害。",
+				"concise": "精英咒文魔法： 若目標敵人正遭受「病症」並且受到「加持」或「降咒」的效果影響，你對其造成30...110傷害。"
+			},
 			"de": {
+				"name": "Zwietracht (PvP)",
+				"description": "Elite-Zauber. Wenn der Gegner unter einem Zustand und den Auswirkungen einer Verhexung oder einer Verzauberung leidet, erleidet er 30...110 Punkt[e] Schaden.",
+				"concise": "Elite-Zauber. Richtet 30...110 Punkt[e] Schaden an. Gegner muss einen Zustand haben und verhext oder verzaubert sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Zwietracht (PvP)",
 				"description": "Wenn der Gegner unter einem Zustand und den Auswirkungen einer Verhexung oder einer Verzauberung leidet, erleidet er 30...110 Punkte Schaden.",
 				"concise": "Richtet 30...110 Punkte Schaden an. <gray>Gegner muss einen Zustand haben und verhext oder verzaubert sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Discord (PvP)",
+				"description": "Elite Spell. If target foe is suffering from a condition and under the effects of a hex or an enchantment, that foe suffers 30...110 damage.",
+				"concise": "Elite Spell. Deals 30...110 damage. No effect unless target foe has a condition and is either hexed or enchanted."
+			},
+			"en-gww": {
+				"name": "Discord (PvP)",
 				"description": "If target foe is suffering from a condition and under the effects of a hex or an enchantment, that foe suffers 30...110 damage.",
 				"concise": "Deals 30...110 damage. <gray>No effect unless target foe has a condition and is either hexed or enchanted.</gray>"
 			},
+			"es": {
+				"name": "Discordia (PvP)",
+				"description": "Conjuro de élite. Si el enemigo objetivo sufre una condición y está bajo los efectos de un maleficio o encantamiento, recibirá 30...110 de daño.",
+				"concise": "Conjuro de élite. Hace 30...110 de daño. No tiene efecto a menos que el enemigo objetivo tenga una condición y también un maleficio o un encantamiento."
+			},
 			"fr": {
+				"name": "Discorde (PvP)",
+				"description": "Sort d'élite. Si la cible ennemie souffre d'une condition et est affectée par un maléfice ou un enchantement, elle subit 30...110 points de dégâts.",
+				"concise": "Sort d'élite. Inflige 30...110 points de dégâts. Sans effet si la cible ennemie ne souffre d'aucune condition et n'est sous les effets d'aucun maléfice ou enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Discorde (PvP)",
 				"description": "Si la cible ennemie souffre d'une condition et est affectée par un maléfice ou un enchantement, elle subit 30...110 points de dégâts.",
 				"concise": "Inflige 30...110 points de dégâts. <gray>Sans effet si la cible ennemie ne souffre d'aucune condition et n'est sous les effets d'aucun maléfice ou enchantement.</gray>"
+			},
+			"it": {
+				"name": "Discordia (PvP)",
+				"description": "Magia d'Élite. Se l'obiettivo nemico soffre di una condizione ed è sotto gli effetti di una fattura o di un incantesimo, quell'obiettivo subisce 30...110 danno[i].",
+				"concise": "Magia d'Élite. Danni inferti: 30...110. Ha effetto solo se l'obiettivo nemico soffre di una condizione ed è affetto da fattura o incantesimo."
+			},
+			"jp": {
+				"name": "ディスコード (PvP)",
+				"description": "エリート スペル： ターゲットした敵に「状態異常」がかけられている上に弱体化または強化スペルがかけられている場合、30...110 のダメージを与えます。",
+				"concise": "エリート スペル： 30...110 のダメージを与えます。ターゲットした敵に「状態異常」と、弱体化または強化スペルのいずれかがかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "불협화음(대인전)",
+				"description": "엘리트 마법. 대상 지정: 적. 대상이 상태이상과 약화 마법 또는 상태이상과 강화 마법에 걸려 있으면 대상은 30...110의 대미지를 입습니다.",
+				"concise": "엘리트 마법. 30...110의 대미지를 줍니다. 대상이 상태이상과 약화 마법 또는 상태이상과 강화 마법에 걸려 있어야 합니다."
+			},
+			"pl": {
+				"name": "Niezgoda (PvP)",
+				"description": "Elitarny czar. Jeżeli wybrany przeciwnik cierpi na przypadłość i jest pod wpływem klątwy lub zaklęcia, przeciwnik ten otrzymuje 30...110 pkt. obrażeń.",
+				"concise": "Elitarny czar. Zadaje 30...110 pkt. obrażeń. Bez efektu, chyba że wybrany przeciwnik jest pod działaniem przypadłości i ma na sobie klątwę lub zaklęcie."
+			},
+			"ru": {
+				"name": "Discord (PvP)",
+				"description": "Элитное заклинание. Если выбранный противник находится под воздействием какого-либо состояния и при этом на нем лежат чары или проклятье, этот противник получит 30...110 ед. урона.",
+				"concise": "Элитное заклинание. Наносит 30...110 ед. урона. Не действует, если выбранный противник не находится под действием состояния и какого-либо проклятья или чар."
+			},
+			"bork": {
+				"name": "Deescurd (PfP)",
+				"description": "Ileete-a Spell. Iff taerget fue-a is sooffffereeng frum a cundeeshun und under zee iffffects ooff a hex oor un inchuntment, thaet fue-a sooffffers 30...110 daemaege-a.",
+				"concise": "Ileete-a Spell. Deaels 30...110 daemaege-a. Nu iffffect unless taerget fue-a haes a cundeeshun und is ieezeer hexed oor inchunted."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益粉碎",
+				"description": "咒文。 驱散目标敌人身上的一个「增益魔法」，驱散成功后，同时对该目标造成14...100点伤害。",
+				"concise": "咒文。 驱散目标敌人身上的一个「增益魔法」，驱散成功后，目标敌人将受到14...100点伤害。"
+			},
+			"cht": {
+				"name": "加持粉碎",
+				"description": "咒文魔法： 消除目標敵人身上的一項「加持」，若消除「加持」成功，則同時對該目標造成 14...100 傷害。",
+				"concise": "咒文魔法： 消除目標敵人身上的一項「加持」，若消除「加持」成功，則同時對該目標造成 14...100 傷害。"
+			},
 			"de": {
+				"name": "Verzauberung brechen",
+				"description": "Zauber. Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung erleidet dieser 14...100 Punkt[e] Schaden.",
+				"concise": "Zauber. Entfernt beim Gegner eine Verzauberung. Entfernungswirkung: Richtet 14...100 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberung brechen",
 				"description": "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung erleidet dieser 14...100 Punkte Schaden.",
 				"concise": "Entfernt beim Gegner eine Verzauberung. Entfernungswirkung: Richtet 14...100 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Shatter Enchantment",
+				"description": "Spell. Remove an enchantment from target foe. If an enchantment is removed, that foe takes 14...100 damage.",
+				"concise": "Spell. Removes an enchantment from target foe. Removal effect: deals 14...100 damage."
+			},
+			"en-gww": {
+				"name": "Shatter Enchantment",
 				"description": "Remove an enchantment from target foe. If an enchantment is removed, that foe takes 14...100 damage.",
 				"concise": "Removes an enchantment from target foe. Removal effect: deals 14...100 damage."
 			},
+			"es": {
+				"name": "Destruir encantamiento",
+				"description": "Conjuro. Quita un encantamiento del enemigo objetivo. Si se quita un encantamiento, ese enemigo recibirá 14...100 de daño.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. Efecto de la eliminación: 14...100 de daño."
+			},
 			"fr": {
+				"name": "Dissipation des enchantements",
+				"description": "Sort. Ote un enchantement à l'ennemi visé. Si l'enchantement est supprimé, l'ennemi subit 14...100 points de dégâts.",
+				"concise": "Sort. Supprime un enchantement à la cible ennemie. Effet de la suppression : inflige 14...100 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Dissipation des enchantements",
 				"description": "Ote un enchantement à l'ennemi visé. Si l'enchantement est supprimé, l'ennemi subit 14...100 points de dégâts.",
 				"concise": "Supprime un enchantement à la cible ennemie. Effet de la suppression : inflige 14...100 points de dégâts."
+			},
+			"it": {
+				"name": "Rompi Incantesimo",
+				"description": "Magia. Elimini un incantesimo dall'obiettivo nemico e gli infliggi 14...100 danno[i].",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. Effetto della rimozione: assesta 14...100 danno[i]."
+			},
+			"jp": {
+				"name": "シャター エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。強化スペルを解除すると、その敵は 14...100 のダメージを受けます。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。解除効果： 14...100 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "강화 마법 분쇄",
+				"description": "마법. 대상 지정: 적. 대상에게 걸려 있는 강화 마법 중 하나를 해제하고, 14...100 대미지를 줍니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 하나를 해제합니다. 해제 효과: 14...100대미지"
+			},
+			"pl": {
+				"name": "Rozbicie Zaklęcia",
+				"description": "Czar. Z wybranego przeciwnika usuwasz jedno zaklęcie. Jeśli zaklęcie zostanie usunięte, to ten przeciwnik otrzymuje 14...100 pkt. obrażeń.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa zaklęcie. Efekt usunięcia: zadaje 14...100 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Shatter Enchantment",
+				"description": "Заклинание. Снимает одни лежащие на выбранном противнике чары. Если чары были успешно сняты, противник получит 14...100 ед. урона.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Эффект снятия: наносит 14...100 ед. урона."
+			},
+			"bork": {
+				"name": "Shaetter Inchuntment",
+				"description": "Spell. Remufe-a un inchuntment frum taerget fue-a. Iff un inchuntment is remufed, thaet fue-a taekes 14...100 daemaege-a.",
+				"concise": "Spell. Remufes un inchuntment frum taerget fue-a. Remufael iffffect: deaels 14...100 daemaege-a. Bork! Bork! Bork!"
 			}
 		}
 	}

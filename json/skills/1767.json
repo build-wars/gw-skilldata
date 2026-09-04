@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 7,
 		"adrenaline_precise": 7,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "收割轮舞",
+				"description": "精英镰刀术。 命中时，对敌人造成2...3点伤害。如果目标敌人生命值低于50%，他将遭受「重伤」症状3...15秒。",
+				"concise": "精英镰刀术。 命中时，对敌人造成2...3点伤害。如果目标敌人生命值低于50%，他将遭受「重伤」症状3...15秒。"
+			},
+			"cht": {
+				"name": "收割者掃蕩",
+				"description": "精英鐮刀攻擊技能： 命中時造成殘廢 3...15 秒，移除自身一項神喚使加持，若移除成功，將擊倒敵人 2...3 秒。",
+				"concise": "精英鐮刀攻擊技能： 命中時造成殘廢 3...15 秒，移除自身一項神喚使加持，若移除成功，將擊倒敵人 2...3 秒。"
+			},
 			"de": {
+				"name": "Schwung des Schnitters",
+				"description": "Elite-Sensenangriff. Wenn dieser Angriff erfolgreich ist, leidet Euer Gegner 3...15 Sekunde[n] lang an Verkrüppelung. Ihr verliert 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wurde, wirft dieser Angriff 2...3 Sekunde[n] lang zu Boden,",
+				"concise": "Elite-Sensenangriff. (3...15 Sekunde[n].) Verursacht Verkrüppelung. Ihr verliert 1 Derwisch-Verzauberung. Entfernungseffekt: Wirft 2...3 Sekunde[n] lang zu Boden."
+			},
+			"de-guildwiki": {
 				"name": "Schwung des Schnitters",
 				"description": "Wenn dieser Angriff erfolgreich ist, leidet Euer Gegner 3...15 Sekunden lang an Verkrüppelung. Ihr verliert 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wurde, wirft dieser Angriff 2...3 Sekunden zu Boden.",
 				"concise": "Verursacht Verkrüppelung (3...15 Sekunden.). Ihr verliert 1 Derwisch-Verzauberung. Entfernungseffekt: Wirft 2...3 Sekunden lang zu Boden."
 			},
 			"en": {
 				"name": "Reaper's Sweep",
+				"description": "Elite Scythe Attack. If this attack hits, you Cripple your target for 3...15 seconds. You lose 1 Dervish enchantment. If an enchantment was removed, this attack knocks down for 2...3 seconds.",
+				"concise": "Elite Scythe Attack. (3...15 seconds.) Causes Cripple. Lose 1 Dervish enchantment. Removal Effect: causes knockdown for 2...3 seconds."
+			},
+			"en-gww": {
+				"name": "Reaper's Sweep",
 				"description": "If this attack hits, you Cripple your target for 3...15 seconds. You lose 1 Dervish enchantment. If an enchantment was removed, this attack knocks down for 2...3 seconds.",
 				"concise": "(3...15 seconds.) Cause Cripple. Lose 1 Dervish enchantment. Removal Effect: cause knockdown for 2...3 seconds."
 			},
+			"es": {
+				"name": "Barrido del segador",
+				"description": "Ataque con guadaña de élite. Si este ataque impacta, causarás lisiadura a tu objetivo durante 3...15 segundos. Pierdes un encantamiento de Derviche. Si se quitó un encantamiento, este ataque derriba durante 2...3 segundos.",
+				"concise": "Ataque con guadaña de élite. (3...15 segundos.) Causa lisiadura. Pierdes un encantamiento de Derviche. Efecto de eliminación: causa derribo durante 2...3 segundos."
+			},
 			"fr": {
+				"name": "Frappe du moissonneur",
+				"description": "Attaque à la faux d'élite. Si cette attaque réussit, la cible ennemie souffre d'Infirmité pendant 3...15 secondes. Vous perdez un enchantement de Derviche. Si un enchantement a été levé, cette attaque renverse la cible pendant 2...3 secondes.",
+				"concise": "Attaque à la faux d'élite. (3...15 secondes.) Inflige Infirmité. Vous perdez un enchantement de Derviche. Effet de la suppression : renverse la cible pendant 2...3 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Frappe du moissonneur",
 				"description": "Si l'attaque touche, inflige l'infirmité pour 3...16 secondes. Supprime un enchantement de Derviche. Effet de la suppression : cible assommée pour 2...3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falciata del Mietitore",
+				"description": "Attacco d'Élite con Falce. Se questo attacco va a segno, infliggi Storpiatura per 3...15 secondi. Perdi 1 Incantesimo del Derviscio. Se un incantesimo è stato rimosso, questo attacco abbatte per 2...3 secondi.",
+				"concise": "Attacco d'Élite con Falce. (Secondi: 3...15). Infligge Storpiatura. Incantesimi del Derviscio persi: 1. Effetto della rimozione: causa abbattimento per 2...3 secondi."
+			},
+			"jp": {
+				"name": "リーパー スウィープ",
+				"description": "エリート サイズ アタック： この攻撃が成功すると、ターゲットした敵を 3...15 秒間「不自由」状態にします。プレイヤーにかけられているダルウィーシュの強化スペルが1個解除されます。強化スペルが解除されると、この攻撃により敵が 2...3 秒間転倒します。",
+				"concise": "エリート サイズ アタック： (3...15 秒)「不自由」状態にします。ダルウィーシュの強化スペルが1個解除されます。解除効果：2...3 秒間、転倒させます。"
+			},
+			"kr": {
+				"name": "사신의 가르기",
+				"description": "엘리트 사이드 공격. 대상 지정: 적. 공격이 성공하면 대상을 3...15초 동안 다리 부상 상태로 만들고, 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 이렇게 강화 마법이 무효화되면 대상을 2...3초 동안 넘어뜨립니다.",
+				"concise": "엘리트 사이드 공격. 다리부상을 입히고,(3...15초) 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 바닥에 넘어뜨립니다.(2...3초)"
+			},
+			"pl": {
+				"name": "Zamach Żniwiarza",
+				"description": "Elitarny atak kosą. Jeśli atak trafi, powoduje okulawienie celu na 3...15 sek. Tracisz 1 zaklęcie derwisza. Jeśli dojdzie do usunięcia zaklęcia, atak ten powala przeciwników na 2...3 sek.",
+				"concise": "Elitarny atak kosą. (3...15 sek.) Powoduje okulawienie. Tracisz jedno zaklęcie derwisza. Efekt usunięcia: Powoduje powalenie na 2...3 sek."
+			},
+			"ru": {
+				"name": "Reaper's Sweep",
+				"description": "Элитная атака косой. Если эта атака попадает в цель, выбранный противник будет хромать в течение 3...15 сек. Вы теряете 1 чары профессии Dervish. Если чары были сняты, эта атака сбивает с ног на 2...3 сек.",
+				"concise": "Элитная атака косой. Вызывает хромроту (3...15 сек). Снимает 1 чары профессии Dervish. Эффект снятия: сбивает с ног на 2...3 сек."
+			},
+			"bork": {
+				"name": "Reaeper's Sveep",
+				"description": "Ileete-a Scyzee Aettaeck. Iff thees aettaeck heets, yuoo Creepple-a yuoor taerget fur 3...15 secunds. Yuoo luse-a 1 Derfeesh inchuntment. Iff un inchuntment vaes remufed, thees aettaeck knucks doon fur 2...3 secunds.",
+				"concise": "Ileete-a Scyzee Aettaeck. (3...15 secunds.) Cooses Creepple-a. Luse-a 1 Derfeesh inchuntment. Remufael Iffffect: cooses knuckdoon fur 2...3 secunds."
 			}
 		}
 	}

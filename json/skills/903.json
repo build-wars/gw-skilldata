@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "冰棱",
+				"description": "咒文。 使目标敌人受到 15...75 冰冻伤害。如果该目标正在使用「纹章」类型技能，则打断其动作并且使其所有「纹章」类型技能在 15...75 秒内无法使用。",
+				"concise": "咒文。 使目标敌人受到 15...75 冰冻伤害。如果该目标正在使用「纹章」类型技能，则打断其动作并且使其所有「纹章」类型技能在 15...75 秒内无法使用。"
+			},
+			"cht": {
+				"name": "冰冷稜柱",
+				"description": "咒文魔法： 使目標敵人受到 15...75 冰凍傷害。若該目標正在使用「紋章」類型技能，則中斷其動作並且使其所有「紋章」類型技能在 15...75 秒內無法使用。",
+				"concise": "咒文魔法： 使目標敵人受到 15...75 冰凍傷害。若該目標正在使用「紋章」類型技能，則中斷其動作並且使其所有「紋章」類型技能在 15...75 秒內無法使用。"
+			},
 			"de": {
+				"name": "Eisprisma",
+				"description": "Zauber. Der Gegner erleidet 15...75 Punkte Kälteschaden. Wenn der Gegner unter einer Wassermagie-Verhexung leidet, fügt Eisprisma allen Feinden in der Nähe +15...75 Punkte Kälteschaden zu.",
+				"concise": "Zauber. Richtet 15...75 Punkte Kälteschaden an. Verursacht 15...75 Punkte Kälteschaden bei allen Feinden in der Nähe, wenn der Gegner unter einer Wassermagie-Verhexung leidet."
+			},
+			"de-guildwiki": {
 				"name": "Eisprisma",
 				"description": "Der Gegner erleidet 15...75 Punkte Kälteschaden. Wenn der Gegner unter einer Wassermagie-Verhexung leidet, fügt Eisprisma allen Feinden in der Nähe +15...75 Kälteschaden zu.",
 				"concise": "Richtet 15...75 Punkte Kälteschaden an. Verursacht 15...75 Punkte Kälteschaden bei allen Feinden in der Nähe, wenn der Gegner unter einer Wassermagie-Verhexung leidet."
 			},
 			"en": {
 				"name": "Icy Prism",
+				"description": "Spell. Target foe is struck for 15...75 cold damage. If that foe has a Water Magic hex, Icy Prism deals +15...75 cold damage to all other nearby foes.",
+				"concise": "Spell. Deals 15...75 cold damage. Deals +15...75 cold damage to other nearby foes if target has a Water Magic hex."
+			},
+			"en-gww": {
+				"name": "Icy Prism",
 				"description": "Target foe is struck for 15...75 cold damage. If that foe has a Water Magic hex, Icy Prism deals +<sic/>15...75 cold damage to all other nearby foes.",
 				"concise": "Deals 15...75 cold damage. Deals +<sic/>15...75 cold damage to other nearby foes if target has a Water Magic hex."
 			},
+			"es": {
+				"name": "Prisma helado",
+				"description": "Conjuro. El enemigo objetivo recibe 15...75 de daño frío. Si ese enemigo tiene un maleficio de magia de agua, Prisma helado hace +15...75 de daño frío a los demás enemigos cercanos.",
+				"concise": "Conjuro. Hace 15...75 de daño frío. Hace +15...75 de daño frío a los demás enemigos cercanos si el objetivo tiene un maleficio de magia de agua."
+			},
 			"fr": {
+				"name": "Prisme de glace",
+				"description": "Sort. La cible ennemie subit 15...75 points de dégâts du froid. Si cet ennemi est frappé d'un maléfice de la Magie de l'eau, Prisme de glace inflige +15...75 points de dégâts du froid à tous les ennemis à proximité.",
+				"concise": "Sort. Inflige 15...75 points de dégâts du froid. Inflige +15...75 points de dégâts du froid aux ennemis à proximité si l'ennemi ciblé est frappé d'un maléfice de la Magie de l'eau."
+			},
+			"fr-gwiki": {
 				"name": "Prisme de glace",
 				"description": "La cible ennemie subit 10...65 points de dégâts du froid. Si cette cible utilise un Sceau, celui-ci est interrompu et tous ses Sceaux sont inutilisables pendant 3...9 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Prisma di Ghiaccio",
+				"description": "Magia. L'obiettivo nemico subisce 15...75 danni da freddo. Se quel nemico ha una fattura Magia dell'Acqua, Lancia di Ghiaccio infligge +15...75 danni da freddo a tutti i nemici nelle vicinanze.",
+				"concise": "Magia. Danni da freddo inferti: 15...75. Infligge +15...75 danni da freddo a tutti i nemici nelle vicinanze se l'obiettivo ha una fattura Magia dell'Acqua."
+			},
+			"jp": {
+				"name": "アイシー プリズム",
+				"description": "スペル： ターゲットした敵に 15...75 のコールド ダメージを与えます。その敵に「ウォーター」特性の弱体化スペルがかけられている場合、周囲にいるターゲット以外の敵すべてに 15...75 の追加コールド ダメージを与えます。",
+				"concise": "スペル： 15...75 のコールド ダメージを与えます。ターゲットした敵に「ウォーター」特性の弱体化スペルがかけられている場合、周囲にいるターゲット以外の敵に 15...75 の追加コールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "냉기 굴절",
+				"description": "마법. 대상 지정: 적. 대상에게 15...75의 냉기 대미지를 줍니다. 대상이 물 속성 약화 마법에 걸려 있으면 부근의 다른 적들에게 15...75의 냉기 대미지를 줍니다.",
+				"concise": "마법. 대상에게 15...75의 냉기 대미지를 주고, 대상이 물 속성 약화에 걸려 있으면 부근의 다른 적들에게 15...75의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Lodowy Pryzmat",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń od zimna. Jeśli przeciwnik jest pod działaniem klątwy Magii Wody, Lodowy Pryzmat zadaje +15...75 obrażeń od zimna wszystkim pobliskim przeciwnikom.",
+				"concise": "Czar. Zadaje 15...75 pkt. obrażeń od zimna. zadaje +15...75 obrażeń od zimna wszystkim pobliskim przeciwnikom, jeśli cel jest pod działaniem zaklęcia Magii Wody."
+			},
+			"ru": {
+				"name": "Icy Prism",
+				"description": "Заклинание. Выбранный противник получает 15...75 ед. урона силой холода. Если на этом противнике лежит проклятье, связанное с Water Magic, все другие противники поблизости получат дополнительно 15...75 ед. урона силой холода.",
+				"concise": "Заклинание. Наносит 15...75 ед. урона силой холода. Наносит дополнительно 15...75 ед. урона силой холода всем другим противникам поблизости, если на цели лежит проклятье, связанное с Water Magic"
+			},
+			"bork": {
+				"name": "Icy Preesm",
+				"description": "Spell. Taerget fue-a is stroock fur 15...75 culd daemaege-a. Iff thaet fue-a haes a Vaeter Maegeec hex, Icy Preesm deaels +15...75 culd daemaege-a tu aell oozeer neaerby fues.",
+				"concise": "Spell. Deaels 15...75 culd daemaege-a. Deaels +15...75 culd daemaege-a tu oozeer neaerby fues iff taerget haes a Vaeter Maegeec hex."
 			}
 		}
 	}

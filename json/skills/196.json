@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灼肤之痛",
+				"description": "咒文。 在目标敌人脚下引发「灼肤之痛」。在5秒之内，使范围内的敌人受到每秒10...40点火焰伤害。当「灼肤之痛」停止时，该区域内的敌人将遭受「灼烧」症状3秒。",
+				"concise": "咒文。 在目标敌人处引发「灼肤之痛」。使范围内的敌人受到每秒 10...40点 火焰伤害，持续 5秒。当「灼肤之痛」停止时，受创的敌人将遭受「灼烧」症状 3秒。"
+			},
+			"cht": {
+				"name": "灼熱氣息",
+				"description": "咒文魔法： 在目標敵人處引發灼熱氣息。持續 5 秒，使接近灼熱氣息的敵人每秒受到 10...40 火焰傷害。當灼熱氣息停止，該區域的敵人將遭受「著火」病症 3 秒。",
+				"concise": "咒文魔法： 在目標敵人處引發灼熱氣息。持續 5 秒，使接近灼熱氣息的敵人每秒受到 10...40 火焰傷害。當灼熱氣息停止，該區域的敵人將遭受「著火」病症 3 秒。"
+			},
 			"de": {
+				"name": "Sengende Hitze",
+				"description": "Zauber. An der Position des Gegners wird Sengende Hitze erzeugt. 5 Sekunden lang erleiden Feinde in der Nähe pro Sekunde je 10...40 Punkt[e] Feuerschaden. Wenn Sengende Hitze endet, werden die im Wirkungsbereich befindlichen Feinde 3 Sekunden lang in Brand gesetzt.",
+				"concise": "Zauber. Richtet 10...40 Punkt[e] Feuerschaden pro Sekunde an (5 Sekunden). Trifft Feinde in der Nähe der ursprünglichen Position des Ziels. Wirkung am Ende: Verursacht Zustand Brennen (3 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Sengende Hitze",
 				"description": "An der Position des Gegners wird Sengende Hitze erzeugt. 5 Sekunden lang erleiden Feinde in der Nähe pro Sekunde je 10...40 Punkte Feuerschaden. Wenn Sengende Hitze endet, werden die im Wirkungsbereich befindlichen Feinde 3 Sekunden lang in Brand gesetzt.",
 				"concise": "Richtet jede Sekunde 10...40 Punkte Feuerschaden an (5 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Ziels. Wirkung am Ende: Verursacht Zustand Brennen (3 Sekunden)."
 			},
 			"en": {
 				"name": "Searing Heat",
+				"description": "Spell. Cause Searing Heat at target foe's location. For 5 seconds, foes near this location are struck for 10...40 fire damage each second. When Searing Heat ends, foes in the area of effect are set on fire for 3 seconds.",
+				"concise": "Spell. Deals 10...40 fire damage each second (5 seconds). Hits foes near target's initial location. End effect: inflicts Burning condition (3 seconds)."
+			},
+			"en-gww": {
+				"name": "Searing Heat",
 				"description": "Cause Searing Heat at target foe's location. For 5 seconds, foes near this location are struck for 10...40 fire damage each second. When Searing Heat ends, foes in the area of effect are set on fire for 3 seconds.",
 				"concise": "Deals 10...40 fire damage each second (5 seconds). Hits foes near target's initial location. End effect: inflicts Burning condition (3 seconds)."
 			},
+			"es": {
+				"name": "Calor abrasador",
+				"description": "Conjuro. Creas Calor abrasador en la ubicación del enemigo objetivo. Durante 5 segundos, los enemigos adyacentes a la zona reciben 10...40 de daño de fuego por segundo. Cuando el Calor abrasador finalice, los enemigos del área de efecto empezarán a arder durante 3 segundos.",
+				"concise": "Conjuro. Hace 10...40 de daño de fuego por segundo (5 segundos). Alcanza a los enemigos cercanos a la ubicación inicial del objetivo. Efecto final: causa quemadura (3 segundos)."
+			},
 			"fr": {
+				"name": "Chaleur de fournaise",
+				"description": "Sort. Déclenche une Chaleur de fournaise sur la position de l'ennemi. Pendant 5 secondes, les ennemis à proximité de cette position subissent 10...40 points de dégâts du feu par seconde. Lorsque la Chaleur de fournaise cesse, les ennemis dans sa zone d'effet sont embrasés pendant 3 secondes.",
+				"concise": "Sort. Inflige 10...40 points de dégâts du feu par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Effet final : inflige Brûlure (3 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Chaleur de fournaise",
 				"description": "Déclenche une Chaleur de Fournaise sur la position de l'ennemi. Pendant 5 secondes, les ennemis à proximité de cette position subissent 10...40 points de dégâts du feu par seconde. Lorsque la Chaleur de Fournaise cesse, les ennemis dans sa zone d'effet sont embrasés pendant 3 secondes.",
 				"concise": "Inflige 10...40 points de dégâts du feu par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Effet final : inflige la Brûlure (3 secondes)."
+			},
+			"it": {
+				"name": "Calore Bruciante",
+				"description": "Magia. Provochi un Calore Bruciante nella posizione dell'obiettivo nemico. Per 5 secondi i nemici nelle vicinanze di questa posizione subiscono 10...40 danni da fuoco al secondo. Al termine del Calore Bruciante, i nemici nell'area d'effetto prendono fuoco per 3 secondi.",
+				"concise": "Magia. Infligge 10...40 danni da fuoco al secondo (5 secondi). Colpisce i nemici vicini alla posizione iniziale dell'obiettivo. Effetto al termine: infligge Bruciatura (3 secondi)."
+			},
+			"jp": {
+				"name": "シアー ヒート",
+				"description": "スペル： ターゲットした敵がいる場所に高熱を浴びせ、5秒間、その周囲にいる敵に毎秒 10...40 のファイア ダメージを与えます。この効果が消失すると、そのエリア内にいる敵は3秒間「火傷」状態になります。",
+				"concise": "スペル： 発動時にターゲットした敵がいた場所の周囲にいる敵に、毎秒 10...40 のファイア ダメージを与えます (5秒)。終了効果： 「火傷」状態にします (3 秒)。"
+			},
+			"kr": {
+				"name": "용암 분출",
+				"description": "마법. 대상 지정: 적. 대상이 있는 위치에 용암을 분출시킵니다. 5초 동안 용암 부근에 있는 적들은 매초 10...40의 불 대미지를 입습니다. 효과가 끝나면 용암의 일정 범위 내에 있던 적들은 3초 동안 화상 상태가 됩니다.",
+				"concise": "마법. 대상 위치 부근의 적들에게 매초 10...40의 불 대미지를 줍니다.(5초) 종료 효과: 화상을 입힙니다.(3초)"
+			},
+			"pl": {
+				"name": "Palący Żar",
+				"description": "Czar. W miejscu, gdzie znajduje się wybrany przeciwnik wywołujesz Palący Żar. Przez 5 sek., przeciwnicy w tej okolicy otrzymują w każdej sekundzie po 10...40 pkt. obrażeń od ognia. Gdy Palący Żar przestanie działać, przeciwnicy w okolicy zostaną podpaleni na 3 sek.",
+				"concise": "Czar. W każdej sekundzie zadaje 10...40 pkt. obrażeń od ognia (5 sek.). Trafia przeciwników w pobliżu początkowego miejsca celu. Efekt końcowy: wywołuje przypadłość płonięcie (3 sek.)."
+			},
+			"ru": {
+				"name": "Searing Heat",
+				"description": "Заклинание. Вызывает Searing Heat в местоположении выбранного противника. В течение 5 сек противники поблизости от этого места получают 10...40 ед. урона силой огня каждую секунду. Когда Searing Heat заканчивается, враги в зоне действия этого заклинания загораются на 3 сек.",
+				"concise": "Заклинание. Наносит 10...40 ед. урона силой огня каждую секунду (5 сек). Поражает противников поблизости от первоначального положения цели. Эффект окончания: поджигает (3 сек)."
+			},
+			"bork": {
+				"name": "Seaereeng Heaet",
+				"description": "Spell. Coose-a Seaereeng Heaet aet taerget fue-a's lucaeshun. Fur 5 secunds, fues neaer thees lucaeshun aere-a stroock fur 10...40 fure-a daemaege-a iaech secund. Vhee Seaereeng Heaet inds, fues in zee aerea ooff iffffect aere-a set oon fure-a fur 3 secunds.",
+				"concise": "Spell. Deaels 10...40 fure-a daemaege-a iaech secund (5 secunds). Heets fues neaer taerget's ineeteeael lucaeshun. Ind iffffect: inffleects Boorneeng cundeeshun (3 secunds)."
 			}
 		}
 	}

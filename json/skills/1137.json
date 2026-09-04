@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "雪人猛击",
+				"description": "锤术。 命中时对目标造成 5...20 额外伤害，而且使邻近的所有敌人受到 5...50 伤害。",
+				"concise": "锤术。 命中时对目标造成 5...20 额外伤害，而且使邻近的所有敌人受到 5...50 伤害。"
+			},
+			"cht": {
+				"name": "雪人猛擊",
+				"description": "鎚術攻擊技能： 失去所有怒氣值，同時攻擊鄰近所有敵人，若是擊中遭受病症的敵人則擊倒他們。 (鎚術精通屬性等級若是 4 以下則有 50% 失敗機率。)",
+				"concise": "鎚術攻擊技能： 失去所有怒氣值，同時攻擊鄰近所有敵人，若是擊中遭受病症的敵人則擊倒他們。 (鎚術精通屬性等級若是 4 以下則有 50% 失敗機率。)"
+			},
 			"de": {
+				"name": "Yetischlag",
+				"description": "Hammerangriff. Alles Adrenalin geht verloren. Greift alle umstehenden Feinde an. Wenn dieser Angriff einen Gegner trifft, der unter einem Zustand leidet, wird dieser zu Boden geworfen. (Bei einer Hammerbeherrschung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Hammerangriff. Greift alle umstehenden Feinde an. Feinde, die unter einem Zustand leiden, werden zu Boden geworfen. Ihr verliert alles Adrenalin. Mindestens Hammerbeherrschung 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Yetischlag",
 				"description": "Alles Adrenalin geht verloren. Greift alle umstehenden Feinde an. Wenn dieser Angriff einen Gegner trifft, der unter einem Zustand leidet, wird dieser zu Boden geworfen. (Bei einer Hammerbeherrschung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
 				"concise": "Greift alle umstehenden Feinde an. Wenn der angegriffene Gegner unter einem Zustand leidet, wird er zu Boden geworfen. <gray>Alles Adrenalin geht verloren. Mindestens Hammerbeherrschung 5, sonst 50%ige Chance auf Misserfolg.)</gray>"
 			},
 			"en": {
 				"name": "Yeti Smash",
+				"description": "Hammer Attack. Lose all adrenaline. Attack all adjacent foes. If this attack strikes a foe suffering from a condition, that foe is knocked down. (50% failure chance with Hammer Mastery 4 or less.)",
+				"concise": "Hammer Attack. Attack all adjacent foes. Knocks down foes suffering from a condition. You lose all adrenaline. 50% failure chance unless Hammer Mastery is 5 or more."
+			},
+			"en-gww": {
+				"name": "Yeti Smash",
 				"description": "Lose all adrenaline. Attack all adjacent foes. If this attack strikes a foe suffering from a condition, that foe is knocked down. (50% failure chance with Hammer Mastery 4 or less.)",
 				"concise": "Attack all adjacent foes. Knocks down foes suffering from a condition. <gray>You lose all adrenaline. 50% failure chance unless Hammer Mastery is 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Golpe del yeti",
+				"description": "Ataque con martillo. Pierdes toda la adrenalina. Ataca a todos los enemigos adyacentes. Si este ataque alcanza a un enemigo que esté sufriendo una condición, le derribarás. (50% de posibilidades de fallar con dominio del martillo 4 o inferior).",
+				"concise": "Ataque con martillo. Ataca a todos los enemigos adyacentes. Derriba a los enemigos padeciendo alguna condición. Pierdes toda la adrenalina. 50% de posibilidades de fallar a no ser que tengas dominio del martillo 5 o superior."
+			},
 			"fr": {
+				"name": "Frappe du Yéti",
+				"description": "Attaque au marteau. Perte de toute l'adrénaline. Attaque tous les ennemis adjacents. Si cette attaque frappe un ennemi souffrant d'une condition, cet ennemi est assommé. (50% de risques d'échec avec Maîtrise du marteau 4 ou inférieure.)",
+				"concise": "Attaque au marteau. Attaque tous les ennemis adjacents. Assomme les ennemis souffrant d'une condition. Vous perdez toute votre adrénaline. 50% de risques d'échec sauf si vous avez Maîtrise du marteau 5 ou supérieure."
+			},
+			"fr-gwiki": {
 				"name": "Frappe du Yéti",
 				"description": "Perte de toute l'adrénaline. Attaque tous les ennemis adjacents. Si cette attaque frappe un ennemi souffrant d'une condition, cet ennemi est assommé. (50% de chances d'échouer avec une valeur de Maîtrise du marteau de 4 ou moins).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Percossa dello Yeti",
+				"description": "Attacco con Martello. Perdi tutta l'adrenalina. Colpisce tutti i nemici adiacenti. Se questo attacco colpisce un nemico affetto da una condizione, il nemico va a terra. (50% di probabilità di fallimento con Abilità col Martello di grado 4 o inferiore).",
+				"concise": "Attacco con Martello. Colpisce tutti i nemici adiacenti. I nemici affetti da una condizione vanno a terra. Perdi tutta l'adrenalina. 50% di probabilità di fallimento con Abilità col Martello di grado 5 o superiore."
+			},
+			"jp": {
+				"name": "イエティ スマッシュ",
+				"description": "ハンマー アタック： アドレナリンをすべて失い、隣接するすべての敵を攻撃します。「状態異常」の敵にこの攻撃が成功すると、その敵は転倒します。「ハンマー マスタリー」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "ハンマー アタック： 隣接するすべての敵を攻撃し、「状態異常」がかけられている敵は転倒します。アドレナリンをすべて失います。「ハンマー マスタリー」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "예티의 강타",
+				"description": "해머 공격. 대상 지정: 없음. 아드레날린을 모두 소모합니다. 인접한 모든 적을 공격합니다. 상태이상에 걸린 적에게 공격이 성공하면 바닥에 넘어뜨립니다. 해머 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "해머 공격. 인접한 모든 적을 공격하고, 상태이상에 걸린 적은 바닥에 넘어뜨립니다. 아드레날린을 모두 소모합니다. 해머 특성이 4레벨 이하면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Yeti",
+				"description": "Atak młotem. Tracisz całą adrenalinę. Atakujesz wszystkich wrogów w bezpośrednim sąsiedztwie. Jeśli atak trafi wroga cierpiącego na jakąś przypadłość, zostanie on powalony. (50% szans na niepowodzenie jeśli biegłość w używaniu młotów wynosi 4 lub mniej.)",
+				"concise": "Atak młotem. Atakuje wszystkich wrogów w bezpośrednim sąsiedztwie. Powala wrogów cierpiących na jakąś przypadłość. Tracisz całą adrenalinę. 50% szans na niepowodzenie, chyba że biegłość w używaniu młotów wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Yeti Smash",
+				"description": "Атака молотом. Вы теряете весь адреналин и атакуете всех окружающих противников. Если эта атака поражает противника, находящегося под действием какого-либо состояния, этот противник будет сбит с ног (50% шанс неудачи, если ваш уровень таланта Hammer Mastery меньше или равен 4).",
+				"concise": "Атака молотом. Атакует всех окружающих портивников. Сбивает с ног противников, находящихся под действием какого-либо состояния. Вы теряете весь адреналин. 50% шанс неудачи, если ваш уровень таланта Hammer Mastery меньше 5."
+			},
+			"bork": {
+				"name": "Yetee Smaesh",
+				"description": "Haemmer Aettaeck. Luse-a aell aedrenaeleene-a. Aettaeck aell aedjaecent fues. Iff thees aettaeck streekes a fue-a sooffffereeng frum a cundeeshun, thaet fue-a is knucked doon. (50% faeeeloore-a chunce-a veet Haemmer Maestery 4 oor less.)",
+				"concise": "Haemmer Aettaeck. Aettaeck aell aedjaecent fues. Knucks doon fues sooffffereeng frum a cundeeshun. Yuoo luse-a aell aedrenaeleene-a. 50% faeeeloore-a chunce-a unless Haemmer Maestery is 5 oor mure-a."
 			}
 		}
 	}

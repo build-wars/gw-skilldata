@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "会心一击",
+				"description": "近战技能。 此攻击一旦命中，即为致命一击，并且打断目标所使用的「姿态」。会心一击无法被「格挡」，但会消耗所有的怒气值。",
+				"concise": "近战技能。 此攻击一旦命中，即为致命一击，并且打断目标所使用的「姿态」。会心一击无法被「格挡」，但会消耗所有的怒气值。"
+			},
+			"cht": {
+				"name": "狂暴一擊",
+				"description": "近身攻擊技能： 此攻擊命中時，對目標造成致命傷害並且中斷其使用中的「態勢」。狂暴一擊無法被「格擋」，但會消耗所有怒氣值。",
+				"concise": "近身攻擊技能： 此攻擊命中時，對目標造成致命傷害並且中斷其使用中的「態勢」。狂暴一擊無法被「格擋」，但會消耗所有怒氣值。"
+			},
 			"de": {
+				"name": "Rundumschlag",
+				"description": "Nahkampfangriff. Alles Adrenalin geht verloren. Wenn dieser Angriff erfolgreich ist, dann erfolgt ein kritischer Treffer und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Ein Blocken ist bei diesem Angriff nicht möglich.",
+				"concise": "Nahkampfangriff. Immer ein kritischer Treffer. Entfernt eine Haltung. Kann nicht geblockt werden. Ihr verliert alles Adrenalin."
+			},
+			"de-guildwiki": {
 				"name": "Rundumschlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, dann erfolgt ein kritischer Treffer und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Ein Blocken ist bei diesem Angriff nicht möglich. Nach dem Verwenden dieser Fertigkeit geht alles Adrenalin verloren.",
 				"concise": "Immer ein kritischer Treffer. Entfernt eine Haltung. Kann nicht geblockt werden. <gray>Ihr verliert alles Adrenalin.</gray>"
 			},
 			"en": {
 				"name": "Wild Blow",
+				"description": "Melee Attack. Lose all adrenaline. If it hits, this attack will result in a critical hit and any stance being used by your target ends. This attack cannot be blocked.",
+				"concise": "Melee Attack. Always a critical hit. Removes a stance. Unblockable. Lose all adrenaline."
+			},
+			"en-gww": {
+				"name": "Wild Blow",
 				"description": "Lose all adrenaline. If it hits, this attack will result in a critical hit and any stance being used by your target ends. This attack cannot be blocked.",
 				"concise": "Always a critical hit. Removes a stance. Unblockable. <gray>Lose all adrenaline.</gray>"
 			},
+			"es": {
+				"name": "Golpe violento",
+				"description": "Ataque cuerpo a cuerpo. Se pierde toda la adrenalina. Si impacta, este ataque será un golpe crítico y cualquier actitud que estaba usando el enemigo terminará. No se puede bloquear.",
+				"concise": "Ataque cuerpo a cuerpo. Siempre un golpe crítico. Elimina una actitud. No se puede bloquear. Pierdes toda la adrenalina."
+			},
 			"fr": {
+				"name": "Coup sauvage",
+				"description": "Attaque au corps à corps. Perte de toute l'adrénaline. Si l'attaque réussit, vous portez un coup critique et la pose utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
+				"concise": "Attaque au corps à corps. Inflige toujours un coup critique. Supprime une pose de combat. Impossible à bloquer. Vous perdez toute votre adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Coup sauvage",
 				"description": "Perte de toute l'adrénaline. Si l'attaque réussit, vous portez un coup critique et la pose de combat utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Selvaggio",
+				"description": "Attacco Ravvicinato. Perdi tutta l'Adrenalina. Se va a segno, questo attacco produce un colpo critico e fa terminare qualsiasi Posizione utilizzata dal tuo obiettivo. Questo attacco non può essere bloccato.",
+				"concise": "Attacco Ravvicinato. Risulta sempre in un colpo critico. Rimuove una posizione. Non bloccabile.Perdi tutta l'adrenalina."
+			},
+			"jp": {
+				"name": "ワイルド ブロウ",
+				"description": "メーレー アタック： アドレナリンをすべて失います。攻撃が成功するとクリティカル ヒットとなり、ターゲットの使用しているスタンスが解除されます。この攻撃はブロックされません。",
+				"concise": "メーレー アタック： 常にクリティカル ヒットになり、スタンスを解除します。この攻撃はブロックされません。アドレナリンをすべて失います。"
+			},
+			"kr": {
+				"name": "회심의 일격",
+				"description": "근접 물리 공격. 대상 지정: 적. 모든 아드레날린을 소모합니다. 공격이 성공하면 치명타가 터지고 대상의 자세는 해제됩니다. 이 공격은 막을 수 없습니다.",
+				"concise": "근접 물리 공격. 항상 치명타가 터지고 대상의 자세는 해제됩니다. 이 공격은 막을 수 없습니다. 아드레날린을 모두 소모합니다."
+			},
+			"pl": {
+				"name": "Dziki Cios",
+				"description": "Atak wręcz. Tracisz całą adrenalinę. Jeśli atak trafi, spowoduje trafienie krytyczne i przerwanie wszystkich postaw, pod których działaniem był twój cel. Tego ataku nie można zablokować.",
+				"concise": "Atak wręcz. Zawsze trafienie krytyczne. Przerywa postawę. Nie do zablokowania. Pochłania całą adrenalinę."
+			},
+			"ru": {
+				"name": "Wild Blow",
+				"description": "Рукопашная атака. Вы теряете весь адреналин. Если эта атака попадает в цель, она завершается критическим ударом, а действие любой стойки, которую использует ваш противник, прекращается. Эту атаку нельзя блокировать.",
+				"concise": "Рукопашная атака. Попадание всегда будет критическим. Отменяет текущую стойку. Нельзя блокировать. Вы теряете весь адреналин."
+			},
+			"bork": {
+				"name": "Veeld Bloo",
+				"description": "Melee-a Aettaeck. Luse-a aell aedrenaeleene-a. Iff it heets, thees aettaeck veell resoolt in a creeteecael heet und uny stunce-a beeeng used by yuoor taerget inds. Thees aettaeck cunnut be-a blucked.",
+				"concise": "Melee-a Aettaeck. Aelvaeys a creeteecael heet. Remufes a stunce-a. Unbluckaeble-a. Luse-a aell aedrenaeleene-a."
 			}
 		}
 	}

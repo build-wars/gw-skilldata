@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "还击",
+				"description": "技能。 在8秒之内，当装备剑类武器时，下一次对你发动的近身攻击将被格挡，并使攻击者受到20...80点伤害。",
+				"concise": "技能。 在8秒之内，当装备剑类武器时，下一次对你发动的近身攻击将被格挡，并使攻击者受到20...80点伤害。"
+			},
+			"cht": {
+				"name": "還擊",
+				"description": "技能： 持續 8 秒，當裝備劍類武器時，你「格擋」下次受到的近身攻擊並且使攻擊者受到 20...80 的傷害。",
+				"concise": "技能： 持續 8 秒，當裝備劍類武器時，你「格擋」下次受到的近身攻擊並且使攻擊者受到 20...80 的傷害。"
+			},
 			"de": {
+				"name": "Entgegnung",
+				"description": "Fertigkeit. 8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff und Euer Angreifer wird mit 20...80 Punkt[en] Schaden getroffen.",
+				"concise": "Fertigkeit. 8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 20...80 Punkt[e] Schaden. Keine Wirkung, falls Ihr kein Schwert benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Entgegnung",
 				"description": "8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff und Euer Angreifer wird mit 20...80 Punkten Schaden getroffen.",
 				"concise": "8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 20...80 Punkte Schaden. <gray>Keine Wirkung, falls Ihr kein Schwert benutzt.</gray>"
 			},
 			"en": {
 				"name": "Riposte",
+				"description": "Skill. For 8 seconds, while you have a sword equipped, you block the next melee attack against you and your attacker is struck for 20...80 damage.",
+				"concise": "Skill. (8 seconds.) You block the next melee attack and your attacker takes 20...80 damage. No effect unless you have a sword equipped."
+			},
+			"en-gww": {
+				"name": "Riposte",
 				"description": "For 8 seconds, while you have a sword equipped, you block the next melee attack against you and your attacker is struck for 20...80 damage.",
 				"concise": "(8 seconds). You block the next melee attack and your attacker takes 20...80 damage. <gray>No effect unless you have a sword equipped.</gray>"
 			},
+			"es": {
+				"name": "Estocada",
+				"description": "Habilidad. Durante 8 segundos, mientras empuñes una espada, bloquearás el próximo ataque cuerpo a cuerpo contra ti, y tu atacante recibirá 20...80 de daño.",
+				"concise": "Habilidad. (8 segundos). Bloqueas el próximo ataque cuerpo a cuerpo contra ti y tu atacante recibe 20...80 de daño. No funciona si no llevas una espada."
+			},
 			"fr": {
+				"name": "Riposte",
+				"description": "Compétence. Pendant 8 secondes, si vous avez une épée en main, vous bloquez la prochaine attaque au corps à corps et votre attaquant subit 20...80 points de dégâts.",
+				"concise": "Compétence. (8 secondes.) Vous bloquez l'attaque au corps à corps suivante et votre assaillant subit 20...80 points de dégâts. Aucun effet si vous n'avez pas d'épée en main."
+			},
+			"fr-gwiki": {
 				"name": "Riposte",
 				"description": "Pendant 8 secondes, si vous avez une épée en main, vous bloquez la prochaine attaque au corps à corps et votre attaquant subit 20...80 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Replica",
+				"description": "Abilità. Per 8 secondi, mentre brandisci una spada, blocchi l'attacco ravvicinato successivo lanciato contro di te e il tuo aggressore subisce 20...80 danno[i].",
+				"concise": "Abilità. (Secondi: 8) Blocchi il prossimo attacco in mischia e l'aggressore subisce 20...80 danno[i]. Ha effetto solo se brandisci una spada."
+			},
+			"jp": {
+				"name": "リポウスト",
+				"description": "スキル： 8秒間、ソードを装備している場合、次に受ける近接攻撃をブロックし、その敵に 20...80 のダメージを与えます。",
+				"concise": "スキル： (8秒) 次に受ける近接攻撃をブロックし、その攻撃者に 20...80 のダメージを与えます。ソードを装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "반격",
+				"description": "스킬. 대상 지정: 없음. 8초 동안 검을 사용하여 근접 물리 공격을 막아 냅니다. 공격을 한 적은 20...80의 대미지를 입습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "스킬. (8초) 근접 물리 공격을 막아 냅니다. 공격을 한 적은 20...80의 대미지를 입습니다. 처음 한 번만 효과가 있습니다. 검을 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Riposta",
+				"description": "Umiejętność. Przez 8 sek., kiedy trzymasz miecz, blokujesz następny atak w walce wręcz skierowany w ciebie, a napastnik otrzymuje 20...80 pkt. obrażeń.",
+				"concise": "Umiejętność. (8 sek.) Blokujesz następny atak wręcz, a atakujący otrzymuje 20...80 pkt. obrażeń. Bez efektu, jeśli nie dzierżysz miecza."
+			},
+			"ru": {
+				"name": "Riposte",
+				"description": "Умение. В течение 8 сек до тех пор, пока вы вооружены мечом, вы блокируете следующую рукопашную атаку, направленную против вас, а нападающий получит 20...80 ед. урона.",
+				"concise": "Умение. (8 сек) Вы блокируете следующую рукопашную атаку, а нападавший получит 20...80 ед. урона. Не действует, если вы не вооружены мечом."
+			},
+			"bork": {
+				"name": "Reepuste-a",
+				"description": "Skeell. Fur 8 secunds, vheele-a yuoo haefe-a a svurd iqooeepped, yuoo bluck zee next melee-a aettaeck aegaeeenst yuoo und yuoor aettaecker is stroock fur 20...80 daemaege-a.",
+				"concise": "Skeell. (8 secunds.) Yuoo bluck zee next melee-a aettaeck und yuoor aettaecker taekes 20...80 daemaege-a. Nu iffffect unless yuoo haefe-a a svurd iqooeepped."
 			}
 		}
 	}

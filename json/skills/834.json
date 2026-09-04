@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失心疯",
+				"description": "负面魔法。 在6...12秒之内，使目标敌人及邻近他的所有我方敌人同时遭受此「负面魔法」，使他们的攻击速度提高25%，但是有50%的几率攻击失误。",
+				"concise": "负面魔法。 在6...12秒之内，目标敌人及其附近的所有敌人同时遭受此「负面魔法」，使他们的攻击速度提高 25%，但是攻击命中率下降 50%。"
+			},
+			"cht": {
+				"name": "失心瘋",
+				"description": "降咒魔法： 持續6...12秒，使目標敵人及其鄰近的所有敵人同時遭受此「降咒」，使他們的攻擊速度加快 25% ，但是卻有 50% 的機率發生攻擊失誤。",
+				"concise": "降咒魔法： 持續6...12秒，使目標敵人及其鄰近的所有敵人同時遭受此「降咒」，使他們的攻擊速度加快 25% ，但是卻有 50% 的機率發生攻擊失誤。"
+			},
 			"de": {
+				"name": "Rücksichtslose Hast",
+				"description": "Verhexung. 6...12 Sekunde[n] lang werden der Gegner und alle umstehenden Feinde mit Rücksichtsloser Hast verhext. Während dieser Zeit greifen sie um 25% schneller an, es besteht jedoch eine 50%ige Chance, dass ihre Angriffe nicht treffen.",
+				"concise": "Verhexung. Verhext den Gegner und umstehende Feinde (6...12 Sekunde[n]). Die Angriffe der Gegner gehen mit 50%iger Wahrscheinlichkeit daneben, sie greifen jedoch um 25% schneller an."
+			},
+			"de-guildwiki": {
 				"name": "Rücksichtslose Hast",
 				"description": "6...12 Sekunden lang werden der Gegner und alle umstehenden Feinde mit Rücksichtsloser Hast verhext. Während dieser Zeit greifen sie um 25% schneller an, es besteht jedoch eine 50%ige Chance, dass ihre Angriffe nicht treffen.",
 				"concise": "Verhext den Gegner und umstehende Feinde (6...12 Sekunden). Die Angriffe der Gegner gehen mit 50%iger Wahrscheinlichkeit daneben, sie greifen jedoch um 25% schneller an."
 			},
 			"en": {
 				"name": "Reckless Haste",
+				"description": "Hex Spell. For 6...12 seconds, target foe and all adjacent foes are hexed with Reckless Haste. While hexed, they attack 25% faster but have a 50% chance to miss with attacks.",
+				"concise": "Hex Spell. Also hexes foes adjacent to your target (6...12 seconds). These foes have 50% chance to miss, but attack 25% faster."
+			},
+			"en-gww": {
+				"name": "Reckless Haste",
 				"description": "For 6...12 seconds, target foe and all adjacent foes are hexed with Reckless Haste. While hexed, they attack 25% faster but have a 50% chance to miss with attacks.",
 				"concise": "Also hexes foes adjacent to your target (6...12 seconds). These foes have 50% chance to miss, but attack 25% faster."
 			},
+			"es": {
+				"name": "Prisa temeraria",
+				"description": "Conjuro con maleficio. Durante 6...12 segundos, el enemigo objetivo y los adyacentes recibirán el maleficio Prisa temeraria. Mientras éste dure, atacarán un 25% más deprisa pero tendrán un 50% de posibilidades de fallar en sus ataques.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos adyacentes a tu objetivo (6...12 segundos). Tienen un 50% de probabilidades de fallar, pero atacan un 25% más deprisa."
+			},
 			"fr": {
+				"name": "Extrême hâte",
+				"description": "Maléfice. Pendant 6...12 secondes, la cible visée et tous les ennemis adjacents subissent les effets du maléfice Extrême hâte. Pendant ce temps, ils attaquent 25% plus vite mais ont 50% de chances de manquer leurs attaques.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à votre cible (6...12 secondes). Ces derniers ont 50% de chances d'échouer mais attaquent 25% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Extrême hâte",
 				"description": "Pendant 6...12 secondes, la cible visée et tous les ennemis adjacents subissent les effets du maléfice Extrême hâte. Pendant ce temps, ils attaquent 25% plus vite mais ont 50% de chances de manquer leurs attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta Avventata",
+				"description": "Fattura. Dura 6...12 secondo[i]; l'obiettivo nemico e tutti i nemici adiacenti sono colpiti dalla Fretta Avventata. Mentre sono affetti da questa fattura, la loro velocità d'attacco aumenta del 25%, ma hanno un 50% di probabilità di mancare l'obiettivo se usano gli attacchi.",
+				"concise": "Fattura. Infligge fattura anche ai nemici adiacenti all'obiettivo (6...12 secondo[i]). Questi nemici hanno un 50% di probabilità di mancare ma una velocità d'attacco superiore del 25%."
+			},
+			"jp": {
+				"name": "レックレス ヘイスト",
+				"description": "弱体化スペル： 6...12 秒間、ターゲットした敵および隣接するすべての敵は攻撃速度が25%増加しますが、50% の確率で攻撃に失敗します。",
+				"concise": "弱体化スペル： (6...12 秒) ターゲットした敵および隣接する敵は 50% の確率で攻撃に失敗しますが、攻撃速度は25%増加します。"
+			},
+			"kr": {
+				"name": "무모한 빠름",
+				"description": "약화 마법. 대상 지정: 적. 6...12초 동안 대상과 그에 인접한 모든 적의 공격 속도가 25% 빨라집니다. 대신 공격에 실패할 확률이 50% 증가합니다.",
+				"concise": "약화 마법. (6...12초) 대상과 그에 인접한 적들이 공격에 실패할 확률이 50% 증가하는 대신 공격 속도가 25% 빨라집니다."
+			},
+			"pl": {
+				"name": "Nieostrożny Pośpiech",
+				"description": "Klątwa (czar). Przez 6...12 sek. wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim znajdują się pod działaniem klątwy Nieostrożny Pośpiech. Pod wpływem klątwy atakują o 25% szybciej, ale mają 50% szans na nietrafiony atak.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy twoim celu (6...12 sek.). Ci przeciwnicy mają 50% szans na nietrafianie, ale atakują o 25% szybciej."
+			},
+			"ru": {
+				"name": "Reckless Haste",
+				"description": "Заклинание-проклятье. В течение 6...12 сек на выбранного противника и всех окружающих его противников будет наложено проклятье Reckless Haste. Под его действием противники атакуют на 25% быстрее, но получают 50%-й шанс промахнуться в атаке.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на окружающих вашу цель противников (6...12 сек). Эти противники получают 50%-й шанс промахнуться, но атакуют на 25% быстрее."
+			},
+			"bork": {
+				"name": "Reckless Haeste-a",
+				"description": "Hex Spell. Fur 6...12 secunds, taerget fue-a und aell aedjaecent fues aere-a hexed veet Reckless Haeste-a. Vheele-a hexed, zeey aettaeck 25% faester boot haefe-a a 50% chunce-a tu meess veet aettaecks.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu yuoor taerget (6...12 secunds). Zeese-a fues haefe-a 50% chunce-a tu meess, boot aettaeck 25% faester."
 			}
 		}
 	}

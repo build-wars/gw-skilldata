@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "残暴之躯",
+				"description": "武咒。 使目标盟友拥有残暴之躯。在10...40秒之内，如果该盟友身上没有「增益魔法」，其对敌人造成的攻击伤害将提高 5...15 。",
+				"concise": "武咒。 使目标盟友拥有残暴之躯。在10...40秒之内，如果该盟友身上没有「增益魔法」，其对敌人造成的攻击伤害将提高 5...15 。"
+			},
+			"cht": {
+				"name": "殘暴武裝",
+				"description": "武裝魔法： 使目標盟友擁有殘暴武裝。在 10...40 秒內，若該盟友身上沒有「加持」，其對敵人造成的攻擊傷害將增加 5...15 。",
+				"concise": "武裝魔法： 使目標盟友擁有殘暴武裝。在 10...40 秒內，若該盟友身上沒有「加持」，其對敵人造成的攻擊傷害將增加 5...15 。"
+			},
 			"de": {
+				"name": "Grausame Waffe",
+				"description": "Waffenzauber. Gebt dem Verbündeten (bzw. Euch selbst) 10...40 Sekunde[n] lang eine Grausame Waffe. Solange der Träger mit keiner Verzauberung belegt ist, fügt die Waffe +5...15 Punkt[e] Schaden zu.",
+				"concise": "Waffenzauber. 10...40 Sekunde[n]: Angriffe richten +5...15 Punkt[e] Schaden an. Keine Wirkung, während der Verbündete (bzw. Ihr selbst) verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Grausame Waffe",
 				"description": "Gebt dem Verbündeten (bzw. Euch selbst) 10...40 Sekunden lang eine Grausame Waffe. Solange der Träger mit keiner Verzauberung belegt ist, fügt die Waffe +5...15 Punkte Schaden zu.",
 				"concise": "10...40 Sekunden: Angriffe richten +5...15 Punkte Schaden an. <gray>Keine Wirkung, während der Verbündete (bzw. Ihr selbst) verzaubert ist.</gray>"
 			},
 			"en": {
 				"name": "Brutal Weapon",
+				"description": "Weapon Spell. Give target ally a Brutal Weapon for 10...40 seconds. The bearer's weapon strikes for +5...15 damage as long as the bearer is under no enchantments.",
+				"concise": "Weapon Spell. (10...40 seconds.) Attacks deal +5...15 damage. No effect while target ally is enchanted."
+			},
+			"en-gww": {
+				"name": "Brutal Weapon",
 				"description": "Give target ally a Brutal Weapon for 10...40 seconds. The bearer's weapon strikes for +5...15 damage as long as the bearer is under no enchantments.",
 				"concise": "(10...40 seconds.) Attacks deal +5...15 damage. <gray>No effect while target ally is enchanted.</gray>"
 			},
+			"es": {
+				"name": "Arma brutal",
+				"description": "Conjuro con arma. Le das al objetivo (un aliado o tú mismo) un Arma brutal durante 10...40 segundos, con la que hará +5...15 de daño al golpear siempre que no tenga ningún encantamiento.",
+				"concise": "Conjuro con arma. (10...40 segundos). Los ataques hacen +5...15 de daño. No tiene efecto si el aliado objetivo está encantado."
+			},
 			"fr": {
+				"name": "Arme brute",
+				"description": "Sort d'altération d'arme. Donne à la cible (un allié ou vous-même) une Arme brute pendant 10...40 secondes. Le porteur de l'arme inflige +5...15 points de dégâts tant qu'il n'est pas sous l'effet d'un enchantement.",
+				"concise": "Sort d'altération d'arme. (10...40 secondes.) Les attaques infligent +5...15 points de dégâts. Aucun effet si l'allié visé est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Arme brute",
 				"description": "Donne à la cible (un allié ou vous-même) une Arme brute pendant 10...40 secondes. Le porteur de l'arme inflige +5...15 points de dégâts tant qu'il n'est pas sous l'effet d'un enchantement.",
 				"concise": "(10...40 secondes.) Les attaques infligent +5...15 points de dégâts. <gray>Aucun effet si l'allié visé est enchanté.</gray>"
+			},
+			"it": {
+				"name": "Arma Brutale",
+				"description": "Magia Altera-arma. Dai all'obiettivo (un alleato o te stesso) un'Arma Brutale per 10...40 secondo[i]; chi la riceve potrà infliggere +5...15 danno[i] purché non sia sotto l'effetto di incantesimi.",
+				"concise": "Magia Altera-arma. (Secondi: 10...40) Danni inferti dagli attacchi: +5...15. Non ha effetto mentre l'obiettivo alleato è sotto incantesimo."
+			},
+			"jp": {
+				"name": "ブルータル ウェポン",
+				"description": "ウェポン スペル： 10...40 秒間、ターゲットした味方は他の強化スペルがかけられていない間、攻撃が成功すると 5...15 の追加ダメージを与えます。",
+				"concise": "ウェポン スペル： (10...40 秒) 5...15 の追加ダメージを与えます。ターゲットした味方に強化スペルがかけられている場合は無効です。"
+			},
+			"kr": {
+				"name": "야만스런 무기",
+				"description": "마법 무기. 대상 지정: 아군. 10...40초 동안 \"야만스런 무기\" 효과를 얻습니다. 대상에 걸린 강화 마법이 없으면 대상의 무기는 공격할 때 5...15의 대미지를 추가로 줍니다.",
+				"concise": "마법 무기. (10...40초) 5...15의 대미지를 추가로 줍니다. 대상에 걸린 강화 마법이 없어야 합니다."
+			},
+			"pl": {
+				"name": "Brutalny Oręż",
+				"description": "Czar z broni. Na 10...40 sek. wybrany sojusznik otrzymuje Brutalny Oręż. Dzierżący ten oręż zadaje +5...15 pkt. obrażeń tak długo, jak nie ma na sobie żadnego zaklęcia.",
+				"concise": "Czar z broni. (10...40 sek.) Ataki zadają +5...15 pkt. obrażeń. Bez efektu, kiedy wybrany sojusznik jest pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Brutal Weapon",
+				"description": "Оружейное заклинание. Дает выбранному союзнику Brutal Weapon на 10...40 сек. Оружие этого союзника будет наносить на 5...15 ед. урона больше до тех пор, пока на выбранного союзника не будут наложены какие-либо чары.",
+				"concise": "Оружейное заклинание. (10...40 сек) Атаки наносят дополнительно 5...15 ед. урона. Не действует, если на выбранного союзника наложены чары."
+			},
+			"bork": {
+				"name": "Brootael Veaepun",
+				"description": "Veaepun Spell. Geefe-a taerget aelly a Brootael Veaepun fur 10...40 secunds. Zee beaerer's veaepun streekes fur +5...15 daemaege-a aes lung aes zee beaerer is under nu inchuntments.",
+				"concise": "Veaepun Spell. (10...40 secunds.) Aettaecks deael +5...15 daemaege-a. Nu iffffect vheele-a taerget aelly is inchunted."
 			}
 		}
 	}

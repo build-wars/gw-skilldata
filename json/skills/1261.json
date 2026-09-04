@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰甲术",
+				"description": "增益魔法。 在10...25秒之内，使你的物理护甲值提高10...40点，并对「灼烧」症状免疫。",
+				"concise": "增益魔法。 在10...25秒之内，使你的物理护甲值提高10...40点，并对「灼烧」症状免疫。"
+			},
+			"cht": {
+				"name": "冰凍護甲",
+				"description": "加持魔法： 持續 10...25 秒，使你對物理攻擊的防禦增加 10...40 而且不會遭受「著火」病症。",
+				"concise": "加持魔法： 持續 10...25 秒，使你對物理攻擊的防禦增加 10...40 而且不會遭受「著火」病症。"
+			},
 			"de": {
+				"name": "Kalte Rüstung",
+				"description": "Verzauberung. 10...25 Sekunde[n] lang habt Ihr +10...40 Rüstung gegen physischen Schaden und könnt nicht in Brand gesetzt werden.",
+				"concise": "Verzauberung. (10...25 Sekunde[n].) Ihr habt +10...40 Rüstung gegen physischen Schaden und seid immun gegen Brennen."
+			},
+			"de-guildwiki": {
 				"name": "Kalte Rüstung",
 				"description": "10...25 Sekunden lang habt Ihr +10...40 Rüstung gegen physischen Schaden und könnt nicht in Brand gesetzt werden.",
 				"concise": "10...25 Sekunden: Ihr habt +10...40 Rüstung gegen physischen Schaden und seid immun gegen Brennen."
 			},
 			"en": {
 				"name": "Frigid Armor",
+				"description": "Enchantment Spell. For 10...25 seconds, you have +10...40 armor against physical damage and cannot be set on fire.",
+				"concise": "Enchantment Spell. (10...25 seconds.) You have +10...40 armor against physical damage and immunity to Burning."
+			},
+			"en-gww": {
+				"name": "Frigid Armor",
 				"description": "For 10...25 seconds, you have +10...40 armor against physical damage and cannot be set on fire.",
 				"concise": "(10...25 seconds.) You have +10...40 armor against physical damage and immunity to Burning."
 			},
+			"es": {
+				"name": "Armadura frígida",
+				"description": "Conjuro con encantamiento. Durante 10...25 segundos, ganas +10...40 de armadura contra daño físico y no puedes arder.",
+				"concise": "Conjuro con encantamiento. (10...25 segundos). Tienes +10...40 de armadura contra daño físico e inmunidad contra quemaduras."
+			},
 			"fr": {
+				"name": "Armure glaciale",
+				"description": "Enchantement. Pendant 10...25 secondes, vous bénéficiez de +10...40 de bonus d'armure contre les dégâts physiques et vous ne pouvez pas être embrasé.",
+				"concise": "Enchantement. (10...25 secondes.) Vous bénéficiez d'un bonus d'armure de +10...40 contre les dégâts physiques et d'une immunité contre la Brûlure."
+			},
+			"fr-gwiki": {
 				"name": "Armure glaciale",
 				"description": "Pendant 10...25 secondes, vous bénéficiez de +10...40 de bonus d'armure contre les dégâts physiques et vous ne pouvez pas être embrasé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armatura Glaciale",
+				"description": "Incantesimo. Per 10...25 secondi, hai +10...40 di armatura contro il danno fisico e non subisci Bruciatura.",
+				"concise": "Incantesimo. (Secondi: 10...25.) Armatura contro il danno fisico: +10...40; sei immune dalla Bruciatura."
+			},
+			"jp": {
+				"name": "フリジッド アーマー",
+				"description": "強化スペル： 10...25 秒間、物理ダメージに対する防御力が 10...40 増加し、「火傷」状態になりません。",
+				"concise": "強化スペル： (10...25 秒) 物理ダメージに対する防御力が 10...40 増加し、「火傷」状態になりません。"
+			},
+			"kr": {
+				"name": "냉기 갑옷",
+				"description": "강화 마법. 대상 지정: 없음. 10...25초 동안 물리 대미지에 대한 방어력이 10...40 증가하고, 화상 상태가 되지 않습니다.",
+				"concise": "강화 마법. (10...25초) 물리 대미지에 대한 방어력이 10...40 증가하고, 화상을 입지 않습니다."
+			},
+			"pl": {
+				"name": "Lodowata Zbroja",
+				"description": "Zaklęcie (czar). Na 10...25 sek., otrzymujesz +10...40 punktów pancerza przeciwko obrażeniom fizycznym i nie możesz w tym czasie zostać podpalony.",
+				"concise": "Zaklęcie (czar). (10...25 sek.) Otrzymujesz +10...40 pkt. pancerza przeciwko obrażeniom fizycznym i niewrażliwość na płonięcie."
+			},
+			"ru": {
+				"name": "Frigid Armor",
+				"description": "Заклинание-чары. На 10...25 сек ваша защита от физического урона увеличивается на 10...40 ед., и вы не можете загореться.",
+				"concise": "Заклинание-чары. (10...25 сек) Вы получаете +10...40 ед. к защите от физического урона и не можете загореться."
+			},
+			"bork": {
+				"name": "Freegeed Aermur",
+				"description": "Inchuntment Spell. Fur 10...25 secunds, yuoo haefe-a +10...40 aermur aegaeeenst physeecael daemaege-a und cunnut be-a set oon fure-a.",
+				"concise": "Inchuntment Spell. (10...25 secunds.) Yuoo haefe-a +10...40 aermur aegaeeenst physeecael daemaege-a und immooneety tu Boorneeng."
 			}
 		}
 	}

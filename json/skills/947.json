@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "荆棘",
+				"description": "自然仪式。 创造一只等级为1...10的荆棘精灵。任何在区域内被击倒的人，将受到伤害 5 并遭受「流血」症状 1...10 秒。荆棘精灵在30...240秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的荆棘精灵。任何在区域内被击倒的人，将受到伤害 5 并遭受「流血」症状 1...10 秒。荆棘精灵在30...240秒后消失。"
+			},
+			"cht": {
+				"name": "荊棘",
+				"description": "自然儀式： 創造一隻等級 1...10 的刺藤精靈。任何在區域內被擊倒的人，將受到傷害 5 並遭受「流血」病症 5...20 秒。荊棘精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的刺藤精靈。任何在區域內被擊倒的人，將受到傷害 5 並遭受「流血」病症 5...20 秒。荊棘精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Dornenranken",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Kreaturen, die keine Geister sind und in seiner Reichweite zu Boden geworfen werden, erleiden 5 Schadenspunkte und leiden 5...20 Sekunde[n] lang an einer Blutung. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Zu Boden geworfene Kreaturen erleiden 5 Punkte Schaden und beginnen zu bluten (5...20 Sekunde[n]). Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Dornenranken",
 				"description": "Erstellt einen Geist der Stufe 1...10. Kreaturen, die keine Geister sind und in seiner Reichweite zu Boden geworfen werden, erleiden 5 Schadenspunkte und leiden 5...20 Sekunden lang an einer Blutung. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Zu Boden geworfene Kreaturen erleiden 5 Punkte Schaden und beginnen zu bluten (5...20 Sekunden). Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Brambles",
+				"description": "Nature Ritual. Create a level 1...10 spirit. Non-spirit creatures that are knocked down in its range take 5 damage and begin Bleeding for 5...20 seconds. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Knocked-down creatures take 5 damage and begin Bleeding (5...20 seconds). Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Brambles",
 				"description": "Create a level 1...10 Spirit. Non-Spirit creatures that are knocked down in its range take 5 damage and begin Bleeding for 5...20 seconds. This Spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Knocked-down creatures take 5 damage and begin Bleeding (5...20 seconds). Does not affect spirits."
 			},
+			"es": {
+				"name": "Zarzas",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Cuando alguna criatura no espíritu de la zona sea derribada, recibirá 5 de daño y sufrirá una hemorragia durante 5...20 segundos. El espíritu morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10 (30...240 segundos de vida). Las criaturas derribadas reciben 5 de daño y sufren hemorragia (5...20 segundos). No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Ronces",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Toute créature (autre qu'un esprit) assommée dans sa portée subit 5 points de dégâts et est prise de Saignements pendant 5...20 secondes. Cet esprit meurt après 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Les créatures assommées subissent 5 points de dégâts et sont prises de Saignement (5...20 secondes). N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Ronces",
 				"description": "Crée un esprit de niveau 1...10. Toute créature (autre qu'un esprit) assommée dans sa portée subit 5 points de dégâts et est prise de Saignements pendant 5...20 secondes. Cet esprit meurt après 30...240 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rovi",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Le creature nella sua portata (Spiriti esclusi) che vengono abbattute subiscono 5 danni ed iniziano a sanguinare per 5...20 secondo[i]. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Le creature abbattute ricevono 5 danni e soffrono di Emorragia (5...20 secondo[i]). Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ブランブルス",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、転倒した精霊以外の生物は5のダメージを受け、5...20 秒間「出血」状態になります。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。転倒中の生物に5のダメージを与え、「出血」状態にします (5...20 秒)。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "가시밭 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체가 넘어지면 5의 대미지를 입고, 5...20초 동안 출혈 상태가 됩니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 바닥에 넘어진 생물체는 5의 대미지를 입고, 출혈을 일으킵니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Ciernie",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Każde stworzenie nie-duch, które zostanie powalone w jego zasięgu otrzyma 5 pkt. obrażeń i będzie krwawić przez 5...20 sek. Ten duch ginie po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Powalone stworzenia otrzymują po 5 pkt. obrażeń i zaczynają krwawić (5...20 sek.). Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Brambles",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Все создания, находящиеся в зоне его действия и не являющиеся духами, которые будут сбиты с ног, получат 5 ед. урона и будут кровоточить в течение 5...20 сек. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Сбитые с ног создания получают 5 ед. урона и начинают кровоточить (5...20 сек). Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Braembles",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Nun-spureet creaetoores thaet aere-a knucked doon in its runge-a taeke-a 5 daemaege-a und begeen Bleedeeng fur 5...20 secunds. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Knucked-doon creaetoores taeke-a 5 daemaege-a und begeen Bleedeeng (5...20 secunds). Dues nut aeffffect spureets."
 			}
 		}
 	}

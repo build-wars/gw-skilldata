@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"你落单了！\"",
+				"description": "精英战吼。 如果目标敌人附近没有他的友方，则使其遭受「致残」和「虚弱」症状8秒。",
+				"concise": "精英战吼。 如果目标敌人附近没有他的友方，则使其遭受「致残」和「虚弱」症状8秒。"
+			},
+			"cht": {
+				"name": "「你落單了！」",
+				"description": "精英戰嚎： 若目標敵人的盟友不在其「附近」範圍內，則使該目標遭受「殘廢」及「虛弱」病症 8 秒。",
+				"concise": "精英戰嚎： 若目標敵人的盟友不在其「附近」範圍內，則使該目標遭受「殘廢」及「虛弱」病症 8 秒。"
+			},
 			"de": {
+				"name": "\"Ihr seid ganz allein!\"",
+				"description": "Elite-Schrei. Wenn sich der Gegner nicht in der Nähe eines Verbündeten befindet, leidet er 8 Sekunde[n] lang an einer Verkrüppelung und an Schwäche.",
+				"concise": "Elite-Schrei. Verursacht Zustände Verkrüppelung und Schwäche (8 Sekunde[n]). Keine Wirkung, falls der Gegner in der Nähe eines seiner Verbündeten ist."
+			},
+			"de-guildwiki": {
 				"name": "\"Ihr seid ganz allein!\"",
 				"description": "Wenn sich der Gegner nicht in der Nähe eines Verbündeten befindet, leidet er 8 Sekunden lang an einer Verkrüppelung und an Schwäche.",
 				"concise": "Verursacht Zustände Verkrüppelung und Schwäche (8 Sekunden). <gray>Keine Wirkung, falls der Gegner in der Nähe eines seiner Verbündeten ist.</gray>"
 			},
 			"en": {
 				"name": "\"You're All Alone!\"",
+				"description": "Elite Shout. If target foe isn't near an ally, that foe suffers from Cripple and Weakness for 8 seconds.",
+				"concise": "Elite Shout. Inflicts Cripple and Weakness conditions (8 seconds). No effect if target foe is near one of its allies."
+			},
+			"en-gww": {
+				"name": "\"You're All Alone!\"",
 				"description": "If target foe isn't near an ally, that foe suffers from Cripple and Weakness for 8 seconds.",
 				"concise": "Inflicts Cripple and Weakness conditions (8 seconds). <gray>No effect if target foe is near one of its allies.</gray>"
 			},
+			"es": {
+				"name": "\"¡Te han abandonado!\"",
+				"description": "Grito de élite. Si el enemigo objetivo no se encuentra cerca de un aliado, quedará lisiado y debilitado durante 8 segundos.",
+				"concise": "Grito de élite. Causa lisiadura y debilitamiento (8 segundos). No funciona si el enemigo objetivo está cercano a alguno de sus aliados."
+			},
 			"fr": {
+				"name": "\"Vous êtes seul !\"",
+				"description": "Cri d'élite. Si l'ennemi ciblé n'est pas proche d'un allié, cet ennemi souffre d'Infirmité et de Faiblesse pendant 8 secondes.",
+				"concise": "Cri d'élite. Inflige l'Infirmité et la Faiblesse (8 secondes). Aucun effet si l'ennemi visé est près d'un de ses alliés."
+			},
+			"fr-gwiki": {
 				"name": "\"Vous êtes seul !\"",
 				"description": "Si l'ennemi ciblé n'est pas proche d'un allié, cet ennemi souffre d'Infirmité et de Faiblesse pendant 8 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Sei Rimasto Solo!\"",
+				"description": "Urlo d'Élite. Se l'obiettivo nemico non è vicino ad un alleato subisce Storpiatura e Debolezza per 8 secondo[i].",
+				"concise": "Urlo d'Élite. Condizioni inflitte: Storpiatura e Debolezza (8 secondo[i]). Non ha effetto se l'obiettivo nemico è vicino ad uno dei suoi alleati."
+			},
+			"jp": {
+				"name": "オール アローン！",
+				"description": "エリート シャウト： ターゲットした敵の周囲にターゲット自身の味方がいない場合、その敵は 8 秒間「不自由」および「衰弱」状態になります。",
+				"concise": "エリート シャウト： 「不自由」および「衰弱」状態にします (8 秒) 。ターゲットした敵の周囲にターゲット自身の味方がいる場合は無効です。"
+			},
+			"kr": {
+				"name": "넌 혼자다!",
+				"description": "엘리트 고함. 대상 지정: 적. 대상이 동료 부근에 있지 않으면 8초 동안 다리 부상과 약체 상태가 됩니다.",
+				"concise": "엘리트 고함. 다리 부상을 입히고, 약체로 만듭니다.(8초) 대상 부근에 적이 하나라도 있어야 합니다."
+			},
+			"pl": {
+				"name": "\"Jesteś Sam!\"",
+				"description": "Elitarny okrzyk. Jeśli wybrany przeciwnik nie jest w pobliżu sojusznika, to na 8 sek. zostaje okulawiony i osłabiony.",
+				"concise": "Elitarny okrzyk. Wywołuje przypadłości okulawienie oraz osłabienie (8 sek.). Bez efektu, jeżeli wybrany przeciwnik jest w pobliżu jednego ze swoich sojuszników."
+			},
+			"ru": {
+				"name": "\"You're All Alone!\"",
+				"description": "Элитный крик. Если выбранный противник не стоит рядом со своим союзником, то он будет хромать и будет поражен слабостью в течение 8 сек.",
+				"concise": "Элитный крик. Вызывает хромоту и слабость (8 сек). Не действует, если поблизости от выбранного противника есть его союзник."
+			},
+			"bork": {
+				"name": "\"Yuoo're-a Aell Aelune-a!\"",
+				"description": "Ileete-a Shuoot. Iff taerget fue-a isn't neaer un aelly, thaet fue-a sooffffers frum Creepple-a und Veaekness fur 8 secunds.",
+				"concise": "Ileete-a Shuoot. Inffleects Creepple-a und Veaekness cundeeshuns (8 secunds). Nu iffffect iff taerget fue-a is neaer oone-a ooff its aelleees."
 			}
 		}
 	}

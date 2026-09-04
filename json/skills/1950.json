@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "腐化纹章",
+				"description": "纹章。 使目标敌人和所有他附近的我方敌人受到20...30点伤害。如果他们有人正遭受「症状」或是「负面魔法」，每一个人可以使你获得2点能量值（最多可以获得12...20点能量值）。",
+				"concise": "纹章。 使目标敌人和所有他附近的我方敌人受到20...30点伤害。如果他们有人正遭受「症状」或是「负面魔法」，每一个人可以使你获得2点能量值（最多可以获得12...20点能量值）。"
+			},
+			"cht": {
+				"name": "腐化紋章",
+				"description": "紋章： 使目標敵人及其附近的所有敵人受到 20...30 傷害；每一名正遭受「病症」或「降咒」的敵人，使你獲得 2 能量 (最多 12...20 能量)。",
+				"concise": "紋章： 使目標敵人及其附近的所有敵人受到 20...30 傷害；每一名正遭受「病症」或「降咒」的敵人，使你獲得 2 能量 (最多 12...20 能量)。"
+			},
 			"de": {
+				"name": "Siegel der Verdorbenheit",
+				"description": "Siegel. Der Gegner und alle Feinde in der Nähe erleiden 20...30 Punkte Schaden. Pro betroffenen Feind, der unter einem Zustand oder einer Verhexung leidet, erhaltet Ihr 2 Punkt[e] Energie (maximal 12...20 Punkt[e]).",
+				"concise": "Siegel. Richtet beim Gegner und Feinden in der Nähe 20...30 Punkt[e] Schaden an. Ihr erhaltet für jeden dieser Gegner mit einem Zustand oder einer Verhexung 2 Energiepunkt[e] (maximal 12...20)."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Verdorbenheit (Luxon)",
 				"description": "Der Gegner und alle Feinde in der Nähe erleiden 20...30 Punkte Schaden. Pro betroffenen Feind, der unter einem Zustand oder einer Verhexung leidet, erhaltet Ihr 2 Punkte Energie (maximal 12...20 Punkte).",
 				"concise": "Richtet beim Gegner und Feinden in der Nähe 20...30 Punkte Schaden an. Ihr erhaltet für jeden dieser Gegner mit einem Zustand oder einer Verhexung 2 Energiepunkte (maximal 12...20)."
 			},
 			"en": {
+				"name": "Signet of Corruption",
+				"description": "Signet. Target foe and all nearby foes take 20...30 damage. For each affected foe suffering from a condition or hex, you gain 2 Energy (maximum 12...20 Energy).",
+				"concise": "Signet. Deals 20...30 damage to target and nearby foes. You gain 2 Energy (maximum 12...20) for each of these foes with a condition or hex."
+			},
+			"en-gww": {
 				"name": "Signet of Corruption (Luxon)",
 				"description": "Target foe and all nearby foes take 20...30 damage. For each affected foe suffering from a condition or hex, you gain 2 Energy (maximum 12...20 Energy).",
 				"concise": "Deals 20...30 damage to target and nearby foes. You gain 2 Energy (maximum 12...20) for each of these foes with a condition or hex."
 			},
+			"es": {
+				"name": "Sello de corrupción",
+				"description": "Sello. Haces 20...30 de daño al enemigo objetivo y todos los cercanos. Por cada enemigo que tenga una condición o maleficio, ganas 2 de energía (máximo 12...20 de energía).",
+				"concise": "Sello. Hace 20...30 de daño al enemigo objetivo y los cercanos. Ganas 2 de energía (máximo 12...20) por cada uno de esos enemigos que tenga una condición o maleficio."
+			},
 			"fr": {
+				"name": "Sceau de corruption",
+				"description": "Sceau. La cible ennemie et tous les ennemis à proximité subissent 20...30 points de dégâts. Pour chaque ennemi affecté souffrant d'une condition ou d'un maléfice, vous gagnez 2 points d'énergie (12...20 points d'énergie maximum).",
+				"concise": "Sceau. Inflige 20...30 points de dégâts à la cible et aux ennemis à proximité. Vous gagnez 2 points d'énergie (maximum : 12...20) pour chacun de ces ennemis souffrant d'une condition ou d'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de corruption (Luxon)",
 				"description": "La cible ennemie et tous les ennemis à proximité subissent 20...30 points de dégâts. Pour chaque ennemi affecté souffrant d'une condition ou d'un maléfice, vous gagnez 2 points d'énergie (12...20 points d'énergie maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Corruzione",
+				"description": "Sigillo. L'obiettivo nemico e tutti i nemici nei dintorni subiscono 20...30 danno[i]; per ogni nemico affetto da una condizione o da una fattura ottieni 2 Punto[i] Energia (max. 12...20 Punto[i] Energia).",
+				"concise": "Sigillo. Danni all'obiettivo e ai nemici nei dintorni: 20...30. Energia ottenuta per ognuno di questi nemici affetti da condizione o fattura: 2 (max 12...20)."
+			},
+			"jp": {
+				"name": "コラプション シグネット",
+				"description": "シグネット： ターゲットした敵および周囲にいるすべての敵に 20...30 のダメージを与えます。「状態異常」または弱体化スペルをかけられている敵ごとに、プレイヤーは 2 のエネルギーを獲得します (最大 12...20 のエネルギー)。",
+				"concise": "シグネット： ターゲットおよび周囲にいる敵に 20...30 のダメージを与えます。「状態異常」または弱体化スペルがかけられている敵ごとに、プレイヤーは 2 のエネルギーを獲得します (最大 12...20)。"
+			},
+			"kr": {
+				"name": "타락 인장",
+				"description": "인장. 대상 지정: 적. 대상과 그 부근의 모든 적에게 20...30의 대미지를 줍니다. 자신은 상태 이상이나 약화 마법에 걸려 있는 적 하나당 2씩, 최대12...20의 에너지를 얻습니다.",
+				"concise": "인장. 대상과 그 부근의 적들에게 20...30의 대미지를 줍니다. 자신은 상태 이상이나 약화 마법에 걸려 있는 적 하나당 2씩, 최대12...20의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Zepsucia",
+				"description": "Sygnet. Wybrany przeciwnik oraz wszyscy przeciwnicy w pobliżu otrzymują po 20...30 pkt. obrażeń. Za każdego z tych przeciwników będącego pod wpływem przypadłości lub klątwy, otrzymujesz 2 pkt. energii (maksymalnie 12...20 pkt.).",
+				"concise": "Sygnet. Wybranemu przeciwnikowi i przeciwnikom w pobliżu zadaje po 20...30 pkt. obrażeń. Otrzymujesz 2 pkt. energii (maksymalnie 12...20) za każdego z tych przeciwników, który jest pod działaniem klątwy lub przypadłości."
+			},
+			"ru": {
+				"name": "Signet of Corruption",
+				"description": "Печать. Выбранный противник и все противники поблизости получают 20...30 ед. урона. За каждого пораженного противника, на которого наложено какое-либо состояние или проклятье, вы получаете 2 ед. энергии (но не более 12...20 ед. энергии).",
+				"concise": "Печать. Наносит 20...30 ед. урона цели и противникам поблизости. Вы получаете 2 ед. энергии (но не более 12...20 ед.) за каждого из этих противников, находящегося под действием состояния или проклятья."
+			},
+			"bork": {
+				"name": "Seegnet ooff Curroopshun",
+				"description": "Seegnet. Taerget fue-a und aell neaerby fues taeke-a 20...30 daemaege-a. Fur iaech aeffffected fue-a sooffffereeng frum a cundeeshun oor hex, yuoo gaeeen 2 Inergy (maexeemoom 12...20 Inergy).",
+				"concise": "Seegnet. Deaels 20...30 daemaege-a tu taerget und neaerby fues. Yuoo gaeeen 2 Inergy (maexeemoom 12...20) fur iaech ooff zeese-a fues veet a cundeeshun oor hex."
 			}
 		}
 	}

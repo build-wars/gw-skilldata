@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "悔恨之影",
+				"description": "负面魔法。 使目标敌人遭受 1...3点 「生命衰减」，持续 5...10秒。如果该目标正在进行攻击，则对其造成 10...52点 伤害。",
+				"concise": "负面魔法。 使目标敌人遭受 1...3点 「生命衰减」，持续 5...10秒。如果该目标正在进行攻击，则对其造成 10...52点 伤害。"
+			},
+			"cht": {
+				"name": "悔恨幻象",
+				"description": "降咒魔法： 持續 5...10 秒，使目標敵人遭受 1...3 體力衰減。若該目標正在進行攻擊，則對其造成 10...52 傷害。",
+				"concise": "降咒魔法： 持續 5...10 秒，使目標敵人遭受 1...3 體力衰減。若該目標正在進行攻擊，則對其造成 10...52 傷害。"
+			},
 			"de": {
+				"name": "Bilder der Reue",
+				"description": "Verhexung. 5...10 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er mitten im Angriff war, erleidet er 10...52 Punkt[e] Schaden.",
+				"concise": "Verhexung. 5...10 Sekunde[n]: Verursacht -1...3 Lebenspunktdegeneration. Anfangswirkung: 10...52 Punkt[e] Schaden, falls der Gegner gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Bilder der Reue",
 				"description": "5...10 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er mitten im Angriff war, erleidet er 10...52 Punkte Schaden.",
 				"concise": "5...10 Sekunden: Verursacht -1...3 Lebenspunktdegeneration. Anfangswirkung: 10...52 Punkte Schaden, falls der Gegner gerade angreift."
 			},
 			"en": {
 				"name": "Images of Remorse",
+				"description": "Hex Spell. For 5...10 seconds, target foe suffers -1...3 Health degeneration. If that foe was attacking, that foe takes 10...52 damage.",
+				"concise": "Hex Spell. (5...10 seconds.) Causes -1...3 Health degeneration. Initial effect: 10...52 damage if target foe is attacking."
+			},
+			"en-gww": {
+				"name": "Images of Remorse",
 				"description": "For 5...10 seconds, target foe suffers -1...3 Health degeneration. If that foe was attacking, that foe takes 10...52 damage.",
 				"concise": "(5...10 seconds.) Causes -1...3 Health degeneration. Initial effect: 10...52 damage if target foe is attacking."
 			},
+			"es": {
+				"name": "Imágenes de remordimiento",
+				"description": "Conjuro con maleficio. Durante 5...10 segundos, el enemigo objetivo sufre una degeneración de salud de -1...3. Si estaba atacando, recibirá 10...52 de daño.",
+				"concise": "Conjuro con maleficio. (5...10 segundos). Causa -1...3 de degeneración de salud. Efecto inicial: 10...52 de daño si este enemigo está atacando."
+			},
 			"fr": {
+				"name": "Images d'attrition",
+				"description": "Maléfice. Pendant 5...10 secondes, la cible visée souffre d'une dégénération de santé de -1...3. Si cet ennemi était en train d'attaquer, il subira 10...52 points de dégâts.",
+				"concise": "Maléfice. (5...10 secondes.) Provoque une dégénération de santé de -1...3. Effet initial : 10...52 points de dégâts si la cible ennemie est en train d'attaquer."
+			},
+			"fr-gwiki": {
 				"name": "Images d'attrition",
 				"description": "Pendant 5...10 secondes, la cible visée souffre d'une dégénération de santé de -1...3. Si cet ennemi était en train d'attaquer, il subira 10...52 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Immagini del Rimorso",
+				"description": "Fattura. Per 5...10 secondo[i], l'obiettivo nemico subisce una Degenerazione della Salute di -1...3; se stava attaccando subisce 10...52 danno[i].",
+				"concise": "Fattura. (Secondi: 5...10) Degenerazione Salute: -1...3. Effetto iniziale: 10...52 danno[i] se l'obiettivo nemico sta attaccando."
+			},
+			"jp": {
+				"name": "リモース イメージ",
+				"description": "弱体化スペル： 5...10 秒間、ターゲットした敵は体力の自然回復力が 1...3 減少します。その敵が攻撃中の場合、10...52 のダメージを与えます。",
+				"concise": "弱体化スペル： (5...10 秒) 体力の自然回復力が 1...3 減少します。発動効果： ターゲットした敵が攻撃中の場合、10...52 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "자책의 환상",
+				"description": "약화 마법. 대상 지정: 적. 5...10초 동안 대상의 체력 재생이 1...3 감소합니다. 대상이 공격 중이라면 대상은 10...52의 대미지를 입습니다.",
+				"concise": "약화 마법. (5...10초) 체력 재생을 1...3 감소시킵니다. 초기 효과: 대상이 공격 중이면 10...52의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Wizje Skruchy",
+				"description": "Klątwa (czar). Przez 5...10 sek., wybrany przeciwnik cierpi -1...3 degeneracji żywotności. Jeżeli ten przeciwnik atakował, to otrzymuje 10...52 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (5...10 sek.) Powoduje degenerację żywotności -1...3. Efekt początkowy: 10...52 pkt. obrażeń, jeżeli wybrany przeciwnik atakuje."
+			},
+			"ru": {
+				"name": "Images of Remorse",
+				"description": "Заклинание-проклятье. В течение 5...10 сек скорость восстановления здоровья выбранного противника уменьшается на 1...3 ед. Если этот противник атаковал, он получит 10...52 ед. урона.",
+				"concise": "Заклинание-проклятье. (5...10 сек) Уменьшает на 1...3 ед. скорость восстановления здоровья. Начальный эффект: наносит 10...52 ед. урона, если выбранный противник атакует."
+			},
+			"bork": {
+				"name": "Imaeges ooff Remurse-a",
+				"description": "Hex Spell. Fur 5...10 secunds, taerget fue-a sooffffers -1...3 Heaelt degeneraeshun. Iff thaet fue-a vaes aettaeckeeng, thaet fue-a taekes 10...52 daemaege-a.",
+				"concise": "Hex Spell. (5...10 secunds.) Cooses -1...3 Heaelt degeneraeshun. Ineeteeael iffffect: 10...52 daemaege-a iff taerget fue-a is aettaeckeeng."
 			}
 		}
 	}

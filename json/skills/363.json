@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "盾击",
+				"description": "技能。 5...11秒内，如果处于持盾状态，格挡下一次来袭的近战攻击技能，击倒攻击者并使该技能进入额外15秒冷却。",
+				"concise": "技能。 （5...11秒）格挡下一次近战攻击技能。附带击倒效果，并使该技能冷却时间延长15秒。仅持盾时生效。"
+			},
+			"cht": {
+				"name": "盾擊",
+				"description": "技能： For 5...11 seconds, while wielding a shield, the next melee attack skill used against you is blocked, your attacker is knocked down, and that skill is disabled for an additional 15 seconds.",
+				"concise": "技能： (5...11 seconds.) You block the next melee attack skill. Causes knock-down and +15 second recharge. No effect unless you are wielding a shield."
+			},
 			"de": {
+				"name": "Heftiger Schildschlag",
+				"description": "Fertigkeit. Die nächsten 5...11 Sekunden wird, solange Ihr ein Schild benutzt, die nächste Nahkampfangriff-Fertigkeit geblockt, die gegen Euch eingesetzt wird, der Angreifer wird niedergeschlagen, und die geblockte Fertigkeit kann 15 Sekunden länger nicht eingesetzt werden.",
+				"concise": "Fertigkeit. (5...11 Sekunden.) Ihr blockt die nächste Nahkampfangriff-Fertigkeit. Verursacht Niederschlag und +15 Sekunden Wiederaufladung. Kein Effekt, sofern Ihr keinen Schild benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Heftiger Schildschlag",
 				"description": "Die nächsten 5...11 Sekunden wird, solange Ihr ein Schild benutzt, die nächste Nahkampfangriff-Fertigkeit geblockt, die gegen euch eingesetzt wird, der Angreifer wird niedergeschlagen, und diese Fertigkeit kann 15 Sekunden länger nicht eingesetzt werden.",
 				"concise": "5...11 Sekunden: Ihr blockt die nächste Nahkampfangriff-Fertigkeit. Verursacht Niederschlag und + 15 Sekunden Wiederaufladung. <gray>Kein Effekt, sofern Ihr keinen Schild benutzt.</gray>"
 			},
 			"en": {
 				"name": "Shield Bash",
+				"description": "Skill. For 5...11 seconds, while wielding a shield, the next melee attack skill used against you is blocked, your attacker is knocked down, and that skill is disabled for an additional 15 seconds.",
+				"concise": "Skill. (5...11 seconds.) You block the next melee attack skill. Causes knock-down and +15 second recharge. No effect unless you are wielding a shield."
+			},
+			"en-gww": {
+				"name": "Shield Bash",
 				"description": "For 5...11 seconds, while wielding a shield, the next melee attack skill used against you is blocked, your attacker is knocked down and that skill is disabled for an additional 15 seconds.",
 				"concise": "(5...11 seconds.) You block the next melee attack skill. Causes knock-down and +15 second recharge. <gray>No effect unless you are wielding a shield.</gray>"
 			},
+			"es": {
+				"name": "Golpe de escudo",
+				"description": "Habilidad. Durante 5...11 segundos, si estás llevando un escudo, bloquearás la siguiente habilidad de ataque cuerpo a cuerpo contra ti, tu atacante caerá derribado y esa habilidad quedará desactivada durante 15 segundos adicionales.",
+				"concise": "Habilidad. (5...11 segundos). Bloqueas la siguiente habilidad de ataque cuerpo a cuerpo. Causa derribo y +15 segundos de recarga. No funciona si no llevas un escudo."
+			},
 			"fr": {
+				"name": "Coup de bouclier",
+				"description": "Compétence. Pendant 5...11 secondes, si vous utilisez un bouclier, la prochaine compétence d'attaque au corps à corps utilisée contre vous sera bloquée, votre attaquant sera assommé et sa compétence sera inutilisable pendant 15 secondes supplémentaires.",
+				"concise": "Compétence. (5...11 secondes.) Vous bloquez la compétence d'attaque au corps à corps suivante. Provoque un renversement et +15 secondes de temps de recharge. Aucun effet si vous n'utilisez pas de bouclier."
+			},
+			"fr-gwiki": {
 				"name": "Coup de bouclier",
 				"description": "Pendant 5...11 secondes, si vous utilisez un bouclier, la prochaine compétence d'attaque utilisée contre vous sera bloquée. S'il s'agissait d'une compétence de mêlée, votre attaquant sera assommé et sa compétence sera inutilisable pendant 15 secondes supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo di Scudo",
+				"description": "Abilità. Per 5...11 secondo/i, purché impugni uno scudo, blocchi l'abilità in mischia successiva che subisci, atterri l'attaccante e la sua abilità viene disattivata per 15 secondi in più.",
+				"concise": "Abilità. (5...11 secondo/i) Blocchi l'abilità di attacco successiva. Atterri il nemico e la ricarica della sua abilità aumenta di +15 secondi. Nessun effetto senza scudo."
+			},
+			"jp": {
+				"name": "シールド バッシュ",
+				"description": "スキル： 5...11秒間、盾を振り回し、自分に対する次の近接攻撃スキルがブロックされます。攻撃者はノックダウンされ、そのスキルはさらに15秒間無効になります。",
+				"concise": "スキル： （5...11秒）次の近接攻撃スキルをブロックします。ノックダウンを引き起こし、リチャージが15秒延長されます。盾を振り回さない限り、効果はありません。"
+			},
+			"kr": {
+				"name": "방패 밀치기",
+				"description": "스킬. 대상 지정: 없음. 방패를 장착 중일 때, 5...11초 동안 자신을 대상으로 한 근접 공격 스킬을 막습니다. 공격자는 바닥에 넘어지고, 해당 스킬의 재활성 시간이 15초 늘어납니다.",
+				"concise": "스킬. (5...11초) 다음 근접 공격 스킬을 막습니다. 공격자는 바닥에 넘어지고 해당 스킬의 재활성 시간이 15초 늘어납니다. 방패를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Tarczą",
+				"description": "Umiejętność. Przez 5...11 sek. kiedy trzymasz tarczę, następna umiejętność walki wręcz użyta przeciwko tobie zostanie zablokowana, napastnik zostaje powalony, zaś sama umiejętność staje się niedostępna przez dodatkowe 15 sek.",
+				"concise": "Umiejętność. (5...11 sek.) Blokujesz następną umiejętność walki wręcz. Powoduje powalenie i zwiększa odnowienie tej umiejętności o +15 sek. Bez efektu, jeśli nie dzierżysz tarczy."
+			},
+			"ru": {
+				"name": "Shield Bash",
+				"description": "Умение. В течение 5...11 сек. при использовании щита следующий применённый против вас навык атаки ближнего боя блокируется, атакующий оказывается опрокинутым, а этот навык отключается дополнительно на 15 секунд.",
+				"concise": "Умение. (5...11 сек.) Вы блокируете следующий навык атаки ближнего боя. Атакующий оказывается опрокинут, а время восстановления навыка увеличивается на 15 секунд. Не оказывает эффекта, если вы не используете щит."
+			},
+			"bork": {
+				"name": "Sheeeld Baesh",
+				"description": "Skeell. Fur 5...11 secunds, vheele-a veeeldeeng a sheeeld, zee next melee-a aettaeck skeell used aegaeeenst yuoo is blucked, yuoor aettaecker is knucked doon, und thaet skeell is deesaebled fur un aeddeeshunael 15 secunds.",
+				"concise": "Skeell. (5...11 secunds.) Yuoo bluck zee next melee-a aettaeck skeell. Cooses knuck-doon und +15 secund rechaerge-a. Nu iffffect unless yuoo aere-a veeeldeeng a sheeeld."
 			}
 		}
 	}

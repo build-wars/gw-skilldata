@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂热回复",
+				"description": "Flash Enchantment Spell。 对所有邻近的敌人造成5...30点神圣伤害。在下5...25秒之内，此「增益魔法」不会产生任何效果，但当此「增益魔法」消失时，你将根据带有此「增益魔法」时击中敌人的次数，每次获得1...5点能量值。",
+				"concise": "Flash Enchantment Spell。 对所有邻近的敌人造成5...30点神圣伤害。在下5...25秒之内，此「增益魔法」不会产生任何效果，但当此「增益魔法」消失时，你将根据带有此「增益魔法」时击中敌人的次数，每次获得1...5点能量值。"
+			},
+			"cht": {
+				"name": "狂熱復原",
+				"description": "即刻加持魔法： 對附近敵人造成 5...30 神聖傷害。持續 5...25 秒，你的能量再生減少 1 ，但每次擊中敵人時獲得 1 能量。若此加持提前終止，你獲得 1...5 能量。",
+				"concise": "即刻加持魔法： 對附近敵人造成 5...30 神聖傷害。持續 5...25 秒，你的能量再生減少 1 ，但每次擊中敵人時獲得 1 能量。若此加持提前終止，你獲得 1...5 能量。"
+			},
 			"de": {
+				"name": "Eifrige Erneuerung",
+				"description": "Blitzverzauberung. Alle in der Nähe befindlichen Gegner erleiden 5...30 Punkt[e] heiligen Schaden. 5...25 Sekunde[n] lang beträgt Eure Energieregeneration -1 und Ihr bekommt jedes Mal, wenn einer Eurer Angriffe trifft, 1 Energiepunkt. Wenn diese Verzauberung vorzeitig endet, erhaltet Ihr 1...5 Energiepunkt[e].",
+				"concise": "Blitzverzauberung. (5...25 Sekunde[n].) Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 5...30 Punkt[e] heiligen Schaden an. Eure Energieregeneration beträgt -1 und Ihr bekommt jedes Mal, wenn einer Eurer Angriffe trifft, 1 Energiepunkt. Wenn diese Verzauberung vorzeitig endet, erhaltet Ihr 1...5 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Eifrige Erneuerung",
 				"description": "Alle in der Nähe befindlichen Gegner erleiden 5...30 Punkte heiligen Schaden. 5...25 Sekunden lang beträgt Eure Energieregeneration -1 und ihr bekommt jedes Mal, wenn einer Euer Angriffe trifft, 1 Energiepunkt. Wenn diese Verzauberung vorzeitig endet, erhaltet ihr 1...5 Energiepunkte.",
 				"concise": "(5...25 Sekunden.) Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 5...30 Punkte heiligen Schaden an. Eure Energieregeneration beträgt -1 und Ihr bekommt jedes Mal, wenn einer Eurer Angriffe trifft, 1 Energiepunkt. Wenn diese Verzauberung vorzeitig endet, erhaltet ihr 1...5 Energiepunkte."
 			},
 			"en": {
 				"name": "Zealous Renewal",
+				"description": "Flash Enchantment Spell. All nearby foes take 5...30 holy damage. For 5...25 seconds, you have -1 Energy regeneration and gain 1 Energy whenever you hit a foe. If this enchantment ends prematurely, you gain 1...5 Energy.",
+				"concise": "Flash Enchantment Spell. (5...25 seconds.) Initial effect: deals 5...30 holy damage to nearby foes. You have -1 Energy regeneration and gain 1 Energy when you hit. Gain 1...5 Energy if this enchantment ends early."
+			},
+			"en-gww": {
+				"name": "Zealous Renewal",
 				"description": "All nearby foes take 5...30 holy damage. For 5...25 seconds, you have -1 Energy regeneration, and gain 1 Energy whenever you hit a foe. If this enchantment ends prematurely, you gain 1...5 Energy.",
 				"concise": "(5...25 seconds.) Initial effect: deals 5...30 holy damage to nearby foes. You have -1 Energy regeneration and gain 1 Energy when you hit. Gain 1...5 Energy if this enchantment ends early."
 			},
+			"es": {
+				"name": "Renovación de celo",
+				"description": "Conjuro con encantamiento de destello. Todos los enemigos cercanos reciben 5...30 de daño sagrado. Durante 5...25 segundos, tienes -1 de regeneración de energía y ganas 1 de energía cada vez que golpeas a un enemigo. Si este maleficio acaba prematuramente, ganas 1...5 de energía.",
+				"concise": "Conjuro con encantamiento de destello. (5...25 segundos). Efecto inicial: hace 5...30 de daño sagrado a los enemigos cercanos. Tienes -1 de regeneración de energía y ganas 1 de energía cada vez que golpeas a un enemigo. Gana 1...5 de energía si este encantamiento termina prematuramente."
+			},
 			"fr": {
+				"name": "Renouveau zélé",
+				"description": "Enchantement instantané. Tous les ennemis à proximité subissent 5...30 points de dégâts sacrés. Pendant 5...25 secondes, chaque fois que vous touchez un ennemi, vous avez -1 en régénération d'énergie et gagnez 1 point d'énergie. Si cet enchantement prend fin prématurément, vous gagnez 1...5 points d'énergie.",
+				"concise": "Enchantement instantané. (5...25 secondes.) Effet initial : inflige 5...30 points de dégâts sacrés aux ennemis proches. A chacun de vos coups, vous avez -1 en régénération d'énergie et gagnez 1 point d'énergie. +1...5 points d'énergie si cet enchantement prend fin prématurément."
+			},
+			"fr-gwiki": {
 				"name": "Renouveau zélé",
 				"description": "Tous les ennemis adjacents subissent 15...60 points de dégâts sacrés. Pendant 20 secondes, cet enchantement n'a aucun effet. Lorsque cet enchantement prend fin, vous gagnez 1 point d'énergie pour chaque attaque réussie sous ses effets.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rinnovamento Zelante",
+				"description": "Incantesimo Lampo. Tutti i nemici nei dintorni subiscono 5...30 danni sacri. Per 5...25 secondi hai una Rigenerazione dell'Energia di -1 e consegui 1 Punto Energia ogni volta che colpisci un nemico. Se l'incantesimo termina prematuramente ottieni 1...5 Punti Energia.",
+				"concise": "Incantesimo Lampo. (Secondi: 5...25). Effetto iniziale: danni sacri inflitti ai nemici nei dintorni: 5...30. Hai una Rigenerazione dell'Energia di -1 e consegui 1 Punto Energia quando colpisci. Punti Energia ottenuti se l'incantesimo termina prematuramente: 1...5 ."
+			},
+			"jp": {
+				"name": "ゼラス リニューアル",
+				"description": "フラッシュ強化スペル： 周囲にいるすべての敵に 5...30 の神聖ダメージを与えます。5...25 秒間、エネルギーの自然回復力が1減少します。敵に攻撃が成功するたびに1のエネルギーを獲得します。この効果が持続時間の途中で消失すると、プレイヤーは 1...5 のエネルギーを獲得します。",
+				"concise": "フラッシュ強化スペル： (5...25 秒)発動効果： 周囲にいる敵に 5...30 の神聖ダメージを与えます。エネルギーの自然回復力が1減少し、敵に攻撃が成功すると1のエネルギーを獲得します。この効果が持続時間の途中で消失すると、1...5 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "광신도의 재생",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 부근의 모든 적에게 5...30의 신성 대미지를 줍니다. 5...25초 동안 자신의 에너지 재생이 1만큼 감소하지만, 적에 대한 공격이 성공할 때마다 1의 에너지를 얻습니다. 효과가 지속 시간 전에 끝나면 1...5의 에너지를 얻습니다.",
+				"concise": "순간 시전 강화 마법. (5...25초) 초기 효과: 부근의 적들에게 5...30의 신성 대미지를 줍니다. 자신의 에너지 재생이 1만큼 감소하고, 대신 공격이 성공하면 에너지를 1씩 얻습니다. 효과가 일찍 끝나면 1...5의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Gorliwa Odnowa",
+				"description": "Zaklęcie błysku (czar). Wszyscy przeciwnicy w pobliżu otrzymują po 5...30 pkt. świętych obrażeń. Przez 5...25 sek. masz -1 do regeneracji energii i otrzymujesz 1 pkt. energii za każdym razem, gdy trafisz przeciwnika. Jeśli zaklęcie to zakończy się przedwcześnie, zyskujesz 1...5 pkt. energii.",
+				"concise": "Zaklęcie błysku (czar). (5...25 sek.) Efekt początkowy: Przeciwnicy w pobliżu otrzymują po 5...30 pkt. świętych obrażeń. Masz -1 do regeneracji energii i otrzymujesz 1 pkt. energii za każdym trafieniem. Otrzymujesz 1...5 pkt. energii, jeśli to zaklęcie zakończy się przedwcześnie."
+			},
+			"ru": {
+				"name": "Zealous Renewal",
+				"description": "Мгновенное заклинание-чары. Все противники поблизости получают 5...30 ед. урона святой силой. В течение 5...25 сек ваша скорость восстановления энергии уменьшается на 1 ед., и вы получаете 1 ед. энергии каждый раз, когда наносите противнику успешный удар. Если действие этих чар заканчивается преждевременно, вы получаете 1...5 ед. энергии.",
+				"concise": "Мгновенное заклинание-чары. (5...25 сек) Начальный эффект: наносит 5...30 ед. урона святой силой противникам поблизости. Вы получаете -1 ед. к скорости восстановления энергии и 1 ед. энергии за каждый успешный удар. Вы получаете 1...5 ед. энергии, если действие этих чар заканчивается преждевременно."
+			},
+			"bork": {
+				"name": "Zeaeluoos Renooael",
+				"description": "Flaesh Inchuntment Spell. Aell neaerby fues taeke-a 5...30 huly daemaege-a. Fur 5...25 secunds, yuoo haefe-a -1 Inergy regeneraeshun und gaeeen 1 Inergy vhenefer yuoo heet a fue-a. Iff thees inchuntment inds premaetoorely, yuoo gaeeen 1...5 Inergy.",
+				"concise": "Flaesh Inchuntment Spell. (5...25 secunds.) Ineeteeael iffffect: deaels 5...30 huly daemaege-a tu neaerby fues. Yuoo haefe-a -1 Inergy regeneraeshun und gaeeen 1 Inergy vhee yuoo heet. Gaeeen 1...5 Inergy iff thees inchuntment inds iaerly."
 			}
 		}
 	}

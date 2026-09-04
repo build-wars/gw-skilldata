@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益激励",
+				"description": "咒文。 将目标敌人身上的一项「增益魔法」转移到你的技能栏上，取代「增益激励」20秒，同时获得 3...15点 能量。",
+				"concise": "咒文。 将目标敌人身上的一项「增益魔法」转移到你的技能栏上，取代「增益激励」20秒，同时获得 3...15点 能量。"
+			},
+			"cht": {
+				"name": "靈感加持",
+				"description": "咒文魔法： 移除目標敵人身上的某項「加持」並且獲得 3...15 能量。同時靈感加持被該項「加持」取代 20 秒。",
+				"concise": "咒文魔法： 移除目標敵人身上的某項「加持」並且獲得 3...15 能量。同時靈感加持被該項「加持」取代 20 秒。"
+			},
 			"de": {
+				"name": "Inspirierte Verzauberung",
+				"description": "Zauber. Eine Verzauberung wird vom Gegner entfernt und Ihr und erhaltet 3...15 Energiepunkt[e]. Inspirierte Verzauberung wird 20 Sekunden lang durch die dem Gegner genommene Verzauberung ersetzt.",
+				"concise": "Zauber. Entfernt beim Gegner eine Verzauberung. Entfernungswirkungen: Ihr erhaltet 3...15 Energiepunkt[e]; dieser Zauber wird durch die entfernte Verzauberung ersetzt (20 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Inspirierte Verzauberung",
 				"description": "Eine Verzauberung wird vom Gegner entfernt und Ihr erhaltet 3...15 Energiepunkte. Inspirierte Verzauberung wird 20 Sekunden lang durch die dem Gegner genommene Verzauberung ersetzt.",
 				"concise": "Entfernt beim Gegner eine Verzauberung. Entfernungswirkung: Ihr erhaltet 3...15 Energiepunkte; dieser Zauber wird durch die entfernte Verzauberung ersetzt (20 Sekunden)."
 			},
 			"en": {
 				"name": "Inspired Enchantment",
+				"description": "Spell. Remove an enchantment from target foe and gain 3...15 Energy. For 20 seconds, Inspired Enchantment is replaced with the enchantment removed from target foe.",
+				"concise": "Spell. Removes an enchantment from target foe. Removal effects: you gain 3...15 Energy; this spell is replaced with that enchantment (20 seconds)."
+			},
+			"en-gww": {
+				"name": "Inspired Enchantment",
 				"description": "Removes an enchantment from target foe and gain 3...15 Energy. For 20 seconds, Inspired Enchantment is replaced with the enchantment removed from target foe.",
 				"concise": "Removes an enchantment from target foe. Removal effects: you gain 3...15 Energy; this spell is replaced with that enchantment (20 seconds)."
 			},
+			"es": {
+				"name": "Encantamiento inspirado",
+				"description": "Conjuro. Quitas un encantamiento del enemigo objetivo y obtienes 3...15 de energía. Durante 20 segundos, el Encantamiento inspirado será sustituido por el encantamiento que se haya quitado al enemigo.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. Efecto de la eliminación: ganas 3...15 de energía; este conjuro se sustituye por el encantamiento (20 segundos)."
+			},
 			"fr": {
+				"name": "Enchantement inspiré",
+				"description": "Sort. Lève un enchantement à l'ennemi visé et vous obtenez 3...15 points d'énergie. Pendant 20 secondes, l'enchantement inspiré est remplacé par celui qui a été pris à la cible ennemie.",
+				"concise": "Sort. Supprime un enchantement à la cible ennemie. Effets de la suppression : vous obtenez 3...15 points d'énergie ; ce sort est remplacé par cet enchantement (20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Enchantement inspiré",
 				"description": "Lève un enchantement à l'ennemi visé et vous obtenez 3...15 points d'énergie. Pendant 20 secondes, l'Enchantement inspiré est remplacé par celui qui a été pris à la cible ennemie.",
 				"concise": "Supprime un enchantement à la cible ennemie. Effet de la suppression : vous obtenez 3...15 points d'énergie ; ce sort est remplacé par cet enchantement (20 secondes)."
+			},
+			"it": {
+				"name": "Incantesimo Ispirato",
+				"description": "Magia. Rimuovi un incantesimo dall'obiettivo nemico ed ottieni 3...15 Punto[i] Energia. Per 20 secondi l'incantesimo rimosso si sostituirà all'Incantesimo Ispirato.",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. Effetto della rimozione: ottieni 3...15 Punto[i] Energia. Questa magia viene rimpiazzata con quell'incantesimo (20 secondi)."
+			},
+			"jp": {
+				"name": "インスパイア エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを1個解除し、3...15 のエネルギーを獲得します。20秒間、このスペルは解除した強化スペルと入れ替わります。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。解除効果： プレイヤーはエネルギーを 3...15 獲得し、このスペルは解除した強化スペルと入れ替わります (20秒)。"
+			},
+			"kr": {
+				"name": "강화 마법 제거",
+				"description": "마법. 대상 지정: 적. 대상에게 걸려 있는 강화 마법 하나를 무효화하고 3...15의 에너지를 얻습니다. 이 스킬은 20초 동안 무효화한 강화 마법 스킬로 바뀝니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 하나를 무효화합니다. 무효화 효과: 자신은 3...15의 에너지를 얻고, 이 마법이 무효화한 강화 마법으로 바뀝니다.(20초)"
+			},
+			"pl": {
+				"name": "Inspirujące Zaklęcie",
+				"description": "Czar. Z wybranego przeciwnika zdejmujesz jedno zaklęcie i otrzymujesz 3...15 pkt. energii. Na 20 sekund Inspirujące Zaklęcie zostaje zastąpione zdjętym zaklęciem.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa zaklęcie. Efekty usunięcia: otrzymujesz 3...15 pkt. energii; ten czar zamieniany jest na to zaklęcie (20 sek.)."
+			},
+			"ru": {
+				"name": "Inspired Enchantment",
+				"description": "Заклинание. Снимает одни чары, лежащие на выбранном противнике, и дает вам 3...15 ед. энергии. На 20 сек Inspired Enchantment будет замещен теми чарами, которые были сняты с противника.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Эффект снятия: вы получаете 3...15 ед. энергии; это заклинание будет замещено снятыми чарами (20 сек)."
+			},
+			"bork": {
+				"name": "Inspured Inchuntment",
+				"description": "Spell. Remufe-a un inchuntment frum taerget fue-a und gaeeen 3...15 Inergy. Fur 20 secunds, Inspured Inchuntment is replaeced veet zee inchuntment remufed frum taerget fue-a.",
+				"concise": "Spell. Remufes un inchuntment frum taerget fue-a. Remufael iffffects: yuoo gaeeen 3...15 Inergy; thees spell is replaeced veet thaet inchuntment (20 secunds)."
 			}
 		}
 	}

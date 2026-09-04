@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Disarm",
+				"description": "剑术。 Interrupt target foe's action. If that action was an attack, all of that foe's attack skills are disabled for 0...3 seconds.",
+				"concise": "剑术。 Interrupts target foe. Interruption effect: disables this foe's attack skills (0...3 seconds) if that action was an attack."
+			},
+			"cht": {
+				"name": "繳械",
+				"description": "劍術攻擊技能： 中斷目標敵人動作。若該動作若為正為攻擊動作時，該名敵人的所有攻擊技能將於 0...3 秒內無法使用。",
+				"concise": "劍術攻擊技能： 若此攻擊命中正在進行攻擊的敵人，將中斷該名敵人動作，並且該名敵人的所有攻擊技能將於 0...3 內無法使用。"
+			},
 			"de": {
+				"name": "Entwaffnen",
+				"description": "Schwertangriff. Unterbricht die Aktion des Gegners. Falls diese Aktion ein Angriff war, werden alle Angriffsfertigkeiten des Gegners 0...3 Sekunde[n] lang deaktiviert.",
+				"concise": "Schwertangriff. Unterbricht den Gegner. Unterbrechungswirkung: Deaktiviert die Angriffsfertigkeiten des Gegners (0...3 Sekunde[n]), falls die unterbrochene Aktion ein Angriff war."
+			},
+			"de-guildwiki": {
 				"name": "Entwaffnen",
 				"description": "Wenn dieser Angriff einen angreifenden Gegner trifft, wird dieser unterbrochen und alle seine Angriffsfertigkeiten werden 0...3 Sekunden deaktiviert.",
 				"concise": "Unterbricht den Gegner. Unterbrechungswirkung: Deaktiviert die Angriffsfertigkeiten des Gegners (0...3 Sekunden), falls die unterbrochene Aktion ein Angriff war."
 			},
 			"en": {
 				"name": "Disarm",
+				"description": "Sword Attack. Interrupt target foe's action. If that action was an attack, all of that foe's attack skills are disabled for 0...3 seconds.",
+				"concise": "Sword Attack. Interrupts target foe. Interruption effect: disables this foe's attack skills (0...3 seconds) if that action was an attack."
+			},
+			"en-gww": {
+				"name": "Disarm",
 				"description": "Interrupt target foe's action. If that action was an attack, all of that foe's attack skills are disabled for 0...3 second[s].",
 				"concise": "Interrupts target foe. Interruption effect: disables this foe's attack skills (0...3 second[s]) if that action was an attack."
 			},
+			"es": {
+				"name": "Desarme",
+				"description": "Ataque con espada. Interrumpes la acción del enemigo. Si éste estaba atacando, todas sus habilidades de ataque estarán desactivadas durante 0...3 segundos.",
+				"concise": "Ataque con espada. Interrumpe al enemigo objetivo. Efecto de la interrupción: desactiva la habilidad del enemigo (0...3 segundos) si era de ataque."
+			},
 			"fr": {
+				"name": "Désarmement",
+				"description": "Attaque à l'épée. Interrompt l'action de l'ennemi visé. S'il s'agissait d'une attaque, celle-ci et toutes les autres sont désactivées pendant 0...3 secondes.",
+				"concise": "Attaque à l'épée. Interrompt l'ennemi visé. Effet de l'interruption : désactive les compétences d'attaque de l'ennemi (0...3 secondes) s'il attaquait."
+			},
+			"fr-gwiki": {
 				"name": "Désarmement",
 				"description": "Interrompt l'action de l'ennemi visé. S'il s'agissait d'une attaque, celle-ci et toutes les autres sont désactivées pendant 0...3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Disarmo",
+				"description": "Attacco con Spada. Interrompi l'azione dell'obiettivo nemico; se si trattava di un attacco, tutte le sue abilità d'attacco vengono disattivate per 0...3 secondo[i].",
+				"concise": "Attacco con Spada. Interrompe l'obiettivo nemico. Effetto dell'interruzione: disattiva le abilità d'attacco di questo nemico (0...3 secondo[i]) se l'azione era un attacco."
+			},
+			"jp": {
+				"name": "ディスアーム",
+				"description": "ソード アタック： ターゲットした敵のアクションを中断します。攻撃を中断すると、敵が装備しているアタック スキルをすべて 0...3 秒間封じ込めます。",
+				"concise": "ソード アタック： ターゲットした敵のアクションを中断します。中断効果： 攻撃を中断すると、ターゲットのアタック スキルを封じ込めます (0...3 秒) 。"
+			},
+			"kr": {
+				"name": "전의 상실",
+				"description": "칼 공격. 대상의 동작을 방해합니다. 그 동작이 공격이라면 대상의 모든 공격 스킬의 재활성 시간이 0...3초 늘어납니다.",
+				"concise": "칼 공격. 동작을 방해합니다. 방해 효과: 대상의 동작이 공격 스킬이라면 그 스킬의 재활성 시간이 0...3초 늘어납니다."
+			},
+			"pl": {
+				"name": "Rozbrojenie",
+				"description": "Atak mieczem. Przerywasz czynność wybranego przeciwnika. Jeśli tą czynnością był atak, to wszystkie umiejętności związane z atakowaniem tego przeciwnika będą niedostępne przez 0...3 sek.",
+				"concise": "Atak mieczem. Przerywasz czynność wybranego przeciwnika. Efekt przerwania: wyłącza umiejętności związane z atakami tego przeciwnika (0...3 sek.), jeśli tą czynnością był atak."
+			},
+			"ru": {
+				"name": "Disarm",
+				"description": "Атака мечом. Прерывает действие выбранного противника. Если прерванное действие было атакой, все атакующие умения этого противника станут недоступными на 0...3 сек.",
+				"concise": "Атака мечом. Прерывает выбранного противника. Эффект прерывания: атакующие умения этого противника будут недоступны (0...3 сек), если была прервана атака."
+			},
+			"bork": {
+				"name": "Deesaerm",
+				"description": "Svurd Aettaeck. Interroopt taerget fue-a's aecshun. Iff thaet aecshun vaes un aettaeck, aell ooff thaet fue-a's aettaeck skeells aere-a deesaebled fur 0...3 secunds.",
+				"concise": "Svurd Aettaeck. Interroopts taerget fue-a. Interroopshun iffffect: deesaebles thees fue-a's aettaeck skeells (0...3 secunds) iff thaet aecshun vaes un aettaeck. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "精华链接",
+				"description": "增益魔法。 当你维持此「增益魔法」时，每当目标盟友受到「物理」或「元素」伤害时，你将获得 1点 能量。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，每当目标盟友受到「物理」或「元素」伤害时，你将获得1点 能量。"
+			},
+			"cht": {
+				"name": "本質連結",
+				"description": "加持魔法： 當你維持此「加持」時，每當目標盟友受到「物理」或「元素」傷害，你獲得 1 能量。",
+				"concise": "加持魔法： 當你維持此「加持」時，每當目標盟友受到「物理」或「元素」傷害，你獲得 1 能量。"
+			},
 			"de": {
+				"name": "Essenzbindung",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, bekommt Ihr jedes Mal, wenn Euer Verbündeter (oder Ihr selbst) physischen oder Elementarschaden erleidet, 1 Energiepunkt.",
+				"concise": "Verzauberung. Ihr erhaltet jedes Mal 1 Energiepunkt, wenn der Verbündete (bzw. Ihr selbst) physischen oder Elementarschaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Essenzbindung",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, bekommt Ihr jedes Mal, wenn Euer Verbündeter (oder<sic/> Ihr selbst) physischen oder Elementarschaden erleidet, 1 Energiepunkt.",
 				"concise": "Ihr erhaltet jedes Mal 1 Energiepunkt, wenn der Verbündete (bzw. Ihr selbst) physischen Schaden oder Elementarschaden erleidet."
 			},
 			"en": {
 				"name": "Essence Bond",
+				"description": "Enchantment Spell. While you maintain this enchantment, whenever target ally takes physical or elemental damage, you gain 1 Energy.",
+				"concise": "Enchantment Spell. You gain 1 Energy whenever target ally takes physical or elemental damage."
+			},
+			"en-gww": {
+				"name": "Essence Bond",
 				"description": "While you maintain this enchantment, whenever target ally takes physical or elemental damage, you gain 1 Energy.",
 				"concise": "You gain 1 Energy whenever target ally takes physical or elemental damage."
 			},
+			"es": {
+				"name": "Vínculo de esencia",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, siempre que el objetivo (un aliado o tú mismo) reciba daño físico o elemental, ganas 1 de energía.",
+				"concise": "Conjuro con encantamiento. Ganas 1 de energía cuando el objetivo (un aliado o tú mismo) reciba daño físico o de los elementos."
+			},
 			"fr": {
+				"name": "Liens de l'Essence",
+				"description": "Enchantement. Tant que cet enchantement est actif, si la cible (un allié ou vous-même) subit des dégâts physiques ou élémentaires, vous gagnez 1 point d'énergie.",
+				"concise": "Enchantement. Vous gagnez 1 point d'énergie chaque fois que l'allié visé subit des dégâts physiques ou élémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Liens de l'Essence",
 				"description": "Tant que cet enchantement est actif, si la cible (un allié ou vous-même) subit des dégâts physiques ou élémentaires, vous gagnez 1 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame dell'Essenza",
+				"description": "Incantesimo. Mantenendo questo incantesimo, ogni volta che l'obiettivo (un alleato o te stesso) subisce danni fisici o elementali ottieni 1 Punto Energia.",
+				"concise": "Incantesimo. Ottieni 1 Punto Energia ogni volta che l'obiettivo (un alleato o te stesso) subisce danni fisici o elementali."
+			},
+			"jp": {
+				"name": "エッセンス ボンド",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした味方が物理または元素ダメージを受けるたびに、プレイヤーは1のエネルギーを獲得します。",
+				"concise": "強化スペル： ターゲットした味方が物理または元素ダメージを受けるたびに、プレイヤーは1のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "영혼의 교감",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 자신은 대상이 물리 대미지나 정령 대미지를 입을 때마다 1의 에너지를 얻습니다.",
+				"concise": "강화 마법. 대상 아군이 물리 대미지나 정령 대미지를 입을 때마다 자신은 1의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Więź Esencji",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, kiedy wybrany sojusznik otrzyma obrażenia fizyczne lub obrażenia od żywiołów, twoja energia zwiększy się o 1.",
+				"concise": "Zaklęcie (czar). Otrzymujesz 1 pkt. energii, za każdym razem, kiedy wybrany sojusznik otrzymuje obrażenia fizyczne lub obrażenia od żywiołów."
+			},
+			"ru": {
+				"name": "Essence Bond",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, каждый раз, когда выбранный союзник получает физический урон или урон силами Стихий, вы получаете 1 ед. энергии.",
+				"concise": "Заклинание-чары. Вы получаете 1 ед. энергии каждый раз, когда выбранный союзник получает физический урон или урон силами Стихий."
+			},
+			"bork": {
+				"name": "Issence-a Bund",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, vhenefer taerget aelly taekes physeecael oor ilementael daemaege-a, yuoo gaeeen 1 Inergy.",
+				"concise": "Inchuntment Spell. Yuoo gaeeen 1 Inergy vhenefer taerget aelly taekes physeecael oor ilementael daemaege-a."
 			}
 		}
 	}

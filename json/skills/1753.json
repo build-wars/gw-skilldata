@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "撕裂横扫",
+				"description": "镰刀术。 命中时，对敌人造成5...20点额外伤害。如果命中遭受「负面魔法」的敌人，则使其失去一项「增益魔法」。",
+				"concise": "镰刀术。 命中时，对敌人造成5...20点额外伤害。如果命中遭受「负面魔法」的敌人，则使其失去一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "撕裂掃蕩",
+				"description": "鐮刀攻擊技能： 命中時造成 5...20 額外傷害，移除自身一項神喚使加持，若移除成功，將使被擊中的敵人失去一項加持。",
+				"concise": "鐮刀攻擊技能： 命中時造成 5...20 額外傷害，移除自身一項神喚使加持，若移除成功，將使被擊中的敵人失去一項加持。"
+			},
 			"de": {
+				"name": "Zerreißender Schwung",
+				"description": "Sensenangriff. Ihr richtet +5...20 Punkt[e] Schaden an und verliert 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wird, entfernt Ihr eine Verzauberung von jedem Feind, den Ihr trefft.",
+				"concise": "Sensenangriff. Richtet +5...20 Punkt[e] Schaden an. Ihr verliert 1 Derwisch-Verzauberung. Entfernungseffekt: Getroffene Feinde verlieren eine Verzauberung."
+			},
+			"de-guildwiki": {
 				"name": "Zerreißender Schwung",
 				"description": "Ihr richtet +5...20 Punkte Schaden an und verliert 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wird, entfernt Ihr eine Verzauberung von jedem Feind, den Ihr trefft.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Ihr verliert 1 Derwisch-Verzauberung. Entfernungseffekt: Getroffene Feinde verlieren eine Verzauberung."
 			},
 			"en": {
 				"name": "Rending Sweep",
+				"description": "Scythe Attack. You deal +5...20 damage and lose 1 Dervish enchantment. If an enchantment was lost, you remove an enchantment from each foe you hit.",
+				"concise": "Scythe Attack. Deals +5...20 damage. You lose 1 Dervish enchantment. Removal Effect: struck foes lose an enchantment."
+			},
+			"en-gww": {
+				"name": "Rending Sweep",
 				"description": "You deal +5...20 and lose 1 Dervish enchantment. If an enchantment was lost, you remove an enchantment from each foe you hit.",
 				"concise": "Deals +5...20 damage. You lose 1 Dervish enchantment. Removal effect: struck foes lose an enchantment."
 			},
+			"es": {
+				"name": "Barrido desgarrador",
+				"description": "Ataque con guadaña. Haces +5...20 de daño y pierdes un encantamiento de Derviche. Si se perdió un encantamiento, quitas uno de cada enemigo que golpees.",
+				"concise": "Ataque con guadaña. Hace +5...20 de daño. Pierdes un encantamiento de Derviche. Efecto de eliminación: los enemigos que golpeas pierden un encantamiento."
+			},
 			"fr": {
+				"name": "Frappe déchirante",
+				"description": "Attaque à la faux. Vous infligez +5...20 points de dégâts et perdez un enchantement de Derviche. En cas de perte d'enchantement, vous retirez un enchantement à chaque ennemi touché.",
+				"concise": "Attaque à la faux. Inflige +5...20 points de dégâts. Vous perdez un enchantement de Derviche. Effet de la suppression : les ennemis touchés perdent un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Frappe déchirante",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si vous frappez un ennemi affecté par un maléfice, il perd 1 enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falciata Strappante",
+				"description": "Attacco con Falce. Infliggi +5...20 danno e perdi un Incantesimo del Derviscio. Se un incantesimo viene perso, ogni nemico da te colpito perde un incantesimo.",
+				"concise": "Attacco con Falce. Danni inferti: +5...20. Incantesimi del Derviscio persi: 1. Effetto della rimozione: il nemico colpito perde un incantesimo."
+			},
+			"jp": {
+				"name": "レンド スウィープ",
+				"description": "サイズ アタック： 5...20 の追加ダメージを与え、かけられているダルウィーシュの強化スペルを1個解除します。強化スペルが解除された場合、ダメージを与えた敵にかけられている強化スペルも解除します。",
+				"concise": "サイズ アタック： 5...20 の追加ダメージを与えます。プレイヤーにかけられているダルウィーシュの強化スペルが1個解除されます。解除効果：ダメージを与えた敵から強化スペルを解除します。"
+			},
+			"kr": {
+				"name": "분열의 휘두름",
+				"description": "사이드 공격. 대상 지정: 적. 5...20의 대미지를 추가로 주고, 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 이렇게 강화 마법이 무효화되면 공격이 성공할 때 적의 강화 마법 하나를 무효화합니다.",
+				"concise": "사이드 공격. 5...20의 대미지를 추가로 주고, 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 공격당한 적의 강화 마법을 무효화합니다."
+			},
+			"pl": {
+				"name": "Rozrywający Zamach",
+				"description": "Atak kosą. Zadajesz +5...20 pkt. obrażeń i tracisz 1 zaklęcie derwisza. Jeśli stracono zaklęcie, usuwasz zaklęcie z każdego trafionego wroga.",
+				"concise": "Atak kosą. Zadaje +5...20 pkt. obrażeń. Tracisz 1 zaklęcie derwisza. Efekt usunięcia: Trafieni wrogowie tracą zaklęcie."
+			},
+			"ru": {
+				"name": "Rending Sweep",
+				"description": "Атака косой. Вы наносите дополнительно 5...20 ед. урона и теряете одни чары профессии Dervish. Если чары были успешно сняты, вы снимаете одни чары с каждого противника, которого ударили.",
+				"concise": "Атака косой. Наносит дополнительно 5...20 ед. урона. Вы теряете 1 чары профессии Dervish. Эффект снятия: попавшие под удар противники теряют одни чары."
+			},
+			"bork": {
+				"name": "Rendeeng Sveep",
+				"description": "Scyzee Aettaeck. Yuoo deael +5...20 daemaege-a und luse-a 1 Derfeesh inchuntment. Iff un inchuntment vaes lust, yuoo remufe-a un inchuntment frum iaech fue-a yuoo heet.",
+				"concise": "Scyzee Aettaeck. Deaels +5...20 daemaege-a. Yuoo luse-a 1 Derfeesh inchuntment. Remufael Iffffect: stroock fues luse-a un inchuntment."
 			}
 		}
 	}

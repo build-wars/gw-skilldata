@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "怒视",
+				"description": "咒文。 使目标及其邻近敌人受到 10...30 伤害，并且偷取这些敌人中带有「虚弱」症状的敌人最多 3...12 生命。",
+				"concise": "咒文。 使目标及其邻近敌人受到 10...30 伤害，并且偷取这些敌人中带有「虚弱」症状的敌人最多 3...12 生命。"
+			},
+			"cht": {
+				"name": "沉重的凝視",
+				"description": "咒文魔法： 造成目標及鄰近敵人 10...30 暗影傷害，若他們身上已經有病症，再附加中毒及虛弱 3...12 秒。",
+				"concise": "咒文魔法： 造成目標及鄰近敵人 10...30 暗影傷害，若他們身上已經有病症，再附加中毒及虛弱 3...12 秒。"
+			},
 			"de": {
+				"name": "Repressiver Blick",
+				"description": "Zauber. Gegner und umstehende Feinde erleiden +10...30 Punkt[e] Schattenschaden. Feinde, die bereits unter einem Zustand leiden, werden 3...12 Sekunde[n] lang vergiftet und geschwächt.",
+				"concise": "Zauber. Richtet beim Gegner und umstehenden Feinden 10...30 Punkt[e] Schaden an. Verursacht bei unter einem Zustand leidenden Feinden die Zustände Gift und Schwäche (3...12 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Repressiver Blick",
 				"description": "Gegner und umstehende Feinde erleiden +10...30 Punkte Schattenschaden. Feinde, die bereits unter einem Zustand leiden, werden 3...12 Sekunden lang vergiftet und geschwächt.",
 				"concise": "Richtet beim Gegner und umstehenden Feinden 10...30 Punkte Schaden an. Verursacht bei unter einem Zustand leidenden Feinden die Zustäde Gift und Schwäche (3...12 Sekunden)."
 			},
 			"en": {
 				"name": "Oppressive Gaze",
+				"description": "Spell. Target foe and adjacent foes take 10...30 shadow damage. Foes already suffering from a condition are Poisoned and Weakened for 3...12 seconds.",
+				"concise": "Spell. Deals 10...30 damage to target and adjacent foes. Inflicts Poison and Weakness (3...12 seconds) on foes suffering from a condition."
+			},
+			"en-gww": {
+				"name": "Oppressive Gaze",
 				"description": "Target foe and adjacent foes take 10...30 shadow damage. Foes already suffering from a condition are Poisoned and Weakened for 3...12 seconds.",
 				"concise": "Deals 10...30 damage to target and adjacent foes. Inflicts Poison and Weakness (3...12 second) on foes suffering from a condition."
 			},
+			"es": {
+				"name": "Mirada opresora",
+				"description": "Conjuro. El enemigo objetivo y los adyacentes reciben 10...30 de daño de sombra. Los enemigos que ya estén padeciendo alguna condición quedan envenenados y debilitados durante 3...12 segundos.",
+				"concise": "Conjuro. Hace 10...30 de daño al enemigo objetivo y los adyacentes. Causa envenenamiento y debilitamiento (3...12 segundos) a los enemigos que estén padeciendo alguna condición."
+			},
 			"fr": {
+				"name": "Regard de l'oppresseur",
+				"description": "Sort. La cible ennemie et les ennemis adjacents subissent 10...30 points de dégâts de l'ombre. Les ennemis déjà affectés par une condition sont Empoisonnés et Affaiblis pendant 3...12 secondes.",
+				"concise": "Sort. Inflige 10...30 points de dégâts à la cible et aux ennemis adjacents. Inflige Poison et Faiblesse (3...12 secondes) aux ennemis souffrant d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Regard de l'oppresseur",
 				"description": "Inflige 10...30 points de dégâts de l'ombre à la cible ennemie et à tous les ennemis adjacents. Les ennemis affectés par une condition sont Empoisonnés pendant 5...20 secondes et Affaiblis pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sguardo Oppressivo",
+				"description": "Magia. L'obiettivo nemico e i nemici adiacenti subiscono 10...30 danno[i] da ombra. I nemici affetti da una condizione subiscono Avvelenamento e Debolezza per 3...12 secondo[i].",
+				"concise": "Magia. Danni inferti all'obiettivo e ai nemici adiacenti: 10...30. Infligge Avvelenamento e Debolezza (3...12 secondo[i] su nemici già affetti da una condizione."
+			},
+			"jp": {
+				"name": "オプレッシブ ゲイズ",
+				"description": "スペル： ターゲットした敵および隣接する敵に 10...30 の暗黒ダメージを与えます。すでに「状態異常」がかけられている敵は 3...12 秒間「毒」および「衰弱」状態になります。",
+				"concise": "スペル： ターゲットおよび隣接する敵に 10...30 のダメージを与えます。「状態異常」がかけられている敵を「毒」および「衰弱」状態にします (3...12 秒)。"
+			},
+			"kr": {
+				"name": "압박의 주시",
+				"description": "마법. 대상 지정: 적. 대상과 그에 인접한 적들에게 10...30의 암흑 대미지를 줍니다. 이미 상태이상에 걸려 있던 적들은 3...12초 동안 중독과 약체 상태가 됩니다.",
+				"concise": "마법. 대상과 그에 인접한 적들에게 10...30의 대미지를 줍니다. 상태이상에 걸려 있는 적들은 중독되고, 약체가 됩니다.(3...12초)"
+			},
+			"pl": {
+				"name": "Gnębiące Spojrzenie",
+				"description": "Czar. Wybrany przeciwnik oraz sąsiadujący z nim wrogowie otrzymują 10...30 pkt. obrażeń od cienia. Wrogowie cierpiący już na jakąś przypadłość zostają otruci oraz osłabieni na 3...12 sek.",
+				"concise": "Czar. Zadaje 10...30 pkt. obrażeń celowi i sąsiadującym przeciwnikom. Wywołuje zatrucie i osłabienie (3...12 sek.) u wrogów cierpiących na jakąś przypadłość."
+			},
+			"ru": {
+				"name": "Oppressive Gaze",
+				"description": "Заклинание. Выбранный противник и все окружающие его противники получают 10...30 ед. урона силой тьмы. Противники, которые уже находились под действием какого-либо состояния, будут отравлены и поражены слабостью в течение 3...12 сек.",
+				"concise": "Заклинание. Наносит 10...30 ед. урона выбранному и окружающим противникам. Вызывает отравление и слабость (3...12 сек) у противников, находящихся под действием какого-либо состояния."
+			},
+			"bork": {
+				"name": "Ooppresseefe-a Gaeze-a",
+				"description": "Spell. Taerget fue-a und aedjaecent fues taeke-a 10...30 shaedoo daemaege-a. Fues aelreaedy sooffffereeng frum a cundeeshun aere-a Pueesuned und Veaekened fur 3...12 secunds.",
+				"concise": "Spell. Deaels 10...30 daemaege-a tu taerget und aedjaecent fues. Inffleects Pueesun und Veaekness (3...12 secunds) oon fues sooffffereeng frum a cundeeshun."
 			}
 		}
 	}

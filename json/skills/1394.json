@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "治疗盟约",
+				"description": "精英增益魔法。 当你维持此「增益魔法」时，你的治疗效果降低20%，但能量消耗减少1...4点。",
+				"concise": "精英增益魔法。 当你维持此「增益魔法」时，你的治疗效果降低20%，但能量消耗减少1...4点。"
+			},
+			"cht": {
+				"name": "治癒者契約",
+				"description": "精英加持魔法： 維持此加持時，你的治療祈禱屬性魔法，能量消耗減少 1...4 ，但是治療效果降低 20% 。",
+				"concise": "精英加持魔法： 維持此加持時，你的治療祈禱屬性魔法，能量消耗減少 1...4 ，但是治療效果降低 20% 。"
+			},
 			"de": {
+				"name": "Verpflichtung des Heilers",
+				"description": "Elite-Verzauberung. Während Ihr diese Verzauberung aufrechterhaltet, heilen Eure Heilgebet-Zauber um 20% weniger Lebenspunkte, kosten dafür aber -1...4 Energiepunkt[e].",
+				"concise": "Elite-Verzauberung. Eure Heilgebet-Zauber kosten 1...4 Energiepunkt[e] weniger. Verringert ihre Heilwirkung um 20%."
+			},
+			"de-guildwiki": {
 				"name": "Verpflichtung des Heilers",
 				"description": "Während Ihr diese Verzauberung aufrechterhaltet, heilen Eure Heilgebete-Zauber um 20% weniger Lebenspunkte, kosten dafür aber -1...4 Energiepunkte.",
 				"concise": "Eure Heilgebet-Zauber kosten 1...4 Energiepunkte weniger. <gray>Verringert ihre Heilwirkung um 20%.</gray>"
 			},
 			"en": {
 				"name": "Healer's Covenant",
+				"description": "Elite Enchantment Spell. While you maintain this enchantment, your Healing Prayers spells heal for 20% less Health, but cost -1...4 Energy.",
+				"concise": "Elite Enchantment Spell. Your Healing Prayers spells cost 1...4 less Energy. These spells heal for 20% less."
+			},
+			"en-gww": {
+				"name": "Healer's Covenant",
 				"description": "While you maintain this enchantment, your Healing Prayers spells heal for 20% less Health, but cost -1...4 Energy.",
 				"concise": "Your Healing Prayers spells cost 1...4 less Energy. <gray>These spells heal for 20% less.</gray>"
 			},
+			"es": {
+				"name": "Pacto del sanador",
+				"description": "Conjuro con encantamiento de élite. Mientras mantengas este encantamiento, tus conjuros de plegarias curativas curan un 20% menos pero costarán 1...4 menos de energía.",
+				"concise": "Conjuro con encantamiento de élite. Tus conjuros de plegarias curativas cuestan 1...4 menos de energía. Estos conjuros curan un 20% menos."
+			},
 			"fr": {
+				"name": "Engagement du guérisseur",
+				"description": "Enchantement d'élite. Pendant que vous maintenez cet enchantement, vos sorts de Prière de guérison vous confèrent 20% de santé en moins, mais coûtent -1...4 points d'énergie.",
+				"concise": "Enchantement d'élite. Vos sorts de Prières de guérison coûtent 1...4 points d'énergie en moins. Ces sorts soignent 20% de santé en moins."
+			},
+			"fr-gwiki": {
 				"name": "Engagement du guérisseur",
 				"description": "Pendant que vous maintenez cet enchantement, vos sorts de guérison vous soignent 20% moins bien, mais coûtent -1...4 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Patto del Guaritore",
+				"description": "Incantesimo d'Élite. Mantenendo questo incantesimo, le magie appartenenti alle Preghiere Curative doneranno un 20% in meno di Salute, ma costeranno -1...4 Punto[i] Energia.",
+				"concise": "Incantesimo d'Élite. Riduzione del costo energetico delle tue magie attribuite a Preghiere Curative: 1...4. Riduzione percentuale di cure di queste magie: 20%."
+			},
+			"jp": {
+				"name": "ヒーラー コブナント",
+				"description": "エリート強化スペル： この強化スペルを持続している間、「ヒーリング」系スペルで回復できる体力は 20% 減少しますが、詠唱に必要なエネルギーが 1...4 減少します。",
+				"concise": "エリート強化スペル： 「ヒーリング」系スペルの詠唱に必要なエネルギーが 1...4 減少します。これらのスペルにより回復する体力は 20% 減少します。"
+			},
+			"kr": {
+				"name": "치유사의 맹약",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 효과가 유지되는 동안 치유 특성 마법에 소모되는 에너지가 1...4 감소하는 대신 치유량이 20% 감소합니다.",
+				"concise": "엘리트 강화 마법. 치유 특성 마법의 소모 에너지가 1...4 감소합니다. 치유량이 20% 감소합니다."
+			},
+			"pl": {
+				"name": "Przymierze Uzdrowiciela",
+				"description": "Elitarne zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, twoje czary Modlitw Uzdrawiających uzdrawiają o 20% pkt. żywotności mniej, ale kosztują o -1...4 pkt. energii mniej.",
+				"concise": "Elitarne zaklęcie (czar). Twoje czary z Modlitw Uzdrawiających kosztują o 1...4 pkt. energii mniej. Te czary dodają o 20% mniej żywotności."
+			},
+			"ru": {
+				"name": "Healer's Covenant",
+				"description": "Элитное заклинание-чары. До тех пор, пока вы поддерживаете эти чары, ваши заклинания, связанные с талантом Healing Prayers, дают при исцелении на 20% меньше здоровья, но требуют энергии на 1...4 ед. меньше.",
+				"concise": "Элитное заклинание-чары. Ваши заклинания, связанные с талантом Healing Prayers, требуют на 1...4 ед. энергии меньше. Эти заклинания дают при исцелении на 20% здоровья меньше."
+			},
+			"bork": {
+				"name": "Heaeler's Cufenunt",
+				"description": "Ileete-a Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, yuoor Heaeleeng Praeyers spells heael fur 20% less Heaelt, boot cust -1...4 Inergy.",
+				"concise": "Ileete-a Inchuntment Spell. Yuoor Heaeleeng Praeyers spells cust 1...4 less Inergy. Zeese-a spells heael fur 20% less."
 			}
 		}
 	}

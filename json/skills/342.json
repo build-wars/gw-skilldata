@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "利斧绞杀",
+				"description": "斧术。 若击中带有「重伤」症状的敌人，将对其造成 5...25点 额外伤害，并且使该目标附加 20秒 的「虚弱」症状。",
+				"concise": "斧术。 若击中带有「重伤」症状的敌人，将对其造成 5...25点 额外伤害，并且使该目标附加 20秒 的「虚弱」症状。"
+			},
+			"cht": {
+				"name": "斧頭絞殺",
+				"description": "斧術攻擊技能： 若擊中正遭受「重傷」病症的目標，將對其造成 5...25 額外傷害，並且使該目標附加「虛弱」病症持續20秒。",
+				"concise": "斧術攻擊技能： 若擊中正遭受「重傷」病症的目標，將對其造成 5...25 額外傷害，並且使該目標附加「虛弱」病症持續20秒。"
+			},
 			"de": {
+				"name": "Axtdrehung",
+				"description": "Axtangriff. Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde leidet, fügt Ihr 5...25 Punkt[e] mehr Schaden zu und dieser Gegner leidet 20 Sekunden lang unter Schwäche.",
+				"concise": "Axtangriff. Richtet +5...25 Punkt[e] Schaden an und verursacht Zustand Schwäche (20 Sekunden), falls Gegner eine Tiefe Wunde hat."
+			},
+			"de-guildwiki": {
 				"name": "Axtdrehung",
 				"description": "Wenn dieser Angriff einen Gegner trifft, der an einer tiefen Wunde leidet, fügt Ihr 5...25 Punkte mehr Schaden zu und dieser Gegner leidet 20 Sekunden lang unter Schwäche.",
 				"concise": "Richtet +5...25 Punkte Schaden an und verursacht Zustand Schwäche (20 Sekunden), falls Gegner eine Tiefe Wunde hat."
 			},
 			"en": {
 				"name": "Axe Twist",
+				"description": "Axe Attack. If this attack hits a foe suffering from a Deep Wound, you strike for 5...25 more damage and that foe suffers from Weakness for 20 seconds.",
+				"concise": "Axe Attack. Deals +5...25 damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound."
+			},
+			"en-gww": {
+				"name": "Axe Twist",
 				"description": "If this attack hits a foe suffering from a Deep Wound, you strike for 5...25 more damage and that foe suffers from Weakness for 20 seconds.",
 				"concise": "Deals +5...25 damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound."
 			},
+			"es": {
+				"name": "Giro y hachazo",
+				"description": "Ataque con hacha. Si este ataque impacta a un enemigo que tenga una herida grave, harás 5...25 más de daño y ese enemigo pasará a estar débil durante 20 segundos.",
+				"concise": "Ataque con hacha. Hace +5...25 de daño y causa debilitamiento (20 segundos) si el enemigo objetivo tiene una herida grave."
+			},
 			"fr": {
+				"name": "Hache tournante",
+				"description": "Attaque à la hache. Si cette attaque frappe un ennemi souffrant d'une Blessure Profonde, vous infligez 5...25 points de dégâts supplémentaires et la cible est prise de Faiblesse pendant 20 secondes.",
+				"concise": "Attaque à la hache. Inflige +5...25 points de dégâts et provoque la Faiblesse (20 secondes) si l'ennemi visé souffre de Blessure profonde."
+			},
+			"fr-gwiki": {
 				"name": "Hache tournante",
 				"description": "Si cette attaque frappe un ennemi souffrant d'une Blessure profonde, vous infligez 1...20 point(s) de dégâts supplémentaires et la cible est prise de Faiblesse pendant 20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Manovra d'Ascia",
+				"description": "Attacco con Ascia. Se questo attacco va a segno su un nemico affetto da una Ferita Profonda, infliggi 5...25 danno[i] in più e il nemico viene colpito da Debolezza per 20 secondi.",
+				"concise": "Attacco con Ascia. Danni inferti: +5...25. Condizione inflitta: Debolezza (20 secondi) se l'obiettivo nemico ha una Ferita Profonda."
+			},
+			"jp": {
+				"name": "アックス ツイスト",
+				"description": "アックス アタック： 「重傷」状態の敵に対してこの攻撃が成功すると 5...25 の追加ダメージを与え、その敵を20秒間「衰弱」状態にします。",
+				"concise": "アックス アタック： ターゲットした敵が「重傷」状態の場合、5...25 の追加ダメージを与えて「衰弱」状態にします (20秒)。"
+			},
+			"kr": {
+				"name": "춤추는 도끼",
+				"description": "도끼 공격. 대상 지정: 적. 중상 상태인 대상은 5...25의 대미지를 추가로 입고 20초 동안 약체 상태가 됩니다.",
+				"concise": "도끼 공격. 5...25의 대미지를 추가로 주고, 중상을 입은 대상은 약체로 만듭니다.(20초)"
+			},
+			"pl": {
+				"name": "Osłabiający Topór",
+				"description": "Atak toporem. Jeśli atak trafi przeciwnika z głęboką raną, zadajesz 5...25 pkt. dodatkowych obrażeń i ten przeciwnik przez 20 sek. będzie cierpiał na osłabienie.",
+				"concise": "Atak toporem. Zadaje +5...25 pkt. obrażeń i wywołuje przypadłość osłabienie (20 sek.), jeżeli wybrany przeciwnik ma głęboką ranę."
+			},
+			"ru": {
+				"name": "Axe Twist",
+				"description": "Атака топором. Если этот удар попадает по противнику с глубокой раной, вы наносите дополнительно 5...25 ед. урона, а противник будет поражен слабостью на 20 сек.",
+				"concise": "Атака топором. Наносит дополнительно 5...25 ед. урона и вызывает слабость (20 сек), если у выбранного противника была глубокая рана."
+			},
+			"bork": {
+				"name": "Aexe-a Tveest",
+				"description": "Aexe-a Aettaeck. Iff thees aettaeck heets a fue-a sooffffereeng frum a Deep Vuoond, yuoo streeke-a fur 5...25 mure-a daemaege-a und thaet fue-a sooffffers frum Veaekness fur 20 secunds.",
+				"concise": "Aexe-a Aettaeck. Deaels +5...25 daemaege-a und inffleects Veaekness cundeeshun (20 secunds) iff taerget fue-a haes a Deep Vuoond."
 			}
 		}
 	}

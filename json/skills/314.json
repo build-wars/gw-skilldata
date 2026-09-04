@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 4,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命恢复",
+				"description": "咒文。 触摸死亡队员的尸体，将其复活，并恢复其 20...65% 的生命值和 42...90% 的能量值。",
+				"concise": "触摸法术。 触摸死亡队员的尸体，将其复活，并恢复其 20...65% 的生命值和 42...90% 的能量值。"
+			},
+			"cht": {
+				"name": "生命回復",
+				"description": "咒文魔法： 碰觸死亡隊員的屍體將其復活，並回復其 20...65% 體力和 42...90% 能量。",
+				"concise": "碰觸魔法： 碰觸死亡隊員的屍體將其復活，並回復其 20...65% 體力和 42...90% 能量。"
+			},
 			"de": {
+				"name": "Leben erneuern",
+				"description": "Zauber. Berührt den Körper eines gefallenen Gruppenmitglieds. Dieses wird mit 20...65% seines Lebens und 42...90% seiner Energie wiederbelebt.",
+				"concise": "Berührungs-Zauber. Das Gruppenmitglied wird wiederbelebt (20...65% Lebenspunkte, 42...90% Energiepunkte)."
+			},
+			"de-guildwiki": {
 				"name": "Leben erneuern",
 				"description": "Berührt den Körper eines gefallenen Gruppenmitglieds. Dieses wird mit 20...65% seines Lebens und 42...90% seiner Energie wiederbelebt.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (20...65% Lebenspunkte, 42...90% Energiepunkte)."
 			},
 			"en": {
 				"name": "Restore Life",
+				"description": "Spell. Touch the body of a fallen party member. Target party member is returned to life with 20...65% Health and 42...90% Energy.",
+				"concise": "Touch Spell. Resurrects target party member (20...65% Health, 42...90% Energy)."
+			},
+			"en-gww": {
+				"name": "Restore Life",
 				"description": "Touch the body of a fallen party member. Target party member is returned to life with 20...65% Health and 42...90% Energy.",
 				"concise": "Touch Spell. Resurrects target party member (20...65% Health, 42...90% Energy)."
 			},
+			"es": {
+				"name": "Restaurar vida",
+				"description": "Conjuro. Toca el cuerpo de un miembro caído del grupo. El miembro del grupo volverá a la vida con un 20...65% de salud y un 42...90% de energía.",
+				"concise": "Conjuro de toque. Resucita al miembro del equipo objetivo (20...65% de salud, 42...90% de energía)."
+			},
 			"fr": {
+				"name": "Reviviscence",
+				"description": "Sort. Touchez le corps d'un membre du groupe tombé au combat. Il revient à la vie avec 20...65% de vie et 42...90% d'énergie.",
+				"concise": "Sort de toucher. Ressuscite le membre du groupe visé (20...65% de santé et 42...90% d'énergie)."
+			},
+			"fr-gwiki": {
 				"name": "Reviviscence",
 				"description": "Touchez le corps d'un membre du groupe tombé au combat, il revient à la vie avec 20...65% de vie et 42...90% d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ripristino Vita",
+				"description": "Magia. Tocca il corpo di un membro della squadra caduto per riportarlo in vita con un 20...65% di Punto[i] Salute e 42...90% di Punto[i] Energia.",
+				"concise": "Magia a Tocco. Fa risorgere il membro della squadra selezionato. (Salute: 20...65%; Energia: 42...90%)."
+			},
+			"jp": {
+				"name": "レストア ライフ",
+				"description": "スペル： 戦闘不能になったパーティー メンバーの死体に接触します。ターゲットしたパーティー メンバーは 20...65% の体力および 42...90% のエネルギーで復活します。",
+				"concise": "スペル (接触)： ターゲットしたパーティー メンバーが復活します (20...65% の体力と 42...90% のエネルギー)。"
+			},
+			"kr": {
+				"name": "소생",
+				"description": "마법. 대상 지정: 파티원. 전사한 파티원을 20...65%의 체력과 42...90%의 에너지를 가진 상태로 부활시킵니다. 이 마법은 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "마법(접근용). 파티원을 부화합니다.(체력 20...65%, 에너지 42...90%)"
+			},
+			"pl": {
+				"name": "Przywracanie Życia",
+				"description": "Czar. Dotykasz ciała martwego członka drużyny. Wraca on do życia z 20...65% pkt. żywotności i 42...90% pkt. energii.",
+				"concise": "Czar dotykowy. Wskrzesza wybranego członka drużyny (20...65% żywotności, 42...90% energii)."
+			},
+			"ru": {
+				"name": "Restore Life",
+				"description": "Заклинание. Вы касаетесь тела павшего в бою члена вашего отряда. Он возвращается к жизни с 20...65% здоровья и 42...90% энергии.",
+				"concise": "Заклинание прикосновения. Воскрешает выбранного члена отряда (20...65% здоровья, 42...90% энергии)."
+			},
+			"bork": {
+				"name": "Resture-a Leeffe-a",
+				"description": "Spell. Tuooch zee budy ooff a faellee paerty member. Taerget paerty member is retoorned tu leeffe-a veet 20...65% Heaelt und 42...90% Inergy.",
+				"concise": "Tuooch Spell. Resoorrects taerget paerty member (20...65% Heaelt, 42...90% Inergy). Bork! Bork! Bork!"
 			}
 		}
 	}

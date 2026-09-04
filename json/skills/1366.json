@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黑暗之池",
+				"description": "法池。 消耗一具最近的尸体或牺牲66%生命值，在其位置创造一个黑暗之井，持续5...50秒。黑暗之井范围内被诅咒的敌军有50%的概率攻击落空。",
+				"concise": "法池。 （5...50秒）此泉内带有魔咒的敌军攻击未命中率+50%。需利用新鲜的尸体或牺牲66%的生命值。"
+			},
+			"cht": {
+				"name": "暗夜之池",
+				"description": "湧泉魔法： Exploit nearest corpse or sacrifice 66% health to create a Well of Darkness for 5...50 seconds. Hexed foes within the Well of Darkness miss 50% of the time.",
+				"concise": "湧泉魔法： (5...50 seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen der Dunkelheit",
+				"description": "Brunnenzauber. Nutzt die nächstbeste Leiche oder opfert 66 % Eurer Lebenspunkte, um für 5...50 Sekunden einen Brunnen der Dunkelheit zu erzeugen. Verhexte Gegner innerhalb des Brunnens verfehlen 50 % der Zeit ihr Ziel.",
+				"concise": "Brunnenzauber. (5...50 Sekunden). Verhexte Gegner in diesem Brunnen haben eine Chance von 50 % auf einen Fehlschlag. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen der Dunkelheit",
 				"description": "Der nächste Kadaver wird an seiner Position 5...50 Sekunden lang in einen Brunnen der Dunkelheit verwandelt. Verhexte Feinde innerhalb des Brunnens der Dunkelheit verfehlen 50% der Zeit ihr Ziel.",
 				"concise": "(5...50 Sekunden.) Angriffe verhexter Feinde in diesem Brunnen haben eine 50%ige Wahrscheinlichkeit für einen Misserfolg. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Darkness",
+				"description": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Darkness for 5...50 seconds. Hexed foes within the Well of Darkness miss 50% of the time.",
+				"concise": "Well Spell. (5...50 seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Darkness",
 				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Darkness for 5...50 seconds. Hexed foes within the Well of Darkness miss 50% of the time.",
 				"concise": "(5...50 seconds.) Hexed foes in this well have 50% chance to miss. <gray>Exploits a fresh corpse or sacrifices 66% health</gray>."
 			},
+			"es": {
+				"name": "Pozo de oscuridad",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de oscuridad durante 5...50 segundos. Los enemigos con algún maleficio dentro del pozo fallarán el 50 % de las veces.",
+				"concise": "Conjuro de pozo. (5...50 segundos). Los enemigos con maleficio dentro de este pozo tienen un 50 % de probabilidades de fallar. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits d'obscurité",
+				"description": "Sort de puits. Exploitez le cadavre le plus proche ou sacrifiez 66% de santé pour créer un Puits d'obscurité pendant 5...50 secondes. Les ennemis victimes de maléfices dans ce puits ratent leurs attaques 50% du temps.",
+				"concise": "Sort de puits. (5...50 secondes.) Les ennemis sous l'effet d'un maléfice présents dans ce puits ont 50% de chances de manquer leur cible. Exploite un cadavre frais ou sacrifie 66% de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits d'obscurité",
 				"description": "Vous utilisez le cadavre visé pour créer un ''Puits d'obscurité'' pendant 5...50 secondes. Les ennemis affectés par un maléfice se trouvant dans le périmètre du ''Puits d'obscurité'' ratent leurs attaques 50% du temps.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo dell'Oscurità",
+				"description": "Pozzo. Sfrutta il cadavere più vicino o sacrifica il 66% della tua salute per creare un Pozzo dell'Oscurità per 5...50 secondo/i. I nemici maledetti nell'area del Pozzo dell'Oscurità mancano il bersaglio il 50% delle volte.",
+				"concise": "Pozzo. (5...50 secondo/i). I nemici colpiti da fattura in questo Pozzo hanno una probabilità del 50% di mancare. Utilizza un cadavere fresco o sacrifica il 66% della Salute."
+			},
+			"jp": {
+				"name": "ダークネス ウェル",
+				"description": "ウェル スペル： 最寄りの死体を使用するか体力の66%を犠牲にして、暗闇の泉を作ります。5...50秒間、この中にいる弱体化した敵は、50%の確率で攻撃をミスします。",
+				"concise": "ウェル スペル： （5...50秒）この泉にいる弱体化した敵は、50%の確率で攻撃をミスします。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "어둠의 늪",
+				"description": "늪. 가장 가까운 시체를 이용하거나 체력을 66% 희생하여 5...50초 동안 어둠의 늪을 만듭니다. 어둠의 늪 효과 범위 내에 있는 적들은 50%의 확률로 공격을 실패합니다.",
+				"concise": "늪. (5...50초) 어둠의 늪 효과 범위 내에 있는 약화 마법에 걸린 적들은 50%의 확률로 공격을 실패합니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Ciemności",
+				"description": "Czar studni. Wykorzystaj najbliższe zwłoki lub poświęć 66% swojej żywotności, by na 5...50 sek. utworzyć Studnię Ciemności. Przeciwnicy pod działaniem klątwy w zasięgu działania Studni Ciemności nie trafiają w 50% przypadków.",
+				"concise": "Czar studni. (5...50 sek.). Obłożeni klątwą przeciwnicy w tej studni mają 50% szans na chybienie. Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Darkness",
+				"description": "Заклинание-источник. Использует ближайший труп или жертвует 66% здоровья, чтобы на 5...50 сек. создать Well of Darkness. Проклятые враги в его пределах промахиваются в 50 случаев.",
+				"concise": "Заклинание-источник. (5...50 сек.) Проклятые враги в области могут промахнуться с вероятностью 50%. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Daerkness",
+				"description": "Vell Spell. Ixplueet neaerest curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Daerkness fur 5...50 secunds. Hexed fues veetheen zee Vell ooff Daerkness meess 50% ooff zee teeme-a.",
+				"concise": "Vell Spell. (5...50 secunds.) Hexed fues in thees vell haefe-a 50% chunce-a tu meess. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

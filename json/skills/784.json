@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蝰蛇缠绕",
+				"description": "咒文。 此技能必须接续在「起手技」之后使用。将目标敌人击倒，并且使其遭受「中毒 」症状 5...20秒。",
+				"concise": "咒文。 此技能必须接续在「起手技」之后使用。将目标敌人击倒，并且使其遭受「中毒 」症状 5...20秒。"
+			},
+			"cht": {
+				"name": "蛇纏毒殺",
+				"description": "咒文魔法： 必須接續在「引導攻擊」之後。使目標敵人被擊倒並且遭受「中毒 」病症 5...20 秒。",
+				"concise": "咒文魔法： 必須接續在「引導攻擊」之後。使目標敵人被擊倒並且遭受「中毒 」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Schlingnatter",
+				"description": "Zauber. Schlingnatter muss einem Leithandangriff folgen. Der Gegner wird zu Boden geworfen und leidet 5...20 Sekunde[n] lang unter Vergiftung.",
+				"concise": "Zauber. Wirft zu Boden. Verursacht Zustand Gift (5...20 Sekunde[n]). Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Schlingnatter",
 				"description": "Schlingnatter muss einem Leithandangriff folgen. Der Gegner wird zu Boden geworfen und leidet 5...20 Sekunden lang unter Vergiftung.",
 				"concise": "Wirft zu Boden. Verursacht Zustand Gift (5...20 Sekunden). <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Entangling Asp",
+				"description": "Spell. Entangling Asp must follow a lead attack. Target foe is knocked down and becomes Poisoned for 5...20 seconds.",
+				"concise": "Spell. Causes knock-down. Inflicts Poisoned condition (5...20 seconds). Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Entangling Asp",
 				"description": "Entangling Asp must follow a lead attack. Target foe is knocked down and becomes Poisoned for 5...20 seconds.",
 				"concise": "Causes knock-down. Inflicts Poisoned condition (5...20 seconds). <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Aspid",
+				"description": "Conjuro. Debe ir precedido de un ataque inicial. El enemigo objetivo es derribado y queda envenenado durante 5...20 segundos.",
+				"concise": "Conjuro. Causa derribo. Causa envenenamiento (5...20 segundos). Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Enlacement reptilien",
+				"description": "Sort. L'Enlacement reptilien doit succéder à une attaque main droite. La cible ennemie est assommée. Elle est empoisonnée pendant 5...20 secondes.",
+				"concise": "Sort. Attaque assommante. provoque l'Empoisonnement (5...20 secondes). Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Enlacement reptilien",
 				"description": "L'Enlacement reptilien doit succéder à une attaque main droite. La cible ennemie est assommée. Elle est empoisonnée pendant 5...20 secondes.",
 				"concise": "Attaque assommante. Provoque l'Empoisonnement (5...20 secondes). <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Aspide Attanagliante",
+				"description": "Magia. Deve seguire un attacco con arma primaria. Abbatte l'obiettivo nemico e lo avvelena per 5...20 secondo[i].",
+				"concise": "Magia. Provoca abbattimento. Condizione inflitta: Veleno (5...20 secondo[i]). Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "エンタングル アスプ",
+				"description": "スペル： このスペルは、リード アタックの次に使用します。ターゲットした敵が転倒し、5...20 秒間「毒」状態になります。",
+				"concise": "スペル： 転倒させて「毒」状態にします (5...20 秒)。このスペルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "코브라 덫",
+				"description": "마법. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 대상은 넘어지고 5...20초 동안 중독 상태가 됩니다.",
+				"concise": "마법. 바닥에 넘어뜨리고, 중독시킵니다.(5...20초) 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Wijąca się Żmija",
+				"description": "Czar. Wijąca się Żmija musi nastąpić po ataku poprzedzającym. Wybrany przeciwnik zostaje powalony oraz zatruty na 5...20 sek.",
+				"concise": "Czar. Powoduje powalenie. Wywołuje przypadłość zatrucie (5...20 sek.). Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Entangling Asp",
+				"description": "Заклинание. Должен следовать за ведущей атакой. Выбранный противник будет сбит с ног и будет отравлен на 5...20 сек.",
+				"concise": "Заклинание. Сбивает с ног. Вызывает отравление (5...20 сек). Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Intungleeng Aesp",
+				"description": "Spell. Intungleeng Aesp moost fulloo a leaed aettaeck. Taerget fue-a is knucked doon und becumes Pueesuned fur 5...20 secunds.",
+				"concise": "Spell. Cooses knuck-doon. Inffleects Pueesuned cundeeshun (5...20 secunds). Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

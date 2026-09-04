@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益分裂",
+				"description": "咒文。 牺牲1%的生命值。驱散目标敌人身上的一项「增益魔法」。",
+				"concise": "咒文。 牺牲1%的生命值。驱散目标敌人身上的一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "撕裂加持",
+				"description": "咒文魔法： 移除目標敵人1個加持，若成功移除，目標敵人受到流血5...25秒。",
+				"concise": "咒文魔法： 移除目標敵人1個加持，若成功移除，目標敵人受到流血5...25秒。"
+			},
 			"de": {
+				"name": "Verzauberung zerreißen",
+				"description": "Zauber. Entfernt 1 Verzauberung[en] vom Gegner. Wenn eine Verzauberung entfernt wurde, leidet er 5...25 Sekunde[n] lang an einer Blutung.",
+				"concise": "Zauber. Entfernt 1 Verzauberung[en]. Entfernungswirkung: Verursacht Blutung (5...25 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberung zerreißen",
 				"description": "Entfernt 1 Verzauberung vom Gegner. Wenn eine Verzauberung entfernt wurde, leidet er 5...25 Sekunden an einer Blutung.",
 				"concise": "Entfernt 1 Verzauberung. Entfernungswirkung: Verursacht Blutung (5...25 Sekunden)."
 			},
 			"en": {
 				"name": "Rip Enchantment",
+				"description": "Spell. Remove 1 enchantments from target foe. If an enchantment was removed, that foe suffers from Bleeding for 5...25 seconds.",
+				"concise": "Spell. Removes 1 enchantments. Removal effect: inflicts Bleeding (5...25 seconds)."
+			},
+			"en-gww": {
+				"name": "Rip Enchantment",
 				"description": "Remove 1 enchantment from target foe. If an enchantment was removed, that foe suffers from Bleeding for 5...25 seconds.",
 				"concise": "Removes 1 enchantment. Removal effect: inflicts Bleeding (5...25 seconds)."
 			},
+			"es": {
+				"name": "Rasgar encantamiento",
+				"description": "Conjuro. Eliminas 1 encantamientos del enemigo objetivo. Si se elimina un encantamiento, ese enemigo sufrirá una hemorragia durante 5...25 segundos.",
+				"concise": "Conjuro. Elimina 1 encantamientos. Efecto de la eliminación: causa una hemorragia (5...25 segundos)."
+			},
 			"fr": {
+				"name": "Confiscation d'enchantement",
+				"description": "Sort. Ote 1 enchantements à la cible ennemie. Si un enchantement est levé de cette manière, cet ennemi souffre de Saignement pendant 5...25 secondes.",
+				"concise": "Sort. Ote 1 enchantements. Effet de la suppression : inflige le Saignement (5...25 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Confiscation d'enchantement",
 				"description": "Ôte 1 enchantement à la cible ennemie. Si un enchantement est levé de cette manière, l'ennemi souffre de Saignement pendant 5...25 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Squarcia Incantesimo",
+				"description": "Magia. Rimuovi 1 incantesimo[i] dall'obiettivo nemico. Se un incantesimo viene rimosso, quel nemico soffrirà di Emorragia per 5...25 secondo[i].",
+				"concise": "Magia. Incantesimi rimossi: 1. Effetto della rimozione: infligge Emorragia (5...25 secondo[i])."
+			},
+			"jp": {
+				"name": "リップ エンチャント",
+				"description": "スペル： ターゲットした敵から強化スペルを 1 個解除します。強化スペルを解除した場合、その敵は 5...25 秒間「出血」状態になります。",
+				"concise": "スペル： 強化スペルを 1 個解除します。解除効果： 「出血」状態にします (5...25 秒) 。"
+			},
+			"kr": {
+				"name": "강화 마법 해제",
+				"description": "마법. 대상 지정: 적. 대상에 걸린 강화 마법 1개를 무효화합니다. 강화 마법이 무효화되면 대상은 5...25초 동안 출혈을 일으킵니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 1개를 무효화합니다. 무효화 효과: 대상이 출혈을 일으킵니다.(5...25초)"
+			},
+			"pl": {
+				"name": "Rozdarcie Zaklęcia",
+				"description": "Czar. Z wybranego przeciwnika zdejmujesz zaklęcia w liczbie 1. Jeżeli zaklęcie zostało zdjęte, przeciwnik ten przez 5...25 sek. będzie krwawił.",
+				"concise": "Czar. Usuwa zaklęcia w liczbie 1. Efekt usunięcia: wywołuje przypadłość krwawienie (5...25 sek.)."
+			},
+			"ru": {
+				"name": "Rip Enchantment",
+				"description": "Заклинание. Снимает чары (1) с выбранного противника. Если чары были успешно сняты, этот противник будет кровоточить в течение 5...25 сек.",
+				"concise": "Заклинание. Снимает чары (1). Эффект снятия: вызывает кровотечение (5...25 сек)."
+			},
+			"bork": {
+				"name": "Reep Inchuntment",
+				"description": "Spell. Remufe-a 1 inchuntments frum taerget fue-a. Iff un inchuntment vaes remufed, thaet fue-a sooffffers frum Bleedeeng fur 5...25 secunds.",
+				"concise": "Spell. Remufes 1 inchuntments. Remufael iffffect: inffleects Bleedeeng (5...25 secunds)."
 			}
 		}
 	}

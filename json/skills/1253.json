@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "血歌",
+				"description": "缚灵仪式。 创造一只等级为1...12的血歌缚灵，缚灵的攻击将偷取敌人最多5...25点生命值。缚灵将在30...150秒后自然消失。",
+				"concise": "缚灵仪式。 从目标敌人偷取最多 5...25 生命。"
+			},
+			"cht": {
+				"name": "血歌",
+				"description": "縛靈儀式： 創造等級 1...12 的血歌縛靈，縛靈的攻擊偷取敵人最多 5...25 的體力。縛靈將在 30...150 秒後消失。",
+				"concise": "縛靈儀式： 創造等級 1...12 的血歌縛靈，縛靈的攻擊偷取敵人最多 5...25 的體力。縛靈將在 30...150 秒後消失。"
+			},
 			"de": {
+				"name": "Blutgesang",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...12, der nach 30...150 Sekunde[n] stirbt. Angriffe durch diesen Geist entziehen bis zu 5...25 Lebenspunkt[e]",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...12 (30...150 Sekunde[n] Lebensdauer). Seine Angriffe entziehen 5...25 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Blutgesang",
 				"description": "Erstellt einen Geist der Stufe 1...12, der nach 30...150 Sekunden stirbt. Angriffe durch diesen Geist entziehen bis zu 5...25 Lebenspunkte und fügen 0 Schaden zu.",
 				"concise": "Erstellt einen Geist der Stufe 1...12 (30...150 Sekunden Lebensdauer). Seine Angriffe entziehen 5...25 Lebenspunkte und fügen 0 Schaden zu."
 			},
 			"en": {
 				"name": "Bloodsong",
+				"description": "Binding Ritual. Create a level 1...12 spirit who dies after 30...150 seconds. Attacks by that spirit steal up to 5...25 Health.",
+				"concise": "Binding Ritual. Creates a level 1...12 spirit (30...150 second lifespan). Its attacks steal 5...25 Health."
+			},
+			"en-gww": {
+				"name": "Bloodsong",
 				"description": "Create a level 1...12 spirit who dies after 30...150 seconds. Attacks by that spirit steal up to 5...25 Health.",
 				"concise": "Creates a level 1...12 spirit (30...150 second lifespan). Its attacks steal 5...25 Health."
 			},
+			"es": {
+				"name": "Canción sangrienta",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...12 que muere a los 30...150 segundos. Los ataques de este espíritu roban hasta 5...25 de salud.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...12 (30...150 segundos de vida). Sus ataques roban 5...25 de salud."
+			},
 			"fr": {
+				"name": "Mélodie du sang",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...12 qui meurt au bout de 30...150 secondes. Les attaques de cet esprit absorbent jusqu'à 5...25 points de vie.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...12 (durée de vie de 30...150 secondes). Ses attaques volent 5...25 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Mélodie du sang",
 				"description": "Crée un esprit de niveau 1...12 qui meurt au bout de 30...150 secondes. Les attaques de cet esprit absorbent jusqu'à 5...25 points de vie.",
 				"concise": "Crée un esprit de niveau 1...12 (durée de vie de 30...150 secondes). Ses attaques volent 5...25 points de vie."
+			},
+			"it": {
+				"name": "Canto Sanguinario",
+				"description": "Rituale Incatenante. Crei uno Spirito di livello 1...12 che si esaurisce dopo 30...150 secondo[i]; i suoi attacchi sottraggono fino a 5...25 Punto[i] Salute.",
+				"concise": "Rituale Incatenante. Crei uno Spirito di livello 1...12 (in vita per 30...150 secondo[i]). Salute sottratta dai suoi attacchi: 5...25."
+			},
+			"jp": {
+				"name": "ブラッドソング",
+				"description": "バインド リチュアル： 30...150 秒後に消滅するレベル 1...12 の精霊を召喚します。この精霊は攻撃により最大 5...25 の体力を奪い取ります。",
+				"concise": "バインド リチュアル： レベル 1...12 の精霊を召喚します (30...150 秒)。この精霊の攻撃は 5...25 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "피의 찬가 영혼",
+				"description": "영혼 결속. 대상 지정: 없음. 1...12레벨의 영혼을 소환합니다. 영혼의 공격이 5...25의 체력을 뺏습니다. 영혼은 30...150초 후 사라집니다.",
+				"concise": "영혼 결속. 1...12레벨 영혼을 소환합니다.(수명: 30...150초) 영혼의 공격이 5...25의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Pieśń Krwi",
+				"description": "Rytuał spętania. Tworzysz ducha na poziomie 1...12, który ginie po 30...150 sek. Ataki tego ducha wykradają do 5...25 pkt. żywotności.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...12 (czas życia 30...150 sek.). Jego ataki wykradają 5...25 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Bloodsong",
+				"description": "Связующий ритуал. Создает духа 1...12 уровня, который умирает через 30...150 сек. Атаки этого духа похищают до 5...25 ед. здоровья.",
+				"concise": "Связующий ритуал. Создает духа 1...12 уровня (30...150 сек жизни). Его атаки похищают 5...25 ед. здоровья."
+			},
+			"bork": {
+				"name": "Bluudsung",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...12 spureet vhu deees aeffter 30...150 secunds. Aettaecks by thaet spureet steael up tu 5...25 Heaelt.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...12 spureet (30...150 secund leeffespun). Its aettaecks steael 5...25 Heaelt."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "螳螂之刺",
+				"description": "起手技。 命中时对目标造成 5...15点 额外伤害。如果目标正在移动，则使其遭受「致残」症状 3...15秒。",
+				"concise": "起手技。 命中时对目标造成 5...15点 额外伤害。如果目标正在移动，则使其遭受「致残」症状 3...15秒。"
+			},
+			"cht": {
+				"name": "螳螂之刺",
+				"description": "引導攻擊： 當螳螂之刺命中時，對目標造成 5...15 額外傷害。若目標正在移動，則使其遭受「殘廢」病症 3...15 秒。",
+				"concise": "引導攻擊： 當螳螂之刺命中時，對目標造成 5...15 額外傷害。若目標正在移動，則使其遭受「殘廢」病症 3...15 秒。"
+			},
 			"de": {
+				"name": "Stich der springenden Mantis",
+				"description": "Leithandangriff. Wenn Stich der Mantis erfolgreich ist, erleidet der Gegner +5...15 Punkt[e] Schaden. Wenn dieser Angriff einen sich bewegenden Gegner trifft, wird dieser 3...15 Sekunde[n] lang verkrüppelt.",
+				"concise": "Leithandangriff. Richtet +5...15 Punkt[e] Schaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunde[n]), falls der Gegner sich bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Stich der springenden Mantis",
 				"description": "Wenn Stich der Mantis erfolgreich ist, erleidet der Gegner +5...15 Punkte Schaden. Wenn dieser Angriff einen sich bewegenden Gegner trifft, wird dieser 3...15 Sekunden lang verkrüppelt.",
 				"concise": "Richtet +5...15 Punkte Schaden an. Verursacht Zustand Verkrüppelung (3...15 Sekunden), falls der Gegner sich bewegt."
 			},
 			"en": {
 				"name": "Leaping Mantis Sting",
+				"description": "Lead Attack. If Mantis Sting hits, target foe takes +5...15 damage. If this attack strikes a moving foe, that foe is Crippled for 3...15 seconds.",
+				"concise": "Lead Attack. Deals +5...15 damage. Inflicts Crippled condition (3...15 seconds) if target foe is moving."
+			},
+			"en-gww": {
+				"name": "Leaping Mantis Sting",
 				"description": "If Mantis Sting hits, target foe takes +5...15 damage. If this attack strikes a moving foe, that foe is Crippled for 3...15 seconds.",
 				"concise": "Deals +5...15 damage. Inflicts Crippled condition (3...15 seconds) if target foe is moving."
 			},
+			"es": {
+				"name": "Picadura de mantis",
+				"description": "Ataque inicial. Si alcanzas al enemigo objetivo, le harás +5...15 de daño. Si estaba en movimiento, quedará lisiado durante 3...15 segundos.",
+				"concise": "Ataque inicial. Hace +5...15 de daño. Causa lisiadura (3...15 segundos) si el enemigo objetivo está moviéndose."
+			},
 			"fr": {
+				"name": "Piqûre de mante sauteuse",
+				"description": "Attaque main droite. Si la Piqûre de mante sauteuse réussit, la cible ennemie subit +5...15 points de dégâts. Si l'attaque touche un ennemi en déplacement, celui-ci souffre d'Infirmité pendant 3...15 secondes.",
+				"concise": "Attaque main droite. Inflige +5...15 points de dégâts. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est en mouvement."
+			},
+			"fr-gwiki": {
 				"name": "Piqûre de mante sauteuse",
 				"description": "Si la Piqûre de mante sauteuse réussit, la cible ennemie subit +14...20 points de dégâts. Si l'attaque touche un ennemi en déplacement, celui-ci souffre d'Infirmité pendant 3...15 secondes.",
 				"concise": "Inflige +14...20 points de dégâts. Provoque l'Infirmité (3...15 secondes) si la cible ennemie est en mouvement."
+			},
+			"it": {
+				"name": "Pungiglione della Mantide Saltante",
+				"description": "Attacco con Arma Primaria. Se va a segno, l'obiettivo nemico subisce +5...15 danno[i]; se colpisce un nemico in movimento, lo fa diventare storpio per 3...15 secondo[i].",
+				"concise": "Attacco con Arma Primaria. Danni inferti: +5...15. Condizione inflitta se l'obiettivo nemico si sta muovendo: Storpiatura (3...15 secondo[i])."
+			},
+			"jp": {
+				"name": "リープ マンティス スティング",
+				"description": "リード アタック： 攻撃が成功すると、ターゲットした敵に 5...15 の追加ダメージを与えます。敵が移動中の場合、その敵は 3...15 秒間「不自由」状態になります。",
+				"concise": "リード アタック： 5...15 の追加ダメージを与えます。ターゲットした敵が移動中の場合、「不自由」状態にします (3...15 秒)。"
+			},
+			"kr": {
+				"name": "사마귀 독침",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...15의 대미지를 추가로 줍니다. 그 대상이 이동 중이었다면 3...15초 동안 다리 부상 상태가 됩니다.",
+				"concise": "주 공격. 5...15의 대미지를 추가로 줍니다. 대상이 이동 중이라면 다리 부상을 입힙니다.(3...15초)"
+			},
+			"pl": {
+				"name": "Żądło Skaczącej Modliszki",
+				"description": "Atak poprzedzający. Jeżeli Żądło Modliszki trafi, wybrany przeciwnik otrzymuje 5...15 pkt. obrażeń. Jeśli atak trafi poruszającego się przeciwnika, zostaje on okulawiony na 3...15 sek.",
+				"concise": "Atak poprzedzający. Zadaje +5...15 pkt. obrażeń. Wywołuje przypadłość okulawienie (3...15 sek.), jeżeli wybrany przeciwnik porusza się."
+			},
+			"ru": {
+				"name": "Leaping Mantis Sting",
+				"description": "Ведущая атака. Если удар попадает в цель, выбранный противник получает дополнительно 5...15 ед. урона. Если противник в этот момент двигался, то он будет хромать в течение 3...15 сек.",
+				"concise": "Ведущая атака. Наносит дополнительно 5...15 ед. урона. Вызывает хромоту (3...15 сек), если выбранный противник двигался."
+			},
+			"bork": {
+				"name": "Leaepeeng Muntees Steeng",
+				"description": "Leaed Aettaeck. Iff Muntees Steeng heets, taerget fue-a taekes +5...15 daemaege-a. Iff thees aettaeck streekes a mufeeng fue-a, thaet fue-a is Creeppled fur 3...15 secunds.",
+				"concise": "Leaed Aettaeck. Deaels +5...15 daemaege-a. Inffleects Creeppled cundeeshun (3...15 secunds) iff taerget fue-a is mufeeng."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "残足之痛",
+				"description": "精英负面魔法。 使目标敌人的移动速度降低50%，同时遭受1...8点「生命衰减」，持续5...20秒。",
+				"concise": "精英负面魔法。 在5...20秒之内，使目标的移动速度降低50%，同时遭受1...8点「生命衰减」。"
+			},
+			"cht": {
+				"name": "殘廢苦痛",
+				"description": "精英降咒魔法： 持續 5...20 秒，目標敵人受到體力衰減 1...8 ，且攻擊和移動速度減慢 50% 。",
+				"concise": "精英降咒魔法： 持續 5...20 秒，目標敵人受到體力衰減 1...8 ，且攻擊和移動速度減慢 50% 。"
+			},
 			"de": {
+				"name": "Verkrüppelnde Qual",
+				"description": "Elite-Verhexung. 5...20 Sekunde[n] lang sind Bewegung und Angriffe des Ziels um 50% langsamer. Der Gegner unterliegt außerdem einer Lebenspunktdegeneration von -1...8.",
+				"concise": "Elite-Verhexung. (5...20 Sekunde[n].) Bewegung und Angriffe des Gegners sind um 50% langsamer und er hat -1...8 Lebenspunktdegeneration."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelnde Qual",
 				"description": "5...20 Sekunden lang sind Bewegung und Angriffe des Ziels um 50% langsamer. Der Gegner unterliegt außerdem einer Lebenspunktdegeneration von -1...8.",
 				"concise": "(5...20 Sekunden.) Bewegungen und Angriffe des Gegners sind um 50% langsamer und er hat -1...8 Lebenspunktdegeneration."
 			},
 			"en": {
 				"name": "Crippling Anguish",
+				"description": "Elite Hex Spell. For 5...20 seconds, target moves and attacks 50% slower and suffers -1...8 Health degeneration.",
+				"concise": "Elite Hex Spell. (5...20 seconds.) Target foe moves and attacks 50% slower and has -1...8 Health degeneration."
+			},
+			"en-gww": {
+				"name": "Crippling Anguish",
 				"description": "For 5...20 seconds, target moves and attacks 50% slower and suffers -1...8 Health degeneration.",
 				"concise": "(5...20 seconds.) Target foe moves and attacks 50% slower and has -1...8 Health degeneration."
 			},
+			"es": {
+				"name": "Angustia agobiante",
+				"description": "Conjuro con maleficio de élite. Durante 5...20 segundos, el enemigo objetivo se mueve y ataca un 50% más lento y sufre una degeneración de salud de -1...8.",
+				"concise": "Conjuro con maleficio de élite. (5...20 segundos). El enemigo objetivo ataca un 50% más lento y tiene -1...8 de degeneración de salud."
+			},
 			"fr": {
+				"name": "Angoisse paralysante",
+				"description": "Maléfice d'élite. Pendant 5...20 secondes, la cible se déplace et attaque 50% moins vite et subit une dégénération de santé de -1...8.",
+				"concise": "Maléfice d'élite. (5...20 secondes.) L'ennemi visé se déplace et attaque 50% moins vite et subit une dégénération de santé de -1...8."
+			},
+			"fr-gwiki": {
 				"name": "Angoisse paralysante",
 				"description": "Pendant 5...20 secondes, la cible se déplace et attaque 50% moins vite et subit une dégénération de santé de -1...8.",
 				"concise": "(5...20 secondes.) L'ennemi visé se déplace et attaque 50% moins vite et subit une dégénération de santé de -1...8."
+			},
+			"it": {
+				"name": "Angoscia Paralizzante",
+				"description": "Fattura d'Élite. Per 5...20 secondi la velocità di movimento e di attacco dell'obiettivo diminuisce di un 50% e l'obiettivo subisce una Degenerazione Salute di -1...8.",
+				"concise": "Fattura d'Élite. (Secondi: 5...20). Rallentamento velocità di movimento e attacco dell'obiettivo nemico: 50%. Degenerazione Salute subita: -1...8."
+			},
+			"jp": {
+				"name": "クリップル アングウィッシュ",
+				"description": "エリート弱体化スペル： 5...20 秒間、ターゲットは移動および攻撃速度が50%、体力の自然回復力が 1...8 減少します。",
+				"concise": "エリート弱体化スペル： (5...20 秒) ターゲットした敵は移動および攻撃速度が50%、体力の自然回復力が 1...8 減少します。"
+			},
+			"kr": {
+				"name": "속박의 고통",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 5...20초 동안 대상의 이동 속도와 공격 속도가 50% 느려지고, 체력 재생이 1...8만큼 감소합니다.",
+				"concise": "엘리트 약화 마법. (5...20초) 대상의 이동 속도와 공격 속도가 50% 느려지고, 체력 재생이 1...8만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Okulawiające Katusze",
+				"description": "Elitarna klątwa (czar). Przez 5...20 sek., cel porusza się i atakuje 50% wolniej, otrzymuje też -1...8 do regeneracji zdrowia.",
+				"concise": "Elitarna klątwa (czar). (5...20 sek.) Cel porusza się i atakuje 50% wolniej, otrzymuje też -1...8 do regeneracji zdrowia."
+			},
+			"ru": {
+				"name": "Crippling Anguish",
+				"description": "Элитное заклинание-проклятье. В течение 5...20 сек выбранный противник двигается и атакует на 50% медленнее, а его скорость восстановления здоровья уменьшается на 1...8 ед.",
+				"concise": "Элитное заклинание-проклятье. (5...20 сек) Выбранный противник двигается и атакует на 50% медленнее и получает -1...8 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Creeppleeng Ungooeesh",
+				"description": "Ileete-a Hex Spell. Fur 5...20 secunds, taerget mufes und aettaecks 50% slooer und sooffffers -1...8 Heaelt degeneraeshun.",
+				"concise": "Ileete-a Hex Spell. (5...20 secunds.) Taerget fue-a mufes und aettaecks 50% slooer und haes -1...8 Heaelt degeneraeshun."
 			}
 		}
 	}

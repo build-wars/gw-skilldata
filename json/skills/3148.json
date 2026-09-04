@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "嫉恨圣歌",
+				"description": "圣歌。 在10秒之内，「音波」范围内任何友方的下一次攻击技能将对生命值高于50%的敌人造成10...20点额外伤害。",
+				"concise": "圣歌。 在10秒之内，「音波」范围内任何友方的下一次攻击技能将对生命值高于50%的敌人造成10...20点额外伤害。"
+			},
+			"cht": {
+				"name": "妒忌聖歌",
+				"description": "聖歌： 持續 10 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50% 的目標使用「攻擊技能」時，造成的傷害增加 10...20 。",
+				"concise": "聖歌： 持續 10 秒，使音量所及範圍內的盟友，「下一次」對體力高於 50% 的目標使用「攻擊技能」時，造成的傷害增加 10...20 。"
+			},
 			"de": {
+				"name": "Hymne des Neids (PvP)",
+				"description": "Anfeuerungsruf. 10 Sekunde[n] lang führt die nächste Angriffsfertigkeit von jedem Verbündeten in Hörweite bei Feinden mit mehr als 50% Lebenspunkten zu +10...20 Punkt[en] Schaden.",
+				"concise": "Anfeuerungsruf. (10 Sekunde[n].) Verbündete in Hörweite richten mit ihrer nächsten Angriffsfertigkeit +10...20 Punkt[e] Schaden an. Schadensbonus gilt nur bei Feinden mit mehr als 50% ihrer maximalen Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Hymne des Neids (PvP)",
 				"description": "10 Sekunden lang führt die nächste Angriffsfertigkeit von jedem Verbündeten in Hörweite bei Feinden mit mehr als 50% Lebenspunkten zu +10...20 Punkten Schaden.",
 				"concise": "10 Sekunden: Verbündete in Hörweite richten mit ihrer nächsten Angriffsfertigkeit +10...20 Schaden an. <gray>Schadensbonus gilt nur bei Feinden mit mehr als 50% ihrer maximalen Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Anthem of Envy (PvP)",
+				"description": "Chant. For 10 seconds, the next attack skill used by each ally within earshot deals +10...20 damage against foes with more than 50% Health.",
+				"concise": "Chant. (10 seconds.) Allies in earshot do +10...20 damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health."
+			},
+			"en-gww": {
+				"name": "Anthem of Envy (PvP)",
 				"description": "For 10 seconds, the next attack skill used by each ally within earshot deals +10...20 damage against foes with more than 50% Health.",
 				"concise": "(10 seconds.) Allies in earshot do +10...20 damage with their next attack skill. <gray>Damage bonus only applies to foes with more than 50% Health.</gray>"
 			},
+			"es": {
+				"name": "Himno de envidia (PvP)",
+				"description": "Cántico. Durante 10 segundos, la siguiente habilidad de ataque que usen los aliados al alcance del oído hará +10...20 de daño a los enemigos con más del 50% de salud.",
+				"concise": "Cántico. (10 segundos.) Los aliados al alcance del oído hacen +10...20 de daño con su siguiente habilidad de ataque. El extra de daño sólo se aplica a los enemigos con más del 50% de salud."
+			},
 			"fr": {
+				"name": "Hymne de la jalousie (PvP)",
+				"description": "Chant. Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix inflige +10...20 points de dégâts contre les ennemis ayant plus de 50% de santé.",
+				"concise": "Chant. (10 secondes.) Les alliés à portée de voix infligent +10...20 points de dégâts avec leur compétence d'attaque suivante. Le bonus de dégâts est appliqué uniquement contre les ennemis possédant plus de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Hymne de jalousie (PvP)",
 				"description": "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix inflige +10...20 points de dégâts contre les ennemis ayant plus de 50% de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Inno dell'Invidia (PvP)",
+				"description": "Canto. Per 10 secondi l'abilità d'attacco successiva utilizzata da ogni alleato a portata d'orecchio infligge +10...20 di danni ai nemici con Salute superiore a un 50%.",
+				"concise": "Canto. (Secondi: 10) Danni inferti dagli alleati a portata d'orecchio con l'abilità d'attacco successiva: +10...20. Il danno extra si applica solo ai nemici con Salute superiore a un 50%."
+			},
+			"jp": {
+				"name": "エンヴィー アンセム (PvP)",
+				"description": "チャント： 10 秒間、声の届く範囲内にいる各味方が次にアタック スキルを使用すると、体力が50%以上残っている敵に 10...20 の追加ダメージを与えます。",
+				"concise": "チャント： (10 秒) 声の届く範囲内にいる味方は、次にアタック スキルを使用すると 10...20 の追加ダメージを与えます。このダメージ ボーナスは、体力が上限の50%以下の敵には無効です。"
+			},
+			"kr": {
+				"name": "선망의 성가(대인전)",
+				"description": "영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 아군이 체력이 50%가 넘는 적에게 공격 스킬을 사용하면 10...20의 대미지를 추가로 줍니다. 아군마다 한 번만 효과가 있습니다.",
+				"concise": "영창. (10초) 가청 범위 내에 있는 아군의 처음 공격 스킬은 10...20의 대미지를 추가로 줍니다. 체력이 50%가 넘는 적에게만 추가 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Hymn Zazdrości (PvP)",
+				"description": "Zaśpiew. Przez 10 sek., następna umiejętność związana z atakiem, użyta przez każdego sojusznika w zasięgu słuchu zadaje +10...20 pkt. obrażeń przeciwnikom posiadającym więcej niż 50% pkt. żywotności.",
+				"concise": "Zaśpiew. (10 sek.) Sojusznicy w zasięgu słuchu, ze swoją następną umiejętnością związaną z atakiem zadają +10...20 pkt. obrażeń. Dodatkowe obrażenia zadawane są tylko przeciwnikom, kt&oacute;rzy mają więcej niż 50% żywotności."
+			},
+			"ru": {
+				"name": "Anthem of Envy (PvP)",
+				"description": "Хорал. В течение 10 сек следующее атакующее умение, использованное каждым союзником, находящимся в зоне слышимости, наносит дополнительно 10...20 ед. урона противникам, чей уровень здоровья выше 50%.",
+				"concise": "Хорал. (10 сек) Союзники в зоне слышимости наносят дополнительно 10...20 ед. урона при следующем использовании ими атакующего умения. Увеличение урона срабатывает только против врагов, у которых больше 50% здоровья."
+			},
+			"bork": {
+				"name": "Unzeem ooff Infy (PfP)",
+				"description": "Chunt. Fur 10 secunds, zee next aettaeck skeell used by iaech aelly veetheen iaershut deaels +10...20 daemaege-a aegaeeenst fues veet mure-a thun 50% Heaelt.",
+				"concise": "Chunt. (10 secunds.) Aelleees in iaershut du +10...20 daemaege-a veet zeeur next aettaeck skeell. Daemaege-a bunoos oonly aeppleees tu fues veet mure-a thun 50% Heaelt."
 			}
 		}
 	}

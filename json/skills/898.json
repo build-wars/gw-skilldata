@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "超载",
+				"description": "负面魔法。 目标敌军承受-1...3生命衰减，持续5秒。若该目标正在施法，超载将对其造成15...75点伤害，且邻近敌军承受该伤害75%的伤害。",
+				"concise": "负面魔法。 （5秒）造成-1...3生命衰减。如果目标敌军正在使用技能，该敌军承受15...75点上海并且相邻的敌军承受该伤害75%的伤害。"
+			},
+			"cht": {
+				"name": "超載",
+				"description": "降咒魔法： For 5 seconds, target foe suffers -1...3 Health degeneration. If target foe is using a skill, Overload deals 15...75 damage to that foe and 75% of that damage to all adjacent foes.",
+				"concise": "降咒魔法： (5 seconds.) Causes -1...3 Health degeneration. If target foe is using a skill, that foe takes 15...75 damage and all adjacent foes take 75% of that damage."
+			},
 			"de": {
 				"name": "Überlastung",
-				"description": "5 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleidet niemand 15...75 Punkte Schaden und der Gegner und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
-				"concise": "(5 Sekunden.) Verursacht -1...3 Lebenspunktdegeneration. Falls dieser Gegner gerade eine Fertigkeit wirkt, erleidet niemand 15...75 Punkte Schaden und der Gegner und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56)."
+				"description": "Verhexung. Für 5 Sekunden erleidet der anvisierte Gegner-1...3 Lebenspunktdegeneration. Wenn er eine Fertigkeit verwendet, erleidet er 15...75 Schaden durch Überlastung, und alle benachbarten Gegner erleiden 75 % dieses Schadens.",
+				"concise": "Verhexung. (5 Sekunden). Verursacht -1...3 Lebenspunktdegeneration. Wenn der anvisierte Gegner eine Fertigkeit verwendet, erleidet er 15...75 Schaden, und alle benachbarten Gegner erleiden 75 % dieses Schadens."
+			},
+			"de-guildwiki": {
+				"name": "Überlastung",
+				"description": "Für 5 Sekunden erleidet der anvisierte Gegner -1...3. Wenn er eine Fertigkeit verwendet, erleidet er 15...75 Schaden durch Überlastung, und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
+				"concise": "(5 Sekunden.) Verursacht -1...3 Lebenspunktdegeneration. Wenn der anvisierte Gegner gerade eine Fertigkeit verwendet, erleidet er 15...75 Schaden, und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56)."
 			},
 			"en": {
+				"name": "Overload",
+				"description": "Hex Spell. For 5 seconds, target foe suffers -1...3 Health degeneration. If target foe is using a skill, Overload deals 15...75 damage to that foe and 75% of that damage to all adjacent foes.",
+				"concise": "Hex Spell. (5 seconds.) Causes -1...3 Health degeneration. If target foe is using a skill, that foe takes 15...75 damage and all adjacent foes take 75% of that damage."
+			},
+			"en-gww": {
 				"name": "Overload",
 				"description": "For 5 seconds, target foe suffers -1...3 Health degeneration. If target foe is using a skill, then Overload deals 15...75 damage to that foe and 75% of that damage to all adjacent foes.",
 				"concise": "(5 seconds.) Causes -1...3 Health degeneration. If target foe is using a skill, that foe takes 15...75 damage and all adjacent foes take 75% of that damage."
 			},
+			"es": {
+				"name": "Sobrecarga",
+				"description": "Conjuro con maleficio. Durante 5 segundos, el enemigo objetivo sufre -1...3 de degeneración de salud. Si el enemigo objetivo está usando una habilidad, Sobrecarga hace 15...75 de daño al enemigo y un 75 % de ese daño a todos los enemigos adyacentes.",
+				"concise": "Conjuro con maleficio. (5 segundos). Causa -1...3 de degeneración de salud. Si el enemigo objetivo está usando una habilidad, ese enemigo sufre 15...75 de daño y todos los enemigos adyacentes a él reciben un 75 % de ese daño."
+			},
 			"fr": {
+				"name": "Surcharge",
+				"description": "Maléfice. Pendant 5 secondes, l'ennemi ciblé subit -1...3 points de dégénération de santé. Si l'ennemi ciblé réussit à utiliser une compétence, Surtension lui inflige 15...75 points de dégâts ainsi que 75% de ces dégâts à tous les ennemis adjacents.",
+				"concise": "Maléfice. (5 secondes.) Provoque -1...3 points de dégénération de santé. Si l'ennemi ciblé réussit à utiliser une compétence, il subit 15...75 points de dégâts et tous les ennemis adjacents subissent 75% de ces dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Surcharge",
 				"description": "Pendant 5 secondes, la cible ennemie subit une dégénération de santé de -1...3. Si la cible utilise une compétence, surcharge inflige +5...50 points de dégâts ainsi qu'à tous les ennemis adjacents.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sovraccarico",
+				"description": "Fattura. Per 5 secondo/i, il bersaglio subisce -1...3 degenerazione della Salute. Se il bersaglio sta usando un'abilità, subisce 15...75 danni da Overload, e tutti i nemici adiacenti subiscono il 75% di quei danni.",
+				"concise": "Fattura. (5 secondo/i). Provoca -1...3 degenerazione della Salute. Se il bersaglio sta usando un'abilità, subisce 15...75 danni, e tutti i nemici adiacenti subiscono il 75% di quei danni."
+			},
+			"jp": {
+				"name": "オーバーロード",
+				"description": "弱体化スペル： 5秒間、標的となった敵は-1...3の体力減少を受けます。標的となった敵がスキルを使用している場合、オーバーロードはその敵に15...75ダメージを与え、すべての隣接する敵にそのダメージの75%を与えます。",
+				"concise": "弱体化スペル： （5秒）-1...3の体力減少を与えます。標的となった敵がスキルを使用している場合、その敵は15...75ダメージを受け、すべての隣接する敵はそのダメージの75%を受けます。"
+			},
+			"kr": {
+				"name": "과부하",
+				"description": "약화 마법. 대상 지정: 적. 5초 동안 대상의 체력 재생이 1...3만큼 감소합니다. 대상이 스킬을 사용 중이면 대상은 15...75의 대미지를 입고, 그에 인접한 모든 적은 그 대미지의 75%를 받습니다.",
+				"concise": "약화 마법. (5초) 체력 재생을 1...3만큼 감소시킵니다. 대상이 스킬을 사용 중이면 대상에게 15...75의 대미지를 입히고, 그에 인접한 모든 적에게 그 대미지의 75%를 줍니다."
+			},
+			"pl": {
+				"name": "Przeciążenie",
+				"description": "Klątwa (czar). Przez 5 sek., wybrany wróg otrzymuje -1...3 pkt. degeneracji żywotności. Jeśli wybrany przeciwnik używa jakiejś umiejętności, Przeciążenie zadaje mu 15...75 pkt. obrażeń, a wszystkim wrogom w jego bezpośrednim sąsiedztwie 75% tych obrażeń.",
+				"concise": "Klątwa (czar). (5 sek.). Powoduje degenerację żywotności -1...3. Jeśli wybrany przeciwnik używa umiejętności, odnosi 15...75 pkt. obrażeń, a wszyscy wrogowie w jego bezpośrednim sąsiedztwie otrzymują 75% tych obrażeń."
+			},
+			"ru": {
+				"name": "Overload",
+				"description": "Заклинание-проклятье. Цель на 5 сек. получает -1...3 к снижению здоровья. Если цель использует навык, Overload наносит 15...75 урона самому врагу и 75% урона соседним врагам.",
+				"concise": "Заклинание-проклятье. (5 сек.) Накладывает -1...3 к снижению здоровья. Если цель использует навык, она получает 15...75 урона, а соседние враги — 75% урона."
+			},
+			"bork": {
+				"name": "Ooferluaed",
+				"description": "Hex Spell. Fur 5 secunds, taerget fue-a sooffffers -1...3 Heaelt degeneraeshun. Iff taerget fue-a is useeng a skeell, Ooferluaed deaels 15...75 daemaege-a tu thaet fue-a und 75% ooff thaet daemaege-a tu aell aedjaecent fues.",
+				"concise": "Hex Spell. (5 secunds.) Cooses -1...3 Heaelt degeneraeshun. Iff taerget fue-a is useeng a skeell, thaet fue-a taekes 15...75 daemaege-a und aell aedjaecent fues taeke-a 75% ooff thaet daemaege-a."
 			}
 		}
 	}

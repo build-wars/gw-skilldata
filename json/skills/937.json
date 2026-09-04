@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冲击波",
+				"description": "精英咒文。 使「邻近」的敌人受到 15...60 地系伤害，「附近」的敌人受到 15...60 地系伤害，而「范围内」的敌人受到 15...60 地系伤害。",
+				"concise": "精英咒文。 使「邻近」的敌人受到 15...60 地系伤害，「附近」的敌人受到 15...60 地系伤害，而「范围内」的敌人受到 15...60 地系伤害。"
+			},
+			"cht": {
+				"name": "衝擊波",
+				"description": "精英咒文魔法： 使「鄰近」的敵人受到 15...60 土系傷害，「附近」的敵人受到 15...60 土系傷害，而「範圍內」的敵人受到 15...60 土系傷害。",
+				"concise": "精英咒文魔法： 使「鄰近」的敵人受到 15...60 土系傷害，「附近」的敵人受到 15...60 土系傷害，而「範圍內」的敵人受到 15...60 土系傷害。"
+			},
 			"de": {
+				"name": "Stoßwelle",
+				"description": "Elite-Zauber. Alle Feinde im Bereich erleiden 15...60 Punkt[e] Erdschaden und sind 1...10 Sekunde[n] lang geschwächt. In der Nähe befindliche Feinde erleiden ebenfalls +15...60 Punkt[e] Erdschaden und leiden 1...10 Sekunde[n] lang an Beschädigter Rüstung. Umstehende Feinde, die bereits unter diesen Effekten leiden, erleiden +15...60 Punkt[e] Erdschaden und werden 1...10 Sekunde[n] lang geblendet.",
+				"concise": "Elite-Zauber. Feinde im Bereich erleiden 15...60 Punkt[e] Erdschaden und leiden unter Schwäche (1...10 Sekunde[n]). In der Nähe befindliche Feinde erleiden ebenfalls +15...60 Punkt[e] Erdschaden und leiden an Beschädigter Rüstung (1...10 Sekunde[n]). Umstehende Feinde erleiden ebenfalls +15...60 Punkt[e] Erdschaden und leiden an Blindheit (1...10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Stoßwelle",
 				"description": "Alle Feinde in der Nähe leiden 1...10 Sekunden lang an Beschädigter Rüstung, alle Feinde in dem Bereich sind 1...10 Sekunden lang geschwächt und umstehende Feinde werden 1...10 Sekunden lang geblendet. Alle umstehenden Feinde erleiden 15...60 Punkte Erdschaden, alle Feinde in der Nähe erleiden 15...60 Punkte Erdschaden und alle Feinde in dem Bereich erleiden 15...60 Punkte Erdschaden.",
 				"concise": "Feinde in der Nähe leiden an Beschädigter Rüstung (1...10 Sekunden), Feinde im Bereich leiden unter Schwäche (1...10 Sekunden), umstehende Feinde leiden an Blindheit (1...10 Sekunden). Umstehende Feinde erleiden 15...60 Erdschaden, Feinde in der Nähe erleiden 15...60 Erdschaden und Feinde in dem Bereich erleiden 15...60 Erdschaden."
 			},
 			"en": {
 				"name": "Shockwave",
+				"description": "Elite Spell. All foes in the area take 15...60 earth damage and are Weakened for 1...10 seconds. Nearby foes also take +15...60 earth damage and have Cracked Armor for 1...10 seconds. Adjacent foes suffer the previous effects, take +15...60 earth damage, and are Blinded for 1...10 seconds.",
+				"concise": "Elite Spell. Foes in the area take 15...60 earth damage and are Weakened (1...10 seconds). Nearby foes also take +15...60 earth damage and have Cracked Armor (1...10 seconds). Adjacent foes also take +15...60 earth damage and are Blinded (1...10 seconds)."
+			},
+			"en-gww": {
+				"name": "Shockwave",
 				"description": "All foes in the area take 15...60 earth damage and are Weakened for 1...10 second[s]. Nearby foes also take +15...60 earth damage and have Cracked Armor for 1...10 second[s]. Adjacent foes suffer the previous effects, take +15...60 earth damage, and are Blinded for 1...10 second[s].",
 				"concise": "Foes in the area take 15...60 earth damage and are Weakened (1...10 second[s]). Nearby foes also take +15...60 earth damage and have Cracked Armor (1...10 second[s]). Adjacent foes also take +15...60 earth damage and are Blinded (1...10 second[s])."
 			},
+			"es": {
+				"name": "Onda expansiva",
+				"description": "Conjuro de élite. Todos los enemigos de la zona reciben 15...60 de daño de tierra y padecen debilitamiento durante 1...10 segundos. Los enemigos cercanos también reciben +15...60 de daño de tierra y tienen la armadura rota durante 1...10 segundos. Los enemigos adyacentes sufren los efectos anteriores, reciben +15...60 de daño de tierra y quedan cegados durante 1...10 segundos.",
+				"concise": "Conjuro de élite. Todos los enemigos de la zona reciben 15...60 de daño de tierra y padecen debilitamiento (1...10 segundos). Los enemigos cercanos también reciben +15...60 de daño de tierra y tienen la armadura rota (1...10 segundos). Los adyacentes también reciben +15...60 de daño de tierra y quedan cegados (1...10 segundos)."
+			},
 			"fr": {
+				"name": "Onde de choc",
+				"description": "Sort d'élite. Tous les ennemis dans la zone subissent 15...60 points de dégâts de la terre et souffrent de Faiblesse pendant 1...10 secondes. Les ennemis proches subissent en outre 15...60 points de dégâts de la terre en plus et souffrent d'Armure brisée pendant 1...10 secondes. Les ennemis adjacents subissent les effets précédents plus 15...60 points de dégâts de la terre et sont aveuglés pendant 1...10 secondes.",
+				"concise": "Sort d'élite. Les ennemis dans la zone subissent 15...60 points de dégâts de la terre et souffrent de Faiblesse pendant 1...10 secondes. Les ennemis proches subissent en outre 15...60 points de dégâts de la terre en plus et souffrent d'Armure brisée (1...10 secondes). Les ennemis adjacents subissent les effets précédents plus 15...60 points de dégâts de la terre et sont aveuglés (1...10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Onde de choc",
 				"description": "Les ennemis adjacents subissent 15...60 points de dégâts de la terre, les ennemis à proximité subissent 15...60 points de dégâts de la terre et les ennemis dans la zone subissent 15...60 points de dégâts de la terre.",
 				"concise": "Inflige une fois 15...60 points de dégâts de la terre aux ennemis dans la zone. Les ennemis à proximité subissent les dégâts à deux reprises et les ennemis adjacents à trois reprises."
+			},
+			"it": {
+				"name": "Onda d'Urto",
+				"description": "Magia d'Élite. Tutti i nemici nell'area subiscono 15...60 danni da terra e soffrono di Debolezza per 1...10 secondi. Anche i nemici nei dintorni subiscono +15...60 danni da terra e Armatura Incrinata per 1...10 secondi. I nemici adiacenti soffrono gli effetti precedenti, subiscono +15...60 danni da terra e vengono accecati per 1...10 secondi.",
+				"concise": "Magia d'Élite. I nemici nell'area subiscono 15...60 danni da terra e soffrono di Debolezza (1...10 secondi). Anche i nemici nei dintorni subiscono +15...60 danni da terra e Armatura Incrinata (1...10 secondi). I nemici adiacenti subiscono +15...60 danni da terra e vengono accecati (1...10 secondi)."
+			},
+			"jp": {
+				"name": "ショックウェーブ",
+				"description": "エリート スペル： エリア内にいるすべての敵に 15...60 のアース ダメージを与え、1...10 秒間「衰弱」状態にします。周囲にいる敵には 15...60 の追加アース ダメージを与え、1...10 秒間「防具破損」状態にします。隣接する敵にはさらに、15...60 の追加アース ダメージを与え、1...10 秒間「盲目」状態にします。",
+				"concise": "エリート スペル： エリア内にいる敵に 15...60 のアース ダメージを与えて「衰弱」状態にします (1...10 秒)。周囲にいる敵には 15...60 の追加アース ダメージを与え、「防具破損」状態にします (1...10 秒)。隣接する敵には、さらに 15...60 の追加アース ダメージを与えて「盲目」状態にします (1...10 秒)。"
+			},
+			"kr": {
+				"name": "진동파",
+				"description": "엘리트 마법. 대상 지정: 없음. 일정 범위 내에 있는 적들에게는 15...60의 대지 대미지를 주고, 1...10초 동안 약체 상태로 만듭니다. 부근의 적들은 추가로 15...60의 대지 대미지를 입고, 1...10초 동안 방어 손상 상태가 됩니다. 인접한 적들은 이전 효과에 더해 15...60의 대지 대미지를 입고, 1...10초 동안 실명 상태가 됩니다.",
+				"concise": "엘리트 마법. 일정 범위 내의 적들은 15...60의 대지 대미지를 입고, 약체가 됩니다.(1...10초) 부근의 적들은 추가로 15...60의 대지 대미지를 입고, 방어 손상을 입습니다.(1...10초) 인접한 적들은 이전 효과에 더해 15...60의 대지 대미지를 입고, 실명됩니다.(1...10초)"
+			},
+			"pl": {
+				"name": "Fala Uderzeniowa",
+				"description": "Elitarny czar. Przeciwnicy w kontakcie otrzymują 15...60 pkt. obrażeń od ziemi, przeciwnicy w pobliżu otrzymują 15...60 pkt. obrażeń od ziemi, a przeciwnicy w okolicy otrzymują 15...60 pkt. obrażeń od ziemi.",
+				"concise": "Elitarny czar. Przeciwnikom w okolicy zadaje po 15...60 pkt. obrażeń od ziemi. Przeciwnicy w pobliżu otrzymują obrażenia dwa razy, przeciwnicy w bezpośredniej odległości otrzymują obrażenia trzy razy."
+			},
+			"ru": {
+				"name": "Shockwave",
+				"description": "Элитное заклинание. Все противники в зоне досягаемости получают 15...60 ед. урона силой земли и будут ослаблены на 1...10 сек. Противники поблизости кроме того получают дополнительно 15...60 ед. урона силой земли и треснувшие доспехи на 1...10 сек. Окружающие противники кроме того получают дополнительно 15...60 ед. урона силой земли и будут ослеплены на 1...10 сек.",
+				"concise": "Элитное заклинание. Противники в зоне досягаемости получают 15...60 ед. урона силой земли и слабость (1...10 сек). Противники поблизости кроме того получают дополнительно 15...60 ед. урона силой земли и треснувшие доспехи (1...10 сек). Окружающие противники кроме того получают дополнительно 15...60 ед. урона силой земли и слепоту (1...10 сек)."
+			},
+			"bork": {
+				"name": "Shuckvaefe-a",
+				"description": "Ileete-a Spell. Aell fues in zee aerea taeke-a 15...60 iaert daemaege-a und aere-a Veaekened fur 1...10 secunds. Neaerby fues aelsu taeke-a +15...60 iaert daemaege-a und haefe-a Craecked Aermur fur 1...10 secunds. Aedjaecent fues sooffffer zee prefeeuoos iffffects, taeke-a +15...60 iaert daemaege-a, und aere-a Bleended fur 1...10 secunds.",
+				"concise": "Ileete-a Spell. Fues in zee aerea taeke-a 15...60 iaert daemaege-a und aere-a Veaekened (1...10 secunds). Neaerby fues aelsu taeke-a +15...60 iaert daemaege-a und haefe-a Craecked Aermur (1...10 secunds). Aedjaecent fues aelsu taeke-a +15...60 iaert daemaege-a und aere-a Bleended (1...10 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疲倦之池",
+				"description": "法池。 消耗目标尸体或牺牲66%生命值创造一个衰竭之井，持续10...55秒。衰竭之井范围内敌方承受-1能量衰减。",
+				"concise": "法池。 （10...55秒）此泉内的敌军承受-1能量衰减。需利用新鲜的尸体或牺牲66%生命值。"
+			},
+			"cht": {
+				"name": "疲倦之池",
+				"description": "湧泉魔法： Exploit target corpse or sacrifice 66% health to create a Well of Weariness for 10...55 seconds. Enemies within the Well of Weariness suffer -1 Energy degeneration.",
+				"concise": "湧泉魔法： (10...55 seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen der Müdigkeit",
+				"description": "Brunnenzauber. Nutzt die anvisierte Leiche oder opfert 66 % Eurer Lebenspunkte, um für 10...55 Sekunden einen Brunnen der Erschöpfung zu erzeugen. Gegner innerhalb des Brunnens erleiden -1 Energiedegeneration.",
+				"concise": "Brunnenzauber. (10...55 Sekunden). Gegner in diesem Brunnen haben -1 Energiedegeneration. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen der Müdigkeit",
 				"description": "Der nächste Kadaver wird an seiner Position 10...55 Sekunden lang in einen Brunnen der Müdigkeit verwandelt. Feinde in dem Brunnen der Müdigkeit erleiden eine Energiepunktdegeneration in Höhe von -1.",
 				"concise": "(10...55 Sekunden.) Feinde in diesem Brunnen erhalten eine Energiepunktdegeneration von -1. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Weariness",
+				"description": "Well Spell. Exploit target corpse or sacrifice 66% health to create a Well of Weariness for 10...55 seconds. Enemies within the Well of Weariness suffer -1 Energy degeneration.",
+				"concise": "Well Spell. (10...55 seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Weariness",
 				"description": "Exploit target corpse or sacrifice 66% health to create a Well of Weariness for 10...55 seconds. Enemies within the Well of Weariness suffer -1 Energy degeneration.",
 				"concise": "(10...55 seconds.) Foes in this well have -1 Energy degeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 			},
+			"es": {
+				"name": "Pozo de cansancio",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de cansancio durante 10...55 segundos. Los enemigos dentro de él sufren -1 de degeneración de energía.",
+				"concise": "Conjuro de pozo. (10...55 segundos). Los enemigos en este pozo sufren -1 de degeneración de energía. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits de Lassitude",
+				"description": "Sort de puits. Exploitez le cadavre visé ou sacrifiez 66% de santé pour créer un Puits de lassitude pendant 10...55 secondes. Les ennemis se trouvant dans ce puits subissent une dégénération d'énergie de -1.",
+				"concise": "Sort de puits. (10...55 secondes.) Les ennemis présents dans ce puits subissent -1 point de dégénération d'énergie. Exploite un cadavre frais ou sacrifie 66% de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits de Lassitude",
 				"description": "Utilisez le cadavre visé pour créer un Puits de Lassitude pendant 10...55 secondes. Les ennemis se trouvant dans le périmètre du Puits de Lassitude subissent une dégénération d'énergie de -1.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo della Stanchezza",
+				"description": "Pozzo. Sfrutta il cadavere bersagliato o sacrifica il 66% della tua salute per creare un Pozzo della Stanchezza per 10...55 secondo/i. I nemici all'interno dell'area del Pozzo della Stanchezza soffrono -1 degenerazione dell'energia.",
+				"concise": "Pozzo. (10...55 secondo/i). I nemici in questo Pozzo hanno -1 degenerazione dell'Energia. Utilizza un cadavere fresco o sacrifica il 66% della Salute."
+			},
+			"jp": {
+				"name": "ウィアリネス ウェル",
+				"description": "ウェル スペル： ターゲットの死体を使用するか体力の66%を犠牲にして、10...55秒間、疲労の泉を作り出します。この中にいる敵は、エネルギーの自然回復力が1減少します。",
+				"concise": "ウェル スペル： （10...55秒）この泉にいる敵は-1のエネルギー減少を受けます。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "소모의 늪",
+				"description": "늪. 대상 시체를 이용하거나 체력을 66% 희생하여 10...55초 동안 소모의 늪을 만듭니다. 소모의 늪 효과 범위 내에 있는 적들은 에너지 재생이 1 감소합니다.",
+				"concise": "늪. (10...55초) 소모의 늪 효과 범위 내에 있는 적들은 에너지 재생이 1 감소합니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Zmęczenia",
+				"description": "Czar studni. Wykorzystaj wybrane zwłoki lub poświęć 66% swojej żywotności, by na 10...55 sek. utworzyć Studnię Zmęczenia. Wrogowie na obszarze Studni Zmęczenia cierpią -1 degeneracji pkt. energii.",
+				"concise": "Czar studni. (10...55 sek.). Przeciwnicy w tej studni mają degenerację energii -1. Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Weariness",
+				"description": "Заклинание-источник. Использует выбранный труп или жертвует 66% здоровья, чтобы на 10...55 сек. создать Well of Weariness. Энергия врагов в его пределах снижается на 1.",
+				"concise": "Заклинание-источник. (10...55 сек.) Враги в области получают -1 к снижению энергии. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Veaereeness",
+				"description": "Vell Spell. Ixplueet taerget curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Veaereeness fur 10...55 secunds. Inemeees veetheen zee Vell ooff Veaereeness sooffffer -1 Inergy degeneraeshun.",
+				"concise": "Vell Spell. (10...55 secunds.) Fues in thees vell haefe-a -1 Inergy degeneraeshun. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

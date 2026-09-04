@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "兽性之爪",
+				"description": "宠物攻击。 命令你的宠物发动兽性之爪，对目标敌人造成5...20点额外伤害。如果命中倒地的敌人，则使其遭受「晕眩」症状4...10秒。",
+				"concise": "宠物攻击。 你的宠物发动兽性之爪对目标造成 5...20 额外伤害。如果攻击命中倒地的敌人，则造成其遭受「晕眩」症状 4...10 秒。"
+			},
+			"cht": {
+				"name": "獸性之爪",
+				"description": "寵物攻擊： 你的寵物發動獸性之爪對目標造成 5...20 額外傷害。若攻擊命中倒地的敵人，則使其遭受「暈眩」病症 4...10 秒。",
+				"concise": "寵物攻擊： 你的寵物發動獸性之爪對目標造成 5...20 額外傷害。若攻擊命中倒地的敵人，則使其遭受「暈眩」病症 4...10 秒。"
+			},
 			"de": {
+				"name": "Bestienattacke",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit einer Bestienattacke an, die +5...20 Punkt[e] Schaden zufügt. Trifft dieser Angriff einen Gegner am Boden, leidet dieser 4...10 Sekunde[n] lang an Benommenheit.",
+				"concise": "Tiergefährtenangriff. Richtet +5...20 Punkt[e] Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunde[n]), falls Gegner zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Bestienattacke",
 				"description": "Euer Tiergefährte greift mit einer Bestienattacke an, die +5...20 Punkte Schaden zufügt. Trifft dieser Angriff einen Gegner am Boden, leidet dieser 4...10 Sekunden an Benommenheit.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunden), falls der Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Bestial Mauling",
+				"description": "Pet Attack. Your animal companion attempts a Bestial Mauling that deals +5...20 damage. If the attack strikes a knocked-down foe, that foe is Dazed for 4...10 seconds.",
+				"concise": "Pet Attack. Deals +5...20 damage. Inflicts Dazed condition (4...10 seconds) if target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Bestial Mauling",
 				"description": "Your animal companion attempts a Bestial Mauling that deals +5...20 damage. If the attack strikes a knocked-down foe, that foe is Dazed for 4...10 seconds.",
 				"concise": "Deals +5...20 damage. Inflicts Dazed condition (4...10 seconds) if target foe is knocked-down."
 			},
+			"es": {
+				"name": "Vapuleo bestial",
+				"description": "Ataque con mascota. El siguiente ataque de tu mascota será el Vapuleo bestial, que causa +5...20 de daño. Si consigue golpear a un enemigo derribado, quedará éste aturdido durante 4...10 segundos.",
+				"concise": "Ataque con mascota. Hace +5...20 de daño. Causa aturdimiento (4...10 segundos) si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Violence bestiale",
+				"description": "Attaque de familier. Votre familier tente une Violence bestiale qui infligera +5...20 points de dégâts. S'il touche un ennemi assommé, celui-ci est pris de Stupeur pendant 4...10 secondes.",
+				"concise": "Attaque de familier. Inflige +5...20 points de dégâts. Provoque la Stupeur (4...10 secondes) si la cible ennemie est assommée."
+			},
+			"fr-gwiki": {
 				"name": "Violence bestiale",
 				"description": "Votre familier tente une Violence bestiale qui infligera +5...20 points de dégâts. S'il touche un ennemi assommé, celui-ci est pris de Stupeur pendant 4...10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lacerazione Bestiale",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in una Lacerazione Bestiale che infligge +5...20 danno[i]. Se colpisce un avversario a terra lo stordisce per 4...10 secondo[i].",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...20. Condizione inflitta se l'obiettivo nemico è abbattuto: Stordimento (4...10 secondo[i])."
+			},
+			"jp": {
+				"name": "ベスティアル モール",
+				"description": "ペット アタック： プレイヤーのペットが敵に 5...20 の追加ダメージを与える攻撃を開始します。転倒中の敵に攻撃が成功すると、その敵は 4...10 秒間「放心」状態になります。",
+				"concise": "ペット アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が転倒中の場合、「放心」状態にします (4...10 秒)。"
+			},
+			"kr": {
+				"name": "야만적인 발톱",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 야만적인 발톱을 사용하여 5...20의 대미지를 추가로 줍니다. 바닥에 넘어진 적에게 공격이 성공하면 그 적은 4...10초 동안 현혹 상태가 됩니다.",
+				"concise": "펫 공격. 펫의 공격이 5...20의 대미지를 추가로 줍니다. 적이 넘어져 있으면 현혹시킵니다.(4...10초)"
+			},
+			"pl": {
+				"name": "Bestialskie Zmiażdżenie",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Bestialskie Zmiażdżenie, które zadaje +5...20 pkt. obrażeń. Jeśli atak trafi powalonego przeciwnika, to będzie on oszołomiony przez 4...10 sek.",
+				"concise": "Atak zwierzaka. Zadaje +5...20 pkt. obrażeń. Wywołuje przypadłość oszołomienie (4...10 sek.), jeżeli wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Bestial Mauling",
+				"description": "Атака питомца. Сопровождающее вас животное пытается провести удар, который наносит дополнительно 5...20 ед. урона. Если эта атака попадает по сбитому с ног противнику, противник будет ошеломлен на 4...10 сек.",
+				"concise": "Атака питомца. Наносит дополнительно 5...20 ед. урона. Вызывает ошеломление (4...10 сек), если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Besteeael Mooleeng",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Besteeael Mooleeng thaet deaels +5...20 daemaege-a. Iff zee aettaeck streekes a knucked-doon fue-a, thaet fue-a is Daezed fur 4...10 secunds.",
+				"concise": "Pet Aettaeck. Deaels +5...20 daemaege-a. Inffleects Daezed cundeeshun (4...10 secunds) iff taerget fue-a is knucked-doon."
 			}
 		}
 	}

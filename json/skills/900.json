@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "群体负荷",
+				"description": "精英负面魔法。 For 5...20 seconds, target foe and all foes in the area attack, cast spells, and move 50% slower.",
+				"concise": "精英负面魔法。 Also hexes foes in the area of your target (5...20 seconds). These foes attack, cast spells, and move 50% slower."
+			},
+			"cht": {
+				"name": "共享負荷",
+				"description": "精英降咒魔法： 在5...20秒内，目标敌人及其周围所有敌人的攻击、施法和移动速度降低50%。",
+				"concise": "精英降咒魔法： 使目标区域内的所有敌人移动速度减缓50%，效果持续5...20秒。"
+			},
 			"de": {
+				"name": "Geteilte Bürde",
+				"description": "Elite-Verhexung. Der anvisierte Gegner und alle Gegner im Bereich sind für 5...20 Sekunde[n] um 50 % langsamer, wenn sie angreifen, Zauber wirken und sich bewegen.",
+				"concise": "Elite-Verhexung. Außerdem werden Gegner im Umkreis Eures Ziels verhext (5...20 Sekunde[n]). Ihre Angriffe, gewirkten Zauber und Bewegungen sind um 50 % verlangsamt."
+			},
+			"de-guildwiki": {
 				"name": "Geteilte Bürde",
 				"description": "5...20 Sekunden lang sind die Angriffe, gewirkten Zauber und Bewegungen des Gegners und aller Feinde in dem Bereich um 50% langsamer.",
 				"concise": "Verhext auch Feinde in dem Bereich Eures Gegners (5...20 Sekunden). Die Angriffe, gewirkten Zauber und Bewegungen dieser Feinde sind um 50% langsamer."
 			},
 			"en": {
 				"name": "Shared Burden",
+				"description": "Elite Hex Spell. For 5...20 seconds, target foe and all foes in the area attack, cast spells, and move 50% slower.",
+				"concise": "Elite Hex Spell. Also hexes foes in the area of your target (5...20 seconds). These foes attack, cast spells, and move 50% slower."
+			},
+			"en-gww": {
+				"name": "Shared Burden",
 				"description": "For 5...20 seconds, target foe and all foes in the area attack, cast spells, and move 50% slower.",
 				"concise": "Also hexes foes in the area of your target (5...20 seconds). These foes attack, cast spells, and move 50% slower."
 			},
+			"es": {
+				"name": "Carga compartida",
+				"description": "Conjuro con maleficio de élite. Durante 5...20 segundos, el enemigo objetivo y todos los que estén en la zona atacarán, lanzarán conjuros y se moverán un 50 % más despacio.",
+				"concise": "Conjuro con maleficio de élite. También se aplica el maleficio a los enemigos en la zona de tu objetivo (5...20 segundos). Estos enemigos atacan, lanzan conjuros y se mueven un 50 % más despacio."
+			},
 			"fr": {
+				"name": "Fardeau partagé",
+				"description": "Maléfice d'élite. Pendant 5...20 secondes, la cible ennemie et tous les ennemis dans la zone attaquent, lancent des sorts et se déplacent 50% plus lentement.",
+				"concise": "Maléfice d'élite. Inflige également des maléfices aux ennemis à proximité de votre cible (5...20 secondes). Ces ennemis attaquent, lancent des sorts et se déplacent 50% moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Fardeau partagé",
 				"description": "Pendant 5...20 secondes, la cible ennemie et tous les ennemis dans la zone attaquent, lancent des sorts et se déplacent 50% plus lentement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fardello Condiviso",
+				"description": "Fattura d'Élite. Per 5...20 secondo/i, il nemico bersaglio e tutti i nemici nell'area attaccano, scagliano incantesimi e si muovono del 50% più lentamente.",
+				"concise": "Fattura d'Élite. Maledice anche i nemici nell'area del tuo bersaglio (5...20 secondo/i). Questi nemici attaccano, scagliano incantesimi e si muovono del 50% più lentamente."
+			},
+			"jp": {
+				"name": "シェア バーデン",
+				"description": "エリート弱体化スペル： 5...20秒間、標的となった敵とその周囲にいるすべての敵が攻撃を行い、スペルを使用し、移動速度が50%減少します。",
+				"concise": "エリート弱体化スペル： 加えて、標的の周囲にいる敵を弱体化させます（5...20秒）。この効果を受けた敵は攻撃を行い、スペルを使用し、移動速度が50%減少します。"
+			},
+			"kr": {
+				"name": "속박의 분담",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상과 일정 범위 내에 있는 모든 적은 5...20초 동안 공격 속도, 마법 시전 속도, 이동 속도가 50% 느려집니다.",
+				"concise": "엘리트 약화 마법. (5...20초) 대상과 일정 범위 내에 있는 적들의 공격 속도, 마법 시전 속도, 이동 속도가 50% 느려집니다."
+			},
+			"pl": {
+				"name": "Wspólne Brzemię",
+				"description": "Elitarna klątwa (czar). Przez 5...20 sek. wybrany przeciwnik i wszyscy przeciwnicy na obszarze ataku rzucają zaklęcia i poruszają się o 50% wolniej.",
+				"concise": "Elitarna klątwa (czar). Klątwa działa także na przeciwników w pobliżu twojego celu (5...20 sek.). Ci przeciwnicy atakują, rzucają zaklęcia i poruszają się o 50% wolniej."
+			},
+			"ru": {
+				"name": "Shared Burden",
+				"description": "Элитное заклинание-проклятье. В течение 5...20 сек. выбранный враг и все враги в области атакуют, используют заклинания и перемещаются на 50% медленнее.",
+				"concise": "Элитное заклинание-проклятье. Также проклинает врагов рядом с целью (5...20 сек). Эти враги атакуют, используют заклинания и перемещаются на 50% медленнее."
+			},
+			"bork": {
+				"name": "Shaered Boordee",
+				"description": "Ileete-a Hex Spell. Fur 5...20 secunds, taerget fue-a und aell fues in zee aerea aettaeck, caest spells, und mufe-a 50% slooer.",
+				"concise": "Ileete-a Hex Spell. Aelsu hexes fues in zee aerea ooff yuoor taerget (5...20 secunds). Zeese-a fues aettaeck, caest spells, und mufe-a 50% slooer."
 			}
 		}
 	}

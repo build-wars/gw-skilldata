@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "玷污之风",
+				"description": "咒文。 驱散自身所有「增益魔法」。每成功驱散一项，附近的一名敌人也将失去一项「增益魔法」。(同一名敌人只能失去一项「增益魔法」)",
+				"concise": "咒文。 驱散自身所有「增益魔法」。每成功驱散一项，附近的一名敌人也将失去一项「增益魔法」。(同一名敌人只能失去一项「增益魔法」)"
+			},
+			"cht": {
+				"name": "反加持之風",
+				"description": "咒文魔法： 移除自身一項神喚使加持，若移除成功，使附近敵人失去一項加持，且受到 20...80 冰凍傷害。",
+				"concise": "咒文魔法： 移除自身一項神喚使加持，若移除成功，使附近敵人失去一項加持，且受到 20...80 冰凍傷害。"
+			},
 			"de": {
+				"name": "Wind der Entzauberung",
+				"description": "Zauber. Entfernt 1 Eurer Derwisch-Verzauberungen. Wird eine Verzauberung entfernt, verlieren alle Feinde in der Nähe 1 Verzauberung und erleiden 20...80 Punkt[e] Kälteschaden.",
+				"concise": "Zauber. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Alle Feinde in der Nähe verlieren 1 Verzauberung und erleiden 20...80 Punkt[e] Kälteschaden."
+			},
+			"de-guildwiki": {
 				"name": "Wind der Entzauberung",
 				"description": "Entfernt 1 Eurer Derwisch-Verzauberungen. Wird eine Verzauberung entfernt, verlieren alle Feinde in der Nähe 1 Verzauberung und erleiden 20...80 Punkte Kälteschaden.",
 				"concise": "Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Alle Feinde in der Nähe verlieren 1 Verzauberung und erleiden 20...80 Punkte Kälteschaden."
 			},
 			"en": {
 				"name": "Winds of Disenchantment",
+				"description": "Spell. Remove 1 of your Dervish enchantments. If an enchantment was removed, all nearby foes lose 1 enchantment and take 20...80 cold damage.",
+				"concise": "Spell. Remove 1 of your Dervish enchantments. Removal effect: all nearby foes lose 1 enchantment and take 20...80 cold damage."
+			},
+			"en-gww": {
+				"name": "Winds of Disenchantment",
 				"description": "Lose 1 Dervish enchantment. If a Dervish enchantment was removed in this way, all nearby foes lose 1 enchantment and take 20...80 cold damage.",
 				"concise": "Remove one of your Dervish enchantments. Removal effect: all nearby foes lose 1 enchantment and take 20...80 cold damage."
 			},
+			"es": {
+				"name": "Vientos del desencantamiento",
+				"description": "Conjuro. Elimina uno de tus encantamientos de Derviche. Si se quitó un encantamiento, todos los enemigos cercanos pierden un encantamiento y reciben 20...80 de daño de frío.",
+				"concise": "Conjuro. Elimina uno de tus encantamientos de Derviche. Efecto de eliminación: todos los enemigos cercanos pierden un encantamiento y sufren 20...80 de daño de frío."
+			},
 			"fr": {
+				"name": "Vents de désenchantement",
+				"description": "Sort. Supprime un de vos enchantements de Derviche. En cas de perte d'enchantement, tous les ennemis à proximité perdent un enchantement et subissent 20...80 points de dégâts du froid.",
+				"concise": "Sort. Supprime un de vos enchantements de Derviche. Effet de la suppression : tous les ennemis à proximité perdent un enchantement et reçoivent 20...80 points de dégâts du froid."
+			},
+			"fr-gwiki": {
 				"name": "Vents de désenchantement",
 				"description": "Vous perdez 1 enchantement de Derviche. Si un enchantement est perdu de cette manière, les ennemis à proximité perdent aussi 1 enchantement et subissent 20...80 dégâts du froid.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Venti del Disincanto",
+				"description": "Magia. Rimuove uno dei tuoi Incantesimi del Derviscio. Se un incantesimo è stato rimosso, tutti i nemici nei dintorni perdono 1 incantesimo e subiscono 20...80 danni da freddo.",
+				"concise": "Magia. Rimuove uno dei tuoi Incantesimi del Derviscio. Effetto della rimozione: tutti i nemici nei dintorni perdono 1 incantesimo e subiscono 20...80 danni da freddo."
+			},
+			"jp": {
+				"name": "ディスエンチャント ウインド",
+				"description": "スペル： かけられているダルウィーシュの強化スペルを1個解除します。強化スペルが解除されると、周囲にいるすべての敵からかけられている強化スペルを1個解除し、20...80 のコールド ダメージを与えます。",
+				"concise": "スペル： かけられているダルウィーシュの強化スペルを1個解除します。解除効果： 周囲にいるすべての敵からかけられている強化スペルを1個解除し、20...80 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "각성의 바람",
+				"description": "마법. 대상 지정: 없음. 더비시 강화 마법 하나가 무효화됩니다. 이렇게 강화 마법이 무효화되면 부근의 모든 적도 강화 마법을 하나씩 잃고, 20...80의 냉기 대미지를 입습니다.",
+				"concise": "마법. 대상 지정: 없음. 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 부근의 모든 적도 강화 마법을 하나씩 잃고, 20...80의 냉기 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Wiatr Antyzaklęcia",
+				"description": "Czar. Usuwa jedno z twoich zaklęć derwisza. Jeśli zostało usunięte jakieś zaklęcie, wszyscy pobliscy wrogowie tracą 1 zaklęcie i otrzymują 20...80 pkt. obrażeń od zimna.",
+				"concise": "Czar. Usuwa jedno z twoich zaklęć derwisza. Efekt usunięcia: Wszyscy pobliscy wrogowie tracą 1 zaklęcie i otrzymują 20...80 pkt. obrażeń od zimna."
+			},
+			"ru": {
+				"name": "Winds of Disenchantment",
+				"description": "Заклинание. Снимает с вас 1 чары профессии Dervish. Если чары были сняты, все противники поблизости теряют 1 чары и получают 20...80 ед. урона силой холода.",
+				"concise": "Заклинание. Снимает с вас 1 чары профессии Dervish. Эффект снятия: все противники поблизости теряют 1 чары и получают 20...80 ед. урона силой холода."
+			},
+			"bork": {
+				"name": "Veends ooff Deesenchuntment",
+				"description": "Spell. Remufe-a 1 ooff yuoor Derfeesh inchuntments. Iff un inchuntment vaes remufed, aell neaerby fues luse-a 1 inchuntment und taeke-a 20...80 culd daemaege-a.",
+				"concise": "Spell. Remufe-a 1 ooff yuoor Derfeesh inchuntments. Remufael iffffect: aell neaerby fues luse-a 1 inchuntment und taeke-a 20...80 culd daemaege-a."
 			}
 		}
 	}

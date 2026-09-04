@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Expert Focus",
+				"description": "预备技。 For 24 seconds, your bow attacks cost 1...2 less Energy and deal 1...10 extra damage.",
+				"concise": "预备技。 (24 seconds.) Your bow attacks cost 1...2 less Energy and do +1...10 damage."
+			},
+			"cht": {
+				"name": "能手的專注",
+				"description": "準備技能： 持續 24 秒，你的弓類攻擊能量消耗減少 1...2 並造成 1...10 額外傷害。",
+				"concise": "準備技能： 持續 24 秒，你的弓類攻擊能量消耗減少 1...2 並造成 1...10 額外傷害。"
+			},
 			"de": {
+				"name": "Expertenfokus",
+				"description": "Vorbereitung. 24 Sekunde[n] lang kosten Eure Bogen-Angriffsfertigkeiten 1...2 weniger Energiepunkt[e] und fügen 1...10 Punkt[e] zusätzlichen Schaden zu.",
+				"concise": "Vorbereitung. (24 Sekunde[n].) Eure Bogen-Angriffsfertigkeiten kosten 1...2 Energiepunkt[e] weniger und richten +1...10 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Expertenfokus",
 				"description": "24 Sekunden lang kosten Eure Bogenangriffe 1...2 weniger Energiepunkte und fügen 1...10 Punkte zusätzlichen Schaden zu.",
 				"concise": "24 Sekunden: Eure Bogenangriffe kosten 1...2 Energiepunkte weniger und richten +1...10 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Expert Focus",
+				"description": "Preparation. For 24 seconds, your bow attack skills cost 1...2 less Energy and deal 1...10 extra damage.",
+				"concise": "Preparation. (24 seconds.) Your bow attack skills cost 1...2 less Energy and do +1...10 damage."
+			},
+			"en-gww": {
+				"name": "Expert Focus",
 				"description": "For 24 seconds, your bow attack skills cost 1...2 less Energy and deal 1...10 extra damage.",
 				"concise": "(24 seconds.) Your bow attack skills cost 1...2 less Energy and do +1...10 damage."
 			},
+			"es": {
+				"name": "Foco de experto",
+				"description": "Preparación[\"Preparaciones\"]. Durante 24 segundos, tus habilidades de ataque con arco consumen 1...2 menos de energía y hacen 1...10 de daño extra.",
+				"concise": "Preparación[\"Preparaciones\"]. (24 segundos.) Tus habilidades de ataque con arco cuestan 1...2 menos de energía y hacen +1...10 de daño."
+			},
 			"fr": {
+				"name": "Concentration experte",
+				"description": "Préparation. Pendant 24 secondes, vos compétences d'attaques à l'arc coûtent 1...2 points d'énergie en moins et infligent 1...10 points de dégâts supplémentaires.",
+				"concise": "Préparation. (24 secondes.) Vos compétences d'attaques à l'arc coûtent 1...2 points d'énergie en moins et infligent +1...10 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Concentration experte",
 				"description": "Pendant 24 secondes, vos attaques à l'arc coûtent 1...2 point(s) d'énergie en moins et infligent 1...10 point(s) de dégâts supplémentaire(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mira da Professionista",
+				"description": "Preparazione. Per 24 secondi le tua abilità di attacco con arco costano 1...2 Punti Energia in meno e provocano 1...10 di danni in più.",
+				"concise": "Preparazione. (Secondi: 24) Dispendio energetico dei tuoi attacchi con arco: 1...2 in meno; danni inferti: +1...10."
+			},
+			"jp": {
+				"name": "エキスパート フォーカス",
+				"description": "プレパレーション： 24 秒間、プレイヤーのボウ アタック スキルに必要なエネルギーが 1...2 減少し、与えるダメージが 1...10 増加します。",
+				"concise": "プレパレーション： (24 秒) ボウ アタック スキルに必要なエネルギーが 1...2 減少し、1...10 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "저격수의 집중",
+				"description": "준비. 24초 동안 활 공격 스킬의 소모 에너지가 1...2 감소하고, 대미지가 1...10 증가합니다.",
+				"concise": "준비. (24초) 활 공격 스킬의 소모 에너지가 1...2 감소하고, 대미지가 1...10 증가합니다."
+			},
+			"pl": {
+				"name": "Skupienie Specialisty",
+				"description": "Przygotowanie. Przez 24 sek., twoje umiejętności ataku za pomocą łuku kosztują o 1...2 pkt. energii mniej i zadają 1...10 pkt. dodatkowych obrażeń.",
+				"concise": "Przygotowanie. (24 sek.) Twoje umiejętności ataku za pomocą łuku kosztują o 1...2 pkt. energii mniej i zadają +1...10 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Expert Focus",
+				"description": "Подготовка. В течение 24 сек вашим атакующим умениям, требующим лук, необходимо для активации на 1...2 ед. энергии меньше, и они наносят дополнительно 1...10 ед. урона.",
+				"concise": "Подготовка. (24 сек) Ваши атакующие умения, требующие лук, на 1...2 ед. энергии меньше и наносят дополнительно 1...10 ед. урона."
+			},
+			"bork": {
+				"name": "Ixpert Fucoos",
+				"description": "Prepaeraeshun. Fur 24 secunds, yuoor boo aettaeck skeells cust 1...2 less Inergy und deael 1...10 ixtra daemaege-a.",
+				"concise": "Prepaeraeshun. (24 secunds.) Yuoor boo aettaeck skeells cust 1...2 less Inergy und du +1...10 daemaege-a."
 			}
 		}
 	}

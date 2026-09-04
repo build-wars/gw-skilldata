@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Slippery Ground",
+				"description": "咒文。 If target foe is Blind, that foe is knocked down. (50% failure chance with Water Magic 4 or less.)",
+				"concise": "咒文。 Causes knock-down if this foe is Blind. 50% failure chance unless Water Magic 5 or higher."
+			},
+			"cht": {
+				"name": "易滑",
+				"description": "咒文魔法： 若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%技能失誤幾率。",
+				"concise": "咒文魔法： 若目標敵人遭受盲目或正在移動，該目標被擊倒，水系魔法4以下有50%技能失誤幾率。"
+			},
 			"de": {
+				"name": "Rutschiger Boden",
+				"description": "Zauber. Wenn der Gegner und die umstehenden Feinde Blind sind, oder sich bewegen, werden sie zu Boden geworfen. Bei einer Wassermagie von 5 oder weniger besteht eine 50%ige Wahrscheinlichkeit eines Misserfolges.",
+				"concise": "Zauber. Wirft den Gegner zu Boden, falls er geblendet ist oder sich bewegt. Trifft um Euren Zielgegner herum stehende Feinde. Bei Wassermagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Rutschiger Boden",
 				"description": "Wenn der Gegner oder ein umstehender Feind geblendet ist oder sich bewegt, wird er zu Boden geworfen. Bei Wassermagie von 4 oder weniger besteht eine 50%ige Change eines Misserfolges.)",
 				"concise": "Wirft den Gegner zu Boden, falls er geblendet ist oder sich bewegt. Trifft um Euren Zielgegner herum stehende Feinde. <gray>Bei Wassermagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Slippery Ground",
+				"description": "Spell. If target or adjacent foes are Blind or moving, these foes are knocked down. There is a 50% chance of failure with Water Magic less than 5.",
+				"concise": "Spell. Causes knock-down if this foe is Blind or moving. Affects foes adjacent to your target. 50% failure chance unless Water Magic greater than 4."
+			},
+			"en-gww": {
+				"name": "Slippery Ground",
 				"description": "If target or adjacent foes are Blind or moving, these foes are knocked down. There is a 50% chance of failure with Water Magic less than 5.",
 				"concise": "Causes knock-down if this foe is Blind or moving. Affects foes adjacent to your target. <gray>50% failure chance unless Water Magic greater than 4.</gray>"
 			},
+			"es": {
+				"name": "Suelo resbaladizo",
+				"description": "Conjuro. Si el objetivo y los enemigos adyacentes están cegados o en movimiento, son derribados. Hay un 50% de probabilidad de fallo con magia de agua de nivel 5 o inferior.",
+				"concise": "Conjuro. Si el enemigo está cegado o moviéndose, es derribado. Afecta a los enemigos adyacentes a tu objetivo. 50% de probabilidad de fallo a menos que se tenga magia de agua por encima del nivel 4."
+			},
 			"fr": {
+				"name": "Terrain glissant",
+				"description": "Sort. Si l'ennemi visé ou les ennemis adjacents souffrent d'Aveuglement ou se déplacent, ils sont assommés. Il y a 50% de risques d'échec avec une Magie de l'eau inférieure à 5.",
+				"concise": "Sort. Provoque l'assommement si cet ennemi souffre d'Aveuglement ou se déplace. Affecte les ennemis adjacents à votre cible. 50% de risques d'échec avec une Magie de l'eau 4 ou inférieure."
+			},
+			"fr-gwiki": {
 				"name": "Terrain glissant",
 				"description": "Si l'ennemi visé souffre d'Aveuglement ou se déplace, il est assommé. (50% de risque d'échec avec Magie de l'eau 4 ou inférieure)",
 				"concise": "Provoque l'assommement si cet ennemi souffre d'Aveuglement ou se déplace. <gray>50% de risque d'échec à moins d'avoir Magie de l'eau 5 ou supérieure.</gray>"
+			},
+			"it": {
+				"name": "Terreno Sdrucciolevole",
+				"description": "Magia. Se l'obiettivo o i nemici adiacenti si muovono o sono colpiti da Accecamento, essi vengono abbattuti. 50% di possibilità di fallimento con una Magia dell'Acqua inferiore a 5.",
+				"concise": "Magia. Provoca abbattimento se il nemico è affetto da Accecamento o si sta muovendo. Colpisce i nemici adiacenti al tuo obiettivo. 50% di probabilità di fallimento con Magia dell'Acqua inferiore al grado 4."
+			},
+			"jp": {
+				"name": "スリッパリー グラウンド",
+				"description": "スペル： ターゲットした敵または隣接する敵が「盲目」状態または移動中の場合、その敵は転倒します。「ウォーター」の特性が5未満の場合、50%の確率で失敗します。",
+				"concise": "スペル： ターゲットした敵、および隣接する敵が「盲目」状態または移動中の場合、転倒します。「ウォーター」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "미끈한 바닥",
+				"description": "마법. 대상과 그에 인접한 적들 중에서 실명 상태거나 이동 중인 적을 바닥에 넘어뜨립니다. (물 특성 레벨이 4레벨 이하이면 50% 확률로 실패합니다.)",
+				"concise": "마법. 대상과 그에 인접한 적들 중에서 실명 상태거나 이동 중인 적을 바닥에 넘어뜨립니다. 물 특성 레벨이 4레벨 이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Śliskie Podłoże",
+				"description": "Czar. Jeśli cel lub sąsiadujący przeciwnicy są oślepieni lub w ruchu, to ci przeciwnicy zostają powaleni. istnieje 50% szansy na niepowodzenie Magii Wody poniżej 5.",
+				"concise": "Czar. Powoduje powalenie, jeżeli przeciwnik jest w ruchu lub jest oślepiony. Dotyczy wrogów stojących obok celu. 50% szansy na porażkę chyba, że Magia Wody jest na poziomie 4 lub wyższym."
+			},
+			"ru": {
+				"name": "Slippery Ground",
+				"description": "Заклинание. Если выбранный или окружающие противники ослеплены или двигаются, они будут сбиты с ног. (50%-й шанс неудачи, если ваш талант Water Magic меньше 5.)",
+				"concise": "Заклинание. Сбивает с ног, если противник ослеплен или двигается. Также действует на окружающих цель противников. 50%-й шанс неудачи, если уровень таланта Water Magic больше 4."
+			},
+			"bork": {
+				"name": "Sleeppery Gruoond",
+				"description": "Spell. Iff taerget oor aedjaecent fues aere-a Bleend oor mufeeng, zeese-a fues aere-a knucked doon. Zeere-a is a 50% chunce-a ooff faeeeloore-a veet Vaeter Maegeec less thun 5.",
+				"concise": "Spell. Cooses knuck-doon iff thees fue-a is Bleend oor mufeeng. Aeffffects fues aedjaecent tu yuoor taerget. 50% faeeeloore-a chunce-a unless Vaeter Maegeec greaeter thun 4."
 			}
 		}
 	}

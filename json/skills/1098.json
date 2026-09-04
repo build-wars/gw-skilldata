@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰镜",
+				"description": "精英负面魔法。 持续 2...6 秒，下一次敌人对你造成的法术伤害无效，而且使施法者受到 15...70 伤害。",
+				"concise": "精英负面魔法。 持续 2...6 秒，下一次敌人对你造成的法术伤害无效，而且使施法者受到 15...70 伤害。"
+			},
+			"cht": {
+				"name": "冰鏡",
+				"description": "精英降咒魔法： 持續 2...6 秒，每當你使用水系降咒魔法，你對目標敵人造成 15...70 額外的冰凍傷害。",
+				"concise": "精英降咒魔法： 持續 2...6 秒，每當你使用水系降咒魔法，你對目標敵人造成 15...70 額外的冰凍傷害。"
+			},
 			"de": {
+				"name": "Eisspiegel",
+				"description": "Elite-Verhexung. Zerbricht einen Eisspiegel. Alle Feinde in Eurer Nähe und das verbündete Ziel erleiden 15...70 Punkt[e] Kälteschaden und bewegen sich 2...6 Sekunde[n] lang um 66% langsamer. Wenn Ihr einen Gegner trefft, der mit Wassermagie verhext ist, lädt Eisspiegel um 50% schneller wieder auf.",
+				"concise": "Elite-Verhexung. Richtet 15...70 Punkt[e] Kälteschaden an und verlangsamt Feinde um 66% (2...6 Sekunde[n]). Trifft Feinde in Eurer Nähe und Euren Verbündeten. Lädt um 50% schneller wieder auf, falls ein getroffener Gegner mit Wassermagie verhext ist."
+			},
+			"de-guildwiki": {
 				"name": "Eisspiegel",
 				"description": "Zerbrecht einen Eisspiegel. Alle Feinde in Eurer Nähe und in der Nähe des verbündeten Ziels (bzw. Euch selbst) erleiden 15...70 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer. Wenn Ihr einen Gegner trefft, der mit Wassermagie verhext ist, beträgt die Wiederaufladezeit unveränderlich 7 Sekunden.",
 				"concise": "Richtet 15...70 Punkte Kälteschaden an und verlangsamt Feinde um 66% (2...6 Sekunden). Trifft Feinde in Eurer Nähe und in der Nähe Eures Verbündeten. Unveränderliche Wiederaufladezeit von 7 Sekunden, falls ein getroffener Gegner mit Wassermagie verhext ist."
 			},
 			"en": {
 				"name": "Mirror of Ice",
+				"description": "Elite Hex Spell. Shatter a Mirror of Ice. All foes near you and target ally take 15...70 cold damage and move 66% slower for 2...6 seconds. If you strike a foe hexed with Water Magic, Mirror of Ice recharges 50% faster.",
+				"concise": "Elite Hex Spell. Deals 15...70 cold damage and slows foes by 66% (2...6 seconds). Hits foes near you and target ally. Recharges 50% faster if it hits a foe hexed with Water Magic."
+			},
+			"en-gww": {
+				"name": "Mirror of Ice",
 				"description": "Shatter a Mirror of Ice. All foes near you and target ally take 15...70 cold damage and move 66% slower for 2...6 seconds. If you strike a foe hexed with Water Magic, Mirror of Ice recharges 50% faster.",
 				"concise": "Deals 15...70 cold damage and slows foes by 66% (2...6 seconds). Hits foes near you and target ally. Recharges 50% faster if it hits a foe hexed with Water Magic."
 			},
+			"es": {
+				"name": "Espejo de hielo",
+				"description": "Conjuro con maleficio de élite. Destrozas un Espejo de hielo. Todos los enemigos cerca de ti y del aliado objetivo reciben 15...70 de daño frío y se mueven un 66% más despacio durante 2...6 segundos. Si alcanzas a un enemigo que tiene un maleficio de magia de agua, el Espejo de hielo se recarga un 50% más rápido.",
+				"concise": "Conjuro con maleficio de élite. Hace 15...70 de daño frío y los enemigos se mueven un 66% más despacio (2...6 segundos). Afecta a los enemigos cerca de ti y del aliado objetivo. Se recarga un 50% más deprisa si alcanza a un enemigo que tiene un maleficio de magia de agua."
+			},
 			"fr": {
+				"name": "Miroir de glace",
+				"description": "Maléfice d'élite. Vous brisez un Miroir de glace en mille morceaux. Tous les ennemis près de vous et de l'allié ciblé subissent 15...70 points de dégâts du froid et sont ralentis de 66% pendant 2...6 secondes. Si vous frappez un ennemi victime d'un maléfice de la Magie de l'eau, le Miroir de glace se recharge 50% plus vite.",
+				"concise": "Maléfice d'élite. Inflige 15...70 points de dégâts du froid et ralentit les ennemis de 66% (2...6 secondes). Affecte les ennemis proches de vous et de l'allié ciblé. Se recharge 50% plus vite s'il touche un ennemi frappé d'un maléfice de la Magie de l'eau."
+			},
+			"fr-gwiki": {
 				"name": "Miroir de glace",
 				"description": "Vous brisez un Miroir de glace en mille morceaux. Tous les ennemis près de vous et de l'allié ciblé subissent 15...70 points de dégâts du froid et sont ralentis de 66% pendant (2...6 secondes. Si vous frappez un ennemi victime d'un maléfice de la Magie de l'eau, le Miroir de glace se recharge 50% plus vite.",
 				"concise": "Inflige 15...70 points de dégâts du froid et ralentit les ennemis de 66% (2...6 secondes). Affecte les ennemis proches de vous et de l'allié ciblé. Se recharge 50% plus vite s'il touche un ennemi frappé d'un maléfice de la Magie de l'eau."
+			},
+			"it": {
+				"name": "Specchio di Ghiaccio",
+				"description": "Fattura d'Élite. Infrangi uno Specchio di Ghiaccio. I nemici vicino a te e all'obiettivo alleato subiscono 15...70 danni da freddo e la loro velocità diminuisce di un 66% per 2...6 secondi. Se colpisci un nemico sotto l'effetto di una Magia dell'Acqua, lo Specchio di Ghiaccio si ricarica più velocemente del 50%.",
+				"concise": "Fattura d'Élite. Danni da freddo inferti: 15...70. Rallentamento dei nemici: 66% (2...6 secondi). Colpisce i nemici vicino a te e all'obiettivo alleato. Si ricarica più velocemente del 50% se colpisce un nemico sotto l'effetto di una Magia dell'Acqua."
+			},
+			"jp": {
+				"name": "アイス ミラー",
+				"description": "エリート弱体化スペル： 氷の鏡を割ります。プレイヤーおよびターゲットした味方の周囲にいるすべての敵に 15...70 のコールド ダメージを与え、2...6 秒間、移動速度を 66% 減少させます。プレイヤーに「ウォーター」特性の弱体化スペルがかけられている場合、このスペルは再使用時間が50%減少します。",
+				"concise": "エリート弱体化スペル： プレイヤーおよびターゲットした味方の周囲にいる敵に 15...70 のコールド ダメージを与え、移動速度を 66% 減少させます (2...6 秒)。敵に「ウォーター」特性の弱体化スペルがかけられている場合、再使用時間が50%減少します。"
+			},
+			"kr": {
+				"name": "얼음 반사",
+				"description": "엘리트 약화 마법. 대상 지정: 아군. 부근의 적들과 대상은 15...70의 냉기 대미지를 입고, 2...6초 동안 이동 속도가 66% 느려집니다. 물 속성 약화 마법에 걸린 적이 있으면 이 스킬의 재활성 시간이 50% 빨라집니다.",
+				"concise": "엘리트 약화 마법. 부근의 적들과 대상 아군에게 15...70의 냉기 대미지를 주고, 이동 속도를 66% 느려지게 합니다.(2...6초)의 냉기 대미지를 추가로 줍니다. 물 속성 약화 마법에 걸린 적이 있으면 이 스킬의 재활성 시간이 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Lodowe Lustro",
+				"description": "Elitarna klątwa (czar). Przez 2...6 sek., zadajesz dodatkowe 15...70 pkt. obrażeń od zimna, za każdym razem gdy rzucisz klątwę Magii Wody.",
+				"concise": "Elitarna klątwa (czar). (2...6 sek.) Zadajesz dodatkowe 15...70 pkt. obrażeń od zimna, za każdym razem gdy rzucisz klątwę Magii Wody."
+			},
+			"ru": {
+				"name": "Mirror of Ice",
+				"description": "Элитное заклинание-проклятье. Разбивает зеркало изо льда. Все противники поблизости от вас и выбранного союзника получают 15...70 ед. урона силой холода и двигаются на 66% медленнее в течение 2...6 сек. Если был поражен противник, находящийся под действием проклятья, связанного с Water Magic, Mirror of Ice будет перезаряжен на 50% быстрее.",
+				"concise": "Элитное заклинание-проклятье. Наносит 15...70 ед. урона силой холода и замедляет противников на 66% (2...6 сек). Поражает противников поблизости от вас и выбранного союзника. Перезаряжается на 50% быстрее, если был поражен противник, находящийся под действием проклятья, связанного с Water Magic."
+			},
+			"bork": {
+				"name": "Murrur ooff Ice-a",
+				"description": "Ileete-a Hex Spell. Shaetter a Murrur ooff Ice-a. Aell fues neaer yuoo und taerget aelly taeke-a 15...70 culd daemaege-a und mufe-a 66% slooer fur 2...6 secunds. Iff yuoo streeke-a a fue-a hexed veet Vaeter Maegeec, Murrur ooff Ice-a rechaerges 50% faester.",
+				"concise": "Ileete-a Hex Spell. Deaels 15...70 culd daemaege-a und sloos fues by 66% (2...6 secunds). Heets fues neaer yuoo und taerget aelly. Rechaerges 50% faester iff it heets a fue-a hexed veet Vaeter Maegeec."
 			}
 		}
 	}

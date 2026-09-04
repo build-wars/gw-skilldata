@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0,
 		"recharge": 24,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "窒息毒气",
+				"description": "预备技。 使你的弓箭在命中时，会对目标造成1...8点的额外伤害，并在目标周围形成一团毒雾，所有邻近的敌人的施法都将被打断，技能持续1...12秒。",
+				"concise": "预备技。 使你的弓箭在命中时，会对目标造成1...8点的额外伤害，并在目标周围形成一团毒雾，所有邻近的敌人的施法都将被打断，技能持续1...12秒。"
+			},
+			"cht": {
+				"name": "窒息毒氣",
+				"description": "準備技能： 持續 1...12 秒，使你的弓箭命中時對目標額外造成 1...8 傷害，並且對鄰近目標的敵人散播毒氣。受到毒氣影響的敵人在嘗試施展「魔法」時動作將被中斷。",
+				"concise": "準備技能： 持續 1...12 秒，使你的弓箭命中時對目標額外造成 1...8 傷害，並且對鄰近目標的敵人散播毒氣。受到毒氣影響的敵人在嘗試施展「魔法」時動作將被中斷。"
+			},
 			"de": {
+				"name": "Würgegas",
+				"description": "Vorbereitung. 1...12 Sekunde[n] lang richten Eure Pfeile 1...8 Punkt[e] mehr Schaden an und verbreiten beim Aufschlag Würgegas unter allen umstehenden Gegnern. Würgegas unterbricht Gegner beim Wirken von Zaubern.",
+				"concise": "Vorbereitung. 1...12 Sekunde[n]: +1...8 Punkt[e] Schaden. Verbreitet Würgegas unter umstehenden Feinden um den Gegner. Würgegas unterbricht Zauber."
+			},
+			"de-guildwiki": {
 				"name": "Würgegas",
 				"description": "1...12 Sekunden lang richten Eure Pfeile 1...8 Punkte mehr Schaden an und verbreiten beim Aufschlag Würgegas unter allen umstehenden Gegnern. Würgegas unterbricht Gegner beim Wirken von Zaubern.",
 				"concise": "1...12 Sekunden: +1...8 Schaden. Verbreitet Würgegas unter umstehenden Feinden um den Gegner. Würgegas unterbricht Zauber."
 			},
 			"en": {
 				"name": "Choking Gas",
+				"description": "Preparation. For 1...12 seconds, your arrows deal 1...8 more damage and spread Choking Gas to all adjacent foes on impact. Choking Gas interrupts foes attempting to cast spells.",
+				"concise": "Preparation. (1...12 seconds.) +1...8 damage. Spreads Choking Gas to foes adjacent to target. Choking Gas interrupts spells."
+			},
+			"en-gww": {
+				"name": "Choking Gas",
 				"description": "For 1...12 seconds, your arrows deal 1...8 more damage and spread Choking Gas to all adjacent foes on impact. Choking Gas interrupts foes attempting to cast spells.",
 				"concise": "(1...12 seconds.) +1...8 damage. Spreads Choking Gas to foes adjacent to target. Choking Gas interrupts spells."
 			},
+			"es": {
+				"name": "Gas asfixiante",
+				"description": "Preparación[\"Preparaciones\"]. Durante 1...12 segundos, tus flechas hacen 1...8 de daño adicional y dispersan un gas asfixiante al impactar en los enemigos adyacentes. Este gas interrumpe a los enemigos que intenten lanzar conjuros.",
+				"concise": "Preparación[\"Preparaciones\"]. (1...12 segundos). +1...8 de daño. Propagas gas asfixiante a los enemigos adyacentes al objetivo. El gas interrumpe conjuros."
+			},
 			"fr": {
+				"name": "Gaz suffocant",
+				"description": "Préparation. Pendant 1...12 secondes, vos flèches infligent 1...8 points de dégâts en plus et répandent du Gaz suffocant à l'impact sur tous les ennemis adjacents. Le Gaz suffocant interrompt les ennemis lorsqu'ils tentent de lancer des sorts.",
+				"concise": "Préparation. (1...12 secondes.) +1...8 points de dégâts. Répand du Gaz suffocant sur les ennemis adjacents à la cible. Le Gaz suffocant interrompt les sorts."
+			},
+			"fr-gwiki": {
 				"name": "Gaz suffocant",
 				"description": "Pendant 1...12 seconde(s), vos flèches infligent 1...8 point(s) de dégâts en plus et répandent du Gaz suffocant à l'impact sur tous les ennemis adjacents. Le Gaz suffocant interrompt les ennemis lorsqu'ils tentent de lancer des sorts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Gas Soffocante",
+				"description": "Preparazione. Per 1...12 secondo[i] le tue frecce infliggono 1...8 danno[i] in più a tutti i nemici adiacenti ed emetteranno del gas soffocante all'impatto che interromperà le magie nemiche.",
+				"concise": "Preparazione. (Secondi: 1...12) Danni inferti: +1...8. Diffonde Gas Soffocante sui nemici adiacenti all'obiettivo. Gas Soffocante interrompe le magie."
+			},
+			"jp": {
+				"name": "チョーク ガス",
+				"description": "プレパレーション： 1...12 秒間、弓攻撃により 1...8 の追加ダメージを与え、命中時にガスを噴出して隣接するすべての敵を窒息させます。ガスを吸い込んだ敵はスペル詠唱が中断されます。",
+				"concise": "プレパレーション： (1...12 秒) 1...8 の追加ダメージを与えます。ターゲットに隣接する敵に窒息ガスを放ち、スペルを中断します。"
+			},
+			"kr": {
+				"name": "질식 화살",
+				"description": "준비. 대상 지정: 없음. 1...12초 동안 화살에서 연기가 나서 화살에 맞은 적과 그에 인접한 모든 적을 질식시킵니다. 연기를 마신 적은 마법을 방해받고, 1...8의 대미지를 추가로 입습니다.",
+				"concise": "준비. (1...12초) 1...8의 대미지를 추가로 줍니다. 대상과 그에 인접한 적들을 질식시켜 마법을 방해합니다."
+			},
+			"pl": {
+				"name": "Duszący Gaz",
+				"description": "Przygotowanie. Przez 1...12 sek. twoje strzały zadają 1...8 pkt. dodatkowych obrażeń i roznoszą Duszący Gaz na wszystkich przeciwników bezpośrednio przy celu. Duszący Gaz przerywa próby rzucania czarów.",
+				"concise": "Przygotowanie. (1...12 sek.) +1...8 pkt. obrażeń. Roznosi Duszący Gaz na przeciwników bezpośrednio przy celu. Duszący Gaz przerywa rzucanie czarów."
+			},
+			"ru": {
+				"name": "Choking Gas",
+				"description": "Подготовка. В течение 1...12 сек ваши стрелы наносят на 1...8 ед. урона больше и распространяют при попадании Choking Gas на всех окружающих противников. Choking Gas прерывает противников, пытающихся произнести заклинания.",
+				"concise": "Подготовка. (1...12 сек) Увеличивает урон на 1...8 ед. Распространяет Choking Gas на противников, окружающих цель. Choking Gas прерывает заклинания."
+			},
+			"bork": {
+				"name": "Chukeeng Gaes",
+				"description": "Prepaeraeshun. Fur 1...12 secunds, yuoor aerroos deael 1...8 mure-a daemaege-a und spreaed Chukeeng Gaes tu aell aedjaecent fues oon impaect. Chukeeng Gaes interroopts fues aettempteeng tu caest spells.",
+				"concise": "Prepaeraeshun. (1...12 secunds.) +1...8 daemaege-a. Spreaeds Chukeeng Gaes tu fues aedjaecent tu taerget. Chukeeng Gaes interroopts spells."
 			}
 		}
 	}

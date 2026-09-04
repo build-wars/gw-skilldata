@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Radiant Scythe",
+				"description": "镰刀术。 This attack strikes for +1...7 damage for each point of Energy you currently have (maximum 5...30 damage).",
+				"concise": "镰刀术。 Deals +1...7 damage (maximum 5...30) for each point of Energy you have."
+			},
+			"cht": {
+				"name": "閃耀鐮斬",
+				"description": "鐮刀攻擊技能： 命中時依照現有能量，每一點造成 1 額外傷害，最多 5...30 ，你獲得 1...7 能量。",
+				"concise": "鐮刀攻擊技能： 命中時依照現有能量，每一點造成 1 額外傷害，最多 5...30 ，你獲得 1...7 能量。"
+			},
 			"de": {
+				"name": "Strahlende Sense",
+				"description": "Sensenangriff. Dieser Angriff verursacht pro Energiepunkt, den Ihr momentan habt, +1 Punkt Schaden (maximal 5...30 Punkt[e] Schaden). Wenn dieser Angriff trifft, erhaltet Ihr 1...7 Energiepunkt[e].",
+				"concise": "Sensenangriff. Richtet für jeden Eurer Energiepunkte +1 Punkt Schaden an (maximal 5...30). Ihr erhaltet 1...7 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Strahlende Sense",
 				"description": "Dieser Angriff verursacht pro Energiepunkt, den Ihr momentan habt, +1 Punkt Schaden (maximal 5...30 Punkte Schaden). Ihr erhaltet 1...7 Energiepunkte.",
 				"concise": "Richtet für jeden Eurer Energiepunkte +1 Punkt Schaden an (maximal 5...30). Ihr erhaltet 1...7 Energiepunkte."
 			},
 			"en": {
 				"name": "Radiant Scythe",
+				"description": "Scythe Attack. This attack strikes for +1 damage for each point of Energy you currently have, maximum 5...30 damage. You gain 1...7 Energy if this attack hits.",
+				"concise": "Scythe Attack. Deals +1 damage (maximum 5...30) for each point of Energy you have. Gain 1...7 Energy."
+			},
+			"en-gww": {
+				"name": "Radiant Scythe",
 				"description": "This attack strikes for +1 damage for each point of Energy you currently have, maximum 5...30. You gain 1...7 Energy if this attack hits.",
 				"concise": "Deals +1 damage (maximum 5...30) for each point of Energy you have. Gain 1...7 Energy."
 			},
+			"es": {
+				"name": "Guadaña radiante",
+				"description": "Ataque con guadaña. Este ataque hace +1 de daño por cada punto de energía que tengas (máximo 5...30 de daño). Ganas 1...7 de energía si el ataque impacta.",
+				"concise": "Ataque con guadaña. Hace +1 de daño (máximo 5...30) por cada punto de energía que tengas. Ganas 1...7 de energía."
+			},
 			"fr": {
+				"name": "Faux rayonnante",
+				"description": "Attaque à la faux. Cette attaque inflige +1 points de dégâts pour chaque point d'énergie que vous possédez (5...30 points de dégâts maximum). Vous gagnez 1...7 points d'énergie si cette attaque réussit.",
+				"concise": "Attaque à la faux. Inflige +1 point de dégâts (maximum : 5...30) par point d'énergie dont vous disposez. Gain de 1...7 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Faux rayonnante",
 				"description": "Cette attaque inflige +2 points de dégâts pour chaque point d'énergie que vous possédez (5...50 points de dégâts maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falce Radiante",
+				"description": "Attacco con Falce. Questo attacco provoca +1 danni per ogni Punto Energia presente su di te (max. 5...30 danni). Ottieni 1...7 Punti Energia se l'attacco va a segno.",
+				"concise": "Attacco con Falce. Danni inferti per ogni Punto Energia che possiedi: +1 (max 5...30). Ottieni 1...7 Punti Energia."
+			},
+			"jp": {
+				"name": "ラディアント サイズ",
+				"description": "サイズ アタック： 保持しているエネルギーのポイントごとに、敵に1の追加ダメージを与えます (最大 5...30 ダメージ) 。攻撃が成功すると、1...7 のエネルギーを獲得します。",
+				"concise": "サイズ アタック： 保持しているエネルギーのポイントごとに1の追加ダメージを与えます (最大 5...30 ダメージ) 。1...7 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "백열의 사이드",
+				"description": "사이드 공격. 자신의 현재 에너지 1당 2씩, 최대 5...30의 대미지를 추가로 줍니다. 공격이 성공하면 1...7의 에너지를 얻습니다.",
+				"concise": "사이드 공격. 자신의 현재 에너지 1당 2씩, 최대 5...30의 대미지를 추가로 줍니다. 공격이 성공하면 1...7의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Promieniejąca Kosa",
+				"description": "Atak kosą. Za każdy punkt energii, który aktualnie posiadasz, atak ten zadaje +1 pkt. obrażeń (maksymalnie 5...30 pkt. obrażeń). Jeśli ten atak trafi, otrzymujesz 1...7 energii.",
+				"concise": "Atak kosą. Zadaje +1 pkt. obrażeń (maksymalnie 5...30) za każdy punkt energii, który posiadasz. Zyskujesz 1...7 pkt. energii."
+			},
+			"ru": {
+				"name": "Radiant Scythe",
+				"description": "Атака косой. Эта атака наносит дополнительно 1 ед. урона за каждую ед. энергии, которая имеется у вас в данный момент (но не более 5...30 ед. урона). Вы получаете 1...7 ед. энергии, если эта атака попадает в цель.",
+				"concise": "Атака косой. Наносит дополнительно 1 ед. урона (но не более 5...30 ед.) за каждую имеющуюся у вас ед. энергии. Дает 1...7 ед. энергии."
+			},
+			"bork": {
+				"name": "Raedeeunt Scyzee",
+				"description": "Scyzee Aettaeck. Thees aettaeck streekes fur +1 daemaege-a fur iaech pueent ooff Inergy yuoo coorrently haefe-a, maexeemoom 5...30 daemaege-a. Yuoo gaeeen 1...7 Inergy iff thees aettaeck heets.",
+				"concise": "Scyzee Aettaeck. Deaels +1 daemaege-a (maexeemoom 5...30) fur iaech pueent ooff Inergy yuoo haefe-a. Gaeeen 1...7 Inergy."
 			}
 		}
 	}

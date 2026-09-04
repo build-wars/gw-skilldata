@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暮光之速",
+				"description": "增益魔法。 在4秒内（每1级「致命攻击」属性可使此效果持续时间增加1秒），使你的攻击速度提升33%，护甲值提高15...25点。在这段时间之内，每当你打出致命一击，此技能的效果会再次重新作用于你。",
+				"concise": "增益魔法。 在4秒内（每1级「致命攻击」属性可使此效果持续时间增加1秒），使你的攻击速度提升33%，护甲值提高15...25点。在这段时间之内，每当你打出致命一击，此技能的效果会再次重新作用于你。"
+			},
+			"cht": {
+				"name": "薄暮之速",
+				"description": "加持魔法： 持續 4 秒，另外加上每 1「致命攻擊」屬性等級為 1秒；你的攻擊速度加快 33% 並增加 15...25 防禦。每當你造成致命傷害時，此技能的持續時間重新計算。",
+				"concise": "加持魔法： 持續 4 秒，另外加上每 1「致命攻擊」屬性等級為 1秒；你的攻擊速度加快 33% 並增加 15...25 防禦。每當你造成致命傷害時，此技能的持續時間重新計算。"
+			},
 			"de": {
+				"name": "Kritische Beweglichkeit",
+				"description": "Verzauberung. 4 Sekunde[n] und 1 extra Sekunde pro Rang bei Kritischen Stößen lang greift Ihr um 33% schneller an und erhaltet +15...25 Rüstung. Diese Fertigkeit wiederholt sich jedes Mal, wenn Ihr einen kritischen Treffer landet.",
+				"concise": "Verzauberung. (4 Sekunde[n] plus 1 Sekunde für jeden Rang bei Kritischen Stößen.) Ihr greift um 33% schneller an und erhaltet +15...25 Rüstung. Erneuerung: Jedes Mal, wenn Ihr einen kritischen Treffer landet."
+			},
+			"de-guildwiki": {
 				"name": "Kritische Beweglichkeit",
 				"description": "4 Sekunden und 1 extra Sekunde pro Rang bei Kritischen Stößen lang greift Ihr um 33% schneller an und erhaltet +15...25 Rüstung. Diese Fertigkeit wiederholt sich jedes Mal, wenn Ihr einen kritischen Treffer landet.",
 				"concise": "(4 Sekunden plus 1 Sekunde für jeden Rang bei Kritischen Stößen.) Ihr greift um 33% schneller an und erhaltet +15...25 Rüstung. Erneuerung: Jedes Mal, wenn Ihr einen kritischen Treffer landet."
 			},
 			"en": {
 				"name": "Critical Agility",
+				"description": "Enchantment Spell. For 4 seconds and 1 second for each rank of Critical Strikes, you attack 33% faster and gain +15...25 armor. This skill reapplies itself every time you land a critical hit.",
+				"concise": "Enchantment Spell. (4 seconds plus 1 second for each rank of Critical Strikes.) You attack 33% faster and gain +15...25 armor. Renewal: every time you land a critical hit."
+			},
+			"en-gww": {
+				"name": "Critical Agility",
 				"description": "For 4 seconds and 1 second for each rank of Critical Strikes, you attack 33% faster and gain +15...25 armor. This skill reapplies itself every time you land a critical hit.",
 				"concise": "(4 seconds plus 1 second for each rank of Critical Strikes.) You attack 33% faster and gain +15...25 armor. Renewal: every time you land a critical hit."
 			},
+			"es": {
+				"name": "Agilidad crítica",
+				"description": "Conjuro con encantamiento. Durante 4 segundos y 1 segundo extra por cada nivel de golpes críticos que tengas, atacas un 33% más deprisa y tienes +15...25 de armadura. Esta habilidad se reactivará cada vez que hagas un golpe crítico.",
+				"concise": "Conjuro con encantamiento. (4 segundos y 1 segundo extra por cada nivel de golpes críticos que tengas). Atacas un 33% más deprisa y ganas +15...25 de armadura. Renovación: cada vez que hagas un golpe crítico."
+			},
 			"fr": {
+				"name": "Agilité critique",
+				"description": "Enchantement. Pendant 4 secondes et 1 seconde supplémentaire pour chaque rang d'Attaque critique, vous attaquez 33% plus vite et bénéficiez d'un bonus d'armure de +15...25. Cette compétence se relance à chaque fois que vous infligez un coup critique.",
+				"concise": "Enchantement. ( 4 secondes, plus 1 seconde supplémentaire pour chaque rang d'Attaque critique). Vous attaquez 33% plus vite et bénéficiez d'un bonus d'armure de +15...25. Renouvellement : chaque fois que vous infligez un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Agilité critique",
 				"description": "Pendant 4 secondes et 1 seconde pour chaque rang d'Attaque critique, vous attaquez 33% plus vite et bénéficiez d'un bonus d'armure de +15...25. Cette compétence se relance à chaque fois que vous infligez un coup critique.",
 				"concise": "(4 secondes, plus 1 seconde supplémentaires pour chaque rang d'Attaque critique). Vous attaquez 33% plus vite et bénéficiez d'un bonus d'armure de +15...25. Renouvellement : chaque fois que vous infligez un coup critique."
+			},
+			"it": {
+				"name": "Agilità Critica",
+				"description": "Incantesimo. Per 4 secondo[i] e 1 secondo per ogni grado di Colpi Critici, la tua velocità d'attacco aumenta di un 33% e ottieni +15...25 di armatura. Questa abilità si rinnova ogni volta che metti a segno un colpo critico.",
+				"concise": "Incantesimo. (4 secondo[i] più 1 per ogni grado di Colpi Critici) Incremento tua velocità d'attacco: 33%. Armatura: +15...25. Rinnovo: ogni volta che assesti un colpo critico."
+			},
+			"jp": {
+				"name": "クリティカル アジリティ",
+				"description": "強化スペル： 4 秒間、攻撃速度が 33%、防御力が 15...25 増加します。この効果の持続時間は、「クリティカル ストライク」の特性レベルごとに1秒増加します。また、この効果はクリティカル ヒットを成功させるたびに再適用されます。",
+				"concise": "強化スペル： (4 秒＋「クリティカル ストライク」の特性レベルごとに1秒) 攻撃速度が 33%、防御力が 15...25 増加します。更新： クリティカル ヒットが成功するたび。"
+			},
+			"kr": {
+				"name": "지독한 기민함",
+				"description": "강화 마법. 대상 지정: 없음. 4초에 더해 치명타 특성 레벨 1당 1초씩 공격 속도가 33% 빨라지고, 방어력이 15...25 증가합니다. 치명타를 터뜨릴 때마다 효과가 다시 시작됩니다.",
+				"concise": "강화 마법. (4초 + 치명타 특성 레벨당 1초씩) 공격 속도가 33% 빨라지고, 방어력이 15...25 증가합니다. 치명타를 터뜨릴 때마다 효과가 다시 시작합니다."
+			},
+			"pl": {
+				"name": "Krytyczna Zwinność",
+				"description": "Zaklęcie (czar). Przez 4 sek. i 1 sekundę na każdy poziom Trafień Krytycznych atakujesz o 33% szybciej i posiadasz +15...25 pkt. pancerza. Ta umiejętność zadziała ponownie za każdym razem, kiedy wykonasz trafienie krytyczne.",
+				"concise": "Zaklęcie (czar). (4 sek. plus 1 sek. za każdy poziom Trafień Krytycznych.) Atakujesz o 33% szybciej i posiadasz +15...25 pkt. pancerza. Odnowienie: za każdym razem, gdy wykonasz trafienie krytyczne."
+			},
+			"ru": {
+				"name": "Critical Agility",
+				"description": "Заклинание-чары. В течение 4 сек плюс 1 сек за каждый уровень таланта Critical Strikes вы атакуете на 33% быстрее и получаете дополнительно 15...25 ед. защиты. Это умение обновляется каждый раз, когда вам удается завершить удар критическим попаданием.",
+				"concise": "Заклинание-чары. (4 сек) Вы атакуете на 33% быстрее и получаете +15...25 ед. к защите. Обновление: каждый раз, когда вы наносите критический удар."
+			},
+			"bork": {
+				"name": "Creeteecael Aegeeleety",
+				"description": "Inchuntment Spell. Fur 4 secunds und 1 secund fur iaech runk ooff Creeteecael Streekes, yuoo aettaeck 33% faester und gaeeen +15...25 aermur. Thees skeell reaeppleees itselff ifery teeme-a yuoo lund a creeteecael heet.",
+				"concise": "Inchuntment Spell. (4 secunds ploos 1 secund fur iaech runk ooff Creeteecael Streekes.) Yuoo aettaeck 33% faester und gaeeen +15...25 aermur. Renooael: ifery teeme-a yuoo lund a creeteecael heet."
 			}
 		}
 	}

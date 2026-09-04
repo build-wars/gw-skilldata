@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 17,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "缚灵之光",
+				"description": "咒文。 牺牲最大生命值的17%，治疗友方目标60...180点生命值。如果「音波」范围内有任何「灵体」，你将不需要牺牲生命值。",
+				"concise": "咒文。 牺牲当前生命值的17%，治疗友方目标60...180点生命值。如果「音波」范围内有任何「灵体」，你将不需要牺牲生命值。"
+			},
+			"cht": {
+				"name": "縛靈之光",
+				"description": "咒文魔法： 犧牲自己最大體力的 17% ，治癒目標盟友 60...180 體力。若音量所及範圍內有任何的「靈」，則你將不需要犧牲體力。",
+				"concise": "咒文魔法： 犧牲自己最大體力的 17% ，治癒目標盟友 60...180 體力。若音量所及範圍內有任何的「靈」，則你將不需要犧牲體力。"
+			},
 			"de": {
+				"name": "Geisterlicht",
+				"description": "Zauber. Der Verbündete (bzw. Ihr selbst) wird um 60...180 Punkt[e] geheilt. Wenn sich Geister in Hörweite befinden, opfert Ihr keine Lebenspunkte.",
+				"concise": "Zauber. Heilt um 60...180 Lebenspunkt[e]. Ihr opfert keine Lebenspunkte, falls Ihr Euch in Hörweite von Geistern befindet."
+			},
+			"de-guildwiki": {
 				"name": "Geisterlicht",
 				"description": "Der Verbündete (bzw. Ihr selbst) wird um 60...180 Punkte geheilt. Wenn sich Geister in Hörweite befinden, opfert Ihr keine Lebenspunkte.",
 				"concise": "Heilt um 60...180 Lebenspunkte. Ihr opfert keine Lebenspunkte, falls Ihr Euch in Hörweite von Geistern befindet."
 			},
 			"en": {
 				"name": "Spirit Light",
+				"description": "Spell. Target ally is healed for 60...180. If any spirits are within earshot, you don't sacrifice Health.",
+				"concise": "Spell. Heals for 60...180. You don't sacrifice Health if you are within earshot of any spirits."
+			},
+			"en-gww": {
+				"name": "Spirit Light",
 				"description": "Target ally is healed for 60...180. If any spirits are within earshot, you don't sacrifice Health.",
 				"concise": "Heals for 60...180. You don't sacrifice Health if you are within earshot of any spirits."
 			},
+			"es": {
+				"name": "Luz espiritual",
+				"description": "Conjuro. Curas 60...180 de salud al objetivo (un aliado o tú mismo). Si hay espíritus al alcance del oído, no sacrificarás salud.",
+				"concise": "Conjuro. Cura 60...180 de salud. No sacrificas tu salud si hay espíritus al alcance del oído."
+			},
 			"fr": {
+				"name": "Esprit illuminé",
+				"description": "Sort. La cible (un allié ou vous-même) est soignée de 60...180 points de vie. Si des esprits se trouvent à portée de voix, vous ne sacrifiez pas de santé.",
+				"concise": "Sort. Soigne de 60...180 points de vie. Vous ne sacrifiez pas de santé si un esprit se trouve à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Esprit illuminé",
 				"description": "La cible (un allié ou vous-même) est soignée de 60...180 points de vie. Si des esprits se trouvent à portée de voix, vous ne sacrifiez pas de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Luce dello Spirito",
+				"description": "Magia. L'obiettivo (un alleato o te stesso) viene curato di 60...180 Punto[i] Salute; se sono presenti degli Spiriti a portata d'orecchio, non sacrifichi alcuna Salute.",
+				"concise": "Magia. Cure: 60...180. Non sacrifichi Salute se sei a portata d'orecchio di qualche Spirito."
+			},
+			"jp": {
+				"name": "スピリット ライト",
+				"description": "スペル： ターゲットした味方は、体力が 60...180 回復します。声の届く範囲内に精霊がいる場合、プレイヤーは体力を犠牲にしません。",
+				"concise": "スペル： 体力を 60...180 回復します。声の届く範囲内に精霊がいる場合、体力を犠牲にしません。"
+			},
+			"kr": {
+				"name": "영혼의 빛",
+				"description": "마법. 대상 지정: 아군. 대상의 체력을 60...180 회복시킵니다. 가청 범위 내에 영혼이 있으면 체력을 소모하지 않습니다.",
+				"concise": "마법. 60...180의 체력을 회복시킵니다. 가청 범위 내에 영혼이 있으면 체력을 소모하지 않습니다."
+			},
+			"pl": {
+				"name": "Duchowe Światło",
+				"description": "Czar. Wybrany sojusznik zostaje uleczony, otrzymując 60...180 pkt. żywotności. Jeżeli w zasięgu słuchu znajdują się jakieś duchy, nie poświęcasz żywotności.",
+				"concise": "Czar. Dodaje 60...180 pkt. żywotności. Nie poświęcasz żywotności, jeżeli jesteś w zasięgu słuchu ducha."
+			},
+			"ru": {
+				"name": "Spirit Light",
+				"description": "Заклинание. Выбранный союзник исцеляется на 60...180 ед. здоровья. Если в вашей зоне слышимости находится какой-либо дух, вам не нужно жертвовать здоровье.",
+				"concise": "Заклинание. Исцеляет на 60...180 ед. здоровья. Вам не нужно жертвовать здоровье, если вы находитесь в зоне слышимости какого-либо духа."
+			},
+			"bork": {
+				"name": "Spureet Leeght",
+				"description": "Spell. Taerget aelly is heaeled fur 60...180. Iff uny spureets aere-a veetheen iaershut, yuoo dun't saecreeffeece-a Heaelt.",
+				"concise": "Spell. Heaels fur 60...180. Yuoo dun't saecreeffeece-a Heaelt iff yuoo aere-a veetheen iaershut ooff uny spureets."
 			}
 		}
 	}

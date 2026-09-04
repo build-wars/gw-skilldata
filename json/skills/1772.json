@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "净化之词",
+				"description": "圣歌。 在5...20秒之内，所有「音波」范围内的友方在下一次使用纹章技能时，将会治愈自身的一种「症状」。",
+				"concise": "圣歌。 在5...20秒之内，所有「音波」范围内的友方在下一次使用纹章技能时，将会治愈自身的一种「症状」。"
+			},
+			"cht": {
+				"name": "潔淨吟唱",
+				"description": "聖歌： 持續 5...20 秒，使音量所及範圍內的盟友「下一次」使用「紋章」類型技能時，為該盟友消去一項「病症」。",
+				"concise": "聖歌： 持續 5...20 秒，使音量所及範圍內的盟友「下一次」使用「紋章」類型技能時，為該盟友消去一項「病症」。"
+			},
 			"de": {
+				"name": "Lyrik der Läuterung",
+				"description": "Anfeuerungsruf. Während der nächsten 5...20 Sekunde[n] lang verliert jeder Verbündete in Hörweite bei der nächsten Verwendung eines Siegels 1 Zustand.",
+				"concise": "Anfeuerungsruf. 5...20 Sekunde[n]: Verbündete in Hörweite verlieren bei Benutzung ihres nächsten Siegels einen Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Lyrik der Läuterung",
 				"description": "Während der nächsten 5...20 Sekunden lang verliert jeder Verbündete in Hörweite bei der nächsten Verwendung eines Siegels 1<sic/> Zustand.",
 				"concise": "5...20 Sekunden: Verbündete in Hörweite verlieren bei Benutzung Ihres nächsten Siegels einen Zustand."
 			},
 			"en": {
 				"name": "Lyric of Purification",
+				"description": "Chant. For 5...20 seconds, the next time each ally within earshot uses a signet, that ally loses 1 condition.",
+				"concise": "Chant. (5...20 seconds.) Allies in earshot lose one condition with their next signet."
+			},
+			"en-gww": {
+				"name": "Lyric of Purification",
 				"description": "For 5...20 seconds, the next time each ally within earshot uses a Signet, that ally loses 1 Condition.",
 				"concise": "(5...20 seconds.) Allies in earshot lose one condition with their next signet."
 			},
+			"es": {
+				"name": "Lírica de purificación",
+				"description": "Cántico. Durante 5...20 segundos, la próxima vez que algún aliado al alcance del oído use un sello, se curará 1 condición.",
+				"concise": "Cántico. (5...20 segundos). Los aliados al alcance del oído pierden una condición con su siguiente sello."
+			},
 			"fr": {
+				"name": "Poème de purification",
+				"description": "Chant. Pendant 5...20 secondes, la prochaine fois que chaque allié à portée de voix utilise un sceau, il perd 1 condition.",
+				"concise": "Chant. (5...20 secondes.) Les alliés à portée de voix perdent une condition grâce à leur sceau suivant."
+			},
+			"fr-gwiki": {
 				"name": "Poème de purification",
 				"description": "Pendant 5...20 secondes, la prochaine fois que chaque allié à portée de voix utilise un Sceau, il perd 1 condition.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lirica di Purificazione",
+				"description": "Canto. Per 5...20 secondo[i], la prossima volta che ogni alleato a portata d'orecchio utilizza un Sigillo, perde 1 condizione.",
+				"concise": "Canto. (Secondi: 5...20) Gli alleati a portata d'orecchio perdono una condizione con il Sigillo successivo."
+			},
+			"jp": {
+				"name": "ピュリフィケーション リリック",
+				"description": "チャント： 5...20 秒間、声の届く範囲内にいる味方はそれぞれ、次にシグネットを使用するときに、かけられている「状態異常」が1個解除されます。",
+				"concise": "チャント： (5...20 秒) 声の届く範囲内にいる味方は、次にシグネットを使用すると「状態異常」が1個解除されます。"
+			},
+			"kr": {
+				"name": "정화의 서정시",
+				"description": "영창. 대상 지정: 없음. 5...20초 동안 가청 범위 내에 있는 아군이 인장 스킬을 사용하면 몸에 걸린 상태이상 하나가 무효화됩니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (5...20초) 가청 범위 내에 있는 아군이 처음 인장 스킬을 사용하면 몸에 걸린 상태이상 하나가 무효화됩니다."
+			},
+			"pl": {
+				"name": "Liryk Oczyszczenia",
+				"description": "Zaśpiew. Przez 5...20 sek. każdy sojusznik w zasięgu słuchu z następnym użyciem sygnetu, traci 1 przypadłość.",
+				"concise": "Zaśpiew. (5...20 sek.) Sojusznicy w zasięgu słuchu, ze swoim następnym sygnetem tracą jedną przypadłość."
+			},
+			"ru": {
+				"name": "Lyric of Purification",
+				"description": "Хорал. В течение 5...20 сек в следующий раз, когда каждый союзник, находящийся в зоне слышимости, использует какую-либо печать, с этого союзника будет снято одно состояние.",
+				"concise": "Хорал. (5...20 сек) Союзники в зоне слышимости теряют одно состояние при следующем использовании ими печати."
+			},
+			"bork": {
+				"name": "Lyreec ooff Pooreeffeecaeshun",
+				"description": "Chunt. Fur 5...20 secunds, zee next teeme-a iaech aelly veetheen iaershut uses a seegnet, thaet aelly luses 1 cundeeshun.",
+				"concise": "Chunt. (5...20 secunds.) Aelleees in iaershut luse-a oone-a cundeeshun veet zeeur next seegnet."
 			}
 		}
 	}

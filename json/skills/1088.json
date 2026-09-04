@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "援助之风",
+				"description": "精英咒文。 依照疲劳所造成的能量耗损，每损失 1 能量使你获得能量 1 。此魔法会造成施法者疲劳。",
+				"concise": "精英咒文。 依照疲劳所造成的能量耗损，每损失 1 能量使你获得能量 1 。此魔法会造成施法者疲劳。"
+			},
+			"cht": {
+				"name": "援助之風",
+				"description": "精英咒文魔法： 依照精疲力竭所造成的能量耗損，每損失 1 能量使你獲得能量 1 。此魔法會造成施法者精疲力竭。",
+				"concise": "精英咒文魔法： 依照精疲力竭所造成的能量耗損，每損失 1 能量使你獲得能量 1 。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Zweite Chance",
+				"description": "Elite-Zauber. Ihr erhaltet für jeden Eurer Energiepunkte, der durch Überzaubern eingeschränkt ist, 1 Energiepunkte und 5 Punkte Gesundheit. Ihr verliert alle Verzauberungen.",
+				"concise": "Elite-Zauber. Ihr erhaltet für jeden Punkt Überzaubern 1 Energiepunkte und 5 Punkte Gesundheit. Ihr verliert alle Verzauberungen."
+			},
+			"de-guildwiki": {
 				"name": "Zweite Chance",
 				"description": "Ihr erhaltet für jeden Eurer Energiepunkte, der durch Überzaubern<sic/> eingeschränkt ist, 1 Energiepunkt und 5 Punkte Gesundheit. Ihr verliert alle Verzauberungen.",
 				"concise": "Ihr erhaltet für jeden Punkt Überzaubern<sic/> 1 Energiepunkt und 5 Punkte Gesundheit. Ihr verliert alle Verzauberungen."
 			},
 			"en": {
 				"name": "Second Wind",
+				"description": "Elite Spell. You gain 1 Energy and 5 Health for each point of Energy restricted by Overcast. You lose all enchantments.",
+				"concise": "Elite Spell. You gain 1 Energy and 5 Health for each point of Overcast. You lose all enchantments."
+			},
+			"en-gww": {
+				"name": "Second Wind",
 				"description": "You gain 1 Energy and 5 Health for each point of Energy restricted by Overcast. You lose all enchantments.",
 				"concise": "You gain 1 Energy and 5 Health for each point of Overcast. You lose all enchantments."
 			},
+			"es": {
+				"name": "Viento secundario",
+				"description": "Conjuro de élite. Ganas 1 de energía y 5 de salud por cada punto de energía restringido por el sobrelanzamiento. Pierdes todos los encantamientos.",
+				"concise": "Conjuro de élite. Ganas 1 de energía y 5 de salud por cada punto de sobrelanzamiento. Pierdes todos los encantamientos."
+			},
 			"fr": {
+				"name": "Seconde chance",
+				"description": "Sort d'élite. Vous gagnez 1 points d'énergie et 5 points de vie pour chaque point d'énergie limité par l'Afflux. Vous perdez tous vos enchantements.",
+				"concise": "Sort d'élite. Vous gagnez 1 points d'énergie et 5 points de vie pour chaque point d'Afflux. Vous perdez tous vos enchantements."
+			},
+			"fr-gwiki": {
 				"name": "Seconde chance",
 				"description": "Vous obtenez 1 point d'énergie pour chaque point d'énergie perdu à cause de l'épuisement. Ce sort entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Seconda Opportunità",
+				"description": "Magia d'Élite. Ottieni 1 Punti Energia e 5 Punti Salute per ogni punto Energia limitato da Sforzo. Perdi tutti gli incantesimi.",
+				"concise": "Magia d'Élite. Ottieni 1 Punti Energia e 5 Punti Salute per ogni punto Sforzo. Perdi tutti gli incantesimi."
+			},
+			"jp": {
+				"name": "セカンド ウインド",
+				"description": "エリート スペル： プレイヤーは「疲労」状態により制限されているポイントごとに 1 のエネルギーと 5 の体力を獲得します。",
+				"concise": "エリート スペル： 「疲労」状態により制限されているポイントごとに 1 のエネルギーと 5 の体力を獲得しますが、かけられている強化スペルが解除されます。"
+			},
+			"kr": {
+				"name": "보충의 바람",
+				"description": "엘리트 마법. 대상 지정: 없음. 탈진 유발로 감소된 에너지 1당 5의 체력과 1의 에너지를 얻습니다. 자신에게 걸린 강화 마법이 모두 무효화됩니다.",
+				"concise": "엘리트 마법. 대상 지정: 없음. 탈진 유발로 감소된 에너지 1당 5의 체력과 1의 에너지를 얻습니다. 강화 마법을 모두 잃습니다."
+			},
+			"pl": {
+				"name": "Drugi Oddech",
+				"description": "Elitarny czar. Uzyskujesz 1 punktów energii i 5 punktów żywotności za każdy punkt energii ograniczony przez limit aktywacyjny. Tracisz wszystkie zaklęcia.",
+				"concise": "Elitarny czar. Uzyskujesz 1 punktów energii i 5 punktów żywotności za każdy punkt limitu aktywacyjnego. Tracisz wszystkie zaklęcia."
+			},
+			"ru": {
+				"name": "Second Wind",
+				"description": "Элитное заклинание. Вы получаете 1 ед. энергии и 5 ед. здоровья за каждую единицу Утомления. Вы теряете все чары.",
+				"concise": "Элитное заклинание. Вы получаете 1 ед. энергии и 5 ед. здоровья за каждую единицу Утомления. Вы теряете все чары."
+			},
+			"bork": {
+				"name": "Secund Veend",
+				"description": "Ileete-a Spell. Yuoo gaeeen 1 Inergy und 5 Heaelt fur iaech pueent ooff Inergy restreected by Oofercaest. Yuoo luse-a aell inchuntments.",
+				"concise": "Ileete-a Spell. Yuoo gaeeen 1 Inergy und 5 Heaelt fur iaech pueent ooff Oofercaest. Yuoo luse-a aell inchuntments. Bork! Bork! Bork!"
 			}
 		}
 	}

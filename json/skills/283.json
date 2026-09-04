@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黛薇娜之吻",
+				"description": "咒文。 为目标盟友恢复20...65点生命值。根据该盟友身上带有的「增益魔法」和「负面魔法」数量，每项为其治疗额外15...40点生命值。",
+				"concise": "咒文。 为目标盟友恢复 20...65点 生命值。根据该队友身上带有的「增益魔法」和「负面魔法」数量，每项附加治疗 15...40点 生命值。"
+			},
+			"cht": {
+				"name": "薇娜之吻",
+				"description": "咒文魔法： 治癒目標其他盟友 20...65 體力。依照該盟友身上維持的「加持」和「降咒」數量，每項給予治癒 15...40 體力的效果。",
+				"concise": "咒文魔法： 治癒目標其他盟友 20...65 體力。依照該盟友身上維持的「加持」和「降咒」數量，每項給予治癒 15...40 體力的效果。"
+			},
 			"de": {
+				"name": "Dwaynas Kuss",
+				"description": "Zauber. Heilt Verbündeten um 20...65 Lebenspunkt[e] und um zusätzlich 15...40 Lebenspunkt[e] für jede Verzauberung oder Verhexung, die auf diesem Verbündeten liegt.",
+				"concise": "Zauber. Heilt um 20...65 Lebenspunkt[e]. Heilt für jede Verzauberung und Verhexung auf dem Verbündeten um weitere 15...40 Lebenspunkt[e]. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Dwaynas Kuss",
 				"description": "Heilt Verbündeten um 20...65 Punkte und um zusätzlich 15...40 Punkte für jede Verzauberung oder Verhexung, die auf diesem Verbündeten liegt.",
 				"concise": "Heilt um 20...65 Lebenspunkte. Heilt für jede Verzauberung und Verhexung auf dem Verbündeten um weitere 15...40 Lebenspunkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Dwayna's Kiss",
+				"description": "Spell. Heal target other ally for 20...65 Health and an additional 15...40 Health for each enchantment or hex on that ally.",
+				"concise": "Spell. Heals for 20...65. Heals for 15...40 more for each enchantment and hex on target ally. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Dwayna's Kiss",
 				"description": "Heal target other ally for 20...65 Health and an additional 15...40 Health for each enchantment or hex on that ally.",
 				"concise": "Heals for 20...65. Heals for 15...40 more for each enchantment and hex on target ally. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Beso de Dwayna",
+				"description": "Conjuro. Curas 20...65 de salud al aliado objetivo y 15...40 extra por cada encantamiento o maleficio que ése tenga.",
+				"concise": "Conjuro. Cura 20...65 de salud. 15...40 extra por cada encantamiento o maleficio que tenga el aliado objetivo. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Baiser de Dwayna",
+				"description": "Sort. Soigne l'allié visé de 20...65 points de vie, et de 15...40 points supplémentaires pour chaque enchantement ou maléfice qui l'affecte.",
+				"concise": "Sort. Soigne de 20...65 points de vie. Soigne de 15...40 points de vie supplémentaires pour chaque enchantement et maléfice affectant l'allié visé. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Baiser de Dwayna",
 				"description": "Soigne l'allié visé de 15...60 points de vie, et de 10...35 points supplémentaires pour chaque enchantement ou maléfice qui l'affecte.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Bacio di Dwayna",
+				"description": "Magia. Curi l'alleato di 20...65 Punto[i] Salute e di altri 15...40 Punto[i] Salute per ogni incantesimo o fattura che ha addosso.",
+				"concise": "Magia. Cure: 20...65. Cura di 15...40 in più per ogni incantesimo o fattura presente sull'obiettivo (un alleato o te stesso). Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ドワイナ キス",
+				"description": "スペル： ターゲットした自分以外の味方は体力が 20...65 回復し、その味方にかけられている強化または弱体化スペルごとに 15...40 の体力が追加回復します。",
+				"concise": "スペル： 体力を 20...65 回復します。ターゲットした味方にかけられている強化および弱体化スペルごとに 15...40 の体力が追加回復します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "드와이나의 입맞춤",
+				"description": "마법. 대상 지정: 아군. 대상의 체력을 20...65 회복시킵니다. 대상에게 걸려 있는 강화 마법과 약화 마법 하나당 15...40의 체력을 추가로 회복시킵니다. 이 마법은 자신에게 걸 수 없습니다.",
+				"concise": "마법. 체력을 20...65 회복시킵니다. 대상에게 걸려 있는 강화 마법과 약화 마법 하나당 15...40의 체력을 추가로 회복시킵니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Pocałunek Dwayny",
+				"description": "Czar. Wybranemu sojusznikowi innemu niż ty dodajesz 20...65 pkt. żywotności i dodatkowe 15...40 pkt. żywotności za każde zaklęcie lub klątwę na nim.",
+				"concise": "Czar. Dodaje 20...65 pkt. żywotności. Dodaje 15...40 pkt. dodatkowej żywotności za każdą klątwę lub zaklęcie na wybranym sojuszniku. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Dwayna's Kiss",
+				"description": "Заклинание. Исцеляет выбранного союзника (но не вас) на 20...65 ед. здоровья и дополнительно на 15...40 ед. здоровья за каждые чары или проклятье, наложенные на этого союзника.",
+				"concise": "Заклинание. Исцеляет на 20...65 ед. здоровья. Исцеляет дополнительно на 15...40 ед. здоровья за каждые чары или проклятье на выбранном союзнике. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Dvaeyna's Keess",
+				"description": "Spell. Heael taerget oozeer aelly fur 20...65 Heaelt und un aeddeeshunael 15...40 Heaelt fur iaech inchuntment oor hex oon thaet aelly.",
+				"concise": "Spell. Heaels fur 20...65. Heaels fur 15...40 mure-a fur iaech inchuntment und hex oon taerget aelly. Cunnut selff-taerget."
 			}
 		}
 	}

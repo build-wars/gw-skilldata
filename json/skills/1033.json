@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "刺刑",
+				"description": "技能。 此技能必须接续在「双重攻击」之后使用。对目标敌人造成25...100点地系伤害，并使其遭受「重伤」症状5...20秒。",
+				"concise": "技能。 在20秒之内，使目标敌人的移动速度提高 25...100%，一旦该目标开始移动，则每秒受到 5...20点 伤害。"
+			},
+			"cht": {
+				"name": "刺刑",
+				"description": "技能： 必須接續在「雙重攻擊」之後，使目標敵人受到 25...100 土系傷害並遭受「重傷」病症 5...20 秒。",
+				"concise": "技能： 必須接續在「雙重攻擊」之後，使目標敵人受到 25...100 土系傷害並遭受「重傷」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Aufspießen",
+				"description": "Fertigkeit. Muss einem Doppelangriff folgen. Der Gegner erleidet 25...100 Punkt[e] Erdschaden und leidet 5...20 Sekunde[n] lang an einer Tiefe Wunde.",
+				"concise": "Fertigkeit. Richtet 25...100 Punkt[e] Erdschaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]). Muss einem Doppelangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Aufspießen",
 				"description": "Muss einem Doppelangriff folgen. Der Gegner erleidet 25...100 Punkte Erdschaden und leidet 5...20 Sekunden lang an einer Tiefe Wunde<sic/>.",
 				"concise": "Richtet 25...100 Punkte Erdschaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden). <gray>Muss einem Doppelangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Impale",
+				"description": "Skill. Must follow a dual attack. Target foe is struck for 25...100 earth damage and suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "Skill. Deals 25...100 earth damage. Inflicts Deep Wound condition (5...20 seconds). Must follow a dual attack."
+			},
+			"en-gww": {
+				"name": "Impale",
 				"description": "Must follow a dual attack. Target foe is struck for 25...100 earth damage and suffers from a Deep Wound for 5...20 seconds.",
 				"concise": "Deals 25...100 earth damage. Inflicts Deep Wound condition (5...20 seconds). <gray>Must follow a dual attack.</gray>"
 			},
+			"es": {
+				"name": "Empalar",
+				"description": "Habilidad. Debe ir precedido de ataque doble. El enemigo objetivo recibe 25...100 de daño de tierra y sufre una herida grave durante 5...20 segundos.",
+				"concise": "Habilidad. Hace 25...100 de daño de tierra. Causa herida grave (5...20 segundos). Debe ir precedido de un ataque doble."
+			},
 			"fr": {
+				"name": "Empalement",
+				"description": "Compétence. Doit suivre une attaque d'ambidextrie. La cible ennemie reçoit 25...100 points de dégâts de la terre et souffre de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Compétence. Inflige 25...100 points de dégâts de la terre. Provoque la Blessure profonde (5...20 secondes). Doit succéder à une attaque d'ambidextrie."
+			},
+			"fr-gwiki": {
 				"name": "Empalement",
 				"description": "Doit suivre une attaque d'ambidextrie. La cible ennemie reçoit 25...100 points de dégâts de la terre et souffre de Blessure profonde pendant 5...20 secondes.",
 				"concise": "Inflige 25...100 points de dégâts de la terre. Provoque la Blessure profonde (5...20 secondes). <gray>Doit succéder à une attaque d'ambidextrie.</gray>"
+			},
+			"it": {
+				"name": "Stilettata",
+				"description": "Abilità. Deve seguire un attacco doppio. L'obiettivo nemico viene colpito da 25...100 danno[i] da terra e subisce una Ferita Profonda per 5...20 secondo[i].",
+				"concise": "Abilità. Danni da terra inferti: 25...100. Condizione inflitta: Ferita Profonda (5...20 secondo[i]). Deve seguire un attacco doppio."
+			},
+			"jp": {
+				"name": "インペイル",
+				"description": "スキル： このスキルは、デュアル アタックの次に使用します。ターゲットした敵に 25...100 のアース ダメージを与え、5...20 秒間「重傷」状態にします。",
+				"concise": "スキル： 25...100 のアース ダメージを与えて「重傷」状態にします (5...20 秒)。このスキルは、デュアル アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "빈틈 찌르기",
+				"description": "스킬. 쌍수 공격 스킬 바로 다음에 사용할 수 있습니다. 대상은 25...100의 대지 대미지를 입고 5...20초 동안 중상 상태가 됩니다.",
+				"concise": "스킬. 25...100의 대지 대미지를 주고, 중상을 입힙니다.(5...20초) 쌍수 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Przebicie",
+				"description": "Umiejętność. Musi nastąpić po ataku podwójnym. Wybrany przeciwnik otrzymuje 25...100 pkt. obrażeń od ziemi oraz przez 5...20 sek. cierpi z powodu głębokiej rany.",
+				"concise": "Umiejętność. Zadaje 25...100 pkt. obrażeń od ziemi. Wywołuje przypadłość głęboka rana (5...20 sek.). Musi nastąpić po ataku podwójnym."
+			},
+			"ru": {
+				"name": "Impale",
+				"description": "Умение. Должен следовать за двойной атакой. Выбранный противник получает 25...100 ед. урона силой земли и глубокую рану на 5...20 сек.",
+				"concise": "Умение. Наносит 25...100 ед. урона силой земли. Вызывает глубокую рану (5...20 сек). Должен следовать за двойной атакой."
+			},
+			"bork": {
+				"name": "Impaele-a",
+				"description": "Skeell. Moost fulloo a dooael aettaeck. Taerget fue-a is stroock fur 25...100 iaert daemaege-a und sooffffers frum a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Skeell. Deaels 25...100 iaert daemaege-a. Inffleects Deep Vuoond cundeeshun (5...20 secunds). Moost fulloo a dooael aettaeck."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "保护印记",
+				"description": "精英增益魔法。 在10秒之内，每当目标盟友受到伤害时，伤害将被转换为生命值，最多6...60点。同时你的所有「防护祷言」类法术在5秒内无法使用。",
+				"concise": "精英增益魔法。 在 10秒 内，每当目标盟友受到伤害时，伤害中的 6...60点 将被转换为生命值。同时你的所有「防护祷言」类魔法在 5秒 内无法使用。"
+			},
+			"cht": {
+				"name": "守護印記",
+				"description": "精英加持魔法： 在 10 秒內，每當目標盟友受到的傷害時，傷害值中的 6...60 轉換為體力治癒效果。同時你的所有防護祈禱魔法在 5 秒內無法使用。",
+				"concise": "精英加持魔法： 在 10 秒內，每當目標盟友受到的傷害時，傷害值中的 6...60 轉換為體力治癒效果。同時你的所有防護祈禱魔法在 5 秒內無法使用。"
+			},
 			"de": {
+				"name": "Schutzzeichen",
+				"description": "Elite-Verzauberung. 10 Sekunden lang wird der Verbündete (oder Ihr selbst) immer dann, wenn er Schaden erleiden müsste, stattdessen um diese Punktzahl, höchstens jedoch um 6...60 Punkt[e] geheilt. Alle Eure Schutzgebete werden 5 Sekunden lang deaktiviert.",
+				"concise": "Elite-Verzauberung. 10 Sekunden: Wandelt erlittenen Schaden in Heilung um (maximal 6...60 Lebenspunkt[e]). Alle Eure Schutzgebete werden deaktiviert (5 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Schutzzeichen",
 				"description": "10 Sekunden lang wird der Verbündete (oder Ihr selbst) immer dann, wenn er Schaden erleiden müsste, stattdessen um diese Punktzahl, höchstens jedoch um 6...60 Punkte geheilt. Alle Eure Schutzgebete werden 5 Sekunden lang deaktiviert.",
 				"concise": "10 Sekunden: Wandelt erlittenen Schaden in Heilung um (maximal 6...60 Lebenspunkte). <gray>Alle Eure Schutzgebete werden deaktiviert (5 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Mark of Protection",
+				"description": "Elite Enchantment Spell. For 10 seconds, whenever target ally would take damage, that ally is healed for that amount instead, maximum 6...60. All your Protection Prayers are disabled for 5 seconds.",
+				"concise": "Elite Enchantment Spell. (10 seconds.) Converts incoming damage to healing (maximum 6...60). All your Protection Prayers are disabled (5 seconds)."
+			},
+			"en-gww": {
+				"name": "Mark of Protection",
 				"description": "For 10 seconds, whenever target ally would take damage, that ally is healed for that amount instead, maximum 6...60. All your Protection Prayers are disabled for 5 seconds.",
 				"concise": "(10 seconds.) Converts incoming damage to healing (maximum 6...60). <gray>All your Protection Prayers are disabled (5 seconds).</gray>"
 			},
+			"es": {
+				"name": "Marca de protección",
+				"description": "Conjuro con encantamiento de élite. Durante 10 segundos, siempre que el objetivo (un aliado o tú mismo) debería haber recidido daño, en lugar de eso se curará en esa cantidad de daño, siendo el máximo 6...60. Todas tus Plegarias de protección estarán desactivadas durante 5 segundos.",
+				"concise": "Conjuro con encantamiento de élite. (10 segundos). El daño recibido se convierte en curación (máximo 6...60). Todas tus plegarias de protección se desactivan (5 segundos)."
+			},
 			"fr": {
+				"name": "Marque de protection",
+				"description": "Enchantement d'élite. Pendant 10 secondes, à chaque fois que la cible (un allié ou vous-même) subit des dégâts, ils sont transformés en soins (maximum 6...60). L'effet de toutes les prières de protection est annulé pendant 5 secondes.",
+				"concise": "Enchantement d'élite. (10 secondes.) Convertit les dégâts subis en soins (maximum : 6...60 points de vie). L'effet de toutes les prières de protection est annulé (5 secondes.)."
+			},
+			"fr-gwiki": {
 				"name": "Marque de protection",
 				"description": "Pendant 10 secondes, à chaque fois que la cible (un allié ou vous-même) subit des dégâts, ils sont transformés en soins (maximum 6...60). L'effet de toutes les prières de protection est annulé pendant 5 secondes.",
 				"concise": "(10 secondes.) Convertit les dégâts subis en soins (maximum : 6...60 points de vie). <gray>L'effet de toutes les prières de protection est annulé (5 secondes).</gray>"
+			},
+			"it": {
+				"name": "Segno della Protezione",
+				"description": "Incantesimo d'Élite. Per 10 secondi, ogni volta che l'obiettivo (un alleato o te stesso) dovrebbe subire un danno, viene invece curato dello stesso numero di punti, per un massimo di 6...60. Tutte le tue Preghiere Protettive vengono disattivate per 5 secondi.",
+				"concise": "Incantesimo d'Élite. (Secondi: 10) Il danno in arrivo si tramuta in cure (max 6...60). Tutte le tue Preghiere Protettive vengono disattivate (5 secondi)."
+			},
+			"jp": {
+				"name": "プロテクション マーク",
+				"description": "エリート強化スペル： 10秒間、ターゲットした味方は受けるダメージを体力に変換し、体力の回復に使用します。回復する体力の上限は 6...60 です。ただし、「プロテクション」の特性スペルはすべて、5秒間使用することができなくなります。",
+				"concise": "エリート強化スペル： (10秒) 受けるダメージを変換し、体力の回復に使用します (最大 6...60)。「プロテクション」の特性スキルを使用することができなくなります (5 秒)。"
+			},
+			"kr": {
+				"name": "수호의 문장",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 10초 동안 대상이 대미지를 입을 때마다, 전체 대미지 중에서 6...60만큼은 대미지를 입는 대신 체력을 회복하게 됩니다. 자신은 5초 동안 보호 특성 마법은 사용할 수 없습니다.",
+				"concise": "엘리트 강화 마법. (10초) 받는 대미지 중 최대 6...60의 대미지가 치유 효과로 바뀝니다. 자신은 보호 특성 마법을 사용할 수 없습니다.(5초)"
+			},
+			"pl": {
+				"name": "Ochronny Symbol",
+				"description": "Elitarne zaklęcie (czar). Przez 10 sek., za każdym razem, kiedy wybrany sojusznik będzie miał otrzymać obrażenia, dostanie w zamian tyle samo pkt. żywotności, ale nie więcej niż 6...60. Wszystkie twoje Modlitwy Ochronne będą niedostępne przez 5 sek.",
+				"concise": "Elitarne zaklęcie (czar). (10 sek.) Zamienia obrażenia (maksymalnie 6...60) w leczenie. Wszystkie twoje umiejętności Modlitw Ochronnych są wyłączone (5 sek.)."
+			},
+			"ru": {
+				"name": "Mark of Protection",
+				"description": "Элитное заклинание-чары. В течение 10 сек каждый раз, когда выбранный союзник должен был бы получить урон, вместо этого он будет исцелен на равное количество здоровья, но не более, чем на 6...60 ед. Все ваши умения, связанные с талантом Protection Prayers, будут недоступны в течение 5 сек.",
+				"concise": "Элитное заклинание-чары. (10 сек) Превращает полученный урон в исцеление (максимум 6...60 ед. урона). Все ваши умения, связанные с талантом Protection Prayers, недоступны (5 сек)."
+			},
+			"bork": {
+				"name": "Maerk ooff Prutecshun",
+				"description": "Ileete-a Inchuntment Spell. Fur 10 secunds, vhenefer taerget aelly vuoold taeke-a daemaege-a, thaet aelly is heaeled fur thaet aemuoont insteaed, maexeemoom 6...60. Aell yuoor Prutecshun Praeyers aere-a deesaebled fur 5 secunds.",
+				"concise": "Ileete-a Inchuntment Spell. (10 secunds.) Cunferts incumeeng daemaege-a tu heaeleeng (maexeemoom 6...60). Aell yuoor Prutecshun Praeyers aere-a deesaebled (5 secunds)."
 			}
 		}
 	}

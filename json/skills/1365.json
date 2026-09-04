@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失魂纹章",
+				"description": "纹章。 如果目标敌人的生命值少于一半，你将获得10...100点生命值和1...10点能量值。",
+				"concise": "纹章。 如果目标敌人的生命值少于一半，你将获得10...100点生命值和1...10点能量值。"
+			},
+			"cht": {
+				"name": "失魂紋章",
+				"description": "紋章： 若目標敵人的體力低於 50% ，你獲得 10...100 體力及 1...10 能量。",
+				"concise": "紋章： 若目標敵人的體力低於 50% ，你獲得 10...100 體力及 1...10 能量。"
+			},
 			"de": {
+				"name": "Siegel der verlorenen Seelen",
+				"description": "Siegel. Wenn die Lebenspunkte des Gegners unter 50% liegen, erhaltet Ihr 10...100 Lebenspunkt[e] und 1...10 Energiepunkt[e].",
+				"concise": "Siegel. Ihr erhaltet 10...100 Lebenspunkt[e] und 1...10 Energiepunkt[e], falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der verlorenen Seelen",
 				"description": "Wenn die Lebenspunkte des Gegners unter 50% liegen, erhaltet Ihr 10...100 Lebenspunkte und 1...10 Energiepunkte.",
 				"concise": "Ihr erhaltet 10...100 Lebenspunkte und 1...10 Energiepunkte, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat."
 			},
 			"en": {
 				"name": "Signet of Lost Souls",
+				"description": "Signet. If target foe is below 50% Health, you gain 10...100 Health and 1...10 Energy.",
+				"concise": "Signet. You gain 10...100 Health and 1...10 Energy if target foe is below 50% Health."
+			},
+			"en-gww": {
+				"name": "Signet of Lost Souls",
 				"description": "If target foe is below 50% Health, you gain 10...100 Health and 1...10 Energy.",
 				"concise": "You gain 10...100 Health and 1...10 Energy if target foe is below 50% Health."
 			},
+			"es": {
+				"name": "Sello de las almas perdidas",
+				"description": "Sello. Si el enemigo objetivo está por debajo del 50% de salud, ganas 10...100 de salud y 1...10 de energía.",
+				"concise": "Sello. Ganas 10...100 de salud y 1...10 de energía si el enemigo objetivo está por debajo del 50% de salud."
+			},
 			"fr": {
+				"name": "Sceau des âmes perdues",
+				"description": "Sceau. Si la cible ennemie a moins de 50% de santé, vous obtenez 10...100 points de vie et 1...10 points d'énergie.",
+				"concise": "Sceau. Vous gagnez 10...100 points de vie et 1...10 points d'énergie si l'ennemi visé a moins de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Sceau des âmes perdues",
 				"description": "Si la cible ennemie a moins de 50% de santé, vous obtenez 10...100 points de vie et 1...10 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo delle Anime Smarrite",
+				"description": "Sigillo. Se la Salute dell'obiettivo nemico è inferiore al 50%, ottieni 10...100 Punto[i] Salute e 1...10 Punto[i] Energia.",
+				"concise": "Sigillo. Ottieni 10...100 Punto[i] Salute e 1...10 Punto[i] Energia se la Salute dell'obiettivo nemico è inferiore al 50%."
+			},
+			"jp": {
+				"name": "ロスト ソウル シグネット",
+				"description": "シグネット： ターゲットした敵の体力が上限の50%に満たない場合、プレイヤーは 10...100 の体力と 1...10 のエネルギーを獲得します。",
+				"concise": "シグネット： ターゲットした敵の体力が上限の50%未満の場合、体力を 10...100、エネルギーを 1...10 獲得します。"
+			},
+			"kr": {
+				"name": "죽은 영혼의 인장",
+				"description": "인장. 대상 지정: 적. 대상의 체력이 50%미만이 되면 자신은 10...100의 체력과 1...10의 에너지를 얻습니다.",
+				"concise": "인장. 대상의 체력이 50% 미만이면, 자신은 10...100의 체력과 1...10의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Zagubionych Dusz",
+				"description": "Sygnet. Jeżeli wybrany przeciwnik ma mniej niż 50% pkt. żywotności, to otrzymujesz 10...100 pkt. żywotności i 1...10 pkt. energii.",
+				"concise": "Sygnet. Otrzymujesz 10...100 pkt. żywotności i 1...10 pkt. energii, jeżeli wybrany przeciwnik ma poniżej 50% żywotności."
+			},
+			"ru": {
+				"name": "Signet of Lost Souls",
+				"description": "Печать. Если здоровье выбранного противника ниже 50%, вы получаете 10...100 ед. здоровья и 1...10 ед. энергии.",
+				"concise": "Печать. Вы получаете 10...100 ед. здоровья и 1...10 ед. энергии, если у выбранного противника меньше 50% здоровья."
+			},
+			"bork": {
+				"name": "Seegnet ooff Lust Suools",
+				"description": "Seegnet. Iff taerget fue-a is beloo 50% Heaelt, yuoo gaeeen 10...100 Heaelt und 1...10 Inergy.",
+				"concise": "Seegnet. Yuoo gaeeen 10...100 Heaelt und 1...10 Inergy iff taerget fue-a is beloo 50% Heaelt."
 			}
 		}
 	}

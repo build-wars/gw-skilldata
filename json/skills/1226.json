@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "圣灵冲击",
+				"description": "咒文。 对目标敌人造成 20...65 闪电伤害，并且使你附近所有的「灵体」获得 20...65 生命",
+				"concise": "咒文。 对目标敌人造成 20...65 闪电伤害，并且使你附近所有的「灵体」获得 20...65 生命"
+			},
+			"cht": {
+				"name": "聖靈衝擊",
+				"description": "咒文魔法： 對目標敵人造成 20...65 閃電傷害，音量所及範圍內所有你控制的靈獲得 20...65 體力。",
+				"concise": "咒文魔法： 對目標敵人造成 20...65 閃電傷害，音量所及範圍內所有你控制的靈獲得 20...65 體力。"
+			},
 			"de": {
+				"name": "Geistersegenstoß",
+				"description": "Zauber. Der Gegner erleidet 20...65 Punkt[e] Blitzschaden und alle von Euch kontrollierten Geister in Hörweite erhalten 20...65 Lebenspunkt[e].",
+				"concise": "Zauber. Richtet 20...65 Punkt[e] Blitzschaden an. Von Euch kontrollierte Geister in Hörweite erhalten 20...65 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Geistersegenstoß",
 				"description": "Der Gegner erleidet 20...65 Punkte Blitzschaden und alle von Euch kontrollierten Geister in Hörweite erhalten 20...65 Lebenspunkte.",
 				"concise": "Richtet 20...65 Punkte Blitzschaden an. Von Euch kontrollierte Geister in Hörweite erhalten 20...65 Lebenspunkte."
 			},
 			"en": {
 				"name": "Spirit Boon Strike",
+				"description": "Spell. Target foe is struck for 20...65 lightning damage, and all spirits you control within earshot gain 20...65 Health.",
+				"concise": "Spell. Deals 20...65 lightning damage. Spirits you control within earshot gain 20...65 Health."
+			},
+			"en-gww": {
+				"name": "Spirit Boon Strike",
 				"description": "Target foe is struck for 20...65 lightning damage, and all spirits you control within earshot gain 20...65 Health.",
 				"concise": "Deals 20...65 lightning damage. Spirits you control within earshot gain 20...65 Health."
 			},
+			"es": {
+				"name": "Golpe del espíritu unido",
+				"description": "Conjuro. Haces 20...65 de daño de relámpago al enemigo objetivo y todos los espíritus que controles al alcance del oído ganan 20...65 de salud.",
+				"concise": "Conjuro. Causa 20...65 de daño relámpago. Los espíritus que controles al alcance del oído ganan 20...65 de salud."
+			},
 			"fr": {
+				"name": "Coup du compagnon spirituel",
+				"description": "Sort. La cible ennemie subit 20...65 points de dégâts de la foudre et tous les esprits que vous contrôlez à portée de voix bénéficient de 20...65 points de vie.",
+				"concise": "Sort. Inflige 20...65 points de dégâts de la foudre. Tous les esprits que vous contrôlez à portée de voix gagnent 20...65 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Coup du compagnon spirituel",
 				"description": "La cible ennemie subit 20...65 points de dégâts de la foudre et tous les esprits que vous contrôlez à portée de voix gagnent 20...65 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo di Soccorso dello Spirito",
+				"description": "Magia. L'obiettivo nemico subisce 20...65 danno[i] da fulmine e tutti gli Spiriti vicini a te ottengono 20...65 Punto[i] Salute.",
+				"concise": "Magia. Danni da fulmine inferti: 20...65. Gli Spiriti sotto il tuo controllo a portata d'orecchio ottengono 20...65 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "スピリット ブーン ストライク",
+				"description": "スペル： ターゲットした敵に 20...65 のライトニング ダメージを与え、声の届く範囲内にいるプレイヤーが召喚した精霊はすべて 20...65 の体力を獲得します。",
+				"concise": "スペル： 20...65 のライトニング ダメージを与えます。声の届く範囲内にいるプレイヤーが召喚した精霊は、20...65 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "영혼 회복의 충격",
+				"description": "마법. 대상 지정: 적. 대상에게 20...65의 번개 대미지를 주고, 가청 범위 내에 있는 자신이 조종하는 모든 영혼의 체력을 20...65만큼 회복시킵니다.",
+				"concise": "마법. 20...65의 번개 대미지를 줍니다. 가청 범위 내에 자신이 조종하는 영혼들의 체력을 20...65 회복시킵니다."
+			},
+			"pl": {
+				"name": "Uderzenie Duchowego Daru",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 20...65 obrażeń od błyskawic, a wszystkie duchy pod twoją kontrolą w zasięgu słuchu zyskują 20...65 pkt. żywotności.",
+				"concise": "Czar. Zadaje 20...65 pkt. obrażeń od błyskawic. Kontrolowane przez ciebie duchy w zasięgu słuchu otrzymują po 20...65 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Spirit Boon Strike",
+				"description": "Заклинание. Выбранный противник получает 20...65 ед. урона силой молнии, а все контролируемые вами духи в зоне слышимости получают 20...65 ед. здоровья.",
+				"concise": "Заклинание. Наносит 20...65 ед. урона силой молнии. Все контролируемые вами духи в зоне слышимости получают 20...65 ед. здоровья."
+			},
+			"bork": {
+				"name": "Spureet Buun Streeke-a",
+				"description": "Spell. Taerget fue-a is stroock fur 20...65 leeghtneeng daemaege-a, und aell spureets yuoo cuntrul veetheen iaershut gaeeen 20...65 Heaelt.",
+				"concise": "Spell. Deaels 20...65 leeghtneeng daemaege-a. Spureets yuoo cuntrul veetheen iaershut gaeeen 20...65 Heaelt."
 			}
 		}
 	}

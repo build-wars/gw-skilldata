@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "断筋横扫",
+				"description": "镰刀术。 命中时，根据你所带有的「增益魔法」效果数量，每一项使目标敌人遭受「致残」症状3...12秒。（最多为3...15秒）",
+				"concise": "镰刀术。 命中时，根据你所带有的「增益魔法」效果数量，每一项使目标敌人遭受「致残」症状3...12秒。（最多为3...15秒）"
+			},
+			"cht": {
+				"name": "致殘掃蕩",
+				"description": "鐮刀攻擊技能： 命中時造成敵人殘廢 3...12 秒。對於移動中的敵人造成 3...15 額外傷害。",
+				"concise": "鐮刀攻擊技能： 命中時造成敵人殘廢 3...12 秒。對於移動中的敵人造成 3...15 額外傷害。"
+			},
 			"de": {
+				"name": "Verkrüppelnder Schwung",
+				"description": "Sensenangriff. Trifft dieser Angriff einen Gegner, wird dieser 3...12 Sekunde[n] lang verkrüppelt. Diese Fertigkeit verursacht +3...15 Punkt[e] Schaden zusätzlich, wenn der Feind sich bewegt.",
+				"concise": "Sensenangriff. (3...12 Sekunde[n].) Verursacht Verkrüppelung. Richtet bei sich bewegenden Feinden +3...15 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelnder Schwung",
 				"description": "Trifft dieser Angriff einen Gegner, wird dieser 3...12 Sekunden lang verkrüppelt. Diese Fertigkeit verursacht +3...15 Punkte Schaden zusätzlich, wenn der Feind sich bewegt.",
 				"concise": "(3...12 Sekunden.) Verursacht Verkrüppelung. Richtet bei sich bewegenden Feinden +3...15 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Crippling Sweep",
+				"description": "Scythe Attack. If this attack hits a foe, that foe is Crippled for 3...12 seconds. This skill deals +3...15 extra damage if that foe is moving.",
+				"concise": "Scythe Attack. (3...12 seconds.) Inflicts Cripple condition. Deals +3...15 damage to moving foes."
+			},
+			"en-gww": {
+				"name": "Crippling Sweep",
 				"description": "If this attack hits a foe, that foe is Crippled for 3...12 seconds. This skill deals +3...15 extra damage if that foe is moving.",
 				"concise": "(3...12 seconds.) Inflicts Cripple <sic/> condition. Deals +3...15 damage to moving foes."
 			},
+			"es": {
+				"name": "Barrido lisiador",
+				"description": "Ataque con guadaña. Si este ataque impacta en un enemigo, éste quedará lisiado durante 3...12 segundos. Esta habilidad hace +3...15 de daño adicional si el enemigo está en movimiento.",
+				"concise": "Ataque con guadaña. (3...12 segundos.) Causa lisiadura. Hace +3...15 de daño a los enemigos en movimiento."
+			},
 			"fr": {
+				"name": "Fauchage invalidant",
+				"description": "Attaque à la faux. Si votre attaque touche un ennemi, celui-ci est frappé d'Infirmité pendant 3...12 secondes. Cette compétence inflige +3...15 points de dégâts en plus si l'ennemi est en mouvement.",
+				"concise": "Attaque à la faux. (3...12 secondes.) Inflige la condition Infirmité. Inflige +3...15 points de dégâts aux ennemis mobiles."
+			},
+			"fr-gwiki": {
 				"name": "Fauchage invalidant",
 				"description": "Si cette attaque réussit, l'ennemi touché souffre d'Infirmité pendant 3...10. Cette attaque inflige +3...13 point de dégâts au ennemis mobiles.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falciata Azzoppante",
+				"description": "Attacco con Falce. Se questo attacco colpisce un nemico, gli provoca Storpiatura per 3...12 secondi. Questa abilità infligge +3...15 di danno se quel nemico è in movimento.",
+				"concise": "Attacco con Falce. (Secondi: 3...12). Infligge Storpiatura. Danni inflitti ai nemici in movimento: +3...15."
+			},
+			"jp": {
+				"name": "クリップル スウィープ",
+				"description": "サイズ アタック： この攻撃が成功すると、その敵は 3...12 秒間「不自由」状態になります。ターゲットが移動中の場合、3...15 の追加ダメージを与えます。",
+				"concise": "サイズ アタック： (3...12 秒)「不自由」状態にします。移動中の敵に 3...15 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "속박의 가르기",
+				"description": "사이드 공격. 대상 지정: 적. 공격이 성공하면 대상을 3...12초 동안 다리 부상 상태로 만듭니다. 이동 중인 대상에게 공격이 성공하면 거기에 더해 3...15의 대미지를 추가로 줍니다.",
+				"concise": "사이드 공격. (3...12초) 다리 부상을 입힙니다. 이동 중이던 적에게는 3...15의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Okulawiający Zamach",
+				"description": "Atak kosą. Jeżeli ten atak trafi przeciwnika, to zostaje on okulawiony na 3...12 sek. Umiejętność ta zadaje +3...15 pkt. obrażeń, jeśli przeciwnik się porusza.",
+				"concise": "Atak kosą. (3...12 sek.) Powoduje okulawienie. Zadaje +3...15 pkt. obrażeń poruszającym się wrogom."
+			},
+			"ru": {
+				"name": "Crippling Sweep",
+				"description": "Атака косой. Если эта атака попадает по противнику, он будет хромать в течение 3...12 сек. Если эта атака попадает по двигающему противнику, она наносит дополнительно 3...15 ед. урона.",
+				"concise": "Атака косой. Вызывает хромоту (3...12 сек). Наносит дополнительно 3...15 ед. урона двигающимся противникам."
+			},
+			"bork": {
+				"name": "Creeppleeng Sveep",
+				"description": "Scyzee Aettaeck. Iff thees aettaeck heets a fue-a, thaet fue-a is Creeppled fur 3...12 secunds. Thees skeell deaels +3...15 ixtra daemaege-a iff thaet fue-a is mufeeng.",
+				"concise": "Scyzee Aettaeck. (3...12 secunds.) Inffleects Creepple-a cundeeshun. Deaels +3...15 daemaege-a tu mufeeng fues."
 			}
 		}
 	}

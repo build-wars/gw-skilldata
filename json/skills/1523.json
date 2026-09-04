@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冥想",
+				"description": "增益魔法。 驱散自身的一项「增益魔法」。驱散成功后，你回复1...4点能量，否则你将获得0点生命值。",
+				"concise": "增益魔法。 驱散自身的一项「增益魔法」。驱散成功后，你回复1...4点能量，否则你将获得0点生命值。"
+			},
+			"cht": {
+				"name": "冥想",
+				"description": "加持魔法： 失去所有怒氣值，持續 20 秒，每當有一項加持在你身上終止時，你獲得 1...4 能量。",
+				"concise": "加持魔法： 失去所有怒氣值，持續 20 秒，每當有一項加持在你身上終止時，你獲得 1...4 能量。"
+			},
 			"de": {
+				"name": "Meditation",
+				"description": "Verzauberung. Alles Adrenalin geht verloren. 20 Sekunde[n] lang erhaltet Ihr jedes Mal, wenn eine auf Euch wirkende Verzauberung endet, 1...4 Energiepunkt[e].",
+				"concise": "Verzauberung. (20 Sekunde[n].) Alles Adrenalin geht verloren. Ihr erhaltet jedes Mal 1...4 Energiepunkt[e], wenn eine auf Euch wirkende Verzauberung endet."
+			},
+			"de-guildwiki": {
 				"name": "Meditation",
 				"description": "Alles Adrenalin geht verloren. 20 Sekunden lang erhaltet Ihr jedes Mal, wenn eine auf Euch wirkende Verzauberung endet, 1...4 Energiepunkte.",
 				"concise": "(20 Sekunden.) Alles Adrenalin geht verloren. Ihr erhaltet jedes Mal 1...4 Energiepunkte, wenn eine auf Euch wirkende Verzauberung endet."
 			},
 			"en": {
 				"name": "Meditation",
+				"description": "Enchantment Spell. Lose all adrenaline. For 20 seconds, you gain 1...4 Energy every time an enchantment on you ends.",
+				"concise": "Enchantment Spell. (20 seconds.) Lose all adrenaline. Gain 1...4 Energy whenever an enchantment on you ends."
+			},
+			"en-gww": {
+				"name": "Meditation",
 				"description": "Lose all adrenaline. For 20 seconds, you gain 1...4 Energy every time an enchantment on you ends.",
 				"concise": "(20 seconds.) <gray>Lose all adrenaline.</gray> Gain 1...4 Energy whenever an enchantment on you ends."
 			},
+			"es": {
+				"name": "Meditación",
+				"description": "Conjuro con encantamiento. Pierdes toda la adrenalina. Durante 20 segundos, ganas 1...4 de energía cada vez que termina uno de tus encantamientos.",
+				"concise": "Conjuro con encantamiento. (20 segundos). Pierdes toda la adrenalina. Ganas 1...4 de energía cada vez que termina uno de tus encantamientos."
+			},
 			"fr": {
+				"name": "Méditation",
+				"description": "Enchantement. Perte de toute l'adrénaline. Pendant 20 secondes, vous gagnez 1...4 points d'énergie chaque fois qu'un enchantement vous affectant prend fin.",
+				"concise": "Enchantement. (20 secondes.) Perte de toute l'adrénaline. Gain de 1...4 points d'énergie chaque fois qu'un enchantement vous affectant prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Méditation",
 				"description": "Perte de toute l'adrénaline. Pendant 20 secondes, vous gagnez 1...4 points d'énergie à chaque fois qu'un enchantement vous affectant prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Meditazione",
+				"description": "Incantesimo. Perdi tutta l'adrenalina. Per 20 secondi, ottieni 1...4 Punti Energia ogni volta che termina un incantesimo su di te.",
+				"concise": "Incantesimo. (Secondi: 20). Perdi tutta l'adrenalina. Ottieni 1...4 Punti Energia ogni volta che un incantesimo presente su di te termina."
+			},
+			"jp": {
+				"name": "メディテーション",
+				"description": "強化スペル： すべてのアドレナリンを失います。20 秒間、かけられている強化スペルの効果が消失するたびに 1...4 のエネルギーを獲得します。",
+				"concise": "強化スペル： (20 秒) すべてのアドレナリンを失います。かけられている強化スペルの効果が消失するたびに 1...4 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "명상",
+				"description": "강화 마법. 대상 지정: 없음. 아드레날린을 모두 소모합니다. 20초 동안 자신에게 걸린 강화 마법이 끝날 때마다 1...4의 에너지를 얻습니다.",
+				"concise": "강화 마법. (20초) 아드레날린을 모두 소모합니다. 자신에게 걸린 강화 마법이 끝날 때마다 1...4의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Medytacja",
+				"description": "Zaklęcie (czar). Tracisz całą adrenalinę. Przez 20 sek., za każdym razem, gdy skończy się działające na tobie zaklęcie, otrzymasz 1...4 pkt. energii.",
+				"concise": "Zaklęcie (czar). (20 sek.) Tracisz całą adrenalinę. Otrzymujesz 1...4 za każdym razem, gdy skończy się rzucone na ciebie zaklęcie."
+			},
+			"ru": {
+				"name": "Meditation",
+				"description": "Заклинание-чары. Вы теряете весь адреналин. В течение 20 сек вы получаете 1...4 ед. энергии каждый раз, когда заканчивается действие наложенных на вас чар.",
+				"concise": "Заклинание-чары. (20 сек) Вы теряете весь адреналин. Вы получаете 1...4 ед. энергии каждый раз, когда заканчивается действие наложенных на вас чар."
+			},
+			"bork": {
+				"name": "Medeetaeshun",
+				"description": "Inchuntment Spell. Luse-a aell aedrenaeleene-a. Fur 20 secunds, yuoo gaeeen 1...4 Inergy ifery teeme-a un inchuntment oon yuoo inds.",
+				"concise": "Inchuntment Spell. (20 secunds.) Luse-a aell aedrenaeleene-a. Gaeeen 1...4 Inergy vhenefer un inchuntment oon yuoo inds. Bork! Bork! Bork!"
 			}
 		}
 	}

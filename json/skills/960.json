@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "舍生",
+				"description": "咒文。 失去自己的所有增益，你每失去一项「僧侣增益」，将使每位队伍成员获得 5...35 生命。",
+				"concise": "咒文。 失去自己的所有增益，你每失去一项「僧侣增益」，将使每位队伍成员获得 5...35 生命。"
+			},
+			"cht": {
+				"name": "釋放加持",
+				"description": "咒文魔法： 失去自己的所有加持，你每失去一項「僧侶加持」，將使每位隊伍成員獲得 5...35 體力。",
+				"concise": "咒文魔法： 失去自己的所有加持，你每失去一項「僧侶加持」，將使每位隊伍成員獲得 5...35 體力。"
+			},
 			"de": {
+				"name": "Verzauberungen freisetzen",
+				"description": "Zauber. Alle Verzauberungen gehen verloren. Jedes Gruppenmitglied wird pro verlorene Mönchs-Verzauberung um 5...35 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Entfernt alle Eure Verzauberungen. Heilt alle Gruppenmitglieder für jede entfernte Mönch-Verzauberung um 5...35 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberungen freisetzen",
 				"description": "Alle Verzauberungen gehen verloren. Jedes Gruppenmitglied wird pro verlorene Mönchs-Verzauberung um 5...35 Lebenspunkte geheilt.",
 				"concise": "Entfernt alle Eure Verzauberungen. Heilt alle Gruppenmitglieder für jede entfernte Mönch-Verzauberung um 5...35 Lebenspunkte."
 			},
 			"en": {
 				"name": "Release Enchantments",
+				"description": "Spell. Lose all enchantments. Each party member is healed for 5...35 Health for each Monk enchantment lost.",
+				"concise": "Spell. Removes all of your enchantments. Heals all party members for 5...35 for each Monk enchantment removed."
+			},
+			"en-gww": {
+				"name": "Release Enchantments",
 				"description": "Lose all enchantments. Each party member is healed for 5...35 Health for each Monk enchantment lost.",
 				"concise": "Removes all of your enchantments. Heals all party members for 5...35 for each Monk Enchantment removed."
 			},
+			"es": {
+				"name": "Liberación de encantamientos",
+				"description": "Conjuro. Pierdes todos los encantamientos. Cada miembro del grupo se cura 5...35 de salud por encantamiento de Monje perdido.",
+				"concise": "Conjuro. Elimina todos tus encantamientos. Cura 5...35 de salud a todos los miembros del grupo por cada encantamiento de Monje eliminado."
+			},
 			"fr": {
+				"name": "Libération d'enchantements",
+				"description": "Sort. Vous perdez tous les enchantements. Chaque membre du groupe est soigné de 5...35 points de vie pour chaque enchantement de Moine perdu.",
+				"concise": "Sort. Supprime tous vos enchantements. Soigne tous les membres du groupe de 5...35 points de vie par enchantement de Moine supprimé."
+			},
+			"fr-gwiki": {
 				"name": "Libération d'enchantements",
 				"description": "Vous perdez tous les Enchantements. Chaque membre du groupe est soigné de 5...35 points de vie pour chaque enchantement de Moine perdu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Libera Incantesimi",
+				"description": "Magia. Perdi tutti gli incantesimi. Ogni membro della squadra viene curato di 5...35 Punto[i] Salute per ogni incantesimo da Mistico perso.",
+				"concise": "Magia. Rimuove tutti i tuoi incantesimi. Cura tutti i membri della squadra di 5...35 per ogni incantesimo del Mistico rimosso."
+			},
+			"jp": {
+				"name": "リリース エンチャント",
+				"description": "スペル： かけられている強化スペルがすべて解除されます。解除されたモンクの強化スペルごとにパーティー メンバーの体力がそれぞれ 5...35 回復します。",
+				"concise": "スペル： かけられている強化スペルをすべて解除します。解除したモンクの強化スペルごとにパーティー メンバー全員の体力が 5...35 回復します。"
+			},
+			"kr": {
+				"name": "강화 마법 해방",
+				"description": "마법. 대상 지정: 없음. 자신에게 걸려 있는 모든 강화 마법을 무효화하고, 무효화된 몽크 강화 마법 하나당 파티원의 체력을 5...35씩 회복시킵니다.",
+				"concise": "마법. 자신에게 걸린 강화 마법을 모두 무효화합니다. 무효화된 몽크 강화 마법 하나당 파티원들은 5...35의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Uwolnienie Zaklęć",
+				"description": "Czar. Tracisz wszystkie zaklęcia. Za każde zaklęcie mnicha, które straciłeś, każdy członek drużyny otrzymuje 5...35 pkt. żywotności.",
+				"concise": "Czar. Usuwa wszystkie twoje zaklęcia. Za każde usunięte zaklęcie mnicha dodaje każdemu członkowi drużyny 5...35 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Release Enchantments",
+				"description": "Заклинание. Вы теряете все чары. Каждый член вашего отряда будет исцелен на 5...35 ед. здоровья за каждые потерянные вами чары профессии Monk.",
+				"concise": "Заклинание. Снимает все лежащие на вас чары. Исцеляет всех членов отряда на 5...35 ед. здоровья за каждые снятые чары профессии Monk."
+			},
+			"bork": {
+				"name": "Releaese-a Inchuntments",
+				"description": "Spell. Luse-a aell inchuntments. Iaech paerty member is heaeled fur 5...35 Heaelt fur iaech Munk inchuntment lust.",
+				"concise": "Spell. Remufes aell ooff yuoor inchuntments. Heaels aell paerty members fur 5...35 fur iaech Munk inchuntment remufed."
 			}
 		}
 	}

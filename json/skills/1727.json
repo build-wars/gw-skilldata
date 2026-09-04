@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "原野狂奔",
+				"description": "姿态。 在1...8秒之内，使你的移动速度提升33%，并且有50%的几率格挡敌人的攻击。当你受到「负面魔法」或「增益魔法」影响时，此技能效果消失。",
+				"concise": "姿态。 在1...8秒之内，使你的移动速度提升33%，并且有50%的几率格挡敌人的攻击。当你受到「负面魔法」或「增益魔法」影响时，此技能效果消失。"
+			},
+			"cht": {
+				"name": "原始闊步",
+				"description": "態勢： 持續 1...8 秒，你的移動速度加快 33% ，而且有 50% 機會「格擋」敵人的攻擊。若你受到「降咒」或「加持」，則原始闊步的效果終止。",
+				"concise": "態勢： 持續 1...8 秒，你的移動速度加快 33% ，而且有 50% 機會「格擋」敵人的攻擊。若你受到「降咒」或「加持」，則原始闊步的效果終止。"
+			},
 			"de": {
+				"name": "Natürlicher Schwung",
+				"description": "Haltung. 1...8 Sekunde[n] lang lauft Ihr um 33% schneller und habt eine 50%ige Chance, Angriffe zu blocken. Natürlicher Schwung endet, wenn Ihr verhext oder verzaubert werdet.",
+				"concise": "Haltung. 1...8 Sekunde[n]: Ihr bewegt Euch um 33% schneller und habt eine 50%ige Chance zu blocken. Endet, sobald Ihr verhext oder verzaubert werdet."
+			},
+			"de-guildwiki": {
 				"name": "Natürlicher Schwung",
 				"description": "1...8 Sekunden lang lauft Ihr um 33% schneller und habt eine 50%ige Chance, Angriffe zu blocken. Natürlicher Schwung endet, wenn Ihr verhext oder verzaubert werdet.",
 				"concise": "1...8 Sekunden: Ihr bewegt Euch um 33% schneller und habt eine 50%ige Chance zu blocken. <gray>Endet, sobald Ihr verhext oder verzaubert werdet.</gray>"
 			},
 			"en": {
 				"name": "Natural Stride",
+				"description": "Stance. For 1...8 seconds, you run 33% faster and have a 50% chance to block incoming attacks. Natural Stride ends if you become hexed or enchanted.",
+				"concise": "Stance. (1...8 seconds.) You move 33% faster and have 50% chance to block. Ends if you become hexed or enchanted."
+			},
+			"en-gww": {
+				"name": "Natural Stride",
 				"description": "For 1...8 second[s], you run 33% faster and have a 50% chance to block incoming attacks. Natural Stride ends if you become hexed or enchanted.",
 				"concise": "(1...8 second[s].) You move 33% faster and have 50% chance to block. <gray>Ends if you become hexed or enchanted.</gray>"
 			},
+			"es": {
+				"name": "Zancada natural",
+				"description": "Actitud. Durante 1...8 segundos, corres un 33% más deprisa y tienes un 50% de posibilidades de bloquear ataques. La Zancada natural acaba si te echan un maleficio o un encantamiento.",
+				"concise": "Actitud. (1...8 segundos). Te mueves un 33% más deprisa y tienes un 33% de probabilidades de bloquear. Acaba si recibes un maleficio o un encantamiento."
+			},
 			"fr": {
+				"name": "Foulée naturelle",
+				"description": "Pose de combat. Pendant 1...8 secondes, vous courez 33% plus vite et avez 50% de chances de bloquer les attaques qui vous sont lancées. La foulée naturelle prend fin si vous êtes affecté par un maléfice ou un enchantement.",
+				"concise": "Pose de combat. (1...8 secondes.) Vous vous déplacez 33% plus vite et avez 50% de chances de bloquer. Prend fin si vous êtes affecté[f:\"affectée\"] par un maléfice ou un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Foulée naturelle",
 				"description": "Pendant 1...8 seconde(s), vous courez 33% plus vite et avez 50% de chances de bloquer les attaques qui vous sont lancées. La Foulée naturelle prend fin si vous êtes affecté par un maléfice ou un enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falcata Naturale",
+				"description": "Posizione. Per 1...8 secondo[i], la tua velocità di corsa aumenta di un 33% e hai un 50% di probabilità di bloccare gli attacchi in arrivo. La Falcata Naturale termina se sei colpito da fattura o incantesimo.",
+				"concise": "Posizione. (Secondi: 1...8) Incremento tua velocità di movimento: 33%. Probabilità di blocco: 50%. Termina se sei affetto da fattura o incantesimo."
+			},
+			"jp": {
+				"name": "ナチュラル ストライド",
+				"description": "スタンス： 1...8 秒間、プレイヤーの移動速度が 33% 増加し、50% の確率で敵の攻撃をブロックします。強化もしくは弱体化スペルがかけられると、効果が消失します。",
+				"concise": "スタンス： (1...8 秒) 移動速度が 33% 増加し、50% の確率で攻撃をブロックします。弱体化または強化スペルがかけられると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "자연스러운 걸음",
+				"description": "자세. 대상 지정: 없음. 1...8초 동안 이동 속도가 33% 빨라지고, 공격을 막을 확률이 50% 증가합니다. 약화 마법이나 강화 마법이 걸리면 효과가 끝납니다.",
+				"concise": "자세. (1...8초) 이동 속도가 33% 빨라지고, 50% 확률로 공격을 막습니다. 약화 마법이나 강화 마법이 걸리면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Naturalny Krok",
+				"description": "Postawa. Przez 1...8 sek. biegasz o 33% szybciej i masz 50% szans na blokowanie ataków. Naturalny Krok przestanie działać, jeśli znajdziesz się pod działaniem klątwy lub zaklęcia.",
+				"concise": "Postawa. (1...8 sek.) Poruszasz się o 33% szybciej i masz 50% szans na blokowanie. Przestanie działać, jeśli otrzymasz klątwę lub zaklęcie."
+			},
+			"ru": {
+				"name": "Natural Stride",
+				"description": "Стойка. В течение 1...8 сек вы бежите на 33% быстрее и получаете 50%-й шанс блокировать направленные против вас атаки. Natural Stride заканчивает свое действие, если на вас накладывают проклятье или чары.",
+				"concise": "Стойка. (1...8 сек) Вы двигаетесь на 33% быстрее и получаете 50%-й шанс блокировать атаки. Заканчивается, если на вас накладывают чары или проклятье."
+			},
+			"bork": {
+				"name": "Naetoorael Streede-a",
+				"description": "Stunce-a. Fur 1...8 secunds, yuoo roon 33% faester und haefe-a a 50% chunce-a tu bluck incumeeng aettaecks. Naetoorael Streede-a inds iff yuoo becume-a hexed oor inchunted.",
+				"concise": "Stunce-a. (1...8 secunds.) Yuoo mufe-a 33% faester und haefe-a 50% chunce-a tu bluck. Inds iff yuoo becume-a hexed oor inchunted."
 			}
 		}
 	}

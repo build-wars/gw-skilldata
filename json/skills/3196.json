@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Calculated Risk",
+				"description": "负面魔法。 For 3...12 seconds, target foe has a 50% chance to miss with attacks but does +15...60 damage.",
+				"concise": "负面魔法。 (3...12 seconds.) Target foe has 50% miss chance but deals +15...60 damage."
+			},
+			"cht": {
+				"name": "風險預計",
+				"description": "降咒魔法： 持續 3...12 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15...60 )。",
+				"concise": "降咒魔法： 持續 3...12 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15...60 )。"
+			},
 			"de": {
+				"name": "Kalkuliertes Risiko (PvP)",
+				"description": "Verhexung. 3...12 Sekunde[n] lang fügen Angriffe des Gegners +10 Punkte Schaden zu, aber es gibt bei jedem Angriff eine Chance von 50%, dass der Schaden stattdessen dem Gegner zugefügt wird. (Maximal 15...60 Punkt[e] Schaden)",
+				"concise": "Verhexung. Angriffe des Gegners richten +10 Punkte Schaden an (3...12 Sekunde[n]). Bei jedem Angriff besteht eine Chance von 50%, dass der Schaden (maximal 15...60 Punkt[e]) stattdessen dem Gegner zugefügt wird."
+			},
+			"de-guildwiki": {
 				"name": "Kalkuliertes Risiko (PvP)",
 				"description": "3...12 Sekunden lang fügen Angriffe des Gegners +10 Punkte Schaden zu, aber es gibt bei jedem Angriff eine Chance von 50%, dass der Schaden stattdessen dem Gegner zugefügt wird. (Maximal 15...60 Punkte Schaden)",
 				"concise": "Angriffe des Gegners richten +10 Punkte Schaden an (3...12 Sekunden). Bei jedem Angriff besteht eine Chance von 50%, dass der Schaden (Maximal 15...60 Punkte) stattdessen dem Gegner zugefügt wird."
 			},
 			"en": {
 				"name": "Calculated Risk (PvP)",
+				"description": "Hex Spell. For 3...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...60 damage.)",
+				"concise": "Hex Spell. Target foe does +10 damage with attacks (3...12 seconds). There is a 50% chance that the damage from each attack (maximum 15...60) will be done to that foe instead."
+			},
+			"en-gww": {
+				"name": "Calculated Risk (PvP)",
 				"description": "For 3...12 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...60 damage.)",
 				"concise": "Target foe does +10 damage with attacks (3...12 seconds). There is a 50% chance that the damage from each attack (maximum 15...60) will be done to that foe instead."
 			},
+			"es": {
+				"name": "Riesgo calculado (PvP)",
+				"description": "Conjuro con maleficio. Durante 3...12 segundos, los ataques del enemigo objetivo hacen +10 de daño, pero hay un 50% de posibilidades de que dicho enemigo reciba el daño realizado con cada ataque. (Máximo 15...60 de daño.)",
+				"concise": "Conjuro con maleficio. El enemigo objetivo hace +10 de daño con los ataques (3...12 segundos). Cada ataque tiene 50% de posibilidades de que el enemigo reciba el daño realizado con cada ataque (máximo 15...60)."
+			},
 			"fr": {
+				"name": "Risque calculé (PvP)",
+				"description": "Maléfice. Pendant 3...12 secondes, les attaques de l'ennemi visé infligent 10 points de dégâts supplémentaires, mais il y a 50% de chances que les dégâts de chacune de ses attaques lui soient infligés. (Maximum 15...60 points de dégâts.)",
+				"concise": "Maléfice. La cible ennemie inflige +10 points de dégâts avec ses attaques (3...12 secondes). Il y a 50% de chances que les dégâts de chaque attaque soient infligés (maximum 15...60) à cet ennemi et non à sa cible."
+			},
+			"fr-gwiki": {
 				"name": "Risque calculé (PvP)",
 				"description": "Pendant 3...12 secondes, les attaques de l'ennemi visé infligent 10 points de dégâts supplémentaires, mais il y a 50% de chances que les dégâts de chacune de ses attaques lui soient infligés. (Maximum 15...15 points de dégâts.)",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rischio Calcolato (PvP)",
+				"description": "Fattura. Per 3...12 secondi gli attacchi dell'obiettivo nemico infliggono +10 danni, ma c'è un 50% di probabilità che i danni assestati con ogni attacco si ripercuotano su di lui (max. 15...60 danni).",
+				"concise": "Fattura. L'obiettivo nemico infligge +10 danni con gli attacchi (3...12 secondi). Per ogni attacco c'è un 50% di probabilità che il danno (massimo 15...60) venga inflitto al nemico."
+			},
+			"jp": {
+				"name": "カルキュレート リスク (PvP)",
+				"description": "弱体化スペル： 3...12 秒間、ターゲットした敵の攻撃は10の追加ダメージが発生しますが、それぞれの攻撃のダメージは 50% の確率でその敵自身に与えられます (最大 15...60のダメージ) 。",
+				"concise": "弱体化スペル： (3...12 秒) ターゲットした敵の攻撃には10の追加ダメージが発生します。それぞれの攻撃ダメージは 50% の確率でその敵自身に与えられます (最大 15...60) 。"
+			},
+			"kr": {
+				"name": "계산된 위험(대인전)",
+				"description": "약화 마법. 대상 지정: 적. 3...12초 동안 대상은 공격할 때 10의 대미지를 추가로 주지만, 50%의 확률로 공격 시에 그 대미지를 최대 15...60만큼 자신이 입습니다.",
+				"concise": "약화 마법. 대상은 공격할 때 10의 대미지를 추가로 줍니다.(3...12초) 대신 50%의 확률로 공격 시에 그 대미지를 최대 15...60만큼 자신이 입습니다."
+			},
+			"pl": {
+				"name": "Przewidziane Ryzyko (PvP)",
+				"description": "Klątwa (czar). Przez 3...12 sek., ataki wybranego przeciwnika zadają +10 obrażeń, ale istnieje 50% szansy, że obrażenia z każdego ataku otrzyma właśnie ten wróg. (Maksymalnie 15...60.)",
+				"concise": "Klątwa (czar). Wybrany przeciwnik zadaje +10 pkt. obrażeń podczas ataków (3...12 sek.). Istnieje 50% szansy, że obrażenia z każdego ataku (maksymalnie 15...60) otrzyma właśnie ten wróg."
+			},
+			"ru": {
+				"name": "Calculated Risk (PvP)",
+				"description": "Заклинание-проклятье. В течение 3...12 сек атаки выбранного противника наносят дополнительно 10 ед. урона, но при каждой атаке с вероятностью 50% урон от атаки получит сам противник. (Не более 15...60 ед. урона).",
+				"concise": "Заклинание-проклятье. (3...12 сек) Атаки выбранного противника наносят дополнительно 10 ед. урона. Каждая атаки имеет 50%-й шанс, что урон от атаки (не более 15...60 ед.) получит сам противник."
+			},
+			"bork": {
+				"name": "Caelcoolaeted Reesk (PfP)",
+				"description": "Hex Spell. Fur 3...12 secunds, taerget fue-a's aettaecks du +10 daemaege-a, boot zeere-a is a 50% chunce-a thaet zee daemaege-a frum iaech aettaeck veell be-a dune-a tu thaet fue-a insteaed. (Maexeemoom 15...60 daemaege-a.)",
+				"concise": "Hex Spell. Taerget fue-a dues +10 daemaege-a veet aettaecks (3...12 secunds). Zeere-a is a 50% chunce-a thaet zee daemaege-a frum iaech aettaeck (maexeemoom 15...60) veell be-a dune-a tu thaet fue-a insteaed. Bork! Bork! Bork!"
 			}
 		}
 	}

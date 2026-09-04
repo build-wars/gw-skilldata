@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "闪电链",
+				"description": "咒文。 使目标敌人及最多两名接近该目标的敌人受到 10...85点 闪电伤害。此魔法带有 25% 的护甲穿透效果，但会引发施法者的「疲劳」状态。",
+				"concise": "咒文。 使目标敌人及最多两名接近该目标的敌人受到 10...85点 闪电伤害。此魔法带有 25% 的护甲穿透效果，但会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "連鎖閃電",
+				"description": "咒文魔法： 對目標及附近的兩個敵人造成10...85閃電傷害，若你身上不具有加持則會精疲力竭，此技能有25%防禦穿透效果。",
+				"concise": "咒文魔法： 對目標及附近的兩個敵人造成10...85閃電傷害，若你身上不具有加持則會精疲力竭，此技能有25%防禦穿透效果。"
+			},
 			"de": {
+				"name": "Kettenblitz",
+				"description": "Zauber. Der Gegner und bis zu zwei andere in der Nähe befindliche Feinde erleiden 10...85 Punkt[e] Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Richtet 10...85 Punkt[e] Blitzschaden an. Trifft den Gegner und zwei Feinde in seiner Nähe. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Kettenblitz",
 				"description": "Der Gegner, ein Feind in seiner Nähe und ein weiterer Feind in der Nähe von letzterem erleiden 10...85 Punkte Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...85 Punkte Blitzschaden an. Trifft den Gegner und zwei Feinde in seiner Nähe. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Chain Lightning",
+				"description": "Spell. Target foe and up to two other foes near your target are struck for 10...85 lightning damage. This spell has 25% armor penetration.",
+				"concise": "Spell. Deals 10...85 lightning damage. Also hits two foes near your target. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Chain Lightning",
 				"description": "Target foe and up to two other foes near your target are struck for 10...85 lightning damage. This spell has 25% armor penetration.",
 				"concise": "Deals 10...85 lightning damage. Also hits two foes near your target. 25% armor penetration."
 			},
+			"es": {
+				"name": "Relámpago encadenado",
+				"description": "Conjuro. El enemigo objetivo y otros dos enemigos que se encuentren cerca recibirán 10...85 de daño de relámpago. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Causa 10...85 de daño de relámpago. También alcanza a dos enemigos cercanos a tu objetivo. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Chaîne d'éclairs",
+				"description": "Sort. L'ennemi visé et jusqu'à deux autres ennemis proches de lui subissent 10...85 points de dégâts de la foudre. Ce sort a une pénétration d'armure de 25%.",
+				"concise": "Sort. Inflige 10...85 points de dégâts de la foudre. Frappe également deux ennemis près de la cible. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Chaîne d'éclairs",
 				"description": "L'ennemi visé et jusqu'à deux autres près de lui subissent 10...85 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure et entraîne l'Epuisement si vous n'êtes pas sous l'effet d'un enchantement.",
 				"concise": "Inflige 10...85 points de dégâts de la foudre. Frappe également deux ennemis près de la cible 25% de pénétration d'armure. <gray> Entraine l'Epuisement si vous n'êtes pas sous les effet d'un enchantement.</gray>"
+			},
+			"it": {
+				"name": "Fulmine a Catena",
+				"description": "Magia. L'obiettivo nemico e un massimo di altri due nemici accanto a lui subiscono 10...85 danni da fulmine. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia. Danni da fulmine inferti: 10...85. Colpisce anche due nemici nelle vicinanze dell'obiettivo. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "チェーン ライトニング",
+				"description": "スペル： ターゲットした敵および周囲にいる最大2体の敵に 10...85 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： ターゲットした敵および周囲にいる2体の敵に 10...85 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "연속 번개",
+				"description": "마법. 대상 지정: 적. 대상과 그 부근의 적 2명에게 10...85의 번개 대미지를 줍니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 대상과 그 부근의 적 2명에게 10...85의 번개 대미지를 줍니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Wyładowanie Łańcuchowe",
+				"description": "Czar. Wybrany przeciwnik i maksymalnie dwóch innych przeciwników w jego pobliżu otrzymuje 10...85 pkt. obrażeń od błyskawic. Ten czar posiada 25% przebicia pancerza oraz powoduje wyczerpanie, jeśli nie znajdujesz się pod wpływem zaklęcia.",
+				"concise": "Czar. Zadaje 10...85 pkt. obrażeń od błyskawic. Trafia także dwóch przeciwników w pobliżu twojego celu. 25% przebicie pancerza. Powoduje u ciebie wyczerpanie, jeśli nie znajdujesz się pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Chain Lightning",
+				"description": "Заклинание. Выбранный противник и до двух противников поблизости от него получат 10...85 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Наносит 10...85 ед. урона силой молнии. Также поражает двух противников поблизости от вашей цели. Игнориует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Chaeeen Leeghtneeng",
+				"description": "Spell. Taerget fue-a und up tu tvu oozeer fues neaer yuoor taerget aere-a stroock fur 10...85 leeghtneeng daemaege-a. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Spell. Deaels 10...85 leeghtneeng daemaege-a. Aelsu heets tvu fues neaer yuoor taerget. 25% aermur penetraeshun."
 			}
 		}
 	}

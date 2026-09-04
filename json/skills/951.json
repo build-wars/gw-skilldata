@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "迅捷虹吸",
+				"description": "负面魔法。 持续5...15秒，目标敌人移动速度降低33%，你的移速提升33%。对移动中的敌人施放时，法术充能加速50%。",
+				"concise": "负面魔法。 （5...15秒），目标敌人移动速度降低33%，你的移速提升33%。对移动中的敌人施放时，充能加速50%。"
+			},
+			"cht": {
+				"name": "吸取速度",
+				"description": "降咒魔法： For 5...15 seconds, target foe moves 33% slower and you move 33% faster. This spell recharges 50% faster if cast on a moving foe.",
+				"concise": "降咒魔法： (5...15 seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe."
+			},
 			"de": {
+				"name": "Geschwindigkeitsentzug",
+				"description": "Verhexung. 5...15 Sekunden lang bewegt sich der Zielgegner 33 % langsamer, und Ihr bewegt Euch 33 % schneller. Dieser Zauber lädt sich 50 % schneller auf, wenn er auf einen Gegner gewirkt wird, der sich bewegt.",
+				"concise": "Verhexung. (5...15 Sekunden.) Der Zielgegner bewegt sich 33 % langsamer, und Ihr bewegt Euch 33 % schneller. Lädt sich 50 % schneller auf, wenn er auf einen Gegner gewirkt wird, der sich bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Geschwindigkeitsentzug",
 				"description": "5...15 Sekunden lang bewegt sich der Gegner um 33% langsamer und bewegt Ihr Euch um 33% schneller. Dieser Zauber wird um 50% schneller wieder aufgeladen, wenn er auf einen sich bewegenden Feind gewirkt wird.",
 				"concise": "5...15 Sekunden: Gegner bewegt sich um 33% langsamer und ihr bewegt Euch um 33% schneller. Wird um 50% schneller wieder aufgeladen, wenn auf einen sich bewegenden Feind gewirkt."
 			},
 			"en": {
 				"name": "Siphon Speed",
+				"description": "Hex Spell. For 5...15 seconds, target foe moves 33% slower and you move 33% faster. This spell recharges 50% faster if cast on a moving foe.",
+				"concise": "Hex Spell. (5...15 seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe."
+			},
+			"en-gww": {
+				"name": "Siphon Speed",
 				"description": "For 5...15 seconds, target foe moves 33% slower and you move 33% faster. This spell recharges 50% faster if cast on a moving foe.",
 				"concise": "(5...15 seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe."
 			},
+			"es": {
+				"name": "Chorro de velocidad",
+				"description": "Conjuro con maleficio. Durante 5...15 segundos, el enemigo objetivo se mueve un 33 % más lento y tú un 33 % más deprisa. Este conjuro se recarga un 50 % más rápido si se lanza contra un enemigo en movimiento.",
+				"concise": "Conjuro con maleficio. (5...15 segundos) El enemigo objetivo se mueve un 33% más lento y tú un 33 % más deprisa. Se recarga un 50 % más rápido si se lanza contra un enemigo en movimiento."
+			},
 			"fr": {
+				"name": "Siphon de vitesse",
+				"description": "Maléfice. Pendant 5...15 secondes, la cible ennemie se déplace 33% moins vite et vous vous déplacez 33% plus vite. Ce sort se recharge 50% plus rapidement s'il est lancé sur un ennemi en mouvement.",
+				"concise": "Maléfice. (5...15 secondes.) La cible ennemie se déplace 33% moins vite et vous vous déplacez 33% plus vite. Se recharge 50% plus rapidement si lancé sur un ennemi en mouvement."
+			},
+			"fr-gwiki": {
 				"name": "Siphon de vitesse",
 				"description": "Pendant 5...15 secondes, la cible ennemie se déplace 33% moins vite et vous vous déplacez 33% plus vite. La portée de ce sort est la moitié de celle d'un sort normal. Ce sort se recharge 50% plus vite s'il est lancé sur un ennemi en mouvement.",
 				"concise": "(5...15 secondes.) La cible ennemie se déplace 33% moins vite et vous vous déplacez 33% plus vite. Se recharge 50% plus vite s'il est lancé sur un ennemi en mouvement."
+			},
+			"it": {
+				"name": "Velocità risucchiante",
+				"description": "Fattura. Per 5...15 secondo/i, il bersaglio nemico si muove più lentamente del 33% e tu più velocemente del 33%. Questa magia si ricarica il 50% più velocemente se lanciato su un avversario in movimento.",
+				"concise": "Fattura. (5...15 secondo/i). Il bersaglio nemico si muove più lentamente del 33% e tu più velocemente del 33%. Si ricarica il 50% più velocemente se lanciato su un avversario in movimento."
+			},
+			"jp": {
+				"name": "サイフォンスピード",
+				"description": "弱体化スペル： 5...15秒間にわたって標的の敵は移動速度が33%減少し、あなたは33%加速します。このスペルは、移動中の敵に使用するとリチャージが50%加速します。",
+				"concise": "弱体化スペル： （5...15秒）標的の敵は移動速度が33%減少し、あなたは33%加速します。移動中の敵に使用するとリチャージが50%加速します。"
+			},
+			"kr": {
+				"name": "속도 흡수",
+				"description": "약화 마법. 5...15초 동안 대상의 이동 속도는 33% 느려지고, 자신의 이동 속도는 33% 빨라집니다. 이동 중인 적에게 사용하면 재활성 시간이 50% 빨라집니다.",
+				"concise": "약화 마법. (5...15초) 대상의 이동 속도가 33% 느려지고, 자신의 이동 속도는 33% 빨라집니다. 대상이 이동 중이면 재활성 시간이 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Wyssanie Szybkości",
+				"description": "Klątwa (czar). Przez 5...15 sek. wybrany przeciwnik porusza się o 33% wolniej, a ty poruszasz się o 33% szybciej. Ten czar odnawia się o 50% szybciej, jeżeli został rzucony na poruszającego się przeciwnika.",
+				"concise": "Klątwa (czar). (5...15 sek.) Wybrany przeciwnik porusza się o 33% wolniej, a ty poruszasz się o 33% szybciej. Odnowienie szybsze o 50%, jeżeli cel się poruszał."
+			},
+			"ru": {
+				"name": "Siphon Speed",
+				"description": "Заклинание-проклятье. В течение 5...15 сек. выбранный враг двигается на 33% медленнее, а вы — на 33% быстрее. Это заклинание восстанавливается на 50% быстрее, если применить его на движущемся противнике.",
+				"concise": "Заклинание-проклятье. (5...15 сек.). Выбранный враг двигается на 33% медленнее, а вы — на 33% быстрее. Восстанавливается на 50% быстрее, если применить его на движущемся противнике."
+			},
+			"bork": {
+				"name": "Seephun Speed",
+				"description": "Hex Spell. Fur 5...15 secunds, taerget fue-a mufes 33% slooer und yuoo mufe-a 33% faester. Thees spell rechaerges 50% faester iff caest oon a mufeeng fue-a.",
+				"concise": "Hex Spell. (5...15 secunds.) Taerget fue-a mufes 33% slooer und yuoo mufe-a 33% faester. Rechaerges 50% faester iff caest oon a mufeeng fue-a."
 			}
 		}
 	}

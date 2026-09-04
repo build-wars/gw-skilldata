@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "诱捕陷阱",
+				"description": "陷阱技。 当此陷阱被触发，使附近的所有敌人遭受「致残」症状 3...15 秒。诱捕陷阱在 90 秒后消失。当你发动此技能时，动作容易被打断。",
+				"concise": "陷阱技。 当此陷阱被触发，使范围内的所有敌人遭受「致残」症状 3...15 秒。诱捕陷阱在 90 秒后消失。当你发动此技能时，动作容易被打断。"
+			},
+			"cht": {
+				"name": "圈套",
+				"description": "陷阱： 當此陷阱被觸發，使範圍內的所有敵人遭受「殘廢」病症 3...15 秒。圈套在 90 秒後消失。當你發動此技能時，動作容易被中斷。",
+				"concise": "陷阱： 當此陷阱被觸發，使範圍內的所有敵人遭受「殘廢」病症 3...15 秒。圈套在 90 秒後消失。當你發動此技能時，動作容易被中斷。"
+			},
 			"de": {
+				"name": "Schlinge",
+				"description": "Falle. Wird Schlinge aktiviert, werden alle Gegner in der Nähe 3...15 Sekunde[n] lang verkrüppelt. Schlinge endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunden: Betrifft Feinde in der Nähe. Verursacht Zustand Verkrüppelung (3...15 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Schlinge",
 				"description": "Wird Schlinge aktiviert, werden alle Gegner in der Nähe 3...15 Sekunden lang verkrüppelt. Schlinge endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Verursacht Zustand Verkrüppelung (3...15 Sekunden). <gray>Leicht zu unterbrechen</gray>."
 			},
 			"en": {
 				"name": "Snare",
+				"description": "Trap. When Snare is triggered, all nearby foes become Crippled for 3...15 seconds. Snare ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Inflicts Crippled condition (3...15 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Snare",
 				"description": "When Snare is triggered, all nearby foes become Crippled for 3...15 seconds. Snare ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Inflicts Crippled condition (3...15 seconds). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Cepo",
+				"description": "Trampa. Cuando se activa esta trampa, todos los enemigos cercanos quedarán lisiados durante 3...15 segundos. La trampa dura 90 segundos. Cuando actives esta habilidad, se te podrá interrumpir con facilidad.",
+				"concise": "Trampa. (90 segundos.) Afecta a los enemigos cercanos. Causa lisiadura (3...15 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Attrape",
+				"description": "Piège. Lorsque l'attrape est déclenchée, tous les ennemis à proximité sont frappés d'Infirmité pendant 3...15 secondes. L'attrape prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige l'Infirmité (3...15 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Attrape",
 				"description": "Lorsque l'attrape est déclenchée, tous les ennemis à proximité sont frappés d'Infirmité pendant 3...15 secondes. L'attrape prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tagliola",
+				"description": "Trappola. Quando la Tagliola viene fatta scattare, tutti i nemici nei dintorni diventano storpi per 3...15 secondo[i]; termina dopo 90 secondi. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Condizione inflitta: Storpiatura (3...15 secondo[i]). Facile interruzione."
+			},
+			"jp": {
+				"name": "スネア",
+				"description": "トラップ： このトラップが作動すると、周囲にいるすべての敵は 3...15 秒間「不自由」状態になります。このトラップは90秒後に消滅します。このスキルの詠唱は容易に中断されます。",
+				"concise": "トラップ： (90秒) 周囲にいる敵を「不自由」状態にします (3...15 秒)。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "올가미 함정",
+				"description": "함정. 대상 지정: 없음. 함정이 작동하면 함정 부근의 모든 적은 3...15초 동안 다리 부상 상태가 됩니다. 함정은 90초 뒤에 사라지며 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 다리 부상을 입힙니다.(3...15초) 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Sidła",
+				"description": "Pułapka. Kiedy Sidła zadziałają, wszyscy przeciwnicy w pobliżu zostaną okulawieni na 3...15 sek. Sidła przestają działać po 90 sekundach. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. Wywołuje przypadłość okulawienie (3...15 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Snare",
+				"description": "Ловушка. Когда Snare срабатывает, все находящиеся поблизости противники будут хромать в течение 3...15 сек. Snare разряжается через 90 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Вызывает хромоту (3...15 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Snaere-a",
+				"description": "Traep. Vhee Snaere-a is treeggered, aell neaerby fues becume-a Creeppled fur 3...15 secunds. Snaere-a inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Inffleects Creeppled cundeeshun (3...15 secunds). Iaeseely interroopted."
 			}
 		}
 	}

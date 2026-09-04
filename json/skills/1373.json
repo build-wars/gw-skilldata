@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "石壳",
+				"description": "精英增益魔法。 在5...20秒之内，目标敌人以及他附近的所有敌人所制造的伤害将全部变为地系伤害，并无法打出致命一击。",
+				"concise": "精英增益魔法。 在5...20秒之内，目标敌人以及他附近的所有敌人所制造的伤害将全部变为地系伤害，并无法打出致命一击。"
+			},
+			"cht": {
+				"name": "硬石刃鞘",
+				"description": "精英加持魔法： 持續 5...20 秒，使目標及其附近的所有敵人造成的傷害轉變為土系傷害，並且無法造成致命攻擊。",
+				"concise": "精英加持魔法： 持續 5...20 秒，使目標及其附近的所有敵人造成的傷害轉變為土系傷害，並且無法造成致命攻擊。"
+			},
 			"de": {
+				"name": "Steinmantel",
+				"description": "Elite-Verzauberung. 5...20 Sekunde[n] lang habt Ihr und ein Verbündeter +1...30 Rüstung und seid gegen kritische Treffer immun. Wenn Ihr diesen Zauber wirkt, erleiden alle Feinde in Eurer Nähe und in der Nähe Eures Ziels 15...70 Punkt[e] Erdschaden und sind 5...20 Sekunde[n] lang geschwächt.",
+				"concise": "Elite-Verzauberung. (5...20 Sekunde[n].) Ihr und ein Verbündeter habt +1...30 Rüstung und seid gegen kritische Treffer immun. Anfangswirkung: Feinde in Eurer Nähe und in der Nähe Eures Ziels erleiden 15...70 Punkt[e] Erdschaden und leiden unter Schwäche (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Steinmantel",
 				"description": "5...20 Sekunden lang habt Ihr und ein Verbündeter +1...30 Rüstung und seid gegen kritische Treffer immun. Wenn Ihr diesen Zauber wirkt, erleiden alle Feinde in Eurer Nähe und in der Nähe Eures Ziels 15...70 Punkte Erdschaden und sind 5...20 Sekunden lang geschwächt.",
 				"concise": "(5...20 Sekunden). Ihr und ein Verbündeter habt +1...30 Rüstung und seid gegen kritische Treffer immun. Anfangswirkung: Feinde in Eurer Nähe und in der Nähe Eures Ziels erleiden 15...70 Punkte Erdschaden und leiden unter Schwäche (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Stone Sheath",
+				"description": "Elite Enchantment Spell. For 5...20 seconds, you and target ally have +1...30 armor and are immune to critical hits. When you cast this spell, all foes near you and your target take 15...70 earth damage and are Weakened for 5...20 seconds.",
+				"concise": "Elite Enchantment Spell. (5...20 seconds.) Gives you and target ally +1...30 armor and immunity to critical hits. Initial effect: Foes near you and target ally are struck for 15...70 earth damage and are Weakened (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Stone Sheath",
 				"description": "For 5...20 seconds, you and target ally have +1...30 armor and are immune to critical hits. When you cast this spell, all foes near you and your target take 15...70 earth damage and are Weakened for 5...20 seconds.",
 				"concise": "(5...20 seconds.) Gives you and target ally +1...30 armor and immunity to critical hits. Initial effect: Foes near you and target ally are struck for 15...70 earth damage and are Weakened (5...20 seconds)."
 			},
+			"es": {
+				"name": "Vaina de piedra",
+				"description": "Conjuro con encantamiento de élite. Durante 5...20 segundos, tú y el aliado objetivo tenéis +1...30 de armadura y sois inmunes a los golpes críticos. Cuando lanzas este conjuro, todos los enemigos cerca de ti y de tu objetivo reciben 15...70 de daño de tierra y sufren debilitamiento durante 5...20 segundos.",
+				"concise": "Conjuro con encantamiento de élite. (5...20 segundos). Os da a ti y al aliado objetivo +1...30 de armadura e inmunidad a los golpes críticos. Efecto inicial: Los enemigos cerca de ti y del aliado objetivo reciben 15...70 de daño de tierra y padecen debilitamiento (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Gaine de pierre",
+				"description": "Enchantement d'élite. Pendant 5...20 secondes, l'allié ciblé et vous gagnez +1...30 en armure et êtes immunisés contre les coups critiques. Quand vous lancez ce sort, tous les ennemis près de vous et de votre cible subissent 15...70 points de dégâts de la terre et souffrent de Faiblesse pendant 5...20 secondes.",
+				"concise": "Enchantement d'élite. (5...20 secondes.) L'allié ciblé et vous gagnez +1...30 en armure et une immunité contre les coups critiques. Effet initial : Les ennemis près de vous et de l'allié ciblé subissent 15...70 points de dégâts de la terre et souffrent de Faiblesse (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Gaine de pierre",
 				"description": "Pendant 5...20 secondes, l'allié ciblé et vous gagnez +1...30 en armure et êtes immunisés contre les coups critiques. Quand vous lancez ce sort, tous les ennemis à proximité de vous et de votre cible subissent 15...70 dégâts de la terre et souffrent de Faiblesse pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guaina di Pietra",
+				"description": "Incantesimo d'Élite. Per 5...20 secondi, tu e l'obiettivo alleato ottenete +1...30 di armatura e siete immuni agli attacchi critici. Quando lanci questa magia, tutti i nemici vicino a te e al tuo obiettivo subiscono 15...70 danni da terra e soffrono di Debolezza per 5...20 secondi.",
+				"concise": "Incantesimo d'Élite. (Secondi: 5...20.) Tu e l'obiettivo alleato ottenete +1...30 di armatura e siete immuni agli attacchi critici. Effetto iniziale: I nemici vicino a te e all'obiettivo alleato subiscono 15...70 danni da terra e soffrono di Debolezza (5...20 secondi)."
+			},
+			"jp": {
+				"name": "ストーン シース",
+				"description": "エリート強化スペル： 5...20 秒間、プレイヤーおよびターゲットした味方は防御力が 1...30 増加し、クリティカル ヒットを受けなくなります。このスペルを詠唱すると、プレイヤーおよびターゲットした味方の周囲にいるすべての敵に 15...70 のアース ダメージを与え、5...20 秒間「衰弱」状態にします。",
+				"concise": "エリート強化スペル： (5...20 秒) プレイヤーおよびターゲットした味方は防御力が 1...30 増加し、クリティカル ヒットを受けません。発動効果： プレイヤーおよびターゲットした味方の周囲にいる敵に 15...70 のアース ダメージを与え、「衰弱」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "대지의 제방",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 5...20초 동안 자신과 대상의 방어력이 1...30만큼 증가하고, 치명타 공격을 받지 않습니다. 이 마법을 시전할 때 부근의 적들과 대상은 15...70의 대지 대미지를 입고, 5...20초 동안 약체 상태가 됩니다.",
+				"concise": "엘리트 강화 마법. (5...20초) 자신과 대상 아군의 방어력이 1...30만큼 증가하고, 치명타 공격을 받지 않습니다. 초기 효과: 부근의 적들과 대상은 15...70의 대지 대미지를 입고, 약체가 됩니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Kamienna Osłona",
+				"description": "Elitarne zaklęcie (czar). Przez 5...20 sek., ataki wykonywane przez wybranego przeciwnika i wszystkich przeciwników w pobliżu zadają obrażenia od ziemi i nie mogą powodować trafień krytycznych.",
+				"concise": "Elitarne zaklęcie (czar). Klątwa działa także na przeciwników w pobliżu celu (5...20 sek.). Zamienia ataki na takie, które zadają obrażenia od ziemi i usuwa zdolność zadawania trafień krytycznych."
+			},
+			"ru": {
+				"name": "Stone Sheath",
+				"description": "Элитное заклинание-чары. В течение 5...20 сек вы и выбранный союзник получаете 1...30 ед. к защите и становитесь невосприимчивы к критическим попаданиям. Когда вы произносите это заклинание, все противники поблизости от вас и вашей цели получают 15...70 ед. урона силой земли и будут ослаблены на 5...20 сек.",
+				"concise": "Элитное заклинание-чары. (5...20 сек) Дает вам и выбранному союзнику +1...30 ед. к защите и иммунитет к критическим попаданиям. Начальный эффект: противники поблизости от вас и выбранного союзника получают 15...70 ед. урона силой земли и будут ослаблены (5...20 сек)."
+			},
+			"bork": {
+				"name": "Stune-a Sheaet",
+				"description": "Ileete-a Inchuntment Spell. Fur 5...20 secunds, yuoo und taerget aelly haefe-a +1...30 aermur und aere-a immoone-a tu creeteecael heets. Vhee yuoo caest thees spell, aell fues neaer yuoo und yuoor taerget taeke-a 15...70 iaert daemaege-a und aere-a Veaekened fur 5...20 secunds.",
+				"concise": "Ileete-a Inchuntment Spell. (5...20 secunds.) Geefes yuoo und taerget aelly +1...30 aermur und immooneety tu creeteecael heets. Ineeteeael iffffect: Fues neaer yuoo und taerget aelly aere-a stroock fur 15...70 iaert daemaege-a und aere-a Veaekened (5...20 secunds)."
 			}
 		}
 	}

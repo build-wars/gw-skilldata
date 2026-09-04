@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「万夫莫开！」",
+				"description": "战吼。 使你附近的所有移动中的敌人被击倒。",
+				"concise": "战吼。 使你附近的所有移动中的敌人被击倒。"
+			},
+			"cht": {
+				"name": "「無人可過！」",
+				"description": "戰嚎： 附近所有移動中的敵人將被擊倒，依照每個被擊倒的敵人數量，每個會使此技能回復時間加快 1...8 秒。 (最多加快 25 秒)",
+				"concise": "戰嚎： 附近所有移動中的敵人將被擊倒，依照每個被擊倒的敵人數量，每個會使此技能回復時間加快 1...8 秒。 (最多加快 25 秒)"
+			},
 			"de": {
+				"name": "\"Niemand darf vorbei!\"",
+				"description": "Schrei. Alle Gegner in der Nähe, die sich bewegen, werden zu Boden geworfen. Diese Fertigkeit wird für jeden zu Boden geworfenen Feind um 1...8 Sekunde[n] schneller wieder aufgeladen (maximal 25 Sekunden).",
+				"concise": "Schrei. Wirft alle umstehenden Feinde zu Boden, die sich bewegen. Wird für jeden betroffenen Feind um 1...8 Sekunde[n] schneller wieder aufgeladen (maximal 25 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "\"Niemand darf vorbei!\"",
 				"description": "Alle Gegner in der Nähe, die sich bewegen, werden zu Boden geworfen. Diese Fertigkeit wird für jeden zu Boden geworfenen Feind um 1...8 Sekunden schneller wieder aufgeladen (maximal 25 Sekunden).",
 				"concise": "Wirft alle Feinde in der Nähe zu Boden, die sich bewegen. Wird für jeden betroffenen Feind um 1...8 Sekunden schneller wieder aufgeladen (maximal 25 Sekunden)."
 			},
 			"en": {
 				"name": "\"None Shall Pass!\"",
+				"description": "Shout. All nearby foes that are moving are knocked down. This skill recharges 1...8 seconds faster for each foe knocked down (maximum 25 seconds).",
+				"concise": "Shout. Knocks down all nearby moving foes. Recharges 1...8 seconds faster for each affected foe (maximum 25 seconds)."
+			},
+			"en-gww": {
+				"name": "\"None Shall Pass!\"",
 				"description": "All nearby foes that are moving are knocked down. This skill recharges 1...8 second[s] faster for each foe knocked down (maximum 25 seconds).",
 				"concise": "Knocks down all nearby moving foes. Recharges 1...8 second[s] faster for each affected foe (maximum 25 seconds)."
 			},
+			"es": {
+				"name": "\"¡No pasarán!\"",
+				"description": "Grito. Todos los enemigos adyacentes en movimiento son derribados. Esta habilidad se recarga 1...8 segundos más deprisa por cada enemigo derribado (máximo 25 segundos).",
+				"concise": "Grito. Derriba a todos los enemigos cercanos en movimiento. Se recarga 1...8 segundos más deprisa por cada enemigo afectado (máximo 25 segundos)."
+			},
 			"fr": {
+				"name": "\"Nul ne passera !\"",
+				"description": "Cri. Tous les ennemis à proximité en mouvement sont assommés. Cette compétence se recharge 1...8 secondes plus vite pour chaque ennemi assommé (maximum de 25 secondes).",
+				"concise": "Cri. Assomme tous les ennemis à proximité qui se déplacent. Se recharge 1...8 secondes plus vite pour chaque ennemi affecté (maximum de 25 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "\"Nul ne passera !\"",
 				"description": "Tous les ennemis à proximité en mouvement sont assommés. Se recharge 1...8 seconde(s) plus vite pour chaque ennemi affecté. (25 secondes plus vite maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Non si passa!\"",
+				"description": "Urlo. Tutti i nemici nei dintorni in movimento vengono buttati a terra. Questa abilità si ricarica 1...8 secondo[i] più velocemente per ogni nemico a terra (max 25 secondo[i]).",
+				"concise": "Urlo. Abbatte tutti i nemici in movimento nei dintorni. Questa abilità si ricarica 1...8 secondo[i] più velocemente per ogni nemico affetto (max 25 secondo[i])."
+			},
+			"jp": {
+				"name": "ナン シャル パス！",
+				"description": "シャウト： 周囲にいる移動中の敵がすべて転倒します。転倒した敵ごとに、このスキルの再使用時間が 1...8 秒減少します (最大 25 秒)。",
+				"concise": "シャウト： 周囲にいる移動中の敵はすべて転倒します。転倒した敵ごとに、このスキルの再使用時間が 1...8 減少します (最大 25 秒)。"
+			},
+			"kr": {
+				"name": "꼼짝마라!",
+				"description": "고함. 대상 지정: 없음. 이동 중이던 부근의 모든 적이 바닥에 넘어집니다. 넘어진 적 한 명당 1...8씩, 최대 25초만큼 이 스킬의 재활성 시간이 빨라집니다.",
+				"concise": "고함. 이동 중인 부근의 모든 적을 바닥에 넘어뜨립니다. 넘어진 적 1명당 1...8초씩, 최대 25초만큼 재활성 시간이 빨라집니다."
+			},
+			"pl": {
+				"name": "\"Nikt Nie Przejdzie!\"",
+				"description": "Okrzyk. Wszyscy pobliscy wrogowie, którzy się poruszają, zostają powaleni. Umiejętność ta odnawia się 1...8 sek. szybciej za każdego powalonego wroga (maksymalnie 25 sek.).",
+				"concise": "Okrzyk. Powala wszystkich poruszających się wrogów, którzy znajdują się w pobliżu. Odnawia się 1...8 sek. szybciej za każdego powalonego w ten sposób wroga (maksymalnie 25 sek.)."
+			},
+			"ru": {
+				"name": "\"None Shall Pass!\"",
+				"description": "Крик. Все находящиеся поблизости двигающиеся противники будут сбиты с ног. Это умение перезаряжается на 1...8 сек быстрее за каждого сбитого с ног противника (но не более чем на 25 сек быстрее).",
+				"concise": "Крик. Сбивает с ног всех двигающихся противников поблизости. Перезаряжается на 1...8 сек быстрее за каждого сбитого с ног противника (но не более чем на 25 сек быстрее)."
+			},
+			"bork": {
+				"name": "\"Nune-a Shaell Paess!\"",
+				"description": "Shuoot. Aell neaerby fues thaet aere-a mufeeng aere-a knucked doon. Thees skeell rechaerges 1...8 secunds faester fur iaech fue-a knucked doon (maexeemoom 25 secunds).",
+				"concise": "Shuoot. Knucks doon aell neaerby mufeeng fues. Rechaerges 1...8 secunds faester fur iaech aeffffected fue-a (maexeemoom 25 secunds)."
 			}
 		}
 	}

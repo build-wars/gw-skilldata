@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暗影冲击",
+				"description": "咒文。 使目标敌人受到 12...48点 暗影伤害。如果该目标的生命值高于 50% ，那么你将偷取其 12...48点 生命值。",
+				"concise": "咒文。 使目标敌人受到 12...48点 暗影伤害。如果该目标的生命值高于 50% ，那么你将偷取其 12...48点 生命值。"
+			},
+			"cht": {
+				"name": "暗影衝擊",
+				"description": "咒文魔法： 使目標敵人受到 12...48 暗影傷害。若該目標的體力高於 50% ，你偷取其 12...48 體力。",
+				"concise": "咒文魔法： 使目標敵人受到 12...48 暗影傷害。若該目標的體力高於 50% ，你偷取其 12...48 體力。"
+			},
 			"de": {
+				"name": "Schattenschlag",
+				"description": "Zauber. Der Gegner erleidet 12...48 Punkt[e] Schattenschaden. Sind seine Lebenspunkte über 50%, entzieht Ihr ihm bis zu 12...48 Lebenspunkt[e].",
+				"concise": "Zauber. Richtet 12...48 Punkt[e] Schaden an. Entzieht bis zu 12...48 Lebenspunkt[e], falls der Gegner mehr als 50% seiner maximalen Lebenspunkte hatte."
+			},
+			"de-guildwiki": {
 				"name": "Schattenschlag",
 				"description": "Der Gegner erleidet 12...48 Schattenschaden. Sind seine Lebenspunkte über 50%, entzieht Ihr ihm bis zu 12...48 Lebenspunkte.",
 				"concise": "Richtet 12...48 Punkte Schaden an. Entzieht bis zu 12...48 Lebensunkte, falls der Gegner mehr als 50% seiner maximalen Lebenspunkte hatte."
 			},
 			"en": {
 				"name": "Shadow Strike",
+				"description": "Spell. Target foe takes 12...48 shadow damage. If that foe's Health is above 50%, you steal up to 12...48 Health.",
+				"concise": "Spell. Deals 12...48 damage. Steal up to 12...48 Health if this foe was above 50% Health."
+			},
+			"en-gww": {
+				"name": "Shadow Strike",
 				"description": "Target foe takes 12...48 shadow damage. If that foe's Health is above 50%, you steal up to 12...48 Health.",
 				"concise": "Deals 12...48 damage. Steal up to 12...48 Health if this foe was above 50% Health."
 			},
+			"es": {
+				"name": "Golpe de las sombras",
+				"description": "Conjuro. El enemigo objetivo recibe 12...48 de daño de sombra. Si la salud de ese enemigo está por encima del 50%, le robarás 12...48 de salud.",
+				"concise": "Conjuro. Hace 12...48 de daño. Roba 12...48 de salud si la del enemigo objetivo está por encima del 50%."
+			},
 			"fr": {
+				"name": "Choc de l'ombre",
+				"description": "Sort. L'ennemi subit 12...48 points de dégâts de l'ombre. S'il a plus de 50% de ses points de vie, vous lui volez jusqu'à 12...48 points de vie.",
+				"concise": "Sort. Inflige 12...48 points de dégâts. Vole jusqu'à 12...48 points de vie si cet ennemi a plus de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Choc de l'ombre",
 				"description": "L'ennemi subit 12...48 points de dégâts de l'ombre. S'il a plus de 50% de ses points de vie, vous lui volez jusqu'à 12...48 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo dell'Ombra",
+				"description": "Magia. L'obiettivo nemico subisce 12...48 danno[i] da ombra. Se la sua Salute è superiore al 50%, gli sottrarrai fino a 12...48 Punto[i] Salute.",
+				"concise": "Magia. Danni inferti: 12...48. Sottrai fino a 12...48 Punto[i] Salute se la Salute di questo nemico era superiore al 50%."
+			},
+			"jp": {
+				"name": "シャドウ ストライク",
+				"description": "スペル： ターゲットした敵に 12...48 の暗黒ダメージを与えます。その敵の体力が上限の50%より多い場合、最大 12...48 の体力を奪い取ります。",
+				"concise": "スペル： 12...48 のダメージを与えます。ターゲットの体力が上限の50%より多い場合、最大 12...48 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "그림자 일격",
+				"description": "마법. 대상 지정: 적. 대상에게 12...48의 암흑 대미지를 줍니다. 그 대상의 체력이 50%가 넘으면 12...48의 체력을 뺏습니다.",
+				"concise": "마법. 12...48의 대미지를 줍니다. 대상의 체력이 50%가 넘으면 12...48의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Cienia",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 12...48 pkt. obrażeń od cienia. Jeżeli ten przeciwnik ma ponad 50% pkt. żywotności, wykradasz mu 12...48 pkt. żywotności.",
+				"concise": "Czar. Zadaje 12...48 pkt. obrażeń. Wykrada do 12...48 pkt. żywotności, jeżeli ten przeciwnik miał powyżej 50% żywotności."
+			},
+			"ru": {
+				"name": "Shadow Strike",
+				"description": "Заклинание. Выбранный противник получает 12...48 ед. урона силой тьмы. Если уровень здоровья этого противника больше 50%, вы похищаете у него до 12...48 ед. здоровья.",
+				"concise": "Заклинание. Наносит 12...48 ед. урона. Похищает до 12...48 ед. здоровья, если у этого противника больше 50% здоровья."
+			},
+			"bork": {
+				"name": "Shaedoo Streeke-a",
+				"description": "Spell. Taerget fue-a taekes 12...48 shaedoo daemaege-a. Iff thaet fue-a's Heaelt is aebufe-a 50%, yuoo steael up tu 12...48 Heaelt.",
+				"concise": "Spell. Deaels 12...48 daemaege-a. Steael up tu 12...48 Heaelt iff thees fue-a vaes aebufe-a 50% Heaelt."
 			}
 		}
 	}

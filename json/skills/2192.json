@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Glowing Ice",
+				"description": "咒文。 Target foe is struck for 5...50 cold damage. If that foe is under the effects of a Water Magic hex, you gain 5 Energy.",
+				"concise": "咒文。 Deals 5...50 cold damage. You gain 5 Energy if target foe is hexed with Water Magic."
+			},
+			"cht": {
+				"name": "強烈之冰　",
+				"description": "咒文魔法： 對目標敵人造成5...50冰凍傷害。若該目標正遭受水系魔法降咒，你獲得5能量；同時依照能量儲存等級每2級讓你額外獲得1點能量。",
+				"concise": "咒文魔法： 對目標敵人造成5...50冰凍傷害。若該目標正遭受水系魔法降咒，你獲得5能量；同時依照能量儲存等級每2級讓你額外獲得1點能量。"
+			},
 			"de": {
+				"name": "Leuchtendes Eis",
+				"description": "Zauber. Der Gegner erleidet 5...50 Punkt[e] Kälteschaden. Wenn er mit einer Wassermagie-Verhexung belegt ist, erhaltet Ihr 5 Energiepunkt[e] sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung.",
+				"concise": "Zauber. Richtet 5...50 Punkt[e] Kälteschaden an. Ihr erhaltet 5 Energiepunkt[e] sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn der Gegner mit Wassermagie verhext ist."
+			},
+			"de-guildwiki": {
 				"name": "Leuchtendes Eis",
 				"description": "Der Gegner erleidet 5...50 Punkte Kälteschaden. Wenn er mit einer Wassermagie-Verhexung belegt ist, erhaltet Ihr 5 Energiepunkte sowie 1 Punkt für alle 2 Ränge in Energiespeicherung.",
 				"concise": "Geschoss: Fügt 5...50 Punkte Kälteschaden zu. Ihr erhaltet 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn der Gegner mit Wassermagie verhext ist."
 			},
 			"en": {
 				"name": "Glowing Ice",
+				"description": "Spell. Target foe is struck for 5...50 cold damage. If that foe is under the effects of a Water Magic hex, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
+				"concise": "Spell. Deals 5...50 cold damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is hexed with Water Magic."
+			},
+			"en-gww": {
+				"name": "Glowing Ice",
 				"description": "Target foe is struck for 5...50 cold damage. If that foe is under the effects of a Water Magic hex, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
 				"concise": "Deals 5...50 cold damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is hexed with Water Magic."
 			},
+			"es": {
+				"name": "Hielo brillante",
+				"description": "Conjuro. El enemigo objetivo recibe 5...50 de daño frío. Si ese enemigo está bajo los efectos de un maleficio de magia de agua, ganas 5 de energía más 1 de energía por cada 2 rangos de almacenamiento de energía.",
+				"concise": "Conjuro. Hace 5...50 de daño frío. Ganas 5 de energía más 1 de energía por cada 2 rangos de almacenamiento de energía si el enemigo objetivo está bajo los efectos de un maleficio de magia de agua."
+			},
 			"fr": {
+				"name": "Glace scintillante",
+				"description": "Sort. La cible ennemie subit 5...50 points de dégâts du froid. Si elle est affectée par un maléfice de la Magie de l'eau, vous recevez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
+				"concise": "Sort. Inflige 5...50 points de dégâts du froid. Vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie si la cible ennemie est affectée par un maléfice de la Magie de l'eau."
+			},
+			"fr-gwiki": {
 				"name": "Glace scintillante",
 				"description": "La cible ennemie subit 5...50 points de dégâts du froid. Si elle est affectée par un maléfice de la magie de l'eau, vous recevez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
 				"concise": "Inflige 5...50 points de dégâts du froid. Vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie si l'ennemi visé souffre d'un maléfice de la magie de l'eau."
+			},
+			"it": {
+				"name": "Ghiaccio Luminoso",
+				"description": "Magia. L'obiettivo nemico subisce 5...50 danni da freddo. Se quel nemico è affetto da una fattura della Magia dell'Acqua, ottieni 5 Punti Energia e 1 Punto Energia per ogni 2 gradi della Riserva di Energia.",
+				"concise": "Magia. Danni da freddo inferti: 5...50. Energia conseguita se l'obiettivo nemico è affetto da una fattura dell'Acqua: 5 più 1 per ogni 2 gradi della Riserva di Energia."
+			},
+			"jp": {
+				"name": "グロウ アイス",
+				"description": "スペル： ターゲットした敵に 5...50 のコールド ダメージを与えます。その敵に「ウォーター」特性の弱体化スペルがかけられている場合、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。",
+				"concise": "スペル： 5...50 のコールド ダメージを与えます。ターゲットした敵に「ウォーター」特性の弱体化スペルがかけられている場合、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "강렬한 차가움",
+				"description": "마법. 대상에게 5...50의 냉기 대미지를 줍니다. 대상이 물 속성 약화 마법에 걸려 있으면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 특성 레벨 2당 1의 에너지를 추가로 얻습니다.",
+				"concise": "마법. 5...50의 냉기 대미지를 줍니다. 대상이 물 속성 약화 마법에 걸려 있으면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 특성 레벨 2당 1의 에너지를 추가로 얻습니다."
+			},
+			"pl": {
+				"name": "Błyszczący Lód",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...50 pkt. obrażeń od zimna. Jeżeli jest on pod działaniem klątwy z Magii Wody, otrzymujesz 5 pkt. energii plus 1 pkt. energii na każde 2 poziomy Zapasu Energii.",
+				"concise": "Czar. Zadaje 5...50 pkt. obrażeń od zimna. Otrzymujesz 5 pkt. energii plus 1 pkt. energii na każde 2 poziomy Zapasu Energii, jeżeli wybrany przeciwnik jest pod działaniem klątwy z Magii Wody."
+			},
+			"ru": {
+				"name": "Glowing Ice",
+				"description": "Заклинание. Выбранный противник получает 5...50 ед. урона силой холода. Если на этого противника было наложено какое-либо проклятье, связанное с Water Magic, вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage.",
+				"concise": "Заклинание. Наносит 5...50 ед. урона силой холода. Вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage, если на выбранного противника было наложено какое-либо проклятье, связанное с Water Magic."
+			},
+			"bork": {
+				"name": "Glooeeng Ice-a",
+				"description": "Spell. Taerget fue-a is stroock fur 5...50 culd daemaege-a. Iff thaet fue-a is under zee iffffects ooff a Vaeter Maegeec hex, yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a.",
+				"concise": "Spell. Deaels 5...50 culd daemaege-a. Yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a iff taerget fue-a is hexed veet Vaeter Maegeec."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "欣雷之抗",
+				"description": "精英物品法术。 最多能够持有 15...60 秒。当你持有欣雷的骨灰时，敌方施法者与其盟友对你使用的负面魔法，其恢复时间延长20秒。",
+				"concise": "精英物品法术。 最多能够持有 15...60 秒。当你持有欣雷的骨灰时，敌方施法者与其盟友对你使用的负面魔法，其恢复时间提高 20 秒。"
+			},
+			"cht": {
+				"name": "反抗軍欣雷",
+				"description": "精英抱持魔法： 持續15...60秒，你受到的單一攻擊不會超過體力最大值的20%，丟下她的骨灰時，偷取附近敵人5...50體力。",
+				"concise": "精英抱持魔法： 持續15...60秒，你受到的單一攻擊不會超過體力最大值的20%，丟下她的骨灰時，偷取附近敵人5...50體力。"
+			},
 			"de": {
+				"name": "Trotzig war Xinrae",
+				"description": "Elite-Gegenstandszauber. Haltet Xinraes Asche bis zu 15...60 Sekunde[n] lang. Während Ihr ihre Asche haltet, könnt Ihr durch einen einzelnen Treffer nicht mehr als 20% Eurer maximalen Lebenspunkte verlieren. Wenn Ihr ihre Asche fallen lasst, entzieht Ihr allen Feinden in der Nähe 5...50 Lebenspunkt[e].",
+				"concise": "Elite-Gegenstandszauber. 15...60 Sekunde[n]: Ihr könnt nicht mehr als 20% Eurer maximalen Lebenspunkte durch einen einzelnen Treffer verlieren. Fallwirkung: Ihr entzieht Feinden in der Nähe 5...50 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Trotzig war Xinrae",
 				"description": "Haltet Xinraes Asche bis zu 15...60 Sekunden lang. Während Ihr ihre Asche haltet, könnt Ihr durch einen einzelnen Treffer nicht mehr als 20% Eurer maximalen Lebenspunkte verlieren. Wenn Ihr ihre Asche fallen lasst, entzieht Ihr allen Feinden in der Nähe 5...50 Lebenspunkte.",
 				"concise": "15...60 Sekunden: Ihr könnt nicht mehr als 20% Eurer maximalen Lebenspunkte durch einen einzelnen Treffer verlieren. Fallwirkung: Ihr entzieht Feinden in der Nähe 5...50 Lebenspunkte."
 			},
 			"en": {
 				"name": "Defiant Was Xinrae",
+				"description": "Elite Item Spell. Hold Xinrae's ashes for up to 15...60 seconds. While you hold her ashes, you cannot lose more than 20% of your max Health from a single hit. When you drop her ashes, you steal 5...50 Health from all nearby foes.",
+				"concise": "Elite Item Spell. (15...60 seconds.) You cannot lose more than 20% of your max Health from a single hit. Drop effect: steal 5...50 Health from nearby foes."
+			},
+			"en-gww": {
+				"name": "Defiant Was Xinrae",
 				"description": "Hold Xinrae's ashes for up to 15...60 seconds. While you hold her ashes, you cannot lose more than 20% of your max Health from a single hit. When you drop her ashes, you steal 5...50 Health from all nearby foes.",
 				"concise": "(15...60 seconds.) You cannot lose more than 20% of your max Health from a single hit. Drop effect: steal 5...50 Health from nearby foes."
 			},
+			"es": {
+				"name": "Desafiante sea Xinrae",
+				"description": "Conjuro con objeto de élite. Llevas las cenizas de Xinrae durante 15...60 segundos. Mientras, no puedes perder más del 20% de tu salud máxima de un solo golpe. Cuando sueltes las cenizas, robarás 5...50 de salud de todos los enemigos cercanos.",
+				"concise": "Conjuro con objeto de élite. (15...60 segundos). No puedes perder más del 20% de tu salud máxima de un solo golpe. Efecto al soltarse: robas 5...50 de salud de los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Xinrae était rebelle",
+				"description": "Sort d'altération d'objet d'élite. Vous tenez les cendres de Xinrae pendant un maximum de 15...60 secondes. Pendant ce temps, vous ne pouvez pas perdre plus de 20% de votre santé maximum par attaque. Lorsque vous déposez ses cendres, vous volez 5...50 points de vie à tous les ennemis à proximité.",
+				"concise": "Sort d'altération d'objet d'élite. (15...60 secondes.) Vous ne pouvez pas perdre plus de 20% de votre santé maximum par attaque. Effet de la pose : vous volez 5...50 points de vie aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Xinrae était rebelle",
 				"description": "Vous tenez les cendres de ''Xinrae'' pendant un maximum de 15...60 secondes. Pendant ce temps, vous ne pouvez pas perdre plus de 20% de votre santé maximum par attaque. Lorsque vous déposez ses cendres, vous volez 5...50 points de vie à tous les ennemis à proximité.",
 				"concise": "(15...60 secondes.) Vous ne pouvez pas perdre plus de 20% de votre santé maximum par attaque. Effet de la pose : vous volez 5...50 points de vie aux ennemis à proximité."
+			},
+			"it": {
+				"name": "Xinrae era Insolente",
+				"description": "Magia d'Élite Altera-oggetto. Mantieni le ceneri di Xinrae per un massimo di 15...60 secondo[i]; in quel periodo di tempo non puoi perdere più di un 20% della tua Salute massima per ogni colpo ricevuto. Quando lasci cadere le ceneri sottrai 5...50 Punto[i] Salute a tutti i nemici nei dintorni.",
+				"concise": "Magia d'Élite Altera-oggetto. (Secondi: 15...60) Non puoi perdere più di un 20% di Salute massima per ogni colpo ricevuto. Rilascio: sottrai 5...50 di Salute ai nemici nei dintorni."
+			},
+			"jp": {
+				"name": "ジンライ ディファイアント",
+				"description": "エリート アイテムスペル： 最大 15...60 秒間、ジンライの遺灰を持ちます。その間、1回の攻撃で受けるダメージが、体力の上限の 20% 以下になります。この遺灰を落とすと、周囲にいるすべての敵から 5...50 の体力を奪い取ります。",
+				"concise": "エリート アイテムスペル： (15...60 秒) 1回の攻撃で受けるダメージが、体力の上限の 20% 以下になります。ドロップ効果： 周囲にいる敵から 5...50 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "킨라이의 도전",
+				"description": "엘리트 드롭아이템. 대상 지정: 없음. 15...60초 동안 유지되는 킨라이의 마력석을 만듭니다. 킨라이의 마력석을 들고 있는 동안 1번의 공격에 받는 대미지가 최대 체력의 20%를 넘지 않고, 마력석을 바닥에 떨어뜨리면 부근의 모든 적에게서 5...50의 체력을 뺏습니다.",
+				"concise": "엘리트 드롭아이템. (15...60초) 1번의 공격에 받는 대미지가 최대 체력의 20%를 넘지 않습니다. 드롭 효과: 부근의 적들에게서 5...50의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Buntowniczą Była Xinrae",
+				"description": "Elitarny czar z przedmiotu. Trzymaj prochy Xinrae przez maksymalnie 15...60 sek. Gdy trzymasz jej prochy, w pojedynczym trafieniu nie możesz stracić więcej niż 20% swojej maksymalnej żywotności. Kiedy upuścisz jej prochy, od pobliskich przeciwników wykradasz 5...50 pkt. żywotności.",
+				"concise": "Elitarny czar z przedmiotu. (15...60 sek.) Jeden atak nie może ci zabrać więcej niż 20% twojej maksymalnej żywotności. Efekt zdjęcia: wykrada 5...50 pkt. żywotności z pobliskich przeciwników."
+			},
+			"ru": {
+				"name": "Defiant Was Xinrae",
+				"description": "Элитное артефактное заклинание. Вы держите прах Xinrae до 15...60 сек. До тех пор, пока вы держите ее прах, вы не можете потерять от единичного попадания более 20% от вашего максимального уровня здоровья. Когда вы бросаете ее прах, вы похищаете 5...50 ед. здоровья у всех противников поблизости.",
+				"concise": "Элитное артефактное заклинание. (15...60 сек) Вы не можете потерять от единичного попадания более 20% от вашего максимального уровня здоровья. Эффект от бросания: вы похищаете 5...50 ед. здоровья у противников поблизости."
+			},
+			"bork": {
+				"name": "Deffeeunt Vaes Xeenraee-a",
+				"description": "Ileete-a Item Spell. Huld Xeenraee-a's aeshes fur up tu 15...60 secunds. Vheele-a yuoo huld her aeshes, yuoo cunnut luse-a mure-a thun 20% ooff yuoor maex Heaelt frum a seengle-a heet. Vhee yuoo drup her aeshes, yuoo steael 5...50 Heaelt frum aell neaerby fues.",
+				"concise": "Ileete-a Item Spell. (15...60 secunds.) Yuoo cunnut luse-a mure-a thun 20% ooff yuoor maex Heaelt frum a seengle-a heet. Drup iffffect: steael 5...50 Heaelt frum neaerby fues."
 			}
 		}
 	}

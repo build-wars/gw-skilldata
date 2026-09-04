@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "惩戒妖咒",
+				"description": "咒文。 移除友方目标身上的一个「负面魔法」，使附近的敌人受到10...85点伤害。",
+				"concise": "咒文。 当成功从友方目标身上移除一个「负面魔法」时，使邻近的敌人受到10...85点伤害。"
+			},
+			"cht": {
+				"name": "降咒懲戒",
+				"description": "咒文魔法： 當成功從目標盟友身上消除一項「降咒」時，對範圍內的敵人造成 10...85 神聖傷害。",
+				"concise": "咒文魔法： 當成功從目標盟友身上消除一項「降咒」時，對範圍內的敵人造成 10...85 傷害。"
+			},
 			"de": {
+				"name": "Verhexung zerschlagen",
+				"description": "Zauber. Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Beim Entfernen einer Verhexung erleiden Gegner in dem Bereich 10...85 Punkt[e] heiligen Schaden.",
+				"concise": "Zauber. Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkung: Richtet bei Feinden im Bereich des Verbündeten (bzw. von Euch selbst) 10...85 Punkt[e] heiligen Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Verhexung zerschlagen",
 				"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Beim Entfernen einer Verhexung erleiden Gegner in dem Bereich 10...85 Punkte heiligen Schaden.",
 				"concise": "Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkung: Richtet bei Feinden im Bereich des Verbündeten (bzw. von Euch selbst) 10...85 Punkte heiligen Schaden an."
 			},
 			"en": {
 				"name": "Smite Hex",
+				"description": "Spell. Remove a hex from target ally. If a hex is removed, foes in the area suffer 10...85 holy damage.",
+				"concise": "Spell. Removes a hex from target ally. Removal effect: deals 10...85 holy damage to foes in the area of target ally."
+			},
+			"en-gww": {
+				"name": "Smite Hex",
 				"description": "Remove a hex from target ally. If a hex is removed, foes in the area suffer 10...85 holy damage.",
 				"concise": "Removes a hex from target ally. Removal effect: deals 10...85 holy damage to foes in the area of target ally."
 			},
+			"es": {
+				"name": "Deshacer maleficio",
+				"description": "Conjuro. Eliminas un maleficio del objetivo (un aliado o tú mismo). Al hacerlo, los enemigos en la zona sufren 10...85 de daño sagrado.",
+				"concise": "Conjuro. Elimina un maleficio del objetivo (un aliado o tú mismo). Efecto de la eliminación: 10...85 de daño sagrado a los enemigos dentro de la zona del objetivo."
+			},
 			"fr": {
+				"name": "Expiation des maléfices",
+				"description": "Sort. Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé de cette manière, les ennemis dans la zone subissent 10...85 points de dégâts sacrés.",
+				"concise": "Sort. Lève un maléfice qui frappe la cible alliée. Effet de la suppression : inflige 10...85 points de dégâts sacrés aux ennemis dans la zone de l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Expiation des maléfices",
 				"description": "Ote un maléfice qui frappe la cible (un allié ou vous-même). Si un maléfice est levé, les ennemis dans la zone subissent 10...85 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpisci Fattura",
+				"description": "Magia. Elimina una fattura dall'obiettivo (un alleato o te stesso). Se ci riesci, i nemici presenti nell'area subiscono 10...85 danno[i] sacro[i].",
+				"concise": "Magia. Rimuove una fattura dall'obiettivo (un alleato o te stesso). Effetto della rimozione: 10...85 danno[i] sacro[i] ai nemici nell'area dell'obiettivo."
+			},
+			"jp": {
+				"name": "スマイト ヘックス",
+				"description": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除します。弱体化スペルを解除すると、エリア内にいる敵は 10...85 の神聖ダメージを受けます。",
+				"concise": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除します。解除効果： ターゲットした味方のエリア内にいる敵に 10...85 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "약화 파괴",
+				"description": "마법. 대상 지정: 아군. 대상에 걸려 있는 약화 마법 중 하나를 해제합니다. 약화 마법이 해제되면 대상에게서 일정 범위 내에 있는 적들은 10...85의 신성 대미지를 입습니다.",
+				"concise": "마법. 대상에 걸린 약화 마법 하나를 해제합니다. 해제 효과: 대상을 중심으로 일정 범위 내에 있는 적들에게 10...85의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Pogrom Klątwy",
+				"description": "Czar. Z wybranego sojusznika usuwasz jedną klątwę. Jeśli klątwa zostanie usunięta, to każdy przeciwnik w okolicy otrzyma 10...85 pkt. świętych obrażeń.",
+				"concise": "Czar. Z wybranego sojusznika usuwa jedną klątwę. Efekt usunięcia: przeciwnikom w okolicy wybranego sojusznika zadaje 10...85 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Smite Hex",
+				"description": "Заклинание. Снимает одно проклятье с выбранного союзника. Если проклятье было успешно снято, противники в зоне досягаемости получат 10...85 ед. святого урона.",
+				"concise": "Заклинание. Снимает проклятье с выбранного союзника. Эффект снятия: наносит 10...85 ед. урона противникам в зоне досягаемости от выбранного союзника."
+			},
+			"bork": {
+				"name": "Smeete-a Hex",
+				"description": "Spell. Remufe-a a hex frum taerget aelly. Iff a hex is remufed, fues in zee aerea sooffffer 10...85 huly daemaege-a.",
+				"concise": "Spell. Remufes a hex frum taerget aelly. Remufael iffffect: deaels 10...85 huly daemaege-a tu fues in zee aerea ooff taerget aelly."
 			}
 		}
 	}

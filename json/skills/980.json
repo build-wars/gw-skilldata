@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生灵饕餮",
+				"description": "咒文。 消灭附近所有我方的「灵体」。每消灭一个「灵体」，所有的队伍成员获得 50...100 生命。",
+				"concise": "咒文。 消灭附近所有我方的「灵体」。每消灭一个「灵体」，所有的队伍成员获得 50...100 生命。"
+			},
+			"cht": {
+				"name": "生靈饗宴",
+				"description": "咒文魔法： 消滅附近所有我方的「靈」。每消滅一個「靈」，所有的隊伍成員獲得 50...100 體力。",
+				"concise": "咒文魔法： 消滅附近所有我方的「靈」。每消滅一個「靈」，所有的隊伍成員獲得 50...100 體力。"
+			},
 			"de": {
+				"name": "Schmaus der Seelen",
+				"description": "Zauber. Vernichtet die Geister aller Verbündeten in der Nähe. Für jeden Geist, der auf diese Art vernichtet wurde, werden alle Gruppenmitglieder um 50...100 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Heilt alle Gruppenmitglieder für jeden verbündeten Geist in der Nähe um 50...100 Lebenspunkt[e]. Alle verbündeten Geister in der Nähe werden vernichtet."
+			},
+			"de-guildwiki": {
 				"name": "Schmaus der Seelen",
 				"description": "Vernichtet die Geister aller Verbündeten in der Nähe. Für jeden Geist, der auf diese Art vernichtet wurde, werden alle Gruppenmitglieder um 50...100 Lebenspunkte geheilt.",
 				"concise": "Heilt alle Gruppenmitglieder für jeden verbündeten Geist in der Nähe um 50...100 Lebenspunkte. <gray>Alle verbündeten Geister in der Nähe werden vernichtet.</gray>"
 			},
 			"en": {
 				"name": "Feast of Souls",
+				"description": "Spell. Destroy all nearby allies' spirits. For each spirit destroyed in this way, all party members are healed for 50...100 Health.",
+				"concise": "Spell. Heals all party members for 50...100 for each nearby allied spirit. All nearby allied spirits are destroyed."
+			},
+			"en-gww": {
+				"name": "Feast of Souls",
 				"description": "Destroy all nearby allies' spirits. For each spirit destroyed in this way, all party members are healed for 50...100 Health.",
 				"concise": "Heals all party members for 50...100 for each nearby allied spirit. <gray>All nearby allied spirits are destroyed.</gray>"
 			},
+			"es": {
+				"name": "Festín espiritual",
+				"description": "Conjuro. Destruyes a todos los espíritus aliados cercanos. Por cada uno destruido así, todos los miembros del grupo se curan 50...100 de salud.",
+				"concise": "Conjuro. Cura 50...100 de salud a todos los miembros del equipo por cada espíritu aliado cercano. Todos los espíritus aliados cercanos se destruyen."
+			},
 			"fr": {
+				"name": "Festin de l'esprit",
+				"description": "Sort. Vous détruisez tous les esprits des alliés à proximité. Pour chaque esprit détruit de cette manière, tous les membres du groupe sont soignés de 50...100 points de vie.",
+				"concise": "Sort. Soigne tous les membres du groupe de 50...100 points de vie par esprit allié à proximité. Tous les esprits alliés à proximité sont détruits."
+			},
+			"fr-gwiki": {
 				"name": "Festin de l'esprit",
 				"description": "Vous détruisez tous les esprits des alliés à proximité. Pour chaque esprit détruit de cette manière, tous les membres du groupe sont soignés de 50...100 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Banchetto di Anime",
+				"description": "Magia. Elimini tutti gli Spiriti creati dagli alleati nei dintorni. Per ogni Spirito distrutto in questo modo, tutti i membri della squadra vengono curati di 50...100 Punto[i] Salute.",
+				"concise": "Magia. Cura tutti i membri della squadra di 50...100 per ogni Spirito alleato nei dintorni. Tutti gli Spiriti alleati nei dintorni vengono distrutti."
+			},
+			"jp": {
+				"name": "ゴースト リパスト",
+				"description": "スペル： 周囲にいる味方が召喚した精霊を消滅させます。この効果により消滅した精霊ごとに、すべてのパーティー メンバーの体力が 50...100 回復します。",
+				"concise": "スペル： すべてのパーティー メンバーは、周囲にいる味方の精霊ごとに体力が 50...100 回復します。周囲にいる味方の精霊はすべて消滅します。"
+			},
+			"kr": {
+				"name": "영혼 만찬",
+				"description": "마법. 대상 지정: 없음. 부근에 있는 아군의 영혼을 모두 파괴합니다. 파괴된 영혼 하나당 모든 파티원의 체력을 50...100씩 회복시킵니다.",
+				"concise": "마법. 부근의 아군 영혼 하나당 모든 파티원의 체력을 50...100씩 회복시킵니다. 부근에 있는 아군의 영혼을 모두 파괴합니다."
+			},
+			"pl": {
+				"name": "Uczta Dusz",
+				"description": "Czar. Niszczysz wszystkie sojusznicze duchy w pobliżu. Za każdego zniszczonego w ten sposób ducha, każdy z członków drużyny otrzymuje 50...100 pkt. żywotności.",
+				"concise": "Czar. Każdy członek drużyny otrzymuje 50...100 pkt. żywotności na każdego sojuszniczego ducha w pobliżu. Wszystkie sojusznicze duchy w pobliżu zostają zniszczone."
+			},
+			"ru": {
+				"name": "Feast of Souls",
+				"description": "Заклинание. Уничтожает всех союзных духов поблизости. За каждого духа, уничтоженного с помощью этого умения, все члены вашего отряда исцеляются на 50...100 ед. здоровья.",
+				"concise": "Заклинание. Исцеляет всех членов отряда на 50...100 ед. здоровья за каждого союзного духа поблизости. Все союзные духи поблизости будут уничтожены."
+			},
+			"bork": {
+				"name": "Feaest ooff Suools",
+				"description": "Spell. Destruy aell neaerby aelleees' spureets. Fur iaech spureet destruyed in thees vaey, aell paerty members aere-a heaeled fur 50...100 Heaelt.",
+				"concise": "Spell. Heaels aell paerty members fur 50...100 fur iaech neaerby aelleeed spureet. Aell neaerby aelleeed spureets aere-a destruyed."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狐牙刺杀",
+				"description": "副手技。 此技能必须接续在「起手技」之后使用。对目标造成10...35点额外伤害，狐牙刺杀无法被格挡。",
+				"concise": "副手技。 此技能必须接续在「起手技」之后使用。对目标造成10...35点额外伤害，狐牙刺杀无法被格挡。"
+			},
+			"cht": {
+				"name": "狐狸尖牙",
+				"description": "即刻攻擊： 必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 10...35 額外傷害。",
+				"concise": "即刻攻擊： 必須接續在「引導攻擊」之後。狐狸尖牙無法被「格擋」且在命中時對目標造成 10...35 額外傷害。"
+			},
 			"de": {
+				"name": "Reißzähne des Fuchses",
+				"description": "Begleithandangriff. Muss einem Leithandangriff folgen. Reißzähne des Fuchses kann nicht geblockt werden und fügt bei einem Treffer +10...35 Punkt[e] Schaden zu.",
+				"concise": "Begleithandangriff. Richtet +10...35 Punkt[e] Schaden an. Kann nicht geblockt werden. Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Reißzähne des Fuchses",
 				"description": "Muss einem Leithandangriff folgen. Reißzähne des Fuchses kann nicht geblockt werden und fügt bei einem Treffer +10...35 Punkte Schaden zu.",
 				"concise": "Richtet +10...35 Punkte Schaden an. Kann nicht geblockt werden. <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Fox Fangs",
+				"description": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...35 damage if it hits.",
+				"concise": "Off-Hand Attack. Deals +10...35 damage. Unblockable. Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Fox Fangs",
 				"description": "Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...35 damage if it hits.",
 				"concise": "Deals +10...35 damage. Unblockable. <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Colmillos de zorro",
+				"description": "Ataque complementario. Debe ir precedido de un ataque inicial. Los colmillos no pueden bloquearse y hacen +10...35 si impactan.",
+				"concise": "Ataque complementario. Hace +10...35 de daño. No se puede bloquear. Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Crocs du renard",
+				"description": "Attaque main gauche. Doit succéder une attaque main droite. Crocs du renard ne peut pas être bloqué et inflige +10...35 points de dégâts si l'attaque réussit.",
+				"concise": "Attaque main gauche. Inflige +10...35 points de dégâts. Impossible à bloquer. Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Crocs du renard",
 				"description": "Doit succéder une attaque main droite. Crocs du renard ne peut pas être bloqué et inflige +10...35 points de dégâts si l'attaque réussit.",
 				"concise": "Inflige +10...35 points de dégâts. Impossible à bloquer. <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Denti di Volpe",
+				"description": "Attacco con Arma Secondaria. Deve seguire un attacco con arma primaria. I Denti di Volpe non possono essere bloccati e, se vanno a segno, infliggono +10...35 danno[i].",
+				"concise": "Attacco con Arma Secondaria. Danni inferti: +10...35. Non bloccabile. Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "フォックス ファング",
+				"description": "オフハンド アタック： このスキルは、リード アタックの次に使用します。このスキルはブロックされることがなく、攻撃が成功すると 10...35 の追加ダメージを与えます。",
+				"concise": "オフハンド アタック： 10...35 の追加ダメージを与えます。この攻撃はブロックされません。このスキルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "여우 발톱",
+				"description": "보조 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 10...35의 대미지를 추가로 줍니다. 이 공격은 막을 수 없습니다.",
+				"concise": "보조 공격. 10...35의 대미지를 추가로 줍니다. 이 공격은 막을 수 없습니다. 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Lisie Kły",
+				"description": "Atak drugą ręką. Musi nastąpić po ataku poprzedzającym. Lisie Kły nie mogą zostać zablokowane i zadają +10...35 pkt. obrażeń, jeżeli trafią.",
+				"concise": "Atak drugą ręką. Zadaje +10...35 pkt. obrażeń. Nie do zablokowania. Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Fox Fangs",
+				"description": "Атака второй рукой. Должен следовать за ведущей атакой. Fox Fangs нельзя блокировать, а сам удар наносит дополнительно 10...35 ед. урона, если попадает в цель.",
+				"concise": "Атака второй рукой. Наносит дополнительно 10...35 ед. урона. Нельзя блокировать. Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Fux Fungs",
+				"description": "Ooffff-Hund Aettaeck. Moost fulloo a leaed aettaeck. Fux Fungs cunnut be-a blucked und streekes fur +10...35 daemaege-a iff it heets. Bork! Bork! Bork!",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +10...35 daemaege-a. Unbluckaeble-a. Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

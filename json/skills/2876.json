@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "防护圣歌",
+				"description": "精英圣歌。 在4...10秒之内，使「音波」范围内每一位队友有50%的几率格挡敌人的攻击。当队友使用攻击技能击中敌人时，此「圣歌」的效果消失。",
+				"concise": "精英圣歌。 在4...10秒之内，使「音波」范围内每一位队友有50%的几率格挡敌人的攻击。当队友使用攻击技能击中敌人时，此「圣歌」的效果消失。"
+			},
+			"cht": {
+				"name": "防禦聖歌",
+				"description": "精英聖歌： 持續 4...10 秒，在音量所及範圍內的每一位隊伍成員，有 50% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。",
+				"concise": "精英聖歌： 持續 4...10 秒，在音量所及範圍內的每一位隊伍成員，有 50% 機會「格擋」敵人的攻擊，直到他們利用攻擊技能擊中對手。"
+			},
 			"de": {
+				"name": "Verteidigungshymne (PvP)",
+				"description": "Elite-Anfeuerungsruf. 4...10 Sekunde[n] lang hat jedes Gruppenmitglied in Hörweite eine 50%ige Chance, Angriffe zu blocken. Dieser Anfeuerungsruf endet, wenn das Gruppenmitglied mit einer Angriffsfertigkeit trifft.",
+				"concise": "Elite-Anfeuerungsruf. 4...10 Sekunde[n]: Gruppenmitglieder in Hörweite haben eine 50%ige Chance zu blocken. Endet bei einem Treffer mit einer Angriffsfertigkeit."
+			},
+			"de-guildwiki": {
 				"name": "Verteidigungshymne (PvP)",
 				"description": "4...10 Sekunden lang hat jedes Gruppenmitglied in Hörweite eine 50%ige Chance, Angriffe zu blocken. Dieser Anfeuerungsruf endet, wenn das Gruppenmitglied mit einer Angriffsfertigkeit trifft.",
 				"concise": "4...10 Sekunden: Gruppenmitglieder in Hörweite haben eine 50%ige Chance zu blocken. <gray>Endet bei einem Treffer mit einer Angriffsfertigkeit</gray>"
 			},
 			"en": {
 				"name": "Defensive Anthem (PvP)",
+				"description": "Elite Chant. For 4...10 seconds, each party member within earshot has a 50% chance to block incoming attacks. This chant ends if that party member hits with an attack skill.",
+				"concise": "Elite Chant. (4...10 seconds.) Party members in earshot have 50% chance to block. Ends when hitting with an attack skill."
+			},
+			"en-gww": {
+				"name": "Defensive Anthem (PvP)",
 				"description": "For 4...10 seconds, each party member within earshot has a 50% chance to block incoming attacks. This chant ends if that party member hits with an attack skill.",
 				"concise": "(4...10 seconds.) Party members in earshot have 50% chance to block. <gray>Ends when hitting with an attack skill.</gray>"
 			},
+			"es": {
+				"name": "Himno defensivo (PvP)",
+				"description": "Cántico de élite. Durante 4...10 segundos, todos los miembros del grupo al alcance del oído tienen un 50% de posibilidades de bloquear ataques. Este cántico acaba si el miembro del grupo consigue golpear con una habilidad de ataque.",
+				"concise": "Cántico de élite. (4...10 segundos). Los miembros del grupo al alcance del oído tienen un 50% de probabilidades de bloquear. Acaba al usar con éxito una habilidad de ataque."
+			},
 			"fr": {
+				"name": "Hymne défensif (PvP)",
+				"description": "Chant d'élite. Pendant 4...10 secondes, chaque membre du groupe à portée de voix a 50% de chances de bloquer les attaques qui lui sont lancées. Ce chant prend fin si cet allié frappe avec une compétence d'attaque.",
+				"concise": "Chant d'élite. (4...10 secondes.) Les membres du groupe à portée de voix ont 50% de chances de bloquer. Prend fin quand votre compétence d'attaque réussit."
+			},
+			"fr-gwiki": {
 				"name": "Hymne défensif (PvP)",
 				"description": "Pendant 4...10 secondes, chaque membre du groupe à portée de voix a 50% de chances de bloquer les attaques qui lui sont lancées. Ce chant prend fin si cet allié frappe avec une compétence d'attaque.",
 				"concise": "(4...10 secondes.) Les membres du groupe à portée de voix ont 50% de chances de bloquer."
+			},
+			"it": {
+				"name": "Inno Difensivo (PvP)",
+				"description": "Canto d'Élite. Per 4...10 secondo[i], ogni membro della squadra a portata d'orecchio ha un 50% di probabilità di bloccare gli attacchi in arrivo. Questo canto termina se il compagno di squadra mette a segno un'abilità d'attacco.",
+				"concise": "Canto d'Élite. (Secondi: 4...10) Probabilità di bloccare dei membri della squadra a portata d'orecchio: 50%. Termina se colpisci con un'abilità d'attacco."
+			},
+			"jp": {
+				"name": "ディフェンシブ アンセム (PvP)",
+				"description": "エリート チャント： 4...10 秒間、声の届く範囲内にいる各パーティー メンバーは 50% の確率で攻撃をブロックできます。メンバーはそれぞれ、アタック スキルによる攻撃が成功するとこの効果が消失します。",
+				"concise": "エリート チャント： (4...10 秒) 声の届く範囲内にいるパーティー メンバーは 50% の確率で攻撃をブロックします。アタック スキルが成功すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "방어의 성가(대인전)",
+				"description": "엘리트 영창. 대상 지정: 없음. 4...10초 동안 가청 범위 내에 있는 아군은 50%의 확률로 공격을 막아 냅니다. 공격이 성공한 아군은 이 성가의 효과를 잃습니다.",
+				"concise": "엘리트 영창. (4...10초) 가청 범위 내에 있는 파티원들이 50%의 확률로 공격을 막아 냅니다. 공격 스킬이 성공한 파티원은 이 성가의 효과를 잃습니다."
+			},
+			"pl": {
+				"name": "Obronny Hymn (PvP)",
+				"description": "Elitarny zaśpiew. Przez 4...10 sek. każdy członek drużyny w zasięgu słuchu ma 50% szans na blokowanie ataków. Zaśpiew przestanie działać, kiedy członek drużyny trafi używając umiejętności związanej z atakami.",
+				"concise": "Elitarny zaśpiew. (4...10 sek.) Członkowie drużyny w zasięgu słuchu mają 50% szans na blokowanie. Przestanie działać, kiedy trafi umiejętność związana z atakiem."
+			},
+			"ru": {
+				"name": "Defensive Anthem (PvP)",
+				"description": "Элитный хорал. В течение 4...10 сек каждый член вашего отряда в зоне слышимости получает 50%-й шанс блокировать направленные против него атаки. Этот хорал прекращает действовать на союзника, который успешно применил атакующее умение.",
+				"concise": "Элитный хорал. (4...10 сек) Члены отряда в зоне слышимости получают 50%-й шанс блокировать атаки. Заканчивается при успешном использовании атакующего умения."
+			},
+			"bork": {
+				"name": "Deffenseefe-a Unzeem (PfP)",
+				"description": "Ileete-a Chunt. Fur 4...10 secunds, iaech paerty member veetheen iaershut haes a 50% chunce-a tu bluck incumeeng aettaecks. Thees chunt inds iff thaet paerty member heets veet un aettaeck skeell.",
+				"concise": "Ileete-a Chunt. (4...10 secunds.) Paerty members in iaershut haefe-a 50% chunce-a tu bluck. Inds vhee heetteeng veet un aettaeck skeell."
 			}
 		}
 	}

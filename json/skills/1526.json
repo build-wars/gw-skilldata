@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命灌注",
+				"description": "咒文。 用你当前生命值的5...50%来治疗目标盟友。（最多可以治疗300点生命值）",
+				"concise": "咒文。 用你当前生命值的5...50%来治疗目标盟友。（最多可以治疗300点生命值）"
+			},
+			"cht": {
+				"name": "灌注體力",
+				"description": "咒文魔法： 使目標其他盟友獲得你目前體力值 5...50% 的體力治癒。(最多 300 體力)",
+				"concise": "咒文魔法： 使目標其他盟友獲得你目前體力值 5...50% 的體力治癒。(最多 300 體力)"
+			},
 			"de": {
+				"name": "Mit Leben durchdringen",
+				"description": "Zauber. Der Verbündete wird um 5...50% Eurer aktuellen Lebenspunkte (maximal 300 Lebenspunkt[e]) geheilt.",
+				"concise": "Zauber. Heilt um 5...50% Eurer aktuellen Lebenspunkte (maximal 300 Punkt[e]). Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Mit Leben durchdringen",
 				"description": "Der Verbündete wird um 5...50% Eurer aktuellen Lebenspunkte (maximal 300 Lebenspunkte) geheilt.",
 				"concise": "Heilt um 5...50% Eurer aktuellen Lebenspunkte (maximal 300 Punkte). <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Imbue Health",
+				"description": "Spell. Target other ally is healed for 5...50% of your current Health (maximum 300 Health).",
+				"concise": "Spell. Heals for 5...50% of your current Health (maximum 300). Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Imbue Health",
 				"description": "Target other ally is healed for 5...50% of your current Health (maximum 300 Health).",
 				"concise": "Heals for 5...50% of your current Health (maximum 300). <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Imbuir salud",
+				"description": "Conjuro. Curas al aliado objetivo un 5...50% de tu salud actual (300 de salud como máximo).",
+				"concise": "Conjuro. Cura el 5...50% de tu salud actual (máximo 300). No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Santé imprégnée",
+				"description": "Sort. L'allié visé est soigné de 5...50% de votre santé actuelle (maximum 300 points de vie).",
+				"concise": "Sort. Soigne de 5...50% de votre santé actuelle (maximum : 300). Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Santé imprégnée",
 				"description": "L'allié visé est soigné de 5...50% de votre santé actuelle (maximum 300 points de vie).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Instilla Salute",
+				"description": "Magia. L'obiettivo alleato viene curato del 5...50% della tua Salute attuale (max. 300 Punto[i] Salute).",
+				"concise": "Magia. Cura di un 5...50% della tua Salute attuale (max 300). Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "インビュー ヘルス",
+				"description": "スペル： ターゲットした自分以外の味方の体力を、現在の自分の 5...50% 分回復させます (最大 300 の体力) 。",
+				"concise": "スペル： プレイヤーの体力の 5...50% を回復します (最大 300の体力) 。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "체력 고취",
+				"description": "마법. 대상 지정: 아군. 자신의 남은 체력의 5...50%만큼 대상의 체력을 회복시킵니다. 최대 300의 체력을 회복시키며, 이 스킬은 자신에게 사용할 수 없습니다.",
+				"concise": "마법. 자신의 현재 체력의 5...50%만큼 대상의 체력을 회복시킵니다.(최대 300의 체력) 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Nasycenie Życiem",
+				"description": "Czar. Wybrany sojusznik inny niż ty otrzymuje 5...50% twojej aktualnej żywotności (maksymalnie 300 pkt. żywotności).",
+				"concise": "Czar. Dodaje 5...50% twojej aktualnej żywotności (maksymalnie 300). Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Imbue Health",
+				"description": "Заклинание. Выбранный союзник (но не вы) исцеляется на 5...50% от вашего текущего запаса здоровья (максимум на 300 ед. здоровья).",
+				"concise": "Заклинание. Исцеляет на 5...50% от вашего текущего запаса здоровья (но не более, чем на 300 ед. здоровья). Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Imbooe-a Heaelt",
+				"description": "Spell. Taerget oozeer aelly is heaeled fur 5...50% ooff yuoor coorrent Heaelt (maexeemoom 300 Heaelt).",
+				"concise": "Spell. Heaels fur 5...50% ooff yuoor coorrent Heaelt (maexeemoom 300). Cunnut selff-taerget."
 			}
 		}
 	}

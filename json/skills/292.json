@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命鼓舞",
+				"description": "咒文。 你失去目前生命的一半，以你损失生命的100...136%来治疗目标队友。",
+				"concise": "咒文。 你失去目前生命的一半，以你损失生命的100...136%治疗目标队友。"
+			},
+			"cht": {
+				"name": "生之禮讚",
+				"description": "咒文魔法： 你失去目前體力的一半，並且以你損失體力的 100...136% 治癒目標其他盟友。",
+				"concise": "咒文魔法： 你失去目前體力的一半，並且以你損失體力的 100...136% 治癒目標其他盟友。"
+			},
 			"de": {
+				"name": "Leben einflößen",
+				"description": "Zauber. Ihr verliert die Hälfte Eurer aktuellen Lebenspunkte. Der Verbündete wird um 100...136% der Punkte geheilt, die Ihr verloren habt.",
+				"concise": "Zauber. Heilt um 100...136% der Hälfte Eurer aktuellen Lebenspunkte. Ihr verliert die Hälfte Eurer aktuellen Lebenspunkte. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Leben einflößen",
 				"description": "Ihr verliert die Hälfte Eurer aktuellen Lebenspunkte. Der Verbündete wird um 100...136% der Punkte geheilt, die Ihr verloren habt.",
 				"concise": "Heilt um 100...136% der Hälfte Eurer aktuellen Lebenspunkte. <gray>Ihr verliert die Hälfte Eurer aktuellen Lebenspunkte. Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Infuse Health",
+				"description": "Spell. Lose half your current Health. Target other ally is healed for 100...136% of the amount you lost.",
+				"concise": "Spell. Heals for 100...136% of half your current Health. Lose half your current Health. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Infuse Health",
 				"description": "Lose half your current Health. Target other ally is healed for 100...136% of the amount you lost.",
 				"concise": "Heals for 100...136% of half your current Health. <gray>Lose half your current Health. Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Infundir salud",
+				"description": "Conjuro. Pierdes la mitad de tu salud actual. El aliado objetivo se cura el 100...136% de la cantidad que hayas perdido.",
+				"concise": "Conjuro. Cura el 100...136% de la mitad de tu salud actual. Pierdes la mitad de tu salud actual. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Transfert de santé",
+				"description": "Sort. Vous perdez la moitié de vos points de vie. L'allié visé est soigné de 100...136% des points de vie perdus.",
+				"concise": "Sort. Soigne de 100...136% de votre santé actuelle divisée par deux. Vous perdez la moitié de vos points de vie actuels. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Transfert de santé",
 				"description": "Vous perdez la moitié de vos points de vie. L'allié visé est soigné de 100...136% des points de vie perdus.",
 				"concise": "Soigne de 100...136% de votre santé actuelle divisée par deux. Vous perdez la moitié de vos points de vie actuels. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"it": {
+				"name": "Infondi Salute",
+				"description": "Magia. Perdi metà della tua Salute. L'alleato viene curato del 100...136% della quantità da te persa.",
+				"concise": "Magia. Cura di un 100...136% della metà della tua Salute attuale. Perdi metà della tua Salute attuale. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "インフューズ ヘルス",
+				"description": "スペル： 現在の体力の半分を失います。ターゲットした自分以外の味方は、プレイヤーが失った体力の 100...136% 回復します。",
+				"concise": "スペル： プレイヤーの現在の体力の半分に対して 100...136% の体力を回復します。プレイヤーは体力を半分失います。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "고귀한 나눔",
+				"description": "마법. 대상 지정: 아군. 자신의 체력을 절반으로 줄여 소모한 체력의 100...136%만큼 대상의 체력을 회복시킵니다.",
+				"concise": "마법. 자신의 체력 절반의 100...136%만큼 대상의 체력을 회복시킵니다. 체력의 절반을 소모합니다. 자신에게 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Podarowanie Żywotności",
+				"description": "Czar. Tracisz połowę aktualnej liczby pkt. żywotności. Wybrany sojusznik inny niż ty otrzymuje 100...136% pkt., które ty straciłeś.",
+				"concise": "Czar. Dodaje 100...136% połowy twojej aktualnej żywotności. Tracisz połowę aktualnej żywotności. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Infuse Health",
+				"description": "Заклинание. Вы теряете половину вашего текущего запаса здоровья. Выбранный союзник (но не вы) исцеляется при этом на 100...136% от того количества здоровья, которое вы потеряли.",
+				"concise": "Заклинание. Исцеляет на 100...136% от половины вашего текущего запаса здоровья. Вы теряете половину вашего текущего здоровья. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Inffoose-a Heaelt",
+				"description": "Spell. Luse-a haelff yuoor coorrent Heaelt. Taerget oozeer aelly is heaeled fur 100...136% ooff zee aemuoont yuoo lust.",
+				"concise": "Spell. Heaels fur 100...136% ooff haelff yuoor coorrent Heaelt. Luse-a haelff yuoor coorrent Heaelt. Cunnut selff-taerget."
 			}
 		}
 	}

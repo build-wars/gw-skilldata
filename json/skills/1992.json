@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Signet of Distraction",
+				"description": "纹章。 If target foe is casting a spell, that spell is interrupted and disabled for 1...5 seconds for each signet you have equipped.",
+				"concise": "纹章。 Interrupts a spell. Interruption effect: target foe's spell is disabled for 1...5 seconds for each signet you have equipped."
+			},
+			"cht": {
+				"name": "錯亂紋章",
+				"description": "紋章： 使目標敵人施展魔法時，該魔法將被中斷，同時依照每一個你所裝備的紋章型技能，該技能則無法使用 1...5 秒。",
+				"concise": "紋章： 使目標敵人施展魔法時，該魔法將被中斷，同時依照每一個你所裝備的紋章型技能，該技能則無法使用 1...5 秒。"
+			},
 			"de": {
+				"name": "Siegel der Ablenkung",
+				"description": "Siegel. Falls der Gegner einen Zauber wirkt, wird dieser unterbrochen und pro Siegel, das Ihr ausgerüstet habt, 1...5 Sekunde[n] lang deaktiviert.",
+				"concise": "Siegel. Unterbricht einen Zauber. Unterbrechungswirkung: Der Zauber des Gegners wird deaktiviert (1...5 Sekunde[n] für jedes Siegel, das Ihr ausgerüstet habt)."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Ablenkung",
 				"description": "Falls der Gegner einen Zauber wirkt, wird dieser unterbrochen und pro Siegel, das Ihr ausgerüstet habt, 1...5 Sekunden lang deaktiviert.",
 				"concise": "Unterbricht einen Zauber. Unterbrechungswirkung: Der Zauber des Gegners wird deaktiviert (1...5 Sekunden für jedes Siegel, das Ihr ausgerüstet habt)."
 			},
 			"en": {
 				"name": "Signet of Distraction",
+				"description": "Signet. If target foe is casting a spell, that spell is interrupted and disabled for 1...5 seconds for each signet you have equipped.",
+				"concise": "Signet. Interrupts a spell. Interruption effect: target foe's spell is disabled for 1...5 seconds for each signet you have equipped."
+			},
+			"en-gww": {
+				"name": "Signet of Distraction",
 				"description": "If target foe is casting a spell, that spell is interrupted and disabled for 1...5 seconds for each signet you have equipped.",
 				"concise": "Interrupts a spell. Interruption effect: target foe's spell is disabled for 1...5 seconds for each signet you have equipped."
 			},
+			"es": {
+				"name": "Sello de distracción",
+				"description": "Sello. Si el enemigo objetivo está lanzando un conjuro, éste se interrumpirá y estará desactivado durante 1...5 segundos por cada sello que lleves.",
+				"concise": "Sello. Interrumpe un conjuro. Efecto de interrupción: el conjuro del enemigo objetivo queda desactivado durante 1...5 segundos por cada sello que lleves."
+			},
 			"fr": {
+				"name": "Sceau de distraction",
+				"description": "Sceau. Si l'ennemi visé est en train de lancer un sort, celui-ci est interrompu et désactivé pendant 1...5 secondes pour chaque sceau dont vous êtes équipé.",
+				"concise": "Sceau. Interrompt un sort. Effet de l'interruption : le sort de l'ennemi visé est désactivé 1...5 secondes par sceau dont vous êtes équipé[f:\"équipée\"]."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de distraction",
 				"description": "Si l'ennemi visé est en train de lancer un sort, ce sort est interrompu et désactivé pendant 1...5 secondes pour chaque sceau dont vous êtes équipé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Distrazione",
+				"description": "Sigillo. Se l'obiettivo nemico sta lanciando una magia, viene interrotta e disattivata per 1...5 secondi per ogni Sigillo equipaggiato.",
+				"concise": "Sigillo. Interrompe una magia. Effetto dell'interruzione: la magia dell'obiettivo nemico viene disattivata per 1...5 secondi per ogni Sigillo equipaggiato."
+			},
+			"jp": {
+				"name": "ディストラクション シグネット",
+				"description": "シグネット： ターゲットした敵がスペルを詠唱している場合、そのスペルを中断します。そのスペルは、プレイヤーが装備しているシグネットごとに再使用時間が 1...5 秒増加します。",
+				"concise": "シグネット： スペルを中断します。中断効果：プレイヤーが装備しているシグネットごとに、中断したスペルの再使用時間が 1...5 秒増加します。"
+			},
+			"kr": {
+				"name": "방심 인장",
+				"description": "인장. 대상 지정: 적. 대상이 마법을 시전 중이라면 그 시전을 방해하고, 추가로 시전자가 등록한 인장 스킬 하나당 1...5초씩 그 마법을 사용할 수 없게 합니다.",
+				"concise": "인장. 마법을 방해합니다. 방해 효과: 당신이 등록한 인장 스킬 하나당 1...5초씩 그 마법을 사용할 수 없게 합니다."
+			},
+			"pl": {
+				"name": "Sygnet Rozproszenia",
+				"description": "Sygnet. Jeżeli cel rzuca czar, zostaje on przerwany i zablokowany na 1...5 sek. za każdy założony sygnet.",
+				"concise": "Sygnet. Przerywa działanie czaru. Efekt przerwania: czar przeciwnika zostaje zablokowany na 1...5 sek. za każdy założony sygnet."
+			},
+			"ru": {
+				"name": "Signet of Distraction",
+				"description": "Печать. Если выбранный противник произносит какое-либо заклинание, это заклинание будет прервано и станет недоступным дополнительно на 1...5 сек за каждую имеющуюся у вас с собой печать.",
+				"concise": "Печать. Прерывает заклинание. Эффект прерывания: заклинание выбранного противника будет недоступно дополнительно на 1...5 сек за каждую имеющуюся у вас с собой печать."
+			},
+			"bork": {
+				"name": "Seegnet ooff Deestraecshun",
+				"description": "Seegnet. Iff taerget fue-a is caesteeng a spell, thaet spell is interroopted und deesaebled fur 1...5 secunds fur iaech seegnet yuoo haefe-a iqooeepped.",
+				"concise": "Seegnet. Interroopts a spell. Interroopshun iffffect: taerget fue-a's spell is deesaebled fur 1...5 secunds fur iaech seegnet yuoo haefe-a iqooeepped."
 			}
 		}
 	}

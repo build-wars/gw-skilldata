@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻境之痛",
+				"description": "负面魔法。 For 8 seconds, target foe has -3...10 Health degeneration and takes 3...10 damage each second. When Illusion of Pain ends, that foe is healed for 36...120.",
+				"concise": "负面魔法。 (8 seconds.) Causes -3...10 Health degeneration and target foe takes 3...10 damage each second. End effect: that foe is healed for 36...120."
+			},
+			"cht": {
+				"name": "苦痛幻覺",
+				"description": "降咒魔法： 持續8秒，目標敵人受到3...10體力衰減，每秒受到3...10傷害，結束時治療目標36...120體力。",
+				"concise": "降咒魔法： 持續8秒，目標敵人受到3...10體力衰減，每秒受到3...10傷害，結束時治療目標36...120體力。"
+			},
 			"de": {
+				"name": "Illusion der Schmerzen",
+				"description": "Verhexung. 8 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -3...10 und nimmt jede Sekunde 3...10 Punkte Schaden. Wenn Illusion der Schmerzen endet, wird der Gegner für 36...120 Lebenspunkt[e] geheilt.",
+				"concise": "Verhexung. (8 Sekunden.) Verursacht eine Lebenspunktdegeneration von -3...10 und der Gegner nimmt jede Sekunde 3...10 Punkte Schaden. Wirkung am Ende: Der Gegner wird für 36...120 Punkt[e] geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Illusion der Schmerzen",
 				"description": "8 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -3...10 und nimmt jede Sekunde 3...10 Punkte Schaden. Wenn \"Illusion der Schmerzen\" endet, wird der Gegner um 36...120 Lebenspunkte geheilt.",
 				"concise": "(8 Sekunden.) Verursacht eine Lebenspunktdegeneration von -3...10 und der Gegner nimmt jede Sekunde 3...10 Punkte Schaden. Wirkung am Ende: Der Gegner wird um 36...120 Punkte geheilt."
 			},
 			"en": {
 				"name": "Illusion of Pain",
+				"description": "Hex Spell. For 8 seconds, target foe has -3...10 Health degeneration and takes 3...10 damage each second. When Illusion of Pain ends, that foe is healed for 36...120.",
+				"concise": "Hex Spell. (8 seconds.) Causes -3...10 Health degeneration and target foe takes 3...10 damage each second. End effect: that foe is healed for 36...120."
+			},
+			"en-gww": {
+				"name": "Illusion of Pain",
 				"description": "For 8 seconds, target foe has -3...10 Health degeneration and takes 3...10 damage each second. When Illusion of Pain ends, that foe is healed for 36...120.",
 				"concise": "(8 seconds.) Causes -3...10 Health degeneration and target foe takes 3...10 damage each second. End effect: that foe is healed for 36...120."
 			},
+			"es": {
+				"name": "Ilusión de dolor",
+				"description": "Conjuro con maleficio. Durante 8 segundos, el enemigo objetivo sufre -3...10 de degeneración de salud y recibe 3...10 de daño por segundo. Cuando la Ilusión de dolor termine, el enemigo se cura 36...120 de salud.",
+				"concise": "Conjuro con maleficio. (8 segundos). Causa -3...10 de degeneración de salud y el enemigo objetivo recibe 3...10 de daño por segundo. Efecto final: el enemigo se cura 36...120 de salud."
+			},
 			"fr": {
+				"name": "Illusion de douleur",
+				"description": "Maléfice. Pendant 8 secondes, l'ennemi visé souffre d'une dégénération de santé de -3...10 et subit 3...10 points de dégâts par seconde. Quand l'Illusion de douleur prend fin, cet ennemi est soigné de 36...120 points de vie.",
+				"concise": "Maléfice. (8 secondes.) Provoque une dégénération de santé de -3...10 et l'ennemi visé subit 3...10 points de dégâts toutes les secondes. Effet final : cet ennemi est soigné de 36...120 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Illusion de douleur",
 				"description": "Pendant 8 secondes, l'ennemi visé souffre d'une dégénération de santé de -3...10 et subit 3...10 points de dégâts toutes les secondes. Au bout de 10 secondes, l'ennemi visé est soigné de 36...120 points de vie.",
 				"concise": "(10 secondes.) Provoque une dégénération de santé de -3...10 et l'ennemi visé subit 3...10 points de dégâts toutes les secondes. Au bout de 10 secondes l'ennemi visé est soigné de 36...120 point de vie."
+			},
+			"it": {
+				"name": "Illusione del Dolore",
+				"description": "Fattura. Per 8 secondi l'obiettivo nemico subisce una Degenerazione Salute di -3...10 e subisce 3...10 danno[i] al secondo. Quando l'effetto di Illusione del Dolore svanisce, il nemico viene curato di 36...120 Punto[i] Salute.",
+				"concise": "Fattura. (Secondi: 8). Degenerazione Salute causata: -3...10. Danno[i] al secondo subiti dall'obiettivo nemico: 3...10. Effetto al termine: il nemico viene curato di 36...120 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "ペイン イリュージョン",
+				"description": "弱体化スペル： 8 秒間、ターゲットした敵は体力の自然回復力が 3...10 減少し、毎秒 3...10 のダメージを受けます。この効果が消失すると、その敵は体力が 36...120 回復します。",
+				"concise": "弱体化スペル： (8 秒) ターゲットした敵は体力の自然回復力が 3...10 減少し、毎秒 3...10 のダメージを受けます。終了効果： その敵は体力が 36...120 回復します。"
+			},
+			"kr": {
+				"name": "고통의 착각",
+				"description": "약화 마법. 대상 지정: 적. 8초 동안 대상의 체력 재생이 3...10만큼 감소하고, 매초 3...10의 대미지를 입습니다. 효과가 끝나면 대상의 체력이 36...120만큼 회복됩니다.",
+				"concise": "약화 마법. (8초) 체력 재생을 3...10만큼 감소시키고, 매초 3...10의 대미지를 줍니다. 종료 효과: 대상은 36...120의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Iluzja Bólu",
+				"description": "Klątwa (czar). Przez 8 sek., wybrany przeciwnik ma degenerację żywotności -3...10 oraz otrzymuje co sekundę 3...10 pkt. obrażeń. Kiedy Iluzja Bólu dobiega końca, wybrany przeciwnik odzyskuje 36...120 pkt. żywotności.",
+				"concise": "Klątwa (czar). (8 sek.) Powoduje degenerację żywotności -3...10 u wybranego przeciwnika, który dodatkowo otrzymuje co sekundę 3...10 pkt. obrażeń. Efekt końcowy: wybrany przeciwnik odzyskuje 36...120 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Illusion of Pain",
+				"description": "Заклинание-проклятье. В течение 8 сек скорость восстановления здоровья выбранного противника уменьшается на 3...10 ед., и он получает 3...10 ед. урона каждую секунду. Когда действие Illusion of Pain заканчивается, этот противник будет исцелен на 36...120 ед. здоровья.",
+				"concise": "Заклинание-проклятье. (8 сек) Уменьшает на 3...10 ед. скорость восстановления здоровья у цели, и выбранный противник получает 3...10 ед. урона каждую секунду. Эффект окончания: этот противник будет исцелен на 36...120 ед. здоровья."
+			},
+			"bork": {
+				"name": "Illooseeun ooff Paeeen",
+				"description": "Hex Spell. Fur 8 secunds, taerget fue-a haes -3...10 Heaelt degeneraeshun und taekes 3...10 daemaege-a iaech secund. Vhee Illooseeun ooff Paeeen inds, thaet fue-a is heaeled fur 36...120.",
+				"concise": "Hex Spell. (8 secunds.) Cooses -3...10 Heaelt degeneraeshun und taerget fue-a taekes 3...10 daemaege-a iaech secund. Ind iffffect: thaet fue-a is heaeled fur 36...120."
 			}
 		}
 	}

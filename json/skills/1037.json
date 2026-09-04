@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "脱逃",
+				"description": "姿态。 在5...15秒之内，你的移动速度提高 25%，受到的伤害减半。当你的攻击命中目标时，技能效果自动消失。",
+				"concise": "姿态。 在5...15秒之内，你的移动速度提高 25%，受到的伤害减半。当你的攻击命中目标时，技能效果自动消失。"
+			},
+			"cht": {
+				"name": "黑暗脫逃",
+				"description": "態勢： 持續 5...15 秒，你的移動速度增加 25% 並且受到的傷害減半。當你攻擊成功命中目標時，黑暗脫逃的效果終止。",
+				"concise": "態勢： 持續 5...15 秒，你的移動速度增加 25% 並且受到的傷害減半。當你攻擊成功命中目標時，黑暗脫逃的效果終止。"
+			},
 			"de": {
+				"name": "Dunkle Flucht",
+				"description": "Haltung. 5...15 Sekunde[n] lang bewegt Ihr Euch um 25% schneller und erleidet nur den halben Schaden. Dunkle Flucht endet, wenn Ihr mit einem Angriff erfolgreich trefft.",
+				"concise": "Haltung. 5...15 Sekunde[n]: Ihr bewegt Euch um 25% schneller und nehmt nur halben Schaden. Endet, wenn Ihr mit einem Angriff trefft."
+			},
+			"de-guildwiki": {
 				"name": "Dunkle Flucht",
 				"description": "5...15 Sekunden lang bewegt Ihr Euch um 25% schneller und erleidet nur den halben Schaden. Dunkle Flucht endet, wenn Ihr mit einem Angriff erfolgreich trefft.",
 				"concise": "5...15 Sekunden: Ihr bewegt Euch um 25% schneller und nehmt nur halben Schaden. <gray>Endet, wenn Ihr mit einem Angriff trefft.</gray>"
 			},
 			"en": {
 				"name": "Dark Escape",
+				"description": "Stance. For 5...15 seconds, you move 25% faster and take half damage. Dark Escape ends if you successfully hit with an attack.",
+				"concise": "Stance. (5...15 seconds.) You move 25% faster and take half damage. Ends if you hit with an attack."
+			},
+			"en-gww": {
+				"name": "Dark Escape",
 				"description": "For 5...15 seconds, you move 25% faster and take half damage. Dark Escape ends if you successfully hit with an attack.",
 				"concise": "(5...15 seconds.) You move 25% faster and take half damage. <gray>Ends if you hit with an attack.</gray>"
 			},
+			"es": {
+				"name": "Huida oscura",
+				"description": "Actitud. Durante 5...15 segundos, te mueves un 25% más deprisa y recibes la mitad de daño. La Huida oscura finaliza si atacas con éxito.",
+				"concise": "Actitud. (5...15 segundos). Te mueves un 25% más deprisa y recibes la mitad de daño. Acaba si atacas con éxito."
+			},
 			"fr": {
+				"name": "Echappatoire obscure",
+				"description": "Pose de combat. Pendant 5...15 secondes, vous vous déplacez 25% plus vite et subissez la moitié des dégâts. L'effet cesse si votre attaque inflige des dégâts.",
+				"concise": "Pose de combat. (5...15 secondes.) Vous vous déplacez 25% plus vite et subissez la moitié des dégâts. Prend fin si vous réussissez une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Echappatoire obscure",
 				"description": "Pendant 5...15 secondes, vous vous déplacez 25% plus vite et subissez la moitié des dégâts. L'effet cesse si votre attaque inflige des dégâts.",
 				"concise": "(5...15 secondes.) Vous vous déplacez 25% plus vite et subissez la moitié des dégâts. <gray>Prends fin si vous réussissez une attaque.</gray>"
+			},
+			"it": {
+				"name": "Fuga nell'Oscurità",
+				"description": "Posizione. Per 5...15 secondo[i], la tua velocità aumenta di un 25% e subisci la metà del danno. La Fuga nell'Oscurità termina se un tuo attacco va a segno.",
+				"concise": "Posizione. (Secondi: 5...15) Incremento tua velocità di movimento: 25%. Ricevi la metà dei danni. Termina se un tuo attacco va a segno."
+			},
+			"jp": {
+				"name": "ダーク エスケープ",
+				"description": "スタンス： 5...15 秒間、移動速度が 25% 増加し、受けるダメージが半減します。攻撃が成功すると、この効果は消失します。",
+				"concise": "スタンス： (5...15 秒) 移動速度が 25% 増加し、受けるダメージが半減します。攻撃に成功すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "은밀한 탈출",
+				"description": "자세. 대상 지정: 없음. 5...15초 동안 자신의 이동 속도가 25% 빨라지고 대미지를 절반만 입습니다. 자신의 공격이 성공하면 효과가 끝납니다.",
+				"concise": "자세. (5...15초) 이동 속도가 25% 빨라지고, 받는 대미지가 절반으로 감소합니다. 공격이 성공하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Mroczna Ucieczka",
+				"description": "Postawa. Przez 5...15 sek., poruszasz się 25% szybciej i otrzymujesz połowę obrażeń. Mroczna Ucieczka przestanie działać z twoim kolejnym trafionym atakiem.",
+				"concise": "Postawa. (5...15 sek.) Poruszasz się o 25% szybciej i otrzymujesz połowę obrażeń. Przestanie działać, jeśli twój atak trafi."
+			},
+			"ru": {
+				"name": "Dark Escape",
+				"description": "Стойка. В течение 5...15 сек вы двигаетесь на 25% быстрее и получаете в два раза меньше урона. Dark Escape заканчивает свое действие, если вы провели успешную атаку.",
+				"concise": "Стойка. (5...15 сек) Вы двигаетесь на 25% быстрее и получаете только половину урона. Заканчивается, если вы проводите успешную атаку."
+			},
+			"bork": {
+				"name": "Daerk Iscaepe-a",
+				"description": "Stunce-a. Fur 5...15 secunds, yuoo mufe-a 25% faester und taeke-a haelff daemaege-a. Daerk Iscaepe-a inds iff yuoo sooccessffoolly heet veet un aettaeck.",
+				"concise": "Stunce-a. (5...15 secunds.) Yuoo mufe-a 25% faester und taeke-a haelff daemaege-a. Inds iff yuoo heet veet un aettaeck."
 			}
 		}
 	}

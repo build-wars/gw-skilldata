@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "涡流光环",
+				"description": "增益魔法。 在3...7秒之内，使你格挡投掷性攻击的几率提高50%。",
+				"concise": "增益魔法。 在3...7秒之内，使你格挡投掷性攻击的几率提高50%。"
+			},
+			"cht": {
+				"name": "漩渦靈氣",
+				"description": "加持魔法： 持續 3...7 秒，漩渦靈氣使你有 50% 機率「格擋」投射性攻擊。",
+				"concise": "加持魔法： 持續 3...7 秒，漩渦靈氣使你有 50% 機率「格擋」投射性攻擊。"
+			},
 			"de": {
+				"name": "Wirbelnde Aura",
+				"description": "Verzauberung. Für 3...7 Sekunden seid Ihr mit Wirbelnde Aura verzaubert und habt 1...6 Lebenspunktregeneration und eine 50%ige Wahrscheinlichkeit, dass Geschosse geblockt werden. Wenn Ihr Überzaubert seid, wenn Ihr diesen zauber wirkt, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert.",
+				"concise": "Verzauberung. (3...7 Sekunden.) Ihr habt +1...6 Lebenspunktregeneration und eine 50%ige Chance, zu blocken. Wenn Überzaubert, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert."
+			},
+			"de-guildwiki": {
 				"name": "Wirbelnde Aura",
 				"description": "3...7 Sekunden lang seid Ihr mit Wirbelnde Aura verzaubert und habt +1...6 Lebenspunktregeneration und eine 50%ige Wahrscheinlichkeit, dass Geschosse geblockt werden. Wenn Ihr Überzaubert seid, wenn Ihr diesen Zauber wirkt, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert.",
 				"concise": "(3...7 Sekunden.) Ihr habt +1...6 Lebenspunktregeneration und eine 50%ige Chance, Geschosse zu blocken. Wenn Überzaubert, werden alle Gruppenmitglieder in Hörweite ebenfalls verzaubert."
 			},
 			"en": {
 				"name": "Swirling Aura",
+				"description": "Enchantment Spell. For 3...7 seconds, you are enchanted with Swirling Aura and have 1...6 Health regeneration and a 50% chance to block projectiles. If you are Overcast when you cast this spell, all party members in earshot are also enchanted.",
+				"concise": "Enchantment Spell. (3...7 seconds.) Gives 1...6 Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot."
+			},
+			"en-gww": {
+				"name": "Swirling Aura",
 				"description": "For 3...7 second[s], you are enchanted with Swirling Aura and have 1...6 Health regeneration and a 50% chance to block projectiles. If you are Overcast when you cast this spell, all party members in earshot are also enchanted.",
 				"concise": "(3...7 second[s].) Gives 1...6 Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot."
 			},
+			"es": {
+				"name": "Torbellino de aura",
+				"description": "Conjuro con encantamiento. Durante 3...7 segundos, quedas encantado con Torbellino de aura y tienes 1...6 de regeneración de salud y un 50% de probabilidad de bloquear proyectiles. Si estás sobrelanzando cuando lanzas este conjuro, todos los miembros del grupo que estén al alcance del oído quedan también afectados por el encantamiento.",
+				"concise": "Conjuro con encantamiento. (3...7 segundos.) Otorga 1...6 de regeneración de salud y un 50% de probabilidad de bloquear. Si estás sobrelanzando, también encanta a los miembros del grupo al alcance del oído."
+			},
 			"fr": {
+				"name": "Aura tourbillon",
+				"description": "Enchantement. Pendant 3...7 secondes, vous bénéficiez d'une régénération de santé de +1...6 et de 50% de chances de bloquer les attaques. Si vous êtes en état d'Afflux, tous les membres de votre équipe à portée de voix sont également sous l'effet de l'enchantement.",
+				"concise": "Enchantement. (3...7 secondes.) Confère une régénération de santé de +1...6 et 50% de chances de bloquer les projectiles. En état d'Afflux, enchante également les membres de votre équipe à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Aura tourbillon",
 				"description": "Pendant 3...7 vous bénéficiez d'une régénération de santé de + 1...6 et de 50% de chances de bloquer les attaques. Si vous êtes en état d'Afflux, tous les membres de votre équipe à portée de voix sont également sous l'effet de l'enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura Turbinante",
+				"description": "Incantesimo. Per 3...7 secondi subisci l'incantesimo Aura Turbinante e hai una rigenerazione Salute di 1...6 e il 50% di probabilità di bloccare i proiettili. Se sei sotto Sforzo quando lanci questo incantesimo, anche tutti gli altri membri della squadra a portata d'orecchio subiscono la magia.",
+				"concise": "Incantesimo. (Secondi: 3...7.) Rigenerazione della Salute: +1...6. Probabilità di blocco proiettili: 50%. Se sei sotto Sforzo, anche i membri della squadra a portata d'orecchio subiscono la magia."
+			},
+			"jp": {
+				"name": "スワール オーラ",
+				"description": "強化スペル： 3...7 秒間、体力の自然回復力が 1...6 増加し、50% の確率で遠投攻撃をブロックします。「疲労」状態でこのスペルを詠唱すると、声の届く範囲内にいるすべてのパーティー メンバーにもこの強化スペルがかかります。",
+				"concise": "強化スペル： (3...7 秒) 体力の自然回復力が 1...6 増加し、50% の確率で遠投攻撃をブロックします。「疲労」状態の場合、声の届く範囲内にいるパーティー メンバーにもこの効果が適用されます。"
+			},
+			"kr": {
+				"name": "소용돌이 장막",
+				"description": "강화 마법. 대상 지정: 없음. 3...7초 동안 소용돌이 장막 효과를 받아 체력 재생이 1...6, 발사체를 막을 확률이 50%가 됩니다. 자신이 탈진 상태면 가청 범위 내에 있는 파티원들에게도 효과를 줍니다.",
+				"concise": "강화 마법. (3...7초) 체력 재생이 1...6, 발사체를 막을 확률이 50%가 됩니다. 자신이 탈진 상태면 가청 범위 내에 있는 파티원들에게도 효과를 줍니다."
+			},
+			"pl": {
+				"name": "Wirująca Aura",
+				"description": "Zaklęcie (czar). Przez 3...7 sek. wzmacnia cię Wirująca Aura i otrzymujesz +1...6 regeneracji żywotności oraz masz 50% szansy na zablokowanie pocisków. Podczas Przemagicznienia rzucenie tego zaklęcia spowoduje, że wszyscy członkowie drużyny w zasięgu słuchu zostają wzmocnieni aurą.",
+				"concise": "Zaklęcie (czar). (3...7 sek.) Daje +1...6 regeneracji żywotności oraz 50% szansy na zablokowanie pocisków. Podczas Przemagicznienia wzmacnia wszystkich członków drużyny w zasięgu słuchu."
+			},
+			"ru": {
+				"name": "Swirling Aura",
+				"description": "Заклинание-чары. В течение 3...7 сек чары Swirling Aura увеличивают вашу скорость восстановления здоровья на 1...6 ед. и дают 50%-й шанс блокировать метательные снаряды. Если вы были утомлены при активации этого заклинания, все члены отряда в зоне слышимости получат такие чары.",
+				"concise": "Заклинание-чары. (3...7 сек) Дает +1...6 ед. к скорости восстановления здоровья и 50%-й шанс блокировать метательные снаряды. Если вы утомлены, эти чары будут также наложены на членов отряда в зоне слышимости."
+			},
+			"bork": {
+				"name": "Svurleeng Oora",
+				"description": "Inchuntment Spell. Fur 3...7 secunds, yuoo aere-a inchunted veet Svurleeng Oora und haefe-a 1...6 Heaelt regeneraeshun und a 50% chunce-a tu bluck prujecteeles. Iff yuoo aere-a Oofercaest vhee yuoo caest thees spell, aell paerty members in iaershut aere-a aelsu inchunted.",
+				"concise": "Inchuntment Spell. (3...7 secunds.) Geefes 1...6 Heaelt regeneraeshun und a 50% chunce-a tu bluck prujecteeles. Iff Oofercaest, aelsu inchunts paerty members in iaershut."
 			}
 		}
 	}

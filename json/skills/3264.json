@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 7,
 		"adrenaline_precise": 6.4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "双月轮舞",
+				"description": "近战技能。 驱散自己身上的一项「增益魔法」，驱散成功后，你将会攻击两次，并回复10...20点生命值。",
+				"concise": "近战技能。 驱散自己身上的一项「增益魔法」，驱散成功后，你将会攻击两次，并回复10...20点生命值。"
+			},
+			"cht": {
+				"name": "雙月掃蕩",
+				"description": "近身攻擊技能： 移除自身一項神喚使加持，獲得 10...20 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 10...30 體力。",
+				"concise": "近身攻擊技能： 移除自身一項神喚使加持，獲得 10...20 體力，若移除成功，此技能無法被格檔且你攻擊兩次，再獲得 10...30 體力。"
+			},
 			"de": {
+				"name": "Doppelter Mondschwung (PvP)",
+				"description": "Nahkampfangriff. Ihr verliert 1 Derwisch-Verzauberung und erhaltet 10...20 Lebenspunkt[e]. Wenn eine Verzauberung auf diese Weise entfernt wird, könnt Ihr nicht geblockt werden, trefft zweimal, wobei jeder Treffer 25% weniger Schaden als sonst zufügt, und erhaltet zusätzlich 10...30 Lebenspunkt[e].",
+				"concise": "Nahkampfangriff. Entfernt 1 Eurer Derwisch-Verzauberungen. Ihr erhaltet 10...20 Energiepunkt[e]. Entfernungseffekt: Unblockbar, zwei Angriffe mit je 25% weniger Schaden pro Treffer und 10...30 Lebenspunkt[e] zusätzlich."
+			},
+			"de-guildwiki": {
 				"name": "Doppelter Mondschwung (PvP)",
 				"description": "Ihr verliert 1 Derwisch-Verzauberung und erhaltet 10...20 Lebenspunkte. Wenn eine Verzauberung auf diese Weise entfernt wird, könnt ihr nicht geblockt werden, trefft zweimal, wobei jeder Treffer 25% weniger Schaden als sonst zufügt, und erhaltet zusätzlich 10...30 Lebenspunkte.",
 				"concise": "Entfernt 1 Eurer Derwisch-Verzauberung. Ihr erhaltet 10...20 Lebenspunkte. Entfernungseffekt: Unblockbar, zwei Angriffe mit je 25% weniger Schaden pro Treffer und 10...30 Lebenspunkte zusätzlich."
 			},
 			"en": {
 				"name": "Twin Moon Sweep (PvP)",
+				"description": "Melee Attack. You lose 1 Dervish enchantment and gain 10...20 Health. If an enchantment is lost in this way, you cannot be blocked, you strike twice, with each strike doing 25% less damage than normal, and you gain an additional 10...30 Health.",
+				"concise": "Melee Attack. Remove 1 of your Dervish enchantments. Gain 10...20 Health. Removal effect: unblockable, attack twice, each strike doing 25% less damage, and gain 10...30 more Health."
+			},
+			"en-gww": {
+				"name": "Twin Moon Sweep (PvP)",
 				"description": "You lose 1 Dervish enchantment and gain 10...20 Health. If an enchantment is lost in this way, you cannot be blocked, you strike twice, with each strike doing 25% less damage than normal, and you gain an additional 10...30 Health.",
 				"concise": "Remove 1 of your Dervish enchantments. Gain 10...20 Health. Removal effect: Unblockable, attack twice, each strike doing 25% less damage, and gain 10...30 more Health."
 			},
+			"es": {
+				"name": "Barrido de la doble luna (PvP)",
+				"description": "Ataque cuerpo a cuerpo. Pierdes un encantamiento de Derviche y ganas 10...20 de salud. Si se pierde un encantamiento de esta manera, tus ataques no se pueden bloquear, golpeas dos veces haciendo con cada golpe un 25% menos de daño de los normal y ganas 10...30 de salud adicional.",
+				"concise": "Ataque cuerpo a cuerpo. Elimina uno de tus encantamientos de Derviche. Ganas 10...20 de salud. Efecto de eliminación: no se puede bloquear, golpeas dos veces haciendo con cada golpe un 25% menos de daño de los normal y ganas 10...30 de salud adicional."
+			},
 			"fr": {
+				"name": "Fauchage des deux lunes (PvP)",
+				"description": "Attaque au corps à corps. Vous perdez un enchantement de Derviche et gagnez 10...20 points de vie. Si un enchantement est perdu de cette manière, vous ne pouvez pas être bloqué[f:\"bloquée\"], vous frappez à deux reprises (en infligeant à chaque fois 25% de dégâts de moins que la normale) et vous gagnez 10...30 points de vie supplémentaires.",
+				"concise": "Attaque au corps à corps. Supprime un de vos enchantements de Derviche. Vous bénéficiez de 10...20 points de vie. Effet de la levée : impossible à bloquer, double attaque à -25% de dégâts chacune, 10...30 points de vie supplémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Fauchage des deux lunes (PvP)",
 				"description": "Vous perdez un enchantement de Derviche et gagnez 10...20 points de vie. Si un enchantement est perdu de cette manière, vous à deux reprises (en infligeant à chaque fois 25% de dégâts de moins que la normale) et vous gagnez 10...30 points de vie supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falciata della Luna Gemella (PvP)",
+				"description": "Attacco Ravvicinato. Perdi 1 Incantesimo del Derviscio e ottieni 10...20 Punti Salute. Se un incantesimo è stato perso in questo modo, non puoi essere bloccato[f:\"bloccata\"], colpisci due volte (ogni colpo infligge il 25% di danni in meno del normale), e ottieni +10...30 Punti Salute.",
+				"concise": "Attacco Ravvicinato. Incantesimi del Derviscio rimossi: 1. Punti Salute ottenuti: 10...20. Effetto della rimozione: non bloccabile, attacco doppio, ogni colpo infligge il 25% di danni in meno e +10...30 Punti Salute."
+			},
+			"jp": {
+				"name": "ツイン ムーン スウィープ (PvP)",
+				"description": "メーレー アタック： かけられているダルウィーシュの強化スペルを1つ解除し、体力を 10...20 獲得します。この効果により強化スペルが解除されると攻撃がブロックされなくなり、1回の攻撃で2回ダメージを与えますが、与えるダメージは25%減少します。また、プレイヤーは 10...30 の体力を獲得します。",
+				"concise": "メーレー アタック： かけられているダルウィーシュの強化スペルを1個解除します。10...20 の体力を獲得します。解除効果：攻撃はブロックされなくなり、2回攻撃を行いますが与えるダメージは25%減少し、10...30 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "쌍둥이달 휘두름(대인전)",
+				"description": "근접 물리 공격. 대상 지정: 없음. 자신에게 걸린 더비시 강화 마법 하나를 무효화하고, 10...20의 체력을 얻습니다. 이렇게 강화 마법이 무효화되면 자신은 2번 공격을 하고, 10...30의 체력을 추가로 얻습니다. 각각의 공격 대미지는 일반 공격보다 25% 감소합니다. 이 공격은 막을 수 없습니다.",
+				"concise": "근접 물리 공격. 자신에게 걸린 더비시 강화 마법 하나를 무효화하고, 10...20의 체력을 얻습니다. 무효화 효과: 막을 수 없는 공격을 2번 하고, 10...30의 체력을 추가로 얻습니다. 각각의 공격 대미지는 일반 공격보다 25% 감소합니다."
+			},
+			"pl": {
+				"name": "Zamach Podwójnego Księżyca (PvP)",
+				"description": "Atak wręcz. Tracisz 1 zaklęcie derwisza i otrzymujesz 10...20 pkt. żywotności. Jeśli stracisz zaklęcie w ten sposób, nie można cię zablokować, atakujesz dwukrotnie, każdy twój cios zadaje 25% obrażeń mniej i otrzymujesz 10...30 pkt. żywotności.",
+				"concise": "Atak wręcz. Tracisz 1 z zaklęć derwisza. Otrzymujesz 10...20 pkt. żywotności. Efekt usunięcia: nieblokowalny, atakuje podwójnie, każdy atak każdy cios zadaje 25% obrażeń mniej i otrzymujesz 10...30 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Twin Moon Sweep (PvP)",
+				"description": "Рукопашная атака. Вы теряете одни чары профессии Dervish и получаете 10...20 ед. здоровья. Если чары были потеряны, вы не можете быть блокированы, вы наносите удар дважды, нанося при каждом ударе на 25% урона меньше, чем обычно, и получаете дополнительно 10...30 ед. здоровья.",
+				"concise": "Рукопашная атака. Снимает с вас одни чары профессии Dervish. Дает 10...20 ед. здоровья. Эффект снятия: вас нельзя блокировать, вы атакуете дважды, нанося при каждом ударе на 25% урона меньше, и получаете дополнительно 10...30 ед. здоровья."
+			},
+			"bork": {
+				"name": "Tveen Muun Sveep (PfP)",
+				"description": "Melee-a Aettaeck. Yuoo luse-a 1 Derfeesh inchuntment und gaeeen 10...20 Heaelt. Iff un inchuntment is lust in thees vaey, yuoo cunnut be-a blucked, yuoo streeke-a tveece-a, veet iaech streeke-a dueeng 25% less daemaege-a thun nurmael, und yuoo gaeeen un aeddeeshunael 10...30 Heaelt.",
+				"concise": "Melee-a Aettaeck. Remufe-a 1 ooff yuoor Derfeesh inchuntments. Gaeeen 10...20 Heaelt. Remufael iffffect: unbluckaeble-a, aettaeck tveece-a, iaech streeke-a dueeng 25% less daemaege-a, und gaeeen 10...30 mure-a Heaelt."
 			}
 		}
 	}

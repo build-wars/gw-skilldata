@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "钢铁之刃",
+				"description": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时根据你正在恢复中的「匕首技」数量来计算伤害， 每多一个，增加5...16点额外伤害。(一次最多增加60点伤害)",
+				"concise": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时根据你正在恢复中的「匕首技」数量来计算伤害， 每多一个，增加 5...16点 额外伤害。(最多统计 60个 匕首技)"
+			},
+			"cht": {
+				"name": "鋼鐵之刃",
+				"description": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時對目標的傷害依照回復中的「匕首攻擊技能」數量決定，每一項回復中的「匕首攻擊技能」增加 5...16 額外傷害。(一次最多增加 60 傷害)",
+				"concise": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時對目標的傷害依照回復中的「匕首攻擊技能」數量決定，每一項回復中的「匕首攻擊技能」增加 5...16 額外傷害。(一次最多增加 60 傷害)"
+			},
 			"de": {
+				"name": "Stahlklingen",
+				"description": "Doppelangriff. Muss einem Begleithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er für jeden wieder aufzuladenden Dolchangriff +5...16 Punkt[e] Schaden (maximaler Bonus 60) zu.",
+				"concise": "Doppelangriff. Richtet für jeden sich aufladenden Dolchangriff +5...16 Punkt[e] Schaden an (maximal 60). Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Stahlklingen",
 				"description": "Muss einem Begleithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er für jeden wieder aufzuladenen Dolch- und Nahkampfangriff +5...16 Punkte Schaden zu (maximaler Bonus 60).",
 				"concise": "Richtet für jeden sich aufladenden Dolch- und Nahkampfangriff +5...16 Punkte Schaden an (maximal 60). <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Blades of Steel",
+				"description": "Dual Attack. Must follow an off-hand attack. If it hits, this attack strikes for +5...16 damage (maximum bonus 60) for each recharging dagger attack.",
+				"concise": "Dual Attack. Deals +5...16 damage (maximum 60) for each recharging dagger attack. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Blades of Steel",
 				"description": "Must follow an off-hand attack. If it hits, this attack strikes for +5...16 damage (maximum bonus 60) for each recharging dagger attack.",
 				"concise": "Deals +5...16 damage (maximum 60) for each recharging dagger attack. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Filos de acero",
+				"description": "Ataque doble. Debe ir precedido de un \"ataque complementario\". Si impacta, este ataque hará +5...16 de daño (máximo 60 extra) por cada ataque con daga que se esté recargando.",
+				"concise": "Ataque doble. Hace +5...16 de daño (máximo 60) por cada ataque con daga que se esté recargando. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Lames d'acier",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main gauche. Si elle réussit, cette attaque inflige +5...16 points de dégâts (bonus maximum : 60) pour chaque attaque à la dague qui se recharge.",
+				"concise": "Attaque ambidextre. Inflige +5...16 points de dégâts (maximum : 60) pour chaque attaque à la dague qui se recharge. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Lames d'acier",
 				"description": "Doit succéder à une attaque main gauche. Si elle réussit, cette attaque inflige +5...16 points de dégâts (bonus maximum : 60) pour chaque attaque à la dague qui se recharge.",
 				"concise": "Inflige +5...16 points de dégâts (maximum : 60) pour chaque attaque à la dague qui se recharge. <gray>Doit succéder une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Lame d'Acciaio",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma secondaria. Se va a segno infligge +5...16 danno[i] (max. 60) per ogni attacco con pugnale che si sta ricaricando.",
+				"concise": "Attacco Doppio[_]. Assesta +5...16 danno[i] (max 60) per ogni attacco con pugnale che si sta ricaricando. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "スチール ブレード",
+				"description": "デュアル アタック： このスキルは、オフハンド アタックの次に使用します。攻撃が成功すると、再使用準備中のダガー アタックごとに 5...16 の追加ダメージを与えます (最大 60 のボーナス ダメージ)。",
+				"concise": "デュアル アタック： 再使用準備中のダガー アタックごとに 5...16 の追加ダメージを与えます (最大 60)。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "강철 칼날",
+				"description": "쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 재활성 중인 단검 공격 스킬 하나당 5...16의 대미지를 추가로 줍니다. 최대 추가 대미지는 60입니다.",
+				"concise": "쌍수 공격. 재활성 중인 단검 공격 스킬 하나당 5...16씩, 최대 60의 대미지를 추가로 줍니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Stalowe Ostrza",
+				"description": "Atak podwójny. Musi nastąpić po ataku drugą ręką. Jeśli atak trafi, zadajesz +5...16 pkt. obrażeń (maksymalnie 60) za każdy odnawiający się atak sztyletem.",
+				"concise": "Atak podwójny. Zadaje +5...16 pkt. obrażeń (maksymalnie 60) za każdy odnawiający się atak sztyletem. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Blades of Steel",
+				"description": "Двойная атака. Должен следовать за атакой второй рукой. Если удар попадает в цель, вы наносите дополнительно 5...16 ед. урона (максимум до 60 ед.) за каждую перезаряжающуюся в этот момент атаку кинжалом.",
+				"concise": "Двойная атака. Наносит дополнительно 5...16 ед. урона (но не более 60 ед.) за каждую перезаряжающуюся атаку кинжалом. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Blaedes ooff Steel",
+				"description": "Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, thees aettaeck streekes fur +5...16 daemaege-a (maexeemoom bunoos 60) fur iaech rechaergeeng daegger aettaeck.",
+				"concise": "Dooael Aettaeck. Deaels +5...16 daemaege-a (maexeemoom 60) fur iaech rechaergeeng daegger aettaeck. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

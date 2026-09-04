@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂怒之斧",
+				"description": "斧术。 命中时，对目标敌人造成5...35点额外伤害。如果此技能被格挡，你将获得等同于3次攻击所积累的怒气值。",
+				"concise": "斧术。 命中时，对目标敌人造成5...35点额外伤害。如果此技能被格挡，你将获得等同于3次攻击所积累的怒气值。"
+			},
+			"cht": {
+				"name": "狂怒之斧",
+				"description": "斧術攻擊技能： 命中時對目標造成 5...35 額外傷害。若此技能遭「格檔」，你獲得等同 3 次攻擊成功累積的怒氣值。",
+				"concise": "斧術攻擊技能： 命中時對目標造成 5...35 額外傷害。若此技能遭「格檔」，你獲得等同 3 次攻擊成功累積的怒氣值。"
+			},
 			"de": {
+				"name": "Zornige Axt",
+				"description": "Axtangriff. Wenn Zornige Axt erfolgreich ist, fügt Ihr +5...35 Punkt[e] Schaden zu. Wenn dieser Angriff geblockt wird, erhaltet Ihr 3 Adrenalinstöße.",
+				"concise": "Axtangriff. Richtet +5...35 Punkt[e] Schaden an. Ihr erhaltet 3 Adrenalinstöße, falls geblockt."
+			},
+			"de-guildwiki": {
 				"name": "Zornige Axt",
 				"description": "Wenn Zornige Axt erfolgreich ist, fügt Ihr +5...35 Punkte Schaden zu. Wenn dieser Angriff geblockt wird, erhaltet Ihr 3 Adrenalinstöße.",
 				"concise": "Richtet +5...35 Punkte Schaden an. Ihr erhaltet 3 Adrenalinstöße, falls geblockt."
 			},
 			"en": {
 				"name": "Furious Axe",
+				"description": "Axe Attack. If Furious Axe hits, you strike for +5...35 damage. If it is blocked you gain 3 strikes worth of adrenaline.",
+				"concise": "Axe Attack. Deals +5...35 damage. Gives you 3 strikes of adrenaline if blocked."
+			},
+			"en-gww": {
+				"name": "Furious Axe",
 				"description": "If Furious Axe hits, you strike for +5...35 damage. If it is blocked you gain 3 strikes worth of adrenaline.",
 				"concise": "Deals +5...35 damage. Gives you 3 strikes of adrenaline if blocked."
 			},
+			"es": {
+				"name": "Hacha furiosa",
+				"description": "Ataque con hacha. Si el Hacha furiosa impacta, harás +5...35 de daño. Si se bloquea el ataque, ganarás 3 de adrenalina.",
+				"concise": "Ataque con hacha. Hace +5...35 de daño. Te da 3 golpes de adrenalina si se bloquea."
+			},
 			"fr": {
+				"name": "Hache de rage",
+				"description": "Attaque à la hache. Si cette attaque réussit, elle inflige +5...35 points de dégâts. Si elle est bloquée, vous gagnez 3 décharges d'adrénaline.",
+				"concise": "Attaque à la hache. Inflige +5...35 points de dégâts. Vous gagnez 3 décharges d'adrénaline si elle est bloquée."
+			},
+			"fr-gwiki": {
 				"name": "Hache de rage",
 				"description": "Si cette attaque réussit, elle inflige +5...35 points de dégâts. Si elle est bloquée, vous gagnez 3 décharges d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ascia Furiosa",
+				"description": "Attacco con Ascia. Se va a segno, infliggi +5...35 danno[i]; se viene bloccata, ottieni 3 dosi di Adrenalina.",
+				"concise": "Attacco con Ascia. Danni inferti: +5...35. Se bloccato ti dà 3 dosi di adrenalina."
+			},
+			"jp": {
+				"name": "フューリアス アックス",
+				"description": "アックス アタック： 攻撃が成功すると 5...35 の追加ダメージを与えます。攻撃がブロックされた場合、3発のアドレナリンを獲得します。",
+				"concise": "アックス アタック： 5...35 の追加ダメージを与えます。ブロックされた場合、3発のアドレナリンを獲得します。"
+			},
+			"kr": {
+				"name": "분노의 도끼",
+				"description": "도끼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...35의 대미지를 추가로 줍니다. 적이 막아내면 자신은 3번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "도끼 공격. 5...35의 대미지를 추가로 줍니다. 공격을 막으면 자신은 3번 공격에 성공한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Wściekły Topór",
+				"description": "Atak toporem. Jeśli Wściekły Topór trafi, zadajesz +5...35 pkt. obrażeń. Jeśli przeciwnik zablokuje atak, to otrzymujesz 3 dawki adrenaliny.",
+				"concise": "Atak toporem. Zadaje +5...35 pkt. obrażeń. Dodaje ci 3 dawki adrenaliny, jeśli zostanie zablokowana."
+			},
+			"ru": {
+				"name": "Furious Axe",
+				"description": "Атака топором. Если Furious Axe попадает в цель, вы наносите дополнительно 5...35 ед. урона. Если противник блокировал удар, вы получите 3 ед. адреналина.",
+				"concise": "Атака топором. Наносит дополнительно 5...35 ед. урона. Дает вам 3 ед. адреналина, если было блокировано."
+			},
+			"bork": {
+				"name": "Fooreeuoos Aexe-a",
+				"description": "Aexe-a Aettaeck. Iff Fooreeuoos Aexe-a heets, yuoo streeke-a fur +5...35 daemaege-a. Iff it is blucked yuoo gaeeen 3 streekes vurt ooff aedrenaeleene-a.",
+				"concise": "Aexe-a Aettaeck. Deaels +5...35 daemaege-a. Geefes yuoo 3 streekes ooff aedrenaeleene-a iff blucked."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"浴血奋战！\"",
+				"description": "战吼。 在5...20秒之内，当下一次友方目标打出致命一击时，会对敌人附加造成「重伤」症状5...20秒。",
+				"concise": "战吼。 在5...20秒之内，当下一次友方目标打出致命一击时，会对敌人附加造成「重伤」症状5...20秒。"
+			},
+			"cht": {
+				"name": "「找出弱點！」",
+				"description": "戰嚎： 持續5...20秒，目標盟友的下一次攻擊造成5...50額外傷害並且使敵人重傷5...20秒。",
+				"concise": "戰嚎： 持續5...20秒，目標盟友的下一次攻擊造成5...50額外傷害並且使敵人重傷5...20秒。"
+			},
 			"de": {
+				"name": "\"Findet ihren Schwachpunkt!\"",
+				"description": "Schrei. 5...20 Sekunden[n] lang verursacht der nächste Angriff des Verbündeten +5...50 Schaden sowie 5...20 Sekunde[n] lang eine Tiefe Wunde.",
+				"concise": "Schrei. (5...20 Sekunde[n].) Dieser Verbündete verursacht mit dem nächsten Angriff +5...50 Schaden sowie (5...20 Sekunde[n]) den Zustand Tiefe Wunde."
+			},
+			"de-guildwiki": {
 				"name": "\"Findet ihren Schwachpunkt!\"",
 				"description": "Während der nächsten 5...20 Sekunden richtet der Verbündete (bzw. Ihr selbst) mit dem nächsten Treffer +5...50 Schaden an und verursacht damit 5...20 Sekunden lang eine Tiefe Wunde.",
 				"concise": "(5...20 Sekunden.) Dieser Verbündete verursacht mit dem nächsten Angriff +5...50 Schaden sowie (5...20 Sekunden) den Zustand Tiefe Wunde."
 			},
 			"en": {
 				"name": "\"Find Their Weakness!\"",
+				"description": "Shout. For 5...20 seconds, the next time target ally attacks, that ally deals +5...50 damage and inflicts a Deep Wound for 5...20 seconds.",
+				"concise": "Shout. (5...20 seconds.) Target ally deals +5...50 damage and inflicts Deep Wound condition (5...20 seconds) with the next attack."
+			},
+			"en-gww": {
+				"name": "\"Find Their Weakness!\"",
 				"description": "For 5...20 seconds, the next time target ally attacks, that ally deals +5...50 damage and inflicts a Deep Wound for 5...20 seconds.",
 				"concise": "(5...20 seconds.) Target ally deals +5...50 damage and inflicts Deep Wound condition (5...20 seconds) with the next attack."
 			},
+			"es": {
+				"name": "\"¡A por su punto débil!\"",
+				"description": "Grito. Durante 5...20 segundos, la próxima vez que el aliado objetivo ataque, causará +5...50 de daño y hará una herida grave que durará 5...20 segundos.",
+				"concise": "Grito. (5...20 segundos.) El aliado objetivo causará causa +5...50 de daño y hará una herida grave (5...20 segundos) con el siguiente ataque."
+			},
 			"fr": {
+				"name": "\"Trouvez leur faiblesse !\"",
+				"description": "Cri. Pendant 5...20 secondes, la prochaine fois que l'allié ciblé attaque, il inflige +5...50 points de dégâts et cause aussi une Blessure profonde pendant 5...20 secondes.",
+				"concise": "Cri. (5...20 secondes.) La prochaine attaque portée par l'allié ciblé inflige +5...50 points de dégâts et provoque une Blessure profonde (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "\"Trouvez leur faiblesse !\"",
 				"description": "Pendant 5...20 secondes, l'allié ciblé inflige +5...50 points de dégâts avec ses attaques. La prochaine fois que l'allié ciblé attaque, il cause aussi une Blessure profonde pendant 5...20 secondes.",
 				"concise": "(5...20 secondes.) L'allié ciblé inflige +5...50 points de dégâts avec ses attaques. La prochaine attaque portée par l'allié ciblé provoque la Blessure profonde (5...20 secondes)."
+			},
+			"it": {
+				"name": "\"Scopri la Loro Debolezza!\"",
+				"description": "Urlo. Dura 5...20 secondi. La prossima volta che l'obiettivo alleato sferra un attacco infligge +5...50 di danni e provoca una Ferita Profonda per 5...20 secondi.",
+				"concise": "Urlo. (Secondi: 5...20). Danni inferti dall'obiettivo alleato: +5...50. Condizione inflitta con l'attacco successivo: Ferita Profonda (5...20 secondi)."
+			},
+			"jp": {
+				"name": "ファインド ウィークネス！",
+				"description": "シャウト： 5...20 秒間、ターゲットした味方が次に行う攻撃は、敵に 5...50 の追加ダメージを与え、5...20 秒間「重傷」状態にします。",
+				"concise": "シャウト： (5...20 秒) ターゲットした味方が次に行なう攻撃は、敵に 5...50 の追加ダメージを与え、「重傷」状態にします (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "약점을 찾아라!",
+				"description": "고함. 대상 지정: 아군. 5...20초 동안 대상은 공격은 적에게 5...50의 대미지를 추가로 주고, 5...20초 동안 중상 상태로 만듭니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "고함. (5...20초) 대상 아군의 다음 공격은 적에게 5...50의 대미지를 추가로 주고, 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "\"Odnajdźcie Ich Słabości!\"",
+				"description": "Okrzyk. Przez 5...20 sek., kiedy następnym razem wybrany sojusznik wykona atak, zada +5...50 pkt. obrażeń oraz spowoduje powstanie głębokiej rany na 5...20 sek.",
+				"concise": "Okrzyk. (5...20 sek.) Przy następnym ataku wybrany sojusznik zadaje +5...50 pkt. obrażeń oraz powoduje powstanie głębokiej rany (5...20 sek.)."
+			},
+			"ru": {
+				"name": "\"Find Their Weakness!\"",
+				"description": "Крик. В течение 5...20 сек выбранный союзник при следующей своей атаке нанесет противнику дополнительно 5...50 ед. урона и глубокую рану на 5...20 сек.",
+				"concise": "Крик. (5...20 сек) Выбранный союзник нанесет дополнительно 5...50 ед. урона и вызовет глубокую рану (5...20 сек) при следующей атаке."
+			},
+			"bork": {
+				"name": "\"Feend Zeeur Veaekness!\"",
+				"description": "Shuoot. Fur 5...20 secunds, zee next teeme-a taerget aelly aettaecks, thaet aelly deaels +5...50 daemaege-a und inffleects a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Shuoot. (5...20 secunds.) Taerget aelly deaels +5...50 daemaege-a und inffleects Deep Vuoond cundeeshun (5...20 secunds) veet zee next aettaeck."
 			}
 		}
 	}

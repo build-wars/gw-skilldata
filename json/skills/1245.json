@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "眺望",
+				"description": "咒文。 使范围内最靠近你的「灵体」失去20...65点生命，每失去一点生命值，对目标敌人造成2...6点的闪电伤害。",
+				"concise": "咒文。 使范围内最近你的「灵体」失去 20...65 生命，同时对目标敌人造成 2...6 倍的闪电伤害。"
+			},
+			"cht": {
+				"name": "天外凝視",
+				"description": "咒文魔法： 對目標敵人造成 20...65 閃電傷害，若是你的音量所及範圍內有靈，則使該敵人遭受盲目 2...6 秒。",
+				"concise": "咒文魔法： 對目標敵人造成 20...65 閃電傷害，若是你的音量所及範圍內有靈，則使該敵人遭受盲目 2...6 秒。"
+			},
 			"de": {
+				"name": "Blick aus dem Jenseits",
+				"description": "Zauber. Der Gegner erleidet 20...65 Punkte Blitzschaden. Wenn Ihr Euch in Hörweite eines Geistes befindet, wird der Gegner 2...6 Sekunde[n] lang geblendet.",
+				"concise": "Zauber. Richtet 20...65 Punkt[e] Blitzschaden an. Verursacht den Zustand Blindheit (2...6 Sekunde[n]), falls Ihr Euch in Hörweite eines Geistes befindet."
+			},
+			"de-guildwiki": {
 				"name": "Blick aus dem Jenseits",
 				"description": "Der Gegner erleidet 20...65 Punkte Blitzschaden. Wenn Ihr Euch in Hörweite eines Geistes befindet, wird der Gegner 2...6 Sekunden lang geblendet.",
 				"concise": "Richtet 20...65 Punkte Blitzschaden an. Verursacht den Zustand Blindheit (2...6 Sekunden), falls Ihr Euch in Hörweite eines Geistes befindet."
 			},
 			"en": {
 				"name": "Gaze from Beyond",
+				"description": "Spell. Target foe is struck for 20...65 lightning damage. If you are within earshot of a spirit, that foe is Blinded for 2...6 seconds.",
+				"concise": "Spell. Deals 20...65 lightning damage. Inflicts Blindness condition for 2...6 seconds if you are within earshot of a spirit."
+			},
+			"en-gww": {
+				"name": "Gaze from Beyond",
 				"description": "Target foe is struck for 20...65 lightning damage. If you are within earshot of a spirit, that foe is Blinded for 2...6 seconds.",
 				"concise": "Deals 20...65 lightning damage. Inflicts Blindness condition for 2...6 seconds if you are within earshot of a spirit."
 			},
+			"es": {
+				"name": "Mirada del más allá",
+				"description": "Conjuro. El enemigo objetivo recibe 20...65 de daño de relámpago. Si estás al alcance del oído de algún espíritu, el enemigo queda cegado durante 2...6 segundos.",
+				"concise": "Conjuro. Causa 20...65 de daño relámpago. Causa ceguera durante 2...6 segundos si estás al alcance del oído de algún espíritu."
+			},
 			"fr": {
+				"name": "Vision de l'au-delà",
+				"description": "Sort. La cible ennemie subit 20...65 points de dégâts de la foudre. Si vous vous trouvez à portée de voix d'un esprit, cet ennemi est Aveuglé pendant 2...6 secondes.",
+				"concise": "Sort. Inflige 20...65 points de dégâts de la foudre. Provoque l'Aveuglement pendant 2...6 secondes si vous êtes à portée de voix d'un esprit."
+			},
+			"fr-gwiki": {
 				"name": "Vision de l'au-delà",
 				"description": "La cible ennemi subit 20...65 points de dégâts de la foudre. Cet ennemi est aveuglé pendant 2...6 secondes si vous êtes à portée de voix d'un esprit ou d'un cadavre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sguardo dall'Aldilà",
+				"description": "Magia. L'obiettivo nemico subisce 20...65 danno[i] da fulmine. Se ti trovi entro la portata d'orecchio di uno spirito, l'obiettivo nemico viene accecato per 2...6 secondo[i].",
+				"concise": "Magia. Danni da fulmine inferti: 20...65. Infligge condizione Accecamento (2...6 secondo[i] se ti trovi entro la portata d'orecchio di uno spirito."
+			},
+			"jp": {
+				"name": "ゲイズ フロム ビヨンド",
+				"description": "スペル： ターゲットした敵に 20...65 のライトニング ダメージを与えます。声の届く範囲内に精霊がいる場合、その敵は 2...6 秒間「盲目」状態になります。",
+				"concise": "スペル： 20...65 のライトニング ダメージを与えます。プレイヤーの声の届く範囲内に精霊がいる場合、2...6 秒間「盲目」状態にします。"
+			},
+			"kr": {
+				"name": "보이지않는 시선",
+				"description": "마법. 대상 지정: 적. 대상에게 20...65의 번개 대미지를 줍니다. 가청 범위 내에 영혼이 있으면 추가로 대상을 2...6초 동안 실명 상태로 만듭니다.",
+				"concise": "마법. 20...65의 번개 대미지를 주고, 가청 범위 내에 영혼이 있으면 실명시킵니다.(2...6초)"
+			},
+			"pl": {
+				"name": "Spojrzenie z Zaświatów",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 20...65 pkt. obrażeń od błyskawic. Jeśli w zasięgu słuchu znajduje się duch, przeciwnik zostaje dodatkowo oślepiony na 2...6 sek.",
+				"concise": "Czar. Zadaje 20...65 pkt. obrażeń od błyskawic. Wywołuje ślepotę (2...6 sek.), jeżeli w zasięgu słuchu znajduje się duch."
+			},
+			"ru": {
+				"name": "Gaze from Beyond",
+				"description": "Заклинание. Выбранный противник получает 20...65 ед. урона силой молнии. Если вы находитесь в зоне слышимости духа, этот противник будет ослеплен на 2...6 сек.",
+				"concise": "Заклинание. Наносит 20...65 ед. урона силой молнии. Вызывает слепоту (2...6 сек), если вы находитесь в зоне слышимости духа."
+			},
+			"bork": {
+				"name": "Gaeze-a frum Beyund",
+				"description": "Spell. Taerget fue-a is stroock fur 20...65 leeghtneeng daemaege-a. Iff yuoo aere-a veetheen iaershut ooff a spureet, thaet fue-a is Bleended fur 2...6 secunds.",
+				"concise": "Spell. Deaels 20...65 leeghtneeng daemaege-a. Inffleects Bleendness cundeeshun fur 2...6 secunds iff yuoo aere-a veetheen iaershut ooff a spureet."
 			}
 		}
 	}

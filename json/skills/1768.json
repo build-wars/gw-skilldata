@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "飞猎",
+				"description": "Flash Enchantment Spell。 在2...8秒之内，你的移动速度提升25%，并对移动中的敌人造成3...12点额外伤害。",
+				"concise": "Flash Enchantment Spell。 在2...8秒之内，你的移动速度提升25%，并对移动中的敌人造成3...12点额外伤害。"
+			},
+			"cht": {
+				"name": "獵捕者之速",
+				"description": "即刻加持魔法： 持續 2...8 秒，你的移動速度增加 25% ，對移動中的敵人造成 3...12 額外傷害。",
+				"concise": "即刻加持魔法： 持續 2...8 秒，你的移動速度增加 25% ，對移動中的敵人造成 3...12 額外傷害。"
+			},
 			"de": {
+				"name": "Eile des Läufers",
+				"description": "Blitzverzauberung. 2...8 Sekunde[n] lang bewegt Ihr Euch um 25% schneller und fügt Feinden, die sich bewegen, +3...12 Punkt[e] mehr Schaden zu.",
+				"concise": "Blitzverzauberung. (2...8 Sekunde[n].) Ihr bewegt Euch um 25% schneller und richtet bei Feinden, die sich bewegen, +3...12 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Eile des Läufers",
 				"description": "2...8 Sekunden lang bewegt Ihr Euch um 25% schneller und fügt Feinden, die sich bewegen, +3...12 Punkte mehr Schaden zu.",
 				"concise": "(2...8 Sekunden.) Ihr bewegt Euch um 25% schneller und richtet bei Feinden, die sich bewegen, +3...12 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Harrier's Haste",
+				"description": "Flash Enchantment Spell. For 2...8 seconds, you move 25% faster and deal +3...12 more damage against moving foes.",
+				"concise": "Flash Enchantment Spell. (2...8 seconds.) You move 25% faster and deal +3...12 damage to moving foes."
+			},
+			"en-gww": {
+				"name": "Harrier's Haste",
 				"description": "For 2...8 seconds, you move 25% faster and deal +3...12 more damage against moving foes.",
 				"concise": "(2...8 seconds.) You move 25% faster and deal +3...12 damage to moving foes."
 			},
+			"es": {
+				"name": "Rapidez del hostigador",
+				"description": "Conjuro con encantamiento de destello. Durante 2...8 segundos, te mueves un 25% más rápido y haces +3...12 de daño contra los enemigos en movimiento.",
+				"concise": "Conjuro con encantamiento de destello. (2...8 segundos). Te mueves un 25% más rápido y haces +3...12 de daño a los enemigos en movimiento."
+			},
 			"fr": {
+				"name": "Hâte d'harrier",
+				"description": "Enchantement instantané. Pendant 2...8 secondes, vous vous déplacez 25% plus vite et infligez +3...12 points de dégâts supplémentaires aux ennemis en mouvement.",
+				"concise": "Enchantement instantané. (2...8 secondes.) Vous vous déplacez 25% plus vite et infligez +3...12 points de dégâts aux ennemis en mouvement."
+			},
+			"fr-gwiki": {
 				"name": "Hâte d'harrier",
 				"description": "Pendant 5...15 secondes, vous vous déplacez 25% plus vite et infligez +5...15 points de dégâts supplémentaires aux ennemis en mouvement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta del Predatore",
+				"description": "Incantesimo Lampo. Per 2...8 secondi, la tua velocità di movimento aumenta di un 25% ed infliggi +3...12 danni contro i nemici in movimento.",
+				"concise": "Incantesimo Lampo. (Secondi: 2...8). Incremento velocità di movimento: 25%. Danni inferti ai nemici in movimento: +3...12."
+			},
+			"jp": {
+				"name": "ハリアー ヘイスト",
+				"description": "フラッシュ強化スペル： 2...8 秒間、プレイヤーの移動速度が 25% 増加し、移動中の敵に対する攻撃のダメージが 3...12 増加します。",
+				"concise": "フラッシュ強化スペル： (2...8 秒) 移動速度が 25% 増加し、移動中の敵に 3...12 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "약탈자의 민첩함",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 2...8초 동안 이동 속도가 25% 빨라지고, 이동 중인 적에 대한 대미지가 3...12 증가합니다.",
+				"concise": "순간 시전 강화 마법. (2...8초) 이동 속도가 25% 빨라지고, 이동 중인 적에게 3...12의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Pośpiech Grabieżcy",
+				"description": "Zaklęcie błysku (czar). Przez 2...8 sek., poruszasz się o 25% szybciej, a poruszającym się przeciwnikom twoje ataki zadają +3...12 pkt. dodatkowych obrażeń.",
+				"concise": "Zaklęcie błysku (czar). (2...8 sek.) Poruszasz się o 25% szybciej i poruszającym się przeciwnikom zadajesz +3...12 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Harrier's Haste",
+				"description": "Мгновенное заклинание-чары. В течение 2...8 сек вы двигаетесь на 25% быстрее и наносите дополнительно 3...12 ед. урона двигающимся противникам.",
+				"concise": "Мгновенное заклинание-чары. (2...8 сек) Вы двигаетесь на 25% быстрее и наносите дополнительно 3...12 ед. урона двигающимся противникам."
+			},
+			"bork": {
+				"name": "Haerreeer's Haeste-a",
+				"description": "Flaesh Inchuntment Spell. Fur 2...8 secunds, yuoo mufe-a 25% faester und deael +3...12 mure-a daemaege-a aegaeeenst mufeeng fues.",
+				"concise": "Flaesh Inchuntment Spell. (2...8 secunds.) Yuoo mufe-a 25% faester und deael +3...12 daemaege-a tu mufeeng fues."
 			}
 		}
 	}

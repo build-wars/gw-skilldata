@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "吸血之灵",
+				"description": "精英增益魔法。 持续10秒，你的法术类型技能提高 5...10 能量消耗，但是每当你施法时，你偷取附近一名敌人最多 15...60 生命。",
+				"concise": "精英增益魔法。 持续10秒，你的法术类型技能提高 5...10 能量消耗，但是每当你施法时，你偷取附近一名敌人最多 15...60 生命。"
+			},
+			"cht": {
+				"name": "吸血之靈",
+				"description": "精英加持魔法： 偷取目標敵人15...60體力，10秒內你得體力再生增加5...10。",
+				"concise": "精英加持魔法： 偷取目標敵人15...60體力，10秒內你得體力再生增加5...10。"
+			},
 			"de": {
+				"name": "Vampirgeist",
+				"description": "Elite-Verzauberung. Entzieht dem Gegner bis zu 15...60 Lebenspunkt[e]. 10 Sekunde[n] lang habt Ihr +5...10 Lebenspunktregeneration.",
+				"concise": "Elite-Verzauberung. Entzieht dem Gegner 15...60 Lebenspunkt[e]: Ihr habt +5...10 Lebenspunktdegeneration (10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Vampirgeist",
 				"description": "Entzieht dem Gegner bis zu 15...60 Lebenspunkte. 10 Sekunden lang habt Ihr +5...10 Lebenspunktregeneration.",
 				"concise": "Entzieht dem Gegner 15...60 Lebenspunkte: Ihr habt +5...10 Lebenspunktregeneration (10 Sekunden)"
 			},
 			"en": {
 				"name": "Vampiric Spirit",
+				"description": "Elite Enchantment Spell. Steal up to 15...60 Health from target foe. For 10 seconds, you have +5...10 Health regeneration.",
+				"concise": "Elite Enchantment Spell. Steal 15...60 Health from target foe. You have +5...10 Health regeneration (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Vampiric Spirit",
 				"description": "Steal up to 15...60 Health from target foe. For 10 seconds, you have +5...10 Health regeneration.",
 				"concise": "Steal 15...60 Health from target foe. You have +5...10 Health regeneration (10 seconds)."
 			},
+			"es": {
+				"name": "Espíritu vampírico",
+				"description": "Conjuro con encantamiento de élite. Robas 15...60 de salud del enemigo objetivo. Durante 10 segundos, tienes +5...10 de regeneración de salud.",
+				"concise": "Conjuro con encantamiento de élite. Robas 15...60 de salud del enemigo objetivo. Tienes +5...10 de regeneración de salud (10 segundos)."
+			},
 			"fr": {
+				"name": "Esprit vampirique",
+				"description": "Enchantement d'élite. Vous volez jusqu'à 15...60 points de vie à la cible ennemie. Pendant 10 secondes, vous bénéficiez d'une régénération de santé de +5...10.",
+				"concise": "Enchantement d'élite. Vous volez 15...60 points de vie à la cible ennemie. Vous bénéficiez d'une régénération de santé de +5...10 (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Esprit vampirique",
 				"description": "Vous volez jusqu'à 5...50 points de vie à la cible ennemie. Pendant 10 secondes, vous bénéficiez d'une régénération de santé de +5...10.",
 				"concise": "Vous volez 5...50 points de vie à la cible ennemie. Vous bénéficiez d'une régénération de santé de +5...10 (10 secondes)."
+			},
+			"it": {
+				"name": "Spirito Vampirico",
+				"description": "Incantesimo d'Élite. Sottrai fino a 15...60 Punto[i] Salute all'obiettivo nemico. Per 10 secondo[i], hai una Rigenerazione Salute di +5...10.",
+				"concise": "Incantesimo d'Élite. Salute sottratta all'obiettivo nemico: 15...60. Tua Rigenerazione Salute: +5...10 (10 secondo[i])."
+			},
+			"jp": {
+				"name": "ヴァンピリック スピリット",
+				"description": "エリート強化スペル： ターゲットした敵から最大 15...60 の体力を奪い取ります。10 秒間、プレイヤーは体力の自然回復力が 5...10 増加します。",
+				"concise": "エリート強化スペル： ターゲットした敵から 15...60 の体力を奪い取ります。プレイヤーは、体力の自然回復力が 5...10 増加します (10 秒)。"
+			},
+			"kr": {
+				"name": "흡혈귀의 정기",
+				"description": "엘리트 강화 마법. 대상 지정: 적. 대상에게서 15...60의 체력을 뺏습니다. 10초 동안 체력 재생이 5...10 증가합니다.",
+				"concise": "엘리트 강화 마법. 15...60의 체력을 뺏고, 체력 재생이 5...10 증가합니다.(10초)"
+			},
+			"pl": {
+				"name": "Wampiryczny Duch",
+				"description": "Elitarne zaklęcie (czar). Wybranemu przeciwnikowi wykradasz 15...60 pkt. żywotności. Przez 10 sek. posiadasz regenerację żywotności +5...10.",
+				"concise": "Elitarne zaklęcie (czar). Wybranemu przeciwnikowi wykradasz 15...60 pkt. żywotności. Posiadasz regenerację żywotności +5...10 (10 sek.)."
+			},
+			"ru": {
+				"name": "Vampiric Spirit",
+				"description": "Элитное заклинание-чары. Похищает до 15...60 ед. здоровья у выбранного противника. В течение 10 сек ваша скорость восстановления здоровья увеличивается на 5...10 ед.",
+				"concise": "Элитное заклинание-чары. Вы похищаете 15...60 ед. здоровья у выбранного противника. Вы получаете +5...10 ед. к скорости восстановления здоровья (10 сек)."
+			},
+			"bork": {
+				"name": "Faempureec Spureet",
+				"description": "Ileete-a Inchuntment Spell. Steael up tu 15...60 Heaelt frum taerget fue-a. Fur 10 secunds, yuoo haefe-a +5...10 Heaelt regeneraeshun.",
+				"concise": "Ileete-a Inchuntment Spell. Steael 15...60 Heaelt frum taerget fue-a. Yuoo haefe-a +5...10 Heaelt regeneraeshun (10 secunds)."
 			}
 		}
 	}

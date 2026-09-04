@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "仇视",
+				"description": "增益魔法。 牺牲自己最大生命值的 10%，如果目标敌人的生命值多于你，你将偷取其最多 0...1点 生命值，反之对其造成 1...10点 伤害。",
+				"concise": "增益魔法。 牺牲自己最大生命值的 10%，如果目标敌人的生命值多于你，你将偷取其最多 0...1点 生命值，反之对其造成 1...10点 伤害。"
+			},
+			"cht": {
+				"name": "嫉恨凝視",
+				"description": "加持魔法： 移除目標敵人一項加持。若移除成功，在 1...20 秒內你的下一個加持，施展時間加快 0...1 秒，消耗能量減少 1...10 。",
+				"concise": "加持魔法： 移除目標敵人一項加持。若移除成功，在 1...20 秒內你的下一個加持，施展時間加快 0...1 秒，消耗能量減少 1...10 。"
+			},
 			"de": {
+				"name": "Neidvoller Blick",
+				"description": "Verzauberung. Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung wird 1...20 Sekunde[n] lang Eure nächste Verzauberung 0...1 Sekunde[n] schneller gewirkt und kostet 1...10 Energiepunkt[e] weniger.",
+				"concise": "Verzauberung. Entfernt eine Verzauberung vom Gegner. Entfernungseffekt: Eure nächste Verzauberung wird 0...1 Sekunde[n] schneller gewirkt und kostet 1...10 Energiepunkt[e] weniger. (1...20 Sekunde[n].)"
+			},
+			"de-guildwiki": {
 				"name": "Neidvoller Blick",
 				"description": "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung wird 1...20 Sekunden lang Eure nächste Verzauberung 0...1 Sekunden schneller gewirkt und kostet 1...10 Energiepunkte weniger.",
 				"concise": "Entfernt eine Verzauberung. Entfernungseffekt: Eure nächste Verzauberung wird 0...1 Sekunden schneller gewirkt und kostet 1...10 Energiepunkte weniger. (1...20 Sekunden.)"
 			},
 			"en": {
 				"name": "Jaundiced Gaze",
+				"description": "Enchantment Spell. Remove an enchantment from target foe. If an enchantment is removed, for the next 1...20 seconds, your next enchantment spell casts 0...1 seconds faster and costs 1...10 less Energy.",
+				"concise": "Enchantment Spell. Removes an enchantment from target foe. Removal effect: your next enchantment casts 0...1 seconds faster and costs 1...10 less Energy. (1...20 seconds)"
+			},
+			"en-gww": {
+				"name": "Jaundiced Gaze",
 				"description": "Remove an enchantment from target foe. If an enchantment is removed, for the next 1...20 second[s], your next enchantment spell casts 0...1 second[s] faster and costs 1...10 less Energy.",
 				"concise": "Removes an enchantment from target foe. Removal effect: your next enchantment casts 0...1 second[s] faster and costs 1...10 less Energy. (1...20 second[s])"
 			},
+			"es": {
+				"name": "Mirada ictérica",
+				"description": "Conjuro con encantamiento. Eliminas un encantamiento del enemigo objetivo. Si se elimina un encantamiento, durante los próximos 1...20 segundos, tu próximo conjuro con encantamiento se lanza 0...1 segundos más deprisa y cuesta 1...10 menos de energía.",
+				"concise": "Conjuro con encantamiento. Elimina un encantamiento del enemigo objetivo. Efecto de eliminación: tu próximo encantamiento se lanza 0...1 segundos más deprisa y cuesta 1...10 menos de energía. (1...20 segundos)."
+			},
 			"fr": {
+				"name": "Regard ictérique",
+				"description": "Enchantement. Dissipe un enchantement de la cible ennemie. Si un enchantement a été dissipé, pendant les 1...20 prochaines secondes, l'incantation de votre prochain enchantement est réduite de 0...1 secondes et coûte 1...10 points d'énergie en moins.",
+				"concise": "Enchantement. Dissipe un enchantement de la cible ennemie. Effet de la dissipation : l'incantation de votre prochain enchantement est réduite de 0...1 secondes et coûte 1...10 points d'énergie en moins. (1...20 secondes.)"
+			},
+			"fr-gwiki": {
 				"name": "Regard ictérique",
 				"description": "Lève un enchantement à la cible ennemie. Si un enchantement a été levé, pendant les 1...20 prochaines secondes, votre prochain enchantement s'incante 0...1 secondes plus vite et coûte 1...10 points d'énergie en moins.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sguardo Invidioso",
+				"description": "Incantesimo. Rimuovi un incantesimo dall'obiettivo nemico. Se un incantesimo viene rimosso, per 1...20 secondo[i], il prossimo incantesimo che lancerai sarà 0...1 volta[e] più veloce e costerà 1...10 Punto[i] Energia in meno.",
+				"concise": "Incantesimo. Rimuove un incantesimo dall'obiettivo nemico. Effetto della rimozione: la velocità del prossimo incantesimo che lancerai sarà maggiore di 0...1 secondo[i] e costerà 1...10 Punto[i] Energia in meno. (Secondo[i]: 1...20)."
+			},
+			"jp": {
+				"name": "ジャーンダス ゲイズ",
+				"description": "強化スペル： ターゲットした敵にかけられている強化スペルを1個解除します。強化スペルを解除すると、次の 1...20 秒間でプレイヤーが最初に使用する強化スペルの詠唱時間が 0...1 秒減少し、消費エネルギーは 1...10 減少します。",
+				"concise": "強化スペル： ターゲットした敵にかけられている強化スペルを1個解除します。解除効果： 次にプレイヤーが使用する強化スペルの詠唱時間が 0...1 秒、消費エネルギーが 1...10 減少します (1...20 秒)。"
+			},
+			"kr": {
+				"name": "편협한 시선",
+				"description": "강화 마법. 대상 지정: 적. 대상에 걸린 강화 마법 하나를 무효화합니다. 강화 마법을 무효화한 뒤 1...20초 동안 자신의 첫 강화 마법 시전 시간이 0...1초 빨라지고, 소모 에너지가 1...10만큼 감소합니다.",
+				"concise": "강화 마법. 강화 마법 하나를 무효화합니다. 무효화 효과: 자신의 다음 강화 마법 시전 속도가 0...1초만큼 빨라지고, 소모 에너지가 1...10만큼 감소합니다.(1...20초)"
+			},
+			"pl": {
+				"name": "Zawistne Spojrzenie",
+				"description": "Zaklęcie (czar). Usuwa zaklęcie z wybranego przeciwnika. Jeśli zaklęcie się skończy, przez kolejne 1...20 sek., twoje następne zaklęcie będzie mogło być rzucone 0...1 sek. szybciej i zużyje 1...10 pkt. energii mniej.",
+				"concise": "Zaklęcie (czar). Usuwa zaklęcie z wybranego przeciwnika.Efekt usunięcia: twoje następne zaklęcie będzie mogło być rzucone 0...1 sek. szybciej i zużyje 1...10 pkt. energii mniej. (1...20 sek.)"
+			},
+			"ru": {
+				"name": "Jaundiced Gaze",
+				"description": "Заклинание-чары. Снимает одни чары с выбранного противника. Если чары были сняты, в течение следующих 1...20 сек ваше следующее заклинание-чары активируется на 0...1 сек быстрее и требует для активации на 1...10 ед. энергии меньше.",
+				"concise": "Заклинание-чары. Снимает одни чары с выбранного противника. Эффект снятия: ваше следующее заклинание-чары активируется на 0...1 сек быстрее и требует для активации на 1...10 ед. энергии меньше (1...20 сек)."
+			},
+			"bork": {
+				"name": "Joondeeced Gaeze-a",
+				"description": "Inchuntment Spell. Remufe-a un inchuntment frum taerget fue-a. Iff un inchuntment is remufed, fur zee next 1...20 secunds, yuoor next inchuntment spell caests 0...1 secunds faester und custs 1...10 less Inergy.",
+				"concise": "Inchuntment Spell. Remufes un inchuntment frum taerget fue-a. Remufael iffffect: yuoor next inchuntment caests 0...1 secunds faester und custs 1...10 less Inergy. (1...20 secunds)"
 			}
 		}
 	}

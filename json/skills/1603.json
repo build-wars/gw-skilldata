@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "无情之矛",
+				"description": "矛术。 当击中生命值低于50%的敌人时，该敌人将「遭受」重伤症状5...20点。",
+				"concise": "矛术。 当击中生命值低于50%的敌人时，该敌人将「遭受」重伤症状5...20点。"
+			},
+			"cht": {
+				"name": "殘忍之矛",
+				"description": "矛術攻擊技能： 若攻擊命中體力值低於 50% 的敵人，則使其遭受「重傷」病症 5...20 秒。",
+				"concise": "矛術攻擊技能： 若攻擊命中體力值低於 50% 的敵人，則使其遭受「重傷」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Unbarmherziger Speer",
+				"description": "Speerangriff. Wenn dieser Angriff einen Gegner trifft, dessen Lebenspunkte unter 50% liegen, leidet dieser 5...20 Sekunde[n] lang an einer Tiefen Wunde.",
+				"concise": "Speerangriff. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]). Gegner muss weniger als 50% seiner maximalen Lebenspunkte haben, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Unbarmherziger Speer",
 				"description": "Wenn dieser Angriff einen Gegner trifft, dessen Lebenspunkte unter 50% liegen, leidet dieser 5...20 Sekunden lang an einer Tiefen Wunde.",
 				"concise": "Verursacht Zustand Tiefe Wunde (5...20 Sekunden). <gray>Gegner muss weniger als 50% seiner maximalen Lebenspunkte haben, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Merciless Spear",
+				"description": "Spear Attack. If this attack hits a foe with less than 50% Health, that foe suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "Spear Attack. Inflicts Deep Wound condition (5...20 seconds). No effect unless target has less than 50% Health."
+			},
+			"en-gww": {
+				"name": "Merciless Spear",
 				"description": "If this attack hits a foe with less than 50% Health, that foe suffers from a Deep Wound for 5...20 seconds.",
 				"concise": "Inflicts Deep Wound condition (5...20 seconds). <gray>No effect unless target has less than 50% Health.</gray>"
 			},
+			"es": {
+				"name": "Lanza despiadada",
+				"description": "Ataque con lanza. Si alcanzas a un enemigo con menos del 50% de salud, sufrirá una herida grave durante 5...20 segundos.",
+				"concise": "Ataque con lanza. Causa herida grave (5...20 segundos). No tiene efecto a menos que el objetivo tenga menos del 50% de salud."
+			},
 			"fr": {
+				"name": "Javelot impitoyable",
+				"description": "Attaque au javelot. Si cette attaque touche un ennemi ayant moins de 50% de santé, cet ennemi souffre de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Attaque au javelot. Provoque la Blessure profonde (5...20 secondes). Aucun effet si la cible a plus de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Javelot impitoyable",
 				"description": "Si cette attaque touche un ennemi ayant moins de 50% de santé, cet ennemi souffre de Blessure profonde pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancia Implacabile",
+				"description": "Attacco con Lancia. Se questo attacco colpisce un nemico con Salute inferiore al 50%, questi è affetto da una Ferita Profonda per 5...20 secondo[i].",
+				"concise": "Attacco con Lancia. Condizione inflitta: Ferita Profonda (5...20 secondo[i]). Ha effetto solo se la Salute dell'obiettivo è inferiore a 50%."
+			},
+			"jp": {
+				"name": "マーシレス スピア",
+				"description": "スピア アタック： 体力が 50% 未満の敵に攻撃が成功した場合、その敵は 5...20 秒間「重傷」状態になります。",
+				"concise": "スピア アタック： 「重傷」状態にします (5...20 秒) 。ターゲットの体力が上限の 50% 以上の場合は無効です。"
+			},
+			"kr": {
+				"name": "잔인한 창",
+				"description": "창 공격. 대상 지정: 적. 체력이 50%미만인 대상에게 공격이 성공하면 대상은 5...20초 동안 중상 상태가 됩니다.",
+				"concise": "창 공격. 중상을 입힙니다.(5...20초) 대상의 체력이 50%이상이어야 합니다."
+			},
+			"pl": {
+				"name": "Bezlitosna Włócznia",
+				"description": "Atak włócznią. Jeżeli atak trafi przeciwnika, który ma mniej niż 50% pkt. żywotności, to przeciwnik ten na 5...20 sek. otrzymuje głęboką ranę.",
+				"concise": "Atak włócznią. Wywołuje przypadłość głęboka rana (5...20 sek.). Bez efektu, chyba że cel ma mniej niż 50% żywotności."
+			},
+			"ru": {
+				"name": "Merciless Spear",
+				"description": "Атака копьем. Если эта атака попадает по противнику, чей уровень здоровья ниже 50%, этот противник получает глубокую рану на 5...20 сек.",
+				"concise": "Атака копьем. Вызывает глубокую рану (5...20 сек). Не действует, если у цели больше 50% здоровья."
+			},
+			"bork": {
+				"name": "Merceeless Speaer",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets a fue-a veet less thun 50% Heaelt, thaet fue-a sooffffers frum a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Speaer Aettaeck. Inffleects Deep Vuoond cundeeshun (5...20 secunds). Nu iffffect unless taerget haes less thun 50% Heaelt."
 			}
 		}
 	}

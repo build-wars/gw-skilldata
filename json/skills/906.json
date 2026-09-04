@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「跪下！」",
+				"description": "战吼。 失去所有怒气值。如果任何邻近你的敌人被击倒，你的所有「姿态」类型技能立即恢复。",
+				"concise": "战吼。 失去所有怒气值。如果任何邻近你的敌人被击倒，你的所有「姿态」类型技能立即恢复。"
+			},
+			"cht": {
+				"name": "「跪下！」",
+				"description": "戰嚎： 失去所有怒氣值。若任何鄰近你的敵人被擊倒，你的所有「態勢」類型技能立即回復。",
+				"concise": "戰嚎： 失去所有怒氣值。若任何鄰近你的敵人被擊倒，你的所有「態勢」類型技能立即回復。"
+			},
 			"de": {
+				"name": "\"Auf Eure Knie!\"",
+				"description": "Schrei. Alles Adrenalin geht verloren. Wenn ein umstehender Gegner zu Boden geworfen wird, werden alle Eure Haltungen wieder aufgeladen.",
+				"concise": "Schrei. Lädt alle Eure Haltungen wieder auf, wenn Ihr einen zu Boden geworfenen Feind umsteht. Ihr verliert alles Adrenalin."
+			},
+			"de-guildwiki": {
 				"name": "\"Auf Eure Knie!\"",
 				"description": "Alles Adrenalin geht verloren. Wenn ein umstehender Gegner zu Boden geworfen ist, werden alle Eure Haltungen wieder aufgeladen.",
 				"concise": "Lädt alle Eure Haltungen wieder auf, wenn Ihr einen zu Boden geworfenen Feind umsteht. <gray>Ihr verliert alles Adrenalin.</gray>"
 			},
 			"en": {
 				"name": "\"On Your Knees!\"",
+				"description": "Shout. Lose all adrenaline. If any adjacent foes are knocked down, all of your stances are recharged.",
+				"concise": "Shout. Recharges all your stances if you are adjacent to a knocked-down foe. You lose all adrenaline."
+			},
+			"en-gww": {
+				"name": "\"On Your Knees!\"",
 				"description": "Lose all adrenaline. If any adjacent foes are knocked down, all of your stances are recharged.",
 				"concise": "Recharges all your stances if you are adjacent to a knocked-down foe. <gray>You lose all adrenaline.</gray>"
 			},
+			"es": {
+				"name": "\"¡De rodillas!\"",
+				"description": "Grito. Pierdes toda la adrenalina. Si algún enemigo adyacente está derribado, recargarás todas tus actitudes.",
+				"concise": "Grito. Recarga todas tus actitudes si un enemigo adyacente está derribado. Pierdes toda la adrenalina."
+			},
 			"fr": {
+				"name": "\"A genoux !\"",
+				"description": "Cri. Vous perdez toute votre adrénaline. Si des cibles adjacentes sont assommées, toutes vos poses de combat se rechargent.",
+				"concise": "Cri. Recharge toutes vos poses de combat si vous êtes adjacent à un ennemi assommé. Vous perdez toute votre adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "\"A genoux !\"",
 				"description": "Vous perdez toute votre adrénaline. Si des cibles adjacentes sont assommées, toutes vos poses de combats se rechargent.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"In Ginocchio!\"",
+				"description": "Urlo. Perdi tutta l'Adrenalina. Tutte le tue Posizioni si ricaricano se qualche nemico adiacente viene gettato a terra.",
+				"concise": "Urlo. Ricarica tutte le tue posizioni se sei adiacente ad un nemico abbattuto. Perdi tutta l'adrenalina."
+			},
+			"jp": {
+				"name": "オン ユア ニー！",
+				"description": "シャウト： アドレナリンをすべて失います。隣接する敵が転倒中の場合、すべてのスタンス スキルを再使用することができます。",
+				"concise": "シャウト： 転倒中の敵に隣接している場合、すべてのスタンス スキルを再使用することができます。アドレナリンをすべて失います。"
+			},
+			"kr": {
+				"name": "무릎 꿇어!",
+				"description": "고함. 대상 지정: 없음. 아드레날린을 모두 소모해 스킬을 사용합니다. 인접한 적이 하나라도 넘어져 있으면 모든 자세 스킬이 활성화됩니다.",
+				"concise": "고함. 인접한 적이 하나라도 넘어져 있으면 모든 자세 스킬이 활성화됩니다. 아드레날린을 모두 소모합니다."
+			},
+			"pl": {
+				"name": "\"Na Kolana!\"",
+				"description": "Okrzyk. Tracisz całą adrenalinę. Jeśli jeden z przeciwników bezpośrednio przy tobie jest powalony, wszystkie twoje postawy zostają automatycznie odnowione.",
+				"concise": "Okrzyk. Automatycznie odnawia twoje postawy, jeżeli jesteś w bezpośredniej odległości od powalonego przeciwnika. Tracisz całą adrenalinę."
+			},
+			"ru": {
+				"name": "\"On Your Knees!\"",
+				"description": "Крик. Вы теряете весь адреналин. Если кто-либо из окружающих противников сбит с ног, все ваши стойки перезаряжаются.",
+				"concise": "Крик. Перезаряжает все ваши стойки, если кто-либо из окружающих противников сбит с ног. Вы теряете весь адреналин."
+			},
+			"bork": {
+				"name": "\"Oon Yuoor Knees!\"",
+				"description": "Shuoot. Luse-a aell aedrenaeleene-a. Iff uny aedjaecent fues aere-a knucked doon, aell ooff yuoor stunces aere-a rechaerged. Bork! Bork! Bork!",
+				"concise": "Shuoot. Rechaerges aell yuoor stunces iff yuoo aere-a aedjaecent tu a knucked-doon fue-a. Yuoo luse-a aell aedrenaeleene-a."
 			}
 		}
 	}

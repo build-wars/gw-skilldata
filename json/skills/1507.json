@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "圣火之心",
+				"description": "Flash Enchantment Spell。 对所有邻近的敌人造成5...30点神圣伤害。在下30秒之内，你的攻击变为神圣伤害。当此「增益魔法」消失时，所有邻近的敌人遭受「灼烧」症状2...5秒。",
+				"concise": "Flash Enchantment Spell。 对所有邻近的敌人造成5...30点神圣伤害。在下30秒之内，你的攻击变为神圣伤害。当此「增益魔法」消失时，所有邻近的敌人遭受「灼烧」症状2...5秒。"
+			},
+			"cht": {
+				"name": "聖火之心",
+				"description": "即刻加持魔法： 對鄰近所有敵人造成 5...30 神聖傷害。持續 30 秒，使你的攻擊具有神聖傷害效果。而當此「加持」效果結束時，使鄰近的所有敵人遭受「著火」病症 2...5 秒。",
+				"concise": "即刻加持魔法： 對鄰近所有敵人造成 5...30 神聖傷害。持續 30 秒，使你的攻擊具有神聖傷害效果。而當此「加持」效果結束時，使鄰近的所有敵人遭受「著火」病症 2...5 秒。"
+			},
 			"de": {
+				"name": "Herz der heiligen Flamme",
+				"description": "Blitzverzauberung. Alle in der Nähe befindlichen Gegner erleiden 5...30 Punkt[e] heiligen Schaden. 30 Sekunde[n] danach fügen Eure Angriffe heiligen Schaden zu. Wenn diese Verzauberung endet, werden alle in der Nähe befindliche Feinde 2...5 Sekunde[n] lang in Brand gesetzt.",
+				"concise": "Blitzverzauberung. (30 Sekunde[n].) Eure Angriffe fügen heiligen Schaden zu. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 5...30 Punkt[e] heiligen Schaden an. Wirkung am Ende: Verursacht bei in der Nähe befindlichen Feinden Zustand Brennen (2...5 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Herz der heiligen Flamme",
 				"description": "Alle in der Nähe befindliche Gegner erleiden 5...30 Punkte heiligen Schaden. 30 Sekunden lang fügen Eure Angriffe Sakral-Schaden zu. Wenn diese Verzauberung endet, werden alle in der Nähe befindlichen Feinde 2...5 Sekunden lang in Brand gesetzt.",
 				"concise": "(30 Sekunden.) Eure Angriffe fügen Sakral-Schaden zu. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 5...30 Punkte heiligen Schaden an. Wirkung am Ende: Verursacht bei in der Nähe befindlichen Feinden Zustand Brennen (2...5 Sekunden)."
 			},
 			"en": {
 				"name": "Heart of Holy Flame",
+				"description": "Flash Enchantment Spell. All nearby foes take 5...30 holy damage. For 30 seconds afterward, your attacks deal holy damage. When this enchantment ends, all nearby foes are set on fire for 2...5 seconds.",
+				"concise": "Flash Enchantment Spell. (30 seconds.) Your attacks deal holy damage. Initial effect: deals 5...30 holy damage to nearby foes. End effect: inflicts Burning condition (2...5 seconds) on nearby foes."
+			},
+			"en-gww": {
+				"name": "Heart of Holy Flame",
 				"description": "All nearby foes take 5...30 holy damage. For 30 seconds, your attacks deal holy damage. When this enchantment ends, all nearby foes are set on fire for 2...5 seconds.",
 				"concise": "(30 seconds.) Your attacks deal holy damage. Initial effect: deals 5...30 holy damage to nearby foes. End effect: inflicts Burning condition (2...5 seconds) on nearby foes."
 			},
+			"es": {
+				"name": "Corazón de la llama sagrada",
+				"description": "Conjuro con encantamiento de destello. Todos los enemigos cercanos reciben 5...30 de daño sagrado. Durante los 30 segundos posteriores, tus ataques hacen daño sagrado. Cuando termina este encantamiento, todos los enemigos cercanos arden durante 2...5 segundos.",
+				"concise": "Conjuro con encantamiento de destello. (30 segundos). Tus ataques hacen daño sagrado. Efecto inicial: hace 5...30 de daño sagrado a los enemigos cercanos. Efecto final: causa quemadura (2...5 segundos) a los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Coeur de la Flamme sacrée",
+				"description": "Enchantement instantané. Tous les ennemis à proximité subissent 5...30 points de dégâts sacrés. Pendant 30 secondes, vos attaques infligent des dégâts sacrés. Lorsque cet enchantement prend fin, tous les ennemis à proximité s'embrasent pendant 2...5 secondes.",
+				"concise": "Enchantement instantané. (30 secondes.) Vos attaques infligent des dégâts sacrés. Effet initial : inflige 5...30 points de dégâts sacrés aux ennemis proches. Effet final : inflige la Brûlure (2...5 secondes) aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Coeur de la Flamme sacrée",
 				"description": "Tous les ennemis adjacents subissent 15...60 points de dégâts sacrés. Pendant 30 secondes, vos attaques infligent des dégâts sacrés. Lorsque cet enchantement prend fin, tous les ennemis adjacents s'embrasent pendant 1...4 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Cuore della Fiamma Sacra",
+				"description": "Incantesimo Lampo. Tutti i nemici nei dintorni subiscono 5...30 danni sacri. Per 30 secondi successivi i tuoi attacchi infliggono danni sacri. Al termine dell'incantesimo, tutti i nemici nei dintorni vengono incendiati per 2...5 secondi.",
+				"concise": "Incantesimo Lampo. (Secondi: 30). I tuoi attacchi assestano danni sacri. Effetto iniziale: Danni sacri inferti ai nemici nei dintorni: 5...30. Effetto al termine: Condizione inflitta ai nemici nei dintorni: Bruciatura (2...5 secondi)."
+			},
+			"jp": {
+				"name": "ホーリー フレイム ハート",
+				"description": "フラッシュ強化スペル： 周囲にいるすべての敵に 5...30 の神聖ダメージを与えます。30 秒間、プレイヤーの攻撃は敵に神聖ダメージを与えます。この効果が消失するとき、周囲にいるすべての敵は 2...5 秒間「火傷」状態になります。",
+				"concise": "フラッシュ強化スペル： (30 秒) プレイヤーの攻撃は敵に神聖ダメージを与えます。発動効果： 周囲にいる敵に 5...30 の神聖ダメージを与えます。終了効果： 周囲にいる敵を「火傷」状態にします (2...5 秒) 。"
+			},
+			"kr": {
+				"name": "신성한 불길의 격정",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 인접한 모든 적에게 5...30의 신성 대미지를 주고, 30초 동안 공격이 신성 대미지로 바뀝니다. 효과가 끝나면 부근의 모든 적은 2...5초 동안 화상 상태가 됩니다.",
+				"concise": "순간 시전 강화 마법. (30초) 공격이 신성 대미지를 줍니다. 초기 효과: 부근의 적들에게 5...30의 신성 대미지를 줍니다. 종료 효과: 부근의 적들에게 화상을 입힙니다.(2...5초)"
+			},
+			"pl": {
+				"name": "Serce Świętego Płomienia",
+				"description": "Zaklęcie błysku (czar). Wszyscy przeciwnicy w pobliżu otrzymują po 5...30 pkt. świętych obrażeń. Następnie, przez 30 sek. twoje ataki zadają święte obrażenia. Kiedy to zaklęcie dobiegnie końca, wszyscy pobliscy wrogowie zostają podpaleni na 2...5 sek.",
+				"concise": "Zaklęcie błysku (czar). (30 sek.) Twoje ataki zadają święte obrażenia. Efekt początkowy: Przeciwnicy w pobliżu otrzymują po 5...30 pkt. świętych obrażeń. Efekt końcowy: Podpala (2...5 sek.) przeciwników w pobliżu."
+			},
+			"ru": {
+				"name": "Heart of Holy Flame",
+				"description": "Мгновенное заклинание-чары. Все противники поблизости получают 5...30 ед. урона святой силой. Затем в течение 30 сек ваши атаки наносят урон святой силой. Когда эти чары заканчивают свое действие, все противники поблизости загораются на 2...5 сек.",
+				"concise": "Мгновенное заклинание-чары. (30 сек) Ваши атаки наносят урон святой силой. Начальный эффект: наносит 5...30 ед. урона святой силой противникам поблизости. Эффект окончания: поджигает (2...5 сек) противников поблизости."
+			},
+			"bork": {
+				"name": "Heaert ooff Huly Flaeme-a",
+				"description": "Flaesh Inchuntment Spell. Aell neaerby fues taeke-a 5...30 huly daemaege-a. Fur 30 secunds aefftervaerd, yuoor aettaecks deael huly daemaege-a. Vhee thees inchuntment inds, aell neaerby fues aere-a set oon fure-a fur 2...5 secunds.",
+				"concise": "Flaesh Inchuntment Spell. (30 secunds.) Yuoor aettaecks deael huly daemaege-a. Ineeteeael iffffect: deaels 5...30 huly daemaege-a tu neaerby fues. Ind iffffect: inffleects Boorneeng cundeeshun (2...5 secunds) oon neaerby fues."
 			}
 		}
 	}

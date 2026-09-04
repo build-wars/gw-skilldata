@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Agony",
+				"description": "缚灵仪式。 Create a level 1...8 spirit. This spirit causes 3...10 Health loss each second to foes within earshot. This spirit loses 3...10 Health for each foe hurt in this way. This spirit dies after 30...90 seconds.",
+				"concise": "缚灵仪式。 Creates a level 1...8 spirit (30...90 second lifespan). Causes 3...10 Health loss each second to foes in earshot. This spirit loses 3...10 Health for each foe that loses Health."
+			},
+			"cht": {
+				"name": "極痛",
+				"description": "縛靈儀式： 創造一隻等級 1...8 的極痛縛靈。此縛靈將使音量所及範圍內的敵人每秒失去 3...10 體力。此縛靈也將依照因此受到傷害的每一敵人而失去 3...10 體力。極痛縛靈在 30...90 秒後消失。",
+				"concise": "縛靈儀式： 創造一隻等級 1...8 的極痛縛靈。此縛靈將使音量所及範圍內的敵人每秒失去 3...10 體力。此縛靈也將依照因此受到傷害的每一敵人而失去 3...10 體力。極痛縛靈在 30...90 秒後消失。"
+			},
 			"de": {
+				"name": "Todesqual (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...8. Feinde in Hörweite verlieren pro Sekunde 3...10 Lebenspunkt[e]. Der Geist verliert pro Feind, der auf diese Weise beeinträchtigt wird, 3...10 Lebenspunkt[e]. Dieser Geist stirbt nach 30...90 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...8 (30...90 Sekunde[n] Lebensdauer). Lässt Feinde in Hörweite jede Sekunde 3...10 Lebenspunkt[e] verlieren. Der Geist verliert für jeden betroffenen Feind 3...10 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Todesqual (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...8. Feinde in Hörweite verlieren pro Sekunde 3...10 Lebenspunkte. Der Geist verliert pro Feind, der auf diese Weise beeinträchtigt wird, 3...10 Lebenspunkte. Dieser Geist stirbt nach 30...90 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...8 (30...90 Sekunden Lebensdauer). Lässt Feinde in Hörweite jede Sekunde 3...10 Lebenspunkte verlieren. <gray>Der Geist verliert für jeden betroffenen Feind 3...10 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Agony (PvP)",
+				"description": "Binding Ritual. Create a level 1...8 spirit. This spirit causes 3...10 Health loss each second to foes within earshot. This spirit loses 3...10 Health for each foe hurt in this way. This spirit dies after 30...90 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...8 spirit (30...90 second lifespan). Causes 3...10 Health loss each second to foes in earshot. This spirit loses 3...10 Health for each foe that loses Health."
+			},
+			"en-gww": {
+				"name": "Agony (PvP)",
 				"description": "Create a level 1...8 spirit. This spirit causes 3...10 Health loss each second to foes within earshot. This spirit loses 3...10 Health for each foe hurt in this way. This spirit dies after 30...90 seconds.",
 				"concise": "Creates a level 1...8 spirit (30...90 second lifespan). Causes 3...10 Health loss each second to foes in earshot. <gray>This spirit loses 3...10 Health for each foe that loses Health.</gray>"
 			},
+			"es": {
+				"name": "Agonía (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...8. El espíritu hace perder 3...10 de salud por segundo a todos los enemigos al alcance del oído. El espíritu perderá 3...10 de salud por cada enemigo dañado. El espíritu morirá a los 30...90 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...8 (30...90 segundos de vida). Hace perder 3...10 de salud por segundo a todos los enemigos al alcance del oído. El espíritu pierde 3...10 de salud por cada enemigo que pierda salud."
+			},
 			"fr": {
+				"name": "Agonie (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...8. Celui-ci fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. Cet esprit perd 3...10 points de vie pour chaque ennemi blessé de cette manière. Il meurt au bout de 30...90 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...8 (durée de vie de 30...90 secondes). Fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. Cet esprit perd 3...10 points de vie par ennemi perdant de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Agonie (PvP)",
 				"description": "Crée un esprit de niveau 1...8. Celui-ci fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. Cet esprit perd 3...10 points de vie pour chaque ennemi blessé de cette manière. Il meurt au bout de 30...90 secondes.",
 				"concise": "Crée un esprit de niveau 1...8 (durée de vie de 30...90 secondes). Fait perdre 3...10 points de vie par seconde aux ennemis à portée de voix. <gray>Cet esprit perd 3...10 points de vie par ennemi perdant de la santé.</gray>"
+			},
+			"it": {
+				"name": "Agonia (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...8. Lo spirito fa perdere 3...10 Punti Salute al secondo ai nemici a portata d'orecchio. Lo spirito perde 3...10 Punti Salute per ogni nemico così colpito. Lo spirito si esaurisce dopo 30...90 secondi.",
+				"concise": "Rituale Incatenante. Crea uno spirito di livello 1...8 (in vita per 30...90 secondi). Salute persa ogni secondo dai nemici a portata d'orecchio: 3...10. Lo Spirito perde 3...10 Punti Salute per ogni nemico che perde Salute."
+			},
+			"jp": {
+				"name": "アゴニー (PvP)",
+				"description": "バインド リチュアル： レベル 1...8 の精霊を召喚します。この精霊から声の届く範囲内にいる敵は、体力が毎秒 3...10 減少します。この効果により敵が体力を失うたびに、この精霊も 3...10 の体力を失います。この精霊は 30...90 秒後に消えます。",
+				"concise": "バインド リチュアル： レベル 1...8 の精霊を召喚します (30...90 秒) 。この精霊の声の届く範囲内にいる敵は、体力が毎秒 3...10 減少します。敵の体力が減少するたびに、この精霊も 3...10 の体力を失います。"
+			},
+			"kr": {
+				"name": "고뇌의 영혼(대인전)",
+				"description": "영혼 결속. 1...8레벨 영혼을 소환합니다. 가청 범위 내의 적들은 매초 3...10의 체력을 잃고, 영혼 이렇게 피해를 입은 적 하나당 3...10의 체력을 잃습니다. 영혼은 30...90초 후 사라집니다.",
+				"concise": "영혼 결속. 1...8레벨 영혼을 소환합니다.(수명: 30...90초) 가청 범위 내의 적들은 매초 3...10의 체력을 잃습니다. 영혼은 체력을 잃은 적 하나당 3...10의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Agonia (PvP)",
+				"description": "Rytuał spętania. Tworzysz 1...8 poziomowego ducha. Obecność ducha powoduje, że każdy przeciwnik w jego zasięgu słuchu co sekundę traci 3...10 pkt. żywotności. Duch traci 3...10 pkt. żywotności, na każdego przeciwnika, który w ten sposób ucierpi. Duch ginie po 30...90 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...8 (czas życia 30...90 sek.). Przeciwnicy w zasięgu słuchu co sekundę tracą 3...10 pkt. żywotności. Ten duch traci 3...10 pkt. żywotności na każdego przeciwnika, który traci żywotność."
+			},
+			"ru": {
+				"name": "Agony (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...8 уровня. Этот дух вызывает у находящихся в зоне слышимости противников потерю 3...10 ед. здоровья каждую секунду. Этот дух теряет 3...10 ед. здоровья за каждого пораженного таким образом противника. Этот дух умирает через 30...90 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...8 уровня (30...90 сек жизни). Вызывает потерю 3...10 ед. здоровья каждую секунду у противников в зоне слышимости. Этот дух теряет 3...10 ед. здоровья за каждого потерявшего здоровье противника."
+			},
+			"bork": {
+				"name": "Aeguny (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...8 spureet. Thees spureet cooses 3...10 Heaelt luss iaech secund tu fues veetheen iaershut. Thees spureet luses 3...10 Heaelt fur iaech fue-a hoort in thees vaey. Thees spureet deees aeffter 30...90 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...8 spureet (30...90 secund leeffespun). Cooses 3...10 Heaelt luss iaech secund tu fues in iaershut. Thees spureet luses 3...10 Heaelt fur iaech fue-a thaet luses Heaelt."
 			}
 		}
 	}

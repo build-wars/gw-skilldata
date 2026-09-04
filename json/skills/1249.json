@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "偏斜",
+				"description": "缚灵仪式。 创造一只等级为1...14的偏斜缚灵。使所有范围内的「非灵体」类友方有75%的几率格挡武器攻击。每成功格挡一次,缚灵将受到60点伤害。缚灵在30...60秒后自然消失。",
+				"concise": "缚灵仪式。 创造出等级为1...14级的偏斜缚灵。使范围内队友的格挡率提高75%。每成功格挡一次，缚灵将受到60点伤害。缚灵在30...60秒后自然消失。"
+			},
+			"cht": {
+				"name": "偏移",
+				"description": "縛靈儀式： 創造等級 1...14 的偏移縛靈。使區域內所有非「靈」的盟友有 75% 機會「格擋」攻擊。每當「格擋」的效果出現時，縛靈受到 60 傷害。偏移縛靈將在 30...60 秒後消失。",
+				"concise": "縛靈儀式： 創造等級 1...14 的偏移縛靈。使區域內的隊員有 75% 機會「格擋」攻擊。每當「格擋」的效果出現時，縛靈受到 60 傷害。縛靈將在 30...60 秒後消失。"
+			},
 			"de": {
+				"name": "Verschiebung",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...14. Alle Verbündeten in seiner Reichweite, die keine Geister sind, haben eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff auf diese Weise geblockt wird, erleidet dieser Geist 60 Punkt[e] Schaden. Dieser Geist stirbt nach 30...60 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...14 (30...60 Sekunde[n] Lebensdauer). Verbündete in Reichweite, die keine Geister sind, haben eine 75%ige Chance zu blocken. Blockwirkung: Der Geist erleidet 60 Punkt[e] Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Verschiebung",
 				"description": "Erstellt einen Geist der Stufe 1...14. Alle Verbündeten in seiner Reichweite, die keine Geister sind, haben eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff auf diese Weise geblockt wird, erleidet dieser Geist 60 Punkte Schaden. Dieser Geist stirbt nach 30...60 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...14 (30...60 Sekunden Lebensdauer). Verbündete in Reichweite, die keine Geister sind, haben eine 75%ige Chance zu blocken. <gray>Blockwirkung: Der Geist erleidet 60 Punkte Schaden.</gray>"
 			},
 			"en": {
 				"name": "Displacement",
+				"description": "Binding Ritual. Create a level 1...14 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...60 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...14 spirit (30...60 second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage."
+			},
+			"en-gww": {
+				"name": "Displacement",
 				"description": "Create a level 1...14 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...60 seconds.",
 				"concise": "Creates a level 1...14 spirit (30...60 second lifespan). Non-spirit allies within range have 75% chance to block. <gray>Block effect: this spirit takes 60 damage.</gray>"
 			},
+			"es": {
+				"name": "Desplazamiento",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...14. Todos los aliados no espíritus al alcance del oído tienen un 75% de probabilidades de bloquear ataques. Cada vez que se bloquee uno así, este espíritu recibirá 60 de daño. Morirá a los 30...60 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...14 (30...60 segundos de vida). Los aliados no espíritu de la zona tienen un 75% de probabilidades de bloquear. Efecto del bloqueo: este espíritu recibe 60 de daño."
+			},
 			"fr": {
+				"name": "Déplacement",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...14. Tous les alliés autre que des esprits à portée ont 75% de chances de bloquer les attaques. Chaque fois qu'une attaque est bloquée de cette manière, cet esprit subit 60 points de dégâts. Il disparaît au bout de 30...60 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...14 (durée de vie de 30...60 secondes). Les alliés (autres que les esprits) à portée ont 75% de chances de bloquer. Effet du blocage : cet esprit subit 60 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Déplacement",
 				"description": "Crée un esprit de niveau 1...14. Tous les alliés autre que des esprits à portée ont 75% de chances de bloquer les attaques. Chaque fois qu'une attaque est bloquée de cette manière, cet esprit subit 60 points de dégâts. Il disparaît au bout de 30...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spostamento",
+				"description": "Rituale Incatenante. Crei uno Spirito di livello 1...14. Tutti gli alleati (Spiriti esclusi) nella sua portata hanno un 75% di probabilità di bloccare gli attacchi in arrivo; ogni volta che un attacco viene bloccato in questo modo, lo Spirito subisce 60 danno[i]. Questo Spirito si esaurisce dopo 30...60 secondo[i].",
+				"concise": "Rituale Incatenante. Crei uno Spirito di livello 1...14 (in vita per 30...60 secondo[i]). Probabilità di blocco per gli alleati (Spiriti esclusi) nella portata: 75%. Effetto del blocco: questo Spirito riceve 60 danno[i]."
+			},
+			"jp": {
+				"name": "ディスプレイス",
+				"description": "バインド リチュアル： レベル 1...14 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の味方はすべて75%の確率で攻撃をブロックします。この効果により攻撃をブロックするたびに、精霊は 60 のダメージを受けます。この精霊は 30...60 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...14 の精霊を召喚します (30...60 秒)。この精霊の効果範囲内では、精霊以外の味方は75%の確率で攻撃をブロックします。ブロック効果： この精霊は 60 のダメージを受けます。"
+			},
+			"kr": {
+				"name": "변칙의 영혼",
+				"description": "영혼 결속. 대상 지정: 없음. 1...14레벨의 영혼을 소환합니다. 일정 범위 내에 있는 영혼이 아닌 모든 아군은 75%의 확률로 공격을 막아냅니다. 공격을 막을 때마다 영혼은 60의 대미지를 입습니다. 영혼은 30...60초 후 사라집니다.",
+				"concise": "영혼 결속. 1...14레벨 영혼을 소환합니다.(수명: 30...60초) 영혼이 아닌 아군은 75%의 확률로 공격을 막아냅니다. 막는 대가: 영혼이 60의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Przemieszczenie",
+				"description": "Rytuał spętania. Tworzysz 1...14 poziomowego ducha. Wszyscy sojusznicy nie-duchy w jego zasięgu mają 75% szans na blokowanie ataków. Za każdym razem, gdy atak zostanie w ten sposób zablokowany, duch otrzyma 60 pkt. obrażeń. Duch ginie po 30...60 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...14 (czas życia 30...60 sek.). Sojusznicy nie-duchy w zasięgu mają 75% szans na blokowanie. Efekt zablokowania: ten duch otrzymuje 60 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Displacement",
+				"description": "Связующий ритуал. Создает духа 1...14 уровня. Все не являющиеся духами союзники в зоне его действия получают 75%-й шанс блокировать направленные против них атаки. За каждое такое блокирование атаки этот дух получает 60 ед. урона. Этот дух умирает через 30...60 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...14 уровня (30...60 сек жизни). Не являющиеся духами союзники в зоне его действия получают 75%-й шанс блокировать атаки. Эффект блокирования: этот дух получает 60 ед. урона."
+			},
+			"bork": {
+				"name": "Deesplaecement",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...14 spureet. Aell nun-spureet aelleees veetheen its runge-a haefe-a a 75% chunce-a tu bluck incumeeng aettaecks. Ifery teeme-a un aettaeck is blucked in thees vaey, thees spureet taekes 60 daemaege-a. Thees spureet deees aeffter 30...60 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...14 spureet (30...60 secund leeffespun). Nun-spureet aelleees veetheen runge-a haefe-a 75% chunce-a tu bluck. Bluck iffffect: thees spureet taekes 60 daemaege-a."
 			}
 		}
 	}

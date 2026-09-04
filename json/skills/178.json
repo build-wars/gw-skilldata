@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "法力喷涌",
+				"description": "精英增益魔法。 失去所有的「增益魔法」效果，在8...20秒之内，使你的「能量再生」提高6点。当「法力喷涌」结束时，你现有的每点能量将会对你造成3点伤害。此法术会引发施法者的「疲劳」状态。",
+				"concise": "精英增益魔法。 让你失去所有的「增益魔法」，使你的「能量再生」提高6点。然而当「法力喷涌」结束时，你获得的每点能量将会对你造成 3点 伤害，技能持续 8...20秒。此法术会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "非凡魔力",
+				"description": "精英加持魔法： 失去所有「加持」。持續 8...20 秒，你的能量再生增加 6 。然而當非凡魔力結束時，你擁有的每點能量將使你失去 3 體力。此魔法會造成施法者精疲力竭。",
+				"concise": "精英加持魔法： 失去所有「加持」。持續 8...20 秒，你的能量再生增加 6 。然而當非凡魔力結束時，你擁有的每點能量將會對你造成傷害 3 。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Ätherwunder",
+				"description": "Elite-Verzauberung. Alle Verzauberungen gehen verloren. 8...20 Sekunde[n] lang erhaltet Ihr eine Energieregeneration von +6. Wenn Ätherwunder endet, verliert Ihr für jeden Energiepunkt, den Ihr habt, 2 Lebenspunkt[e].",
+				"concise": "Elite-Verzauberung. (8...20 Sekunde[n].) Ihr habt +6 Energieregeneration. Wirkung am Ende: Ihr verliert für jeden Energiepunkt, den Ihr habt, 2 Lebenspunkt[e]. Alle Verzauberungen gehen verloren."
+			},
+			"de-guildwiki": {
 				"name": "Ätherwunder",
 				"description": "Alle Verzauberungen gehen verloren. 8...20 Sekunden erhaltet Ihr eine Energieregeneration von +6. Wenn Ätherwunder endet, verliert Ihr für jeden Energiepunkt, den Ihr habt, 2 Lebenspunkte.",
 				"concise": "(8...20 Sekunden). Ihr habt +6 Energieregeneration. Wirkung am Ende: Ihr verliert für jeden Energiepunkt, den ihr habt, 2 Lebenspunkte. <gray>Alle Verzauberungen gehen verloren.</gray>"
 			},
 			"en": {
 				"name": "Ether Prodigy",
+				"description": "Elite Enchantment Spell. Lose all enchantments. For 8...20 seconds, you gain +6 Energy regeneration. When Ether Prodigy ends, you lose 2 Health for each point of Energy you have.",
+				"concise": "Elite Enchantment Spell. (8...20 seconds.) You have +6 Energy regeneration. End effect: lose 2 Health for each point of Energy you have. Lose all enchantments."
+			},
+			"en-gww": {
+				"name": "Ether Prodigy",
 				"description": "Lose all enchantments. For 8...20 seconds, you gain +6 Energy regeneration. When Ether Prodigy ends, you lose 2 Health for each point of Energy you have.",
 				"concise": "(8...20 seconds.) You have +6 Energy regeneration. End effect: lose 2 Health for each point of Energy you have. <gray>Lose all enchantments.</gray>"
 			},
+			"es": {
+				"name": "Prodigio de éter",
+				"description": "Conjuro con encantamiento de élite. Pierdes todos los encantamientos. Durante 8...20 segundos, tienes +6 de regeneración de energía. Cuando finalice el Prodigio de éter, perderás 2 de salud por cada punto de energía que tengas.",
+				"concise": "Conjuro con encantamiento de élite. (8...20 segundos). Tienes +6 de regeneración de energía. Efecto final: pierdes 2 de salud por cada punto de energía que tengas. Pierdes todos los encantamientos."
+			},
 			"fr": {
+				"name": "Prodige éthéré",
+				"description": "Enchantement d'élite. Vous perdez tous les enchantements. Pendant 8...20 secondes, vous bénéficiez d'une régénération d'énergie de +6. Quand Prodige éthéré prend fin, vous perdez 2 points de vie pour chacun de vos points d'énergie.",
+				"concise": "Enchantement d'élite. (8...20 secondes.) Vous bénéficiez d'une régénération d'énergie de +6. Effet final : vous perdez 2 points de vie pour chaque point d'énergie que vous avez. Vous perdez tous vos enchantements."
+			},
+			"fr-gwiki": {
 				"name": "Prodige éthéré",
 				"description": "Vous perdez tous les enchantements. Pendant 5...20 secondes, vous bénéficiez d'une régénération d'énergie de +6. Quand Prodige éthéré prend fin, vous perdez 3 points de vie pour chacun de vos points d'énergie. Ce sort entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Prodigio dell'Etere",
+				"description": "Incantesimo d'Élite. Perdi tutti gli incantesimi. Per 8...20 secondi ottieni una Rigenerazione dell'Energia di +6. Quando termina, perdi 2 Punti Salute per ogni punto di Energia che possiedi.",
+				"concise": "Incantesimo d'Élite. (Secondi: 8...20.) Hai una Rigenerazione dell'Energia di +6. Effetto al termine: perdi 2 Punti Salute per ogni punto di Energia che possiedi. Perdi tutti gli incantesimi."
+			},
+			"jp": {
+				"name": "エーテル プロディジー",
+				"description": "エリート強化スペル： かけられている強化スペルがすべて解除されますが、8...20 秒間、エネルギーの自然回復力が6増加します。この効果が消失すると、所持するエネルギーのポイントごとに 2 の体力を失います。",
+				"concise": "エリート強化スペル： (8...20 秒) エネルギーの自然回復力が6増加します。終了効果： 残っているエネルギーのポイントごとに 2 の体力を失います。かけられている強化スペルがすべて解除されます。"
+			},
+			"kr": {
+				"name": "경이로운 에너지",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 자신에게 걸려 있는 모든 강화 마법을 제거하여 8...20초 동안 에너지 재생을 6만큼 증가시킵니다. 효과가 끝나면 남은 에너지의 2배에 해당하는 체력을 잃습니다.",
+				"concise": "엘리트 강화 마법. (8...20초) 에너지 재생이 6만큼 증가합니다. 종료 효과: 남은 에너지 1당 2의 체력을 잃습니다. 자신에게 걸린 강화 마법을 모두 잃습니다."
+			},
+			"pl": {
+				"name": "Eteryczny Cud",
+				"description": "Elitarne zaklęcie (czar). Tracisz wszystkie zaklęcia. Przez 8...20 sek. posiadasz regenerację energii +6. Gdy Eteryczny Cud przestanie działać, tracisz 3 pkt. żywotności za każdy posiadany pkt. energii. Ten czar powoduje wyczerpanie.",
+				"concise": "Elitarne zaklęcie (czar). (8...20 sek.) Posiadasz regenerację energii +6. Efekt końcowy: za każdy punkt posiadanej energii tracisz 3 pkt. żywotności. Tracisz wszystkie zaklęcia. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Ether Prodigy",
+				"description": "Элитное заклинание-чары. Вы теряете все наложенные на вас чары. На 8...20 сек ваша скорость восстановления энергии увеличивается на 6 ед. Когда Ether Prodigy завершает свое действие, вы теряете 2 ед. здоровья за каждую оставшуюся у вас ед. энергии.",
+				"concise": "Элитное заклинание-чары. (8...20 сек) Вы получаете +6 ед. к скорости восстановления энергии. Эффект окончания: вы теряете 2 ед. здоровья за каждую оставшуюся у вас ед. энергии. Вы теряете все чары."
+			},
+			"bork": {
+				"name": "Izeer Prudeegy",
+				"description": "Ileete-a Inchuntment Spell. Luse-a aell inchuntments. Fur 8...20 secunds, yuoo gaeeen +6 Inergy regeneraeshun. Vhee Izeer Prudeegy inds, yuoo luse-a 2 Heaelt fur iaech pueent ooff Inergy yuoo haefe-a.",
+				"concise": "Ileete-a Inchuntment Spell. (8...20 secunds.) Yuoo haefe-a +6 Inergy regeneraeshun. Ind iffffect: luse-a 2 Heaelt fur iaech pueent ooff Inergy yuoo haefe-a. Luse-a aell inchuntments."
 			}
 		}
 	}

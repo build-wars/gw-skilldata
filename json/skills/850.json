@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 5.6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "重击",
+				"description": "锤术。 如果命中带有「虚弱」症状的敌人，对其造成 5...20 额外伤害。不然的话，你对目标造成 1...8 额外伤害。",
+				"concise": "锤术。 如果命中带有「虚弱」症状的敌人，对其造成 5...20 额外伤害。不然的话，你对目标造成 1...8 额外伤害。"
+			},
+			"cht": {
+				"name": "兇猛打擊",
+				"description": "鎚術攻擊技能： 命中時造成 5...20 額外傷害，若是目標敵人遭受虛弱病症，則引發重傷 1...8 秒。",
+				"concise": "鎚術攻擊技能： 命中時造成 5...20 額外傷害，若是目標敵人遭受虛弱病症，則引發重傷 1...8 秒。"
+			},
 			"de": {
+				"name": "Erbitterter Schlag",
+				"description": "Hammerangriff. Wenn Erbitterter Schlag trifft, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn der Gegner an Schwäche leidet, erleidet er außerdem 1...8 Sekunde[n] lang eine Tiefe Wunde.",
+				"concise": "Hammerangriff. Richtet +5...20 Punkt[e] Schaden an. Verursacht Tiefe Wunde (1...8 Sekunde[n]), falls der Gegner geschwächt ist."
+			},
+			"de-guildwiki": {
 				"name": "Erbitterter Schlag",
 				"description": "Wenn Erbitterter Schlag trifft, fügt Ihr +5...20 Punkte zu. Wenn der Gegner an Schwäche leidet, erleidet er außerdem 1...8 Sekunden lang eine Tiefe Wunde.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Verursacht Tiefe Wunde (1...8 Sekunden), falls der Gegner geschwächt ist."
 			},
 			"en": {
 				"name": "Fierce Blow",
+				"description": "Hammer Attack. If Fierce Blow hits, you strike for +5...20 damage. If target foe was suffering from Weakness, that foe also suffers from a Deep Wound for 1...8 seconds.",
+				"concise": "Hammer Attack. Deals +5...20 damage. Inflicts Deep Wound (1...8 seconds) if target foe is Weakened."
+			},
+			"en-gww": {
+				"name": "Fierce Blow",
 				"description": "If Fierce Blow hits, you strike for +5...20 damage. If target foe was <sic/> suffering from Weakness, that foe also suffers from a Deep Wound for 1...8 second[s].",
 				"concise": "Deals +5...20 damage. Inflicts Deep Wound (1...8 second[s]) if target foe is Weakened."
 			},
+			"es": {
+				"name": "Golpe feroz",
+				"description": "Ataque con martillo. Si el Golpe feroz impacta, harás +5...20 de daño. Si el enemigo objetivo está sufriendo debilitamiento, también padecerá herida grave durante 1...8 segundos.",
+				"concise": "Ataque con martillo. Hace +5...20 de daño. Causa herida grave (1...8 segundos) si el enemigo objetivo está debilitado."
+			},
 			"fr": {
+				"name": "Attaque féroce",
+				"description": "Attaque au marteau. Sii Attaque féroce réussit, elle inflige +5...20 points de dégâts. Si l'ennemi visé souffrait de Faiblesse, il souffre aussi à présent de Blessure profonde pendant 1...8 secondes.",
+				"concise": "Attaque au marteau. Inflige +5...20 points de dégâts. Inflige Blessure profonde (1...8 secondes si la cible ennemie est Affaiblie."
+			},
+			"fr-gwiki": {
 				"name": "Attaque féroce",
 				"description": "Si cette attaque réussit; vous infligez +5...20 points de dégâts. Si vous frappez une ennemi souffrant de Faiblesse, vous infligez une Blessure profonde pendant 1...8 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Feroce",
+				"description": "Attacco con Martello. Se Colpo Feroce va a segno, infliggi +5...20 danno[i]. Se l'obiettivo nemico è affetto da Debolezza, sarà affetto anche da Ferita Profonda per 1...8 secondo[i].",
+				"concise": "Attacco con Martello. Danni inferti: +5...20. Condizione inflitta se l'obiettivo nemico è affetto da Debolezza: Ferita Profonda (1...8 secondo[i])."
+			},
+			"jp": {
+				"name": "フィアース ブロウ",
+				"description": "ハンマー アタック： 攻撃が成功すると、5...20 の追加ダメージを与えます。ターゲットした敵が「衰弱」状態の場合、1...8 秒間「重傷」状態にします。",
+				"concise": "ハンマー アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が「衰弱」状態の場合、「重傷」状態にします (1...8 秒)。"
+			},
+			"kr": {
+				"name": "잔인한 강타",
+				"description": "해머 공격. 대상 지정: 적. 공격이 성공하면 5...20의 대미지를 추가로 줍니다. 대상이 약체 상태라면 추가로 1...8초 동안 중상 상태로 만듭니다.",
+				"concise": "해머 공격. 5...20의 대미지를 추가로 주고, 약체에 걸린 적에게 중상을 입힙니다.(1...8초)"
+			},
+			"pl": {
+				"name": "Wściekły Cios",
+				"description": "Atak młotem. Jeżeli Wściekły Atak trafi, zadajesz +5...20 pkt. obrażeń. Jeżeli cel jest pod działaniem osłabienia, to na 1...8 sek. otrzymuje także głęboką ranę.",
+				"concise": "Atak młotem. Zadaje +5...20 pkt. obrażeń. Powoduje powstanie głębokiej rany (1...8 sek.), jeżeli wybrany przeciwnik jest osłabiony."
+			},
+			"ru": {
+				"name": "Fierce Blow",
+				"description": "Атака молотом. Если Fierce Blow попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если выбранный противник был ослаблен, он также получит глубокую рану на 1...8 сек.",
+				"concise": "Атака молотом. Наносит дополнительно 5...20 ед. урона. Вызывает глубокую рану (1...8 сек), если выбранный противник был ослаблен."
+			},
+			"bork": {
+				"name": "Feeerce-a Bloo",
+				"description": "Haemmer Aettaeck. Iff Feeerce-a Bloo heets, yuoo streeke-a fur +5...20 daemaege-a. Iff taerget fue-a vaes sooffffereeng frum Veaekness, thaet fue-a aelsu sooffffers frum a Deep Vuoond fur 1...8 secunds.",
+				"concise": "Haemmer Aettaeck. Deaels +5...20 daemaege-a. Inffleects Deep Vuoond (1...8 secunds) iff taerget fue-a is Veaekened."
 			}
 		}
 	}

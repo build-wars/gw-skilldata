@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "记忆重聚",
+				"description": "增益魔法。 在5...20秒之内，当你持有物品或武器时，任何你使用的「物品法术」的能量消耗都将减少5...35%。",
+				"concise": "增益魔法。 在5...20秒之内，当你持有物品或武器时，任何你使用的「物品法术」的能量消耗都将减少5...35%。"
+			},
+			"cht": {
+				"name": "復原記憶",
+				"description": "加持魔法： 持續 5...20 秒，當你抱持一項物品時，你施放的任何「武裝」及「抱持」魔法，其能量消耗減少 5...35% 。",
+				"concise": "加持魔法： 持續 5...20 秒，當你抱持一項物品時，你施放的任何「武裝」及「抱持」魔法，其能量消耗減少 5...35% 。"
+			},
 			"de": {
+				"name": "Erneuernde Erinnerungen",
+				"description": "Verzauberung. 5...20 Sekunde[n] lang kostet Euch beim Halten eines Gegenstandes das Wirken aller Waffen- und Gegenstandszauber um 5...35% weniger Energie.",
+				"concise": "Verzauberung. 5...20 Sekunde[n]: Eure Waffen- und Gegenstandszauber kosten 5...35% weniger Energie. Ihr müsst einen Gegenstand halten, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Erneuernde Erinnerungen",
 				"description": "5...20 Sekunden lang kostet Euch beim Halten eines Gegenstandes das Wirken aller Waffen- und Gegenstandszauber 5...35% weniger Energie.",
 				"concise": "5...20 Sekunden: Eure Waffen- und Gegenstandszauber kosten 5...35% weniger Energie. <gray>Ihr müsst einen Gegenstand halten, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Renewing Memories",
+				"description": "Enchantment Spell. For 5...20 seconds, while holding an item, any weapon and item spells you cast cost 5...35% less Energy.",
+				"concise": "Enchantment Spell. (5...20 seconds.) Your weapon and item spells cost 5...35% less Energy. No effect unless holding an item."
+			},
+			"en-gww": {
+				"name": "Renewing Memories",
 				"description": "For 5...20 seconds, while holding an item, any weapon and item Spells you cast cost 5...35% less Energy.",
 				"concise": "(5...20 seconds.) Your weapon and item spells cost 5...35% less Energy. <gray>No effect unless holding an item.</gray>"
 			},
+			"es": {
+				"name": "Recuerdos renovadores",
+				"description": "Conjuro con encantamiento. Durante 5...20 segundos, mientras lleves un objeto, los conjuros para armas y objetos que lances te costarán un 5...35% menos de energía.",
+				"concise": "Conjuro con encantamiento. (5...20 segundos). Tus conjuros con armas y objetos consumen un 5...35% menos de energía. No tiene efecto si no estás llevando algún objeto."
+			},
 			"fr": {
+				"name": "Souvenirs renouvelés",
+				"description": "Enchantement. Pendant 5...20 secondes, pendant que vous tenez un objet, tout sort d'altération d'armes ou d'objets coûte 5...35% d'énergie en moins.",
+				"concise": "Enchantement. (5...20 secondes.) Vos sorts d'altération d'armes ou d'objets coûtent 5...35% d'énergie en moins. Aucun effet si vous ne tenez pas d'objet."
+			},
+			"fr-gwiki": {
 				"name": "Souvenirs renouvelés",
 				"description": "Pendant 5...20 secondes, pendant que vous tenez un objet, tout sort d'altération d'armes ou d'objets coûte 5...35% d'énergie en moins.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rinnovamento dei Ricordi",
+				"description": "Incantesimo. Per 5...20 secondo[i], mentre hai in mano un oggetto, qualsiasi magia altera-arma o altera-oggetto da te lanciata costa un 5...35% in meno di Energia.",
+				"concise": "Incantesimo. (Secondi: 5...20) Riduzione del costo energetico delle magia altera-arma e altera-oggetti: 5...35%. Ha effetto solo se hai in mano un oggetto."
+			},
+			"jp": {
+				"name": "リニュー メモリー",
+				"description": "強化スペル： 5...20 秒間、手にアイテムを持っている間は、ウェポン スペルまたはアイテム スペルの詠唱に必要なエネルギーが 5...35% 減少します。",
+				"concise": "強化スペル： (5...20 秒) ウェポンおよびアイテム スペルの詠唱に必要なエネルギーが 5...35% 減少します。手にアイテムを持っていない場合は無効です。"
+			},
+			"kr": {
+				"name": "기억의 재생",
+				"description": "강화 마법. 대상 지정: 없음. 5...20초 동안 드롭아이템을 들고 있으면 마법 무기 종류와 드롭아이템 소환 마법의 소모 에너지가 5...35% 감소합니다.",
+				"concise": "강화 마법. (5...20초) 마법 무기 마법과 드롭아이템 마법의 소모 에너지가 5...35% 감소합니다. 드롭아이템을 들고 있어야 합니다."
+			},
+			"pl": {
+				"name": "Odnowienie Wspomnień",
+				"description": "Zaklęcie (czar). Przez 5...20 sek., kiedy trzymasz przedmiot, wszystkie twoje czary rzucane na broń lub wykorzystujące przedmiot kosztują o 5...35% energii mniej.",
+				"concise": "Zaklęcie (czar). (5...20 sek.) Twoje czary na broń i tworzące przedmioty kosztują o 5...35% energii mniej. Bez efektu, chyba że trzymasz przedmiot."
+			},
+			"ru": {
+				"name": "Renewing Memories",
+				"description": "Заклинание-чары. В течение 5...20 сек до тех пор, пока вы держите в руках артефакт, любое оружейное или артефактное заклинание потребует от вас на 5...35% энергии меньше.",
+				"concise": "Заклинание-чары. (5...20 сек) Ваши оружейные и артефактные заклинания требует на 5...35% меньше энергии. Не действует, если вы не держите артефакт."
+			},
+			"bork": {
+				"name": "Renooeeng Memureees",
+				"description": "Inchuntment Spell. Fur 5...20 secunds, vheele-a huldeeng un item, uny veaepun und item spells yuoo caest cust 5...35% less Inergy.",
+				"concise": "Inchuntment Spell. (5...20 secunds.) Yuoor veaepun und item spells cust 5...35% less Inergy. Nu iffffect unless huldeeng un item."
 			}
 		}
 	}

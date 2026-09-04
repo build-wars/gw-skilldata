@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "愈合之触",
+				"description": "咒文。 触摸友方目标，使其失去2种「症状」，每成功移除1项「症状」，为其恢复15...60点生命值。",
+				"concise": "触摸法术。 触摸友方目标，使其失去2种「症状」，每成功移除1项「症状」，为其恢复15...60点生命值。"
+			},
+			"cht": {
+				"name": "癒合之觸",
+				"description": "咒文魔法： 碰觸盟友為其消除兩項「病症」，同時依照你消除的病症數量，每項給予該盟友 15...60 治癒效果。",
+				"concise": "碰觸魔法： 碰觸盟友為其消除兩項「病症」，同時依照你消除的病症數量，每項給予該盟友 15...60 治癒效果。"
+			},
 			"de": {
+				"name": "Genesungsberührung",
+				"description": "Zauber. Der berührte Verbündete verliert zwei Zustände und wird für jeden Zustand, der auf diese Weise entfernt wird, um 15...60 Lebenspunkt[e] geheilt.",
+				"concise": "Berührungs-Zauber. Entfernt zwei Zustände. Heilt für jeden entfernten Zustand um 15...60 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Genesungsberührung",
 				"description": "Der berührte Verbündete (bzw. Ihr selbst) verliert zwei Zustände und wird für jeden Zustand, der auf diese Weise entfernt wird, um 15...60 Lebenspunkte geheilt.",
 				"concise": "Entfernt zwei Zustände. Heilt für jeden entfernten Zustand um 15...60 Lebenspunkte."
 			},
 			"en": {
 				"name": "Mending Touch",
+				"description": "Spell. Touched ally loses two conditions and is healed for 15...60 Health for each condition removed in this way.",
+				"concise": "Touch Spell. Removes two conditions. Heals for 15...60 for each condition removed."
+			},
+			"en-gww": {
+				"name": "Mending Touch",
 				"description": "Touched ally loses two conditions and is healed for 15...60 Health for each condition removed in this way.",
 				"concise": "Touch Spell. Removes two conditions. Heals for 15...60 for each condition removed."
 			},
+			"es": {
+				"name": "Toque sanador",
+				"description": "Conjuro. Quitas dos condiciones al aliado que toques y le curas 15...60 de salud por cada una que le quites.",
+				"concise": "Conjuro de toque. Elimina dos condiciones. Cura 15...60 de salud por condición."
+			},
 			"fr": {
+				"name": "Toucher réparateur",
+				"description": "Sort. La cible touchée (un allié ou vous-même) perd deux conditions et est soignée de 15...60 points de vie pour chaque condition supprimée de cette manière.",
+				"concise": "Sort de toucher. Supprime deux conditions. Soigne de 15...60 points de vie par condition supprimée."
+			},
+			"fr-gwiki": {
 				"name": "Toucher réparateur",
 				"description": "La cible touchée (un allié ou vous-même) perd deux conditions et est soigné de 15...60 points de vie pour chaque condition supprimée de cette manière.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tocco Riparatore",
+				"description": "Magia. L'alleato toccato perde due condizioni e viene curato di 15...60 Punto[i] Salute per ogni condizione così rimossa.",
+				"concise": "Magia a Tocco. Rimuove due condizioni. Cura di 15...60 per ogni condizione rimossa."
+			},
+			"jp": {
+				"name": "メンド タッチ",
+				"description": "スペル： 接触した味方にかけられている「状態異常」を2個解除します。この効果により解除した「状態異常」ごとに、味方の体力が 15...60 回復します。",
+				"concise": "スペル (接触)： 「状態異常」を2個解除します。解除した「状態異常」ごとに 15...60 の体力が回復します。"
+			},
+			"kr": {
+				"name": "회복의 손길",
+				"description": "마법. 대상 지정: 아군. 대상에 걸린 상태이상 2개를 무효화합니다. 대상은 무효화된 상태이상 하나당 15...60의 체력을 회복합니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "마법(접근용). 상태이상 2개를 무효화합니다. 무효화한 상태이상 하나당 15...60의 체력을 회복시킵니다."
+			},
+			"pl": {
+				"name": "Odnawiający Dotyk",
+				"description": "Czar. Dotknięty sojusznik traci dwie przypadłości i za każdą przypadłość usuniętą w ten sposób otrzymuje 15...60 pkt. żywotności.",
+				"concise": "Czar dotykowy. Usuwa dwie przypadłości. Za każdą usuniętą przypadłość dodaje 15...60 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Mending Touch",
+				"description": "Заклинание. С союзника, к которому вы прикоснулись, снимаются два состояния, и он исцеляется на 15...60 ед. здоровья за каждое состояние, снятое при помощи этого умения.",
+				"concise": "Заклинание прикосновения. Снимает два состояния. Исцеляет на 15...60 ед. здоровья за каждое снятое состояние."
+			},
+			"bork": {
+				"name": "Mendeeng Tuooch",
+				"description": "Spell. Tuooched aelly luses tvu cundeeshuns und is heaeled fur 15...60 Heaelt fur iaech cundeeshun remufed in thees vaey.",
+				"concise": "Tuooch Spell. Remufes tvu cundeeshuns. Heaels fur 15...60 fur iaech cundeeshun remufed. Bork! Bork! Bork!"
 			}
 		}
 	}

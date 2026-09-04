@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Earthen Shackles",
+				"description": "负面魔法。 For 3 seconds, target and all adjacent foes move 90% slower while Burning.",
+				"concise": "负面魔法。 (3 seconds.) Target and adjacent foes move 90% slower while Burning."
+			},
+			"cht": {
+				"name": "大地束縛",
+				"description": "降咒魔法： 持續3秒，當目標及其鄰近的敵人遭受著火時，移動速度下降90%。",
+				"concise": "降咒魔法： 持續3秒，當目標及其鄰近的敵人遭受著火時，移動速度下降90%。"
+			},
 			"de": {
+				"name": "Irdene Fesseln",
+				"description": "Verhexung. 3 Sekunden lang bewegen sich der Gegner und alle Feinde in der Nähe um 90% langsamer. Wenn Irdene Fesseln endet, verursacht es Schwäche für 5...20 Sekunden",
+				"concise": "Verhexung. (3 Sekunden.) Der Gegner und alle umstehenden Feinde bewegen sich um 90% langsamer. Verursacht Schwäche für 5...20 Sekunden, wenn es endet."
+			},
+			"de-guildwiki": {
 				"name": "Irdene Fesseln",
 				"description": "3 Sekunden lang bewegen sich der Gegner und alle Feinde in der Nähe um 90% langsamer. Wenn Irdene Fesseln endet, verursacht es Schwäche für 5...20 Sekunden.",
 				"concise": "(3 Sekunden.) Der Gegner und alle umstehenden Feinde bewegen sich um 90% langsamer. Verursacht Schwäche für 5...20 Sekunden, wenn es endet."
 			},
 			"en": {
 				"name": "Earthen Shackles",
+				"description": "Hex Spell. For 3 seconds, target and all nearby foes move 90% slower. When Earthen Shackles ends, it applies Weakness for 5...20 seconds.",
+				"concise": "Hex Spell. (3 seconds.) Target and nearby foes move 90% slower. Applies Weakness for 5...20 seconds when it ends."
+			},
+			"en-gww": {
+				"name": "Earthen Shackles",
 				"description": "For 3 seconds, target and all nearby foes move 90% slower. When Earthen Shackles ends, it applies Weakness for 5...20 seconds.",
 				"concise": "(3 seconds.) Target and nearby foes move 90% slower. Applies Weakness for 5...20 seconds when it ends."
 			},
+			"es": {
+				"name": "Grilletes de tierra",
+				"description": "Conjuro con maleficio. Durante 3 segundos, el enemigo objetivo y los cercanos se mueven un 90% más despacio. Cuando Grilletes de tierra termina, aplica debilitamiento durante 5...20 segundos.",
+				"concise": "Conjuro con maleficio. (3 segundos.) El enemigo objetivo y los cercanos se mueven un 90% más despacio. Causa debilitamiento durante 5...20 segundos al acabar."
+			},
 			"fr": {
+				"name": "Chaînes de terre",
+				"description": "Maléfice. Pendant 3 secondes, la cible et tous les ennemis à proximité se déplacent 90% moins vite. Lorsqu'elles prennent fin, les Chaînes de terre infligent Faiblesse pendant 5...20 secondes.",
+				"concise": "Maléfice. (3 secondes.) La cible et les ennemis à proximité se déplacent 90% moins vite. Inflige Faiblesse pendant 5...20 secondes en prenant fin."
+			},
+			"fr-gwiki": {
 				"name": "Chaînes de terre",
 				"description": "Pendant 5...20 secondes, la cible ennemie et tous les ennemis adjacents se déplacent 66% moins vite pendant qu'elle souffre de Brûlure.",
 				"concise": "(5...20 secondes.) La cible ennemie et les ennemis adjacents se déplacent 66% moins vite lorsqu'ils souffre de Brûlure."
+			},
+			"it": {
+				"name": "Catene di Terra",
+				"description": "Fattura. Per 3 secondi la velocità dell'obiettivo nemico e di tutti i nemici nei dintorni diminuisce di un 90%. Al termine, Catene di Terra provoca Debolezza per 5...20 secondi.",
+				"concise": "Fattura. (Secondi: 3.) Diminuzione velocita obiettivo e nemici nei dintorni: 90%. Debolezza inflitta al termine: 5...20 secondi."
+			},
+			"jp": {
+				"name": "アースン シャックル",
+				"description": "弱体化スペル： 3 秒間、ターゲットした敵および周囲にいる敵は移動速度が 90% 減少します。この効果が消失すると、5...20 秒間「衰弱」状態にします。",
+				"concise": "弱体化スペル： (3 秒) ターゲットした敵および周囲にいる敵は移動速度が 90% 減少します。この効果が消失すると、5...20 秒間「衰弱」状態になります。"
+			},
+			"kr": {
+				"name": "땅의 족쇄",
+				"description": "약화 마법. 대상 지정: 적. 3초 동안 대상과 부근의 모든 적의 이동 속도를 90% 느려지게 하고, 효과가 끝날 때 5...20초 동안 약체 상태로 만듭니다.",
+				"concise": "약화 마법. (3초) 대상와 부근의 적들의 이동 속도가 90% 느려집니다. 종료 효과: 적들을 약체로 만듭니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Gliniane Kajdany",
+				"description": "Klątwa (czar). Przez 3 sek., wybrany przeciwnik i wszyscy przeciwnicy w pobliżu poruszają się 90% wolniej. Kiedy Gliniane Kajdany się skończą, przeciwnik na 5...20 sek. zostaje osłabiony.",
+				"concise": "Klątwa (czar). (3 sek.) Cel i pobliscy przeciwnicy poruszają się 90 wolniej. Osłabia przeciwnika na 5...20 sek. po zakończeniu."
+			},
+			"ru": {
+				"name": "Earthen Shackles",
+				"description": "Заклинание-проклятье. В течение 3 сек выбранный противник и все противники поблизости двигаются на 90% медленнее. Когда действие Earthen Shackles заканчивается, эти противники будут ослаблены на 5...20 сек.",
+				"concise": "Заклинание-проклятье. (3 сек) Выбранный противник и противники поблизости двигаются на 90% медленнее. Вызывает слабость (5...20 сек) при окончании."
+			},
+			"bork": {
+				"name": "Iaerzeen Shaeckles",
+				"description": "Hex Spell. Fur 3 secunds, taerget und aell neaerby fues mufe-a 90% slooer. Vhee Iaerzeen Shaeckles inds, it aeppleees Veaekness fur 5...20 secunds. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (3 secunds.) Taerget und neaerby fues mufe-a 90% slooer. Aeppleees Veaekness fur 5...20 secunds vhee it inds."
 			}
 		}
 	}

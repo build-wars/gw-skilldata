@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "熄灭",
+				"description": "咒文。 消除每位队员身上的一项「症状」。如果是带有「灼烧」症状而被消除的队伍成员，被治愈 10...100 生命。",
+				"concise": "咒文。 消除每位队员身上的一项「症状」。如果是带有「灼烧」症状而被消除的队伍成员，被治愈 10...100 生命。"
+			},
+			"cht": {
+				"name": "熄滅",
+				"description": "咒文魔法： 消除每位隊員身上的一項「病症」。若是正遭受「著火」病症而被消除的隊伍成員，被治癒 10...100 體力。",
+				"concise": "咒文魔法： 消除每位隊員身上的一項「病症」。若是正遭受「著火」病症而被消除的隊伍成員，被治癒 10...100 體力。"
+			},
 			"de": {
+				"name": "Löschen",
+				"description": "Zauber. Entfernt einen Zustand von jedem Gruppenmitglied. Gruppenmitglieder, von denen Brennen entfernt wurde, werden um 10...100 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Wirkt auf die gesamte Gruppe. Entfernt einen Zustand. Gruppenmitglieder, von denen Brennen entfernt wurde, werden um 10...100 Lebenspunkt[e] geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Löschen",
 				"description": "Entfernt einen Zustand von jedem Gruppenmitglied. Gruppenmitglieder, von denen Brennen entfernt wurde, werden um 10...100 Lebenspunkte geheilt.",
 				"concise": "Wirkt auf die gesamte Gruppe. Entfernt einen Zustand. Gruppenmitglieder, von denen Brennen entfernt wurde, werden um 10...100 Lebenspunkte geheilt."
 			},
 			"en": {
 				"name": "Extinguish",
+				"description": "Spell. Remove one condition from each party member. Party members relieved of Burning are healed for 10...100 Health.",
+				"concise": "Spell. Affects all party members. Removes one condition. Party members relieved of Burning are healed for 10...100."
+			},
+			"en-gww": {
+				"name": "Extinguish",
 				"description": "Remove one condition from each party member. Party members relieved of Burning are healed for 10...100 Health.",
 				"concise": "Affects all party members. Removes one condition. Party members relieved of Burning are healed for 10...100."
 			},
+			"es": {
+				"name": "Extinción",
+				"description": "Conjuro. Quitas una condición de cada miembro del grupo. Si alguno estaba sufriendo una quemadura, se curará 10...100 de salud.",
+				"concise": "Conjuro. Afecta a todos los miembros del equipo. Elimina una condición. Los miembros curados de quemadura se curan 10...100 de salud."
+			},
 			"fr": {
+				"name": "Extinction",
+				"description": "Sort. Supprime une condition de chaque membre du groupe. Si la condition supprimée est la Brûlure, la cible est soignée de 10...100 points de vie.",
+				"concise": "Sort. Affecte tous les membres de l'équipe. Supprime une condition. Les membres du groupe soulagés de la Brûlure sont soignés de 10...100 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Extinction",
 				"description": "Supprime une condition de chaque membre du groupe. Si la condition supprimée est la Brûlure, la cible est soignée de 10...100 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Estinzione",
+				"description": "Magia. Rimuovi una condizione da ogni membro della squadra; gli alleati ai quali viene rimossa la Bruciatura ricevono 10...100 Punto[i] Salute.",
+				"concise": "Magia. Ha effetto su tutti i membri della squadra. Rimuove una condizione. Cure per i membri della squadra ai quali viene rimossa Bruciatura: 10...100."
+			},
+			"jp": {
+				"name": "エクスティングィッシュ",
+				"description": "スペル： 各パーティー メンバーにかけられている「状態異常」を1個解除します。「火傷」状態が解除されたパーティー メンバーは、体力が 10...100 回復します。",
+				"concise": "スペル： すべてのパーティー メンバーにかけられている「状態異常」を1個解除します。「火傷」状態が解除されたパーティー メンバーは、体力が 10...100 回復します。"
+			},
+			"kr": {
+				"name": "진화",
+				"description": "마법. 대상 지정: 없음. 파티원의 상태이상을 하나씩 치료합니다. 이 마법으로 화상이 치료된 파티원은 10...100의 체력을 회복합니다.",
+				"concise": "마법. 파티원 모두의 상태이상을 하나씩 무효화합니다. 화상에서 벗어난 파티원은 10...100의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Ugaszenie",
+				"description": "Czar. Z każdego członka drużyny usuwasz po jednej przypadłości. Członkowie drużyny, którzy w ten sposób zostali uwolnieni od płonięcia, otrzymują po 10...100 pkt. żywotności.",
+				"concise": "Czar. Działa na wszystkich członków drużyny. Usuwa przypadłość. Członkowie drużyny uwolnieni od płonięcia otrzymują po 10...100 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Extinguish",
+				"description": "Заклинание. Снимает одно состояние с каждого члена вашего отряда. Члены отряда, освобожденные с помощью этого умения от горения, исцеляются на 10...100 ед. здоровья.",
+				"concise": "Заклинание. Действует на всех членов отряда. Снимает одно состояние. Члены отряда, освобожденные от горения, исцеляются на 10...100 ед. здоровья."
+			},
+			"bork": {
+				"name": "Ixteengooeesh",
+				"description": "Spell. Remufe-a oone-a cundeeshun frum iaech paerty member. Paerty members releeefed ooff Boorneeng aere-a heaeled fur 10...100 Heaelt.",
+				"concise": "Spell. Aeffffects aell paerty members. Remufes oone-a cundeeshun. Paerty members releeefed ooff Boorneeng aere-a heaeled fur 10...100."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力梦魇",
+				"description": "负面魔法。 使目标敌人失去5...8点能量值。目标敌人每因此失去一点能量值，他和范围内的所有敌人将遭受1点「生命衰减」，持续10秒。",
+				"concise": "负面魔法。 使目标敌人失去5...8点能量值。目标敌人每因此失去一点能量值，他和范围内的所有敌人将遭受1点「生命衰减」，持续10秒。"
+			},
+			"cht": {
+				"name": "魔力衰退",
+				"description": "降咒魔法： 使目標敵人失去5...8能量。該目標每失去1能量，目標及其範圍內的敵人將遭受體力衰減1，持續10秒。",
+				"concise": "降咒魔法： 使目標敵人失去5...8能量。該目標每失去1能量，目標及其範圍內的敵人將遭受體力衰減1，持續10秒。"
+			},
 			"de": {
+				"name": "Äther-Alptraum",
+				"description": "Verhexung. Der Gegner verliert 5...8 Energiepunkt[e]. Der Gegner und alle Feinde in dem Bereich erleiden 10 Sekunde[n] lang eine Lebenspunktdegeneration in Höhe der verlorenen Energiepunkte.",
+				"concise": "Verhexung. Lässt 5...8 Energiepunkt[e] verlieren. Der Gegner und Feinde im Gebiet haben -1 Lebenspunktdegeneration pro verlorenem Energiepunkt (10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Äther-Alptraum (Kurzick)",
 				"description": "Der Gegner verliert 5...8 Energiepunkte. Der Gegner und alle Feinde in dem Bereich erleiden 10 Sekunden lang eine Lebenspunktdegeneration in Höhe der verlorenen Energiepunkte.",
 				"concise": "Lässt 5...8 Energiepunkte verlieren. Der Gegner und Feinde im Gebiet<sic/> haben -1 Lebenspunktdegeneration pro verlorenem Energiepunkt (10 Sekunden)."
 			},
 			"en": {
+				"name": "Ether Nightmare",
+				"description": "Hex Spell. Target foe loses 5...8 Energy. For each point of Energy lost in this way, that foe and all foes in the area suffer -1 Health degeneration for 10 seconds.",
+				"concise": "Hex Spell. Causes 5...8 Energy loss. Target and foes in the area have -1 Health degeneration for each point of Energy lost (10 seconds)."
+			},
+			"en-gww": {
 				"name": "Ether Nightmare (Kurzick)",
 				"description": "Target foe loses 5...8 Energy. For each point of Energy lost in this way, that foe and all foes in the area suffer -1 Health degeneration for 10 seconds.",
 				"concise": "Causes 5...8 Energy loss. Target and foes in the area have -1 Health degeneration for each point of Energy lost (10 seconds)."
 			},
+			"es": {
+				"name": "Pesadilla de éter",
+				"description": "Conjuro con maleficio. El enemigo objetivo pierde 5...8 de energía. Por cada punto de energía que pierda así, ese enemigo y todos los que estén en la zona sufrirán una degeneración de salud de -1 durante 10 segundos.",
+				"concise": "Conjuro con maleficio. Hace perder 5...8 de energía. El enemigo objetivo y los de la zona tienen -1 de degeneración de salud por cada punto de energía perdido (10 segundos)."
+			},
 			"fr": {
+				"name": "Cauchemar éthéré",
+				"description": "Maléfice. L'ennemi visé perd 5...8 points d'énergie. Pour chaque point d'énergie perdu de cette manière, la cible et tous les ennemis dans la zone subissent une dégénération de santé de -1 pendant 10 secondes.",
+				"concise": "Maléfice. Provoque une perte de 5...8 points d'énergie. La cible et les ennemis dans la zone subissent une dégénération de santé de -1 pour chaque point d'énergie perdu (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Cauchemar éthéré (Kurzick)",
 				"description": "L'ennemi visé perd 5...8 points d'énergie. Pour chaque point d'énergie perdu de cette manière, la cible et tous les ennemis dans la zone subissent une dégénération de santé de -1 pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Incubo Etereo",
+				"description": "Fattura. L'obiettivo nemico perde 5...8 Punto[i] Energia. Per ogni Punto Energia perduto in questo modo, l'obiettivo e tutti i nemici nell'area subiscono -1 di Degenerazione Salute per 10 secondo[i].",
+				"concise": "Fattura. Perdita Energia: 5...8. Degenerazione Salute dell'obiettivo e dei nemici nell'area per ogni punto di Energia perso: -1 (10 secondo[i])."
+			},
+			"jp": {
+				"name": "エーテル ナイトメア",
+				"description": "弱体化スペル： ターゲットした敵は 5...8 のエネルギーを失います。この効果により失ったエネルギーのポイントごとに、その敵およびエリア内にいるすべての敵は 10 秒間、体力の自然回復力が 1 減少します。",
+				"concise": "弱体化スペル： エネルギーを 5...8 減少させます。ターゲットした敵およびエリア内にいる敵は、失ったエネルギーごとに体力の自然回復力が 1 減少します (10 秒)。"
+			},
+			"kr": {
+				"name": "정기 악몽",
+				"description": "약화 마법. 대상 지정: 적. 대상은 5...8의 에너지를 잃습니다. 이렇게 잃는 에너지 1당, 대상과 대상을 중심으로 일정 범위 내에 있는 모든 적은 10초 동안 체력 재생이 1 감소합니다.",
+				"concise": "약화 마법. 대상에게 5...8의 에너지 손실을 유발합니다. 이렇게 잃는 에너지 1당, 대상과 대상을 중심으로 일정 범위 내에 있는 적들은 체력 재생이 1 감소합니다.(10초)"
+			},
+			"pl": {
+				"name": "Eteryczny Koszmar",
+				"description": "Klątwa (czar). Wybrany przeciwnik traci 5...8 pkt. energii. Za każdy stracony w ten sposób punkt energii, ten przeciwnik i wszyscy przeciwnicy w okolicy na 10 sek. posiadają degenerację żywotności -1.",
+				"concise": "Klątwa (czar). Powoduje utratę 5...8 pkt. energii. Za każdy punkt utraconej energii, cel i przeciwnicy w okolicy posiadają degenerację żywotności -1 (10 sek.)."
+			},
+			"ru": {
+				"name": "Ether Nightmare",
+				"description": "Заклинание-проклятье. Выбранный противник теряет 5...8 ед. энергии. За каждую потерянную таким образом единицу энергии скорость восстановления здоровья у этого противника и всех противников в зоне досягаемости уменьшается на 1 ед. в течение 10 сек.",
+				"concise": "Заклинание-проклятье. Вызывает потерю 5...8 ед. энергии. Цель и противники в зоне досягаемости получают -1 ед. к скорости восстановления здоровья за каждую потерянную ед. энергии (10 сек)."
+			},
+			"bork": {
+				"name": "Izeer Neeghtmaere-a",
+				"description": "Hex Spell. Taerget fue-a luses 5...8 Inergy. Fur iaech pueent ooff Inergy lust in thees vaey, thaet fue-a und aell fues in zee aerea sooffffer -1 Heaelt degeneraeshun fur 10 secunds.",
+				"concise": "Hex Spell. Cooses 5...8 Inergy luss. Taerget und fues in zee aerea haefe-a -1 Heaelt degeneraeshun fur iaech pueent ooff Inergy lust (10 secunds)."
 			}
 		}
 	}

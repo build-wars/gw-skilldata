@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 2,
 		"adrenaline_precise": 2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "指引圣歌",
+				"description": "精英圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用攻击技能时，将不会被格挡。",
+				"concise": "精英圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用攻击技能时，将不会被格挡。"
+			},
+			"cht": {
+				"name": "指導聖歌",
+				"description": "精英聖歌： 持續 10 秒，使音量所及範圍內的隊伍成員，「下一次」使用的「攻擊技能」無法被「格擋」。",
+				"concise": "精英聖歌： 持續 10 秒，使音量所及範圍內的盟友，「下一次」使用的「攻擊技能」無法被「格擋」。"
+			},
 			"de": {
+				"name": "Hymne der Führung",
+				"description": "Elite-Anfeuerungsruf. 10 Sekunde[n] lang kann die nächste Fertigkeit, die jedes Gruppenmitglied in Hörweite verwendet, nicht geblockt werden.",
+				"concise": "Elite-Anfeuerungsruf. 10 Sekunde[n]: Die nächste Angriffsfertigkeit von Gruppenmitgliedern in Hörweite kann nicht geblockt werden."
+			},
+			"de-guildwiki": {
 				"name": "Hymne der Führung",
 				"description": "10 Sekunden lang kann der nächste theoretische Treffer mit einer Angriffsfertigkeit, die jedes Gruppenmitglied in Hörweite verwendet, nicht geblockt werden.",
 				"concise": "10 Sekunden: Die nächste Angriffsfertigkeit von Gruppenmitgliedern in Hörweite kann nicht geblockt werden."
 			},
 			"en": {
 				"name": "Anthem of Guidance",
+				"description": "Elite Chant. For 10 seconds, the next attack skill used by each party member within earshot cannot be blocked.",
+				"concise": "Elite Chant. (10 seconds.) Party members in earshot are unblockable with their next attack skill."
+			},
+			"en-gww": {
+				"name": "Anthem of Guidance",
 				"description": "For 10 seconds, the next attack skill used by each party member within earshot cannot be blocked.",
 				"concise": "(10 seconds.) Party members in earshot are unblockable with their next attack skill."
 			},
+			"es": {
+				"name": "Himno de guía",
+				"description": "Cántico de élite. Durante 10 segundos, la siguiente habilidad de ataque que use cada miembro del grupo al alcance del oído no se podrá bloquear.",
+				"concise": "Cántico de élite. (10 segundos). A los miembros del grupo al alcance del oído no se les puede interrumpir su próxima habilidad de ataque."
+			},
 			"fr": {
+				"name": "Hymne de direction",
+				"description": "Chant d'élite. Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix ne peut pas être bloquée.",
+				"concise": "Chant d'élite. (10 secondes.) La compétence d'attaque suivante des membres du groupe à portée de voix ne peut pas être bloquée."
+			},
+			"fr-gwiki": {
 				"name": "Hymne de direction",
 				"description": "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Inno della Guida",
+				"description": "Canto d'Élite. Per 10 secondo[i] la prossima abilità utilizzata da ogni membro della squadra a portata d'orecchio non può essere bloccata.",
+				"concise": "Canto d'Élite. (Secondi: 10) I membri della squadra a portata d'orecchio non possono essere bloccati con l'abilità d'attacco successiva."
+			},
+			"jp": {
+				"name": "ガイダンス アンセム",
+				"description": "エリート チャント： 10 秒間、声の届く範囲内にいるパーティー メンバーはそれぞれ、次に使用するアタック スキルがブロックされません。",
+				"concise": "エリート チャント： (10 秒) 声の届く範囲内にいるパーティー メンバーは、次に使用するアタック スキルがブロックされません。"
+			},
+			"kr": {
+				"name": "지휘의 성가",
+				"description": "엘리트 영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원이 사용하는 공격 스킬은 막을 수 없습니다. 파티원마다 처음 한 번만 효과가 있습니다.",
+				"concise": "엘리트 영창. (10초) 가청 범위 내에 있는 파티원들이 처음 사용하는 공격 스킬은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Hymn Naprowadzenia",
+				"description": "Elitarny zaśpiew. Przez 10 sek. następna umiejętność związana z atakiem, używana przez każdego członka drużyny w zasięgu słuchu, nie może być zablokowana.",
+				"concise": "Elitarny zaśpiew. (10 sek.) Członkowie drużyny w zasięgu słuchu nie mogą zostać zablokowani ze swoją następną umiejętnością związaną z atakiem."
+			},
+			"ru": {
+				"name": "Anthem of Guidance",
+				"description": "Элитный хорал. В течение 10 сек следующее атакующее умение, использованное каждым членом вашего отряда, находящимся в зоне слышимости, не может быть блокировано.",
+				"concise": "Элитный хорал. (10 сек) Члены отряда в зоне слышимости не могут быть блокированы при следующем использовании ими атакующего умения."
+			},
+			"bork": {
+				"name": "Unzeem ooff Gooeedunce-a",
+				"description": "Ileete-a Chunt. Fur 10 secunds, zee next aettaeck skeell used by iaech paerty member veetheen iaershut cunnut be-a blucked.",
+				"concise": "Ileete-a Chunt. (10 secunds.) Paerty members in iaershut aere-a unbluckaeble-a veet zeeur next aettaeck skeell."
 			}
 		}
 	}

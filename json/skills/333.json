@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「我要报仇！」",
+				"description": "战吼。 根据友方的死亡数目进行判断，每一个阵亡的友方都能让你在10秒之内，攻击速度提升25%、「生命再生」提高3...7点。",
+				"concise": "战吼。 根据队友的死亡数目进行判断，每一个阵亡的队友都能让你的攻击速度提升 25%、「生命再生」提高3...7点，效果持续 10秒。"
+			},
+			"cht": {
+				"name": "「我要報仇！」",
+				"description": "戰嚎： 依照此技能發動時的盟友死亡數，每個死亡的盟友能夠讓你獲得10秒的攻擊速度增加 25% 及體力再生增加 3...7 。",
+				"concise": "戰嚎： 依照此技能發動時的盟友死亡數，每個死亡的盟友能夠讓你獲得10秒的攻擊速度增加 25% 及體力再生增加 3...7 。"
+			},
 			"de": {
+				"name": "Ich werde Euch rächen!",
+				"description": "Schrei. Für jeden toten Verbündeten erhaltet Ihr 10 Sekunden lang eine Lebenspunktregeneration von +3...7 und Eure Angriffsgeschwindigkeit erhöht sich um 25%.",
+				"concise": "Schrei. Ihr habt +3...7 Lebenspunktregeneration und greift um 25% schneller an (10 Sekunden pro totem Verbündetem)."
+			},
+			"de-guildwiki": {
 				"name": "Ich werde Euch rächen!",
 				"description": "Für jeden toten Verbündeten auf dem Kompass erhaltet Ihr 10 Sekunden lang eine Lebenspunktregeneration von +3...7 und der Abstand zwischen Euren Angriffen sinkt um 25%.",
 				"concise": "Ihr habt +3...7 Lebenspunktregeneration und greift um 25% schneller an (10 Sekunden pro totem Verbündetem)."
 			},
 			"en": {
 				"name": "\"I Will Avenge You!\"",
+				"description": "Shout. For each dead ally, you gain 10 seconds of +3...7 Health regeneration and your attack speed increases by 25%.",
+				"concise": "Shout. You have +3...7 Health regeneration and attack 25% faster (10 seconds for each dead ally)."
+			},
+			"en-gww": {
+				"name": "\"I Will Avenge You!\"",
 				"description": "For each dead ally, you gain 10 seconds of +3...7 Health regeneration and your attack speed increases by 25%.",
 				"concise": "You have +3...7 Health regeneration and attack 25% faster (10 seconds for each dead ally)."
 			},
+			"es": {
+				"name": "¡Os vengaré!",
+				"description": "Grito. Por cada aliado muerto, durante 10 segundos la salud se regenera en +3...7 y atacas un 25% más deprisa.",
+				"concise": "Grito. Tienes +3...7 de regeneración de salud y atacas un 25% más deprisa (10 segundos por cada aliado muerto)."
+			},
 			"fr": {
+				"name": "Je vous vengerai !",
+				"description": "Cri. Pour chaque allié mort, votre vitesse d'attaque augmente de 25% et vous bénéficiez d'une régénération de santé de +3...7 pendant 10 secondes.",
+				"concise": "Cri. Vous bénéficiez d'une régénération de santé de +3...7 et vous attaquez 25% plus vite (10 secondes par allié mort)."
+			},
+			"fr-gwiki": {
 				"name": "\"Je vous vengerai !\"",
 				"description": "Pour chaque allié mort, votre vitesse d'attaque augmente de 25% et vous bénéficiez d'une régénération de santé de +3...7 pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ti Vendicherò!",
+				"description": "Urlo. Per ogni alleato morto, ottieni una Rigenerazione della Salute di +3...7 per 10 secondi e la tua velocità d'attacco aumenta del 25%.",
+				"concise": "Urlo. Rigenerazione tua Salute: +3...7. Incremento tua velocità d'attacco: 25% (10 secondi per ogni alleato morto)."
+			},
+			"jp": {
+				"name": "アベンジ！",
+				"description": "シャウト： 戦闘不能になった味方ごとに、10秒間体力の自然回復力が 3...7、攻撃速度が25%増加します。",
+				"concise": "シャウト： 体力の自然回復力が 3...7、攻撃速度が25%増加します (戦闘不能になった味方ごとに10秒)。"
+			},
+			"kr": {
+				"name": "복수할 것이다!",
+				"description": "고함. 대상 지정: 없음. 죽은 아군 하나당 10초씩 체력 재생이 3...7 증가하고, 동시에 공격 속도가 25% 빨라집니다.",
+				"concise": "고함. 체력 재생이 3...7만큼 증가하고, 공격 속도가 25% 빨라집니다.(죽은 아군 1명당 10초씩)"
+			},
+			"pl": {
+				"name": "Pomszczę Cię!",
+				"description": "Okrzyk. Za każdego martwego sojusznika, otrzymujesz 10 sek. regeneracji żywotności +3...7 i szybkość twoich ataków zwiększa się o 25%.",
+				"concise": "Okrzyk. Posiadasz regenerację żywotności +3...7 i atakujesz o 25% szybciej (10 sek. za każdego martwego sojusznika)."
+			},
+			"ru": {
+				"name": "\"I Will Avenge You!\"",
+				"description": "Крик. За каждого мертвого союзника вы получаете 10 сек увеличения скорости регенерации вашего здоровья на 3...7 ед. и повышения скорости ваших атак на 25%.",
+				"concise": "Крик. Вы получаете +3...7 ед. к скорости восстановления здоровья и атакуете на 25% быстрее (10 сек за каждого мертвого союзника)."
+			},
+			"bork": {
+				"name": "\"I Veell Aefenge-a Yuoo!\"",
+				"description": "Shuoot. Fur iaech deaed aelly, yuoo gaeeen 10 secunds ooff +3...7 Heaelt regeneraeshun und yuoor aettaeck speed increaeses by 25%.",
+				"concise": "Shuoot. Yuoo haefe-a +3...7 Heaelt regeneraeshun und aettaeck 25% faester (10 secunds fur iaech deaed aelly)."
 			}
 		}
 	}

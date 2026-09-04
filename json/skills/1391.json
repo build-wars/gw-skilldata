@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "援助之魂",
+				"description": "增益魔法。 在5...23秒之内，当友方目标被击倒并且受到伤害时，目标将回复5...50点生命值。",
+				"concise": "增益魔法。 在5...23秒之内，当友方目标被击倒并且受到伤害时，目标将回复5...50点生命值。"
+			},
+			"cht": {
+				"name": "支援靈氣",
+				"description": "加持魔法： 持續 5...23 秒，每當目標盟友在「倒地」時受到傷害，該盟友獲得 5...50 體力。",
+				"concise": "加持魔法： 持續 5...23 秒，每當目標盟友在「倒地」時受到傷害，該盟友獲得 5...50 體力。"
+			},
 			"de": {
+				"name": "Unterstützender Geist",
+				"description": "Verzauberung. 5...23 Sekunde[n] lang wird der Verbündete (bzw. Ihr selbst) jedes Mal, wenn er Schaden erleidet, während er am Boden liegt, um 5...50 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. 5...23 Sekunde[n]: Heilt jedes Mal um 5...50 Lebenspunkt[e], wenn der Verbündete (bzw. Ihr selbst) Schaden erleidet, während er zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Unterstützender Geist",
 				"description": "5...23 Sekunden lang wird der Verbündete (bzw. Ihr selbst) jedes Mal, wenn er Schaden erleidet, während er am Boden liegt, um 5...50 Lebenspunkte geheilt.",
 				"concise": "5...23 Sekunden: Heilt jedes Mal um 5...50 Lebenspunkte, wenn der Verbündete (bzw. Ihr selbst) Schaden erleidet, während er zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Supportive Spirit",
+				"description": "Enchantment Spell. For 5...23 seconds, whenever target ally takes damage while knocked down, that ally is healed for 5...50 Health.",
+				"concise": "Enchantment Spell. (5...23 seconds.) Heals for 5...50 whenever target ally takes damage while knocked-down."
+			},
+			"en-gww": {
+				"name": "Supportive Spirit",
 				"description": "For 5...23 seconds, whenever target ally takes damage while knocked down, that ally is healed for 5...50 Health.",
 				"concise": "(5...23 seconds.) Heals for 5...50 whenever target ally takes damage while knocked-down."
 			},
+			"es": {
+				"name": "Espíritu de apoyo",
+				"description": "Conjuro con encantamiento. Durante 5...23 segundos, cada vez que el objetivo (un aliado o tú mismo) reciba daño mientras esté derribado, se curará 5...50 de salud.",
+				"concise": "Conjuro con encantamiento. (5...23 segundos). Cura 5...50 de salud cada vez que el objetivo (un aliado o tú mismo) reciba daño mientras esté derribado."
+			},
 			"fr": {
+				"name": "Esprit de soutien",
+				"description": "Enchantement. Pendant 5...23 secondes, chaque fois que la cible (un allié ou vous-même) subit des dégâts lorsqu'elle est assommée, elle est soignée de 5...50 points de vie.",
+				"concise": "Enchantement. (5...23 secondes.) Soigne de 5...50 points de vie chaque fois que l'allié visé subit des dégâts alors qu'il est assommé."
+			},
+			"fr-gwiki": {
 				"name": "Esprit de soutien",
 				"description": "Pendant 5...23 secondes, chaque fois que la cible (un allié ou vous-même) subit des dégâts lorsqu'elle est assommée, elle est soignée de 5...50 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito Sostenitore",
+				"description": "Incantesimo. Dura 5...23 secondo[i]; ogni volta che l'obiettivo (un alleato o te stesso) subisce dei danni mentre si trova a terra, sarà curato di 5...50 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 5...23) Cure impartite ogni volta che l'obiettivo alleato subisce danni mentre è abbattuto: 5...50."
+			},
+			"jp": {
+				"name": "サポーティブ スピリット",
+				"description": "強化スペル： 5...23秒間、ターゲットした味方が転倒中にダメージを受けた場合、その味方は体力が 5...50 回復します。",
+				"concise": "強化スペル： (5...23 秒) ターゲットした味方は、転倒中にダメージを受けるたびに体力が 5...50 回復します。"
+			},
+			"kr": {
+				"name": "원기 보조",
+				"description": "강화 마법. 대상 지정: 아군. 5...23초 동안 대상이 바닥에 넘어진 상태로 대미지를 입을 때마다 대상은 5...50의 체력을 회복합니다.",
+				"concise": "강화 마법. (5...23초) 대상이 바닥에 넘어진 상태로 대미지를 입을 때마다 체력을 5...50씩 회복시킵니다."
+			},
+			"pl": {
+				"name": "Wspierający Duch",
+				"description": "Zaklęcie (czar). Przez 5...23 sek., za każdym razem, kiedy wybrany sojusznik otrzyma obrażenia będąc powalonym, otrzyma 5...50 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (5...23 sek.) Dodaje 5...50 pkt. żywotności, za każdym razem, kiedy wybrany sojusznik otrzymuje obrażenia będąc powalonym."
+			},
+			"ru": {
+				"name": "Supportive Spirit",
+				"description": "Заклинание-чары. В течение 5...23 сек каждый раз, когда выбранный союзник получает урон в то время, когда он сбит с ног, этот союзник исцеляется на 5...50 ед. здоровья.",
+				"concise": "Заклинание-чары. (5...23 сек) Исцеляет на 5...50 ед. здоровья каждый раз, когда выбранный союзник получает урон в то время, когда он сбит с ног"
+			},
+			"bork": {
+				"name": "Sooppurteefe-a Spureet",
+				"description": "Inchuntment Spell. Fur 5...23 secunds, vhenefer taerget aelly taekes daemaege-a vheele-a knucked doon, thaet aelly is heaeled fur 5...50 Heaelt.",
+				"concise": "Inchuntment Spell. (5...23 secunds.) Heaels fur 5...50 vhenefer taerget aelly taekes daemaege-a vheele-a knucked-doon."
 			}
 		}
 	}

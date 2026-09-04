@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神圣之灵",
+				"description": "增益魔法。 使你的僧侣类法术能量消耗减少 5点，效果持续 1...14秒。（最低消耗 1点 能量）",
+				"concise": "增益魔法。 使你的僧侣类法术能量消耗减少 5点，效果持续 1...14秒。（最低消耗1点 能量）"
+			},
+			"cht": {
+				"name": "神聖精神",
+				"description": "加持魔法： 持續 1...14 秒，僧侶的「魔法」能量消耗減少 5。（至少消耗 1 能量）",
+				"concise": "加持魔法： 持續 1...14 秒，僧侶的「魔法」能量消耗減少 5。（至少消耗 1 能量）"
+			},
 			"de": {
+				"name": "Göttlicher Geist",
+				"description": "Verzauberung. 1...14 Sekunde[n] lang kostet Euch das Wirken von Mönch-Zaubern 5 Energiepunkte weniger. (Mindestkosten: 1 Energiepunkt).",
+				"concise": "Verzauberung. 1...14 Sekunde[n]: Mönch-Zauber kosten Euch 5 Energiepunkte weniger. Mindestkosten: 1 Energiepunkt."
+			},
+			"de-guildwiki": {
 				"name": "Göttlicher Geist",
 				"description": "1...14 Sekunden lang kostet Euch das Wirken von Mönch-Zaubern 5 Energiepunkte weniger. (Mindestkosten: 1 Energiepunkt).",
 				"concise": "1...14 Sekunden: Mönch-Zauber kosten Euch 5 Energiepunkte weniger. <gray>Mindestkosten: 1 Energiepunkt.</gray>"
 			},
 			"en": {
 				"name": "Divine Spirit",
+				"description": "Enchantment Spell. For 1...14 seconds, Monk spells cost you 5 less Energy to cast. (Minimum cost: 1 Energy.)",
+				"concise": "Enchantment Spell. (1...14 seconds.) Monk spells cost you 5 less Energy. Minimum cost: 1 Energy."
+			},
+			"en-gww": {
+				"name": "Divine Spirit",
 				"description": "For 1...14 second[s], Monk Spells cost you 5 less Energy to cast. (Minimum cost: 1 Energy.)",
 				"concise": "(1...14 second[s].) Monk spells cost you 5 less Energy. <gray>Minimum cost: 1 Energy.</gray>"
 			},
+			"es": {
+				"name": "Espíritu divino",
+				"description": "Conjuro con encantamiento. Durante 1...14 segundos, lanzar conjuros de Monje te costará 5 menos de energía. (Coste mínimo: 1 de energía).",
+				"concise": "Conjuro con encantamiento. (1...14 segundos). Los conjuros de Monje te cuestan 5 menos de energía. Coste mínimo: 1 de energía."
+			},
 			"fr": {
+				"name": "Esprit divin",
+				"description": "Enchantement. Pendant 1...14 secondes, les sorts de Moine vous coûtent 5 points d'énergie en moins (coût minimum : 1 point d'énergie).",
+				"concise": "Enchantement. (1...14 secondes.) Les sorts de Moine coûtent 5 points d'énergie en moins. Coût minimum : 1 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Esprit divin",
 				"description": "Pendant 1...14 seconde(s), les sorts de Moine vous coûtent 5 points d'énergie en moins (coût minimum : 1 point d'énergie).",
 				"concise": "(1...14 seconde(s).) Les sorts de Moine coûtent 5 points en moins. <gray>Coût minimum : 1 point d'énergie.</gray>"
+			},
+			"it": {
+				"name": "Spirito Divino",
+				"description": "Incantesimo. Per 1...14 secondo[i], le magie del Mistico ti costano 5 Punti Energia in meno (costo minimo: 1 Punto Energia).",
+				"concise": "Incantesimo. (Secondi: 1...14) Riduzione del costo energetico delle tue magie del Mistico: 5. Costo minimo: 1 Punto Energia."
+			},
+			"jp": {
+				"name": "ディヴァイン スピリット",
+				"description": "強化スペル： 1...14 秒間、モンク スペルの詠唱に必要なエネルギーが5減少します。ただし、最低1のエネルギーを消費します。",
+				"concise": "強化スペル： (1...14 秒) モンク スペルの詠唱に必要なエネルギーが5減少します。最小コスト： 1のエネルギー"
+			},
+			"kr": {
+				"name": "성령의 은총",
+				"description": "강화 마법. 대상 지정: 없음. 1...14초 동안 몽크 마법을 사용할 때 5의 에너지를 적게 소모합니다. 최소 1의 에너지는 소모합니다.",
+				"concise": "강화 마법. (1...14초) 몽크 마법의 소모 에너지가 5 감소합니다. 최소 소모 에너지: 1의 에너지"
+			},
+			"pl": {
+				"name": "Boski Duch",
+				"description": "Zaklęcie (czar). Przez 1...14 sek. wszystkie czary mnicha, które rzucasz kosztują o 5 pkt. energii mniej. (Koszt minimalny: 1 pkt. energii.)",
+				"concise": "Zaklęcie (czar). (1...14 sek.) Czary mnicha kosztują cię o 5 pkt. energii mniej. Minimalny koszt: 1 pkt. energii."
+			},
+			"ru": {
+				"name": "Divine Spirit",
+				"description": "Заклинание-чары. В течение 1...14 сек заклинания профессии Monk требуют для своей активации на 5 ед. энергии меньше (минимальная цена заклинания составляет 1 ед. энергии).",
+				"concise": "Заклинание-чары. (1...14 сек) Заклинания профессии Monk требуют на 5 ед. энергии меньше. Минимальная цена: 1 ед. энергии."
+			},
+			"bork": {
+				"name": "Deefeene-a Spureet",
+				"description": "Inchuntment Spell. Fur 1...14 secunds, Munk spells cust yuoo 5 less Inergy tu caest. (Meeneemoom cust: 1 Inergy.)",
+				"concise": "Inchuntment Spell. (1...14 secunds.) Munk spells cust yuoo 5 less Inergy. Meeneemoom cust: 1 Inergy."
 			}
 		}
 	}

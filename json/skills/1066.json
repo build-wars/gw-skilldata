@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "胜者之掠",
+				"description": "精英负面魔法。 在3...15秒之内，每当目标敌人对生命值低于他的生物进行武器攻击或是施放法术时，该敌人将失去25...100点生命值。",
+				"concise": "精英负面魔法。 在3...15秒之内，每当目标敌人对生命较低的生物进行攻击或是施法，使其失去 25...100点 生命值。"
+			},
+			"cht": {
+				"name": "勝者的掠奪",
+				"description": "精英降咒魔法： 持續 3...15 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 25...100 體力。",
+				"concise": "精英降咒魔法： 持續 3...15 秒，每當目標敵人對體力較低的生物進行攻擊或是施展「魔法」，該目標失去 25...100 體力。"
+			},
 			"de": {
+				"name": "Sieger plündern",
+				"description": "Elite-Verhexung. Während der nächsten 3...15 Sekunde[n] verliert der Gegner jedes Mal, wenn er eine Kreatur mit weniger Lebenspunkten angreift oder einen Zauber auf sie wirkt, 25...100 Lebenspunkt[e].",
+				"concise": "Elite-Verhexung. 3...15 Sekunde[n]: Lässt den Gegner jedes Mal 25...100 Lebenspunkt[e] verlieren, wenn er eine Kreatur mit weniger Lebenspunkten angreift oder einen Zauber auf eine solche Kreatur wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Sieger plündern",
 				"description": "Während der nächsten 3...15 Sekunden verliert der Gegner jedes Mal, wenn er eine Kreatur mit weniger Lebenspunkten angreift oder einen Zauber auf sie wirkt, 25...100 Lebenspunkte.",
 				"concise": "3...15 Sekunden: Lässt den Gegner jedes Mal 25...100 verlieren, wenn er eine Kreatur mit weniger Lebenspunkte angreift oder einen Zauber auf eine solche Kreatur wirkt."
 			},
 			"en": {
 				"name": "Spoil Victor",
+				"description": "Elite Hex Spell. For 3...15 seconds, whenever target foe attacks or casts a spell on a creature with less Health that foe loses 25...100 Health.",
+				"concise": "Elite Hex Spell. (3...15 seconds.) Causes 25...100 Health loss whenever target foe attacks or casts spells on a creature with less Health."
+			},
+			"en-gww": {
+				"name": "Spoil Victor",
 				"description": "For 3...15 seconds, whenever target foe attacks or casts a spell on a creature with less Health, that foe loses 25...100 Health.",
 				"concise": "(3...15 seconds.) Causes 25...100 Health loss whenever target foe attacks or casts spells on a creature with less Health."
 			},
+			"es": {
+				"name": "Aguafiestas",
+				"description": "Conjuro con maleficio de élite. Durante 3...15 segundos, siempre que el enemigo objetivo ataque o lance un conjuro sobre una criatura con menos salud, perderá 25...100 de salud.",
+				"concise": "Conjuro con maleficio de élite. (3...15 segundos). El enemigo objetivo pierde 25...100 de salud cada vez que ataque o lance conjuros sobre una criatura con menos salud."
+			},
 			"fr": {
+				"name": "Vainqueur dépouillé",
+				"description": "Maléfice d'élite. Pendant 3...15 secondes, chaque fois que l'ennemi ciblé attaque ou lance un sort sur une créature ayant moins de santé, cet ennemi perd 25...100 points de vie.",
+				"concise": "Maléfice d'élite. (3...15 secondes.) Provoque une perte de 25...100 points de vie chaque fois que la cible ennemie attaque ou lance un sort sur une créature ayant une santé inférieure à la sienne."
+			},
+			"fr-gwiki": {
 				"name": "Vainqueur dépouillé",
 				"description": "Pendant 3...15 secondes, chaque fois que l'ennemi ciblé attaque ou lance un sort sur une créature ayant moins de santé, cet ennemi perd 25...100 points de vie.",
 				"concise": "(3...15 secondes.) Provoque une perte de 25...100 points de vie chaque fois que la cible ennemie attaque ou lance un sort sur une créature ayant une santé inférieure à la sienne."
+			},
+			"it": {
+				"name": "Deruba il Vincitore",
+				"description": "Fattura d'Élite. Per 3...15 secondo[i], ogni volta che l'obiettivo nemico attacca o lancia una magia su una creatura con meno Salute, perde 25...100 Punto[i] Salute.",
+				"concise": "Fattura d'Élite. (Secondi: 3...15) Salute persa ogni volta che l'obiettivo nemico attacca o lancia magie su una creatura con Salute inferiore: 25...100."
+			},
+			"jp": {
+				"name": "スポイル ヴィクター",
+				"description": "エリート弱体化スペル： 3...15 秒間、ターゲットした敵は、敵自身より体力の少ない生物に対して攻撃またはスペルを詠唱するたびに体力が 25...100 減少します。",
+				"concise": "エリート弱体化スペル： (3...15 秒) ターゲットした敵は、敵自身より体力の少ない生物に対して攻撃またはスペルを詠唱するたびに体力が 25...100 減少します。"
+			},
+			"kr": {
+				"name": "우월의 대가",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 3...15초 동안 대상이 자신보다 체력이 적은 상대를 공격하거나 마법을 사용하면 대상은 25...100의 체력을 잃습니다.",
+				"concise": "엘리트 약화 마법. (3...15초) 대상은 체력이 적은 적을 상대로 공격하거나 마법을 사용할 때마다 25...100의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Łup Zwycięzcy",
+				"description": "Elitarna klątwa (czar). Przez 3...15 sek., za każdym razem, kiedy wybrany przeciwnik atakuje lub rzuca czar na stworzenie z mniejszą liczbą punktów żywotności od siebie, traci 25...100 pkt. żywotności.",
+				"concise": "Elitarna klątwa (czar). (3...15 sek.) Powoduje utratę 25...100 pkt. żywotności, za każdym razem, kiedy wybrany przeciwnik atakuje lub rzuca czar na stworzenie z mniejszą żywotnością."
+			},
+			"ru": {
+				"name": "Spoil Victor",
+				"description": "Элитное заклинание-проклятье. В течение 3...15 сек каждый раз, когда выбранный противник атакует или произносит заклинание, и создание, являющееся его целью, имеет меньше здоровья, чем противник, то этот противник теряет 25...100 ед. здоровья.",
+				"concise": "Элитное заклинание-проклятье. (3...15 сек) Вызывает потерю 25...100 ед. здоровья каждый раз, когда выбранный противник атакует или направляет заклинание на создание, у которого меньше здоровья, чем у него."
+			},
+			"bork": {
+				"name": "Spueel Feectur",
+				"description": "Ileete-a Hex Spell. Fur 3...15 secunds, vhenefer taerget fue-a aettaecks oor caests a spell oon a creaetoore-a veet less Heaelt thaet fue-a luses 25...100 Heaelt.",
+				"concise": "Ileete-a Hex Spell. (3...15 secunds.) Cooses 25...100 Heaelt luss vhenefer taerget fue-a aettaecks oor caests spells oon a creaetoore-a veet less Heaelt."
 			}
 		}
 	}

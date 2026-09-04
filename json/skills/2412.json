@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Smooth Criminal",
+				"description": "咒文。 For 10...20 seconds, one random spell is disabled for target foe and Smooth Criminal is replaced by that spell. You gain 5...10 Energy.",
+				"concise": "咒文。 (10...20 seconds.) Disables one spell. This skill becomes that spell. You gain 5...10 Energy."
+			},
+			"cht": {
+				"name": "圓滑罪犯",
+				"description": "咒文魔法： 持續 10...20 秒，隨機使目標敵人的一個魔法無法使用，而該魔法將取代「圓滑罪犯」。你可獲得 5...10 能量。",
+				"concise": "咒文魔法： For 10...20 seconds, one random Spell is disabled for target foe and Smooth Criminal is replaced by that Spell. You gain 5...10 Energy."
+			},
 			"de": {
+				"name": "Durchtriebener Krimineller",
+				"description": "Zauber. 10...20 Sekunde[n] lang wird ein zufällig gewählter Zauber des Gegners deaktiviert und Durchtriebener Krimineller wird durch diesen Zauber ersetzt. Ihr erhaltet 5...10 Energiepunkt[e].",
+				"concise": "Zauber. 10...20 Sekunde[n]: Deaktiviert einen Zauber. Diese Fertigkeit wird zum betreffenden Zauber. Ihr erhaltet 5...10 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Durchtriebener Krimineller",
 				"description": "10...20 Sekunden lang wird ein zufällig gewählter Zauber des Gegners deaktiviert und Durchtriebener Krimineller wird durch diesen Zauber ersetzt. Ihr erhaltet 5...10 Energiepunkte.",
 				"concise": "10...20 Sekunden: Deaktiviert einen Zauber. Diese Fertigkeit wird zum betreffenden Zauber. Ihr erhaltet 5...10 Energiepunkte."
 			},
 			"en": {
 				"name": "Smooth Criminal",
+				"description": "Spell. For 10...20 seconds, one random spell is disabled for target foe and Smooth Criminal is replaced by that spell. You gain 5...10 Energy.",
+				"concise": "Spell. (10...20 seconds.) Disables one spell. This skill becomes that spell. You gain 5...10 Energy."
+			},
+			"en-gww": {
+				"name": "Smooth Criminal",
 				"description": "For 10...20 seconds, one random spell is disabled for target foe and Smooth Criminal is replaced by that spell. You gain 5...10 Energy.",
 				"concise": "(10...20 seconds.) Disables one Spell. This skill becomes that Spell. You gain 5...10 Energy."
 			},
+			"es": {
+				"name": "Criminal elegante",
+				"description": "Conjuro. Durante 10...20 segundos, un conjuro aleatorio del enemigo objetivo se desactiva y el Criminal elegante será reemplazado por el conjuro desactivado. Además ganas 5...10 de energía.",
+				"concise": "Conjuro. (10...20 segundos). Desactiva un conjuro. Esta habilidad se convierte en ese conjuro. Ganas 5...10 de energía."
+			},
 			"fr": {
+				"name": "Criminel improbable",
+				"description": "Sort. Pendant 10...20 secondes, l'ennemi ciblé ne peut plus utiliser un sort choisi aléatoirement et Criminel improbable est remplacé par ce sort. Vous bénéficiez de 5...10 points d'énergie.",
+				"concise": "Sort. (10...20 secondes.) Désactive un sort. Cette compétence remplace ce sort. Vous gagnez 5...10 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Criminel improbable",
 				"description": "Pendant 10...20 secondes, l'ennemi ciblé ne peut plus utiliser un sort choisi aléatoirement et Criminel improbable est remplacé par ce sort. Vous bénéficiez de 5...10 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Criminale Raffinato",
+				"description": "Magia. Dura 10...20 secondo[i]; una magia a caso dell'obiettivo nemico viene disattivata e Criminale Raffinato viene sostituito da quella magia. Ottieni 5...10 Punto[i] Energia.",
+				"concise": "Magia. (Secondi: 10...20) Disattiva una magia. Questa abilità si trasforma in quella magia. Energia conseguita: 5...10."
+			},
+			"jp": {
+				"name": "スムーズ クリミナル",
+				"description": "スペル： 10...20 秒間、ターゲットした敵が装備するスペルをランダムに1個封じ込め、そのスペルと入れ替わります。プレイヤーは 5...10 のエネルギーを獲得します。",
+				"concise": "スペル： (10...20 秒) スペルを1個封じ込め、そのスペルと入れ替わります。プレイヤーは 5...10 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "고요한 강탈",
+				"description": "마법. 10...20초 동안 대상은 마법 하나를 사용할 수 없게 됩니다. 자신은 5...10에너지 얻고, 이 스킬이 그 마법으로 전환됩니다.",
+				"concise": "마법. (10...20초) 마법 하나를 사용할 수 없게 합니다. 자신은 5...10에너지 얻고, 이 스킬이 그 마법으로 바뀝니다."
+			},
+			"pl": {
+				"name": "Wykroczenie",
+				"description": "Czar. Na 10...20 sek. jeden losowy czar wybranego przeciwnika zostaje wyłączony, a Wykroczenie zostaje zastąpione tym czarem. Otrzymujesz 5...10 pkt. energii.",
+				"concise": "Czar. (10...20 sek.) Wyłącza jeden czar. Ta umiejętność staje się tym czarem. Otrzymujesz 5...10 pkt. energii."
+			},
+			"ru": {
+				"name": "Smooth Criminal",
+				"description": "Заклинание. В течение 10...20 сек у выбранного противника будет недоступно одно случайно выбранное заклинание, а Smooth Criminal будет заменен этим заклинанием. Вы получаете 5...10 ед. энергии.",
+				"concise": "Заклинание. (10...20 сек) Делает недоступным одно заклинание. Это умение заменяется этим заклинанием. Вы получаете 5...10 ед. энергии."
+			},
+			"bork": {
+				"name": "Smuut Creemeenael",
+				"description": "Spell. Fur 10...20 secunds, oone-a rundum spell is deesaebled fur taerget fue-a und Smuut Creemeenael is replaeced by thaet spell. Yuoo gaeeen 5...10 Inergy.",
+				"concise": "Spell. (10...20 secunds.) Deesaebles oone-a spell. Thees skeell becumes thaet spell. Yuoo gaeeen 5...10 Inergy."
 			}
 		}
 	}

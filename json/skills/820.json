@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "败坏",
+				"description": "精英负面魔法。 在5...20秒之内，当目标敌人施法时，他和附近的一名敌人将失去1...5点能量值。",
+				"concise": "精英负面魔法。 在5...20秒之内，当目标敌人施法时，他和附近的一名敌人将失去1...5点能量值。"
+			},
+			"cht": {
+				"name": "邪惡",
+				"description": "精英降咒魔法： 持續 5...20 秒，每當目標敵人施展「魔法」時，該目標及其附近的一名敵人失去 1...5 能量。",
+				"concise": "精英降咒魔法： 持續 5...20 秒，每當目標敵人施展「魔法」時，該目標及其附近的一名敵人失去 1...5 能量。"
+			},
 			"de": {
+				"name": "Verderbtheit",
+				"description": "Elite-Verhexung. Während der nächsten 5...20 Sekunde[n] verlieren immer, wenn der Gegner einen Zauber wirkt, dieser und ein Feind in der Nähe 1...5 Punkt[e] Energie.",
+				"concise": "Elite-Verhexung. 5...20 Sekunde[n]: Lässt jedes Mal 1...5 Energiepunkt[e] verlieren, wenn der Gegner einen Zauber wirkt. Auch ein Feinde in Eurer Nähe verliert Energie."
+			},
+			"de-guildwiki": {
 				"name": "Verderbtheit",
 				"description": "Während der nächsten 5...20 Sekunden verlieren immer, wenn der Gegner einen Zauber wirkt, dieser und ein Feind in der Nähe 1...5 Energiepunkte.",
 				"concise": "5...20 Sekunden: Lässt jedes Mal 1...5 Energiepunkte verlieren, wenn der Gegner einen Zauber wirkt. Auch ein Feinde<sic/> in Eurer Nähe verliert Energie."
 			},
 			"en": {
 				"name": "Depravity",
+				"description": "Elite Hex Spell. For 5...20 seconds, whenever target foe casts a spell, that foe and one nearby foe lose 1...5 Energy.",
+				"concise": "Elite Hex Spell. (5...20 seconds.) Causes 1...5 Energy loss whenever target foe casts a spell. One foe near your target also loses Energy."
+			},
+			"en-gww": {
+				"name": "Depravity",
 				"description": "For 5...20 seconds, whenever target foe casts a spell, that foe and one nearby foe lose 1...5 Energy.",
 				"concise": "(5...20 seconds.) Causes 1...5 Energy loss whenever target foe casts a spell. One foe near your target also loses Energy."
 			},
+			"es": {
+				"name": "Depravación",
+				"description": "Conjuro con maleficio de élite. Durante 5...20 segundos, siempre que el enemigo objetivo lance un conjuro, éste y un enemigo cercano perderán 1...5 de energía.",
+				"concise": "Conjuro con maleficio de élite. (5...20 segundos). Hace perder 1...5 de energía cada vez que el enemigo objetivo lance un conjuro. Un enemigo cercano a tu objetivo también pierde energía."
+			},
 			"fr": {
+				"name": "Dépravation",
+				"description": "Maléfice d'élite. Pendant 5...20 secondes, chaque fois qu'une cible ennemie lance un sort, cet ennemi et un ennemi à proximité perdent 1...5 points d'énergie.",
+				"concise": "Maléfice d'élite. (5...20 secondes.) Provoque une perte de 1...5 points d'énergie chaque fois que l'ennemi visé lance un sort. Un ennemi à proximité de votre cible perd aussi de l'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Dépravation",
 				"description": "Pendant 5...20 secondes, chaque fois qu'une cible ennemie lance un sort, cet ennemi et un ennemi à proximité perdent 1...5 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Depravazione",
+				"description": "Fattura d'Élite. Per 5...20 secondo[i], ogni volta che un obiettivo nemico lancia una magia, lui e un altro nemico nei dintorni perdono 1...5 Punto[i] Energia.",
+				"concise": "Fattura d'Élite. (Secondi: 5...20) Perdita di Energia ogni volta che l'obiettivo nemico lancia una magia: 1...5. Anche un nemico vicino al tuo obiettivo perde Energia."
+			},
+			"jp": {
+				"name": "ディプラビティ",
+				"description": "エリート弱体化スペル： 5...20秒間、ターゲットした敵がスペルを詠唱するたびに、その敵と周囲にいる1体の敵は 1...5 のエネルギーを失います。",
+				"concise": "エリート弱体化スペル： (5...20 秒) ターゲットした敵は、スペルを詠唱するたびに 1...5 のエネルギーを失います。また、その周囲にいる敵1体もエネルギーを失います。"
+			},
+			"kr": {
+				"name": "타락의 대가",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 5...20초 동안 대상이 마법을 외울 때마다 대상과 그 부근의 적 한 명은 1...5의 에너지를 잃습니다.",
+				"concise": "엘리트 약화 마법. (5...20초) 대상이 마법을 시전할 때마다 대상과 그 부근의 적 한 명은 1...5의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Deprawacja",
+				"description": "Elitarna klątwa (czar). Przez 5...20 sek., za każdym razem, kiedy wybrany przeciwnik rzuca czar, ten przeciwnik i jeden przeciwnik w pobliżu tracą po 1...5 pkt. energii.",
+				"concise": "Elitarna klątwa (czar). (5...20 sek.) Powoduje utratę 1...5 pkt. energii, za każdym razem, kiedy wybrany przeciwnik rzuca czar. Energię traci również jeden przeciwnik w pobliżu twojego celu."
+			},
+			"ru": {
+				"name": "Depravity",
+				"description": "Элитное заклинание-проклятье. В течение 5...20 сек каждый раз, когда выбранный противник произносит заклинание, этот противник и один из противников поблизости потеряют 1...5 ед. энергии.",
+				"concise": "Элитное заклинание-проклятье. (5...20 сек) Вызывает потерю 1...5 ед. энергии каждый раз, когда выбранный противник произносит заклинание. Противники поблизости от вашей цели также теряют энергию."
+			},
+			"bork": {
+				"name": "Depraefeety",
+				"description": "Ileete-a Hex Spell. Fur 5...20 secunds, vhenefer taerget fue-a caests a spell, thaet fue-a und oone-a neaerby fue-a luse-a 1...5 Inergy.",
+				"concise": "Ileete-a Hex Spell. (5...20 secunds.) Cooses 1...5 Inergy luss vhenefer taerget fue-a caests a spell. Oone-a fue-a neaer yuoor taerget aelsu luses Inergy."
 			}
 		}
 	}

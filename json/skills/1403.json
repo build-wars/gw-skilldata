@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "怒斩",
+				"description": "斧术。 命中时，对目标敌人造成5...20点额外伤害。如果敌人正遭受「重伤」症状，则他的动作会被打断。",
+				"concise": "斧术。 命中时，对目标敌人造成5...20点额外伤害。如果敌人正遭受「重伤」症状，则他的动作会被打断。"
+			},
+			"cht": {
+				"name": "苦痛砍擊",
+				"description": "斧術攻擊技能： 命中時對目標造成 5...20 額外傷害。若目標敵人正遭受「重傷」病症，則其動作被中斷。",
+				"concise": "斧術攻擊技能： 命中時對目標造成 5...20 額外傷害。若目標敵人正遭受「重傷」病症，則其動作被中斷。"
+			},
 			"de": {
+				"name": "Qualvoller Hieb",
+				"description": "Axtangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Euer Gegner an einer Tiefen Wunde leidet, unterbrecht Ihr seine Aktion.",
+				"concise": "Axtangriff. Richtet +5...20 Punkt[e] Schaden an. Unterbricht eine Aktion, falls Gegner eine Tiefe Wunde hat."
+			},
+			"de-guildwiki": {
 				"name": "Qualvoller Hieb",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn Euer Gegner an einer Tiefen Wunde leidet, unterbrecht Ihr seine Aktion.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Unterbricht eine Aktion, falls Gegner eine Tiefe Wunde hat."
 			},
 			"en": {
 				"name": "Agonizing Chop",
+				"description": "Axe Attack. When this attack hits, you deal +5...20 damage. If target foe is suffering from a Deep Wound, you interrupt that foe's action.",
+				"concise": "Axe Attack. Deals +5...20 damage. Interrupts an action if target foe has a Deep Wound."
+			},
+			"en-gww": {
+				"name": "Agonizing Chop",
 				"description": "When this attack hits, you deal +5...20 damage. If target foe is suffering from a Deep Wound, you interrupt that foe's action.",
 				"concise": "Deals +5...20 damage. Interrupts an action if target foe has a Deep Wound."
 			},
+			"es": {
+				"name": "Hachazo agonizante",
+				"description": "Ataque con hacha. Si este ataque impacta, harás +5...20 de daño. Si el enemigo objetivo tenía una herida grave, le interrumpirás.",
+				"concise": "Ataque con hacha. Hace +5...20 de daño. Interrumpe una acción si el enemigo objetivo tiene una herida grave."
+			},
 			"fr": {
+				"name": "Entaille agonisante",
+				"description": "Attaque à la hache. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si la cible ennemie souffre de Blessure profonde, vous interrompez son action.",
+				"concise": "Attaque à la hache. Inflige +5...20 points de dégâts. Interrompt une action si l'ennemi visé souffre de Blessure profonde."
+			},
+			"fr-gwiki": {
 				"name": "Entaille agonisante",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si la cible ennemie souffre de Blessure profonde, vous interrompez son action.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Agonizzante",
+				"description": "Attacco con Ascia. Quando questo attacco va a segno, infliggi +5...20 danno[i]; se l'obiettivo nemico è affetto da una Ferita Profonda interrompi la sua azione.",
+				"concise": "Attacco con Ascia. Danni inferti: +5...20. Interrompe un'azione se l'obiettivo nemico ha una Ferita Profonda."
+			},
+			"jp": {
+				"name": "アゴナイズ チョップ",
+				"description": "アックス アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。ターゲットした敵が「重傷」状態の場合、その敵のアクションを中断します。",
+				"concise": "アックス アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が「重傷」状態の場合、アクションを中断します。"
+			},
+			"kr": {
+				"name": "필사의 견제",
+				"description": "도끼 공격. 대상 지정: 적. 공격이 성공하면 대상은 5...20의 대미지를 추가로 입습니다. 대상이 중상 상태라면 대상은 동작을 방해받습니다.",
+				"concise": "도끼 공격. 5...20의 대미지를 추가로 줍니다. 대상이 중상을 입었으면 동작을 방해합니다."
+			},
+			"pl": {
+				"name": "Bolesne Cięcie",
+				"description": "Atak toporem. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeśli wybrany przeciwnik ma głęboką ranę, to przerywasz jego czynność.",
+				"concise": "Atak toporem. Zadaje +5...20 pkt. obrażeń. Przerywa czynność, jeżeli wybrany przeciwnik ma głęboką ranę."
+			},
+			"ru": {
+				"name": "Agonizing Chop",
+				"description": "Атака топором. Когда эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если у выбранного противника есть глубокая рана, вы прерываете его действие.",
+				"concise": "Атака топором. Наносит дополнительно 5...20 ед. урона. Прерывает действие, если у выбранного противника была глубокая рана."
+			},
+			"bork": {
+				"name": "Aeguneezeeng Chup",
+				"description": "Aexe-a Aettaeck. Vhee thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff taerget fue-a is sooffffereeng frum a Deep Vuoond, yuoo interroopt thaet fue-a's aecshun.",
+				"concise": "Aexe-a Aettaeck. Deaels +5...20 daemaege-a. Interroopts un aecshun iff taerget fue-a haes a Deep Vuoond."
 			}
 		}
 	}

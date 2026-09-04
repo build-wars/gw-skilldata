@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "溅射",
+				"description": "弓术。 If Splinter Shot hits, you deal +3...15 damage. If Splinter Shot is blocked, all foes in the area of your target take 5...65 damage.",
+				"concise": "弓术。 Deals +3...15 damage. Deals 5...65 damage to foes in the area if blocked."
+			},
+			"cht": {
+				"name": "碎刺射擊",
+				"description": "弓術攻擊技能： 命中时，对目标敌人造成3...15点额外伤害。如果此技能被格挡，则会对目标区域内所有敌人造成5...65点伤害。",
+				"concise": "弓術攻擊技能： 造成3...15额外伤害。如果此技能被格挡，则对范围内所有敌人造成5...65伤害。"
+			},
 			"de": {
+				"name": "Splitterschuss",
+				"description": "Bogenangriff. Wenn der Splitterschuss trifft, verursacht Ihr +3...15 Schaden. Wird der Splitterschuss abgeblockt, erleiden alle Gegner im Umkreis Eures Ziels 5...65 Schaden.",
+				"concise": "Bogenangriff. Verursacht +3...15 Schaden. Fügt Gegnern im Bereich 5...65 Schaden zu, wenn abgeblockt."
+			},
+			"de-guildwiki": {
 				"name": "Splitterschuss",
 				"description": "Wenn Splitterschuss trifft, fügt Ihr dem Gegner +3...15 Punkte Schaden zu. Wenn Splitterschuss geblockt wird, erleiden alle Feinde in dem Bereich um Euren Gegner 5...65 Punkte Schaden.",
 				"concise": "Richtet +3...15 Punkte Schaden an. Richtet bei Feinden in dem Bereich 5...65 Punkte Schaden an, falls geblockt."
 			},
 			"en": {
 				"name": "Splinter Shot",
+				"description": "Bow Attack. If Splinter Shot hits, you deal +3...15 damage. If Splinter Shot is blocked, all foes in the area of your target take 5...65 damage.",
+				"concise": "Bow Attack. Deals +3...15 damage. Deals 5...65 damage to foes in the area if blocked."
+			},
+			"en-gww": {
+				"name": "Splinter Shot",
 				"description": "If Splinter Shot hits, you deal +3...15 damage. If Splinter Shot is blocked, all foes in the area to your target take 5...65 damage.",
 				"concise": "Deals +3...15 damage. Deals 5...65 damage to foes in the area if blocked."
 			},
+			"es": {
+				"name": "Disparo astillado",
+				"description": "Ataque con arco. Si el Disparo astillado impacta, harás +3...15 de daño. En caso de que se bloquee este golpe, todos los enemigos de la zona de tu objetivo recibirán 5...65 de daño.",
+				"concise": "Ataque con arco. Causa +3...15 de daño. Hace 5...65 de daño a los enemigos de la zona si se bloquea."
+			},
 			"fr": {
+				"name": "Tir de ricochet",
+				"description": "Attaque à l'arc. Si Tir de ricochet réussit, vous infligez +3...15 points de dégâts. Si Tir de ricochet est bloqué, tous les ennemis à proximité de votre cible subissent 5...65 points de dégâts.",
+				"concise": "Attaque à l'arc. Inflige 3...15 points de dégâts. Inflige 5...65 points de dégâts aux ennemis dans la zone si bloqué."
+			},
+			"fr-gwiki": {
 				"name": "Tir de ricochet",
 				"description": "Si Tir de ricochet réussit, vous infligez +3...15 points de dégâts. S'il est bloqué, tous les ennemis dans la zone de votre cible subissent 5...65 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Scheggia",
+				"description": "Attacco con Arco. Se Splinter Shot ti colpisce, infliggi +3...15 danni. Se Splinter Shot viene bloccata, tutti i nemici nell'area del tuo bersaglio subiscono 5...65 danni.",
+				"concise": "Attacco con Arco. Infligge +3...15 danni. Infligge 5...65 danni ai nemici nell'area se viene bloccato."
+			},
+			"jp": {
+				"name": "スプリンター ショット",
+				"description": "ボウ アタック： スプリンター ショットが命中した場合、追加で3...15ダメージを与えます。スプリンター ショットがブロックされた場合、標的の周囲にいるすべての敵に5...65ダメージを与えます。",
+				"concise": "ボウ アタック： 3...15ダメージを追加で与えます。ブロックされた場合、エリア内の敵に5...65ダメージを与えます。"
+			},
+			"kr": {
+				"name": "폭발 사격",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 3...15의 대미지를 추가로 줍니다. 그 대상이 폭발 사격을 막으면 대상을 중심으로 일정 범위 내에 있는 모든 적은 5...65의 대미지를 입습니다.",
+				"concise": "활 공격. 3...15의 대미지를 추가로 줍니다. 공격을 막으면 일정 범위 내에 있는 적들에게 5...65의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Strzał Rozpryskowy",
+				"description": "Strzał z łuku. Jeśli Strzał Rozpryskowy trafi, zadajesz +3...15 pkt. obrażeń. Jeśli Strzał Rozpryskowy zostanie zablokowany, wszyscy przeciwnicy w pobliżu celu otrzymają 5...65 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Zadaje +3...15 pkt. obrażeń. Zadaje 5...65 pkt, obrażeń przeciwnikom w pobliżu, jeśli atak zostanie zablokowany."
+			},
+			"ru": {
+				"name": "Splinter Shot",
+				"description": "Атака из лука. Если Splinter Shot попадает в цель, вы наносите +3...15 ед. урона. Если Splinter Shot блокируется, все враги рядом с целью получают 5...65 ед. урона.",
+				"concise": "Атака из лука. Наносит +3...15 ед. урона. При блокировании наносит 5...65 ед. урона врагам рядом с целью."
+			},
+			"bork": {
+				"name": "Spleenter Shut",
+				"description": "Boo Aettaeck. Iff Spleenter Shut heets, yuoo deael +3...15 daemaege-a. Iff Spleenter Shut is blucked, aell fues in zee aerea ooff yuoor taerget taeke-a 5...65 daemaege-a.",
+				"concise": "Boo Aettaeck. Deaels +3...15 daemaege-a. Deaels 5...65 daemaege-a tu fues in zee aerea iff blucked."
 			}
 		}
 	}

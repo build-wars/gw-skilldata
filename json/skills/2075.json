@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Hasty Refrain",
+				"description": "回音技。 For 8...20 seconds, target ally moves 25% faster. This echo is reapplied every time a chant or shout ends on that ally.",
+				"concise": "回音技。 (8...20 seconds.) Target ally moves 25% faster. Renewal: every time a chant or shout ends on this ally."
+			},
+			"cht": {
+				"name": "倉促合聲",
+				"description": "迴響： 持續 8...20 秒，目標盟友移動速度加快 25%。當每次該名盟友擁有的聖歌或戰嚎效果結束時，此合聲的持續時間將重新計算。",
+				"concise": "迴響： 持續 8...20 秒，目標盟友移動速度加快 25%。當每次該名盟友擁有的聖歌或戰嚎效果結束時，此合聲的持續時間將重新計算。"
+			},
 			"de": {
+				"name": "Hastiger Refrain",
+				"description": "Echo. 8...20 Sekunde[n] lang bewegt sich der Verbündete (bzw. Ihr selbst) um 25% schneller. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. 8...20 Sekunde[n]: Der Verbündete (bzw. Ihr selbst) bewegt sich um 25% schneller. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet."
+			},
+			"de-guildwiki": {
 				"name": "Hastiger Refrain",
 				"description": "8...20 Sekunden lang bewegt sich der Verbündete (bzw. Ihr selbst) um 25% schneller. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "8...20 Sekunden: Der Verbündete (bzw. Ihr selbst) bewegt sich um 25% schneller. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet."
 			},
 			"en": {
 				"name": "Hasty Refrain",
+				"description": "Echo. For 8...20 seconds, target ally moves 25% faster. This echo is reapplied every time a chant or shout ends on that ally.",
+				"concise": "Echo. (8...20 seconds.) Target ally moves 25% faster. Renewal: every time a chant or shout ends on this ally."
+			},
+			"en-gww": {
+				"name": "Hasty Refrain",
 				"description": "For 8...20 seconds, target ally moves 25% faster. This echo is reapplied every time a chant or shout ends on that ally.",
 				"concise": "(8...20 seconds.) Target ally moves 25% faster. Renewal: every time a chant or shout ends on this ally."
 			},
+			"es": {
+				"name": "Estribillo apresurado",
+				"description": "Eco. Durante 8...20 segundos, el objetivo (un aliado o tú mismo) se mueve un 25% más deprisa. Este eco se reactivará cada vez que los efectos de un grito o cántico terminen en él.",
+				"concise": "Eco. (8...20 segundos). El objetivo (un aliado o tú mismo) se mueve un 25% más deprisa. Renovación: cada vez que los efectos de un grito o cántico terminen en él."
+			},
 			"fr": {
+				"name": "Refrain rapide",
+				"description": "Echo. Pendant 8...20 secondes, la cible (allié ou vous-même) se déplace 25% plus vite. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+				"concise": "Echo. (8...20 secondes.) L'allié visé se déplace 25% plus vite. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Refrain rapide",
 				"description": "Pendant 3...15 secondes, la cible (allié ou vous-même) se déplace 25% plus vite. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ritornello Frettoloso",
+				"description": "Eco. Per 8...20 secondo[i] la velocità di movimento dell'obiettivo (un alleato o te stesso) aumenta di un 25%. Questa eco si rinnova ogni volta che un canto o un urlo finisce su quell'alleato.",
+				"concise": "Eco. (Secondi: 8...20) Incremento velocità di movimento dell'obiettivo (un alleato o te stesso): 25%. Rinnovo: ogni volta che un canto o un urlo termina su quest'alleato."
+			},
+			"jp": {
+				"name": "ヘイスティ リフレイン",
+				"description": "エコー： 8...20 秒間、ターゲットした味方は移動速度が 25% 増加します。この効果は、その味方にかけられているチャントやシャウトが消失するたびに更新されます。",
+				"concise": "エコー： (8...20 秒) ターゲットした味方は移動速度が 25% 増加します。更新： その味方にかけられているチャントやシャウトが消失するたび。"
+			},
+			"kr": {
+				"name": "신속의 공명",
+				"description": "공명. 8...20초 동안 대상 아군의 이동 속도가 25% 빨라집니다. 이 공명은 대상에 걸린 고함이나 영창이 끝날 때마다 새로 시작됩니다.",
+				"concise": "공명. (8...20초) 대상 아군의 이동 속도가 25% 빨라집니다. 갱신 조건: 대상에 걸린 고함이나 영창이 끝날 때."
+			},
+			"pl": {
+				"name": "Zaśpiew Pośpiechu",
+				"description": "Echo. Przez 8...20 sek. wybrany sojusznik porusza się o 25% szybciej. To echo jest ponownie nakładane za każdym razem, kiedy przestanie na tym sojuszniku działać zaśpiew lub okrzyk.",
+				"concise": "Echo. (8...20 sek.) Wybrany sojusznik porusza się o 25% szybciej. Odnowienie: za każdym razem, kiedy przestaje na tym sojuszniku działać zaśpiew lub okrzyk."
+			},
+			"ru": {
+				"name": "Hasty Refrain",
+				"description": "Эхо. В течение 8...20 сек выбранный союзник двигается на 25% быстрее. Это эхо применяется заново каждый раз, когда заканчивает свое действие влияющий на этого союзника хорал или крик.",
+				"concise": "Эхо. (8...20 сек) Выбранный союзник двигается на 25% быстрее. Обновление: каждый раз, когда заканчивается действие хорала или крика, влияющего на этого союзника."
+			},
+			"bork": {
+				"name": "Haesty Reffraeeen",
+				"description": "Ichu. Fur 8...20 secunds, taerget aelly mufes 25% faester. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon thaet aelly.",
+				"concise": "Ichu. (8...20 secunds.) Taerget aelly mufes 25% faester. Renooael: ifery teeme-a a chunt oor shuoot inds oon thees aelly."
 			}
 		}
 	}

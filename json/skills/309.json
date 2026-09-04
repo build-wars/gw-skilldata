@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神圣之幕",
+				"description": "增益魔法。 当你维持此「增益魔法」时，任何对友方目标所施放的「负面魔法」需要两倍的施法时间；而当此「增益魔法」消失时，将会从友方目标身上移除一个「负面魔法」。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，任何对友方目标所施放的「负面魔法」需要两倍的施法时间；而当此「增益魔法」消失时，将会从友方目标身上移除一个「负面魔法」。"
+			},
+			"cht": {
+				"name": "神聖遮罩",
+				"description": "加持魔法： 當你維持此「加持」時，任何對目標盟友所施展的「降咒」需要兩倍的施法時間；而當此「加持」結束時，將會從目標盟友身上移除一項「降咒」。",
+				"concise": "加持魔法： 當你維持此「加持」時，任何對目標盟友所施展的「降咒」需要兩倍的施法時間；而當此「加持」結束時，將會從目標盟友身上移除一項「降咒」。"
+			},
 			"de": {
+				"name": "Heiliger Schleier",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, dauert das Wirken von Verhexungen auf einen Verbündeten doppelt so lange. Wenn Heiliger Schleier endet, wird eine Verhexung vom Verbündeten (bzw. Euch selbst) entfernt.",
+				"concise": "Verzauberung. Verdoppelt die Wirkzeit von Verhexungen, die auf den Verbündeten (bzw. Euch selbst) angewendet werden. Wirkung am Ende: Entfernt eine Verhexung."
+			},
+			"de-guildwiki": {
 				"name": "Heiliger Schleier",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, dauert das Wirken von Verhexungen auf einen Verbündeten (bzw. Euch selbst) doppelt so lange. Wenn Heiliger Schleier endet, wird eine Verhexung vom entsprechenden Verbündeten entfernt.",
 				"concise": "Verdoppelt die Wirkzeit von Verhexungen, die auf den Verbündeten (bzw. Euch selbst) angewendet werden. Wirkung am Ende: Entfernt eine Verhexung."
 			},
 			"en": {
 				"name": "Holy Veil",
+				"description": "Enchantment Spell. While you maintain this enchantment, any hex cast on target ally takes twice as long to cast. When Holy Veil ends, one hex is removed from target ally.",
+				"concise": "Enchantment Spell. Doubles casting time of hexes cast on target ally. End effect: removes a hex."
+			},
+			"en-gww": {
+				"name": "Holy Veil",
 				"description": "While you maintain this enchantment, any hex cast on target ally takes twice as long to cast. When Holy Veil ends, one hex is removed from target ally.",
 				"concise": "Doubles casting time of hexes cast on target ally. End effect: removes a hex."
 			},
+			"es": {
+				"name": "Velo sagrado",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, los maleficios que echen sobre el objetivo (un aliado o tú mismo) tardarán el doble en invocarse. Cuando finalice el Velo sagrado, se quita un maleficio del objetivo.",
+				"concise": "Conjuro con encantamiento. Dobla el tiempo de lanzamiento de los maleficios sobre el objetivo (un aliado o tú mismo). Efecto final: elimina un maleficio."
+			},
 			"fr": {
+				"name": "Voile sacré",
+				"description": "Enchantement. Pendant que vous maintenez cet enchantement, le temps d'incantation de tout maléfice lancé sur la cible (allié ou vous-même) est doublé. Lorsque Voile sacré prend fin, un maléfice de la cible est supprimé.",
+				"concise": "Enchantement. Double le temps d'incantation des maléfices lancés sur l'allié visé. Effet final : supprime un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Voile sacré",
 				"description": "Tant que cet enchantement est actif, le temps d'incantation de tout maléfice lancé sur la cible (un allié ou vous-même) est doublé. Lorsque la compétence prend fin, un maléfice est ôté de la cible (un allié ou vous-même).",
 				"concise": "Double le temps d'incantation des maléfices lancés sur l'allié visé. Effet final : supprime un maléfice."
+			},
+			"it": {
+				"name": "Sacro Velo",
+				"description": "Incantesimo. Mantenendo questo incantesimo, ci vorrà il doppio del tempo per lanciare le fatture sull'obiettivo alleato. Quando il Sacro Velo termina, viene eliminata una fattura dall'obiettivo (un alleato o te stesso).",
+				"concise": "Incantesimo. Raddoppia il tempo di lancio delle fatture dirette contro l'obiettivo (un alleato o te stesso). Effetto al termine: rimuove una fattura."
+			},
+			"jp": {
+				"name": "ホーリー ベール",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした味方に対する弱体化スペルの詠唱は2倍の時間がかかります。この効果が消失すると、ターゲットした味方にかけられている弱体化スペルが1個解除されます。",
+				"concise": "強化スペル： ターゲットした味方に詠唱する弱体化スペルは、詠唱に2倍の時間がかかります。終了効果： 弱体化スペルを1個解除します。"
+			},
+			"kr": {
+				"name": "신성의 오라",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 적이 대상에게 약화 마법을 거는 시간이 2배로 늘어납니다. 신성의 오라가 끝날 때 대상에 걸려있던 약화 마법 하나가 해제됩니다.",
+				"concise": "강화 마법. 적이 대상 아군에게 거는 약화 마법 시전 시간이 2배로 늘어납니다. 종료 효과: 약화 마법 하나를 해제합니다."
+			},
+			"pl": {
+				"name": "Święty Całun",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, rzucanie klątw na wybranego sojusznika zabiera dwa razy więcej czasu. Kiedy Święty Całun przestanie działać, z wybranego sojusznika usuwana jest jedna klątwa.",
+				"concise": "Zaklęcie (czar). Podwójny czas rzucania klątw przeciwko wybranemu sojusznikowi. Efekt końcowy: usuwa klątwę."
+			},
+			"ru": {
+				"name": "Holy Veil",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, любое проклятье, накладываемое на выбранного союзника, потребует в два раза больше времени для активации. Когда Holy Veil заканчивает свое действие, с выбранного союзника снимается одно проклятье.",
+				"concise": "Заклинание-чары. Удваивает время активации проклятий, направленных на выбранного союзника. Эффект окончания: снимает одно проклятье."
+			},
+			"bork": {
+				"name": "Huly Feeel",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, uny hex caest oon taerget aelly taekes tveece-a aes lung tu caest. Vhee Huly Feeel inds, oone-a hex is remufed frum taerget aelly.",
+				"concise": "Inchuntment Spell. Duoobles caesteeng teeme-a ooff hexes caest oon taerget aelly. Ind iffffect: remufes a hex."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恶化",
+				"description": "精英咒文。 使目标敌人所遭受的所有「症状」持续时间延长5...100%（最多延长30秒）。",
+				"concise": "精英咒文。 使目标敌人所遭受的所有「症状」持续时间延长5...100%（最多延长30秒）。"
+			},
+			"cht": {
+				"name": "病症延長",
+				"description": "精英咒文魔法： 散佈目標敵人身上所有的病症到其附近的敵人身上，並且病症持續時間增加5...100%(最多30秒)。",
+				"concise": "精英咒文魔法： 散佈目標敵人身上所有的病症到其附近的敵人身上，並且病症持續時間增加5...100%(最多30秒)。"
+			},
 			"de": {
+				"name": "Zustände ausweiten",
+				"description": "Elite-Zauber. Verteilt alle Zustände vom Gegner auf alle Feinde in der Nähe Eures Gegners. Die Dauer der Zustände ist um 5...100% verlängert (maximal 30 Sekunden).",
+				"concise": "Elite-Zauber. Verteilt alle Zustände vom Gegner auf alle Feinde in der Nähe Eures Gegners. Die Dauer dieser Zustände ist um 5...100% verlängert (maximal 30 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Zustände ausweiten",
 				"description": "Verteilt alle Zustände vom Gegner auf alle Feinde in der Nähe Eures Gegners. Die Dauer dieser Zustände ist um 5...100% verlängert (maximal 30 Sekunden).",
 				"concise": "Verteilt alle Zustände vom Gegner auf alle Feinde in der Nähe Eures Gegners. Die Dauer dieser Zustände ist um 5...100% verlängert (maximal 30 Sekunden)."
 			},
 			"en": {
 				"name": "Extend Conditions",
+				"description": "Elite Spell. Spread all conditions from target foe to all foes near your target. The durations of those conditions are increased by 5...100% (maximum 30 seconds).",
+				"concise": "Elite Spell. Spread all conditions from target foe to all foes near your target. Those durations of those conditions are increased by 5...100% (maximum 30 seconds)."
+			},
+			"en-gww": {
+				"name": "Extend Conditions",
 				"description": "Spread all conditions from target foe to foes near your target. The durations of those conditions are increased by 5...100% (maximum 30 seconds).",
 				"concise": "Spread all conditions from target foe to foes near your target. Those <sic/> durations of those conditions are increased by 5...100% (maximum 30 seconds)."
 			},
+			"es": {
+				"name": "Prolongar condiciones",
+				"description": "Conjuro de élite. Propagas todas las condiciones que tenga tu objetivo a los enemigos adyacentes. La duración de las condiciones se incrementará en un 5...100% (máximo 30 segundos).",
+				"concise": "Conjuro de élite. Propagas todas las condiciones que tenga tu objetivo a los enemigos adyacentes. La duración de las condiciones se incrementará en un 5...100% (máximo 30 segundos)."
+			},
 			"fr": {
+				"name": "Conditions prolongées",
+				"description": "Sort d'élite. Répand toutes les conditions de la cible ennemie à tous les ennemis à proximité de cette dernière. La durée de ces conditions est augmentée de 5...100% (30 secondes maximum).",
+				"concise": "Sort d'élite. Répand toutes les conditions de la cible ennemie à tous les ennemis à proximité de cette dernière. La durée de ces conditions est augmentée de 5...100% (30 secondes maximum)."
+			},
+			"fr-gwiki": {
 				"name": "Conditions prolongées",
 				"description": "Répand toutes les conditions de la cible ennemie à tous les ennemis à proximité de cette dernière. La durée de ces conditions est augmentée de 5...100% (30 secondes maximum).",
 				"concise": "Répand toutes les conditions de la cible ennemie à tous les ennemis à proximité de cette dernière. La durée de ces conditions est augmentée de 5...100% (30 secondes maximum)."
+			},
+			"it": {
+				"name": "Prolunga Condizioni",
+				"description": "Magia d'Élite. Diffondi tutte le condizioni dall'obiettivo nemico a tutti i nemici vicini a lui. Incremento durata di queste condizioni: 5...100% (max 30 secondi).",
+				"concise": "Magia d'Élite. Diffondi tutte le condizioni dall'obiettivo nemico a tutti i nemici vicini a lui. Incremento durata di queste condizioni: 5...100% (max 30 secondi)."
+			},
+			"jp": {
+				"name": "エクステンド コンディション",
+				"description": "エリート スペル： ターゲットした敵にかけられている「状態異常」をすべて、その周囲にいる敵に伝染させます。その際、それぞれの持続時間が 5...100% 増加します (最大30秒) 。",
+				"concise": "エリート スペル： ターゲットした敵にかけられている「状態異常」をすべて、その周囲にいる敵に伝染させます。その際、それぞれの持続時間が 5...100% 増加します (最大30秒) 。"
+			},
+			"kr": {
+				"name": "상태 연장",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에 걸린 모든 상태이상을 대상 부근의 모든 적에게 퍼뜨립니다. 상태이상의 지속 시간이 5...100% 늘어납니다. 최대 30초 증가합니다.",
+				"concise": "엘리트 마법. 대상에 걸린 모든 상태이상을 대상 부군의 적들에게 퍼뜨립니다. 상태이상의 지속 시간이 5...100% 늘어납니다.(최대 30초)"
+			},
+			"pl": {
+				"name": "Przedłużenie Przypadłości",
+				"description": "Elitarny czar. Z wybranego przeciwnika przenosi wszystkie przypadłości na wszystkich przeciwników w pobliżu twojego celu. Czasy trwania tych przypadłości wydłużają się o 5...100% (maksymalnie 30 sek.).",
+				"concise": "Elitarny czar. Z wybranego przeciwnika przenosi wszystkie przypadłości na wszystkich przeciwników w pobliżu twojego celu. Czasy trwania tych przypadłości wydłużają się o 5...100% (maksymalnie 30 sek.)."
+			},
+			"ru": {
+				"name": "Extend Conditions",
+				"description": "Элитное заклинание. Распространяет все состояния с выбранного противника на всех противников поблизости от вашей цели. Длительность всех этих состояний увеличивается на 5...100% (максимум до 30 сек).",
+				"concise": "Элитное заклинание. Распространяет все состояния с выбранного противника на всех противников поблизости от вашей цели. Длительность всех этих состояний увеличивается на 5...100% (максимум до 30 сек)."
+			},
+			"bork": {
+				"name": "Ixtend Cundeeshuns",
+				"description": "Ileete-a Spell. Spreaed aell cundeeshuns frum taerget fue-a tu aell fues neaer yuoor taerget. Zee dooraeshuns ooff thuse-a cundeeshuns aere-a increaesed by 5...100% (maexeemoom 30 secunds).",
+				"concise": "Ileete-a Spell. Spreaed aell cundeeshuns frum taerget fue-a tu aell fues neaer yuoor taerget. Thuse-a dooraeshuns ooff thuse-a cundeeshuns aere-a increaesed by 5...100% (maexeemoom 30 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "苦难",
+				"description": "负面魔法。 使目标敌人及其附近敌人遭受 2点「生命衰减」，效果持续6...30秒。",
+				"concise": "负面魔法。 在6...30秒之内，使目标敌人及他附近的所有我方敌人遭受2点「生命衰减」。"
+			},
+			"cht": {
+				"name": "苦難",
+				"description": "降咒魔法： 持續6...30秒，目標以及附近敵人受到0...3體力衰減。",
+				"concise": "降咒魔法： 持續6...30秒，目標以及附近敵人受到0...3體力衰減。"
+			},
 			"de": {
+				"name": "Leiden",
+				"description": "Verhexung. 6...30 Sekunde[n] lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3.",
+				"concise": "Verhexung. Verhext den Gegner und Feinde in der Nähe (6...30 Sekunde[n]). Die Betroffenen haben -0...3 Lebenspunktdegeneration."
+			},
+			"de-guildwiki": {
 				"name": "Leiden",
 				"description": "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3.",
 				"concise": "Verhext den Gegner und Feinde in der Nähe (6...30 Sekunden). Die Betroffenen haben -0...3 Lebenspunktdegeneration."
 			},
 			"en": {
 				"name": "Suffering",
+				"description": "Hex Spell. For 6...30 seconds, target foe and all nearby foes suffer -0...3 Health degeneration.",
+				"concise": "Hex Spell. Also hexes foes near target (6...30 seconds). These foes have -0...3 Health degeneration."
+			},
+			"en-gww": {
+				"name": "Suffering",
 				"description": "For 6...30 seconds, target foe and all nearby foes suffer -0...3 Health degeneration.",
 				"concise": "Also hexes foes near target (6...30 seconds). These foes have -0...3 Health degeneration."
 			},
+			"es": {
+				"name": "Sufrimiento",
+				"description": "Conjuro con maleficio. Durante 6...30 segundos, el enemigo objetivo y todos los enemigos cercanos sufrirán -0...3 de degeneración de salud.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (6...30 segundos). Éstos sufren -0...3 de degeneración de salud."
+			},
 			"fr": {
+				"name": "Souffrance",
+				"description": "Maléfice. L'ennemi visé et tous les ennemis à proximité subissent une dégénération de santé de -0...3 pendant 6...30 secondes.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis à proximité de la cible (6...30 secondes). Ces ennemis subissent une dégénération de santé de -0...3."
+			},
+			"fr-gwiki": {
 				"name": "Souffrance",
 				"description": "L'ennemi visé et tous les ennemis à proximité subissent une dégénération de santé de -0...3 pendant 6...30 secondes.",
 				"concise": "Inflige également des maléfices aux ennemis à proximité de la cible (6...30 secondes). Ces ennemis subissent une dégénération de santé de -0...3."
+			},
+			"it": {
+				"name": "Sofferenza",
+				"description": "Fattura. Per 6...30 secondo[i] l'obiettivo nemico e tutti i nemici nei dintorni subiscono una Degenerazione della Salute di -0...3.",
+				"concise": "Fattura. Infligge fattura anche ai nemici vicini all'obiettivo (6...30 secondo[i]). Degenerazione loro Salute: -0...3."
+			},
+			"jp": {
+				"name": "サファー",
+				"description": "弱体化スペル： 6...30 秒間、ターゲットした敵および周囲にいるすべての敵は体力の自然回復力が 0...3 減少します。",
+				"concise": "弱体化スペル： (6...30 秒) ターゲットした敵およびその周囲にいる敵は、体力の自然回復力が 0...3 減少します。"
+			},
+			"kr": {
+				"name": "고통의 파도",
+				"description": "약화 마법. 대상 지정: 적. 6...30초 동안 대상과 그 부근의 적들은 체력 재생이 0...3만큼 감소합니다.",
+				"concise": "약화 마법. (6...30초) 대상과 그 부근의 적들은 체력 재생이 0...3 감소합니다."
+			},
+			"pl": {
+				"name": "Cierpienie",
+				"description": "Klątwa (czar). Przez 6...30 sek. wybrany przeciwnik i wszyscy przeciwnicy w pobliżu posiadają degenerację żywotności -0...3.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w pobliżu celu (6...30 sek.). Ci przeciwnicy posiadają degenerację żywotności -0...3."
+			},
+			"ru": {
+				"name": "Suffering",
+				"description": "Заклинание-проклятье. В течение 6...30 сек скорость восстановления здоровья выбранного противника и всех противников поблизости уменьшается на 0...3 ед.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников поблизости от цели (6...30 сек). Эти противников получают -0...3 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Sooffffereeng",
+				"description": "Hex Spell. Fur 6...30 secunds, taerget fue-a und aell neaerby fues sooffffer -0...3 Heaelt degeneraeshun.",
+				"concise": "Hex Spell. Aelsu hexes fues neaer taerget (6...30 secunds). Zeese-a fues haefe-a -0...3 Heaelt degeneraeshun."
 			}
 		}
 	}

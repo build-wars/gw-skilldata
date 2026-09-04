@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "梅兰朵的坚韧",
+				"description": "精英姿态。 在8...20秒之内，每一个你所遭受的「症状」或「负面魔法」，会让你的「生命再生」提高 3点、「能量再生」提高 1点。",
+				"concise": "精英姿态。 在8...20秒之内，每一个你所遭受的「症状」或「负面魔法」，会让你的「生命再生」提高3点、「能量再生」提高1点。"
+			},
+			"cht": {
+				"name": "梅蘭朵的元氣",
+				"description": "精英態勢： 持續 8...20 秒，每一項你遭受的「病症」及「降咒」，讓你獲得體力再生增加 4 和能量再生增加 1。",
+				"concise": "精英態勢： 持續 8...20 秒，每一項你遭受的「病症」及「降咒」，讓你獲得體力再生增加 3 和能量再生增加 1。"
+			},
 			"de": {
+				"name": "Melandrus Belastbarkeit",
+				"description": "Elite-Haltung. 8...20 Sekunde[n] lang erfreut Ihr Euch für jeden Zustand und jede Verhexung, unter denen Ihr leidet, einer zusätzlichen Lebenspunktregeneration von +4 und einer zusätzlichen Energieregeneration von +1.",
+				"concise": "Elite-Haltung. 8...20 Sekunde[n]: Ihr habt für jeden Zustand und jede Verhexung auf Euch +4 Lebenspunktregeneration und +1 Energieregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Melandrus Belastbarkeit",
 				"description": "8...20 Sekunden lang erfreut Ihr Euch für jeden Zustand und jede Verhexung, unter denen Ihr leidet, einer Lebenspunktregeneration von +4 und einer Energiepunktregeneration von +1.",
 				"concise": "8...20 Sekunden: Ihr habt für jeden Zustand und jede Verhexung auf Euch +4 Lebenspunktregeneration und +1 Energieregeneration."
 			},
 			"en": {
 				"name": "Melandru's Resilience",
+				"description": "Elite Stance. For 8...20 seconds, you gain +4 Health regeneration and +1 Energy regeneration for each condition and hex you are suffering.",
+				"concise": "Elite Stance. (8...20 seconds.) You have +4 Health regeneration and +1 Energy regeneration for each condition and hex on you."
+			},
+			"en-gww": {
+				"name": "Melandru's Resilience",
 				"description": "For 8...20 seconds, you gain +4 Health regeneration and +1 Energy regeneration for each condition and hex you are suffering.",
 				"concise": "(8...20 seconds.) You have +4 Health regeneration and +1 Energy regeneration for each condition and hex on you."
 			},
+			"es": {
+				"name": "Resistencia de Melandru",
+				"description": "Actitud de élite. Durante 8...20 segundos, ganas una regeneración de salud de +4 y de +1 de energía por cada condición y maleficio que sufras.",
+				"concise": "Actitud de élite. (8...20 segundos.) Tienes una regeneración de salud de +4 y de +1 de energía por cada condición y maleficio que te hayan echado."
+			},
 			"fr": {
+				"name": "Résistance de Melandru",
+				"description": "Pose de combat d'élite. Pendant 8...20 secondes, votre régénération de santé est de +4 et votre régénération d'énergie de +1 point pour chaque condition et maléfice dont vous souffrez.",
+				"concise": "Pose de combat d'élite. (8...20 secondes.) Votre régénération de santé est de +4 et votre régénération d'énergie de +1 point pour chaque condition et maléfice qui vous affecte."
+			},
+			"fr-gwiki": {
 				"name": "Résistance de Melandru",
 				"description": "Pendant 8...20 secondes, votre régénération de santé est de +4 et votre régénération d'énergie de +1 point pour chaque condition et maléfice dont vous souffrez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Recupero di Melandru",
+				"description": "Posizione d'Élite. Per 8...20 secondo[i], ottieni +4 di Rigenerazione Salute e +1 di Rigenerazione Energia per ogni condizione e fattura ricevuta.",
+				"concise": "Posizione d'Élite. (Secondi: 8...20) Rigenerazione Salute +4 e Rigenerazione Energia +1 per ogni condizione e fattura che hai addosso."
+			},
+			"jp": {
+				"name": "メランドル リジリエンス",
+				"description": "エリート スタンス： 8...20 秒間、かけられている「状態異常」および弱体化スペルごとに体力の自然回復力が 4、エネルギーの自然回復力が1増加します。",
+				"concise": "エリート スタンス： (8...20 秒) かけられている「状態異常」および弱体化スペルごとに、体力の自然回復力が 4、エネルギーの自然回復力が1増加します。"
+			},
+			"kr": {
+				"name": "멜란드루의 원기",
+				"description": "엘리트 자세. 대상 지정: 없음. 8...20초 동안 자신에게 걸려 있는 상태이상과 약화 마법 하나당 체력 재생이 4, 에너지 재생이 1 증가합니다.",
+				"concise": "엘리트 자세. (8...20초) 자신에게 걸려 있는 상태이상과 약화 마법 하나당 체력 재생이 4, 에너지 재생이 1 증가합니다."
+			},
+			"pl": {
+				"name": "Wytrzymałość Melandru",
+				"description": "Postawa elitarna. Przez 8...20 sek., za każdą przypadłość i klątwę, pod których jesteś działaniem, otrzymujesz regenerację żywotności równą +4 i regenerację energii równą +1.",
+				"concise": "Postawa elitarna. (8...20 sek.) Za każdą przypadłość i klątwę, pod których jesteś działaniem, otrzymujesz regenerację żywotności +4 i regenerację energii +1."
+			},
+			"ru": {
+				"name": "Melandru's Resilience",
+				"description": "Элитная стойка. На 8...20 сек за каждое наложенное на вас проклятье или состояние ваша скорость восстановления здоровья увеличивается на 4 ед., а скорость восстановления энергии возрастает на 1 ед.",
+				"concise": "Элитная стойка. (8...20 сек) Вы получаете +4 ед. к скорости восстановления здоровья и +1 ед. к скорости восстановления энергии за каждое наложенное на вас состояние или проклятье."
+			},
+			"bork": {
+				"name": "Melundroo's Reseeleeence-a",
+				"description": "Ileete-a Stunce-a. Fur 8...20 secunds, yuoo gaeeen +4 Heaelt regeneraeshun und +1 Inergy regeneraeshun fur iaech cundeeshun und hex yuoo aere-a sooffffereeng.",
+				"concise": "Ileete-a Stunce-a. (8...20 secunds.) Yuoo haefe-a +4 Heaelt regeneraeshun und +1 Inergy regeneraeshun fur iaech cundeeshun und hex oon yuoo."
 			}
 		}
 	}

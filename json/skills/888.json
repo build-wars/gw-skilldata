@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂风斧",
+				"description": "精英斧术。 命中时，对目标敌人造成5...20点额外伤害。如果此技能被格挡，则在0秒内无法再次使用。",
+				"concise": "精英斧术。 命中时，对目标敌人造成5...20点额外伤害。如果此技能被格挡，则在0秒内无法再次使用。"
+			},
+			"cht": {
+				"name": "狂風斧",
+				"description": "精英斧術攻擊技能： 當狂風斧命中時，造成額外5...20傷害，移除目標態勢，無法被格檔。",
+				"concise": "精英斧術攻擊技能： 當狂風斧命中時，造成額外5...20傷害，移除目標態勢，無法被格檔。"
+			},
 			"de": {
+				"name": "Wirbelnde Axt",
+				"description": "Elite-Axtangriff. Wenn Wirbelnde Axt erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Dieser Angriff kann nicht geblockt werden.",
+				"concise": "Elite-Axtangriff. Richtet +5...20 Punkt[e] Schaden an und entfernt eine Haltung. Kann nicht geblockt werden."
+			},
+			"de-guildwiki": {
 				"name": "Wirbelnde Axt",
 				"description": "Wenn Wirbelnde Axt erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Dieser Angriff kann nicht geblockt werden.",
 				"concise": "Richtet +5...20 Punkte Schaden an und entfernt eine Haltung. Kann nicht geblockt werden."
 			},
 			"en": {
 				"name": "Whirling Axe",
+				"description": "Elite Axe Attack. If Whirling Axe hits, you strike for +5...20 damage and any stance being used by your target ends. This attack cannot be blocked.",
+				"concise": "Elite Axe Attack. Deals +5...20 damage and removes a stance. Unblockable."
+			},
+			"en-gww": {
+				"name": "Whirling Axe",
 				"description": "If Whirling Axe hits, you strike for +5...20 damage and any stance being used by your target ends. This attack cannot be blocked.",
 				"concise": "Deals +5...20 damage and removes a stance. Unblockable."
 			},
+			"es": {
+				"name": "Hacha giratoria",
+				"description": "Ataque con hacha de élite. Si el Hacha giratoria impacta, harás +5...20 de daño y cualquier actitud que estuviera usando el enemigo terminará. No se puede bloquear.",
+				"concise": "Ataque con hacha de élite. Hace +5...20 de daño y elimina una actitud. No se puede bloquear."
+			},
 			"fr": {
+				"name": "Hache tournoyante",
+				"description": "Attaque à la hache d'élite. Si Hache tournoyante réussit, vous infligez +5...20 points de dégâts et toute pose de combat utilisée par votre cible prend fin. Cette attaque ne peut pas être bloquée.",
+				"concise": "Attaque à la hache d'élite. Inflige +5...20 points de dégâts et supprime une pose de combat. Impossible à bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Hache tournoyante",
 				"description": "Si Hache tournoyante réussit, vous infligez +5...20 points de dégâts et toute pose de combat utilisée par votre cible prend fin. Cette attaque ne peut pas être bloquée.",
 				"concise": "Inflige +5...20 de dégâts et supprime une pose de combat. Impossible à bloquer."
+			},
+			"it": {
+				"name": "Ascia Roteante",
+				"description": "Attacco d'Élite con Ascia. Se Ascia Roteante va a segno, infligge +5...20 danno[i] e fa terminare qualsiasi posizione utilizzata dal tuo obiettivo. Questo attacco non può essere bloccato.",
+				"concise": "Attacco d'Élite con Ascia. Danni inferti: +5...20. Rimuove una posizione. Non bloccabile."
+			},
+			"jp": {
+				"name": "ホワール アックス",
+				"description": "エリート アックス アタック： 攻撃が成功すると 5...20 の追加ダメージを与え、ターゲットが使用しているスタンスを解除します。この攻撃はブロックされません。",
+				"concise": "エリート アックス アタック： 5...20 の追加ダメージを与え、かけられているスタンスを解除します。この攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "소용돌이 도끼",
+				"description": "엘리트 도끼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 주고, 대상이 취한 자세를 무효화합니다. 이 공격은 막을 수 없습니다.",
+				"concise": "엘리트 도끼 공격. 5...20의 대미지를 추가로 주고, 자세를 무효화합니다. 이 공격은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Wirujący Topór",
+				"description": "Elitarny atak toporem. Jeśli Wirujący Topór trafi, zadajesz +5...20 pkt. obrażeń i dodatkowo przestają działać wszystkie postawy, pod których działaniem był twój cel. Tego ataku nie można zablokować.",
+				"concise": "Elitarny atak toporem. Zadaje +5...20 pkt. obrażeń i wyłącza postawy. Nie do zablokowania."
+			},
+			"ru": {
+				"name": "Whirling Axe",
+				"description": "Элитная атака топором. Если Whirling Axe попадает в цель, вы наносите дополнительно 5...20 ед. урона, а действие любой стойки, которую использовал выбранный противник, закончится. Эту атаку нельзя блокировать.",
+				"concise": "Элитная атака топором. Наносит дополнительно 5...20 ед. урона и снимает стойку. Нельзя блокировать."
+			},
+			"bork": {
+				"name": "Vhurleeng Aexe-a",
+				"description": "Ileete-a Aexe-a Aettaeck. Iff Vhurleeng Aexe-a heets, yuoo streeke-a fur +5...20 daemaege-a und uny stunce-a beeeng used by yuoor taerget inds. Thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Aexe-a Aettaeck. Deaels +5...20 daemaege-a und remufes a stunce-a. Unbluckaeble-a."
 			}
 		}
 	}

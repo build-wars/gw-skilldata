@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "蒸气之刃",
+				"description": "咒文。 使目标敌人受到 15...135 冰冻伤害。如果该目标身上有「增益魔法」效果，则蒸汽之刃对其造成的伤害减半。",
+				"concise": "咒文。 使目标敌人受到 15...135 冰冻伤害。如果该目标身上有「增益魔法」效果，则蒸汽之刃对其造成的伤害减半。"
+			},
+			"cht": {
+				"name": "蒸氣之刃",
+				"description": "咒文魔法： 使目標敵人受到 15...135 冰凍傷害。若該目標身上有「加持」效果，則蒸氣之刃對其造成的傷害減半。",
+				"concise": "咒文魔法： 使目標敵人受到 15...135 冰凍傷害。若該目標身上有「加持」效果，則蒸氣之刃對其造成的傷害減半。"
+			},
 			"de": {
+				"name": "Dunstklinge",
+				"description": "Zauber. Der Gegner erleidet 15...135 Punkt[e] Kälteschaden. Dunstklinge verursacht nur die halbe Schadensmenge, wenn dieser Gegner mit Verzauberungen belegt ist.",
+				"concise": "Zauber. Richtet 15...135 Punkt[e] Kälteschaden an. Halber Schaden, falls Gegner verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Dunstklinge",
 				"description": "Der Gegner erleidet 15...135 Punkte Kälteschaden. Dunstklinge verursacht nur die halbe Schadensmenge, wenn dieser Gegner mit Verzauberungen belegt ist.",
 				"concise": "Richtet 15...135 Punkte Kälteschaden an. Halber Schaden, falls Gegner verzaubert ist."
 			},
 			"en": {
 				"name": "Vapor Blade",
+				"description": "Spell. Target foe is struck for 15...135 cold damage. Vapor Blade deals half damage if that foe has any enchantments on them.",
+				"concise": "Spell. Deals 15...135 cold damage. Half damage if target foe is enchanted."
+			},
+			"en-gww": {
+				"name": "Vapor Blade",
 				"description": "Target foe is struck for 15...135 cold damage. Vapor Blade deals half damage if that foe has any enchantments on them.",
 				"concise": "Deals 15...135 cold damage. Half damage if target foe is enchanted."
 			},
+			"es": {
+				"name": "Cuchilla de vapor",
+				"description": "Conjuro. El enemigo objetivo recibe 15...135 de daño frío. Cuchilla de vapor hace la mitad de daño si el enemigo tiene algún encantamiento sobre él.",
+				"concise": "Conjuro. Hace 15...135 de daño frío. Mitad del daño si el objetivo enemigo está encantado."
+			},
 			"fr": {
+				"name": "Lame vaporeuse",
+				"description": "Sort. La cible ennemie subit 15...135 points de dégâts du froid. Les dégâts de la Lame vaporeuse sont réduits de moitié si cet ennemi bénéficie d'un enchantement.",
+				"concise": "Sort. Inflige 15...135 points de dégâts du froid. Dégâts réduits de moitié si l'ennemi visé est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Lame vaporeuse",
 				"description": "La cible ennemie subit 15...135 points de dégâts du froid. Cette compétence n'inflige que la moitié des dégâts si cet ennemi est sous les effets d'un enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lama del Vapore",
+				"description": "Magia. L'obiettivo nemico subisce 15...135 danni da freddo. Se il nemico è sotto l'effetto di incantesimi, la Lama del Vapore gli infligge la metà dei danni.",
+				"concise": "Magia. Danni da freddo inferti: 15...135. Danno dimezzato se l'obiettivo nemico è sotto incantesimo."
+			},
+			"jp": {
+				"name": "ベイパー ブレード",
+				"description": "スペル： ターゲットした敵に 15...135 のコールド ダメージを与えます。その敵に強化スペルがかけられていた場合、与えるダメージが半分になります。",
+				"concise": "スペル： 15...135 のコールド ダメージを与えます。ターゲットした敵に強化スペルがかけられている場合、ダメージが半分になります。"
+			},
+			"kr": {
+				"name": "증기 칼날",
+				"description": "마법. 대상 지정: 적. 대상에게 15...135의 냉기 대미지를 줍니다. 그 대상이 강화 마법이 걸려 있다면 대상은 대미지를 절반만 입습니다.",
+				"concise": "마법. 15...135의 냉기 대미지를 줍니다. 강화 마법이 걸려 있는 대상은 대미지를 절반만 입습니다."
+			},
+			"pl": {
+				"name": "Mgliste Ostrze",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 15...135 pkt. obrażeń od zimna. Mgliste Ostrze zadaje połowę obrażeń, jeżeli ten przeciwnik ma na sobie jakieś zaklęcia.",
+				"concise": "Czar. Zadaje 15...135 pkt. obrażeń od zimna. Połowa obrażeń, jeżeli wybrany przeciwnik ma na sobie zaklęcie."
+			},
+			"ru": {
+				"name": "Vapor Blade",
+				"description": "Заклинание. Выбранный противник получает 15...135 ед. урона силой холода. Vapor Blade наносит вдвое меньше урона, если на этого противника наложены какие-либо чары.",
+				"concise": "Заклинание. Наносит 15...135 ед. урона силой холода. Наносит только половину урона, если на выбранного противника наложены чары."
+			},
+			"bork": {
+				"name": "Faepur Blaede-a",
+				"description": "Spell. Taerget fue-a is stroock fur 15...135 culd daemaege-a. Faepur Blaede-a deaels haelff daemaege-a iff thaet fue-a haes uny inchuntments oon zeem.",
+				"concise": "Spell. Deaels 15...135 culd daemaege-a. Haelff daemaege-a iff taerget fue-a is inchunted."
 			}
 		}
 	}

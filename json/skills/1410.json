@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "傲慢之锤",
+				"description": "锤术。 命中时，对目标敌人造成1...20点额外伤害，如果命中带有「虚弱」症状的敌人，此攻击将无法被格挡。",
+				"concise": "锤术。 命中时，对目标敌人造成1...20点额外伤害，如果命中带有「虚弱」症状的敌人，此攻击将无法被格挡。"
+			},
+			"cht": {
+				"name": "傲慢猛擊",
+				"description": "鎚術攻擊技能： 命中時造成 1...20 額外傷害，若是目標被擊倒，造成該敵人暈眩 1...8 秒。",
+				"concise": "鎚術攻擊技能： 命中時造成 1...20 額外傷害，若是目標被擊倒，造成該敵人暈眩 1...8 秒。"
+			},
 			"de": {
+				"name": "Anmaßender Schlag",
+				"description": "Hammerangriff. Wenn dieser Angriff erfolgreich ist, verursacht Ihr +1...20 Punkt[e] Schaden. Wenn der Gegner zu Boden geworfen wird, leidet er 1...8 Sekunde[n] lang an Benommenheit.",
+				"concise": "Hammerangriff. Fügt +1...20 Punkt[e] Schaden zu. Wenn der Gegner zu Boden geworfen wird, leidet er 1...8 Sekunde[n] lang an Benommenheit."
+			},
+			"de-guildwiki": {
 				"name": "Anmaßender Schlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, verursacht Ihr +1...20 Punkte Schaden. Wenn der Gegner zu Boden geworfen wurde, leidet er 1...8 Sekunden an Benommenheit.",
 				"concise": "Richtet +1...20 Punkte Schaden an. Wenn der Gegner zu Boden geworfen wurde, leidet er 1...8 Sekunden an Benommenheit."
 			},
 			"en": {
 				"name": "Overbearing Smash",
+				"description": "Hammer Attack. If this attack hits, you deal +1...20 damage. If target foe is knocked down, that foe is Dazed for 1...8 seconds.",
+				"concise": "Hammer Attack. Deals +1...20 damage. If target foe is knocked down, they are Dazed (1...8 seconds)."
+			},
+			"en-gww": {
+				"name": "Overbearing Smash",
 				"description": "If this attack hits, you deal +1...20 damage. If target foe is knocked down, that foe is Dazed for 1...8 second[s].",
 				"concise": "Deals +1...20 damage. If target foe is knocked down, they are Dazed (1...8 second[s])."
 			},
+			"es": {
+				"name": "Golpe autoritario",
+				"description": "Ataque con martillo. Este ataque hace +1...20 de daño si impacta. Si se derriba al enemigo objetivo, queda aturdido durante 1...8 segundos.",
+				"concise": "Ataque con martillo. Hace +1...20 de daño. Si se derriban los enemigos objetivo, quedan aturdidos durante (1...8 segundos)."
+			},
 			"fr": {
+				"name": "Attaque dominatrice",
+				"description": "Attaque au marteau. Si cette attaque réussit, elle inflige +1...20 points de dégâts. Si la cible ennemie est assommée, elle est frappée de Stupeur pendant 1...8 secondes.",
+				"concise": "Attaque au marteau. Inflige +1...20 points de dégâts. Si la cible ennemie est assommée, elle est frappée de Stupeur (1...8 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Attaque dominatrice",
 				"description": "Inflige +1...20 point(s) de dégâts. Si l'attaque frappe un ennemi assomé et ce ennemi est hébété pendant 1...8 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Percossa Prepotente",
+				"description": "Attacco con Martello. Se l'attacco va a segno, infliggi +1...20 di danni. Se l'obiettivo nemico finisce a terra, viene colpito da Stordimento per 1...8 secondi.",
+				"concise": "Attacco con Martello. Danni inferti: +1...20. Condizione inflitta all'obiettivo nemico se finisce a terra: Stordimento (secondi: 1...8)."
+			},
+			"jp": {
+				"name": "オーバーベア スマッシュ",
+				"description": "ハンマー アタック： この攻撃が成功すると、1...20 の追加ダメージを与えます。ターゲットした敵が転倒中の場合、その敵を 1...8 秒間「放心」状態にします。",
+				"concise": "ハンマー アタック： 1...20 の追加ダメージを与えます。ターゲットした敵が転倒中の場合、「放心」状態にします (1...8 秒) 。"
+			},
+			"kr": {
+				"name": "위압적인 강타",
+				"description": "해머 공격. 대상 지정: 적. 공격이 성공하면 대상은 1...20의 대미지를 추가로 입습니다. 바닥에 넘어져 있던 대상은 1...8초 동안 현혹 상태가 됩니다.",
+				"concise": "해머 공격. 1...20의 대미지를 추가로 줍니다. 바닥에 넘어진 적은 현혹에 빠집니다.(1...8초)"
+			},
+			"pl": {
+				"name": "Harde Uderzenie",
+				"description": "Atak młotem. Jeśli ten atak trafi swój cel, zadajesz +1...20 pkt. obrażeń. Jeśli cel jest powalony na ziemię, zostaje oszołomiony na 1...8 sek.",
+				"concise": "Atak młotem. Zadaje +1...20 pkt. obrażeń. Jeśli wróg jest powalony na ziemię, zostaje oszołomiony (1...8 sek.)."
+			},
+			"ru": {
+				"name": "Overbearing Smash",
+				"description": "Атака молотом. Если эта атака попадает в цель, вы наносите дополнительно 1...20 ед. урона. Если выбранный противник сбит с ног, он будет ошеломлен на 1...8 сек.",
+				"concise": "Атака молотом. Наносит дополнительно 1...20 ед. урона. Если выбранный противник сбит с ног, он будет ошеломлен (1...8 сек)."
+			},
+			"bork": {
+				"name": "Ooferbeaereeng Smaesh",
+				"description": "Haemmer Aettaeck. Iff thees aettaeck heets, yuoo deael +1...20 daemaege-a. Iff taerget fue-a is knucked doon, thaet fue-a is Daezed fur 1...8 secunds.",
+				"concise": "Haemmer Aettaeck. Deaels +1...20 daemaege-a. Iff taerget fue-a is knucked doon, zeey aere-a Daezed (1...8 secunds)."
 			}
 		}
 	}

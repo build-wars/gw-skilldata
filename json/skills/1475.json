@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "快速陷阱",
+				"description": "姿态。 在5...30秒之内，使你的「陷阱技」冷却速度提高25%，施放速度提升25%。如果你成功击中敌人，则此「姿态」效果消失。",
+				"concise": "姿态。 在5...30秒之内，使你的「陷阱技」冷却速度提高25%，施放速度提升25%。如果你成功击中敌人，则此「姿态」效果消失。"
+			},
+			"cht": {
+				"name": "設陷者之速",
+				"description": "態勢： 持續 5...30 秒，你的「陷阱」技能回復時間加快 25% ，而且設置時間也加快 25% 。當你攻擊成功時，此態勢的效果終止。",
+				"concise": "態勢： 持續 5...30 秒，你的「陷阱」技能回復時間加快 25% ，而且設置時間也加快 25% 。當你攻擊成功時，此態勢的效果終止。"
+			},
 			"de": {
+				"name": "Geschwindigkeit des Fallenstellers",
+				"description": "Haltung. 5...30 Sekunde[n] lang werden Eure Fallen um 25% schneller aufgeladen und um 25% schneller aktiviert. Diese Haltung endet, wenn einer Eurer Angriffe trifft.",
+				"concise": "Haltung. 5...30 Sekunde[n]: Eure Fallen laden sich um 25% schneller auf und werden um 25% schneller aktiviert. Endet, wenn Ihr mit einem Angriff trefft."
+			},
+			"de-guildwiki": {
 				"name": "Geschwindigkeit des Fallenstellers",
 				"description": "5...30 Sekunden lang werden Eure Fallen um 25% schneller aufgeladen und um 25% schneller aktiviert. Diese Haltung endet, wenn Ihr mit einem Angriff trefft.",
 				"concise": "5...30 Sekunden: Eure Fallen laden such um 25% schneller auf und werden um 25% schneller aktiviert. <gray>Endet, wenn Ihr mit einem Angriff trefft.</gray>"
 			},
 			"en": {
 				"name": "Trapper's Speed",
+				"description": "Stance. For 5...30 seconds, your Traps recharge 25% faster and activate 25% faster. This stance ends if you successfully hit with an attack.",
+				"concise": "Stance. (5...30 seconds.) Your traps recharge 25% faster and activate 25% faster. Ends if you hit with an attack."
+			},
+			"en-gww": {
+				"name": "Trapper's Speed",
 				"description": "For 5...30 seconds, your Traps recharge 25% faster and activate 25% faster. This Stance ends if you successfully hit with an attack.",
 				"concise": "(5...30 seconds.) Your traps recharge 25% faster and activate 25% faster. <gray>Ends if you hit with an attack.</gray>"
 			},
+			"es": {
+				"name": "Velocidad del trampero",
+				"description": "Actitud. Durante 5...30 segundos, tus trampas se recargan un 25% más deprisa y se activan un 25% antes. Esta actitud acaba si haces un ataque.",
+				"concise": "Actitud. (5...30 segundos). Tus trampas se recargan un 25% más deprisa y se activan un 25% antes. Acaba si atacas con éxito."
+			},
 			"fr": {
+				"name": "Vitesse du trappeur",
+				"description": "Pose de combat. Pendant 5...30 secondes, vos pièges se rechargent 25% plus vite et se déclenchent 25% plus vite. Cette pose prend fin si vous réussissez une attaque.",
+				"concise": "Pose de combat. (5...30 secondes.) Vos pièges se rechargent 25% plus vite et se déclenchent 25% plus vite. Prend fin si vous réussissez une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Vitesse du trappeur",
 				"description": "Pendant 5...30 secondes, vos pièges se rechargent 25% plus vite et se déclenchent 25% plus vite. Cette pose prend fin si vous réussissez une attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velocità dell'Intrappolatore",
+				"description": "Posizione. Per 5...30 secondo[i], le velocità di ricarica delle tue trappole aumenta di un 25% e la velocità di attivazione aumenta di un 25%. Questa posizione termina se un tuo attacco va a segno.",
+				"concise": "Posizione. (Secondi: 5...30) Incremento velocità di ricarica delle trappole: 25%; incremento velocità di attivazione: 25%. Termina se un tuo attacco va a segno."
+			},
+			"jp": {
+				"name": "トラッパー スピード",
+				"description": "スタンス： 5...30 秒間、トラップ スキルの再使用速度が 25%、発動速度が 25% 増加します。攻撃が成功すると、この効果は消失します。",
+				"concise": "スタンス： (5...30 秒) トラップ スキルの再使用速度が 25%、発動速度が 25% 増加します。攻撃に成功すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "능숙한 함정 전문가",
+				"description": "자세. 대상 지정: 없음. 5...30초 동안 함정 스킬의 재활성 시간은 25%, 설치 시간은 25% 단축됩니다. 자신의 공격이 성공하면 이 자세가 끝납니다.",
+				"concise": "자세. (5...30초) 함정 스킬의 재활성 시간이 25%, 설치 시간이 25% 빨라집니다. 공격이 성공하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Szybkość Trapera",
+				"description": "Postawa. Przez 5...30 sek. twoje pułapki odnawiają się o 25% szybciej i aktywują o 25% szybciej. Ta postawa przestanie działać z twoim kolejnym trafionym atakiem.",
+				"concise": "Postawa. (5...30 sek.) Twoje pułapki odnawiają się o 25% szybciej i aktywują o 25% szybciej. Przestanie działać, jeśli twój atak trafi."
+			},
+			"ru": {
+				"name": "Trapper's Speed",
+				"description": "Стойка. В течение 5...30 сек ваши ловушки активируются на 25% быстрее и перезаряжаются на 25% быстрее. Эта стойка прекращает свое действие, если вы проводите успешную атаку.",
+				"concise": "Стойка. (5...30 сек) Ваши ловушки перезаряжаются на 25% быстрее и активируются на 25% быстрее. Заканчивается, если вы проводите успешную атаку."
+			},
+			"bork": {
+				"name": "Traepper's Speed",
+				"description": "Stunce-a. Fur 5...30 secunds, yuoor Traeps rechaerge-a 25% faester und aecteefaete-a 25% faester. Thees stunce-a inds iff yuoo sooccessffoolly heet veet un aettaeck.",
+				"concise": "Stunce-a. (5...30 secunds.) Yuoor traeps rechaerge-a 25% faester und aecteefaete-a 25% faester. Inds iff yuoo heet veet un aettaeck."
 			}
 		}
 	}

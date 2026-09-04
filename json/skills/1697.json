@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 8,
 		"adrenaline_precise": 8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猎魔打击",
+				"description": "精英锤术。 如果你命中带有「增益魔法」的敌人，该敌人将被击倒。",
+				"concise": "精英锤术。 如果你命中带有「增益魔法」的敌人，该敌人将被击倒。"
+			},
+			"cht": {
+				"name": "獵魔者猛擊",
+				"description": "精英鎚術攻擊技能： 若此攻擊命中，目標敵人被擊倒。若目標敵人有加持，此技能無法被格檔。",
+				"concise": "精英鎚術攻擊技能： 若此攻擊命中，目標敵人被擊倒。若目標敵人有加持，此技能無法被格檔。"
+			},
 			"de": {
+				"name": "Magiejägerschmetterer",
+				"description": "Elite-Hammerangriff. Wenn dieser Angriff erfolgreich ist, wird der Gegner zu Boden geworfen. Wenn Euer Gegner unter dem Einfluss einer Verzauberung steht, kann der Angriff nicht geblockt werden.",
+				"concise": "Elite-Hammerangriff. Wirft zu Boden. Kann nicht geblockt werden, wenn Gegner verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Magiejägerschmetterer",
 				"description": "Wenn dieser Angriff erfolgreich ist, wird der Gegner zu Boden geworfen. Wenn Euer Gegner unter dem Einfluss einer Verzauberung steht, kann der Angriff nicht geblockt werden.",
 				"concise": "Wirft zu Boden. Kann nicht geblockt werden, wenn Gegner verzaubert ist."
 			},
 			"en": {
 				"name": "Magehunter's Smash",
+				"description": "Elite Hammer Attack. If this attack hits, target foe is knocked down. If your target is under the effects of an enchantment, this attack cannot be blocked.",
+				"concise": "Elite Hammer Attack. Causes knock-down. Unblockable if target foe is enchanted."
+			},
+			"en-gww": {
+				"name": "Magehunter's Smash",
 				"description": "If this attack hits, target foe is knocked down. If your target is under the effects of an enchantment, this attack cannot be blocked.",
 				"concise": "Causes knock-down. Unblockable if target foe is enchanted."
 			},
+			"es": {
+				"name": "Golpe del cazamagos",
+				"description": "Ataque con martillo de élite. Si este ataque impacta, derribas al enemigo objetivo. Si éste está bajo los efectos de un encantamiento, no te podrá bloquear.",
+				"concise": "Ataque con martillo de élite. Causa derribo. No se puede bloquear si el enemigo objetivo tiene un encantamiento."
+			},
 			"fr": {
+				"name": "Attaque du chasseur de mages",
+				"description": "Attaque au marteau d'élite. Si cette attaque réussit, la cible ennemie est assommée. Si votre cible est sous les effets d'un enchantement, cette attaque ne peut pas être bloquée.",
+				"concise": "Attaque au marteau d'élite. Attaque assommante. Impossible à bloquer si l'ennemi visé est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Attaque du chasseur de mages",
 				"description": "Si cette attaque réussit, la cible ennemie est assommée. Si votre cible est sous les effets d'un enchantement, cette attaque ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Percossa Cacciamaghi",
+				"description": "Attacco d'Élite con Martello. Se questo attacco colpisce, l'obiettivo nemico viene abbattuto; se è affetto da un incantesimo, questo attacco non può essere bloccato.",
+				"concise": "Attacco d'Élite con Martello. Provoca abbattimento. Non bloccabile se l'obiettivo nemico è sotto incantesimo."
+			},
+			"jp": {
+				"name": "メイジハンター スマッシュ",
+				"description": "エリート ハンマー アタック： 攻撃が成功すると、ターゲットした敵は転倒します。ターゲットに強化スペルがかけられていた場合、この攻撃はブロックされません。",
+				"concise": "エリート ハンマー アタック： 転倒させます。ターゲットした敵に強化スペルがかけられている場合、攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "대마법 강타",
+				"description": "엘리트 해머 공격. 대상 지정: 적. 공격이 성공하면 대상을 바닥에 넘어뜨립니다. 강화 마법이 걸려 있는 적은 이 공격을 막을 수 없습니다.",
+				"concise": "엘리트 해머 공격. 바닥에 넘어뜨립니다. 대상이 강화 마법에 걸려 있으면 이 공격을 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Łowcy Magów",
+				"description": "Elitarny atak młotem. Jeśli atak trafi, wybrany przeciwnik zostaje powalony. Jeśli twój cel jest pod działaniem zaklęcia, to atak ten nie może zostać zablokowany.",
+				"concise": "Elitarny atak młotem. Powoduje powalenie. Nie do zablokowania, jeżeli wybrany przeciwnik jest pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Magehunter's Smash",
+				"description": "Элитная атака молотом. Если эта атака попадает в цель, выбранный противник будет сбит с ног. Если на вашу цель были наложены чары, эту атаку нельзя блокировать.",
+				"concise": "Элитная атака молотом. Сбивает с ног. Нельзя блокировать, если на выбранном противнике лежат чары."
+			},
+			"bork": {
+				"name": "Maegehoonter's Smaesh",
+				"description": "Ileete-a Haemmer Aettaeck. Iff thees aettaeck heets, taerget fue-a is knucked doon. Iff yuoor taerget is under zee iffffects ooff un inchuntment, thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Haemmer Aettaeck. Cooses knuck-doon. Unbluckaeble-a iff taerget fue-a is inchunted."
 			}
 		}
 	}

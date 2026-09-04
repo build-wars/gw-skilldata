@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "愈合之曲",
+				"description": "回音技。 在15秒之内，使「非灵体」的目标盟友获得2...3点「生命再生」。当「圣歌」或「战吼」的效果在盟友身上消失时，此「回音技」的效果将被重置。",
+				"concise": "回音技。 在15秒之内，使「非灵体」的目标盟友获得2...3点「生命再生」。当「圣歌」或「战吼」的效果在盟友身上消失时，此「回音技」的效果将被重置。"
+			},
+			"cht": {
+				"name": "修補合聲 (PvP)",
+				"description": "迴響： 持續15秒，你的體力再生增加2...3， 每當戰嚎或者聖歌在你身上終止時，此迴響時間回復至15秒。",
+				"concise": "迴響： 持續15秒，你的體力再生增加2...3， 每當戰嚎或者聖歌在你身上終止時，此迴響時間回復至15秒。"
+			},
 			"de": {
+				"name": "Genesungsrefrain (PvP)",
+				"description": "Echo. 15 Sekunde[n] lang erfreut Ihr Euch einer Lebenspunktregeneration von +2...3. Dieses Echo wird jedes Mal wiederholt, wenn ein auf Euch gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. (15 Sekunde[n].) Ihr habt +2...3 Lebenspunktregeneration. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf Euch endet."
+			},
+			"de-guildwiki": {
 				"name": "Genesungsrefrain (PvP)",
 				"description": "15 Sekunden erfreut Ihr Euch einer Lebenspunkteregeneration von +2...3. Dieses Echo wird jedes Mal wiederholt, wenn ein auf Euch gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "15 Sekunden: Ihr habt +2...3 Lebenspunktregeneration. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf Euch endet."
 			},
 			"en": {
 				"name": "Mending Refrain (PvP)",
+				"description": "Echo. For 15 seconds, you have +2...3 Health regeneration. This echo is reapplied every time a chant or shout ends on you.",
+				"concise": "Echo. (15 seconds.) You gain +2...3 Health regeneration. Renewal: whenever a chant or shout ends on you."
+			},
+			"en-gww": {
+				"name": "Mending Refrain (PvP)",
 				"description": "For 15 seconds, you have +2...3 Health regeneration. This echo is reapplied every time a chant or shout ends on you.",
 				"concise": "(15 seconds.) You have +2...3 Health regeneration. Renewal: whenever a chant or shout ends on you."
 			},
+			"es": {
+				"name": "Estribillo sanador (PvP)",
+				"description": "Eco. Durante 15 segundos, tienes +2...3 de regeneración de salud. Este eco se reactivará cada vez que los efectos de un cántico o grito te alcancen.",
+				"concise": "Eco. (15 segundos.) Ganas +2...3 de regeneración de salud. Renovación: Cada vez que los efectos de un cántico o grito te alcancen."
+			},
 			"fr": {
+				"name": "Refrain de réparation (PvP)",
+				"description": "Echo. Pendant 15 secondes, vous bénéficiez d'une régénération de santé de +2...3. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
+				"concise": "Echo. (15 secondes.) Vous bénéficiez d'une régénération de santé de +2...3. Renouvellement : chaque fois qu'un chant ou un cri vous affectant prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Refrain de réparation (PvP)",
 				"description": "Pendant 15 secondes, vous bénéficiez d'une régénération de santé de +2...3. Cet écho se renouvelle chaque fois qu'un chant ou un cri vous affectant prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ritornello Riparatore (PvP)",
+				"description": "Eco. Per 15 secondi ottieni una Rigenerazione della Salute di +2...3. L'eco si rinnova ogni volta che un canto o un urlo termina su di te.",
+				"concise": "Eco. (Secondi: 15) Rigenerazione Salute ottenuta: +2...3. Rinnovo: ogni volta che un canto o un urlo termina su di te."
+			},
+			"jp": {
+				"name": "メンド リフレイン (PvP)",
+				"description": "エコー： 15 秒間、体力の自然回復力が 2...3 増加します。この効果は、かけられているチャントやシャウトが消失するたびに更新されます。",
+				"concise": "エコー： (15 秒) 体力の自然回復力が 2...3 増加します。更新： かけられているチャントまたはシャウトが消失するたび。"
+			},
+			"kr": {
+				"name": "보충의 공명(대인전)",
+				"description": "공명. 대상 지정: 없음. 15초 동안 자신의 체력 재생이 2...3 증가합니다. 이 공명은 자신에게 걸린 고함이나 영창이 끝날 때마다 새로 시작됩니다.",
+				"concise": "공명. (15초) 체력 재생이 2...3 증가합니다. 갱신 조건: 고함이나 영창이 끝날 때마다."
+			},
+			"pl": {
+				"name": "Zaśpiew Ozdrowienia (PvP)",
+				"description": "Echo. Przez 15 sek., posiadasz regenerację żywotności + 2...3. To echo jest ponownie nakładane za każdym razem, kiedy przestaje na tobie działać pieśń lub okrzyk.",
+				"concise": "Echo. (15 sek.) Otrzymujesz regenerację żywotności +2...3. Odnowienie: za każdym razem, gdy przestaje na tobie działać pieśń lub okrzyk."
+			},
+			"ru": {
+				"name": "Mending Refrain (PvP)",
+				"description": "Эхо. В течение 15 сек ваша скорость восстановления здоровья увеличивается на 2...3 ед. Это эхо применяется заново каждый раз, когда заканчивает свое действие влияющий на вас хорал или крик.",
+				"concise": "Эхо. (15 сек) Вы получаете +2...3 ед. к скорости восстановления здоровья. Обновление: каждый раз, когда заканчивается влияющий на вас хорал или крик."
+			},
+			"bork": {
+				"name": "Mendeeng Reffraeeen (PfP)",
+				"description": "Ichu. Fur 15 secunds, yuoo haefe-a +2...3 Heaelt regeneraeshun. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon yuoo.",
+				"concise": "Ichu. (15 secunds.) Yuoo gaeeen +2...3 Heaelt regeneraeshun. Renooael: vhenefer a chunt oor shuoot inds oon yuoo."
 			}
 		}
 	}

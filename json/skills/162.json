@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "狂风",
+				"description": "咒文。 将目标敌人击倒2秒，此法术会引发施法者的「疲劳」状态。（当「风系魔法」属性投入在4点以下时，技能会有50%的几率失败。）",
+				"concise": "咒文。 将目标敌人击倒2秒，此法术会引发施法者的「疲劳」状态。（当「风系魔法」属性投入在4点以下时，技能会有50%的几率失败。）"
+			},
+			"cht": {
+				"name": "狂風",
+				"description": "咒文魔法： 擊倒目標敵人 2 秒，此魔法會造成施法者精疲力竭。（風系魔法 4 以下，有 50% 失敗機率）",
+				"concise": "咒文魔法： 擊倒目標敵人 2 秒，此魔法會造成施法者精疲力竭。（風系魔法 4 以下，有 50% 失敗機率）"
+			},
 			"de": {
+				"name": "Orkan",
+				"description": "Zauber. Der Gegner wird 2 Sekunden lang zu Boden geworfen. (Bei Luftmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Zauber. Wirft zu Boden. Mindestens Luftmagie 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Orkan",
 				"description": "Der Gegner wird 2 Sekunden zu Boden geworfen. Bei Luftmagie von 4 oder weniger besteht eine 50% Wahrscheinlichkeit für einen Misserfolg.",
 				"concise": "Wirft zu Boden. <gray>Mindestens Luftmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Gale",
+				"description": "Spell. Knock down target foe for 2 seconds. (50% failure chance with Air Magic 4 or less.)",
+				"concise": "Spell. Causes knock-down. 50% failure chance unless Air Magic 5 or more."
+			},
+			"en-gww": {
+				"name": "Gale",
 				"description": "Knock down target foe for 2 seconds. (50% failure chance with Air Magic 4 or less.)",
 				"concise": "Causes knock-down. <gray>50% failure chance unless Air Magic 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Vendaval",
+				"description": "Conjuro. Derriba al enemigo objetivo durante 2 segundos. (50% de posibilidades de fallar con magia de aire 4 o inferior).",
+				"concise": "Conjuro. Causa derribo. 50% de posibilidades de fallar a menos que tengas magia de aire 5 o superior."
+			},
 			"fr": {
+				"name": "Bourrasque",
+				"description": "Sort. Renverse l'ennemi visé pendant 2 secondes (50% de risques d'échec avec Magie de l'air 4 ou inférieure).",
+				"concise": "Sort. Renverse. 50% de risques d'échec avec Magie de l'air inférieure à 5."
+			},
+			"fr-gwiki": {
 				"name": "Bourrasque",
 				"description": "Assomme l'ennemi visé pendant 2 secondes. Ce sort entraîne l'épuisement. (50% de chance d'échouer avec une valeur de Magie de l'air à 4 ou moins).",
 				"concise": "Attaque assommante. Vous souffrez d'Epuisement. 50% de chances d'échouer sauf si la valeur de Magie de l'air est de 5 ou plus."
+			},
+			"it": {
+				"name": "Burrasca",
+				"description": "Magia. Abbatti l'obiettivo nemico per 2 secondi. (50% di probabilità di fallimento con Magia dell'Aria di grado 4 o inferiore.)",
+				"concise": "Magia. Provoca abbattimento. Probabilità di fallimento se il grado di Magia dell'Aria è pari o superiore a 5: 50%."
+			},
+			"jp": {
+				"name": "ゲイル",
+				"description": "スペル： ターゲットした敵が2秒間、転倒します。「エアー」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "スペル： 転倒させます。「エアー」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "돌풍",
+				"description": "마법. 대상 지정: 적. 대상을 2초 동안 넘어뜨립니다. 바람 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "마법. 바닥에 넘어뜨립니다. 바람 특성 레벨이 4이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Podmuch",
+				"description": "Czar. Powala wybranego przeciwnika na 2 sek. Ten czar powoduje wyczerpanie. (50% szans na niepowodzenie, gdy wartość Magii Powietrza wynosi 4 lub mniej.)",
+				"concise": "Czar. Powoduje powalenie. Powoduje u ciebie wyczerpanie. 50% szans na niepowodzenie, chyba że wartość Magii Powietrza wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Gale",
+				"description": "Заклинание. Выбранный противник будет сбит с ног на 2 сек. (50%-й шанс неудачи, если ваш талант Air Magic меньше или равен 4).",
+				"concise": "Заклинание. Сбивает с ног. 50%-й шанс неудачи, если талант Air Magic меньше 5."
+			},
+			"bork": {
+				"name": "Gaele-a",
+				"description": "Spell. Knuck doon taerget fue-a fur 2 secunds. (50% faeeeloore-a chunce-a veet Aeur Maegeec 4 oor less.)",
+				"concise": "Spell. Cooses knuck-doon. 50% faeeeloore-a chunce-a unless Aeur Maegeec 5 oor mure-a."
 			}
 		}
 	}

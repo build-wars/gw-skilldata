@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暗影形态",
+				"description": "精英增益魔法。 在5...21秒之内，所有以你为目标的「负面魔法」将会失效；以你为目标的武器攻击将不会命中。当「暗影形态」结束时，你将只剩下5...25点生命值。",
+				"concise": "精英增益魔法。 在5...21秒之内，所有以你为目标的「负面魔法」将会失效；以你为目标的攻击将不会命中。当「暗影形态」结束时，你只剩 5...25点 生命值。"
+			},
+			"cht": {
+				"name": "暗影形態",
+				"description": "精英加持魔法： 持續 5...21 秒，你無法成為負面魔法的目標，且身上每一項暗殺加持將使你獲得 5 傷害減免，但是你的單一技能或攻擊不會超過 5...25 傷害。",
+				"concise": "精英加持魔法： 持續 5...21 秒，你無法成為負面魔法的目標，且身上每一項暗殺加持將使你獲得 5 傷害減免，但是你的單一技能或攻擊不會超過 5...25 傷害。"
+			},
 			"de": {
+				"name": "Schattenform",
+				"description": "Elite-Verzauberung. 5...21 Sekunde[n] lang könnt Ihr nicht zum Ziel von feindlichen Zaubern werden, und Ihr erhaltet eine Schadensreduzierung von 5 Lebenspunkt[en] für jede Assassinen-Verzauberung, die auf Euch liegt. Mit einem einzigen Angriff bzw. einer einzigen Fertigkeit könnt Ihr nicht mehr als 5...25 Punkt[e] Schaden anrichten.",
+				"concise": "Elite-Verzauberung. (5...21 Sekunde[n].) Ihr könnt nicht zum Ziel von feindlichen Zaubern werden. Ihr erhaltet eine Schadensreduzierung von 5 Lebenspunkt[en] für jede Assassinen-Verzauberung, die auf Euch liegt. Mit einem einzigen Angriff bzw. einer einzigen Fertigkeit könnt Ihr nicht mehr als 5...25 Punkt[e] Schaden anrichten."
+			},
+			"de-guildwiki": {
 				"name": "Schattenform",
 				"description": "5...21 Sekunden lang könnt Ihr nicht zum Ziel von feindlichen Zaubern werden, und Ihr erhaltet eine Schadensreduzierung von 5 Lebenspunkten für jede Assassinen-Verzauberung, die auf Euch liegt. Mit einem einzigen Angriff bzw. einer einzigen Fertigkeit könnt Ihr nicht mehr als 5...25 Punkte Schaden anrichten.",
 				"concise": "(5...21 Sekunden.) Ihr könnt nicht zum Ziel von feindlichen Zaubern werden. Ihr erhaltet eine Schadensreduzierung von 5 Lebenspunkten für jede Assassinen-Verzauberung, die auf Euch liegt. <gray>Mit einem einzigen Angriff bzw. einer einzigen Fertigkeit könnt Ihr nicht mehr als 5...25 Punkte Schaden anrichten.</gray>"
 			},
 			"en": {
 				"name": "Shadow Form",
+				"description": "Elite Enchantment Spell. For 5...21 seconds, you cannot be the target of enemy spells, and you gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than 5...25 damage with a single skill or attack.",
+				"concise": "Elite Enchantment Spell. (5...21 seconds.) Enemy spells cannot target you. Gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than 5...25 damage with a single skill or attack."
+			},
+			"en-gww": {
+				"name": "Shadow Form",
 				"description": "For 5...21 seconds, you cannot be the target of enemy spells, and you gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than 5...25 damage with a single skill or attack.",
 				"concise": "(5...21 seconds.) Enemy spells cannot target you. Gain 5 damage reduction for each Assassin enchantment on you. <gray>You cannot deal more than 5...25 damage with a single skill or attack.</gray>"
 			},
+			"es": {
+				"name": "Forma sombría",
+				"description": "Conjuro con encantamiento de élite. Durante 5...21 segundos, no puedes ser objetivo de conjuros enemigos y ganas 5 de reducción de daño por cada encantamiento de Asesino que tengas. No puedes hacer más de 5...25 de daño con cada habilidad o ataque.",
+				"concise": "Conjuro con encantamiento de élite. (5...21 segundos). No puedes ser objetivo de conjuros enemigos. Ganas 5 de reducción de daño por cada encantamiento de Asesino que tengas. No puedes hacer más de 5...25 de daño con cada habilidad o ataque."
+			},
 			"fr": {
+				"name": "Silhouette",
+				"description": "Enchantement d'élite. Pendant 5...21 secondes, vous ne pouvez pas être la cible de sorts ennemis, et vous bénéficiez d'une réduction de dégâts de 5 pour chaque enchantement d'Assassin vous affectant. Vous ne pouvez pas infliger plus de 5...25 points de dégâts avec une seule compétence ou attaque.",
+				"concise": "Enchantement d'élite. (5...21 secondes.) Vous ne pouvez pas être la cible de sorts ennemis. Vous gagnez 5 points de réduction de dégâts chaque fois qu'un enchantement d'Assassin vous affecte. Vous ne pouvez pas infliger plus de 5...25 points de dégâts avec une seule compétence ou attaque."
+			},
+			"fr-gwiki": {
 				"name": "Silhouette",
 				"description": "Pendant 5...21 secondes, vous ne pouvez pas être la cible de sorts ennemis, et vous bénéficiez d'une réduction de dégâts de 5 pour chaque enchantement d'Assassin vous affectant. Vous ne pouvez pas infliger plus de 5...25 points de dégâts avec une seule attaque.",
 				"concise": "(5...21 secondes.) Vous ne pouvez pas être la cible de sorts ennemis. Vous gagnez 5 points de réduction de dégâts chaque fois qu'un enchantement d'Assassin vous affecte.<gray> Vous ne pouvez pas infliger plus de 5...21 points de dégâts avec une seule compétence ou attaque.</gray>"
+			},
+			"it": {
+				"name": "Forma d'Ombra",
+				"description": "Incantesimo d'Élite. Dura 5...21 secondo[i]; non puoi essere colpito da magie nemiche e ottieni una riduzione del danno di 5 per ogni incantesimo Assassino su di te. Non puoi infliggere più di 5...25 danno[i] con un singolo attacco o una singola abilità.",
+				"concise": "Incantesimo d'Élite. (Secondo[i]: 5...21). Non puoi essere bersaglio di magie nemiche. Ottieni una riduzione del danno di 5 per ogni incantesimo Assassino lanciato su di te. Non puoi infliggere più di 5...25 danno[i] con un singolo attacco o una singola abilità."
+			},
+			"jp": {
+				"name": "シャドウ フォーム",
+				"description": "エリート強化スペル： 5...21 秒間、敵が詠唱するスペルのターゲットになりません。また、かけられているアサシンの強化スペルごとに受けるダメージが 5 減少します。ただし、スキルまたは攻撃により与えるダメージが 5...25 以下になります。",
+				"concise": "エリート強化スペル： (5...21 秒) 敵が詠唱するスペルのターゲットになりません。プレイヤーにかけられているアサシンの強化スペルごとに受けるダメージが 5 減少します。1つのスキルまたは攻撃で与えるダメージは最大 5...25 です。"
+			},
+			"kr": {
+				"name": "그림자 형체",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5...21초 동안 적 마법의 대상이 되지 않고, 자신에게 걸린 어새신 강화 효과 하나당 받는 대미지가 5씩 감소합니다. 대신 한 번의 공격이나 스킬 사용으로 5...25보다 많은 대미지를 줄 수 없습니다.",
+				"concise": "엘리트 강화 마법. (5...21초) 적 마법의 대상이 되지 않습니다. 자신에게 걸린 어새신 강화 마법 하나당 받는 대미지가 5씩 감소합니다. 한 번의 공격이나 스킬로 주는 대미지가 5...25보다 많을 수 없습니다."
+			},
+			"pl": {
+				"name": "Cienisty Kształt",
+				"description": "Elitarne zaklęcie (czar). Przez 5...21 sek., nie możesz być celem wrogich czarów, a twoje obrażenia są zmniejszone o 5 za każde nałożone na ciebie zaklęcie Zabójcy. Nie możesz zadać więcej niż 5...25 pkt. obrażeń jednym atakiem lub umiejętnością.",
+				"concise": "Elitarne zaklęcie (czar). (5...21 sek.) Nie możesz być celem wrogich czarów. Twoje obrażenia zostają zmniejszone o 5 za każde nałożone na ciebie zaklęcie zabójcy. Nie możesz zadać więcej niż 5...25 pkt. obrażeń jednym atakiem lub umiejętnością."
+			},
+			"ru": {
+				"name": "Shadow Form",
+				"description": "Элитное заклинание-чары. В течение 5...21 сек вы не можете стать целью вражеских заклинаний, и за каждые наложенные на вас чары профессии Assassin, получаемый вами урон уменьшается на 5 ед. Вы не можете нанести более 5...25 ед. урона одной атакой или умением.",
+				"concise": "Элитное заклинание-чары. (5...21 сек) Вы не можете стать целью вражеских заклинаний. Получаемый вами урон уменьшается на 5 ед. за каждые наложенные на вас чары профессии Assassin. Вы не можете нанести более 5...25 ед. урона одной атакой или умением."
+			},
+			"bork": {
+				"name": "Shaedoo Furm",
+				"description": "Ileete-a Inchuntment Spell. Fur 5...21 secunds, yuoo cunnut be-a zee taerget ooff inemy spells, und yuoo gaeeen 5 daemaege-a redoocshun fur iaech Aessaesseen inchuntment oon yuoo. Yuoo cunnut deael mure-a thun 5...25 daemaege-a veet a seengle-a skeell oor aettaeck. Bork! Bork! Bork!",
+				"concise": "Ileete-a Inchuntment Spell. (5...21 secunds.) Inemy spells cunnut taerget yuoo. Gaeeen 5 daemaege-a redoocshun fur iaech Aessaesseen inchuntment oon yuoo. Yuoo cunnut deael mure-a thun 5...25 daemaege-a veet a seengle-a skeell oor aettaeck."
 			}
 		}
 	}

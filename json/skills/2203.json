@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Spiritleech Aura",
+				"description": "技能。 For 5...20 seconds, whenever you cast a spell you steal 5...20 Health from one spirit within earshot.",
+				"concise": "技能。 (5...20 seconds.) You steal 5...20 Health from one spirit in earshot whenever you cast a spell."
+			},
+			"cht": {
+				"name": "附靈靈氣",
+				"description": "技能： 持續5...20秒，在音量所及範圍內，所有你控制的靈，造成傷害減少5...20，但是偷取敵人5...20體力。",
+				"concise": "技能： 持續5...20秒，在音量所及範圍內，所有你控制的靈，造成傷害減少5...20，但是偷取敵人5...20體力。"
+			},
 			"de": {
+				"name": "Geistsauger-Aura",
+				"description": "Fertigkeit. Für eine Dauer von 5...20 Sekunde[n] fügen alle Eure Geister in Hörweite 5...20 weniger Schaden zu aber stehlen 5...20 Lebenspunkte, wenn sie angreifen.",
+				"concise": "Fertigkeit. (5...20 Sekunde[n].) Alle Eure Geister in Hörweite fügen 5...20 weniger Schaden zu und stehlen 5...20 Lebenspunkte, wenn sie angreifen."
+			},
+			"de-guildwiki": {
 				"name": "Geistsauger-Aura",
 				"description": "Für eine Dauer von 5...20 Sekunden fügen alle Eure Geister in Hörweite 5...20 weniger Schaden zu, aber stehlen 5...20 Lebenspunkte, wenn sie angreifen.",
 				"concise": "(5...20 Sekunden.) Alle Eure Geister in Hörweite fügen 5...20 weniger Schaden zu und stehlen 5...20 Lebenspunkte, wenn sie angreifen."
 			},
 			"en": {
 				"name": "Spiritleech Aura",
+				"description": "Skill. For 5...20 seconds, all of your spirits within earshot deal 5...20 less damage and steal 5...20 Health when they attack.",
+				"concise": "Skill. (5...20 seconds.) All of your spirits within earshot deal 5...20 less damage and steal 5...20 Health when they attack."
+			},
+			"en-gww": {
+				"name": "Spiritleech Aura",
 				"description": "For 5...20 seconds, all of your spirits within earshot deal 5...20 less damage and steal 5...20 Health when they attack.",
 				"concise": "(5...20 seconds.) All of your spirits within earshot deal 5...20 less damage and steal 5...20 Health when they attack."
 			},
+			"es": {
+				"name": "Aura de la sanguijuela espiritual",
+				"description": "Habilidad. Durante 5...20 segundos, todos tus espíritus al alcance del oído hacen 5...20 menos de daño y roban 5...20 de salud cuando atacan.",
+				"concise": "Habilidad. (5...20 segundos.) Todos tus espíritus al alcance del oído hacen 5...20 menos de daño y roban 5...20 de salud cuando atacan."
+			},
 			"fr": {
+				"name": "Aura de sangsue de l'esprit",
+				"description": "Compétence. Pendant 5...20 secondes, tous vos esprits à portée de voix infligent 5...20 points de dégâts en moins et volent 5...20 points de vie lorsqu'ils attaquent.",
+				"concise": "Compétence. (5...20 secondes.) Tous vos esprits à portée de voix infligent 5...20 points de dégâts en moins et volent 5...20 points de vie lorsqu'ils attaquent."
+			},
+			"fr-gwiki": {
 				"name": "Aura de sangsue de l'esprit",
 				"description": "Pendant 5...20 secondes, tous vos esprits à portée de voix infligent 5...20 points de dégâts en moins et volent 5...20 points de vie lorsqu'ils attaquent.",
 				"concise": "(5...20 secondes.) Tous vos esprits à portée de voix infligent 5...20 points de dégâts en moins et volent 5...20 points de vie lorsqu'ils attaquent."
+			},
+			"it": {
+				"name": "Aura dello Spirito Sanguisuga",
+				"description": "Abilità. Per 5...20 secondi tutti i tuoi spiriti a portata d'orecchio infliggono 5...20 danni in meno e sottraggono 5...20 Punti Salute quando sferrano un attacco.",
+				"concise": "Abilità. (Secondi: 5...20). Tutti i tuoi spiriti a portata d'orecchio infliggono 5...20 danni in meno e sottraggono 5...20 Punti Salute quando sferrano un attacco."
+			},
+			"jp": {
+				"name": "スピリットリーチ オーラ",
+				"description": "スキル： 5...20 秒間、声の届く範囲内にいるプレイヤーが召喚した精霊はすべて与えるダメージが 5...20 減少し、攻撃すると 5...20 の体力を奪い取ります。",
+				"concise": "スキル： (5...20 秒) 声の届く範囲内にいるプレイヤーが召喚した精霊はすべて与えるダメージが 5...20 減少し、攻撃すると 5...20 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "영혼흡수 오라",
+				"description": "스킬. 5...20초 동안 가청 범위 내에 있는 자신의 모든 영혼이 주는 대미지가 5...20만큼 감소하지만, 공격할 때마다 5...20의 체력을 뺏습니다.",
+				"concise": "스킬. (5...20초) 가청 범위 내에 있는 자신의 모든 영혼이 주는 대미지가 5...20 감소하지만, 공격할 때마다 5...20의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Aura Duchowej Pijawki",
+				"description": "Umiejętność. Przez 5...20 sek., wszystkie twoje duchy w zasięgu słuchu zadają o 5...20 mniej obrażeń i przy każdym ataku wykradają 5...20 pkt. żywotności.",
+				"concise": "Umiejętność. (5...20 sek.) Wszystkie twoje duchy w zasięgu słuchu zadają o 5...20 mniej obrażeń i przy każdym ataku"
+			},
+			"ru": {
+				"name": "Spiritleech Aura",
+				"description": "Умение. В течение 5...20 сек все ваши духи, находящиеся в зоне слышимости, наносят на 5...20 ед. урона меньше и похищают 5...20 ед. здоровья при своих атаках.",
+				"concise": "Умение. (5...20 сек) Все ваши духи, находящиеся в зоне слышимости, наносят на 5...20 ед. урона меньше и похищают 5...20 ед. здоровья при своих атаках."
+			},
+			"bork": {
+				"name": "Spureetleech Oora",
+				"description": "Skeell. Fur 5...20 secunds, aell ooff yuoor spureets veetheen iaershut deael 5...20 less daemaege-a und steael 5...20 Heaelt vhee zeey aettaeck.",
+				"concise": "Skeell. (5...20 secunds.) Aell ooff yuoor spureets veetheen iaershut deael 5...20 less daemaege-a und steael 5...20 Heaelt vhee zeey aettaeck. Bork! Bork! Bork!"
 			}
 		}
 	}

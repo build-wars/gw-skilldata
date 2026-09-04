@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命",
+				"description": "缚灵仪式。 创造一只等级为1...14的生命缚灵。当缚灵消失时，范围内的所有「非灵体」类友方将获得缚灵存活秒数1...7倍的生命值。生命缚灵将在20后自然消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...14的生命缚灵。当缚灵消失时，范围内的所有盟友获得缚灵存活秒数的 1...7 倍生命。生命缚灵将在20秒后消失。"
+			},
+			"cht": {
+				"name": "生命",
+				"description": "縛靈儀式： 創造等級 1...14 的生命縛靈。當縛靈消失時，範圍內的所有盟友獲得縛靈存活秒數的 1...7 倍體力。生命縛靈將在 20 秒後消失。",
+				"concise": "縛靈儀式： 創造等級 1...14 的生命縛靈。當縛靈消失時，範圍內的所有盟友獲得縛靈存活秒數的 1...7 倍體力。生命縛靈將在 20 秒後消失。"
+			},
 			"de": {
+				"name": "Leben",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...14. Wenn dieser Geist stirbt, werden alle Verbündeten in seiner Reichweite, die keine Geister sind, pro Sekunde, die der Geist am Leben war, um 1...7 Lebenspunkt[e] geheilt. Dieser Geist stirbt nach 20 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...14 (20 Sekunde[n] Lebensdauer). Betrifft Verbündete in Reichweite, die keine Geister sind. Wirkung am Ende: Heilt pro Sekunde, die der Geist am Leben war, um 1...7 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Leben",
 				"description": "Erstellt einen Geist der Stufe 1...14. Wenn dieser Geist stirbt, werden alle Verbündeten in seiner Reichweite, die keine Geister sind, pro Sekunde, die der Geist am Leben war, um 1...7 Lebenspunkte geheilt. Dieser Geist stirbt nach 20 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...14 (20 Sekunden Lebensdauer). Betrifft Verbündete in Reichweite, die keine Geister sind. Wirkung am Ende: Heilt pro Sekunde, die der Geist am Leben war, um 1...7 Lebenspunkte."
 			},
 			"en": {
 				"name": "Life",
+				"description": "Binding Ritual. Create a level 1...14 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1...7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...14 spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for 1...7 for each second this spirit was alive."
+			},
+			"en-gww": {
+				"name": "Life",
 				"description": "Create a level 1...14 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1...7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
 				"concise": "Creates a level 1...14 spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for 1...7 for each second this spirit was alive."
 			},
+			"es": {
+				"name": "Vida",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...14. Cuando éste muera, todos los aliados no espíritus de la zona se curarán 1...7 de salud por cada segundo que haya estado vivo. Morirá a los 20 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...14 (20 segundos de vida). Afecta a los aliados no espíritu dentro de la zona. Efecto final: cura 1...7 de salud por cada segundo que haya estado vivo."
+			},
 			"fr": {
+				"name": "Vie",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...14. Lorsque cet esprit meurt, tous les alliés (autres que des esprits) dans sa portée sont soignés de 1...7 points de vie pour chaque seconde d'existence de cet esprit. Il meurt au bout de 20 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...14 (durée de vie de 20 secondes). Affecte les alliés à portée, à l'exception des esprits. Effet final : soigne de 1...7 points de vie par seconde d'existence de cet esprit."
+			},
+			"fr-gwiki": {
 				"name": "Vie",
 				"description": "Crée un esprit de niveau 1...14. Lorsque cet esprit meurt, tous les alliés (autres que des esprits) dans sa portée sont soignés de 1...7 point de vie pour chaque seconde d'existence de cet esprit. Il meurt au bout de 20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vita",
+				"description": "Rituale Incatenante. Crei uno Spirito di livello 1...14. Quando si esaurisce, tutti gli alleati nella sua portata (Spiriti esclusi) vengono curati di 1...7 Punto[i] Salute per ogni secondo di vita dello Spirito. Questo Spirito si esaurisce dopo 20 secondo[i].",
+				"concise": "Rituale Incatenante. Crei uno Spirito di livello 1...14 (in vita per 20 secondo[i]). Ha effetto sugli alleati (Spiriti esclusi) nella portata. Effetto al termine: cura di 1...7 per secondo di vita di questo Spirito."
+			},
+			"jp": {
+				"name": "ライフ",
+				"description": "バインド リチュアル： レベル 1...14 の精霊を召喚します。この精霊が消滅すると、この精霊の効果範囲内にいる精霊以外の味方はすべて、精霊の存在していた秒数に 1...7 をかけた量の体力が回復します。この精霊は 20 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...14 の精霊を召喚します (20 秒)。この精霊の効果範囲内にいる精霊以外の味方に効果をもたらします。終了効果： この精霊が存在していた秒数に 1...7 をかけた量の体力が回復します。"
+			},
+			"kr": {
+				"name": "회생의 영혼",
+				"description": "영혼 결속. 대상 지정: 없음. 1...14레벨의 영혼을 소환합니다. 영혼이 사라질 때 일정 범위 내에 있던 영혼이 아닌 모든 아군은 영혼이 살아 있던 시간의 1...7배 만큼의 체력을 회복합니다. 영혼은 20초 후 사라집니다.",
+				"concise": "영혼 결속. 1...14레벨 영혼을 소환합니다.(수명: 20초) 종료 효과: 영혼이 아닌 아군은 영혼이 지속된 1초당 1...7의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Życie",
+				"description": "Rytuał spętania. Tworzysz 1...14 poziomowego ducha. Gdy ten duch ginie, wszyscy nie będący duchami sojusznicy w jego zasięgu otrzymują 1...7 pkt. żywotności za każdą sekundę życia tego ducha. Ten duch ginie po 20 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...14 (czas życia 20 sek.). Działa na sojuszników nie-duchy w zasięgu. Efekt końcowy: dodaje 1...7 pkt. żywotności na każdą sekundę życia tego ducha."
+			},
+			"ru": {
+				"name": "Life",
+				"description": "Связующий ритуал. Создает духа 1...14 уровня. Когда этот дух умирает, все не являющиеся духами союзники, находящиеся в зоне его действия, исцеляются на 1...7 ед. здоровья за каждую секунду существования этого духа. Этот дух умирает через 20 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...14 уровня (20 сек жизни). Влияет на всех не являющихся духами союзников в зоне его действия. Эффект окончания: исцеляет на 1...7 ед. здоровья за каждую секунду существования этого духа."
+			},
+			"bork": {
+				"name": "Leeffe-a",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...14 spureet. Vhee thees spureet deees, aell nun-spureet aelleees veetheen its runge-a aere-a heaeled fur 1...7 Heaelt fur iaech secund thees spureet vaes aeleefe-a. Thees spureet deees aeffter 20 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...14 spureet (20 secund leeffespun). Aeffffects nun-spureet aelleees veetheen runge-a. Ind iffffect: heaels fur 1...7 fur iaech secund thees spureet vaes aeleefe-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Withering Aura",
+				"description": "增益魔法。 For 5...20 seconds, target ally's melee attacks cause Weakness for 5...20 seconds.",
+				"concise": "增益魔法。 (5...20 seconds.) Target ally's melee attacks cause Weakness condition (5...20 seconds.)"
+			},
+			"cht": {
+				"name": "乾枯靈氣　",
+				"description": "加持魔法： 持續 5...20 秒，目標盟友的近身攻擊將同時造成「虛弱」 5...20 秒。",
+				"concise": "加持魔法： 持續 5...20 秒，目標盟友的近身攻擊將同時造成「虛弱」 5...20 秒。"
+			},
 			"de": {
+				"name": "Verkümmernde Aura",
+				"description": "Verzauberung. 5...20 Sekunde[n] lang verursachen die Nahkampfangriffe des Verbündeten (bzw. Eure eigenen) 5...20 Sekunde[n] lang Schwäche.",
+				"concise": "Verzauberung. 5...20 Sekunde[n]: Die Nahkampfangriffe des Verbündeten (bzw. von Euch selbst) verursachen den Zustand Schwäche (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verkümmernde Aura",
 				"description": "5...20 Sekunden lang verursachen die Nahkampfangriffe des Verbündeten (bzw. Eure eigenen) 5...20 Sekunden lang Schwäche.",
 				"concise": "5...20 Sekunden: Die Nahkampfangriffe des Verbündeten (bzw. von Euch selbst) verursachen den Zustand Schwäche (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Withering Aura",
+				"description": "Enchantment Spell. For 5...20 seconds, target ally's melee attacks cause Weakness for 5...20 seconds.",
+				"concise": "Enchantment Spell. (5...20 seconds.) Target ally's melee attacks cause Weakness condition (5...20 seconds.)"
+			},
+			"en-gww": {
+				"name": "Withering Aura",
 				"description": "For 5...20 seconds, target ally's melee attacks cause Weakness for 5...20 seconds.",
 				"concise": "(5...20 seconds.) Target ally's melee attacks cause Weakness condition (5...20 seconds.)"
 			},
+			"es": {
+				"name": "Aura desdeñosa",
+				"description": "Conjuro con encantamiento. Durante 5...20 segundos, los ataques cuerpo a cuerpo del aliado objetivo causan debilitamiento durante 5...20 segundos.",
+				"concise": "Conjuro con encantamiento. (5...20 segundos). Los ataques cuerpo a cuerpo del aliado objetivo causan debilitamiento (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Aura de Flétrissure",
+				"description": "Enchantement. Pendant 5...20 secondes, les attaques au corps à corps de la cible (allié ou vous-même) provoquent la Faiblesse pendant 5...20 secondes.",
+				"concise": "Enchantement. (5...20 secondes.) Les attaques au corps à corps de l'allié visé infligent la Faiblesse (5...20 secondes.)"
+			},
+			"fr-gwiki": {
 				"name": "Aura de Flétrissure",
 				"description": "Pendant 5...20 secondes, les attaques au corps à corps de la cible (allié ou vous-même) provoquent la Faiblesse pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura Avvizzente",
+				"description": "Incantesimo. Per 5...20 secondo[i], gli attacchi ravvicinati dell'obiettivo (un alleato o te stesso) provocano Debolezza per 5...20 secondo[i].",
+				"concise": "Incantesimo. (Secondi: 5...20) Condizione inflitta dagli attacchi ravvicinati dell'obiettivo alleato: Debolezza (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "ウィザー オーラ",
+				"description": "強化スペル： 5...20 秒間、ターゲットした味方の近接攻撃が成功すると、敵は 5...20 秒間「衰弱]状態になります。",
+				"concise": "強化スペル： (5...20 秒) ターゲットした味方の近接攻撃により、敵は 「衰弱]状態になります (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "위축의 기운",
+				"description": "강화 마법. 대상 지정: 아군. 5...20초 동안 대상의 근접 물리 공격은 적을 5...20초 동안 약체에 걸리게 합니다.",
+				"concise": "강화 마법. (5...20초) 대상 아군의 근접 물리 공격이 적을 약체로 만듭니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Osłabiająca Aura",
+				"description": "Zaklęcie (czar). Przez 5...20 sek., ataki wręcz sojusznika wywołują osłabienie trwające 5...20 sek.",
+				"concise": "Zaklęcie (czar). (5...20 sek.) Ataki wręcz wybranego sojusznika wywołują przypadłość osłabienie (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Withering Aura",
+				"description": "Заклинание-чары. В течение 5...20 сек рукопашные атаки выбранного союзника вызывают слабость в течение 5...20 сек.",
+				"concise": "Заклинание-чары. (5...20 сек) Рукопашные атаки выбранного союзника вызывают слабость (5...20 сек)."
+			},
+			"bork": {
+				"name": "Veezeereeng Oora",
+				"description": "Inchuntment Spell. Fur 5...20 secunds, taerget aelly's melee-a aettaecks coose-a Veaekness fur 5...20 secunds.",
+				"concise": "Inchuntment Spell. (5...20 secunds.) Taerget aelly's melee-a aettaecks coose-a Veaekness cundeeshun (5...20 secunds.)"
 			}
 		}
 	}

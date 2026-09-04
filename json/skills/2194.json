@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Distracting Strike",
+				"description": "近战技能。 If Distracting Strike hits, it interrupts target foe's action. If target foe has Cracked Armor, that skill is disabled for 30 seconds.",
+				"concise": "近战技能。 Interrupts an action. Interruption effect: Disables interrupted skill (30 seconds) if target foe has Cracked Armor."
+			},
+			"cht": {
+				"name": "分心之擊",
+				"description": "近身攻擊技能： 當分心之擊命中時，將中斷目標敵人動作卻不造成任何傷害。若該目標正遭受碎甲，該名敵人所被中斷的技能將在30秒內無法使用。",
+				"concise": "近身攻擊技能： 當分心之擊命中時，將中斷目標敵人動作卻不造成任何傷害。若該目標正遭受碎甲，該名敵人所被中斷的技能將在30秒內無法使用。"
+			},
 			"de": {
+				"name": "Ablenkender Stoß",
+				"description": "Nahkampfangriff. Wenn der Ablenkende Stoß erfolgreich ist, fügt er keinen Schaden zu und unterbricht die Aktion des Feindes. Wenn Gegner Beschädigte Rüstung aufweist, ist diese Fertigkeit 30 Sekunde[n] lang deaktiviert.",
+				"concise": "Nahkampfangriff. Unterbricht eine Aktion. Unterbrechungswirkung: Deaktiviert unterbrochene Fertigkeit (30 Sekunde[n]), falls Gegner Beschädigte Rüstung aufweist. Fügt keinen Schaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Ablenkender Stoß",
 				"description": "Wenn Ablenkender Stoß erfolgreich ist, fügt er nur 0 Punkte Schaden zu und unterbricht die Aktion des Gegners. Wenn der Gegner eine Beschädigte Rüstung hat und Ihr eine Fertigkeit unterbrochen habt, benötigt die unterbrochene Fertigkeit mindestens 30 Sekunden zur Wiederaufladung.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Deaktiviert unterbrochene Fertigkeit (20 Sekunden), falls Gegner Beschädigte Rüstung aufweist. <gray>Fügt keinen Schaden zu.</gray>"
 			},
 			"en": {
 				"name": "Distracting Strike",
+				"description": "Melee Attack. If Distracting Strike hits, it deals no damage and interrupts target foe's action. If target foe has Cracked Armor, that skill is disabled for 30 seconds.",
+				"concise": "Melee Attack. Interrupts an action. Interruption effect: Disables interrupted skill (30 seconds) if target foe has Cracked Armor. Deals no damage."
+			},
+			"en-gww": {
+				"name": "Distracting Strike",
 				"description": "If Distracting Strike hits, it deals no damage and interrupts target foe's action. If target foe has Cracked Armor, that skill is disabled for 30 seconds.",
 				"concise": "Interrupts an action. Interruption effect: Disables interrupted skill (30 seconds) if target foe has Cracked Armor. <gray>Deals no damage.</gray>"
 			},
+			"es": {
+				"name": "Ataque de distracción",
+				"description": "Ataque cuerpo a cuerpo. Si el Ataque de distracción impacta, no hace ningún daño e interrumpe la acción del enemigo objetivo. Si éste tenía la armadura rota, la habilidad quedará desactivada durante 30 segundos.",
+				"concise": "Ataque cuerpo a cuerpo. Interrumpe una acción. Efecto de interrupción: Desactiva la habilidad interrumpida (30 segundos) si el enemigo objetivo tiene la armadura rota. No hace daño."
+			},
 			"fr": {
+				"name": "Frappe de diversion",
+				"description": "Attaque au corps à corps. Si la Frappe de diversion réussit, vous n'infligez pas de dégâts mais vous interrompez l'action de la cible ennemie. Si l'ennemi a une Armure brisée, cette compétence est inutilisable pendant 30 secondes.",
+				"concise": "Attaque au corps à corps. Interrompt une action. Effet de l'interruption : désactive la compétence interrompue (30 secondes) si l'ennemi visé a une Armure brisée. N'inflige pas de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Frappe de diversion",
 				"description": "Si la Frappe de diversion réussit, vous n'infligez pas de dégâts mais vous interrompez l'action de la cible ennemie. Si l'ennemi a une Armure brisée, cette compétence est inutilisable pendant 30 secondes.",
 				"concise": "Interrompt une action. Effet de l'interruption : désactive la compétence interrompue (30 secondes) si l'ennemie visé a une Armure brisée. <gray>N'inflige pas de dégâts.</gray>"
+			},
+			"it": {
+				"name": "Battuta Distraente",
+				"description": "Attacco Ravvicinato. Se Battuta Distraente va a segno, non infligge danni e interrompe l'azione dell'obiettivo nemico. Se l'obiettivo nemico ha un'Armatura Incrinata, l'abilità viene disattivata per 30 secondo[i].",
+				"concise": "Attacco Ravvicinato. Interrompe un'azione. Effetto dell'interruzione: se l'obiettivo nemico ha un'Armatura Incrinata, disattiva l'abilità interrotta (30 secondo[i]). Non infligge alcun danno."
+			},
+			"jp": {
+				"name": "ディストラクト ストライク",
+				"description": "メーレー アタック： 攻撃が成功すると、ターゲットした敵にダメージは与えませんがアクションを中断します。ターゲットが「防具破損」状態の場合、そのスキルを 30 秒間封じ込めます。",
+				"concise": "メーレー アタック： アクションを中断します。中断効果： ターゲットが「防具破損」状態の場合、中断したスキルを封じ込めます (30 秒) 。ダメージは与えません。"
+			},
+			"kr": {
+				"name": "혼란 유발",
+				"description": "근접 물리 공격. 공격이 성공하면 대미지는 없지만, 대상의 동작을 방해합니다. 대상이 방어 손상을 입은 상태라면 방해 받은 스킬의 재활성 시간이 30초 늘어납니다.",
+				"concise": "근접 물리 공격. 동작을 방해합니다. 방해 효과: 대상이 방어 손상을 입은 상태라면 방해 받은 스킬의 재활성 시간이 30초 늘어납니다. 대미지를 주지 않습니다."
+			},
+			"pl": {
+				"name": "Rozpraszające Uderzenie",
+				"description": "Atak wręcz. Jeżeli Rozpraszające Uderzenie trafi, nie zadaje obrażeń, ale przerywa czynność wybranego przeciwnika. Jeżeli cel jest pod działaniem Pękniętej Zbroi, to ta umiejętność będzie niedostępna przez 30 sek.",
+				"concise": "Atak wręcz. Przerywa czynność. Efekt przerwania: Wyłącza przerwaną umiejętność (30 sek.), jeżeli wybrany przeciwnik ma pękniętą zbroję. Nie zadaje obrażeń."
+			},
+			"ru": {
+				"name": "Distracting Strike",
+				"description": "Рукопашная атака. Если этот удар попадает в цель, он не наносит урон и прерывает действие выбранного противника. Если у этого противника были треснувшие доспехи, это умение будет недоступно в течение 30 сек.",
+				"concise": "Рукопашная атака. Прерывает действие. Эффект прерывания: прерванное умение будет недоступно (30 сек), если у выбранного противника треснувшие доспехи. Не наносит урон."
+			},
+			"bork": {
+				"name": "Deestraecteeng Streeke-a",
+				"description": "Melee-a Aettaeck. Iff Deestraecteeng Streeke-a heets, it deaels nu daemaege-a und interroopts taerget fue-a's aecshun. Iff taerget fue-a haes Craecked Aermur, thaet skeell is deesaebled fur 30 secunds.",
+				"concise": "Melee-a Aettaeck. Interroopts un aecshun. Interroopshun iffffect: Deesaebles interroopted skeell (30 secunds) iff taerget fue-a haes Craecked Aermur. Deaels nu daemaege-a."
 			}
 		}
 	}

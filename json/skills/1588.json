@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "祛病纹章",
+				"description": "精英纹章。 治愈所有队友身上的「症状」。每成功治愈一次，你将遭受1秒的「灼烧」症状。",
+				"concise": "精英纹章。 治愈所有队友身上的「症状」。每成功治愈一次，你将遭受1秒的「灼烧」症状。"
+			},
+			"cht": {
+				"name": "淨潔紋章",
+				"description": "精英紋章： 為所有隊伍成員消除所有「病症」。而每個成功消除的病症，使你遭受「著火」病症的時間增加 1 秒。",
+				"concise": "精英紋章： 為所有隊伍成員消除所有「病症」。而每個成功消除的病症，使你遭受「著火」病症的時間增加 1 秒。"
+			},
 			"de": {
+				"name": "Siegel der Verätzung",
+				"description": "Elite-Siegel. Alle Gruppenmitglieder verlieren alle Zustände. Ihr werdet für jeden Zustand, der auf diese Weise entfernt wird, 1 Sekunde lang in Brand gesetzt.",
+				"concise": "Elite-Siegel. Alle Gruppenmitglieder verlieren alle Zustände. Ihr beginnt zu brennen (1 Sekunde pro entferntem Zustand)."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Verätzung",
 				"description": "Alle Gruppenmitglieder verlieren alle Zustände. Ihr werdet für jeden Zustand, der auf diese Weise entfernt wird, 1 Sekunde lang in Brand gesetzt.",
 				"concise": "Alle Gruppenmitglieder verlieren alle Zustände. <gray>Ihr beginnt zu brennen (1 Sekunde pro entferntem Zustand).</gray>"
 			},
 			"en": {
 				"name": "Cautery Signet",
+				"description": "Elite Signet. All party members lose all conditions. You are set on Fire for 1 second for each condition removed in this way.",
+				"concise": "Elite Signet. All party members lose all conditions. You begin Burning (one second for each condition removed)."
+			},
+			"en-gww": {
+				"name": "Cautery Signet",
 				"description": "All party members lose all conditions. You are set on Fire <sic/> for 1 second for each condition removed in this way.",
 				"concise": "All party members lose all conditions. <gray>You begin Burning (one second for each condition removed).</gray>"
 			},
+			"es": {
+				"name": "Sello de cauterio",
+				"description": "Sello de élite. Todos los miembros del grupo pierden todas las condiciones. Tú ardes 1 segundo por cada condición que elimines de esta forma.",
+				"concise": "Sello de élite. Los miembros del grupo pierden todas las condiciones. Empiezas a arder (un segundo por cada condición eliminada)."
+			},
 			"fr": {
+				"name": "Sceau cautère",
+				"description": "Sceau d'élite. Tous les membres du groupe perdent toutes leurs conditions. Vous êtes embrasé pendant 1 seconde pour chaque condition supprimée de cette façon.",
+				"concise": "Sceau d'élite. Les membres du groupe perdent toutes leurs conditions. Vous souffrez de Brûlure (1 seconde par condition perdue)."
+			},
+			"fr-gwiki": {
 				"name": "Sceau cautère",
 				"description": "Tous les membres du groupe perdent toutes leurs conditions. Vous êtes embrasé pendant 1 seconde pour chaque condition supprimée de cette façon.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Cauterizzazione",
+				"description": "Sigillo d'Élite. Tutti i membri in squadra perdono tutte le condizioni. Tu prendi fuoco per 1 secondo per ogni condizione rimossa in questo modo.",
+				"concise": "Sigillo d'Élite. Tutti i membri della squadra si liberano di tutte le condizioni. Sei affetto da Bruciatura (un secondo per ogni condizione rimossa)."
+			},
+			"jp": {
+				"name": "コーテリー シグネット",
+				"description": "エリート シグネット： すべてのパーティー メンバーにかけられた「状態異常」を解除します。この効果により解除した「状態異常」ごとに1秒間、プレイヤーは「火傷」状態になります。",
+				"concise": "エリート シグネット： パーティー メンバー全員にかけられている「状態異常」をすべて解除します。プレイヤーは「火傷」状態になります (解除した「状態異常」ごとに1秒) 。"
+			},
+			"kr": {
+				"name": "소독의 인장",
+				"description": "엘리트 인장. 대상 지정: 없음. 모든 파티원의 상태이상을 모두 치료합니다. 자신은 이렇게 치료한 상태이상 하나당 1초 동안 화상 상태가 됩니다.",
+				"concise": "엘리트 인장. 모든 파티원의 상태이상을 모두 무효화합니다. 자신은 화상을 입습니다.(무효화한 상태이상 하나당 1초)"
+			},
+			"pl": {
+				"name": "Sygnet Wypalenia",
+				"description": "Sygnet elitarny. Wszyscy członkowie drużyny tracą wszystkie przypadłości. Zaczynasz płonąć przez 1 sekundę na każdą przypadłość usuniętą w ten sposób.",
+				"concise": "Sygnet elitarny. Wszyscy członkowie drużyny tracą wszystkie przypadłości. Krwawisz (1 sek. na każdą usuniętą przypadłość)."
+			},
+			"ru": {
+				"name": "Cautery Signet",
+				"description": "Элитная печать. Со всех членов вашего отряда снимаются все состояния. Вы загораетесь на 1 сек за каждое состояние, снятое при помощи этого умения.",
+				"concise": "Элитная печать. Со всех членов вашего отряда снимаются все состояния. Вы горите (1 сек за каждое снятое состояние)."
+			},
+			"bork": {
+				"name": "Cootery Seegnet",
+				"description": "Ileete-a Seegnet. Aell paerty members luse-a aell cundeeshuns. Yuoo aere-a set oon Fure-a fur 1 secund fur iaech cundeeshun remufed in thees vaey.",
+				"concise": "Ileete-a Seegnet. Aell paerty members luse-a aell cundeeshuns. Yuoo begeen Boorneeng (oone-a secund fur iaech cundeeshun remufed)."
 			}
 		}
 	}

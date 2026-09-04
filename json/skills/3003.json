@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "麻木",
+				"description": "增益魔法。 持续 10...35 秒，当你施展「缚灵仪式」技能时，受到的伤害减少 10 。",
+				"concise": "增益魔法。 持续 10...35 秒，当你施展「缚灵仪式」技能时，受到的伤害减少 10 。"
+			},
+			"cht": {
+				"name": "無情護甲 (PvP)",
+				"description": "加持魔法： 持續 10...35 秒，當你施展「縛靈儀式」技能時，受到的傷害減少 10 。",
+				"concise": "加持魔法： 持續 10...35 秒，當你施展「縛靈儀式」技能時，受到的傷害減少 10 。"
+			},
 			"de": {
+				"name": "Rüstung der Gefühllosigkeit (PvP)",
+				"description": "Verzauberung. 10...35 Sekunde[n] lang habt Ihr beim Wirken von Binderitualen eine Basisschadens-Reduzierung von 10.",
+				"concise": "Verzauberung. (10...35 Sekunde[n].) Ihr habt eine Basisschaden-Reduzierung von 10 beim Wirken von Binderitualen."
+			},
+			"de-guildwiki": {
 				"name": "Rüstung der Gefühllosigkeit (PvP)",
 				"description": "10...35 Sekunden lang habt Ihr beim Wirken von Binderitualen eine Basisschadens-Reduzierung von 10.",
 				"concise": "(10...35 Sekunden.) Ihr habt eine Basisschadens-Reduzierung von 10 beim Wirken von Binderitualen."
 			},
 			"en": {
 				"name": "Armor of Unfeeling (PvP)",
+				"description": "Enchantment Spell. For 10...35 seconds, you have 10 base damage reduction while casting binding rituals.",
+				"concise": "Enchantment Spell. (10...35 seconds.) You have 10 base damage reduction while casting binding rituals."
+			},
+			"en-gww": {
+				"name": "Armor of Unfeeling (PvP)",
 				"description": "For 10...35 seconds, you have 10 base damage reduction while casting Binding Rituals.",
 				"concise": "(10...35 seconds.) You have 10 base damage reduction while casting binding rituals."
 			},
+			"es": {
+				"name": "Armadura de insensibilidad (PvP)",
+				"description": "Conjuro con encantamiento. Durante 10...35 segundos, tienes una reducción del daño base de 10 cuando invoques rituales de encadenamiento de espíritus.",
+				"concise": "Conjuro con encantamiento. (10...35 segundos.) Tienes una reducción del daño base de 10 cuando invoques rituales de encadenamiento con espíritus."
+			},
 			"fr": {
+				"name": "Armure de l'impassible (PvP)",
+				"description": "Enchantement. Pendant 10...35 secondes, vous avez une réduction de dégâts de base de 10 pendant que vous lancez des Rituels d'asservissement.",
+				"concise": "Enchantement. (10...35 secondes.) Vous avez une réduction de dégâts de base de 10 pendant que vous lancez des Rituels d'asservissement."
+			},
+			"fr-gwiki": {
 				"name": "Armure de l'impassible (PvP)",
 				"description": "Pendant 10...35 secondes, vous avez une réduction de dégâts de base de 10 pendant que vous lancez des Rituels d'asservissement.",
 				"concise": "(10...35 secondes.) Vous avez une réduction de dégâts de base de 10 pendant que vous lancez des Rituels d'asservissement."
+			},
+			"it": {
+				"name": "Armatura dell'Insensibile (PvP)",
+				"description": "Incantesimo. Per 10...35 secondi mentre lanci i rituali incatenanti hai una riduzione del danno di base di 10.",
+				"concise": "Incantesimo. (Secondi: 10...35). Riduzione del danno base mentre lanci rituali incatenanti: 10."
+			},
+			"jp": {
+				"name": "アンフィール アーマー (PvP)",
+				"description": "強化スペル： 10...35 秒間、精霊を召喚するスキルを詠唱している間、受けるダメージが 10 減少します。",
+				"concise": "強化スペル： (10...35 秒) バインド リチュアル スキルの詠唱中は、受けるダメージが 10 減少します。"
+			},
+			"kr": {
+				"name": "무의식의 갑옷(대인전)",
+				"description": "강화 마법. 대상 지정: 없음. 10...35초 동안 영혼 결속 종류의 스킬을 외우는 도중에 입는 기본 대미지가 10 감소합니다.",
+				"concise": "강화 마법. (10...35초) 영혼 결속 종류의 스킬 시전 중에 입는 기본 대미지가 10 감소합니다."
+			},
+			"pl": {
+				"name": "Zbroja Nieczułości (PvP)",
+				"description": "Zaklęcie (czar). Przez 10...35 sek. otrzymywane przez ciebie obrażenia bazowe zostają zmniejszone o 10, jeżeli rzucasz rytuał spętania.",
+				"concise": "Zaklęcie (czar). (10...35 sek.) Posiadasz bazową redukcję obrażeń 10, jeżeli rzucasz rytuał spętania."
+			},
+			"ru": {
+				"name": "Armor of Unfeeling (PvP)",
+				"description": "Заклинание-чары. На 10...35 сек вы получаете базовое уменьшение урона на 10 ед. во время сотворения связующих ритуалов.",
+				"concise": "Заклинание-чары. (10...35 сек) Вы получаете базовое уменьшение урона на 10 ед. во время сотворения связующих ритуалов."
+			},
+			"bork": {
+				"name": "Aermur ooff Unffeeleeng (PfP)",
+				"description": "Inchuntment Spell. Fur 10...35 secunds, yuoo haefe-a 10 baese-a daemaege-a redoocshun vheele-a caesteeng beendeeng reetooaels.",
+				"concise": "Inchuntment Spell. (10...35 secunds.) Yuoo haefe-a 10 baese-a daemaege-a redoocshun vheele-a caesteeng beendeeng reetooaels."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "梅兰朵的突袭",
+				"description": "宠物攻击。 你的宠物发动「梅兰朵的突击」对敌人造成 5...20点 额外伤害。若宠物击中带有「增益魔法」的敌人，则该目标及其所有邻近的敌人受到 5...35点 额外伤害。",
+				"concise": "宠物攻击。 你的宠物发动「梅兰朵的突击」对敌人造成 5...20点 额外伤害。若宠物击中带有「增益魔法」的敌人，则该目标及其所有邻近的敌人受到 5...35点 额外伤害。"
+			},
+			"cht": {
+				"name": "梅蘭朵突擊",
+				"description": "寵物攻擊： 造成額外5...20傷害，若目標敵人有加持，則對所有附近敵人造成5...35傷害。",
+				"concise": "寵物攻擊： 造成額外5...20傷害，若目標敵人有加持，則對所有附近敵人造成5...35傷害。"
+			},
 			"de": {
+				"name": "Melandrus Angriff (Pvp)",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit Melandrus Angriff an, +5...20 Punkt[e] Schaden zufügt. Trifft die Attacke einen Gegner mit einer Verzauberung, nimmt der Gegner und alle umstehenden Gegner +5...35 zusätzlichen Schaden.",
+				"concise": "Tiergefährtenangriff. Richtet +5...20 Punkt[e] Schaden an. Richtet beim Gegner und umstehenden Feinden zusätzlich +5...35 Punkt[e] Schaden an, falls der Gegner verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Melandrus Angriff (PvP)",
 				"description": "Euer Tiergefährte greift mit Melandrus Angriff an und fügt +5...20 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, der unter einer Verzauberung leidet, erleiden er und alle umstehenden Gegner zusätzlich 5...35 Punkte Schaden.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden zusätzlich +5...35 Punkte Schaden an, falls der Gegner verzaubert ist."
 			},
 			"en": {
 				"name": "Melandru's Assault (PvP)",
+				"description": "Pet Attack. Your animal companion attempts a Melandru's Assault that deals +5...20 damage. If that attack strikes a foe with an enchantment, that foe and all adjacent foes take +5...35 additional damage.",
+				"concise": "Pet Attack. Deals +5...20 damage. Deals +5...35 more damage to target and foes adjacent to target if this foe is enchanted."
+			},
+			"en-gww": {
+				"name": "Melandru's Assault (PvP)",
 				"description": "Your animal companion attempts a Melandru's Assault that deals +5...20 damage. If that attack strikes a foe with an enchantment, that foe and all adjacent foes take +5...35 additional damage.",
 				"concise": "Deals +5...20 damage. Deals +5...35 more damage to target and foes adjacent to target if this foe is enchanted."
 			},
+			"es": {
+				"name": "Salto de Melandru (PvP)",
+				"description": "Ataque con mascota. Tu mascota hará un Salto de Melandru que causa +5...20 de daño. Si el ataque alcanza a un enemigo que está encantado, dicho enemigo y los que estén cerca sufrirán +5...35 de daño adicional.",
+				"concise": "Ataque con mascota. Causa +5...20 de daño. Causa +5...35 de daño adicional al enemigo objetivo y los que estén cerca si el objetivo está encantado."
+			},
 			"fr": {
+				"name": "Assaut de Melandru (PvP)",
+				"description": "Attaque de familier. Votre familier tente un Assaut de Melandru qui inflige +5...20 points de dégâts. Si cette attaque frappe un ennemi sous l'effet d'un enchantement, cet ennemi, ainsi que tous les ennemis adjacents, subissent +5...35 points de dégâts",
+				"concise": "Attaque de familier. Inflige +5...20 points de dégâts. Inflige +5...35 points de dégâts supplémentaires à l'ennemi visé et aux ennemis adjacents si la cible est sous l'effet d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Assaut de Melandru (PvP)",
 				"description": "Votre familier tente un Assaut de Melandru qui inflige +5...20 points de dégâts. Si cette attaque frappe un ennemi sous l'effet d'un enchantement, cet ennemi, ainsi que tous les ennemis adjacents, subissent +5...35 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Assalto di Melandru (PvP)",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in un Assalto di Melandru che infligge +5...20 di danni. Se l'attacco colpisce un nemico sotto incantesimo, tale nemico e tutti i nemici adiacenti subiscono +5...35 danni aggiuntivi.",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...20. Ulteriori danni inferti all'obiettivo e ai nemici adiacenti se il nemico è sotto incantesimo: +5...35."
+			},
+			"jp": {
+				"name": "メランドル アサルト (PvP)",
+				"description": "ペット アタック： プレイヤーのペットが敵に 5...20 の追加ダメージを与える攻撃を開始します。強化スペルがかけられている敵を攻撃すると、その敵および隣接するすべての敵に 5...35 の追加ダメージを与えます。",
+				"concise": "ペット アタック： 5...20 の追加ダメージを与えます。ターゲットした敵に強化スペルがかけられている場合、ターゲットおよび隣接する敵にさらに 5...35 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "멜란드루의 강습(대인전)",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 멜란드루의 강습을 사용하여 5...20의 대미지를 추가로 줍니다. 적이 강화 마법에 걸려 있다면 5...35의 대미지를 추가로 줍니다.",
+				"concise": "펫 공격. 펫의 공격이 5...20의 대미지를 추가로 줍니다. 적이 강화 마법에 걸려 있으면, 그와 그에 인접한 적들에게 5...35의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Natarcie Melandru (PvP)",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Natarcie Melandru, które zadaje +5...20 pkt. obrażeń. Jeśli atak trafi przeciwnika pod działaniem zaklęcia, to przeciwnik ten i wrogowie znajdujący się bezpośrednio przy nim otrzymają +5...35 pkt. dodatkowych obrażeń.",
+				"concise": "Atak zwierzaka. Zadaje +5...20 pkt. obrażeń. Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po +5...35 pkt. dodatkowych obrażeń, jeżeli ten przeciwnik jest pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Melandru's Assault (PvP)",
+				"description": "Атака питомца. Ваше животное пытается провести удар, который наносит дополнительно 5...20 ед. урона. Если атака попадает по противнику, на которого наложены чары, этот противник и все окружающие противники получат дополнительно 5...35 ед. урона.",
+				"concise": "Атака питомца. Наносит дополнительно 5...20 ед. урона. Наносит дополнительно еще 5...35 ед. урона цели и окружающим цель противникам, если на выбранного противника наложены чары."
+			},
+			"bork": {
+				"name": "Melundroo's Aessoolt (PfP)",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Melundroo's Aessoolt thaet deaels +5...20 daemaege-a. Iff thaet aettaeck streekes a fue-a veet un inchuntment, thaet fue-a und aell aedjaecent fues taeke-a +5...35 aeddeeshunael daemaege-a.",
+				"concise": "Pet Aettaeck. Deaels +5...20 daemaege-a. Deaels +5...35 mure-a daemaege-a tu taerget und fues aedjaecent tu taerget iff thees fue-a is inchunted."
 			}
 		}
 	}

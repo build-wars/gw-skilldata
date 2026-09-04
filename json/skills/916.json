@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "哀伤之魂",
+				"description": "负面魔法。 如果目标敌人在任何尸体或灵体的「音波」范围内，目标将受到0...3点伤害。",
+				"concise": "负面魔法。 如果目标敌人在任何尸体或灵体的「音波」范围内，目标将受到0...3点伤害。"
+			},
+			"cht": {
+				"name": "哀傷靈魂",
+				"description": "降咒魔法： 持續 5...20 秒，目標及其附近敵人遭受體力衰減 0...3 。若使用此降咒時你的音量所及範圍內有靈或屍體，則使他們受到 10...50 閃電傷害。",
+				"concise": "降咒魔法： 持續 5...20 秒，目標及其附近敵人遭受體力衰減 0...3 。若使用此降咒時你的音量所及範圍內有靈或屍體，則使他們受到 10...50 閃電傷害。"
+			},
 			"de": {
+				"name": "Wehklage",
+				"description": "Verhexung. 5...20 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3. Wenn Ihr Euch beim Wirken dieser Verhexung in Hörweite eines Geistes oder Kadavers befindet, erleiden betroffene Feinde 10...50 Punkt[e] Schaden.",
+				"concise": "Verhexung. Verhext außerdem den Gegner umstehende Feinde (5...20 Sekunde[n]). Verursacht -0...3 Lebenspunktdegeneration. Anfangswirkung: Verursacht 10...50 Punkt[e] Schaden bei diesen Feinden, wenn Ihr Euch in Hörweite eines Geistes oder Kadavers befindet."
+			},
+			"de-guildwiki": {
 				"name": "Wehklage",
 				"description": "5...20 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -0...3. Wenn Ihr Euch beim Wirken dieser Verhexung in Hörweite eines Geistes oder Kadavers befindet, erleiden betroffene Feinde 10...50 Punkte Schaden.",
 				"concise": "(5...20 Sekunden.) Verhext auch umstehende Feinde. Verursacht -0...3 Lebenspunktedegeneration. Anfangswirkung: Verursacht 10...50 Punkte Schaden, wenn Ihr Euch in Hörweite eines Geistes oder Kadavers befindet."
 			},
 			"en": {
 				"name": "Lamentation",
+				"description": "Hex Spell. For 5...20 seconds, target foe and all nearby foes suffer -0...3 Health degeneration. When this hex is applied, these foes take 10...50 damage if you are within earshot of a spirit or corpse.",
+				"concise": "Hex Spell. Also hexes foes near target (5...20 seconds). Causes -0...3 Health degeneration. Initial effect: deals 10...50 damage to these foes if you are within earshot of a spirit or corpse."
+			},
+			"en-gww": {
+				"name": "Lamentation",
 				"description": "For 5...20 seconds, target foe and all nearby foes suffer -0...3 Health degeneration. When this hex is applied, these foes take 10...50 damage if you are within earshot of a spirit or corpse.",
 				"concise": "Also hexes foes near your target (5...20 seconds). Causes -0...3 Health degeneration. Initial effect: Deals 10...50 damage to these foes if you are within earshot of a spirit or corpse."
+			},
+			"es": {
+				"name": "Lamento",
+				"description": "Conjuro con maleficio. Durante 5...20 segundos, el enemigo objetivo y todos los enemigos cercanos sufrirán -0...3 de degeneración de salud. Cuando este maleficio se active, los enemigos afectados reciben 10...50 de daño si estás al alcance del oído de un espíritu o cadáver.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (5...20 segundos). Causa -0...3 de degeneración de salud. Efecto inicial: hace 10...50 de daño a estos enemigos si estás al alcance del oído de algún espíritu o cadáver."
 			},
 			"fr": {
 				"name": "Lamentation",
 				"description": "Maléfice. L'ennemi visé et tous les ennemis à proximité subissent une dégénération de santé de -0...3 pendant 5...20 secondes. Si vous vous trouvez à portée de voix d'un esprit ou d'un cadavre lorsque ce maléfice est appliqué, ces ennemis subissent 10...50 points de dégâts.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis proches de la cible (5...20 secondes). Provoque une dégénération de santé de -0...3. Effet initial : inflige 10...50 points de dégâts à ces ennemis si vous vous trouvez à portée de voix d'un esprit ou d'un cadavre."
+			},
+			"fr-gwiki": {
+				"name": "Lamentation",
+				"description": "Maléfice. L'ennemi visé et tous les ennemis à proximité subissent une dégénération de santé de -0...3 pendant 5...20 secondes. Si vous vous trouvez à portée de voix d'un esprit ou d'un cadavre lorsque ce maléfice est appliqué, ces ennemis subissent 10...50 points de dégâts.",
 				"concise": "Maléfice. Inflige également des maléfices aux ennemis proches de la cible (5...20 secondes). Provoque une dégénération de santé de -0...3. Effet initial : inflige 10...50 points de dégâts si vous êtes à portée de voix d'un esprit ou d'un cadavre."
+			},
+			"it": {
+				"name": "Lamento",
+				"description": "Fattura. Per 5...20 secondi l'obiettivo nemico e tutti i nemici nei dintorni subiscono una Degenerazione della Salute di -0...3. Se ti trovi nella portata d'orecchio di uno spirito o un cadavere quando viene lanciata la fattura, i nemici affetti subiscono 10...50 di danni.",
+				"concise": "Fattura. La fattura viene lanciata anche sui nemici adiacenti all'obiettivo (secondi: 5...20). Degenerazione Salute: -0...3. Effetto iniziale: se ti trovi nella portata d'orecchio di uno spirito o di un cadavere, infligge 10...50 di danni ai nemici adiacenti."
+			},
+			"jp": {
+				"name": "ラメンテーション",
+				"description": "弱体化スペル： 5...20 秒間、ターゲットした敵および周囲にいるすべての敵は体力の自然回復力が 0...3 減少します。プレイヤーの声の届く範囲内に精霊または死体がある場合、この効果が適用された敵は同時に 10...50 のダメージを受けます。",
+				"concise": "弱体化スペル： (5...20 秒) ターゲットした敵およびその周囲にいる敵は、体力の自然回復力が 0...3 減少します。発動効果： プレイヤーから声の届く範囲内に精霊か死体がある場合、10...50 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "음침한 망령",
+				"description": "약화 마법. 대상 지정: 적. 5...20초 동안 대상과 그 부근의 모든 적의 체력 재생이 0...3만큼 감소합니다. 이 마법을 시전할 때 가청 범위 내에 영혼이나 시체가 있으면 그 적들에게 10...50의 대미지를 줍니다.",
+				"concise": "약화 마법. 대상과 그 부근의 적들도 약화시킵니다.(5...20초) 체력 재생을 0...3만큼 감소시킵니다. 초기 효과: 가청 범위 내에 영혼이나 시체가 있으면 10...50의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Opłakiwanie",
+				"description": "Klątwa (czar). Przez 5...20 sek., wybrany przeciwnik i wszyscy wrogowie znajdujący się w pobliżu cierpią na degenerację żywotności 0...3. Jeśli w momencie nałożenia klątwy znajdujesz się w zasięgu słuchu od zwłok lub ducha, wrogowie otrzymują dodatkowo 10...50 pkt. obrażeń.",
+				"concise": "Klątwa (czar). Nakłada klątwę także na wrogów w pobliżu celu (5...20 sek.). Powoduje degenerację żywotności na poziomie 0...3. Efekt początkowy: zadaje 10...50 pkt/ obrażeń, jeśli znajdujesz się w zasięgu słuchu od zwłok lub ducha."
+			},
+			"ru": {
+				"name": "Lamentation",
+				"description": "Заклинание-проклятье. В течение 5...20 сек скорость восстановления здоровья у выбранного противника и всех противников поблизости уменьшается на 0...3 ед. В момент применения этого проклятья эти противники получат 10...50 ед. урона, если вы находитесь в зоне слышимости духа или трупа.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников поблизости от цели (5...20 сек). Дает противникам -0...3 ед. к скорости восстановления здоровья. Начальный эффект: наносит 10...50 ед. урона этим противникам, если вы находитесь в зоне слышимости духа или трупа."
+			},
+			"bork": {
+				"name": "Laementaeshun",
+				"description": "Hex Spell. Fur 5...20 secunds, taerget fue-a und aell neaerby fues sooffffer -0...3 Heaelt degeneraeshun. Vhee thees hex is aeppleeed, zeese-a fues taeke-a 10...50 daemaege-a iff yuoo aere-a veetheen iaershut ooff a spureet oor curpse-a.",
+				"concise": "Hex Spell. Aelsu hexes fues neaer taerget (5...20 secunds). Cooses -0...3 Heaelt degeneraeshun. Ineeteeael iffffect: deaels 10...50 daemaege-a tu zeese-a fues iff yuoo aere-a veetheen iaershut ooff a spureet oor curpse-a."
 			}
 		}
 	}

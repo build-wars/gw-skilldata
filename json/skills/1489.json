@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "必中横扫",
+				"description": "镰刀术。 驱散自己身上的一项「增益魔法」，驱散成功后，「必中横扫」将无法被格挡。命中时对敌人造成3...15点额外伤害。",
+				"concise": "镰刀术。 驱散自己身上的一项「增益魔法」，驱散成功后，「必中横扫」将无法被格挡。命中时对敌人造成3...15点额外伤害。"
+			},
+			"cht": {
+				"name": "神能掃蕩",
+				"description": "鐮刀攻擊技能： 命中時造成 3...15 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢，再造成 3...15 額外傷害。",
+				"concise": "鐮刀攻擊技能： 命中時造成 3...15 額外傷害，且移除自身一項神喚使加持，若移除成功，則此技能無法被格檔、移除目標態勢，再造成 3...15 額外傷害。"
+			},
 			"de": {
+				"name": "Unwiderstehlicher Schwung",
+				"description": "Sensenangriff. Richtet +3...15 Punkt[e] Schaden an und verliert 1 Derwisch-Verzauberung. Wenn Ihr eine Verzauberung auf diese Weise verliert, kann Unwiderstehlicher Schwung nicht geblockt werden, eine Haltung wird entfernt und der Angriff richtet zusätzlich +3...15 Punkt[e] Schaden an.",
+				"concise": "Sensenangriff. Richtet +3...15 Punkt[e] Schaden an. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Unblockbar, entfernt eine Haltung, richtet zusätzlich +3...15 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Unwiderstehlicher Schwung",
 				"description": "Richtet +3...15 Punkte Schaden an und verliert 1 Derwisch-Verzauberung. Wenn Ihr eine Verzauberung auf diese Weise verliert, kann Unwiderstehlicher Schwung nicht geblockt werden, eine Haltung wird entfernt und der Angriff richtet zusätzlich +3...15 Punkte Schaden an.",
 				"concise": "Richtet +3...15 Punkte Schaden an. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Unblockbar, entfernt eine Haltung, richtet zusätzlich +3...15 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Irresistible Sweep",
+				"description": "Scythe Attack. Deal +3...15 damage and lose 1 Dervish enchantment. If you lose an enchantment in this way, Irresistible Sweep cannot be blocked, removes a stance, and deals +3...15 additional damage.",
+				"concise": "Scythe Attack. Deals +3...15 damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +3...15 additional damage."
+			},
+			"en-gww": {
+				"name": "Irresistible Sweep",
 				"description": "Deal +3...15 damage and lose 1 Dervish enchantment. If you lose an enchantment in this way, Irresistible Sweep cannot be blocked, removes a stance, and deals +3...15 additional damage.",
 				"concise": "Deals +3...15 damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +3...15 additional damage."
 			},
+			"es": {
+				"name": "Barrido irresistible",
+				"description": "Ataque con guadaña. Haces +3...15 de daño y pierdes un encantamiento de Derviche. Si pierdes un encantamiento de esta manera, Barrido irresistible no se puede bloquear, elimina una actitud y hace +3...15 de daño adicional.",
+				"concise": "Ataque con guadaña. Hace +3...15 de daño. Elimina uno de tus encantamientos de Derviche. Efecto de eliminación: no te pueden bloquear, quita una actitud, hace +3...15 de daño adicional."
+			},
 			"fr": {
+				"name": "Fauchage impérieux",
+				"description": "Attaque à la faux. Inflige +3...15 points de dégâts et supprime un enchantement de Derviche. Si vous perdez un enchantement de cette manière, le Fauchage impérieux ne peut pas être bloqué, supprime une pose de combat et inflige +3...15 points de dégâts supplémentaires.",
+				"concise": "Attaque à la faux. Inflige +3...15 points de dégâts. Supprime un de vos enchantements de Derviche. Effet de la suppression : impossible à bloquer, supprime une pose de combat et inflige +3...15 points de dégâts supplémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Fauchage impérieux",
 				"description": "Vous perdez un enchantement. Si vous perdez 1 enchantement de cette manière, le Fauchage impérieux ne peut pas être bloqué. Il inflige +10...30 points de dégâts s'il réussit.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falciata Irresistibile",
+				"description": "Attacco con Falce. Danni inferti: +3...15 e perdi un Incantesimo del Derviscio. Se un incantesimo viene perso in questo modo, la Falciata Irresistibile non può essere bloccata, rimuove una posizione e infligge +3...15 danni.",
+				"concise": "Attacco con Falce. Danni inferti: +3...15. Incantesimi del Derviscio rimossi: 1. Effetto della rimozione: non bloccabile, rimuove una posizione e infligge +3...15 danni."
+			},
+			"jp": {
+				"name": "イレジスタブル スウィープ",
+				"description": "サイズ アタック： 3...15 の追加ダメージを与え、かけられているダルウィーシュの強化スペルを1個解除します。この効果により強化スペルが解除されると、この攻撃はブロックされず、かけられているスタンスが解除され、さらに 3...15 の追加ダメージを与えます。",
+				"concise": "サイズ アタック： 3...15 の追加ダメージを与えます。かけられているダルウィーシュの強化スペルを1個解除します。解除効果： 攻撃がブロックされず、かけられているスタンスが解除され、さらに 3...15 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "불가항력의 휘두름",
+				"description": "사이드 공격. 대상 지정: 적. 3...15의 대미지를 추가로 주고, 더비시 강화 마법 하나가 무효화됩니다. 이렇게 강화 마법이 무효화되면 3...15의 대미지를 추가로 주고, 대상의 자세를 무효화합니다. 이 공격은 막을 수 없습니다.",
+				"concise": "사이드 공격. 3...15의 대미지를 추가로 주고, 자신의 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 막을 수 없는 공격으로 3...15의 대미지를 추가로 주고, 자세를 무효화시킵니다."
+			},
+			"pl": {
+				"name": "Niepowstrzymywalny Zamach",
+				"description": "Atak kosą. Zadaje +3...15 pkt. obrażeń i tracisz 1 zaklęcie derwisza. Jeśli stracisz w ten sposób jakieś zaklęcie, Niepowstrzymany Zamach nie może zostać zablokowany, usuwa postawę i zadaje dodatkowo +3...15 pkt. obrażeń.",
+				"concise": "Atak kosą. Zadaje +3...15 pkt. obrażeń. Usuwa jedno z twoich zaklęć derwisza. Efekt usunięcia: Nie do zablokowania, usuwa postawę, zadaje dodatkowo +3...15 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Irresistible Sweep",
+				"description": "Атака косой. Вы наносите дополнительно 3...15 ед. урона и теряете 1 чары профессии Dervish. Если вы потеряли чары, Irresistible Sweep невозможно блокировать, и эта атака снимает стойку и наносит дополнительно 3...15 ед. урона.",
+				"concise": "Атака косой. Наносит дополнительно 3...15 ед. урона. Снимает с вас 1 чары профессии Dervish. Эффект снятия: нельзя блокировать, снимает стойку и наносит дополнительно 3...15 ед. урона."
+			},
+			"bork": {
+				"name": "Irreseesteeble-a Sveep",
+				"description": "Scyzee Aettaeck. Deael +3...15 daemaege-a und luse-a 1 Derfeesh inchuntment. Iff yuoo luse-a un inchuntment in thees vaey, Irreseesteeble-a Sveep cunnut be-a blucked, remufes a stunce-a, und deaels +3...15 aeddeeshunael daemaege-a.",
+				"concise": "Scyzee Aettaeck. Deaels +3...15 daemaege-a. Remufe-a 1 ooff yuoor Derfeesh inchuntments. Remufael iffffect: unbluckaeble-a, remufes a stunce-a, deaels +3...15 aeddeeshunael daemaege-a. Bork! Bork! Bork!"
 			}
 		}
 	}

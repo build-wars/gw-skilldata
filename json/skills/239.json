@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "伤害防护结界",
+				"description": "精英结界魔法。 在你脚下创造一个伤害防护结界。结界范围内所有「非灵体」类队友的火焰护甲值提高12...24点，其他护甲值提高1...3点，持续5...15秒。",
+				"concise": "精英结界魔法。 在你脚下创造一个伤害防护结界。结界范围内所有「非灵体」类队友的火焰护甲值提高12...24点，其他护甲值提高1...3点，持续5...15秒。"
+			},
+			"cht": {
+				"name": "守護結界",
+				"description": "精英結界魔法： 在你目前的地點創造守護結界。持續 5...15 秒，使結界範圍內的盟友增加 12...24 火焰防禦以及 1...3 對其他攻擊類型的防禦。",
+				"concise": "精英結界魔法： 在你目前的地點創造守護結界。持續 5...15 秒，使結界範圍內的盟友增加 12...24 火焰防禦以及 1...3 對其他攻擊類型的防禦。"
+			},
 			"de": {
+				"name": "Abwehr gegen Schaden",
+				"description": "Elite-Abwehrzauber. Errichtet an dieser Position eine Abwehr gegen Schaden. 5...15 Sekunde[n] lang erhalten in diesem Bereich befindliche Verbündete, die keine Geister sind, +1...3 Lebenspunktregeneration, +12...24 Rüstung und zusätzlich +12...24 Rüstung gegen Elementarschaden. Dieser Zauber wird 20 Sekunden lang deaktiviert.",
+				"concise": "Elite-Abwehrzauber. (5...15 Sekunde[n].) Verbündete in dieser Abwehr haben +1...3 Lebenspunktregeneration, +12...24 Rüstung und zusätzlich +12...24 Rüstung gegen Elementarschaden. Geister sind nicht betroffen. Dieser Zauber wird 20 Sekunden lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Abwehr gegen Schaden",
 				"description": "Errichtet an dieser Position eine Abwehr gegen Schaden. 5...15 Sekunden lang erhalten in diesem Bereich befindliche Verbündete, die keine Geister sind, +1...3 Lebenspunktregeneration. Gruppenmitglieder erhalten außerdem +12...24 Rüstung und doppelt so viel Rüstung gegen Elementarschaden.",
 				"concise": "5...15 Sekunden: Verbündete in dieser Abwehr haben +1...3 Lebenspunktregeneration. Gruppenmitglieder haben +12...24 Rüstung und doppelt so viel gegen Elementarschaden. <gray>Geister sind nicht betroffen.</gray>"
 			},
 			"en": {
 				"name": "Ward Against Harm",
+				"description": "Elite Ward Spell. Create a Ward Against Harm at this location. For 5...15 seconds, non-spirit allies in this area have +1...3 Health regeneration, +12...24 armor, and an additional +12...24 armor against elemental damage. This spell is disabled for 20 seconds.",
+				"concise": "Elite Ward Spell. (5...15 seconds.) Allies in this ward have +1...3 Health regeneration, +12...24 armor, and +12...24 additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 20 seconds."
+			},
+			"en-gww": {
+				"name": "Ward Against Harm",
 				"description": "Create a Ward Against Harm at this location. For 5...15 seconds, non-spirit allies in this area have +1...3 health regeneration, +12...24 armor, and an additional +12...24 armor against elemental damage. This spell is disabled for 20 seconds.",
-				"concise": "(5...15 seconds.) Allies in this ward have +1...3 Health regeneration, +12...24 armor, and +12...24 additional armor against elemental damage. <gray>Spirits are unaffected. This spell is disabled for 20 seconds.</gray>"
+				"concise": "<sic/>(5...15 seconds.) Allies in this ward have +1...3 Health regeneration, +12...24 armor, and +12...24 additional armor against elemental damage. <gray>Spirits are unaffected. This spell is disabled for 20 seconds.</gray>"
+			},
+			"es": {
+				"name": "Protección contra daños",
+				"description": "Conjuro de protección de élite. Creas una Protección contra daños en esta ubicación. Durante 5...15 segundos, los aliados no espíritus de la zona tienen +1...3 de regeneración de salud, +12...24 de armadura y un +12...24 adicional de armadura contra daño de los elementos. Este conjuro queda desactivado durante 20 segundos.",
+				"concise": "Conjuro de protección de élite. (5...15 segundos). Los aliados dentro de esta protección tienen +1...3 de regeneración de salud, +12...24 de armadura y un +12...24 adicional de armadura contra daño de los elementos. No afecta a los espíritus. Este conjuro queda desactivado durante 20 segundos."
 			},
 			"fr": {
 				"name": "Protection contre le mal",
+				"description": "Sort de protection d'élite. Crée une protection contre le mal à cette position. Pendant 5...15 secondes, les alliés (autres qu'esprits) dans cette zone bénéficient de +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. Ce sort est désactivé pendant 20 secondes.",
+				"concise": "Sort de protection d'élite. (5...15 secondes.) Les alliés bénéficiant de cette protection gagnent +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. Les esprits ne sont pas affectés. Cette compétence est désactivée pendant 20 secondes."
+			},
+			"fr-gwiki": {
+				"name": "Protection contre le mal",
 				"description": "Crée une protection contre le mal à cette position. Pendant 5...15 secondes, les alliés (autres qu'esprits) dans cette zone bénéficient de +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. Ce sort est désactivé pendant 20 secondes.",
 				"concise": "(5...15 secondes.) Les alliés bénéficiant de cette Protection gagnent +1...3 en régénération de santé, +12...24 en armure et encore +12...24 en armure contre les dégâts élémentaires. <gray>Les esprits ne sont pas affectés. Cette compétence est désactivée pendant 20 secondes.</gray>"
+			},
+			"it": {
+				"name": "Guardia contro le Ferite",
+				"description": "Guardia d'Élite. Crea una Guardia contro le Ferite in questa posizione. Per 5...15 secondi, gli Alleati (Spiriti esclusi) in quest'area ottengono +1...3 di Rigenerazione della Salute, +12...24 armatura e un +12...24 armatura aggiuntivo contro i danni elementali. Questa magia verrà disabilitata per 20 secondi.",
+				"concise": "Guardia d'Élite. (Secondi: 5...15.) Gli alleati in questa Guardia ottengono +1...3 di Rigenerazione della Salute, +12...24 armatura e un +12...24 armatura aggiuntivo contro i danni elementali. Non ha effetto sugli Spiriti. Questa magia verrà disabilitata per 20 secondi."
+			},
+			"jp": {
+				"name": "ウォード アゲインスト ハーム",
+				"description": "エリート ウォード スペル： 自分の周辺に結界を張ります。5...15 秒間、エリア内にいる精霊以外の味方は、体力の自然回復力が 1...3、防御力が 12...24、さらに元素ダメージに対する防御力が 12...24 増加します。このスペルは20秒間、再使用することができません。",
+				"concise": "エリート ウォード スペル： (5...15 秒) この範囲内にいる味方は、体力の自然回復力が 1...3、防御力が 12...24、さらに元素ダメージに対する防御力が 12...24 増加します。精霊は対象外です。このスペルは20秒間、再使用することができません。"
+			},
+			"kr": {
+				"name": "물의 결계",
+				"description": "엘리트 결계. 대상 지정: 없음. 현재 위치에 마법 결계를 만듭니다. 일정 범위 내에 있는 영혼이 아닌 아군은 5...15초 동안 체력 재생이 1...3만큼, 방어력이 12...24만큼 증가하고, 정령 대미지에 대한 방어력이 추가로 12...24만큼 증가합니다. 이 마법은 20초 동안 사용할 수 없습니다.",
+				"concise": "엘리트 결계. (5...15초) 결계 내에 있는 아군은 체력 재생이 1...3만큼, 방어력이 12...24만큼 증가하고, 정령 대미지에 대한 방어력이 추가로 12...24만큼 증가합니다. 영혼에겐 영향이 없고, 이 마법을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Ochrona przed Krzywdą",
+				"description": "Elitarna ochrona (czar). W miejscu, w którym przebywasz, tworzysz Ochronę przed Krzywdą. Przez 5...15 sek. nie będący duchami sojusznicy w tej okolicy otrzymują po 12...24 pkt. pancerza przeciwko obrażeniom od ognia i po 1...3 pkt. pancerza przeciwko innym obrażeniom.",
+				"concise": "Elitarna ochrona (czar). (5...15 sek.) Sojusznicy w granicach tej ochrony posiadają +12...24 pkt. pancerza przeciwko obrażeniom od ognia i +1...3 pkt. pancerza przeciwko innym obrażeniom. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Ward Against Harm",
+				"description": "Элитное заклинание опеки. Вы создаете Ward Against Harm в вашем текущем местоположении. В течение 5...15 сек все находящиеся в зоне действия Сферы союзники, которые не являются духами, получают дополнительно 1...3 ед. к скорости восстановления здоровья, 12...24 ед. к защите, а также дополнительно 12...24 ед. к защите против урона силами стихий. Это заклинание будет недоступно в течение 20 сек.",
+				"concise": "Элитное заклинание опеки. (5...15 сек) Союзники в этой Сфере получают +1...3 ед. к скорости восстановления здоровья, +12...24 ед. к защите и дополнительно +12...24 ед. к защите против урона силами стихий. Не действует на духов. Это заклинание будет недоступно в течение 20 сек."
+			},
+			"bork": {
+				"name": "Vaerd Aegaeeenst Haerm",
+				"description": "Ileete-a Vaerd Spell. Creaete-a a Vaerd Aegaeeenst Haerm aet thees lucaeshun. Fur 5...15 secunds, nun-spureet aelleees in thees aerea haefe-a +1...3 Heaelt regeneraeshun, +12...24 aermur, und un aeddeeshunael +12...24 aermur aegaeeenst ilementael daemaege-a. Thees spell is deesaebled fur 20 secunds.",
+				"concise": "Ileete-a Vaerd Spell. (5...15 secunds.) Aelleees in thees vaerd haefe-a +1...3 Heaelt regeneraeshun, +12...24 aermur, und +12...24 aeddeeshunael aermur aegaeeenst ilementael daemaege-a. Spureets aere-a unaeffffected. Thees spell is deesaebled fur 20 secunds."
 			}
 		}
 	}

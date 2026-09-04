@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "懊悔",
+				"description": "精英负面魔法。 在10秒之内，目标敌人每消耗一次怒气，将受到10...30点伤害。",
+				"concise": "精英负面魔法。 在10秒之内，目标敌人每消耗一次怒气，将受到10...30点伤害。"
+			},
+			"cht": {
+				"name": "懊悔幻想",
+				"description": "精英降咒魔法： 持續10秒，目標及鄰近敵人施展技能時受到10...30傷害，若他們身上沒有其他幻術師降咒，則傷害再增加5...40。",
+				"concise": "精英降咒魔法： 持續10秒，目標及鄰近敵人施展技能時受到10...30傷害，若他們身上沒有其他幻術師降咒，則傷害再增加5...40。"
+			},
 			"de": {
+				"name": "Visionen des Bedauerns (PvP)",
+				"description": "Elite-Verhexung. 10 Sekunde[n] lang erleiden der Gegner und umstehende Feinde jedes Mal, wenn sie eine Fertigkeit verwenden, 10...30 Punkt[e] Schaden und zusätzlich 5...40 Punkt[e] Schaden, sofern sie unter keiner weiteren Mesmer-Verhexung leiden.",
+				"concise": "Elite-Verhexung. Verhext den Gegner und umstehende Feinde (10 Sekunde[n]). Diese Feinde erleiden 10...30 Punkt[e] Schaden, sobald sie eine Fertigkeit verwenden und 5...40 Punkt[e] zusätzlichen Schaden, sofern sie keine andere Mesmer-Verhexung erlitten haben."
+			},
+			"de-guildwiki": {
 				"name": "Visionen des Bedauerns (PvP)",
 				"description": "10 Sekunden lang erleiden der Gegner und umstehende Feinde jedes Mal, wenn sie eine Fertigkeit verwenden, 10...30 Punkte Schaden und 5...40 Schaden, sofern sie unter keiner weiteren Mesmer-Verhexung leiden.",
 				"concise": "Verhext außerdem den Gegner und umstehende Feinde (10 Sekunden). Diese Feinde erleiden 10...30 Punkte Schaden, sobald sie eine Fertigkeit verwenden und 5...40 Punkte zusätzlichen Schaden, wenn sie nicht eine Mesmer-Verhexung erlitten haben."
 			},
 			"en": {
 				"name": "Visions of Regret (PvP)",
+				"description": "Elite Hex Spell. For 10 seconds, target foe and adjacent foes take 10...30 damage whenever they use a skill and 5...40 additional damage if not under the effects of another Mesmer hex.",
+				"concise": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take 10...30 damage whenever they use a skill and 5...40 additional damage if not under the effects of another Mesmer hex."
+			},
+			"en-gww": {
+				"name": "Visions of Regret (PvP)",
 				"description": "For 10 seconds, target foe and adjacent foes take 10...30 damage whenever they use a skill and 5...40 additional damage if not under the effects of another Mesmer hex.",
 				"concise": "Also hexes foes adjacent to target (10 seconds). These foes take 10...30 damage whenever they use a skill and 5...40 additional damage if not under the effects of another Mesmer hex."
 			},
+			"es": {
+				"name": "Visiones de arrepentimiento (PvP)",
+				"description": "Conjuro con maleficio de élite. Durante 10 segundos, el enemigo objetivo y los enemigos adyacentes reciben 10...30 de daño cada vez que utilicen una habilidad y 5...40 de daño adicional si no están bajo los efectos de ningún otro maleficio de Hipnotizador.",
+				"concise": "Conjuro con maleficio de élite. También afecta a los enemigos cercanos al objetivo (10 segundos). Estos enemigos reciben 10...30 de daño cada vez que utilicen una habilidad y 5...40 de daño adicional si no están bajo los efectos de ningún otro maleficio de Hipnotizador."
+			},
 			"fr": {
+				"name": "Visions de Regret (PvP)",
+				"description": "Maléfice d'élite. Pendant 10 secondes, la cible et les ennemis adjacents subissent 10...30 points de dégâts chaque fois qu'ils utilisent une compétence et 5...40 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur.",
+				"concise": "Maléfice d'élite. Inflige également des maléfices aux ennemis adjacents à la cible (10 secondes). Ils subissent 10...30 points de dégâts chaque fois qu'ils utilisent une compétence et 5...40 points de dégâts supplémentaires s'ils ne sont pas affectés par un autre maléfice d'Envoûteur."
+			},
+			"fr-gwiki": {
 				"name": "Visions de Regret (PvP)",
 				"description": "Pendant 10 secondes, la cible et les ennemis adjacents subissent 10...31 points de dégâts chaque fois qu'ils utilisent une compétence et 5...42 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur.",
 				"concise": "Inflige également des maléfices aux ennemis adjacents à la cible (10 secondes). Ils subissent 10...41 points de dégâts chaque fois qu'ils utilisent une compétence et 5...42 points de dégâts s'ils ne sont pas affectés par un autre maléfice d'Envoûteur."
+			},
+			"it": {
+				"name": "Visioni di Rimpianto (PvP)",
+				"description": "Fattura d'Élite. Per 10 secondi l'obiettivo nemico e i nemici adiacenti subiscono 10...30 danni ogni volta che utilizzano un'abilità e 5...40 danni aggiuntivi se non sono sotto l'effetto di un'altra fattura dell'Ipnotizzatore.",
+				"concise": "Fattura d'Élite. Colpisce con una fattura anche i nemici adiacenti all'obiettivo (secondi: 10). Danni subiti da tali nemici: 10...30 ogni volta che utilizzano un'abilità, più 5...40 di danni se non sono sotto l'effetto di un'altra fattura dell'Ipnotizzatore."
+			},
+			"jp": {
+				"name": "リグレット ビジョン (PvP)",
+				"description": "エリート弱体化スペル： 10 秒間、ターゲットした敵と隣接する敵は、スキルを使用するたびに 10...30 のダメージを受けます。他にメスマーの弱体化スペルがかけられていない場合、5...40 の追加ダメージを受けます。",
+				"concise": "エリート弱体化スペル： (10 秒) ターゲットした敵および隣接する敵は、スキルを使用するたびに 10...30 のダメージを受けます。他にメスマーの弱体化スペルがかけられていない場合、5...40 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "후회의 환영(대인전)",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 10초 동안 대상과 그에 인접한 적들은 스킬을 사용할 때마다 10...30의 대미지를 입고, 다른 메스머 약화 마법에 걸리지 않았으면 5...40의 대미지를 추가로 입습니다.",
+				"concise": "엘리트 약화 마법. (10초) 대상과 그에 인접한 적들은 스킬을 사용할 때마다 10...30의 대미지를 입고, 다른 메스머 약화 마법이 걸려 있지 않으면 5...40의 대미지를 추가로 입습니다."
+			},
+			"pl": {
+				"name": "Wizje Żalu (PvP)",
+				"description": "Elitarna klątwa (czar). Przez 10 sek., wybrany wróg i wszyscy wrogowie w jego bezpośrednim sąsiedztwie otrzymują 10...30 pkt. obrażeń za każdym razem, gdy użyją umiejętności, oraz dodatkowe 5...40 pkt. obrażeń, jeśli nie mają na sobie innej klątwy mesmera.",
+				"concise": "Elitarna klątwa (czar). Klątwa działa również na wrogów stojących w bezpośrednim sąsiedztwie celu (10 sek.). Otrzymują oni 10...30 pkt. obrażeń za każdym razem, gdy użyją umiejętności, i kolejne 5...40 pkt. obrażeń, jeśli nie ciąży na nich żadna inna klątwa mesmera."
+			},
+			"ru": {
+				"name": "Visions of Regret (PvP)",
+				"description": "Элитное заклинание-проклятье. В течение 10 сек выбранный противник и окружающие противники получают 10...30 ед. урона каждый раз, когда они используют какое-либо умение, и дополнительно 5...40 ед. урона, если они не находятся под воздействием другого проклятья профессии Mesmer.",
+				"concise": "Элитное заклинание-проклятье. Также накладывает проклятье на противников, окружающих вашу цель (10 сек). Эти противники получают 10...30 ед. урона каждый раз, когда они используют какое-либо умение, и дополнительно 5...40 ед. урона, если они не находятся под воздействием другого проклятья профессии Mesmer."
+			},
+			"bork": {
+				"name": "Feeseeuns ooff Regret (PfP)",
+				"description": "Ileete-a Hex Spell. Fur 10 secunds, taerget fue-a und aedjaecent fues taeke-a 10...30 daemaege-a vhenefer zeey use-a a skeell und 5...40 aeddeeshunael daemaege-a iff nut under zee iffffects ooff unuzeer Mesmer hex.",
+				"concise": "Ileete-a Hex Spell. Aelsu hexes fues aedjaecent tu taerget (10 secunds). Zeese-a fues taeke-a 10...30 daemaege-a vhenefer zeey use-a a skeell und 5...40 aeddeeshunael daemaege-a iff nut under zee iffffects ooff unuzeer Mesmer hex."
 			}
 		}
 	}

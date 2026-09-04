@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神圣之速",
+				"description": "增益魔法。 在1...60秒之内，使你的「治疗祷言」类法术施法速度提升50%。如果你施放其他「增益魔法」，则此魔法效果消失。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，你的下0个「治疗祷言」类法术施法速度提升50%，治疗效果提升50%。"
+			},
+			"cht": {
+				"name": "神聖速度",
+				"description": "加持魔法： 持續 1...60 秒，使你的「治癒祈禱」屬性「魔法」，施法速度加快 50% 。若你施展其他「加持魔法」，則此「加持」的效果終止。",
+				"concise": "加持魔法： 持續 1...60 秒，使你的「治癒祈禱」屬性「魔法」，施法速度加快 50% 。若你施展其他「加持魔法」，則此「加持」的效果終止。"
+			},
 			"de": {
+				"name": "Heilige Eile",
+				"description": "Verzauberung. 1...60 Sekunde[n] lang werden Eure Heilgebet-Zauber um 50% schneller gewirkt. Diese Verzauberung endet, wenn Ihr eine andere Verzauberung wirkt.",
+				"concise": "Verzauberung. 1...60 Sekunde[n]: Ihr könnt Eure Heilgebet-Zauber um 50% schneller wirken. Endet, wenn Ihr eine Verzauberung wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Heilige Eile",
 				"description": "1...60 Sekunden lang werden Eure Heilgebete-Zauber um 50% schneller gewirkt. Diese Verzauberung endet, wenn Ihr eine andere Verzauberung wirkt.",
 				"concise": "1...60 Sekunden: Ihr könnt Eure Heilgebet-Zauber um 50% schneller wirken. <gray>Endet, wenn Ihr eine Verzauberung wirkt.</gray>"
 			},
 			"en": {
 				"name": "Holy Haste",
+				"description": "Enchantment Spell. For 1...60 seconds, your Healing Prayers spells cast 50% faster. This enchantment ends if you cast another enchantment.",
+				"concise": "Enchantment Spell. (1...60 seconds.) Your Healing Prayers spells cast 50% faster. Ends if you cast an enchantment."
+			},
+			"en-gww": {
+				"name": "Holy Haste",
 				"description": "For 1...60 second[s], your Healing Prayers spells cast 50% faster. This enchantment ends if you cast another enchantment.",
 				"concise": "(1...60 second[s].) Your Healing Prayers spells cast 50% faster. <gray>Ends if you cast an enchantment.</gray>"
 			},
+			"es": {
+				"name": "Rapidez sagrada",
+				"description": "Conjuro con encantamiento. Durante 1...60 segundos, lanzas un 50% más deprisa tus conjuros de plegarias curativas. Este encantamiento acabará si lanzas algún otro encantamiento.",
+				"concise": "Conjuro con encantamiento. (1...60 segundos). Tus conjuros de plegarias curativas se lanzan un 50% más deprisa. Acaba si usas un encantamiento."
+			},
 			"fr": {
+				"name": "Hâte sacrée",
+				"description": "Enchantement. Pendant 1...60 secondes, vos sorts de Prières de guérison sont lancés 50% plus rapidement. Cet enchantement prend fin si vous lancez un autre enchantement.",
+				"concise": "Enchantement. (1...60 secondes.) Vos sorts de Prières de guérison sont lancés 50% plus vite. Prend fin si vous lancez un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Hâte sacrée",
 				"description": "Pendant 1...60 seconde(s), vos sorts de Prières de guérison sont lancés 50% plus rapidement. Cet enchantement prend fin si vous lancez un autre enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta Sacra",
+				"description": "Incantesimo. Per 1...60 secondo[i] la tua velocità di lancio delle magie associate alle Preghiere Curative aumenta di un 50%. Questo incantesimo termina se lanci un altro incantesimo.",
+				"concise": "Incantesimo. (Secondi: 1...60) Incremento velocità di lancio delle tue magie attribuite a Preghiere Curative: 50%. Termina se lanci un incantesimo."
+			},
+			"jp": {
+				"name": "ホーリー ヘイスト",
+				"description": "強化スペル： 1...60 秒間、「ヒーリング」特性のスキルの詠唱が 50% 早くなります。プレイヤーが強化スペルを詠唱すると、このスペルの効果が消失します。",
+				"concise": "強化スペル： (1...60 秒) 「ヒーリング」系スペルの詠唱速度が 50% 増加します。強化スペルを詠唱すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "치유의 신속함",
+				"description": "강화 마법. 대상 지정: 없음. 1...60초 동안 치유 특성 마법의 시전 속도가 50% 빨라집니다. 다른 강화 마법을 외우면 효과가 끝납니다.",
+				"concise": "강화 마법. (1...60초) 치유 특성 마법의 시전 속도가 50% 빨라집니다. 다른 강화 마법을 시전하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Święty Pośpiech",
+				"description": "Zaklęcie (czar). Przez 1...60 sek. czary oparte na Modlitwach Uzdrawiających rzucasz o 50% szybciej. To zaklęcie przestanie działać, kiedy rzucisz inne zaklęcie.",
+				"concise": "Zaklęcie (czar). (1...60 sek.) Czary z Modlitw Uzdrawiających rzucasz o 50% szybciej. Przestanie działać, jeśli rzucisz zaklęcie."
+			},
+			"ru": {
+				"name": "Holy Haste",
+				"description": "Заклинание-чары. В течение 1...60 сек ваши заклинания, связанные с талантом Healing Prayers, будут активироваться на 50% быстрее. Эти чары завершают свое действие, если вы сотворите какие-либо другие чары.",
+				"concise": "Заклинание-чары. (1...60 сек) Ваши заклинания, связанные с талантом Healing Prayers, активируются на 50% быстрее. Заканчивается, если вы накладываете чары."
+			},
+			"bork": {
+				"name": "Huly Haeste-a",
+				"description": "Inchuntment Spell. Fur 1...60 secunds, yuoor Heaeleeng Praeyers spells caest 50% faester. Thees inchuntment inds iff yuoo caest unuzeer inchuntment.",
+				"concise": "Inchuntment Spell. (1...60 secunds.) Yuoor Heaeleeng Praeyers spells caest 50% faester. Inds iff yuoo caest un inchuntment."
 			}
 		}
 	}

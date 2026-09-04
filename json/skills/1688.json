@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "防护者的热诚",
+				"description": "精英负面魔法。 在10...30秒之内，当目标敌人被击中时，你回复2点能量。",
+				"concise": "精英负面魔法。 在10...30秒之内，当目标敌人被击中时，你回复2点能量。"
+			},
+			"cht": {
+				"name": "防禦者狂熱",
+				"description": "精英降咒魔法： 持續 10...30 秒，每當目標敵人攻擊命中時，你獲得 2 能量。",
+				"concise": "精英降咒魔法： 持續 10...30 秒，每當目標敵人攻擊命中時，你獲得 2 能量。"
+			},
 			"de": {
+				"name": " Eifer des Verteidigers",
+				"description": "Elite-Verhexung. 10...30 Sekunde[n] lang erhaltet Ihr jedes Mal, wenn der Gegner einen erfolgreichen Angriff landet, 2 Energiepunkt[e].",
+				"concise": "Elite-Verhexung. 10...30 Sekunde[n]: Ihr erhaltet jedes Mal 2 Energiepunkt[e], wenn ein Angriff des Gegners trifft."
+			},
+			"de-guildwiki": {
 				"name": "Eifer des Verteidigers",
 				"description": "10...30 Sekunden lang erhaltet Ihr jedes Mal, wenn der Gegner einen erfolgreichen Angriff landet, 2 Energiepunkte.",
 				"concise": "10...30 Sekunden: Ihr erhaltet jedes Mal 2 Energiepunkte, wenn ein Angriff des Gegners trifft."
 			},
 			"en": {
 				"name": "Defender's Zeal",
+				"description": "Elite Hex Spell. For 10...30 seconds, whenever target foe hits with an attack, you gain 2 Energy.",
+				"concise": "Elite Hex Spell. (10...30 seconds.) You gain 2 Energy whenever target foe hits with an attack."
+			},
+			"en-gww": {
+				"name": "Defender's Zeal",
 				"description": "For 10...30 seconds, whenever target foe hits with an attack, you gain 2 Energy.",
 				"concise": "(10...30 seconds.) You gain 2 Energy whenever target foe hits with an attack."
 			},
+			"es": {
+				"name": "Celo del defensor",
+				"description": "Conjuro con maleficio de élite. Durante 10...30 segundos, siempre que el enemigo objetivo ataque, ganarás 2 de energía.",
+				"concise": "Conjuro con maleficio de élite. (10...30 segundos). Ganas 2 de energía siempre que el enemigo objetivo consiga hacer un ataque."
+			},
 			"fr": {
+				"name": "Zèle du Défenseur",
+				"description": "Maléfice d'élite. Pendant 10...30 secondes, chaque fois que l'ennemi visé réussit une attaque, vous bénéficiez de 2 points d'énergie.",
+				"concise": "Maléfice d'élite. (10...30 secondes.) Vous gagnez 2 points d'énergie chaque fois que l'ennemi visé réussit une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Zèle du Défenseur",
 				"description": "Pendant 5...25 secondes, chaque fois que l'ennemi visé réussit une attaque, vous bénéficiez de 2 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Zelo del Difensore",
+				"description": "Fattura d'Élite. Per 10...30 secondo[i], ogni volta che un attacco dell'obiettivo nemico va a segno, ottieni 2 Punto[i] Energia.",
+				"concise": "Fattura d'Élite. (Secondi: 10...30) Energia conseguita ogni volta che l'obiettivo nemico colpisce con un attacco: 2."
+			},
+			"jp": {
+				"name": "ディフェンダー ジール",
+				"description": "エリート弱体化スペル： 10...30 秒間、ターゲットした敵の攻撃が成功するたびに、プレイヤーは 2 のエネルギーを獲得します。",
+				"concise": "エリート弱体化スペル： (10...30 秒) ターゲットした敵が攻撃するたびに、プレイヤーは 2 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "방어자의 열정",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 10...30초 동안 대상이 공격에 성공할 때마다 자신은 2의 에너지를 얻습니다.",
+				"concise": "엘리트 약화 마법. (10...30초) 대상이 공격에 성공할 때마다 자신은 2의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Zapał Obrońcy",
+				"description": "Elitarna klątwa (czar). Przez 10...30 sek., za każdym razem, kiedy wybrany przeciwnik trafi wykonując atak, otrzymujesz 2 pkt. energii.",
+				"concise": "Elitarna klątwa (czar). (10...30 sek.) Otrzymujesz 2 pkt. energii, za każdym razem, kiedy wybrany przeciwnik trafi wykonując atak."
+			},
+			"ru": {
+				"name": "Defender's Zeal",
+				"description": "Элитное заклинание-проклятье. В течение 10...30 сек каждый раз, когда выбранный противник проводит успешную атаку, вы получаете 2 ед. энергии.",
+				"concise": "Элитное заклинание-проклятье. (10...30 сек) Вы получаете 2 ед. энергии каждый раз, когда выбранный противник проводит успешную атаку."
+			},
+			"bork": {
+				"name": "Deffender's Zeael",
+				"description": "Ileete-a Hex Spell. Fur 10...30 secunds, vhenefer taerget fue-a heets veet un aettaeck, yuoo gaeeen 2 Inergy.",
+				"concise": "Ileete-a Hex Spell. (10...30 secunds.) Yuoo gaeeen 2 Inergy vhenefer taerget fue-a heets veet un aettaeck."
 			}
 		}
 	}

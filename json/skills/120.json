@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 5,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "血之统御",
+				"description": "咒文。 牺牲自己最大生命值的5%，使所有我方的不死仆从获得30...116点生命值。每治疗一只不死仆从，你将损失最多2%的生命值。",
+				"concise": "咒文。 牺牲自己最大生命值的5%，使所有你的不死仆从获得30...116点生命值。每一只不死仆从将额外消耗你2%的生命值。"
+			},
+			"cht": {
+				"name": "主人之血",
+				"description": "咒文魔法： 犧牲自己最大體力的 5% ，使你的所有不死爪牙獲得 30...116 體力。而依照你治療的不死爪牙數量，每隻會讓你多犧牲最大體力的 2%。",
+				"concise": "咒文魔法： 犧牲自己最大體力的 5% ，使你的所有不死爪牙獲得 30...116 體力。而依照你治療的不死爪牙數量，每隻會讓你多犧牲最大體力的 2%。"
+			},
 			"de": {
+				"name": "Blut des Meisters",
+				"description": "Zauber. Alle Eure untoten Verbündeten werden um 30...116 Lebenspunkt[e] geheilt. Ihr opfert pro Diener, der auf diese Weise geheilt wird, zusätzlich 2% maximale Lebenspunkte.",
+				"concise": "Zauber. Heilt Eure untoten Diener um 30...116 Lebenspunkt[e]. Heilkosten: +2% Lebenspunktopfer pro geheiltem Diener."
+			},
+			"de-guildwiki": {
 				"name": "Blut des Meisters",
 				"description": "Alle Eure untoten Verbündeten werden um 30...116 Lebenspunkte geheilt. Ihr opfert pro Diener, der auf diese Weise geheilt wird, zusätzlich 2% maximale Lebenspunkte.",
 				"concise": "Heilt Eure untoten Diener um 30...116 Lebenspunkte. <gray>Heilkosten: +2% Lebenspunktopfer pro geheiltem Diener.</gray>"
 			},
 			"en": {
 				"name": "Blood of the Master",
+				"description": "Spell. All of your undead allies are healed for 30...116 Health. You sacrifice an additional 2% maximum Health per minion healed in this way.",
+				"concise": "Spell. Heals your undead servants for 30...116. Healing cost: +2% Health sacrifice per servant healed."
+			},
+			"en-gww": {
+				"name": "Blood of the Master",
 				"description": "All of your undead allies are healed for 30...116 Health. You sacrifice an additional 2% maximum Health per minion healed in this way.",
 				"concise": "Heals your undead servants for 30...116. <gray>Healing cost: +2% Health sacrifice per servant healed.</gray>"
 			},
+			"es": {
+				"name": "Sangre del maestro",
+				"description": "Conjuro. Todos tus muertos vivientes recuperan 30...116 de salud. Sacrificarás además un 2% de tu salud máxima por cada siervo que se cure así.",
+				"concise": "Conjuro. Cura a tus siervos muertos vivientes 30...116 de salud. Coste de la curación: +2% de sacrificio de salud por siervo curado."
+			},
 			"fr": {
+				"name": "Sang du Maître",
+				"description": "Sort. Tous vos alliés morts-vivants sont soignés de 30...116 points de vie. Vous sacrifiez 2% de santé maximum en plus par serviteur soigné de cette manière.",
+				"concise": "Sort. Soigne vos serviteurs morts-vivants de 30...116 points de vie. Coût des soins : vous sacrifiez +2% de santé par serviteur soigné."
+			},
+			"fr-gwiki": {
 				"name": "Sang du Maître",
 				"description": "Tous vos alliés morts-vivants sont soignés de 30...116 points de vie. Vous sacrifiez 2% de santé maximum en plus par serviteur soigné de cette manière.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sangue del Padrone",
+				"description": "Magia. Tutti i tuoi morti viventi alleati vengono curati di 30...116 Punto[i] Salute. Sacrifichi un 2% in più della Salute massima per ogni sgherro curato in questo modo.",
+				"concise": "Magia. Cura i tuoi morti viventi: 30...116. Costo delle cure: sacrifichi +2% di Salute per ogni morto vivente curato."
+			},
+			"jp": {
+				"name": "マスター ブラッド",
+				"description": "スペル： すべての味方ミニオンの体力が 30...116 回復します。この効果により体力が回復したミニオンごとに、犠牲にする体力が2%増加します。",
+				"concise": "スペル： 召喚した味方ミニオンは体力が 30...116 回復します。回復コスト： 回復したミニオン1体につき2%の追加体力。"
+			},
+			"kr": {
+				"name": "수혈의 손길",
+				"description": "마법. 대상 지정: 없음. 자신의 모든 언데드 노예의 체력을 30...116만큼 회복시킵니다. 이렇게 체력을 회복한 언데드 노예 한 마리당 최대 체력을 2%씩 추가로 소모합니다.",
+				"concise": "마법. 자신의 언데드 노예들 체력을 30...116 회복시킵니다. 회복 대가: 언데드 노예 하나당 2%의 체력을 추가로 소모합니다."
+			},
+			"pl": {
+				"name": "Krew Władcy",
+				"description": "Czar. Wszyscy twoi nieumarli sojusznicy otrzymują 30...116 pkt. żywotności. Poświęcasz dodatkowe 2% maksymalnych punktów żywotności za każdego sługusa uleczonego w ten sposób.",
+				"concise": "Czar. Dodaje po 30...116 pkt. żywotności twoim nieumarłym sługom. Koszt uleczenia: +2% poświęcanej żywotności na uzdrowionego sługę."
+			},
+			"ru": {
+				"name": "Blood of the Master",
+				"description": "Заклинание. Все ваши союзники-нежить исцеляются на 30...116 ед. здоровья. Вы жертвуете дополнительно 2% здоровья от вашего максимального уровня за каждого Minion, исцеленного с помощью этого умения.",
+				"concise": "Заклинание. Исцеляет ваших союзников-нежить на 30...116 ед. здоровья. Цена исцеления: дополнительно жертвуете 2% здоровья за каждого исцеленного."
+			},
+			"bork": {
+				"name": "Bluud ooff zee Maester",
+				"description": "Spell. Aell ooff yuoor undeaed aelleees aere-a heaeled fur 30...116 Heaelt. Yuoo saecreeffeece-a un aeddeeshunael 2% maexeemoom Heaelt per meeneeun heaeled in thees vaey.",
+				"concise": "Spell. Heaels yuoor undeaed serfunts fur 30...116. Heaeleeng cust: +2% Heaelt saecreeffeece-a per serfunt heaeled."
 			}
 		}
 	}

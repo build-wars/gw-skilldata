@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命转移",
+				"description": "精英负面魔法。 在6...12秒之内，使目标敌人遭受3...8点「生命衰减」，同时你将获得等量的「生命再生」效果。",
+				"concise": "精英负面魔法。 使目标敌人遭受 3...8点「生命衰减」，同时你将获得等量的「生命再生」效果。"
+			},
+			"cht": {
+				"name": "生命轉移",
+				"description": "精英降咒魔法： 持續 6...12 秒，目標及其鄰近敵人遭受 3...8 體力衰減，同時你獲得等值的體力再生。",
+				"concise": "精英降咒魔法： 持續 6...12 秒，目標及其鄰近敵人遭受 3...8 體力衰減，同時你獲得等值的體力再生。"
+			},
 			"de": {
+				"name": "Lebensübertragung",
+				"description": "Elite-Verhexung. 6...12 Sekunde[n] lang unterliegen der Gegner und ihn umstehende Feinde einer Lebenspunktdegeneration von -3...8, die Euch als Lebenspunktregeneration zugute kommt.",
+				"concise": "Elite-Verhexung. Verhext auch den Gegner umstehende Feinde (6...12 Sekunde[n]). Verursacht -3...8 Lebenspunktdegeneration. Ihr habt +3...8 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Lebensübertragung",
 				"description": "6...12 Sekunden lang unterliegen der Gegner und ihn umstehende Feinde einer Lebenspunktdegeneration von -3...8, die Euch als Lebenspunktregeneration zugute kommt.",
 				"concise": "Verhext auch den Gegner umstehende Feinde (6...12 Sekunden). Verursacht -3...8 Lebenspunktdegeneration. Ihr habt +3...8 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Life Transfer",
+				"description": "Elite Hex Spell. For 6...12 seconds, target foe and adjacent foes suffer -3...8 Health degeneration, which you gain as Health regeneration.",
+				"concise": "Elite Hex Spell. Also hexes foes adjacent to target (6...12 seconds). Causes -3...8 Health degeneration. You have +3...8 Health regeneration."
+			},
+			"en-gww": {
+				"name": "Life Transfer",
 				"description": "For 6...12 seconds, target foe and adjacent foes suffer -3...8 Health degeneration, which you gain as Health regeneration.",
 				"concise": "Also hexes foes adjacent to target (6...12 second). Causes -3...8 Health degeneration. You have +3...8 Health regeneration."
 			},
+			"es": {
+				"name": "Transferencia de vida",
+				"description": "Conjuro con maleficio de élite. Durante 6...12 segundos, el enemigo objetivo y los adyacentes sufrirán una degeneración de salud de -3...8, que ganarás como regeneración de salud.",
+				"concise": "Conjuro con maleficio de élite. También afecta a los enemigos adyacentes al objetivo (6...12 segundos). Causa -3...8 de degeneración de salud. Tienes +3...8 de regeneración de salud."
+			},
 			"fr": {
+				"name": "Transfert de vie",
+				"description": "Maléfice d'élite. Pendant 6...12 secondes, la cible ennemie et les ennemis adjacents subissent une dégénération de santé de -3...8 que vous gagnez en régénération de santé.",
+				"concise": "Maléfice d'élite. Inglige également un maléfice aux ennemis adjacents à la cible (6...12 seconds). Provoque une dégénération de santé de -3...8. Vous bénéficiez d'une régénération de santé de +3...8."
+			},
+			"fr-gwiki": {
 				"name": "Transfert de vie",
 				"description": "Pendant 6...12 secondes, l'ennemi subit une dégénération de santé de -3...8 que vous gagnez en régénération de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trasferimento di Vita",
+				"description": "Fattura d'Élite. Per 6...12 secondo[i], l'obiettivo nemico e i nemici adiacenti subiscono -3...8 punto[i] di Degenerazione della Salute che per te si trasformano in punti di Rigenerazione della Salute.",
+				"concise": "Fattura d'Élite. Infligge fattura anche ai nemici adiacenti all'obiettivo (secondi: 6...12). Degenerazione Salute: -3...8. Rigenerazione tua Salute: +3...8."
+			},
+			"jp": {
+				"name": "ライフ トランスファー",
+				"description": "エリート弱体化スペル： 6...12 秒間、ターゲットした敵および隣接する敵は体力の自然回復力が 3...8 減少し、プレイヤーは体力の自然回復力が増加します。",
+				"concise": "エリート弱体化スペル： (6...12 秒) ターゲットした敵および隣接する敵は体力の自然回復力が 3...8 減少し、プレイヤーは体力の自然回復力が 3...8 増加します。"
+			},
+			"kr": {
+				"name": "생기 이전",
+				"description": "엘리트 약화 마법. 대상 지정:적. 6...12초 동안 대상과 그에 인접한 적들의 체력 재생은 3...8 감소하고, 자신의 체력 재생은 그만큼 늘어납니다.",
+				"concise": "엘리트 약화 마법. (6...12초) 대상과 인접한 적들의 체력 재생이 3...8 감소합니다. 자신의 체력 재생은 3...8 증가합니다."
+			},
+			"pl": {
+				"name": "Przelanie Życia",
+				"description": "Elitarna klątwa (czar). Przez 6...12 sek. wybrany przeciwnik i przeciwnicy bezpośrednio przy nim posiadają degenerację żywotności -3...8, z kolei ty posiadasz regenerację żywotności o tej samej wartości.",
+				"concise": "Elitarna klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (6...12 sek.). Powoduje degenerację żywotności -3...8. Posiadasz regenerację żywotności +3...8."
+			},
+			"ru": {
+				"name": "Life Transfer",
+				"description": "Элитное заклинание-проклятье. В течение 6...12 сек скорость восстановления здоровья у выбранного и окружающих противников уменьшается на 3...8 ед., которые вы получаете в дополнение к вашей скорости восстановления здоровья.",
+				"concise": "Элитное заклинание-проклятье. Также накладывает проклятье на окружающих цель противников (6...12 сек). Уменьшает скорость восстановления здоровья на 3...8 ед. Вы получаете +3...8 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Leeffe-a Trunsffer",
+				"description": "Ileete-a Hex Spell. Fur 6...12 secunds, taerget fue-a und aedjaecent fues sooffffer -3...8 Heaelt degeneraeshun, vheech yuoo gaeeen aes Heaelt regeneraeshun.",
+				"concise": "Ileete-a Hex Spell. Aelsu hexes fues aedjaecent tu taerget (6...12 secunds). Cooses -3...8 Heaelt degeneraeshun. Yuoo haefe-a +3...8 Heaelt regeneraeshun."
 			}
 		}
 	}

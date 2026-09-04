@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "怒火",
+				"description": "负面魔法。 此「负面魔法」对目标并不产生直接的效果。法术效果停留20秒，当「怒火」结束时，该目标及其附近的所有敌人依照此「负面魔法」在其身上的停留时间，每秒给予他们1...6点伤害。",
+				"concise": "负面魔法。 此「负面魔法」对目标并不产生直接的效果。技能效果停留20秒，当「怒火」结束时，该目标及其附近的所有敌人依照此「负面魔法」在其身上的停留时间，每秒给予他们1...6点伤害。"
+			},
+			"cht": {
+				"name": "憤怒高漲",
+				"description": "降咒魔法： 持續 20 秒，此「降咒」對目標並沒有直接的效果。當憤怒高漲結束時，該目標及範圍內的所有敵人依照此「降咒」在他們身上的停留時間，每秒給予他們 1...6 傷害。",
+				"concise": "降咒魔法： 持續 20 秒，此「降咒」對目標並沒有直接的效果。當憤怒高漲結束時，該目標及範圍內的所有敵人依照此「降咒」在他們身上的停留時間，每秒給予他們 1...6 傷害。"
+			},
 			"de": {
+				"name": "Hochkommende Galle",
+				"description": "Verhexung. 20 Sekunden lang bewirkt diese Verhexung gar nichts. Wenn Hochkommende Galle endet, erleiden der Gegner und alle Feinde in dem Bereich für jede Sekunde, die Hochkommende Galle aktiv war, 1...6 Punkt[e] Schaden.",
+				"concise": "Verhexung. 20 Sekunden: Wirkung am Ende: Richtet für jede Sekunde, die Hochkommende Galle aktiv war, 1...6 Punkt[e] Schaden an. Schädigt den Gegner und andere Feinde im Bereich."
+			},
+			"de-guildwiki": {
 				"name": "Hochkommende Galle",
 				"description": "20 Sekunden lang bewirkt diese Verhexung gar nichts. Wenn Hochkommende Galle endet, erleiden der Gegner und alle Feinde in dem Bereich für jede Sekunde, die Hochkommende Galle aktiv war, 1...6 Punkte Schaden.",
 				"concise": "20 Sekunden: Wirkung am Ende: Richtet für jede Sekunde, die Hochkommende Galle aktiv war, 1...6 Punkte Schaden an. Schädigt den Gegner und andere Feinde im Bereich."
 			},
 			"en": {
 				"name": "Rising Bile",
+				"description": "Hex Spell. For 20 seconds, this hex does nothing. When Rising Bile ends, that foe and all foes in the area take 1...6 damage for each second Rising Bile was in effect.",
+				"concise": "Hex Spell. (20 seconds.) End effect: deals 1...6 damage for each second Rising Bile was in effect. Also damages other foes in the area."
+			},
+			"en-gww": {
+				"name": "Rising Bile",
 				"description": "For 20 seconds, this hex does nothing. When Rising Bile ends, that foe and all foes in the area take 1...6 damage for each second Rising Bile was in effect.",
 				"concise": "(20 seconds.) End effect: deals 1...6 damage for each second Rising Bile was in effect. Also damages other foes in the area."
 			},
+			"es": {
+				"name": "Subida de bilis",
+				"description": "Conjuro con maleficio. Durante 20 segundos, este maleficio no hace nada. Cuando la Subida de bilis termine, el enemigo objetivo y todos los que estén en la zona reciben 1...6 de daño por cada segundo que haya estado activado el maleficio.",
+				"concise": "Conjuro con maleficio. (20 segundos). Efecto final: hace 1...6 de daño por cada segundo que haya estado activada la Subida de bilis. También afecta a los demás enemigos de la zona."
+			},
 			"fr": {
+				"name": "Fiel",
+				"description": "Maléfice. Pendant 20 secondes, ce maléfice n'a aucun effet. Lorsqu'il prend fin, l'ennemi visé et tous les ennemis dans la zone subissent 1...6 points de dégâts pour chaque seconde pendant lesquelles le Fiel est actif.",
+				"concise": "Maléfice. (20 secondes.) Effet final : inflige 1...6 points de dégâts pour chaque seconde pendant laquelle le Fiel était actif. Inflige également des dégâts à d'autres ennemis dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Fiel",
 				"description": "Pendant 20 secondes, ce maléfice n'a aucun effet. Lorsqu'il prend fin, l'ennemi visé et tous les ennemis dans la zone subissent 1...6 point(s) de dégâts pour chaque seconde pendant lesquelles le Fiel est actif.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Bile Crescente",
+				"description": "Fattura. Per 20 secondi questa fattura non ha alcun effetto. Al termine, l'obiettivo nemico e tutti i nemici nell'area subiscono 1...6 danno[i] per ogni secondo in cui la fattura è rimasta attiva.",
+				"concise": "Fattura. (Secondi: 20) Effetto al termine: assesta 1...6 danno[i] per ogni secondo di attività di Bile Crescente. Danneggia anche gli altri nemici nell'area."
+			},
+			"jp": {
+				"name": "ライジング バイル",
+				"description": "弱体化スペル： 20秒間、何も起こりません。この効果が消失すると、ターゲットした敵およびエリア内にいるすべての敵に、スペルの持続秒数に 1...6 をかけたダメージを与えます。",
+				"concise": "弱体化スペル： (20秒) 終了効果： ターゲットおよびエリア内にいる他の敵に、このスペルの持続秒数に 1...6 をかけたダメージを与えます。"
+			},
+			"kr": {
+				"name": "잠재된 분노",
+				"description": "약화 마법. 대상 지정: 적. 스킬이 지속되는 20초 동안은 아무 일도 일어나지 않습니다. 하지만 스킬이 끝나면 대상과 일정 범위 내에 있는 모든 적은 이 스킬이 지속된 시간에 따라 초당 1...6의 대미지를 한꺼번에 입습니다.",
+				"concise": "약화 마법. (20초) 종료 효과: 대상과 그를 중심으로 일정 범위 내에 있는 적들은 이 약화 마법이 지속된 시간에 따라 초당 1...6의 대미지를 한꺼번에 입습니다."
+			},
+			"pl": {
+				"name": "Wzbierająca Żółć",
+				"description": "Klątwa (czar). Przez 20 sek. klątwa ta nic nie robi. Gdy Wzbierająca Żółć przestanie działać, wybrany przeciwnik i wszyscy przeciwnicy w okolicy otrzymają po 1...6 pkt. obrażeń za każdą sekundę działania Wzbierającej Żółci.",
+				"concise": "Klątwa (czar). (20 sek.) Efekt końcowy: zadaje 1...6 pkt. obrażeń za każdą sekundę, w której Wzbierająca Żółć była aktywna. Działa także na innych przeciwników w okolicy."
+			},
+			"ru": {
+				"name": "Rising Bile",
+				"description": "Заклинание-проклятье. В течение 20 сек это проклятье ничего не делает. Когда Rising Bile прекращает свое действие, выбранный противник и все противники в зоне досягаемости получают 1...6 ед. урона за каждую секунду действия этого проклятья.",
+				"concise": "Заклинание-проклятье. (20 сек) Эффект окончания: наносит 1...6 ед. урона за каждую секунду действия этого проклятья. Также наносит урон другим противникам в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Reeseeng Beele-a",
+				"description": "Hex Spell. Fur 20 secunds, thees hex dues nutheeng. Vhee Reeseeng Beele-a inds, thaet fue-a und aell fues in zee aerea taeke-a 1...6 daemaege-a fur iaech secund Reeseeng Beele-a vaes in iffffect.",
+				"concise": "Hex Spell. (20 secunds.) Ind iffffect: deaels 1...6 daemaege-a fur iaech secund Reeseeng Beele-a vaes in iffffect. Aelsu daemaeges oozeer fues in zee aerea."
 			}
 		}
 	}

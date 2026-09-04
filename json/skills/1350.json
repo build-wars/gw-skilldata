@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "技能偷取",
+				"description": "精英咒文。 在5...20秒之内，随机偷走目标敌人的一项「非法术类」技能，使其不能使用，同时「技能偷取」将变成所偷取的技能。",
+				"concise": "精英咒文。 在5...20秒之内，随机偷走目标敌人的一项「非法术类」技能，使其不能使用，同时「技能偷取」将变成所偷取的技能。"
+			},
+			"cht": {
+				"name": "簡易竊取",
+				"description": "精英咒文魔法： 中斷目標動作，若中斷的是一項技能，簡易竊取被該技能取代而且目標敵人無法使用該技能5...20秒。",
+				"concise": "精英咒文魔法： 中斷目標動作，若中斷的是一項技能，簡易竊取被該技能取代而且目標敵人無法使用該技能5...20秒。"
+			},
 			"de": {
+				"name": "Simpler Diebstahl",
+				"description": "Elite-Zauber. Unterbricht die Aktion des Gegners. Falls diese Aktion eine Fertigkeit war, wird diese 5...20 Sekunde[n] lang deaktiviert und Simpler Diebstahl durch die Fertigkeit ersetzt.",
+				"concise": "Elite-Zauber. Unterbricht eine Aktion. Unterbrechungswirkung: Falls eine Fertigkeit unterbrochen wurde, wird diese deaktiviert und Simpler Diebstahl wird zu dieser Fertigkeit (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Simpler Diebstahl",
 				"description": "Unterbricht die Aktion des Gegners. Falls diese Aktion eine Fertigkeit war, wird diese 5...20 Sekunden lang deaktiviert und Simpler Diebstahl durch die Fertigkeit ersetzt.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Falls eine Fertigkeit unterbrochen wurde, wird diese deaktiviert und Simpler Diebstahl wird zu dieser Fertigkeit (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Simple Thievery",
+				"description": "Elite Spell. Interrupt target foe's action. If that action was a skill, that skill is disabled for 5...20 seconds, and Simple Thievery is replaced by that skill.",
+				"concise": "Elite Spell. Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Simple Thievery",
 				"description": "Interrupt target foe's action. If that action was a skill, that skill is disabled for 5...20 seconds, and Simple Thievery is replaced by that skill.",
 				"concise": "Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill (5...20 seconds)."
 			},
+			"es": {
+				"name": "Robo simple",
+				"description": "Conjuro de élite. Interrumpes la acción del enemigo objetivo. Si la acción era una habilidad, quedará desactivada durante 5...20 segundos, y el Robo simple es sustituido por esa habilidad.",
+				"concise": "Conjuro de élite. Interrumpe una acción. Efecto: si se interrumpe una habilidad, quedará desactivada y el Robo simple es sustituido por esa habilidad (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Simple vol",
+				"description": "Sort d'élite. Interrompt l'action de la cible ennemie. Si une compétence est interrompue, elle est désactivée pendant 5...20 secondes et remplace Simple Vol.",
+				"concise": "Sort d'élite. Interrompt une action. Effet de l'interruption : si une compétence est interrompue, elle est désactivée et remplace Simple Vol (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Simple vol",
 				"description": "Interrompt l'action de la cible ennemie. Si une compétence est interrompue, elle est désactivée pendant 5...20 secondes et remplace Simple Vol.",
 				"concise": "Interrompt une action. Effet de l'interruption : si une compétence est interrompue, elle est désactivée et remplace Simple Vol (5...20 secondes)."
+			},
+			"it": {
+				"name": "Furto Semplice",
+				"description": "Magia d'Élite. Interrompi l'azione dell'obiettivo nemico; se si trattava di un'abilità viene disattivata per 5...20 secondo[i] e si sostituisce al Furto Semplice.",
+				"concise": "Magia d'Élite. Interrompe un'azione. Effetto dell'interruzione: se era un'abilità la disattiva ed essa si sostituisce a Furto Semplice (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "シンプル シーヴァリー",
+				"description": "エリート スペル： ターゲットした敵のアクションを中断します。スキルを中断した場合、そのスキルを 5...20 秒間封じ込め、覚えて使用できるようになります。",
+				"concise": "エリート スペル： アクションを中断します。中断効果： スキルを中断した場合、そのスキルを封じ込め、覚えて使用できるようになります (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "간단한 탈취",
+				"description": "엘리트 마법. 대상 지정: 적. 대상의 동작을 방해합니다. 스킬을 방해하면 대상은 5...20초 동안 그 스킬을 사용할 수 없게 되고, 간단한 탈취가 그 스킬로 바뀝니다.",
+				"concise": "엘리트 마법. 동작을 방해합니다. 방해 효과: 스킬을 방해하면, 대상은 그 스킬을 사용할 수 없게 되고, 간단한 탈취가 그 스킬로 바뀝니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Łatwa Kradzież",
+				"description": "Elitarny czar. Przerywa czynność przeciwnika. Jeżeli tą czynnością była umiejętność, to umiejętność ta będzie niedostępna przez 5...20 sek., a Łatwa Kradzież zostanie zastąpiona tą umiejętnością.",
+				"concise": "Elitarny czar. Przerywa czynność. Efekt przerwania: jeżeli tą czynnością była umiejętność, to umiejętność ta będzie niedostępna, a Łatwa Kradzież zostanie zastąpiona tą umiejętnością (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Simple Thievery",
+				"description": "Элитное заклинание. Прерывает действие выбранного противника. Если было прервано умение, это умение будет недоступно на 5...20 сек, а Simple Thievery будет замещено этим умением.",
+				"concise": "Элитное заклинание. Прерывает действие. Эффект прерывания: если было прервано умение, оно будет недоступно, а Simple Thievery станет этим умением (5...20 сек)."
+			},
+			"bork": {
+				"name": "Seemple-a Theeefery",
+				"description": "Ileete-a Spell. Interroopt taerget fue-a's aecshun. Iff thaet aecshun vaes a skeell, thaet skeell is deesaebled fur 5...20 secunds, und Seemple-a Theeefery is replaeced by thaet skeell.",
+				"concise": "Ileete-a Spell. Interroopts un aecshun. Interroopshun iffffect: Iff a skeell vaes interroopted, thaet skeell is deesaebled und Seemple-a Theeefery becumes thaet skeell (5...20 secunds)."
 			}
 		}
 	}

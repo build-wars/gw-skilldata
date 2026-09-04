@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "宁静",
+				"description": "自然仪式。 创造一只等级为1...10的宁静精灵。使区域内由「非灵体」类生物施放的「增益魔法」持续时间缩短10...30%。宁静精灵在15...120秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的宁静精灵。使区域内的「增益魔法」持续时间缩短 10...30% 。宁静精灵在15...120秒后消失。"
+			},
+			"cht": {
+				"name": "寧靜",
+				"description": "自然儀式： 創造一隻等級 1...10 的寧靜精靈。使區域內的「加持」持續時間縮短 10...30% 。寧靜精靈在 15...120 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的寧靜精靈。使區域內的「加持」持續時間縮短 10...30% 。寧靜精靈在 15...120 秒後消失。"
+			},
 			"de": {
+				"name": "Ruhe",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Von Kreaturen in seiner Reichweite, die keine Geister sind, gewirkte Verzauberungen enden 10...30% schneller. Dieser Geist stirbt nach 15...120 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (15...120 Sekunde[n] Lebensdauer). Verzauberungen enden bei Kreaturen in Reichweite um 10...30% schneller. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Ruhe (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...10. Von Kreaturen in seiner Reichweite, die keine Geister sind, gewirkte Verzauberungen enden 10...30% schneller . Dieser Geist stirbt nach 15...120 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (15...120 Sekunden Lebensdauer). Verzauberungen enden bei Kreaturen in Reichweite um 10...30% schneller. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Tranquility (PvP)",
+				"description": "Nature Ritual. Create a level 1...10 spirit. Enchantments cast by non-spirit creatures within its range expire 10...30% faster. This spirit dies after 15...120 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (15...120 second lifespan). Enchantments expire 10...30% faster on creatures in range. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Tranquility (PvP)",
 				"description": "Create a level 1...10 spirit. Enchantments cast by non-spirit creatures within its range expire 10...30% faster. This spirit dies after 15...120 seconds.",
 				"concise": "Creates a level 1...10 spirit (15...120 second lifespan). Enchantments expire 10...30% faster on creatures in range. Does not affect spirits."
 			},
+			"es": {
+				"name": "Tranquilidad",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Los encantamientos lanzados por criaturas no espíritus dentro de su radio se acaban un 10...30% más rápido. Morirá a los 15...120 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (15...120 segundos de vida). Los encantamientos que tengan las criaturas de la zona acaban un 10...30% antes. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Tranquillité",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Les enchantements lancés par les créatures (autres que des esprits) se trouvant dans sa portée se terminent 10...30% plus vite. Cet esprit disparaît au bout de 15...120 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 15...120 secondes). Les enchantements prennent fin 10...30% plus vite sur les créatures à portée. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Tranquillité (PvP)",
 				"description": "Crée un esprit de niveau 1...10. Les enchantements lancés par les créatures (autres que des esprits) se trouvant dans sa portée se terminent 10...30% plus vite. Cet esprit disparaît au bout de 15...120 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tranquillità",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Gli incantesimi lanciati dalle creature nella sua portata (Spiriti esclusi) si esauriscono un 10...30% più velocemente. Lo Spirito si esaurisce dopo 15...120 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 15...120 secondo[i]). Riduzione durata degli incantesimi sulle creature nella portata: 10...30%. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "トランキリティー",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物が詠唱した強化スペルの持続時間が 10...30% 減少します。この精霊は 15...120 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (15...120 秒)。この精霊の効果範囲内では、かけられている強化スペルの持続時間が 10...30% 減少します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "평정의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체가 사용한 강화 마법은 10...30% 더 빨리 사라집니다. 영혼은 15...120초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 15...120초) 강화 마법이 10...30% 빨리 끝납니다. 영혼에게는 효과가 없습니다."
+			},
+			"pl": {
+				"name": "Spokój",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Zaklęcia rzucane przez stworzenia nie-duchy w jego zasięgu kończą się o 10...30% szybciej. Ten duch ginie po 15...120 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 15...120 sek.). Zaklęcia na stworzeniach w zasięgu przestają działać o 10...30% szybciej. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Tranquility",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Длительность действия чар, наложенных созданиями, находящимися в зоне его действия и не являющихся духами, уменьшается на 10...30%. Этот дух умирает через 15...120 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (15...120 сек жизни). Длительность действия чар сокращается на 10...30% для созданий в зоне его действия. Не действует на духов."
+			},
+			"bork": {
+				"name": "Trunqooeeleety (PfP)",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Inchuntments caest by nun-spureet creaetoores veetheen its runge-a ixpure-a 10...30% faester. Thees spureet deees aeffter 15...120 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (15...120 secund leeffespun). Inchuntments ixpure-a 10...30% faester oon creaetoores in runge-a. Dues nut aeffffect spureets."
 			}
 		}
 	}

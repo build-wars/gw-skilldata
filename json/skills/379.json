@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "公牛冲锋",
+				"description": "精英姿态。 持续1...7秒，你的移动速度提升50%，若对移动中的敌人发动近战攻击则使其被击倒。使用技能会终止公牛冲锋。",
+				"concise": "精英姿态。 （1...7秒）你的移动速度增加50%。近战击中移动中的敌军可以造成击倒。使用技能会终止该效果。"
+			},
+			"cht": {
+				"name": "公牛突擊態勢",
+				"description": "精英態勢： For 1...7 seconds, you move 50% faster and if you strike a moving foe in melee, that foe is knocked down. Bull's Charge ends if you use a skill.",
+				"concise": "精英態勢： (1...7 seconds.) You move 50% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill."
+			},
 			"de": {
+				"name": "Angriff des Bullen",
+				"description": "Elite-Haltung. Für 1...7 Sekunden bewegt Ihr Euch um 50 % schneller. Wenn Ihr im Nahkampf einen sich bewegenden Gegner trefft, wird er niedergeschlagen. Der Angriff des Bullen endet, wenn Ihr eine Fertigkeit verwendet.",
+				"concise": "Elite-Haltung. (1...7 Sekunden). Ihr bewegt Euch um 50 % schneller. Verursacht Niederschlagen, wenn Ihr einen sich bewegenden Gegner im Nahkampf trefft.Endet, wenn Ihr eine Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Angriff des Bullen",
 				"description": "1...7 Sekunden lang bewegt Ihr Euch um 50% schneller, und wenn Ihr einen sich bewegenden Gegner im Nahkampf trefft, wird dieser Gegner zu Boden geworfen. Angriff des Bullen endet, sobald Ihr eine Fertigkeit verwendet.",
 				"concise": "1...7 Sekunden: Ihr bewegt Euch um 50% schneller. Nahkampftreffer werfen Feinde, die sich bewegen, zu Boden. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Bull's Charge",
+				"description": "Elite Stance. For 1...7 seconds, you move 50% faster and if you strike a moving foe in melee, that foe is knocked down. Bull's Charge ends if you use a skill.",
+				"concise": "Elite Stance. (1...7 seconds.) You move 50% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill."
+			},
+			"en-gww": {
+				"name": "Bull's Charge",
 				"description": "For 1...7 seconds, you move 50% faster and if you strike a moving foe in melee, that foe is knocked down. Bull's Charge ends if you use a skill.",
 				"concise": "(1...7 seconds.) You move 50% faster. Causes knock-down if you hit a moving foe in melee. <gray>Ends if you use a skill.</gray>"
 			},
+			"es": {
+				"name": "Carga de toro",
+				"description": "Actitud de élite. Durante 1...7 segundos, te mueves un 50 % más rápido y, si golpeas a un enemigo en movimiento cuerpo a cuerpo, será derribado. La Carga de toro finaliza si utilizas una habilidad.",
+				"concise": "Actitud de élite. (1...7 segundos). Te mueves un 50 % más deprisa. Causa derribo si golpeas cuerpo a cuerpo a un enemigo moviéndose. Acaba si usas una habilidad."
+			},
 			"fr": {
+				"name": "Charge du taureau",
+				"description": "Pose de combat d'élite. Pendant 1...7 secondes, vous vous déplacez 50% plus vite et, si vous touchez un ennemi en déplacement au corps à corps, vous l'assommez. La Charge du taureau prend fin si vous utilisez une compétence.",
+				"concise": "Pose de combat d'élite. (1...7 secondes.) Vous vous déplacez 50% plus vite. Renverse les ennemis en mouvement que vous touchez au corps à corps. Prend fin si vous utilisez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Charge du taureau",
 				"description": "Pendant 1...7 secondes, vous vous déplacez 50% plus vite et si vous touchez un ennemi en déplacement au corps à corps, vous l'assommez. La Charge du taureau prend fin si vous utilisez une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Carica del Toro",
+				"description": "Posizione d'Élite. Per 1...7 secondo/i, ti muovi più velocemente del 50% e se colpisci in mischia un nemico in movimento, quel nemico viene atterrato. La Carica del Toro termina se usi un'abilità.",
+				"concise": "Posizione d'Élite. (1...7 secondo/i). Ti muovi il 50% più velocemente. Se colpisci in mischia un nemico in movimento, lo atterri. Termina se usi un'abilità."
+			},
+			"jp": {
+				"name": "ブル チャージ",
+				"description": "エリート スタンス： 1...7秒間、移動速度が50%増加し、逃走中の敵を近接攻撃すると、その敵は転倒します。スキルを使用すると、この効果は消失します。",
+				"concise": "エリート スタンス： （1...7秒）移動速度が50%増加します。移動中の敵に近接攻撃が命中すると、ノックダウンさせます。スキルを使用すると終了します。"
+			},
+			"kr": {
+				"name": "황소의 돌격",
+				"description": "엘리트 자세. 1...7초 동안 이동 속도가 50% 빨라지고, 이동 중인 적에게 명중하면 적이 넘어집니다. 다른 스킬을 사용하면 황소의 돌격 효과가 끝납니다.",
+				"concise": "엘리트 자세. (1...7초) 이동 속도가 50% 빨라집니다. 이동 중인 적을 근접 공격으로 가격하면, 적이 넘어집니다. 스킬을 사용하면 종료됩니다."
+			},
+			"pl": {
+				"name": "Szarża Byka",
+				"description": "Postawa elitarna. Przez 1...7 sek. poruszasz się o 50% szybciej i jeśli trafisz w walce wręcz poruszającego się przeciwnika, ten przeciwnik zostanie powalony. Szarża Byka przestaje działać, gdy użyjesz umiejętności.",
+				"concise": "Postawa elitarna. (1...7 sek.). Poruszasz się o 50% szybciej. Powala, jeśli atakiem wręcz trafisz poruszającego się przeciwnika. Przestanie działać, jeśli użyjesz umiejętności."
+			},
+			"ru": {
+				"name": "Bull's Charge",
+				"description": "Элитная стойка. В течение 1...7 сек. вы двигаетесь на 50% быстрее. Атакованные в ближнем бою враги опрокидываются. Bull's Charge завершается при использовании навыка.",
+				"concise": "Элитная стойка. (1...7 сек.) Вы двигаетесь на 50% быстрее. Атакованный движущийся враг оказывается опрокинутым. Заканчивается, если вы используете навык."
+			},
+			"bork": {
+				"name": "Booll's Chaerge-a",
+				"description": "Ileete-a Stunce-a. Fur 1...7 secunds, yuoo mufe-a 50% faester und iff yuoo streeke-a a mufeeng fue-a in melee-a, thaet fue-a is knucked doon. Booll's Chaerge-a inds iff yuoo use-a a skeell.",
+				"concise": "Ileete-a Stunce-a. (1...7 secunds.) Yuoo mufe-a 50% faester. Cooses knuck-doon iff yuoo heet a mufeeng fue-a in melee-a. Inds iff yuoo use-a a skeell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "罗金之速",
+				"description": "姿态。 在5...11秒之内，你的移动速度提高33% ，并且有27...75%的几率格挡投掷性攻击。如果你进行攻击，「罗金之速」的效果就会消失。",
+				"concise": "姿态。 在5...11秒之内，你的移动速度提高33% ，并且有27...75%的几率格挡投掷性攻击。如果你进行攻击，「罗金之速」的效果就会消失。"
+			},
+			"cht": {
+				"name": "羅金之速",
+				"description": "態勢： 持續 5...11 秒，你的移動速度加快 33% ，並且有 27...75% 的機率「格擋」投射攻擊。若你進行攻擊，則此態勢的效果終止。",
+				"concise": "態勢： 持續 5...11 秒，你的移動速度加快 33% ，並且有 27...75% 的機率「格擋」投射攻擊。若你進行攻擊，則此態勢的效果終止。"
+			},
 			"de": {
+				"name": "Zojuns Eile",
+				"description": "Haltung. 5...11 Sekunde[n] lang bewegt Ihr Euch um 33% schneller und habt eine 27...75%ige Chance, Geschosse zu blocken. Zojuns Eile endet, wenn Ihr angreift.",
+				"concise": "Haltung. 5...11 Sekunde[n]: Ihr bewegt Euch um 33% schneller und habt eine 27...75%ige Chance, Geschosse zu blocken. Endet, sobald Ihr angreift."
+			},
+			"de-guildwiki": {
 				"name": "Zojuns Eile",
 				"description": "5...11 Sekunden lang bewegt Ihr Euch um 33% schneller und habt eine 27...75%ige Chance, Geschosse zu blocken. Zojuns Eile endet, wenn Ihr angreift.",
 				"concise": "5...11 Sekunden: Ihr bewegt Euch um 33% schneller und habt eine 27...75%ige Chance, Geschosse zu blocken. <gray>Endet, sobald Ihr angreift.</gray>"
 			},
 			"en": {
 				"name": "Zojun's Haste",
+				"description": "Stance. For 5...11 seconds, you move 33% faster and have a 27...75% chance to block incoming projectiles. Zojun's Haste ends if you attack.",
+				"concise": "Stance. (5...11 seconds.) You move 33% faster and have 27...75% chance to block projectiles. Ends if you attack."
+			},
+			"en-gww": {
+				"name": "Zojun's Haste",
 				"description": "For 5...11 seconds, you move 33% faster and have a 27...75% chance to block incoming projectiles. Zojun's Haste ends if you attack.",
 				"concise": "(5...11 seconds.) You move 33% faster and have 27...75% chance to block projectiles. <gray>Ends if you attack.</gray>"
 			},
+			"es": {
+				"name": "Premura de Zojun",
+				"description": "Actitud. Durante 5...11 segundos, te mueves un 33% más rápido y tienes un 27...75% de posibilidades de bloquear los proyectiles que te lancen. La Premura de Zojun finaliza si atacas.",
+				"concise": "Actitud. (5...11 segundos). Te mueves un 33% más rápido y tienes un 27...75% de probabilidades de bloquear proyectiles. Acaba si atacas."
+			},
 			"fr": {
+				"name": "Hâte de Zojun",
+				"description": "Pose de combat. Pendant 5...11 secondes, vous vous déplacez 33% plus vite et avez 27...75% de chances de bloquer les projectiles qui vous visent. Hâte de Zojun prend fin si vous attaquez.",
+				"concise": "Pose de combat. (5...11 secondes.) Vous vous déplacez 33% plus vite et vous avez 27...75% de chances de bloquer les projectiles. Prend fin si vous attaquez."
+			},
+			"fr-gwiki": {
 				"name": "Hâte de Zojun",
 				"description": "Pendant 5...11 secondes, vous vous déplacez 33% plus vite et avez 27...75% de chances de bloquer les projectiles qui vous visent. Hâte de Zojun prend fin si vous attaquez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta di Zojun",
+				"description": "Posizione. Per 5...11 secondo[i], la tua velocità aumenta del 33% e hai un 27...75% di probabilità di bloccare i proiettili in arrivo. La Fretta di Zojun termina se attacchi.",
+				"concise": "Posizione. (Secondi: 5...11) Incremento tua velocità di movimento: 33%. Probabilità di blocco proiettili: 27...75%. Termina se attacchi."
+			},
+			"jp": {
+				"name": "ゾジュン ヘイスト",
+				"description": "スタンス： 5...11 秒間、移動速度が33%増加し、27...75% の確率で遠投攻撃をブロックします。攻撃を行うと、この効果は消失します。",
+				"concise": "スタンス： (5...11 秒) 移動速度が33%増加し、27...75% の確率で遠投攻撃をブロックします。攻撃すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "조우준의 민첩함",
+				"description": "자세. 대상 지정: 없음. 5...11초 동안 이동 속도가 33% 빨라지고 27...75% 확률로 원거리 발사체 공격을 막아냅니다. 공격을 시도하면 효과가 사라집니다.",
+				"concise": "자세. (5...11초) 이동 속도가 33% 빨라지고 27...75% 확률로 발사체 공격을 막아냅니다. 공격을 하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Pośpiech Zojuna",
+				"description": "Postawa. Przez 5...11 sek., poruszasz się o 33% szybciej i masz 27...75% szans na zablokowanie nadlatujących pocisków. Pośpiech Zojuna skończy się, jeśli zaatakujesz.",
+				"concise": "Postawa. (5...11 sek.) Poruszasz się o 33% szybciej i masz 27...75% szans na blokowanie pocisków. Przestanie działać, jeśli zaatakujesz."
+			},
+			"ru": {
+				"name": "Zojun's Haste",
+				"description": "Стойка. В течение 5...11 сек вы двигаетесь на 33% быстрее и получаете 27...75%-й шанс блокировать метательное оружие. Zojun's Haste прекращает свое действие, если вы атакуете.",
+				"concise": "Стойка. (5...11 сек) Вы двигаетесь на 33% быстрее и получаете 27...75%-й шанс блокировать метательные снаряды. Заканчивается, если вы атакуете."
+			},
+			"bork": {
+				"name": "Zujoon's Haeste-a",
+				"description": "Stunce-a. Fur 5...11 secunds, yuoo mufe-a 33% faester und haefe-a a 27...75% chunce-a tu bluck incumeeng prujecteeles. Zujoon's Haeste-a inds iff yuoo aettaeck.",
+				"concise": "Stunce-a. (5...11 secunds.) Yuoo mufe-a 33% faester und haefe-a 27...75% chunce-a tu bluck prujecteeles. Inds iff yuoo aettaeck."
 			}
 		}
 	}

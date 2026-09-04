@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "救援",
+				"description": "增益魔法。 当你施放此「增益魔法」时，使目标盟友的「生命再生」及「能量再生」同时提高1点，如果目标盟友施放法术，那么你将损失1点能量值。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，使目标盟友的「生命再生」及「能量再生」同时提高1点，如果目标盟友施放法术，那么你将损失1点 能量值。"
+			},
+			"cht": {
+				"name": "援助",
+				"description": "加持魔法： 當你維持此「加持」時，目標其他盟友的體力再生及能量再生同時增加 1 ，但是每當目標施展「魔法」將會讓你損失能量 1 。",
+				"concise": "加持魔法： 當你維持此「加持」時，目標其他盟友的體力再生及能量再生同時增加 1 ，但是每當目標施展「魔法」將會讓你損失能量 1 。"
+			},
 			"de": {
+				"name": "Beistand",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, erfreut sich der Verbündete einer Regeneration von je +1 Lebens- und Energiepunkt. Ihr verliert jedoch 1 Energiepunkt für jeden Zauber, den er wirkt.",
+				"concise": "Verzauberung. +1 Lebenspunktregeneration und +1 Energieregeneration. Sich selbst als Ziel wählen nicht möglich. Ihr verliert jedes Mal 1 Energiepunkt, wenn der Verbündete einen Zauber wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Beistand",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, erfreut sich der Verbündete einer Lebenspunkt- und Energieregeneration von +1. Ihr verliert jedoch 1 Energiepunkt für jeden Zauber, den er wirkt.",
 				"concise": "+1 Lebenspunktregeneration und +1 Energieregeneration. <gray>Sich selbst als Ziel wählen nicht möglich. Ihr verliert jedes Mal 1 Energiepunkt, wenn der Verbündete einen Zauber wirkt.</gray>"
 			},
 			"en": {
 				"name": "Succor",
+				"description": "Enchantment Spell. While you maintain this enchantment, target other ally gains +1 Health and +1 Energy regeneration, but you lose 1 Energy each time that ally casts a spell.",
+				"concise": "Enchantment Spell. +1 Health regeneration and +1 Energy regeneration. Cannot self-target. You lose 1 Energy each time target ally casts a spell."
+			},
+			"en-gww": {
+				"name": "Succor",
 				"description": "While you maintain this Enchantment, target other ally gains +1 Health and +1 Energy regeneration, but you lose 1 Energy each time that ally casts a Spell.",
 				"concise": "+1 Health regeneration and +1 Energy regeneration. <gray>Cannot self-target. You lose 1 Energy each time target ally casts a spell.</gray>"
 			},
+			"es": {
+				"name": "Auxilio",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, el aliado objetivo ganará una regeneración de +1 de salud y de energía, pero perderás 1 de energía cada vez que ese aliado lance un conjuro.",
+				"concise": "Conjuro con encantamiento. +1 de regeneración de salud y +1 de regeneración de energía. No te puedes apuntar a ti mismo. Pierdes 1 de energía cada vez que el aliado objetivo lance un conjuro."
+			},
 			"fr": {
+				"name": "Secours",
+				"description": "Enchantement. Tant que cet enchantement est actif, la régénération d'énergie et de santé de l'allié augmente de +1, mais vous perdez 1 point d'énergie à chaque fois qu'il lance un sort.",
+				"concise": "Enchantement. Régénération de santé de +1 et régénération d'énergie de +1. Vous ne pouvez pas vous prendre pour cible. Vous perdez 1 point d'énergie chaque fois que l'allié visé lance un sort."
+			},
+			"fr-gwiki": {
 				"name": "Secours",
 				"description": "Tant que cet enchantement est actif, la régénération d'énergie et de santé de l'allié augmente de +1, mais vous perdez 1 point d'énergie à chaque fois qu'il lance un sort.",
 				"concise": "Régénération de santé de +1 et régénération d'énergie de +1. <gray>Vous ne pouvez pas vous prendre pour cible. Vous perdez 1 point d'énergie chaque fois que l'allié visé lance un sort.</gray>"
+			},
+			"it": {
+				"name": "Soccorso",
+				"description": "Incantesimo. Mantenendo questo incantesimo, l'alleato ottiene +1 di Rigenerazione della Salute e +1 di Rigenerazione dell'Energia, ma tu perdi 1 Punto Energia ogni volta che l'alleato lancia una magia.",
+				"concise": "Incantesimo. Rigenerazione Salute: +1. Rigenerazione Energia: +1. Impossibile selezionare se stessi. Perdi 1 Punto Energia ogni volta che l'obiettivo (un alleato o te stesso) lancia una magia."
+			},
+			"jp": {
+				"name": "サカー",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした自分以外の味方は体力およびエネルギーの自然回復力が1増加しますが、その味方がスペルを詠唱するたびにプレイヤーは1のエネルギーを失います。",
+				"concise": "強化スペル： 体力の自然回復力が1、エネルギーの自然回復力も1増加します。自分自身をターゲットすることはできません。ターゲットした味方がスペルを詠唱するたびに、プレイヤーは1のエネルギーを失います。"
+			},
+			"kr": {
+				"name": "구원",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상의 체력 재생과 에너지 재생이 1씩 증가합니다. 대상이 마법을 사용할 때마다 당신의 에너지는 1씩 감소합니다.",
+				"concise": "강화 마법. 체력 재생과 에너지 재생이 1씩 증가합니다. 자신을 대상으로 사용할 수 없고, 대상이 마법을 시전할 때마다 자신은 1의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Wsparcie",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, wybrany sojusznik inny niż ty posiada regenerację żywotności +1 i regenerację energii +1, ale ty tracisz 1 pkt. energii za każdym razem, gdy rzuci on czar.",
+				"concise": "Zaklęcie (czar). Regeneracja żywotności +1 i regeneracja energii +1. Na cel nie można wybrać siebie. Tracisz 1 pkt. energii, za każdym razem, kiedy wybrany sojusznik rzuca czar."
+			},
+			"ru": {
+				"name": "Succor",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, скорости восстановления здоровья и энергии у выбранного союзника (но не у вас) увеличиваются на 1 ед. каждая, но вы теряете 1 ед. энергии каждый раз, когда этот союзник произносит заклинание.",
+				"concise": "Заклинание-чары. Добавляет +1 ед. к скорости восстановления здоровья и +1 ед. к скорости восстановления энергии. Нельзя направлять на себя. Вы теряете 1 ед. энергии каждый раз, когда выбранный союзник произносит заклинание."
+			},
+			"bork": {
+				"name": "Sooccur",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, taerget oozeer aelly gaeeens +1 Heaelt und +1 Inergy regeneraeshun, boot yuoo luse-a 1 Inergy iaech teeme-a thaet aelly caests a spell.",
+				"concise": "Inchuntment Spell. +1 Heaelt regeneraeshun und +1 Inergy regeneraeshun. Cunnut selff-taerget. Yuoo luse-a 1 Inergy iaech teeme-a taerget aelly caests a spell."
 			}
 		}
 	}

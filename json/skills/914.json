@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂毁灭",
+				"description": "精英咒文。 You steal 5...70 Health from target foe. All hostile summoned creatures in earshot of that foe take 25...125 damage.",
+				"concise": "精英咒文。 Steals 5...70 Health. Deal 25...125 damage to hostile summoned creatures within earshot of target foe."
+			},
+			"cht": {
+				"name": "靈魂毀滅",
+				"description": "精英咒文魔法： 从目标敌人身上偷取5...70生命值，该敌人听觉范围内的所有敌对召唤生物受到25...125伤害。",
+				"concise": "精英咒文魔法： 偷取5...70生命值。对目标敌人听觉范围内的敌对召唤生物造成25...125伤害。"
+			},
 			"de": {
+				"name": "Seele verzehren",
+				"description": "Elite-Zauber. Ihr stehlt dem anvisierten Gegner 5...70 Lebenspunkte. Alle feindlichen herbeigerufenen Kreaturen in Hörweite dieses Gegners erleiden 25...125 Schaden.",
+				"concise": "Elite-Zauber. Stiehlt 5...70 Lebenspunkte. Feindliche herbeigerufene Kreaturen in Hörweite des anvisierten Gegners erleiden 25...125 Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Seele verzehren",
 				"description": "Ihr entzieht dem Gegner 5...70 Lebenspunkte. Alle feindlichen herbeigerufenen Kreaturen in Hörweite erleiden 25...125 Punkte Schaden.",
 				"concise": "Entzieht dem Gegner 5...70 Lebenspunkte. Richtet 25...125 Punkte Schaden an herbeigerufenen Kreaturen in Hörweite."
 			},
 			"en": {
 				"name": "Consume Soul",
+				"description": "Elite Spell. You steal 5...70 Health from target foe. All hostile summoned creatures in earshot of that foe take 25...125 damage.",
+				"concise": "Elite Spell. Steals 5...70 Health. Deal 25...125 damage to hostile summoned creatures within earshot of target foe."
+			},
+			"en-gww": {
+				"name": "Consume Soul",
 				"description": "You steal 5...70 Health from target foe. All hostile summoned creatures in earshot of that foe take 25...125 damage.",
 				"concise": "Steals 5...70 Health. Deal 25...125 damage to hostile summoned creatures within earshot of target foe."
 			},
+			"es": {
+				"name": "Alma consumida",
+				"description": "Conjuro de élite. Robas 5...70 de salud del enemigo objetivo. Todas las criaturas hostiles invocadas que se encuentren cerca del enemigo reciben 25...125 de daño.",
+				"concise": "Conjuro de élite. Roba 5...70 de salud. Causa 25...125 de daño a las criaturas hostiles invocadas que se encuentran cerca del enemigo objetivo."
+			},
 			"fr": {
+				"name": "Consommation des âmes",
+				"description": "Sort d'élite. Vous volez 5...70 points de santé à l'ennemi ciblé. Toutes les créatures hostiles invoquées et à portée de voix de cet ennemi subissent 25...125 points de dégâts.",
+				"concise": "Sort d'élite. Vole 5...70 points de santé. Inflige 25...125 points de dégâts aux créatures hostiles invoquées et à portée de voix de l'ennemi ciblé."
+			},
+			"fr-gwiki": {
 				"name": "Consommation des âmes",
 				"description": "Vous volez 5...70 points de vie à l'ennemi visé. Toutes les créatures hostiles invoquées à portée de voix de cet ennemi subissent 25...125 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Consuma Anima",
+				"description": "Magia d'Élite. Rubi 5...70 Salute dal bersaglio nemico. Tutte le creature nemiche evocate a portata d'orecchio di quel nemico subiscono 25...125 danni.",
+				"concise": "Magia d'Élite. Ruba 5...70 Salute. Infligge 25...125 danni alle creature ostili evocate a portata d'orecchio del nemico bersaglio."
+			},
+			"jp": {
+				"name": "コンシューム ソウル",
+				"description": "エリート スペル： 標的となった敵の体力を5...70奪います。標的のイヤーショット範囲内にいるすべての召喚クリーチャーが25...125ダメージを受けます。",
+				"concise": "エリート スペル： 体力を5...70奪います。標的となった敵のイヤーショット範囲内にいる敵召喚クリチャーに25...125ダメージを与えます。"
+			},
+			"kr": {
+				"name": "영혼 소멸",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에게서 5...70의 체력을 뺏습니다. 대상의 가청 범위 내에 있는 모든 적대적인 소환물에게 25...125의 대미지를 줍니다.",
+				"concise": "엘리트 마법. 5...70의 체력을 뺏고, 대상의 가청 범위 내에 있는 모든 적대적인 소환물에게 25...125의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Pożarcie Duszy",
+				"description": "Elitarny czar. Wykradasz 5...70 pkt. żywotności od wybranego przeciwnika. Wszystkie wrogie przywołane stworzenia w pobliżu przeciwnika otrzymują 25...125 pkt. obrażeń.",
+				"concise": "Elitarny czar. Wykrada 5...70 pkt. żywotności. Zadaje 25...125 pkt. obrażeń wrogim przywołanym stworzeniom w pobliżu wybranego przeciwnika."
+			},
+			"ru": {
+				"name": "Consume Soul",
+				"description": "Элитное заклинание. Вы крадете 5...70 ед. здоровья у выбранного врага. Все враждебные призванные существа в радиусе слышимости цели получают 25...125 ед. урона.",
+				"concise": "Элитное заклинание. Крадет 5...70 ед. здоровья. Наносит 25...125 ед. урона враждебным призванным существам в радиусе слышимости цели."
+			},
+			"bork": {
+				"name": "Cunsoome-a Suool",
+				"description": "Ileete-a Spell. Yuoo steael 5...70 Heaelt frum taerget fue-a. Aell husteele-a soommuned creaetoores in iaershut ooff thaet fue-a taeke-a 25...125 daemaege-a.",
+				"concise": "Ileete-a Spell. Steaels 5...70 Heaelt. Deael 25...125 daemaege-a tu husteele-a soommuned creaetoores veetheen iaershut ooff taerget fue-a."
 			}
 		}
 	}

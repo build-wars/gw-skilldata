@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "不屈光环（PvP）",
+				"description": "精英增益魔法。 复活阵亡的队友并恢复其全部生命与能量。如果中断维持此附魔或附魔被移除，该队友将死亡并留下被亵渎的尸体。受不屈光环影响时死亡不承受死亡惩罚。（神恩等级小于等于4时有50%失败率。）",
+				"concise": "精英增益魔法。 复活目标队友（满生命值与满能量）。终止效果：该队友死亡并留下可利用尸体。不记入死亡惩罚。神恩等级小于5时有50%的失败率。"
+			},
+			"cht": {
+				"name": "不屈光环（PvP）",
+				"description": "精英加持魔法： Bring target dead party member back to life at full Health and full Energy. If you stop maintaining this enchantment or if this enchantment is removed, that party member dies and leaves an exploited corpse. Deaths while enchanted with Unyielding Aura do not incur a death penalty. (50% failure chance with Divine Favor 4 or less.)",
+				"concise": "精英加持魔法： Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. 50% failure chance unless Divine Favor 5 or more."
+			},
 			"de": {
+				"name": "Unbeugsame Aura",
+				"description": "Elite-Verzauberung. Belebt ein totes Gruppenmitglied mit vollen Lebenspunkten und voller Energie wieder. Wenn Ihr aufhört, diese Verzauberung aufrechtzuerhalten, oder wenn diese Verzauberung entfernt wird, stirbt dieses Gruppenmitglied, und es hinterlässt einen verwerteten Leichnam. Solange ein Charakter mit Unbeugsame Aura verzaubert ist, ziehen Tode keinen Sterbemalus nach sich. (50 % Chance auf Fehlschlag, wenn Gunst der Götter 4 oder weniger.)",
+				"concise": "Elite-Verzauberung. Belebt das anvisierte Gruppenmitglied wieder (volle Lebenspunkte, volle Energie). Effekt endet: Dieser Verbündete stirbt und hinterlässt eine verwertete Leiche. Erhält keinen Sterbemalus. 50 % Chance auf Fehlschlag, wenn Gunst der Götter nicht mindestens 5 beträgt."
+			},
+			"de-guildwiki": {
 				"name": "Unnachgiebige Aura (PvP)",
 				"description": "Holt ein totes Gruppenmitglied mit vollen Lebens- und Energiepunkten ins Leben zurück. Es stirbt und lässt einen benutzten Kadaver zurück, sobald Ihr die Verzauberung aufhebt oder wenn sie entfernt wird. Beim Tod durch Unnachgiebige Aura gibt es keinen Sterbemalus. (Bei einer Gunst der Götter von 4 oder weniger besteht eine 50%ige Chance für einen Misserfolg.)",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (volle Lebenspunkte, volle Energiepunkte). Wirkung am Ende: Der Verbündete stirbt und hinterlässt einen benutzten Kadaver. Hat keinen Sterbemalus zur Folge. <gray>Mindestens Gunst der Götter 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Unyielding Aura (PvP)",
+				"description": "Elite Enchantment Spell. Bring target dead party member back to life at full Health and full Energy. If you stop maintaining this enchantment or if this enchantment is removed, that party member dies and leaves an exploited corpse. Deaths while enchanted with Unyielding Aura do not incur a death penalty. (50% failure chance with Divine Favor 4 or less.)",
+				"concise": "Elite Enchantment Spell. Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. 50% failure chance unless Divine Favor 5 or more."
+			},
+			"en-gww": {
+				"name": "Unyielding Aura (PvP)",
 				"description": "Bring target dead party member back to life at full Health and full Energy. If you stop maintaining this enchantment or if this enchantment is removed, that party member dies and leaves an exploited corpse. Deaths while enchanted with Unyielding Aura do not incur a death penalty. (50% failure chance with Divine Favor 4 or less.)",
 				"concise": "Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. <gray>50% failure chance unless Divine Favor 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Aura de persistencia (PvP)",
+				"description": "Conjuro con encantamiento de élite. Devuelve la vida al aliado objetivo con la salud y energía al máximo. Si dejas de mantener este encantamiento o alguien lo quita, ese aliado muere y deja un cadáver explotable. No se penalizará por resucitar si se muere teniendo el Aura de persistencia. (50 % de posibilidades de fallo con favor divino 4 o inferior).",
+				"concise": "Conjuro con encantamiento de élite. Resucita al miembro del equipo objetivo (con toda la salud y energía). Efecto final: el aliado muere y deja un cadáver explotable. No sufre penalización por morir. 50 % de probabilidades de fallar con favor divino inferior a 5."
+			},
 			"fr": {
+				"name": "Aura inflexible (PvP)",
+				"description": "Enchantement d'élite. Vous ressuscitez le membre du groupe mort ciblé avec 100% de sa santé et de son énergie. Si vous arrêtez de maintenir cet enchantement ou s'il est dissipé, ce membre du groupe meurt et crée un cadavre utilisé. Les morts subies en étant la cible d'Aura inflexible ne causent pas de handicap de moral. (50% de risques d'échec avec Faveur divine inférieure à 5.)",
+				"concise": "Enchantement d'élite. Ressuscite le membre du groupe ciblé (santé maximale, énergie maximale). Effet final : cet allié meurt et crée un cadavre utilisé. N'inflige pas de handicap de mort. 50% de risques d'échec à moins d'avoir au moins 5 points en Faveur divine."
+			},
+			"fr-gwiki": {
 				"name": "Aura inflexible (PvP)",
 				"description": "Ressuscite un membre du groupe mort avec tous ses points de vie et d'énergie. Si vous ne maintenez pas cet enchantement ou s'il est annulé, le membre du groupe meurt et son cadavre est exploité. Si un allié protégé par l'Aura inflexible meurt, aucun handicap n'est appliqué (50% de risques d'échec avec Faveur divine 4 ou moins).",
 				"concise": "Ressuscite le membre du groupe visé (santé et énergie maximum). Effet final : cet allié meurt et laisse un cadavre exploité. N'entraîne pas de handicap. <gray>50% de chances d'échouer sauf si la valeur de Faveur divine est de 5 ou plus.</gray>"
+			},
+			"it": {
+				"name": "Aura inarrestabile (PvP)",
+				"description": "Incantesimo d'Élite. Riporta in vita il membro della squadra interessato con Salute ed Energia integre. Se l'incantesimo viene interrotto o rimosso, il membro della squadra muore e lascia dietro di sé un cadavere non più sfruttabile. Chi muore mentre gode di Aura inarrestabile non incorre in penalità (probabilità di fallimento del 50% con Favore divino pari o inferiore a 4).",
+				"concise": "Incantesimo d'Élite. Riporta in vita il membro della squadra prescelto (Salute ed Energia integre). Fine dell'effetto: questo alleato muore e lascia dietro di sé un cadavere non più sfruttabile. Non si incorre in penalità per la morte. Probabilità di fallimento del 50% se non si possiede almeno 5 in Favore divino)."
+			},
+			"jp": {
+				"name": "不屈のオーラ（PvP）",
+				"description": "エリート強化スペル： 標的の死亡したパーティーメンバーを体力とエネルギーを最大まで回復させて復活させます。この強化スペルの維持を停止した場合や、この魔法が解除された場合、そのパーティーメンバーは死亡し、搾取された死体を残します。不屈のオーラが付与されている間に死亡した場合、死刑に処されることはありません。（神の恩寵が4以下の場合、失敗率は50%です。）",
+				"concise": "エリート強化スペル： 標的のパーティーメンバーを復活させます（体力とエネルギーは全回復）。終了効果：この味方は死亡し、搾取された死体を残します。死刑に処されることはありません。神の恩寵が5以上でなければ、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "불복의 오라(대인전)",
+				"description": "엘리트 강화 마법. 전사한 파티원을 체력과 에너지가 최대인 상태로 부활시킵니다. 당신이 효과를 중단하거나, 효과가 무효화되면 그 파티원은 다시 죽은 상태로 돌아가고 이미 사용한 시체로 되지만 전사페널티는 받지 않습니다. 신의 은총 특성 레벨이 4 이하이면 50% 확률로 실패합니다.",
+				"concise": "엘리트 강화 마법. 대상 파티원을 부활시킵니다(체력 최대, 에너지 최대). 종료 효과: 이 아군은 다시 죽고 이미 사용한 시체가 됩니다. 전사 페널티를 받지 않습니다. 신의 은총 특성 레벨이 4 이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Aura Nieustępliwości (PvP)",
+				"description": "Elitarne zaklęcie (czar). Przywraca do życia martwego członka drużyny z pełną żywotnością i energią. Jeśli przestaniesz utrzymywać to zaklęcie lub jeśli zostanie ono zdjęte, ten członek drużyny umrze i pozostawi zużyte ciało. Śmierci poniesione podczas działania Aury Nieustępliwości nie zwiększają kary za śmierć. (50% szans na niepowodzenie, gdy wartość Łaski Bogów wynosi 4 lub mniej).",
+				"concise": "Elitarne zaklęcie (czar). Wskrzesza wybranego członka drużyny (pełna żywotność, pełna energia). Efekt końcowy: ten sojusznik umiera i zostawia zużyte ciało. Nie zwiększa kary za śmierć. 50% szans na niepowodzenie, chyba że wartość Łaski Bogów wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Unyielding Aura (PvP)",
+				"description": "Элитное заклинание-чары. Воскресите погибшего члена отряда с полным запасом здоровья и энергии. Если вы прекратите поддерживать это усиление или оно будет снято, член отряда умрёт и оставит после себя нетронутый труп. Смерть во время действия Unyielding Aura не накладывает штрафов. (50% шанс провала, если Divine Favor равняется 4 или меньше.)",
+				"concise": "Элитное заклинание-чары. Воскрешает выбранного члена отряда (с полными здоровьем и энергией). Эффект завершения: союзник умирает и оставляет нетронутый труп. Не накладывает штрафа за смерть. Шанс провала — 50%, если Divine Favor ниже 5."
+			},
+			"bork": {
+				"name": "Unyeeeldeeng Oora (PfP)",
+				"description": "Ileete-a Inchuntment Spell. Breeng taerget deaed paerty member baeck tu leeffe-a aet fooll Heaelt und fooll Inergy. Iff yuoo stup maeeentaeeeneeng thees inchuntment oor iff thees inchuntment is remufed, thaet paerty member deees und leaefes un ixplueeted curpse-a. Deaeths vheele-a inchunted veet Unyeeeldeeng Oora du nut incoor a deaet penaelty. (50% faeeeloore-a chunce-a veet Deefeene-a Faefur 4 oor less.)",
+				"concise": "Ileete-a Inchuntment Spell. Resoorrects taerget paerty member (fooll Heaelt, fooll Inergy). Ind iffffect: thees aelly deees und leaefes un ixplueeted curpse-a. Dues nut incoor a deaet penaelty. 50% faeeeloore-a chunce-a unless Deefeene-a Faefur 5 oor mure-a."
 			}
 		}
 	}

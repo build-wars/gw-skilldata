@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "意识崩坏",
+				"description": "负面魔法。 在20秒之内，下一次当目标敌人的能量降到零时，他将受到15...100点伤害.",
+				"concise": "负面魔法。 在20秒之内，下一次当目标敌人的能量降到零时，他将受到15...100点伤害。"
+			},
+			"cht": {
+				"name": "心靈破壞",
+				"description": "降咒魔法： 持續 5...40 秒，每當目標成為你幻術師的非降咒技能之目標時，該敵人失去 1 能量且受到 5...25 傷害。若是目標的能量降至 0 時，心靈破壞終止且造成 15...100 傷害。",
+				"concise": "降咒魔法： 持續 5...40 秒，每當目標成為你幻術師的非降咒技能之目標時，該敵人失去 1 能量且受到 5...25 傷害。若是目標的能量降至 0 時，心靈破壞終止且造成 15...100 傷害。"
+			},
 			"de": {
+				"name": "Geistiges Wrack (PvP)",
+				"description": "Verhexung. Ist der Gegner das Ziel einer Eurer Mesmer-Fertigkeiten, die keine Verhexung ist, verliert er 5...40 Sekunde[n] lang 1 Energiepunkt. Sinken die Energiepunkte des Gegners auf 0, erleidet er 15...100 Punkt[e] Schaden und Geistiges Wrack endet.",
+				"concise": "Verhexung. (5...40 Sekunde[n].) Der Gegner verliert 1 Energiepunkt, wenn er Ziel Eurer Mesmer-Fertigkeiten (keine Verhexung) ist. Sinken die Energiepunkte des Gegners auf 0, erleidet er 15...100 Punkt[e] Schaden und Geistiges Wrack endet."
+			},
+			"de-guildwiki": {
 				"name": "Geistiges Wrack (PvP)",
 				"description": "Der Gegner wird 5...40 Sekunden mit Geistiges Wrack verhext. Ist der Gegner das Ziel einer Eurer Mesmer-Fertigkeiten, die keine Verhexung ist, verliert er 1 Energiepunkt. Sinken die Energiepunkte des Gegners auf 0, erleidet er 15...100 Punkte Schaden und Geistiges Wrack endet.",
 				"concise": "(5...40 Sekunden.) Der Gegner verliert 1 Energiepunkt, wenn er Ziel Eurer Mesmer-Fertigkeiten (keine Verhexung) ist. Sinken die Energiepunkte des Gegners auf 0, erleidet er 15...100 Punkte Schaden und Geistiges Wrack endet."
 			},
 			"en": {
 				"name": "Mind Wrack (PvP)",
+				"description": "Hex Spell. For 5...40 seconds, whenever this foe is the target of one of your non-hex Mesmer skills, that foe loses 1 Energy. If the target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...100 damage.",
+				"concise": "Hex Spell. (5...40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...100 damage."
+			},
+			"en-gww": {
+				"name": "Mind Wrack (PvP)",
 				"description": "For 5...40 seconds, whenever this foe is the target of one of your non-hex Mesmer skills, that foe loses 1 Energy. If the target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...100 damage.",
 				"concise": "(5...40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...100 damage."
 			},
+			"es": {
+				"name": "Sacudida mental (PvP)",
+				"description": "Conjuro con maleficio. Durante 5...40 segundos, cuando este enemigo sea el objetivo de una de tus habilidades de Hipnotizador que no sea un maleficio, perderá 1 de energía. Si el enemigo objetivo pierde toda su energía, la Sacudida mental acaba y dicho enemigo recibe 15...100 de daño.",
+				"concise": "Conjuro con maleficio. (5...40 segundos). Causa 1 de pérdida de energía cada vez que el enemigo es el objetivo de tus habilidades que no sean maleficios de Hipnotizador. Si el enemigo objetivo pierde toda su energía, la Sacudida mental acaba y dicho enemigo recibe 15...100 de daño."
+			},
 			"fr": {
+				"name": "Délabrement spirituel (PvP)",
+				"description": "Maléfice. Pendant 5...40 secondes, lorsque cet ennemi est la cible de l'une de vos compétences d'Envoûteur autre qu'un maléfice, il perd 1 point d'énergie. Si l'énergie de l'ennemi visé tombe à 0, le Délabrement spirituel prend fin et l'ennemi subit 15...100 points de dégâts.",
+				"concise": "Maléfice. (5...40 secondes.) Provoque la perte d'un point d'énergie chaque fois que l'ennemi est la cible de vos compétences d'Envoûteur autre qu'un maléfice. Si l'énergie de l'ennemi visé tombe à 0, le Délabrement spirituel prend fin et l'ennemi subit 15...100 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Délabrement spirituel (PvP)",
 				"description": "Pendant 5...40 secondes, lorsque cet ennemi est la cible de l'une des vos compétences d'Envoûteur autre qu'un maléfice, il perd 1 point d'énergie. Si l'énergie de l'ennemi visé tombe à 0, le Déliberament spirituel prend fin et l'ennemi subit 15...100 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Relitto Mentale (PvP)",
+				"description": "Fattura. Per 5...40 secondi, ogni volta che il nemico viene colpito da una delle tue abilità dell'Ipnotizzatore che non rappresenta una fattura perde 1 Punto Energia. Se l'Energia dell'obiettivo nemico scende a 0, il Relitto Mentale termina e il nemico subisce 15...100 danni.",
+				"concise": "Fattura. (Secondi: 5...40.) Provoca la perdita di 1 Punto Energia ogni volta che il nemico viene colpito dalle tue abilità dell'Ipnotizzatore che non rappresentano una fattura. Se l'Energia dell'obiettivo nemico scende a 0, il Relitto Mentale termina e il nemico subisce 15...100 danni."
+			},
+			"jp": {
+				"name": "マインド ラック (PvP)",
+				"description": "弱体化スペル： 5...40 秒間、ターゲットした敵に対してプレイヤーが弱体化スペル以外のメスマー スキルを使用するたびに、その敵はエネルギーが1減少します。ターゲットした敵のエネルギーが0になるとこの効果は消失し、15...100 のダメージを与えます。",
+				"concise": "弱体化スペル： (5...40 秒) ターゲットした敵に対してプレイヤーが弱体化スペル以外のメスマー スキルを使用すると、その敵はエネルギーが1減少します。ターゲットした敵のエネルギーが0になるとこの効果は消失し、15...100 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "심리적 압박(대인전)",
+				"description": "약화 마법. 대상 지정: 적. 5...40초 동안 대상이 당신의 약화 마법이 아닌 메스머 스킬의 대상이 되면 1의 에너지를 잃습니다. 대상의 에너지가 처음 0이 되면 효과가 끝나며 대상에게 15...100의 대미지를 줍니다.",
+				"concise": "약화 마법. (5...40초) 대상은 당신의 약화 마법이 아닌 메스머 스킬의 대상이 되면 1의 에너지를 잃습니다. 또, 대상의 에너지가 처음 0이 되면 효과가 끝나며 15...100의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Spustoszenie Umysłu (PvP)",
+				"description": "Klątwa (czar). Przez 5...40 sek., za każdym razem gdy dany przeciwnik będzie celem jednej z twoich klątw nie należących do mesmera, straci 1 energii. Jeśli energia wroga spadnie do 0, Spustoszenie Umysłu przestaje działać, a przeciwnik otrzymuje 15...100 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (5...40 sek.) Powoduje utratę 1 energii za każdym razem, gdy dany przeciwnik staje się celem twojej klątwy spoza domeny mesmera. Jeśli energia wroga spadnie do 0, Spustoszenie Umysłu przestaje działać, a przeciwnik otrzymuje 15...100 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Mind Wrack (PvP)",
+				"description": "Заклинание-проклятье. В течение 5...40 сек каждый раз, когда этот противник станет целью одного из ваших умений профессии Mesmer, которые не являются проклятьями, этот противник потеряет 1 ед. энергии. Если энергия выбранного противника упадет до 0, действие Mind Wrack закончится, а этот противник получит 15...100 ед. урона.",
+				"concise": "Заклинание-проклятье. (5...40 сек) Вызывает потерю 1 ед. энергии каждый раз, когда противник станет целью ваших умений профессии Mesmer, не являющихся проклятьями. Если энергия выбранного противника упадет до 0, он получит 15...100 ед. урона, а действие Mind Wrack закончится."
+			},
+			"bork": {
+				"name": "Meend Vraeck (PfP)",
+				"description": "Hex Spell. Fur 5...40 secunds, vhenefer thees fue-a is zee taerget ooff oone-a ooff yuoor nun-hex Mesmer skeells, thaet fue-a luses 1 Inergy. Iff zee taerget fue-a's Inergy drups tu 0, Meend Vraeck inds und thaet fue-a taekes 15...100 daemaege-a.",
+				"concise": "Hex Spell. (5...40 secunds.) Cooses 1 Inergy luss iaech teeme-a fue-a is zee taerget ooff yuoor nun-hex Mesmer skeells. Iff taerget fue-a's Inergy drups tu 0, Meend Vraeck inds und thaet fue-a taekes 15...100 daemaege-a. Bork! Bork! Bork!"
 			}
 		}
 	}

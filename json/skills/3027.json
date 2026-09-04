@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"鼓起勇气！\"",
+				"description": "战吼。 在5...15秒之内，下一次目标盟友即将被击倒时，使附近的一名敌人受到15...90点伤害。",
+				"concise": "战吼。 在5...15秒之内，下一次目标盟友即将被击倒时，使附近的一名敌人受到15...90点伤害。"
+			},
+			"cht": {
+				"name": "「鼓起勇氣！」",
+				"description": "戰嚎： 持續 5...15 秒，當目標其他盟友「下一次」將被擊倒時，由附近的一位敵人受到 15...90 傷害取代。",
+				"concise": "戰嚎： 持續 5...15 秒，當目標其他盟友「下一次」將被擊倒時，由附近的一位敵人受到 15...90 傷害取代。"
+			},
 			"de": {
+				"name": "\"Seid vorbereitet!\" (PvP)",
+				"description": "Schrei. 5...15 Sekunde[n] lang erleidet das nächste Mal, wenn der Verbündete zu Boden geworfen würde, 1 Feind in der Nähe stattdessen 15...90 Punkt[e] Schaden.",
+				"concise": "Schrei. (5...15 Sekunde[n].) Verhindert den nächsten Bodenwurf und richtet bei einem Feind in der Nähe des Verbündeten 15...90 Punkt[e] Schaden an. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "\"Seid vorbereitet!\" (PvP)",
 				"description": "5...15 Sekunden lang erleidet das nächste Mal, wenn der Verbündete zu Boden geworfen würde, 1 Feind in der Nähe stattdessen 15...90 Punkte Schaden.",
 				"concise": "5...15 Sekunden: Verhindert den nächsten Bodenwurf und richtet bei einem Feind in der Nähe des Verbündeten 15...90 Schaden an. <gray>Sich selbst als Ziel wählen nicht möglich</gray>"
 			},
 			"en": {
 				"name": "\"Brace Yourself!\" (PvP)",
+				"description": "Shout. For 5...15 seconds, the next time target other ally would be knocked down, 1 nearby foe takes 15...90 damage instead.",
+				"concise": "Shout. (5...15 seconds.) Prevents the next knock-down and deals 15...90 damage to one foe near target ally. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "\"Brace Yourself!\" (PvP)",
 				"description": "For 5...15 seconds, the next time target other ally would be knocked down, 1 nearby foe takes 15...90 damage instead.",
 				"concise": "(5...15 seconds.) Prevents the next knock-down and deals 15...90 damage to one foe near target ally. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "\"¡Preparado!\" (PvP)",
+				"description": "Grito. Durante 5...15 segundos, la siguiente vez que intenten derribar al aliado objetivo no lo hará y, en lugar de ello, un enemigo cercano recibirá 15...90 de daño.",
+				"concise": "Grito. (5...15 segundos.) Evita el siguiente derribo y causa 15...90 de daño a uno de los enemigos cercanos al aliado objetivo. No te puedes apuntar a ti mismo como objetivo."
+			},
 			"fr": {
+				"name": "\"Préparez-vous !\" (PvP)",
+				"description": "Cri. Pendant 5...15 secondes, la prochaine fois qu'un allié doit être assommé, 1 ennemi à proximité subit 15...90 points de dégâts à la place.",
+				"concise": "Cri. (5...15 secondes.) Empêche l'allié visé d'être assommé la fois suivante où il devrait l'être et inflige 15...90 points de dégâts à un ennemi près de lui. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "\"Préparez-vous !\" (PvP)",
 				"description": "Pendant 5...15 secondes, la prochaine fois qu'un allié doit être assommé, 1 ennemi à proximité subit 15...90 points de dégâts à la place.",
 				"concise": "(5...15 secondes.) Empêche l'allié visé d'être assommé la fois suivante où il devrait l'être et inflige 15...90 points de dégâts à un ennemi près de lui. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "\"Preparatevi!\" (PvP)",
+				"description": "Urlo. Per 5...15 secondi i colpi che provocherebbero l'abbattimento dell'alleato infliggeranno 15...90 danni a tutti i nemici nei dintorni.",
+				"concise": "Urlo. (Secondi: 5...15). Previene il prossimo abbattimento; assesta 15...90 danni ad un nemico vicino all'obiettivo alleato. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ブレイス ユアセルフ！(PvP)",
+				"description": "シャウト： 5...15 秒間、ターゲットした自分以外の味方が次に転倒しそうになるとき、代わりにその周囲にいる敵1体が 15...90 のダメージを受けます。",
+				"concise": "シャウト： (5...15 秒) 次の転倒の試みを妨害し、ターゲットした味方の周囲にいる敵1体に 15...90 のダメージを与えます。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "마음을 굳게 먹어라!(대인전)",
+				"description": "고함. 대상 지정: 아군. 5...15초 동안 대상이 바닥에 넘어져야 할 때 넘어지지 않고, 대상 부근의 적 하나가 15...90의 대미지를 입습니다. 이 스킬은 자신에게 사용할 수 없습니다.",
+				"concise": "고함. (5...15초) 대상이 처음 바닥에 넘어져야 할 때 넘어지지 않고, 대상 부근의 적 하나에게 15...90의 대미지를 줍니다. 자신에게 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Ustój! (PvP)",
+				"description": "Okrzyk. Przez 5...15 sek., następnym razem, gdy wybrany sojusznik inny niż ty ma zostać powalony, 1 przeciwnik w pobliżu otrzymuje w zamian 15...90 pkt. obrażeń.",
+				"concise": "Okrzyk. (5...15 sek.) Ochroni przed następnym powaleniem i zadaje 15...90 pkt. obrażeń jednemu przeciwnikowi w pobliżu wybranego sojusznika. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "\"Brace Yourself!\" (PvP)",
+				"description": "Крик. В течение 5...15 сек в следующий раз, когда выбранного союзника (но не вас) должны были бы сбить с ног, вместо этого один из находящихся поблизости противников получит 15...90 ед. урона.",
+				"concise": "Крик. (5...15 сек) Предохраняет от сбивания с ног и наносит 15...90 ед. урона одному противнику поблизости от выбранного союзника. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "\"Braece-a Yuoorselff!\" (PfP)",
+				"description": "Shuoot. Fur 5...15 secunds, zee next teeme-a taerget oozeer aelly vuoold be-a knucked doon, 1 neaerby fue-a taekes 15...90 daemaege-a insteaed.",
+				"concise": "Shuoot. (5...15 secunds.) Prefents zee next knuck-doon und deaels 15...90 daemaege-a tu oone-a fue-a neaer taerget aelly. Cunnut selff-taerget."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "双箭",
+				"description": "弓术。 连续向目标敌人射出两支箭矢。如果你带有「增益魔法」或「负面魔法」，你将只能射出一支箭。",
+				"concise": "弓术。 连续向目标敌人射出两支箭矢。如果你带有「增益魔法」或「负面魔法」，你将只能射出一支箭。"
+			},
+			"cht": {
+				"name": "雙箭",
+				"description": "弓術攻擊技能： 對目標敵人同時射出兩支箭。如果你正受到「加持」或「降咒」，則你將只能射出一支箭。",
+				"concise": "弓術攻擊技能： 對目標敵人同時射出兩支箭。如果你正受到「加持」或「降咒」，則你將只能射出一支箭。"
+			},
 			"de": {
+				"name": "Gegabelter Pfeil",
+				"description": "Bogenangriff. Schießt zwei Pfeile gleichzeitig auf den Gegner ab. Wenn Ihr mit einer Verzauberung oder Verhexung belegt seid, schießt Ihr nur einen Pfeil ab.",
+				"concise": "Bogenangriff. Ihr feuert zwei Pfeile gleichzeitig ab. Ihr feuert nur einen Pfeil ab, falls Ihr verzaubert oder verhext seid."
+			},
+			"de-guildwiki": {
 				"name": "Gegabelter Pfeil",
 				"description": "Schießt zwei Pfeile gleichzeitig auf den Gegner ab. Wenn Ihr mit einer Verzauberung oder Verhexung belegt seid, schießt Ihr nur einen Pfeil ab.",
 				"concise": "Ihr feuert zwei Pfeile gleichzeitig ab. <gray>Ihr feuert nur einen Pfeil ab, falls Ihr verzaubert oder verhext seid.</gray>"
 			},
 			"en": {
 				"name": "Forked Arrow",
+				"description": "Bow Attack. Shoot two arrows simultaneously at target foe. If you are under the effects of an enchantment or hex, you shoot only one arrow.",
+				"concise": "Bow Attack. You shoot two arrows simultaneously. Shoot only one arrow if you are enchanted or hexed."
+			},
+			"en-gww": {
+				"name": "Forked Arrow",
 				"description": "Shoot two arrows simultaneously at target foe. If you are under the effects of an enchantment or hex, you shoot only one arrow.",
 				"concise": "You shoot two arrows simultaneously. <gray>Shoot only one arrow if you are enchanted or hexed.</gray>"
 			},
+			"es": {
+				"name": "Flecha ahorquillada",
+				"description": "Ataque con arco. Disparas dos flechas simultáneamente al enemigo objetivo. Si estás bajo los efectos de un maleficio o un encantamiento, sólo dispararás una flecha.",
+				"concise": "Ataque con arco. Disparas dos flechas simultáneamente. Sólo disparas una flecha si estás bajo los efectos de un maleficio o un encantamiento."
+			},
 			"fr": {
+				"name": "Flèche fourchue",
+				"description": "Attaque à l'arc. Vous décochez deux flèches simultanément sur la cible ennemie. Si vous êtes sous les effets d'un enchantement ou d'un maléfice, vous ne décochez qu'une seule flèche.",
+				"concise": "Attaque à l'arc. Vous tirez deux flèches en même temps. Vous ne tirez qu'une flèche si vous êtes enchanté[f:\"enchantée\"] ou sous l'effet d'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Flèche fourchue",
 				"description": "Vous décochez deux flèches simultanément sur la cible ennemie. Si vous êtes sous les effets d'un enchantement ou d'un maléfice, vous ne décochez qu'une seule flèche.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Freccia Forcuta",
+				"description": "Attacco con Arco. Scocca due frecce simultaneamente contro l'obiettivo nemico. Se ti trovi sotto gli effetti di un incantesimo o di una fattura lancerai solo una freccia.",
+				"concise": "Attacco con Arco. Scocchi due frecce simultanee. Ne scocchi solo una se sei sotto incantesimo o fattura.."
+			},
+			"jp": {
+				"name": "フォーク アロー",
+				"description": "ボウ アタック： ターゲットした敵に向けて2本の矢を同時に放ちます。プレイヤーに強化もしくは弱体化スペルがかかっていた場合、1本のみ放ちます。",
+				"concise": "ボウ アタック： ターゲットした敵に1回で2本の矢を放ちます。強化スペルまたは弱体化スペルがかけられている場合、放つ矢は1本になります。"
+			},
+			"kr": {
+				"name": "분산 화살",
+				"description": "활 공격. 대상 지정: 적. 대상에게 동시에 2발의 화살을 날립니다. 자신이 약화 마법이나 강화 마법에 걸려 있으면 1발의 화살만 날립니다.",
+				"concise": "활 공격. 동시에 2발의 화살을 날립니다. 자신이 약화 마법이나 강화 마법에 걸려 있으면 1발의 화살만 날립니다."
+			},
+			"pl": {
+				"name": "Rozwidlona Strzała",
+				"description": "Strzał z łuku. Jednocześnie wystrzeliwujesz w przeciwnika dwie strzały. Jeżeli masz na sobie zaklęcie lub klątwę, to wystrzeliwujesz tylko jedna strzałę.",
+				"concise": "Strzał z łuku. Wystrzeliwujesz jednocześnie dwie strzały. Wystrzeliwuje tylko jedną strzałę, jeśli jesteś pod działaniem klątwy lub zaklęcia."
+			},
+			"ru": {
+				"name": "Forked Arrow",
+				"description": "Атака из лука. Выстрел одновременно двумя стрелами по выбранному противнику. Если на вас наложены какие-либо чары или проклятья, вы стреляете только одной стрелой.",
+				"concise": "Атака из лука. Выстрел одновременно двумя стрелами по выбранному противнику. Выстрел только одной стрелой, если на вас наложены чары или проклятье."
+			},
+			"bork": {
+				"name": "Furked Aerroo",
+				"description": "Boo Aettaeck. Shuut tvu aerroos seemooltuneuoosly aet taerget fue-a. Iff yuoo aere-a under zee iffffects ooff un inchuntment oor hex, yuoo shuut oonly oone-a aerroo.",
+				"concise": "Boo Aettaeck. Yuoo shuut tvu aerroos seemooltuneuoosly. Shuut oonly oone-a aerroo iff yuoo aere-a inchunted oor hexed."
 			}
 		}
 	}

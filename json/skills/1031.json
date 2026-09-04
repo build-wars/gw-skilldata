@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "避难",
+				"description": "增益魔法。 在30...60秒之内。当你的生命值低于3...8%时，你有75%的几率格挡敌人的攻击。",
+				"concise": "增益魔法。 在4秒之内，使你获得75点「生命再生」。当你在攻击的时候，「影盾」效果消失了，你将恢复3...8点生命值。"
+			},
+			"cht": {
+				"name": "危難遮蔽",
+				"description": "加持魔法： 持續30...60秒，若體力低於50%，你體力再生增加3...8，同時有75%機會格擋攻擊。",
+				"concise": "加持魔法： 持續30...60秒，若體力低於50%，你體力再生增加3...8，同時有75%機會格擋攻擊。"
+			},
 			"de": {
+				"name": "Schleier des Kummers",
+				"description": "Verzauberung. 30...60 Sekunden lang habt Ihr +3...8 Lebenspunktregeneration und eine 75%ige Chance Angriffe zu blocken, wenn Eure Lebenspunkte unter 50% liegen.",
+				"concise": "Verzauberung. (30...60 Sekunden.) Ihr habt +3...8 Lebenspunktregeneration und eine 75%ige Chance, zu blocken. Eure Lebenspunkte müssen unter 50% liegen, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Schleier des Kummers",
 				"description": "30...60 Sekunden lang habt Ihr +3...8 Lebenspunktregeneration und eine 75%ige Chance Angriffe zu blocken, wenn Eure Lebenspunkte unter 50% liegen.",
 				"concise": "(30...60 Sekunden.) Ihr habt +3...8 Lebenspunktregeneration und eine 75%ige Chance, zu blocken. <gray>Eure Lebenspunkte müssen unter 50% liegen, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Shroud of Distress",
+				"description": "Enchantment Spell. For 30...60 seconds, if you are below 50% Health, you have +3...8 Health regeneration and a 75% chance to block attacks.",
+				"concise": "Enchantment Spell. (30...60 seconds.) You have +3...8 Health regeneration and 75% chance to block. No effect unless your Health is below 50%."
+			},
+			"en-gww": {
+				"name": "Shroud of Distress",
 				"description": "For 30...60 seconds, if you are below 50% Health, you have +3...8 health regeneration and a 75% chance to block attacks.",
 				"concise": "(30...60 seconds.) You have +3...8 health regeneration and a 75% chance to block. <gray>No effect unless your Health is below 50%.</gray>"
 			},
+			"es": {
+				"name": "Mortaja de agonía",
+				"description": "Conjuro con encantamiento. Durante 30...60 segundos, si estás por debajo del 50% de salud, tendrás +3...8 de regeneración de salud y un 75% de probabilidades de bloquear ataques.",
+				"concise": "Conjuro con encantamiento. (30...60 segundos.) Tienes +3...8 de regeneración de salud y un 75% de probabilidades de bloquear. Sólo surte efecto si tu Salud está por debajo del 50%."
+			},
 			"fr": {
+				"name": "Linceul de détresse",
+				"description": "Enchantement. Pendant 30...60 secondes, si votre santé est inférieure à 50%, vous bénéficiez d'une régénération de santé de +3...8 et de 75% de chances de bloquer les attaques.",
+				"concise": "Enchantement. (30...60 secondes.) Vous bénéficiez d'une régénération de santé de +3...8 et de 75% de chances de bloquer les attaques. Sans effet si votre santé est supérieure à 50%."
+			},
+			"fr-gwiki": {
 				"name": "Linceul de détresse",
 				"description": "Pendant 30...60 secondes, si votre santé est inférieure à 50%, vous bénéficiez d'une régénération de santé de +3...8 et de 75% de chances de bloquer les attaques.",
 				"concise": "(30...60 secondes.) Vous bénéficiez d'une régénération de santé de +3...8 et de 75% de chances de bloquer. <gray>Sans effet si votre santé est inférieure à 50%.</gray>"
+			},
+			"it": {
+				"name": "Coltre d'Angoscia",
+				"description": "Incantesimo. Per 30...60 secondi, se la tua Salute è inferiore a un 50% ottieni una Rigenerazione della Salute di +3...8 e un 75% di probabilità di bloccare gli attacchi.",
+				"concise": "Incantesimo. (Secondi: 30...60). Rigenerazione della Salute: +3...8. Probabilità di blocco: 75%. Ha effetto solo se la tua Salute è inferiore a un 50%."
+			},
+			"jp": {
+				"name": "ディストレス シュラウド",
+				"description": "強化スペル： 30...60 秒間、プレイヤーの体力が上限の50%未満の場合、体力の自然回復力が 3...8 増加し、75% の確率で攻撃をブロックします。",
+				"concise": "強化スペル： (30...60 秒) 体力の自然回復力が 3...8 増加し、75% の確率で攻撃をブロックします。プレイヤーの体力が上限の50%以上の場合は無効です。"
+			},
+			"kr": {
+				"name": "고통의 보호막",
+				"description": "강화 마법. 대상 지정: 없음. 30...60초 동안 체력이 50% 미만이 되면 체력 재생이 3...8 증가하고, 공격을 막을 확률이 75% 증가합니다.",
+				"concise": "강화 마법. (30...60초) 체력 재생이 3...8 증가하고, 75%의 확률로 공격을 막습니다. 자신의 체력이 50% 이상이어야 합니다."
+			},
+			"pl": {
+				"name": "Całun Boleści",
+				"description": "Zaklęcie (czar). Przez 30...60 sek., jeżeli masz mniej niż 50% żywotności, otrzymujesz +3...8 regeneracji żywotności oraz masz 75% szansy na zablokowanie ataków.",
+				"concise": "Zaklęcie (czar). (30...60 sek.) Otrzymujesz +3...8 regeneracji żywotności oraz masz 75% szans na blokowanie. Bez efektu, chyba że twoja żywotność jest poniżej 50%."
+			},
+			"ru": {
+				"name": "Shroud of Distress",
+				"description": "Заклинание-чары. В течение 30...60 сек, если уровень вашего здоровья ниже 50%, ваша скорость восстановления здоровья увеличивается на 3...8 ед., и вы получаете 75%-й шанс блокировать атаки.",
+				"concise": "Заклинание-чары. (30...60 сек) Вы получаете +3...8 ед. к скорости восстановления здоровья и 75%-й шанс блокировать атаки. Не действует, если у вас более 50% здоровья."
+			},
+			"bork": {
+				"name": "Shruood ooff Deestress",
+				"description": "Inchuntment Spell. Fur 30...60 secunds, iff yuoo aere-a beloo 50% Heaelt, yuoo haefe-a +3...8 Heaelt regeneraeshun und a 75% chunce-a tu bluck aettaecks.",
+				"concise": "Inchuntment Spell. (30...60 secunds.) Yuoo haefe-a +3...8 Heaelt regeneraeshun und 75% chunce-a tu bluck. Nu iffffect unless yuoor Heaelt is beloo 50%."
 			}
 		}
 	}

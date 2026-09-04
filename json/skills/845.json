@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "流焰",
+				"description": "咒文。 对目标敌人造成7...112点火焰伤害。如果该敌人正在攻击或施法，那么在他附近的敌人也将受到7...112点火焰伤害。",
+				"concise": "咒文。 对目标敌人造成7...112点火焰伤害。如果该敌人正在攻击或施法，那么在他附近的敌人也将受到7...112点火焰伤害。"
+			},
+			"cht": {
+				"name": "液態火焰",
+				"description": "咒文魔法： 對目標敵人造成 7...112 火焰傷害。若該目標正在攻擊或者施展「魔法」，則其附近的敵人也將遭受 7...112 火焰傷害。",
+				"concise": "咒文魔法： 對目標敵人造成 7...112 火焰傷害。若該目標正在攻擊或者施展「魔法」，則其附近的敵人也將遭受 7...112 火焰傷害。"
+			},
 			"de": {
+				"name": "Flüssige Flamme",
+				"description": "Zauber. Der Gegner erleidet 7...112 Punkt[e] Feuerschaden. Wenn er angreift oder einen Zauber wirkt, erleiden Feinde in der Nähe ebenfalls 7...112 Punkt[e] Feuerschaden.",
+				"concise": "Zauber. Richtet 7...112 Punkt[e] Feuerschaden an. Richtet bei Feinden in der Nähe des Gegners 7...112 Punkt[e] Feuerschaden an, falls der Gegner angreift oder zaubert."
+			},
+			"de-guildwiki": {
 				"name": "Flüssige Flamme",
 				"description": "Der Gegner erleidet 7...112 Punkte Feuerschaden. Wenn er angreift oder einen Zauber wirkt, erleiden Feinde in der Nähe ebenfalls 7...112 Punkte Feuerschaden.",
 				"concise": "Richtet 7...112 Punkte Feuerschaden an. Richtet bei Feinden in der Nähe des Gegners 7...112 Punkte Feuerschaden an, falls der Gegner gerade angreift oder Zauber wirkt."
 			},
 			"en": {
 				"name": "Liquid Flame",
+				"description": "Spell. Target foe is struck for 7...112 fire damage. If that foe is attacking or casting a spell, nearby foes are also struck for 7...112 fire damage.",
+				"concise": "Spell. Deals 7...112 fire damage. Deals 7...112 fire damage to foes near your target if this foe is attacking or casting."
+			},
+			"en-gww": {
+				"name": "Liquid Flame",
 				"description": "Target foe is struck for 7...112 fire damage. If that foe is attacking or casting a spell, nearby foes are also struck for 7...112 fire damage.",
 				"concise": "Deals 7...112 fire damage. Deals 7...112 fire damage to nearby foes if target was attacking or casting."
 			},
+			"es": {
+				"name": "Llama líquida",
+				"description": "Conjuro. El enemigo objetivo recibe 7...112 de daño de fuego. Si éste estaba atacando o lanzando un conjuro, los enemigos cercanos también reciben 7...112 de daño de fuego.",
+				"concise": "Conjuro. Hace 7...112 de daño de fuego. Hace 7...112 de daño de fuego a los enemigos cercanos a tu objetivo si está atacando o lanzando un conjuro."
+			},
 			"fr": {
+				"name": "Flamme liquide",
+				"description": "Sort. La cible ennemie subit 7...112 points de dégâts du feu. Si cet ennemi est en train d'attaquer ou de lancer un sort, les ennemis à proximité subissent aussi 7...112 points de dégâts du feu.",
+				"concise": "Sort. Inflige 7...112 points de dégâts de feu. Inflige 7...112 points de dégâts du feu aux ennemis près de votre cible si cette dernière attaque ou lance un sort."
+			},
+			"fr-gwiki": {
 				"name": "Flamme liquide",
 				"description": "La cible ennemie subit 7...112 points de dégâts du feu. Si cet ennemi est en train d'attaquer ou de lancer un sort, les ennemis à proximité subissent aussi 7...112 points de dégâts du feu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fiamma Liquida",
+				"description": "Magia. L'obiettivo nemico subisce 7...112 danni da fuoco. Se il nemico sta attaccando o lanciando una magia, anche i nemici nei dintorni subiscono 7...112 danni da fuoco.",
+				"concise": "Magia. Danni da fuoco inferti: 7...112. Danni da fuoco ai nemici vicini al tuo obiettivo se questi sta attaccando o lanciando magie: 7...112."
+			},
+			"jp": {
+				"name": "リキッド フレイム",
+				"description": "スペル： ターゲットした敵に 7...112 のファイア ダメージを与えます。その敵が攻撃またはスペルを詠唱中の場合、周囲にいる敵にも 7...112 のファイア ダメージを与えます。",
+				"concise": "スペル： 7...112 のファイア ダメージを与えます。ターゲットした敵が攻撃中または詠唱中の場合、その周囲にいる敵にも 7...112 のファイア ダメージを与えます。"
+			},
+			"kr": {
+				"name": "투명한 불길",
+				"description": "마법. 대상 지정: 적. 대상은 7...112의 불 대미지를 입습니다. 대상이 공격 중이거나 마법을 외우는 중이라면 부근의 적들은 7...112의 불 대미지를 입습니다.",
+				"concise": "마법. 7...112의 불 대미지를 줍니다. 대상이 공격 중이거나 마법 시전 중이면 부근의 적들에게 7...112의 불 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Płynny Płomień",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 7...112 pkt. obrażeń od ognia. Jeżeli przeciwnik ten atakuje lub rzuca czar, wszyscy przeciwnicy w pobliżu także otrzymują po 7...112 pkt. obrażeń od ognia.",
+				"concise": "Czar. Zadaje 7...112 pkt. obrażeń od ognia. Przeciwnikom w pobliżu twojego celu zadaje 7...112 pkt. obrażeń od ognia, jeżeli ten przeciwnik atakuje lub rzuca czar."
+			},
+			"ru": {
+				"name": "Liquid Flame",
+				"description": "Заклинание. Выбранный противник получает 7...112 ед. урона силой огня. Если этот противник атаковал или произносил заклинание, находящиеся поблизости противники также получат 7...112 ед. урона силой огня.",
+				"concise": "Заклинание. Наносит 7...112 ед. урона силой огня. Наносит 7...112 ед. урона силой огня противникам поблизости от вашей цели, если этот противник атакует или произносит заклинание."
+			},
+			"bork": {
+				"name": "Leeqooeed Flaeme-a",
+				"description": "Spell. Taerget fue-a is stroock fur 7...112 fure-a daemaege-a. Iff thaet fue-a is aettaeckeeng oor caesteeng a spell, neaerby fues aere-a aelsu stroock fur 7...112 fure-a daemaege-a.",
+				"concise": "Spell. Deaels 7...112 fure-a daemaege-a. Deaels 7...112 fure-a daemaege-a tu fues neaer yuoor taerget iff thees fue-a is aettaeckeeng oor caesteeng."
 			}
 		}
 	}

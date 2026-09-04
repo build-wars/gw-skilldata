@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疾掠",
+				"description": "姿态。 在2...10秒之内，使你的攻击速度提升33%，当此姿态消失时，你将失去所有怒气。",
+				"concise": "姿态。 在2...10秒之内，使你的攻击速度提升33%，当此姿态消失时，你将失去所有怒气。"
+			},
+			"cht": {
+				"name": "侵略衝擊",
+				"description": "態勢： 持續 2...10 秒，使你的攻擊速度加快 33% 。當此態勢效果終止時，你失去所有怒氣值。",
+				"concise": "態勢： 持續 2...10 秒，使你的攻擊速度加快 33% 。當此態勢效果終止時，你失去所有怒氣值。"
+			},
 			"de": {
+				"name": "Aggressiver Ausbruch",
+				"description": "Haltung. 2...10 Sekunde[n] lang greift Ihr um 33% schneller an. Wenn diese Haltung endet, verliert Ihr Euer gesamtes Adrenalin.",
+				"concise": "Haltung. 2...10 Sekunde[n]: Ihr greift um 33% schneller an. Wirkung am Ende: Ihr verliert alles Adrenalin."
+			},
+			"de-guildwiki": {
 				"name": "Aggressiver Ausbruch",
 				"description": "2...10 Sekunden lang greift Ihr um 33% schneller an. Wenn diese Haltung endet, verliert Ihr Euer gesamtes Adrenalin.",
 				"concise": "2...10 Sekunden: Ihr greift um 33% schneller an. <gray>Wirkung am Ende: Ihr verliert alles Adrenalin.</gray>"
 			},
 			"en": {
 				"name": "Burst of Aggression",
+				"description": "Stance. For 2...10 seconds, you attack 33% faster. When this stance ends, you lose all adrenaline.",
+				"concise": "Stance. (2...10 seconds.) You attack 33% faster. End effect: lose all adrenaline."
+			},
+			"en-gww": {
+				"name": "Burst of Aggression",
 				"description": "For 2...10 seconds, you attack 33% faster. When this stance ends, you lose all adrenaline.",
 				"concise": "(2...10 seconds.) You attack 33% faster. <gray>End effect: lose all adrenaline.</gray>"
 			},
+			"es": {
+				"name": "Explosión agresiva",
+				"description": "Actitud. Durante 2...10 segundos, atacas un 33% más rápido. Cuando esta actitud termine, perderás toda la adrenalina.",
+				"concise": "Actitud. (2...10 segundos). Atacas un 33% más deprisa. Efecto final: pierdes toda la adrenalina."
+			},
 			"fr": {
+				"name": "Explosion d'agressivité",
+				"description": "Pose de combat. Pendant 2...10 secondes vous attaquez 33% plus vite. Lorsque cette pose de combat prend fin, vous perdez toute votre adrénaline.",
+				"concise": "Pose de combat. (2...10 secondes.) Vous attaquez 33% plus vite. Effet final : vous perdez toute votre adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Explosion d'agressivité",
 				"description": "Pendant 2...10 secondes, vous attaquez 33% plus vite. Lorsque cette pose de combat prend fin, vous perdez toute votre adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Scarica di Aggressione",
+				"description": "Posizione. Per 2...10 secondo[i] attacchi con una velocità superiore di un 33%. Quando questa posizione termina perdi tutta l'adrenalina.",
+				"concise": "Posizione. (Secondi: 2...10) Incremento tua velocità d'attacco: 33%. Effetto al termine: perdi tutta l'adrenalina."
+			},
+			"jp": {
+				"name": "アグレッション バースト",
+				"description": "スタンス： 2...10 秒間、攻撃速度が 33% 増加します。このスタンスが消失すると、すべてのアドレナリンが失われます。",
+				"concise": "スタンス： (2...10 秒) 攻撃速度が 33% 増加します。終了効果： アドレナリンをすべて失います。"
+			},
+			"kr": {
+				"name": "폭발하는 분노",
+				"description": "자세. 대상 지정: 없음. 2...10초 동안 공격 속도가 33% 빨라집니다. 자세가 끝나면 아드레날린을 모두 잃습니다.",
+				"concise": "자세. (2...10초) 공격 속도가 33% 빨라집니다. 종료 효과: 아드레날린을 모두 잃습니다."
+			},
+			"pl": {
+				"name": "Wybuch Agresji",
+				"description": "Postawa. Przez 2...10 sek. atakujesz o 33% szybciej. Kiedy ta postawa przestanie działać, tracisz całą adrenalinę.",
+				"concise": "Postawa. (2...10 sek.) Atakujesz o 33% szybciej. Efekt końcowy: tracisz całą adrenalinę."
+			},
+			"ru": {
+				"name": "Burst of Aggression",
+				"description": "Стойка. В течение 2...10 сек вы атакуете на 33% быстрее. Когда эта стойка заканчивает свое действие, вы теряете весь адреналин.",
+				"concise": "Стойка. (2...10 сек) Вы атакуете на 33% быстрее. Эффект окончания: вы теряете весь адреналин."
+			},
+			"bork": {
+				"name": "Boorst ooff Aeggresseeun",
+				"description": "Stunce-a. Fur 2...10 secunds, yuoo aettaeck 33% faester. Vhee thees stunce-a inds, yuoo luse-a aell aedrenaeleene-a.",
+				"concise": "Stunce-a. (2...10 secunds.) Yuoo aettaeck 33% faester. Ind iffffect: luse-a aell aedrenaeleene-a."
 			}
 		}
 	}

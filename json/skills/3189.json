@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂之痛",
+				"description": "咒文。 对目标敌人造成5...40点伤害，如果目标敌人在「灵体」附近，则对其周围的敌人造成25...125点伤害，如果该技能击中「灵体」，则可以立刻再次使用。",
+				"concise": "咒文。 对目标敌人造成5...40点伤害，如果目标敌人在「灵体」附近，则对其周围的敌人造成25...125点伤害，如果该技能击中「灵体」，则可以立刻再次使用。"
+			},
+			"cht": {
+				"name": "生靈苦痛",
+				"description": "咒文魔法： 對目標敵人造成 5...40 傷害，同時對目標範圍內的敵方召喚物造成 25...125 傷害。",
+				"concise": "咒文魔法： 對目標敵人造成 5...40 傷害，同時對目標範圍內的敵方召喚物造成 25...125 傷害。"
+			},
 			"de": {
+				"name": "Geisterschmerz (PvP)",
+				"description": "Zauber. Der Gegner erleidet 5...40 Punkt[e] Schaden. Alle gegnerischen herbeigerufenen Kreaturen im Bereich des Gegners erleiden 25...125 Punkt[e] Schaden.",
+				"concise": "Zauber. Richtet 5...40 Punkt[e] Schaden an. Richtet bei allen gegnerischen herbeigerufenen Kreaturen im Bereich des Gegners 25...125 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Geisterschmerz (PvP)",
 				"description": "Der Gegner erleidet 5...40 Punkte Schaden. Alle gegnerischen herbeigerufenen Kreaturen im Bereich des Gegners erleiden 25...125 Punkte Schaden.",
 				"concise": "Richtet 5...40 Punkte Schaden an. Richtet bei allen gegnerischen herbeigerufenen Kreaturen im Bereich des Gegners 25...125 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Spiritual Pain (PvP)",
+				"description": "Spell. Target foe takes 5...40 damage. All hostile summoned creatures in the area of that foe take 25...125 damage.",
+				"concise": "Spell. Deals 5...40 damage. Deals 25...125 damage to hostile summoned creatures in the area of target foe."
+			},
+			"en-gww": {
+				"name": "Spiritual Pain (PvP)",
 				"description": "Target foe takes 5...40 damage. All hostile summoned creatures in the area of that foe take 25...125 damage.",
 				"concise": "Deals 5...40 damage. Deals 25...125 damage to hostile summoned creatures in the area of your target foe."
 			},
+			"es": {
+				"name": "Dolor espiritual (PvP)",
+				"description": "Conjuro. El enemigo objetivo recibe 5...40 de daño. Todas las criaturas hostiles invocadas que se encuentren en la zona del enemigo reciben 25...125 de daño.",
+				"concise": "Conjuro. Causa 5...40 de daño. Hace 25...125 de daño a las criaturas hostiles invocadas que se encuentran en la zona del enemigo objetivo."
+			},
 			"fr": {
+				"name": "Douleur spirituelle (PvP)",
+				"description": "Sort. L'ennemi visé subit 5...40 points de dégâts. Toutes les créatures hostiles invoquées situées près de cet ennemi subissent 25...125 points de dégâts.",
+				"concise": "Sort. Inflige 5...40 points de dégâts. Inflige 25...125 points de dégâts aux créatures hostiles invoquées qui sont situées près de l'ennemi visé."
+			},
+			"fr-gwiki": {
 				"name": "Douleur spirituelle (PvP)",
 				"description": "L'ennemi visé subit 5...40 points de dégâts. Toutes les créatures hostiles invoquées situées près de cet ennemi subissent 25...125 points de dégâts.",
 				"concise": "Inflige 5...40 points de dégâts. Inflige 25...125 points de dégâts aux créatures hostiles invoquées qui sont situées près de l'ennemi visé."
+			},
+			"it": {
+				"name": "Dolore Spirituale (PvP)",
+				"description": "Magia. L'obiettivo nemico subisce 5...40 danni. Tutte le creature ostili evocate nell'area del nemico subiscono 25...125 danni.",
+				"concise": "Magia. Danni inferti: 5...40. Danni inferti alle creature ostili invocate nell'area dell'obiettivo nemico: 25...125."
+			},
+			"jp": {
+				"name": "スピリチュアル ペイン (PvP)",
+				"description": "スペル： ターゲットした敵に 5...40 のダメージを与えます。その敵のエリア内にいる敵対するすべての召喚生物に 25...125 のダメージを与えます。",
+				"concise": "スペル： 5...40 のダメージを与えます。ターゲットした敵のエリア内にいる敵対する召喚生物に 25...125 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "영혼의 고통(대인전)",
+				"description": "마법. 대상 지정: 적. 대상에게 5...40의 대미지를 주고, 대상의 일정 범위 내에 있는 모든 적대적인 소환체에게 25...125의 대미지를 줍니다.",
+				"concise": "마법. 5...40의 대미지를 줍니다. 대상의 일정 범위 내에 있는 적대적인 소환체들에게 25...125의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Duchowy Ból (PvP)",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...40 pkt. obrażeń. Wszystkie wrogie przywołane stworzenia na obszarze w pobliżu wroga otrzymują 25...125 pkt. obrażeń.",
+				"concise": "Czar. Zadaje 5...40 pkt. obrażeń. Zadaje 25...125 pkt. obrażeń wrogim przywołanym stworzeniom w rejonie wybranego przeciwnika."
+			},
+			"ru": {
+				"name": "Spiritual Pain (PvP)",
+				"description": "Заклинание. Выбранный противник получает 5...40 ед. урона. Все вражеские призванные создания в зоне досягаемости от этого противника получают 25...125 ед. урона.",
+				"concise": "Заклинание. Наносит 5...40 ед. урона. Наносит 25...125 ед. урона всем вражеским призванным созданиям в зоне досягаемости от выбранного противника."
+			},
+			"bork": {
+				"name": "Spureetooael Paeeen (PfP)",
+				"description": "Spell. Taerget fue-a taekes 5...40 daemaege-a. Aell husteele-a soommuned creaetoores in zee aerea ooff thaet fue-a taeke-a 25...125 daemaege-a. Bork! Bork! Bork!",
+				"concise": "Spell. Deaels 5...40 daemaege-a. Deaels 25...125 daemaege-a tu husteele-a soommuned creaetoores in zee aerea ooff taerget fue-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 1.5,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱射击",
+				"description": "弓术。 打断目标敌人的动作，但是只会造成1...16点伤害。如果某使用中的技能被打断，则该技能的恢复时间延长 20秒。",
+				"concise": "弓术。 打断目标敌人的动作，但是只会造成1...16点伤害。如果某使用中的技能被打断，则该技能的恢复时间延长 20秒。"
+			},
+			"cht": {
+				"name": "震暈之箭",
+				"description": "弓術攻擊技能： 震暈之箭命中時，中斷目標敵人的動作，但是只造成 1...16 傷害。如果受到中斷的是技能，則該技能的回復時間增加 20 秒。",
+				"concise": "弓術攻擊技能： 震暈之箭命中時，中斷目標敵人的動作，但是只造成 1...16 傷害。如果受到中斷的是技能，則該技能的回復時間增加 20 秒。"
+			},
 			"de": {
+				"name": "Ablenk-Schuss",
+				"description": "Bogenangriff. Wenn \"Ablenk-Schuss\" trifft, unterbricht er die Aktion des Gegners, fügt aber nur 1...16 Punkt[e] Schaden zu. Beruhte die unterbrochene Aktion auf einer Fertigkeit, wird diese Fertigkeit für weitere 20 Sekunden deaktiviert.",
+				"concise": "Bogenangriff. Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochene Fertigeit wird +20 Sekunde[n] lang deaktiviert. Treffer richten nur 1...16 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Ablenk-Schuss",
 				"description": "Wenn \"Ablenk-Schuss\" trifft, unterbricht er die Aktion des Gegners, fügt aber nur 1...16 Punkte Schaden zu. Beruhte die unterbrochene Aktion auf einer Fertigkeit, wird diese Fertigkeit für weitere 20 Sekunden deaktiviert.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochene Fertigeit<sic/> wird +20 Sekunden lang deaktiviert. <gray>Treffer richten nur 1...16 Punkte Schaden an.</gray>"
 			},
 			"en": {
 				"name": "Distracting Shot",
+				"description": "Bow Attack. If Distracting Shot hits, it interrupts target foe's action but deals only 1...16 damage. If the interrupted action was a skill, that skill is disabled for an additional 20 seconds.",
+				"concise": "Bow Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds. Hits for only 1...16 damage."
+			},
+			"en-gww": {
+				"name": "Distracting Shot",
 				"description": "If Distracting Shot hits, it interrupts target foe's action but deals only 1...16 damage. If the interrupted action was a skill, that skill is disabled for an additional 20 seconds.",
 				"concise": "Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds. <gray>Hits for only 1...16 damage.</gray>"
 			},
+			"es": {
+				"name": "Disparo de distracción",
+				"description": "Ataque con arco. Si el Disparo de distracción impacta, interrumpe la acción del enemigo pero hace sólo 1...16 de daño. Si la acción interrumpida era una habilidad, ésta estará desactivada durante 20 segundos adicionales.",
+				"concise": "Ataque con arco. Interrumpe una acción. Efecto: la habilidad interrumpida está desactivada durante +20 segundos. Sólo hace 1...16 de daño."
+			},
 			"fr": {
+				"name": "Tir de diversion",
+				"description": "Attaque à l'arc. Si le Tir de diversion réussit, il interrompt l'action de la cible mais n'inflige que 1...16 points de dégâts. Si l'ennemi utilisait une compétence, celle-ci est inutilisable pendant 20 secondes de plus.",
+				"concise": "Attaque à l'arc. Interrompt une action. Effet de l'interruption : la compétence interrompue est désactivée pendant +20 secondes. Inflige seulement 1...16 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Tir de diversion",
 				"description": "Si le Tir de diversion réussit, il interrompt l'action de la cible mais n'inflige que 1...16 point de dégâts. Si l'ennemi utilisait une compétence, celle-ci est inutilisable pendant 20 secondes de plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Distraente",
+				"description": "Attacco con Arco. Se va a segno, interrompe l'azione dell'obiettivo nemico, ma infligge solo 1...16 danno[i]. Se l'azione interrotta era un'abilità, questa viene disattivata per altri 20 secondi.",
+				"concise": "Attacco con Arco. Interrompe un'azione. Effetto dell'interruzione: l'abilità interrotta viene disattivata per +20 secondo[i]. Assesta solo 1...16 danno[i]."
+			},
+			"jp": {
+				"name": "ディストラクト ショット",
+				"description": "ボウ アタック： 攻撃が成功すると、ターゲットした敵のアクションを中断することができますが、1...16 のダメージしか与えられません。スキルを中断した場合、そのスキルの再使用時間が20秒増加します。",
+				"concise": "ボウ アタック： アクションを中断します。中断効果： 中断したスキルを使用することのできない時間が 20 秒増加します。1...16 のダメージしか与えません。"
+			},
+			"kr": {
+				"name": "견제의 화살",
+				"description": "활 공격. 대상 지정: 적. 명중하면 대상의 동작을 방해하고, 1...16의 대미지를 줍니다. 방해한 동작이 스킬이라면 대상은 그 스킬의 재활성 시간이 20초 늘어납니다.",
+				"concise": "활 공격. 동작을 방해합니다. 방해 효과: 방해한 스킬의 재활성 시간이 20초 늘어납니다. 1...16의 대미지만 줍니다."
+			},
+			"pl": {
+				"name": "Przerywający Strzał",
+				"description": "Strzał z łuku. Jeśli Przerywający Strzał trafi, przerywa bieżącą czynność celu, ale zadaje jedynie 1...16 pkt. obrażeń. Jeśli tą czynnością było użycie umiejętności, to ta umiejętność będzie niedostępna przez dodatkowe 20 sek.",
+				"concise": "Strzał z łuku. Przerywa czynność. Efekt przerwania: przerwana umiejętność jest niedostępna przez +20 sek. Zadaje jedynie 1...16 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Distracting Shot",
+				"description": "Атака из лука. Если Distractin Shot попадает в цель, он прерывает действие противника, но наносит только 1...16 ед. урона. Если прерванное действие было умением, это умение будет недоступно дополнительно на 20 сек.",
+				"concise": "Атака из лука. Прерывает действие. Эффект прерывания: прерванное умение будет недоступно дополнительно на 20 сек. Наносит только 1...16 ед. урона."
+			},
+			"bork": {
+				"name": "Deestraecteeng Shut",
+				"description": "Boo Aettaeck. Iff Deestraecteeng Shut heets, it interroopts taerget fue-a's aecshun boot deaels oonly 1...16 daemaege-a. Iff zee interroopted aecshun vaes a skeell, thaet skeell is deesaebled fur un aeddeeshunael 20 secunds.",
+				"concise": "Boo Aettaeck. Interroopts un aecshun. Interroopshun iffffect: interroopted skeell is deesaebled fur +20 secunds. Heets fur oonly 1...16 daemaege-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "金颅杀",
+				"description": "精英副手技。 此技能必须接续在「起手技」之后使用。如果你受到「增益魔法」效果的影响，并且命中敌人时，可以使敌人「晕眩」1...12秒。",
+				"concise": "精英副手技。 此技能必须接续在「起手技」之后使用。如果你受到「增益魔法」效果的影响，并且命中敌人时，可以使敌人「晕眩」1...12秒。"
+			},
+			"cht": {
+				"name": "金鉗狙殺",
+				"description": "精英即刻攻擊： 若此技能命中且你擁有加持，則使目標敵人暈眩1...12秒。",
+				"concise": "精英即刻攻擊： 若此技能命中且你擁有加持，則使目標敵人暈眩1...12秒。"
+			},
 			"de": {
+				"name": "Goldener Schädel-Stoß",
+				"description": "Elite-Begleithandangriff. Wenn Ihr mit einer Verzauberung belegt seid und dieser Angriff trifft, leidet der Gegner 1...12 Sekunde[n] lang an Benommenheit.",
+				"concise": "Elite-Begleithandangriff. Verursacht Zustand Benommenheit (1...12 Sekunde[n]). Ihr müsst verzaubert sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Goldener Schädel-Stoß",
 				"description": "Wenn Ihr mit einer Verzauberung belegt seid und dieser Angriff trifft, leidet der Gegner 1...12 Sekunden lang an Benommenheit.",
 				"concise": "Verursacht Zustand Benommenheit (1...12 Sekunden). <gray>Ihr müsst verzaubert sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Golden Skull Strike",
+				"description": "Elite Off-Hand Attack. If you are under the effects of an enchantment and this attack hits, target foe is Dazed 1...12 seconds.",
+				"concise": "Elite Off-Hand Attack. Inflicts Dazed condition (1...12 seconds). No effect unless you are enchanted."
+			},
+			"en-gww": {
+				"name": "Golden Skull Strike",
 				"description": "If you are under the effects of an enchantment and this attack hits, target foe is Dazed 1...12 seconds.",
 				"concise": "Inflicts Dazed condition (1...12 seconds). <gray>No effect unless you are enchanted.</gray>"
 			},
+			"es": {
+				"name": "Golpe del cráneo dorado",
+				"description": "Ataque complementario de élite. Si estás bajo los efectos de un encantamiento y este ataque impacta, el enemigo objetivo quedará aturdido durante 1...12 segundos.",
+				"concise": "Ataque complementario de élite. Causa aturdimiento. (1...12 segundos). No tiene efecto a menos que tengas algún encantamiento."
+			},
 			"fr": {
+				"name": "Attaques du crâne doré",
+				"description": "Attaque main gauche d'élite. Si vous êtes sous les effets d'un enchantement et si cette attaque réussit, la cible ennemie est frappée de Stupeur pendant 1...12 secondes.",
+				"concise": "Attaque main gauche d'élite. Inflige la Stupeur (1...12 secondes). Aucun effet si la cible n'est pas sous les effets d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Attaque du crâne doré",
 				"description": "Si vous êtes sous les effets d'un enchantement et si cette attaque réussit, la cible ennemie est frappée de Stupeur pendant 1...12 secondes.",
 				"concise": "Inflige la Stupeur (1...12 secondes(s)). <gray>Aucun effet si la cible n'est pas sous les effets d'un enchantement.</gray>"
+			},
+			"it": {
+				"name": "Colpo del Teschio Dorato",
+				"description": "Attacco d'Élite con Arma Secondaria. Se ti trovi sotto gli effetti di un incantesimo e questo attacco va a segno, l'obiettivo nemico viene stordito per 1...12 secondo[i].",
+				"concise": "Attacco d'Élite con Arma Secondaria. Condizione inflitta: Stordimento (1...12 secondo[i]). Ha effetto solo se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ゴールデン スカル ストライク",
+				"description": "エリート オフハンド アタック： プレイヤーに強化スペルがかけられている間にこのスキルが成功すると、ターゲットした敵は 1...12 秒間「放心」状態になります。",
+				"concise": "エリート オフハンド アタック： 「放心」状態にします (1...12 秒) 。プレイヤーに強化スペルがかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "황금 해골 일격",
+				"description": "엘리트 보조 공격. 자신이 강화 마법에 걸린 상태에서 이 공격이 성공하면 대상은 1...12초 동안 현혹 상태가 됩니다.",
+				"concise": "엘리트 보조 공격. 대상을 현혹시킵니다.(1...12초) 자신이 강화 마법에 걸려 있어야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Złotej Czaszki",
+				"description": "Elitarny atak drugą ręką. Jeśli jesteś pod działaniem zaklęcia i ten atak trafi, wybrany przeciwnik zostaje oszołomiony na 1...12 sek.",
+				"concise": "Elitarny atak drugą ręką. Wywołuje przypadłość oszołomienie (1...12 sek.). Bez efektu, jeśli nie jesteś pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Golden Skull Strike",
+				"description": "Элитная атака второй рукой. Если вы находитесь под действием каких-либо чар, и эта атака попадает в цель, противник будет ошеломлен на 1...12 сек.",
+				"concise": "Элитная атака второй рукой. Вызывает ошеломление (1...12 сек). Не действует, если на вас не наложены чары."
+			},
+			"bork": {
+				"name": "Guldee Skooll Streeke-a",
+				"description": "Ileete-a Ooffff-Hund Aettaeck. Iff yuoo aere-a under zee iffffects ooff un inchuntment und thees aettaeck heets, taerget fue-a is Daezed 1...12 secunds.",
+				"concise": "Ileete-a Ooffff-Hund Aettaeck. Inffleects Daezed cundeeshun (1...12 secunds). Nu iffffect unless yuoo aere-a inchunted."
 			}
 		}
 	}

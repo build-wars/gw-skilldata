@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Masochism",
+				"description": "增益魔法。 For 10...40 seconds, you have +2 to your Death Magic and Soul Reaping attributes and sacrifice 5...3% of your maximum Health whenever you cast a spell.",
+				"concise": "增益魔法。 (10...40 seconds.) You have +2 Death Magic and Soul Reaping. You sacrifice 5...3% of your maximum Health whenever you cast a spell."
+			},
+			"cht": {
+				"name": "受虐",
+				"description": "加持魔法： 持續10...40秒，死亡魔法以及靈魂吸取屬性+2，每次施展魔法時犧牲5...3%體力。",
+				"concise": "加持魔法： 持續10...40秒，死亡魔法以及靈魂吸取屬性+2，每次施展魔法時犧牲5...3%體力。"
+			},
 			"de": {
+				"name": "Masochismus",
+				"description": "Verzauberung. 10...40 Sekunden lang sind Eure Todesmagie- und Seelensammlungsattribute um +2 erhöht und Ihr opfert 5...3% Eurer maximalen Lebenspunkte, wenn Ihr einen Zauber wirkt.",
+				"concise": "Verzauberung. (10...40 Sekunden.) Ihr habt +2 Todesmagie und Seelensammlung. Ihr opfert jedes Mal, wenn Ihr einen Zauber wirkt, zusätzlich 5...3% Eurer maximalen Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Masochismus",
 				"description": "10...40 Sekunden lang sind Eure Todesmagie- und Seelensammlungsattribute um +2 erhöht und Ihr opfert zusätzlich 5...3% Eurer maximalen Lebenspunkte, wenn Ihr einen Zauber wirkt.",
 				"concise": "(10...40 Sekunden.) Ihr habt +2 Todesmagie und Seelensammlung. <gray>Ihr opfert jedes Mal, wenn Ihr einen Zauber wirkt, zusätzlich 5...3% Eurer maximalen Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Masochism",
+				"description": "Enchantment Spell. For 10...40 seconds, you have +2 to your Death Magic and Soul Reaping attributes and sacrifice 5...3% of your maximum Health whenever you cast a spell.",
+				"concise": "Enchantment Spell. (10...40 seconds.) You have +2 Death Magic and Soul Reaping. You sacrifice 5...3% of your maximum Health whenever you cast a spell."
+			},
+			"en-gww": {
+				"name": "Masochism",
 				"description": "For 10...40 seconds, you have +2 to your Death Magic and Soul Reaping attributes and sacrifice 5...3% of your maximum Health when you cast a spell.",
 				"concise": "(10...40 seconds.) You have +2 Death Magic and Soul Reaping. Sacrifice 5...3% Health when you cast a spell."
 			},
+			"es": {
+				"name": "Masoquismo",
+				"description": "Conjuro con encantamiento. Durante 10...40 segundos, los atributos magia de muerte y cosecha de almas aumentan en +2, y se sacrifica un 5...3% del nivel de salud máximo al lanzar un conjuro.",
+				"concise": "Conjuro con encantamiento. (10...40 segundos.) Magia de muerte y cosecha de almas aumentan en +2. Sacrificas un 5...3% del nivel de salud máximo al lanzar un conjuro."
+			},
 			"fr": {
+				"name": "Masochisme",
+				"description": "Enchantement. Pendant 10...40 secondes, vos attributs Magie de mort et Moisson des âmes augmentent de 2 points et vous sacrifiez 5...3% de votre santé maximale lorsque vous lancez un sort.",
+				"concise": "Enchantement. (10...40 secondes.) Vous gagnez +2 en Magie de mort et Moisson des âmes. Vous sacrifiez 5...3% de votre santé maximale lorsque vous lancez un sort."
+			},
+			"fr-gwiki": {
 				"name": "Masochisme",
 				"description": "Pendant 10...40 secondes, vos attributs Magie de mort et Moisson des âmes augmentent de 2 points et vous sacrifiez 5...3% de votre santé maximale lorsque vous lancez un sort.",
 				"concise": "(10...40 secondes.) Vous gagnez +2 en Magie de mort et Moisson des âmes. <gray>Vous sacrifiez 5...3% de votre santé maximale lorsque vous lancez un sort.</gray>"
+			},
+			"it": {
+				"name": "Masochismo",
+				"description": "Incantesimo. Per 10...40 secondi incrementi i tuoi attributi Magia della Morte e Sottrazione dell'Anima di +2 e sacrifichi un ulteriore 5...3% della tua Salute massima quando lanci una magia.",
+				"concise": "Incantesimo. (Secondi: 10...40). Incremento Magia della Morte e Sottrazione dell'Anima: +2. Quando lanci una magia, sacrifichi un ulteriore 5...3% della tua Salute massima."
+			},
+			"jp": {
+				"name": "マゾキズム",
+				"description": "強化スペル： 10...40 秒間、「デス」および「ソウル リーピング」の特性レベルが2増加します。スペルを詠唱するたびに 5...3% の体力を犠牲にします。",
+				"concise": "強化スペル： (10...40 秒) 「デス」および「ソウル リーピング」の特性レベルが2増加します。スペルを詠唱するたびに、体力を上限の 5...3% 犠牲にします。"
+			},
+			"kr": {
+				"name": "피학적 성향",
+				"description": "강화 마법. 대상 지정: 없음. 10...40초 동안 죽음 특성과 영혼 특성 레벨이 2 증가하고, 마법을 시전할 때마다 최대 체력의 5...3%를 소모합니다.",
+				"concise": "강화 마법. (10...40초) 죽음 특성과 영혼 특성 레벨이 2 증가합니다. 마법을 시전할 때마다 최대 체력의 5...3%를 소모합니다."
+			},
+			"pl": {
+				"name": "Masochizm",
+				"description": "Zaklęcie (czar). Przez 10...40 sek., otrzymujesz +2 do Magii Śmierci oraz Wydzierania Duszy, a także poświęcasz 5...3% swojej maksymalnej żywotności, za każdym razem kiedy rzucasz czar.",
+				"concise": "Zaklęcie (czar). (10...40 sek.) Otrzymujesz +2 do Magii Śmierci oraz Wydzierania Duszy.Poświęcasz 5...3% swojej maksymalnej żywotności, jeśli rzucasz czar."
+			},
+			"ru": {
+				"name": "Masochism",
+				"description": "Заклинание-чары. В течение 10...40 сек ваши уровни талантов Death Magic и Soul Reaping увеличиваются на 2, и вы жертвуете дополнительно 5...3% здоровья каждый раз, когда произносите заклинания.",
+				"concise": "Заклинание-чары. (10...40 сек) Вы получаете +2 к уровням талантов Death Magic и Soul Reaping. Вы жертвуете дополнительно 5...3% здоровья каждый раз, когда произносите заклинания."
+			},
+			"bork": {
+				"name": "Maesucheesm",
+				"description": "Inchuntment Spell. Fur 10...40 secunds, yuoo haefe-a +2 tu yuoor Deaet Maegeec und Suool Reaepeeng aettreebootes und saecreeffeece-a 5...3% ooff yuoor maexeemoom Heaelt vhenefer yuoo caest a spell.",
+				"concise": "Inchuntment Spell. (10...40 secunds.) Yuoo haefe-a +2 Deaet Maegeec und Suool Reaepeeng. Yuoo saecreeffeece-a 5...3% ooff yuoor maexeemoom Heaelt vhenefer yuoo caest a spell."
 			}
 		}
 	}

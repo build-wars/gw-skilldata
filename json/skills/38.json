@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量偷取",
+				"description": "增益魔法。 在8...56秒之内，当你施法时，你将从范围内的每个敌人身上偷取1点能量值。",
+				"concise": "增益魔法。 在8...56秒之内，当你施法时，你将从范围内的每个敌人身上偷取1点能量值。"
+			},
+			"cht": {
+				"name": "聚集能量",
+				"description": "加持魔法： 持續 8...56 秒，每當施展「魔法」時，依照範圍內的敵人數量，每個敵人使你獲得 1 能量。",
+				"concise": "加持魔法： 持續 8...56 秒，每當施展「魔法」時，依照範圍內的敵人數量，每個敵人使你獲得 1 能量。"
+			},
 			"de": {
+				"name": "Kanalisieren",
+				"description": "Verzauberung. 8...56 Sekunde[n] lang erhaltet für jeden Gegner in dem Bereich jeweils einen Energiepunkt, wann immer Ihr einen Zauber wirkt.",
+				"concise": "Verzauberung. 8...56 Sekunde[n]: Ihr erhaltet jedes Mal 1 Energiepunkt pro Gegner im Bereich, wenn Ihr einen Zauber wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Kanalisieren",
 				"description": "8...56 Sekunden lang erhaltet Ihr für jeden Gegner in dem Bereich jeweils einen Energiepunkt, wann immer Ihr einen Zauber wirkt.",
 				"concise": "8...56 Sekunden: Ihr erhaltet jedes Mal 1 Energiepunkt pro Gegner im Bereich, wenn Ihr einen Zauber wirkt."
 			},
 			"en": {
 				"name": "Channeling",
+				"description": "Enchantment Spell. For 8...56 seconds, whenever you cast a spell, you gain 1 Energy for each foe in the area.",
+				"concise": "Enchantment Spell. (8...56 seconds.) You gain 1 Energy for each foe in the area whenever you cast a spell."
+			},
+			"en-gww": {
+				"name": "Channeling",
 				"description": "For 8...56 seconds, whenever you cast a spell, you gain 1 Energy for each foe in the area.",
 				"concise": "(8...56 seconds.) You gain 1 Energy for each foe in the area whenever you cast a spell."
 			},
+			"es": {
+				"name": "Canalización",
+				"description": "Conjuro con encantamiento. Durante 8...56 segundos, siempre que lances un conjuro, ganas 1 de energía por cada enemigo en la zona.",
+				"concise": "Conjuro con encantamiento. (8...56 segundos). Ganas 1 de energía por cada enemigo que haya en la zona cuando lances un conjuro."
+			},
 			"fr": {
+				"name": "Canalisation",
+				"description": "Enchantement. Pendant 8...56 secondes, à chaque fois que vous lancez un sort, vous bénéficiez d'1 point d'énergie pour chaque ennemi dans la zone.",
+				"concise": "Enchantement. (8...56 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie par ennemi dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Canalisation",
 				"description": "Pendant 8...56 secondes, à chaque fois que vous lancez un sort, vous bénéficiez d'1 point d'énergie pour chaque ennemi dans la zone.",
 				"concise": "(8...56 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie par ennemi dans la zone."
+			},
+			"it": {
+				"name": "Incanalamento",
+				"description": "Incantesimo. Dura 8...56 secondo[i]; ogni volta che compi una magia, ottieni 1 Punto Energia per ogni nemico presente nell'area.",
+				"concise": "Incantesimo. (Secondi: 8...56) Ottieni 1 Punto Energia per ogni nemico nell'area ogni volta che lanci una magia."
+			},
+			"jp": {
+				"name": "チャネリング",
+				"description": "強化スペル： 8...56 秒間、スペルを詠唱するたびに、エリア内にいる敵ごとに1のエネルギーを獲得します。",
+				"concise": "強化スペル： (8...56 秒) スペルを詠唱するたびに、エリア内にいる敵1体ごとに1のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "에너지 갈취",
+				"description": "강화 마법. 대상 지정: 없음. 8...56초 동안 마법을 외울 때마다 일정 범위 내에 있는 적들의 에너지를 1씩 빼앗습니다.",
+				"concise": "강화 마법. (8...56초) 마법을 외울 때마다 일정 범위 내에 있는 적 한 명당 에너지를 1씩 뺏습니다."
+			},
+			"pl": {
+				"name": "Czerpanie Mocy",
+				"description": "Zaklęcie (czar). Przez 8...56 sek., za każdym razem, kiedy rzucasz czar, zyskujesz 1 punkt energii za każdego przeciwnika w okolicy.",
+				"concise": "Zaklęcie (czar). (8...56 sek.) Za każdym razem, kiedy rzucasz czar, otrzymujesz 1 pkt. energii za każdego przeciwnika w okolicy."
+			},
+			"ru": {
+				"name": "Channeling",
+				"description": "Заклинание-чары. В течение 8...56 сек каждый раз, когда вы произносите заклинание, вы получаете 1 ед. энергии за каждого противника в зоне досягаемости.",
+				"concise": "Заклинание-чары. (8...56 сек) Вы получаете 1 ед. энергии за каждого противника в зоне досягаемости каждый раз, когда произносите заклинание."
+			},
+			"bork": {
+				"name": "Chunneleeng",
+				"description": "Inchuntment Spell. Fur 8...56 secunds, vhenefer yuoo caest a spell, yuoo gaeeen 1 Inergy fur iaech fue-a in zee aerea.",
+				"concise": "Inchuntment Spell. (8...56 secunds.) Yuoo gaeeen 1 Inergy fur iaech fue-a in zee aerea vhenefer yuoo caest a spell."
 			}
 		}
 	}

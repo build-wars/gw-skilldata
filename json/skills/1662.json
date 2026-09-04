@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "心灵烈焰",
+				"description": "精英咒文。 对目标敌人造成15...60点火焰伤害。如果你比对方拥有更多的能量，你将获得1...8点能量值。",
+				"concise": "精英咒文。 对目标敌人造成15...60点火焰伤害。如果你比对方拥有更多的能量，你将获得1...8点能量值。"
+			},
+			"cht": {
+				"name": "心靈轟擊",
+				"description": "精英咒文魔法： 對目標敵人造成 15...60 火焰傷害，若你的能量比該目標多，則你獲得 1...8 能量。",
+				"concise": "精英咒文魔法： 對目標敵人造成 15...60 火焰傷害，若你的能量比該目標多，則你獲得 1...8 能量。"
+			},
 			"de": {
+				"name": "Geistige Explosion",
+				"description": "Elite-Zauber. Der Gegner erleidet 15...60 Punkt[e] Feuerschaden. Wenn Ihr mehr Energie als dieser Gegner habt, erhaltet Ihr 1...8 Energiepunkt[e].",
+				"concise": "Elite-Zauber. Richtet 15...60 Punkt[e] Feuerschaden an. Ihr erhaltet 1...8 Energiepunkt[e], falls Ihr mehr Energie habt als der Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Geistige Explosion",
 				"description": "Der Gegner erleidet 15...60 Punkte Feuerschaden. Wenn Ihr mehr Energie als dieser Gegner habt, erhaltet Ihr 1...8 Energiepunkte.",
 				"concise": "Richtet 15...60 Punkte Feuerschaden an. Ihr erhaltet 1...8 Energiepunkte, falls Ihr mehr Energie habt als der Gegner."
 			},
 			"en": {
 				"name": "Mind Blast",
+				"description": "Elite Spell. Target foe is struck for 15...60 fire damage. If you have more Energy than target foe, you gain 1...8 Energy.",
+				"concise": "Elite Spell. Deals 15...60 fire damage. You gain 1...8 Energy if you have more Energy than target foe."
+			},
+			"en-gww": {
+				"name": "Mind Blast",
 				"description": "Target foe is struck for 15...60 fire damage. If you have more Energy than target foe, you gain 1...8 Energy.",
 				"concise": "Deals 15...60 fire damage. You gain 1...8 Energy if you have more Energy than target foe."
 			},
+			"es": {
+				"name": "Maldición mental",
+				"description": "Conjuro de élite. El enemigo objetivo recibe 15...60 de daño de fuego. Si tienes más energía que el enemigo objetivo, ganas 1...8 de energía.",
+				"concise": "Conjuro de élite. Hace 15...60 de daño de fuego. Si tienes más energía que el enemigo objetivo, ganas 1...8 de energía."
+			},
 			"fr": {
+				"name": "Explosion de l'âme",
+				"description": "Sort d'élite. La cible ennemie subit 15...60 points de dégâts du feu. Si vous avez plus d'énergie que la cible ennemie, vous gagnez 1...8 points d'énergie.",
+				"concise": "Sort d'élite. Inflige 15...60 points de dégâts de feu. Vous gagnez 1...8 points d'énergie si vous avez plus d'énergie que la cible ennemie."
+			},
+			"fr-gwiki": {
 				"name": "Explosion de l'âme",
 				"description": "La cible ennemie reçoit 15...60 points de dégâts du feu. Si vous avez plus d'énergie que la cible ennemie, vous gagnez 1...8 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Esplosione Mentale",
+				"description": "Magia d'Élite. L'obiettivo nemico subisce 15...60 danni da fuoco. Se la tua Energia è superiore a quella dell'obiettivo nemico, ottieni 1...8 Punti Energia.",
+				"concise": "Magia d'Élite. Danni da fuoco inferti: 15...60. Se hai più Energia dell'obiettivo nemico, ottieni 1...8 Punti Energia."
+			},
+			"jp": {
+				"name": "マインド ブラスト",
+				"description": "エリート スペル： ターゲットした敵に 15...60 のダメージを与えます。プレイヤーのエネルギーがその敵より多い場合、1...8 のエネルギーを獲得します。",
+				"concise": "エリート スペル： 15...60 のファイア ダメージを与えます。ターゲットした敵よりプレイヤーのエネルギーが多い場合、1...8 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "정기 폭발",
+				"description": "엘리트 마법. 대상 지정: 적. 대상은 15...60의 불 대미지를 입습니다. 대상보다 에너지가 많으면 자신은 1...8의 에너지를 얻습니다.",
+				"concise": "엘리트 마법. 15...60의 불 대미지를 줍니다. 자신이 대상보다 에너지가 많으면 1...8의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Wybuch Umysłu",
+				"description": "Elitarny czar. Wybrany przeciwnik otrzymuje 15...60 pkt. obrażeń od ognia. Jeżeli masz więcej energii niż wybrany przeciwnik, zyskujesz 1...8 pkt. energii.",
+				"concise": "Elitarny czar. Zadaje 15...60 pkt. obrażeń od ognia. Otrzymujesz 1...8 pkt. energii, jeżeli masz więcej energii niż wybrany przeciwnik."
+			},
+			"ru": {
+				"name": "Mind Blast",
+				"description": "Элитное заклинание. Выбранный противник получает 15...60 ед. урона силой огня. Если ваш запас энергии больше, чем у этого противника, вы получаете 1...8 ед. энергии.",
+				"concise": "Элитное заклинание. Наносит 15...60 ед. урона силой огня. Вы получаете 1...8 ед. энергии, если у вас больше энергии, чем у выбранного противника."
+			},
+			"bork": {
+				"name": "Meend Blaest",
+				"description": "Ileete-a Spell. Taerget fue-a is stroock fur 15...60 fure-a daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, yuoo gaeeen 1...8 Inergy.",
+				"concise": "Ileete-a Spell. Deaels 15...60 fure-a daemaege-a. Yuoo gaeeen 1...8 Inergy iff yuoo haefe-a mure-a Inergy thun taerget fue-a."
 			}
 		}
 	}

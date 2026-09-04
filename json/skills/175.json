@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "元素抵抗结界",
+				"description": "结界魔法。 在你脚下创造一个「元素抵抗结界」，使结界范围内的所有「非灵体」类队友的元素护甲值提高24点，效果持续8...20秒。",
+				"concise": "结界魔法。 在你脚下创造一个「元素抵抗结界」，结界范围内的队友元素护甲值提高24点，效果持续 8...20秒。"
+			},
+			"cht": {
+				"name": "元素結界",
+				"description": "結界魔法： 在你目前的地點創造一個元素結界，持續 8...20 秒，使結界範圍內的盟友增加 24 元素防禦。",
+				"concise": "結界魔法： 在你目前的地點創造一個元素結界，持續 8...20 秒，使結界範圍內的盟友增加 24 元素防禦。"
+			},
 			"de": {
+				"name": "Abwehr gegen Elemente",
+				"description": "Abwehrzauber. Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Elemente. 8...20 Sekunde[n] lang erhalten Verbündete, die keine Geister sind, in dem Bereich +24 Rüstung gegen Elementarschaden.",
+				"concise": "Abwehrzauber. (8...20 Sekunde[n].) Verbündete in dieser Abwehr haben +24 Rüstung gegen Elementarschaden. Geister sind nicht betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Abwehr gegen Elemente",
 				"description": "Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Elemente. 8...20 Sekunden lang erhalten Gruppenmitglieder, die keine Geister sind, in dem Bereich +24 Rüstung gegen Elementarschaden.",
 				"concise": "8...20 Sekunden: Gruppenmitglieder in dieser Abwehr haben +24 Rüstung gegen Elementarschaden. <gray>Geister sind nicht betroffen.</gray>"
 			},
 			"en": {
 				"name": "Ward Against Elements",
+				"description": "Ward Spell. You create a Ward Against Elements at your current location. For 8...20 seconds, non-spirit allies in this area gain +24 armor against elemental damage.",
+				"concise": "Ward Spell. (8...20 seconds.) Allies in this ward have +24 armor against elemental damage. Spirits are unaffected."
+			},
+			"en-gww": {
+				"name": "Ward Against Elements",
 				"description": "You create a Ward Against Elements at your current location. For 8...20 seconds, non-spirit allies in this area gain +24 armor against elemental damage.",
 				"concise": "(8...20 seconds.) Allies in this ward have +24 armor against elemental damage. <gray>Spirits are unaffected.</gray>"
 			},
+			"es": {
+				"name": "Protección contra los elementos",
+				"description": "Conjuro de protección. Creas una Protección contra los elementos en tu ubicación actual. Durante 8...20 segundos, los aliados que no sean espíritus de esta zona ganan +24 de armadura contra daño de los elementos.",
+				"concise": "Conjuro de protección. (8...20 segundos). Los aliados dentro de esta protección tienen +24 de armadura contra daño de los elementos. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Protection contre les éléments",
+				"description": "Sort de protection. Vous créez une zone de protection contre les éléments sur votre position. Pendant 8...20 secondes, les alliés qui ne sont pas des esprits dans la zone de protection obtiennent +24 de bonus d'armure contre les dégâts élémentaires.",
+				"concise": "Sort de protection. (8...20 secondes.) Les alliés dans cette Protection ont un bonus d'armure de +24 contre les dégâts élémentaires. Les esprits ne sont pas affectés."
+			},
+			"fr-gwiki": {
 				"name": "Protection contre les éléments",
 				"description": "Vous créez une zone de protection contre les éléments sur votre position. Pendant 8...20 secondes, les alliés qui ne sont pas des esprits dans la zone de protection obtiennent +24 de bonus d'armure contre les dégâts élémentaires.",
 				"concise": "(8...20 secondes.) Les alliés dans cette Protection ont un bonus d'armure de +24 contre les dégâts élémentaires. <gray>N'affecte pas les esprits.</gray>"
+			},
+			"it": {
+				"name": "Guardia contro gli Elementi",
+				"description": "Guardia. Crei una Guardia contro gli Elementi nella tua posizione corrente. Per 8...20 secondi gli alleati nell'area (Spiriti esclusi) ottengono +24 di armatura contro i danni elementali.",
+				"concise": "Guardia. (Secondi: 8...20.) Armatura degli alleati in questa Guardia contro i danni elementali: +24. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ウォード アゲインスト エレメント",
+				"description": "ウォード スペル： 自分の周辺に結界を張ります。8...20 秒間、このエリア内にいる精霊以外の味方は、元素ダメージに対する防御力が24増加します。",
+				"concise": "ウォード スペル： (8...20 秒) このエリア内にいる味方は、元素ダメージに対する防御力が24増加します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "정령 마법 결계",
+				"description": "결계. 대상 지정: 없음. 자신의 주변에 마법 결계를 만듭니다. 일정 범위 내에 있는 영혼이 아닌 아군은 8...20초 동안 정령 대미지에 대한 방어력이 24 증가합니다. 이 마법을 20초 동안 사용할 수 없습니다.",
+				"concise": "결계. (8...20초) 결계 내에 있는 아군의 정령 대미지에 대한 방어력이 24 증가합니다. 영혼에겐 영향이 없고, 이 마법을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Ochrona przed Żywiołami",
+				"description": "Ochrona (czar). W miejscu, w którym przebywasz tworzysz Ochronę przed Żywiołami. Przez 8...20 sek. nie będący duchami sojusznicy w tej okolicy posiadają +24 punkty pancerza przeciwko obrażeniom od żywiołów.",
+				"concise": "Ochrona (czar). (8...20 sek.) Sojusznicy w granicach tej ochrony posiadają +24 pkt. pancerza przeciwko obrażeniom od żywiołów. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Ward Against Elements",
+				"description": "Заклинание опеки. Вы создаете Ward Against Elements в вашем текущем местоположении. В течение 8...20 сек все находящиеся в зоне действия Сферы союзники, не являющиеся духами, получают дополнительно 24 ед. защиты против урона силами Стихий.",
+				"concise": "Заклинание опеки. (8...20 сек) Союзники в этой Сфере получают +24 ед. к защите против урона силами Стихий. Не действует на духов."
+			},
+			"bork": {
+				"name": "Vaerd Aegaeeenst Ilements",
+				"description": "Vaerd Spell. Yuoo creaete-a a Vaerd Aegaeeenst Ilements aet yuoor coorrent lucaeshun. Fur 8...20 secunds, nun-spureet aelleees in thees aerea gaeeen +24 aermur aegaeeenst ilementael daemaege-a.",
+				"concise": "Vaerd Spell. (8...20 secunds.) Aelleees in thees vaerd haefe-a +24 aermur aegaeeenst ilementael daemaege-a. Spureets aere-a unaeffffected."
 			}
 		}
 	}

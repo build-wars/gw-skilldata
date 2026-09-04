@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 2,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "祭祀之主",
+				"description": "精英技能。 持续 5...35 秒，你的「缚灵仪式」类型技能，恢复速度加快 10...60% 。",
+				"concise": "精英技能。 持续 5...35 秒，你的「缚灵仪式」类型技能，恢复速度加快 10...60% 。"
+			},
+			"cht": {
+				"name": "祭祀之主",
+				"description": "精英技能： 持續 5...35 秒，你的下一個祭祀者技能屬性等級增加 2...4 ，若是下一個使用的技能是縛靈儀式，則該縛靈儀式回復時間加快 10...60% ，而且祭祀之主立即回復。",
+				"concise": "精英技能： 持續 5...35 秒，你的下一個祭祀者技能屬性等級增加 2...4 ，若是下一個使用的技能是縛靈儀式，則該縛靈儀式回復時間加快 10...60% ，而且祭祀之主立即回復。"
+			},
 			"de": {
+				"name": "Herr der Rituale",
+				"description": "Elite-Fertigkeit. 5...35 Sekunde[n] lang erhalten Eure Ritualisten-Attribute einen Schub von 2...4 für Eure nächste Fertigkeit. Wenn diese Fertigkeit ein Binderitual ist, wird sie um 10...60% schneller wieder aufgeladen und Herr der Rituale lädt sich sofort wieder auf.",
+				"concise": "Elite-Fertigkeit. (5...35 Sekunde[n].) Ihr erhaltet +2...4 auf alle Ritualisten-Attribute für Eure nächste Fertigkeit. Wenn diese Fertigkeit ein Binderitual ist, wird sie um 10...60% schneller wieder aufgeladen und Herr der Rituale lädt sich sofort wieder auf."
+			},
+			"de-guildwiki": {
 				"name": "Herr der Rituale",
 				"description": "5...35 Sekunden lang erhalten Eure Ritualisten-Attribute einen Schub von 2...4 für Eure nächste Fertigkeit. Wenn diese Fertigkeit ein Binderitual ist, wird sie um 10...60% schneller wieder aufgeladen und Herr der Rituale lädt sich sofort wieder auf.",
 				"concise": "(5...35 Sekunden.) Ihr erhaltet +2...4 auf alle Ritualisten-Attribute für Eure nächste Fertigkeit. Eure Binderrituale werden um 10...60% schneller wieder aufgeladen und bewirken, dass sich diese Fertigkeit sofort wieder auflädt."
 			},
 			"en": {
 				"name": "Ritual Lord",
+				"description": "Elite Skill. For 5...35 seconds, your Ritualist attributes are boosted by 2...4 for your next skill. If that skill is a Binding Ritual, it recharges 10...60% faster and Ritual Lord recharges instantly.",
+				"concise": "Elite Skill. (5...35 seconds.) You have +2...4 to all Ritualist attributes for your next skill. If that skill is a Binding Ritual, it recharges 10...60% faster and Ritual Lord recharges instantly."
+			},
+			"en-gww": {
+				"name": "Ritual Lord",
 				"description": "For 5...35 seconds, your Ritualist attributes are boosted by 2...4 for your next skill. If that skill is a Binding Ritual, it recharges 10...60% faster and Ritual Lord recharges instantly.",
 				"concise": "(5...35 seconds.) You have +2...4 to all Ritualist attributes for your next skill. If that skill is a Binding Ritual, it recharges 10...60% faster and Ritual Lord recharges instantly."
 			},
+			"es": {
+				"name": "Señor de los rituales",
+				"description": "Habilidad de élite. Durante 5...35 segundos, tus atributos de Ritualista aumentan en 2...4 puntos con tu siguiente habilidad. Si ésta es un ritual de encadenamiento, se recarga un 10...60% más deprisa y el Señor de los rituales se recarga instantáneamente.",
+				"concise": "Habilidad de élite. (5...35 segundos). Tienes +2...4 puntos en todos los atributos de Ritualista con tu siguiente habilidad. Si ésta es un ritual de encadenamiento, se recarga un 10...60% más deprisa y el Señor de los rituales se recarga instantáneamente."
+			},
 			"fr": {
+				"name": "Seigneur de rituel",
+				"description": "Compétence élite. Pendant 5...35 secondes, vos caractéristiques de Ritualiste bénéficient d'un bonus de 2...4 pour votre prochaine compétence. Si cette compétence est Rituel d'asservissement, elle se recharge 10...60% plus vite et Seigneur de rituel se recharge instantanément.",
+				"concise": "Compétence élite. (5...35 secondes.) Vous bénéficiez d'un bonus de +2...4 à toutes les caractéristiques de Ritualiste pour votre prochaine compétence. Si cette compétence est Rituel d'asservissement, elle se recharge 10...60% plus vite et Seigneur de rituel se recharge instantanément."
+			},
+			"fr-gwiki": {
 				"name": "Seigneur de rituel",
 				"description": "Pendant 5...35 secondes, les caractéristiques de votre Ritualiste augment de 2...4 pour votre prochaine compétence. Si cette compétence est un rituel d'asservissement, sa vitesse de rechargement est 10...60% plus rapide et Seigneur de rituel se recharge instantanément.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lord Rituale",
+				"description": "Abilità d'Élite. Per 5...35 secondo[i], i tuoi attributi di Ritualista aumentano di 2...4 per la prossima abilità. Se tale abilità è un Rituale Incatenante, si ricarica di un 10...60% più velocemente e Lord Rituale si ricarica istantaneamente.",
+				"concise": "Abilità d'Élite. (Secondo[i]: 5...35). Ottieni +2...4 a tutti gli attributi di Ritualista per la prossima abilità. Se tale abilità è un Rituale Incatenante, si ricarica di un 10...60% più velocemente e Lord Rituale si ricarica istantaneamente."
+			},
+			"jp": {
+				"name": "リチュアル ロード",
+				"description": "エリート スキル： 5...35 秒間、次に使用するスキルに対するリチュアリストの特性レベルが 2...4 増加します。使用するスキルがバインド リチュアルの場合、再使用時間が 10...60% 減少し、すぐに再使用することができます。",
+				"concise": "エリート スキル： (5...35 秒) 次に使用するスキルに対してリチュアリストの特性レベルがすべて 2...4 増加します。バインド リチュアル スキルを使用する場合、再使用時間が 10...60% 減少し、すぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "영혼의 지배자",
+				"description": "엘리트 스킬. 대상 지정: 없음. 5...35초 동안 다음에 사용하는 리추얼리스트 스킬 특성 레벨이 2...4만큼 증가합니다. 그 스킬이 영혼 결속 특성 스킬이면 재활성이 10...60% 빨라지고, 영혼의 지배자 스킬은 즉시 재활성됩니다.",
+				"concise": "엘리트 스킬. (5...35초) 다음에 사용하는 리추얼리스트 스킬의 특성 레벨이 2...4만큼 증가합니다. 이 스킬이 영혼 결속 특성 스킬이면 재활성 시간이 10...60% 빨라지고, 영혼의 지배자 스킬은 즉시 재활성됩니다."
+			},
+			"pl": {
+				"name": "Władca Rytuałów",
+				"description": "Umiejętność elitarna. Przez 5...35 sek., twoje atrybuty Rytualisty zostaną zwiększone o 2...4 na potrzeby kolejnej umiejętności. Jeśli ta umiejętności jest rytuałem spętania, odnawia się 10...60% szybciej, zaś Władca Rytuałów odnawia się natychmiast.",
+				"concise": "Umiejętność elitarna. Przez 5...35 sek., twoje atrybuty Rytualisty zostaną zwiększone o +2...4 na potrzeby kolejnej umiejętności. Jeśli ta umiejętności jest rytuałem spętania, odnawia się 10...60% szybciej, zaś Władca Rytuałów odnawia się natychmiast."
+			},
+			"ru": {
+				"name": "Ritual Lord",
+				"description": "Элитное умение. В течение 5...35 сек ваши таланты профессии Ritualist увеличиваются на 2...4 ед. для вашего следующего умения. Если это умение будет связующим ритуалом, оно будет перезаряжено на 10...60% быстрее, а Rital Lord будет перезаряжен немедленно.",
+				"concise": "Элитное умение. (5...35 сек) Вы получаете +2...4 ед. ко всем вашим талантам профессии Ritualist для вашего следующего умения. Если это умение было связующим ритуалом, оно будет перезаряжено на 10...60% быстрее, а Ritual Lord будет немедленно перезаряжено."
+			},
+			"bork": {
+				"name": "Reetooael Lurd",
+				"description": "Ileete-a Skeell. Fur 5...35 secunds, yuoor Reetooaeleest aettreebootes aere-a buusted by 2...4 fur yuoor next skeell. Iff thaet skeell is a Beendeeng Reetooael, it rechaerges 10...60% faester und Reetooael Lurd rechaerges instuntly.",
+				"concise": "Ileete-a Skeell. (5...35 secunds.) Yuoo haefe-a +2...4 tu aell Reetooaeleest aettreebootes fur yuoor next skeell. Iff thaet skeell is a Beendeeng Reetooael, it rechaerges 10...60% faester und Reetooael Lurd rechaerges instuntly."
 			}
 		}
 	}

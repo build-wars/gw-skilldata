@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰封术",
+				"description": "负面魔法。 在1...8秒之内，用冰包裹目标敌人的双脚，使其移动速度降低66%。如果该目标受到火焰伤害，则减速效果消失。",
+				"concise": "负面魔法。 持续 1...8 秒，使目标敌人的双脚被冰包裹，移动速度减缓 66% 。如果该目标受到火焰伤害时，则此技能队其的影响效果终止。"
+			},
+			"cht": {
+				"name": "邸內監禁",
+				"description": "降咒魔法： 持續 1...8 秒，使目標敵人的雙腳被冰包裹，移動速度減慢 66% 。若該目標受到火焰傷害時，則此技能對其的影響效果終止。",
+				"concise": "降咒魔法： 持續 1...8 秒，使目標敵人的雙腳被冰包裹，移動速度減慢 66% 。若該目標受到火焰傷害時，則此技能對其的影響效果終止。"
+			},
 			"de": {
+				"name": "Teinais Gefängnis",
+				"description": "Verhexung. 1...8 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden. Wenn der Gegner an Beschädigter Rüstung leidet, sickert die Kälte durch und verursacht 5...9 Lebenspunktdegeneration.",
+				"concise": "Verhexung. (1...8 Sekunden.) Gegner bewegt sich um 66% langsamer. Gegner mit Beschädigter Rüstung haben 5...9 Lebenspunktdegeneration."
+			},
+			"de-guildwiki": {
 				"name": "Teinais Gefängnis",
 				"description": "1...8 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden. Wenn der Gegner an Beschädigter Rüstung leidet, sickert die Kälte durch und verursacht -5...9 Lebenspunktdegeneration.",
 				"concise": "(1...8 Sekunden.) Gegner bewegt sich um 66% langsamer. Gegner mit Beschädigter Rüstung haben -5...9 Lebenspunktdegeneration."
 			},
 			"en": {
 				"name": "Teinai's Prison",
+				"description": "Hex Spell. For 1...8 seconds, target foe's legs are encased in ice, causing the foe to move 66% slower. If that foe has Cracked Armor, the chill seeps through causing 5...9 Health degeneration.",
+				"concise": "Hex Spell. (1...8 seconds.) Target foe moves 66% slower. Foes with Cracked Armor have 5...9 Health degeneration."
+			},
+			"en-gww": {
+				"name": "Teinai's Prison",
 				"description": "For 1...8 second[s], target foe's legs are encased in ice, causing the foe to move 66% slower. If that foe has Cracked Armor, the chill seeps through causing 5...9 Health degeneration.",
 				"concise": "(1...8 second[s].) Target foe moves 66% slower. Foes with Cracked Armor have 5...9 Health degeneration."
 			},
+			"es": {
+				"name": "Prisión de Teinai",
+				"description": "Conjuro con maleficio. Durante 1...8 segundos, las piernas del enemigo objetivo quedan aprisionadas en hielo, haciendo que el enemigo se mueva un 66% más despacio. Si el enemigo tiene la armadura rota, el hielo penetra y causa 5...9 de degeneración de salud.",
+				"concise": "Conjuro con maleficio. (1...8 segundos.) El enemigo objetivo se mueve un 66% más despacio. Los enemigos con la armadura rota tienen 5...9 de degeneración de salud."
+			},
 			"fr": {
+				"name": "Prison de Teinai",
+				"description": "Maléfice. Pendant 1...8 secondes, la cible ennemie est prise dans de la glace et se déplace 66% moins vite. Si l'ennemi a Armure brisée, le froid provoque une dégénération de santé de 5...9 points.",
+				"concise": "Maléfice. (1...8 secondes.) La cible ennemie se déplace 66% moins vite. Les ennemis avec Armure brisée subissent une dégénération de santé de 5...9."
+			},
+			"fr-gwiki": {
 				"name": "Prison de Teinai",
 				"description": "Pendant 1...7 secondes, la cible ennemie est prise dans de la glace et se déplace 66% moins vite. Si l'ennemi a Armure brisée; le froid provoque une dégénération de santé de 5...9 points.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Prigione di Teinai",
+				"description": "Fattura. Per 1...8 secondi le gambe dell'obiettivo nemico sono imprigionate nel ghiaccio e la sua velocità diminuisce del 66%. Se quel nemico soffre di Armatura Incrinata, il gelo penetra all'interno causando una degenerazione Salute di 5...9.",
+				"concise": "Fattura. (Secondi: 1...8.) Riduzione velocità dell'obiettivo nemico: -66%. Degenerazione Salute dei nemici con Armatura Incrinata: 5...9."
+			},
+			"jp": {
+				"name": "テイナイ プリズン",
+				"description": "弱体化スペル： 1...8 秒間、ターゲットした敵は足が凍りつき、移動速度が 66% 減少します。この敵が「防具破損」状態の場合、極度の寒さで体力の自然回復力が 5...9 減少します。",
+				"concise": "弱体化スペル： (1...8 秒) ターゲットした敵は移動速度が 66% 減少します。「防具破損」状態の敵は、体力の自然回復力が 5...9 減少します。"
+			},
+			"kr": {
+				"name": "테이나이의 속박",
+				"description": "약화 마법. 대상 지정: 적. 1...8초 동안 대상의 다리가 얼음으로 뒤덮여 이동 속도가 66% 느려집니다. 방어 손상 상태인 적은 체력 재생이 5...9만큼 감소합니다.",
+				"concise": "약화 마법. (1...8초) 이동 속도가 66% 느려지고, 방어 손상을 입었으면 체력 재생이 5...9만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Więzienie Teinai",
+				"description": "Klątwa (czar). Przez 1...8 sek., nogi wybranego przeciwnika zostają skute lodem, co powoduje, że porusza się on 66% wolniej. Jeśli przeciwnik jest pod wpływem Pękniętego Pancerza, chłód wnika głębiej, powodując degenerację żywotności 5...9.",
+				"concise": "Klątwa (czar). (1...8 sek.) Cel porusza się 66% wolniej. U przeciwników z Pękniętym Pancerzem powoduje degenerację żywotności 5...9."
+			},
+			"ru": {
+				"name": "Teinai's Prison",
+				"description": "Заклинание-проклятье. В течение 1...8 сек ноги выбранного противника скованы льдом, что заставляет его двигаться на 66% медленнее. Если у этого противника были треснувшие доспехи, ледяной озноб уменьшает скорость восстановления его здоровья на 5...9 ед.",
+				"concise": "Заклинание-проклятье. (1...8 сек) Выбранный противник двигается на 66% медленнее. Противники с треснувшими доспехами получают -5...9 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Teeenaeee's Preesun",
+				"description": "Hex Spell. Fur 1...8 secunds, taerget fue-a's legs aere-a incaesed in ice-a, cooseeng zee fue-a tu mufe-a 66% slooer. Iff thaet fue-a haes Craecked Aermur, zee cheell seeps thruoogh cooseeng 5...9 Heaelt degeneraeshun.",
+				"concise": "Hex Spell. (1...8 secunds.) Taerget fue-a mufes 66% slooer. Fues veet Craecked Aermur haefe-a 5...9 Heaelt degeneraeshun."
 			}
 		}
 	}

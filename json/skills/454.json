@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猛虎之怒",
+				"description": "姿态。 使你的攻击速度提高 25%。此技能发动后所有非攻击性的技能在 5秒内无法使用，效果持续 5...11秒。",
+				"concise": "姿态。 使你的攻击速度提高25%。此技能发动后所有非攻击性的技能在 5秒内无法使用，效果持续 5...11秒。"
+			},
+			"cht": {
+				"name": "虎之怒",
+				"description": "態勢： 持續 5...11 秒，使你的攻擊速度增加 25% 。此技能發動後所有非攻擊性的技能在 5 秒內無法使用。",
+				"concise": "態勢： 持續 5...11 秒，使你的攻擊速度增加 25% 。此技能發動後所有非攻擊性的技能在 5 秒內無法使用。"
+			},
 			"de": {
+				"name": "Wut des Tigers",
+				"description": "Haltung. Alle Eure Nicht-Angriffsfertigkeiten werden 5 Sekunden lang deaktiviert. 5...11 Sekunde[n] lang greift Ihr um 25% schneller an.",
+				"concise": "Haltung. 5...11 Sekunde[n]: Ihr greift um 25% schneller an. Deaktiviert Eure Nicht-Angriffsfertigkeiten (5 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Wut des Tigers",
 				"description": "Alle Eure Nicht-Angriffsfertigkeiten werden 5 Sekunden lang deaktiviert. 5...11 Sekunden lang greift Ihr um 25% schneller an.",
 				"concise": "5...11 Sekunden: Ihr greift um 25% schneller an. <gray>Deaktiviert Eure Nicht-Angriffsfertigkeiten (5 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Tiger's Fury",
+				"description": "Stance. All your non-attack skills are disabled for 5 seconds. For 5...11 seconds, you attack 25% faster.",
+				"concise": "Stance. (5...11 seconds.) You attack 25% faster. Disables your non-attack skills (5 seconds)."
+			},
+			"en-gww": {
+				"name": "Tiger's Fury",
 				"description": "All your non-attack skills are disabled for 5 seconds. For 5...11 seconds, you attack 25% faster.",
 				"concise": "(5...11 seconds.) You attack 25% faster. <gray>Disables your non-attack skills (5 seconds).</gray>"
 			},
+			"es": {
+				"name": "Furia del tigre",
+				"description": "Actitud. Todas tus habilidades que no sean de ataque estarán desactivadas durante 5 segundos. Durante 5...11 segundos, atacas un 25% más rápido.",
+				"concise": "Actitud. (5...11 segundos). Atacas un 25% más deprisa. Tus otras habilidades que no son de ataque quedan desactivadas (5 segundos)."
+			},
 			"fr": {
+				"name": "Fureur du tigre",
+				"description": "Pose de combat. Toutes vos compétences qui ne sont pas des attaques sont inutilisables pendant 5 secondes. Pendant 5...11 secondes, vous attaquez 25% plus vite.",
+				"concise": "Pose de combat. (5...11 secondes.) Vous attaquez 25% plus vite. Désactive vos compétences non offensives (5 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Fureur du tigre",
 				"description": "Toutes vos compétences qui ne sont pas des attaques sont inutilisables pendant 5 secondes. Pendant 5...11 secondes, vous attaquez 25% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Furia della Tigre",
+				"description": "Posizione. Tutte le tue abilità sono disattivate per 5 secondi (fatta eccezione per le abilità di attacco). Per 5...11 secondo[i], la tua velocità d'attacco aumenta del 25%.",
+				"concise": "Posizione. (Secondi: 5...11) Incremento velocità di attacco: 25%. Le tue abilità (attacchi esclusi) vengono disattivate (5 secondi)."
+			},
+			"jp": {
+				"name": "タイガー フューリー",
+				"description": "スタンス： アタック スキル以外のスキルをすべて5秒間使用することができなくなりますが、5...11 秒間、攻撃速度が25%増加します。",
+				"concise": "スタンス： (5...11 秒) 攻撃速度が25%増加します。アタック スキル以外のスキルを使用することができなくなります (5秒)。"
+			},
+			"kr": {
+				"name": "호랑이의 분노",
+				"description": "자세. 대상 지정: 없음. 5...11초 동안 공격 속도가 25% 빨라지고, 5초 동안 모든 비공격 스킬을 사용할 수 없습니다.",
+				"concise": "자세. (5...11초) 공격 속도가 25% 빨라집니다. 비공격 스킬을 사용할 수 없습니다.(5초)"
+			},
+			"pl": {
+				"name": "Tygrysia Furia",
+				"description": "Postawa. Wszystkie twoje umiejętności nie związane z atakami będą niedostępne przez 5 sek. Przez 5...11 sek., atakujesz o 33% szybciej.",
+				"concise": "Postawa. (5...11 sek.) Atakujesz o 25% szybciej. Wyłacza twoje umiejętności nie związane z atakami (5 sek.)."
+			},
+			"ru": {
+				"name": "Tiger's Fury",
+				"description": "Стойка. Все ваши неатакующие умения становятся недоступными на 5 сек. В течение 5...11 сек вы атакуете на 25% быстрее.",
+				"concise": "Стойка. (5...11 сек) Вы атакуете на 25% быстрее. Ваши неатакующие умения недоступны (5 сек)."
+			},
+			"bork": {
+				"name": "Teeger's Foory",
+				"description": "Stunce-a. Aell yuoor nun-aettaeck skeells aere-a deesaebled fur 5 secunds. Fur 5...11 secunds, yuoo aettaeck 25% faester.",
+				"concise": "Stunce-a. (5...11 secunds.) Yuoo aettaeck 25% faester. Deesaebles yuoor nun-aettaeck skeells (5 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Escape (PvP)",
+				"description": "精英姿态。 For 1...8 seconds, you move 33% faster and have a 75% chance to block attacks. Escape ends if you make a melee attack.",
+				"concise": "精英姿态。 (1...8 seconds.) You move 33% faster and have 75% chance to block. Ends if you make a melee attack."
+			},
+			"cht": {
+				"name": "脫逃 (PvP)",
+				"description": "精英態勢： 持續1...8秒，移動速度增加33%，有75%機會格檔攻擊，如使用近戰攻擊則此態勢終止。",
+				"concise": "精英態勢： 持續1...8秒，移動速度增加33%，有75%機會格檔攻擊，如使用近戰攻擊則此態勢終止。"
+			},
 			"de": {
+				"name": "Flucht (PvP)",
+				"description": "Elite-Haltung. 1...8 Sekunde[n] lang bewegt Ihr Euch um 33% schneller und habt eine 75%ige Chance, Angriffe zu blocken. Flucht endet, sobald Ihr einen Nahkampfangriff ausführt.",
+				"concise": "Elite-Haltung. (1...8 Sekunde[n].) Ihr bewegt Euch um 33% schneller und habt eine 75%ige Chance, Angriffe zu blocken. Endet, sobald Ihr einen Nahkampfangriff ausführt."
+			},
+			"de-guildwiki": {
 				"name": "Flucht (PvP)",
 				"description": "1...8 Sekunden lang bewegt Ihr Euch 33% schneller und habt eine 75%ige Chance Angriffe zu blocken. Flucht endet, sobald Ihr einen Nahkampfangriff ausführt.",
 				"concise": "(1...8 Sekunden.) Ihr bewegt Euch um 33% schneller und habt eine 75%ige Chance zu blocken. <gray>Endet, sobald Ihr einen Nahkampfangriff ausführt.</gray>"
 			},
 			"en": {
 				"name": "Escape (PvP)",
+				"description": "Elite Stance. For 1...8 seconds, you move 33% faster and have a 75% chance to block attacks. Escape ends if you make a melee attack.",
+				"concise": "Elite Stance. (1...8 seconds.) You move 33% faster and have 75% chance to block. Ends if you make a melee attack."
+			},
+			"en-gww": {
+				"name": "Escape (PvP)",
 				"description": "For 1...8 second[s], you move 33% faster and have a 75% chance to block attacks. Escape ends if you make a melee attack.",
 				"concise": "(1...8 second[s].) You move 33% faster and have 75% chance to block. <gray>Ends if you make a melee attack.</gray>"
 			},
+			"es": {
+				"name": "Escape (PvP)",
+				"description": "Actitud de élite. Durante 1...8 segundos, te mueves un 33% más rápido y tienes un 75% de posibilidades de bloquear ataques. El Escape acaba si realizas un ataque cuerpo a cuerpo.",
+				"concise": "Actitud de élite. (1...8 segundos.) Te mueves un 33% más rápido y tienes un 75% de posibilidades de bloquear. Acaba si realizas un ataque cuerpo a cuerpo."
+			},
 			"fr": {
+				"name": "Evasion (PvP)",
+				"description": "Pose de combat d'élite. Pendant 1...8 secondes, vous vous déplacez 33% plus vite et avez 75% de chances de bloquer les attaques. L'Evasion prend fin si vous effectuez une attaque au corps à corps.",
+				"concise": "Pose de combat d'élite. (1...8 secondes.) Vous vous déplacez 33% plus vite et avez 75% de chances de bloquer. Prend fin si vous effectuez une attaque au corps à corps."
+			},
+			"fr-gwiki": {
 				"name": "Evasion (PvP)",
 				"description": "Pendant 1...8 seconde(s), vous vous déplacez 33% plus vite et avez 75% de chances de bloquer les attaques. L'Evasion prend fin si vous effectuez une attaque au corps à corps.",
 				"concise": "(1...8 seconde(s).) Vous vous déplacez 33% plus vite et avez 75% de chances de bloquer. <gray>Prend fin si vous effectuez une attaque au corps à corps.</gray>"
+			},
+			"it": {
+				"name": "Fuga (PvP)",
+				"description": "Posizione d'Élite. Per 1...8 secondi la tua velocità aumenta del 33% e hai una probabilità del 75% di bloccare gli attacchi. Termina se sferri un attacco ravvicinato.",
+				"concise": "Posizione d'Élite. (Secondi: 1...8). Incremento della tua velocità di movimento: 33%. Probabilità di blocco: 75%. Termina se sferri un attacco ravvicinato."
+			},
+			"jp": {
+				"name": "エスケープ (PvP)",
+				"description": "エリート スタンス： 1...8 秒間、移動速度が33%増加し、75%の確率で攻撃をブロックします。近接攻撃を行うと、この効果は消失します。",
+				"concise": "エリート スタンス： (1...8 秒) 移動速度が33%増加し、75%の確率で攻撃をブロックします。近接攻撃を行うと、この効果は消失します。"
+			},
+			"kr": {
+				"name": "탈출(대인전)",
+				"description": "엘리트 자세. 대상 지정: 없음. 1...8초 동안 이동 속도가 33% 빨라지고, 적의 공격을 75% 확률로 막습니다. 근접 물리 공격을 하면 효과가 끝납니다.",
+				"concise": "엘리트 자세. (1...8초) 이동 속도가 33% 빨라지고, 공격을 75%의 확률로 막습니다. 근접 물리 공격을 하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Ucieczka (PvP)",
+				"description": "Postawa elitarna. Przez 1...8 sek., poruszasz się o 33% szybciej i masz 75% szansy na zablokowanie ataków. Ucieczka przestaje działać po wykonaniu ataku wręcz.",
+				"concise": "Postawa elitarna. (1...8 sek.) Poruszasz się o 33% szybciej i masz 75% szans na zablokowanie ataków. Przestaje działać po wykonaniu ataku wręcz."
+			},
+			"ru": {
+				"name": "Escape (PvP)",
+				"description": "Элитная стойка. В течение 1...8 сек вы двигаетесь на 33% быстрее и получаете 75%-й шанс блокировать атаки. Escape заканчивает свое действие, если вы провели рукопашную атаку.",
+				"concise": "Элитная стойка. (1...8 сек) Вы двигаетесь на 33% быстрее и получаете 75%-й шанс блокировать атаки. Заканчивается, если вы провели рукопашную атаку."
+			},
+			"bork": {
+				"name": "Iscaepe-a (PfP)",
+				"description": "Ileete-a Stunce-a. Fur 1...8 secunds, yuoo mufe-a 33% faester und haefe-a a 75% chunce-a tu bluck aettaecks. Iscaepe-a inds iff yuoo maeke-a a melee-a aettaeck.",
+				"concise": "Ileete-a Stunce-a. (1...8 secunds.) Yuoo mufe-a 33% faester und haefe-a 75% chunce-a tu bluck. Inds iff yuoo maeke-a a melee-a aettaeck."
 			}
 		}
 	}

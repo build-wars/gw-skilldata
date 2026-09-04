@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "莉莎之衡",
+				"description": "咒文。 如果你身上带有的「增益魔法」数量少于目标敌人，则会使目标敌人失去一项「增益魔法」。",
+				"concise": "咒文。 如果你身上带有的「增益魔法」数量少于目标敌人，则会使目标敌人失去一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "麗莎的平衡",
+				"description": "咒文魔法： 使目標敵人失去一項「加持」。若你身上的「加持」數量比目標敵人多，此技能無效。",
+				"concise": "咒文魔法： 若你身上的「加持」數量比目標敵人少，則會使目標敵人失去一項「加持」。"
+			},
 			"de": {
+				"name": "Lyssas Ausgleich",
+				"description": "Zauber. Der Gegner verliert 1 Verzauberung. Wenn Ihr mehr Verzauberungen als der Gegner habt, hat diese Fertigkeit keine Wirkung.",
+				"concise": "Zauber. Entfernt beim Gegner eine Verzauberung. Keine Wirkung, falls Ihr mehr Verzauberungen habt als der Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Lyssas Ausgleich",
 				"description": "Der ausgewählte Feind verliert eine Verzauberung. Wenn Ihr über mehr Verzauberungen als der ausgewählte Feind verfügt, hat diese Fertigkeit keinen Effekt.",
 				"concise": "Entfernt beim Gegner eine Verzauberung. <gray>Keine Wirkung, falls Ihr mehr Verzauberungen habt als der Gegner.</gray>"
 			},
 			"en": {
 				"name": "Lyssa's Balance",
+				"description": "Spell. Target foe loses one enchantment. If you have more enchantments than target foe, this skill has no effect.",
+				"concise": "Spell. Removes one enchantment from target foe. No effect if you have more enchantments than this foe."
+			},
+			"en-gww": {
+				"name": "Lyssa's Balance",
 				"description": "Target foe loses one Enchantment. If you have more Enchantments than target foe, this skill has no effect.",
 				"concise": "Removes one enchantment from target foe. <gray>No effect if you have more enchantments than this foe.</gray>"
 			},
+			"es": {
+				"name": "Balanza de Lyssa",
+				"description": "Conjuro. El enemigo objetivo pierde un encantamiento. Si tienes más encantamientos que el enemigo objetivo, esta habilidad no tendrá efecto.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. No tiene efecto si tienes más encantamientos que este enemigo."
+			},
 			"fr": {
+				"name": "Equilibre de Lyssa",
+				"description": "Sort. La cible ennemie perd un enchantement. Si vous disposez de plus d'enchantements que la cible ennemie, cette compétence n'a aucun effet.",
+				"concise": "Sort. Supprime un enchantement à la cible ennemie. Aucun effet si vous avez plus d'enchantements que cet ennemi."
+			},
+			"fr-gwiki": {
 				"name": "Equilibre de Lyssa",
 				"description": "La cible ennemie perd un enchantement. Si vous disposez de plus d'enchantements que la cible ennemie, cette compétence n’a aucun effet.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Equilibrio di Lyssa",
+				"description": "Magia. L'obiettivo nemico perde un incantesimo. Questa abilità non ha effetto se hai addosso più incantesimi dell'obiettivo nemico.",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. Ha effetto solo se hai più incantesimi di questo nemico."
+			},
+			"jp": {
+				"name": "リッサ バランス",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。プレイヤーにかけられている強化スペルの数がターゲットより多い場合、この効果は無効です。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。プレイヤーにかけられている強化スペルがターゲットより多い場合は無効です。"
+			},
+			"kr": {
+				"name": "리사의 균형",
+				"description": "마법. 대상 지정: 적. 대상에 걸린 강화 마법 하나를 무효화합니다. 대상보다 자신에게 걸린 강화 마법의 수가 많으면 효과가 없습니다.",
+				"concise": "마법. 강화 마법 하나를 무효화합니다. 대상에 걸린 강화 마법의 수가 자신보다 많아야 합니다."
+			},
+			"pl": {
+				"name": "Równowaga Lyssy",
+				"description": "Czar. Wybrany przeciwnik traci 1 zaklęcie. Jeżeli posiadasz więcej zaklęć niż wybrany przeciwnik, umiejętność nie daje żadnego efektu.",
+				"concise": "Czar. Z wybranego przeciwnika zdejmuje jedno zaklęcie. Bez efektu, jeżeli masz więcej zaklęć niż ten przeciwnik."
+			},
+			"ru": {
+				"name": "Lyssa's Balance",
+				"description": "Заклинание. Выбранный противник теряет одни лежащие на нем чары. Если на вас наложено больше чар, чем на этого противника, это умение не сработает.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Не действует, если на вас наложено больше чар, чем на этого противника."
+			},
+			"bork": {
+				"name": "Lyssa's Baelunce-a",
+				"description": "Spell. Taerget fue-a luses oone-a inchuntment. Iff yuoo haefe-a mure-a inchuntments thun taerget fue-a, thees skeell haes nu iffffect.",
+				"concise": "Spell. Remufes oone-a inchuntment frum taerget fue-a. Nu iffffect iff yuoo haefe-a mure-a inchuntments thun thees fue-a."
 			}
 		}
 	}

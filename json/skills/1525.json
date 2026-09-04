@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "自然治愈",
+				"description": "咒文。 治疗自己50...170点生命值。如果你正受到「增益魔法」的效果影响，你将失去0点能量值。",
+				"concise": "咒文。 治疗自己50...170点生命值。如果你正受到「增益魔法」的效果影响，你将失去0点能量值。"
+			},
+			"cht": {
+				"name": "自然治癒",
+				"description": "咒文魔法： 治療自己 50...170 體力，若你沒有加持效果，則此技能施展時間加快 50% 。",
+				"concise": "咒文魔法： 治療自己 50...170 體力，若你沒有加持效果，則此技能施展時間加快 50% 。"
+			},
 			"de": {
+				"name": "Natürliche Heilung",
+				"description": "Zauber. Ihr werdet um 50...170 Lebenspunkt[e] geheilt. Wenn Ihr nicht verzaubert seid, wird dieser Zauber 50% schneller aktiviert.",
+				"concise": "Zauber. Heilt Euch um 50...170 Lebenspunkt[e]. Wenn Ihr nicht verzaubert seid, wird dieser Zauber 50% schneller aktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Natürliche Heilung",
 				"description": "Ihr werdet um 50...170 Lebenspunkte geheilt. Wenn Ihr nicht verzaubert seid, wird dieser Zauber 50% schneller aktiviert.",
 				"concise": "Heilt Euch um 50...170 Lebenspunkte. Wenn Ihr nicht verzaubert seid, wird dieser Zauber 50% schneller aktiviert."
 			},
 			"en": {
 				"name": "Natural Healing",
+				"description": "Spell. You are healed for 50...170 Health. If you are not enchanted, this spell activates 50% faster.",
+				"concise": "Spell. Heals you for 50...170 Health. This skill activates 50% faster if you are not enchanted."
+			},
+			"en-gww": {
+				"name": "Natural Healing",
 				"description": "You are healed for 50...170 Health. If you are not enchanted, this spell activates 50% faster.",
 				"concise": "Heals you for 50...170. This skill activates 50% faster if you are not enchanted."
 			},
+			"es": {
+				"name": "Curación innata",
+				"description": "Conjuro. Cura 50...170 de salud. Si no estás encantado, este conjuro se activa un 50% más rápido.",
+				"concise": "Conjuro. Cura 50...170 de salud. Esta habilidad se activa un 50% más rápido si no estás encantado."
+			},
 			"fr": {
+				"name": "Guérison naturelle",
+				"description": "Sort. Vous êtes soigné[f:\"soignée\"] de 50...170 points de vie. Si vous n'êtes pas sous l'effet d'un enchantement, ce sort s'active 50% plus vite.",
+				"concise": "Sort. Vous soigne de 50...170 points de vie. Cette compétence s'active 50% plus vite si vous n'êtes pas sous l'effet d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Guérison naturelle",
 				"description": "Vous êtes soigné de 40...170 points de vie. Si vous n'êtes pas sous l'effet d'un enchantement, ce sort s'active 50% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Cura Naturale",
+				"description": "Magia. Vieni curata di 50...170 Punti Salute. Se non sei sotto incantesimo, questo incantesimo si attiva più velocemente di un 50%.",
+				"concise": "Magia. Cura 50...170 Punti Salute. Questa abilità si attiva di un 50% più velocemente se non sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ナチュラル ヒーリング",
+				"description": "スペル： 体力が 50...170 回復します。プレイヤーに強化スペルがかけられていない場合、このスペルの発動時間が50%減少します。",
+				"concise": "スペル： 体力が 50...170 回復します。プレイヤーに強化スペルがかけられていない場合、このスペルの発動時間が50%減少します。"
+			},
+			"kr": {
+				"name": "자연적인 치유",
+				"description": "마법. 대상 지정: 없음. 50...170의 체력을 회복합니다. 강화 마법이 걸려 있지 않으면 이 스킬의 재활성이 50% 빨라집니다.",
+				"concise": "마법. 50...170의 체력을 회복합니다. 강화 마법이 걸려 있지 않으면 이 스킬의 재활성이 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Naturalne Uzdrawianie",
+				"description": "Czar. Odzyskujesz 50...170 pkt. żywotności! Jeśli jesteś pod wpływem zaklęcia, czar ten uaktywnia się 50% szybciej.",
+				"concise": "Czar. Odzyskujesz 50...170 pkt. żywotności. Umiejętność ta uaktywnia się 50% szybciej, jeśli nie jesteś pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Natural Healing",
+				"description": "Заклинание. Вы исцеляетесь на 50...170 ед. здоровья. Если на вас не наложены чары, это заклинание активируется на 50% быстрее.",
+				"concise": "Заклинание. Вы исцеляетесь на 50...170 ед. здоровья. Это умение активируется на 50% быстрее, если на вас не наложены чары."
+			},
+			"bork": {
+				"name": "Naetoorael Heaeleeng",
+				"description": "Spell. Yuoo aere-a heaeled fur 50...170 Heaelt. Iff yuoo aere-a nut inchunted, thees spell aecteefaetes 50% faester.",
+				"concise": "Spell. Heaels yuoo fur 50...170 Heaelt. Thees skeell aecteefaetes 50% faester iff yuoo aere-a nut inchunted."
 			}
 		}
 	}

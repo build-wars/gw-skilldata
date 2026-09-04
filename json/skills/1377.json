@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力折射",
+				"description": "精英技能。 For 3 seconds, all damage you take is reduced by 75%. When Ether Prism ends, you gain 5...20 Energy.",
+				"concise": "精英技能。 (3 seconds.) All damage you take is reduced by 75%. End effect: gain 5...20 Energy."
+			},
+			"cht": {
+				"name": "精神稜鏡",
+				"description": "精英技能： 持續3秒，你受到的所有傷害降低75%，當精神稜鏡終止時你獲得5...20能量。",
+				"concise": "精英技能： 持續3秒，你受到的所有傷害降低75%，當精神稜鏡終止時你獲得5...20能量。"
+			},
 			"de": {
+				"name": "Ätherprisma",
+				"description": "Elite-Fertigkeit. 3 Sekunde[n] lang wird der Schaden, den Ihr erleidet, um 75% reduziert. Wenn Ätherprisma endet, erhaltet Ihr 5...20 Energiepunkt[e].",
+				"concise": "Elite-Fertigkeit. (3 Sekunde[n].) Sämtlicher Schaden, den Ihr erleidet, wird um 75% reduziert. Wirkung am Ende: Erhaltet 5...20 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Ätherprisma",
 				"description": "3 Sekunden lang wird der Schaden, den Ihr erleidet, um 75% reduziert. Wenn Ätherprisma endet, erhaltet Ihr 5...20 Energiepunkte.",
 				"concise": "(3 Sekunden): Sämtlicher Schaden, den Ihr erleidet, wird um 75% reduziert. Wirkung am Ende: Erhaltet 5...20 Energiepunkte."
 			},
 			"en": {
 				"name": "Ether Prism",
+				"description": "Elite Skill. For 3 seconds, all damage you take is reduced by 75%. When Ether Prism ends, you gain 5...20 Energy.",
+				"concise": "Elite Skill. (3 seconds.) All damage you take is reduced by 75%. End effect: gain 5...20 Energy."
+			},
+			"en-gww": {
+				"name": "Ether Prism",
 				"description": "For 3 seconds, all damage you take is reduced by 75%. When Ether Prism ends, you gain 5...20 Energy.",
 				"concise": "(3 seconds.) All damage you take is reduced by 75%. End effect: gain 5...20 Energy."
 			},
+			"es": {
+				"name": "Prisma de éter",
+				"description": "Habilidad de élite. Durante 3 segundos, todo el daño que recibes se reduce un 75%. Cuando el Prisma de éter acabe, ganarás 5...20 de energía.",
+				"concise": "Habilidad de élite. (3 segundos). Todo el daño que recibes se reduce un 75%. Efecto final: ganas 5...20 de energía."
+			},
 			"fr": {
+				"name": "Prisme éthéré",
+				"description": "Compétence élite. Pendant 3 secondes, les dégâts que vous subissez sont réduits de 75%. Lorsque Prisme éthéré prend fin, vous gagnez 5...20 points d'énergie.",
+				"concise": "Compétence élite. (3 secondes.) Les dégâts que vous subissez sont réduits de 75%. Effet final : vous gagnez 5...20 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Prisme éthéré",
 				"description": "Pendant 3 secondes, tous les dégâts que vous subissez sont réduits de 75%. Lorsque Prisme Éthéré prend fin vous gagnez 5...20 points d'énergie.",
 				"concise": "(3 secondes.) Tous les dégâts que vous subissez sont réduits de 75%. Effet final : vous gagnez 5...20 points d'énergie."
+			},
+			"it": {
+				"name": "Prisma dell'Etere",
+				"description": "Abilità d'Élite. Per 3 secondi, tutti i danni che subisci vengono ridotti di un 75%. Quando l'effetto del Prisma dell'Etere svanisce, ottieni 5...20 Punti Energia.",
+				"concise": "Abilità d'Élite. (Secondi: 3.) Riduzione di tutti i danni subiti: 75%. Effetto al termine: ottieni 5...20 Punti Energia."
+			},
+			"jp": {
+				"name": "エーテル プリズム",
+				"description": "エリート スキル： 3 秒間、受けるダメージがすべて 75% 減少します。この効果が消失すると、5...20 のエネルギーを獲得します。",
+				"concise": "エリート スキル： (3 秒) 受けるダメージが 75% 減少します。終了効果： 5...20 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "정기의 프리즘",
+				"description": "엘리트 스킬. 대상 지정: 없음. 3초 동안 받는 대미지가 75% 감소합니다. 효과가 끝나면 5...20의 에너지를 얻습니다.",
+				"concise": "엘리트 스킬. (3초) 받는 대미지가 75% 감소합니다. 종료 효과: 5...20의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Eteryczny Pryzmat",
+				"description": "Umiejętność elitarna. Przez 3 sek. wszystkie obrażenia jakie otrzymujesz są obniżane o 75%. Kiedy Eteryczny Pryzmat przestanie działać, otrzymujesz 5...20 pkt. energii.",
+				"concise": "Umiejętność elitarna. (3 sek.) Wszystkie obrażenia jakie otrzymujesz są obniżane o 75%. Efekt końcowy: otrzymujesz 5...20 pkt. energii."
+			},
+			"ru": {
+				"name": "Ether Prism",
+				"description": "Элитное умение. В течение 3 сек весь получаемый вами урон уменьшается на 75%. Когда действие Ether Prism заканчивается, вы получаете 5...20 ед. энергии.",
+				"concise": "Элитное умение. (3 сек) Весь получаемый вами урон уменьшается на 75%. Эффект окончания: вы получаете 5...20 ед. энергии."
+			},
+			"bork": {
+				"name": "Izeer Preesm",
+				"description": "Ileete-a Skeell. Fur 3 secunds, aell daemaege-a yuoo taeke-a is redooced by 75%. Vhee Izeer Preesm inds, yuoo gaeeen 5...20 Inergy.",
+				"concise": "Ileete-a Skeell. (3 secunds.) Aell daemaege-a yuoo taeke-a is redooced by 75%. Ind iffffect: gaeeen 5...20 Inergy. Bork! Bork! Bork!"
 			}
 		}
 	}

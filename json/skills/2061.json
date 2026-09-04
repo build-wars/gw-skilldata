@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Patient Spirit",
+				"description": "增益魔法。 For 2 seconds, target ally is enchanted with Patient Spirit. When this enchantment ends, that ally is healed for 30...120 Health.",
+				"concise": "增益魔法。 (2 seconds.) End effect: heals for 30...120."
+			},
+			"cht": {
+				"name": "勤奮精神",
+				"description": "加持魔法： 持續 2 秒，此加持並沒有特別的效果，但結束時治療目標盟友 30...120 體力。若此加持提前終止，則沒有治療效果。",
+				"concise": "加持魔法： 持續 2 秒，此加持並沒有特別的效果，但結束時治療目標盟友 30...120 體力。若此加持提前終止，則沒有治療效果。"
+			},
 			"de": {
+				"name": "Geduldiger Geist",
+				"description": "Verzauberung. 2 Sekunde[n] lang wird ein Verbündeter mit Geduldiger Geist verzaubert. Sofern diese Verzauberung nicht vorzeitig beendet wird, wird dieser Verbündete um 30...120 Lebenspunkt[e] geheilt, wenn diese Verzauberung endet.",
+				"concise": "Verzauberung. (2 Sekunde[n].) Wirkung am Ende: Heilt 30...120 Lebenspunkt[e]. Keine Wirkung bei vorzeitiger Beendigung."
+			},
+			"de-guildwiki": {
 				"name": "Geduldiger Geist",
 				"description": "2 Sekunden lang wird der Verbündete (bzw. Ihr selbst) mit Geduldiger Geist verzaubert. Sofern diese Verzauberung nicht vorzeitig beendet wird, wird dieser Verbündete um 30...120 Lebenspunkte geheilt, wenn diese Verzauberung endet.",
 				"concise": "(2 Sekunden.) Wirkung am Ende: Heilt 30...120 Lebenspunkte. <gray>Keine Wirkung bei vorzeitiger Beendigung.</gray>"
 			},
 			"en": {
 				"name": "Patient Spirit",
+				"description": "Enchantment Spell. For 2 seconds, target ally is enchanted with Patient Spirit. Unless this enchantment ends prematurely, that ally is healed for 30...120 Health when the enchantment ends.",
+				"concise": "Enchantment Spell. (2 seconds.) End effect: heals for 30...120. No effect if ends early."
+			},
+			"en-gww": {
+				"name": "Patient Spirit",
 				"description": "For 2 seconds, target ally is enchanted with Patient Spirit. Unless this enchantment ends prematurely, that ally is healed for 30...120 Health when the enchantment ends.",
 				"concise": "(2 seconds.) End effect: heals for 30...120. <gray>No effect if ends early.</gray>"
 			},
+			"es": {
+				"name": "Espíritu paciente",
+				"description": "Conjuro con encantamiento. Durante 2 segundos, el aliado objetivo queda encantado con Espíritu paciente. A menos que el encantamiento termine antes de tiempo, el aliado recibe 30...120 de salud como efecto final.",
+				"concise": "Conjuro con encantamiento. (2 segundos). Efecto final: cura 30...120 de salud. Ningún efecto si termina antes de tiempo."
+			},
 			"fr": {
+				"name": "Esprit patient",
+				"description": "Enchantement. Pendant 2 secondes, la cible (allié ou vous-même) est sous les effets d'Esprit patient. A moins que cet enchantement ne s'achève prématurément, cet allié est soigné de 30...120 points de vie lorsque l'enchantement prend fin.",
+				"concise": "Enchantement. (2 secondes.) Effet final : soigne de 30...120 points de vie. Aucun effet si interrompu prématurément."
+			},
+			"fr-gwiki": {
 				"name": "Esprit patient",
 				"description": "Pendant 2 secondes, la cible (allié ou vous-même) est sous les effets de cet enchantement. Lorsque cet enchantement prend fin, cette cible est soignée de 30...120 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito Paziente",
+				"description": "Incantesimo. Per 2 secondi l'obiettivo (un alleato o te stesso) è affetto dall'incantesimo Spirito Paziente. Se questo incantesimo non termina prematuramente, l'alleato viene curato di 30...120 Punti Salute al termine dell'incantesimo.",
+				"concise": "Incantesimo. (Secondi: 2). Effetto al termine: cure: 30...120. Non ha effetto se termina prematuramente."
+			},
+			"jp": {
+				"name": "ペイシェント スピリット",
+				"description": "強化スペル： 2 秒間、ターゲットした味方を強化します。この強化スペルが途中で解除されない場合、この効果が消失する際にターゲットの体力が 30...120 回復します。",
+				"concise": "強化スペル： (2 秒) 終了効果： 体力が 30...120 回復します。途中で解除された場合は無効です。"
+			},
+			"kr": {
+				"name": "인내의 미덕",
+				"description": "강화 마법. 대상 지정: 아군. 대상은 2초 동안 인내의 미덕에 걸립니다. 이 강화 마법이 지속 시간이 지나서 끝나면 대상은 30...120의 체력을 회복합니다.",
+				"concise": "강화 마법. (2초) 종료 효과: 30...120의 체력을 회복시킵니다. 강화 마법이 지속 시간 전에 끝나지 않아야 합니다."
+			},
+			"pl": {
+				"name": "Cierpliwy Duch",
+				"description": "Zaklęcie (czar). Na 2 sek. wskazany sprzymierzeniec znajduje się pod wpływem Cierpliwego Ducha. Jeżeli zaklęcie zakończy się przedwcześnie, sprzymierzeniec zostanie uleczony za 30...120 pkt. zdrowia.",
+				"concise": "Zaklęcie (czar). (2 sek.) Efekt końcowy: przywraca 30...120 pkt. żywotności. Bez efektu, jeżeli zakończy się przedwcześnie."
+			},
+			"ru": {
+				"name": "Patient Spirit",
+				"description": "Заклинание-чары. В течение 2 сек выбранный союзник будет находиться под действием Patient Spirit. Если действие этих чар не закончится преждевременно, этот союзник будет исцелен на 30...120 ед. здоровья, когда эти чары закончатся свое действие.",
+				"concise": "Заклинание-чары. (2 сек) Эффект окончания: исцеляет на 30...120 ед. здоровья. Не действует, если заканчивается преждевременно."
+			},
+			"bork": {
+				"name": "Paeteeent Spureet",
+				"description": "Inchuntment Spell. Fur 2 secunds, taerget aelly is inchunted veet Paeteeent Spureet. Unless thees inchuntment inds premaetoorely, thaet aelly is heaeled fur 30...120 Heaelt vhee zee inchuntment inds.",
+				"concise": "Inchuntment Spell. (2 secunds.) Ind iffffect: heaels fur 30...120. Nu iffffect iff inds iaerly."
 			}
 		}
 	}

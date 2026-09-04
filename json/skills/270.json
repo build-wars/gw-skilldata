@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命屏障",
+				"description": "精英增益魔法。 当你维持此「增益魔法」时，会使目标盟友受到的伤害降低20...50%。当该盟友受到攻击，而你的生命恰好低于50%时，「生命屏障」的效果消失。",
+				"concise": "精英增益魔法。 当你维持此「增益魔法」时，会使目标盟友受到的伤害降低 20...50%。当该队友受到攻击，而你的生命恰好低于 50% 时，「生命屏障」的效果消失。"
+			},
+			"cht": {
+				"name": "生命屏障",
+				"description": "精英加持魔法： 當你維持此「加持」時，目標其他盟友受到的傷害降低 20...50%。若該盟友受到攻擊，而你的體力低於 50% 時，生命屏障效果終止。",
+				"concise": "精英加持魔法： 當你維持此「加持」時，目標其他盟友受到的傷害降低 20...50%。若該盟友受到攻擊，而你的體力低於 50% 時，生命屏障效果終止。"
+			},
 			"de": {
+				"name": "Lebenssperre",
+				"description": "Elite-Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, wird dem Verbündeten zugefügter Schaden um 20...50% reduziert. Sind Eure Lebenspunkte unter 50%, wenn der Verbündete Schaden erleidet, endet Lebenssperre.",
+				"concise": "Elite-Verzauberung. Reduziert Schaden um 20...50%. Sich selbst als Ziel wählen nicht möglich. Habt Ihr weniger als 50% Eurer maximalen Lebenspunkte, wenn der Verbündete Schaden erleidet, endet Lebenssperre."
+			},
+			"de-guildwiki": {
 				"name": "Lebenssperre",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, wird dem Verbündeten zugefügter Schaden um 20...50% reduziert. Sind Eure Lebenspunkte unter 50%, wenn der Verbündete Schaden erleidet, endet Lebenssperre.",
 				"concise": "Reduziert Schaden um 20...50%. <gray>Sich selbst als Ziel wählen nicht möglich. Habt Ihr weniger als 50% Eurer maximalen Lebenspunkte, wenn der Verbündete Schaden erleidet, endet Lebenssperre.</gray>"
 			},
 			"en": {
 				"name": "Life Barrier",
+				"description": "Elite Enchantment Spell. While you maintain this enchantment, damage dealt to target other ally is reduced by 20...50%. If your Health is below 50% when that ally takes damage, Life Barrier ends.",
+				"concise": "Elite Enchantment Spell. Reduces damage by 20...50%. Cannot self-target. If your Health is below 50% when target takes damage, Life Barrier ends."
+			},
+			"en-gww": {
+				"name": "Life Barrier",
 				"description": "While you maintain this enchantment, damage dealt to target other ally is reduced by 20...50%. If your Health is below 50% when that ally takes damage, Life Barrier ends.",
 				"concise": "Reduces damage by 20...50%. <gray>Cannot self-target. If your Health is below 50% when target takes damage, Life Barrier ends.</gray>"
 			},
+			"es": {
+				"name": "Barrera de vida",
+				"description": "Conjuro con encantamiento de élite. Mientras mantengas este encantamiento, el daño que el aliado objetivo reciba se reduce al 20...50%. Si tu salud está por debajo del 50% cuando ese aliado reciba daño, la Barrera de vida terminará.",
+				"concise": "Conjuro con encantamiento de élite. Reduce el daño un 20...50%. No se puede usar con uno mismo. Si tu salud está por debajo del 50% cuando el objetivo reciba daño, la Barrera de vida acaba."
+			},
 			"fr": {
+				"name": "Barrière vitale",
+				"description": "Enchantement d'élite. Tant que cet enchantement est actif, les dégâts infligés à l'allié visé sont réduits de 20...50%. Si vous avez moins de 50% de santé quand l'allié subit les dégâts, la Barrière vitale se dissipe.",
+				"concise": "Enchantement d'élite. Réduit les dégâts de 20...50%. Vous ne pouvez pas vous prendre pour cible. Si vous avez moins de 50% de santé quand la cible subit des dégâts, la Barrière vitale se dissipe."
+			},
+			"fr-gwiki": {
 				"name": "Barrière vitale",
 				"description": "Tant que cet enchantement est actif, les dégâts infligés à l'allié visé sont réduits de 20...50%. Si vous avez moins de 50% de santé quand l'allié subit les dégâts, la Barrière vitale se dissipe.",
 				"concise": "Réduit les dégâts de 20...50%. <gray>Vous ne pouvez pas vous prendre pour cible. Si vous avez moins de 50% de santé quand la cible subit des dégâts, la Barrière vitale se dissipe.</gray>"
+			},
+			"it": {
+				"name": "Barriera della Vita",
+				"description": "Incantesimo d'Élite. Mantenendo questo incantesimo, i danni inflitti all'alleato vengono ridotti di un 20...50%. Se la tua Salute è inferiore a 50% quando l'alleato subisce danni, la Barriera della Vita termina.",
+				"concise": "Incantesimo d'Élite. Riduzione danno: 20...50%. Impossibile selezionare se stessi. Se la tua Salute è inferiore a 50% quando l'obiettivo subisce danni, Barriera della Vita termina."
+			},
+			"jp": {
+				"name": "ライフ バリア",
+				"description": "エリート強化スペル： この強化スペルを持続させている間、ターゲットした自分以外の味方は受けるダメージが 20...50% 減少します。その味方がダメージを受けたときにプレイヤーの体力が上限の 50% 未満の場合、この効果は消失します。",
+				"concise": "エリート強化スペル： ダメージが 20...50% 減少します。自分自身をターゲットすることはできません。ターゲットがダメージを受けたとき、プレイヤーの体力が上限の 50% 未満の場合、この効果は消失します。"
+			},
+			"kr": {
+				"name": "생명력의 보호막",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상이 받는 대미지가 20...50%만큼 감소합니다. 대상이 대미지를 입을 때 자신의 체력이 50% 미만이면 효과가 끝납니다. 이 마법은 자기 자신에게 사용할 수 없습니다.",
+				"concise": "엘리트 강화 마법. 받는 대미지가 20...50%만큼 감소합니다. 자신을 대상으로 사용할 수 없고, 대상이 대미지를 입을 때 자신의 체력이 50% 미만이면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Bariera Życia",
+				"description": "Elitarne zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, obrażenia zadawane wybranemu sojusznikowi innemu niż ty zmniejszane są o 20...50%. Jeśli w momencie, gdy ten sojusznik otrzyma obrażenia, twoja żywotność będzie poniżej 50%, to Bariera Życia przestanie działać.",
+				"concise": "Elitarne zaklęcie (czar). Obniża obrażenia o 20...50%. Na cel nie można wybrać siebie. Jeśli w momencie, gdy cel otrzyma obrażenia, twoja żywotność będzie poniżej 50%, to Bariera Życia przestanie działać."
+			},
+			"ru": {
+				"name": "Life Barrier",
+				"description": "Элитное заклинание-чары. До тех пор, пока вы поддерживаете эти чары, урон, нанесенный выбранному союзнику (но не вам), уменьшается на 20...50%. Если ваш уровень здоровья будет ниже 50% в тот момент, когда этот союзник получит урон, действие Life Barrier прекратится.",
+				"concise": "Элитное заклинание-чары. Уменьшает урон на 20...50%. Нельзя направлять на себя. Если ваше здоровье ниже 50% в тот момент, когда цель получает урон, действие Life Barrier заканчивается."
+			},
+			"bork": {
+				"name": "Leeffe-a Baerreeer",
+				"description": "Ileete-a Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, daemaege-a deaelt tu taerget oozeer aelly is redooced by 20...50%. Iff yuoor Heaelt is beloo 50% vhee thaet aelly taekes daemaege-a, Leeffe-a Baerreeer inds.",
+				"concise": "Ileete-a Inchuntment Spell. Redooces daemaege-a by 20...50%. Cunnut selff-taerget. Iff yuoor Heaelt is beloo 50% vhee taerget taekes daemaege-a, Leeffe-a Baerreeer inds."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恢复光环",
+				"description": "增益魔法。 每次施法后，将你所消耗能量值的200...500%，转化为生命值，效果持续 60秒。",
+				"concise": "增益魔法。 每次施法后，将你所消耗能量值的200...500%，转化为生命值，效果持续 60秒。"
+			},
+			"cht": {
+				"name": "回復靈氣",
+				"description": "加持魔法： 持續60秒，每當你施展魔法時獲得0...1能量，同時被治療消耗能量的200...500%體力。",
+				"concise": "加持魔法： 持續 60 秒，每當你施展魔法時獲得 0...1 能量，同時被治療消耗能量的 200...500% 體力。"
+			},
 			"de": {
+				"name": "Wiederherstellungs-Aura",
+				"description": "Verzauberung. 60 Sekunden lang gewinnt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, 0...1 Energie und Heilung in Höhe von 200...500% der jeweiligen Energiekosten.",
+				"concise": "Verzauberung. (60 Sekunden.) Ihr gewinnt jedes Mal, wenn Ihr einen Zauber wirkt, 0...1 Energie und Heilung in Höhe von 200...500% der jeweiligen Energiekosten."
+			},
+			"de-guildwiki": {
 				"name": "Wiederherstellungs-Aura",
 				"description": "60 Sekunden lang erhaltet Ihr jedes Mal, wenn Ihr einen Zauber wirkt, 0...1 Energie und heilt um 200...500% der jeweiligen Energiekosten.",
 				"concise": "(60 Sekunden.) Ihr erhaltet jedes Mal, wenn Ihr einen Zauber wirkt, 0...1 Energie und heilt um 200...500% der jeweiligen Energiekosten."
 			},
 			"en": {
 				"name": "Aura of Restoration",
+				"description": "Enchantment Spell. For 60 seconds, you gain 0...1 Energy and are healed for 200...500% of the Energy cost each time you cast a spell.",
+				"concise": "Enchantment Spell. (60 seconds.) You gain 0...1 Energy and are healed for 200...500% of the Energy cost each time you cast a spell."
+			},
+			"en-gww": {
+				"name": "Aura of Restoration",
 				"description": "For 60 seconds, you gain 0...1 Energy and are healed for 200...500% of the Energy cost each time you cast a spell.",
 				"concise": "(60 seconds.) You gain 0...1 Energy and are healed for 200...500% of the Energy cost each time you cast a spell."
 			},
+			"es": {
+				"name": "Aura de restauración",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, ganas 0...1 de energía y te curas un 200...500% del coste de energía cada vez que lances un conjuro.",
+				"concise": "Conjuro con encantamiento. (60 segundos.) Ganas 0...1 de energía y te curas un 200...500% del coste de energía cada vez que lances un conjuro."
+			},
 			"fr": {
+				"name": "Aura de rétablissement",
+				"description": "Enchantement. Pendant 60 secondes, vous gagnez 0...1 points d'énergie et êtes soigné[f:\"soignée\"] de 200...500% du coût en énergie pour chaque sort que vous lancez.",
+				"concise": "Enchantement. (60 secondes.) Vous gagnez 0...1 points d'énergie et êtes soigné[f:\"soignée\"] de 200...500% du coût en énergie pour chaque sort que vous lancez."
+			},
+			"fr-gwiki": {
 				"name": "Aura de rétablissement",
 				"description": "Pendant 60 secondes, vous gagnez 0...1 points d'énergie et êtes soigné de 200...500% du coût en énergie pour chaque sort que vous lancez.",
 				"concise": "(60 secondes.) Vous gagnez 0...1 points d'énergie et êtes soigné de 200...500% du coût en énergie pour chaque sort que vous lancez."
+			},
+			"it": {
+				"name": "Aura del Ripristino",
+				"description": "Incantesimo. Per 60 secondi, ottieni 0...1 Punti Energia. Ogni volta che usi una magia vieni curato di un 200...500% del suo costo energetico.",
+				"concise": "Incantesimo. (Secondi: 60.) Ottieni 0...1 Punti Energia. Ogni volta che usi una magia vieni curato di un 200...500% del suo costo energetico."
+			},
+			"jp": {
+				"name": "レストレーション オーラ",
+				"description": "強化スペル： 60秒間、スペルを詠唱するたびに 0...1 のエネルギーを獲得し、消費エネルギーの 200...500% の体力が回復します。",
+				"concise": "強化スペル： (60秒) スペルを詠唱するたびに 0...1 のエネルギーを獲得し、さらに消費エネルギーの 200...500% の体力が回復します。"
+			},
+			"kr": {
+				"name": "재생의 오라",
+				"description": "강화 마법. 대상 지정: 없음. 60초 동안 마법을 외울 때마다 0...1의 에너지를 얻고, 소모 에너지의 200...500%를 체력으로 회복합니다.",
+				"concise": "강화 마법. (60초) 마법 시전시 0...1의 에너지를 얻고, 소모 에너지의 200...500%를 체력으로 회복합니다."
+			},
+			"pl": {
+				"name": "Aura Odnowy",
+				"description": "Zaklęcie (czar). Przez 60 sek., za każdym razem, kiedy rzucisz czar, otrzymasz 0...1 pkt. energii i punkty żywotności w liczbie równej 200...500% energetycznego kosztu czaru.",
+				"concise": "Zaklęcie (czar). (60 sek.) Za każdym razem, kiedy rzucisz czar, otrzymasz 0...1 pkt. energii i punkty żywotności w liczbie równej 200...500% energetycznego kosztu czaru."
+			},
+			"ru": {
+				"name": "Aura of Restoration",
+				"description": "Заклинание-чары. В течение 60 сек каждый раз, когда вы произносите заклинание, вы получаете 0...1 ед. энергии и исцеляетесь на 200...500% от количества энергии, необходимой для использования этого заклинания.",
+				"concise": "Заклинание-чары. (60 сек) Вы получаете 0...1 ед. энергии и исцеляетесь на 200...500% от количества энергии, необходимой для активации заклинания, каждый раз, когда вы произносите заклинание."
+			},
+			"bork": {
+				"name": "Oora ooff Resturaeshun",
+				"description": "Inchuntment Spell. Fur 60 secunds, yuoo gaeeen 0...1 Inergy und aere-a heaeled fur 200...500% ooff zee Inergy cust iaech teeme-a yuoo caest a spell. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (60 secunds.) Yuoo gaeeen 0...1 Inergy und aere-a heaeled fur 200...500% ooff zee Inergy cust iaech teeme-a yuoo caest a spell."
 			}
 		}
 	}

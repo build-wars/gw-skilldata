@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪避之盾",
+				"description": "精英增益魔法。 在3...10秒之内，使友方目标有75%的几率格挡武器攻击，并且护甲值提高15...30点。",
+				"concise": "精英增益魔法。 在3...10秒之内，使友方目标的格挡几率提高75%，护甲值提高15...30点。"
+			},
+			"cht": {
+				"name": "迴避之盾",
+				"description": "精英加持魔法： 持續 3...10 秒，使目標盟友有 75% 機率「格擋」攻擊並增加 15...30 防禦。",
+				"concise": "精英加持魔法： 持續 3...10 秒，使目標盟友有 75% 機率「格擋」攻擊並增加 15...30 防禦。"
+			},
 			"de": {
+				"name": "Ablenkungsschild",
+				"description": "Elite-Verzauberung. 3...10 Sekunde[n] lang hat der Verbündete (bzw. Ihr selbst) eine 75%ige Chance Angriffe zu blocken und erhält 15...30 Rüstung.",
+				"concise": "Elite-Verzauberung. 3...10 Sekunde[n]: 75%ige Chance zu blocken. +15...30 Rüstung."
+			},
+			"de-guildwiki": {
 				"name": "Ablenkungsschild",
 				"description": "3...10 Sekunden lang hat der Verbündete (bzw. Ihr selbst) eine 75%ige Chance Angriffe zu blocken und erhält 15...30 Rüstung.",
 				"concise": "3...10 Sekunden: 75%ige Chance zu blocken. +15...30 Rüstung."
 			},
 			"en": {
 				"name": "Shield of Deflection",
+				"description": "Elite Enchantment Spell. For 3...10 seconds, target ally has a 75% chance to block attacks and gains 15...30 armor.",
+				"concise": "Elite Enchantment Spell. (3...10 seconds.) 75% chance to block. +15...30 armor."
+			},
+			"en-gww": {
+				"name": "Shield of Deflection",
 				"description": "For 3...10 seconds, target ally has a 75% chance to block attacks and gains 15...30 armor.",
 				"concise": "(3...10 seconds.) 75% chance to block. +15...30 armor."
 			},
+			"es": {
+				"name": "Escudo desviador",
+				"description": "Conjuro con encantamiento de élite. Durante 3...10 segundos, el objetivo (un aliado o tú mismo) tiene un 75% de posibilidades de bloquear ataques y gana 15...30 de armadura.",
+				"concise": "Conjuro con encantamiento de élite. (3...10 segundos). 75% de probabilidades de bloquear. +15...30 de armadura."
+			},
 			"fr": {
+				"name": "Bouclier de détournement",
+				"description": "Enchantement d'élite. Pendant 3...10 secondes, la cible (un allié ou vous-même) a 75% de chances de bloquer les attaques et bénéficie d'un bonus d'armure de 15...30.",
+				"concise": "Enchantement d'élite. (3...10 secondes.) 75% de chances de bloquer. Bonus d'armure de +15...30."
+			},
+			"fr-gwiki": {
 				"name": "Bouclier de détournement",
 				"description": "Pendant 3...10 seconde(s), la cible (un allié ou vous-même) a 75% de chances de bloquer les attaques et bénéficie d'un bonus d'armure de 15...30.",
 				"concise": "(3...10 secondes.) 75% de chances de bloquer. Bonus d'armure de +15...30."
+			},
+			"it": {
+				"name": "Scudo della Deviazione",
+				"description": "Incantesimo d'Élite. Per 3...10 secondo[i], l'obiettivo (un alleato o te stesso) ha una probabilità del 75% di bloccare gli attacchi e ottiene 15...30 punto[i] di armatura.",
+				"concise": "Incantesimo d'Élite. (Secondi: 3...10) Probabilità di blocco: 75%. Armatura: +15...30."
+			},
+			"jp": {
+				"name": "ディフレクション シールド",
+				"description": "エリート強化スペル： 3...10 秒間、ターゲットした味方は 75% の確率で攻撃をブロックし、防御力が 15...30 増加します。",
+				"concise": "エリート強化スペル： (3...10 秒) 75% の確率で攻撃をブロックし、防御力が 15...30 増加します。"
+			},
+			"kr": {
+				"name": "회피의 기도",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 3...10초 동안 대상은 75% 확률로 적의 공격을 막고, 방어력이 15...30 증가합니다.",
+				"concise": "엘리트 강화 마법. (3...10초) 75%의 확률로 적의 공격을 막고, 방어력이 15...30 증가합니다."
+			},
+			"pl": {
+				"name": "Tarcza Odbicia",
+				"description": "Elitarne zaklęcie (czar). Przez 3...10 sek., wybrany sojusznik ma 75% szans na zablokowanie ataków i otrzymuje 15...30 pkt. pancerza.",
+				"concise": "Elitarne zaklęcie (czar). (3...10 sek.) 75% szans na blokowanie. +15...30 pkt. pancerza."
+			},
+			"ru": {
+				"name": "Shield of Deflection",
+				"description": "Элитное заклинание-чары. В течение 3...10 сек выбранный союзник получает 75%-й шанс блокировать атаку, а его защита увеличивается на 15...30 ед.",
+				"concise": "Элитное заклинание-чары. (3...10 сек) 75%-й шанс блокировать атаку. Дает +15...30 ед. к защите."
+			},
+			"bork": {
+				"name": "Sheeeld ooff Defflecshun",
+				"description": "Ileete-a Inchuntment Spell. Fur 3...10 secunds, taerget aelly haes a 75% chunce-a tu bluck aettaecks und gaeeens 15...30 aermur.",
+				"concise": "Ileete-a Inchuntment Spell. (3...10 secunds.) 75% chunce-a tu bluck. +15...30 aermur."
 			}
 		}
 	}

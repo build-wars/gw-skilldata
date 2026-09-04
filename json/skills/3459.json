@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 1,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "梅兰朵之射",
+				"description": "精英弓术。 命中时对目标造成 10...25 额外伤害。如果命中身上有「增益魔法」的敌人，你获得 5...25 能量。",
+				"concise": "精英弓术。 命中时对目标造成 10...25 额外伤害。如果命中身上有「增益魔法」的敌人，你获得 5...25 能量。"
+			},
+			"cht": {
+				"name": "梅蘭朵射擊",
+				"description": "精英弓術攻擊技能： 此技能命中時目標流血 5...25 秒。若是命中正在移動中或被擊倒的敵人時，將附加 10...25 額外傷害並殘廢 5...15 秒。",
+				"concise": "精英弓術攻擊技能： 此技能命中時目標流血 5...25 秒。若是命中正在移動中或被擊倒的敵人時，將附加 10...25 額外傷害並殘廢 5...15 秒。"
+			},
 			"de": {
+				"name": "Melandrus Schuss",
+				"description": "Elite-Bogenangriff. Wenn Melandrus Schuss trifft, leidet Euer Gegner 5...25 Sekunde[n] lang an einer Blutung. Wenn er einen Gegner trifft, der sich bewegt oder zu Boden geworfen wurde, erleidet dieser +10...25 Punkt[e] Schaden und leidet 5...15 Sekunde[n] lang an Verkrüppelung.",
+				"concise": "Elite-Bogenangriff. Verursacht Blutung (5...25 Sekunde[n]). Richtet +10...25 Punkt[e] Schaden an und verursacht Verkrüppelung (5...15 Sekunde[n]), falls der Gegner sich bewegt oder zu Boden geworfen wurde."
+			},
+			"de-guildwiki": {
 				"name": "Melandrus Schuss (PvP)",
 				"description": "Wenn Melandrus Schuss trifft, leidet Euer Gegner 5...25 Sekunden lang an einer Blutung. Wenn er einen Gegner trifft, der sich bewegt oder zu Boden geworfen wurde, erleidet dieser +10...25 Punkte Schaden und leidet 5...15 Sekunden lang an Verkrüppelung.",
 				"concise": "Verursacht Blutung (5...25 Sekunden). Richtet +10...25 Punkte Schaden an und verursacht Verkrüppelung (5...15 Sekunden), falls der Gegner sich bewegt oder zu Boden geworfen wurde."
 			},
 			"en": {
 				"name": "Melandru's Shot (PvP)",
+				"description": "Elite Bow Attack. If Melandru's Shot hits, your target begins Bleeding for 5...25 seconds. If it hits a foe that is moving or knocked down, that foe takes +10...25 damage and is Crippled for 5...15 seconds.",
+				"concise": "Elite Bow Attack. Inflicts Bleeding (5...25 seconds). Deals +10...25 damage and inflicts Crippled (5...15 seconds) if target foe was moving or knocked down."
+			},
+			"en-gww": {
+				"name": "Melandru's Shot (PvP)",
 				"description": "If Melandru's Shot hits, your target begins Bleeding for 5...25 seconds. If it hits a foe that is moving or knocked down, that foe takes +10...25 damage and is Crippled for 5...15 seconds.",
 				"concise": "Inflicts Bleeding (5...25 seconds). Deals +10...25 damage and inflicts Crippled (5...15 seconds) if target foe was moving or knocked down."
 			},
+			"es": {
+				"name": "Disparo de Melandru",
+				"description": "Ataque con arco de élite. Si el Disparo de Melandru impacta, tu objetivo sufrirá una hemorragia durante 5...25 segundos. Si impacta en un enemigo que se está moviendo o ha sido derribado, le harás +10...25 de daño y quedará lisiado durante 5...15 segundos.",
+				"concise": "Ataque con arco de élite. Causa hemorragia (5...25 segundos). Hace +10...25 de daño y causa lisiadura (5...15 segundos) si el enemigo objetivo estaba moviéndose o había sido derribado."
+			},
 			"fr": {
+				"name": "Tir de Melandru",
+				"description": "Attaque à l'arc d'élite. Si le Tir de Melandru réussit, votre cible souffre de Saignement pendant 5...25 secondes. Si le tir touche un ennemi en fuite ou assommé, ce dernier reçoit +10...25 points de dégâts et souffre d'Infirmité pendant 5...15 secondes.",
+				"concise": "Attaque à l'arc d'élite. Provoque le Saignement (5...25 secondes). Inflige +10...25 points de dégâts et provoque l'Infirmité (5...15 secondes) si la cible ennemie est en fuite ou assommée."
+			},
+			"fr-gwiki": {
 				"name": "Tir de Melandru (PvP)",
 				"description": "Si le Tir de Melandru réussit, votre cible souffre de Saignement pendant 5...25 secondes. Si le tir touche un ennemi en fuite ou assommé, ce dernier reçoit +10...25 points de dégâts et souffre d'Infirmité pendant 5...15.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro di Melandru",
+				"description": "Attacco con Arco d'Élite. Se il Tiro di Melandru va a segno, l'obiettivo inizia a sanguinare per 5...25 secondi. Se colpisce un nemico in movimento o abbattuto, tale nemico subisce 10...25 danni e soffre di Storpiatura per 5...15 secondi.",
+				"concise": "Attacco con Arco d'Élite. Condizione inflitta: Emorragia (5...25 secondi). Per obiettivi nemici in movimento o abbattuti: Danni inferti: +10...25. Condizione inflitta: Storpiatura (5...15 secondi)."
+			},
+			"jp": {
+				"name": "メランドル ショット",
+				"description": "エリート ボウ アタック： 攻撃が成功すると、ターゲットは 5...25 秒間「出血」状態になります。敵が移動または転倒中の場合、10...25 の追加ダメージを与え、5...15 秒間「不自由」状態にします。",
+				"concise": "エリート ボウ アタック： 「出血」状態にします (5...25 秒)。ターゲットした敵が移動または転倒中の場合、10...25 の追加ダメージを与えて「不自由」状態にします (5...15 秒)。"
+			},
+			"kr": {
+				"name": "멜란드루 사격",
+				"description": "엘리트 활 공격. 대상 지정: 적. 공격이 성공하면 대상을 5...25초 동안 출혈 상태로 만듭니다. 이동 중이거나 바닥에 넘어진 대상에게 명중하면 대상에게 10...25의 대미지를 추가로 주고, 5...15초 동안 다리부상 상태로 만듭니다.",
+				"concise": "엘리트 활 공격. 출혈을 일으키게 합니다.(5...25초) 대상이 이동 중이거나 바닥에 넘어져 있으면 10...25의 대미지를 추가로 주고, 다리부상을 입힙니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Strzał Melandru",
+				"description": "Elitarny strzał z łuku. Jeśli Strzał Melandru trafi, przeciwnik zaczyna krwawić przez 5...25 sek. Jeśli trafiony zostanie powalony lub poruszający się przeciwnik , to otrzyma +10...25 pkt. obrażeń i będzie okulawiony przez 5...15 sek.",
+				"concise": "Elitarny strzał z łuku. Wywołuje krwawienie (5...25 sek.). Zadaje +10...25 pkt. obrażeń oraz powoduje okulawienie (5...15 sek.), jeżeli twój cel się porusza lub jest powalony."
+			},
+			"ru": {
+				"name": "Melandru's Shot",
+				"description": "Элитная атака из лука. Если Melandru's Shot попадает в цель, противник будет кровоточить в течение 5...25 сек. Если выстрел попал в двигающегося или сбитого с ног противника, этот противник получит дополнительно 10...25 ед. урона и будет хромать в течение 5...15 сек.",
+				"concise": "Элитная атака из лука. Вызывает кровотечение (5...25 сек). Наносит дополнительно 10...25 ед. урона и вызывает хромоту (5...15 сек), если выбранный противник двигался или был сбит с ног."
+			},
+			"bork": {
+				"name": "Melundroo's Shut (PfP)",
+				"description": "Ileete-a Boo Aettaeck. Iff Melundroo's Shut heets, yuoor taerget begeens Bleedeeng fur 5...25 secunds. Iff it heets a fue-a thaet is mufeeng oor knucked doon, thaet fue-a taekes +10...25 daemaege-a und is Creeppled fur 5...15 secunds.",
+				"concise": "Ileete-a Boo Aettaeck. Inffleects Bleedeeng (5...25 secunds). Deaels +10...25 daemaege-a und inffleects Creeppled (5...15 secunds) iff taerget fue-a vaes mufeeng oor knucked doon."
 			}
 		}
 	}

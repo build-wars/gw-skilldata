@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "伤害反转",
+				"description": "增益魔法。 在8秒之内，当下一次友方目标受到伤害时，伤害将会被反弹（最多5...75点）。",
+				"concise": "增益魔法。 在8秒之内，当下一次友方目标受到伤害时，伤害将会被反弹（最多5...75点）。"
+			},
+			"cht": {
+				"name": "傷害反轉",
+				"description": "加持魔法： 持續 8 秒，將「下一次」目標盟友受到的傷害由攻擊者承受。(最多 5...75)",
+				"concise": "加持魔法： 持續 8 秒，將「下一次」目標盟友受到的傷害由攻擊者承受。(最多 5...75)"
+			},
 			"de": {
+				"name": "Umkehrung des Schadens",
+				"description": "Verzauberung. 8 Sekunden lang erleidet das nächste Mal, wenn der Verbündete (bzw. Ihr selbst) Schaden erleiden würde, der Feind, der den Schaden zufügt, ihn stattdessen selbst (maximal 5...75 Punkt[e].",
+				"concise": "Verzauberung. 8 Sekunden: Hebt den nächsten Schaden auf und trifft den Verursacher für dieselbe Punktzahl (maximal 5...75)."
+			},
+			"de-guildwiki": {
 				"name": "Umkehrung des Schadens",
 				"description": "8 Sekunden lang wird, wenn der Verbündete (bzw. Ihr selbst) das nächste Mal Schaden erleiden würde, dieser Schaden um 5...75 Punkte reduziert. Wenn der Schaden von einem Feind zugefügt wurde, wird ihm der verhinderte Schaden als heiliger Schaden zugefügt.",
 				"concise": "8 Sekunden: Hebt den nächsten Schaden auf und trifft den Verursacher für dieselbe Punktzahl (maximal 5...75)."
 			},
 			"en": {
 				"name": "Reversal of Damage",
+				"description": "Enchantment Spell. For 8 seconds, the next time target ally would take damage, the foe dealing the damage takes that damage instead (maximum 5...75).",
+				"concise": "Enchantment Spell. (8 seconds.) Negates the next damage and hits the source for that same amount (maximum 5...75)."
+			},
+			"en-gww": {
+				"name": "Reversal of Damage",
 				"description": "For 8 seconds, the next time target ally would take damage, the foe dealing the damage takes that damage instead (maximum 5...75).",
 				"concise": "(8 seconds.) Negates the next damage and hits the source for that same amount (maximum 5...75)."
 			},
+			"es": {
+				"name": "Inversión del daño",
+				"description": "Conjuro con encantamiento. Durante 8 segundos, la próxima vez que el objetivo (un aliado o tú mismo) sea atacado, en vez de recibir él el daño lo recibirá el enemigo (máximo 5...75).",
+				"concise": "Conjuro con encantamiento. (8 segundos). Impide el siguiente daño y le devuelve al atacante esa cantidad (máximo 5...75)."
+			},
 			"fr": {
+				"name": "Revers de dégâts",
+				"description": "Enchantement. Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) doit subir des dégâts, ces dégâts se retournent contre l'ennemi (maximum 5...75 points).",
+				"concise": "Enchantement. (8 secondes.) Annule les dégâts suivants et en inflige la même quantité à l'assaillant (maximum : 5...75)."
+			},
+			"fr-gwiki": {
 				"name": "Revers de dégâts",
 				"description": "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) doit subir des dégâts, ces dégâts se retournent contre l'ennemi (maximum 5...75 points).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rovescio del Danno",
+				"description": "Incantesimo. Per 8 secondi, la prossima volta che l'obiettivo (un alleato o te stesso) dovrebbe subire dei danni, il nemico che ha inflitto il danno lo subisce al suo posto (max 5...75 danno[i]).",
+				"concise": "Incantesimo. (Secondi: 8) Impedisce il prossimo danno e colpisce la fonte con la stessa quantità (max 5...75)."
+			},
+			"jp": {
+				"name": "ダメージ リバーサル",
+				"description": "強化スペル： 8秒間、ターゲットした味方が次に受ける攻撃によるダメージを、その攻撃者に返します (最大 5...75 のダメージ) 。",
+				"concise": "強化スペル： (8秒) 次に受けるダメージが無効になり、その攻撃者に同等のダメージを与えます (最大 5...75 のダメージ) 。"
+			},
+			"kr": {
+				"name": "대미지 반전",
+				"description": "강화 마법. 대상 지정: 아군. 8초 동안 대상이 대미지를 입으면 대미지를 주려는 적이 대신 최대 5...75의 대미지를 받습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "강화 마법. (8초) 받을 대미지를 무시하고, 그만큼의 대미지를 되돌려줍니다.(최대 5...75대미지) 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Odwrócenie Obrażeń",
+				"description": "Zaklęcie (czar). Przez 8 sek., kiedy wybrany sojusznik będzie miał następnym razem otrzymać obrażenia, to w zamian otrzyma je przeciwnik, który je zadał (maksymalnie 5...75).",
+				"concise": "Zaklęcie (czar). (8 sek.) Neguje następne obrażenia i zadaje źródłu tą samą liczbę pkt. obrażeń (maksymalnie 5...75)."
+			},
+			"ru": {
+				"name": "Reversal of Damage",
+				"description": "Заклинание-чары. В течение 8 сек в следующий раз, когда выбранный союзник должен был бы получить урон, вместо него этот урон получит противник, который его нанес (но не более 5...75 ед. урона).",
+				"concise": "Заклинание-чары. (8 сек) Отменяет следующий полученный урон и возвращает его тому, кто его нанес (но не более 5...75 ед. урона)."
+			},
+			"bork": {
+				"name": "Refersael ooff Daemaege-a",
+				"description": "Inchuntment Spell. Fur 8 secunds, zee next teeme-a taerget aelly vuoold taeke-a daemaege-a, zee fue-a deaeleeng zee daemaege-a taekes thaet daemaege-a insteaed (maexeemoom 5...75).",
+				"concise": "Inchuntment Spell. (8 secunds.) Negaetes zee next daemaege-a und heets zee suoorce-a fur thaet saeme-a aemuoont (maexeemoom 5...75)."
 			}
 		}
 	}

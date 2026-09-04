@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "转魂",
+				"description": "咒文。 使范围内最靠近你的「灵体」失去5...50点生命值，每失去一点生命值，将为目标盟友恢复5点生命值。",
+				"concise": "咒文。 使范围内最近你的「灵体」失去 5...50 生命，同时治愈目标盟友 5 倍的生命。"
+			},
+			"cht": {
+				"name": "生靈移轉",
+				"description": "咒文魔法： 使範圍內最接近你的「靈」失去 5...50 體力，同時治癒目標盟友 5 倍的體力。",
+				"concise": "咒文魔法： 使範圍內最接近你的「靈」失去 5...50 體力，同時治癒目標盟友 5 倍的體力。"
+			},
 			"de": {
+				"name": "Geistübertragung",
+				"description": "Zauber. Der Geist, der Euch am nächsten ist, verliert 5...50 Lebenspunkt[e]. Der Verbündete (bzw. Ihr selbst) wird für jeden verlorenen Lebenspunkt um 5 Punkt[e] geheilt.",
+				"concise": "Zauber. Der am nächsten zu Euch befindliche Geist verliert 5...50 Lebenspunkt[e]. Heilt den Verbündeten (bzw. Euch selbst) für jeden verlorenen Lebenspunkt um 5 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Geistübertragung",
 				"description": "Der Geist, der Euch am nächsten ist, verliert 5...50 Lebenspunkte. Der Verbündete (bzw. Ihr selbst) wird für jeden verlorenen Lebenspunkt um 5 Punkte geheilt.",
 				"concise": "Der am nächsten zu Euch befindliche Geist verliert 5...50 Lebenspunkte. Heilt den Verbündeten (bzw. Euch selbst) für jeden verlorenen Lebenspunkt um 5 Lebenspunkte."
 			},
 			"en": {
 				"name": "Spirit Transfer",
+				"description": "Spell. The spirit nearest you loses 5...50 Health. Target ally is healed for 5 for each point of Health lost.",
+				"concise": "Spell. The spirit nearest you loses 5...50 Health. Heals target ally for 5 for each point of Health lost."
+			},
+			"en-gww": {
+				"name": "Spirit Transfer",
 				"description": "The spirit nearest you loses 5...50 Health. Target ally is healed for 5 for each point of Health lost.",
 				"concise": "The spirit nearest you loses 5...50 Health. Heals target ally for 5 for each point of Health lost."
 			},
+			"es": {
+				"name": "Transfusión espiritual",
+				"description": "Conjuro. El espíritu más cercano pierde 5...50 de salud y el objetivo (un aliado o tú mismo) se cura 5 por cada punto perdido.",
+				"concise": "Conjuro. El espíritu más cercano pierde 5...50 de salud. Cura 5 de salud al aliado objetivo por cada punto de salud perdido."
+			},
 			"fr": {
+				"name": "Transfert d'esprit",
+				"description": "Sort. L'esprit le plus proche de vous perd 5...50 points de vie. La cible (un allié ou vous-même) est soignée de 5 points de vie pour chaque point de vie perdu.",
+				"concise": "Sort. L'esprit le plus proche de vous perd 5...50 points de vie. Soigne l'allié visé de 5 points de vie par point de vie perdu."
+			},
+			"fr-gwiki": {
 				"name": "Transfert d'esprit",
 				"description": "L'esprit le plus proche de vous perd 5...50 points de vie. La cible (un allié ou vous-même) est soignée de 5 points de vie pour chaque point de vie perdu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trasferimento dello Spirito",
+				"description": "Magia. Lo Spirito più vicino a te perde 5...50 Punto[i] Salute. L'obiettivo (un alleato o te stesso) viene curato di 5 punto[i] per ogni Punto Salute perso.",
+				"concise": "Magia. Salute persa dallo Spirito più vicino a te: 5...50. Cura di 5 l'obiettivo alleato per ogni Punto Salute perso."
+			},
+			"jp": {
+				"name": "スピリット トランスファー",
+				"description": "スペル： 最寄の精霊は 5...50 の体力を失います。失った体力のポイントごとに、ターゲットした味方は体力が 5 回復します。",
+				"concise": "スペル： 最寄の精霊は 5...50 の体力を失います。失った体力のポイントごとに、ターゲットした味方は体力が 5 回復します。"
+			},
+			"kr": {
+				"name": "영혼 흡수",
+				"description": "마법. 대상 지정: 아군. 자신에게 가장 가까이 있는 영혼이 5...50의 체력을 잃습니다. 대상은 영혼이 잃는 체력 1당 5의 체력을 회복합니다.",
+				"concise": "마법. 자신에게 가장 가까이 있는 영혼이 5...50의 체력을 잃습니다. 영혼이 잃는 체력 1당 대상의 체력을 5만큼 회복시킵니다."
+			},
+			"pl": {
+				"name": "Duchowy Transfer",
+				"description": "Czar. Najbliższy duch traci 5...50 pkt. żywotności. Wybrany sojusznik otrzymuje 5 pkt. żywotności za każdy stracony przez ducha pkt. żywotności.",
+				"concise": "Czar. Najbliższy duch traci 5...50 pkt. żywotności. Wybranemu sojusznikowi dodaje 5 pkt. żywotności za każdy stracony pkt. żywotności."
+			},
+			"ru": {
+				"name": "Spirit Transfer",
+				"description": "Заклинание. Ближайший к вам дух теряет 5...50 ед. здоровья. Выбранный союзник исцеляется на 5 ед. здоровья за каждую ед. здоровья, потерянную духом.",
+				"concise": "Заклинание. Ближайший к вам дух теряет 5...50 ед. здоровья. Исцеляет выбранного союзника на 5 ед. здоровья за каждую потерянную духом ед. здоровья."
+			},
+			"bork": {
+				"name": "Spureet Trunsffer",
+				"description": "Spell. Zee spureet neaerest yuoo luses 5...50 Heaelt. Taerget aelly is heaeled fur 5 fur iaech pueent ooff Heaelt lust.",
+				"concise": "Spell. Zee spureet neaerest yuoo luses 5...50 Heaelt. Heaels taerget aelly fur 5 fur iaech pueent ooff Heaelt lust."
 			}
 		}
 	}

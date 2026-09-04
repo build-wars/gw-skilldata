@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致盲",
+				"description": "精英负面魔法。 在4秒之内，下一次目标敌人进行武器攻击时，将受到30...135点伤害并且遭受「盲目」症状10秒，技能持续 。",
+				"concise": "精英负面魔法。 使目标遭受30...135点伤害，并遭受「盲目」症状10秒。技能持续4秒。"
+			},
+			"cht": {
+				"name": "愚蠢",
+				"description": "精英降咒魔法： 持續 4 秒，目標及鄰近敵人下一次攻擊時，受到 30...135 傷害且遭受盲目病症 10 秒。",
+				"concise": "精英降咒魔法： 持續 4 秒，目標及鄰近敵人下一次攻擊時，受到 30...135 傷害且遭受盲目病症 10 秒。"
+			},
 			"de": {
+				"name": "Unbeholfenheit",
+				"description": "Elite-Verhexung. 4 Sekunde[n] lang erleiden der Gegner und alle umstehenden Gegner bei ihrem nächsten Angriff 30...135 Punkt[e] Schaden und werden 10 Sekunden lang geblendet.",
+				"concise": "Elite-Verhexung. (4 Sekunde[n].) Außerdem werden alle umstehenden Feinde verhext. Richtet 30...135 Punkt[e] Schaden an. Verursacht Zustand \"Blindheit\" (10 Sekunden). Kein Effekt, wenn der verhexte Gegner nicht angreift."
+			},
+			"de-guildwiki": {
 				"name": "Unbeholfenheit",
 				"description": "4 Sekunden lang erleidet der Gegner und alle umstehenden Gegner bei ihrem nächsten Angriff 30...135 Punkte Schaden und werden 10 Sekunden lang geblendet.",
 				"concise": "(4 Sekunden.) Außerdem werden alle umstehenden Feinde verhext. Richtet 30...135 Punkte Schaden an. Verursacht Zustand Blindheit (10 Sekunden). <gray>Kein Effekt, wenn der verhexte Gegner nicht angreift.</gray>"
 			},
 			"en": {
 				"name": "Ineptitude",
+				"description": "Elite Hex Spell. For 4 seconds, the next time the target foe or any adjacent foe attacks, they take 30...135 damage and are Blinded for 10 seconds.",
+				"concise": "Elite Hex Spell. (4 seconds.) Also hexes foes adjacent to target. Deals 30...135 damage. Inflicts Blindness condition (10 seconds). No effect unless hexed foe attacks."
+			},
+			"en-gww": {
+				"name": "Ineptitude",
 				"description": "For 4 seconds, the next time target foe or any adjacent foe attacks, they take 30...135 damage and are Blinded for 10 seconds.",
 				"concise": "(4 seconds.) Also hexes foes adjacent to target. Deals 30...135 damage. Inflicts Blindness condition (10 seconds). <gray>No effect unless hexed foe attacks.</gray>"
 			},
+			"es": {
+				"name": "Ineptitud",
+				"description": "Conjuro con maleficio de élite. Durante 4 segundos, la próxima vez que el enemigo objetivo y cualquier enemigo adyacente a él ataque, recibirán 30...135 de daño y se quedarán cegados durante 10 segundos.",
+				"concise": "Conjuro con maleficio de élite. (4 segundos). También lanza un maleficio a los enemigos adyacentes al objetivo. Hace 30...135 de daño. Causa ceguera (10 segundos). Sin efecto salvo en los ataques a los enemigos con maleficio."
+			},
 			"fr": {
+				"name": "Incompétence",
+				"description": "Maléfice d'élite. Pendant 4 secondes, la prochaine fois que l'ennemi visé ou tout ennemi adjacent attaque, il subit 30...135 points de dégâts et est aveuglé pendant 10 secondes.",
+				"concise": "Maléfice d'élite. (4 secondes.) Affecte également les ennemis proches de la cible. Inflige 30...135 points de dégâts. Provoque l'Aveuglement (10 secondes). Aucun effet sauf si l'ennemi affecté attaque."
+			},
+			"fr-gwiki": {
 				"name": "Incompétence",
 				"description": "Pendant 4 secondes, la prochaine fois que l'ennemi visé ou tout ennemi adjacent attaque, il subit 30...135 points de dégâts et est aveuglé pendant 10 secondes.",
 				"concise": "(4 secondes.) affecte également les ennemis proches de la cible. Inflige 30...135 points de dégâts. Provoque l'Aveuglement (10 secondes). Aucun effet sauf si l'ennemi affecté attaque."
+			},
+			"it": {
+				"name": "Inettitudine",
+				"description": "Fattura d'Élite. Per 4 secondi, la prossima volta che l'obiettivo nemico o i nemici adiacenti attaccano, subiscono 30...135 danni e vengono colpiti da Accecamento per 10 secondi.",
+				"concise": "Fattura d'Élite. (Secondi: 4). Colpisce con fattura anche i nemici adiacenti all'obiettivo. Danni inferti: 30...135. Infligge Accecamento (10 secondi). Nessun effetto se il nemico colpito da fattura non attacca."
+			},
+			"jp": {
+				"name": "イネプタテュード",
+				"description": "エリート弱体化スペル： 4 秒間、ターゲットした敵または隣接する敵が次に攻撃すると、その敵は 30...135 のダメージを受けて10秒間「盲目」状態になります。",
+				"concise": "エリート弱体化スペル： (4 秒) ターゲットした敵および隣接する敵に 30...135 のダメージを与えて「盲目」状態にします (10秒)。対象となる敵が攻撃しない場合は無効です。"
+			},
+			"kr": {
+				"name": "실명의 속박",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 4초 동안 대상과 그에 인접한 모든 적은 공격할 때 30...135의 대미지를 입고, 10초 동안 실명 상태가 됩니다. 처음 한 번씩만 효과가 있습니다.",
+				"concise": "엘리트 약화 마법. (4초) 인접한 적들에게도 효과를 줍니다. 30...135의 대미지를 주고, 실명시킵니다.(10초) 처음 한 번만 효과가 있습니다. 대상이 공격을 해야 합니다."
+			},
+			"pl": {
+				"name": "Niezdarność",
+				"description": "Elitarna klątwa (czar). Przez 4 sek., następnym razem, kiedy wybrany przeciwnik lub jakikolwiek wróg w sąsiedztwie zaatakuje, otrzyma 30...135 pkt. obrażeń i zostanie oślepiony na 10 sek.",
+				"concise": "Elitarna klątwa (czar). (4 sek.) Klątwa działa także na wrogów bezpośrednio przy celu. Zadaje 30...135 pkt. obrażeń. Powoduje oślepienie (10 sekund). Bez efektu, jeśli wróg pod działaniem tej klątwy nie zaatakuje."
+			},
+			"ru": {
+				"name": "Ineptitude",
+				"description": "Элитное заклинание-проклятье. В течение 4 сек в следующий раз, когда выбранный противник или любой из окружающих противников будет атаковать, они получат 30...135 ед. урона и будут ослеплены на 10 сек.",
+				"concise": "Элитное заклинание-проклятье. (4 сек) Также накладывает проклятье на окружающих цель противников. Наносит 30...135 ед. урона. Вызывает слепоту (10 сек). Не действует, пока проклятый противник не атакует."
+			},
+			"bork": {
+				"name": "Inepteetoode-a",
+				"description": "Ileete-a Hex Spell. Fur 4 secunds, zee next teeme-a zee taerget fue-a oor uny aedjaecent fue-a aettaecks, zeey taeke-a 30...135 daemaege-a und aere-a Bleended fur 10 secunds.",
+				"concise": "Ileete-a Hex Spell. (4 secunds.) Aelsu hexes fues aedjaecent tu taerget. Deaels 30...135 daemaege-a. Inffleects Bleendness cundeeshun (10 secunds). Nu iffffect unless hexed fue-a aettaecks."
 			}
 		}
 	}

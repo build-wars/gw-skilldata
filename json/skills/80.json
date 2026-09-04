@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量分流",
+				"description": "咒文。 使目标敌人失去4...7点能量，目标敌人每失去 1点 能量，你将获得 2点 能量。",
+				"concise": "咒文。 使目标敌人失去4...7点能量。目标敌人每失去1点能量，你将获得2点能量。"
+			},
+			"cht": {
+				"name": "能量抽取",
+				"description": "咒文魔法： 使目標敵人失去 4...7 能量，該目標每失去 1 能量，你獲得 2 能量。",
+				"concise": "咒文魔法： 使目標敵人失去 4...7 能量，該目標每失去 1 能量，你獲得 2 能量。"
+			},
 			"de": {
+				"name": "Energie abzapfen",
+				"description": "Zauber. Der Gegner verliert 4...7 Energiepunkt[e]. Ihr erhaltet für jeden verlorenen Energiepunkt 2 Energiepunkte.",
+				"concise": "Zauber. Lässt 4...7 Energiepunkt[e] verlieren. Ihr erhaltet pro verlorenem Energiepunkt 2 Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Energie abzapfen",
 				"description": "Der Gegner verliert 4...7 Energiepunkte. Ihr erhaltet für jeden verlorenen Energiepunkt 2 Energiepunkte.",
 				"concise": "Lässt 4...7 Energiepunkte verlieren. Ihr erhaltet pro verlorenem Energiepunkt 2 Energiepunkte."
 			},
 			"en": {
 				"name": "Energy Tap",
+				"description": "Spell. Target foe loses 4...7 Energy. You gain 2 Energy for each point of Energy lost.",
+				"concise": "Spell. Causes 4...7 Energy loss. You gain 2 Energy for each point of Energy lost."
+			},
+			"en-gww": {
+				"name": "Energy Tap",
 				"description": "Target foe loses 4...7 Energy. You gain 2 Energy for each point of Energy lost.",
 				"concise": "Causes 4...7 Energy loss. You gain 2 Energy for each point of Energy lost."
 			},
+			"es": {
+				"name": "Grifo de energía",
+				"description": "Conjuro. El enemigo objetivo pierde 4...7 de energía y tú ganas 2 puntos de energía por cada uno perdido.",
+				"concise": "Conjuro. Causa 4...7 de pérdida de energía. Ganas 2 de energía por cada punto de energía perdido."
+			},
 			"fr": {
+				"name": "Siphon d'énergie",
+				"description": "Sort. La cible ennemie perd 4...7 points d'énergie. Vous obtenez 2 points d'énergie pour chaque point d'énergie perdu par l'ennemi.",
+				"concise": "Sort. Provoque une perte de 4...7 points d'énergie. Vous obtenez 2 points d'énergie par point d'énergie perdu."
+			},
+			"fr-gwiki": {
 				"name": "Siphon d'énergie",
 				"description": "La cible ennemie perd 4...7 points d'énergie. Vous obtenez 2 points d'énergie pour chaque point d'énergie perdu par l'ennemi.",
 				"concise": "Provoque une perte de 4...7 points d'énergie. Vous obtenez 2 points d'énergie par point d'énergie perdu."
+			},
+			"it": {
+				"name": "Fonte di Energia",
+				"description": "Magia. L'obiettivo nemico perde 4...7 Punto[i] Energia e tu ottieni 2 Punti Energia per ogni Punto Energia perduto dal nemico.",
+				"concise": "Magia. Perdita Energia: 4...7. Ottieni 2 Punti Energia per ogni Punto Energia perso."
+			},
+			"jp": {
+				"name": "エネルギー タップ",
+				"description": "スペル： ターゲットした敵は 4...7 のエネルギーを失います。失ったエネルギーのポイントごとに、プレイヤーは2のエネルギーを獲得します。",
+				"concise": "スペル： エネルギーを 4...7 減少させます。プレイヤーは減少させたエネルギーのポイントごとに2のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "에너지 흡수",
+				"description": "마법. 대상 지정: 적. 대상은 4...7의 에너지를 잃고, 자신은 그 2배의 에너지를 얻습니다.",
+				"concise": "마법. 4...7의 에너지 손실을 유발합니다. 자신은 그 2배의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Pobranie Energii",
+				"description": "Czar. Wybrany przeciwnik traci 4...7 pkt. energii. Zyskujesz 2 punkty energii za każdy stracony przez przeciwnika punkt energii.",
+				"concise": "Czar. Powoduje utratę 4...7 pkt. energii. Otrzymujesz 2 punkty energii za każdy punkt straconej energii."
+			},
+			"ru": {
+				"name": "Energy Tap",
+				"description": "Заклинание. Выбранный противник теряет 4...7 ед. энергии. Вы получаете 2 ед. энергии за каждую потерянную им ед. энергии.",
+				"concise": "Заклинание. Вызывает потерю 4...7 ед. энергии. Вы получаете 2 ед. энергии за каждую потерянную ед. энергии."
+			},
+			"bork": {
+				"name": "Inergy Taep",
+				"description": "Spell. Taerget fue-a luses 4...7 Inergy. Yuoo gaeeen 2 Inergy fur iaech pueent ooff Inergy lust.",
+				"concise": "Spell. Cooses 4...7 Inergy luss. Yuoo gaeeen 2 Inergy fur iaech pueent ooff Inergy lust. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "余烬",
+				"description": "负面魔法。 使目标敌人受到10...70点火焰伤害。 在3秒之后，如果该目标没有移动，他将遭受「灼烧」症状3秒。",
+				"concise": "负面魔法。 使目标敌人受到 10...70 火焰伤害。 在 3 秒之后，如果该目标没有移动，则其遭受「灼烧」症状 5...25 秒。"
+			},
+			"cht": {
+				"name": "陰燒餘燼",
+				"description": "降咒魔法： 使目標敵人受到 10...70 火焰傷害。 在 3 秒之後，若該目標沒有移動，則其遭受「著火」病症 3 秒。",
+				"concise": "降咒魔法： 使目標敵人受到 10...70 火焰傷害。 在 3 秒之後，若該目標沒有移動，則其遭受「著火」病症 3 秒。"
+			},
 			"de": {
+				"name": "Glühende Kohle",
+				"description": "Verhexung. Der Gegner erleidet 10...70 Punkte Feuerschaden. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Glühenden Kohlen verhext und erleidet zusätzlich jede Sekunde 5...25 Feuerschaden.",
+				"concise": "Verhexung. Fügt dem Gegner 10...70 Punkte Feuerschaden zu. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden verhext und erleidet jede Sekunde 5...25 Feuerschaden."
+			},
+			"de-guildwiki": {
 				"name": "Glühende Kohle",
 				"description": "Der Gegner erleidet 10...70 Punkte Feuerschaden. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Glühenden Kohlen verhext und erleidet zusätzlich jede Sekunde 5...25 Feuerschaden.",
 				"concise": "Richtet 10...70 Punkte Feuerschaden an. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden verhext und erleidet jede Sekunde 5...25 Feuerschaden."
 			},
 			"en": {
 				"name": "Smoldering Embers",
+				"description": "Hex Spell. Target foe is struck for 10...70 fire damage. If you are Overcast, that foe is hexed with Smoldering Embers for 3 seconds and takes 5...25 additional fire damage each second.",
+				"concise": "Hex Spell. Deals 10...70 fire damage to target. If you are Overcast, foe is hexed for 3 seconds, taking 5...25 fire damage each second."
+			},
+			"en-gww": {
+				"name": "Smoldering Embers",
 				"description": "Target foe is struck for 10...70 fire damage. If you are Overcast, that foe is hexed with Smoldering Embers for 3 seconds and takes 5...25 additional fire damage each second.",
 				"concise": "Deals 10...70 fire damage to target. If you are Overcast, foe is hexed for 3 seconds, taking 5...25 fire damage each second."
 			},
+			"es": {
+				"name": "Brasas humeantes",
+				"description": "Conjuro con maleficio. El enemigo objetivo recibe 10...70 de daño de fuego. Si estás sobrelanzando, ese enemigo queda maldito por las Brasas humeantes durante 3 segundos y recibe 5...25 de daño de fuego adicional cada segundo.",
+				"concise": "Conjuro con maleficio. Hace 10...70 de daño de fuego al objetivo. Si estás sobrelanzando, ese enemigo queda maldito durante 3 segundos y recibe 5...25 de daño de fuego cada segundo."
+			},
 			"fr": {
+				"name": "Charbons ardents",
+				"description": "Maléfice. La cible ennemie subit 10...70 points de dégâts du feu. Si vous êtes en état d'Afflux, l'ennemi est sous l'effet d'un maléfice pendant 3 secondes et subit 5...25 points de dégâts du feu supplémentaires par seconde.",
+				"concise": "Maléfice. Inflige 10...70 points de dégâts de feu à la cible. Si vous êtes en état d'Afflux, l'ennemi reçoit un maléfice pendant 3 secondes, subissant 5...25 points de dégâts du feu par seconde."
+			},
+			"fr-gwiki": {
 				"name": "Ambres ardents",
 				"description": "La cible ennemie reçoit 7...112 points de dégâts du feu. Aprés 3 secondes si la cible ennemie ne bouge pas elle s'embrase pendant 3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Brace Ardente",
+				"description": "Fattura. L'obiettivo nemico subisce 10...70 danni da fuoco. Se sei sotto Sforzo, quel nemico viene raggiunto da Brace Ardente per 3 secondi e subisce 5...25 danni da fuoco aggiuntivi per ogni secondo.",
+				"concise": "Fattura. Danni da fuoco inferti all'obiettivo: 10...70. Fattura subita dal nemico se sei sotto Sforzo: 3 secondi. Danni da fuoco aggiuntivi per secondo: 5...25."
+			},
+			"jp": {
+				"name": "スモルダー エンバー",
+				"description": "弱体化スペル： ターゲットした敵に 10...70 のファイア ダメージを与えます。プレイヤーが「疲労」状態の場合、その敵を 3 秒間弱体化し、毎秒 5...25 の追加ファイア ダメージを与えます。",
+				"concise": "弱体化スペル： ターゲットした敵に 10...70 のファイア ダメージを与えます。プレイヤーが「疲労」状態の場合、敵に 3 秒間、毎秒 5...25 のファイア ダメージを与えます。"
+			},
+			"kr": {
+				"name": "미약한 불씨",
+				"description": "약화 마법. 대상 지정: 적. 대상에게 10...70의 불 대미지를 줍니다. 자신이 탈진 상태면 대상은 3초 동안 미약한 불씨에 약화되어 매초 5...25의 대미지를 추가로 입습니다.",
+				"concise": "약화 마법. 10...70의 불 대미지를 줍니다. 자신이 탈진 상태면 매초 5...25의 불 대미지를 추가로 줍니다.(3초)"
+			},
+			"pl": {
+				"name": "Rozżarzone Zgliszcze",
+				"description": "Klątwa (czar). Wybrany przeciwnik otrzymuje 10...70 pkt. obrażeń od ognia. Jeśli jesteś pod wpływem Przemagicznienia, ten przeciwnik zostanie przeklęty Rozżarzonymi Zgliszczami na 3 sek. i co sekundę będzie otrzymywał 5...25 pkt. dodatkowych obrażeń od ognia.",
+				"concise": "Klątwa (czar). Zadaje wybranemu przeciwnikowi 10...70 pkt. obrażeń od ognia. Jeśli jesteś pod wpływem Przemagicznienia, przeciwnik zostanie przeklęty na 3 sek. i co sekundę będzie otrzymywał 5...25 pkt. obrażeń od ognia."
+			},
+			"ru": {
+				"name": "Smoldering Embers",
+				"description": "Заклинание-проклятье. Выбранный противник получает 10...70 ед. урона силой огня. Если вы утомлены, на этого противника будет наложено проклятье Smoldering Embers на 3 сек, и он будет получать дополнительно 5...25 ед. урона силой огня каждую секунду.",
+				"concise": "Заклинание-проклятье. Наносит цели 10...70 ед. урона силой огня. Если вы утомлены, на противника будет наложено проклятье на 3 сек, наносящее ему 5...25 ед. урона силой огня каждую секунду."
+			},
+			"bork": {
+				"name": "Smuldereeng Imbers",
+				"description": "Hex Spell. Taerget fue-a is stroock fur 10...70 fure-a daemaege-a. Iff yuoo aere-a Oofercaest, thaet fue-a is hexed veet Smuldereeng Imbers fur 3 secunds und taekes 5...25 aeddeeshunael fure-a daemaege-a iaech secund. Bork! Bork! Bork!",
+				"concise": "Hex Spell. Deaels 10...70 fure-a daemaege-a tu taerget. Iff yuoo aere-a Oofercaest, fue-a is hexed fur 3 secunds, taekeeng 5...25 fure-a daemaege-a iaech secund."
 			}
 		}
 	}

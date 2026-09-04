@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "持物者的热诚",
+				"description": "精英增益魔法。 在10...40秒之内，当你对友方施放「武咒」时，你将回复1...5点能量。",
+				"concise": "精英增益魔法。 在10...40秒之内，当你对友方施放「武咒」时，你将回复1...5点能量。"
+			},
+			"cht": {
+				"name": "指揮者狂熱",
+				"description": "精英加持魔法： 持續 10...40 秒，每當你對盟友施放「武裝魔法」時，你獲得 1...5 能量。",
+				"concise": "精英加持魔法： 持續 10...40 秒，每當你對盟友施放「武裝魔法」時，你獲得 1...5 能量。"
+			},
 			"de": {
+				"name": "Eifer des Ausübers",
+				"description": "Elite-Verzauberung. 10...40 Sekunde[n] lang erhaltet Ihr jedes Mal, wenn Ihr einen Waffenzauber auf einen Verbündeten wirkt, 1...5 Energiepunkt[e].",
+				"concise": "Elite-Verzauberung. 10...40 Sekunde[n]: Ihr erhaltet jedes Mal 1...5 Energiepunkt[e], wenn Ihr einen Waffenzauber wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Eifer des Ausübers",
 				"description": "10...40 Sekunden lang erhaltet Ihr jedes Mal, wenn Ihr einen Waffenzauber wirkt, 1...5 Energiepunkte.",
 				"concise": "10...40 Sekunden: Ihr erhaltet jedes Mal 1...5 Energiepunkte, wenn Ihr einen Waffenzauber wirkt."
 			},
 			"en": {
 				"name": "Wielder's Zeal",
+				"description": "Elite Enchantment Spell. For 10...40 seconds, whenever you cast a weapon spell on an ally, you gain 1...5 Energy.",
+				"concise": "Elite Enchantment Spell. (10...40 seconds.) You gain 1...5 Energy whenever you cast a weapon spell."
+			},
+			"en-gww": {
+				"name": "Wielder's Zeal",
 				"description": "For 10...40 seconds, whenever you cast a Weapon Spell on an ally, you gain 1...5 Energy.",
 				"concise": "(10...40 seconds.) You gain 1...5 Energy whenever you cast a weapon spell."
 			},
+			"es": {
+				"name": "Celo del atacante",
+				"description": "Conjuro con encantamiento de élite. Durante 10...40 segundos, cuando lances un conjuro con arma a algún aliado, ganarás 1...5 de energía.",
+				"concise": "Conjuro con encantamiento de élite. (10...40 segundos). Ganas 1...5 de energía cuando lances un conjuro con arma."
+			},
 			"fr": {
+				"name": "Zèle du porteur",
+				"description": "Enchantement d'élite. Pendant 10...40 secondes, chaque fois que vous lancez un sort d'altération d'arme sur un allié, vous bénéficiez de 1...5 points d'énergie.",
+				"concise": "Enchantement d'élite. (10...40 secondes.) Vous obtenez 1...5 points d'énergie chaque fois que vous lancez un sort d'altération d'arme."
+			},
+			"fr-gwiki": {
 				"name": "Zèle du porteur",
 				"description": "Pendant 10...40 secondes, chaque fois que vous lancez un sort d'altération d'arme sur un allié, vous bénéficiez de 1...5 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Zelo del Portatore",
+				"description": "Incantesimo d'Élite. Dura 10...40 secondo[i]; ogni volta che lanci una magia altera-arma su un alleato ottieni 1...5 Punto[i] Energia.",
+				"concise": "Incantesimo d'Élite. (Secondi: 10...40) Energia conseguita ogni volta che lanci una magia altera-arma: 1...5."
+			},
+			"jp": {
+				"name": "ウィルダー ジール",
+				"description": "エリート強化スペル： 10...40 秒間、プレイヤーは味方にウェポン スペルを詠唱するたびに 1...5 のエネルギーを獲得します。",
+				"concise": "エリート強化スペル： (10...40 秒) ウェポン スペルを詠唱するたびに 1...5 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "통제자의 열정",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 10...40초 동안 아군에게 마법 무기 마법을 사용할 때마다 1...5의 에너지를 얻습니다.",
+				"concise": "엘리트 강화 마법. (10...40초) 마법 무기 마법을 사용할 때마다 1...5의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Gorliwość Posiadacza",
+				"description": "Elitarne zaklęcie (czar). Przez 10...40 sek., za każdym razem, kiedy rzucasz czar na broń sojusznika, otrzymujesz 1...5 pkt. energii.",
+				"concise": "Elitarne zaklęcie (czar). (10...40 sek.) Otrzymujesz 1...5 pkt. energii, za każdym razem, kiedy zaczarujesz broń."
+			},
+			"ru": {
+				"name": "Wielder's Zeal",
+				"description": "Элитное заклинание-чары. В течение 10...40 сек каждый раз, когда вы накладываете на союзника какое-либо оружейное заклинание, вы получаете 1...5 ед. энергии.",
+				"concise": "Элитное заклинание-чары. (10...40 сек) Вы получаете 1...5 ед. энергии каждый раз, когда вы произносите оружейное заклинание."
+			},
+			"bork": {
+				"name": "Veeelder's Zeael",
+				"description": "Ileete-a Inchuntment Spell. Fur 10...40 secunds, vhenefer yuoo caest a veaepun spell oon un aelly, yuoo gaeeen 1...5 Inergy.",
+				"concise": "Ileete-a Inchuntment Spell. (10...40 secunds.) Yuoo gaeeen 1...5 Inergy vhenefer yuoo caest a veaepun spell."
 			}
 		}
 	}

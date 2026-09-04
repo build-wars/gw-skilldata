@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "寄生纹章",
+				"description": "纹章。 打断目标敌人的动作。如果被打断的是法术，你将会获得3...15点能量。",
+				"concise": "纹章。 打断目标敌人的动作。如果被打断的是法术，你将获得3...15点能量值。"
+			},
+			"cht": {
+				"name": "搾取紋章",
+				"description": "紋章： 中斷目標敵人的動作。若你成功中斷的動作是該目標施展的「魔法」，你將會獲得 3...15 能量。",
+				"concise": "紋章： 中斷目標敵人的動作。若你成功中斷的動作是該目標施展的「魔法」，你將會獲得 3...15 能量。"
+			},
 			"de": {
+				"name": "Blutsauger-Siegel",
+				"description": "Siegel. Unterbricht die Aktion des Gegners. Falls diese Aktion ein Zauber war, bekommt Ihr 3...15 Energiepunkt[e].",
+				"concise": "Siegel. Unterbricht eine Aktion. Unterbrechungswirkung: Ihr erhaltet 3...15 Energiepunkt[e], falls die Aktion ein Zauber war."
+			},
+			"de-guildwiki": {
 				"name": "Blutsauger-Siegel",
 				"description": "Unterbricht die Aktion des Gegners. Falls diese Aktion ein Zauber war, bekommt Ihr 3...15 Energiepunkte.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Ihr erhaltet 3...15 Energiepunkte, falls die Aktion ein Zauber war."
 			},
 			"en": {
 				"name": "Leech Signet",
+				"description": "Signet. Interrupt target foe's action. If that action was a spell, you gain 3...15 Energy.",
+				"concise": "Signet. Interrupts an action. Interruption effect: you gain 3...15 Energy if the action was a spell."
+			},
+			"en-gww": {
+				"name": "Leech Signet",
 				"description": "Interrupt target foe's action. If that action was a spell, you gain 3...15 Energy.",
 				"concise": "Interrupts an action. Interruption effect: you gain 3...15 Energy if the action was a spell."
 			},
+			"es": {
+				"name": "Sello de la sanguijuela",
+				"description": "Sello. Interrumpe la acción del enemigo objetivo. Si la acción era un conjuro, ganarás 3...15 de energía.",
+				"concise": "Sello. Interrumpe una acción. Efecto de la interrupción: ganas 3...15 de energía si la acción era un conjuro."
+			},
 			"fr": {
+				"name": "Sceau sangsue",
+				"description": "Sceau. Interrompt l'action de l'ennemi. S'il s'agissait d'un sort, vous gagnez 3...15 points d'énergie.",
+				"concise": "Sceau. Interrompt une action. Effet de l'interruption : vous gagnez 3...15 points d'énergie si l'action est un sort."
+			},
+			"fr-gwiki": {
 				"name": "Sceau sangsue",
 				"description": "Interrompt l'action de l'ennemi. S'il s'agissait d'un sort, vous gagnez 3...15 points d'énergie.",
 				"concise": "Interrompt une action. Effet de l'interruption : vous gagnez 3...15 points d'énergie si l'action est un sort."
+			},
+			"it": {
+				"name": "Sigillo della Sanguisuga",
+				"description": "Sigillo. Interrompe l'azione dell'obiettivo nemico. Se si tratta di una magia, ottieni 3...15 Punto[i] Energia.",
+				"concise": "Sigillo. Interrompe un'azione. Effetto dell'interruzione: ottieni 3...15 Punto[i] Energia se l'azione era una magia."
+			},
+			"jp": {
+				"name": "リーチ シグネット",
+				"description": "シグネット： ターゲットした敵のアクションを中断します。スペルを中断した場合、プレイヤーは 3...15 のエネルギーを獲得します。",
+				"concise": "シグネット： アクションを中断します。中断効果： スペルを中断した場合、3...15 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "흡수 인장",
+				"description": "인장. 대상 지정: 적. 대상의 동작을 방해합니다. 방해한 동작이 마법이면 자신은 3...15의 에너지를 얻습니다.",
+				"concise": "인장. 동작을 방해합니다. 방해 효과: 마법을 방해하면 자신은 3...15의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Pijawki",
+				"description": "Sygnet. Przerywasz czynność wybranego przeciwnika. Jeżeli tą czynnością było rzucanie czaru, otrzymujesz 3...15 pkt. energii.",
+				"concise": "Sygnet. Przerywa czynność. Efekt przerwania: jeżeli czynnością było rzucanie czaru, otrzymujesz 3...15 pkt. energii."
+			},
+			"ru": {
+				"name": "Leech Signet",
+				"description": "Печать. Прерывает действие выбранного противника. Если противник произносил заклинание, вы получаете 3...15 ед. энергии.",
+				"concise": "Печать. Прерывает действие. Эффект прерывания: вы получаете 3...15 ед. энергии, если было прервано заклинание."
+			},
+			"bork": {
+				"name": "Leech Seegnet",
+				"description": "Seegnet. Interroopt taerget fue-a's aecshun. Iff thaet aecshun vaes a spell, yuoo gaeeen 3...15 Inergy.",
+				"concise": "Seegnet. Interroopts un aecshun. Interroopshun iffffect: yuoo gaeeen 3...15 Inergy iff zee aecshun vaes a spell."
 			}
 		}
 	}

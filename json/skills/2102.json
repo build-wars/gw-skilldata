@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "惨叫",
+				"description": "咒文。 打断目标敌人的技能。如果目标敌人正遭受一项幻术系的「负面魔法」，则目标敌人以及该区域内的所有敌人都将遭受25...50点伤害。",
+				"concise": "咒文。 打断目标敌人的技能。打断成功后，该敌人以及所有区域内的敌人都将受到25...50点伤害。"
+			},
+			"cht": {
+				"name": "痛苦哭喊",
+				"description": "咒文魔法： 中斷目標技能，若目標身上有幻術師降咒，目標及範圍內所有敵人受到25...50傷害，並且受到體力衰減3...5(10秒)。",
+				"concise": "咒文魔法： 中斷目標技能，若目標身上有幻術師降咒，目標及範圍內所有敵人受到25...50傷害，並且受到體力衰減3...5(10秒)。"
+			},
 			"de": {
+				"name": "Schmerzensschrei",
+				"description": "Zauber. Unterbrecht die Fertigkeit des Gegners. Wenn dieser Gegner unter einer Mesmer-Verhexung gelitten hat, nehmen dieser Gegner und alle Feinde in dem Bereich 25...50 Punkt[e] Schaden und 10 Sekunden lang eine Lebenspunktedegeneration von 3...5.",
+				"concise": "Zauber. Unterbricht eine Fähigkeit. Wenn Gegner eine Mesmer-Verhexung erlitten hat, werden 25...50 Punkt[e] Schaden beim Gegner und Feinden in dem Bereich angerichtet und 10 Sekunden lang ist eine Lebenspunktedegeneration von -3...5 wirksam."
+			},
+			"de-guildwiki": {
 				"name": "Schmerzensschrei",
 				"description": "Unterbricht die Fertigkeit des Gegners. Wenn dieser Gegner unter einer Mesmer-Verhexung gelitten hat, nehmen dieser Gegner und alle Feinde in dem Bereich 25...50 Punkte Schaden und 10 Sekunden lang eine Lebenspunktdegeneration von -3...5.",
 				"concise": "Unterbricht eine Fähigkeit. Wenn Gegner eine Mesmer-Verhexung erlitten hat, werden 25...50 Punkte Schaden beim Gegner und Feinden in dem Bereich angerichtet und 10 Sekunden lang ist eine Lebenspunktdegeneration von -3...5 wirksam."
 			},
 			"en": {
 				"name": "Cry of Pain",
+				"description": "Spell. Interrupt target foe's skill. If that foe was suffering from a Mesmer hex, that foe and all foes in the area take 25...50 damage and have 3...5 Health degeneration for 10 seconds.",
+				"concise": "Spell. Interrupts a skill. If target foe had a Mesmer hex, deals 25...50 damage to target and foes in the area and causes -3...5 Health degeneration (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Cry of Pain",
 				"description": "Interrupt target foe's skill. If that foe was suffering from a Mesmer hex, that foe and all foes in the area take 25...50 damage and have 3...5 Health degeneration for 10 seconds.",
 				"concise": "Interrupts a skill. If target foe had a Mesmer hex, deals 25...50 damage to target and foes in the area and causes 3...5 Health degeneration (10 seconds)."
 			},
+			"es": {
+				"name": "Grito de dolor",
+				"description": "Conjuro. Interrumpes la habilidad del enemigo objetivo. Si éste ya padecía un maleficio de Hipnotizador, dicho enemigo y todos los enemigos de la zona recibirán 25...50 de daño y sufrirán 3...5 de degeneración de salud durante 10 segundos.",
+				"concise": "Conjuro. Interrumpe una habilidad. Si el enemigo objetivo ya padecía otro maleficio de Hipnotizador, recibe 25...50 de daño y los enemigos de la zona sufren -3...5 de degeneración de salud (10 segundos)."
+			},
 			"fr": {
+				"name": "Cri de douleur",
+				"description": "Sort. Interrompt la compétence de l'ennemi visé. Si celui-ci souffrait d'un maléfice d'Envoûteur, lui et tous les ennemis proches encaissent 25...50 points de dégâts et subissent une dégénération de santé de -3...5 pendant 10 secondes.",
+				"concise": "Sort. Interrompt une compétence. Si l'ennemi visé souffrait d'un maléfice d'Envoûteur, la cible et les ennemis dans la zone encaissent 25...50 points de dégâts et subissent une dégénération de santé de -3...5 (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Cri de douleur",
 				"description": "Interrompt la compétence de l'ennemi visé. Si celui-ci souffrait d'un maléfice d'Envoûteur, lui et tous les ennemis proches encaissent 25...50 points de dégâts et subissent une dégénération de santé de -3...5 pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Grido di Dolore",
+				"description": "Magia. Interrompi l'abilità dell'obiettivo nemico. Se è sotto l'effetto di una fattura dell'Ipnotizzatore, lui e tutti i nemici nell'area subiscono 25...50 danni e una Degenerazione Salute di 3...5 per 10 secondi.",
+				"concise": "Magia. Interrompe un'abilità. Se l'obiettivo nemico è sotto l'effetto di una fattura dell'Ipnotizzatore assesta 25...50 danni all'obiettivo e ai nemici nell'area e causa Degenerazione della Salute di -3...5 (10 secondi)."
+			},
+			"jp": {
+				"name": "ペイン クライ",
+				"description": "スペル： ターゲットした敵のスキルを中断します。ターゲットにメスマーの弱体化スペルがかけられていた場合、その敵とエリア内にいる敵はすべて 25...50 のダメージを受け、10秒間、体力の自然回復力が 3...5 減少します。",
+				"concise": "スペル： スキルを1個中断します。ターゲットした敵にメスマーの弱体化スペルがかけられていた場合、ターゲットとそのエリア内にいる敵は 25...50 のダメージを受け、体力の自然回復力が 3...5 減少します (10秒) 。"
+			},
+			"kr": {
+				"name": "고통의 울부짖음",
+				"description": "마법. 대상 지정: 적. 대상의 스킬을 방해합니다. 대상이 메스머 약화 마법에 걸려 있으면, 대상과 일정 범위 내에 있는 모든 적은 25...50의 대미지를 입고, 10초 동안 체력 재생이 3...5만큼 감소합니다.",
+				"concise": "마법. 스킬을 방해합니다. 대상이 메스머 약화 마법에 걸려 있으면 대상과 그를 중심으로 일정 범위 내에 있는 적들에게 25...50의 대미지를 주고, 체력 재생을 3...5만큼 감소시킵니다.(10초)"
+			},
+			"pl": {
+				"name": "Okrzyk Bólu",
+				"description": "Czar. Przerywa umiejętność wybranego przeciwnika. Jeżeli ten przeciwnik był pod działaniem klątwy mesmera, to zarówno on, jak i wszyscy przeciwnicy w okolicy otrzymują po 25...50 pkt. obrażeń, zaś ich żywotność spada o 3...5 na 10 sekund.",
+				"concise": "Czar. Przerywa umiejętność. Zadaje 25...50 pkt. obrażeń wybranemu przeciwnikowi i przeciwnikom w okolicy, jeżeli wybrany przeciwnik jest pod działaniem klątwy mesmera, a także powoduje spadek żywotości o 3...5 (10 sekund)."
+			},
+			"ru": {
+				"name": "Cry of Pain",
+				"description": "Заклинание. Прерывает умение выбранного противника. Если на этого противника было наложено какое-либо проклятье профессии Mesmer, этот противник и все противники в зоне досягаемости получают 25...50 ед. урона, а их скорость восстановления здоровья уменьшается на 3...5 ед. в течение 10 сек.",
+				"concise": "Заклинание. Прерывает умение. Если на выбранном противнике было проклятье профессии Mesmer, наносит 25...50 ед. урона выбранному противнику и противникам в зоне досягаемости и дает -3...5 ед. к их скорости восстановления здоровья (10 сек)."
+			},
+			"bork": {
+				"name": "Cry ooff Paeeen",
+				"description": "Spell. Interroopt taerget fue-a's skeell. Iff thaet fue-a vaes sooffffereeng frum a Mesmer hex, thaet fue-a und aell fues in zee aerea taeke-a 25...50 daemaege-a und haefe-a 3...5 Heaelt degeneraeshun fur 10 secunds.",
+				"concise": "Spell. Interroopts a skeell. Iff taerget fue-a haed a Mesmer hex, deaels 25...50 daemaege-a tu taerget und fues in zee aerea und cooses -3...5 Heaelt degeneraeshun (10 secunds)."
 			}
 		}
 	}

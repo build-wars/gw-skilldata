@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "感同身受",
+				"description": "增益魔法。 在4...10秒之内，当友方目标被近身攻击打中时，邻近友方目标的所有我方敌人将失去所有怒气和3点能量。",
+				"concise": "增益魔法。 当友方目标被近身攻击打中时，友方目标周围的敌人将失去所有怒气和 3点 能量，效果持续 4...10秒。"
+			},
+			"cht": {
+				"name": "感同身受",
+				"description": "加持魔法： 持續 4...10 秒，每當目標盟友被近身攻擊命中時，所有鄰近該盟友的敵人失去所有怒氣值及 3 能量。",
+				"concise": "加持魔法： 持續 4...10 秒，每當目標盟友被近身攻擊命中時，所有鄰近該盟友的敵人失去所有怒氣值及 3 能量。"
+			},
 			"de": {
+				"name": "Sympathisches Gesicht",
+				"description": "Verzauberung. 4...10 Sekunde[n] lang verlieren alle umstehenden Feinde jedes Mal, wenn der Verbündete (bzw. Ihr selbst) im Nahkampf getroffen wird, sämtliches Adrenalin sowie drei Energiepunkte.",
+				"concise": "Verzauberung. 4...10 Sekunde[n]: Alle umstehenden Feinde verlieren jedes Mal sämtliches Adrenalin und 3 Energiepunkte, wenn ein Nahkampfangriff den Verbündeten (bzw. Euch selbst) trifft."
+			},
+			"de-guildwiki": {
 				"name": "Sympathisches Gesicht",
 				"description": "4...10 Sekunden lang verlieren alle umstehenden Feinde jedes Mal, wenn der Verbündete (bzw. Ihr selbst) im Nahkampf getroffen wird, sämtliches Adrenalin sowie 3 Energiepunkte.",
 				"concise": "4...10 Sekunden: Alle umstehenden Feinde verlieren jedes Mal sämtliches Adrenalin und 3 Energiepunkte, wenn ein Nahkampfangriff den Verbündeten (bzw. Euch selbst) trifft."
 			},
 			"en": {
 				"name": "Sympathetic Visage",
+				"description": "Enchantment Spell. For 4...10 seconds, whenever target ally is hit by a melee attack, all adjacent foes lose all adrenaline and 3 Energy.",
+				"concise": "Enchantment Spell. (4...10 seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally."
+			},
+			"en-gww": {
+				"name": "Sympathetic Visage",
 				"description": "For 4...10 seconds, whenever target ally is hit by a melee attack, all adjacent foes lose all adrenaline and 3 Energy.",
 				"concise": "(4...10 seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally."
 			},
+			"es": {
+				"name": "Semblante cordial",
+				"description": "Conjuro con encantamiento. Durante 4...10 segundos, siempre que el objetivo (un aliado o tú mismo) sea golpeado en un ataque cuerpo a cuerpo, todos los enemigos cercanos pierden su adrenalina y 3 de energía.",
+				"concise": "Conjuro con encantamiento. (4...10 segundos). Todos los enemigos adyacentes pierden su adrenalina y 3 de energía cada vez que el objetivo (un aliado o tú mismo) sea golpeado por un ataque cuerpo a cuerpo."
+			},
 			"fr": {
+				"name": "Visage avenant",
+				"description": "Enchantement. Pendant 4...10 secondes, à chaque fois que la cible (un allié ou vous-même) visée est touchée au corps à corps, tous les ennemis adjacents perdent toute leur adrénaline et 3 points d'énergie.",
+				"concise": "Enchantement. (4...10 secondes.) Tous les ennemis adjacents perdent toute leur adrénaline ainsi que 3 points d'énergie chaque fois que la cible (un allié ou vous-même) est touchée par une attaque au corps à corps."
+			},
+			"fr-gwiki": {
 				"name": "Visage avenant",
 				"description": "Pendant 4...10 secondes, à chaque fois que la cible (un allié ou vous-même) visée est touchée au corps à corps, tous les ennemis adjacents perdent toute leur adrénaline et 3 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aspetto Compassionevole",
+				"description": "Incantesimo. Dura 4...10 secondo[i]; ogni volta che l'obiettivo (un alleato o te stesso) viene colpito da un attacco ravvicinato, tutti i nemici adiacenti perdono tutta l'adrenalina e 3 Punti Energia.",
+				"concise": "Incantesimo. (Secondi: 4...10) Tutti i nemici adiacenti perdono tutta l'adrenalina e 3 Punti Energia ogni volta che l'obiettivo (un alleato o te stesso) viene colpito da un attacco ravvicinato."
+			},
+			"jp": {
+				"name": "シンパセティック ヴィサージュ",
+				"description": "強化スペル： 4...10 秒間、ターゲットした味方が近接攻撃を受けるたびに、隣接するすべての敵はアドレナリンをすべて失い、エネルギーが3減少します。",
+				"concise": "強化スペル： (4...10 秒) ターゲットした味方が近接攻撃を受けるたびに、隣接するすべての敵はアドレナリンをすべて失い、エネルギーが3減少します。"
+			},
+			"kr": {
+				"name": "고통의 파장",
+				"description": "강화 마법. 대상 지정: 아군. 4...10초 동안 대상이 근접 물리 공격에 적중될 때마다 대상에 인접한 모든 적은 3의 에너지와 모든 아드레날린을 잃습니다.",
+				"concise": "강화 마법. (4...10초) 대상 아군이 근접 물리 공격에 적중될 때마다 그에 인접한 적들은 3의 에너지와 모든 아드레날린을 잃습니다."
+			},
+			"pl": {
+				"name": "Życzliwe Oblicze",
+				"description": "Zaklęcie (czar). Przez 4...10 sek., za każdym razem, kiedy wybrany sojusznik zostanie trafiony atakiem wręcz, wszyscy przeciwnicy bezpośrednio przy nim stracą całą adrenalinę i 3 punkty energii.",
+				"concise": "Zaklęcie (czar). (4...10 sek.) Wszyscy przeciwnicy w kontakcie tracą adrenalinę i 3 pkt. energii, za każdym razem, kiedy atak wręcz trafi wybranego sojusznika."
+			},
+			"ru": {
+				"name": "Sympathetic Visage",
+				"description": "Заклинание-чары. В течение 4...10 сек каждый раз, когда в выбранного союзника попадает рукопашная атака, все окружающие противники теряют весь свой адреналин и 3 ед. энергии.",
+				"concise": "Заклинание-чары. (4...10 сек) Все окружающие противники теряют весь адреналин и 3 ед. энергии каждый раз, когда выбранный союзник получает урон от рукопашной атаки."
+			},
+			"bork": {
+				"name": "Sympaezeeteec Feesaege-a",
+				"description": "Inchuntment Spell. Fur 4...10 secunds, vhenefer taerget aelly is heet by a melee-a aettaeck, aell aedjaecent fues luse-a aell aedrenaeleene-a und 3 Inergy.",
+				"concise": "Inchuntment Spell. (4...10 secunds.) Aell aedjaecent fues luse-a aell aedrenaeleene-a und 3 Inergy vhenefer a melee-a aettaeck heets taerget aelly."
 			}
 		}
 	}

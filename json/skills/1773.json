@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "军士之怒",
+				"description": "精英回音技。 在10...35秒之内，当你受到「战吼」或「圣歌」的效果影响时，你的攻击速度提升33%。",
+				"concise": "精英回音技。 在10...35秒之内，当你受到「战吼」或「圣歌」的效果影响时，你的攻击速度提升33%。"
+			},
+			"cht": {
+				"name": "士兵的狂暴",
+				"description": "精英迴響： 持續 10...35 秒，若你有戰嚎或者聖歌的效果，則攻擊速度增加 33% ，獲得的怒氣值也增加 33% ，但是你的防禦減少 20 。",
+				"concise": "精英迴響： 持續 10...35 秒，若你有戰嚎或者聖歌的效果，則攻擊速度增加 33% ，獲得的怒氣值也增加 33% ，但是你的防禦減少 20 。"
+			},
 			"de": {
+				"name": "Wut des Soldaten",
+				"description": "Elite-Echo. 10...35 Sekunde[n] lang greift Ihr um 33% schneller an und erhaltet um 33% mehr Adrenalin, wenn Ihr mit einem Anfeuerungsruf oder Schrei belegt seid, allerdings habt Ihr -20 Rüstung.",
+				"concise": "Elite-Echo. (10...35 Sekunde[n].) Ihr greift um 33% schneller an und erhaltet um 33% mehr Adrenalin, falls Ihr unter dem Einfluss eines Schreis oder Anfeuerungsrufs steht. Ihr habt -20 Rüstung."
+			},
+			"de-guildwiki": {
 				"name": "Wut des Soldaten",
 				"description": "10...35 Sekunden lang greift Ihr um 33% schneller an und erhaltet um 33% mehr Adrenalin, wenn Ihr mit einem Anfeuerungsruf oder Schrei belegt seid, allerdings habt Ihr -20 Rüstung.",
 				"concise": "(10...35 Sekunden.) Ihr greift um 33% schneller an und erhaltet um 33% mehr Adrenalin, falls Ihr unter dem Einfluss eines Schreis oder Anfeuerungsrufs steht. <gray>Ihr habt -20 Rüstung.</gray>"
 			},
 			"en": {
 				"name": "Soldier's Fury",
+				"description": "Elite Echo. For 10...35 seconds, if you are under the effects of a chant or a shout, you attack 33% faster and gain 33% more adrenaline, but you have -20 armor.",
+				"concise": "Elite Echo. (10...35 seconds.) You attack 33% faster and gain 33% more adrenaline if under the effects of a shout or chant. You have -20 armor"
+			},
+			"en-gww": {
+				"name": "Soldier's Fury",
 				"description": "For 10...35 seconds, if you are under the effects of a chant or a shout, you attack 33% faster and gain 33% more adrenaline, but you have -20 armor.",
 				"concise": "(10...35 seconds.) You attack 33% faster and gain 33% more adrenaline if under the effects of a shout or chant. <gray>You have -20 armor.</gray>"
 			},
+			"es": {
+				"name": "Furia del soldado",
+				"description": "Eco de élite. Durante 10...35 segundos, si estás bajo los efectos de un cántico o grito, atacas un 33% más deprisa y ganas 33% más de adrenalina, pero tienes -20 de armadura.",
+				"concise": "Eco de élite. (10...35 segundos). Atacas un 33% más deprisa y ganas 33% de adrenalina si estás bajo los efectos de un grito o cántico. Tienes -20 de armadura."
+			},
 			"fr": {
+				"name": "Fureur du soldat",
+				"description": "Echo d'élite. Pendant 10...35 secondes, si vous êtes sous l'effet d'un chant ou d'un cri, votre vitesse d'attaque augmente de 33% et vous bénéficiez de 33% d'adrénaline en plus, mais vous avez un malus d'armure de -20.",
+				"concise": "Echo d'élite. (10...35 secondes.) Vous attaquez 33% plus vite et bénéficiez de 33% d'adrénaline en plus si vous êtes sous l'effet d'un cri ou d'un chant. Vous avez un malus d'armure de -20."
+			},
+			"fr-gwiki": {
 				"name": "Fureur du soldat",
 				"description": "Pendant 10...35 secondes, si vous êtes sous les effets d'un chant ou d'un cri, votre vitesse d'attaque augmente de 33% et vous bénéficiez de 33% d'adrénaline en plus. Votre armure est réduite de 20 (10 secondes) si un chant ou un cri vous affectant prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Furia del Soldato",
+				"description": "Eco d'Élite. Per 10...35 secondo[i], se ti trovi sotto gli effetti di un canto o di un urlo, la tua velocità d'attacco aumenta di un 33% e ottieni un 33% in più di adrenalina, ma hai -20 di armatura.",
+				"concise": "Eco d'Élite. (Secondo[i]: 10...35). Incremento della tua velocità d'attacco: 33%. Incremento di adrenalina se sei sotto gli effetti di un urlo o un canto: 33%. Hai -20 di armatura"
+			},
+			"jp": {
+				"name": "ソルジャー フューリー",
+				"description": "エリート エコー： 10...35 秒間、プレイヤーにチャントまたはシャウトがかけられている場合、攻撃速度が 33%、獲得するアドレナリンが 33% 増加しますが、防御力が20減少します。",
+				"concise": "エリート エコー： (10...35 秒) シャウトまたはチャントがかけられている場合、攻撃速度が 33%、獲得するアドレナリンが 33% 増加します。防御力が20減少します。"
+			},
+			"kr": {
+				"name": "병사의 분노",
+				"description": "엘리트 공명. 대상 지정: 없음. 10...35초 동안 고함이나 영창의 효과를 받으면 공격 속도가 33% 빨라지고, 아드레날린을 33%만큼 더 얻습니다. 고함이나 영창 효과가 끝나면 방어력이 20만큼 감소합니다.",
+				"concise": "엘리트 공명. (10...35초) 고함이나 영창의 효과를 받으면 공격 속도가 33% 빨라지고, 아드레날린을 33% 더 얻습니다. 방어력이 20만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Żołnierska Furia",
+				"description": "Elitarne echo. Przez 10...35 sek., jeśli znajdujesz się pod działaniem okrzyku lub pieśni, atakujesz 33% szybciej i otrzymujesz 33% więcej adrenaliny, ale posiadasz -20 pkt. pancerza.",
+				"concise": "Elitarne echo. (10...35 sek.) Atakujesz o 33% szybciej oraz otrzymujesz 33% więcej adrenaliny, jeżeli jesteś pod działaniem okrzyku lub pieśni. Posiadasz -20 pkt. pancerza"
+			},
+			"ru": {
+				"name": "Soldier's Fury",
+				"description": "Элитное эхо. В течение 10...35 сек, если вы находитесь под влиянием какого-либо крика или хорала, вы атакуете на 33% быстрее и получаете адреналина на 33% больше, но ваша защита уменьшается на 20 ед.",
+				"concise": "Элитное эхо. (10...35 сек) Вы атакуете на 33% быстрее и получаете на адреналина на 33% больше, если находитесь под влиянием какого-либо крика или хорала. Вы получаете -20 ед. к защите."
+			},
+			"bork": {
+				"name": "Suldeeer's Foory",
+				"description": "Ileete-a Ichu. Fur 10...35 secunds, iff yuoo aere-a under zee iffffects ooff a chunt oor a shuoot, yuoo aettaeck 33% faester und gaeeen 33% mure-a aedrenaeleene-a, boot yuoo haefe-a -20 aermur.",
+				"concise": "Ileete-a Ichu. (10...35 secunds.) Yuoo aettaeck 33% faester und gaeeen 33% mure-a aedrenaeleene-a iff under zee iffffects ooff a shuoot oor chunt. Yuoo haefe-a -20 aermur"
 			}
 		}
 	}

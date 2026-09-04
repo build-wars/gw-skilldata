@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Angorodon's Gaze",
+				"description": "咒文。 Steal 10...50 Health from target foe. If you are suffering from a condition, you gain 3...12 Energy.",
+				"concise": "咒文。 Steals 10...50 Health. You gain 3...12 Energy if you have a condition."
+			},
+			"cht": {
+				"name": "安哥羅頓的凝視",
+				"description": "咒文魔法： 偷取目標敵人10...50 體力。若你正遭受病症，你將獲得 3...12 能量。",
+				"concise": "咒文魔法： 偷取目標敵人10...50 體力。若你正遭受病症，你將獲得 3...12 能量。"
+			},
 			"de": {
+				"name": "Angorodons Starren",
+				"description": "Zauber. Entzieht dem Gegner 10...50 Lebenspunkt[e]. Wenn Ihr an einem Zustand leidet, erhaltet Ihr 3...12 Energiepunkt[e].",
+				"concise": "Zauber. Entzieht 10...50 Lebenspunkt[e]. Ihr erhaltet 3...12 Energiepunkt[e], falls Ihr einen Zustand habt."
+			},
+			"de-guildwiki": {
 				"name": "Angorodons Starren",
 				"description": "Entzieht dem Gegner 10...50 Lebenspunkte. Wenn Ihr an einem Zustand leidet, erhaltet Ihr 3...12 Energiepunkte.",
 				"concise": "Entzieht 10...50 Lebenspunkte. Ihr erhaltet 3...12 Energiepunkte, falls Ihr einen Zustand habt."
 			},
 			"en": {
 				"name": "Angorodon's Gaze",
+				"description": "Spell. Steal 10...50 Health from target foe. If you are suffering from a condition, you gain 3...12 Energy.",
+				"concise": "Spell. Steals 10...50 Health. You gain 3...12 Energy if you have a condition."
+			},
+			"en-gww": {
+				"name": "Angorodon's Gaze",
 				"description": "Steal 10...50 Health from target foe. If you are suffering from a condition, you gain 3...12 Energy.",
 				"concise": "Steals 10...50 Health. You gain 3...12 Energy if you have a condition."
 			},
+			"es": {
+				"name": "Mirada de Angorodon",
+				"description": "Conjuro. Robas 10...50 de salud del enemigo objetivo. Si estás sufriendo alguna condición, ganas 3...12 de energía.",
+				"concise": "Conjuro. Roba 10...50 de salud. Ganas 3...12 de energía si tienes una condición."
+			},
 			"fr": {
+				"name": "Regard d'Angorodon",
+				"description": "Sort. Vous volez 10...50 points de vie à la cible ennemie. Si vous souffrez d'une condition, vous recevez 3...12 points d'énergie.",
+				"concise": "Sort. Vole 10...50 points de vie. Vous gagnez 3...12 points d'énergie si vous souffrez d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Regard d'Angorodon",
 				"description": "Vous volez 10...40 points de vie à la cible ennemie. Si vous souffrez d'une condition, vous recevez 1...13 point(s) d'énergie.",
 				"concise": "Vole 10...40 points de vie. Vous gagnez 1...13 point(s) d'énergie si vous souffrez d'une condition."
+			},
+			"it": {
+				"name": "Sguardo dell'Angorodon",
+				"description": "Magia. Sottrai 10...50 Punto[i] Salute all'obiettivo nemico; se sei affetto da una condizione ottieni 3...12 Punto[i] Energia.",
+				"concise": "Magia. Sottrazione Salute: 10...50. Energia conseguita se hai una condizione: 3...12."
+			},
+			"jp": {
+				"name": "アンゴロドン ゲイズ",
+				"description": "スペル： ターゲットした敵から 10...50 の体力を奪い取ります。自分自身に「状態異常」がかけられている場合、3...12 のエネルギーを獲得します。",
+				"concise": "スペル： 10...50 の体力を奪い取ります。プレイヤーに「状態異常」がかけられている場合、3...12 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "안고로돈의 시선",
+				"description": "마법. 대상 지정: 적. 대상에게서 10...50의 체력을 뺏습니다. 자신이 상태이상에 걸려 있으면 3...12의 에너지를 얻습니다.",
+				"concise": "마법. 10...50의 체력을 뺏습니다. 자신이 상태이상에 걸려 있으면 3...12의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Spojrzenie Angorodona",
+				"description": "Czar. Wybranemu przeciwnikowi wykradasz 10...50 pkt. żywotności. Jeżeli jesteś pod działaniem przypadłości, otrzymujesz 3...12 pkt. energii.",
+				"concise": "Czar. Wykrada 10...50 pkt. żywotności. Otrzymujesz 3...12 pkt. energii, jeżeli jesteś pod działaniem przypadłości."
+			},
+			"ru": {
+				"name": "Angorodon's Gaze",
+				"description": "Заклинание. Вы похищаете 10...50 ед. здоровья у выбранного противника. Если вы находитесь под воздействием какого-либо состояния, вы получаете 3...12 ед. энергии.",
+				"concise": "Заклинание. Похищает 10...50 ед. здоровья. Вы получаете 3...12 ед. энергии, если на вас наложено состояние."
+			},
+			"bork": {
+				"name": "Ungurudun's Gaeze-a",
+				"description": "Spell. Steael 10...50 Heaelt frum taerget fue-a. Iff yuoo aere-a sooffffereeng frum a cundeeshun, yuoo gaeeen 3...12 Inergy. Bork! Bork! Bork!",
+				"concise": "Spell. Steaels 10...50 Heaelt. Yuoo gaeeen 3...12 Inergy iff yuoo haefe-a a cundeeshun."
 			}
 		}
 	}

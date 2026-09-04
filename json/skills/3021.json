@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "天火燎原",
+				"description": "精英咒文。 在目标敌人脚下召唤一片熊熊烈火。在5秒之内，所有在火焰附近的敌人将受到每秒5...20点伤害。此法术生效后，每秒再追加5...20点伤害。",
+				"concise": "精英咒文。 在目标敌人脚下召唤一片熊熊烈火。在5秒之内，所有在火焰附近的敌人将受到每秒5...20点伤害。此法术生效后，每秒再追加5...20点伤害。"
+			},
+			"cht": {
+				"name": "燎原之火",
+				"description": "精英咒文魔法： 在目標敵人所在地點創造燎原之火。持續 5 秒，使附近的所有敵人每秒受到 5...20 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 5...20 額外火焰傷害。",
+				"concise": "精英咒文魔法： 在目標敵人所在地點創造燎原之火。持續 5 秒，使附近的所有敵人每秒受到 5...20 火焰傷害，並且在此「魔法」的持續時間中每秒再附加 5...20 額外傷害。"
+			},
 			"de": {
+				"name": "Hitze der Savanne (PvP)",
+				"description": "Elite-Zauber. An der Position des Gegners wird Hitze der Savanne erzeugt. In den nächsten 5 Sekunde[n] erleiden alle Gegner in der Nähe 5...20 Punkt[e] Feuerschaden pro Sekunde der Wirkzeit des Zaubers.",
+				"concise": "Elite-Zauber. Richtet pro Sekunde ab dem Wirken des Spruchs (5 Sekunde[n]) 5...20 Punkt[e] Feuerschaden an. Trifft Feinde in der Nähe der ursprünglichen Position des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Hitze der Savanne (PvP)",
 				"description": "An der Position des Gegners wird Hitze der Savanne erzeugt. In den nächsten 5 Sekunden erleiden alle Gegner in der Nähe 5...20 Punkte Feuerschaden pro Sekunde der Wirkzeit des Zaubers.",
 				"concise": "Richtet jede Sekunde ab dem Wirken des Spruchs (5 Sekunden) 5...20 Punkte Feuerschaden an. Trifft Feinde in der Nähe der ursprünglichen Position des Ziels."
 			},
 			"en": {
 				"name": "Savannah Heat (PvP)",
+				"description": "Elite Spell. You create Savannah Heat at target foe's location. For 5 seconds, all nearby foes take 5...20 fire damage for each second this spell has been in effect.",
+				"concise": "Elite Spell. Deals 5...20 fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location."
+			},
+			"en-gww": {
+				"name": "Savannah Heat (PvP)",
 				"description": "You create Savannah Heat at target foe's location. For 5 seconds, all nearby foes take 5...20 fire damage for each second this spell has been in effect.",
 				"concise": "Deals 5...20 fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location."
 			},
+			"es": {
+				"name": "Calor de la Sabana (PvP)",
+				"description": "Conjuro de élite. Creas un Calor de la Sabana en la ubicación del enemigo objetivo. Durante 5 segundos, todos los enemigos cercanos reciben 5...20 de daño de fuego cada segundo que el conjuro esté activo.",
+				"concise": "Conjuro de élite. Causa 5...20 de daño de fuego por segundo desde el momento en que se lanza el conjuro (5 segundos). Alcanza a los enemigos cercanos a la ubicación inicial del objetivo."
+			},
 			"fr": {
+				"name": "Chaleur de savane (PvP)",
+				"description": "Sort d'élite. Vous créez une Chaleur de savane sur la position de l'ennemi visé. Pendant 5 secondes, tous les ennemis à proximité subissent 5...20 points de dégâts du feu pour chaque seconde d'activation de ce sort.",
+				"concise": "Sort d'élite. Inflige 5...20 points de dégâts du feu par seconde à compter du lancement du sort (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Chaleur de savane (PvP)",
 				"description": "Vous créez une Chaleur de savane sur la position de l'ennemi visé. Pendant 5 secondes, tous les ennemis à proximité subissent 5...20 points de dégâts chaque seconde et 5...20 points de dégâts en plus pour chaque seconde d'activation de ce sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Calore della Savana (PvP)",
+				"description": "Magia d'Élite. Crei Calore della Savana nella posizione dell'obiettivo nemico. Per 5 secondi, tutti i nemici nei dintorni subiscono 5...20 danni da fuoco per ogni secondo di attività della magia.",
+				"concise": "Magia d'Élite. Assesta 5...20 danni da fuoco per ogni secondo successivo al lancio della magia (5 secondi). Colpisce i nemici vicini alla posizione iniziale dell'obiettivo."
+			},
+			"jp": {
+				"name": "サバンナ ヒート (PvP)",
+				"description": "エリート スペル： ターゲットした敵の場所に熱波を起こします。5 秒間、周囲にいるすべての敵にこの効果の持続秒数ごとに 5...20 のファイア ダメージを与えます。",
+				"concise": "エリート スペル： (5 秒) 発動時にターゲットがいた場所の周囲にいる敵に毎秒 5...20 のファイア ダメージを与えます。"
+			},
+			"kr": {
+				"name": "사바나의 불길(대인전)",
+				"description": "엘리트 마법. 대상 지정: 적. 대상이 있는 자리에 사바나의 불길을 일으킵니다. 5초 동안 부근에 있는 모든 적에게 매초 5...20의 불 대미지를 줍니다.",
+				"concise": "엘리트 마법. 대상 위치 부근의 적들에게 마법 시전 시부터 매초 5...20의 대미지를 줍니다.(5초)"
+			},
+			"pl": {
+				"name": "Żar Sawanny (PvP)",
+				"description": "Elitarny czar. W miejscu, gdzie znajduje się wybrany przeciwnik tworzysz Żar Sawanny. Przez 5 sek. wszyscy przeciwnicy w pobliżu otrzymują co sekundę 5...20 pkt. obrażeń od ognia za każdą sekundę działania tego czaru.",
+				"concise": "Elitarny czar. W każdej sekundzie od rzucenia czaru zadaje 5...20 pkt. obrażeń od ognia (5 sek.). Trafia przeciwników w pobliżu początkowego miejsca znajdowania się celu."
+			},
+			"ru": {
+				"name": "Savannah Heat (PvP)",
+				"description": "Элитное заклинание. Вы создаете Savannah Heat в месте нахождения выбранного противника. В течение 5 сек все находящиеся поблизости противники получают 5...20 ед. урона силой огня за каждую секунду действия заклинания.",
+				"concise": "Элитное заклинание. Наносит 5...20 ед. урона силой огня за каждую секунду, прошедшую с момента активации этого заклинания (5 сек). Поражает противников поблизости от первоначального местоположения цели."
+			},
+			"bork": {
+				"name": "Saefunnaeh Heaet (PfP)",
+				"description": "Ileete-a Spell. Yuoo creaete-a Saefunnaeh Heaet aet taerget fue-a's lucaeshun. Fur 5 secunds, aell neaerby fues taeke-a 5...20 fure-a daemaege-a fur iaech secund thees spell haes beee in iffffect.",
+				"concise": "Ileete-a Spell. Deaels 5...20 fure-a daemaege-a fur iaech secund seence-a caesteeng thees spell (5 secunds). Heets fues neaer taerget's ineeteeael lucaeshun."
 			}
 		}
 	}

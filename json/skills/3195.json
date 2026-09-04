@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Wandering Eye",
+				"description": "负面魔法。 For 4 seconds, the next time target foe attacks, that attack is interrupted and all nearby foes take 10...92 damage.",
+				"concise": "负面魔法。 (4 seconds.) Interrupts target foe's next attack. Interruption effect: 10...92 damage to nearby foes."
+			},
+			"cht": {
+				"name": "恍惚之眼",
+				"description": "降咒魔法： 持續 4 秒，使目標敵人下一次嘗試進行攻擊時，該攻擊將被中斷並且所有附近敵人受到 10...92 傷害。",
+				"concise": "降咒魔法： 持續 4 秒，使目標敵人下一次嘗試進行攻擊時，該攻擊將被中斷並且所有附近敵人受到 10...92 傷害。"
+			},
 			"de": {
+				"name": "Wanderndes Auge (PvP)",
+				"description": "Verhexung. 4 Sekunde[n] lang wird der nächste Angriff des Gegners, falls dieser anzugreifen versucht, unterbrochen und alle Feinde in der Nähe erleiden 10...92 Punkt[e] Schaden.",
+				"concise": "Verhexung. (4 Sekunde[n].) Unterbricht den nächsten Angriff des Gegners. Unterbrechungswirkung: 10...92 Punkt[e] Schaden bei Gegnern in der Nähe."
+			},
+			"de-guildwiki": {
 				"name": "Wanderndes Auge (PvP)",
 				"description": "4 Sekunden lang wird der nächste Angriff des Gegners, falls dieser anzugreifen versucht, unterbrochen und alle Feinde in der Nähe erleiden 10...92 Punkte Schaden.",
 				"concise": "4 Sekunden: Unterbricht den nächsten Angriff des Gegners. Unterbrechungswirkung: 10...92 Punkte Schaden bei Feinden in der Nähe."
 			},
 			"en": {
 				"name": "Wandering Eye (PvP)",
+				"description": "Hex Spell. For 4 seconds, the next time target foe attacks, that attack is interrupted and all nearby foes take 10...92 damage.",
+				"concise": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: 10...92 damage to nearby foes."
+			},
+			"en-gww": {
+				"name": "Wandering Eye (PvP)",
 				"description": "For 4 seconds, the next time target foe attacks, that attack is interrupted and all nearby foes take 10...92 damage.",
 				"concise": "(4 seconds.) Interrupts target foe's next attack. Interruption effect: 10...92 damage to nearby foes."
 			},
+			"es": {
+				"name": "Ojo errante (PvP)",
+				"description": "Conjuro con maleficio. Durante 4 segundos, la próxima vez que el enemigo objetivo ataque, le interrumpirás y todos los enemigos cercanos recibirán 10...92 de daño.",
+				"concise": "Conjuro con maleficio. (4 segundos). Interrumpe el próximo ataque del enemigo objetivo. Efecto de interrupción: 10...92 de daño a los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Oeil errant (PvP)",
+				"description": "Maléfice. Pendant 4 secondes, la prochaine fois que l'ennemi visé attaque, son attaque est interrompue et tous les ennemis à proximité subissent 10...92 points de dégâts.",
+				"concise": "Maléfice. (4 secondes.) Interrompt l'attaque suivante de l'ennemi visé. Effet de l'interruption : les ennemis à proximité subissent 10...92 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Oeil errant (PvP)",
 				"description": "Pendant 4 secondes, la prochaine fois que l'ennemi visé attaque, son attaque est interrompue et tous les ennemis à proximité subissent 10...92 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Occhio Vagante (PvP)",
+				"description": "Fattura. Dura 4 secondi. La prossima volta che l'obiettivo nemico sferra un attacco viene interrotto e tutti i nemici nei dintorni subiscono 10...92 danni.",
+				"concise": "Fattura. (Secondi: 4). Interrompe l'attacco successivo dell'obiettivo nemico. Effetto dell'interruzione: 10...92 danni inflitti ai nemici nei dintorni."
+			},
+			"jp": {
+				"name": "ワンダー アイ (PvP)",
+				"description": "弱体化スペル： 4 秒間、ターゲットした敵が行う最初の攻撃を中断し、周囲にいる敵に 10...92 のダメージを与えます。",
+				"concise": "弱体化スペル： (4 秒) ターゲットした敵が行う次の攻撃を中断します。中断効果：周囲にいる敵に 10...92 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "종잡을 수 없는 시선(대인전)",
+				"description": "약화 마법. 대상 지정: 적. 4초 동안 대상의 공격이 방해 받고, 부근의 모든 적이 10...92의 대미지를 입습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법. (4초) 대상의 다음 공격을 방해합니다. 방해 효과: 부근의 적들에게 10...92의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Błędne Oko (PvP)",
+				"description": "Klątwa (czar). Przez 4 sek., następnym razem, gdy wybrany przeciwnik wykona atak, zostanie on przerwany, a wszyscy przeciwnicy w pobliżu otrzymają po 10...92 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (4 sek.) Przerywa następny atak wybranego przeciwnika. Efekt przerwania: 10...92 pkt. obrażeń dla przeciwników w pobliżu."
+			},
+			"ru": {
+				"name": "Wandering Eye (PvP)",
+				"description": "Заклинание-проклятье. В течение 4 сек в следующий раз, когда выбранный противник будет атаковать, эта атака будет прервана, и все противники поблизости получат 10...92 ед. урона.",
+				"concise": "Заклинание-проклятье. (4 сек) Прерывает следующую атаку выбранного противника. Эффект прерывания: наносит 10...92 ед. урона противникам поблизости."
+			},
+			"bork": {
+				"name": "Vundereeng Iye-a (PfP)",
+				"description": "Hex Spell. Fur 4 secunds, zee next teeme-a taerget fue-a aettaecks, thaet aettaeck is interroopted und aell neaerby fues taeke-a 10...92 daemaege-a.",
+				"concise": "Hex Spell. (4 secunds.) Interroopts taerget fue-a's next aettaeck. Interroopshun iffffect: 10...92 daemaege-a tu neaerby fues."
 			}
 		}
 	}

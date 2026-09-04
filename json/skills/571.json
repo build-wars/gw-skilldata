@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱投射",
+				"description": "咒文。 向目标敌人射出一把匕首，对其造成10...35点地系伤害。如果对方正在使用技能，则该技能被打断。此技能的施放距离只有正常技能的一半。",
+				"concise": "半程法术。 向目标敌人射出一把匕首，对其造成10...35点地系伤害。如果对方正在使用技能，则该技能被打断。此技能的施放距离只有正常技能的一半。"
+			},
+			"cht": {
+				"name": "飛散匕首",
+				"description": "咒文魔法： 射出飛散匕首，對目標敵人造成 10...35 土系傷害。若該目標正在使用「技能」，則該「技能」被中斷。此「魔法」的有效距離是普通的一半。",
+				"concise": "半距魔法： 射出飛散匕首，對目標敵人造成 10...35 土系傷害。若該目標正在使用「技能」，則該「技能」被中斷。此「魔法」的有效距離是普通的一半。"
+			},
 			"de": {
+				"name": "Unterbrechender Dolch",
+				"description": "Zauber. Ein Unterbrechender Dolch fliegt auf den Gegner zu und fügt 10...35 Punkt[e] Erdschaden zu. Wenn dieser Gegner eine Fertigkeit aktiviert hat, wird diese unterbrochen. Dieser Zauber hat nur die halbe Reichweite.",
+				"concise": "Mitteldistanz-Zauber. Geschoss: Richtet 10...35 Punkt[e] Erdschaden an. Unterbricht eine Fertigkeit."
+			},
+			"de-guildwiki": {
 				"name": "Unterbrechender Dolch",
 				"description": "Ein unterbrechender Dolch fliegt schnell auf den Gegner zu und fügt 10...35 Punkte Erdschaden zu. Wenn dieser Gegner eine Fertigkeit aktiviert hat, wird diese unterbrochen. Dieser Zauber hat nur die halbe Reichweite.",
 				"concise": "Schnelles Geschoss: Richtet 10...35 Punkte Erdschaden an. Unterbricht eine Fertigkeit."
 			},
 			"en": {
 				"name": "Disrupting Dagger",
+				"description": "Spell. Send out a Disrupting Dagger at target foe that strikes for 10...35 earth damage. If that foe was activating a skill, that skill is interrupted. This spell has half the normal range.",
+				"concise": "Half Range Spell. Projectile: deals 10...35 earth damage. Interrupts a skill."
+			},
+			"en-gww": {
+				"name": "Disrupting Dagger",
 				"description": "Send out a Disrupting Dagger at target foe that strikes for 10...35 earth damage. If that foe was activating a skill, that skill is interrupted. This spell has half the normal range.",
 				"concise": "Half Range Spell. Projectile: deals 10...35 earth damage. Interrupts a skill."
 			},
+			"es": {
+				"name": "Daga desbaratadora",
+				"description": "Conjuro. Lanzas una Daga desbaratadora al enemigo objetivo que le hará 10...35 de daño de tierra. Si estaba intentando usar una habilidad, le interrumpirás. Este conjuro tiene la mitad de alcance de lo normal.",
+				"concise": "Conjuro con mitad de alcance. Proyectil: hace 10...35 de daño de tierra. Interrumpe una habilidad."
+			},
 			"fr": {
+				"name": "Dague d'interruption",
+				"description": "Sort. Vous envoyez une Dague d'interruption sur la cible ennemie qui inflige 10...35 points de dégâts de la terre. Si cet ennemi était en train d'activer une compétence, celle-ci est interrompue. Sa portée est la moitié de celle d'un sort normal.",
+				"concise": "Sort de moitié de portée. Projectile : inflige 10...35 points de dégâts de la terre. Interrompt une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Dague d'interruption",
 				"description": "Vous envoyez une Dague d'interruption sur la cible ennemie qui inflige 10...35 points de dégâts de la terre. Si cet ennemi était en train d'activer une compétence, celle-ci est interrompue. Sa portée est la moitié de celle d'un sort normal.",
 				"concise": "Projectile : inflige 10...35 points de dégâts de la terre. Interrompt une compétence."
+			},
+			"it": {
+				"name": "Pugnale Dirompente",
+				"description": "Magia. Scagli contro l'obiettivo nemico un Pugnale Dirompente che infligge 10...35 danno[i] da terra. Se l'obiettivo nemico stava attivando un'abilità, viene interrotto. La portata di questa magia è la metà del normale.",
+				"concise": "Magia a Portata Dimezzata. Proiettile. Danni da terra: 10...35. Interrompe un'abilità."
+			},
+			"jp": {
+				"name": "ディスラプト ダガー",
+				"description": "スペル： ターゲットした敵にディスラプト ダガーを投げつけます。命中すると 10...35 のアース ダメージを与えます。その敵がスキルを発動していた場合、そのスキルを中断します。このスペルの射程は通常の半分です。",
+				"concise": "スペル (半分の効果範囲)： 遠投攻撃： 10...35 のアース ダメージを与えてスキルを中断します。"
+			},
+			"kr": {
+				"name": "혼란의 비수",
+				"description": "마법. 대상 지정: 적. 혼란의 비수를 날려 대상에게 10...35의 대지 대미지를 줍니다. 대상이 스킬을 시전하는 중이라면 그 스킬을 방해합니다. 이 스킬은 사정거리가 다른 스킬의 절반입니다.",
+				"concise": "마법(사거리 절반). 발사체: 10...35의 대지 대미지를 주고, 스킬을 방해합니다."
+			},
+			"pl": {
+				"name": "Przerywający Sztylet",
+				"description": "Czar. Rzucasz Przerywającym Sztyletem w wybranego przeciwnika i zadajesz mu 10...35 pkt. obrażeń od ziemi. Jeśli przeciwnik aktywuje umiejętność, to zostaje ona przerwana. Ten czar posiada zasięg dwa razy mniejszy niż zwykły czar.",
+				"concise": "Czar o połowie zasięgu. Pocisk: zadaje 10...35 pkt. obrażeń od ziemi. Przerywa umiejętność."
+			},
+			"ru": {
+				"name": "Disrupting Dagger",
+				"description": "Заклинание. Вы бросаете в выбранного противника Disrupting Dagger, который наносит 10...35 ед. урона силой земли. Если противник в этот момент использовал какое-либо умение, это умение прерывается. Это заклинание имеет вдвое меньшую дальность, чем обычно.",
+				"concise": "Заклинание на среднее расстояние. Метательный снаряд: наносит 10...35 ед. урона силой земли. Прерывает умение."
+			},
+			"bork": {
+				"name": "Deesroopteeng Daegger",
+				"description": "Spell. Send oooot a Deesroopteeng Daegger aet taerget fue-a thaet streekes fur 10...35 iaert daemaege-a. Iff thaet fue-a vaes aecteefaeteeng a skeell, thaet skeell is interroopted. Thees spell haes haelff zee nurmael runge-a.",
+				"concise": "Haelff Runge-a Spell. Prujecteele-a: deaels 10...35 iaert daemaege-a. Interroopts a skeell. Bork! Bork! Bork!"
 			}
 		}
 	}

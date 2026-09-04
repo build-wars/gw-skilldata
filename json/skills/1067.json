@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灭绝冲击",
+				"description": "咒文。 使目标敌人受到 12...48点 暗影伤害。如果该目标生命高于 50% ，你将偷取其最多 12...48点 生命。",
+				"concise": "咒文。 使目标敌人受到 12...48点 暗影伤害。如果该目标生命高于 50% ，你将偷取其最多 12...48点 生命。"
+			},
+			"cht": {
+				"name": "滅絕衝擊",
+				"description": "咒文魔法： 使目標敵人受到 12...48 暗影傷害。若該目標體力高於 50% ，你偷取其最多 12...48 體力。",
+				"concise": "咒文魔法： 使目標敵人受到 12...48 暗影傷害。若該目標體力高於 50% ，你偷取其最多 12...48 體力。"
+			},
 			"de": {
+				"name": "Lebensfluchstoß",
+				"description": "Zauber. Der Gegner erleidet 12...48 Punkt[e] Schattenschaden. Sind seine Lebenspunkte über 50%, entzieht Ihr ihm bis zu 12...48 Lebenspunkt[e].",
+				"concise": "Zauber. Richtet 12...48 Punkt[e] Schaden an. Entzieht 12...48 Lebenspunkt[e], falls der Gegner mehr als 50% seiner maximalen Lebenspunkte hat."
+			},
+			"de-guildwiki": {
 				"name": "Lebensfluchstoß",
 				"description": "Der Gegner erleidet 12...48 Punkte Schattenschaden. Sind seine Lebenspunkte über 50%, entzieht Ihr ihm bis zu 12...48 Lebenspunkte.",
 				"concise": "Richtet 12...48 Punkte Schaden an. Entzieht 12...48 Lebensunkte, falls der Gegner mehr als 50% seiner maximalen Lebenspunkte hat."
 			},
 			"en": {
 				"name": "Lifebane Strike",
+				"description": "Spell. Target foe takes 12...48 shadow damage. If that foe's Health is above 50%, you steal up to 12...48 Health.",
+				"concise": "Spell. Deals 12...48 damage. Steals 12...48 Health if target foe's Health is above 50%."
+			},
+			"en-gww": {
+				"name": "Lifebane Strike",
 				"description": "Target foe takes 12...48 shadow damage. If that foe's Health is above 50%, you steal up to 12...48 Health.",
 				"concise": "Deals 12...48 damage. Steals 12...48 Health if target foe's Health is above 50%."
 			},
+			"es": {
+				"name": "Golpe envenenado",
+				"description": "Conjuro. El enemigo objetivo recibe 12...48 de daño de sombra. Si la salud de ese enemigo está por encima del 50%, le robarás 12...48 de salud.",
+				"concise": "Conjuro. Hace 12...48 de daño. Roba 12...48 de salud si el enemigo objetivo está por encima del 50% de salud."
+			},
 			"fr": {
+				"name": "Coup du fléau",
+				"description": "Sort. L'ennemi subit 12...48 points de dégâts de l'ombre. S'il a plus de 50% de ses points de vie, vous lui volez jusqu'à 12...48 points de vie.",
+				"concise": "Sort. Inflige 12...48 points de dégâts. Vole 12...48 points de vie si la santé de la cible ennemie est supérieure à 50%."
+			},
+			"fr-gwiki": {
 				"name": "Coup du fléau",
 				"description": "L'ennemi subit 12...48 points de dégâts de l'ombre. S'il a plus de 50% de ses points de vie, vous lui volez jusqu'à 12...48 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Devastavita",
+				"description": "Magia. L'obiettivo nemico subisce 12...48 danno[i] da ombra. Se la sua Salute è superiore al 50%, gli sottrarrai fino a 12...48 Punto[i] Salute.",
+				"concise": "Magia. Danni inferti: 12...48. Salute sottratta se la Salute dell'obiettivo nemico è superiore al 50%: 12...48."
+			},
+			"jp": {
+				"name": "ライフベイン ストライク",
+				"description": "スペル： ターゲットした敵に 12...48 の暗黒ダメージを与えます。その敵の体力が上限の50%より多い場合、最大 12...48 の体力を奪い取ります。",
+				"concise": "スペル： 12...48 のダメージを与えます。ターゲットした敵の体力が上限の50%より多い場合、12...48 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "생명흡수의 일격",
+				"description": "마법. 대상 지정: 적. 대상에게 12...48의 암흑 대미지를 줍니다. 그 대상의 체력이 50%가 넘으면 12...48의 체력을 뺏습니다.",
+				"concise": "마법. 12...48의 대미지를 줍니다. 대상의 체력이 50%가 넘으면 12...48의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Zgubne Uderzenie",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 12...48 pkt. obrażeń od cienia. Jeżeli ten przeciwnik ma ponad 50% pkt. żywotności, wykradasz mu 12...48 pkt. żywotności.",
+				"concise": "Czar. Zadaje 12...48 pkt. obrażeń. Wykrada 12...48 pkt. żywotności, jeżeli wybrany przeciwnik ma powyżej 50% żywotności."
+			},
+			"ru": {
+				"name": "Lifebane Strike",
+				"description": "Заклинание. Выбранный противник получает 12...48 ед. урона силой тьмы. Если уровень здоровья этого противника выше 50%, вы похищаете до 12...48 ед. здоровья.",
+				"concise": "Заклинание. Наносит 12...48 ед. урона. Похищает 12...48 ед. здоровья, если у выбранного противника более 50% здоровья."
+			},
+			"bork": {
+				"name": "Leeffebune-a Streeke-a",
+				"description": "Spell. Taerget fue-a taekes 12...48 shaedoo daemaege-a. Iff thaet fue-a's Heaelt is aebufe-a 50%, yuoo steael up tu 12...48 Heaelt.",
+				"concise": "Spell. Deaels 12...48 daemaege-a. Steaels 12...48 Heaelt iff taerget fue-a's Heaelt is aebufe-a 50%."
 			}
 		}
 	}

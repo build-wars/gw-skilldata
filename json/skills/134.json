@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 17,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "痛苦之令",
+				"description": "增益魔法。 牺牲自己最大生命值的 17%。在 5秒之内，当我方队友物理攻击命中时，附加3...16点额外伤害。",
+				"concise": "增益魔法。 牺牲自己最大生命值的17%。在5秒之内，当我方队友对一名敌人造成物理伤害时，该敌人将受到3...16点额外伤害。"
+			},
+			"cht": {
+				"name": "痛苦命令",
+				"description": "加持魔法： 犧牲自己最大體力的 17% 。使我方的所有隊伍成員在 5 秒內利用物理攻擊命中敵人時，造成 3...16 額外傷害。",
+				"concise": "加持魔法： 犧牲自己最大體力的 17% 。使我方的所有隊伍成員在 5 秒內利用物理攻擊命中敵人時，造成 3...16 額外傷害。"
+			},
 			"de": {
+				"name": "Orden der Schmerzen",
+				"description": "Verzauberung. 5 Sekunden lang fügt ein Gruppenmitglied jedes Mal, wenn es einem Gegner physischen Schaden zufügt, +3...16 Punkt[e] Schaden zu.",
+				"concise": "Verzauberung. Verzaubert alle Gruppenmitglieder (5 Sekunden). +3...16 Punkt[e] Schaden, wenn diese Gruppenmitglieder physischen Schaden anrichten."
+			},
+			"de-guildwiki": {
 				"name": "Orden der Schmerzen",
 				"description": "5 Sekunden lang fügt ein Gruppenmitglied jedes Mal, wenn es einem Gegner physischen Schaden zufügt, +3...16 Punkte Schaden zu.",
 				"concise": "Verzaubert alle Gruppenmitglieder (5 Sekunden). +3...16 Punkte Schaden, wenn diese Gruppenmitglieder physischen Schaden anrichten."
 			},
 			"en": {
 				"name": "Order of Pain",
+				"description": "Enchantment Spell. For 5 seconds, whenever a party member hits a foe with physical damage, that party member does +3...16 damage.",
+				"concise": "Enchantment Spell. Enchants all party members (5 seconds). 3...16 more damage whenever these party members hit with physical damage."
+			},
+			"en-gww": {
+				"name": "Order of Pain",
 				"description": "For 5 seconds, whenever a party member hits a foe with physical damage, that party member does +3...16 damage.",
 				"concise": "Enchants all party members (5 seconds). 3...16 more damage whenever these party members hit with physical damage."
 			},
+			"es": {
+				"name": "Orden del dolor",
+				"description": "Conjuro con encantamiento. Durante 5 segundos, siempre que un miembro del grupo golpee a un enemigo con daño físico, ese miembro causará +3...16 de daño adicional.",
+				"concise": "Conjuro con encantamiento. Encanta a todos los miembros del grupo (5 segundos). 3...16 de daño extra cada vez que alguno haga daño físico."
+			},
 			"fr": {
+				"name": "Ordre de la douleur",
+				"description": "Enchantement. Pendant 5 secondes, à chaque fois qu'un membre du groupe inflige des dégâts physiques à l'ennemi, il inflige +3...16 points de dégâts.",
+				"concise": "Enchantement. Enchante tous les membres de l'équipe (5 secondes). 3...16 points de dégâts supplémentaires chaque fois qu'ils infligent des dégâts physiques."
+			},
+			"fr-gwiki": {
 				"name": "Ordre de la douleur",
 				"description": "Pendant 5 secondes, à chaque fois qu'un membre du groupe inflige des dégâts physiques à l'ennemi, il inflige +3...16 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ordine del Dolore",
+				"description": "Incantesimo. Per 5 secondi, ogni volta che un membro della squadra provoca danni fisici al nemico, gli infligge anche +3...16 danno[i].",
+				"concise": "Incantesimo. Incanta tutti i membri della squadra (5 secondi). 3...16 danno[i] in più ogni volta che questi membri della squadra assestano danni fisici."
+			},
+			"jp": {
+				"name": "ペイン オーダー",
+				"description": "強化スペル： 5秒間、パーティー メンバーは敵に対する物理ダメージが成功するたびに 3...16 の追加ダメージを与えます。",
+				"concise": "強化スペル： (5秒) パーティー メンバーは全員、与える物理ダメージが 3...16 増加します。"
+			},
+			"kr": {
+				"name": "고통의 명령",
+				"description": "강화 마법. 대상 지정: 없음. 5초 동안 파티원이 물리 공격을 할 때마다 적에게 3...16 대미지를 추가로 줍니다.",
+				"concise": "강화 마법. (5초) 파티원들이 주는 물리 대미지가 3...16 증가합니다."
+			},
+			"pl": {
+				"name": "Rozkaz Bólu",
+				"description": "Zaklęcie (czar). Przez 5 sek., za każdym razem, kiedy członek drużyny trafi przeciwnika i zada mu obrażenia fizyczne, ten członek drużyny zada dodatkowo 3...16 pkt. obrażeń.",
+				"concise": "Zaklęcie (czar). Zaklina wszystkich członków drużyny (5 sek.). 3...16 pkt. dodatkowych obrażeń, za każdym razem, kiedy zadają oni fizyczne obrażenia."
+			},
+			"ru": {
+				"name": "Order of Pain",
+				"description": "Заклинание-чары. В течение 5 сек каждый раз, когда член вашего отряда наносит противнику физический урон, он наносит дополнительно 3...16 ед. урона.",
+				"concise": "Заклинание-чары. Накладывает чары на всех членов отряда (5 сек). Увеличивает урона на 3...16 ед. каждый раз, когда они наносят противнику физический урон."
+			},
+			"bork": {
+				"name": "Oorder ooff Paeeen",
+				"description": "Inchuntment Spell. Fur 5 secunds, vhenefer a paerty member heets a fue-a veet physeecael daemaege-a, thaet paerty member dues +3...16 daemaege-a.",
+				"concise": "Inchuntment Spell. Inchunts aell paerty members (5 secunds). 3...16 mure-a daemaege-a vhenefer zeese-a paerty members heet veet physeecael daemaege-a."
 			}
 		}
 	}

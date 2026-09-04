@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法活力",
+				"description": "增益魔法。 在20秒之内，每次当你命中敌人时，你将根据你所带有的「增益魔法」效果数量，每一个为你回复3...15点生命值。（最多25点生命值）",
+				"concise": "增益魔法。 在20秒之内，每次当你命中敌人时，你将根据你所带有的「增益魔法」效果数量，每一个为你回复3...15点生命值。（最多25点生命值）"
+			},
+			"cht": {
+				"name": "活力祕法",
+				"description": "加持魔法： 持續 20 秒，每次你攻擊成功時，依照你身上擁有的「加持」數量，每項讓你獲得 3...15 體力。(一次最多獲得 25 體力)",
+				"concise": "加持魔法： 持續 20 秒，每次你攻擊成功時，依照你身上擁有的「加持」數量，每項讓你獲得 3...15 體力。(一次最多獲得 25 體力)"
+			},
 			"de": {
+				"name": "Mystische Vitalität",
+				"description": "Verzauberung. 20 Sekunde[n] lang erhaltet Ihr jedes Mal, wenn einer Eurer Angriffe erfolgreich ist, für jede Verzauberung, die auf Euch liegt, 3...15 Lebenspunkt[e] (maximal 25 Lebenspunkt[e]).",
+				"concise": "Verzauberung. 20 Sekunde[n]: Jedes Mal, wenn ein Angriff von Euch trifft, erhaltet Ihr für jede Verzauberung auf Euch 3...15 Lebenspunkt[e] (maximal 25)."
+			},
+			"de-guildwiki": {
 				"name": "Mystische Vitalität",
 				"description": "20 Sekunden lang erhaltet Ihr jedes Mal, wenn einer Eurer Angriffe erfolgreich ist, für jede Verzauberung, die auf Euch liegt, 3...15 Lebenspunkte (maximal 25 Lebenspunkte).",
 				"concise": "20 Sekunden: Jedes Mal, wenn ein Angriff von Euch trifft, erhaltet Ihr für jede Verzauberung auf Euch 3...15 Lebenspunkte (maximal 25)."
 			},
 			"en": {
 				"name": "Mystic Vigor",
+				"description": "Enchantment Spell. For 20 seconds, every time you successfully hit with an attack, you gain 3...15 Health for each enchantment on you (maximum 25 Health).",
+				"concise": "Enchantment Spell. (20 seconds.) You gain 3...15 Health (maximum 25) for each enchantment on you whenever you hit with an attack."
+			},
+			"en-gww": {
+				"name": "Mystic Vigor",
 				"description": "For 20 seconds, every time you successfully hit with an attack, you gain 3...15 Health for each enchantment on you (maximum 25 Health).",
 				"concise": "(20 seconds.) You gain 3...15 Health (maximum 25) for each enchantment on you whenever you hit with an attack."
 			},
+			"es": {
+				"name": "Vigor místico",
+				"description": "Conjuro con encantamiento. Durante 20 segundos, cada vez que ataques con éxito, ganas 3...15 de salud por cada encantamiento que tengas (máximo 25 de salud).",
+				"concise": "Conjuro con encantamiento. (20 segundos). Ganas 3...15 de salud (máximo 25) por cada encantamiento que tengas cuando ataques con éxito."
+			},
 			"fr": {
+				"name": "Vigueur mystique",
+				"description": "Enchantement. Pendant 20 secondes, chaque fois que vous réussissez une attaque, vous gagnez 3...15 points de vie pour chaque enchantement qui vous affecte (25 points de vie maximum).",
+				"concise": "Enchantement. (20 secondes.) Chaque fois que vous réussissez une attaque, vous gagnez 3...15 points de vie (maximum : 25) par enchantement vous affectant."
+			},
+			"fr-gwiki": {
 				"name": "Vigueur mystique",
 				"description": "Pendant 20 secondes, chaque fois que vous réussissez une attaque, vous gagnez 1...7 point(s) de vie pour chaque enchantement qui vous affecte (25 points de vie maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vigore Mistico",
+				"description": "Incantesimo. Per 20 secondo[i], ogni volta che un tuo attacco va a segno, ottieni 3...15 Punto[i] Salute per ogni incantesimo che hai addosso (max. 25 Punto[i] Salute).",
+				"concise": "Incantesimo. (Secondi: 20) Salute conseguita per ogni incantesimo che hai addosso ogni volta che colpisci con un attacco: 3...15 (max 25)."
+			},
+			"jp": {
+				"name": "ミスティック ヴィガー",
+				"description": "強化スペル： 20 秒間、攻撃が成功するたびに、プレイヤーにかけられている強化スペルごとに 3...15 の体力を獲得します (最大 25 の体力) 。",
+				"concise": "強化スペル： (20 秒) 攻撃が成功するたびに、かけられている強化スペルごとに 3...15 の体力を獲得します (最大 25 の体力) 。"
+			},
+			"kr": {
+				"name": "신비로운 활력",
+				"description": "강화 마법. 대상 지정: 없음. 20초 동안 공격이 성공할 때마다 자신에게 걸린 강화 마법 하나당 3...15의 체력을 회복합니다. 최대 25의 체력을 회복합니다.",
+				"concise": "강화 마법. (20초) 공격이 성공할 때마다 자신에게 걸린 강화 마법 하나당 3...15씩, 최대 25의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Mistyczny Wigor",
+				"description": "Zaklęcie (czar). Przez 20 sek., za każdym razem, kiedy twój atak trafi, otrzymujesz 3...15 pkt. żywotności za każde zaklęcie, które masz na sobie (maksymalnie 25 pkt. żywotności).",
+				"concise": "Zaklęcie (czar). (20 sek.) Za każdym razem, kiedy twój atak trafi, otrzymujesz 3...15 pkt. żywotności (maksymalnie 25) za każde zaklęcie na tobie."
+			},
+			"ru": {
+				"name": "Mystic Vigor",
+				"description": "Заклинание-чары. В течение 20 сек каждый раз, когда вы проводите успешную атаку, вы получаете 3...15 ед. здоровья за каждые наложенные на вас чары (максимум 25 ед. здоровья).",
+				"concise": "Заклинание-чары. (20 сек) Вы получаете 3...15 ед. здоровья (но не более 25 ед.) за каждые наложенные на вас чары каждый раз, когда вы проводите успешную атаку."
+			},
+			"bork": {
+				"name": "Mysteec Feegur",
+				"description": "Inchuntment Spell. Fur 20 secunds, ifery teeme-a yuoo sooccessffoolly heet veet un aettaeck, yuoo gaeeen 3...15 Heaelt fur iaech inchuntment oon yuoo (maexeemoom 25 Heaelt).",
+				"concise": "Inchuntment Spell. (20 secunds.) Yuoo gaeeen 3...15 Heaelt (maexeemoom 25) fur iaech inchuntment oon yuoo vhenefer yuoo heet veet un aettaeck."
 			}
 		}
 	}

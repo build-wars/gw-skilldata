@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "麻木",
+				"description": "技能。 持续 10...35 秒，当你施展「缚灵仪式」技能时，受到的伤害减少 50 。",
+				"concise": "技能。 持续 10...35 秒，当你施展「缚灵仪式」技能时，受到的伤害减少 50 。"
+			},
+			"cht": {
+				"name": "無情護甲",
+				"description": "技能： 持續10...35秒，使音量所及範圍內的靈受到的傷害減少50%，且對致命傷害免疫。",
+				"concise": "技能： 持續10...35秒，使音量所及範圍內的靈受到的傷害減少50%，且對致命傷害免疫。"
+			},
 			"de": {
+				"name": "Rüstung der Gefühllosigkeit",
+				"description": "Fertigkeit. 10...35 Sekunde[n] lang verringert sich der von Euren Geistern in Hörweite erlittene Schaden um 50% und sie sind gegen kritische Treffer gefeit.",
+				"concise": "Fertigkeit. (10...35 Sekunde[n].) Eure Geister in Hörweite erleiden 50% weniger Schaden und sind gegen kritische Treffer gefeit."
+			},
+			"de-guildwiki": {
 				"name": "Rüstung der Gefühllosigkeit",
 				"description": "10...35 Sekunden lang verringert sich der von Euren Geistern in Hörweite erlittene Schaden um 50% und sie sind gegen kritische Treffer gefeit.",
 				"concise": "(10...35 Sekunden.) Eure Geister in Hörweite erleiden 50% weniger Schaden und sind gegen kritische Treffer gefeit."
 			},
 			"en": {
 				"name": "Armor of Unfeeling",
+				"description": "Skill. For 10...35 seconds, your spirits within earshot take 50% less damage and are immune to critical hits.",
+				"concise": "Skill. (10...35 seconds.) Your spirits within earshot take 50% less damage and are immune to critical hits."
+			},
+			"en-gww": {
+				"name": "Armor of Unfeeling",
 				"description": "For 10...35 seconds, your spirits within earshot take 50% less damage and are immune to critical attacks.",
 				"concise": "(10...35 seconds.) Your spirits within earshot take 50% less damage and are immune to critical attacks."
 			},
+			"es": {
+				"name": "Armadura de insensibilidad",
+				"description": "Habilidad. Durante 10...35 segundos, tus espíritus al alcance del oído reciben 50% menos de daño y son inmunes a ataques críticos.",
+				"concise": "Habilidad. (10...35 segundos.) Tus espíritus al alcance del oído reciben 50% menos de daño y son inmunes a ataques críticos."
+			},
 			"fr": {
+				"name": "Armure de l'impassible",
+				"description": "Compétence. Pendant 10...35 secondes, vos esprits à portée de voix subissent 50% de dégâts en moins et sont immunisés contre les coups critiques.",
+				"concise": "Compétence. (10...35 secondes.) Vos esprits à portée de voix subissent 50% de dégâts en moins et sont immunisés contre les coups critiques."
+			},
+			"fr-gwiki": {
 				"name": "Armure de l'impassible",
 				"description": "Pendant 10...35 secondes, vos esprits à portée de voix subissent 50% de dégâts en moins et sont immunisés contre les coups critiques.",
 				"concise": "(10...35 secondes.) Vos esprits à portée de voix subissent 50% de dégâts en moins et sont immunisés contre les coups critiques."
+			},
+			"it": {
+				"name": "Armatura dell'Insensibile",
+				"description": "Abilità. Per 10...35 secondi i tuoi spiriti a portata d'orecchio subiscono un 50% di danni in meno e sono immuni agli attacchi critici.",
+				"concise": "Abilità. (Secondi: 10...35). I tuoi spiriti a portata d'orecchio subiscono un 50% di danni in meno e sono immuni agli attacchi critici."
+			},
+			"jp": {
+				"name": "アンフィール アーマー",
+				"description": "スキル： 10...35 秒間、声の届く範囲内にいるプレイヤーが召喚した精霊は受けるダメージが 50% 減少し、クリティカル ヒットを受けません。",
+				"concise": "スキル： (10...35 秒) 声の届く範囲内にいるプレイヤーが召喚した精霊は受けるダメージが 50% 減少し、クリティカル ヒットを受けません。"
+			},
+			"kr": {
+				"name": "무의식의 갑옷",
+				"description": "스킬. 대상 지정: 없음. 10...35초 동안 가청 범위 내에 있는 자신의 영혼이 입는 대미지가 50% 감소하고, 치명타를 맞지 않습니다.",
+				"concise": "스킬. (10...35초) 가청 범위 내에 있는 자신의 영혼이 입는 대미지가 50% 감소하고, 치명타를 맞지 않습니다."
+			},
+			"pl": {
+				"name": "Zbroja Nieczułości",
+				"description": "Umiejętność. Przez 10...35 sek., twoje duchy w zasięgu słuchu otrzymują 50% mniej obrażeń i są odporne na trafienia krytyczne.",
+				"concise": "Umiejętność. (10...35 sek.) Twoje duchy w zasięgu słuchu otrzymują 50% mniej obrażeń i są odporne na trafienia krytyczne."
+			},
+			"ru": {
+				"name": "Armor of Unfeeling",
+				"description": "Умение. В течение 10...35 сек ваши духи, находящиеся в зоне слышимости, получают урона на 50% меньше и не получают критических ударов.",
+				"concise": "Умение. (10...35 сек) Ваши духи, находящиеся в зоне слышимости, получают урона на 50% меньше и не получают критических ударов."
+			},
+			"bork": {
+				"name": "Aermur ooff Unffeeleeng",
+				"description": "Skeell. Fur 10...35 secunds, yuoor spureets veetheen iaershut taeke-a 50% less daemaege-a und aere-a immoone-a tu creeteecael heets.",
+				"concise": "Skeell. (10...35 secunds.) Yuoor spureets veetheen iaershut taeke-a 50% less daemaege-a und aere-a immoone-a tu creeteecael heets."
 			}
 		}
 	}

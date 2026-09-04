@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信仰回复",
+				"description": "咒文。 驱散自身的一项「增益魔法」，并治疗自己80...150点生命值。如果此时你身上还带有「增益魔法」效果，则使你失去1...3个「负面魔法」。",
+				"concise": "咒文。 驱散自身的一项「增益魔法」，并治疗自己80...150点生命值。如果此时你身上还带有「增益魔法」效果，则使你失去1...3个「负面魔法」。"
+			},
+			"cht": {
+				"name": "神性復原",
+				"description": "咒文魔法： 你獲得 80...150 體力，移除自身一項神喚使加持，若移除成功，則消除自身 1...3 項降咒。",
+				"concise": "咒文魔法： 你獲得 80...150 體力，移除自身一項神喚使加持，若移除成功，則消除自身 1...3 項降咒。"
+			},
 			"de": {
+				"name": "Fromme Wiederherstellung",
+				"description": "Zauber. Ihr erhaltet 80...150 Lebenspunkt[e] und entfernt 1 Derwisch-Verzauberung. Wenn eine Verzauberung auf diese Weise entfernt wurde, verliert Ihr außerdem 1...3 Verhexungen.",
+				"concise": "Zauber. Ihr erhaltet 80...150 Lebenspunkt[e] und entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Ihr verliert 1...3 Verhexungen."
+			},
+			"de-guildwiki": {
 				"name": "Fromme Wiederherstellung",
 				"description": "Ihr erhaltet 80...150 Lebenspunkte und entfernt 1 Derwisch-Verzauberung. Wenn eine Verzauberung auf diese Weise entfernt wurde, verliert Ihr außerdem 1...3 Verhexungen.",
 				"concise": "Ihr erhaltet 80...150 Lebenspunkte und entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Ihr verliert 1...3 Verhexungen."
 			},
 			"en": {
 				"name": "Pious Restoration",
+				"description": "Spell. You gain 80...150 Health and remove 1 Dervish enchantment. If an enchantment was removed in this way, you also lose 1...3 hexes.",
+				"concise": "Spell. Gain 80...150 Health and remove 1 Dervish enchantment. Removal effect: lose 1...3 hexes."
+			},
+			"en-gww": {
+				"name": "Pious Restoration",
 				"description": "You gain 80...150 Health and remove 1 Dervish enchantment. If an enchantment was removed in this way, you also lose 1...3 hex[es].",
 				"concise": "Gain 80...150 Health and remove 1 Dervish enchantment. Removal effect: lose 1...3 hex[es]."
 			},
+			"es": {
+				"name": "Restauración piadosa",
+				"description": "Conjuro. Ganas 80...150 de salud y pierdes 1 encantamiento de Derviche. Si se elimina un encantamiento de este modo, también pierdes 1...3 maleficios.",
+				"concise": "Conjuro. Ganas 80...150 de salud y pierdes 1 encantamiento de Derviche. Efecto de eliminación: pierdes 1...3 maleficios."
+			},
 			"fr": {
+				"name": "Rétablissement pieux",
+				"description": "Sort. Vous gagnez 80...150 points de vie et levez un enchantement de Derviche. Si un enchantement est levé de cette façon, vous perdez également 1...3 maléfices.",
+				"concise": "Sort. Vous gagnez 80...150 points de vie et levez un enchantement de Derviche. Effet de la levée : vous perdez 1...3 maléfices."
+			},
+			"fr-gwiki": {
 				"name": "Rétablissement pieux",
 				"description": "Vous gagnez 80...150 points de vie et perdez 1 enchantement de Derviche. Si un enchantement a été perdu, vous perdez 1...3 maléfice(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ripristino Pio",
+				"description": "Magia. Ottieni 80...150 Punti Salute e perdi 1 Incantesimo del Derviscio. Fatture perse se un incantesimo è stato rimosso in questo modo: 1...3.",
+				"concise": "Magia. Ottieni 80...150 Punti Salute e perdi 1 Incantesimo del Derviscio. Effetto della rimozione: perdi 1...3 fatture."
+			},
+			"jp": {
+				"name": "パイアス レストレーション",
+				"description": "スペル： 80...150 の体力を獲得し、かけられているダルウィーシュの強化スペルが1個解除されます。この効果により強化スペルが解除されると、かけられている弱体化スペルも 1...3 個解除されます。",
+				"concise": "スペル： 80...150 の体力を獲得し、かけられているダルウィーシュの強化スペルが1個解除されます。解除効果： かけられている 1...3 個の弱体化スペルも解除されます。"
+			},
+			"kr": {
+				"name": "경건한 회복",
+				"description": "마법. 대상 지정: 없음. 자신에게 걸린 더비시 강화 마법 하나가 무효화되고, 80...150의 체력을 얻습니다. 이렇게 강화 마법이 무효화되면 약화 마법도 1...3개가 무효화됩니다.",
+				"concise": "마법. 80...150의 체력을 얻고, 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 약화 마법 1...3개가 무효화됩니다."
+			},
+			"pl": {
+				"name": "Nabożne Przywrócenie",
+				"description": "Czar. Otrzymujesz 80...150 żywotności i usuwasz 1 zaklęcie derwisza. Jeśli usunięto w ten sposób zaklęcie, tracisz także klątwy w liczbie 1...3.",
+				"concise": "Czar. Otrzymujesz 80...150 żywotności i usuwasz 1 zaklęcie derwisza. Efekt usunięcia: Tracisz klątwy w liczbie 1...3."
+			},
+			"ru": {
+				"name": "Pious Restoration",
+				"description": "Заклинание. Вы получаете 80...150 ед. здоровья и теряете 1 чары профессии Dervish. Если вы потеряли чары таким образом, вы также теряете лежащие на вас проклятья (1...3).",
+				"concise": "Заклинание. Дает 80...150 ед. здоровья и снимает с вас 1 чары профессии Dervish. Эффект снятия: вы теряете лежащие на вас проклятья (1...3)."
+			},
+			"bork": {
+				"name": "Peeuoos Resturaeshun",
+				"description": "Spell. Yuoo gaeeen 80...150 Heaelt und remufe-a 1 Derfeesh inchuntment. Iff un inchuntment vaes remufed in thees vaey, yuoo aelsu luse-a 1...3 hexes.",
+				"concise": "Spell. Gaeeen 80...150 Heaelt und remufe-a 1 Derfeesh inchuntment. Remufael iffffect: luse-a 1...3 hexes."
 			}
 		}
 	}

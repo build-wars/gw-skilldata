@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "割裂",
+				"description": "斧术。 命中时，对目标造成5...20点额外伤害，如果击中倒地的敌人，则使其遭受「流血」症状5...20秒。",
+				"concise": "斧术。 命中时对目标造成 5...20 额外伤害，如果集中倒地的敌人，则使其遭受「流血」症状 5...20 秒。"
+			},
+			"cht": {
+				"name": "撕裂砍擊",
+				"description": "斧術攻擊技能： 命中時對目標造成 5...20 額外傷害，若擊中倒地的敵人，則使其遭受「流血」病症 5...20 秒。",
+				"concise": "斧術攻擊技能： 命中時對目標造成 5...20 額外傷害，若擊中倒地的敵人，則使其遭受「流血」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Zerfetzender Hieb",
+				"description": "Axtangriff. Wenn Zerfetzender Hieb erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Ihr einen Feind am Boden trefft, leidet er 5...20 Sekunde[n] lang unter einer Blutung.",
+				"concise": "Axtangriff. Richtet +5...20 Punkt[e] Schaden an. Verursacht Zustand Blutung (5...20 Sekunde[n]), falls Gegner zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Zerfetzender Hieb",
 				"description": "Wenn Zerfetzender Hieb erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn Ihr einen Feind am Boden trefft, leidet er 5...20 Sekunden lang unter einer Blutung.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Verursacht Zustand Blutung (5...20 Sekunden, falls Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Lacerating Chop",
+				"description": "Axe Attack. If Lacerating Chop hits, you deal +5...20 damage. If it strikes a knocked down foe your target suffers from Bleeding for 5...20 seconds.",
+				"concise": "Axe Attack. Deals +5...20 damage. Inflicts Bleeding condition (5...20 seconds) if target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Lacerating Chop",
 				"description": "If Lacerating Chop hits, you deal +5...20 damage. If it strikes a knocked down foe your target suffers from Bleeding for 5...20 seconds.",
 				"concise": "Deals +5...20 damage. Inflicts Bleeding condition (5...20 seconds) if target foe is knocked-down."
 			},
+			"es": {
+				"name": "Tajo desgarrador",
+				"description": "Ataque con hacha. Haces +5...20 de daño si este golpe impacta. Si alcanza a un enemigo derribado, sufrirá una hemorragia durante 5...20 segundos.",
+				"concise": "Ataque con hacha. Hace +5...20 de daño. Causa hemorragia (5...20 segundos) si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Taillade lacérante",
+				"description": "Attaque à la hache. Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi assommé, celui-ci sera pris de Saignements pendant 5...20 secondes.",
+				"concise": "Attaque à la hache. Inflige +5...20 points de dégâts. Inflige le Saignement (5...20 secondes) si la cible ennemie est assommée."
+			},
+			"fr-gwiki": {
 				"name": "Taillade lacérante",
 				"description": "Si l'attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi assommé, celui-ci sera pris de Saignements pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Lacerante",
+				"description": "Attacco con Ascia. Se va a segno, infliggi +5...20 danno[i]; se colpisce un nemico abbattuto, gli infligge Emorragia per 5...20 secondo[i].",
+				"concise": "Attacco con Ascia. Danni inferti: +5...20. Condizione inflitta se l'obiettivo nemico è abbattuto: Emorragia (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "ラセレイト チョップ",
+				"description": "アックス アタック： 攻撃が成功すると 5...20 の追加ダメージを与えます。敵が転倒中の場合、その敵は 5...20 秒間「出血」状態になります。",
+				"concise": "アックス アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が転倒中の場合、「出血」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "분열의 일격",
+				"description": "도끼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 그 대상이 넘어져 있으면 대상은 5...20초 동안 출혈 상태가 됩니다.",
+				"concise": "도끼 공격. 5...20의 대미지를 추가로 줍니다. 대상이 넘어져 있으면 출혈을 일으킵니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Rozdzierające Cięcie",
+				"description": "Atak toporem. Jeśli Rozdzierające Cięcie trafi, zadajesz +5...20 pkt. obrażeń. Jeśli trafi powalonego przeciwnika, twój cel zaczynie krwawić przez 5...20 sek.",
+				"concise": "Atak toporem. Zadaje +5...20 pkt. obrażeń. Wywołuje przypadłość krwawienie (5...20 sek.), jeżeli wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Lacerating Chop",
+				"description": "Атака топором. Если Lacerating Chop попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если удар попадает по сбитому с ног противнику, то этот противник будет кровоточить в течение 5...20 сек.",
+				"concise": "Атака топором. Наносит дополнительно 5...20 ед. урона. Вызывает кровотечение (5...20 сек), если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Laeceraeteeng Chup",
+				"description": "Aexe-a Aettaeck. Iff Laeceraeteeng Chup heets, yuoo deael +5...20 daemaege-a. Iff it streekes a knucked doon fue-a yuoor taerget sooffffers frum Bleedeeng fur 5...20 secunds.",
+				"concise": "Aexe-a Aettaeck. Deaels +5...20 daemaege-a. Inffleects Bleedeeng cundeeshun (5...20 secunds) iff taerget fue-a is knucked-doon."
 			}
 		}
 	}

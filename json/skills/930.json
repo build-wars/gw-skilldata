@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "吉咒",
+				"description": "增益魔法。 在20秒之内，下一次你所施放的法术的冷却时间延长10...5秒，你获得该法术所需能量的110...200%。",
+				"concise": "增益魔法。 在20秒之内，使下一次你所使用法术的恢复时间延长10...5秒，你将获得使用此法术所消耗能量的110...200%。成功获得能量后，「吉咒」的恢复时间重置为25秒，同时附加\"额外恢复惩罚\"，惩罚时间与上一个法术所消耗的能量值等同。"
+			},
+			"cht": {
+				"name": "幸運咒語",
+				"description": "加持魔法： 持續 20 秒，使你「下一個」使用的「魔法」回復時間增加 10...5 秒，同時你回收該「魔法」消耗能量的 110...200% 。",
+				"concise": "加持魔法： 持續 20 秒，當你「下一次」使用「魔法」時，你得到該魔法消耗能量的 110...200% ，但是該魔法的回復時間增加 10...5 秒。若你因此而獲得能量，則幸運咒語的回復時間重置為「25＋該魔法消耗能量」秒。"
+			},
 			"de": {
+				"name": "Günstige Beschwörung",
+				"description": "Verzauberung. Während der nächsten 20 Sekunde[n] wird der nächste von Euch gewirkte Zauber zusätzlich 10...5 Sekunde[n] lang deaktiviert und Ihr erhaltet 110...200% der Energiekosten dieses Zaubers.",
+				"concise": "Verzauberung. 20 Sekunde[n]: Ihr erhaltet bei Eurem nächsten Zauber 110...200% der Energiekosten zurück. +10...5 Sekunde[n] zur Aufladezeit des Zaubers."
+			},
+			"de-guildwiki": {
 				"name": "Günstige Beschwörung",
 				"description": "Während der nächsten 20 Sekunden wird der nächste von Euch verwendete Zauber zusätzlich 10...5 Sekunden lang deaktiviert und Ihr erhaltet Energie im Ausmaß von 110...200% der Energiekosten dieses Zaubers.",
 				"concise": "20 Sekunden: Ihr erhaltet bei Eurem nächsten Zauber 110...200% der Energiekosten zurück. <gray>+10...5 Sekunden zur Aufladezeit des Zaubers.</gray>"
 			},
 			"en": {
 				"name": "Auspicious Incantation",
+				"description": "Enchantment Spell. For 20 seconds, the next spell you cast is disabled for an additional 10...5 seconds, and you gain 110...200% of that spell's Energy cost.",
+				"concise": "Enchantment Spell. (20 seconds.) Your next spell gives you 110...200% of its Energy cost. That spell takes 10...5 seconds longer to recharge."
+			},
+			"en-gww": {
+				"name": "Auspicious Incantation",
 				"description": "For 20 seconds, the next spell you cast is disabled for an additional 10...5 seconds, and you gain 110...200% of that spell's Energy cost.",
 				"concise": "(20 seconds.) Your next spell gives you 110...200% of its Energy cost. <gray>That spell takes 10...5 seconds longer to recharge.</gray>"
 			},
+			"es": {
+				"name": "Encantamiento próspero",
+				"description": "Conjuro con encantamiento. Durante 20 segundos, el siguiente conjuro que lances estará desactivado 10...5 segundos más de lo normal, pero ganarás un 110...200% del coste de energía de ese conjuro.",
+				"concise": "Conjuro con encantamiento. (20 segundos). Tu siguiente conjuro te da el 110...200% de su coste de energía.Este conjuro tarda 10...5 segundos más en recargarse."
+			},
 			"fr": {
+				"name": "Incantation propice",
+				"description": "Enchantement. Pendant 20 secondes, le prochain sort que vous lancez est désactivé pendant 10...5 secondes supplémentaires et vous gagnez 110...200% de son coût en énergie.",
+				"concise": "Enchantement. (20 secondes.) Votre prochain sort vous confère 110...200% de son coût en énergie. Ce sort met 10...5 secondes de plus à se recharger."
+			},
+			"fr-gwiki": {
 				"name": "Incantation propice",
 				"description": "Pendant 20 secondes, le prochain sort que vous lancez est désactivé pendant 10...5 secondes supplémentaires et vous gagnez 110...200% de son coût en énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Incanto Propizio",
+				"description": "Incantesimo. Dura 20 secondo[i]; la prossima magia da te lanciata resta disattivata per 10...5 secondo[i] in più e tu ottieni un 110...200% del suo costo energetico.",
+				"concise": "Incantesimo. (Secondi: 20) La tua prossima magia ti restituisce un 110...200% del suo costo energetico. Quella magia impiega 10...5 secondo[i] in più per ricaricarsi."
+			},
+			"jp": {
+				"name": "オースピシャス インカンテーション",
+				"description": "強化スペル： 20 秒間、次にプレイヤーが詠唱するスペルは再使用時間が 10...5 秒増加しますが、消費エネルギーの 110...200% が戻されます。",
+				"concise": "強化スペル： (20 秒) 次にスペルを詠唱すると、消費エネルギー量の 110...200% が還元されます。そのスペルの再使用時間が 10...5 秒増加します。"
+			},
+			"kr": {
+				"name": "행운의 주문",
+				"description": "강화 마법. 대상 지정: 없음. 20초 안에 처음 사용하는 마법은 재활성 시간이 10...5초 늘어나고, 대신 소모 에너지의 110...200%가 회복됩니다.",
+				"concise": "강화 마법. (20초) 마법을 사용하면 소모 에너지의 110...200%를 회복합니다. 처음 한 번만 효과가 있습니다. 그 마법의 재활성 시간이 10...5초 늘어납니다."
+			},
+			"pl": {
+				"name": "Inkantacja Pomyślności",
+				"description": "Zaklęcie (czar). Przez 20 sek., następny czar, który rzucisz będzie niedostępny przez dodatkowe 10...5 sek., a ty otrzymasz 110...200% energetycznego kosztu tego czaru.",
+				"concise": "Zaklęcie (czar). (20 sek.) Twój następny czar daje ci 110...200% swojego energetycznego kosztu. Ten czar odnawia się o dodatkowe 10...5 sek. dłużej."
+			},
+			"ru": {
+				"name": "Auspicious Incantation",
+				"description": "Заклинание-чары. В течение 20 сек следующее заклинание, которое вы используете, будет недоступно дополнительно на 10...5 сек, а вы пополните свой запас энергии на величину, равную 110...200% от энергии, требующейся для активации этого заклинания.",
+				"concise": "Заклинание-чары. (20 сек) Ваше следующее заклинание дает вам энергию на 110...200% от энергии, требующейся для его активации. Этому заклинанию требуется на 10...5 сек больше для перезарядки."
+			},
+			"bork": {
+				"name": "Oospeeceeuoos Incuntaeshun",
+				"description": "Inchuntment Spell. Fur 20 secunds, zee next spell yuoo caest is deesaebled fur un aeddeeshunael 10...5 secunds, und yuoo gaeeen 110...200% ooff thaet spell's Inergy cust.",
+				"concise": "Inchuntment Spell. (20 secunds.) Yuoor next spell geefes yuoo 110...200% ooff its Inergy cust. Thaet spell taekes 10...5 secunds lunger tu rechaerge-a."
 			}
 		}
 	}

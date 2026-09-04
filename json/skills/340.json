@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 5,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱斩",
+				"description": "斧术。 命中时会打断目标敌人的动作。如果敌人正在使用技能时被击中，则该技能的恢复时间延长 20秒。",
+				"concise": "斧术。 命中时会打断目标敌人的动作。如果敌人正在使用技能时被击中，则该技能的恢复时间延长 20秒。"
+			},
+			"cht": {
+				"name": "擾亂劈砍",
+				"description": "斧術攻擊技能： 命中時造成目標動作中斷。如果敵人正在使用技能，則該技能的回復時間增加 20 秒。",
+				"concise": "斧術攻擊技能： 命中時造成目標動作中斷。如果敵人正在使用技能，則該技能的回復時間增加 20 秒。"
+			},
 			"de": {
+				"name": "Unterbrechender Hieb",
+				"description": "Axtangriff. Wenn dieser Angriff erfolgreich ist, unterbricht er die aktuelle Aktion des Ziels. Beruhte diese Aktion auf einer Fertigkeit, wird diese Fertigkeit für weitere 20 Sekunden deaktiviert.",
+				"concise": "Axtangriff. Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochene Fertigkeit wird +20 Sekunden lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Unterbrechender Hieb",
 				"description": "Wenn dieser Angriff erfolgreich ist, unterbricht er die aktuelle Aktion des Ziels. Beruhte diese Aktion auf einer Fertigkeit, wird diese Fertigkeit für weitere 20 Sekunden deaktiviert.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochene Fertigkeit wird +20 Sekunden lang deaktiviert."
 			},
 			"en": {
 				"name": "Disrupting Chop",
+				"description": "Axe Attack. If it hits, this attack interrupts the target's current action. If that action was a skill, that skill is disabled for an additional 20 seconds.",
+				"concise": "Axe Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds."
+			},
+			"en-gww": {
+				"name": "Disrupting Chop",
 				"description": "If it hits, this attack interrupts the target's current action. If that action was a skill, that skill is disabled for an additional 20 seconds.",
 				"concise": "Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds."
 			},
+			"es": {
+				"name": "Hachazo desbaratador",
+				"description": "Ataque con hacha. Si impacta, este ataque interrumpe la acción actual del objetivo. Si esa acción era una habilidad, estará desactivada durante 20 segundos.",
+				"concise": "Ataque con hacha. Interrumpe una acción. Efecto: la habilidad interrumpida está desactivada durante +20 segundos."
+			},
 			"fr": {
+				"name": "Taillade d'interruption",
+				"description": "Attaque à la hache. Si elle réussit, cette attaque interrompt l'action de la cible. S'il s'agissait d'une compétence, celle-ci devient inutilisable pendant 20 secondes de plus.",
+				"concise": "Attaque à la hache. Interrompt une action. Effet de l'interruption : la compétence interrompue est désactivée pendant +20 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Taillade d'interruption",
 				"description": "Si elle réussit, cette attaque interrompt l'action de la cible. S'il s'agissait d'une compétence, celle-ci devient inutilisable pendant 20 secondes de plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Dirompente",
+				"description": "Attacco con Ascia. Se va a segno, questo attacco interrompe l'azione corrente dell'obiettivo; se si trattava di un'abilità, questa viene disattivata per altri 20 secondi.",
+				"concise": "Attacco con Ascia. Interrompe un'azione. Effetto dell'interruzione: l'abilità interrotta viene disattivata per +20 secondi."
+			},
+			"jp": {
+				"name": "ディスラプト チョップ",
+				"description": "アックス アタック： 攻撃が成功すると、ターゲットの現在のアクションを中断します。スキルを中断した場合、そのスキルの再使用時間が20秒増加します。",
+				"concise": "アックス アタック： アクションを中断します。中断効果： 中断したスキルを使用することのできない時間が20秒増加します。"
+			},
+			"kr": {
+				"name": "방해의 일격",
+				"description": "도끼 공격. 대상 지정: 적. 공격이 성공하면 대상의 동작을 방해합니다. 방해한 동작이 스킬이라면 대상은 그 스킬의 재활성 시간이 20초 늘어납니다.",
+				"concise": "도끼 공격. 동작을 방해합니다. 방해 효과: 방해받은 스킬의 재활성 시간이 20초 늘어납니다."
+			},
+			"pl": {
+				"name": "Przerywające Cięcie",
+				"description": "Atak toporem. Jeżeli atak trafi, przerywasz aktualną czynność wybranego przeciwnika. Jeżeli tą czynnością było rzucanie czaru, to czar ten zostaje wyłączony na 20 sek.",
+				"concise": "Atak toporem. Przerywa czynność. Efekt przerwania: przerwana umiejętność jest niedostępna przez +20 sek."
+			},
+			"ru": {
+				"name": "Disrupting Chop",
+				"description": "Атака топором. Если этот удар попадает в цель, то любое действие, которое выполняет выбранный противник, будет прервано. Если это действие было умением, то это умение становится недоступным дополнительно на 20 сек.",
+				"concise": "Атака топором. Прерывает действие. Эффект прерывания: прерванное умение будет недоступно дополнительно на 20 сек."
+			},
+			"bork": {
+				"name": "Deesroopteeng Chup",
+				"description": "Aexe-a Aettaeck. Iff it heets, thees aettaeck interroopts zee taerget's coorrent aecshun. Iff thaet aecshun vaes a skeell, thaet skeell is deesaebled fur un aeddeeshunael 20 secunds.",
+				"concise": "Aexe-a Aettaeck. Interroopts un aecshun. Interroopshun iffffect: interroopted skeell is deesaebled fur +20 secunds."
 			}
 		}
 	}

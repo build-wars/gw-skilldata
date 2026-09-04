@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "凶猛冲击",
+				"description": "精英宠物攻击。 命令你的宠物发动凶猛冲击，对敌人造成13...28点额外伤害，如果凶猛冲击命中敌人，你可获得怒气值和3...10点能量。",
+				"concise": "精英宠物攻击。 命令你的宠物发动凶猛冲击，对敌人造成13...28点额外伤害，如果凶猛冲击命中敌人，你可获得怒气值和3...10点能量。"
+			},
+			"cht": {
+				"name": "兇猛衝擊",
+				"description": "精英寵物攻擊： 你的寵物發動兇猛衝擊對敵人造成 13...28 額外傷害。若寵物攻擊成功，你獲得怒氣值和 3...10 能量。",
+				"concise": "精英寵物攻擊： 你的寵物發動兇猛衝擊對敵人造成 13...28 額外傷害。若寵物攻擊成功，你獲得怒氣值和 3...10 能量。"
+			},
 			"de": {
+				"name": "Wilder Schlag",
+				"description": "Elite-Tiergefährtenangriff. Euer Tiergefährte greift mit Wilder Schlag an und fügt +13...28 Punkte Schaden zu. Wenn dieser Angriff trifft, erhaltet Ihr Adrenalin und 3...10 Energiepunkt[e].",
+				"concise": "Elite-Tiergefährtenangriff. Richtet +13...28 Punkt[e] Schaden an. Ihr erhaltet Adrenalin und 3...10 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Schlag",
 				"description": "Euer Tiergefährte greift mit Wilder Schlag an und fügt +13...28 Punkte Schaden zu. Wenn dieser Angriff trifft, erhaltet Ihr Adrenalin und 3...10 Energiepunkte.",
 				"concise": "Richtet +13...28 Punkte Schaden an. Ihr erhaltet Adrenalin und 3...10 Energiepunkte."
 			},
 			"en": {
 				"name": "Ferocious Strike",
+				"description": "Elite Pet Attack. Your animal companion attempts a Ferocious Strike that deals +13...28 damage. If that attack hits, you gain adrenaline and 3...10 Energy.",
+				"concise": "Elite Pet Attack. Deals +13...28 damage. You gain adrenaline and 3...10 Energy."
+			},
+			"en-gww": {
+				"name": "Ferocious Strike",
 				"description": "Your animal companion attempts a Ferocious Strike that deals +13...28 damage. If that attack hits, you gain adrenaline and 3...10 Energy.",
 				"concise": "Deals +13...28 damage. You gain adrenaline and 3...10 energy."
 			},
+			"es": {
+				"name": "Ataque feroz",
+				"description": "Ataque con mascota de élite. Con el Ataque feroz tu compañero animal hará +13...28 de daño. Si el ataque impacta, ganarás adrenalina y 3...10 de energía.",
+				"concise": "Ataque con mascota de élite. Hace +13...28 de daño. Ganas adrenalina y 3...10 de energía."
+			},
 			"fr": {
+				"name": "Attaque féroce",
+				"description": "Attaque de familier d'élite. Votre familier tente une Attaque féroce qui inflige +13...28 points de dégâts. Si cette attaque réussit, vous gagnez de l'adrenaline et 3...10 points d'énergie.",
+				"concise": "Attaque de familier d'élite. Inflige +13...28 points de dégâts. Vous gagnez de l'adrénaline et 3...10 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Attaque féroce",
 				"description": "Votre familier tente une Attaque féroce qui inflige +13...28 points de dégâts. Si cette attaque réussit, vous gagnez de l'adrénaline et 3...10 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Attacco Ferale",
+				"description": "Attacco d'Élite con Mascotte. La tua mascotte si cimenta in un Attacco Ferale che infligge +13...28 danno[i]; se andrà a segno, otterrai Adrenalina e 3...10 Punto[i] Energia.",
+				"concise": "Attacco d'Élite con Mascotte. Danni inferti: +13...28. Ottieni adrenalina e 3...10 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "フェロウシャス ストライク",
+				"description": "エリート ペット アタック： プレイヤーのペットが敵に 13...28 の追加ダメージを与える攻撃を開始します。攻撃が成功すると、プレイヤーはアドレナリンおよび 3...10 のエネルギーを獲得します。",
+				"concise": "エリート ペット アタック： 13...28 の追加ダメージを与えます。プレイヤーはアドレナリンと 3...10 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "흉포한 발톱",
+				"description": "엘리트 펫 공격. 대상 지정: 없음. 펫이 흉포한 발톱을 사용하여 13...28의 대미지를 추가로 줍니다. 펫의 공격이 성공하면 자신은 아드레날린과 3...10의 에너지를 얻습니다.",
+				"concise": "엘리트 펫 공격. 펫이 13...28의 대미지를 추가로 줍니다. 자신은 아드레날린과 3...10의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Zajadłe Uderzenie",
+				"description": "Elitarny atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Zajadłe Uderzenie, które zadaje +13...28 pkt. obrażeń. Jeśli atak trafi, to otrzymujesz adrenalinę i 3...10 pkt. energii.",
+				"concise": "Elitarny atak zwierzaka. Zadaje +13...28 pkt. obrażeń. Otrzymujesz adrenalinę i 3...10 pkt. energii."
+			},
+			"ru": {
+				"name": "Ferocious Strike",
+				"description": "Элитная атака питомца. Ваше животное пытается провести Ferocious Strike, который наносит дополнительно 13...28 ед. урона. Если атака попадает в цель, вы получаете адреналин и 3...10 ед. энергии.",
+				"concise": "Элитная атака питомца. Наносит дополнительно 13...28 ед. урона. Вы получаете адреналин и 3...10 ед. энергии."
+			},
+			"bork": {
+				"name": "Feruceeuoos Streeke-a",
+				"description": "Ileete-a Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Feruceeuoos Streeke-a thaet deaels +13...28 daemaege-a. Iff thaet aettaeck heets, yuoo gaeeen aedrenaeleene-a und 3...10 Inergy.",
+				"concise": "Ileete-a Pet Aettaeck. Deaels +13...28 daemaege-a. Yuoo gaeeen aedrenaeleene-a und 3...10 Inergy."
 			}
 		}
 	}

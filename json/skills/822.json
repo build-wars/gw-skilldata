@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "软骨术",
+				"description": "精英负面魔法。 持续1...16 秒，如果目标敌人在移动中遭受此「负面魔法」，该目标被击倒，同时软骨术对其的影响终止。",
+				"concise": "精英负面魔法。 持续1...16 秒，如果目标敌人在移动中遭受此「负面魔法」，该目标被击倒，同时软骨术对其的影响终止。"
+			},
+			"cht": {
+				"name": "削弱膝蓋",
+				"description": "精英降咒魔法： 持續1...16秒，目標敵人受到體力衰減1...4，並且移動時每秒受到5...20傷害。",
+				"concise": "精英降咒魔法： 持續1...16秒，目標敵人受到體力衰減1...4，並且移動時每秒受到5...20傷害。"
+			},
 			"de": {
+				"name": "Weiche Knie",
+				"description": "Elite-Verhexung. 1...16 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4 und nimmt 5...20 Punkte Schaden, während er in Bewegung ist.",
+				"concise": "Elite-Verhexung. 1...16 Sekunde[n]: Der Gegner unterliegt einer Lebenspunktdegeneration von -1...4 und nimmt 5...20 Punkte Schaden, während er in Bewegung ist."
+			},
+			"de-guildwiki": {
 				"name": "Weiche Knie",
 				"description": "1...16 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...4 und nimmt 5...20 Punkte Schaden, während er in Bewegung ist.",
 				"concise": "1...16 Sekunden: Der Gegner unterliegt einer Lebenspunktdegeneration von -1...4 und nimmt 5...20 Punkte Schaden, während er in Bewegung ist."
 			},
 			"en": {
 				"name": "Weaken Knees",
+				"description": "Elite Hex Spell. For 1...16 seconds, target foe suffers -1...4 Health degeneration and takes 5...20 damage while moving.",
+				"concise": "Elite Hex Spell. (1...16 seconds.) Target foe has -1...4 Health degeneration and takes 5...20 damage while moving."
+			},
+			"en-gww": {
+				"name": "Weaken Knees",
 				"description": "For 1...16 second[s], target foe suffers -1...4 Health degeneration and takes 5...20 damage while moving.",
 				"concise": "(1...16 second[s].) Target foe has -1...4 Health degeneration and takes 5...20 damage while moving."
 			},
+			"es": {
+				"name": "Rodillas debilitadas",
+				"description": "Conjuro con maleficio de élite. Durante 1...16 segundos, el enemigo objetivo sufre -1...4 de degeneración de salud y recibe 5...20 de daño mientras se mueva.",
+				"concise": "Conjuro con maleficio de élite. (1...16 segundos). El enemigo objetivo sufre -1...4 de degeneración de salud y recibe 5...20 de daño mientras se mueva."
+			},
 			"fr": {
+				"name": "Genoux flageolants",
+				"description": "Maléfice d'élite. Pendant 1...16 secondes, la cible ennemie souffre d'une dégénération de santé de -1...4 et subit 5...20 points de dégâts en se déplaçant.",
+				"concise": "Maléfice d'élite. (1...16 secondes.) La cible ennemie souffe d'une dégénération de santé de -1...4 et subit 5...20 points de dégâts en se déplaçant."
+			},
+			"fr-gwiki": {
 				"name": "Genoux flageolants",
 				"description": "Pendant 1...16 seconde(s), la cible ennemie souffre d'une dégénération de santé de -1...4 et subit 5...20 points de dégâts en se déplaçant.",
 				"concise": "(1...16 seconde(s).) La cible ennemie souffre d'une dégénération de santé de -1...4 et subit 5...20 points de dégâts en se déplaçant."
+			},
+			"it": {
+				"name": "Ginocchia Molli",
+				"description": "Fattura d'Élite. Per 1...16 secondo[i], l'obiettivo nemico ha una Degenerazione della Salute di -1...4 e subisce 5...20 danni mentre si muove.",
+				"concise": "Fattura d'Élite. (Secondi: 1...16) Degenerazione Salute dell'obiettivo nemico: -1...4. Danni subiti mentre si muove: 5...20."
+			},
+			"jp": {
+				"name": "ウィークン ニー",
+				"description": "エリート弱体化スペル： 1...16 秒間、ターゲットした敵は体力の自然回復力が 1...4 減少し、移動中は 5...20 のダメージを受けます。",
+				"concise": "エリート弱体化スペル： (1...16 秒) ターゲットした敵は体力の自然回復力が 1...4 減少し、移動中は 5...20 のダメージを受けます。"
+			},
+			"kr": {
+				"name": "무릎 약화",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 1...16초 동안 대상의 체력 재생이 1...4 감소하고, 이동 중일 때 5...20의 대미지를 입습니다.",
+				"concise": "엘리트 약화 마법. (1...16초) 대상의 체력 재생이 1...4 감소하고, 이동 중일 때 5...20의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Osłabienie Kolan",
+				"description": "Elitarna klątwa (czar). Przez 1...16 sek. wybrany przeciwnik posiada degenerację żywotności -1...4 oraz otrzymuje 5...20 pkt obrażeń będąc w ruchu.",
+				"concise": "Elitarna klątwa (czar). (1...16 sek.) Wybrany przeciwnik posiada degenerację żywotności -1...4 oraz otrzymuje 5...20 pkt obrażeń będąc w ruchu."
+			},
+			"ru": {
+				"name": "Weaken Knees",
+				"description": "Элитное заклинание-проклятье. В течение 1...16 сек скорость восстановления здоровья выбранного противника уменьшается на 1...4 ед., и он получает 5...20 ед. урона, пока двигается.",
+				"concise": "Элитное заклинание-проклятье. (1...16 сек) Выбранный противник получает -1...4 ед. к скорости восстановления здоровья и получает 5...20 ед. урона, пока двигается."
+			},
+			"bork": {
+				"name": "Veaekee Knees",
+				"description": "Ileete-a Hex Spell. Fur 1...16 secunds, taerget fue-a sooffffers -1...4 Heaelt degeneraeshun und taekes 5...20 daemaege-a vheele-a mufeeng.",
+				"concise": "Ileete-a Hex Spell. (1...16 secunds.) Taerget fue-a haes -1...4 Heaelt degeneraeshun und taekes 5...20 daemaege-a vheele-a mufeeng."
 			}
 		}
 	}

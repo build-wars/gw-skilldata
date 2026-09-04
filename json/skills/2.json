@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 3,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复活纹章",
+				"description": "纹章。 复活目标队友，目标复活后将恢复100%的生命值和25%的能量值。此技能只能使用一次，士气提升后方可再次使用。",
+				"concise": "纹章。 复活目标队友，目标复活后将恢复100%的生命值和25%的能量值。此技能只能使用一次，士气提升后方可再次使用。"
+			},
+			"cht": {
+				"name": "復活紋章",
+				"description": "紋章： 復活目標隊伍成員。目標復活時，回復 100% 體力及 25% 能量。此技能只在獲得士氣提升效果時才會回復。",
+				"concise": "紋章： 復活目標隊伍成員。目標復活時，回復 100% 體力及 25% 能量。此技能只在獲得士氣提升效果時才會回復。"
+			},
 			"de": {
+				"name": "Siegel der Wiederbelebung",
+				"description": "Siegel. Das als Ziel ausgewählte Gruppenmitglied wird wiederbelebt. Dieses Gruppenmitglied kehrt mit 100% seiner Lebenspunkte und 25% seiner Energiepunkte ins Leben zurück. Dieses Siegel wird nur dann wieder aufgeladen, wenn Ihr einen Moralschub erhaltet.",
+				"concise": "Siegel. Das Gruppenmitglied wird wiederbelebt (100% Lebenspunkte, 25% Energiepunkte). Dieses Siegel wird nur dann wieder aufgeladen, wenn Ihr einen Moralschub erhaltet."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Wiederbelebung",
 				"description": "Das als Ziel ausgewählte Gruppenmitglied wird wiederbelebt. Dieses Gruppenmitglied kehrt mit 100% seiner Lebenspunkte und 25% seiner Energiepunkte ins Leben zurück. Dieses Siegel wird nur dann wieder aufgeladen, wenn Ihr einen Moralschub erhaltet.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (100% Lebenspunkte, 25% Energiepunkte). <gray>Dieses Siegel wird nur dann wieder aufgeladen, wenn Ihr einen Moralschub erhaltet.</gray>"
 			},
 			"en": {
 				"name": "Resurrection Signet",
+				"description": "Signet. Resurrect target party member. That party member is returned to life with 100% Health and 25% Energy. This signet only recharges when you gain a morale boost.",
+				"concise": "Signet. Resurrects target party member (100% Health, 25% Energy). This signet only recharges when you gain a morale boost."
+			},
+			"en-gww": {
+				"name": "Resurrection Signet",
 				"description": "Resurrect target party member. That party member is returned to life with 100% Health and 25% Energy. This signet only recharges when you gain a morale boost.",
 				"concise": "Resurrects target party member (100% Health, 25% Energy). This signet only recharges when you gain a morale boost."
 			},
+			"es": {
+				"name": "Sello de resurrección",
+				"description": "Sello. Resucitas a un aliado, que regresa a la vida con 100% de salud y 25% de energía. Este sello sólo volverá a estar activado cuando consigas un aumento de moral.",
+				"concise": "Sello. Resucitas a un aliado (100% de salud y 25% de energía). Este sello sólo volverá a estar activado cuando consigas un aumento de moral."
+			},
 			"fr": {
+				"name": "Sceau de résurrection",
+				"description": "Sceau. Ressuscite un membre du groupe. Celui-ci revient à la vie avec 100% de santé et 25% d'énergie. Ce sceau ne se recharge que lorsque vous obtenez une augmentation de moral.",
+				"concise": "Sceau. Ressuscite le membre du groupe visé (100% de santé et 25% d'énergie). Ce sceau ne se recharge que lorsque vous obtenez une augmentation de moral."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de résurrection",
 				"description": "Ressuscite un membre du groupe. Celui-ci revient à la vie avec 100% de vie et 25% d'énergie. Ce sceau ne se recharge que lorsque vous obtenez une augmentation de moral.",
 				"concise": "Ressuscite le membre du groupe visé (100% de santé et 25% d'énergie)."
+			},
+			"it": {
+				"name": "Sigillo della Resurrezione",
+				"description": "Sigillo. Fai risorgere un membro della squadra con 100% di Salute e 25% di Energia. Questo Sigillo si ricarica solo ottenendo una Spinta Morale.",
+				"concise": "Sigillo. Fa risorgere il membro della squadra selezionato (Salute: 100%; Energia: 25%). Questo Sigillo si ricarica solo ottenendo una Spinta Morale."
+			},
+			"jp": {
+				"name": "リザレクション シグネット",
+				"description": "シグネット： ターゲットしたパーティー メンバーが 100% の体力と 25% のエネルギーで復活します。このシグネット スキルは士気が上昇したときにのみ再使用することができます。",
+				"concise": "シグネット： ターゲットしたパーティー メンバーが復活します (100% の体力と 25% のエネルギー)。このシグネット スキルは士気が上昇したときにのみ再使用することができます。"
+			},
+			"kr": {
+				"name": "부활 인장",
+				"description": "인장. 대상 지정: 파티원. 전사한 파티원을 부활합니다. 부활한 파티원은 100%의 체력과 25%의 에너지를 얻습니다. 사기충천 효과를 얻으면 인장이 재활성됩니다.",
+				"concise": "인장. 파티원을 부활합니다.(체력 100%, 에너지 25%) 사기충천 효과를 얻어야 인장이 재활성됩니다."
+			},
+			"pl": {
+				"name": "Sygnet Wskrzeszenia",
+				"description": "Sygnet. Wskrzeszasz wybranego członka drużyny. Wraca on do życia z 100% punktów żywotności i 25% punktów energii. Ten sygnet odnawia się tylko, gdy podniesie się twoje morale.",
+				"concise": "Sygnet. Wskrzesza wybranego członka drużyny (100% żywotności, 25% energii). Ten sygnet odnowi się tylko po tym, jak otrzymasz premię \"zwiększone morale\"."
+			},
+			"ru": {
+				"name": "Resurrection Signet",
+				"description": "Печать. Воскрешает выбранного члена вашего отряда. Он будет возвращен к жизни со 100%-м запасом здоровья и 25%-м запасом энергии. Эта печать перезаряжается только в тот момент, когда ваш боевой дух увеличивается.",
+				"concise": "Печать. Воскрешает выбранного члена вашего отряда (100% здоровья, 25%энергии). Эта печать перезаряжается только в тот момент, когда ваш боевой дух увеличивается."
+			},
+			"bork": {
+				"name": "Resoorrecshun Seegnet",
+				"description": "Seegnet. Resoorrect taerget paerty member. Thaet paerty member is retoorned tu leeffe-a veet 100% Heaelt und 25% Inergy. Thees seegnet oonly rechaerges vhee yuoo gaeeen a muraele-a buust.",
+				"concise": "Seegnet. Resoorrects taerget paerty member (100% Heaelt, 25% Inergy). Thees seegnet oonly rechaerges vhee yuoo gaeeen a muraele-a buust."
 			}
 		}
 	}

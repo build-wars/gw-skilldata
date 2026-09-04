@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "同愈",
+				"description": "精英技能。 当你或你的宠物生命值低于 75% 时，两者同时获得 25...145点 生命值。如果你的宠物已死，那么它将复生并恢复 50% 的生命值。",
+				"concise": "精英技能。 当你或你的宠物生命值低于 75% 时，两者同时获得 25...145点 生命值。如果你的宠物已死，那么它将复生并恢复 50% 的生命值。"
+			},
+			"cht": {
+				"name": "治癒合一",
+				"description": "精英技能： 若你或你的寵物體力低於 75% ，兩者同時被治癒 25...145 體力。若你的寵物死亡，寵物將被復活並回復 50%體力。",
+				"concise": "精英技能： 若你或你的寵物體力低於 75% ，兩者同時被治癒 25...145 體力。若你的寵物死亡，寵物將被復活並回復 50%體力。"
+			},
 			"de": {
+				"name": "Gemeinsame Heilung (PvP)",
+				"description": "Elite-Fertigkeit. Wenn Eure Lebenspunkte oder die Eures Tiergefährten unter 75% liegen, werdet Ihr beide für 25...145 Lebenspunkt[e] geheilt. Falls Euer Gefährte tot ist, wird er mit 50% der Lebenspunkte wiederbelebt.",
+				"concise": "Elite-Fertigkeit. Heilt Euch und Euren Tiergefährten für 25...145 Lebenspunkt[e]. Wenn Euer Gefährte tot ist, wird er mit 50% der Lebenspunkte wiederbelebt. Eure Lebenspunkte oder die Eures Gefährten müssen müssen unter 75% liegen, damit eine Wirkung eintritt."
+			},
+			"de-guildwiki": {
 				"name": "Gemeinsame Heilung (PvP)",
 				"description": "Wenn Eure oder die Lebenspunkte Eures Tiergefährten unter 75% liegen, werdet Ihr beide für 25...145 Lebenspunkte geheilt. Falls Euer Gefährte tot ist, wird er mit 50% seiner Lebenspunkte wiederbelebt.",
 				"concise": "Heilt Euch und Euren Tiergefährten um 25...145 Lebenspunkte. <gray>Ihr oder Euer Tiergrfährte müsst weniger als 75% der maximalen Lebenspunkte haben, sonst keine Wirkung.</gray> Falls Euer Tiergefährte tot ist, wird er mit 50% seiner Lebenspunkte wiederbelebt."
 			},
 			"en": {
 				"name": "Heal as One (PvP)",
+				"description": "Elite Skill. If you or your animal companion are below 75% Health, you are both healed for 25...145 Health. If your companion is dead, it is resurrected with 50% Health.",
+				"concise": "Elite Skill. Heals you and your pet for 25...145. If your pet is dead, it is resurrected with 50% Health. No effect if neither you nor your pet are below 75% Health."
+			},
+			"en-gww": {
+				"name": "Heal as One (PvP)",
 				"description": "If you or your animal companion are below 75% Health, you are both healed for 25...145 Health. If your companion is dead, it is resurrected with 50% Health.",
 				"concise": "Heals you and your pet for 25...145. If your pet is dead, it is resurrected with 50% Health. <gray>No effect if neither you nor your pet are below 75% Health.</gray>"
 			},
+			"es": {
+				"name": "Curación simbiótica (PvP)",
+				"description": "Habilidad de élite. Si tú o tu mascota estáis por debajo del 75% de salud, ganaréis 25...145 de salud. Si tu mascota está muerta, la resucitarás con el 50% de salud.",
+				"concise": "Habilidad de élite. Tú y tu mascota recuperáis 25...145 de salud. Si tu mascota está muerta, la resucitarás con el 50% de salud. Sólo surte efecto si tu salud o la de tu mascota están por debajo del 75%."
+			},
 			"fr": {
+				"name": "Guérison partagée (PvP)",
+				"description": "Compétence élite. Si votre santé ou celle de votre familier est en dessous de 75%, vous regagnez tous les deux 25...145 points de vie. Si votre familier est mort, il est ressuscité avec 50% de santé.",
+				"concise": "Compétence élite. Votre familier et vous êtes soignés de 25...145. Si votre familier est mort, il est ressuscité avec 50% de santé. Ne fonctionne que si votre santé ou celle de votre familier est en dessous de 75%."
+			},
+			"fr-gwiki": {
 				"name": "Guérison partagée (PvP)",
 				"description": "Si votre santé ou celle de votre familier est en dessous 75%, vous regagnez tous les deux 25...145 points de vie. Si votre familier est mort, il est ressucité avec 50% de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guarigione Congiunta (PvP)",
+				"description": "Abilità d'Élite. Se la tua Salute o quella della tua mascotte è inferiore a un 75%, venite curati[f:\"curate\"] entrambi[f:\"entrambe\"] di 25...145 Punti Salute. Se la tua mascotte è morta, viene resuscitata con un 50% di Salute.",
+				"concise": "Abilità d'Élite. Cure per te e la tua mascotte: 25...145. Se la mascotte è morta, viene resuscitata con il 50% di Salute. Non ha effetto se né la tua Salute né quella della tua mascotte è inferiore a un 75%."
+			},
+			"jp": {
+				"name": "ヒール アズ ワン (PvP)",
+				"description": "エリート スキル： プレイヤーまたはペットの体力が上限の 75% 未満の場合、お互いの体力が 25...145 回復します。ペットが戦闘不能の場合、50%の体力で復活します。",
+				"concise": "エリート スキル： プレイヤーおよびペットの体力が 25...145 回復します。ペットが戦闘不能な場合、上限の50%の体力で復活します。プレイヤーまたはペットの体力が上限の 75% 未満の場合は無効です。"
+			},
+			"kr": {
+				"name": "동반 회복(대인전)",
+				"description": "엘리트 스킬. 대상 지정: 없음. 자신이나 펫의 체력이 75% 미만이 되면 자신과 펫 모두 25...145의 체력을 회복합니다. 죽어 있던 펫은 50%의 체력을 가지고 부활합니다.",
+				"concise": "엘리트 스킬. 자신과 펫의 체력을 25...145만큼 회복시킵니다. 펫이 죽으면 50%의 체력을 가진 채 부활합니다. 펫 또는 자신의 체력이 75% 미만이어야 합니다."
+			},
+			"pl": {
+				"name": "Jedność w Uzdrowieniu (PvP)",
+				"description": "Umiejętność elitarna. Jeśli żywotność twojego zwierzęcego towarzysza jest poniżej 75%, obaj otrzymujecie po 25...145 pkt. żywotności. Jeśli tw&oacute;j zwierzęcy towarzysz jest martwy, powraca do życia z 50% pkt. żywotności.",
+				"concise": "Umiejętność elitarna. Przywraca tobie i twojemu zwierzęcemu towarzyszowi po 25...145 pkt. żywotności. Jeśli zwierzęcy towarzysz nie żyje, zostaje wskrzeszony z 50% żywotności. Bez efektu, chyba że któryś z was ma poniżej 75% żywotności.."
+			},
+			"ru": {
+				"name": "Heal as One (PvP)",
+				"description": "Элитное умение. Если у вас или у сопровождающего вас животного уровень здоровья ниже 75%, вы оба исцеляетесь на 25...145 ед. здоровья. Если ваш питомец мертв, он будет воскрешен с 50% здоровья.",
+				"concise": "Элитное умение. Исцеляет вас и вашего питомца на 25...145 ед. здоровья. Если ваш питомец мертв, он будет воскрешен с 50% здоровья. Не действует, если у вас или вашего питомца здоровье не будет ниже 75%."
+			},
+			"bork": {
+				"name": "Heael aes Oone-a (PfP)",
+				"description": "Ileete-a Skeell. Iff yuoo oor yuoor uneemael cumpuneeun aere-a beloo 75% Heaelt, yuoo aere-a but heaeled fur 25...145 Heaelt. Iff yuoor cumpuneeun is deaed, it is resoorrected veet 50% Heaelt.",
+				"concise": "Ileete-a Skeell. Heaels yuoo und yuoor pet fur 25...145. Iff yuoor pet is deaed, it is resoorrected veet 50% Heaelt. Nu iffffect iff neeezeer yuoo nur yuoor pet aere-a beloo 75% Heaelt."
 			}
 		}
 	}

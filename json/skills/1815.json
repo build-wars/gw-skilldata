@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "光明纹章",
+				"description": "纹章。 当区域内有阿巴顿的恶魔仆从时，你获得等同于1次攻击所得到的怒气。同时根据你的光明指引者称号等级，每一级会使你多获得1点怒气和3点能量。",
+				"concise": "纹章。 当区域内有阿巴顿的恶魔仆从时，你获得等同于1次攻击所得到的怒气。同时根据你的光明指引者称号等级，每一级会使你多获得1点怒气和3点能量。"
+			},
+			"cht": {
+				"name": "光明使者紋章",
+				"description": "紋章： 若你的範圍內有任何亞霸頓的惡魔僕從，你獲得3...5次 攻擊的怒氣值以及16...24能 量。",
+				"concise": "紋章： 若你的範圍內有任何亞霸頓的惡魔僕從，你獲得3...5次 攻擊的怒氣值以及16...24能 量。"
+			},
 			"de": {
+				"name": "Lichtbringer-Siegel",
+				"description": "Siegel. Wenn Ihr Euch im Bereich eines dämonischen Dieners Abaddons befindet, erhaltet Ihr 3...5 Adrenalinstöße und 16...24 Energiepunkt[e].",
+				"concise": "Siegel. Ihr erhaltet 3...5 Adrenalinstöße und 16...24 Energiepunkt[e], wenn Ihr Euch im Bereich eines dämonischen Dieners Abaddons befindet."
+			},
+			"de-guildwiki": {
 				"name": "Lichtbringer-Siegel",
 				"description": "Wenn Ihr Euch im Bereich eines dämonischen Dieners Abaddons befindet, erhaltet Ihr 3...5 Adrenalinstöße und 16...24 Energiepunkte.",
 				"concise": "Ihr erhaltet 3...5 Adrenalinstöße und 16...24 Energiepunkte, wenn Ihr Euch im Bereich eines dämonischen Dieners Abaddons befindet."
 			},
 			"en": {
 				"name": "Lightbringer Signet",
+				"description": "Signet. If you are within the area of a demonic servant of Abaddon, you gain 3...5 strikes of adrenaline and 16...24 Energy.",
+				"concise": "Signet. You gain 3...5 strikes of adrenaline and 16...24 Energy if you are within the area of a demonic servant of Abaddon."
+			},
+			"en-gww": {
+				"name": "Lightbringer Signet",
 				"description": "If you are within the area of a demonic servant of Abaddon, you gain 4...5 strikes of adrenaline and 22...24 Energy.",
 				"concise": "You gain 4...5 strikes of adrenaline and 22...24 Energy if you are within the area of a demonic servant of Abaddon."
 			},
+			"es": {
+				"name": "Sello del Iluminador",
+				"description": "Sello. Si estás dentro de la zona de un demonio de Abaddon, ganarás 3...5 de adrenalina y 16...24 de energía.",
+				"concise": "Sello. Ganas 3...5 de adrenalina y 16...24 de energía si estás dentro de la zona de un demonio de Abaddon."
+			},
 			"fr": {
+				"name": "Sceau du Porteur de lumière",
+				"description": "Sceau. Si vous vous trouvez dans la zone d'un serviteur démoniaque d'Abaddon, vous gagnez 3...5 décharges d'adrénaline et 16...24 points d'énergie.",
+				"concise": "Sceau. Vous gagnez 3...5 décharges d'adrénaline et 16...24 points d'énergie si vous vous trouvez dans la zone d'un serviteur démoniaque d'Abaddon."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du Porteur de lumière",
 				"description": "Si vous vous trouvez dans la zone d'un serviteur démoniaque d'Abaddon, vous gagnez 3...5 décharges d'adrénaline et 16...24 points d'énergie.",
 				"concise": "Vous gagnez 3...5 décharges d'adrénaline et 16...24 points d'énergie si vous vous trouvez dans la zone d'un serviteur démoniaque d'Abaddon."
+			},
+			"it": {
+				"name": "Sigillo del Portatore della Luce",
+				"description": "Sigillo. Se ti trovi nell'area di un servitore di Abaddon ottieni 3...5 dose[i] di adrenalina e 16...24 Punto[i] Energia.",
+				"concise": "Sigillo. Se ti trovi nell'area di un servitore di Abaddon ottieni 3...5 dose[i] di adrenalina e 16...24 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "ライトブリンガー シグネット",
+				"description": "シグネット： アバドンの手下のエリア内にいる場合、3...5 発のアドレナリンと 16...24 のエネルギーを獲得します。",
+				"concise": "シグネット： アバドンの手下のエリア内にいる場合、3...5 発のアドレナリンと 16...24 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "빛의 수호자 인장",
+				"description": "인장. 일정 범위 내에 아바돈의 악마 부하와 함께 있으면 3...5번 공격에 성공한 만큼의 아드레날린과 16...24의 에너지를 얻습니다.",
+				"concise": "인장. 일정 범위 내에 아바돈의 악마 부하와 함께 있으면 3...5번 공격에 성공한 만큼의 아드레날린과 16...24의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Niosącego Światłość",
+				"description": "Sygnet. Jeśli jesteś w zasięgu demonicznego sługi Abaddona, otrzymujesz dawki adrenaliny w liczbie 3...5 oraz 16...24 pkt. energii.",
+				"concise": "Sygnet. Jeśli jesteś w zasięgu demonicznego sługi Abaddona, otrzymujesz dawki adrenaliny w liczbie 3...5 oraz 16...24 pkt. energii."
+			},
+			"ru": {
+				"name": "Lightbringer Signet",
+				"description": "Печать. Если вы находитесь в зоне досягаемости демона-слуги Abaddon, вы получаете 3...5 ед. адреналина и 16...24 ед. энергии.",
+				"concise": "Печать. Вы получаете 3...5 ед. адреналина и 16...24 ед. энергии, если находитесь в зоне досягаемости демона-слуги Abaddon."
+			},
+			"bork": {
+				"name": "Leeghtbreenger Seegnet",
+				"description": "Seegnet. Iff yuoo aere-a veetheen zee aerea ooff a demuneec serfunt ooff Aebaeddun, yuoo gaeeen 3...5 streeke-as ooff aedrenaeleene-a und 16...24 Inergy.",
+				"concise": "Seegnet. Yuoo gaeeen 3...5 streeke-as ooff aedrenaeleene-a und 16...24 Inergy iff yuoo aere-a veetheen zee aerea ooff a demuneec serfunt ooff Aebaeddun."
 			}
 		}
 	}

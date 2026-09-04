@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "移情",
+				"description": "精英咒文。 驱散自己及目标盟友身上的1项「症状」和1项「负面魔法」。",
+				"concise": "精英咒文。 使自己及目标盟友失去 1 项「症状」及 1 项「负面魔法」。"
+			},
+			"cht": {
+				"name": "情感移除",
+				"description": "精英咒文魔法： 移除目標其他盟友以及自己1個病症以及1個降咒，同時治療兩人50體力。",
+				"concise": "精英咒文魔法： 移除目標其他盟友以及自己1個病症以及1個降咒，同時治療兩人50體力。"
+			},
 			"de": {
+				"name": "Ausdrückliche Entfernung",
+				"description": "Elite-Zauber. Ihr und der Verbündete verlieren 1 Zustand und 1 Verhexung und werden um 50 Lebenspunkt[e] geheilt.",
+				"concise": "Elite-Zauber. Entfernt einen Zustand und eine Verhexung vom Verbündeten und Euch selbst und heilt um 50 Punkt[e]. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Ausdrückliche Entfernung",
 				"description": "Ihr und der Verbündete verlieren 1 Zustand und 1 Verhexung und werden um 50 Lebenspunkte geheilt.",
 				"concise": "Entfernt einen Zustand und eine Verhexung vom Verbündeten und Euch selbst und heilt um 50 Punkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Empathic Removal",
+				"description": "Elite Spell. You and target other ally lose 1 condition and 1 hex, and are healed for 50.",
+				"concise": "Elite Spell. Removes one condition and hex from target ally and yourself, and heals for 50. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Empathic Removal",
 				"description": "You and target other ally lose 1 condition and 1 hex, and are healed for 50.",
 				"concise": "Removes one condition and hex from target ally and yourself, and heals for 50. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Eliminación empática",
+				"description": "Conjuro de élite. Tú y el aliado objetivo os quitáis una condición y un maleficio, y os curáis 50 de salud.",
+				"concise": "Conjuro de élite. Elimina una condición y un maleficio del aliado objetivo y de ti mismo, y cura 50 de salud. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Suppression empathique",
+				"description": "Sort d'élite. Vous et un allié visé perdez 1 condition et 1 maléfice et êtes soignés de 50 points de vie.",
+				"concise": "Sort d'élite. Supprime une condition et un maléfice à l'allié visé et à vous-même et guérit de 50 points de vie.Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Suppression empathique",
 				"description": "Vous et un allié visé perdez 1 condition et 1 maléfice et êtes soignés de 50 points de vie.",
 				"concise": "Supprime une condition et un maléfice à l'allié visé et à vous-même et guérit de 50 points de vie. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "Rimozione Empatica",
+				"description": "Magia d'Élite. Tu e l'obiettivo alleato perdete 1 condizione e 1 fattura e venite curati di 50.",
+				"concise": "Magia d'Élite. Rimuove una condizione e una fattura dall'obiettivo alleato e da te stesso. Cure: 50. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "エンパシック リムーバル",
+				"description": "エリート スペル： プレイヤーおよびターゲットした自分以外の味方にかけられている「状態異常」と弱体化スペルを1個ずつ解除し、体力を 50 回復します。",
+				"concise": "エリート スペル： ターゲットした味方およびプレイヤー自身にかけられている「状態異常」と弱体化スペルを1個ずつ解除し、体力を 50 回復させます。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "증상 제거",
+				"description": "엘리트 마법. 대상 지정: 아군. 자신과 대상이 걸린 상태이상과 약화 마법을 하나씩 무효화하고, 50의 체력을 회복시킵니다. 이 마법은 자신에게 걸 수 없습니다.",
+				"concise": "엘리트 마법. 자신과 대상에 걸린 상태이상과 약화 마법을 하나씩 무효화하고, 50의 체력을 회복시킵니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Empatyczne Usunięcie",
+				"description": "Elitarny czar. Ty i inny wybrany sojusznik tracicie po jednej przypadłości i klątwie. Otrzymujecie też po 50 pkt. żywotności.",
+				"concise": "Elitarny czar. Z wybranego sojusznika i ciebie usuwa jedną klątwę oraz przypadłość. Dodaje wam też po 50 pkt. żywotności. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Empathic Removal",
+				"description": "Элитное заклинание. И вы, и выбранный вами союзник теряете 1 состояние, 1 проклятье и исцеляетесь на 50 ед. здоровья.",
+				"concise": "Элитное заклинание. Снимает одно состояние и одно проклятье с выбранного союзника и с вас и исцеляет на 50 ед. здоровья. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Impaetheec Remufael",
+				"description": "Ileete-a Spell. Yuoo und taerget oozeer aelly luse-a 1 cundeeshun und 1 hex, und aere-a heaeled fur 50.",
+				"concise": "Ileete-a Spell. Remufes oone-a cundeeshun und hex frum taerget aelly und yuoorselff, und heaels fur 50. Cunnut selff-taerget."
 			}
 		}
 	}

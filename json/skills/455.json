@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "追风者",
+				"description": "姿态。 使你的移动速度提升 25%，每当你受到元素属性伤害时，你将获得1...5点能量，效果持续8...20秒。",
+				"concise": "姿态。 使你的移动速度提升 25%，每当你受到元素属性伤害时，你将获得1...5点能量，效果持续8...20秒。"
+			},
+			"cht": {
+				"name": "追風者",
+				"description": "態勢： 持續 8...20 秒，你的移動速度加快 25% ，而且每當你受到元素傷害時，獲得 1...5 能量。",
+				"concise": "態勢： 持續 8...20 秒，你的移動速度加快 25% ，而且每當你受到元素傷害時，獲得 1...5 能量。"
+			},
 			"de": {
+				"name": "Sturmjäger",
+				"description": "Haltung. 8...20 Sekunde[n] bewegt Ihr Euch um 25% schneller und Ihr erhaltet jedes Mal, wenn Ihr Elementarschaden erleidet, 1...5 Energiepunkt[e].",
+				"concise": "Haltung. 8...20 Sekunde[n]: Ihr bewegt Euch um 25% schneller und gewinnt jedes Mal 1...5 Energiepunkt[e], wenn Ihr Elementarschaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Sturmjäger",
 				"description": "8...20 Sekunden lang bewegt Ihr Euch um 25% schneller und Ihr erhaltet jedes Mal, wenn Ihr Elementarschaden erleidet, 1...5 Energiepunkte.",
 				"concise": "8...20 Sekunden: Ihr bewegt Euch um 25% schneller und gewinnt jedes Mal 1...5 Energiepunkt, wenn Ihr Elementarschaden erleidet."
 			},
 			"en": {
 				"name": "Storm Chaser",
+				"description": "Stance. For 8...20 seconds, you move 25% faster, and you gain 1...5 Energy whenever you take elemental damage.",
+				"concise": "Stance. (8...20 seconds.) You move 25% faster and gain 1...5 Energy whenever you take elemental damage."
+			},
+			"en-gww": {
+				"name": "Storm Chaser",
 				"description": "For 8...20 seconds, you move 25% faster, and you gain 1...5 Energy whenever you take elemental damage.",
 				"concise": "(8...20 seconds.) You move 25% faster and gain 1...5 Energy whenever you take elemental damage."
 			},
+			"es": {
+				"name": "Cazador de tormentas",
+				"description": "Actitud. Durante 8...20 segundos, te moverás un 25% más rápido y obtendrás 1...5 de energía cada vez que recibas daños elementales.",
+				"concise": "Actitud. (8...20 segundos). Te mueves un 25% más rápido y ganas 1...5 de energía cada vez que recibas daños de los elementos."
+			},
 			"fr": {
+				"name": "Chasseur de tempêtes",
+				"description": "Pose de combat. Pendant 8...20 secondes, vous vous déplacez 25% plus vite et vous bénéficiez de 1...5 points d'énergie quand vous subissez des dégâts des éléments.",
+				"concise": "Pose de combat. (8...20 secondes.) Vous vous déplacez 25% plus vite et gagnez 1...5 points d'énergie chaque fois que vous subissez des dégâts élémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Chasseur de tempêtes",
 				"description": "Pendant 8...20 secondes, vous vous déplacez 25% plus vite et vous bénéficiez de 1...5 point(s) d'énergie quand vous subissez des dégâts des éléments.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Inseguitore della Tempesta",
+				"description": "Posizione. Per 8...20 secondo[i] ti muovi con una velocità superiore del 25% e ottieni 1...5 Punto[i] Energia quando subisci danni elementali.",
+				"concise": "Posizione. (Secondi: 8...20) Incremento velocità di movimento: 25%. Energia conseguita ogni volta che subisci danni elementali: 1...5."
+			},
+			"jp": {
+				"name": "ストーム チェイサー",
+				"description": "スタンス： 8...20 秒間、移動速度が25%増加し、元素ダメージを受けるたびに 1...5 のエネルギーを獲得します。",
+				"concise": "スタンス： (8...20 秒) 移動速度が25%増加し、元素ダメージを受けるたびに 1...5 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "폭풍의 추격자",
+				"description": "자세. 대상 지정: 없음. 8...20초 동안 이동 속도가 25% 증가하고, 정령 마법 대미지를 입을 때마다 1...5의 에너지를 얻습니다.",
+				"concise": "자세. (8...20초) 이동 속도가 25% 증가하고, 정령 대미지를 입을 때마다 1...5의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Łowca Burz",
+				"description": "Postawa. Przez 8...20 sek., poruszasz się o 25% szybciej i za każdym razem kiedy otrzymasz obrażenia od żywiołów, dostaniesz 1...5 pkt. energii.",
+				"concise": "Postawa. (8...20 sek.) Poruszasz się o 25% szybciej i otrzymujesz 1...5 pkt. energii, za każdym razem, kiedy otrzymujesz obrażenia od żywiołów."
+			},
+			"ru": {
+				"name": "Storm Chaser",
+				"description": "Стойка. В течение 8...20 сек вы двигаетесь на 25% быстрее и получаете 1...5 ед. энергии каждый раз, когда вам наносят урон силами Стихий.",
+				"concise": "Стойка. (8...20 сек) Вы двигаетесь на 25% быстрее и получаете 1...5 ед. энергии каждый раз, когда вам наносят урон силами Стихий."
+			},
+			"bork": {
+				"name": "Sturm Chaeser",
+				"description": "Stunce-a. Fur 8...20 secunds, yuoo mufe-a 25% faester, und yuoo gaeeen 1...5 Inergy vhenefer yuoo taeke-a ilementael daemaege-a.",
+				"concise": "Stunce-a. (8...20 secunds.) Yuoo mufe-a 25% faester und gaeeen 1...5 Inergy vhenefer yuoo taeke-a ilementael daemaege-a."
 			}
 		}
 	}

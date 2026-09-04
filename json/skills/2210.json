@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Spear Swipe",
+				"description": "矛术。 If this attack hits, you deal +5...20 damage and target foe is Dazed for 4...10 seconds. This attack has melee range.",
+				"concise": "长矛近战攻击。 Deals +5...20 damage and inflicts Dazed condition (4...10 seconds). This attack has melee range."
+			},
+			"cht": {
+				"name": "揮擊之矛",
+				"description": "矛術攻擊技能： 此攻擊命中時，你造成 +5...20 傷害，而目標敵人將遭受暈眩 4...10 秒。此攻擊為近身攻擊。",
+				"concise": "近戰矛術攻擊： 此攻擊命中時，你造成 +5...20 傷害，而目標盟友將遭受暈眩 4...10 秒。此攻擊為近身攻擊。"
+			},
 			"de": {
+				"name": "Speerschlag",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu und der Gegner leidet 4...10 Sekunde[n] lang an Benommenheit. Dieser Angriff hat Nahkampfreichweite.",
+				"concise": "Speer-Nahkampfangriff. Richtet +5...20 Punkt[e] Schaden an und verursacht Zustand Benommenheit (4...10 Sekunde[n]). Dieser Angriff hat Nahkampfreichweite."
+			},
+			"de-guildwiki": {
 				"name": "Speerschlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu und der Gegner leidet 4...10 Sekunden lang an Benommenheit. Dieser Angriff hat Nahkampfreichweite.",
 				"concise": "Richtet +5...20 Schaden an und verursacht Zustand Benommenheit (4...10 Sekunden). Dieser Angriff hat Nahkampfreichweite."
 			},
 			"en": {
 				"name": "Spear Swipe",
+				"description": "Spear Attack. If this attack hits, you deal +5...20 damage and target foe is Dazed for 4...10 seconds. This attack has melee range.",
+				"concise": "Spear Melee Attack. Deals +5...20 damage and inflicts Dazed condition (4...10 seconds). This attack has melee range."
+			},
+			"en-gww": {
+				"name": "Spear Swipe",
 				"description": "If this attack hits, you deal +5...20 damage and target foe is Dazed for 4...10 seconds. This attack has melee range.",
 				"concise": "Spear Melee Attack. Deals +5...20 damage and inflicts Dazed condition (4...10 seconds). <gray>This attack has melee range.</gray>"
 			},
+			"es": {
+				"name": "Barrido de lanza",
+				"description": "Ataque con lanza. Si este ataque impacta, harás +5...20 de daño y el enemigo objetivo quedará aturdido durante 4...10 segundos. Este ataque tiene alcance cuerpo a cuerpo.",
+				"concise": "Ataque cuerpo a cuerpo con lanza. Hace +5...20 de daño y causa aturdimiento (4...10 segundos). Este ataque tiene alcance cuerpo a cuerpo."
+			},
 			"fr": {
+				"name": "Frappe du javelot",
+				"description": "Attaque au javelot. Si cette attaque réussit, vous infligez +5...20 points de dégâts et la cible ennemie est frappée de Stupeur pendant 4...10 secondes. Cette attaque a une portée rapprochée.",
+				"concise": "Attaque de mêlée au javelot. Inflige +5...20 points de dégâts et provoque la Stupeur (4...10 secondes). Cette attaque a une portée rapprochée."
+			},
+			"fr-gwiki": {
 				"name": "Frappe du javelot",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts et la cible ennemie est frappée de Stupeur pendant 4...10 secondes. C'est une attaque de mêlée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancia Travolgente",
+				"description": "Attacco con Lancia. Se questo attacco va a segno infliggi +5...20 danno[i] e l'obiettivo nemico è affetto da Stordimento per 4...10 secondo[i]. Questo attacco ha una portata ravvicinata.",
+				"concise": "Attacco Ravvicinato con Lancia. Danni inferti: +5...20. Condizione inflitta: Stordimento (4...10 secondo[i]). Attacco a portata ravvicinata."
+			},
+			"jp": {
+				"name": "スピア スワイプ",
+				"description": "スピア アタック： 攻撃が成功すると、ターゲットした敵に 5...20 の追加ダメージを与え、4...10 秒間「放心」状態にします。このスキルの攻撃範囲は近接攻撃と同じです。",
+				"concise": "スピア メーレー アタック： 5...20 の追加ダメージを与えて「放心」状態にします (4...10 秒) 。このスキルの攻撃範囲は近接攻撃と同じです。"
+			},
+			"kr": {
+				"name": "창대 강타",
+				"description": "창 공격. 공격이 성공하면 5...20의 대미지를 추가로 주고, 대상을 4...10초 동안 현혹에 빠뜨립니다.",
+				"concise": "근접 창 공격. 5...20의 대미지를 추가로 주고, 현혹시킵니다.(4...10초) 근접 공격입니다."
+			},
+			"pl": {
+				"name": "Zamach Włócznią",
+				"description": "Atak włócznią. Jeżeli atak trafi, zadaje +5...20 pkt. obrażeń, a wybrany przeciwnik zostaje oszołomiony na 4...10 sek. Ten atak działa w zasięgu walki wręcz.",
+				"concise": "Atak włócznią w walce wręcz. Zadaje +5...20 pkt. obrażeń i wywołuje przypadłość oszołomienie (4...10 sek.). Ten atak działa w zasięgu walki wręcz."
+			},
+			"ru": {
+				"name": "Spear Swipe",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона, а выбранный противник будет ошеломлен на 4...10 сек. Эту атаку можно использовать только на дистанции рукопашной атаки.",
+				"concise": "Атака копьем в рукопашной. Наносит дополнительно 5...20 ед. урона и вызывает ошеломление (4...10 сек). Эту атаку можно использовать только на дистанции рукопашной атаки."
+			},
+			"bork": {
+				"name": "Speaer Sveepe-a",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a und taerget fue-a is Daezed fur 4...10 secunds. Thees aettaeck haes melee-a runge-a.",
+				"concise": "Speaer Melee-a Aettaeck. Deaels +5...20 daemaege-a und inffleects Daezed cundeeshun (4...10 secunds). Thees aettaeck haes melee-a runge-a."
 			}
 		}
 	}

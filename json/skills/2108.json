@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暴躁",
+				"description": "技能。 在18...25秒之内，使你和你的宠物同时获得1...3点「生命再生」，攻击速度提升25%。",
+				"concise": "技能。 在18...25秒之内，使你和你的宠物同时获得1...3点「生命再生」，攻击速度提升25%。"
+			},
+			"cht": {
+				"name": "狂暴一體",
+				"description": "技能： 持續 18...25 秒，使你和寵物的攻擊速度提升 25% ，同時體力再生 +1...3 。",
+				"concise": "技能： 持續 18...25 秒，使你和寵物的攻擊速度提升 25% ，同時體力再生 +1...3 。"
+			},
 			"de": {
+				"name": "Tobt niemals allein",
+				"description": "Fertigkeit. 18...25 Sekunde[n] lang greifen Ihr und Euer Tiergefährte um 25% schneller und erfreuen sich einer Lebenspunktregeneration von +1...3.",
+				"concise": "Fertigkeit. 18...25 Sekunde[n]: Ihr und Euer Tiergefährte greift um 25% schneller an und habt +1...3 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Tobt niemals allein",
 				"description": "18...25 Sekunden lang greifen Ihr und Euer Tiergefährte um 25% schneller<sic/> und erfreuen sich einer Lebenspunktregeneration von +1...3.",
 				"concise": "18...25 Sekunden: Ihr und Euer Tiergefährte greift um 25% schneller an und habt +1...3 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Never Rampage Alone",
+				"description": "Skill. For 18...25 seconds, you and your pet attack 25% faster and have +1...3 Health regeneration.",
+				"concise": "Skill. (18...25 seconds.) You and your pet attack 25% faster and have +1...3 Health regeneration."
+			},
+			"en-gww": {
+				"name": "Never Rampage Alone",
 				"description": "For 18...25 seconds, you and your pet attack 25% faster and have +1...3 Health regeneration.",
 				"concise": "(18...25 seconds.) You and your pet attack 25% faster and have +1...3 Health regeneration."
 			},
+			"es": {
+				"name": "Nunca embistes solo",
+				"description": "Habilidad. Durante 18...25 segundos, tú y tu mascota atacáis un 25% más deprisa y tenéis +1...3 de regeneración de salud.",
+				"concise": "Habilidad. (18...25 segundos). Tú y tu mascota atacáis un 25% más deprisa y tenéis +1...3 de regeneración de salud."
+			},
 			"fr": {
+				"name": "Saccage collectif",
+				"description": "Compétence. Pendant 18...25 secondes, votre familier et vous attaquez 25% plus vite et bénéficiez d'une régénération de santé de +1...3.",
+				"concise": "Compétence. (18...25 secondes.) Votre familier et vous attaquez 25% plus vite et bénéficiez d'une régénération de santé de +1...3."
+			},
+			"fr-gwiki": {
 				"name": "Saccage collectif",
 				"description": "Pendant 18...25 secondes, vos familiers et vous attaquez 25% plus vite et bénéficiez d'une régénération de santé de +1...3.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mai Infierire da Soli",
+				"description": "Abilità. Per 18...25 secondo[i], la tua velocità d'attacco e quella della tua mascotte aumentano di un 25% e hai una Rigenerazione della Salute di +1...3.",
+				"concise": "Abilità. (Secondi: 18...25) Incremento velocità degli attacchi tuoi e della mascotte: 25%. Rigenerazione Salute: +1...3."
+			},
+			"jp": {
+				"name": "ネバー ランページ アローン",
+				"description": "スキル： 18...25 秒間、プレイヤーとそのペットは攻撃速度が 25%、体力の自然回復力が 1...3 増加します。",
+				"concise": "スキル： (18...25 秒) プレイヤーとペットの攻撃速度が 25%、体力の自然回復力が 1...3 増加します。"
+			},
+			"kr": {
+				"name": "야성의 동반자",
+				"description": "스킬. 대상 지정: 없음. 18...25초 동안 자신과 펫의 공격 속도가 25% 빨라지고, 체력 재생이 1...3 증가합니다.",
+				"concise": "스킬. (18...25초) 자신과 펫의 공격 속도가 25% 빨라지고, 체력 재생이 1...3 증가합니다."
+			},
+			"pl": {
+				"name": "Nie Siej Zniszczenia Sam",
+				"description": "Umiejętność. Przez 18...25 sek., ty i twój zwierzęcy towarzysz atakujecie o 25% szybciej i posiadacie regenerację żywotności +1...3.",
+				"concise": "Umiejętność. (18...25 sek.) Ty i twój zwierzęcy towarzysz atakujecie o 25% szybciej i posiadacie regenerację żywotności +1...3."
+			},
+			"ru": {
+				"name": "Never Rampage Alone",
+				"description": "Умение. В течение 18...25 сек вы и ваш питомец атакуете на 25% быстрее, а ваша и его скорость восстановления здоровья увеличивается на 1...3 ед.",
+				"concise": "Умение. (18...25 сек) Вы и ваш питомец атакуете на 25% быстрее и получаете +1...3 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Nefer Raempaege-a Aelune-a",
+				"description": "Skeell. Fur 18...25 secunds, yuoo und yuoor pet aettaeck 25% faester und haefe-a +1...3 Heaelt regeneraeshun.",
+				"concise": "Skeell. (18...25 secunds.) Yuoo und yuoor pet aettaeck 25% faester und haefe-a +1...3 Heaelt regeneraeshun."
 			}
 		}
 	}

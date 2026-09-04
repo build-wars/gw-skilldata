@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "春风",
+				"description": "精英增益魔法。 在4...10秒之内，对目标盟友施放的「增益魔法」，能量消耗减少10点。（最少需要消耗1点能量）",
+				"concise": "精英增益魔法。 持续 4...10 秒，对目标盟友施展的「增益魔法」魔法，能量消耗减少 10 。"
+			},
+			"cht": {
+				"name": "微風加持",
+				"description": "精英加持魔法： 對目標其他盟友施放此「加持」魔法後，在 4...10 秒內，對該盟友施放的「加持」魔法能量消耗減少 10 。(至少消耗 1 能量)",
+				"concise": "精英加持魔法： 對目標其他盟友施放此「加持」魔法後，在 4...10 秒內，對該盟友施放的「加持」魔法能量消耗減少 10 。(至少消耗 1 能量)"
+			},
 			"de": {
+				"name": "Flair der Verzauberung",
+				"description": "Elite-Verzauberung. 4...10 Sekunde[n] lang kosten Verzauberungen, die auf diesen Verbündeten gewirkt werden, 10 Energiepunkt[e] weniger (mindestens 1 Energiepunkt[e]).",
+				"concise": "Elite-Verzauberung. 4...10 Sekunde[n]: Auf den Verbündeten gewirkte Verzauberungen kosten 10 Energiepunkt[e] weniger (mindestens 1 Energiepunkt[e]). Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Flair der Verzauberung",
 				"description": "4...10 Sekunden lang kosten Verzauberungen, die auf diesen Verbündeten gewirkt werden, 10 Energiepunkte weniger (mindestens 1 Energie).",
 				"concise": "4...10 Sekunden: Auf den Verbündeten gewirkte Verzauberungen kosten 10 Energiepunkte weniger (mindestens 1 Energiepunkt). <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Air of Enchantment",
+				"description": "Elite Enchantment Spell. For 4...10 seconds, enchantments cast on target other ally cost 10 less Energy (minimum 1 Energy).",
+				"concise": "Elite Enchantment Spell. (4...10 seconds.) Enchantments cast on target ally cost 10 less Energy (minimum 1 Energy). Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Air of Enchantment",
 				"description": "For 4...10 seconds, enchantments cast on target other ally cost 10 less Energy (minimum 1 Energy).",
 				"concise": "(4...10 seconds.) Enchantments cast on target ally cost 10 less Energy (minimum 1 Energy). <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Aire de encantamiento",
+				"description": "Conjuro con encantamiento de élite. Durante 4...10 segundos, costará 10 menos energía lanzar encantamientos sobre el aliado objetivo (mínimo 1 de energía).",
+				"concise": "Conjuro con encantamiento de élite. (4...10 segundos). Los encantamientos sobre el aliado objetivo cuestan 10 menos de energía (mínimo 1 de energía). No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Atmosphère enchanteresse",
+				"description": "Enchantement d'élite. Pendant 4...10 secondes, les enchantements lancés sur un autre allié coûtent 10 points d'énergie en moins (1 points d'énergie minimum).",
+				"concise": "Enchantement d'élite. (4...10 secondes.) Les enchantements lancés sur l'allié visé coûtent 10 points d'énergie en moins (minimum : 1 points d'énergie). Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Atmosphère enchanteresse",
 				"description": "Pendant 4...10 secondes, les Enchantements lancés sur un autre allié coûtent 10 points d'énergie en moins (1 point d'énergie minimum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aria dell'Incantesimo",
+				"description": "Incantesimo d'Élite. Per 4...10 secondo[i] gli incantesimi lanciati su un obiettivo alleato costano 10 Punto[i] Energia in meno (min. 1 Punto[i] Energia).",
+				"concise": "Incantesimo d'Élite. (Secondi: 4...10) Riduzione costo energetico degli incantesimi lanciati sull'obiettivo alleato: 10 (minimo 1 Punto[i] Energia). Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "エンチャント エアー",
+				"description": "エリート強化スペル： 4...10 秒間、ターゲットした自分以外の味方に対して詠唱する強化スペルに必要なエネルギーが 10 減少します (最低 1 の消費エネルギー)。",
+				"concise": "エリート強化スペル： (4...10 秒) ターゲットした味方に強化スペルを詠唱する際に必要なエネルギーが 10 減少します (最低 1 のエネルギー消費量)。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "강화의 기운",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 4...10초 동안 대상에게 걸리는 강화 마법에 소모되는 에너지가 10 감소합니다. 최소한 1의 에너지는 소모됩니다. 이 마법은 자신에게 걸 수 없습니다.",
+				"concise": "엘리트 강화 마법. (4...10초) 대상에 거는 강화 마법의 소모 에너지가 10 감소합니다.(최소 1의 에너지는 소모) 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Zaklęte Powietrze",
+				"description": "Elitarne zaklęcie (czar). Przez 4...10 sek. zaklęcia rzucane na wybranego sojusznika innego niż ty kosztują o 10 pkt. energii mniej (minimalnie 1 pkt. energii).",
+				"concise": "Elitarne zaklęcie (czar). (4...10 sek.) Zaklęcia rzucane na wybranego sojusznika kosztują o 10 pkt. energii mniej (minimalnie 1 pkt. energii). Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Air of Enchantment",
+				"description": "Элитное заклинание-чары. В течение 4...10 сек любые чары, накладываемые на выбранного союзника (но не на вас), требуют на 10 ед. энергии меньше (минимально для активации требуется 1 ед. энергии).",
+				"concise": "Элитное заклинание-чары. (4...10 сек) Чары, накладываемые на выбранного союзника, требуют на 10 ед. энергии меньше (но не менее 1 ед. энергии). Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Aeur ooff Inchuntment",
+				"description": "Ileete-a Inchuntment Spell. Fur 4...10 secunds, inchuntments caest oon taerget oozeer aelly cust 10 less Inergy (meeneemoom 1 Inergy).",
+				"concise": "Ileete-a Inchuntment Spell. (4...10 secunds.) Inchuntments caest oon taerget aelly cust 10 less Inergy (meeneemoom 1 Inergy). Cunnut selff-taerget."
 			}
 		}
 	}

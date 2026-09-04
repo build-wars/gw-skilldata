@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "罗网陷阱",
+				"description": "陷阱技。 当罗网陷阱发动时，所有附近的敌人将受到5...20点穿刺伤害。带有「致残」症状的敌人将被击倒。罗网陷阱在90秒后消失。此技能在发动时很容易被打断。",
+				"concise": "陷阱技。 当罗网陷阱发动时，所有附近的敌人将受到5...20点穿刺伤害。带有「致残」症状的敌人将被击倒。罗网陷阱在90秒后消失。此技能在发动时很容易被打断。"
+			},
+			"cht": {
+				"name": "絆網",
+				"description": "陷阱： 當此陷阱被觸發時，對附近的所有敵人造成 5...20 穿刺傷害；任何已遭受「殘廢」病症的敵人將被擊倒。此陷阱在 90 秒後消失，但在發動此技能時，動作容易被中斷。",
+				"concise": "陷阱： 當此陷阱被觸發時，對附近的所有敵人造成 5...20 穿刺傷害；任何已遭受「殘廢」病症的敵人將被擊倒。此陷阱在 90 秒後消失，但在發動此技能時，動作容易被中斷。"
+			},
 			"de": {
+				"name": "Stolperdraht",
+				"description": "Falle. Wird Stolperdraht aktiviert, erleiden alle Feinde in der Nähe 5...20 Punkt[e] Stichschaden. Alle verkrüppelten Feinde werden zu Boden geworfen. Stolperdraht endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunden: Richtet bei Feinden in der Nähe 5...20 Punkt[e] Stichschaden an. Wirft verkrüppelte Feinde zu Boden. Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Stolperdraht",
 				"description": "Wird Stolperdraht aktiviert, erleiden alle Feinde in der Nähe 5...20 Punkte Stichschaden. Alle verkrüppelten Feinde werden zu Boden geworfen. Stolperdraht endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Richtet bei Feinden in der Nähe 5...20 Punkte Stichschaden an. Wirft verkrüppelte Feinde zu Boden. <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Tripwire",
+				"description": "Trap. When Tripwire is triggered, all nearby foes are struck for 5...20 piercing damage. Any Crippled foes are knocked down. Tripwire ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (90 seconds.) Deals 5...20 piercing damage to nearby foes. Causes knock-down to Crippled foes. Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Tripwire",
 				"description": "When Tripwire is triggered, all nearby foes are struck for 5...20 piercing damage. Any Crippled foes are knocked down. Tripwire ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Deals 5...20 piercing damage to nearby foes. Causes knock-down to Crippled foes. <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Suelo alambrado",
+				"description": "Trampa. Cuando se active esta trampa, todos los enemigos cercanos reciben 5...20 de daño perforante y los que estén lisiados caerán al suelo. Esta trampa dura 90 segundos y se te podrá interrumpir con facilidad mientras la estés colocando.",
+				"concise": "Trampa. (90 segundos). Hace 5...20 de daño perforante a los enemigos cercanos. Causa derribo a los enemigos lisiados. Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Fil de détente",
+				"description": "Piège. Quand le Fil de détente se déclenche, tous les ennemis à proximité subissent 5...20 points de dégâts perforants. Les ennemis souffrant d'Infirmité sont assommés. Le Fil de détente fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+				"concise": "Piège. (90 secondes.) Inflige 5...20 points de dégâts perforants aux ennemis à proximité. Assomme les ennemis frappés d'Infirmité. Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Fil de détente",
 				"description": "Quand le Fil de détente se déclenche, tous les ennemis à proximité subissent 5...20 points de dégâts perforants. Les ennemis souffrant d'Infirmité sont assommés. Le Fil de détente fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aziona-trappola",
+				"description": "Trappola. Quando l'Aziona-trappola viene attivato, tutti i nemici nei dintorni subiscono 5...20 danno[i] perforante[i]; i nemici storpi vengono abbattuti. L'Aziona-trappola termina dopo 90 secondi. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 90) Danni perforanti ai nemici nei dintorni: 5...20. Provoca abbattimento dei nemici affetti da Storpiatura. Facile interruzione."
+			},
+			"jp": {
+				"name": "トリップワイヤー",
+				"description": "トラップ： このトラップが作動すると、周囲にいるすべての敵は 5...20 のピアス ダメージを受けます。また、「不自由」状態の敵は転倒します。このトラップは 90 秒後に消滅します。このスキルの詠唱は容易に中断されます。",
+				"concise": "トラップ： (90秒) 周囲にいる敵に 5...20 のピアス ダメージを与えます。「不自由」状態の敵は転倒します。このスキルの詠唱は、容易に中断されます。"
+			},
+			"kr": {
+				"name": "올가미 철사",
+				"description": "함정. 대상 지정: 없음. 함정이 작동하면 부근의 모든 적은 5...20의 찌르는 대미지를 입습니다. 그 적이 다리 부상 상태라면 바닥에 넘어집니다. 함정은 90초 뒤에 사라지며, 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 5...20의 찌르는 대미지를 줍니다. 다리 부상을 입은 적은 바닥에 넘어뜨립니다. 쉽게 방해받습니다."
+			},
+			"pl": {
+				"name": "Potykacz",
+				"description": "Pułapka. Kiedy Potykacz zostanie uaktywniony, wszyscy przeciwnicy w pobliżu otrzymują 5...20 obrażeń przebijających. Okulawieni przeciwnicy zostają powaleni. Potykacz przestaje działać po 90 sekundach. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (90 sek.) Przeciwnikom w pobliżu zadaje po 5...20 pkt. obrażeń przebijających. Powala okulawionych przeciwników. Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Tripwire",
+				"description": "Ловушка. Когда Tripwire срабатывает, все находящиеся поблизости противники получают 5...20 ед. урона колющим оружием. Все хромающие противники будут сбиты с ног. Tripwire разряжается через 90 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (90 сек) Наносит 5...20 ед. урона колющим оружием противникам поблизости. Сбивает с ног хромающих противников. Легко прервать."
+			},
+			"bork": {
+				"name": "Treepvure-a",
+				"description": "Traep. Vhee Treepvure-a is treeggered, aell neaerby fues aere-a stroock fur 5...20 peeerceeng daemaege-a. Uny Creeppled fues aere-a knucked doon. Treepvure-a inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Deaels 5...20 peeerceeng daemaege-a tu neaerby fues. Cooses knuck-doon tu Creeppled fues. Iaeseely interroopted."
 			}
 		}
 	}

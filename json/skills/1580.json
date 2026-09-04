@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "倒戈之音",
+				"description": "回音技。 在20秒之内，使「非灵体」的目标盟友防御锐器的护甲值提高5...20点，当「圣歌」或「战吼」的效果在该盟友身上消失时，此「回音技」的效果将被重置。",
+				"concise": "回音技。 在20秒之内，使「非灵体」的目标盟友防御锐器的护甲值提高5...20点，当「圣歌」或「战吼」的效果在该盟友身上消失时，此「回音技」的效果将被重置。"
+			},
+			"cht": {
+				"name": "刃轉合聲",
+				"description": "迴響： 持續20秒，非靈的目標盟友5...20%機率格檔攻擊，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。",
+				"concise": "迴響： 持續20秒，非靈的目標盟友5...20%機率格檔攻擊，若有戰嚎或者聖歌在盟友身上終止，此迴響回復為20秒。"
+			},
 			"de": {
+				"name": "Klingenumkehr-Refrain",
+				"description": "Echo. 20 Sekunde[n] lang hat der Verbündete (bzw. Ihr selbst), der kein Geist ist, eine 5...20%ige Chance, Angriffe zu blocken. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. (20 Sekunde[n].) Der Verbündete (bzw. Ihr selbst) hat eine 5...20%ige Chance, Angriffe zu blocken. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Klingenumkehr-Refrain",
 				"description": "20 Sekunden lang hat der Verbündete (bzw. Ihr selbst), der kein Geist ist, eine 5...20%ige Chance Angriffe zu blocken. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "(20 Sekunden) Der Verbündete (bzw. Ihr selbst) hat eine 5...20%ige Chance, Angriffe zu Blocken. Erneuerung: Jedes mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Bladeturn Refrain",
+				"description": "Echo. For 20 seconds, target non-spirit ally has a 5...20% chance to block incoming attacks. This echo is reapplied every time a chant or shout ends on that ally.",
+				"concise": "Echo. (20 seconds.) Target ally has a 5...20% chance to block. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Bladeturn Refrain",
 				"description": "For 20 seconds, target non-spirit ally has a 5...20% chance to block incoming attacks. This echo is reapplied every time a chant or shout ends on that ally.",
 				"concise": "(20 seconds.) Target ally has 5...20% chance to block. Renewal: Whenever a chant or shout ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Estribillo afilado",
+				"description": "Eco. Durante 20 segundos, el aliado objetivo no espíritu tendrá un 5...20% de posibilidades de bloquear los ataques que reciba. Este eco se reactivará cada vez que los efectos de un cántico o grito alcancen al aliado.",
+				"concise": "Eco. (20 segundos.) El aliado objetivo tiene un 5...20% de posibilidades de bloquear ataques. Renovación: Cada vez que los efectos de un cántico o grito alcancen al aliado. No puedes apuntar a los espíritus."
+			},
 			"fr": {
+				"name": "Refrain du Bladeturn",
+				"description": "Echo. Pendant 20 secondes, l'allié visé (autre qu'un esprit) a 5...20% de chances de bloquer les attaques. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+				"concise": "Echo. (20 secondes.) L'allié visé a 5...20% de chances de bloquer les attaques. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Refrain du Bladeturn",
 				"description": "Pendant 20 secondes, l'allié visé (autre qu'un esprit) a 5...20% de chances de bloquer les attaques. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
 				"concise": "(20 secondes.) L'allié visé a 5...20% de chances de bloquer les attaques. Renouvellement : Chaque fois qu'un chant ou un cri affectant cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+			},
+			"it": {
+				"name": "Ritornello Ruotalama",
+				"description": "Eco. Per 20 secondi l'obiettivo alleato (spiriti esclusi) ha un 5...20% di probabilità di bloccare gli attacchi. Questa eco si rinnova ogni volta che un canto o un urlo finisce su quell'alleato.",
+				"concise": "Eco. (Secondi: 20). L'obiettivo alleato ha un 5...20% di probabilità di blocco. Rinnovo: ogni volta che un canto o un urlo termina su quell'alleato. Impossibile selezionare gli spiriti."
+			},
+			"jp": {
+				"name": "ブレードターン リフレイン",
+				"description": "エコー： 20 秒間、ターゲットした精霊以外の味方は、5...20% の確率で受ける攻撃をブロックします。この効果は、その味方にかけられたチャントやシャウトが消失するたびに再適用されます。",
+				"concise": "エコー： (20 秒) ターゲットした味方は 5...20% の確率で攻撃をブロックします。更新： この味方にかけられているチャントまたはシャウトの効果が消失するたび。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "대검술 공명",
+				"description": "공명. 대상 지정: 아군. 20초 동안 영혼이 아닌 대상은 공격을 막을 5...20% 갖습니다. 이 공명은 대상에 걸린 고함이나 영창이 끝날 때마다 새로 시작됩니다.",
+				"concise": "공명. (20초) 대상 아군은 공격을 막을 확률 5...20%를 갖습니다. 갱신 조건: 대상에 걸린 고함이나 영창이 끝날 때마다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Zaśpiew Odpędzenia Ostrzy",
+				"description": "Echo. Przez 20 sek. wybrany sojusznik, który nie jest duchem, ma 5...20% szans na zablokowanie ataków. To echo jest ponownie nakładane za każdym razem, kiedy na danym sojuszniku przestanie działać zaśpiew lub okrzyk.",
+				"concise": "Echo. (20 sek.) Wybrany sojusznik ma 5...20% szans na zablokowanie ataków. Odnowienie: za każdym razem, kiedy na tym sojuszniku przestaje działać zaśpiew lub okrzyk. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Bladeturn Refrain",
+				"description": "Эхо. В течение 20 сек выбранный союзника, не являющийся духом, получает 5...20%-й шанс блокировать направленные против него атаки. Это эхо применяется заново каждый раз, когда заканчивает свое действие хорал или крик, влияющий на этого союзника.",
+				"concise": "Эхо. (20 сек) Выбранный союзник получает 5...20%-й шанс блокировать атаки. Обновление: каждый раз, когда заканчивается хорал или крик, влияющий на этого союзника. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Blaedetoorn Reffraeeen",
+				"description": "Ichu. Fur 20 secunds, taerget nun-spureet aelly haes a 5...20% chunce-a tu bluck incumeeng aettaecks. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon thaet aelly.",
+				"concise": "Ichu. (20 secunds.) Taerget aelly haes a 5...20% chunce-a tu bluck. Renooael: Vhenefer a chunt oor shuoot inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

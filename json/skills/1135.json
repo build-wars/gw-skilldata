@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "迅猛打击",
+				"description": "剑术。 命中时，对目标敌人造成1...30点额外伤害。如果你没有使用任何「姿态」，此技能将无法被格挡。",
+				"concise": "剑术。 命中时，对目标敌人造成1...30点额外伤害。如果你没有使用任何「姿态」，此技能将无法被格挡。"
+			},
+			"cht": {
+				"name": "絕纏衝擊",
+				"description": "劍術攻擊技能： 命中時對目標造成 1...30 額外傷害。若你在不具備任何「態勢」的情況下使用此技能，則目標無法「格擋」。",
+				"concise": "劍術攻擊技能： 命中時對目標造成 1...30 額外傷害。若你在不具備任何「態勢」的情況下使用此技能，則目標無法「格擋」。"
+			},
 			"de": {
+				"name": "Jaizhenjuschlag",
+				"description": "Schwertangriff. Wenn Jaizhenjuschlag trifft, fügt Ihr +1...30 Punkt[e] Schaden zu. Wenn Ihr keine Haltung einnehmt, ist ein Blocken bei Jaizhenjuschlag nicht möglich.",
+				"concise": "Schwertangriff. Richtet +1...30 Punkt[e] Schaden an. Kann nicht geblockt werden, es sei denn, Ihr nehmt eine Haltung ein."
+			},
+			"de-guildwiki": {
 				"name": "Jaizhenjuschlag",
 				"description": "Wenn Jaizhenjuschlag trifft, fügt Ihr +1...30 Punkte Schaden zu. Wenn Ihr keine Haltung verwendet, ist ein Blocken nicht möglich.",
 				"concise": "Richtet +1...30 Punkt Schaden an. Kann nicht geblockt werden, es sei denn, Ihr nehmt eine Haltung ein."
 			},
 			"en": {
 				"name": "Jaizhenju Strike",
+				"description": "Sword Attack. If Jaizhenju Strike hits, you strike for +1...30 damage. If you are not using a stance, Jaizhenju Strike cannot be blocked.",
+				"concise": "Sword Attack. Deals +1...30 damage. Unblockable unless you are in a stance."
+			},
+			"en-gww": {
+				"name": "Jaizhenju Strike",
 				"description": "If Jaizhenju Strike hits, you strike for +1...30 damage. If you are not using a stance, Jaizhenju Strike cannot be blocked.",
 				"concise": "Deals +1...30 damage. Unblockable unless you are in a stance."
 			},
+			"es": {
+				"name": "Golpe de Jaizhenju",
+				"description": "Ataque con espada. Si el Golpe de Jaizhenju impacta, harás +1...30 de daño. Si no estás utilizando ninguna actitud, no se podrá bloquear.",
+				"concise": "Ataque con espada. Hace +1...30 de daño. No se puede bloquear a menos que mantengas una actitud."
+			},
 			"fr": {
+				"name": "Frappe de Jaizhenju",
+				"description": "Attaque à l'épée. Si la Frappe de Jaizhenju réussit, vous infligez +1...30 points de dégâts. Si vous n'utilisez pas de pose, la Frappe de Jaizhenju ne peut pas être bloquée.",
+				"concise": "Attaque à l'épée. Inflige +1...30 points de dégâts. Vous ne pouvez la bloquer qu'en pose de combat."
+			},
+			"fr-gwiki": {
 				"name": "Frappe de Jaizhenju",
 				"description": "Si la Frappe de Jaizhenju réussit, vous infligez +1...30 point(s) de dégâts. Si vous n'utilisez pas de Pose, la Frappe de Jaizhenju ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo di Jaizhenju",
+				"description": "Attacco con Spada. Se il Colpo di Jaizhenju va a segno, infliggi +1...30 danno[i]. Se non stai utilizzando una Posizione, il Colpo di Jaizhenju non può essere bloccato.",
+				"concise": "Attacco con Spada. Danni inferti: +1...30. Non bloccabile, a meno che non ti trovi in una posizione."
+			},
+			"jp": {
+				"name": "ジャイゼンジュ ストライク",
+				"description": "ソード アタック： 攻撃が成功すると 1...30 の追加ダメージを与えます。プレイヤーがスタンスを使用していない場合、この攻撃はブロックされません。",
+				"concise": "ソード アタック： 1...30 の追加ダメージを与えます。プレイヤーにスタンスがかけられていない場合、ブロックされません。"
+			},
+			"kr": {
+				"name": "자이젠주 강타",
+				"description": "칼 공격. 대상 지정: 적. 공격이 성공하면 대상은 1...30의 대미지를 추가로 입습니다. 자세 스킬을 사용하지 않은 채 이 스킬을 사용하면 이 공격을 막을 수 없습니다.",
+				"concise": "칼 공격. 1...30의 대미지를 추가로 줍니다. 자세 스킬 없이 이 스킬을 사용하면 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Jaizhenju",
+				"description": "Atak mieczem. Jeśli Uderzenie Jaizhenju trafi, zadajesz +1...30 pkt. obrażeń. Jeśli nie przyjąłeś żadnej postawy, to Uderzenie Jaizhenju nie może zostać zablokowane.",
+				"concise": "Atak mieczem. Zadaje +1...30 pkt. obrażeń. Nie do zablokowania, chyba że przyjąłeś postawę."
+			},
+			"ru": {
+				"name": "Jaizhenju Strike",
+				"description": "Атака мечом. Если Jaizhenju Strike попадает в цель, вы наносите дополнительно 1...30 ед. урона. Если вы не используете при этом какую-либо стойку, Jaizhenju Strike нельзя блокировать.",
+				"concise": "Атака мечом. Наносит дополнительно 1...30 ед. урона. Нельзя блокировать, если вы не используете стойку."
+			},
+			"bork": {
+				"name": "Jaeeezhenjoo Streeke-a",
+				"description": "Svurd Aettaeck. Iff Jaeeezhenjoo Streeke-a heets, yuoo streeke-a fur +1...30 daemaege-a. Iff yuoo aere-a nut useeng a stunce-a, Jaeeezhenjoo Streeke-a cunnut be-a blucked.",
+				"concise": "Svurd Aettaeck. Deaels +1...30 daemaege-a. Unbluckaeble-a unless yuoo aere-a in a stunce-a. Bork! Bork! Bork!"
 			}
 		}
 	}

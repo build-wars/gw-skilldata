@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"全速前进！\"",
+				"description": "战吼。 在5...20秒之内，使目标盟友的移动速度提升33%。当目标盟友击中敌人时，此效果消失。",
+				"concise": "战吼。 在5...20秒之内，使目标盟友的移动速度提升33%。当目标盟友击中敌人时，此效果消失。"
+			},
+			"cht": {
+				"name": "「衝鋒！」",
+				"description": "戰嚎： 持續 5...20 秒，使目標其他盟友移動速度加快 33% ，而當該盟友攻擊成功時，此技能的效果終止。",
+				"concise": "戰嚎： 持續 5...20 秒，使目標其他盟友移動速度加快 33% ，而當該盟友攻擊成功時，此技能的效果終止。"
+			},
 			"de": {
+				"name": "\"Beeilt Euch!\"",
+				"description": "Schrei. 5...20 Sekunde[n] lang bewegt sich der Verbündete um 33% schneller. Diese Fertigkeit endet, wenn der Verbündete erfolgreich angreift.",
+				"concise": "Schrei. 5...20 Sekunde[n]: Der Verbündete bewegt sich um 33% schneller. Endet, sobald der Verbündete mit einem Angriff trifft. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "\"Beeilt Euch!\"",
 				"description": "5...20 Sekunden lang bewegt sich der Verbündete um 33% schneller. Diese Fertigkeit endet, wenn der Verbündete erfolgreich angreift.",
 				"concise": "5...20 Sekunden: Der Verbündete bewegt sich um 33% schneller. <gray>Endet sobald der Verbündete mit einem Angriff trifft. Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "\"Make Haste!\"",
+				"description": "Shout. For 5...20 seconds, target other ally moves 33% faster. This skill ends if that ally successfully hits with an attack.",
+				"concise": "Shout. (5...20 seconds.) Target ally moves 33% faster. Ends if target ally hits with an attack. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "\"Make Haste!\"",
 				"description": "For 5...20 seconds, target other ally moves 33% faster. This skill ends if that ally successfully hits with an attack.",
 				"concise": "(5...20 seconds.) Target ally moves 33% faster. <gray>Ends if target ally hits with an attack. Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "\"¡Rápido!\"",
+				"description": "Grito. Durante 5...20 segundos, el aliado objetivo se mueve un 33% más deprisa. Esta habilidad termina si ataca con éxito.",
+				"concise": "Grito. (5...20 segundos). El aliado objetivo se mueven un 33% más deprisa. Acaba si el aliado hace un ataque. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "\"Faites vite !\"",
+				"description": "Cri. Pendant 5...20 secondes, l'allié visé se déplace 33% plus vite. Cette compétence prend fin si cet allié réussit son attaque.",
+				"concise": "Cri. (5...20 secondes.) L'allié visé se déplace 33% plus vite. Prend fin si l'allié visé réussit une attaque. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "\"Faites vite !\"",
 				"description": "Pendant 5...20 secondes, l'allié visé se déplace 33% plus vite. Cette compétence prend fin si cet allié réussit son attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"In fretta!\"",
+				"description": "Urlo. Per 5...20 secondo[i], la velocità di movimento dell'obiettivo alleato aumenta del 33%. Questa abilità termina se un attacco di quell'alleato va a segno.",
+				"concise": "Urlo. (Secondi: 5...20) Incremento velocità di movimento dell'obiettivo: 33%. Termina se l'obiettivo alleato colpisce con un attacco. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "メイク ヘイスト！",
+				"description": "シャウト： 5...20 秒間、ターゲットした自分以外の味方は移動速度が 33% 増加します。その味方が攻撃に成功すると、この効果は消失します。",
+				"concise": "シャウト： (5...20 秒) ターゲットした味方は移動速度が 33% 増加します。ターゲットが攻撃に成功すると、この効果は消失します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "재빨리 움직여라!",
+				"description": "고함. 대상 지정: 아군. 5...20초 동안 대상의 이동 속도가 33% 빨라집니다. 대상이 공격에 성공하면 효과가 끝납니다. 이 스킬은 자신에게 사용할 수 없습니다.",
+				"concise": "고함. (5...20초) 대상 아군의 이동 속도가 33% 빨라집니다. 대상이 공격에 성공하면 효과가 끝나고, 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "\"Pospieszcie się!\"",
+				"description": "Okrzyk. Przez 5...20 sek. wybrany sojusznik inny niż ty porusza się o 33% szybciej. Umiejętność przestanie działać z kolejnym trafionym atakiem tego sojusznika.",
+				"concise": "Okrzyk. (5...20 sek.) Wybrany sojusznik porusza się o 33% szybciej. Przestanie działać, jeśli wybrany sojusznik trafi. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "\"Make Haste!\"",
+				"description": "Крик. В течение 5...20 сек выбранный союзник (но не вы) двигается на 33% быстрее. Действие этого умения заканчивается, если этот союзник провел успешную атаку.",
+				"concise": "Крик. (5...20 сек) Выбранный союзник двигается на 33% быстрее. Заканчивается, если выбранный союзник провел успешную атаку. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "\"Maeke-a Haeste-a!\"",
+				"description": "Shuoot. Fur 5...20 secunds, taerget oozeer aelly mufes 33% faester. Thees skeell inds iff thaet aelly sooccessffoolly heets veet un aettaeck.",
+				"concise": "Shuoot. (5...20 secunds.) Taerget aelly mufes 33% faester. Inds iff taerget aelly heets veet un aettaeck. Cunnut selff-taerget."
 			}
 		}
 	}

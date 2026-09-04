@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "高莱之护",
+				"description": "物品法术。 高莱的骨灰最多可以持有15...60秒，当你持有该物品时，你将获得20点护甲值。当你丢弃该物品时，所有小队成员将获得20...95点生命值。",
+				"concise": "物品法术。 高莱的骨灰最多可以持有15...60秒，当你持有该物品时，你将获得20点护甲值。当你丢弃该物品，所有的队友将获得20...95点生命值。"
+			},
+			"cht": {
+				"name": "護衛者高萊",
+				"description": "抱持魔法： 最多能夠抱持 15...60 秒，當你抱持高萊的骨灰時，你增加 20 防禦。而當你丟下他的骨灰時，所有隊員獲得 20...95 體力。",
+				"concise": "抱持魔法： 最多能夠抱持 15...60 秒，當你抱持高萊的骨灰時，你增加 20 防禦。而當你丟下他的骨灰時，所有隊員獲得 20...95 體力。"
+			},
 			"de": {
+				"name": "Schützend war Kaolai",
+				"description": "Gegenstandszauber. Haltet Kaolais Asche bis zu 15...60 Sekunde[n] lang. Während Ihr seine Asche haltet, erhaltet Ihr 20 Rüstung. Wenn Ihr seine Asche fallen lasst, werden alle Gruppenmitglieder um 20...95 Lebenspunkt[e] geheilt.",
+				"concise": "Gegenstandszauber. 15...60 Sekunde[n]: Ihr habt +20 Rüstung. Fallwirkung: Alle Gruppenmitglieder werden um 20...95 Lebenspunkt[e] geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Schützend war Kaolai",
 				"description": "Haltet Kaolais Asche bis zu 15...60 Sekunden lang. Während Ihr seine Asche haltet, erhaltet Ihr 20 Rüstung. Wenn ihr seine Asche fallen lasst, werden alle Gruppenmitglieder um 20...95 Lebenspunkte geheilt.",
 				"concise": "15...60 Sekunden: Ihr habt +20 Rüstung. Fallwirkung: Alle Gruppenmitglieder werden um 20...95 Lebenspunkte geheilt."
 			},
 			"en": {
 				"name": "Protective Was Kaolai",
+				"description": "Item Spell. Hold Kaolai's ashes for up to 15...60 seconds. While you hold his ashes, you gain 20 armor. When you drop his ashes, all party members are healed for 20...95 Health.",
+				"concise": "Item Spell. (15...60 seconds.) You have +20 armor. Drop effect: all party members are healed for 20...95."
+			},
+			"en-gww": {
+				"name": "Protective Was Kaolai",
 				"description": "Hold Kaolai's ashes for up to 15...60 seconds. While you hold his ashes, you gain 20 armor. When you drop his ashes, all party members are healed for 20...95 Health.",
 				"concise": "(15...60 seconds.) You have +20 armor. Drop effect: all party members are healed for 20...95."
 			},
+			"es": {
+				"name": "Protector sea Kaolai",
+				"description": "Conjuro con objeto. Llevas las cenizas de Kaolai durante 15...60 segundos. Mientras, ganarás 20 de armadura y, cuando las sueltes, todos los miembros del grupo se curarán 20...95 de salud.",
+				"concise": "Conjuro con objeto. (15...60 segundos). Tienes +20 de armadura. Efecto al soltarse: todos los miembros del grupo se curan 20...95 de salud."
+			},
 			"fr": {
+				"name": "Kaolai était protecteur",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Kaolai pendant un maximum de 15...60 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de 20. Lorsque vous les déposez, tous les membres du groupe sont soignés de 20...95 points de vie.",
+				"concise": "Sort d'altération d'objet. (15...60 secondes.) Vous bénéficiez d'un bonus d'armure de +20. Effet de la pose : tous les membres du groupe sont soignés de 20...95 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Kaolai était protecteur",
 				"description": "Vous tenez les cendres de ''Kaolai'' pendant un maximum de 15...60 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de 10. Lorsque vous les déposez, tous les membres du groupe sont soignés de 10...85 points de vie.",
 				"concise": "(15...60 secondes.) Vous bénéficiez d'un bonus d'armure de +10. Effet de la pose : tous les membres du groupe sont soignés de 10...85 points de vie."
+			},
+			"it": {
+				"name": "Kaolai era Protettivo",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Kaolai per un massimo di 15...60 secondo[i]; mentre le mantieni, ottieni +20 di armatura. Quando le lasci cadere, tutti i membri della squadra vengono curati di 20...95 Punto[i] Salute.",
+				"concise": "Magia Altera-oggetto. (Secondi: 15...60) Armatura: +20. Rilascio: tutti i membri della squadra vengono curati di 20...95."
+			},
+			"jp": {
+				"name": "カオライ プロテクティブ",
+				"description": "アイテム スペル： 最大 15...60 秒間、カオライの遺灰を持ちます。その間、防御力が 20 増加します。この遺灰を落とすと、すべてのパーティー メンバーは体力が 20...95 回復します。",
+				"concise": "アイテム スペル： (15...60 秒) 防御力が 20 増加します。ドロップ効果： すべてのパーティー メンバーは体力が 20...95 回復します。"
+			},
+			"kr": {
+				"name": "카올라이의 수호",
+				"description": "드롭아이템. 대상 지정: 없음. 15...60초 동안 유지되는 카올라이의 마력석을 만듭니다. 카올라이의 마력석을 들고 있는 동안 방어력이 20 증가하고, 바닥에 떨어뜨리면 모든 파티원이 20...95의 체력을 회복합니다.",
+				"concise": "드롭아이템. (15...60초) 방어력이 20 증가합니다. 드롭 효과: 모든 파티원이 20...95의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Opiekuńczym Był Kaolai",
+				"description": "Czar z przedmiotu. Trzymaj prochy Kaolaia przez maksymalnie 15...60 sek. Trzymając jego prochy, otrzymujesz 20 do pancerza. Kiedy upuścisz prochy, wszyscy członkowie drużyny odzyskują 20...95 pkt. żywotności.",
+				"concise": "Czar z przedmiotu. (15...60 sek.) Posiadasz +20 pkt. pancerza. Efekt upuszczenia: wszyscy członkowie drużyny otrzymują po 20...95 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Protective Was Kaolai",
+				"description": "Артефактное заклинание. Вы держите прах Kaolai до 15...60 сек. Пока вы держите его прах, ваша защита увеличивается на 20 ед. Когда вы бросаете его прах, все члены вашего отряда исцеляются на 20...95 ед. здоровья.",
+				"concise": "Артефактное заклинание. (15...60 сек) Вы получаете +20 ед. к защите. Эффект от бросания: все члены отряда исцеляются на 20...95 ед. здоровья."
+			},
+			"bork": {
+				"name": "Prutecteefe-a Vaes Kaeulaeee",
+				"description": "Item Spell. Huld Kaeulaeee's aeshes fur up tu 15...60 secunds. Vheele-a yuoo huld hees aeshes, yuoo gaeeen 20 aermur. Vhee yuoo drup hees aeshes, aell paerty members aere-a heaeled fur 20...95 Heaelt.",
+				"concise": "Item Spell. (15...60 secunds.) Yuoo haefe-a +20 aermur. Drup iffffect: aell paerty members aere-a heaeled fur 20...95. Bork! Bork! Bork!"
 			}
 		}
 	}

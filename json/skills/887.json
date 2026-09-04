@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "回春纹章",
+				"description": "纹章。 治愈目标盟友 15...75 生命。如果该盟友正在攻击或者施法，则其额外被治愈 15...75 生命。",
+				"concise": "纹章。 治愈目标盟友 15...75 生命。如果该盟友正在攻击或者施法，则其额外被治愈 15...75 生命。"
+			},
+			"cht": {
+				"name": "新生紋章",
+				"description": "紋章： 治癒目標盟友 15...75 體力。若該盟友正在攻擊或者施展「魔法」，則其額外被治癒 15...75 體力。",
+				"concise": "紋章： 治癒目標盟友 15...75 體力。若該盟友正在攻擊或者施展「魔法」，則其額外被治癒 15...75 體力。"
+			},
 			"de": {
+				"name": "Siegel der Verjüngung",
+				"description": "Siegel. Heilt Verbündeten (bzw. Euch selbst) um 15...75 Punkt[e] Wenn der Verbündete (bzw. Ihr selbst) einen Zauber wirkt oder angreift, wird er um zusätzlich 15...75 Lebenspunkt[e] geheilt.",
+				"concise": "Siegel. Heilt um 15...75 Lebenspunkt[e]. Heilt um weitere 15...75 Lebenspunkt[e], falls der Verbündete (bzw. Ihr selbst) gerade einen Zauber wirkt oder angreift."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Verjüngung",
 				"description": "Heilt Verbündeten (bzw. Euch selbst) um 15...75 Punkte. Wenn der Verbündete (bzw. Ihr selbst) einen Zauber wirkt oder angreift, wird er um zusätzlich 15...75 Lebenspunkte geheilt.",
 				"concise": "Heilt um 15...75 Lebenspunkte. Heilt um weitere 15...75 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) gerade einen Zauber wirkt oder angreift."
 			},
 			"en": {
 				"name": "Signet of Rejuvenation",
+				"description": "Signet. Heal target ally for 15...75. If target ally is casting a spell or attacking, that ally is healed for an additional 15...75 Health.",
+				"concise": "Signet. Heals for 15...75. Heals for 15...75 more if target ally is casting a spell or attacking."
+			},
+			"en-gww": {
+				"name": "Signet of Rejuvenation",
 				"description": "Heal target ally for 15...75. If target ally is casting a spell or attacking, that ally is healed for an additional 15...75 Health.",
 				"concise": "Heals for 15...75. Heals for 15...75 more if target ally is casting a spell or attacking."
 			},
+			"es": {
+				"name": "Sello del rejuvenecimiento",
+				"description": "Sello. Curas al objetivo (un aliado o tú mismo) 15...75 de salud. Si estaba atacando o lanzando un conjuro, se curará 15...75 de salud extra.",
+				"concise": "Sello. Cura 15...75 de salud. 15...75 de salud extra si el objetivo (un aliado o tú mismo) está lanzando un conjuro o atacando."
+			},
 			"fr": {
+				"name": "Sceau de rajeunissement",
+				"description": "Sceau. Soigne la cible (un allié ou vous-même) de 15...75 points de vie. Si celle-ci est en train de lancer un sort ou d'attaquer, elle est soignée de 15...75 points de vie supplémentaires.",
+				"concise": "Sceau. Soigne de 15...75 points de vie. Soigne de 15...75 points de vie supplémentaires si l'allié visé lance un sort ou attaque."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de rajeunissement",
 				"description": "Soigne la cible (un allié ou vous-même) de 15...75 points de vie. Si celle-ci est en train de lancer un sort ou d'attaquer, elle est soignée de 15...75 points de vie supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Ringiovanimento",
+				"description": "Sigillo. Curi l'obiettivo (un alleato o te stesso) di 15...75 punto[i]; se l'obiettivo sta compiendo una magia o sta attaccando, viene curato di 15...75 Punto[i] Salute in più.",
+				"concise": "Sigillo. Cure: 15...75. Cura di 15...75 Punto[i] Salute in più se l'obiettivo sta lanciando una magia o attaccando."
+			},
+			"jp": {
+				"name": "リジュヴネーション シグネット",
+				"description": "シグネット： ターゲットした味方は体力が 15...75 回復します。ターゲットした味方がスペル詠唱中または攻撃中の場合、その味方は15...75 の体力が追加回復します。",
+				"concise": "シグネット： 体力を 15...75 回復します。ターゲットした味方がスペル詠唱中または攻撃中の場合、15...75 の体力が追加回復します。"
+			},
+			"kr": {
+				"name": "원기 회복 인장",
+				"description": "인장. 대상 지정: 아군. 대상의 체력을 15...75 회복시킵니다. 그 대상이 공격 중이거나 마법을 외우는 중이라면 15...75의 체력을 추가로 회복시킵니다.",
+				"concise": "인장. 15...75의 체력을 회복시킵니다. 대상이 마법 시전 중이거나 공격 중이면 15...75의 체력을 추가로 회복시킵니다."
+			},
+			"pl": {
+				"name": "Sygnet Odmłodzenia",
+				"description": "Sygnet. Uzdrawiasz wybranego sojusznika dodając mu 15...75 pkt. żywotności. Jeśli wybrany sojusznik rzuca czar lub atakuje, otrzymuje dodatkowe 15...75 pkt. żywotności.",
+				"concise": "Sygnet. Dodaje 15...75 pkt. żywotności. Dodaje dodatkowo 15...75 pkt. żywotności, jeżeli wybrany sojusznik atakuje lub rzuca czar."
+			},
+			"ru": {
+				"name": "Signet of Rejuvenation",
+				"description": "Печать. Исцеляет выбранного союзника на 15...75 ед. здоровья. Если выбранный союзник произносил заклинание или атаковал, он будет исцелен дополнительно на 15...75 ед. здоровья.",
+				"concise": "Печать. Исцеляет на 15...75 ед. здоровья. Исцеляет дополнительно на 15...75 ед. здоровья, если выбранный союзник произносит заклинание или атакует."
+			},
+			"bork": {
+				"name": "Seegnet ooff Rejoofenaeshun",
+				"description": "Seegnet. Heael taerget aelly fur 15...75. Iff taerget aelly is caesteeng a spell oor aettaeckeeng, thaet aelly is heaeled fur un aeddeeshunael 15...75 Heaelt.",
+				"concise": "Seegnet. Heaels fur 15...75. Heaels fur 15...75 mure-a iff taerget aelly is caesteeng a spell oor aettaeckeeng."
 			}
 		}
 	}

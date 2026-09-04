@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "御雷术",
+				"description": "精英咒文。 对目标敌人和在他附近的敌人（最多两名）造成10...90点闪电伤害。此法术有25%的护甲穿透效果。如果你没有受到「增益魔法」效果的影响，此法术使你遭受「疲劳」症状。",
+				"concise": "精英咒文。 对目标敌人和在他附近的敌人（最多两名）造成10...90点闪电伤害。此法术有25%的护甲穿透效果。如果你没有受到「增益魔法」效果的影响，此法术使你遭受「疲劳」症状。"
+			},
+			"cht": {
+				"name": "閃電祈禱",
+				"description": "精英咒文魔法： 使目標敵人及其附近最多兩名敵人遭受 10...90 閃電傷害。此魔法具有 25% 防禦穿透效果，若你身上不具有「加持」，使用此「魔法」將導致精疲力竭。",
+				"concise": "精英咒文魔法： 使目標敵人及其附近最多兩名敵人遭受 10...90 閃電傷害。此魔法具有 25% 防禦穿透效果，若你身上不具有「加持」，使用此「魔法」將導致精疲力竭。"
+			},
 			"de": {
+				"name": "Blitz herbeirufen",
+				"description": "Elite-Zauber. Der Gegner und bis zu zwei andere in der Nähe befindliche Feinde erleiden 10...90 Punkt[e] Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Elite-Zauber. Richtet 10...90 Punkt[e] Blitzschaden an. Trifft zwei Feinde in der Nähe des Ziels. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Blitz herbeirufen",
 				"description": "Der Gegner, ein Feind in seiner Nähe und ein weiterer Feind in der Nähe von letzterem erleiden 10...90 Punkte Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...90 Punkte Blitzschaden an. Trifft zwei Feinde in der Nähe des Ziels. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Invoke Lightning",
+				"description": "Elite Spell. Target foe and up to two other foes near your target are struck for 10...90 lightning damage. This spell has 25% armor penetration.",
+				"concise": "Elite Spell. Deals 10...90 lightning damage. Hits two foes near target. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Invoke Lightning",
 				"description": "Target foe and up to two other foes near your target are struck for 10...90 lightning damage. This spell has 25% armor penetration.",
 				"concise": "Deals 10...90 lightning damage. Hits two foes near target. 25% armor penetration."
 			},
+			"es": {
+				"name": "Relámpago invocado",
+				"description": "Conjuro de élite. El enemigo objetivo y otros dos enemigos que se encuentren cerca recibirán 10...90 de daño de relámpago. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro de élite. Causa 10...90 de daño de relámpago. Golpea a dos enemigos cerca del objetivo. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Invocation de la foudre",
+				"description": "Sort d'élite. L'ennemi visé et jusqu'à deux autres ennemis proches de lui subissent 10...90 points de dégâts de la foudre. Ce sort a une pénétration d'armure de 25%.",
+				"concise": "Sort d'élite. Inflige 10...90 points de dégâts de la foudre. Frappe deux ennemis proches de la cible. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Invocation de la foudre",
 				"description": "L'ennemi visé et jusqu'à deux autres près de lui subissent 10...100 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure. Si vous n'êtes pas sous les effets d'un enchantement, ce sort entraîne l'Epuisement.",
 				"concise": "Inflige 10...100 point de dégâts de la foudre. Frappe deux ennemis pres de la cible. pénétration d'armure de 25%. <gray> Vous souffrez d'Epuisement si vous n'êtes pas enchanté.</gray>"
+			},
+			"it": {
+				"name": "Invoca Fulmine",
+				"description": "Magia d'Élite. L'obiettivo nemico e un massimo di altri due nemici accanto a lui subiscono 10...90 danni da fulmine. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia d'Élite. Danni da fulmine inferti: 10...90. Colpisce due nemici vicini all'obiettivo. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "インヴォーク ライトニング",
+				"description": "エリート スペル： ターゲットした敵および周囲にいる最大2体の敵に 10...90 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "エリート スペル： ターゲットした敵および周囲にいる2体の敵に 10...90 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개의 발현",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 그 부근의 적 2명에게 10...90의 번개 대미지를 줍니다. 이 마법은 25%의 갑옷 관통 효과를 가집니다.",
+				"concise": "엘리트 마법. 대상과 그 부근의 적 2명에게 10...90의 번개 대미지를 줍니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Wywołanie Błyskawicy",
+				"description": "Elitarny czar. Wybrany przeciwnik i maksymalnie dwóch innych przeciwników w jego pobliżu otrzymują po 10...90 pkt. obrażeń od błyskawic. Ten czar posiada 25% przebicie pancerza. Jeżeli nie jesteś pod działaniem zaklęcia, ten czar powoduje wyczerpanie.",
+				"concise": "Elitarny czar. Zadaje 10...90 pkt. obrażeń od błyskawic. Trafia dwóch przeciwników w pobliżu celu. 25% przebicie pancerza. Powoduje wyczerpanie, jeśli nie masz na sobie zaklęcia."
+			},
+			"ru": {
+				"name": "Invoke Lightning",
+				"description": "Элитное заклинание. Выбранный противник и до двух других противников поблизости от него получают 10...90 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Элитное заклинание. Наносит 10...90 ед. урона силой молнии. Поражает двух противников поблизости от цели. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Infuke-a Leeghtneeng",
+				"description": "Ileete-a Spell. Taerget fue-a und up tu tvu oozeer fues neaer yuoor taerget aere-a stroock fur 10...90 leeghtneeng daemaege-a. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Ileete-a Spell. Deaels 10...90 leeghtneeng daemaege-a. Heets tvu fues neaer taerget. 25% aermur penetraeshun."
 			}
 		}
 	}

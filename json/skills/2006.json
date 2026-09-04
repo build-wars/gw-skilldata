@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Castigation Signet",
+				"description": "纹章。 Target foe takes 26...56 holy damage. If that foe was attacking, you gain 4...14 Energy.",
+				"concise": "纹章。 Deals 26...56 holy damage. You gain 4...14 Energy if target foe is attacking."
+			},
+			"cht": {
+				"name": "懲罰紋章",
+				"description": "紋章： 使目標敵人受到 26...56 神聖傷害。若該目標敵人正在進行攻擊，你將獲得 4...14 能量。",
+				"concise": "紋章： 使目標敵人受到 26...56 神聖傷害。若該目標敵人正在進行攻擊，你將獲得 4...14 能量。"
+			},
 			"de": {
+				"name": "Geißelungs-Siegel",
+				"description": "Siegel. Der Gegner erleidet 26...56 Punkt[e] heiligen Schaden. Falls er angegriffen hat, erhaltet Ihr 4...14 Energiepunkt[e].",
+				"concise": "Siegel. Richtet 26...56 Punkt[e] heiligen Schaden an. Ihr erhaltet 4...14 Energiepunkt[e], falls der Gegner gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Geißelungs-Siegel",
 				"description": "Der Gegner erleidet 26...56 Punkte heiligen Schaden. Falls er angegriffen hat, erhaltet Ihr 4...14 Energiepunkte.",
 				"concise": "Richtet 26...56 Punkte heiligen Schaden an. Ihr erhaltet 4...14 Energiepunkte, falls der Gegner gerade angreift."
 			},
 			"en": {
 				"name": "Castigation Signet",
+				"description": "Signet. Target foe takes 26...56 holy damage. If that foe was attacking, you gain 4...14 Energy.",
+				"concise": "Signet. Deals 26...56 holy damage. You gain 4...14 Energy if target foe is attacking."
+			},
+			"en-gww": {
+				"name": "Castigation Signet",
 				"description": "Target foe takes 26...56 holy damage. If that foe was attacking, you gain 4...14 Energy.",
 				"concise": "Deals 26...56 holy damage. You gain 4...14 Energy if target foe is attacking."
 			},
+			"es": {
+				"name": "Sello de castigo",
+				"description": "Sello. Haces 26...56 de daño sagrado al enemigo objetivo. Si estaba atacando, ganas 4...14 de energía.",
+				"concise": "Sello. Hace 26...56 de daño sagrado. Ganas 4...14 de energía si el enemigo objetivo está atacando."
+			},
 			"fr": {
+				"name": "Sceau de pénitence",
+				"description": "Sceau. La cible ennemie subit 26...56 points de dégâts sacrés. Si elle attaquait, vous bénéficiez de 4...14 points d'énergie.",
+				"concise": "Sceau. Inflige 26...56 points de dégâts sacrés. Vous gagnez 4...14 points d'énergie si l'ennemi visé attaque."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de pénitence",
 				"description": "La cible ennemie subit 26...56 points de dégâts sacrés. Si elle attaquait, vous bénéficiez de 1...10 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Castigazione",
+				"description": "Sigillo. L'obiettivo nemico subisce 26...56 danno[i] sacro[i]; se stava attaccando ottieni 4...14 Punto[i] Energia.",
+				"concise": "Sigillo. Danni sacri inferti: 26...56. Energia conseguita se l'obiettivo nemico sta attaccando: 4...14."
+			},
+			"jp": {
+				"name": "キャスティゲーション シグネット",
+				"description": "シグネット： ターゲットした敵に 26...56 の神聖ダメージを与えます。ターゲットが攻撃中の場合、4...14 のエネルギーを獲得します。",
+				"concise": "シグネット： 26...56 の神聖ダメージを与えます。ターゲットした敵が攻撃中の場合、4...14 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "징계 인장",
+				"description": "인장. 대상에게 26...56의 신성 대미지를 줍니다. 대상이 공격 중이면 자신은 4...14의 에너지를 얻습니다.",
+				"concise": "인장. 26...56의 신성 대미지를 줍니다. 대상이 공격 중이면 자신은 4...14의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Skarcenia",
+				"description": "Sygnet. Wybrany przeciwnik otrzymuje 26...56 świętych obrażeń. Jeżeli w tym czasie atakował, otrzymujesz 4...14 punktów energii.",
+				"concise": "Sygnet. Zadaje 26...56 pkt. świętych obrażeń. Otrzymujesz 4...14 pkt. energii, jeżeli wybrany przeciwnik atakuje."
+			},
+			"ru": {
+				"name": "Castigation Signet",
+				"description": "Печать. Выбранный противник получает 26...56 ед. урона святой силой. Если этот противник атаковал, вы получаете 4...14 ед. энергии.",
+				"concise": "Печать. Наносит 26...56 ед. урона святой силой. Вы получаете 4...14 ед. энергии, если выбранный противник атаковал."
+			},
+			"bork": {
+				"name": "Caesteegaeshun Seegnet",
+				"description": "Seegnet. Taerget fue-a taekes 26...56 huly daemaege-a. Iff thaet fue-a vaes aettaeckeeng, yuoo gaeeen 4...14 Inergy.",
+				"concise": "Seegnet. Deaels 26...56 huly daemaege-a. Yuoo gaeeen 4...14 Inergy iff taerget fue-a is aettaeckeeng. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复原",
+				"description": "缚灵仪式。 创造一只等级为1...10的复原缚灵，使范围内的「非灵体」类友方的「生命再生」提高1...3点，缚灵在15...45秒后自然消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...10的复原缚灵，使范围内所有队友的生命再生提高 1...3 ，缚灵在15...45秒后自然消失。"
+			},
+			"cht": {
+				"name": "復原 (PvP)",
+				"description": "縛靈儀式： 創造一個等級 1...10 的復原縛靈，範圍內的非靈盟友獲得體力再生 1...3，靈在 15...45 秒後死亡。",
+				"concise": "縛靈儀式： 創造一個等級 1...10 的復原縛靈，範圍內的非靈盟友獲得體力再生 1...3，靈在 15...45 秒後死亡。"
+			},
 			"de": {
+				"name": "Erholung (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...10. Verbündete in seiner Reichweite, die keine Geister sind, erfreuen sich einer Lebenspunktregeneration von +1...3. Dieser Geist stirbt nach 15...45 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...10 (15...45 Sekunde[n] Lebensdauer). Verbündete in Reichweite, die keine Geister sind, haben +1...3 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Erholung (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...10. Verbündete in seiner Reichweite, die keine Geister sind, erfreuen sich einer Lebenspunktregeneration von +1...3. Dieser Geist stirbt nach 15...45 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (15...45 Sekunden Lebensdauer). Verbündete in Reichweite, die keine Geister sind, haben +1...3 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Recuperation (PvP)",
+				"description": "Binding Ritual. Create a level 1...10 spirit. Non-spirit allies within its range gain +1...3 Health regeneration. This spirit dies after 15...45 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...10 spirit (15...45 second lifespan). Non-spirit allies within range have +1...3 Health regeneration."
+			},
+			"en-gww": {
+				"name": "Recuperation (PvP)",
 				"description": "Create a level 1...10 spirit. Non-spirit allies within its range gain +1...3 Health regeneration. This spirit dies after 15...45 seconds.",
 				"concise": "Creates a level 1...10 spirit (15...45 second lifespan). Non-spirit allies within range have +1...3 Health regeneration."
 			},
+			"es": {
+				"name": "Recuperación (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel1...10. Los aliados de la zona que no sean espíritus ganan +1...3 de regeneración de salud. El espíritu morirá a los 15...45 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...10 (15...45 segundos de vida). Los aliados de la zona que no sean espíritus tienen 1...3 de regeneración de salud."
+			},
 			"fr": {
+				"name": "Rétablissement (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...10. Les alliés (autres que des esprits) dans sa portée bénéficient d'une régénération de santé de +1...3. Il meurt au bout de 15...45 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...10 (durée de vie de 15...45 secondes). Les alliés (autres que les esprits) à portée bénéficient d'une régénération de santé de +1...3."
+			},
+			"fr-gwiki": {
 				"name": "Rétablissement (PvP)",
 				"description": "Crée un esprit de niveau 1...10. Les alliés (autres que des esprits) à sa portée bénéficient d'une régénération de santé de +1...3 s'ils ont moins de 75% de vie. Cet esprit meurt au bout de 15...45 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Recupero (PvP)",
+				"description": "Rituale Incatenante. Crea uno Spirito di livello 1...10. Tutti gli alleati (Spiriti esclusi) nel raggio d'azione ottengono una Rigenerazione della Salute di +1...3. Lo Spirito muore dopo 15...45 secondi.",
+				"concise": "Rituale Incatenante. Crea uno Spirito di livello 1...10 (in vita per 15...45 secondi). Rigenerazione Salute ottenuta da tutti gli alleati (Spiriti esclusi) nel raggio d'azione: +1...3."
+			},
+			"jp": {
+				"name": "リキューパレーション (PvP)",
+				"description": "バインド リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の味方は体力の自然回復力が 1...3 増加します。この精霊は 15...45 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...10 の精霊を召喚します (15...45 秒)。この精霊の効果範囲内では、精霊以外の味方は体力の自然回復力が 1...3 増加します。"
+			},
+			"kr": {
+				"name": "휴식의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 반경 내에 있는 영혼이 아닌 아군은 체력 재생이 1...3만큼 증가합니다. 영혼은 15...45초 후 사라집니다.",
+				"concise": "영혼 결속. 1...10레벨 영혼을 소환합니다.(수명: 15...45초) 영혼이 아닌 아군은 체력 재생이 1...3만큼 증가합니다."
+			},
+			"pl": {
+				"name": "Rekonwalescencja (PvP)",
+				"description": "Rytuał spętania. Tworzy ducha o poziomie 1...10. Sojusznicy w jego zasięgu, którzy nie są duchami, otrzymują premię +1...3 do regeneracji żywotności. Duch umiera po 15...45 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha o poziomie 1...10 (długość życia: 15...45 sek.). Sojusznicy w jego zasięgu, którzy nie są duchami, otrzymują premię +1...3 do regeneracji żywotności."
+			},
+			"ru": {
+				"name": "Recuperation (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...10 уровня. Скорость восстановления здоровья у союзников, которые не являются духами и находятся в зоне его действия, увеличивается на 1...3 ед. Этот дух умирает через 15...45 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...10 уровня (15...45 сек жизни). Не являющиеся духами союзники в зоне его действия получают +1...3 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Recooperaeshun (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...10 spureet. Nun-spureet aelleees veetheen its runge-a gaeeen +1...3 Heaelt regeneraeshun. Thees spureet deees aeffter 15...45 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...10 spureet (15...45 secund leeffespun). Nun-spureet aelleees veetheen runge-a haefe-a +1...3 Heaelt regeneraeshun."
 			}
 		}
 	}

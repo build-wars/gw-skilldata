@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "心灵爆击",
+				"description": "精英咒文。 使目标敌人受到 10...50点 闪电伤害。若你比目标敌人拥有更多能量，则目标会受到 10...50点 额外伤害，并且被击倒。此魔法有 25% 护甲穿透效果，但会引发施法者的「疲劳」状态。",
+				"concise": "精英咒文。 使目标敌人受到 10...50点 闪电伤害。若你比目标敌人拥有更多能量，则目标会受到 10...50点 额外伤害，并且被击倒。此魔法有 25% 护甲穿透效果，但会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "心靈震暴",
+				"description": "精英咒文魔法： 使目標敵人受到 10...50 閃電傷害。若你比敵人擁有更多能量，則目標受到 10...50 額外閃電傷害並且被擊倒。此魔法有 25% 防禦穿透效果但是會造成施法者精疲力竭。",
+				"concise": "精英咒文魔法： 使目標敵人受到 10...50 閃電傷害。若你比敵人擁有更多能量，則目標受到 10...50 額外閃電傷害並且被擊倒。此魔法有 25% 防禦穿透效果但是會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Geistiger Schock",
+				"description": "Elite-Zauber. Der Gegner erleidet 10...50 Punkt[e] Blitzschaden. Wenn Ihr mehr Energie als der Gegner habt, erleidet er 10...50 Punkt[e] zusätzlichen Blitzschaden und wird zu Boden geworfen. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Elite-Zauber. Richtet 10...50 Punkt[e] Blitzschaden an. Wenn Ihr mehr Energie als der Gegner habt, erleidet er +10...50 Punkt[e] Blitzschaden und wird zu Boden geworfen. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Geistiger Schock",
 				"description": "Der Gegner erleidet 10...50 Punkte Blitzschaden. Wenn Ihr mehr Energie als der Gegner habt, erleidet er 10...50 Punkte zusätzlichen Blitzschaden und wird zu Boden geworfen. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...50 Punkte Blitzschaden an. Wenn Ihr mehr Energie als der Gegner habt, erleidet er +10...50 Punkte Blitzschaden und wird zu Boden geworfen. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Mind Shock",
+				"description": "Elite Spell. Target foe suffers 10...50 lightning damage. If you have more Energy than target foe, that foe suffers 10...50 more lightning damage and is knocked down. This spell has 25% armor penetration.",
+				"concise": "Elite Spell. Deals 10...50 lightning damage. If you have more Energy than target foe, deals +10...50 lightning damage and causes knockdown. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Mind Shock",
 				"description": "Target foe suffers 10...50 lightning damage. If you have more Energy than target foe, that foe suffers 10...50 more lightning damage and is knocked down. This spell has 25% armor penetration.",
 				"concise": "Deals 10...50 lightning damage. If you have more Energy than target foe, deals +10...50 lightning damage and causes knockdown. 25% armor penetration."
 			},
+			"es": {
+				"name": "Impacto mental",
+				"description": "Conjuro de élite. El enemigo objetivo recibe 10...50 de daño de relámpago. Si tienes más energía que el enemigo objetivo, éste recibe 10...50 más de daño de relámpago y es derribado. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro de élite. Causa 10...50 de daño de relámpago. Si tienes más energía que el enemigo objetivo, hace +10...50 de daño de relámpago y provoca derribo. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Choc spirituel",
+				"description": "Sort d'élite. La cible ennemie subit 10...50 points de dégâts de la foudre. Si vous avez plus d'énergie qu'elle, elle subit 10...50 points de dégâts de la foudre supplémentaires et est renversée. Ce sort a une pénétration d'armure de 25%.",
+				"concise": "Sort d'élite. Inflige 10...50 points de dégâts de la foudre. Si vous avez plus d'énergie que la cible, elle subit +10...50 points de dégâts de la foudre et est renversée. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Choc spirituel",
 				"description": "La cible souffre de dégâts de la foudre de 10...50. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...50 points de dégâts de la foudre en plus et il est assommé. Ce sort a 25% de pénétration d'armure et entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Shock Mentale",
+				"description": "Magia d'Élite. L'obiettivo nemico subisce 10...50 danni da fulmine. Se ha meno Energia di te, subisce un danno da fulmine ulteriore di 10...50 e viene abbattuto. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia d'Élite. Danni da fulmine inferti: 10...50. Se la tua Energia è superiore a quella dell'obiettivo, infligge +10...50 danni da fulmine e provoca abbattimento. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "マインド ショック",
+				"description": "エリート スペル： ターゲットした敵に 10...50 のライトニング ダメージを与えます。プレイヤーのエネルギーがターゲットした敵より多い場合、その敵に 10...50 の追加ライトニング ダメージを与えて転倒させます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "エリート スペル： 10...50 のライトニング ダメージを与えます。ターゲットした敵よりプレイヤーのエネルギーが多い場合、10...50 の追加ライトニング ダメージを与えて転倒させます。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "정신 충격",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에게 10...50의 번개 대미지를 줍니다. 자신의 에너지가 대상보다 많으면 대상은 10...50의 번개 대미지를 추가로 입고, 바닥에 넘어집니다. 이 스킬은 25%의 갑옷 관통 효과를 가집니다.",
+				"concise": "엘리트 마법. 10...50의 번개 대미지를 줍니다. 자신이 대상보다 에너지가 더 많으면 10...50의 번개 대미지를 추가로 주고, 바닥에 넘어뜨립니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Wstrząs Mózgu",
+				"description": "Elitarny czar. Wybrany przeciwnik otrzymuje 10...50 pkt. obrażeń od błyskawic. Jeżeli masz więcej pkt. energii od wybranego przeciwnika, to przeciwnik ten otrzymuje dodatkowe 10...50 pkt. obrażeń od błyskawic oraz zostaje powalony. Ten czar posiada 25% przebicia pancerza, ale powoduje wyczerpanie.",
+				"concise": "Elitarny czar. Zadaje 10...50 pkt. obrażeń od błyskawic. Zadaje 10...50 pkt. dodatkowych obrażeń od błyskawic i powala, jeżeli masz więcej energii niż ten przeciwnik. 25% przebicie pancerza. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Mind Shock",
+				"description": "Элитное заклинание. Выбранный противник получает 10...50 ед. урона силой молнии. Если у вас больше энергии, чем у этого противника, он получит дополнительно 10...50 ед. урона силой молнии и будет сбит с ног. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Элитное заклинание. Наносит 10...50 ед. урона силой молнии. Наносит дополнительно 10...50 ед. урона силой молнии и сбивает с ног, если у вас больше энергии, чем у этого противника. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Meend Shuck",
+				"description": "Ileete-a Spell. Taerget fue-a sooffffers 10...50 leeghtneeng daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, thaet fue-a sooffffers 10...50 mure-a leeghtneeng daemaege-a und is knucked doon. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Ileete-a Spell. Deaels 10...50 leeghtneeng daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, deaels +10...50 leeghtneeng daemaege-a und cooses knuckdoon. 25% aermur penetraeshun."
 			}
 		}
 	}

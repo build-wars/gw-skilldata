@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"绝不放弃！\"",
+				"description": "战吼。 使所有在「音波」范围之内、生命值低于75%的友方回复1...10点能量值。",
+				"concise": "战吼。 使所有在「音波」范围之内、生命值低于75%的友方回复1...10点能量值。"
+			},
+			"cht": {
+				"name": "「不要放棄！」(PvP)",
+				"description": "戰嚎： 使所有音量所及範圍內且體力低於 75% 的盟友獲得 1...10 能量。",
+				"concise": "戰嚎： 使所有音量所及範圍內且體力低於 75% 的盟友獲得 1...10 能量。"
+			},
 			"de": {
+				"name": "\"Gebt niemals auf!\"  (PvP)",
+				"description": "Schrei. Alle Verbündeten in Hörweite, deren Lebenspunkte unter 75% liegen, erhalten 1...10 Energiepunkt[e].",
+				"concise": "Schrei. Verbündete in Hörweite erhalten 1...10 Energiepunkt[e]. Betrifft nur Verbündete, die weniger als 75% ihrer maximalen Lebenspunkte haben."
+			},
+			"de-guildwiki": {
 				"name": "\"Gebt niemals auf!\" (PvP)",
 				"description": "Alle Verbündeten in Hörweite, deren Lebenspunkte unter 75% liegen, erhalten 1...10 Energiepunkte.",
 				"concise": "Verbündete in Hörweite erhalten 1...10 Energiepunkte. <gray>Betrifft nur Verbündete, die weniger als 75% ihrer maximalen Lebenspunkte haben.</gray>"
 			},
 			"en": {
+				"name": "\"Never Give Up!\"  (PvP)",
+				"description": "Shout. All allies within earshot and below 75% Health gain 1...10 Energy.",
+				"concise": "Shout. Allies in earshot gain 1...10 Energy. Only affects allies below 75% Health."
+			},
+			"en-gww": {
 				"name": "\"Never Give Up!\" (PvP)",
 				"description": "All allies within earshot and below 75% Health gain 1...10 Energy.",
 				"concise": "Allies in earshot gain 1...10 Energy. <gray>Only affects allies below 75% Health.</gray>"
 			},
+			"es": {
+				"name": "\"¡No te rindas!\"  (PvP)",
+				"description": "Grito. Todos los aliados al alcance del oído y por debajo del 75% de salud ganan 1...10 de energía.",
+				"concise": "Grito. Los aliados al alcance del oído ganan 1...10 de energía. Sólo afecta a los aliados por debajo del 75% de salud."
+			},
 			"fr": {
+				"name": "\"N'abandonnez jamais !\"  (PvP)",
+				"description": "Cri. Tous les alliés à portée de voix ayant moins de 75% de santé gagnent 1...10 points d'énergie.",
+				"concise": "Cri. Les alliés à portée de voix gagnent 1...10 points d'énergie. Affecte uniquement les alliés possédant moins de 75% de santé."
+			},
+			"fr-gwiki": {
 				"name": "\"N'abandonnez jamais !\" (PvP)",
 				"description": "Tous les alliés à portée de voix ayant moins de 75% de santé gagnent 1...10 point(s) d'énergie.",
 				"concise": "Les alliés à portée de voix gagnent 1...10 point(s) d'énergie. <gray>Affecte uniquement les alliés possédant moins de 75% de santé.</gray>"
+			},
+			"it": {
+				"name": "\"Non Datevi per Vinti!\"  (PvP)",
+				"description": "Urlo. Tutti gli alleati a portata d'orecchio con Salute inferiore al 75% ottengono 1...10 Punti Energia.",
+				"concise": "Urlo. Energia per gli alleati a portata d'orecchio: 1...10. Ha effetto solo sugli alleati con Salute inferiore a 75%."
+			},
+			"jp": {
+				"name": "ネバー ギブアップ！(PvP)",
+				"description": "シャウト： 声の届く範囲内にいる体力が 75% 未満の味方は、1...10 のエネルギーを獲得します。",
+				"concise": "シャウト： 声の届く範囲内にいる味方は、1...10 のエネルギーを獲得します。体力が上限の 75% 未満の味方にのみ有効です。"
+			},
+			"kr": {
+				"name": "결코 포기하지 마라!(대인전)",
+				"description": "고함. 대상 지정: 없음. 가청 범위 내에 있고 체력이 75%미만인 모든 아군은 1...10의 에너지를 얻습니다.",
+				"concise": "고함. 가청 범위 내에 있는 아군이 1...10의 에너지를 얻습니다. 체력이 75%미만인 아군만 효과를 받습니다."
+			},
+			"pl": {
+				"name": "Trzymać Się! (PvP)",
+				"description": "Okrzyk. Wszyscy sojusznicy w zasięgu słuchu i posiadający mniej niż 75% pkt. żywotności otrzymują 1...10 pkt. energii.",
+				"concise": "Okrzyk. Sojusznicy w zasięgu słuchu otrzymują 1...10 pkt. energii. Działa tylko na sojuszników posiadających mniej niż 75% żywotności."
+			},
+			"ru": {
+				"name": "\"Never Give Up!\"  (PvP)",
+				"description": "Крик. Все союзники, находящиеся в зоне слышимости, чей уровень здоровья ниже 75%, получают 1...10 ед. энергии.",
+				"concise": "Крик. Союзники в зоне слышимости получают 1...10 ед. энергии. Действует только на союзников, у которых менее 75% здоровья."
+			},
+			"bork": {
+				"name": "\"Nefer Geefe-a Up!\"  (PfP)",
+				"description": "Shuoot. Aell aelleees veetheen iaershut und beloo 75% Heaelt gaeeen 1...10 Inergy.",
+				"concise": "Shuoot. Aelleees in iaershut gaeeen 1...10 Inergy. Oonly aeffffects aelleees beloo 75% Heaelt."
 			}
 		}
 	}

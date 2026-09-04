@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "出其不意",
+				"description": "起手技。 命中时对目标造成 19...31点 额外伤害。如果目标生命超过 90%，则对其造成的伤害再提高 15...75点。",
+				"concise": "起手技。 命中时对目标造成 19...31点 额外伤害。如果目标生命超过 90%，则对其造成的伤害再提高 15...75点。"
+			},
+			"cht": {
+				"name": "意外狙殺",
+				"description": "引導攻擊： 命中時對目標造成 19...31 額外傷害。若目標體力超過 90% ，則對其造成的傷害再增加 15...75 。",
+				"concise": "引導攻擊： 命中時對目標造成 19...31 額外傷害。若目標體力超過 90% ，則對其造成的傷害再增加 15...75 。"
+			},
 			"de": {
+				"name": "Unvermuteter Stoß",
+				"description": "Leithandangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +19...31 Punkt[e] Schaden zu. Falls die Lebenspunkte Eures Ziels höher als 90% sind, fügt Ihr zusätzlich 15...75 Punkt[e] Schaden zu.",
+				"concise": "Leithandangriff. Richtet +19...31 Punkt[e] Schaden an. Richtet zusätzlich 15...75 Punkt[e] Schaden an, falls der Gegner mehr als 90% seiner maximalen Lebenspunkte hat."
+			},
+			"de-guildwiki": {
 				"name": "Unvermuteter Stoß",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +19...31 Punkte Schaden zu. Falls die Lebenspunkte Eures Ziels höher als 90% sind, fügt Ihr zusätzlich 15...75 Punkte Schaden zu.",
 				"concise": "Richtet +19...31 Punkte Schaden an. Richtet zusätzlich 15...75 Punkte Schaden an, falls der Gegner mehr als 90% seiner Lebenspunkte hat."
 			},
 			"en": {
 				"name": "Unsuspecting Strike",
+				"description": "Lead Attack. If this attack hits, you strike for +19...31 damage. If your target was above 90% Health you deal an additional 15...75 damage.",
+				"concise": "Lead Attack. Deals +19...31 damage. Deals 15...75 more damage if target foe's Health is above 90%."
+			},
+			"en-gww": {
+				"name": "Unsuspecting Strike",
 				"description": "If this attack hits, you strike for +19...31 damage. If your target was above 90% Health you deal an additional 15...75 damage.",
 				"concise": "Deals +19...31 damage. Deals 15...75 more damage if target foe's Health is above 90%."
 			},
+			"es": {
+				"name": "Ataque imprevisto",
+				"description": "Ataque inicial. Si este ataque impacta, harás +19...31 de daño. Si el enemigo objetivo estaba por encima del 90% de su salud, le harás 15...75 de daño adicional.",
+				"concise": "Ataque inicial. Hace +19...31 de daño. +15...75 de daño extra si el enemigo objetivo está por encima del 90% de salud."
+			},
 			"fr": {
+				"name": "Attaque sournoise",
+				"description": "Attaque main droite. Si l'attaque réussit, vous infligez +19...31 points de dégâts. Si votre cible possède plus de 90% de sa santé, vous lui infligez 15...75 points de dégâts supplémentaires.",
+				"concise": "Attaque main droite. Inflige +19...31 points de dégâts. Inflige 15...75 points de dégâts supplémentaires si la santé de la cible ennemie est supérieure à 90%."
+			},
+			"fr-gwiki": {
 				"name": "Attaque sournoise",
 				"description": "Si l'attaque réussit, vous infligez +19...31 points de dégâts. Si votre cible possède plus de 90% de sa santé, vous lui infligez 15...75 points de dégâts supplémentaires.",
 				"concise": "Inflige +19...31 points de dégâts. Inflige 15...75 points de dégâts supplémentaires si la santé de la cible est supérieur à 90%."
+			},
+			"it": {
+				"name": "Colpo Fiducioso",
+				"description": "Attacco con Arma Primaria. Se questo attacco va a segno, infliggi +19...31 danno[i]; se la Salute dell'obiettivo è superiore al 90%, infliggi 15...75 danno[i] in più.",
+				"concise": "Attacco con Arma Primaria. Danni inferti: +19...31. Assesta 15...75 danno[i] in più se la Salute dell'obiettivo nemico è superiore al 90%."
+			},
+			"jp": {
+				"name": "アンサスペクティング ストライク",
+				"description": "リード アタック： この攻撃が成功すると 19...31 の追加ダメージを与えます。ターゲットの体力が90%より多い場合、さらに 15...75 の追加ダメージを与えます。",
+				"concise": "リード アタック： 19...31 の追加ダメージを与えます。ターゲットした敵の体力が上限の90%より多い場合、さらに 15...75 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "불의의 일격",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상에게 19...31의 대미지를 추가로 줍니다. 그 대상의 체력이 90%보다 많으면 15...75의 대미지를 추가로 줍니다.",
+				"concise": "주 공격. 19...31의 대미지를 추가로 줍니다. 대상의 체력이 90%보다 많으면 거기에 15...75의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Niespodziewane Uderzenie",
+				"description": "Atak poprzedzający. Jeśli atak trafi, zadajesz +19...31 pkt. obrażeń. Jeżeli ten przeciwnik miał ponad 90% pkt. żywotności, zdajesz dodatkowe 15...75 pkt. obrażeń.",
+				"concise": "Atak poprzedzający. Zadaje +19...31 pkt. obrażeń. Zadaje 15...75 pkt. dodatkowych obrażeń, jeżeli wybrany przeciwnik ma powyżej 90% żywotności."
+			},
+			"ru": {
+				"name": "Unsuspecting Strike",
+				"description": "Ведущая атака. Если эта атака достигает цели, вы наносите дополнительно 19...31 ед. урона. Если уровень здоровья вашей цели был выше 90%, вы наносите дополнительно еще 15...75 ед. урона.",
+				"concise": "Ведущая атака. Наносит дополнительно 19...31 ед. урона. Наносит дополнительно еще 15...75 ед. урона, если у выбранного противника более 90% здоровья."
+			},
+			"bork": {
+				"name": "Unsoospecteeng Streeke-a",
+				"description": "Leaed Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +19...31 daemaege-a. Iff yuoor taerget vaes aebufe-a 90% Heaelt yuoo deael un aeddeeshunael 15...75 daemaege-a.",
+				"concise": "Leaed Aettaeck. Deaels +19...31 daemaege-a. Deaels 15...75 mure-a daemaege-a iff taerget fue-a's Heaelt is aebufe-a 90%."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火山喷发",
+				"description": "咒文。 在目标敌人的脚下引发一场火山喷发，在5秒内，对所有范围内的敌人造成每秒10...40点地系伤害，同时遭受「盲目」症状10秒。",
+				"concise": "咒文。 引发一场火山喷发，在5秒内，对所有范围内的敌人造成每秒10...40点 地系伤害。当「火山喷发」效果结束后，敌人遭受「盲目」症状10秒。"
+			},
+			"cht": {
+				"name": "火山爆發",
+				"description": "咒文魔法： 在目標敵人處引起火山爆發。持續 5 秒，使火山爆發地點附近的所有敵人受到 10...40 土系傷害並且遭受「盲目」病症 10 秒。",
+				"concise": "咒文魔法： 在目標敵人處引起火山爆發。持續 5 秒，使火山爆發地點附近的所有敵人受到 10...40 土系傷害並且遭受「盲目」病症 10 秒。"
+			},
 			"de": {
+				"name": "Eruption",
+				"description": "Zauber. An der Position des Gegners wird eine Eruption erzeugt. 5 Sekunden lang erleiden Feinde in der Nähe dieser Position pro Sekunde 10...40 Punkt[e] Erdschaden und werden 10 Sekunden lang geblendet.",
+				"concise": "Zauber. Richtet 10...40 Punkt[e] Erdschaden pro Sekunde an (5 Sekunden). Trifft Feinde in der Nähe der ursprünglichen Position des Ziels. Verursacht Zustand \"Blindheit\" (10 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Eruption",
 				"description": "An der Position des Gegners wird eine Eruption erzeugt. 5 Sekunden lang erleiden Feinde in der Nähe dieser Position pro Sekunde 10...40 Punkte Erdschaden und werden 10 Sekunden lang geblendet.",
 				"concise": "Richtet jede Sekunde 10...40 Punkte Erdschaden an (5 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Ziels. Verursacht Zustand Blindheit (10 Sekunden)."
 			},
 			"en": {
 				"name": "Eruption",
+				"description": "Spell. Cause an Eruption at target foe's location. Each second for 5 seconds, foes near this location are struck for 10...40 earth damage and are Blinded for 10 seconds.",
+				"concise": "Spell. Deals 10...40 earth damage each second (5 seconds). Hits foes near target's initial location. Inflicts Blindness condition (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Eruption",
 				"description": "Cause an Eruption at target foe's location. Each second for 5 seconds, foes near this location are struck for 10...40 earth damage and are Blinded for 10 seconds.",
 				"concise": "Deals 10...40 earth damage each second (5 seconds). Hits foes near target's initial location. Inflicts Blindness condition (10 seconds)."
 			},
+			"es": {
+				"name": "Erupción",
+				"description": "Conjuro. Creas una Erupción en la ubicación del enemigo objetivo. Cada segundo durante 5, los enemigos cercanos a esa ubicación recibirán 10...40 de daño de tierra y quedarán cegados durante 10 segundos.",
+				"concise": "Conjuro. Hace 10...40 de daño de tierra por segundo (5 segundos). Alcanza a los enemigos cercanos a la ubicación inicial del objetivo. Causa ceguera (10 segundos)."
+			},
 			"fr": {
+				"name": "Eruption",
+				"description": "Sort. Crée une éruption sur la position de l'ennemi ciblé. Chaque seconde pendant 5 secondes, les ennemis près de cette zone subissent 10...40 points de dégâts de la terre et sont aveuglés pendant 10 secondes.",
+				"concise": "Sort. Inflige 10...40 points de dégâts de la terre par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Provoque l'Aveuglement (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Eruption",
 				"description": "Créé une éruption sur la position de l'ennemi ciblé. Pendant 5 secondes, les ennemis près de cette zone subissent 10...40 points de dégâts de la terre et sont aveuglés pendant 10 secondes.",
 				"concise": "Inflige 10...40 points de dégâts de la terre par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Inflige l'Aveuglement (10 secondes)."
+			},
+			"it": {
+				"name": "Eruzione",
+				"description": "Magia. Provochi un'Eruzione nella posizione dell'obiettivo nemico. Per 5 secondi, i nemici nell'area subiscono 10...40 danni da terra al secondo, e vengono accecati per 10 secondi.",
+				"concise": "Magia. Infligge 10...40 danni da terra al secondo (5 secondi). Colpisce i nemici vicini alla posizione iniziale dell'obiettivo. Infligge Accecamento (10 secondi)."
+			},
+			"jp": {
+				"name": "イラプション",
+				"description": "スペル： ターゲットした敵がいる場所に爆発を起こします。5秒間、その周囲にいる敵に毎秒 10...40 のアース ダメージを与え、10 秒間「盲目」状態にします。",
+				"concise": "スペル： 発動時にターゲットした敵がいた場所の周囲にいる敵に毎秒 10...40 のアース ダメージを与え (5秒)、「盲目」状態にします (10 秒)。"
+			},
+			"kr": {
+				"name": "화산 분출",
+				"description": "마법. 대상 지정: 적. 대상이 있는 자리에 분화구를 만듭니다. 5초 동안 분화구 부근의 적들은 매초 10...40의 대지 대미지를 입고 10초 동안 실명 상태가 됩니다.",
+				"concise": "마법. 대상 위치 부근의 적들에게 매초 10...40의 대지 대미지를 주고(5초), 실명시킵니다.(10초)"
+			},
+			"pl": {
+				"name": "Erupcja",
+				"description": "Czar. Wywołaj Erupcję w miejscu, gdzie znajduje się wybrany przeciwnik. Przez 5 sek., przeciwnicy w tym obszarze otrzymują w każdej sekundzie 10...40 pkt. obrażeń od ziemi oraz zostają oślepieni na 10 sek.",
+				"concise": "Czar. W każdej sekundzie zadaje 10...40 pkt. obrażeń od ziemi (5 sek.). Trafia przeciwników w pobliżu początkowego miejsca celu. Wywołuje przypadłość oślepienie (10 sek.)."
+			},
+			"ru": {
+				"name": "Eruption",
+				"description": "Заклинание. Вызывает извержение в точке нахождения выбранного противника. Каждую секунду в течение 5 сек все противники, находящиеся поблизости от этого места, будут получать 10...40 ед. урона силой земли и будут ослеплены на 10 сек.",
+				"concise": "Заклинание. Наносит 10...40 ед. урона силой земли каждую секунду (5 сек). Поражает противников, окружающих первоначальное местоположение цели. Вызывает слепоту (10 сек)."
+			},
+			"bork": {
+				"name": "Iroopshun",
+				"description": "Spell. Coose-a un Iroopshun aet taerget fue-a's lucaeshun. Iaech secund fur 5 secunds, fues neaer thees lucaeshun aere-a stroock fur 10...40 iaert daemaege-a und aere-a Bleended fur 10 secunds.",
+				"concise": "Spell. Deaels 10...40 iaert daemaege-a iaech secund (5 secunds). Heets fues neaer taerget's ineeteeael lucaeshun. Inffleects Bleendness cundeeshun (10 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂束缚",
+				"description": "精英负面魔法。 持续 30 秒，使目标敌人的攻击速度降低 20...80% ，如果此敌人在攻击时被施以「负面魔法」，则其被击倒 。",
+				"concise": "精英负面魔法。 持续 30 秒，使目标敌人的攻击速度降低 20...80% ，如果此敌人在攻击时被施以「负面魔法」，则其被击倒 。"
+			},
+			"cht": {
+				"name": "靈魂束縛",
+				"description": "精英降咒魔法： 持續30秒，每當目標敵人受到治療時，治療者受到20...80傷害，若目標敵人被施以懲戒祈禱降咒，則靈魂束縛終止。",
+				"concise": "精英降咒魔法： 持續30秒，每當目標敵人受到治療時，治療者受到20...80傷害，若目標敵人被施以懲戒祈禱降咒，則靈魂束縛終止。"
+			},
 			"de": {
+				"name": "Seelenfessel",
+				"description": "Elite-Verhexung. 30 Sekunde[n] lang erleidet der Heiler des Gegners jedes Mal, wenn er den Gegner heilt, 20...80 Punkt[e] Schaden. Diese Verhexung endet, wenn der Gegner mit Peinigungsgebeten belegt ist.",
+				"concise": "Elite-Verhexung. 30 Sekunde[n]: Der Heiler des Gegners erleidet jedes Mal, wenn er den Gegner heilt, 20...80 Punkt[e] Schaden. Endet, wenn der Gegner mit Peinigungsgebeten belegt ist."
+			},
+			"de-guildwiki": {
 				"name": "Seelenfessel",
 				"description": "30 Sekunden lang erleidet der Heiler des Gegners jedes Mal, wenn er den Gegner heilt, 20...80 Punkte Schaden. Diese Verhexung endet, wenn der Gegner mit Peinigungsgebeten belegt ist.",
 				"concise": "30 Sekunden: Der Heiler des Gegners erleidet jedes Mal, wenn er den Gegner heilt, 20...80 Punkte Schaden. <gray>Endet, wenn der Gegner mit Peinigungsgebeten belegt ist.</gray>"
 			},
 			"en": {
 				"name": "Soul Bind",
+				"description": "Elite Hex Spell. For 30 seconds, every time target foe is healed, the healer takes 20...80 damage. This hex ends if target is suffering from a Smiting Prayers hex.",
+				"concise": "Elite Hex Spell. (30 seconds.) Every time target foe is healed, the healer takes 20...80 damage. Ends if target is suffering from a Smiting Prayers hex."
+			},
+			"en-gww": {
+				"name": "Soul Bind",
 				"description": "For 30 seconds, every time target foe is healed, the healer takes 20...80 damage. This hex ends if target is suffering from a Smiting Prayers hex.",
 				"concise": "(30 seconds.) Every time target foe is healed, the healer takes 20...80 damage. <gray>Ends if target is suffering from a Smiting Prayers hex.</gray>"
 			},
+			"es": {
+				"name": "Vínculo de almas",
+				"description": "Conjuro con maleficio de élite. Durante 30 segundos, cada vez que el enemigo objetivo sea curado, el que le cure recibe 20...80 de daño. Este maleficio acaba si el objetivo tiene un maleficio de plegarias de ataque.",
+				"concise": "Conjuro con maleficio de élite. (30 segundos). Cada vez que el enemigo objetivo sea curado, el que le cure recibe 20...80 de daño. Acaba si el objetivo tiene un maleficio de plegarias de ataque."
+			},
 			"fr": {
+				"name": "Lien des âmes",
+				"description": "Maléfice d'élite. Pendant 30 secondes, chaque fois que la cible ennemie est guérie, le guérisseur subit 20...80 points de dégâts. Ce maléfice prend fin si la cible souffre d'un maléfice de Prières de Châtiment.",
+				"concise": "Maléfice d'élite. (30 secondes.) Chaque fois que la cible ennemie est guérie, le guérisseur reçoit 20...80 points de dégâts.Prend fin si la cible souffre d'un maléfice de Prières de Châtiment."
+			},
+			"fr-gwiki": {
 				"name": "Lien des âmes",
 				"description": "Pendant 30 secondes, chaque fois que la cible ennemie est guérie, le guérisseur subi 20...80 points de dégâts. Ce maléfice prend fin si la cible souffre d'un maléfice de Prières de Châtiment.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lega Anima",
+				"description": "Fattura d'Élite. Per 30 secondo[i], ogni volta che l'obiettivo nemico viene curato, chi ha impartito le cure subisce 20...80 danno[i]. Questa fattura termina se l'obiettivo è affetto da una fattura delle Preghiere Punitive.",
+				"concise": "Fattura d'Élite. (Secondi: 30) Ogni volta che l'obiettivo nemico viene curato, chi ha impartito le cure subisce 20...80 danno[i]. Termina se l'obiettivo è affetto da una fattura delle Preghiere Punitive."
+			},
+			"jp": {
+				"name": "ソウル バインド",
+				"description": "エリート弱体化スペル： 30 秒間、ターゲットした敵の体力が回復するたびに、回復者に 20...80 のダメージを与えます。ターゲットに「ホーリー」特性の弱体化スペルがかけられると、この効果は消失します。",
+				"concise": "エリート弱体化スペル： (30 秒) ターゲットした敵の体力が回復するたびに、その回復者に 20...80 のダメージを与えます。ターゲットに「ホーリー」特性の弱体化スペルがかけられると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "망자의 구속",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 30초 동안 대상의 체력을 회복시킨 시전자는 20...80의 대미지를 입습니다. 이 약화 마법은 대상이 천벌 특성의 약화 마법에 걸리면 끝납니다.",
+				"concise": "엘리트 약화 마법. (30초) 대상의 체력을 회복시킨 시전자는 20...80의 대미지를 입습니다. 대상이 천벌 특성 약화 마법에 걸리면 끝납니다."
+			},
+			"pl": {
+				"name": "Spętanie Duszy",
+				"description": "Elitarna klątwa (czar). Przez 30 sek. za każdym razem, kiedy wybrany przeciwnik otrzyma punkty żywotności, uzdrawiający otrzyma 20...80 pkt. obrażeń. Ta klątwa przestanie działać, kiedy na cel zostanie rzucona klątwa z Modlitw Ofensywnych.",
+				"concise": "Elitarna klątwa (czar). (30 sek.) Za każdym razem, kiedy wybrany przeciwnik otrzyma punkty żywotności, uzdrawiający otrzyma 20...80 pkt. obrażeń. Koniec, kiedy na cel zostanie rzucona klątwa z Modlitw Ofensywnych."
+			},
+			"ru": {
+				"name": "Soul Bind",
+				"description": "Элитное заклинание-проклятье. В течение 30 сек каждый раз, когда выбранный противник исцеляется, целитель получает 20...80 ед. урона. Действие этого проклятья заканчивается, если на цель будет наложено проклятье, связанное со Smiting Prayers.",
+				"concise": "Элитное заклинание-проклятье. (30 сек) Каждый раз, когда выбранный противник исцеляется, целитель получает 20...80 ед. урона. Заканчивается, если на цель будет наложено проклятье, связанное со Smiting Prayers"
+			},
+			"bork": {
+				"name": "Suool Beend",
+				"description": "Ileete-a Hex Spell. Fur 30 secunds, ifery teeme-a taerget fue-a is heaeled, zee heaeler taekes 20...80 daemaege-a. Thees hex inds iff taerget is sooffffereeng frum a Smeeteeng Praeyers hex.",
+				"concise": "Ileete-a Hex Spell. (30 secunds.) Ifery teeme-a taerget fue-a is heaeled, zee heaeler taekes 20...80 daemaege-a. Inds iff taerget is sooffffereeng frum a Smeeteeng Praeyers hex."
 			}
 		}
 	}

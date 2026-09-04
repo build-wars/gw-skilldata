@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "笨拙纹章",
+				"description": "纹章。 干扰目标敌人的攻击动作，并使其受到15...60点伤害。",
+				"concise": "纹章。 干扰目标敌人的攻击动作，并使其受到15...60点伤害。"
+			},
+			"cht": {
+				"name": "笨拙紋章",
+				"description": "紋章： 若是目標敵人正在攻擊，中斷目標及其鄰近敵人的動作，並受到 15...60 傷害。若是他們正在使用攻擊技能將被擊倒。",
+				"concise": "紋章： 若是目標敵人正在攻擊，中斷目標及其鄰近敵人的動作，並受到 15...60 傷害。若是他們正在使用攻擊技能將被擊倒。"
+			},
 			"de": {
+				"name": "Siegel der Unbeholfenheit",
+				"description": "Siegel. Wenn der Gegner angreift, werden er und alle umstehenden Feinde unterbrochen und erleiden 15...60 Punkt[e] Schaden. Gegner, die Angriffsfertigkeiten verwenden, werden zu Boden geworfen.",
+				"concise": "Siegel. Unterbricht einen Angriff des Gegners und aller umstehenden Feinde. Unterbrechungswirkung: Richtet 15...60 Punkt[e] Schaden an und wirft Gegner, die Angriffsfertigkeiten verwenden, zu Boden."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Unbeholfenheit",
 				"description": "Wenn der Gegner angreift, werden er und alle umstehenden Feinde unterbrochen und erleiden 15...60 Punkte Schaden. Gegner, die Angriffsfertigkeiten verwenden, werden zu Boden geworfen.",
 				"concise": "Unterbricht einen Angriff des Gegners und aller umstehenden Feinde. Unterbrechungswirkung: Richtet 15...60 Punkte Schaden an und wirft Gegner, die Angriffsfertigkeiten verwenden, zu Boden."
 			},
 			"en": {
 				"name": "Signet of Clumsiness",
+				"description": "Signet. If target foe is attacking, that foe and all adjacent foes are interrupted and take 15...60 damage. Any foes using attack skills are knocked down.",
+				"concise": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals 15...60 damage; knocks down foes using attack skills."
+			},
+			"en-gww": {
+				"name": "Signet of Clumsiness",
 				"description": "If target foe is attacking, that foe and all adjacent foes are interrupted and take 15...60 damage. Any foes using attack skills are knocked down.",
 				"concise": "Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals 15...60 damage; knocks down foes using attack skills."
 			},
+			"es": {
+				"name": "Sello de torpeza",
+				"description": "Sello. Si el enemigo objetivo está atacando, interrumpirás su acción y la de los enemigos adyacentes a él, y recibirán 15...60 de daño. Todos los enemigos que estén utilizando habilidades de ataque son derribados.",
+				"concise": "Sello. Interrumpe un ataque del enemigo objetivo y los enemigos adyacentes a él. Efecto de interrupción: hace 15...60 de daño; derriba a los enemigos usando habilidades de ataque."
+			},
 			"fr": {
+				"name": "Sceau de Maladresse",
+				"description": "Sceau. Si la cible ennemie attaque, cet ennemi ainsi que tous les ennemis adjacents sont interrompus et subissent 15...60 points de dégâts. Tous les ennemis utilisant des compétences d'attaque sont assommés.",
+				"concise": "Sceau. Interrompt une attaque pour la cible ennemie et tous les ennemis adjacents. Effet de l'interruption : inflige 15...60 points de dégâts et assomme les ennemis utilisant des compétences d'attaque."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de Maladresse",
 				"description": "Si la cible ennemie attaque, cet ennemi ainsi que tous les ennemis adjacents sont interrompus et subissent 15...60 points de dégâts. Tous les ennemis utilisant des compétences d'attaque sont assommés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Goffaggine",
+				"description": "Sigillo. Se l'obiettivo nemico sta attaccando, lui e tutti i nemici nei dintorni vengono interrotti e subiscono 15...60 danni. Tutti i nemici che utilizzano abilità d'attacco finiscono a terra.",
+				"concise": "Sigillo. Interrompe un attacco dell'obiettivo nemico e di tutti i nemici adiacenti. Effetto dell'interruzione: infligge 15...60 danni e fa finire a terra i nemici che hanno attivato abilità d'attacco."
+			},
+			"jp": {
+				"name": "クラムジネス シグネット",
+				"description": "シグネット： ターゲットした敵が攻撃中の場合、その敵と隣接するすべての敵のアクションを中断し、15...60 のダメージを与えます。アタック スキルを使用している敵は転倒します。",
+				"concise": "シグネット： ターゲットした敵と隣接するすべての敵の攻撃を中断します。中断効果： 15...60 のダメージを与えます。アタック スキルを使用している敵は転倒します。"
+			},
+			"kr": {
+				"name": "미숙 인장",
+				"description": "인장. 대상 지정: 적. 대상이 공격 중이면 대상과 그에 인접한 모든 적의 동작을 방해하고, 15...60의 대미지를 줍니다. 공격 스킬을 사용하던 적은 바닥에 넘어집니다.",
+				"concise": "인장. 대상과 그에 인접한 모든 적의 공격을 방해합니다. 방해 효과: 15...60의 대미지를 줍니다. 공격 스킬을 사용하던 적은 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Sygnet Niezgrabności",
+				"description": "Sygnet. Jeśli wybrany przeciwnik atakuje, zarówno on, jak i wrogowie w jego sąsiedztwie przerywają wykonywanie akcji i otrzymują 15...60 pkt. obrażeń. Wszyscy przeciwnicy korzystający z umiejętności ataku zostają powaleni.",
+				"concise": "Sygnet. Przerywa atak wybranego przeciwnika i sąsiadujących z nim wrogów. Efekt przerwania: zadaje 15...60 pkt. obrażeń. Powala wrogów używających umiejętności ataku."
+			},
+			"ru": {
+				"name": "Signet of Clumsiness",
+				"description": "Печать. Если выбранный противник атакует, он и все окружающие противники будут прерваны и получат 15...60 ед. урона. Любой противник, использующий атакующее умение, будет сбит с ног.",
+				"concise": "Печать. Прерывает атаку выбранного и всех окружающих противников. Эффект прерывания: наносит 15...60 ед. урона; сбивает с ног противников, использующих атакующие умения."
+			},
+			"bork": {
+				"name": "Seegnet ooff Cloomseeness",
+				"description": "Seegnet. Iff taerget fue-a is aettaeckeeng, thaet fue-a und aell aedjaecent fues aere-a interroopted und taeke-a 15...60 daemaege-a. Uny fues useeng aettaeck skeells aere-a knucked doon.",
+				"concise": "Seegnet. Interroopts un aettaeck fur taerget fue-a und aell aedjaecent fues. Interroopshun iffffect: deaels 15...60 daemaege-a; knucks doon fues useeng aettaeck skeells."
 			}
 		}
 	}

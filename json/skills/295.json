@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "净化纹章",
+				"description": "纹章。 移除友方目标身上的所有「负面魔法」和「症状」。每移除一个，你将损失 10点 能量。",
+				"concise": "纹章。 移除友方目标身上的所有「负面魔法」和「症状」。每移除一个，你将损失 10点 能量。"
+			},
+			"cht": {
+				"name": "淨化紋章",
+				"description": "紋章： 消除目標盟友身上的所有「降咒」和「病症」。每消除一個，你損失 10 能量。",
+				"concise": "紋章： 消除目標盟友身上的所有「降咒」和「病症」。每消除一個，你損失 10 能量。"
+			},
 			"de": {
+				"name": "Siegel der Reinigung",
+				"description": "Siegel. Entfernt alle Verhexungen und Zustände vom Verbündeten (bzw. Euch selbst). Für jede entfernte Verhexung und jeden entfernten Zustand verliert Ihr jeweils 10 Energiepunkte.",
+				"concise": "Siegel. Entfernt alle Verhexungen und Zustände. Entfernungskosten: Je 10 Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Reinigung",
 				"description": "Entfernt alle Verhexungen und Zustände vom Verbündeten (bzw. Euch selbst). Für jede entfernte Verhexung und jeden entfernten Zustand verliert Ihr jeweils 10 Energiepunkte.",
 				"concise": "Entfernt alle Verhexungen und Zustände. <gray>Entfernungskosten: Je 10 Energiepunkte.</gray>"
 			},
 			"en": {
 				"name": "Purge Signet",
+				"description": "Signet. Remove all hexes and conditions from target ally. You lose 10 Energy for each hex and each condition removed.",
+				"concise": "Signet. Removes all hexes and conditions. Removal cost: 10 Energy each."
+			},
+			"en-gww": {
+				"name": "Purge Signet",
 				"description": "Remove all hexes and conditions from target ally. You lose 10 Energy for each hex and each condition removed.",
 				"concise": "Removes all hexes and conditions. <gray>Removal cost: 10 Energy each.</gray>"
 			},
+			"es": {
+				"name": "Sello de purga",
+				"description": "Sello. Se quitan todos los maleficios y condiciones del objetivo (un aliado o tú mismo). Pierdes 10 de energía por cada maleficio y condición eliminada.",
+				"concise": "Sello. Elimina todos los maleficios y condiciones. Coste de la eliminación: 10 de energía cada una."
+			},
 			"fr": {
+				"name": "Sceau d'épuration",
+				"description": "Sceau. Annule tous les maléfices et conditions qui affectent la cible (un allié ou vous-même). Vous perdez 10 points d'énergie pour chaque maléfice ou condition annulée.",
+				"concise": "Sceau. Supprime la totalité des maléfices et des conditions. Coût de la suppression : 10 points d'énergie par suppression."
+			},
+			"fr-gwiki": {
 				"name": "Sceau d'épuration",
 				"description": "Annule tous les maléfices et conditions qui affectent la cible (un allié ou vous-même). Vous perdez 10 points d'énergie pour chaque maléfice ou condition annulée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Purificazione",
+				"description": "Sigillo. Rimuovi tutte le fatture e le condizioni dall'obiettivo (un alleato o te stesso) ma perdi 10 Punti Energia per ogni fattura e condizione rimossa.",
+				"concise": "Sigillo. Rimuove tutte le fatture e le condizioni. Costo di rimozione: perdi 10 Punti Energia."
+			},
+			"jp": {
+				"name": "パージ シグネット",
+				"description": "シグネット： ターゲットした味方にかけられているすべての弱体化スペルおよび「状態異常」を解除します。プレイヤーは解除した弱体化スペルおよび「状態異常」ごとに10のエネルギーを失います。",
+				"concise": "シグネット： かけられている弱体化スペルおよび「状態異常」をすべて解除します。解除コスト： 1個につき10のエネルギー。"
+			},
+			"kr": {
+				"name": "정화 인장",
+				"description": "인장. 대상 지정: 아군. 대상에게 걸려 있는 모든 약화 마법과 상태이상을 해제합니다. 자신은 해제된 상태이상과 약화 마법 하나당 10의 에너지를 소모합니다.",
+				"concise": "인장. 모든 약화 마법과 상태이상을 해제합니다. 해제 대가: 해제 하나당 10의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Sygnet Oczyszczenia",
+				"description": "Sygnet. Z wybranego sojusznika usuwasz wszystkie klątwy i zaklęcia. Za każdą usuniętą klątwę i każde usunięte zaklęcie tracisz 10 pkt. energii.",
+				"concise": "Sygnet. Usuwa wszystkie klątwy i przypadłości. Koszt usunięcia: 10 pkt. energii za każdą."
+			},
+			"ru": {
+				"name": "Purge Signet",
+				"description": "Печать. Снимает все проклятья и состояния с выбранного союзника. Вы теряете 10 ед. энергии за каждое снятое проклятье или состояние.",
+				"concise": "Печать. Снимает все проклятья и состояния. Цена снятия: 10 ед. энергии за каждое снятие."
+			},
+			"bork": {
+				"name": "Poorge-a Seegnet",
+				"description": "Seegnet. Remufe-a aell hexes und cundeeshuns frum taerget aelly. Yuoo luse-a 10 Inergy fur iaech hex und iaech cundeeshun remufed.",
+				"concise": "Seegnet. Remufes aell hexes und cundeeshuns. Remufael cust: 10 Inergy iaech."
 			}
 		}
 	}

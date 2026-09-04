@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "异常纹章",
+				"description": "纹章。 对目标敌人造成10...60点伤害。如果目标是\"召唤类生物\"，则追加一倍伤害，并且此纹章技能立即冷却。",
+				"concise": "纹章。 对目标敌人造成10...60点伤害。如果目标是\"召唤类生物\"，则追加一倍伤害，并且技能立即冷却。"
+			},
+			"cht": {
+				"name": "反常紋章",
+				"description": "紋章： 對目標敵人造成 10...60 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 10...60 傷害。同時你的非幻術師的技能，紋章除外，在 10 秒內無法使用。",
+				"concise": "紋章： 對目標敵人造成 10...60 傷害，若目標有加持或者降咒，則對鄰近該目標的其他敵人造成 10...60 傷害。同時你的非幻術師的技能，紋章除外，在 10 秒內無法使用。"
+			},
 			"de": {
+				"name": "Unnatürliches Siegel (PvP)",
+				"description": "Siegel. Der Gegner erleidet 10...60 Punkt[e] Schaden. Unterliegt der Gegner einer Verzauberung oder Verhexung, erleiden umstehende Feinde 10...60 Punkt[e] Schaden. Alle Nicht-Mesmer-Fertigkeiten (außer Siegel) sind 10 Sekunden lang deaktiviert.",
+				"concise": "Siegel. Richtet 10...60 Punkt[e] Schaden an. Richtet bei anderen umstehenden Feinden 10...60 Punkt[e] Schaden an, falls der Gegner verhext oder verzaubert ist. Eure Nicht-Mesmer-Fertigkeiten (außer Siegel) sind 10 Sekunden lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Unnatürliches Siegel (PvP)",
 				"description": "Der Gegner erleidet 10...60 Punkte Schaden. Unterliegt der Gegner einer Verzauberung oder Verhexung, erleiden umstehende Feinde 10...60 Punkte Schaden. Eure Nicht-Mesmer-Fertigkeiten (außer Siegel) sind 10 Sekunden lang deaktiviert.",
 				"concise": "Richtet 10...60 Punkte Schaden an. Richtet bei anderen umstehenden Feinden 10...60 Punkte Schaden an, falls der Gegner verhext oder verzaubert ist. <gray>Eure Nicht-Mesmer-Fertigkeiten (außer Siegel) sind 10 Sekunden lang deaktiviert.</gray>"
 			},
 			"en": {
 				"name": "Unnatural Signet (PvP)",
+				"description": "Signet. Target foe takes 10...60 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 10...60 damage. All your non-Mesmer skills except signets are disabled for 10 seconds.",
+				"concise": "Signet. Deals 10...60 damage. Deals 10...60 damage to other adjacent foes if the target is hexed or enchanted. Your non-Mesmer skills except signets are disabled (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Unnatural Signet (PvP)",
 				"description": "Target foe takes 10...60 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 10...60 damage. All your non-Mesmer skills except signets are disabled for 10 seconds.",
 				"concise": "Deals 10...60 damage. Deals 10...60 damage to other adjacent foes if the target is hexed or enchanted. <gray>Your non-Mesmer skills except signets are disabled (10 seconds).</gray>"
 			},
+			"es": {
+				"name": "Sello antinatural (PvP)",
+				"description": "Sello. El enemigo objetivo recibe 10...60 de daño. Si el enemigo se encuentra bajo los efectos de un maleficio o un encantamiento, los enemigos adyacentes al objetivo reciben 10...60 de daño. Todas tus habilidades que no sean de Hipnotizador, excepto los sellos, quedan desactivadas durante 10 segundos.",
+				"concise": "Sello. Causa 10...60 de daño. Hace 10...60 de daño a otros enemigos adyacentes si el objetivo tiene un maleficio o un encantamiento. Tus habilidades que no sean de Hipnotizador, excepto los sellos, quedan desactivadas (10 segundos)."
+			},
 			"fr": {
+				"name": "Sceau contre nature (PvP)",
+				"description": "Sceau. L'ennemi visé subit 10...60 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice ou d'un enchantement, les ennemis adjacents à votre cible subissent 10...60 points de dégâts. Toutes vos compétences autres qu'Envoûteur sont désactivées pendant 10 secondes.",
+				"concise": "Sceau. Inflige 10...60 points de dégâts. Inflige 10...60 points de dégâts aux autres ennemis adjacents si la cible est sous l'effet d'un maléfice ou d'un enchantement. Toutes vos compétences autres qu'Envoûteur sont désactivées (pendant 10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Sceau contre nature (PvP)",
 				"description": "L'ennemi visé subit 15...75 points de dégâts. Si cet ennemi est sous l'effet d'un maléfice ou d'un enchantement, les ennemis adjacents à votre cible subissent 5...50 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo Innaturale (PvP)",
+				"description": "Sigillo. L'obiettivo nemico subisce 10...60 danni. Se è sotto gli effetti di una Fattura o di un Incantesimo, i nemici adiacenti subiscono 10...60 danni. Tutte le tue abilità non appartenenti alla classe dell'Ipnotizzatore (ad eccezione dei Sigilli) vengono disattivate per 10 secondi.",
+				"concise": "Sigillo. Danni inferti: 10...60. Danni inferti ai nemici adiacenti se l'obiettivo è sotto gli effetti di una Fattura o di un Incantesimo: 10...60. Tutte le tue abilità non appartenenti alla classe dell'Ipnotizzatore (ad eccezione dei Sigilli) vengono disattivate (10 secondi)."
+			},
+			"jp": {
+				"name": "アンナチュラル シグネット (PvP)",
+				"description": "シグネット： ターゲットした敵に 10...60 のダメージを与えます。この敵に弱体化または強化スペルがかけられている場合、ターゲットに隣接する敵に 10...60 のダメージを与えます。プレイヤーは、シグネットを除いたメスマー スキル以外のスキルを10秒間、使用することができなくなります。",
+				"concise": "シグネット： 10...60 のダメージを与えます。ターゲットした敵に弱体化または強化スペルがかけられている場合、隣接する他の敵に 10...60 のダメージを与えます。シグネットを除くメスマー スキル以外のスキルを使用することができなくなります (10秒)。"
+			},
+			"kr": {
+				"name": "비자연 인장(대인전)",
+				"description": "인장. 대상 지정: 적. 대상에게 10...60의 대미지를 줍니다. 대상이 강화 마법이나 약화 마법에 걸려 있으면 대상에 인접한 적들에게 10...60의 대미지를 줍니다. 자신은 인장 스킬을 제외하고, 메스머 스킬이 아닌 스킬을 10초 동안 사용할 수 없습니다.",
+				"concise": "인장. 10...60의 대미지를 줍니다. 대상이 강화 마법이나 약화 마법에 걸려 있으면 인접한 다른 적들에게 10...60의 대미지를 줍니다. 자신은 인장 스킬을 제외하고, 메스머 스킬이 아닌 스킬을 사용할 수 없습니다.(10초)"
+			},
+			"pl": {
+				"name": "Nienaturalny Sygnet (PvP)",
+				"description": "Sygnet. Wybrany przeciwnik otrzymuje 10...60 pkt. obrażeń. Jeśli jest on pod działaniem klątwy lub zaklęcia, przeciwnicy w bezpośrednim sąsiedztwie celu otrzymują 10...60 pkt. obrażeń. Wszystkie twoje umiejątności nie będące umiejętnościami mesmera zostają wyłączone na 10 sekund.",
+				"concise": "Sygnet. Zadaje 10...60 pkt. obrażeń. Zadaje 10...60 pkt. obrażeń innym wrogom w sąsiedztwie, jeśli cel jest pod działaniem klątwy lub zaklęcia. Wszystkie twoje umiejątności nie będące umiejętnościami mesmera zostają wyłączone (10 sekund)."
+			},
+			"ru": {
+				"name": "Unnatural Signet (PvP)",
+				"description": "Печать. Выбранный противник получает 10...60 ед. урона. Если этот противник находится под действием проклятья или чар, окружающие вашу цель противники получат 10...60 ед. урона. Все ваши умения, не связанные с профессией Mesmer, исключая печати, будут недоступны в течение 10 сек.",
+				"concise": "Печать. Наносит 10...60 ед. урона. Наносит 10...60 ед. урона окружающим противникам, если цель находится под действием проклятья или чар. Ваши умения, не связанные с профессией Mesmer, исключая печати, недоступны (10 сек)."
+			},
+			"bork": {
+				"name": "Unnaetoorael Seegnet (PfP)",
+				"description": "Seegnet. Taerget fue-a taekes 10...60 daemaege-a. Iff thaet fue-a is under zee iffffects ooff a hex oor inchuntment, fues aedjaecent tu yuoor taerget taeke-a 10...60 daemaege-a. Aell yuoor nun-Mesmer skeells ixcept seegnets aere-a deesaebled fur 10 secunds.",
+				"concise": "Seegnet. Deaels 10...60 daemaege-a. Deaels 10...60 daemaege-a tu oozeer aedjaecent fues iff zee taerget is hexed oor inchunted. Yuoor nun-Mesmer skeells ixcept seegnets aere-a deesaebled (10 secunds)."
 			}
 		}
 	}

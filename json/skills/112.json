@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益亵渎",
+				"description": "咒文。 使目标敌人及邻近的所有我方敌人受到6...60点暗影伤害，并根据敌人带有「增益魔法」的数量，每一项对其造成4...20点暗影伤害。",
+				"concise": "咒文。 使目标敌人及其附近的所有敌人受到 6...60点暗 影伤害，并根据敌人带有「增益魔法」的数量，对其造成 4...20点 暗影伤害。"
+			},
+			"cht": {
+				"name": "褻瀆加持",
+				"description": "咒文魔法： 使目標敵人及其附近的所有敵人受到 6...60 暗影傷害，在這些敵人中，若其身上有「加持」，則會再額外受到 4...20 的暗影傷害。",
+				"concise": "咒文魔法： 使目標敵人及其附近的所有敵人受到 6...60 暗影傷害，在這些敵人中，若其身上有「加持」，則會再額外受到 4...20 的暗影傷害。"
+			},
 			"de": {
+				"name": "Verzauberungsschändung",
+				"description": "Zauber. Der Zielgegner und alle in seiner Nähe befindlichen Gegner erleiden 6...60 Punkt[e] Schattenschaden sowie zusätzlich 4...20 Punkt[e] Schattenschaden für jede auf ihnen liegende Verzauberung.",
+				"concise": "Zauber. Richtet beim Gegner und Feinden in der Nähe 6...60 Punkt[e] Schaden an. Richtet zusätzlich 4...20 Punkt[e] Schaden für jede auf ihnen liegende Verzauberung an."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberungsschändung",
 				"description": "Der Zielgegner und alle in seiner Nähe befindlichen Gegner erleiden 6...60 Punkte Schattenschaden sowie zusätzlich 4...20 Punkte Schattenschaden für jede auf ihnen liegende Verzauberung.",
 				"concise": "Richtet beim Gegner und Feinden in der Nähe 6...60 Punkte Schaden an. Richtet zusätzlich 4...20 Punkte Schaden für jede auf ihnen liegende Verzauberung an."
 			},
 			"en": {
 				"name": "Desecrate Enchantments",
+				"description": "Spell. Target foe and all nearby foes take 6...60 shadow damage and 4...20 shadow damage for each enchantment on them.",
+				"concise": "Spell. Deals 6...60 damage to target and nearby foes. Deals 4...20 more damage for each enchantment on them."
+			},
+			"en-gww": {
+				"name": "Desecrate Enchantments",
 				"description": "Target foe and all nearby foes take 6...60 shadow damage and 4...20 shadow damage for each enchantment on them.",
 				"concise": "Deals 6...60 damage to target and nearby foes. Deals 4...20 more damage for each enchantment on them."
 			},
+			"es": {
+				"name": "Profanación de encantamientos",
+				"description": "Conjuro. El enemigo objetivo y todos los enemigos cercanos reciben 6...60 de daño de sombra y 4...20 de daño de sombra por cada encantamiento que tengan.",
+				"concise": "Conjuro. Hace 6...60 de daño al enemigo objetivo y los cercanos. Hace 4...20 de daño extra por encantamiento que tengan."
+			},
 			"fr": {
+				"name": "Désacralisation d'enchantements",
+				"description": "Sort. L'ennemi et tous ceux à proximité subissent 6...60 points de dégâts de l'ombre et 4...20 points de dégâts de l'ombre pour chaque enchantement qui les affecte.",
+				"concise": "Sort. Inflige 6...60 points de dégâts à la cible et aux ennemis à proximité. Inflige 4...20 points de dégâts supplémentaires pour chaque enchantement qui les affectent."
+			},
+			"fr-gwiki": {
 				"name": "Désacralisation d'enchantements",
 				"description": "L'ennemi et tous ceux à proximité subissent 6...60 points de dégâts de l'ombre et 4...20 points de dégâts de l'ombre pour chaque enchantement qui les affecte.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dissacra Incantesimi",
+				"description": "Magia. L'obiettivo nemico e tutti i nemici nei dintorni subiscono 6...60 danno[i] da ombra e 4...20 danno[i] da ombra per ogni incantesimo presente su di loro.",
+				"concise": "Magia. Danni all'obiettivo e ai nemici nei dintorni: 6...60. Assesta 4...20 danno[i] in più per ogni incantesimo presente su di loro."
+			},
+			"jp": {
+				"name": "デスクレイト エンチャント",
+				"description": "スペル： ターゲットした敵および周囲にいるすべての敵に 6...60 の暗黒ダメージを与えます。また、敵にかけられている強化スペルごとに 4...20 の暗黒ダメージを与えます。",
+				"concise": "スペル： ターゲットおよび周囲にいる敵に 6...60 のダメージを与えます。それぞれの敵にかけられている強化スペルごとに 4...20 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "신성 모독",
+				"description": "마법. 대상 지정: 적. 대상과 그 부근의 적들에게 6...60의 암흑 대미지를 줍니다. 적에게 걸려 있는 강화 마법 하나당 4...20의 암흑 대미지를 추가로 줍니다.",
+				"concise": "마법. 대상과 그 부근의 적들에게 6...60의 대미지를 줍니다. 그들에게 걸린 강화 마법 하나당 4...20의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Zbezczeszczenie Zaklęć",
+				"description": "Czar. Wybrany przeciwnik i przeciwnicy w pobliżu otrzymują po 6...60 pkt. obrażeń od cienia oraz po 4...20 pkt. obrażeń od cienia za każde zaklęcie, które mają na sobie.",
+				"concise": "Czar. Wybranemu przeciwnikowi i przeciwnikom w pobliżu zadaje po 6...60 pkt. obrażeń. Zadaje 4...20 pkt. dodatkowych obrażeń za każde zaklęcie, pod którego są działaniem."
+			},
+			"ru": {
+				"name": "Desecrate Enchantments",
+				"description": "Заклинание. Выбранный противник и все противники поблизости получают 6...60 ед. урона силой тьмы и дополнительно 4...20 ед. урона силой тьмы за каждые наложенные на них чары.",
+				"concise": "Заклинание. Наносит 6...60 ед. урона выбранному противнику и противникам поблизости. Наносит дополнительно 4...20 ед. урона за каждые наложенные на них чары."
+			},
+			"bork": {
+				"name": "Desecraete-a Inchuntments",
+				"description": "Spell. Taerget fue-a und aell neaerby fues taeke-a 6...60 shaedoo daemaege-a und 4...20 shaedoo daemaege-a fur iaech inchuntment oon zeem.",
+				"concise": "Spell. Deaels 6...60 daemaege-a tu taerget und neaerby fues. Deaels 4...20 mure-a daemaege-a fur iaech inchuntment oon zeem."
 			}
 		}
 	}

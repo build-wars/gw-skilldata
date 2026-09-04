@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "速度窃取",
+				"description": "精英负面魔法。 在1...10秒之内，使目标敌人施法的时间延长25%，而你对其施法的时间缩短50%。",
+				"concise": "精英负面魔法。 在1...10秒之内，使目标敌人施法的时间延长 25%，而你施法的时间缩短 50%。"
+			},
+			"cht": {
+				"name": "速度竊取",
+				"description": "精英降咒魔法： 持續 1...10 秒，目標及鄰近敵人需要雙倍的時間施展魔法。你對這些敵人施展時間減50%。",
+				"concise": "精英降咒魔法： 持續 1...10 秒，目標及鄰近敵人需要雙倍的時間施展魔法。你對這些敵人施展時間減50%。"
+			},
 			"de": {
+				"name": "Gestohlene Eile (PvP)",
+				"description": "Elite-Verhexung. 1...10 Sekunde[n] lang brauchen der Gegner und alle umstehenden Feinde um 100% länger, um ihre Zauber zu wirken. Die Wirkzeit von Zaubern, die Ihr auf diese Gegner wirkt, wird um 50% gesenkt.",
+				"concise": "Elite-Verhexung. Verhext außerdem umstehende Feinde (1...10 Sekunde[n]). Verdoppelt die Wirkzeit von Zaubern. Die Wirkzeit von Zaubern, die Ihr auf verhexte Gegner wirkt, wird um 50% gesenkt."
+			},
+			"de-guildwiki": {
 				"name": "Gestohlene Eile (PvP)",
 				"description": "1...10 Sekunden lang brauchen der Gegner und alle umstehenden Feinde 100% länger, um ihre Zauber zu wirken. Von Euch gegen diese Feinde gewirkte Zauber benötigen 50% weniger Zeit.",
 				"concise": "Verhext umstehende Feinde (1...10 Sekunden). Verdoppelt die Wirkzeit von Zaubern. Die Wirkzeit von Zaubern, die Ihr auf verhexte Gegner wirkt, wird um 50% gesenkt."
 			},
 			"en": {
 				"name": "Stolen Speed (PvP)",
+				"description": "Elite Hex Spell. For 1...10 seconds, spells cast by the target foe and all adjacent foes take 100% longer to cast. Spells you cast that target these foes take 50% less time to cast.",
+				"concise": "Elite Hex Spell. Also hexes adjacent foes (1...10 seconds). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time."
+			},
+			"en-gww": {
+				"name": "Stolen Speed (PvP)",
 				"description": "For 1...10 second[s], spells cast by the target foe and all adjacent foes take 100% longer to cast. Spells you cast that target these foes take 50% less time to cast.",
 				"concise": "Also hexes adjacent foes (1...10 second[s]). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time."
 			},
+			"es": {
+				"name": "Velocidad robada (PvP)",
+				"description": "Conjuro con maleficio de élite. Durante 1...10 segundos, el enemigo objetivo y los adyacentes necesitarán 100% más de tiempo para lanzar conjuros. Los conjuros que dirijas a estos enemigos tardan 50% menos en lanzarse.",
+				"concise": "Conjuro con maleficio de élite. También afecta a los enemigos adyacentes (1...10 segundos). Dobla el tiempo de lanzamiento. Tus conjuros dirigidos sobre enemigos que tengan un maleficio tardan un -50% en lanzarse."
+			},
 			"fr": {
+				"name": "Vol de vitesse (PvP)",
+				"description": "Maléfice d'élite. Pendant 1...10 secondes, le temps d'incantation des sorts de l'ennemi visé et de tous les ennemis adjacents est doublé. Le temps d'incantation des sorts que vous lancez sur ces ennemis visés est réduit de 50%.",
+				"concise": "Maléfice d'élite. Inflige également des maléfices aux ennemis adjacents (1...10 secondes). Double le temps de lancement des sorts. Le temps d'incantation des sorts lancés sur les ennemis affectés est réduit de -50%."
+			},
+			"fr-gwiki": {
 				"name": "Vol de vitesse (PvP)",
 				"description": "Pendant 1...10 seconde(s), le temps d'incantation des sorts de l'ennemi visé et de tous les ennemis adjacents est doublé. Le temps d'incantation des sorts que vous lancez sur ces ennemis visés est réduit de est 50%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velocità sottratta (PvP)",
+				"description": "Fattura d'Élite. Per 1...10 secondi il tempo di lancio delle magie dell'obiettivo nemico e di tutti i nemici adiacenti aumenta di un 100%. Il tempo di lancio delle tue magie contro tali nemici si riduce di un 50%.",
+				"concise": "Fattura d'Élite. Colpisce con una fattura anche i nemici adiacenti (1...10 secondi). Raddoppia il tempo di lancio delle magie. Riduzione del tempo di lancio delle tue magie contro i nemici colpiti da fattura: 50%."
+			},
+			"jp": {
+				"name": "ストールン スピード (PvP)",
+				"description": "エリート弱体化スペル： 1...10 秒間、ターゲットした敵および隣接するすべての敵は、スペルの詠唱に2倍の時間がかかります。これらの敵に対するプレイヤーのスペルは、詠唱時間が 50% 減少します。",
+				"concise": "エリート弱体化スペル： (1...10 秒) ターゲットした敵および隣接する敵は、スペルの詠唱に2倍の時間がかかります。これらの敵に対するプレイヤーのスペルは、詠唱時間が 50% 減少します。"
+			},
+			"kr": {
+				"name": "시간 차용(대인전)",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 1...10초 동안 대상과 그에 인접한 모든 적의 마법 시전 속도는 100% 느려지고, 그들을 상대로 한 자신의 마법 시전 속도는 50% 빨라집니다.",
+				"concise": "엘리트 약화 마법. (1...10초) 대상과 그에 인접한 적들의 마법 시전 속도가 2배로 느려지고, 그들에게 거는 자신의 마법 시전 속도는 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Kradzież Szybkości (PvP)",
+				"description": "Elitarna klątwa (czar). Przez 1...10 sek., cel i wszyscy przeciwnicy w jego sąsiedztwie rzucają czary 100% dłużej. Twoje czary wycelowane w tych przeciwników rzucane są 50% szybciej.",
+				"concise": "Elitarna klątwa (czar). Klątwa działa także na wrogów w bezpośrednim sąsiedztwie (1...10 sek.). Podwaja czas rzucania czarów. Twoje czary wycelowane w przeciwników pod działaniem klątwy, rzucane są 50% szybciej."
+			},
+			"ru": {
+				"name": "Stolen Speed (PvP)",
+				"description": "Элитное заклинание-проклятье. В течение 1...10 сек выбранному противнику и всем окружающим его противникам для произнесения заклинаний требуется на 100% больше времени. Ваши заклинания и заклинания ваших союзников, направленные на этих противников, активируются на 50% быстрее.",
+				"concise": "Элитное заклинание-проклятье. Также накладывает проклятье на окружающих противников (1...10 сек). Удваивает время активации заклинаний. Ваши заклинания и заклинания ваших союзников, направленные на проклятых противников, активируются на 50% быстрее."
+			},
+			"bork": {
+				"name": "Stulee Speed (PfP)",
+				"description": "Ileete-a Hex Spell. Fur 1...10 secunds, spells caest by zee taerget fue-a und aell aedjaecent fues taeke-a 100% lunger tu caest. Spells yuoo caest thaet taerget zeese-a fues taeke-a 50% less teeme-a tu caest. Bork! Bork! Bork!",
+				"concise": "Ileete-a Hex Spell. Aelsu hexes aedjaecent fues (1...10 secunds). Duoobles spell caesteeng teeme-a. Spells yuoo caest oon hexed fues haefe-a -50% caesteeng teeme-a."
 			}
 		}
 	}

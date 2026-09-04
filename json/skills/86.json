@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "古兰斯的平衡",
+				"description": "精英咒文。 如果目标敌人的生命值高于你，那么你将获得彼此生命值差额的一半（不超过你的最大生命值），同时使该目标失去等量的生命值。",
+				"concise": "精英咒文。 如果目标敌人的生命值高于你，那么你将获得彼此生命值差额的一半（不超过你的最大生命值），同时使该目标失去等量的生命值。"
+			},
+			"cht": {
+				"name": "古蘭斯的平衡",
+				"description": "精英咒文魔法： 若目標敵人的體力超過你，則你獲得彼此體力值差額的一半（最多不超過你的最大體力值），同時使該目標失去等量的體力。",
+				"concise": "精英咒文魔法： 若目標敵人的體力超過你，則你獲得彼此體力值差額的一半（最多不超過你的最大體力值），同時使該目標失去等量的體力。"
+			},
 			"de": {
+				"name": "Grenths Ausgleich",
+				"description": "Elite-Zauber. Wenn der Gegner mehr Lebenspunkte als Ihr hat, erhaltet Ihr die Hälfte der Differenz (bis zu Euren maximalen Lebenspunkten) und der Gegner verliert die gleiche Punktzahl. Falls dieser Gegner weniger Lebenspunkte hat als Ihr, verliert Ihr die Hälfte der Differenz und er erhält die gleiche Menge.",
+				"concise": "Elite-Zauber. Ihr erhaltet die Hälfte der Differenz zwischen den Lebenspunkten des Gegners und Euren Lebenspunkten. Der Gegner verliert dieselbe Punktzahl. Falls der Gegner weniger Lebenspunkte hat als Ihr, verliert Ihr die Hälfte der Differenz und er erhält die gleiche Menge."
+			},
+			"de-guildwiki": {
 				"name": "Grenths Ausgleich",
 				"description": "Wenn der Gegner mehr Lebenspunkte als Ihr hat, erhaltet Ihr die Hälfte der Differenz (bis zu Euren maximalen Lebenspunkten) und der Gegner verliert die gleiche Punktzahl. Falls dieser Gegner weniger Lebenspunkte hat als Ihr, verliert Ihr die Hälfte der Differenz und er erhält die gleiche Menge.",
 				"concise": "Ihr erhaltet die Hälfte der Differenz zwischen den Lebenspunkten des Gegners und Euren Lebenspunkten. Der Gegner verliert dieselbe Punktzahl. <gray>Falls der Gegner weniger Lebenspunkte hat als Ihr, verliert Ihr die Hälfte der Differenz und er erhält die gleiche Menge.</gray>"
 			},
 			"en": {
 				"name": "Grenth's Balance",
+				"description": "Elite Spell. If target foe has more Health than you, you gain half the difference (up to your maximum Health), and that foe loses an equal amount. If this foe has less Health than you, you lose half the difference, and that foe gains an equal amount.",
+				"concise": "Elite Spell. You gain Health equal to half the difference between you and target, and this foe loses an equal amount. If this foe has less Health than you, you lose half the difference and that foe gains an equal amount."
+			},
+			"en-gww": {
+				"name": "Grenth's Balance",
 				"description": "If target foe has more Health than you, you gain half the difference (up to your maximum Health), and that foe loses an equal amount. If this foe has less Health than you, you lose half the difference, and that foe gains an equal amount.",
 				"concise": "You gain Health equal to half the difference between you and target, and this foe loses an equal amount. <gray>If this foe has less Health than you, you lose Health equal to half the difference.</gray>"
 			},
+			"es": {
+				"name": "Balanza de Grenth",
+				"description": "Conjuro de élite. Si el enemigo objetivo tiene más salud, ganarás la mitad de la diferencia (o hasta que se llene del todo tu barra de salud) y éste la perderá. Si el enemigo tiene menos salud que tú, perderás la mitad de la diferencia, y él ganará la misma cantidad.",
+				"concise": "Conjuro de élite. Ganas salud igual a la mitad de la diferencia entre la tuya y la del objetivo, que perderá esa cantidad. Si el enemigo objetivo tiene menos salud, pierdes la mitad de la diferencia y él ganará la misma cantidad."
+			},
 			"fr": {
+				"name": "Equilibre de Grenth",
+				"description": "Sort d'élite. Si l'ennemi visé dispose de plus de santé que vous, vous récupérez la moitié de la différence (pas plus que votre santé maximum) et celui-ci perd la même quantité. Si cet ennemi a moins de santé que vous, vous perdez la moitié de la différence et l'ennemi récupère la même quantité de santé.",
+				"concise": "Sort d'élite. Vous gagnez la moitié de la différence de santé entre vous et l'ennemi visé et celui-ci en perd autant. Si cet ennemi a moins de santé que vous, vous perdez la moitié de la différence et l'ennemi récupère la même quantité."
+			},
+			"fr-gwiki": {
 				"name": "Equilibre de Grenth",
 				"description": "Si l'ennemi visé dispose de plus de santé que vous, vous récupérez la moitié de la différence (par rapport à votre santé maximum) et celui-ci perd la même quantité de santé.",
 				"concise": "Vous gagnez la moitié de la différence de santé entre vous et l'ennemi visé et celui-ci en perd autant. <gray>Si cet ennemi a moins de santé que vous, vous perdez la moitié de la différence et l'ennemi récupère la même quantité.</gray>"
+			},
+			"it": {
+				"name": "Equilibrio di Grenth",
+				"description": "Magia d'Élite. Se la Salute dell'obiettivo nemico è superiore alla tua, otterrai la metà della differenza (nei limiti della Salute massima) e quel nemico perderà la stessa quantità. Se questo nemico ha meno Salute di te perderai Salute pari alla metà della differenza e il nemico ne otterrà la stessa quantità.",
+				"concise": "Magia d'Élite. Ottieni Salute pari alla metà della differenza tra la tua e quella dell'obiettivo e questo nemico ne perde la stessa quantità. Se questo nemico ha meno Salute di te perdi Salute pari alla metà della differenza e lui ne ottiene la stessa quantità."
+			},
+			"jp": {
+				"name": "グレンス バランス",
+				"description": "エリート スペル： ターゲットした敵の体力がプレイヤーより多い場合、その差の半分の体力を奪い取ります (自分の体力の上限は超えません)。その敵の体力が少ない場合、プレイヤーがその差の半分の体力を奪い取られます。",
+				"concise": "エリート スペル： プレイヤーはターゲットした敵との体力差の半分の体力を獲得し、その敵は同量の体力を失います。ターゲットの体力が少ない場合、体力差の半分をプレイヤーが失い、敵は同量の体力を獲得します。"
+			},
+			"kr": {
+				"name": "그렌트의 천칭",
+				"description": "엘리트 마법. 대상 지정: 적. 대상의 체력이 자신보다 많으면 자신은 그 차이의 절반을 얻고(자신의 최대 체력까지만), 대상은 그만큼의 체력을 잃습니다. 대상의 체력이 자신보다 적으면 대상이 그 차이의 절반을 얻고, 자신은 그만큼의 체력을 잃습니다.",
+				"concise": "엘리트 마법. 대상과 차이나는 체력의 절반을 얻고, 대상은 그만큼의 체력을 잃습니다. 대상의 체력이 자신보다 적으면 자신이 차이나는 체력의 절반을 잃고, 대상이 그만큼의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "Równowaga Grentha",
+				"description": "Elitarny czar. Jeżeli wybrany przeciwnik ma więcej pkt. żywotności niż ty, otrzymujesz połowę tej różnicy (aż do maksymalnego poziomu pkt. żywotności), a ten przeciwnik traci taką samą ilość. Jeżeli ten przeciwnik ma mniej pkt. żywotności niż ty, tracisz połowę tej różnicy, a ten przeciwnik otrzymuje taką samą ilość.",
+				"concise": "Elitarny czar. Otrzymujesz punkty żywotności w liczbie równej połowie różnicy pomiędzy żywotnością twoją, a przeciwnika, z kolei przeciwnik traci tę liczbę punktów żywotności. Jeżeli ten przeciwnik posiada mniej żywotności niż ty, to tracisz punkty żywotności w liczbie równej połowie tej różnicy, z kolei przeciwnik otrzymuje tę liczbę punktów żywotności."
+			},
+			"ru": {
+				"name": "Grenth's Balance",
+				"description": "Элитное заклинание. Если уровень здоровья выбранного противника выше, чем у вас, вы получаете половину разницы между вашими уровнями здоровья (но не больше, чем до вашего максимального уровня), а противник теряет равное количество здоровья. Если у противника меньше здоровья, чем у вас, вы теряете половину разницы между вашими уровнями здоровья, а противник получает равное количество здоровья.",
+				"concise": "Элитное заклинание. Вы получаете половину разницы между вашим здоровьем и здоровьем цели, а этот противник теряет такое же количество здоровья. Если у этого противника меньше здоровья, чем у вас, вы теряете половину разницы между вашими уровнями здоровья, а противник получает равное количество здоровья."
+			},
+			"bork": {
+				"name": "Grent's Baelunce-a",
+				"description": "Ileete-a Spell. Iff taerget fue-a haes mure-a Heaelt thun yuoo, yuoo gaeeen haelff zee deefffference-a (up tu yuoor maexeemoom Heaelt), und thaet fue-a luses un iqooael aemuoont. Iff thees fue-a haes less Heaelt thun yuoo, yuoo luse-a haelff zee deefffference-a, und thaet fue-a gaeeens un iqooael aemuoont.",
+				"concise": "Ileete-a Spell. Yuoo gaeeen Heaelt iqooael tu haelff zee deefffference-a betveee yuoo und taerget, und thees fue-a luses un iqooael aemuoont. Iff thees fue-a haes less Heaelt thun yuoo, yuoo luse-a haelff zee deefffference-a und thaet fue-a gaeeens un iqooael aemuoont."
 			}
 		}
 	}

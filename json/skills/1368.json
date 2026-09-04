@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "寒风",
+				"description": "负面魔法。 对目标敌人造成30...60点冰冻伤害，在10秒之内，下一次对该目标敌人施放的「水系负面魔法」效果延长25...100%。",
+				"concise": "负面魔法。 对目标敌人造成30...60点冰冻伤害，在10秒之内，下一次对该目标敌人施放的「水系负面魔法」效果延长25...100%。"
+			},
+			"cht": {
+				"name": "嚴寒之風",
+				"description": "降咒魔法： 對目標敵人造成 30...60 冰凍傷害。並且在 10 秒內，使該目標下一次受到的「水系降咒」，持續時間加長 25...100% 。",
+				"concise": "降咒魔法： 對目標敵人造成 30...60 冰凍傷害。並且在 10 秒內，使該目標下一次受到的「水系降咒」，持續時間加長 25...100% 。"
+			},
 			"de": {
+				"name": "Kühle Winde",
+				"description": "Verhexung. Der anvisierte Gegner erleidet gemeinsam mit allen umstehenden Feinden 30...60 Punkte Kälteschaden. Für 10 Sekunden hält die nächste auf den verhexten Gegner gerichtete Wassermagie-Verhexung um 25...100% länger an.",
+				"concise": "Verhexung. (10 Sekunden.) Die nächste Wasser-Verhexung auf dem Gegner hält um 25...100% länger an. Anfangswirkung: Richtet 30...60 Punkte Kälteschaden an. Trifft auch umstehende Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Kühle Winde",
 				"description": "Der anvisierte Gegner erleidet gemeinsam mit allen umstehenden Feinden 30...60 Punkte Kälteschaden. Für 10 Sekunden hält die nächste auf die verhexten Gegner gerichtete Wasser-Verhexung 25...100% länger an.",
 				"concise": "(10 Sekunden.) Die nächste Wasser-Verhexung auf dem Gegner hält um 25...100% länger an. Anfangswirkung: 30...60 Punkte Kälteschaden. Trifft auch umstehende Gegner."
 			},
 			"en": {
 				"name": "Chilling Winds",
+				"description": "Hex Spell. Target foe and all adjacent foes are struck for 30...60 cold damage. For 10 seconds, the next Water Magic hex targeting a hexed foe lasts 25...100% longer.",
+				"concise": "Hex Spell. (10 seconds.) The next water hex on target foe lasts 25...100% longer. Initial effect: 30...60 cold damage. Also strikes adjacent."
+			},
+			"en-gww": {
+				"name": "Chilling Winds",
 				"description": "Target foe and all adjacent foes are struck for 30...60 cold damage. For 10 seconds, the next Water Magic hex targeting a hexed foe lasts 25...100% longer.",
 				"concise": "(10 seconds.) The next water hex on target foe lasts 25...100% longer. Initial effect: 30...60 cold damage. Also strikes adjacent."
 			},
+			"es": {
+				"name": "Vientos fríos",
+				"description": "Conjuro con maleficio. El enemigo objetivo y todos los adyacentes reciben 30...60 de daño frío. Durante 10 segundos, el siguiente maleficio de agua dirigido a un enemigo con maleficio durará un 25...100% más.",
+				"concise": "Conjuro con maleficio. (10 segundos.) El siguiente maleficio de agua sobre el enemigo objetivo durará un 25...100% más. Efecto inicial: 30...60 de daño frío. También golpea a los adyacentes."
+			},
 			"fr": {
+				"name": "Vents glaciaux",
+				"description": "Maléfice. L'ennemi visé et tous les ennemis adjacents subissent 30...60 points de dégâts du froid. Pendant 10 secondes, le prochain maléfice de la Magie de l'eau que vous lancez sur un ennemi souffrant de maléfice dure 25...100% plus longtemps.",
+				"concise": "Maléfice. (10 secondes.) Le prochain maléfice de la Magie de l'eau lancé sur un ennemi dure 25...100% plus longtemps. Effet initial : infligent 30...60 points de dégâts du froid. Frappe également les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Vents glaciaux",
 				"description": "L'ennemi ciblé reçoit 25...50 points de dégâts du froid. Pendant 30 secondes, le prochain maléfice d'eau visant cet ennemi dure 25...100% plus longtemps.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Venti Gelidi",
+				"description": "Fattura. L'obiettivo nemico e i nemici adiacenti subiscono 30...60 danni da freddo. Per 10 secondi, la prossima fattura di Magia dell'Acqua lanciata contro un nemico con fattura ha una durata superiore di un 25...100%.",
+				"concise": "Fattura. (Secondi: 10.) Durata della prossima fattura d'Acqua sull'obiettivo nemico: +25...100%. Effetto iniziale: 30...60 danni da freddo. Colpisce anche i nemici adiacenti."
+			},
+			"jp": {
+				"name": "チル ウインド",
+				"description": "弱体化スペル： ターゲットした敵および隣接するすべてのに 30...60 のコールド ダメージを与えます。10 秒間、次にその敵に対して詠唱される「ウォーター」特性の弱体化スペルは、持続時間が 25...100% 増加します。",
+				"concise": "弱体化スペル： (10 秒) ターゲットした敵が次にかけられる「ウォーター」特性の弱体化スペルは持続時間が 25...100% 増加します。発動効果： ターゲットした敵および隣接する敵に 30...60 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "냉기의 바람",
+				"description": "약화 마법. 대상 지정: 적. 대상과 그에 인접한 모든 적에게 30...60의 냉기 대미지를 줍니다. 10초 동안 대상이 처음 걸리는 물 속성 약화 마법의 지속 시간이 25...100% 늘어납니다.",
+				"concise": "약화 마법. (10초) 대상이 처음 걸리는 물 속성 약화 마법의 지속 시간이 25...100% 늘어납니다. 초기 효과: 대상과 인접한 적들에게 30...60의 냉기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Lodowate Wiatry",
+				"description": "Klątwa (czar). Wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim otrzymują po 30...60 pkt. obrażeń od zimna. Przez 10 sek. następna klątwa Magii Wody trafiająca przeklętego przeciwnika będzie trwać 25...100% dłużej.",
+				"concise": "Klątwa (czar). (10 sek.) Następna klątwa wodna trafiająca przeklętego przeciwnika będzie trwać 25...100% dłużej. Efekt początkowy: 30...60 pkt. obrażeń od zimna. Zadaje obrażenia znajdującym się w sąsiedztwie."
+			},
+			"ru": {
+				"name": "Chilling Winds",
+				"description": "Заклинание-проклятье. Выбранный противник и все окружающие противники получают 30...60 ед. урона силой холода. В течение 10 сек следующее наложенное на этого противника проклятье, связанное с талантом Water Magic, будет длиться на 25...100% дольше.",
+				"concise": "Заклинание-проклятье. (10 сек) Следующее наложенное на выбранного противника проклятье, связанное с Water Magic, будет длиться на 25...100% дольше. Начальный эффект: 30...60 ед. урона силой холода. Также поражает окружающих противников."
+			},
+			"bork": {
+				"name": "Cheelleeng Veends",
+				"description": "Hex Spell. Taerget fue-a und aell aedjaecent fues aere-a stroock fur 30...60 culd daemaege-a. Fur 10 secunds, zee next Vaeter Maegeec hex taergeteeng a hexed fue-a laests 25...100% lunger.",
+				"concise": "Hex Spell. (10 secunds.) Zee next vaeter hex oon taerget fue-a laests 25...100% lunger. Ineeteeael iffffect: 30...60 culd daemaege-a. Aelsu streekes aedjaecent."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "驱咒纹章",
+				"description": "精英纹章。 如果友方目标带有「增益魔法」，则使其失去一项「负面魔法」和一种「症状」。",
+				"concise": "精英纹章。 如果友方目标带有「增益魔法」，则使其失去一项「负面魔法」和一种「症状」。"
+			},
+			"cht": {
+				"name": "破除紋章",
+				"description": "精英紋章： 若目標盟友擁有「加持」效果，則為該盟友消去一項「降咒」及一項「病症」。",
+				"concise": "精英紋章： 若目標盟友擁有「加持」效果，則為該盟友消去一項「降咒」及一項「病症」。"
+			},
 			"de": {
+				"name": "Siegel der Entfernung",
+				"description": "Elite-Siegel. Wenn der Verbündete (bzw. Ihr selbst) unter dem Einfluss einer Verzauberung steht, verliert er eine Verhexung und einen Zustand.",
+				"concise": "Elite-Siegel. Entfernt eine Verhexung und einen Zustand. Der Verbündete (bzw. Ihr selbst) muss verzaubert sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Entfernung",
 				"description": "Wenn der Verbündete (bzw. Ihr selbst) unter dem Einfluss einer Verzauberung steht, verliert er eine Verhexung und einen Zustand.",
 				"concise": "Entfernt eine Verhexung und einen Zustand. <gray>Der Verbündete (bzw. Ihr selbst) muss verzaubert sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Signet of Removal",
+				"description": "Elite Signet. If target ally is under the effects of an enchantment, that ally loses one hex and one condition.",
+				"concise": "Elite Signet. Removes one hex and one condition. No effect unless target ally is enchanted."
+			},
+			"en-gww": {
+				"name": "Signet of Removal",
 				"description": "If target ally is under the effects of an enchantment, that ally loses one hex and one condition.",
 				"concise": "Removes one hex and one condition. <gray>No effect unless target ally is enchanted.</gray>"
 			},
+			"es": {
+				"name": "Sello de eliminación",
+				"description": "Sello de élite. Si el objetivo (un aliado o tú mismo) está bajo los efectos de un encantamiento, perderá un maleficio y una condición.",
+				"concise": "Sello de élite. Elimina un maleficio y una condición. No tiene efecto a menos que el objetivo (un aliado o tú mismo) tenga un encantamiento."
+			},
 			"fr": {
+				"name": "Sceau de suppression",
+				"description": "Sceau d'élite. Si la cible (un allié ou vous-même) est sous les effets d'un enchantement, elle perd un maléfice et une condition.",
+				"concise": "Sceau d'élite. Supprime une condition et un maléfice. Aucun effet si l'allié visé n'est pas enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de suppression",
 				"description": "Si la cible (un allié ou vous-même) est sous les effets d'un enchantement, elle perd un maléfice et une condition.",
 				"concise": "Supprime une condition et un maléfice. <gray>Aucun effet si l'allié visé n'est pas enchanté.</gray>"
+			},
+			"it": {
+				"name": "Sigillo della Rimozione",
+				"description": "Sigillo d'Élite. Se l'obiettivo alleato è sotto gli effetti di un incantesimo, perde una fattura e una condizione.",
+				"concise": "Sigillo d'Élite. Rimuove una fattura e una condizione. Ha effetto solo se l'obiettivo alleato è sotto incantesimo."
+			},
+			"jp": {
+				"name": "リムーバル シグネット",
+				"description": "エリート シグネット： ターゲットした味方に強化スペルがかかっていた場合、その味方の弱体化スペルと「状態異常」をそれぞれ1個解除します。",
+				"concise": "エリート シグネット： 弱体化スペルと「状態異常」を1個ずつ解除します。ターゲットした味方に強化スペルがかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "제거 인장",
+				"description": "엘리트 인장. 대상 지정: 아군. 대상이 강화 마법에 걸려 있으면 대상에 걸린 약화 마법과 상태이상을 하나씩 무효화합니다.",
+				"concise": "엘리트 인장. 약화 마법과 상태이상을 하나씩 무효화합니다. 대상이 강화 마법에 걸려 있어야 합니다."
+			},
+			"pl": {
+				"name": "Sygnet Usunięcia",
+				"description": "Sygnet elitarny. Jeżeli wybrany sojusznik jest pod działaniem zaklęcia, to traci jedną klątwę i jedną przypadłość.",
+				"concise": "Sygnet elitarny. Usuwa jedną przypadłość i jedną klątwę. Bez efektu, chyba że wybrany sojusznik jest pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Signet of Removal",
+				"description": "Элитная печать. Если на выбранного союзника наложены какие-либо чары, с этого союзника снимаются одно проклятье и одно состояние.",
+				"concise": "Элитная печать. Снимает одно проклятье и одно состояние. Не действует, если на выбранном союзнике нет чар."
+			},
+			"bork": {
+				"name": "Seegnet ooff Remufael",
+				"description": "Ileete-a Seegnet. Iff taerget aelly is under zee iffffects ooff un inchuntment, thaet aelly luses oone-a hex und oone-a cundeeshun.",
+				"concise": "Ileete-a Seegnet. Remufes oone-a hex und oone-a cundeeshun. Nu iffffect unless taerget aelly is inchunted."
 			}
 		}
 	}

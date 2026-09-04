@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "传染",
+				"description": "精英增益魔法。 在60秒之内，当你遭受一项新「症状」时，所有附近的敌人将被传染，你因此损耗最大生命值的10...5%。",
+				"concise": "精英增益魔法。 在60秒之内，当你遭受一项新「症状」时，所有附近的敌人将被传染，你因此损耗最大生命值的10...5%。"
+			},
+			"cht": {
+				"name": "病症蔓延",
+				"description": "精英加持魔法： 持續 60 秒，每當你遭受一項新的「病症」時，附近的所有敵人也將遭受同樣的「病症」，同時你失去最大體力值的 10...5% 。",
+				"concise": "精英加持魔法： 持續 60 秒，每當你遭受一項新的「病症」時，附近的所有敵人也將遭受同樣的「病症」，同時你失去最大體力值的 10...5% 。"
+			},
 			"de": {
+				"name": "Erkrankung",
+				"description": "Elite-Verzauberung. 60 Sekunde[n] lang leiden jedes Mal, wenn Ihr unter einem neuen Zustand leidet, alle Gegner in dem Bereich unter demselben Zustand und Ihr opfert 10...5% maximale Lebenspunkte.",
+				"concise": "Elite-Verzauberung. 60 Sekunde[n]: Immer wenn Ihr einen Zustand erhaltet, erhalten ihn auch alle Feinde in dem Bereich. Ihr opfert jedes Mal 10...5% Eurer maximalen Lebenspunkte, wenn dies geschieht."
+			},
+			"de-guildwiki": {
 				"name": "Erkrankung",
 				"description": "60 Sekunden lang leiden jedes Mal, wenn Ihr unter einem neuen Zustand leidet, alle Gegner in dem Bereich unter demselben Zustand und Ihr opfert 10...5% maximale Lebenspunkte.",
 				"concise": "60 Sekunden: Immer wenn Ihr einen Zustand erhaltet, erhalten ihn auch alle Feinde in dem Bereich. <gray>Ihr opfert jedes Mal 10...5% Eurer maximalen Lebenspunkte, wenn dies geschieht.</gray>"
 			},
 			"en": {
 				"name": "Contagion",
+				"description": "Elite Enchantment Spell. For 60 seconds, whenever you suffer from a new condition, all foes in the area suffer from that same condition and you sacrifice 10...5% maximum Health.",
+				"concise": "Elite Enchantment Spell. (60 seconds.) Whenever you gain a condition, all foes in the area gain that same condition. You sacrifice 10...5% maximum Health each time this happens."
+			},
+			"en-gww": {
+				"name": "Contagion",
 				"description": "For 60 seconds, whenever you suffer from a new condition, all foes in the area suffer from that same condition and you sacrifice 10...5% maximum Health.",
 				"concise": "(60 seconds.) Whenever you gain a condition, all foes in the area gain that same condition. <gray>You sacrifice 10...5% maximum Health each time this happens.</gray>"
 			},
+			"es": {
+				"name": "Contagio",
+				"description": "Conjuro con encantamiento de élite. Durante 60 segundos, cada vez que sufras una nueva condición, todos los enemigos de la zona la sufrirán también y sacrificarás el 10...5% del máximo de salud.",
+				"concise": "Conjuro con encantamiento de élite. (60 segundos). Cada vez que recibas una condición, todos los enemigos de la zona reciben la misma. Sacrificas el 10...5% de salud máxima cada vez que esto ocurra."
+			},
 			"fr": {
+				"name": "Contagion",
+				"description": "Enchantement d'élite. Pendant 60 secondes, chaque fois que vous souffrez d'une nouvelle condition, tous les ennemis dans la zone sont affectés par la même condition et vous sacrifiez 10...5% de votre santé maximum.",
+				"concise": "Enchantement d'élite. (60 secondes.) Chaque fois qu'une condition vous est infligée, elle est aussi infligée à tous les ennemis dans la zone. Vous sacrifiez 10...5% de votre santé maximum chaque fois que cela arrive."
+			},
+			"fr-gwiki": {
 				"name": "Contagion",
 				"description": "Pendant 60 secondes, chaque fois que vous souffrez d'une nouvelle condition, tous les ennemis à proximité sont affectés par la même condition et vous sacrifiez 10...5% de votre santé maximum.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Contagio",
+				"description": "Incantesimo d'Élite. Per 60 secondo[i], ogni volta che subisci una nuova condizione, tutti i nemici nell'area risentono della stessa condizione e tu sacrifichi un 10...5% della Salute massima.",
+				"concise": "Incantesimo d'Élite. (Secondi: 60) Ogni volta che ricevi una condizione, tutti i nemici nell'area ottengono la stessa. Sacrifichi un 10...5% della Salute massima ogni volta che accade."
+			},
+			"jp": {
+				"name": "コンテイジョン",
+				"description": "エリート強化スペル： 60 秒間、新たに「状態異常」がかけられるたびに、エリア内にいるすべての敵も同じ「状態異常」にかかります。ただし、体力の上限を 10...5% 犠牲にします。",
+				"concise": "エリート強化スペル： (60 秒) 「状態異常」がかけられるたびに、エリア内にいる敵も同じ状態になります。効果が現れるたびに、上限の 10...5% の体力を犠牲にします。"
+			},
+			"kr": {
+				"name": "상태 전염",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 60초 동안 새로운 상태이상에 걸릴 때마다 일정 범위 내에 있는 모든 적도 동일한 상태이상에 걸립니다. 자신의 최대 체력을 10...5% 소모합니다.",
+				"concise": "엘리트 강화 마법. (60초) 자신이 상태이상에 걸릴 때마다 일정 범위 내에 있는 적들도 동일한 상태이상에 걸립니다. 자신은 최대 체력을 10...5%씩 소모합니다."
+			},
+			"pl": {
+				"name": "Zakażanie",
+				"description": "Elitarne zaklęcie (czar). Przez 60 sek., za każdym razem, kiedy zaczniesz cierpieć na nową przypadłość, wszyscy przeciwnicy w okolicy zaczną cierpieć na tą samą przypadłość, a ty poświęcisz 10...5% swojej maksymalnej żywotności.",
+				"concise": "Elitarne zaklęcie (czar). (60 sek.) Za każdym razem, kiedy otrzymujesz przypadłość, wszyscy przeciwnicy w okolicy otrzymują tą samą przypadłość. Za każdym razem, kiedy się to stanie, poświęcasz 10...5% maksymalnej żywotności."
+			},
+			"ru": {
+				"name": "Contagion",
+				"description": "Элитное заклинание-чары. В течение 60 сек каждый раз, когда вы получаете новое состояние, все противники поблизости получают то же самое состояние, а вы жертвуете 10...5% здоровья от вашего максимального уровня.",
+				"concise": "Элитное заклинание-чары. (60 сек) Каждый раз, когда вы получаете новое состояние, все противники поблизости получают то же самое состояние. Вы жертвуете 10...5% здоровья от вашего максимального уровня каждый раз, когда это происходит."
+			},
+			"bork": {
+				"name": "Cuntaegeeun",
+				"description": "Ileete-a Inchuntment Spell. Fur 60 secunds, vhenefer yuoo sooffffer frum a noo cundeeshun, aell fues in zee aerea sooffffer frum thaet saeme-a cundeeshun und yuoo saecreeffeece-a 10...5% maexeemoom Heaelt.",
+				"concise": "Ileete-a Inchuntment Spell. (60 secunds.) Vhenefer yuoo gaeeen a cundeeshun, aell fues in zee aerea gaeeen thaet saeme-a cundeeshun. Yuoo saecreeffeece-a 10...5% maexeemoom Heaelt iaech teeme-a thees haeppens."
 			}
 		}
 	}

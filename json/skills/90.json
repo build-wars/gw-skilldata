@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 15,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "维拉塔的献祭",
+				"description": "咒文。 牺牲自己最大生命值的15%。在5...10秒之内，使所有我方不死仆从的「生命再生」提高10点，同时将所有我方不死仆从带有的「症状」转移到自己身上。当施法成功时，如果你控制的不死仆从在3只以下，那么该技能将立即回复。",
+				"concise": "咒文。 在 5...10秒 之内，牺牲自己最大生命值的 15%，使所有我方不死仆从的「生命再生」提高10点，同时将所有我方不死仆从带有的「症状」转移到自己身上。当施法成功时，如果你控制的不死仆从少于3个，那么该技能立刻冷却。"
+			},
+			"cht": {
+				"name": "芙瑞達的犧牲",
+				"description": "咒文魔法： 犧牲自己最大體力的 15% 。持續 5...10 秒，使我方所有的不死爪牙獲得體力再生 +10 。所有這些不死爪牙遭受的「病症」移轉到你身上。若施展魔法成功而且帶領的不死爪牙在 3 隻以下，芙瑞達的犧牲這技能將立即回復。",
+				"concise": "咒文魔法： 犧牲自己最大體力的 15% 。持續 5...10 秒，使我方最多 10 隻不死爪牙獲得體力再生 +10 ，並且將所有這些不死爪牙遭受的「病症」移轉到你身上。若施展魔法成功而且帶領的不死爪牙在 3 隻以下，芙瑞達的犧牲這技能將立即回復。"
+			},
 			"de": {
+				"name": "Veratas Opfer",
+				"description": "Zauber. 5...10 Sekunde[n] lang erfahren Eure untoten Verbündeten eine Lebenspunktregeneration von +10. Alle Zustände werden von diesen Verbündeten entfernt und auf Euch übertragen. Wenn dieser Zauber erfolgreich ist und Ihr 3 oder weniger Diener kontrolliert, wird Veratas Opfer sofort wieder aufgeladen.",
+				"concise": "Zauber. 5...10 Sekunde[n]: 10 verbündete untote Diener erhalten +10 Lebenspunktregeneration. Wird sofort wieder aufgeladen, falls Ihr 3 oder weniger Diener kontrolliert. Überträgt alle Zustände der betroffenen Diener auf Euch."
+			},
+			"de-guildwiki": {
 				"name": "Veratas Opfer",
 				"description": "5...10 Sekunden lang erfahren alle Eure untoten Diener Lebenspunktregeneration von +10. Alle Zustände werden von diesen Dienern entfernt und auf Euch übertragen. Wenn dieser Zauber erfolgreich ist und Ihr und Eure Verbündeten zusammen 3 oder weniger Diener kontrolliert, wird Veratas Opfer sofort wieder aufgeladen.",
 				"concise": "5...10 Sekunden: Von Euch kontrollierte untote Diener erhalten +10 Lebenspunktregeneration. Wird sofort wieder aufgeladen, falls Ihr und Eure Verbündeten zusammen 3 oder weniger Diener kontrollieren. <gray>Überträgt alle Zustände der erstgenannten Diener auf Euch.</gray>"
 			},
 			"en": {
 				"name": "Verata's Sacrifice",
+				"description": "Spell. For 5...10 seconds, your undead allies gain +10 Health regeneration. All conditions are removed from those allies and transferred to you. If this spell is successful and you have control of 3 or fewer minions, Verata's Sacrifice instantly recharges.",
+				"concise": "Spell. (5...10 seconds.) 10 undead allied servants gain +10 Health regeneration. Instantly recharges if you have control of 3 or fewer servants. Transfers all conditions from those servants to you."
+			},
+			"en-gww": {
+				"name": "Verata's Sacrifice",
 				"description": "For 5...10 seconds, your undead allies gain +10 Health regeneration. All conditions are removed from those allies and transferred to you. If this spell is successful and you have control of 3 or fewer minions, Verata's Sacrifice instantly recharges.",
 				"concise": "(5...10 seconds.) 10 undead allied servants gain +10 Health regeneration. Instantly recharges if you have control of 3 or fewer servants. <gray>Transfers all conditions from those servants to you.</gray>"
 			},
+			"es": {
+				"name": "Sacrificio de Verata",
+				"description": "Conjuro. Durante 5...10 segundos, tus muertos vivientes aliados recuperan +10 de salud y todas las condiciones desaparecen de ellos y pasan a ti. Si este conjuro tiene éxito y controlas 3 siervos o menos, se recargará de forma inmediata.",
+				"concise": "Conjuro. (5...10 segundos). 10 siervos aliados ganan +10 de regeneración de salud. Se recarga al instante si controlas a 3 o menos siervos. Transfieres todas las condiciones de esos siervos a ti."
+			},
 			"fr": {
+				"name": "Sacrifice de Verata",
+				"description": "Sort. Pendant 5...10 secondes, vos alliés morts-vivants bénéficient d'une régénération de santé de +10. Toutes les conditions qui affectent ces alliés vous sont transférées. Si ce sort réussit et si vous contrôlez 3 serviteurs ou moins, le Sacrifice de Verata se recharge instantanément.",
+				"concise": "Sort. (5...10 secondes.) 10 serviteurs morts-vivants alliés bénéficient d'une régénération de santé de +10. Rechargement instantané si vous ne contrôlez pas plus de 3 serviteurs. Toutes les conditions affectant vos serviteurs vous sont transférées."
+			},
+			"fr-gwiki": {
 				"name": "Sacrifice de Verata",
 				"description": "Pendant 5...10 secondes, vos alliés morts-vivants bénéficient d'une régénération de santé de +10. Toutes les conditions qui affectent ces alliés vous sont transférées. Si ce sort réussit et si vous contrôlez 3 serviteurs ou moins, le Sacrifice de Verata se recharge instantanément.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sacrificio di Verata",
+				"description": "Magia. Per 5...10 secondo[i] i morti viventi tuoi alleati ottengono una Rigenerazione della Salute di +10. Tutte le condizioni vengono rimosse da questi alleati e trasferite su di te. Se questa magia va a segno e stai controllando 3 sgherri o meno, il Sacrificio di Verata si ricarica all'istante.",
+				"concise": "Magia. (Secondi: 5...10) Rigenerazione Salute di 10 morto[i] vivente[i] alleato[i]: +10. Si ricarica all'istante se hai il controllo di 3 morti viventi o meno. Trasferisci tutte le condizioni da questi morti viventi a te stesso."
+			},
+			"jp": {
+				"name": "ヴェラタ サクリファイス",
+				"description": "スペル： 5...10 秒間、味方ミニオンは、体力の自然回復力が10増加します。また、ミニオンの「状態異常」をすべて解除してプレイヤー自身に転移します。このスペルが成功し、さらに自分が召喚しているミニオンが3体以下の場合、このスペルはすぐに再使用することができます。",
+				"concise": "スペル： (5...10 秒) 10 体の味方ミニオンは、体力の自然回復力が10増加します。プレイヤーの召喚するミニオンが3体以下の場合、このスペルはすぐに再使用することができます。ミニオンにかけられている「状態異常」がすべて自分に転移されます。"
+			},
+			"kr": {
+				"name": "베라타의 희생",
+				"description": "마법. 대상 지정: 없음. 5...10초 동안 언데드 노예의 체력 재생을 10 증가시킵니다. 동시에 언데드 노예들에게 걸려 있는 모든 상태이상을 자신에게 옮깁니다. 이 마법이 성공하고, 조종하는 언데드 노예가 3마리 이하이면 이 마법은 즉시 재활성됩니다.",
+				"concise": "마법. (5...10초) 아군 언데드 10마리의 체력 재생을 10 증가시킵니다. 자신이 조종하는 언데드가 3마리 이하이면 즉시 재활성됩니다. 아군 언데들의 상태이상이 전부 자신에게 옮겨집니다."
+			},
+			"pl": {
+				"name": "Ofiara Veraty",
+				"description": "Czar. Przez 5...10 sek. twoje wskrzeszone sługi posiadają regenerację żywotności +10. Wszystkie przypadłości zostają z nich przeniesione na ciebie. Ten czar odnawia się natychmiastowo, jeżeli czar zadziałał, a ty dowodzisz 3 lub mniej sługami.",
+				"concise": "Czar. (5...10 sek.) Zaprzyjaźnieni nieumarli słudzy w liczbie 10 otrzymują regenerację żywotności +10. Natychmiast się odnawia, jeżeli władasz 3 lub mniej sługami. Przenosi wszystkie przypadłości z tych sług na ciebie."
+			},
+			"ru": {
+				"name": "Verata's Sacrifice",
+				"description": "Заклинание. На 5...10 сек скорость восстановления здоровья всех нежитей-союзников увеличивается на 10 ед. Все состояния снимаются с этих союзников и переносятся на вас. Если это заклинание было успешно применено, и вы контролируете не больше 3 нежитей, Verata's Sacrifice немедленно перезаряжается.",
+				"concise": "Заклинание. (5...10 сек) Союзные прислужники-нежить (10) получают +10 ед. к скорости восстановления здоровья. Немедленно перезаряжается, если вы контролируете не более 3 прислужников. Переносит все состояния с этих прислужников на вас."
+			},
+			"bork": {
+				"name": "Feraeta's Saecreeffeece-a",
+				"description": "Spell. Fur 5...10 secunds, yuoor undeaed aelleees gaeeen +10 Heaelt regeneraeshun. Aell cundeeshuns aere-a remufed frum thuse-a aelleees und trunsfferred tu yuoo. Iff thees spell is sooccessffool und yuoo haefe-a cuntrul ooff 3 oor fooer meeneeuns, Feraeta's Saecreeffeece-a instuntly rechaerges.",
+				"concise": "Spell. (5...10 secunds.) 10 undeaed aelleeed serfunts gaeeen +10 Heaelt regeneraeshun. Instuntly rechaerges iff yuoo haefe-a cuntrul ooff 3 oor fooer serfunts. Trunsffers aell cundeeshuns frum thuse-a serfunts tu yuoo."
 			}
 		}
 	}

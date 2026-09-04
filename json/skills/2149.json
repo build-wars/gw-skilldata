@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Weapon of Renewal",
+				"description": "武咒。 For 5...20 seconds, the next time target ally hits with an attack skill, that ally gains 1...7 Energy.",
+				"concise": "武咒。 (5...20 seconds.) Target ally gains 1...7 Energy the next time this ally hits with an attack skill."
+			},
+			"cht": {
+				"name": "再生武裝",
+				"description": "武裝魔法： 持續 5...20 秒，當下一次攻擊技能命中目標盟友時，該盟友獲得 1...7 能量。",
+				"concise": "武裝魔法： 持續 5...20 秒，當下一次攻擊技能命中目標盟友時，該盟友則獲得 1...7 能量。"
+			},
 			"de": {
+				"name": "Waffe der Erneuerung",
+				"description": "Waffenzauber. 5...20 Sekunde[n] lang erhält der Verbündete das nächste Mal, wenn er mit einer Angriffsfertigkeit trifft, 1...7 Energiepunkt[e].",
+				"concise": "Waffenzauber. 5...20 Sekunde[n]: Der Verbündete (bzw. Ihr selbst) erhält 1...7 Energiepunkt[e], wenn er das nächste Mal mit einer Angriffsfertigkeit trifft."
+			},
+			"de-guildwiki": {
 				"name": "Waffe der Erneuerung",
 				"description": "5...20 Sekunden lang erhält der Verbündete (bzw. Ihr selbst) das nächste Mal, wenn er mit einer Angriffsfertigkeit trifft, 1...7 Energiepunkte.",
 				"concise": "5...20 Sekunden: Der Verbündete (bzw. Ihr selbst) erhält 1...7 Energiepunkte, wenn er das nächste Mal mit einer Angriffsfertigkeit trifft."
 			},
 			"en": {
 				"name": "Weapon of Renewal",
+				"description": "Weapon Spell. For 5...20 seconds, the next time target ally hits with an attack skill, that ally gains 1...7 Energy.",
+				"concise": "Weapon Spell. (5...20 seconds.) Target ally gains 1...7 Energy the next time this ally hits with an attack skill."
+			},
+			"en-gww": {
+				"name": "Weapon of Renewal",
 				"description": "For 5...20 seconds, the next time target ally hits with an attack skill, that ally gains 1...7 Energy.",
 				"concise": "(5...20 seconds.) Target ally gains 1...7 Energy the next time this ally hits with an attack skill."
 			},
+			"es": {
+				"name": "Arma de renovación",
+				"description": "Conjuro con arma. Durante 5...20 segundos, la próxima vez que el objetivo (un aliado o tú mismo) golpee con una habilidad de ataque, recuperará 1...7 de energía.",
+				"concise": "Conjuro con arma. (5...20 segundos). El objetivo (un aliado o tú mismo) gana 1...7 de energía la próxima vez que golpee con una habilidad de ataque."
+			},
 			"fr": {
+				"name": "Arme du renouveau",
+				"description": "Sort d'altération d'arme. Pendant 5...20 secondes, la prochaine fois que la cible (allié ou vous-même) frappe avec une compétence d'attaque, elle reçoit 1...7 points d'énergie.",
+				"concise": "Sort d'altération d'arme. (5...20 secondes.) L'allié visé gagne 1...7 points d'énergie la prochaine fois qu'il réussit une compétence d'attaque."
+			},
+			"fr-gwiki": {
 				"name": "Arme du renouveau",
 				"description": "Pendant 5...20 secondes, la prochaine fois que la cible (allié ou vous-même) frappe avec une compétence d'attaque, elle reçoit 1...7 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma del Rinnovamento",
+				"description": "Magia Altera-arma. Per 5...20 secondo[i] la prossima volta che l'obiettivo alleato colpisce con un'abilità d'attacco, ottiene 1...7 Punto[i] Energia.",
+				"concise": "Magia Altera-arma. (Secondi: 5...20) Energia conseguita dall'obiettivo alleato la prossima volta che colpisce con un'abilità d'attacco: 1...7."
+			},
+			"jp": {
+				"name": "リニューアル ウェポン",
+				"description": "ウェポン スペル： 5...20 秒間、ターゲットした味方は、次にアタック スキルが成功すると 1...7 のエネルギーを獲得します。",
+				"concise": "ウェポン スペル： (5...20 秒) ターゲットした味方は、次にアタック スキルが成功すると 1...7 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "재생의 무기",
+				"description": "마법 무기. 5...20초 동안 대상 아군은 \"재생의 무기\" 효과를 얻습니다. 대상은 공격 스킬이 성공하면 1...7의 에너지를 얻습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "마법 무기. (5...20초) 대상 아군은 공격 스킬이 성공하면 1...7의 에너지를 얻습니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Oręż Odnowienia",
+				"description": "Czar z broni. Przez 5...20 sek., kiedy następnym razem wybrany sojusznik trafi używając umiejętności związanej z atakowaniem, otrzyma 1...7 pkt. energii.",
+				"concise": "Czar z broni. (5...20 sek.) Wybrany sojusznik otrzymuje 1...7 pkt. energii następnym razem, kiedy trafi jego umiejętność związana z atakami."
+			},
+			"ru": {
+				"name": "Weapon of Renewal",
+				"description": "Оружейное заклинание. В течение 5...20 сек в следующий раз, когда выбранный союзник будет поражен с помощью какого-либо атакующего умения, этот союзник получит 1...7 ед. энергии.",
+				"concise": "Оружейное заклинание. (5...20 сек) Выбранный союзник получает 1...7 ед. энергии в следующий раз, когда этот союзник успешно применит атакующее умение."
+			},
+			"bork": {
+				"name": "Veaepun ooff Renooael",
+				"description": "Veaepun Spell. Fur 5...20 secunds, zee next teeme-a taerget aelly heets veet un aettaeck skeell, thaet aelly gaeeens 1...7 Inergy.",
+				"concise": "Veaepun Spell. (5...20 secunds.) Taerget aelly gaeeens 1...7 Inergy zee next teeme-a thees aelly heets veet un aettaeck skeell."
 			}
 		}
 	}

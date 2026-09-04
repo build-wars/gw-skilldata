@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 16,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Signet of Pious Restraint",
+				"description": "纹章。 Lose one enchantment. Target foe is Crippled for 5...15 seconds. If an enchantment was removed, this signet recharges instantly.",
+				"concise": "纹章。 Inflicts Crippled condition (5...15 seconds). Remove one of your enchantments. Removal effect: instant recharge."
+			},
+			"cht": {
+				"name": "虔誠抑制紋章",
+				"description": "紋章： 使目標敵人殘廢 5...15 秒，移除自身一項神喚使加持，若移除成功，此技能回復速度加快 50% 。",
+				"concise": "紋章： 使目標敵人殘廢 5...15 秒，移除自身一項神喚使加持，若移除成功，此技能回復速度加快 50% 。"
+			},
 			"de": {
+				"name": "Siegel der frommen Zurückhaltung (PvP)",
+				"description": "Siegel. Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner 5...15 Sekunde[n] lang \"Verkrüppelung\" zu. Wenn eine Verzauberung entfernt wurde, lädt diese Fertigkeit 50% schneller wieder auf.",
+				"concise": "Siegel. (5...15 Sekunde[n].) Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner \"Verkrüppelung\" zu. Entfernungseffekt: 50% schnellere Aufladung der Fertigkeit."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der frommen Zurückhaltung (PvP)",
 				"description": "Ihr verliert 1 Derwisch-Verzauberung und fügt Eurem Gegner 5...15 Sekunden lang \"Verkrüppelung\" zu. Wenn eine Verzauberung entfernt wurde, lädt diese Fertigkeit 50% schneller wieder auf.",
 				"concise": "Verkrüppelt den Gegner (5...15 Sekunden) und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Lädt 50% schneller wieder auf."
 			},
 			"en": {
 				"name": "Signet of Pious Restraint (PvP)",
+				"description": "Signet. Lose 1 Dervish enchantment and Cripple target foe 5...15 seconds. If an enchantment was removed, this skill recharges 50% faster.",
+				"concise": "Signet. (5...15 seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 50% faster."
+			},
+			"en-gww": {
+				"name": "Signet of Pious Restraint (PvP)",
 				"description": "Lose 1 Dervish enchantment and Cripple target foe 5...15 seconds. If an enchantment was removed, this skill recharges 50% faster.",
 				"concise": "(5...15 seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 50% faster."
 			},
+			"es": {
+				"name": "Sello de retención piadosa (PvP)",
+				"description": "Sello. Pierdes un encantamiento de Derviche y el enemigo objetivo queda lisiado durante 5...15 segundos. Si se quitó un encantamiento, esta habilidad se recarga un 50% más rápido.",
+				"concise": "Sello. (5...15 segundos.) Causa lisiadura en el enemigo objetivo y elimina uno de tus encantamientos de Derviche. Efecto de eliminación: se recarga un 50% más rápido."
+			},
 			"fr": {
+				"name": "Sceau de contrainte pieuse (PvP)",
+				"description": "Sceau. Perte d'un enchantement de Derviche et l'ennemi ciblé est frappé d'infirmité pendant 5...15 secondes. En cas de perte d'enchantement, cette compétence se recharge 50% plus vite.",
+				"concise": "Sceau. (5...15 secondes.) Inflige l'Infirmité à l'ennemi ciblé et lève 1 de vos enchantements de Derviche. Effet de la suppression : rechargement 50% plus rapide."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de contrainte pieuse (PvP)",
 				"description": "Vous perdez un enchantement de Derviche et la cible ennemie est frappée d'Infirmité pendant 5...15 secondes. Si un enchantement a été supprimé, cette compétence se recharge 75% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Ritegno Pio (PvP)",
+				"description": "Sigillo. Perdi 1 Incantesimo del Derviscio e provochi Storpiatura all'obiettivo nemico per 5...15 secondi. Se un incantesimo è stato rimosso, la tua abilità si ricarica più velocemente del 50%.",
+				"concise": "Sigillo. (Secondi: 5...15). Condizione inflitta all'obiettivo nemico: Storpiatura e rimuove 1 dei tuoi Incantesimi del Derviscio. Effetto della rimozione: ricarica più veloce del 50%."
+			},
+			"jp": {
+				"name": "パイアス リストレイント シグネット (PvP)",
+				"description": "シグネット： ダルウィーシュの強化スペルを1個解除し、ターゲットした敵を 5...15 秒間「不自由」状態にします。強化スペルを解除すると、このスキルの再使用時間が 50% 減少します。",
+				"concise": "シグネット： (5...15 秒)ターゲットした敵を「不自由」状態にし、プレイヤーにかけられているダルウィーシュの強化スペルを1個解除します。解除効果：再使用時間が 50% 減少します。"
+			},
+			"kr": {
+				"name": "경건한 속박 인장(대인전)",
+				"description": "인장. 대상 지정: 적. 대상을 5...15초 동안 다리 부상 상태로 만들고, 자신은 더비시 강화 마법 하나를 잃습니다. 이렇게 강화 마법이 무효화되면 이 인장의 재활성이 50% 빨라집니다.",
+				"concise": "인장. (5...15초) 다리부상을 입히고, 자신에게 걸려 있는 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 재활성이 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Sygnet Nabożnej Powściągliwości (PvP)",
+				"description": "Sygnet. Tracisz 1 zaklęcie derwisza i powodujesz okulawienie wybranego wroga na 5...15 sek. Jeśli zaklęcie zostanie usunięte, ta umiejętność odnowi się 50% szybciej.",
+				"concise": "Sygnet. (5...15 sek.) Okulawia wybranego wroga i usuwa 1 z twoich zaklęć derwisza. Efekt usunięcia: Odnawia się 50% szybciej."
+			},
+			"ru": {
+				"name": "Signet of Pious Restraint (PvP)",
+				"description": "Печать. Вы теряете 1 чары профессии Dervish. Выбранный противник будет хромать в течение 5...15 сек. Если чары были успешно сняты, эта печать будет перезаряжена на 50% быстрее.",
+				"concise": "Печать. Вызывает хромоту (5...15 сек) у выбранного противника и снимает с вас 1 чары профессии Dervish. Эффект снятия: перезаряжается на 50% быстрее."
+			},
+			"bork": {
+				"name": "Seegnet ooff Peeuoos Restraeeent (PfP)",
+				"description": "Seegnet. Luse-a 1 Derfeesh inchuntment und Creepple-a taerget fue-a 5...15 secunds. Iff un inchuntment vaes remufed, thees skeell rechaerges 50% faester.",
+				"concise": "Seegnet. (5...15 secunds.) Creepples taerget fue-a und remufes 1 ooff yuoor Derfeesh inchuntments. Remufael iffffect: rechaerges 50% faester."
 			}
 		}
 	}

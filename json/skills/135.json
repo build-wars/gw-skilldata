@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "懦弱",
+				"description": "负面魔法。 使目标敌人在接下来的4...18秒之内，攻击速度降低50%，同时遭受 1...3点「生命衰减」。",
+				"concise": "负面魔法。 使目标敌人在接下来的4...18秒之内，攻击速度降低50%，同时遭受1...3点「生命衰减」。"
+			},
+			"cht": {
+				"name": "懦弱",
+				"description": "降咒魔法： 使目標敵人在接下來的 4...18 秒內，其攻擊速度降低 50% 並且遭受體力衰減 1...3 。",
+				"concise": "降咒魔法： 使目標敵人在接下來的 4...18 秒內，其攻擊速度降低 50% 並且遭受體力衰減 1...3 。"
+			},
 			"de": {
+				"name": "Mutlosigkeit",
+				"description": "Verhexung. Während der nächsten 4...18 Sekunde[n] greift der Gegner um 50% langsamer an und er unterliegt einer Lebenspunktdegeneration von -1...3.",
+				"concise": "Verhexung. 4...18 Sekunde[n]: Gegner greift um 50% langsamer an und hat -1...3 Lebenspunktdegeneration."
+			},
+			"de-guildwiki": {
 				"name": "Mutlosigkeit",
 				"description": "Während der nächsten 4...18 Sekunden greift der Gegner um 50% langsamer an und unterliegt einer Lebenspunktdegeneration von -1...3.",
 				"concise": "4...18 Sekunden: Gegner greift um 50% langsamer an und hat -1...3 Lebenspunktdegeneration."
 			},
 			"en": {
 				"name": "Faintheartedness",
+				"description": "Hex Spell. For the next 4...18 seconds, target foe attacks 50% slower, and that foe suffers -1...3 Health degeneration.",
+				"concise": "Hex Spell. (4...18 seconds.) Target foe attacks 50% slower and has -1...3 Health degeneration."
+			},
+			"en-gww": {
+				"name": "Faintheartedness",
 				"description": "For the next 4...18 seconds, target foe attacks 50% slower, and that foe suffers -1...3 Health degeneration.",
 				"concise": "(4...18 seconds.) Target foe attacks 50% slower and has -1...3 Health degeneration."
 			},
+			"es": {
+				"name": "Miedo visceral",
+				"description": "Conjuro con maleficio. Durante los próximos 4...18 segundos, la velocidad de ataque del enemigo objetivo se reduce en un 50% y ese enemigo sufrirá una degeneración de salud de -1...3.",
+				"concise": "Conjuro con maleficio. (4...18 segundos). El enemigo objetivo ataca un 50% más lento y tiene -1...3 de degeneración de salud."
+			},
 			"fr": {
+				"name": "Appréhension",
+				"description": "Maléfice. Pendant 4...18 secondes, la vitesse d'attaque de l'ennemi est réduite de 50% et il subit une dégénération de santé de -1...3.",
+				"concise": "Maléfice. (4...18 secondes.) L'ennemi visé attaque 50% moins vite et subit une dégénération de santé de -1...3."
+			},
+			"fr-gwiki": {
 				"name": "Appréhension",
 				"description": "Pendant 3...17 secondes, la vitesse d'attaque de l'ennemi est réduite de 50% et il subit une dégénération de santé de -0...3.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Codardia",
+				"description": "Fattura. Per 4...18 secondo[i] la velocità d'attacco dell'obiettivo nemico rallenta del 50% e quel nemico subisce una Degenerazione della Salute di -1...3.",
+				"concise": "Fattura. (Secondi: 4...18) Rallentamento velocità d'attacco dell'obiettivo nemico: 50%. Degenerazione sua Salute: -1...3."
+			},
+			"jp": {
+				"name": "フェイントハート",
+				"description": "弱体化スペル： 4...18 秒間、ターゲットした敵は攻撃速度が50%、体力の自然回復力が 1...3 減少します。",
+				"concise": "弱体化スペル： (4...18 秒) ターゲットした敵は攻撃速度が50%、体力の自然回復力が 1...3 減少します。"
+			},
+			"kr": {
+				"name": "공포의 족쇄",
+				"description": "약화 마법. 대상 지정: 적. 4...18초 동안 대상의 공격 속도가 50% 느려지고, 체력 재생이 1...3만큼 감소합니다.",
+				"concise": "약화 마법. (4...18초) 공격 속도가 50% 느려지고, 체력 재생이 1...3 감소합니다."
+			},
+			"pl": {
+				"name": "Lękliwość",
+				"description": "Klątwa (czar). Przez 4...18 sek., wybrany przeciwnik atakuje 50% wolniej oraz cierpi -1...3 degeneracji żywotności.",
+				"concise": "Klątwa (czar). (4...18 sek.) Wybrany przeciwnik atakuje o 50% wolniej i posiada degenerację żywotności -1...3."
+			},
+			"ru": {
+				"name": "Faintheartedness",
+				"description": "Заклинание-проклятье. В течение следующих 4...18 сек выбранный противник атакует на 50% медленнее, а его скорость восстановления здоровья уменьшается на 1...3 ед.",
+				"concise": "Заклинание-проклятье. (4...18 сек) Выбранный противник атакует на 50% медленнее и получает -1...3 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Faeeenzeeaertedness",
+				"description": "Hex Spell. Fur zee next 4...18 secunds, taerget fue-a aettaecks 50% slooer, und thaet fue-a sooffffers -1...3 Heaelt degeneraeshun.",
+				"concise": "Hex Spell. (4...18 secunds.) Taerget fue-a aettaecks 50% slooer und haes -1...3 Heaelt degeneraeshun."
 			}
 		}
 	}

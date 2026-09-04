@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "燃烧的尾音",
+				"description": "回音技。 在10...35秒之内，当「战吼」或「圣歌」在「非灵体」的目标盟友身上消失时，所有邻近该盟友的敌人将遭受「灼烧」症状1...5秒。",
+				"concise": "回音技。 在10...35秒之内，当「战吼」或「圣歌」在「非灵体」的目标盟友身上消失时，所有邻近该盟友的敌人将遭受「灼烧」症状1...5秒。"
+			},
+			"cht": {
+				"name": "熾燃樂章 (PvP)",
+				"description": "迴響： 持續 10...35 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，所有鄰近該盟友的敵人將遭受「著火」病症 1...5 秒。",
+				"concise": "迴響： 持續 10...35 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，所有鄰近該盟友的敵人將遭受「著火」病症 1...5 秒。"
+			},
 			"de": {
+				"name": "Loderndes Finale (PvP)",
+				"description": "Echo. 10...35 Sekunde[n] lang werden jedes Mal, wenn ein auf einen Nicht-Geister-Verbündeten gerichteter Anfeuerungsruf oder Schrei endet, alle diesen Verbündeten umstehenden Feinde 1...5 Sekunde[n] lang in Brand gesetzt.",
+				"concise": "Echo. (10...35 Sekunde[n].) Verursacht bei umstehenden Feinden jedes Mal Zustand Brennen (1...5 Sekunde[n]), wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Loderndes Finale (PvP)",
 				"description": "10...35 Sekunden lang werden jedes Mal, wenn ein auf den Nicht-Geister-Verbündeten (bzw. Euch selbst) gerichteter Anfeuerungsruf oder Schrei endet, alle diesen Verbündeten umstehenden Feinde 1...5 Sekunden lang in Brand gesetzt.",
 				"concise": "10...35 Sekunden: Verursacht bei umstehenden Feinden jedes Mal Zustand Brennen (1...5 Sekunden), wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten (bzw. Euch selbst) endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Blazing Finale (PvP)",
+				"description": "Echo. For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, all foes adjacent to that ally are set on Fire for 1...5 seconds.",
+				"concise": "Echo. (10...35 seconds.) Inflicts Burning condition (1...5 seconds) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Blazing Finale (PvP)",
 				"description": "For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, all foes adjacent to that ally are set on Fire for 1...5 second[s].",
 				"concise": "(10...35 seconds.) Inflicts Burning condition (1...5 second[s]) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits."
 			},
+			"es": {
+				"name": "Cierre llameante (PvP)",
+				"description": "Eco. Durante 10...35 segundos, cada vez que un grito o cántico alcance al aliado no espíritu objetivo, todos los enemigos adyacentes a él arderán durante 1...5 segundos.",
+				"concise": "Eco. (10...35 segundos.) Causa quemadura (1...5 segundos) a los enemigos adyacentes cada vez que los efectos de un cántico o grito alcanzan al aliado objetivo. No puedes apuntar a los espíritus."
+			},
 			"fr": {
+				"name": "Finale enflammé (PvP)",
+				"description": "Echo. Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur la cible (autre qu'un esprit) prend fin, tous les ennemis adjacents à cette cible s'embrasent pendant 1...5 secondes.",
+				"concise": "Echo. (10...35 secondes.) Inflige la Brûlure (1...5 secondes) aux ennemis adjacents chaque fois qu'un chant ou un cri affectant l'allié visé prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Finale enflammé (PvP)",
 				"description": "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur la cible (autre qu'un esprit) prend fin, tous les ennemis adjacents à cette cible s'embrasent pendant 1...3 seconde(s).",
 				"concise": "(10...35 secondes.) Inflige la Brûlure (1...3 seconde(s)) aux ennemis adjacents chaque fois qu'un chant ou un cri affectant l'allié visé prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+			},
+			"it": {
+				"name": "Finale Ardente (PvP)",
+				"description": "Eco. Dura 10...35 secondi; ogni volta che un canto o un urlo termina sull'obiettivo alleato (spiriti esclusi) tutti i nemici adiacenti a quell'alleato prendono fuoco per 1...5 secondi.",
+				"concise": "Eco. (Secondi: 10...35). Condizione inflitta ai nemici adiacenti ogni volta che un canto o urlo termina sull'obiettivo alleato: Bruciatura (1...5 secondi). Impossibile selezionare gli spiriti."
+			},
+			"jp": {
+				"name": "ブレイズ フィナーレ (PvP)",
+				"description": "エコー： 10...35 秒間、ターゲットした精霊以外の味方にかけられたチャントやシャウトの効果が消失するたびに、その味方に隣接するすべての敵は 1...5 秒間「火傷」状態になります。",
+				"concise": "エコー： (10...35 秒) ターゲットした味方にかけられているチャントやシャウトの効果が消失するたびに、隣接する敵を「火傷」状態にします (1...5 秒) 。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "화염의 피날레(대인전)",
+				"description": "공명. 대상 지정: 아군. 10...35초 동안 영혼이 아닌 대상에 걸린 고함이나 영창이 끝날 때마다 대상에 인접한 모든 적은 1...5초 동안 화상 상태가 됩니다.",
+				"concise": "공명. (10...35초) 대상 아군에 걸린 고함이나 영창이 끝날 때마다 대상에 인접한 적들은 화상을 입습니다.(1...5초) 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Ognisty Finał (PvP)",
+				"description": "Echo. Przez 10...35 sek., za każdym razem, kiedy zaśpiew lub okrzyk przestaną działać na wybranym sojuszniku nie-duchu, wszyscy przeciwnicy bezpośrednio przy tym sojuszniku zaczną płonąć przez 1...5 sek.",
+				"concise": "Echo. (10...35 sek.) U przeciwników w bezpośredniej odległości wywołuje przypadłość płonięcie (1...5 sek.), za każdym razem, kiedy zaśpiew lub okrzyk przestanie działać na wybranym sojuszniku. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Blazing Finale (PvP)",
+				"description": "Эхо. В течение 10...35 сек каждый раз, когда заканчивает свое действие хорал или крик, влияющий на выбранного союзника, не являющегося духом, все окружающие этого союзника противники загораются на 1...5 сек.",
+				"concise": "Эхо. (10...35 сек) Поджигает (1...5 сек) окружающих противников каждый раз, когда заканчивается действие хорала или крика, влияющего на выбранного союзника. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Blaezeeng Feenaele-a (PfP)",
+				"description": "Ichu. Fur 10...35 secunds, vhenefer a chunt oor shuoot inds oon taerget nun-spureet aelly, aell fues aedjaecent tu thaet aelly aere-a set oon Fure-a fur 1...5 secunds.",
+				"concise": "Ichu. (10...35 secunds.) Inffleects Boorneeng cundeeshun (1...5 secunds) tu aedjaecent fues vhenefer a chunt oor shuoot inds oon taerget aelly. Cunnut taerget spureets."
 			}
 		}
 	}

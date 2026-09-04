@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "玻璃箭",
+				"description": "精英预备技。 持续 10...35 秒，命中时对目标造成 6...18 额外伤害。如果被目标格挡，则造成其遭受「流血」症状 10...20 秒。",
+				"concise": "精英预备技。 持续 10...35 秒，命中时对目标造成 6...18 额外伤害。如果被目标格挡，则造成其遭受「流血」症状 10...20 秒。"
+			},
+			"cht": {
+				"name": "玻璃箭",
+				"description": "精英準備技能： 持續 10...35 秒，命中時對目標造成 6...18 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 10...20 秒。",
+				"concise": "精英準備技能： 持續 10...35 秒，命中時對目標造成 6...18 額外傷害。若被目標「格擋」，則造成其遭受「流血」病症 10...20 秒。"
+			},
 			"de": {
+				"name": "Glaspfeile (PvP)",
+				"description": "Elite-Vorbereitung. Während der nächsten 10...35 Sekunde[n] fügen Eure Pfeile bei einem Treffer +6...18 Punkt[e] Schaden zu und führen 10...20 Sekunde[n] lang zu einer Blutung, wenn sie geblockt werden.",
+				"concise": "Elite-Vorbereitung. (10...35 Sekunde[n].) Eure Pfeile richten +6...18 Punkt[e] Schaden an. Verursacht Zustand Blutung (10...20 Sekunde[n]), falls geblockt."
+			},
+			"de-guildwiki": {
 				"name": "Glaspfeile (PvP)",
 				"description": "Während der nächsten 10...35 Sekunden fügen Eure Pfeile bei einem Treffer +6...18 Punkte Schaden zu und führen 10...20 Sekunden lang zu einer Blutung, wenn sie geblockt werden.",
 				"concise": "10...35 Sekunden: Eure Pfeile richten +6...18 Punkte Schaden an. Verursacht Zustand Blutung (10...20 Sekunden), falls geblockt."
 			},
 			"en": {
 				"name": "Glass Arrows (PvP)",
+				"description": "Elite Preparation. For 10...35 seconds, your arrows strike for +6...18 damage if they hit and cause Bleeding for 10...20 seconds if they are Blocked.",
+				"concise": "Elite Preparation. (10...35 seconds.) Your arrows deal +6...18 damage. Inflicts Bleeding condition if blocked (10...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Glass Arrows (PvP)",
 				"description": "For 10...35 seconds, your arrows strike for +6...18 damage if they hit and cause Bleeding for 10...20 seconds if they are blocked.",
 				"concise": "(10...35 seconds.) Your arrows deal +6...18 damage. Inflicts Bleeding condition if blocked (10...20 seconds)."
 			},
+			"es": {
+				"name": "Flechas de cristal (PvP)",
+				"description": "Preparación[\"Preparaciones\"] de élite. Durante 10...35 segundos, tus flechas hacen +6...18 de daño y causan hemorragia durante 10...20 segundos si las bloquean.",
+				"concise": "Preparación[\"Preparaciones\"] de élite. (10...35 segundos.) Tus flechas hacen +6...18 de daño. Causan hemorragia si se bloquean (10...20 segundos)."
+			},
 			"fr": {
+				"name": "Flèches de verre (PvP)",
+				"description": "Préparation d'élite. Pendant 10...35 secondes, vos flèches infligent +6...18 points de dégâts si elles touchent leur objectif, et entraînent le Saignement pendant 10...20 secondes si elles sont bloquées.",
+				"concise": "Préparation d'élite. (10...35 secondes.) Vos flèches infligent +6...18 points de dégâts. Provoque le Saignement si elles sont bloquées (10...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Flèches de verre (PvP)",
 				"description": "Pendant 10...35 secondes, vos flèches infligent +6...18 points de dégâts si elles touchent leur objectif, et entraînent le Saignement pendant 10...20 secondes si elles sont bloquées.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Frecce di Vetro (PvP)",
+				"description": "Preparazione d'Élite. Per 10...35 secondi le tue frecce infliggono +6...18 di danni se vanno a segno e provocano Emorragia per 10...20 secondi se vengono bloccate.",
+				"concise": "Preparazione d'Élite. (Secondi: 10...35) Danni inferti con le frecce: +6...18. Condizione inflitta se vengono bloccate: Emorragia (10...20 secondi)."
+			},
+			"jp": {
+				"name": "グラス アロー (PvP)",
+				"description": "エリート プレパレーション： 10...35 秒間、弓攻撃が成功すると 6...18 の追加ダメージを与えます。ブロックされた場合、その敵を 10...20 秒間「出血」状態にします。",
+				"concise": "エリート プレパレーション： (10...35 秒) 弓攻撃で 6...18 の追加ダメージを与えます。攻撃がブロックされると、「出血」状態にします (10...20 秒)。"
+			},
+			"kr": {
+				"name": "유리 화살(대인전)",
+				"description": "엘리트 준비. 대상 지정: 없음. 10...35초 동안 화살이 명중하면 적에게 6...18의 추가 대미지를 줍니다. 적이 화살을 막아내면 그 적은 10...20초 동안 출혈 상태가 됩니다.",
+				"concise": "엘리트 준비. (10...35초) 화살이 명중하면 6...18의 대미지를 추가로 줍니다. 화살을 막으면 출혈을 일으키게 합니다.(10...20초)"
+			},
+			"pl": {
+				"name": "Szklane Strzały (PvP)",
+				"description": "Elitarne przygotowanie. Przez 10...35 sek., twoje strzały po trafieniu zadają +6...18 pkt. obrażeń, a jeśli zostaną zablokowane, to powodują, że na 10...20 sek. cel zaczyna krwawić.",
+				"concise": "Elitarne przygotowanie. (10...35 sek.) Twoje strzały zadają +6...18 pkt. obrażeń. Wywołuje przypadłość krwawienie (10...20 sek.), jeżeli zostanie zablokowana."
+			},
+			"ru": {
+				"name": "Glass Arrows (PvP)",
+				"description": "Элитная подготовка. В течение 10...35 сек ваши стрелы наносят дополнительно 6...18 ед. урона при попадании, а если они будут блокированы, то они вызовут у противника кровотечение на 10...20 сек.",
+				"concise": "Элитная подготовка. (10...35 сек) Ваши стрелы наносят дополнительно 6...18 ед. урона. Вызывают кровотечение (10...20 сек), если будут блокированы."
+			},
+			"bork": {
+				"name": "Glaess Aerroos (PfP)",
+				"description": "Ileete-a Prepaeraeshun. Fur 10...35 secunds, yuoor aerroos streeke-a fur +6...18 daemaege-a iff zeey heet und coose-a Bleedeeng fur 10...20 secunds iff zeey aere-a Blucked.",
+				"concise": "Ileete-a Prepaeraeshun. (10...35 secunds.) Yuoor aerroos deael +6...18 daemaege-a. Inffleects Bleedeeng cundeeshun iff blucked (10...20 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "莫里诺之力",
+				"description": "物品法术。 最多能够持有 15...60 秒，当你持有莫里诺的骨灰时，你提高 15 护甲及 30 能量上限 。",
+				"concise": "物品法术。 最多能够持有 15...60 秒，当你持有莫里诺的骨灰时，你提高 15 护甲及 30 能量上限 。"
+			},
+			"cht": {
+				"name": "萬能者莫里諾",
+				"description": "抱持魔法： 最多能夠抱持 15...60 秒，當你抱持莫里諾的骨灰時，你增加 15 防禦及 30 能量上限 。",
+				"concise": "抱持魔法： 最多能夠抱持 15...60 秒，當你抱持莫里諾的骨灰時，你增加 15 防禦及 30 能量上限 。"
+			},
 			"de": {
+				"name": "Mächtig war Vorizun",
+				"description": "Gegenstandszauber. Haltet Vorizuns Asche bis zu 15...60 Sekunde[n] lang. Während Ihr seine Asche haltet, erhaltet Ihr +15 Rüstung und +30 Punkte maximale Energie.",
+				"concise": "Gegenstandszauber. 15...60 Sekunde[n]: Ihr habt +15 Rüstung und +30 maximale Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Mächtig war Vorizun",
 				"description": "Haltet Vorizuns Asche bis zu 15...60 Sekunden lang. Während Ihr seine Asche haltet, erhaltet Ihr +15 Rüstung und +30 Punkte maximale Energie.",
 				"concise": "15...60 Sekunden: Ihr habt +15 Rüstung und +30 Punkte maximale Energiepunkte"
 			},
 			"en": {
 				"name": "Mighty Was Vorizun",
+				"description": "Item Spell. Hold Vorizun's ashes for up to 15...60 seconds. While you hold his ashes, you gain +15 armor and +30 maximum Energy.",
+				"concise": "Item Spell. (15...60 seconds.) You have +15 armor and +30 maximum Energy."
+			},
+			"en-gww": {
+				"name": "Mighty Was Vorizun",
 				"description": "Hold Vorizun's ashes for up to 15...60 seconds. While you hold his ashes, you gain +15 armor and +30 maximum Energy.",
 				"concise": "(15...60 seconds.) You have +15 armor and +30 maximum Energy."
 			},
+			"es": {
+				"name": "Bendito sea Vorizun",
+				"description": "Conjuro con objeto. Llevas las cenizas de Vorizun durante 15...60 segundos. Mientras, ganarás +15 de armadura y +30 de energía máxima.",
+				"concise": "Conjuro con objeto. (15...60 segundos). Ganas +15 de armadura y +30 de energía máxima."
+			},
 			"fr": {
+				"name": "Vorizon était puissant",
+				"description": "Sort d'altération d'objet. Vous tenez ses cendres jusqu'à un maximum de 15...60 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de +15 et d'un maximum d'énergie de +30.",
+				"concise": "Sort d'altération d'objet. (15...60 secondes.) Vous bénéficiez d'un bonus d'armure de +15 et de +30 d'énergie maximum."
+			},
+			"fr-gwiki": {
 				"name": "Vorizon était puissant",
 				"description": "Vous tenez ses cendres jusqu'à un maximum de 15...60 secondes. Pendant ce temps, vous bénéficiez d'un bonus d'armure de +15 et d'un maximum d'énergie de +30.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vorizun era Potente",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Vorizun per un massimo di 15...60 secondo[i]; mentre le mantieni ottieni +15 di armatura e +30 di Energia massima.",
+				"concise": "Magia Altera-oggetto. (Secondi: 15...60) Armatura: +15. Energia massima: +30."
+			},
+			"jp": {
+				"name": "ヴォリズン マイティ",
+				"description": "アイテム スペル： 最大 15...60 秒間、ヴォリズンの遺灰を持ちます。その間、防御力が 15、エネルギーの上限が 30 増加します。",
+				"concise": "アイテム スペル： (15...60 秒) 防御力が 15、エネルギーの上限が 30 増加します。"
+			},
+			"kr": {
+				"name": "보리준의 강인함",
+				"description": "드롭아이템. 대상 지정: 없음. 15...60초 동안 유지되는 보리준의 마력석을 만듭니다. 보리준의 마력석을 들고 있는 동안 자신의 방어력이 15 증가하고, 최대 에너지가 30 증가합니다.",
+				"concise": "드롭아이템. (15...60초) 방어력이 15, 최대 에너지가 30 증가합니다."
+			},
+			"pl": {
+				"name": "Potężnym Był Vorizun",
+				"description": "Czar z przedmiotu. Trzymaj prochy Vorizuna przez maksymalnie 15...60 sek. Trzymając jego prochy, zyskujesz +15 pkt. pancerza oraz zwiększasz maksimum pkt. energii o 30.",
+				"concise": "Czar z przedmiotu. (15...60 sek.) Posiadasz +15 pkt. pancerza, a twoja maksymalna energia zwiększa się o +30 pkt."
+			},
+			"ru": {
+				"name": "Mighty Was Vorizun",
+				"description": "Артефактное заклинание. Вы держите прах Vorizun до 15...60 сек. До тех пор, пока вы держите его прах, ваша защита увеличивается на 15 ед., а ваш максимальный запас энергии увеличивается на 30 ед.",
+				"concise": "Артефактное заклинание. (15...60 сек) Вы получаете +15 ед. к защите и +30 ед. к максимальному уровню энергии."
+			},
+			"bork": {
+				"name": "Meeghty Vaes Fureezoon",
+				"description": "Item Spell. Huld Fureezoon's aeshes fur up tu 15...60 secunds. Vheele-a yuoo huld hees aeshes, yuoo gaeeen +15 aermur und +30 maexeemoom Inergy.",
+				"concise": "Item Spell. (15...60 secunds.) Yuoo haefe-a +15 aermur und +30 maexeemoom Inergy."
 			}
 		}
 	}

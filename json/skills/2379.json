@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Volfen Blessing",
+				"description": "精英形态。 You take on the aspect of the wolf. Your Energy returns to maximum and you have -60 Energy degeneration. You have +660...700 maximum Health and +2...4 Health regeneration. All enchantments upon you are removed. Wolf attacks replace your skills. You gain Energy every time you take or deal damage. This skill ends when your Energy drops to 0.",
+				"concise": "精英形态。 Lose all your enchantments. You take on the aspect of the wolf. Your Energy returns to maximum and you have -60 Energy degeneration. You have +660...700 maximum health and +2...4 Health regeneration. Wolf attacks replace your skills. You gain Energy every time you take or deal damage. Ends when your Energy drops to 0."
+			},
+			"cht": {
+				"name": "沃芬賜福",
+				"description": "精英型態： 精英型態60秒)：化身為狼的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至660...700且體力再生增加2...4，你的所有屬性將歸零且技能被狼技能所取代。",
+				"concise": "精英型態： 精英型態60秒)：化身為狼的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至660...700且體力再生增加2...4，你的所有屬性將歸零且技能被狼技能所取代。"
+			},
 			"de": {
+				"name": "Segen des Wolfes",
+				"description": "Elite-Form. Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an. 60 Sekunde[n] lang habt Ihr 80 Rüstung, 660...700 Lebenspunkt[e] und 2...4 Lebenspunktregeneration. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Wolfsangriffe ersetzt.",
+				"concise": "Elite-Form. Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an (60 Sekunde[n]). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Wolfsangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkt[e] und 2...4 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Segen des Wolfes",
 				"description": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an. 60 Sekunden lang habt Ihr 80 Rüstung, 660...700 Lebenspunkte und +2...4 Lebenspunktregeneration. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Wolfsangriffe ersetzt.",
 				"concise": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Wolfes an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Wolfsangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkte und +2...4 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Volfen Blessing",
+				"description": "Elite Form. You lose all effects and take on the aspect of the wolf. For 60 seconds, you have 80 armor, 660...700 Health, and 2...4 Health regeneration. All your attributes are set to 0 and wolf attacks replace your skills.",
+				"concise": "Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, 660...700 Health, and 2...4 Health regeneration."
+			},
+			"en-gww": {
+				"name": "Volfen Blessing",
 				"description": "You lose all effects and take on the aspect of the wolf. For 60 seconds, you have 80 armor, 660...700 Health, and 2...4 Health regeneration. All your attributes are set to 0 and wolf attacks replace your skills.",
 				"concise": "You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, 660...700 Health and 2...4 Health regeneration."
 			},
+			"es": {
+				"name": "Bendición del lobo",
+				"description": "Transformación[\"Transformaciones\"] de élite. Pierdes todos tus efectos y adoptas el aspecto del lobo. Durante 60 segundos, tienes 80 de armadura, 660...700 de salud y 2...4 de regeneración de salud. Todos tus atributos bajan a 0 y tus habilidades son reemplazadas por las del lobo.",
+				"concise": "Transformación[\"Transformaciones\"] de élite. Pierdes todos tus efectos y adoptas el aspecto del lobo (60 segundos). Todos tus atributos bajan a 0 y tus habilidades son reemplazadas por las del lobo. Tienes 80 de armadura, 660...700 de salud y 2...4 de regeneración de salud."
+			},
 			"fr": {
+				"name": "Bénédiction du loup",
+				"description": "Transformation d'élite. Vous perdez tous les effets et prenez l'apparence d'un loup. Pendant 60 secondes, vous avez 80 points d'armure, 660...700 points de vie et une régénération de santé de 2...4. Toutes vos caractéristiques se remettent à 0 et les attaques du loup remplacent vos compétences.",
+				"concise": "Transformation d'élite. Vous perdez tous les effets et prenez l'apparence d'un loup (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques du loup remplacent vos compétences et vous avez 80 points d'armure, 660...700 points de vie et une régénération de santé de 2...4."
+			},
+			"fr-gwiki": {
 				"name": "Bénédiction du loup",
 				"description": "Vous perdez tous les effets et prenez l'apparence d'un loup. Pendant 60 secondes, vous avez 80 points d'armure, 660...700 points de vie et une régénération de santé de 1...4. Toutes vos caractéristiques se remettent à 0 et les attaques du loup remplacent vos compétences.",
 				"concise": "Vous perdez tous les effets et prenez l'apparence d'un loup (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques du loup remplacent vos compétences et vous avez 80 points d'armure, 660...700 points de vie et une régénération de santé de 1...4."
+			},
+			"it": {
+				"name": "Benedizione Lupesca",
+				"description": "Forma d'Élite. Perdi tutti gli effetti e assumi le sembianze del lupo. Per 60 secondo[i], hai 80 di armatura, 660...700 Punto[i] Salute e una Rigenerazione Salute di 2...4. Il grado di tutti i tuoi attributi scende a 0 e gli attacchi del lupo si sostituiscono alle tue abilità.",
+				"concise": "Forma d'Élite. Perdi tutti gli effetti e assumi le sembianze del lupo (60 secondo[i]). Il grado di tutti i tuoi attributi scende a 0 e gli attacchi del lupo si sostituiscono alle tue abilità. Armatura: 80. Salute: 660...700. Rigenerazione Salute: 2...4."
+			},
+			"jp": {
+				"name": "ヴォルフェン ブレス",
+				"description": "エリート フォーム： かけられている効果を解除してオオカミの化身となります。60 秒間、防御力が80、体力の上限が 660...700 になり、体力の自然回復力が 2...4 増加します。特性レベルがすべて0になり、装備しているスキルがすべてウルフ アタックになります。",
+				"concise": "エリート フォーム： かけられている効果を解除してオオカミの化身となります (60 秒) 。特性レベルがすべて0に、装備しているスキルがウルフ アタックになります。また、防御力が80、体力の上限が 660...700 となり、体力の自然回復力が 2...4 増加します。"
+			},
+			"kr": {
+				"name": "볼펜의 축복",
+				"description": "엘리트 형상. 몸에 걸린 모든 효과가 사라지고 늑대의 형상을 취합니다. 60초 동안 체력이 660...700, 방어력이 80이 되고, 체력 재생이 2...4[이가] 됩니다. 특성 레벨이 모두 0이 되고, 스킬이 볼펜의 공격 스킬로 바뀝니다.",
+				"concise": "엘리트 형상. 몸에 걸린 모든 효과가 사라지고 늑대의 형상을 취합니다.(60초) 특성 레벨이 모두 0이 되고, 스킬이 볼펜의 공격 스킬로 바뀝니다. 체력이 660...700, 방어력이 80, 체력 재생이 2...4[이가] 됩니다."
+			},
+			"pl": {
+				"name": "Błogosławieństwo Wilka",
+				"description": "Elitarna forma. Tracisz wszystkie efekty i znajdujesz się pod wpływem aspektu wilka. Przez 60 sek. posiadasz 80 pkt. pancerza, 660...700 pkt. żywotności oraz regenerację żywotności 2...4. Wszystkie twoje atrybuty mają wartość 0, a umiejętności zamieniane są na ataki wilka.",
+				"concise": "Elitarna forma. Tracisz wszystkie efekty i znajdujesz się pod wpływem aspektu wilka (60 sek.). Wszystkie twoje atrybuty mają wartość 0, a umiejętności zamieniane są na ataki wilka. Posiadasz 80 pkt. pancerza, 660...700 pkt. żywotności oraz regenerację żywotności 2...4."
+			},
+			"ru": {
+				"name": "Volfen Blessing",
+				"description": "Элитный образ. С вас снимаются все эффекты, и вы принимаете вид волка. В течение 60 сек ваша защита равна 80 ед., ваше здоровье равно 660...700 ед., а ваша скорость восстановления здоровья равна 2...4 ед. Уровень всех ваших талантов становится равен 0, а ваши умения заменяются атаками волка.",
+				"concise": "Элитный образ. С вас снимаются все эффекты, и вы принимаете вид волка (60 сек). Уровень ваших талантов становится равен 0, ваши умения заменяются атаками волка, ваша защита равна 80 ед., ваше здоровье равно 660...700 ед., а скорость восстановления здоровья равна 2...4 ед."
+			},
+			"bork": {
+				"name": "Fulffee Blesseeng",
+				"description": "Ileete-a Furm. Yuoo luse-a aell iffffects und taeke-a oon zee aespect ooff zee vulff. Fur 60 secunds, yuoo haefe-a 80 aermur, 660...700 Heaelt, und 2...4 Heaelt regeneraeshun. Aell yuoor aettreebootes aere-a set tu 0 und vulff aettaecks replaece-a yuoor skeells.",
+				"concise": "Ileete-a Furm. Yuoo luse-a aell iffffects und taeke-a oon zee aespect ooff zee vulff (60 secunds). Aell yuoor aettreebootes aere-a set tu 0 und vulff aettaecks replaece-a yuoor skeells, und yuoo haefe-a 80 aermur, 660...700 Heaelt, und 2...4 Heaelt regeneraeshun."
 			}
 		}
 	}

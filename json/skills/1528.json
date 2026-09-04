@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黛薇娜之触",
+				"description": "咒文。 触摸友方目标，根据你所带有的「增益魔法」效果数量，每一个为其回复60点生命值。（最多60...240点生命值）",
+				"concise": "触摸法术。 触摸友方目标，根据你所带有的「增益魔法」效果数量，每一个为其回复60点生命值。（最多60...240点生命值）"
+			},
+			"cht": {
+				"name": "薇娜之觸",
+				"description": "咒文魔法： 碰觸目標盟友，依照你身上擁有的「加持」數量，每項使該盟友獲得 60 體力治癒。(最多治癒 60...240)",
+				"concise": "碰觸魔法： 碰觸目標盟友，依照你身上擁有的「加持」數量，每項使該盟友獲得 60 體力治癒。(最多治癒 60...240)"
+			},
 			"de": {
+				"name": "Dwaynas Berührung",
+				"description": "Zauber. Der berührte Verbündete wird pro Verzauberung, mit der Ihr belegt seid (maximal 60...240), um 60 Lebenspunkt[e] geheilt.",
+				"concise": "Berührungs-Zauber. Heilt für jede Verzauberung auf Euch um 60 Lebenspunkt[e] (maximal 60...240)."
+			},
+			"de-guildwiki": {
 				"name": "Dwaynas Berührung",
 				"description": "Der berührte Verbündete (bzw. Ihr selbst) wird pro Verzauberung, mit der Ihr belegt seid, um 60 (maximal 60...240) Lebenspunkte geheilt.",
 				"concise": "Heilt für jede Verzauberung auf Euch um 60 Lebenspunkte (maximal 60...240)."
 			},
 			"en": {
 				"name": "Dwayna's Touch",
+				"description": "Spell. Target touched ally is healed for 60 Health for each enchantment on you (maximum 60...240).",
+				"concise": "Touch Spell. Heals for 60 (maximum 60...240) for each enchantment on you."
+			},
+			"en-gww": {
+				"name": "Dwayna's Touch",
 				"description": "Target touched ally is healed for 60 Health for each Enchantment on you (maximum 60...240).",
 				"concise": "Touch Spell. Heals for 60 (maximum 60...240) for each enchantment on you."
 			},
+			"es": {
+				"name": "Toque de Dwayna",
+				"description": "Conjuro. Curas al aliado que toques 60 de salud por cada encantamiento que tengas encima (máximo 60...240).",
+				"concise": "Conjuro de toque. Cura 60 de salud (máximo 60...240) por cada encantamiento que tengas."
+			},
 			"fr": {
+				"name": "Toucher de Dwayna",
+				"description": "Sort. L'allié ciblé touché est soigné de 60 points de vie pour chaque enchantement auquel vous êtes sujet (60...240 points maximum).",
+				"concise": "Sort de toucher. Soigne de 60 points de vie (maximum : 60...240) par enchantement vous affectant."
+			},
+			"fr-gwiki": {
 				"name": "Toucher de Dwayna",
 				"description": "L'allié ciblé touché est soigné de 60 points de vie pour chaque enchantement auquel vous êtes sujet (60...240 points maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tocco di Dwayna",
+				"description": "Magia. L'obiettivo alleato toccato viene curato di 60 Punto[i] Salute per ogni incantesimo che hai addosso (max. 60...240).",
+				"concise": "Magia a Tocco. Cure per ogni incantesimo che hai addosso: 60 (max 60...240)."
+			},
+			"jp": {
+				"name": "ドワイナ タッチ",
+				"description": "スペル： プレイヤーにかけられている強化スペルごとに、接触した味方の体力を 60 回復させます (最大 60...240 の体力) 。",
+				"concise": "スペル (接触)： プレイヤーにかけられている強化スペルごとに 60 の体力を回復します (最大 60...240 の体力) 。"
+			},
+			"kr": {
+				"name": "드와이나의 손길",
+				"description": "마법. 대상 지정: 아군. 자신이 걸린 강화 마법 하나당 대상의 체력을 60만큼 회복시킵니다. 최대 60...240개의 강화 마법이 효과를 일으키고, 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "마법(접근용). 자신이 걸린 강화 마법 하나당 60씩, 최대 60...240의 체력을 회복시킵니다."
+			},
+			"pl": {
+				"name": "Dotyk Dwayny",
+				"description": "Czar. Dotknięty wybrany sojusznik otrzymuje 60 pkt. żywotności na każde zaklęcie, pod którego jesteś działaniem (maksymalnie 60...240).",
+				"concise": "Czar dotykowy. Dodaje 60 pkt. żywotności (maksymalnie 60...240) za każde zaklęcie, pod którego jesteś działaniem."
+			},
+			"ru": {
+				"name": "Dwayna's Touch",
+				"description": "Заклинание. Выбранный союзник, до которого вы дотронулись, исцеляется на 60 ед. здоровья за каждые лежащие на вас чары (максимально на 60...240 ед. здоровья).",
+				"concise": "Заклинание прикосновения. Исцеляет на 60 ед. здоровья (но не более, чем на 60...240 ед.) за каждые лежащие на вас чары."
+			},
+			"bork": {
+				"name": "Dvaeyna's Tuooch",
+				"description": "Spell. Taerget tuooched aelly is heaeled fur 60 Heaelt fur iaech inchuntment oon yuoo (maexeemoom 60...240).",
+				"concise": "Tuooch Spell. Heaels fur 60 (maexeemoom 60...240) fur iaech inchuntment oon yuoo."
 			}
 		}
 	}

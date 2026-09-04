@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致命还击",
+				"description": "技能。 在8秒之内，当装备剑类武器时，下一次对你发动的近身攻击将被格挡，并使攻击者受到15...90点伤害，附加「流血」症状3...25秒。",
+				"concise": "技能。 在8秒之内，当装备剑类武器时，下一次对你发动的近身攻击将被格挡，并使攻击者受到15...90点伤害，附加「流血」症状3...25秒。"
+			},
+			"cht": {
+				"name": "致命還擊",
+				"description": "技能： 持續 8 秒，當裝備劍類武器時，你「格擋」下次受到的近身攻擊並且使攻擊者受到 15...90 傷害以及遭受「流血」病症 3...25 秒。",
+				"concise": "技能： 持續 8 秒，當裝備劍類武器時，你「格擋」下次受到的近身攻擊並且使攻擊者受到 15...90 傷害以及遭受「流血」病症 3...25 秒。"
+			},
 			"de": {
+				"name": "Tödliche Entgegnung",
+				"description": "Fertigkeit. 8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff, Euer Angreifer wird mit 15...90 Punkt[en] Schaden getroffen und blutet 3...25 Sekunde[n] lang.",
+				"concise": "Fertigkeit. 8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 15...90 Punkt[e] Schaden. Verursacht Zustand Blutung (3...25 Sekunde[n]). Keine Wirkung, falls Ihr kein Schwert benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Tödliche Entgegnung",
 				"description": "8 Sekunden lang blockt Ihr, solange Ihr ein Schwert führt, den nächsten gegen Euch gerichteten Nahkampfangriff, Euer Angreifer wird mit 15...90 Punkten Schaden getroffen und blutet 3...25 Sekunden lang.",
 				"concise": "8 Sekunden: Ihr blockt den nächsten Nahkampfangriff; der Angreifer erleidet 15...90 Punkte Schaden. Verursacht Zustand Blutung (3...25 Sekunden). <gray>Keine Wirkung, falls Ihr kein Schwert benutzt.</gray>"
 			},
 			"en": {
 				"name": "Deadly Riposte",
+				"description": "Skill. For 8 seconds, while you have a sword equipped, you block the next melee attack against you, and your attacker is struck for 15...90 damage and begins Bleeding for 3...25 seconds.",
+				"concise": "Skill. (8 seconds.) You block the next melee attack and your attacker takes 15...90 damage. Inflicts Bleeding condition (3...25 seconds). No effect unless you have a sword equipped."
+			},
+			"en-gww": {
+				"name": "Deadly Riposte",
 				"description": "For 8 seconds, while you have a sword equipped, you block the next melee attack against you, and your attacker is struck for 15...90 damage and begins Bleeding for 3...25 seconds.",
 				"concise": "(8 seconds). You block the next melee attack and your attacker takes 15...90 damage. Inflicts Bleeding condition. (3...25 seconds). <gray>No effect unless you have a sword equipped.</gray>"
 			},
+			"es": {
+				"name": "Estocada mortal",
+				"description": "Habilidad. Durante 8 segundos, mientras empuñes una espada, bloquearás el próximo ataque cuerpo a cuerpo contra ti, y tu atacante sufrirá 15...90 de daño y una hemorragia durante 3...25 segundos.",
+				"concise": "Habilidad. (8 segundos). Bloqueas el próximo ataque cuerpo a cuerpo contra ti y tu atacante recibe 15...90 de daño. Causa hemorragia (3...25 segundos). No funciona si no llevas una espada."
+			},
 			"fr": {
+				"name": "Riposte mortelle",
+				"description": "Compétence. Pendant 8 secondes, si vous avez une épée en main, vous bloquez la prochaine attaque au corps à corps contre vous, l'attaquant subit 15...90 points de dégâts et souffre de Saignement pendant 3...25 secondes.",
+				"concise": "Compétence. (8 secondes.) Vous bloquez l'attaque au corps à corps suivante et votre assaillant subit 15...90 points de dégâts. Provoque le Saignement (3...25 secondes). Aucun effet si vous n'avez pas d'épée en main."
+			},
+			"fr-gwiki": {
 				"name": "Riposte mortelle",
 				"description": "Pendant 8 secondes, si vous avez une épée en main, vous bloquez la prochaine attaque au corps à corps contre vous, l'attaquant subit 15...90 points de dégâts et souffre de Saignement pendant 3...25 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Replica Mortale",
+				"description": "Abilità. Per 8 secondi, mentre brandisci una spada, blocchi l'attacco ravvicinato successivo lanciato contro di te e il tuo aggressore subisce 15...90 danno[i] e viene colpito da Emorragia per 3...25 secondo[i].",
+				"concise": "Abilità. (Secondi: 8) Blocchi il prossimo attacco in mischia e l'aggressore subisce 15...90 danno[i]. Condizione inflitta: Emorragia (3...25 secondo[i]). Ha effetto solo se brandisci una spada."
+			},
+			"jp": {
+				"name": "デッドリー リポスト",
+				"description": "スキル： 8秒間、ソードを装備している場合、次に受ける近接攻撃をブロックし、その敵に 15...90 のダメージを与えて 3...25 秒間「出血」状態にします。",
+				"concise": "スキル： (8秒) 次に受ける近接攻撃をブロックし、その攻撃者に 15...90 のダメージを与えて「出血」状態にします (3...25 秒)。ソードを装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "치명적인 반격",
+				"description": "스킬. 대상 지정: 없음. 8초 동안 검을 사용하여 근접 물리 공격을 막아 냅니다. 공격을 한 적은 15...90의 대미지를 입고, 3...25초 동안 출혈 상태가 됩니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "스킬. (8초) 근접 물리 공격을 막아 냅니다. 공격을 한 적은 15...90의 대미지를 입고, 출혈을 일으킵니다.(3...25초) 처음 한 번만 효과가 있습니다. 검을 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Zabójcza Riposta",
+				"description": "Umiejętność. Przez 8 sek., kiedy trzymasz miecz, blokujesz następny atak w walce wręcz skierowany w ciebie, a napastnik otrzymuje 15...90 pkt. obrażeń i zaczyna krwawić przez 3...25 sek.",
+				"concise": "Umiejętność. (8 sek.) Blokujesz następny atak wręcz, a atakujący otrzymuje 15...90 pkt. obrażeń. Wywołuje przypadłość krwawienie (3...25 sek.). Bez efektu, jeśli nie dzierżysz miecza."
+			},
+			"ru": {
+				"name": "Deadly Riposte",
+				"description": "Умение. В течение 8 сек до тех пор, пока вы вооружены мечом, вы блокируете следующую рукопашную атаку, направленную против вас, а нападающий получит 15...90 ед. урона и будет кровоточить в течение 3...25 сек.",
+				"concise": "Умение. (8 сек) Вы блокируете следующую рукопашную атаку, а нападавший получит 15...90 ед. урона. Вызывает кровотечение (3...25 сек). Не действует, если вы не вооружены мечом."
+			},
+			"bork": {
+				"name": "Deaedly Reepuste-a",
+				"description": "Skeell. Fur 8 secunds, vheele-a yuoo haefe-a a svurd iqooeepped, yuoo bluck zee next melee-a aettaeck aegaeeenst yuoo, und yuoor aettaecker is stroock fur 15...90 daemaege-a und begeens Bleedeeng fur 3...25 secunds.",
+				"concise": "Skeell. (8 secunds.) Yuoo bluck zee next melee-a aettaeck und yuoor aettaecker taekes 15...90 daemaege-a. Inffleects Bleedeeng cundeeshun (3...25 secunds). Nu iffffect unless yuoo haefe-a a svurd iqooeepped."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "精神链接",
+				"description": "增益魔法。 在8秒之内，当下10次武器攻击或法术对友方目标造成的伤害超过50点时，该友方目标将获得30...90点生命值。",
+				"concise": "增益魔法。 在8秒之内，当下10次攻击或法术对友方目标造成的伤害超过 50点 时，该友方目标将获得 30...90点 生命值。"
+			},
+			"cht": {
+				"name": "精神連結",
+				"description": "加持魔法： 持續 8 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 50時，該盟友被治癒 30...90 體力。",
+				"concise": "加持魔法： 持續 8 秒，目標盟友受到敵人接下來 10 次的普通或魔法攻擊傷害超過 50時，該盟友被治癒 30...90 體力。"
+			},
 			"de": {
+				"name": "Geisterbindung",
+				"description": "Verzauberung. Während der nächsten 8 Sekunde[n] wird der Verbündete (bzw. Ihr selbst), immer, wenn er mehr als 50 Punkt[e] Schaden durch die nächsten 10 Angriffe oder Zauber erleidet, um 30...90 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. 8 Sekunde[n]: Heilt jedes Mal um 30...90 Lebenspunkt[e], wenn der Verbündete (bzw. Ihr selbst) mehr als 50 Punkt[e] Schaden erleidet. Endet, nachdem der Verbündete Schaden durch 10 Angriffe oder Zauber erlitten hat."
+			},
+			"de-guildwiki": {
 				"name": "Geisterbindung",
 				"description": "Während der nächsten 8 Sekunden wird der Verbündete (bzw. Ihr selbst) die nächsten 10 Male vor dem Erleiden von mehr als 50 Punkten Schaden um 30...90 Lebenspunkte geheilt.",
 				"concise": "8 Sekunden: Heilt jedes Mal um 30...90 Lebenspunkte, bevor der Verbündete (bzw. Ihr selbst) mehr als 50 Punkte Schaden erleidet. <gray>Endet nach 10 Wirkungen.</gray>"
 			},
 			"en": {
 				"name": "Spirit Bond",
+				"description": "Enchantment Spell. For 8 seconds, whenever target ally takes more than 50 damage from the next 10 attacks or spells, that ally is healed for 30...90 Health.",
+				"concise": "Enchantment Spell. (8 seconds.) Heals for 30...90 whenever target ally takes more than 50 damage. Ends after this ally takes damage from 10 attacks or spells."
+			},
+			"en-gww": {
+				"name": "Spirit Bond",
 				"description": "For 8 seconds, whenever target ally takes more than 50 damage from the next 10 attacks or spells, that ally is healed for 30...90 Health.",
 				"concise": "(8 seconds.) Heals for 30...90 whenever target ally takes more than 50 damage. <gray>Ends after this ally takes damage from 10 attacks or spells.</gray>"
 			},
+			"es": {
+				"name": "Vínculo espiritual",
+				"description": "Conjuro con encantamiento. Durante 8 segundos, siempre que el objetivo (un aliado o tú mismo) reciba más de 50 de daño de los próximos 10 ataques o conjuros, se curará 30...90 de salud.",
+				"concise": "Conjuro con encantamiento. (8 segundos.) Cura 30...90 de salud siempre que el objetivo (un aliado o tú mismo) reciba más de 50 de daño. Acaba cuando este aliado reciba daño de 10 ataques o conjuros."
+			},
 			"fr": {
+				"name": "Lien spirituel",
+				"description": "Enchantement. Pendant 8 secondes, à chaque fois que la cible (un allié ou vous-même) subit plus de 50 points de dégâts infligés par les 10 prochaines attaques ou sorts, cette cible est soignée de 30...90 points de vie.",
+				"concise": "Enchantement. (8 secondes.) Soigne de 30...90 points de vie chaque fois que l'allié visé subit plus de 50 points de dégâts. Prend fin lorsque cet allié a subi des dégâts de 10 attaques ou sorts."
+			},
+			"fr-gwiki": {
 				"name": "Lien spirituel",
 				"description": "Pendant 8 secondes, à chaque fois que la cible (un allié ou vous-même) subit plus de 60 points de dégâts infligés par les 10 prochaines attaques ou sorts, cette cible est soignée de 40...100 points de vie.",
 				"concise": "(8 secondes.) Soigne de 40...100 points de vie chaque fois que l'allié visé subit plus de 60 points de dégâts. <gray>Prend fin lorsque cet allié a subi des dégâts de 10 attaques ou sorts.</gray>"
+			},
+			"it": {
+				"name": "Legame dello Spirito",
+				"description": "Incantesimo. Dura 8 secondo[i]; ogni volta che l'obiettivo (un alleato o te stesso) subisce più di 50 danno[i] dai 10 attacchi o magie successivi, viene curato di 30...90 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 8) Cura di 30...90 ogni volta che l'obiettivo alleato riceve più di 50 danno[i]. Termina dopo che quest'alleato ha subito danni da 10 attacchi o magie."
+			},
+			"jp": {
+				"name": "スピリット ボンド",
+				"description": "強化スペル： 8 秒間、ターゲットした味方は、次の10回の攻撃またはスペルによって 50 より大きなダメージを受けるたびに体力が 30...90 回復します。",
+				"concise": "強化スペル： (8 秒) ターゲットした味方は 50 より大きなダメージを受けるたびに体力が 30...90 回復します。この味方が攻撃またはスペルによるダメージを10回受けると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "영혼 유대",
+				"description": "강화 마법. 대상 지정: 아군. 8초 동안 10번의 공격이나 마법에 의해 50보다 많은 대미지를 입을 때마다 대상은 30...90의 체력을 회복합니다.",
+				"concise": "강화 마법. (8초) 대상은 50보다 많은 대미지를 입을 때마다 30...90의 체력을 회복합니다. 공격이나 마법에 의해 대미지를 10번 입으면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Duchowa Więź",
+				"description": "Zaklęcie (czar). Przez 8 sek., za każdym razem, kiedy wybrany sojusznik z kolejnych 10 ataków lub czarów otrzyma więcej niż 50 pkt. obrażeń, dostanie 30...90 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (8 sek.) Dodaje 30...90 pkt. żywotności, za każdym razem, kiedy wybrany sojusznik otrzymuje więcej niż 50 pkt. obrażeń. Przestanie działać, jeśli ten sojusznik otrzyma obrażenia z 10 ataków lub czarów."
+			},
+			"ru": {
+				"name": "Spirit Bond",
+				"description": "Заклинание-чары. В течение 8 сек каждый раз, когда выбранный союзник получает более 50 ед. урона от следующих 10 атак или заклинаний, он будет исцелен на 30...90 ед. здоровья.",
+				"concise": "Заклинание-чары. (8 сек) Исцеляет на 30...90 ед. здоровья каждый раз, когда выбранный союзник получает более чем 50 ед. урона. Заканчивается после того, как этот союзник получит урон от 10 атак или заклинаний."
+			},
+			"bork": {
+				"name": "Spureet Bund",
+				"description": "Inchuntment Spell. Fur 8 secunds, vhenefer taerget aelly taekes mure-a thun 50 daemaege-a frum zee next 10 aettaecks oor spells, thaet aelly is heaeled fur 30...90 Heaelt.",
+				"concise": "Inchuntment Spell. (8 secunds.) Heaels fur 30...90 vhenefer taerget aelly taekes mure-a thun 50 daemaege-a. Inds aeffter thees aelly taekes daemaege-a frum 10 aettaecks oor spells."
 			}
 		}
 	}

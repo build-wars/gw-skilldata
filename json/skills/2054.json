@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Shrinking Armor",
+				"description": "负面魔法。 For 10 seconds, target foe suffers from -1...4 Health degeneration. When this hex ends, that foe has Cracked Armor for 5...20 seconds.",
+				"concise": "负面魔法。 (10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Cracked Armor condition (5...20 seconds)."
+			},
+			"cht": {
+				"name": "防護畏怯",
+				"description": "降咒魔法： 持續 10 秒，使目標敵人遭受體力衰減 -1...4 。當此降咒結束時，該敵人將遭受「碎甲」 5...20 秒。",
+				"concise": "降咒魔法： 持續 10 秒，使目標敵人遭受體力衰減 -1...4 。當此降咒結束時，該敵人將遭受「碎甲」 5...20 秒。"
+			},
 			"de": {
+				"name": "Schrumpfende Rüstung",
+				"description": "Verhexung. 10 Sekunde[n] lang leidet der Gegner an einer Lebenspunktdegeneration von -1...4. Wenn diese Verhexung endet, hat der Gegner 5...20 Sekunde[n] lang eine Beschädigte Rüstung.",
+				"concise": "Verhexung. 10 Sekunde[n]: Verursacht -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Schrumpfende Rüstung",
 				"description": "10 Sekunden lang leidet der Gegner an einer Lebenspunktdegeneration von -1...4. Wenn diese Verhexung endet, hat der Gegner 5...20 Sekunden lang eine Beschädigte Rüstung.",
 				"concise": "10 Sekunden: Verursacht -1...4 Lebenspunktdegeneration. Wirkung am Ende: Verursacht Zustand Beschädigte Rüstung (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Shrinking Armor",
+				"description": "Hex Spell. For 10 seconds, target foe suffers from -1...4 Health degeneration. When this hex ends, that foe has Cracked Armor for 5...20 seconds.",
+				"concise": "Hex Spell. (10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Cracked Armor condition (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Shrinking Armor",
 				"description": "For 10 seconds, target foe suffers from -1...4 Health degeneration. When this hex ends, that foe has Cracked Armor for 5...20 seconds.",
 				"concise": "(10 seconds.) Causes -1...4 Health degeneration. End effect: inflicts Cracked Armor condition (5...20 seconds)."
 			},
+			"es": {
+				"name": "Armadura encogida",
+				"description": "Conjuro con maleficio. Durante 10 segundos, el enemigo objetivo sufre -1...4 de degeneración de salud. Cuando este maleficio termine, tendrá la armadura rota durante 5...20 segundos.",
+				"concise": "Conjuro con maleficio. (10 segundos). Causa -1...4 de degeneración de salud. Efecto final: causa armadura rota (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Rétraction d'armure",
+				"description": "Maléfice. Pendant 10 secondes, la cible ennemie souffre d'une dégénération de santé de -1...4. Lorsque ce maléfice prend fin, cet ennemi a une Armure brisée pendant 5...20 secondes.",
+				"concise": "Maléfice. (10 secondes.) Provoque une dégénération de santé de -1...4. Effet final : inflige la condition Armure brisée (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Rétraction d'armure",
 				"description": "Pendant 10 secondes, la cible ennemie souffre d'une dégénération de santé de -1...4. Lorsque ce maléfice prend fin, cet ennemi a une Armure brisée pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armatura Infeltrita",
+				"description": "Fattura. Per 10 secondo[i] l'obiettivo nemico subisce una Degenerazione della Salute di -1...4. Quando questa fattura termina quel nemico soffre di Armatura Incrinata per 5...20 secondo[i].",
+				"concise": "Fattura. (Secondi: 10) Degenerazione Salute: -1...4. Effetto al termine: infligge Armatura Incrinata (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "シュリンク アーマー",
+				"description": "弱体化スペル： 10 秒間、ターゲットした敵は体力の自然回復力が 1...4 減少します。この効果が消失すると、ターゲットは 5...20 秒間「防具破損」状態になります。",
+				"concise": "弱体化スペル： (10 秒) 体力の自然回復力が 1...4 減少します。終了効果： 「防具破損」状態になります (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "움츠려든 갑옷",
+				"description": "약화 마법. 대상 지정: 적. 10초 동안 대상의 체력 재생이 1...4 감소합니다. 효과가 끝나면 대상은 5...20초 동안 방어 손상을 입습니다.",
+				"concise": "약화 마법. (10초) 체력 재생을 1...4만큼 감소시킵니다. 종료 효과: 방어 손상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Skurczenie Zbroi",
+				"description": "Klątwa (czar). Przez 10 sek. wybrany przeciwnik posiada degenerację żywotności -1...4. Kiedy klątwa przestanie działać, przeciwnik na 5...20 sek. znajdzie się pod działaniem pękniętej zbroi.",
+				"concise": "Klątwa (czar). (10 sek.) Powoduje degenerację żywotności -1...4. Efekt końcowy: wywołuje przypadłość pęknięta zbroja (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Shrinking Armor",
+				"description": "Заклинание-проклятье. В течение 10 сек скорость восстановления здоровья выбранного противника уменьшается на 1...4 ед. Когда это проклятье прекращает свое действие, у противника в течение 5...20 сек будут треснувшие доспехи.",
+				"concise": "Заклинание-проклятье. (10 сек) Уменьшает на 1...4 ед. скорость восстановления здоровья. Эффект окончания: дает треснувшие доспехи (5...20 сек)."
+			},
+			"bork": {
+				"name": "Shreenkeeng Aermur",
+				"description": "Hex Spell. Fur 10 secunds, taerget fue-a sooffffers frum -1...4 Heaelt degeneraeshun. Vhee thees hex inds, thaet fue-a haes Craecked Aermur fur 5...20 secunds.",
+				"concise": "Hex Spell. (10 secunds.) Cooses -1...4 Heaelt degeneraeshun. Ind iffffect: inffleects Craecked Aermur cundeeshun (5...20 secunds). Bork! Bork! Bork!"
 			}
 		}
 	}

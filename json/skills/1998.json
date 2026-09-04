@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Cacophony",
+				"description": "负面魔法。 For 15 seconds, whenever target foe uses a shout or chant, that foe takes 30...105 damage.",
+				"concise": "负面魔法。 (15 seconds.) Deals 30...105 damage whenever target foe uses a shout or chant."
+			},
+			"cht": {
+				"name": "雜音",
+				"description": "降咒魔法： 持續 15 秒，每當目標敵人使用戰嚎或聖歌技能時，將受到 30...105 傷害。",
+				"concise": "降咒魔法： 持續 15 秒，每當目標敵人使用戰嚎或聖歌技能時，將受到 30...105 傷害。"
+			},
 			"de": {
+				"name": "Kakophonie",
+				"description": "Verhexung. 15 Sekunde[n] lang erleidet der Gegner jedes Mal, wenn er einen Schrei oder Anfeuerungsruf benutzt, 30...105 Punkt[e] Schaden.",
+				"concise": "Verhexung. 15 Sekunde[n]: Richtet jedes Mal 30...105 Punkt[e] Schaden an, wenn der Gegner einen Schrei oder Anfeuerungsruf benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Kakophonie",
 				"description": "15 Sekunden lang erleidet der Gegner jedes Mal, wenn er einen Schrei oder Anfeuerungsruf benutzt, 30...105 Punkte Schaden.",
 				"concise": "15 Sekunden: Richtet jedes Mal 30...105 Punkte Schaden an, wenn der Gegner einen Schrei oder Anfeuerungsruf benutzt."
 			},
 			"en": {
 				"name": "Cacophony",
+				"description": "Hex Spell. For 15 seconds, whenever target foe uses a shout or chant, that foe takes 30...105 damage.",
+				"concise": "Hex Spell. (15 seconds.) Deals 30...105 damage whenever target foe uses a shout or chant."
+			},
+			"en-gww": {
+				"name": "Cacophony",
 				"description": "For 15 seconds, whenever target foe uses a shout or chant, that foe takes 30...105 damage.",
 				"concise": "(15 seconds.) Deals 30...105 damage whenever target foe uses a shout or chant."
 			},
+			"es": {
+				"name": "Cacofonía",
+				"description": "Conjuro con maleficio. Durante 15 segundos, cada vez que el enemigo objetivo use un grito o un cántico, recibirá 30...105 de daño.",
+				"concise": "Conjuro con maleficio. (15 segundos). Hace 30...105 de daño cada vez que el enemigo objetivo use un grito o un cántico."
+			},
 			"fr": {
+				"name": "Cacophonie",
+				"description": "Maléfice. Pendant 15 secondes, à chaque fois que l'ennemi ciblé utilise un cri ou un chant, il subit 30...105 points de dégâts.",
+				"concise": "Maléfice. (15 secondes.) Inflige 30...105 points de dégâts chaque fois que l'ennemi visé utilise un cri ou un chant."
+			},
+			"fr-gwiki": {
 				"name": "Cacophonie",
 				"description": "Pendant 15 secondes, à chaque fois que l'ennemi ciblé utilise un cri ou un chant, il subit 30...105 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Cacofonia",
+				"description": "Fattura. Per 15 secondo[i], ogni volta che l'obiettivo nemico usa un Urlo o un Canto, subisce 30...105 danno[i].",
+				"concise": "Fattura. (Secondi: 15) Danni inferti ogni volta che l'obiettivo nemico usa un urlo o canto: 30...105."
+			},
+			"jp": {
+				"name": "カコフォニー",
+				"description": "弱体化スペル： 15 秒間、ターゲットした敵がシャウトまたはチャントを使用するたびに、30...105 のダメージを与えます。",
+				"concise": "弱体化スペル： (15 秒) ターゲットした敵がシャウトまたはチャントを使用するたびに、30...105 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "화음의 불일치",
+				"description": "약화 마법. 대상 지정: 적. 15초 동안 대상이 고함이나 영창을 사용할 때마다 대상은 30...105의 대미지를 입습니다.",
+				"concise": "약화 마법. (15초) 대상이 고함이나 영창을 사용할 때마다 30...105의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Kakofonia",
+				"description": "Klątwa (czar). Przez 15 sek., za każdym razem, kiedy wybrany przeciwnik użyje okrzyku lub zaśpiewu, otrzyma 30...105 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (15 sek.) Zadaje 30...105 pkt. obrażeń, za każdym razem, kiedy wybrany przeciwnik użyje okrzyku lub zaśpiewu."
+			},
+			"ru": {
+				"name": "Cacophony",
+				"description": "Заклинание-проклятье. В течение 15 сек каждый раз, когда выбранный противник использует какой-либо крик или хорал, он получает 30...105 ед. урона.",
+				"concise": "Заклинание-проклятье. (15 сек) Наносит 30...105 ед. урона каждый раз, когда выбранный противник использует крик или хорал."
+			},
+			"bork": {
+				"name": "Caecuphuny",
+				"description": "Hex Spell. Fur 15 secunds, vhenefer taerget fue-a uses a shuoot oor chunt, thaet fue-a taekes 30...105 daemaege-a.",
+				"concise": "Hex Spell. (15 secunds.) Deaels 30...105 daemaege-a vhenefer taerget fue-a uses a shuoot oor chunt."
 			}
 		}
 	}

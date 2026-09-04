@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "阻击",
+				"description": "近战技能。 命中时，对目标敌人造成5...35点额外伤害。如果命中正在攻击的敌人，你将回复2...6点能量。",
+				"concise": "近战技能。 命中时，对目标敌人造成5...35点额外伤害。如果命中正在攻击的敌人，你将回复2...6点能量。"
+			},
+			"cht": {
+				"name": "反擊",
+				"description": "近身攻擊技能： 命中時對目標造成 5...35 額外傷害，若擊中正在攻擊的敵人，則你獲得 2...6 能量。",
+				"concise": "近身攻擊技能： 命中時對目標造成 5...35 額外傷害，若擊中正在攻擊的敵人，則你獲得 2...6 能量。"
+			},
 			"de": {
+				"name": "Gegenangriff",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...35 Punkt[e] Schaden zu. Wenn Ihr einen angreifenden Gegner trefft, erhaltet Ihr 2...6 Energiepunkt[e].",
+				"concise": "Nahkampfangriff. Richtet +5...35 Punkt[e] Schaden an. Ihr erhaltet 2...6 Energiepunkt[e], falls der Gegner gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Gegenangriff",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...35 Schaden zu. Wenn Ihr einen angreifenden Gegner trefft erhaltet Ihr 2...6 Energiepunkte.",
 				"concise": "Richtet +5...35 Punkte Schaden an. Ihr erhaltet 2...6 Energiepunkte, falls der Gegner gerade angreift."
 			},
 			"en": {
 				"name": "Counterattack",
+				"description": "Melee Attack. If this attack hits, you strike for +5...35 damage. If you hit an attacking foe, you gain 2...6 Energy.",
+				"concise": "Melee Attack. Deals +5...35 damage. You gain 2...6 Energy if target foe is attacking."
+			},
+			"en-gww": {
+				"name": "Counterattack",
 				"description": "If this attack hits, you strike for +5...35 damage. If you hit an attacking foe, you gain 2...6 Energy.",
 				"concise": "Deals +5...35 damage. You gain 2...6 Energy if target foe is attacking."
 			},
+			"es": {
+				"name": "Contraataque",
+				"description": "Ataque cuerpo a cuerpo. Si impacta este ataque, harás +5...35 daño. Si el enemigo estaba atacando, ganarás 2...6 de energía.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +5...35 de daño. Ganas 2...6 de energía si el enemigo objetivo está atacando."
+			},
 			"fr": {
+				"name": "Contre-attaque",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, vous infligez +5...35 points de dégâts. Si vous frappez un ennemi qui attaque, vous obtenez 2...6 points d'énergie.",
+				"concise": "Attaque au corps à corps. Inflige +5...35 points de dégâts. Vous gagnez 2...6 points d'énergie si l'ennemi visé attaque."
+			},
+			"fr-gwiki": {
 				"name": "Contre-attaque",
 				"description": "Si cette attaque réussit, vous infligez +5...35 points de dégâts. Si vous frappez un ennemi qui attaque, vous obtenez 2...6 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Contrattacco",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno, infliggi +5...35 danno[i]. Se colpisci un nemico che sta attaccando ottieni 2...6 Punto[i] Energia.",
+				"concise": "Attacco Ravvicinato. Danni inferti: +5...35. Energia conseguita se l'obiettivo nemico sta attaccando: 2...6."
+			},
+			"jp": {
+				"name": "カウンターアタック",
+				"description": "メーレー アタック： この攻撃が成功すると、5...35 の追加ダメージを与えます。敵が攻撃中の場合、プレイヤーは 2...6 のエネルギーを獲得します。",
+				"concise": "メーレー アタック： 5...35 の追加ダメージを与えます。ターゲットした敵が攻撃中の場合、2...6 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "역습",
+				"description": "근접 물리 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...35의 대미지를 추가로 줍니다. 공격 중인 적에게 명중하면 자신은 2...6의 에너지를 얻습니다.",
+				"concise": "근접 물리 공격. 5...35의 대미지를 추가로 줍니다. 대상이 공격 중이면 자신은 2...6의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Kontratak",
+				"description": "Atak wręcz. Jeśli atak trafi, zadajesz +5...35 pkt. obrażeń. Jeśli trafisz atakującego przeciwnika, otrzymujesz 2...6 pkt. energii.",
+				"concise": "Atak wręcz. Zadaje +5...35 pkt. obrażeń. Otrzymujesz 2...6 pkt. energii, jeżeli wybrany przeciwnik atakuje."
+			},
+			"ru": {
+				"name": "Counterattack",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 5...35 ед. урона. Если попали в атакующего противника, вы получаете 2...6 ед. энергии.",
+				"concise": "Рукопашная атака. Наносит дополнительно 5...35 ед. урона. Вы получаете 2...6 ед. энергии, если выбранный противник атакует."
+			},
+			"bork": {
+				"name": "Cuoonteraettaeck",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +5...35 daemaege-a. Iff yuoo heet un aettaeckeeng fue-a, yuoo gaeeen 2...6 Inergy.",
+				"concise": "Melee-a Aettaeck. Deaels +5...35 daemaege-a. Yuoo gaeeen 2...6 Inergy iff taerget fue-a is aettaeckeeng."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战神之怒",
+				"description": "增益魔法。 对附近所有敌人造成0点神圣伤害。并在45秒之内，使你的伤害输出提升20...25%。当此「增益魔法」效果消失时，再对附近所有敌人造成0点神圣伤害。",
+				"concise": "增益魔法。 使你控制的所有灵体瞬移到你身旁，并它们恢复0点生命值。"
+			},
+			"cht": {
+				"name": "巴薩澤之怒",
+				"description": "加持魔法： 持續 45 秒，每當你失去一項神喚使加持時，對所有鄰近敵人造成 20...25 神聖傷害。",
+				"concise": "加持魔法： 持續 45 秒，每當你失去一項神喚使加持時，對所有鄰近敵人造成 20...25 神聖傷害。"
+			},
 			"de": {
+				"name": "Aura der Heiligen Macht",
+				"description": "Verzauberung. Wenn Ihr eine Derwisch-Verzauberung verliert, fügt Ihr 45 Sekunde[n] lang allen umstehenden Feinden 20...25 Punkt[e] heiligen Schaden zu.",
+				"concise": "Verzauberung. (45 Sekunde[n].) Immer wenn Ihr eine Derwisch-Verzauberung verliert, erleiden alle umstehenden Feinde 20...25 Punkt[e] heiligen Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Aura der Heiligen Macht (Kurzick)",
 				"description": "45 Sekunden lang fügt Ihr, wann immer Ihr eine Derwisch-Verzauberung verliert, allen umstehenden Feinden 20...25 Punkte heiligen Schaden zu.",
 				"concise": "(45 Sekunden.) Immer wenn Ihr eine Derwisch-Verzauberung verliert, erleiden alle umstehenden Feinde 20...25 Punkte heiligen Schaden."
 			},
 			"en": {
+				"name": "Aura of Holy Might",
+				"description": "Enchantment Spell. For 45 seconds, you deal 20...25 holy damage to all adjacent foes whenever you lose a Dervish enchantment.",
+				"concise": "Enchantment Spell. (45 seconds.) Whenever you lose a Dervish enchantment, adjacent foes take 20...25 holy damage."
+			},
+			"en-gww": {
 				"name": "Aura of Holy Might (Kurzick)",
 				"description": "For 45 seconds, you deal 20...25 holy damage to all adjacent foes whenever you lose a Dervish enchantment.",
 				"concise": "(45 seconds.) Whenever you lose a Dervish enchantment, adjacent foes take 20...25 holy damage."
 			},
+			"es": {
+				"name": "Aura del poder divino",
+				"description": "Conjuro con encantamiento. Durante (45 segundos), haces 20...25 de daño sagrado a todos los enemigos adyacentes cuando pierdes un encantamiento de Derviche.",
+				"concise": "Conjuro con encantamiento. (45 segundos). Cuando pierdes un encantamiento de Derviche, los enemigos adyacentes reciben 20...25 de daño sagrado."
+			},
 			"fr": {
+				"name": "Aura de la puissance sacrée",
+				"description": "Enchantement. Pendant 45 secondes, vous infligez 20...25 points de dégâts sacrés à tous les ennemis adjacents lorsque vous perdez un enchantement de Derviche.",
+				"concise": "Enchantement. (45 secondes.) Chaque fois que vous perdez un enchantement de Derviche, les ennemis adjacents subissent 20...25 points de dégâts sacrés."
+			},
+			"fr-gwiki": {
 				"name": "Aura de la puissance sacrée (Kurzick)",
 				"description": "Tous les ennemis à proximité subissent 40...50 points de dégâts sacrés. Pendant 20 secondes, vous infligez 20...32% de dégâts en plus avec votre faux. Lorsque cet enchantement prend fin, tous les ennemis à proximité subissent 40...50 points de dégâts sacrés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura della Potenza Sacra",
+				"description": "Incantesimo. Per 45 secondi, quando perdi un Incantesimo del Derviscio assesti 20...25 danni sacri a tutti i nemici adiacenti.",
+				"concise": "Incantesimo. (Secondi: 45). Quando perdi un Incantesimo del Derviscio, i nemici adiacenti subiscono 20...25 danni sacri."
+			},
+			"jp": {
+				"name": "ホーリー マイト オーラ",
+				"description": "強化スペル： 45 秒間、かけられているダルウィーシュの強化スペルが解除されるたびに、隣接するすべての敵に 20...25 の神聖ダメージを与えます。",
+				"concise": "強化スペル： (45 秒) かけられているダルウィーシュの強化スペルが解除されるたびに、隣接する敵に 20...25 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "신성력의 오라",
+				"description": "강화 마법. 45초 동안 자신에게 걸린 더비시 강화 마법이 무효화될 때마다 인접한 모든 적에게 20...25의 신성 대미지를 줍니다.",
+				"concise": "강화 마법. (45초) 자신에게 걸린 더비시 강화 마법이 무효화될 때마다 인접한 적들에게 20...25의 신성 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Aura Świętej Mocy",
+				"description": "Zaklęcie (czar). Przez 45 sek. zadajesz 20...25 pkt. świętych obrażeń wszystkim wrogom w bezpośrednim sąsiedztwie, jeśli stracisz zaklęcie derwisza.",
+				"concise": "Zaklęcie (czar). (45 sek.) Za każdym razem, gdy stracisz zaklęcie derwisza, wrogowie w bezpośrednim sąsiedztwie otrzymują 20...25 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Aura of Holy Might",
+				"description": "Заклинание-чары. В течение 45 сек вы наносите на 20...25 ед. урона святой силой всем окружающим противникам каждый раз, когда вы теряете чары профессии Dervish.",
+				"concise": "Заклинание-чары. (45 сек) Каждый раз, когда вы теряете чары профессии Dervish, оружающие противники получают 20...25 ед. урона святой силой."
+			},
+			"bork": {
+				"name": "Oora ooff Huly Meeght",
+				"description": "Inchuntment Spell. Fur 45 secunds, yuoo deael 20...25 huly daemaege-a tu aell aedjaecent fues vhenefer yuoo luse-a a Derfeesh inchuntment.",
+				"concise": "Inchuntment Spell. (45 secunds.) Vhenefer yuoo luse-a a Derfeesh inchuntment, aedjaecent fues taeke-a 20...25 huly daemaege-a. Bork! Bork! Bork!"
 			}
 		}
 	}

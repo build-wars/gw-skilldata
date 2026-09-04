@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电祷文",
+				"description": "姿态。 「闪电祷文」会使你在受到闪电伤害时，伤害降低26...50%，同时恢复2点能量，效果持续30...90秒。",
+				"concise": "姿态。 在30...90秒之内，每当你受到闪电伤害时，伤害将降低26...50%，同时获得2点能量。"
+			},
+			"cht": {
+				"name": "閃電頌歌",
+				"description": "態勢： 持續 30...90 秒，每當你受到閃電傷害時，可降低 26...50% 傷害並且獲得 2 能量。",
+				"concise": "態勢： (30...90 秒。) 降低 26...50% 閃電傷害，同時在受到閃電傷害時獲得 2 能量。"
+			},
 			"de": {
+				"name": "Mantra des Blitzes",
+				"description": "Haltung. Wann immer Ihr Blitzschaden erleidet, ist der Schaden für einen Zeitraum von 30...90 Sekunde[n] um 26...50% reduziert und Ihr erhaltet 2 Energiepunkte.",
+				"concise": "Haltung. 30...90 Sekunde[n]: Reduziert den von Euch erlittenen Blitzschaden um 26...50%. Ihr erhaltet 2 Energiepunkte, wenn Ihr Blitzschaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Mantra des Blitzes",
 				"description": "Wann immer Ihr Blitzschaden erleidet, ist der Schaden für einen Zeitraum von 30...90 Sekunden um 26...50% reduziert und Ihr erhaltet 2 Energiepunkte.",
 				"concise": "30...90 Sekunden: Reduziert den von Euch erlittenen Blitzschaden um 26...50%. Ihr erhaltet 2 Energiepunkte, wenn Ihr Blitzschaden erleidet."
 			},
 			"en": {
 				"name": "Mantra of Lightning",
+				"description": "Stance. For 30...90 seconds, whenever you take lightning damage, the damage is reduced by 26...50% and you gain 2 Energy.",
+				"concise": "Stance. (30...90 seconds.) Reduces lightning damage you take by 26...50%. You gain 2 Energy when you take lightning damage."
+			},
+			"en-gww": {
+				"name": "Mantra of Lightning",
 				"description": "For 30...90 seconds, whenever you take lightning damage, the damage is reduced by 26...50% and you gain 2 Energy.",
 				"concise": "(30...90 seconds.) Reduces lightning damage you take by 26...50%. You gain 2 Energy when you take lightning damage."
 			},
+			"es": {
+				"name": "Mantra del relámpago",
+				"description": "Actitud. Durante 30...90 segundos, siempre que recibas daño de relámpago, el daño se reduce en un 26...50% y ganas 2 de energía.",
+				"concise": "Actitud. (30...90 segundos). Reduce el daño de relámpago en un 26...50%. Ganas 2 de energía al recibir daño de relámpago."
+			},
 			"fr": {
+				"name": "Mantra de foudre",
+				"description": "Pose de combat. Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts de la foudre, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
+				"concise": "Pose de combat. (30...90 secondes.) Réduit de 26...50% les dégâts de la foudre que vous subissez. Vous gagnez 2 points d'énergie quand vous subissez des dégâts de la foudre."
+			},
+			"fr-gwiki": {
 				"name": "Mantra de foudre",
 				"description": "Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts de la foudre, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mantra del Fulmine",
+				"description": "Posizione. Per 30...90 secondo[i], ogni volta che subirai un danno da fulmine, questo si ridurrà del 26...50% e otterrai 2 Punti Energia.",
+				"concise": "Posizione. (Secondi: 30...90) Riduzione danni da fulmine: 26...50%. Energia conseguita quando subisci danni da fulmine: 2."
+			},
+			"jp": {
+				"name": "ライトニング マントラ",
+				"description": "スタンス： 30...90 秒間、受けるライトニング ダメージが 26...50% 減少し、そのたびに2のエネルギーを獲得します。",
+				"concise": "スタンス： (30...90 秒) 受けるライトニング ダメージが 26...50% 減少し、そのたびに2のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "번개의 권능",
+				"description": "자세. 대상 지정: 없음. 30...90초 동안 번개 대미지를 입을 때마다 26...50% 감소된 대미지를 입고, 2의 에너지를 얻습니다.",
+				"concise": "자세. (30...90초) 번개 대미지를 입을 때 26...50% 감소된 대미지를 입고, 2의 에너지가 증가합니다."
+			},
+			"pl": {
+				"name": "Mantra Błyskawicy",
+				"description": "Postawa. Przez 30...90 sek., za każdym razem, kiedy otrzymujesz obrażenia od błyskawic, obrażenia zostają zmniejszone o 26...50% i zyskujesz 2 punkty energii.",
+				"concise": "Postawa. (30...90 sek.) Obrażenia od błyskawic, jakie otrzymujesz, zmniejszane są o 26...50%. Kiedy otrzymujesz obrażenia od błyskawic, dostajesz 2 pkt. energii."
+			},
+			"ru": {
+				"name": "Mantra of Lightning",
+				"description": "Стойка. В течение 30...90 сек каждый раз, когда вы получаете урон силой молнии, он уменьшается на 26...50%, а вы получаете 2 ед. энергии.",
+				"concise": "Стойка. (30...90 сек) Получаемый вами урон силой молнии уменьшается на 26...50%. Вы получаете 2 ед. энергии при нанесении вам урона силой молнии."
+			},
+			"bork": {
+				"name": "Muntra ooff Leeghtneeng",
+				"description": "Stunce-a. Fur 30...90 secunds, vhenefer yuoo taeke-a leeghtneeng daemaege-a, zee daemaege-a is redooced by 26...50% und yuoo gaeeen 2 Inergy.",
+				"concise": "Stunce-a. (30...90 secunds.) Redooces leeghtneeng daemaege-a yuoo taeke-a by 26...50%. Yuoo gaeeen 2 Inergy vhee yuoo taeke-a leeghtneeng daemaege-a."
 			}
 		}
 	}

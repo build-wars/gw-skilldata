@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 1,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "安抚宠物",
+				"description": "技能。 为你的宠物恢复40...120点生命值。若你的宠物已经死亡，使用此技能可将其复活并恢复它 10...58% 的生命值。",
+				"concise": "技能。 为你的宠物恢复40...120点生命值。若你的宠物已经死亡，使用此技能可将其复活并恢复它 10...58% 的生命值。"
+			},
+			"cht": {
+				"name": "安慰動物",
+				"description": "技能： 治療你的寵物 40...120 體力。若你的寵物已經死亡，此技能可讓牠復活並回復 10...58% 體力，裝備此技能時寵物與你同行。",
+				"concise": "技能： 治療你的寵物 40...120 體力。若你的寵物已經死亡，此技能可讓牠復活並回復 10...58% 體力，裝備此技能時寵物與你同行。"
+			},
 			"de": {
+				"name": "Tier erquicken (PvP)",
+				"description": "Fertigkeit. Ihr heilt Euren Tiergefährten um 40...120 Lebenspunkt[e]. Ist Euer Gefährte tot, wird er mit 10...58% der Lebenspunkte wiederbelebt. Wenn Ihr die Fertigkeit 'Tier erquicken' benutzt, reist Euer Tiergefährte mit Euch.",
+				"concise": "Fertigkeit. Euer Tiergefährte gewinnt 40...120 Lebenspunkt[e]. Euer Tiergefährte wird wiederbelebt (10...58% Lebenspunkte). Wenn Ihr die Fertigkeit 'Tier erquicken' benutzt, reist Euer Tiergefährte mit Euch."
+			},
+			"de-guildwiki": {
 				"name": "Tier erquicken (PvP)",
 				"description": "Ihr heilt Euren Tiergefährten um 40...120 Lebenspunkte. Ist Euer Gefährte tot, wird er mit 10...58% der Lebenspunkte wiederbelebt. Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch.",
 				"concise": "Heilt Euren Tiergefährten um 40...120 Lebenspunkte. Euer Tiergefährte wird wiederbelebt (10...58% Lebenspunkte). Wenn Ihr die Fertigkeit Tier erquicken benutzt, reist Euer Tiergefährte mit Euch."
 			},
 			"en": {
 				"name": "Comfort Animal (PvP)",
+				"description": "Skill. You heal your animal companion for 40...120 Health. If your companion is dead, it is resurrected with 10...58% Health. If you have Comfort Animal equipped, your animal companion will travel with you.",
+				"concise": "Skill. Your pet gains 40...120 Health. Resurrects your pet (10...58% Health). If you have Comfort Animal equipped, your animal companion will travel with you."
+			},
+			"en-gww": {
+				"name": "Comfort Animal (PvP)",
 				"description": "You heal your animal companion for 40...120 Health. If your companion is dead, it is resurrected with 10...58% Health. If you have Comfort Animal equipped, your animal companion will travel with you.",
 				"concise": "Your pet gains 40...120 Health. Resurrects your pet (10...58% Health.) If you have Comfort Animal equipped, your animal companion will travel with you."
 			},
+			"es": {
+				"name": "Confortar animal (PvP)",
+				"description": "Habilidad. Curas 40...120 de salud a tu mascota animal. Si está muerta, la resucitarás con 10...58% de salud. Si tienes equipado Confortar animal, tu mascota viajará contigo.",
+				"concise": "Habilidad. Tu mascota gana 40...120 de salud. Resucita a tu mascota (10...58% de salud). Si tienes equipado Confortar animal, tu mascota viajará contigo."
+			},
 			"fr": {
+				"name": "Bien-être animal (PvP)",
+				"description": "Compétence. Vous soignez votre familier de 40...120 points de vie. S'il est mort, il est ressuscité avec 10...58% de santé. Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements.",
+				"concise": "Compétence. Votre familier gagne 40...120 points de vie. Ressuscite votre familier (10...58% de santé). Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements."
+			},
+			"fr-gwiki": {
 				"name": "Bien-être animal (PvP)",
 				"description": "Vous soignez votre familier de 20...104 points de vie. S'il est mort, il est ressuscité avec 10...58% de santé. Si vous utilisez Bien-être animal, votre familier vous accompagnera lors de vos déplacements.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Conforta Animale (PvP)",
+				"description": "Abilità. La tua mascotte viene curata di 40...120 Punti Salute. Se è morta, viene resuscitata con un 10...58% di Salute. Se disponi di Conforta Animale, la mascotte potrà viaggiare insieme a te.",
+				"concise": "Abilità. Salute ottenuta dalla tua mascotte: 40...120. La mascotte resuscita (Salute: 10...58%). Se disponi di Conforta Animale, la mascotte potrà viaggiare insieme a te."
+			},
+			"jp": {
+				"name": "コンフォート アニマル (PvP)",
+				"description": "スキル： プレイヤーのペットの体力が 40...120 回復します。ペットが戦闘不能な場合、10...58% の体力で復活します。このスキルを装備していると、ペットを連れて歩くことができます。",
+				"concise": "スキル： プレイヤーのペットは 40...120 の体力を獲得します。戦闘不能な場合は復活します (10...58% の体力)。このスキルを装備していると、ペットを連れて歩くことができます。"
+			},
+			"kr": {
+				"name": "펫 회복(대인전)",
+				"description": "스킬. 대상 지정: 없음. 펫의 체력을 40...120 회복시킵니다. 펫이 죽은 상태라면 원래 체력의 10...58%인 상태로 부활합니다. 이 스킬이 단축키 창에 등록돼 있으면 펫을 데리고 다른 지역으로 이동할 수 있습니다.",
+				"concise": "스킬. 펫의 체력을 40...120만큼 회복시킵니다. 펫이 죽은 상태라면 부활합니다.(체력 10...58%) 이 스킬이 등록돼 있으면 펫을 데리고 다른 지역으로 이동할 수 있습니다."
+			},
+			"pl": {
+				"name": "Uzdrowienie Zwierzęcia (PvP)",
+				"description": "Umiejętność. Leczysz swojego zwierzęcego towarzysza dodając mu 40...120 pkt. żywotności. Jeśli jest martwy, wskrzeszasz go z 10...58% punktami żywotności. Jeśli masz na wyposażeniu Uzdrowienie Zwierzęcia, twój towarzysz będzie podróżował wraz z tobą.",
+				"concise": "Umiejętność. Twój zwierzęcy towarzysz otrzymuje 40...120 pkt. żywotności. Wskrzesza twojego zwierzęcego towarzysza (10...58% żywotności). Jeśli masz na wyposażeniu Uzdrowienie Zwierzęcia, twój towarzysz będzie podróżował wraz z tobą."
+			},
+			"ru": {
+				"name": "Comfort Animal (PvP)",
+				"description": "Умение. Вы исцеляете ваше животное на 40...120 ед. здоровья. Если ваш питомец мертв, он воскреснет с 10...58% здоровья. Если вы взяли с собой Comfort Animal, ваш питомец будет путешествовать с вами.",
+				"concise": "Умение. Ваше животное получает 40...120 ед. здоровья. Воскрешает вашего питомца (10...58% здоровья). Если вы взяли с собой Comfort Animal, ваш питомец будет путешествовать с вами."
+			},
+			"bork": {
+				"name": "Cumffurt Uneemael (PfP)",
+				"description": "Skeell. Yuoo heael yuoor uneemael cumpuneeun fur 40...120 Heaelt. Iff yuoor cumpuneeun is deaed, it is resoorrected veet 10...58% Heaelt. Iff yuoo haefe-a Cumffurt Uneemael iqooeepped, yuoor uneemael cumpuneeun veell traefel veet yuoo.",
+				"concise": "Skeell. Yuoor pet gaeeens 40...120 Heaelt. Resoorrects yuoor pet (10...58% Heaelt). Iff yuoo haefe-a Cumffurt Uneemael iqooeepped, yuoor uneemael cumpuneeun veell traefel veet yuoo."
 			}
 		}
 	}

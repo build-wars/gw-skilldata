@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "军士姿态",
+				"description": "精英姿态。 在5...15秒之内，当你受到「战吼」或「圣歌」效果影响时，使你的攻击速度提升33%。",
+				"concise": "精英姿态。 在5...15秒之内，当你受到「战吼」或「圣歌」效果影响时，使你的攻击速度提升33%。"
+			},
+			"cht": {
+				"name": "士兵態勢",
+				"description": "精英態勢： 持續 5...15 秒，你有 75% 機率格檔攻擊，若是你有戰嚎或者聖歌效果，則你的攻擊速度增加 33% 。",
+				"concise": "精英態勢： 持續 5...15 秒，你有 75% 機率格檔攻擊，若是你有戰嚎或者聖歌效果，則你的攻擊速度增加 33% 。"
+			},
 			"de": {
+				"name": "Soldaten-Haltung",
+				"description": "Elite-Haltung. 5...15 Sekunde[n] lang habt Ihr eine 75%ige Chance zu blocken. Ihr greift um 33% schneller an, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht.",
+				"concise": "Elite-Haltung. (5...15 Sekunde[n].) Ihr habt eine 75%ige Chance zu blocken. Ihr greift um 33% schneller an, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht."
+			},
+			"de-guildwiki": {
 				"name": "Soldaten-Haltung",
 				"description": "5...15 Sekunden habt Ihr eine 75%ige Chance zu blocken. Ihr greift um 33% schneller an, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht.",
 				"concise": "(5...15 Sekunden.) Ihr habt eine 75%ige Chance zu blocken. Ihr greift um 33% schneller an, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht."
 			},
 			"en": {
 				"name": "Soldier's Stance",
+				"description": "Elite Stance. For 5...15 seconds, you have a 75% chance to block. You attack 33% faster while under the effects of a shout or chant.",
+				"concise": "Elite Stance. (5...15 seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a shout or chant."
+			},
+			"en-gww": {
+				"name": "Soldier's Stance",
 				"description": "For 5...15 seconds, you have a 75% chance to block. You attack 33% faster while under the effects of a shout or chant.",
 				"concise": "(5...15 seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a chant or shout."
 			},
+			"es": {
+				"name": "Actitud del soldado",
+				"description": "Actitud de élite. Durante 5...15 segundos, tienes un 75% de posibilidades de bloquear. Atacas un 33% más deprisa si estás bajo los efectos de un grito o cántico.",
+				"concise": "Actitud de élite. (5...15 segundos). Tienes un 75% de probabilidades de bloquear. Atacas un 33% más deprisa si estás bajo los efectos de un grito o cántico."
+			},
 			"fr": {
+				"name": "Pose du soldat",
+				"description": "Pose de combat d'élite. Pendant 5...15 secondes, vous avez 75% de chances de bloquer les attaques. Vous attaquez 33% plus vite lorsque vous êtes sous l'effet d'un cri ou d'un chant.",
+				"concise": "Pose de combat d'élite. (5...15 secondes.) Vous avez 75% de chances de bloquer les attaques. Vous attaquez 33% plus vite lorsque vous êtes sous l'effet d'un cri ou d'un chant."
+			},
+			"fr-gwiki": {
 				"name": "Pose du soldat",
 				"description": "Pendant 5...15 secondes, vous bénéficiez de 75% de chances de bloquer. Votre vitesse d'attaque est augmentée de 33% lorsque vous êtes sous l'effet d'un chant ou d'un cri.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione del Soldato",
+				"description": "Posizione d'Élite. Per 5...15 secondo[i] hai un 75% di probabilità di bloccare gli attacchi. Incremento velocità d'attacco mentre sei sotto gli effetti di un urlo o un canto: 33%.",
+				"concise": "Posizione d'Élite. (Secondo[i]: 5...15). Probabilità di blocco: 75%. Incremento velocità d'attacco mentre sei sotto gli effetti di un urlo o un canto: 33%."
+			},
+			"jp": {
+				"name": "ソルジャー スタンス",
+				"description": "エリート スタンス： 5...15 秒間、75% の確率で攻撃をブロックします。シャウトまたはチャントがかけられている場合、攻撃速度が 33% 増加します。",
+				"concise": "エリート スタンス： (5...15 秒) 75% の確率でブロックします。シャウトまたはチャントがかけられている場合、攻撃速度が 33% 増加します。"
+			},
+			"kr": {
+				"name": "병사의 전투 자세",
+				"description": "엘리트 자세. 대상 지정: 없음. 75%의 확률로 공격을 막습니다. 5...15초 동안 고함이나 영창의 효과를 받으면 공격 속도가 33% 빨라집니다.",
+				"concise": "엘리트 자세. (5...15초) 75% 확률로 공격을 막습니다. 고함이나 영창의 효과를 받으면 공격 속도가 33% 빨라집니다."
+			},
+			"pl": {
+				"name": "Postawa Żołnierza",
+				"description": "Postawa elitarna. Przez 5...15 sek., masz 75% szans na blokowanie ataków. Atakujesz 33% szybciej, jeśli jesteś pod działaniem okrzyku lub pieśni.",
+				"concise": "Postawa elitarna. (5...15 sek.) Masz 75% szans na blokowanie ataków. Atakujesz 33% szybciej, jeśli jesteś pod działaniem okrzyku lub pieśni."
+			},
+			"ru": {
+				"name": "Soldier's Stance",
+				"description": "Элитная стойка. В течение 5...15 сек вы получаете 75%-й шанс блокировать атаки. Вы атакуете на 33% быстрее до тех пор, пока вы находитесь под влиянием какого-либо крика или хорала.",
+				"concise": "Элитная стойка. (5...15 сек) Вы получаете 75%-й шанс блокировать атаки. Вы атакуете на 33% быстрее, пока находитесь под воздействием крика или хорала."
+			},
+			"bork": {
+				"name": "Suldeeer's Stunce-a",
+				"description": "Ileete-a Stunce-a. Fur 5...15 secunds, yuoo haefe-a a 75% chunce-a tu bluck. Yuoo aettaeck 33% faester vheele-a under zee iffffects ooff a shuoot oor chunt.",
+				"concise": "Ileete-a Stunce-a. (5...15 secunds.) Yuoo haefe-a a 75% chunce-a tu bluck. Yuoo aettaeck 33% faester vheele-a under zee iffffects ooff a shuoot oor chunt."
 			}
 		}
 	}

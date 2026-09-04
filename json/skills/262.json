@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "审判之盾",
+				"description": "精英增益魔法。 在8...20秒之内，任何击中目标友方的敌人都将会被击倒，并且受到 5...50点 伤害。",
+				"concise": "精英增益魔法。 在 8...20秒 之内，任何击中目标友方的敌人都将会被击倒，并且受到 5...50点 伤害。"
+			},
+			"cht": {
+				"name": "審判之盾",
+				"description": "精英加持魔法： 持續 8...20 秒，任何以一般攻擊命中目標盟友的敵人都將會被擊倒，並且受到 5...50 傷害。",
+				"concise": "精英加持魔法： 持續 8...20 秒，任何以一般攻擊命中目標盟友的敵人都將會被擊倒，並且受到 5...50 神聖傷害。"
+			},
 			"de": {
+				"name": "Schild des Urteils",
+				"description": "Elite-Verzauberung. 8...20 Sekunde[n] lang wird jeder, der den Verbündeten (bzw. Euch selbst) angreift, zu Boden geworfen und erleidet 5...50 Punkt[e] heiligen Schaden.",
+				"concise": "Elite-Verzauberung. 8...20 Sekunde[n]: Richtet bei den Verbündeten (bzw. Euch selbst) angreifenden Feinden 5...50 Punkt[e] heiligen Schaden an. Wirft zu Boden."
+			},
+			"de-guildwiki": {
 				"name": "Schild des Urteils",
 				"description": "8...20 Sekunden lang wird jeder, der den Verbündeten (bzw. Euch selbst) angreift, zu Boden geworfen und erleidet 5...50 Punkte heiligen Schaden.",
 				"concise": "8...20 Sekunden: Richtet bei den Verbündeten (bzw. Euch selbst) angreifenden Feinden 5...50 Punkte heiligen Schaden an. Wirft zu Boden."
 			},
 			"en": {
 				"name": "Shield of Judgment",
+				"description": "Elite Enchantment Spell. For 8...20 seconds, anyone striking target ally with an attack is knocked down and suffers 5...50 holy damage.",
+				"concise": "Elite Enchantment Spell. (8...20 seconds.) Deals 5...50 holy damage to foes attacking target ally. Causes knock-down."
+			},
+			"en-gww": {
+				"name": "Shield of Judgment",
 				"description": "For 8...20 seconds, anyone striking target ally with an attack is knocked down and suffers 5...50 holy damage.",
 				"concise": "(8...20 seconds.) Deals 5...50 holy damage to foes attacking <sic/> target ally. Causes knock-down."
 			},
+			"es": {
+				"name": "Escudo del juicio",
+				"description": "Conjuro con encantamiento de élite. Durante 8...20 segundos, todo el que golpee al objetivo (un aliado o tú mismo) será derribado y sufrirá 5...50 de daño sagrado.",
+				"concise": "Conjuro con encantamiento de élite. (8...20 segundos). Hace 5...50 de daño sagrado a los enemigos que ataquen al objetivo (un aliado o tú mismo). Causa derribo."
+			},
 			"fr": {
+				"name": "Bouclier du jugement",
+				"description": "Enchantement d'élite. Pendant 8...20 secondes, toutes les créatures qui attaquent la cible (un allié ou vous-même) sont assommées et subissent 5...50 points de dégâts sacrés.",
+				"concise": "Enchantement d'élite. (8...20 secondes.) Inflige 5...50 points de dégâts sacrés aux ennemis qui attaquent la cible alliée. Attaque assommante."
+			},
+			"fr-gwiki": {
 				"name": "Bouclier du jugement",
 				"description": "Pendant 8...20 secondes, toutes les créatures qui attaquent la cible (un allié ou vous-même) sont assommées et subissent 5...50 points de dégâts.",
 				"concise": "(8...20 secondes.) Inflige 5...50 points de dégâts sacrés aux ennemis qui attaquent la cible alliée. Attaque assomante."
+			},
+			"it": {
+				"name": "Scudo del Giudizio",
+				"description": "Incantesimo d'Élite. Per 8...20 secondo[i], chiunque colpisca l'obiettivo (un alleato o te stesso) con un attacco viene buttato a terra e subisce 5...50 danno[i] sacro[i].",
+				"concise": "Incantesimo d'Élite. (Secondi: 8...20) Danni sacri ai nemici che attaccano l'obiettivo alleato: 5...50. Provoca abbattimento."
+			},
+			"jp": {
+				"name": "ジャッジ シールド",
+				"description": "エリート強化スペル： 8...20 秒間、ターゲットした味方に対する攻撃者を転倒させ、5...50 の神聖ダメージを与えます。",
+				"concise": "エリート強化スペル： (8...20 秒) ターゲットした味方を攻撃する敵に 5...50 の神聖ダメージを与え、転倒させます。"
+			},
+			"kr": {
+				"name": "심판의 기도",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 8...20초 동안 대상에 대한 공격을 성공한 적은 5...50의 신성 대미지를 입고 바닥에 넘어집니다.",
+				"concise": "엘리트 강화 마법. (8...20초) 아군을 공격 중인 적에게 5...50의 신성 대미지를 주고, 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Tarcza Osądu",
+				"description": "Elitarne zaklęcie (czar). Przez 8...20 sek., ktokolwiek zaatakuje wybranego sojusznika zostanie powalony i otrzyma 5...50 pkt. świętych obrażeń.",
+				"concise": "Elitarne zaklęcie (czar). (8...20 sek.) Przeciwnikom atakującym wybranego sojusznika zadaje 5...50 pkt. świętych obrażeń. Powoduje powalenie."
+			},
+			"ru": {
+				"name": "Shield of Judgment",
+				"description": "Элитное заклинание-чары. В течение 8...20 сек любой, кто нанесет выбранному союзнику урон в атаке, будет сбит с ног и получит 5...50 ед. урона святой силой.",
+				"concise": "Элитное заклинание-чары. (8...20 сек) Наносит 5...50 ед. урона святой силой противникам, атакующим выбранного союзника. Сбивает с ног."
+			},
+			"bork": {
+				"name": "Sheeeld ooff Joodgment",
+				"description": "Ileete-a Inchuntment Spell. Fur 8...20 secunds, unyune-a streekeeng taerget aelly veet un aettaeck is knucked doon und sooffffers 5...50 huly daemaege-a.",
+				"concise": "Ileete-a Inchuntment Spell. (8...20 secunds.) Deaels 5...50 huly daemaege-a tu fues aettaeckeeng taerget aelly. Cooses knuck-doon."
 			}
 		}
 	}

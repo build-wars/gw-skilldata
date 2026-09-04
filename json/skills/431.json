@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "点燃之箭",
+				"description": "预备技。 持续 24秒，你射出的箭在接触目标时产生爆炸，爆炸将波及所有邻近的敌人，对他们造成 3...18的 火焰伤害。",
+				"concise": "预备技。 持续 24秒，你射出的箭在接触目标时产生爆炸，爆炸将波及所有邻近的敌人，对他们造成 3...18的 火焰伤害。"
+			},
+			"cht": {
+				"name": "爆烈箭",
+				"description": "準備技能： 持續 24 秒，你射出的箭在接觸目標時產生爆炸並且波及鄰近的所有敵人，對他們造成 3...18 火焰傷害。",
+				"concise": "準備技能： 持續 24 秒，你射出的箭在接觸目標時產生爆炸並且波及鄰近的所有敵人，對他們造成 3...18 火焰傷害。"
+			},
 			"de": {
+				"name": "Brandpfeile",
+				"description": "Vorbereitung. 24 Sekunden lang explodieren Eure Pfeile beim Aufschlag und fügen dem Gegner und allen umstehenden Feinden 3...18 Punkt[e] Feuerschaden zu.",
+				"concise": "Vorbereitung. 24 Sekunden: Eure Pfeile richten beim Gegner und umstehenden Feinden 3...18 Punkt[e] Feuerschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Brandpfeile",
 				"description": "24 Sekunden lang explodieren Eure Pfeile beim Aufschlag und fügen dem Gegner und allen umstehenden Feinden 3...18 Punkte Feuerschaden zu.",
 				"concise": "24 Sekunden: Eure Pfeile richten beim Gegner und umstehenden Feinden 3...18 Punkte Feuerschaden an."
 			},
 			"en": {
 				"name": "Ignite Arrows",
+				"description": "Preparation. For 24 seconds, your arrows explode on contact, dealing 3...18 fire damage to target and all adjacent foes.",
+				"concise": "Preparation. (24 seconds.) Your arrows deal 3...18 fire damage to target and foes adjacent to target."
+			},
+			"en-gww": {
+				"name": "Ignite Arrows",
 				"description": "For 24 seconds, your arrows explode on contact, dealing 3...18 fire damage to target and all adjacent foes.",
 				"concise": "(24 seconds.) Your arrows deal 3...18 fire damage to target and foes adjacent to target."
 			},
+			"es": {
+				"name": "Flechas inflamables",
+				"description": "Preparación[\"Preparaciones\"]. Durante 24 segundos, tus flechas explotan al contacto, haciendo 3...18 de daño de fuego al enemigo objetivo y los adyacentes.",
+				"concise": "Preparación[\"Preparaciones\"]. (24 segundos). Tus flechas hacen 3...18 de daño de fuego al enemigo objetivo y los adyacentes."
+			},
 			"fr": {
+				"name": "Flèches de feu",
+				"description": "Préparation. Pendant 24 secondes, vos flèches explosent à l'impact et infligent 3...18 points de dégâts du feu à la cible et aux ennemis adjacents.",
+				"concise": "Préparation. (24 secondes.) Vos flèches infligent 3...18 points de dégâts du feu à la cible et aux ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Flèches de feu",
 				"description": "Pendant 24 secondes, vos flèches explosent à l'impact et infligent 3...18 points de dégâts du feu à la cible et aux ennemis adjacents.",
 				"concise": "(24 secondes.) Vos flèches infligent 3...18 points de dégâts du feu à la cible et aux ennemis adjacents."
+			},
+			"it": {
+				"name": "Frecce Esplosive",
+				"description": "Preparazione. Per 24 secondi, le tue frecce esplodono al contatto, infliggendo 3...18 danno[i] da fuoco all'obiettivo e a tutti i nemici adiacenti.",
+				"concise": "Preparazione. (Secondi: 24) Danni da fuoco inferti dalle tue frecce: 3...18 all'obiettivo e ai nemici a lui adiacenti."
+			},
+			"jp": {
+				"name": "イグナイト アロー",
+				"description": "プレパレーション： 24秒間、矢が命中すると爆発し、ターゲットした敵および隣接するすべての敵に 3...18 のファイア ダメージを与えます。",
+				"concise": "プレパレーション： (24秒) 弓攻撃により、ターゲットした敵および隣接する敵に 3...18 のファイア ダメージを与えます。"
+			},
+			"kr": {
+				"name": "폭약 화살",
+				"description": "준비. 대상 지정: 없음. 24초 동안 화살이 명중하면 폭발을 일으켜 인접한 모든 적에게 3...18의 불 대미지를 줍니다.",
+				"concise": "준비. (24초) 화살 공격이 대상과 그에 인접한 적들에게 3...18의 불 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Strzały Wybuchające",
+				"description": "Przygotowanie. Przez 24 sek. twoje strzały eksplodują przy trafieniu, zadając celowi i wszystkim przeciwnikom znajdującym się bezpośrednio przy nim 3...18 pkt. obrażeń od ognia.",
+				"concise": "Przygotowanie. (24 sek.) Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim twoje strzały zadają po 3...18 pkt. obrażeń od ognia."
+			},
+			"ru": {
+				"name": "Ignite Arrows",
+				"description": "Подготовка. В течение 24 сек ваши стрелы взрываются при попадании, нанося дополнительно 3...18 ед. урона силой огня вашей цели и всем окружающим ее противникам.",
+				"concise": "Подготовка. (24 сек) Ваши стрелы наносят 3...18 ед. урона силой огня вашей цели и окружающим ее противникам."
+			},
+			"bork": {
+				"name": "Igneete-a Aerroos",
+				"description": "Prepaeraeshun. Fur 24 secunds, yuoor aerroos ixplude-a oon cuntaect, deaeleeng 3...18 fure-a daemaege-a tu taerget und aell aedjaecent fues.",
+				"concise": "Prepaeraeshun. (24 secunds.) Yuoor aerroos deael 3...18 fure-a daemaege-a tu taerget und fues aedjaecent tu taerget."
 			}
 		}
 	}

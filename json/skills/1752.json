@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 3,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "医疗之躯",
+				"description": "精英武咒。 持续8秒，目标盟友下次承受敌人伤害或生命吸取时，从该敌人处窃取20...80生命并移除2个状态。",
+				"concise": "精英武咒。 （8秒）目标盟友下次承受敌人伤害或生命吸取时，窃取20...80生命并移除2个状态。"
+			},
+			"cht": {
+				"name": "治療武裝",
+				"description": "精英武裝魔法： 持续8秒，目标盟友下次承受敌人伤害或生命吸取时，从该敌人处窃取20...80生命并移除2个状态。",
+				"concise": "精英武裝魔法： (8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals 20...80 Health from that foe and loses 2 conditions."
+			},
 			"de": {
+				"name": "Waffe der Behebung",
+				"description": "Elite-Waffenzauber. 8 Sekunden lang stiehlt der Zielverbündete das nächste Mal, wenn ein Gegner ihm Schaden oder Lebensentzug zufügt, diesem Gegner bis zu 20...80 Lebenspunkte, und er verliert 2 Zustände.",
+				"concise": "Elite-Waffenzauber. (8 Sekunden) Der Zielverbündete stiehlt das nächste Mal, wenn ein Gegner ihm Schaden oder Lebensentzug zufügt, diesem Gegner bis zu 20...80 Lebenspunkte, und er verliert 2 Zustände."
+			},
+			"de-guildwiki": {
 				"name": "Waffe der Behebung",
 				"description": "Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 8 Sekunden das nächste Mal durch einen Gegner Schaden erleidet oder Lebenspunkte entzogen bekommt, entzieht er diesem Gegner bis zu 20...80 Lebenspunkte und verliert 2 Zustände.",
 				"concise": "(8 Sekunden.) Wenn der Verbündete (bzw. Ihr selbst) das nächste Mal durch einen Gegner Schaden erleidet oder Lebenspunkte entzogen bekommt, entzieht er diesem Gegner 20...80 Lebenspunkte und verliert 2 Zustände."
 			},
 			"en": {
 				"name": "Weapon of Remedy",
+				"description": "Elite Weapon Spell. For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 20...80 Health from that foe and loses 2 conditions.",
+				"concise": "Elite Weapon Spell. (8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals 20...80 Health from that foe and loses 2 conditions."
+			},
+			"en-gww": {
+				"name": "Weapon of Remedy",
 				"description": "For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 20...80 Health from that foe and loses 2 conditions.",
 				"concise": "(8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals 20...80 Health from that foe and loses 2 conditions."
 			},
+			"es": {
+				"name": "Arma de remedio",
+				"description": "Conjuro con arma de élite. Durante 8 segundos, la siguiente vez que el objetivo aliado reciba daño o pierda vida debido al ataque de un enemigo, el aliado le robará 20...80 de salud al enemigo y perderá 2 condiciones.",
+				"concise": "Conjuro con arma de élite. (8 segundos). La próxima vez que el objetivo aliado reciba daño o pierda vida debido al ataque de un enemigo, el aliado le robará 20...80 de salud al enemigo y perderá 2 condiciones."
+			},
 			"fr": {
+				"name": "Arme de remède",
+				"description": "Sort d'altération d'arme d'élite. Pendant 8 secondes, la prochaine fois que l'allié visé subit des dégâts ou un vol de vie, il absorbe 20...80 points de vie à cet ennemi et perd 2 altérations.",
+				"concise": "Sort d'altération d'arme d'élite. (8 secondes.) La prochaine fois que l'allié visé subit des dégâts ou un vol de vie, il absorbe 20...80 points de vie à cet ennemi et perd 2 altérations."
+			},
+			"fr-gwiki": {
 				"name": "Arme de remède",
 				"description": "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts d'un ennemi, elle absorbe 20...80 points de vie à cet ennemi et perd 2 conditions.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma del Rimedio",
+				"description": "Magia d'Élite Altera-arma. Per 8 secondo/i, la prossima volta che il bersaglio alleato subisce danni o sottrae vita a un nemico, sottrae fino a 20...80 Salute da quel nemico e perde 2 condizioni.",
+				"concise": "Magia d'Élite Altera-arma. (8 secondo/i). La prossima volta che il bersaglio alleato subisce danni o sottrae vita a un nemico, sottrae 20...80 Salute da quel nemico e perde 2 condizioni."
+			},
+			"jp": {
+				"name": "レメディ ウェポン",
+				"description": "エリート ウェポン スペル： 8秒間、次に標的の味方が敵からダメージを受けたり、敵からライフを奪われたりすると、その味方はその敵から最大20...80の体力を奪い、2つのデバフを失います。",
+				"concise": "エリート ウェポン スペル： （8秒）次に標的の味方が敵からダメージを受けたり、敵からライフを奪われたりすると、この味方はその敵から20...80の体力を奪い、2つのデバフを失います。"
+			},
+			"kr": {
+				"name": "치료의 무기",
+				"description": "엘리트 마법 무기. 8초 동안 대상이 적에게서 공격 대미지나 체력 흡수 대미지를 입으면 대상은 그 적에게서 20...80의 체력을 뺏고 상태이상 두 개를 무효화합니다.",
+				"concise": "엘리트 마법 무기. (8초) 대상이 적에게서 공격 대미지나 체력 흡수 대미지를 입으면 대상은 그 적에게서 20...80의 체력을 뺏고 상태이상 두 개를 무효화합니다."
+			},
+			"pl": {
+				"name": "Oręż Remedium",
+				"description": "Elitarny czar z broni. Przez 8 sek. następnym razem, kiedy wybrany sojusznik otrzyma obrażenia lub zostanie mu wykradziona żywotność, sojusznik ten wykrada przeciwnikowi do 20...80 pkt. żywotności i traci 2 przypadłości.",
+				"concise": "Elitarny czar z broni. (8 sek.) Następnym razem, kiedy wybrany sojusznik otrzyma obrażenia lub zostanie mu wykradziona żywotność, ten sojusznik wykrada przeciwnikowi do 20...80 pkt. żywotności i traci 2 przypadłości."
+			},
+			"ru": {
+				"name": "Weapon of Remedy",
+				"description": "Элитное оружейное заклинание. В течение 8 сек., когда выбранный союзник получает урон или крадёт здоровье у врага, он крадёт до 20...80 ед. здоровья у этого врага и теряет 2 состояния.",
+				"concise": "Элитное оружейное заклинание. (8 сек.) Когда выбранный союзник получает урон или крадёт здоровье у врага, он крадёт 20...80 ед. здоровья у этого врага и теряет два состояния."
+			},
+			"bork": {
+				"name": "Veaepun ooff Remedy",
+				"description": "Ileete-a Veaepun Spell. Fur 8 secunds, zee next teeme-a taerget aelly taekes daemaege-a oor leeffe-a steael frum a fue-a, thaet aelly steaels up tu 20...80 Heaelt frum thaet fue-a und luses 2 cundeeshuns.",
+				"concise": "Ileete-a Veaepun Spell. (8 secunds.) Zee next teeme-a taerget aelly taekes daemaege-a oor leeffe-a steael frum a fue-a, thees aelly steaels 20...80 Heaelt frum thaet fue-a und luses 2 cundeeshuns."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 8,
 		"adrenaline_precise": 8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "博内蒂防御",
+				"description": "姿态。 在5...11秒之内，使你有75%的几率格挡近身攻击和弓箭射击。每成功格挡一次近身攻击，你将获得5点能量。如果你在此「姿态」下使用技能，则「姿态」效果消失。",
+				"concise": "姿态。 在5...11秒之内，使你有75%的几率格挡近身攻击和弓箭射击。每成功格挡一次近身攻击，你将获得5点能量。如果你在此「姿态」下使用技能，则「姿态」效果消失。"
+			},
+			"cht": {
+				"name": "博尼迪防禦態勢",
+				"description": "態勢： 持續 5...11 秒，你有 75% 機率「格擋」近身攻擊和弓箭。每當成功「格擋」近身攻擊時，你獲得 5 能量。若在此態勢下使用其他技能，則態勢效果停止。",
+				"concise": "態勢： 持續 5...11 秒，你有 75% 機率「格擋」近身攻擊和弓箭。每當成功「格擋」近身攻擊時，你獲得 5 能量。若在此態勢下使用其他技能，則態勢效果停止。"
+			},
 			"de": {
+				"name": "Bonettis Verteidigung",
+				"description": "Haltung. 5...11 Sekunde[n] lang habt Ihr eine 75%ige Chance, Nahkampf- und Geschossangriffe zu blocken. Für jeden erfolgreichen Block eines Nahkampfangriffs erhaltet Ihr 5 Energiepunkte. Bonettis Verteidigung endet, sobald Ihr eine Fertigkeit verwendet.",
+				"concise": "Haltung. 5...11 Sekunde[n]: Ihr habt eine 75%ige Chance zu blocken. Für jeden geblockten Nahkampfangriff erhaltet Ihr 5 Energiepunkte. Endet, sobald Ihr eine Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Bonettis Verteidigung",
 				"description": "Für die nächsten 5...11 Sekunden habt Ihr eine 75%-ige Chance Angriffe zu blocken. Ihr bekommt 5 Energie für jeden geblockten Nahkampfangriff. Bonettis Verteidigung endet, sobald Ihr eine Fertigkeit verwendet.",
 				"concise": "5...11 Sekunden: Ihr habt eine 75%ige Chance zu blocken. Für jeden geblockten Nahkampfangriff erhaltet Ihr 5 Energiepunkte. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Bonetti's Defense",
+				"description": "Stance. For 5...11 seconds, you have a 75% chance to block melee and projectile attacks. You gain 5 Energy for each successful melee attack blocked. Bonetti's Defense ends if you use a skill.",
+				"concise": "Stance. (5...11 seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. Ends if you use a skill."
+			},
+			"en-gww": {
+				"name": "Bonetti's Defense",
 				"description": "For 5...11 seconds, you have a 75% chance to block melee and projectile attacks. You gain 5 Energy for each successful melee attack blocked. Bonetti's Defense ends if you use a skill.",
 				"concise": "(5...11 seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. <gray>Ends if you use a skill.</gray>"
 			},
+			"es": {
+				"name": "Defensa de Bonetti",
+				"description": "Actitud. Durante 5...11 segundos, tienes un 75% de posibilidades de bloquear ataques cuerpo a cuerpo y con proyectiles. Ganas 5 de energía por cada ataque cuerpo a cuerpo bloqueado. La Defensa de Bonetti finaliza si utilizas una habilidad.",
+				"concise": "Actitud. (5...11 segundos). Tienes un 75% de probabilidades de bloquear. Ganas 5 de energía por cada ataque cuerpo a cuerpo bloqueado. Acaba si usas una habilidad."
+			},
 			"fr": {
+				"name": "Défense de Bonetti",
+				"description": "Pose de combat. Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Vous gagnez 5 points d'énergie pour chaque attaque de mêlée bloquée. La Défense de Bonetti prend fin si vous utilisez une compétence.",
+				"concise": "Pose de combat. (5...11 secondes.) Vous avez 75% de chances de bloquer. Vous gagnez 5 points d'énergie par attaque au corps à corps bloquée. Prend fin si vous utilisez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Défense de Bonetti",
 				"description": "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les flèches. Vous gagnez 5 points d'énergie pour chaque attaque de mêlée bloquée. La ''Défense de Bonetti'' prend fin si vous utilisez une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Difesa di Bonetti",
+				"description": "Posizione. Per 5...11 secondo[i] hai il 75% di probabilità di bloccare gli attacchi ravvicinati e proiettili. Ottieni 5 Punti Energia per ogni attacco ravvicinato parato con successo; termina se utilizzi un'abilità.",
+				"concise": "Posizione. (Secondi: 5...11) Probabilità di blocco: 75%. Energia conseguita per ogni attacco in mischia bloccato: 5. Termina se usi un'abilità."
+			},
+			"jp": {
+				"name": "ボネッティ ディフェンス",
+				"description": "スタンス： 5...11 秒間、75%の確率で近接攻撃および遠投攻撃をブロックします。近接攻撃をブロックするたびに5のエネルギーを獲得します。スキルを使用すると、この効果は消失します。",
+				"concise": "スタンス： (5...11 秒) 75%の確率で攻撃をブロックします。近接攻撃をブロックするたびに5のエネルギーを獲得します。スキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "보네티의 방어 자세",
+				"description": "자세. 대상 지정: 없음. 5...11초 동안 75% 확률로 근접 물리 공격과 원거리 발사체 공격을 막아 내며, 공격을 막을 때마다 5의 에너지를 얻습니다. 다른 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "자세. (5...11초) 75%의 확률로 공격을 막아 내며, 공격을 막을 때마다 5의 에너지를 얻습니다. 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Obrona Bonetti'ego",
+				"description": "Postawa. Przez 5...11 sek. masz 75% szans na blokowanie ataków wręcz i ataków zasięgowych. Za każdy zablokowany atak wręcz otrzymujesz 5 pkt. energii. Obrona Bonetti'ego przestanie działać, kiedy użyjesz umiejętności.",
+				"concise": "Postawa. (5...11 sek.) Masz 75% szans na blokowanie. Za każdy zablokowany atak wręcz otrzymujesz 5 pkt. energii. Przestanie działać, jeśli użyjesz umiejętności."
+			},
+			"ru": {
+				"name": "Bonetti's Defense",
+				"description": "Стойка. В течение 5...11 сек вы получаете 75%-й шанс блокировать рукопашные и метательные атаки. Вы получаете 5 ед. энергии за каждую успешно блокированную рукопашную атаку. Bonetti's Defense прекращает свое действие, если вы используете какое-либо умение.",
+				"concise": "Стойка. (5...11 сек) Вы получаете 75%-й шанс блокировать атаки. Вы получаете 5 ед. энергии за каждую блокированную рукопашную атаку. Заканчивается, если вы используете умение."
+			},
+			"bork": {
+				"name": "Bunettee's Deffense-a",
+				"description": "Stunce-a. Fur 5...11 secunds, yuoo haefe-a a 75% chunce-a tu bluck melee-a und prujecteele-a aettaecks. Yuoo gaeeen 5 Inergy fur iaech sooccessffool melee-a aettaeck blucked. Bunettee's Deffense-a inds iff yuoo use-a a skeell.",
+				"concise": "Stunce-a. (5...11 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Gaeeen 5 Inergy fur iaech melee-a aettaeck blucked. Inds iff yuoo use-a a skeell."
 			}
 		}
 	}

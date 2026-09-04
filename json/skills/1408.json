@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恩多卡之怒",
+				"description": "精英技能。 使你获得等同于1...7次攻击所得的怒气。在8秒之内，当你使用怒气技能时，该技能冷却时间变为3秒。",
+				"concise": "精英技能。 使你获得等同于1...7次攻击所得的怒气。在8秒之内，当你使用怒气技能时，该技能冷却时间变为3秒。"
+			},
+			"cht": {
+				"name": "恩多卡之怒",
+				"description": "精英技能： 你獲得等同 1...7 次攻擊成功累積的怒氣值。持續 8 秒，每當你使用需要怒氣值的技能時，該技能的回復時間為 3 秒。",
+				"concise": "精英技能： 你獲得等同 1...7 次攻擊成功累積的怒氣值。持續 8 秒，每當你使用需要怒氣值的技能時，該技能的回復時間為 3 秒。"
+			},
 			"de": {
+				"name": "Wut des Ntouka",
+				"description": "Elite-Fertigkeit. Erhaltet 1...7 Adrenalinstöße. Während der nächsten 8 Sekunde[n] wird jedes Mal, wenn Ihr eine Adrenalinfertigkeit verwendet, diese 3 Sekunde[n] lang wieder aufgeladen.",
+				"concise": "Elite-Fertigkeit. Ihr erhaltet 1...7 Adrenalinstöße. Adrenalinfertigkeiten laden sich nach Benutzung innerhalb von 3 Sekunde[n] wieder auf (8 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Wut des Ntouka",
 				"description": "Erhaltet 1...7 Adrenalinstöße. Während der nächsten 8 Sekunden dauert die Wiederaufladung von Adrenalinfertigkeiten 3 Sekunden länger.",
 				"concise": "Ihr erhaltet 1...7 Adrenalinstöße. <gray>Die Wiederaufladung von Adrenalinfertigkeiten dauert 3 Sekunden länger (8 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Rage of the Ntouka",
+				"description": "Elite Skill. Gain 1...7 strikes of adrenaline. For 8 seconds, whenever you use an adrenal skill, that skill recharges for 3 seconds.",
+				"concise": "Elite Skill. You gain 1...7 adrenaline. For 8 seconds, adrenal skills have a 3 second recharge when used."
+			},
+			"en-gww": {
+				"name": "Rage of the Ntouka",
 				"description": "Gain 1...7 strike[s] of adrenaline. For 8 seconds, whenever you use an adrenal skill, that skill recharges for 3 seconds.",
 				"concise": "You gain 1...7 adrenaline. <gray>For 8 seconds, adrenal skills have a 3 second recharge when used.</gray>"
 			},
+			"es": {
+				"name": "Furia del Ntouka",
+				"description": "Habilidad de élite. Ganas 1...7 golpes de adrenalina. Durante 8 segundos, cada vez que uses una habilidad de adrenalina, se recargará durante 3 segundos.",
+				"concise": "Habilidad de élite. Ganas 1...7 de adrenalina. Durante 8 segundos, las habilidades de adrenalina tardan 3 segundos en recargarse cuando las uses."
+			},
 			"fr": {
+				"name": "Rage du Ntouka",
+				"description": "Compétence élite. Vous gagnez 1...7 décharges d'adrénaline. Pendant 8, secondes chaque fois que utilisez une compétence d'adrénaline, cette compétence se recharge pendant 3 secondes.",
+				"concise": "Compétence élite. Vous gagnez 1...7 décharges d'adrénaline. Pendant 8 secondes, les compétences d'adrénaline utilisées se rechargent pendant 3 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Rage du Ntouka",
 				"description": "Vous gagnez 1...7 décharge(s) d'adrénaline. Pendant 8 secondes, chaque fois que vous utilisez une compétence d'adrénaline, cette compétence se recharge pendant 3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Impeto dello Ntouka",
+				"description": "Abilità d'Élite. Ottieni 1...7 dose[i] di adrenalina. Per 8 secondo[i], ogni volta che attivi un'abilità che richiede adrenalina, quella abilità si ricarica per 3 secondo[i].",
+				"concise": "Abilità d'Élite. Adrenalina conseguita: 1...7. Per 8 secondo[i] le abilità di adrenalina si ricaricano in 3 secondo[i] quando vengono usate."
+			},
+			"jp": {
+				"name": "ントゥカ レイジ",
+				"description": "エリート スキル： アドレナリンを 1...7 発獲得します。8 秒間、アドレナリン スキルを使用するたびに、そのスキルの再使用時間が 3 秒になります。",
+				"concise": "エリート スキル： 1...7 発のアドレナリンを獲得します。8 秒間、アドレナリン スキルを使用すると再使用時間が 3 秒になります。"
+			},
+			"kr": {
+				"name": "토우카의 분노",
+				"description": "엘리트 스킬. 대상 지정: 없음. 1...7번 공격한 만큼의 아드레날린을 얻습니다. 8초 동안 아드레날린 스킬을 사용할 때마다 그 스킬의 재활성 시간이 3초가 됩니다.",
+				"concise": "엘리트 스킬. 1...7의 아드레날린을 얻습니다. 사용한 아드레날린 스킬의 재활성 시간이 3초가 됩니다.(8초)"
+			},
+			"pl": {
+				"name": "Szał Ntouki",
+				"description": "Umiejętność elitarna. Otrzymujesz adrenalinę w liczbie dawek: 1...7. Przez 8 sek., za każdym razem, kiedy użyjesz umiejętności opartej na adrenalinie, umiejętność ta odnowi się po 3 sek.",
+				"concise": "Umiejętność elitarna. Otrzymujesz dawki adrenaliny w liczbie 1...7. Przez 8 sek. umiejętność oparte na adrenalinie posiadają 3 sek. czas odnowienia."
+			},
+			"ru": {
+				"name": "Rage of the Ntouka",
+				"description": "Элитное умение. Вы получаете 1...7 ед. адреналина. В течение 8 сек каждый раз, когда вы используете умение, требующее адреналина, это умение перезаряжается в течение 3 сек.",
+				"concise": "Элитное умение. Вы получаете 1...7 ед. адреналина. В течение 8 сек умения, требующие адреналина, перезаряжаются 3 сек после использования."
+			},
+			"bork": {
+				"name": "Raege-a ooff zee Ntuooka",
+				"description": "Ileete-a Skeell. Gaeeen 1...7 streeke-as ooff aedrenaeleene-a. Fur 8 secunds, vhenefer yuoo use-a un aedrenael skeell, thaet skeell rechaerges fur 3 secunds.",
+				"concise": "Ileete-a Skeell. Yuoo gaeeen 1...7 aedrenaeleene-a. Fur 8 secunds, aedrenael skeells haefe-a a 3 secund rechaerge-a vhee used."
 			}
 		}
 	}

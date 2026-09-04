@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "病症转嫁",
+				"description": "增益魔法。 每当你带有一项「症状」时，该「症状」将会转移至最接近你的不死仆从身上，技能持续 15...60秒。",
+				"concise": "增益魔法。 每当你带有一项「症状」时，该「症状」将会转移至最接近你的不死仆从身上，技能持续 15...60秒。"
+			},
+			"cht": {
+				"name": "病症移轉",
+				"description": "加持魔法： 在接下來的 15...60 秒內，每當你遭受「病症」時，該「病症」將會轉移至最接近你的不死爪牙身上。",
+				"concise": "加持魔法： 在接下來的 15...60 秒內，每當你遭受「病症」時，該「病症」將會轉移至最接近你的不死爪牙身上。"
+			},
 			"de": {
+				"name": "Zustand einflößen",
+				"description": "Verzauberung. Während der nächsten 15...60 Sekunde[n] wird jeder Zustand, den Ihr erhaltet, stattdessen auf Euren nächsten Diener übertragen.",
+				"concise": "Verzauberung. 15...60 Sekunde[n]: Überträgt jeden Zustand, den Ihr erhaltet, von Euch auf Euren am nächsten befindlichen untoten Diener."
+			},
+			"de-guildwiki": {
 				"name": "Zustand einflößen",
 				"description": "Während der nächsten 15...60 Sekunden wird jeder Zustand, den Ihr erhaltet, stattdessen auf Euren nächsten Diener übertragen.",
 				"concise": "15...60 Sekunden: Überträgt jeden Zustand, den Ihr erhaltet, von Euch auf Euren am nächsten befindlichen untoten Diener."
 			},
 			"en": {
 				"name": "Infuse Condition",
+				"description": "Enchantment Spell. For the next 15...60 seconds, whenever you receive a condition, that condition is transferred to your closest minion instead.",
+				"concise": "Enchantment Spell. (15...60 seconds.) Whenever you receive a condition, it transfers from you to your closest undead servant."
+			},
+			"en-gww": {
+				"name": "Infuse Condition",
 				"description": "For the next 15...60 seconds, whenever you receive a condition, that condition is transferred to your closest minion instead.",
 				"concise": "(15...60 seconds.) Whenever you receive a condition, it transfers from you to your closest undead servant."
 			},
+			"es": {
+				"name": "Infundir condición",
+				"description": "Conjuro con encantamiento. Durante los próximos 15...60 segundos, cuando recibas una condición la sufrirá tu siervo más cercano.",
+				"concise": "Conjuro con encantamiento. (15...60 segundos). Cuando recibas una condición, la transfieres a tu siervo más cercano."
+			},
 			"fr": {
+				"name": "Transfert de condition",
+				"description": "Enchantement. Pendant 15...60 secondes, à chaque fois que vous devriez recevoir une condition, elle est transférée à votre plus proche serviteur à la place.",
+				"concise": "Enchantement. (15...60 secondes.) Chaque fois qu'une condition vous est infligée, elle est aussitôt transférée à votre serviteur mort-vivant le plus proche."
+			},
+			"fr-gwiki": {
 				"name": "Transfert de condition",
 				"description": "Pendant 15...60 secondes, à chaque fois que vous devriez recevoir une nouvelle condition, elle est transférée à votre plus proche serviteur à la place.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Infondi Condizione",
+				"description": "Incantesimo. Dura 15...60 secondo[i]; se ricevi una condizione, questa viene trasferita allo sgherro che ti sta più vicino.",
+				"concise": "Incantesimo. (Secondi: 15...60) Ogni volta che ricevi una condizione viene trasferita al tuo morto vivente più vicino."
+			},
+			"jp": {
+				"name": "インフューズ コンディション",
+				"description": "強化スペル： 15...60 秒間、「状態異常」をかけられるたびに、プレイヤーが操作している最寄のミニオンにその「状態異常」を転移します。",
+				"concise": "強化スペル： (15...60 秒) 「状態異常」がかけられるたびに、最寄の自分のミニオンへ転移します。"
+			},
+			"kr": {
+				"name": "상태 전이",
+				"description": "강화 마법. 대상 지정: 없음. 15...60초 동안 자신이 걸리는 모든 상태이상을 가장 가까운 언데드 노예에게 옮깁니다.",
+				"concise": "강화 마법. (15...60초) 자신이 걸리는 상태이상을 가장 가까운 언데드 노예에게 옮깁니다."
+			},
+			"pl": {
+				"name": "Przenoszenie Przypadłości",
+				"description": "Zaklęcie (czar). Przez 15...60 sek., za każdym razem, kiedy otrzymujesz nową przypadłość, najbliższy sługa otrzymuje tę przypadłość zamiast ciebie.",
+				"concise": "Zaklęcie (czar). (15...60 sek.) Za każdym razem, kiedy otrzymujesz przypadłość, zostaje ona przeniesiona na twojego najbliższego nieumarłego sługę."
+			},
+			"ru": {
+				"name": "Infuse Condition",
+				"description": "Заклинание-чары. В течение следующих 15...60 сек каждый раз, когда вы получаете какое-либо состояние, вместо вас его получит ваш ближайший minion.",
+				"concise": "Заклинание-чары. (15...60 сек) Каждый раз, когда вы получаете какое-либо состояние, оно переносится с вас на вашего ближайшего прислужника-нежить."
+			},
+			"bork": {
+				"name": "Inffoose-a Cundeeshun",
+				"description": "Inchuntment Spell. Fur zee next 15...60 secunds, vhenefer yuoo receeefe-a a cundeeshun, thaet cundeeshun is trunsfferred tu yuoor clusest meeneeun insteaed.",
+				"concise": "Inchuntment Spell. (15...60 secunds.) Vhenefer yuoo receeefe-a a cundeeshun, it trunsffers frum yuoo tu yuoor clusest undeaed serfunt."
 			}
 		}
 	}

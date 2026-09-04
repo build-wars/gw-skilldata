@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "症状吸收",
+				"description": "咒文。 将目标队友的所有「症状」转移到你身上。每转移一个「症状」，你将恢复6...26点生命值。",
+				"concise": "咒文。 将目标队友的所有「症状」转移到你身上。每转移一个「症状」，你将恢复6...26点生命值。"
+			},
+			"cht": {
+				"name": "狀態吸收",
+				"description": "咒文魔法： 將目標其他盟友身上的所有「病症」轉移到你身上。每轉移一項「病症」，你回復 6...26 體力。",
+				"concise": "咒文魔法： 將目標其他盟友身上的所有「病症」轉移到你身上。每轉移一項「病症」，你回復 6...26 體力。"
+			},
 			"de": {
+				"name": "Zustände entziehen",
+				"description": "Zauber. Alle negativen Zustände werden vom Verbündeten auf Euch übertragen. Für jeden übertragenen Zustand erhaltet Ihr 6...26 Lebenspunkt[e].",
+				"concise": "Zauber. Überträgt alle Zustände des Verbündeten auf Euch. Übertragungswirkung: Ihr erhaltet für jeden Zustand 6...26 Lebenspunkt[e]. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Zustände entziehen",
 				"description": "Alle negativen Zustände werden vom Verbündeten auf Euch übertragen. Für jeden übertragenen Zustand werdet Ihr um 6...26 Lebenspunkte geheilt.",
 				"concise": "Überträgt alle Zustände des Verbündeten auf Euch. Übertragungswirkung: Ihr heilt Euch für jeden Zustand um 6...26 Lebenspunkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Draw Conditions",
+				"description": "Spell. All negative conditions are transferred from target other ally to yourself. For each condition acquired, you gain 6...26 Health.",
+				"concise": "Spell. Transfers all conditions from target ally to yourself. Transfer effect: you gain 6...26 Health for each condition. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Draw Conditions",
 				"description": "All negative conditions are transferred from target other ally to yourself. For each condition acquired, you gain 6...26 Health.",
 				"concise": "Transfers all conditions from target ally to yourself. Transfer effect: you gain 6...26 Health for each condition. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Robar condiciones",
+				"description": "Conjuro. Todas las condiciones negativas se transferirán del aliado objetivo a ti. Por cada condición que adquieras, ganas 6...26 de salud.",
+				"concise": "Conjuro. Transfiere todas las condiciones del aliado objetivo a ti mismo. Efecto: ganas 6...26 de salud por condición. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Egalité de conditions",
+				"description": "Sort. Toutes les conditions négatives de l'allié vous sont transférées. Pour chaque condition transférée, vous gagnez 6...26 points de vie.",
+				"concise": "Sort. Transfère vers vous toutes les conditions affectant l'allié visé. Effet du transfert : vous gagnez 6...26 points de vie par condition. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Egalité de conditions",
 				"description": "Toutes les conditions négatives de l'allié vous sont transférées. Pour chaque condition transférée, vous gagnez 6...26 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Assorbi Condizioni",
+				"description": "Magia. Tutte le condizioni negative che hanno colpito l'alleato vengono trasferite su di te. Per ogni condizione acquisita ottieni 6...26 Punto[i] Salute.",
+				"concise": "Magia. Trasferisce tutte le condizioni dall'obiettivo alleato a te stesso. Effetto del trasferimento: ottieni 6...26 Punto[i] Salute per ogni condizione. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ドロー コンディション",
+				"description": "スペル： ターゲットした自分以外の味方にかけられている「状態異常」をすべて自分自身に転移します。転移させた「状態異常」ごとに、プレイヤーは 6...26 の体力を獲得します。",
+				"concise": "スペル： ターゲットした味方にかけられている「状態異常」をすべて自分自身に転移します。転移効果： プレイヤーは、転移させた「状態異常」ごとに 6...26 の体力を獲得します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "상태 흡수",
+				"description": "마법. 대상 지정: 아군. 대상에게 걸려 있는 상태이상을 모두 자신에게 옮깁니다. 자신은 상태이상 하나당 6...26의 체력을 회복합니다.",
+				"concise": "마법. 대상에 걸린 상태이상을 전부 자신에게 옮깁니다. 이전 효과: 자신은 옮긴 상태이상 하나당 6...26의 체력을 회복합니다. 자신에게 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Przejęcie Przypadłości",
+				"description": "Czar. Wszystkie przypadłości z wybranego sojusznika innego niż ty przenoszone są na ciebie. Za każdą przejętą w ten sposób przypadłość, otrzymujesz 6...26 pkt. żywotności.",
+				"concise": "Czar. Przenosi wszystkie przypadłości z wybranego sojusznika na ciebie. Efekt przeniesienia: za każdą przypadłość otrzymujesz 6...26 pkt. żywotności. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Draw Conditions",
+				"description": "Заклинание. На вас переносятся все негативные состояния с выбранного союзника. За каждое полученное состояние, вы получаете 6...26 ед. здоровья.",
+				"concise": "Заклинание. Переносит все состояния с выбранного союзника на вас. Эффект переноса: вы получаете 6...26 ед. здоровья за каждое состояние. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Draev Cundeeshuns",
+				"description": "Spell. Aell negaeteefe-a cundeeshuns aere-a trunsfferred frum taerget oozeer aelly tu yuoorselff. Fur iaech cundeeshun aecqooured, yuoo gaeeen 6...26 Heaelt.",
+				"concise": "Spell. Trunsffers aell cundeeshuns frum taerget aelly tu yuoorselff. Trunsffer iffffect: yuoo gaeeen 6...26 Heaelt fur iaech cundeeshun. Cunnut selff-taerget."
 			}
 		}
 	}

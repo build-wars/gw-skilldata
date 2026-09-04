@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "引渡之手",
+				"description": "增益魔法。 在20秒之内，使你的下0...3次攻击无法被格挡。",
+				"concise": "增益魔法。 在20秒之内，使你的下0...3次攻击无法被格挡。"
+			},
+			"cht": {
+				"name": "神引之手",
+				"description": "加持魔法： 持續 20 秒，你接下來的 0...3 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。",
+				"concise": "加持魔法： 持續 20 秒，你接下來的 0...3 次攻擊無法被格檔，施展此加持時，消除自身盲目病症。"
+			},
 			"de": {
+				"name": "Lenkende Hände (PvP)",
+				"description": "Verzauberung. 20 Sekunde[n] lang ist ein Blocken Eurer nächsten 0...3 Angriff[e] nicht möglich. Bei Aktivierung entfernt diese Fertigkeit den Zustand \"Blindheit\".",
+				"concise": "Verzauberung. (20 Sekunde[n].) Eure nächsten 0...3 Angriff[e] können nicht geblockt werden. Anfangswirkung: Entfernt \"Blindheit\"."
+			},
+			"de-guildwiki": {
 				"name": "Lenkende Hände (PvP)",
 				"description": "20 Sekunden lang ist ein Blocken bei Euren nächsten 0...3 Angriffe<sic/> nicht möglich. Bei Aktivierung entfernt diese Fertigkeit den Zustand \"Blindheit\".",
 				"concise": "(20 Sekunden.) Eure nächsten 0...3 Angriffe können nicht geblockt werden. Anfangswirkung: Entfernt \"Blindheit\"."
 			},
 			"en": {
 				"name": "Guiding Hands (PvP)",
+				"description": "Enchantment Spell. For 20 seconds, your next 0...3 attacks cannot be blocked. When activated, this skill removes the Blindness condition.",
+				"concise": "Enchantment Spell. (20 seconds.) Your next 0...3 attacks cannot be blocked. Initial effect: removes Blindness."
+			},
+			"en-gww": {
+				"name": "Guiding Hands (PvP)",
 				"description": "For 20 seconds, your next 0...3 attack[s] cannot be blocked. When activated, this skill removes the Blindness condition.",
 				"concise": "(20 seconds.) Your next 0...3 attack[s] cannot be blocked. Initial effect: removes Blindness."
 			},
+			"es": {
+				"name": "Manos guiadoras (PvP)",
+				"description": "Conjuro con encantamiento. Durante 20 segundos, tus próximos 0...3 ataques no se pueden bloquear. Cuando se activa, esta habilidad quita la ceguera.",
+				"concise": "Conjuro con encantamiento. (20 segundos). Tus próximos 0...3 ataques no se pueden bloquear. Efecto inicial: quita la ceguera."
+			},
 			"fr": {
+				"name": "Mains directrices (PvP)",
+				"description": "Enchantement. Pendant 20 secondes, vos 0...3 prochaines attaques ne peuvent pas être bloquées. Une fois activée, cette compétence annule l'Aveuglement.",
+				"concise": "Enchantement. (20 secondes.) vos 0...3 prochaines attaques ne peuvent pas être bloquées. Effet initial : annule l'Aveuglement."
+			},
+			"fr-gwiki": {
 				"name": "Mains directrices (PvP)",
 				"description": "Pendant 20 secondes, vos 0...3 prochaines attaques au corps à corps ne peuvent pas être bloquées. Supprime l'Aveuglement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mani Guidate (PvP)",
+				"description": "Incantesimo. Per 20 secondi sarà impossibile bloccare 0...3 dei tuoi prossimi attacchi. Quando attiva, questa abilità rimuove Accecamento.",
+				"concise": "Incantesimo. (Secondi: 20). 0...3 dei tuoi prossimi attacchi non possono essere bloccati. Effetto iniziale: rimuove Accecamento."
+			},
+			"jp": {
+				"name": "ガイド ハンド (PvP)",
+				"description": "強化スペル： 20 秒間、0...3 回の攻撃がブロックされません。このスキルを発動すると、「盲目」状態が解除されます。",
+				"concise": "強化スペル： (20 秒) 次の 0...3 回の攻撃はブロックされません。発動効果： 「盲目」状態を解除します。"
+			},
+			"kr": {
+				"name": "유도의 손길(대인전)",
+				"description": "강화 마법. 대상 지정: 없음. 20초 동안 시도하는 0...3번의 공격은 적이 막을 수 없습니다. 이 스킬을 시전할 때 자신에게 걸린 실명을 무효화합니다.",
+				"concise": "강화 마법. (20초) 다음 0...3번의 공격은 적이 막을 수 없습니다. 초기 효과: 실명을 제거합니다."
+			},
+			"pl": {
+				"name": "Wiodące Dłonie (PvP)",
+				"description": "Zaklęcie (czar). Przez 20 sek., twoich kolejnych 0...3 ataków nie można zablokować Kiedy ta umiejętność zostaje uaktywniona, usuwa ślepotę.",
+				"concise": "Zaklęcie (czar). (20 sek.) Twoje kolejne ataki (0...3) nie mogą zostać zablokowane. Efekt początkowy: Usuwa ślepotę."
+			},
+			"ru": {
+				"name": "Guiding Hands (PvP)",
+				"description": "Заклинание-чары. В течение 20 сек ваши следующие атаки (0...3) нельзя блокировать. При активации этого умения с вас снимается слепота.",
+				"concise": "Заклинание-чары. (20 сек) Ваши следующие атаки (0...3) нельзя блокировать. Начальный эффект: снимает слепоту."
+			},
+			"bork": {
+				"name": "Gooeedeeng Hunds (PfP)",
+				"description": "Inchuntment Spell. Fur 20 secunds, yuoor next 0...3 aettaecks cunnut be-a blucked. Vhee aecteefaeted, thees skeell remufes zee Bleendness cundeeshun.",
+				"concise": "Inchuntment Spell. (20 secunds.) Yuoor next 0...3 aettaecks cunnut be-a blucked. Ineeteeael iffffect: remufes Bleendness."
 			}
 		}
 	}

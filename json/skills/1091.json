@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "双龙吐息",
+				"description": "精英增益魔法。 使邻近的敌人每秒受到 1...4点 火焰伤害，效果持续 2秒。",
+				"concise": "精英增益魔法。 使邻近的敌人每秒受到 1...4点 火焰伤害，效果持续 2秒。"
+			},
+			"cht": {
+				"name": "雙龍",
+				"description": "精英加持魔法： 使你附近的敵人受到1...4火焰傷害，同時火系魔法+10...40(8秒)。",
+				"concise": "精英加持魔法： 使你附近的敵人受到1...4火焰傷害，同時火系魔法+10...40(8秒)。"
+			},
 			"de": {
+				"name": "Doppeldrache",
+				"description": "Elite-Verzauberung. Ihr beschwört die Macht des Drachen. 8 Sekunde[n] lang werden ein Verbündeter und Ihr mit Doppeldrache verzaubert. Umstehende Feinde erleiden pro Sekunde 10...40 Punkt[e] Feuerschaden. Wenn Ihr oder Euer Verbündeter Fertigkeiten auf einen Feind anwenden, wird dieser Feind zudem 1...4 Sekunde[n] lang in Brand gesetzt.",
+				"concise": "Elite-Verzauberung. (8 Sekunde[n].) Verzaubert Euch und Euren Verbündeten. Umstehende Feinde erleiden pro Sekunde 10...40 Punkt[e] Feuerschaden. Fertigkeiten gegen einen Feind verursachen zusätzlich Brennen (1...4 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Doppeldrache",
 				"description": "Ihr beschwört die Macht des Drachen. 8 Sekunden lang werden ein Verbündeter und Ihr mit Doppeldrache verzaubert. Umstehende Feinde erleiden pro Sekunde 10...40 Punkte Feuerschaden. Wenn Ihr oder Euer Verbündeter Fertigkeiten auf einen Feind anwenden, wird dieser Feind zudem 1...4 Sekunden lang in Brand gesetzt.",
 				"concise": "(8 Sekunden.) Verzaubert Euch und einen Verbündeten. Umstehende Feinde erleiden pro Sekunde 10...40 Punkte Feuerschaden. Fertigkeiten gegen einen Feind verursachen zustätzlich Brennen (1...4 Sekunden)."
 			},
 			"en": {
 				"name": "Double Dragon",
+				"description": "Elite Enchantment Spell. Invoke the power of the Dragon. For 8 seconds, you and target ally are enchanted with Double Dragon. Adjacent foes are dealt 10...40 fire damage each second. Additionally, when you or your ally use skills that target a foe, that foe is set on fire for 1...4 seconds.",
+				"concise": "Elite Enchantment Spell. (8 seconds.) Enchants you and target ally. Adjacent foes take 10...40 fire damage each second. Skills that target a foe also inflict Burning (1...4 seconds)."
+			},
+			"en-gww": {
+				"name": "Double Dragon",
 				"description": "Invoke the power of the Dragon. For 8 seconds, you and target ally are enchanted with Double Dragon. Adjacent foes are dealt 10...40 fire damage each second. Additionally, when you or your ally use skills that target a foe, that foe is set on fire for 1...4 second[s].",
 				"concise": "(8 seconds.) Enchants you and target ally. Adjacent foes take 10...40 fire damage each second. Skills that target a foe also inflict Burning (1...4 second[s])."
 			},
+			"es": {
+				"name": "Dragón doble",
+				"description": "Conjuro con encantamiento de élite. Invocas el poder del dragón. Durante 8 segundos, tú y el aliado objetivo quedáis encantados con Dragón doble. Los enemigos adyacentes reciben 10...40 de daño de fuego cada segundo. Además, cuando tú o tu aliado uséis habilidades que apunten a un enemigo, ese enemigo arderá durante 1...4 segundos.",
+				"concise": "Conjuro con encantamiento de élite. (8 segundos). Os encanta a ti y al aliado objetivo. Los enemigos adyacentes reciben 10...40 de daño de fuego cada segundo. Las habilidades que apuntan a un enemigo también causan quemadura (1...4 segundos)."
+			},
 			"fr": {
+				"name": "Double dragon",
+				"description": "Enchantement d'élite. Vous invoquez le pouvoir du dragon. Pendant 8 secondes, l'allié ciblé et vous-même êtes enchantés par le Double dragon. Les ennemis adjacents subissent 10...40 points de dégâts du feu chaque seconde. De plus, quand votre allié ou vous-même utilisez une compétence ciblant un ennemi, celui-ci s'embrase pendant 1...4 secondes.",
+				"concise": "Enchantement d'élite. (8 secondes.) Vous affecte, vous et l'allié ciblé. Les ennemis adjacents subissent 10...40 points de dégâts du feu chaque seconde. Les compétences ciblant un ennemi infligent également Brûlure (1...4 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Double dragon",
 				"description": "Pendant 8 secondes, l'allié ciblé et vous-même êtes enchantés par le Double dragon. Les ennemis a adjacents subissent 5...30 points de dégâts du feu chaque seconde. De plus, quand votre allié ou vous-même utilisez une compétence ciblant un ennemi, celui-ci s'embrase pendant 0...3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Drago Doppio",
+				"description": "Incantesimo d'Élite. Invochi il potere del Drago. Per 8 secondi, tu e l'obiettivo alleato siete affetti dall'incantesimo Drago Doppio. I nemici adiacenti sono colpiti da 10...40 danni da fuoco al secondo. Inoltre, quando tu o il tuo alleato usate abilità per mirare a un nemico, questi prende fuoco per 1...4 secondi.",
+				"concise": "Incantesimo d'Élite. (Secondi: 8.) Incanta te e l'obiettivo alleato. I nemici adiacenti subiscono 10...40 danni da fuoco al secondo. Le abilità che prendono di mira un nemico infliggono anche Bruciatura (1...4 secondi)."
+			},
+			"jp": {
+				"name": "ダブル ドラゴン",
+				"description": "エリート強化スペル： 龍の力を呼び起こします。8 秒間、プレイヤーおよびターゲットした味方は、隣接する敵に毎秒 10...40 のファイア ダメージを与えます。また、プレイヤーまたは味方が敵に対してスキルを使用すると、その敵は 1...4 秒間「火傷」状態になります。",
+				"concise": "エリート強化スペル： (8 秒) プレイヤーおよびターゲットした味方は、隣接する敵に毎秒 10...40 のファイア ダメージを与えます。敵に対してスキルを使用すると、その敵を「火傷」状態にします (1...4 秒)。"
+			},
+			"kr": {
+				"name": "화염의 쌍두룡",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 용의 힘을 일으킵니다. 8초 동안 자신과 대상이 쌍용의 가호를 받아 인접한 적들에게 매초 10...40의 불 대미지를 주고, 적을 대상으로 스킬을 사용하면 그 적은 1...4초 동안 화상을 입습니다.",
+				"concise": "엘리트 강화 마법. (8초) 자신과 대상 아군을 강화합니다. 인접한 적들에게 매초 10...40의 불 대미지를 주고, 적을 대상으로 한 스킬은 화상을 입힙니다.(1...4초)"
+			},
+			"pl": {
+				"name": "Podwójny Smok",
+				"description": "Elitarne zaklęcie (czar). Przeciwnicy bezpośrednio przy tobie otrzymują po 1...4 pkt. obrażeń od ognia. Przez 8 sek. twój atrybut Magia Ognia jest większy o +10...40.",
+				"concise": "Elitarne zaklęcie (czar). Wszystkim przeciwnikom w pobliżu zadaje po 1...4 pkt. obrażeń od ognia. Otrzymujesz +10...40 do Magii Ognia (8 sek.)."
+			},
+			"ru": {
+				"name": "Double Dragon",
+				"description": "Элитное заклинание-чары. Призывает Силу Дракона. В течение 8 сек на вас и на выбранном союзнике будут лежать чары Double Dragon. Окружающие противники будут получать 10...40 ед. урона силой огня каждую секунду. Кроме того, когда вы или ваш союзник используете умение, нацеленное на противника, этот противник загорится на 1...4 сек.",
+				"concise": "Элитное заклинание-чары. (8 сек) Накладывает чары на вас и на выбранного союзника. Окружающие противники получают 10...40 ед. урона силой огня каждую секунду. Умения, нацеленные на противников, также поджигают их (1...4 сек)."
+			},
+			"bork": {
+				"name": "Duooble-a Draegun",
+				"description": "Ileete-a Inchuntment Spell. Infuke-a zee pooer ooff zee Draegun. Fur 8 secunds, yuoo und taerget aelly aere-a inchunted veet Duooble-a Draegun. Aedjaecent fues aere-a deaelt 10...40 fure-a daemaege-a iaech secund. Aeddeeshunaelly, vhee yuoo oor yuoor aelly use-a skeells thaet taerget a fue-a, thaet fue-a is set oon fure-a fur 1...4 secunds. Bork! Bork! Bork!",
+				"concise": "Ileete-a Inchuntment Spell. (8 secunds.) Inchunts yuoo und taerget aelly. Aedjaecent fues taeke-a 10...40 fure-a daemaege-a iaech secund. Skeells thaet taerget a fue-a aelsu inffleect Boorneeng (1...4 secunds)."
 			}
 		}
 	}

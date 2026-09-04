@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "饮血",
+				"description": "咒文。 如果你的生命超过 90% ，你遭受「流血」症状 6 秒，但是偷取目标敌人最多 20...65 生命。",
+				"concise": "咒文。 如果你的生命超过 90% ，你遭受「流血」症状 6 秒，但是偷取目标敌人最多 20...65 生命。"
+			},
+			"cht": {
+				"name": "鮮血飲者",
+				"description": "咒文魔法： 若你的體力超過 90% ，你遭受「流血」病症 6 秒，但是偷取目標敵人最多 20...65 體力。",
+				"concise": "咒文魔法： 若你的體力超過 90% ，你遭受「流血」病症 6 秒，但是偷取目標敵人最多 20...65 體力。"
+			},
 			"de": {
+				"name": "Bluttrinker",
+				"description": "Zauber. Wenn Eure Lebenspunkte über 90% liegen, leidet Ihr 6 Sekunde[n] lang an einer Blutung. Entzieht dem Gegner bis zu 20...65 Lebenspunkt[e].",
+				"concise": "Zauber. Entzieht 20...65 Lebenspunkt[e]. Ihr beginnt zu bluten (6 Sekunde[n]), falls Ihr mehr als 90% Eurer maximalen Lebenspunkte habt."
+			},
+			"de-guildwiki": {
 				"name": "Bluttrinker",
 				"description": "Wenn Eure Lebenspunkte über 90% liegen, leidet Ihr 6 Sekunden lang an einer Blutung. Entzieht dem Gegner bis zu 20...65 Lebenspunkte.",
 				"concise": "Entzieht 20...65 Lebenspunkte. <gray>Ihr beginnt zu bluten (6 Sekunden), falls Ihr mehr als 90% Eurer maximalen Lebenspunkte habt.</gray>"
 			},
 			"en": {
 				"name": "Blood Drinker",
+				"description": "Spell. If your Health is above 90%, you begin Bleeding for 6 seconds. Steal up to 20...65 Health from target foe.",
+				"concise": "Spell. Steals 20...65 Health. You begin Bleeding (6 seconds) if your Health is above 90%."
+			},
+			"en-gww": {
+				"name": "Blood Drinker",
 				"description": "If your Health is above 90%, you begin Bleeding for 6 seconds. Steal up to 20...65 Health from target foe.",
 				"concise": "Steals 20...65 Health. <gray>You begin Bleeding (6 seconds) if your Health is above 90%.</gray>"
 			},
+			"es": {
+				"name": "Chupador de sangre",
+				"description": "Conjuro. Si tienes más del 90% de salud, sufrirás una hemorragia durante 6 segundos. Robas 20...65 de salud del enemigo objetivo.",
+				"concise": "Conjuro. Roba 20...65 de salud. Sufres una hemorragia (6 segundos) si tu salud estaba por encima del 90%"
+			},
 			"fr": {
+				"name": "Buveur de sang",
+				"description": "Sort. Si votre santé est supérieure à 90%, vous êtes pris de Saignement pendant 6 secondes. Vous absorbez jusqu'à 20...65 points de vie à votre cible ennemie.",
+				"concise": "Sort. Vole 20...65 points de vie. Vous souffrez de Saignement (6 secondes) si votre santé est supérieure à 90%."
+			},
+			"fr-gwiki": {
 				"name": "Buveur de sang",
 				"description": "Si votre santé est supérieure à 90%, vous êtes pris de Saignement pendant 6 secondes. Vous absorbez jusqu'à 20...65 points de vie à votre cible ennemie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Bevi Sangue",
+				"description": "Magia. Se la tua Salute è superiore al 90%, inizi a sanguinare per 6 secondo[i]; sottrai fino a 20...65 Punto[i] Salute all'obiettivo nemico.",
+				"concise": "Magia. Sottrazione Salute: 20...65. Sei affetto da Emorragia (6 secondo[i]) se la sua Salute è superiore a 90%."
+			},
+			"jp": {
+				"name": "ブラッド ドリンカー",
+				"description": "スペル： プレイヤーの体力が 90% より多い場合、6 秒間「出血」状態になります。ただし、ターゲットした敵から最大 20...65 の体力を奪い取ります。",
+				"concise": "スペル： 20...65 の体力を奪い取ります。体力が上限の 90% より多い場合、プレイヤーは「出血」状態になります (6 秒)。"
+			},
+			"kr": {
+				"name": "피의 흡수",
+				"description": "마법. 대상 지정: 적. 대상의 체력을 20...65 뺏습니다. 이때 자신의 체력이 90%보다 많으면 자신은 6초 동안 출혈 상태가 됩니다.",
+				"concise": "마법. 20...65의 체력을 뺏습니다. 자신의 체력이 90%보다 많으면 자신은 출혈을 일으킵니다.(6초)"
+			},
+			"pl": {
+				"name": "Krwiopijca",
+				"description": "Czar. Jeżeli posiadasz ponad 90 pkt. żywotności, zaczynasz krwawić przez 6 sek. Od wybranego przeciwnika wykradasz do 20...65 pkt. żywotności.",
+				"concise": "Czar. Wykrada 20...65 pkt. żywotności. Zaczynasz krwawić (6 sek.), jeżeli twoja żywotność jest powyżej 90%."
+			},
+			"ru": {
+				"name": "Blood Drinker",
+				"description": "Заклинание. Если ваш текущий уровень здоровья больше 90%, вы будете кровоточить в течение 6 сек. Вы похищаете до 20...65 ед. здоровья у выбранного противника.",
+				"concise": "Заклинание. Похищает 20...65 ед. здоровья. Вы начинаете кровоточить (6 сек), если у вас более 90% здоровья."
+			},
+			"bork": {
+				"name": "Bluud Dreenker",
+				"description": "Spell. Iff yuoor Heaelt is aebufe-a 90%, yuoo begeen Bleedeeng fur 6 secunds. Steael up tu 20...65 Heaelt frum taerget fue-a.",
+				"concise": "Spell. Steaels 20...65 Heaelt. Yuoo begeen Bleedeeng (6 secunds) iff yuoor Heaelt is aebufe-a 90%."
 			}
 		}
 	}

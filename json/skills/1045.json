@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "掌击",
+				"description": "精英技能。 用掌猛击目标敌人，对其造成 10...65点 伤害。此技能可作为「副手技」使用。",
+				"concise": "精英触摸技。 用掌猛击目标敌人，对其造成 10...65点 伤害。此技能可作为「副手技」使用。"
+			},
+			"cht": {
+				"name": "劫殺掌",
+				"description": "精英技能： 碰觸目標敵人，造成10...65傷害，且殘廢1...5秒。此技能可視為即刻攻擊。",
+				"concise": "精英碰觸技能： 碰觸目標敵人，造成10...65傷害，且殘廢1...5秒。此技能可視為即刻攻擊。"
+			},
 			"de": {
+				"name": "Handflächenschlag",
+				"description": "Elite-Fertigkeit. Der berührte Gegner erleidet 10...65 Punkt[e] Schaden und wird 1...5 Sekunde[n] lang verkrüppelt. Diese Fertigkeit zählt als Begleithandangriff.",
+				"concise": "Elite-Berührungs-Fertigkeit. Richtet +10...65 Punkt[e] Schaden an und verursacht Zustand Verkrüppelung (1...5 Sekunde[n]). Dieser Angriff zählt als Begleithandangriff."
+			},
+			"de-guildwiki": {
 				"name": "Handflächenschlag",
 				"description": "Der berührte Gegner erleidet 10...65 Punkte Schaden und wird 1...5 Sekunden lang verkrüppelt. Diese Fertigkeit zählt als Begleithandangriff.",
 				"concise": "Richtet +10...65 Punkte Schaden an und verursacht Zustand Verkrüppelung (1...5 Sekunden). Dieser Angriff zählt als Begleithandangriff."
 			},
 			"en": {
 				"name": "Palm Strike",
+				"description": "Elite Skill. Target touched foe takes 10...65 damage and is Crippled for 1...5 seconds. This skill counts as an off-hand attack.",
+				"concise": "Elite Touch Skill. Deals 10...65 damage and inflicts Crippled condition (1...5 seconds). This skill counts as an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Palm Strike",
 				"description": "Target touched foe takes 10...65 damage and is Crippled for 1...5 second[s]. This skill counts as an off-hand attack.",
 				"concise": "Elite Touch Skill. Deals 10...65 damage and inflicts Crippled condition (1...5 second[s]). This skill counts as an off-hand attack."
 			},
+			"es": {
+				"name": "Bofetada",
+				"description": "Habilidad de élite. El enemigo objetivo tocado recibe 10...65 de daño y queda lisiado durante 1...5 segundos. Esta habilidad cuenta como ataque complementario.",
+				"concise": "Habilidad de élite de toque. Hace 10...65 de daño y causa lisiadura (1...5 segundoss). Esta habilidad cuenta como un ataque complementario."
+			},
 			"fr": {
+				"name": "Coup de paume",
+				"description": "Compétence élite. La cible ennemie visée subit 10...65 points de dégâts et souffre d'Infirmité pendant 1...5 secondes. Cette compétence compte comme une attaque main gauche.",
+				"concise": "Compétence de toucher élite. Inflige 10...65 points de dégâts et la condition d'Infirmité (1...5 secondes). Compte comme une attaque de main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Coup de paume",
 				"description": "La cible ennemie visée subit 10...65 points de dégâts et souffre d'infirmité pendant 1...5 seconde(s). Cette compétence compte comme une attaque main gauche.",
 				"concise": "Inflige 10...65 points de dégâts et la condition d'infirmité pendant 1...5 seconde(s). Compte comme une attaque main gauche."
+			},
+			"it": {
+				"name": "Schiaffo",
+				"description": "Abilità d'Élite. L'obiettivo nemico toccato subisce 10...65 danno[i] ed è affetto da Storpiatura per 1...5 secondo[i]. Quest'abilità è considerata un attacco con arma secondaria.",
+				"concise": "Abilità d'Élite a Tocco. Danni inferti: +10...65. Condizione inflitta: Storpiatura (1...5 secondo[i]). Quest'abilità è considerata un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "パーム ストライク",
+				"description": "エリート スキル： 接触した敵に 10...65 のダメージを与え、1...5 秒間「不自由」状態にします。このスキルは、オフハンド アタックとみなされます。",
+				"concise": "エリート スキル (接触)： 10...65 のダメージを与えて「不自由」状態にします (1...5 秒)。このスキルは、オフハンド アタックとみなされます。"
+			},
+			"kr": {
+				"name": "손바닥 강타",
+				"description": "엘리트 스킬. 대상 지정: 적. 대상에게 10...65의 대미지를 주고, 1...5초 동안 다리부상 상태로 만듭니다. 대상에 접근해야 사용할 수 있고, 보조 공격의 역할도 합니다.",
+				"concise": "엘리트 스킬(접근용). 10...65의 대미지를 주고, 다리부상을 입힙니다.(1...5초) 보조 공격의 역할을 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Dłonią",
+				"description": "Umiejętność elitarna. Wybrany dotknięty przeciwnik otrzymuje 10...65 pkt. obrażeń i zostaje okulawiony na 1...5 sek. Ta umiejętność liczy się jako atak drugą ręką.",
+				"concise": "Elitarna umiejętność dotykowa. Zadaje 10...65 pkt. obrażeń i wywołuje przypadłość okulawienie (1...5 sek.). Ta umiejętność traktowana jest jako atak drugą ręką."
+			},
+			"ru": {
+				"name": "Palm Strike",
+				"description": "Элитное умение. Выбранный противник, до которого вы дотронулись, получает 10...65 ед. урона и будет хромать в течение 1...5 сек. Это умение засчитывается как атака второй рукой.",
+				"concise": "Элитное умение прикосновения. Наносит 10...65 ед. урона и вызывает хромоту (1...5 сек). Это умение засчитывается как атака второй рукой."
+			},
+			"bork": {
+				"name": "Paelm Streeke-a",
+				"description": "Ileete-a Skeell. Taerget tuooched fue-a taekes 10...65 daemaege-a und is Creeppled fur 1...5 secunds. Thees skeell cuoonts aes un ooffff-hund aettaeck. Bork! Bork! Bork!",
+				"concise": "Ileete-a Tuooch Skeell. Deaels 10...65 daemaege-a und inffleects Creeppled cundeeshun (1...5 secunds). Thees skeell cuoonts aes un ooffff-hund aettaeck."
 			}
 		}
 	}

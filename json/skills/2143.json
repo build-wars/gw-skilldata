@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.5,
+		"aftercast": 1.5,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Disrupting Shot",
+				"description": "弓术。 If this attack hits, target foe's action is interrupted. If that action was a skill, you strike for +10...40 damage.",
+				"concise": "弓术。 Interrupts an action. Interruption effect: +10...40 damage if you interrupt a skill."
+			},
+			"cht": {
+				"name": "擾亂之箭",
+				"description": "弓術攻擊技能： 此攻擊命中時，中斷目標敵人的動作。若該動作為施展技能時，你將造成 +10...40 傷害。",
+				"concise": "弓術攻擊技能： 此攻擊命中時，中斷目標敵人的動作。若該動作為施展技能時，你將造成 +10...40 傷害。"
+			},
 			"de": {
+				"name": "Unterbrechender Schuss",
+				"description": "Bogenangriff. Wenn dieser Angriff erfolgreich ist, wird die Aktion des Gegners unterbrochen. Wenn diese Aktion eine Fertigkeit war, fügt Ihr +10...40 Punkt[e] Schaden zu.",
+				"concise": "Bogenangriff. Unterbricht eine Aktion. Unterbrechungswirkung: +10...40 Punkt[e] Schaden, falls Ihr eine Fertigkeit unterbrecht."
+			},
+			"de-guildwiki": {
 				"name": "Unterbrechender Schuss",
 				"description": "Wenn dieser Angriff erfolgreich ist, wird die Aktion des Gegners unterbrochen. Wenn diese Aktion eine Fertigkeit war, fügt Ihr +10...40 Punkte Schaden zu.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: +10...40 Punkte Schaden, falls Ihr eine Fertigkeit unterbrecht."
 			},
 			"en": {
 				"name": "Disrupting Shot",
+				"description": "Bow Attack. If this attack hits, target foe's action is interrupted. If that action was a skill, you strike for +10...40 damage.",
+				"concise": "Bow Attack. Interrupts an action. Interruption effect: +10...40 damage if you interrupt a skill."
+			},
+			"en-gww": {
+				"name": "Disrupting Shot",
 				"description": "If this attack hits, target foe's action is interrupted. If that action was a Skill, you strike for +10...40 damage.",
 				"concise": "Interrupts an action. Interruption effect: +10...40 damage if you interrupt a skill."
 			},
+			"es": {
+				"name": "Disparo interruptor",
+				"description": "Ataque con arco. Si este ataque impacta, interrumpes la acción del enemigo. Si era una habilidad, haces +10...40 de daño.",
+				"concise": "Ataque con arco. Interrumpe una acción. Efecto de la interrupción: +10...40 de daño si interrumpes una habilidad."
+			},
 			"fr": {
+				"name": "Tir d'interruption",
+				"description": "Attaque à l'arc. Si cette attaque réussit, l'action de la cible ennemie est interrompue. S'il s'agissait d'une compétence, vous infligez +10...40 points de dégâts.",
+				"concise": "Attaque à l'arc. Interrompt une action. Effet de l'interruption : +10...40 points de dégâts si vous interrompez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Tir d'interruption",
 				"description": "Si cette attaque réussit, l'action de la cible ennemie est interrompue. S'il s'agissait d'une compétence, vous infligez +10...40 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Dirompente",
+				"description": "Attacco con Arco. Se questo attacco va a segno, l'azione dell'obiettivo nemico viene interrotta. Se si trattava di un'abilità infliggi +10...40 danno[i].",
+				"concise": "Attacco con Arco. Interrompe un'azione. Effetto dell'interruzione: +10...40 danno[i] se interrompi un'abilità."
+			},
+			"jp": {
+				"name": "ディスラプト ショット",
+				"description": "ボウ アタック： 攻撃が成功すると、ターゲットした敵のアクションを中断します。中断したアクションがスキルの場合、さらに 10...40 の追加ダメージを与えます。",
+				"concise": "ボウ アタック： アクションを中断します。中断効果： スキルを中断すると、10...40 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "분열의 화살",
+				"description": "활 공격. 공격이 적중하면 대상의 동작을 방해합니다. 방해한 동작이 스킬이면 10...40의 대미지를 추가로 줍니다.",
+				"concise": "활 공격. 동작을 방해합니다. 방해 효과: 방해한 동작이 스킬이면 10...40의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Rozpraszający Strzał",
+				"description": "Strzał z łuku. Jeżeli atak trafi, przerywasz czynność wybranego przeciwnika. Jeżeli tą czynnością było użycie umiejętności, zadajesz +10...40 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Przerywa czynność. Efekt przerwania: +10...40 pkt. obrażeń, jeżeli przerwałeś umiejętność."
+			},
+			"ru": {
+				"name": "Disrupting Shot",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, действие выбранного противника будет прервано. Если это было какое-либо умение, вы наносите дополнительно 10...40 ед. урона.",
+				"concise": "Атака из лука. Прерывает действие. Эффект прерывания: наносит дополнительно 10...40 ед. урона, если было прервано умение."
+			},
+			"bork": {
+				"name": "Deesroopteeng Shut",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets, taerget fue-a's aecshun is interroopted. Iff thaet aecshun vaes a skeell, yuoo streeke-a fur +10...40 daemaege-a.",
+				"concise": "Boo Aettaeck. Interroopts un aecshun. Interroopshun iffffect: +10...40 daemaege-a iff yuoo interroopt a skeell."
 			}
 		}
 	}

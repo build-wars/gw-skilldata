@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "反叛",
+				"description": "精英增益魔法。 在3...17秒之内，每当你成功打出致命一击时，你将驱散目标敌人身上的一项「增益魔法」，当驱散成功时，你将损失10...3点能量值，直到此效果消失。",
+				"concise": "精英增益魔法。 （3...17秒内）你的每一次致命攻击都会移除目标一项「增益魔法」。移除成功的代价：你损失10...3点能量值或反叛技能消失。"
+			},
+			"cht": {
+				"name": "黑暗變節",
+				"description": "精英加持魔法： 持續 3...17 秒，每當你成功擊出致命攻擊，從目標身上移除一項「加持」，同時你損失 10...3 能量或者黑暗變節的效果終止。",
+				"concise": "精英加持魔法： 持續 3...17 秒，每當你成功擊出致命攻擊，從目標身上移除一項「加持」，同時你損失 10...3 能量或者黑暗變節的效果終止。"
+			},
 			"de": {
+				"name": "Dunkle Abtrünnigkeit",
+				"description": "Elite-Verzauberung. Während der nächsten 3...17 Sekunde[n] entfernt Ihr jedes Mal, wenn Ihr erfolgreich einen kritischen Treffer landet, eine Verzauberung von Eurem Ziel. Wenn Ihr eine Verzauberung auf diese Weise entfernt, verliert Ihr 10...3 Energiepunkt[e] oder Dunkle Abtrünnigkeit endet.",
+				"concise": "Elite-Verzauberung. 3...17 Sekunde[n]: Eure kritischen Treffer entfernen eine Verzauberung. Entfernungskosten: Ihr verliert 10...3 Energiepunkt[e] oder Dunkle Abtrünnigkeit endet."
+			},
+			"de-guildwiki": {
 				"name": "Dunkle Abtrünnigkeit",
 				"description": "Während der nächsten 3...17 Sekunden entfernt Ihr mit jedem erfolgreichen kritischen Treffer eine Verzauberung von Eurem Ziel. Wenn Ihr eine Verzauberung auf diese Weise entfernt, verliert Ihr 10...3 Energiepunkte oder Dunkle Abtrünnigkeit endet.",
 				"concise": "3...17 Sekunden: Eure kritischen Treffer entfernen eine Verzauberung. <gray>Entfernungskosten: Ihr verliert 10...3 Energiepunkte oder Dunkle Abtrünnigkeit endet.</gray>"
 			},
 			"en": {
 				"name": "Dark Apostasy",
+				"description": "Elite Enchantment Spell. For 3...17 seconds, every time you successfully land a critical hit, you remove one enchantment from your target. If you remove an enchantment in this way, you lose 10...3 Energy or Dark Apostasy ends.",
+				"concise": "Elite Enchantment Spell. (3...17 seconds.) Your critical hits remove an enchantment. Removal cost: lose 10...3 Energy or Dark Apostasy ends."
+			},
+			"en-gww": {
+				"name": "Dark Apostasy",
 				"description": "For 3...17 seconds, every time you successfully land a critical hit, you remove one enchantment from your target. If you remove an enchantment in this way, you lose 10...3 Energy or Dark Apostasy ends.",
 				"concise": "(3...17 seconds.) Your critical hits remove an enchantment. <gray>Removal cost: lose 10...3 Energy or Dark Apostasy ends.</gray>"
 			},
+			"es": {
+				"name": "Apostasía oscura",
+				"description": "Conjuro con encantamiento de élite. Durante 3...17 segundos, cada vez que consigas dar un golpe crítico, quitarás un encantamiento del objetivo. Si lo quitas de este modo, perderás 10...3 de energía o la Apostasía oscura finalizará.",
+				"concise": "Conjuro con encantamiento de élite. (3...17 segundos). Tus golpes críticos eliminan un encantamiento. Coste de la eliminación: pierdes 10...3 de energía o la Apostasía oscura acaba."
+			},
 			"fr": {
+				"name": "Apostasie obscure",
+				"description": "Enchantement d'élite. Pendant 3...17 secondes, chaque fois que vous réussissez un coup critique, vous supprimez un enchantement de votre cible. Si vous supprimez un enchantement de cette manière, soit vous perdez 10...3 points d'énergie, soit l'Apostasie obscure prend fin.",
+				"concise": "Enchantement d'élite. (3...17 secondes.) Vos coups critiques suppriment un enchantement. Coût de la suppression : vous perdez 10...3 points d'énergie ou l'Apostasie obscure prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Apostasie obscure",
 				"description": "Pendant 3...17 secondes, chaque fois que vous réussissez un coup critique, vous supprimez un enchantement de votre cible. Si vous supprimez un enchantement de cette manière, soit vous perdez 10...3 points d'énergie, soit l'Apostasie obscure prend fin.",
 				"concise": "(3...17 secondes.) Vos coups critiques suppriment un enchantement. <gray>Coût de la suppression : vous perdez 10...3 points d'énergie ou l'Apostasie obscure prend fin.</gray>"
+			},
+			"it": {
+				"name": "Apostasia Oscura",
+				"description": "Incantesimo d'Élite. Per 3...17 secondo[i], ogni volta che assesti un colpo critico rimuovi un incantesimo dal tuo obiettivo; quando riesci a rimuovere un incantesimo in questo modo perdi 10...3 Punto[i] Energia oppure l'Apostasia Oscura termina.",
+				"concise": "Incantesimo d'Élite. (Secondi: 3...17) I tuoi colpi critici rimuovono un incantesimo. Costo di rimozione: perdi 10...3 Punto[i] Energia o Apostasia Oscura termina."
+			},
+			"jp": {
+				"name": "ダーク アポスタシー",
+				"description": "エリート強化スペル： 3...17 秒間、クリティカル ヒットが成功するたびに、ターゲットにかけられている強化スペルを1個解除します。この効果により強化スペルを解除すると、プレイヤーのエネルギーが 10...3 減少するか、この効果が消失します。",
+				"concise": "エリート強化スペル： (3...17 秒) クリティカル ヒットが成功すると強化スペルを1個解除します。解除コスト： エネルギーが 10...3 減少、またはこの効果が消失します。"
+			},
+			"kr": {
+				"name": "암흑의 배반",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 3...17초 동안 치명타를 터뜨릴 때마다 대상에게 걸려 있는 강화 마법 하나를 무효화합니다. 강화 마법을 무효화하면 자신은 10...3의 에너지를 잃거나 효과가 끝납니다.",
+				"concise": "엘리트 강화 마법. (3...17초) 치명타를 터뜨릴 때마다 대상에 걸려 있는 강화 마법 하나를 무효화합니다. 무효화 대가: 자신이 10...3의 에너지를 잃거나, 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Mroczna Apostazja",
+				"description": "Elitarne zaklęcie (czar). Przez 3...17 sek., za każdym razem, gdy wykonasz trafienie krytyczne, zdejmiesz jedno zaklęcie ze swojego celu. Jeżeli zdejmiesz zaklęcie w ten sposób, stracisz 10...3 pkt. energii albo Mroczna Apostazja przestanie działać.",
+				"concise": "Elitarne zaklęcie (czar). (3...17 sek.) Twoje trafienia krytyczne zdejmują zaklęcie. Koszt usunięcia: utrata 10...3 pkt. energii lub koniec Mrocznej Apostazji."
+			},
+			"ru": {
+				"name": "Dark Apostasy",
+				"description": "Элитное заклинание-чары. В течение 3...17 сек каждый раз, когда вы наносите критический удар, вы снимаете одни чары с вашей цели. За каждые снятые с помощью этого умения чары вы теряете 10...3 ед. энергии, иначе Dark Apostasy прекращает свое действие.",
+				"concise": "Элитное заклинание-чары. (3...17 сек)Ваши критические удары снимают чары. Цена снятия: вы теряете 10...3 ед. энергии, иначе действие Dark Apostasy заканчивается."
+			},
+			"bork": {
+				"name": "Daerk Aepustaesy",
+				"description": "Ileete-a Inchuntment Spell. Fur 3...17 secunds, ifery teeme-a yuoo sooccessffoolly lund a creeteecael heet, yuoo remufe-a oone-a inchuntment frum yuoor taerget. Iff yuoo remufe-a un inchuntment in thees vaey, yuoo luse-a 10...3 Inergy oor Daerk Aepustaesy inds.",
+				"concise": "Ileete-a Inchuntment Spell. (3...17 secunds.) Yuoor creeteecael heets remufe-a un inchuntment. Remufael cust: luse-a 10...3 Inergy oor Daerk Aepustaesy inds."
 			}
 		}
 	}

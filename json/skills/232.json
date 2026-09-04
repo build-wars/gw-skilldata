@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电之触",
+				"description": "技能。 触摸目标敌人，使该目标及其所有邻近的敌人受到10...60点闪电伤害。如果技能波及到带有「水系负面魔法」的敌人，那么该敌人将会受到1...4点额外闪电伤害。此法术有 25% 的护甲穿透效果。",
+				"concise": "触摸技。 触摸目标敌人，使该目标及其所有邻近的敌人受到10...60点闪电伤害。如果技能波及到带有「水系负面魔法」的敌人，那么该敌人将会受到1...4点额外闪电伤害。此法术有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "閃電之觸",
+				"description": "技能： 對目標及其鄰近的敵人造成10...60閃電傷害，遭受水系降咒的敵人會受到盲目1...10秒，此技能有25%防禦穿透效果。",
+				"concise": "碰觸技能： 對目標及其鄰近的敵人造成10...60閃電傷害，遭受水系降咒的敵人會受到盲目1...10秒，此技能有25%防禦穿透效果。"
+			},
 			"de": {
+				"name": "Blitz-Berührung",
+				"description": "Fertigkeit. Der berührte Gegner und alle umstehenden Feinde erleiden 10...60 Punkte Blitzschaden, sind für 1...4 Sekunden geblendet und erleiden für 1...10 Sekunden Beschädigte Rüstung. Diese Fertigkeit hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Berührungs-Fertigkeit. Richtet 10...60 Punkte Blitzschaden an. Trifft auch umstehende Feinde um den Gegner. Verursacht für 1...4 Sekunden Blind und für 1...10 Sekunden Beschädigte Rüstung bei allen getroffenen Gegnern. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Blitz-Berührung",
 				"description": "Der berührte Gegner und alle umstehenden Feinden erleiden 10...60 Punkte Blitzschaden, sind für 1...4 Sekunden geblendet und erleiden 1...10 Sekunden Beschädigte Rüstung. Diese Fertigkeit hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...60 Punkte Blitzschaden an. Trifft auch umstehende Feinde um den Gegner. Verursacht für 1...4 Sekunden Blind<sic/> und für 1...10 Sekunden Beschädigte Rüstung bei allen getroffenen Gegnern. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Lightning Touch",
+				"description": "Skill. Target touched foe and all adjacent foes are struck for 10...60 lightning damage, are Blinded for 1...4 seconds, and have Cracked Armor for 1...10 seconds. This skill has 25% armor penetration.",
+				"concise": "Touch Skill. Deals 10...60 lightning damage. Also hits foes adjacent to target foe. Inflicts Blind (1...4 seconds) and Cracked Armor (1...10 seconds) on all struck foes. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Lightning Touch",
 				"description": "Target touched foe and all adjacent foes are struck for 10...60 lightning damage, are Blinded for 1...4 second[s], and have Cracked Armor for 1...10 second[s]. This skill has 25% armor penetration.",
 				"concise": "Touch Skill. Deals 10...60 lightning damage. Also hits foes adjacent to target foe. Inflicts Blind (1...4 second[s]) and Cracked Armor (1...10 second[s]) on all struck foes. 25% armor penetration."
 			},
+			"es": {
+				"name": "Toque de relámpago",
+				"description": "Habilidad. El enemigo que toques y los enemigos adyacentes reciben 10...60 de daño de relámpago, quedan cegados durante 1...4 segundos y tienen la armadura rota durante 1...10 segundos. Esta habilidad tiene un 25% de penetración de armadura.",
+				"concise": "Habilidad de toque. Causa 10...60 de daño de relámpago. También golpea a los enemigos adyacentes al objetivo. Causa ceguera (1...4 segundos) y armadura rota (1...10 segundos) a todos los enemigos alcanzados. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Caresse foudroyante",
+				"description": "Compétence. L'ennemi visé qui est touché et tous les ennemis adjacents subissent 10...60 points de dégâts de la foudre, sont aveuglés pendant 1...4 secondes et souffrent d'Armure brisée pendant 1...10 secondes. Cette compétence a 25% de pénétration d'armure.",
+				"concise": "Compétence de toucher. Inflige 10...60 points de dégâts de la foudre. Affecte également les ennemis près de la cible. Inflige Aveuglement (1...4 secondes) et Armure brisée (1...10 secondes) à tous les ennemis touchés. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Caresse foudroyante",
 				"description": "L'ennemi touché et tous les ennemis adjacents subissent 10...60 points de dégâts de la foudre. Les ennemis touchés par un maléfice de la magie de l'eau sont aveuglés pendant 3...8 secondes. Cette compétence offre 25% de pénétration d'armure.",
 				"concise": "Inflige 10...60 points de dégâts de la foudre. Frappe également les ennemis adjacents à la cible. Inflige l'Aveuglement (3...8 secondes) aux ennemis sous les effets d'un maléfice de la magie de l'eau. Pénétration d'armure de 25%."
+			},
+			"it": {
+				"name": "Tocco del Fulmine",
+				"description": "Abilità. L'obiettivo e tutti i nemici adiacenti vengono colpiti da 10...60 danni da fulmine, subiscono Accecamento per 1...4 secondi e Armatura Incrinata per 1...10 secondi. Questa abilità ha una penetrazione dell'armatura del 25%.",
+				"concise": "Abilità a Tocco. Danni da fulmine inferti: 10...60. Colpisce anche i nemici adiacenti all'obiettivo. Infligge Accecamento (1...4 secondi) e Armatura Incrinata (1...10 secondi) a tutti i nemici colpiti. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ライトニング タッチ",
+				"description": "スキル： 接触した敵および隣接するすべての敵に 10...60 のライトニング ダメージを与え、1...4 秒間「盲目」状態に、1...10 秒間「防具破損」状態にします。このスキルには25%のアーマー貫通効果があります。",
+				"concise": "スキル (接触)： ターゲットした敵および隣接する敵に 10...60 のライトニング ダメージを与えます。ダメージを受けた敵は「盲目」 (1...4 秒) および「防具破損」 (1...10 秒) 状態になります。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개의 손길",
+				"description": "스킬. 대상 지정: 적. 대상과 그에 인접한 모든 적에게 10...60의 번개 대미지를 주고, 1...10초간의 방어 손상과 1...4초 간의 실명 상태로 만듭니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "스킬(접근용). 대상과 그에 인접한 적들에게 10...60의 번개 대미지를 주고, 방어 손상을 입히고(1...10초), 실명시킵니다.(1...4초) 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Elektryzujący Dotyk",
+				"description": "Umiejętność. Dotknięty cel i będący w bezpośrednim sąsiedztwie przeciwnicy zostają uderzeni piorunem za 10...60 pkt. obrażeń od elektryczności, zostają oślepieni na 1...4 sek. i dostają przypadłość pękniętej zbroi na 1...10 sek. To zaklęcie ma 25% penetrację pancerza.",
+				"concise": "Umiejętność dotykowa. Zadaje 10...60 pkt. obrażeń od elektryczności. Trafia również wrogów stojących w bezpośrednim sąsiedztwie celu. Powoduje oślepienie (1...4 sek.) i pękniętą zbroję (1...10) u wszystkich trafionych przeciwników. 25% penetracji pancerza."
+			},
+			"ru": {
+				"name": "Lightning Touch",
+				"description": "Умение. Выбранный противник, до которого вы дотронулись, и все окружающие его противники получат 10...60 ед. урона силой молнии, будут ослеплены на 1...4 сек и получат треснувшие доспехи на 1...10 сек. Это умение игнорирует 25% защиты противника.",
+				"concise": "Умение прикосновения. Наносит 10...60 ед. урона силой молнии. Также поражает противников, окружающих выбранного противника. Вызывает слепоту (1...4 сек) и треснувшие доспехи (1...10 сек) у всех пораженных противников. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Leeghtneeng Tuooch",
+				"description": "Skeell. Taerget tuooched fue-a und aell aedjaecent fues aere-a stroock fur 10...60 leeghtneeng daemaege-a, aere-a Bleended fur 1...4 secunds, und haefe-a Craecked Aermur fur 1...10 secunds. Thees skeell haes 25% aermur penetraeshun.",
+				"concise": "Tuooch Skeell. Deaels 10...60 leeghtneeng daemaege-a. Aelsu heets fues aedjaecent tu taerget fue-a. Inffleects Bleend (1...4 secunds) und Craecked Aermur (1...10 secunds) oon aell stroock fues. 25% aermur penetraeshun."
 			}
 		}
 	}

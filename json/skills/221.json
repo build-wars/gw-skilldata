@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电召唤",
+				"description": "增益魔法。 如果你手持带有闪电伤害的武器，那么你的攻击会对目标敌人造成5...20点闪电伤害，效果持续 60秒。",
+				"concise": "增益魔法。 如果你手持带有闪电伤害的武器，那么你的攻击会对目标敌人造成5...20点闪电伤害，效果持续 60秒。"
+			},
+			"cht": {
+				"name": "召喚閃電",
+				"description": "加持魔法： 持續 60 秒，若你使用具有閃電屬性的武器進行攻擊，對目標額外造成 5...20 閃電傷害。",
+				"concise": "加持魔法： 持續 60 秒，若你使用具有閃電屬性的武器進行攻擊，對目標額外造成 5...20 閃電傷害。"
+			},
 			"de": {
+				"name": "Blitzbeschwörung",
+				"description": "Verzauberung. 60 Sekunden lang richten Eure Angriffe 5...20 Punkt[e] zusätzlichen Blitzschaden an, wenn Ihr eine Blitzwaffe führt.",
+				"concise": "Verzauberung. (60 Sekunden.) Eure Angriffe richten +5...20 Punkt[e] Blitzschaden an. Keine Wirkung, falls Eure Waffe keinen Blitzschaden verursacht."
+			},
+			"de-guildwiki": {
 				"name": "Blitzbeschwörung",
 				"description": "60 Sekunden lang richten Eure Angriffe 5...20 Punkte zusätzlichen Blitzschaden an, wenn Ihr eine Blitzwaffe führt.",
 				"concise": "60 Sekunden: Eure Angriffe richten +5...20 Punkte Blitzschaden an. <gray>Keine Wirkung, falls Eure Waffe keinen Blitzschaden verursacht.</gray>"
 			},
 			"en": {
 				"name": "Conjure Lightning",
+				"description": "Enchantment Spell. For 60 seconds, if you're wielding a lightning weapon, your attacks strike for an additional 5...20 lightning damage.",
+				"concise": "Enchantment Spell. (60 seconds.) Your attacks hit for +5...20 lightning damage. No effect unless your weapon deals lightning damage."
+			},
+			"en-gww": {
+				"name": "Conjure Lightning",
 				"description": "For 60 seconds, if you're wielding a lightning weapon, your attacks strike for an additional 5...20 lightning damage.",
 				"concise": "(60 seconds.) Your attacks hit for +5...20 lightning damage. <gray>No effect unless your weapon deals lightning damage.</gray>"
 			},
+			"es": {
+				"name": "Conjurar relámpago",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, si llevas un arma de relámpago, tus ataques hacen 5...20 de daño de relámpago adicional.",
+				"concise": "Conjuro con encantamiento. (60 segundos.) Tus ataques hacen +5...20 de daño de relámpago. No tiene efecto si no llevas un arma de daño de relámpago."
+			},
 			"fr": {
+				"name": "Conjuration de la foudre",
+				"description": "Enchantement. Pendant 60 secondes, si vous utilisez une arme de la foudre, vos attaques infligent 5...20 points de dégâts de la foudre supplémentaires.",
+				"concise": "Enchantement. (60 secondes.) Vos attaques infligent +5...20 points de dégâts de la foudre. Aucun effet si votre arme n'inflige pas des dégâts de la foudre."
+			},
+			"fr-gwiki": {
 				"name": "Conjuration de la foudre",
 				"description": "Pendant 60 secondes, si vous utilisez une arme de la foudre, vos attaques infligent 5...20 points de dégâts de la foudre supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Evoca Fulmine",
+				"description": "Incantesimo. Per 60 secondi, se brandisci un'arma da fulmine, i tuoi attacchi infliggono un danno da fulmine aggiuntivo di 5...20.",
+				"concise": "Incantesimo. (Secondi: 60.) Danni da fulmine inferti dai tuoi attacchi: +5...20. Ha effetto solo se hai equipaggiato un'arma per danni da fulmine."
+			},
+			"jp": {
+				"name": "カンジャー ライトニング",
+				"description": "強化スペル： 60秒間、ライトニング属性の武器による攻撃が成功すると、5...20 の追加ライトニング ダメージを与えます。",
+				"concise": "強化スペル： (60秒) 5...20 の追加ライトニング ダメージを与えます。ライトニング属性の武器を装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "번개 소환",
+				"description": "강화 마법. 대상 지정: 없음. 60초 동안 번개 속성 무기로 공격을 하면 5...20의 번개 대미지를 추가로 줍니다.",
+				"concise": "강화 마법. (60초) 5...20의 번개 대미지를 추가로 줍니다. 번개 속성 무기를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Przyzwanie Błyskawicy",
+				"description": "Zaklęcie (czar). Przez 60 sek., jeżeli posiadasz zadającą obrażenia od błyskawic broń, twoje ataki zadają dodatkowe 5...20 pkt. obrażeń od błyskawic.",
+				"concise": "Zaklęcie (czar). (60 sek.) Twoje ataki zadają +5...20 pkt. obrażeń od błyskawic. Bez efektu, jeśli twoja broń nie zadaje obrażeń od błyskawic."
+			},
+			"ru": {
+				"name": "Conjure Lightning",
+				"description": "Заклинание-чары. В течение 60 сек, если вы вооружены оружием, наносящим урон силой молнии, ваши атаки наносят дополнительно 5...20 ед. урона силой молнии.",
+				"concise": "Заклинание-чары. (60 сек) Ваши атаки наносят дополнительно 5...20 ед. урона силой молнии. Ваше оружие должно наносить урон силой молнии."
+			},
+			"bork": {
+				"name": "Cunjoore-a Leeghtneeng",
+				"description": "Inchuntment Spell. Fur 60 secunds, iff yuoo're-a veeeldeeng a leeghtneeng veaepun, yuoor aettaecks streeke-a fur un aeddeeshunael 5...20 leeghtneeng daemaege-a. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (60 secunds.) Yuoor aettaecks heet fur +5...20 leeghtneeng daemaege-a. Nu iffffect unless yuoor veaepun deaels leeghtneeng daemaege-a."
 			}
 		}
 	}

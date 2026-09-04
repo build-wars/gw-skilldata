@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "席科之愈",
+				"description": "物品法术。 最多可以持有5...20秒。当持有「席科的骨灰」时，每项你遭受的「负面魔法」和「症状」使你获得3点「生命再生」。当你丢下「席科的骨灰」时，你可以消除自己身上的1...4项「症状」。",
+				"concise": "物品法术。 最多可以持有5...20秒。当持有「席科的骨灰」时，每项你遭受的「负面魔法」和「症状」使你获得3点「生命再生」。当你丢下「席科的骨灰」时，你可以消除自己身上的1...4项「症状」。"
+			},
+			"cht": {
+				"name": "恢復者新科",
+				"description": "抱持魔法： 最多能夠抱持 5...20 秒。當抱持新科的骨灰時，你遭受的每項「降咒」和「病症」使你獲得體力再生增加 3 。而當你丟下新科的骨灰時，消除自己身上的 1...4 項「病症」。",
+				"concise": "抱持魔法： 最多能夠抱持 5...20 秒。當抱持新科的骨灰時，你遭受的每項「降咒」和「病症」使你獲得體力再生增加 3 。而當你丟下新科的骨灰時，消除自己身上的 1...4 項「病症」。"
+			},
 			"de": {
+				"name": "Unverwüstlich war Xiko",
+				"description": "Gegenstandszauber. Haltet Xikos Asche bis zu 5...20 Sekunde[n] lang. Für jede Verhexung und jeden Zustand, unter der bzw. dem Ihr leidet, solange Ihr die Asche haltet, erhaltet Ihr +3 Lebenspunktregeneration. Wenn Ihr die Asche fallen lasst, verliert Ihr 1...4 Zustände.",
+				"concise": "Gegenstandszauber. 5...20 Sekunde[n]: Für jede Verhexung und jeden Zustand auf Euch habt Ihr +3 Lebenspunktregeneration. Fallwirkung: Ihr verliert 1...4 Zustände."
+			},
+			"de-guildwiki": {
 				"name": "Unverwüstlich war Xiko",
 				"description": "Haltet Xikos Asche bis zu 5...20 Sekunden lang. Für jede Verhexung und jeden Zustand, unter der bzw. dem Ihr leidet, solange Ihr die Asche haltet, erhaltet Ihr +3 Lebenspunktregeneration. Wenn Ihr die Asche fallen lasst, verliert Ihr 1...4 Zustände.",
 				"concise": "5...20 Sekunden: Für jede Verhexung und jeden Zustand auf Euch habt Ihr +3 Lebenspunktregeneration. Fallwirkung: Ihr verliert 1...4 Zustände."
 			},
 			"en": {
 				"name": "Resilient Was Xiko",
+				"description": "Item Spell. Hold Xiko's ashes for up to 5...20 seconds. For each hex or condition you are suffering from while holding her ashes, you gain +3 Health regeneration. When you drop her ashes, you lose 1...4 conditions.",
+				"concise": "Item Spell. (5...20 seconds.) You have +3 Health regeneration for each hex or condition on you. Drop effect: you lose 1...4 conditions."
+			},
+			"en-gww": {
+				"name": "Resilient Was Xiko",
 				"description": "Hold Xiko's ashes for up to 5...20 seconds. For each hex or condition you are suffering from while holding her ashes, you gain +3 Health regeneration. When you drop her ashes, you lose 1...4 conditions.<sic/>",
 				"concise": "(5...20 seconds.) You have +3 Health regeneration for each hex or condition on you. Drop effect: you lose 1...4 condition[s]."
 			},
+			"es": {
+				"name": "Resistente sea Xiko",
+				"description": "Conjuro con objeto. Llevas las cenizas de Xiko durante 5...20 segundos. Por cada maleficio o condición que estés padeciendo mientras tanto, ganarás +3 de regeneración de salud. Cuando sueltes las cenizas, perderás 1...4 condiciones.",
+				"concise": "Conjuro con objeto. (5...20 segundos). Tienes +3 de regeneración de salud por cada maleficio o condición que tengas. Efecto al soltarse: pierdes 1...4 condición[\"condiciones\"]."
+			},
 			"fr": {
+				"name": "Xiko était coriace",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Xiko pendant un maximum de 5...20 secondes. Pour chaque maléfice ou condition qui vous affecte quand vous tenez les cendres, vous gagnez +3 en régénération de santé. En lâchant les cendres, vous perdez 1...4 conditions.",
+				"concise": "Sort d'altération d'objet. (5...20 secondes.) Vous bénéficiez d'une régénération de santé de +3 par maléfice ou condition vous affectant. Effet de la pose : vous perdez 1...4 conditions."
+			},
+			"fr-gwiki": {
 				"name": "Xiko était coriace",
 				"description": "Vous tenez les cendres de ''Xiko'' pendant un maximum de 5...20 secondes. Pour chaque Maléfice ou Condition dont vous souffrez pendant que vous tenez ses cendres, vous bénéficiez d'une régénération de santé de +3. Lorsque vous déposez ses cendres, vous perdez 1...4 condition.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Xiko era Determinata",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Xiko per un massimo di 5...20 secondo[i]; ottieni una Rigenerazione della Salute di +3 per ogni fattura o condizione dalla quale sei affetto mentre hai le sue ceneri. Lasciando cadere le ceneri perdi 1...4 condizione[i].",
+				"concise": "Magia Altera-oggetto. (Secondi: 5...20) Rigenerazione Salute per ogni fattura o condizione presente su di te: +3. Rilascio: perdi 1...4 condizione[i]."
+			},
+			"jp": {
+				"name": "ザイコウ リザリアント",
+				"description": "アイテム スペル： 最大 5...20 秒間、ザイコウの遺灰を持ちます。その間、かけられている弱体化スペルおよび「状態異常」ごとに体力の自然回復力が 3 増加します。この遺灰を落とすと、かけられている「状態異常」が 1...4 個解除されます。",
+				"concise": "アイテム スペル： (5...20 秒) かけられている弱体化スペルまたは「状態異常」ごとに、体力の自然回復力が 3 増加します。ドロップ効果： かけられている「状態異常」が 1...4 個解除されます。"
+			},
+			"kr": {
+				"name": "키코의 재생력",
+				"description": "드롭아이템. 대상 지정: 없음. 5...20초 동안 유지되는 키코의 마력석을 만듭니다. 키코의 마력석을 들고 있는 동안 자신이 걸린 상태이상과 약화 마법 하나당 체력 재생이 3씩 증가합니다. 마력석을 바닥에 떨어뜨리면 자신이 걸린 상태이상 1...4개를 무효화합니다.",
+				"concise": "드롭아이템. (5...20초) 자신이 걸린 상태이상과 약화 마법 하나당 체력 재생이 3 증가합니다. 드롭 효과: 자신이 걸린 상태이상 1...4개를 무효화합니다."
+			},
+			"pl": {
+				"name": "Odporną Była Xiko",
+				"description": "Czar z przedmiotu. Unieś prochy Xiko na maks. 5...20 s. Za każdą klątwę lub przypadłość, na kt&oacute;rą cierpisz unosząc jej prochy, otrzymujesz +3 do regeneracji żywotności. W momencie wyrzucenia jej proch&oacute;w tracisz 1...4 przypadłość.",
+				"concise": "Czar z przedmiotu. (5...20 sek.) Za każdą przypadłość lub klątwę, pod której jesteś działaniem, otrzymujesz regenerację żywotności +3. Efekt upuszczenia: tracisz przypadłości w liczbie 1...4."
+			},
+			"ru": {
+				"name": "Resilient Was Xiko",
+				"description": "Артефактное заклинание. Вы держите прах Xiko до 5...20 сек. За каждое проклятье или состояние, лежащее на вас в то время, пока вы держите ее прах, ваша скорость восстановления здоровья увеличивается на 3 ед. Когда вы бросаете ее прах, с вас снимаются лежащие на вас состояния (1...4).",
+				"concise": "Артефактное заклинание. (5...20 сек) Вы получаете +3 ед. к скорости восстановления здоровья за каждое действующее на вас проклятье или состояние. Эффект от бросания: с вас снимаются состояния (1...4)."
+			},
+			"bork": {
+				"name": "Reseeleeent Vaes Xeeku",
+				"description": "Item Spell. Huld Xeeku's aeshes fur up tu 5...20 secunds. Fur iaech hex oor cundeeshun yuoo aere-a sooffffereeng frum vheele-a huldeeng her aeshes, yuoo gaeeen +3 Heaelt regeneraeshun. Vhee yuoo drup her aeshes, yuoo luse-a 1...4 cundeeshuns. Bork! Bork! Bork!",
+				"concise": "Item Spell. (5...20 secunds.) Yuoo haefe-a +3 Heaelt regeneraeshun fur iaech hex oor cundeeshun oon yuoo. Drup iffffect: yuoo luse-a 1...4 cundeeshuns."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 1,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "精准之箭",
+				"description": "弓术。 命中时，对目标造成3...10点额外伤害。精准之箭无法被「格挡」。此技能容易被打断。",
+				"concise": "弓术。 命中时，对目标造成3...10点额外伤害。精准之箭无法被「格挡」。此技能容易被打断。"
+			},
+			"cht": {
+				"name": "精準之箭",
+				"description": "弓術攻擊技能： 精準之箭命中時，對目標造成 3...10 額外傷害。精準之箭無法被「格擋」，但發動時容易被中斷。",
+				"concise": "弓術攻擊技能： 精準之箭命中時，對目標造成 3...10 額外傷害。精準之箭無法被「格擋」，但發動時容易被中斷。"
+			},
 			"de": {
+				"name": "Präzisionsschuss",
+				"description": "Bogenangriff. Wenn Präzisionsschuss trifft, fügt Ihr +3...10 Punkt[e] Schaden zu. Bei Präzisionsschuss ist ein Blocken nicht möglich. Diese Aktion kann leicht unterbrochen werden.",
+				"concise": "Bogenangriff. Richtet +3...10 Punkt[e] Schaden an. Kann nicht geblockt werden. Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Präzisionsschuss",
 				"description": "Wenn Präzisionsschuss trifft, fügt Ihr +3...10 Punkte Schaden zu. Beim Präzisionsschuss ist ein Blocken nicht möglich. Diese Aktion kann leicht unterbrochen werden.",
 				"concise": "Richtet +3...10 Punkte Schaden an. Kann nicht geblockt werden. <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Precision Shot",
+				"description": "Bow Attack. If Precision Shot hits, you strike for +3...10 damage. Precision Shot cannot be blocked. This action is easily interrupted.",
+				"concise": "Bow Attack. Deals +3...10 damage. Unblockable. Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Precision Shot",
 				"description": "If Precision Shot hits, you strike for +3...10 damage. Precision Shot cannot be blocked. This action is easily interrupted.",
 				"concise": "Deals +3...10 damage. Unblockable. <gray>Easily Interrupted.</gray>"
 			},
+			"es": {
+				"name": "Disparo preciso",
+				"description": "Ataque con arco. Si el Disparo preciso impacta, harás +3...10 de daño. El Disparo preciso no puede bloquearse. Esta acción se interrumpe con facilidad.",
+				"concise": "Ataque con arco. Hace +3...10 de daño. No se puede bloquear. Se te puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Tir de précision",
+				"description": "Attaque à l'arc. Si le Tir de précision réussit, vous infligez +3...10 points de dégâts. Le Tir de précision ne peut pas être bloqué. Cette action peut facilement être interrompue.",
+				"concise": "Attaque à l'arc. Inflige +3...10 points de dégâts. Impossible à bloquer. Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Tir de précision",
 				"description": "Si le Tir de précision réussit, vous infligez +3...10 points de dégâts. Le Tir de précision ne peut pas être bloqué. Cette action peut facilement être interrompue.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro di Precisione",
+				"description": "Attacco con Arco. Se va a segno, infliggi +3...10 danno[i]; non può essere bloccato ma è facile da interrompere.",
+				"concise": "Attacco con Arco. Danni inferti: +3...10. Non bloccabile. Facile interruzione."
+			},
+			"jp": {
+				"name": "プレシジョン ショット",
+				"description": "ボウ アタック： 攻撃が成功すると 3...10 の追加ダメージを与えます。この攻撃はブロックされません。ただし、このアクションは容易に中断されます。",
+				"concise": "ボウ アタック： 3...10 の追加ダメージを与えます。この攻撃はブロックされません。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "정밀 사격",
+				"description": "활 공격. 대상 지정: 적. 명중하면 대상에게 3...10의 대미지를 추가로 줍니다. 이 공격은 막을 수 없지만 쉽게 방해받습니다.",
+				"concise": "활 공격. 3...10의 대미지를 추가로 줍니다. 이 공격을 막을 수 없습니다. 스킬이 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Precyzyjny Strzał",
+				"description": "Strzał z łuku. Jeśli Precyzyjny Strzał trafi, zadajesz +3...10 pkt. obrażeń. Precyzyjnego Strzału nie można zablokować. Atak ten łatwo przerwać.",
+				"concise": "Strzał z łuku. Zadaje +3...10 pkt. obrażeń. Nie do zablokowania. Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Precision Shot",
+				"description": "Атака из лука. Если Precision Shot попадает в цель, вы наносите дополнительно 3...10 ед. урона. Precision Shot нельзя блокировать. Это действие очень легко прервать.",
+				"concise": "Атака из лука. Наносит дополнительно 3...10 ед. урона. Нельзя блокировать. Легко прервать."
+			},
+			"bork": {
+				"name": "Preceeseeun Shut",
+				"description": "Boo Aettaeck. Iff Preceeseeun Shut heets, yuoo streeke-a fur +3...10 daemaege-a. Preceeseeun Shut cunnut be-a blucked. Thees aecshun is iaeseely interroopted.",
+				"concise": "Boo Aettaeck. Deaels +3...10 daemaege-a. Unbluckaeble-a. Iaeseely interroopted."
 			}
 		}
 	}

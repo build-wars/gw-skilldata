@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "凋零斩",
+				"description": "双重攻击。 此技能必须接续在「起手技」之后使用。打断目标敌人的动作，如果目标在施法中被此技能打断，会使他遭受「虚弱」症状。",
+				"concise": "双重攻击。 打断技能。如果打断的是法术，会使施法者「虚弱」。此技能必须接续在「副手技」之后使用。"
+			},
+			"cht": {
+				"name": "衰竭突襲",
+				"description": "雙重攻擊： 必須接續在「引導攻擊」之後。中斷目標敵人的行動，若目標正在施展「魔法」，則使其遭受「精疲力竭」。",
+				"concise": "雙重攻擊： 必須接續在「引導攻擊」之後。中斷目標敵人的行動，若目標正在施展「魔法」，則使其遭受「精疲力竭」。"
+			},
 			"de": {
+				"name": "Ermüdender Angriff",
+				"description": "Doppelangriff. Muss einem Leithandangriff folgen. Die Aktion des Gegners wurde unterbrochen. Wenn diese Aktion ein Zauber war, dann erleidet der Gegner 10 Überzaubern.",
+				"concise": "Doppelangriff. Unterbricht eine Aktion. Verursacht 10 Überzaubern, wenn die unterbrochene Aktion ein Zauber war. Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Ermüdender Angriff",
 				"description": "Muss einem Leithandangriff folgen. Unterbricht die Aktion des Gegners. Wenn es sich dabei um einen Zauber gehandelt hat, erleidet der Gegner 10 Überzaubern.",
 				"concise": "Unterbricht eine Aktion. Fügt 10 Überzaubern zu, wenn die unterbrochene Aktion ein Zauber war. <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Exhausting Assault",
+				"description": "Dual Attack. Must follow a lead attack. Target foe's action is interrupted. If that action was casting a spell, target foe suffers 10 Overcast.",
+				"concise": "Dual Attack. Interrupts an action. Inflicts 10 Overcast if the interrupted action was a spell. Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Exhausting Assault",
 				"description": "Must follow a lead attack. Target foe's action is interrupted. If that action was casting a spell, target foe suffers 10 Overcast.",
 				"concise": "Interrupts an action. Inflicts 10 Overcast if the interrupted action was a spell. <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Ataque agotador",
+				"description": "Ataque doble. Debe seguir a un ataque inicial. Interrumpe la acción del enemigo objetivo. Si estaba lanzando un conjuro, el enemigo objetivo sufre 10 de sobrelanzamiento.",
+				"concise": "Ataque doble. Interrumpe una acción. Causa 10 de sobrelanzamiento si la acción interrumpida era el lanzamiento de un conjuro. Debe seguir a un ataque inicial."
+			},
 			"fr": {
+				"name": "Assaut épuisant",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main droite. L'action de l'ennemi visé est interrompue. Si cette action était un lancer de sort, l'ennemi visé subit un Afflux de 10.",
+				"concise": "Attaque ambidextre. Interrompt une action. Inflige un Afflux de 10 si l'action interrompue était un lancer de sort. Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Assaut épuisant",
 				"description": "Doit suivre une attaque main droite. L'action de la cible ennemie est interrompue. Si elle lançait un sort, la cible ennemie sera prise d'Epuisement.",
 				"concise": "Interrompt une action. Provoque l'Epuisement si l'action interrompue était un sort. <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Assalto Estenuante",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma primaria. Interrompe l'azione dell'obiettivo nemico. Se interrompe il lancio di una magia, l'obiettivo nemico subisce 10 di Sforzo.",
+				"concise": "Attacco Doppio[_]. Interrompe un'azione. Provoca 10 di Sforzo se l'azione interrotta era una magia. Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "エグゾウスト アサルト",
+				"description": "デュアル アタック： このスキルは、リード アタックの次に使用します。ターゲットした敵のアクションを中断します。スペル詠唱を中断した場合、ターゲットは10ポイントの「疲労」状態になります。",
+				"concise": "デュアル アタック： アクションを中断します。スペルを中断した場合、10ポイントの「疲労」状態になります。このスキルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "실수 유발",
+				"description": "쌍수 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 대상의 동작을 방해합니다. 대상이 마법을 외우는 중이었다면 10만큼의 탈진을 겪습니다.",
+				"concise": "쌍수 공격. 동작을 방해합니다. 마법을 방해하면 대상은 10만큼의 탈진을 겪습니다. 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Wyczerpujące Natarcie",
+				"description": "Atak podwójny. Musi nastąpić po ataku poprzedzającym. Przerywa czynność celu. Jeśli przerwaną czynnością było rzucanie zaklęcia, cel otrzymuje 10 punktów Przemagicznienia.",
+				"concise": "Atak podwójny. Przerywa czynność przeciwnika. Powoduje 10 punktów Przemagicznienia, jeśli przerwaną czynnością było rzucenie zaklęcia. Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Exhausting Assault",
+				"description": "Двойная атака. Должен следовать за ведущей атакой. Действие выбранного противника прерывается. Если противник был прерван во время произнесения заклинания, то он получает 10 ед. Утомления.",
+				"concise": "Двойная атака. Прерывает действие. Дает противнику 10 ед. Утомления, если было прервано заклинание. Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Ixhoosteeng Aessoolt",
+				"description": "Dooael Aettaeck. Moost fulloo a leaed aettaeck. Taerget fue-a's aecshun is interroopted. Iff thaet aecshun vaes caesteeng a spell, taerget fue-a sooffffers 10 Oofercaest.",
+				"concise": "Dooael Aettaeck. Interroopts un aecshun. Inffleects 10 Oofercaest iff zee interroopted aecshun vaes a spell. Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

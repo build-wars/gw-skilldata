@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "喧闹之灵",
+				"description": "精英咒文。 依照你附近的盟友人数，使附近同样数量的敌人遭受 10...65 闪电伤害。 (同一名敌人不会遭受到一次以上的伤害。)",
+				"concise": "精英咒文。 依照你附近的盟友人数，使附近同样数量的敌人遭受 10...65 闪电伤害。 (同一名敌人不会遭受到一次以上的伤害。)"
+			},
+			"cht": {
+				"name": "喧鬧之靈",
+				"description": "精英咒文魔法： 對目標及其附近敵人造成10...65閃電傷害，若你抱著一項物品或者音量範圍內有靈存在，你獲得10能量。",
+				"concise": "精英咒文魔法： 對目標及其附近敵人造成10...65閃電傷害，若你抱著一項物品或者音量範圍內有靈存在，你獲得10能量。"
+			},
 			"de": {
+				"name": "Gezeter der Seelen",
+				"description": "Elite-Zauber. Der Gegner und alle Feinde in der Nähe erleiden 10...65 Punkt[e] Blitzschaden. Wenn Ihr Euch in Hörweite eines Geistes befindet oder einen gebündelten Gegenstand haltet, erhaltet Ihr 10 Energiepunkt[e].",
+				"concise": "Elite-Zauber. Richtet beim Gegner und bei Feinden in der Nähe 10...65 Blitzschaden an. Ihr erhaltet 10 Energie, wenn Ihr in Hörweite eines Geistes seid oder einen gebündelten Gegenstand haltet."
+			},
+			"de-guildwiki": {
 				"name": "Gezeter der Seelen",
 				"description": "Der Gegner und alle Feinde in der Nähe erleiden 10...65 Punkte Blitzschaden. Wenn Ihr Euch in Hörweite eines Geistes befindet oder einen gebündelten Gegenstand haltet, erhaltet Ihr 10 Punkte Energie.",
 				"concise": "Richtet beim Gegner und bei Feinden in der Nähe 10...65 Blitzschaden an. Ihr erhaltet 10 Energie, wenn Ihr in Hörweite eines Geistes seid oder einen gebündelten Gegenstand haltet."
 			},
 			"en": {
 				"name": "Clamor of Souls",
+				"description": "Elite Spell. Target foe and all nearby foes take 10...65 lightning damage. If you are within earshot of a spirit or holding a bundle item, you gain 10 Energy.",
+				"concise": "Elite Spell. Deals 10...65 lightning damage to target and nearby foes. You gain 10 Energy if you are within earshot of a spirit or holding a bundle item."
+			},
+			"en-gww": {
+				"name": "Clamor of Souls",
 				"description": "Target foe and all nearby foes take 10...65 lightning damage. If you are within earshot of a spirit or holding a bundle item, you gain 10 Energy.",
 				"concise": "Deals 10...65 lightning damage to target and nearby foes. You gain 10 Energy if you are within earshot of a spirit or holding a bundle item."
 			},
+			"es": {
+				"name": "Clamor de almas",
+				"description": "Conjuro de élite. El enemigo objetivo y los cercanos reciben 10...65 de daño de relámpago. Si estás al alcance del oído de un espíritu o estás llevando un objeto de mano, ganas 10 de energía.",
+				"concise": "Conjuro de élite. Hace 10...65 de daño de relámpago al enemigo objetivo y los cercanos. Ganas 10 de energía si estás al alcance del oído de un espíritu o estás llevando un objeto de mano."
+			},
 			"fr": {
+				"name": "Clameur des âmes",
+				"description": "Sort d'élite. La cible ennemie et tous les ennemis à proximité subissent 10...65 points de dégâts de la foudre. Si vous êtes à portée de voix d'un esprit ou vous tenez un paquet, vous gagnez 10 points d'énergie.",
+				"concise": "Sort d'élite. Inflige 10...65 points de dégâts de la foudre à la cible et aux ennemis à proximité. Vous gagnez 10 points d'énergie si vous êtes à portée de voix d'un esprit ou tenez un paquet."
+			},
+			"fr-gwiki": {
 				"name": "Clameur des âmes",
 				"description": "La cible ennemie et tous les ennemis adjacents subissent 10...65 points de dégâts de la foudre. Si vous êtes à portée de voix d'un esprit ou tenez un paquet, vous gagnez 10 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Clamore delle Anime",
+				"description": "Magia d'Élite. L'obiettivo nemico e tutti i nemici nei dintorni subiscono 10...65 danno[i] da fulmine. Se ti trovi a portata d'orecchio di uno Spirito o stai trasportando un carico ottieni 10 Punto[i] Energia.",
+				"concise": "Magia d'Élite. Danni da fulmine all'obiettivo e ai nemici nei dintorni: 10...65. Energia conseguita se sei a portata di orecchio di uno Spirito o stai trasportando un carico: 10."
+			},
+			"jp": {
+				"name": "ソウル クラマー",
+				"description": "エリート スペル： ターゲットした敵および周囲にいるすべての敵に 10...65 のライトニング ダメージを与えます。声の届く範囲内に精霊がいるか手にアイテムを持っている場合、プレイヤーは 10 のエネルギーを獲得します。",
+				"concise": "エリート スペル： ターゲットした敵および周囲にいる敵に 10...65 のライトニング ダメージを与えます。プレイヤーは声の届く範囲内に精霊がいるか手にアイテムを持っている場合、10 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "영혼의 아우성",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 그 부근의 모든 적에게 10...65의 번개 대미지를 줍니다. 가청 범위 내에 영혼이 있거나 드롭아이템을 들고 있으면 10의 에너지를 얻습니다.",
+				"concise": "엘리트 마법. 대상과 그 부근의 적들에게 10...65의 번개 대미지를 줍니다. 가청 범위 내에 영혼이 있거나 드롭아이템을 들고 있으면 10의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Krzyk Dusz",
+				"description": "Elitarny czar. Wybrany przeciwnik i wszyscy przeciwnicy w pobliżu otrzymują po 10...65 pkt. obrażeń od błyskawic. Jeżeli w zasięgu słuchu znajdują się jakieś duchy lub trzymasz przedmiot, to otrzymujesz 10 pkt. energii.",
+				"concise": "Elitarny czar. Wybranemu przeciwnikowi i wszystkim przeciwnikom w pobliżu zadaje po 10...65 pkt. obrażeń od błyskawic. Jeżeli w zasięgu słuchu znajdują się jakieś duchy lub trzymasz przedmiot, to otrzymujesz 10 pkt. energii."
+			},
+			"ru": {
+				"name": "Clamor of Souls",
+				"description": "Элитное заклинание. Выбранный противник и все противники поблизости получают 10...65 ед. урона силой молнии. Если вы находитесь в зоне слышимости какого-либо духа или держите артефакт, вы получаете 10 ед. энергии.",
+				"concise": "Элитное заклинание. Наносит 10...65 ед. урона силой молнии цели и противникам поблизости. Вы получаете 10 ед. энергии, если находитесь в зоне слышимости какого-либо духа или держите артефакт."
+			},
+			"bork": {
+				"name": "Claemur ooff Suools",
+				"description": "Ileete-a Spell. Taerget fue-a und aell neaerby fues taeke-a 10...65 leeghtneeng daemaege-a. Iff yuoo aere-a veetheen iaershut ooff a spureet oor huldeeng a boondle-a item, yuoo gaeeen 10 Inergy.",
+				"concise": "Ileete-a Spell. Deaels 10...65 leeghtneeng daemaege-a tu taerget und neaerby fues. Yuoo gaeeen 10 Inergy iff yuoo aere-a veetheen iaershut ooff a spureet oor huldeeng a boondle-a item."
 			}
 		}
 	}

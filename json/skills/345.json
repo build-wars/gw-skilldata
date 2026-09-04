@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "防御姿态",
+				"description": "姿态。 在1...5秒之内，使你的护甲值提高24点，有75%的几率「格挡」弓箭与近身攻击。若在此「姿态」下使用技能，则「姿态」自动消失。",
+				"concise": "姿态。 在1...5秒之内，使你的护甲值提高24点，「格挡」弓箭与近身攻击的几率提高75%。若在此「姿态」下使用其他技能，则「姿态」自动消失。"
+			},
+			"cht": {
+				"name": "防禦態勢",
+				"description": "態勢： 持續 1...5 秒，你有 75% 機率格檔攻擊，此態勢終止時，依照你擁有的近身攻擊技能數量，每個使你獲得 1 次攻擊的怒氣值。 (最多 0...4)",
+				"concise": "態勢： 持續 1...5 秒，你有 75% 機率格檔攻擊，此態勢終止時，依照你擁有的近身攻擊技能數量，每個使你獲得 1 次攻擊的怒氣值。 (最多 0...4)"
+			},
 			"de": {
+				"name": "Verteidigungshaltung",
+				"description": "Haltung. 1...5 Sekunde[n] lang habt Ihr eine 75%ige Chance, Nahkampf- und Geschossangriffe zu blocken. Wenn Verteidigungshaltung endet, erhaltet Ihr für jede Nahkampfangriffsfertigkeit, die Ihr besitzt, einen Adrenalinstoß (maximal 0...4).",
+				"concise": "Haltung. (1...5 Sekunde[n].) Ihr habt eine 75%ige Chance zu blocken. Wirkung am Ende: Ihr erhaltet für jede Nahkampfangriffsfertigkeit, die Ihr besitzt, einen Adrenalinstoß (maximal 0...4)."
+			},
+			"de-guildwiki": {
 				"name": "Verteidigungshaltung",
 				"description": "1...5 Sekunden lang habt Ihr eine 75%ige Chance, Nahkampf- und Geschossangriffe zu blocken. Wenn Verteidigungshaltung endet, erhaltet Ihr für jede Nahkampfangriffsfertigkeit, die Ihr besitzt, einen Adrenalinstoß (maximal 0...4).",
 				"concise": "(1...5 Sekunden.) Ihr habt eine 75%ige Chance zu blocken. Wirkung am Ende: Ihr erhaltet für jede Nahkampfangriffsfertigkeit, die Ihr besitzt, einen Adrenalinstoß (maximal 0...4)."
 			},
 			"en": {
 				"name": "Defensive Stance",
+				"description": "Stance. For 1...5 seconds, you have a 75% chance to block melee and projectile attacks. When Defensive Stance ends, you gain one strike of adrenaline for each melee attack skill you have (maximum 0...4).",
+				"concise": "Stance. (1...5 seconds.) You have 75% chance to block. End effect: gain one adrenaline for each melee attack skill you have (maximum 0...4)."
+			},
+			"en-gww": {
+				"name": "Defensive Stance",
 				"description": "For 1...5 second[s], you have a 75% chance to block melee and projectile attacks. When Defensive Stance ends, you gain one strike of adrenaline for each melee attack skill you have (maximum 0...4).",
 				"concise": "(1...5 second[s].) You have 75% chance to block. <gray>End effect: gain one adrenaline for each melee attack skill you have (maximum 0...4).</gray>"
 			},
+			"es": {
+				"name": "Actitud defensiva",
+				"description": "Actitud. Durante 1...5 segundos, tienes un 75% de posibilidades de bloquear ataques cuerpo a cuerpo y proyectiles. Cuando la Actitud defensiva acabe, ganas un golpe de adrenalina por cada habilidad de ataque cuerpo a cuerpo que tengas (máximo 0...4).",
+				"concise": "Actitud. (1...5 segundos). Tienes un 75% de probabilidades de bloquear. Efecto final: ganas un golpe de adrenalina por cada habilidad de ataque cuerpo a cuerpo que tengas (máximo 0...4)."
+			},
 			"fr": {
+				"name": "Pose défensive",
+				"description": "Pose de combat. Pendant 1...5 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Lorsque la Pose défensive prend fin, vous obtenez une décharge d'adrénaline pour chaque compétence d'attaque au corps à corps dont vous disposez (maximum de 0...4 décharges).",
+				"concise": "Pose de combat. (1...5 secondes.) Vous avez 75% de chances de bloquer les attaques. Effet final : vous obtenez une décharge d'adrénaline pour chaque compétence d'attaque au corps à corps dont vous disposez (maximum de 0...4 décharges)."
+			},
+			"fr-gwiki": {
 				"name": "Pose défensive",
 				"description": "Pendant 1...5 seconde(s), vous bénéficiez de 75% de chances de bloquer. Lorsque cette pose prend fin, vous gagnez 1 décharge d'adrénaline pour chaque compétence d'attaque au corps à corps dont vous disposez. (Maximum 0...4).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione Difensiva",
+				"description": "Posizione. Per 1...5 secondo[i] hai un 75% di probabilità di bloccare gli attacchi ravvicinati e proiettile. Al termine dell'effetto di Posizione Difensiva, ottieni una dose di adrenalina per ogni abilità di attacco ravvicinato che possiedi (max 0...4).",
+				"concise": "Posizione. (Secondo[i]: 1...5) Probabilità di blocco: 75%. Effetto al termine: ottieni una dose di adrenalina per ogni abilità di attacco ravvicinato che possiedi (max 0...4)."
+			},
+			"jp": {
+				"name": "ディフェンシブ スタンス",
+				"description": "スタンス： 1...5 秒間、75%の確率で近接攻撃および遠投攻撃をブロックします。この効果が消失すると、装備している近接攻撃スキルごとに1発のアドレナリンを獲得します (最大 0...4)。",
+				"concise": "スタンス： (1...5 秒) 75%の確率でブロックします。終了効果： 装備している近接攻撃スキルごとに1発のアドレナリンを獲得します (最大 0...4 発)。"
+			},
+			"kr": {
+				"name": "방어 자세",
+				"description": "자세. 대상 지정: 없음. 1...5초 동안 75% 확률로 근접 물리 공격과 원거리 발사체 공격을 막을 수 있습니다. 효과가 끝나면 스킬창에 등록 중인 근접 물리 공격 스킬 최대 0...4개에 한해 스킬 하나당 1번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "자세. (1...5초) 75% 확률로 공격을 막습니다. 종료 효과: 스킬창에 등록한 근접 물리 공격 스킬 하나당 1의 아드레날린을 얻습니다.(최대 0...4개 스킬)"
+			},
+			"pl": {
+				"name": "Postawa Obronna",
+				"description": "Postawa. Przez 1...5 sek., masz 75% szans na zablokowanie ataków wręcz i pocisków. Kiedy Postawa Obronna przestaje działać, otrzymujesz jedną dawkę adrenaliny za każdą posiadaną umiejętność walki wręcz (maksymalnie 0...4).",
+				"concise": "Postawa. (1...5 sek.) Masz 75% szans na zablokowanie ataków. Efekt końcowy: otrzymujesz jedną dawkę adrenaliny za każdą posiadaną umiejętność walki wręcz (maksymalnie 0...4)."
+			},
+			"ru": {
+				"name": "Defensive Stance",
+				"description": "Стойка. В течение 1...5 сек вы получаете 75%-й шанс блокировать рукопашные атаки и стрелы. Когда Defensive Stance прекращает свое действие, вы получаете 1 ед. адреналина за каждое имеющееся у вас атакующее рукопашное умение (но не более 0...4 ед.).",
+				"concise": "Стойка. (1...5 сек) Вы получаете 75%-й шанс блокировать. Эффект окончания: дает 1 ед. адреналина за каждое имеющееся у вас атакующее рукопашное умение (но не более 0...4 ед.)."
+			},
+			"bork": {
+				"name": "Deffenseefe-a Stunce-a",
+				"description": "Stunce-a. Fur 1...5 secunds, yuoo haefe-a a 75% chunce-a tu bluck melee-a und prujecteele-a aettaecks. Vhee Deffenseefe-a Stunce-a inds, yuoo gaeeen oone-a streeke-a ooff aedrenaeleene-a fur iaech melee-a aettaeck skeell yuoo haefe-a (maexeemoom 0...4).",
+				"concise": "Stunce-a. (1...5 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Ind iffffect: gaeeen oone-a aedrenaeleene-a fur iaech melee-a aettaeck skeell yuoo haefe-a (maexeemoom 0...4). Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恩赐纹章",
+				"description": "精英纹章。 治愈目标盟友 20...80 生命。并依照该盟友具有的「增益魔法」数量，每个让你获得 2 能量。(最多获得 20...100 能量)",
+				"concise": "精英纹章。 治愈目标盟友 20...80 生命。并依照该盟友具有的「增益魔法」数量，每个让你获得 2 能量。(最多获得 20...100 能量)"
+			},
+			"cht": {
+				"name": "恩賜紋章",
+				"description": "精英紋章： 治療目標20...80體力，你的下一個治療祈禱或者防護祈禱魔法額外治療20...100體力。",
+				"concise": "精英紋章： 治療目標20...80體力，你的下一個治療祈禱或者防護祈禱魔法額外治療20...100體力。"
+			},
 			"de": {
+				"name": "Siegel des Segens",
+				"description": "Elite-Siegel. Heilt den Verbündeten (bzw. Euch selbst) um 20...80 Lebenspunkt[e]. Euer nächster auf einen Verbündeten gerichteter Heil- oder Schutzgebet-Zauber heilt zusätzlich um 20...100 Lebenspunkt[e].",
+				"concise": "Elite-Siegel. Heilt um 20...80. Euer nächster auf einen Verbündeten gerichteter Heil- oder Schutzgebet-Zauber heilt um +20...100 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des Segens",
 				"description": "Heilt den Verbündeten (bzw. Euch selbst) um 20...80 Lebenspunkte. Euer nächster auf einen Verbündeten (bzw. Euch selbst) gerichteter Heil- oder Schutzgebet-Zauber heilt zusätzlich um 20...100 Lebenspunkte.",
 				"concise": "Heilt um 20...80. Euer nächster auf einen Verbündeten gerichteter Heil- oder Schutzgebet-Zauber heilt um +20...100 Lebenspunkte."
 			},
 			"en": {
 				"name": "Boon Signet",
+				"description": "Elite Signet. Heal target ally for 20...80 Health. Your next Healing or Protection Prayer spell that targets an ally heals for an additional 20...100 Health.",
+				"concise": "Elite Signet. Heals for 20...80. Your next Healing or Protection Prayer spell that targets an ally heals for +20...100 Health."
+			},
+			"en-gww": {
+				"name": "Boon Signet",
 				"description": "Heal target ally for 20...80 Health. Your next Healing or Protection Prayer <sic/> spell that targets an ally heals for an additional 20...100 Health.",
 				"concise": "Heals for 20...80. Your next Healing or Protection Prayer <sic/> spell that targets an ally heals for +20...100 Health."
 			},
+			"es": {
+				"name": "Sello vinculante",
+				"description": "Sello de élite. Curas al objetivo (un aliado o tú mismo) 20...80 de salud. Tu siguiente conjuro de curación o protección que lances sobre el mismo objetivo cura 20...100 de salud extra.",
+				"concise": "Sello de élite. Curas 20...80 de salud. Tu siguiente conjuro de curación o protección que lances sobre un aliado cura +20...100 de salud extra."
+			},
 			"fr": {
+				"name": "Sceau du compagnon",
+				"description": "Sceau d'élite. Soigne l'allié ciblé de 20...80 points de vie. Votre prochain sort de Prière de guérison ou de Prière de protection qui vise un allié soigne de 20...100 points de vie supplémentaires.",
+				"concise": "Sceau d'élite. Soigne de 20...80 points de vie. Votre prochain sort de Prière de guérison ou de Prière de protection qui vise un allié soigne de 20...100 points de vie supplémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du compagnon",
 				"description": "Soigne la cible alliée 20...80 points de vie. Votre prochain sort de Prières de guérison ou de Prières de protection visant un allié soigne de 20...100 points de vie supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Soccorso",
+				"description": "Sigillo d'Élite. Curi l'obiettivo (un alleato o te stesso) di 20...80 Punto[i] Salute. La tua prossima magia appartenente all'attributo delle Preghiere Curative o delle Preghiere Protettive e diretta verso un alleato dona 20...100 Punto[i] Salute in più.",
+				"concise": "Sigillo d'Élite. Cure: 20...80. Cure impartite ad un obiettivo alleato dalla tua prossima magia di Preghiere Curative o Preghiere Protettive: 20...100."
+			},
+			"jp": {
+				"name": "ブーン シグネット",
+				"description": "エリート シグネット： ターゲットした味方は体力が 20...80 回復します。次に味方に対して「ヒーリング」または「プロテクション」の特性スペルを詠唱すると、20...100 の体力が追加回復します。",
+				"concise": "エリート シグネット： 体力を 20...80 回復します。次に味方に対して「ヒーリング」または「プロテクション」の特性スペルを詠唱すると、20...100 の体力が追加回復します。"
+			},
+			"kr": {
+				"name": "은총 인장",
+				"description": "엘리트 인장. 대상 지정: 아군. 대상의 체력을 20...80 회복시킵니다. 다음에 사용하는 치유 또는 보호 특성의 마법은 대상의 체력을 20...100만큼 추가로 회복시킵니다.",
+				"concise": "엘리트 인장. 20...80의 체력을 회복시킵니다. 다음에 대상에게 사용하는 치유 또는 보호 특성의 마법은 20...100의 체력을 추가로 회복시킵니다."
+			},
+			"pl": {
+				"name": "Sygnet Daru",
+				"description": "Sygnet elitarny. Uzdrawiasz wybranego sojusznika dodając mu 20...80 pkt. żywotności. Twój następny czar z Modlitw Uzdrawiających lub Ochronnych, który rzucany jest na sojusznika, dodaje dodatkowe 20...100 pkt. żywotności.",
+				"concise": "Sygnet elitarny. Dodaje 20...80 pkt. żywotności. Twój następny czar z Modlitw Uzdrawiających lub Ochronnych, który rzucany jest na sojusznika, dodaje +20...100 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Boon Signet",
+				"description": "Элитная печать. Вы исцеляете выбранного союзника на 20...80 ед. здоровья. Следующее ваше заклинание, связанное с талантом Healing Prayers или Protection Prayers и направленное на союзника, исцелит дополнительно на 20...100 ед. здоровья.",
+				"concise": "Элитная печать. Исцеляет на 20...80 ед. здоровья. Следующее ваше заклинание, связанное с талантом Healing Prayers или Protection Prayers и направленное на союзника, исцелит дополнительно на 20...100 ед. здоровья."
+			},
+			"bork": {
+				"name": "Buun Seegnet",
+				"description": "Ileete-a Seegnet. Heael taerget aelly fur 20...80 Heaelt. Yuoor next Heaeleeng oor Prutecshun Praeyer spell thaet taergets un aelly heaels fur un aeddeeshunael 20...100 Heaelt.",
+				"concise": "Ileete-a Seegnet. Heaels fur 20...80. Yuoor next Heaeleeng oor Prutecshun Praeyer spell thaet taergets un aelly heaels fur +20...100 Heaelt."
 			}
 		}
 	}

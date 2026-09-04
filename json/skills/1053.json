@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "心智错乱",
+				"description": "精英咒文。 此技能发动后，你的其余技能在 8秒 内无法使用。如果目标敌人正在使用技能，该技能将被打断并且使此技能在 5...12秒 内无法使用。",
+				"concise": "精英咒文。 此技能发动后，你的其余技能在 8秒 内无法使用。如果目标敌人正在使用技能，该技能将被打断并且使此技能在 5...12秒 内无法使用。"
+			},
+			"cht": {
+				"name": "心靈錯亂",
+				"description": "精英咒文魔法： 此技能發動後，你的其他所有技能在 8 秒內無法使用。若目標敵人正在使用「技能」，你中斷該技能並且使其被中斷的技能在 5...12 秒內無法使用。",
+				"concise": "精英咒文魔法： 此技能發動後，你的其他所有技能在 8 秒內無法使用。若目標敵人正在使用「技能」，你中斷該技能並且使其被中斷的技能在 5...12 秒內無法使用。"
+			},
 			"de": {
+				"name": "Übernatürliche Ablenkung",
+				"description": "Elite-Zauber. Alle anderen Eurer Fertigkeiten werden 8 Sekunde[n] lang deaktiviert. Falls der Gegner eine Fertigkeit aktiviert, wird diese unterbrochen und zusätzlich 5...12 Sekunde[n] lang deaktiviert.",
+				"concise": "Elite-Zauber. Unterbricht eine Fertigkeit. Unterbrechungswirkung: Deaktiviert unterbrochene Fertigkeit (+5...12 Sekunde[n]). Eure anderen Fertigkeiten werden deaktiviert (8 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Übernatürliche Ablenkung",
 				"description": "Alle Eure anderen Fertigkeiten werden 8 Sekunden lang deaktiviert. Wenn der Gegner eine Fertigkeit verwendet, wird diese unterbrochen und zusätzlich 5...12 Sekunden lang deaktiviert.",
 				"concise": "Unterbricht eine Fertigkeit. Unterbrechungswirkung: Deaktiviert die unterbrochene Fertigkeit (+5...12 Sekunden). <gray>Eure anderen Fertigkeiten werden deaktiviert (8 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Psychic Distraction",
+				"description": "Elite Spell. All of your other skills are disabled for 8 seconds. If target foe is using a skill, that skill is interrupted and disabled for an additional 5...12 seconds.",
+				"concise": "Elite Spell. Interrupts a skill. Interruption effect: disables interrupted skill (+5...12 seconds). Your other skills are disabled (8 seconds)."
+			},
+			"en-gww": {
+				"name": "Psychic Distraction",
 				"description": "All of your other skills are disabled for 8 seconds. If target foe is using a skill, that skill is interrupted and disabled for an additional 5...12 seconds.",
 				"concise": "Interrupts a skill. Interruption effect: disables interrupted skill (+5...12 seconds). <gray>Your other skills are disabled (8 seconds).</gray>"
 			},
+			"es": {
+				"name": "Distracción psíquica",
+				"description": "Conjuro de élite. El resto de tus habilidades se desactivarán durante 8 segundos. Si el enemigo objetivo está utilizando una habilidad, ésta se interrumpirá y estará desactivada durante 5...12 segundos más.",
+				"concise": "Conjuro de élite. Interrumpe una habilidad. Efecto de interrupción: desactiva la habilidad interrumpida (+5...12 segundos). El resto de tus habilidades estarán desactivadas (8 segundos)."
+			},
 			"fr": {
+				"name": "Distraction psychique",
+				"description": "Sort d'élite. Toutes vos autres compétences sont désactivées pendant 8 secondes. Si l'ennemi visé est en train d'utiliser une compétence, celle-ci est interrompue et désactivée pendant 5...12 secondes supplémentaires.",
+				"concise": "Sort d'élite. Interrompt une compétence. Effet de l'interruption : désactive la compétence interrompue (+5...12 secondes). Vos autres compétences sont désactivées (8 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Distraction psychique",
 				"description": "Toutes vos autres compétences sont désactivées pendant 8 secondes. Si la cible ennemie utilise une compétence, celle-ci sera interrompue et inutilisable pendant 5...12 secondes supplémentaires.",
 				"concise": "Interrompt une compétence. Effet de l'interruption : désactive la compétence interrompue (+ 5...12 secondes). <gray>Vos autres compétences sont désactivées (8 secondes).</gray>"
+			},
+			"it": {
+				"name": "Distrazione Psichica",
+				"description": "Magia d'Élite. Tutte le tue altre abilità vengono disattivate per 8 secondi. Se l'obiettivo nemico sta utilizzando un'abilità, tale abilità verrà interrotta e disattivata per 5...12 secondi in più.",
+				"concise": "Magia d'Élite. Interrompe un'abilità. Effetto dell'interruzione: disattiva l'abilità interrotta (+5...12 secondi). Le tue altre abilità vengono disattivate per 8 secondi."
+			},
+			"jp": {
+				"name": "サイキック ディストラクション",
+				"description": "エリート スペル： 8 秒間、他のスキルをすべて使用することができなくなります。ターゲットした敵がスキルを使用中の場合、そのスキルを中断し、そのスキルの再使用時間が 5...12 秒増加します。",
+				"concise": "エリート スペル： スキルを中断します。中断効果： 中断したスキルの再使用時間が増加します (5...12 秒)。プレイヤーは、他のスキルを使用することができなくなります (8 秒)。"
+			},
+			"kr": {
+				"name": "심적 혼란",
+				"description": "엘리트 마법. 대상 지정: 적. 자신은 다른 스킬을 8초 동안 사용할 수 없습니다. 대상이 스킬을 시전 중이면 그 시전을 방해하고, 그 스킬을 5...12초 동안 사용할 수 없게 합니다.",
+				"concise": "엘리트 마법. 스킬을 방해합니다. 방해 효과: 방해 받은 스킬의 재활성 시간이 늘어납니다.(5...12초) 자신은 다른 스킬을 사용할 수 없습니다.(8초)"
+			},
+			"pl": {
+				"name": "Rozkojarzenie",
+				"description": "Elitarny czar. Twoje pozostałe umiejętności są wyłączone na 8 sek. Jeśli cel używał właśnie umiejętności, zostanie ona przerwana i wyłączona na dodatkowe 5...12 sek.",
+				"concise": "Elitarny czar. Przerywa użycie umiejętności. Skutek przerwania: wyłącza przerwaną umiejętność (+5...12 sek.). Twoje pozostałe umiejętności są wyłączone (8 sek.)."
+			},
+			"ru": {
+				"name": "Psychic Distraction",
+				"description": "Элитное заклинание. Все остальные ваши умения будут недоступны в течение 8 сек. Если выбранный противник использовал какое-либо умение, это умение будет прервано и станет недоступным дополнительно на 5...12 сек.",
+				"concise": "Элитное заклинание. Прерывает умение. Эффект прерывания: прерванное умение будет недоступно (дополнительно 5...12 сек). Остальные ваши умения будут недоступны (8 сек)."
+			},
+			"bork": {
+				"name": "Psycheec Deestraecshun",
+				"description": "Ileete-a Spell. Aell ooff yuoor oozeer skeells aere-a deesaebled fur 8 secunds. Iff taerget fue-a is useeng a skeell, thaet skeell is interroopted und deesaebled fur un aeddeeshunael 5...12 secunds.",
+				"concise": "Ileete-a Spell. Interroopts a skeell. Interroopshun iffffect: deesaebles interroopted skeell (+5...12 secunds). Yuoor oozeer skeells aere-a deesaebled (8 secunds)."
 			}
 		}
 	}

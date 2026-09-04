@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "结界之躯",
+				"description": "武咒。 在3...8秒之内，友方目标将拥有「结界之躯」：「生命再生」提高2...4点，并有50%的格挡几率。",
+				"concise": "武咒。 在3...8秒之内，友方目标将拥有「结界之躯」：「生命再生」提高2...4点，格挡几率提高75%。"
+			},
+			"cht": {
+				"name": "防護武裝",
+				"description": "武裝魔法： 持續3...8秒，目標盟友有50%機率格檔攻擊，獲得體力再生2...4。",
+				"concise": "武裝魔法： 持續3...8秒，目標盟友有50%機率格檔攻擊，獲得體力再生2...4。"
+			},
 			"de": {
+				"name": "Waffe der Abwehr",
+				"description": "Waffenzauber. 3...8 Sekunde[n] lang hat der Verbündete (bzw. Ihr selbst) eine Waffe der Abwehr, die ihm eine Lebenspunktregeneration von +2...4 und eine 50%ige Chance zum Blocken gewährt.",
+				"concise": "Waffenzauber. (3...8 Sekunde[n].) +2...4 Lebenspunktregeneration. 50% Chance zu blocken."
+			},
+			"de-guildwiki": {
 				"name": "Waffe der Abwehr",
 				"description": "3...8 Sekunden lang hat der Verbündete (bzw. Ihr selbst) eine Waffe der Abwehr, die ihm eine Lebenspunktregeneration von +2...4 und eine 50%ige Chance zum Blocken gewährt.",
 				"concise": "(3...8 Sekunden.) +2...4 Lebenspunktregeneration. 50% Chance zu blocken."
 			},
 			"en": {
 				"name": "Weapon of Warding",
+				"description": "Weapon Spell. For 3...8 seconds, target ally has a Weapon of Warding, granting that ally +2...4 Health regeneration and a 50% chance to block.",
+				"concise": "Weapon Spell. (3...8 seconds.) +2...4 Health regeneration. 50% chance to block."
+			},
+			"en-gww": {
+				"name": "Weapon of Warding",
 				"description": "For 3...8 seconds, target ally has a Weapon of Warding that grants target ally +2...4 Health regeneration and a 50% chance to block.",
 				"concise": "(3...8 seconds.) +2...4 Health regeneration. 50% chance to block."
 			},
+			"es": {
+				"name": "Arma de guardia",
+				"description": "Conjuro con arma. Durante 3...8 segundos, el aliado objetivo tiene un Arma de guardia, que le dará un 50% de probabilidades de bloquear ataques y +2...4 de regeneración de salud.",
+				"concise": "Conjuro con arma. (3...8 segundos.) +2...4 de regeneración de salud. 50% de probabilidades de bloquear."
+			},
 			"fr": {
+				"name": "Arme de protection",
+				"description": "Sort d'altération d'arme. Pendant 3...8 secondes, la cible (un allié ou vous-même) possède une Arme de protection, qui lui confère une régénération de santé de +2...4 et 50% de chances de bloquer les attaques.",
+				"concise": "Sort d'altération d'arme. (3...8 secondes.) Confère une régénération de santé de +2...4. 50% de chances de bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Arme de protection",
 				"description": "Pendant 3...8 secondes, la cible (un allié ou vous-même) possède une Arme de protection qui lui confère une régénération de santé de +2...4 et 50% de chances de bloquer les attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma della Protezione",
+				"description": "Magia Altera-arma. Per 3...8 secondi, l'obiettivo alleato ottiene un'Arma della Protezione che gli dà una Rigenerazione della Salute di +2...4 e un 50% di probabilità di blocco.",
+				"concise": "Magia Altera-arma. (secondi: 3...8) Rigenerazione della Salute: +2...4. Probabilità di blocco: 50%."
+			},
+			"jp": {
+				"name": "ウォード ウェポン",
+				"description": "ウェポン スペル： 3...8 秒間、ターゲットした味方は体力の自然回復力が 2...4 増加し、50% の確率で攻撃をブロックします。",
+				"concise": "ウェポン スペル： (3...8 秒) 体力の自然回復力が 2...4 増加し、50% の確率で攻撃をブロックします。"
+			},
+			"kr": {
+				"name": "보호의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 3...8초 동안 대상은 \"보호의 무기\" 효과를 얻습니다. 대상은 체력 재생이 2...4 증가하고, 50% 확률로 공격을 막습니다.",
+				"concise": "마법 무기. (3...8초) 대상 아군의 체력 재생이 2...4 증가하고, 50% 확률로 공격을 막습니다."
+			},
+			"pl": {
+				"name": "Ochronny Oręż",
+				"description": "Czar z broni. Na 3...8 sek., wybrany sojusznik zyskuje Ochronny Oręż, który zapewnia mu +2...4 regeneracji żywotności oraz 50% szans na zablokowanie ciosu.",
+				"concise": "Czar z broni. (3...8 sek.) Regeneracja żywotności +2...4. 50% szans na blokowanie."
+			},
+			"ru": {
+				"name": "Weapon of Warding",
+				"description": "Оружейное заклинание. В течение 3...8 сек у выбранного союзника будет Weapon of Warding, который дает ему увеличение скорости восстановления здоровья на 2...4 ед. и 50%-й шанс блокировать атаку.",
+				"concise": "Оружейное заклинание. (3...8 сек) Дает +2...4 ед. к скорости восстановления здоровья. 50%-й шанс блокировать атаки."
+			},
+			"bork": {
+				"name": "Veaepun ooff Vaerdeeng",
+				"description": "Veaepun Spell. Fur 3...8 secunds, taerget aelly haes a Veaepun ooff Vaerdeeng, grunteeng thaet aelly +2...4 Heaelt regeneraeshun und a 50% chunce-a tu bluck.",
+				"concise": "Veaepun Spell. (3...8 secunds.) +2...4 Heaelt regeneraeshun. 50% chunce-a tu bluck."
 			}
 		}
 	}

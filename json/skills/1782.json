@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"赐我力量！\"",
+				"description": "精英战吼。 使所有「音波」范围内的队友获得1...2点能量值。但在2...4秒之内，你将遭受0点「能量衰减」。",
+				"concise": "精英战吼。 使所有「音波」范围内的队友获得1...2点能量值。但在2...4秒之内，你将遭受0点「能量衰减」。"
+			},
+			"cht": {
+				"name": "「力量在我！」",
+				"description": "精英戰嚎： 持續2...4秒，音量所及範圍內的盟友獲得能量再生1...2。",
+				"concise": "精英戰嚎： 持續2...4秒，音量所及範圍內的盟友獲得能量再生1...2。"
+			},
 			"de": {
+				"name": "\"Die Macht ist Euer!\"",
+				"description": "Elite-Schrei. 2...4 Sekunde[n] lang erhalten alle Verbündeten in Hörweite 1...2 Energieregeneration.",
+				"concise": "Elite-Schrei. 2...4 Sekunde[n]: Verbündete in Hörweite erhalten 1...2 Energieregeneration."
+			},
+			"de-guildwiki": {
 				"name": "\"Die Macht ist Euer!\"",
 				"description": "2...4 Sekunden lang erhalten alle Verbündeten in Hörweite +1...2 Energieregeneration.",
 				"concise": "2...4 Sekunden: Verbündete in Hörweite erhalten +1...2 Energieregeneration."
 			},
 			"en": {
 				"name": "\"The Power Is Yours!\"",
+				"description": "Elite Shout. For 2...4 seconds, all allies within earshot gain 1...2 Energy regeneration.",
+				"concise": "Elite Shout. (2...4 seconds.) Allies within earshot gain 1...2 Energy regeneration."
+			},
+			"en-gww": {
+				"name": "\"The Power Is Yours!\"",
 				"description": "For 2...4 seconds, all allies within earshot gain 1...2 Energy regeneration.",
 				"concise": "(2...4 seconds.) Allies within earshot gain 1...2 Energy regeneration."
 			},
+			"es": {
+				"name": "\"¡El poder es vuestro!\"",
+				"description": "Grito de élite. Durante 2...4 segundos, todos los aliados al alcance del oído ganan +1...2 de regeneración de energía.",
+				"concise": "Grito de élite. (2...4 segundos). Todos los aliados al alcance del oído ganan +1...2 de regeneración de energía."
+			},
 			"fr": {
+				"name": "\"La force est avec vous !\"",
+				"description": "Cri d'élite. Pendant 2...4 secondes, tous les alliés à portée de voix bénéficient d'une régénération d'énergie de 1...2.",
+				"concise": "Cri d'élite. (2...4 secondes.) Tous les alliés à portée de voix bénéficient d'une régénération d'énergie de 1...2."
+			},
+			"fr-gwiki": {
 				"name": "\"La force est avec vous !\"",
 				"description": "Pendant 3 secondes, tous les alliés à portée de voix bénéficient d'une régénération d'énergie de 0...1.",
 				"concise": "(3 secondes.) Tous les alliés à portée de voix bénéficient d'une régénération d'énergie de 0...1."
+			},
+			"it": {
+				"name": "\"Il Potere è nelle Tue Mani!\"",
+				"description": "Urlo d'Élite. Per 2...4 secondo[i], tutti gli alleati a portata d'orecchio ottengono una Rigenerazione Energia di 1...2.",
+				"concise": "Urlo d'Élite. (Secondi: 2...4) Rigenerazione Energia alleati a portata d'orecchio: 1...2."
+			},
+			"jp": {
+				"name": "パワー イズ ユアーズ！",
+				"description": "エリート シャウト： 2...4 秒間、声の届く範囲内にいる味方はすべてエネルギーの自然回復力が 1...2 増加します。",
+				"concise": "エリート シャウト： (2...4 秒) 声の届く範囲内にいる味方は、エネルギーの自然回復力が 1...2 増加します。"
+			},
+			"kr": {
+				"name": "힘은 우리 것이다!",
+				"description": "엘리트 고함. 대상 지정: 없음. 2...4초 동안 가청 범위 내에 있는 모든 아군의 에너지 재생이 1...2 증가합니다.",
+				"concise": "엘리트 고함. (2...4초) 가청 범위 내에 있는 아군들의 에너지 재생이 1...2 증가합니다."
+			},
+			"pl": {
+				"name": "\"Potęga Jest Wasza!\"",
+				"description": "Elitarny okrzyk. Przez 2...4 sek. wszyscy sojusznicy w zasięgu słuchu posiadają regenerację energii 1...2.",
+				"concise": "Elitarny okrzyk. (2...4 sek.) Wszyscy sojusznicy w zasięgu słuchu posiadają regenerację energii 1...2."
+			},
+			"ru": {
+				"name": "\"The Power Is Yours!\"",
+				"description": "Элитный крик. В течение 2...4 сек у всех союзников в зоне слышимости скорость восстановления энергии будет увеличена на 1...2 ед.",
+				"concise": "Элитный крик. (2...4 сек) Союзники в зоне слышимости получают +1...2 ед. к скорости восстановления энергии."
+			},
+			"bork": {
+				"name": "\"Zee Pooer Is Yuoors!\"",
+				"description": "Ileete-a Shuoot. Fur 2...4 secunds, aell aelleees veetheen iaershut gaeeen 1...2 Inergy regeneraeshun. Bork! Bork! Bork!",
+				"concise": "Ileete-a Shuoot. (2...4 secunds.) Aelleees veetheen iaershut gaeeen 1...2 Inergy regeneraeshun."
 			}
 		}
 	}

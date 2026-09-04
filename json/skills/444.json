@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "残暴冲击",
+				"description": "宠物攻击。 命令你的宠物发动「残暴冲击」，对敌人造成 5...35点 额外伤害。若宠物击中生命低于 50% 的敌人，则使其受到 5...35点 额外伤害。",
+				"concise": "宠物攻击。 命令你的宠物发动「残暴冲击」，对敌人造成 5...35点 额外伤害。若宠物击中生命低于 50% 的敌人，则使其受到 5...35点 额外伤害。"
+			},
+			"cht": {
+				"name": "殘暴衝擊",
+				"description": "寵物攻擊： 你的寵物發動殘暴衝擊對敵人造成 5...35 額外傷害。若寵物擊中體力低於 50% 的敵人，則使其受到 5...35 額外傷害。",
+				"concise": "寵物攻擊： 你的寵物發動殘暴衝擊對敵人造成 5...35 額外傷害。若寵物擊中體力低於 50% 的敵人，則使其受到 5...35 額外傷害。"
+			},
 			"de": {
+				"name": "Schonungsloser Schlag",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit Schonungsloser Schlag an und fügt +5...35 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, dessen Lebenspunkte unter 50% sind, erleidet er zusätzlich 5...35 Punkt[e] Schaden.",
+				"concise": "Tiergefährtenangriff. Richtet +5...35 Punkt[e] Schaden an. Richtet zusätzlich +5...35 Punkt[e] Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat."
+			},
+			"de-guildwiki": {
 				"name": "Schonungsloser Schlag",
 				"description": "Euer Tiergefährte greift mit Schonungsloser Schlag an und fügt +5...35 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, dessen Lebenspunkte unter 50% liegen, erleidet er zusätzlich 5...35 Punkte Schaden.",
 				"concise": "Richtet +5...35 Punkte Schaden an. Richtet zusätzlich +5...35 Punkte Schaden an, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat."
 			},
 			"en": {
 				"name": "Brutal Strike",
+				"description": "Pet Attack. Your animal companion attempts a Brutal Strike that deals +5...35 damage. If that attack strikes a foe whose Health is below 50%, that foe takes an additional +5...35 damage.",
+				"concise": "Pet Attack. Deals +5...35 damage. Deals +5...35 more damage if target foe is under 50% Health."
+			},
+			"en-gww": {
+				"name": "Brutal Strike",
 				"description": "Your animal companion attempts a Brutal Strike that deals +5...35 damage. If that attack strikes a foe whose Health is below 50%, that foe takes an additional +5...35 damage.",
 				"concise": "Deals +5...35 damage. Deals +5...35 more damage if target foe is under 50% health."
 			},
+			"es": {
+				"name": "Ataque brutal",
+				"description": "Ataque con mascota. Con el Ataque brutal tu compañero animal hará +5...35 de daño. Si el ataque alcanza a un enemigo cuya salud esté por debajo del 50%, recibirá +5...35 de daño extra.",
+				"concise": "Ataque con mascota. Hace +5...35 de daño. +5...35 de daño extra si el enemigo objetivo está por debajo del 50% de salud."
+			},
 			"fr": {
+				"name": "Coup brutal",
+				"description": "Attaque de familier. Votre familier tente un Coup brutal qui inflige +5...35 points de dégâts. Si cette attaque touche un ennemi dont la santé est inférieure à 50%, cet ennemi subira +5...35 points de dégâts en plus.",
+				"concise": "Attaque de familier. Inflige +5...35 points de dégâts. Inflige +5...35 points de dégâts supplémentaires si l'ennemi visé a moins de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Coup brutal",
 				"description": "Votre familier tente un Coup brutal qui inflige +5...35 points de dégâts. Si cette attaque touche un ennemi dont la santé est inférieure à 50%, cet ennemi subira +5...35 points de dégâts en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Attacco Brutale",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in un Attacco Brutale che infligge +5...35 danno[i]; se colpisce un avversario la cui Salute è inferiore al 50%, gli infligge anche +5...35 danno[i].",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...35. Assesta +5...35 danno[i] in più se la Salute dell'obiettivo nemico è inferiore al 50%."
+			},
+			"jp": {
+				"name": "ブルータル ストライク",
+				"description": "ペット アタック： プレイヤーのペットが敵に 5...35 の追加ダメージを与える攻撃を開始します。体力が上限の50%未満の敵に攻撃が成功すると、さらに 5...35 の追加ダメージを与えます。",
+				"concise": "ペット アタック： 5...35 の追加ダメージを与えます。ターゲットした敵の体力が上限の50%未満の場合、さらに 5...35 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "강맹한 발톱",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 강맹한 발톱을 사용하여 5...35의 대미지를 추가로 줍니다. 적의 체력이 50% 미만이면 5...35의 대미지를 추가로 줍니다.",
+				"concise": "펫 공격. 펫의 공격이 5...35의 대미지를 추가로 줍니다. 적의 체력이 50% 미만이면 5...35의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Brutalne Uderzenie",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Brutalne Uderzenie, które zadaje +5...35 pkt. obrażeń. Jeśli atak trafi przeciwnika, którego żywotność jest poniżej 50%, to przeciwnik ten otrzyma +5...35 pkt. dodatkowych obrażeń.",
+				"concise": "Atak zwierzaka. Zadaje +5...35 pkt. obrażeń. Zadaje +5...35 pkt. dodatkowych obrażeń, jeżeli wybrany przeciwnik ma poniżej 50% żywotności."
+			},
+			"ru": {
+				"name": "Brutal Strike",
+				"description": "Атака питомца. Сопровождающее вас животное пытается провести удар, который наносит дополнительно 5...35 ед. урона. Если атака попадает по противнику, чей уровень здоровья ниже 50%, этот противник получает дополнительно еще 5...35 ед. урона.",
+				"concise": "Атака питомца. Наносит дополнительно 5...35 ед. урона. Наносит дополнительно еще 5...35 ед. урона, если у выбранного противника меньше 50% здоровья."
+			},
+			"bork": {
+				"name": "Brootael Streeke-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Brootael Streeke-a thaet deaels +5...35 daemaege-a. Iff thaet aettaeck streekes a fue-a vhuse-a Heaelt is beloo 50%, thaet fue-a taekes un aeddeeshunael +5...35 daemaege-a.",
+				"concise": "Pet Aettaeck. Deaels +5...35 daemaege-a. Deaels +5...35 mure-a daemaege-a iff taerget fue-a is under 50% Heaelt."
 			}
 		}
 	}

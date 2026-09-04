@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "死亡烙印",
+				"description": "负面魔法。 使目标敌人受到治疗的效果降低 50%，效果持续 4...10秒。",
+				"concise": "负面魔法。 使目标敌人受到治疗的效果降低 50%，效果持续 4...10秒。"
+			},
+			"cht": {
+				"name": "死神印記",
+				"description": "降咒魔法： 持續 4...10 秒，使目標敵人受到治療時的效果降低 50% 。",
+				"concise": "降咒魔法： 持續 4...10 秒，使目標敵人受到治療時的效果降低 50% 。"
+			},
 			"de": {
+				"name": "Zeichen des Todes",
+				"description": "Verhexung. 4...10 Sekunde[n] lang erfährt der Gegner um 50% weniger Heilung.",
+				"concise": "Verhexung. 4...10 Sekunde[n]: Verringert die Wirkung von Heilungen beim Gegner um 50%."
+			},
+			"de-guildwiki": {
 				"name": "Zeichen des Todes",
 				"description": "4...10 Sekunden lang erfährt der Gegner um 50% weniger Heilung.",
 				"concise": "4...10 Sekunden: Verringert die Wirkung von Heilungen beim Gegner um 50%."
 			},
 			"en": {
 				"name": "Mark of Death",
+				"description": "Hex Spell. For 4...10 seconds, target foe gains 50% less benefit from healing.",
+				"concise": "Hex Spell. (4...10 seconds.) Target foe receives 50% less from healing."
+			},
+			"en-gww": {
+				"name": "Mark of Death",
 				"description": "For 4...10 seconds, target foe gains 50% less benefit from healing.",
 				"concise": "(4...10 seconds.) Target foe receives 50% less from healing."
 			},
+			"es": {
+				"name": "Marca de muerte",
+				"description": "Conjuro con maleficio. Durante 4...10 segundos, el enemigo objetivo se beneficia un 50% menos de las curaciones.",
+				"concise": "Conjuro con maleficio. (4...10 segundos). El enemigo objetivo se beneficia un 50% menos de las curaciones."
+			},
 			"fr": {
+				"name": "Stigmate mortel",
+				"description": "Maléfice. Pendant 4...10 secondes, l'ennemi visé reçoit 50% de guérison en moins.",
+				"concise": "Maléfice. (4...10 secondes.) La cible ennemie reçoit 50% de guérison en moins."
+			},
+			"fr-gwiki": {
 				"name": "Stigmate mortel",
 				"description": "Pendant 4...10 secondes, l'ennemi visé reçoit 50% de guérison en moins.",
 				"concise": "(4...10 secondes.) La cible ennemie reçoit 50% de guérison en moins."
+			},
+			"it": {
+				"name": "Segno della Morte",
+				"description": "Fattura. Per 4...10 secondo[i], l'obiettivo nemico riceve un 50% in meno di cure.",
+				"concise": "Fattura. (Secondi: 4...10) L'obiettivo nemico ottiene un 50% in meno di cure."
+			},
+			"jp": {
+				"name": "デス マーク",
+				"description": "弱体化スペル： 4...10 秒間、ターゲットした敵は回復スキルによる体力の回復量が 50% 減少します。",
+				"concise": "弱体化スペル： (4...10 秒) ターゲットした敵は、回復スペルによる体力の回復量が 50% 減少します。"
+			},
+			"kr": {
+				"name": "죽음의 표식",
+				"description": "약화 마법. 대상 지정: 적. 4...10초 동안 대상이 받는 치유 효과가 50% 감소합니다.",
+				"concise": "약화 마법. (4...10초) 대상에 대한 치유 효과가 50% 감소합니다."
+			},
+			"pl": {
+				"name": "Piętno Śmierci",
+				"description": "Klątwa (czar). Przez 4...10 sek., wybrany przeciwnik otrzymuje przy leczeniu 50% mniej pkt. żywotności.",
+				"concise": "Klątwa (czar). (4...10 sek.) Wybrany przeciwnik otrzymuje o 50% mniej pkt. żywotności."
+			},
+			"ru": {
+				"name": "Mark of Death",
+				"description": "Заклинание-проклятье. В течение 4...10 сек выбранный противник получает при исцелении на 50% меньше здоровья.",
+				"concise": "Заклинание-проклятье. (4...10 сек) Выбранный противник получает на 50% меньше здоровья при исцелении."
+			},
+			"bork": {
+				"name": "Maerk ooff Deaet",
+				"description": "Hex Spell. Fur 4...10 secunds, taerget fue-a gaeeens 50% less beneffeet frum heaeleeng.",
+				"concise": "Hex Spell. (4...10 secunds.) Taerget fue-a receeefes 50% less frum heaeleeng."
 			}
 		}
 	}

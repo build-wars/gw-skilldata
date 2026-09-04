@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火灵之速",
+				"description": "增益魔法。 对所有邻近的敌人造成15...120点火焰伤害。在8...14秒之内，你的移动速度提升25%。",
+				"concise": "增益魔法。 对所有邻近的敌人造成15...120点火焰伤害。在8...14秒之内，你的移动速度提升25%。"
+			},
+			"cht": {
+				"name": "火靈之速",
+				"description": "加持魔法： 持續 8...14 秒，你的移動速度增加 25% 。施展時對所有鄰近的敵人造成 15...120 火焰傷害，若有傷害到敵人，則此技能回復速度快 50% 。",
+				"concise": "加持魔法： 持續 8...14 秒，你的移動速度增加 25% 。施展時對所有鄰近的敵人造成 15...120 火焰傷害，若有傷害到敵人，則此技能回復速度快 50% 。"
+			},
 			"de": {
+				"name": "Eile des Flammen-Dschinn",
+				"description": "Verzauberung. Alle umstehenden Feinde erleiden 15...120 Punkt[e] Feuerschaden. Ihr bewegt Euch 8...14 Sekunde[n] lang um 25% schneller. Eile des Flammen-Dschinn wird um 50% schneller wieder aufgeladen, wenn ein Gegner von einem Zauber getroffen wird.",
+				"concise": "Verzauberung. (8...14 Sekunde[n].) Ihr bewegt Euch um 25% schneller. Anfangswirkung: Richtet bei umstehenden Feinden 15...120 Punkt[e] Feuerschaden an. Falls Ihr einen Feind mit diesem Zauber schädigt, wird er um 50% schneller wieder aufgeladen."
+			},
+			"de-guildwiki": {
 				"name": "Eile des Flammen-Dschinn",
 				"description": "Alle umstehenden Feinde erleiden 15...120 Punkte Feuerschaden. Ihr bewegt Euch 8...14 Sekunden lang um 25% schneller. Eile des Flammen-Dschinn wird um 50% schneller wieder aufgeladen, wenn ein Gegner von diesem Zauber getroffen wird.",
 				"concise": "8...14 Sekunden: Ihr bewegt Euch um 25% schneller. Anfangswirkung: Richtet bei umstehenden Gegnern 15...120 Punkte Feuerschaden an. Falls Ihr einen Feind mit diesem Zauber schädigt, wird er um 50% schneller wieder aufgeladen."
 			},
 			"en": {
 				"name": "Flame Djinn's Haste",
+				"description": "Enchantment Spell. All adjacent foes are struck for 15...120 fire damage. For 8...14 seconds, you move 25% faster. Flame Djinn's Haste recharges 50% faster if a foe was struck by this spell.",
+				"concise": "Enchantment Spell. (8...14 seconds.) You move 25% faster. Initial effect: deals 15...120 fire damage to foes adjacent to you. If you damage a foe with this spell, it recharges 50% faster."
+			},
+			"en-gww": {
+				"name": "Flame Djinn's Haste",
 				"description": "All adjacent foes are struck for 15...120 fire damage. For 8...14 seconds, you move 25% faster. Flame Djinn's Haste recharges 50% faster if a foe was struck by this spell.",
 				"concise": "(8...14 seconds.) You move 25% faster. Initial effect: deals 15...120 fire damage to foes adjacent to you. If you damage a foe with this spell, it recharges 50% faster."
 			},
+			"es": {
+				"name": "Prisa del Djinn de fuego",
+				"description": "Conjuro con encantamiento. Los enemigos adyacentes reciben 15...120 de daño de fuego. Te mueves un 25% más rápido durante 8...14 segundos. Prisa del Djinn de fuego se recarga un 50% más rápido si el conjuro ha alcanzado a un enemigo.",
+				"concise": "Conjuro con encantamiento. (8...14 segundos). Te mueves un 25% más rápido. Efecto inicial: hace 15...120 de daño de fuego a los enemigos adyacentes a ti. Si haces daño a un enemigo con este conjuro, se recarga un 50% más rápido."
+			},
 			"fr": {
+				"name": "Hâte du jinn de flamme",
+				"description": "Enchantement. Tous les ennemis adjacents reçoivent 15...120 points de dégâts du feu. Pendant 8...14 secondes, vous vous déplacez 25% plus vite. Hâte du jinn de flamme se recharge 50% plus vite si un ennemi est touché par ce sort.",
+				"concise": "Enchantement. (8...14 secondes.) Vous vous déplacez 25% plus vite. Effet initial : inflige 15...120 points de dégâts du feu aux ennemis qui vous sont adjacents. Si vous infligez des dégâts à un ennemi avec ce sort, il se recharge 50% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Hâte du jinn de flamme",
 				"description": "Tous les ennemis adjacents subissent 15...120 points de dégâts du feu. Pendant 8...14 secondes, vous vous déplacez 25% plus vite. Hâte du jinn de flamme se recharge 50% plus vite si un ennemi est touché par ce sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta del Djinn della Fiamma",
+				"description": "Incantesimo. Infligge 15...120 danni da fuoco a tutti i nemici adiacenti. Per 8...14 secondi, la tua velocità di movimento aumenta di un 25%. Fretta del Djinn della Fiamma si ricarica a velocità superiore del 50% se un nemico è stato colpito da questa magia.",
+				"concise": "Incantesimo. (Secondi: 8...14.) Aumento della velocità di movimento: 25%. Effetto iniziale: danni da fuoco ai nemici adiacenti a te: 15...120. Incremento velocità di ricarica se si assestano danni a un nemico con questa magia: 50%."
+			},
+			"jp": {
+				"name": "フレイム ジン ヘイスト",
+				"description": "強化スペル： 隣接するすべての敵に 15...120 のファイア ダメージを与え、8...14 秒間プレイヤーの移動速度が 25% 増加します。この攻撃が成功すると、再使用時間が50%減少します。",
+				"concise": "強化スペル： (8...14 秒) 移動速度が 25% 増加します。発動効果： 隣接する敵に 15...120 のファイア ダメージを与えます。この効果によりダメージを与えると、このスペルの再使用時間が50%減少します。"
+			},
+			"kr": {
+				"name": "화염 지니의 신속함",
+				"description": "강화 마법. 대상 지정: 없음. 인접한 모든 적은 15...120의 불 대미지를 입습니다. 8...14초 동안 자신의 이동 속도가 25% 빨라집니다. 이 마법이 적에게 적중하면 재활성 시간이 50% 빨라집니다.",
+				"concise": "강화 마법. (8...14초) 이동 속도가 25% 빨라집니다. 초기 효과: 인접한 적들에게 15...120의 불 대미지를 줍니다. 이 마법으로 적에게 대미지를 주면 재활성 시간이 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Pośpiech Ognistego Dżinna",
+				"description": "Zaklęcie (czar). Przeciwnicy w bezpośredniej odległości otrzymują po 15...120 pkt. obrażeń od ognia. Przez 8...14 sek. poruszasz się o 25% szybciej. Pośpiech Ognistego Dżinna odnawia się o 50% szybciej, jeżeli efekty czaru dosięgły przeciwnika.",
+				"concise": "Zaklęcie (czar). (8...14 sek.) Poruszasz się o 25% szybciej. Efekt początkowy: przeciwnikom bezpośrednio przy tobie zadaje po 15...120 pkt. obrażeń od ognia. Jeżeli czar zadał obrażenia przeciwnikowi, to odnawia się o 50% szybciej."
+			},
+			"ru": {
+				"name": "Flame Djinn's Haste",
+				"description": "Заклинание-чары. Все окружающие противники получают 15...120 ед. урона силой огня. В течение 8...14 сек вы двигаетесь на 25% быстрее. Flame Djinn's Haste перезаряжается на 50% быстрее, если какой-либо противник был поражен этим заклинанием.",
+				"concise": "Заклинание-чары. (8...14 сек) Вы двигаетесь на 25% быстрее. Начальный эффект: наносит 15...120 ед. урона силой огня окружающим вас противникам. Если вы наносите урон противникам с помощью этого заклинания, оно перезаряжается на 50% быстрее."
+			},
+			"bork": {
+				"name": "Flaeme-a Djeenn's Haeste-a",
+				"description": "Inchuntment Spell. Aell aedjaecent fues aere-a stroock fur 15...120 fure-a daemaege-a. Fur 8...14 secunds, yuoo mufe-a 25% faester. Flaeme-a Djeenn's Haeste-a rechaerges 50% faester iff a fue-a vaes stroock by thees spell. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (8...14 secunds.) Yuoo mufe-a 25% faester. Ineeteeael iffffect: deaels 15...120 fure-a daemaege-a tu fues aedjaecent tu yuoo. Iff yuoo daemaege-a a fue-a veet thees spell, it rechaerges 50% faester."
 			}
 		}
 	}

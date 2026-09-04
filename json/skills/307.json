@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "运势逆转",
+				"description": "增益魔法。 当友方目标下一次受到伤害时，伤害值中的15...80点将转化为生命值，效果持续 8秒。",
+				"concise": "增益魔法。 当友方目标下一次受到伤害时，伤害值中的15...80点将转化为生命值，效果持续 8秒。"
+			},
+			"cht": {
+				"name": "幸運逆轉",
+				"description": "加持魔法： 持續8秒，該盟友下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多15...80。",
+				"concise": "加持魔法： 持續8秒，該盟友下一次受到的傷害或者偷取生命，轉為體力獲得效果，最多15...80。"
+			},
 			"de": {
+				"name": "Umkehrung des Schicksals",
+				"description": "Verzauberung. 8 Sekunden lang erhält der Verbündete, wenn er das nächste Mal Schaden erleiden oder Lebenspunkte einbüßen würde, stattdessen den entsprechenden Wert als Lebenspunkte (maximal 15...80).",
+				"concise": "Verzauberung. (8 Sekunde[n].) Wandelt den nächsten erlittenen Schaden bzw. die nächsten entzogenen Lebenspunkte (maximal 15...80 Punkt[e]) in Heilung um."
+			},
+			"de-guildwiki": {
 				"name": "Umkehrung des Schicksals",
 				"description": "8 Sekunden lang wird der Verbündete (bzw. Ihr selbst), wenn er das nächste Mal Schaden erleiden oder Lebenspunkte entzogen bekommen würde, stattdessen um den entsprechenden Wert geheilt (maximal 15...80).",
 				"concise": "(8 Sekunden.) Wandelt den nächsten erlittenen Schaden bzw. die nächsten entzogenen Lebenspunkte (maximal 15...80 Punkte) in Heilung um."
 			},
 			"en": {
 				"name": "Reversal of Fortune",
+				"description": "Enchantment Spell. For 8 seconds, the next time target ally would take damage or life steal, that ally gains that amount of Health instead, maximum 15...80.",
+				"concise": "Enchantment Spell. (8 seconds.) Converts the next incoming damage or life steal (maximum 15...80) to healing."
+			},
+			"en-gww": {
+				"name": "Reversal of Fortune",
 				"description": "For 8 seconds, the next time target ally would take damage or life steal, that ally gains that amount of Health instead, maximum 15...80.",
 				"concise": "(8 seconds.) Converts the next incoming damage or life steal (maximum 15...80) to healing."
 			},
+			"es": {
+				"name": "Inversión de la fortuna",
+				"description": "Conjuro con encantamiento. Durante 8 segundos, la próxima vez que al objetivo (un aliado o tú mismo) le hubieran hecho daño o robado vida, éste ganará esa cantidad de salud en lugar de perderla (máximo 15...80).",
+				"concise": "Conjuro con encantamiento. (8 segundos.) Convierte el siguiente daño o robo de salud recibido (máximo 15...80) en curación."
+			},
 			"fr": {
+				"name": "Revers de fortune",
+				"description": "Enchantement. Pendant 8 secondes, la prochaine fois que l'allié visé doit subir des dégâts ou un vol de vie, ces derniers sont transformés en points de vie, 15...80 points maximum.",
+				"concise": "Enchantement. (8 secondes.) Les prochains dégâts subis ou le prochain vol de vie seront convertis en soins (maximum : 15...80 points)."
+			},
+			"fr-gwiki": {
 				"name": "Revers de fortune",
 				"description": "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) doit subir des dégâts ou un vol de vie, ces derniers sont transformés en points de vie (maximum 15...80).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rovescio della Fortuna",
+				"description": "Incantesimo. Per 8 second[i], la volta successiva in cui l'obiettivo alleato viene colpito da un attacco che dovrebbe infliggere danni o sottrazione vita, l'alleato ottiene il corrispettivo in Punti Salute (max 15...80) dei danni o della sottrazione vita.",
+				"concise": "Incantesimo. (Secondi: 8) Converte il danno in arrivo o la sottrazione vita successivi in Punti Salute (max. 15...80)."
+			},
+			"jp": {
+				"name": "フォーチュン リバーサル",
+				"description": "強化スペル： 8 秒間、ターゲットした味方は次に受けるダメージまたは奪い取られる体力が無効になり、そのダメージと同量の体力を獲得します。獲得する体力の上限は 15...80 です。",
+				"concise": "強化スペル： (8 秒) 次に受けるダメージまたは奪い取られる体力を変換し、体力の回復に使用します (最大 15...80)。"
+			},
+			"kr": {
+				"name": "행운의 반전",
+				"description": "강화 마법. 대상 지정: 아군. 8초 동안 대상이 공격 대미지나 체력 흡수로 인한 대미지를 입어야 할 때 15...80의 대미지는 입지 않고 그만큼의 체력을 회복합니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "강화 마법. (8초) 대상이 공격 대미지나 체력 흡수로 인한 대미지를 입어야 할 때 15...80의 대미지는 입지 않고, 그만큼의 체력을 회복합니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Odwrócenie Losu",
+				"description": "Zaklęcie (czar). Przez 8 sek., kiedy następnym razem wybrany sojusznik miałaby otrzymać obrażenia lub stracić żywotność na rzecz przeciwnika, dostanie w zamian tyle samo pkt. żywotności, ale nie więcej niż 15...80.",
+				"concise": "Zaklęcie (czar). (8 sek.) Zamienia następne obrażenia lub wykradzioną żywotność (maksymalnie 15...80) w leczenie."
+			},
+			"ru": {
+				"name": "Reversal of Fortune",
+				"description": "Заклинание-чары. В течение 8 сек в следующий раз, когда выбранный союзник должен был бы получить урон или у него бы похитили здоровье, вместо этого он получит равное количество ед. здоровья, но не более, чем 15...80 ед.",
+				"concise": "Заклинание-чары. (8 сек) Преобразует следующий полученный урон или похищение здоровья (но не более 15...80 ед.) в исцеление."
+			},
+			"bork": {
+				"name": "Refersael ooff Furtoone-a",
+				"description": "Inchuntment Spell. Fur 8 secunds, zee next teeme-a taerget aelly vuoold taeke-a daemaege-a oor leeffe-a steael, thaet aelly gaeeens thaet aemuoont ooff Heaelt insteaed, maexeemoom 15...80.",
+				"concise": "Inchuntment Spell. (8 secunds.) Cunferts zee next incumeeng daemaege-a oor leeffe-a steael (maexeemoom 15...80) tu heaeleeng."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 3,
 		"adrenaline_precise": 3,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致残圣歌",
+				"description": "精英圣歌。 在10秒之内，所有「音波」范围内的队友下一次使用攻击技能时，将对敌人造成「致残」症状5...15秒。",
+				"concise": "精英圣歌。 在10秒之内，「所有「音波」范围内的友方下一次使用攻击技能时，将对敌人造成「致残」症状5...15秒。"
+			},
+			"cht": {
+				"name": "致殘聖歌",
+				"description": "精英聖歌： 持續 10 秒，使音量所及範圍內的隊伍成員，「下一次」使用「攻擊技能」時使目標遭受「殘廢」病症 5...15 秒。",
+				"concise": "精英聖歌： 持續 10 秒，使音量所及範圍內的盟友，「下一次」使用「攻擊技能」時使目標遭受「殘廢」病症 5...15 秒。"
+			},
 			"de": {
+				"name": "Verkrüppelungs-Hymne",
+				"description": "Elite-Anfeuerungsruf. 10 Sekunde[n] lang führt die nächste Angriffsfertigkeit von jedem Verbündeten in Hörweite 5...15 Sekunde[n] lang zu Verkrüppelung.",
+				"concise": "Elite-Anfeuerungsruf. 10 Sekunde[n]: Verbündete in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Verkrüppelung (5...15 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelungs-Hymne",
 				"description": "10 Sekunden lang führt die nächste Angriffsfertigkeit von jedem Verbündetem in Hörweite 5...15 Sekunden lang zu einer Verkrüppelung.",
 				"concise": "10 Sekunden: Verbündete in Hörweite verursachen mit ihrer nächsten Angriffsfertigkeit den Zustand Verkrüppelung (5...15 Sekunden)."
 			},
 			"en": {
 				"name": "Crippling Anthem",
+				"description": "Elite Chant. For 10 seconds, the next attack skill used by each ally within earshot causes Crippling for 5...15 seconds.",
+				"concise": "Elite Chant. (10 seconds.) Allies in earshot inflict Crippled condition (5...15 seconds) with their next attack skill."
+			},
+			"en-gww": {
+				"name": "Crippling Anthem",
 				"description": "For 10 seconds, the next attack skill used by each ally within earshot causes Crippling for 5...15 seconds.",
 				"concise": "(10 seconds.) Allies in earshot inflict Crippled condition (5...15 seconds) with their next attack skill."
 			},
+			"es": {
+				"name": "Himno lisiador",
+				"description": "Cántico de élite. Durante 10 segundos, la siguiente habilidad de ataque que usen los aliados al alcance del oído causará lisiadura durante 5...15 segundos.",
+				"concise": "Cántico de élite. (10 segundos). Los aliados al alcance del oído causan lisiadura (5...15 segundos) con su siguiente habilidad de ataque."
+			},
 			"fr": {
+				"name": "Hymne d'infirmité",
+				"description": "Chant d'élite. Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix cause l'Infirmité pendant 5...15 secondes.",
+				"concise": "Chant d'élite. (10 secondes.) Les alliés à portée de voix infligent l'Infirmité (5...15 secondes) avec leur compétence d'attaque suivante."
+			},
+			"fr-gwiki": {
 				"name": "Hymne d'infirmité",
 				"description": "Pendant 10 secondes, la prochaine compétence d'attaque utilisée par chaque membre du groupe à portée de voix cause l'Infirmité pendant 5...15 secondes.",
 				"concise": "(10 secondes.) Les alliés à portée de voix infligent l'Infirmité (5...15 secondes) avec leur compétence d'attaque suivante."
+			},
+			"it": {
+				"name": "Inno Azzoppante",
+				"description": "Canto d'Élite. Dura 10 secondo[i]; la prossima abilità d'attacco utilizzata da ogni alleato a portata d'orecchio provoca storpiatura per 5...15 secondo[i].",
+				"concise": "Canto d'Élite. (Secondi: 10) Condizione inflitta dagli alleati a portata d'orecchio con la loro abilità d'attacco successiva: Storpiatura (5...15 secondo[i])."
+			},
+			"jp": {
+				"name": "クリップル アンセム",
+				"description": "エリート チャント： 10 秒間、声の届く範囲内にいる味方は、それぞれ次にアタック スキルを使用すると、ターゲットの敵を 5...15 秒間「不自由」状態にします。",
+				"concise": "エリート チャント： (10 秒) 声の届く範囲内にいる味方は、次にアタック スキルを使用すると敵を「不自由」状態にします (5...15 秒) 。"
+			},
+			"kr": {
+				"name": "부상의 성가",
+				"description": "엘리트 영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원이 공격 스킬을 사용하면 적은 5...15초 동안 다리 부상 상태가 됩니다. 파티원마다 처음 한 번만 효과가 있습니다.",
+				"concise": "엘리트 영창. (10초) 가청 범위 내에 있는 아군이 처음 공격 스킬을 사용하면 적에게 다리 부상을 입힙니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Okulawiający Hymn",
+				"description": "Elitarny zaśpiew. Przez 10 sek. następna umiejętność związana z atakiem, użyta przez każdego sojusznika w zasięgu słuchu okulawi przeciwnika na 5...15 sek.",
+				"concise": "Elitarny zaśpiew. (10 sek.) Sojusznicy w zasięgu słuchu, ze swoją następną umiejętnością związaną z atakiem wywołują przypadłość okulawienie (5...15 sek.)."
+			},
+			"ru": {
+				"name": "Crippling Anthem",
+				"description": "Элитный хорал. В течение 10 сек следующее атакующее умение, использованное каждым членом вашего отряда, находящимся в зоне слышимости, приводит к хромоте противника на 5...15 сек.",
+				"concise": "Элитный хорал. (10 сек) Союзники в зоне слышимости вызывают хромоту (5...15 сек) при следующем использовании ими атакующего умения."
+			},
+			"bork": {
+				"name": "Creeppleeng Unzeem",
+				"description": "Ileete-a Chunt. Fur 10 secunds, zee next aettaeck skeell used by iaech aelly veetheen iaershut cooses Creeppleeng fur 5...15 secunds.",
+				"concise": "Ileete-a Chunt. (10 secunds.) Aelleees in iaershut inffleect Creeppled cundeeshun (5...15 secunds) veet zeeur next aettaeck skeell. Bork! Bork! Bork!"
 			}
 		}
 	}

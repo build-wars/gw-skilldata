@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Black Powder Mine",
+				"description": "陷阱技。 When Black Powder Mine is triggered, all nearby foes are struck for 20...30 damage, become Blinded, and begin Bleeding for 7...10 seconds. Black Powder Mine ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "陷阱技。 (90 seconds.) Affects nearby foes. Deals 20...30 damage. Inflicts Blindness and Bleeding conditions (7...10 seconds). Easily interrupted."
+			},
+			"cht": {
+				"name": "黑火藥地雷",
+				"description": "陷阱： 「黑火藥地雷」一旦引爆，可對附近所有敵人造成 20...30 傷害並使其遭受「盲目」、「流血」7...10 秒。「黑火藥陷阱」將在 90 秒後結束。此技能發動時容易被中斷。",
+				"concise": "陷阱： When Black Powder Mine is triggered, all nearby foes are struck for 20...30 damage, become Blinded, and begin Bleeding for 7...10 seconds. Black Powder Trap ends after 90 seconds. While activating this Skill, you are easily interrupted."
+			},
 			"de": {
+				"name": "Schwarzpulvermine",
+				"description": "Falle. Wird Schwarzpulvermine aktiviert, erleiden alle Gegner in der Nähe 20...30 Punkt[e] Schaden, werden geblendet und leiden 7...10 Sekunde[n] lang an einer Blutung. Schwarzpulvermine endet nach 90 Sekunde[n]. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunde[n]: Betrifft Feinde in der Nähe. Richtet 20...30 Punkt[e] Schaden an. Verursacht die Zustände Blindheit und Blutung (7...10 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Schwarzpulvermine",
 				"description": "Wird Schwarzpulvermine aktiviert, erleiden alle Gegner in der Nähe 20...30 Punkte Feuer-Schaden, werden 7...10 Sekunden lang geblendet und leiden 7...10 Sekunden lang an einer Blutung. Schwarzpulvermine endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 20...30 Punkte Feuer-Schaden an. Verursacht die Zustände Blindheit und Blutung (7...10 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Black Powder Mine",
+				"description": "Trap. When Black Powder Mine is triggered, all nearby foes are struck for 20...30 damage, become Blinded, and begin Bleeding for 7...10 seconds. Black Powder Mine ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Deals 20...30 damage. Inflicts Blindness and Bleeding conditions (7...10 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Black Powder Mine",
 				"description": "When Black Powder Mine is triggered, all nearby foes are struck for 20...30 damage, become Blinded, and begin Bleeding for 7...10 seconds. Black Powder Mine ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Deals 20...30 damage. Inflicts Blindness and Bleeding conditions (7...10 seconds). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Mina de pólvora",
+				"description": "Trampa. Cuando se active esta trampa, todos los enemigos cercanos reciben 20...30 de daño, quedarán ciegos y sufrirán una hemorragia durante 7...10 segundos. La Mina de pólvora dura 90 segundos. Cuando la estés colocando, se te podrá interrumpir con facilidad.",
+				"concise": "Trampa. (90 segundos). Afecta a los enemigos cercanos. Hace 20...30 de daño. Causa ceguera y hemorragia (7...10 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège de poudre noire",
+				"description": "Piège. Quand ce piège se déclenche, tous les ennemis à proximité subissent 20...30 points de dégâts, souffrent d'Aveuglement et commencent à saigner pendant 7...10 secondes. Cette compétence fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous l'utilisez.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige 20...30 points de dégâts. Inflige l'Aveuglement et le Saignement (7...10 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Piège de poudre noire",
 				"description": "Quand ce piège se déclenche, tous les ennemis à proximité subissent 20...30 points de dégâts, souffrent d'Aveuglement et commencent à saigner pendant 7...10 secondes. Cette compétence fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous l'utilisez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mina di Polvere Nera",
+				"description": "Trappola. Quando la Mina di Polvere Nera viene attivata, tutti i nemici nei dintorni subiscono 20...30 danno[i], vengono Accecati e sono colpiti da Emorragia per 7...10 secondo[i]. La Mina di Polvere Nera termina dopo 90 secondo[i]. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Danni inferti: 20...30. Condizioni inflitte: Accecamento e Emorragia (7...10 secondo[i]). Facile interruzione."
+			},
+			"jp": {
+				"name": "ブラック パウダー マイン",
+				"description": "トラップ： 発動すると、周囲にいる敵に 20...30 のダメージを与え、7...10 秒間「盲目」および「出血」状態にします。このトラップは 90 秒後に消滅します。このスキルの詠唱は、容易に中断されます。",
+				"concise": "トラップ： (90 秒) 周囲にいる敵に 20...30 のダメージを与え、「盲目」および「出血」状態にします (7...10 秒) 。このスキルの詠唱は、容易に中断されます。"
+			},
+			"kr": {
+				"name": "흑색화약 지뢰",
+				"description": "함정. 흑색화약 지뢰가 터지면 부근의 모든 적은 20...30의 대미지를 입고, 7...10초 동안 실명에 처하고 출혈을 일으킵니다. 지뢰 효과는 90초 뒤에 사라지며, 지뢰 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 20...30의 대미지를 주고, 실명과 출혈을 유발합니다.(7...10초) 쉽게 방해받습니다."
+			},
+			"pl": {
+				"name": "Prochowa Mina",
+				"description": "Pułapka. Kiedy Prochowa Mina zostanie uaktywniona, wszyscy przeciwnicy w pobliżu otrzymują po 20...30 pkt. obrażeń i przez 7...10 sek. będą oślepieni i będą krwawili. Prochowa Mina przestanie działać po 90 sek. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. Zadaje 20...30 pkt. obrażeń. Wywołuje przypadłości oślepienie oraz krwawienie (7...10 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Black Powder Mine",
+				"description": "Ловушка. Когда срабатывает Black Powder Mine, все противники поблизости получают 20...30 ед. урона, будут ослеплены, и начнут кровоточить в течение 7...10 сек. Black Powder Mine разряжается через 90 сек. В момент активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Наносит 20...30 ед. урона. Вызывает слепоту и кровотечение (7...10 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Blaeck Pooder Meene-a",
+				"description": "Traep. Vhee Blaeck Pooder Meene-a is treeggered, aell neaerby fues aere-a stroock fur 20...30 daemaege-a, becume-a Bleended, und begeen Bleedeeng fur 7...10 secunds. Blaeck Pooder Meene-a inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Deaels 20...30 daemaege-a. Inffleects Bleendness und Bleedeeng cundeeshuns (7...10 secunds). Iaeseely interroopted."
 			}
 		}
 	}

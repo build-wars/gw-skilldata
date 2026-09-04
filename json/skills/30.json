@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "牵制",
+				"description": "负面魔法。 在6秒之内，使目标敌人下一次所使用技能的恢复时间延长10...56秒。",
+				"concise": "负面魔法。 使目标敌人下一次所使用技能的冷却时间延长10...56秒，效果持续6秒。"
+			},
+			"cht": {
+				"name": "牽制",
+				"description": "降咒魔法： 在 6 秒內，使目標敵人下一個使用的技能，回復時間增加 10...56 秒。",
+				"concise": "降咒魔法： (6 秒。) 使目標敵人下一個使用的技能，回復時間 + 10...56 秒。"
+			},
 			"de": {
+				"name": "Ablenkung",
+				"description": "Verhexung. 6 Sekunden lang, benötigt das Wiederaufladen dieser Fertigkeit zusätzlich 10...56 Sekunde[n], wenn der Gegner das nächste Mal eine Fertigkeit benutzt.",
+				"concise": "Verhexung. 6 Sekunden: Nächste benutzte Fertigkeit des Gegners benötigt +10...56 Sekunde[n] zum Wiederaufladen."
+			},
+			"de-guildwiki": {
 				"name": "Ablenkung",
 				"description": "Wenn der Gegner innerhalb der nächsten 6 Sekunden eine Fertigkeit verwendet, benötigt sie zur Wiederaufladung 10...56 Sekunden länger.",
 				"concise": "6 Sekunden: Nächste benutzte Fertigkeit des Gegners benötigt +10...56 Sekunden zum Wiederaufladen."
 			},
 			"en": {
 				"name": "Diversion",
+				"description": "Hex Spell. For 6 seconds, the next time target foe uses a skill, that skill takes an additional 10...56 seconds to recharge.",
+				"concise": "Hex Spell. (6 seconds.) Target foe's next skill takes +10...56 seconds to recharge."
+			},
+			"en-gww": {
+				"name": "Diversion",
 				"description": "For 6 seconds, the next time target foe uses a skill, that skill takes an additional 10...56 seconds to recharge.",
 				"concise": "(6 seconds.) Target foe's next skill takes +10...56 seconds to recharge."
 			},
+			"es": {
+				"name": "Distracción",
+				"description": "Conjuro con maleficio. Durante 6 segundos, la próxima vez que el enemigo objetivo utilice una habilidad tardará 10...56 segundos adicionales en recargarse.",
+				"concise": "Conjuro con maleficio. (6 segundos). La siguiente habilidad del enemigo objetivo tarda +10...56 segundos en recargarse."
+			},
 			"fr": {
+				"name": "Diversion",
+				"description": "Maléfice. Pendant 6 secondes, la prochaine fois que l'ennemi visé utilisera une compétence, elle mettra 10...56 secondes de plus à se recharger.",
+				"concise": "Maléfice. (6 secondes.) La compétence suivante de l'ennemi visé a un temps de recharge accru de +10...56 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Diversion",
 				"description": "Pendant 6 secondes, la prochaine fois que l'ennemi visé utilisera une compétence, elle mettra 10...56 secondes de plus à se recharger.",
 				"concise": "(6 secondes.) La compétence suivante de l'ennemi visé a un temps de recharge accru de +10...56 secondes."
+			},
+			"it": {
+				"name": "Diversione",
+				"description": "Fattura. Dura 6 secondi; la prossima volta che l'obiettivo nemico userà un'abilità, il suo tempo di ricarica aumenterà di 10...56 secondo[i].",
+				"concise": "Fattura. (Secondi: 6) Tempo di ricarica della prossima abilità dell'obiettivo nemico: +10...56 secondo[i]."
+			},
+			"jp": {
+				"name": "ディバージョン",
+				"description": "弱体化スペル： 6秒間、ターゲットした敵が次に使用するスキルは、再使用時間が 10...56 秒増加します。",
+				"concise": "弱体化スペル： (6秒) ターゲットした敵が次に使用するスキルは、再使用時間が 10...56 秒増加します。"
+			},
+			"kr": {
+				"name": "견제",
+				"description": "약화 마법. 대상 지정: 적. 6초 동안 대상이 사용하는 스킬의 재활성 시간이 10...56초 늘어납니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법. (6초) 대상이 사용하는 스킬의 재활성 시간이 10...56초 늘어납니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Dywersja",
+				"description": "Klątwa (czar). Przez 6 sek., następnym razem, gdy wybrany przeciwnik użyje umiejętności, ta umiejętność odnawia się o 10...56 sek. dłużej.",
+				"concise": "Klątwa (czar). (6 sek.) Następna umiejętność wybranego przeciwnika będzie się odnawiała o +10...56 sek. dłużej."
+			},
+			"ru": {
+				"name": "Diversion",
+				"description": "Заклинание-проклятье. В течение 6 сек в следующий раз, когда выбранный противник будет использовать какое-либо умение, этому умению потребуется дополнительно 10...56 сек для перезарядки.",
+				"concise": "Заклинание-проклятье. (6 сек) Следующее умение выбранного противника потребует дополнительно 10...56 сек для перезарядки."
+			},
+			"bork": {
+				"name": "Deeferseeun",
+				"description": "Hex Spell. Fur 6 secunds, zee next teeme-a taerget fue-a uses a skeell, thaet skeell taekes un aeddeeshunael 10...56 secunds tu rechaerge-a.",
+				"concise": "Hex Spell. (6 secunds.) Taerget fue-a's next skeell taekes +10...56 secunds tu rechaerge-a."
 			}
 		}
 	}

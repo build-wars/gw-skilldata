@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "烈焰镣铐",
+				"description": "负面魔法。 在3秒后，使目标敌人及其附近所有敌人受到20...80点火焰伤害，并且遭受「灼烧」症状1...3秒。",
+				"concise": "负面魔法。 在3秒后，使目标敌人及其附近所有敌人受到20...80点火焰伤害，并且遭受「灼烧」症状1...3秒。"
+			},
+			"cht": {
+				"name": "燃燒連結",
+				"description": "降咒魔法： 在 3 秒之後，使目標及其附近敵人受到 20...80 火焰傷害並且遭受「著火」病症 1...3 秒。",
+				"concise": "降咒魔法： 在 3 秒之後，使目標及其附近敵人受到 20...80 火焰傷害並且遭受「著火」病症 1...3 秒。"
+			},
 			"de": {
+				"name": "Brandbänder",
+				"description": "Verhexung. Nach 3 Sekunden erleiden der Gegner und alle Feinde in der Nähe 20...80 Punkte Feuerschaden und werden 1...3 Sekunden lang in Brand gesetzt. Wird früher aktiviert, wenn der anvisierte Gegner stirbt.",
+				"concise": "Verhexung. (3 Sekunden.) Richtet bei Feinden in der Nähe des Ziels 20...80 Punkte Feuerschaden an und verursacht den Zustand Brennen (1...3 Sekunden). Wird auch aktiviert, wenn der anvisierte Gegner stirbt."
+			},
+			"de-guildwiki": {
 				"name": "Brandbänder",
 				"description": "Nach 3 Sekunden erleiden der Gegner und alle Feinde in der Nähe 20...80 Punkte Feuerschaden und werden 1...3 Sekunde(n) lang in Brand gesetzt. Wird früher aktiviert, wenn der anvisierte Gegner stirbt.",
 				"concise": "(3 Sekunden.) Richtet bei Feinden in der Nähe des Ziels 20...80 Punkte Feuerschaden an und verursacht Zustand Brennen (1...3 Sekunden). Wird auch aktiviert, wenn der anvisierte Gegner stirbt."
 			},
 			"en": {
 				"name": "Incendiary Bonds",
+				"description": "Hex Spell. After 3 seconds, target foe and all nearby foes are struck for 20...80 fire damage and are set on fire for 1...3 seconds. Activates early if target foe dies.",
+				"concise": "Hex Spell. (3 seconds.) End effect: deals 20...80 fire damage and inflicts Burning condition (1...3 seconds) to foes near your target. Also triggers if foe dies."
+			},
+			"en-gww": {
+				"name": "Incendiary Bonds",
 				"description": "After 3 seconds, target foe and all nearby foes are struck for 20...80 fire damage and are set on fire for 1...3 second[s]. Activates early if target foe dies.",
 				"concise": "(3 seconds.) End effect: deals 20...80 fire damage and inflicts Burning condition (1...3 second[s]) to foes near your target. Also triggers if foe dies."
 			},
+			"es": {
+				"name": "Vínculos incendiarios",
+				"description": "Conjuro con maleficio. Tras 3 segundos, el enemigo objetivo y todos los cercanos reciben 20...80 de daño de fuego y arden durante 1...3 segundos. Se activa antes si el enemigo objetivo muere.",
+				"concise": "Conjuro con maleficio. (3 segundos.) Efecto final: hace 20...80 de daño de fuego y causa quemadura (1...3 segundos) a los enemigos cercanos al objetivo. También se activa si el enemigo muere."
+			},
 			"fr": {
+				"name": "Liens incendiaires",
+				"description": "Maléfice. Au bout de 3 secondes, l'ennemi visé et tous ceux qui sont proches de lui subissent 20...80 points de dégâts du feu et s'embrasent pendant 1...3 secondes. S'active immédiatement si l'ennemi meurt.",
+				"concise": "Maléfice. (3 secondes.) Effet final : inflige 20...80 points de dégâts du feu et inflige la Brûlure (1...3 secondes) aux ennemis à proximité de votre cible. S'active également si l'ennemi meurt."
+			},
+			"fr-gwiki": {
 				"name": "Liens incendiaires",
 				"description": "Au bout de 3 secondes, l'ennemi visé et tous ceux qui sont proches de lui subissent 20...80 points de dégâts du feu et s'embrasent pendant 1...3 seconde(s). S'active immédiatement si l'ennemi meurt.",
 				"concise": "(3 secondes.) Effet final : inflige 20...80 points de dégâts du feu et inflige la Brûlure (1...3 seconde(s)) aux ennemis à proximité de votre cible. S'active également si l'ennemi meurt."
+			},
+			"it": {
+				"name": "Legami Incendiari",
+				"description": "Fattura. Dopo 3 secondi, l'obiettivo nemico e tutti i nemici nei dintorni subiscono 20...80 danni da fuoco e prendono fuoco per 1...3 secondi. Si attiva prima se l'obiettivo nemico muore.",
+				"concise": "Fattura. (Secondi: 3.) Effetto al termine: 20...80 danni da fuoco e provoca Bruciatura (1...3 secondi) ai nemici vicini all'obiettivo. Si attiva anche in caso di morte del nemico."
+			},
+			"jp": {
+				"name": "インセンディアリー ボンド",
+				"description": "弱体化スペル： 3 秒後、ターゲットした敵および周囲にいるすべての敵に 20...80 のファイア ダメージを与え、1...3 秒間「火傷」状態にします。ターゲットした敵が戦闘不能になると、その時点で発動します。",
+				"concise": "弱体化スペル： (3 秒) 終了効果： ターゲットの周囲にいる敵に 20...80 のファイア ダメージを与え、「火傷」状態にします (1...3 秒)。効果の持続中にターゲットが戦闘不能になると、終了効果が発動します。"
+			},
+			"kr": {
+				"name": "화염의 장막",
+				"description": "약화 마법. 대상 지정: 적. 3초 뒤에 대상과 그 부근의 모든 적은 20...80의 불 대미지를 입고, 1...3초 동안 화상 상태가 됩니다.",
+				"concise": "약화 마법. (3초) 종료 효과: 대상과 그 부근의 적들에게 20...80의 불 대미지를 주고, 화상을 입힙니다.(1...3초)"
+			},
+			"pl": {
+				"name": "Zapalające Więzy",
+				"description": "Klątwa (czar). Po 3 sek., wybrany przeciwnik i przeciwnicy bezpośrednio przy nim otrzymują po 20...80 pkt. obrażeń od ognia oraz zostają podpaleni na 1...3 sek. Jeśli cel zginie, aktywuje się wcześniej.",
+				"concise": "Klątwa (czar). (3 sek.) Efekt końcowy: przeciwnikom w pobliżu twojego celu zadaje 20...80 pkt. obrażeń od ognia i wywołuje przypadłość płonięcie (1...3 sek.). Uruchamia się też po śmierci przeciwnika."
+			},
+			"ru": {
+				"name": "Incendiary Bonds",
+				"description": "Заклинание-проклятье. Через 3 сек выбранный противник и находящиеся поблизости противники получат 20...80 ед. урона силой огня и загорятся на 1...3 сек. Срабатывает раньше, если выбранный противник умирает.",
+				"concise": "Заклинание-проклятье. (3 сек) Эффект окончания: наносит 20...80 ед. урона силой огня и поджигает (1...3 сек) противников поблизости от вашей цели. Также срабатывает при смерти противника."
+			},
+			"bork": {
+				"name": "Incendeeaery Bunds",
+				"description": "Hex Spell. Aeffter 3 secunds, taerget fue-a und aell neaerby fues aere-a stroock fur 20...80 fure-a daemaege-a und aere-a set oon fure-a fur 1...3 secunds. Aecteefaetes iaerly iff taerget fue-a deees.",
+				"concise": "Hex Spell. (3 secunds.) Ind iffffect: deaels 20...80 fure-a daemaege-a und inffleects Boorneeng cundeeshun (1...3 secunds) tu fues neaer yuoor taerget. Aelsu treeggers iff fue-a deees."
 			}
 		}
 	}

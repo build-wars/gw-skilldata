@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰锥",
+				"description": "负面魔法。 使目标及其所有邻近的敌人受到20...80点冰冻伤害，使这些敌人的移动速度减缓 66%，持续2...6秒。",
+				"concise": "负面魔法。 使目标及其所有邻近的敌人受到20...80点冰冻伤害，使这些敌人的移动速度减缓 66%，持续2...6秒。"
+			},
+			"cht": {
+				"name": "冰之尖刺",
+				"description": "降咒魔法： 使目標及其鄰近的所有敵人受到 20...80 冰凍傷害，並且使這些敵人的移動速度減慢 66% ，持續 2...6 秒。",
+				"concise": "降咒魔法： 使目標及其鄰近的所有敵人受到 20...80 冰凍傷害，並且使這些敵人的移動速度減慢 66% ，持續 2...6 秒。"
+			},
 			"de": {
+				"name": "Eisdornen",
+				"description": "Verhexung. Der Gegner sowie umstehende Feinde erleiden 20...80 Punkt[e] Kälteschaden und bewegen sich 2...6 Sekunde[n] lang um 66% langsamer.",
+				"concise": "Verhexung. Verhext den Gegner und umstehende Feinde (2...6 Sekunde[n]). Diese Feinde bewegen sich um 66% langsamer. Anfangswirkung: Richtet 20...80 Punkt[e] Kälteschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Eisdornen",
 				"description": "Der Gegner sowie umstehende Feinde erleiden 20...80 Punkte Kälteschaden und bewegen sich 2...6 Sekunden lang um 66% langsamer.",
 				"concise": "Verhext den Gegner und umstehende Feinde (2...6 Sekunden). Die Betroffenen bewegen sich um 66% langsamer. Anfangswirkung: Richtet 20...80 Punkte Kälteschaden an."
 			},
 			"en": {
 				"name": "Ice Spikes",
+				"description": "Hex Spell. Target and adjacent foes are struck for 20...80 cold damage and move 66% slower for 2...6 seconds.",
+				"concise": "Hex Spell. Also hexes foes adjacent to target (2...6 seconds). These foes move 66% slower. Initial effect: deals 20...80 cold damage."
+			},
+			"en-gww": {
+				"name": "Ice Spikes",
 				"description": "Target and adjacent foes are struck for 20...80 cold damage and move 66% slower for 2...6 seconds.",
 				"concise": "Also hexes foes adjacent to target (2...6 seconds). These foes move 66% slower. Initial effect: deals 20...80 cold damage."
 			},
+			"es": {
+				"name": "Púas de hielo",
+				"description": "Conjuro con maleficio. El enemigo objetivo y los adyacentes reciben 20...80 de daño frío y se mueven un 66% más lentos durante 2...6 segundos.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (2...6 segundos). Estos enemigos se moverán un 66% más despacio. Efecto inicial: hace 20...80 de daño frío."
+			},
 			"fr": {
+				"name": "Tessons de glace",
+				"description": "Maléfice. L'ennemi visé et ceux qui sont adjacents subissent 20...80 points de dégâts du froid et sont ralentis de 66% pendant 2...6 secondes.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à la cible (2...6 secondes). Ces ennemis se déplacent 66% moins vite. Effet initial : inflige 20...80 points de dégâts du froid."
+			},
+			"fr-gwiki": {
 				"name": "Tessons de glace",
 				"description": "L'ennemi visé et ceux qui sont adjacents subissent 20...80 points de dégâts du froid et sont ralentis de 66% pendant 2...6 secondes.",
 				"concise": "Inflige également des maléfices aux ennemis adjacent à la cible (2...6 secondes.) Ces ennemis se déplacent 66% moins vite. Effet initial : inflige 20...80 points de dégâts du froid."
+			},
+			"it": {
+				"name": "Spine di Ghiaccio",
+				"description": "Fattura. L'obiettivo nemico ed i nemici adiacenti subiscono 20...80 danni da freddo ed i loro movimenti rallentano del 66% per 2...6 secondi.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici adiacenti all'obiettivo (2...6 secondi). I movimenti di questi nemici sono più lenti del 66%. Effetto iniziale: danni da freddo inferti: 20...80."
+			},
+			"jp": {
+				"name": "アイス スパイク",
+				"description": "弱体化スペル： ターゲットした敵および隣接する敵に 20...80 のコールド ダメージを与え、2...6 秒間、移動速度を66%減少させます。",
+				"concise": "弱体化スペル： (2...6 秒) ターゲットした敵および隣接する敵は、移動速度が66%減少します。発動効果： 20...80 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "얼음 철책",
+				"description": "약화 마법. 대상 지정: 적. 대상과 그에 인접한 적들은 20...80의 냉기 대미지를 입고, 2...6초 동안 이동 속도가 66% 느려집니다.",
+				"concise": "약화 마법. 대상과 그에 인접한 적들에게 20...80의 냉기 대미지를 주고, 이동 속도를 66% 느려지게 합니다.(2...6초)"
+			},
+			"pl": {
+				"name": "Lodowe Kolce",
+				"description": "Klątwa (czar). Wybrany przeciwnik i przeciwnicy bezpośrednio przy nim otrzymują 20...80 pkt. obrażeń od zimna oraz przez 2...6 sek. poruszają się o 66% wolniej.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (2...6 sek.). Ci przeciwnicy poruszają się o 66% wolniej. Efekt początkowy: zadaje 20...80 pkt. obrażeń od zimna."
+			},
+			"ru": {
+				"name": "Ice Spikes",
+				"description": "Заклинание-проклятье. Выбранный противник и окружающие его противники получают 20...80 ед. урона силой холода и двигаются на 66% медленнее в течение 2...6 сек.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников, окружающих цель (2...6 сек). Эти противники двигаются на 66% медленнее. Начальный эффект: наносит 20...80 ед. урона силой холода."
+			},
+			"bork": {
+				"name": "Ice-a Speekes",
+				"description": "Hex Spell. Taerget und aedjaecent fues aere-a stroock fur 20...80 culd daemaege-a und mufe-a 66% slooer fur 2...6 secunds.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu taerget (2...6 secunds). Zeese-a fues mufe-a 66% slooer. Ineeteeael iffffect: deaels 20...80 culd daemaege-a."
 			}
 		}
 	}

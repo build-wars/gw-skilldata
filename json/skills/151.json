@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "堕落盛宴",
+				"description": "精英咒文。 使目标敌人及邻近他的所有我方敌人受到16...80点暗影伤害，被击中的敌人如果正遭受「负面魔法」，你将偷取其最多8...40点生命值。",
+				"concise": "精英咒文。 使目标及其附近的敌人受到 16...80点 暗影伤害，被击中的敌人如果带有「负面魔法」，你将偷取其最多 8...40点 生命值。"
+			},
+			"cht": {
+				"name": "墮落饗宴",
+				"description": "精英咒文魔法： 使目標敵人及其鄰近敵人受到 16...80 暗影傷害。若這些目標中有人被「降咒」，則你從每個被「降咒」的敵人身上偷取最多 8...40 體力。",
+				"concise": "精英咒文魔法： 使目標敵人及其鄰近敵人受到 16...80 暗影傷害。若這些目標中有人被「降咒」，則你從每個被「降咒」的敵人身上偷取最多 8...40 體力。"
+			},
 			"de": {
+				"name": "Schmaus der Verdorbenheit",
+				"description": "Elite-Zauber. Der Gegner und alle umstehenden Feinde erleiden 16...80 Punkt[e] Schattenschaden. Ihr entzieht allen getroffenen Gegnern, die unter einer Verhexung leiden, bis zu 8...40 Lebenspunkt[e].",
+				"concise": "Elite-Zauber. Richtet beim Gegner und umstehenden Feinden 16...80 Punkt[e] Schaden an. Entzieht jedem verhexten Feind 8...40 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Schmaus der Verdorbenheit",
 				"description": "Der Gegner und alle umstehenden Feinde erleiden 16...80 Punkte Schattenschaden. Ihr entzieht allen getroffenen Gegnern, die unter einer Verhexung leiden, bis zu 8...40 Lebenspunkte.",
 				"concise": "Richtet beim Gegner und umstehenden Feinden 16...80 Punkte Schaden an. Entzieht jedem verhexten Feind 8...40 Lebenspunkte."
 			},
 			"en": {
 				"name": "Feast of Corruption",
+				"description": "Elite Spell. Target foe and all adjacent foes are struck for 16...80 shadow damage. You steal up to 8...40 Health from each struck foe who is suffering from a hex.",
+				"concise": "Elite Spell. Deals 16...80 damage to target and adjacent foes. Steal 8...40 Health from each hexed foe."
+			},
+			"en-gww": {
+				"name": "Feast of Corruption",
 				"description": "Target foe and all adjacent foes are struck for 16...80 shadow damage. You steal up to 8...40 Health from each struck foe who is suffering from a hex.",
 				"concise": "Deals 16...80 damage to target and adjacent foes. Steal 8...40 Health from each hexed foe."
 			},
+			"es": {
+				"name": "Festín de corrupción",
+				"description": "Conjuro de élite. El enemigo objetivo y los enemigos adyacentes recibirán 16...80 de daño de sombra. Robas hasta 8...40 de salud a cada enemigo que golpees que tenga un maleficio.",
+				"concise": "Conjuro de élite. Hace 16...80 de daño al enemigo objetivo y los adyacentes. Roba 8...40 de salud de cada enemigo que tenga un maleficio."
+			},
 			"fr": {
+				"name": "Festin de corruption",
+				"description": "Sort d'élite. La cible et tous les ennemis adjacents subissent 16...80 points de dégâts de l'ombre. Vous absorbez jusqu'à 8...40 points de vie à chaque ennemi frappé d'un maléfice.",
+				"concise": "Sort d'élite. Inflige 16...80 points de dégâts à la cible et aux ennemis adjacents. Vole 8...40 points de vie à chaque ennemi victime d'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Festin de corruption",
 				"description": "La cible et tous les ennemis adjacents subissent 16...80 points de dégâts de l'ombre. Vous absorbez jusqu'à 8...40 points de vie à chaque ennemi frappé d'un maléfice.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Banchetto della Corruzione",
+				"description": "Magia d'Élite. L'obiettivo nemico e tutti i nemici adiacenti subiscono 16...80 danno[i] da ombra e tu sottrai fino a 8...40 Punto[i] Salute a ogni nemico colpito da fattura.",
+				"concise": "Magia d'Élite. Danni all'obiettivo e ai nemici adiacenti: 16...80. Salute sottratta ad ogni nemico affetto dalla fattura: 8...40."
+			},
+			"jp": {
+				"name": "コラプション フィースト",
+				"description": "エリート スペル： ターゲットした敵および隣接するすべての敵に 16...80 の暗黒ダメージを与えます。弱体化スペルをかけられている敵から、それぞれ最大 8...40 の体力を奪い取ります。",
+				"concise": "エリート スペル： ターゲットおよび隣接する敵に 16...80 のダメージを与えます。弱体化スペルがかけられている敵からそれぞれ 8...40 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "타락의 향연",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 그에 인접한 모든 적에게 16...80의 암흑 대미지를 줍니다. 동시에 자신은 약화 마법에 걸린 적에게서 8...40의 체력을 뺏습니다.",
+				"concise": "엘리트 마법. 대상과 그에 인접한 적들에게 16...80의 대미지를 줍니다. 동시에 약화 마법에 걸린 적에게서 체력을 8...40씩 뺏습니다."
+			},
+			"pl": {
+				"name": "Uczta Zepsucia",
+				"description": "Elitarny czar. Wybrany przeciwnik i wszyscy przeciwnicy znajdujący się bezpośrednio przy nim otrzymują 16...80 pkt. obrażeń od cienia. Wykradasz do 8...40 pkt. żywotności od każdego zranionego przeciwnika, który jest pod wpływem klątwy.",
+				"concise": "Elitarny czar. Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 16...80 pkt. obrażeń. Każdemu przeciwnikowi pod działaniem klątwy wykradasz 8...40 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Feast of Corruption",
+				"description": "Элитное заклинание. Выбранный противник и все окружающие его противники получают 16...80 ед. урона силой тьмы. Вы похищаете до 8...40 ед. здоровья у каждого пораженного этим заклинанием противника, на которого наложено какое-либо проклятье.",
+				"concise": "Элитное заклинание. Наносит 16...80 ед. урона выбранному и окружающим противникам. Похищает 8...40 ед. здоровья каждого из этих противников, на которого наложено проклятье."
+			},
+			"bork": {
+				"name": "Feaest ooff Curroopshun",
+				"description": "Ileete-a Spell. Taerget fue-a und aell aedjaecent fues aere-a stroock fur 16...80 shaedoo daemaege-a. Yuoo steael up tu 8...40 Heaelt frum iaech stroock fue-a vhu is sooffffereeng frum a hex.",
+				"concise": "Ileete-a Spell. Deaels 16...80 daemaege-a tu taerget und aedjaecent fues. Steael 8...40 Heaelt frum iaech hexed fue-a."
 			}
 		}
 	}

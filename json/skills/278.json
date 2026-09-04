@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "净化术",
+				"description": "咒文。 移除友方目标身上的所有「症状」（症状可为：中毒、疾病、灼烧、盲目、晕眩、流血、残废、重伤、虚弱）。",
+				"concise": "咒文。 移除友方目标身上的所有「症状」（症状可为：中毒、疾病、灼烧、盲目、晕眩、流血、残废、重伤）。"
+			},
+			"cht": {
+				"name": "淨化病症",
+				"description": "咒文魔法： 消除目標盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。",
+				"concise": "咒文魔法： 消除目標盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。"
+			},
 			"de": {
+				"name": "Zustände reinigen",
+				"description": "Zauber. Entfernt alle Zustände (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung und Tiefe Wunde) von einem Verbündeten.",
+				"concise": "Zauber. Entfernt alle Zustände."
+			},
+			"de-guildwiki": {
 				"name": "Zustände reinigen",
 				"description": "Der Verbündete (bzw. Ihr selbst) verliert alle Zustände Zustände (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung und Tiefe Wunde).",
 				"concise": "Entfernt alle Zustände."
 			},
 			"en": {
 				"name": "Purge Conditions",
+				"description": "Spell. Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target ally.",
+				"concise": "Spell. Removes all conditions."
+			},
+			"en-gww": {
+				"name": "Purge Conditions",
 				"description": "Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target ally.",
 				"concise": "Removes all conditions."
 			},
+			"es": {
+				"name": "Curar condiciones",
+				"description": "Conjuro. Quita todas las condiciones (veneno, enfermedad, ceguera, aturdimiento, hemorragia, lisiadura, quemadura, debilidad, armadura rota y herida grave) del aliado objetivo.",
+				"concise": "Conjuro. Elimina todas las condiciones."
+			},
 			"fr": {
+				"name": "Purification des conditions",
+				"description": "Sort. Supprime toutes les conditions (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse, Armure brisée et Blessure profonde) chez la cible alliée.",
+				"concise": "Sort. Supprime toutes les conditions."
+			},
+			"fr-gwiki": {
 				"name": "Purification des conditions",
 				"description": "Supprime toutes les conditions (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse et Blessure profonde) chez la cible (un allié ou vous-même).",
 				"concise": "Supprime toutes les conditions."
+			},
+			"it": {
+				"name": "Purifica Condizioni",
+				"description": "Magia. Rimuove tutte le condizioni (Veleno, Malattia, Cecità, Stordimento, Emorragia, Storpiatura, Bruciatura, Debolezza, Armatura Incrinata e Ferita Profonda) dall'obiettivo (un alleato o te stesso).",
+				"concise": "Magia. Rimuove tutte le condizioni."
+			},
+			"jp": {
+				"name": "パージ コンディション",
+				"description": "スペル： ターゲットした味方にかけられている「状態異常 (毒、疾病、盲目、放心、出血、不自由、火傷、衰弱、防具破損、および重傷) 」をすべて解除します。",
+				"concise": "スペル： かけられている「状態異常」をすべて解除します。"
+			},
+			"kr": {
+				"name": "상태 정화",
+				"description": "마법. 대상 지정: 아군. 대상의 상태이상(중독, 질병, 실명, 현혹, 출혈, 다리부상, 화상, 약체, 방어 손상, 중상)을 모두 해제합니다.",
+				"concise": "마법. 상태이상을 모두 해제합니다."
+			},
+			"pl": {
+				"name": "Oczyszczenie z Przypadłości",
+				"description": "Czar. Usuwa z wybranego sojusznika wszystkie przypadłości (zatrucie, chorobę, oślepienie, oszołomienie, krwawienie, okulawienie, płonięcie, osłabienie, pękniętą zbroję i głęboką ranę).",
+				"concise": "Czar. Usuwa wszystkie przypadłości."
+			},
+			"ru": {
+				"name": "Purge Conditions",
+				"description": "Заклинание. Снимает все состояния (отравление, болезнь, слепоту, ошеломление, кровотечение, хромоту, горение, слабость, треснувшие доспехи и глубокую рану) с выбранного союзника.",
+				"concise": "Заклинание. Снимает все состояния."
+			},
+			"bork": {
+				"name": "Poorge-a Cundeeshuns",
+				"description": "Spell. Remufe-a aell cundeeshuns (Pueesun, Deeseaese-a, Bleendness, Daezed, Bleedeeng, Creeppled, Boorneeng, Veaekness, Craecked Aermur, und Deep Vuoond) frum taerget aelly.",
+				"concise": "Spell. Remufes aell cundeeshuns."
 			}
 		}
 	}

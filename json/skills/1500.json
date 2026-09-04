@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 24,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻象斗篷",
+				"description": "Flash Enchantment Spell。 20秒内，获得40%格挡几率，每多持有一项附魔，额外提供4...10%加成（最高80%）。当苦行僧附魔从你身上消失时，所有附近敌军均受到10...40点土系伤害。",
+				"concise": "Flash Enchantment Spell。 （20秒）获得40%格挡几率，每多持有一项附魔，额外获得4...10%加成。当你失去苦行僧附魔时，所有附近敌军受到10...40点土系伤害。"
+			},
+			"cht": {
+				"name": "魔幻掩蔽",
+				"description": "即刻加持魔法： For 20 seconds, you have a 40% chance to block and an extra 4...10% for each additional enchantment (max 80%). All nearby foes are struck for 10...40 earth damage each time a Dervish enchantment is removed from you.",
+				"concise": "即刻加持魔法： (20 seconds.) 40% chance to block and an extra 4...10% for each additional enchantment. 10...40 earth damage to nearby foes when you lose a Dervish enchantment."
+			},
 			"de": {
 				"name": "Trugbild-Umhang",
-				"description": "20 Sekunden lang habt Ihr Chance von 40%, zu blocken plus 10% für jede zusätzliche Verzauberung (max. 80%). Alle Gegner in der Nähe erleiden jedes Mal 10...40 Erdschaden, wenn eine Derwisch-Verzauberung von Euch entfernt wird.",
-				"concise": "(20 Sekunden.) Chance von 40%, zu blocken plus 10% für jede zusätzliche Verzauberung. Gegner in der Nähe erleiden 10...40 Erdschaden, wenn Ihre<sic/> eine Derwisch-Verzauberung verliert."
+				"description": "Blitzverzauberung. 20 Sekunden lang habt Ihr eine Chance von 40 %, zu blocken plus 4...10 % für jede zusätzliche Verzauberung (max. 80 %). Alle Gegner in der Nähe erleiden jedes Mal 10...40 Erdschaden, wenn eine Derwisch-Verzauberung von Euch entfernt wird.",
+				"concise": "Blitzverzauberung. (20 Sekunden.) Chance von 40 %, zu blocken plus 4...10 % für jede zusätzliche Verzauberung. Gegner in der Nähe erleiden 10...40 Erdschaden, wenn Ihre eine Derwisch-Verzauberung verliert."
+			},
+			"de-guildwiki": {
+				"name": "Trugbild-Umhang",
+				"description": "20 Sekunden lang habt Ihr eine Chance von 40%, zu blocken plus 4...10% für jede zusätzliche Verzauberung (max. 80%). Alle Gegner in der Nähe erleiden jedes Mal 10...40 Erdschaden, wenn eine Derwisch-Verzauberung von Euch entfernt wird.",
+				"concise": "(20 Sekunden.) Chance von 40%, zu blocken plus 4...10% für jede zusätzliche Verzauberung. Gegner in der Nähe erleiden 10...40 Erdschaden, wenn Ihre<sic/> eine Derwisch-Verzauberung verliert."
 			},
 			"en": {
 				"name": "Mirage Cloak",
-				"description": "For 20 second[s], you have a 40% chance to block and an extra 10% for each additional enchantment (max 80%). All nearby foes are struck for 10...40 earth damage each time a Dervish enchantment is removed from you.",
-				"concise": "(20 second[s].) 40% chance to block and an extra 10% for each additional enchantment. 10...40 earth damage to nearby foes when you lose a Dervish enchantment."
+				"description": "Flash Enchantment Spell. For 20 seconds, you have a 40% chance to block and an extra 4...10% for each additional enchantment (max 80%). All nearby foes are struck for 10...40 earth damage each time a Dervish enchantment is removed from you.",
+				"concise": "Flash Enchantment Spell. (20 seconds.) 40% chance to block and an extra 4...10% for each additional enchantment. 10...40 earth damage to nearby foes when you lose a Dervish enchantment."
+			},
+			"en-gww": {
+				"name": "Mirage Cloak",
+				"description": "For 20 second[s], you have a 40% chance to block and an extra 4...10% for each additional enchantment (max 80%). All nearby foes are struck for 10...40 earth damage each time a Dervish enchantment is removed from you.",
+				"concise": "(20 second[s].) 40% chance to block and an extra 4...10% for each additional enchantment. 10...40 earth damage to nearby foes when you lose a Dervish enchantment."
+			},
+			"es": {
+				"name": "Manto milagroso",
+				"description": "Conjuro con encantamiento de destello. Durante 20 segundos, tienes un 40 % de probabilidad de bloquear y un 4...10 % extra por cada encantamiento adicional (máximo un 80 %). Todos los enemigos cercanos reciben 10...40 de daño de tierra cada vez que te quitan un encantamiento de Derviche.",
+				"concise": "Conjuro con encantamiento de destello. (20 segundos). Tienes un 40 % de probabilidad de bloquear y un 4...10 % extra por cada encantamiento adicional. 10...40 de daño de tierra a los enemigos cercanos cada vez que te quitan un encantamiento de Derviche."
 			},
 			"fr": {
+				"name": "Manteau de mirage",
+				"description": "Enchantement instantané. Pendant 20 secondes, vous avez 40% de chances de bloquer les attaques, plus 4...10% par enchantement supplémentaire (max 80%). Tous les ennemis à proximité reçoivent 10...40 points de dégâts de la terre chaque fois qu'un enchantement de Derviche vous est retiré.",
+				"concise": "Enchantement instantané. (20 secondes.) Vous avez 40% de chances de bloquer les attaques, plus 4...10% par enchantement supplémentaire. Inflige 10...40 points de dégâts de la terre aux ennemis à proximité quand vous perdez un enchantement de Derviche."
+			},
+			"fr-gwiki": {
 				"name": "Manteau de poussière",
 				"description": "Tous les ennemis proches reçoivent 10...40 points de dégâts de la Terre. Pendant 30 secondes, vos attaques infligent des dégâts de la Terre. Lorsque cet enchantement prend fin, tous les ennemis adjacents sont aveuglés pendant 1...4 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mantello del Miraggio",
+				"description": "Incantesimo Lampo. Per 20 secondi hai una probabilità del 40% di bloccare e un 4...10% extra per ogni incantesimo aggiuntivo (max 80%). Tutti i nemici nelle vicinanze subiscono 10...40 danni di terra ogni volta che perdi un incantesimo da Derviscio.",
+				"concise": "Incantesimo Lampo. (20 secondo/i) Probabilità del 40% di bloccare e un 4...10% extra per ogni incantesimo aggiuntivo. I nemici nelle vicinanze subiscono 10...40 danni di terra quando perdi un incantesimo da Derviscio."
+			},
+			"jp": {
+				"name": "ミラージュ クローク",
+				"description": "フラッシュ強化スペル： 20秒間、40%の確率でブロックし、強化スペルが追加されるごとに4...10%が追加されます（最大80%）。ダルヴィーシュの強化スペルが解除されるたびに、すべての近くの敵に10...40のアースダメージを与えます。",
+				"concise": "フラッシュ強化スペル： （20秒）40%の確率でブロックし、強化スペルが追加されるごとに4...10%が追加されます。ダルヴィーシュの強化スペルを失うと、近くの敵に10...40のアースダメージを与えます。"
+			},
+			"kr": {
+				"name": "신기루 망토",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 20초 동안 40% 확률로 공격을 막고, 걸려 있는 강화 마법이 하나 추가될 때마다 방어 확률이 4...10% 추가됩니다(최대 80%). 자신에게 걸린 더비시 강화 마법이 해제될 때마다 주변의 모든 적에게 10...40의 대지 대미지를 줍니다.",
+				"concise": "순간 시전 강화 마법. (20초) 40% 확률로 공격을 막고, 걸려 있는 강화 마법이 하나 추가될 때마다 방어 확률이 4...10% 추가됩니다. 더비시 강화 마법이 해제될 때마다 주변의 적에게 10...40의 대지 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Okrycie Mirażem",
+				"description": "Zaklęcie błysku (czar). Przez 20 sek. masz 40% szans na wykonanie bloku i dodatkowe 4...10% za każde dodatkowe zaklęcie (maks. 80%). Wszyscy pobliscy przeciwnicy otrzymują 10...40 pkt. obrażeń od ziemi za każdym razem, gdy jest z ciebie usuwane zaklęcie derwisza.",
+				"concise": "Zaklęcie błysku (czar). (20 sek.) 40% nas na wykonanie bloku i dodatkowe 4...10% za każde kolejne zaklęcie. 10...40 pkt. obrażeń od ziemi zadawanych pobliskim wrogom, gdy tracisz zaklęcie derwisza."
+			},
+			"ru": {
+				"name": "Mirage Cloak",
+				"description": "Мгновенное заклинание-чары. В течение 20 сек. вы получаете шанс блока в 40% и ещё 4...10% за каждое дополнительное усиление (до 80%). Все враги вокруг получают 10...40 ед. урона землёй при каждом снятии с вас усиления Dervish.",
+				"concise": "Мгновенное заклинание-чары. (20 сек.) Вы получаете шанс блока в 40% и ещё 4...10% за каждое дополнительное усиление. 10...40 ед. урона землёй всем врагам вокруг при каждом снятии с вас усиления Dervish."
+			},
+			"bork": {
+				"name": "Muraege-a Cluaek",
+				"description": "Flaesh Inchuntment Spell. Fur 20 secunds, yuoo haefe-a a 40% chunce-a tu bluck und un ixtra 4...10% fur iaech aeddeeshunael inchuntment (maex 80%). Aell neaerby fues aere-a stroock fur 10...40 iaert daemaege-a iaech teeme-a a Derfeesh inchuntment is remufed frum yuoo.",
+				"concise": "Flaesh Inchuntment Spell. (20 secunds.) 40% chunce-a tu bluck und un ixtra 4...10% fur iaech aeddeeshunael inchuntment. 10...40 iaert daemaege-a tu neaerby fues vhee yuoo luse-a a Derfeesh inchuntment."
 			}
 		}
 	}

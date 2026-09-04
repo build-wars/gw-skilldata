@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疲劳纹章",
+				"description": "纹章。 使目标敌人及所有他附近的我方敌人失去3...8点能量。",
+				"concise": "纹章。 使目标敌人及其范围内所有敌人失去 3...8点 能量。"
+			},
+			"cht": {
+				"name": "疲倦紋章",
+				"description": "紋章： 使目標及其附近敵人失去 3...8 能量，且受到虛弱病症 1...12 秒。",
+				"concise": "紋章： 使目標及其附近敵人失去 3...8 能量，且受到虛弱病症 1...12 秒。"
+			},
 			"de": {
+				"name": "Siegel der Müdigkeit",
+				"description": "Siegel. Der Gegner und alle Feinde in der Nähe verlieren 3...8 Energiepunkt[e] und leiden 1...12 Sekunde[n] lang an Schwäche.",
+				"concise": "Siegel. Wirkt auch auf Feinde in der Nähe des Gegners. Verursacht einen Verlust von 3...8 Energiepunkt[en] und den Zustand \"Schwäche\" (1...12 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Müdigkeit",
 				"description": "Der Gegner und alle Feinde in der Nähe verlieren 3...8 Energiepunkte und leiden 1...12 Sekunden lang an Schwäche.",
 				"concise": "Wirkt auch auf Feinde in der Nähe des Gegners. Verursacht einen Verlust von 3...8 Energiepunkten und den Zustand Schwäche (1...12 Sekunden)."
 			},
 			"en": {
 				"name": "Signet of Weariness",
+				"description": "Signet. Target foe and all nearby foes lose 3...8 Energy and suffer from Weakness for 1...12 seconds.",
+				"concise": "Signet. Also affects foes near your target. Causes 3...8 Energy loss and inflicts Weakness (1...12 seconds)."
+			},
+			"en-gww": {
+				"name": "Signet of Weariness",
 				"description": "Target foe and all nearby foes lose 3...8 Energy and suffer from Weakness for 1...12 second[s].",
 				"concise": "Also affects foes near your target. Causes 3...8 Energy loss and inflicts Weakness (1...12 second[s])."
 			},
+			"es": {
+				"name": "Sello del cansancio",
+				"description": "Sello. El enemigo objetivo y los cercanos a él pierden 3...8 de energía y quedan debilitados durante 1...12 segundos.",
+				"concise": "Sello. También alcanza a los enemigos cercanos a tu objetivo. Causa 3...8 de pérdida de energía y debilita (1...12 segundos)."
+			},
 			"fr": {
+				"name": "Sceau de lassitude",
+				"description": "Sceau. La cible ennemie et tous les ennemis adjacents perdent 3...8 points d'énergie et souffrent de Faiblesse pendant 1...12 secondes.",
+				"concise": "Sceau. Affecte également les ennemis près de la cible. Provoque une perte de 3...8 points d'énergie et inflige la Faiblesse (1...12 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de lassitude",
 				"description": "La cible ennemie et tous les ennemis adjacents perdent 3...8 points d'énergie et souffrent de Faiblesse pendant 1...10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Stanchezza",
+				"description": "Sigillo. L'obiettivo nemico e tutti i nemici nei dintorni perdono 3...8 Punti Energia e soffrono di Debolezza per 1...12 secondi.",
+				"concise": "Sigillo. Colpisce anche i nemici nelle vicinanze dell'obiettivo. Causa la perdita di 3...8 Punti Energia e infligge Debolezza (1...12 secondi)."
+			},
+			"jp": {
+				"name": "ウィアリネス シグネット",
+				"description": "シグネット： ターゲットした敵および周囲にいるすべての敵は 3...8 のエネルギーを失い、1...12 秒間「衰弱」状態になります。",
+				"concise": "シグネット： ターゲットした敵および周囲にいる敵はエネルギーが 3...8 減少し、「衰弱」状態になります (1...12 秒)。"
+			},
+			"kr": {
+				"name": "권태 인장",
+				"description": "인장. 대상 지정: 적. 대상과 그 부근의 적들은 3...8의 에너지를 잃고, 1...12초 동안 약체 상태가 됩니다.",
+				"concise": "인장. 대상과 그 부근의 적들에게 3...8의 에너지 손실을 유발하고, 약체로 만듭니다.(1...12초)"
+			},
+			"pl": {
+				"name": "Sygnet Zmęczenia",
+				"description": "Sygnet. Wybrany przeciwnik i wszyscy pobliscy wrogowie tracą 3...8 energii i zostają Osłabieni na 1...12 sek.",
+				"concise": "Sygnet. Działa także na przeciwników w pobliżu celu. Powoduje utratę 3...8 energii oraz Osłabienie (1...12 sek)."
+			},
+			"ru": {
+				"name": "Signet of Weariness",
+				"description": "Печать. Выбранный противник и все противники поблизости теряют 3...8 ед. энергии и будут ослаблены на 1...12 сек.",
+				"concise": "Печать. Также действует на противников поблизости от вашей цели. Вызывает потерю 3...8 ед. энергии и слабость (1...12 сек)."
+			},
+			"bork": {
+				"name": "Seegnet ooff Veaereeness",
+				"description": "Seegnet. Taerget fue-a und aell neaerby fues luse-a 3...8 Inergy und sooffffer frum Veaekness fur 1...12 secunds.",
+				"concise": "Seegnet. Aelsu aeffffects fues neaer yuoor taerget. Cooses 3...8 Inergy luss und inffleects Veaekness (1...12 secunds)."
 			}
 		}
 	}

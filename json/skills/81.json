@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魔法窃取",
+				"description": "咒文。 随机偷取目标敌人的一个法术，并将该法术挪为己用，同时目标敌人将不能使用被偷取的法术，效果持续5...35秒。",
+				"concise": "咒文。 随机偷取目标敌人的一个法术，并挪为己用，同时目标敌人将不能使用被偷取的法术，效果持续 5...35秒。"
+			},
+			"cht": {
+				"name": "魔法竊取",
+				"description": "咒文魔法： 隨機使目標敵人身上的一項「魔法」無法使用，同時此項技能被該「魔法」技能取代 5...35 秒。",
+				"concise": "咒文魔法： 隨機使目標敵人身上的一項「魔法」無法使用，同時此項技能被該「魔法」技能取代 5...35 秒。"
+			},
 			"de": {
+				"name": "Arkaner Diebstahl",
+				"description": "Zauber. 5...35 Sekunde[n] lang wird ein zufällig gewählter Zauber des Gegners deaktiviert und Arkaner Diebstahl wird durch diesen Zauber ersetzt.",
+				"concise": "Zauber. 5...35 Sekunde[n]: Deaktiviert einen willkürlichen Zauber. Diese Fertigkeit wird zum betreffenden Zauber."
+			},
+			"de-guildwiki": {
 				"name": "Arkaner Diebstahl",
 				"description": "5...35 Sekunden lang wird ein zufällig gewählter Zauber des Gegners deaktiviert und Arkaner Diebstahl wird durch diesen Zauber ersetzt.",
 				"concise": "5...35 Sekunden: Deaktiviert einen willkürlichen Zauber. Diese Fertigkeit wird zum betreffenden Zauber."
 			},
 			"en": {
 				"name": "Arcane Thievery",
+				"description": "Spell. For 5...35 seconds, one random spell is disabled for target foe, and Arcane Thievery is replaced by that spell.",
+				"concise": "Spell. (5...35 seconds.) Disables one random spell. This skill becomes that spell."
+			},
+			"en-gww": {
+				"name": "Arcane Thievery",
 				"description": "For 5...35 seconds, one random spell is disabled for target foe, and Arcane Thievery is replaced by that spell.",
 				"concise": "(5...35 seconds.) Disables one random spell. This skill becomes that spell."
 			},
+			"es": {
+				"name": "Robo arcano",
+				"description": "Conjuro. Durante 5...35 segundos, un conjuro aleatorio del enemigo objetivo se desactiva y el Robo arcano es sustituido por ese conjuro.",
+				"concise": "Conjuro. (5...35 segundos). Desactiva un conjuro al azar. Esta habilidad se convierte en ese conjuro."
+			},
 			"fr": {
+				"name": "Vol des arcanes",
+				"description": "Sort. Pendant 5...35 secondes, l'ennemi ne peut plus utiliser un sort choisi aléatoirement et le Vol des Arcanes est remplacé par ce sort.",
+				"concise": "Sort. (5...35 secondes.) Désactive un sort aléatoire. Cette compétence remplace ce sort."
+			},
+			"fr-gwiki": {
 				"name": "Vol des arcanes",
 				"description": "Pendant 5...35 secondes, l'ennemi ne peut plus utiliser un sort choisi aléatoirement et le Vol des Arcanes est remplacé par ce sort.",
 				"concise": "(5...35 secondes.) Désactive un sort aléatoire. Cette compétence remplace ce sort."
+			},
+			"it": {
+				"name": "Furto Arcano",
+				"description": "Magia. Dura 5...35 secondo[i]; una magia a caso dell'obiettivo nemico viene disattivata e si sostituisce al Furto Arcano.",
+				"concise": "Magia. (Secondi: 5...35) Disattiva una magia a caso. Questa abilità si trasforma in quella magia."
+			},
+			"jp": {
+				"name": "アルカナ シーヴァリー",
+				"description": "スペル： 5...35 秒間、ターゲットした敵が装備するスペルをランダムに1個封じ込め、そのスペルと入れ替わります。",
+				"concise": "スペル： (5...35 秒) ランダムに選ばれたスペルを1個封じ込め、そのスペルと入れ替わります。"
+			},
+			"kr": {
+				"name": "마법 탈취",
+				"description": "마법. 대상 지정: 적. 5...35초 동안 대상의 마법 중 하나를 무작위로 빼앗아 이 스킬 대신 사용할 수 있습니다. 대상은 그동안 뺏긴 마법을 사용할 수 없습니다.",
+				"concise": "마법. (5...35초) 마법 하나를 사용할 수 없게 합니다. 이 스킬이 그 마법으로 바뀝니다."
+			},
+			"pl": {
+				"name": "Magiczne Złodziejstwo",
+				"description": "Czar. Na 5...35 sek. jeden losowy czar wybranego przeciwnika zostaje wyłączony, a Magiczne Złodziejstwo zostaje zastąpione tym czarem.",
+				"concise": "Czar. (5...35 sek.) Wyłącza jeden losowy czar. Ta umiejętność staje się tym czarem."
+			},
+			"ru": {
+				"name": "Arcane Thievery",
+				"description": "Заклинание. В течение 5...35 сек у выбранного противника будет недоступно одно случайно выбранное заклинание, а Arcane Thievery будет замещен этим заклинанием.",
+				"concise": "Заклинание. (5...35 сек) Делает недоступным одно случайно выбранное заклинание. Это умение замещается этим заклинанием."
+			},
+			"bork": {
+				"name": "Aercune-a Theeefery",
+				"description": "Spell. Fur 5...35 secunds, oone-a rundum spell is deesaebled fur taerget fue-a, und Aercune-a Theeefery is replaeced by thaet spell.",
+				"concise": "Spell. (5...35 secunds.) Deesaebles oone-a rundum spell. Thees skeell becumes thaet spell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "撕裂",
+				"description": "精英自然仪式。 创造一只等级为1...10的撕裂精灵。对区域内遭受「流血」症状的生物附加生命衰减2的效果。当撕裂精灵死亡时，区域内生命低于 90% 的生物将遭受「流血」症状 5...25 秒。撕裂精灵在30...240秒后消失。",
+				"concise": "精英自然仪式。 创造一只等级为1...10的撕裂精灵。对区域内遭受「流血」症状的生物附加生命衰减 2 的效果。当撕裂精灵死亡时，区域内生命低于 90% 的生物将遭受「流血」症状 5...25 秒。撕裂精灵在30...240秒后消失。"
+			},
+			"cht": {
+				"name": "撕裂",
+				"description": "精英自然儀式： 創造一隻等級 1...10 的撕裂精靈。對區域內遭受「流血」病症的生物附加體力衰減 2 的效果。當撕裂精靈死亡時，區域內體力低於 90% 的生物將遭受「流血」病症 5...25 秒。撕裂精靈在 30...240 秒後消失。",
+				"concise": "精英自然儀式： 創造一隻等級 1...10 的撕裂精靈。對區域內遭受「流血」病症的生物附加體力衰減 2 的效果。當撕裂精靈死亡時，區域內體力低於 90% 的生物將遭受「流血」病症 5...25 秒。撕裂精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Zerfetzen",
+				"description": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10. Blutende Kreaturen in seiner Reichweite erleiden eine Lebenspunktdegeneration von -2. Wenn dieser Geist stirbt, leiden alle Kreaturen in seiner Reichweite, die keine Geister sind, und deren Lebenspunkte unter 90% liegen, 5...25 Sekunde[n] lang an einer Blutung. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Blutende Kreaturen in Reichweite haben -2 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Kreaturen in Reichweite, die weniger als 90% ihrer maximalen Lebenspunkte haben, Zustand Blutung (5...25 Sekunde[n]). Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Zerfetzen",
 				"description": "Erstellt einen Geist der Stufe 1...10. Blutende Kreaturen in seiner Reichweite erleiden eine Lebenspunktdegeneration von -2. Wenn dieser Geist stirbt, leiden alle Kreaturen in seiner Reichweite, die keine Geister sind, und deren Lebenspunkte unter 90% liegen, 5...25 Sekunden lang an einer Blutung. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Blutende Kreaturen in Reichweite haben -2 Lebenspunktdegeneration. Wirkung am Ende: Verursacht bei Kreaturen in Reichweite, die weniger als 90% ihrer maximalen Lebenspunkte haben, Zustand Blutung (5...25 Sekunden). Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Lacerate",
+				"description": "Elite Nature Ritual. Create a level 1...10 spirit. Bleeding creatures within its range suffer -2 Health degeneration. When this spirit dies, all non-spirit creatures within its range that have less than 90% Health begin Bleeding for 5...25 seconds. This spirit dies after 30...240 seconds.",
+				"concise": "Elite Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Bleeding creatures in range have -2 Health degeneration. End effect: inflicts Bleeding condition (5...25 seconds) on creatures in range that have less than 90% Health. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Lacerate",
 				"description": "Create a level 1...10 spirit. Bleeding creatures within its range suffer -2 Health degeneration. When this spirit dies, all non-spirit creatures within its range that have less than 90% Health begin Bleeding for 5...25 seconds. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Bleeding creatures in range have -2 Health degeneration. End effect: Inflicts Bleeding condition (5...25 seconds) on creatures in range that have less than 90% health. Does not affect spirits."
 			},
+			"es": {
+				"name": "Desgarre",
+				"description": "Ritual de la naturaleza de élite. Creas un espíritu de nivel 1...10. Las criaturas dentro de la zona con hemorragia sufrirán -2 de degeneración de salud. Este espíritu muere a los 30...240 segundos. Cuando lo haga, todas las criaturas no espíritus por debajo del 90% de salud sufrirán una hemorragia durante 5...25 segundos.",
+				"concise": "Ritual de la naturaleza de élite. Crea un espíritu de nivel 1...10 (30...240 segundos de vida). Las criaturas dentro de la zona con hemorragia tienen -2 de degeneración de salud: Efecto final: causa hemorragia (5...25 segundos) a las criaturas de la zona que tengan menos del 90% de salud. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Lacération",
+				"description": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10. Les créatures prises de saignement dans sa portée subissent une dégénération de santé de -2. Lorsque cet esprit meurt, toutes les créatures (autres que des esprits) se trouvant dans sa portée et ayant moins de 90% de leur santé sont prises de Saignements pendant 5...25 secondes. Cet esprit meurt au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Les créatures prises de Saignement à portée subissent une dégénération de santé de -2. Effet final : inflige le Saignement (5...25 secondes) aux créatures à portée qui ont moins de 90% de santé. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Lacération",
 				"description": "Crée un esprit de niveau 1...10. Les créatures prises de Saignement dans sa portée subissent une dégénération de santé de -2. Lorsque cet esprit meurt, toutes les créatures (autres que des esprits) dans sa portée et ayant moins de 90% de leur santé sont prises de Saignements pendant 5...25 secondes. Cet esprit meurt au bout de 30...240 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lacerazione",
+				"description": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10. Le creature sanguinanti nel suo raggio subiscono una Degenerazione della Salute di -2. Quando lo Spirito si esaurisce, tutte le creature nella sua portata (Spiriti esclusi) che hanno meno del 90% di Salute iniziano a sanguinare per 5...25 secondo[i]. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Degenerazione Salute delle creature nella portata affette da Emorragia: -2. Effetto al termine: provoca Emorragia (5...25 secondo[i]) alle creature nella portata che hanno meno del 90% di Salute. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ラサレイト",
+				"description": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、「出血」状態になると体力の自然回復力が2減少します。この精霊が消滅すると、この範囲内にいた体力が上限の90%未満の精霊以外の生物は 5...25 秒間「出血」状態になります。この精霊は 30...240 秒後に消滅します。",
+				"concise": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内にいる「出血」状態の生物は、体力の自然回復力が2減少します。終了効果： 範囲内にいる体力が上限の90%未満の生物は、「出血」状態になります (5...25 秒)。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "열상의 영혼",
+				"description": "엘리트 자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼을 중심으로 일정 범위 내에 있는 출혈에 걸린 모든 생물체의 체력 재생이 2 감소합니다. 영혼이 사라질 때 일정 범위 내에 있는 체력이 90% 미만인 영혼이 아닌 생물체는 5...25초 동안 출혈 상태가 됩니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "엘리트 자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 출혈 중인 영혼이 아닌 생물체의 체력 재생이 2 감소합니다. 종료 효과: 체력이 90% 미만인 생물체는 출혈을 일으킵니다.(5...25초)"
+			},
+			"pl": {
+				"name": "Okaleczenie",
+				"description": "Elitarny obrządek natury. Tworzysz 1...10 poziomowego ducha. Krwawiące stworzenia w jego zasięgu otrzymują degenerację żywotności -2. Kiedy duch umrze, wszystkie stworzenia nie-duchy w jego zasięgu posiadające mniej niż 90% żywotności będą krwawić przez 5...25 sek. Ten duch ginie po 30...240 sek.",
+				"concise": "Elitarny obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Krwawiące stworzenia w zasięgu posiadają degenerację żywotności -2. Efekt końcowy: u stworzeń w zasięgu, które mają mniej niż 90% żywotności, wywołuje przypadłość krwawienie (5...25 sek.). Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Lacerate",
+				"description": "Элитный природный ритуал. Создает духа 1...10 уровня. Скорость восстановления здоровья у всех кровоточащих созданий, находящихся в зоне его действия, уменьшается на 2 ед. Когда этот дух умирает, все не являющиеся духами создания, находящиеся в зоне его действия, чей уровень здоровья ниже 90%, будут кровоточить в течение 5...25 сек. Этот дух умирает через 30...240 сек.",
+				"concise": "Элитный природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Кровоточащие создания в зоне действия получают -2 ед. к скорости восстановления здоровья. Эффект окончания: вызывает кровотечение (5...25 сек) у созданий в зоне действия, чей уровень здоровья ниже 90%. Не действует на духов."
+			},
+			"bork": {
+				"name": "Laeceraete-a",
+				"description": "Ileete-a Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Bleedeeng creaetoores veetheen its runge-a sooffffer -2 Heaelt degeneraeshun. Vhee thees spureet deees, aell nun-spureet creaetoores veetheen its runge-a thaet haefe-a less thun 90% Heaelt begeen Bleedeeng fur 5...25 secunds. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Ileete-a Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Bleedeeng creaetoores in runge-a haefe-a -2 Heaelt degeneraeshun. Ind iffffect: inffleects Bleedeeng cundeeshun (5...25 secunds) oon creaetoores in runge-a thaet haefe-a less thun 90% Heaelt. Dues nut aeffffect spureets."
 			}
 		}
 	}

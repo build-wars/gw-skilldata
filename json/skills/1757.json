@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "荆棘之幕",
+				"description": "Flash Enchantment Spell。 在5...25秒之内，当你受到攻击时，攻击者将遭受「致残」症状5...50秒。",
+				"concise": "Flash Enchantment Spell。 在5...25秒之内，当你受到攻击时，攻击者将遭受「致残」症状5...50秒。"
+			},
+			"cht": {
+				"name": "荊棘遮罩",
+				"description": "即刻加持魔法： 施展此加持時，對附近敵人造成 5...50 穿刺傷害。持續 5...25 秒，魔法對你造成的傷害減少 5...35% 。",
+				"concise": "即刻加持魔法： 施展此加持時，對附近敵人造成 5...50 穿刺傷害。持續 5...25 秒，魔法對你造成的傷害減少 5...35% 。"
+			},
 			"de": {
+				"name": "Dornenschleier",
+				"description": "Blitzverzauberung. Wenn Ihr Verzauberung wirkt, erleiden alle Feinde in der Nähe 5...50 Punkt[e] Stichschaden. 5...25 Sekunde[n] lang erleidet Ihr von Zaubern 5...35% weniger Schaden.",
+				"concise": "Blitzverzauberung. (5...25 Sekunde[n].) Zauberschaden um 5...35% verringert. Anfangswirkung: In der Nähe befindliche Feinde erleiden 5...50 Punkt[e] Stichschaden."
+			},
+			"de-guildwiki": {
 				"name": "Dornenschleier",
 				"description": "Wenn Ihr diese Verzauberung wirkt, erleiden alle Feinde in der Nähe 5...50 Stichschaden. 5...25 Sekunden lang erleidet Ihr von Zaubern 5...35% weniger Schaden.",
 				"concise": "(5...25 Sekunden.) Zauberschaden um 5...35% verringert. Anfangswirkung: In der Nähe befindliche Feinde erleiden 5...50 Punkte Stichschaden."
 			},
 			"en": {
 				"name": "Veil of Thorns",
+				"description": "Flash Enchantment Spell. When you cast this enchantment, all nearby foes are struck for 5...50 piercing damage. For 5...25 seconds, you take 5...35% less damage from spells.",
+				"concise": "Flash Enchantment Spell. (5...25 seconds.) Spell damage is reduced by 5...35%. Initial effect: nearby foes are struck for 5...50 piercing damage."
+			},
+			"en-gww": {
+				"name": "Veil of Thorns",
 				"description": "When you cast this enchantment, all nearby foes are struck for 5...50 piercing damage. For 5...25 seconds you take 5...35% less damage from spells.",
 				"concise": "(5...25 seconds.) Spell damage is reduced by 5...35%. Initial Effect: nearby foes are struck for 5...50 piercing damage."
 			},
+			"es": {
+				"name": "Velo de espinas",
+				"description": "Conjuro con encantamiento de destello. Cuando lanzas este encantamiento, todos los enemigos cercanos reciben 5...50 de daño perforante. Durante 5...25 segundos, recibes 5...35% menos daño de conjuros.",
+				"concise": "Conjuro con encantamiento de destello. (5...25 segundos). El daño que recibas de los conjuros se reduce un 5...35%. Efecto inicial: todos los enemigos cercanos reciben 5...50 de daño perforante."
+			},
 			"fr": {
+				"name": "Voile d'épines",
+				"description": "Enchantement instantané. Lorsque vous lancez cet enchantement, tous les ennemis à proximité subissent 5...50 points de dégâts perforants. Pendant 5...25 secondes, les sorts vous infligent 5...35% points de dégâts en moins.",
+				"concise": "Enchantement instantané. (5...25 secondes.) Les dégâts que vous infligent les sorts sont réduits de 5...35%. Effet initial : inflige 5...50 points de dégâts perforants aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Voile d'épines",
 				"description": "Pendant 5...20 secondes, chaque fois que vous êtes frappé par une attaque, votre assaillant souffre d'Infirmité pendant 5...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velo di Spine",
+				"description": "Incantesimo Lampo. Quando lanci questo incantesimo, tutti i nemici nei dintorni subiscono 5...50 danni perforanti. Per 5...25 secondi i tuoi danni da incantesimi subiti diminuiscono di un 5...35%.",
+				"concise": "Incantesimo Lampo. (Secondi: 5...25). Riduzione danni da incantesimo: 5...35%. Effetto iniziale: infligge 5...50 danni perforanti a tutti i nemici nei dintorni."
+			},
+			"jp": {
+				"name": "ソーン ベール",
+				"description": "フラッシュ強化スペル： この強化スペルを詠唱すると、周囲にいるすべての敵に 5...50 のピアス ダメージを与えます。5...25 秒間、スペルにより受けるダメージが 5...35% 減少します。",
+				"concise": "フラッシュ強化スペル： (5...25 秒)スペルにより受けるダメージが 5...35% 減少します。発動効果： 周囲にいる敵に、5...50 のピアス ダメージを与えます。"
+			},
+			"kr": {
+				"name": "가시 덮개",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 이 강화 마법을 시전할 때 부근의 모든 적에게 5...50의 찌르는 대미지를 줍니다. 5...25초 동안 자신이 받는 마법 대미지가 5...35% 감소합니다.",
+				"concise": "순간 시전 강화 마법. (5...25초) 받는 마법 대미지가 5...35%만큼 감소합니다. 초기 효과: 부근의 적들에게 5...50의 찌르는 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Ciernista Zasłona",
+				"description": "Zaklęcie błysku (czar). Kiedy rzucisz to zaklęcie, wszyscy wrogowie w pobliżu otrzymują 5...50 pkt. kłutych obrażeń. Przez 5...25 sek., otrzymujesz 5...35% mniej obrażeń od czarów.",
+				"concise": "Zaklęcie błysku (czar). (5...25 sek.) Obrażenia zadawane czarami są zmniejszone o 5...35%. Efekt początkowy: Wszyscy przeciwnicy w pobliżu otrzymują 5...50 pkt. kłutych obrażeń."
+			},
+			"ru": {
+				"name": "Veil of Thorns",
+				"description": "Мгновенное заклинание-чары. Когда вы активируете эти чары, все противники поблизости получают 5...50 ед. урона колющим оружием. В течение 5...25 сек вы получаете на 5...35% меньше урона от заклинаний.",
+				"concise": "Мгновенное заклинание-чары. (5...25 сек) Урон от заклинаний уменьшен на 5...35%. Начальный эффект: противники поблизости получают 5...50 ед. урона колющим оружием."
+			},
+			"bork": {
+				"name": "Feeel ooff Thurns",
+				"description": "Flaesh Inchuntment Spell. Vhee yuoo caest thees inchuntment, aell neaerby fues aere-a stroock fur 5...50 peeerceeng daemaege-a. Fur 5...25 secunds, yuoo taeke-a 5...35% less daemaege-a frum spells.",
+				"concise": "Flaesh Inchuntment Spell. (5...25 secunds.) Spell daemaege-a is redooced by 5...35%. Ineeteeael iffffect: neaerby fues aere-a stroock fur 5...50 peeerceeng daemaege-a."
 			}
 		}
 	}

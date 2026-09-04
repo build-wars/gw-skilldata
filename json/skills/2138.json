@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Hexer's Vigor",
+				"description": "增益魔法。 For 10 seconds, you have +1...8 Health regeneration. Hexer's Vigor ends if you cast a non-Hex skill.",
+				"concise": "增益魔法。 (10 seconds.) You have +1...8 Health regeneration. Ends if you use a non-hex skill."
+			},
+			"cht": {
+				"name": "施咒者活力",
+				"description": "加持魔法： 持續 10 秒，你獲得 +1...8 體力再生。若你施展任何非降咒魔法時，則施咒者活力終止。",
+				"concise": "加持魔法： 持續 10 秒，你獲得 +1...8 體力再生。若你施展任何非降咒魔法時，則施咒者活力終止。"
+			},
 			"de": {
+				"name": "Lebenskraft des Verhexers",
+				"description": "Verzauberung. 10 Sekunde[n] lang habt Ihr +1...8 Lebenspunktregeneration. Lebenskraft des Verhexers endet, wenn Ihr eine Fertigkeit benutzt, die keine Verhexung ist.",
+				"concise": "Verzauberung. (10 Sekunde[n].) Ihr habt +1...8 Lebenspunktregeneration. Endet, sobald Ihr eine Fertigkeit benutzt, die keine Verhexung ist."
+			},
+			"de-guildwiki": {
 				"name": "Lebenskraft des Verhexers",
 				"description": "10 Sekunden lang habt Ihr +1...8 Lebenspunktregeneration. Lebenskraft des Verhexers endet, wenn Ihr eine Fertigkeit benutzt, die keine Verhexung ist.",
 				"concise": "10 Sekunden: Ihr habt +1...8 Lebenspunktregeneration. <gray>Endet, wenn Ihr eine Fertigkeit verwendet, die keine Verhexung ist.</gray>"
 			},
 			"en": {
 				"name": "Hexer's Vigor",
+				"description": "Enchantment Spell. For 10 seconds, you have +1...8 Health regeneration. Hexer's Vigor ends if you cast a non-hex skill.",
+				"concise": "Enchantment Spell. (10 seconds.) You have +1...8 Health regeneration. Ends if you use a non-hex skill."
+			},
+			"en-gww": {
+				"name": "Hexer's Vigor",
 				"description": "For 10 seconds, you have +1...8 Health regeneration. Hexer's Vigor ends if you cast a non-hex skill.",
 				"concise": "(10 seconds.) You have +1...8 Health regeneration. <gray>Ends if you use a non-hex skill.</gray>"
 			},
+			"es": {
+				"name": "Vigor del hechicero",
+				"description": "Conjuro con encantamiento. Durante 10 segundos, tienes +1...8 de regeneración de salud. Vigor del hechicero acaba si utilizas una habilidad que no sea un maleficio.",
+				"concise": "Conjuro con encantamiento. (10 segundos.) Tienes +1...8 de regeneración de salud. Termina si utilizas una habilidad que no sea un maleficio."
+			},
 			"fr": {
+				"name": "Vigueur du lanceur de maléfices",
+				"description": "Enchantement. Pendant 10 secondes, vous bénéficiez d'une régénération de santé de +1...8. Vigueur du lanceur de maléfices prend fin si vous utilisez une compétence autre qu'un maléfice.",
+				"concise": "Enchantement. (10 secondes.) Vous bénéficiez d'une régénération de santé de +1...8. Prend fin si vous utilisez une compétence autre qu'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Vigueur du lanceur de maléfice",
 				"description": "Pendant 10 secondes, vous bénéficiez d'une régénération de santé de +1...8. Ce sort prend fin si vous lancez un sort autre qu'un maléfice.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vigore del Fattucchiere",
+				"description": "Incantesimo. Per 10 secondi ottieni una Rigenerazione Salute di +1...8. Il Vigore del Fattucchiere termina se utilizzi un'abilità che non rappresenta una fattura.",
+				"concise": "Incantesimo. (Secondi: 10). Rigenerazione Salute: +1...8. Termina se utilizzi un'abilità che non rappresenta una fattura."
+			},
+			"jp": {
+				"name": "ヘクサー ビガー",
+				"description": "強化スペル： 10 秒間、体力の自然回復力が 1...8 増加します。弱体化スペル以外のスキルを詠唱すると、この効果は消失します。",
+				"concise": "強化スペル： (10 秒) 体力の自然回復力が 1...8 増加します。弱体化スペル以外のスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "약화 마법의 활력",
+				"description": "강화 마법. 대상 지정: 없음. 10초 동안 체력 재생이 1...8 증가합니다. 약화 마법이 아닌 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "강화 마법. (10초) 체력 재생이 1...8 증가합니다. 약화 마법이 아닌 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Zdrowie Przeklinającego",
+				"description": "Zaklęcie (czar). Przez 10 sek. posiadasz regenerację żywotności +1...8. Zdrowie Przeklinającego przestanie działać, jeżeli użyjesz umiejętności nie będącej klątwą.",
+				"concise": "Zaklęcie (czar). (10 sek.) Posiadasz regenerację żywotności +1...8. Przestanie działać, jeśli użyjesz umiejętności niebędącej klątwą."
+			},
+			"ru": {
+				"name": "Hexer's Vigor",
+				"description": "Заклинание-чары. В течение 10 сек ваша скорость восстановления здоровья увеличивается на 1...8 ед. Hexer's Vigor заканчивает свое действие, если вы используете любое умение, не являющееся проклятьем.",
+				"concise": "Заклинание-чары. (10 сек) Вы получаете +1...8 ед. к скорости восстановления здоровья. Заканчивается, если вы используете умение, не являющееся проклятьем."
+			},
+			"bork": {
+				"name": "Hexer's Feegur",
+				"description": "Inchuntment Spell. Fur 10 secunds, yuoo haefe-a +1...8 Heaelt regeneraeshun. Hexer's Feegur inds iff yuoo caest a nun-hex skeell.",
+				"concise": "Inchuntment Spell. (10 secunds.) Yuoo haefe-a +1...8 Heaelt regeneraeshun. Inds iff yuoo use-a a nun-hex skeell."
 			}
 		}
 	}

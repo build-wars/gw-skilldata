@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "野牦牛纹章",
+				"description": "纹章。 使你的护甲值提高 10...40点，无法被击倒，但是你的移动速度降低 75%，效果持续 8...20秒。",
+				"concise": "纹章。 使你的护甲值提高10...40点，无法被击倒，但是你的移动速度降低 75%，效果持续 8...20秒。"
+			},
+			"cht": {
+				"name": "石犛牛紋章",
+				"description": "紋章： 持續 8...20 秒，你增加 10...40 防禦而且無法被擊倒，但是你的移動速度降低 75% 。",
+				"concise": "紋章： 持續 8...20 秒，你增加 10...40 防禦而且無法被擊倒，但是你的移動速度降低 75% 。"
+			},
 			"de": {
+				"name": "Dolyak-Siegel",
+				"description": "Siegel. 8...20 Sekunde[n] lang habt Ihr +10...40 Rüstung und könnt nicht zu Boden geworfen werden, aber Eure Bewegungen sind um 75% verlangsamt.",
+				"concise": "Siegel. 8...20 Sekunde[n]: Ihr habt +10...40 Rüstung und könnt nicht zu Boden geworfen werden. Ihr bewegt Euch um 75% langsamer."
+			},
+			"de-guildwiki": {
 				"name": "Dolyak-Siegel",
 				"description": "8...20 Sekunden lang habt Ihr +10...40 Rüstung und könnt nicht zu Boden geworfen werden, aber Eure Bewegungen sind um 75% verlangsamt.",
 				"concise": "8...20 Sekunden: Ihr habt +10...40 Rüstung und könnt nicht zu Boden geworfen werden. <gray>Ihr bewegt Euch um 75% langsamer.</gray>"
 			},
 			"en": {
 				"name": "Dolyak Signet",
+				"description": "Signet. For 8...20 seconds, you have +10...40 armor and cannot be knocked down, but your movement is slowed by 75%.",
+				"concise": "Signet. (8...20 seconds.) You have +10...40 armor and cannot be knocked-down. You move 75% slower."
+			},
+			"en-gww": {
+				"name": "Dolyak Signet",
 				"description": "For 8...20 seconds, you have +10...40 armor and cannot be knocked down, but your movement is slowed by 75%.",
 				"concise": "(8...20 seconds.) You have +10...40 armor and cannot be knocked-down. <gray>You move 75% slower.</gray>"
 			},
+			"es": {
+				"name": "Sello de Dolyak",
+				"description": "Sello. Durante 8...20 segundos, tienes +10...40 de armadura y no te pueden derribar, pero tu movimiento se reduce en un 75%.",
+				"concise": "Sello. (8...20 segundos). Tienes +10...40 de armadura y no se te puede derribar. Te mueves un 75% más despacio."
+			},
 			"fr": {
+				"name": "Sceau de dolyak",
+				"description": "Sceau. Pendant 8...20 secondes, vous gagnez +10...40 de bonus d'armure et vous ne pouvez pas être assommé, mais vos mouvements sont ralentis de 75%.",
+				"concise": "Sceau. (8...20 secondes.) Vous bénéficiez d'un bonus d'armure de +10...40 et ne pouvez pas être assommé[f:\"assommée\"]. Vous vous déplacez 75% moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de dolyak",
 				"description": "Pendant 8...20 secondes, vous gagnez +10...40 de bonus d'armure et vous ne pouvez pas être assommé, mais vos mouvements sont ralentis de 75%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo di Dolyak",
+				"description": "Sigillo. Per 8...20 secondo[i], hai +10...40 armatura e non puoi essere abbattuto, ma i tuoi movimenti vengono rallentati del 75%.",
+				"concise": "Sigillo. (Secondi: 8...20) Armatura: +10...40. Non puoi essere abbattuto. Rallentamento dei tuoi movimenti: 75%."
+			},
+			"jp": {
+				"name": "ドルヤク シグネット",
+				"description": "シグネット： 8...20 秒間、防御力が 10...40 増加し、転倒もしませんが、移動速度は75%減少します。",
+				"concise": "シグネット： (8...20 秒) 防御力が 10...40 増加し、転倒しません。移動速度が75%減少します。"
+			},
+			"kr": {
+				"name": "돌리악 인장",
+				"description": "인장. 대상 지정: 없음. 8...20초 동안 방어력이 10...40 증가하고 넘어지지 않게 됩니다. 이동 속도는 75% 느려집니다.",
+				"concise": "인장. (8...20초) 방어력이 10...40 증가하고, 바닥에 넘어지지 않습니다. 이동 속도가 75% 느려집니다."
+			},
+			"pl": {
+				"name": "Sygnet Doljaka",
+				"description": "Sygnet. Przez 8...20 sek. posiadasz +10...40 pkt. pancerza i nie możesz zostać powalony, ale twoja prędkość ruchu jest zmniejszona o 75%.",
+				"concise": "Sygnet. (8...20 sek.) Posiadasz +10...40 pkt. pancerza i nie możesz zostać powalony. Poruszasz się o 75% wolniej."
+			},
+			"ru": {
+				"name": "Dolyak Signet",
+				"description": "Печать. В течение 8...20 сек ваша защита увеличивается на 10...40 ед., вас нельзя сбить с ног, но вы двигаетесь на 75% медленнее.",
+				"concise": "Печать. (8...20 сек) Вы получаете +10...40 ед. к защите и не можете быть сбиты с ног. Вы двигаетесь на 75% медленнее."
+			},
+			"bork": {
+				"name": "Dulyaek Seegnet",
+				"description": "Seegnet. Fur 8...20 secunds, yuoo haefe-a +10...40 aermur und cunnut be-a knucked doon, boot yuoor mufement is slooed by 75%.",
+				"concise": "Seegnet. (8...20 secunds.) Yuoo haefe-a +10...40 aermur und cunnut be-a knucked-doon. Yuoo mufe-a 75% slooer."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Mending Grip",
+				"description": "咒文。 Target ally is healed for 30...90 Health. If that ally is under the effects of a weapon spell, that ally loses one condition.",
+				"concise": "咒文。 Heals for 30...90. Removes one condition if target ally is under a Weapon spell."
+			},
+			"cht": {
+				"name": "治癒之握",
+				"description": "咒文魔法： 目標盟友被治癒 30...90 體力。若該名盟友擁有武裝魔法效果，該盟友將失去一項病症。",
+				"concise": "咒文魔法： 目標盟友被治癒 30...90 體力。若該名盟友擁有武裝魔法效果，該盟友將失去一項病症。"
+			},
 			"de": {
+				"name": "Genesungsgriff",
+				"description": "Zauber. Der Verbündete (bzw. Ihr selbst) wird um 30...90 Lebenspunkt[e] geheilt. Wenn dieser Verbündete unter den Auswirkungen eines Waffenzaubers leidet, verliert er einen Zustand.",
+				"concise": "Zauber. Heilt um 30...90 Lebenspunkt[e]. Entfernt einen Zustand, falls der Verbündete (bzw. Ihr selbst) unter dem Einfluss eines Waffenzaubers steht."
+			},
+			"de-guildwiki": {
 				"name": "Genesungsgriff",
 				"description": "Der Verbündete (bzw. Ihr selbst) wird um 30...90 Lebenspunkte geheilt. Wenn dieser Verbündete unter den Auswirkungen eines Waffenzaubers leidet<sic/>, verliert er einen Zustand.",
 				"concise": "Heilt um 30...90 Lebenspunkte. Entfernt einen Zustand, falls der Verbündete (bzw. Ihr selbst) unter dem Einfluss eines Waffenzaubers steht."
 			},
 			"en": {
 				"name": "Mending Grip",
+				"description": "Spell. Target ally is healed for 30...90 Health. If that ally is under the effects of a weapon spell, that ally loses one condition.",
+				"concise": "Spell. Heals for 30...90. Removes one condition if target ally is under a Weapon spell."
+			},
+			"en-gww": {
+				"name": "Mending Grip",
 				"description": "Target ally is healed for 30...90 Health. If that ally is under the effects of a weapon spell, that ally loses one condition.",
 				"concise": "Heals for 30...90. Removes one condition if target ally is under a Weapon <sic/> spell."
 			},
+			"es": {
+				"name": "Agarre sanador",
+				"description": "Conjuro. Curas 30...90 de salud al objetivo (un aliado o tú mismo). Si el objetivo está bajo los efectos de un conjuro para arma, perderá una condición.",
+				"concise": "Conjuro. Cura 30...90 de salud. Elimina una condición si el objetivo (un aliado o tú mismo) tiene un conjuro con arma."
+			},
 			"fr": {
+				"name": "Etreinte réparatrice",
+				"description": "Sort. La cible (allié ou vous-même) est soignée de 30...90 points de vie. Si la cible est sous les effets d'un sort d'altération d'arme, elle perd une condition.",
+				"concise": "Sort. Soigne de 30...90 points de vie. Supprime une condition si l'allié visé est sous l'effet d'un sort d'altération d'arme."
+			},
+			"fr-gwiki": {
 				"name": "Etreinte réparatrice",
 				"description": "La cible (allié ou vous-même) est soignée de 20...80 points de vie. Si la cible est sous les effets d'un sort d'altération d'arme, elle perd une condition.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Stretta Riparatrice",
+				"description": "Magia. L'obiettivo (un alleato o te stesso) viene curato di 30...90 Punto[i] Salute; se è sotto gli effetti di una magia altera-arma perde una condizione.",
+				"concise": "Magia. Cure: 30...90. Rimuove una condizione se l'obiettivo alleato è affetto da una magia altera-arma."
+			},
+			"jp": {
+				"name": "メンド グリップ",
+				"description": "スペル： ターゲットした味方は、体力が 30...90 回復します。その味方にウェポン スペルがかけられている場合、かけられている「状態異常」を1個解除します。",
+				"concise": "スペル： 体力が 30...90 回復します。ターゲットした味方にウェポン スペルがかけられている場合、「状態異常」を1個解除します。"
+			},
+			"kr": {
+				"name": "수선의 손길",
+				"description": "마법. 대상 아군의 체력을 30...90 회복시킵니다. 대상이 마법 무기 효과를 받고 있으면, 상태이상 하나를 무효화합니다.",
+				"concise": "마법. 30...90의 체력을 회복시킵니다. 대상이 마법 무기 효과를 받고 있으면, 상태이상 하나를 무효화합니다."
+			},
+			"pl": {
+				"name": "Odnawiający Uchwyt",
+				"description": "Czar. Uzdrawiasz wybranego sojusznika dodając mu 30...90 pkt. żywotności. Jeżeli wybrany sojusznik jest pod działaniem zaczarowanej broni, to traci jedną przypadłość.",
+				"concise": "Czar. Dodaje 30...90 pkt. żywotności. Usuwa jedną przypadłość, jeżeli wybrany sojusznik ma zaczarowaną broń."
+			},
+			"ru": {
+				"name": "Mending Grip",
+				"description": "Заклинание. Выбранный союзник исцеляется на 30...90 ед. здоровья. Если этот союзник находится под воздействием какого-либо оружейного заклинания, с него будет снято одно состояние.",
+				"concise": "Заклинание. Исцеляет на 30...90. Снимает одно состояние, если выбранный союзник находится под воздействием оружейного заклинания"
+			},
+			"bork": {
+				"name": "Mendeeng Greep",
+				"description": "Spell. Taerget aelly is heaeled fur 30...90 Heaelt. Iff thaet aelly is under zee iffffects ooff a veaepun spell, thaet aelly luses oone-a cundeeshun.",
+				"concise": "Spell. Heaels fur 30...90. Remufes oone-a cundeeshun iff taerget aelly is under a Veaepun spell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "欣雷之躯",
+				"description": "精英武咒。 在8秒之内，友方目标将拥有「欣雷之躯」。当敌人对该友方施法时，该法术的冷却时间延长5秒，效果作用于所有敌人。",
+				"concise": "精英武咒。 在8秒之内，友方目标将拥有「欣雷之躯」。当敌人对该友方施法时，该法术的冷却时间延长5秒，效果作用于所有敌人。"
+			},
+			"cht": {
+				"name": "欣雷武裝",
+				"description": "精英武裝魔法： 持續8秒，下一次目標盟友受到的傷害不會超過體力最大值的5%，偷取造成傷害的敵人20...80體力。",
+				"concise": "精英武裝魔法： 持續8秒，下一次目標盟友受到的傷害不會超過體力最大值的5%，偷取造成傷害的敵人20...80體力。"
+			},
 			"de": {
+				"name": "Xinraes Waffe",
+				"description": "Elite-Waffenzauber. Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 8 Sekunde[n] das nächste Mal Schaden durch einen Feind erleidet, ist dieser Schaden auf 5% der maximalen Lebenspunkte des Verbündeten begrenzt und er entzieht dem Gegner bis zu 20...80 Lebenspunkt[e].",
+				"concise": "Elite-Waffenzauber. 8 Sekunde[n]: Wenn der Verbündete (bzw. Ihr selbst) das nächste Mal Schaden durch einen Feind erleidet, ist dieser Schaden auf 5% der maximalen Lebenspunkte des Verbündeten begrenzt und er entzieht dem Feind bis zu 20...80 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Xinraes Waffe",
 				"description": "Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 8 Sekunden das nächste Mal Schaden durch einen Feind erleidet, ist dieser Schaden auf 5% der maximalen Lebenspunkte des Verbündeten begrenzt und er entzieht dem Gegner bis zu 20...80 Lebenspunkte.",
 				"concise": "8 Sekunden: Wenn der Verbündete (bzw. Ihr selbst) das nächste Mal Schaden durch einen Feind erleidet, ist dieser Schaden auf 5% der maximalen Lebenspunkte des Verbündeten begrenzt und er entzieht dem Feind bis zu 20...80 Lebenspunkte."
 			},
 			"en": {
 				"name": "Xinrae's Weapon",
+				"description": "Elite Weapon Spell. For 8 seconds, the next time target ally takes damage from a foe that damage is limited to 5% of that ally's max Health and that ally steals up to 20...80 Health from that foe.",
+				"concise": "Elite Weapon Spell. (8 seconds.) The next time target ally takes damage from a foe, that damage is limited to 5% of target ally's max Health and that ally steals up to 20...80 Health from that foe."
+			},
+			"en-gww": {
+				"name": "Xinrae's Weapon",
 				"description": "For 8 seconds, the next time target ally takes damage from a foe that damage is limited to 5% of that ally's max Health and that ally steals up to 20...80 Health from that foe.",
 				"concise": "(8 seconds). The next time target ally takes damage from a foe, that damage is limited to 5% of target ally's max Health and that ally steals 20...80 Health from that foe."
 			},
+			"es": {
+				"name": "Arma de Xinrae",
+				"description": "Conjuro con arma de élite. Durante 8 segundos, la siguiente vez que el objetivo (un aliado o tú mismo) reciba daño de un enemigo, éste se reduce al 5% de la salud máxima del objetivo, que roba además 20...80 de salud del enemigo.",
+				"concise": "Conjuro con arma de élite. (8 segundos). La siguiente vez que el objetivo (un aliado o tú mismo) reciba daño de un enemigo, éste se reduce al 5% de la salud máxima del objetivo, que roba además 20...80 de salud del enemigo."
+			},
 			"fr": {
+				"name": "Arme de Xinrae",
+				"description": "Sort d'altération d'arme d'élite. Pendant 8 secondes, la prochaine fois que la cible alliée subit des dégâts, ceux-ci sont limités à 5% de sa santé maximum et cet allié vole jusqu'à 20...80 points de vie à son assaillant.",
+				"concise": "Sort d'altération d'arme d'élite. (8 secondes.) La prochaine fois que la cible alliée subit des dégâts, ceux-ci sont limités à 5% de sa santé maximum et cet allié vole jusqu'à 20...80 points de vie à son assaillant."
+			},
+			"fr-gwiki": {
 				"name": "Arme de Xinrae",
 				"description": "Pendant 8 secondes, la prochaine fois que la cible allié subit des dégâts, ceux-ci sont limité a 5% de sa santé maximum et cet allié vole jusqu'à 20...80 points de vie à son assaillant.",
 				"concise": "(8 secondes.) La prochaine fois que la cible alliée subit des dégâts, ceux-ci sont limités à 5% de sa santé maximum et cet allié vole jusqu'à 20...80 points de vie à son assaillant."
+			},
+			"it": {
+				"name": "Arma di Xinrae",
+				"description": "Magia d'Élite Altera-arma. Dura 8 secondo[i]; la prossima volta che l'obiettivo (un alleato o te stesso) riceverà danni da un nemico non potrà riceverne una quantità superiore ad un 5% della propria Salute massima e sottrarrà a quel nemico fino a 20...80 Punto[i] Salute.",
+				"concise": "Magia d'Élite Altera-arma. (Secondi: 8) Quantità massima di danni ricevuta dall'obiettivo alleato la prossima volta che viene attaccato: 5% della propria Salute massima. Salute sottratta dall'obiettivo alleato a quel nemico: fino a 20...80."
+			},
+			"jp": {
+				"name": "ジンライ ウェポン",
+				"description": "エリート ウェポン スペル： 8 秒間、ターゲットした味方が次に敵からの攻撃によるダメージを受けるとき、味方が受けるダメージは体力の上限の 5% 以下になり、その攻撃者から 20...80 の体力を奪い取らせます。",
+				"concise": "エリート ウェポン スペル： (8 秒) ターゲットした味方が次に敵からダメージを受けると、そのダメージはターゲットの体力の上限の 5% 以下になり、攻撃者から最大 20...80 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "킨라이의 무기",
+				"description": "엘리트 마법 무기. 대상 지정: 아군. 8초 동안 대상이 적에게서 받는 대미지는 대상의 최대 체력의 5%를 넘지 않고, 대상은 그 적에게서 20...80의 체력을 뺏습니다.",
+				"concise": "엘리트 마법 무기. (8초) 대상이 적에게서 받는 대미지는 대상의 최대 체력의 5%를 넘지 않고, 대상은 그 적에게서 20...80의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Oręż Xinrae",
+				"description": "Elitarny czar z broni. Przez 8 sek., następnym razem, kiedy wybrany sojusznik otrzyma obrażenia od przeciwnika, te obrażenia zostają zmniejszone o 5% maksymalnej żywotności tego sojusznika i sojusznik ten wykrada do 20...80 pkt. żywotności od przeciwnika.",
+				"concise": "Elitarny czar z broni. (8 sek.) Kiedy następnym razem wybrany sojusznik otrzyma obrażenia od przeciwnika, obrażenia te zostają ograniczone do 5% maksymalnej żywotności tego sojusznika, sojusznik wykrada też przeciwnikowi 20...80 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Xinrae's Weapon",
+				"description": "Элитное оружейное заклинание. В течение 8 сек в следующий раз, когда выбранный союзник получит урон от противника, этот урон будет ограничен до 5% от максимального запаса здоровья этого союзника, а сам союзник похитит до 20...80 ед. здоровья у атаковавшего противника.",
+				"concise": "Элитное оружейное заклинание. (8 сек) В следующий раз, когда выбранный союзник получит урон от противника, этот урон будет ограничен до 5% от максимального запаса здоровья этого союзника, а сам союзник похитит до 20...80 ед. здоровья у атаковавшего противника."
+			},
+			"bork": {
+				"name": "Xeenraee-a's Veaepun",
+				"description": "Ileete-a Veaepun Spell. Fur 8 secunds, zee next teeme-a taerget aelly taekes daemaege-a frum a fue-a thaet daemaege-a is leemeeted tu 5% ooff thaet aelly's maex Heaelt und thaet aelly steaels up tu 20...80 Heaelt frum thaet fue-a.",
+				"concise": "Ileete-a Veaepun Spell. (8 secunds.) Zee next teeme-a taerget aelly taekes daemaege-a frum a fue-a, thaet daemaege-a is leemeeted tu 5% ooff taerget aelly's maex Heaelt und thaet aelly steaels up tu 20...80 Heaelt frum thaet fue-a."
 			}
 		}
 	}

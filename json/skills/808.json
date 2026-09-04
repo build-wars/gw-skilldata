@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "夺命",
+				"description": "精英负面魔法。 在30秒之内，使目标敌人遭受1...5点「生命衰减」。如果敌人因「夺命」而死亡，你将获得5...15点能量值。",
+				"concise": "精英负面魔法。 在30秒之内，使目标敌人遭受1...5点「生命衰减」。如果敌人因「夺命」而死亡，你将获得5...15点生命值。"
+			},
+			"cht": {
+				"name": "索命印記",
+				"description": "精英降咒魔法： 持續 30 秒，使目標敵人遭受 1...5 體力衰減。若該目標在此「降咒」的影響下死亡，你獲得 5...15 能量。",
+				"concise": "精英降咒魔法： 持續 30 秒，使目標敵人遭受 1...5 體力衰減。若該目標在此「降咒」的影響下死亡，你獲得 5...15 能量。"
+			},
 			"de": {
+				"name": "Zeichen des Schnitters",
+				"description": "Elite-Verhexung. 30 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...5. Wenn er stirbt, während er mit Zeichen des Schnitters verhext ist, erhaltet Ihr 5...15 Energiepunkt[e].",
+				"concise": "Elite-Verhexung. 30 Sekunde[n]: Verursacht -1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkt[e], falls der Gegner an dieser Verhexung stirbt."
+			},
+			"de-guildwiki": {
 				"name": "Zeichen des Schnitters",
 				"description": "30 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...5. Wenn er stirbt, während er mit Zeichen des Schnitters verhext ist, erhaltet Ihr 5...15 Energiepunkte.",
 				"concise": "30 Sekunden: Verursacht -1...5 Lebenspunktdegeneration. Ihr erhaltet 5...15 Energiepunkte, falls der Gegner an dieser Verhexung stirbt."
 			},
 			"en": {
 				"name": "Reaper's Mark",
+				"description": "Elite Hex Spell. For 30 seconds, target foe suffers -1...5 Health degeneration. If that foe dies while hexed with Reaper's Mark, you gain 5...15 Energy.",
+				"concise": "Elite Hex Spell. (30 seconds.) Causes -1...5 Health degeneration. You gain 5...15 Energy if target foe dies while suffering from this hex."
+			},
+			"en-gww": {
+				"name": "Reaper's Mark",
 				"description": "For 30 seconds, target foe suffers -1...5 Health degeneration. If that foe dies while hexed with Reaper's Mark, you gain 5...15 Energy.",
 				"concise": "(30 seconds.) Causes -1...5 Health degeneration. You gain 5...15 Energy if target foe dies while suffering from this hex."
 			},
+			"es": {
+				"name": "Marca del segador",
+				"description": "Conjuro con maleficio de élite. Durante 30 segundos, el enemigo objetivo sufre una degeneración de salud de -1...5. Si muere mientras tenga la Marca del segador, ganarás 5...15 de energía.",
+				"concise": "Conjuro con maleficio de élite. (30 segundos). Causa -1...5 de degeneración de salud. Ganas 5...15 de energía si el enemigo objetivo muere mientras tenga este maleficio."
+			},
 			"fr": {
+				"name": "Empreinte du Faucheur",
+				"description": "Maléfice d'élite. Pendant 30 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5. Si elle meurt sous l'effet de l'Empreinte du Faucheur, vous bénéficiez de 5...15 points d'énergie.",
+				"concise": "Maléfice d'élite. (30 secondes.) Provoque une dégénération de santé de -1...5. Vous gagnez 5...15 points d'énergie si la cible ennemie meurt lorsqu'elle souffre de ce maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Empreinte du Faucheur",
 				"description": "Pendant 30 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5. Si elle meurt sous l'effet de lEmpreinte du Faucheur'', vous bénéficiez de 5...15 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Segno del Mietitore",
+				"description": "Fattura d'Élite. Per 30 secondo[i], l'obiettivo nemico subisce una Degenerazione della Salute di -1...5. Se muore mentre è affetto dalla fattura Segno del Falciatore, ottieni 5...15 Punto[i] Energia.",
+				"concise": "Fattura d'Élite. (Secondi: 30) Degenerazione Salute: -1...5. Ottieni 5...15 Punto[i] Energia se l'obiettivo nemico muore mentre è affetto da questa fattura."
+			},
+			"jp": {
+				"name": "リーパー マーク",
+				"description": "エリート弱体化スペル： 30 秒間、ターゲットした敵は体力の自然回復力が 1...5 減少します。その敵がこのスペルの効果持続中に死んだ場合、プレイヤーは 5...15 のエネルギーを獲得します。",
+				"concise": "エリート弱体化スペル： (30 秒) 体力の自然回復力が 1...5 減少します。この効果の持続中にターゲットした敵が戦闘不能になると、プレイヤーは 5...15 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "사신의 표식",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 30초 동안 대상의 체력 재생이 1...5 감소합니다. 대상이 사신의 표식에 걸린 상태로 죽으면 자신은 5...15의 에너지를 얻습니다.",
+				"concise": "엘리트 약화 마법. (30초) 체력 재생을 1...5 감소시킵니다. 대상이 이 약화 마법에 걸린 채 죽으면 자신은 5...15의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Piętno Żniwiarza",
+				"description": "Elitarna klątwa (czar). Przez 30 sek. wybrany przeciwnik posiada degenerację żywotności -1...5. Jeżeli ten przeciwnik umrze będąc pod działaniem Piętna Żniwiarza, otrzymujesz 5...15 pkt. energii.",
+				"concise": "Elitarna klątwa (czar). (30 sek.) Powoduje degenerację żywotności -1...5. Otrzymujesz 5...15 pkt. energii, jeżeli wybrany przeciwnik umrze, będąc pod działaniem tej klątwy."
+			},
+			"ru": {
+				"name": "Reaper's Mark",
+				"description": "Элитное заклинание-проклятье. В течение 30 сек скорость восстановления здоровья выбранного противника уменьшается на 1...5 ед. Если этот противник умрет, находясь под воздействием этого проклятья, вы получите 5...15 ед. энергии.",
+				"concise": "Элитное заклинание-проклятье. (30 сек) Уменьшает на 1...5 ед. скорость восстановления здоровья. Вы получаете 5...15 ед. энергии, если выбранный противник умирает, находясь под действием этого проклятья."
+			},
+			"bork": {
+				"name": "Reaeper's Maerk",
+				"description": "Ileete-a Hex Spell. Fur 30 secunds, taerget fue-a sooffffers -1...5 Heaelt degeneraeshun. Iff thaet fue-a deees vheele-a hexed veet Reaeper's Maerk, yuoo gaeeen 5...15 Inergy.",
+				"concise": "Ileete-a Hex Spell. (30 secunds.) Cooses -1...5 Heaelt degeneraeshun. Yuoo gaeeen 5...15 Inergy iff taerget fue-a deees vheele-a sooffffereeng frum thees hex."
 			}
 		}
 	}

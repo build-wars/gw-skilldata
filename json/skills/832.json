@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "操纵血肉傀儡",
+				"description": "精英咒文。 消耗一具最近的尸体，召唤一个3...25级血肉傀儡。血肉傀儡死亡后留下1...4具可被利用的尸体。同时只能存在一具血肉傀儡。",
+				"concise": "精英咒文。 制造一个3...25级血肉傀儡，其在死亡后留下1...4具可被利用的尸体。消耗一具新鲜尸体。同时只能存在一具血肉傀儡。"
+			},
+			"cht": {
+				"name": "操縱血肉高崙",
+				"description": "精英咒文魔法： Exploit nearest corpse to animate a level 3...25 Flesh Golem. The Flesh Golem leaves 1...4 exploitable corpses. You can have only one Flesh Golem at a time.",
+				"concise": "精英咒文魔法： Creates a level 3...25 flesh golem which leaves 1...4 fresh corpses when it dies. Exploits a fresh corpse. You can have only one flesh golem at a time."
+			},
 			"de": {
+				"name": "Fleischgolem beleben",
+				"description": "Elite-Zauber. Nutzt die nächstbeste Leiche, um einen Fleischgolem der Stufe 3...25 zu animieren. Der Fleischgolem hinterlässt 1...4 nutzbare Leichen. Ihr könnt immer nur einen Fleischgolem gleichzeitig haben.",
+				"concise": "Elite-Zauber. Erzeugt einen Fleischgolem der Stufe 3...25, der nach dem Tod 1...4 nutzbare Leichen hinterlässt. Nutzt eine frische Leiche. ihr könnt immer nur einen Fleischgolem gleichzeitig haben."
+			},
+			"de-guildwiki": {
 				"name": "Fleischgolem beleben",
 				"description": "Nutzt die nächstbeste Leiche, um einen Fleischgolem der Stufe 3...25 zu animieren. Der Fleischgolem hinterlässt 1...4 nutzbare Leichen. Ihr könnt immer nur einen Fleischgolem gleichzeitig haben.",
 				"concise": "Erzeugt einen Fleischgolem der Stufe 3...25, der nach dem Tod 1...4 nutzbare Leichen zurücklässt. <gray>Nutzt eine frische Leiche. Ihr könnt immer nur einen Fleischgolem gleichzeitig haben.</gray>"
 			},
 			"en": {
 				"name": "Animate Flesh Golem",
+				"description": "Elite Spell. Exploit nearest corpse to animate a level 3...25 Flesh Golem. The Flesh Golem leaves 1...4 exploitable corpses. You can have only one Flesh Golem at a time.",
+				"concise": "Elite Spell. Creates a level 3...25 flesh golem which leaves 1...4 fresh corpses when it dies. Exploits a fresh corpse. You can have only one flesh golem at a time."
+			},
+			"en-gww": {
+				"name": "Animate Flesh Golem",
 				"description": "Exploit nearest corpse to animate a level 3...25 Flesh Golem. The Flesh Golem leaves 1...4 exploitable corpse[s]. You can have only one Flesh Golem at a time.",
 				"concise": "Creates a level 3...25 flesh golem which leaves 1...4 fresh corpse[s] when it dies. <gray>Exploits a fresh corpse. You can have only one flesh golem at a time.</gray>"
 			},
+			"es": {
+				"name": "Animar gólem de carne",
+				"description": "Conjuro de élite. Explotas al cadáver más cercano para animar un Gólem de carne de nivel 3...25, que dejará 1...4 cadáveres aprovechables. Solo podrás tener un Gólem de carne a la vez.",
+				"concise": "Conjuro de élite. Crea un Gólem de carne de nivel 3...25 que deja 1...4 cadáveres recientes al morir. Explotas un cadáver reciente. No puedes tener más de un Gólem de carne simultáneamente."
+			},
 			"fr": {
+				"name": "Animation du Golem de chair",
+				"description": "Sort d'élite. Utilisez le cadavre le plus proche pour animer un Golem de chair de niveau 3...25. Ce Golem de chair laisse 1...4 cadavres que vous pourrez utiliser. Vous ne pouvez disposer que d'un seul Golem de chair à la fois.",
+				"concise": "Sort d'élite. Crée un golem de chair de niveau 3...25 qui laisse 1...4 cadavres récents lorsqu'il meurt. Exploite un cadavre récent. Vous ne pouvez avoir qu'un seul golem de chair à la fois."
+			},
+			"fr-gwiki": {
 				"name": "Animation du Golem de chair",
 				"description": "Utilisez le cadavre le plus proche pour animer un Golem de chair de niveau 3...25 dont vous pourrez utiliser le cadavre. Vous ne pouvez disposer que d'un seul Golem de chair à la fois.",
 				"concise": "Crée un golem de chair de niveau 3...25 qui laisse un cadavre récent lorsqu'il meurt. <gray>Exploite un cadavre récent. Vous ne pouvez avoir qu'un seul golem de chair à la fois.</gray>"
+			},
+			"it": {
+				"name": "Anima Golem di Carne",
+				"description": "Magia d'Élite. Sfrutta il cadavere più vicino per animare un Golem di carne di livello 3...25. Il Golem lascia 1...4 cadavere/i che puoi sfruttare. Puoi avere un Golem di carne alla volta.",
+				"concise": "Magia d'Élite. Crea un Golem di carne di liv. 3...25 che lascia 1...4 cadavere/i fresco/hi quando muore. Sfrutta un cadavere fresco. Puoi avere solo un golem di carne alla volta."
+			},
+			"jp": {
+				"name": "アニメート フレッシュ ゴーレム",
+				"description": "エリート スペル： 最寄りの死体を利用して、レベル3...25のフレッシュゴーレムを活気づけます。フレッシュゴーレムは1...4体の利用可能な死体を残します。フレッシュゴーレムは一度に1体しか存在できません。",
+				"concise": "エリート スペル： 死亡時に1...4体の新鮮な死体を残すレベル3...25のフレッシュゴーレムを生成します。新鮮な死体を利用します。一度に生成できるフレッシュゴーレムは1体のみです。"
+			},
+			"kr": {
+				"name": "살점붙은 골렘",
+				"description": "엘리트 마법. 대상 지정: 없음. 가장 가까이 있는 시체를 3...25레벨의 살점붙은 골렘으로 만듭니다. 골렘은 1...4개의 이용 가능한 시체를 남깁니다. 살점붙은 골렘은 동시에 하나만 부릴 수 있습니다.",
+				"concise": "엘리트 마법. 3...25레벨의 살점붙은 골렘을 만듭니다. 골렘은 1...4개의 신선한 시체를 남깁니다. 신선한 시체를 이용해야 합니다. 살점붙은 골렘은 동시에 하나만 부릴 수 있습니다."
+			},
+			"pl": {
+				"name": "Ożywienie Golema Tkankowego",
+				"description": "Elitarny czar. Wykorzystaj najbliższe zwłoki, by ożywić golema tkankowego na 3...25 poziomie. Golem tkankowy pozostawia 1...4 szt. zwłok, które można wykorzystać. Możesz mieć tylko jednego golema tkankowego naraz.",
+				"concise": "Elitarny czar. Tworzy golema tkankowego na poziomie 3...25, który po śmierci zostawia 1...4 szt. świeżych ciał. Zużywa świeże ciało. W danej chwili możesz mieć tylko jednego golema tkankowego."
+			},
+			"ru": {
+				"name": "Animate Flesh Golem",
+				"description": "Элитное заклинание. Использует ближайший труп для создания Flesh Golem 3...25-го уровня. Flesh Golem оставляет (1...4), которые можно использовать. Одновременно у вас может быть только один Flesh Golem.",
+				"concise": "Элитное заклинание. Создает Flesh golem 3...25-го уровня, который после смерти оставляет свежие трупы (1...4). Использует свежий труп. Единовременно у вас может быть только один Flesh golem."
+			},
+			"bork": {
+				"name": "Uneemaete-a Flesh Gulem",
+				"description": "Ileete-a Spell. Ixplueet neaerest curpse-a tu uneemaete-a a lefel 3...25 Flesh Gulem. Zee Flesh Gulem leaefes 1...4 ixplueetaeble-a curpse-as. Yuoo cun haefe-a oonly oone-a Flesh Gulem aet a teeme-a.",
+				"concise": "Ileete-a Spell. Creaetes a lefel 3...25 flesh gulem vheech leaefes 1...4 fresh curpse-as vhee it deees. Ixplueets a fresh curpse-a. Yuoo cun haefe-a oonly oone-a flesh gulem aet a teeme-a."
 			}
 		}
 	}

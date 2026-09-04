@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "流言",
+				"description": "精英缚灵仪式。 创造一只等级为1...12的流言缚灵。每当缚灵攻击命中原地站立的敌人时，敌人将被击倒同时缚灵失去 70...50点 生命值。缚灵在 30...60秒 后自然消失。",
+				"concise": "精英缚灵仪式。 如果攻击命中非移动中的敌人，该名敌人被击倒同时缚灵失去 70...50 生命。"
+			},
+			"cht": {
+				"name": "流浪",
+				"description": "精英縛靈儀式： 創造等級 1...12 的流浪縛靈。每當縛靈攻擊命中非移動中的敵人時，敵人將被擊倒同時縛靈失去 70...50 體力。縛靈在 30...60 秒後消失。",
+				"concise": "精英縛靈儀式： 創造等級 1...12 的流浪縛靈。每當縛靈攻擊命中非移動中的敵人時，敵人將被擊倒同時縛靈失去 70...50 體力。縛靈在 30...60 秒後消失。"
+			},
 			"de": {
+				"name": "Fernweh",
+				"description": "Elite-Binderitual. Erstellt einen Geist der Stufe 1...12. Jedes Mal, wenn ein Angriff dieses Geistes einen Gegner trifft, der sich nicht bewegt, wird dieser zu Boden geworfen und der Geist verliert 70...50 Lebenspunkt[e]. Dieser Geist stirbt nach 30...60 Sekunde[n].",
+				"concise": "Elite-Binderitual. Erstellt einen Geist der Stufe 1...12 (30...60 Sekunde[n] Lebensdauer). Seine Angriffe werfen Feinde, die sich nicht bewegen, zu Boden. Bodenwurfkosten: Der Geist verliert 70...50 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Fernweh",
 				"description": "Erstellt einen Geist der Stufe 1...12. Jedes Mal, wenn ein Angriff dieses Geistes einen Gegner trifft, der sich nicht bewegt, wird dieser zu Boden geworfen und der Geist verliert 70...50 Lebenspunkte. Dieser Geist stirbt nach 30...60 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...12 (30...60 Sekunden Lebensdauer). Seine Angriffe werfen Feinde, die sich nicht bewegen, zu Boden. <gray>Bodenwurfkosten: Der Geist verliert 70...50 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Wanderlust",
+				"description": "Elite Binding Ritual. Create a level 1...12 spirit. Whenever this spirit's attack hits a stationary foe, that foe is knocked down and the spirit loses 70...50 Health. This spirit dies after 30...60 seconds.",
+				"concise": "Elite Binding Ritual. Creates a level 1...12 spirit (30...60 second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses 70...50 Health."
+			},
+			"en-gww": {
+				"name": "Wanderlust",
 				"description": "Create a level 1...12 spirit. Whenever this spirit's attack hits a stationary foe, that foe is knocked down and the spirit loses 70...50 Health. This spirit dies after 30...60 seconds.",
 				"concise": "Creates a level 1...12 spirit (30...60 second lifespan). Its attacks against stationary foes cause knock-down. <gray>Knock-down cost: this spirit loses 70...50 Health.</gray>"
 			},
+			"es": {
+				"name": "Trotamundeo",
+				"description": "Ritual con espíritus de élite. Creas un espíritu de nivel 1...12. Cuando ataque a un enemigo parado, éste será derribado y el espíritu perderá 70...50 de salud. Morirá a los 30...60 segundos.",
+				"concise": "Ritual con espíritus de élite. Crea un espíritu de nivel 1...12 (30...60 segundos de vida). Sus ataques contra los enemigos parados causan derribo.Coste del derribo: el espíritu pierde 70...50 de salud."
+			},
 			"fr": {
+				"name": "Voyage",
+				"description": "Rituel d'asservissement d'élite. Crée un esprit de niveau 1...12. Chaque fois que l'attaque de cet esprit touche un ennemi immobile, cet ennemi est assommé et l'esprit perd 70...50 points de vie. Il meurt au bout de 30...60 secondes.",
+				"concise": "Rituel d'asservissement d'élite. Crée un esprit de niveau 1...12 (durée de vie de 30...60 secondes). Ses attaques peuvent assommer les ennemis immobiles. Coût de l'assommement : cet esprit perd 70...50 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Voyage",
 				"description": "Crée un esprit de niveau 1...12. Chaque fois que l'attaque de cet esprit touche un ennemi immobile, celui-ci est assommé et l'esprit perd 70...50 points de vie. Il meurt au bout de 30...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito Vagabondo",
+				"description": "Rituale Incatenante d'Élite. Crei uno Spirito di livello 1...12. Ogni volta che i suoi attacchi colpiscono un nemico fermo, lo abbattono e lo Spirito perde 70...50 Punto[i] Salute. Questo Spirito si esaurisce dopo 30...60 secondo[i].",
+				"concise": "Rituale Incatenante d'Élite. Crei uno Spirito di livello 1...12 (in vita per 30...60 secondo[i]). I suoi attacchi contro i nemici fermi provocano abbattimento. Costo dell'abbattimento: questo Spirito perde 70...50 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "ワンダーラスト",
+				"description": "エリート バインド リチュアル： レベル 1...12 の精霊を召喚します。この精霊が動いていない敵を攻撃するとその敵は転倒し、精霊は体力が 70...50 減少します。この精霊は 30...60 秒後に消滅します。",
+				"concise": "エリート バインド リチュアル： レベル 1...12 の精霊を召喚します (30...60 秒)。この精霊が動いていない敵を攻撃すると、その敵は転倒します。転倒コスト： 精霊の体力が 70...50 減少します。"
+			},
+			"kr": {
+				"name": "방랑의 영혼",
+				"description": "엘리트 영혼 결속. 대상 지정: 없음. 1...12레벨의 영혼을 소환합니다. 영혼의 공격이 멈춰 있는 적에게 성공할 때마다 그 적은 넘어지고 영혼은 70...50의 체력을 잃습니다. 영혼은 30...60초 후 사라집니다.",
+				"concise": "엘리트 영혼 결속. 1...12레벨 영혼을 소환합니다.(수명: 30...60초) 멈춰 있는 적을 바닥에 넘어뜨립니다. 넘어뜨린 대가: 영혼이 70...50의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Żądza Wędrowania",
+				"description": "Elitarny rytuał spętania. Tworzysz 1...12 poziomowego ducha. Za każdym razem, kiedy ten duch trafia stojącego w miejscu przeciwnika, ten przeciwnik zostaje powalony, a duch traci 70...50 pkt. żywotności. Duch ginie po 30...60 sek.",
+				"concise": "Elitarny rytuał spętania. Tworzy ducha na poziomie 1...12 (czas życia 30...60 sek.). Jego ataki powalają przeciwników stojących w miejscu. Koszt powalenia: ten duch traci 70...50 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Wanderlust",
+				"description": "Элитный связующий ритуал. Создает духа 1...12 уровня. Каждый раз, когда этот дух проводит успешную атаку по неподвижному противнику, этот противник будет сбит с ног, а дух потеряет 70...50 ед. здоровья. Этот дух умирает через 30...60 сек.",
+				"concise": "Элитный связующий ритуал. Создает духа 1...12 уровня (30...60 сек жизни). Его атаки сбивают с ног неподвижных противников. Цена сбивания с ног: этот дух теряет 70...50 ед. здоровья."
+			},
+			"bork": {
+				"name": "Vunderloost",
+				"description": "Ileete-a Beendeeng Reetooael. Creaete-a a lefel 1...12 spureet. Vhenefer thees spureet's aettaeck heets a staeshunaery fue-a, thaet fue-a is knucked doon und zee spureet luses 70...50 Heaelt. Thees spureet deees aeffter 30...60 secunds.",
+				"concise": "Ileete-a Beendeeng Reetooael. Creaetes a lefel 1...12 spureet (30...60 secund leeffespun). Its aettaecks aegaeeenst staeshunaery fues coose-a knuck-doon. Knuck-doon cust: thees spureet luses 70...50 Heaelt."
 			}
 		}
 	}

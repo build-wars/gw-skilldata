@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "心不在焉",
+				"description": "负面魔法。 在30秒之内，使目标敌人有25%的几率攻击失误，每当其攻击失误时，你将获得1...3点能量。",
+				"concise": "负面魔法。 使目标敌人的命中率降低 25%，每当其攻击未命中时，你将获得 1...3点 能量，效果持续 30秒。"
+			},
+			"cht": {
+				"name": "失誤心靈",
+				"description": "降咒魔法： 持續 30 秒，使目標敵人有 25% 的機率發生攻擊「失誤」。而每當敵人攻擊失敗時，你將得到 1...3 能量。",
+				"concise": "降咒魔法： 持續 30 秒，使目標敵人有 25% 的機率發生攻擊「失誤」。而每當敵人攻擊失敗時，你將得到 1...3 能量。"
+			},
 			"de": {
+				"name": "Geist des Versagens",
+				"description": "Verhexung. 30 Sekunden lang besteht eine 25%ige Wahrscheinlichkeit, dass der Gegner bei seinen Angriffen nicht trifft. Ihr erhaltet für jeden misslungenen Angriff 1...3 Energiepunkt[e].",
+				"concise": "Verhexung. 30 Sekunden: Die Angriffe des Gegners gehen mit 25%iger Wahrscheinlichkeit daneben. Ihr erhaltet für jeden misslungenen Angriff des Gegners 1...3 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Geist des Versagens",
 				"description": "30 Sekunden lang besteht eine 25%ige Wahrscheinlichkeit, dass der Gegner bei seinen Angriffen nicht trifft. Ihr erhaltet für jeden misslungenen Angriff 1...3 Energiepunkte.",
 				"concise": "30 sekunden: Die Angriffe des Gegners gehen mit 25%iger Wahrscheinlichkeit daneben. Ihr erhaltet für jeden misslungenen Angriff des Gegners 1...3 Energiepunkte."
 			},
 			"en": {
 				"name": "Spirit of Failure",
+				"description": "Hex Spell. For 30 seconds, target foe has a 25% chance to miss with attacks. You gain 1...3 Energy whenever that foe fails to hit in combat.",
+				"concise": "Hex Spell. (30 seconds.) Target foe has 25% chance to miss. You gain 1...3 Energy whenever this foe misses."
+			},
+			"en-gww": {
+				"name": "Spirit of Failure",
 				"description": "For 30 seconds, target foe has a 25% chance to miss with attacks. You gain 1...3 Energy whenever that foe fails to hit in combat.",
 				"concise": "(30 seconds.) Target foe has 25% chance to miss. You gain 1...3 Energy whenever this foe misses."
 			},
+			"es": {
+				"name": "Espíritu del fracaso",
+				"description": "Conjuro con maleficio. Durante 30 segundos, el enemigo objetivo tiene un 25% de posibilidades de fallar en sus ataques. Ganas 1...3 de energía por cada fallo.",
+				"concise": "Conjuro con maleficio. (30 segundos). El enemigo objetivo tiene un 25% de probabilidades de fallar. Ganas 1...3 de energía si este enemigo falla."
+			},
 			"fr": {
+				"name": "Esprit de l'échec",
+				"description": "Maléfice. Pendant 30 secondes, l'ennemi visé a 25% de chances de rater ses attaques. Vous gagnez 1...3 points d'énergie pour chaque attaque que l'ennemi manque lors du combat.",
+				"concise": "Maléfice. (30 secondes.) L'ennemi visé a 25% de chances de manquer. Vous gagnez 1...3 points d'énergie chaque fois qu'il manque."
+			},
+			"fr-gwiki": {
 				"name": "Esprit de l'échec",
 				"description": "Pendant 30 secondes, l'ennemi visé a 25% de chances de rater ses attaques. Vous gagnez 1...3 point(s) d'énergie pour chaque attaque que l'ennemi manque lors du combat.",
 				"concise": "(30 secondes.) L'ennemi visé a 25% de chances de manquer. Vous gagnez 1...3 point(s) d'énergie chaque fois qu'il manque."
+			},
+			"it": {
+				"name": "Spirito del Fallimento",
+				"description": "Fattura. Per 30 secondi, l'obiettivo nemico ha il 25% di probabilità di mancare il bersaglio quando attacca; tu ottieni 1...3 Punto[i] Energia per ogni suo colpo andato a vuoto.",
+				"concise": "Fattura. (Secondi: 30) Probabilità che l'obiettivo nemico manchi il bersaglio: 25%. Ottieni 1...3 Punto[i] Energia ogni volta che questo nemico manca il bersaglio."
+			},
+			"jp": {
+				"name": "フェイリア スピリット",
+				"description": "弱体化スペル： 30秒間、ターゲットした敵は25%の確率で攻撃に失敗します。そのたびにプレイヤーは 1...3 のエネルギーを獲得します。",
+				"concise": "弱体化スペル： (30秒) ターゲットした敵は25%の確率で攻撃に失敗します。攻撃に失敗するたびに、プレイヤーは 1...3 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "실패의 그림자",
+				"description": "약화 마법. 대상 지정: 적. 30초 동안 대상은 25% 확률로 공격에 실패합니다. 대상이 공격에 실패할 때마다 자신은 1...3의 에너지를 얻습니다.",
+				"concise": "약화 마법. (30초) 대상은 25%의 확률로 공격에 실패합니다. 대상이 공격에 실패할 때마다 자신은 1...3의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Duch Porażki",
+				"description": "Klątwa (czar). Przez 30 sek., wybrany przeciwnik ma 25% szans na nieudany atak. Zyskujesz 1...3 pkt. energii za każdym razem, kiedy ten przeciwnik nie trafi.",
+				"concise": "Klątwa (czar). (30 sek.) Wybrany przeciwnik ma 25% szans na nietrafianie. Ty otrzymujesz 1...3 pkt. energii, za każdym razem, kiedy ten przeciwnik nie trafia."
+			},
+			"ru": {
+				"name": "Spirit of Failure",
+				"description": "Заклинание-проклятье. В течение 30 сек выбранный противник получает 25%-й шанс промахнуться в атаке. Вы получаете 1...3 ед. энергии каждый раз, когда этот противник совершает промах в бою.",
+				"concise": "Заклинание-проклятье. (30 сек) Выбранный противник получает 25%-й шанс промахнуться. Вы получаете 1...3 ед. энергии при каждом его промахе."
+			},
+			"bork": {
+				"name": "Spureet ooff Faeeeloore-a",
+				"description": "Hex Spell. Fur 30 secunds, taerget fue-a haes a 25% chunce-a tu meess veet aettaecks. Yuoo gaeeen 1...3 Inergy vhenefer thaet fue-a faeeels tu heet in cumbaet.",
+				"concise": "Hex Spell. (30 secunds.) Taerget fue-a haes 25% chunce-a tu meess. Yuoo gaeeen 1...3 Inergy vhenefer thees fue-a meesses."
 			}
 		}
 	}

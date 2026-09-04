@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "波动护甲",
+				"description": "增益魔法。 你获得+20...80护甲，持续12秒。你施放法术时，念力盔甲刷新12秒持续时间。",
+				"concise": "增益魔法。 （12秒）你获得+20...80护甲。刷新奖励：释放一个法术。"
+			},
+			"cht": {
+				"name": "魔動護甲",
+				"description": "加持魔法： For 12 seconds, you gain +20...80 armor. Whenever you cast a spell, Kinetic Armor is renewed for 12 seconds.",
+				"concise": "加持魔法： (12 seconds.) You have +20...80 armor. Renewal bonus: cast a spell."
+			},
 			"de": {
+				"name": "Kinetik-Rüstung",
+				"description": "Verzauberung. Ihr erhaltet für 12 Sekunden +20...80 Rüstung. Jedes Mal, wenn Ihr einen Zauber wirkt, wird Kinetische Rüstung für 12 Sekunden erneuert.",
+				"concise": "Verzauberung. (12 Sekunden.) Ihr habt +20...80 Rüstung. Erneuerungsbonus: Wirkt einen Zauber."
+			},
+			"de-guildwiki": {
 				"name": "Kinetik-Rüstung",
 				"description": "12 Sekunden lang erhaltet Ihr +20...80 Punkte Rüstung. Jedes Mal, wenn Ihr einen Zauber wirkt, wird Kinetik-Rüstung 12 Sekunden lang erneuert.",
 				"concise": "12 Sekunden: Ihr habt +20...80 Rüstung. Erneuerungsbonus: Wirkt einen Zauber."
 			},
 			"en": {
 				"name": "Kinetic Armor",
+				"description": "Enchantment Spell. For 12 seconds, you gain +20...80 armor. Whenever you cast a spell, Kinetic Armor is renewed for 12 seconds.",
+				"concise": "Enchantment Spell. (12 seconds.) You have +20...80 armor. Renewal bonus: cast a spell."
+			},
+			"en-gww": {
+				"name": "Kinetic Armor",
 				"description": "For 12 seconds, you gain +20...80 armor. Whenever you cast a spell, Kinetic Armor is renewed for 12 seconds.",
 				"concise": "(12 seconds.) You have +20...80 armor. Renewal bonus: cast a spell."
 			},
+			"es": {
+				"name": "Armadura cinética",
+				"description": "Conjuro con encantamiento. Durante 12 segundos, ganas +20...80 de armadura. Siempre que lances un conjuro, la Armadura cinética se renueva durante 12 segundos.",
+				"concise": "Conjuro con encantamiento. (12 segundos). Tienes +20...80 de armadura. Extra de renovación: lanzar un conjuro."
+			},
 			"fr": {
+				"name": "Armure cinétique",
+				"description": "Enchantement. Pendant 12 secondes, vous bénéficiez de +20...80 points d'armure. Chaque fois que vous lancez un sort, Armure cinétique est renouvelée pour 12 secondes.",
+				"concise": "Enchantement. (12 secondes.) Vous bénéficiez de +20...80 points d'armure. Bonus de renouvellement : incantation d'un sort."
+			},
+			"fr-gwiki": {
 				"name": "Armure cinétique",
 				"description": "Pendant 8 secondes, vous obtenez un bonus d'armure de +20...80. A chaque fois que vous lancez un sort, lArmure cinétique'' est renouvelée pour 8 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armatura Cinetica",
+				"description": "Incantesimo. Per 12 secondi, ottieni +20...80 armatura. Ogni volta che lanci una magia, Kinetic Armor si rinnova per altri 12 secondi.",
+				"concise": "Incantesimo. (12 secondi). Ottieni +20...80 armatura. Bonus per rinnovo: lancia una magia."
+			},
+			"jp": {
+				"name": "キネティック アーマー",
+				"description": "強化スペル： 12秒間、防御力が20...80増加します。スペルを唱えるたびに、キネティックアーマーが12秒間更新されます。",
+				"concise": "強化スペル： （12秒）防御力が20...80増加します。更新ボーナス：スペルを唱えます。"
+			},
+			"kr": {
+				"name": "생명의 갑옷",
+				"description": "강화 마법. 12초 동안 방어력이 20...80 추가로 증가합니다. 마법을 시전할 때마다 생명의 갑옷이 12초 동안 갱신됩니다.",
+				"concise": "강화 마법. (12초) 방어력이 20...80 추가로 증가합니다. 갱신 보너스: 마법을 시전합니다."
+			},
+			"pl": {
+				"name": "Kinetyczny Pancerz",
+				"description": "Zaklęcie (czar). Przez 12 sek. masz +20...80 pkt. pancerza. Za każdym razem, kiedy rzucasz czar, Kinetyczny Pancerz zostaje odnowiony na 12 sek.",
+				"concise": "Zaklęcie (czar). (12 sek.) Masz +20...80 pkt. pancerza. Premiowe odnowienie: rzuć czar."
+			},
+			"ru": {
+				"name": "Kinetic Armor",
+				"description": "Заклинание-чары. Вы получаете +20...80 брони на 12 секунд. Каждый раз, когда вы используете заклинание, Kinetic Armor продлевается на 12 секунд.",
+				"concise": "Заклинание-чары. (12 секунд) Вы получаете +20...80 брони. Бонус обновления: использование заклинания."
+			},
+			"bork": {
+				"name": "Keeneteec Aermur",
+				"description": "Inchuntment Spell. Fur 12 secunds, yuoo gaeeen +20...80 aermur. Vhenefer yuoo caest a spell, Keeneteec Aermur is renooed fur 12 secunds.",
+				"concise": "Inchuntment Spell. (12 secunds.) Yuoo haefe-a +20...80 aermur. Renooael bunoos: caest a spell."
 			}
 		}
 	}

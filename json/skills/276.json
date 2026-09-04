@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恢复术",
+				"description": "精英咒文。 移除目标盟友身上的所有「症状」（中毒、疾病、盲目、晕眩、流血、残废、重伤、虚弱和灼烧）。每移除一个「症状」，可以为该队友恢复10...70点生命值。",
+				"concise": "精英咒文。 移除目标盟友身上的所有「症状」（中毒、疾病、盲目、晕眩、流血、残废、重伤）。每移除一个「症状」，可以为该队友恢复 10...70点 生命值。"
+			},
+			"cht": {
+				"name": "回復病症",
+				"description": "精英咒文魔法： 消除目標其他盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每消除一項「病症」，該盟友回復 10...70 體力。",
+				"concise": "精英咒文魔法： 消除目標其他盟友身上的所有「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每消除一項「病症」，該盟友回復 10...70 體力。"
+			},
 			"de": {
+				"name": "Zustand wiederherstellen",
+				"description": "Elite-Zauber. Entfernt alle Zustände (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung und Tiefe Wunde) vom Verbündeten. Für jeden entfernten Zustand wird dieser Verbündete um 10...70 Lebenspunkt[e] geheilt.",
+				"concise": "Elite-Zauber. Entfernt alle Zustände. Entfernungswirkung: Heilt für jeden entfernten Zustand um 10...70 Lebenspunkt[e]. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Zustand wiederherstellen",
 				"description": "Entfernt alle Zustände (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung und Tiefe Wunde) vom Verbündeten. Dieser Verbündete wird für jeden entfernten Zustand für 10...70 Punkte geheilt.",
 				"concise": "Entfernt alle Zustände. Entfernungswirkung: Heilt für jeden entfernten Zustand um 10...70 Lebenspunkte. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Restore Condition",
+				"description": "Elite Spell. Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target other ally. For each condition removed, that ally is healed for 10...70 Health.",
+				"concise": "Elite Spell. Removes all conditions. Removal effect: heals for 10...70 for each condition removed. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Restore Condition",
 				"description": "Remove all conditions (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, and Deep Wound) from target other ally. For each condition removed, that ally is healed for 10...70 Health.",
 				"concise": "Removes all conditions. Removal effect: heals for 10...70 for each condition removed. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Restaurar condición",
+				"description": "Conjuro de élite. Quita todas las condiciones (veneno, enfermedad, ceguera, aturdimiento, hemorragia, lisiadura, quemadura, debilidad, armadura rota y herida grave) del aliado objetivo, que recuperará 10...70 de salud por cada una.",
+				"concise": "Conjuro de élite. Elimina todas las condiciones. Efecto: cura 10...70 de salud por cada condición eliminada. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Rétablissement total",
+				"description": "Sort d'élite. Supprime toutes les conditions (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Armure brisée, Faiblesse et Blessure profonde) affectant l'allié visé. Pour chaque condition supprimée, cet allié est soigné de 10...70 points de vie.",
+				"concise": "Sort d'élite. Supprime toutes les conditions. Effet de la suppression : soigne de 10...70 points de vie par condition supprimée. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Rétablissement total",
 				"description": "Supprime toutes les conditions (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse et Blessure profonde) affectant l'allié visé. Pour chaque condition supprimée, cet allié est soigné de 10...70 points de vie.",
 				"concise": "Supprime toutes les conditions. Effet de la suppression : soigne de 10...70 points de vie par condition supprimée. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "Ripristino Condizione",
+				"description": "Magia d'Élite. Rimuovi tutte le condizioni (Veleno, Malattia, Accecamento, Stordimento, Emorragia, Storpiatura, Bruciatura, Debolezza, Armatura Incrinata e Ferita Profonda) dall'alleato. Per ogni condizione rimossa, quell'alleato viene curato di 10...70 Punto[i] Salute.",
+				"concise": "Magia d'Élite. Rimuove tutte le condizioni. Effetto della rimozione: cura di 10...70 per ogni condizione rimossa. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "レストア コンディション",
+				"description": "エリート スペル： ターゲットした自分以外の味方にかけられている「状態異常 (毒、疾病、盲目、放心、出血、不自由、火傷、衰弱、防具破損、および重傷) 」をすべて解除します。解除した「状態異常」ごとに、その味方は体力が 10...70 回復します。",
+				"concise": "エリート スペル： かけられている「状態異常」をすべて解除します。解除効果： 解除した「状態異常」ごとに体力が 10...70 回復します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "상태 회복",
+				"description": "엘리트 마법. 대상 지정: 아군. 대상에게 걸린 상태이상(중독, 질병, 실명, 현혹, 출혈, 다리 부상, 화상, 약체, 방어 손상, 중상)을 모두 무효화합니다. 대상은 무효화된 상태이상 하나당 10...70의 체력을 회복합니다. 이 마법은 자신에게 걸 수 없습니다.",
+				"concise": "엘리트 마법. 상태이상을 모두 무효화합니다. 무효화 효과: 무효화한 상태이상 하나당 10...70의 체력을 회복시킵니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Przywrócenie Stanu",
+				"description": "Elitarny czar. Usuwasz z wybranego sojusznika innego niż ty wszystkie przypadłości (zatrucie, chorobę, oślepienie, oszołomienie, krwawienie, okulawienie, płonięcie, osłabienie, pękniętą zbroję i głęboką ranę). Za każdą usuniętą przypadłość, sojusznik ten otrzyma 10...70 pkt. żywotności.",
+				"concise": "Elitarny czar. Usuwa wszystkie przypadłości. Efekt usunięcia: za każdą usuniętą przypadłość dodaje 10...70 pkt. żywotności. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Restore Condition",
+				"description": "Элитное заклинание. Снимает с выбранного союзника (но не с вас) все состояния (отравление, болезнь, слепоту, ошеломление, кровотечение, хромоту, горение, слабость, треснувшие доспехи и глубокую рану). За каждое снятое состояние этот союзник будет исцелен на 10...70 ед. здоровья.",
+				"concise": "Элитное заклинание. Снимает все состояния. Эффект снятия: исцеляет на 10...70 ед. здоровья за каждое снятое состояние. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Resture-a Cundeeshun",
+				"description": "Ileete-a Spell. Remufe-a aell cundeeshuns (Pueesun, Deeseaese-a, Bleendness, Daezed, Bleedeeng, Creeppled, Boorneeng, Veaekness, Craecked Aermur, und Deep Vuoond) frum taerget oozeer aelly. Fur iaech cundeeshun remufed, thaet aelly is heaeled fur 10...70 Heaelt.",
+				"concise": "Ileete-a Spell. Remufes aell cundeeshuns. Remufael iffffect: heaels fur 10...70 fur iaech cundeeshun remufed. Cunnut selff-taerget."
 			}
 		}
 	}

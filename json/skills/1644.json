@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "瓦斯垂的崩溃",
+				"description": "精英技能。 使目标敌人在5秒后倒地，如果目标敌人使用技能，则此「负面魔法」提前消失。",
+				"concise": "精英技能。 使目标敌人在5秒后倒地，如果目标敌人使用技能，则此「负面魔法」提前消失。"
+			},
+			"cht": {
+				"name": "偷襲",
+				"description": "精英技能： 使用暗影步伐移動至目標敵人身旁，若該敵人沒用使用技能，該敵人被擊倒。你的所有非匕首攻擊技能在10秒內不能使用。",
+				"concise": "精英技能： 使用暗影步伐移動至目標敵人身旁，若該敵人沒用使用技能，該敵人被擊倒。你的所有非匕首攻擊技能在10秒內不能使用。"
+			},
 			"de": {
+				"name": "Verfall des Verschwenders",
+				"description": "Elite-Fertigkeit. Ihr unternehmt einen Schattenschritt zum Gegner hin. Wenn dieser keine Fertigkeit benutzt, wird er zu Boden geworfen. Alle Eure Angriffsfertigkeiten, die nicht auf Dolchen beruhen, sind 10 Sekunde[n] lang deaktiviert.",
+				"concise": "Elite-Fertigkeit. Unternehmt einen Schattenschritt zum Gegner. Gegner wird zu Boden geworfen, wenn er keine Fertigkeit benutzt. Deaktiviert Eure Angriffsfertigkeiten, die nicht auf Dolchen beruhen (10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verfall des Verschwenders",
 				"description": "Ihr unternehmt einen Schattenschritt zum Gegner hin. Wenn dieser keine Fertigkeit benutzt, wird er zu Boden geworfen. Alle Eure Angriffsfertigkeiten, die nicht auf Dolchen beruhen, sind 10 Sekunden lang deaktiviert.",
 				"concise": "Unternehmt einen Schattenschritt zum Gegner. Gegner wird zu Boden geworfen, wenn er keine Fertigkeit benutzt. <gray>Deaktiviert Eure Angriffsfertigkeiten, die nicht auf Dolchen beruhen.</gray>"
 			},
 			"en": {
 				"name": "Wastrel's Collapse",
+				"description": "Elite Skill. Shadow Step to target foe. If target foe is not using a skill, that foe is knocked down. All of your non-dagger attack skills are disabled for 10 seconds.",
+				"concise": "Elite Skill. Shadow Step to target foe. Causes knock-down if target foe is not using a skill. Disables your non-dagger attack skills (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Wastrel's Collapse",
 				"description": "Shadow Step to target foe. If target foe is not using a skill, that foe is knocked down. All of your non-dagger attack skills are disabled for 10 seconds.",
 				"concise": "Shadow Step to target foe. Causes knock-down if target foe is not using a skill. <gray>Disables your non-dagger attack skills (10 seconds).</gray>"
 			},
+			"es": {
+				"name": "Colapso del derrochador",
+				"description": "Habilidad de élite. Das un paso sombrío hasta el enemigo objetivo. Si éste no estaba usando ninguna habilidad, le derribas. Todas tus habilidades de ataque que no sean para daga estarán desactivadas durante 10 segundos.",
+				"concise": "Habilidad de élite. Das un paso sombrío hasta el enemigo objetivo. Causa derribo si éste no estaba usando ninguna habilidad. Desactiva todas tus habilidades de ataque que no sean para daga (10 segundos)."
+			},
 			"fr": {
+				"name": "Effondrement du gaspilleur",
+				"description": "Compétence élite. Vous faites une Foulée de l'ombre vers la cible ennemie. Si cette dernière n'utilisait pas de compétence, elle est assommée. Toutes vos compétences autres que des attaques à la dague sont désactivées pendant 10 secondes.",
+				"concise": "Compétence élite. Vous faites une Foulée de l'ombre vers la cible ennemie. Assomme l'ennemi s'il n'utilise pas de compétence.Désactive vos compétences autres que les attaques à la dague (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Effondrement du gaspilleur",
 				"description": "Vous faites une Foulée de l'ombre vers la cible ennemie. Si cette dernière n'utilisait pas de compétence, elle est assommée. Toutes vos compétences autres que des attaques à la dague sont désactivées pendant 10 secondes.",
 				"concise": "Vous faites une Foulée de l'ombre vers la cible ennemie. Assomme l'ennemi s'il n'utilise pas de compétence. Désactive vos compétences autres que les attaques à la dague (10 secondes)"
+			},
+			"it": {
+				"name": "Crollo del Fannullone",
+				"description": "Abilità d'Élite. Compi un Passo dell'Ombra verso l'obiettivo nemico che, se non sta usando alcuna abilità, viene abbattuto. Tutte le tue abilità d'attacco che non utilizzano i pugnali vengono disattivate per 10 secondo[i].",
+				"concise": "Abilità d'Élite. Compi un Passo nell'Ombra verso l'obiettivo nemico. Provochi abbattimento se non sta usando abilità. Disattiva le tue abilità d'attacco che non utilizzano i pugnali (10 secondo[i])."
+			},
+			"jp": {
+				"name": "ウェイストレル コラプス",
+				"description": "エリート スキル： ターゲットした敵のそばに瞬間移動します。ターゲットした敵がスキルを使用していない場合、その敵は転倒します。ダガー アタック以外のスキルが 10 秒間使用できなくなります。",
+				"concise": "エリート スキル： ターゲットした敵のそばに瞬間移動します。ターゲットがスキルを使用していない場合、転倒させます。ダガー アタック以外のスキルが使用できなくなります (10 秒) 。"
+			},
+			"kr": {
+				"name": "부랑자의 좌절",
+				"description": "엘리트 스킬. 대상 지정: 적. 대상의 위치로 순간이동합니다. 대상이 스킬 사용 중이 아니면 바닥에 넘어뜨립니다. 자신은 단검 공격 이외의 스킬을 10초 동안 사용할 수 없습니다.",
+				"concise": "엘리트 스킬. 대상의 위치로 순간이동합니다. 대상이 스킬 사용 중이 아니면 넘어뜨립니다.단건 공격 이외의 스킬은 사용할 수 없습니다.(10초)"
+			},
+			"pl": {
+				"name": "Powalenie Marnotrawcy",
+				"description": "Umiejętność elitarna. Wykonujesz krok cienia do wybranego przeciwnika. Jeżeli wybrany przeciwnik nie używa umiejętności, to zostaje powalony. Wszystkie twoje ataki nie związane ze sztyletami zostają wyłączone na 10 sek.",
+				"concise": "Umiejętność elitarna. Wykonujesz krok cienia do wybranego przeciwnika. Jeżeli wybrany przeciwnik nie używa umiejętności, to zostaje powalony. Wyłącza twoje ataki nie związane ze sztyletami (10 sek.)."
+			},
+			"ru": {
+				"name": "Wastrel's Collapse",
+				"description": "Элитное умение. Вы делаете призрачный шаг к выбранному противнику. Если этот противник не использовал какое-либо умение, он будет сбит с ног. Все ваши атаки, кроме атак кинжалами, будут недоступны в течение 10 сек.",
+				"concise": "Элитное умение. Вы делаете призрачный шаг к выбранному противнику. Сбивает с ног, если этот противник не использовал какое-либо умение. Все ваши атаки, кроме атак кинжалами, недоступны (10 сек)."
+			},
+			"bork": {
+				"name": "Vaestrel's Cullaepse-a",
+				"description": "Ileete-a Skeell. Shaedoo Step tu taerget fue-a. Iff taerget fue-a is nut useeng a skeell, thaet fue-a is knucked doon. Aell ooff yuoor nun-daegger aettaeck skeells aere-a deesaebled fur 10 secunds.",
+				"concise": "Ileete-a Skeell. Shaedoo Step tu taerget fue-a. Cooses knuck-doon iff taerget fue-a is nut useeng a skeell. Deesaebles yuoor nun-daegger aettaeck skeells (10 secunds)."
 			}
 		}
 	}

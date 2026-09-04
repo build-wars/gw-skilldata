@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神圣洞察",
+				"description": "增益魔法。 使友方目标的攻击转化为神圣属性，并且带有 20% 的护甲穿透效果，效果持续 8...20 秒。",
+				"concise": "增益魔法。 使友方目标的攻击转化为神圣属性，并且带有 20% 的护甲穿透效果，效果持续 8...20 秒。"
+			},
+			"cht": {
+				"name": "神之洞察",
+				"description": "加持魔法： 持續 8...20 秒，使目標盟友的攻擊轉變為神聖屬性，並且具有 20% 的防禦穿透效果。",
+				"concise": "加持魔法： 持續 8...20 秒，使目標盟友的攻擊轉變為神聖屬性，並且具有 20% 的防禦穿透效果。"
+			},
 			"de": {
+				"name": "Einblick des Richters",
+				"description": "Verzauberung. 8...20 Sekunde[n] lang fügen Angriffe des Verbündeten (bzw. Eure eigenen) heiligen Schaden zu und haben eine um 20% erhöhte Rüstungsdurchdringung.",
+				"concise": "Verzauberung. 8...20 Sekunde[n]: Wandelt Angriffe des Verbündeten (bzw. von Euch selbst) in heiligen Schaden um und fügt +20% Rüstungsdurchdringung hinzu."
+			},
+			"de-guildwiki": {
 				"name": "Einblick des Richters",
 				"description": "8...20 Sekunden lang fügen Angriffe des Verbündeten (bzw. Eure eigenen) Sakral-Schaden zu und haben eine um 20% erhöhte Rüstungsdurchdringung.",
 				"concise": "8...20 Sekunden: Wandelt Angriffe des Verbündeten (bzw. von Euch selbst) in Sakral-Schaden um und fügt +20% Rüstungsdurchdringung hinzu."
 			},
 			"en": {
 				"name": "Judge's Insight",
+				"description": "Enchantment Spell. For 8...20 seconds, target ally's attacks deal holy damage and have +20% armor penetration.",
+				"concise": "Enchantment Spell. (8...20 seconds.) Converts target ally's attacks to holy damage and adds +20% armor penetration."
+			},
+			"en-gww": {
+				"name": "Judge's Insight",
 				"description": "For 8...20 seconds, target ally's attacks deal holy damage and have +20% armor penetration.",
 				"concise": "(8...20 seconds.) Converts target ally's attacks to holy damage and adds +20% armor penetration."
 			},
+			"es": {
+				"name": "Perspicacia del juez",
+				"description": "Conjuro con encantamiento. Durante 8...20 segundos, los ataques del objetivo (un aliado o tú mismo) sólo hacen daño sagrado y tienen un +20% de penetración de armadura.",
+				"concise": "Conjuro con encantamiento. (8...20 segundos). Convierte los ataques del objetivo (un aliado o tú mismo) a daño sagrado y añade +20% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Clairvoyance du juge",
+				"description": "Enchantement. Pendant 8...20 secondes, les attaques de la cible (un allié ou vous-même) infligent des dégâts sacrés et bénéficient d'un bonus de +20% de pénétration d'armure.",
+				"concise": "Enchantement. (8...20 secondes.) Convertit les dégâts des attaques de l'allié visé en dégâts sacrés et ajoute une pénétration d'armure de +20%."
+			},
+			"fr-gwiki": {
 				"name": "Clairvoyance du juge",
 				"description": "Pendant 8...20 secondes, les attaques de la cible (un allié ou vous-même) infligent des dégâts sacrés et bénéficient d'un bonus de +20% de pénétration d'armure.",
 				"concise": "(8...20 secondes.) Convertit les dégâts des attaques de l'allié visé en dégâts sacrés et ajoute une pénétration d'armure de +20%."
+			},
+			"it": {
+				"name": "Sguardo del Giudice",
+				"description": "Incantesimo. Per 8...20 secondo[i], gli attacchi dell'obiettivo (un alleato o te stesso) infliggeranno danni sacri e avranno una penetrazione delle armature del +20%.",
+				"concise": "Incantesimo. (Secondi: 8...20) Trasforma gli attacchi dell'obiettivo (un alleato o te stesso) in danno sacro. Penetrazione armatura: +20%."
+			},
+			"jp": {
+				"name": "ジャッジ インサイト",
+				"description": "強化スペル： 8...20 秒間、ターゲットした味方の攻撃が神聖ダメージとなり、アーマー貫通効果が20%増加します。",
+				"concise": "強化スペル： (8...20 秒) ターゲットした味方の攻撃が神聖ダメージとなり、アーマー貫通効果が20%増加します。"
+			},
+			"kr": {
+				"name": "사제의 심판",
+				"description": "강화 마법. 대상 지정: 아군. 8...20초 동안 대상의 공격은 적에게 신성 대미지를 주고 20%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "강화 마법. (8...20초) 대상의 공격이 적에게 신성 대미지를 주고, 20%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Intuicja Sędziego",
+				"description": "Zaklęcie (czar). Przez 8...20 sek., ataki wybranego sojusznika zadają święte obrażenia i mają +20% przebicie pancerza.",
+				"concise": "Zaklęcie (czar). (8...20 sek.) Powoduje, że ataki wybranego sojusznika zadają święte obrażenia i mają +20% przebicie pancerza."
+			},
+			"ru": {
+				"name": "Judge's Insight",
+				"description": "Заклинание-чары. В течение 8...20 сек выбранный союзник наносит при атаках урон святой силой и дополнительно игнорирует 20% защиты противника.",
+				"concise": "Заклинание-чары. (8...20 сек) Атаки выбранного союзника наносят урон святой силой и игнорируют дополнительно 20% защиты противника."
+			},
+			"bork": {
+				"name": "Joodge-a's Inseeght",
+				"description": "Inchuntment Spell. Fur 8...20 secunds, taerget aelly's aettaecks deael huly daemaege-a und haefe-a +20% aermur penetraeshun.",
+				"concise": "Inchuntment Spell. (8...20 secunds.) Cunferts taerget aelly's aettaecks tu huly daemaege-a und aedds +20% aermur penetraeshun."
 			}
 		}
 	}

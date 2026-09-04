@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "毒蛇之御",
+				"description": "咒文。 在5...20秒之内，当你下一次受到伤害时，你将会随机传送到附近的地点。而对你造成伤害的敌人将遭受「中毒」症状 5...20秒。",
+				"concise": "咒文。 在5...20秒之内，当你下一次受到伤害时，你将会随机传送到附近的地点。而对你造成伤害的敌人将遭受「中毒」症状 5...20秒。"
+			},
+			"cht": {
+				"name": "毒蛇防禦",
+				"description": "咒文魔法： 對所有鄰近的敵人造成中毒5...20秒，同時用暗影步伐移動到附近，遠離目標。",
+				"concise": "咒文魔法： 對所有鄰近的敵人造成中毒5...20秒，同時用暗影步伐移動到附近，遠離目標。"
+			},
 			"de": {
+				"name": "Verteidigung der Viper",
+				"description": "Zauber. Alle umstehenden Feinde leiden 5...20 Sekunde[n] lang an Vergiftung. Schattenschritt zu einer Position in der Nähe, weg vom Gegner.",
+				"concise": "Zauber. Verursacht Zustand Gift (5...20 Sekunde[n]) bei allen umstehenden Feinden und Ihr unternehmt einen Schattenschritt an eine nahegelegene Position, direkt weg vom Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Verteidigung der Viper",
 				"description": "Alle umstehenden Feinde leiden 5...20 Sekunden lang an Vergiftung. Unternehmt einen Schattenschritt mit in-dem-Bereich-Distanz, direkt weg vom ausgewählten Ziel. Habt Ihr Euch selbst oder kein Ziel gewählt, ist die Richtung zufällig und die Distanz schwankend.",
 				"concise": "Verursacht Zustand Gift (5...20 Sekunden) bei allen umstehenden Feinden und unternehmt einen Schattenschritt mit in-dem-Bereich-Distanz, weg vom ausgewählten Ziel. Zufällige Richtung mit variabler Distanz, wenn kein oder sich selbst als Ziel."
 			},
 			"en": {
 				"name": "Viper's Defense",
+				"description": "Spell. All adjacent foes are Poisoned for 5...20 seconds. Shadow Step to a nearby location directly away from your target.",
+				"concise": "Spell. Inflict Poisoned condition (5...20 seconds) on all adjacent foes and Shadow Step to a nearby location directly away from your target."
+			},
+			"en-gww": {
+				"name": "Viper's Defense",
 				"description": "All adjacent foes are Poisoned for 5...20 seconds. Shadow Step to a nearby location directly away from your target.",
 				"concise": "Inflict Poisoned condition (5...20 seconds) on all adjacent foes and Shadow Step to a nearby location directly away from your target."
 			},
+			"es": {
+				"name": "Defensa de la víbora",
+				"description": "Conjuro. Todos los enemigos cercanos quedan envenados durante 5...20 segundos. Das un paso sombrío a un lugar cercano, lejos de tu objetivo.",
+				"concise": "Conjuro. Causa envenenamiento (5...20 segundos) a todos los enemigos cercanos y das un paso sombrío a un lugar cercano, lejos de tu objetivo."
+			},
 			"fr": {
+				"name": "Défense de la vipère",
+				"description": "Sort. Tous les ennemis adjacents sont empoisonnés pendant 5...20 secondes. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposée à votre cible.",
+				"concise": "Sort. Inflige l'Empoisonnement (5...20 secondes) à tous les ennemis adjacents. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposée à votre cible."
+			},
+			"fr-gwiki": {
 				"name": "Défense de la vipère",
 				"description": "Tous les ennemis adjacents sont empoisonnés pendant 5...20 secondes. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposé à votre cible.",
 				"concise": "Inflige l'Empoisonnement (5...20 secondes) à tous les ennemis adjacents. Vous faites une Foulée de l'ombre jusqu'à une position proche directement opposé à votre cible."
+			},
+			"it": {
+				"name": "Difesa della Vipera",
+				"description": "Magia. Tutti i nemici adiacenti vengono avvelenati per 5...20 secondi. Compi un Passo nell'Ombra verso un punto a caso nei dintorni allontanandoti dall'obiettivo.",
+				"concise": "Magia. Condizione inflitta a tutti i nemici adiacenti: Avvelenamento (5...20 secondi). Compi un Passo nell'Ombra verso un punto a caso nei dintorni allontanandoti dall'obiettivo."
+			},
+			"jp": {
+				"name": "ヴァイパー ディフェンス",
+				"description": "スペル： 隣接するすべての敵は 5...20 秒間「毒」状態になり、プレイヤーはターゲットから離れた場所に瞬間移動します。",
+				"concise": "スペル： 隣接するすべての敵が「毒」状態になり (5...20 秒)、プレイヤーはターゲットから離れた場所に瞬間移動します。"
+			},
+			"kr": {
+				"name": "독사의 방어",
+				"description": "마법. 대상 지정: 적. 인접한 모든 적을 5...20초 동안 중독시키고, 대상에게서 떨어져 부근의 한 지점으로 순간 이동합니다.",
+				"concise": "마법. 인접한 적들을 중독시키고(5...20초), 대상에게서 떨어져 부근의 한 지점으로 순간 이동합니다."
+			},
+			"pl": {
+				"name": "Obrona Żmiji",
+				"description": "Czar. Wszyscy przeciwnicy w bezpośredniej odległości zostają na 5...20 sek. zatruci, a ty wykonujesz krok cienia w kierunku przeciwnym do twojego celu.",
+				"concise": "Czar. U wszystkich przeciwników w bezpośredniej odległości wywołuje zatrucie (5...20 sek.), a ty wykonujesz krok cienia w kierunku przeciwnym do twojego celu."
+			},
+			"ru": {
+				"name": "Viper's Defense",
+				"description": "Заклинание. Все окружающие противники будут отравлены на 5...20 сек, а вы делаете призрачный шаг в местоположение поблизости от вашей цели.",
+				"concise": "Заклинание. Вызывает отравление (5...20 сек) у всех окружающих противников, а вы делаете призрачный шаг в местоположение поблизости от вашей цели."
+			},
+			"bork": {
+				"name": "Feeper's Deffense-a",
+				"description": "Spell. Aell aedjaecent fues aere-a Pueesuned fur 5...20 secunds. Shaedoo Step tu a neaerby lucaeshun durectly aevaey frum yuoor taerget.",
+				"concise": "Spell. Inffleect Pueesuned cundeeshun (5...20 secunds) oon aell aedjaecent fues und Shaedoo Step tu a neaerby lucaeshun durectly aevaey frum yuoor taerget. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "军兵防御",
+				"description": "姿态。 在1...6秒之内，当你受到「战吼」或「圣歌」效果影响时，使你有75%的几率格挡敌人的攻击。",
+				"concise": "姿态。 在1...6秒之内，当你受到「战吼」或「圣歌」效果影响时，使你有75%的几率格挡敌人的攻击。"
+			},
+			"cht": {
+				"name": "士兵防禦",
+				"description": "態勢： 持續 1...6 秒，若是你有戰嚎或者聖歌效果，則有 75% 機率格檔攻擊，每次格檔攻擊時將使你獲得 1 次攻擊的怒氣值。",
+				"concise": "態勢： 持續 1...6 秒，若是你有戰嚎或者聖歌效果，則有 75% 機率格檔攻擊，每次格檔攻擊時將使你獲得 1 次攻擊的怒氣值。"
+			},
 			"de": {
+				"name": "Soldaten-Verteidigung",
+				"description": "Haltung. 1...6 Sekunde[n] lang habt Ihr eine 75%ige Chance, Angriffe zu blocken, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht. Für jeden geblockten Angriff erhaltet Ihr 1 Adrenalinstoß.",
+				"concise": "Haltung. (1...6 Sekunde[n].) Ihr habt eine 75%ige Chance zu blocken, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht. Blockwirkung: Ihr erhaltet 1 Adrenalinstoß."
+			},
+			"de-guildwiki": {
 				"name": "Soldaten-Verteidigung",
 				"description": "1...6 Sekunden lang habt Ihr eine 75%ige Chance, Angriffe zu blocken, wenn Ihr mit einem Schrei oder Anfeuerungsruf belegt seid. Für jeden geblockten Angriff erhaltet Ihr 1 Punkt Adrenalin.",
 				"concise": "(1...6 Sekunden.) Ihr habt eine 75%ige Chance zu blocken, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht. Für jeden Block erhaltet Ihr 1 Punkt Adrenalin."
 			},
 			"en": {
 				"name": "Soldier's Defense",
+				"description": "Stance. For 1...6 seconds, you have a 75% chance to block attacks while under the effects of a shout or chant. You gain 1 strike of adrenaline for each blocked attack.",
+				"concise": "Stance. (1...6 seconds.) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline."
+			},
+			"en-gww": {
+				"name": "Soldier's Defense",
 				"description": "For 1...6 second[s], you have a 75% chance to block attacks while under the effects of a shout or chant. You gain 1 strike of adrenaline for each blocked attack.",
 				"concise": "(1...6 second[s].) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline."
 			},
+			"es": {
+				"name": "Defensa del soldado",
+				"description": "Actitud. Durante 1...6 segundos, tienes un 75% de probabilidades de bloquear ataques si estás bajo los efectos de un grito o cántico. Ganas 1 golpe de adrenalina por cada ataque bloqueado.",
+				"concise": "Actitud. (1...6 segundos). Tienes un 75% de probabilidades de bloquear si estás bajo los efectos de un grito o cántico. Efecto al bloquear: ganas 1 de adrenalina."
+			},
 			"fr": {
+				"name": "Défense du soldat",
+				"description": "Pose de combat. Pendant 1...6 secondes, vous avez 75% de chances de bloquer les attaques lorsque que vous êtes sous l'effet d'un cri ou d'un chant. Vous gagnez 1 décharge d'adrénaline chaque fois que vous bloquez une attaque.",
+				"concise": "Pose de combat. (1...6 secondes.) Vous avez 75% de chances de bloquer les attaques lorsque vous êtes sous l'effet d'un cri ou d'un chant. Effet du blocage : vous gagnez 1 décharge d'adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Défense du soldat",
 				"description": "Pendant 1...6 seconde(s), vous avez 75% de chances de bloquer les attaques lorsque vous êtes sous l'effet d'un cri ou d'un chant. Vous gagnez 1 décharge d'adrénaline chaque fois que vous bloquez une attaque.",
 				"concise": "(1...6 seconde(s).) Vous avez 75% de chances de bloquer les attaques lorsque vous êtes sous l'effet d'un cri ou d'un chant. Effet du blocage : vous gagnez 1 décharge d'adrénaline."
+			},
+			"it": {
+				"name": "Difesa del Soldato",
+				"description": "Posizione. Per 1...6 secondo[i], hai un 75% di probabilità di bloccare gli attacchi mentre sei sotto l'influenza di un urlo o un canto. Ottieni 1 dose di adrenalina per ogni attacco bloccato.",
+				"concise": "Posizione. (Secondo[i]: 1...6). Incremento velocità d'attacco mentre sei sotto gli effetti di un urlo o un canto: 75%. Effetto del blocco: ottieni 1 dose di adrenalina."
+			},
+			"jp": {
+				"name": "ソルジャー ディフェンス",
+				"description": "スタンス： 1...6 秒間、シャウトまたはチャントがかけられている場合、75% の確率で攻撃をブロックします。攻撃をブロックするたびに、アドレナリンを1発獲得します。",
+				"concise": "スタンス： (1...6 秒) シャウトまたはチャントがかけられている場合、75% の確率で攻撃をブロックします。ブロック効果：アドレナリンを1発獲得。"
+			},
+			"kr": {
+				"name": "병사의 방어 자세",
+				"description": "자세. 대상 지정: 아군. 1...6초 동안 고함이나 영창의 효과를 받으면 공격을 막을 확률이 75% 증가합니다. 공격을 막으면 1번 공격에 성공한 만큼의 아드레나린을 얻습니다.",
+				"concise": "자세. (1...6초) 고함이나 영창의 효과를 받으면 75% 확률로 공격을 막습니다. 막기 효과: 1번 공격에 성공한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Żołnierska Obrona",
+				"description": "Postawa. Przez 1...6 sek., kiedy będziesz pod działaniem okrzyku lub pieśni, masz 75% szans na blokowanie ataków. Otrzymujesz 1 dawkę adrenaliny za każdy zablokowany atak.",
+				"concise": "Postawa. (1...6 sek.) Masz 75% szans na blokowanie, jeżeli jesteś pod działaniem pieśni lub okrzyku. Efekt bloku: otrzymujesz 1 dawkę adrenaliny."
+			},
+			"ru": {
+				"name": "Soldier's Defense",
+				"description": "Стойка. В течение 1...6 сек вы получаете 75%-й шанс блокировать атаки до тех пор, пока вы находитесь под влиянием какого-либо крика или хорала. Вы получаете 1 ед. адреналина за каждую блокированную атаку.",
+				"concise": "Стойка. (1...6 сек) Вы получаете 75%-й шанс блокировать атаки, находясь под действием крика или хорала. Эффект блокирования: дает 1 ед. адреналина."
+			},
+			"bork": {
+				"name": "Suldeeer's Deffense-a",
+				"description": "Stunce-a. Fur 1...6 secunds, yuoo haefe-a a 75% chunce-a tu bluck aettaecks vheele-a under zee iffffects ooff a shuoot oor chunt. Yuoo gaeeen 1 streeke-a ooff aedrenaeleene-a fur iaech blucked aettaeck.",
+				"concise": "Stunce-a. (1...6 secunds.) Yuoo haefe-a 75% chunce-a tu bluck vheele-a under zee iffffects ooff a shuoot oor chunt. Bluck iffffect: gaeeen 1 aedrenaeleene-a."
 			}
 		}
 	}

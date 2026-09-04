@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻化武器",
+				"description": "精英增益魔法。 使你的近战攻击失效，只会对敌人造成 20...60点 的技能伤害，效果持续 30秒。",
+				"concise": "精英增益魔法。 在20...6030秒内，你只能使用技能对目标造成20...60点伤害。"
+			},
+			"cht": {
+				"name": "幻象武器",
+				"description": "精英加持魔法： 持續 30 秒，依照裝備的幻術屬性魔法數量，每項使你增加 5 防禦。你所有的近身攻擊傷害將被幻象武器取代成 20...60 ，而且近身攻擊不會失誤但也沒有怒氣值。",
+				"concise": "精英加持魔法： 持續 30 秒，依照裝備的幻術屬性魔法數量，每項使你增加 5 防禦。你所有的近身攻擊傷害將被幻象武器取代成 20...60 ，而且近身攻擊不會失誤但也沒有怒氣值。"
+			},
 			"de": {
+				"name": "Illusion der Waffen",
+				"description": "Elite-Verzauberung. 30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 20...60 Punkt[e] Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
+				"concise": "Elite-Verzauberung. (30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 20...60 Punkt[e] Schaden bei Gegnern an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos."
+			},
+			"de-guildwiki": {
 				"name": "Illusion der Waffen",
 				"description": "30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 20...60 Punkte Schaden an Euren Gegnern. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit.",
 				"concise": "(30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 20...60 Punkte Schaden an. Ihr habt +5 Rüstung pro ausgerüsteter Illusionsmagie-Fertigkeit. <gray>Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos.</gray>"
 			},
 			"en": {
 				"name": "Illusionary Weaponry",
+				"description": "Elite Enchantment Spell. For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 20...60 damage to your targets for each melee attack. You have +5 armor for each equipped Illusion Magic skill.",
+				"concise": "Elite Enchantment Spell. (30 seconds.) Deals 20...60 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. Your melee attacks neither hit nor fail to hit."
+			},
+			"en-gww": {
+				"name": "Illusionary Weaponry",
 				"description": "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 20...60 damage to your targets for each melee attack. You have +5 armor for each equipped Illusion Magic skill.",
 				"concise": "(30 seconds.) Deals 20...60 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
 			},
+			"es": {
+				"name": "Armamento irreal",
+				"description": "Conjuro con encantamiento de élite. Durante 30 segundos, tus ataques cuerpo a cuerpo no impactan ni fallan. En su lugar, el Armamento irreal hace 20...60 de daño a los objetivos con cada ataque cuerpo a cuerpo. Tienes +5 de armadura por cada habilidad de magia de ilusión equipada.",
+				"concise": "Conjuro con encantamiento de élite. (30 segundos). Hace 20...60 de daño a enemigos en lugar de otros daños o efectos de los ataques cuerpo a cuerpo. Tienes +5 de armadura por cada habilidad de magia de ilusión equipada. Tus ataques cuerpo a cuerpo no impactan ni fallan."
+			},
 			"fr": {
+				"name": "Armes illusoires",
+				"description": "Enchantement d'élite. Pendant 30 secondes, vos attaques au corps à corps ne peuvent ni réussir ni échouer. La compétence Armes Illusoires inflige à la place 20...60 points de dégâts à vos cibles chaque fois que vous attaquez au corps à corps. Vous gagnez un bonus d'armure de +5 pour chaque compétence de Magie de l'illusion équipée.",
+				"concise": "Enchantement d'élite. (30 secondes.) Inflige 20...60 points de dégâts aux ennemis à la place d'autres dégâts ou effets lors de combats rapprochés. Vous gagnez un bonus d'armure de +5 pour chaque compétence de Magie de l'Illusion équipée. Vos attaques au corps à corps ne peuvent ni réussir ni échouer."
+			},
+			"fr-gwiki": {
 				"name": "Armes illusoires",
 				"description": "Pendant 30 secondes, vous n'infligez pas de dégâts au corps à corps, mais à chaque fois que vous attaquez au corps à corps, l'ennemi visé subit 8...40 points de dégâts. Vous obtenez un bonus d'armure de +5 pour chaque compétence de magie de l'illusion équipée.",
 				"concise": "(30 secondes.) Vous n'infligez pas de dégâts au corps à corps, mais à chaque fois que vous attaquez au corps à corps, l'ennemi visé subit 8...40 points de dégâts. Vous obtenez un bonus d'armure de +5 pour chaque compétence de magie de l'illusion équipée."
+			},
+			"it": {
+				"name": "Armamento Illusorio",
+				"description": "Incantesimo d'Élite. Per 30 secondi i tuoi attacchi ravvicinati non colpiscono e non vanno a vuoto. L'Armamento Illusorio infligge 20...60 danni agli obiettivi per ogni attacco ravvicinato. Ottieni +5 di armatura per ogni abilità di Magia Illusoria equipaggiata.",
+				"concise": "Incantesimo d'Élite. (Secondi: 30). Infligge 20...60 danni ai nemici anziché altri danni o effetti provocati dagli attacchi ravvicinati. Armatura ottenuta per ogni abilità di Magia Illusoria equipaggiata: +5. Gli attacchi ravvicinati non colpiscono e non vanno a vuoto."
+			},
+			"jp": {
+				"name": "イリュージョナリー ウェポン",
+				"description": "エリート強化スペル： 30秒間、近接攻撃は成功も失敗もしません。代わりに、近接攻撃を行うたびにターゲットに 20...60 のダメージを与えます。プレイヤーは装備している「イリュージョン」の特性スキルごとに、防御力が 5 増加します。",
+				"concise": "エリート強化スペル： (30秒) 敵が近接攻撃によるダメージや効果を受ける際、代わりに 20...60 のダメージを与えます。プレイヤーは装備している「イリュージョン」の特性スキルごとに防御力が 5 増加します。プレイヤーは、近接攻撃によりダメージを与えることができませんが失敗もしません。"
+			},
+			"kr": {
+				"name": "환영 공격",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 자신의 근접 물리 공격은 성공하지도 실패하지도 않습니다. 대신 근접 공격을 할 때마다 환영 공격이 적에게 20...60의 대미지를 줍니다. 단축키 창에 등록한 환상 특성 마법 하나당 방어력이 5씩 증가합니다.",
+				"concise": "엘리트 강화 마법. (30초) 적에게 근접 물리 공격을 할 때 환영 공격이 20...60의 대미지를 줍니다. 단축키 창에 등록한 환상 특성 마법 하나당 방어력이 5만큼 증가합니다. 근접 물리 공격은 성공하지도 실패하지도 않습니다."
+			},
+			"pl": {
+				"name": "Iluzoryczna Broń",
+				"description": "Elitarne zaklęcie (czar). Przez 30 sekund, twoje ataki wręcz nie trafiają ani nie chybiają. Zamiast tego Iluzoryczna Broń zadajee 20...60 pkt. obrażeń twoim celom przy każdym ataku wręcz. Otrzymujesz +5 do pancerza za każdą umiejętność magii iluzji, jaką masz na wyposażeniu.",
+				"concise": "Elitarne zaklęcie (czar). (30 sek.) Zadaje 20...60 pkt. obrażeń przeciwnikom zamiast innych obrażeń lub efektów z ataków wręcz. Otrzymujesz +5 do pancerza za każdą umiejętność magii iluzji na wyposażeniu. Twoje ataki wręcz nie trafiają ani nie chybiają."
+			},
+			"ru": {
+				"name": "Illusionary Weaponry",
+				"description": "Элитное заклинание-чары. В течение 30 сек ваши рукопашные атаки не попадают и не промахиваются по противнику. Вместо этого Illusionary Weaponry наносит вашим целям 20...60 ед. урона за каждую рукопашную атаку. Вы получаете дополнительно 5 ед. к защите за каждое имеющееся у вас умение, связанное с талантом Illusion Magic.",
+				"concise": "Элитное заклинание-чары. (30 сек) Наносит 20...60 ед. урона противникам вместо других повреждающих эффектов от рукопашных атак. Вы получаете +5 ед. к защите за каждое имеющееся у вас умение, связанное с талантом Illusion Magic. Ваши рукопашные атаки не попадают и не промахиваются по противнику."
+			},
+			"bork": {
+				"name": "Illooseeunaery Veaepunry",
+				"description": "Ileete-a Inchuntment Spell. Fur 30 secunds, yuoor melee-a aettaecks neeezeer heet nur faeeel tu heet. Insteaed, Illooseeunaery Veaepunry deaels 20...60 daemaege-a tu yuoor taergets fur iaech melee-a aettaeck. Yuoo haefe-a +5 aermur fur iaech iqooeepped Illooseeun Maegeec skeell. Bork! Bork! Bork!",
+				"concise": "Ileete-a Inchuntment Spell. (30 secunds.) Deaels 20...60 daemaege-a tu fues in plaece-a ooff oozeer daemaege-a oor iffffects frum melee-a aettaecks. Yuoo haefe-a +5 aermur fur iaech iqooeepped Illooseeun Maegeec skeell. Yuoor melee-a aettaecks neeezeer heet nur faeeel tu heet."
 			}
 		}
 	}

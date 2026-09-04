@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "平和",
+				"description": "咒文。 治愈目标盟友 10...100 生命。如果你持有着物品，则你获得 3 能量。",
+				"concise": "咒文。 治愈目标盟友 10...100 生命。如果你持有着物品，则你获得 3 能量。"
+			},
+			"cht": {
+				"name": "柔順記憶",
+				"description": "咒文魔法： 治癒目標盟友 10...100 體力。若你抱持著物品，則你獲得 3 能量。",
+				"concise": "咒文魔法： 治癒目標盟友 10...100 體力。若你抱持著物品，則你獲得 3 能量。"
+			},
 			"de": {
+				"name": "Beruhigende Erinnerungen",
+				"description": "Zauber. Der Verbündete (bzw. Ihr selbst) wird um 10...100 Lebenspunkt[e] geheilt. Wenn Ihr einen Gegenstand haltet, erhaltet Ihr 3 Energiepunkt[e].",
+				"concise": "Zauber. Heilt um 10...100 Lebenspunkt[e]. Ihr erhaltet 3 Energiepunkt[e], falls Ihr einen Gegenstand haltet."
+			},
+			"de-guildwiki": {
 				"name": "Beruhigende Erinnerungen",
 				"description": "Der Verbündete (bzw. Ihr selbst) wird um 10...100 Lebenspunkte geheilt. Wenn Ihr einen Gegenstand haltet, erhaltet Ihr 3 Energiepunkte.",
 				"concise": "Heilt um 10...100 Lebenspunkte. Ihr erhaltet 3 Energiepunkte, falls Ihr einen Gegenstand haltet."
 			},
 			"en": {
 				"name": "Soothing Memories",
+				"description": "Spell. Target ally is healed for 10...100 Health. If you are holding an item, you gain 3 Energy.",
+				"concise": "Spell. Heals for 10...100. You gain 3 Energy if you are holding an item."
+			},
+			"en-gww": {
+				"name": "Soothing Memories",
 				"description": "Target ally is healed for 10...100 Health. If you are holding an item, you gain 3 Energy.",
 				"concise": "Heals for 10...100. You gain 3 Energy if you are holding an item."
 			},
+			"es": {
+				"name": "Recuerdos calmantes",
+				"description": "Conjuro. El objetivo (un aliado o tú mismo) se cura 10...100 de salud. Además, si estás llevando algún objeto, ganarás 3 de energía.",
+				"concise": "Conjuro. Cura 10...100 de salud. Ganas 3 de energía si estás llevando un objeto."
+			},
 			"fr": {
+				"name": "Souvenirs apaisants",
+				"description": "Sort. La cible (un allié ou vous-même) est soignée de 10...100 points de vie. Si vous tenez un objet, vous bénéficiez de 3 points d'énergie.",
+				"concise": "Sort. Soigne de 10...100 points de vie. Vous gagnez 3 points d'énergie si vous tenez un objet."
+			},
+			"fr-gwiki": {
 				"name": "Souvenirs apaisants",
 				"description": "La cible (un allié ou vous-même) est soignée de 10...100 points de vie. Si vous tenez un objet, vous bénéficiez de 3 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ricordi Rassicuranti",
+				"description": "Magia. Curi l'obiettivo (un alleato o te stesso) di 10...100 Punto[i] Salute; se hai tra le mani un oggetto ottieni 3 Punto[i] Energia.",
+				"concise": "Magia. Cure: 10...100. Ottieni 3 Punto[i] Energia se hai in mano un oggetto."
+			},
+			"jp": {
+				"name": "スーズ メモリーズ",
+				"description": "スペル： ターゲットした味方は体力が 10...100 回復します。プレイヤーは手にアイテムを持っている場合、3 のエネルギーを獲得します。",
+				"concise": "スペル： 体力を 10...100 回復します。プレイヤーは手にアイテムを持っている場合、3 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "추억의 위로",
+				"description": "마법. 대상 지정: 아군. 대상의 체력을 10...100 회복시킵니다. 자신이 드롭아이템을 들고 있으면 자신의 에너지가 3 회복됩니다.",
+				"concise": "마법. 10...100의 체력을 회복시킵니다. 자신이 드롭아이템을 들고 있으면 자신의 에너지가 3 회복됩니다."
+			},
+			"pl": {
+				"name": "Kojące Wspomnienia",
+				"description": "Czar. Uzdrawiasz wybranego sojusznika dodając 10...100 pkt. żywotności. Jeżeli trzymasz przedmiot, otrzymujesz 3 pkt. energii.",
+				"concise": "Czar. Dodaje 10...100 pkt. żywotności. Otrzymujesz 3 pkt. energii, jeżeli trzymasz przedmiot."
+			},
+			"ru": {
+				"name": "Soothing Memories",
+				"description": "Заклинание. Выбранный союзник исцеляется на 10...100 ед. здоровья. Если вы держите в руках артефакт, вы получаете 3 ед. энергии.",
+				"concise": "Заклинание. Исцеляет на 10...100 ед. здоровья. Вы получаете 3 ед. энергии, если вы держите артефакт."
+			},
+			"bork": {
+				"name": "Suutheeng Memureees",
+				"description": "Spell. Taerget aelly is heaeled fur 10...100 Heaelt. Iff yuoo aere-a huldeeng un item, yuoo gaeeen 3 Inergy.",
+				"concise": "Spell. Heaels fur 10...100. Yuoo gaeeen 3 Inergy iff yuoo aere-a huldeeng un item."
 			}
 		}
 	}

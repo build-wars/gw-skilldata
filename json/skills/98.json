@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "尸骸吞噬",
+				"description": "咒文。 随机传送自己到一具尸骸附近，同时你将获得 25...100点 生命值和 5...20点 能量。",
+				"concise": "咒文。 随机传送自己到一具尸骸附近，同时你将获得 25...100点 生命值和 5...20点 能量。"
+			},
+			"cht": {
+				"name": "屍體吸收",
+				"description": "咒文魔法： 隨機傳送自己到一具屍體旁邊，同時你獲得 25...100 體力及 5...20 能量。",
+				"concise": "咒文魔法： 隨機傳送自己到一具屍體旁邊，同時你獲得 25...100 體力及 5...20 能量。"
+			},
 			"de": {
+				"name": "Kadaver verzehren",
+				"description": "Zauber. Benutzt einen willkürlichen Kadaver, um zu seiner Position zu teleportieren, und Ihr erhaltet 25...100 Lebenspunkt[e] und 5...20 Energiepunkt[e].",
+				"concise": "Zauber. Teleportiert zur Position eines Kadavers. Ihr erhaltet 25...100 Lebenspunkt[e] und 5...20 Energiepunkt[e]. Benutzt frischen Kadaver."
+			},
+			"de-guildwiki": {
 				"name": "Kadaver verzehren",
 				"description": "Benutzt einen willkürlichen Kadaver, um einen Schattenschritt dahin zu unternehmen, und Ihr erhaltet 25...100 Lebenspunkte und 5...20 Punkte Energie.",
 				"concise": "Unternehmt einen Schattenschritt zur Position eines Kadavers. Ihr erhaltet 25...100 Lebenspunkte und 5...20 Energiepunkte. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Consume Corpse",
+				"description": "Spell. Exploit a random target. You teleport to that corpse's location and gain 25...100 Health and 5...20 Energy.",
+				"concise": "Spell. Teleport to a corpse's location. You gain 25...100 Health and 5...20 Energy. Exploits a fresh corpse."
+			},
+			"en-gww": {
+				"name": "Consume Corpse",
 				"description": "Exploit a random corpse. You teleport to that corpse's location and gain 25...100 Health and 5...20 Energy.",
 				"concise": "Teleport to a corpse's location. You gain 25...100 Health and 5...20 Energy. <gray>Exploits a fresh corpse.</gray>"
 			},
+			"es": {
+				"name": "Consumir cadáver",
+				"description": "Conjuro. Explotas un cadáver cualquiera para teletransportarte a esa ubicación y conseguir 25...100 de salud y 5...20 de energía.",
+				"concise": "Conjuro. Te teletransportas hasta la ubicación de un cadáver. Ganas 25...100 de salud y 5...20 de energía. Explotas un cadáver."
+			},
 			"fr": {
+				"name": "Combustion corporelle",
+				"description": "Sort. Vous utilisez un cadavre au hasard pour vous téléporter sur sa position et vous obtenez 25...100 points de vie et 5...20 points d'énergie.",
+				"concise": "Sort. Vous vous téléportez vers un cadavre. Vous gagnez 25...100 points de vie et 5...20 points d'énergie. Exploite un cadavre récent."
+			},
+			"fr-gwiki": {
 				"name": "Combustion corporelle",
 				"description": "Vous utilisez un cadavre au hasard pour vous téléporter sur sa position et vous obtenez 25...100 points de vie et 5...20 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Consuma Cadavere",
+				"description": "Magia. Sfrutta un cadavere qualsiasi per teletrasportarti nella posizione corrispondente ed ottenere 25...100 Punto[i] Salute e 5...20 Punto[i] Energia.",
+				"concise": "Magia. Ti teletrasporti nella posizione di un cadavere. Salute: 25...100. Energia: 5...20. Utilizza un cadavere sfruttabile."
+			},
+			"jp": {
+				"name": "コンシューム コープス",
+				"description": "スペル： ランダムに選ばれた死体のそばにテレポートし、25...100 の体力と 5...20 のエネルギーを獲得します。",
+				"concise": "スペル： ランダムに選ばれた死体のそばにテレポートし、25...100 の体力と 5...20 のエネルギーを獲得します。死体がない場合は無効です。"
+			},
+			"kr": {
+				"name": "어둠의 거래",
+				"description": "마법. 대상 지정: 없음. 가장 가까운 시체가 있는 곳으로 순간 이동하면서 시체에서 25...100의 체력과 5...20의 에너지를 빨아들입니다.",
+				"concise": "마법. 시체가 있는 곳으로 순간 이동하면서 25...100의 체력과 5...20의 에너지를 얻습니다. 시체를 이용해야 합니다."
+			},
+			"pl": {
+				"name": "Pożarcie Zwłok",
+				"description": "Czar. Wykorzystaj przypadkowe zwłoki. Przenosisz się w miejsce tych zwłok i zyskujesz 25...100 pkt. żywotności oraz 5...20 pkt. energii.",
+				"concise": "Czar. Przenosisz się do wybranego ciała. Otrzymujesz 25...100 pkt. żywotności i 5...20 pkt. energii. Zużywa świeże ciało."
+			},
+			"ru": {
+				"name": "Consume Corpse",
+				"description": "Заклинание. Используется цель, выбранная случайным образом. Вы переноситесь к местонахождению этого трупа и получаете 25...100 ед. здоровья и 5...20 ед. энергии.",
+				"concise": "Заклинание. Вы делаете призрачный шаг к точке нахождения трупа. Вы получаете 25...100 ед. здоровья и 5...20 ед. энергии. Используется свежий труп."
+			},
+			"bork": {
+				"name": "Cunsoome-a Curpse-a",
+				"description": "Spell. Ixplueet a rundum taerget. Yuoo telepurt tu thaet curpse-a's lucaeshun und gaeeen 25...100 Heaelt und 5...20 Inergy.",
+				"concise": "Spell. Telepurt tu a curpse-a's lucaeshun. Yuoo gaeeen 25...100 Heaelt und 5...20 Inergy. Ixplueets a fresh curpse-a."
 			}
 		}
 	}

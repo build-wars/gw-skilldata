@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 55,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "同生共死",
+				"description": "战吼。 使你的宠物获得 1...3点「生命再生」，同时它受到的任何伤害会有一半转移到主人身上，效果持续 120...300秒。",
+				"concise": "战吼。 使你的宠物获得 1...3点「生命再生」，同时它受到的任何伤害会有一半转移到主人身上，效果持续 120...300秒。"
+			},
+			"cht": {
+				"name": "共生連結",
+				"description": "戰嚎： 持續 120...300 秒，你的寵物獲得體力再生 1...3 ，同時牠受到的傷害有一半轉移到主人身上。",
+				"concise": "戰嚎： 持續 120...300 秒，你的寵物獲得體力再生 1...3 ，同時牠受到的傷害有一半轉移到主人身上。"
+			},
 			"de": {
+				"name": "Symbiotisches Band",
+				"description": "Schrei. 120...300 Sekunde[n] lang erfreut sich Eurer Tiergefährte einer Lebenspunktregeneration von 1...3 und die Hälfte jeglichen Schadens, der Eurem Tiergefährten zugefügt wird, wird auf Euch umgeleitet.",
+				"concise": "Schrei. 120...300 Sekunde[n]: Euer Tiergefährte hat +1...3 Lebenspunktregeneration. Die Hälfte des Eurem Tiergefährten zugefügten Schadens wird auf Euch umgeleitet."
+			},
+			"de-guildwiki": {
 				"name": "Symbiotisches Band",
 				"description": "120...300 Sekunden lang erfreut sich Euer Tiergefährte einer Lebenspunkteregeneration von +1...3 und die Hälfte jeglichen Schadens, der Eurem Tiergefährten zugefügt wird, wird auf Euch umgeleitet.",
 				"concise": "120...300 Sekunden: Euer Tiergefährte hat +1...3 Lebenspunktregeneration. Die Hälfte des Eurem Tiergefährten zugefügten Schadens wird auf Euch umgeleitet."
 			},
 			"en": {
 				"name": "Symbiotic Bond",
+				"description": "Shout. For 120...300 seconds, your animal companion gains 1...3 Health regeneration, and half of all damage dealt to your animal companion is redirected to you.",
+				"concise": "Shout. (120...300 seconds.) Your pet has +1...3 Health regeneration. Half of all damage dealt to your pet is redirected to you."
+			},
+			"en-gww": {
+				"name": "Symbiotic Bond",
 				"description": "For 120...300 seconds, your animal companion gains 1...3 Health regeneration, and half of all damage dealt to your animal companion is redirected to you.",
 				"concise": "(120...300 seconds.) Your pet has +1...3 Health regeneration. Half of all damage dealt to your pet is redirected to you."
 			},
+			"es": {
+				"name": "Vínculo simbiótico",
+				"description": "Grito. Durante 120...300 segundos, tu animal compañero gana 1...3 de regeneración de salud y la mitad de todo el daño que reciba tu animal lo recibes tú en su lugar.",
+				"concise": "Grito. (120...300 segundos). Tu mascota tiene +1...3 de regeneración de salud. La mitad de todo el daño que reciba tu mascota lo recibes tú en su lugar."
+			},
 			"fr": {
+				"name": "Lien symbiotique",
+				"description": "Cri. Pendant 120...300 secondes, la régénération de santé de votre animal augmente de 1...3 points et la moitié de tous les dégâts qui lui sont infligés vous sont transférés.",
+				"concise": "Cri. (120...300 secondes.) Votre familier bénéficie d'une régénération de santé de +1...3. Vous subissez la moitié des dégâts infligés à votre familier à sa place."
+			},
+			"fr-gwiki": {
 				"name": "Lien symbiotique",
 				"description": "Pendant 120...300 secondes, la régénération de santé de votre animal augmente de 1...3 point(s) et la moitié de tous les dégâts qui lui sont infligés vous sont transférés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame Simbiotico",
+				"description": "Urlo. Per 120...300 secondo[i], la tua mascotte ottiene una Rigenerazione della Salute di 1...3 e la metà di tutti i danni inflitti a lei vengono deviati su di te.",
+				"concise": "Urlo. (Secondi: 120...300) Rigenerazione Salute della tua mascotte: +1...3. Metà dei danni subiti dalla tua mascotte vengono trasferiti su di te."
+			},
+			"jp": {
+				"name": "シンバイオティック ボンド",
+				"description": "シャウト： 120...300 秒間、プレイヤーのペットは体力の自然回復力が 1...3 増加し、受けるダメージの半分をプレイヤーに転移します。",
+				"concise": "シャウト： (120...300 秒) ペットは体力の自然回復力が 1...3 増加します。また、ペットが受けるダメージの半分をプレイヤーに転移します。"
+			},
+			"kr": {
+				"name": "공존의 결속",
+				"description": "고함. 대상 지정: 없음. 120...300초 동안 펫의 체력 재생이 1...3 증가합니다. 펫이 받는 대미지의 절반은 주인이 대신 입습니다.",
+				"concise": "고함. (120...300초) 펫의 체력 재생이 1...3 증가합니다. 펫이 입는 대미지의 절반을 자신이 입습니다."
+			},
+			"pl": {
+				"name": "Symbiotyczne Więzy",
+				"description": "Okrzyk. Przez 120...300 sek., twój zwierzęcy towarzysz otrzymuje regenerację żywotności równą 1...3 i połowa fizycznych obrażeń zadawanych twojemu zwierzęcemu towarzysz jest przenoszona na ciebie.",
+				"concise": "Okrzyk. (120...300 sek.) Twój zwierzęcy towarzysz posiadasz regenerację żywotności +1...3. Połowa obrażeń zadawanych twojemu zwierzęcemu towarzyszowi jest przekierowywana na ciebie."
+			},
+			"ru": {
+				"name": "Symbiotic Bond",
+				"description": "Крик. В течение 120...300 сек скорость восстановления здоровья вашего животного увеличивается на 1...3 ед., а половина всего урона, наносимого вашему животному, переносится на вас.",
+				"concise": "Крик. (120...300 сек) Ваш питомец получает +1...3 ед. к скорости восстановления здоровья. Половина всего урона, полученного вашим питомцем, переносится на вас."
+			},
+			"bork": {
+				"name": "Symbeeuteec Bund",
+				"description": "Shuoot. Fur 120...300 secunds, yuoor uneemael cumpuneeun gaeeens 1...3 Heaelt regeneraeshun, und haelff ooff aell daemaege-a deaelt tu yuoor uneemael cumpuneeun is redurected tu yuoo.",
+				"concise": "Shuoot. (120...300 secunds.) Yuoor pet haes +1...3 Heaelt regeneraeshun. Haelff ooff aell daemaege-a deaelt tu yuoor pet is redurected tu yuoo."
 			}
 		}
 	}

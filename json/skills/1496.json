@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战神之怒",
+				"description": "Flash Enchantment Spell。 对所有邻近的敌人造成1...2点神圣伤害。在下20秒之内，此「增益魔法」不会产生任何效果，但当此「增益魔法」消失时，你将根据带有此「增益魔法」时击中敌人的次数，每次获得1...3点生命值。",
+				"concise": "Flash Enchantment Spell。 对所有邻近的敌人造成1...2点神圣伤害。在下20秒之内，此「增益魔法」不会产生任何效果，但当此「增益魔法」消失时，你将根据带有此「增益魔法」时击中敌人的次数，每次获得1...3点生命值。"
+			},
+			"cht": {
+				"name": "巴薩澤盛怒",
+				"description": "即刻加持魔法： 使附近敵人著火 1...3 秒。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，若是音量所及範圍內有任何敵人，你獲得等同 1...2 次攻擊的怒氣值。",
+				"concise": "即刻加持魔法： 使附近敵人著火 1...3 秒。接下來的 20 秒，此加持並沒有直接效果。此加持結束時，若是音量所及範圍內有任何敵人，你獲得等同 1...2 次攻擊的怒氣值。"
+			},
 			"de": {
+				"name": "Balthasars Wut",
+				"description": "Blitzverzauberung. Alle in der Nähe befindliche Feinde werden 1...3 Sekunde[n] lang in Brand gesetzt. 20 Sekunde[n] danach bewirkt diese Verzauberung nichts Wenn diese Verzauberung endet, erhaltet Ihr 1...2 Adrenalinstöße, wenn sich Feinde in Hörweite befinden.",
+				"concise": "Blitzverzauberung. (20 Sekunde[n].) Anfangswirkung: Verursacht bei in der Nähe befindlichen Feinden Brennen (1...3 Sekunde[n]). Wirkung am Ende: Ihr erhaltet 1...2 Adrenalinstöße, wenn sich Feinde in Hörweite befinden."
+			},
+			"de-guildwiki": {
 				"name": "Balthasars Wut",
 				"description": "Alle in der Nähe befindlichen Feinde werden 1...3 Sekunden lang in Brand gesetzt und ihr werdet 20 Sekunden lang verzaubert. Wenn diese Verzauberung endet, erhaltet Ihr 1...2 Adrenalinstöße, wenn sich Feinde in Hörweite befinden.",
 				"concise": "(20 Sekunden.) Anfangswirkung: Verursacht bei in der Nähe befindlichen Feinden Brennen (1...3 Sekunden). Wirkung am Ende: Ihr erhaltet 1...2 Adrenalinstöße, wenn sich Feinde in Hörweite befinden."
 			},
 			"en": {
 				"name": "Balthazar's Rage",
+				"description": "Flash Enchantment Spell. All nearby foes are set on fire for 1...3 seconds. For 20 seconds afterward, this enchantment does nothing. When this enchantment ends, you gain 1...2 strikes of adrenaline if any foes are within earshot.",
+				"concise": "Flash Enchantment Spell. (20 seconds.) Initial Effect: inflicts Burning (1...3 seconds) on nearby foes. End Effect: gain 1...2 strikes of adrenaline if any foes are in earshot."
+			},
+			"en-gww": {
+				"name": "Balthazar's Rage",
 				"description": "All nearby foes are set on fire for 1...3 second[s]. For 20 seconds afterward, this enchantment does nothing. When this enchantment ends, you gain 1...2 strike[s] of adrenaline if any foes are within earshot.",
 				"concise": "(20 seconds.) Initial Effect: Inflicts burning (1...3 second[s]) on nearby foes. End effect: gain 1...2 strike[s] of adrenaline if any foes are within earshot."
 			},
+			"es": {
+				"name": "Cólera de Balthazar",
+				"description": "Conjuro con encantamiento de destello. Todos los enemigos cercanos arden durante 1...3 segundos. Durante los 20 segundos posteriores, este encantamiento no tendrá ningún efecto. Cuando este encantamiento termina, ganas 1...2 golpes de adrenalina si hay algún enemigo al alcance del oído.",
+				"concise": "Conjuro con encantamiento de destello. (20 segundos). Efecto inicial: causa quemadura (1...3 segundos) a los enemigos cercanos. Efecto final: ganas 1...2 golpes de adrenalina si hay enemigos al alcance del oído."
+			},
 			"fr": {
+				"name": "Rage de Balthazar",
+				"description": "Enchantement instantané. Tous les ennemis à proximité s'embrasent pendant 1...3 secondes. Pendant 20 secondes à partir de ce moment, cet enchantement est sans effet. Au terme de cet enchantement, vous gagnez 1...2 décharges d'adrénaline s'il y a des ennemis à portée de voix.",
+				"concise": "Enchantement instantané. (20 secondes.) Effet initial : inflige la condition Brûlure (1...3 secondes) aux ennemis à proximité. Effet final : gain de 1...2 décharges d'adrénaline s'il y a des ennemis à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Rage de Balthazar",
 				"description": "Tous les ennemis adjacents subissent 15...60 points de dégâts sacrés. Pendant 20 secondes, cet enchantement n'a aucun effet. Lorsque cet enchantement prend fin, vous gagnez 4...10 points de vie pour chaque attaque réussie sous ses effets.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ira di Balthazar",
+				"description": "Incantesimo Lampo. Tutti i nemici nei dintorni prendono fuoco per 1...3 secondi. Per 20 secondi successivi, questo incantesimo non sortisce effetti. Al termine dell'incantesimo, ottieni 1...2 dosi di adrenalina se ci sono nemici a portata d'orecchio.",
+				"concise": "Incantesimo Lampo. (Secondi: 20). Effetto iniziale: infligge Bruciatura (1...3 secondi) ai nemici nei dintorni. Effetto al termine: dosi di adrenalina ricevute se ci sono nemici a portata d'orecchio: 1...2."
+			},
+			"jp": {
+				"name": "バルタザール レイジ",
+				"description": "フラッシュ強化スペル： 周囲にいるすべての敵を 1...3 秒間「火傷」状態にします。20 秒間、何も起こりません。この効果が消失するとき声の届く範囲内に敵がいれば、プレイヤーはアドレナリンを 1...2 発獲得します。",
+				"concise": "フラッシュ強化スペル： (20 秒)発動効果：周囲にいる敵を「火傷」状態にします (1...3 秒) 。終了効果：声の届く範囲内に敵がいる場合、アドレナリンを 1...2 発獲得します。"
+			},
+			"kr": {
+				"name": "발타자르의 격노",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 부근의 모든 적은 1...3초 동안 화상 상태가 됩니다. 이후 20초 동안은 아무 일도 일어나지 않지만, 효과가 끝날 때 가청 범위 내에 적이 하나라도 있으면 1...2번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "순간 시전 강화 마법. (20초) 초기 효과: 부근의 적들에게 화상을 입힙니다.(1...3초) 종료 효과: 가청 범위 내에 적이 있으면 1...2번 공격에 성공한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Szał Baltazara",
+				"description": "Zaklęcie błysku (czar). Wszyscy pobliscy przeciwnicy zostają podpaleni na 1...3 sek. Następnie, przez 20 sek. zaklęcie to nic nie robi. Kiedy zaklęcie dobiegnie końca, otrzymujesz dawki (1...2) adrenaliny, jeśli w zasięgu słuchu są jeszcze jacyś wrogowie.",
+				"concise": "Zaklęcie błysku (czar). (20 sek.) Efekt początkowy: Podpala (1...3 sek.) przeciwników w pobliżu. Efekt końcowy: Zyskujesz dawki adrenaliny (1...2), jeśli w zasięgu słuchu są jacyś wrogowie."
+			},
+			"ru": {
+				"name": "Balthazar's Rage",
+				"description": "Мгновенное заклинание-чары. Все противники поблизости будут гореть в течение 1...3 сек. Затем в течение 20 сек эти чары ничего не делают. Когда эти чары заканчивают свое действие, вы получаете 1...2 ед. адреналина, если в зоне слышимости есть хотя бы один противник.",
+				"concise": "Мгновенное заклинание-чары. (20 сек) Начальный эффект: вызывает горение (1...3 сек) у противников поблизости. Эффект окончания: вы получаете 1...2 ед. адреналина, если в зоне слышимости есть хотя бы один противник."
+			},
+			"bork": {
+				"name": "Baelthaezaer's Raege-a",
+				"description": "Flaesh Inchuntment Spell. Aell neaerby fues aere-a set oon fure-a fur 1...3 secunds. Fur 20 secunds aefftervaerd, thees inchuntment dues nutheeng. Vhee thees inchuntment inds, yuoo gaeeen 1...2 streeke-as ooff aedrenaeleene-a iff uny fues aere-a veetheen iaershut.",
+				"concise": "Flaesh Inchuntment Spell. (20 secunds.) Ineeteeael Iffffect: inffleects Boorneeng (1...3 secunds) oon neaerby fues. Ind Iffffect: gaeeen 1...2 streeke-as ooff aedrenaeleene-a iff uny fues aere-a in iaershut."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神怒纹章",
+				"description": "纹章。 使目标敌人受到 5...50 神圣伤害，并根据其具有的怒气值技能数量，每个再对其造成 5...10 额外神圣伤害。",
+				"concise": "纹章。 使目标敌人受到 5...50 神圣伤害，并根据其具有的怒气值技能数量，每个再对其造成 5...10 额外神圣伤害。"
+			},
+			"cht": {
+				"name": "盛怒紋章",
+				"description": "紋章： 使目標敵人受到 5...50 神聖傷害，並根據其具有的怒氣值技能數量，每個再對其造成 5...10 額外神聖傷害。",
+				"concise": "紋章： 使目標敵人受到 5...50 神聖傷害，並根據其具有的怒氣值技能數量，每個再對其造成 5...10 額外神聖傷害。"
+			},
 			"de": {
+				"name": "Siegel der Wut",
+				"description": "Siegel. Der Gegner erleidet 5...50 Punkt[e] heiligen Schaden und +5...10 Punkt[e] heiligen Schaden für jede Adrenalinfertigkeit des Gegners.",
+				"concise": "Siegel. Richtet 5...50 Punkt[e] heiligen Schaden an. Richtet für jede Adrenalinfertigkeit des Gegners zusätzlich 5...10 Punkt[e] heiligen Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Wut",
 				"description": "Der Gegner erleidet 5...50 Punkte heiligen Schaden und +5...10 Punkte heiligen Schaden für jede Adrenalinfertigkeit des Gegners.",
 				"concise": "Richtet 5...50 Punkte heiligen Schaden an. Richtet für jede Adrenalinfertigkeit des Gegners zusätzlich 5...10 Punkte heiligen Schaden an."
 			},
 			"en": {
 				"name": "Signet of Rage",
+				"description": "Signet. Target foe takes 5...50 holy damage and +5...10 holy damage for each adrenaline skill that foe has.",
+				"concise": "Signet. Deals 5...50 holy damage. Deals 5...10 more holy damage for each of target foe's adrenaline skills."
+			},
+			"en-gww": {
+				"name": "Signet of Rage",
 				"description": "Target foe takes 5...50 holy damage and +5...10 holy damage for each adrenaline skill that foe has.",
 				"concise": "Deals 5...50 holy damage. Deals 5...10 more holy damage for each of target foe's adrenaline skills."
 			},
+			"es": {
+				"name": "Sello de rabia",
+				"description": "Sello. Haces 5...50 de daño sagrado al enemigo objetivo, además de +5...10 de daño sagrado extra por cada habilidad de adrenalina que tenga.",
+				"concise": "Sello. Hace 5...50 de daño sagrado. 5...10 de daño sagrado extra por cada habilidad de adrenalina del enemigo objetivo."
+			},
 			"fr": {
+				"name": "Sceau de Rage",
+				"description": "Sceau. La cible ennemie subit 5...50 points de dégâts sacrés et +5...10 points de dégâts sacrés pour chaque compétence d'adrénaline qu'il possède.",
+				"concise": "Sceau. Inflige 5...50 points de dégâts sacrés. Inflige 5...10 points de dégâts sacrés supplémentaires pour chaque compétence d'adrénaline que l'ennemi possède."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de Rage",
 				"description": "La cible ennemie subit 5...50 points de dégâts sacrés et +5...10 points de dégâts sacrés pour chaque compétence d'adrénaline qu'il possède.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo dell'Ira",
+				"description": "Sigillo. L'obiettivo nemico subisce 5...50 danno[i] sacro[i] e +5...10 danno[i] sacro[i] per ogni abilità d'adrenalina che ha equipaggiato.",
+				"concise": "Sigillo. Danni sacri inferti: 5...50. Assesta 5...10 danno[i] sacro[i] in più per ogni abilità da adrenalina dell'obiettivo nemico."
+			},
+			"jp": {
+				"name": "レイジ シグネット",
+				"description": "シグネット： ターゲットした敵に 5...50 の神聖ダメージを与えます。また、その敵が装備するアドレナリン スキルごとに 5...10 の追加神聖ダメージを与えます。",
+				"concise": "シグネット： 5...50 の神聖ダメージを与えます。ターゲットした敵が装備するアドレナリン スキルごとに 5...10 の追加神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "격노 인장",
+				"description": "인장. 대상 지정: 적. 대상은 5...50의 신성 대미지를 입고, 스킬 단축키 창에 있는 아드레날린 스킬 하나당 5...10의 신성 대미지를 추가로 입습니다.",
+				"concise": "인장. 5...50의 신성 대미지를 줍니다. 대상이 가지고 있는 아드레날린 스킬 하나당 5...10의 신성 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Szału",
+				"description": "Sygnet. Wybrany przeciwnik otrzymuje 5...50 pkt. świętych obrażeń i 5...10 pkt. świętych obrażeń za każdą umiejętność opartą na adrenalinie, którą posiada.",
+				"concise": "Sygnet. Zadaje 5...50 pkt. świętych obrażeń. Zadaje 5...10 pkt. dodatkowych świętych obrażeń, za każdą umiejętność wybranego przeciwnika opartą na adrenalinie."
+			},
+			"ru": {
+				"name": "Signet of Rage",
+				"description": "Печать. Выбранный противник получает 5...50 ед. урона святой силой и дополнительно 5...10 ед. урона святой силой за каждое имеющееся у него умение, требующее адреналин.",
+				"concise": "Печать. Наносит 5...50 ед. урона святой силой. Наносит дополнительно 5...10 ед. урона святой силой за каждое имеющееся у выбранного противника умение, требующее адреналина."
+			},
+			"bork": {
+				"name": "Seegnet ooff Raege-a",
+				"description": "Seegnet. Taerget fue-a taekes 5...50 huly daemaege-a und +5...10 huly daemaege-a fur iaech aedrenaeleene-a skeell thaet fue-a haes.",
+				"concise": "Seegnet. Deaels 5...50 huly daemaege-a. Deaels 5...10 mure-a huly daemaege-a fur iaech ooff taerget fue-a's aedrenaeleene-a skeells."
 			}
 		}
 	}

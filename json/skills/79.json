@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量吸收",
+				"description": "精英咒文。 使目标敌人失去2...9点能量，目标敌人每失去 1点 能量，你将获得 2点 能量。",
+				"concise": "精英咒文。 使目标敌人失去2...9点能量。目标敌人每失去1点能量，你将获得2点能量。"
+			},
+			"cht": {
+				"name": "能量吸收",
+				"description": "精英咒文魔法： 目標敵人失去2...9能量， 你獲得對方失去的3倍能量。",
+				"concise": "精英咒文魔法： 目標敵人失去2...9能量， 你獲得對方失去的3倍能量。"
+			},
 			"de": {
+				"name": "Energieentzug",
+				"description": "Elite-Zauber. Der Gegner verliert 2...9 Energiepunkt[e]. Ihr erhaltet für jeden verlorenen Energiepunkt 3 Energiepunkte.",
+				"concise": "Elite-Zauber. Lässt 2...9 Energiepunkt[e] verlieren. Ihr erhaltet pro verlorenem Energiepunkt 3 Energiepunkte."
+			},
+			"de-guildwiki": {
 				"name": "Energieentzug",
 				"description": "Der Gegner verliert 2...9 Punkte Energie. Ihr erhaltet für jeden entzogenen Energiepunkt 3 Punkte Energie.",
 				"concise": "Lässt 2...9 Energiepunkte verlieren. Ihr erhaltet pro verlorenem Energiepunkt 3 Energiepunkte."
 			},
 			"en": {
 				"name": "Energy Drain",
+				"description": "Elite Spell. Target foe loses 2...9 Energy. You gain 3 Energy for each point of Energy lost.",
+				"concise": "Elite Spell. Causes 2...9 Energy loss. You gain 3 Energy for each point of Energy lost."
+			},
+			"en-gww": {
+				"name": "Energy Drain",
 				"description": "Target foe loses 2...9 Energy. You gain 3 Energy for each point of Energy lost.",
 				"concise": "Causes 2...9 Energy loss. You gain 3 Energy for each point of Energy lost."
 			},
+			"es": {
+				"name": "Drenaje de energía",
+				"description": "Conjuro de élite. El enemigo objetivo pierde 2...9 de energía. Tú ganas 3 puntos de energía por cada uno perdido.",
+				"concise": "Conjuro de élite. Causa 2...9 de pérdida de energía. Ganas 3 de energía por cada punto de energía perdido."
+			},
 			"fr": {
+				"name": "Drain d'énergie",
+				"description": "Sort d'élite. La cible ennemie perd 2...9 points d'énergie. Vous obtenez 3 points d'énergie pour chaque point d'énergie perdu par l'ennemi.",
+				"concise": "Sort d'élite. Provoque une perte de 2...9 points d'énergie. Vous obtenez 3 points d'énergie par point d'énergie perdu."
+			},
+			"fr-gwiki": {
 				"name": "Drain d'énergie",
 				"description": "La cible ennemie perd 2...9 points d'énergie. Vous obtenez 3 points d'énergie pour chaque point d'énergie perdu par l'ennemi.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Risucchio Energia",
+				"description": "Magia d'Élite. L'obiettivo nemico perde 2...9 Punto[i] Energia e tu ottieni 3 Punti Energia per ogni Punto Energia perduto dal nemico.",
+				"concise": "Magia d'Élite. Perdita Energia: 2...9. Ottieni 3 Punti Energia per ogni Punto Energia perso."
+			},
+			"jp": {
+				"name": "エネルギー ドレイン",
+				"description": "エリート スペル： ターゲットした敵は 2...9 のエネルギーを失います。失ったエネルギーのポイントごとに、プレイヤーは3のエネルギーを獲得します。",
+				"concise": "エリート スペル： エネルギーを 2...9 減少させます。プレイヤーは減少させたエネルギーのポイントごとに3のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "에너지 강탈",
+				"description": "엘리트 마법. 대상 지정: 적. 대상은 2...9의 에너지를 잃고, 자신은 그 3배의 에너지를 얻습니다.",
+				"concise": "엘리트 마법. 2...9의 에너지 손실을 유발합니다. 자신은 그 3배의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Wyssanie Energii",
+				"description": "Elitarny czar. Wybrany przeciwnik traci 2...9 pkt. energii. Zyskujesz 3 punkty energii za każdy punkt energii stracony przez przeciwnika.",
+				"concise": "Elitarny czar. Powoduje utratę 2...9 pkt. energii. Otrzymujesz 3 punkty energii za każdy punkt straconej energii."
+			},
+			"ru": {
+				"name": "Energy Drain",
+				"description": "Элитное заклинание. Выбранный противник теряет 2...9 ед. энергии. Вы получаете 3 ед. энергии за каждую потерянную им ед. энергии.",
+				"concise": "Элитное заклинание. Вызывает потерю 2...9 ед. энергии. Вы получаете 3 ед. энергии за каждую потерянную ед. энергии."
+			},
+			"bork": {
+				"name": "Inergy Draeeen",
+				"description": "Ileete-a Spell. Taerget fue-a luses 2...9 Inergy. Yuoo gaeeen 3 Inergy fur iaech pueent ooff Inergy lust.",
+				"concise": "Ileete-a Spell. Cooses 2...9 Inergy luss. Yuoo gaeeen 3 Inergy fur iaech pueent ooff Inergy lust."
 			}
 		}
 	}

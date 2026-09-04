@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Winter's Embrace",
+				"description": "负面魔法。 For 2...6 seconds, you and target touched foe move 66% slower.",
+				"concise": "负面魔法。 (2...6 seconds.) You and target foe move 66% slower."
+			},
+			"cht": {
+				"name": "冬之擁抱",
+				"description": "降咒魔法： 持續2...6秒，目標敵人移動速度降低66%，同時該敵人移動時每秒會受到5...15傷害。",
+				"concise": "降咒魔法： 持續2...6秒，目標敵人移動速度降低66%，同時該敵人移動時每秒會受到5...15傷害。"
+			},
 			"de": {
+				"name": "Umarmung des Winters",
+				"description": "Verhexung. Während der nächsten 2...6 Sekunde[n] bewegt sich der Gegner um 66% langsamer und erleidet 5...15 Punkt[e] Schaden, während er sich bewegt.",
+				"concise": "Verhexung. (2...6 Sekunde[n].) Der Gegner bewegt sich um 66% langsamer und erleidet 5...15 Punkt[e] Schaden, während er sich bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Umarmung des Winters",
 				"description": "Während der nächsten 2...6 Sekunden bewegt sich der Gegner um 66% langsamer und erleidet 5...15 Punkte Schaden pro Sekunde, während er sich bewegt.",
 				"concise": "(2...6 Sekunden.) Der Gegner bewegt sich um 66% langsamer und erleidet 5...15 Punkte Schaden pro Sekunde, während er sich bewegt."
 			},
 			"en": {
 				"name": "Winter's Embrace",
+				"description": "Hex Spell. For 2...6 seconds, target foe moves 66% slower and takes 5...15 damage while moving.",
+				"concise": "Hex Spell. (2...6 seconds.) Target foe moves 66% slower and takes 5...15 damage while moving."
+			},
+			"en-gww": {
+				"name": "Winter's Embrace",
 				"description": "For 2...6 seconds, target foe moves 66% slower and takes 5...15 damage while moving.",
 				"concise": "(2...6 seconds.) Target foe moves 66% slower and takes 5...15 damage while moving."
 			},
+			"es": {
+				"name": "Abrazo de invierno",
+				"description": "Conjuro con maleficio. Durante 2...6 segundos, el enemigo objetivo se mueve un 66% más despacio y sufre 5...15 de daño mientras se mueva.",
+				"concise": "Conjuro con maleficio. (2...6 segundos). El enemigo objetivo se mueve un 66% más despacio y sufre 5...15 de daño al moverse."
+			},
 			"fr": {
+				"name": "Etreinte de l'hiver",
+				"description": "Maléfice. Pendant 2...6 secondes, l'ennemi visé se déplace 66% moins vite et subit 5...15 points de dégâts en se déplaçant.",
+				"concise": "Maléfice. (2...6 secondes.) L'ennemi visé se déplace 66% moins vite et subit 5...15 points de dégâts en se déplaçant."
+			},
+			"fr-gwiki": {
 				"name": "Etreinte de l'hiver",
 				"description": "Pendant 2...6 secondes, l'ennemi visé se déplace 66% moins vite et reçoit 5...15 points de dégâts en se déplaçant.",
 				"concise": "(2...6 secondes.) L'ennemi visé se déplace 66% moins vite et subit 5...15 points de dégâts en se déplaçant."
+			},
+			"it": {
+				"name": "Abbraccio dell'Inverno",
+				"description": "Fattura. Per 2...6 secondi la velocità dell'obiettivo nemico diminuisce di un 66% e questi subisce 5...15 danni mentre si muove.",
+				"concise": "Fattura. (Secondi: 2...6.) Rallentamento dell'obiettivo nemico: 66%. Danni subiti in movimento: 5...15."
+			},
+			"jp": {
+				"name": "ウィンター エンブレイス",
+				"description": "弱体化スペル： 2...6 秒間、ターゲットした敵は移動速度が 66% 減少し、移動中は 5...15 のダメージを受けます。",
+				"concise": "弱体化スペル： (2...6 秒) ターゲットした敵は移動速度が 66% 減少し、移動中は 5...15 のダメージを受けます。"
+			},
+			"kr": {
+				"name": "겨울의 포옹",
+				"description": "약화 마법. 대상 지정: 적. 2...6초 동안 대상의 이동 속도가 66% 느려지고, 이동 중에 5...15의 대미지를 입습니다.",
+				"concise": "약화 마법. (2...6초) 대상의 이동 속도가 66% 느려지고, 이동 중에 5...15의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Objęcia Zimy",
+				"description": "Klątwa (czar). Przez 2...6 sek., wybrany przeciwnik porusza się o 66% wolniej i otrzymuje 5...15 pkt. obrażeń podczas ruchu.",
+				"concise": "Klątwa (czar). (2...6 sek.) Wybrany przeciwnik porusza się o 66% wolniej i otrzymuje 5...15 pkt. obrażeń podczas ruchu."
+			},
+			"ru": {
+				"name": "Winter's Embrace",
+				"description": "Заклинание-проклятье. В течение 2...6 сек выбранный противник двигается на 66% медленнее и получает 5...15 ед. урона, пока двигается.",
+				"concise": "Заклинание-проклятье. (2...6 сек) Выбранный противник двигается на 66% медленнее и получает 5...15 ед. урона, пока двигается."
+			},
+			"bork": {
+				"name": "Veenter's Imbraece-a",
+				"description": "Hex Spell. Fur 2...6 secunds, taerget fue-a mufes 66% slooer und taekes 5...15 daemaege-a vheele-a mufeeng. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (2...6 secunds.) Taerget fue-a mufes 66% slooer und taekes 5...15 daemaege-a vheele-a mufeeng."
 			}
 		}
 	}

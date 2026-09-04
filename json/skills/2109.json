@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 4,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神祝",
+				"description": "增益魔法。 使所有附近的敌人受到40...50点神圣伤害。在196608秒之内，当此「增益魔法」效果消失时，你的其他神唤使类技能将立即冷却。",
+				"concise": "增益魔法。 使所有附近的敌人受到40...50点神圣伤害。在196608秒之内，当此「增益魔法」效果消失时，你的其他神唤使类技能将立即冷却。"
+			},
+			"cht": {
+				"name": "諸神祝福",
+				"description": "加持魔法： 你體力最大值增加 100 。此加持結束時，復活範圍內所有死去的隊伍成員、回復 40...50% 體力及 20...30% 能量。",
+				"concise": "加持魔法： 你體力最大值增加 100 。此加持結束時，復活範圍內所有死去的隊伍成員、回復 40...50% 體力及 20...30% 能量。"
+			},
 			"de": {
+				"name": "Ewige Aura",
+				"description": "Verzauberung. Ihr habt +100 maximale Lebenspunkte. Wenn diese Verzauberung endet werden alle Gruppenmitglieder im Bereich mit 40...50% Lebenspunkt[en] und 20...30% Energiepunkt[en] wiederbelebt.",
+				"concise": "Verzauberung. Ihr habt +100 maximale Lebenspunkte. Wirkung am Ende: Alle Gruppenmitglieder im Bereich werden mit 40...50% Lebenspunkt[en] und 20...30% Energiepunkt[en] wiederbelebt."
+			},
+			"de-guildwiki": {
 				"name": "Ewige Aura",
 				"description": "Ihr habt +100 maximale Lebenspunkte. Wenn diese Verzauberung endet, werden alle Gruppenmitglieder (bzw. Ihr selbst) im Bereich mit 40...50% Lebenspunkten und 20...30% Energiepunkten wiederbelebt.",
 				"concise": "Ihr habt +100 maximale Lebenspunkte. Wirkung am Ende: Alle Gruppenmitglieder (bzw. Ihr selbst) im Bereich werden mit 40...50% Lebenspunkten und 20...30% Energiepunkten wiederbelebt."
 			},
 			"en": {
 				"name": "Eternal Aura",
+				"description": "Enchantment Spell. You have +100 max Health. When this enchantment ends, all party members in the area are resurrected with 40...50% Health and 20...30% Energy.",
+				"concise": "Enchantment Spell. You have +100 max Health. End effect: all party members in the area are resurrected with 40...50% Health and 20...30% Energy."
+			},
+			"en-gww": {
+				"name": "Eternal Aura",
 				"description": "You have +100 max Health. When this enchantment ends, all party members in the area are resurrected with 40...50% Health and 20...30% Energy.",
 				"concise": "You have +100 max Health. End effect: all party members in the area are resurrected with 40...50% Health and 20...30% Energy."
 			},
+			"es": {
+				"name": "Aura eterna",
+				"description": "Conjuro con encantamiento. Tienes +100 de salud máxima. Cuando termine este encantamiento, todos los miembros del grupo que estén en el área resucitarán con 40...50% de salud y 20...30% de energía.",
+				"concise": "Conjuro con encantamiento. Tienes +100 de salud máxima. Efecto final: todos los miembros del grupo que estén en el área resucitarán con 40...50% de salud y 20...30% de energía."
+			},
 			"fr": {
+				"name": "Aura éternelle",
+				"description": "Enchantement. Vous bénéficiez de +100 points de vie maximum. Lorsque cet enchantement prend fin, tous les membres du groupe dans la zone sont ressuscités avec 40...50% de leur santé et 20...30% de leur énergie.",
+				"concise": "Enchantement. Vous bénéficiez de +100 points de vie maximum. Effet final : tous les membres du groupe dans la zone sont ressuscités avec 40...50% de leur santé et 20...30% de leur énergie."
+			},
+			"fr-gwiki": {
 				"name": "Aura éternelle",
 				"description": "Tous les ennemis proches subissent 65...100 points de dégâts sacrés. Pendant 10 secondes, rien ne se passe. Lorsque cet enchantement prend fin, toutes les autres compétences du Derviche sont rechargées.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura Eterna",
+				"description": "Incantesimo. Salute massima: +100. Al termine dell'incantesimo, tutti i membri della squadra nell'area vengono resuscitati con un 40...50% di Punti Salute e un 20...30% di Punti Energia.",
+				"concise": "Incantesimo. Salute massima: +100. Effetto al termine: tutti i membri della squadra nell'area vengono resuscitati con un 40...50% di Punti Salute e un 20...30% di Punti Energia."
+			},
+			"jp": {
+				"name": "エターナル オーラ",
+				"description": "強化スペル： 体力の上限が100増加します。この効果が消失すると、エリア内にいるパーティー メンバーはすべて、40...50% の体力と 20...30% のエネルギーで復活します。",
+				"concise": "強化スペル： 体力の上限が100増加します。終了効果： エリア内にいるパーティー メンバーはすべて、40...50% の体力と 20...30% のエネルギーで復活します。"
+			},
+			"kr": {
+				"name": "영원의 오라",
+				"description": "강화 마법. 최대 체력이 100만큼 증가합니다. 효과가 끝나면 일정 범위 내에 있는 모든 전사한 파티원이 40...50%의 체력과 20...30%의 에너지를 가진 채 부활합니다.",
+				"concise": "강화 마법. 최대 체력이 100만큼 증가합니다. 종료 효과: 일정 범위 내에 있는 모든 전사한 파티원이 40...50%의 체력과 20...30%의 에너지를 가진 채 부활합니다."
+			},
+			"pl": {
+				"name": "Odwieczna Aura",
+				"description": "Zaklęcie (czar). Otrzymujesz +100 do maksymalnej żywotności. Kiedy to zaklęcie dobiegnie końca, wszyscy członkowie drużyny na danym obszarze zostaną wskrzeszeni, otrzymując 40...50% żywotności oraz 20...30% energii.",
+				"concise": "Zaklęcie (czar). Otrzymujesz +100 do maksymalnej żywotności. Efekt końcowy: Wszyscy członkowie drużyny na danym obszarze zostaną wskrzeszeni, otrzymując 40...50% żywotności oraz 20...30% energii."
+			},
+			"ru": {
+				"name": "Eternal Aura",
+				"description": "Заклинание-чары. Вы получаете +100 ед. к максимальному запасу здоровья. Когда эти чары заканчивают свое действие, все союзники в зоне досягаемости будут воскрешены с 40...50% здоровья и 20...30% энергии.",
+				"concise": "Заклинание-чары. Вы получаете +100 ед. к максимальному запасу здоровья. Эффект окончания: все союзники в зоне досягаемости будут воскрешены с 40...50% здоровья и 20...30% энергии."
+			},
+			"bork": {
+				"name": "Iternael Oora",
+				"description": "Inchuntment Spell. Yuoo haefe-a +100 maex Heaelt. Vhee thees inchuntment inds, aell paerty members in zee aerea aere-a resoorrected veet 40...50% Heaelt und 20...30% Inergy.",
+				"concise": "Inchuntment Spell. Yuoo haefe-a +100 maex Heaelt. Ind iffffect: aell paerty members in zee aerea aere-a resoorrected veet 40...50% Heaelt und 20...30% Inergy."
 			}
 		}
 	}

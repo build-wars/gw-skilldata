@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂野斩",
+				"description": "剑术。 命中时，对敌人造成5...30点额外伤害。如果你并没有处于任何「姿态」，你将使敌人「流血」5...15秒。",
+				"concise": "剑术。 命中时，对敌人造成5...30点额外伤害。如果你并没有处于任何「姿态」，你将使敌人「流血」5...15秒。"
+			},
+			"cht": {
+				"name": "殘暴切割",
+				"description": "劍術攻擊技能： 命中時對目標造成 5...30 額外傷害。若你發動此技能時不具有「態勢」，則你也會同時讓目標「流血」 5...15 秒。",
+				"concise": "劍術攻擊技能： 命中時對目標造成 5...30 額外傷害。若你發動此技能時不具有「態勢」，則你也會同時讓目標「流血」 5...15 秒。"
+			},
 			"de": {
+				"name": "Barbarischer Schnitt",
+				"description": "Schwertangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...30 Punkt[e] Schaden zu. Wenn Ihr gegenwärtig keine Haltung einnehmt, fügt Ihr auch 5...15 Sekunde[n] lang eine Blutung zu.",
+				"concise": "Schwertangriff. Richtet +5...30 Punkt[e] Schaden an. Verursacht Zustand Blutung (5...15 Sekunde[n]), falls Ihr keine Haltung einnehmt."
+			},
+			"de-guildwiki": {
 				"name": "Barbarischer Schnitt",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...30 Punkte Schaden zu. Wenn Ihr gegenwärtig keine Haltung einnehmt, fügt Ihr auch 5...15 Sekunden lang eine Blutung zu.",
 				"concise": "Richtet +5...30 Punkte Schaden an. Verursacht Zustand Blutung (5...15 Sekunden), falls Ihr keine Haltung einnehmt."
 			},
 			"en": {
 				"name": "Barbarous Slice",
+				"description": "Sword Attack. If this attack hits, you deal +5...30 damage. If you are currently not in a stance, you also inflict Bleeding for 5...15 seconds.",
+				"concise": "Sword Attack. Deals +5...30 damage. Inflicts Bleeding condition (5...15 seconds) if you are not in a stance."
+			},
+			"en-gww": {
+				"name": "Barbarous Slice",
 				"description": "If this attack hits, you deal +5...30 damage. If you are currently not in a stance, you also inflict Bleeding for 5...15 seconds.",
 				"concise": "Deals +5...30 damage. Inflicts Bleeding condition (5...15 seconds) if you are not in a stance."
 			},
+			"es": {
+				"name": "Corte bárbaro",
+				"description": "Ataque con espada. Si este ataque impacta, harás +5...30 de daño. Si no estás manteniendo ninguna actitud, también harás una hemorragia durante 5...15 segundos.",
+				"concise": "Ataque con espada. Hace +5...30 de daño. Causa hemorragia (5...15 segundos) si no mantienes ninguna actitud."
+			},
 			"fr": {
+				"name": "Entaille barbare",
+				"description": "Attaque à l'épée. Si cette attaque réussit, vous infligez +5...30 points de dégâts. Si vous n'êtes pas en pose de combat, vous causez également le Saignement pendant 5...15 secondes.",
+				"concise": "Attaque à l'épée. Inflige +5...30 points de dégâts. Inflige le Saignement (5...15 secondes) si vous n'êtes pas en pose de combat."
+			},
+			"fr-gwiki": {
 				"name": "Entaille barbare",
 				"description": "Si cette attaque réussit, vous infligez +5...30 points de dégâts. Si vous n'êtes pas en pose de combat, vous causez également le Saignement pendant 5...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Squarcio Barbarico",
+				"description": "Attacco con Spada. Se questo attacco va a segno, infliggi +5...30 danno[i]; se al momento non stai utilizzando una posizione infliggi anche Emorragia per 5...15 secondo[i].",
+				"concise": "Attacco con Spada. Danni inferti: +5...30. Condizione inflitta se non sei in posizione: Emorragia (5...15 secondo[i])."
+			},
+			"jp": {
+				"name": "バーバラス スライス",
+				"description": "ソード アタック： この攻撃が成功すると、5...30 の追加ダメージを与えます。さらに、スタンスを使用していない場合、敵を 5...15 秒間「出血」状態にします。",
+				"concise": "ソード アタック： 5...30 の追加ダメージを与えます。スタンスを使用していない場合、「出血」状態にします (5...15 秒) 。"
+			},
+			"kr": {
+				"name": "야만스런 베기",
+				"description": "칼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...30의 대미지를 추가로 줍니다. 자신이 사용 중인 자세 스킬이 없으면 대상은 5...15초 동안 출혈 상태가 됩니다.",
+				"concise": "칼 공격. 5...30의 대미지를 추가로 줍니다. 자신이 자세를 취하고 있지 않으면 출혈을 일으키게 합니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Barbarzyńskie Podcięcie",
+				"description": "Atak mieczem. Jeśli atak trafi, zadaje +5...30 pkt. obrażeń. Jeżeli nie przyjąłeś żadnej postawy, to twój cel przez 5...15 sek. będzie krwawił.",
+				"concise": "Atak mieczem. Zadaje +5...30 pkt. obrażeń. Wywołuje przypadłość krwawienie (5...15 sek.), jeżeli nie przyjąłeś postawy."
+			},
+			"ru": {
+				"name": "Barbarous Slice",
+				"description": "Атака мечом. Если эта атака попадает в цель, вы наносите дополнительно 5...30 ед. урона. Если вы не используете при этом какую-либо стойку, ваш противник также будет кровоточить в течение 5...15 сек.",
+				"concise": "Атака мечом. Наносит дополнительно 5...30 ед. урона. Вызывает кровотечение (5...15 сек), если вы не находитесь в стойке."
+			},
+			"bork": {
+				"name": "Baerbaeruoos Sleece-a",
+				"description": "Svurd Aettaeck. Iff thees aettaeck heets, yuoo deael +5...30 daemaege-a. Iff yuoo aere-a coorrently nut in a stunce-a, yuoo aelsu inffleect Bleedeeng fur 5...15 secunds.",
+				"concise": "Svurd Aettaeck. Deaels +5...30 daemaege-a. Inffleects Bleedeeng cundeeshun (5...15 secunds) iff yuoo aere-a nut in a stunce-a. Bork! Bork! Bork!"
 			}
 		}
 	}

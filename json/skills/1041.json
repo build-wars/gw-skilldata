@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "未知之怒",
+				"description": "姿态。 在10...30秒之内，被「盲目」的敌人将不能格挡你的攻击，当你被「盲目」时例外。",
+				"concise": "姿态。 在10...30秒之内，被「盲目」的敌人将不能格挡你的攻击。"
+			},
+			"cht": {
+				"name": "目盲狂怒",
+				"description": "態勢： 持續10...30秒，所有鄰近的敵人遭受盲目3...10秒。當你攻擊遭受盲目病症的目標時，該目標無法格擋。",
+				"concise": "態勢： 持續10...30秒，所有鄰近的敵人遭受盲目3...10秒。當你攻擊遭受盲目病症的目標時，該目標無法格擋。"
+			},
 			"de": {
+				"name": "Unsichtbare Wut",
+				"description": "Haltung. Alle umstehenden Feinde werden 3...10 Sekunden lang geblendet. Während der nächsten 10...30 Sekunden könnt Ihr von geblendeten Gegnern nicht geblockt werden.",
+				"concise": "Haltung. Verursacht bei umstehenden Feinden Zustand Blindheit (3...10 Sekunde[n]). Geblendete Feinde können Eure Angriffe nicht blocken (10...30 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Unsichtbare Wut",
 				"description": "Alle umstehenden Feinde werden 3...10 Sekunden lang geblendet. Während der nächsten 10...30 Sekunden könnt ihr von geblendeten Gegnern nicht geblockt werden.",
 				"concise": "Verursacht bei umstehenden Feinden Zustand Blindheit (3...10 Sekunden). Geblendete Feinde können Eure Angriffe nicht blocken (10...30 Sekunden)."
 			},
 			"en": {
 				"name": "Unseen Fury",
+				"description": "Stance. All adjacent foes are Blinded for 3...10 seconds. For 10...30 seconds, you cannot be blocked by Blinded foes.",
+				"concise": "Stance. Inflicts Blindness condition on adjacent foes (3...10 seconds). You cannot be blocked by Blinded foes (10...30 seconds)."
+			},
+			"en-gww": {
+				"name": "Unseen Fury",
 				"description": "All adjacent foes are Blinded for 3...10 seconds. For 10...30 seconds, you cannot be blocked by Blinded foes.",
 				"concise": "Inflicts Blindness condition on adjacent foes (3...10). You cannot be blocked by Blinded foes for 10...30 seconds."
 			},
+			"es": {
+				"name": "Furia inadvertida",
+				"description": "Actitud. Todos los enemigos cercanos quedan cegados durante 3...10 segundos. Durante 10...30 segundos, los enemigos cegados no te podrán bloquear.",
+				"concise": "Actitud. Causa ceguera a los enemigos cercanos (3...10 segundos). Los enemigos cegados no podrán bloquear tus ataques (10...30 segundos)."
+			},
 			"fr": {
+				"name": "Furie invisible",
+				"description": "Pose de combat. Tous les ennemis adjacents sont aveuglés pendant 3...10 secondes. Pendant 10...30 secondes, vous ne pouvez pas être bloqué[f:\"bloquée\"] par des ennemis aveuglés.",
+				"concise": "Pose de combat. Provoque l'Aveuglement (3...10 secondes). Vos attaques ne peuvent pas être bloquées par des ennemis aveuglés (10...30 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Furie invisible",
 				"description": "Tous les ennemis adjacents sont aveuglés pendant 3...10 secondes. Pendant 10...30 secondes vous ne pouvez pas être bloqué par des ennemis aveuglés.",
 				"concise": "Provoque l'Aveuglement (3...10 secondes). Vous ne pouvez pas être bloqués par des ennemis aveuglés (10...30 secondes)."
+			},
+			"it": {
+				"name": "Furia Invisibile",
+				"description": "Posizione. Tutti i nemici adiacenti vengono accecati per 3...10 secondi. Per 10...30 secondi non puoi essere bloccato dai nemici accecati.",
+				"concise": "Posizione. Condizione inflitta ai nemici adiacenti: Accecamento (secondi: 3...10). Non puoi essere bloccato dai nemici accecati (secondi: 10...30)."
+			},
+			"jp": {
+				"name": "アンシーン フューリー",
+				"description": "スタンス： 隣接するすべての敵を 3...10 秒間「盲目」状態にします。プレイヤーは 10...30 秒間、「盲目」状態の敵への攻撃がブロックされません。",
+				"concise": "スタンス： 隣接する敵を「盲目」状態にします (3...10 秒)。「盲目」状態の敵に対する攻撃はブロックされません (10...30 秒)。"
+			},
+			"kr": {
+				"name": "어둠속의 공포",
+				"description": "자세. 대상 지정: 없음. 인접한 모든 적을 3...10초 동안 실명 상태로 만듭니다. 실명 상태인 적은 10...30초 동안 당신의 공격을 막을 수 없습니다.",
+				"concise": "자세. 인접한 적들을 실명시킵니다.(3...10초) 실명 상태인 적은 이 공격을 막을 수 없습니다.(10...30초)"
+			},
+			"pl": {
+				"name": "Niewidoczna Furia",
+				"description": "Postawa. Wszyscy przeciwnicy w kontakcie zostaną oślepieni na 3...10 sek. Przez 10...30 sek., oślepieni przeciwnicy nie mogą cię blokować.",
+				"concise": "Postawa. Wywołuje oślepienie wśród sąsiednich przeciwników (3...10 s). Nie możesz zostać zablokowany przez oślepionych przeciwnikĂłw (10...30 s)."
+			},
+			"ru": {
+				"name": "Unseen Fury",
+				"description": "Стойка. Все окружающие противники будут ослеплены на 3...10 сек. В течение 10...30 сек ослепленные противники не могут блокировать ваши атаки.",
+				"concise": "Стойка. Вызывает слепоту у окружающих противников (3...10 сек). Вас не могут блокировать ослепленные противники (10...30 сек)."
+			},
+			"bork": {
+				"name": "Unseee Foory",
+				"description": "Stunce-a. Aell aedjaecent fues aere-a Bleended fur 3...10 secunds. Fur 10...30 secunds, yuoo cunnut be-a blucked by Bleended fues.",
+				"concise": "Stunce-a. Inffleects Bleendness cundeeshun oon aedjaecent fues (3...10 secunds). Yuoo cunnut be-a blucked by Bleended fues (10...30 secunds)."
 			}
 		}
 	}

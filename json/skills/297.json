@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "祝福纹章",
+				"description": "纹章。 以你目前所维持的「增益魔法」数量为准，每一个「增益魔法」让你获得3点能量（最多可获取3...24点能量）",
+				"concise": "纹章。 以你目前所维持的「增益魔法」数量为准，每一个「增益魔法」让你获得 3点 能量（最多可获取3...24点能量）"
+			},
+			"cht": {
+				"name": "祝福紋章",
+				"description": "紋章： 依照你目前維持的「加持」數量，每一項讓你獲得 3 能量（最多 3...24 ）。",
+				"concise": "紋章： 依照你目前維持的「加持」數量，每一項讓你獲得 3 能量（最多 3...24 ）。"
+			},
 			"de": {
+				"name": "Gesegnetes Siegel",
+				"description": "Siegel. Für jede Verzauberung, die Ihr aufrechterhaltet, bekommt Ihr 3 Energiepunkte. Auf diese Weise bekommt Ihr höchstens 3...24 Energiepunkt[e].",
+				"concise": "Siegel. Ihr bekommt 3 Energiepunkte für jede Verzauberung, die Ihr aufrechterhaltet. Auf diese Weise bekommt Ihr höchstens 3...24 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Gesegnetes Siegel",
 				"description": "Für jede Verzauberung, die Ihr aufrechterhaltet, bekommt Ihr 3 Energiepunkte, höchstens aber 3...24 Punkte.",
 				"concise": "Ihr bekommt 3 Energiepunkte für jede Verzauberung, die Ihr aufrechterhaltet. <gray>Auf diese Weise bekommt Ihr höchstens 3...24 Energiepunkte.</gray>"
 			},
 			"en": {
 				"name": "Blessed Signet",
+				"description": "Signet. For each enchantment you are maintaining, you gain 3 Energy. You cannot gain more than 3...24 Energy in this way.",
+				"concise": "Signet. You gain 3 Energy for each enchantment you are maintaining. You cannot gain more than 3...24 Energy in this way."
+			},
+			"en-gww": {
+				"name": "Blessed Signet",
 				"description": "For each enchantment you are maintaining, you gain 3 Energy. You cannot gain more than 3...24 Energy in this way.",
 				"concise": "You gain 3 Energy for each enchantment you are maintaining. <gray>You cannot gain more than 3...24 Energy in this way.</gray>"
 			},
+			"es": {
+				"name": "Sello bendito",
+				"description": "Sello. Por cada encantamiento que mantengas, ganas 3 de energía. No puedes ganar más de 3...24 de energía de este modo.",
+				"concise": "Sello. Ganas 3 de energía por cada encantamiento que estés manteniendo. No puedes ganar más de 3...24 de energía de este modo."
+			},
 			"fr": {
+				"name": "Sceau sacré",
+				"description": "Sceau. Vous obtenez 3 points d'énergie pour chaque enchantement que vous maintenez. Vous ne pouvez pas obtenir plus de 3...24 points d'énergie de cette manière.",
+				"concise": "Sceau. Vous récupérez 3 points d'énergie pour chaque enchantement que vous maintenez. Vous ne pouvez pas obtenir plus de 3...24 points d'énergie de cette manière."
+			},
+			"fr-gwiki": {
 				"name": "Sceau sacré",
 				"description": "Chaque enchantement que vous maintenez vous fait gagner 3 points d'énergie (maximum 3...24).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo Benedetto",
+				"description": "Sigillo. Per ogni incantesimo da te mantenuto ottieni 3 Punti Energia. Puoi ottenere solo un massimo di 3...24 Punto[i] Energia in questo modo.",
+				"concise": "Sigillo. Energia conseguita per ogni incantesimo da te mantenuto: 3. Energia massima conseguibile in questo modo: 3...24."
+			},
+			"jp": {
+				"name": "ブレス シグネット",
+				"description": "シグネット： 維持している強化スペルごとに3のエネルギーを獲得します。この効果により獲得することができるエネルギーの上限は 3...24 です。",
+				"concise": "シグネット： 持続させている強化スペルごとに3のエネルギーを獲得します。この効果によるエネルギーの最大獲得量は 3...24 です。"
+			},
+			"kr": {
+				"name": "축복 인장",
+				"description": "인장. 대상 지정: 없음. 자신이 걸어서 지속시키고 있는 강화 마법 하나당 3의 에너지를 얻습니다. 최대 3...24의 에너지를 얻을 수 있습니다.",
+				"concise": "인장. 자신이 걸어서 유지하고 있는 강화 마법 하나당 3의 에너지를 얻습니다. 최대 3...24의 에너지를 얻을 수 있습니다."
+			},
+			"pl": {
+				"name": "Błogosławiony Sygnet",
+				"description": "Sygnet. Za każde zaklęcie, które utrzymujesz, otrzymujesz 3 pkt. energii. W ten sposób nie możesz otrzymać więcej niż 3...24 pkt. energii.",
+				"concise": "Sygnet. Za każde zaklęcie, które utrzymujesz, otrzymujesz 3 punkty Energii. W ten sposób nie możesz otrzymać więcej niż 3...24 pkt. energii."
+			},
+			"ru": {
+				"name": "Blessed Signet",
+				"description": "Печать. За каждые чары, который вы поддерживаете, вы получаете 3 ед. энергии. Вы не можете получить таким способом более 3...24 ед. энергии.",
+				"concise": "Печать. Вы получаете 3 ед. энергии за каждые поддерживаемые вами чары. Вы не можете получить таким способом более 3...24 ед. энергии."
+			},
+			"bork": {
+				"name": "Blessed Seegnet",
+				"description": "Seegnet. Fur iaech inchuntment yuoo aere-a maeeentaeeeneeng, yuoo gaeeen 3 Inergy. Yuoo cunnut gaeeen mure-a thun 3...24 Inergy in thees vaey.",
+				"concise": "Seegnet. Yuoo gaeeen 3 Inergy fur iaech inchuntment yuoo aere-a maeeentaeeeneeng. Yuoo cunnut gaeeen mure-a thun 3...24 Inergy in thees vaey."
 			}
 		}
 	}

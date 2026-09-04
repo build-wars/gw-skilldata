@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Calculated Risk",
+				"description": "负面魔法。 For 3...24 seconds, target foe has a 50% chance to miss with attacks but does +15...100 damage.",
+				"concise": "负面魔法。 (3...24 seconds.) Target foe has 50% miss chance but deals +15...100 damage."
+			},
+			"cht": {
+				"name": "風險預計",
+				"description": "降咒魔法： 持續 3...24 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15...100 )。",
+				"concise": "降咒魔法： 持續 3...24 秒，目標敵人攻擊傷害增加 10 ，但有 50% 機率被自己的傷害反彈 (最多 15...100 )。"
+			},
 			"de": {
+				"name": "Kalkuliertes Risiko",
+				"description": "Verhexung. 3...24 Sekunde[n] lang fügen Angriffe des Gegners +10 Punkte Schaden zu, aber es gibt bei jedem Angriff eine Chance von 50%, dass der Schaden stattdessen dem Gegner zugefügt wird. (Maximal 15...100 Punkt[e] Schaden)",
+				"concise": "Verhexung. (3...24 Sekunde[n].) Angriffe des Gegners richten +10 Punkte Schaden an. Bei jedem Angriff besteht eine Chance von 50%, dass der Schaden (maximal 15...100 Punkt[e]) stattdessen dem Gegner zugefügt wird."
+			},
+			"de-guildwiki": {
 				"name": "Kalkuliertes Risiko",
 				"description": "3...24 Sekunden lang fügen Angriffe des Gegners +10 Schaden zu, aber es gibt bei jedem Angriff eine Chance von 50%, dass der Schaden stattdessen dem Gegner zugefügt wird. (Maximal 15...100 Punkte Schaden)",
 				"concise": "(3...24 Sekunden.) Angriffe des Gegners richten +10 Punkte Schaden an. Bei jedem Angriff besteht eine Chance von 50%, dass der Schaden (maximal 15...100 Punkte) stattdessen dem Gegner zugefügt wird."
 			},
 			"en": {
 				"name": "Calculated Risk",
+				"description": "Hex Spell. For 3...24 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...100 damage.)",
+				"concise": "Hex Spell. (3...24 seconds.) Target foe's attacks do +10 damage. Each attack has a 50% chance that the damage (maximum 15...100) will be done to that foe instead."
+			},
+			"en-gww": {
+				"name": "Calculated Risk",
 				"description": "For 3...24 seconds, target foe's attacks do +10 damage, but there is a 50% chance that the damage from each attack will be done to that foe instead. (Maximum 15...100 damage.)",
 				"concise": "Target foe does +10 damage with attacks (3...24 seconds). There is a 50% chance that the damage from each attack (maximum 15...100) will be done to that foe instead."
 			},
+			"es": {
+				"name": "Riesgo calculado",
+				"description": "Conjuro con maleficio. Durante 3...24 segundos, los ataques del enemigo objetivo hacen +10 de daño, pero hay un 50% de posibilidades de que dicho enemigo reciba el daño realizado con cada ataque. (Máximo 15...100 de daño.)",
+				"concise": "Conjuro con maleficio. (3...24 segundos). Los ataques del enemigo objetivo hacen +10 de daño. Cada ataque tiene 50% de posibilidades de que el enemigo reciba el daño realizado con cada ataque (máximo 15...100)."
+			},
 			"fr": {
+				"name": "Risque calculé",
+				"description": "Maléfice. Pendant 3...24 secondes, les attaques de l'ennemi visé infligent +10 points de dégâts, mais il y a 50% de chances que les dégâts de chaque attaque soient subis par cet ennemi et non sa cible (Points de dégâts : maximum 15...100).",
+				"concise": "Maléfice. (3...24 secondes.) Les attaques de l'ennemi visé infligent +10 points de dégâts. Chaque attaque a 50% de chances d'infliger des dégâts (maximum 15...100) à cet ennemi et non à sa cible."
+			},
+			"fr-gwiki": {
 				"name": "Risque calculé",
 				"description": "Pendant 3...24 secondes, l'ennemi visé inflige 10 points de dégâts supplémentaires, mais il y a 50% de chances que les dégâts de chacune de ses attaques lui soient infligés. (15...100 points de dégâts maximum.)",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rischio Calcolato",
+				"description": "Fattura. Per 3...24 secondi gli attacchi dell'obiettivo nemico infliggono +10 danni, ma c'è un 50% di probabilità che i danni assestati con ogni attacco si ripercuotano su di lui (danni massimi: 15...100).",
+				"concise": "Fattura. (Secondi: 3...24). Gli attacchi dell'obiettivo nemico infliggono +10 danni. Per ogni attacco c'è un 50% di probabilità che il danno (massimo 15...100) venga inflitto al nemico."
+			},
+			"jp": {
+				"name": "カルキュレート リスク",
+				"description": "弱体化スペル： 3...24 秒間、ターゲットした敵の攻撃は10の追加ダメージが発生しますが、それぞれの攻撃のダメージは 50% の確率でその敵自身に与えられます (最大 15...100のダメージ) 。",
+				"concise": "弱体化スペル： (3...24 秒) ターゲットした敵の攻撃には10の追加ダメージが発生します。それぞれの攻撃ダメージは 50% の確率でその敵自身に与えられます (最大 15...100) 。"
+			},
+			"kr": {
+				"name": "계산된 위험",
+				"description": "약화 마법. 대상 지정: 적. 3...24초 동안 대상은 공격할 때 10의 대미지를 추가로 주지만, 50%의 확률로 공격 시에 그 대미지를 최대 15...100만큼 자신이 입습니다.",
+				"concise": "약화 마법. (3...24초) 대상은 공격할 때 10의 대미지를 추가로 주지만, 50%의 확률로 공격 시에 그 대미지를 최대 15...100만큼 자신이 입습니다."
+			},
+			"pl": {
+				"name": "Przewidziane Ryzyko",
+				"description": "Klątwa (czar). Przez 3...24 sek., ataki wybranego przeciwnika zadają +10 obrażeń, ale istnieje 50% szansy, że obrażenia z każdego ataku otrzyma właśnie ten wróg. (Maksymalnie 15...100.)",
+				"concise": "Klątwa (czar). (3...24 sek.) Ataki wybranego przeciwnika zadają +10 obrażeń. Przy każdym ataku istnieje 50% szansy, że obrażenia (maksymalnie 15...100) przejdą właśnie na tego przeciwnika."
+			},
+			"ru": {
+				"name": "Calculated Risk",
+				"description": "Заклинание-проклятье. В течение 3...24 сек атаки выбранного противника наносят дополнительно 10 ед. урона, но при каждой атаке с вероятностью 50% урон от атаки получит сам противник. (Не более 15...100 ед. урона).",
+				"concise": "Заклинание-проклятье. (3...24 сек) Атаки выбранного противника наносят дополнительно 10 ед. урона. Каждая атаки имеет 50%-й шанс, что урон от атаки (не более 15...100 ед.) получит сам противник."
+			},
+			"bork": {
+				"name": "Caelcoolaeted Reesk",
+				"description": "Hex Spell. Fur 3...24 secunds, taerget fue-a's aettaecks du +10 daemaege-a, boot zeere-a is a 50% chunce-a thaet zee daemaege-a frum iaech aettaeck veell be-a dune-a tu thaet fue-a insteaed. (Maexeemoom 15...100 daemaege-a.)",
+				"concise": "Hex Spell. (3...24 secunds.) Taerget fue-a's aettaecks du +10 daemaege-a. Iaech aettaeck haes a 50% chunce-a thaet zee daemaege-a (maexeemoom 15...100) veell be-a dune-a tu thaet fue-a insteaed."
 			}
 		}
 	}

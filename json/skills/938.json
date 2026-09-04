@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "坚实结界",
+				"description": "结界魔法。 在你脚下创造一个持续10...25秒的「坚实结界」。在结界范围内，所有我方「非灵体」类友方都将不能被\"击倒\"。",
+				"concise": "结界魔法。 在你脚下创造一个持续 10...25秒的「坚实结界」。在结界范围内，所有我方非灵体类队友都将不能被\"击倒\"。"
+			},
+			"cht": {
+				"name": "穩定結界",
+				"description": "結界魔法： 你創造一個穩定結界。持續 10...25 秒，使範圍內非「靈」的盟友無法被擊倒。",
+				"concise": "結界魔法： 你創造一個穩定結界。持續 10...25 秒，使範圍內非「靈」的盟友無法被擊倒。"
+			},
 			"de": {
+				"name": "Kreis der Stabilität",
+				"description": "Abwehrzauber. Erstellt an Eurer aktuellen Position einen Kreis der Stabilität. 10...25 Sekunde[n] lang können Verbündete, die keine Geister sind, nicht zu Boden geworfen werden.",
+				"concise": "Abwehrzauber. (10...25 Sekunde[n].) Verbündete in dieser Abwehr können nicht zu Boden geworfen werden. Verbündete Geister sind nicht betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Kreis der Stabilität",
 				"description": "Erzeugt an Eurer aktuellen Position einen Kreis der Stabilität. 10...25 Sekunden lang können Verbündete, die keine Geister sind, nicht zu Boden geworfen werden.",
 				"concise": "10...25 Sekunden: Verbündete in dieser Abwehr können nicht zu Boden geworfen werden. <gray>Verbündete Geister sind nicht betroffen.</gray>"
 			},
 			"en": {
 				"name": "Ward of Stability",
+				"description": "Ward Spell. Create a Ward of Stability at your current location. For 10...25 seconds, non-spirit allies cannot be knocked down.",
+				"concise": "Ward Spell. (10...25 seconds.) Allies in this ward cannot be knocked-down. Allied spirits are not affected."
+			},
+			"en-gww": {
+				"name": "Ward of Stability",
 				"description": "Create a Ward of Stability at your current location. For 10...25 seconds, non-spirit allies cannot be knocked down.",
 				"concise": "(10...25 seconds.) Allies in this ward cannot be knocked-down. <gray>Allied spirits are not affected.</gray>"
 			},
+			"es": {
+				"name": "Protección de estabilidad",
+				"description": "Conjuro de protección. Creas una Protección de estabilidad en el lugar donde estés. Durante 10...25 segundos, los aliados no espíritus no podrán ser derribados.",
+				"concise": "Conjuro de protección. (10...25 segundos). No se puede derribar a los aliados dentro de esta protección. No afecta a los aliados espíritus."
+			},
 			"fr": {
+				"name": "Protection de stabilité",
+				"description": "Sort de protection. Vous créez une Protection de stabilité sur votre position actuelle. Pendant 10...25 secondes, les alliés autres que les esprits ne peuvent pas être renversés.",
+				"concise": "Sort de protection. (10...25 secondes.) Les alliés bénéficiant de cette protection ne peuvent pas être renversés. Les esprits alliés ne sont pas affectés."
+			},
+			"fr-gwiki": {
 				"name": "Protection de stabilité",
 				"description": "Vous créez une Protection de stabilité sur votre position actuelle. Pendant 10...25 secondes, les alliés dans la zone autres que des esprits ne peuvent pas être assommés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guardia della Stabilità",
+				"description": "Guardia. Crei una Guardia della Stabilità nella tua posizione attuale. Per 10...25 secondi, gli alleati (Spiriti esclusi) non possono essere abbattuti.",
+				"concise": "Guardia. (Secondi: 10...25.) Gli alleati in questa Guardia non possono essere abbattuti. Non ha effetto sugli Spiriti alleati."
+			},
+			"jp": {
+				"name": "スタビリティ ウォード",
+				"description": "ウォード スペル： 自分の周辺に結界を張ります。10...25 秒間、精霊以外の味方は、転倒しません。",
+				"concise": "ウォード スペル： (10...25 秒) このエリア内にいる味方は転倒しません。味方の精霊は対象外です。"
+			},
+			"kr": {
+				"name": "안정의 결계",
+				"description": "결계. 대상 지정: 없음. 자신의 위치에 마법 결계를 만듭니다. 10...25초 동안 영혼이 아닌 아군은 넘어지지 않습니다. 이 마법을 30초 동안 사용할 수 없습니다.",
+				"concise": "결계. (10...25초) 결계 내에 있는 아군은 넘어지지 않습니다. 영혼에겐 영향이 없고, 이 마법을 사용할 수 없습니다.(30초)"
+			},
+			"pl": {
+				"name": "Ochrona przed Powaleniem",
+				"description": "Ochrona (czar). W miejscu, w którym przebywasz, tworzysz Ochronę przed Powaleniem. Przez 10...25 sek. sojusznicy nie-duchy nie mogą zostać powaleni.",
+				"concise": "Ochrona (czar). (10...25 sek.) Sojusznicy w granicach tej ochrony nie mogą zostać powaleni. Nie działa na sojusznicze duchy."
+			},
+			"ru": {
+				"name": "Ward of Stability",
+				"description": "Заклинание опеки. Вы создаете Ward of Stability в вашем текущем местоположении. В течение 10...25 сек все не являющиеся Духами союзники не могут быть сбиты с ног.",
+				"concise": "Заклинание опеки. (10...25 сек) Союзников в этой Сфере нельзя сбить с ног. Не действует на духов."
+			},
+			"bork": {
+				"name": "Vaerd ooff Staebeeleety",
+				"description": "Vaerd Spell. Creaete-a a Vaerd ooff Staebeeleety aet yuoor coorrent lucaeshun. Fur 10...25 secunds, nun-spureet aelleees cunnut be-a knucked doon. Bork! Bork! Bork!",
+				"concise": "Vaerd Spell. (10...25 secunds.) Aelleees in thees vaerd cunnut be-a knucked-doon. Aelleeed spureets aere-a nut aeffffected."
 			}
 		}
 	}

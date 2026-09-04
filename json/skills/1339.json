@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
-		"recharge": 15,
+		"aftercast": 0.75,
+		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "激励之符",
+				"description": "精英技能。 6...40秒内，此技能变为目标敌军的精英技能。你施放的精英技能将使用你的快速施法属性，而非他们的普通属性。",
+				"concise": "精英技能。 （6...40秒）此技能变为目标敌军的精英技能。精英技能将使用你的快速施法属性，而非其普通属性。"
+			},
+			"cht": {
+				"name": "靈感標誌",
+				"description": "精英技能： For 6...40 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.",
+				"concise": "精英技能： (6...40 seconds.) This skill becomes the Elite of target foe. Elite skills use your Fast Casting attribute instead of their normal attributes."
+			},
 			"de": {
 				"name": "Symbole der Inspiration",
-				"description": "1...31 Sekunden lang wird diese Fertigkeit zur Elite-Fertigkeit des Gegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut.",
-				"concise": "1...31 Sekunden: Diese Fertigkeit wird zur Elite-Fertigkeit des Gegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut."
+				"description": "Elite-Fertigkeit. 6...40 Sekunden lang wird diese Fertigkeit zur Elite-Fertigkeit eines Zielgegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden Euer Wirken-Attribut anstelle ihrer eigentlichen Attribute.",
+				"concise": "Elite-Fertigkeit. (6...40 Sekunden.) Diese Fertigkeit wird zur Elite-Fertigkeit eines Zielgegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden Euer Wirken-Attribut anstelle ihrer eigentlichen Attribute."
+			},
+			"de-guildwiki": {
+				"name": "Symbole der Inspiration",
+				"description": "6...40 Sekunden lang wird diese Fertigkeit zur Elite-Fertigkeit des Gegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut.",
+				"concise": "6...40 Sekunden: Diese Fertigkeit wird zur Elite-Fertigkeit des Gegners. Elite-Fertigkeiten, die Ihr wirkt, verwenden anstelle Eures normalen Attributs das Schnellwirkungs-Attribut."
 			},
 			"en": {
 				"name": "Symbols of Inspiration",
-				"description": "For 1...31 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.",
-				"concise": "(1...31 seconds.) This skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes."
+				"description": "Elite Skill. For 6...40 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.",
+				"concise": "Elite Skill. (6...40 seconds.) This skill becomes the Elite of target foe. Elite skills use your Fast Casting attribute instead of their normal attributes."
+			},
+			"en-gww": {
+				"name": "Symbols of Inspiration",
+				"description": "For 6...40 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.",
+				"concise": "(6...40 seconds.) This skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes."
+			},
+			"es": {
+				"name": "Símbolos de inspiración",
+				"description": "Habilidad de élite. Durante 6...40 segundos, esta habilidad se transforma en la habilidad de élite del enemigo objetivo. Las habilidades de élite que lances usarán tu atributo lanzamiento rápido en lugar de su atributo correspondiente.",
+				"concise": "Habilidad de élite. (6...40 segundos). Esta habilidad se transforma en la habilidad de élite del enemigo objetivo. Las habilidades de élite usarán tu atributo lanzamiento rápido en lugar de su atributo correspondiente."
 			},
 			"fr": {
 				"name": "Symboles d'inspiration",
+				"description": "Compétence élite. Pendant 6...40 secondes, cette compétence devient la compétence élite de la cible ennemie. Les compétences élites que vous lancez utilisent votre caractéristique d'Incantation rapide au lieu des caractéristiques qui y sont normalement associées.",
+				"concise": "Compétence élite. (6...40 secondes.) Cette compétence devient la compétence élite de la cible ennemie. Les compétences élites utilisent votre caractéristique d'Incantation rapide et non vos caractéristiques normales."
+			},
+			"fr-gwiki": {
+				"name": "Symboles d'inspiration",
 				"description": "Pendant 1...31 seconde(s), cette compétence devient la compétence élite de la cible ennemie. Les sorts élites que vous lancez utilisent votre caractéristique d'Incantation rapide au lieu des caractéristiques qui y sont normalement associées.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Simboli dell'Ispirazione",
+				"description": "Abilità d'Élite. Per 6...40 secondo/i questa l'abilità diventa l'élite del nemico colpito. Le abilità élite lanciate usano l'attributo Lancio rapido al posto del loro normale attributo.",
+				"concise": "Abilità d'Élite. (6...40 secondo/i) Questa l'abilità diventa l'élite del nemico colpito. Le abilità élite usano l'attributo Lancio rapido al posto del loro normale attributo."
+			},
+			"jp": {
+				"name": "インスピレーション シンボル",
+				"description": "エリート スキル： 6...40秒間、このスキルは標的となった敵のエリートスキルになります。あなたが使用したエリートスキルは通常の属性ではなく、通常の属性の代わりにあなたの高速スペル使用属性を使用します。",
+				"concise": "エリート スキル： （6...40秒）このスキルは標的となった敵のエリートスキルになります。エリートスキルは通常の属性ではなく、通常の属性の代わりにあなたの高速スペル使用属性を使用します。"
+			},
+			"kr": {
+				"name": "영감의 징표",
+				"description": "엘리트 스킬. 대상 지정: 없음. 6...40초 동안 이 스킬은 대상의 엘리트 스킬로 바뀝니다. 바뀐 스킬은 본래의 특성 레벨 대신 빠른 시전 특성 레벨을 따릅니다.",
+				"concise": "엘리트 스킬. (6...40초) 이 스킬은 대상의 엘리트 스킬로 바뀝니다. 바뀐 스킬은 본래의 특성 레벨 대신 빠른 시전 특성 레벨을 따릅니다."
+			},
+			"pl": {
+				"name": "Symbole Inspiracji",
+				"description": "Umiejętność elitarna. Przez 6...40 sek. ta umiejętność staje się elitarną umiejętnością wybranego przeciwnika. Używane przez ciebie umiejętności elitarne wykorzystują atrybut Szybkie Rzucanie Czarów zamiast normalnego atrybutu.",
+				"concise": "Umiejętność elitarna. (6...40 sek.) Ta umiejętność staje się elitarną umiejętnością wybranego przeciwnika. Używane przez ciebie umiejętności elitarne wykorzystują atrybut Szybkie Rzucanie Czarów zamiast normalnego atrybutu."
+			},
+			"ru": {
+				"name": "Symbols of Inspiration",
+				"description": "Элитное умение. В течение 6...40 сек. навык становится элитным для выбранного врага. Элитные навыки используют параметр Fast Casting вместо обычного.",
+				"concise": "Элитное умение. (6...40 сек.) Навык становится элитным для выбранного врага. Элитные навыки используют параметр Fast Casting вместо обычного."
+			},
+			"bork": {
+				"name": "Symbuls ooff Inspuraeshun",
+				"description": "Ileete-a Skeell. Fur 6...40 secunds, thees skeell becumes zee Ileete-a ooff taerget fue-a. Ileete-a skeells yuoo caest use-a yuoor Faest Caesteeng aettreeboote-a insteaed ooff zeeur nurmael aettreebootes.",
+				"concise": "Ileete-a Skeell. (6...40 secunds.) Thees skeell becumes zee Ileete-a ooff taerget fue-a. Ileete-a skeells use-a yuoor Faest Caesteeng aettreeboote-a insteaed ooff zeeur nurmael aettreebootes."
 			}
 		}
 	}

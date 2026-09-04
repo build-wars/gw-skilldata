@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "操纵吸血骸骨",
+				"description": "咒文。 利用最近的尸体召唤一只等级为1...17的吸血骸骨。吸血骸骨攻击命中时，你将恢复等量的生命值。",
+				"concise": "咒文。 利用最近的尸体召唤一只等级为1...17的吸血骸骨。吸血骸骨攻击命中时，你将恢复等量的生命值，"
+			},
+			"cht": {
+				"name": "操縱吸血骸骨",
+				"description": "咒文魔法： 利用最近的屍體召喚一隻等級 1...17 吸血駭骨。每當吸血骸骨攻擊造成傷害，你得到等值的體力。",
+				"concise": "咒文魔法： 利用最近的屍體召喚一隻等級 1...17 吸血駭骨。每當吸血骸骨攻擊造成傷害，你得到等值的體力。"
+			},
 			"de": {
+				"name": "Vampirschreck beleben",
+				"description": "Zauber. Der nächste Kadaver wird als Vampirschreck der Stufe 1...17 belebt. Jedes Mal, wenn ein Vampirschreck, den Ihr kontrolliert, Schaden zufügt, erhaltet Ihr dieselbe Menge Lebenspunkte.",
+				"concise": "Zauber. Erstellt einen Vampirschreck der Stufe 1...17. Ihr erhaltet Lebenspunkte in Höhe des von ihm angerichteten Schadens. Benutzt frischen Kadaver."
+			},
+			"de-guildwiki": {
 				"name": "Vampirschreck beleben",
 				"description": "Der nächste Kadaver wird als Vampirschreck der Stufe 1...17 belebt. Jedes Mal, wenn ein Vampirschreck, den Ihr kontrolliert, Schaden zufügt, erhaltet Ihr dieselbe Menge Lebenspunkte.",
 				"concise": "Erstellt einen Vampirschreck der Stufe 1...17. Ihr erhaltet Lebenspunkte in Höhe des von ihm angerichteten Schadens. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Animate Vampiric Horror",
+				"description": "Spell. Exploit nearest corpse to animate a level 1...17 Vampiric Horror. Whenever a Vampiric Horror you control deals damage, you gain the same amount of Health.",
+				"concise": "Spell. Creates a level 1...17 vampiric horror. You gain Health equal to the damage it deals. Exploits a fresh corpse."
+			},
+			"en-gww": {
+				"name": "Animate Vampiric Horror",
 				"description": "Exploit nearest corpse to animate a level 1...17 Vampiric Horror. Whenever a Vampiric Horror you control deals damage, you gain the same amount of Health.",
 				"concise": "Creates a level 1...17 vampiric horror. You gain Health equal to the damage it deals. <gray>Exploits a fresh corpse.</gray>"
 			},
+			"es": {
+				"name": "Animar horror vampírico",
+				"description": "Conjuro. Explotas al cadáver más cercano para crear un Horror vampírico de nivel 1...17. Siempre que éste haga daño, tú ganarás la misma cantidad de salud.",
+				"concise": "Conjuro. Crea un horror vampírico de nivel 1...17. Ganas la misma cantidad de salud que el daño que haga. Explotas un cadáver."
+			},
 			"fr": {
+				"name": "Animation d'horreur vampirique",
+				"description": "Sort. Utilisez le cadavre le plus près pour animer une Horreur vampirique de niveau 1...17. A chaque fois que l'horreur vampirique sous votre contrôle inflige des dégâts, vous récupérez la même quantité en points de vie.",
+				"concise": "Sort. Crée une horreur vampirique de niveau 1...17. Vous gagnez un nombre de points de vie égal aux dégâts qu'elle inflige. Exploite un cadavre récent."
+			},
+			"fr-gwiki": {
 				"name": "Animation d'horreur vampirique",
 				"description": "Utilisez le cadavre le plus près pour animer une ''Horreur vampirique'' de niveau 1...17. A chaque fois que l'horreur vampirique sous votre contrôle inflige des dégâts, vous récupérez la même quantité en points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Anima Orrore Vampirico",
+				"description": "Magia. Sfrutta il cadavere più vicino per animare un Orrore Vampirico di livello 1...17. Ogni volta che un Orrore Vampirico sotto il tuo controllo infligge dei danni, ottieni una quantità equivalente di Salute.",
+				"concise": "Magia. Crea un Orrore Vampirico di livello 1...17. Ottieni Salute pari ai danni che assesta. Utilizza un cadavere sfruttabile."
+			},
+			"jp": {
+				"name": "アニメート ヴァンピリック ホラー",
+				"description": "スペル： 最寄の死体を使用してレベル 1...17 のヴァンピリック ホラーを召喚します。召喚したヴァンピリック ホラーが攻撃に成功すると、プレイヤーは与えたダメージと同量の体力を獲得します。",
+				"concise": "スペル： レベル 1...17 のヴァンピリック ホラーを召喚します。プレイヤーは、ヴァンピリック ホラーが敵に与えたダメージと同量の体力を獲得します。死体がない場合は無効です。"
+			},
+			"kr": {
+				"name": "흡혈졸개",
+				"description": "마법. 대상 지정: 없음. 가장 가까이 있는 시체를 1...17레벨의 흡혈졸개로 만듭니다. 흡혈졸개가 적에게 대미지를 줄 때마다 자신은 그만큼의 체력을 회복합니다.",
+				"concise": "마법. 1...17레벨의 흡혈졸개를 만듭니다. 흡혈졸개가 적에게 주는 대미지만큼 자신은 체력을 회복합니다. 시체를 이용해야 합니다."
+			},
+			"pl": {
+				"name": "Ożywienie Wampirycznej Poczwary",
+				"description": "Czar. Wykorzystaj najbliższe zwłoki by ożywić Wampiryczną Poczwarę na 1...17 poziomie. Za każdym razem, kiedy Wampiryczna Poczwara zadaje obrażenia, zyskujesz taką samą liczbę pkt. żywotności.",
+				"concise": "Czar. Tworzy wampiryczną poczwarę na poziomie 1...17. Otrzymujesz liczbę punktów żywotności równą punktom obrażeń, jakie ona zadaje. Zużywa świeże ciało."
+			},
+			"ru": {
+				"name": "Animate Vampiric Horror",
+				"description": "Заклинание. Вы используете ближайший труп, чтобы оживить Vampiric Horror 1...17 уровня. Каждый раз, когда контролируемый вами Vampiric Horror наносит урон врагу, вы получаете количество здоровья, равное нанесенному урону.",
+				"concise": "Заклинание. Создает Vampiric Horror 1...17 уровня. Вы получаете здоровье, равное нанесенному им урону. Используется свежий труп."
+			},
+			"bork": {
+				"name": "Uneemaete-a Faempureec Hurrur",
+				"description": "Spell. Ixplueet neaerest curpse-a tu uneemaete-a a lefel 1...17 Faempureec Hurrur. Vhenefer a Faempureec Hurrur yuoo cuntrul deaels daemaege-a, yuoo gaeeen zee saeme-a aemuoont ooff Heaelt.",
+				"concise": "Spell. Creaetes a lefel 1...17 faempureec hurrur. Yuoo gaeeen Heaelt iqooael tu zee daemaege-a it deaels. Ixplueets a fresh curpse-a."
 			}
 		}
 	}

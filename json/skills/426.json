@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.5,
+		"aftercast": 1.5,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "野性之箭",
+				"description": "弓术。 打断当前目标敌人的动作，如果目标敌人在施法中被打断，那么将会对其造成13...28点伤害。",
+				"concise": "弓术。 打断当前目标敌人的动作，如果目标敌人在施法中被打断，那么将会对其造成13...28点伤害。"
+			},
+			"cht": {
+				"name": "野性之箭",
+				"description": "弓術攻擊技能： 野性之箭命中目標時，中斷其動作。若該目標正在施展「魔法」，則對其造成 13...28 額外傷害。",
+				"concise": "弓術攻擊技能： 野性之箭命中目標時，中斷其動作。若該目標正在施展「魔法」，則對其造成 13...28 額外傷害。"
+			},
 			"de": {
+				"name": "Wilder Schuss",
+				"description": "Bogenangriff. Trifft Wilder Schuss, wird die Aktion Eures Ziels unterbrochen. Wenn diese Aktion ein Zauber war, fügt Ihr +13...28 Punkt[e] Schaden zu.",
+				"concise": "Bogenangriff. Unterbricht eine Aktion. Unterbrechungswirkung: Richtet +13...28 Punkt[e] Schaden an, falls die Aktion ein Zauber war."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Schuss",
 				"description": "Trifft Wilder Schuss, wird die Aktion Eures Ziels unterbrochen. Wenn diese Aktion ein Zauber war, fügt Ihr zusätzlich 13...28 Punkte Schaden zu.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Richtet 13...28 Punkte Schaden an, falls die Aktion ein Zauber war."
 			},
 			"en": {
 				"name": "Savage Shot",
+				"description": "Bow Attack. If Savage Shot hits, your target's action is interrupted. If that action was a spell, you strike for +13...28 damage.",
+				"concise": "Bow Attack. Interrupts an action. Interruption effect: deals +13...28 damage if action was a spell."
+			},
+			"en-gww": {
+				"name": "Savage Shot",
 				"description": "If Savage Shot hits, your target's action is interrupted. If that action was a spell, you strike for +13...28 damage.",
 				"concise": "Interrupts an action. Interruption effect: deals +13...28 damage if action was a spell."
 			},
+			"es": {
+				"name": "Disparo violento",
+				"description": "Ataque con arco. Si el Disparo violento impacta, interrumpes la acción del enemigo objetivo. Si la acción era un conjuro, haces +13...28 de daño.",
+				"concise": "Ataque con arco. Interrumpe una acción. Efecto de la interrupción: +13...28 de daño si la acción era un conjuro."
+			},
 			"fr": {
+				"name": "Tir sauvage",
+				"description": "Attaque à l'arc. Si le Tir sauvage réussit, l'action de la cible est interrompue. S'il s'agissait d'un sort, vous infligez 13...28 points de dégâts.",
+				"concise": "Attaque à l'arc. Interrompt une action. Effet de l'interruption : inflige +13...28 points de dégâts si l'action est un sort."
+			},
+			"fr-gwiki": {
 				"name": "Tir sauvage",
 				"description": "Si le Tir sauvage réussit, l'action de la cible est interrompue. S'il s'agissait d'un sort, vous infligez +13...28 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Selvaggio",
+				"description": "Attacco con Arco. Se va a segno, l'azione dell'obiettivo viene interrotta. Se l'azione era una magia, infliggi +13...28 danno[i].",
+				"concise": "Attacco con Arco. Interrompe un'azione. Effetto dell'interruzione: assesta +13...28 danno[i] se l'azione era una magia."
+			},
+			"jp": {
+				"name": "サベージ ショット",
+				"description": "ボウ アタック： 命中するとターゲットのアクションを中断します。ターゲットのアクションがスペルの場合、13...28 の追加ダメージを与えます。",
+				"concise": "ボウ アタック： アクションを中断します。中断効果： スペルを中断した場合、13...28 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "격분의 화살",
+				"description": "활 공격. 대상 지정: 적. 명중하면 대상의 동작을 방해합니다. 방해한 동작이 마법일 때는 13...28의 대미지를 추가로 줍니다.",
+				"concise": "활 공격. 동작을 방해합니다. 방해 효과: 마법을 방해하면 13...28의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Brutalny Strzał",
+				"description": "Strzał z łuku. Jeśli Brutalny Strzał trafi, przerywa bieżącą czynność celu. Jeśli tą czynnością było użycie czaru, to zadajesz +13...28 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Przerywa czynność. Efekt przerwania: zadaje +13...28 pkt. obrażeń, jeżeli czynnością było rzucanie czaru."
+			},
+			"ru": {
+				"name": "Savage Shot",
+				"description": "Атака из лука. Если Savage Shot попадает в цель, действие вашего противника будет прервано. Если противник произносил заклинание, вы наносите дополнительно 13...28 ед. урона.",
+				"concise": "Атака из лука. Прерывает действие. Эффект прерывания: наносит дополнительно 13...28 ед. урона, если было прервано заклинание."
+			},
+			"bork": {
+				"name": "Saefaege-a Shut",
+				"description": "Boo Aettaeck. Iff Saefaege-a Shut heets, yuoor taerget's aecshun is interroopted. Iff thaet aecshun vaes a spell, yuoo streeke-a fur +13...28 daemaege-a.",
+				"concise": "Boo Aettaeck. Interroopts un aecshun. Interroopshun iffffect: deaels +13...28 daemaege-a iff aecshun vaes a spell."
 			}
 		}
 	}

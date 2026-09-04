@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "共生",
+				"description": "自然仪式。 创造一只等级为1...10的共生精灵。区域内所有「非灵体」类生物依照身上的「增益魔法」数量，生命值上限提高 1...10点。共生精灵在30...240秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的共生精灵。区域内所有「非灵体」类生物依照身上的「增益魔法」数量，生命值上限提高27...150点。共生精灵在30...240秒后消失。"
+			},
+			"cht": {
+				"name": "共生",
+				"description": "自然儀式： 創造一隻等級 1...10 的共生精靈。區域內所有生物依照身上的「加持」數量，每個增加 27...150 最大體力值。共生精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的共生精靈。區域內所有生物依照身上的「加持」數量，每個增加 27...150 最大體力值。共生精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Symbiose",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Für jede Verzauberung auf eine Kreatur in Reichweite, die kein Geist ist, hat diese Kreatur +27...150 maximale Lebenspunkte . Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Kreaturen in Reichweite haben für jede Verzauberung auf ihnen +27...150 maximale Lebenspunkte. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Symbiose",
 				"description": "Erstellt einen Geist der Stufe 1...10. Jede Kreatur in Reichweite, die kein Geist ist, erhält +27...150 maximale Lebenspunkte für jede Verzauberung auf ihr. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Kreaturen in Reichweite haben für jede Verzauberung auf ihnen +27...150 maximale Lebenspunkte. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Symbiosis",
+				"description": "Nature Ritual. Create a level 1...10 spirit. For each enchantment on a non-spirit creature within range, that creature has +27...150 maximum Health. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Creatures in range have +27...150 maximum Health for each enchantment on them. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Symbiosis",
 				"description": "Create a level 1...10 spirit. For each enchantment on a non-spirit creature within range, that creature has +27...150 maximum Health. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Creatures in range have +27...150 maximum health for each enchantment on them. Does not affect spirits."
 			},
+			"es": {
+				"name": "Simbiosis",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Por cada encantamiento que tenga una criatura no espíritu dentro la zona, ganará +27...150 de salud máxima. Morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...240 segundos de vida). Las criaturas dentro de la zona tendrán +27...150 de salud máxima por cada encantamiento que tengan. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Symbiose",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Pour chaque enchantement lancé sur une créature autre qu'un esprit dans sa portée, celle-ci bénéficie de +27...150 de santé maximum. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Les créatures à portée bénéficient de +27...150 de santé maximum par enchantement les affectant. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Symbiose",
 				"description": "Crée un esprit de niveau 1...10. Pour chaque enchantement lancé sur une créature autre qu'un esprit dans sa portée, celle-ci bénéficie de +27...150 de santé maximum. Cet esprit disparaît au bout de 30...240 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Simbiosi",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Per ogni incantesimo presente su una creatura nella sua portata (Spiriti esclusi), quella creatura riceve +27...150 di Salute massima. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Le creature nella portata hanno +27...150 di Salute massima per ogni incantesimo su di loro. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "シンビオシス",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物は、かけられている強化スペルごとに体力の上限が 27...150 増加します。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内では、かけられている強化スペルごとに体力の上限が 27...150 増加します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "공동체의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체는 몸에 걸린 강화 마법 하나당 최대 체력이 27...150 증가합니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 몸에 걸린 강화 마법 하나당 최대 체력이 27...150 증가합니다."
+			},
+			"pl": {
+				"name": "Symbioza",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Na każde zaklęcie, pod którego działaniem jest stworzenie nie-duch w zasięgu, maksymalna żywotność tego stworzenia zwiększa się o +27...150 pkt. Duch umiera po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Stworzenia w zasięgu otrzymują +27...150 pkt. do maksymalnej żywotności na każde zaklęcie, pod którego są działaniem. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Symbiosis",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Для всех не являющихся духами созданий, находящихся в зоне его действия, за каждые наложенные чары максимальный уровень здоровья этого создания увеличивается на 27...150 ед. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Создания в зоне его действия получают +27...150 ед. к максимальному уровню здоровья за каждые лежащие на них чары. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Symbeeusees",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Fur iaech inchuntment oon a nun-spureet creaetoore-a veetheen runge-a, thaet creaetoore-a haes +27...150 maexeemoom Heaelt. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Creaetoores in runge-a haefe-a +27...150 maexeemoom Heaelt fur iaech inchuntment oon zeem. Dues nut aeffffect spureets."
 			}
 		}
 	}

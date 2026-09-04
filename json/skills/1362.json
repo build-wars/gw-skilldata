@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益腐化",
+				"description": "精英负面魔法。 驱散目标敌人身上的一项「增益魔法」。当驱散成功时，该敌人将遭受1...8点「生命衰减」，持续10秒。",
+				"concise": "精英负面魔法。 驱散目标敌人身上的一项「增益魔法」。当驱散成功时，该敌人将遭受1...8点「生命衰减」，持续10秒。"
+			},
+			"cht": {
+				"name": "加持腐化",
+				"description": "精英降咒魔法： 移除目標敵人身上的一項「加持」，並且使該目標遭受 1...8 體力衰減，持續 10 秒。",
+				"concise": "精英降咒魔法： 移除目標敵人身上的一項「加持」，並且使該目標遭受 1...8 體力衰減，持續 10 秒。"
+			},
 			"de": {
+				"name": "Verzauberung verderben",
+				"description": "Elite-Verhexung. Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung auf diese Weise erleidet der Gegner 10 Sekunden lang eine Lebenspunktdegeneration von -1...8.",
+				"concise": "Elite-Verhexung. Entfernt eine Verzauberung vom Gegner. Entfernungswirkung: -1...8 Lebenspunktdegeneration (10 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberung verderben",
 				"description": "Entfernt eine Verzauberung vom Gegner. Beim Entfernen einer Verzauberung auf diese Weise erleidet der Gegner 10 Sekunden lang eine Lebenspunktdegeneration von -1...8.",
 				"concise": "Entfernt eine Verzauberung vom Gegner. Entfernungswirkung: -1...8 Lebenspunktdegeneration (10 Sekunden)."
 			},
 			"en": {
 				"name": "Corrupt Enchantment",
+				"description": "Elite Hex Spell. Remove one enchantment from target foe. If an enchantment is removed in this way, that foe suffers from -1...8 Health degeneration for 10 seconds.",
+				"concise": "Elite Hex Spell. Removes one enchantment from target foe. Removal effect: -1...8 Health degeneration (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Corrupt Enchantment",
 				"description": "Remove one enchantment from target foe. If an enchantment is removed in this way, that foe suffers from -1...8 Health degeneration for 10 seconds.",
 				"concise": "Removes one enchantment from target foe. Removal effect: -1...8 Health degeneration (10 seconds)."
 			},
+			"es": {
+				"name": "Corrompencantamientos",
+				"description": "Conjuro con maleficio de élite. Quita un encantamiento del enemigo objetivo. Si se quita un encantamiento de esta forma, éste sufrirá una degeneración de -1...8 de salud durante 10 segundos.",
+				"concise": "Conjuro con maleficio de élite. Elimina un encantamiento del enemigo objetivo. Efecto de la eliminación: -1...8 de degeneración de salud (10 segundos)."
+			},
 			"fr": {
+				"name": "Enchantement corrompu",
+				"description": "Maléfice d'élite. Ote un enchantement à l'ennemi ciblé. Si un enchantement est supprimé de cette manière, cet ennemi subit une dégénération de santé de -1...8 pendant 10 secondes.",
+				"concise": "Maléfice d'élite. Supprime un enchantement chez la cible ennemie. Effet de la suppression : dégénération de santé de -1...8 (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Enchantement corrompu",
 				"description": "Ote un enchantement à l'ennemi ciblé. Si un enchantement est supprimé de cette manière, cet ennemi subit une dégénération de santé de -1...8 pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Corrompi Incantesimo",
+				"description": "Fattura d'Élite. Rimuovi un incantesimo dall'obiettivo nemico. Se riesci a rimuovere un incantesimo in questo modo, quel nemico subisce una Degenerazione della Salute di -1...8 per 10 secondi.",
+				"concise": "Fattura d'Élite. Rimuove un incantesimo dall'obiettivo nemico. Effetto della rimozione: Degenerazione Salute -1...8 (10 secondi)."
+			},
+			"jp": {
+				"name": "コラプト エンチャント",
+				"description": "エリート弱体化スペル： ターゲットした敵にかけられている強化スペルを1個解除します。この効果により強化スペルを解除すると、その敵は10秒間、体力の自然回復力が 1...8 減少します。",
+				"concise": "エリート弱体化スペル： ターゲットした敵にかけられている強化スペルを1個解除します。解除効果： 体力の自然回復力が 1...8 減少します (10 秒) 。"
+			},
+			"kr": {
+				"name": "강화 마법 악용",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상의 강화 마법 하나를 무효화합니다. 이렇게 강화 마법이 무효화되면 10초 동안 대상의 체력 재생이 1...8 감소합니다.",
+				"concise": "엘리트 약화 마법. 대상에 걸린 강화 마법 하나를 무효화합니다. 무효화 효과: 체력 재생을 1...8 감소시킵니다.(10초)"
+			},
+			"pl": {
+				"name": "Skażenie Zaklęcia",
+				"description": "Elitarna klątwa (czar). Z wybranego przeciwnika zdejmujesz jedno zaklęcie. Jeżeli zaklęcie zostało zdjęte w ten sposób, to przez 10 sek. przeciwnik będzie posiadał degenerację żywotności -1...8.",
+				"concise": "Elitarna klątwa (czar). Z wybranego przeciwnika usuwa jedno zaklęcie. Efekt usunięcia: degeneracja żywotności -1...8 (10 sek.)."
+			},
+			"ru": {
+				"name": "Corrupt Enchantment",
+				"description": "Элитное заклинание-проклятье. С выбранного противника снимаются одни лежащие на нем чары. Если чары были успешно сняты, скорость восстановления здоровья этого противника уменьшается на 1...8 ед. в течение 10 сек.",
+				"concise": "Элитное заклинание-проклятье. Снимает одни чары с выбранного противника. Эффект снятия: -1...8 ед. к скорости восстановления здоровья (10 сек)."
+			},
+			"bork": {
+				"name": "Curroopt Inchuntment",
+				"description": "Ileete-a Hex Spell. Remufe-a oone-a inchuntment frum taerget fue-a. Iff un inchuntment is remufed in thees vaey, thaet fue-a sooffffers frum -1...8 Heaelt degeneraeshun fur 10 secunds.",
+				"concise": "Ileete-a Hex Spell. Remufes oone-a inchuntment frum taerget fue-a. Remufael iffffect: -1...8 Heaelt degeneraeshun (10 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"不足为惧！\"",
+				"description": "战吼。 在10秒之内，使「音波」范围内的队友，在受到带有「灼烧」症状的敌人攻击时，伤害减少5...35%。",
+				"concise": "战吼。 在10秒之内，使「音波」范围内的友方，在受到带有「灼烧」症状的敌人攻击时，伤害减少5...35%。"
+			},
+			"cht": {
+				"name": "「他們著火了！」",
+				"description": "戰嚎： 持續 10 秒，使音量所及範圍內的隊伍成員，被正遭受「著火」病症的敵人攻擊時，受到的傷害減少 5...35% 。",
+				"concise": "戰嚎： 持續 10 秒，使音量所及範圍內的盟友，被正遭受「著火」病症的敵人攻擊時，受到的傷害減少 5...35% 。"
+			},
 			"de": {
+				"name": "\"Sie brennen!\"",
+				"description": "Schrei. 10 Sekunde[n] lang erleiden Gruppenmitglieder in Hörweite 5...35% weniger Schaden von Feinden, die brennen.",
+				"concise": "Schrei. 10 Sekunde[n]: Gruppenmitglieder in Hörweite erleiden von brennenden Feinden 5...35% weniger Schaden."
+			},
+			"de-guildwiki": {
 				"name": "\"Sie brennen!\"",
 				"description": "10 Sekunden lang erleiden Gruppenmitglieder in Hörweite 5...35% weniger Schaden von Feinden, die brennen.",
 				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite erleiden von brennenden Feinden 5...35% weniger Schaden."
 			},
 			"en": {
 				"name": "\"They're on Fire!\"",
+				"description": "Shout. For 10 seconds, party members within earshot take 5...35% less damage from foes suffering from Burning.",
+				"concise": "Shout. (10 seconds.) Party members in earshot take 5...35% less damage from Burning foes."
+			},
+			"en-gww": {
+				"name": "\"They're on Fire!\"",
 				"description": "For 10 seconds, party members within earshot take 5...35% less damage from foes suffering from Burning.",
 				"concise": "(10 seconds.) Party members in earshot take 5...35% less damage from Burning foes."
 			},
+			"es": {
+				"name": "\"¡Están ardiendo!\"",
+				"description": "Grito. Durante 10 segundos, los compañeros de equipo al alcance del oído reciben 5...35% menos de daño de los enemigos ardiendo.",
+				"concise": "Grito. (10 segundos). Los miembros del grupo al alcance del oído reciben 5...35% menos de daño de los enemigos ardiendo."
+			},
 			"fr": {
+				"name": "\"Ils sont enflammés !\"",
+				"description": "Cri. Pendant 10 secondes, les membres du groupe à portée de voix subissent 5...35% de dégâts en moins lorsqu'ils sont infligés par des ennemis souffrant de Brûlure.",
+				"concise": "Cri. (10 secondes.) Les ennemis souffrant de Brûlure infligent 5...35% de dégâts en moins aux membres du groupe à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "\"Ils sont enflammés !\"",
 				"description": "Pendant 10 secondes, les membres du groupe à portée de voix subissent 5...35% de dégâts en moins lorsqu'ils sont infligés par des ennemis souffrant de Brûlure.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Bruciano!\"",
+				"description": "Urlo. Per 10 secondo[i], i membri della squadra a portata d'orecchio subiscono 5...35% danno[i] in meno dai nemici che soffrono di Bruciatura.",
+				"concise": "Urlo. (Secondi: 10) Riduzione dei danni assestati dai nemici che soffrono di Bruciatura e subiti dai membri della squadra a portata d'orecchio: 5...35%."
+			},
+			"jp": {
+				"name": "オン ファイア！",
+				"description": "シャウト： 10 秒間、声の届く範囲内にいるパーティー メンバーは、「火傷」状態の敵から受けるダメージが 5...35% 減少します。",
+				"concise": "シャウト： (10 秒) 声の届く範囲内にいるパーティー メンバーは、「火傷」状態の敵から受けるダメージが 5...35% 減少します。"
+			},
+			"kr": {
+				"name": "적은 불타고 있다!",
+				"description": "고함. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원이 화상 상태의 적에게서 받는 대미지가 5...35% 감소합니다.",
+				"concise": "고함. (10초) 가청 범위 내에 있는 파티원들이 화상을 입은 적에게서 받는 대미지가 5...35% 감소합니다."
+			},
+			"pl": {
+				"name": "\"Płoną!\"",
+				"description": "Okrzyk. Przez 10 sek., sojusznicy w zasięgu słuchu otrzymują o 5...35% mniej obrażeń od płonących przeciwników.",
+				"concise": "Okrzyk. (10 sek.) Członkowie drużyny w zasięgu słuchu otrzymują od płonących przeciwników o 5...35% obrażeń mniej."
+			},
+			"ru": {
+				"name": "\"They're on Fire!\"",
+				"description": "Крик. В течение 10 сек члены вашего отряда, находящиеся в зоне слышимости, получают на 5...35% меньше урона от горящих противников.",
+				"concise": "Крик. (10 сек) Члены отряда в зоне слышимости получают на 5...35% меньше урона от горящих противников."
+			},
+			"bork": {
+				"name": "\"Zeey're-a oon Fure-a!\"",
+				"description": "Shuoot. Fur 10 secunds, paerty members veetheen iaershut taeke-a 5...35% less daemaege-a frum fues sooffffereeng frum Boorneeng.",
+				"concise": "Shuoot. (10 secunds.) Paerty members in iaershut taeke-a 5...35% less daemaege-a frum Boorneeng fues."
 			}
 		}
 	}

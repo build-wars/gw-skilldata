@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灼烧射击",
+				"description": "精英弓术。 命中时，对敌人造成10...30点额外伤害，并使其遭受「灼烧」症状2...8秒。",
+				"concise": "精英弓术。 命中时，对敌人造成10...30点额外伤害，并使其遭受「灼烧」症状2...8秒。"
+			},
+			"cht": {
+				"name": "燃燒箭",
+				"description": "精英弓術攻擊技能： 命中時對目標造成 10...30 額外傷害並使其遭受「燃燒」病症 2...8 秒。",
+				"concise": "精英弓術攻擊技能： 命中時對目標造成 10...30 額外傷害並使其遭受「燃燒」病症 2...8 秒。"
+			},
 			"de": {
+				"name": "Brennender Pfeil",
+				"description": "Elite-Bogenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...30 Punkt[e] Schaden zu und verursacht 2...8 Sekunde[n] lang Brennen.",
+				"concise": "Elite-Bogenangriff. Richtet +10...30 Punkt[e] Schaden an. Verursacht Zustand Brennen (2...8 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Brennender Pfeil",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...30 Punkte Schaden zu und verursacht 2...8 Sekunden lang Brennen.",
 				"concise": "Richtet +10...30 Punkte Schaden an. Verursacht Zustand Brennen (2...8 Sekunden)."
 			},
 			"en": {
 				"name": "Burning Arrow",
+				"description": "Elite Bow Attack. If this attack hits, you strike for +10...30 damage and cause Burning for 2...8 seconds.",
+				"concise": "Elite Bow Attack. Deals +10...30 damage. Inflicts Burning condition (2...8 seconds)."
+			},
+			"en-gww": {
+				"name": "Burning Arrow",
 				"description": "If this attack hits, you strike for +10...30 damage and cause Burning for 2...8 seconds.",
 				"concise": "Deals +10...30 damage. Inflicts Burning condition (2...8 seconds)."
 			},
+			"es": {
+				"name": "Flecha ardiente",
+				"description": "Ataque con arco de élite. Si este ataque impacta, hace +10...30 de daño y causa una quemadura durante 2...8 segundos.",
+				"concise": "Ataque con arco de élite. Hace +10...30 de daño. Causa quemadura (2...8 segundos)."
+			},
 			"fr": {
+				"name": "Flèche brûlante",
+				"description": "Attaque à l'arc d'élite. Si cette attaque réussit, vous infligez +10...30 points de dégâts et provoquez la Brûlure pendant 2...8 secondes.",
+				"concise": "Attaque à l'arc d'élite. Inflige +10...30 points de dégâts. Inflige la Brûlure (2...8 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Flèche brûlante",
 				"description": "Si cette attaque réussit, vous infligez +10...30 points de dégâts et provoquez la Brûlure pendant 1...7 seconde(s).",
 				"concise": "Inflige +10...30 points de dégâts. Inflige la Brûlure (1...7 seconde(s))."
+			},
+			"it": {
+				"name": "Freccia Bruciante",
+				"description": "Attacco con Arco d'Élite. Se questo attacco va a segno infliggi +10...30 danno[i] e provochi Bruciatura per 2...8 secondo[i].",
+				"concise": "Attacco con Arco d'Élite. Danni inferti: +10...30. Condizione inflitta: Bruciatura (2...8 secondo[i])."
+			},
+			"jp": {
+				"name": "バーン アロー",
+				"description": "エリート ボウ アタック： この攻撃が成功すると、10...30 の追加ダメージを与え、2...8 秒間「火傷」状態にします。",
+				"concise": "エリート ボウ アタック： 10...30 の追加ダメージを与えて「火傷」状態にします (2...8 秒) 。"
+			},
+			"kr": {
+				"name": "불타는 사격",
+				"description": "엘리트 활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...30의 대미지를 추가로 줍니다. 대상은 2...8초 동안 화상 상태가 됩니다.",
+				"concise": "엘리트 활 공격. 10...30의 대미지를 추가로 주고, 화상을 입힙니다.(2...8초)"
+			},
+			"pl": {
+				"name": "Płonąca Strzała",
+				"description": "Elitarny strzał z łuku. Jeżeli atak trafi, zadaje +10...30 pkt. obrażeń, a cel będzie płonął przez 2...8 sek.",
+				"concise": "Elitarny strzał z łuku. Zadaje +10...30 pkt. obrażeń. Wywołuje przypadłość płonięcie (2...8 sek.)."
+			},
+			"ru": {
+				"name": "Burning Arrow",
+				"description": "Элитная атака из лука. Если этот выстрел попадает в цель, вы наносите дополнительно 10...30 ед. урона и поджигаете противника на 2...8 сек.",
+				"concise": "Элитная атака из лука. Наносит дополнительно 10...30 ед. урона. Поджигает (2...8 сек)."
+			},
+			"bork": {
+				"name": "Boorneeng Aerroo",
+				"description": "Ileete-a Boo Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +10...30 daemaege-a und coose-a Boorneeng fur 2...8 secunds.",
+				"concise": "Ileete-a Boo Aettaeck. Deaels +10...30 daemaege-a. Inffleects Boorneeng cundeeshun (2...8 secunds)."
 			}
 		}
 	}

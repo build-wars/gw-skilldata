@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "定罪",
+				"description": "Flash Enchantment Spell。 在10秒之内，如果你带有「增益魔法」效果，则使你的护甲值提高1...3点，否则你将获得1...2点「生命再生」。",
+				"concise": "Flash Enchantment Spell。 在10秒之内，如果你带有「增益魔法」效果，则使你的护甲值提高1...3点，否则你将获得1...2点「生命再生」。"
+			},
+			"cht": {
+				"name": "信念",
+				"description": "即刻加持魔法： 持續 10 秒，若你身上有病症，則防禦增加 10 ，且依照病症數量，每個使你獲得 1...3 體力再生，此加持結束時，消除自身 1...2 項病症。",
+				"concise": "即刻加持魔法： 持續 10 秒，若你身上有病症，則防禦增加 10 ，且依照病症數量，每個使你獲得 1...3 體力再生，此加持結束時，消除自身 1...2 項病症。"
+			},
 			"de": {
+				"name": "Überzeugung",
+				"description": "Blitzverzauberung. Wenn Ihr unter einem Zustand leidet, erhaltet Ihr 10 Sekunde[n] lang +10 Rüstung und 1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wenn diese Verzauberung endet, werdet Ihr von 1...2 Zuständen geheilt.",
+				"concise": "Blitzverzauberung. (10 Sekunde[n].) Ihr erhaltet +10 Rüstung, wenn Ihr unter einem Zustand leidet. Ihr erhaltet 1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wirkung am Ende: Entfernt 1...2 Zustände."
+			},
+			"de-guildwiki": {
 				"name": "Überzeugung",
 				"description": "Wenn Ihr unter einem Zustand leidet, erhaltet Ihr 10 Sekunden lang +10 Rüstung und +1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wenn diese Verzauberung endet, werdet Ihr von 1...2 Zuständen geheilt.",
 				"concise": "(10 Sekunden.) Ihr erhaltet +10 Rüstung, wenn Ihr unter einem Zustand leidet. Ihr erhaltet +1...3 Lebenspunktregeneration für jeden Zustand, unter dem Ihr leidet. Wirkung am Ende: Entfernt 1...2 Zustände."
 			},
 			"en": {
 				"name": "Conviction",
+				"description": "Flash Enchantment Spell. For 10 seconds, you gain +10 armor if you have a condition and gain 1...3 Health regen for each condition you are suffering from. When this enchantment ends, you are cured of 1...2 conditions.",
+				"concise": "Flash Enchantment Spell. (10 seconds.) Gain +10 armor while conditioned. Gain 1...3 Health regeneration for each condition you have. End Effect: remove 1...2 conditions."
+			},
+			"en-gww": {
+				"name": "Conviction",
 				"description": "For 10 seconds, you gain +10 armor if you have a condition and gain 1...3 Health regen <sic/> for each condition you are suffering from. When this enchantment ends, you are cured of 1...2 condition[s].",
 				"concise": "(10 seconds.) Gain +10 armor while conditioned. Gain 1...3 Health regeneration for each condition you have. End Effect: Remove 1...2 condition[s]."
 			},
+			"es": {
+				"name": "Convicción",
+				"description": "Conjuro con encantamiento de destello. Durante 10 segundos, ganas +10 de armadura si tienes una condición y ganas 1...3 de regeneración de salud por cada condición que estés padeciendo. Cuando termina este encantamiento, te curas de 1...2 condiciones",
+				"concise": "Conjuro con encantamiento de destello. (10 segundos). Ganas +10 de armadura mientras sufras una condición. Ganas 1...3 de regeneración de salud por cada condición que tengas. Efecto final: elimina 1...2 condiciones."
+			},
 			"fr": {
+				"name": "Conviction",
+				"description": "Enchantement instantané. Pendant 10 secondes, vous gagnez +10 en armure si vous avez une condition et +1...3 en régénération de santé pour chaque condition dont vous souffrez. Lorsque cet enchantement prend fin, vous êtes libéré[f:\"libérée\"] de 1...2 conditions.",
+				"concise": "Enchantement instantané. (10 secondes.) +10 en armure si vous souffrez d'une condition. +1...3 en régénération de santé par condition vous affectant. Effet final : vous perdez 1...2 conditions."
+			},
+			"fr-gwiki": {
 				"name": "Conviction",
 				"description": "Pendant 10...35 secondes, vous bénéficiez de +24 de bonus d'armure quand vous êtes sous les effets d'un enchantement. Sinon, vous bénéficiez d'une régénération de santé de +1...4.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Convinzione",
+				"description": "Incantesimo Lampo. Per 10 secondi ottieni +10 di armatura se hai una condizione e ottieni 1...3 Rigenerazione della Salute per ogni condizione di cui soffri. Al termine dell'incantesimo vieni curato[f:\"curata\"] da 1...2 condizioni.",
+				"concise": "Incantesimo Lampo. (Secondi: 10). Armatura ottenuta quando hai una condizione: + 10. Salute rigenerata per ogni condizione su di te: 1...3. Effetto al termine: condizioni rimosse: 1...2."
+			},
+			"jp": {
+				"name": "コンヴィクション",
+				"description": "フラッシュ強化スペル： 10 秒間、プレイヤーに「状態異常」がかけられていると防御力が10増加します。また、かけられている「状態異常」ごとに、体力の自然回復力が 1...3 増加します。この効果が消失すると、かけられている「状態異常」が 1...2 個解除されます。",
+				"concise": "フラッシュ強化スペル： (10 秒)「状態異常」がかけられている間、防御力が10増加します。かけられている「状態異常」ごとに体力の自然回復力が 1...3 増加します。終了効果：1...2 個の「状態異常」が解除されます。"
+			},
+			"kr": {
+				"name": "회개",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 10초 동안 자신이 상태이상에 걸려 있으면 방어력이 10만큼 증가하고, 걸려 있는 상태이상 하나당 체력 재생이 1...3만큼 증가합니다. 효과가 끝날 때 자신에게 걸린 상태이상 1...2개가 무효화됩니다.",
+				"concise": "순간 시전 강화 마법. (10초) 상태이상에 걸려 있으면 방어력이 10만큼 증가하고, 상태이상 하나당 체력 재생이 1...3만큼 증가합니다. 무효화 효과: 상태이상 1...2개를 치료합니다."
+			},
+			"pl": {
+				"name": "Pewność Siebie",
+				"description": "Zaklęcie błysku (czar). Przez 10 sek., otrzymujesz +10 do pancerza, jeśli masz jakąś przypadłość, oraz otrzymujesz 1...3 pkt. do regeneracji żywotności za każdą przypadłość, pod której wpływem jesteś. Kiedy to zaklęcie dobiega końca, zostajesz wyleczony z 1...2 przypadłości.",
+				"concise": "Zaklęcie błysku (czar). (10 sek.) Otrzymujesz +10 do pancerza będąc pod wpływem jakieś przypadłości. Otrzymujesz 1...3 pkt. żywotności za każdą przypadłość, pod której jesteś wpływem. Efekt końcowy: Usuwa 1...2 przypadłości."
+			},
+			"ru": {
+				"name": "Conviction",
+				"description": "Мгновенное заклинание-чары. В течение 10 сек ваша защита увеличивается на 10 ед., если вы находитесь под действием состояния, и ваша скорость восстановления здоровья увеличивается на 1...3 ед. за каждое наложенное на вас состояние. Когда действие этих чар заканчивается, с вас снимаются состояния (1...2).",
+				"concise": "Мгновенное заклинание-чары. (10 сек) Вы получаете +10 ед. к защите, пока на вас действует состояние. Вы получаете +1...3 ед. к скорости восстановления здоровья за каждое наложенное на вас состояния. Эффект окончания: снимает состояния (1...2)."
+			},
+			"bork": {
+				"name": "Cunfeecshun",
+				"description": "Flaesh Inchuntment Spell. Fur 10 secunds, yuoo gaeeen +10 aermur iff yuoo haefe-a a cundeeshun und gaeeen 1...3 Heaelt regee fur iaech cundeeshun yuoo aere-a sooffffereeng frum. Vhee thees inchuntment inds, yuoo aere-a coored ooff 1...2 cundeeshuns.",
+				"concise": "Flaesh Inchuntment Spell. (10 secunds.) Gaeeen +10 aermur vheele-a cundeeshuned. Gaeeen 1...3 Heaelt regeneraeshun fur iaech cundeeshun yuoo haefe-a. Ind Iffffect: remufe-a 1...2 cundeeshuns."
 			}
 		}
 	}

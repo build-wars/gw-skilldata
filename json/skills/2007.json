@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Purifying Veil",
+				"description": "增益魔法。 While you maintain this enchantment, conditions expire 5...50% faster on target ally. When this enchantment ends, one condition is removed from that ally.",
+				"concise": "增益魔法。 Conditions expire 5...50% faster on target ally. End effect: removes a condition."
+			},
+			"cht": {
+				"name": "滌罪遮罩",
+				"description": "加持魔法： 當你維持此加持，而且病症在目標盟友的持續時間縮短 5...50%。當此加持結束時，將移除該目標盟友一項病症。",
+				"concise": "加持魔法： 當你維持此加持，而且病症在目標盟友的持續時間縮短 5...50%。當此加持結束時，將移除該目標盟友一項病症。"
+			},
 			"de": {
+				"name": "Reinigender Schleier",
+				"description": "Verzauberung. Während Ihr diese Verzauberung aufrechterhaltet, enden Zustände auf den Verbündeten (bzw. Euch selbst) um 5...50% schneller. Wenn diese Verzauberung endet, wird ein Zustand vom Verbündeten entfernt.",
+				"concise": "Verzauberung. Zustände auf dem Verbündeten (bzw. Euch selbst) enden um 5...50% früher. Wirkung am Ende: Entfernt einen Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Reinigender Schleier",
 				"description": "Während Ihr diese Verzauberung aufrechterhaltet, enden Zustände auf den Verbündeten (bzw. Euch selbst) um 5...50% schneller, mindestens jedoch 1 Sekunde. Wenn diese Verzauberung endet, wird ein Zustand vom Verbündeten entfernt.",
 				"concise": "Zustände auf dem Verbündeten (bzw. Euch selbst) enden um 5...50% früher, mindestens jedoch 1 Sekunde. Wirkung am Ende: Entfernt einen Zustand."
 			},
 			"en": {
 				"name": "Purifying Veil",
+				"description": "Enchantment Spell. While you maintain this enchantment, conditions expire 5...50% faster on target ally. When this enchantment ends, one condition is removed from that ally.",
+				"concise": "Enchantment Spell. Conditions expire 5...50% faster on target ally. End effect: removes a condition."
+			},
+			"en-gww": {
+				"name": "Purifying Veil",
 				"description": "While you maintain this enchantment, conditions expire 5...50% faster on target ally. When this enchantment ends, one condition is removed from that ally.",
 				"concise": "Conditions expire 5...50% faster on target ally. End effect: removes a condition."
 			},
+			"es": {
+				"name": "Velo purificador",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, las condiciones acaban un 5...50% antes en el aliado objetivo. Cuando este encantamiento acabe, ese objetivo se quita una condición.",
+				"concise": "Conjuro con encantamiento. Las condiciones del objetivo (un aliado o tú mismo) acaban un 5...50% antes. Efecto final: elimina una condición."
+			},
 			"fr": {
+				"name": "Voile purifiant",
+				"description": "Enchantement. Pendant que vous maintenez cet enchantement, les conditions expirent 5...50% plus vite sur la cible (allié ou vous-même). Lorsque cet enchantement prend fin, une condition de cette cible est supprimée.",
+				"concise": "Enchantement. Les conditions affectant l'allié visé prennent fin 5...50% plus vite. Effet final : supprime une condition."
+			},
+			"fr-gwiki": {
 				"name": "Voile purifiant",
 				"description": "Pendant que vous maintenez cet enchantement, les conditions expirent 5...50% plus vite sur la cible (allié ou vous-même). Lorsque cet enchantement prend fin, une condition de cette cible est supprimée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velo Purificante",
+				"description": "Incantesimo. Mentre mantieni quest'incantesimo la velocità di esaurimento delle condizioni presenti sull'obiettivo alleato aumenta di un 5...50%. Quando quest'incantesimo termina una condizione viene rimossa da quell'alleato.",
+				"concise": "Incantesimo. Riduzione durata delle condizioni sull'obiettivo alleato: 5...50%. Effetto al termine: rimuove una condizione."
+			},
+			"jp": {
+				"name": "ピューリファイ ベール",
+				"description": "強化スペル： この強化スペルを持続している間、ターゲットした味方に「状態異常」がかけられると、その持続時間が 5...50% 減少します。この効果が消失するとき、その味方にかけられている「状態異常」を1個解除します。",
+				"concise": "強化スペル： ターゲットした味方にかけられる「状態異常」の持続時間が 5...50% 減少します。終了効果： 「状態異常」を1個解除します。"
+			},
+			"kr": {
+				"name": "정화의 덮개",
+				"description": "강화 마법. 이 강화 마법을 유지하는 동안 대상 아군에게 걸린 상태이상이 5...50% 빨리 끝납니다. 강화 마법이 끝나면 대상에 걸린 상태이상 하나가 무효화됩니다.",
+				"concise": "강화 마법. 대상 아군에게 걸린 상태이상이 5...50% 빨리 끝납니다. 종료 효과: 상태이상 하나를 치료합니다."
+			},
+			"pl": {
+				"name": "Oczyszczający Całun",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, przypadłości, pod których działaniem znajdzie się wybrany sojusznik będą trwały o 5...50% krócej. Kiedy to zaklęcie przestanie działać, z sojusznika zostanie usunięta jedna przypadłość.",
+				"concise": "Zaklęcie (czar). Przypadłości na wybranym sojuszniku kończą się o 5...50% szybciej. Efekt końcowy: usuwa przypadłość."
+			},
+			"ru": {
+				"name": "Purifying Veil",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, все состояния на выбранном союзнике завершаются на 5...50% быстрее. Когда действие этих чар заканчивается, с этого союзника снимается одно состояние.",
+				"concise": "Заклинание-чары. Состояния заканчиваются на 5...50% быстрее на выбранном союзнике. Эффект окончания: снимает состояние."
+			},
+			"bork": {
+				"name": "Pooreeffyeeng Feeel",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, cundeeshuns ixpure-a 5...50% faester oon taerget aelly. Vhee thees inchuntment inds, oone-a cundeeshun is remufed frum thaet aelly.",
+				"concise": "Inchuntment Spell. Cundeeshuns ixpure-a 5...50% faester oon taerget aelly. Ind iffffect: remufes a cundeeshun."
 			}
 		}
 	}

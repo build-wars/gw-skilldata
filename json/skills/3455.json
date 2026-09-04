@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幸运打击",
+				"description": "锤术。 命中时对目标造成 5...20 额外伤害。如果命中带有「虚弱」症状的敌人，你获得 2...4 能量。",
+				"concise": "锤术。 命中时对目标造成 5...20 额外伤害。如果命中带有「虚弱」症状的敌人，你获得 2...4 能量。"
+			},
+			"cht": {
+				"name": "幸運打擊",
+				"description": "鎚術攻擊技能： 命中時造成 5...20 額外傷害，且你獲得 2...4 能量，若是目標遭受虛弱，則此技能無法被格檔。",
+				"concise": "鎚術攻擊技能： 命中時造成 5...20 額外傷害，且你獲得 2...4 能量，若是目標遭受虛弱，則此技能無法被格檔。"
+			},
 			"de": {
+				"name": "Günstiger Schlag",
+				"description": "Hammerangriff. Wenn Günstiger Schlag trifft, fügt Ihr +5...20 Punkt[e] Schaden zu und erhaltet 2...4 Energiepunkt[e]. Wenn der Gegner unter Schwäche leidet, kann dieser Angriff nicht geblockt werden.",
+				"concise": "Hammerangriff. Richtet +5...20 Punkt[e] Schaden an. Ihr erhaltet 2...4 Energiepunkt[e]. Kann nicht geblockt werden, wenn der Gegner geschwächt ist."
+			},
+			"de-guildwiki": {
 				"name": "Günstiger Schlag (PvP)",
 				"description": "Wenn Günstiger Schlag trifft, fügt Ihr +5...20 Punkte Schaden zu und erhaltet 2...4 Energiepunkte. Wenn der Gegner unter Schwäche leidet, kann dieser Angriff nicht geblockt werden.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Ihr erhaltet 2...4 Energiepunkte. Kann nicht geblockt werden, wenn der Gegner geschwächt ist."
 			},
 			"en": {
 				"name": "Auspicious Blow (PvP)",
+				"description": "Hammer Attack. If Auspicious Blow hits, you strike for +5...20 damage and gain 2...4 Energy. If target foe is suffering from Weakness, this attack is unblockable.",
+				"concise": "Hammer Attack. Deals +5...20 damage and you gain 2...4 Energy. Unblockable if target foe is Weakened."
+			},
+			"en-gww": {
+				"name": "Auspicious Blow (PvP)",
 				"description": "If Auspicious Blow hits, you strike for +5...20 damage and gain 2...4 Energy. If target foe is suffering from Weakness, this attack is unblockable.",
 				"concise": "Deals +5...20 damage and you gain 2...4 Energy. Unblockable if target foe is Weakened."
 			},
+			"es": {
+				"name": "Golpe auspiciante",
+				"description": "Ataque con martillo. Si el Golpe auspiciante impacta, haces +5...20 de daño y ganas 2...4 de energía. Si el enemigo objetivo está sufriendo debilitamiento, este ataque no se puede bloquear.",
+				"concise": "Ataque con martillo. Hace +5...20 de daño y ganas adrenalina y 2...4 de energía. No se puede bloquear si el enemigo objetivo está debilitado."
+			},
 			"fr": {
+				"name": "Coup propice",
+				"description": "Attaque au marteau. Si Coup propice réussit, il inflige +5...20 points de dégâts et vous gagnez 2...4 points d'énergie. Si la cible ennemie souffre de Faiblesse, cette attaque ne peut être bloquée.",
+				"concise": "Attaque au marteau. Inflige +5...20 points de dégâts et vous gagnez 2...4 points d'énergie. Ne peut être bloqué si l'ennemi est Affaibli."
+			},
+			"fr-gwiki": {
 				"name": "Coup propice (PvP)",
 				"description": "Si Coup propice réussit, il inflige +5...20 points de dégâts et vous gagnez 2...4 points d'énergie. Si la cible ennemie souffre de Faiblesse, cette attaque ne peut être bloquee.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Propizio",
+				"description": "Attacco con Martello. Se Colpo Propizio va a segno, infliggi +5...20 danno[i] e ottieni 2...4 Punto[i] Energia. Se il nemico è affetto da Debolezza, questo attacco non è bloccabile.",
+				"concise": "Attacco con Martello. Danni inferti: +5...20. Ottieni 2...4 Punto[i] Energia. Non bloccabile se l'obiettivo nemico è affetto da Debolezza."
+			},
+			"jp": {
+				"name": "オースピシャス ブロウ",
+				"description": "ハンマー アタック： 攻撃が成功すると 5...20 の追加ダメージを与え、2...4 のエネルギーを獲得します。敵が「衰弱」状態の場合、この攻撃はブロックされません。",
+				"concise": "ハンマー アタック： 5...20 の追加ダメージを与え、プレイヤーは 2...4 のエネルギーを獲得します。ターゲットした敵が「衰弱」状態の場合、この攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "행운의 일격",
+				"description": "해머 공격. 대상 지정: 적. 5...20의 대미지를 추가로 주고, 자신은 2...4의 에너지를 얻습니다. 약체 상태인 대상은 이 공격을 막을 수 없습니다.",
+				"concise": "해머 공격. 5...20의 대미지를 추가로 주고, 자신은 2...4의 에너지를 얻습니다. 약체인 적은 이 공격을 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Skuteczne Uderzenie",
+				"description": "Atak młotem. Jeśli Skuteczne Uderzenie trafi, zadajesz +5...20 pkt. obrażeń i otrzymujesz 2...4 pkt. energii. Jeśli przeciwnik był osłabiony, ataku tego nie można zablokować.",
+				"concise": "Atak młotem. Zadaje +5...20 pkt. obrażeń, a ty otrzymujesz 2...4 pkt. energii. Nie do zablokowania, jeżeli wybrany przeciwnik jest osłabiony."
+			},
+			"ru": {
+				"name": "Auspicious Blow",
+				"description": "Атака молотом. Если Auspicious Blow попадает в цель, вы наносите дополнительно 5...20 ед. урона и получаете 2...4 ед. энергии. Если выбранный противник был ослаблен, эту атаку нельзя блокировать.",
+				"concise": "Атака молотом. Наносит дополнительно 5...20 ед. урона. Вы получаете 2...4 ед. энергии. Нельзя блокировать, если выбранный противник ослаблен."
+			},
+			"bork": {
+				"name": "Oospeeceeuoos Bloo (PfP)",
+				"description": "Haemmer Aettaeck. Iff Oospeeceeuoos Bloo heets, yuoo streeke-a fur +5...20 daemaege-a und gaeeen 2...4 Inergy. Iff taerget fue-a is sooffffereeng frum Veaekness, thees aettaeck is unbluckaeble-a.",
+				"concise": "Haemmer Aettaeck. Deaels +5...20 daemaege-a und yuoo gaeeen 2...4 Inergy. Unbluckaeble-a iff taerget fue-a is Veaekened."
 			}
 		}
 	}

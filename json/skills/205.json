@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电震击",
+				"description": "精英负面魔法。 利用 3秒 的时间召唤雷霆，将目标敌人击倒，并使其受到14...100点闪电伤害。",
+				"concise": "精英负面魔法。 利用 3秒 的时间召唤雷霆，将目标敌人击倒，并使其受到14...100点闪电伤害。"
+			},
+			"cht": {
+				"name": "閃電震盪",
+				"description": "精英降咒魔法： 在 3 秒之後，使目標敵人受到 14...100 閃電傷害並且被擊倒。",
+				"concise": "精英降咒魔法： 在 3 秒之後，使目標敵人受到 14...100 閃電傷害並且被擊倒。"
+			},
 			"de": {
+				"name": "Blitzwelle",
+				"description": "Elite-Verhexung. Nach 3 Sekunden wird der Gegner zu Boden geworfen, erleidet 14...100 Punkt[e] Blitzschaden und leidet 5...20 Sekunde[n] lang an Beschädigter Rüstung. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Elite-Verhexung. (3 Sekunden.) Wirkung am Ende: Richtet 14...100 Punkt[e] Blitzschaden an, wirft zu Boden und verursacht Beschädigte Rüstung (5...20 Sekunde[n]). 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Blitzwelle",
 				"description": "Nach 3 Sekunden wird der Zielgegner zu Boden geworfen, leidet 5...20 Sekunden lang an Beschädigter Rüstung und erleidet 14...100 Punkte Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "3 Sekunden: Wirkung am Ende: Wirft zu Boden, verursacht Beschädigte Rüstung (5...20 Sekunden), richtet 14...100 Punkte Blitzschaden an. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Lightning Surge",
+				"description": "Elite Hex Spell. After 3 seconds, target foe is knocked down, struck for 14...100 lightning damage, and has Cracked Armor for 5...20 seconds. This spell has 25% armor penetration.",
+				"concise": "Elite Hex Spell. (3 seconds.) End effect: deals 14...100 lightning damage, causes knock-down, and inflicts Cracked Armor (5...20 seconds). 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Lightning Surge",
 				"description": "After 3 seconds, target foe is knocked down and struck for 14...100 lightning damage, and has Cracked Armor for 5...20 seconds. This spell has 25% armor penetration.",
 				"concise": "(3 seconds.) End effect: deals 14...100 lightning damage, causes knock-down, and inflicts Cracked Armor (5...20 seconds). 25% armor penetration."
 			},
+			"es": {
+				"name": "Oleada de relámpagos",
+				"description": "Conjuro con maleficio de élite. Tras 3 segundos, derriba al objetivo enemigo, le hace 14...100 de daño de relámpago y tiene la armadura rota durante 5...20 segundos. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro con maleficio de élite. (3 segundos.) Efecto final: hace 14...100 de daño de relámpago, derriba y causa armadura rota (5...20 segundos). 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Décharge foudroyante",
+				"description": "Maléfice d'élite. Après 3 secondes, la cible ennemie est renversée, subit 14...100 points de dégâts de la foudre et a une Armure brisée pendant 5...20 secondes. Ce sort dispose de 25% de pénétration d'armure.",
+				"concise": "Maléfice d'élite. (3 secondes.) Effet final : inflige 14...100 points de dégâts de la foudre, renverse et applique la condition Armure brisée (5...20 secondes). 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Décharge foudroyante",
 				"description": "Au bout de 3 secondes, l'ennemi visé est assommé et subit 14...100 points de dégâts de la foudre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Marea di Fulmini",
+				"description": "Fattura d'Élite. Dopo 3 secondi, l'obiettivo nemico viene abbattuto, subisce 14...100 danni da fulmine ed è affetto da Armatura Incrinata per 5...20 secondi. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Fattura d'Élite. (Secondi: 3.) Effetto al termine: danni da fulmine inferti: 14...100. Provoca abbattimento. Condizione inflitta: Armatura Incrinata (5...20 secondi). Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ライトニング サージ",
+				"description": "エリート弱体化スペル： 3秒後、ターゲットした敵を転倒させ、14...100 のライトニング ダメージを与えて 5...20 秒間「防具破損」状態にします。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "エリート弱体化スペル： (3秒) 終了効果： 14...100 のライトニング ダメージを与えて転倒させ、「防具破損」状態にします (5...20 秒)。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개의 파도",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 3초 뒤에 대상을 넘어뜨리고 14...100의 번개 대미지를 주고, 5...20초 동안 방어 손상을 입힙니다. 이 마법은 25%의 갑옷 관통 효과를 가집니다.",
+				"concise": "엘리트 약화 마법. (3초) 종료 효과: 14...100의 번개 대미지를 주고, 바닥에 넘어뜨리고, 방어 손상을 입힙니다.(5...20초) 25%의 갑옷 관통 효과를 가집니다."
+			},
+			"pl": {
+				"name": "Fala Błyskawic",
+				"description": "Elitarna klątwa (czar). Po 3 sek., wybrany przeciwnik zostaje powalony i otrzymuje 14...100 pkt. obrażeń od błyskawic.",
+				"concise": "Elitarna klątwa (czar). (3 sek.) Efekt końcowy: zadaje 14...100 pkt. obrażeń od piorunów i powala."
+			},
+			"ru": {
+				"name": "Lightning Surge",
+				"description": "Элитное заклинание-проклятье. Через 3 сек выбранный противник будет сбит с ног, получит 14...100 ед. урона силой молнии и треснувшие доспехи на 5...20 сек. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Элитное заклинание-проклятье. (3 сек) Эффект окончания: наносит 14...100 ед. урона силой молнии, сбивает с ног и накладывает треснувшие доспехи (5...20 сек). Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Leeghtneeng Soorge-a",
+				"description": "Ileete-a Hex Spell. Aeffter 3 secunds, taerget fue-a is knucked doon, stroock fur 14...100 leeghtneeng daemaege-a, und haes Craecked Aermur fur 5...20 secunds. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Ileete-a Hex Spell. (3 secunds.) Ind iffffect: deaels 14...100 leeghtneeng daemaege-a, cooses knuck-doon, und inffleects Craecked Aermur (5...20 secunds). 25% aermur penetraeshun."
 			}
 		}
 	}

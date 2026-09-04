@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Body Shot",
+				"description": "弓术。 If this attack hits, you deal +5...20 damage. If it hits a foe with Cracked Armor, you gain 5...10 Energy.",
+				"concise": "弓术。 Deals +5...20 damage. You gain 5...10 Energy if target foe has Cracked Armor."
+			},
+			"cht": {
+				"name": "主力之箭",
+				"description": "弓術攻擊技能： 此攻擊命中時，你造成 +5...20 傷害。若命中遭受「碎甲」的敵人，則你將獲得 5...10 能量。",
+				"concise": "弓術攻擊技能： 此攻擊命中時，你造成 +5...20 傷害。若命中遭受「碎甲」的敵人，則你將獲得 5...10 能量。"
+			},
 			"de": {
+				"name": "Körperschuss",
+				"description": "Bogenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Ihr einen Gegner mit Beschädigter Rüstung trefft, erhaltet Ihr 5...10 Energiepunkt[e].",
+				"concise": "Bogenangriff. Richtet +5...20 Punkt[e] Schaden an. Ihr erhaltet 5...10 Energiepunkt[e], falls Gegner Beschädigte Rüstung hat."
+			},
+			"de-guildwiki": {
 				"name": "Körperschuss",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn Ihr einen Gegner mit beschädigter Rüstung trefft, erhaltet Ihr 5...10 Energiepunkte.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Ihr erhaltet 5...10 Energiepunkte, falls der Gegner Beschädigte Rüstung hat."
 			},
 			"en": {
 				"name": "Body Shot",
+				"description": "Bow Attack. If this attack hits, you deal +5...20 damage. If it hits a foe with Cracked Armor, you gain 5...10 Energy.",
+				"concise": "Bow Attack. Deals +5...20 damage. You gain 5...10 Energy if target foe has Cracked Armor."
+			},
+			"en-gww": {
+				"name": "Body Shot",
 				"description": "If this attack hits, you deal +5...20 damage. If it hits a foe with Cracked Armor, you gain 5...10 Energy.",
 				"concise": "Deals +5...20 damage. You gain 5...10 Energy if target foe has Cracked Armor."
 			},
+			"es": {
+				"name": "Disparo corporal",
+				"description": "Ataque con arco. Si este ataque impacta, harás +5...20 de daño. Si alcanza a un enemigo con la armadura rota, ganarás 5...10 de energía.",
+				"concise": "Ataque con arco. Hace +5...20 de daño. Ganas 5...10 de energía si el enemigo objetivo tiene la armadura rota."
+			},
 			"fr": {
+				"name": "Tir corporel",
+				"description": "Attaque à l'arc. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si vous frappez un ennemi ayant une Armure brisée, vous bénéficiez de 5...10 points d'énergie.",
+				"concise": "Attaque à l'arc. Inflige +5...20 points de dégâts. Vous gagnez 5...10 points d'énergie si l'ennemi visé a une Armure brisée."
+			},
+			"fr-gwiki": {
 				"name": "Coup corporel",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si vous frappez un ennemi ayant une Armure brisée, vous bénéficiez de 5...10 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro al Corpo",
+				"description": "Attacco con Arco. Se questo attacco va a segno, infliggi +5...20 danno[i]; se colpisce un nemico affetto da Armatura Incrinata, ottieni 5...10 Punto[i] Energia.",
+				"concise": "Attacco con Arco. Danni inferti: +5...20. Energia conseguita se l'obiettivo nemico soffre di Armatura Incrinata: 5...10."
+			},
+			"jp": {
+				"name": "ボディ ショット",
+				"description": "ボウ アタック： 攻撃が成功すると、5...20 の追加ダメージを与えます。この敵に「防具破損」がかけられている場合、5...10 のエネルギーを獲得します。",
+				"concise": "ボウ アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が「防具破損」状態の場合、プレイヤーは 5...10 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "몸통 겨냥",
+				"description": "활 공격. 공격이 적중하면 5...20의 대미지를 추가로 줍니다. 대상이 방어 손상을 입은 상태라면 자신은 5...10의 에너지를 얻습니다.",
+				"concise": "활 공격. 5...20의 대미지를 추가로 줍니다. 대상이 방어 손상을 입은 상태라면 자신은 5...10의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Strzał w Korpus",
+				"description": "Strzał z łuku. Jeśli atak trafi, zadaje +5...20 pkt. obrażeń. Jeżeli trafi przeciwnika będącego pod działaniem Pękniętej Zbroi, to otrzymujesz 5...10 punktów energii.",
+				"concise": "Strzał z łuku. Zadaje +5...20 pkt. obrażeń. Otrzymujesz 5...10 pkt. energii, jeżeli wybrany przeciwnik ma pękniętą zbroję."
+			},
+			"ru": {
+				"name": "Body Shot",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если вы попадаете в противника с треснувшими доспехами, вы получаете 5...10 ед. энергии.",
+				"concise": "Атака из лука. Наносит дополнительно 5...20 ед. урона. Вы получаете 5...10 ед. энергии, если у выбранного противника были треснувшие доспехи."
+			},
+			"bork": {
+				"name": "Budy Shut",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff it heets a fue-a veet Craecked Aermur, yuoo gaeeen 5...10 Inergy.",
+				"concise": "Boo Aettaeck. Deaels +5...20 daemaege-a. Yuoo gaeeen 5...10 Inergy iff taerget fue-a haes Craecked Aermur."
 			}
 		}
 	}

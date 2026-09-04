@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "顺势劈",
+				"description": "精英斧术。 如果该攻击命中，则造成+10...40点伤害，并对1...2个邻近敌人造成10...40点斩击伤害。",
+				"concise": "精英斧术。 造成+10...40伤害，并对1...2个邻近敌军造成10...40点斩击伤害。"
+			},
+			"cht": {
+				"name": "劈擊",
+				"description": "精英斧術攻擊技能： If this attack hits, you strike for +10...40 damage and hit 1...2 adjacent foes for 10...40 slashing damage.",
+				"concise": "精英斧術攻擊技能： Deals +10...40 damage and hits 1...2 adjacent foes for 10...40 slashing damage."
+			},
 			"de": {
+				"name": "Spalten",
+				"description": "Elite-Axtangriff. Beim Zuschlagen mit diesem Angriff verursacht Ihr +10...40 Schaden und trefft 1...2 benachbarte Gegner mit 10...40 Hiebschaden.",
+				"concise": "Elite-Axtangriff. Verursacht +10...40 Schaden und trifft 1...2 benachbarte Gegner mit 10...40 Hiebschaden."
+			},
+			"de-guildwiki": {
 				"name": "Spalten",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr 10...40 Punkte zusätzlichen Schaden zu und 2...3 Euren Gegner umstehende Feinde erleiden 10...40 rüstungsignorierenden Hieb-Schaden.",
 				"concise": "Richtet +10...40 Punkte Schaden an. 2...3 Euren Gegner umstehende Feinde erleiden 10...40 rüstungsignorierenden Hieb-Schaden."
 			},
 			"en": {
 				"name": "Cleave",
+				"description": "Elite Axe Attack. If this attack hits, you strike for +10...40 damage and hit 1...2 adjacent foes for 10...40 slashing damage.",
+				"concise": "Elite Axe Attack. Deals +10...40 damage and hits 1...2 adjacent foes for 10...40 slashing damage."
+			},
+			"en-gww": {
+				"name": "Cleave",
 				"description": "If this attack hits, you strike for +10...40 damage and hit 1...2 adjacent foe[s] for 10...40 slashing damage.",
 				"concise": "Deals +10...40 damage and hits 1...2 adjacent foe[s] for 10...40 slashing damage."
 			},
+			"es": {
+				"name": "Partir en dos",
+				"description": "Ataque con hacha de élite. Si este ataque impacta, inflige +10...40 de daño y alcanza a 1...2 enemigos adyacentes provocándoles 10...40 de daño cortante.",
+				"concise": "Ataque con hacha de élite. Inflige +10...40 de daño y alcanza a 1...2 enemigos adyacentes provocándoles 10...40 de daño cortante."
+			},
 			"fr": {
+				"name": "Clivage",
+				"description": "Attaque à la hache d'élite. Si cette attaque porte, vous infligez +10...40 points de dégâts et frappez jusqu'à 1...2 ennemis adjacents, qui subissent 10...40 points de dégâts tranchants.",
+				"concise": "Attaque à la hache d'élite. Inflige +10...40 points de dégâts et frappe jusqu'à 1...2 ennemis adjacents, qui subissent 10...40 points de dégâts tranchants."
+			},
+			"fr-gwiki": {
 				"name": "Clivage",
 				"description": "Cette attaque inflige +10...30 points de dégâts si elle réussit.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fessura",
+				"description": "Attacco d'Élite con Ascia. Se l'attacco va a segno, infliggi +10...40 danni e colpisci 1...2 nemico/i adiacente/i con 10...40 danni taglienti.",
+				"concise": "Attacco d'Élite con Ascia. Infligge +10...40 danni e colpisce 1...2 nemico/i adiacente/i con 10...40 danni taglienti."
+			},
+			"jp": {
+				"name": "クリーヴ",
+				"description": "エリート アックス アタック： この攻撃が命中した場合、10...40のダメージを追加で与え、1...2体の隣接する敵に10...40の斬撃ダメージを与えます。",
+				"concise": "エリート アックス アタック： 10...40のダメージを追加で与え、1...2体の隣接する敵に10...40の斬撃ダメージを与えます。"
+			},
+			"kr": {
+				"name": "장작 패기",
+				"description": "엘리트 도끼 공격. 대상 지정: 적. 공격이 성공하면 대상은 10...40의 대미지를 추가로 입고, 그에 인접한 1...2명의 적은 10...40의 베는 대미지를 받습니다.",
+				"concise": "엘리트 도끼 공격. 10...40의 대미지를 추가로 입히고, 그에 인접한 1...2명의 적에게 10...40의 베는 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Rozłupanie",
+				"description": "Elitarny atak toporem. Jeśli atak trafi, zadajesz +10...40 pkt. obrażeń oraz zadajesz 1...2 wrogom 10...40 pkt. obrażeń ciętych.",
+				"concise": "Elitarny atak toporem. Zadaje +10...40 pkt. obrażeń oraz zadaje 1...2 wrogom w bezpośrednim sąsiedztwie 10...40 pkt. obrażeń ciętych."
+			},
+			"ru": {
+				"name": "Cleave",
+				"description": "Элитная атака топором. Если эта атака достигает цели, вы наносите ей +10...40 урона и наносите 10...40 рубящего урона 1...2 ближайшим врагам.",
+				"concise": "Элитная атака топором. Наносит +10...40 урона и 10...40 рубящего урона 1...2 ближайшим врагам."
+			},
+			"bork": {
+				"name": "Cleaefe-a",
+				"description": "Ileete-a Aexe-a Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +10...40 daemaege-a und heet 1...2 aedjaecent fue-as fur 10...40 slaesheeng daemaege-a.",
+				"concise": "Ileete-a Aexe-a Aettaeck. Deaels +10...40 daemaege-a und heets 1...2 aedjaecent fue-as fur 10...40 slaesheeng daemaege-a."
 			}
 		}
 	}

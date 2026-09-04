@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法愈合",
+				"description": "增益魔法。 在5...20秒之内，你将根据你所带有的「增益魔法」效果数量，每一项使你获得1...4点「生命再生」。",
+				"concise": "增益魔法。 在5...20秒之内，你将根据你所带有的「增益魔法」效果数量，每一项使你获得1...4点「生命再生」。"
+			},
+			"cht": {
+				"name": "再生祕法 (PvP)",
+				"description": "加持魔法： 持續5...20秒，每項加持使你體力再生增加1...4(最多3個加持)。",
+				"concise": "加持魔法： 持續5...20秒，每項加持使你體力再生增加1...4(最多3個加持)。"
+			},
 			"de": {
+				"name": "Mystische Regeneration (PvP)",
+				"description": "Verzauberung. 5...20 Sekunde[n] lang habt Ihr für jede Verzauberung auf Euch (maximal 3) +1...4 Lebenspunktregeneration.",
+				"concise": "Verzauberung. 5...20 Sekunde[n]: Ihr habt für jede Verzauberung auf Euch (maximal 3) +1...4 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Mystische Regeneration (PvP)",
 				"description": "5...20 Sekunden lang habt Ihr für jede Verzauberung auf Euch (maximal 3), +1...4 Lebenspunktregeneration.",
 				"concise": "5...20 Sekunden: Ihr habt für jede Verzauberung auf Euch (maximal 3) +1...4 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Mystic Regeneration (PvP)",
+				"description": "Enchantment Spell. For 5...20 seconds, you have +1...4 Health regeneration for each enchantment (maximum of 3) on you.",
+				"concise": "Enchantment Spell. (5...20 seconds.) You have +1...4 Health regeneration for each enchantment (maximum of 3) on you."
+			},
+			"en-gww": {
+				"name": "Mystic Regeneration (PvP)",
 				"description": "For 5...20 seconds, you have +1...4 Health regeneration for each enchantment (maximum of 3) on you.",
 				"concise": "(5...20 seconds.) You have +1...4 Health regeneration for each enchantment (maximum of 3) on you."
 			},
+			"es": {
+				"name": "Regeneración mística (PvP)",
+				"description": "Conjuro con encantamiento. Durante 5...20 segundos, ganas +1...4 de regeneración de salud por cada encantamiento que tengas encima (máximo 3).",
+				"concise": "Conjuro con encantamiento. (5...20 segundos). Ganas +1...4 de regeneración de salud por cada encantamiento que tengas encima (máximo 3)."
+			},
 			"fr": {
+				"name": "Régénération mystique (PvP)",
+				"description": "Enchantement. Pendant 5...20 secondes, vous bénéficiez d'une régénération de santé de +1...4 pour chaque enchantement (3 maximum) qui vous affecte.",
+				"concise": "Enchantement. (5...20 secondes.) Vous bénéficiez d'une régénération de santé de +1...4 pour chaque enchantement (3 maximum) qui vous affecte."
+			},
+			"fr-gwiki": {
 				"name": "Régénération mystique (PvP)",
 				"description": "Pendant 5...20 secondes, vous bénéficiez d'une régénération de santé de +1...4 pour chaque enchantement (3 maximum) qui vous affecte.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rigenerazione Mistica (PvP)",
+				"description": "Incantesimo. Per 5...20 secondo[i] ottieni una Rigenerazione della Salute di +1...4 per ogni incantesimo presente su di te (max 3 incantesimi).",
+				"concise": "Incantesimo. (Secondi: 5...20) Rigenerazione tua Salute per ogni incantesimo presente su di te (max 3): +1...4."
+			},
+			"jp": {
+				"name": "ミスティック リジェネレーション (PvP)",
+				"description": "強化スペル： 5...20 秒間、かけられている強化スペルごとに (最大3個) 体力の自然回復力が 1...4 増加します。",
+				"concise": "強化スペル： (5...20 秒) かけられている強化スペルごとに (最大3個)、体力の自然回復力が 1...4 増加します。"
+			},
+			"kr": {
+				"name": "신비로운 재생(대인전)",
+				"description": "강화 마법. 대상 지정: 없음. 5...20초 동안 자신이 걸린 강화 마법 하나당 체력 재생이 1...4만큼 증가합니다. 최대 3개의 강화 마법이 효력을 발휘합니다.",
+				"concise": "강화 마법. (5...20초) 자신이 걸린 강화 마법 하나당 체력 재생이 1...4만큼 증가합니다. 최대 3개의 강화 마법이 효력을 발휘합니다."
+			},
+			"pl": {
+				"name": "Mistyczna Regeneracja (PvP)",
+				"description": "Zaklęcie (czar). Na 5...20 sek. otrzymujesz regenerację żywotności +1...4 na każde zaklęcie, pod którego jesteś działaniem (maksymalnie 3).",
+				"concise": "Zaklęcie (czar). (5...20 sek.) Posiadasz regenerację żywotności +1...4 na każde zaklęcie, pod którego jesteś działaniem (maksymalnie 3)."
+			},
+			"ru": {
+				"name": "Mystic Regeneration (PvP)",
+				"description": "Заклинание-чары. В течение 5...20 сек ваша скорость восстановления здоровья увеличивается на 1...4 ед. за каждые наложенные на вас чары (но не более 3 чар).",
+				"concise": "Заклинание-чары. (5...20 сек) Вы получаете +1...4 ед. к скорости восстановления здоровья за каждые наложенные на вас чары (но не более 3 чар)."
+			},
+			"bork": {
+				"name": "Mysteec Regeneraeshun (PfP)",
+				"description": "Inchuntment Spell. Fur 5...20 secunds, yuoo haefe-a +1...4 Heaelt regeneraeshun fur iaech inchuntment (maexeemoom ooff 3) oon yuoo.",
+				"concise": "Inchuntment Spell. (5...20 secunds.) Yuoo haefe-a +1...4 Heaelt regeneraeshun fur iaech inchuntment (maexeemoom ooff 3) oon yuoo."
 			}
 		}
 	}

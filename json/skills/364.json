@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「冲锋！」",
+				"description": "精英战吼。 使所有「音波」范围内的队友移动速度提高33%，效果持续5...13秒。",
+				"concise": "精英战吼。 使邻近的所有队友移动速度提高25%，效果持续5...13秒。"
+			},
+			"cht": {
+				"name": "「突擊！」",
+				"description": "精英戰嚎： 音量所及範圍內的盟友失去殘廢病症，同時在 5...13 秒內移動速度增加 33% 。",
+				"concise": "精英戰嚎： 音量所及範圍內的盟友失去殘廢病症，同時在 5...13 秒內移動速度增加 33% 。"
+			},
 			"de": {
+				"name": "Angriff!",
+				"description": "Elite-Schrei. Alle Verbündeten in Hörweite verlieren den Zustand Verkrüppelung. 5...13 Sekunde[n] lang bewegen sich diese Verbündeten um 33% schneller als normal.",
+				"concise": "Elite-Schrei. (5...13 Sekunde[n].) Verbündete in Hörweite bewegen sich um 33% schneller. Anfangswirkung: Diese Verbündeten verlieren den Zustand Verkrüppelung."
+			},
+			"de-guildwiki": {
 				"name": "Angriff!",
 				"description": "Alle Verbündeten in Hörweite verlieren den Zustand Verkrüppelung. 5...13 Sekunden lang bewegen sich diese Verbündeten um 33% schneller als normal.",
 				"concise": "(5...13 Sekunden.) Verbündete in Hörweite bewegen sich um 33% schneller. Anfangswirkung: Diese Verbündeten verlieren den Zustand Verkrüppelung."
 			},
 			"en": {
 				"name": "\"Charge!\"",
+				"description": "Elite Shout. All allies within earshot lose the Crippled condition. For 5...13 seconds, these allies move 33% faster.",
+				"concise": "Elite Shout. (5...13 seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition."
+			},
+			"en-gww": {
+				"name": "\"Charge!\"",
 				"description": "Allies in earshot lose the Crippled condition. For 5...13 seconds, these allies move 33% faster.",
 				"concise": "(5...13 seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition."
 			},
+			"es": {
+				"name": "¡Carga!",
+				"description": "Grito de élite. Todos los aliados al alcance del oído dejan de estar lisiados. Durante 5...13 segundos, estos aliados se mueven un 33% más rápido.",
+				"concise": "Grito de élite. (5...13 segundos). Los aliados al alcance del oído se mueven un 33% más rápido. Efecto inicial: estos aliados dejan de estar lisiados."
+			},
 			"fr": {
+				"name": "Chargez !",
+				"description": "Cri d'élite. Tous les alliés à portée de voix perdent la condition d'Infirmité. Pendant 5...13 secondes, tous les alliés se déplacent 33% plus vite.",
+				"concise": "Cri d'élite. (5...13 secondes.) Les alliés à portée de voix se déplacent 33% plus vite. Effet initial : les alliés perdent la condition d'Infirmité."
+			},
+			"fr-gwiki": {
 				"name": "\"Chargez !\"",
 				"description": "Pendant 5...13 secondes, tous les alliés à portée de voix se déplacent 33% plus vite. Effet initial : les alliés à portée de voix perdent leur condition d'Infirmité.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Carica!",
+				"description": "Urlo d'Élite. Tutti gli alleati a portata d'orecchio perdono la condizione Storpiatura. Per 5...13 secondo[i], la tua velocità aumenta del 33%.",
+				"concise": "Urlo d'Élite. (Secondo[i]: 5...13). La velocità di movimento degli alleati a portata d'orecchio aumento di un 33%. Effetto iniziale: gli alleati perdono la condizione Storpiatura."
+			},
+			"jp": {
+				"name": "チャージ！",
+				"description": "エリート シャウト： 声の届く範囲内にいるすべての味方は、かけられている「不自由」状態が解除されます。「状態異常」が解除された味方は 5...13 秒間、移動速度が33%増加します。",
+				"concise": "エリート シャウト： (5...13 秒) 声の届く範囲内にいる味方は移動速度が33%増加します。発動効果： 味方にかけられている「不自由」状態が解除されます。"
+			},
+			"kr": {
+				"name": "돌격하라!",
+				"description": "엘리트 고함. 대상 지정: 없음. 가청 범위 내의 모든 아군은 다리부상 상태에서 벗어나고, 5...13초 동안 이동 속도가 33% 증가합니다.",
+				"concise": "엘리트 고함. (5...13초) 가청 범위 내에 있는 아군의 이동 속도가 33% 빨라집니다. 초기 효과: 아군의 다리부상을 치료합니다."
+			},
+			"pl": {
+				"name": "Szarża!",
+				"description": "Elitarny okrzyk. Wszyscy sojusznicy w zasięgu przestają być okulawieni. Oprócz tego, przez 5...13 sek., sojusznicy ci poruszają się o 33% szybciej.",
+				"concise": "Elitarny okrzyk. (5...13 sek.) Sojusznicy w zasięgu słuchu poruszają się o 33% szybciej. Efekt początkowy: sojusznicy przestają być okulawieni."
+			},
+			"ru": {
+				"name": "\"Charge!\"",
+				"description": "Элитный крик. Все союзники в зоне слышимости перестают хромать. В течение 5...13 сек эти союзники двигаются на 33% быстрее.",
+				"concise": "Элитный крик. (5...13 сек) Союзники в зоне слышимости двигаются на 33% быстрее. Начальный эффект: эти союзники перестают хромать."
+			},
+			"bork": {
+				"name": "\"Chaerge-a!\"",
+				"description": "Ileete-a Shuoot. Aell aelleees veetheen iaershut luse-a zee Creeppled cundeeshun. Fur 5...13 secunds, zeese-a aelleees mufe-a 33% faester.",
+				"concise": "Ileete-a Shuoot. (5...13 secunds.) Aelleees in iaershut mufe-a 33% faester. Ineeteeael iffffect: zeese-a aelleees luse-a zee Creeppled cundeeshun."
 			}
 		}
 	}

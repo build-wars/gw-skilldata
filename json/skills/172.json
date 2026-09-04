@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "石化匕首",
+				"description": "咒文。 掷出两把石化匕首，在命中后，每把匕首会对目标造成8...33点地系伤害。",
+				"concise": "咒文。 向目标敌人掷出巨大的石块，对其造成8...33点地系伤害，如果该目标带有「虚弱」症状，则被击倒。"
+			},
+			"cht": {
+				"name": "石之匕首",
+				"description": "咒文魔法： 射出兩把石之匕首。每把石之匕首在命中目標敵人時，對目標造成 8...33 土系傷害。",
+				"concise": "咒文魔法： 射出兩把石之匕首。每把石之匕首在命中目標敵人時，對目標造成 8...33 土系傷害。"
+			},
 			"de": {
+				"name": "Steindolche",
+				"description": "Zauber. Sendet zwei Steindolche aus. Jeder Steindolch fügt dem Gegner 8...33 Punkte Erdschaden zu, wenn er trifft. Wenn Ihr Überzaubert seid, verursacht jedes Geschoss für 1...5 Sekunden Blutung.",
+				"concise": "Zauber. Zwei Geschosse: Richten je 8...33 Punkte Erdschaden an. Der Gegner leidet 1...5 Sekunden lang an einer Blutung."
+			},
+			"de-guildwiki": {
 				"name": "Steindolche",
 				"description": "Sendet zwei Steindolche aus. Jeder Steindolch fügt dem Gegner 8...33 Punkte Erdschaden zu, wenn er trifft. Wenn Ihr überzaubert seid, verursacht jedes Geschoss für 1...5 Sekunden Blutung.",
 				"concise": "Zwei Geschosse: Richtet je 8...33 Punkte Erdschaden an. Wenn Ihr überzaubert seid, leidet der Gegner 1...5 Sekunden lang an einer Blutung."
 			},
 			"en": {
 				"name": "Stone Daggers",
+				"description": "Spell. Send out two Stone Daggers. Each Stone Dagger strikes target foe for 8...33 earth damage if it hits. If you are Overcast, each projectile inflicts Bleeding for 1...5 seconds.",
+				"concise": "Spell. Two projectiles: each deals 8...33 earth damage. If Overcast, cause Bleeding for 1...5 seconds."
+			},
+			"en-gww": {
+				"name": "Stone Daggers",
 				"description": "Send out two Stone Daggers. Each Stone Dagger strikes target foe for 8...33 earth damage if it hits. If you are Overcast, each projectile inflicts Bleeding for 1...5 second[s].",
 				"concise": "Two projectiles: each deals 8...33 earth damage. If Overcast, cause Bleeding for 1...5 second[s]."
 			},
+			"es": {
+				"name": "Dagas de piedra",
+				"description": "Conjuro. Arrojas dos dagas de piedra. Si impactan, cada una hace 8...33 de daño de tierra al enemigo objetivo. Si estás sobrelanzando, cada proyectil causa hemorragia durante 1...5 segundos.",
+				"concise": "Conjuro. Dos proyectiles: cada uno causa 8...33 de daño de tierra. Si estás sobrelanzando, causa hemorragia durante 1...5 segundos"
+			},
 			"fr": {
+				"name": "Dagues de pierre",
+				"description": "Sort. Vous lancez deux dagues de pierre. Si elles touchent leur cible, elles infligent chacune 8...33 points de dégâts de la terre. Si vous êtes en état d'Afflux, chaque projectile inflige un Saignement pendant 1...5 secondes.",
+				"concise": "Sort. Deux projectiles : chacun inflige 8...33 points de dégâts de la Terre. En état d'Afflux, inflige un Saignement pendant 1...5 secondes,"
+			},
+			"fr-gwiki": {
 				"name": "Dagues de pierre",
 				"description": "Vous lancez deux dagues de pierre. Si elles touchent leur cible, elles infligent chacune 8...33 points de dégâts de la terre.",
 				"concise": "Deux projectiles : chacun inflige 8...33 points de dégâts de la Terre."
+			},
+			"it": {
+				"name": "Pugnali di Pietra",
+				"description": "Magia. Lanci due Pugnali di Pietra. Ogni Pugnale di Pietra infligge all'obiettivo nemico 8...33 danni da terra se va a segno. Se sei sotto Sforzo, ogni proiettile infligge Sanguinamento per 1...5 secondi.",
+				"concise": "Magia. Due proiettili: ognuno infligge 8...33 danni da terra. Condizione inferta se sotto Sforzo: Sanguinamento (Secondi: 1...5)."
+			},
+			"jp": {
+				"name": "ストーン ダガー",
+				"description": "スペル： ターゲットした敵に2本のストーン ダガーを投げつけます。それぞれのダガーは、命中すると 8...33 のアース ダメージを与えます。プレイヤーが「疲労」状態の場合、それぞれのダガーによりターゲットは 1...5 秒間「出血」状態になります。",
+				"concise": "スペル： 2回の遠投攻撃： それぞれ 8...33 のアース ダメージを与えます。｢疲労」状態の場合、1...5 秒間「出血」状態にします。"
+			},
+			"kr": {
+				"name": "돌칼 투척",
+				"description": "마법. 대상 지정: 적. 대상에게 2개의 돌칼을 날립니다. 명중하면 대상은 각각 8...33의 대지 대미지를 받습니다. 자신이 탈진 상태면 돌칼은 대상에게 1...5초간 출혈을 유발합니다.",
+				"concise": "마법. 2개의 발사체: 각각 8...33의 대지 대미지를 줍니다. 자신이 탈진 상태면 대상에게 1...5초간 출혈을 유발합니다."
+			},
+			"pl": {
+				"name": "Kamienne Sztylety",
+				"description": "Czar. Wyślij dwa Kamienne Sztylety. Każdy z Kamiennych Sztyletów zadaje 8...33 pkt. obrażeń od ziemi, jeżeli trafi wybranego przeciwnika. Będąc pod wpływem Przemagicznienia, każdy pocisk powoduje Krwawienie przez 1...5 sek.",
+				"concise": "Czar. Dwa pociski: każdy zadaje 8...33 pkt. obrażeń od ziemi. Podczas Przemagicznienia powoduje krwawienie przez 1...5 sek."
+			},
+			"ru": {
+				"name": "Stone Daggers",
+				"description": "Заклинание. Вы бросаете два каменных кинжала. Каждый кинжал наносит 8...33 ед. урона силой земли, если он попадает в цель. Если вы утомлены, каждый кинжал вызывает кровотечение на 1...5 сек.",
+				"concise": "Заклинание. Два метательных снаряда: каждый наносит 8...33 ед. урона силой земли. Если вы утомлены, вызывает кровотечение на 1...5 сек."
+			},
+			"bork": {
+				"name": "Stune-a Daeggers",
+				"description": "Spell. Send oooot tvu Stune-a Daeggers. Iaech Stune-a Daegger streekes taerget fue-a fur 8...33 iaert daemaege-a iff it heets. Iff yuoo aere-a Oofercaest, iaech prujecteele-a inffleects Bleedeeng fur 1...5 secunds.",
+				"concise": "Spell. Tvu prujecteeles: iaech deaels 8...33 iaert daemaege-a. Iff Oofercaest, coose-a Bleedeeng fur 1...5 secunds."
 			}
 		}
 	}

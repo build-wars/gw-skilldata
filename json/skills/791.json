@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 4,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "血祭",
+				"description": "咒文。 你失去一半的生命复活目标盟友，使其拥有与你牺牲生命后同等的生命，并恢复其 5...20% 能量。",
+				"concise": "咒文。 你失去一半的生命复活目标盟友，使其拥有与你牺牲生命后同等的生命，并恢复其 5...20% 能量。"
+			},
+			"cht": {
+				"name": "生體犧牲",
+				"description": "咒文魔法： 你失去一半的體力復活目標隊友，使其擁有與你犧牲體力後同等的體力，並恢復其 5...20% 能量。",
+				"concise": "咒文魔法： 你失去一半的體力復活目標隊友，使其擁有與你犧牲體力後同等的體力，並恢復其 5...20% 能量。"
+			},
 			"de": {
+				"name": "Fleisch von meinem Fleisch",
+				"description": "Zauber. Verliert die Hälfte Eurer Lebenspunkte. Belebt das Gruppenmitglied mit Euren aktuellen Lebenspunkten und 5...20% der Energiepunkte wieder.",
+				"concise": "Zauber. Das Gruppenmitglied wird wiederbelebt (Hälfte Eurer aktuellen Lebenspunkte, 5...20% Energiepunkte). Ihr verliert die Hälfte Eurer Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Fleisch von meinem Fleisch",
 				"description": "Ihr verliert die Hälfte Eurer Lebenspunkte. Belebt das Gruppenmitglied mit Euren aktuellen Lebenspunkten und 5...20% der Energiepunkte wieder.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (Hälfte Eurer aktuellen Lebenspunkte, 5...20% Energiepunkte). <gray>Ihr verliert die Hälfte Eurer Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Flesh of My Flesh",
+				"description": "Spell. Lose half your Health. Resurrect target party member with your current Health and 5...20% Energy.",
+				"concise": "Spell. Resurrects target party member (half your current Health and 5...20% Energy). Lose half your Health."
+			},
+			"en-gww": {
+				"name": "Flesh of My Flesh",
 				"description": "Lose half your Health. Resurrect target party member with your current Health and 5...20% Energy.",
 				"concise": "Resurrect target party member (half your current Health and 5...20% Energy). <gray>Lose half your Health.</gray>"
 			},
+			"es": {
+				"name": "Carne de mi carne",
+				"description": "Conjuro. Pierdes la mitad de la salud para resucitar al miembro del grupo objetivo con la que tengas y 5...20% de energía.",
+				"concise": "Conjuro. Resucita al miembro del grupo objetivo (con la mitad de tu salud actual y 5...20% de energía). Pierdes la mitad de salud."
+			},
 			"fr": {
+				"name": "Chair de ma chair",
+				"description": "Sort. Vous perdez la moitié de vos points de vie. Vous ressuscitez le membre du groupe ciblé avec le nombre de points de vie actuel dont vous disposez et 5...20% d'énergie.",
+				"concise": "Sort. Ressuscite le membre du groupe visé. Il revient à la vie avec la moitié de votre capital actuel de points de vie et 5...20% d'énergie. Vous perdez la moitié de vos points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Chair de ma chair",
 				"description": "Vous perdez la moitié de vos points de vie. L'allié visé est ressuscité avec votre nombre de point de vie actuel et 5...20% d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Carne della Mia Carne",
+				"description": "Magia. Perdi la metà della Salute. Fai resuscitare il membro della squadra selezionato con la tua Salute attuale e un 5...20% di Energia.",
+				"concise": "Magia. Resuscita il membro della squadra selezionato con metà della tua Salute attuale e un 5...20% di Energia. Perdi metà della tua Salute."
+			},
+			"jp": {
+				"name": "マイ フレッシュ",
+				"description": "スペル： 体力を半分失います。ターゲットしたパーティー メンバーが、プレイヤーと同量の体力と 5...20% のエネルギーで復活します。",
+				"concise": "スペル： ターゲットしたパーティー メンバーが復活します (プレイヤーの体力の半分と 5...20% のエネルギー)。プレイヤーは体力を半分失います。"
+			},
+			"kr": {
+				"name": "피같은 살",
+				"description": "마법. 대상 지정: 파티원. 현재 체력의 절반을 소모하여 파티원을 자신과 같은 체력과 5...20% 에너지를 가진 채로 부활시킵니다.",
+				"concise": "마법. 파티원을 부활합니다.(체력: 자신의 현재 체력, 에너지 5...20%) 체력의 절반을 소모합니다."
+			},
+			"pl": {
+				"name": "Ciało z Mego Ciała",
+				"description": "Czar. Tracisz połowę aktualnej liczby punktów żywotności. Wskrzeszasz wybranego członka drużyny z twoim aktualnym poziomem żywotności i z 5...20% pkt. energii.",
+				"concise": "Czar. Wskrzeszasz wybranego członka drużyny (połowa twojej aktualnej żywotności i 5...20% energii). Tracisz połowę żywotności."
+			},
+			"ru": {
+				"name": "Flesh of My Flesh",
+				"description": "Заклинание. Вы теряете половину вашего здоровья. Вы воскрешаете выбранного члена отряда с запасом здоровья, равным вашему текущему уровню здоровья, и 5...20% энергии.",
+				"concise": "Заклинание. Воскрешает выбранного члена отряда (со здоровьем, равным половине вашего текущего здоровья, и 5...20% энергии). Вы теряете половину здоровья."
+			},
+			"bork": {
+				"name": "Flesh ooff My Flesh",
+				"description": "Spell. Luse-a haelff yuoor Heaelt. Resoorrect taerget paerty member veet yuoor coorrent Heaelt und 5...20% Inergy.",
+				"concise": "Spell. Resoorrects taerget paerty member (haelff yuoor coorrent Heaelt und 5...20% Inergy). Luse-a haelff yuoor Heaelt."
 			}
 		}
 	}

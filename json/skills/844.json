@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "涡流",
+				"description": "咒文。 在目标敌人脚下创造涡流。在接下来的5秒内，涡流每秒会对范围内所有敌人造成10...40点伤害。而带有加速效果的敌人将会被击倒。",
+				"concise": "咒文。 在目标敌人处创造涡流。在接下来的 5 秒内，涡流每秒对敌人造成 10...40 伤害。而任何移动速度比一般快的敌人将会受到影响而被击倒。"
+			},
+			"cht": {
+				"name": "渦流大地",
+				"description": "咒文魔法： 在目標敵人處創造渦流大地。在接下來的 5 秒內，渦流大地每秒對敵人造成 10...40 土系傷害。而任何移動速度比一般快的敵人將會受到影響而被擊倒。",
+				"concise": "咒文魔法： 在目標敵人處創造渦流大地。在接下來的 5 秒內，渦流大地每秒對敵人造成 10...40 土系傷害。而任何移動速度比一般快的敵人將會受到影響而被擊倒。"
+			},
 			"de": {
+				"name": "Aufgeworfene Erde",
+				"description": "Zauber. Am Standort des Feindes wird Aufgeworfene Erde erzeugt. In den nächsten 5 Sekunden bewirkt Aufgeworfene Erde pro Sekunde 10...40 Punkt[e] Erdschaden. Jeder Feind, der sich schneller als normal bewegt, wenn er von Aufgeworfene Erde getroffen wird, wird zu Boden geworfen.",
+				"concise": "Zauber. Richtet 10...40 Punkt[e] Erdschaden pro Sekunde an (5 Sekunden). Trifft Feinde in der Nähe der ursprünglichen Position des Ziels. Wirft Feinde zu Boden, die sich schneller bewegen als normal."
+			},
+			"de-guildwiki": {
 				"name": "Aufgeworfene Erde",
 				"description": "Am Standort des Feindes wird Aufgeworfene Erde erzeugt. In den nächsten 5 Sekunden bewirkt Aufgeworfene Erde bei Feinden in der Nähe des Ortes pro Sekunde 10...40 Punkte Erdschaden. Jeder Feind, der sich schneller als normal bewegt, wenn er von Aufgeworfene Erde getroffen wird, wird zu Boden geworfen.",
 				"concise": "Richtet jede Sekunde 10...40 Punkte Erdschaden an (5 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Ziels. Wirft Feinde zu Boden, die sich schneller bewegen als normal."
 			},
 			"en": {
 				"name": "Churning Earth",
+				"description": "Spell. Create Churning Earth at target foe's location. For the next 5 seconds, Churning Earth strikes foes near that location for 10...40 earth damage each second. Any foe moving faster than normal when struck by Churning Earth is knocked down.",
+				"concise": "Spell. Deals 10...40 earth damage each second (5 seconds). Hits foes near target's initial location. Causes knock-down to foes moving faster than normal."
+			},
+			"en-gww": {
+				"name": "Churning Earth",
 				"description": "Create Churning Earth at target foe's location. For the next 5 seconds, Churning Earth strikes foes near that location for 10...40 earth damage each second. Any foe moving faster than normal when struck by Churning Earth is knocked down.",
 				"concise": "Deals 10...40 earth damage each second (5 seconds). Hits foes near target's initial location. Causes knock-down to foes moving faster than normal."
 			},
+			"es": {
+				"name": "Movimiento de tierra",
+				"description": "Conjuro. Creas un Movimiento de tierra en la ubicación del enemigo objetivo. Durante los próximos 5 segundos, los enemigos cercanos a esa ubicación recibirán 10...40 de daño de tierra por segundo. Todos los enemigos que se estén moviendo más rápido de lo normal cuando les alcance el Movimiento de tierra caerán al suelo.",
+				"concise": "Conjuro. Hace 10...40 de daño de tierra por segundo (5 segundos). Alcanza a los enemigos cercanos a la ubicación inicial del objetivo. Causa derribo a los enemigos que se muevan más rápido de lo normal."
+			},
 			"fr": {
+				"name": "Bouleversement terrestre",
+				"description": "Sort. Crée un Bouleversement terrestre sur la position de l'ennemi. Durant les 5 secondes qui suivent, Bouleversement terrestre inflige 10...40 points de dégâts de la terre par seconde aux ennemis à proximité de cette position. Tout ennemi se déplaçant plus vite que la normale lorsqu'il est touché par le Bouleversement terrestre est renversé.",
+				"concise": "Sort. Inflige 10...40 points de dégâts de la terre par seconde (5 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Renverse les ennemis qui se déplacent plus vite que la normale."
+			},
+			"fr-gwiki": {
 				"name": "Bouleversement terrestre",
 				"description": "Crée un Bouleversement terrestre sur la position de l'ennemi. Durant les 5 secondes qui suivent, la compétence inflige 10...40 points de dégâts de la terre par seconde. Tout ennemi se déplaçant plus vite que la normale lorsqu'il est touché par le Bouleversement terrestre sera assommé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Terra in Fermento",
+				"description": "Magia. Crei una Terra in Fermento nella posizione dell'obiettivo nemico. Per i prossimi 5 secondi, la Terra in Fermento infliggerà 10...40 danni da terra al secondo ai nemici vicino a quella posizione. I nemici colpiti dalla Terra in Fermento che si stanno muovendo con una velocità superiore al normale vengono abbattuti.",
+				"concise": "Magia. Infligge 10...40 danni da terra al secondo (5 secondi). Colpisce i nemici vicini alla posizione iniziale dell'obiettivo. Provoca abbattimento ai nemici più veloci del normale."
+			},
+			"jp": {
+				"name": "チャーン アース",
+				"description": "スペル： ターゲットした敵がいる場所に異変を起こします。5秒間、その周囲にいる敵に毎秒 10...40 のアース ダメージを与えます。ダメージを受けたときに移動速度が増加している敵は転倒します。",
+				"concise": "スペル： 発動時にターゲットした敵がいた場所の周囲にいる敵に毎秒 10...40 のアース ダメージを与えます (5秒)。移動速度が増加している敵は転倒します。"
+			},
+			"kr": {
+				"name": "진흙 소용돌이",
+				"description": "마법. 대상 지정: 적. 대상이 있는 위치에 5초 동안 진흙 소용돌이를 만듭니다. 진흙 소용돌이는 부근의 적들에게 매초 10...40의 대지 대미지를 줍니다. 평소보다 이동 속도가 빨라진 적은 누구나 바닥에 넘어집니다.",
+				"concise": "마법. 대상 위치 부근의 적들에게 매초 10...40의 대지 대미지를 줍니다.(5초) 평소보다 이동 속도가 빠른 적은 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Wzburzona Ziemia",
+				"description": "Czar. W miejscu, gdzie znajduje się wybrany przeciwnik wywołujesz Wzburzoną Ziemię. Przez następne 5 sek., co sekundę, Wzburzona Ziemia zadaje przeciwnikom w pobliżu tego miejsca po 10...40 pkt. obrażeń od ziemi. Każdy, poruszający się szybciej niż normalnie, przeciwnik na obszarze Wzburzonej Ziemi zostaje powalony.",
+				"concise": "Czar. W każdej sekundzie zadaje 10...40 pkt. obrażeń od ziemi (5 sek.). Trafia przeciwników w pobliżu początkowego miejsca celu. Powala przeciwników, którzy się poruszają szybciej niż normalnie."
+			},
+			"ru": {
+				"name": "Churning Earth",
+				"description": "Заклинание. Создает Churning Earth в точке нахождения выбранного противника. В течение следующих 5 сек Churning Earth наносит вблизи этой точки 10...40 ед. урона силой земли каждую секунду. Любой противник, двигающийся быстрее, чем обычно, попав под удар Churning Earth, будет сбит с ног.",
+				"concise": "Заклинание. Наносит 10...40 ед. урона силой земли каждую секунду (5 сек). Поражает противников поблизости от первоначального местоположения цели. Сбивает с ног противников, которые двигаются быстрее, чем обычно."
+			},
+			"bork": {
+				"name": "Choorneeng Iaert",
+				"description": "Spell. Creaete-a Choorneeng Iaert aet taerget fue-a's lucaeshun. Fur zee next 5 secunds, Choorneeng Iaert streekes fues neaer thaet lucaeshun fur 10...40 iaert daemaege-a iaech secund. Uny fue-a mufeeng faester thun nurmael vhee stroock by Choorneeng Iaert is knucked doon.",
+				"concise": "Spell. Deaels 10...40 iaert daemaege-a iaech secund (5 secunds). Heets fues neaer taerget's ineeteeael lucaeshun. Cooses knuck-doon tu fues mufeeng faester thun nurmael."
 			}
 		}
 	}

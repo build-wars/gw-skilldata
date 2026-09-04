@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "清毒福音",
+				"description": "回音技。 在10...35秒之内，当「战吼」或「圣歌」在「非灵体」的目标盟友身上消失时，该盟友会失去一种「症状」。",
+				"concise": "回音技。 在10...35秒之内，当「战吼」或「圣歌」在「非灵体」的目标盟友身上消失时，该盟友会失去一种「症状」。"
+			},
+			"cht": {
+				"name": "淨化樂章",
+				"description": "迴響： 持續 10...35 秒，每當「聖歌」或「戰嚎」的效果在「非靈」的目標盟友身上終止時，為該盟友消去一項「病症」。",
+				"concise": "迴響： 持續 10...35 秒，每當「聖歌」或「戰嚎」的效果在「非靈」的目標盟友身上終止時，為該盟友消去一項「病症」。"
+			},
 			"de": {
+				"name": "Reinigendes Finale",
+				"description": "Echo. 10...35 Sekunde[n] lang verliert der Nicht-Geister-Verbündete jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, 1 Zustand.",
+				"concise": "Echo. 10...35 Sekunde[n]: Der Verbündete (bzw. Ihr selbst) verliert jedes Mal einen Zustand, wenn ein Schrei oder Anfeuerungsruf auf ihm endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Reinigendes Finale",
 				"description": "10...35 Sekunden lang verliert der Nicht-Geister-Verbündete (bzw. Ihr selbst) jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, einen Zustand.",
 				"concise": "10...35 Sekunden: Der Verbündete (bzw. Ihr selbst) verliert jedes Mal einen Zustand, wenn ein Schrei oder Anfeuerungsruf auf ihm endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Purifying Finale",
+				"description": "Echo. For 10...35 seconds, target non-spirit ally loses 1 condition whenever a chant or shout ends on that ally.",
+				"concise": "Echo. (10...35 seconds.) Target ally loses one condition whenever a chant or shout ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Purifying Finale",
 				"description": "For 10...35 seconds, target non-spirit ally loses 1 condition whenever a chant or shout ends on that ally.",
 				"concise": "(10...35 seconds.) Target ally loses one condition whenever a chant or shout ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Cierre purificador",
+				"description": "Eco. Durante 10...35 segundos, el aliado objetivo no espíritu pierde 1 condición siempre que los efectos de un cántico o grito acaben en él.",
+				"concise": "Eco. (10...35 segundos). El objetivo (un aliado o tú mismo) pierde una condición cada vez que los efectos de un cántico o grito acaben en él.No se puede apuntar a un espíritu."
+			},
 			"fr": {
+				"name": "Finale purifiant",
+				"description": "Echo. Pendant 10...35 secondes, la cible alliée (autre qu'un esprit) perd 1 condition chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+				"concise": "Echo. (10...35 secondes.) L'allié visé perd une condition chaque fois qu'un chant ou un cri l'affectant prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Finale purifiant",
 				"description": "Pendant 10...35 secondes, la cible alliée (autre qu'un esprit) perd 1 condition chaque fois qu'un chant ou un cri sur cet allié prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Finale Purificante",
+				"description": "Eco. Per 10...35 secondo[i], l'obiettivo alleato (Spiriti esclusi) perde 1 condizione ogni volta che un canto o un urlo termina su quell'alleato.",
+				"concise": "Eco. (Secondi: 10...35) L'obiettivo (un alleato o te stesso) si libera di una condizione ogni volta che un canto o un urlo termina su di lui. Impossibile selezionare gli Spiriti."
+			},
+			"jp": {
+				"name": "ピュリファイ フィナーレ",
+				"description": "エコー： 10...35 秒間、ターゲットした精霊以外の味方は、かけられたチャントやシャウトの効果が消失するたびに、「状態異常」が1個解除されます。",
+				"concise": "エコー： (10...35 秒) ターゲットした味方にかけられているチャントまたはシャウトの効果が消失するたびに、かけられている「状態異常」を1個解除します。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "정화의 피날레",
+				"description": "공명. 대상 지정: 아군. 10...35초 동안 영혼이 아닌 대상에 걸린 고함이나 영창이 끝날 때마다 대상의 상태이상 하나를 무효화합니다.",
+				"concise": "공명. (10...35초) 대상 아군에 걸린 고함이나 영창이 끝날 때마다 대상에 걸린 상태이상 하나가 무효화됩니다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Oczyszczający Finał",
+				"description": "Echo. Przez 10...35 sek., za każdym razem, kiedy okrzyk lub zaśpiew przestaną działać na wybranym sojuszniku nie-duchu, traci on 1 przypadłość.",
+				"concise": "Echo. (10...35 sek.) Wybrany sojusznik traci jedną przypadłość, za każdym razem, kiedy przestaje na nim działać okrzyk lub zaśpiew. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Purifying Finale",
+				"description": "Эхо. В течение 10...35 сек с выбранного союзника, не являющегося духом, снимается одно состояние каждый раз, когда заканчивает свое действие влияющий на него хорал или крик.",
+				"concise": "Эхо. (10...35 сек) Выбранный союзник освобождается от одного состояния каждый раз, когда заканчивается влияющий на него хорал или крик. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Pooreeffyeeng Feenaele-a",
+				"description": "Ichu. Fur 10...35 secunds, taerget nun-spureet aelly luses 1 cundeeshun vhenefer a chunt oor shuoot inds oon thaet aelly.",
+				"concise": "Ichu. (10...35 secunds.) Taerget aelly luses oone-a cundeeshun vhenefer a chunt oor shuoot inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

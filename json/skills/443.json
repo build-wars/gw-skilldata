@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "掠夺者突袭",
+				"description": "宠物攻击。 命令你的宠物发动「掠夺者突袭」，对敌人造成 5...35点 额外伤害。当宠物攻击命中时，它获得 5...50点 生命值。",
+				"concise": "宠物攻击。 命令你的宠物发动「掠夺者突袭」，对敌人造成 5...35点 额外伤害。当宠物攻击命中时，它获得 5...50点 生命值。"
+			},
+			"cht": {
+				"name": "獵食者突襲",
+				"description": "寵物攻擊： 你的寵物發動獵食者突襲對敵人造成 5...35 額外傷害。當寵物攻擊成功時，牠獲得 5...50 體力。",
+				"concise": "寵物攻擊： 你的寵物發動獵食者突襲對敵人造成 5...35 額外傷害。當寵物攻擊成功時，牠獲得 5...50 體力。"
+			},
 			"de": {
+				"name": "Raubtier-Sprung",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit einem Raubtier-Sprung an und fügt +5...35 Punkte Schaden zu. Wenn dieser Angriff trifft, erhält Euer Tiergefährte 5...50 Lebenspunkt[e].",
+				"concise": "Tiergefährtenangriff. Richtet +5...35 Punkt[e] Schaden an. Euer Tiergefährte erhält 5...50 Lebenspunkt[e], falls dieser Angriff trifft."
+			},
+			"de-guildwiki": {
 				"name": "Raubtier-Sprung",
 				"description": "Euer Tiergefährte greift mit einem Raubtier-Sprung an und fügt +5...35 Punkte Schaden zu. Wenn dieser Angriff trifft, erhält Euer Tiergefährte 5...50 Lebenspunkte.",
 				"concise": "Richtet +5...35 Punkte Schaden an. Euer Tiergefährte erhält 5...50 Lebenspunkte, falls dieser Angriff trifft."
 			},
 			"en": {
 				"name": "Predator's Pounce",
+				"description": "Pet Attack. Your animal companion attempts a Predator's Pounce that deals +5...35 damage. If that attack hits, your animal companion gains 5...50 Health.",
+				"concise": "Pet Attack. Deals +5...35 damage. Your pet gains 5...50 Health if this attack hits."
+			},
+			"en-gww": {
+				"name": "Predator's Pounce",
 				"description": "Your animal companion attempts a Predator's Pounce that deals +5...35 damage. If that attack hits, your animal companion gains 5...50 Health.",
 				"concise": "Deals +5...35 damage. Your pet gains 5...50 Health if this attack hits."
 			},
+			"es": {
+				"name": "Salto de depredador",
+				"description": "Ataque con mascota. Con el Salto de depredador tu compañero animal hará +5...35 de daño y ganará 5...50 de salud cuando golpee al enemigo.",
+				"concise": "Ataque con mascota. Hace +5...35 de daño. Tu mascota gana 5...50 de salud si este ataque impacta."
+			},
 			"fr": {
+				"name": "Coup du prédateur",
+				"description": "Attaque de familier. Votre familier tente un Coup du prédateur qui inflige +5...35 points de dégâts. Si cette attaque réussit, votre familier bénéficiera de 5...50 points de vie.",
+				"concise": "Attaque de familier. Inflige +5...35 points de dégâts. Votre familier gagne 5...50 points de vie si cette attaque réussit."
+			},
+			"fr-gwiki": {
 				"name": "Coup du prédateur",
 				"description": "Votre familier tente un Coup du prédateur qui inflige +5...35 points de dégâts. Si cette attaque réussit, votre familier bénéficiera de 5...50 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Balzo Predatore",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in un Balzo Predatore che infligge +5...35 danno[i]; se va a segno, la tua mascotte recupererà 5...50 Punto[i] Salute.",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...35. Salute conseguita dalla tua mascotte se questo attacco va a segno: 5...50."
+			},
+			"jp": {
+				"name": "プレデター パウンス",
+				"description": "ペット アタック： プレイヤーのペットが敵に 5...35 の追加ダメージを与える攻撃を開始します。攻撃が成功すると、ペットは 5...50 の体力を獲得します。",
+				"concise": "ペット アタック： 5...35 の追加ダメージを与えます。この攻撃が成功すると、ペットは 5...50 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "약탈자의 급습",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 약탈자의 급습을 사용하여 5...35의 대미지를 추가로 줍니다. 공격이 성공하면 펫은 5...50의 체력을 회복합니다.",
+				"concise": "펫 공격. 펫의 공격이 5...35의 대미지를 추가로 줍니다. 공격이 성공하면 펫은 5...50의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Skok Drapieżnika",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Skok Drapieżnika, który zadaje +5...35 pkt. obrażeń. Jeśli atak trafi, to twój zwierzęcy towarzysz otrzymuje 5...50 pkt. żywotności.",
+				"concise": "Atak zwierzaka. Zadaje +5...35 pkt. obrażeń. Twój zwierzęcy towarzysz otrzymuje 5...50 pkt. żywotności, jeżeli ten atak trafi."
+			},
+			"ru": {
+				"name": "Predator's Pounce",
+				"description": "Атака питомца. Ваше животное пытается провести удар, который наносит дополнительно 5...35 ед. урона. Если атака попадает в цель, ваше животное получает 5...50 ед. здоровья.",
+				"concise": "Атака питомца. Наносит дополнительно 5...35 ед. урона. Ваш питомец получает 5...50 ед. здоровья, если эта атака попадает в цель."
+			},
+			"bork": {
+				"name": "Predaetur's Puoonce-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Predaetur's Puoonce-a thaet deaels +5...35 daemaege-a. Iff thaet aettaeck heets, yuoor uneemael cumpuneeun gaeeens 5...50 Heaelt.",
+				"concise": "Pet Aettaeck. Deaels +5...35 daemaege-a. Yuoor pet gaeeens 5...50 Heaelt iff thees aettaeck heets."
 			}
 		}
 	}

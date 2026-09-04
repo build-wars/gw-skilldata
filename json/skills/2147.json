@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Crippling Victory",
+				"description": "镰刀术。 If this attack hits a foe, that foe is Crippled for 3...8 seconds. If you have more Health than target foe, all adjacent foes are also Crippled and take 10...30 earth damage.",
+				"concise": "镰刀术。 (3...8 seconds.) Cripples target foe. If your Health is greater than target foe's, all adjacent foes are also Crippled and take 10...30 earth damage."
+			},
+			"cht": {
+				"name": "致殘勝利",
+				"description": "鐮刀攻擊技能： 命中時造成敵人殘廢 3...8 秒。若你的體力比目標敵人多，則鄰近的敵人也會殘廢，且遭受 10...30 土系傷害。",
+				"concise": "鐮刀攻擊技能： 命中時造成敵人殘廢 3...8 秒。若你的體力比目標敵人多，則鄰近的敵人也會殘廢，且遭受 10...30 土系傷害。"
+			},
 			"de": {
+				"name": "Verkrüppelnder Sieg",
+				"description": "Sensenangriff. Trifft dieser Angriff einen Gegner, wird dieser 3...8 Sekunde[n] lang verkrüppelt. Falls Ihr mehr Lebenspunkte habt als der Gegner, werden erleiden alle umstehenden Feinde 10...30 Punkt[e] Erdschaden.",
+				"concise": "Sensenangriff. (3...8 Sekunde[n].) Verkrüppelt den Gegner. Falls Ihr mehr Lebenspunkte habt als der Gegner, werden erleiden alle umstehenden Feinde 10...30 Punkt[e] Erdschaden."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelnder Sieg",
 				"description": "Trifft dieser Angriff einen Gegner, wird dieser 3...8 Sekunden lang verkrüppelt. Falls Ihr mehr Lebenspunkte habt als der Gegner, werden<sic/> erleiden alle umstehenden Feinde 10...30 Punkte Erdschaden.",
 				"concise": "(3...8 Sekunden.) Verkrüppelt den Gegner. Falls Ihr mehr Lebenspunkte habt als der Gegner, werden<sic/> erleiden alle umstehenden Feinde 10...30 Punkte Erdschaden."
 			},
 			"en": {
 				"name": "Crippling Victory",
+				"description": "Scythe Attack. If this attack hits a foe, that foe is Crippled for 3...8 seconds. If you have more Health than target foe, all adjacent foes take 10...30 earth damage.",
+				"concise": "Scythe Attack. (3...8 seconds.) Cripples target foe. If you have more Health than target foe, all adjacent foes take 10...30 earth damage."
+			},
+			"en-gww": {
+				"name": "Crippling Victory",
 				"description": "If this attack hits a foe, that foe is Crippled for 3...8 seconds. If you have more Health than target foe, all adjacent foes take 10...30 earth damage.",
 				"concise": "(3...8 seconds) Cripples target foe. If your health is greater than target foe's, all adjacent foes take 10...30 earth damage."
 			},
+			"es": {
+				"name": "Victoria lisiadora",
+				"description": "Ataque con guadaña. Si este ataque impacta en un enemigo, éste quedará lisiado durante 3...8 segundos. Si tienes más salud que el enemigo objetivo, todos los enemigos adyacentes recibirán 10...30 de daño de tierra.",
+				"concise": "Ataque con guadaña. (3...8 segundos). Causa lisiadura en el enemigo objetivo. Si tienes más salud que el enemigo objetivo, todos los enemigos adyacentes recibirán 10...30 de daño de tierra."
+			},
 			"fr": {
+				"name": "Victoire paralysante",
+				"description": "Attaque à la faux. Si votre attaque touche un ennemi, celui-ci est frappé d'Infirmité pendant 3...8 secondes. Si vous avez plus de points de vie que l'ennemi visé, tous les ennemis adjacents subissent 10...30 points de dégâts de la terre.",
+				"concise": "Attaque à la faux. (3...8 secondes.) L'ennemi visé est frappé d'Infirmité. Si vous avez plus de points de vie que l'ennemi visé, tous les ennemis adjacents subissent 10...30 points de dégâts de la terre."
+			},
+			"fr-gwiki": {
 				"name": "Victoire paralysante",
 				"description": "Si vous avez plus de santé que la cible ennemie, celle-ci est frappée d'Infirmité pendant 5...15 secondes. Cette attaque inflige +5...10 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vittoria Azzoppante",
+				"description": "Attacco con Falce. Se questo attacco colpisce un nemico, gli provoca Storpiatura per 3...8 secondi. Se hai più Salute dell'obiettivo nemico, tutti i nemici adiacenti subiscono 10...30 danni da terra.",
+				"concise": "Attacco con Falce. (Secondi: 3...8.) Condizione inflitta all'obiettivo nemico: Storpiatura. Se hai più Salute dell'obiettivo nemico, tutti i nemici adiacenti subiscono 10...30 danni da terra."
+			},
+			"jp": {
+				"name": "クリップル ビクトリー",
+				"description": "サイズ アタック： この攻撃が成功すると、敵は 3...8 秒間「不自由」状態になります。ターゲットした敵より体力が多い場合、隣接するすべての敵に 10...30 のアース ダメージを与えます。",
+				"concise": "サイズ アタック： (3...8 秒) ターゲットした敵を「不自由」状態にします。ターゲットした敵より体力が多い場合、隣接するすべての敵に 10...30 のアース ダメージを与えます。"
+			},
+			"kr": {
+				"name": "전투력 저하 유발",
+				"description": "사이드 공격. 대상 지정: 적. 공격이 성공하면 대상을 3...8초 동안 다리부상 상태로 만듭니다. 자신의 체력이 대상보다 많으면 인접한 모든 적에게 10...30의 대지 대미지를 줍니다.",
+				"concise": "사이드 공격. (3...8초) 다리부상을 입힙니다. 자신의 체력이 대상보다 많으면 인접한 모든 적에게 10...30의 대지 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Okulawiające Zwycięstwo",
+				"description": "Atak kosą. Jeśli ten atak trafi przeciwnika, zostaje on okaleczony na 3...8 sek. Jeśli masz więcej żywotności niż cel, wszyscy pobliscy wrogowie otrzymują 10...30 pkt. obrażeń od ziemi.",
+				"concise": "Atak kosą. (3...8 sek.) Okalecza cel. Jeśli masz więcej żywotności niż cel, wszyscy pobliscy wrogowie otrzymują 10...30 pkt. obrażeń od ziemi."
+			},
+			"ru": {
+				"name": "Crippling Victory",
+				"description": "Атака косой. Если эта атака попадает в цель, выбранный противник будет хромать в течение 3...8 сек. Если у вас больше здоровья, чем у выбранного противника, все окружающие противники получат 10...30 ед. урона силой земли.",
+				"concise": "Атака косой. Вызывает хромоту (3...8 сек) у выбранного противника. Если у вас больше здоровья, чем у выбранного противника, все окружающие противники получат 10...30 ед. урона силой земли."
+			},
+			"bork": {
+				"name": "Creeppleeng Feectury",
+				"description": "Scyzee Aettaeck. Iff thees aettaeck heets a fue-a, thaet fue-a is Creeppled fur 3...8 secunds. Iff yuoo haefe-a mure-a Heaelt thun taerget fue-a, aell aedjaecent fues taeke-a 10...30 iaert daemaege-a.",
+				"concise": "Scyzee Aettaeck. (3...8 secunds.) Creepples taerget fue-a. Iff yuoo haefe-a mure-a Heaelt thun taerget fue-a, aell aedjaecent fues taeke-a 10...30 iaert daemaege-a."
 			}
 		}
 	}

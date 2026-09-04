@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "痛苦烙印",
+				"description": "负面魔法。 每当目标敌人受到物理伤害时，「痛苦烙印」将对邻近该目标的所有敌人造成10...40点暗影伤害，效果持续 30秒。",
+				"concise": "负面魔法。 在30秒之内，每当目标敌人受到物理伤害时，「痛苦烙印」将对邻近该目标的所有我方敌人造成10...40点暗影伤害。"
+			},
+			"cht": {
+				"name": "痛苦印記",
+				"description": "降咒魔法： 持續 30 秒，每當目標敵人受到物理傷害時，痛苦印記將對鄰近該目標的敵人造成 10...40 暗影傷害。",
+				"concise": "降咒魔法： 持續 30 秒，每當目標敵人受到物理傷害時，痛苦印記將對鄰近該目標的敵人造成 10...40 暗影傷害。"
+			},
 			"de": {
+				"name": "Zeichen des Schmerzes",
+				"description": "Verhexung. 30 Sekunden lang fügt \"Zeichen des Schmerzes\" immer dann, wenn der Zielgegner physischen Schaden nimmt, umstehenden Feinden 10...40 Punkte Schattenschaden zu.",
+				"concise": "Verhexung. 30 Sekunden: Richtet bei umstehenden Feinden jedes Mal 10...40 Punkt[e] Schaden an, wenn der Gegner physischen Schaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Zeichen des Schmerzes",
 				"description": "30 Sekunden lang fügt \"Zeichen des Schmerzes\" immer dann, wenn der Zielgegner physischen Schaden nimmt, umstehenden Feinden 10...40 Punkte Schattenschaden zu.",
 				"concise": "30 Sekunden: Richtet bei umstehenden Feinden jedes Mal 10...40 Punkte Schaden an, wenn der Gegner physischen Schaden erleidet."
 			},
 			"en": {
 				"name": "Mark of Pain",
+				"description": "Hex Spell. For 30 seconds, whenever target foe takes physical damage, Mark of Pain deals 10...40 shadow damage to adjacent foes.",
+				"concise": "Hex Spell. (30 seconds.) Deals 10...40 damage to adjacent foes whenever target foe takes physical damage."
+			},
+			"en-gww": {
+				"name": "Mark of Pain",
 				"description": "For 30 seconds, whenever target foe takes physical damage, Mark of Pain deals 10...40 shadow damage to adjacent foes.",
 				"concise": "(30 seconds.) Deals 10...40 damage to adjacent foes whenever target foe takes physical damage."
 			},
+			"es": {
+				"name": "Marca del dolor",
+				"description": "Conjuro con maleficio. Durante 30 segundos, siempre que el enemigo objetivo reciba daño físico, la Marca del dolor hará 10...40 de daño de sombra a los enemigos adyacentes.",
+				"concise": "Conjuro con maleficio. (30 segundos). Hace 10...40 de daño a los enemigos adyacentes cada vez que el enemigo objetivo reciba daño físico."
+			},
 			"fr": {
+				"name": "Marque de douleur",
+				"description": "Maléfice. Pendant 30 secondes, à chaque fois que l'ennemi subit des dégâts physiques, la Marque de douleur inflige 10...40 points de dégâts de l'ombre aux ennemis adjacents.",
+				"concise": "Maléfice. (30 secondes.) Inflige 10...40 points de dégâts aux ennemis adjacents chaque fois que l'ennemi visé subit des dégâts physiques."
+			},
+			"fr-gwiki": {
 				"name": "Marque de douleur",
 				"description": "Pendant 30 secondes, à chaque fois que l'ennemi subit des dégâts physiques, la Marque de douleur inflige 10...40 points de dégâts de l'ombre aux ennemis adjacents.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Segno del Dolore",
+				"description": "Fattura. Dura 30 secondi; se l'obiettivo nemico subisce un danno fisico, il Segno del Dolore infligge 10...40 danno[i] da ombra ai nemici adiacenti.",
+				"concise": "Fattura. (Secondi: 30) Danni ai nemici adiacenti ogni volta che l'obiettivo nemico subisce danno fisico: 10...40."
+			},
+			"jp": {
+				"name": "ペイン マーク",
+				"description": "弱体化スペル： 30秒間、ターゲットした敵が物理ダメージを受けるたびに、隣接する敵に 10...40 の暗黒ダメージを与えます。",
+				"concise": "弱体化スペル： (30秒) ターゲットした敵が物理ダメージを受けるたびに、隣接する敵に 10...40 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "고통의 낙인",
+				"description": "약화 마법. 대상 지정: 적. 30초 동안 대상이 물리 공격을 당할 때마다 대상에 인접한 적들은 10...40의 암흑 대미지를 입습니다.",
+				"concise": "약화 마법. (30초) 대상이 물리 대미지를 입을 때마다 그에 인접한 적들은 10...40의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Piętno Bólu",
+				"description": "Klątwa (czar). Przez 30 sek., za każdym razem, kiedy wybrany przeciwnik otrzymuje obrażenia fizyczne, Piętno Bólu zadaje przeciwnikom bezpośrednio przy nim po 10...40 pkt. obrażeń od cienia.",
+				"concise": "Klątwa (czar). (30 sek.) Przeciwnikom bezpośrednio przy wybranym przeciwniku zadaje po 10...40 pkt. obrażeń, za każdym razem, kiedy otrzymuje on obrażenia fizyczne."
+			},
+			"ru": {
+				"name": "Mark of Pain",
+				"description": "Заклинание-проклятье. В течение 30 сек каждый раз, когда выбранный противник получает физический урон, Mark of Pain наносит окружающим противникам 10...40 ед. урона силой тьмы.",
+				"concise": "Заклинание-проклятье. (30 сек) Наносит 10...40 ед. урона окружающим противникам каждый раз, когда выбранный противник получает физический урон."
+			},
+			"bork": {
+				"name": "Maerk ooff Paeeen",
+				"description": "Hex Spell. Fur 30 secunds, vhenefer taerget fue-a taekes physeecael daemaege-a, Maerk ooff Paeeen deaels 10...40 shaedoo daemaege-a tu aedjaecent fues.",
+				"concise": "Hex Spell. (30 secunds.) Deaels 10...40 daemaege-a tu aedjaecent fues vhenefer taerget fue-a taekes physeecael daemaege-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "穿骨",
+				"description": "矛术。 命中时，对敌人造成5...20点伤害。当致命一击时，目标敌人将遭受「重伤」症状5...15秒。",
+				"concise": "矛术。 命中时，对敌人造成5...20点伤害。当致命一击时，目标敌人将遭受「重伤」症状5...15秒。"
+			},
+			"cht": {
+				"name": "惡毒攻擊",
+				"description": "矛術攻擊技能： 命中時對目標造成 5...20 額外傷害。若你利用此技能打出致命攻擊，則目標敵人將遭受「重傷」病症 5...15 秒。",
+				"concise": "矛術攻擊技能： 命中時對目標造成 5...20 額外傷害。若你利用此技能打出致命攻擊，則目標敵人將遭受「重傷」病症 5...15 秒。"
+			},
 			"de": {
+				"name": "Bösartiger Angriff",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Ihr mit diesem Angriff einen kritischen Treffer landet, leidet der Gegner 5...15 Sekunde[n] lang an einer Tiefen Wunde.",
+				"concise": "Speerangriff. Richtet +5...20 Punkt[e] Schaden an. Verursacht mit einem kritischen Treffer Zustand Tiefe Wunde (5...15 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Bösartiger Angriff",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn Ihr mit diesem Angriff einen kritischen Treffer landet, leidet der Gegner 5...15 Sekunden lang an einer Tiefen Wunde.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Verursacht mit einem kritischen Treffer Zustand Tiefe Wunde (5...15 Sekunden)."
 			},
 			"en": {
 				"name": "Vicious Attack",
+				"description": "Spear Attack. If this attack hits, you deal +5...20 damage. If you land a critical hit with this attack, target foe suffers from a Deep Wound for 5...15 seconds.",
+				"concise": "Spear Attack. Deals +5...20 damage. Inflicts Deep Wound condition (5...15 seconds) with a critical hit."
+			},
+			"en-gww": {
+				"name": "Vicious Attack",
 				"description": "If this attack hits, you deal +5...20 damage. If you land a critical hit with this attack, target foe suffers from a Deep Wound for 5...15 seconds.",
 				"concise": "Deals +5...20 damage. Inflicts Deep Wound condition (5...15 seconds) with a critical hit."
 			},
+			"es": {
+				"name": "Ataque malintencionado",
+				"description": "Ataque con lanza. Si este ataque impacta, harás +5...20 de daño al enemigo. Si es un golpe crítico, le harás una herida grave que durará 5...15 segundos.",
+				"concise": "Ataque con lanza. Hace +5...20 de daño. Causa herida grave (5...15 segundos) con un golpe crítico."
+			},
 			"fr": {
+				"name": "Attaque vicieuse",
+				"description": "Attaque au javelot. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si votre attaque inflige un coup critique, la cible ennemie souffre de Blessure profonde pendant 5...15 secondes.",
+				"concise": "Attaque au javelot. Inflige +5...20 points de dégâts. Provoque la Blessure profonde (5...15 secondes) avec un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Attaque vicieuse",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si votre attaque inflige un coup critique, la cible ennemie souffre de Blessure profonde pendant 5...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Attacco Dispettoso",
+				"description": "Attacco con Lancia. Se questo attacco va a segno, infliggi +5...20 danno[i]; se si rivela critico, l'obiettivo nemico subisce una Ferita Profonda per 5...15 secondo[i].",
+				"concise": "Attacco con Lancia. Danni inferti: +5...20. Condizione inflitta con un colpo critico: Ferita Profonda (5...15 secondo[i])."
+			},
+			"jp": {
+				"name": "ヴィシャス アタック",
+				"description": "スピア アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。この攻撃がクリティカル ヒットになると、ターゲットした敵は 5...15 秒間「重傷」状態になります。",
+				"concise": "スピア アタック： 5...20 の追加ダメージを与えます。クリティカル ヒットで敵を「重傷」状態にします (5...15 秒) 。"
+			},
+			"kr": {
+				"name": "악의의 일격",
+				"description": "창 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 치명타가 터지면 그 대상은 5...15초 동안 중상 상태가 됩니다.",
+				"concise": "창 공격. 5...20의 대미지를 추가로 줍니다. 치명타가 터지면 중상을 입힙니다.(5...15초)"
+			},
+			"pl": {
+				"name": "Zajadły Atak",
+				"description": "Atak włócznią. Jeśli atak trafi, zadaje +5...20 pkt. obrażeń. Jeśli spowoduje trafienie krytyczne, na 5...15 sek. zadaje celowi głęboką ranę.",
+				"concise": "Atak włócznią. Zadaje +5...20 pkt. obrażeń. Z trafieniem krytycznym wywołuje przypadłość głęboka rana (5...15 sek.)."
+			},
+			"ru": {
+				"name": "Vicious Attack",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если она завершается критическим попаданием, выбранный противник получает глубокую рану на 5...15 сек.",
+				"concise": "Атака копьем. Наносит дополнительно 5...20 ед. урона. Вызывает глубокую рану (5...15 сек) при критическом ударе."
+			},
+			"bork": {
+				"name": "Feeceeuoos Aettaeck",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff yuoo lund a creeteecael heet veet thees aettaeck, taerget fue-a sooffffers frum a Deep Vuoond fur 5...15 secunds.",
+				"concise": "Speaer Aettaeck. Deaels +5...20 daemaege-a. Inffleects Deep Vuoond cundeeshun (5...15 secunds) veet a creeteecael heet."
 			}
 		}
 	}

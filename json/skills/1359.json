@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "亵渎之痛",
+				"description": "精英咒文。 在0秒之内，当目标敌人失去一项「增益魔法」时，他将受到1...3点伤害。",
+				"concise": "精英咒文。 在0秒之内，当目标敌人失去一项「增益魔法」时，他将受到1...3点伤害。"
+			},
+			"cht": {
+				"name": "覺醒苦痛",
+				"description": "精英咒文魔法： 移除目標敵人1...3個加持，若成功移除，目標以及鄰近敵人失去10...100體力。",
+				"concise": "精英咒文魔法： 移除目標敵人1...3個加持，若成功移除，目標以及鄰近敵人失去10...100體力。"
+			},
 			"de": {
+				"name": "Schmerz der Entzauberung",
+				"description": "Elite-Zauber. Der Gegner verliert 1...3 Verzauberung[en]. Wenn eine Verzauberung auf diese Art entfernt wird, verlieren der Gegner und alle umstehenden Feinde 10...100 Lebenspunkt[e].",
+				"concise": "Elite-Zauber. Der Gegner verliert 1...3 Verzauberung[en]. Entfernungswirkung: Der Gegner und alle umstehenden Feinde verlieren 10...100 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Schmerz der Entzauberung",
 				"description": "Der Gegner verliert 1...3 Verzauberungen. Wenn mindestens eine Verzauberung auf diese Weise entfernt wird, verlieren der Gegner und alle umstehenden Feinde 10...100 Lebenspunkte.",
 				"concise": "Der Gegner verliert 1...3 Verzauberungen. Entfernungswirkung: Der Gegner und alle umstehenden Feinde verlieren 10...100 Lebenspunkte."
 			},
 			"en": {
 				"name": "Pain of Disenchantment",
+				"description": "Elite Spell. Target foe loses 1...3 enchantments. If an enchantment was lost in this way, that foe and all adjacent foes lose 10...100 Health.",
+				"concise": "Elite Spell. Target foe loses 1...3 enchantments. Removal effect: that foe and all adjacent foes lose 10...100 Health."
+			},
+			"en-gww": {
+				"name": "Pain of Disenchantment",
 				"description": "Target foe loses 1...3 enchantment[s]. If an enchantment was lost in this way, that foe and all adjacent foes lose 10...100 Health.",
 				"concise": "Target foe loses 1...3 enchantment[s]. Removal effect: that foe and all adjacent foes lose 10...100 Health."
 			},
+			"es": {
+				"name": "Dolor del desencantamiento",
+				"description": "Conjuro de élite. El enemigo objetivo pierde 1...3 encantamientos. Si pierde alguno de este modo, ese enemigo y todos los adyacentes pierden 10...100 de salud.",
+				"concise": "Conjuro de élite. El enemigo objetivo pierde 1...3 encantamientos. Efecto: ese enemigo y todos los adyacentes pierden 10...100 de salud."
+			},
 			"fr": {
+				"name": "Douleur de désenchantement",
+				"description": "Sort d'élite. La cible ennemie perd 1...3 enchantements. Si un enchantement est perdu de cette manière, la cible et tous les ennemis adjacents perdent 10...100 points de vie.",
+				"concise": "Sort d'élite. La cible ennemie perd 1...3 enchantements. Effet de la suppression : la cible ennemie et tous les ennemis adjacents perdent 10...100 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Douleur de désenchantement",
 				"description": "La cible ennemie perd 1...3 enchantement(s). Si un enchantement est perdu de cette manière la cible et tous les ennemis adjacents perdent 10...100 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dolore del Disincanto",
+				"description": "Magia d'Élite. L'obiettivo nemico perde 1...3 incantesimo[i]. Se un incantesimo viene perso in questo modo, quel nemico e tutti i nemici adiacenti perdono 10...100 Punto[i] Salute.",
+				"concise": "Magia d'Élite. Incantesimi persi dall'obiettivo nemico: 1...3. Effetto della rimozione: quel nemico e tutti i nemici adiacenti perdono 10...100 di Salute."
+			},
+			"jp": {
+				"name": "ディスエンチャント ペイン",
+				"description": "エリート スペル： ターゲットした敵にかけられている強化スペルを 1...3 個解除します。この効果により強化スペルを解除すると、その敵と隣接する敵はすべて体力が 10...100 減少します。",
+				"concise": "エリート スペル： ターゲットした敵にかけられている強化スペルを 1...3 個解除します。解除効果： その敵と隣接する敵は、体力が 10...100 減少します。"
+			},
+			"kr": {
+				"name": "강화 박탈의 고통",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에 걸린 강화 마법 1...3개를 무효화합니다. 대상이 이렇게 강화 마법 하나를 잃을 때마다 대상과 그에 인접한 모든 적은 10...100의 체력을 잃습니다.",
+				"concise": "엘리트 마법. 대상에 걸린 강화 마법 1...3개를 무효화합니다. 무효화 효과: 대상와 그에 인접한 적들이 10...100의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Ból Antyzaklęcia",
+				"description": "Elitarny czar. Wybrany przeciwnik traci zaklęcia w liczbie 1...3. Jeżeli przeciwnik straci w ten sposób zaklęcie, to on i wszyscy przeciwnicy w bezpośredniej odległości tracą 10...100 pkt. żywotności.",
+				"concise": "Elitarny czar. Wybrany przeciwnik traci zaklęcia w liczbie 1...3. Efekt usunięcia: ten przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim tracą po 10...100 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Pain of Disenchantment",
+				"description": "Элитное заклинание. Выбранный противник теряет лежащие на нем чары (1...3). Если чары были сняты с помощью этого умения, этот противник и все окружающие противники теряют 10...100 ед. здоровья.",
+				"concise": "Элитное заклинание. Выбранный противник теряет лежащие на нем чары (1...3). Эффект снятия: этот противник и все окружающие противники теряют 10...100 ед. здоровья."
+			},
+			"bork": {
+				"name": "Paeeen ooff Deesenchuntment",
+				"description": "Ileete-a Spell. Taerget fue-a luses 1...3 inchuntments. Iff un inchuntment vaes lust in thees vaey, thaet fue-a und aell aedjaecent fues luse-a 10...100 Heaelt.",
+				"concise": "Ileete-a Spell. Taerget fue-a luses 1...3 inchuntments. Remufael iffffect: thaet fue-a und aell aedjaecent fues luse-a 10...100 Heaelt."
 			}
 		}
 	}

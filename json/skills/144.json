@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冻疮",
+				"description": "咒文。 使自己「中毒」10秒，同时对范围内的敌人造成10...44点冰冻伤害，并且使他们失去1...2项「增益魔法」。",
+				"concise": "咒文。 使自己「中毒」10秒，同时对邻近的敌人造成10...44点冰冻伤害，并且使他们失去 1...2项「增益魔法」。"
+			},
+			"cht": {
+				"name": "凍傷",
+				"description": "咒文魔法： 對目標及其範圍內的敵人造成10...44冰凍傷害，並移除他們1...2個加持，但你遭受中毒10秒。",
+				"concise": "咒文魔法： 對目標及其範圍內的敵人造成10...44冰凍傷害，並移除他們1...2個加持，但你遭受中毒10秒。"
+			},
 			"de": {
+				"name": "Frostbeulen",
+				"description": "Zauber. Ihr werdet 10 Sekunden lang vergiftet. Gegner in dem Bereich Eures Gegners erleiden 10...44 Punkt[e] Kälteschaden und verlieren 1...2 Verzauberungen.",
+				"concise": "Zauber. Richtet bei Feinden im Bereich um das Ziel 10...44 Punkt[e] Kälteschaden an; entfernt 1...2 Verzauberungen bei den Betroffenen. Ihr werdet vergiftet (10 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Frostbeulen",
 				"description": "Ihr werdet 10 Sekunden lang vergiftet. Gegner in dem Bereich Eures Gegners erleiden 10...44 Kälteschaden und verlieren 1...2 Verzauberungen.",
 				"concise": "Richtet bei Feinden im Bereich um das Ziel 10...44 Punkte Kälteschaden an; entfernt 1...2 Verzauberungen bei den Betroffenen. <gray>Ihr werdet vergiftet (10 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Chilblains",
+				"description": "Spell. You become Poisoned for 10 seconds. Foes in the area of your target are struck for 10...44 cold damage and lose 1...2 enchantments.",
+				"concise": "Spell. Deals 10...44 cold damage to foes in the area around your target; removes 1...2 enchantments from these foes. You are Poisoned (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Chilblains",
 				"description": "You become Poisoned for 10 seconds. Foes in the area of your target are struck for 10...44 cold damage and lose 1...2 enchantment[s].",
 				"concise": "Deals 10...44 cold damage to foes in the area around your target; removes 1...2 enchantment[s] from these foes. <gray>You are Poisoned (10 seconds).</gray>"
 			},
+			"es": {
+				"name": "Sabañones",
+				"description": "Conjuro. Pasarás a estar envenenado durante 10 segundos. Los enemigos dentro de la zona de tu objetivo recibirán 10...44 de daño de frío y perderán 1...2 encantamientos.",
+				"concise": "Conjuro. Hace 10...44 de daño frío a todos los enemigos de la zona de tu objetivo. Elimina 1...2 encantamientos de esos enemigos. Quedas envenenado (10 segundos)."
+			},
 			"fr": {
+				"name": "Engelures",
+				"description": "Sort. Vous êtes empoisonné pendant 10 secondes. Les ennemis dans la zone de votre cible subissent 10...44 points de dégâts du froid et perdent 1...2 enchantements.",
+				"concise": "Sort. Inflige 10...44 points de dégâts du froid aux ennemis dans la zone autour de votre cible et supprime 1...2 enchantements les affectant. Vous souffrez d'Empoisonnement (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Engelures",
 				"description": "Vous êtes empoisonné pendant 10 secondes. Les ennemis dans la zone de votre cible subissent 10...44 points de dégâts du froid et perdent 1...2 enchantement(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Geloni",
+				"description": "Magia. Vieni avvelenato per 10 secondi; i nemici nell'area del tuo obiettivo subiscono 10...44 danno[i] da freddo e perdono 1...2 incantesimo[i].",
+				"concise": "Magia. Danni da freddo ai nemici nell'area intorno all'obiettivo: 10...44. Incantesimi rimossi da questi nemici: 1...2. Sei affetto da Veleno (10 secondi)."
+			},
+			"jp": {
+				"name": "チルブレイン",
+				"description": "スペル： プレイヤーは10秒間「毒」状態になります。ターゲットのエリア内にいる敵に 10...44 のコールド ダメージを与え、かけられている強化スペルを 1...2 個解除します。",
+				"concise": "スペル： ターゲットのエリア内にいる敵に 10...44 のコールド ダメージを与え、1...2 個の強化スペルを解除します。プレイヤーは「毒」状態になります (10秒)。"
+			},
+			"kr": {
+				"name": "동상",
+				"description": "마법. 대상 지정: 적. 10초 동안 자신을 중독 상태로 만듭니다. 대상을 중심으로 일정 범위 내에 있는 적들은 10...44의 냉기 대미지를 입고, 강화 마법 1...2개를 잃습니다.",
+				"concise": "마법. 대상을 중심으로 일정 범위 내에 있는 적들에게 10...44의 냉기 대미지를 주고, 강화 마법을 1...2개씩 해제합니다. 자신은 중독됩니다.(10초)"
+			},
+			"pl": {
+				"name": "Odmrożenie",
+				"description": "Czar. Zostajesz zatruty na 10 sekund. Przeciwnicy w okolicy twojego celu otrzymują po 10...44 pkt. obrażeń od zimna i tracą zaklęcia w liczbie 1...2.",
+				"concise": "Czar. Przeciwnikom w okolicy twojego celu zadaje po 10...44 pkt. obrażeń od zimna; zdejmuje z tych przeciwników zaklęcia w liczbie 1...2. Zostajesz zatruty (10 sek.)."
+			},
+			"ru": {
+				"name": "Chilblains",
+				"description": "Заклинание. Вы будете отравлены на 10 сек. Противники, находящиеся в зоне досягаемости от вашей цели, получают 10...44 ед. урона силой холода и теряют лежащие на них чары (1...2).",
+				"concise": "Заклинание. Наносит 10...44 ед. урона силой холода противникам в зоне досягаемости вокруг вас; снимает с этих противников чары (1...2). Вы отравлены (10 сек)."
+			},
+			"bork": {
+				"name": "Cheelblaeeens",
+				"description": "Spell. Yuoo becume-a Pueesuned fur 10 secunds. Fues in zee aerea ooff yuoor taerget aere-a stroock fur 10...44 culd daemaege-a und luse-a 1...2 inchuntments.",
+				"concise": "Spell. Deaels 10...44 culd daemaege-a tu fues in zee aerea aeruoond yuoor taerget; remufes 1...2 inchuntments frum zeese-a fues. Yuoo aere-a Pueesuned (10 secunds)."
 			}
 		}
 	}

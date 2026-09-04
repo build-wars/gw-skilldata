@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "新生",
+				"description": "咒文。 治愈目标盟友 15...150 生命，但使你其他的「治疗祷言」技能在 10...5 内无法使用。",
+				"concise": "咒文。 治愈目标盟友 15...150 生命，但使你其他的「治疗祷言」技能在 10...5 内无法使用。"
+			},
+			"cht": {
+				"name": "體力贈予",
+				"description": "咒文魔法： 治癒目標其他盟友 15...150 體力，但使你其他的「治癒祈禱」技能在 10...5 秒內無法使用。",
+				"concise": "咒文魔法： 治癒目標其他盟友 15...150 體力，但使你其他的「治癒祈禱」技能在 10...5 秒內無法使用。"
+			},
 			"de": {
+				"name": "Geschenk des Lebens",
+				"description": "Zauber. Alle Eure anderen Heilgebete werden 10...5 Sekunde[n] lang deaktiviert. Der Verbündete wird um 15...150 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Heilt um 15...150 Lebenspunkt[e]. Eure anderen Heilgebete-Fertigkeiten werden deaktiviert (10...5 Sekunde[n]). Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Geschenk des Lebens",
 				"description": "Alle Eure anderen Heilgebete werden 10...5 Sekunden lang deaktiviert. Der Verbündete wird um 15...150 Lebenspunkte geheilt.",
 				"concise": "Heilt um 15...150 Lebenspunkte. <gray>Eure anderen Heilgebete-Fertigkeiten werden deaktiviert (10...5 Sekunden). Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Gift of Health",
+				"description": "Spell. All of your other Healing Prayers skills are disabled for 10...5 seconds. Target other ally is healed for 15...150 Health.",
+				"concise": "Spell. Heals for 15...150. Disables your other Healing Prayers skills (10...5 seconds). Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Gift of Health",
 				"description": "All of your other Healing Prayers skills are disabled for 10...5 seconds. Target other ally is healed for 15...150 Health.",
 				"concise": "Heals for 15...150. <gray>Disables your other Healing Prayers skills (10...5 seconds). Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Don de salud",
+				"description": "Conjuro. Todas tus demás habilidades de plegarias curativas quedan desactivadas durante 10...5 segundos. El aliado objetivo se cura 15...150 de salud.",
+				"concise": "Conjuro. Cura 15...150 de salud. Desactiva tus otras habilidades de plegarias curativas (10...5 segundos). No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Don de santé",
+				"description": "Sort. Toutes vos compétences faisant appel à la caractéristique Prières de guérison sont inutilisables pendant 10...5 secondes. La cible alliée est soignée de 15...150 points de vie.",
+				"concise": "Sort. Soigne de 15...150 points de vie. Désactive toutes vos autres compétences liées aux Prières de guérison (10...5 secondes). Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Don de santé",
 				"description": "Toutes vos compétences faisant appel à la caractéristique Prières de guérison sont inutilisables pendant 10...5 secondes. La cible alliée est soignée de 15...150 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dono della Salute",
+				"description": "Magia. Tutte le altre abilità che hai equipaggiato associate alle Preghiere Curative vengono disattivate per 10...5 secondo[i]; l'obiettivo alleato viene curato di 15...150 Punto[i] Salute.",
+				"concise": "Magia. Cure: 15...150. Disattiva le altre abilità dell'attributo Preghiere Curative (10...5 secondo[i]). Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ヘルス ギフト",
+				"description": "スペル： 10...5 秒間、他の「ヒーリング」の特性スキルをすべて使用することができなくなりますが、ターゲットした自分以外の味方は体力が 15...150 回復します。",
+				"concise": "スペル： 体力を 15...150 回復します。他の「ヒーリング」の特性スキルを使用することができなくなります (10...5 秒)。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "축복받은 치유",
+				"description": "마법. 대상 지정: 아군. 대상의 체력을 15...150 회복시킵니다. 대신 다른 치유 특성 스킬을 10...5초 동안 사용할 수 없습니다. 이 마법은 자신에게 사용할 수 없습니다.",
+				"concise": "마법. 15...150의 체력을 회복시킵니다. 다른 치유 특성 스킬을 사용할 수 없습니다.(10...5초) 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Dar Życia",
+				"description": "Czar. Wszystkie twoje umiejętności oparte na Modlitwach Uzdrawiających będą niedostępne przez 10...5 sek. Wybrany sojusznik inny niż ty otrzymuje 15...150 pkt. żywotności.",
+				"concise": "Czar. Dodaje 15...150 pkt. żywotności. Wyłącza twoje pozostałe umiejętności Modlitw Uzdrawiających (10...5 sek.). Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Gift of Health",
+				"description": "Заклинание. Все прочие ваши умения, связанные с талантом Healing Prayers, будут недоступны в течение 10...5 сек. Выбранный союзник (но не вы) будет исцелен на 15...150 ед. здоровья.",
+				"concise": "Заклинание. Исцеляет на 15...150 ед. здоровья. Ваши остальные умения, связанные с талантом Healing Prayers, будут недоступны (10...5 сек). Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Geefft ooff Heaelt",
+				"description": "Spell. Aell ooff yuoor oozeer Heaeleeng Praeyers skeells aere-a deesaebled fur 10...5 secunds. Taerget oozeer aelly is heaeled fur 15...150 Heaelt.",
+				"concise": "Spell. Heaels fur 15...150. Deesaebles yuoor oozeer Heaeleeng Praeyers skeells (10...5 secunds). Cunnut selff-taerget."
 			}
 		}
 	}

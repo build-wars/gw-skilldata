@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致残射击",
+				"description": "精英弓术。 命中时，使目标遭受「残废」症状4...14秒。此技能无法被格挡。",
+				"concise": "精英弓术。 命中时，使目标遭受「残废」症状4...14秒。此技能无法被格挡。"
+			},
+			"cht": {
+				"name": "致殘之箭",
+				"description": "精英弓術攻擊技能： 命中時造成目標殘廢 4...14 秒，無法被格檔。",
+				"concise": "精英弓術攻擊技能： 命中時造成目標殘廢 4...14 秒，無法被格檔。"
+			},
 			"de": {
+				"name": "Verkrüppelungs-Schuss",
+				"description": "Elite-Bogenangriff. Wenn Verkrüppelungs-Schuss trifft, leidet Euer Ziel 4...14 Sekunde[n] lang an einer Verkrüppelung. Dieser Angriff kann nicht geblockt werden.",
+				"concise": "Elite-Bogenangriff. Kann nicht geblockt werden. Verursacht Zustand Verkrüppelung (4...14 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelungs-Schuss (PvP)",
 				"description": "Wenn Verkrüppelungs-Schuss trifft, leidet Euer Ziel 4...14 Sekunden lang an einer Verkrüppelung. Dieser Angriff kann nicht geblockt werden.",
 				"concise": "Kann nicht geblockt werden. Verursacht Zustand Verkrüppelung (4...14 Sekunden)."
 			},
 			"en": {
 				"name": "Crippling Shot (PvP)",
+				"description": "Elite Bow Attack. If Crippling Shot hits, your target becomes Crippled for 4...14 seconds. This attack cannot be blocked.",
+				"concise": "Elite Bow Attack. Unblockable. Inflicts Crippled condition (4...14 seconds)."
+			},
+			"en-gww": {
+				"name": "Crippling Shot (PvP)",
 				"description": "If Crippling Shot hits, your target becomes Crippled for 4...14 second[s]. This attack cannot be blocked.",
 				"concise": "Unblockable. Inflicts Crippled condition (4...14 second[s])."
 			},
+			"es": {
+				"name": "Disparo lesionador",
+				"description": "Ataque con arco de élite. Si el Disparo lesionador impacta, tu objetivo quedará lisiado durante 4...14 segundos. Este ataque no puede bloquearse.",
+				"concise": "Ataque con arco de élite. No se puede bloquear. Causa lisiadura (4...14 segundos)."
+			},
 			"fr": {
+				"name": "Tir incapacitant",
+				"description": "Attaque à l'arc d'élite. Si le Tir incapacitant réussit, la cible est frappée d'Infirmité pendant 4...14 secondes. Cette attaque ne peut être bloquée.",
+				"concise": "Attaque à l'arc d'élite. Ne peut être bloqué. Inflige l'Infirmité (4...14 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Tir incapacitant (PvP)",
 				"description": "Si le Tir incapacitant réussit, la cible est frappée d'Infirmité pendant 4...14 seconde(s). Cette attaque ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Azzoppante",
+				"description": "Attacco con Arco d'Élite. Se Tiro Azzoppante va a segno, l'obiettivo diventa Storpio per 4...14 secondo[i]. Questo attacco non può essere bloccato.",
+				"concise": "Attacco con Arco d'Élite. Non bloccabile. Condizione inflitta: Storpiatura (4...14 secondo[i])."
+			},
+			"jp": {
+				"name": "クリップル ショット",
+				"description": "エリート ボウ アタック： 攻撃が成功すると、ターゲットは 4...14 秒間「不自由」状態になります。この攻撃はブロックされません。",
+				"concise": "エリート ボウ アタック： この攻撃はブロックされません。「不自由」状態にします (4...14 秒)。"
+			},
+			"kr": {
+				"name": "속박의 화살",
+				"description": "엘리트 활 공격. 대상 지정: 적. 명중하면 대상은 4...14초 동안 다리 부상 상태가 되어 이동 속도가 느려집니다. 이 공격은 막을 수 없습니다.",
+				"concise": "엘리트 활 공격. 다리 부상을 입힙니다.(4...14초) 이 공격은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Okulawiający Strzał",
+				"description": "Elitarny strzał z łuku. Jeśli Okulawiający Strzał trafi, twój cel zostanie okulawiony na 4...14 sek. Tego ataku nie można zablokować.",
+				"concise": "Elitarny strzał z łuku. Nie do zablokowania. Powoduje okulawienie (4...14 sek.)."
+			},
+			"ru": {
+				"name": "Crippling Shot",
+				"description": "Элитная атака из лука. Если Crippling Shot попадает в цель, ваш противник будет хромать в течение 4...14 сек. Эту атаку нельзя блокировать.",
+				"concise": "Элитная атака из лука. Нельзя блокировать. Вызывает хромоту (4...14 сек)."
+			},
+			"bork": {
+				"name": "Creeppleeng Shut (PfP)",
+				"description": "Ileete-a Boo Aettaeck. Iff Creeppleeng Shut heets, yuoor taerget becumes Creeppled fur 4...14 secunds. Thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Boo Aettaeck. Unbluckaeble-a. Inffleects Creeppled cundeeshun (4...14 secunds)."
 			}
 		}
 	}

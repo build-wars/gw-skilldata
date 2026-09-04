@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂燃烧",
+				"description": "咒文。 对目标敌人造成5...50点闪电伤害。如果「音波」范围内有任何「灵体」存在，「灵魂燃烧」将对该目标造成1...5点额外伤害。",
+				"concise": "咒文。 对目标敌人造成5...50点闪电伤害。如果「音波」范围内有任何「灵体」存在，「灵魂燃烧」将对该目标造成1...5点额外伤害。"
+			},
+			"cht": {
+				"name": "生靈燃燒",
+				"description": "咒文魔法： 使目標敵人受到 5...50 閃電傷害。若音量所及範圍內有「靈」存在，生靈燃燒將使該目標遭受著火 1...5 秒。",
+				"concise": "咒文魔法： 使目標敵人受到 5...50 閃電傷害。若音量所及範圍內有「靈」存在，生靈燃燒將給予該目標 1...5 額外傷害。"
+			},
 			"de": {
+				"name": "Geisterbrand",
+				"description": "Zauber. Der Gegner erleidet 5...50 Punkt[e] Blitzschaden. Wenn sich Geister in Hörweite befinden, führt Geisterbrand 1...5 Sekunde[n] lang zu Brennen.",
+				"concise": "Zauber. Richtet 5...50 Punkt[e] Blitzschaden an. Verursacht Zustand Brennen (1...5 Sekunde[n]), falls Ihr Euch in Hörweite eines Geistes befindet."
+			},
+			"de-guildwiki": {
 				"name": "Geisterbrand",
 				"description": "Der Gegner erleidet 5...50 Punkte Blitzschaden. Wenn sich Geister in Hörweite befinden, führt Geisterbrand 1...5 Sekunden lang zu Brennen.",
 				"concise": "Richtet 5...50 Punkte Blitzschaden an. Verursacht Zustand Brennen (1...5 Sekunden), falls Ihr Euch in Hörweite eines Geistes befindet."
 			},
 			"en": {
 				"name": "Spirit Burn",
+				"description": "Spell. Target foe is struck for 5...50 lightning damage. If any spirits are within earshot, Spirit Burn causes Burning for 1...5 seconds.",
+				"concise": "Spell. Deals 5...50 lightning damage. Inflicts Burning condition (1...5 seconds) if you are within earshot of a spirit."
+			},
+			"en-gww": {
+				"name": "Spirit Burn",
 				"description": "Target foe is struck for 5...50 lightning damage. If any spirits are within earshot, Spirit Burn causes Burning for 1...5 second[s].",
 				"concise": "Deals 5...50 lightning damage. Inflicts Burning condition (1...5 second[s]) if you are within earshot of a spirit."
 			},
+			"es": {
+				"name": "Quemadura espiritual",
+				"description": "Conjuro. Haces 5...50 de daño de relámpago al enemigo objetivo. Si hay espíritus al alcance del oído, este ataque causará quemadura durante 1...5 segundos.",
+				"concise": "Conjuro. Causa 5...50 de daño relámpago. Causa quemadura (1...5 segundos) si estás al alcance del oído de algún espíritu."
+			},
 			"fr": {
+				"name": "Brûlure de l'esprit",
+				"description": "Sort. La cible ennemie subit 5...50 points de dégâts de la foudre. Si des esprits se trouvent à portée de voix, Brûlure de l'esprit cause la Brûlure pendant 1...5 secondes.",
+				"concise": "Sort. Inflige 5...50 points de dégâts de la foudre. Inflige Brûlure (1...5 secondes si vous êtes à portée de voix d'un esprit."
+			},
+			"fr-gwiki": {
 				"name": "Brûlure de l'esprit",
 				"description": "La cible ennemie subit 5...50 points de dégâts de la foudre. Si des esprits se trouvent à portée de voix, Brûlure de l'esprit cause la Brûlure pendant 1...5 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Bruciatura dello Spirito",
+				"description": "Magia. L'obiettivo nemico subisce 5...50 danno[i] da fulmine; se sono presenti degli Spiriti a portata d'orecchio, la Bruciatura dello Spirito provoca bruciatura per 1...5 secondo[i].",
+				"concise": "Magia. Danni da fulmine inferti: 5...50. Infligge condizione Bruciatura (1...5 secondo[i] se ti trovi entro la portata d'orecchio di uno spirito."
+			},
+			"jp": {
+				"name": "スピリット バーン",
+				"description": "スペル： ターゲットした敵に 5...50 のライトニング ダメージを与えます。声の届く範囲内に精霊がいる場合、ターゲットは 1...5 秒間「火傷」状態になります。",
+				"concise": "スペル： 5...50 のライトニング ダメージを与えます。プレイヤーの声の届く範囲内に精霊がいる場合、「火傷」状態にします (1...5 秒)。"
+			},
+			"kr": {
+				"name": "영혼 점화",
+				"description": "마법. 대상 지정: 적. 대상에게 5...50의 번개 대미지를 줍니다. 가청 범위 내에 영혼이 있으면 대상에게 1...5간의 화상을 입힙니다.",
+				"concise": "마법. 5...50의 번개 대미지를 주고, 가청 범위 내에 영혼이 있으면 화상을 입힙니다.(1...5초)"
+			},
+			"pl": {
+				"name": "Duchowy Płomień",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...50 pkt. obrażeń od błyskawic. Jeżeli w zasięgu słuchu jest jakiś duch, Duchowy Płomień podpali przeciwnika na 1...5 sek.",
+				"concise": "Czar. Zadaje 5...50 pkt. obrażeń od błyskawic. Powoduje płonięcie (1...5 sek.), jeżeli w zasięgu słuchu znajduje się duch."
+			},
+			"ru": {
+				"name": "Spirit Burn",
+				"description": "Заклинание. Выбранный противник получает 5...50 ед. урона силой молнии. Если в вашей зоне слышимости находится какой-либо дух, противник загорится на 1...5 сек.",
+				"concise": "Заклинание. Наносит 5...50 ед. урона силой молнии. Поджигает (1...5 сек), если вы находитесь в зоне слышимости какого-либо духа."
+			},
+			"bork": {
+				"name": "Spureet Boorn",
+				"description": "Spell. Taerget fue-a is stroock fur 5...50 leeghtneeng daemaege-a. Iff uny spureets aere-a veetheen iaershut, Spureet Boorn cooses Boorneeng fur 1...5 secunds.",
+				"concise": "Spell. Deaels 5...50 leeghtneeng daemaege-a. Inffleects Boorneeng cundeeshun (1...5 secunds) iff yuoo aere-a veetheen iaershut ooff a spureet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「谁敢来战！」",
+				"description": "战吼。 使附近的所有敌人失去2...6点能量。",
+				"concise": "战吼。 使附近的所有敌人失去 2...6点 能量。"
+			},
+			"cht": {
+				"name": "「我是最強！」",
+				"description": "戰嚎： 附近所有敵人失去 2...6 能量，且在 1...15 秒內對於不動的敵人， 你的近身攻擊造成致命攻擊的機率增加 5...30% 。",
+				"concise": "戰嚎： 附近所有敵人失去 2...6 能量，且在 1...15 秒內對於不動的敵人， 你的近身攻擊造成致命攻擊的機率增加 5...30% 。"
+			},
 			"de": {
+				"name": "Fürchtet mich!",
+				"description": "Schrei. Alle Gegner in der Nähe verlieren 2...6 Energiepunkt[e]. 1...15 Sekunde[n] lang erhöht sich Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%.",
+				"concise": "Schrei. (1...15 Sekunde[n].) Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde erhöht sich um +5...30%. Anfangswirkung: Feinde in der Nähe verlieren 2...6 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Fürchtet mich!",
 				"description": "Alle umstehenden Gegner verlieren 2...6 Energiepunkte. 1...15 Sekunden lang erhöht sich Eure Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%.",
 				"concise": "(1...15 Sekunden.) Erhöht die Chance auf kritische Treffer durch Nahkampfangriffe auf stationäre Feinde um +5...30%. Anfangswirkung: Feinde in der Nähe verlieren 2...6 Energiepunkte."
 			},
 			"en": {
 				"name": "\"Fear Me!\"",
+				"description": "Shout. All nearby foes lose 2...6 Energy. For 1...15 seconds, your melee attacks gain +5...30% chance of a critical hit against stationary foes.",
+				"concise": "Shout. (1...15 seconds.) You have +5...30% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose 2...6 Energy."
+			},
+			"en-gww": {
+				"name": "\"Fear Me!\"",
 				"description": "All nearby foes lose 2...6 Energy. For 1...15 second[s], your melee attacks gain +5...30% chance of a critical hit against stationary foes.",
 				"concise": "(1...15 second[s].) You have +5...30% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose 2...6 Energy."
 			},
+			"es": {
+				"name": "¡Temedme!",
+				"description": "Grito. Todos los enemigos cercanos pierden 2...6 de energía. Durante 1...15 segundoss, tus ataques cuerpo a cuerpo tienen +5...30% de probabilidades de dar un golpe crítico contra enemigos parados.",
+				"concise": "Grito. (1...15 segundos). Tienes +5...30% de probabilidades de hacer un golpe crítico con ataques cuerpo a cuerpo contra enemigos parados. Efecto inicial: los enemigos cercanos pierden 2...6 de energía."
+			},
 			"fr": {
+				"name": "Craignez-moi !",
+				"description": "Cri. Tous les ennemis à proximité perdent 2...6 points d'énergie. Pendant 1...15 secondes, vos attaques au corps à corps ont +5...30% de chances d'infliger un coup critique contre les ennemis immobiles.",
+				"concise": "Cri. (1...15 secondes.) Vous avez +5...30% de chances de réaliser un coup critique avec les attaques au corps à corps contre les ennemis immobiles. Effet initial : les ennemis à proximité perdent 2...6 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "\"Craignez-moi !\"",
 				"description": "Tous les ennemis à proximité perdent 1...4 points d'énergie. Pendant 1...15 seconde(s), vos attaques au corps à corps gagnent +5...30% de chances d'infliger un coup critique sur les ennemis immobiles.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Temi la Mia Ira!",
+				"description": "Urlo. Tutti i nemici nei dintorni perdono 2...6 Punto[i] Energia. Per 1...15 secondo[i], i tuoi attacchi ravvicinati hanno +5...30% probabilità di assestare un colpo critico contro nemici fermi.",
+				"concise": "Urlo. (Secondo[i]: 1...15). Hai un +5...30% di probabilità di effettuare un colpo critico con un attacco ravvicinato contro un nemico fermo. Effetto iniziale: i nemici nei dintorni perdono 2...6 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "フィア ミー！",
+				"description": "シャウト： 周囲にいるすべての敵はエネルギーを 2...6 失います。1...15 秒間、移動していない敵に対する近接攻撃がクリティカル ヒットになる確率が 5...30% 増加します。",
+				"concise": "シャウト： (1...15 秒) 移動していない敵に対する近接攻撃は、クリティカル ヒットになる確率が 5...30% 増加します。発動効果： 周囲にいる敵はエネルギーが 2...6 減少します。"
+			},
+			"kr": {
+				"name": "내가 최고다!",
+				"description": "고함. 대상 지정: 없음. 부근에 있는 적들의 에너지가 2...6 감소합니다. 1...15초 동안 정지해 있는 적에 대한 자신의 근접 물리 공격이 치명타를 터뜨릴 확률이 5...30% 증가합니다.",
+				"concise": "고함. (1...15초) 정지해 있는 적에 대한 근접 물리 공격이 치명타를 터뜨릴 확률이 5...30% 증가합니다. 초기 효과: 부근에 있는 적들의 에너지가 2...6만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Poznajcie Co To Strach!",
+				"description": "Okrzyk. Wszyscy pobliscy przeciwnicy tracą 2...6 pkt. energii. Przez 1...15 sek., twoje ataki wręcz mają +5...30% szansy na zadanie trafienia krytycznego nieruchomym wrogom.",
+				"concise": "Okrzyk. (1...15 sek.) Masz o +5...30% większą szansę na trafienie krytyczne w nieruchomych wrogów. Efekt początkowy: pobliscy wrogowie tracą 2...6 pkt. energii."
+			},
+			"ru": {
+				"name": "\"Fear Me!\"",
+				"description": "Крик. Все находящиеся поблизости противники теряют 2...6 ед. энергии. В течение 1...15 сек ваши рукопашные атаки имеют дополнительный 5...30%-й шанс завершиться критическим попаданием против неподвижных противников.",
+				"concise": "Крик. (1...15 сек) Вы получаете +5...30% к шансу на критическое попадание в рукопашной атаке по неподвижным противникам. Начальный эффект: противники поблизости теряют 2...6 ед. энергии."
+			},
+			"bork": {
+				"name": "\"Feaer Me-a!\"",
+				"description": "Shuoot. Aell neaerby fues luse-a 2...6 Inergy. Fur 1...15 secunds, yuoor melee-a aettaecks gaeeen +5...30% chunce-a ooff a creeteecael heet aegaeeenst staeshunaery fues.",
+				"concise": "Shuoot. (1...15 secunds.) Yuoo haefe-a +5...30% chunce-a ooff a creeteecael heet veet melee-a aettaecks aegaeeenst staeshunaery fues. Ineeteeael iffffect: neaerby fues luse-a 2...6 Inergy."
 			}
 		}
 	}

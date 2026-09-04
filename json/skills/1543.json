@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信仰疾速",
+				"description": "姿态。 在1...7秒之内，你的移动速度提升25%，当此「姿态」结束时，你失去一项「增益魔法」。",
+				"concise": "姿态。 在1...7秒之内，你的移动速度提升25%，当此「姿态」结束时，你失去一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "神性迅速",
+				"description": "態勢： 持續 1...7 秒，你的移動速度增加 25% ，移除自身一項神喚使加持，若移除成功，則移動速度改為增加 50%。",
+				"concise": "態勢： 持續 1...7 秒，你的移動速度增加 25% ，移除自身一項神喚使加持，若移除成功，則移動速度改為增加 50%。"
+			},
 			"de": {
+				"name": "Fromme Eile",
+				"description": "Haltung. Ihr entfernt 1 Derwisch-Verzauberung und bewegt Euch 1...7 Sekunde[n] lang 25% schneller. Wenn eine Verzauberung entfernt wird, rennt Ihr stattdessen 50% schneller.",
+				"concise": "Haltung. (1...7 Sekunde[n].) Ihr verliert 1 Derwisch-Verzauberung und bewegt Euch 25% schneller. Entfernungseffekt: Rennt stattdessen 50% schneller."
+			},
+			"de-guildwiki": {
 				"name": "Fromme Eile",
 				"description": "Ihr entfernt 1 Derwisch-Verzauberung und bewegt Euch 1...7 Sekunden lang 25% schneller. Wenn eine Verzauberung entfernt wird, rennt Ihr stattdessen 50% schneller.",
 				"concise": "(1...7 Sekunden.) Ihr verliert 1 Derwisch-Verzauberung und bewegt Euch 25% schneller. Entferungseffekt: Rennt stattdessen 50% schneller."
 			},
 			"en": {
 				"name": "Pious Haste",
+				"description": "Stance. You remove 1 Dervish enchantment and for 1...7 seconds you move 25% faster. If an enchantment was removed you run 50% faster instead.",
+				"concise": "Stance. (1...7 seconds.) Lose 1 Dervish enchantment and move 25% faster. Removal Effect: Run 50% faster instead."
+			},
+			"en-gww": {
+				"name": "Pious Haste",
 				"description": "You remove 1 Dervish enchantment and for 1...7 second[s] you move 25% faster. If an enchantment was removed you move 50% faster instead.",
 				"concise": "(1...7 second[s].) Lose 1 Dervish enchantment and move 25% faster. Removal Effect: Run 50% faster instead."
 			},
+			"es": {
+				"name": "Prisa piadosa",
+				"description": "Actitud. Pierdes un encantamiento de Derviche y te mueves un 25% más rápido durante 1...7 segundos. Si se quitó un encantamiento, corres un 50% más rápido.",
+				"concise": "Actitud. (1...7 segundos). Pierdes un encantamiento de Derviche y te mueves un 25% más rápido. Efecto de eliminación: corres un 50% más rápido."
+			},
 			"fr": {
+				"name": "Hâte pieuse",
+				"description": "Pose de combat. Vous levez un enchantement de Derviche et pendant 1...7 secondes vous vous déplacez 25% plus vite. En cas de perte d'enchantement, vous courez 50% plus vite à la place.",
+				"concise": "Pose de combat. (1...7 secondes.) Perte d'un enchantement de Derviche et déplacement 25% plus rapide. Effet de la suppression : court 50% plus rapidement à la place."
+			},
+			"fr-gwiki": {
 				"name": "Hâte pieuse",
 				"description": "Pendant 3...12 secondes, vous vous déplacez 33% plus vite. Lorsque cette pose prend fin, vous perdez un enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta Pia",
+				"description": "Posizione. Rimuovi 1 Incantesimo del Derviscio e per 1...7 secondi ti muovi più velocemente di un 25%. Invece, se un incantesimo non è stato rimosso, corri più velocemente di un 50%.",
+				"concise": "Posizione. (Secondi: 1...7). Perdi 1 Incantesimo del Derviscio e ti muovi più velocemente di un 25%. Effetto della rimozione: Corsa più veloce: 50%"
+			},
+			"jp": {
+				"name": "パイアス ヘイスト",
+				"description": "スタンス： ダルウィーシュの強化スペルを1個解除し、1...7 秒間、移動速度が 25% 増加します。強化スペルが解除されると、移動速度が 50% 増加します。",
+				"concise": "スタンス： (1...7 秒) ダルウィーシュの強化スペルを1つ解除し、移動速度が 25% 増加します。解除効果： 移動速度が 50% 増加します。"
+			},
+			"kr": {
+				"name": "경건한 민첩함",
+				"description": "자세. 대상 지정: 없음. 자신에게 걸린 더비시 강화 마법 하나가 무효화되고, 1...7초 동안 이동 속도가 25% 빨라집니다. 강화 마법이 무효화되면 이동 속도가 50% 빨라집니다.",
+				"concise": "자세. (1...7초) 자신이 걸린 더비시 강화 마법 하나를 무효화하고, 이동 속도가 25% 빨라집니다. 무효화 효과: 이동 속도가 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Nabożny Pośpiech",
+				"description": "Postawa. Usuwasz 1 zaklęcie derwisza i przez 1...7 sek. poruszasz się 25% szybciej. Jeśli zostało usunięte zaklęcie, możesz biec 50% szybciej.",
+				"concise": "Postawa. (1...7 sek.) Tracisz 1 zaklęcie derwisza i poruszasz się 25% szybciej. Efekt usunięcia: Biegasz 50% szybciej."
+			},
+			"ru": {
+				"name": "Pious Haste",
+				"description": "Стойка. Вы теряете 1 чары профессии Dervish и в течение 1...7 сек двигаетесь на 25% быстрее. Если чары были успешно сняты, вы будете двигаться на 50% быстрее.",
+				"concise": "Стойка. (1...7 сек) Вы теряете 1 чары профессии Dervish и двигаетесь на 25% быстрее. Эффект снятия: вы двигаетесь на 50% быстрее."
+			},
+			"bork": {
+				"name": "Peeuoos Haeste-a",
+				"description": "Stunce-a. Yuoo remufe-a 1 Derfeesh inchuntment und fur 1...7 secunds yuoo mufe-a 25% faester. Iff un inchuntment vaes remufed yuoo roon 50% faester insteaed.",
+				"concise": "Stunce-a. (1...7 secunds.) Luse-a 1 Derfeesh inchuntment und mufe-a 25% faester. Remufael Iffffect: Roon 50% faester insteaed."
 			}
 		}
 	}

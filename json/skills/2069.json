@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Sloth Hunter's Shot",
+				"description": "弓术。 If this attack hits, target foe takes +10...25 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +10...35 damage.",
+				"concise": "弓术。 Deals +10...25 damage. Deals +10...35 more damage if target foe is not using a skill."
+			},
+			"cht": {
+				"name": "懶散獵人之箭",
+				"description": "弓術攻擊技能： 此攻擊命中時，目標敵人將受到 +10...25 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +10...35 額外傷害。",
+				"concise": "弓術攻擊技能： 此攻擊命中時，目標敵人將受到 +10...25 傷害。若該名敵人並未使用任何技能，則懶散獵人之箭將造成 +10...35 額外傷害。"
+			},
 			"de": {
+				"name": "Schuss des Faultierjägers",
+				"description": "Bogenangriff. Wenn dieser Angriff erfolgreich ist, erleidet der Gegner +10...25 Punkt[e] Schaden. Wenn er keine Fertigkeit verwendet, fügt Schuss des Faultierjägers zusätzlich 10...35 Punkt[e] Schaden zu.",
+				"concise": "Bogenangriff. Richtet +10...25 Punkt[e] Schaden an. Richtet zusätzlich +10...35 Punkt[e] Schaden an, falls der Gegner gerade keine Fertigkeit benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Schuss des Faultierjägers",
 				"description": "Wenn dieser Angriff erfolgereich ist, erleidet der Gegner +10...25 Punkte Schaden. Wenn er keine Fertigkeit verwendet, fügt Schuss des Faultierjägers zusätzlich 10...35 Punkte Schaden zu.",
 				"concise": "Richtet +10...25 Punkte Schaden an. Richtet zusätzlich +10...35 Punkte Schaden an, falls der Gegner gerade keine Fertigkeit benutzt."
 			},
 			"en": {
 				"name": "Sloth Hunter's Shot",
+				"description": "Bow Attack. If this attack hits, target foe takes +10...25 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +10...35 damage.",
+				"concise": "Bow Attack. Deals +10...25 damage. Deals +10...35 more damage if target foe is not using a skill."
+			},
+			"en-gww": {
+				"name": "Sloth Hunter's Shot",
 				"description": "If this attack hits, target foe takes +10...25 damage. If that foe is not using a skill, Sloth Hunter's Shot does an additional +10...35 damage.",
 				"concise": "Deals +10...25 damage. Deals +10...35 more damage if target foe is not using a skill."
 			},
+			"es": {
+				"name": "Disparo del cazador perezoso",
+				"description": "Ataque con arco. Si este ataque impacta, el enemigo objetivo recibe +10...25 de daño. Si no estaba usando ninguna habilidad, este disparo hará +10...35 de daño extra.",
+				"concise": "Ataque con arco. Hace +10...25 de daño. +10...35 de daño extra si el enemigo objetivo no está usando ninguna habilidad."
+			},
 			"fr": {
+				"name": "Tir du chasseur paresseux",
+				"description": "Attaque à l'arc. Si cette attaque réussit, la cible ennemie subit +10...25 points de dégâts. Si elle n'utilisait pas de compétence, Tir du chasseur paresseux inflige +10...35 points de dégâts supplémentaires.",
+				"concise": "Attaque à l'arc. Inflige +10...25 points de dégâts. Inflige +10...35 points de dégâts supplémentaires si l'ennemi visé n'utilise pas de compétence."
+			},
+			"fr-gwiki": {
 				"name": "Tir du chasseur paresseux",
 				"description": "Si cette attaque réussit, la cible ennemie subit +10...25 points de dégâts. Si elle n'utilisait pas de compétence, Tir du chasseur paresseux inflige +10...35 points de dégâts supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro del Cacciatore Indolente",
+				"description": "Attacco con Arco. Se questo attacco va a segno l'obiettivo nemico subisce +10...25 danno[i]; se non sta usando un'abilità, il Tiro del Cacciatore Indolente provoca +10...35 danno[i] aggiuntivo[i].",
+				"concise": "Attacco con Arco. Danni inferti: +10...25. Danni inferti se l'obiettivo nemico non sta usando un'abilità: +10...35."
+			},
+			"jp": {
+				"name": "スロース ハンター ショット",
+				"description": "ボウ アタック： 攻撃が成功すると、ターゲットした敵に 10...25 の追加ダメージを与えます。ターゲットがスキルを使用していない場合、さらに 10...35 の追加ダメージを与えます。",
+				"concise": "ボウ アタック： 10...25 の追加ダメージを与えます。ターゲットした敵がスキルを使用していない場合、さらに 10...35 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "태만의 응징",
+				"description": "활 공격. 공격이 적중하면 10...25의 대미지를 추가로 줍니다. 대상이 스킬 사용 중이 아니라면 거기에 10...35의 대미지를 추가로 줍니다.",
+				"concise": "활 공격. 10...25의 대미지를 추가로 줍니다. 대상이 스킬 사용 중이 아니라면 거기에 10...35의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Strzał Łowcy Ospałych",
+				"description": "Strzał z łuku. Jeżeli atak trafi, wybrany przeciwnik otrzymuje +10...25 pkt. obrażeń. Jeżeli przeciwnik ten nie używa umiejętności, to Strzał Łowcy Ospałych zadaje dodatkowe +10...35 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Zadaje +10...25 pkt. obrażeń. Zadaje +10...35 pkt. dodatkowych obrażeń, jeżeli wybrany przeciwnik nie używa umiejętności."
+			},
+			"ru": {
+				"name": "Sloth Hunter's Shot",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, выбранный противник получает дополнительно 10...25 ед. урона. Если этот противник не использовал в этот момент какое-либо умение, он получит дополнительно еще 10...35 ед. урона.",
+				"concise": "Атака из лука. Наносит дополнительно 10...25 ед. урона. Наносит дополнительно еще 10...35 ед. урона, если выбранный противник не использует умение."
+			},
+			"bork": {
+				"name": "Slooth Hoonter's Shut",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets, taerget fue-a taekes +10...25 daemaege-a. Iff thaet fue-a is nut useeng a skeell, Slooth Hoonter's Shut dues un aeddeeshunael +10...35 daemaege-a.",
+				"concise": "Boo Aettaeck. Deaels +10...25 daemaege-a. Deaels +10...35 mure-a daemaege-a iff taerget fue-a is nut useeng a skeell."
 			}
 		}
 	}

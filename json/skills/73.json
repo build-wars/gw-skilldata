@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "物理护盾",
+				"description": "姿态。 使你的物理护甲提高 40点，同时元素护甲降低 24...12点，效果持续 30...90秒。",
+				"concise": "姿态。 使你的物理护甲提高40点，同时元素护甲降低 24...12点，效果持续 30...90秒。"
+			},
+			"cht": {
+				"name": "物理抵抗",
+				"description": "態勢： 持續 30...90 秒，你對物理攻擊的防禦增加 40 ，但是對元素攻擊的防禦降低 24...12 。",
+				"concise": "態勢： 持續 30...90 秒，你對物理攻擊的防禦增加 40 ，但是對元素攻擊的防禦降低 24...12 。"
+			},
 			"de": {
+				"name": "Körperlicher Widerstand",
+				"description": "Haltung. 30...90 Sekunde[n] lang bekommt Ihr +40 Rüstung gegen physischen Schaden, verliert jedoch 24...12 Rüstung gegen Elementarschaden.",
+				"concise": "Haltung. 30...90 Sekunde[n]: Ihr habt +40 Rüstung gegen physischen Schaden. Ihr habt -24...12 Rüstung gegen Elementarschaden."
+			},
+			"de-guildwiki": {
 				"name": "Körperlicher Widerstand",
 				"description": "30...90 Sekunden lang bekommt Ihr +40 Rüstung gegen physischen Schaden, verliert jedoch 24...12 Rüstung gegen Elementarschaden.",
 				"concise": "30...90 Sekunden: Ihr habt +40 Rüstung gegen physischen Schaden. <gray>Ihr habt -24...12 Rüstung gegen Elementarschaden.</gray>"
 			},
 			"en": {
 				"name": "Physical Resistance",
+				"description": "Stance. For 30...90 seconds, You gain +40 armor against physical damage, but you lose 24...12 armor against elemental damage.",
+				"concise": "Stance. (30...90 seconds.) You have +40 armor against physical damage. You have -24...12 armor against elemental damage."
+			},
+			"en-gww": {
+				"name": "Physical Resistance",
 				"description": "For 30...90 seconds, You gain +40 armor against physical damage, but you lose 24...12 armor against elemental damage.",
 				"concise": "(30...90 seconds.) You have +40 armor against physical damage. <gray>You have -24...12 armor against elemental damage.</gray>"
 			},
+			"es": {
+				"name": "Resistencia física",
+				"description": "Actitud. Durante 30...90 segundos, ganarás +40 de armadura contra daño físico, pero perderás 24...12 contra daño elemental.",
+				"concise": "Actitud. (30...90 segundos). Ganas +40 de armadura contra daño físico. Tienes -24...12 de armadura contra daño de los elementos."
+			},
 			"fr": {
+				"name": "Résistance physique",
+				"description": "Pose de combat. Pendant 30...90 secondes, vous gagnez +40 de bonus d'armure contre les dégâts physiques, mais perdez 24...12 de bonus d'armure contre les dégâts élémentaires.",
+				"concise": "Pose de combat. (30...90 secondes.) Vous bénéficiez d'un bonus d'armure de +40 contre les dégâts physiques. Votre bonus d'armure est réduit de -24...12 contre les dégâts élémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Résistance physique",
 				"description": "Pendant 30...90 secondes, vous gagnez +40 de bonus d'armure contre les dégâts physiques, mais perdez 24...12 de bonus d'armure contre les dégâts élémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Resistenza Fisica",
+				"description": "Posizione. Per 30...90 secondo[i] ottieni +40 punti di armatura contro i danni fisici, ma perdi 24...12 punto[i] di armatura contro i danni elementali.",
+				"concise": "Posizione. (Secondi: 30...90) Armatura contro il danno fisico: +40. Hai -24...12 di armatura contro il danno elementale."
+			},
+			"jp": {
+				"name": "フィジカル レジスタンス",
+				"description": "スタンス： 30...90 秒間、物理ダメージに対する防御力は40増加しますが、元素ダメージに対する防御力が 24...12 減少します。",
+				"concise": "スタンス： (30...90 秒) 物理ダメージに対する防御力が40増加します。元素ダメージに対する防御力が 24...12 減少します。"
+			},
+			"kr": {
+				"name": "물리 저항 강화",
+				"description": "자세. 대상 지정: 없음. 30...90초 동안 물리 대미지에 대한 방어력은 40 증가하지만 정령 대미지에 대한 방어력은 24...12 감소합니다.",
+				"concise": "자세. (30...90초) 물리 대미지에 대한 방어력이 40 증가합니다. 정령 대미지에 대한 방어력은 24...12 감소합니다."
+			},
+			"pl": {
+				"name": "Fizyczna Odporność",
+				"description": "Postawa. Przez 30...90 sek., zyskujesz +40 pkt. pancerza przeciw obrażeniom fizycznym, ale tracisz 24...12 pkt. pancerza przeciw obrażeniom od żywiołów.",
+				"concise": "Postawa. (30...90 sek.) Posiadasz +40 pkt. pancerza przeciwko obrażeniom fizycznym. Przeciwko obrażeniom od żywiołów posiadasz -24...12 pkt. pancerza."
+			},
+			"ru": {
+				"name": "Physical Resistance",
+				"description": "Стойка. На 30...90 сек ваша защита против физического урона повышается на 40 ед., но ваша защита против урона силами Стихий уменьшается на 24...12 ед.",
+				"concise": "Стойка. (30...90 сек) Вы получаете +40 ед. к защите против физического урона. Вы получаете -24...12 ед. к защите против урона силами Стихий."
+			},
+			"bork": {
+				"name": "Physeecael Reseestunce-a",
+				"description": "Stunce-a. Fur 30...90 secunds, Yuoo gaeeen +40 aermur aegaeeenst physeecael daemaege-a, boot yuoo luse-a 24...12 aermur aegaeeenst ilementael daemaege-a.",
+				"concise": "Stunce-a. (30...90 secunds.) Yuoo haefe-a +40 aermur aegaeeenst physeecael daemaege-a. Yuoo haefe-a -24...12 aermur aegaeeenst ilementael daemaege-a."
 			}
 		}
 	}

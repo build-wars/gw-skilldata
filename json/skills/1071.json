@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "畏惧之寒",
+				"description": "负面魔法。 持续 10...40 秒，每当目标敌人在使用技能时受到冰冻伤害，其动作被打断，同时你失去 8...3 能量或畏惧之寒效果终止。",
+				"concise": "负面魔法。 持续 10...40 秒，每当目标敌人在使用技能时受到冰冻伤害，其动作被打断，同时你失去 8...3 能量或畏惧之寒效果终止。"
+			},
+			"cht": {
+				"name": "恐懼惡寒",
+				"description": "降咒魔法： 持續 10...40 秒，每當目標敵人在使用「技能」時受到冰凍傷害，其動作被中斷，同時你失去 8...3 能量或恐懼惡寒效果終止。",
+				"concise": "降咒魔法： 持續 10...40 秒，每當目標敵人在使用「技能」時受到冰凍傷害，其動作被中斷，同時你失去 8...3 能量或恐懼惡寒效果終止。"
+			},
 			"de": {
+				"name": "Angstschauer",
+				"description": "Verhexung. 10...40 Sekunde[n] lang wird der Gegner jedes Mal, wenn er beim Anwenden einer Fertigkeit mit Kälteschaden getroffen wird, unterbrochen und Ihr verliert 8...3 Energiepunkt[e] oder Angstschauer endet.",
+				"concise": "Verhexung. 10...40 Sekunde[n]: Kälteschaden unterbricht die Fertigkeiten des Gegners. Unterbrechungskosten: Ihr verliert 8...3 Energiepunkt[e] oder diese Verhexung endet."
+			},
+			"de-guildwiki": {
 				"name": "Angstschauer",
 				"description": "10...40 Sekunden lang wird der Gegner jedes Mal, wenn er beim Anwenden einer Fertigkeit mit Kälteschaden getroffen wird, unterbrochen und Ihr verliert 8...3 Energiepunkte oder Angstschauer endet.",
 				"concise": "10...40 Sekunden: Kälteschaden unterbricht die Fertigkeiten des Gegners. <gray>Unterbrechungskosten: Ihr verliert 8...3 Energiepunkte oder diese Verhexung endet.</gray>"
 			},
 			"en": {
 				"name": "Shivers of Dread",
+				"description": "Hex Spell. For 10...40 seconds, whenever target foe is struck for cold damage while using a skill, that foe is interrupted and you lose 8...3 Energy or Shivers of Dread ends.",
+				"concise": "Hex Spell. (10...40 seconds.) Cold damage interrupts target foe's skills. Interruption cost: you lose 8...3 Energy or this hex ends."
+			},
+			"en-gww": {
+				"name": "Shivers of Dread",
 				"description": "For 10...40 seconds, whenever target foe is struck for cold damage while using a skill, that foe is interrupted<sic/> and you lose 8...3 Energy or Shivers of Dread ends.",
 				"concise": "(10...40 seconds.) Cold damage interrupts target foe's skills. <gray>Interruption cost: you lose 8...3 Energy or this hex ends.</gray>"
 			},
+			"es": {
+				"name": "Escalofríos temerosos",
+				"description": "Conjuro con maleficio. Durante 10...40 segundos, siempre que el enemigo objetivo reciba daño frío al usar una habilidad, ese enemigo será interrumpido y tú perderás 8...3 de energía o finalizarán los Escalofríos temerosos.",
+				"concise": "Conjuro con maleficio. (10...40 segundos). Interrumpe las habilidades del enemigo objetivo si recibe daño frío. Coste de la interrupción: pierdes 8...3 de energía o este maleficio acaba."
+			},
 			"fr": {
+				"name": "Frissons de terreur",
+				"description": "Maléfice. Pendant 10...40 secondes, à chaque fois que l'ennemi subit des dégâts du froid pendant qu'il utilise une compétence, il est interrompu et soit vous perdez 8...3 points d'énergie, soit les Frissons de terreur se terminent.",
+				"concise": "Maléfice. (10...40 secondes.) Des dégâts du froid interrompent les compétences de la cible ennemie. Coût de l'interruption : vous perdez 8...3 points d'énergie ou ce maléfice prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Frissons de terreur",
 				"description": "Pendant 10...40 secondes, à chaque fois que l'ennemi subit des dégâts du froid pendant qu'il utilise une compétence, il est interrompu et soit vous perdez 10...5 points d'énergie, soit les Frissons de terreur se terminent.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Brividi di Terrore",
+				"description": "Fattura. Dura 10...40 secondo[i]; se l'obiettivo nemico subisce un danno da freddo mentre usa un'abilità, viene interrotto e tu perdi 8...3 Punto[i] Energia oppure i Brividi di Terrore terminano.",
+				"concise": "Fattura. (Secondi: 10...40) Il danno da freddo interrompe le abilità dell'obiettivo nemico. Costo dell'interruzione: perdi 8...3 Punto[i] Energia o questa fattura termina."
+			},
+			"jp": {
+				"name": "ドレッド シヴァー",
+				"description": "弱体化スペル： 10...40 秒間、ターゲットした敵がスキルの使用中にコールド ダメージを受けると、そのスキルは中断されます。ただし、プレイヤーのエネルギーが 8...3 減少するか、この効果が消失します。",
+				"concise": "弱体化スペル： (10...40 秒) ターゲットした敵は、コールド ダメージを受けるとスキルが中断します。中断コスト： プレイヤーはエネルギーが 8...3 減少するか、この効果が消失します。"
+			},
+			"kr": {
+				"name": "한기의 전율",
+				"description": "약화 마법. 대상 지정: 적. 10...40초 동안 대상은 냉기 대미지를 입을 때마다 동작을 방해받습니다. 대상이 동작을 방해받으면 자신의 에너지가 8...3 소모되거나 효과가 끝납니다.",
+				"concise": "약화 마법. (10...40초) 대상은 냉기 대미지를 입으면 스킬을 방해 받습니다. 방해 대가: 자신의 에너지가 8...3 소모되거나 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Dreszcze Grozy",
+				"description": "Klątwa (czar). Przez 10...40 sek., za każdym razem, kiedy wybrany przeciwnik otrzymuje obrażenia od zimna podczas używania umiejętności, ten przeciwnik zostaje rozproszony, a ty tracisz 8...3 pkt. energii albo Dreszcze Grozy przestają działać.",
+				"concise": "Klątwa (czar). (10...40 sek.) Obrażenia od zimna przerywają umiejętności wybranego przeciwnika. Koszt przerwania: tracisz 8...3 pkt. energii lub klątwa się kończy."
+			},
+			"ru": {
+				"name": "Shivers of Dread",
+				"description": "Заклинание-проклятье. В течение 10...40 сек каждый раз, когда выбранный противник получает урон силой холода во время использования умения, действие этого противника будет прервано, а вы потеряете 8...3 ед. энергии, иначе Shivers of Dread закончит свое действие.",
+				"concise": "Заклинание-проклятье. (10...40 сек) Урон силой холода прерывает умения выбранного противника. Цена прерывания: вы теряете 8...3 ед. энергии, иначе действие этого проклятья заканчивается."
+			},
+			"bork": {
+				"name": "Sheefers ooff Dreaed",
+				"description": "Hex Spell. Fur 10...40 secunds, vhenefer taerget fue-a is stroock fur culd daemaege-a vheele-a useeng a skeell, thaet fue-a is interroopted und yuoo luse-a 8...3 Inergy oor Sheefers ooff Dreaed inds.",
+				"concise": "Hex Spell. (10...40 secunds.) Culd daemaege-a interroopts taerget fue-a's skeells. Interroopshun cust: yuoo luse-a 8...3 Inergy oor thees hex inds."
 			}
 		}
 	}

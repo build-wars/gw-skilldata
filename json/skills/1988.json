@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Golden Fang Strike",
+				"description": "副手技。 Must follow a lead attack. If you are under the effects of an enchantment and this attack hits, target foe suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "副手技。 Inflicts Deep Wound condition (5...20 seconds) if you are enchanted. Must follow a lead attack."
+			},
+			"cht": {
+				"name": "金爪狙殺",
+				"description": "即刻攻擊： 必須接續在「引導攻擊」之後，若你擁有加持效果，目標敵人將遭受「重傷」 5...20 秒。",
+				"concise": "即刻攻擊： 必須接續在「引導攻擊」之後，若你擁有加持效果，目標敵人將遭受「重傷」 5...20 秒。"
+			},
 			"de": {
+				"name": "Goldfangstoß",
+				"description": "Begleithandangriff. Muss einem Leithandangriff folgen. Wenn Ihr verzaubert seid und dieser Angriff einen Treffer landet, leidet der Gegner 5...20 Sekunde[n] lang an einer Tiefen Wunde.",
+				"concise": "Begleithandangriff. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]), falls Ihr verzaubert seid. Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Goldfangstoß",
 				"description": "Muss einem Leithandangriff folgen. Wenn Ihr verzaubert seid und dieser Angriff einen Treffer landet, leidet der Gegner 5...20 Sekunden lang an einer Tiefen Wunde.",
 				"concise": "Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Golden Fang Strike",
+				"description": "Off-Hand Attack. Must follow a lead attack. If you are under the effects of an enchantment and this attack hits, target foe suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "Off-Hand Attack. Inflicts Deep Wound condition (5...20 seconds) if you are enchanted. Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Golden Fang Strike",
 				"description": "Must follow a lead attack. If you are under the effects of an enchantment and this attack hits, target foe suffers from a Deep Wound for 5...20 seconds.",
 				"concise": "Inflicts Deep Wound condition (5...20 seconds) if you are enchanted. <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Ataque del colmillo dorado",
+				"description": "Ataque complementario. Debe ir precedido de un ataque inicial. Si estás bajo los efectos de un encantamiento y este ataque impacta, el enemigo objetivo sufrirá una herida grave durante 5...20 segundos.",
+				"concise": "Ataque complementario. Causa herida grave (5...20 segundos) si tienes algún encantamiento. Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Attaque des crocs dorés",
+				"description": "Attaque main gauche. Doit succéder à une attaque main droite. Si vous êtes sous les effets d'un enchantement et si cette attaque réussit, la cible ennemie souffre de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Attaque main gauche. Inflige la Blessure profonde (5...20 secondes) si vous êtes enchanté[f:\"enchantée\"]. Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Attaque des crocs dorés",
 				"description": "Doit succéder à une attaque main droite. Si vous êtes sous les effets d'un enchantement et si cette attaque réussit, la cible ennemie souffre de Blessure profonde pendant 5...20 secondes.",
 				"concise": "Inflige la Blessure profonde (5...20 secondes) si vous êtes enchantée. <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Colpo della Zanna Dorata",
+				"description": "Attacco con Arma Secondaria. Deve seguire un attacco con arma primaria. Se sei sotto gli effetti di un incantesimo e questo attacco va a segno, l'obiettivo nemico soffre di Ferita Profonda per 5...20 secondo[i].",
+				"concise": "Attacco con Arma Secondaria. Condizione inflitta se sei sotto incantesimo: Ferita Profonda (5...20 secondo[i]). Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "ゴールデン ファング ストライク",
+				"description": "オフハンド アタック： このスキルは、リード アタックの次に使用します。プレイヤーに強化スペルがかけられている状態でこの攻撃が成功すると、ターゲットした敵は 5...20 秒間「重傷」状態になります。",
+				"concise": "オフハンド アタック： 強化スペルがかけられている場合、ターゲットした敵を「重傷」状態にします (5...20 秒) 。このスキルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "금빛이빨 찌르기",
+				"description": "보조 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 자신이 강화 마법에 걸려 있는 상태에서 이 공격이 성공하면, 적에게 5...20초 동안 중상을 입힙니다.",
+				"concise": "보조 공격. 자신이 강화 마법에 걸려 있으면, 중상을 입힙니다.(5...20초) 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Cios Złotego Kła",
+				"description": "Atak drugą ręką. Musi nastąpić po ataku poprzedzającym. Jeśli jesteś pod działaniem zaklęcia i ten atak trafi, wybrany przeciwnik na 5...20 sek. otrzyma głęboką ranę.",
+				"concise": "Atak drugą ręką. Wywołuje przypadłość głęboka rana (5...20 sek.), jeżeli jesteś pod działaniem zaklęcia. Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Golden Fang Strike",
+				"description": "Атака второй рукой. Должен следовать за ведущей атакой. Если вы находитесь под воздействием каких-либо чар, и атака достигает цели, выбранный противник получает глубокую рану на 5...20 сек.",
+				"concise": "Атака второй рукой. Вызывает глубокую рану (5...20 сек), если на вас наложены чары. Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Guldee Fung Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost fulloo a leaed aettaeck. Iff yuoo aere-a under zee iffffects ooff un inchuntment und thees aettaeck heets, taerget fue-a sooffffers frum a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Ooffff-Hund Aettaeck. Inffleects Deep Vuoond cundeeshun (5...20 secunds) iff yuoo aere-a inchunted. Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

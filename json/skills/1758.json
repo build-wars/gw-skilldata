@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "捕猎之爪",
+				"description": "Flash Enchantment Spell。 在5...20秒之内，你对移动中的敌人发动的攻击将附带「致残」效果，持续2...9秒。",
+				"concise": "Flash Enchantment Spell。 在5...20秒之内，你对移动中的敌人发动的攻击将附带「致残」效果，持续2...9秒。"
+			},
+			"cht": {
+				"name": "獵捕者之爪",
+				"description": "即刻加持魔法： 持續 5...20 秒，擊中移動中的敵人，將造成殘廢 2...9 秒，施展此加持時，消除自身殘廢病症以及額外一項病症。",
+				"concise": "即刻加持魔法： 持續 5...20 秒，擊中移動中的敵人，將造成殘廢 2...9 秒，施展此加持時，消除自身殘廢病症以及額外一項病症。"
+			},
 			"de": {
+				"name": "Griff des Läufers",
+				"description": "Blitzverzauberung. Während der nächsten 5...20 Sekunde[n] fügen Angriffe gegen Feinde, die sich bewegen, dem Feind 2...9 Sekunde[n] \"Verkrüppelung\" zu. Wenn Ihr diese Verzauberung wirkt, werden Verkrüppelung und 1 weiterer Zustand von Euch entfernt. Diese Verzauberung endet, wenn Ihr 1...3 Mal Verkrüppelung zugefügt habt.",
+				"concise": "Blitzverzauberung. (5...20 Sekunde[n].) Angriffe auf sich bewegende Feinde fügen zusätzlich \"Verkrüppelung\" zu. Anfangswirkung: Ihr verliert \"Verkrüppelung\" und 1 weiteren Zustand. Endet, wenn Ihr 1...3 Mal Verkrüppelung zugefügt habt."
+			},
+			"de-guildwiki": {
 				"name": "Griff des Läufers",
 				"description": "Während der nächsten 5...20 Sekunden führen Angriffe gegen Feinde, die sich bewegen, 2...9 Sekunden lang zu Verkrüppelung. Wenn Ihr diese Verzauberung wirkt, werden Verkrüppelung und 1 weiterer Zustand von Euch entfernt. Diese Verzauberung endet, wenn Ihr 1...3 Mal Verküppelung zugefügt habt.",
 				"concise": "(5...20 Sekunden.) Angriffe auf sich bewegende Feinde fügen zusätzlich \"Verkrüppelung\" (2...9 Sekunden) zu. Anfangswirkung: Ihr verliert \"Verkrüppelung\" und 1 weiteren Zustand. Endet, wenn Ihr 1...3 Mal Verküppelung zugefügt habt."
 			},
 			"en": {
 				"name": "Harrier's Grasp",
+				"description": "Flash Enchantment Spell. For 5...20 seconds, attacks against moving foes also Cripple those foes for 2...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3 times.",
+				"concise": "Flash Enchantment Spell. (5...20 seconds.) Attacks on moving foes also Cripple them. Initial Effect: you lose Cripple and 1 other condition. Ends after applying cripple 1...3 times."
+			},
+			"en-gww": {
+				"name": "Harrier's Grasp",
 				"description": "For 5...20 seconds, attacks against moving foes also Cripple that foe for 2...9 seconds. When you cast this enchantment, you are relieved of Cripple and 1 other condition. This enchantment ends after you apply Cripple 1...3 times. <sic/>.",
 				"concise": "(5...20 seconds.) Attacks on moving foes also Cripple them. <sic/> Initial Effect: you lose Cripple and 1 other condition. <gray>Ends after you apply Cripple 1...3 times. <sic/> </gray>"
 			},
+			"es": {
+				"name": "Garra del hostigador",
+				"description": "Conjuro con encantamiento de destello. Durante 5...20 segundos, los ataques contra los enemigos en movimiento también los dejarán lisiados durante 2...9 segundos. Cuando lanzas este encantamiento, pierdes la lisiadura y otra condición más. Este encantamiento termina después de causar lisiadura 1...3 veces.",
+				"concise": "Conjuro con encantamiento de destello. (5...20 segundos). Los ataques a los enemigos en movimiento los dejan lisiados. Efecto inicial: pierdes la lisiadura y otra condición más. Termina después de causar lisiadura 1...3 veces."
+			},
 			"fr": {
+				"name": "Empoigne d'harrier",
+				"description": "Enchantement instantané. Pendant 5...20 secondes, les attaques lancées contre des ennemis en mouvement causent l'Infirmité chez ces ennemis pendant 2...9 secondes. Lorsque vous lancez cet enchantement, vous êtes soulagé[f:\"soulagée\"] de l'Infirmité et d'une autre condition. Cet enchantement prend fin après 1...3 applications d'Infirmité.",
+				"concise": "Enchantement instantané. (5...20 secondes.) Les attaques contre les ennemis en mouvement les font également souffrir d'Infirmité. Effet initial : vous perdez Infirmité et une autre condition. Prend fin après 1...3 applications d'Infirmité."
+			},
+			"fr-gwiki": {
 				"name": "Empoigne d'harrier",
 				"description": "Pendant 5...25 secondes, les attaques lancées contre des ennemis en mouvement causent l'Infirmité chez l'ennemi pendant 3...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Stretta del Predatore",
+				"description": "Incantesimo Lampo. Dura 5...20 secondi; gli attacchi contro i nemici in movimento provocano anche Storpiatura per 2...9 secondi. Quando lanci questo incantesimo, vieni curato[f:\"curata\"] da Storpiatura e 1 altra condizione. Questo incantesimo termina dopo che avrai utilizzato 1...3 volte Storpiatura.",
+				"concise": "Incantesimo Lampo. (Secondi: 5...20.) Gli attacchi ai nemici in movimento li rendono anche storpi. Effetto iniziale: vieni curato[f:\"curata\"] da Storpiatura e 1 altra condizione. Termina dopo che avrai utilizzato 1...3 volte Storpiatura."
+			},
+			"jp": {
+				"name": "ハリアー グラスプ",
+				"description": "フラッシュ強化スペル： 5...20 秒間、移動中の敵に攻撃が成功すると、その敵を 2...9 秒間「不自由」状態にします。この強化スペルを詠唱するとき、「不自由」状態ともう1つ、「状態異常」が解除されます。プレイヤーに「不自由」状態が 1...3 回適用されると、この効果は消失します。",
+				"concise": "フラッシュ強化スペル： (5...20 秒) 移動中の敵を攻撃すると「不自由」状態にします。発動効果： 「不自由」状態ともう1つ、かけられている「状態異常」が解除されます。「不自由」状態が 1...3 回適用されると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "약탈자의 속박",
+				"description": "순간 시전 강화 마법. 대상 지정: 적. 5...20초 동안 이동 중인 적에게 공격이 성공하면 2...9초 동안 다리 부상 상태로 만듭니다. 이 강화 마법을 시전할 때 자신에게 걸린 다리 부상과 다른 상태이상 하나가 무효화됩니다. 적들에게 1...3번 다리 부상을 입히면 효과가 끝납니다.",
+				"concise": "순간 시전 강화 마법. (5...20초) 이동 중인 적에게 다리 부상을 입힙니다.(2...9초) 초기 효과: 자신의 다리부상과 다른 상태이상 하나를 치료합니다. 다리부상을 1...3번 입히면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Uścisk Grabieżcy",
+				"description": "Zaklęcie błysku (czar). Przez 5...20 sek., ataki przeciwko poruszającym się wrogom dodatkowo okulawiają ich na 2...9 sek. Kiedy rzucisz to zaklęcie, przestaje działać na ciebie okulawienie i 1 inna przypadłość. Zaklęcie to kończy się kiedy okulawisz przeciwnika 1...3 razy.",
+				"concise": "Zaklęcie błysku (czar). (5...20 sek.) Ataki na poruszających się wrogów powodują ich okulawienie. Efekt początkowy: Przestaje na ciebie działać okulawienie i 1 inna przypadłość. Kończy się 1...3-krotnym okulawieniu wrogów."
+			},
+			"ru": {
+				"name": "Harrier's Grasp",
+				"description": "Мгновенное заклинание-чары. В течение 5...20 сек атаки, направленные на двигающихся противников, будут также делать их хромыми на 2...9 сек. Когда вы активируете эти чары, вы освобождаетесь от хромоты и еще 1 состояния. Действие этих чар заканчивается после того, как вы наложете хромоту 1...3 раз.",
+				"concise": "Мгновенное заклинание-чары. (5...20 сек) Ваши атаки также вызывают хромоту (2...9 сек) у двигающихся противников. Начальный эффект: с вас снимается хромота и еще 1 состояние. Заканчивается после того, как вы наложете хромоту 1...3 раз."
+			},
+			"bork": {
+				"name": "Haerreeer's Graesp",
+				"description": "Flaesh Inchuntment Spell. Fur 5...20 secunds, aettaecks aegaeeenst mufeeng fues aelsu Creepple-a thuse-a fues fur 2...9 secunds. Vhee yuoo caest thees inchuntment, yuoo aere-a releeefed ooff Creepple-a und 1 oozeer cundeeshun. Thees inchuntment inds aeffter yuoo aepply Creepple-a 1...3 teemes.",
+				"concise": "Flaesh Inchuntment Spell. (5...20 secunds.) Aettaecks oon mufeeng fues aelsu Creepple-a zeem. Ineeteeael Iffffect: yuoo luse-a Creepple-a und 1 oozeer cundeeshun. Inds aeffter aepplyeeng creepple-a 1...3 teemes."
 			}
 		}
 	}

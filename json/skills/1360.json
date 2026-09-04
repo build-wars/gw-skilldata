@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暴怒印记",
+				"description": "负面魔法。 在5秒之内，当你或友方击中目标敌人，命中者将获得0...2次攻击所能累积的怒气。",
+				"concise": "负面魔法。 在5秒之内，当你或友方击中目标敌人，命中者将获得0...2次攻击所能累积的怒气。"
+			},
+			"cht": {
+				"name": "狂暴印記",
+				"description": "降咒魔法： 持續 5 秒，盟友擊中被降咒的目標敵人獲得 0...2 次怒氣值，結束時造成碎甲 1...15 秒。",
+				"concise": "降咒魔法： 持續 5 秒，盟友擊中被降咒的目標敵人獲得 0...2 次怒氣值，結束時造成碎甲 1...15 秒。"
+			},
 			"de": {
+				"name": "Zeichen der Wut",
+				"description": "Verhexung. 5 Sekunde[n] lang erhalten Verbündete, die den Gegner treffen, 0...2 Adrenalinstöße. Wenn diese Verhexung endet, leidet der Gegner 1...15 Sekunde[n] lang an Beschädigter Rüstung.",
+				"concise": "Verhexung. (5 Sekunde[n].) Verbündete, die den Gegner treffen, erhalten 0...2 Adrenalinstöße. Wirkung am Ende: Verursacht Beschädigte Rüstung (1...15 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Zeichen der Wut",
 				"description": "Wann immer der Gegner in den nächsten 5 Sekunden von einem Verbündeten (bzw. Euch selbst) getroffen wird, erhält dieser Verbündete (bzw. Ihr selbst) 0...2 Adrenalinstöße. Wenn diese Verhexung endet, leidet der Gegner 1...15 Sekunden lang an Beschädigter Rüstung.",
 				"concise": "(5 Sekunden.) Wann immer der Gegner von einem Verbündeten (bzw. Euch selbst) getroffen wird, erhält der Verbündete (bzw. Ihr selbst) 0...2 Adrenalinstöße. Wirkung am Ende: Verursacht Beschädigte Rüstung (1...15 Sekunden)."
 			},
 			"en": {
 				"name": "Mark of Fury",
+				"description": "Hex Spell. For 5 seconds, allies hitting target foe gain 0...2 strikes of adrenaline. When this hex ends, that foe suffers from Cracked Armor for 1...15 seconds.",
+				"concise": "Hex Spell. (5 seconds.) Allies hitting target foe gain 0...2 strikes of adrenaline. End effect: inflicts Cracked Armor (1...15 seconds)."
+			},
+			"en-gww": {
+				"name": "Mark of Fury",
 				"description": "For 5 seconds, allies hitting target foe gain 0...2 strike[s] of adrenaline. When this hex ends, that foe suffers from Cracked Armor for 1...15 second[s].",
 				"concise": "(5 seconds.) Allies hitting target foe gain 0...2 strike[s] of adrenaline. End effect: inflicts Cracked Armor (1...15 second[s].)"
 			},
+			"es": {
+				"name": "Marca de furia",
+				"description": "Conjuro con maleficio. Durante 5 segundos, los aliados que golpeen al enemigo objetivo ganan 0...2 golpes de adrenalina. Cuando este maleficio acabe, el enemigo tendrá la armadura rota durante 1...15 segundos.",
+				"concise": "Conjuro con maleficio. (5 segundos). Los aliados que golpeen al enemigo ganan 0...2 golpes de adrenalina. Efecto final: causa armadura rota (1...15 segundos)."
+			},
 			"fr": {
+				"name": "Marque de Furie",
+				"description": "Maléfice. Pendant 5 secondes, les alliés frappant l'ennemi visé gagne 0...2 décharges d'adrénaline. Lorsque ce maléfice prend fin, cet ennemi souffre d'Armure brisée pendant 1...15 secondes.",
+				"concise": "Maléfice. (5 secondes.) Les alliés gagnent 0...2 décharges d'adrénaline en touchant la cible ennemie. Effet final : inflige Armure brisée (1...15 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Marque de Furie",
 				"description": "Pendant 5 secondes, tout allié frappant l'ennemi visé gagne 0...2 décharges d'adrénaline. Effet final : inflige Armure brisée pendant 1...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Segno della Furia",
+				"description": "Fattura. (Secondi: 5) Qualsiasi alleato colpisca l'obiettivo nemico ottiene 0...2 dose[i] di adrenalina. Al termine della fattura, tale nemico subisce Armatura Incrinata per 1...15 secondo[i].",
+				"concise": "Fattura. (Secondo[i]: 5). Tu o qualsiasi alleato ottenete 0...2 dose[i] di adrenalina. Effetto al termine: Condizione inflitta: Armatura Incrinata (1...15 secondo[i])."
+			},
+			"jp": {
+				"name": "フューリー マーク",
+				"description": "弱体化スペル： 5 秒間、ターゲットした敵を攻撃した味方は 0...2 発のアドレナリンを獲得します。この効果が消失すると、その敵は 1...15 秒間「防具破損」状態になります。",
+				"concise": "弱体化スペル： (5 秒) ターゲットした敵を攻撃する味方はアドレナリンを 0...2 発獲得します。終了効果：「防具破損」状態にします (1...15 秒) 。"
+			},
+			"kr": {
+				"name": "분노의 표식",
+				"description": "약화 마법. 대상 지정: 적. 5초 동안 대상에 대한 공격을 성공한 아군은 0...2번 공격에 성공한 만큼의 아드레날린을 얻습니다. 효과가 끝나면 대상은 1...15초 동안 방어 손상 상태가 됩니다.",
+				"concise": "약화 마법. (5초) 대상에 대한 공격이 성공한 아군은 0...2번 공격에 성공한 만큼의 아드레날린을 얻습니다. 종료 효과: 방어 손상을 입힙니다.(1...15초)"
+			},
+			"pl": {
+				"name": "Piętno Furii",
+				"description": "Klątwa (czar). Przez 5 sek., sojusznicy trafiający we wroga otrzymują dawki adrenaliny (0...2). Kiedy klątwa dobiegnie końca, trafiony przeciwnik znajdzie się na 1...15 sek. pod działaniem Pękniętej Zbroi.",
+				"concise": "Klątwa (czar). (5 sek.) Sojusznicy trafiający wybranego przeciwnika otrzymują dawki adrenaliny w liczbie 0...2. Efekt końcowy: wywołuje pęknięcie zbroi (1...15 sek.)"
+			},
+			"ru": {
+				"name": "Mark of Fury",
+				"description": "Заклинание-проклятье. В течение 5 сек союзники, поражающие выбранного противника, получают 0...2 ед. адреналина. Когда действие этого проклятья заканчивается, у этого противника будут треснувшие доспехи в течение 1...15 сек.",
+				"concise": "Заклинание-проклятье. (5 сек) Союзники, поражающие выбранного противника, получают 0...2 ед. адреналина. Эффект окончания: дает треснувшие доспехи (1...15 сек)."
+			},
+			"bork": {
+				"name": "Maerk ooff Foory",
+				"description": "Hex Spell. Fur 5 secunds, aelleees heetteeng taerget fue-a gaeeen 0...2 streeke-as ooff aedrenaeleene-a. Vhee thees hex inds, thaet fue-a sooffffers frum Craecked Aermur fur 1...15 secunds.",
+				"concise": "Hex Spell. (5 secunds.) Aelleees heetteeng taerget fue-a gaeeen 0...2 streeke-as ooff aedrenaeleene-a. Ind iffffect: inffleects Craecked Aermur (1...15 secunds)."
 			}
 		}
 	}

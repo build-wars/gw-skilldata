@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "纠缠",
+				"description": "咒文。 打断目标敌人的动作。如果「纹章」类技能被打断，则此敌人的所有「纹章」类技能在 8秒 内无法使用。",
+				"concise": "咒文。 打断目标敌人的动作。如果「纹章」类技能被打断，则此敌人的所有「纹章」类技能在 8秒 内无法使用。"
+			},
+			"cht": {
+				"name": "糾纏",
+				"description": "咒文魔法： 中斷目標使用的技能，同時範圍內所有敵人的相同技能都無法使用 5...12 秒。",
+				"concise": "咒文魔法： 中斷目標使用的技能，同時範圍內所有敵人的相同技能都無法使用 5...12 秒。"
+			},
 			"de": {
+				"name": "Erschweren",
+				"description": "Zauber. Falls der Gegner eine Fertigkeit aktiviert hat, wird diese unterbrochen und zusätzlich bei diesem und allen Feinden im Bereich 5...12 Sekunde[n] lang deaktiviert.",
+				"concise": "Zauber. Unterbricht eine Fertigkeit. Unterbrechungswirkung: Deaktiviert unterbrochene Fertigkeit (+5...12 Sekunde[n]) beim Gegner und allen Feinden im Bereich."
+			},
+			"de-guildwiki": {
 				"name": "Erschweren",
 				"description": "Falls der Gegner eine Fertigkeit aktiviert hat, wird diese unterbrochen und zusätzlich bei diesem und allen Feinden im Bereich 5...12 Sekunden lang deaktiviert.",
 				"concise": "Unterbricht eine Fertigkeit. Unterbrechungswirkung: Deaktiviert unterbrochene Fertigkeit (+5...12 Sekunden) beim Gegner und allen Feinden im Bereich."
 			},
 			"en": {
 				"name": "Complicate",
+				"description": "Spell. If target foe is using a skill, that skill is interrupted and disabled for target foe and all foes in the area for an additional 5...12 seconds.",
+				"concise": "Spell. Interrupts a skill. Interruption effect: disables interrupted skill (+5...12 seconds) for target foe and all foes in the area."
+			},
+			"en-gww": {
+				"name": "Complicate",
 				"description": "If target foe is using a skill, that skill is interrupted and disabled for target foe and all foes in the area for an additional 5...12 seconds.",
 				"concise": "Interrupt a skill. Interruption effect: disables interrupted skill (+5...12 seconds) for target foe and all foes in the area."
 			},
+			"es": {
+				"name": "Complicación",
+				"description": "Conjuro. Si el enemigo objetivo está utilizando una habilidad, la interrumpirás y se desactivará durante 5...12 segundos más para el enemigo objetivo y los enemigos cercanos a él.",
+				"concise": "Conjuro. Interrumpe una habilidad. Efecto de interrupción: desactiva la habilidad interrumpida (+5...12 segundos) para el enemigo objetivo y los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Complication",
+				"description": "Sort. Si l'ennemi visé prépare une compétence, elle est interrompue et désactivée pour cet ennemi et tous les ennemis de la zone pendant 5...12 secondes supplémentaires.",
+				"concise": "Sort. Interrompt une compétence. Effet de l'interruption : désactive la compétence interrompue (+5...12 secondes) pour l'ennemi visé et tous les ennemis de la zone."
+			},
+			"fr-gwiki": {
 				"name": "Complication",
 				"description": "Si l'ennemi visé prépare une compétence, elle est interrompue et désactivée pour cet ennemi et tous les ennemis de la zone pendant 5...12 secondes supplémentaires.",
 				"concise": "Interrompt une compétence. Effet de l'interruption : désactive la compétence interrompue (+5...12 secondes) pour l'ennemi visé et tous les ennemis de la zone."
+			},
+			"it": {
+				"name": "Complicazione",
+				"description": "Magia. Se l'obiettivo nemico ha attivato un'abilità, questa viene interrotta e disattivata per 5...12 secondi in più per l'obiettivo nemico e tutti i nemici nei dintorni.",
+				"concise": "Magia. Interrompe un'abilità. Effetto dell'interruzione: disattiva l'abilità interrotta (+5...12 secondi) per l'obiettivo nemico e tutti i nemici nei dintorni."
+			},
+			"jp": {
+				"name": "コンプリケイト",
+				"description": "スペル： ターゲットした敵がスキルを使用中の場合、そのスキルを中断し、ターゲットおよびエリア内にいるすべての敵が中断したスキルを使用することができない時間が 5...12 秒増加します。",
+				"concise": "スペル： スキルを中断します。中断効果： ターゲットした敵およびエリア内にいるすべての敵は、中断したスキルの再使用時間が増加します (5...12 秒)。"
+			},
+			"kr": {
+				"name": "혼란 가중",
+				"description": "마법. 대상 지정: 적. 대상이 스킬을 시전 중이면 방해 받고, 대상과 일정 범위 내에 있는 모든 적은 5...12초 동안 그 스킬을 사용할 수 없습니다.",
+				"concise": "마법. 스킬을 방해합니다. 방해 효과: 대상과 일정 범위 내에 있는 모든 적은 방해 받은 스킬을 사용할 수 없습니다.(5...12초)"
+			},
+			"pl": {
+				"name": "Komplikacja",
+				"description": "Czar. Jeśli wybrany wróg używa jakiejś umiejętności, to jej działanie zostaje przerwane, zaś sama umiejętność staje się niedostępna na dodatkowe 5...12 sek. dla tego wroga i wszystkich przeciwników w okolicy.",
+				"concise": "Czar. Przerywa umiejętność. Efekt przerwania: wyłącza przerwaną umiejętność (+25...12 sek.) u wybranego wroga i wszystkich przeciwników na danym obszarze."
+			},
+			"ru": {
+				"name": "Complicate",
+				"description": "Заклинание. Если выбранный противник использовал умение, это умение будет прервано и будет недоступно дополнительно в течение 5...12 сек для выбранного противника и всех противников в зоне досягаемости.",
+				"concise": "Заклинание. Прерывает умение. Эффект прерывания: прерванное умение будет недоступно (дополнительно на 5...12 сек) для выбранного противника и всех противников в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Cumpleecaete-a",
+				"description": "Spell. Iff taerget fue-a is useeng a skeell, thaet skeell is interroopted und deesaebled fur taerget fue-a und aell fues in zee aerea fur un aeddeeshunael 5...12 secunds.",
+				"concise": "Spell. Interroopts a skeell. Interroopshun iffffect: deesaebles interroopted skeell (+5...12 secunds) fur taerget fue-a und aell fues in zee aerea."
 			}
 		}
 	}

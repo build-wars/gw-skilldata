@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 5,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "斩脚",
+				"description": "精英剑术。 命中时，使目标敌人遭受「致残」症状5...15秒，附带「流血」效果10...25秒。",
+				"concise": "精英剑术。 命中时，使目标敌人遭受「致残」症状10...25秒。"
+			},
+			"cht": {
+				"name": "致殘斬擊",
+				"description": "精英劍術攻擊技能： 命中時使目標敵人遭受「殘廢」病症 5...15 秒及「流血」病症 10...25 秒。",
+				"concise": "精英劍術攻擊技能： 命中時使目標敵人遭受「殘廢」病症 10...25 秒。"
+			},
 			"de": {
+				"name": "Verkrüppelnder Hieb",
+				"description": "Elite-Schwertangriff. Wenn dieser Angriff erfolgreich ist, wird der Gegner 5...15 Sekunde[n] lang verkrüppelt und leidet 10...25 Sekunde[n] lang an einer Blutung.",
+				"concise": "Elite-Schwertangriff. Verursacht Zustand Verkrüppelung (5...15 Sekunde[n]) und Zustand Blutung (10...25 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelnder Hieb",
 				"description": "Wenn dieser Angriff erfolgreich ist, wird der Gegner 5...15 Sekunden lang verkrüppelt und leidet 10...25 Sekunden lang an einer Blutung.",
 				"concise": "Verursacht Zustand Verkrüppelung (5...15 Sekunden) und Zustand Blutung (10...25 Sekunden)."
 			},
 			"en": {
 				"name": "Crippling Slash",
+				"description": "Elite Sword Attack. If this attack hits, target foe is Crippled for 5...15 seconds and begins Bleeding for 10...25 seconds.",
+				"concise": "Elite Sword Attack. Inflicts Crippled condition (5...15 seconds) and Bleeding condition (10...25 seconds)."
+			},
+			"en-gww": {
+				"name": "Crippling Slash",
 				"description": "If this attack hits, target foe is Crippled for 5...15 seconds and begins Bleeding for 10...25 seconds.",
 				"concise": "Inflicts Crippled condition (5...15 seconds) and Bleeding condition (10...25 seconds)."
 			},
+			"es": {
+				"name": "Tajo lisiador",
+				"description": "Ataque con espada de élite. Si este ataque impacta, el enemigo objetivo quedará lisiado durante 5...15 segundos y sufrirá una hemorragia durante 10...25 segundos.",
+				"concise": "Ataque con espada de élite. Causa lisiadura (5...15 segundos) y hemorragia (10...25 segundos)."
+			},
 			"fr": {
+				"name": "Taillade incapacitante",
+				"description": "Attaque à l'épée d'élite. Si cette attaque réussit, l'ennemi ciblé souffre d'Infirmité pendant 5...15 secondes et commence à saigner pendant 10...25 secondes.",
+				"concise": "Attaque à l'épée d'élite. Inflige l'Infirmité (5...15 secondes) et le Saignement (10...25 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Taillade incapacitante",
 				"description": "Si cette attaque réussit, l'ennemi ciblé souffre d'Infirmité pendant 5...15 secondes et commence à saigner pendant 10...25 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Azzoppante",
+				"description": "Attacco d'Élite con Spada. Se questo attacco va a segno, l'obiettivo nemico diventa storpio per 5...15 secondo[i] ed inizia a sanguinare per 10...25 secondo[i].",
+				"concise": "Attacco d'Élite con Spada. Condizioni inflitte: Storpiatura (5...15 secondo[i]) ed Emorragia (10...25 secondo[i])."
+			},
+			"jp": {
+				"name": "クリップル スラッシュ",
+				"description": "エリート ソード アタック： この攻撃が成功すると、ターゲットした敵は 5...15 秒間「不自由」状態になり、10...25秒間「出血」状態になります。",
+				"concise": "エリート ソード アタック： 「不自由」状態 (5...15 秒) および「出血」状態 (10...25 秒) にします。"
+			},
+			"kr": {
+				"name": "둔화의 베기",
+				"description": "엘리트 칼 공격. 대상 지정: 적. 공격이 성공하면 대상은 5...15초 동안의 다리 부상과 10...25초 동안의 출혈 상태가 됩니다.",
+				"concise": "엘리트 칼 공격. 다리 부상을 입히고(5...15초), 출혈을 일으키게 합니다.(10...25초)"
+			},
+			"pl": {
+				"name": "Okulawiające Cięcie",
+				"description": "Elitarny atak mieczem. Jeśli atak trafi, twój cel zostanie okulawiony na 5...15 sek. i zaczyna krwawić przez 10...25 sek.",
+				"concise": "Elitarny atak mieczem. Wywołuje przypadłości okulawienie (5...15 sek.) i przypadłość krwawienie (10...25 sek.)."
+			},
+			"ru": {
+				"name": "Crippling Slash",
+				"description": "Элитная атака мечом. Если эта атака попадает в цель, выбранный противник будет хромать в течение 5...15 сек и кровоточить в течение 10...25 сек.",
+				"concise": "Элитная атака мечом. Вызывает хромоту (5...15 сек) и кровотечение (10...25 сек)."
+			},
+			"bork": {
+				"name": "Creeppleeng Slaesh",
+				"description": "Ileete-a Svurd Aettaeck. Iff thees aettaeck heets, taerget fue-a is Creeppled fur 5...15 secunds und begeens Bleedeeng fur 10...25 secunds.",
+				"concise": "Ileete-a Svurd Aettaeck. Inffleects Creeppled cundeeshun (5...15 secunds) und Bleedeeng cundeeshun (10...25 secunds)."
 			}
 		}
 	}

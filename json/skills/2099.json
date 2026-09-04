@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "命运之矛",
+				"description": "矛术。 对敌人造成30...40点额外伤害。如果命中遭受「症状」的敌人，你将获得等同于3...6次武器攻击所得的怒气值。",
+				"concise": "矛术。 对敌人造成30...40点额外伤害。如果命中遭受「症状」的敌人，你将获得等同于3...6次武器攻击所得的怒气值。"
+			},
+			"cht": {
+				"name": "命運之矛",
+				"description": "矛術攻擊技能： 此攻擊造成 30...40 額外傷害。命中時若該目標敵人正遭受「病症」，你則獲得等同於 3...6 次攻擊累積的怒氣值。",
+				"concise": "矛術攻擊技能： 此攻擊造成 30...40 額外傷害。命中時若該目標敵人正遭受「病症」，你則獲得等同於 3...6 次攻擊累積的怒氣值。"
+			},
 			"de": {
+				"name": "Speer der Wut",
+				"description": "Speerangriff. Dieser Angriff fügt +30...40 Punkt[e] Schaden zu. Wenn er einen Feind trifft, der an einem Zustand leidet, erhaltet Ihr 3...6 Adrenalinstöße.",
+				"concise": "Speerangriff. Richtet +30...40 Punkt[e] Schaden an. Ihr erhaltet 3...6 Adrenalinstöße, falls Ihr einen Feind mit einem Zustand trefft."
+			},
+			"de-guildwiki": {
 				"name": "Speer der Wut (Kurzick)",
 				"description": "Der Angriff fügt +30...40 Punkte Schaden zu. Wenn er einen Feind trifft, der an einem Zustand leidet, erhaltet Ihr 3...6 Adrenalinstöße.",
 				"concise": "Richtet +30...40 Punkte Schaden an. Ihr erhaltet 3...6 Adrenalinstöße, falls Ihr einen Feind mit einem Zustand trefft."
 			},
 			"en": {
+				"name": "Spear of Fury",
+				"description": "Spear Attack. This attack deals +30...40 damage. If this attack hits a foe suffering from a condition, you gain 3...6 strikes of adrenaline.",
+				"concise": "Spear Attack. Deals +30...40 damage. Gain 3...6 strikes of adrenaline if you hit a foe with a condition."
+			},
+			"en-gww": {
 				"name": "Spear of Fury (Kurzick)",
 				"description": "This attack deals +30...40 damage. If this attack hits a foe suffering from a condition, you gain 3...6 strikes of adrenaline.",
 				"concise": "Deals +30...40 damage. Gain 3...6 strikes of adrenaline if you hit a foe with a condition."
 			},
+			"es": {
+				"name": "Lanza de furia",
+				"description": "Ataque con lanza. Este ataque hace +30...40 de daño. Si impacta a un enemigo padeciendo alguna condición, ganarás 3...6 de adrenalina.",
+				"concise": "Ataque con lanza. Hace +30...40 de daño. Ganas 3...6 golpes de adrenalina si golpeas a algún enemigo con condición."
+			},
 			"fr": {
+				"name": "Javelot de furie",
+				"description": "Attaque au javelot. Cette attaque inflige +30...40 points de dégâts. Si cette attaque touche un ennemi souffrant d'une condition, vous bénéficiez de 3...6 décharges d'adrénaline.",
+				"concise": "Attaque au javelot. Inflige +30...40 points de dégâts. Vous gagnez 3...6 décharges d'adrénaline si vous frappez un ennemi affecté par une condition."
+			},
+			"fr-gwiki": {
 				"name": "Javelot de furie (Kurzick)",
 				"description": "Cette attaque inflige +30...40 points de dégâts. Si cette attaque touche un ennemi souffrant d'une condition, vous bénéficiez de 3...6 décharges d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancia della Furia",
+				"description": "Attacco con Lancia. Questo attacco infligge +30...40 danno[i]; se colpisce un nemico affetto da una condizione ottieni 3...6 dose[i] di adrenalina.",
+				"concise": "Attacco con Lancia. Danni inferti: +30...40. Adrenalina conseguita se infliggi una condizione ad un nemico: 3...6."
+			},
+			"jp": {
+				"name": "フューリー スピア",
+				"description": "スピア アタック： 30...40 の追加ダメージを与えます。「状態異常」がかけられている敵に攻撃が成功すると、アドレナリンを 3...6 発獲得します。",
+				"concise": "スピア アタック： 30...40 の追加ダメージを与えます。「状態異常」がかけられている敵に攻撃が成功すると、アドレナリンを 3...6 発獲得します。"
+			},
+			"kr": {
+				"name": "분노의 창",
+				"description": "창 공격. 30...40의 대미지를 추가로 줍니다. 상태이상에 걸린 적에게 공격이 성공하면 3...6번 공격한 만큼의 아드레날린을 얻습니다.",
+				"concise": "창 공격. 30...40의 대미지를 추가로 줍니다. 상태이상에 걸린 적에게 공격이 성공하면 3...6번 공격한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Włócznia Furii",
+				"description": "Atak włócznią. Atak zadaje +30...40 pkt. obrażeń. Jeżeli trafi przeciwnika pod wpływem przypadłości, otrzymujesz dawki adrenaliny w liczbie 3...6.",
+				"concise": "Atak włócznią. Zadaje +30...40 pkt. obrażeń. Otrzymujesz adrenalinę w liczbie dawek: 3...6, jeżeli trafisz przeciwnika z przypadłością."
+			},
+			"ru": {
+				"name": "Spear of Fury",
+				"description": "Атака копьем. Эта атака наносит дополнительно 30...40 ед. урона. Если она попадает в противника, находящегося под воздействием какого-либо состояния, вы получаете 3...6 ед. адреналина.",
+				"concise": "Атака копьем. Наносит дополнительно 30...40 ед. урона. Вы получаете 3...6 ед. адреналина, если вы нанесли удар противнику, находящегося под действием состояния."
+			},
+			"bork": {
+				"name": "Speaer ooff Foory",
+				"description": "Speaer Aettaeck. Thees aettaeck deaels +30...40 daemaege-a. Iff thees aettaeck heets a fue-a sooffffereeng frum a cundeeshun, yuoo gaeeen 3...6 streeke-as ooff aedrenaeleene-a.",
+				"concise": "Speaer Aettaeck. Deaels +30...40 daemaege-a. Gaeeen 3...6 streeke-as ooff aedrenaeleene-a iff yuoo heet a fue-a veet a cundeeshun."
 			}
 		}
 	}

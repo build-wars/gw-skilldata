@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵光之躯",
+				"description": "精英武咒。 在10秒之内，为友方目标每秒回复5...25点生命值。如果友方目标位于缚灵的音波范围之内，将每秒额外获得5...25点生命值。",
+				"concise": "精英武咒。 在10秒之内，为友方目标每秒回复5...25点生命值。如果友方目标位于缚灵的音波范围之内，将额外获得5...25点生命值。"
+			},
+			"cht": {
+				"name": "靈光武裝",
+				"description": "精英武裝魔法： 持續 10 秒，使目標盟友每秒獲得 5...25 體力。若該盟友的音量所及範圍內有「靈」存在，則其每秒額外獲得 5...25 體力。",
+				"concise": "精英武裝魔法： 持續 10 秒，使目標盟友每秒獲得 5...25 體力。若該盟友的音量所及範圍內有「靈」存在，則其每秒額外獲得 5...25 體力。"
+			},
 			"de": {
+				"name": "Geisterlichtwaffe",
+				"description": "Elite-Waffenzauber. Während der nächsten 10 Sekunde[n] erhält der Verbündete (bzw. Ihr selbst) pro Sekunde 5...25 Lebenspunkt[e] sowie zusätzlich 5...25 Lebenspunkt[e] pro Sekunde, wenn dieser Verbündete sich in Hörweite eines Geistes befindet.",
+				"concise": "Elite-Waffenzauber. (10 Sekunde[n].) Der Verbündete erhält 5...25 Lebenspunkt[e] pro Sekunde. 5...25 weitere Lebenspunkte in Hörweite eines Geistes."
+			},
+			"de-guildwiki": {
 				"name": "Geisterlichtwaffe",
 				"description": "Während der nächsten 10 Sekunden erhält der Verbündete (bzw. Ihr selbst) pro Sekunde 5...25 Lebenspunkte sowie zusätzlich 5...25 Lebenspunkte pro Sekunde, wenn dieser Verbündete sich in Hörweite eines Geistes befindet.",
 				"concise": "10 Sekunden: Heilt jede Sekunde um 5...25 Lebenspunkte. In Hörweite eines Geistes erhöht sich die Heilung um 5...25 Lebenspunkte pro Sekunde."
 			},
 			"en": {
 				"name": "Spirit Light Weapon",
+				"description": "Elite Weapon Spell. For 10 seconds, target ally gains 5...25 Health per second and an additional 5...25 Health per second if that ally is within earshot of a spirit.",
+				"concise": "Elite Weapon Spell. (10 seconds.) Target ally gains 5...25 Health each second. 5...25 more healing per second while within earshot of a spirit."
+			},
+			"en-gww": {
+				"name": "Spirit Light Weapon",
 				"description": "For 10 seconds, target ally gains 5...25 Health per second and an additional 5...25 Health per second if that ally is within earshot of a spirit.",
 				"concise": "(10 seconds.) Target ally gains 5...25 Health each second. 5...25 more healing per second while within earshot of a spirit."
 			},
+			"es": {
+				"name": "Arma de luz espiritual",
+				"description": "Conjuro con arma de élite. Durante 10 segundos, el objetivo (un aliado o tú mismo) gana 5...25 de salud por segundo y 5...25 extra por segundo si está al alcance del oído de un espíritu.",
+				"concise": "Conjuro con arma de élite. (10 segundos). El aliado objetivo gana 5...25 de salud cada segundo. 5...25 de curación adicional por segundo si hay un espíritu al alcance del oído."
+			},
 			"fr": {
+				"name": "Arme d'Esprit illuminé",
+				"description": "Sort d'altération d'arme d'élite. Pendant 10 secondes, la cible (un allié ou vous-même) bénéficie de 5...25 points de vie par seconde et de 5...25 points de vie en plus par seconde si cette cible se trouve à portée de voix d'un esprit.",
+				"concise": "Sort d'altération d'arme d'élite. (10 secondes.) L'allié visé gagne 5...25 points de vie par seconde. 5...25 points de vie supplémentaires par seconde tant qu'un esprit est à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Arme d'Esprit illuminé",
 				"description": "Pendant 10 secondes, la cible (un allié ou vous-même) bénéficie de 1...15 point de vie par seconde et de 1...15 point de vie en plus par seconde si cette cible se trouve à portée de voix d'un esprit.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma della Luce dello Spirito",
+				"description": "Magia d'Élite Altera-arma. Per 10 secondo[i], l'obiettivo (un alleato o te stesso) ottiene 5...25 Punto[i] Salute al secondo e 5...25 Punto[i] Salute in più al secondo se si trova a portata d'orecchio di uno Spirito.",
+				"concise": "Magia d'Élite Altera-arma. (Secondi: 10) Salute ottenuta ogni secondo dall'obiettivo (un alleato o te stesso): 5...25. Cure aggiuntive al secondo se c'è uno Spirito nella portata d'orecchio: 5...25."
+			},
+			"jp": {
+				"name": "スピリット ライト ウェポン",
+				"description": "エリート ウェポン スペル： 10 秒間、ターゲットした味方は毎秒 5...25 の体力を獲得します。その味方の声の届く範囲内に精霊がいる場合、さらに毎秒 5...25 の体力が増加します。",
+				"concise": "エリート ウェポン スペル： (10 秒) ターゲットした味方は、毎秒 5...25 の体力を獲得します。声の届く範囲内に精霊がいる場合、5...25 の体力が追加回復します。"
+			},
+			"kr": {
+				"name": "영혼의빛 무기",
+				"description": "엘리트 마법 무기. 대상 지정: 아군. 10초 동안 대상은 \"영혼의빛 무기\" 효과를 얻습니다. 대상은 매초 5...25의 체력을 얻고, 대상의 가청 범위 내에 영혼이 있으면 추가로 매초 5...25의 체력을 얻습니다.",
+				"concise": "엘리트 마법 무기. (10초) 대상 아군이 매초 5...25의 체력을 얻습니다. 가청 범위 내에 영혼이 있으면 추가로 매초 5...25의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "Oręż Duchowego Światła",
+				"description": "Elitarny czar z broni. Przez 10 sek. wybrany sojusznik otrzymuje co sekundę 5...25 pkt. żywotności oraz dodatkowo 5...25 pkt. żywotności co sekundę, jeśli sojusznik ten znajduje się w pobliżu ducha.",
+				"concise": "Elitarny czar z broni. (10 s). Cel otrzymuje 5...25 pkt. żywotności na sekundę. Dodatkowo leczy 5...25 pkt. na sekundę w zasięgu słuchu ducha."
+			},
+			"ru": {
+				"name": "Spirit Light Weapon",
+				"description": "Элитное оружейное заклинание. В течение 10 сек выбранный союзник получает 5...25 ед. здоровья каждую секунду и дополнительно 5...25 ед. здоровья каждую секунду, если он находится в зоне слышимости какого-либо духа.",
+				"concise": "Элитное оружейное заклинание. (10 сек) Выбранный союзник получает 5...25 ед. здоровья каждую секунду. Исцеляет дополнительно на 5...25 ед. здоровья каждую секунду, если союзник находится в зоне слышимости духа."
+			},
+			"bork": {
+				"name": "Spureet Leeght Veaepun",
+				"description": "Ileete-a Veaepun Spell. Fur 10 secunds, taerget aelly gaeeens 5...25 Heaelt per secund und un aeddeeshunael 5...25 Heaelt per secund iff thaet aelly is veetheen iaershut ooff a spureet.",
+				"concise": "Ileete-a Veaepun Spell. (10 secunds.) Taerget aelly gaeeens 5...25 Heaelt iaech secund. 5...25 mure-a heaeleeng per secund vheele-a veetheen iaershut ooff a spureet."
 			}
 		}
 	}

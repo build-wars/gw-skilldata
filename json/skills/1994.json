@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Power Lock",
+				"description": "咒文。 If target foe is casting a spell or chant, that skill is interrupted and disabled for an additional 5...13 seconds.",
+				"concise": "咒文。 Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +5...13 seconds."
+			},
+			"cht": {
+				"name": "強力緊鎖",
+				"description": "咒文魔法： 若目標敵人正在施展魔法或聖歌，則該技能被中斷並且在 5...13 秒內無法使用。",
+				"concise": "咒文魔法： 若目標敵人正在施展魔法或聖歌，則該技能被中斷並且在 5...13 秒內無法使用。"
+			},
 			"de": {
+				"name": "Kraftsperre",
+				"description": "Zauber. Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und zusätzlich 5...13 Sekunde[n] lang deaktiviert.",
+				"concise": "Zauber. Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: unterbrochener Zauber oder Anfeuerungsruf wird zusätzlich 5...13 Sekunde[n] lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Kraftsperre",
 				"description": "Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und zusätzlich 5...13 Sekunden lang deaktiviert.",
 				"concise": "Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Unterbrochener Zauber oder Anfeuerungsruf wird +5...13 Sekunden lang deaktiviert."
 			},
 			"en": {
 				"name": "Power Lock",
+				"description": "Spell. If target foe is casting a spell or chant, that skill is interrupted and disabled for an additional 5...13 seconds.",
+				"concise": "Spell. Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +5...13 seconds."
+			},
+			"en-gww": {
+				"name": "Power Lock",
 				"description": "If target foe is casting a spell or chant, that skill is interrupted and disabled for an additional 5...13 seconds.",
 				"concise": "Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +5...13 seconds."
 			},
+			"es": {
+				"name": "Cerrojo de poder",
+				"description": "Conjuro. Si el enemigo objetivo está lanzando un conjuro o cántico, éste se interrumpirá y estará desactivado durante 5...13 segundos más.",
+				"concise": "Conjuro. Interrumpe un conjuro o cántico. Efecto de interrupción: el conjuro o cántico interrumpido está desactivado durante +5...13 segundos."
+			},
 			"fr": {
+				"name": "Verrouillage de pouvoir",
+				"description": "Sort. Si l'ennemi visé est en train de lancer un sort ou un chant, celui-ci est interrompu et désactivé pendant 5...13 secondes supplémentaires.",
+				"concise": "Sort. Interrompt un sort ou un chant. Effet de l'interruption : le sort ou le chant interrompu est indisponible pendant +5...13 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Verrouillage de pouvoir",
 				"description": "Si l'ennemi visé est en train de lancer un sort ou un chant, celui-ci est interrompu et désactivé pendant 5...13 secondes supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Chiusura del Potere",
+				"description": "Magia. Se l'obiettivo nemico ha attivato una magia o un canto, l'abilità viene interrotta e disattivata per 5...13 secondi in più.",
+				"concise": "Magia. Interrompe una magia o un canto. Effetto dell'interruzione: la magia o il canto interrotti vengono disattivati per +5...13 secondi."
+			},
+			"jp": {
+				"name": "パワー ロック",
+				"description": "スペル： ターゲットした敵がスペルまたはチャントを詠唱している場合、そのスキルを中断します。そのスキルは再使用時間が 5...13 秒増加します。",
+				"concise": "スペル： スペルまたはチャントを中断します。中断効果：中断したスペルまたはチャントの再使用時間が 5...13 秒増加します。"
+			},
+			"kr": {
+				"name": "마력 봉쇄",
+				"description": "마법. 대상 지정: 적. 대상이 마법이나 영창을 시전하는 중이면 그 시전을 방해하고, 추가로 5...13초 동안 사용할 수 없게 합니다.",
+				"concise": "마법. 마법이나 영창을 방해합니다. 방해 효과: 재활성 시간이 5...13초만큼 늘어나게 합니다."
+			},
+			"pl": {
+				"name": "Zamknięcie Mocy",
+				"description": "Czar. Jeśli cel rzuca właśnie czar lub pieśń, umiejętność zostaje przerwana, a cel traci 5...13 pkt. energii.",
+				"concise": "Czar. Przerywa użycie czaru lub pieśni. Skutek przerwania: przerwany czar lub pieśń zostają zablokowane na +5...13 sek."
+			},
+			"ru": {
+				"name": "Power Lock",
+				"description": "Заклинание. Если выбранный противник произносит какое-либо заклинание или поет хорал, это умение будет прервано и станет недоступным дополнительно на 5...13 сек.",
+				"concise": "Заклинание. Прерывает заклинание или хорал. Эффект прерывания: прерванное умение или хорал будет недоступно дополнительно на 5...13 сек."
+			},
+			"bork": {
+				"name": "Pooer Luck",
+				"description": "Spell. Iff taerget fue-a is caesteeng a spell oor chunt, thaet skeell is interroopted und deesaebled fur un aeddeeshunael 5...13 secunds.",
+				"concise": "Spell. Interroopts a spell oor chunt. Interroopshun iffffect: interroopted spell oor chunt is deesaebled fur +5...13 secunds."
 			}
 		}
 	}

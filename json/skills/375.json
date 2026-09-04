@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "矮人战斗姿态",
+				"description": "精英姿态。 在5...11秒之内，使你的攻击速度提高33%，若你在此姿态下使用锤类武器击中敌人，将会打断其动作。若在此姿态下使用其他技能，则姿态效果消失。",
+				"concise": "精英姿态。 使你的攻击速度提高10%，若你在此姿态下使用锤类武器击中敌人，将会打断其动作。若在此姿态下使用其他技能，则姿态效果停止，技能持续 5...11秒。"
+			},
+			"cht": {
+				"name": "矮人戰鬥態勢",
+				"description": "精英態勢： 持續 5...11 秒，若你拿著鎚時，攻擊速度增加 33% 且增加 40 防禦，同時你的攻擊技能將中斷目標動作。",
+				"concise": "精英態勢： 持續 5...11 秒，若你拿著鎚時，攻擊速度增加 33% 且增加 40 防禦，同時你的攻擊技能將中斷目標動作。"
+			},
 			"de": {
+				"name": "Zwergen-Kampfhaltung",
+				"description": "Elite-Haltung. 5...11 Sekunde[n] lang gilt Folgendes, falls Ihr einen Hammer schwingt: Ihr greift um 33% schneller an, Ihr erhaltet +40 Rüstung, und wenn Ihr einen Gegner mit einer Angriffsfertigkeit trefft, wird dessen Aktion unterbrochen.",
+				"concise": "Elite-Haltung. (5...11 Sekunde[n].) Ihr greift um 33% schneller an, Ihr erhaltet +40 Rüstung und Eure Angriffsfertigkeiten unterbrechen Aktionen. Keine Wirkung, falls Ihr keinen Hammer besitzt."
+			},
+			"de-guildwiki": {
 				"name": "Zwergen-Kampfhaltung",
 				"description": "5...11 Sekunden lang gilt Folgendes, falls Ihr einen Hammer schwingt: Ihr greift um 33% schneller an, Ihr erhaltet +40 Rüstung, und wenn Ihr einen Gegner mit einer Angriffsfertigkeit trefft, wird dessen Aktion unterbrochen.",
 				"concise": "(5...11 Sekunden.) Ihr greift um 33% schneller an, Ihr erhaltet +40 Rüstung und Eure Angriffsfertigkeiten unterbrechen Aktionen. <gray>Keine Wirkung, falls Ihr keinen Hammer besitzt.</gray>"
 			},
 			"en": {
 				"name": "Dwarven Battle Stance",
+				"description": "Elite Stance. For 5...11 seconds, if you are wielding a hammer, you attack 33% faster, you gain +40 armor, and your attack skills interrupt foes when they hit.",
+				"concise": "Elite Stance. (5...11 seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. No effect unless you have a hammer equipped."
+			},
+			"en-gww": {
+				"name": "Dwarven Battle Stance",
 				"description": "For 5...11 seconds, if you are wielding a hammer, you attack 33% faster, you gain +40 armor, and your attack skills interrupt foes when they hit.",
 				"concise": "(5...11 seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. <gray>No effect unless you have a hammer equipped.</gray>"
 			},
+			"es": {
+				"name": "Actitud de batalla de enano",
+				"description": "Actitud de élite. Durante 5...11 segundos, si llevas un martillo, atacas un 33% más deprisa, ganas +40 de armadura y tus habilidades de ataque interrumpen a los enemigos si los alcanzas.",
+				"concise": "Actitud de élite. (5...11 segundos). Atacas un 33% más deprisa, ganas +40 de armadura y tus habilidades de ataque interrumpen acciones. No tiene efecto a menos que lleves un martillo."
+			},
 			"fr": {
+				"name": "Pose de combat des Nains",
+				"description": "Pose de combat d'élite. Pendant 5...11 secondes, si vous utilisez un marteau, votre vitesse d'attaque est augmentée de 33%, vous gagnez un bonus d'armure de +40, et vos compétences d'attaque interrompent les ennemis quand elles réussissent.",
+				"concise": "Pose de combat d'élite. (5...11 secondes.) Votre vitesse d'attaque est augmentée de 33%, vous gagnez un bonus d'armure de +40, et vos compétences d'attaque interrompent les actions. Ne fonctionne que si vous êtes équipé d'un marteau."
+			},
+			"fr-gwiki": {
 				"name": "Pose de combat des Nains",
 				"description": "Pendant 5...11 secondes, si vous utilisez un marteau, vos attaques sont 33% plus rapides, vous gagnez un bonus d'armure de +40, et l'utilisation d'une compétence d'attaque pour frapper un ennemi interrompt l'action de celui-ci.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione di Combattimento del Nano",
+				"description": "Posizione d'Élite. Per 5...11 secondo[i], se utilizzi un martello, attacchi un 33% volta[e] più velocemente, ottieni +40 di armatura e se utilizzi un'abilità di attacco per colpire un nemico, interrompi la sua azione.",
+				"concise": "Posizione d'Élite. (Secondo[i]: 5...11). Attacchi 33% volta[e] più velocemente, ottieni +40 di armatura e se utilizzi un'abilità di attacco per colpire un nemico, interrompi la sua azione. Ha effetto solo se si è equipaggiati con un martello."
+			},
+			"jp": {
+				"name": "ドワーヴン バトル スタンス",
+				"description": "エリート スタンス： 5...11 秒間、ハンマーを装備している場合、攻撃速度が 33%、防御力が 40 増加し、敵に対するアタック スキルが成功すると、その敵のアクションを中断します。",
+				"concise": "エリート スタンス： (5...11 秒) 攻撃速度が 33%、防御力が 40 増加し、アタック スキルにより敵のアクションを中断します。ハンマーを装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "드워프의 전투 자세",
+				"description": "엘리트 자세. 대상 지정: 없음. 해머를 장착하고 있으면 5...11초 동안 공격 속도가 33% 빨라지고, 방어력이 40만큼 증가합니다. 공격 스킬이 성공하면 적의 동작을 방해합니다.",
+				"concise": "엘리트 자세. (5...11초) 공격 속도가 33% 빨라지고, 방어력이 40만큼 증가하고, 공격 스킬을 사용하면 적의 동작을 방해합니다. 해머를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Krasnoludzka Postawa Bojowa",
+				"description": "Postawa elitarna. Przez 5...11 sek., jeśli walczysz młotem, atakujesz 33% szybciej, otrzymujesz +40 do pancerza, a twoja umiejętność przerywa akcję przeciwnika po trafieniu.",
+				"concise": "Postawa elitarna. (5...11 sek.) Atakujesz 33% szybciej, otrzymujesz +40 do pancerza, a twoje umiejętności ataku przerywają akcje przeciwnika. Bez efektu, jeśli nie korzystasz z młota."
+			},
+			"ru": {
+				"name": "Dwarven Battle Stance",
+				"description": "Элитная стойка. В течение 5...11 сек, если вы вооружены молотом, вы атакуете на 33% быстрее, ваша защита увеличивается на 40 ед., а ваши атакующие умения при успешном попадании прерывают действия противников.",
+				"concise": "Элитная стойка. (5...11 сек) Вы атакуете на 33% быстрее, получаете +40 ед. к защите, а ваши атакующие умения прерывают действия противника. Не действует, если вы не вооружены молотом."
+			},
+			"bork": {
+				"name": "Dvaerfee Baettle-a Stunce-a",
+				"description": "Ileete-a Stunce-a. Fur 5...11 secunds, iff yuoo aere-a veeeldeeng a haemmer, yuoo aettaeck 33% faester, yuoo gaeeen +40 aermur, und yuoor aettaeck skeells interroopt fues vhee zeey heet.",
+				"concise": "Ileete-a Stunce-a. (5...11 secunds.) Yuoo aettaeck 33% faester, yuoo gaeeen +40 aermur, und yuoor aettaeck skeells interroopt aecshuns. Nu iffffect unless yuoo haefe-a a haemmer iqooeepped."
 			}
 		}
 	}

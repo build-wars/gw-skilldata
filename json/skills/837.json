@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量恩赐",
+				"description": "精英增益魔法。 你得到 1...12 能量，但此魔法会造成施法者疲劳。",
+				"concise": "精英增益魔法。 你得到 1...12 能量，但此魔法会造成施法者疲劳。"
+			},
+			"cht": {
+				"name": "能量恩賜",
+				"description": "精英加持魔法： 持續20秒，你的能量最大值+1...12，體力再生增加5，當能量恩賜終止時你獲得36...60能量和1...3體力。",
+				"concise": "精英加持魔法： 持續20秒，你的能量最大值+1...12，體力再生增加5，當能量恩賜終止時你獲得36...60能量和1...3體力。"
+			},
 			"de": {
+				"name": "Energiesegen",
+				"description": "Elite-Verzauberung. 36...60 Sekunde[n] lang erhöht Energiesegen Eure maximale Gesundheit und die Eures verbündeten Ziels um 1...3 für jeden Punkt Eurer entsprechenden maximalen Energie. Beim Anwenden dieser Verzauberung erhaltet Ihr und Euer Ziel 1...12 Energiepunkt[e]. Ihr erhaltet zudem 1 Energiepunkt pro 2 Punkte, die Ihr in Energiespeicherung habt.",
+				"concise": "Elite-Verzauberung. (36...60 Sekunde[n].) Eure maximale Gesundheit und die Eures verbündeten Ziels ist für jeden Punkt Eurer maximalen Energie um 1...3 erhöht. Anfangswirkung: Ihr erhaltet beide 1...12 Energiepunkt[e]. Ihr erhaltet +1 Energiepunkt pro 2 Punkte in Energiespeicherung."
+			},
+			"de-guildwiki": {
 				"name": "Energiesegen",
 				"description": "36...60 Sekunden lang erhöht Energiesegen Eure maximale Gesundheit und die Eures verbündeten Ziels um 1...3 für jeden Punkt Eurer entsprechenden maximalen Energie. Beim Anwenden dieser Verzauberung erhaltet Ihr und Euer Ziel 1...12 Energiepunkte. Ihr erhaltet zudem 1 Energiepunkt pro 2 Punkte, die Ihr in Energiespeicherung habt.",
 				"concise": "(36...60 Sekunden.) Eure maximale Gesundheit und die Eures verbündeten Ziels ist für jeden Punkt Eurer maximalen Energie um 1...3 erhöht. Anfangswirkung: Ihr erhaltet beide 1...12 Energiepunkte. Ihr erhaltet +1 Energiepunkt pro 2 Punkte in Energiespeicherung."
 			},
 			"en": {
 				"name": "Energy Boon",
+				"description": "Elite Enchantment Spell. For 36...60 seconds, Energy Boon raises the maximum Health of you and target ally by 1...3 for each point of your respective maximum Energy. When this enchantment is first applied, you and your target gain 1...12 Energy. You gain an additional 1 Energy for every 2 points you have in Energy Storage.",
+				"concise": "Elite Enchantment Spell. (36...60 seconds.) Maximum Health for you and target ally is increased by 1...3 for each point of maximum Energy. Initial effect: Both gain 1...12 Energy. You gain +1 Energy for every 2 points of Energy Storage."
+			},
+			"en-gww": {
+				"name": "Energy Boon",
 				"description": "For 36...60 seconds, Energy Boon raises the maximum Health of you and target ally by 1...3 for each point of your respective maximum Energy. When this enchantment is first applied, you and your target gain 1...12 Energy. You gain an additional 1 Energy for every 2 points you have in Energy Storage.",
 				"concise": "(36...60 seconds.) Maximum Health for you and target ally is increased by 1...3 for each point of maximum Energy. Initial effect: Both gain 1...12 Energy. You gain +1 Energy for every 2 points of Energy Storage."
 			},
+			"es": {
+				"name": "Bendición de energía",
+				"description": "Conjuro con encantamiento de élite. Durante 36...60 segundos, Bendición de energía aumenta tu salud máxima y la del aliado objetivo en 1...3 por cada punto de vuestra energía máxima respectiva. Cuando se aplica este encantamiento por primera vez, tú y tu objetivo ganáis 1...12 de energía. Ganas 1 de energía adicional por cada 2 puntos de almacenamiento de energía que tengas.",
+				"concise": "Conjuro con encantamiento de élite. (36...60 segundos). Tu salud máxima y la del aliado objetivo aumentan 1...3 por cada punto de energía máxima. Efecto inicial: Ambos ganáis 1...12 de energía. Tú ganas +1 de energía por cada 2 puntos de almacenamiento de energía."
+			},
 			"fr": {
+				"name": "Compagnon d'énergie",
+				"description": "Enchantement d'élite. Pendant 36...60 secondes, le Compagnon d'énergie augmente votre maximum de PV et celui de l'allié ciblé à raison de 1...3 par point d'énergie maximum de chacun. A la première application de cet enchantement, votre cible et vous gagnez 1...12 points d'énergie. Vous gagnez 1 point d'énergie supplémentaire tous les 2 points de Conservation d'énergie.",
+				"concise": "Enchantement d'élite. (36...60 secondes.) Votre maximum de PV et celui de l'allié ciblé augmentent de 1...3 par point d'énergie maximum. Effet initial : vous gagnez tous deux 1...12 points d'énergie. Vous gagnez +1 point d'énergie tous les 2 points de Conservation d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Compagnon d'énergie",
 				"description": "Pendant 36...60 secondes, le Compagnon d'énergie augmente votre maximum de PV etc lui de l'allié ciblé à raison de 1...3 par point d'énergie maximum de chacun. A la première application de cet enchantement, votre cible et vous gagnez 1...12 points d'énergie. Vous gagnez 1 point d'énergie supplément tous les 2 points de Conservation d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Soccorso d'Energia",
+				"description": "Incantesimo d'Élite. Per 36...60 secondi, il Soccorso d'Energia aumenta la Salute massima tua e dell'obiettivo alleato di 1...3 per ogni punto dell'Energia massima di ognuno. La prima volta che questo incantesimo viene applicato, tu e l'obiettivo ottenete 1...12 Punti Energia. Ottieni 1 Punto Energia aggiuntivo per ogni 2 punti che possiedi nella Riserva d'Energia.",
+				"concise": "Incantesimo d'Élite. (Secondi: 36...60.) La tua Salute massima e quella dell'obiettivo alleato aumenta di 1...3 per ogni punto dell'Energia massima. Effetto iniziale: Ottienete entrambi 1...12 Punti Energia. Ottieni +1 di Energia per ogni 2 punti nella Riserva d'Energia."
+			},
+			"jp": {
+				"name": "エネルギー ブーン",
+				"description": "エリート強化スペル： 36...60 秒間、プレイヤーおよびターゲットした味方は、体力の上限が最大エネルギー量のポイントごとに 1...3 増加します。この強化スペルの発動時、プレイヤーおよびターゲットは 1...12 のエネルギーを獲得します。また、プレイヤーは「ストレージ」の特性2ポイントごとに1の追加エネルギーを獲得します。",
+				"concise": "エリート強化スペル： (36...60 秒) プレイヤーおよびターゲットした味方の体力の上限が、最大エネルギー量のポイントごとに 1...3 増加します。発動効果： プレイヤーおよびターゲットは 1...12 のエネルギーを獲得します。またプレイヤーは、「ストレージ」の特性2ポイントごとに1の追加エネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "에너지 혜택",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 36...60초 동안 자신과 대상은 각자의 최대 에너지의 1...3배만큼 최대 체력이 증가합니다. 처음 효과를 받을 때 자신과 대상은 1...12의 에너지를 얻습니다. 거기에 더해 자신은 에너지 축적 특성 레벨 2당 1씩 에너지를 얻습니다.",
+				"concise": "엘리트 강화 마법. (36...60초) 자신과 대상 아군의 최대 체력이 최대 에너지의 1...3배만큼 증가합니다. 초기 효과: 자신과 대상 아군이 1...12의 에너지를 얻고, 추가로 자신은 에너지 축적 특성 레벨 2당 1씩 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Dar Energii",
+				"description": "Elitarne zaklęcie (czar). Przez 20 sek. twoja maksymalna energia zwiększa się o +1...12 pkt. oraz otrzymujesz regenrację żyworności +5. Gdy Dar Energii przestanie działać zyskujesz +1...3 pkt. energii oraz 1...3 pkt. żywotności.",
+				"concise": "Elitarne zaklęcie (czar). (20 sek.) Twoja maksymalna energia zwiększa się o +1...12 pkt. Otrzymujesz regenerację żyworności +5. Efekt końcowy: otrzymujesz 36...60 pkt. energii oraz 1...3 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Energy Boon",
+				"description": "Элитное заклинание-чары. В течение 36...60 сек у вас и у выбранного союзника максимальный запас здоровья увеличивается на 1...3 ед. за каждую ед. вашего максимального запаса энергии. Когда действие этих чар заканчивается, вы и ваша цель получаете 1...12 ед. энергии. Вы получаете дополнительно 1 ед. энергии за каждые 2 уровня таланта Energy Storage.",
+				"concise": "Элитное заклинание-чары. (36...60 сек) Максимальный запас здоровья у вас и выбранного союзника увеличивается на 1...3 ед. за каждую единицу вашего максимального запаса энергии. Начальный эффект: вы оба получаете 1...12 ед. энергии. Вы получаете 1 ед. энергии за каждые 2 уровня таланта Energy Storage."
+			},
+			"bork": {
+				"name": "Inergy Buun",
+				"description": "Ileete-a Inchuntment Spell. Fur 36...60 secunds, Inergy Buun raeeeses zee maexeemoom Heaelt ooff yuoo und taerget aelly by 1...3 fur iaech pueent ooff yuoor respecteefe-a maexeemoom Inergy. Vhee thees inchuntment is furst aeppleeed, yuoo und yuoor taerget gaeeen 1...12 Inergy. Yuoo gaeeen un aeddeeshunael 1 Inergy fur ifery 2 pueents yuoo haefe-a in Inergy Sturaege-a.",
+				"concise": "Ileete-a Inchuntment Spell. (36...60 secunds.) Maexeemoom Heaelt fur yuoo und taerget aelly is increaesed by 1...3 fur iaech pueent ooff maexeemoom Inergy. Ineeteeael iffffect: But gaeeen 1...12 Inergy. Yuoo gaeeen +1 Inergy fur ifery 2 pueents ooff Inergy Sturaege-a."
 			}
 		}
 	}

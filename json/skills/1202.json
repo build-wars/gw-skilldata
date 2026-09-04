@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暴怒冲刺",
+				"description": "精英宠物攻击。 你的宠物发动暴怒冲刺，并且依照你冷却中的「野兽支配」属性技能数量，每个对目标敌人造成10...50点额外伤害。（最多0点）",
+				"concise": "精英宠物攻击。 你的宠物发动暴怒冲刺，并且依照你恢复中的「野兽支配」技能数量，每个对目标造成 10...50 额外伤害。(最大累计至 0 个)"
+			},
+			"cht": {
+				"name": "暴怒衝刺",
+				"description": "精英寵物攻擊： 你的寵物發動暴怒衝刺，並造成額外10...50傷害，並且使敵人重傷5...20秒。",
+				"concise": "精英寵物攻擊： 你的寵物發動暴怒衝刺，並造成額外10...50傷害，並且使敵人重傷5...20秒。"
+			},
 			"de": {
+				"name": "Erzürnter Ausfall",
+				"description": "Elite-Tiergefährtenangriff. Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der dem Gegner 5...20 Sekunden lang eine Tiefe Wunde und +10...50 Punkt[e] Schaden zufügt.",
+				"concise": "Elite-Tiergefährtenangriff. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]) und fügt +10...50 Punkt[e] Schaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Erzürnter Ausfall",
 				"description": "Euer Tiergefährte greift mit einem Erzürnten Ausfall an, der dem Gegner 5...20 Sekunden lang eine Tiefe Wunde und +10...50 Punkte Schaden zufügt.",
 				"concise": "Verursacht Zustand Tiefe Wunde (5...20 Sekunden) und fügt +10...50 Punkte Schaden zu."
 			},
 			"en": {
 				"name": "Enraged Lunge",
+				"description": "Elite Pet Attack. Your animal companion attempts an Enraged Lunge that applies a Deep Wound to target foe for 5...20 seconds and deals +10...50 damage.",
+				"concise": "Elite Pet Attack. Inflicts Deep Wound condition (5...20 seconds) and deals +10...50 damage."
+			},
+			"en-gww": {
+				"name": "Enraged Lunge",
 				"description": "Your animal companion attempts an Enraged Lunge that applies a Deep Wound to target foe for 5...20 seconds and deals +10...50 damage.",
 				"concise": "Inflicts Deep Wound condition (5...20 seconds) and deals +10...50 damage."
 			},
+			"es": {
+				"name": "Embestida enrabietada",
+				"description": "Ataque con mascota de élite. Tu mascota lanzará un ataque Embestida enrabietada que causa una herida grave al enemigo objetivo durante 5...20 segundoss y provoca +10...50 de daño.",
+				"concise": "Ataque con mascota de élite. Causa una herida grave (5...20 segundos) y provoca +10...50 de daño."
+			},
 			"fr": {
+				"name": "Coup enragé",
+				"description": "Attaque de familier d'élite. Votre familier tente un Coup enragé qui inflige une Blessure profonde à l'ennemi visé pendant 5...20 secondes, ainsi que +10...50 points de dégâts.",
+				"concise": "Attaque de familier d'élite. Provoque une Blessure profonde (5...20 secondes) et inflige +10...50 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Coup enragé",
 				"description": "Votre familier tente un Coup enragé qui inflige une Blessure profonde à l'ennemi visé pendant 5...20 seconde, ainsi que +10...50 points de dégâts.",
 				"concise": "Provoque la Blessure profonde (5...10 et inflige +10...50 points de dégâts."
+			},
+			"it": {
+				"name": "Guizzo Furioso",
+				"description": "Attacco d'Élite con Mascotte. La tua mascotte si cimenta in un Guizzo Furioso che causa una Ferita profonda all'obiettivo nemico per 5...20 secondi e infligge +10...50 di danni.",
+				"concise": "Attacco d'Élite con Mascotte. Condizione inflitta: Ferita Profonda (secondi: 5...20). Danni inflitti: +10...50."
+			},
+			"jp": {
+				"name": "エンレイジ ランジ",
+				"description": "エリート ペット アタック： プレイヤーのペットが、5...20 秒間ターゲットした敵を「重傷」状態にして 10...50 の追加ダメージを与える攻撃を開始します。",
+				"concise": "エリート ペット アタック： 「重傷」状態にして (5...20 秒) 10...50 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "분노의 돌진",
+				"description": "엘리트 펫 공격. 대상 지정: 없음. 펫이 분노의 돌진을 사용하여 대상을 5...20초 동안 중상 상태로 만들고, 10...50의 대미지를 추가로 줍니다.",
+				"concise": "엘리트 펫 공격. 펫의 공격이 적에게 중상을 입히고(5...20초), 10...50의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Rozszalałe Uderzenie",
+				"description": "Elitarny atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Rozszalałe Uderzenie, które powoduje u przeciwnika głęboką ranę na 5...20 sek. oraz zadaje +10...50 pkt. obrażeń..",
+				"concise": "Elitarny atak zwierzaka. Powoduje głęboką ranę (5...20 sek.) i zadaje +10...50 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Enraged Lunge",
+				"description": "Элитная атака питомца. Сопровождающее вас животное пытается провести удар, который вызывает у выбранного противника глубокую рану на 5...20 сек и наносит дополнительно 10...50 ед. урона.",
+				"concise": "Элитная атака питомца. Вызывает глубокую рану (5...20 сек). Наносит дополнительно 10...50 ед. урона."
+			},
+			"bork": {
+				"name": "Inraeged Loonge-a",
+				"description": "Ileete-a Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts un Inraeged Loonge-a thaet aeppleees a Deep Vuoond tu taerget fue-a fur 5...20 secunds und deaels +10...50 daemaege-a.",
+				"concise": "Ileete-a Pet Aettaeck. Inffleects Deep Vuoond cundeeshun (5...20 secunds) und deaels +10...50 daemaege-a."
 			}
 		}
 	}

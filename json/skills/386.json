@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "解牛利刃",
+				"description": "剑术。 命中时，对目标敌人造成1...20点额外伤害。如果此技能被「格挡」，则使目标敌人遭受「流血」症状，并且受到1...20点伤害。",
+				"concise": "剑术。 命中时，对目标敌人造成1...20点额外伤害。如果此技能被「格挡」，则使目标敌人遭受「流血」症状，并且受到1...20点伤害。"
+			},
+			"cht": {
+				"name": "追擊刀",
+				"description": "劍術攻擊技能： 命中時對目標造成 1...20 額外傷害。若此技能被目標「格擋」，則該目標遭受「流血」病症 25秒並且受到 1...20 的傷害。",
+				"concise": "劍術攻擊技能： 命中時對目標造成 1...20 額外傷害。若此技能被目標「格擋」，則該目標遭受「流血」病症並且受到 1...20 的傷害。"
+			},
 			"de": {
+				"name": "Suchende Klinge",
+				"description": "Schwertangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...20 Punkt[e] Schaden zu. Wenn Suchende Klinge geblockt wird, blutet das Ziel 25 Sekunden lang und erleidet 1...20 Punkt[e] Schaden.",
+				"concise": "Schwertangriff. Richtet 1...20 Punkt[e] Schaden an. Richtet 1...20 Punkt[e] Schaden an und verursacht Zustand Blutung (25 Sekunden), falls geblockt."
+			},
+			"de-guildwiki": {
 				"name": "Suchende Klinge",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...20 Punkte Schaden zu. Wenn Suchende Klinge geblockt wird, blutet das Ziel 25 Sekunden lang und erleidet 1...20 Punkte Schaden.",
 				"concise": "Richtet 1...20 Punkte Schaden an. Richtet 1...20 Punkte Schaden an und verursacht Zustand Blutung (25 Sekunden), falls geblockt."
 			},
 			"en": {
 				"name": "Seeking Blade",
+				"description": "Sword Attack. If this attack hits you strike for +1...20 damage. If Seeking Blade is blocked, your target begins Bleeding for 25 seconds and takes 1...20 damage.",
+				"concise": "Sword Attack. Deals +1...20 damage. Deals 1...20 damage and inflicts Bleeding condition (25 seconds) if blocked."
+			},
+			"en-gww": {
+				"name": "Seeking Blade",
 				"description": "If this attack hits you strike for +1...20 damage. If Seeking Blade is blocked, your target begins Bleeding for 25 seconds and takes 1...20 damage.",
 				"concise": "Deals +1...20 damage. Deals 1...20 damage and inflicts Bleeding condition (25 seconds) if blocked."
 			},
+			"es": {
+				"name": "Cuchillada precisa",
+				"description": "Ataque con espada. Si este ataque impacta, harás +1...20 de daño. Si se bloquea este ataque, tu objetivo sufrirá una hemorragia durante 25 segundos y recibirá 1...20 de daño.",
+				"concise": "Ataque con espada. Hace +1...20 de daño. Hace 1...20 de daño y causa hemorragia (25 segundos) si se bloquea."
+			},
 			"fr": {
+				"name": "Lame chercheuse",
+				"description": "Attaque à l'épée. Si cette attaque réussit, vous infligez +1...20 points de dégâts. Si elle est bloquée, la cible est prise de Saignement pendant 25 secondes et subit 1...20 points de dégâts.",
+				"concise": "Attaque à l'épée. Inflige +1...20 points de dégâts. Inflige 1...20 points de dégâts et provoque le Saignement (25 secondes) si l'ennemi réussit à bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Lame chercheuse",
 				"description": "Si cette attaque réussit, vous infligez +1...20 point(s) de dégâts. Si elle est bloquée, la cible est prise de Saignements pendant 25 secondes et subit 1...20 point(s) de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lama che Cerca",
+				"description": "Attacco con Spada. Se questo attacco va a segno, infliggi +1...20 danno[i]. Se Lama che Cerca viene bloccata, il tuo obiettivo inizia a sanguinare per 25 secondi e subisce 1...20 danno[i].",
+				"concise": "Attacco con Spada. Danni inferti: +1...20. Assesta 1...20 danno[i] e provoca Emorragia (25 secondi) se bloccato."
+			},
+			"jp": {
+				"name": "シーク ブレード",
+				"description": "ソード アタック： この攻撃が成功すると 1...20 の追加ダメージを与えます。ブロックされた場合、ターゲットに 1...20 のダメージを与えて25秒間「出血」状態にします。",
+				"concise": "ソード アタック： 1...20 の追加ダメージを与えます。ブロックされた場合、1...20 のダメージを与えて「出血」状態にします (25秒)。"
+			},
+			"kr": {
+				"name": "무방비의 칼날",
+				"description": "칼 공격. 대상 지정: 적. 대상은 1...20의 대미지를 추가로 입습니다. 대상이 공격을 막으려고 하면 25초 동안 출혈을 일으키고, 1...20의 대미지를 입습니다.",
+				"concise": "칼 공격. 1...20의 대미지를 추가로 줍니다. 공격을 막으면 1...20의 대미지를 주고, 출혈을 일으키게 합니다.(25초)"
+			},
+			"pl": {
+				"name": "Przeszywające Ostrze",
+				"description": "Atak mieczem. Jeśli atak trafi, zadajesz +1...20 pkt. obrażeń. Jeśli Przeszywające Ostrze zostanie zablokowane, twój cel zaczyna krwawić na 25 sek. i otrzymuje 1...20 pkt. obrażeń.",
+				"concise": "Atak mieczem. Zadaje +1...20 pkt. obrażeń. Zadaje 1...20 pkt. obrażeń i wywołuje przypadłość krwawienie (25 sek.), jeżeli nastąpiło blokowanie."
+			},
+			"ru": {
+				"name": "Seeking Blade",
+				"description": "Атака мечом. Если эта атака попадает в цель, вы наносите дополнительно 1...20 ед. урона. Если Seeking Blade был блокирован, цель будет 25 секунд истекать кровью и получит 1...20 ед. урона.",
+				"concise": "Атака мечом. Наносит дополнительно 1...20 ед. урона. Наносит 1...20 ед. урона и вызывает кровотечение (в течение 25 секунд), если это умение было блокировано."
+			},
+			"bork": {
+				"name": "Seekeeng Blaede-a",
+				"description": "Svurd Aettaeck. Iff thees aettaeck heets yuoo streeke-a fur +1...20 daemaege-a. Iff Seekeeng Blaede-a is blucked, yuoor taerget begeens Bleedeeng fur 25 secunds und taekes 1...20 daemaege-a.",
+				"concise": "Svurd Aettaeck. Deaels +1...20 daemaege-a. Deaels 1...20 daemaege-a und inffleects Bleedeeng cundeeshun (25 secunds) iff blucked."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "挫折",
+				"description": "负面魔法。 在5...20秒之内，使目标敌人的施法速度降低50%，这时如果目标敌人的施法被打断，将会受到5...50点伤害。",
+				"concise": "负面魔法。 在5...20秒之内，使目标敌人的施法速度降低50%，这时如果目标敌人的施法被打断，将会受到5...50点伤害。"
+			},
+			"cht": {
+				"name": "頓挫",
+				"description": "降咒魔法： 持續 5...20 秒，使目標敵人的「魔法」施展速度減慢 50% ，而且每當該目標施展「魔法」被中斷時受到 5...50 傷害。",
+				"concise": "降咒魔法： 持續 5...20 秒，使目標敵人的「魔法」施展速度減慢 50% ，而且每當該目標施展「魔法」被中斷時受到 5...50 傷害。"
+			},
 			"de": {
+				"name": "Frustration",
+				"description": "Verhexung. Während der nächsten 5...20 Sekunde[n] wirkt der Gegner seine Zauber um 50% langsamer und erleidet jedes Mal, wenn er unterbrochen wird, 5...50 Punkt[e] Schaden. Wird eine Fertigkeit unterbrochen, richtet Frustration doppelten Schaden an.",
+				"concise": "Verhexung. (5...20 Sekunde[n].) Verlangsamt die Wirkungszeit von Zaubern um 50%. Der Gegner erleidet 5...50 Punkt[e] Schaden, wenn er unterbrochen wird. Richtet doppelten Schaden bei unterbrochenen Fertigkeiten an."
+			},
+			"de-guildwiki": {
 				"name": "Frustration",
 				"description": "Während der nächsten 5...20 Sekunden wirkt der Gegner seine Zauber um 50% langsamer und erleidet jedes Mal, wenn er unterbrochen wird, 5...50 Punkte Schaden. Wird eine Fertigkeit unterbrochen, richtet Frustration doppelten Schaden an.",
 				"concise": "5...20 Sekunden: +50% zur Wirkzeit von Zaubern. Gegner erleidet jedes Mal 5...50 Punkte Schaden, wenn er unterbrochen wird. Richtet doppelten Schaden bei unterbrochenen Fertigkeiten an."
 			},
 			"en": {
 				"name": "Frustration",
+				"description": "Hex Spell. For 5...20 seconds, target foe casts spells 50% slower and takes 5...50 damage whenever interrupted. If a skill is interrupted, Frustration deals double damage.",
+				"concise": "Hex Spell. (5...20 seconds.) Causes 50% slower spell casting. Target foe takes 5...50 damage whenever interrupted. Deals double damage on skill interrupt."
+			},
+			"en-gww": {
+				"name": "Frustration",
 				"description": "For 5...20 seconds, target foe casts spells 50% slower and takes 5...50 damage whenever interrupted. If a skill is interrupted, Frustration deals double damage.",
 				"concise": "(5...20 seconds.) Causes 50% slower spell casting. Target foe takes 5...50 damage whenever interrupted. Deals double damage on skill interrupt."
 			},
+			"es": {
+				"name": "Frustración",
+				"description": "Conjuro con maleficio. Durante 5...20 segundos, el enemigo objetivo lanza los conjuros un 50% más despacio y recibe 5...50 de daño cada vez que se le interrumpa. Si se interrumpe una habilidad, la Frustración hace el doble de daño.",
+				"concise": "Conjuro con maleficio. (5...20 segundos). Hace que los conjuros tarden un 50% más en lanzarse. El enemigo objetivo recibe 5...50 de daño cada vez que se le interrumpa. Hace el doble de daño si se interrumpe una habilidad."
+			},
 			"fr": {
+				"name": "Frustration",
+				"description": "Maléfice. Pendant 5...20 secondes, la cible ennemie lance ses sorts 50% moins vite et subit 5...50 points de dégâts chaque fois qu'elle est interrompue. Si une compétence est interrompue, Frustration inflige deux fois plus de dégâts.",
+				"concise": "Maléfice. (5...20 secondes.) Entraîne un ralentissement de 50% du temps d'incantation des sorts. L'ennemi visé subit 5...50 points de dégâts chaque fois qu'il est interrompu. Inflige le double de dégâts à l'interruption de compétence."
+			},
+			"fr-gwiki": {
 				"name": "Frustration",
 				"description": "Pendant 5...20 secondes, la cible ennemie lance des sorts 50% moins vite et subit 5...50 points de dégâts chaque fois qu'elle est interrompue pendant qu'elle lance un sort. Inflige le double de dégâts chaque fois qu'une compétence est interrompue.",
 				"concise": "(5...20 secondes.) Entraîne un ralentissement de 50% du temps d'incantation des sorts. L'ennemi visé subit 5...50 points de dégâts chaque fois qu'il est interrompu. Inflige le double de dégâts à l'interruption de compétence."
+			},
+			"it": {
+				"name": "Frustrazione",
+				"description": "Fattura. Per 5...20 secondi la velocità di lancio delle magie dell'obiettivo nemico si riduce di un 50% e il nemico subisce 5...50 danni quando viene interrotto. Se viene interrotta un'abilità, la Frustrazione infligge il doppio dei danni.",
+				"concise": "Fattura. (Secondi: 5...20). Rallentamento velocità di lancio delle magie: 50%. L'obiettivo nemico subisce 5...50 danni quando viene interrotto. Infligge il doppio dei danni per le abilità interrotte."
+			},
+			"jp": {
+				"name": "フラストレーション",
+				"description": "弱体化スペル： 5...20 秒間、ターゲットした敵はスペルの詠唱速度が 50% 減少し、アクションが中断されるたびに 5...50 のダメージを受けます。中断されたアクションがスキルの場合、与えるダメージが倍増します。",
+				"concise": "弱体化スペル： (5...20 秒) スペルの詠唱速度が 50% 減少します。ターゲットした敵はアクションを中断されるたびに 5...50 のダメージを受けます。スキルを中断されると、受けるダメージが倍増します。"
+			},
+			"kr": {
+				"name": "좌절감",
+				"description": "약화 마법. 대상 지정: 적. 5...20초 동안 대상의 마법 시전이 50% 느려지고, 방해 받을 때마다 5...50의 대미지를 받습니다. 스킬을 방해 받으면 좌절감 대미지가 2배가 됩니다.",
+				"concise": "약화 마법. (5...20초) 대상의 마법 시전을 50% 느려지게 하고, 방해할 때마다 5...50의 대미지를 줍니다. 스킬을 방해하면 2배의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Frustracja",
+				"description": "Klątwa (czar). Przez 5...20 sek., wybrany przeciwnik rzuca czary o 50% wolniej i otrzymuje 5...50 pkt. obrażeń za każdym razem, kiedy jego akcja zostanie przerwana. Jeśli działanie umiejętności zostało przerwane, Frustracja zadaje podwójne obrażenia.",
+				"concise": "Klątwa (czar). (5...20 sek.) Powoduje, że rzucanie czarów jest wolniejsze o 50%. Wybrany przeciwnik otrzymuje 5...50 pkt. obrażeń, za każdym razem, kiedy jego czary zostaną przerwane. Zadaje podwójne obrażenia w momencie przerwania umiejętności."
+			},
+			"ru": {
+				"name": "Frustration",
+				"description": "Заклинание-проклятье. В течение 5...20 сек выбранный противник произносит заклинания на 50% медленнее и получает 5...50 ед. урона каждый раз, когда он будет прерван. Если будет прервано умение, противник получит в два раза больше урона.",
+				"concise": "Заклинание-проклятье. (5...20 сек) Увеличивает на 50% время активации заклинаний. Выбранный противник получает 5...50 ед. урона каждый раз, когда он будет прерван. Наносит в два раза больше урона при прерывании умения."
+			},
+			"bork": {
+				"name": "Froostraeshun",
+				"description": "Hex Spell. Fur 5...20 secunds, taerget fue-a caests spells 50% slooer und taekes 5...50 daemaege-a vhenefer interroopted. Iff a skeell is interroopted, Froostraeshun deaels duooble-a daemaege-a.",
+				"concise": "Hex Spell. (5...20 secunds.) Cooses 50% slooer spell caesteeng. Taerget fue-a taekes 5...50 daemaege-a vhenefer interroopted. Deaels duooble-a daemaege-a oon skeell interroopt."
 			}
 		}
 	}

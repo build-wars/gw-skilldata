@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 6,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "娜欧梅之光",
+				"description": "物品法术。 最多能够持有 45 秒，当你丢下娜欧梅的骨灰时，区域内的所有死亡队友将复活并恢复 15...75% 生命。",
+				"concise": "物品法术。 最多能够持有 45 秒，当你丢下娜欧梅的骨灰时，区域内的所有死亡队友将复活并恢复 15...75% 生命。"
+			},
+			"cht": {
+				"name": "復活者娜歐梅",
+				"description": "抱持魔法： 最多能夠抱持 45 秒，當你丟下娜歐梅的骨灰時，區域內的所有死亡隊友將復活並回復 15...75% 體力。",
+				"concise": "抱持魔法： 最多能夠抱持 45 秒，當你丟下娜歐梅的骨灰時，區域內的所有死亡隊友將復活並回復 15...75% 體力。"
+			},
 			"de": {
+				"name": "Lebhaft war Naomei",
+				"description": "Gegenstandszauber. Haltet Naomeis Asche bis zu 45 Sekunde[n] lang. Wenn Ihr ihre Asche fallen lasst, werden alle Gruppenmitglieder in dem Bereich mit 15...75% ihrer Lebenspunkte und 0 Energie wiederbelebt.",
+				"concise": "Gegenstandszauber. 45 Sekunde[n]: Fallwirkung: Gruppenmitglieder im Bereich werden wiederbelebt (15...75% Lebenspunkte, 0 Energiepunkte)."
+			},
+			"de-guildwiki": {
 				"name": "Lebhaft war Naomei",
 				"description": "Haltet ihre Asche bis zu 45 Sekunden lang. Wenn Ihr sie fallen lasst, werden alle Gruppenmitglieder in dem Bereich mit 15...75% ihrer Lebenspunkte und 0<sic/> Energie wiederbelebt.",
 				"concise": "45 Sekunden: Fallwirkung: Gruppenmitglieder im Bereich werden wiederbelebt (15...75% Lebenspunkte, 0 Energiepunkte)."
 			},
 			"en": {
 				"name": "Lively Was Naomei",
+				"description": "Item Spell. Hold Naomei's ashes for up to 45 seconds. When you drop her ashes, all party members in the area are resurrected with 15...75% Health and zero Energy.",
+				"concise": "Item Spell. (45 seconds.) Drop effect: resurrects party members in the area (15...75% Health and zero Energy)."
+			},
+			"en-gww": {
+				"name": "Lively Was Naomei",
 				"description": "Hold Naomei's ashes for up to 45 seconds. When you drop her ashes, all party members in the area are resurrected with 15...75% Health and zero Energy.",
 				"concise": "(45 seconds.) Drop effect: resurrects party members in the area (15...75% Health and zero Energy)."
 			},
+			"es": {
+				"name": "Vivaz sea Naomei",
+				"description": "Conjuro con objeto. Llevas las cenizas de Naomei durante 45 segundos. Al soltarlas, todos los miembros del equipo dentro de la zona resucitarán con 15...75% de salud y cero de energía.",
+				"concise": "Conjuro con objeto. (45 segundos). Efecto al soltarse: resucita a los miembros del equipo dentro de la zona (15...75% de salud y cero de energía)."
+			},
 			"fr": {
+				"name": "Namei était si gaie",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Naomei pendant un maximum de 45 secondes. Lorsque vous les déposez, tous les membres du groupe dans la zone sont ressuscités avec 15...75% de santé et aucune énergie.",
+				"concise": "Sort d'altération d'objet. (45 secondes.) Effet de la pose : ressuscite les membres du groupe dans la zone (15...75% de santé, 0 point d'énergie)."
+			},
+			"fr-gwiki": {
 				"name": "Namei était si gaie",
 				"description": "Vous tenez les cendres de ''Naomei'' pendant un maximum de 45 secondes. Lorsque vous les déposez, tous les membres du groupe dans la zone sont ressuscités avec 15...75% de santé et aucune énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Naomei era Vivace",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Naomei per un massimo di 45 secondo[i]; quando le lasci cadere, tutti i membri della squadra nell'area vengono resuscitati con un 15...75% di Salute e zero Energia.",
+				"concise": "Magia Altera-oggetto. (Secondi: 45) Rilascio: resusciti i membri della squadra nell'area (Salute: 15...75%; Energia: 0)."
+			},
+			"jp": {
+				"name": "ナーメイ ライブリー",
+				"description": "アイテム スペル： 最大 45 秒間、ナーメイの遺灰を持ちます。この遺灰を落とすと、エリア内にいる戦闘不能なパーティー メンバーはすべて 15...75% の体力と0のエネルギーで復活します。",
+				"concise": "アイテム スペル： (45 秒) ドロップ効果： このエリア内にいる戦闘不能のパーティー メンバーが 15...75% の体力と0のエネルギーで復活します。"
+			},
+			"kr": {
+				"name": "나오메이의 부활",
+				"description": "드롭아이템. 대상 지정: 없음. 45초 동안 유지되는 나오메이의 마력석을 만듭니다. 나오메이의 마력석을 바닥에 떨어뜨리면 일정 범위 내에 있는 모든 파티원이 체력 15...75%와 에너지 0인 채 부활합니다.",
+				"concise": "드롭아이템. (45초) 드롭 효과: 일정 범위 내에 있는 파티원들을 부활합니다.(체력 15...75%, 에너지 0)"
+			},
+			"pl": {
+				"name": "Żywotną Była Naomei",
+				"description": "Czar z przedmiotu. Trzymaj prochy Naomei przez maksymalnie 45 sek. Gdy upuścisz jej prochy, wszyscy członkowie drużyny w okolicy zostają wskrzeszeni z 15...75% pkt. żywotności i z zerem pkt. energii.",
+				"concise": "Czar z przedmiotu. (45 sek.) Efekt upuszczenia: wskrzesza martwych członków drużyny w okolicy (15...75% żywotności, 0 pkt. energii)."
+			},
+			"ru": {
+				"name": "Lively Was Naomei",
+				"description": "Артефактное заклинание. Вы держите прах Naomei до 45 сек. Когда вы бросаете ее прах, все члены вашего отряда в зоне досягаемости будут воскрешены с 15...75% здоровья и с 0 ед. энергии.",
+				"concise": "Артефактное заклинание. (45 сек) Эффект от бросания: воскрешает членов отряда в зоне досягаемости (15...75% здоровья, 0 ед. энергии)."
+			},
+			"bork": {
+				"name": "Leefely Vaes Naeumeee",
+				"description": "Item Spell. Huld Naeumeee's aeshes fur up tu 45 secunds. Vhee yuoo drup her aeshes, aell paerty members in zee aerea aere-a resoorrected veet 15...75% Heaelt und zeru Inergy.",
+				"concise": "Item Spell. (45 secunds.) Drup iffffect: resoorrects paerty members in zee aerea (15...75% Heaelt und zeru Inergy)."
 			}
 		}
 	}

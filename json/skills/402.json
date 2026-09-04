@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "决心之射",
+				"description": "弓术。 对目标造成5...20点额外伤害。若此技能未命中或被打断，你的所有攻击技能将立刻恢复。",
+				"concise": "弓术。 对目标造成5...20点额外伤害。若此技能未命中或被打断，你的所有攻击技能将立刻恢复。"
+			},
+			"cht": {
+				"name": "決心之箭",
+				"description": "弓術攻擊技能： 決心之箭命中時，對目標造成 5...20 額外傷害。若此技能失敗，你的所有攻擊技能回復。",
+				"concise": "弓術攻擊技能： 決心之箭命中時，對目標造成 5...20 額外傷害。若此技能失敗，你的所有攻擊技能回復。"
+			},
 			"de": {
+				"name": "Entschlossener Schuss",
+				"description": "Bogenangriff. Wenn \"Entschlossener Schuss\" trifft, fügt Ihr 5...20 Punkt[e] zusätzlichen Schaden zu. Wenn dieser Angriff fehlschlägt, werden alle Eure Angriffsfertigkeiten wieder aufgeladen.",
+				"concise": "Bogenangriff. Richtet +5...20 Punkt[e] Schaden an. Lädt Eure Angriffsfertigkeiten auf, falls der Angriff nicht trifft."
+			},
+			"de-guildwiki": {
 				"name": "Entschlossener Schuss",
 				"description": "Wenn Entschlossener Schuss trifft, fügt Ihr 5...20 Punkte zusätzlichen Schaden zu. Wenn dieser Angriff fehlschlägt, werden alle Eure Angriffsfertigkeiten wieder aufgeladen.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Lädt Eure Angriffsfertigkeiten auf, falls der Angriff nicht trifft."
 			},
 			"en": {
 				"name": "Determined Shot",
+				"description": "Bow Attack. If Determined Shot hits, you strike for +5...20 damage. If Determined Shot fails to hit, all of your attack skills are recharged.",
+				"concise": "Bow Attack. Deals +5...20 damage. Recharges your attack skills if it fails to hit."
+			},
+			"en-gww": {
+				"name": "Determined Shot",
 				"description": "If Determined Shot hits, you strike for +5...20 damage. If Determined Shot fails to hit, all of your attack skills are recharged.",
 				"concise": "Deals +5...20 damage. Recharges your attack skills if it fails to hit."
 			},
+			"es": {
+				"name": "Disparo definido",
+				"description": "Ataque con arco. Harás +5...20 de daño si golpeas al enemigo. Si este ataque falla, todas tus habilidades de ataque se recargarán.",
+				"concise": "Ataque con arco. Hace +5...20 de daño. Se recargan todas tus habilidades de ataque si falla."
+			},
 			"fr": {
+				"name": "Tir déterminé",
+				"description": "Attaque à l'arc. Si le Tir déterminé réussit, vous infligez +5...20 points de dégâts. S'il échoue toutes vos compétences d'attaques seront rechargées.",
+				"concise": "Attaque à l'arc. Inflige +5...20 points de dégâts. Recharge vos compétences d'attaque si la cible n'est pas blessée."
+			},
+			"fr-gwiki": {
 				"name": "Tir déterminé",
 				"description": "Si le Tir déterminé réussit, vous infligez +5...20 points de dégâts. S'il échoue toutes vos compétences d'attaques seront rechargées.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Determinato",
+				"description": "Attacco con Arco. Se colpisce l'obiettivo, provoca +5...20 danno[i]. Se manca il bersaglio, tutte le abilità d'attacco vengono ricaricate.",
+				"concise": "Attacco con Arco. Danni inferti: +5...20. Ricarica le tue abilità d'attacco se non va a segno."
+			},
+			"jp": {
+				"name": "デターミン ショット",
+				"description": "ボウ アタック： 攻撃が成功すると 5...20 の追加ダメージを与えます。失敗した場合、プレイヤーはすべてのアタック スキルをすぐに再使用することができます。",
+				"concise": "ボウ アタック： 5...20 の追加ダメージを与えます。攻撃に失敗すると、アタック スキルをすぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "혼신의 일발",
+				"description": "활 공격. 대상 지정: 적. 명중하면 5...20의 대미지를 추가로 줍니다. 공격이 실패하면 자신의 모든 공격 스킬이 활성화됩니다.",
+				"concise": "활 공격. 5...20의 대미지를 추가로 줍니다. 공격이 실패하면 자신의 모든 공격 스킬이 활성화됩니다."
+			},
+			"pl": {
+				"name": "Zdecydowany Strzał",
+				"description": "Strzał z łuku. Jeśli Zdecydowany Strzał trafi, zadajesz +5...20 pkt. obrażeń. Jeśli natomiast chybi, wszystkie twoje umiejętności związane z atakiem odnowią się.",
+				"concise": "Strzał z łuku. Zadaje +5...20 pkt. obrażeń. Odnawia twoje umiejętności związane z atakowaniem, jeżeli nie trafi."
+			},
+			"ru": {
+				"name": "Determined Shot",
+				"description": "Атака из лука. Если Determined Shot попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если Determined Shot окажется неудачным, все ваши атакующие умения будут перезаряжены.",
+				"concise": "Атака из лука. Наносит дополнительно 5...20 ед. урона. Ваши атакующие умения будут перезаряжены, если эта атака будет неудачной."
+			},
+			"bork": {
+				"name": "Determeened Shut",
+				"description": "Boo Aettaeck. Iff Determeened Shut heets, yuoo streeke-a fur +5...20 daemaege-a. Iff Determeened Shut faeeels tu heet, aell ooff yuoor aettaeck skeells aere-a rechaerged.",
+				"concise": "Boo Aettaeck. Deaels +5...20 daemaege-a. Rechaerges yuoor aettaeck skeells iff it faeeels tu heet."
 			}
 		}
 	}

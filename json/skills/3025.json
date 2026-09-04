@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "痊愈",
+				"description": "缚灵仪式。 创造一只级别为1...10的痊愈缚灵。在灵体范围内，所有友方身上的「症状」消失速度将加快20...50%。痊愈缚灵在30...60秒后消失。",
+				"concise": "缚灵仪式。 创造一只级别为1...10的痊愈缚灵。在灵体范围内，所有友方身上的「症状」消失速度将加快20...50%。痊愈缚灵在30...60秒后消失。"
+			},
+			"cht": {
+				"name": "痊癒",
+				"description": "縛靈儀式： 創造一隻等級 1...10 的痊癒縛靈。在縛靈影響區域內且遭受「病症」的盟友，其「病症」持續時間縮短 20...50% 秒。縛靈將在 30...60 後消失",
+				"concise": "縛靈儀式： 創造一隻等級 1...10 的痊癒縛靈。在縛靈影響區域內且遭受「病症」的盟友，其「病症」持續時間縮短 20...50% 秒。縛靈將在 30...60 後消失"
+			},
 			"de": {
+				"name": "Gesundung (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...10. Zustände, mit denen Verbündeten in Reichweite dieses Geistes belegt sind, enden um 20...50% schneller. Dieser Geist stirbt nach 30...60 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...10 (30...60 Sekunde[n] Lebensdauer). Zustände auf Verbündeten in Reichweite enden um 20...50% früher."
+			},
+			"de-guildwiki": {
 				"name": "Gesundung (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...10. Zustände, mit denen Verbündete in seiner Reichweite belegt sind, enden um 20...50% schneller. Dieser Geist stirbt nach 30...60 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...60 Sekunden Lebensdauer). Zustände auf Verbündeten in Reichweite enden um 20...50% früher."
 			},
 			"en": {
 				"name": "Recovery (PvP)",
+				"description": "Binding Ritual. Create a level 1...10 spirit. Conditions on allies within range of this spirit expire 20...50% faster. This spirit dies after 30...60 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...10 spirit (30...60 second lifespan). Conditions on allies in range expire 20...50% faster."
+			},
+			"en-gww": {
+				"name": "Recovery (PvP)",
 				"description": "Create a level 1...10 spirit. Conditions on allies within range of this spirit expire 20...50% faster. This spirit dies after 30...60 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...60 second lifespan). Conditions on allies in range expire 20...50% faster."
 			},
+			"es": {
+				"name": "Recuperación (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...10. Las condiciones que estén sufriendo los aliados de la zona de este espíritu terminarán 20...50% más deprisa. El espíritu morirá a los 30...60 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...10 (30...60 segundos de vida). Las condiciones que estén sufriendo los aliados de la zona terminarán 20...50% más deprisa."
+			},
 			"fr": {
+				"name": "Récupération (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...10. Les conditions affectant les alliés à portée de cet esprit prennent fin 20...50% plus vite. Il meurt au bout de 30...60 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...10 (durée de vie de 30...60 secondes). Les conditions dont souffrent les alliés à portée prennent fin 20...50% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Récupération (PvP)",
 				"description": "Crée un esprit de niveau 1...10. Les conditions affectant les alliés à portée de cet esprit prennent fin 20...50% plus vite. Il meurt au bout de 30...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ripresa (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...10. Le condizioni che affliggono gli alleati nel raggio d'azione dello spirito creato si esauriscono ad una velocità maggiore del 20...50%. Lo spirito si esaurisce dopo 30...60 secondi.",
+				"concise": "Rituale Incatenante. Crea uno spirito di livello 1...10 (in vita per 30...60 secondi). Incremento velocità di esaurimento delle condizioni sugli alleati nel raggio d'azione dello spirito creato: 20...50%."
+			},
+			"jp": {
+				"name": "リカバリー (PvP)",
+				"description": "バインド リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、味方にかけられている「状態異常」の持続時間が 20...50% 減少します。この精霊は 30...60 秒後に消えます。",
+				"concise": "バインド リチュアル： レベル 1...10 の精霊を召喚します (30...60 秒) 。この精霊の効果範囲内では、味方にかけられている「状態異常」の持続時間が 20...50% 減少します。"
+			},
+			"kr": {
+				"name": "치료의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼을 중심으로 일정 범위 내에 있는 아군이 걸린 상태이상의 지속 시간이 20...50% 단축됩니다. 영혼은 30...60초 후 사라집니다.",
+				"concise": "영혼 결속. 1...10레벨 영혼을 소환합니다.(수명: 30...60초) 반경 내에 있는 아군이 걸린 상태이상의 지속 시간이 20...50% 단축됩니다."
+			},
+			"pl": {
+				"name": "Ozdrowienie (PvP)",
+				"description": "Rytuał spętania. Tworzysz 1...10 poziomowego ducha. Przypadłości, na które cierpią sojusznicy w jego zasięgu kończą się o 20...50% szybciej. Duch ginie po 30...60 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...10 (czas życia 30...60 sek.). Przypadłości, na które cierpią sojusznicy w zasięgu, kończą się o 20...50% szybciej."
+			},
+			"ru": {
+				"name": "Recovery (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...10 уровня. Состояния, лежащие на союзниках, которые находятся в зоне действия этого духа, завершают свое действие на 20...50% быстрее. Этот дух умирает через 30...60 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...10 уровня (30...60 сек жизни). Состояния на союзниках в зоне его действия заканчиваются на 20...50% быстрее"
+			},
+			"bork": {
+				"name": "Recufery (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...10 spureet. Cundeeshuns oon aelleees veetheen runge-a ooff thees spureet ixpure-a 20...50% faester. Thees spureet deees aeffter 30...60 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...10 spureet (30...60 secund leeffespun). Cundeeshuns oon aelleees in runge-a ixpure-a 20...50% faester."
 			}
 		}
 	}

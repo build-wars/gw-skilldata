@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火焰祷文",
+				"description": "姿态。 「火焰祷文」会使你在受到火焰伤害时，伤害降低26...50%，同时恢复2点能量，效果持续30...90秒。",
+				"concise": "姿态。 在30...90秒之内，每当你受到火焰伤害时，伤害将降低26...50%，同时获得2点能量。"
+			},
+			"cht": {
+				"name": "火焰頌歌",
+				"description": "態勢： 持續 30...90 秒，每當你受到火焰傷害時，可降低 26...50% 傷害並且獲得 2 能量。",
+				"concise": "態勢： (30...90 秒。) 降低 26...50% 火焰傷害，同時在受到火焰傷害時獲得 2 能量。"
+			},
 			"de": {
+				"name": "Mantra des Feuers",
+				"description": "Haltung. Wann immer Ihr Feuerschaden erleidet, ist der Schaden für einen Zeitraum von 30...90 Sekunde[n] um 26...50% reduziert und Ihr erhaltet 2 Energiepunkte.",
+				"concise": "Haltung. 30...90 Sekunde[n]: Reduziert den von Euch erlittenen Feuerschaden um 26...50%. Ihr erhaltet 2 Energiepunkte, wenn Ihr Feuerschaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Mantra des Feuers",
 				"description": "Wann immer Ihr Feuerschaden erleidet, ist der Schaden für einen Zeitraum von 30...90 Sekunden um 26...50% reduziert und Ihr erhaltet 2 Energiepunkte.",
 				"concise": "30...90 Sekunden: Reduziert den von Euch erlittenen Feuerschaden um 26...50%. Ihr erhaltet 2 Energiepunkte, wenn Ihr Feuerschaden erleidet."
 			},
 			"en": {
 				"name": "Mantra of Flame",
+				"description": "Stance. For 30...90 seconds, whenever you take fire damage, the damage is reduced by 26...50% and you gain 2 Energy.",
+				"concise": "Stance. (30...90 seconds.) Reduces fire damage you take by 26...50%. You gain 2 Energy when you take fire damage."
+			},
+			"en-gww": {
+				"name": "Mantra of Flame",
 				"description": "For 30...90 seconds, whenever you take fire damage, the damage is reduced by 26...50% and you gain 2 Energy.",
 				"concise": "(30...90 seconds.) Reduces fire damage you take by 26...50%. You gain 2 Energy when you take fire damage."
 			},
+			"es": {
+				"name": "Mantra de la llama",
+				"description": "Actitud. Durante 30...90 segundos, siempre que recibas daño de fuego, el daño se reduce en un 26...50% y ganas 2 de energía.",
+				"concise": "Actitud. (30...90 segundos). Reduce el daño de fuego en un 26...50%. Ganas 2 de energía al recibir daño de fuego."
+			},
 			"fr": {
+				"name": "Mantra de flamme",
+				"description": "Pose de combat. Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts du feu, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
+				"concise": "Pose de combat. (30...90 secondes.) Réduit de 26...50% les dégâts du feu que vous subissez. Vous gagnez 2 points d'énergie quand vous subissez des dégâts du feu."
+			},
+			"fr-gwiki": {
 				"name": "Mantra de flamme",
 				"description": "Pendant 30...90 secondes, à chaque fois que vous subissez des dégâts du feu, ceux-ci sont réduits de 26...50% et vous gagnez 2 points d'énergie.",
 				"concise": "(30...90 secondes.) Réduit de 26...50% les dégâts du feu que vous subissez. Vous gagnez 2 points d'énergie quand vous subissez des dégâts du feu."
+			},
+			"it": {
+				"name": "Mantra della Fiamma",
+				"description": "Posizione. Per 30...90 secondo[i], ogni volta che subirai un danno da fuoco, questo si ridurrà del 26...50% e otterrai 2 Punti Energia.",
+				"concise": "Posizione. (Secondi: 30...90) Riduzione danni da fuoco: 26...50%. Energia conseguita quando subisci danni da fuoco: 2."
+			},
+			"jp": {
+				"name": "フレイム マントラ",
+				"description": "スタンス： 30...90 秒間、受けるファイア ダメージが 26...50% 減少し、そのたびに2のエネルギーを獲得します。",
+				"concise": "スタンス： (30...90 秒) 受けるファイア ダメージが 26...50% 減少し、そのたびに2のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "화염의 권능",
+				"description": "자세. 대상 지정: 없음. 30...90초 동안 불 대미지를 입을 때마다 26...50% 감소된 대미지를 입고, 2의 에너지를 얻습니다.",
+				"concise": "자세. (30...90초) 불 대미지를 입을 때 26...50% 감소된 대미지를 입고, 2의 에너지가 증가합니다."
+			},
+			"pl": {
+				"name": "Mantra Płomienia",
+				"description": "Postawa. Przez 30...90 sek., za każdym razem, kiedy otrzymujesz obrażenia od ognia, obrażenia zostają zmniejszone o 26...50% i zyskujesz 2 punkty energii.",
+				"concise": "Postawa. (30...90 sek.) Obrażenia od ognia, jakie otrzymujesz, zmniejszane są o 26...50%. Kiedy otrzymujesz obrażenia od ognia, dostajesz 2 pkt. energii."
+			},
+			"ru": {
+				"name": "Mantra of Flame",
+				"description": "Стойка. В течение 30...90 сек каждый раз, когда вы получаете урон силой огня, он уменьшается на 26...50%, а вы получаете 2 ед. энергии.",
+				"concise": "Стойка. (30...90 сек) Получаемый вами урон силой огня уменьшается на 26...50%. Вы получаете 2 ед. энергии при нанесении вам урона силой огня."
+			},
+			"bork": {
+				"name": "Muntra ooff Flaeme-a",
+				"description": "Stunce-a. Fur 30...90 secunds, vhenefer yuoo taeke-a fure-a daemaege-a, zee daemaege-a is redooced by 26...50% und yuoo gaeeen 2 Inergy.",
+				"concise": "Stunce-a. (30...90 secunds.) Redooces fure-a daemaege-a yuoo taeke-a by 26...50%. Yuoo gaeeen 2 Inergy vhee yuoo taeke-a fure-a daemaege-a."
 			}
 		}
 	}

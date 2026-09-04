@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信徒之火",
+				"description": "增益魔法。 每当你对友方目标施放技能时，所有邻近该目标的敌人将受到5...35点火焰伤害，同时你损失1点能量值，效果持续 60秒。",
+				"concise": "增益魔法。 每当你对友方目标施放技能时，所有邻近该目标的敌人将受到5...35点火焰伤害，同时你损失1点能量值，效果持续 60秒。"
+			},
+			"cht": {
+				"name": "狂信者之火",
+				"description": "加持魔法： 持續 60 秒，每當你以盟友為目標使用技能，所有鄰近該盟友的敵人受到 5...35 火焰傷害並且你損失 1 能量。",
+				"concise": "加持魔法： 持續 60 秒，每當你以盟友為目標使用技能，所有鄰近該盟友的敵人受到 5...35 火焰傷害並且你損失 1 能量。"
+			},
 			"de": {
+				"name": "Eifererfeuer",
+				"description": "Verzauberung. Während der nächsten 60 Sekunden erleiden jedes Mal, wenn Ihr eine Fertigkeit auf einen Verbündeten anwendet, alle diesen Verbündeten umstehenden Feinde Feuerschaden in Höhe von 5...35 Punkt[en] und Ihr verliert 1 Energiepunkte.",
+				"concise": "Verzauberung. 60 Sekunden: Jedes Mal, wenn Ihr eine Fertigkeit auf einen Verbündeten anwendet, erleiden alle umstehenden Feinde um diesen Verbündeten 5...35 Punkt[e] Feuerschaden. Schadenskosten: Ihr verliert 1 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Eifererfeuer",
 				"description": "Während der nächsten 60 Sekunden erleiden jedes Mal, wenn Ihr eine Fertigkeit auf einen Verbündeten (bzw. Euch selbst) anwendet, alle diesen Verbündeten (bzw. Euch selbst) umstehenden Feinde Feuerschaden in Höhe von 5...35 Punkten und Ihr verliert einen Energiepunkt.",
 				"concise": "60 Sekunden: Jedes Mal, wenn Ihr eine Fertigkeit auf einen Verbündeten anwendet, erleiden alle umstehenden Feinde um diesen Verbündeten 5...35 Punkte Feuerschaden. <gray>Schadenskosten: Ihr verliert 1 Energiepunkte.<sic/></gray>"
 			},
 			"en": {
 				"name": "Zealot's Fire",
+				"description": "Enchantment Spell. For 60 seconds, whenever you use a skill that targets an ally, all foes adjacent to that target are struck for 5...35 fire damage and you lose 1 Energy.",
+				"concise": "Enchantment Spell. (60 seconds.) Whenever you use a skill on an ally, all foes adjacent to that ally are hit for 5...35 fire damage. Damage cost: you lose 1 Energy."
+			},
+			"en-gww": {
+				"name": "Zealot's Fire",
 				"description": "For 60 seconds, whenever you use a skill that targets an ally, all foes adjacent to that target are struck for 5...35 fire damage and you lose 1 Energy.",
 				"concise": "(60 seconds.) Whenever you use a skill on an ally, all foes adjacent to that ally are hit for 5...35 fire damage. <gray>Damage cost: you lose 1 Energy.</gray>"
 			},
+			"es": {
+				"name": "Fuego del zelote",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, siempre que utilices una habilidad sobre un aliado, todos los enemigos adyacentes a dicho aliado reciben 5...35 de daño de fuego y tú pierdes 1 de energía.",
+				"concise": "Conjuro con encantamiento. (60 segundos). Siempre que utilices una habilidad con un aliado, todos los enemigos adyacentes a él reciben 5...35 de daño de fuego. Coste del daño: pierdes 1 de energía."
+			},
 			"fr": {
+				"name": "Feu du zélote",
+				"description": "Enchantement. Pendant 60 secondes, à chaque fois que vous utilisez une compétence sur la cible (un allié ou vous-même), tous les ennemis adjacents à la cible subissent 5...35 points de dégâts du feu et vous perdez 1 points d'énergie.",
+				"concise": "Enchantement. (60 secondes.) Chaque fois que vous utilisez une compétence sur un allié, tous les ennemis adjacents à lui subissent 5...35 points de dégâts du feu. Coût des dégâts : vous perdez 1 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Feu du zélote",
 				"description": "Pendant 60 secondes, à chaque fois que vous utilisez une compétence sur la cible (un allié ou vous-même), tous les ennemis adjacents subissent 5...35 points de dégâts du feu et vous perdez 1 point d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fuoco dello Zelota",
+				"description": "Incantesimo. Per 60 secondi, quando usi un'abilità su un alleato, tutti i nemici adiacenti a quell'alleato subiscono 5...35 danno[i] da fuoco e tu perdi 1 Punto[i] Energia.",
+				"concise": "Incantesimo. (Secondi: 60) Quando usi un'abilità su un alleato, tutti i nemici a lui adiacenti ricevono 5...35 danno[i] da fuoco. Costo del danno: perdi 1 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "ゼロット ファイア",
+				"description": "強化スペル： 60秒間、味方に対してスキルを使用するたびに、その味方に隣接するすべての敵に 5...35 のファイア ダメージを与え、プレイヤーは 1 のエネルギーを失います。",
+				"concise": "強化スペル： (60秒) 味方に対してスキルを使用するたびに、その味方に隣接するすべての敵に 5...35 のファイア ダメージを与えます。ダメージ コスト： エネルギーを 1 失います。"
+			},
+			"kr": {
+				"name": "광신의 불길",
+				"description": "강화 마법. 대상 지정: 없음. 60초 동안 아군에게 스킬을 사용할 때마다 그 아군에 인접한 모든 적은 5...35의 불 대미지를 입습니다. 자신은 1의 에너지를 잃습니다.",
+				"concise": "강화 마법. (60초) 아군에게 스킬을 사용할 때마다 그 아군에 인접한 모든 적은 5...35의 불 대미지를 입습니다. 대미지 대가: 자신은 1의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Ogień Fanatyka",
+				"description": "Zaklęcie (czar). Przez 60 sek., za każdym razem, kiedy użyjesz umiejętności, której celem będzie sojusznik, wszyscy przeciwnicy bezpośrednio przy tej osobie otrzymają 5...35 pkt. obrażeń od ognia, a ty stracisz 1 pkt. energii.",
+				"concise": "Zaklęcie (czar). (60 sek.) Za każdym razem, kiedy na sojuszniku użyjesz umiejętności, wszyscy przeciwnicy bezpośrednio przy tej osobie otrzymają po 5...35 pkt. obrażeń od ognia. Koszt obrażeń: tracisz 1 pkt. energii."
+			},
+			"ru": {
+				"name": "Zealot's Fire",
+				"description": "Заклинание-чары. В течение 60 сек каждый раз, когда вы используете умение, направленное на союзника, все окружающие этого союзника противники получают 5...35 ед. урона силой огня, а вы теряете 1 ед. энергии.",
+				"concise": "Заклинание-чары. (60 сек) Каждый раз, когда вы используете умение, направленное на союзника, все окружающие этого союзника противники получают 5...35 ед. урона силой огня. Цена урона: вы теряете 1 ед. энергии."
+			},
+			"bork": {
+				"name": "Zeaelut's Fure-a",
+				"description": "Inchuntment Spell. Fur 60 secunds, vhenefer yuoo use-a a skeell thaet taergets un aelly, aell fues aedjaecent tu thaet taerget aere-a stroock fur 5...35 fure-a daemaege-a und yuoo luse-a 1 Inergy.",
+				"concise": "Inchuntment Spell. (60 secunds.) Vhenefer yuoo use-a a skeell oon un aelly, aell fues aedjaecent tu thaet aelly aere-a heet fur 5...35 fure-a daemaege-a. Daemaege-a cust: yuoo luse-a 1 Inergy."
 			}
 		}
 	}

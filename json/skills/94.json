@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "亵渎之池",
+				"description": "法池。 消耗最一具最近的尸体或牺牲66%生命值，在其位置创造一个渎神之井，持续8...20秒。范围内敌军所有附魔效果被驱散且无法获得新附魔。（死亡魔法低于4级时有50%概率施法失败。）",
+				"concise": "法池。 （8...20秒）此泉内的敌军的附魔失效且不可成为附魔的对象。需利用新鲜的尸体或牺牲66%生命值。亡魔法低于5级时有50%概率施法失败。"
+			},
+			"cht": {
+				"name": "褻瀆之池",
+				"description": "湧泉魔法： Exploit nearest corpse or sacrifice 66% health to create a Well of the Profane at its location. For 8...20 seconds, foes in that area are stripped of all enchantments and cannot be the target of further enchantments. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "湧泉魔法： (8...20 seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse or sacrifices 66% health. 50% failure chance unless Death Magic 5 or more."
+			},
 			"de": {
+				"name": "Gottloser Brunnen",
+				"description": "Brunnenzauber. Nutzt die nächstbeste Leiche oder opfert 66 % Eurer Lebenspunkte, um an ihrem Fundort einen Brunnen des Profanen zu erzeugen. Für 8...20 Sekunden verlieren Gegner in diesem Bereich ihre sämtlichen Verzauberungen und können auch nicht mehr Ziel weiter verzaubert werden. (Bei Todesmagie von 4 oder darunter beträgt die Chance eines Fehlschlags 50 %.)",
+				"concise": "Brunnenzauber. (8...20 Sekunden). Gegner in diesem Brunnen verlieren alle Verzauberungen und können nicht Ziel späterer Verzauberungen werden. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte. 50 % Chance auf Fehlschlag, wenn Todesmagie nicht mindestens 5 beträgt."
+			},
+			"de-guildwiki": {
 				"name": "Gottloser Brunnen",
 				"description": "Der nächste Kadaver wird an seiner Position in einen Gottlosen Brunnen verwandelt. 8...20 Sekunden lang werden alle Feinde, die sich in dem Bereich aufhalten, von sämtlichen Verzauberungen befreit. Außerdem können sie nicht das Ziel weiterer Verzauberungen sein. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit eines Misserfolgs.)",
 				"concise": "(8...20 Sekunden.) Gegner in diesem Brunnen verlieren alle Verzauberungen und können nicht Ziel von weiteren Verzauberungen sein. <gray>Nutzt einen frischen Kadaver. Es besteht eine 50%ige Wahrscheinlichkeit eines Misserfolgs, es sei denn, Todesmagie ist 5 oder höher.</gray>"
 			},
 			"en": {
 				"name": "Well of the Profane",
+				"description": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of the Profane at its location. For 8...20 seconds, foes in that area are stripped of all enchantments and cannot be the target of further enchantments. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "Well Spell. (8...20 seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse or sacrifices 66% health. 50% failure chance unless Death Magic 5 or more."
+			},
+			"en-gww": {
+				"name": "Well of the Profane",
 				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of the Profane at its location. For 8...20 seconds, foes in that area are stripped of all enchantments and cannot be the target of further enchantments. (50% failure chance with Death Magic 4 or less.)",
 				"concise": "(8...20 seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. <gray>Exploits a fresh corpse or sacrifices 66% health. 50% failure chance unless Death Magic 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Pozo del profano",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo del profano en esa ubicación. Durante 8...20 segundos, los enemigos del área se librarán de todos los encantamientos y no podrán ser objetivo de otros encantamientos. (50 % de probabilidad de fallar con magia de muerte 4 o inferior).",
+				"concise": "Conjuro de pozo. (8...20 segundos). Los enemigos en este pozo se liberan de todos los encantamientos y no pueden ser objetivo de otros encantamientos. Explotas un cadáver reciente o sacrificas un 66 % de salud. 50 % de probabilidades de fallar a no ser que se utilice magia de muerte de nivel 5 o superior."
+			},
 			"fr": {
+				"name": "Puits du profane",
+				"description": "Sort de puits. Exploitez le cadavre le plus proche ou sacrifiez 66% de santé pour créer à cet endroit un Puits du profane. Pendant 8...20 secondes, les ennemis dans la zone sont privés de tous leurs enchantements et ne peuvent pas être visés par d'autres enchantements. (50% de risques d'échec avec Magie de mort 4 ou inférieure).",
+				"concise": "Sort de puits. (8...20 secondes.) Les ennemis présents dans ce puits perdent tous leurs enchantements et ne peuvent plus être la cible d'enchantements. Exploite un cadavre frais ou sacrifie 66% de la santé. 50% de risques d'échec à moins d'avoir au moins 5 points en Magie de la mort."
+			},
+			"fr-gwiki": {
 				"name": "Puits du profane",
 				"description": "Vous utilisez le cadavre le plus près pour créer un ''Puits du profane'' à cet endroit. Pendant 8...20 secondes, les ennemis dans la zone sont privés de tous leurs enchantements et ne peuvent pas être visés par d'autres enchantements (50% de risques d'échec avec Magie de la mort 4 ou inférieure).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo del Profano",
+				"description": "Pozzo. Sfrutta il cadavere più vicino o sacrifica il 66% della tua salute per creare un Pozzo del Profano alla sua posizione. Per 8...20 secondo/i, i nemici in quell'area vengono privati di tutti gli incantesimi e non possono diventare i bersagli di ulteriori incantesimi (50% di probabilità di fallire con Magia della Morte 4 o inferiore).",
+				"concise": "Pozzo. (8...20 secondo/i). I nemici in questo Pozzo perdono tutti gli incantesimi e non possono diventare bersaglio di nuovi incantesimi. Utilizza un cadavere fresco o sacrifica il 66% della Salute. Probabilità di fallimento del 50% se non si possiede almeno 5 in Magia della Morte)."
+			},
+			"jp": {
+				"name": "プロフェイン ウェル",
+				"description": "ウェル スペル： 最寄りの死体を使用するか体力の66%を犠牲にして、冒涜の泉を作ります。8...20秒間、そのエリア内にいる敵にかけられている強化スペルがすべて解除され、新たな強化スペルがかけられなくなります。（「デス」の特性レベルが4以下の場合は、50%の確率で失敗します。",
+				"concise": "ウェル スペル： （8...20秒）この泉にいる敵はすべての強化スペルを失い、新たな強化スペルがかけられなくなります。新鮮な死体を利用するか、体力の66%を犠牲にします。「デス」の特性レベルが5以上でなければ、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "이교도의 늪",
+				"description": "늪. 가장 가까운 시체를 사용하거나 체력을 66% 희생하여 그 위치에 이교도의 늪을 만듭니다. 이교도의 늪 효과 범위 내에 있는 적들은 8...20초 동안 걸려 있는 모든 강화 마법이 해제되고, 새로운 강화 마법에 걸리지 않습니다. 죽음 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "늪. (8...20초) 이교도의 늪 효과 범위 내에 있는 적들은 모든 강화 마법이 해제되고, 새로운 강화 마법의 대상이 되지 않습니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다. 죽음 특성 레벨이 4 이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Studnia Profanacji",
+				"description": "Czar studni. Wykorzystaj najbliższe zwłoki lub poświęć 66% swojej żywotności, by utworzyć Studnię Profanacji. Przez 8...20 sek. przeciwnicy w tym obszarze tracą wszystkie zaklęcia i nie mogą być celem kolejnych zaklęć. (50% szans na niepowodzenie, gdy wartość Magii Śmierci wynosi 4 lub mniej).",
+				"concise": "Czar studni. (8...20 sek.). Przeciwnicy w tej studni tracą wszystkie zaklęcia i nie mogą być celem kolejnych zaklęć. Zużywa świeże ciało lub poświęca 66% zdrowia. 50% szans na niepowodzenie, chyba że wartość Magii Śmierci wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Well of the Profane",
+				"description": "Заклинание-источник. Использует ближайший труп или жертвует 66% здоровья, чтобы создать Well of the Profane в указанной точке. На 8...20 сек. противники в области теряют все усиления и не могут получать новые. (Шанс провала — 50%, если Death Magic не выше 4.)",
+				"concise": "Заклинание-источник. (8...20 сек.) Враги в области теряют все усиления и не могут получать новые. Использует свежий труп или жертвует 66% здоровья. Шанс провала — 50%, если Death Magic ниже 5."
+			},
+			"bork": {
+				"name": "Vell ooff zee Pruffune-a",
+				"description": "Vell Spell. Ixplueet neaerest curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff zee Pruffune-a aet its lucaeshun. Fur 8...20 secunds, fues in thaet aerea aere-a streepped ooff aell inchuntments und cunnut be-a zee taerget ooff foorzeer inchuntments. (50% faeeeloore-a chunce-a veet Deaet Maegeec 4 oor less.)",
+				"concise": "Vell Spell. (8...20 secunds.) Fues in thees vell luse-a aell inchuntments und cunnut be-a zee taerget ooff foorzeer inchuntments. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt. 50% faeeeloore-a chunce-a unless Deaet Maegeec 5 oor mure-a."
 			}
 		}
 	}

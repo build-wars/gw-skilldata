@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "先人之怒",
+				"description": "技能。 对所有邻近目标盟友的敌人造成 5...110 闪电伤害。",
+				"concise": "技能。 对所有邻近目标盟友的敌人造成 5...110 闪电伤害。"
+			},
+			"cht": {
+				"name": "先人的盛怒",
+				"description": "技能： 持續 1 秒，並無特別效果，但是結束時對鄰近目標盟友的敵人造成 5...110 閃電傷害。",
+				"concise": "技能： 持續 1 秒，並無特別效果，但是結束時對鄰近目標盟友的敵人造成 5...110 閃電傷害。"
+			},
 			"de": {
+				"name": "Wut der Vorfahren",
+				"description": "Fertigkeit. 1 Sekunde[n] lang geschieht nichts. Wenn diese Fertigkeit endet, erleiden alle den Verbündeten (bzw. Euch selbst) umstehenden Feinde 5...110 Punkt[e] Blitzschaden.",
+				"concise": "Fertigkeit. 1 Sekunde[n]: Wirkung am Ende: Richtet bei umstehenden Feinden um den Verbündeten (bzw. Euch selbst) 5...110 Punkt[e] Blitzschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Wut der Vorfahren",
 				"description": "1 Sekunde lang geschieht nichts. Wenn diese Fertigkeit endet, erleiden alle den Verbündeten (bzw. Euch selbst) umstehenden Feinde 5...110 Blitzschaden.",
 				"concise": "1 Sekunde: Wirkung am Ende: Richtet bei umstehenden Feinden um den Verbündeten (bzw. Euch selbst) 5...110 Punkte Blitzschaden an."
 			},
 			"en": {
 				"name": "Ancestors' Rage",
+				"description": "Skill. For 1 seconds, nothing happens. When this skill ends, all foes adjacent to target ally take 5...110 lightning damage.",
+				"concise": "Skill. (1 seconds.) End Effect: deals 5...110 lightning damage to foes adjacent to target ally."
+			},
+			"en-gww": {
+				"name": "Ancestors' Rage",
 				"description": "For 1 second, nothing happens. When this skill ends, all foes adjacent to target ally are struck for 5...110 lightning damage.",
 				"concise": "(1 second.) End Effect: deals 5...110 lightning damage to foes adjacent to target ally."
 			},
+			"es": {
+				"name": "Rabia ancestral",
+				"description": "Habilidad. Durante 1 segundos, no ocurre nada. Cuando esta habilidad acabe, todos los enemigos adyacentes al enemigo objetivo reciben 5...110 de daño de relámpago.",
+				"concise": "Habilidad. (1 segundos). Efecto final: hace 5...110 de daño de relámpago a todos los enemigos adyacentes al objetivo (un aliado o tú mismo)."
+			},
 			"fr": {
+				"name": "Rage de l'ancêtre",
+				"description": "Compétence. Pendant 1 secondes, rien ne se passe. Lorsque cette compétence prend fin, tous les ennemis adjacents à la cible alliée subissent 5...110 points de dégâts de la foudre.",
+				"concise": "Compétence. (1 secondes.) Effet final : inflige 5...110 points de dégâts de la foudre aux ennemis adjacents à l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Rage de l'ancêtre",
 				"description": "Pendant 1 seconde, rien ne se passe. Lorsque cette compétence prend fin, tous les ennemis adjacents à la cible (allié ou vous-même) subissent 5...110 points de dégâts de la foudre.",
 				"concise": "(1 seconde.) Effet final : inflige 5...110 points de dégâts de la foudre aux ennemis adjacents à l'allié visé."
+			},
+			"it": {
+				"name": "Ira degli Antenati",
+				"description": "Abilità. Per 1 secondo[i], non si verificano effetti. Al termine dell'abilità, tutti i nemici adiacenti all'obiettivo alleato subiscono 5...110 danno[i] da fulmine.",
+				"concise": "Abilità. (Secondi: 1) Effetto al termine: assesta 5...110 danno[i] da fulmine ai nemici adiacenti all'obiettivo alleato."
+			},
+			"jp": {
+				"name": "アンセスター レイジ",
+				"description": "スキル： 1 秒間、何も起こりません。この効果が消失すると、ターゲットした味方に隣接するすべての敵に 5...110 のライトニング ダメージを与えます。",
+				"concise": "スキル： (1 秒) 終了効果： ターゲットした味方に隣接する敵に 5...110 のライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "고대용의 분노",
+				"description": "스킬. 대상 지정: 아군. 1초 동안 아무 일도 일어나지 않고, 이 스킬이 끝나면 대상에 인접한 모든 적은 5...110의 번개 대미지를 입습니다.",
+				"concise": "스킬. 대상에 인접한 모든 적에게 5...110의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Gniew Przodków",
+				"description": "Umiejętność. Przez 1 sek. nic się nie dzieje. Kiedy umiejętność przestanie działać, wszyscy przeciwnicy bezpośrednio przy wybranym sojuszniku otrzymują po 5...110 pkt. obrażeń od błyskawic.",
+				"concise": "Umiejętność. (1 sek.) Efekt końcowy: Przeciwnikom bezpośrednio przy wybranym sojuszniku zadaje po 5...110 pkt. obrażeń od błyskawic."
+			},
+			"ru": {
+				"name": "Ancestors' Rage",
+				"description": "Умение. В течение 1 сек ничего не происходит. Когда действие этого умения заканчивается, все противники, окружающие выбранного союзника, получат 5...110 ед. урона силой молнии.",
+				"concise": "Умение. (1 сек) Эффект окончания: наносит 5...110 ед. урона силой молнии противникам, окружающим выбранного союзника."
+			},
+			"bork": {
+				"name": "Uncesturs' Raege-a",
+				"description": "Skeell. Fur 1 secunds, nutheeng haeppens. Vhee thees skeell inds, aell fues aedjaecent tu taerget aelly taeke-a 5...110 leeghtneeng daemaege-a.",
+				"concise": "Skeell. (1 secunds.) Ind Iffffect: deaels 5...110 leeghtneeng daemaege-a tu fues aedjaecent tu taerget aelly."
 			}
 		}
 	}

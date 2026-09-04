@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "挫志号叫",
+				"description": "咒文。 如果目标敌军正在施法，则该敌军与范围内的敌军都被打断。敌军承受15...75点伤害，范围内敌军承受该伤害75%伤害。",
+				"concise": "咒文。 若目标敌军在施法中，则该敌军与区域内敌军均被打断。敌军承受15...75点伤害，范围内敌军承受该伤害75%的伤害。"
+			},
+			"cht": {
+				"name": "挫折哭喊",
+				"description": "咒文魔法： If target foe is using a skill, that foe and all foes in the area are interrupted. Foe suffers 15...75 damage and foes in the area take 75% of that damage.",
+				"concise": "咒文魔法： If target foe is using a skill, that foe and all foes in the area are interrupted. Foe suffers 15...75 damage and foes in the area take 75% of that damage."
+			},
 			"de": {
+				"name": "Schrei der Frustration",
+				"description": "Zauber. Wenn der anvisierte Gegner eine Fertigkeit verwendet, wird er dabei gestört, so wie auch alle anderen Gegner im Bereich. Er erleidet 15...75 Schaden, und die anderen Gegner jeweils 75 % dieses Schadens.",
+				"concise": "Zauber. Wenn der anvisierte Gegner eine Fertigkeit verwendet, wird er dabei gestört, so wie auch alle anderen Gegner im Bereich. Er erleidet 15...75 Schaden, und die anderen Gegner jeweils 75 % dieses Schadens."
+			},
+			"de-guildwiki": {
 				"name": "Schrei der Frustration",
 				"description": "Falls der Gegner eine Fertigkeit benutzt, werden er und alle Feinde in dem Bereich bei ihrer Aktion unterbrochen, der Gegner erleidet 15...75 Punkte Schaden und alle Feinde im Bereich erleiden 75% dieses Schadens (11...56).",
 				"concise": "Benutzt der Gegner eine Fertigkeit, werden er und alle Feinde im Bereich bei ihrer Aktion unterbrochen, der Gegner erleidet 15...75 Punkte Schaden und alle Feinde im Bereich erleiden 75% dieses Schadens (11...56)."
 			},
 			"en": {
 				"name": "Cry of Frustration",
+				"description": "Spell. If target foe is using a skill, that foe and all foes in the area are interrupted. Foe suffers 15...75 damage and foes in the area take 75% of that damage.",
+				"concise": "Spell. If target foe is using a skill, that foe and all foes in the area are interrupted. Foe suffers 15...75 damage and foes in the area take 75% of that damage."
+			},
+			"en-gww": {
+				"name": "Cry of Frustration",
 				"description": "If target foe is using a skill, that foe and all foes in the area are interrupted and suffer 15...75 damage and foes in the area take 75% of that damage.",
 				"concise": "If target foe is using a skill, that foe and all foes in the area are interrupted. Foe suffers 15...75 damage and foes in the area take 75% of that damage."
 			},
+			"es": {
+				"name": "Grito de frustración",
+				"description": "Conjuro. Si el enemigo objetivo está utilizando una habilidad, ese enemigo y todos los de la zona serán interrumpidos. El enemigo recibe 15...75 de daño y todos los enemigos cercanos sufren un 75 % de ese daño.",
+				"concise": "Conjuro. Si el enemigo objetivo está utilizando una habilidad, ese enemigo y todos los de la zona serán interrumpidos. El enemigo recibe 15...75 de daño y todos los enemigos cercanos sufren un 75 % de ese daño."
+			},
 			"fr": {
+				"name": "Cri de frustration",
+				"description": "Sort. Si l'ennemi ciblé est en train d'utiliser une compétence, lui et tous les ennemis dans la zone sont interrompus. Cet ennemi subit 15...75 points de dégâts et les ennemis dans la zone subissent 75% de ces dégâts.",
+				"concise": "Sort. Si l'ennemi ciblé est en train d'utiliser une compétence, lui et tous les ennemis dans la zone sont interrompus. Cet ennemi subit 15...75 points de dégâts et les ennemis dans la zone subissent 75% de ces dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Cri de frustration",
 				"description": "Si l'ennemi visé utilise une compétence, celui-ci et les autres ennemis dans la zone sont interrompus et subissent 15...75 points de dégâts.",
 				"concise": "Si l'ennemi visé utilise une compétence, lui et tous les ennemis de la zone sont interrompus et subissent 15...75 points de dégâts."
+			},
+			"it": {
+				"name": "Grido di Frustrazione",
+				"description": "Magia. Se il bersaglio nemico sta usando un'abilità, egli e tutti i nemici nell'area vengono interrotti. Il bersaglio subisce 15...75 danni e i nemici nell'area subiscono il 75% di quei danni.",
+				"concise": "Magia. Se il bersaglio nemico sta usando un'abilità, egli e tutti i nemici nell'area vengono interrotti. Il bersaglio subisce 15...75 danni e i nemici nell'area subiscono il 75% di quei danni."
+			},
+			"jp": {
+				"name": "フラストレーション クライ",
+				"description": "スペル： 標的となった敵がスキルを使用している場合、その敵とそのエリアのすべての敵の行動が中断されます。敵は15...75ダメージを受け、そのエリアの敵はそのダメージの75%を受けます。",
+				"concise": "スペル： 標的となった敵がスキルを使用している場合、その敵とそのエリアのすべての敵の行動が中断されます。敵は15...75ダメージを受け、そのエリアの敵はそのダメージの75%を受けます。"
+			},
+			"kr": {
+				"name": "좌절의 강요",
+				"description": "마법. 대상 지정: 적. 대상이 스킬을 사용하는 중이면 대상과 일정 범위 내의 적들은 동작을 방해받습니다. 대상은 15...75의 대미지를 입고 일정 범위 내의 적들은 그 대미지의 75%를 받습니다.",
+				"concise": "마법. 대상이 스킬을 사용 중이면 대상과 일정 범위 내에 있는 적들의 동작을 방해합니다. 대상은 15...75의 대미지를 입고 일정 범위 내의 적들은 그 대미지의 75%를 받습니다."
+			},
+			"pl": {
+				"name": "Krzyk Frustracji",
+				"description": "Czar. Jeżeli wybrany przeciwnik używa umiejętności, czynności tego przeciwnika i wszystkich wrogów w okolicy zostają przerwane. Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń, a pobliscy wrogowie otrzymują 75% tych obrażeń.",
+				"concise": "Czar. Jeżeli wybrany przeciwnik używa umiejętności, czynności tego przeciwnika i wszystkich wrogów w okolicy zostają przerwane. Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń, a pobliscy wrogowie otrzymują 75% tych obrażeń."
+			},
+			"ru": {
+				"name": "Cry of Frustration",
+				"description": "Заклинание. Если выбранный враг использует навык, это прерывает его и всех остальных противников в области. Цель получает 15...75 урона, а враги в области получают 75% урона.",
+				"concise": "Заклинание. Если выбранный враг использует навык, это прерывает его и всех остальных противников в области. Цель получает 15...75 урона, а враги в области получают 75% урона."
+			},
+			"bork": {
+				"name": "Cry ooff Froostraeshun",
+				"description": "Spell. Iff taerget fue-a is useeng a skeell, thaet fue-a und aell fues in zee aerea aere-a interroopted. Fue-a sooffffers 15...75 daemaege-a und fues in zee aerea taeke-a 75% ooff thaet daemaege-a.",
+				"concise": "Spell. Iff taerget fue-a is useeng a skeell, thaet fue-a und aell fues in zee aerea aere-a interroopted. Fue-a sooffffers 15...75 daemaege-a und fues in zee aerea taeke-a 75% ooff thaet daemaege-a."
 			}
 		}
 	}

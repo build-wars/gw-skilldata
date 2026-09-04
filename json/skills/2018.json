@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Anthem of Disruption",
+				"description": "圣歌。 For 1...10 seconds, the next attack skill used by each ally within earshot also interrupts an action.",
+				"concise": "圣歌。 (1...10 seconds.) Allies in earshot interrupt an action with their next attack skill."
+			},
+			"cht": {
+				"name": "瓦解聖歌",
+				"description": "聖歌： 持續 1...10 秒，音量所及範圍的每一盟友下一次使用的攻擊技能將同時中斷目標敵人動作。",
+				"concise": "聖歌： 持續 1...10 秒，音量所及範圍的每一盟友下一次使用的攻擊技能將同時中斷目標敵人動作。"
+			},
 			"de": {
+				"name": "Hymne der Störung",
+				"description": "Anfeuerungsruf. 1...10 Sekunde[n] lang unterbricht die nächste Angriffsfertigkeit jedes Verbündeten in Hörweite außerdem eine Aktion.",
+				"concise": "Anfeuerungsruf. 1...10 Sekunde[n]: Verbündete in Hörweite unterbrechen bei Benutzung ihrer nächsten Angriffsfertigkeit eine Aktion."
+			},
+			"de-guildwiki": {
 				"name": "Hymne der Störung",
 				"description": "1...10 Sekunden lang unterbricht die nächste Angriffsfertigkeit jedes Verbündeten in Hörweite außerdem eine Aktion.",
 				"concise": "1...10 Sekunden: Verbündete in Hörweite unterbrechen bei Benutzung ihrer nächsten Angriffsfertigkeit eine Aktion."
 			},
 			"en": {
 				"name": "Anthem of Disruption",
+				"description": "Chant. For 1...10 seconds, the next attack skill used by each ally within earshot also interrupts an action.",
+				"concise": "Chant. (1...10 seconds.) Allies in earshot interrupt an action with their next attack skill."
+			},
+			"en-gww": {
+				"name": "Anthem of Disruption",
 				"description": "For 1...10 seconds, the next attack skill used by each ally within earshot also interrupts an action.",
 				"concise": "(1...10 seconds.) Allies in earshot interrupt an action with their next attack skill."
 			},
+			"es": {
+				"name": "Himno de interrupción",
+				"description": "Cántico. Durante 1...10 segundos, la siguiente habilidad de ataque que usen los aliados al alcance del oído interrumpe también.",
+				"concise": "Cántico. (1...10 segundos). Los aliados al alcance del oído interrumpen una acción con su siguiente habilidad de ataque."
+			},
 			"fr": {
+				"name": "Hymne d'interruption",
+				"description": "Chant. Pendant 1...10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix interrompt également une action.",
+				"concise": "Chant. (1...10 secondes.) La compétence d'attaque suivante des alliés à portée de voix interrompt une action."
+			},
+			"fr-gwiki": {
 				"name": "Hymne d'interruption",
 				"description": "Pendant 1...10 secondes, la prochaine compétence d'attaque utilisée par chaque allié à portée de voix interrompt également une action.",
 				"concise": "(1...10 secondes.) La compétence d'attaque suivante des alliés à portée de voix interrompt une action."
+			},
+			"it": {
+				"name": "Inno del Disturbo",
+				"description": "Canto. Per 1...10 secondo[i] la prossima abilità d'attacco usata da ogni alleato a portata d'orecchio interrompe anche un'azione.",
+				"concise": "Canto. (Secondi: 1...10) Gli alleati a portata d'orecchio interrompono un'azione con l'abilità d'attacco successiva."
+			},
+			"jp": {
+				"name": "ディスラプション アンセム",
+				"description": "チャント： 1...10 秒間、声の届く範囲内にいる味方はそれぞれ、次に使用するアタック スキルにより敵のアクションも中断します。",
+				"concise": "チャント： (1...10 秒) 声の届く範囲内にいる味方はそれぞれ、次に使用するアタック スキルで敵のアクションを中断します。"
+			},
+			"kr": {
+				"name": "분열의 성가",
+				"description": "영창. 1...10초 동안 가청 범위 내에 있는 아군의 공격 스킬은 적의 동작을 방해합니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (1...10초) 가청 범위 내에 있는 아군의 공격 스킬은 적의 동작을 방해합니다. 아군마다 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Hymn Rozproszenia",
+				"description": "Zaśpiew. Przez 1...10 sek. następna umiejętność związana z atakami, używana przez każdego sojusznika w zasięgu słuchu, przerywa także czynność przeciwnika.",
+				"concise": "Zaśpiew. (1...10 sek.) Sojusznicy w zasięgu słuchu, ze swoją następną umiejętnością związaną z atakiem przerywają czynność przeciwnika."
+			},
+			"ru": {
+				"name": "Anthem of Disruption",
+				"description": "Хорал. В течение 1...10 сек следующее атакующее умение, использованное каждым находящимся в зоне слышимости союзником, также прервет действие противника.",
+				"concise": "Хорал. (1...10 сек) Союзники в зоне слышимости прервут действия противника при следующем использовании ими атакующего умения."
+			},
+			"bork": {
+				"name": "Unzeem ooff Deesroopshun",
+				"description": "Chunt. Fur 1...10 secunds, zee next aettaeck skeell used by iaech aelly veetheen iaershut aelsu interroopts un aecshun.",
+				"concise": "Chunt. (1...10 secunds.) Aelleees in iaershut interroopt un aecshun veet zeeur next aettaeck skeell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电反射",
+				"description": "姿态。 在5...11秒之内，使你「格挡」近身及穿刺攻击的几率提高75%，同时你的攻击速度提升33%。",
+				"concise": "姿态。 在5...11秒之内，使你「格挡」近身及穿刺攻击的几率提高75%，同时你的攻击速度提升33%。"
+			},
+			"cht": {
+				"name": "閃電迴避",
+				"description": "態勢： 持續 5...11 秒， 你有 75% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33% 。",
+				"concise": "態勢： 持續 5...11 秒， 你有 75% 的機會「格擋」近身及投射性攻擊，同時你的攻擊速度加快 33% 。"
+			},
 			"de": {
+				"name": "Blitzreflexe (PvP)",
+				"description": "Haltung. 5...11 Sekunde[n] lang habt Ihr eine 75%ige Chance, Nahkampf- und Geschossangriffe zu blocken, außerdem ist Eure Angriffsgeschwindigkeit um 33% höher.",
+				"concise": "Haltung. (5...11 Sekunde[n].) Ihr greift um 33% schneller an und habt eine 75%ige Chance, Angriffe zu blocken."
+			},
+			"de-guildwiki": {
 				"name": "Blitzreflexe (PvP)",
 				"description": "5...11 Sekunden lang habt Ihr eine 75%ige Chance, Nahkampf- und Geschossangriffe zu blocken, außerdem ist Eure Angriffsgeschwindigkeit um 33% höher.",
 				"concise": "5...11 Sekunden: Ihr greift um 33% schneller an und habt eine 75%ige Chance zu blocken."
 			},
 			"en": {
 				"name": "Lightning Reflexes (PvP)",
+				"description": "Stance. For 5...11 seconds, you have a 75% chance to block melee and projectile attacks, and you attack 33% faster.",
+				"concise": "Stance. (5...11 seconds.) You attack 33% faster and have 75% chance to block."
+			},
+			"en-gww": {
+				"name": "Lightning Reflexes (PvP)",
 				"description": "For 5...11 seconds, you have a 75% chance to block melee and projectile attacks, and you attack 33% faster.",
 				"concise": "(5...11 seconds.) You attack 33% faster and have 75% chance to block."
 			},
+			"es": {
+				"name": "Reflejos felinos (PvP)",
+				"description": "Actitud. Durante 5...11 segundos, tienes un 75% de posibilidades de bloquear ataques cuerpo a cuerpo y proyectiles, y atacarás un 33% más deprisa.",
+				"concise": "Actitud. (5...11 segundos.) Atacas un 33% más rápido y tienes un 75% de posibilidades de bloquear."
+			},
 			"fr": {
+				"name": "Réflexes foudroyants (PvP)",
+				"description": "Pose de combat. Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Vous attaquez aussi 33% plus vite.",
+				"concise": "Pose de combat. (5...11 secondes.) Vous attaquez 33% plus vite et avez 75% de chances de bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Réflexes foudroyants (PvP)",
 				"description": "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques au corps à corps et les projectiles. Vous attaquez aussi 33% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Riflessi Fulminei (PvP)",
+				"description": "Posizione. Per 5...11 secondi hai un 75% di probabilità di bloccare gli attacchi ravvicinati e proiettile e la tua velocità d'attacco aumenta di un 33%.",
+				"concise": "Posizione. (Secondi: 5...11) Incremento della tua velocità d'attacco: 33%. Probabilità di blocco: 75%."
+			},
+			"jp": {
+				"name": "ライトニング リフレックス (PvP)",
+				"description": "スタンス： 5...11 秒間、75%の確率で近接攻撃および遠投攻撃をブロックし、攻撃速度が33%増加します。",
+				"concise": "スタンス： (5...11 秒) 攻撃速度が33%増加し、75%の確率で攻撃をブロックします。"
+			},
+			"kr": {
+				"name": "번개의 움직임(대인전)",
+				"description": "자세. 대상 지정: 없음. 5...11초 동안 75% 확률로 근접 물리 공격이나 원거리 공격을 막고, 공격 속도가 33% 증가합니다.",
+				"concise": "자세. (5...11초) 75%의 확률로 공격을 막고, 공격 속도가 33% 증가합니다."
+			},
+			"pl": {
+				"name": "Błyskawiczny refleks (PvP)",
+				"description": "Postawa. Przez 5...11 sek., masz 75% szans na zablokowanie atak&oacute;w wręcz i strzeleckich, a dodatkowo atakujesz o 33% szybciej.",
+				"concise": "Postawa. (5...11 sek.) Atakujesz o 33% szybciej i masz 75% szans na blokowanie."
+			},
+			"ru": {
+				"name": "Lightning Reflexes (PvP)",
+				"description": "Стойка. В течение 5...11 сек вы получаете 75%-й шанс блокировать рукопашные и метательные атаки, а сами вы атакуете на 33% быстрее.",
+				"concise": "Стойка. (5...11 сек) Вы атакуете на 33% быстрее и получаете 75%-й шанс блокировать атаки."
+			},
+			"bork": {
+				"name": "Leeghtneeng Refflexes (PfP)",
+				"description": "Stunce-a. Fur 5...11 secunds, yuoo haefe-a a 75% chunce-a tu bluck melee-a und prujecteele-a aettaecks, und yuoo aettaeck 33% faester. Bork! Bork! Bork!",
+				"concise": "Stunce-a. (5...11 secunds.) Yuoo aettaeck 33% faester und haefe-a 75% chunce-a tu bluck."
 			}
 		}
 	}

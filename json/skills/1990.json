@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Falling Lotus Strike",
+				"description": "副手技。 Must strike a knocked-down foe. If it hits, you strike for +15...35 damage and gain 1...12 Energy.",
+				"concise": "副手技。 Deals +15...35 damage; you gain 1...12 Energy. No effect unless target foe is knocked-down."
+			},
+			"cht": {
+				"name": "墜蓮狙殺",
+				"description": "即刻攻擊： 必須以被「擊倒」的敵人為目標。命中時此攻擊將 +15...35 傷害，你獲得 1...12 能量。",
+				"concise": "即刻攻擊： 必須以被「擊倒」的敵人為目標。命中時此攻擊將 +15...35 傷害，你獲得 1...12 能量。"
+			},
 			"de": {
+				"name": "Fallender Lotus-Stoß",
+				"description": "Begleithandangriff. Muss einen zu Boden geworfenen Gegner treffen. Wenn Ihr erfolgreich seid, fügt Ihr +15...35 Punkt[e] Schaden zu und erhaltet 1...12 Energiepunkt[e].",
+				"concise": "Begleithandangriff. Richtet +15...35 Punkt[e] Schaden an; Ihr erhaltet 1...12 Energiepunkt[e]. Gegner muss zu Boden geworfen sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Fallender Lotus-Stoß",
 				"description": "Muss einen zu Boden geworfenen Gegner treffen. Wenn Ihr erfolgreich seid, fügt Ihr +15...35 Punkte Schaden zu und erhaltet 1...12 Energiepunkte.",
 				"concise": "Richtet +15...35 Punkte Schaden an; Ihr erhaltet 1...12 Energiepunkte. <gray>Gegner muss zu Boden geworfen sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Falling Lotus Strike",
+				"description": "Off-Hand Attack. Must strike a knocked-down foe. If it hits, you strike for +15...35 damage and gain 1...12 Energy.",
+				"concise": "Off-Hand Attack. Deals +15...35 damage; you gain 1...12 Energy. No effect unless target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Falling Lotus Strike",
 				"description": "Must strike a knocked-down foe. If it hits, you strike for +15...35 damage and gain 1...12 Energy.",
 				"concise": "Deals +15...35 damage; you gain 1...12 Energy. <gray>No effect unless target foe is knocked-down.</gray>"
 			},
+			"es": {
+				"name": "Ataque de loto caída",
+				"description": "Ataque complementario. Debe alcanzar a un enemigo derribado. Si impacta, hará +15...35 de daño y ganarás 1...12 de energía.",
+				"concise": "Ataque complementario. Hace +15...35 de daño. Ganas 1...12 de energía. No tiene efecto si el enemigo objetivo no está derribado."
+			},
 			"fr": {
+				"name": "Coup du lotus tombant",
+				"description": "Attaque main gauche. Doit toucher un ennemi assommé. Si l'attaque réussit, vous infligez +15...35 points de dégâts et bénéficiez de 1...12 points d'énergie.",
+				"concise": "Attaque main gauche. Inflige +15...35 points de dégâts. Vous gagnez 1...12 points d'énergie. Aucun effet si la cible ennemie n'est pas assommée."
+			},
+			"fr-gwiki": {
 				"name": "Coup du lotus tombant",
 				"description": "Doit toucher un ennemi assommé. Si l'attaque réussit, vous infligez +15...35 points de dégâts et bénéficiez de 1...12 point(s) d'énergie.",
 				"concise": "Inflige +15...35 points de dégâts. Vous gagnez 1...12 point(s) d'énergie. <gray>Aucun effet si la cible n'est pas assommée.</gray>"
+			},
+			"it": {
+				"name": "Colpo del Loto in Caduta",
+				"description": "Attacco con Arma Secondaria. Deve colpire un avversario abbattuto. Se va a segno infligge +15...35 danno[i] e tu ottieni 1...12 Punto[i] Energia.",
+				"concise": "Attacco con Arma Secondaria. Danni: +15...35. Ottieni 1...12 Punto[i] Energia. Ha effetto solo se l'obiettivo nemico è stato abbattuto."
+			},
+			"jp": {
+				"name": "フォール ロータス ストライク",
+				"description": "オフハンド アタック： 転倒した敵に対して使用します。攻撃が成功すると、15...35 の追加ダメージを与え、プレイヤーは 1...12 のエネルギーを獲得します。",
+				"concise": "オフハンド アタック： 15...35 の追加ダメージを与え、プレイヤーは 1...12 のエネルギーを獲得します。ターゲットした敵が転倒していない場合は無効です。"
+			},
+			"kr": {
+				"name": "타락연꽃 찌르기",
+				"description": "보조 공격. 대상 지정: 적. 넘어진 적에게 사용할 수 있습니다. 공격이 성공하면 15...35의 대미지를 추가로 주고, 1...12의 에너지를 얻습니다.",
+				"concise": "보조 공격. 15...35의 대미지를 추가로 주고, 1...12의 에너지를 얻습니다. 바닥에 넘어진 적에게 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Spadającego Lotosu",
+				"description": "Atak drugą ręką. Musi uderzyć powalonego przeciwnika. Jeśli atak trafi, zadajesz +15...35 pkt. obrażeń i otrzymujesz 1...12 pkt. energii.",
+				"concise": "Atak drugą ręką. Zadaje +15...35 pkt. obrażeń; otrzymujesz 1...12 pkt. energii. Bez efektu, chyba że wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Falling Lotus Strike",
+				"description": "Атака второй рукой. Должен наноситься по сбитому с ног противнику. Если удар попадает в цель, вы наносите дополнительно 15...35 ед. урона и получаете 1...12 ед. энергии.",
+				"concise": "Атака второй рукой. Наносит дополнительно 15...35 ед. урона; вы получаете 1...12 ед. энергии. Не действует, если выбранный противник не был сбит с ног."
+			},
+			"bork": {
+				"name": "Faelleeng Lutoos Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost streeke-a a knucked-doon fue-a. Iff it heets, yuoo streeke-a fur +15...35 daemaege-a und gaeeen 1...12 Inergy.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +15...35 daemaege-a; yuoo gaeeen 1...12 Inergy. Nu iffffect unless taerget fue-a is knucked-doon."
 			}
 		}
 	}

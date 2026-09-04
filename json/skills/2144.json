@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Volley",
+				"description": "弓术。 All your preparations are removed. Shoot arrows at target foe and up to 3 foes adjacent to your target. These arrows strike for +1...10 damage if they hit.",
+				"concise": "弓术。 Deals +1...10 damage. Hits up to 3 foes adjacent to your target. All your preparations are removed."
+			},
+			"cht": {
+				"name": "齊發",
+				"description": "弓術攻擊技能： 你的所有準備狀態被移除。射箭攻擊目標敵人附近最多 3 敵人。這些箭於命中時將造成 +1...10 傷害。",
+				"concise": "弓術攻擊技能： 你的所有準備狀態被移除。射箭攻擊目標敵人附近最多 3 敵人。這些箭於命中時將造成 +1...10 傷害。"
+			},
 			"de": {
+				"name": "Salve",
+				"description": "Bogenangriff. Entfernt alle Eure Vorbereitungen. Schießt Pfeile auf Euren Zielgegner und bis zu 3 um ihn herum stehende Feinde. Diese Pfeile fügen +1...10 Punkt[e] Schaden zu, wenn sie treffen.",
+				"concise": "Bogenangriff. Richtet +1...10 Punkt[e] Schaden an. Trifft bis zu 3 umstehende Feinde um den Gegner. Entfernt alle Eure Vorbereitungen."
+			},
+			"de-guildwiki": {
 				"name": "Salve",
 				"description": "Entfernt alle Eure Vorbereitungen und Glyphen. Schießt Pfeile auf Euren Zielgegner und bis zu 3 um ihn herum stehende Feinde. Diese Pfeile fügen +1...10 Punkte Schaden zu, wenn sie treffen.",
 				"concise": "Richtet +1...10 Punkte Schaden an. Trifft bis zu 3 umstehende Feinde um den Gegner. <gray>Entfernt alle Eure Vorbereitungen und Glyphen.</gray>"
 			},
 			"en": {
 				"name": "Volley",
+				"description": "Bow Attack. All your preparations are removed. Shoot arrows at target foe and up to 3 foes adjacent to your target. These arrows strike for +1...10 damage if they hit.",
+				"concise": "Bow Attack. Deals +1...10 damage. Hits up to 3 foes adjacent to your target. All your preparations are removed."
+			},
+			"en-gww": {
+				"name": "Volley",
 				"description": "All your Preparations are removed. Shoot arrows at target foe and up to 3 foes adjacent to your target. These arrows strike for +1...10 damage if they hit.",
 				"concise": "Deals +1...10 damage. Hits up to 3 foes adjacent to your target. <gray>All your preparations are removed.</gray>"
 			},
+			"es": {
+				"name": "Embestida de flechas",
+				"description": "Ataque con arco. Se eliminan todas tus preparaciones. Disparas flechas al enemigo objetivo y a un máximo de 3 enemigos adyacentes a él, que harán +1...10 de daño si impactan.",
+				"concise": "Ataque con arco. Hace +1...10 de daño. Alcanza a un máximo de 3 enemigos adyacentes a tu objetivo. Se eliminan todas tus preparaciones."
+			},
 			"fr": {
+				"name": "Volée",
+				"description": "Attaque à l'arc. Toutes vos préparations sont annulées. Vous décochez des flèches sur la cible ennemie et un maximum de 3 ennemis adjacents à votre cible. Ces flèches infligent +1...10 points de dégâts si elles touchent l'ennemi.",
+				"concise": "Attaque à l'arc. Inflige +1...10 points de dégâts. Frappe un maximum de 3 ennemis adjacents à votre cible. Toutes vos préparations sont annulées."
+			},
+			"fr-gwiki": {
 				"name": "Volée",
 				"description": "Toutes vos préparations sont annulées. Vous décochez des flèches sur un maximum de 3 ennemis adjacents à votre cible. Ces flèches infligent +1...10 point de dégâts si elles touchent l'ennemi.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro al Volo",
+				"description": "Attacco con Arco. Rimuove tutte le tue Preparazioni. Scocca le frecce contro l'obiettivo nemico e un massimo di 3 nemico[i] a lui adiacente[i]. Se vanno a segno provocano +1...10 danno[i].",
+				"concise": "Attacco con Arco. Danni inferti: +1...10. Colpisce fino a 3 nemico[i] adiacenti al tuo obiettivo. Tutte le tue preparazioni vengono rimosse."
+			},
+			"jp": {
+				"name": "ヴァリー",
+				"description": "ボウ アタック： プレパレーションがすべて解除されます。ターゲットした敵およびターゲットに隣接する最大 3 体の敵に弓攻撃を仕掛けます。矢が命中すると、1...10 の追加ダメージを与えます。",
+				"concise": "ボウ アタック： ターゲットした敵と隣接する最大 3 体の敵に 1...10 の追加ダメージを与えます。プレイヤーにかけられているプレパレーション スキルがすべて解除されます。"
+			},
+			"kr": {
+				"name": "일제 사격",
+				"description": "활 공격. 취하고 있던 준비 스킬이 모두 끝납니다. 대상과 그에 인접한 적 3명에게 화살을 날려 적중하면 1...10의 대미지를 추가로 줍니다.",
+				"concise": "활 공격. 대상과 그에 인접한 적 3명에게 1...10의 대미지를 추가로 줍니다. 취하고 있던 준비 스킬이 모두 끝납니다."
+			},
+			"pl": {
+				"name": "Salwa",
+				"description": "Strzał z łuku. Wszystkie twoje przygotowania zostają przerwane. Wystrzeliwujesz strzały w wybranego przeciwnika i maksymalnie 3 przeciwników będących bezpośrednio przy nim. Te strzały trafiając, zadają +1...10 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Zadaje +1...10 pkt. obrażeń. Trafia 3 przeciwników bezpośrednio przy twoim celu. Usuwane są twoje wszystkie przygotowania."
+			},
+			"ru": {
+				"name": "Volley",
+				"description": "Атака из лука. Все ваши подготовки отменяются. Вы выпускаете стрелы по своей цели и по противникам (до 3), окружающим вашу цель. Эти стрелы наносят дополнительно 1...10 ед. урона при попадании.",
+				"concise": "Атака из лука. Наносит дополнительно 1...10 ед. урона. Поражает до 3 противников, окружающих вашу цель. Все ваши подготовки отменяются."
+			},
+			"bork": {
+				"name": "Fulley",
+				"description": "Boo Aettaeck. Aell yuoor prepaeraeshuns aere-a remufed. Shuut aerroos aet taerget fue-a und up tu 3 fue-as aedjaecent tu yuoor taerget. Zeese-a aerroos streeke-a fur +1...10 daemaege-a iff zeey heet.",
+				"concise": "Boo Aettaeck. Deaels +1...10 daemaege-a. Heets up tu 3 fues aedjaecent tu yuoor taerget. Aell yuoor prepaeraeshuns aere-a remufed."
 			}
 		}
 	}

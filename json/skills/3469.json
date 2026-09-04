@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻象斗篷",
+				"description": "Flash Enchantment Spell。 在1...7秒之内，你格挡攻击的几率提高30...60%。当此「增益魔法」消失时，所有邻近的敌人将受到10...40点地系伤害。",
+				"concise": "Flash Enchantment Spell。 在1...7秒之内，你格挡攻击的几率提高30...60%。当此「增益魔法」消失时，所有邻近的敌人将受到10...40点地系伤害。"
+			},
+			"cht": {
+				"name": "魔幻掩蔽",
+				"description": "即刻加持魔法： 持續 1...7 秒，你有 30...60% 機率格檔攻擊。施展此加持時，對附近敵人造成 10...40 土系傷害。",
+				"concise": "即刻加持魔法： 持續 1...7 秒，你有 30...60% 機率格檔攻擊。施展此加持時，對附近敵人造成 10...40 土系傷害。"
+			},
 			"de": {
+				"name": "Trugbild-Umhang",
+				"description": "Blitzverzauberung. 1...7 Sekunde[n] lang habt Ihr eine 30...60%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt, erleiden alle Feinde in der Nähe 10...40 Punkt[e] Erdschaden.",
+				"concise": "Blitzverzauberung. (1...7 Sekunde[n].) Ihr habt eine 30...60%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkt[e] Erdschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Trugbild-Umhang (PvP)",
 				"description": "1...7 Sekunden lang habt Ihr eine 30...60%ige Chance Angriffe zu blocken. Wenn Ihr Verzauberung wirkt<sic/>, erleiden alle Feinde in der Nähe 10...40 Erdschaden.",
 				"concise": "(1...7 Sekunden.) Ihr habt eine 30...60%ige Chance zu blocken. Anfangswirkung: Richtet bei in der Nähe befindlichen Feinden 10...40 Punkte Erdschaden an."
 			},
 			"en": {
 				"name": "Mirage Cloak (PvP)",
+				"description": "Flash Enchantment Spell. For 1...7 seconds, you have a 30...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...40 earth damage.",
+				"concise": "Flash Enchantment Spell. (1...7 seconds.) You have 30...60% chance to block. Initial Effect: deals 10...40 earth damage to nearby foes."
+			},
+			"en-gww": {
+				"name": "Mirage Cloak (PvP)",
 				"description": "For 1...7 second[s], you have a 30...60% chance to block incoming attacks. When you cast this enchantment, all nearby foes are struck for 10...40 earth damage.",
 				"concise": "(1...7 second[s].) You have 30...60% chance to block. Initial Effect: deals 10...40 earth damage to nearby foes."
 			},
+			"es": {
+				"name": "Manto milagroso",
+				"description": "Conjuro con encantamiento de destello. Durante 1...7 segundos, tienes un 30...60% de probabilidad de bloquear ataques. Cuando lanzas este encantamiento, todos los enemigos cercanos reciben 10...40 de daño de tierra.",
+				"concise": "Conjuro con encantamiento de destello. (1...7 segundos). Tienes un 30...60% de probabilidad de bloquear. Efecto inicial: hace 10...40 de daño de tierra a los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Manteau de mirage",
+				"description": "Enchantement instantané. Pendant 1...7 secondes, vous avez 30...60% de chances de bloquer les attaques. Lorsque vous lancez cet enchantement, tous les ennemis adjacents reçoivent 10...40 points de dégâts de la terre.",
+				"concise": "Enchantement instantané. (1...7 secondes.) Vous avez 30...60 % de chances de bloquer les attaques. Effet initial : inflige 10...40 points de dégâts de la terre aux ennemis proches."
+			},
+			"fr-gwiki": {
 				"name": "Manteau de mirage (PvP)",
 				"description": "Pendant 1...7 seconde(s), vous avez 30...60% de chances de bloquer les attaques. Lorsque vous lances cet enchantement, tous les ennemis adjacents reçovient 10...40 points de dégâts de la Terre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mantello del Miraggio",
+				"description": "Incantesimo Lampo. Per 1...7 secondi hai un 30...60% di probabilità di bloccare gli attacchi in arrivo. Quando lanci questo incantesimo, tutti i nemici nei dintorni subiscono 10...40 danni da terra.",
+				"concise": "Incantesimo Lampo. (Secondi: 1...7). Probabilità di blocco: 30...60%. Effetto iniziale: danni da terra ai nemici nei dintorni: 10...40."
+			},
+			"jp": {
+				"name": "ミラージュ クローク",
+				"description": "フラッシュ強化スペル： 1...7 秒間、30...60% の確率で受ける攻撃をブロックします。この強化スペルを詠唱すると、周囲にいるすべての敵に 10...40 のアース ダメージを与えます。",
+				"concise": "フラッシュ強化スペル： (1...7 秒)30...60% の確率でブロックします。発動効果：周囲にいる敵に 10...40 のアース ダメージを与えます。"
+			},
+			"kr": {
+				"name": "신기루 망토",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 1...7초 동안 30...60%의 확률로 공격을 막습니다. 이 강화 마법을 시전할 때 부근의 모든 적에게 10...40의 대지 대미지를 줍니다.",
+				"concise": "순간 시전 강화 마법. (1...7초) 30...60%의 확률로 공격을 막아냅니다. 초기 효과: 부근의 적들에게 10...40의 대지 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Okrycie Mirażem",
+				"description": "Zaklęcie błysku (czar). Przez 1...7 sek., otrzymujesz dodatkowe 30...60% szans na zablokowanie ataków. Gdy rzucisz to zaklęcie, wszyscy pobliscy wrogowie zostaną trafieni za 10...40 pkt. obrażeń od ziemi.",
+				"concise": "Zaklęcie błysku (czar). (1...7 sek.) Masz 30...60% szans na blok. Efekt początkowy: Zadaje 10...40 obrażeń od ziemi pobliskim wrogom."
+			},
+			"ru": {
+				"name": "Mirage Cloak",
+				"description": "Мгновенное заклинание-чары. В течение 1...7 сек у вас есть 30...60%-й шанс блокировать направленные против вас атаки. Когда вы активируете эти чары, все противники поблизости получают 10...40 ед. урона силой земли.",
+				"concise": "Мгновенное заклинание-чары. (1...7 сек) Вы получаете 30...60%-й шанс блокировать атаки. Начальный эффект: наносит 10...40 ед. урона силой земли противникам поблизости."
+			},
+			"bork": {
+				"name": "Muraege-a Cluaek (PfP)",
+				"description": "Flaesh Inchuntment Spell. Fur 1...7 secunds, yuoo haefe-a a 30...60% chunce-a tu bluck incumeeng aettaecks. Vhee yuoo caest thees inchuntment, aell neaerby fues aere-a stroock fur 10...40 iaert daemaege-a.",
+				"concise": "Flaesh Inchuntment Spell. (1...7 secunds.) Yuoo haefe-a 30...60% chunce-a tu bluck. Ineeteeael Iffffect: deaels 10...40 iaert daemaege-a tu neaerby fues."
 			}
 		}
 	}

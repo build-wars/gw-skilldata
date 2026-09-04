@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电冲击",
+				"description": "负面魔法。 Strike target foe for 10...60 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 20...40 lightning damage.",
+				"concise": "负面魔法。 Deals 10...60 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 20...40 lightning damage."
+			},
+			"cht": {
+				"name": "閃電衝擊",
+				"description": "降咒魔法： Strike target foe for 10...60 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 20...40 lightning damage.",
+				"concise": "降咒魔法： Deals 10...60 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 20...40 lightning damage."
+			},
 			"de": {
+				"name": "Blitzschlag",
+				"description": "Verhexung. Fügt dem Gegner 10...60 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 20...40 Punkte Blitzschaden zugefügt.",
+				"concise": "Verhexung. Richtet 10...60 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 20...40 Punkte Blitzschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Blitzschlag",
 				"description": "Fügt dem Gegner 10...60 Punkte Blitzschaden zu. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, wird dieser Gegner für 3 Sekunden mit Blitzschlag verhext. Wenn diese Verhexung endet, wird diesem Gegner noch einmal 20...40 Punkte Blitzschaden zugefügt.",
 				"concise": "Richtet 10...60 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Verhext für 3 Sekunden, wenn Überzaubert. Wirkung am Ende: Richtet 20...40 Punkte Blitzschaden an."
 			},
 			"en": {
 				"name": "Lightning Strike",
+				"description": "Hex Spell. Strike target foe for 10...60 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 20...40 lightning damage.",
+				"concise": "Hex Spell. Deals 10...60 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 20...40 lightning damage."
+			},
+			"en-gww": {
+				"name": "Lightning Strike",
 				"description": "Strike target foe for 10...60 lightning damage. This spell has 25% armor penetration. If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds. When this hex ends, that foe is struck again for 20...40 lightning damage.",
 				"concise": "Deals 10...60 lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 20...40 lightning damage."
 			},
+			"es": {
+				"name": "Ataque de relámpago",
+				"description": "Conjuro con maleficio. Alcanzas al enemigo objetivo con 10...60 de daño de relámpago. Este conjuro tiene un 25% de penetración de armadura. Si estás sobrelanzando, ese enemigo queda maldito con Ataque de relámpago durante 3 segundos. Cuando este maleficio acabe, el enemigo recibirá 20...40 de daño de relámpago.",
+				"concise": "Conjuro con maleficio. Causa 10...60 de daño de relámpago. 25% de penetración de armadura. Maldito durante 3 segundos si estás sobrelanzando. Efecto final: causa 20...40 de daño de relámpago."
+			},
 			"fr": {
+				"name": "Eclair foudroyant",
+				"description": "Maléfice. Inflige 10...60 points de dégâts de la foudre à l'ennemi visé. Ce sort a 25% de pénétration d'armure. Si vous êtes en état d'Afflux, la cible ennemie est affectée par un maléfice pendant 3 secondes. Lorsque ce maléfice prend fin, cet ennemi subit à nouveau 20...40 points de dégâts de la foudre.",
+				"concise": "Maléfice. Inflige 10...60 points de dégâts de la foudre. 25% de pénétration d'armure. Inflige un maléfice pendant 3 secondes en état d'Afflux. Effet final : inflige 20...40 points de dégâts de la foudre."
+			},
+			"fr-gwiki": {
 				"name": "Eclair foudroyant",
 				"description": "L'ennemi subit 5...50 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure.",
 				"concise": "Inflige 5...50 points de la foudre. Pénétration d'armure de 25%."
+			},
+			"it": {
+				"name": "Colpo di Fulmine",
+				"description": "Fattura. L'obiettivo nemico subisce 10...60 danni da fulmine. Questa magia ha una penetrazione dell'armatura del 25%. Se sei sotto Sforzo, quel nemico viene colpito da Colpo di Fulmine per 3 secondi. Quando la fattura termina, l'obiettivo subisce nuovamente danni da fulmine per 20...40 secondi.",
+				"concise": "Fattura. Danni da fulmine inferti: 10...60. Penetrazione armatura: 25%. Durata fattura se sotto Sforzo: 3 secondi. Effetto al termine: danni da fulmine inferti: 20...40."
+			},
+			"jp": {
+				"name": "ライトニング ストライク",
+				"description": "弱体化スペル： ターゲットした敵に 10...60 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。プレイヤーが「疲労」状態の場合、その敵を 3 秒間弱体化します。この効果が消失するとき、その敵に再び 20...40 のライトニング ダメージを与えます。",
+				"concise": "弱体化スペル： 10...60 のライトニング ダメージを与えます。この攻撃には25%のアーマー貫通効果があります。「疲労」状態の場合、その敵を 3 秒間弱体化します。終了効果： 20...40 のライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "번개 강타",
+				"description": "약화 마법. 대상 지정: 적. 대상에게 10...60의 번개 대미지를 줍니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다. 자신이 탈진 상태면 대상은 3초 동안 번개 강타 약화 마법에 걸립니다. 약화 효과가 끝날 때 대상은 20...40의 번개 대미지를 다시 입습니다.",
+				"concise": "약화 마법. 10...60의 번개 대미지를 줍니다. 25%의 갑옷 관통 효과를 갖습니다. 자신이 탈진 상태면 약화를 겁니다. 종료 효과: 20...40의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Uderzenie Błyskawicą",
+				"description": "Klątwa (czar). Wybranemu przeciwnikowi zadajesz 10...60 pkt. obrażeń od elektryczności. To zaklęcie ma 25% penetrację pancerza. Jeśli jesteś pod wpływem Przemagicznienia, ten przeciwnik zostanie przeklęty Uderzeniem Pioruna przez 3 sek. Gdy klątwa dobiega końca, cel zostaje raz jeszcze trafiony przez piorun za 20...40 pkt. obrażeń od elektryczności.",
+				"concise": "Klątwa (czar). Zadaje 10...60 pkt. obrażeń od elektryczności. 25% penetracji pancerza. Klątwa na 3 sek. podczas Przemagicznienia. Efekt końcowy: zadaje 20...40 pkt. obrażeń od elektryczności."
+			},
+			"ru": {
+				"name": "Lightning Strike",
+				"description": "Заклинание-проклятье. Наносит выбранному противнику 10...60 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника. Если вы утомлены, на этого противника будет наложено проклятье Lightning Strike на 3 сек. Когда действие этого проклятья заканчивается, этот противник снова получит 20...40 ед. урона силой молнии.",
+				"concise": "Заклинание-проклятье. Наносит 10...60 ед. урона силой молнии. Игнорирует 25% защиты противника. Накладывает проклятье на 3 сек, если вы утомлены. Эффект окончания: наносит 20...40 ед. урона силой молнии."
+			},
+			"bork": {
+				"name": "Leeghtneeng Streeke-a",
+				"description": "Hex Spell. Streeke-a taerget fue-a fur 10...60 leeghtneeng daemaege-a. Thees spell haes 25% aermur penetraeshun. Iff yuoo aere-a Oofercaest, thaet fue-a is hexed veet Leeghtneeng Streeke-a fur 3 secunds. Vhee thees hex inds, thaet fue-a is stroock aegaeeen fur 20...40 leeghtneeng daemaege-a.",
+				"concise": "Hex Spell. Deaels 10...60 leeghtneeng daemaege-a. 25% aermur penetraeshun. Hex fur 3 secunds iff Oofercaest. Ind iffffect: deaels 20...40 leeghtneeng daemaege-a."
 			}
 		}
 	}

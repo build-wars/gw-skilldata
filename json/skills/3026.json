@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 4,
 		"adrenaline_precise": 4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"攻击要害！\"",
+				"description": "战吼。 在10秒之内，「音波」范围内任何友方的下一次攻击都将有额外30...75%的几率打出致命一击。",
+				"concise": "战吼。 在10秒之内，「音波」范围内任何友方的下一次攻击都将有额外30...75%的几率打出致命一击。"
+			},
+			"cht": {
+				"name": "「攻擊要害！」",
+				"description": "戰嚎： 持續 10 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 30...75% 。",
+				"concise": "戰嚎： 持續 10 秒，在音量所及範圍內的盟友，「下一次」攻擊造成致命傷害的機率增加 30...75% 。"
+			},
 			"de": {
+				"name": "\"Zielt auf die Augen!\" (PvP)",
+				"description": "Schrei. 10 Sekunde[n] lang hat der nächste Angriff jedes Verbündeten in Hörweite zusätzlich eine 30...75%ige Chance, ein kritischen Treffer zu sein.",
+				"concise": "Schrei. (10 Sekunde[n].) Verbündete in Hörweite haben mit ihrem nächsten Angriff eine um +30...75% größere Chance für einen kritischen Treffer."
+			},
+			"de-guildwiki": {
 				"name": "\"Zielt auf die Augen!\" (PvP)",
 				"description": "10 Sekunden lang hat der nächste Angriff jedes Verbündeten in Hörweite eine 30...75%ige Chance, ein kritischen Treffer<sic/> zu sein.",
 				"concise": "10 Sekunden: Verbündete in Hörweite haben mit ihrem nächsten Angriff eine um +30...75% größere Chance für einen kritischen Treffer."
 			},
 			"en": {
 				"name": "\"Go for the Eyes!\" (PvP)",
+				"description": "Shout. For 10 seconds, the next time each ally within earshot makes an attack, that attack has an additional 30...75% chance to critical.",
+				"concise": "Shout. (10 seconds.) Allies in earshot have +30...75% chance to land a critical hit with their next attack."
+			},
+			"en-gww": {
+				"name": "\"Go for the Eyes!\" (PvP)",
 				"description": "For 10 seconds, the next time each ally within earshot makes an attack, that attack has an additional 30...75% chance to critical.",
 				"concise": "(10 seconds.) Allies in earshot have +30...75% to land a critical hit with their next attack."
 			},
+			"es": {
+				"name": "\"¡A la yugular!\" (PvP)",
+				"description": "Grito. Durante 10 segundos, la próxima vez que algún aliado al alcance del oído ataque, habrá un 30...75% de posibilidades que sea un golpe crítico.",
+				"concise": "Grito. (10 segundos.) Los aliados al alcance del oído tienen +30...75% de probabilidades de hacer un golpe crítico con su siguiente ataque."
+			},
 			"fr": {
+				"name": "\"Visez les yeux !\" (PvP)",
+				"description": "Cri. Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix lance une attaque, cette attaque a 30...75% de chances d'infliger un coup critique.",
+				"concise": "Cri. (10 secondes.) Les alliés à portée de voix ont +30...75% de chances d'infliger un coup critique avec leur attaque suivante."
+			},
+			"fr-gwiki": {
 				"name": "\"Visez les yeux !\" (PvP)",
 				"description": "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix lance une attaque, cette attaque a 30...75% de chances d'infliger un coup critique.",
 				"concise": "(10 secondes.) Les alliés à portée de voix ont +30...75% de chances d'infliger un coup critique avec leur attaque suivante."
+			},
+			"it": {
+				"name": "\"Punta agli Occhi!\" (PvP)",
+				"description": "Urlo. Dura 10 secondi; la prossima volta che ogni alleato a portata d'orecchio compie un attacco ci sarà un 30...75% di probabilità che sia critico.",
+				"concise": "Urlo. (Secondi: 10). Aumento probabilità degli alleati a portata d'orecchio di assestare un colpo critico con il loro attacco successivo: +30...75%."
+			},
+			"jp": {
+				"name": "ゴー フォー アイズ！(PvP)",
+				"description": "シャウト： 10 秒間、声の届く範囲内にいる味方が次に行なう攻撃はそれぞれ、クリティカル ヒットになる確率が 30...75% 増加します。",
+				"concise": "シャウト： (10 秒) 声の届く範囲内にいる味方は、次の攻撃がクリティカル ヒットになる確率が 30...75% 増加します。"
+			},
+			"kr": {
+				"name": "집중해서 노려라!(대인전)",
+				"description": "고함. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 아군이 치명타를 터뜨릴 확률이 30...75% 증가합니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "고함. (10초) 가청 범위 내에 있는 아군이 처음 공격에 치명타를 터뜨릴 확률이 30...75% 증가합니다."
+			},
+			"pl": {
+				"name": "Po Oczach! (PvP)",
+				"description": "Okrzyk. Przez 10 sek., następny atak wykonany przez każdego sojusznika w zasięgu słuchu ma dodatkowe 30...75% szans na trafienie krytyczne.",
+				"concise": "Okrzyk. (10 sek.) Sojusznicy w zasięgu słuchu mają +30...75% szans na wykonanie trafienia krytycznego w czasie swojego następnego ataku."
+			},
+			"ru": {
+				"name": "\"Go for the Eyes!\" (PvP)",
+				"description": "Крик. В течение 10 сек в следующий раз, когда каждый союзник, находящийся в зоне слышимости, будет атаковать, это атака получит дополнительно 30...75%-й шанс завершиться критическим попаданием.",
+				"concise": "Крик. (10 сек) Союзники в зоне слышимости получают дополнительно 30...75%-й шанс нанести критический удар при следующей атаке."
+			},
+			"bork": {
+				"name": "\"Gu fur zee Iyes!\" (PfP)",
+				"description": "Shuoot. Fur 10 secunds, zee next teeme-a iaech aelly veetheen iaershut maekes un aettaeck, thaet aettaeck haes un aeddeeshunael 30...75% chunce-a tu creeteecael.",
+				"concise": "Shuoot. (10 secunds.) Aelleees in iaershut haefe-a +30...75% chunce-a tu lund a creeteecael heet veet zeeur next aettaeck."
 			}
 		}
 	}

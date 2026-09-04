@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "影交织",
+				"description": "精英增益魔法。 使用「影步」接近目标盟友，当你取消这项「增益魔法」时，你将返回原点。",
+				"concise": "精英增益魔法。 使用「影步」接近目标盟友，当你取消这项「增益魔法」时，你将返回原点。"
+			},
+			"cht": {
+				"name": "暗影結合",
+				"description": "精英加持魔法： 利用暗影步伐傳送至目標盟友處。當你停止維持這項「加持」時，你將會回到發動此技能的位置。",
+				"concise": "精英加持魔法： 利用暗影步伐傳送至目標盟友處。當你停止維持這項「加持」時，你將會回到發動此技能的位置。"
+			},
 			"de": {
+				"name": "Schattenverschmelzung",
+				"description": "Elite-Verzauberung. Ihr unternehmt einen Schattenschritt zum Verbündeten hin. Wenn Ihr diese Verzauberung nicht länger aufrechterhaltet, kehrt Ihr an Euren ursprünglichen Ort zurück.",
+				"concise": "Elite-Verzauberung. Unternehmt einen Schattenschritt zum Verbündeten. Wirkung am Ende: Ihr kehrt zur anfänglichen Position zurück. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Schattenverschmelzung",
 				"description": "Ihr unternehmt einen Schattenschritt zum Verbündeten hin. Wenn Ihr diese Verzauberung nicht länger aufrechterhaltet, kehrt Ihr an Euren ursprünglichen Ort zurück.",
 				"concise": "Unternehmt einen Schattenschritt zum Verbündeten. Wirkung am Ende: Ihr kehrt zur anfänglichen Position zurück. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Shadow Meld",
+				"description": "Elite Enchantment Spell. Shadow Step to target other ally. When you stop maintaining this enchantment, you return to your original location.",
+				"concise": "Elite Enchantment Spell. Shadow Step to target ally. End effect: return to your original location. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Shadow Meld",
 				"description": "Shadow Step to target other ally. When you stop maintaining this Enchantment, you return to your original location.",
 				"concise": "Shadow Step to target ally. End effect: return to your original location. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Mezcla sombría",
+				"description": "Conjuro con encantamiento de élite. Das un paso sombrío hasta el aliado objetivo. Cuando acabe este encantamiento, volverás a tu ubicación original.",
+				"concise": "Conjuro con encantamiento de élite. Das un paso sombrío hasta el aliado objetivo. Efecto final: vuelves a tu ubicación original. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Mêlée de l'ombre",
+				"description": "Enchantement d'élite. Vous faites une foulée de l'Ombre vers l'allié ciblé. Lorsque vous cessez d'utiliser cet enchantement, vous retournez à votre position d'origine.",
+				"concise": "Enchantement d'élite. Vous faites une foulée de l'ombre vers l'allié visé. Effet final : vous retournez sur votre position d'origine. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Mêlée de l'ombre",
 				"description": "Vous faites une Foulée de l'Ombre vers l'allié ciblé. Lorsque vous cessez d'utiliser cet enchantement, vous retournez à votre position d'origine.",
 				"concise": "Vous faites une foulée de l'ombre vers l'allié visé. Effet final : vous retournez sur votre position d'origine. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "Fusione con l'Ombra",
+				"description": "Incantesimo d'Élite. Compi un Passo nell'Ombra verso l'obiettivo alleato. Quando smetti di mantenere questo incantesimo torni nella posizione iniziale.",
+				"concise": "Incantesimo d'Élite. Compi un Passo nell'Ombra verso l'obiettivo alleato. Effetto al termine: torni nel punto di partenza. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "シャドウ メルド",
+				"description": "エリート強化スペル： ターゲットした自分以外の味方のそばへ瞬間移動します。この効果が消失すると、プレイヤーは元の場所へ戻ります。",
+				"concise": "エリート強化スペル： ターゲットした味方のそばに瞬間移動します。終了効果： 元の場所へ戻ります。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "그림자 동화",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 대상의 위치로 순간 이동합니다. 마법 유지를 끝내면 처음 위치로 되돌아옵니다. 이 스킬은 자신에게 사용할 수 없습니다.",
+				"concise": "엘리트 강화 마법. 대상이 있는 위치로 순간 이동합니다. 종료 효과: 처음 위치로 되돌아옵니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Cieniste Połączenie",
+				"description": "Elitarne zaklęcie (czar). Wykonujesz krok cienia do wybranego sojusznika innego niż ty. Gdy przestaniesz utrzymywać to zaklęcie, wracasz do miejsca, gdzie zostało rzucone.",
+				"concise": "Elitarne zaklęcie (czar). Wykonujesz krok cienia do wybranego sojusznika. Efekt końcowy: wracasz do swojego początkowego miejsca. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Shadow Meld",
+				"description": "Элитное заклинание-чары. Вы делаете призрачный шаг к выбранному союзнику. Когда вы перестаете поддерживать эти чары, вы возвращаетесь к своей первоначальной позиции.",
+				"concise": "Элитное заклинание-чары. Вы делаете призрачный шаг к выбранному союзнику. Эффект окончания: вы возвращаетесь в первоначальное местоположение. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Shaedoo Meld",
+				"description": "Ileete-a Inchuntment Spell. Shaedoo Step tu taerget oozeer aelly. Vhee yuoo stup maeeentaeeeneeng thees inchuntment, yuoo retoorn tu yuoor ooreegeenael lucaeshun.",
+				"concise": "Ileete-a Inchuntment Spell. Shaedoo Step tu taerget aelly. Ind iffffect: retoorn tu yuoor ooreegeenael lucaeshun. Cunnut selff-taerget."
 			}
 		}
 	}

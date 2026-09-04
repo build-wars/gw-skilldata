@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "愈合之曲",
+				"description": "回音技。 在15秒之内，使「非灵体」的目标盟友获得2...3点「生命再生」。当「圣歌」或「战吼」的效果在盟友身上消失时，此「回音技」的效果将被重置。",
+				"concise": "回音技。 在15秒之内，使「非灵体」的目标盟友获得2...3点「生命再生」。当「圣歌」或「战吼」的效果在盟友身上消失时，此「回音技」的效果将被重置。"
+			},
+			"cht": {
+				"name": "修補合聲",
+				"description": "迴響： 持續15秒，目標盟友體力再生增加2...3， 每當戰嚎或者聖歌在該盟友身上終止時，此迴響時間回復至15秒。",
+				"concise": "迴響： 持續15秒，目標盟友體力再生增加2...3， 每當戰嚎或者聖歌在該盟友身上終止時，此迴響時間回復至15秒。"
+			},
 			"de": {
+				"name": "Genesungsrefrain",
+				"description": "Echo. 15 Sekunde[n] lang erfreut sich der Nicht-Geister-Verbündete einer Lebenspunktregeneration von +2...3. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. 15 Sekunde[n]: Der Verbündete (bzw. Ihr selbst) hat +2...3 Lebenspunktregeneration. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Genesungsrefrain",
 				"description": "15 Sekunden erfreut sich der Nicht-Geister-Verbündete (bzw. Ihr selbst) einer Lebenspunkteregeneration von +2...3. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "15 Sekunden: Der Verbündete (bzw. Ihr selbst) hat +2...3 Lebenspunktregeneration. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Mending Refrain",
+				"description": "Echo. For 15 seconds, target non-spirit ally has +2...3 Health regeneration. This echo is reapplied every time a chant or shout ends on that ally.",
+				"concise": "Echo. (15 seconds.) Target ally has +2...3 Health regeneration. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Mending Refrain",
 				"description": "For 15 seconds, target non-spirit ally has +2...3 Health regeneration. This echo is reapplied every time a chant or shout ends on that ally.",
 				"concise": "(15 seconds.) Target ally has +2...3 Health regeneration. Renewal: whenever a chant or shout ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Estribillo sanador",
+				"description": "Eco. Durante 15 segundos, el aliado objetivo no espíritu tiene +2...3 de regeneración de salud. Este eco se reactivará cada vez que los efectos de un grito o cántico terminen en el aliado",
+				"concise": "Eco. (15 segundos). El objetivo (un aliado o tú mismo) tiene +2...3 de regeneración de salud. Renovación: cada vez que los efectos de un cántico o grito acaben en él.No se puede apuntar a un espíritu."
+			},
 			"fr": {
+				"name": "Refrain de réparation",
+				"description": "Echo. Pendant 15 secondes, la cible alliée (autre qu'un esprit) bénéficie d'une régénération de santé de +2...3. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+				"concise": "Echo. (15 secondes.) L'allié visé bénéficie d'une régénération de santé de +2...3. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Refrain de réparation",
 				"description": "Pendant 15 secondes, la cible alliée (autre qu'un esprit) bénéficie d'une régénération de santé de +2...3. Cet écho est répété chaque fois qu'un chant ou un cri sur cet allié prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ritornello Riparatore",
+				"description": "Eco. Per 15 secondo[i], l'obiettivo alleato (Spiriti esclusi) ha una Rigenerazione della Salute di +2...3. Questa eco si rinnova ogni volta che un canto o un urlo termina su quell'alleato.",
+				"concise": "Eco. (Secondi: 15) Rigenerazione Salute dell'obiettivo alleato: +2...3. Rinnovo: ogni volta che un canto o un urlo termina su quell'alleato. Impossibile selezionare gli Spiriti."
+			},
+			"jp": {
+				"name": "メンド リフレイン",
+				"description": "エコー： 15 秒間、ターゲットした精霊以外の味方は、体力の自然回復力が 2...3 増加します。この効果は、その味方にかけられたチャントやシャウトの効果が消失するたびに再適用されます。",
+				"concise": "エコー： (15 秒) ターゲットした味方は体力の自然回復力が 2...3 増加します。更新： ターゲットした味方にかけられているチャントまたはシャウトの効果が消失するたび。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "보충의 공명",
+				"description": "공명. 대상 지정: 아군. 15초 동안 영혼이 아닌 대상의 체력 재생이 2...3 증가합니다. 이 공명은 대상에 걸린 고함이나 영창이 끝날 때마다 새로 시작됩니다.",
+				"concise": "공명. (15초) 대상 아군의 체력 재생이 2...3 증가합니다. 갱신 조건: 대상에 걸린 고함이나 영창이 끝날 때마다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Zaśpiew Ozdrowienia",
+				"description": "Echo. Przez 15 sek. wybrany sojusznik nie-duch posiada regenerację żywotności +2...3. To echo jest ponownie nakładane za każdym razem, kiedy przestanie na tym sojuszniku działać zaśpiew lub okrzyk.",
+				"concise": "Echo. (15 sek.) Wybrany sojusznik posiada regenerację żywotności +2...3. Odnowienie: za każdym razem, kiedy przestaje na tym sojuszniku działać zaśpiew lub okrzyk. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Mending Refrain",
+				"description": "Эхо. В течение 15 сек скорость восстановления здоровья выбранного союзника, не являющегося духом, увеличивается на 2...3 ед. Это эхо применяется заново каждый раз, когда заканчивает свое действие хорал или крик, влияющий на этого союзника.",
+				"concise": "Эхо. (15 сек) Выбранный союзник получает +2...3 ед. к скорости восстановления здоровья. Обновление: каждый раз, когда заканчивается хорал или крик, влияющий на этого союзника. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Mendeeng Reffraeeen",
+				"description": "Ichu. Fur 15 secunds, taerget nun-spureet aelly haes +2...3 Heaelt regeneraeshun. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon thaet aelly.",
+				"concise": "Ichu. (15 secunds.) Taerget aelly haes +2...3 Heaelt regeneraeshun. Renooael: Vhenefer a chunt oor shuoot inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

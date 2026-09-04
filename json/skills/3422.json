@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Time Ward",
+				"description": "精英结界魔法。 You create a Time Ward at your current location. For 6...20 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster. PvE Skill",
+				"concise": "精英结界魔法。 (6...20 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. Allied spirits are not affected. PvE Skill"
+			},
+			"cht": {
+				"name": "Time Ward",
+				"description": "精英結界魔法： You create a Time Ward at your current location. For 6...20 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster. PvE Skill",
+				"concise": "精英結界魔法： (6...20 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. Allied spirits are not affected. PvE Skill"
+			},
 			"de": {
+				"name": "Zeitabwehr",
+				"description": "Elite-Abwehrzauber. Ihr erschafft eine Zeitabwehr an Eurem aktuellen Standort. Für 6...20 Sekunden wirken verbündete Nicht-Geister Zauber in diesem Gebiet um 15...20 % schneller und Fertigkeiten laden um 15...20 % schneller auf. PvE-Fertigkeit",
+				"concise": "Elite-Abwehrzauber. (6...20 Sekunden.) Verbündete in dieser Abwehr wirken Zauber um 15...20 % schneller und Fertigkeiten laden um 15...20 % schneller auf. Betrifft nicht verbündete Geister. PvE-Fertigkeit"
+			},
+			"de-guildwiki": {
 				"name": "Zeitabwehr",
 				"description": "Ihr erschaftt eine Zeitabwehr an Eurem aktuellen Standort. Für 6...20 Sekunden wirken verbündete Nicht-Geister Zauber in diesem Gebiet um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf.",
 				"concise": "(6...20 Sekunden.) Verbündete in dieser Abwehr wirken Zauber um 15...20% schneller und Fertigkeiten laden um 15...20% schneller auf. Betrifft nicht verbündete Geister."
 			},
 			"en": {
 				"name": "Time Ward",
+				"description": "Elite Ward Spell. You create a Time Ward at your current location. For 6...20 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster. PvE Skill",
+				"concise": "Elite Ward Spell. (6...20 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. Allied spirits are not affected. PvE Skill"
+			},
+			"en-gww": {
+				"name": "Time Ward",
 				"description": "You create a Time Ward at your location. For 6...20 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster.",
 				"concise": "(6...20 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. <gray>Allied spirits are not affected. PvE Skill</gray>"
 			},
+			"es": {
+				"name": "Defensa de tiempo",
+				"description": "Conjuro de protección de élite. Creas una Defensa de tiempo en tu ubicación actual. Durante 6...20 segundos, los aliados que no sean espíritus y que estén en el área lanzarán los hechizos un 15...20 % más rápido y recargarán las habilidades un 15...20 % más rápido. Habilidad de PvE",
+				"concise": "Conjuro de protección de élite. (6...20 segundos). Los aliados protegidos por esta defensa lanzan los hechizos un 15...20 % más rápido y recargan las habilidades un 15...20 % más rápido. No afecta a espíritus aliados. Habilidad de PvE"
+			},
 			"fr": {
+				"name": "Protection du temps",
+				"description": "Sort de protection d'élite. Vous créez une Protection du Temps sur votre position actuelle. Pendant 6...20 secondes, les alliés situés dans cette zone et qui ne sont pas des esprits lancent des sorts 15...20 % plus vite et recharge leurs compétences 15...20 % plus vite. Compétence PvE",
+				"concise": "Sort de protection d'élite. (6...20 secondes.) Les alliés situés dans cette zone lancent des sorts 15...20 % plus vite et recharge leurs compétences 15...20 % plus vite. Les alliés qui ne sont pas des esprits ne sont pas affectés. Compétence PvE"
+			},
+			"fr-gwiki": {
 				"name": "Protection du temps",
 				"description": "Vous créez une Protection du Temps sur votre position actuelle. Pendant 3...15 secondes, les alliés situés dans cette zone et qui ne sont pas des esprits lancent des sorts 15...10% plus vite et recharge leurs compétences 15..20% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sfera temporale",
+				"description": "Guardia d'Élite. Crei una sfera temporale nel luogo in cui ti trovi. Per 6...20 sec. gli alleati non-spiriti in quest'area lanciano incantesimi più velocemente (15...20%) e ricaricano le abilità più in fretta (15...20%). Abilità PvE",
+				"concise": "Guardia d'Élite. (6...20 sec.) Gli alleati in quest'area lanciano incantesimi (+15...20%) e ricaricano abilità (+15...20%) più in fretta. Non riguarda gli spiriti alleati. Abilità PvE"
+			},
+			"jp": {
+				"name": "Time Ward",
+				"description": "エリート ウォード スペル： You create a Time Ward at your current location. For 6...20 seconds, non-spirit allies in this area cast spells 15...20% faster and recharge skills 15...20% faster. PvE Skill",
+				"concise": "エリート ウォード スペル： (6...20 seconds.) Allies in this ward cast spells 15...20% faster and recharge skills 15...20% faster. Allied spirits are not affected. PvE Skill"
+			},
+			"kr": {
+				"name": "시간의 경계",
+				"description": "엘리트 결계. 대상 지정: 없음. 6...20초 동안 자신의 주변에 마법 결계를 만듭니다. 일정 범위 내에 있는 영혼이 아닌 아군의 마법 시전 속도가 15...20%만큼 빨라지고, 스킬 재활성 시간이 15...20%만큼 빨라집니다. PvE 스킬",
+				"concise": "엘리트 결계. (6...20초) 결계 내에 있는 아군의 마법 시전 속도가 15...20%만큼 빨라지고, 스킬 재활성 시간이 15...20%만큼 빨라집니다. 부근에 있는 아군의 영혼은 영향을 받지 않습니다. PvE 스킬"
+			},
+			"pl": {
+				"name": "Totem Czasu",
+				"description": "Elitarna ochrona (czar). Tworzysz Totem Czasu w miejscu, w którym się znajdujesz. Przez 6...20 sek, wszyscy nieduchowi sojusznicy rzucający czary w tym obszarze robią to 15...20% szybciej a ich umiejętności odnawiają się 15...20% szybciej. Umiejętność PvE",
+				"concise": "Elitarna ochrona (czar). (6...20 sek.) Sojusznicy w zasięgu totemu rzucają czary o 15...20% szybciej i ich zdolności odnawiają się o 15...20% szybciej. Przyjazne duchy nie są objęte tym efektem. Umiejętność PvE"
+			},
+			"ru": {
+				"name": "Оберег Времени",
+				"description": "Элитное заклинание опеки. Создает \"Оберег Времени\" в вашем текущем местоположении. В течение 6...20 сек. союзники (кроме духов) в зоне действия оберега накладывают заклинания на 15...20% быстрее и восстанавливают умения на 15...20% быстрее. PvE-умение",
+				"concise": "Элитное заклинание опеки. (6...20 сек.) Союзники в зоне действия оберега накладывают заклинания на 15...20% быстрее и восстанавливают умения на 15...20% быстрее. Не действует на союзников-духов. PvE-умение"
+			},
+			"bork": {
+				"name": "Teeme-a Vaerd",
+				"description": "Ileete-a Vaerd Spell. Yuoo creaete-a a Teeme-a Vaerd aet yuoor coorrent lucaeshun. Fur 6...20 secunds, nun-spureet aelleees in thees aerea caest spells 15...20% faester und rechaerge-a skeells 15...20% faester. PfE-a Skeell",
+				"concise": "Ileete-a Vaerd Spell. (6...20 secunds.) Aelleees in thees vaerd caest spells 15...20% faester und rechaerge-a skeells 15...20% faester. Aelleeed spureets aere-a nut aeffffected. PfE-a Skeell"
 			}
 		}
 	}

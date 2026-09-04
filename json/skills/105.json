@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致命虫群",
+				"description": "咒文。 「致命虫群」缓慢地飞出，同时对范围内最多三个目标造成30...90点冰冻伤害。",
+				"concise": "咒文。 「致命虫群」缓慢地飞出，同时对范围内最多三个目标各造成30...90点冰冻伤害。"
+			},
+			"cht": {
+				"name": "致命蟲群",
+				"description": "咒文魔法： 致命蟲群緩慢地飛出，同時對範圍內最多三個目標造成 30...90 冰凍傷害。",
+				"concise": "咒文魔法： 致命蟲群緩慢地飛出，同時對範圍內最多三個目標造成 30...90 冰凍傷害。"
+			},
 			"de": {
+				"name": "Tödlicher Schwarm",
+				"description": "Zauber. Tödlicher Schwarm breitet sich langsam aus und fügt bis zu drei Zielen in dem Bereich 30...90 Punkt[e] Kälteschaden zu.",
+				"concise": "Zauber. Tödlicher Schwarm breitet sich langsam aus und richtet 30...90 Punkt[e] Kälteschaden an. Trifft zwei weitere Feinde im Bereich."
+			},
+			"de-guildwiki": {
 				"name": "Tödlicher Schwarm",
 				"description": "Tödlicher Schwarm breitet sich langsam aus und fügt bis zu drei Zielen in dem Bereich 30...90 Punkte Kälteschaden zu.",
 				"concise": "Tödlicher Schwarm breitet sich langsam aus und richtet 30...90 Punkte Kälteschaden an. Trifft zwei weitere Feinde im Bereich."
 			},
 			"en": {
 				"name": "Deathly Swarm",
+				"description": "Spell. Deathly Swarm flies out slowly and strikes for 30...90 cold damage on up to three targets in the area.",
+				"concise": "Spell. Deathly Swarm flies out slowly and deals 30...90 cold damage. Hits two additional foes in the area."
+			},
+			"en-gww": {
+				"name": "Deathly Swarm",
 				"description": "Deathly Swarm flies out slowly and strikes for 30...90 cold damage on up to three targets in the area.",
 				"concise": "Deathly Swarm flies out slowly and deals 30...90 cold damage. Hits two additional foes in the area."
 			},
+			"es": {
+				"name": "Enjambre mortal",
+				"description": "Conjuro. El Enjambre mortal sobrevolará lentamente un máximo de tres objetivos en la zona y les hará 30...90 de daño de frío.",
+				"concise": "Conjuro. El enjambre mortal vuela lentamente y hace 30...90 de daño frío. Alcanza a 2 enemigos más en la zona."
+			},
 			"fr": {
+				"name": "Essaim mortel",
+				"description": "Sort. L'Essaim mortel vole lentement et inflige 30...90 points de dégâts du froid à trois cibles maximum dans la zone.",
+				"concise": "Sort. Essaim mortel se déplace lentement et inflige 30...90 points de dégâts du froid. Frappe 2 ennemis supplémentaires dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Essaim mortel",
 				"description": "L'Essaim mortel vole lentement et inflige 30...90 points de dégâts du froid à trois cibles maximum dans la zone.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sciame Mortale",
+				"description": "Magia. Lo Sciame Mortale vola lentamente e infligge 30...90 danno[i] da freddo ad un massimo di tre obiettivi nell'area.",
+				"concise": "Magia. Sciame Mortale vola lentamente e assesta 30...90 danno[i] da freddo. Colpisce altri 2 nemici nell'area."
+			},
+			"jp": {
+				"name": "デスリー スウォーム",
+				"description": "スペル： エリア内にいる最大3体のターゲットに向かって虫の群れが飛んでいき、30...90 のコールド ダメージを与えます。",
+				"concise": "スペル： ターゲットおよびエリア内にいる2体の敵に向かってゆっくりと危険な虫の群れが飛んでいき、30...90 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "죽음의 벌떼",
+				"description": "마법. 대상 지정: 적. 대상과 일정 범위 내의 적 2명에게 죽음의 벌떼를 날려 30...90의 냉기 대미지를 줍니다.",
+				"concise": "마법. 죽음의 벌떼가 느린 속도로 날아가 30...90의 냉기 대미지. 일정 범위 내에 있는 적 둘을 추가로 공격합니다."
+			},
+			"pl": {
+				"name": "Śmiercionośny Rój",
+				"description": "Czar. Śmiercionośny Rój wylatuje powoli i zadaje 30...90 pkt. obrażeń od zimna maksymalnie trzem przeciwnikom w okolicy.",
+				"concise": "Czar. Śmiercionośny Rój przemieszcza się powoli i zadaje 30...90 pkt. obrażeń od zimna. Dodatkowo trafia dwóch przeciwników w okolicy."
+			},
+			"ru": {
+				"name": "Deathly Swarm",
+				"description": "Заклинание. Deathly Swarm медленно вылетает наружу и поражает до трех целей в зоне досягаемости, нанося каждой 30...90 ед. урона силой холода.",
+				"concise": "Заклинание. Медленный метательный снаряд: наносит 30...90 ед. урона силой холода. Поражает дополнительно двух противников в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Deaethly Svaerm",
+				"description": "Spell. Deaethly Svaerm fleees oooot slooly und streekes fur 30...90 culd daemaege-a oon up tu three-a taergets in zee aerea. Bork! Bork! Bork!",
+				"concise": "Spell. Deaethly Svaerm fleees oooot slooly und deaels 30...90 culd daemaege-a. Heets tvu aeddeeshunael fues in zee aerea."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恢复冲击",
+				"description": "负面魔法。 对目标敌人造成2...12点闪电伤害。如果你持有物品，那么此技能将可以立即再次使用。",
+				"concise": "负面魔法。 对目标敌人造成2...12点闪电伤害。如果你持有物品，那么此技能将可以立即再次使用。"
+			},
+			"cht": {
+				"name": "復原震盪",
+				"description": "降咒魔法： 持續 8 秒，目標敵人每秒受到 2...12 傷害。此降咒終止時你獲得 1...8 能量。",
+				"concise": "降咒魔法： 持續 8 秒，目標敵人每秒受到 2...12 傷害。此降咒終止時你獲得 1...8 能量。"
+			},
 			"de": {
+				"name": "Erneuernde Welle",
+				"description": "Verhexung. 8 Sekunde[n] lang erleidet der Gegner 2...12 Punkt[e] Schaden pro Sekunde. Wenn diese Verhexung endet, erhaltet Ihr 1...8 Energiepunkt[e].",
+				"concise": "Verhexung. (8 Sekunde[n].) Richtet 2...12 Punkt[e] Schaden pro Sekunde an. Wirkung am Ende: Ihr erhaltet 1...8 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Erneuernde Welle",
 				"description": "8 Sekunden lang erleidet der Gegner 2...12 Punkte Schaden pro Sekunde. Wenn diese Verhexung endet, erhaltet Ihr 1...8 Energiepunkte.",
 				"concise": "(8 Sekunden.) Richtet 2...12 Punkte Schaden pro Sekunde an. Wirkung am Ende: Erhaltet 1...8 Energiepunkte."
 			},
 			"en": {
 				"name": "Renewing Surge",
+				"description": "Hex Spell. For 8 seconds, target foe suffers 2...12 damage each second. When this hex ends, you gain 1...8 Energy.",
+				"concise": "Hex Spell. (8 seconds.) Deals 2...12 damage each second. End effect: You gain 1...8 Energy."
+			},
+			"en-gww": {
+				"name": "Renewing Surge",
 				"description": "For 8 seconds, target foe suffers 2...12 damage each second. When this hex ends, you gain 1...8 Energy.",
 				"concise": "(8 seconds.) Deals 2...12 damage each second. End effect: You gain 1...8 energy."
 			},
+			"es": {
+				"name": "Oleada renovadora",
+				"description": "Conjuro con maleficio. Durante 8 segundos, el enemigo objetivo recibe 2...12 de daño por segundo. Cuando este maleficio acabe, ganas 1...8 de energía.",
+				"concise": "Conjuro con maleficio. (8 segundos). Hace 2...12 de daño por segundo. Efecto final: Ganas 1...8 de energía."
+			},
 			"fr": {
+				"name": "Afflux de renouvellement",
+				"description": "Maléfice. Pendant 8 secondes, la cible ennemie subit 2...12 points de dégâts par seconde. Lorsque ce maléfice prend fin, vous gagnez 1...8 points d'énergie.",
+				"concise": "Maléfice. (8 secondes.) Inflige 2...12 points de dégâts par seconde. Effet final : vous gagnez 1...8 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Afflux de renouvellement",
 				"description": "Pendant 8 secondes, la cible ennemie subit 2...12 dégâts par seconde. Lorsque ce maléfice prend fin, vous gagnez 1...8 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Impeto Rinnovante",
+				"description": "Fattura. Per 8 secondo[i] l'obiettivo nemico riceve 2...12 danno[i] al secondo. Al termine della fattura, ottieni 1...8 Punto[i] Energia.",
+				"concise": "Fattura. (Secondo[i]: 8). Danni inferti: 2...12 al secondo. Effetto al termine: Energia ottenuta: 1...8."
+			},
+			"jp": {
+				"name": "リニュー サージ",
+				"description": "弱体化スペル： 8 秒間、ターゲットした敵に毎秒 2...12 のダメージを与えます。この効果が消失すると、プレイヤーは 1...8 のエネルギーを獲得します。",
+				"concise": "弱体化スペル： (8 秒) 毎秒 2...12 のダメージを与えます。終了効果：1...8 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "파동의 재생",
+				"description": "약화 마법. 대상 지정: 적. 8초 동안 대상은 매초 2...12의 대미지를 입습니다. 효과가 끝나면 자신은 1...8의 에너지를 얻습니다.",
+				"concise": "약화 마법. (8초) 매초 2...12의 대미지를 줍니다. 종료 효과: 1...8의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Odnawialny Udar",
+				"description": "Klątwa (czar). Przez 8 sek., wybrany przeciwnik otrzymuje co sekundę 2...12 pkt. obrażeń. Kiedy klątwa dobiegnie końca, otrzymujesz 1...8 pkt. energii.",
+				"concise": "Klątwa (czar). (8 sek.) Co sekundę zadaje 2...12 pkt. obrażeń. Efekt końcowy: otrzymujesz 1...8 pkt. energii."
+			},
+			"ru": {
+				"name": "Renewing Surge",
+				"description": "Заклинание-проклятье. В течение 8 сек выбранный противник получает 2...12 ед. урона каждую секунду. Когда действие этого проклятья заканчивается, вы получаете 1...8 ед. энергии.",
+				"concise": "Заклинание-проклятье. (8 сек) Наносит 2...12 ед. урона каждую секунду. Эффект окончания: вы получаете 1...8 ед. энергии."
+			},
+			"bork": {
+				"name": "Renooeeng Soorge-a",
+				"description": "Hex Spell. Fur 8 secunds, taerget fue-a sooffffers 2...12 daemaege-a iaech secund. Vhee thees hex inds, yuoo gaeeen 1...8 Inergy.",
+				"concise": "Hex Spell. (8 secunds.) Deaels 2...12 daemaege-a iaech secund. Ind iffffect: Yuoo gaeeen 1...8 Inergy."
 			}
 		}
 	}

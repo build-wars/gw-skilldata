@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "守护者之盾",
+				"description": "增益魔法。 持续 2...6 秒，使目标盟友有 75% 概率格挡敌人的攻击，而当目标盟友成功格挡攻击时，该目标及其附近的所有盟友获得 10...40 生命，同时守护者之盾的效果终止。",
+				"concise": "增益魔法。 持续 2...6 秒，使目标盟友有 75% 概率格挡敌人的攻击，而当目标盟友成功格挡攻击时，该目标及其附近的所有盟友获得 10...40 生命，同时守护者之盾的效果终止。"
+			},
+			"cht": {
+				"name": "守護者之盾",
+				"description": "加持魔法： 持續 2...6 秒，使目標盟友有 75% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 10...40 體力，同時守護者之盾的效果終止。",
+				"concise": "加持魔法： 持續 2...6 秒，使目標盟友有 75% 機率「格擋」敵人的攻擊，而當目標盟友成功「格擋」攻擊時，該目標及其附近的所有盟友獲得 10...40 體力，同時守護者之盾的效果終止。"
+			},
 			"de": {
+				"name": "Schildwächter",
+				"description": "Verzauberung. 2...6 Sekunde[n] lang erhalten alle Gruppenmitglieder in Hörweite eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff geblockt wird, werden alle Verbündeten in Hörweite um 10...40 Lebenspunkt[e] geheilt und Schildwächter endet.",
+				"concise": "Verzauberung. (2...6 Sekunde[n].) Gruppenmitglieder in Hörweite haben eine 75%ige Chance, Angriffe zu blocken. Blockwirkung: Verbündete in Hörweite werden um 10...40 Lebenspunkt[e] geheilt und Schildwächter endet."
+			},
+			"de-guildwiki": {
 				"name": "Schildwächter",
 				"description": "2...6 Sekunden lang erhalten alle Gruppenmitglieder in Hörweite eine 75%ige Chance, Angriffe zu blocken. Jedes Mal, wenn ein Angriff geblockt wird, werden alle Verbündeten in Hörweite um 10...40 Lebenspunkte geheilt und Schildwächter endet.",
 				"concise": "(2...6 Sekunden.) Gruppenmitglieder in Hörweite haben eine 75%ige Chance, Angriffe zu blocken. Blockwirkung: Verbündete in Hörweite werden um 10...40 geheilt und Schildwächter endet."
 			},
 			"en": {
 				"name": "Shield Guardian",
+				"description": "Enchantment Spell. For 2...6 seconds, all party members in earshot have a 75% chance to block attacks. If an attack is blocked, all allies in earshot are healed for 10...40 Health and Shield Guardian ends.",
+				"concise": "Enchantment Spell. (2...6 seconds). Party members in earshot have a 75% chance to block attacks. Block effect: Allies in earshot are healed for 10...40 and Shield Guardian ends."
+			},
+			"en-gww": {
+				"name": "Shield Guardian",
 				"description": "For 2...6 seconds, all party members in earshot have a 75% chance to block incoming attacks. If an attack is blocked, all allies in earshot are healed for 10...40 and Shield Guardian ends.",
 				"concise": "(2...6 second[s]). Party members in earshot have a 75% chance to block attacks. Block effect: Allies in earshot are healed for 10...40, and Shield Guardian ends."
 			},
+			"es": {
+				"name": "Guardián de acero",
+				"description": "Conjuro con encantamiento. Durante 2...6 segundos, todos los miembros del equipo al alcance del oído tendrán un 75% de posibilidades de bloquear ataques. Si se bloquea un ataque, todos los aliados al alcance del oído se curarán 10...40 de salud y el Guardián de acero terminará.",
+				"concise": "Conjuro con encantamiento. (2...6 segundos). Los miembros del equipo al alcance del oído tienen un 75% de posibilidades de bloquear ataques. Efecto al bloquear: Los aliados al alcance del oído se curarán 10...40 de salud y el Guardián de acero terminará."
+			},
 			"fr": {
+				"name": "Gardien protecteur",
+				"description": "Enchantement. Pendant 2...6 secondes, tous les membres du groupe à portée de voix ont 75% de chances de bloquer les attaques. Le cas échéant, tous les alliés à proximité sont soignés de 10...40 points de vie et la compétence prend fin.",
+				"concise": "Enchantement. (2...6 secondes.) Les membres du groupe à portée de voix ont 75% de chances de bloquer les attaques. Effet du blocage : les alliés à proximité sont soignés de 10...40 points de vie et la compétence prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Gardien protecteur",
 				"description": "Pendant 10 secondes, la cible (un allié ou vous-même) a 75% de chances de bloquer les attaques. La prochaine fois que la cible bloque une attaque, elle ainsi que tous les alliés à proximité sont soignés de 16...80 points et ''Gardien protecteur'' prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guardiano Scudo",
+				"description": "Incantesimo. Per 2...6 secondi, tutti i membri della squadra a portata d'orecchio hanno un 75% di probabilità di bloccare gli attacchi. Quando un attacco viene bloccato, tutti gli alleati a portata d'orecchio vengono curati di 10...40 punti e il Guardiano Scudo termina.",
+				"concise": "Incantesimo. (Secondi: 2...6.) I membri della squadra a portata d'orecchio hanno un 75% di probabilità di bloccare gli attacchi. Effetto del blocco: gli alleati a portata d'orecchio vengono curati di 10...40 punti e il Guardiano Scudo termina."
+			},
+			"jp": {
+				"name": "シールド ガーディアン",
+				"description": "強化スペル： 2...6 秒間、声の届く範囲内にいるすべてのパーティー メンバーは 75% の確率で攻撃をブロックします。攻撃をブロックすると、声の届く範囲内にいるすべての味方は体力が 10...40 回復し、この効果は消失します。",
+				"concise": "強化スペル： (2...6 秒) 声の届く範囲内にいるパーティー メンバーは、75% の確率で攻撃をブロックします。ブロック効果： 声の届く範囲内にいる味方は体力が 10...40 回復し、この効果が消失します。"
+			},
+			"kr": {
+				"name": "방패의 혜택",
+				"description": "강화 마법. 대상 지정: 아군. 2...6초 동안 가청 범위 내에 있는 모든 파티원이 75% 확률로 공격을 막습니다. 공격을 막아내면 가청 범위 내의 모든 아군의 체력이 10...40만큼 회복되고 효과가 끝납니다.",
+				"concise": "강화 마법. (2...6초) 가청 범위 내에 있는 파티원들은 75%의 확률로 공격을 막습니다. 막는 효과: 가청 범위 내에 있는 모든 아군의 체력이 10...40만큼 회복되고 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Uzdrawiający Strażnik",
+				"description": "Zaklęcie (czar). Przez 2...6 sek., wszyscy członkowie drużyny w zasięgu słuchu mają 75% szans na blokowanie ataków. Jeśli atak zostanie zablokowany, wszyscy sojusznicy w zasięgu słuchu odzyskują 10...40 pkt. żywotności, a Uzdrawiający Strażnik przestaje działać.",
+				"concise": "Zaklęcie (czar). (2...6 sek.) Członkowie drużyny w zasięgu słuchu mają 75% szans na zablokowanie ataków. Efekt zablokowania: Sojusznicy w zasięgu słuchu odzyskują 10...40 pkt. żywotności, a Uzdrawiający Strażnik przestaje działać."
+			},
+			"ru": {
+				"name": "Shield Guardian",
+				"description": "Заклинание-чары. На 2...6 сек все члены отряда в зоне слышимости получают 75%-й шанс блокировать атаки. Если атака будет блокирована, все союзники в зоне слышимости будут исцелены на 10...40 ед. здоровья, а Shield Guardian закончит свое действие.",
+				"concise": "Заклинание-чары. (2...6 сек) Члены отряда в зоне слышимости получают 75%-й шанс блокировать атаки. Эффект блокирования: союзники в зоне слышимости исцеляются на 10...40 ед. здоровья, а действие этого заклинания заканчивается."
+			},
+			"bork": {
+				"name": "Sheeeld Gooaerdeeun",
+				"description": "Inchuntment Spell. Fur 2...6 secunds, aell paerty members in iaershut haefe-a a 75% chunce-a tu bluck aettaecks. Iff un aettaeck is blucked, aell aelleees in iaershut aere-a heaeled fur 10...40 Heaelt und Sheeeld Gooaerdeeun inds.",
+				"concise": "Inchuntment Spell. (2...6 secunds). Paerty members in iaershut haefe-a a 75% chunce-a tu bluck aettaecks. Bluck iffffect: Aelleees in iaershut aere-a heaeled fur 10...40 und Sheeeld Gooaerdeeun inds."
 			}
 		}
 	}

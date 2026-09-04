@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致命防御",
+				"description": "增益魔法。 在4...10秒之内，使你有75%的格挡几率。如果你打出致命一击，那么技能效果会被重置。",
+				"concise": "增益魔法。 （4...10秒内）75%格档率。技能重置奖励：你每次打出致命一击，都将使技能重新恢复。"
+			},
+			"cht": {
+				"name": "致命防禦",
+				"description": "加持魔法： 持續 4...10 秒，你有 75% 機率「格擋」敵人的攻擊。每當你打出致命攻擊，此「加持」的持續時間將重新計算。",
+				"concise": "加持魔法： 持續 4...10 秒，你有 75% 機率「格擋」敵人的攻擊。每當你打出致命攻擊，此「加持」的持續時間將重新計算。"
+			},
 			"de": {
+				"name": "Kritische Verteidigungen",
+				"description": "Verzauberung. 4...10 Sekunde[n] lang habt Ihr eine 75%ige Chance zum Blocken. Kritische Verteidigungen wird bei jedem kritischen Treffer, den Ihr landet, aktualisiert.",
+				"concise": "Verzauberung. 4...10 Sekunde[n]: Ihr habt eine 75%ige Chance zu blocken. Erneuerung: Mit jedem Eurer kritischen Treffer."
+			},
+			"de-guildwiki": {
 				"name": "Kritische Verteidigungen",
 				"description": "4...10 Sekunden lang habt Ihr eine 75%ige Chance zum Blocken. Kritische Verteidigungen wird bei jedem kritischen Treffer, den Ihr landet, aktualisiert.",
 				"concise": "4...10 Sekunden: Ihr habt eine 75%ige Chance zu blocken. Erneuerung: Mit jedem Eurer kritischen Treffer."
 			},
 			"en": {
 				"name": "Critical Defenses",
+				"description": "Enchantment Spell. For 4...10 seconds, you have a 75% chance to block. Critical Defenses refreshes every time you land a critical hit.",
+				"concise": "Enchantment Spell. (4...10 seconds.) You have 75% chance to block. Renewal: every time you land a critical hit."
+			},
+			"en-gww": {
+				"name": "Critical Defenses",
 				"description": "For 4...10 seconds, you have a 75% chance to block. Critical Defenses refreshes every time you land a critical hit.",
 				"concise": "(4...10 seconds.) You have a 75% chance to block. Renewal: every time you land a critical hit."
 			},
+			"es": {
+				"name": "Defensas críticas",
+				"description": "Conjuro con encantamiento. Durante 4...10 segundos, tienes un 75% de probabilidades de bloquear ataques. Las Defensas críticas se recargan cada vez que hagas un golpe crítico.",
+				"concise": "Conjuro con encantamiento. (4...10 segundos). Tienes 75% de probabilidades de bloquear. Renovación: cada vez que hagas un golpe crítico."
+			},
 			"fr": {
+				"name": "Défenses critiques",
+				"description": "Enchantement. Pendant 4...10 secondes, vous avez 75% de chances de bloquer. Les Défenses critiques se rechargent chaque fois que vous infligez un coup critique.",
+				"concise": "Enchantement. (4...10 secondes.) Vous avez 75% de chances de bloquer. Renouvellement : chaque fois que vous infligez un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Défenses critiques",
 				"description": "Pendant 4...10 secondes, vous avez 75% de chances de bloquer. Les Défenses critiques se rechargent chaque fois que vous infligez un coup critique.",
 				"concise": "(4...10 secondes.) Vous avez 75% de chances de bloquer. Renouvellement : chaque fois que vous infligez un coup critique."
+			},
+			"it": {
+				"name": "Difese Critiche",
+				"description": "Incantesimo. Per 4...10 secondo[i] hai un 75% di probabilità di bloccare; ogni volta che metti a segno un colpo critico, le Difese Critiche si rinnovano.",
+				"concise": "Incantesimo. (Secondi: 4...10) Tua probabilità di blocco: 75%. Rinnovo: ogni volta che assesti un colpo critico."
+			},
+			"jp": {
+				"name": "クリティカル ディフェンス",
+				"description": "強化スペル： 4...10 秒間、75% の確率で攻撃をブロックします。クリティカル ヒットが成功するたびに、このスキルの効果が更新されます。",
+				"concise": "強化スペル： (4...10 秒) 75% の確率で攻撃をブロックします。更新： 攻撃がクリティカル ヒットになるたび。"
+			},
+			"kr": {
+				"name": "치명타 방어",
+				"description": "강화 마법. 대상 지정: 없음. 4...10초 동안 공격을 막을 확률이 75% 증가합니다. 그동안 치명타 공격을 성공시키면 치명타 방어 효과가 다시 시작됩니다.",
+				"concise": "강화 마법. (4...10초) 공격을 막을 확률이 75%가 됩니다. 갱신 조건: 치명타를 터뜨릴 때마다."
+			},
+			"pl": {
+				"name": "Krytyczna Obrona",
+				"description": "Zaklęcie (czar). Przez 4...10 sekund, masz 75% szans na blokowanie ataków. Krytyczna Obrona zaczyna działać od nowa za każdym razem, gdy wykonasz trafienie krytyczne.",
+				"concise": "Zaklęcie (czar). (4...10 sek.) Masz 75% szans na blokowanie. Odnowienie: za każdym razem, gdy wykonasz trafienie krytyczne."
+			},
+			"ru": {
+				"name": "Critical Defenses",
+				"description": "Заклинание-чары. В течение 4...10 сек у вас есть 75%-й шанс блокировать атаку. Critical Defenses обновляется каждый раз, когда вам удается нанести критический удар.",
+				"concise": "Заклинание-чары. (4...10 сек) Вы получаете 75%-й шанс блокировать атаки. Обновление: каждый раз, когда вы наносите критический удар."
+			},
+			"bork": {
+				"name": "Creeteecael Deffenses",
+				"description": "Inchuntment Spell. Fur 4...10 secunds, yuoo haefe-a a 75% chunce-a tu bluck. Creeteecael Deffenses reffreshes ifery teeme-a yuoo lund a creeteecael heet.",
+				"concise": "Inchuntment Spell. (4...10 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Renooael: ifery teeme-a yuoo lund a creeteecael heet."
 			}
 		}
 	}

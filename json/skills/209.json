@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "意志冻结",
+				"description": "精英负面魔法。 使目标敌人受到10...60点冰冻伤害。若你比目标拥有更多能量，则敌人将额外受到10...60点冰冻伤害，并且使其移动速度减缓 90%，效果持续 1...5 秒。此法术会引发施法者的「疲劳」状态。",
+				"concise": "精英负面魔法。 使目标敌人受到10...60点冰冻伤害。若你比目标拥有更多能量，则敌人将额外受到10...60点冰冻伤害，并且使其移动速度减缓 90%，效果持续 1...5 秒。此法术会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "心靈凍結",
+				"description": "精英降咒魔法： 使目標敵人受到 10...60 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 10...60 冰凍傷害，而且使其移動速度減慢 90% 並持續 1...5 秒。此魔法會造成施法者精疲力竭。",
+				"concise": "精英降咒魔法： 使目標敵人受到 10...60 冰凍傷害。若你比敵人擁有更多能量，則敵人將額外受到 10...60 冰凍傷害，而且使其移動速度減慢 90% 並持續 1...5 秒。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Geistige Erfrierung",
+				"description": "Elite-Verhexung. Der Gegner erleidet 10...60 Punkt[e] Kälteschaden. Wenn Ihr mehr Energie als der Gegner habt, erleidet dieser zusätzlich 10...60 Punkt[e] Kälteschaden und bewegt sich 1...5 Sekunde[n] lang um 90% langsamer. Dieser Zauber ruft Erschöpfung hervor.",
+				"concise": "Elite-Verhexung. Richtet 10...60 Punkt[e] Kälteschaden an. Falls Ihr mehr Energie habt als der Gegner, erhält er zusätzlich +10...60 Punkt[e] Kälteschaden und bewegt sich um 90% langsamer (1...5 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Geistige Erfrierung",
 				"description": "Der Gegner erleidet 10...60 Punkte Kälteschaden. Wenn Ihr mehr Energie als der Gegner habt, erleidet er zusätzlich 10...60 Punkte Kälteschaden und bewegt sich 1...5 Sekunden lang um 90% langsamer. Dieser Zauber ruft Erschöpfung hervor.",
 				"concise": "Richtet 10...60 Punkte Kälteschaden an. Falls Ihr mehr Energie habt als der Gegner, erhält er zusätzlich 10...60 Punkte Kälteschaden und bewegt sich um 90% langsamer (1...5 Sekunden)."
 			},
 			"en": {
 				"name": "Mind Freeze",
+				"description": "Elite Hex Spell. Target foe takes 10...60 cold damage. If you have more Energy than target foe, that foe suffers an additional 10...60 cold damage and moves 90% slower for 1...5 seconds.",
+				"concise": "Elite Hex Spell. Deals 10...60 cold damage. If you have more Energy than target foe, deals +10...60 cold damage and causes 90% slower movement (1...5 seconds)."
+			},
+			"en-gww": {
+				"name": "Mind Freeze",
 				"description": "Target foe takes 10...60 cold damage. If you have more Energy than target foe, that foe suffers an additional 10...60 cold damage and moves 90% slower for 1...5 second[s].",
 				"concise": "Deals 10...60 cold damage. If you have more Energy than target foe, deals +10...60 cold damage and causes 90% slower movement (1...5 second[s])."
 			},
+			"es": {
+				"name": "Congelar mente",
+				"description": "Conjuro con maleficio de élite. El enemigo objetivo recibe 10...60 de daño frío. Si tienes más energía que el enemigo objetivo, ese enemigo recibe 10...60 de daño frío adicional y se mueve un 90% más despacio durante 1...5 segundos.",
+				"concise": "Conjuro con maleficio de élite. Hace 10...60 de daño frío. Si tienes más energía que el enemigo objetivo, hace 10...60 de daño frío y causa una reducción del 90% en el movimiento (1...5 segundos)."
+			},
 			"fr": {
+				"name": "Gel spirituel",
+				"description": "Maléfice d'élite. L'ennemi visé subit 10...60 points de dégâts du froid. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...60 points de dégâts du froid en plus et se déplace 90% plus lentement pendant 1...5 secondes.",
+				"concise": "Maléfice d'élite. Inflige 10...60 points de dégâts du froid. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...60 points de dégâts du froid en plus et se déplace 90% plus lentement (1...5 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Gel spirituel",
 				"description": "L'ennemi visé subit 10...60 points de dégâts du froid. Si vous avez plus d'énergie que l'ennemi visé, il subit 10...60 points de dégâts du froid en plus et se déplace 90% plus lentement pendant 1...5 secondes. Ce sort entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mente Ghiacciata",
+				"description": "Fattura d'Élite. L'obiettivo nemico subisce 10...60 danni da freddo. Se ha meno Energia di te, subisce 10...60 danni da freddo in più e i suoi movimenti rallentano del 90% per 1...5 secondi.",
+				"concise": "Fattura d'Élite. Danni da freddo inferti: 10...60. Se ha meno Energia di te, quel nemico subisce 10...60 danni da freddo in più e i suoi movimenti rallentano del 90% (1...5 secondi)."
+			},
+			"jp": {
+				"name": "マインド フリーズ",
+				"description": "エリート弱体化スペル： ターゲットした敵に 10...60 のコールド ダメージを与えます。プレイヤーのエネルギーがターゲットした敵より多い場合、10...60 の追加コールド ダメージを与え、1...5 秒間、移動速度を90%減少させます。",
+				"concise": "エリート弱体化スペル： 10...60 のコールド ダメージを与えます。ターゲットした敵よりプレイヤーのエネルギーが多い場合、10...60 の追加コールド ダメージを与え、移動速度を90%減少させます (1...5 秒)。"
+			},
+			"kr": {
+				"name": "정신 동결",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상은 10...60의 냉기 대미지를 입습니다. 자신의 에너지가 대상보다 많으면 대상은 10...60의 냉기 대미지를 추가로 입고, 1...5초 동안 이동 속도가 90% 느려집니다.",
+				"concise": "엘리트 약화 마법. 10...60의 냉기 대미지를 줍니다. 자신의 에너지가 대상보다 많으면 10...60의 냉기 대미지를 추가로 주고, 이동 속도를 90% 느려지게 합니다.(1...5초)"
+			},
+			"pl": {
+				"name": "Zamrożenie Umysłu",
+				"description": "Elitarna klątwa (czar). Wybrany przeciwnik otrzymuje 10...60 pkt. obrażeń od zimna. Jeżeli masz więcej pkt. energii od wybranego przeciwnika, to przeciwnik ten otrzymuje dodatkowe 10...60 pkt. obrażeń od zimna oraz porusza się o 90% wolniej przez 1...5 sek. Ten czar powoduje wyczerpanie.",
+				"concise": "Elitarna klątwa (czar). Zadaje 10...60 pkt. obrażeń od zimna. Jeżeli masz więcej pkt. energii niż wybrany przeciwnik, to umiejętność zadaje 10...60 pkt. dodatkowych obrażeń od zimna i o 90% spowalnia ruch (1...5 sek.). Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Mind Freeze",
+				"description": "Элитное заклинание-проклятье. Выбранный противник получает 10...60 ед. урона силой холода. Если у вас больше энергии, чем у этого противника, он получит дополнительно 10...60 ед. урона силой холода и будет двигаться на 90% медленнее в течение 1...5 сек.",
+				"concise": "Элитное заклинание-проклятье. Наносит 10...60 ед. урона силой холода. Если у вас было больше энергии, чем у выбранного противника, наносит дополнительно 10...60 ед. урона силой холода и замедляет на 90% (1...5 сек)."
+			},
+			"bork": {
+				"name": "Meend Freeze-a",
+				"description": "Ileete-a Hex Spell. Taerget fue-a taekes 10...60 culd daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, thaet fue-a sooffffers un aeddeeshunael 10...60 culd daemaege-a und mufes 90% slooer fur 1...5 secunds. Bork! Bork! Bork!",
+				"concise": "Ileete-a Hex Spell. Deaels 10...60 culd daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, deaels +10...60 culd daemaege-a und cooses 90% slooer mufement (1...5 secunds). Bork! Bork! Bork!"
 			}
 		}
 	}

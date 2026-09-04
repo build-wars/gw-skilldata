@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Over the Limit",
+				"description": "精英增益魔法。 While you maintain this enchantment, your spells cast 20...50% faster and recharge 40...80% faster, but you continuously gain Overcast. PvE Skill",
+				"concise": "精英增益魔法。 Spells cast 20...50% faster and recharge 40...80% faster. Continuously gain Overcast while active. PvE Skill"
+			},
+			"cht": {
+				"name": "Over the Limit",
+				"description": "精英加持魔法： While you maintain this enchantment, your spells cast 20...50% faster and recharge 40...80% faster, but you continuously gain Overcast. PvE Skill",
+				"concise": "精英加持魔法： Spells cast 20...50% faster and recharge 40...80% faster. Continuously gain Overcast while active. PvE Skill"
+			},
 			"de": {
+				"name": "Über die Grenze hinaus",
+				"description": "Elite-Verzauberung. Während dieser Verzauberung wirken Eure Zauber um 20...50 % schneller und laden sich 40...80 % schneller auf, aber verursachen zunehmend Überzaubern. PvE-Fertigkeit",
+				"concise": "Elite-Verzauberung. Zauber wirken um 20...50 % schneller und laden sich um 40...80 % schneller auf. Verursacht bei Aktivierung zunehmend Überzaubern. PvE-Fertigkeit"
+			},
+			"de-guildwiki": {
 				"name": "Über die Grenze hinaus",
 				"description": "Während Ihr diese Verzauberung aufrecht erhaltet, werden Eure Zauber um 20...50% schneller gewirkt und laden sich 40...80% schneller auf, aber Ihr erhaltet 3 Punkte Überzauberung pro Sekunde.",
 				"concise": "Zauber wirken um 20...50% schneller und laden sich um 40...80% schneller auf. Verursacht 3 Überzauberung pro Sekunde."
 			},
 			"en": {
 				"name": "Over the Limit",
+				"description": "Elite Enchantment Spell. While you maintain this enchantment, your spells cast 20...50% faster and recharge 40...80% faster, but you continuously gain Overcast. PvE Skill",
+				"concise": "Elite Enchantment Spell. Spells cast 20...50% faster and recharge 40...80% faster. Continuously gain Overcast while active. PvE Skill"
+			},
+			"en-gww": {
+				"name": "Over the Limit",
 				"description": "While you maintain this enchantment, your spells cast 20...50% faster, and recharge 40...80% faster, but you continuously gain Overcast.",
 				"concise": "Spells cast 20...50% faster and recharge 40...80% faster. Continuously gain Overcast while active."
 			},
+			"es": {
+				"name": "Más allá del límite",
+				"description": "Conjuro con encantamiento de élite. Mientras mantengas este encantamiento, lanzarás tus hechizos un 20...50 % más rápido y los recargarás un 40...80 % más rápido, pero sufrirás agotamiento de forma constante. Habilidad de PvE",
+				"concise": "Conjuro con encantamiento de élite. Los hechizos se lanzan un 20...50 % más rápido y se recargan un 40...80 % más rápido. Sufrirás agotamiento de forma constante mientras permanezca activo. Habilidad de PvE"
+			},
 			"fr": {
+				"name": "Au-delà de la limite",
+				"description": "Enchantement d'élite. Tant que cet enchantement est actif, vos sorts se lancent 20...50 % plus vite et se rechargent 40...80 % plus vite, cependant vous gagnez de l'Afflux en continu. Compétence PvE",
+				"concise": "Enchantement d'élite. Les sorts se lancent 20...50 % plus vite et se rechargent 40...80 % plus vite. Vous gagnez de l'Afflux en continu lorsqu'il est actif. Compétence PvE"
+			},
+			"fr-gwiki": {
 				"name": "Au-delà de la limite",
 				"description": "Tant que cet enchantement est actif, vos sorts se lancent 15...20% plus vite et se rechargent 15...50% plus vite, cependant vous gagnez de l'Afflux en continu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Oltre il limite",
+				"description": "Incantesimo d'Élite. Quando sei sotto l'effetto di questo sortilegio, i tuoi incantesimi sono più veloci (20...50%) e si ricaricano più in fretta (40...80%), ma accumuli costantemente Turbamento. Abilità PvE",
+				"concise": "Incantesimo d'Élite. Lancia incantesimi (+20...50%) e ricarica (+40...80%) più in fretta. Accumulo costante di Turbamento mentre è attivo. Abilità PvE"
+			},
+			"jp": {
+				"name": "Over the Limit",
+				"description": "エリート強化スペル： While you maintain this enchantment, your spells cast 20...50% faster and recharge 40...80% faster, but you continuously gain Overcast. PvE Skill",
+				"concise": "エリート強化スペル： Spells cast 20...50% faster and recharge 40...80% faster. Continuously gain Overcast while active. PvE Skill"
+			},
+			"kr": {
+				"name": "한도초과",
+				"description": "엘리트 강화 마법. 이 강화 마법이 유지되는 동안 마법 시전 속도가 20...50%만큼 빨라지고, 스킬 재활성 시간이 40...80%만큼 빨라지지만 탈진에 점점 가까워집니다. PvE 스킬",
+				"concise": "엘리트 강화 마법. 마법 시전 속도가 20...50%만큼 빨라지고, 스킬 재활성 시간이 40...80%만큼 빨라집니다. 스킬이 활성화되어있는 동안 지속적으로 탈진에 가까워집니다. PvE 스킬"
+			},
+			"pl": {
+				"name": "Ponad Limit",
+				"description": "Elitarne zaklęcie (czar). Podczas utrzymywania tego zaklęcia, rzucasz czary 20...50% szybciej i odnawiasz je o 40...80% szybciej ale stale otrzymujesz efekt Przemęczenia. Umiejętność PvE",
+				"concise": "Elitarne zaklęcie (czar). Czary są rzucane o 20...50% szybciej i odnawiają się o 40...80% szybciej. Podczas działania stale otrzymujesz efekt Przemęczenia. Umiejętność PvE"
+			},
+			"ru": {
+				"name": "За пределом",
+				"description": "Элитное заклинание-чары. Пока действуют эти чары, вы накладываете заклинания на 20...50% быстрее, их восстановление ускорено на 40...80%, но при этом растет утомление. PvE-умение",
+				"concise": "Элитное заклинание-чары. Вы накладываете заклинания на 20...50% быстрее, их восстановление ускорено на 40...80%. Во время действия чар растет утомление. PvE-умение"
+			},
+			"bork": {
+				"name": "Oofer zee Leemeet",
+				"description": "Ileete-a Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, yuoor spells caest 20...50% faester und rechaerge-a 40...80% faester, boot yuoo cunteenoouoosly gaeeen Oofercaest. PfE-a Skeell",
+				"concise": "Ileete-a Inchuntment Spell. Spells caest 20...50% faester und rechaerge-a 40...80% faester. Cunteenoouoosly gaeeen Oofercaest vheele-a aecteefe-a. PfE-a Skeell"
 			}
 		}
 	}

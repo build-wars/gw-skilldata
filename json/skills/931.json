@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量回馈",
+				"description": "咒文。 如果目标敌人正在施法，该法术将被打断，同时目标敌人获得 10...5点 能量值。",
+				"concise": "咒文。 如果目标敌人正在施法，该法术将被打断，同时目标敌人获得 10...5点 能量值。"
+			},
+			"cht": {
+				"name": "強力返回",
+				"description": "咒文魔法： 若目標敵人正在施展「魔法」或「聖歌」，該「魔法」被中斷但使目標獲得 10...5 能量。",
+				"concise": "咒文魔法： 若目標敵人正在施展「魔法」，該「魔法」被中斷而且使目標獲得 10...5 能量。"
+			},
 			"de": {
+				"name": "Kraftrevanche",
+				"description": "Zauber. Wenn der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und der Gegner gewinnt 10...5 Energiepunkt[e].",
+				"concise": "Zauber. Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Gegner gewinnt 10...5 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Kraftrevanche",
 				"description": "Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und der Gegner erhält 10...5 Energiepunkte.",
 				"concise": "Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Gegner erhält 10...5 Energiepunkte."
 			},
 			"en": {
 				"name": "Power Return",
+				"description": "Spell. If target foe is casting a spell or chant, that skill is interrupted and target foe gains 10...5 Energy.",
+				"concise": "Spell. Interrupts a spell or chant. Interruption effect: target foe gains 10...5 Energy."
+			},
+			"en-gww": {
+				"name": "Power Return",
 				"description": "If target foe is casting a spell or chant, that skill is interrupted and target foe gains 10...5 Energy.",
 				"concise": "Interrupts a spell or chant. Interruption effect: target foe gains 10...5 Energy."
 			},
+			"es": {
+				"name": "Regreso poderoso",
+				"description": "Conjuro. Si el enemigo objetivo está lanzando un conjuro o cántico, éste se interrumpirá y el enemigo objetivo ganará 10...5 de energía.",
+				"concise": "Conjuro. Interrumpe un conjuro o cántico. Efecto de interrupción: el enemigo objetivo gana 10...5 de energía."
+			},
 			"fr": {
+				"name": "Retour de pouvoir",
+				"description": "Sort. Si l'ennemi visé lance un sort ou un chant, cette compétence est interrompue et l'ennemi visé bénéficie de 10...5 points d'énergie.",
+				"concise": "Sort. Interrompt un sort ou un chant. Effet de l'interruption : l'ennemi visé gagne 10...5 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Retour de pouvoir",
 				"description": "Si l'ennemi visé lance un sort ou un chant, cette compétence est interrompue et l'ennemi visé bénéficie de 10...5 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ritorno di Potere",
+				"description": "Magia. Se l'obiettivo nemico ha attivato una magia o un canto, l'abilità viene interrotta e l'obiettivo ottiene 10...5 Punti Energia.",
+				"concise": "Magia. Interrompe una magia o un canto. Effetto dell'interruzione: l'obiettivo nemico ottiene 10...5 Punti Energia."
+			},
+			"jp": {
+				"name": "パワー リターン",
+				"description": "スペル： ターゲットした敵がスペルまたはチャントを詠唱中の場合、そのスキルを中断しますが、その敵は 10...5 のエネルギーを獲得します。",
+				"concise": "スペル： スペルまたはチャントを中断します。中断効果： ターゲットした敵は 10...5 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "마법 되돌리기",
+				"description": "마법. 대상 지정: 적. 대상이 마법이나 영창을 시전하는 중이면 그 시전을 방해하고, 대신 대상은 10...5의 에너지를 얻습니다.",
+				"concise": "마법. 마법이나 영창을 방해합니다. 방해 효과: 대상이 10...5의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Przywrócenie Mocy",
+				"description": "Czar. Jeśli cel rzuca właśnie czar lub pieśń, umiejętność zostaje przerwana, a cel otrzymuje 10...5 pkt. energii.",
+				"concise": "Czar. Przerywa użycie czaru lub pieśni. Skutek przerwania: cel otrzymuje 10...5 pkt. energii."
+			},
+			"ru": {
+				"name": "Power Return",
+				"description": "Заклинание. Если выбранный противник произносит заклинание или поет хорал, это умение будет прервано, а выбранный противник получит 10...5 ед. энергии.",
+				"concise": "Заклинание. Прерывает заклинание или хорал. Эффект прерывания: выбранный противник получает 10...5 ед. энергии."
+			},
+			"bork": {
+				"name": "Pooer Retoorn",
+				"description": "Spell. Iff taerget fue-a is caesteeng a spell oor chunt, thaet skeell is interroopted und taerget fue-a gaeeens 10...5 Inergy.",
+				"concise": "Spell. Interroopts a spell oor chunt. Interroopshun iffffect: taerget fue-a gaeeens 10...5 Inergy."
 			}
 		}
 	}

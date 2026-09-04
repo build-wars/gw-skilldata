@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战意如火",
+				"description": "精英技能。 使你所有的攻击技能恢复。每恢复一个技能，你获得 2...7点 能量。",
+				"concise": "精英技能。 使你所有的攻击技能恢复。每恢复一个技能，你获得 2...7点 能量。"
+			},
+			"cht": {
+				"name": "洗鍊的戰技",
+				"description": "精英技能： 你所有的攻擊技能回復。每回復一個技能，你獲得 2...7 能量。",
+				"concise": "精英技能： 你所有的攻擊技能回復。每回復一個技能，你獲得 2...7 能量。"
+			},
 			"de": {
+				"name": "Blütezeit",
+				"description": "Elite-Fertigkeit. Alle Eure Angriffsfertigkeiten werden wieder aufgeladen. Für jede mithilfe von \"Blütezeit\" wieder aufgeladene Fertigkeit erhaltet Ihr 2...7 Energiepunkt[e].",
+				"concise": "Elite-Fertigkeit. Lädt Eure Angriffsfertigkeiten wieder auf. Ihr erhaltet für jede wieder aufgeladene Fertigkeit 2...7 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Blütezeit",
 				"description": "Alle Eure Angriffsfertigkeiten werden wieder aufgeladen. Für jede mit Hilfe von Blütezeit wieder aufgeladene Fertigkeit erhaltet Ihr 2...7 Energiepunkte.",
 				"concise": "Lädt Eure Angriffsfertigkeiten wieder auf. Ihr erhaltet für jede wieder aufgeladene Fertigkeit 2...7 Energiepunkte."
 			},
 			"en": {
 				"name": "Flourish",
+				"description": "Elite Skill. All of your attack skills become recharged. You gain 2...7 Energy for each skill recharged by Flourish.",
+				"concise": "Elite Skill. Recharges your attack skills. You gain 2...7 Energy for each skill recharged."
+			},
+			"en-gww": {
+				"name": "Flourish",
 				"description": "All of your attack skills become recharged. You gain 2...7 Energy for each skill recharged by Flourish.",
 				"concise": "Recharges your attack skills. You gain 2...7 Energy for each skill recharged."
 			},
+			"es": {
+				"name": "Blandir",
+				"description": "Habilidad de élite. Todas tus habilidades de ataque pasarán a estar recargadas. Ganas 2...7 de energía por cada habilidad que recargues con Blandir.",
+				"concise": "Habilidad de élite. Recarga tus habilidades de ataque. Ganas 2...7 de energía por cada habilidad recargada."
+			},
 			"fr": {
+				"name": "Prospérité",
+				"description": "Compétence élite. Toutes vos compétences d'attaque sont rechargées. Vous gagnez 2...7 points d'énergie pour chaque compétence rechargée par la Prospérité.",
+				"concise": "Compétence élite. Recharge vos compétences d'attaque. Vous gagnez 2...7 points d'énergie par compétence rechargée."
+			},
+			"fr-gwiki": {
 				"name": "Prospérité",
 				"description": "Toutes vos compétences d'attaque sont rechargées. Vous gagnez 2...7 point(s) d'énergie pour chaque compétence rechargée par la Prospérité.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fioritura",
+				"description": "Abilità d'Élite. Tutte le tue abilità d'attacco vengono ricaricate. Ottieni 2...7 Punto[i] Energia per ogni abilità ricaricata dalla Fioritura.",
+				"concise": "Abilità d'Élite. Ricarica le tue abilità d'attacco. Energia conseguita per ogni abilità ricaricata: 2...7."
+			},
+			"jp": {
+				"name": "フラリッシュ",
+				"description": "エリート スキル： すべてのアタック スキルをすぐに再使用することができます。再使用することができるようになったスキルごとに 2...7 のエネルギーを獲得します。",
+				"concise": "エリート スキル： アタック スキルをすぐに再使用することができます。再使用することのできるスキルごとに 2...7 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "세련된 공격",
+				"description": "엘리트 스킬. 대상 지정: 없음. 모든 공격 스킬이 활성화되고, 스킬 하나당 2...7의 에너지를 얻습니다.",
+				"concise": "엘리트 스킬. 공격 스킬들이 활성화됩니다. 활성화된 스킬 하나당 2...7의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Popis bronią",
+				"description": "Umiejętność elitarna. Wszystkie twoje umiejętności związane z atakiem się odnawiają. Za każdą umiejętność odnowioną w ten sposób otrzymujesz 2...7 pkt. energii.",
+				"concise": "Umiejętność elitarna. Odnawia twoje umiejętności związane z atakowaniem. Za każdą odnowioną umiejętność otrzymujesz 2...7 pkt. energii."
+			},
+			"ru": {
+				"name": "Flourish",
+				"description": "Элитное умение. Все ваши атакующие умения перезаряжаются. Вы получаете 2...7 ед. энергии за каждое умение, перезарядившееся с помощью Flourish.",
+				"concise": "Элитное умение. Ваши атакующие умения перезаряжаются. Вы получаете 2...7 ед. энергии за каждое перезарядившееся умение."
+			},
+			"bork": {
+				"name": "Fluooreesh",
+				"description": "Ileete-a Skeell. Aell ooff yuoor aettaeck skeells becume-a rechaerged. Yuoo gaeeen 2...7 Inergy fur iaech skeell rechaerged by Fluooreesh.",
+				"concise": "Ileete-a Skeell. Rechaerges yuoor aettaeck skeells. Yuoo gaeeen 2...7 Inergy fur iaech skeell rechaerged."
 			}
 		}
 	}

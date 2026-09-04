@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命寄生",
+				"description": "负面魔法。 每当目标敌人攻击命中时，你将偷取其最多 15...45点 生命值，效果持续 5...15秒。",
+				"concise": "负面魔法。 每当目标敌人攻击命中时，你将偷取其最多 15...45点 生命值，效果持续 5...15秒。"
+			},
+			"cht": {
+				"name": "狡猾寄生",
+				"description": "降咒魔法： 持續 5...15 秒，每當目標敵人攻擊成功，你將從該目標偷取最多 15...45 體力。",
+				"concise": "降咒魔法： 持續 5...15 秒，每當目標敵人攻擊成功，你將從該目標偷取最多 15...45 體力。"
+			},
 			"de": {
+				"name": "Heimtückischer Parasit",
+				"description": "Verhexung. 5...15 Sekunde[n] lang entzieht Ihr dem Gegner jedes Mal, wenn sein Angriff trifft, bis zu 15...45 Lebenspunkt[e].",
+				"concise": "Verhexung. 5...15 Sekunde[n]: Entzieht jedes Mal 15...45 Lebenspunkt[e], wenn ein Angriff des Gegners trifft."
+			},
+			"de-guildwiki": {
 				"name": "Heimtückischer Parasit",
 				"description": "5...15 Sekunden lang entzieht Ihr dem Gegner jedes Mal, wenn sein Angriff trifft, bis zu 15...45 Lebenspunkte.",
 				"concise": "5...15 Sekunden: Entzieht jedes Mal 15...45 Lebenspunkte, wenn ein Angriff des Gegners trifft."
 			},
 			"en": {
 				"name": "Insidious Parasite",
+				"description": "Hex Spell. For 5...15 seconds, whenever target foe hits with an attack, you steal up to 15...45 Health from that foe.",
+				"concise": "Hex Spell. (5...15 seconds.) Steal 15...45 Health whenever target foe hits with an attack."
+			},
+			"en-gww": {
+				"name": "Insidious Parasite",
 				"description": "For 5...15 seconds, whenever target foe hits with an attack, you steal up to 15...45 Health from that foe.",
 				"concise": "(5...15 seconds.) Steal 15...45 Health whenever target foe hits with an attack."
 			},
+			"es": {
+				"name": "Parásito insidioso",
+				"description": "Conjuro con maleficio. Durante 5...15 segundos, cada vez que el enemigo objetivo golpee al atacar, le robarás hasta 15...45 de salud.",
+				"concise": "Conjuro con maleficio. (5...15 segundos). Roba 15...45 de salud cada vez que el enemigo objetivo ataque."
+			},
 			"fr": {
+				"name": "Parasite sournois",
+				"description": "Maléfice. Pendant 5...15 secondes, chaque fois que l'ennemi visé réussit une attaque, vous lui volez jusqu'à 15...45 points de vie.",
+				"concise": "Maléfice. (5...15 secondes.) Vole 15...45 points de vie chaque fois que l'ennemi visé réussit une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Parasite sournois",
 				"description": "Pendant 5...15 secondes, chaque fois que l'ennemi visé réussit une attaque, vous lui volez jusqu'à 15...45 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Parassita Insidioso",
+				"description": "Fattura. Per 5...15 secondo[i], ogni volta che un attacco dell'obiettivo nemico va a segno, gli sottrai fino a 15...45 Punto[i] Salute.",
+				"concise": "Fattura. (Secondi: 5...15) Ricevi 15...45 Punto[i] Salute ogni volta che l'obiettivo nemico colpisce con un attacco."
+			},
+			"jp": {
+				"name": "インシディアス パラサイト",
+				"description": "弱体化スペル： 5...15 秒間、ターゲットした敵の攻撃が成功するたびに、その敵から最大 15...45 の体力を奪い取ります。",
+				"concise": "弱体化スペル： (5...15 秒) ターゲットした敵の攻撃が成功するたびに 15...45 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "체력 강탈",
+				"description": "약화 마법. 대상 지정: 적. 5...15초 동안 대상이 공격을 시도할 때마다 대상의 체력을 15...45씩 뺏습니다.",
+				"concise": "약화 마법. (5...15초) 대상이 공격을 성공할 때마다 자신은 대상의 체력을 15...45씩 뺏습니다."
+			},
+			"pl": {
+				"name": "Podstępny Pasożyt",
+				"description": "Klątwa (czar). Przez 5...15 sek., za każdym razem, kiedy wybrany przeciwnik trafi podczas ataku, wykradasz mu do 15...45 pkt. żywotności.",
+				"concise": "Klątwa (czar). (5...15 sek.) Wykrada 15...45 pkt. żywotności, za każdym razem, kiedy trafi atak wybranego przeciwnika."
+			},
+			"ru": {
+				"name": "Insidious Parasite",
+				"description": "Заклинание-проклятье. В течение 5...15 сек каждый раз, когда выбранный противник проводит успешную атаку, вы похищаете у него до 15...45 ед. здоровья.",
+				"concise": "Заклинание-проклятье. (5...15 сек) Похищает 15...45 ед. здоровья каждый раз, когда выбранный противник проводит успешную атаку."
+			},
+			"bork": {
+				"name": "Inseedeeuoos Paeraeseete-a",
+				"description": "Hex Spell. Fur 5...15 secunds, vhenefer taerget fue-a heets veet un aettaeck, yuoo steael up tu 15...45 Heaelt frum thaet fue-a.",
+				"concise": "Hex Spell. (5...15 secunds.) Steael 15...45 Heaelt vhenefer taerget fue-a heets veet un aettaeck."
 			}
 		}
 	}

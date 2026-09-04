@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "尘土陷阱",
+				"description": "陷阱技。 当尘土陷阱被触动时，使陷阱附近的所有敌人受到每秒 10...25点 伤害(最多5秒)，并且使他们遭受「盲目」症状 3...8秒。此技能施放时容易被打断。尘土陷阱在 90秒 后消失。",
+				"concise": "陷阱技。 当尘土陷阱被触动时，使陷阱附近的所有敌人受到每秒 10...25点 伤害(最多5秒)，并且使他们遭受「盲目」症状 3...8秒。此技能施放时容易被打断。尘土陷阱在 90秒 后消失。"
+			},
+			"cht": {
+				"name": "塵土陷阱",
+				"description": "陷阱： 當塵土陷阱被觸動時，使陷阱附近的所有敵人每秒受到 10...25 土系傷害(最多5秒)，並且使他們遭受「盲目」病症 3...8 秒。此技能施展時容易被中斷。塵土陷阱在 90 秒後消失。",
+				"concise": "陷阱： 當塵土陷阱被觸動時，使陷阱附近的所有敵人每秒受到 10...25 土系傷害(最多5秒)，並且使他們遭受「盲目」病症 3...8 秒。此技能施展時容易被中斷。塵土陷阱在 90 秒後消失。"
+			},
 			"de": {
+				"name": "Staubfalle",
+				"description": "Falle. Wird Staubfalle aktiviert, fügt sie 5 Sekunden lang allen Gegner in der Nähe 3...8 Sekunde[n] Blindheit und 10...25 Punkt[e] rüstungsignorierenden Erdschaden zu. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden. Staubfalle endet nach 90 Sekunden.",
+				"concise": "Falle. 90 Sekunden: Betrifft Feinde in der Nähe. Richtet jede Sekunde 10...25 Punkt[e] Schaden an (5 Sekunden). Verursacht jede Sekunde (5 Sekunden) Zustand Blindheit (3...8 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Staubfalle",
 				"description": "Wird Staubfalle aktiviert, fügt sie 5 Sekunden lang jede Sekunde allen Gegnern in der Nähe 3...8 Sekunden Blindheit und 10...25 Punkte rüstungsignorierenden Erdschaden zu. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden. Staubfalle endet nach 90 Sekunden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet jede Sekunde 10...25 Punkte Erdschaden an (5 Sekunden). Verursacht Zustand Blindheit (3...8 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Dust Trap",
+				"description": "Trap. When Dust Trap is triggered, every second (for 5 seconds total), all nearby foes are Blinded for 3...8 seconds and take 10...25 damage. While activating this skill, you are easily interrupted. Dust Trap ends after 90 seconds.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Deals 10...25 damage every second (5 seconds). Inflicts Blindness condition (3...8 seconds) every second (5 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Dust Trap",
 				"description": "When Dust Trap is triggered, every second (for 5 seconds total), all nearby foes are Blinded for 3...8 seconds and take 10...25 damage. While activating this skill, you are easily interrupted. Dust Trap ends after 90 seconds.",
 				"concise": "(90 seconds.) Affects nearby foes. Deals 10...25 damage every second (5 seconds). Inflicts Blindness condition (3...8 seconds) every second (5 seconds). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Trampa de polvo",
+				"description": "Trampa. Cuando se active esta trampa, por cada segundo que pase (5 en total), todos los enemigos cercanos se quedarán ciegos durante 3...8 segundos y recibirán 10...25 de daño. Cuando actives esta habilidad, se te podrá interrumpir con facilidad. La Trampa de polvo dura 90 segundos.",
+				"concise": "Trampa. (90 segundos). Afecta a los enemigos cercanos. Hace 10...25 de daño por segundo (5 segundos). Causa ceguera (3...8 segundos) por segundo (5 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège à poussière",
+				"description": "Piège. Quand le Piège à poussière se déclenche, chaque seconde (sur un total de 5 secondes), tous les ennemis à proximité sont aveuglés pendant 3...8 secondes et subissent 10...25 points de dégâts. Vous pouvez être facilement interrompu lorsque vous activez cette compétence. Elle prend fin après 90 secondes.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige 10...25 points de dégâts par seconde (5 secondes). Provoque l'Aveuglement (3...8 secondes) toutes les secondes (5 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Piège à poussière",
 				"description": "Quand le Piège à poussière se déclenche, chaque seconde (sur un total de 5 secondes), tous les ennemis à proximité sont aveuglés pendant 3...8 secondes et subissent 10...25 points de dégâts. Vous pouvez être facilement interrompu lorsque vous activez cette compétence. Elle prend fin après 90 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trappola di Polvere",
+				"description": "Trappola. Quando la Trappola di Polvere viene attivata, ogni secondo, per un totale di 5 secondi, tutti i nemici nei dintorni diventano ciechi per 3...8 secondo[i] e subiscono 10...25 danno[i]. Questa abilità è facile da interrompere; termina dopo 90 secondi.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Danni inferti al secondo: 10...25 (5 secondi). Condizione inflitta: Accecamento (3...8 secondo[i]) ogni secondo (5 secondi). Facile interruzione."
+			},
+			"jp": {
+				"name": "ダスト トラップ",
+				"description": "トラップ： このトラップが作動すると、5秒間、周囲にいるすべての敵は毎秒 10...25 のダメージを受け、3...8 秒間「盲目」状態になります。このスキルの詠唱は容易に中断されます。このトラップは90秒後に消滅します。",
+				"concise": "トラップ： (90秒) 周囲にいる敵に毎秒 10...25 のダメージを与えます (5秒)。また、毎秒 3...8 秒間の「盲目」状態にします (5秒)。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "흙먼지 함정",
+				"description": "함정. 대상 지정: 없음. 함정이 작동하면 총 5초 동안 매초 함정 부근의 모든 적은 10...25의 대지 대미지를 입고, 3...8초 동안 실명 상태가 됩니다. 함정은 90초 뒤에 사라지며, 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 매초 10...25의 대미지를 주고(5초), 실명시킵니다.(3...8초) 스킬이 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Pyłowa Pułapka",
+				"description": "Pułapka. Kiedy Pyłowa Pułapka zostanie uaktywniona, to w każdej sekundzie (5 sek. łącznie), wszyscy przeciwnicy w pobliżu zostaną oślepieni na 3...8 sek. i otrzymają po 10...25 pkt. obrażeń od ziemi. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać. Pyłowa Pułapka przestanie działać po 90 sek.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. W każdej sekundzie zadaje 10...25 pkt. obrażeń (5 sek.). Co sekundę (5 sek.) wywołuje przypadłość oślepienie (3...8 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Dust Trap",
+				"description": "Ловушка. Когда Dust Trap срабатывает, каждую секунду (в течение 5 сек) все находящиеся поблизости противники будут ослеплены на 3...8 сек и получат 10...25 ед. урона. При активации этого умения вас очень легко прервать. Dust Trap разряжается через 90 сек.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Наносит 10...25 ед. урона каждую секунду (5 сек). Вызывает слепоту (3...8 сек) каждую секунду (5 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Doost Traep",
+				"description": "Traep. Vhee Doost Traep is treeggered, ifery secund (fur 5 secunds tutael), aell neaerby fues aere-a Bleended fur 3...8 secunds und taeke-a 10...25 daemaege-a. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted. Doost Traep inds aeffter 90 secunds.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Deaels 10...25 daemaege-a ifery secund (5 secunds). Inffleects Bleendness cundeeshun (3...8 secunds) ifery secund (5 secunds). Iaeseely interroopted."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "先人之怒",
+				"description": "技能。 对所有邻近目标盟友的敌人造成 4...50 闪电伤害。",
+				"concise": "技能。 对所有邻近目标盟友的敌人造成 4...50 闪电伤害。"
+			},
+			"cht": {
+				"name": "先人的盛怒 (PvP)",
+				"description": "技能： 持續3秒，每秒對鄰近目標盟友的敵人造成4...50閃電傷害。",
+				"concise": "技能： 持續3秒，每秒對鄰近目標盟友的敵人造成4...50閃電傷害。"
+			},
 			"de": {
+				"name": "Wut der Vorfahren (PvP)",
+				"description": "Fertigkeit. 3 Sekunde[n] lang erleiden alle den Verbündeten umstehenden Feinde pro Sekunde 4...50 Punkt[e] Blitzschaden.",
+				"concise": "Fertigkeit. 3 Sekunde[n]: Richtet bei den Verbündeten (bzw. Euch selbst) umstehenden Feinden pro Sekunde 4...50 Punkt[e] Blitzschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Wut der Vorfahren (PvP)",
 				"description": "3 Sekunden lang erleiden alle den Verbündeten (bzw. Euch selbst) umstehenden Feinde pro Sekunde 4...50 Punkte Blitzschaden.",
 				"concise": "3 Sekunden: Richtet bei den Verbündeten (bzw. Euch selbst) umstehenden Feinden pro Sekunde 4...50 Punkte Blitzschaden an."
 			},
 			"en": {
 				"name": "Ancestors' Rage (PvP)",
+				"description": "Skill. For 3 seconds all foes adjacent to target ally take 4...50 lightning damage each second.",
+				"concise": "Skill. (3 seconds.) Deals 4...50 lightning damage to foes adjacent to target ally each second."
+			},
+			"en-gww": {
+				"name": "Ancestors' Rage (PvP)",
 				"description": "For 3 seconds all foes adjacent to target ally are struck for 4...50 lightning damage each second.",
 				"concise": "(3 seconds.) Deals 4...50 lightning damage to foes adjacent to target ally each second."
 			},
+			"es": {
+				"name": "Rabia ancestral (PvP)",
+				"description": "Habilidad. Durante 3 segundos, todos los enemigos adyacentes al objetivo (un aliado o tú mismo) reciben 4...50 de daño de relámpago por segundo.",
+				"concise": "Habilidad. (3 segundos). Hace 4...50 de daño de relámpago por segundo a todos los enemigos adyacentes al objetivo (un aliado o tú mismo)."
+			},
 			"fr": {
+				"name": "Rage de l'ancêtre (PvP)",
+				"description": "Compétence. Pendant 3 secondes, tous les ennemis adjacents à la cible alliée subissent 4...50 points de dégâts de la foudre par seconde.",
+				"concise": "Compétence. (3 secondes.) Inflige 4...50 points de dégâts de la foudre par seconde aux ennemis adjacents à l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Rage de l'ancêtre (PvP)",
 				"description": "Pendant 3 secondes, tous les ennemis adjacents à la cible (un allié ou vous-même) subissent 1...31 points de dégâts de la foudre par seconde.",
 				"concise": "(3 secondes.) Inflige 1...31 points de dégâts de la foudre par seconde aux ennemis adjacent à l'allié visé."
+			},
+			"it": {
+				"name": "Ira degli Antenati (PvP)",
+				"description": "Abilità. Per 3 secondo[i] tutti i nemici adiacenti all'obiettivo (un alleato o te stesso) subiscono 4...50 danno[i] da fulmine al secondo.",
+				"concise": "Abilità. (Secondi: 3) Assesta 4...50 danno[i] da fulmine al secondo ai nemici adiacenti all'obiettivo alleato."
+			},
+			"jp": {
+				"name": "アンセスター レイジ (PvP)",
+				"description": "スキル： 3 秒間、ターゲットした味方に隣接するすべての敵に毎秒 4...50 のライトニング ダメージを与えます。",
+				"concise": "スキル： (3 秒) ターゲットした味方に隣接する敵に毎秒 4...50 のライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "고대용의 분노(대인전)",
+				"description": "스킬. 대상 지정: 아군. 3초 동안 대상에 인접한 모든 적은 매초 4...50의 번개 대미지를 입습니다.",
+				"concise": "스킬. (3초) 대상 아군에 인접한 적들에게 매초 4...50의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Gniew Przodków (PvP)",
+				"description": "Umiejętność. Przez 3 sek., przeciwnicy w bezpośrednim sąsiedztwie wybranego sojusznika otrzymują co sekundę 4...50 pkt. obrażeń od błyskawic.",
+				"concise": "Umiejętność. (3 sek.) Przeciwnikom bezpośrednio przy wybranym sojuszniku zadaje co sekundę po 4...50 pkt. obrażeń od błyskawic."
+			},
+			"ru": {
+				"name": "Ancestors' Rage (PvP)",
+				"description": "Умение. В течение 3 сек все противники, окружающие выбранного союзника, получают 4...50 ед. урона силой молнии каждую секунду.",
+				"concise": "Умение. (3 сек) Наносит 4...50 ед. урона силой молнии противникам, окружающим выбранного союзника, каждую секунду."
+			},
+			"bork": {
+				"name": "Uncesturs' Raege-a (PfP)",
+				"description": "Skeell. Fur 3 secunds aell fues aedjaecent tu taerget aelly taeke-a 4...50 leeghtneeng daemaege-a iaech secund.",
+				"concise": "Skeell. (3 secunds.) Deaels 4...50 leeghtneeng daemaege-a tu fues aedjaecent tu taerget aelly iaech secund."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "掠夺者射击",
+				"description": "弓术。 命中时对目标造成 25...55 额外伤害，而你的所有非攻击技能在 5 秒内无法使用。",
+				"concise": "弓术。 命中时对目标造成 25...55 额外伤害，而你的所有非攻击技能在 5 秒内无法使用。"
+			},
+			"cht": {
+				"name": "掠奪者射擊",
+				"description": "弓術攻擊技能： 命中時對目標造成 25...55 額外傷害，而你的所有非攻擊技能在 5 秒內無法使用。",
+				"concise": "弓術攻擊技能： 命中時對目標造成 25...55 額外傷害，而你的所有非攻擊技能在 5 秒內無法使用。"
+			},
 			"de": {
+				"name": "Plünderer-Schuss",
+				"description": "Bogenangriff. Wenn Plünderer-Schuss erfolgreich ist, fügt Ihr +25...55 Punkt[e] Schaden zu und alle Eure Nichtangriffs-Fertigkeiten werden 5 Sekunde[n] lang deaktiviert.",
+				"concise": "Bogenangriff. Richtet +25...55 Punkt[e] Schaden an. Eure Nicht-Angriffsfertigkeiten werden deaktiviert (5 Sekunde[n]), falls dieser Angriff trifft."
+			},
+			"de-guildwiki": {
 				"name": "Plünderer-Schuss",
 				"description": "Wenn Plünderer-Schuss erfolgreich ist, fügt Ihr +25...55 Punkte Schaden zu, und alle Eure Nichtangriffs-Fertigkeiten werden 5 Sekunden lang deaktiviert.",
 				"concise": "Richtet +25...55 Punkte Schaden an. <gray>Eure Nicht-Angriffsfertigkeiten werden deaktiviert (5 Sekunden), falls dieser Angriff trifft.</gray>"
 			},
 			"en": {
 				"name": "Marauder's Shot",
+				"description": "Bow Attack. If Marauder's Shot hits, you strike for +25...55 damage and all your non-attack skills are disabled for 5 seconds.",
+				"concise": "Bow Attack. Deals +25...55 damage. Your non-attack skills are disabled (5 seconds) if this attack hits."
+			},
+			"en-gww": {
+				"name": "Marauder's Shot",
 				"description": "If Marauder's Shot hits, you strike for +25...55 damage and all your non-attack skills are disabled for 5 seconds.",
 				"concise": "Deals +25...55 damage. <gray>Your non-attack skills are disabled (5 seconds) if this attack hits.</gray>"
 			},
+			"es": {
+				"name": "Disparo del merodeador",
+				"description": "Ataque con arco. Si el Disparo del merodeador impacta, harás +25...55 de daño y todas tus habilidades que no sean de ataque estarán desactivadas durante 5 segundos.",
+				"concise": "Ataque con arco. Hace +25...55 de daño. Tus demás habilidades que no sean de ataque se desactivan (5 segundos) si este ataque impacta."
+			},
 			"fr": {
+				"name": "Tir du maraudeur",
+				"description": "Attaque à l'arc. Si l'attaque réussit, cette attaque inflige +25...55 points de dégâts et toutes vos compétences n'étant pas des attaques restent inutilisables pendant 5 secondes.",
+				"concise": "Attaque à l'arc. Inflige +25...55 points de dégâts. Vos compétences non offensives sont désactivées (5 secondes) si cette attaque réussit."
+			},
+			"fr-gwiki": {
 				"name": "Tir du maraudeur",
 				"description": "Si l'attaque réussit, cette attaque inflige +25...55 points de dégâts et toutes vos compétences n'étant pas des attaques restent inutilisables pendant 5 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro del Brigante",
+				"description": "Attacco con Arco. Se va a segno infliggi +25...55 danno[i] e tutte le tue abilità (esclusi gli attacchi) vengono disattivate per 5 secondo[i].",
+				"concise": "Attacco con Arco. Danni inferti: +25...55. Se questo attacco va a segno le tue abilità (esclusi gli attacchi) sono disattivate (5 secondo[i])."
+			},
+			"jp": {
+				"name": "マロウダー ショット",
+				"description": "ボウ アタック： 攻撃が成功すると 25...55 の追加ダメージを与えますが、アタック スキル以外のスキルをすべて 5 秒間使用することができなくなります。",
+				"concise": "ボウ アタック： 25...55 の追加ダメージを与えます。この攻撃が成功すると、アタック スキル以外のスキルを使用することができなくなります (5 秒)。"
+			},
+			"kr": {
+				"name": "기습 사격",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 25...55의 대미지를 추가로 줍니다. 대신 자신은 비공격 스킬을 5초 동안 사용할 수 없습니다.",
+				"concise": "활 공격. 25...55의 대미지를 추가로 줍니다. 공격이 성공하면 비공격 스킬을 사용할 수 없습니다.(5초)"
+			},
+			"pl": {
+				"name": "Strzał Bandyty",
+				"description": "Strzał z łuku. Jeśli Strzał Bandyty trafi, zadajesz +25...55 pkt. obrażeń i wszystkie twoje umiejętności nie związane z atakami będą niedostępne przez 5 sek.",
+				"concise": "Strzał z łuku. Zadaje +25...55 pkt. obrażeń. Wszystkie twoje umiejętności nie związane z atakami są wyłączone (5 sek.), jeżeli ten atak trafi."
+			},
+			"ru": {
+				"name": "Marauder's Shot",
+				"description": "Атака из лука. Если Marauder's Shot попадает в цель, вы наносите дополнительно 25...55 ед. урона, и все ваши неатакующие умения будут недоступны в течение 5 сек.",
+				"concise": "Атака из лука. Наносит дополнительно 25...55 ед. урона. Ваши неатакующие умения будут недоступны (5 сек), если эта атака окажется неудачной."
+			},
+			"bork": {
+				"name": "Maerooder's Shut",
+				"description": "Boo Aettaeck. Iff Maerooder's Shut heets, yuoo streeke-a fur +25...55 daemaege-a und aell yuoor nun-aettaeck skeells aere-a deesaebled fur 5 secunds.",
+				"concise": "Boo Aettaeck. Deaels +25...55 daemaege-a. Yuoor nun-aettaeck skeells aere-a deesaebled (5 secunds) iff thees aettaeck heets."
 			}
 		}
 	}

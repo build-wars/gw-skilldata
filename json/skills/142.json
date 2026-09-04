@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "余孽",
+				"description": "精英负面魔法。 牺牲最大生命值的10%，使目标敌人失去所有「增益魔法」，并且使其在6...30秒之内所受到的治疗效果减半。",
+				"concise": "精英负面魔法。 移除目标敌人身上的25项「增益魔法」效果。每当一个僧侣类「增益魔法」效果被移除，你将受到1...4点伤害。"
+			},
+			"cht": {
+				"name": "強力詛咒",
+				"description": "精英降咒魔法： 持續6...30秒，目標以及附近敵人受到1...4體力衰減，受到的治療量減少25%。",
+				"concise": "精英降咒魔法： 持續6...30秒，目標以及附近敵人受到1...4體力衰減，受到的治療量減少25%。"
+			},
 			"de": {
+				"name": "Bleibender Fluch",
+				"description": "Elite-Verhexung. 6...30 Sekunde[n] lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -1...4 und Heilung verschafft ihnen um 25% weniger Vorteile.",
+				"concise": "Elite-Verhexung. 6...30 Sekunde[n]: Gegner und Feinde in der Nähe haben -1...4 Lebenspunktdegeneration. Heilung verschafft ihnen um 25% weniger Vorteile."
+			},
+			"de-guildwiki": {
 				"name": "Bleibender Fluch",
 				"description": "6...30 Sekunden lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -1...4 und Heilung verschafft ihnen um 25% weniger Vorteile.",
 				"concise": "6...30 Sekunden: Gegner und Feinde in der Nähe haben -1...4 Lebenspunktdegeneration. Heilung verschafft ihnen um 25% weniger Vorteile."
 			},
 			"en": {
 				"name": "Lingering Curse",
+				"description": "Elite Hex Spell. For 6...30 seconds, target foe and all nearby foes suffer -1...4 Health degeneration, and receive 25% less benefit from healing.",
+				"concise": "Elite Hex Spell. (6...30 seconds.) Target and nearby foes have -1...4 Health degeneration and receive 25% less benefit from healing."
+			},
+			"en-gww": {
+				"name": "Lingering Curse",
 				"description": "For 6...30 seconds, target foe and all nearby foes suffer -1...4 Health degeneration, and gain 25% less benefit from healing.",
 				"concise": "(6...30 seconds.) Target and nearby foes have -1...4 Health degeneration and receive 25% less benefit from healing."
 			},
+			"es": {
+				"name": "Maldición persistente",
+				"description": "Conjuro con maleficio de élite. Durante 6...30 segundos, el enemigo objetivo y todos los enemigos cercanos sufrirán -1...4 de degeneración de salud y se beneficiarán un 25% menos de las curaciones.",
+				"concise": "Conjuro con maleficio de élite. (6...30 segundos). El enemigo objetivo y los cercanos sufren -1...4 de degeneración de salud y se benefician un 25% menos de las curaciones."
+			},
 			"fr": {
+				"name": "Malédiction latente",
+				"description": "Maléfice d'élite. Pendant 6...30 secondes, l'ennemi visé et tous les ennemis à proximité souffrent d'une dégénération de santé de -1...4 et reçoivent 25% de guérison en moins.",
+				"concise": "Maléfice d'élite. (6...30 secondes.) La cible et tous les ennemis à proximité souffrent d'une dégénération de santé de -1...4 et reçoivent 25% de guérison en moins."
+			},
+			"fr-gwiki": {
 				"name": "Malédiction latente",
 				"description": "Pendant 6...30 secondes, la cible ennemie et tous les ennemis à proximité souffrent d'une dégénération de santé de -0...3 et reçoivent 20% de guérison en moins.",
 				"concise": "(6...30 secondes.) La cible et tous les ennemis à proximité souffrent d'une dégénération de santé de -0...3 et reçoivent 20% de guérison en moins."
+			},
+			"it": {
+				"name": "Maledizione Persistente",
+				"description": "Fattura d'Élite. Per 6...30 secondo[i] l'obiettivo nemico e tutti i nemici nei dintorni subiscono una Degenerazione della Salute di -1...4 e ricevono un 25% in meno di cure.",
+				"concise": "Fattura d'Élite. (Secondi: 6...30) Degenerazione Salute dell'obiettivo e di tutti i nemici nei dintorni: -1...4. Riduzione cure ricevute: 25%."
+			},
+			"jp": {
+				"name": "リンガー カース",
+				"description": "エリート弱体化スペル： 6...30 秒間、ターゲットした敵および周囲にいるすべての敵は体力の自然回復力が 1...4、回復スペルによる体力の回復量が 25% 減少します。",
+				"concise": "エリート弱体化スペル： (6...30 秒) ターゲットした敵および周囲にいる敵は体力の自然回復力が 1...4、回復スペルによる体力の回復量が 25% 減少します。"
+			},
+			"kr": {
+				"name": "끈질긴 저주",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 6...30초 동안 대상과 그 부근의 모든 적의 체력 재생이 1...4만큼 감소하고, 치유 효과를 25% 덜 받습니다.",
+				"concise": "엘리트 약화 마법. (6...30초) 대상과 그 부근의 적들은 체력 재생이 1...4만큼 감소하고, 치유 효과를 25% 덜 받습니다."
+			},
+			"pl": {
+				"name": "Przewlekła Klątwa",
+				"description": "Elitarna klątwa (czar). Przez 6...30 sek. wybrany przeciwnik i wszyscy przeciwnicy w pobliżu posiadają degenerację żywotności -1...4 i w trakcie leczenia otrzymują o 25% mniej żywotności.",
+				"concise": "Elitarna klątwa (czar). (6...30 sek.) Wybrany przeciwnik i wszyscy przeciwnicy w pobliżu posiadają degenerację żywotności -1...4 i w trakcie leczenia otrzymują o 25% mniej żywotności."
+			},
+			"ru": {
+				"name": "Lingering Curse",
+				"description": "Элитное заклинание-проклятье. В течение 6...30 сек выбранный противник и все противники поблизости получают на 25% меньше здоровья при исцелении, а их скорость восстановления здоровья уменьшается на 1...4 ед.",
+				"concise": "Элитное заклинание-проклятье. (6...30 сек) Выбранный противник и все противники поблизости получают -1...4 ед. к скорости восстановления здоровья и на 25% меньше здоровья при исцелении."
+			},
+			"bork": {
+				"name": "Leengereeng Coorse-a",
+				"description": "Ileete-a Hex Spell. Fur 6...30 secunds, taerget fue-a und aell neaerby fues sooffffer -1...4 Heaelt degeneraeshun, und receeefe-a 25% less beneffeet frum heaeleeng.",
+				"concise": "Ileete-a Hex Spell. (6...30 secunds.) Taerget und neaerby fues haefe-a -1...4 Heaelt degeneraeshun und receeefe-a 25% less beneffeet frum heaeleeng."
 			}
 		}
 	}

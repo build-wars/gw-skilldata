@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "安抚",
+				"description": "缚灵仪式。 创造一只等级为1...12的安抚缚灵。使范围内的所有敌人必须花两倍的时间积累怒气值。缚灵在15...45秒后自然消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...12的安抚缚灵。使范围内的所有敌人必须花两倍的时间积累怒气值。缚灵在15...45秒后自然消失。"
+			},
+			"cht": {
+				"name": "緩和",
+				"description": "縛靈儀式： 創造等級 1...12 的緩和縛靈。使範圍內的所有敵人必須花兩倍的時間累積怒氣值。縛靈在 15...45 秒後消失。",
+				"concise": "縛靈儀式： 創造等級 1...12 的緩和縛靈。使範圍內的所有敵人必須花兩倍的時間累積怒氣值。縛靈在 15...45 秒後消失。"
+			},
 			"de": {
+				"name": "Beruhigung",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...12. Alle Feinde in seiner Reichweite benötigen doppelt so lange, um Adrenalin aufzuladen. Dieser Geist stirbt nach 15...45 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...12 (15...45 Sekunde[n] Lebensdauer). Das Aufladen von Adrenalin dauert bei Feinden in Reichweite doppelt so lange."
+			},
+			"de-guildwiki": {
 				"name": "Beruhigung",
 				"description": "Erstellt einen Geist der Stufe 1...12. Alle Feinde in seiner Reichweite benötigen doppelt so lange, um Adrenalin aufzuladen. Dieser Geist stirbt nach 15...45 Sekunden.",
 				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...12 (15...45 Sekunden Lebensdauer). Das Aufladen von Adrenalin dauert bei Feinden in Reichweite doppelt so lange."
 			},
 			"en": {
 				"name": "Soothing",
+				"description": "Binding Ritual. Create a level 1...12 spirit. All foes within its range take twice as long to build adrenaline. This spirit dies after 15...45 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...12 spirit (15...45 second lifespan). Building adrenaline takes twice as long for foes within range."
+			},
+			"en-gww": {
+				"name": "Soothing",
 				"description": "Create a level 1...12 spirit. All foes within its range take twice as long to build adrenaline. This spirit dies after 15...45 seconds.",
 				"concise": "Creates a level 1...12 spirit (15...45 second lifespan). Building adrenaline takes twice as long for foes within range."
 			},
+			"es": {
+				"name": "Calmante",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...12. Los enemigos de la zona tardan el doble en crear adrenalina. Morirá a los 15...45 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...12 (15...45 segundos de vida). Los enemigos de la zona tardan el doble en acumular adrenalina."
+			},
 			"fr": {
+				"name": "Apaisement",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...12. Les ennemis dans sa portée mettent deux fois plus de temps pour récupérer de l'adrénaline. Cet esprit disparaît au bout de 15...45 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...12 (durée de vie de 15...45 secondes). Les ennemis à portée accumulent de l'adrénaline deux fois moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Apaisement",
 				"description": "Crée un esprit de niveau 1...12. Les ennemis dans sa portée mettent deux fois plus de temps pour récupérer de l'adrénaline. Cet esprit disparaît au bout de 15...45 secondes.",
 				"concise": "Crée un esprit de niveau 1...12 (durée de vie de 15...45 secondes). Les ennemis à portée accumulent de l'adrénaline deux fois moins vite."
+			},
+			"it": {
+				"name": "Rasserenamento",
+				"description": "Rituale Incatenante. Crei uno Spirito di livello 1...12. Tutti i nemici nel suo raggio d'influenza impiegano il doppio di tempo per generare Adrenalina. Lo Spirito si esaurisce dopo 15...45 secondo[i].",
+				"concise": "Rituale Incatenante. Crei uno Spirito di livello 1...12 (in vita per 15...45 secondo[i]). Il tempo di acquisizione adrenalina si raddoppia per i nemici nella portata."
+			},
+			"jp": {
+				"name": "スーズ",
+				"description": "バインド リチュアル： レベル 1...12 の精霊を召喚します。この精霊の効果範囲内では、すべての敵はアドレナリンの獲得に倍の時間がかかります。この精霊は 15...45 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...12 の精霊を召喚します (15...45 秒)。この精霊の効果範囲内では、敵はアドレナリンの獲得時間が2倍になります。"
+			},
+			"kr": {
+				"name": "진정의 영혼",
+				"description": "영혼 결속. 대상 지정: 없음. 1...12레벨의 영혼을 소환합니다. 영혼을 중심으로 일정 범위 내에 있는 모든 적은 아드레날린을 회복하는 데 걸리는 시간이 2배로 늘어납니다. 영혼은 15...45초 후 사라집니다.",
+				"concise": "영혼 결속. 1...12레벨 영혼을 소환합니다.(수명: 15...45초) 적들이 아드레날린을 회복하는 데 걸리는 시간이 2배로 늘어납니다."
+			},
+			"pl": {
+				"name": "Ukojenie",
+				"description": "Rytuał spętania. Tworzysz 1...12 poziomowego ducha. Wszyscy przeciwnicy w jego zasięgu otrzymują adrenalinę dwa razy wolniej. Ten duch ginie po 15...45 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...12 (czas życia 15...45 sek.). Przeciwnicy w zasięgu dwa razy dłużej gromadzą adrenalinę."
+			},
+			"ru": {
+				"name": "Soothing",
+				"description": "Связующий ритуал. Создает духа 1...12 уровня. Все противники, находящиеся в зоне его действия, пополняют свой запас адреналина в два раза медленнее. Этот дух умирает через 15...45 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...12 уровня (15...45 сек жизни). Пополнение адреналина у противников в зоне его действия происходит в два раза медленнее."
+			},
+			"bork": {
+				"name": "Suutheeng",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...12 spureet. Aell fues veetheen its runge-a taeke-a tveece-a aes lung tu booeeld aedrenaeleene-a. Thees spureet deees aeffter 15...45 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...12 spureet (15...45 secund leeffespun). Booeeldeeng aedrenaeleene-a taekes tveece-a aes lung fur fues veetheen runge-a. Bork! Bork! Bork!"
 			}
 		}
 	}

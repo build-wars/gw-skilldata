@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "回力",
+				"description": "武咒。 持续 3...12 秒，使友方目标拥有回力。当目标遭受「负面魔法」或「症状」时，该目标的生命再生提高 1...6 并提高 24 护甲。",
+				"concise": "武咒。 持续 3...12 秒，使友方目标拥有回力。当目标遭受「负面魔法」或「症状」时，该目标的生命再生提高 1...6 并提高 24 护甲。"
+			},
+			"cht": {
+				"name": "活力武裝",
+				"description": "武裝魔法： 持續 3...12 秒，使目標隊友擁有活力武裝。當該隊友遭受「降咒」或「病症」時，該隊友的體力再生增加 1...6 並增加 24 防禦。",
+				"concise": "武裝魔法： 持續 3...12 秒，使目標隊友擁有活力武裝。當該隊友遭受「降咒」或「病症」時，該隊友的體力再生增加 1...6 並增加 24 防禦。"
+			},
 			"de": {
+				"name": "Unverwüstliche Waffe",
+				"description": "Waffenzauber. 3...12 Sekunde[n] lang bekommt der Verbündete (bzw. Ihr selbst) eine Unverwüstliche Waffe. Während er unter einer Verhexung oder einem Zustand leidet, erhält er eine Lebenspunktregeneration von +1...6 und +24 Rüstung.",
+				"concise": "Waffenzauber. 3...12 Sekunde[n]: +1...6 Lebenspunktregeneration und +24 Rüstung. Der Verbündete (bzw. Ihr selbst) muss verhext sein oder einen Zustand haben, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Unverwüstliche Waffe",
 				"description": "3...12 Sekunden lang bekommt der Verbündete (bzw. Ihr selbst) eine Unverwüstliche Waffe. Während er unter einer Verhexung oder einem Zustand leidet, erhält er eine Lebenspunktregeneration von +1...6 und +24 Rüstung.",
 				"concise": "3...12 Sekunden: +1...6 Lebenspunktregeneration und +24 Rüstung. <gray>Der Verbündete (bzw. Ihr selbst) muss verhext sein oder einen Zustand haben, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Resilient Weapon",
+				"description": "Weapon Spell. For 3...12 seconds, target ally has a Resilient Weapon. While suffering from a hex or condition, that ally gains +1...6 Health regeneration and +24 armor.",
+				"concise": "Weapon Spell. (3...12 seconds.) +1...6 Health regeneration and +24 armor. No effect unless target ally is hexed or has a condition."
+			},
+			"en-gww": {
+				"name": "Resilient Weapon",
 				"description": "For 3...12 seconds, target ally has a Resilient Weapon. While suffering from a hex or condition, that ally gains +1...6 Health regeneration and +24 armor.",
 				"concise": "(3...12 seconds.) +1...6 Health regeneration and +24 armor. <gray>No effect unless target ally is hexed or has a condition.</gray>"
 			},
+			"es": {
+				"name": "Arma elástica",
+				"description": "Conjuro con arma. Durante 3...12 segundos, el objetivo (un aliado o tú mismo) llevará un Arma elástica. Cuando esté padeciendo una condición o maleficio, ganará +1...6 de regeneración de salud y +24 de armadura.",
+				"concise": "Conjuro con arma. (3...12 segundos). +1...6 de regeneración de salud y +24 de armadura. No tiene efecto si el aliado objetivo no tiene una condición o un maleficio."
+			},
 			"fr": {
+				"name": "Arme résistante",
+				"description": "Sort d'altération d'arme. Pendant 3...12 secondes, la cible (un allié ou vous-même) possède l'Arme résistante. Pendant qu'elle souffre d'un maléfice ou d'une condition, cette cible bénéficie d'une régénération de santé de +1...6 et d'un bonus d'armure de +24.",
+				"concise": "Sort d'altération d'arme. (3...12 secondes.) Régénération de santé de +1...6 et bonus d'armure de +24. Aucun effet si l'allié visé n'est pas affecté par un maléfice ou une condition."
+			},
+			"fr-gwiki": {
 				"name": "Arme résistante",
 				"description": "Pendant 3...12 secondes, la cible (un allié ou vous-même) possède l'Arme résistante. Pendant qu'elle souffre d'un maléfice ou d'une condition, cette cible bénéficie d'une régénération de santé de +1...6 et d'un bonus d'armure de +24.",
 				"concise": "(3...12 secondes.) Régénération de santé de +1...6 et bonus d'armure de +24. <gray>Aucun effet si la cible allié visé n'est pas affecté par un maléfice ou une condition.</gray>"
+			},
+			"it": {
+				"name": "Arma Resiliente",
+				"description": "Magia Altera-arma. Per 3...12 secondo[i], l'obiettivo (un alleato o te stesso) riceve un'Arma Resiliente. Se è affetto da fattura o condizione, ottiene una Rigenerazione della Salute di +1...6 e +24 di armatura.",
+				"concise": "Magia Altera-arma. (Secondi: 3...12) Rigenerazione Salute: +1...6. Armatura: +24. Ha effetto solo se l'obiettivo alleato è sotto fattura o è affetto da una condizione."
+			},
+			"jp": {
+				"name": "リザリアント ウェポン",
+				"description": "ウェポン スペル： 3...12 秒間、ターゲットした味方は弱体化スペルまたは「状態異常」がかけられている間、体力の自然回復力が 1...6、防御力が 24 増加します。",
+				"concise": "ウェポン スペル： (3...12 秒) 体力の自然回復力が 1...6、防御力が 24 増加します。ターゲットした味方に弱体化スペルまたは「状態異常」がかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "회복의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 3...12초 동안 대상은 \"회복의 무기\" 효과를 얻습니다. 대상이 약화 마법이나 상태이상에 걸리면 대상의 체력 재생이 1...6, 방어력이 24 증가합니다.",
+				"concise": "마법 무기. (3...12초) 체력 재생이 1...6, 방어력이 24 증가합니다. 대상이 약화 마법이나 상태이상에 걸려 있어야 합니다."
+			},
+			"pl": {
+				"name": "Wytrzymały Oręż",
+				"description": "Czar z broni. Przez 3...12 sek. wybrany sojusznik posiada Wytrzymały Oręż. Pod wpływem klątwy lub przypadłości, ten sojusznik zyskuje regenerację żywotności +1...6 i otrzymuje +24 pkt. pancerza.",
+				"concise": "Czar z broni. (3...12 sek.) Regeneracja żywotności +1...6 i +24 pkt. pancerza. Bez efektu, chyba że wybrany sojusznik jest pod wpływem klątwy lub przypadłości."
+			},
+			"ru": {
+				"name": "Resilient Weapon",
+				"description": "Оружейное заклинание. На 3...12 сек выбранный союзник получает Resilient Weapon. Все то время, пока он находится под воздействием какого-либо проклятья или состояния, скорость восстановления его здоровья увеличивается на 1...6 ед., а его защита повышается на 24 ед.",
+				"concise": "Оружейное заклинание. (3...12 сек) Дает +1...6 к скорости восстановления здоровья и +24 ед. к защите. Не действует, если на выбранного союзника не наложено проклятье или состояние."
+			},
+			"bork": {
+				"name": "Reseeleeent Veaepun",
+				"description": "Veaepun Spell. Fur 3...12 secunds, taerget aelly haes a Reseeleeent Veaepun. Vheele-a sooffffereeng frum a hex oor cundeeshun, thaet aelly gaeeens +1...6 Heaelt regeneraeshun und +24 aermur.",
+				"concise": "Veaepun Spell. (3...12 secunds.) +1...6 Heaelt regeneraeshun und +24 aermur. Nu iffffect unless taerget aelly is hexed oor haes a cundeeshun."
 			}
 		}
 	}

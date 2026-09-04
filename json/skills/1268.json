@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复苏之躯",
+				"description": "精英武咒。 持续 5...25 秒，使目标盟友拥有复苏之躯，该盟友的法术与「缚灵仪式」技能恢复速度加快 33%。",
+				"concise": "精英武咒。 持续 5...25 秒，使目标盟友拥有复苏之躯，该盟友的法术与「缚灵仪式」技能恢复速度加快 33%。"
+			},
+			"cht": {
+				"name": "復甦武裝",
+				"description": "精英武裝魔法： 持續 5...25 秒，使目標盟友擁有復甦武裝，該盟友的「魔法」與「縛靈儀式」技能回復速度加快 33%。",
+				"concise": "精英武裝魔法： 持續 5...25 秒，使目標盟友擁有復甦武裝，該盟友的「魔法」與「縛靈儀式」技能回復速度加快 33%。"
+			},
 			"de": {
+				"name": "Waffe der Beschleunigung",
+				"description": "Elite-Waffenzauber. 5...25 Sekunde[n] lang hat der Verbündete (bzw. Ihr selbst) eine Waffe der Beschleunigung und Zauber und Binderituale werden um 33% schneller wieder aufgeladen.",
+				"concise": "Elite-Waffenzauber. 5...25 Sekunde[n]: Zauber und Binderituale laden sich um 33% schneller wieder auf."
+			},
+			"de-guildwiki": {
 				"name": "Waffe der Beschleunigung",
 				"description": "5...25 Sekunden lang hat der Verbündete (bzw. Ihr selbst) eine Waffe der Beschleunigung und Zauber und Binderituale werden um 33% schneller wieder aufgeladen.",
 				"concise": "5...25 Sekunden: Zauber und Binderituale laden sich um 33% schneller wieder auf."
 			},
 			"en": {
 				"name": "Weapon of Quickening",
+				"description": "Elite Weapon Spell. For 5...25 seconds, target ally has a Weapon of Quickening, and spells and binding rituals recharge 33% faster.",
+				"concise": "Elite Weapon Spell. (5...25 seconds.) Spells and binding rituals recharge 33% faster."
+			},
+			"en-gww": {
+				"name": "Weapon of Quickening",
 				"description": "For 5...25 seconds, target ally has a Weapon of Quickening, and spells and binding rituals recharge 33% faster.",
 				"concise": "(5...25 seconds.) Spells and binding rituals recharge 33% faster."
 			},
+			"es": {
+				"name": "Arma de velocidad",
+				"description": "Conjuro con arma de élite. Durante 5...25 segundos, el objetivo (un aliado o tú mismo) tiene un Arma de velocidad, gracias a la cual los conjuros y los rituales de encadenamiento de espíritus se recargan un 33% más deprisa.",
+				"concise": "Conjuro con arma de élite. (5...25 segundos). Los conjuros y rituales con espíritus se recargan un 33% más rápido."
+			},
 			"fr": {
+				"name": "Arme de rapidité",
+				"description": "Sort d'altération d'arme d'élite. Pendant 5...25 secondes, la cible (un allié ou vous-même) possède l'Arme de rapidité et ses sorts et rituels d'asservissement se rechargent 33% plus vite.",
+				"concise": "Sort d'altération d'arme d'élite. (5...25 secondes.) Les sorts et les rituels d'asservissement se rechargent 33% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Arme de rapidité",
 				"description": "Pendant 5...25 secondes, la cible (un allié ou vous-même) possède l'Arme de rapidité et ses Sorts et Rituels d'asservissement se rechargent 33% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma dell'Accelerazione",
+				"description": "Magia d'Élite Altera-arma. Per 5...25 secondo[i], l'obiettivo (un alleato o te stesso) ottiene un'Arma dell'Accelerazione che fa ricaricare ad una velocità maggiore del 33% le magie e i rituali incatenanti.",
+				"concise": "Magia d'Élite Altera-arma. (Secondi: 5...25) Incremento velocità di ricarica di magie e rituali incatenanti: 33%."
+			},
+			"jp": {
+				"name": "クイック ウェポン",
+				"description": "エリート ウェポン スペル： 5...25 秒間、ターゲットした味方はスペルおよびバインド リチュアルの再使用時間が 33% 減少します。",
+				"concise": "エリート ウェポン スペル： (5...25 秒) スペルおよびバインド リチュアル スキルは、再使用時間が 33% 減少します。"
+			},
+			"kr": {
+				"name": "생기의 무기",
+				"description": "엘리트 마법 무기. 대상 지정: 아군. 5...25초 동안 대상은 \"생기의 무기\" 효과를 얻습니다. 대상의 마법과 영혼 결속 종류의 스킬 재활성 시간이 33% 빨라집니다.",
+				"concise": "엘리트 마법 무기. (5...25초) 마법과 영혼 결속 종류의 스킬 재활성 시간이 33% 빨라집니다."
+			},
+			"pl": {
+				"name": "Oręż Przyspieszenia",
+				"description": "Elitarny czar z broni. Na 5...25 sek. wybrany sojusznik otrzymuje Oręż Przyspieszenia, który zwiększa o 33% szybkość odnawiania czarów i rytuałów spętania.",
+				"concise": "Elitarny czar z broni. (5...25 sek.) Czary i rytuały spętania odnawiają się o 33% szybciej."
+			},
+			"ru": {
+				"name": "Weapon of Quickening",
+				"description": "Элитное оружейное заклинание. В течение 5...25 сек у выбранного союзника будет Weapon of Quickening, и все его заклинания и связующие ритуалы будут перезаряжаться на 33% быстрее.",
+				"concise": "Элитное оружейное заклинание. (5...25 сек) Заклинания и связующие ритуалы перезаряжаются на 33% быстрее."
+			},
+			"bork": {
+				"name": "Veaepun ooff Qooeeckeneeng",
+				"description": "Ileete-a Veaepun Spell. Fur 5...25 secunds, taerget aelly haes a Veaepun ooff Qooeeckeneeng, und spells und beendeeng reetooaels rechaerge-a 33% faester.",
+				"concise": "Ileete-a Veaepun Spell. (5...25 secunds.) Spells und beendeeng reetooaels rechaerge-a 33% faester."
 			}
 		}
 	}

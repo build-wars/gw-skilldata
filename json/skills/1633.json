@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "残杀",
+				"description": "近战技能。 命中时，对带有「症状」的敌人造成致命一击的伤害，并附加10...30点额外伤害。",
+				"concise": "近战技能。 命中时，对带有「症状」的敌人造成致命一击的伤害，并附加10...30点额外伤害。"
+			},
+			"cht": {
+				"name": "惡意狙殺",
+				"description": "近身攻擊技能： 若命中正遭受「病症」的敵人，一定是致命攻擊而且對其造成 10...30 額外傷害，。",
+				"concise": "近身攻擊技能： 若命中正遭受「病症」的敵人，一定是致命攻擊而且對其造成 10...30 額外傷害，。"
+			},
 			"de": {
+				"name": "Böswilliger Stoß",
+				"description": "Nahkampfangriff. Wenn dieser Angriff einen Gegner trifft, der an einem Zustand leidet, fügt Ihr +10...30 Punkt[e] Schaden zu und der Angriff führt zu einem kritischen Treffer.",
+				"concise": "Nahkampfangriff. Dieser Angriff richtet +10...30 Punkt[e] Schaden an und ist ein kritischer Treffer, falls der Gegner einen Zustand hat."
+			},
+			"de-guildwiki": {
 				"name": "Böswilliger Stoß",
 				"description": "Wenn dieser Angriff einen Gegner trifft, der an einem Zustand leidet, fügt Ihr +10...30 Punkte Schaden zu und der Angriff führt zu einem kritischen Treffer.",
 				"concise": "Dieser Angriff richtet +10...30 Punkte Schaden an und ist ein kritischer Treffer, falls der Gegner einen Zustand hat."
 			},
 			"en": {
 				"name": "Malicious Strike",
+				"description": "Melee Attack. If this attack hits a foe suffering from a condition, you deal +10...30 damage and this attack results in a critical hit.",
+				"concise": "Melee Attack. If target foe has a condition, this attack deals +10...30 damage and is a critical hit."
+			},
+			"en-gww": {
+				"name": "Malicious Strike",
 				"description": "If this attack hits a foe suffering from a condition, you deal +10...30 damage and this attack results in a critical hit.",
 				"concise": "If target foe has a condition, this attack deals +10...30 damage and is a critical hit."
 			},
+			"es": {
+				"name": "Golpe malicioso",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque alcanza a un enemigo que esté sufriendo alguna condición, le harás +10...30 de daño y será un golpe crítico.",
+				"concise": "Ataque cuerpo a cuerpo. Si el enemigo objetivo tiene una condición, este ataque hace +10...30 de daño y es golpe crítico."
+			},
 			"fr": {
+				"name": "Coup malicieux",
+				"description": "Attaque au corps à corps. Si cette attaque frappe un ennemi souffrant d'une condition, vous infligez +10...30 points de dégâts ainsi qu'un coup critique.",
+				"concise": "Attaque au corps à corps. Si la cible ennemie souffre d'une condition, cette attaque inflige +10...30 points de dégâts et un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Coup malicieux",
 				"description": "Si cette attaque frappe un ennemi souffrant d'une condition, vous infligez +10...30 points de dégâts ainsi qu'un coup critique.",
 				"concise": "Si la cible ennemie souffre d'une condition, cette attaque inflige +10...30 points de dégâts et un coup critique."
+			},
+			"it": {
+				"name": "Colpo Maligno",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno su un nemico affetto da una condizione gli infliggi +10...30 danno[i] e l'attacco diventa un colpo critico.",
+				"concise": "Attacco Ravvicinato. Se l'obiettivo nemico è affetto da una condizione, questo attacco assesta +10...30 danno[i] e risulta in un colpo critico."
+			},
+			"jp": {
+				"name": "マリシャス ストライク",
+				"description": "メーレー アタック： 「状態異常」の敵にこの攻撃が成功すると、10...30 の追加ダメージを与えてクリティカル ヒットになります。",
+				"concise": "メーレー アタック： ターゲットした敵に「状態異常」がかけられている場合、10...30 の追加ダメージを与えてクリティカル ヒットになります。"
+			},
+			"kr": {
+				"name": "사악한 일격",
+				"description": "근접 물리 공격. 대상 지정: 적. 대상에게 치명타를 터뜨립니다. 대상이 상태이상에 걸려 있으면 10...30의 대미지를 추가로 줍니다.",
+				"concise": "근접 물리 공격. 대상이 상태이상에 걸려 있으면 치명타를 터뜨리고, 10...30의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Podłe Uderzenie",
+				"description": "Atak wręcz. Jeśli atak trafi przeciwnika cierpiącego na przypadłość, zadajesz +10...30 pkt. obrażeń oraz wykonujesz trafienie krytyczne.",
+				"concise": "Atak wręcz. Jeżeli wybrany przeciwnik jest pod działaniem przypadłości, atak zadaje +10...30 pkt. obrażeń i jest trafieniem krytycznym."
+			},
+			"ru": {
+				"name": "Malicious Strike",
+				"description": "Рукопашная атака. Если эта атака поражает противника, находящегося под воздействием какого-либо состояния, вы наносите дополнительно 10...30 ед. урона, а сама атака завершится критическим ударом.",
+				"concise": "Рукопашная атака. Наносит дополнительно 10...30 ед. урона и критический удар, если на выбранного противника было наложено состояние."
+			},
+			"bork": {
+				"name": "Maeleeceeuoos Streeke-a",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets a fue-a sooffffereeng frum a cundeeshun, yuoo deael +10...30 daemaege-a und thees aettaeck resoolts in a creeteecael heet.",
+				"concise": "Melee-a Aettaeck. Iff taerget fue-a haes a cundeeshun, thees aettaeck deaels +10...30 daemaege-a und is a creeteecael heet."
 			}
 		}
 	}

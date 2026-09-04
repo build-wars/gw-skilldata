@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "烈焰喷吐",
+				"description": "咒文。 在目标敌人所在处引发烈焰喷吐。持续 5 秒，使所有邻近烈焰喷吐的敌人每秒受到 10...40 火焰伤害。",
+				"concise": "咒文。 在目标敌人所在处引发烈焰喷吐。持续 5 秒，使所有邻近烈焰喷吐的敌人每秒受到 10...40 火焰伤害。"
+			},
+			"cht": {
+				"name": "燃燒氣息",
+				"description": "咒文魔法： 在目標敵人所在處引發燃燒氣息。持續 5 秒，使所有鄰近燃燒氣息的敵人每秒受到 10...40 火焰傷害。",
+				"concise": "咒文魔法： 在目標敵人所在處引發燃燒氣息。持續 5 秒，使所有鄰近燃燒氣息的敵人每秒受到 10...40 火焰傷害。"
+			},
 			"de": {
+				"name": "Feueratem",
+				"description": "Zauber. An der aktuellen Position des Gegners wird Feueratem erzeugt. Während der nächsten 5 Sekunde[n] erleiden umstehende Gegner 10...40 Punkt[e] Feuerschaden pro Sekunde.",
+				"concise": "Zauber. Richtet jede Sekunde 10...40 Punkt[e] Feuerschaden an (5 Sekunde[n]). Trifft umstehende Feinde um anfängliche Position des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Feueratem",
 				"description": "An der aktuellen Position des Gegners wird Feueratem erzeugt. Während der nächsten 5 Sekunden erleiden umstehende Feinde 10...40 Punkte Feuerschaden pro Sekunde.",
 				"concise": "Richtet jede Sekunde 10...40 Punkte Feuerschaden an (5 Sekunden). Trifft umstehende Feinde um die anfängliche Position des Ziels."
 			},
 			"en": {
 				"name": "Breath of Fire",
+				"description": "Spell. Create Breath of Fire at target foe's current location. For 5 seconds, foes adjacent to that location are struck for 10...40 fire damage each second.",
+				"concise": "Spell. Deals 10...40 fire damage each second (5 seconds). Hits foes adjacent to target's initial location."
+			},
+			"en-gww": {
+				"name": "Breath of Fire",
 				"description": "Create Breath of Fire at target foe's current location. For 5 seconds, foes adjacent to that location are struck for 10...40 fire damage each second.",
 				"concise": "Deals 10...40 fire damage each second (5 seconds). Hits foes adjacent to target's initial location."
 			},
+			"es": {
+				"name": "Aliento de fuego",
+				"description": "Conjuro. Creas un Aliento de fuego en la ubicación actual del enemigo objetivo. Durante 5 segundos, los enemigos adyacentes a la zona reciben 10...40 de daño de fuego por segundo.",
+				"concise": "Conjuro. Causa 10...40 de daño de fuego por segundo (5 segundos). Alcanza a los enemigos adyacentes a la ubicación inicial del objetivo."
+			},
 			"fr": {
+				"name": "Souffle de Feu",
+				"description": "Sort. Crée un Souffle de feu sur la position actuelle de l'ennemi. Pendant 5 secondes, les ennemis adjacents à cette position subissent 10...40 points de dégâts du feu par seconde.",
+				"concise": "Sort. Inflige 10...40 points de dégâts du feu par seconde (5 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Souffle de Feu",
 				"description": "Crée un Souffle de feu sur la position actuelle de l'ennemi. Pendant 5 secondes, les ennemis adjacents à cette position subissent 10...40 points de dégâts du feu par seconde.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Alito di Fuoco",
+				"description": "Magia. Crei un Alito di Fuoco nella posizione attuale dell'obiettivo nemico. Per 5 secondi, i nemici adiacenti a quella posizione subiscono 10...40 danni da fuoco al secondo.",
+				"concise": "Magia. Danni da fuoco inferti al secondo: 10...40 (5 secondi). Colpisce i nemici adiacenti alla posizione iniziale dell'obiettivo."
+			},
+			"jp": {
+				"name": "ファイア ブレス",
+				"description": "スペル： ターゲットした敵のいる場所に炎が上がります。5 秒間、その場所に隣接する敵に毎秒 10...40 のファイア ダメージを与えます。",
+				"concise": "スペル： 発動時にターゲットした敵がいた場所に隣接する敵に毎秒 10...40 のファイア ダメージを与えます (5 秒)。"
+			},
+			"kr": {
+				"name": "화염의 숨결",
+				"description": "마법. 대상 지정: 적. 대상이 있는 위치에 화염의 숨결을 불러냅니다. 5초 동안 그 위치에 인접한 적들은 매초 10...40의 불 대미지를 입습니다.",
+				"concise": "마법. 대상 위치에 인접한 적들에게 매초 10...40의 불 대미지를 줍니다.(5초)"
+			},
+			"pl": {
+				"name": "Ogniste Tchnienie",
+				"description": "Czar. Wywołaj Ogniste Tchnienie w miejscu, gdzie znajduje się wybrany przeciwnik. Przez 5 sek., przeciwnicy w tym obszarze otrzymują w każdej sekundzie 10...40 pkt. obrażeń od ognia.",
+				"concise": "Czar. W każdej sekundzie zadaje 10...40 pkt. obrażeń od ognia (5 sek.). Trafia przeciwników bezpośrednio przy początkowym miejscu celu."
+			},
+			"ru": {
+				"name": "Breath of Fire",
+				"description": "Заклинание. Создает Breath of Fire в точке нахождения выбранного противника. В течение 5 сек противники, окружающие это место, получают 10...40 ед. урона силой огня каждую секунду.",
+				"concise": "Заклинание. Наносит 10...40 ед. урона силой огня каждую секунду (5 сек). Поражает противников, окружающих первоначальное местоположение цели."
+			},
+			"bork": {
+				"name": "Breaet ooff Fure-a",
+				"description": "Spell. Creaete-a Breaet ooff Fure-a aet taerget fue-a's coorrent lucaeshun. Fur 5 secunds, fues aedjaecent tu thaet lucaeshun aere-a stroock fur 10...40 fure-a daemaege-a iaech secund.",
+				"concise": "Spell. Deaels 10...40 fure-a daemaege-a iaech secund (5 secunds). Heets fues aedjaecent tu taerget's ineeteeael lucaeshun."
 			}
 		}
 	}

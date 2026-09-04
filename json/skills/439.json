@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "兽性穿刺",
+				"description": "宠物攻击。 命令你的宠物发动「兽性穿刺」，对敌人造成 5...35点 额外伤害。若宠物击中正在进行攻击的敌人，则使其遭受「流血」症状 5...25秒。",
+				"concise": "宠物攻击。 命令你的宠物发动「兽性穿刺」，对敌人造成 5...35点 额外伤害。若宠物击中正在进行攻击的敌人，则使其遭受「流血」症状 5...25秒。"
+			},
+			"cht": {
+				"name": "野性衝刺",
+				"description": "寵物攻擊： 你的寵物發動野性衝刺對敵人造成 5...35 額外傷害。若寵物擊中正在進行攻擊的敵人，則使其遭受「流血」病症 5...25 秒。",
+				"concise": "寵物攻擊： 你的寵物發動野性衝刺對敵人造成 5...35 額外傷害。若寵物擊中正在進行攻擊的敵人，則使其遭受「流血」病症 5...25 秒。"
+			},
 			"de": {
+				"name": "Wilder Ausfall",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit einem Wilden Ausfall an, der +5...35 Punkt[e] Schaden zufügt. Trifft dieser Angriff einen angreifenden Gegner, leidet dieser 5...25 Sekunde[n] lang an einer Blutung.",
+				"concise": "Tiergefährtenangriff. Richtet +5...35 Punkt[e] Schaden an. Verursacht Zustand Blutung (5...25 Sekunde[n]), falls der Gegner gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Ausfall",
 				"description": "Euer Tiergefährte greift mit einem Wilden Ausfall an, der +5...35 Punkte Schaden zufügt. Trifft dieser Angriff einen angreifenden Gegner, leidet dieser 5...25 Sekunden lang an einer Blutung.",
 				"concise": "Richtet +5...35 Punkte Schaden an. Verursacht Zustand Blutung (5...25 Sekunden), falls der Gegner gerade angreift."
 			},
 			"en": {
 				"name": "Feral Lunge",
+				"description": "Pet Attack. Your animal companion attempts a Feral Lunge that deals +5...35 damage. If the attack strikes a foe who is attacking, that foe suffers from Bleeding for 5...25 seconds.",
+				"concise": "Pet Attack. Deals +5...35 damage. Inflicts Bleeding condition if target foe is attacking (5...25 seconds)."
+			},
+			"en-gww": {
+				"name": "Feral Lunge",
 				"description": "Your animal companion attempts a Feral Lunge that deals +5...35 damage. If the attack strikes a foe who is attacking, that foe suffers from Bleeding for 5...25 seconds.",
 				"concise": "Deals +5...35 damage. Inflicts Bleeding condition if target foe is attacking (5...25 seconds)."
 			},
+			"es": {
+				"name": "Embestida animal",
+				"description": "Ataque con mascota. El siguiente ataque de tu mascota será la Embestida animal, que causa +5...35 de daño. Si golpea a un enemigo atacando, sufrirá una hemorragia durante 5...25 segundos.",
+				"concise": "Ataque con mascota. Hace 5...35 de daño. Causa hemorragia si el enemigo objetivo está atacando (5...25 segundos)."
+			},
 			"fr": {
+				"name": "Coup barbare",
+				"description": "Attaque de familier. Votre familier tente un Coup barbare qui infligera +5...35 points de dégâts. S'il touche un ennemi qui attaque, celui-ci sera pris de Saignements pendant 5...25 secondes.",
+				"concise": "Attaque de familier. Inflige +5...35 points de dégâts. Inflige le Saignement si l'ennemi visé attaque (5...25 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Coup barbare",
 				"description": "Votre familier tente un Coup barbare qui infligera +5...35 points de dégâts. S'il touche un ennemi qui attaque, celui-ci sera pris de Saignements pendant 5...25 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Affondo Selvaggio",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in un Affondo Selvaggio che infligge +5...35 danno[i]; se colpisce un avversario che sta attaccando, gli provoca un'Emorragia di 5...25 secondo[i].",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...35. Condizione inflitta se l'obiettivo nemico sta attaccando: Emorragia (5...25 secondo[i])."
+			},
+			"jp": {
+				"name": "フェラル ランジ",
+				"description": "ペット アタック： プレイヤーのペットが敵に 5...35 の追加ダメージを与える攻撃を開始します。攻撃中の敵に攻撃が成功すると、その敵は 5...25 秒間「出血」状態になります。",
+				"concise": "ペット アタック： 5...35 の追加ダメージを与えます。ターゲットした敵が攻撃中の場合、「出血」状態にします (5...25 秒)。"
+			},
+			"kr": {
+				"name": "맹수의 돌진",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 맹수의 돌진을 사용하여 5...35의 대미지를 추가로 줍니다. 적이 공격 중이라면 5...25초 동안 출혈 상태가 됩니다.",
+				"concise": "펫 공격. 펫의 공격이 5...35의 대미지를 추가로 줍니다. 적이 공격 중이면 출혈을 일으킵니다.(5...25초)"
+			},
+			"pl": {
+				"name": "Dzikie Pchnięcie",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Dzikie Pchnięcie, które zadaje +5...35 pkt. obrażeń. Jeśli atak trafi atakującego przeciwnika, to przeciwnik ten przez 5...25 sek. będzie krwawił.",
+				"concise": "Atak zwierzaka. Zadaje +5...35 pkt. obrażeń. Wywołuje przypadłość krwawienie (5...25 sek.), jeżeli wybrany przeciwnik atakuje."
+			},
+			"ru": {
+				"name": "Feral Lunge",
+				"description": "Атака питомца. Ваше животное пытается провести удар, который наносит дополнительно 5...35 ед. урона. Если атака попадает по атакующему противнику, этот противник будет кровоточить в течение 5...25 сек.",
+				"concise": "Атака питомца. Наносит дополнительно 5...35 ед. урона. Вызывает кровотечение, если выбранный противник атаковал (5...25 сек)."
+			},
+			"bork": {
+				"name": "Ferael Loonge-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Ferael Loonge-a thaet deaels +5...35 daemaege-a. Iff zee aettaeck streekes a fue-a vhu is aettaeckeeng, thaet fue-a sooffffers frum Bleedeeng fur 5...25 secunds. Bork! Bork! Bork!",
+				"concise": "Pet Aettaeck. Deaels +5...35 daemaege-a. Inffleects Bleedeeng cundeeshun iff taerget fue-a is aettaeckeeng (5...25 secunds)."
 			}
 		}
 	}

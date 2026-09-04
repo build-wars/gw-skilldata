@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Weapons of Three Forges",
+				"description": "精英武咒。 For 3...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+				"concise": "精英武咒。 (3...20 seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill"
+			},
+			"cht": {
+				"name": "Weapons of Three Forges",
+				"description": "精英武裝魔法： For 3...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+				"concise": "精英武裝魔法： (3...20 seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill"
+			},
 			"de": {
+				"name": "Waffen aus drei Schmieden",
+				"description": "Elite-Waffenzauber. Für 3...20 Sekunden erhält jeder verbündete Nicht-Geist in Hörweite den Effekt eines zufälligen Waffenzaubers. PvE-Fertigkeit",
+				"concise": "Elite-Waffenzauber. (3...20 Sekunden.) Verbündete in Hörweite erhalten den Effekt eines zufälligen Waffenzaubers. Betrifft nicht verbündete Geister. PvE-Fertigkeit"
+			},
+			"de-guildwiki": {
 				"name": "Waffen aus drei Schmieden",
 				"description": "Für 3...20 Sekunden erhält jeder verbündete Nicht-Geist in Hörweite den Effekt eines zufälligen Waffenzaubers.",
 				"concise": "(3...20 Sekunden.) Verbündete in Hörweite erhalten den Effekt eines zufälligen Waffenzaubers."
 			},
 			"en": {
 				"name": "Weapons of Three Forges",
+				"description": "Elite Weapon Spell. For 3...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+				"concise": "Elite Weapon Spell. (3...20 seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill"
+			},
+			"en-gww": {
+				"name": "Weapons of Three Forges",
 				"description": "For 3...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell.",
 				"concise": "(3...20 seconds.) Allies in earshot gain the effect of a random Weapon Spell. <gray>Allied spirits are not affected. PvE Skill</gray>"
 			},
+			"es": {
+				"name": "Armas de las tres forjas",
+				"description": "Conjuro con arma de élite. Durante 3...20 segundos, todos los aliados que no sean espíritus y puedan oírte ganarán el efecto de un hechizo de arma al azar. Habilidad de PvE",
+				"concise": "Conjuro con arma de élite. (3...20 segundos). Los aliados que puedan oírte ganan el efecto de un hechizo de arma al azar. No afecta a espíritus aliados. Habilidad de PvE"
+			},
 			"fr": {
+				"name": "Armes des trois forges",
+				"description": "Sort d'altération d'arme d'élite. Pendant 3...20 secondes, les alliés situés à portée de voix et qui ne sont pas des esprits bénéficient des effets d'un sort d'altération d'arme aléatoire. Compétence PvE",
+				"concise": "Sort d'altération d'arme d'élite. (3...20 secondes.) Les alliés situés à portée de voix bénéficient des effets d'un sort d'altération d'arme aléatoire. Les alliés qui ne sont pas des esprits ne sont pas affectés. Compétence PvE"
+			},
+			"fr-gwiki": {
 				"name": "Armes des trois forges",
 				"description": "Pendant 3...20 secondes, les alliés situés à portée de voix et qui ne sont pas des esprits bénéficient des effets d'un sort d'altération d'arme aléatoire.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armi delle tre forge",
+				"description": "Magia d'Élite Altera-arma. Per 3...20 sec., ogni non-spirito alleato a portata d'orecchio ottiene gli effetti di un Incantesimo d'arma casuale. Abilità PvE",
+				"concise": "Magia d'Élite Altera-arma. (3...20 sec.) Gli alleati a portata d'orecchio ottengono effetti di un Incantesimo d'arma casuale. Non riguarda gli spiriti alleati. Abilità PvE"
+			},
+			"jp": {
+				"name": "Weapons of Three Forges",
+				"description": "エリート ウェポン スペル： For 3...20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+				"concise": "エリート ウェポン スペル： (3...20 seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill"
+			},
+			"kr": {
+				"name": "세가지 화로의 무기",
+				"description": "엘리트 마법 무기. 대상 지정: 없음. 3...20초 동안 가청 범위 내의 모든 영혼이 아닌 아군에 무작위의 마법 무기 효과를 부여합니다. PvE 스킬",
+				"concise": "엘리트 마법 무기. (3...20초) 가청 범위 내의 아군에 무작위의 마법 무기 효과를 부여합니다. 부근에 있는 아군의 영혼은 영향을 받지 않습니다. PvE 스킬"
+			},
+			"pl": {
+				"name": "Bronie Trzech Kuźni",
+				"description": "Elitarny czar z broni. Przez 3...20 sek, każdy nieduchowy sojusznik w zasięgu słuchu otrzymuje efekt losowego Zaklęcia broni. Umiejętność PvE",
+				"concise": "Elitarny czar z broni. (3...20 sek.) Sojusznicy w zasięgu słuchu otrzymują efekt losowego Zaklęcia broni. Przyjazne duchy nie są objęte tym efektem. Umiejętność PvE"
+			},
+			"ru": {
+				"name": "Оружие Трех Кузниц",
+				"description": "Элитное оружейное заклинание. На 3...20 сек. все союзники в радиусе слышимости (кроме духов) получают эффект случайного заклинания оружия. PvE-умение",
+				"concise": "Элитное оружейное заклинание. (3...20 сек.) Все союзники в радиусе слышимости получают эффект случайного заклинания оружия. Не действует на союзников-духов. PvE-умение"
+			},
+			"bork": {
+				"name": "Veaepuns ooff Three-a Furges",
+				"description": "Ileete-a Veaepun Spell. Fur 3...20 secunds, iaech nun-spureet aelly in iaershut gaeeens zee iffffect ooff a rundum Veaepun Spell. PfE-a Skeell",
+				"concise": "Ileete-a Veaepun Spell. (3...20 secunds.) Aelleees in iaershut gaeeen zee iffffect ooff a rundum Veaepun Spell. Aelleeed spureets aere-a nut aeffffected. PfE-a Skeell"
 			}
 		}
 	}

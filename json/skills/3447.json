@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "瓦思垂的忧虑",
+				"description": "负面魔法。 3秒后，目标敌军承受20...100点伤害，邻近的敌军承受该伤害75%的伤害。如果该敌军成功施放技能，则无用者的忧虑效果提前终结，并且不造成伤害。",
+				"concise": "负面魔法。 （3秒）终结效果：对目标造成20...100点伤害，邻近敌军承受该伤害75%的伤害。若目标施放技能，则无法生效并提前结束。"
+			},
+			"cht": {
+				"name": "瓦思崔的憂慮",
+				"description": "降咒魔法： After 3 seconds, target foe takes 20...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+				"concise": "降咒魔法： (3 seconds.) End effect: causes 20...100 damage to target and 75% of that damage to adjacent foes. No effect and ends early if target foe uses a skill."
+			},
 			"de": {
+				"name": "Verschwendung",
+				"description": "Verhexung. Nach 3 Sekunden erleidet der anvisierte Gegner 20...100 Schaden, und alle benachbarten Gegner erleiden 75 % dieses Schadens. Wenn dieser Gegner erfolgreich eine Fertigkeit anwendet, endet Verschwendung frühzeitig und richtet keinen Schaden an.",
+				"concise": "Verhexung. (3 Sekunden.) Effekt endet: Richtet beim Ziel 20...100 Schaden und bei benachbarten Gegnern 75 % dieses Schadens an. Kein Effekt und vorzeitiges Ende, wenn der anvisierte Gegner eine Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Verschwendung (PvP)",
 				"description": "Nach 3 Sekunden erleidet der Gegner 20...100 Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (15...75). Setzt der Gegner erfolgreich eine Fertigkeit ein, endet Verschwendung vorzeitig und verursacht keinen Schaden.",
 				"concise": "(3 Sekunden.) Wirkung am Ende: richtet beim Gegner 20...100 Punkte Schaden an und bei allen umstehenden Feinden 75% dieses Schadens (15...75). <gray>Kein Effekt und endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
 			},
 			"en": {
 				"name": "Wastrel's Worry (PvP)",
+				"description": "Hex Spell. After 3 seconds, target foe takes 20...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
+				"concise": "Hex Spell. (3 seconds.) End effect: causes 20...100 damage to target and 75% of that damage to adjacent foes. No effect and ends early if target foe uses a skill."
+			},
+			"en-gww": {
+				"name": "Wastrel's Worry (PvP)",
 				"description": "After 3 seconds, target foe takes 20...100 damage and all adjacent foes take 75% of that damage. If that foe successfully uses a skill, Wastrel's Worry ends prematurely and does no damage.",
 				"concise": "(3 seconds). End effect: causes 20...100 damage to target and 75% of that damage to adjacent foes. <gray>No effect and ends early if target foe uses a skill.</gray>"
 			},
+			"es": {
+				"name": "Preocupación del gandul",
+				"description": "Conjuro con maleficio. Después de 3 segundos, el enemigo objetivo recibe 20...100 de daño y todos los adyacentes sufren un 75 % de ese daño. Si ese enemigo utiliza una habilidad con éxito, la Preocupación del gandul finalizará prematuramente y no hará ningún daño.",
+				"concise": "Conjuro con maleficio. (3 segundos). Efecto final: hace 20...100 de daño al enemigo objetivo y un 75 % de ese daño a los enemigos adyacentes. No tiene ningún efecto y termina antes de lo previsto si el enemigo objetivo utiliza una habilidad."
+			},
 			"fr": {
+				"name": "Embarras de l'incapable",
+				"description": "Maléfice. Après 3 secondes, l'ennemi ciblé subit 20...100 points de dégâts et les ennemis adjacents subissent 75% de ces dégâts. Si cet ennemi réussit à utiliser une compétence, Embarras du gaspilleur prend fin prématurément et n'inflige aucun dégât.",
+				"concise": "Maléfice. (3 secondes.) Effet final : inflige 20...100 points de dégâts à l'ennemi ciblé et 75% de ces dégâts aux ennemis adjacents. Aucun effet et prend fin prématurément si l'ennemi ciblé réussit à utiliser une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Embarras de l'incapable (PvP)",
 				"description": "Après 3 secondes, l'ennemie ciblé subit 20...100 et les ennemis adjacents subissent 75% de ces dégâts. Si cet ennemi réussit à utiliser une compétence, Embarras de l'incapable prend fin prématurément et n'inflige aucun de dégât.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Preoccupazione del Fannullone",
+				"description": "Fattura. Dopo 3 secondi il bersaglio nemico subisce 20...100 danni e tutti i nemici adiacenti subiscono il 75% di quei danni. Se il bersaglio riesce a utilizzare un'abilità, Wastrel's Worry termina prematuramente e non infligge danni.",
+				"concise": "Fattura. (3 secondi) Fine dell'effetto: provoca 20...100 danni al bersaglio e il 75% di quei danni ai nemici adiacenti. Nessun effetto; termina prima se il bersaglio usa un'abilità."
+			},
+			"jp": {
+				"name": "ウェイストレル ウォーリー",
+				"description": "弱体化スペル： 3秒後、標的となった敵は20...100ダメージを受け、すべての隣接する敵はそのダメージの75%を受けます。その敵がスキルを正常に使用した場合、放蕩者の心配は途中で終了し、ダメージを与えません。",
+				"concise": "弱体化スペル： （3秒）終了効果：標的に20...100ダメージを与え、隣接する敵にそのダメージの75%を与えます。標的となった敵がスキルを使用した場合、効果は無効となり、早期に終了します。"
+			},
+			"kr": {
+				"name": "부랑자의 근심",
+				"description": "약화 마법. 대상 지정: 적. 3초 후 대상은 20...100의 대미지를 입고, 그에 인접한 모든 적은 그 대미지의 75%를 받습니다. 대상이 스킬 사용에 성공하면 부랑자의 근심은 일찍 종료되며 대미지를 주지 않습니다.",
+				"concise": "약화 마법. (3초) 종료 효과: 대상에게 20...100의 대미지를 주고 그에 인접한 적에게 그 대미지의 75%를 줍니다. 대상이 스킬을 사용하면 효과 없이 조기에 종료됩니다."
+			},
+			"pl": {
+				"name": "Zmartwienie Marnotrawcy",
+				"description": "Klątwa (czar). Po 3 sek. wybrany przeciwnik odniesie 20...100 pkt. obrażeń, a wszyscy sąsiadujący z nim wrogowie odniosą 75% tych obrażeń. Jeśli wybrany przeciwnik zdoła użyć umiejętności, Zmartwienie Marnotrawcy przestanie działać i nie zadaje obrażeń.",
+				"concise": "Klątwa (czar). (3 sek.). Efekt końcowy: zadaje 20...100 pkt. obrażeń przeciwnikowi i 75% tych obrażeń sąsiadującym z nim wrogom. Nie ma efektu i kończy się wcześniej, jeżeli wybrany przeciwnik używa umiejętności."
+			},
+			"ru": {
+				"name": "Wastrel's Worry",
+				"description": "Заклинание-проклятье. Спустя 3 секунды враг получает 20...100 урона, а все соседние с ним — 75% урона. Если враг успешно использует навык, Wastrel's Worry прекращает действие и не наносит урона.",
+				"concise": "Заклинание-проклятье. (3 секунды.) Эффект завершения: наносит 20...100 урона цели и 75% урона соседним врагам. Если цель использует навык, заканчивается преждевременно и не наносит урона."
+			},
+			"bork": {
+				"name": "Vaestrel's Vurry (PfP)",
+				"description": "Hex Spell. Aeffter 3 secunds, taerget fue-a taekes 20...100 daemaege-a und aell aedjaecent fues taeke-a 75% ooff thaet daemaege-a. Iff thaet fue-a sooccessffoolly uses a skeell, Vaestrel's Vurry inds premaetoorely und dues nu daemaege-a.",
+				"concise": "Hex Spell. (3 secunds.) Ind iffffect: cooses 20...100 daemaege-a tu taerget und 75% ooff thaet daemaege-a tu aedjaecent fues. Nu iffffect und inds iaerly iff taerget fue-a uses a skeell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "肺溃疡",
+				"description": "负面魔法。 在10...30秒之内，当你「流血」时，使目标敌人以及所有邻近他的敌人遭受4点「生命衰减」，如果他们使用「战吼」或「圣歌」，将再遭受「流血」症状5...20秒。",
+				"concise": "负面魔法。 在10...30秒之内，当你「流血」时，使目标敌人以及所有邻近他的敌人遭受4点「生命衰减」，如果他们使用「战吼」或「圣歌」，将再遭受「流血」症状5...20秒。"
+			},
+			"cht": {
+				"name": "肺臟腐蝕",
+				"description": "降咒魔法： 持續 10...30 秒，使目標及其附近的所有敵人在遭受「流血」病症時獲得 4 體力衰減，而且每當他們使用「戰嚎」或「聖歌」技能時，將遭受「流血」病症 5...20 秒。",
+				"concise": "降咒魔法： 持續 10...30 秒，使目標及其附近的所有敵人在遭受「流血」病症時獲得 4 體力衰減，而且每當他們使用「戰嚎」或「聖歌」技能時，將遭受「流血」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Geschwürige Lungen",
+				"description": "Verhexung. 10...30 Sekunde[n] lang unterliegen der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -4, wenn sie bluten und erleiden jedes Mal, wenn sie einen Schrei oder Anfeuerungsruf anwenden, 5...20 Sekunde[n] lang eine Blutung.",
+				"concise": "Verhexung. Verhext den Gegner und Feinde in der Nähe (10...30 Sekunde[n]). Verursacht bei allen Betroffenen, die bluten, -4 Lebenspunktdegeneration. Verursacht jedes mal eine Blutung (5...20 Sekunde[n]), wenn einer der Betroffenen einen Schrei oder Anfeuerungsruf benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Geschwürige Lungen",
 				"description": "10...30 Sekunden lang unterliegt der Gegner und alle in der Nähe befindlichen Feinde einer Lebenspunktdegeneration von -4, wenn sie bluten und erleiden jedes Mal, wenn sie einen Schrei oder Anfeuerungsruf anwenden, 5...20 Sekunden lang eine Blutung.",
 				"concise": "Verhext den Gegner und Feinde in der Nähe (10...30 Sekunden). Verursacht bei allen Betroffenen, die bluten, -4 Lebenspunktdegeneration. Verursacht jedes mal eine Blutung (5...20 Sekunden), wenn einer der Betroffenen einen Schrei oder Anfeuerungsruf benutzt."
 			},
 			"en": {
 				"name": "Ulcerous Lungs",
+				"description": "Hex Spell. For 10...30 seconds, target foe and all nearby foes suffer from -4 Health degeneration when Bleeding, and whenever they use a shout or chant, they Bleed for 5...20 seconds",
+				"concise": "Hex Spell. Also hexes foes near your target (10...30 seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding (5...20 seconds) whenever these foes use a shout or chant."
+			},
+			"en-gww": {
+				"name": "Ulcerous Lungs",
 				"description": "For 10...30 seconds, target foe and all nearby foes suffer from -4 Health degeneration when Bleeding, and whenever they use a shout or chant, they Bleed for 5...20 seconds.",
 				"concise": "Also hexes foes near your target (10...30 seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding (5...20 seconds) whenever these foes use a shout or chant."
 			},
+			"es": {
+				"name": "Pulmones ulcerosos",
+				"description": "Conjuro con maleficio. Durante 10...30 segundos, el enemigo objetivo y todos los cercanos sufrirán -4 de degeneración de salud cuando tengan una hemorragia, y cada vez que usen un grito o cántico sangrarán durante 5...20 segundos.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos a tu objetivo (10...30 segundos). Causa -4 de degeneración de salud a los que tengan una hemorragia. Causa hemorragia (5...20 segundos) cada vez que esos enemigos usen un grito o cántico."
+			},
 			"fr": {
+				"name": "Poumons ulcérés",
+				"description": "Maléfice. Pendant 10...30 secondes, l'ennemi visé et tous les ennemis proches subissent une dégénération de santé de -4 lorsqu'ils sont pris de Saignement. A chaque fois qu'ils utilisent un chant ou un cri, ils saignent pendant 5...20 secondes.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis à proximité de votre cible (10...30 secondes). Si un de ces ennemis souffre de Saignement, il subit une dégénération de santé de -4. Inflige le Saignement (5...20 secondes) chaque fois que ces ennemis utilisent un chant ou un cri."
+			},
+			"fr-gwiki": {
 				"name": "Poumons ulcérés",
 				"description": "Pendant 10...25 secondes, l'ennemi visé et tous les ennemis proches subissent une dégénération de santé de -4 lorsqu'ils sont pris de Saignement. A chaque fois qu'ils utilisent un chant ou un cri, ils saignent pendant 3...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Polmoni Ulcerosi",
+				"description": "Fattura. Per 10...30 secondo[i] l'obiettivo nemico e tutti i nemici nei dintorni subiscono una Degenerazione dell'Energia di -4 quando affetti da Emorragia e sanguinano per 5...20 secondo[i] ogni volta che usano un urlo o un canto.",
+				"concise": "Fattura. Infligge fattura anche ai nemici vicini all'obiettivo (10...30 secondo[i]). Degenerazione Salute di uno qualsiasi dei nemici affetti da Emorragia: -4. Condizione inflitta ogni volta che i nemici usano un urlo o un canto: Emorragia (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "アルサラス ラング",
+				"description": "弱体化スペル： 10...30 秒間、ターゲットした敵と周囲にいるすべての敵は、シャウトやチャントを使用するたびに 5...20 秒間「出血」状態になります。また、「出血」状態の敵は体力の自然回復力が 4 減少します。",
+				"concise": "弱体化スペル： (10...30 秒) ターゲットした敵と周囲にいる敵の中で「出血」状態の敵は、体力の自然回復力が 4 減少します。また、シャウトやチャントを使用するたびに「出血」状態になります (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "부패한 호흡",
+				"description": "약화 마법. 대상 지정: 적. 10...30초 동안 대상과 그 부근의 모든 적은 출혈로 인해 체력 재생이 4 감소합니다. 그 적들은 고함이나 영창 스킬을 사용할 때마다 5...20초 동안 출혈 상태가 됩니다.",
+				"concise": "약화 마법. (10...30초) 대상과 그 부근의 적들 중 출혈을 일으키는 적은 체력 재생이 4 감소합니다. 그 적들은 고함이나 영창 스킬을 사용할 때마다 출혈을 일으킵니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Wrzody Płuc",
+				"description": "Klątwa (czar). Przez 10...30 sek. wybrany przeciwnik i wszyscy przeciwnicy w pobliżu posiadają degenerację żywotności -4 podczas krwawienia i zaczną krwawić na 5...20 sek., kiedy tylko użyją okrzyku lub pieśni.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w pobliżu twojego celu (10...30 sek.). Powoduje degenerację żywotności -4 u przeciwników, którzy krwawią. Wywołuje przypadłość krwawienie (5...20 sek.), za każdym razem, kiedy ci przeciwnicy użyją okrzyku lub zaśpiewu."
+			},
+			"ru": {
+				"name": "Ulcerous Lungs",
+				"description": "Заклинание-проклятье. В течение 10...30 сек скорость восстановления здоровья выбранного противника и всех противников поблизости от него уменьшается на 4 ед., если они кровоточат. Каждый раз, когда они используют какой-либо крик или хорал, они начинают кровоточить в течение 5...20 сек.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников поблизости от вашей цели (10...30 сек). Уменьшает на 4 ед. скорость восстановления здоровья у любого из этих противников, который кровоточит. Вызывает кровотечение (5...20 сек) каждый раз, когда эти противники используют крик или хорал."
+			},
+			"bork": {
+				"name": "Ulceruoos Loongs",
+				"description": "Hex Spell. Fur 10...30 secunds, taerget fue-a und aell neaerby fues sooffffer frum -4 Heaelt degeneraeshun vhee Bleedeeng, und vhenefer zeey use-a a shuoot oor chunt, zeey Bleed fur 5...20 secunds",
+				"concise": "Hex Spell. Aelsu hexes fues neaer yuoor taerget (10...30 secunds). Cooses -4 Heaelt degeneraeshun tu uny ooff zeese-a fues thaet aere-a Bleedeeng. Inffleects Bleedeeng (5...20 secunds) vhenefer zeese-a fues use-a a shuoot oor chunt."
 			}
 		}
 	}

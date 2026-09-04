@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 9,
 		"adrenaline_precise": 8.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "断背",
+				"description": "精英锤术。 命中时，对目标造成1...20点额外伤害，并且使其倒地4秒。",
+				"concise": "精英锤术。 对目标造成 1...20点 额外伤害，并且使其倒地 4秒。"
+			},
+			"cht": {
+				"name": "背擊",
+				"description": "精英鎚術攻擊技能： 命中時造成 1...20 額外傷害且擊倒目標，若是你的力量屬性等級至少有 8 ，則此擊倒效果將有 4 秒。",
+				"concise": "精英鎚術攻擊技能： 命中時造成 1...20 額外傷害且擊倒目標，若是你的力量屬性等級至少有 8 ，則此擊倒效果將有 4 秒。"
+			},
 			"de": {
+				"name": "Rückenbrecher",
+				"description": "Elite-Hammerangriff. Wenn Rückenbrecher trifft, verursacht Ihr 1...20 Punkt[e] Schaden und Euer Ziel wird zu Boden geworfen. Wenn Ihr mindestens 8 Stärke habt, dauert dieser Effekt 4 Sekunden.",
+				"concise": "Elite-Hammerangriff. Richtet +1...20 Punkt[e] Schaden an. Wirft den Gegner zu Boden. Dieser Effekt wirkt bei Stärke 8 oder höher 4 Sekunden lang."
+			},
+			"de-guildwiki": {
 				"name": "Rückenbrecher",
 				"description": "Wenn Rückenbrecher trifft, verursacht Ihr +1...20 Punkte Schaden und Euer Ziel wird zu Boden geworfen. Wenn Ihr mindestens 8 Stärke habt, dauert dieser Effekt 4 Sekunden.",
 				"concise": "Richtet +1...20 Punkte Schaden an. Wirft den Gegner zu Boden. Dieser Effekt wirkt bei Stärke 8 oder höher 4 Sekunden lang."
 			},
 			"en": {
 				"name": "Backbreaker",
+				"description": "Elite Hammer Attack. If Backbreaker hits, you strike for +1...20 damage and your target is knocked down. If you have 8 Strength or higher, this knockdown lasts 4 seconds.",
+				"concise": "Elite Hammer Attack. Deals +1...20 damage. Causes knockdown. Knockdown lasts 4 seconds with Strength 8 or higher."
+			},
+			"en-gww": {
+				"name": "Backbreaker",
 				"description": "If Backbreaker hits, you strike for +1...20 damage and your target is knocked down. If you have 8 Strength or higher, this knockdown lasts 4 seconds.",
 				"concise": "Deals +1...20 damage. Causes knockdown. <gray>Knockdown lasts 4 seconds with Strength 8 or higher.</gray>"
 			},
+			"es": {
+				"name": "Rompespaldas",
+				"description": "Ataque con martillo de élite. Si el Rompespaldas impacta, haces +1...20 de daño y tu objetivo es derribado. Si tienes un nivel de fuerza 8 o superior, el derribo dura 4 segundos.",
+				"concise": "Ataque con martillo de élite. Hace +1...20 de daño. Causa derribo. Éste dura 4 segundos si tienes fuerza 8 o superior."
+			},
 			"fr": {
+				"name": "Brise-échine",
+				"description": "Attaque au marteau d'élite. Si le Brise-échine réussit, vous infligez +1...20 points de dégâts et la cible est assommée. Si vous avez 8 points en Force ou plus, cet assommement dure 4 secondes.",
+				"concise": "Attaque au marteau d'élite. Inflige +1...20 points de dégâts. Provoque l'assommement. L'assommement dure 4 secondes si vous avez 8 points en Force ou plus."
+			},
+			"fr-gwiki": {
 				"name": "Brise-échine",
 				"description": "Si le Brise-échine réussit, vous infligez +1...20 point(s) de dégâts et votre cible est assommée. Cet assommement dure 4 secondes si vous avez au moins 8 points en Force.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spezza-schiena",
+				"description": "Attacco d'Élite con Martello. Se Spezza-schiena va a segno, infliggi +1...20 danno[i] e il nemico va a terra. Se la tua Forza è uguale o superiore a 8, il nemico resta a terra per 4 secondi.",
+				"concise": "Attacco d'Élite con Martello. Danni inferti: +1...20. Provoca abbattimento. Il nemico resta a terra per 4 secondi se la tua Forza è uguale o superiore a 8."
+			},
+			"jp": {
+				"name": "バックブレイカー",
+				"description": "エリート ハンマー アタック： 攻撃が成功すると 1...20 の追加ダメージを与え、ターゲットは転倒します。「ストレングス」の特性レベルが8以上の場合、転倒時間は4秒です。",
+				"concise": "エリート ハンマー アタック： 1...20 の追加ダメージを与えて転倒させます。「ストレングス」の特性レベルが8以上の場合、4秒間転倒します。"
+			},
+			"kr": {
+				"name": "척추 강타",
+				"description": "엘리트 해머 공격. 대상 지정: 적. 대상에게 1...20의 대미지를 추가로 주고 바닥에 넘어뜨립니다. 자신의 강인함 특성이 8레벨 이상이면 넘어진 상태를 4초 동안 지속시킵니다.",
+				"concise": "엘리트 해머 공격. 1...20의 대미지를 추가로 주고, 바닥에 넘어뜨립니다. 강인함 특성이 8레벨 이상이면 넘어진 상태가 4초간 지속됩니다."
+			},
+			"pl": {
+				"name": "Łamacz Kręgosłupa",
+				"description": "Elitarny atak młotem. Jeśli Łamacz Kręgosłupa trafi, zadajesz +1...20 pkt. obrażeń, a twój cel zostaje powalony. Jeśli masz siłę 8 lub większą, powalenie trwa 4 sekundy.",
+				"concise": "Elitarny atak młotem. Zadaje +1...20 pkt. obrażeń. Powoduje powalenie. Powalenie trwa 4 sek. w przypadku siły na poziomie 8 lub wyższym."
+			},
+			"ru": {
+				"name": "Backbreaker",
+				"description": "Элитная атака молотом. Если Backbreaker попадает в цель, вы наносите дополнительно 1...20 ед. урона и сбиваете выбранного противника с ног. Если ваш уровень таланта Strength равен или больше 8, противник будет лежать на земле в течение 4 сек.",
+				"concise": "Элитная атака молотом. Наносит дополнительно 1...20 ед. урона. Сбивает с ног. Противник будет лежать на земле 4 сек, если ваш уровень таланта Strength равен или больше 8."
+			},
+			"bork": {
+				"name": "Baeckbreaeker",
+				"description": "Ileete-a Haemmer Aettaeck. Iff Baeckbreaeker heets, yuoo streeke-a fur +1...20 daemaege-a und yuoor taerget is knucked doon. Iff yuoo haefe-a 8 Strengt oor heegher, thees knuckdoon laests 4 secunds.",
+				"concise": "Ileete-a Haemmer Aettaeck. Deaels +1...20 daemaege-a. Cooses knuckdoon. Knuckdoon laests 4 secunds veet Strengt 8 oor heegher."
 			}
 		}
 	}

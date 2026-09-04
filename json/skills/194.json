@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火花",
+				"description": "咒文。 对目标敌人射出一束火花，命中后对该目标造成20...65点火焰伤害。",
+				"concise": "咒文。 对目标敌人射出一束火花，命中后对该目标造成20...65点火焰伤害。"
+			},
+			"cht": {
+				"name": "火花",
+				"description": "咒文魔法： 對目標敵人射出火花，命中時對該目標造成 20...65 火焰傷害。",
+				"concise": "咒文魔法： 對目標敵人射出火花，命中時對該目標造成 20...65 火焰傷害。"
+			},
 			"de": {
+				"name": "Feuergeschoss",
+				"description": "Zauber. Sendet ein Feuergeschoss aus, das dem Gegner 20...65 Punkte Feuerschaden zufügt, falls es trifft. Wenn Ihr Überzaubert seid, trifft dieser Zauber umstehende Feinde ebenfalls.",
+				"concise": "Zauber. Geschoss: Richtet 20...65 Punkte Feuerschaden an. Wenn Überzaubert, werden auch umstehende Gegner getroffen."
+			},
+			"de-guildwiki": {
 				"name": "Feuergeschoss",
 				"description": "Sendet ein Feuergeschoss aus, das dem Gegner 20...65 Punkte Feuerschaden zufügt, falls es trifft. Wenn Ihr Überzaubert seid, trifft dieser Zauber umstehende Feinde ebenfalls.",
 				"concise": "Geschoss: Richtet 20...65 Punkte Feuerschaden an. Wenn überzaubert, werden auch umstehende Gegner getroffen."
 			},
 			"en": {
 				"name": "Flare",
+				"description": "Spell. Send out a flare that strikes target foe for 20...65 fire damage if it hits. If you are Overcast, Flare hits adjacent foes as well.",
+				"concise": "Spell. Projectile: deals 20...65 fire damage. If Overcast, strikes adjacent."
+			},
+			"en-gww": {
+				"name": "Flare",
 				"description": "Send out a flare that strikes target foe for 20...65 fire damage if it hits. If you are Overcast, Flare hits adjacent foes as well.",
 				"concise": "Projectile: deals 20...65 fire damage. If Overcast, strikes adjacent."
 			},
+			"es": {
+				"name": "Bengala",
+				"description": "Conjuro. Lanzas una bengala que hará 20...65 de daño de fuego al enemigo. Si estás sobrelanzando, la bengala también golpea a los enemigos adyacentes.",
+				"concise": "Conjuro. Proyectil: hace 20...65 de daño de fuego. Si estás sobrelanzando, golpea a los adyacentes."
+			},
 			"fr": {
+				"name": "Eclat de feu",
+				"description": "Sort. Vous envoyez une flamme vers l'ennemi qui inflige 20...65 points de dégâts du feu si elle touche sa cible. Si vous êtes en état d'Afflux, Eclat de feu affecte aussi les ennemis adjacents.",
+				"concise": "Sort. Projectile : inflige 20...65 points de dégâts du feu. En état d'Afflux, affecte les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Eclat de feu",
 				"description": "Vous envoyez une flamme vers l'ennemi qui inflige 20...65 points de dégâts du feu si elle touche sa cible.",
 				"concise": "Projectile : inflige 20...65 point de dégâts du feu."
+			},
+			"it": {
+				"name": "Bengala",
+				"description": "Magia. Lanci un bengala che infligge all'obiettivo nemico 20...65 danni da fuoco se va a segno. Se sei sotto Sforzo, Bengala colpisce anche i nemici adiacenti.",
+				"concise": "Magia. Proiettile: danni da fuoco inferti: 20...65. Se sotto Sforzo, colpisce gli adiacenti."
+			},
+			"jp": {
+				"name": "フレア",
+				"description": "スペル： ターゲットした敵に、命中すると 20...65 のファイア ダメージを与える炎を飛ばします。プレイヤーが「疲労」状態の場合、隣接する敵にもダメージを与えます。",
+				"concise": "スペル： 遠投攻撃： 20...65 のファイア ダメージを与えます。「疲労」状態の場合、隣接する敵にもダメージを与えます。"
+			},
+			"kr": {
+				"name": "화염 발사",
+				"description": "마법. 대상 지정: 적. 대상에게 화염을 날립니다. 명중하면 대상은 20...65의 불 대미지를 입습니다. 자신이 탈진 상태면 대상에게 0초간 화상을 입힙니다.",
+				"concise": "마법. 발사체: 20...65의 불 대미지를 줍니다. 자신이 탈진 상태면 대상에게 0초간 화상을 입힙니다."
+			},
+			"pl": {
+				"name": "Flara",
+				"description": "Czar. Wystrzel Flarę, która po trafieniu zadaje wybranemu przeciwnikowi 20...65 pkt. obrażeń od ognia. Jeśli jesteś pod wpływem Przemagicznienia, Flara trafia również pobliskich wrogów.",
+				"concise": "Czar. Pocisk: zadaje 20...65 pkt. obrażeń od ognia. Podczas Przemagicznienia trafia pobliskich."
+			},
+			"ru": {
+				"name": "Flare",
+				"description": "Заклинание. Бросок языком пламени, который наносит выбранному противнику 20...65 ед. урона силой огня в случае попадания. Если вы утомлены, Flare также наносит урон окружающим противникам.",
+				"concise": "Заклинание. Метательный снаряд: наносит 20...65 ед. урона силой огня. Если вы утомлены, также наносит урон окружающим противникам."
+			},
+			"bork": {
+				"name": "Flaere-a",
+				"description": "Spell. Send oooot a flaere-a thaet streekes taerget fue-a fur 20...65 fure-a daemaege-a iff it heets. Iff yuoo aere-a Oofercaest, Flaere-a heets aedjaecent fues aes vell.",
+				"concise": "Spell. Prujecteele-a: deaels 20...65 fure-a daemaege-a. Iff Oofercaest, streekes aedjaecent."
 			}
 		}
 	}

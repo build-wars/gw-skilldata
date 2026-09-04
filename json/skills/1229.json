@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电圈",
+				"description": "增益魔法。 持续 15...60 秒，每当你召唤缚灵时，对附近最多 5 名敌人造成 20...65 闪电伤害。",
+				"concise": "增益魔法。 持续 15...60 秒，每当你召唤缚灵时，对附近最多 5 名敌人造成 20...65 闪电伤害。"
+			},
+			"cht": {
+				"name": "爆發增長",
+				"description": "加持魔法： 持續 15...60 秒，每當你召喚生物時，對附近最多 5 名敵人造成 20...65 閃電傷害。",
+				"concise": "加持魔法： 持續 15...60 秒，每當你召喚縛靈時，對附近最多 5 名敵人造成 20...65 閃電傷害。"
+			},
 			"de": {
+				"name": "Explosives Wachstum",
+				"description": "Verzauberung. Während der nächsten 15...60 Sekunde[n] erleiden jedes Mal, wenn Ihr eine Kreatur erschafft, bis zu 5 Gegner neben dieser Kreatur 20...65 Punkt[e] Blitzschaden.",
+				"concise": "Verzauberung. 15...60 Sekunde[n]: Richtet jedes Mal, wenn Ihr eine Kreatur erstellt, bei 5 Feind[en] in deren Nähe 20...65 Punkt[e] Blitzschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Explosives Wachstum",
 				"description": "Während der nächsten 15...60 Sekunden erleiden jedes Mal, wenn Ihr eine Kreatur erschafft, bis zu 5 Gegner neben dieser Kreatur 20...65 Punkte Blitzschaden.",
 				"concise": "15...60 Sekunden: Richtet jedes Mal, wenn Ihr eine Kreatur erstellt, bei 5 Feinden in deren Nähe 20...65 Punkte Blitzschaden an."
 			},
 			"en": {
 				"name": "Explosive Growth",
+				"description": "Enchantment Spell. For 15...60 seconds, whenever you create a creature, up to 5 foes near that creature are struck for 20...65 lightning damage.",
+				"concise": "Enchantment Spell. (15...60 seconds.) Deals 20...65 lightning damage each time you create a creature to 5 foes near that creature."
+			},
+			"en-gww": {
+				"name": "Explosive Growth",
 				"description": "For 15...60 seconds, whenever you create a creature, up to 5 foes near that creature are struck for 20...65 lightning damage.",
 				"concise": "(15...60 seconds.) Deals 20...65 lightning damage each time you create a creature to 5 foes near that creature."
 			},
+			"es": {
+				"name": "Crecimiento explosivo",
+				"description": "Conjuro con encantamiento. Durante 15...60 segundos, cuando crees una criatura, hasta un máximo de 5 enemigos cercanos recibirán 20...65 de daño de relámpago.",
+				"concise": "Conjuro con encantamiento. (15...60 segundos). Hace 20...65 de daño de relámpago a 5 enemigos cercanos cada vez que invoques alguna criatura."
+			},
 			"fr": {
+				"name": "Expansion explosive",
+				"description": "Enchantement. Pendant 15...60 secondes, chaque fois que vous créez une créature, jusqu'à 5 ennemis proches de cette créature reçoivent 20...65 points de dégâts de la foudre.",
+				"concise": "Enchantement. (15...60 secondes.) Inflige 20...65 points de dégâts de la foudre à 5 ennemis près de chaque créature invoquée."
+			},
+			"fr-gwiki": {
 				"name": "Expansion explosive",
 				"description": "Pendant 15...60 secondes, chaque fois que vous créez une créature, jusqu'à 5 ennemis proches de cette créature reçoivent 20...65 points de dégâts de la foudre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Crescita Esplosiva",
+				"description": "Incantesimo. Dura 15...60 secondo[i]; ogni volta che crei una creatura, fino a 5 nemico[i] vicini ad essa subiscono 20...65 danno[i] da fulmine.",
+				"concise": "Incantesimo. (Secondi: 15...60) Assesta 20...65 danno[i] da fulmine a 5 nemico[i] vicino[i] a te ogni volta che crei una creatura."
+			},
+			"jp": {
+				"name": "エクスプローシブ グロウス",
+				"description": "強化スペル： 15...60 秒間、ミニオンや精霊を召喚するたびに、その周囲にいる最大 5 体の敵に 20...65 のライトニング ダメージを与えます。",
+				"concise": "強化スペル： (15...60 秒) ミニオンや精霊を召喚するたびに、その周囲にいる 5 体の敵に 20...65 のライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "증식의 위력",
+				"description": "강화 마법. 대상 지정: 없음. 15...60초 동안 소환물(언데드 노예 포함)을 만들 때마다 소환물 부근의 최대 5명의 적에게 20...65의 번개 대미지를 줍니다.",
+				"concise": "강화 마법. (15...60초) 소환물을 만들 때마다 소환물 부근 5명의 적에게 20...65의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Wybuchowy Byt",
+				"description": "Zaklęcie (czar). Przez 15...60 sek., za każdym razem, kiedy tworzysz kreaturę, maksymalnie 5 przeciwników w pobliżu tej kreatury otrzymuje 20...65 pkt. obrażeń od błyskawicy.",
+				"concise": "Zaklęcie (czar). (15...60 sek.) Za każdym razem, kiedy stworzysz stworzenie, umiejętność zadaje po 20...65 pkt. obrażeń od błyskawic 5 przeciwnikom w pobliżu tego stworzenia."
+			},
+			"ru": {
+				"name": "Explosive Growth",
+				"description": "Заклинание-чары. В течение 15...60 сек каждый раз, когда вы создаете какое-либо существо, до 5 врагов поблизости от этого существа получают 20...65 ед. урона силой молнии.",
+				"concise": "Заклинание-чары. (15...60 сек) Наносит 20...65 ед. урона силой молнии 5 противникам поблизости от вас каждый раз, когда вы создаете какое-либо существо."
+			},
+			"bork": {
+				"name": "Ixpluseefe-a Groot",
+				"description": "Inchuntment Spell. Fur 15...60 secunds, vhenefer yuoo creaete-a a creaetoore-a, up tu 5 fues neaer thaet creaetoore-a aere-a stroock fur 20...65 leeghtneeng daemaege-a.",
+				"concise": "Inchuntment Spell. (15...60 secunds.) Deaels 20...65 leeghtneeng daemaege-a iaech teeme-a yuoo creaete-a a creaetoore-a tu 5 fue-as neaer thaet creaetoore-a."
 			}
 		}
 	}

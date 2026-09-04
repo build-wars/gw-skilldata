@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "流星锤",
+				"description": "姿态。 1...15秒内，你的攻击速度提升33%但移动速度降低33%。使用远程攻击技能会提前结束效果。",
+				"concise": "姿态。 （1...15秒）你的攻击速度提升33%，使用远程攻击技能会提前结束效果。但移动速度降低33%。"
+			},
+			"cht": {
+				"name": "連枷",
+				"description": "態勢： For 1...15 seconds, you attack 33% faster but move 33% slower. Ends if you use a ranged attack skill.",
+				"concise": "態勢： (1...15 seconds.) You attack 33% faster. Ends if you use a ranged attack skill. You move 33% slower."
+			},
 			"de": {
+				"name": "Dreschen",
+				"description": "Haltung. 1...15 Sekunden lang greift Ihr um 33 % schneller an und bewegt Euch 33 % langsamer. Endet, sobald Ihr eine Distanzangriff-Fertigkeit benutzt.",
+				"concise": "Haltung. (1...15 Sekunden.) Ihr greift 33 % schneller an. Endet, sobald Ihr eine Distanzangriff-Fertigkeit benutzt. Ihr bewegt Euch 33 % langsamer."
+			},
+			"de-guildwiki": {
 				"name": "Dreschen (PvP)",
 				"description": "1...15 Sekunden lang greift Ihr um 33% schneller an und bewegt Euch 33% langsamer. Endet, sobald Ihr eine Distanzangriff-Fertigkeit benutzt.",
 				"concise": "1...15 Sekunden: Ihr greift um 33% schneller an. Endet, sobald Ihr eine Distanzangriff-Fertigkeit benutzt. <gray>Ihr bewegt Euch um 33% langsamer</gray>"
 			},
 			"en": {
 				"name": "Flail (PvP)",
+				"description": "Stance. For 1...15 seconds, you attack 33% faster but move 33% slower. Ends if you use a ranged attack skill.",
+				"concise": "Stance. (1...15 seconds.) You attack 33% faster. Ends if you use a ranged attack skill. You move 33% slower."
+			},
+			"en-gww": {
+				"name": "Flail (PvP)",
 				"description": "For 1...15 second[s], you attack 33% faster but move 33% slower. Ends if you use a ranged attack skill.",
 				"concise": "(1...15 second[s].) You attack 33% faster. Ends if you use a ranged attack skill. <gray>You move 33% slower.</gray>"
 			},
+			"es": {
+				"name": "Flagelo",
+				"description": "Actitud. Durante 1...15 segundos, atacas un 33 % más rápido pero te mueves un 33 % más despacio. Acaba si usas una habilidad de ataque a distancia.",
+				"concise": "Actitud. (1...15 segundos). Atacas un 33 % más rápido. Acaba si usas una habilidad de ataque a distancia. Te mueves un 33 % más despacio."
+			},
 			"fr": {
+				"name": "Peste",
+				"description": "Pose de combat. Pendant 1...15 secondes, vous attaquez 33% plus vite, mais vous vous déplacez 33% plus lentement. Prend fin si vous utilisez une compétence d'attaque à distance.",
+				"concise": "Pose de combat. (1...15 secondes.) Vous attaquez 33% plus vite. Prend fin si vous utilisez une compétence d'attaque à distance. Vous vous déplacez 33% moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Peste (PvP)",
 				"description": "Pendant 1...15 seconde(s), vous attaquez 33% plus vite, mais vous vous déplacez 33% plus lentement. Prend fin si vous utilisez une compétence d'attaque à distance.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Flagellazione",
+				"description": "Posizione. Per 1...15 secondo/i attacchi più veloci del 33% ma movimento più lento del 33%. Termina quando usi un'abilità di attacco a distanza.",
+				"concise": "Posizione. (1...15 secondo/i) Attacchi più veloci del 33%. Termina quando usi un'abilità di attacco a distanza. Movimento più lento del 33%."
+			},
+			"jp": {
+				"name": "フレイル",
+				"description": "スタンス： 1...15秒間、攻撃速度は33%上昇しますが、移動速度は33%低下します。遠距離攻撃スキルを使用すると終了します。",
+				"concise": "スタンス： （1...15秒）攻撃速度が33%上昇します。遠距離攻撃スキルを使用すると終了します。移動速度が33%低下します。"
+			},
+			"kr": {
+				"name": "능숙한 타작",
+				"description": "자세. 대상 지정: 없음. 1...15초 동안 공격 속도가 33% 빨라지지만, 이동 속도가 33% 느려집니다. 원거리 공격 스킬을 사용하면 종료됩니다.",
+				"concise": "자세. (1...15초) 공격 속도가 33% 빨라집니다. 원거리 공격 스킬을 사용하면 종료됩니다. 이동 속도가 33% 느려집니다."
+			},
+			"pl": {
+				"name": "Atak na Oślep",
+				"description": "Postawa. Przez 1...15 sek. atakujesz o 33% szybciej, ale poruszasz się o 33% wolniej. Kończy się, gdy użyjesz umiejętności ataku dystansowego.",
+				"concise": "Postawa. (1...15 sek.) Atakujesz o 33% szybciej. Kończy się, gdy użyjesz umiejętności ataku dystansowego. Poruszasz się o 33% wolniej."
+			},
+			"ru": {
+				"name": "Flail",
+				"description": "Стойка. В течение 1...15 сек. вы атакуете на 33% быстрее, но двигаетесь на 33% медленнее. Заканчивается, если вы используете навык дистанционной атаки.",
+				"concise": "Стойка. (1...15 сек.) Вы атакуете на 33% быстрее. Заканчивается, если вы используете навык дистанционной атаки. Вы двигаетесь на 33% медленнее."
+			},
+			"bork": {
+				"name": "Flaeeel (PfP)",
+				"description": "Stunce-a. Fur 1...15 secunds, yuoo aettaeck 33% faester boot mufe-a 33% slooer. Inds iff yuoo use-a a runged aettaeck skeell.",
+				"concise": "Stunce-a. (1...15 secunds.) Yuoo aettaeck 33% faester. Inds iff yuoo use-a a runged aettaeck skeell. Yuoo mufe-a 33% slooer."
 			}
 		}
 	}

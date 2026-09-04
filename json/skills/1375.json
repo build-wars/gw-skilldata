@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "石肤光环",
+				"description": "增益魔法。 在5...15秒之内，使你受到的伤害降低1...31点，同时敌人的致命一击将不会对你造成伤害。",
+				"concise": "增益魔法。 在5...15秒之内，使你受到的伤害降低1...31点，同时敌人的致命一击将不会对你造成伤害。"
+			},
+			"cht": {
+				"name": "石體靈氣",
+				"description": "加持魔法： 持續 5...15 秒，使你遭受的傷害中有 1...31 被吸收，而且你對致命攻擊免疫。",
+				"concise": "加持魔法： 持續 5...15 秒，使你遭受的傷害中有 1...31 被吸收，而且你對致命攻擊免疫。"
+			},
 			"de": {
+				"name": "Steinfleisch-Aura",
+				"description": "Verzauberung. 5...15 Sekunde[n] lang wird der Schaden, den Ihr erleidet um 1...31 Punkt[e] reduziert und Ihr seid immun gegen kritische Angriffe.",
+				"concise": "Verzauberung. (5...15 Sekunde[n].) Reduziert von Euch erlittenen Schaden um 1...31 Punkt[e] und Ihr seid gegen kritische Treffer immun."
+			},
+			"de-guildwiki": {
 				"name": "Steinfleisch-Aura",
 				"description": "5...15 Sekunden lang wird der Schaden, den Ihr erleidet, um 1...31 Punkte reduziert und Ihr seid immun gegen kritische Angriffe.",
 				"concise": "5...15 Sekunden: Reduziert von Euch erlittenen Schaden um 1...31 Punkte und Ihr seid gegen kritische Treffer immun."
 			},
 			"en": {
 				"name": "Stoneflesh Aura",
+				"description": "Enchantment Spell. For 5...15 seconds, damage you receive is reduced by 1...31, and you are immune to critical attacks.",
+				"concise": "Enchantment Spell. (5...15 seconds.) Reduces damage you take by 1...31, and you are immune to critical hits."
+			},
+			"en-gww": {
+				"name": "Stoneflesh Aura",
 				"description": "For 5...15 seconds, damage you receive is reduced by 1...31, and you are immune to critical attacks.",
 				"concise": "(5...15 seconds.) Reduces damage you take by 1...31, and you are immune to critical hits."
 			},
+			"es": {
+				"name": "Aura de carne de piedra",
+				"description": "Conjuro con encantamiento. Durante 5...15 segundos, el daño que recibas se reduce en 1...31 y eres inmune a ataques críticos.",
+				"concise": "Conjuro con encantamiento. (5...15 segundos). Reduce el daño que recibes en 1...31 y eres inmune a ataques críticos."
+			},
 			"fr": {
+				"name": "Aura de Chair de pierre",
+				"description": "Enchantement. Pendant 5...15 secondes, les dégâts que vous recevez sont réduits de 1...31, et vous êtes immunisé contre les attaques critiques.",
+				"concise": "Enchantement. (5...15 secondes.) Les dégâts qui vous sont infligés sont réduits de 1...31 et vous êtes immunisé[f:\"immunisée\"] contre les coups critiques."
+			},
+			"fr-gwiki": {
 				"name": "Aura de Chair de pierre",
 				"description": "Pendant 5...15 secondes, les dégâts que vous recevez sont réduits de 1...31, et vous êtes immunisé contre les attaques critiques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura di Carne di Pietra",
+				"description": "Incantesimo. Per 5...15 secondi, il danno che ricevi si riduce di 1...31 e sei immune dagli attacchi critici.",
+				"concise": "Incantesimo. (Secondi: 5...15.) Riduce di 1...31 il danno che ricevi e diventi immune dagli attacchi critici."
+			},
+			"jp": {
+				"name": "ストーンフレッシュ オーラ",
+				"description": "強化スペル： 5...15 秒間、受けるダメージが 1...31 減少し、致命的なダメージを受けることがありません。",
+				"concise": "強化スペル： (5...15 秒) 受けるダメージが 1...31 減少し、クリティカル ヒットを受けません。"
+			},
+			"kr": {
+				"name": "돌갑옷 오라",
+				"description": "강화 마법. 대상 지정: 없음. 5...15초 동안 자신이 받는 대미지가 1...31 감소하고, 치명타 공격을 받지 않습니다.",
+				"concise": "강화 마법. (5...15초) 자신이 받는 대미지가 1...31 감소하고, 치명타 공격을 받지 않습니다."
+			},
+			"pl": {
+				"name": "Aura Kamiennego Ciała",
+				"description": "Zaklęcie (czar). Przez 5...15 sek., obrażenia, które otrzymujesz obniżane są o 1...31 pkt., a ty jesteś odporny na trafienia krytyczne.",
+				"concise": "Zaklęcie (czar). (5...15 sek.) Obniża obrażenia, jakie otrzymujesz o 1...31 i stajesz się niewrażliwy na trafienia krytyczne."
+			},
+			"ru": {
+				"name": "Stoneflesh Aura",
+				"description": "Заклинание-чары. В течение 5...15 сек получаемый вами урон уменьшается на 1...31 ед., и вы становитесь невосприимчивы к критическим ударам.",
+				"concise": "Заклинание-чары. (5...15 сек) Уменьшает получаемый вами урон на 1...31 ед., и вы не получаете дополнительный урон от критических ударов."
+			},
+			"bork": {
+				"name": "Stunefflesh Oora",
+				"description": "Inchuntment Spell. Fur 5...15 secunds, daemaege-a yuoo receeefe-a is redooced by 1...31, und yuoo aere-a immoone-a tu creeteecael aettaecks.",
+				"concise": "Inchuntment Spell. (5...15 secunds.) Redooces daemaege-a yuoo taeke-a by 1...31, und yuoo aere-a immoone-a tu creeteecael heets."
 			}
 		}
 	}

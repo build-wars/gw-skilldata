@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 17,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暗之暴怒",
+				"description": "增益魔法。 牺牲自己最大生命值的17%，每当队友武器攻击命中时，会使其获得额外一次的怒气增长，效果持续5秒。（当「血魔法」属性投入在4点以下时，技能会有50%的几率失败。）",
+				"concise": "增益魔法。 牺牲自己最大生命值的17%，每当附近队友攻击命中时，会使其获得额外一次的怒气增长，持续5秒。（当「血魔法」属性投入在4点以下时，技能会有50%的几率失败。）"
+			},
+			"cht": {
+				"name": "暗黑憤怒",
+				"description": "加持魔法： 犧牲自己最大體力的 17% 。持續 5 秒，每當隊伍成員攻擊命中目標時，額外獲得等同一次攻擊成功累積的怒氣值。（血魔法 4 以下，有 50% 失敗機率）",
+				"concise": "加持魔法： 犧牲自己最大體力的 17% 。持續 5 秒，每當附近的任何隊伍成員攻擊命中目標時，該隊員獲得額外一次的怒氣值。（血魔法 4 以下，有 50% 失敗機率）"
+			},
 			"de": {
+				"name": "Dunkle Wut",
+				"description": "Verzauberung. 5 Sekunden lang erhält jedes Gruppenmitglied bei einem erfolgreichen Angriff einen Adrenalinstoß. (Bei einer Blutmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Verzauberung. Verzaubert Gruppenmitglieder (5 Sekunden). Die Betroffenen erhalten jedes Mal einen Adrenalinstoß, wenn sie mit einem Angriff einen Treffer landen. Mindestens Blutmagie 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Dunkle Wut",
 				"description": "5 Sekunden erhält jedes Gruppenmitglied für jeden erfolgreichen Angriff einen Adrenalinstoß. (Bei Blutmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
 				"concise": "Verzaubert Gruppenmitglieder (5 Sekunden). Die Betroffenen erhalten jedes Mal einen Adrenalinstoß, wenn sie mit einem Angriff einen Treffer landen. <gray>Mindestens Blutmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Dark Fury",
+				"description": "Enchantment Spell. For 5 seconds, whenever any party member hits with an attack, that party member gains one hit of adrenaline. (50% failure chance with Blood Magic of 4 or less.)",
+				"concise": "Enchantment Spell. Enchants party members (5 seconds). These party members gain one strike of adrenaline each time they hit with an attack. 50% failure chance unless Blood Magic 5 or more."
+			},
+			"en-gww": {
+				"name": "Dark Fury",
 				"description": "For 5 seconds, whenever any party member hits with an attack, that party member gains one hit of adrenaline. (50% failure chance with Blood Magic of 4 or less.)",
 				"concise": "Enchants party members (5 seconds). These party members gain one strike of adrenaline each time they hit with an attack. <gray>50% failure chance unless Blood Magic 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Furia oscura",
+				"description": "Conjuro con encantamiento. Durante 5 segundos, cada vez que un miembro del grupo golpee a alguien, ganará uno de adrenalina (50% de probabilidades de fallar con magia de sangre 4 o inferior).",
+				"concise": "Conjuro con encantamiento. Encanta a los miembros del grupo (5 segundos), que ganan uno de adrenalina cada vez que hagan un ataque. 50% de probabilidades de fallar con magia de sangre inferior a 5."
+			},
 			"fr": {
+				"name": "Fureur noire",
+				"description": "Enchantement. Pendant 5 secondes, à chaque fois que l'attaque d'un membre du groupe réussit, il gagne une décharge d'adrénaline. (50% de risques d'échec avec une Magie du sang de 4 ou inférieure.)",
+				"concise": "Enchantement. Enchante les membres du groupe (5 secondes). Ces derniers gagnent une décharge d'adrénaline chaque fois qu'ils réussissent une attaque. 50% de risques d'échouer sauf si la valeur de Magie du sang est de 5 ou plus."
+			},
+			"fr-gwiki": {
 				"name": "Fureur noire",
 				"description": "Pendant 5 secondes, à chaque fois que l'attaque d'un membre du groupe réussit, il gagne une décharge d'adrénaline. (50% de risques d'échec avec une Magie du sang de 4 ou inférieure.)",
 				"concise": ""
+			},
+			"it": {
+				"name": "Furia Oscura",
+				"description": "Incantesimo. Per 5 secondi ogni volta che l'attacco di un membro della squadra va a segno, riceve una dose di adrenalina (50% di probabilità di fallimento con Magia del Sangue di grado 4 o inferiore).",
+				"concise": "Incantesimo. Incanta i membri della squadra (5 secondi). Ottengono una dose di adrenalina ogni volta che colpiscono con un attacco. Probabilità di fallimento se il grado di Magia del Sangue è inferiore a 5: 50%."
+			},
+			"jp": {
+				"name": "ダーク フューリー",
+				"description": "強化スペル： 5秒間、パーティー メンバーは攻撃が成功するたびに1発のアドレナリンを獲得します。「ブラッド」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "強化スペル： (5秒) パーティー メンバーは、攻撃に成功するたびに1発のアドレナリンを獲得します。「ブラッド」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "어둠의 분노",
+				"description": "강화 마법. 대상 지정: 없음. 5초 동안 파티원들은 공격에 성공할 때마다 1번 공격한 만큼의 아드레날린을 얻습니다. 피 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "강화 마법. 파티원들은 공격할 때마다 1번 공격에 성공한 만큼의 아드레날린을 얻습니다.(5초) 피 특성 레벨이 4이하이면 50%의 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Mroczna Furia",
+				"description": "Zaklęcie (czar). Przez 5 sek., za każdym razem, kiedy dowolny członek drużyny trafi przeciwnika, otrzyma jedną dawkę adrenaliny. (50% szans na niepowodzenie, gdy wartość Magii Krwi wynosi 4 lub mniej.)",
+				"concise": "Zaklęcie (czar). Zaklina członków drużyny (5 sek.). Ci członkowie drużyny otrzymują dawkę adrenaliny, za każdym razem, kiedy ich atak trafi. 50% szans na niepowodzenie, chyba że wartość Magii Krwi wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Dark Fury",
+				"description": "Заклинание-чары. В течение 5 сек в каждый раз, когда любой член вашего отряда проводит успешную атаку, он получает 1 ед. адреналина (50%-й шанс неудачи, если ваш талант Blood Magic меньше или равен 4).",
+				"concise": "Заклинание-чары. Накладывает чары на членов отряда (5 сек). Эти члены отряда получают 1 ед. адреналина за каждую свою успешную атаку. 50%-й шанс неудачи, если ваш талант Blood Magic меньше 5."
+			},
+			"bork": {
+				"name": "Daerk Foory",
+				"description": "Inchuntment Spell. Fur 5 secunds, vhenefer uny paerty member heets veet un aettaeck, thaet paerty member gaeeens oone-a heet ooff aedrenaeleene-a. (50% faeeeloore-a chunce-a veet Bluud Maegeec ooff 4 oor less.)",
+				"concise": "Inchuntment Spell. Inchunts paerty members (5 secunds). Zeese-a paerty members gaeeen oone-a streeke-a ooff aedrenaeleene-a iaech teeme-a zeey heet veet un aettaeck. 50% faeeeloore-a chunce-a unless Bluud Maegeec 5 oor mure-a."
 			}
 		}
 	}

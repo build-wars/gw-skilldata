@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "圣光",
+				"description": "精英咒文。 治疗友方目标40...120点生命值。如果该目标带有「增益魔法」效果，则你获得1...3点能量值。",
+				"concise": "精英咒文。 治疗目标盟友 40...120 生命。如果该目标受到「增益魔法」，则你获得 1...3 能量。"
+			},
+			"cht": {
+				"name": "治療聖光",
+				"description": "精英咒文魔法： 治療目標盟友 40...120 體力。若該目標受到「加持」，則你獲得 1...3 能量。",
+				"concise": "精英咒文魔法： 治療目標盟友 40...120 體力。若該目標受到「加持」，則你獲得 1...3 能量。"
+			},
 			"de": {
+				"name": "Heilendes Licht",
+				"description": "Elite-Zauber. Heilt den Verbündeten (bzw. Euch selbst) um 40...120 Lebenspunkt[e]. Wenn Euer Ziel einer Verzauberung unterliegt, erhaltet Ihr 1...3 Energiepunkt[e].",
+				"concise": "Elite-Zauber. Heilt um 40...120 Lebenspunkt[e]. Ihr erhaltet 1...3 Energiepunkt[e], falls der Verbündete (bzw. Ihr selbst) verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Heilendes Licht",
 				"description": "Heilt den Verbündeten (bzw. Euch selbst) um 40...120 Lebenspunkte. Wenn Euer Ziel einer Verzauberung unterliegt, erhaltet Ihr 1...3 Energiepunkte.",
 				"concise": "Heilt um 40...120 Lebenspunkte. Ihr erhaltet 1...3 Energiepunkte, falls der Verbündete (bzw. Ihr selbst) verzaubert ist."
 			},
 			"en": {
 				"name": "Healing Light",
+				"description": "Elite Spell. Heal target ally for 40...120 Health. If your target has an enchantment, you gain 1...3 Energy.",
+				"concise": "Elite Spell. Heals for 40...120. You gain 1...3 Energy if target ally is enchanted."
+			},
+			"en-gww": {
+				"name": "Healing Light",
 				"description": "Heal target ally for 40...120 Health. If your target has an enchantment, you gain 1...3 Energy.",
 				"concise": "Heals for 40...120. You gain 1...3 Energy if target ally is enchanted."
 			},
+			"es": {
+				"name": "Luz sanadora",
+				"description": "Conjuro de élite. Curas 40...120 de salud al objetivo (un aliado o tú mismo). Si tiene un encantamiento, ganas 1...3 de energía.",
+				"concise": "Conjuro de élite. Cura 40...120 de salud Ganas 1...3 de energía si el objetivo (un aliado o tú mismo) tiene un encantamiento."
+			},
 			"fr": {
+				"name": "Lumière rédemptrice",
+				"description": "Sort d'élite. Vous guérissez la cible (un allié ou vous-même) de 40...120 points de vie. Si votre cible est sous l'effet d'un enchantement, vous récupérez 1...3 points d'énergie.",
+				"concise": "Sort d'élite. Soigne de 40...120 points de vie. Vous gagnez 1...3 points d'énergie si l'allié visé est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Lumière rédemptrice",
 				"description": "Vous guérissez la cible (un allié ou vous-même) de 40...100 points de vie. Si votre cible est sous l'effet d'un enchantement, vous récupérez 1...3 point(s) d'énergie.",
 				"concise": "Soigne de 40...100 points de vie. Vous gagnez 1...3 point(s) d'énergie si l'allié visé est enchanté."
+			},
+			"it": {
+				"name": "Luce di Guarigione",
+				"description": "Magia d'Élite. Curi l'obiettivo (un alleato o te stesso) di 40...120 Punto[i] Salute; se l'obiettivo è affetto da un incantesimo ottieni 1...3 Punto[i] Energia.",
+				"concise": "Magia d'Élite. Cure: 40...120. Energia conseguita se l'obiettivo alleato è sotto incantesimo: 1...3."
+			},
+			"jp": {
+				"name": "ヒーリング ライト",
+				"description": "エリート スペル： ターゲットした味方は体力が 40...120 回復します。ターゲットに強化スペルがかけられている場合、プレイヤーは 1...3 のエネルギーを獲得します。",
+				"concise": "エリート スペル： 体力を 40...120 回復します。ターゲットした味方に強化スペルがかけられている場合、プレイヤーは 1...3 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "치유의 빛",
+				"description": "엘리트 마법. 대상 지정: 아군. 대상의 체력을 40...120 회복시킵니다.그 대상이 강화 마법이 걸려 있다면 자신은 1...3의 에너지를 얻습니다.",
+				"concise": "엘리트 마법. 대상의 체력을 40...120 회복시킵니다. 대상이 강화 마법에 걸려 있으면 자신은 1...3의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Uzdrawiające Światło",
+				"description": "Elitarny czar. Uzdrawiasz wybranego sojusznika dodając mu 40...120 pkt. żywotności. Jeśli cel ma na sobie zaklęcie, to otrzymujesz 1...3 pkt. energii.",
+				"concise": "Elitarny czar. Dodaje 40...120 pkt. żywotności. Otrzymujesz 1...3 pkt. energii, jeżeli wybrany sojusznik jest pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Healing Light",
+				"description": "Элитное заклинание. Исцеляет выбранного союзника на 40...120 ед. здоровья. Если на выбранного союзника были наложены какие-либо чары, вы получаете 1...3 ед. энергии.",
+				"concise": "Элитное заклинание. Исцеляет на 40...120 ед. здоровья. Вы получаете 1...3 ед. энергии, если на выбранного союзника наложены чары."
+			},
+			"bork": {
+				"name": "Heaeleeng Leeght",
+				"description": "Ileete-a Spell. Heael taerget aelly fur 40...120 Heaelt. Iff yuoor taerget haes un inchuntment, yuoo gaeeen 1...3 Inergy. Bork! Bork! Bork!",
+				"concise": "Ileete-a Spell. Heaels fur 40...120. Yuoo gaeeen 1...3 Inergy iff taerget aelly is inchunted."
 			}
 		}
 	}

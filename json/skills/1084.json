@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "银色护甲",
+				"description": "增益魔法。 持续 5...11 秒，你有 25...50% 概率格挡攻击，而且每当敌人以你为负面法术或攻击的目标时，你附近的一名敌人受到 5...35 地系伤害。",
+				"concise": "增益魔法。 持续 5...11 秒，你有 25...50% 概率格挡攻击，而且每当敌人以你为负面法术或攻击的目标时，你附近的一名敌人受到 5...35 地系伤害。"
+			},
+			"cht": {
+				"name": "裂片護甲",
+				"description": "加持魔法： 持續 5...11 秒，你有 25...50% 機率「格擋」攻擊，而且每當敵人以你為負面「魔法」或攻擊的目標時，你附近的一名敵人受到 5...35 土系傷害。",
+				"concise": "加持魔法： 持續 5...11 秒，你有 25...50% 機率「格擋」攻擊，而且每當敵人以你為負面「魔法」或攻擊的目標時，你附近的一名敵人受到 5...35 土系傷害。"
+			},
 			"de": {
+				"name": "Splitter-Rüstung",
+				"description": "Verzauberung. 5...11 Sekunde[n] lang habt Ihr eine 25...50%ige Chance, Angriffe zu blocken, und jedes Mal, wenn Ihr das Ziel eines feindlichen Zaubers oder Angriffs seid, erleidet ein Gegner in der Nähe 5...35 Punkt[e] Erdschaden.",
+				"concise": "Verzauberung. (5...11 Sekunde[n].) Ihr habt eine 25...50%ige Chance zu blocken. Richtet jedes Mal bei einem Gegner in der Nähe 5...35 Punkt[e] Erdschaden an, wenn Ihr Ziel eines feindlichen Zaubers oder Angriffs seid."
+			},
+			"de-guildwiki": {
 				"name": "Splitter-Rüstung",
 				"description": "5...11 Sekunden lang habt Ihr eine 25...50%ige Chance, Angriffe zu blocken, und jedes Mal, wenn Ihr das Ziel eines feindlichen Zaubers oder Angriffs seid, erleidet ein zufällig gewählter Gegner in der Nähe 5...35 Punkte Erdschaden.",
 				"concise": "5...11 Sekunden: Ihr habt eine 25...50%ige Chance zu blocken. Richtet jedes Mal bei einem Gegner in der Nähe 5...35 Punkte Erdschaden an, wenn Ihr Ziel eines feindlichen Zaubers oder Angriffs seid."
 			},
 			"en": {
 				"name": "Sliver Armor",
+				"description": "Enchantment Spell. For 5...11 seconds, you have 25...50% chance to block attacks and whenever you are the target of a hostile spell or attack one nearby foe is struck for 5...35 earth damage.",
+				"concise": "Enchantment Spell. (5...11 seconds.) You have 25...50% chance to block. Deals 5...35 earth damage to one nearby foe whenever you are the target of a hostile spell or attack."
+			},
+			"en-gww": {
+				"name": "Sliver Armor",
 				"description": "For 5...11 seconds, you have 25...50% chance to block attacks and whenever you are the target of a hostile spell or attack one nearby foe is struck for 5...35 earth damage.",
 				"concise": "(5...11 seconds.) You have 25...50% chance to block. Deals 5...35 earth damage to one nearby foe whenever you are the target of a hostile spell or attack."
 			},
+			"es": {
+				"name": "Armadura tajada",
+				"description": "Conjuro con encantamiento. Durante 5...11 segundos, tienes 25...50% de probabilidades de bloquear ataques y, cuando seas el objetivo de ataques o conjuros hostiles, un enemigo cercano recibirá 5...35 de daño de tierra.",
+				"concise": "Conjuro con encantamiento. (5...11 segundos). Tienes un 25...50% de probabilidad de bloquear. Hace 5...35 de daño de tierra a un enemigo cercano cuando seas el objetivo de ataques o conjuros hostiles."
+			},
 			"fr": {
+				"name": "Armure d'éclats",
+				"description": "Enchantement. Pendant 5...11 secondes, vous avez 25...50% de chances de bloquer les attaques et lorsque vous êtes la cible d'un sort hostile ou d'une attaque, un ennemi à proximité reçoit 5...35 points de dégâts de la terre.",
+				"concise": "Enchantement. (5...11 secondes.) Vous avez 25...50% de chances de bloquer les attaques. Inflige 5...35 points de dégâts de la terre à un ennemi à proximité chaque fois que vous êtes la cible d'une attaque ou d'un sort ennemi."
+			},
+			"fr-gwiki": {
 				"name": "Armure d'éclats",
 				"description": "Pendant 5...11 secondes, vous avez 25...50% de chances de bloquer les attaques et lorsque vous êtes la cible d'un sort hostile ou d'une attaque, un ennemi à proximité reçoit 5...35 points de dégâts de la terre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armatura Scheggiante",
+				"description": "Incantesimo. Per 5...11 secondi, hai un 25...50% di probabilità di bloccare gli attacchi e, se ti viene lanciata contro una magia ostile o un attacco, un nemico nei dintorni subisce 5...35 danni da terra.",
+				"concise": "Incantesimo. (Secondi: 5...11.) Probabilità di blocco: 25...50%. Infligge 5...35 danni da terra ad un nemico nei dintorni ogni volta che sei il bersaglio di una magia ostile o di un attacco."
+			},
+			"jp": {
+				"name": "スリバー アーマー",
+				"description": "強化スペル： 5...11 秒間、25...50% の確率で攻撃をブロックし、敵のスペルまたは攻撃のターゲットになるたびに、周囲にいる敵1体に 5...35 のアース ダメージを与えます。",
+				"concise": "強化スペル： (5...11 秒) 25...50% の確率で攻撃をブロックします。敵対的なスペルまたは攻撃を受けるたびに、周囲にいる敵1体に 5...35 のアース ダメージを与えます。"
+			},
+			"kr": {
+				"name": "갑옷 강화",
+				"description": "강화 마법. 대상 지정: 없음. 5...11초 동안 공격을 막아낼 확률이 25...50% 증가합니다. 자신이 적의 마법이나 공격의 대상이 될 때마다 부근에 있는 적 1명에게 5...35의 대지 대미지를 줍니다.",
+				"concise": "강화 마법. (5...11초) 25...50% 확률로 공격을 막습니다. 자신이 적의 마법이나 공격의 대상이 될 때마다 부근에 있는 적 1명에게 5...35의 대지 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Zbroja z Odłamków",
+				"description": "Zaklęcie (czar). Przez 5...11 sek. masz 25...50% szans na blokowanie ataków oraz za każdym razem, kiedy jesteś celem wrogiego czaru lub ataku, jeden przeciwnik w pobliżu otrzymuje 5...35 pkt. obrażeń od ziemi.",
+				"concise": "Zaklęcie (czar). (5...11 sek.) Masz 25...50% szans na blokowanie. Jednemu przeciwnikowi w pobliżu zadaje 5...35 pkt. obrażeń od ziemi, za każdym razem, kiedy jesteś celem wrogiego czaru lub ataku."
+			},
+			"ru": {
+				"name": "Sliver Armor",
+				"description": "Заклинание-чары. В течение 5...11 сек вы получаете 25...50%-й шанс блокировать направленные против вас атаки, а каждый раз, когда вы становитесь целью вражеского заклинания или атаки, один находящийся поблизости противник получит 5...35 ед. урона силой земли.",
+				"concise": "Заклинание-чары. (5...11 сек) Вы получаете 25...50%-й шанс блокировать атаки. Наносит 5...35 ед. урона силой земли одному противнику поблизости каждый раз, когда вы становитесь целью вражеского заклинания или атаки."
+			},
+			"bork": {
+				"name": "Sleefer Aermur",
+				"description": "Inchuntment Spell. Fur 5...11 secunds, yuoo haefe-a 25...50% chunce-a tu bluck aettaecks und vhenefer yuoo aere-a zee taerget ooff a husteele-a spell oor aettaeck oone-a neaerby fue-a is stroock fur 5...35 iaert daemaege-a.",
+				"concise": "Inchuntment Spell. (5...11 secunds.) Yuoo haefe-a 25...50% chunce-a tu bluck. Deaels 5...35 iaert daemaege-a tu oone-a neaerby fue-a vhenefer yuoo aere-a zee taerget ooff a husteele-a spell oor aettaeck."
 			}
 		}
 	}

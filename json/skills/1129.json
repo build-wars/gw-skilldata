@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "谴责",
+				"description": "精英咒文。 Target foe takes 30...130 holy damage. If your target was below 50% Health, Word of Censure takes 20 additional seconds to recharge.",
+				"concise": "精英咒文。 Deals 30...130 holy damage. +20 recharge time if target foe is below 50% Health."
+			},
+			"cht": {
+				"name": "譴責文字",
+				"description": "精英咒文魔法： 使目标敌人受到30...130点神圣伤害。如果目标敌人的生命值低于50%，则此技能的恢复时间延长额外20秒。",
+				"concise": "精英咒文魔法： Deals 30...130 holy damage. +20 recharge time if target foe is below 50% Health."
+			},
 			"de": {
+				"name": "Wort des Tadels",
+				"description": "Elite-Zauber. Der anvisierte Gegner nimmt 30...130 heiligen Schaden. Falls Euer Ziel weniger als 50 % Lebenspunkte hatte, braucht \"Wort der Zensur\" 20 zusätzliche Sekunde[n] zur Wiederaufladung.",
+				"concise": "Elite-Zauber. Verursacht 30...130 heiligen Schaden. +20 Wiederaufladezeit, wenn der anvisierte Gegner weniger als 50 % Lebenspunkte hat."
+			},
+			"de-guildwiki": {
 				"name": "Wort des Tadels",
 				"description": "Der Gegner erleidet 30...130 Punkte heiligen Schaden. Waren seine Lebenspunkte Beim<sic/> Anwenden dieses Zaubers unter 50%, benötigt Wort des Tadels 20 Sekunden zusätzliche Wiederaufladezeit.",
 				"concise": "Richtet 30...130 Punkte heiligen Schaden an. <gray>+20 Sekunden zur Aufladezeit, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat.</gray>"
 			},
 			"en": {
 				"name": "Word of Censure",
+				"description": "Elite Spell. Target foe takes 30...130 holy damage. If your target was below 50% Health, Word of Censure takes 20 additional seconds to recharge.",
+				"concise": "Elite Spell. Deals 30...130 holy damage. +20 recharge time if target foe is below 50% Health."
+			},
+			"en-gww": {
+				"name": "Word of Censure",
 				"description": "Target foe takes 30...130 holy damage. If your target was below 50% Health, Word of Censure takes 20 additional seconds to recharge.",
 				"concise": "Deals 30...130 holy damage. <gray>+20 recharge time if target foe is below 50% Health.</gray>"
 			},
+			"es": {
+				"name": "Palabra de censura",
+				"description": "Conjuro de élite. Haces 30...130 de daño sagrado al enemigo objetivo. Si tiene menos del 50 % de salud, la Palabra de censura tardará 20 segundos más en recargarse.",
+				"concise": "Conjuro de élite. Hace 30...130 de daño sagrado. +20 de tiempo de recarga si el enemigo objetivo está por debajo del 50 % de salud."
+			},
 			"fr": {
+				"name": "Parole du censeur",
+				"description": "Sort d'élite. La cible ennemie subit 30...130 points de dégâts sacrés. Si votre cible avait moins de 50% de santé, Paroles de censure prend 20 secondes de plus pour se recharger.",
+				"concise": "Sort d'élite. Inflige 30...130 points de dégâts sacrés. +20 de temps de recharge si la cible ennemie a moins de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Parole du censeur",
 				"description": "La cible ennemie subit 30...130 points de dégâts sacrés. Si votre cible a moins de 50% de santé, la Parole du censeur met 20 secondes supplémentaires pour se recharger.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Parola di Biasimo",
+				"description": "Magia d'Élite. Il nemico bersaglio subisce 30...130 di danni sacri. Se il tuo obiettivo aveva meno del 50% di Salute, Parola di Biasimo ci mette 20 secondo/i extra per ricaricarsi.",
+				"concise": "Magia d'Élite. Infligge 30...130 di danni sacri. Tempo di ricarica di +20 se la Salute del nemico bersaglio è sotto al 50%."
+			},
+			"jp": {
+				"name": "センシャー ワード",
+				"description": "エリート スペル： 標的となった敵が30...130の聖属性ダメージを受ける。標的の体力が50%未満だった場合、センシャー ワードのリチャージ時間が20秒延長されます。",
+				"concise": "エリート スペル： 30...130の聖属性ダメージを与えます。標的となった敵の体力が50%未満の場合、リチャージ時間が+20。"
+			},
+			"kr": {
+				"name": "결의의 주문",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에게 30...130의 신성 대미지를 줍니다. 그 대상의 체력이 50% 미만이라면, 이 마법의 재활성 시간은 20초 늘어납니다.",
+				"concise": "엘리트 마법. 30...130의 신성 대미지를 줍니다. 대상의 체력이 50% 미만이면 재활성 시간이 20초 늘어납니다."
+			},
+			"pl": {
+				"name": "Słowo Potępienia",
+				"description": "Elitarny czar. Wybrany przeciwnik otrzymuje 30...130 pkt. świętych obrażeń. Jeśli twój cel miał mniej niż 50% żywotności, Słowo Potępienia będzie się odnawiało o 20 sek. dłużej.",
+				"concise": "Elitarny czar. Zadaje 30...130 pkt. świętych obrażeń. +20 sek. do czasu odnawiania, jeżeli wybrany przeciwnik ma poniżej 50% żywotności."
+			},
+			"ru": {
+				"name": "Word of Censure",
+				"description": "Элитное заклинание. Выбранный враг получает 30...130 ед. святого урона. Если у цели меньше 50% здоровья, Word of Censure перезаряжается на 20 сек. дольше.",
+				"concise": "Элитное заклинание. Наносит 30...130 ед. святого урона. +20 к времени перезарядки, если у цели меньше 50% здоровья."
+			},
+			"bork": {
+				"name": "Vurd ooff Censoore-a",
+				"description": "Ileete-a Spell. Taerget fue-a taekes 30...130 huly daemaege-a. Iff yuoor taerget vaes beloo 50% Heaelt, Vurd ooff Censoore-a taekes 20 aeddeeshunael secunds tu rechaerge-a.",
+				"concise": "Ileete-a Spell. Deaels 30...130 huly daemaege-a. +20 rechaerge-a teeme-a iff taerget fue-a is beloo 50% Heaelt."
 			}
 		}
 	}

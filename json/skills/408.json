@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 0.5,
+		"aftercast": 1.5,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "震荡射击",
+				"description": "弓术。 如果命中正在施法的敌人，将会打断其施法，并使其遭受「晕眩」症状 5...20秒。此攻击只造成1...16点伤害。",
+				"concise": "弓术。 如果命中正在施法的敌人，将会打断其施法，并使其遭受「晕眩」症状 5...20秒。此攻击只造成1...16点伤害。"
+			},
+			"cht": {
+				"name": "迷惑之箭",
+				"description": "弓術攻擊技能： 迷惑之箭若命中正在施展「魔法」的敵人，將中斷其施法並使其遭受「暈眩」病症 5...20 秒。此攻擊只造成 1...16 傷害。",
+				"concise": "弓術攻擊技能： 迷惑之箭若命中正在施展「魔法」的敵人，將中斷其施法並使其遭受「暈眩」病症 5...20 秒。此攻擊只造成 1...16 傷害。"
+			},
 			"de": {
+				"name": "Erschütterungsschuss",
+				"description": "Bogenangriff. Trifft Erschütterungsschuss, während der Gegner einen Zauber wirkt, wird dieser Zauber unterbrochen und Euer Ziel leidet 5...20 Sekunde[n] lang an Benommenheit. Dieser Angriff fügt nur 1...16 Punkt[e] Schaden zu.",
+				"concise": "Bogenangriff. Unterbricht einen Zauber. Unterbrechungswirkung: Verursacht Zustand Benommenheit (5...20 Sekunde[n]). Treffer richten nur 1...16 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Erschütterungsschuss",
 				"description": "Trifft Erschütterungsschuss, während der Gegner einen Zauber wirkt, leidet er 5...20 Sekunden lang an Benommenheit. Dieser Angriff fügt nur 1...16 Punkte Schaden zu.",
 				"concise": "Verursacht Zustand Benommenheit (5...20 Sekunden). <gray>Treffer richten nur 1...16 Punkte Schaden an. Gegner muss einen Zauber wirken, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Concussion Shot",
+				"description": "Bow Attack. If Concussion Shot hits while target foe is casting a spell, the spell is interrupted and your target is Dazed for 5...20 seconds. This attack deals only 1...16 damage.",
+				"concise": "Bow Attack. Interrupts a spell. Interruption effect: inflicts Dazed condition (5...20 seconds). Hits for only 1...16 damage."
+			},
+			"en-gww": {
+				"name": "Concussion Shot",
 				"description": "If Concussion Shot hits while target foe is casting a spell, the spell is interrupted and your target is Dazed for 5...20 seconds. This attack deals only 1...16 damage.",
 				"concise": "Interrupts a spell. Interruption effect: inflicts Dazed condition (5...20 seconds). <gray>Hits for only 1...16 damage.</gray>"
 			},
+			"es": {
+				"name": "Conmoción",
+				"description": "Ataque con arco. Si la Conmoción impacta mientras el enemigo objetivo está lanzado un conjuro, éste se interrumpe y tu objetivo quedará aturdido durante 5...20 segundos. Este ataque hace sólo 1...16 de daño.",
+				"concise": "Ataque con arco. Interrumpe un conjuro. Efecto de la interrupción: causa aturdimiento (5...20 segundos). Solo hace 1...16 de daño."
+			},
 			"fr": {
+				"name": "Coup cérébral",
+				"description": "Attaque à l'arc. Si le coup cérébral atteint un ennemi qui est en train de lancer un sort, celui-ci est interrompu et l'ennemi est frappé de Stupeur pendant 5...20 secondes. Cette attaque n'inflige que 1...16 points de dégâts.",
+				"concise": "Attaque à l'arc. Interrompt un sort. Effet de l'interruption : inflige la Stupeur (5...20 secondes). Inflige seulement 1...16 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Coup cérébral",
 				"description": "Si le coup cérébral atteint un ennemi qui est en train de lancer un sort, celui-ci est interrompu et l'ennemi est frappé de Stupeur pendant 5...20 secondes. Cette attaque n'inflige que 1...16 point(s) de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Stordente",
+				"description": "Attacco con Arco. Se colpisce il nemico mentre sta compiendo una magia, lo interrompe e causa Stordimento per 5...20 secondo[i]. Questo attacco infligge solo 1...16 danno[i].",
+				"concise": "Attacco con Arco. Interrompe una magia. Effetto dell'interruzione: infligge Stordimento (5...20 secondo[i]). Provoca solo 1...16 danno[i]."
+			},
+			"jp": {
+				"name": "コンカッション ショット",
+				"description": "ボウ アタック： スペルを詠唱している敵に対して攻撃が成功すると、そのスペルを中断し、ターゲットは 5...20 秒間「放心」状態になります。ただし、この攻撃は 1...16 のダメージしか与えられません。",
+				"concise": "ボウ アタック： スペルを中断します。中断効果： 「放心」状態にします (5...20 秒)。1...16 のダメージしか与えません。"
+			},
+			"kr": {
+				"name": "현혹의 화살",
+				"description": "활 공격. 대상 지정: 적. 대상에게 명중할 때 대상이 마법을 외우고 있는 중이라면 마법을 방해받고, 5...20초 동안 현혹 상태가 됩니다. 하지만 1...16의 대미지만 줍니다.",
+				"concise": "활 공격. 마법을 방해합니다. 방해 효과: 현혹 상태에 빠뜨립니다.(5...20초) 1...16의 대미지만 줍니다."
+			},
+			"pl": {
+				"name": "Oszałamiający Strzał",
+				"description": "Strzał z łuku. Jeśli Oszałamiający Strzał trafi przeciwnika rzucającego czar, rzucanie czaru zostanie przerwane, a cel będzie oszołomiony przez 5...20 sek. Ten strzał zadaje jedynie 1...16 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Przerywa czar. Efekt przerwania: wywołuje przypadłość oszołomienie (5...20 sek.). Zadaje jedynie 1...16 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Concussion Shot",
+				"description": "Атака из лука. Если Concussion Shot попадает в цель в момент произнесения противником заклинания, это заклинание будет прервано, а противник будет ошеломлен на 5...20 сек. Эта атака наносит только 1...16 ед. урона.",
+				"concise": "Атака из лука. Прерывает заклинание. Эффект прерывания: вызывает ошеломление (5...20 сек). Наносит только 1...16 ед. урона."
+			},
+			"bork": {
+				"name": "Cuncoosseeun Shut",
+				"description": "Boo Aettaeck. Iff Cuncoosseeun Shut heets vheele-a taerget fue-a is caesteeng a spell, zee spell is interroopted und yuoor taerget is Daezed fur 5...20 secunds. Thees aettaeck deaels oonly 1...16 daemaege-a.",
+				"concise": "Boo Aettaeck. Interroopts a spell. Interroopshun iffffect: inffleects Daezed cundeeshun (5...20 secunds). Heets fur oonly 1...16 daemaege-a."
 			}
 		}
 	}

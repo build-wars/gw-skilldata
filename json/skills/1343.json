@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力幻影",
+				"description": "负面魔法。 在10秒之内，使目标敌人遭受1点「能量衰减」。如果这项「负面魔法」被提前驱散，目标敌人将失去1...5点能量值。",
+				"concise": "负面魔法。 在10秒之内，使目标敌人遭受1点「能量衰减」。如果这项「负面魔法」被提前驱散，目标敌人将失去1...5点能量值。"
+			},
+			"cht": {
+				"name": "幽靈氣息",
+				"description": "降咒魔法： 持續 10 秒，使目標敵人遭受能量衰減 1 。若此「降咒」被提早消除，則該目標失去 1...5 能量。",
+				"concise": "降咒魔法： 持續 10 秒，使目標敵人遭受能量衰減 1 。若此「降咒」被提早消除，則該目標失去 1...5 能量。"
+			},
 			"de": {
+				"name": "Äther-Phantom",
+				"description": "Verhexung. 10 Sekunden lang unterliegt der Gegner einer Energiedegeneration von -1. Wenn diese Verhexung vorzeitig entfernt wird, verliert dieser Gegner 1...5 Energiepunkt[e].",
+				"concise": "Verhexung. 10 Sekunden: Verursacht -1 Energiedegeneration. Lässt 1...5 Energiepunkt[e] verlieren, falls diese Verhexung vorzeitig endet."
+			},
+			"de-guildwiki": {
 				"name": "Äther-Phantom",
 				"description": "10 Sekunden lang unterliegt der Gegner einer Energiedegeneration von -1. Wenn diese Verhexung vorzeitig entfernt wird, verliert dieser Gegner 1...5 Energiepunkte.",
 				"concise": "10 Sekunden: Verursacht -1 Energiedegeneration. Lässt 1...5 Energiepunkte verlieren, falls diese Verhexung vorzeitig endet."
 			},
 			"en": {
 				"name": "Ether Phantom",
+				"description": "Hex Spell. For 10 seconds, target foe has -1 Energy degeneration. If this hex is removed prematurely, that foe loses 1...5 Energy.",
+				"concise": "Hex Spell. (10 seconds.) Causes -1 Energy degeneration. Causes 1...5 Energy loss if this hex ends early."
+			},
+			"en-gww": {
+				"name": "Ether Phantom",
 				"description": "For 10 seconds, target foe has -1 Energy degeneration. If this hex is removed prematurely, that foe loses 1...5 Energy.",
 				"concise": "(10 seconds.) Causes -1 Energy degeneration. Causes 1...5 Energy loss if this hex ends early."
 			},
+			"es": {
+				"name": "Fantasma de éter",
+				"description": "Conjuro con maleficio. Durante 10 segundos, el enemigo objetivo tiene una degeneración de energía de -1. Si este maleficio se elimina antes de tiempo, el enemigo pierde 1...5 de energía.",
+				"concise": "Conjuro con maleficio. (10 segundos). Causa -1 de degeneración de energía. Hace perder 1...5 de energía si este maleficio acaba antes."
+			},
 			"fr": {
+				"name": "Fantôme éthéré",
+				"description": "Maléfice. Pendant 10 secondes, la cible ennemie subit une dégénération d'énergie de -1. Si ce maléfice est supprimé prématurément, cet ennemi perd 1...5 points d'énergie.",
+				"concise": "Maléfice. (10 secondes.) Provoque une dégénération d'énergie de -1. Fait perdre 1...5 points d'énergie si ce maléfice prend fin prématurément."
+			},
+			"fr-gwiki": {
 				"name": "Fantôme éthéré",
 				"description": "Pendant 10 secondes, la cible ennemie subit une dégénération d'énergie de -1. Si ce maléfice est supprimé prématurément, cet ennemi perd 1...5 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fantasma Etereo",
+				"description": "Fattura. Per 10 secondi l'obiettivo nemico ha una Degenerazione dell'Energia di -1. Se questa fattura viene rimossa prematuramente, il nemico perde 1...5 Punto[i] Energia.",
+				"concise": "Fattura. (Secondi: 10) Degenerazione Energia: -1. Perdita Energia se questa fattura termina prematuramente: 1...5."
+			},
+			"jp": {
+				"name": "エーテル ファントム",
+				"description": "弱体化スペル： 10秒間、ターゲットした敵はエネルギーの自然回復力が1減少します。持続時間内にこの弱体化スペルが解除されると、その敵のエネルギーは 1...5 減少します。",
+				"concise": "弱体化スペル： (10秒) エネルギーの自然回復力が1減少します。この効果が中断されると、1...5 のエネルギーを失います。"
+			},
+			"kr": {
+				"name": "착각의 기운",
+				"description": "약화 마법. 대상 지정: 적. 10초 동안 대상의 에너지 재생이 1 감소합니다. 지속 시간이 끝나기 전에 마법이 무효화되면 대상은 1...5의 에너지를 잃습니다.",
+				"concise": "약화 마법. (10초) 에너지 재생을 1 감소시킵니다. 이 약화 마법이 일찍 끝나면 1...5의 에너지 손실을 유발합니다."
+			},
+			"pl": {
+				"name": "Eteryczny Fantom",
+				"description": "Klątwa (czar). Przez 10 sek. wybrany przeciwnik posiada degenerację energii -1. Jeśli klątwa zostanie zdjęta przed tym czasem, to przeciwnik straci 1...5 pkt. energii.",
+				"concise": "Klątwa (czar). (10 sek.) Powoduje degenerację energii -1. Powoduje utratę 1...5 pkt. energii, jeżeli klątwa przestanie przedwcześnie działać."
+			},
+			"ru": {
+				"name": "Ether Phantom",
+				"description": "Заклинание-проклятье. В течение 10 сек скорость восстановления энергии у выбранного противника уменьшается на 1 ед. Если это проклятье будет преждевременно снято, этот противник потеряет 1...5 ед. энергии.",
+				"concise": "Заклинание-проклятье. (10 сек) Уменьшает на 1 ед. скорость восстановления энергии. Приводит к потере 1...5 ед. энергии, если это проклятье закончится преждевременно."
+			},
+			"bork": {
+				"name": "Izeer Phuntum",
+				"description": "Hex Spell. Fur 10 secunds, taerget fue-a haes -1 Inergy degeneraeshun. Iff thees hex is remufed premaetoorely, thaet fue-a luses 1...5 Inergy.",
+				"concise": "Hex Spell. (10 secunds.) Cooses -1 Inergy degeneraeshun. Cooses 1...5 Inergy luss iff thees hex inds iaerly."
 			}
 		}
 	}

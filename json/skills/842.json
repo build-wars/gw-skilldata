@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "弧光闪电",
+				"description": "咒文。 对目标敌人造成 5...40 闪电伤害。如果该目标带有水系魔法「负面魔法」，则使接近该目标的一名敌人受到 15...85 闪电伤害。弧光闪电具有 25% 的护甲穿透效果。",
+				"concise": "咒文。 对目标敌人造成 5...40 闪电伤害。如果该目标带有水系魔法「负面魔法」，则使接近该目标的一名敌人受到 15...85 闪电伤害。弧光闪电具有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "弧光閃電",
+				"description": "咒文魔法： 對目標造成 5...40 閃電傷害。若目標身上有水系魔法降咒，對其附近一名敵人造成 15...85 閃電傷害，此技能有 25% 防禦穿透效果。",
+				"concise": "咒文魔法： 對目標造成 5...40 閃電傷害。若目標身上有水系魔法降咒，對其附近一名敵人造成 15...85 閃電傷害，此技能有 25% 防禦穿透效果。"
+			},
 			"de": {
+				"name": "Blitzbogen",
+				"description": "Zauber. Der Gegner erleidet 5...40 Punkte Blitzschaden. Wenn Ihr Überzaubert seid, erleidet der Gegner und bis zu zwei andere in der Nähe befindliche Feinde 15...85 Punkte Blitzschaden. Durch Blitzbogen zugefügter Schaden hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Richtet 5...40 Punkte Blitzschaden an. Verursacht 15...85 Punkte Blitzschaden bei zwei Gegnern in der Nähe, wenn Ihr Überzaubert seid. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Blitzbogen",
 				"description": "Der Gegner erleidet 5...40 Punkte Blitzschaden. Wenn Ihr Überzaubert seid, erleiden bis zu zwei andere in der Nähe befindliche Feinde 15...85 Punkte Blitzschaden. Durch Blitzbogen zugefügter Schaden hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 5...40 Punkte Blitzschaden an. Verursacht 15...85 Punkte Blitzschaden bei zwei Gegnern in der Nähe, wenn Ihr Überzaubert seid. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Arc Lightning",
+				"description": "Spell. Target foe is struck for 5...40 lightning damage. If you are Overcast, two foes near your target are struck for 15...85 lightning damage. Damage from Arc Lightning has 25% armor penetration.",
+				"concise": "Spell. Deals 5...40 lightning damage. Deals 15...85 lightning damage to two nearby foes if you are Overcast. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Arc Lightning",
 				"description": "Target foe is struck for 5...40 lightning damage. If you are Overcast, two foes near your target are struck for 15...85 lightning damage. Damage from Arc Lightning has 25% armor penetration.",
 				"concise": "Deals 5...40 lightning damage. Deals 15...85 lightning damage to two nearby foes if you are Overcast. 25% armor penetration."
 			},
+			"es": {
+				"name": "Arco de relámpagos",
+				"description": "Conjuro. El enemigo objetivo recibe 5...40 de daño de relámpago. Si estás sobrelanzando, dos enemigos próximos a tu objetivo reciben 15...85 de daño de relámpago. El daño de Arco de relámpagos tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Causa 5...40 de daño de relámpago. Hace 15...85 de daño de relámpago a dos enemigos cercanos si estás sobrelanzando. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Arc foudroyant",
+				"description": "Sort. La cible ennemie subit 5...40 points de dégâts de la foudre. Si vous êtes en état d'Afflux, deux ennemis prroches de l'ennemi visé subissent 15...85 points de dégâts de la foudre. Les dégâts infligés par l'Arc foudroyant ont 25% de pénétration d'armure.",
+				"concise": "Sort. Inflige 5...40 points de dégâts de la foudre. Inflige 15...85 points de dégâts de la foudre à deux ennemis proches si vous êtes en état d'Afflux. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Arc foudroyant",
 				"description": "La cible ennemie subit 5...50 points de dégâts de foudre. Si cet ennemi souffre d'un maléfice de la magie de l'eau, un ennemi près de votre cible subit 15...75 points de dégâts de la foudre. Cette compétence a 25% de pénétration d'armure.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fulmine ad Arco",
+				"description": "Magia. L'obiettivo nemico subisce 5...40 danni da fulmine. Se sei sotto Sforzo, due nemici vicino al tuo obiettivo vengono colpiti da 15...85 danni da fulmine. I danni del Fulmine ad Arco hanno il 25% di penetrazione dell'armatura.",
+				"concise": "Magia. Danni da fulmine inferti: 5...40. Infligge 15...85 danni da fulmine a due nemici nelle vicinanze se sei sotto Sforzo. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "アーク ライトニング",
+				"description": "スペル： ターゲットした敵に 5...40 のライトニング ダメージを与えます。プレイヤーが「疲労」状態の場合、ターゲットの周囲にいる2体の敵に 15...85 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： 5...40 のライトニング ダメージを与えます。プレイヤーが「疲労」状態の場合、周囲にいる2体の敵に 15...85 のライトニング ダメージを与えます。この攻撃には25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개의 호",
+				"description": "마법. 대상 지정: 적. 대상에게 5...40의 번개 대미지를 줍니다. 자신이 탈진 상태면 대상 부근의 적 2명에게 15...85의 번개 대미지를 줍니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 5...40의 번개 대미지를 줍니다. 자신이 탈진 상태면 대상 부근의 적 2명에게 15...85의 번개 대미지를 줍니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Błyskawica Łukowa",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...40 pkt. obrażeń od elektryczności. Jeśli jesteś pod wpływem Przemagicznienia, dwóch przeciwników w pobliżu twojego celu zostanie uderzonych przez piorun za 15...85 pkt. obrażeń od elektryczności. Obrażenia od Błyskawicy Łukowej mają 25% penetracji pancerza.",
+				"concise": "Czar. Zadaje 5...40 pkt. obrażeń od elektryczności. Zadaje 5...40 pkt. obrażeń od elektryczności dwóm przeciwnikom w pobliżu celu podczas Przemagicznienia. 25% penetracji pancerza."
+			},
+			"ru": {
+				"name": "Arc Lightning",
+				"description": "Заклинание. Выбранный противник получает 5...40 ед. урона силой молнии. Если вы утомлены, два противника поблизости от вашей цели получат 15...85 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Наносит 5...40 ед. урона силой молнии. Наносит 15...85 ед. урона силой молнии двум противникам поблизости, если вы утомлены. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Aerc Leeghtneeng",
+				"description": "Spell. Taerget fue-a is stroock fur 5...40 leeghtneeng daemaege-a. Iff yuoo aere-a Oofercaest, tvu fues neaer yuoor taerget aere-a stroock fur 15...85 leeghtneeng daemaege-a. Daemaege-a frum Aerc Leeghtneeng haes 25% aermur penetraeshun.",
+				"concise": "Spell. Deaels 5...40 leeghtneeng daemaege-a. Deaels 15...85 leeghtneeng daemaege-a tu tvu neaerby fues iff yuoo aere-a Oofercaest. 25% aermur penetraeshun."
 			}
 		}
 	}

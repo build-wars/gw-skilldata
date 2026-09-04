@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "症状扩散",
+				"description": "咒文。 将目标敌人身上所有的负面「症状」转移到邻近目标敌人的所有我方敌人身上。",
+				"concise": "咒文。 将目标敌人身上现有的负面「症状」转移给所有邻近他的我方敌人。"
+			},
+			"cht": {
+				"name": "病症擴散",
+				"description": "咒文魔法： 將目標敵人身上的所有「病症」及剩餘持續時間傳染給該目標鄰近的所有敵人。",
+				"concise": "咒文魔法： 將目標敵人身上的所有「病症」及剩餘持續時間傳染給該目標鄰近的所有敵人。"
+			},
 			"de": {
+				"name": "Epidemie",
+				"description": "Zauber. Verteilt alle negativen Zustände und ihre verbleibende Dauer vom Gegner auf alle ihn umstehenden Feinde.",
+				"concise": "Zauber. Zustände des Gegners übertragen sich auf umstehende Feinde."
+			},
+			"de-guildwiki": {
 				"name": "Epidemie",
 				"description": "Verteilt alle negativen Zustände und ihre verbleibende Dauer vom Gegner auf alle ihn umstehenden Feinde.",
 				"concise": "Zustände des Gegners übertragen sich auf umstehende Feinde."
 			},
 			"en": {
 				"name": "Epidemic",
+				"description": "Spell. Spread all negative conditions and their remaining durations from target foe to all foes adjacent to your target.",
+				"concise": "Spell. Conditions on target foe transfer to adjacent foes."
+			},
+			"en-gww": {
+				"name": "Epidemic",
 				"description": "Spread all negative conditions and their remaining durations from target foe to all foes adjacent to your target.",
 				"concise": "Conditions on target foe transfer to adjacent foes."
 			},
+			"es": {
+				"name": "Epidemia",
+				"description": "Conjuro. Propagas a todos los enemigos adyacentes a tu objetivo todas las condiciones negativas que éste tenga con el tiempo que les quede para que terminen.",
+				"concise": "Conjuro. Las condiciones del enemigo objetivo se transfieren a los adyacentes."
+			},
 			"fr": {
+				"name": "Epidémie",
+				"description": "Sort. Répand toutes les conditions négatives avec leur durée restante de la cible ennemie vers tous les ennemis qui lui sont adjacents.",
+				"concise": "Sort. Les conditions dont souffre l'ennemi visé sont transmises aux ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Epidémie",
 				"description": "Transfère toutes les conditions négatives et leur durée restante de la cible ennemie vers tous les ennemis qui lui sont adjacents.",
 				"concise": "Les conditions dont souffre l'ennemi visé sont transmises aux ennemis adjacents."
+			},
+			"it": {
+				"name": "Epidemia",
+				"description": "Magia. Diffondi tutte le condizioni negative, con le loro durate residue, dall'obiettivo nemico a tutti i nemici a lui adiacenti.",
+				"concise": "Magia. Le condizioni sull'obiettivo nemico sono trasferite a quelli adiacenti."
+			},
+			"jp": {
+				"name": "エピデミック",
+				"description": "スペル： ターゲットした敵にかけられているすべての「状態異常」とその残りの持続時間を、ターゲットに隣接するすべての敵に伝染させます。",
+				"concise": "スペル： ターゲットした敵にかけられている「状態異常」を隣接する敵に転移します。"
+			},
+			"kr": {
+				"name": "확산",
+				"description": "마법. 대상 지정: 적. 대상에게 걸린 모든 상태이상을 남은 지속 시간 만큼 대상에 인접한 모든 적에게 전염시킵니다.",
+				"concise": "마법. 대상에 걸린 모든 상태이상을 그에 인접한 적들에게 옮깁니다."
+			},
+			"pl": {
+				"name": "Epidemia",
+				"description": "Czar. Przenieś wszystkie przypadłości, wraz z ich pozostałymi czasami działania, z wybranego przeciwnika na wszystkich przeciwników bezpośrednio przy z nim.",
+				"concise": "Czar. Przypadłości wybranego przeciwnika przenoszą się na przeciwników bezpośrednio przy nim."
+			},
+			"ru": {
+				"name": "Epidemic",
+				"description": "Заклинание. Распространяет все негативные состояния и их оставшееся время действия с выбранного противника на всех окружающих его противников.",
+				"concise": "Заклинание. Состояния с выбранного противника переносятся на окружающих противников."
+			},
+			"bork": {
+				"name": "Ipeedemeec",
+				"description": "Spell. Spreaed aell negaeteefe-a cundeeshuns und zeeur remaeeeneeng dooraeshuns frum taerget fue-a tu aell fues aedjaecent tu yuoor taerget.",
+				"concise": "Spell. Cundeeshuns oon taerget fue-a trunsffer tu aedjaecent fues."
 			}
 		}
 	}

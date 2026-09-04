@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "模糊视线",
+				"description": "负面魔法。 使目标敌人及其邻近的敌人的视野变得模糊，命中率下降50%，效果持续4...10秒。",
+				"concise": "负面魔法。 使目标敌人及其邻近的敌人的视野变得模糊，命中率下降50%，效果持续4...10秒。"
+			},
+			"cht": {
+				"name": "模糊視線",
+				"description": "降咒魔法： 持續 4...10 秒，使目標敵人及其鄰近的敵人感受到模糊視線的效果，使他們有 50% 的攻擊失誤機率。",
+				"concise": "降咒魔法： 持續 4...10 秒，使目標敵人及其鄰近的敵人感受到模糊視線的效果，使他們有 50% 的攻擊失誤機率。"
+			},
 			"de": {
+				"name": "Verschwommene Sicht",
+				"description": "Verhexung. 4...10 Sekunde[n] lang werden der Gegner und alle umstehenden Feinde mit Verschwommener Sicht verhext. Solange diese Verhexung wirkt, besteht eine 50%ige Chance, dass die Angriffe dieser Gegner fehlschlagen.",
+				"concise": "Verhexung. Verhext den Gegner und umstehende Feinde (4...10 Sekunde[n]). Die Angriffe der Betroffenen gehen mit 50%iger Wahrscheinlichkeit daneben."
+			},
+			"de-guildwiki": {
 				"name": "Verschwommene Sicht",
 				"description": "4...10 Sekunden lang werden der Gegner und alle umstehenden Feinde mit Verschwommener Sicht verhext. Solange diese Verhexung wirkt, besteht eine 50%ige Chance, dass die Angriffe dieser Gegner fehlschlagen.",
 				"concise": "Verhext den Gegner umstehende Feinde (4...10 Sekunden). Die Angriffe der Betroffenen gehen mit 50%iger Wahrscheinlichkeit daneben."
 			},
 			"en": {
 				"name": "Blurred Vision",
+				"description": "Hex Spell. For 4...10 seconds, target foe and adjacent foes are hexed with Blurred Vision. While hexed, those foes have a 50% chance to miss with attacks.",
+				"concise": "Hex Spell. Also hexes foes adjacent to target (4...10 seconds). They have 50% chance to miss."
+			},
+			"en-gww": {
+				"name": "Blurred Vision",
 				"description": "For 4...10 seconds, target foe and adjacent foes are hexed with Blurred Vision. While hexed, those foes have a 50% chance to miss with attacks.",
 				"concise": "Also hexes foes adjacent to target (4...10 seconds). They have 50% chance to miss."
 			},
+			"es": {
+				"name": "Visión borrosa",
+				"description": "Conjuro con maleficio. Durante 4...10 segundos, el enemigo objetivo y todos los adyacentes recibirán el maleficio Visión borrosa. Mientras éste dure, tendrán un 50% de posibilidades de fallar en sus ataques.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (4...10 segundos). Tienes un 50% de posibilidades de fallar."
+			},
 			"fr": {
+				"name": "Vision troublée",
+				"description": "Maléfice. Pendant 4...10 secondes, la vision de l'ennemi visé et de ceux qui sont adjacents est troublée. Ils ont alors 50% de risques de manquer leurs attaques.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à la cible (4...10 secondes). Ils ont 50% de risques de manquer leurs attaques."
+			},
+			"fr-gwiki": {
 				"name": "Vision troublée",
 				"description": "Pendant 4...10 secondes, la vision de l'ennemi visé et de ceux qui sont adjacents est troublée, ils ont 50% de risques de manquer leurs attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vista Sfocata",
+				"description": "Fattura. Per 4...10 secondi, l'obiettivo nemico e tutti i nemici adiacenti sono colpiti dalla fattura Vista Sfocata e hanno il 50% di probabilità di fallire gli attacchi.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici adiacenti all'obiettivo (4...10 secondi). Probabilità di far loro mancare l'obiettivo: 50%."
+			},
+			"jp": {
+				"name": "ブラー ビジョン",
+				"description": "弱体化スペル： 4...10 秒間、ターゲットした敵および隣接する敵は、50%の確率で攻撃に失敗します。",
+				"concise": "弱体化スペル： (4...10 秒) ターゲットした敵および隣接する敵は、50%の確率で攻撃に失敗します。"
+			},
+			"kr": {
+				"name": "시야 교란",
+				"description": "약화 마법. 대상 지정: 적. 4...10초 동안 대상과 그에 인접한 적들은 시야가 흐려져 50%의 확률로 공격에 실패합니다.",
+				"concise": "약화 마법. (4...10초) 대상과 그에 인접한 적들은 50%의 확률로 공격에 실패합니다."
+			},
+			"pl": {
+				"name": "Nieostry Wzrok",
+				"description": "Klątwa (czar). Przez 4...10 sek. wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim są pod działaniem klątwy Nieostry Wzrok. Pod wpływem klątwy, ci przeciwnicy mają 50% szans na nietrafianie, kiedy atakują.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (4...10 sek.). Ci przeciwnicy posiadają 50% szans na nietrafianie."
+			},
+			"ru": {
+				"name": "Blurred Vision",
+				"description": "Заклинание-проклятье. В течение 4...10 сек выбранный противник и окружающие его противники находятся под воздействием Blurred Vision и получают 50%-й шанс промахнуться при атаке, пока на них наложено это проклятье.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников, окружающих цель (4...10 сек). Эти противники получают 50%-й шанс промахнуться."
+			},
+			"bork": {
+				"name": "Bloorred Feeseeun",
+				"description": "Hex Spell. Fur 4...10 secunds, taerget fue-a und aedjaecent fues aere-a hexed veet Bloorred Feeseeun. Vheele-a hexed, thuse-a fues haefe-a a 50% chunce-a tu meess veet aettaecks.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu taerget (4...10 secunds). Zeey haefe-a 50% chunce-a tu meess."
 			}
 		}
 	}

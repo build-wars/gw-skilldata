@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "锐锋箭",
+				"description": "弓术。 命中时，对敌人造成5...15点额外伤害。如果你打出致命一击，你将造成额外5...30点伤害。",
+				"concise": "弓术。 命中时，对敌人造成5...15点额外伤害。如果你打出致命一击，你将造成额外5...30点伤害。"
+			},
+			"cht": {
+				"name": "鋒銳之箭",
+				"description": "弓術攻擊技能： 命中時對目標造成 5...15 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5...30 傷害。",
+				"concise": "弓術攻擊技能： 命中時對目標造成 5...15 額外傷害，若你打出致命攻擊，則你對該目標額外再造成 5...30 傷害。"
+			},
 			"de": {
+				"name": "Scharfer Pfeil (PvP)",
+				"description": "Bogenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...15 Punkt[e] Schaden zu. Falls Ihr einen kritischen Treffer landet, fügt Ihr +5...30 Punkt[e] Schaden zu.",
+				"concise": "Bogenangriff. Richtet +5...15 Punkt[e] Schaden an. Richtet zusätzlich +5...30 Punkt[e] Schaden an, falls Ihr einen kritischen Treffer landet."
+			},
+			"de-guildwiki": {
 				"name": "Scharfer Pfeil (PvP)",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...15 Punkte Schaden zu. Falls Ihr einen kritischen Treffer landet, fügt Ihr zusätzlich +5...30 Punkte Schaden zu.",
 				"concise": "Richtet +5...15 Punkte Schaden an. Richtet zusätzlich +5...30 Punkte Schaden an, falls Ihr einen kritischen Treffer landet."
 			},
 			"en": {
 				"name": "Keen Arrow (PvP)",
+				"description": "Bow Attack. If this attack hits, you strike for +5...15 damage. If you land a critical hit, you deal an additional +5...30 damage.",
+				"concise": "Bow Attack. Deals +5...15 damage. Deals +5...30 more damage if you land a critical hit."
+			},
+			"en-gww": {
+				"name": "Keen Arrow (PvP)",
 				"description": "If this attack hits, you strike for +5...15 damage. If you land a critical hit, you deal an additional +5...30 damage.",
 				"concise": "Deals +5...15 damage. Deals +5...30 more damage if you land a critical hit."
 			},
+			"es": {
+				"name": "Flecha afilada (PvP)",
+				"description": "Ataque con arco. Este ataque hace +5...15 de daño si impacta. Si es además un golpe crítico, harás +5...30 de daño adicional.",
+				"concise": "Ataque con arco. Hace +5...15 de daño. Hace +5...30 de daño extra si das un golpe crítico."
+			},
 			"fr": {
+				"name": "Flèche vive (PvP)",
+				"description": "Attaque à l'arc. Cette attaque inflige +5...15 points de dégâts si elle réussit. Si vous causez un coup critique, vous infligez +5...30 points de dégâts supplémentaires.",
+				"concise": "Attaque à l'arc. Inflige +5...15 points de dégâts. Inflige +5...30 points de dégâts supplémentaires si vous faites un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Flèche vive (PvP)",
 				"description": "Cette attaque inflige +5...15 points de dégâts si elle réussit. Si vous causez un coup critique, vous infligez +5...30 points de dégâts supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Freccia Affilata (PvP)",
+				"description": "Attacco con Arco. Se va a segno, infligge +5...15 di danni. Se si tratta di un colpo critico, infligge +5...30 di danni aggiuntivi.",
+				"concise": "Attacco con Arco. Danni inferti: +5...15. Infligge +5...30 di danni se si tratta di un colpo critico."
+			},
+			"jp": {
+				"name": "キーン アロー (PvP)",
+				"description": "ボウ アタック： この攻撃が成功すると、5...15 の追加ダメージを与えます。クリティカルヒットであった場合、さらに 5...30 の追加ダメージを与えます。",
+				"concise": "ボウ アタック： 5...15 の追加ダメージを与えます。クリティカル ヒットが成功した場合、さらに 5...30 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "예리한 화살(대인전)",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...15의 대미지를 추가로 줍니다. 치명타를 터뜨리면 5...30의 대미지를 추가로 줍니다.",
+				"concise": "활 공격. 5...15의 대미지를 추가로 줍니다. 치명타를 터뜨리면 5...30의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Ostra Strzała (PvP)",
+				"description": "Strzał z łuku. Jeśli atak trafi, zadajesz +5...15 pkt. obrażeń. Jeśli jest to trafienie krytyczne, zdajesz dodatkowe +5...30 pkt. obrażeń.",
+				"concise": "Strzał z łuku. Zadaje +5...15 pkt. obrażeń. Zadaje +5...30 pkt. dodatkowych obrażeń, jeżeli wykonasz trafienie krytyczne."
+			},
+			"ru": {
+				"name": "Keen Arrow (PvP)",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, вы наносите дополнительно 5...15 ед. урона. Если выстрел завершается критическим попаданием, вы наносите дополнительно еще 5...30 ед. урона.",
+				"concise": "Атака из лука. Наносит дополнительно 5...15 ед. урона. Наносит дополнительно еще 5...30 ед. урона, если вы наносит критический удар."
+			},
+			"bork": {
+				"name": "Keee Aerroo (PfP)",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +5...15 daemaege-a. Iff yuoo lund a creeteecael heet, yuoo deael un aeddeeshunael +5...30 daemaege-a.",
+				"concise": "Boo Aettaeck. Deaels +5...15 daemaege-a. Deaels +5...30 mure-a daemaege-a iff yuoo lund a creeteecael heet."
 			}
 		}
 	}

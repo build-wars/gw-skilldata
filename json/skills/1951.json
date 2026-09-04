@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能源协调",
+				"description": "增益魔法。 在40...60秒内，使你的元素类属性提高1点。",
+				"concise": "增益魔法。 在40...60秒内，使你的元素类属性提高1点。"
+			},
+			"cht": {
+				"name": "能力調和",
+				"description": "加持魔法： 持續40...60秒，你的四種元素屬性+1。每當你施展魔法時，根據能量儲存等級，每10級獲得1能量，同時被治療消耗能量的100...300%體力。",
+				"concise": "加持魔法： 持續40...60秒，你的四種元素屬性+1。每當你施展魔法時，根據能量儲存等級，每10級獲得1能量，同時被治療消耗能量的100...300%體力。"
+			},
 			"de": {
+				"name": "Elementarlord",
+				"description": "Verzauberung. 40...60 Sekunde[n] lang erhalten Eure Elementarattribute einen Schub von 1. Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr 1 Energiepunkt pro 10 Ränge in Energiespeicherung und werdet um 100...300% der Energiekosten dieses Zaubers geheilt.",
+				"concise": "Verzauberung. (40...60 Sekunde[n].) Eure Elementarattribute erhalten einen Schub von 1. Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr 1 Energiepunkt pro 10 Ränge in Energiespeicherung und werdet um 100...300% der Energiekosten dieses Zaubers geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Elementarlord (Luxon)",
 				"description": "40...60 Sekunden lang erhalten Eure Elementarattribute einen Schub von 1. Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr 1 Energiepunkt pro jeweils 10 Ränge Energiespeicherung und werdet um 100...300% der Energiekosten dieses Zaubers geheilt.",
 				"concise": "(40...60 Sekunden.) Eure Elementarattribute erhalten einen Schub von 1. Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr 1 Energiepunkt pro 10 Ränge in Energiespeicherung und werdet um 100...300% der Energiekosten dieses Zaubers geheilt."
 			},
 			"en": {
+				"name": "Elemental Lord",
+				"description": "Enchantment Spell. For 40...60 seconds, your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 Energy for every 10 ranks of Energy Storage and are healed for 100...300% of the spell's Energy cost.",
+				"concise": "Enchantment Spell. (40...60 seconds.) Your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 Energy for every 10 ranks of Energy Storage and are healed for 100...300% of the spell's Energy cost."
+			},
+			"en-gww": {
 				"name": "Elemental Lord (Luxon)",
 				"description": "For 40...60 seconds, your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 Energy for every 10 ranks of Energy Storage and are healed for 100...300% of the spell's Energy cost.",
 				"concise": "(40...60 seconds.) Your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 energy for every 10 ranks of Energy Storage and are healed for 100...300% of the spell's Energy cost."
 			},
+			"es": {
+				"name": "Señor elemental",
+				"description": "Conjuro con encantamiento. Durante 40...60 segundos, tus atributos de los elementos aumentan en 1 punto. Cada vez que lances un conjuro, ganas 1 de energía por cada 10 rangos de almacenamiento de energía y además te curas el 100...300% del coste de energía del conjuro.",
+				"concise": "Conjuro con encantamiento. (40...60 segundos). Tus atributos de los elementos aumentan en 1. Cada vez que lances un conjuro, ganas 1 de energía por cada 10 rangos de almacenamiento de energía y además te curas el 100...300% del coste de energía del conjuro."
+			},
 			"fr": {
+				"name": "Seigneur élémentaire",
+				"description": "Enchantement. Pendant 40...60 secondes, toutes vos caractéristiques élémentaires augmentent de 1. Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie tous les 10 rangs de Conservation d'énergie et êtes soigné[f:\"soignée\"] de 100...300% du coût en énergie pour ce sort.",
+				"concise": "Enchantement. (40...60 secondes.) Toutes vos caractéristiques élémentaires augmentent de 1. Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie tous les 10 rangs de Conservation d'énergie et êtes soigné[f:\"soignée\"] de 100...300% du coût en énergie pour ce sort."
+			},
+			"fr-gwiki": {
 				"name": "Seigneur élémentaire (Luxon)",
 				"description": "Pendant 40...60 secondes, toutes vos caractéristiques élémentaires augmentent de 1. Chaque fois que vous lancez un sort, vous gagnez 1 point d'énergie tous les 10 rangs de Conservation d'énergie et êtes soigné de 100...300% du coût en énergie pour ce sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lord Elementale",
+				"description": "Incantesimo. Per 40...60 secondi i tuoi attributi elementali vengono incrementati di 1. Ogni volta che lanci una magia, ottieni 1 Punto Energia per ogni 10 gradi di Riserva di Energia e vieni curato[f:\"curata\"] di un 100...300% del costo energetico della magia.",
+				"concise": "Incantesimo. (Secondi: 40...60.) I tuoi attributi elementali vengono incrementati di 1. Ogni volta che lanci una magia, ottieni 1 Punto Energia per ogni 10 gradi di Riserva di Energia e vieni curato[f:\"curata\"] di un 100...300% del costo energetico della magia."
+			},
+			"jp": {
+				"name": "エレメンタル ロード",
+				"description": "強化スペル： 40...60 秒間、元素の特性レベルが1増加します。スペルを詠唱するたびに、「ストレージ」の特性10レベルごとに1のエネルギーを獲得し、消費エネルギーの 100...300% の体力が回復します。",
+				"concise": "強化スペル： (40...60 秒) 元素の特性レベルが1増加します。スペルを詠唱するたびに「ストレージ」の特性10レベルごとに1のエネルギーを獲得し、消費エネルギーの 100...300% の体力が回復します。"
+			},
+			"kr": {
+				"name": "엘리멘탈 지배자",
+				"description": "강화 마법. 40...60초 동안 엘리멘탈 특성 레벨이 1씩 올라갑니다. 마법을 시전할 때마다 에너지 축적 특성 10레벨당 1의 에너지를 얻고, 마법 소모 에너지의 100...300%만큼을 체력으로 회복합니다.",
+				"concise": "강화 마법. (40...60초) 엘리멘탈 특성 레벨이 1씩 올라갑니다. 마법을 시전할 때마다 에너지 축적 특성 10레벨당 1의 에너지를 얻고, 마법 소모 에너지의 100...300%만큼을 체력으로 회복합니다."
+			},
+			"pl": {
+				"name": "Władca Żywiołów",
+				"description": "Zaklęcie (czar). Przez 40...60 sek., twoje atrybuty związane z żywiołami są zwiększone o 1. Za każdym razem, kiedy rzucasz czar, otrzymujesz 1 punkt energii za każde 10 poziomów Zapasu Energii oraz jesteś uzdrawiany o 100...300% pkt. energii zużytych na ten czar.",
+				"concise": "Zaklęcie (czar). (40...60 sek.) Twoje atrybuty związane z żywiołami są zwiększone o 1. Za każdym razem, kiedy rzucasz czar, otrzymujesz 1 punkt energii za każde 10 poziomów Zapasu Energii oraz jesteś uzdrawiany o 100...300% pkt. energii zużytych na ten czar."
+			},
+			"ru": {
+				"name": "Elemental Lord",
+				"description": "Заклинание-чары. На 40...60 сек. уровни всех ваших талантов, связанных со Стихиями, увеличиваются на 1 ед. Каждый раз, когда вы произносите заклинание, вы получаете 1 ед. энергии за каждые 10 уровней таланта Energy Storage и исцеляетесь на 100...300% от количества энергии, затраченной на заклинание.",
+				"concise": "Заклинание-чары. (40...60 сек) Уровни всех ваших талантов, связанных со Стихиями, увеличиваются на 1 ед. Каждый раз, когда вы произносите заклинание, вы получаете 1 ед. энергии за каждые 10 уровней таланта Energy Storage и исцеляетесь на 100...300% от количества энергии, затраченной на заклинание."
+			},
+			"bork": {
+				"name": "Ilementael Lurd",
+				"description": "Inchuntment Spell. Fur 40...60 secunds, yuoor ilementael aettreebootes aere-a buusted by 1. Iaech teeme-a yuoo caest a spell, yuoo gaeeen 1 Inergy fur ifery 10 runks ooff Inergy Sturaege-a und aere-a heaeled fur 100...300% ooff zee spell's Inergy cust.",
+				"concise": "Inchuntment Spell. (40...60 secunds.) Yuoor ilementael aettreebootes aere-a buusted by 1. Iaech teeme-a yuoo caest a spell, yuoo gaeeen 1 Inergy fur ifery 10 runks ooff Inergy Sturaege-a und aere-a heaeled fur 100...300% ooff zee spell's Inergy cust."
 			}
 		}
 	}

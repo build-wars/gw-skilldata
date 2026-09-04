@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致命深寒",
+				"description": "咒文。 使目标受到 5...50点 冰冻伤害。如果目标的生命值高于 50%，则对该目标造成额外 5...50点 的暗影伤害。",
+				"concise": "咒文。 使目标受到 5...50点 冰冻伤害。如果目标的生命值高于 50%，则对该目标造成额外 5...50点 的暗影伤害。"
+			},
+			"cht": {
+				"name": "致命嚴寒",
+				"description": "咒文魔法： 使目標敵人受到 5...50 冰凍傷害。如果目標的體力高於 50% ，則對該目標額外造成 5...50 的暗影傷害。",
+				"concise": "咒文魔法： 使目標敵人受到 5...50 冰凍傷害。如果目標的體力高於 50% ，則對該目標額外造成 5...50 的暗影傷害。"
+			},
 			"de": {
+				"name": "Tödliche Kühlung",
+				"description": "Zauber. Der Gegner erleidet 5...50 Punkte Kälteschaden. Sind seine Lebenspunkte über 50%, verursacht Ihr zusätzlich 5...50 Punkt[e] Schattenschaden.",
+				"concise": "Zauber. Richtet 5...50 Punkt[e] Kälteschaden an. Richtet zusätzlich 5...50 Punkt[e] Schaden an, falls der Gegner mehr als 50% seiner maximalen Lebenspunkte hatte."
+			},
+			"de-guildwiki": {
 				"name": "Tödliche Kühlung",
 				"description": "Der Gegner erleidet 5...50 Punkte Kälteschaden. Sind seine Lebenspunkte über 50%, verursacht Ihr zusätzlich 5...50 Punkte Schattenschaden.",
 				"concise": "Richtet 5...50 Punkte Kälteschaden an. Richtet zusätzlich 5...50 Punkte Schaden an, falls der Gegner mehr als 50% seiner maximalen Lebenspunkte hatte."
 			},
 			"en": {
 				"name": "Deathly Chill",
+				"description": "Spell. Target foe is struck for 5...50 cold damage. If that foe's Health is above 50%, you deal an additional 5...50 shadow damage.",
+				"concise": "Spell. Deals 5...50 cold damage. Deals 5...50 more damage if target foe was above 50% Health."
+			},
+			"en-gww": {
+				"name": "Deathly Chill",
 				"description": "Target foe is struck for 5...50 cold damage. If that foe's Health is above 50%, you deal an additional 5...50 shadow damage.",
 				"concise": "Deals 5...50 cold damage. Deals 5...50 more damage if target foe was above 50% Health."
 			},
+			"es": {
+				"name": "Escalofrío de muerte",
+				"description": "Conjuro. El enemigo objetivo recibe 5...50 de daño frío. Si la salud de ese enemigo está por encima del 50%, le haces 5...50 de daño de sombra adicional.",
+				"concise": "Conjuro. Hace +5...50 de daño frío. Hace +5...50 de daño extra si el enemigo objetivo está por encima del 50% de salud."
+			},
 			"fr": {
+				"name": "Froideur mortelle",
+				"description": "Sort. L'ennemi subit 5...50 points de dégâts du froid. S'il a plus de 50% de ses points de vie, il subit 5...50 points de dégâts de l'ombre supplémentaires.",
+				"concise": "Sort. Inflige 5...50 points de dégâts du froid. Inflige 5...50 points de dégâts supplémentaires si l'ennemi visé a plus de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Froideur mortelle",
 				"description": "L'ennemi subit 5...50 points de dégâts du froid. S'il a plus de 50% de ses points de vie, il subit 5...50 points de dégâts de l'ombre supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Brivido Mortale",
+				"description": "Magia. L'obiettivo nemico subisce 5...50 danno[i] da freddo. Se la Salute del nemico è superiore al 50%, gli infliggi un danno da ombra aggiuntivo di 5...50.",
+				"concise": "Magia. Danni da freddo inferti: 5...50. Assesta 5...50 danno[i] in più se la Salute dell'obiettivo nemico era superiore al 50%."
+			},
+			"jp": {
+				"name": "デスリー チル",
+				"description": "スペル： ターゲットした敵に 5...50 のコールド ダメージを与えます。その敵の体力が上限の50%より多い場合、5...50 の追加暗黒ダメージを与えます。",
+				"concise": "スペル： 5...50 のコールド ダメージを与えます。ターゲットした敵の体力が上限の50%より多い場合、5...50 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "죽음의 한기",
+				"description": "마법. 대상 지정: 적. 대상에게 5...50의 냉기 대미지를 줍니다. 그 대상의 체력이 50%가 넘으면 5...50의 암흑 대미지를 추가로 줍니다.",
+				"concise": "마법. 5...50의 냉기 대미지를 줍니다. 대상의 체력이 50%가 넘으면 5...50의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Trupi Chłód",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...50 pkt. obrażeń od zimna. Jeżeli ten przeciwnik ma ponad 50% pkt. żywotności, zdajesz dodatkowe 5...50 pkt. obrażeń od cienia.",
+				"concise": "Czar. Zadaje 5...50 pkt. obrażeń od zimna. Zadaje 5...50 pkt. dodatkowych obrażeń, jeżeli wybrany przeciwnik ma powyżej 50% żywotności."
+			},
+			"ru": {
+				"name": "Deathly Chill",
+				"description": "Заклинание. Выбранный противник получает 5...50 ед. урона силой холода. Если уровень здоровья этого противника выше 50%, вы наносите ему дополнительно 5...50 ед. урона силой тьмы.",
+				"concise": "Заклинание. Наносит 5...50 ед. урона силой холода. Наносит дополнительно 5...50 ед. урона, если у выбранного противника было больше 50% здоровья."
+			},
+			"bork": {
+				"name": "Deaethly Cheell",
+				"description": "Spell. Taerget fue-a is stroock fur 5...50 culd daemaege-a. Iff thaet fue-a's Heaelt is aebufe-a 50%, yuoo deael un aeddeeshunael 5...50 shaedoo daemaege-a.",
+				"concise": "Spell. Deaels 5...50 culd daemaege-a. Deaels 5...50 mure-a daemaege-a iff taerget fue-a vaes aebufe-a 50% Heaelt."
 			}
 		}
 	}

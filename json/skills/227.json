@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "微光印记",
+				"description": "精英负面魔法。 每当目标敌人受到闪电伤害时，目标及其所有邻近的敌人将会遭受「盲目」症状 5秒，技能持续 10秒。",
+				"concise": "精英负面魔法。 每当目标敌人受到闪电伤害时，目标及其所有邻近的敌人将会遭受「盲目」症状 5秒，技能持续 10秒。"
+			},
+			"cht": {
+				"name": "閃光印記",
+				"description": "精英降咒魔法： 持續 10 秒，對目標敵人每秒造成 5...25 傷害，若你對該目標使用技能，則閃光印記效果提前終止。",
+				"concise": "精英降咒魔法： 持續 10 秒，對目標敵人每秒造成 5...25 傷害，若你對該目標使用技能，則閃光印記效果提前終止。"
+			},
 			"de": {
+				"name": "Schimmerndes Zeichen",
+				"description": "Elite-Verhexung. 10 Sekunde[n] lang erleiden der Feind und alle umstehenden Gegner pro Sekunde 5...25 Punkt[e] Schaden. Gegner, die Angriffsfertigkeiten verwenden, werden 3 Sekunde[n] lang geblendet. Diese Verhexung endet, wenn Ihr eine Fertigkeit mit diesem Gegner als Ziel verwendet.",
+				"concise": "Elite-Verhexung. (10 Sekunde[n].) Richtet beim Gegner und umstehenden Feinden pro Sekunde 5...25 Punkt[e] Schaden an. Blendet Gegner, die Angriffsfertigkeiten verwenden. Endet, wenn Ihr eine Fertigkeit mit diesem Gegner als Ziel verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Schimmerndes Zeichen",
 				"description": "10 Sekunden lang wird der Gegner mit Schimmerndes Zeichen verhext. Er und alle umstehenden Feinde erleiden pro Sekunde 5...25 Punkte Schaden. Feinde, die sich in der Wirk- oder Nachwirkzeit von einer Angriffsfertigkeit befinden, während sie von Schimmerndes Zeichen Schaden erleiden, werden 3 Sekunden lang geblendet. Diese Verhexung endet, wenn Ihr eine Fertigkeit mit diesem Gegner als Ziel verwendet.",
 				"concise": "10 Sekunden: Richtet beim Gegner und umstehenden Feinden pro Sekunde 5...25 Punkte Schaden an. Blendet Gegner, die Angriffsfertigkeiten verwenden. <gray>Endet, wenn Ihr eine Fertigkeit mit diesem Gegner als Ziel verwendet.</gray>"
 			},
 			"en": {
 				"name": "Glimmering Mark",
+				"description": "Elite Hex Spell. For 10 seconds, target foe and all foes adjacent to your target take 5...25 damage each second. Foes using attack skills are Blinded for 3 seconds. This hex ends if you use a skill that targets this foe.",
+				"concise": "Elite Hex Spell. (10 seconds.) Deals 5...25 damage each second to target and adjacent foes. Inflicts Blindness on foes using attack skills. Ends if you use a skill that targets this foe."
+			},
+			"en-gww": {
+				"name": "Glimmering Mark",
 				"description": "For 10 seconds, target foe and all foes adjacent to your target take 5...25 damage each second. Foes using attack skills are Blinded for 3 seconds. This hex ends if you use a skill that targets this foe.",
 				"concise": "(10 seconds.) Deals 5...25 damage each second to target and adjacent foes. Inflicts Blindness <sic/> on foes using attack skills. <gray>Ends if you use a skill that targets this foe.</gray>"
 			},
+			"es": {
+				"name": "Marca atenuada",
+				"description": "Conjuro con maleficio de élite. Durante 10 segundos, el enemigo objetivo y todos los enemigos adyacentes reciben 5...25 de daño por segundo. Los enemigos que estén utilizando habilidades de ataque quedan cegados durante 3 segundos. Este maleficio acaba si usas una habilidad que apunte a este objetivo.",
+				"concise": "Conjuro con maleficio de élite. (10 segundos). Hace 5...25 de daño cada segundo al enemigo objetivo y los adyacentes. Causa ceguera a los enemigos que estén utilizando habilidades de ataque. Acaba si usas una habilidad que apunte a este objetivo."
+			},
 			"fr": {
+				"name": "Marque éblouissante",
+				"description": "Maléfice d'élite. Pendant 10 secondes, la cible et tous les ennemis adjacents à subissent 5...25 points de dégâts par seconde. Les ennemis utilisant des compétences offensives sont aveuglés pendant 3 secondes. Ce maléfice prend fin si vous utilisez une compétence qui vise cet ennemi.",
+				"concise": "Maléfice d'élite. (10 secondes.) Inflige 5...25 points de dégâts par seconde à la cible et aux ennemis adjacents. Aveugle les ennemis utilisant des compétences d'attaque. Prend fin si vous utilisez une compétence qui vise cet ennemi."
+			},
+			"fr-gwiki": {
 				"name": "Marque éblouissante",
 				"description": "Pendant 10 secondes, la cible ennemie subit 5...25 points de dégâts par seconde. Ce maléfice prend fin si vous lancez un sort qui cible cet ennemi.",
 				"concise": "(10 secondes.) Inflige 5...25 points de dégâts par seconde. <gray>Prend fin si vous lancez un sort qui cible cet ennemi.</gray>"
+			},
+			"it": {
+				"name": "Segno Scintillante",
+				"description": "Fattura d'Élite. Per 10 secondi, l'obiettivo nemico e tutti i nemici a lui adiacenti subiscono 5...25 danni al secondo. I nemici che stanno utilizzando abilità d'attacco vengono accecati per 3 secondi. Questa fattura termina se utilizzi un'abilità che abbia come bersaglio tale nemico.",
+				"concise": "Fattura d'Élite. (Secondi: 10.) Danni al secondo inferti all'obiettivo e ai nemici adiacenti: 5...25. Infligge Accecamento ai nemici che stanno utilizzando abilità d'attacco. Questa fattura termina se utilizzi un'abilità che abbia come bersaglio tale nemico."
+			},
+			"jp": {
+				"name": "グリマー マーク",
+				"description": "エリート弱体化スペル： 10 秒間、ターゲットした敵および隣接するすべての敵に毎秒 5...25 のダメージを与えます。アタック スキルを使用中の敵は 3 秒間「盲目」状態になります。プレイヤーがこの敵に対してスキルを使用すると、この効果は消失します。",
+				"concise": "エリート弱体化スペル： (10 秒) ターゲットした敵および隣接する敵に毎秒 5...25 のダメージを与えます。アタック スキルを使用している敵は「盲目」状態になります。この敵をターゲットしてスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "강렬한 섬광",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 10초 동안 대상과 그에 인접한 모든 적은 매초 5...25의 대미지를 입고, 공격 중이던 적은 3초 동안 실명 상태가 됩니다. 대상에게 다시 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "엘리트 약화 마법. (10초) 대상과 그에 인접한 적들에게 매초 5...25의 대미지를 주고, 공격 중이던 적을 실명시킵니다.(3초) 대상을 상대로 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Migoczące Piętno",
+				"description": "Elitarna klątwa (czar). Przez 10 sek., wskazany wróg otrzymuje co sekundę 5...25 pkt. obrażeń. Klątwa ta kończy się, kiedy użyjesz innej umiejętności na tym celu.",
+				"concise": "Elitarna klątwa (czar). (10 sek.) Co sekundę zadaje 5...25 pkt. obrażeń. Przestaje działać, jeśli użyjesz umiejętności, której celem jest ten przeciwnik."
+			},
+			"ru": {
+				"name": "Glimmering Mark",
+				"description": "Элитное заклинание-проклятье. В течение 10 сек выбранный противник и все окружающие противники получают 5...25 ед. урона каждую секунду. Противники, использующие атакующие умения, будут ослеплены на 3 сек. Действие этого проклятья заканчивается, если вы используете умение, направленное на этого противника.",
+				"concise": "Элитное заклинание-проклятье. (10 сек) Наносит 5...25 ед. урона каждую секунду цели и окружающим противникам. Вызывает слепоту (3 сек) у противников, использующих атакующие умения. Заканчивается, если вы используете умение, направленное на этого противника."
+			},
+			"bork": {
+				"name": "Gleemmereeng Maerk",
+				"description": "Ileete-a Hex Spell. Fur 10 secunds, taerget fue-a und aell fues aedjaecent tu yuoor taerget taeke-a 5...25 daemaege-a iaech secund. Fues useeng aettaeck skeells aere-a Bleended fur 3 secunds. Thees hex inds iff yuoo use-a a skeell thaet taergets thees fue-a.",
+				"concise": "Ileete-a Hex Spell. (10 secunds.) Deaels 5...25 daemaege-a iaech secund tu taerget und aedjaecent fues. Inffleects Bleendness oon fues useeng aettaeck skeells. Inds iff yuoo use-a a skeell thaet taergets thees fue-a."
 			}
 		}
 	}

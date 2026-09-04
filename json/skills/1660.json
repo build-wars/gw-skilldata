@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "沉默之池",
+				"description": "法池。 消耗目标尸体或牺牲66%生命值创造一个静默之井，持续10...30秒。范围内的敌军无法使用战吼或颂歌，并承受-1...4生命衰减。",
+				"concise": "法池。 （10...30秒）此泉内的敌军无法使用战吼或颂歌，并且获得-1...4生命衰减。需利用新鲜的尸体或牺牲66%生命值。"
+			},
+			"cht": {
+				"name": "靜寂之池",
+				"description": "湧泉魔法： Exploit target corpse or sacrifice 66% health to create a Well of Silence for 10...30 seconds. Foes within the well cannot use shouts or chants and suffer -1...4 Health degeneration.",
+				"concise": "湧泉魔法： (10...30 seconds.) Foes in this well cannot use shouts and chants and have -1...4 Health degeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen der Stille",
+				"description": "Brunnenzauber. Nutzt die anvisierte Leiche oder opfert 66 % Eurer Lebenspunkte, um für 10...30 Sekunden einen Brunnen der Stille zu erzeugen. Gegner innerhalb des Brunnens können keine Kampfschreie oder Gesänge verwenden und erleiden -1...4 Lebenspunktdegeneration.",
+				"concise": "Brunnenzauber. (10...30 Sekunden). Gegner in diesem Brunnen können keine Kampfschreie oder Gesänge verwenden und haben -1...4 Lebenspunktregeneration. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen der Stille",
 				"description": "Der nächste Kadaver wird an seiner Position 10...30 Sekunden lang in einen Brunnen der Stille verwandelt. Feinde innerhalb des Brunnens können keine Schreie oder Anfeuerungsrufe verwenden und leiden unter einer Lebenspunktdegeneration von -1...4.",
 				"concise": "(10...30 Sekunden.) Feinde innerhalb des Brunnen können keine Schreie oder Anfeuerungsrufe verwenden und leiden unter einer Lebenspunktdegeneration von -1...4. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Silence",
+				"description": "Well Spell. Exploit target corpse or sacrifice 66% health to create a Well of Silence for 10...30 seconds. Foes within the well cannot use shouts or chants and suffer -1...4 Health degeneration.",
+				"concise": "Well Spell. (10...30 seconds.) Foes in this well cannot use shouts and chants and have -1...4 Health degeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Silence",
 				"description": "Exploit target corpse or sacrifice 66% health to create a Well of Silence for 10...30 seconds. Foes within the well cannot use shouts or chants and suffer -1...4 Health degeneration.",
 				"concise": "(10...30 seconds.) Foes in this well cannot use shouts and chants and have -1...4 Health degeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 			},
+			"es": {
+				"name": "Pozo de silencio",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de silencio durante 10...30 segundos. Los enemigos en este pozo no pueden usar gritos ni cánticos, y sufren -1...4 de degeneración de salud.",
+				"concise": "Conjuro de pozo. (10...30 segundos). Los enemigos en este pozo no pueden usar gritos ni cánticos, y sufren -1...4 de degeneración de salud. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits du silence",
+				"description": "Sort de puits. Exploitez le cadavre visé ou sacrifiez 66% de santé pour créer un Puits du silence pendant 10...30 secondes. Les ennemis se trouvant dans ce puits ne peuvent pas utiliser de cris ou de chants et subissent une dégénération de santé de -1...4.",
+				"concise": "Sort de puits. (10...30 secondes.) Les ennemis présents dans ce puits ne peuvent pas utiliser de cris ni de chants et subissent -1...4 points de dégénération de santé. Exploite un cadavre frais ou sacrifie 66% de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits du silence",
 				"description": "Utilisez le cadavre visé pour créer un ''Puits du silence'' pendant 10...30 secondes. Les ennemis se trouvant dans le périmètre du ''Puits'' ne peuvent pas utiliser de cris ou de chants et subissent une dégénération de santé de -1...4.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo del Silenzio",
+				"description": "Pozzo. Sfrutta il cadavere bersagliato o sacrifica il 66% della tua salute per creare un Pozzo del Silenzio per 10...30 secondo/i. I nemici all'interno dell'area del pozzo non possono usare urla o canti e soffrono -1...4 degenerazione della salute.",
+				"concise": "Pozzo. (10...30 secondo/i). I nemici in questo Pozzo non possono usare urla e canti e hanno -1...4 degenerazione della Salute. Utilizza un cadavere fresco o sacrifica il 66% della Salute."
+			},
+			"jp": {
+				"name": "サイレンス ウェル",
+				"description": "ウェル スペル： ターゲットの死体を使用するか体力の66%を犠牲にして、沈黙の泉を作ります。10...30秒間、この中にいる敵はシャウトやチャントを使用できず、エネルギーの自然回復力が1...4減少します。",
+				"concise": "ウェル スペル： （10...30秒）この泉にいる敵はシャウトやチャントを使用できず、-1...4の体力減少を受けます。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "침묵의 늪",
+				"description": "늪. 대상 시체를 이용하거나 체력을 66% 희생하여 10...30초 동안 침묵의 늪을 만듭니다. 침묵의 늪 효과 범위 내에 있는 적들은 고함이나 영창 스킬을 사용할 수 없고, 체력 재생이 1...4 감소합니다.",
+				"concise": "늪. (10...30초) 침묵의 늪 효과 범위 내에 있는 적들은 고함이나 영창 스킬을 사용할 수 없고, 체력 재생이 1...4 감소합니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Milczenia",
+				"description": "Czar studni. Wykorzystaj wybrane zwłoki lub poświęć 66% swojej żywotności, by na 10...30 sek. utworzyć Studnię Milczenia. Przeciwnicy w zasięgu działania studni nie mogą używać okrzyków ani pieśni i otrzymują -1...4 degeneracji żywotności.",
+				"concise": "Czar studni. (10...30 sek.). Przeciwnicy w tej studni nie mogą korzystać z okrzyków i pieśni oraz mają degenerację żywotności -1...4. Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Silence",
+				"description": "Заклинание-источник. Использует выбранный труп или жертвует 66% здоровья, чтобы на 10...30 сек. создать Well of Silence. Враги в его пределах не могут использовать крики и песнопения, а их здоровье снижается на 1...4.",
+				"concise": "Заклинание-источник. (10...30 сек.) Враги в области не могут использовать крики и песнопения и получают -1...4 к снижению здоровья. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Seelence-a",
+				"description": "Vell Spell. Ixplueet taerget curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Seelence-a fur 10...30 secunds. Fues veetheen zee vell cunnut use-a shuoots oor chunts und sooffffer -1...4 Heaelt degeneraeshun.",
+				"concise": "Vell Spell. (10...30 secunds.) Fues in thees vell cunnut use-a shuoots und chunts und haefe-a -1...4 Heaelt degeneraeshun. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

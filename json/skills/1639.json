@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "刮骨",
+				"description": "增益魔法。 在30秒之内，你下1...10次所使用的攻击技能，每一次会使你移除自身的一种「症状」。",
+				"concise": "增益魔法。 在30秒之内，你下1...10次所使用的攻击技能，每一次会使你移除自身的一种「症状」。"
+			},
+			"cht": {
+				"name": "暗殺者療法",
+				"description": "加持魔法： 持續 30 秒，使你接下來 1...10 次使用攻擊技能時，為你消去一項「病症」。",
+				"concise": "加持魔法： 持續 30 秒，使你接下來 1...10 次使用攻擊技能時，為你消去一項「病症」。"
+			},
 			"de": {
+				"name": "Mittel des Assassinen",
+				"description": "Verzauberung. Während der nächsten 30 Sekunde[n] entfernen Eure nächsten 1...10 Angriffsfertigkeiten einen Zustand.",
+				"concise": "Verzauberung. 30 Sekunde[n]: Eure nächsten 1...10 Angriffsfertigkeit[en] entfernen je einen Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Mittel des Assassinen",
 				"description": "Während der nächsten 30 Sekunden entfernen Eure nächsten 1...10 Angriffsfertigkeiten einen Zustand.",
 				"concise": "30 Sekunden: Eure nächsten 1...10 Angriffsfertigkeiten entfernen je einen Zustand."
 			},
 			"en": {
 				"name": "Assassin's Remedy",
+				"description": "Enchantment Spell. For 30 seconds, the next 1...10 attack skills you use remove one condition.",
+				"concise": "Enchantment Spell. (30 seconds.) Your next 1...10 attack skills each remove one condition."
+			},
+			"en-gww": {
+				"name": "Assassin's Remedy",
 				"description": "For 30 seconds, the next 1...10 attack skills you use remove one condition.",
 				"concise": "(30 seconds.) Your next 1...10 attack skills each remove one condition."
 			},
+			"es": {
+				"name": "Remedio del Asesino",
+				"description": "Conjuro con encantamiento. Durante 30 segundos, tus siguientes habilidades de ataque (1...10) eliminarán una condición.",
+				"concise": "Conjuro con encantamiento. (30 segundos). Tus siguientes habilidades de ataque (1...10) eliminan una condición cada una."
+			},
 			"fr": {
+				"name": "Remède de l'Assassin",
+				"description": "Enchantement. Pendant 30 secondes, les prochaines compétences d'attaque (au nombre de 1...10) que vous utilisez suppriment une condition.",
+				"concise": "Enchantement. (30 secondes.) Vos compétences d'attaque suivantes( 1...10 compétences d'attaque) suppriment une condition chacune."
+			},
+			"fr-gwiki": {
 				"name": "Remède de l'Assassin",
 				"description": "Pendant 30 secondes, les prochaines compétences d'attaque (au nombre de 1...10) que vous utilisez suppriment une condition.",
 				"concise": "(30 secondes.) Vos compétences d'attaque suivantes (1...10) suppriment une condition chacune."
+			},
+			"it": {
+				"name": "Rimedio dell'Assassino",
+				"description": "Incantesimo. Per 30 secondo[i], con [il] 1...10 [F]abilità d'attacco successiva[e] usata[e] rimuovi una condizione.",
+				"concise": "Incantesimo. (Secondi: 30) 1...10 abilità d'attacco che usi in seguito rimuovono una condizione."
+			},
+			"jp": {
+				"name": "アサシン レメディ",
+				"description": "強化スペル： 30 秒間、次に使用する 1...10 個のアタック スキルは、それぞれかけられている「状態異常」を1個解除します。",
+				"concise": "強化スペル： (30 秒) 次に使用する 1...10 個のアタック スキルは、それぞれかけられている「状態異常」を1個解除します。"
+			},
+			"kr": {
+				"name": "암살자의 치료",
+				"description": "강화 마법. 대상 지정: 없음. 30초 동안 사용하는 1...10번의 공격 스킬은 자신에게 걸린 상태이상 하나씩 무효화시킵니다.",
+				"concise": "강화 마법. (30초) 공격 스킬이 자신에게 걸린 상태이상 하나씩 무효화시킵니다. 1...10번 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Remedium Zabójcy",
+				"description": "Zaklęcie (czar). Przez 30 sek. kolejne użyte przez ciebie umiejętności związane z atakiem (w liczbie 1...10) usuwają po jednej przypadłości.",
+				"concise": "Zaklęcie (czar). (30 sek.) Twoje następne umiejętności związane z atakami w liczbie 1...10 usuwają po jednej przypadłości."
+			},
+			"ru": {
+				"name": "Assassin's Remedy",
+				"description": "Заклинание-чары. В течение 30 сек ваши следующие атакующие умения (1...10), которые вы используете, будут снимать с вас одно состояние.",
+				"concise": "Заклинание-чары. (30 сек) Следующие ваши атакующие умения (1...10) снимут с вас по одному состоянию."
+			},
+			"bork": {
+				"name": "Aessaesseen's Remedy",
+				"description": "Inchuntment Spell. Fur 30 secunds, zee next 1...10 aettaeck skeells yuoo use-a remufe-a oone-a cundeeshun.",
+				"concise": "Inchuntment Spell. (30 secunds.) Yuoor next 1...10 aettaeck skeells iaech remufe-a oone-a cundeeshun."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "纹章祷文",
+				"description": "姿态。 For 10...40 seconds, you have +3 armor for each signet you have equipped. Whenever you use a signet, you gain 5...60 Health.",
+				"concise": "姿态。 (10...40 seconds.) You have +3 armor for each signet. You gain 5...60 Health each time you use a signet."
+			},
+			"cht": {
+				"name": "紋章頌歌",
+				"description": "態勢： 在10...40秒之内，你每装备一个纹章，获得+3防具，每当你使用一个纹章时，获得 5...60生命值。",
+				"concise": "態勢： （10...40 秒）每装备一个纹章，获得+3防具。每次使用纹章时，获得5...60生命值。"
+			},
 			"de": {
+				"name": "Mantra der Siegel (PvP",
+				"description": "Haltung. Für 10...40 Sekunde[n] habt Ihr für jedes ausgerüstete Siegel +3 Rüstung. Jedes Mal, wenn Ihr ein Siegel verwendet, erhaltet Ihr 5...60 Lebenspunkte.",
+				"concise": "Haltung. (10...40 Sekunde[n].) Für jedes Siegel habt Ihr +3 Rüstung. Ihr erhaltet jedes Mal 5...60 Lebenspunkte, wenn Ihr ein Siegel verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Mantra der Siegel (PvP)",
 				"description": "10...40 Sekunden lang habt Ihr +3 Rüstung für jedes ausgerüstete Siegel. Wenn Ihr ein Siegel einsetzt, heilt Ihr Euch um 5...60 Lebenspunkte.",
 				"concise": "(10...40 Sekunden.) Ihr habt +3 Rüstung für jedes Siegel. Ihr heilt Euch jedes Mal, wenn Ihr ein Siegel einsetzt, um 5...60 Lebenspunkte."
 			},
 			"en": {
 				"name": "Mantra of Signets (PvP)",
+				"description": "Stance. For 10...40 seconds, you have +3 armor for each signet you have equipped. Whenever you use a signet, you gain 5...60 Health.",
+				"concise": "Stance. (10...40 seconds.) You have +3 armor for each signet. You gain 5...60 Health each time you use a signet."
+			},
+			"en-gww": {
+				"name": "Mantra of Signets (PvP)",
 				"description": "For 10...40 seconds, you have +3 armor for each signet you have equipped. Whenever you use a signet, you gain 5...60 Health.",
 				"concise": "(10...40 seconds.) You have +3 armor for each signet. You gain 5...60 health each time you use a signet."
 			},
+			"es": {
+				"name": "Mantra de sellos (PvP)",
+				"description": "Actitud. Durante 10...40 segundos, tienes +3 de armadura por cada sello que lleves. Cada vez que utilizas un sello, ganas 5...60 de salud.",
+				"concise": "Actitud. (10...40 segundos). Tienes +3 de armadura por cada sello. Ganas 5...60 de salud cada vez que utilizas un sello."
+			},
 			"fr": {
+				"name": "Mantra des sceaux (PvP)",
+				"description": "Pose de combat. Pendant 10...40 secondes, vous bénéficiez de +3 d'armure par sceau équipé. Quand vous utilisez un sceau, vous gagnez 5...60 points de vie.",
+				"concise": "Pose de combat. (10...40 secondes.) Vous bénéficiez de +3 d'armure par sceau. Quand vous utilisez un sceau, vous gagnez 5...60 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Mantra des sceaux (PvP)",
 				"description": "Pendant 10...40 secondes, vous bénéficiez d'un bonus d'armure de +3 pour chaque sceau dont vous êtes équipé. Chaque fois que vous utilisez un sceau, vous gagnez 5...60 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mantra dei Sigilli (PvP)",
+				"description": "Posizione. Per 10...40 secondo/i, hai +3 di armatura per ogni sigillo equipaggiato. Ogni volta che usi un sigillo, ottieni 5...60 Salute.",
+				"concise": "Posizione. (10...40 secondo/i). Hai +3 di armatura per ogni sigillo. Ottieni 5...60 Salute ogni volta che usi un sigillo."
+			},
+			"jp": {
+				"name": "シグネット マントラ (PvP)",
+				"description": "スタンス： 装備しているシグネット1つにつき、10...40秒間にわたって防御力が3増加する。シグネットを使用するたびに体力が5...60回復します。",
+				"concise": "スタンス： （10...40秒）シグネット1つにつき防御力が3増加する。シグネットを使用するたびに体力が5...60回復します。"
+			},
+			"kr": {
+				"name": "인장의 권능(대인전)",
+				"description": "자세. 대상 지정: 없음. 10...40초 동안 등록된 인장 스킬 하나당 방어력이 3만큼 증가하고, 인장 스킬을 사용할 때마다 5...60의 체력을 얻습니다.",
+				"concise": "자세. (10...40초) 등록된 인장 스킬 하나당 방어력이 3만큼 증가하고, 인장 스킬을 사용할 때마다 5...60의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "Mantra Sygnetów (PvP)",
+				"description": "Postawa. Przez 10...40 sek., otrzymujesz +3 do pancerza za każdy sygnet na wyposażeniu. Za każdym razem, gdy użyjesz jakiegoś sygnetu, otrzymujesz 5...60 żywotności.",
+				"concise": "Postawa. (10...40 sek.) Otrzymujesz +3 do pancerza za każdy sygnet na wyposażeniu. Za każdym razem, gdy użyjesz jakiegoś sygnetu, otrzymujesz 5...60 żywotności."
+			},
+			"ru": {
+				"name": "Mantra of Signets (PvP)",
+				"description": "Стойка. На 10...40 сек. вы получаете +3 к броне за каждую используемую печать. Когда вы применяете печать, ваше здоровье увеличивается на 5...60.",
+				"concise": "Стойка. (10...40 сек.) У вас +3 брони за каждую печать. Ваше здоровье увеличивается на 5...60 при каждом применении печати."
+			},
+			"bork": {
+				"name": "Muntra ooff Seegnets (PfP)",
+				"description": "Stunce-a. Fur 10...40 secunds, yuoo haefe-a +3 aermur fur iaech seegnet yuoo haefe-a iqooeepped. Vhenefer yuoo use-a a seegnet, yuoo gaeeen 5...60 Heaelt.",
+				"concise": "Stunce-a. (10...40 secunds.) Yuoo haefe-a +3 aermur fur iaech seegnet. Yuoo gaeeen 5...60 Heaelt iaech teeme-a yuoo use-a a seegnet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "束缚结界",
+				"description": "结界魔法。 在脚下创造出一个「束缚结界」，使结界附近的所有「非灵体」类敌人移动速度减缓50%，效果持续8...20秒。",
+				"concise": "结界魔法。 在脚下创造出一个「束缚结界」，使邻近结界的所有敌人移动速度减缓50%，效果持续8...20秒。"
+			},
+			"cht": {
+				"name": "束縛結界",
+				"description": "結界魔法： 在你目前的地點創造一個束縛結界。持續 8...20 秒，使結界範圍內所有非「靈」的敵人移動速度減慢 50% 。",
+				"concise": "結界魔法： 在你目前的地點創造一個束縛結界。持續 8...20 秒，使結界範圍內所有非「靈」的敵人移動速度減慢 50% 。"
+			},
 			"de": {
+				"name": "Abwehr gegen Feinde",
+				"description": "Abwehrzauber. Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Feinde. 8...20 Sekunde[n] lang bewegen sich Gegner, die keine Geister sind, in diesem Bereich um 50% langsamer.",
+				"concise": "Abwehrzauber. (8...20 Sekunde[n].) Feinde in dieser Abwehr bewegen sich um 50% langsamer."
+			},
+			"de-guildwiki": {
 				"name": "Abwehr gegen Feinde",
 				"description": "Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Feinde. 8...20 Sekunden lang bewegen sich Gegner, die keine Geister sind, in diesem Bereich um 50% langsamer.",
 				"concise": "8...20 Sekunden: Feinde in dieser Abwehr bewegen sich um 50% langsamer."
 			},
 			"en": {
 				"name": "Ward Against Foes",
+				"description": "Ward Spell. You create a Ward Against Foes at your current location. For 8...20 seconds, non-spirit foes in this area move 50% slower.",
+				"concise": "Ward Spell. (8...20 seconds.) Foes in this ward move 50% slower."
+			},
+			"en-gww": {
+				"name": "Ward Against Foes",
 				"description": "You create a Ward Against Foes at your current location. For 8...20 seconds, non-spirit foes in this area move 50% slower.",
 				"concise": "(8...20 seconds.) Foes in this ward move 50% slower."
 			},
+			"es": {
+				"name": "Protección contra enemigos",
+				"description": "Conjuro de protección. Creas una Protección contra enemigos en tu ubicación actual. Durante 8...20 segundos, los enemigos no espíritus en esta zona se mueven un 50% más lento.",
+				"concise": "Conjuro de protección. (8...20 segundos). Los enemigos dentro de la protección se mueven un 50% más lento."
+			},
 			"fr": {
+				"name": "Protection contre l'ennemi",
+				"description": "Sort de protection. Vous créez une zone de Protection contre l'ennemi sur votre position actuelle. Pendant 8...20 secondes, les ennemis (sauf les esprits) dans cette zone se déplacent 50% moins vite.",
+				"concise": "Sort de protection. (8...20 secondes.) Les ennemis dans cette Protection se déplacent 50% moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Protection contre l'ennemi",
 				"description": "Vous créez une zone de protection contre les ennemis sur votre position. Pendant 8...20 secondes, les ennemis qui ne sont pas des esprits de la zone de protection se déplacent 50% moins vite.",
 				"concise": "(8...20 secondes.) Les ennemis dans cette Protection se déplacent 50% moins vite."
+			},
+			"it": {
+				"name": "Guardia contro i Nemici",
+				"description": "Guardia. Crei una Guardia contro i Nemici nella tua posizione corrente. Per 8...20 secondi, i movimenti dei nemici presenti nell'area (Spiriti esclusi) rallentano del 50%.",
+				"concise": "Guardia. (Secondi: 8...20.) Rallentamento velocità di movimento dei nemici in questa Guardia: 50%."
+			},
+			"jp": {
+				"name": "ウォード アゲインスト フォウ",
+				"description": "ウォード スペル： 自分の周辺に結界を張ります。8...20 秒間、このエリア内にいる精霊以外の敵は、移動速度が50%減少します。",
+				"concise": "ウォード スペル： (8...20 秒) 範囲内にいる敵は移動速度が50%減少します。"
+			},
+			"kr": {
+				"name": "속박 결계",
+				"description": "결계. 대상 지정: 없음. 자신의 주변에 마법 결계를 만듭니다. 일정 범위 내에 있는 영혼이 아닌 적들의 이동 속도가 8...20초 동안 50% 느려집니다. 이 마법을 20초 동안 사용할 수 없습니다.",
+				"concise": "결계. (8...20초) 결계 내에서 적들의 이동 속도가 50% 느려집니다. 영혼에겐 영향이 없고, 이 마법을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Ochrona przed Przeciwnikami",
+				"description": "Ochrona (czar). Tworzysz Ochronę przed Przeciwnikami w miejscu, w którym przebywasz. Przez 8...20 sek. wszyscy nie będący duchami przeciwnicy w okolicy poruszają się o 50% wolniej.",
+				"concise": "Ochrona (czar). (8...20 sek.) Przeciwnicy w granicach tej ochrony poruszają się o 50% wolniej."
+			},
+			"ru": {
+				"name": "Ward Against Foes",
+				"description": "Заклинание опеки. Вы создаете Ward Against Foes в вашем текущем местоположении. В течение 8...20 сек все находящиеся в зоне действия Сферы противники, не являющиеся духами, двигаются на 50% медленнее.",
+				"concise": "Заклинание опеки. (8...20 сек) Противники в этой Сфере двигаются на 50% медленнее."
+			},
+			"bork": {
+				"name": "Vaerd Aegaeeenst Fues",
+				"description": "Vaerd Spell. Yuoo creaete-a a Vaerd Aegaeeenst Fues aet yuoor coorrent lucaeshun. Fur 8...20 secunds, nun-spureet fues in thees aerea mufe-a 50% slooer.",
+				"concise": "Vaerd Spell. (8...20 secunds.) Fues in thees vaerd mufe-a 50% slooer. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "九尾乱刺",
+				"description": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时，对目标造成15...40点额外伤害，九尾乱刺无法被格挡。",
+				"concise": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时，对目标造成15...40点额外伤害，九尾乱刺无法被格挡。"
+			},
+			"cht": {
+				"name": "九尾狙殺",
+				"description": "雙重攻擊： 必須接續在「即刻攻擊」之後。九尾狙殺無法被「格擋」，命中時對目標造成 15...40 額外傷害。",
+				"concise": "雙重攻擊： 必須接續在「即刻攻擊」之後。九尾狙殺無法被「格擋」，命中時對目標造成 15...40 額外傷害。"
+			},
 			"de": {
+				"name": "Neunschwänziger Stoß",
+				"description": "Doppelangriff. Muss einem Begleithandangriff folgen. Neunschwänziger Stoß kann nicht geblockt werden und fügt bei einem Treffer +15...40 Punkt[e] Schaden zu.",
+				"concise": "Doppelangriff. Richtet +15...40 Punkt[e] Schaden an. Kann nicht geblockt werden. Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Neunschwänziger Stoß",
 				"description": "Muss einem Begleithandangriff folgen. Neunschwänziger Stoß kann nicht geblockt werden und fügt bei einem Treffer +15...40 Punkte Schaden zu.",
 				"concise": "Richtet +15...40 Punkte Schaden an. Kann nicht geblockt werden. <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Nine Tail Strike",
+				"description": "Dual Attack. Must follow an off-hand attack. Nine Tail Strike cannot be blocked and strikes for +15...40 damage if it hits.",
+				"concise": "Dual Attack. Deals +15...40 damage. Unblockable. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Nine Tail Strike",
 				"description": "Must follow an off-hand attack. Nine Tail Strike cannot be blocked and strikes for +15...40 damage if it hits.",
 				"concise": "Deals +15...40 damage. Unblockable. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Golpe de las nueve colas",
+				"description": "Ataque doble. Debe ir precedido de un ataque complementario. Esta habilidad no puede bloquearse y hace +15...40 de daño si impacta.",
+				"concise": "Ataque doble. Hace +15...40 de daño. No se puede bloquear. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Coup des neuf queues",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main gauche. Le Coup des neuf queues ne peut pas être bloqué et inflige +15...40 points de dégâts si l'attaque réussit.",
+				"concise": "Attaque ambidextre. Inflige +15...40 points de dégâts. Impossible à bloquer. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Coup des neuf queues",
 				"description": "Doit succéder à une attaque main gauche. Le Coup des neuf queues ne peut pas être bloqué et inflige +15...40 points de dégâts si l'attaque réussit.",
 				"concise": "Inflige +15...40 points de dégâts. Impossible à bloquer. <gray>Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Colpo a Nove Code",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma secondaria. Il Colpo a Nove Code non può essere bloccato e, se va a segno, infligge +15...40 danno[i].",
+				"concise": "Attacco Doppio[_]. Danni inferti: +15...40. Non bloccabile. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "ナイン テール ストライク",
+				"description": "デュアル アタック： このスキルは、オフハンド アタックの次に使用します。このスキルはブロックされることがなく、攻撃が成功すると 15...40 の追加ダメージを与えます。",
+				"concise": "デュアル アタック： 15...40 の追加ダメージを与えます。この攻撃はブロックされません。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "구미호 발톱",
+				"description": "쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 15...40의 대미지를 추가로 줍니다. 이 공격은 막을 수 없습니다.",
+				"concise": "쌍수 공격. 15...40의 대미지를 추가로 줍니다. 이 공격은 막을 수 없습니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Dziewiątego Ogona",
+				"description": "Atak podwójny. Musi nastąpić po ataku drugą ręką. Uderzenie Dziewięciu Ogonów nie może zostać zablokowane i zadaje +15...40 pkt. obrażeń, jeśli trafi.",
+				"concise": "Atak podwójny. Zadaje +15...40 pkt. obrażeń. Nie do zablokowania. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Nine Tail Strike",
+				"description": "Двойная атака. Должен следовать за атакой второй рукой. Этот удар нельзя блокировать, и он наносит дополнительно 15...40 ед. урон в случае попадания.",
+				"concise": "Двойная атака. Наносит дополнительно 15...40 ед. урона. Нельзя блокировать. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Neene-a Taeeel Streeke-a",
+				"description": "Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Neene-a Taeeel Streeke-a cunnut be-a blucked und streekes fur +15...40 daemaege-a iff it heets.",
+				"concise": "Dooael Aettaeck. Deaels +15...40 daemaege-a. Unbluckaeble-a. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

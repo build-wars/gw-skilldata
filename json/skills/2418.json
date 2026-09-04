@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Pain Inverter",
+				"description": "负面魔法。 For 6...10 seconds, every time target foe deals damage that foe takes 100...140% of the damage it causes (maximum 80 damage).",
+				"concise": "负面魔法。 (6...10 seconds.) Deals 100...140% of the attack damage (maximum 80) back to target foe every time it attacks."
+			},
+			"cht": {
+				"name": "痛苦倒轉",
+				"description": "降咒魔法： 持續 6...10 秒，每當目標敵人造成傷害，則該名敵人也將受到 100...140%傷害反彈 (最多 80 傷害值)。",
+				"concise": "降咒魔法： For 6...10 seconds, every time target foe deals damage that foe takes 100...140% of the damage it causes (maximum 80 damage)."
+			},
 			"de": {
+				"name": "Schmerztauscher",
+				"description": "Verhexung. 6...10 Sekunde[n] lang erleidet der Gegner jedes Mal, wenn er Schaden zufügt, 100...140% des Schadens, den er zufügt (maximal 80 Punkte).",
+				"concise": "Verhexung. 6...10 Sekunde[n]: Richtet jedes Mal, wenn er Schaden anrichtet, 100...140% des Schadens (maximal 80 Punkte) beim Gegner selbst an."
+			},
+			"de-guildwiki": {
 				"name": "Schmerztauscher",
 				"description": "6...10 Sekunden lang erleidet der Gegner jedes Mal, wenn er Schaden zufügt, 100...140% des Schadens, den er zufügt (maximal 80 Punkte).",
 				"concise": "6...10 Sekunden: Richtet jedes Mal, wenn er Schaden anrichtet, 100...140% des Schadens (maximal 80 Punkte) beim Gegner selbst an."
 			},
 			"en": {
 				"name": "Pain Inverter",
+				"description": "Hex Spell. For 6...10 seconds, every time target foe deals damage that foe takes 100...140% of the damage it causes (maximum 80 damage).",
+				"concise": "Hex Spell. (6...10 seconds.) Deals 100...140% of the damage (maximum 80) back to target foe each time it does damage."
+			},
+			"en-gww": {
+				"name": "Pain Inverter",
 				"description": "For 6...10 seconds, every time target foe deals damage that foe takes 100...140% of the damage it causes (maximum 80 damage).",
 				"concise": "(6...10 seconds.) Deals 100...140% of the damage (maximum 80) back to target foe every time it does damage."
 			},
+			"es": {
+				"name": "Inversión de dolor",
+				"description": "Conjuro con maleficio. Durante 6...10 segundos, cada vez que el enemigo objetivo haga daño, recibirá un 100...140% del que haga (máximo 80).",
+				"concise": "Conjuro con maleficio. (6...10 segundos). Devuelve un 100...140% del daño que haga el enemigo objetivo (máximo 80) cada vez que ataque."
+			},
 			"fr": {
+				"name": "Inverseur de douleur",
+				"description": "Maléfice. Pendant 6...10 secondes, à chaque fois que l'ennemi visé inflige des dégâts, il subit 100...140% des dégâts qu'il inflige (80 points de dégâts maximum).",
+				"concise": "Maléfice. (6...10 secondes.) Inflige 100...140% des dégâts (maximum 80 points) à la cible ennemie à chaque fois qu'elle inflige des dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Inverseur de douleur",
 				"description": "Pendant 6...10 secondes, à chaque fois que l'ennemi visé inflige des dégâts, il subit 100...140% des dégâts qu'il inflige (80 points de dégâts maximum).",
 				"concise": "(6...10 secondes.) Inflige 100...140% des dégâts (maximum 80 points) à la cible ennemie à chaque fois qu'elle inflige des dégâts."
+			},
+			"it": {
+				"name": "Invertitore del Dolore",
+				"description": "Fattura. Per 6...10 secondo[i], ogni volta che l'obiettivo nemico assesta danni subisce un 100...140% del danno causato (max. 80 danni).",
+				"concise": "Fattura. (Secondi: 6...10) Restituisce un 100...140% del danno (max 80) all'obiettivo nemico ogni volta che assesta danni."
+			},
+			"jp": {
+				"name": "ペイン インバーター",
+				"description": "弱体化スペル： 6...10 秒間、ターゲットした敵がダメージを与えるたびに、そのダメージの 100...140% が敵自身に戻ります (最大80ダメージ) 。",
+				"concise": "弱体化スペル： (6...10 秒) ターゲットした敵がダメージを与えるたびに、そのダメージの 100...140% を敵自身に戻します (最大80ダメージ) 。"
+			},
+			"kr": {
+				"name": "고통 변환",
+				"description": "약화 마법. 6...10초 동안 대상이 대미지를 줄 때마다 그 대미지의 100...140%씩, 최대 80대미지를 되돌려줍니다.",
+				"concise": "약화 마법. (6...10초) 대상이 대미지를 줄 때마다 그 대미지의 100...140%(최대 80대미지)를 되돌려줍니다."
+			},
+			"pl": {
+				"name": "Odwrócenie Bólu",
+				"description": "Klątwa (czar). Przez 6...10 sek., za każdym razem, kiedy wybrany przeciwnik zadaje obrażenia, otrzymuje 100...140% obrażeń, które zadaje (maksymalnie 80 pkt. obrażeń).",
+				"concise": "Klątwa (czar). (6...10 sek.) Za każdym razem, kiedy wybrany przeciwnik zadaje obrażenia umiejętność zadaje mu 100...140% tych obrażeń (maksymalnie 80)."
+			},
+			"ru": {
+				"name": "Pain Inverter",
+				"description": "Заклинание-проклятье. В течение 6...10 сек каждый раз, когда выбранный противник наносит урон, он получает 100...140% от нанесенного им урона (но не более 80 ед. урона).",
+				"concise": "Заклинание-проклятье. (6...10 сек) Наносит 100...140% от полученного урона (но не более 80 ед. урона) выбранному противнику каждый раз, когда он наносит вам урон."
+			},
+			"bork": {
+				"name": "Paeeen Inferter",
+				"description": "Hex Spell. Fur 6...10 secunds, ifery teeme-a taerget fue-a deaels daemaege-a thaet fue-a taekes 100...140% ooff zee daemaege-a it cooses (maexeemoom 80 daemaege-a).",
+				"concise": "Hex Spell. (6...10 secunds.) Deaels 100...140% ooff zee daemaege-a (maexeemoom 80) baeck tu taerget fue-a iaech teeme-a it dues daemaege-a."
 			}
 		}
 	}

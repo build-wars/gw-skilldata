@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻术迅捷",
+				"description": "增益魔法。 在5...11秒之内，使你的「残废」症状立刻消失，同时移动速度增加33%。但是当「幻术迅捷」的效果消失时，你将遭受「残废」症状3秒。",
+				"concise": "增益魔法。 在5...11秒之内，使你的「残废」症状立刻消失，同时移动速度增加 33%。但是当「幻术迅捷」的效果消失时，你将遭受「残废」症状15秒。"
+			},
+			"cht": {
+				"name": "迅速幻覺",
+				"description": "加持魔法： 持續 5...11 秒，你的「殘廢」病症消失而且移動速度增加 33% 。但是當迅速幻覺的效果終止時，你將遭受「殘廢」病症 3 秒。",
+				"concise": "加持魔法： (5...11 秒。) 你的移動速度增加 33%，殘廢病症消失。終止時效果：遭受殘廢病症 (15 秒)。"
+			},
 			"de": {
+				"name": "Illusion der Eile",
+				"description": "Verzauberung. 5...11 Sekunde[n] lang seid Ihr nicht mehr verkrüppelt und bewegt Euch um 33% schneller. Wenn Illusion der Eile endet, werdet Ihr 3 Sekunde[n] lang in den Zustand der Verkrüppelung versetzt.",
+				"concise": "Verzauberung. (5...11 Sekunde[n].) Ihr bewegt Euch um 33% schneller. Anfangswirkung: Beseitigt Zustand der Verkrüppelung. Wirkung am Ende: Ihr werdet (3 Sekunde[n]) lang in den Zustand der Verkrüppelung versetzt."
+			},
+			"de-guildwiki": {
 				"name": "Illusion der Eile",
 				"description": "5...11 Sekunden lang seid Ihr nicht mehr verkrüppelt und bewegt Euch um 33% schneller. Endet Illusion der Eile, werdet Ihr 3 Sekunden lang in den Zustand Verkrüppelung versetzt.",
 				"concise": "(5...11 Sekunden.) Ihr bewegt Euch um 33% schneller. Anfangswirkung: Beseitigt Zustand der Verkrüppelung. <gray>Wirkung am Ende: Ihr werdet (3 Sekunden) lang in den Zustand der Verkrüppelung versetzt.</gray>"
 			},
 			"en": {
 				"name": "Illusion of Haste",
+				"description": "Enchantment Spell. For 5...11 seconds you are no longer Crippled, and you move 33% faster. When Illusion of Haste ends, you become Crippled for 3 seconds.",
+				"concise": "Enchantment Spell. (5...11 seconds.) You move 33% faster. Initial effect: removes Crippled condition. End effect: you are Crippled (3 seconds)."
+			},
+			"en-gww": {
+				"name": "Illusion of Haste",
 				"description": "For 5...11 seconds you are no longer Crippled, and you move 33% faster. When Illusion of Haste ends, you become Crippled for 3 seconds.",
 				"concise": "(5...11 seconds.) You move 33% faster. Initial effect: removes Crippled condition. <gray>End effect: you are Crippled (3 seconds).</gray>"
 			},
+			"es": {
+				"name": "Ilusión de velocidad",
+				"description": "Conjuro con encantamiento. Durante 5...11 segundos no estarás lisiado y podrás moverte un 33% más rápido. Cuando termine la Ilusión de velocidad, estarás lisiado durante 3 segundos.",
+				"concise": "Conjuro con encantamiento. (5...11 segundos.) Te mueves un 33% más rápido. Efecto inicial: elimina la condición de lisiado. Efecto final: causa lisiadura (3 segundos)."
+			},
 			"fr": {
+				"name": "Illusion de hâte",
+				"description": "Enchantement. Pendant 5...11 secondes, vous ne souffrez plus d'Infirmité et vous déplacez 33% plus vite. Lorsque l'Illusion de hâte prend fin, vous souffrez d'Infirmité pendant 3 secondes.",
+				"concise": "Enchantement. (5...11 secondes.) Vous vous déplacez 33% plus vite. Effet initial : annule l'Infirmité. Effet final : vous êtes frappé[f:\"frappée\"] d'Infirmité (3 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Illusion de hâte",
 				"description": "Pendant 5...11 secondes, vous ne souffrez plus d'Infirmité et vous déplacez 33% plus vite. Lorsque l'Illusion de hâte prend fin, vous souffrez d'Infirmité pendant 3 secondes.",
 				"concise": "(5...11 secondes.) Vous vous déplacez 33% plus vite. Effet initial : annule l'infirmité. <gray>Effet final: vous êtes frappé d'Infirmité (3 secondes).</gray>"
+			},
+			"it": {
+				"name": "Illusione di Velocità",
+				"description": "Incantesimo. Per 5...11 secondo[i] la Storpiatura viene rimossa e la tua velocità aumenta del 33%. Quando gli effetti dell'Illusione di Velocità svaniscono, diventi storpio per 3 secondo[i].",
+				"concise": "Incantesimo. (Secondo[i]: 5...11) Aumento della tua velocità di movimento: 33%. Effetto iniziale: rimozione della Storpiatura. Effetto al termine: Storpiatura (3 secondo[i])."
+			},
+			"jp": {
+				"name": "ヘイスト イリュージョン",
+				"description": "強化スペル： 5...11 秒間「不自由」状態が治り、移動速度が33%増加します。この効果が消失すると、プレイヤーは 3 秒間「不自由」状態になります。",
+				"concise": "強化スペル： (5...11 秒) 移動速度が33%増加します。発動効果： 「不自由」状態が解除されます。終了効果： プレイヤーは「不自由」状態になります (3 秒)。"
+			},
+			"kr": {
+				"name": "신속의 허상",
+				"description": "강화 마법. 대상 지정: 없음. 5...11초 동안 다리부상 상태가 사라지고 이동 속도가 33% 빨라집니다. 신속의 허상 효과가 끝나면 3초 동안 다리부상 상태가 됩니다.",
+				"concise": "강화 마법. (5...11초) 이동 속도가 33% 빨라집니다. 초기 효과: 다리부상 해제 종료 효과: 다리부상을 입습니다.(3초)"
+			},
+			"pl": {
+				"name": "Iluzja Pośpiechu",
+				"description": "Zaklęcie (czar). Przez 5...11 sek., nie jesteś już okulawiony i poruszasz się o 33% szybciej. Gdy Iluzja Pośpiechu przestanie działać, zostajesz okulawiony na 3 sek.",
+				"concise": "Zaklęcie (czar). (5...11 sek.) Poruszasz się o 33% szybciej. Efekt początkowy: usuwa przypadłość okulawienia. Efekt końcowy: zostajesz okulawiony (3 sek.)."
+			},
+			"ru": {
+				"name": "Illusion of Haste",
+				"description": "Заклинание-чары. В течение 5...11 сек вы перестанете хромать и будете двигаться на 33% быстрее, чем обычно. Когда Illusion of Haste прекращает свое действие, вы будете хромать в течение 3 сек.",
+				"concise": "Заклинание-чары. (5...11 сек) Вы двигаетесь на 33% быстрее. Начальный эффект: снимает хромоту. Эффект при окончании: вы хромаете (3 сек)."
+			},
+			"bork": {
+				"name": "Illooseeun ooff Haeste-a",
+				"description": "Inchuntment Spell. Fur 5...11 secunds yuoo aere-a nu lunger Creeppled, und yuoo mufe-a 33% faester. Vhee Illooseeun ooff Haeste-a inds, yuoo becume-a Creeppled fur 3 secunds.",
+				"concise": "Inchuntment Spell. (5...11 secunds.) Yuoo mufe-a 33% faester. Ineeteeael iffffect: remufes Creeppled cundeeshun. Ind iffffect: yuoo aere-a Creeppled (3 secunds)."
 			}
 		}
 	}

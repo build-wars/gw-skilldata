@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黑土光环",
+				"description": "Elite Flash Enchantment Spell。 在30秒之内，如果你持有地系伤害的武器，你的攻击技能会使敌人「盲目」1...7秒。",
+				"concise": "Elite Flash Enchantment Spell。 在30秒之内，如果你持有地系伤害的武器，你的攻击技能会使敌人「盲目」1...7秒。"
+			},
+			"cht": {
+				"name": "烏塵靈氣",
+				"description": "精英即刻加持魔法： 使用此加持時，造成附近所有敵人盲目 1...7 秒。持續 30 秒，若是你拿著土系武器，則近身攻擊造成額外 3...30 土系傷害。此加持結束時，消除自身盲目病症。",
+				"concise": "精英即刻加持魔法： 使用此加持時，造成附近所有敵人盲目 1...7 秒。持續 30 秒，若是你拿著土系武器，則近身攻擊造成額外 3...30 土系傷害。此加持結束時，消除自身盲目病症。"
+			},
 			"de": {
+				"name": "Ebon-Staubaura",
+				"description": "Elite-Blitzverzauberung. Wenn Ihr diese Verzauberung wirkt, werden alle Feinde in der Nähe 1...7 Sekunde[n] lang geblendet. 30 Sekunde[n] fügen Eure Nahkampfangriffe +3...30 Punkt[e] Erdschaden zu, wenn Ihr eine Erdwaffe führt. Wenn diese Verzauberung endet, werdet Ihr von Blindheit geheilt.",
+				"concise": "Elite-Blitzverzauberung. (30 Sekunde[n].) Eure Nahkampfangriffe fügen +3...30 Punkt[e] Erdschaden zu. Anfangswirkung: Blendet Feine in der Nähe 1...7 Sekunde[n] lang. Wirkung am Ende: Entfernt Blindheit. Keine Wirkung, falls Ihr keine Erdwaffe benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Ebon-Staubaura",
 				"description": "Wenn Ihr diese Verzauberung wirkt, werden alle Feinde in der Nähe 1...7 Sekunden lang geblendet. 30 Sekunden lang fügen Eure Nahkampfangriffe +3...30 Punkte Erdschaden zu, wenn Ihr eine Erdwaffe führt. Wenn diese Verzauberung endet, werdet Ihr von Blindheit geheilt.",
 				"concise": "(30 Sekunden.) Eure Nahkampfangriffe fügen +3...30 Punkte Erdschaden zu. Anfangswirkung: Blendet Feine<sic/> in der Nähe 1...7 Sekunden lang. Wirkung am Ende: Entfernt Blindheit. <gray>Keine Wirkung, falls ihr keine Erdwaffe benutzt.</gray>"
 			},
 			"en": {
 				"name": "Ebon Dust Aura",
+				"description": "Elite Flash Enchantment Spell. When you cast this enchantment, all nearby foes are Blinded for 1...7 seconds. For 30 seconds, if you are wielding an earth weapon, your melee attacks deal +3...30 earth damage. When this enchantment ends, you are cured of Blindness.",
+				"concise": "Elite Flash Enchantment Spell. (30 seconds.) Deal +3...30 earth damage with your melee attacks. Initial Effect: Blinds nearby foes for 1...7 seconds. End Effect: removes Blindness. No effect unless wielding an earth weapon."
+			},
+			"en-gww": {
+				"name": "Ebon Dust Aura",
 				"description": "When you cast this enchantment, all nearby foes are Blinded for 1...7 second[s]. For 30 seconds, if you are wielding an earth weapon, your melee attacks deal +3...30 earth damage. When this enchantment ends, you are cured of Blindness.",
 				"concise": "(30 seconds.) Deal +3...30 earth damage with your melee attacks. Initial Effect: Blinds nearby foes for 1...7 second[s]. End Effect: removes Blindness. <gray>No effect unless wielding an earth weapon.</gray>"
 			},
+			"es": {
+				"name": "Aura de polvo de ébano",
+				"description": "Conjuro con encantamiento de destello de élite. Cuando lanzas este encantamiento, todos los enemigos cercanos quedan cegados durante 1...7 segundos. Durante 30 segundos, si llevas un arma de tierra, tus ataques cuerpo a cuerpo hacen +3...30 de daño de tierra. Cuando termina este encantamiento, tu ceguera se cura.",
+				"concise": "Conjuro con encantamiento de destello de élite. (30 segundos). Haces +3...30 de daño de tierra con tus ataques cuerpo a cuerpo. Efecto inicial: los enemigos cercanos se quedan ciego durante 1...7 segundos. Efecto final: quita la ceguera. No surte efecto si no llevas un arma de tierra."
+			},
 			"fr": {
+				"name": "Aura de poussière d'ébène",
+				"description": "Enchantement instantané d'élite. Quand vous lancez cet enchantement, tous les ennemis adjacents sont aveuglés pendant 1...7 secondes. Pendant 30 secondes, si vous tenez une arme de dégâts de la terre, vos compétences d'attaques de mêlée infligent +3...30 points de dégâts de la terre. Lorsque cet enchantement prend fin, vous êtes libéré[f:\"libérée\"] de l'Aveuglement.",
+				"concise": "Enchantement instantané d'élite. (30 secondes.) inflige +3...30 points de dégâts de la terre à chaque attaque de mêlée. Effet initial : les ennemis adjacents sont aveuglés pendant 1...7 secondes. Effet final : annule l'Aveuglement. Aucun effet si vous n'utilisez pas une arme infligeant des dégâts de la terre."
+			},
+			"fr-gwiki": {
 				"name": "Aura de poussière d'ébène",
 				"description": "Quand vous lancez cet enchantement, tous les ennemis adjacents sont aveuglés pendant pendant 1...4 secondes. Pendant 30 secondes, si vous tenez une arme de dégâts de la terre, vos compétences d'attaques de mêlée infligent +3...30 points de dégâts de la terre. Lorsque cet enchantement prend fin, vous êtes libéré de l'Aveuglement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura della Polvere d'Ebano",
+				"description": "Incantesimo Lampo d'Élite. Quando lanci quest'incantesimo, tutti i nemici nei dintorni vengono accecati per 1...7 secondi. Per 30 secondi, se brandisci un'arma da terra, i tuoi attacchi ravvicinati infliggono +3...30 danni da terra. Al termine dell'incantesimo vieni curato[f:\"curata\"] da Cecità.",
+				"concise": "Incantesimo Lampo d'Élite. (Secondi: 30). Danni da terra inflitti in attacchi ravvicinati: +3...30. Effetto iniziale: condizione inflitta ai nemici nei dintorni: Cecità (1...7 secondi). Effetto al termine: rimuove Cecità. Ha effetto solo se si brandisce un'arma di terra."
+			},
+			"jp": {
+				"name": "エボン ダスト オーラ",
+				"description": "エリート フラッシュ強化スペル： この強化スペルを詠唱すると、周囲にいるすべての敵が 1...7 秒間「盲目」状態になります。30 秒間、アース属性の武器を装備している場合、プレイヤーの近接攻撃は敵に 3...30 のアース ダメージを追加で与えます。この効果が消失すると、プレイヤーの「盲目」状態が解除されます。",
+				"concise": "エリート フラッシュ強化スペル： (30 秒)近接攻撃を行うと、敵に 3...30 のアース ダメージを追加で与えます。発動効果：周囲にいる敵が 1...7 秒間「盲目」状態になります。終了効果：「盲目」状態を解除します。アース属性の武器を装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "검은 먼지의 장막",
+				"description": "엘리트 순간 시전 강화 마법. 대상 지정: 없음. 이 강화 마법을 시전할 때 부근의 모든 적을 1...7초 동안 실명 상태로 만듭니다. 30초 동안 대지 속성 무기를 장착하고, 근접 물리 공격 스킬을 사용하면 3...30의 대지 대미지를 추가로 줍니다. 효과가 끝날 때 자신에게 걸린 실명 상태를 무효화합니다.",
+				"concise": "엘리트 순간 시전 강화 마법. (30초) 근접 물리 공격 스킬을 사용하면 3...30의 대지 대미지를 추가로 줍니다. 초기 효과: 부근의 적들을 실명시킵니다.(1...7초) 종료 효과: 자신에게 걸린 실명을 제거합니다. 대지 속성 무기를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Aura Hebanowego Pyłu",
+				"description": "Elitarne zaklęcie błysku (czar). Kiedy rzucisz to zaklęcie, wszyscy pobliscy wrogowie zostaną oślepieni na 1...7 sek. Przez 30 sek., jeśli dzierżysz broń zadającą obrażenia od ziemi, twoje ataki wręcz zadają +3...30 pkt. obrażeń od ziemi. Kiedy to zaklęcie dobiega końca, zostajesz wyleczony ze ślepoty.",
+				"concise": "Elitarne zaklęcie błysku (czar). (30 sek.) Zadajesz +3...30 pkt. obrażeń od ziemi swoimi atakami w walce wręcz. Efekt początkowy: Pobliscy przeciwnicy zostają oślepieni na 1...7 sek. Efekt końcowy: Usuwa ślepotę. Działa tylko wtedy, gdy używasz broni zadającej obrażenia od ziemi."
+			},
+			"ru": {
+				"name": "Ebon Dust Aura",
+				"description": "Элитное мгновенное заклинание-чары. Когда вы активируете эти чары, все противники поблизости будут ослеплены на 1...7 сек. В течение 30 сек, если у вас в руках находится оружие, наносящее урон силой земли, ваши рукопашные атаки наносят дополнительно 3...30 ед. урона силой земли. Когда действие этих чар заканчивается, с вас снимается слепота.",
+				"concise": "Элитное мгновенное заклинание-чары. (30 сек) Наносит дополнительно 3...30 ед. урона силой земли при ваших рукопашных атаках. Начальный эффект: вызывает слепоту (1...7 сек) у противников поблизости. Эффект окончания: снимает слепоту. Не действует, если ваше оружие не наносит урон силой земли."
+			},
+			"bork": {
+				"name": "Ibun Doost Oora",
+				"description": "Ileete-a Flaesh Inchuntment Spell. Vhee yuoo caest thees inchuntment, aell neaerby fues aere-a Bleended fur 1...7 secunds. Fur 30 secunds, iff yuoo aere-a veeeldeeng un iaert veaepun, yuoor melee-a aettaecks deael +3...30 iaert daemaege-a. Vhee thees inchuntment inds, yuoo aere-a coored ooff Bleendness.",
+				"concise": "Ileete-a Flaesh Inchuntment Spell. (30 secunds.) Deael +3...30 iaert daemaege-a veet yuoor melee-a aettaecks. Ineeteeael Iffffect: Bleends neaerby fues fur 1...7 secunds. Ind Iffffect: remufes Bleendness. Nu iffffect unless veeeldeeng un iaert veaepun."
 			}
 		}
 	}

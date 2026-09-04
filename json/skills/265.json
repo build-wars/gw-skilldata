@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "友善祝福",
+				"description": "精英负面魔法。 在4...12秒之内，使邻近的敌人无法攻击，如果被限制的敌人受到伤害，则「友善祝福」的效果消失。",
+				"concise": "精英负面魔法。 在 4...12秒 之内，使邻近的敌人无法攻击，如果被限制的敌人受到伤害，则「友善祝福」的效果消失。"
+			},
+			"cht": {
+				"name": "友好",
+				"description": "精英降咒魔法： 持續 4...12 秒，使鄰近的敵人無法攻擊。若這些目標受到傷害，則友好對其的限制解除。",
+				"concise": "精英降咒魔法： 持續 4...12 秒，使鄰近的敵人無法攻擊。若這些目標受到傷害，則友好對其的限制解除。"
+			},
 			"de": {
+				"name": "Freundschaft",
+				"description": "Elite-Verhexung. 4...12 Sekunde[n] lang können umstehende Gegner nicht angreifen. Freundschaft endet für jeden Gegner, sobald er Schaden erleidet.",
+				"concise": "Elite-Verhexung. 4...12 Sekunde[n]: Umstehende Feinde können nicht angreifen. Endet bei Feinden, die Schaden erleiden."
+			},
+			"de-guildwiki": {
 				"name": "Freundschaft",
 				"description": "4...12 Sekunden lang können umstehende Gegner nicht angreifen. Freundschaft endet für jeden Gegner, sobald er Schaden erleidet.",
 				"concise": "4...12 Sekunden: Umstehende Feinde können nicht angreifen. <gray>Endet bei Feinden, die Schaden erleiden.</gray>"
 			},
 			"en": {
 				"name": "Amity",
+				"description": "Elite Hex Spell. For 4...12 seconds, adjacent foes cannot attack. For each foe, Amity ends if that foe takes damage.",
+				"concise": "Elite Hex Spell. (4...12 seconds.) Foes adjacent to you cannot attack. Ends on any foes that take damage."
+			},
+			"en-gww": {
+				"name": "Amity",
 				"description": "For 4...12 seconds, adjacent foes cannot attack. For each foe, Amity ends if that foe takes damage.",
 				"concise": "(4...12 seconds.) Foes adjacent to you cannot attack. <gray>Ends on any foes that take damage.</gray>"
 			},
+			"es": {
+				"name": "Concordia",
+				"description": "Conjuro con maleficio de élite. Durante 4...12 segundos, los enemigos adyacentes no pueden atacar. La Concordia acabará para cada enemigo cuando éste reciba daño.",
+				"concise": "Conjuro con maleficio de élite. (4...12 segundos). Los enemigos adyacentes a tu ubicación no pueden atacar. Acaba en los enemigos que reciban daño."
+			},
 			"fr": {
+				"name": "Amitié",
+				"description": "Maléfice d'élite. Pendant 4...12 secondes, les ennemis adjacents ne peuvent pas attaquer. L'effet prend fin lorsque l'ennemi subit des dégâts.",
+				"concise": "Maléfice d'élite. (4...12 secondes.) Les ennemis adjacents à vous ne peuvent pas attaquer. Prend fin si un ennemi subit des dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Amitié",
 				"description": "Pendant 4...12 secondes, les ennemis adjacents ne peuvent pas attaquer. L'effet prend fin lorsque l'ennemi subit des dégâts.",
 				"concise": "(4...12 secondes.) Les ennemis adjacents à vous ne peuvent pas attaquer. Prend fin si un ennemi subit des dégâts."
+			},
+			"it": {
+				"name": "Amicizia",
+				"description": "Fattura d'Élite. Per 4...12 secondo[i], i nemici adiacenti non possono attaccare; l'effetto termina quando l'obiettivo nemico subisce un danno.",
+				"concise": "Fattura d'Élite. (Secondi: 4...12) I nemici adiacenti a te non possono attaccare. Termina su qualsiasi nemico che riceve danni."
+			},
+			"jp": {
+				"name": "アミティ",
+				"description": "エリート弱体化スペル： 4...12 秒間、隣接する敵は攻撃することができなくなります。それぞれの敵はダメージを受けるとこの効果が消失し、攻撃可能になります。",
+				"concise": "エリート弱体化スペル： (4...12 秒) 隣接する敵は攻撃することができなくなります。それぞれ、ダメージを受けるとこの効果は消失します。"
+			},
+			"kr": {
+				"name": "우호의 손길",
+				"description": "엘리트 약화 마법. 대상 지정: 없음. 4...12초 동안 인접한 적들은 공격을 할 수 없게 됩니다. 이 효과는 각각의 적이 대미지를 입으면 개별적으로 끝납니다.",
+				"concise": "엘리트 약화 마법. (4...12초) 인접한 적들이 공격을 할 수 없습니다. 각각의 적이 대미지를 입으면 개별적으로 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Zgoda",
+				"description": "Elitarna klątwa (czar). Przez 4...12 sek., przeciwnicy bezpośrednio przy tobie nie mogą atakować. Zgoda skończy się, gdy jeden z tych przeciwników otrzyma obrażenia.",
+				"concise": "Elitarna klątwa (czar). (4...12 sek.) Przeciwnicy bezpośrednio przy tobie nie mogą atakować. Przestanie działać na danym przeciwniku, jeśli otrzyma on obrażenia."
+			},
+			"ru": {
+				"name": "Amity",
+				"description": "Элитное заклинание-проклятье. В течение 4...12 сек окружающие противники не могут атаковать. Для каждого противника действие Amity заканчивается, если он получает урон.",
+				"concise": "Элитное заклинание-проклятье. Также накладывает проклятье на противников, окружающих цель (4...12 сек). Эти противники не могут атаковать. Заканчивается для любого из этих противников, если он получает урон."
+			},
+			"bork": {
+				"name": "Aemeety",
+				"description": "Ileete-a Hex Spell. Fur 4...12 secunds, aedjaecent fues cunnut aettaeck. Fur iaech fue-a, Aemeety inds iff thaet fue-a taekes daemaege-a.",
+				"concise": "Ileete-a Hex Spell. (4...12 secunds.) Fues aedjaecent tu yuoo cunnut aettaeck. Inds oon uny fues thaet taeke-a daemaege-a."
 			}
 		}
 	}

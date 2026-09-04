@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "尖刺陷阱",
+				"description": "精英陷阱技。 当尖刺陷阱被触动时，陷阱附近的所有敌人将受到10...40点穿刺伤害，遭受「残废」症状 3...25秒，同时被击倒。尖刺陷阱在 90秒 后消失。此技能发动时容易被打断。",
+				"concise": "精英陷阱技。 当尖刺陷阱被触动时，陷阱附近的所有敌人将受到10...40点穿刺伤害，遭受「残废」症状 3...25秒，同时被击倒。尖刺陷阱在 90秒 后消失。此技能发动时容易被打断。"
+			},
+			"cht": {
+				"name": "尖刺陷阱",
+				"description": "精英陷阱： 持續90秒，當此陷阱觸發時，每秒(共2秒)對附近敵人造成10...40穿刺傷害，造成擊倒以及殘廢3...25秒，施展此技能時容易被中斷。",
+				"concise": "精英陷阱： 持續90秒，當此陷阱觸發時，每秒(共2秒)對附近敵人造成10...40穿刺傷害，造成擊倒以及殘廢3...25秒，施展此技能時容易被中斷。"
+			},
 			"de": {
+				"name": "Dornenfalle",
+				"description": "Elite-Falle. Wird Dornenfalle aktiviert, erleiden alle Gegner in der Nähe pro Sekunde (insgesamt 2 Sekunden lang) 10...40 Punkt[e] Stichschaden, werden 3...25 Sekunde[n] lang verkrüppelt und zu Boden geworfen. Dornenfalle endet nach 90 Sekunde[n]. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Elite-Falle. 90 Sekunde[n]: Betrifft Feinde in der Nähe. Diese Falle richtet pro Sekunde (2 Sekunden lang) 10...40 Punkt[e] Stichschaden an, wirft zu Boden und verursacht Zustand Verkrüppelung (3...25 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Dornenfalle",
 				"description": "Wird Dornenfalle aktiviert, erleiden alle Gegner in der Nähe pro Sekunde (insgesamt 2 Sekunden lang) 10...40 Punkte Stichschaden, werden 3...25 Sekunden lang verkrüppelt und zu Boden geworfen. Dornenfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 10...40 Punkte Stichschaden an. Wirft zu Boden. Verursacht Zustand Verkrüppelung (3...25 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Spike Trap",
+				"description": "Elite Trap. When Spike Trap is triggered, every second (for 2 seconds total), all nearby foes are struck for 10...40 piercing damage, become Crippled for 3...25 seconds, and are knocked down. Spike Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Elite Trap. (90 seconds.) Affects nearby foes. Every second (for 2 seconds), this trap deals 10...40 piercing damage, causes knock-down, and inflicts Crippled condition (3...25 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Spike Trap",
 				"description": "When Spike Trap is triggered, every second (for 2 seconds), all nearby foes are struck for 10...40 piercing damage, become Crippled for 3...25 seconds, and are knocked down. Spike Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Every second, (for 2 seconds), this trap deals 10...40 piercing damage, causes knockdown, and inflicts Crippled condition (3...25 seconds). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Trampa de pinchos",
+				"description": "Trampa de élite. Cuando se activa esta trampa, cada segundo (durante 2 en total) todos los enemigos cercanos reciben 10...40 de daño perforante, quedan lisiados durante 3...25 segundos y son derribados. La Trampa de pinchos dura 90 segundos. Se te podrá interrumpir con facilidad mientras la estés colocando.",
+				"concise": "Trampa de élite. (90 segundos). Afecta a los enemigos cercanos. Cada segundo (durante 2 en total), esta trampa hace 10...40 de daño perforante, causa derribo y causa lisiadura (3...25 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège à pointes",
+				"description": "Piège d'élite. Quand le Piège à pointes se déclenche, toutes les secondes (pendant 2 secondes au total), tous les ennemis à proximité subissent 10...40 points de dégâts perforants, sont frappés d'Infirmité pendant 3...25 secondes et sont assommés. Le Piège à pointes prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
+				"concise": "Piège d'élite. (90 secondes.) Affecte les ennemis à proximité. Toutes les secondes (pendant 2 secondes) ce piège inflige 10...40 points de dégâts perforants, assomme et frappe d'Infirmité (3...25 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Piège à pointes",
 				"description": "Lorsque Piège à pointes se déclenche, toutes les secondes (pendant 2 secondes), tous les ennemis à proximité subissent 10...40 points de dégâts perforants, sont frappés d'Infirmité pendant 3...25 secondes et sont assommés. Piège à pointes prend fin au bout de 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trappola di Spine",
+				"description": "Trappola d'Élite. Quando la Trappola di Spine viene attivata, tutti i nemici presenti nei dintorni subiscono 10...40 danno[i] perforante[i] al secondo (per un totale di 2 secondi), diventano storpi per 3...25 secondo[i] e vengono abbattuti. Termina dopo 90 secondo[i]. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola d'Élite. (Secondi: 90) Ha effetto sui nemici nei dintorni. Provoca 10...40 danno[i] perforante[i] al secondo (per 2 secondi); provoca abbattimento e infligge Storpiatura (3...25 secondo[i]). Facile interruzione."
+			},
+			"jp": {
+				"name": "スパイク トラップ",
+				"description": "エリート トラップ： このトラップが作動すると2秒間、毎秒周囲にいるすべての敵は 10...40 のピアス ダメージを受け、3...25 秒間「不自由」状態になって転倒します。このトラップは 90 秒後に消滅します。このスキルの詠唱は容易に中断されます。",
+				"concise": "エリート トラップ： (90 秒) 周囲にいる敵に2秒間、毎秒 10...40 のピアス ダメージを与えて転倒させ、「不自由」状態にします (3...25 秒)。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "대못 함정",
+				"description": "엘리트 함정. 대상 지정: 없음. 함정이 작동한 뒤 총 2초 동안 함정 부근의 모든 적은 매초 10...40의 찌르는 대미지를 입고 넘어지며, 3...25초 동안 다리부상 상태가 됩니다. 함정은 90초 뒤에 사라지며, 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "엘리트 함정. (90초) 부근의 적들에게 영향을 미칩니다. 매초 10...40의 찌르는 대미지를 주고(2초), 바닥에 넘어뜨려 다리부상을 입힙니다.(3...25초) 설치 동작이 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Pułapka z Ostrzy",
+				"description": "Pułapka elitarna. Kiedy Pułapka z Ostrzy zostanie uruchomiona, to w każdej sekundzie (przez 2 sek.) wszyscy przeciwnicy w pobliżu otrzymują po 10...40 pkt. obrażeń przebijających, zostaną okulawieni na 3...25 sek. i powaleni. Pułapka z Ostrzy przestanie działać po 90 sek. W czasie, kiedy będziesz używać tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka elitarna. (90 sek.) Działa na przeciwników w pobliżu. Co sekundę (przez 2 sek.) zadaje 10...40 pkt. obrażeń przebijających, powala i wywołuje przypadłość okulawienie (3...25 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Spike Trap",
+				"description": "Элитная ловушка. Когда Spike Trap срабатывает, каждую секунду (в течение 2 сек) все противники поблизости получают 10...40 ед. урона колющим оружием, будут сбиты с ног и станут хромыми на 3...25 сек. Spike Trap разряжается через 90 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Элитная ловушка. (90 сек) Поражает противников поблизости. Каждую секунду (в течение 2 сек) наносит 10...40 ед. урона колющим оружием. Сбивает с ног. Вызывает хромоту (3...25 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Speeke-a Traep",
+				"description": "Ileete-a Traep. Vhee Speeke-a Traep is treeggered, ifery secund (fur 2 secunds tutael), aell neaerby fues aere-a stroock fur 10...40 peeerceeng daemaege-a, becume-a Creeppled fur 3...25 secunds, und aere-a knucked doon. Speeke-a Traep inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Ileete-a Traep. (90 secunds.) Aeffffects neaerby fues. Ifery secund (fur 2 secunds), thees traep deaels 10...40 peeerceeng daemaege-a, cooses knuck-doon, und inffleects Creeppled cundeeshun (3...25 secunds). Iaeseely interroopted."
 			}
 		}
 	}

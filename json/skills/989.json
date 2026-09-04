@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "火凤凰狙杀",
+				"description": "副手技。 技能命中时对目标造成 10...30点 额外伤害。当你不带有任何「增益魔法」时，此技能将不会命中。",
+				"concise": "副手技。 技能命中时对目标造成 10...30点 额外伤害。当你不带有任何「增益魔法」时，此技能将不会命中。"
+			},
+			"cht": {
+				"name": "火鳳凰狙殺",
+				"description": "即刻攻擊： 即刻攻擊：若你身上不具有任何加持，此技能將失誤。命中時對目標造成10...30額外傷害，同時對其鄰近的敵人造成10...30傷害。",
+				"concise": "即刻攻擊： 即刻攻擊：若你身上不具有任何加持，此技能將失誤。命中時對目標造成10...30額外傷害，同時對其鄰近的敵人造成10...30傷害。"
+			},
 			"de": {
+				"name": "Goldener Phönix-Stoß",
+				"description": "Begleithandangriff. Wenn Ihr nicht verzaubert seid, trifft diese Fertigkeit nicht. Wenn Goldener Phönix-Stoß erfolgreich ist, fügt er dem Gegner +10...30 Punkt[e] Schaden und allen umstehenden Feinden 10...30 Punkt[e] Schaden zu.",
+				"concise": "Begleithandangriff. Fügt dem Gegner +10...30 und umstehenden Feinden 10...30 Punkt[e] Schaden zu. Schlägt fehl, falls Ihr nicht verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Goldener Phönix-Stoß",
 				"description": "Wenn Ihr nicht verzaubert seid, trifft diese Fertigkeit nicht. Wenn Goldener Phönix-Stoß erfolgreich ist, fügt er dem Gegner +10...30 Punkte Schaden und allen umstehenden Feinden 10...30 Punkte Schaden zu.",
 				"concise": "Fügt dem Gegner +10...30 und umstehenden Feinden 10...30 Punkte Schaden zu. <gray>Schlägt fehl, falls Ihr nicht verzaubert seid.</gray>"
 			},
 			"en": {
 				"name": "Golden Phoenix Strike",
+				"description": "Off-Hand Attack. If you are not under the effects of an enchantment, this skill misses. If it hits, Golden Phoenix Strike deals +10...30 damage and all adjacent foes take 10...30 damage.",
+				"concise": "Off-Hand Attack. Deals +10...30 damage to target and deals 10...30 damage to adjacent foes. Fails if you are not enchanted."
+			},
+			"en-gww": {
+				"name": "Golden Phoenix Strike",
 				"description": "If you are not under the effects of an enchantment, this skill misses. If it hits, Golden Phoenix Strike deals +10...30 damage and all adjacent foes take 10...30 damage.",
 				"concise": "Deals +10...30 damage to target and deals 10...30 damage to adjacent foes. <gray>Fails if you are not enchanted.</gray>"
 			},
+			"es": {
+				"name": "Golpe del fénix dorado",
+				"description": "Ataque complementario. Si no estás bajo el efecto de un encantamiento, esta habilidad fallará. Si alcanza al enemigo, el Golpe del fénix dorado causa +10...30 de daño y todos los enemigos cercanos sufrirán 10...30 de daño.",
+				"concise": "Ataque complementario. Hace +10...30 de daño al objetivo y 10...30 a los enemigos cercanos. Falla si no estás encantado."
+			},
 			"fr": {
+				"name": "Coup du phénix doré",
+				"description": "Attaque main gauche. Si vous n'êtes pas sous l'effet d'un enchantement, cette compétence échoue. Si l'attaque Coup du phénix doré réussit, elle inflige +10...30 points de dégâts à la cible, et tous les ennemis adjacents subissent 10...30 points de dégâts",
+				"concise": "Attaque main gauche. Inflige +10...30 points de dégâts à la cible et 10...30 points de dégâts aux ennemis adjacents. Echoue si vous n'êtes pas sous l'effet d'un enchantement"
+			},
+			"fr-gwiki": {
 				"name": "Coup du phénix doré",
 				"description": "Si vous n'êtes pas sous l'effet d'un enchantement, cette compétence échoue. Si l'attaque Coup du phénix doré réussit, elle inflige +10...30 points de dégâts à la cible, et tous les ennemis adjacents subissent 10...30 points de dégâts.",
 				"concise": "Inflige +10...30 points de dégâts à la cible et 10...30 points de dégâts aux ennemis adjacents. <gray>Echoue si vous n'êtes pas sous l'effet d'un enchantement.</gray>"
+			},
+			"it": {
+				"name": "Colpo della Fenice Dorata",
+				"description": "Attacco con Arma Secondaria. Se non sei sotto gli effetti di un incantesimo, l'abilità non andrà a segno. Se va a segno, il Colpo della Fenice Dorata infligge +10...30 di danni e tutti i nemici adiacenti subiscono 10...30 danni.",
+				"concise": "Attacco con Arma Secondaria. Danni inferti all'obiettivo: +10...30. Danni inferti ai nemici adiacenti: 10...30. Funziona solo se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ゴールデン フェニックス ストライク",
+				"description": "オフハンド アタック： 強化スペルがかけられていない場合、このスキルの使用は失敗します。攻撃が成功すると 10...30 の追加ダメージを与え、隣接するすべての敵に 10...30 のダメージを与えます。",
+				"concise": "オフハンド アタック： ターゲットした敵に 10...30 の追加ダメージを与え、隣接する敵に 10...30 のダメージを与えます。プレイヤーに強化スペルがかけられていない場合は失敗します。"
+			},
+			"kr": {
+				"name": "금빛불새 일격",
+				"description": "보조 공격. 대상 지정: 적. 자신이 강화 마법에 걸려 있지 않으면 이 스킬은 실패합니다. 공격이 성공하면 10...30의 대미지를 추가로 주고, 인접한 적들은 10...30의 대미지를 입습니다.",
+				"concise": "보조 공격. 대상에게 10...30의 대미지를 추가로 주고, 인접한 적들에게 10...30의 대미지를 줍니다. 자신에게 강화 마법이 걸려 있지 않으면 실패합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Złotego Feniksa",
+				"description": "Atak drugą ręką. Jeżeli nie masz na sobie zaklęcia, ten atak nie trafia. Jeśli atak trafi, Uderzenie Złotego Feniksa zadaje +10...30 pkt. obrażeń, zaś wszyscy sąsiadujący przeciwnicy otrzymują 10...30 pkt. obrażeń.",
+				"concise": "Atak drugą ręką. Zadaje +10...30 pkt. obrażeń celowi oraz 10...30 pkt. obrażeń sąsiadującym przeciwnikom. Nie działa, jeśli nie masz na sobie zaklęcia."
+			},
+			"ru": {
+				"name": "Golden Phoenix Strike",
+				"description": "Атака второй рукой. Если на вас не наложены какие-либо чары, этот удар не попадет в цель. В случае попадания вы наносите дополнительно 10...30 ед. урона, а все окружающие противники получают 10...30 ед. урона.",
+				"concise": "Атака второй рукой. Наносит дополнительно 10...30 ед. урона цели и наносит 10...30 ед. урона окружающим противникам. Не срабатывает, если на вас не наложены чары."
+			},
+			"bork": {
+				"name": "Guldee Phueneex Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Iff yuoo aere-a nut under zee iffffects ooff un inchuntment, thees skeell meesses. Iff it heets, Guldee Phueneex Streeke-a deaels +10...30 daemaege-a und aell aedjaecent fues taeke-a 10...30 daemaege-a.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +10...30 daemaege-a tu taerget und deaels 10...30 daemaege-a tu aedjaecent fues. Faeeels iff yuoo aere-a nut inchunted."
 			}
 		}
 	}

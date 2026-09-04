@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魔比斯刺杀",
+				"description": "精英副手技。 此技能必须接续在「双重攻击」之后使用。命中时对目标敌人造成 10...35点 额外伤害，如果命中时目标敌人生命低于 50%，除此技能外的所有攻击技能全部恢复。",
+				"concise": "精英副手技。 此技能必须接续在「双重攻击」之后使用。命中时对目标敌人造成 10...35点 额外伤害，如果命中时目标敌人生命低于 50%，除此技能外的所有攻击技能全部恢复。"
+			},
+			"cht": {
+				"name": "莫比斯狙殺",
+				"description": "精英即刻攻擊： 必須接續在「雙重攻擊」之後。命中時對目標造成 10...35 額外傷害，若命中的目標體力低於 50% ，此技能外的所有攻擊技能全部回復。",
+				"concise": "精英即刻攻擊： 必須接續在「雙重攻擊」之後。命中時對目標造成 10...35 額外傷害，若命中的目標體力低於 50% ，此技能外的所有攻擊技能全部回復。"
+			},
 			"de": {
+				"name": "Möbiusstoß",
+				"description": "Elite-Begleithandangriff. Muss einem Doppelangriff folgen. Wenn Möbiusstoß erfolgreich ist, fügt dieser Angriff +10...35 Punkt[e] Schaden zu. Falls Ihr einen Feind trefft, dessen Lebenspunkte unter 50% sind, werden alle Eure anderen Angriffsfertigkeiten wieder aufgeladen.",
+				"concise": "Elite-Begleithandangriff. Richtet +10...35 Punkt[e] Schaden an. Lädt Eure anderen Angriffsfertigkeiten auf, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. Muss einem Doppelangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Möbiusstoß",
 				"description": "Muss einem Doppelangriff folgen. Wenn Möbiusstoß erfolgreich ist, fügt dieser Angriff +10...35 Punkte Schaden zu. Falls Ihr einen Feind trefft, dessen Lebenspunkte unter 50% sind, werden alle Eure anderen Angriffsfertigkeiten wieder aufgeladen.",
 				"concise": "Richtet +10...35 Punkte Schaden an. Lädt Eure anderen Angriffsfertigkeiten auf, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. <gray>Muss einem Doppelangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Moebius Strike",
+				"description": "Elite Off-Hand Attack. Must follow a Dual Attack. If it hits, Moebius Strike strikes for +10...35 damage. If you strike a foe whose Health is below 50%, all your other attack skills are recharged.",
+				"concise": "Elite Off-Hand Attack. Deals +10...35 damage. Recharges all your other attack skills if target foe's Health is below 50%. Must follow a dual attack."
+			},
+			"en-gww": {
+				"name": "Moebius Strike",
 				"description": "Must follow a Dual Attack. If it hits, Moebius Strike strikes for +10...35 damage. If you strike a foe whose Health is below 50%, all your other attack skills are recharged.",
 				"concise": "Deals +10...35 damage. Recharges all your other attack skills if target foe's Health is below 50%. <gray>Must follow a dual attack.</gray>"
 			},
+			"es": {
+				"name": "Golpe de Moebius",
+				"description": "Ataque complementario de élite. Debe ir acompañado de un ataque doble. Si impacta, hará +10...35 de daño y si golpeas a un enemigo cuya salud está por debajo del 50%, todas tus otras habilidades de ataque se recargarán.",
+				"concise": "Ataque complementario de élite. Hace +10...35 de daño. Recarga tus demás habilidades de ataque si la salud del enemigo objetivo está por debajo del 50%. Debe ir precedido de un ataque doble."
+			},
 			"fr": {
+				"name": "Frappe de Moebius",
+				"description": "Attaque main gauche d'élite. Doit succéder à une attaque d'ambidextrie. Si elle réussit, la Frappe de Moebius inflige +10...35 points de dégâts. Si vous touchez un ennemi dont la santé est inférieure à 50%, toutes vos autres compétences d'attaque seront rechargées.",
+				"concise": "Attaque main gauche d'élite. Inflige +10...35 points de dégâts. Recharge toutes vos autres compétences d'attaque si la santé de la cible ennemie est inférieure à 50%. Doit succéder à une attaque d'ambidextrie."
+			},
+			"fr-gwiki": {
 				"name": "Frappe de Moebius",
 				"description": "Doit succéder à une attaque d'ambidextrie. Si elle réussit, la Frappe de Moebius inflige +10...35 points de dégâts. Si vous touchez un ennemi dont la santé est inférieure à 50%, toutes vos autres compétences d'attaque seront rechargées.",
 				"concise": "Inflige +10...35 points de dégâts. Recharge toutes vos autres compétences d'attaque si la santé de la cible ennemie est inférieure à 50%. <gray>Doit succéder à une attaque d'ambidextrie.</gray>"
+			},
+			"it": {
+				"name": "Colpo di Moebius",
+				"description": "Attacco d'Élite con Arma Secondaria. Deve seguire un attacco doppio. Se va a segno infligge +10...35 danno[i]; se colpisci un nemico la cui Salute è inferiore al 50%, tutte le altre abilità d'attacco che hai equipaggiato vengono ricaricate.",
+				"concise": "Attacco d'Élite con Arma Secondaria. Danni inferti: +10...35. Tutte le altre abilità d'attacco che hai si ricaricano se la Salute dell'obiettivo nemico è inferiore al 50%. Deve seguire un attacco doppio."
+			},
+			"jp": {
+				"name": "メビウス ストライク",
+				"description": "エリート オフハンド アタック： このスキルは、デュアル アタックの次に使用します。攻撃が成功すると、10...35 の追加ダメージを与えます。体力が上限の50%未満の敵に攻撃が成功した場合、プレイヤーのアタック スキルはすべて再使用することができます。",
+				"concise": "エリート オフハンド アタック： 10...35 の追加ダメージを与えます。ターゲットした敵の体力が上限の50%未満の場合、他のアタック スキルをすぐに再使用することができます。このスキルは、デュアル アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "뫼비우스 공격",
+				"description": "엘리트 보조 공격. 쌍수 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 10...35의 대미지를 추가로 줍니다. 그 대상의 체력이 50% 미만이면 자신의 모든 공격 스킬이 활성화됩니다.",
+				"concise": "엘리트 보조 공격. 10...35의 대미지를 추가로 줍니다. 대상의 체력이 50% 미만이면 이 스킬을 제외한 공격 스킬이 모두 활성화됩니다. 쌍수 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Moebiusa",
+				"description": "Elitarny atak drugą ręką. Musi nastąpić po ataku podwójnym. Jeśli atak trafi, Uderzenie Moebiusa zadaje +10...35 pkt. obrażeń. Jeżeli uderzysz przeciwnika, który posiada mniej niż 50% pkt. żywotności, wszystkie twoje pozostałe umiejętności ataku zostają odnowione.",
+				"concise": "Elitarny atak drugą ręką. Zadaje +10...35 pkt. obrażeń. Odnawia twoje pozostałe umiejętności związane z atakami, jeżeli żywotność wybranego przeciwnika jest poniżej 50%. Musi nastąpić po ataku podwójnym."
+			},
+			"ru": {
+				"name": "Moebius Strike",
+				"description": "Элитная атака второй рукой. Должен следовать за двойной атакой. Если удар попадает в цель, противник получает дополнительно 10...35 ед. урона. Если удар наносился по противнику, чей уровень здоровья был ниже 50%, все другие ваши атакующие умения перезаряжаются.",
+				"concise": "Элитная атака второй рукой. Наносит дополнительно 10...35 ед. урона. Перезаряжает все ваши остальные атакующие умения, если у выбранного противника менее 50% здоровья. Должен следовать за двойной атакой."
+			},
+			"bork": {
+				"name": "Muebeeoos Streeke-a",
+				"description": "Ileete-a Ooffff-Hund Aettaeck. Moost fulloo a Dooael Aettaeck. Iff it heets, Muebeeoos Streeke-a streekes fur +10...35 daemaege-a. Iff yuoo streeke-a a fue-a vhuse-a Heaelt is beloo 50%, aell yuoor oozeer aettaeck skeells aere-a rechaerged.",
+				"concise": "Ileete-a Ooffff-Hund Aettaeck. Deaels +10...35 daemaege-a. Rechaerges aell yuoor oozeer aettaeck skeells iff taerget fue-a's Heaelt is beloo 50%. Moost fulloo a dooael aettaeck."
 			}
 		}
 	}

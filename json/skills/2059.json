@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Shell Shock",
+				"description": "咒文。 Target foe is struck for 10...30 lightning damage and has Cracked Armor for 5...20 seconds. This spell has 25% armor penetration.",
+				"concise": "咒文。 Deals 10...30 lightning damage. Inflicts Cracked Armor condition (5...20 seconds). 25% armor penetration."
+			},
+			"cht": {
+				"name": "防罩衝擊",
+				"description": "咒文魔法： 使目標敵人受到 10...30 閃電傷害，並遭受「碎甲」 5...20 秒。此魔法有 25% 防禦穿透機率。",
+				"concise": "咒文魔法： 使目標敵人受到 10...30 閃電傷害，並遭受「碎甲」 5...20 秒。"
+			},
 			"de": {
+				"name": "Kriegsneurose",
+				"description": "Zauber. Der Gegner erleidet 10...30 Punkte Blitzschaden und leidet 5...20 Sekunden lang an Beschädigter Rüstung. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, trifft dieser Zauber umstehende Feinde.",
+				"concise": "Zauber. Richtet 10...30 Punkte Blitzschaden an. Verursacht den Zustand Beschädigte Rüstung (5...20 Sekunden). 25% Rüstungsdurchdringung. Wenn Überzaubert, werden auch umstehende Gegner getroffen."
+			},
+			"de-guildwiki": {
 				"name": "Kriegsneurose",
 				"description": "Der Gegner erleidet 10...30 Punkte Blitzschaden und leidet 5...20 Sekunden lang an Beschädigter Rüstung. Dieser Zauber hat eine Rüstungsdurchdringung von 25%. Wenn Ihr Überzaubert seid, trifft dieser Zauber umstehende Feinde.",
 				"concise": "Richtet 10...30 Punkte Blitzschaden an. Verursacht den Zustand Beschädigte Rüstung (5...20 Sekunden). 25% Rüstungsdurchdringung. Wenn Überzaubert, werden auch umstehende Gegner getroffen."
 			},
 			"en": {
 				"name": "Shell Shock",
+				"description": "Spell. Target foe is struck for 10...30 lightning damage and has Cracked Armor for 5...20 seconds. This spell has 25% armor penetration. If you are Overcast, this spell strikes adjacent foes.",
+				"concise": "Spell. Deals 10...30 lightning damage. Inflicts Cracked Armor condition (5...20 seconds). 25% armor penetration. If Overcast, strikes adjacent."
+			},
+			"en-gww": {
+				"name": "Shell Shock",
 				"description": "Target foe is struck for 10...30 lightning damage and has Cracked Armor for 5...20 seconds. This spell has 25% armor penetration. If you are Overcast, this spell strikes adjacent foes.",
 				"concise": "Deals 10...30 lightning damage. Inflicts Cracked Armor condition (5...20 seconds). 25% armor penetration. If Overcast, strikes adjacent."
 			},
+			"es": {
+				"name": "Descarga de caparazón",
+				"description": "Conjuro. El enemigo objetivo recibe 10...30 de daño de relámpago y tiene la armadura rota durante 5...20 segundos. Este conjuro tiene un 25% de penetración de armadura. Si estás sobrelanzando, este conjuro golpea a los enemigos adyacentes.",
+				"concise": "Conjuro. Causa 10...30 de daño de relámpago. Causa armadura rota (5...20 segundos). 25% de penetración de armadura. Si estás sobrelanzando, golpea a los adyacentes."
+			},
 			"fr": {
+				"name": "Traumatisme",
+				"description": "Sort. La cible ennemie subit 10...30 points de dégâts de la foudre et a une Armure brisée pendant 5...20 secondes. Ce sort a 25% de pénétration d'armure. Si vous êtes en état d'Afflux, ce sort frappe les ennemis adjacents.",
+				"concise": "Sort. Inflige 10...30 points de dégâts de la foudre. Inflige la condition Armure brisée (5...20 secondes). 25% de pénétration d'armure. En état d'Afflux, affecte les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Traumatisme",
 				"description": "L'ennemi ciblé subit 10...40 points de dégâts de la foudre et a une Armure brisée pendant 5...20 secondes. Ce sort à une pénétration d'armure de 25%.",
 				"concise": "Inflige 10...40 points de dégâts de la foudre. Inflige la condition Armure brisée (5...20 secondes). Pénétration d'armure de 25%."
+			},
+			"it": {
+				"name": "Psicosi Traumatica",
+				"description": "Magia. L'obiettivo nemico subisce 10...30 danni da fulmine e soffre di Armatura Incrinata per 5...20 secondi. Questa magia ha una penetrazione dell'armatura del 25%. Se sei sotto Sforzo, questa magia colpisce i nemici adiacenti.",
+				"concise": "Magia. Danni da fulmine inferti: 10...30. Condizione inflitta: Armatura Incrinata (5...20 secondi). Penetrazione armatura: 25%. Se sotto Sforzo, colpisce gli adiacenti."
+			},
+			"jp": {
+				"name": "シェル ショック",
+				"description": "スペル： ターゲットした敵に 10...30 のライトニング ダメージを与え、5...20 秒間「防具破損」状態にします。このスペルには25%のアーマー貫通効果があります。プレイヤーが「疲労」状態の場合、隣接する敵も攻撃します。",
+				"concise": "スペル： 10...30 のライトニング ダメージを与えて「防具破損」状態にします (5...20 秒)。この攻撃には25%のアーマー貫通効果があります。「疲労」状態の場合、隣接する敵も攻撃します。"
+			},
+			"kr": {
+				"name": "외피 충격",
+				"description": "마법. 대상에게 10...30의 번개 대미지를 주고, 5...20초 동안 방어 손상을 입힙니다. 이 마법은 25%의 갑옷 관통 효과를 갖습니다. 자신이 탈진 상태면 인접한 모든 적에게 효과를 줍니다.",
+				"concise": "마법. 10...30의 번개 대미지를 주고, 방어 손상을 입힙니다.(5...20초) 25%의 갑옷 관통 효과를 갖습니다. 자신이 탈진 상태면 인접한 모든 적에게 효과를 줍니다."
+			},
+			"pl": {
+				"name": "Wstrząs Pancerza",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 10...30 pkt. obrażeń od elektryczności a jego zbroja pęka na 5...20 sek. To zaklęcie ma 25% penetrację pancerza. Jeśli jesteś pod wpływem Przemagicznienia, to zaklęcie trafia również pobliskich wrogów.",
+				"concise": "Czar. Zadaje 10...30 pkt. obrażeń od elektryczności. Wywołuje przypadłość pęknięta zbroja (5...20 sek.). 25% penetracji pancerza. Podczas Przemagicznienia trafia pobliskich."
+			},
+			"ru": {
+				"name": "Shell Shock",
+				"description": "Заклинание. Выбранный противник получает 10...30 ед. урона, и у него в течение 5...20 сек будут треснувшие доспехи. Это заклинание игнорирует 25% защиты противника. Если вы утомлены, это заклинание поражает окружающих противников.",
+				"concise": "Заклинание. Наносит 10...30 ед. урона силой молнии. Накладывает треснувшие доспехи (5...20 сек). Игнорирует 25% защиты противника. Поражает окружающих противников, если вы утомлены."
+			},
+			"bork": {
+				"name": "Shell Shuck",
+				"description": "Spell. Taerget fue-a is stroock fur 10...30 leeghtneeng daemaege-a und haes Craecked Aermur fur 5...20 secunds. Thees spell haes 25% aermur penetraeshun. Iff yuoo aere-a Oofercaest, thees spell streekes aedjaecent fues.",
+				"concise": "Spell. Deaels 10...30 leeghtneeng daemaege-a. Inffleects Craecked Aermur cundeeshun (5...20 secunds). 25% aermur penetraeshun. Iff Oofercaest, streekes aedjaecent."
 			}
 		}
 	}

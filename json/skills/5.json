@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魔法禁锢",
+				"description": "精英咒文。 打断目标正在施放的法术。并且使其在 1...12秒 内无法使用该系所有法术。",
+				"concise": "精英咒文。 打断目标正在施放的法术。并且使其在 1...12秒 内无法使用该系所有法术。"
+			},
+			"cht": {
+				"name": "強力封鎖",
+				"description": "精英咒文魔法： 中斷目標敵人正在施展的「魔法」或「聖歌」。而且使該目標被中斷的技能及所有同屬性的技能，在 1...12 秒內無法使用。",
+				"concise": "精英咒文魔法： 中斷目標敵人正在施展的「魔法」。而且使該目標被中斷的「魔法」及所有同屬性的「魔法」在 1...12 秒內無法使用。"
+			},
 			"de": {
+				"name": "Kraftblock",
+				"description": "Elite-Zauber. Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und diese Fertigkeit und alle Fertigkeiten desselben Attributs 1...12 Sekunde[n] lang deaktiviert.",
+				"concise": "Elite-Zauber. Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und diese Fertigkeit und alle Fertigkeiten desselben Attributs 1...12 Sekunde[n] lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Kraftblock",
 				"description": "Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird dieser unterbrochen und diese Fertigkeit und alle Fertigkeiten desselben Attributs 1...12 Sekunden lang deaktiviert.",
 				"concise": "Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Diese Fertigkeit und alle Fertigkeiten ihres Attributs werden für den Gegner 1...12 Sekunden lang deaktiviert."
 			},
 			"en": {
 				"name": "Power Block",
+				"description": "Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled for 1...12 seconds and that skill is interrupted.",
+				"concise": "Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled (1...12 seconds) and that skill is interrupted."
+			},
+			"en-gww": {
+				"name": "Power Block",
 				"description": "If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled for 1...12 seconds and that skill is interrupted.",
 				"concise": "If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled (1...12 seconds) and that skill is interrupted."
 			},
+			"es": {
+				"name": "Bloqueo de poder",
+				"description": "Conjuro de élite. Si el enemigo objetivo está lanzando un conjuro o cántico, se cancelará, y esa habilidad y todas las del mismo atributo quedarán anuladas durante 1...12 segundos.",
+				"concise": "Conjuro de élite. Si el enemigo objetivo está lanzando un conjuro o cántico, se cancelará, y esa habilidad y todas las del mismo atributo quedarán anuladas (1...12 segundos)."
+			},
 			"fr": {
+				"name": "Blocage de pouvoir",
+				"description": "Sort d'élite. Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue. Cette compétence et toutes les autres compétences de la même caractéristique sont également inutilisables pendant 1...12 secondes.",
+				"concise": "Sort d'élite. Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue. Cette compétence et toutes les autres compétences de la même caractéristique sont également inutilisables (pendant 1...12 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Blocage de pouvoir",
 				"description": "Si l'ennemi visé est en train de lancer un sort ou un chant, cette compétence est interrompue. Cette compétence et toutes les autres compétences de la même caractéristique sont également inutilisables pendant 1...16 secondes.",
 				"concise": "Interrompt un sort ou un chant. Effet de l'interruption : cette compétence et toutes les autres compétences de la même caractéristique sont inutilisables (1...16 secondes) pour l'ennemi visé."
+			},
+			"it": {
+				"name": "Blocco del Potere",
+				"description": "Magia d'Élite. Se l'obiettivo nemico ha attivato una magia o un canto, l'abilità e tutte le altre abilità con lo stesso attributo vengono disattivate per 1...12 secondi e l'abilità viene interrotta.",
+				"concise": "Magia d'Élite. Se l'obiettivo nemico ha attivato una magia o un canto, l'abilità e tutte le altre abilità con lo stesso attributo vengono disattivate (1...12 secondi) e l'abilità viene interrotta."
+			},
+			"jp": {
+				"name": "パワー ブロック",
+				"description": "エリート スペル： ターゲットした敵がスペルまたはチャントを詠唱中の場合、そのスキルを中断し、1...12 秒間、そのスキルおよび同じ特性スキルを封じ込めます。",
+				"concise": "エリート スペル： ターゲットした敵がスペルまたはチャントを詠唱中の場合、そのスキルを中断し、そのスキルおよび同じ特性スキルを封じ込めます (1...12 秒)。"
+			},
+			"kr": {
+				"name": "마법 차단",
+				"description": "엘리트 마법. 대상 지정: 적. 대상이 마법이나 영창을 시전하는 중이면 그 시전을 방해하고, 대상은 그와 같은 특성의 스킬을 1...12초 동안 사용할 수 없습니다.",
+				"concise": "엘리트 마법. 대상이 마법이나 영창을 시전하는 중이면 그 시전을 방해하고, 대상은 그와 같은 특성의 스킬을 사용할 수 없습니다.(1...12초)"
+			},
+			"pl": {
+				"name": "Blokada Mocy",
+				"description": "Elitarny czar. Jeśli cel rzuca właśnie czar lub pieśń, umiejętność ta oraz wszystkie umiejętności tego atrybutu zostają zablokowane na 1...12 sek., a użycie umiejętności zostaje przerwane.",
+				"concise": "Elitarny czar. Jeśli cel rzuca właśnie czar lub pieśń, umiejętność ta oraz wszystkie umiejętności tego atrybutu zostają zablokowane (1...12 sek.), a użycie umiejętności zostaje przerwane."
+			},
+			"ru": {
+				"name": "Power Block",
+				"description": "Элитное заклинание. Если выбранный противник произносит заклинание или поет хорал, это умение и все умения, связанные с тем же самым талантом, будут ему недоступны в течение 1...12 сек, а само умение будет прервано.",
+				"concise": "Элитное заклинание. Если выбранный противник произносит заклинание или поет хорал, это умение и все умения, связанные с тем же самым талантом, будут недоступны (1...12 сек), а само умение будет прервано."
+			},
+			"bork": {
+				"name": "Pooer Bluck",
+				"description": "Ileete-a Spell. Iff taerget fue-a is caesteeng a spell oor chunt, thaet skeell und aell skeells ooff zee saeme-a aettreeboote-a aere-a deesaebled fur 1...12 secunds und thaet skeell is interroopted.",
+				"concise": "Ileete-a Spell. Iff taerget fue-a is caesteeng a spell oor chunt, thaet skeell und aell skeells ooff zee saeme-a aettreeboote-a aere-a deesaebled (1...12 secunds) und thaet skeell is interroopted."
 			}
 		}
 	}

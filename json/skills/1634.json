@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "破碎斩",
+				"description": "精英双重攻击。 此技能必须接续在「副手技」之后使用。命中时，对目标敌人造成5...50点伤害，并驱散他身上的一项「增益魔法」，此技能无法被格挡。",
+				"concise": "精英双重攻击。 此技能必须接续在「副手技」之后使用。命中时，对目标敌人造成5...50点伤害，并驱散他身上的一项「增益魔法」，此技能无法被格挡。"
+			},
+			"cht": {
+				"name": "粉碎突襲",
+				"description": "精英雙重攻擊： 必須接續在「即刻攻擊」之後，命中時對目標造成 5...50 傷害並使其失去一項「加持」。此攻擊無法被「格擋」。",
+				"concise": "精英雙重攻擊： 必須接續在「即刻攻擊」之後，命中時對目標造成 5...50 傷害並使其失去一項「加持」。此攻擊無法被「格擋」。"
+			},
 			"de": {
+				"name": "Vernichtender Angriff",
+				"description": "Elite-Doppelangriff. Muss einem Begleithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt Ihr 5...50 Punkt[e] Schaden zu und der Gegner verliert eine Verzauberung. Dieser Angriff kann nicht geblockt werden.",
+				"concise": "Elite-Doppelangriff. Richtet 5...50 Punkt[e] Schaden an. Entfernt eine Verzauberung. Kann nicht geblockt werden. Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Vernichtender Angriff",
 				"description": "Muss einem Begleithandangriff folgen. Eure Waffe verursacht 5...50 Basisschaden und für jeden erfolgreichen Treffer verliert der Gegner eine Verzauberung. Dieser Angriff kann nicht geblockt werden.",
 				"concise": "Basisschaden der Waffe auf 5...50 erhöht. Entfernt eine Verzauberung. Kann nicht geblockt werden. <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Shattering Assault",
+				"description": "Elite Dual Attack. Must follow an off-hand attack. If it hits, you deal 5...50 damage and target foe loses one enchantment. This attack cannot be blocked.",
+				"concise": "Elite Dual Attack. Deals 5...50 damage. Removes one enchantment. Unblockable. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Shattering Assault",
 				"description": "Must follow an off-hand attack. If it hits, you deal 5...50 damage and target foe loses one enchantment. This attack cannot be blocked.",
 				"concise": "Deals 5...50 damage. Removes one enchantment. Unblockable. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Asalto destructivo",
+				"description": "Ataque doble de élite. Debe ir precedido de un ataque complementario. Si impacta, harás 5...50 de daño al enemigo objetivo y perderá un encantamiento. No se puede bloquear este ataque.",
+				"concise": "Ataque doble de élite. Hace 5...50 de daño. Elimina un encantamiento. No se puede bloquear. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Assaut dévastateur",
+				"description": "Attaque ambidextre d'élite. Doit suivre une attaque main gauche. Si elle réussit, vous infligez 5...50 points de dégâts et la cible ennemie perd un enchantement. Cette attaque ne peut pas être bloquée.",
+				"concise": "Attaque ambidextre d'élite. Inflige 5...50 points de dégâts. Supprime un enchantement. Impossible à bloquer. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Assaut dévastateur",
 				"description": "Doit suivre une attaque main gauche. Si elle réussit, vous infligez 5...50 points de dégâts et la cible ennemie perd un enchantement. Cette attaque ne peut pas être bloquée.",
 				"concise": "Inflige 5...50 points de dégâts. Supprime un enchantement. Impossible à bloquer. <gray>Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Assalto Frantumante",
+				"description": "Attacco Doppio[_] d'Élite. Deve seguire un attacco con arma secondaria. Se va a segno, infliggi 5...50 danno[i] e l'obiettivo nemico perde un incantesimo. Questo attacco non può essere bloccato.",
+				"concise": "Attacco Doppio[_] d'Élite. Danni inferti: 5...50. Rimuove un incantesimo. Non bloccabile. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "シャター アサルト",
+				"description": "エリート デュアル アタック： このスキルは、オフハンド アタックの次に使用します。この攻撃が成功すると 5...50 のダメージを与え、ターゲットした敵にかけられている強化スペルが1個解除されます。この攻撃はブロックされません。",
+				"concise": "エリート デュアル アタック： 5...50 のダメージを与えて強化スペルを1個解除します。この攻撃はブロックされません。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "파괴적인 기습",
+				"description": "엘리트 쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 5...50의 대미지를 주고 대상의 강화 마법 하나를 무효화합니다. 이 공격은 막을 수 없습니다.",
+				"concise": "엘리트 쌍수 공격. 5...50의 대미지를 주고, 대상의 강화 마법 하나를 무효화합니다. 이 공격은 막을 수 없습니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Wstrząsające Natarcie",
+				"description": "Elitarny atak podwójny. Musi nastąpić po ataku drugą ręką. Jeśli trafi, zadajesz 5...50 pkt. obrażeń, a przeciwnik traci jedno zaklęcie. Atak nie może zostać zablokowany.",
+				"concise": "Elitarny atak podwójny. Zadaje 5...50 pkt. obrażeń. Usuwa jedno zaklęcie. Nie do zablokowania. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Shattering Assault",
+				"description": "Элитная двойная атака. Должен следовать за атакой второй рукой. В случае попадания вы наносите дополнительно 5...50 ед. урона, а выбранный противник теряет одни наложенные на него чары. Эту атаку нельзя блокировать.",
+				"concise": "Элитная двойная атака. Наносит 5...50 ед. урона. Снимает одни чары. Нельзя блокировать. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Shaettereeng Aessoolt",
+				"description": "Ileete-a Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, yuoo deael 5...50 daemaege-a und taerget fue-a luses oone-a inchuntment. Thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Dooael Aettaeck. Deaels 5...50 daemaege-a. Remufes oone-a inchuntment. Unbluckaeble-a. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

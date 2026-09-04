@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "附骨之蛆",
+				"description": "负面魔法。 使目标敌人遭受 1点「生命衰减」，当技能效果消失时，你将获得30...120点生命值，效果持续 20秒。",
+				"concise": "负面魔法。 在20秒之内，使目标敌人遭受1点「生命衰减」，当技能效果消失时，你将获得30...120点生命值。"
+			},
+			"cht": {
+				"name": "寄生連結",
+				"description": "降咒魔法： 使目標敵人在 20 秒內遭受體力衰減 1。當寄生連結效果結束時，你獲得 30...120 體力。",
+				"concise": "降咒魔法： 使目標敵人在 20 秒內遭受體力衰減 1。當寄生連結效果結束時，你獲得 30...120 體力。"
+			},
 			"de": {
+				"name": "Parasitäre Fesseln",
+				"description": "Verhexung. 20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1. Wenn Parasitäre Fesseln endet, wird der Wirker um 30...120 Lebenspunkt[e] geheilt.",
+				"concise": "Verhexung. (20 Sekunden.) Verursacht -1 Lebenspunktdegeneration. Wirkung am Ende: Ihr werdet um 30...120 Lebenspunkt[e] geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Parasitäre Fesseln",
 				"description": "20 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1. Wenn Parasitäre Fesseln endet, wird der Wirker um 30...120 Lebenspunkte geheilt.",
 				"concise": "20 Sekunden: Verursacht -1 Lebenspunktdegeneration. Wirkung am Ende: Ihr erhaltet 30...120 Lebenspunkte."
 			},
 			"en": {
 				"name": "Parasitic Bond",
+				"description": "Hex Spell. For 20 seconds, target foe suffers -1 Health degeneration. The caster is healed for 30...120 when Parasitic Bond ends.",
+				"concise": "Hex Spell. (20 seconds.) Causes -1 Health degeneration. End effect: you are healed for 30...120 Health."
+			},
+			"en-gww": {
+				"name": "Parasitic Bond",
 				"description": "For 20 seconds, target foe suffers -1 Health degeneration. The caster is healed for 30...120 when Parasitic Bond ends.",
 				"concise": "(20 seconds.) Causes -1 Health degeneration. End effect: you are healed for 30...120 Health."
 			},
+			"es": {
+				"name": "Vínculo parasitario",
+				"description": "Conjuro con maleficio. Durante 20 segundos, el enemigo objetivo sufre una degeneración de salud de -1. Te curarás 30...120 de salud cuando finalice el Vínculo parasitario.",
+				"concise": "Conjuro con maleficio. (20 segundos.) Causa -1 de degeneración de salud. Efecto final: ganas 30...120 de salud."
+			},
 			"fr": {
+				"name": "Lien parasitaire",
+				"description": "Maléfice. Pendant 20 secondes, l'ennemi subit une dégénération de santé de -1. Lorsque le Lien parasitaire prend fin, vous récupérez 30...120 points de vie.",
+				"concise": "Maléfice. (20 secondes.) Provoque une dégénération de santé de -1. Effet final : vous rend 30...120 points de santé."
+			},
+			"fr-gwiki": {
 				"name": "Lien parasitaire",
 				"description": "Pendant 20 secondes, l'ennemi subit une dégénération de santé de -1. Lorsque le Lien parasitaire prend fin, vous récupérez 30...120 points de vie.",
 				"concise": "(20 secondes.) Provoque une dégénération de santé de -1. Effet final : vous gagnez 30...120 points de vie."
+			},
+			"it": {
+				"name": "Legame Parassitario",
+				"description": "Fattura. Per 20 secondi, l'obiettivo nemico subisce -1 punto di Degenerazione della Salute. Quando il Legame Parassitario termina, vieni curato di 30...120 punto[i].",
+				"concise": "Fattura. (Secondi: 20) Degenerazione Salute: -1. Effetto al termine: vieni curato di 30...120 Punti Salute."
+			},
+			"jp": {
+				"name": "パラシティック ボンド",
+				"description": "弱体化スペル： 20秒間、ターゲットした敵は体力の自然回復力が1減少します。この効果が消失すると、詠唱者の体力が 30...120 回復します。",
+				"concise": "弱体化スペル： (20秒) 体力の自然回復力が1減少します。終了効果： 体力が 30...120 回復します。"
+			},
+			"kr": {
+				"name": "속박의 덫",
+				"description": "약화 마법. 대상 지정: 적. 20초 동안 대상의 체력 재생이 1만큼 감소합니다. 효과가 끝나면 자신은 30...120의 체력을 얻습니다.",
+				"concise": "약화 마법. (20초) 대상의 체력 재생이 1 감소합니다. 종료 효과: 자신은 30...120의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Pasożytnicza Więź",
+				"description": "Klątwa (czar). Przez 20 sek., wybrany przeciwnik cierpi -1 degeneracji żywotności. Rzucający ten czar otrzymuje 30...120 pkt. Żywotności gdy Pasożytnicza Więź przestanie działać.",
+				"concise": "Klątwa (czar). (20 sek.) Powoduje degenerację żywotności -1. Efekt końcowy: odzyskujesz 30...120 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Parasitic Bond",
+				"description": "Заклинание-проклятье. В течение 20 сек скорость восстановления здоровья выбранного противника уменьшается на 1 ед. Когда Parasitic Bond заканчивает свое действие, заклинатель исцеляется на 30...120 ед. здоровья.",
+				"concise": "Заклинание-проклятье. (20 сек) Уменьшает cкорость восстановления здоровья на 1 ед. Эффект при окончании: вы исцеляетесь на 30...120 ед. здоровья."
+			},
+			"bork": {
+				"name": "Paeraeseeteec Bund",
+				"description": "Hex Spell. Fur 20 secunds, taerget fue-a sooffffers -1 Heaelt degeneraeshun. Zee caester is heaeled fur 30...120 vhee Paeraeseeteec Bund inds.",
+				"concise": "Hex Spell. (20 secunds.) Cooses -1 Heaelt degeneraeshun. Ind iffffect: yuoo aere-a heaeled fur 30...120 Heaelt."
 			}
 		}
 	}

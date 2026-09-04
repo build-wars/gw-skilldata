@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "末日",
+				"description": "咒文。 依照恢复中的「缚灵仪式」技能数量，每一个给予敌人 10...60 的闪电伤害。(最多积累至 135 个)",
+				"concise": "咒文。 依照恢复中的「缚灵仪式」技能数量，每一个给予敌人 10...60 的闪电伤害。(最多积累至 135 个)"
+			},
+			"cht": {
+				"name": "末日",
+				"description": "咒文魔法： 依照回復中的「縛靈儀式」技能數量，每一個給予敵人 10...60 的閃電傷害。(最大 135 )",
+				"concise": "咒文魔法： 依照回復中的「縛靈儀式」技能數量，每一個給予敵人 10...60 的閃電傷害。(最大 135 )"
+			},
 			"de": {
+				"name": "Untergang",
+				"description": "Zauber. Der Gegner erleidet für jedes Binderitual, das Ihr habt und das wieder aufgeladen wird, 10...60 Punkt[e] Blitzschaden (maximal 135).",
+				"concise": "Zauber. Richtet für jedes Eurer sich aufladenden Binderituale 10...60 Punkt[e] Blitzschaden an (maximal 135)."
+			},
+			"de-guildwiki": {
 				"name": "Untergang",
 				"description": "Der Gegner erleidet für jedes Binderitual, das Ihr habt und das wieder aufgeladen wird, 10...60 Punkte Blitzschaden (maximal 135).",
 				"concise": "Richtet für jedes Eurer sich aufladenden Binderituale 10...60 Punkte Blitzschaden an (maximal 135)."
 			},
 			"en": {
 				"name": "Doom",
+				"description": "Spell. Strike target foe for 10...60 lightning (maximum 135) damage for every recharging binding ritual you have.",
+				"concise": "Spell. Deals 10...60 lightning damage (maximum 135) for each of your recharging binding rituals."
+			},
+			"en-gww": {
+				"name": "Doom",
 				"description": "Strike target foe for 10...60 lightning (maximum 135) damage for every recharging binding ritual you have.",
 				"concise": "Deals 10...60 lightning damage (maximum 135) for each of your recharging binding rituals."
 			},
+			"es": {
+				"name": "Maldición",
+				"description": "Conjuro. Haces 10...60 de daño de relámpago (máximo 135) al enemigo objetivo por cada ritual de encadenamiento de espíritus recargándose que tengas.",
+				"concise": "Conjuro. Hace +10...60 de daño relámpago (daño máximo: 135) por cada ritual con espíritus recargándose."
+			},
 			"fr": {
+				"name": "Destinée",
+				"description": "Sort. Vous infligez à l'ennemi 10...60 points de dégâts de la foudre (135 points maximum) pour chaque rituel d'asservissement en recharge que vous avez.",
+				"concise": "Sort. Inflige 10...60 points de dégâts de la foudre (maximum : 135) pour chacun de vos rituels d'asservissement se rechargeant."
+			},
+			"fr-gwiki": {
 				"name": "Destinée",
 				"description": "Vous infligez à l'ennemi 10...60 points de Dégâts de foudre (maximum 135 points) pour chaque Rituel d'asservissement en recharge que vous avez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fato",
+				"description": "Magia. Infliggi all'obiettivo nemico 10...60 danno[i] da fulmine (max. 135) per ogni rituale incatenante equipaggiato che si sta ricaricando.",
+				"concise": "Magia. Assesta 10...60 danno[i] da fulmine (max 135) per ogni rituale incatenante che si sta ricaricando."
+			},
+			"jp": {
+				"name": "ドゥーム",
+				"description": "スペル： 再使用準備中のバインド リチュアルごとに、ターゲットした敵に 10...60 のライトニング ダメージを与えます (最大 135)。",
+				"concise": "スペル： 再使用準備中のバインド リチュアル スキルごとに、10...60 のライトニング ダメージを与えます (最大 135)。"
+			},
+			"kr": {
+				"name": "예정된 충격",
+				"description": "마법. 대상 지정: 적. 재활성 중인 영혼 결속 종류의 스킬 하나당 10...60의 번개 대미지를 대상에게 줍니다. 최대 135의 대미지를 줄 수 있습니다.",
+				"concise": "마법. 재활성 중인 영혼 결속 종류의 스킬 하나당 10...60씩, 최대 135의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Zagłada",
+				"description": "Czar. Zadaj wybranemu przeciwnikowi 10...60 pkt. obrażeń od błyskawic (maksymalnie 135) za każdy odnawiający się rytuał spętania, który posiadasz.",
+				"concise": "Czar. Zadaje 10...60 pkt. obrażeń od błyskawic (maksymalnie 135) za każdy odnawiający się rytuał spętania."
+			},
+			"ru": {
+				"name": "Doom",
+				"description": "Заклинание. Наносит выбранному противнику 10...60 ед. урона силой молнии (максимально 135 ед.) за каждый перезаряжающийся у вас в этот момент связующий ритуал.",
+				"concise": "Заклинание. Наносит 10...60 ед. урона силой молнии (но не более 135 ед.) за каждый перезаряжающийся у вас связующий ритуал."
+			},
+			"bork": {
+				"name": "Duum",
+				"description": "Spell. Streeke-a taerget fue-a fur 10...60 leeghtneeng (maexeemoom 135) daemaege-a fur ifery rechaergeeng beendeeng reetooael yuoo haefe-a.",
+				"concise": "Spell. Deaels 10...60 leeghtneeng daemaege-a (maexeemoom 135) fur iaech ooff yuoor rechaergeeng beendeeng reetooaels."
 			}
 		}
 	}

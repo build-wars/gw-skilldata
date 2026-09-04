@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Signet of Recall",
+				"description": "纹章。 For 6 seconds, you have -4 Energy regeneration. When this effect ends, you gain 13...20 Energy.",
+				"concise": "纹章。 (6 seconds.) You have -4 Energy regeneration. End effect: you gain 13...20 Energy."
+			},
+			"cht": {
+				"name": "回歸紋章",
+				"description": "紋章： 持續 6 秒，你遭受 - 4 能量衰減。當此效果終止時，你獲得 13...20 能量。",
+				"concise": "紋章： 持續 6 秒，你遭受 - 4 能量衰減。當此效果終止時，你獲得 13...20 能量。"
+			},
 			"de": {
+				"name": "Siegel der Zurückrufung",
+				"description": "Siegel. 6 Sekunde[n] lang beträgt Eure Energieregeneration -4. Wenn dieser Effekt endet, erhaltet Ihr 13...20 Energiepunkt[e].",
+				"concise": "Siegel. 6 Sekunde[n]: Ihr habt -4 Energieregeneration. Wirkung am Ende: Ihr erhaltet 13...20 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Zurückrufung",
 				"description": "6 Sekunden lang beträgt Eure Energieregeneration -4. Wenn dieser Effekt endet, erhaltet Ihr 13...20 Energiepunkte.",
 				"concise": "6 Sekunden: Ihr habt -4 Energieregeneration. Wirkung am Ende: Ihr erhaltet 13...20 Energiepunkte."
 			},
 			"en": {
 				"name": "Signet of Recall",
+				"description": "Signet. For 6 seconds, you have -4 Energy regeneration. When this effect ends, you gain 13...20 Energy.",
+				"concise": "Signet. (6 seconds.) You have -4 Energy regeneration. End effect: you gain 13...20 Energy."
+			},
+			"en-gww": {
+				"name": "Signet of Recall",
 				"description": "For 6 seconds, you have -4 Energy regeneration. When this effect ends, you gain 13...20 Energy.",
 				"concise": "(6 seconds.) You have -4 Energy regeneration. End effect: you gain 13...20 Energy."
 			},
+			"es": {
+				"name": "Sello del recuerdo",
+				"description": "Sello. Durante 6 segundos, tienes -4 de regeneración de energía. Cuando este efecto acabe, ganas 13...20 de energía.",
+				"concise": "Sello. (6 segundos). Tienes -4 de regeneración de energía. Efecto final: ganas 13...20 de energía."
+			},
 			"fr": {
+				"name": "Sceau de Rappel",
+				"description": "Sceau. Pendant 6 secondes, vous subissez une dégénération d'énergie de -4. Lorsque cet effet prend fin, vous recevez 13...20 points d'énergie.",
+				"concise": "Sceau. (6 secondes.) Vous bénéficiez d'une régénération d'énergie de -4. Effet final : vous gagnez 13...20 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de Rappel",
 				"description": "Pendant 6 secondes, vous subissez une dégénération d'énergie de -4. Lorsque cet effet prend fin, vous recevez 13...20 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Richiamo",
+				"description": "Sigillo. Per 6 secondo[i], hai una Rigenerazione dell'Energia di -4. Quando questo effetto termina ottieni 13...20 Punto[i] Energia.",
+				"concise": "Sigillo. (Secondi: 6) Rigenerazione tua Energia: -4. Effetto al termine: ottieni 13...20 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "リコール シグネット",
+				"description": "シグネット： 6 秒間、エネルギーの自然回復力が4減少します。この効果が消失すると、13...20 のエネルギーを獲得します。",
+				"concise": "シグネット： (6 秒) エネルギーの自然回復力が4減少します。終了効果： 13...20 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "회수 인장",
+				"description": "인장. 대상 지정: 없음. 6초 동안 에너지 재생이 4 감소합니다. 효과가 끝나면 13...20의 에너지를 회복합니다.",
+				"concise": "인장. (6초) 에너지 재생이 4만큼 감소합니다. 종료 효과: 13...20의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Przypomnienia",
+				"description": "Sygnet. Przez 6 sek., posiadasz regenerację energii -4. Kiedy efekt przestanie działać, otrzymujesz 13...20 pkt. energii.",
+				"concise": "Sygnet. (6 sek.) Posiadasz degenerację energii -4. Efekt końcowy: otrzymujesz 13...20 pkt. energii."
+			},
+			"ru": {
+				"name": "Signet of Recall",
+				"description": "Печать. В течение 6 сек ваша скорость восстановления энергии уменьшается на 4 ед. Когда этот эффект заканчивается, вы получаете 13...20 ед. энергии.",
+				"concise": "Печать. (6 сек) Вы получаете -4 ед. к скорости восстановления энергии. Эффект окончания: вы получаете 13...20 ед. энергии."
+			},
+			"bork": {
+				"name": "Seegnet ooff Recaell",
+				"description": "Seegnet. Fur 6 secunds, yuoo haefe-a -4 Inergy regeneraeshun. Vhee thees iffffect inds, yuoo gaeeen 13...20 Inergy.",
+				"concise": "Seegnet. (6 secunds.) Yuoo haefe-a -4 Inergy regeneraeshun. Ind iffffect: yuoo gaeeen 13...20 Inergy."
 			}
 		}
 	}

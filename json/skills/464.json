@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灭绝之地",
+				"description": "自然仪式。 创造一只等级为1...10的灭绝精灵。每当区域内有非灵体类生物死亡时，所有作用范围内的，生命值低于90%的同种类生物将受到14...50点 伤害。灭绝精灵在30...240秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的灭绝精灵。每当区域内有非灵体类生物死亡时，所有作用范围内的、生命值低于90%的同种类生物将受到14...50点伤害。灭绝精灵在30...240秒后消失。"
+			},
+			"cht": {
+				"name": "滅絕之地",
+				"description": "自然儀式： 創造一隻等級 1...10 的滅絕精靈。每當區域內有生物死亡時，在滅絕精靈範圍內體力低於 90 %的同種類生物將受到 14...50 傷害。滅絕精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的滅絕精靈。每當區域內有生物死亡時，在滅絕精靈範圍內體力低於 90 %的同種類生物將受到 14...50 傷害。滅絕精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Rand der Auslöschung",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Wenn eine Kreatur in Reichweite, die kein Geist ist, stirbt, fügt Rand der Auslöschung allen Kreaturen derselben Gattung, deren Lebenspunkte unter 90% liegen und die sich in Reichweite des Geistes befinden, 14...50 Punkt[e] Schaden zu. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Richtet bei Kreaturen in Reichweite jedes Mal 14...50 Punkt[e] Schaden an, wenn eine Kreatur derselben Gattung stirbt. Keine Wirkung auf Geister. Kein Schaden bei Kreaturen, die mehr als 90% ihrer maximalen Lebenspunkte haben."
+			},
+			"de-guildwiki": {
 				"name": "Rand der Auslöschung",
 				"description": "Erstellt einen Geist der Stufe 1...10. Wenn eine Kreatur in Reichweite, die kein Geist ist, stirbt, fügt \"Rand der Auslöschung\" allen Kreaturen derselben Gattung, deren Lebenspunkte unter 90% liegen und die sich in Reichweite des Geistes befinden, 14...50 Punkte Schaden zu. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Richtet bei Kreaturen in Reichweite jedes Mal 14...50 Punkte Schaden an, wenn eine Kreatur derselben Gattung stirbt. Keine Wirkung auf Geister. <gray>Kein Schaden bei Kreaturen, die 90% oder mehr ihrer maximalen Lebenspunkte haben.</gray>"
 			},
 			"en": {
 				"name": "Edge of Extinction",
+				"description": "Nature Ritual. Create a level 1...10 spirit. If a non-spirit creature within range dies, Edge of Extinction deals 14...50 damage to all creatures of the same type that are below 90% Health and within range of the spirit. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Deals 14...50 damage to creatures in its range whenever a creature of the same type dies. Does not affect spirits. No damage to creatures above 90% Health."
+			},
+			"en-gww": {
+				"name": "Edge of Extinction",
 				"description": "Create a level 1...10 spirit. If a non-spirit creature within range dies, Edge of Extinction deals 14...50 damage to all creatures of the same type that are below 90% Health and within range of the spirit. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Deals 14...50 damage to creatures in its range whenever a creature of the same type dies. Does not affect spirits. <gray>No damage to creatures above 90% Health.</gray>"
 			},
+			"es": {
+				"name": "Filo de extinción",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Si alguna criatura no espíritu muere dentro de su zona, el Filo de extinción hará 14...50 de daño a todas las criaturas del mismo tipo que estén por debajo del 90% de salud y dentro de su zona. El espíritu morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...240 segundos de vida). Hace 14...50 de daño a las criaturas de la zona siempre que alguna del mismo tipo muera. No afecta a los espíritus. No afecta a las criaturas por encima del 90% de salud."
+			},
 			"fr": {
+				"name": "Voie d'extinction",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Si une créature (autre qu'un esprit) dans sa portée meurt, la Voie d'extinction inflige 14...50 points de dégâts à toutes les créatures de même type qui ont moins de 90% de santé et sont à portée de l'esprit. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Il inflige 14...50 points de dégâts aux créatures à sa portée chaque fois qu'une créature du même type meurt. N'affecte pas les esprits. Les créatures qui ont plus de 90% de santé ne subissent aucun dégât."
+			},
+			"fr-gwiki": {
 				"name": "Voie d'extinction",
 				"description": "Crée un esprit de niveau 1...10. Si une créature (autre qu'un esprit) dans sa portée meurt, la Voie d'extinction inflige 14...50 points de dégâts à toutes les créatures de même type qui ont moins de 90% de santé et sont à portée de l'esprit. Cet esprit disparaît au bout de 30...240 secondes.",
 				"concise": "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Il inflige 14...50 points de dégâts aux créatures à sa portée chaque fois qu'une créature du même type meurt. N'affecte pas les esprits. <gray>Les créatures qui ont plus de 90% de santé ne subissent aucun dégât.</gray>"
+			},
+			"it": {
+				"name": "Limite dell'Estinzione",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Ogni volta che una creatura (Spiriti esclusi) nella sua portata muore, il Limite dell'Estinzione infligge 14...50 danno[i] a tutte le creature simili nei dintorni la cui Salute è inferiore al 90% e che si trovano nella portata dello Spirito. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Assesta 14...50 danno[i] alle creature nella portata ogni volta che muore una creatura della stessa specie. Non ha effetto sugli Spiriti. Nessun danno alle creature con Salute superiore al 90%."
+			},
+			"jp": {
+				"name": "エクスティンクション エッジ",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内で精霊以外の生物が戦闘不能になると、範囲内にいる体力が上限の90%未満の同種の生物に 14...50 のダメージを与えます。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内では、生物が戦闘不能になると範囲内にいる同種の生物に 14...50 のダメージを与えます。精霊は対象外です。体力が上限の90%より多い生物はダメージを受けません。"
+			},
+			"kr": {
+				"name": "전멸의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 영혼을 중심으로 일정 범위 내에서 영혼이 아닌 전사자가 생기면 전사자와 같은 종족이면서 체력이 90% 미만이면 14...50의 대미지를 입습니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 전사자가 생기면 전사자와 같은 종족은 14...50의 대미지를 입습니다. 체력이 90%가 넘으면 대미지를 입지 않습니다."
+			},
+			"pl": {
+				"name": "Skraj Wymarcia",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Jeśli w jego zasięgu zginie jakieś stworzenie nie-duch, to Skraj Wymarcia zada 14...50 pkt. obrażeń wszystkim stworzeniom tego samego typu w swoim zasięgu, które posiadają mniej niż 90% żywotności. Duch umiera po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Zadaje 14...50 pkt. obrażeń stworzeniom w zasięgu, za każdym razem, kiedy zginie stworzenie tego samego rodzaju. Nie działa na duchy. Bez obrażeń dla stworzeń, które mają więcej niż 90% żywotności."
+			},
+			"ru": {
+				"name": "Edge of Extinction",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Если любое не являющееся духом создание умирает в зоне его действия, Edge of Extinction наносит 14...50 ед. урона всем созданиям того же вида, чей уровень здоровья ниже 90%, и которые находятся в зоне действия этого духа. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Наносит 14...50 ед. урона созданиям в зоне его действия каждый раз, когда умирает создание того же вида. Не воздействует на духов. Не наносит урона созданиям, чье здоровье выше 90%."
+			},
+			"bork": {
+				"name": "Idge-a ooff Ixteencshun",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Iff a nun-spureet creaetoore-a veetheen runge-a deees, Idge-a ooff Ixteencshun deaels 14...50 daemaege-a tu aell creaetoores ooff zee saeme-a type-a thaet aere-a beloo 90% Heaelt und veetheen runge-a ooff zee spureet. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Deaels 14...50 daemaege-a tu creaetoores in its runge-a vhenefer a creaetoore-a ooff zee saeme-a type-a deees. Dues nut aeffffect spureets. Nu daemaege-a tu creaetoores aebufe-a 90% Heaelt."
 			}
 		}
 	}

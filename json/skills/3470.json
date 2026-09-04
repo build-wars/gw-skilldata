@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "刹那",
+				"description": "Flash Enchantment Spell。 在2...8秒之内，你将无法被击倒。如果此「增益魔法」自然消失，你将倒地。",
+				"concise": "Flash Enchantment Spell。 在2...8秒之内，你将无法被击倒。如果此「增益魔法」自然消失，你将倒地。"
+			},
+			"cht": {
+				"name": "短促穩定",
+				"description": "即刻加持魔法： 持續 2...8 秒，你的移動速度增加 25% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。",
+				"concise": "即刻加持魔法： 持續 2...8 秒，你的移動速度增加 25% 且無法被擊倒，若成功防止一次擊倒，則此加持提前終止。"
+			},
 			"de": {
+				"name": "Flüchtige Stabilität",
+				"description": "Blitzverzauberung. Während der nächsten 2...8 Sekunde[n] könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
+				"concise": "Blitzverzauberung. (2...8 Sekunde[n].) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
+			},
+			"de-guildwiki": {
 				"name": "Flüchtige Stabilität (PvP)",
 				"description": "Während der nächsten 2...8 Sekunden könnt Ihr nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Diese Verzauberung endet vorzeitig, wenn sie verhindert, dass Ihr zu Boden geworfen werdet.",
 				"concise": "(2...8 Sekunden.) Ihr könnt nicht zu Boden geworfen werden und bewegt Euch um 25% schneller. Endet, wenn sie verhindert, dass Ihr zu Boden geworfen werdet."
 			},
 			"en": {
 				"name": "Fleeting Stability (PvP)",
+				"description": "Flash Enchantment Spell. For 2...8 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
+				"concise": "Flash Enchantment Spell. (2...8 seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented."
+			},
+			"en-gww": {
+				"name": "Fleeting Stability (PvP)",
 				"description": "For 2...8 seconds, you cannot be knocked down and move 25% faster. This enchantment ends prematurely if it prevents a knockdown.",
 				"concise": "(2...8 seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented."
 			},
+			"es": {
+				"name": "Estabilidad pasajera",
+				"description": "Conjuro con encantamiento de destello. Durante 2...8 segundos, no te pueden derribar y te mueves un 25% más deprisa. Este encantamiento termina prematuramente si evita un derribo.",
+				"concise": "Conjuro con encantamiento de destello. (2...8 segundos). No te pueden derribar y te mueves un 25% más deprisa. Termina si evita un derribo."
+			},
 			"fr": {
+				"name": "Brève stabilité",
+				"description": "Enchantement instantané. Pendant 2...8 secondes, vous ne pouvez pas être assommé[f:\"assommée\"] et vous déplacez 25% plus vite. Cet enchantement prend fin prématurément s'il vous empêche d'être assommé[f:\"assommée\"].",
+				"concise": "Enchantement instantané. (2...8 secondes.) Vous ne pouvez pas être assommé[f:\"assommée\"] et vous déplacez 25% plus vite. Prend fin s'il vous empêche d'être assommé[f:\"assommée\"]."
+			},
+			"fr-gwiki": {
 				"name": "Brève stabilité (PvP)",
 				"description": "Pendant 2...8 secondes, vous ne pouvez pas être assommé et vous vous déplacez 25% plus vite. Cet enchantement prend fin prématuremént s'il vous empêche d'être assommé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Stabilità Effimera",
+				"description": "Incantesimo Lampo. Per 2...8 secondi, la tua velocità di attacco aumenta di un 25% e non puoi finire a terra. L'incantesimo finisce prematuramente se impedisce un abbattimento.",
+				"concise": "Incantesimo Lampo. (Secondi: 2...8). Aumento velocità di attacco: 25% e non puoi finire a terra. Termina se viene impedito un abbattimento."
+			},
+			"jp": {
+				"name": "フリート スタビリティ",
+				"description": "フラッシュ強化スペル： 2...8 秒間、転倒しなくなり、移動速度が 25% 増加します。転倒を阻止すると、この効果は持続時間の途中で消失します。",
+				"concise": "フラッシュ強化スペル： (2...8 秒)転倒しなくなり、移動速度が 25% 増加します。転倒を阻止すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "순간적인 안정",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 2...8초 동안 바닥에 넘어지지 않고, 이동 속도가 25% 빨라집니다. 바닥에 넘어지는 걸 막으면 효과가 일찍 끝납니다.",
+				"concise": "순간 시전 강화 마법. (2...8초) 바닥에 넘어지지 않고, 이동 속도가 25% 빨라집니다. 바닥에 넘어지는 걸 막으면 효과가 일찍 끝납니다."
+			},
+			"pl": {
+				"name": "Ulotna Stabilność",
+				"description": "Zaklęcie błysku (czar). Przez 2...8 sek., nie możesz zostać powalony i poruszasz się 25% szybciej. Zaklęcie to kończy się przed czasem, jeśli zapobiegnie powaleniu.",
+				"concise": "Zaklęcie błysku (czar). (2...8 sek.) Nie możesz zostać powalony i poruszasz się 25% szybciej. Kończy się, jeśli zapobiegnie powaleniu."
+			},
+			"ru": {
+				"name": "Fleeting Stability",
+				"description": "Мгновенное заклинание-чары. В течение 2...8 сек вас нельзя сбить с ног, и вы двигаетесь на 25% быстрее. Действие этих чар заканчивается преждевременно, если они предохранили вас от сбивания с ног.",
+				"concise": "Мгновенное заклинание-чары. (2...8 сек) Вас нельзя сбить с ног, и вы двигаетесь на 25% быстрее. Заканчивается, если вас не удалось сбить с ног."
+			},
+			"bork": {
+				"name": "Fleeteeng Staebeeleety (PfP)",
+				"description": "Flaesh Inchuntment Spell. Fur 2...8 secunds, yuoo cunnut be-a knucked doon und mufe-a 25% faester. Thees inchuntment inds premaetoorely iff it prefents a knuckdoon.",
+				"concise": "Flaesh Inchuntment Spell. (2...8 secunds.) Yuoo cunnut be-a knucked doon und mufe-a 25% faester. Inds iff knuckdoon prefented."
 			}
 		}
 	}

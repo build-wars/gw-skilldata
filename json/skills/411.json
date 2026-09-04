@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 10,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "诱捕动物",
+				"description": "技能。 诱捕目标动物。一旦诱捕成功，当你装备此技能时，你的宠物就会与你一同旅行。",
+				"concise": "技能。 诱捕目标动物。一旦诱捕成功，当你装备此技能时，你的宠物就会与你一同旅行。"
+			},
+			"cht": {
+				"name": "迷魅動物",
+				"description": "技能： 迷魅目標動物。一旦迷魅成功，只要你裝備此技能時，你的寵物夥伴將會與你一同旅行。你無法迷魅任何比高於你4等級的動物。",
+				"concise": "技能： 迷魅目標動物。一旦迷魅成功，只要你裝備此技能時，你的寵物夥伴將會與你一同旅行。你無法迷魅任何比高於你4等級的動物。"
+			},
 			"de": {
+				"name": "Tier zähmen",
+				"description": "Fertigkeit. Das Tier wird gezähmt. Einmal gezähmt, reist Euer Tiergefährte mit Euch, wann immer Ihr die Fertigkeit \"Tier zähmen\" benutzt. Tiere, die mehr als 4 Stufen höher als Ihr stehen, können nicht gezähmt werden.",
+				"concise": "Fertigkeit. Das Tier wird gezähmt. Einmal gezähmt, reist Euer Tiergefährte mit Euch, wann immer Ihr die Fertigkeit \"Tier zähmen\" benutzt. Tiere, die mehr als 4 Stufen höher als Ihr stehen, können nicht gezähmt werden."
+			},
+			"de-guildwiki": {
 				"name": "Tier zähmen",
 				"description": "Das Tier wird gezähmt. Einmal gezähmt, reist euer Tiergefährte mit Euch, wann immer Ihr Tier zähmen benutzt. Tiere, die mehr als 4 Stufen höher als Ihr stehen, können nicht gezähmt werden.",
 				"concise": "Das Tier wird gezähmt. Einmal gezähmt, reist Euer Tiergefährte mit Euch, wann immer Ihr \"Tier zähmen\" ausgerüstet habt. <gray>Tiere, die mehr als 4 Stufen höher als Ihr stehen, können nicht gezähmt werden.</gray>"
 			},
 			"en": {
 				"name": "Charm Animal",
+				"description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you.",
+				"concise": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you."
+			},
+			"en-gww": {
+				"name": "Charm Animal",
 				"description": "Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you.",
 				"concise": "Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. <gray>You cannot charm an animal that is more than 4 levels above you.</gray>"
 			},
+			"es": {
+				"name": "Encantar animal",
+				"description": "Habilidad. Encantar al animal objetivo. Una vez encantado, tu compañero animal viajará contigo siempre que tengas equipado Encantar animal. No es posible encantar animales que estén más de 4 niveles por encima del personaje.",
+				"concise": "Habilidad. Encantar al animal objetivo. Una vez encantado, tu compañero animal viajará contigo siempre que tengas equipado Encantar animal. No es posible encantar animales que estén más de 4 niveles por encima del personaje."
+			},
 			"fr": {
+				"name": "Charme animal",
+				"description": "Compétence. Charme l'animal visé. Une fois charmé, votre familier vous suivra tant que le charme animal sera équipé. Vous ne pouvez pas charmer un animal de 4 niveaux supérieur à vous.",
+				"concise": "Compétence. Charme l'animal visé. Une fois charmé, votre familier vous suivra tant que le charme animal sera équipé. Vous ne pouvez pas charmer un animal de 4 niveaux supérieur à vous."
+			},
+			"fr-gwiki": {
 				"name": "Charme animal",
 				"description": "Charme l'animal visé. Une fois charmé, votre familier vous suivra tant que le charme animal sera équipé. (Impossible de charmer un animal qui possède plus de 4 niveaux de plus que vous.)",
 				"concise": "Charme l'animal visé. Une fois charmé, votre familier vous suivra tant que le charme animal sera équipé."
+			},
+			"it": {
+				"name": "Incanta Animale",
+				"description": "Abilità. Incanta l'animale selezionato, a meno che questo non ti sia superiore di oltre 4 livelli. Una volta incantata, la mascotte viaggerà insieme a te fino a quando manterrai attivo l'incantesimo Incanta Animale.",
+				"concise": "Abilità. Incanta l'animale selezionato, a meno che questo non ti sia superiore di oltre 4 livelli. Una volta incantata, la mascotte viaggerà insieme a te fino a quando manterrai attivo l'incantesimo Incanta Animale."
+			},
+			"jp": {
+				"name": "チャーム アニマル",
+				"description": "スキル： ターゲットした動物をペットにします。このスキルを装備していると、ペットを連れて歩くことができます。レベルが5以上高い動物は、テイムすることができません。",
+				"concise": "スキル： ターゲットした動物をペットにします。このスキルを装備していると、ペットを連れて歩くことができます。レベルが5以上高い動物は、テイムすることができません。"
+			},
+			"kr": {
+				"name": "동물 길들이기",
+				"description": "스킬. 대상 지정: 동물. 선택한 동물을 길들여 펫으로 만듭니다. 자신보다 5레벨 이상인 동물은 길들일 수 없습니다. 펫을 데리고 다른 지역으로 이동하려면 스킬 단축키 창에 이 스킬을 반드시 등록해야 합니다.",
+				"concise": "스킬. 대상 동물을 길들입니다. 스킬 단축키 창에 이 스킬을 등록하면 언제든 동물 펫과 함께 다닐 수 있습니다. 자신보다 5레벨 이상인 동물은 길들일 수 없습니다."
+			},
+			"pl": {
+				"name": "Oswojenie Zwierzęcia",
+				"description": "Umiejętność. Oswajasz wskazane zwierzę. Po oswojeniu, twój zwierzęcy towarzysz będzie z tobą podróżował, jeśli tylko na pasku umiejętności będziesz miał Oswojenie Zwierzęcia. Nie możesz oswoić zwierzęcia, które przewyższa cię więcej niż o 4 poziomy.",
+				"concise": "Umiejętność. Oswajasz wskazane zwierzę. Po oswojeniu, twój zwierzęcy towarzysz będzie z tobą podróżował, jeśli tylko na pasku umiejętności będziesz miał Oswojenie Zwierzęcia. Nie możesz oswoić zwierzęcia, które przewyższa cię więcej niż o 4 poziomy."
+			},
+			"ru": {
+				"name": "Charm Animal",
+				"description": "Умение. Приручить выбранное животное. Однажды прирученное, ваше животное будет сопровождать вас каждый раз, когда вы берете с собой Charm Animal. Вы не можете приручить животное, уровень которого больше вашего уровня на 4.",
+				"concise": "Умение. Приручить выбранное животное. Однажды прирученное, ваше животное будет сопровождать вас каждый раз, когда вы берете с собой Charm Animal. Вы не можете приручить животное, уровень которого больше вашего уровня на 4."
+			},
+			"bork": {
+				"name": "Chaerm Uneemael",
+				"description": "Skeell. Chaerm taerget uneemael. Oonce-a chaermed, yuoor uneemael cumpuneeun veell traefel veet yuoo vhenefer yuoo haefe-a Chaerm Uneemael iqooeepped. Yuoo cunnut chaerm un uneemael thaet is mure-a thun 4 lefels aebufe-a yuoo.",
+				"concise": "Skeell. Chaerm taerget uneemael. Oonce-a chaermed, yuoor uneemael cumpuneeun veell traefel veet yuoo vhenefer yuoo haefe-a Chaerm Uneemael iqooeepped. Yuoo cunnut chaerm un uneemael thaet is mure-a thun 4 lefels aebufe-a yuoo."
 			}
 		}
 	}

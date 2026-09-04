@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "剧毒",
+				"description": "精英咒文。 使带有任意「症状」的敌人追加感染「虚弱」「疾病」「中毒」，持续 3...15秒。",
+				"concise": "精英咒文。 使带有任意「症状」的敌人追加感染「虚弱」「疾病」「中毒」，持续 3...15秒。"
+			},
+			"cht": {
+				"name": "惡毒",
+				"description": "精英咒文魔法： 若目標敵人已經遭受「病症」，該目標將會被附加「衰弱」、 「疾病」、「中毒」三項病症 3...15 秒。",
+				"concise": "精英咒文魔法： 若目標敵人已經遭受「病症」，該目標將會被附加「衰弱」、 「疾病」、「中毒」三項病症 3...15 秒。"
+			},
 			"de": {
+				"name": "Ansteckung",
+				"description": "Elite-Zauber. Falls der Gegner bereits an einem Zustand leidet, leidet er 3...15 Sekunde[n] lang unter Krankheit, Gift und Schwäche.",
+				"concise": "Elite-Zauber. Verursacht Zustände Krankheit, Gift und Schwäche (3...15 Sekunde[n]). Gegner muss bereits einen Zustand haben, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Ansteckung",
 				"description": "Falls der Gegner bereits an einem Zustand leidet, leidet er 3...15 Sekunden lang unter Krankheit, Gift und Schwäche.",
 				"concise": "Verursacht Zustände Krankheit, Gift und Schwäche (3...15 Sekunden). <gray>Gegner muss bereits einen Zustand haben, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Virulence",
+				"description": "Elite Spell. If target foe was already suffering from a condition, that foe suffers from Disease, Poison, and Weakness for 3...15 seconds.",
+				"concise": "Elite Spell. Inflicts Disease, Poison, and Weakness conditions (3...15 seconds). No effect unless this foe already had a condition."
+			},
+			"en-gww": {
+				"name": "Virulence",
 				"description": "If target foe was already suffering from a condition, that foe suffers from Disease, Poison, and Weakness for 3...15 seconds.",
 				"concise": "Inflicts Disease, Poison, and Weakness conditions (3...15 seconds). <gray>No effect unless this foe already had a condition.</gray>"
 			},
+			"es": {
+				"name": "Virulencia",
+				"description": "Conjuro de élite. Si el enemigo objetivo ya tenía una condición, ese enemigo pasará a estar enfermo, envenenado y debilitado durante 3...15 segundos.",
+				"concise": "Conjuro de élite. Causa enfermedad, envenenamiento y debilitamiento (3...15 segundos). No tiene efecto a menos que el enemigo objetivo ya sufra una condición."
+			},
 			"fr": {
+				"name": "Virulence",
+				"description": "Sort d'élite. Si l'ennemi visé souffrait d'une condition, il est atteint de Maladie, d'Empoisonnement et de Faiblesse pendant 3...15 secondes.",
+				"concise": "Sort d'élite. Inflige la Maladie, l'Empoisonnement et la Faiblesse (3...15 secondes). Aucun effet si l'ennemi ne souffre pas déjà d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Virulence",
 				"description": "Si l'ennemi visé souffrait d'une condition, il est atteint de Maladie, d'Empoisonnement et de Faiblesse pendant 3...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Virulenza",
+				"description": "Magia d'Élite. Se l'obiettivo nemico risente già di una condizione, sarà colpito anche da Malattia, Veleno e Debolezza per 3...15 secondo[i].",
+				"concise": "Magia d'Élite. Condizioni inflitte: Malattia, Veleno e Debolezza (3...15 secondo[i]). Ha effetto solo se questo nemico già soffriva di una condizione."
+			},
+			"jp": {
+				"name": "ビルレンス",
+				"description": "エリート スペル： ターゲットした敵がすでに「状態異常」をかけられている場合、その敵は 3...15 秒間「疾病、毒、および衰弱」状態になります。",
+				"concise": "エリート スペル： 「疾病、毒、および衰弱」状態にします (3...15 秒)。ターゲットした敵にすでに「状態異常」がかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "역병의 전염",
+				"description": "엘리트 마법. 대상 지정: 적. 상태이상에 걸려 있는 대상은 3...15초 동안 추가로 질병과 중독, 약체 상태가 됩니다.",
+				"concise": "엘리트 마법. 대상을 질병, 중독, 약체에 걸리게 합니다.(3...15초) 대상이 이미 상태이상에 걸려 있어야 합니다."
+			},
+			"pl": {
+				"name": "Zjadliwa Choroba",
+				"description": "Elitarny czar. Jeżeli wybrany przeciwnik cierpi na jakąś przypadłość, to otrzymuje dodatkowo na 3...15 sek. chorobę, zatrucie i osłabienie.",
+				"concise": "Elitarny czar. Wywołuje przypadłości choroba, zatrucie oraz osłabienie (3...15 sek.). Bez efektu, chyba że ten przeciwnik już cierpi na przypadłość."
+			},
+			"ru": {
+				"name": "Virulence",
+				"description": "Элитное заклинание. Если на выбранного противника уже наложено какое-либо состояние, этот противник также заболеет, будет отравлен и поражен слабостью на 3...15 сек.",
+				"concise": "Элитное заклинание. Вызывает болезнь, отравление и слабость (3...15 сек). Не действует, если на этом противнике нет какого-либо состояния."
+			},
+			"bork": {
+				"name": "Furoolence-a",
+				"description": "Ileete-a Spell. Iff taerget fue-a vaes aelreaedy sooffffereeng frum a cundeeshun, thaet fue-a sooffffers frum Deeseaese-a, Pueesun, und Veaekness fur 3...15 secunds.",
+				"concise": "Ileete-a Spell. Inffleects Deeseaese-a, Pueesun, und Veaekness cundeeshuns (3...15 secunds). Nu iffffect unless thees fue-a aelreaedy haed a cundeeshun."
 			}
 		}
 	}

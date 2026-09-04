@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "毒蛇之巢",
+				"description": "陷阱技。 你创造一个毒蛇的巢穴。当毒蛇之巢被触发时，将使附近的所有敌人受到5...35点穿刺伤害，并且遭受「中毒」症状5...20秒。毒蛇之巢在90秒后消失。此技能容易被打断。",
+				"concise": "陷阱技。 你创造毒蛇之巢。当毒蛇之巢被触发时，将使附近的所有敌人受到 5...35 穿刺伤害并且遭受「中毒」症状 5...20 秒。毒蛇之巢在90秒后消失。"
+			},
+			"cht": {
+				"name": "毒蛇之巢",
+				"description": "陷阱： 你創造毒蛇之巢。當毒蛇之巢被觸發時，將使附近的所有敵人受到 5...35 穿刺傷害並且遭受「中毒」病症 5...20 秒。毒蛇之巢在 90 秒後消失。",
+				"concise": "陷阱： 你創造毒蛇之巢。當毒蛇之巢被觸發時，將使附近的所有敵人受到 5...35 穿刺傷害並且遭受「中毒」病症 5...20 秒。毒蛇之巢在 90 秒後消失。"
+			},
 			"de": {
+				"name": "Vipernnest",
+				"description": "Falle. Erzeugt ein Vipernnest. Wenn es ausgelöst wird, erleiden alle getroffenen Gegner in der Nähe 5...35 Punkt[e] Stichschaden und werden 5...20 Sekunde[n] lang vergiftet. Vipernnest endet nach 90 Sekunde[n]. Diese Falle kann leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunde[n]: Betrifft Feinde in der Nähe. Richtet 5...35 Punkt[e] Stichschaden an. Verursacht Zustand Gift (5...20 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Vipernnest",
 				"description": "Erzeugt ein Vipernnest. Wenn es ausgelöst wird, erleiden alle getroffenen Gegner in der Nähe 5...35 Punkte Stichschaden und werden 5...20 Sekunden lang vergiftet. Vipernnest endet nach 90 Sekunden. Diese Falle kann leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 5...35 Punkte Stichschaden an. Verursacht Zustand Gift (5...20 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Viper's Nest",
+				"description": "Trap. Create a Viper's Nest. When it is triggered, all nearby foes are struck for 5...35 piercing damage and become Poisoned for 5...20 seconds. Viper's Nest expires after 90 seconds. This Trap is easily interrupted.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Deals 5...35 piercing damage. Inflicts Poisoned condition (5...20 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Viper's Nest",
 				"description": "Create a Viper's Nest. When it is triggered, all nearby foes are struck for 5...35 piercing damage and become Poisoned for 5...20 seconds. Viper's Nest expires after 90 seconds. This Trap is easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Deals 5...35 piercing damage. Inflicts Poisoned condition (5...20 seconds). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Nido de víboras",
+				"description": "Trampa. Creas un Nido de víboras. Al activarse, los enemigos cercanos recibirán 5...35 de daño perforante y quedarán envenenados durante 5...20 segundos. El Nido de víboras se morirá a los 90 segundos. Se te podrá interrumpir con facilidad mientras lo coloques.",
+				"concise": "Trampa. ((90 segundos). Afecta a los enemigos cercanos. Hace 5...35 de daño perforante. Causa envenenamiento (5...20 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Nid de vipère",
+				"description": "Piège. Crée un Nid de Vipère. Lorsqu'il est activé, tous les ennemis à proximité subissent 5...35 points de dégâts perforants et sont empoisonnés pendant 5...20 secondes. Le Nid de vipères prend fin au bout de 90 secondes. Ce piège est facilement interrompu.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige 5...35 points de dégâts perforants. Provoque l'Empoisonnement (5...20 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Nid de vipère",
 				"description": "Crée un Nid de Vipère. Lorsqu'il est activé, tous les ennemis à proximité subissent 5...35 points de dégâts perforants et sont empoisonnés pendant 5...20 secondes. Le Nid de vipères prend fin au bout de 90 secondes. Ce piège est facilement interrompu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Nido di Vipera",
+				"description": "Trappola. Crei un Nido di Vipera. Quando viene attivato, tutti i nemici nei dintorni vengono colpiti da 5...35 danno[i] perforanti e vengono avvelenati per 5...20 secondo[i]. Il Nido di Vipera termina dopo 90 secondo[i]. Questa trappola viene facilmente interrotta.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Danni perforanti: 5...35. Condizione inflitta: Veleno (5...20 secondo[i]). Facile interruzione."
+			},
+			"jp": {
+				"name": "ヴァイパー ネスト",
+				"description": "トラップ： このトラップが作動すると、その周囲にいるすべての敵に 5...35 のピアス ダメージを与え、5...20 秒間「毒」状態にします。このトラップは 90 秒後に消滅します。このスキルの詠唱は容易に中断されます。",
+				"concise": "トラップ： (90 秒) 周囲にいる敵に 5...35 のピアス ダメージを与え、「毒」状態にします (5...20 秒)。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "독사 함정",
+				"description": "함정. 대상 지정: 없음. 함정이 작동하면 부근의 모든 적은 5...35의 찌르는 대미지를 입고, 5...20초 동안 중독 상태가 됩니다. 독사 함정은 90초 뒤에 사라지며 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 5...35의 찌르는 대미지를 주고, 중독시킵니다.(5...20초) 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Gniazdo Żmij",
+				"description": "Pułapka. Tworzysz Gniazdo Żmij. Kiedy się ono uaktywni, każdy przeciwnik w pobliżu otrzyma 5...35 pkt. obrażeń przebijających i przez 5...20 sek. będzie zatruty. Gniazdo Żmij dezaktywuje się po 90 sek. Jest to pułapka łatwa do przerwania.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. Zadaje 5...35 pkt. obrażeń przebijających. Wywołuje przypadłość zatrucie (5...20 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Viper's Nest",
+				"description": "Ловушка. Создает Viper's Nest. Когда ловушка срабатывает, все находящиеся поблизости противники получают 5...35 ед. урона колющим оружием и будут отравлены на 5...20 сек. Viper's Nest разряжается через 90 сек. Это умение очень легко прервать при активации.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Наносит 5...35 ед. урона колющим оружием. Вызывает отравление (5...20 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Feeper's Nest",
+				"description": "Traep. Creaete-a a Feeper's Nest. Vhee it is treeggered, aell neaerby fues aere-a stroock fur 5...35 peeerceeng daemaege-a und becume-a Pueesuned fur 5...20 secunds. Feeper's Nest ixpures aeffter 90 secunds. Thees Traep is iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Deaels 5...35 peeerceeng daemaege-a. Inffleects Pueesuned cundeeshun (5...20 secunds). Iaeseely interroopted."
 			}
 		}
 	}

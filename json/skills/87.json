@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "维拉塔的注视",
+				"description": "咒文。 如果瞄准的亡灵仆从有主人，斩断其和主人的连接并将其转变为对所有人存在敌意的状态。若过它没有主人，则你将成为其新主人并恢复其60...80点生命。（死亡魔法小于等于4级时有50%概率失败）",
+				"concise": "咒文。 使亡灵仆从解除其主人的控制。如果没有主人，则你将成为其新主人并恢复其60...80点生命。亡魔法低于5级时有50%概率施法失败。"
+			},
+			"cht": {
+				"name": "芙瑞達的凝視",
+				"description": "咒文魔法： If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master and heal it for 60...80. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "咒文魔法： Make target undead servant masterless. If it is already masterless, you become its master and heal it for 60...80. 50% failure chance unless Death Magic 5 or more."
+			},
 			"de": {
+				"name": "Veratas Starren",
+				"description": "Zauber. Hat der anvisierte feindliche belebte Untote einen Meister, so wird die Bindung an diesen Meister zerstört, und er reagiert auf alle anderen Kreaturen feindlich. Hat er keinen Meister, so werdet Ihr zu seinem Meister und heilt ihn um 60...80. (Bei Todesmagie von 4 oder darunter beträgt die Chance eines Fehlschlags 50 %.)",
+				"concise": "Zauber. Macht den anvisierten untoten Diener herrenlos. Ist er bereits herrenlos, so werdet Ihr zu seinem Meister und heilt ihn um 60...80. Chance eines Fehlschlags 50 %, sofern Todesmagie nicht mindestens 5 beträgt."
+			},
+			"de-guildwiki": {
 				"name": "Veratas Starren",
 				"description": "Hat der als Ziel ausgewählte feindliche Untote einen Meister, wird seine Verbindung zu diesem Meister aufgehoben, womit er alle anderen Kreaturen als Feind betrachtet. Falls der Untote keinen Meister hatte, werdet Ihr zu seinem Meister und heilt ihn um 60...80 Lebenspunkte. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
 				"concise": "Macht das Ziel zum herrenlosen untoten Diener. Falls es schon herrenlos ist, werdet Ihr sein Meister und heilt es um 60...80 Lebenspunkte.. <gray>Mindestens Todesmagie 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Verata's Gaze",
+				"description": "Spell. If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master and heal it for 60...80. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "Spell. Make target undead servant masterless. If it is already masterless, you become its master and heal it for 60...80. 50% failure chance unless Death Magic 5 or more."
+			},
+			"en-gww": {
+				"name": "Verata's Gaze",
 				"description": "If target hostile animated undead has a master, its bond to its master is broken, making it hostile to all other creatures. If it had no master, you become its master and heal it for 60...80. (50% failure chance with Death Magic 4 or less.)",
 				"concise": "Make target undead servant masterless. If it is already masterless, you become its master and heal it for 60...80. <gray>50% failure chance unless Death Magic 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Mirada de Verata",
+				"description": "Conjuro. Si el muerto viviente enemigo objetivo tiene un maestro, se romperá el vínculo con éste, lo que lo convertirá en hostil para las demás criaturas. Si no tiene maestro, pasarás a serlo tú y lo curarás por valor de 60...80. (50 % de posibilidades de fallo con magia de muerte 4 o inferior).",
+				"concise": "Conjuro. Hace que el siervo objetivo no tenga maestro. Si ya estaba sin él, pasarás a serlo tú y lo curarás por valor de 60...80. 50 % de probabilidades de fallo con magia de muerte inferior a 5."
+			},
 			"fr": {
+				"name": "Regard de Verata",
+				"description": "Sort. Si la cible morte-vivante animée et hostile obéit à un maître, leur lien est brisé et elle devient hostile envers toutes les autres créatures. Si elle n'a pas de maître, vous devenez le sien et la soignez de 60...80 (50% de risques d'échec avec Magie de mort 4 ou moins).",
+				"concise": "Sort. Vous privez le serviteur mort-vivant visé de maître. S'il n'en a déjà plus, vous devenez le sien et le soignez de 60...80. 50% de chances d'échouer sauf si la valeur de Magie de mort est de 5 ou plus."
+			},
+			"fr-gwiki": {
 				"name": "Regard de Verata",
 				"description": "Si la cible morte-vivante animée et hostile obéit à un maître, leur lien est brisé et elle devient hostile envers toutes les autres créatures. Si elle n'a pas de maître, c'est vous qui le devenez (50% de risques d'échec avec Magie de la mort 4 ou moins).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sguardo di Verata",
+				"description": "Magia. Se il bersaglio non morto rianimato ha un padrone, il suo legame con esso si spezza, scatenando la sua ostilità contro tutte le altre creature. Se non ha padrone, lo divieni tu, e lo curi di 60...80 (50% di probabilità di fallire con Magia della Morte 4 o inferiore).",
+				"concise": "Magia. Priva il bersaglio non morto del suo padrone. Se ne è già privo, tu diventi il suo padrone e lo curi di 60...80. 50% di probabilità di fallire se non si possiede almeno 5 in Magia della Morte."
+			},
+			"jp": {
+				"name": "ヴェラタ ゲイズ",
+				"description": "スペル： 標的の敵対的な動くアンデッドに主人がいる場合、その主人との絆は断ち切られ、他のすべての生き物に対して敵意を抱くようになります。主人がいない場合、あなたがその主人となり、60...80回復します。（「デス」の特性レベルが4以下の場合は、50%の確率で失敗します。）",
+				"concise": "スペル： 標的のアンデッドの下僕を主人がいない状態にします。すでに主人がいない場合、あなたがその主人となり、60...80回復します。「デス」の特性レベルが5以上でなければ、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "베라타의 주시",
+				"description": "마법. 대상 지정: 언데드. 대상이 주인이 있는 언데드 노예라면, 기존의 종속 관계가 사라지고 다른 모든 생명체에게 공격적으로 변합니다. 주인이 없는 언데드 노예라면, 대상을 내 노예로 삼고 체력을 60...80 회복시킵니다. (죽음 특성 레벨이 4이하이면 50% 확률로 실패합니다.)",
+				"concise": "마법. 대상 언데드 노예를 주인 없는 언데드 노예로 만듭니다. 이미 주인이 없을 경우, 대상을 내 노예로 삼고 체력을 60...80 회복시킵니다. 죽음 특성 레벨이 4이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Spojrzenie Veraty",
+				"description": "Czar. Jeżeli wybrany wrogi wskrzeszony truposz ma pana, jego więź z panem zostaje zerwana, tworząc go wrogim wobec wszelkich stworzeń. Jeżeli nie miał pana, ty stajesz się jego panem i leczysz go, przywracając mu 60...80 żywotności. (50% szans na niepowodzenie, gdy wartość Magii Śmierci wynosi 4 lub mniej).",
+				"concise": "Czar. Powoduje, że wybrany nieumarły sługa staje się bezpańskim. Jeżeli już jest bezpański, to ty stajesz się jego panem i leczysz go, przywracając mu 60...80 żywotności. 50% szans na niepowodzenie, chyba że wartość Magii Śmierci wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Verata's Gaze",
+				"description": "Заклинание. Если у выбранного ожившего мертвеца есть хозяин, его связь с хозяином разрывается, делая нежить враждебной ко всем существам. Если у нежити нет хозяина, хозяином становитесь вы и восстанавливаете нежити 60...80 здоровья. (Шанс провала — 50%, если Death Magic не выше 4.)",
+				"concise": "Заклинание. Лишает выбранную нежить хозяина. Если хозяина не было, вы становитесь хозяином и восстанавливаете нежити 60...80 здоровья. Шанс провала — 50%, если Death Magic ниже 5."
+			},
+			"bork": {
+				"name": "Feraeta's Gaeze-a",
+				"description": "Spell. Iff taerget husteele-a uneemaeted undeaed haes a maester, its bund tu its maester is brukee, maekeeng it husteele-a tu aell oozeer creaetoores. Iff it haed nu maester, yuoo becume-a its maester und heael it fur 60...80. (50% faeeeloore-a chunce-a veet Deaet Maegeec 4 oor less.)",
+				"concise": "Spell. Maeke-a taerget undeaed serfunt maesterless. Iff it is aelreaedy maesterless, yuoo becume-a its maester und heael it fur 60...80. 50% faeeeloore-a chunce-a unless Deaet Maegeec 5 oor mure-a."
 			}
 		}
 	}

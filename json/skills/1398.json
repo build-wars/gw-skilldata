@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益之灾",
+				"description": "负面魔法。 在30秒之内，每当有人向目标敌人施放「增益魔法」时，所施放的「增益魔法」将对目标敌人造成15...75点伤害。",
+				"concise": "负面魔法。 在30秒之内，每当有人向目标敌人施放「增益魔法」时，所施放的「增益魔法」将对目标敌人造成15...75点伤害。"
+			},
+			"cht": {
+				"name": "災禍加持",
+				"description": "降咒魔法： 持續 30 秒，每次目標敵人受到「加持」時，施放「加持」的施法者將受到 15...75 傷害。",
+				"concise": "降咒魔法： 持續 30 秒，每次目標敵人受到「加持」時，施放「加持」的施法者將受到 15...75 傷害。"
+			},
 			"de": {
+				"name": "Geißelverzauberung",
+				"description": "Verhexung. 30 Sekunde[n] lang erleidet der Wirker dieser Verzauberung jedes Mal, wenn der Gegner Ziel einer Verzauberung ist, 15...75 Punkt[e] Schaden.",
+				"concise": "Verhexung. 30 Sekunde[n]: Richtet bei jedem, der eine Verzauberung auf den Gegner wirkt, 15...75 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Geißelverzauberung",
 				"description": "30 Sekunden lang nimmt jedes Mal, wenn der Gegner das Ziel einer Verzauberung ist, der Wirker dieser Verzauberung 15...75 Punkte heiligen Schaden.",
 				"concise": "30 Sekunden: Richtet bei jedem, der eine Verzauberung auf den Gegner wirkt, 15...75 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Scourge Enchantment",
+				"description": "Hex Spell. For 30 seconds, each time target foe is the target of an enchantment, the caster of that enchantment takes 15...75 damage.",
+				"concise": "Hex Spell. (30 seconds.) Deals 15...75 damage to anyone casting an enchantment on target foe."
+			},
+			"en-gww": {
+				"name": "Scourge Enchantment",
 				"description": "For 30 seconds, each time target foe is the target of an enchantment, the caster of that enchantment takes 15...75 damage.",
 				"concise": "(30 seconds.) Deals 15...75 damage to anyone casting an enchantment on target foe."
 			},
+			"es": {
+				"name": "Castigar encantamiento",
+				"description": "Conjuro con maleficio. Durante 30 segundos, cada vez que echen un encantamiento sobre el enemigo objetivo, quien lo lance recibirá 15...75 de daño.",
+				"concise": "Conjuro con maleficio. (30 segundos). Hace 15...75 de daño a cualquiera que eche un encantamiento al enemigo objetivo."
+			},
 			"fr": {
+				"name": "Enchantement fléau",
+				"description": "Maléfice. Pendant 30 secondes, chaque fois que l'ennemi visé est la cible d'un enchantement, le lanceur de cet enchantement subit 15...75 points de dégâts.",
+				"concise": "Maléfice. (30 secondes.) Inflige 15...75 points de dégâts à quiconque lance un enchantement sur l'ennemi visé."
+			},
+			"fr-gwiki": {
 				"name": "Enchantement fléau",
 				"description": "Pendant 30 secondes, chaque fois que l'ennemi visé est la cible d'un enchantement, le lanceur de cet enchantement subit 15...75 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Incantesimo Flagello",
+				"description": "Fattura. Dura 30 secondo[i]; ogni volta che l'obiettivo nemico è il bersaglio di un incantesimo, chi lancia tale incantesimo subisce 15...75 danno[i].",
+				"concise": "Fattura. (Secondi: 30) Danni a chiunque stia lanciando un incantesimo sull'obiettivo nemico: 15...75."
+			},
+			"jp": {
+				"name": "スカージ エンチャント",
+				"description": "弱体化スペル： 30 秒間、ターゲットした敵が仲間の敵から強化スペルを詠唱されるたびに、その詠唱者である敵に 15...75 のダメージを与えます。",
+				"concise": "弱体化スペル： (30 秒) ターゲットした敵に対する強化スペルの詠唱者に 15...75 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "강화 마법의 재앙",
+				"description": "약화 마법. 대상 지정: 적. 30초 동안 대상이 강화 마법의 대상이 될 때마다 그 강화 마법을 외운 적은 15...75의 대미지를 입습니다.",
+				"concise": "약화 마법. (30초) 대상에게 강화 마법을 시전하는 적에게 15...75의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Zgubne Zaklęcia",
+				"description": "Klątwa (czar). Przez 30 sek., za każdym razem, kiedy wybrany przeciwnik będzie celem zaklęcia, rzucający to zaklęcie otrzyma 15...75 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (30 sek.) Każdemu kto rzuca zaklęcie na wybranego przeciwnika zadaje 15...75 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Scourge Enchantment",
+				"description": "Заклинание-проклятье. В течение 30 сек каждый раз, когда выбранный противник становится целью каких-либо чар, тот, кто накладывает эти чары, получит 15...75 ед. урона.",
+				"concise": "Заклинание-проклятье. (30 сек) Наносит 15...75 ед. урона любому, кто накладывает чары на выбранного противника."
+			},
+			"bork": {
+				"name": "Scuoorge-a Inchuntment",
+				"description": "Hex Spell. Fur 30 secunds, iaech teeme-a taerget fue-a is zee taerget ooff un inchuntment, zee caester ooff thaet inchuntment taekes 15...75 daemaege-a.",
+				"concise": "Hex Spell. (30 secunds.) Deaels 15...75 daemaege-a tu unyune-a caesteeng un inchuntment oon taerget fue-a."
 			}
 		}
 	}

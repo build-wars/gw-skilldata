@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Lotus Strike",
+				"description": "副手技。 Must follow a lead attack. If it hits, this attack strikes for +10...25 damage and you gain 5...20 Energy.",
+				"concise": "副手技。 Deals +10...25 damage; you gain 5...20 Energy. Must follow a lead attack."
+			},
+			"cht": {
+				"name": "蓮之狙殺",
+				"description": "即刻攻擊： 必須接續在「引導攻擊」之後，命中時此攻擊將 +10...25 傷害，你獲得 5...20 能量。",
+				"concise": "即刻攻擊： 必須接續在「引導攻擊」之後，命中時此攻擊將 +10...25 傷害，你獲得 5...20 能量。"
+			},
 			"de": {
+				"name": "Lotus-Stoß",
+				"description": "Begleithandangriff. Muss einem Leithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...25 Punkt[e] Schaden zu und Ihr erhaltet 5...20 Energiepunkt[e].",
+				"concise": "Begleithandangriff. Richtet +10...25 Punkt[e] Schaden an; Ihr erhaltet 5...20 Energiepunkt[e]. Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Lotus-Stoß",
 				"description": "Muss einem Leithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...25 Punkte Schaden zu und Ihr erhaltet 5...20 Energiepunkte.",
 				"concise": "Richtet +10...25 Punkte Schaden an; Ihr erhaltet 5...20 Energiepunkte. <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Lotus Strike",
+				"description": "Off-Hand Attack. Must follow a lead attack. If it hits, this attack strikes for +10...25 damage and you gain 5...20 Energy.",
+				"concise": "Off-Hand Attack. Deals +10...25 damage; you gain 5...20 Energy. Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Lotus Strike",
 				"description": "Must follow a lead attack. If it hits, this attack strikes for +10...25 damage and you gain 5...20 Energy.",
 				"concise": "Deals +10...25 damage; you gain 5...20 Energy. <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Ataque de loto",
+				"description": "Ataque complementario. Debe ir precedido de un ataque inicial. Si impacta, este ataque hace +10...25 de daño y ganas 5...20 de energía.",
+				"concise": "Ataque complementario. Hace +10...25 de daño; ganas 5...20 de energía. Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Coup du lotus",
+				"description": "Attaque main gauche. Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...25 points de dégâts et vous bénéficiez de 5...20 points d'énergie.",
+				"concise": "Attaque main gauche. Inflige +10...25 points de dégâts. Vous gagnez 5...20 points d'énergie. Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Coup du lotus",
 				"description": "Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...25 points de dégâts et vous bénéficiez de 5...20 points d'énergie.",
 				"concise": "Inflige +10...25 points de dégâts. Vous gagnez 5...20 points d'énergie. <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Colpo del Loto",
+				"description": "Attacco con Arma Secondaria. Deve seguire un attacco con arma primaria. Se questo attacco va a segno, infligge +10...25 danno[i] e tu ottieni 5...20 Punto[i] Energia.",
+				"concise": "Attacco con Arma Secondaria. Danni: +10...25. Ottieni 5...20 Punto[i] Energia. Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "ロータス ストライク",
+				"description": "オフハンド アタック： このスキルは、リード アタックの次に使用します。攻撃が成功すると、10...25 の追加ダメージを与え、プレイヤーは 5...20 のエネルギーを獲得します。",
+				"concise": "オフハンド アタック： 10...25 の追加ダメージを与え、プレイヤーは 5...20 のエネルギーを獲得します。このスキルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "연꽃 찌르기",
+				"description": "보조 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 10...25의 대미지를 추가로 주고, 5...20의 에너지를 얻습니다.",
+				"concise": "보조 공격. 10...25의 대미지를 추가로 주고, 5...20의 에너지를 얻습니다. 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Lotosu",
+				"description": "Atak drugą ręką. Musi nastąpić po ataku poprzedzającym. Jeśli atak trafi, zadajesz +10...25 pkt. obrażeń i otrzymujesz 5...20 pkt. energii.",
+				"concise": "Atak drugą ręką. Zadaje +10...25 pkt. obrażeń; otrzymujesz 5...20 pkt. energii. Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Lotus Strike",
+				"description": "Атака второй рукой. Должен следовать за ведущей атакой. Если этот удар попадает в цель, вы наносите дополнительно 10...25 ед. урона и получаете 5...20 ед. энергии.",
+				"concise": "Атака второй рукой. Наносит дополнительно 10...25 ед. урона; вы получаете 5...20 ед. энергии. Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Lutoos Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost fulloo a leaed aettaeck. Iff it heets, thees aettaeck streekes fur +10...25 daemaege-a und yuoo gaeeen 5...20 Inergy.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +10...25 daemaege-a; yuoo gaeeen 5...20 Inergy. Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

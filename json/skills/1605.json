@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 7,
 		"adrenaline_precise": 7,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂野投射",
+				"description": "矛术。 命中时，对敌人造成5...20点额外伤害，终结敌人正在使用的「姿态」。此技能无法被格挡。",
+				"concise": "矛术。 命中时，对敌人造成5...20点额外伤害，终结敌人正在使用的「姿态」。此技能无法被格挡。"
+			},
+			"cht": {
+				"name": "野性投擲",
+				"description": "矛術攻擊技能： 命中時對目標造成 5...20 額外傷害，並且中斷目標使用中的任何態勢。此攻擊無法被「格擋」。",
+				"concise": "矛術攻擊技能： 命中時對目標造成 5...20 額外傷害，並且中斷目標使用中的任何態勢。此攻擊無法被「格擋」。"
+			},
 			"de": {
+				"name": "Wilder Wurf",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt er +5...20 Punkt[e] Schaden zu und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Dieser Angriff kann nicht geblockt werden. Alle Eure Angriffsfertigkeiten, die nicht auf Speeren beruhen, werden 3 Sekunde[n] lang deaktiviert.",
+				"concise": "Speerangriff. Richtet +5...20 Punkt[e] Schaden an. Kann nicht geblockt werden. Beendet die Haltung des Gegners.Eure Angriffsfertigkeiten, die nicht auf Speeren beruhen, werden 3 Sekunde[n] lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Wurf",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt er +5...20 Punkte Schaden zu und jegliche Haltung, die von Eurem Gegner eingenommen wird, endet. Dieser Angriff kann nicht geblockt werden. Alle Eure Angriffsfertigkeiten, die nicht auf Speeren beruhen, werden 3 Sekunden lang deaktiviert.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Kann nicht geblockt werden. Beendet die Haltung des Gegners.<gray>Eure<sic/> Angriffsfertigkeiten, die nicht auf Speeren beruhen, werden 3 Sekunden lang deaktiviert.</gray>"
 			},
 			"en": {
 				"name": "Wild Throw",
+				"description": "Spear Attack. If this attack hits, it deals +5...20 damage, and any stance being used by your target ends. This attack cannot be blocked. All of your non-spear attack skills are disabled for 3 seconds.",
+				"concise": "Spear Attack. Deals +5...20 damage. Unblockable. Ends target's stance.Disables your non-spear attack skills for 3 seconds."
+			},
+			"en-gww": {
+				"name": "Wild Throw",
 				"description": "If this attack hits, it deals +5...20 damage, and any stance being used by your target ends. This attack cannot be blocked. All of your non-spear attack skills are disabled for 3 seconds.",
 				"concise": "Deals +5...20 damage. Unblockable. Ends target's stance.<gray>Disables <sic/> your non-spear attack skills for 3 seconds.</gray>"
 			},
+			"es": {
+				"name": "Lanzamiento salvaje",
+				"description": "Ataque con lanza. Si acierta, este ataque hace +5...20 de daño y anula cualquier actitud que esté usando tu objetivo. Este ataque no puede bloquearse. Todas tus habilidades que no sean ataques con lanza se desactivarán durante 3 segundos.",
+				"concise": "Ataque con lanza. Hace +5...20 de daño. No se puede bloquear. Elimina la actitud del objetivo.Desactiva todas tus habilidades que no sean ataques con lanza durante 3 segundos."
+			},
 			"fr": {
+				"name": "Lancer sauvage",
+				"description": "Attaque au javelot. Si elle réussit, cette attaque inflige +5...20 points de dégâts et toute pose utilisée par la cible prend fin. Impossible à bloquer. Toutes vos attaques avec autre chose qu'une lance sont désactivées pendant 3 secondes.",
+				"concise": "Attaque au javelot. Inflige +5...20 points de dégâts. Impossible à bloquer. Met fin à la pose de la cible.Désactive vos compétences offensives autres qu'à la lance pendant 3 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Lancer sauvage",
 				"description": "Si l'attaque réussit, elle inflige +5...20 points de dégâts et chaque pose de combat utilisée par votre cible prend fin. Cette attaque ne peut pas être bloquée.",
 				"concise": "Inflige +5...20 points de dégâts. Impossible à bloquer. Met fin à la pose de combat de la cible."
+			},
+			"it": {
+				"name": "Lancio Selvaggio",
+				"description": "Attacco con Lancia. Se questo attacco va a segno, infligge +5...20 danni e fa terminare qualsiasi posizione utilizzata dal tuo obiettivo. Questo attacco non può essere bloccato. Tutte le tue altre abilità non legate agli attacchi con la lancia vengono disattivate per 3 secondi.",
+				"concise": "Attacco con Lancia. Danno: +5...20. Non bloccabile. Fa terminare la posizione assunta dall'obiettivo.Disattiva le abilità non legate agli attacchi con la lancia per 3 secondi."
+			},
+			"jp": {
+				"name": "ワイルド スロー",
+				"description": "スピア アタック： この攻撃が成功すると、5...20 の追加ダメージを与え、ターゲットが使用しているスタンスを解除します。この攻撃はブロックされません。スピア攻撃以外のスキルがすべて、3 秒間使用できなくなります。",
+				"concise": "スピア アタック： 5...20 の追加ダメージを与え、攻撃はブロックされません。ターゲットのスタンスを解除します。プレイヤーは、スピア攻撃以外のスキルを 3 秒間、使用できなくなります。"
+			},
+			"kr": {
+				"name": "거센 투창",
+				"description": "창 공격. 대상 지정: 적. 공격이 성공하면 대상은 5...20의 대미지를 추가로 받고, 취하고 있던 자세가 해제됩니다. 이 공격은 막을 수 없습니다. 자신은 창 공격이 아닌 스킬을 3초 동안 사용할 수 없게 됩니다.",
+				"concise": "창 공격. 5...20의 대미지를 추가로 주고, 대상의 자세를 무효화합니다. 이 공격은 막을 수 없습니다. 창 공격이 아닌 스킬을 사용할 수 없습니다.(3초)"
+			},
+			"pl": {
+				"name": "Dziki Rzut",
+				"description": "Atak włócznią. Jeśli ten atak trafi, zadaje +5...20 pkt. obrażeń i przerywa postawę używaną przez wroga. Tego ataku nie można zablokować. Umiejętności nie dotyczące ataków włócznią są zablokowane na 3 sek.",
+				"concise": "Atak włócznią. Zadaje +5...20 pkt. obrażeń. Nieblokowalny. Przerywa postawę celu.Wyłącza umiejętności nie dotyczące ataków włócznią na 3 sek."
+			},
+			"ru": {
+				"name": "Wild Throw",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона, а любая стойка, которую использует выбранный противник, закончит свое действие. Эту атаку нельзя блокировать. Все ваши атакующие умения, не требующие копья, будут недоступны в течение 3 сек.",
+				"concise": "Атака копьем. Наносит дополнительно 5...20 ед. урона. Нельзя блокировать. Заканчивает действие стойки, которую использует цель. Ваши атакующие умения, не требующие копья, будут недоступны в течение 3 сек."
+			},
+			"bork": {
+				"name": "Veeld Throo",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, it deaels +5...20 daemaege-a, und uny stunce-a beeeng used by yuoor taerget inds. Thees aettaeck cunnut be-a blucked. Aell ooff yuoor nun-speaer aettaeck skeells aere-a deesaebled fur 3 secunds.",
+				"concise": "Speaer Aettaeck. Deaels +5...20 daemaege-a. Unbluckaeble-a. Inds taerget's stunce-a.Deesaebles yuoor nun-speaer aettaeck skeells fur 3 secunds."
 			}
 		}
 	}

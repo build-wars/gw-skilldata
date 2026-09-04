@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 5,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Winds",
+				"description": "黑木先锋仪式。 Create a level 4...10 spirit. All foes within its range have a 15% chance to miss with ranged attacks. This spirit dies after 54...90 seconds.",
+				"concise": "黑木先锋仪式。 Creates a level 4...10 spirit (54...90 second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks."
+			},
+			"cht": {
+				"name": "風",
+				"description": "黑檀先鋒隊儀式： 創造一隻等級 4...10 的靈。於靈範圍內的所有敵人，其範圍攻擊有 15% 的失誤機率。靈在 54...90 秒後消失。",
+				"concise": "黑檀先鋒隊儀式： Create a level 4...10 Spirit. All foes within its range have a 15% chance to miss with ranged attacks. This Spirit dies after 54...90 seconds."
+			},
 			"de": {
+				"name": "Winde",
+				"description": "Ebon-Vorhut-Ritual. Erstellt einen Geist der Stufe 4...10. Alle Feinde in seiner Reichweite haben eine 15%ige Chance, dass ihre Distanzangriffe fehlschlagen. Dieser Geist stirbt nach 54...90 Sekunde[n].",
+				"concise": "Ebon-Vorhut-Ritual. Erstellt einen Geist der Stufe 4...10 (54...90 Sekunde[n] Lebensdauer). Betrifft Feinde in Reichweite. Distanzangriffe gehen mit 15%iger Wahrscheinlichkeit daneben."
+			},
+			"de-guildwiki": {
 				"name": "Winde",
 				"description": "Erstellt einen Geist der Stufe 4...10. Alle Feinde in seiner Reichweite haben eine 15%ige Chance, dass ihre Distanzangriffe fehlschlagen. Dieser Geist stirbt nach 54...90 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 4...10 (54...90 Sekunden Lebensdauer). Betrifft Feinde in Reichweite. Distanzangriffe gehen mit 15%iger Wahrscheinlichkeit daneben."
 			},
 			"en": {
 				"name": "Winds",
+				"description": "Ebon Vanguard Ritual. Create a level 4...10 spirit. All foes within its range have a 15% chance to miss with ranged attacks. This spirit dies after 54...90 seconds.",
+				"concise": "Ebon Vanguard Ritual. Creates a level 4...10 spirit (54...90 second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks."
+			},
+			"en-gww": {
+				"name": "Winds",
 				"description": "Create a level 4...10 Spirit. All foes within its range have 15% chance to miss with ranged attacks. This spirit dies after 54...90 seconds.",
 				"concise": "Creates a level 4...10 spirit (54...90 second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks."
 			},
+			"es": {
+				"name": "Vientos",
+				"description": "Ritual de la Vanguardia de Ébano. Creas un espíritu de nivel 4...10. Todos los enemigos dentro de su zona tienen un 15% de probabilidades de fallar ataques a distancia. Morirá a los 54...90 segundos.",
+				"concise": "Ritual de la Vanguardia de Ébano. Crea un espíritu de nivel 4...10 (54...90 segundos de vida). Afecta a los enemigos de la zona. 15% de probabilidades de que los ataques a distancia fallen."
+			},
 			"fr": {
+				"name": "Vents",
+				"description": "Rituel de l'Avant-garde d'Ebon. Vous créez un esprit de niveau 4...10. Tous les ennemis dans sa portée ont 15% de risques de manquer leurs attaques à distance. Cet esprit meurt au bout de 54...90 secondes.",
+				"concise": "Rituel de l'Avant-garde d'Ebon. Crée un esprit de niveau 4...10 (durée de vie de 54...90 secondes). Affecte les ennemis à portée. 15% de risques de rater les attaques à distance."
+			},
+			"fr-gwiki": {
 				"name": "Vents",
 				"description": "Vous créez un esprit de niveau 4...10. Tous les ennemis dans sa portée ont 15% de risques de manquer leurs attaques à distance. Cet esprit meurt au bout de 54...90 secondes.",
 				"concise": "Créez un esprit de niveau 4...10 (durée de vie de 54...90 secondes). Affecte les ennemis à portée. 15% de risques de rater les attaques à distance."
+			},
+			"it": {
+				"name": "Venti",
+				"description": "Rituale dell'Avanguardia d'Ebano. Crei uno Spirito di livello 4...10. Tutti i nemici nella portata hanno un 15% di probabilità di mancare l'obiettivo con gli attacchi a distanza. Lo Spirito si esaurisce dopo 54...90 secondo[i].",
+				"concise": "Rituale dell'Avanguardia d'Ebano. Crei uno Spirito di livello 4...10 (in vita per 54...90 secondo[i]). Ha effetto sui nemici nella portata. Probabilità di mancare con gli attacchi dalla distanza: 15%."
+			},
+			"jp": {
+				"name": "ウインド",
+				"description": "エボン ヴァンガード リチュアル： レベル 4...10 の精霊を召喚します。この精霊の効果範囲内では、敵は15%の確率で遠距離攻撃に失敗します。この精霊は 54...90 秒後に消えます。",
+				"concise": "エボン ヴァンガード リチュアル： レベル 4...10 の精霊を召喚します (54...90 秒) 。この精霊の効果範囲内では、敵は15%の確率で遠距離攻撃に失敗します。"
+			},
+			"kr": {
+				"name": "바람의 영혼",
+				"description": "흑단선봉대 의식. 4...10레벨 영혼을 소환합니다. 영혼의 효과 범위 내에 있는 적들은 15%의 확률로 원거리 공격이 실패합니다. 영혼은 54...90초 후 사라집니다.",
+				"concise": "흑단선봉대 의식. 4...10레벨 영혼을 소환합니다.(수명: 54...90초) 영혼의 효과 범위 내에 있는 적들은 15%의 확률로 원거리 공격이 실패합니다."
+			},
+			"pl": {
+				"name": "Wichry",
+				"description": "Rytuał Hebanowej Awangardy. Tworzysz ducha na 4...10 poziomie. Wszyscy przeciwnicy w jego zasięgu mają 15% szans na nietrafianie atakami zasięgowymi. Duch ginie po 54...90 sek.",
+				"concise": "Rytuał Hebanowej Awangardy. Tworzy ducha na poziomie 4...10 (czas życia 54...90 sek.). Działa na przeciwników w zasięgu. 15% szans na nietrafianie ataków zasięgowych."
+			},
+			"ru": {
+				"name": "Winds",
+				"description": "Ритуал Ebon Vanguard. Создает духа 4...10 уровня. Все противники, находящиеся в зоне действия этого духа, получают 15%-й шанс промахнуться при атаках на расстоянии. Этот дух умирает через 54...90 сек.",
+				"concise": "Ритуал Ebon Vanguard. Создает духа 4...10 уровня (54...90 сек жизни). Поражает противников в зоне его действия. Дает 15%-й шанс промахнуться при атаках на расстоянии."
+			},
+			"bork": {
+				"name": "Veends",
+				"description": "Ibun Fungooaerd Reetooael. Creaete-a a lefel 4...10 spureet. Aell fues veetheen its runge-a haefe-a a 15% chunce-a tu meess veet runged aettaecks. Thees spureet deees aeffter 54...90 secunds.",
+				"concise": "Ibun Fungooaerd Reetooael. Creaetes a lefel 4...10 spureet (54...90 secund leeffespun.) Aeffffects fues veetheen runge-a. 15% chunce-a tu meess veet runged aettaecks."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电之枪",
+				"description": "咒文。 射出一支闪电，命中目标时对其造成 15...50点 闪电伤害。若该目标正在进行攻击，则其动作被打断。此魔法有 25% 的护甲穿透效果。",
+				"concise": "咒文。 射出一支闪电，命中目标时对其造成 15...50点 闪电伤害。若该目标正在进行攻击，则其动作被打断。此魔法有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "閃電標槍",
+				"description": "咒文魔法： 射出閃電標槍，命中目標時對其造成 15...50 閃電傷害。若該目標正在進行攻擊，則中斷其動作。此魔法有 25% 防禦穿透效果。",
+				"concise": "咒文魔法： 射出閃電標槍，命中目標時對其造成 15...50 閃電傷害。若該目標正在進行攻擊，則中斷其動作。此魔法有 25% 防禦穿透效果。"
+			},
 			"de": {
+				"name": "Blitzspeer",
+				"description": "Zauber. Schleudert einen Blitzspeer, der, falls er trifft, 15...50 Punkte Blitzschaden zufügt. Blitzspeer unterbricht angreifende Gegner. Dieser Zauber hat eine Rüstungsdurchdringung von 25% und trifft alle Feinde zwischen Euch und Eurem Ziel.",
+				"concise": "Zauber. Geschoss: Richtet 15...50 Punkte Blitzschaden an. Unterbricht, wenn Euch Euer Ziel angreift. 25% Rüstungsdurchdringung. Trifft alle Feinde zwischen Euch und Eurem Ziel."
+			},
+			"de-guildwiki": {
 				"name": "Blitzspeer",
 				"description": "Schleudert einen Blitzspeer, der, falls er trifft, 15...50 Punkte Blitzschaden zufügt. Blitzspeer unterbricht angreifende Gegner. Dieser Zauber hat eine Rüstungsdurchdringung von 25% und trifft alle Feinde zwischen Euch und Eurem Ziel.",
 				"concise": "Geschoss: Richtet 15...50 Punkte Blitzschaden an. Unterbricht, wenn Euer Ziel angreift. 25% Rüstungsdurchdringung. Trifft alle Feinde zwischen Euch und Eurem Ziel."
 			},
 			"en": {
 				"name": "Lightning Javelin",
+				"description": "Spell. Send out a Lightning Javelin that strikes for 15...50 lightning damage if it hits. Lightning Javelin interrupts attacking foes. This spell has 25% armor penetration and strikes all foes between you and your target.",
+				"concise": "Spell. Projectile: deals 15...50 lightning damage. Interrupts if your target is attacking. 25% armor penetration. Strikes all foes between you and your target."
+			},
+			"en-gww": {
+				"name": "Lightning Javelin",
 				"description": "Send out a Lightning Javelin that strikes for 15...50 lightning damage if it hits. Lightning Javelin interrupts attacking foes. This spell has 25% armor penetration and strikes all foes between you and your target.",
 				"concise": "Projectile: Deals 15...50 lightning damage. Interrupts if your target is attacking. 25% armor penetration. Strikes all foes between you and your target."
 			},
+			"es": {
+				"name": "Jabalina de relámpago",
+				"description": "Conjuro. Lanzas una Jabalina de relámpago que hace 15...50 de daño de relámpago al enemigo objetivo si le alcanza. Jabalina de relámpago interrumpe a los enemigos que estén atacando. Este conjuro tiene un 25% de penetración de armadura y golpea a todos los enemigos entre tu objetivo y tú.",
+				"concise": "Conjuro. Proyectil: causa 15...50 de daño de relámpago. Interrumpe si tu objetivo está atacando. 25% de penetración de armadura. Golpea a todos los enemigos entre tu objetivo y tú."
+			},
 			"fr": {
+				"name": "Javelot de foudre",
+				"description": "Sort. Vous envoyez un Javelot de foudre qui inflige 15...50 points de dégâts de la foudre s'il touche sa cible. Le Javelot de foudre interrompt les attaquants ennemis. Ce sort offre 25% de pénétration d'armure et frappe tous les ennemis situés entre vous et la cible.",
+				"concise": "Sort. Projectile : inflige 15...50 points de dégâts de la foudre. Est interrompu si l'ennemi visé attaque. 25% de pénétration d'armure. Frappe tous les ennemis entre vous et la cible."
+			},
+			"fr-gwiki": {
 				"name": "Javelot de foudre",
 				"description": "Lance un Javelot de foudre qui inflige 15...50 points de dégâts de la foudre s'il touche sa cible. Si le Javelot de foudre touche un ennemi en train d'attaquer, celui-ci est interrompu. Ce sort a 25% de pénétration d'armure.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Giavellotto del Fulmine",
+				"description": "Magia. Lanci un Giavellotto del Fulmine che infligge 15...50 danni da fulmine se va a segno. Giavellotto del Fulmine interrompe l'azione dei nemici in attacco. Questa magia ha una penetrazione dell'armatura del 25% e colpisce tutti i nemici fra te e il tuo obiettivo.",
+				"concise": "Magia. Proiettile: danni da fulmine inferti: 15...50. Interrompe l'azione se il tuo obiettivo sta attaccando. Penetrazione armatura: 25%. Colpisce tutti i nemici fra te e il tuo obiettivo."
+			},
+			"jp": {
+				"name": "ライトニング ジャベリン",
+				"description": "スペル： ターゲットした敵に、命中すると 15...50 のライトニング ダメージを与えるライトニング ジャベリンを投げつけます。敵が攻撃中の場合、その攻撃を中断します。このスペルには25%のアーマー貫通効果があり、プレイヤーとターゲットとの間にいるすべての敵にダメージを与えます。",
+				"concise": "スペル： 遠投攻撃： 15...50 のライトニング ダメージを与えます。ターゲットが攻撃中の場合、アクションを中断します。このスペルには25%のアーマー貫通効果があり、プレイヤーとターゲットとの間にいる敵をすべて攻撃します。"
+			},
+			"kr": {
+				"name": "번개 투창",
+				"description": "마법. 대상 지정: 적. 대상에게 번개의 창을 날려 명중하면 15...50의 번개 대미지를 주고, 공격 중인 대상을 방해합니다. 이 스킬은 25%의 갑옷 관통 효과를 갖고, 자신과 대상 사이에 있는 모든 적을 공격합니다.",
+				"concise": "마법. 발사체: 15...50의 번개 대미지를 주고, 공격 중인 적을 방해합니다. 25%의 갑옷 관통 효과를 갖습니다. 자신과 대상 사이의 모든 적을 공격합니다."
+			},
+			"pl": {
+				"name": "Oszczep Błyskawicy",
+				"description": "Czar. Wystrzeliwuje Oszczep Błyskawicy, który po trafieniu zadaje 15...50 obrażeń od elektryczności. Oszczep Błyskawicy przerywa ataki przeciwników. To zaklęcie ma 25% penetracji pancerza i trafia wszystkich przeciwników między tobą a celem.",
+				"concise": "Czar. Pocisk: zadaje 15...50 pkt. obrażeń od elektryczności. Przerywa, jeśli twój cel wykonywał atak. 25% penetracji pancerza. Trafia wszystkich przeciwników między tobą a celem."
+			},
+			"ru": {
+				"name": "Lightning Javelin",
+				"description": "Заклинание. Бросок в цель дротиком из молнии, который в случае попадания наносит 15...50 ед. урона силой молнии. Lightning Javelin прерывает атакующих противников. Это заклинание игнорирует 25% защиты противника и поражает всех противников между вами и вашей целью.",
+				"concise": "Заклинание. Метательный снаряд: наносит 15...50 ед. урона силой молнии. Прерывает атакующих противников. Игнорирует 25% защиты противника. Поражает всех противников между вами и вашей целью."
+			},
+			"bork": {
+				"name": "Leeghtneeng Jaefeleen",
+				"description": "Spell. Send oooot a Leeghtneeng Jaefeleen thaet streekes fur 15...50 leeghtneeng daemaege-a iff it heets. Leeghtneeng Jaefeleen interroopts aettaeckeeng fues. Thees spell haes 25% aermur penetraeshun und streekes aell fues betveee yuoo und yuoor taerget.",
+				"concise": "Spell. Prujecteele-a: deaels 15...50 leeghtneeng daemaege-a. Interroopts iff yuoor taerget is aettaeckeeng. 25% aermur penetraeshun. Streekes aell fues betveee yuoo und yuoor taerget."
 			}
 		}
 	}

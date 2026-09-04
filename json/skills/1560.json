@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量之歌",
+				"description": "圣歌。 在5...20秒之内，使「音波」范围内每一位友方获得4点「能量再生」，如果友方使用技能，「能量再生」则会消失。",
+				"concise": "圣歌。 在5...20秒之内，使「音波」范围内每一位友方获得4点「能量再生」，如果友方使用技能，「能量再生」则会消失。"
+			},
+			"cht": {
+				"name": "能量之歌",
+				"description": "聖歌： 持續 5...20 秒，使音量所及範圍內的盟友，能量再生增加 4 ，直到他們使用一項「技能」。",
+				"concise": "聖歌： 持續 5...20 秒，使音量所及範圍內的盟友，能量再生增加 4 ，直到他們使用一項「技能」。"
+			},
 			"de": {
+				"name": "Machtgesang",
+				"description": "Anfeuerungsruf. 5...20 Sekunde[n] lang erfreut sich jeder Verbündete in Hörweite einer Energieregeneration von 4, bis er eine Fertigkeit verwendet.",
+				"concise": "Anfeuerungsruf. 5...20 Sekunde[n]: Verbündete in Hörweite erhalten +4 Energieregeneration. Endet bei Benutzung einer Fertigkeit."
+			},
+			"de-guildwiki": {
 				"name": "Machtgesang",
 				"description": "5...20 Sekunden lang erfreut sich jeder Verbündete in Hörweite einer Energieregeneration von +4, bis er eine Fertigkeit benutzt.",
 				"concise": "5...20 Sekunden: Verbündete in Hörweite erhalten +4 Energieregeneration. <gray>Endet bei Benutzung einer Fertigkeit.</gray>"
 			},
 			"en": {
 				"name": "Song of Power",
+				"description": "Chant. For 5...20 seconds, each ally within earshot gains 4 Energy regeneration until that ally uses a skill.",
+				"concise": "Chant. (5...20 seconds.) Allies in earshot gain +4 Energy regeneration. Ends when using a skill."
+			},
+			"en-gww": {
+				"name": "Song of Power",
 				"description": "For 5...20 seconds, each ally within earshot gains 4 Energy regeneration until that ally uses a Skill.",
 				"concise": "(5...20 seconds.) Allies in earshot gain +4 Energy regeneration. <gray>Ends when using a skill.</gray>"
 			},
+			"es": {
+				"name": "Canción de poder",
+				"description": "Cántico. Durante 5...20 segundos, todos los aliados al alcance del oído ganan 4 de regeneración de energía hasta que usen alguna habilidad.",
+				"concise": "Cántico. (5...20 segundos). Los aliados al alcance del oído ganan +4 de regeneración de energía. Acaba al usar una habilidad."
+			},
 			"fr": {
+				"name": "Chant de la puissance",
+				"description": "Chant. Pendant 5...20 secondes, chaque allié à portée de voix bénéficie d'une régénération d'énergie de 4 jusqu'à ce qu'il utilise une compétence.",
+				"concise": "Chant. (5...20 secondes.) Les alliés à portée de voix bénéficient d'une régénération d'énergie de +4 . Prend fin quand vous utilisez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Chant de la puissance",
 				"description": "Pendant 5...20 secondes, chaque allié à portée de voix bénéficie d'une régénération d'énergie de 4 jusqu'à ce qu'il utilise une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Canto del Potere",
+				"description": "Canto. Per 5...20 secondo[i], ogni alleato a portata d'orecchio ottiene una Rigenerazione dell'Energia di 4 finché l'alleato non utilizza un'abilità.",
+				"concise": "Canto. (Secondi: 5...20) Rigenerazione Energia degli alleati a portata d'orecchio: +4. Termina usando un'abilità."
+			},
+			"jp": {
+				"name": "パワー ソング",
+				"description": "チャント： 5...20 秒間、声の届く範囲内にいる各味方は、エネルギーの自然回復力が 4 増加します。この効果は各味方ごとに、スキルを使用すると消失します。",
+				"concise": "チャント： (5...20 秒) 声の届く範囲内にいる味方は、エネルギーの自然回復力が 4 増加します。スキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "힘의 노래",
+				"description": "영창. 대상 지정: 없음. 5...20초 동안 가청 범위 내에 있는 아군의 에너지 재생이 4 증가합니다. 스킬을 사용한 아군은 이 노래의 효과를 잃습니다.",
+				"concise": "영창. (5...20초) 가청 범위 내에 있는 아군의 에너지 재생이 4 증가합니다. 스킬을 사용한 아군은 이 노래의 효과를 잃습니다."
+			},
+			"pl": {
+				"name": "Pieśń Potęgi",
+				"description": "Zaśpiew. Przez 5...20 sek. każdy sojusznik w zasięgu słuchu, do czasu, gdy użyje umiejętności, posiada regenerację energii 4.",
+				"concise": "Zaśpiew. (5...20 sek.) Sojusznicy w zasięgu słuchu posiadają regenerację energii +4. Przestanie działać, kiedy zostanie użyta umiejętność."
+			},
+			"ru": {
+				"name": "Song of Power",
+				"description": "Хорал. В течение 5...20 сек скорость восстановления энергии каждого находящегося в зоне слышимости союзника увеличивается на 4 ед. до тех пор, пока этот союзник не использует какое-либо умение.",
+				"concise": "Хорал. (5...20 сек) Союзники в зоне слышимости получают +4 ед. к скорости восстановления энергии. Заканчивается при использовании умения."
+			},
+			"bork": {
+				"name": "Sung ooff Pooer",
+				"description": "Chunt. Fur 5...20 secunds, iaech aelly veetheen iaershut gaeeens 4 Inergy regeneraeshun unteel thaet aelly uses a skeell.",
+				"concise": "Chunt. (5...20 secunds.) Aelleees in iaershut gaeeen +4 Inergy regeneraeshun. Inds vhee useeng a skeell."
 			}
 		}
 	}

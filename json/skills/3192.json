@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益者的苦恼",
+				"description": "精英负面魔法。 目标敌军施加附魔的速度降100...200%，持续10秒。如果该魔咒施加成功时目标敌军自身没有附魔效果，则该敌军受到10...100点伤害，且邻近的敌军承受该伤害75%的伤害。",
+				"concise": "精英负面魔法。 附魔速度降低100...200%（10秒）。初始效果：如果目标没有附魔，则其受到10...100点伤害，邻近敌军承受该伤害75%的伤害。"
+			},
+			"cht": {
+				"name": "附魔者之謎",
+				"description": "精英降咒魔法： For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...100 damage and all adjacent foes take 75% of that damage.",
+				"concise": "精英降咒魔法： Causes 100...200% slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted deals 10...100 damage to target and 75% of that damage to adjacent foes."
+			},
 			"de": {
+				"name": "Rätsel des Verzauberers (PvP)",
+				"description": "Elite-Verhexung. Für 10 Sekunden wirkt der anvisierte Gegner Verzauberungen um 100...200 % langsamer. Steht der anvisierte Gegner nicht unter dem Einfluss einer Verzauberung, wenn ihm diese Verhexung zugefügt wird, nimmt er 10...100 Schaden, und alle benachbarten Gegner erleiden 75 % dieses Schadens.",
+				"concise": "Elite-Verhexung. Verursacht um 100...200 % langsameres Wirken von Zaubern (10 Sekunden). Anfangseffekt: Ist der anvisierte Gegner nicht verzaubert, so nimmt er 10...100 Schaden, und benachbarte Gegner erleiden 75 % dieses Schadens."
+			},
+			"de-guildwiki": {
 				"name": "Rätsel des Verzauberers (PvP)",
 				"description": "10 Sekunden lang ist die Wirkgeschwindigkeit von Verzauberungen des Gegners um 100...200% langsamer. Ist der Gegner beim Anwenden der Verhexung nicht verzaubert, erleidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75).",
 				"concise": "Verlangsamt die Wirkungszeit von Verzauberungen um 100...200% (10 Sekunden). Anfangswirkung: Ist der Gegner nicht verzaubert, leidet er 10...100 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (~7...75)."
 			},
 			"en": {
 				"name": "Enchanter's Conundrum (PvP)",
+				"description": "Elite Hex Spell. For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...100 damage and all adjacent foes take 75% of that damage.",
+				"concise": "Elite Hex Spell. Causes 100...200% slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted deals 10...100 damage to target and 75% of that damage to adjacent foes."
+			},
+			"en-gww": {
+				"name": "Enchanter's Conundrum (PvP)",
 				"description": "For 10 seconds, target foe casts enchantments 100...200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10...100 damage and all adjacent foes take 75% of that damage.",
 				"concise": "Causes 100...200% slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted<sic/> deals 10...100 damage to target and 75% of that damage to adjacent foes."
 			},
+			"es": {
+				"name": "Enigma del encantador (PvP)",
+				"description": "Conjuro con maleficio de élite. Durante 10 segundos, el enemigo objetivo lanzará los encantamientos un 100...200 % más lento. Si el enemigo objetivo no está bajo los efectos de ningún encantamiento cuando este maleficio se active, el enemigo sufre 10...100 de daño y todos los enemigos adyacentes reciben un 75 % de ese daño.",
+				"concise": "Conjuro con maleficio de élite. Hace que los encantamientos tarden un 100...200 % más en lanzarse (10 segundos). Efecto inicial: causa 10...100 de daño al enemigo objetivo y un 75 % de ese daño a todos los enemigos adyacentes si el objetivo no tiene ningún encantamiento."
+			},
 			"fr": {
+				"name": "Enigme de l'enchanteur (PvP)",
+				"description": "Maléfice d'élite. Pendant 10 secondes, l'ennemi ciblé lance ses enchantements 100...200% moins vite. Si aucun enchantement n'affecte l'ennemi ciblé lorsque ce maléfice est appliqué, il subit 10...100 points de dégâts et tous les ennemis adjacents encaissent 75% de ces dégâts.",
+				"concise": "Maléfice d'élite. Inflige 100...200% de ralentissement à l'incantation des enchantements (10 secondes). Effet initial : si aucun enchantement n'affecte l'ennemi ciblé, il subit 10...100 points de dégâts et tous les ennemis adjacents encaissent 75% de ces dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Enigme de l'enchanteur (PvP)",
 				"description": "Pendant 10 secondes, l'ennemi ciblé lance ses enchantements 100...200% moins vite. Si aucun enchantement n'affecte l'ennemi ciblé lorsque ce maléfice est appliqué, il subit 10...100 points de dégâts et tous les ennemis adjacent encaissent 75% de ces dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Enigma dell'Incantatore (PvP)",
+				"description": "Fattura d'Élite. Per 10 secondo/i, il bersaglio lancia incantesimi il 100...200% più lentamente. Se il bersaglio non è sotto l'effetto di un incantesimo quando viene colpito dalla fattura, subisce 10...100 danni e tutti i nemici adiacenti subiscono il 75% di quei danni.",
+				"concise": "Fattura d'Élite. Lancio degli incantesimi 100...200% più lento (10 secondo/i). Effetto iniziale: se il bersaglio non è influenzato da incantesimi, subisce 10...100 danni, e i nemici adiacenti subiscono il 75% di quei danni."
+			},
+			"jp": {
+				"name": "エンチャンター コナンドラム (PvP)",
+				"description": "エリート弱体化スペル： 10秒間、標的となった敵の強化スペルを唱える速度が100...200%減少します。この弱体化スペルが適用されたときに標的となった敵が効果を受けていない場合、その敵は10...100ダメージを受け、すべての隣接する敵はそのダメージの75%を受けます。",
+				"concise": "エリート弱体化スペル： 強化スペルを唱える速度が100...200%減少します（10秒）。初期効果：標的となった敵に強化スペルが付与されていない場合、標的に10...100ダメージを与え、隣接する敵にそのダメージの75%を与えます。"
+			},
+			"kr": {
+				"name": "강화술사의 재치(대인전)",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 10초 동안 대상의 강화 마법 시전 시간이 100...200% 느려집니다. 이 약화 마법이 걸릴 때 대상이 강화 마법에 걸려 있지 않으면, 대상은 10...100 대미지를 입고 그에 인접한 모든 적은 그 대미지의 75%를 받습니다.",
+				"concise": "엘리트 약화 마법. 강화 마법 시전 속도가 100...200% 느려집니다(10초). 초기 효과: 대상이 강화 마법에 걸려 있지 않으면, 대상에게 10...100의 대미지를 입히고 그에 인접한 적에게 그 대미지의 75%를 줍니다."
+			},
+			"pl": {
+				"name": "Zagadka Zaklinacza (PvP)",
+				"description": "Elitarna klątwa (czar). Przez 10 sek. wybrany przeciwnik rzuca zaklęcia 100...200% wolniej. Jeśli w momencie nałożenia klątwy wybrany przeciwnik nie znajduje się pod działaniem żadnego zaklęcia, przeciwnik ten odnosi 10...100 pkt. obrażeń, a wszyscy wrogowie w jego bezpośrednim sąsiedztwie odnoszą 75% tych obrażeń.",
+				"concise": "Elitarna klątwa (czar). Spowalnia o 100...200% rzucanie zaklęć (10 sek.). Początkowy efekt: jeśli wybrany przeciwnik nie jest pod wpływem zaklęcia, zadaje mu 10...100 pkt. obrażeń, a sąsiadującym z nim przeciwnikom zadaje 75% tych obrażeń."
+			},
+			"ru": {
+				"name": "Enchanter's Conundrum (PvP)",
+				"description": "Элитное заклинание-проклятье. В течение 10 сек. цель накладывает усиления на 100...200% медленнее. Если в момент применения проклятья на цель не действует усиление, этот враг получает 10...100 урона, а все соседние враги получают 75% урона.",
+				"concise": "Элитное заклинание-проклятье. Замедляет наложение усилений на 100...200% (10 сек). Начальный эффект: если выбранный враг не имеет усилений, наносит 10...100 урона цели и 75% урона соседним врагам."
+			},
+			"bork": {
+				"name": "Inchunter's Cunoondroom (PfP)",
+				"description": "Ileete-a Hex Spell. Fur 10 secunds, taerget fue-a caests inchuntments 100...200% slooer. Iff taerget fue-a is nut under zee iffffects ooff un inchuntment vhee thees hex is aeppleeed, thaet fue-a taekes 10...100 daemaege-a und aell aedjaecent fues taeke-a 75% ooff thaet daemaege-a.",
+				"concise": "Ileete-a Hex Spell. Cooses 100...200% slooer inchuntment caesteeng (10 secunds). Ineeteeael iffffect: iff taerget fue-a is nut inchunted deaels 10...100 daemaege-a tu taerget und 75% ooff thaet daemaege-a tu aedjaecent fues."
 			}
 		}
 	}

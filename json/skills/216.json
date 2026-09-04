@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "钢铁迷雾",
+				"description": "增益魔法。 持续8...15秒，你的获得+15护甲。你的风系法术对敌人的施放与充能速度提升33%，但陷入2点过载。",
+				"concise": "增益魔法。 （8...15秒）获得+15护甲。对敌人施放的风系法术激活与充能速度提升33%，但陷入2点过载。"
+			},
+			"cht": {
+				"name": "钢铁迷雾",
+				"description": "加持魔法： 持续8...15秒，你的获得+15护甲。你的风系法术对敌人的施放与充能速度提升33%，但陷入2点过载。",
+				"concise": "加持魔法： （8...15秒）获得+15护甲。对敌人施放的风系法术激活与充能速度提升33%，但陷入2点过载。"
+			},
 			"de": {
+				"name": "Eisennebel",
+				"description": "Verzauberung. 8...15 Sekunden lang habt Ihr +15 Rüstung. Eure Luftmagie-Zauber, die einen Gegner als Ziel haben, werden 33 % schneller aktiviert und wiederaufgeladen, aber Ihr seid 2 Punkte überlastet.",
+				"concise": "Verzauberung. (8...15 Sekunden) Ihr erhaltet +15 Rüstung. Eure Luftmagie-Zauber, die einen Gegner als Ziel haben, werden 33 % schneller aktiviert und wiederaufgeladen, aber Ihr seid 2 Punkte überlastet."
+			},
+			"de-guildwiki": {
 				"name": "Eisennebel",
 				"description": "8...15 Sekunden lang habt ihr +15 Rüstung. Eure Zauber werden 33% schneller aktiviert und wiederaufgeladen. Mit jedem gewirkten Zauber seid Ihr jedoch um 2 Punkte überzaubert.",
 				"concise": "8...15 Sekunden: Ihr erhaltet +15 Rüstung. Zauber werden 33% schneller aktiviert und wiederaufgeladen. <gray>Bei gewirktem Zauber: Ihr erhaltet 2 Punkte Überzauberung.</gray>"
 			},
 			"en": {
 				"name": "Iron Mist",
+				"description": "Enchantment Spell. For 8...15 seconds, you have +15 armor. Your Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points.",
+				"concise": "Enchantment Spell. (8...15 seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points."
+			},
+			"en-gww": {
+				"name": "Iron Mist",
 				"description": "For 8...15 seconds, you have +15 armor. Your Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points.",
 				"concise": "(8...15 seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points."
 			},
+			"es": {
+				"name": "Niebla de hierro",
+				"description": "Conjuro con encantamiento. Durante 8...15 segundos, tienes +15 de armadura. Tus conjuros de magia de aire que hagan objetivo a un enemigo se activan y recargan un 33 % más rápido, pero tienes 2 puntos de sobrelanzamiento.",
+				"concise": "Conjuro con encantamiento. (8...15 segundos) Ganas +15 de armadura. Los conjuros de magia de aire que hagan objetivo a un enemigo se activan y recargan un 33 % más rápido, pero tienes 2 puntos de sobrelanzamiento."
+			},
 			"fr": {
+				"name": "Brume de fer",
+				"description": "Enchantement. Pendant 8...15 secondes, vous bénéficiez d'un bonus d'armure de +15. Vos sorts magiques d'air qui ciblent un ennemi s'activent et se rechargent 33% plus vite, mais vous subissez un Afflux de 2 points.",
+				"concise": "Enchantement. (8...15 secondes.) Gagnez +15 d'armure. Vos sorts magiques d'air qui ciblent un ennemi s'activent et se rechargent 33% plus vite, mais vous subissez un Afflux de 2 points."
+			},
+			"fr-gwiki": {
 				"name": "Brume de fer",
 				"description": "Pendant 8...15 secondes, vous bénéficiez d'un bonus d'armure de +15. Vos sorts de la Magie de l'air qui ciblent un ennemi s'activent et se rechargent 33% plus vite, mais vous subissez un Afflux de 2 points.",
 				"concise": "(8...15 secondes.) Vous obtenez un bonus d'armure de +15. Vos sorts d'air qui ciblent un ennemi s'activent et se rechargent 33% plus vite, mais vous subissez un Afflux de 2 points."
+			},
+			"it": {
+				"name": "Nebbia d'acciaio",
+				"description": "Incantesimo. Per 8...15 secondo/i, hai +15 armatura. Le tue magie d'aria che colpiscono un avversario si attivano e si ricaricano il 33% più velocemente, ma subisci 2 punti di affaticamento.",
+				"concise": "Incantesimo. (8...15 secondo/i). Hai +15 armatura. Le magie d'aria che colpiscono un avversario si attivano e si ricaricano il 33% più velocemente, ma subisci 2 punti di affaticamento."
+			},
+			"jp": {
+				"name": "アイアンミスト",
+				"description": "強化スペル： 8...15秒間にわたって防御力が15増加する。敵を標的とするエアマジックのスペルの発動とリチャージが33速くなりますが、2ポイント重複使用されます。",
+				"concise": "強化スペル： （8...15秒）防御力が15増加する。敵を標的とするエアマジックのスペルの発動とリチャージが33速くなりますが、2ポイント重複使用されます。"
+			},
+			"kr": {
+				"name": "강철 안개",
+				"description": "강화 마법. 8...15초 동안 자신의 방어력이 15만큼 증가합니다. 적을 대상으로 하는 바람 특성 마법의 시전 속도와 재활성 시간이 33% 빨라지지만, 탈진 상태가 2만큼 증가합니다.",
+				"concise": "강화 마법. (8...15초) 방어력이 15만큼 증가합니다. 적을 대상으로 하는 바람 특성 마법의 시전 속도와 재활성 시간이 33% 빨라지지만, 탈진 상태가 2만큼 증가합니다."
+			},
+			"pl": {
+				"name": "Żelazna Mgła",
+				"description": "Zaklęcie (czar). Na 8...15 sek. twój pancerz zwiększa się o +15. Twoje zaklęcia Magii Powietrza kierowane przeciwko wrogowi aktywują się i odnawiają 33% szybciej, ale otrzymujesz 2 pkt. przemagicznienia.",
+				"concise": "Zaklęcie (czar). (8...15 sek.) Twój pancerz zwiększa się o +15. Twoje zaklęcia Magii Powietrza kierowane przeciwko wrogowi aktywują się i odnawiają 33% szybciej, ale otrzymujesz 2 pkt. przemagicznienia."
+			},
+			"ru": {
+				"name": "Iron Mist",
+				"description": "Заклинание-чары. В течение 8...15 сек. вы получаете +15 к броне. Ваши заклинания Air Magic, нацеленные на врага, активируются и восстанавливаются на 33% быстрее, но вы получаете два очка Overcast.",
+				"concise": "Заклинание-чары. (8...15 сек.) +15 к броне. Заклинания Air Magic, нацеленные на врага, активируются и восстанавливаются на 33% быстрее, но вы получаете два очка Overcast."
+			},
+			"bork": {
+				"name": "Irun Meest",
+				"description": "Inchuntment Spell. Fur 8...15 secunds, yuoo haefe-a +15 aermur. Yuoor Aeur Maegeec spells thaet taerget a fue-a aecteefaete-a und rechaerge-a 33% faester, boot yuoo aere-a Oofercaest by 2 pueents. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (8...15 secunds.) Gaeeen +15 aermur. Aeur Maegeec spells thaet taerget a fue-a aecteefaete-a und rechaerge-a 33% faester, boot yuoo aere-a Oofercaest by 2 pueents."
 			}
 		}
 	}

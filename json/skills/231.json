@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "电击",
+				"description": "技能。 触摸目标敌人，使其受到 10...60点 闪电伤害，并且被击倒。此技能具有 25% 的护甲穿透效果，但会引发施法者的「疲劳」状态。",
+				"concise": "触摸技。 触摸目标敌人，使其受到 10...60点 闪电伤害，并且被击倒。此技能具有 25% 的护甲穿透效果，但会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "電擊",
+				"description": "技能： 碰觸目標敵人，使其受到 10...60 閃電傷害並且被擊倒。此技能具有 25% 防禦穿透效果，但是會造成施法者精疲力竭。",
+				"concise": "碰觸技能： 碰觸目標敵人，使其受到 10...60 閃電傷害並且被擊倒。此技能具有 25% 防禦穿透效果，但是會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Schock",
+				"description": "Fertigkeit. Der berührte Gegner wird zu Boden geworfen und erleidet 10...60 Punkt[e] Blitzschaden. Diese Fertigkeit hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Berührungs-Fertigkeit. Richtet 10...60 Punkt[e] Blitzschaden an. Wirft zu Boden. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Schock",
 				"description": "Der berührte Gegner wird zu Boden geworfen und erleidet 10...60 Punkte Blitz-Schaden. Diese Fertigkeit hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...60 Punkte Blitzschaden an. Wirft zu Boden. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Shock",
+				"description": "Skill. Target touched foe is knocked down and struck for 10...60 lightning damage. This skill has 25% armor penetration.",
+				"concise": "Touch Skill. Deals 10...60 lightning damage. Causes knock-down. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Shock",
 				"description": "Target touched foe is knocked down and struck for 10...60 lightning damage. This skill has 25% armor penetration.",
 				"concise": "Touch Skill. Deals 10...60 lightning damage. Causes knock-down. 25% armor penetration."
 			},
+			"es": {
+				"name": "Descarga",
+				"description": "Habilidad. El enemigo objetivo alcanzado es derribado y recibe 10...60 de daño de relámpago. Esta habilidad tiene un 25% de penetración de armadura.",
+				"concise": "Habilidad de toque. Causa 10...60 de daño de relámpago. Causa derribo. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Décharge électrique",
+				"description": "Compétence. L'ennemi touché est renversé et subit 10...60 points de dégâts de la foudre. Cette compétence offre 25% de pénétration d'armure.",
+				"concise": "Compétence de toucher. Inflige 10...60 points de dégâts de la foudre. Renverse. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Décharge électrique",
 				"description": "L'ennemi touché est assommé et reçoit 10...60 points de dégâts de la foudre. Cette compétence offre 25% de pénétration d'armure et entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Shock",
+				"description": "Abilità. L'obiettivo nemico toccato viene abbattuto e subisce 10...60 danni da fulmine. Questa abilità ha una penetrazione dell'armatura del 25%.",
+				"concise": "Abilità a Tocco. Danni da fulmine inferti: 10...60. Provoca abbattimento. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ショック",
+				"description": "スキル： 接触した敵を転倒させ、 10...60 のライトニング ダメージを与えます。このスキルには25%のアーマー貫通効果があります。",
+				"concise": "スキル (接触)： 10...60 のライトニング ダメージを与えて転倒させます。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개 충격",
+				"description": "스킬. 대상 지정: 적. 대상은 바닥에 넘어지고, 10...60의 번개 대미지를 입습니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "스킬(접근용). 10...60의 번개 대미지를 주고, 바닥에 넘어뜨립니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Wstrząs",
+				"description": "Umiejętność. Wybrany dotknięty przeciwnik zostaje powalony i otrzymuje 10...60 pkt. obrażeń od błyskawic. Ta umiejętność posiada 25% przebicia pancerza, ale powoduje wyczerpanie.",
+				"concise": "Umiejętność dotykowa. Zadaje 10...60 pkt. obrażeń od błyskawic. Powoduje powalenie. 25% przebicie pancerza. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Shock",
+				"description": "Умение. Выбранный противник, до которого вы дотронулись, будет сбит с ног и получит 10...60 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Умение прикосновения. Наносит 10...60 ед. урона силой молнии. Сбивает с ног. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Shuck",
+				"description": "Skeell. Taerget tuooched fue-a is knucked doon und stroock fur 10...60 leeghtneeng daemaege-a. Thees skeell haes 25% aermur penetraeshun.",
+				"concise": "Tuooch Skeell. Deaels 10...60 leeghtneeng daemaege-a. Cooses knuck-doon. 25% aermur penetraeshun."
 			}
 		}
 	}

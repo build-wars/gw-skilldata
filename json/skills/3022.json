@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂怒",
+				"description": "缚灵仪式。 摧毁目标缚灵，并创造一个级别为1...10的狂怒缚灵，此缚灵会对敌人造成5...20点伤害。此缚灵在30...60秒后消失。",
+				"concise": "缚灵仪式。 摧毁目标缚灵，并创造一个级别为1...10的狂怒缚灵，此缚灵会对敌人造成5...20点伤害。此缚灵在30...60秒后消失。"
+			},
+			"cht": {
+				"name": "狂暴凝視",
+				"description": "縛靈儀式： 摧毀目標之我方縛靈且創造一隻等級 1...10 狂暴縛靈，此靈攻擊造成 5...20 傷害。縛靈在 30...60 秒後消失。",
+				"concise": "縛靈儀式： 摧毀目標之我方縛靈且創造一隻等級 1...10 狂暴縛靈，此靈攻擊造成 5...20 傷害。縛靈在 30...60 秒後消失。"
+			},
 			"de": {
+				"name": "Wütendes Starren (PvP)",
+				"description": "Binderitual. Vernichtet den anvisierten Geist und erstellt einen Geist der Wut der Stufe 1...10. Die Angriffe dieses Geistes fügen 5...20 Punkt[e] Schaden zu. Dieser Geist stirbt nach 30...60 Sekunden.",
+				"concise": "Binderitual. Zerstört einen verbündeten Geist. Erstellt einen Geist der Stufe 1...10 (30...60 Sekunde[n] Lebensdauer). Seine Angriffe richten 5...20 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Wütendes Starren (PvP)",
 				"description": "Vernichtet den anvisierten verbündeten Geist und erstellt einen Geist der Wut der Stufe 1...10. Die Angriffe dieses Geistes fügen 5...20 Punkte Schaden zu. Dieser Geist stirbt nach 30...60 Sekunden.",
 				"concise": "Zerstört einen verbündeten Geist. Erstellt einen Geist der Stufe 1...10 (30...60 Sekunden Lebensdauer.) Seine Angriffe richten 5...20 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Gaze of Fury (PvP)",
+				"description": "Binding Ritual. Destroy target allied spirit and create a level 1...10 Spirit of Fury. This spirit's attacks deal 5...20 damage. This spirit dies after 30...60 seconds.",
+				"concise": "Binding Ritual. Destroys an allied spirit. Creates a level 1...10 spirit (30...60 second lifespan). Its attacks deal 5...20 damage."
+			},
+			"en-gww": {
+				"name": "Gaze of Fury (PvP)",
 				"description": "Destroy target allied spirit and create a level 1...10 Spirit of Fury. This spirit's attacks deal 5...20 damage. This spirit dies after 30...60 seconds.",
 				"concise": "Destroys an allied spirit. Creates a level 1...10 spirit (30...60 second lifespan). Its attacks deal 5...20 damage."
 			},
+			"es": {
+				"name": "Mirada de furia (PvP)",
+				"description": "Ritual con espíritus. Destruyes el espíritu aliado objetivo y creas un espíritu de furia de nivel 1...10. Los ataques del espíritu causan 5...20 de daño. El espíritu morirá a los 30...60 segundos.",
+				"concise": "Ritual con espíritus. Destruye a un espíritu aliado. Crea un espíritu de nivel 1...10 (30...60 segundos de vida). Sus ataques causan 5...20 de daño."
+			},
 			"fr": {
+				"name": "Regard de fureur (PvP)",
+				"description": "Rituel d'asservissement. Anéantit l'esprit allié visé et crée un esprit de fureur de niveau 1...10. Les attaques de cet esprit infligent 5...20 points de dégâts. Cet esprit meurt au bout de 30...60 secondes.",
+				"concise": "Rituel d'asservissement. Détruit un esprit allié. Crée un esprit de niveau 1...10 (durée de vie de 30...60 secondes). Ses attaques infligent 5...20 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Regard de fureur (PvP)",
 				"description": "Anéantit l'esprit allié visé et crée un esprit de niveau 1...10. Les attaques de cet esprit infligent 5...20 points de dégâts. Il meurt au bout de 30...60 secondes.",
 				"concise": "Détruit un esprit allié. Crée un esprit de niveau 1...10 (durée de vie de 30...60 secondes). Ses attaques infligent 5...20 points de dégâts."
+			},
+			"it": {
+				"name": "Sguardo della Furia (PvP)",
+				"description": "Rituale Incatenante. Distrugge lo Spirito alleato preso di mira e crea uno Spirito della Furia di livello 1...10, i cui attacchi infliggono 5...20 danni. Lo Spirito muore dopo 30...60 secondi.",
+				"concise": "Rituale Incatenante. Distrugge uno Spirito alleato. Crea uno Spirito di livello 1...10 (in vita per 30...60 secondi). Danni inferti dai suoi attacchi: 5...20."
+			},
+			"jp": {
+				"name": "フューリー ゲイズ (PvP)",
+				"description": "バインド リチュアル： ターゲットした味方の精霊を消してレベル 1...10 のフューリー スピリットを召喚します。この精霊の攻撃は 5...20 のダメージを与えます。この精霊は 30...60 秒後に消えます。",
+				"concise": "バインド リチュアル： 味方の精霊を1体消して 5...20 のダメージを与える攻撃を行うレベル 1...10 の精霊を召喚します (30...60 秒) 。"
+			},
+			"kr": {
+				"name": "분노의 시선(대인전)",
+				"description": "영혼 결속. 대상 지정: 아군 영혼. 대상을 파괴하고 1...10레벨의 분노의 영혼을 소환합니다. 영혼은 적에게 5...20의 대미지를 줍니다. 영혼은 30...60초 후 사라집니다.",
+				"concise": "영혼 결속. 아군 영혼을 파괴합니다. 1...10레벨 분노의 영혼을 소환합니다.(수명: 30...60초) 영혼은 적에게 5...20의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Spojrzenie Furii (PvP)",
+				"description": "Rytuał spętania. Niszczy wybranego sprzymierzonego ducha, by stworzyć Ducha Furii poziomu 1...10. Ataki tego ducha zadają 5...20 pkt. obrażeń. Duch umiera po 30...60 sek.",
+				"concise": "Rytuał spętania. Niszczy sprzymierzonego ducha. Tworzy ducha o poziomie 1...10 (długość życia: 30...60 sek.). Jego ataki zadają 5...20 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Gaze of Fury (PvP)",
+				"description": "Связующий ритуал. Уничтожает выбранного союзного духа и создает духа Spirit of Fury 1...10 уровня. Атаки этого духа наносят 5...20 ед. урона. Этот дух умирает через 30...60 сек.",
+				"concise": "Связующий ритуал. Уничтожает союзного духа. Создает духа 1...10 уровня (30...60 сек жизни). Его атаки наносят 5...20 ед. урона."
+			},
+			"bork": {
+				"name": "Gaeze-a ooff Foory (PfP)",
+				"description": "Beendeeng Reetooael. Destruy taerget aelleeed spureet und creaete-a a lefel 1...10 Spureet ooff Foory. Thees spureet's aettaecks deael 5...20 daemaege-a. Thees spureet deees aeffter 30...60 secunds.",
+				"concise": "Beendeeng Reetooael. Destruys un aelleeed spureet. Creaetes a lefel 1...10 spureet (30...60 secund leeffespun). Its aettaecks deael 5...20 daemaege-a."
 			}
 		}
 	}

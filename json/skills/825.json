@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灼热矿床",
+				"description": "咒文。 在目前所在地点创造灼热矿床。持续10秒，使站立在接近灼热矿床位置的敌人每秒受到 5...29 火焰伤害。而且任何敌人在灼热矿床上被击倒的敌人，将遭受「灼烧」症状 3...7 秒。",
+				"concise": "咒文。 在目前所在地点创造灼热矿床。持续10秒，使站立在接近灼热矿床位置的敌人每秒受到 5...29 火焰伤害。而且任何敌人在灼热矿床上被击倒的敌人，将遭受「灼烧」症状 3...7 秒。"
+			},
+			"cht": {
+				"name": "燒炭地床",
+				"description": "咒文魔法： 在目前所在地點創造燒炭地床。持續10秒，使站立在接近燒炭地床位置的敵人每秒受到 5...29 火焰傷害。而且任何敵人在燒炭地床上被擊倒的敵人，將遭受「著火」病症 3...7 秒。",
+				"concise": "咒文魔法： 在目前所在地點創造燒炭地床。持續10秒，使站立在接近燒炭地床位置的敵人每秒受到 5...29 火焰傷害。而且任何敵人在燒炭地床上被擊倒的敵人，將遭受「著火」病症 3...7 秒。"
+			},
 			"de": {
+				"name": "Kohlenbett",
+				"description": "Zauber. An der Position des Gegners wird ein Kohlenbett erzeugt. Während der nächsten 5 Sekunden erleiden umstehende Gegner 5...29 Punkte Feuerschaden pro Sekunde. Alle Feinde, die auf dem Kohlenbett zu Boden geworfen werden, werden 3...7 Sekunden lang in Brand gesetzt.",
+				"concise": "Zauber. Richtet jede Sekunde 5...29 Punkte Feuerschaden an der Position des anvisierten Gegners an (5 Sekunden). Trifft um Euren Zielgegner herum stehende Feinde. Verursacht bei zu Boden geworfenen Gegnern Zustand Brennen (3...7 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Kohlenbett",
 				"description": "An der Position des Gegners wird ein Kohlenbett erzeugt. Während der nächsten 5 Sekunden erleiden umstehende Gegner 5...29 Punkte Feuerschaden pro Sekunde. Alle Feinde, die auf dem Kohlenbett zu Boden geworfen werden, werden 3...7 Sekunden lang in Brand gesetzt.",
 				"concise": "Richtet jede Sekunde 5...29 Punkte Feuerschaden an der Position des anvisierten Gegners an (5 Sekunden). Trifft um euren Zielgegner herum stehende Feinde. Verursacht bei zu Boden geworfenen Gegnern Zustand Brennen (3...7 Sekunden)."
 			},
 			"en": {
 				"name": "Bed of Coals",
+				"description": "Spell. Create a Bed of Coals at target foe's location. For 5 seconds, foes adjacent to target foe are struck for 5...29 fire damage each second. Any foe knocked down on the Bed of Coals is set on fire for 3...7 seconds.",
+				"concise": "Spell. Deals 5...29 fire damage each second (5 seconds) to location of target foe. Hits foes adjacent to your target. Inflicts Burning condition (3...7 seconds) on knocked down foes."
+			},
+			"en-gww": {
+				"name": "Bed of Coals",
 				"description": "Create a Bed of Coals at target foe's location. For 5 seconds, foes adjacent to target foe are struck for 5...29 fire damage each second. Any foe knocked down on the Bed of Coals is set on fire for 3...7 seconds.",
 				"concise": "Deals 5...29 fire damage each second (5 seconds) to location of target foe. Hits foes adjacent to your target. Inflicts Burning condition (3...7 seconds) on knocked down foes."
 			},
+			"es": {
+				"name": "Manto de ascuas",
+				"description": "Conjuro. Creas un Manto de ascuas en la ubicación del enemigo objetivo. Durante 5 segundos, todos los enemigos adyacentes al objetivo reciben 5...29 de daño de fuego cada segundo. Cualquier enemigo derribado en el Manto de ascuas arde durante 3...7 segundos.",
+				"concise": "Conjuro. Hace 5...29 de daño de fuego por segundo (5 segundos) en la ubicación del enemigo objetivo. Golpea a los enemigos adyacentes a tu objetivo. Causa quemadura (3...7 segundos) a los enemigos derribados."
+			},
 			"fr": {
+				"name": "Lit de Braise",
+				"description": "Sort. Vous créez un Lit de Braise sur la position de l'ennemi. Pendant 5 secondes, les ennemis adjacents à l'ennemi visé subissent 5...29 points de dégâts du feu par seconde. Les ennemis renversés sur le Lit de Braise s'embrasent pendant 3...7 secondes.",
+				"concise": "Sort. Inflige 5...29 points de dégâts du feu par seconde (5 secondes) à la position de la cible. Frappe les ennemis adjacents à votre cible. Embrase (3...7 secondes) les ennemis renversés."
+			},
+			"fr-gwiki": {
 				"name": "Lit de Braise",
 				"description": "Crée un Lit de Braise sur votre position. Pendant 10 secondes, les ennemis près de cette position subissent 5...29 points de dégâts du feu par seconde. Tout ennemi assommé sur le Lit de Braise s'embrase pendant 3...7 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Letto di Brace",
+				"description": "Magia. Crea un Letto di Brace in corrispondenza dell'obiettivo nemico. Per 5 secondi, i nemici adiacenti all'obiettivo nemico subiscono 5...29 danni da fuoco al secondo. I nemici che sono stati abbattuti sul Letto di Brace prendono fuoco per 3...7 secondi.",
+				"concise": "Magia. Danni da fuoco inferti al secondo: 5...29 (5 secondi) in corrispondenza dell'obiettivo nemico. Colpisce i nemici adiacenti al tuo obiettivo. Condizione inflitta ai nemici abbattuti: Bruciatura (3...7 secondi)."
+			},
+			"jp": {
+				"name": "コール ベッド",
+				"description": "スペル： ターゲットした敵がいる場所に炭を積み上げます。5 秒間、ターゲットに隣接する敵に毎秒 5...29 のファイア ダメージを与えます。炭の山で転倒した敵は 3...7 秒間「火傷」状態になります。",
+				"concise": "スペル： 発動時にターゲットした敵がいた場所に隣接する敵に毎秒 5...29 のファイア ダメージを与えます (5 秒)。転倒中の敵を「火傷」状態にします (3...7 秒)。"
+			},
+			"kr": {
+				"name": "장작 불길",
+				"description": "마법. 대상 지정: 적. 대상의 위치에 5초 동안 장작 불길을 지핍니다. 대상에 인접한 적들은 매초 5...29의 불 대미지를 입습니다. 불길 안에서 넘어진 적은 3...7초 동안 화상 상태가 됩니다.",
+				"concise": "마법. 대상 적 위치에 인접한 적들에게 매초 5...29의 불 대미지를 줍니다.(5초) 넘어진 적에겐 화상을 입힙니다.(3...7초)"
+			},
+			"pl": {
+				"name": "Rozżarzone Węgle",
+				"description": "Czar. Tworzy pod wybranym wrogiem Rozżarzone Węgle. Przez 5 sek. przeciwnicy bezpośrednio przy wybranym sojuszniku otrzymują co sekundę po 5...29 pkt. obrażeń od ognia. Każdy przeciwnik powalony na Rozżarzonych Węglach zostaje podpalony na 3...7 sek.",
+				"concise": "Czar. Zadaje 5...29 pkt. obrażeń na sek. (przez 5 sek.) na obszarze wokół celu. Trafia wrogów stojących obok celu. Podpala (na 3...7 sek.) powalonych przeciwników."
+			},
+			"ru": {
+				"name": "Bed of Coals",
+				"description": "Заклинание. Создает Bed of Coals в точке нахождения выбранного противника. В течение 5 сек противники, окружающие вашу цель, получают каждую секунду 5...29 ед. урона силой огня. Любой противник, сбитый с ног в зоне действия Bed of Coals, загорится на 3...7 сек.",
+				"concise": "Заклинание. Наносит 5...29 ед. урона силой огня каждую секунду (5 сек). Поражает противников, окружающих вашу цель. Поджигает (3...7 сек) сбитых с ног противников."
+			},
+			"bork": {
+				"name": "Bed ooff Cuaels",
+				"description": "Spell. Creaete-a a Bed ooff Cuaels aet taerget fue-a's lucaeshun. Fur 5 secunds, fues aedjaecent tu taerget fue-a aere-a stroock fur 5...29 fure-a daemaege-a iaech secund. Uny fue-a knucked doon oon zee Bed ooff Cuaels is set oon fure-a fur 3...7 secunds.",
+				"concise": "Spell. Deaels 5...29 fure-a daemaege-a iaech secund (5 secunds) tu lucaeshun ooff taerget fue-a. Heets fues aedjaecent tu yuoor taerget. Inffleects Boorneeng cundeeshun (3...7 secunds) oon knucked doon fues."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "妖咒转移",
+				"description": "精英咒文。 驱散友方目标身上最多1...3项「负面魔法」。每成功驱散一个「负面魔法」，使友方目标失去1种「症状」，并为其回复15...75点生命值。",
+				"concise": "精英咒文。 驱散友方目标身上最多1...3项「负面魔法」。每成功驱散一个「负面魔法」，使友方目标失去1种「症状」，并为其回复15...75点生命值。"
+			},
+			"cht": {
+				"name": "降咒轉向",
+				"description": "精英咒文魔法： 為目標盟友移除最多 1...3 項「降咒」。每利用此方式為盟友消去一項「降咒」，同時也會為該盟友消去一項「病症」並治療其 15...75 體力。",
+				"concise": "精英咒文魔法： 為目標盟友移除最多 1...3 項「降咒」。每利用此方式為盟友消去一項「降咒」，同時也會為該盟友消去一項「病症」並治療其 15...75 體力。"
+			},
 			"de": {
+				"name": "Verhexungen umleiten",
+				"description": "Elite-Zauber. Entfernt bis zu 1...3 Verhexung[en] vom Verbündeten. Für jede Verhexung, die auf diese Weise entfernt wird, verliert der Verbündete einen Zustand und erhält 15...75 Lebenspunkt[e].",
+				"concise": "Elite-Zauber. Entfernt 1...3 Verhexung[en]. Für jede entfernte Verhexung verliert der Verbündete (bzw. Ihr selbst) einen Zustand und erhält 15...75 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verhexungen umleiten",
 				"description": "Entfernt bis zu 1...3 Verhexung(en) vom Verbündeten (bzw. Euch selbst). Für jede Verhexung, die auf diese Weise entfernt wird, wird der Verbündete um 15...75 Lebenspunkte geheilt und verliert einen Zustand.",
 				"concise": "Entfernt 1...3 Verhexung(en). Für jede entfernte Verhexung verliert der Verbündete (bzw. Ihr selbst) einen Zustand und wird um 15...75 Lebenspunkte geheilt."
 			},
 			"en": {
 				"name": "Divert Hexes",
+				"description": "Elite Spell. Remove up to 1...3 hexes from target ally. For each hex removed in this way, that ally loses one condition and gains 15...75 Health.",
+				"concise": "Elite Spell. Removes 1...3 hexes. For each hex removed, target ally loses one condition and gains 15...75 Health."
+			},
+			"en-gww": {
+				"name": "Divert Hexes",
 				"description": "Remove up to 1...3 hex[es] from target ally. For each hex removed in this way, that ally loses one condition and gains 15...75 Health.",
 				"concise": "Removes 1...3 hex[es]. For each hex removed, target ally loses one condition and gains 15...75 Health."
 			},
+			"es": {
+				"name": "Desviar maleficios",
+				"description": "Conjuro de élite. Quitas hasta 1...3 maleficios del objetivo (un aliado o tú mismo). Por cada uno que quites, perderá una condición y ganará 15...75 de salud.",
+				"concise": "Conjuro de élite. Elimina 1...3 maleficios. Por cada uno eliminado, el objetivo (un aliado o tú mismo) pierde una condición y gana 15...75 de salud."
+			},
 			"fr": {
+				"name": "Diversion des maléfices",
+				"description": "Sort d'élite. Supprime jusqu'à 1...3 maléfices affectant la cible (un allié ou vous-même). Pour chaque maléfice ôté de cette manière, la cible perd une condition et gagne 15...75 points de vie.",
+				"concise": "Sort d'élite. Supprime 1...3 maléfices. L'allié visé perd une condition et gagne 15...75 points de vie par maléfice supprimé."
+			},
+			"fr-gwiki": {
 				"name": "Diversion des maléfices",
 				"description": "Supprime jusqu'à 1...3 maléfice(s) affectant la cible (un allié ou vous-même). Pour chaque maléfice ôté de cette manière, la cible perd une condition et gagne 15...75 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Diversione Fatture",
+				"description": "Magia d'Élite. Elimini fino a 1...3 fattura[e] dall'obiettivo alleato. Per ogni fattura così rimossa, quell'alleato perde una condizione ed ottiene 15...75 Punto[i] Salute.",
+				"concise": "Magia d'Élite. Fatture rimosse: 1...3. Per ogni fattura rimossa, l'obiettivo alleato perde una condizione ed ottiene 15...75 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "ディバート ヘックス",
+				"description": "エリート スペル： ターゲットした味方から最大 1...3 個の弱体化スペルを解除します。この効果により解除した弱体化スペルごとに、その味方にかけられている「状態異常」が1個解除され、味方は15...75 の体力を獲得します。",
+				"concise": "エリート スペル： 弱体化スペルを 1...3 個解除します。ターゲットした味方は、解除した弱体化スペルごとに「状態異常」が1個解除され、15...75 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "약화의 전환",
+				"description": "엘리트 마법. 대상 지정: 아군. 대상에 걸린 약화 마법 1...3개를 무효화합니다. 이렇게 무효화한 약화 마법 하나당 대상은 상태이상 하나를 무효화하고, 15...75의 체력을 회복합니다.",
+				"concise": "엘리트 마법. 약화 마법 1...3개를 무효화합니다. 무효화한 약화 마법 하나당 대상의 상태이상 하나를 무효화하고, 15...75의 체력을 회복시킵니다."
+			},
+			"pl": {
+				"name": "Przeobrażanie Klątw",
+				"description": "Elitarny czar. Z wybranego sojusznika usuwasz do 1...3 klątw. Za każdą klątwę usuniętą w ten sposób, sojusznik traci jedną przypadłość i otrzymuje 15...75 pkt. żywotności.",
+				"concise": "Elitarny czar. Usuwa klątwy w liczbie 1...3. Za każdą usuniętą klątwę, wybrany sojusznik traci jedną przypadłość i otrzymuje 15...75 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Divert Hexes",
+				"description": "Элитное заклинание. Снимает до 1...3 проклятий с выбранного союзника. За каждое проклятье, снятое с помощью этого умения, с этого союзника снимается одно состояние, а сам он получает 15...75 ед. здоровья.",
+				"concise": "Элитное заклинание. Снимает проклятья (1...3). За каждое снятое проклятье выбранный союзник теряет одно состояние и получает 15...75 ед. здоровья."
+			},
+			"bork": {
+				"name": "Deefert Hexes",
+				"description": "Ileete-a Spell. Remufe-a up tu 1...3 hexes frum taerget aelly. Fur iaech hex remufed in thees vaey, thaet aelly luses oone-a cundeeshun und gaeeens 15...75 Heaelt.",
+				"concise": "Ileete-a Spell. Remufes 1...3 hexes. Fur iaech hex remufed, taerget aelly luses oone-a cundeeshun und gaeeens 15...75 Heaelt."
 			}
 		}
 	}

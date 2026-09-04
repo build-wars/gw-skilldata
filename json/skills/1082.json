@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电箭",
+				"description": "咒文。 射出闪电箭迅速飞向目标敌人，对其造成 5...50 闪电伤害。闪电箭具有 25% 的护甲穿透效果。",
+				"concise": "咒文。 射出闪电箭迅速飞向目标敌人，对其造成 5...50 闪电伤害。闪电箭具有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "電擊之箭",
+				"description": "咒文魔法： 此技能為投射性攻擊，對目標敵人造成5...50閃電傷害，若該目標正在攻擊，你獲得5能量，同時依照能量儲存等級，每2級讓你額外獲得1能量，此技能有25%防禦穿透效果。",
+				"concise": "咒文魔法： 此技能為投射性攻擊，對目標敵人造成5...50閃電傷害，若該目標正在攻擊，你獲得5能量，同時依照能量儲存等級，每2級讓你額外獲得1能量，此技能有25%防禦穿透效果。"
+			},
 			"de": {
+				"name": "Schockpfeil",
+				"description": "Zauber. Sendet einen Schockpfeil aus, der schnell auf den Gegner zufliegt und ihm 5...50 Punkte Blitzschaden zufügt. Wenn Schockpfeil einen Gegner mit Beschädigter Rüstung trifft, erhaltet Ihr 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung. Schockpfeil hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Rasantes Geschoss: Richtet 5...50 Punkte Blitzschaden an. Ihr erhaltet 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn Ihr einen Feind mit Beschädigter Rüstung trefft. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Schockpfeil",
 				"description": "Sendet einen Schockpfeil aus, der schnell auf den Gegner zufliegt und ihm 5...50 Punkte Blitzschaden zufügt. Wenn Schockpfeil einen Gegner mit Beschädigter Rüstung trifft, erhaltet Ihr 5 Energiepunkte sowie 1 Punkt für alle 2 Ränge in Energiespeicherung. Schockpfeil hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Rasantes Geschoss: Richtet 5...50 Punkte Blitzschaden an. Erhaltet 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn Ihr einen Feind mit Beschädigter Rüstung trefft. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Shock Arrow",
+				"description": "Spell. Send out a Shock Arrow that flies swiftly toward target foe, striking for 5...50 lightning damage. If Shock Arrow strikes a foe suffering from Cracked Armor, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage. Shock Arrow has 25% armor penetration.",
+				"concise": "Spell. Rapid projectile: deals 5...50 lightning damage. Gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if you hit a foe suffering from Cracked Armor. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Shock Arrow",
 				"description": "Send out a shocking arrow that flies swiftly toward target foe, striking for 5...50 lightning damage. If Shock Arrow strikes a foe suffering from Cracked Armor, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage. Shock Arrow has 25% armor penetration.",
 				"concise": "Rapid projectile: deals 5...50 lightning damage. Gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if you hit a foe suffering from Cracked Armor. 25% armor penetration."
 			},
+			"es": {
+				"name": "Flecha eléctrica",
+				"description": "Conjuro. Mandas un Flecha eléctrica que vuela presta hacia el enemigo objetivo y le causa 5...50 de daño de relámpago. Si la Flecha eléctrica alcanza a un enemigo con la armadura rota, ganas 5 de energía y 1 de energía por cada dos rangos de almacenamiento de energía. Flecha eléctrica tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Proyectil rápido: causa 5...50 de daño de relámpago. Obtienes 5 de energía y 1 de energía por cada dos rangos de almacenamiento de energía si alcanzas a un enemigo con la armadura rota. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Flèche de choc",
+				"description": "Sort. Vous envoyez une Flèche de choc qui vole rapidement en direction de la cible ennemie, et qui inflige 5...50 points de dégâts de la foudre. Si la Flèche de choc frappe un ennemi souffrant d'Armure brisée, vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie. La Flèche de choc a 25% de pénétration d'armure.",
+				"concise": "Sort. Projectile rapide : inflige 5...50 points de dégâts de la foudre. Vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie si vous frappez un ennemi souffrant d'Armure brisée. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Flèche de choc",
 				"description": "Lance une flèche de choc qui se dirige rapidement vers la cible ennemie et inflige 5...50 points de dégâts de la foudre. Si la Flèche de choc touche un ennemi en train d'attaquer, vous recevez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie. Flèche de choc a une pénétration d'armure de 25%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Freccia dello Shock",
+				"description": "Magia. Lanci una Freccia dello Shock che vola rapidamente verso l'obiettivo nemico infliggendo 5...50 danni da fulmine. Se colpisce un nemico che soffre di Armatura Incrinata, ottieni 5 Punti Energia e 1 Punto Energia per ogni 2 gradi della Riserva di Energia. La Freccia dello Shock ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia. Proiettile rapido: danni da fulmine inferti: 5...50. Energia conseguita se colpisci un nemico con Armatura Incrinata: 5 più 1 per ogni 2 gradi della Riserva di Energia. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ショック アロー",
+				"description": "スペル： ターゲットした敵に 5...50 のライトニング ダメージを与える飛速度の速い矢を飛ばします。「防具破損」状態の敵に命中すると、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： 高速の遠投攻撃： 5...50 のライトニング ダメージを与えます。「防具破損」状態の敵に命中すると、5 のエネルギーと、「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "충격 화살",
+				"description": "마법. 대상 지정: 적. 충격 화살이 빠르게 대상을 강타하여 5...50의 번개 대미지를 줍니다. 대상이 방어 손상을 입은 상태면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 특성 레벨 2당 1의 에너지를 추가로 얻습니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 빠른 발사체: 5...50의 번개 대미지를 줍니다. 방어 손상을 입은 적에게 적중하면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 특성 레벨 2당 1의 에너지를 추가로 얻습니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Strzała Porażenia",
+				"description": "Czar. Wyślij porażającą strzałę, która leci w kierunku wybranego przeciwnika, zadając 5...50 pkt. obrażeń od błyskawic. Jeśli Strzała Porażenia trafi przeciwnika pod wpływem Pękniętej Zbroi, otrzymujesz 5 pkt. energii oraz 1 pkt. energii za każde dwa stopnie pojemności energii. Strzała Porażenia czar posiada 25% przebicia pancerza.",
+				"concise": "Czar. Szybki pocisk: zadaje 5...50 pkt. obrażeń od elektryczności. Bonus 5 do energii oraz 1 pkt. energii za każde 2 stopnie pojemności energii, jeśli trafisz przeciwnika pod wpływem Pękniętej Zbroi. 25% penetracji pancerza."
+			},
+			"ru": {
+				"name": "Shock Arrow",
+				"description": "Заклинание. Бросок шоковой стрелой, которая быстро летит к выбранному противнику и наносит 5...50 ед. урона силой молнии. Если Shock Arrow поражает противника с треснувшими доспехами, вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage. Shock Arrow игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Скоростной метательный снаряд: наносит 5...50 ед. урона силой молнии. Вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage, если попали в противника с треснувшими доспехами. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Shuck Aerroo",
+				"description": "Spell. Send oooot a Shuck Aerroo thaet fleees sveefftly tooaerd taerget fue-a, streekeeng fur 5...50 leeghtneeng daemaege-a. Iff Shuck Aerroo streekes a fue-a sooffffereeng frum Craecked Aermur, yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a. Shuck Aerroo haes 25% aermur penetraeshun.",
+				"concise": "Spell. Raepeed prujecteele-a: deaels 5...50 leeghtneeng daemaege-a. Gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a iff yuoo heet a fue-a sooffffereeng frum Craecked Aermur. 25% aermur penetraeshun."
 			}
 		}
 	}

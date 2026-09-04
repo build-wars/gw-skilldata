@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "咆哮射击",
+				"description": "弓术。 命中时，对敌人造成10...25点额外伤害。如果你的目标在「音波」范围内，则使其遭受「流血」症状5...20秒。",
+				"concise": "弓术。 命中时，对敌人造成10...25点额外伤害。如果你的目标在「音波」范围内，则使其遭受「流血」症状5...20秒。"
+			},
+			"cht": {
+				"name": "咆哮射擊",
+				"description": "弓術攻擊技能： 命中時對目標造成 10...25 額外傷害，若目標在音量所及範圍內，則使其遭受「流血」病症 5...20 秒。",
+				"concise": "弓術攻擊技能： 命中時對目標造成 10...25 額外傷害，若目標在音量所及範圍內，則使其遭受「流血」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Schreischuss",
+				"description": "Bogenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...25 Punkt[e] Schaden zu. Wenn Euer Gegner in Hörweite ist, leidet er 5...20 Sekunde[n] lang an einer Blutung.",
+				"concise": "Bogenangriff. Richtet +10...25 Punkt[e] Schaden an. Verursacht Zustand Blutung (5...20 Sekunde[n]), falls der Gegner in Hörweite ist."
+			},
+			"de-guildwiki": {
 				"name": "Schreischuss",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...25 Punkte Schaden zu. Wenn Euer Gegner in Hörweite ist, leidet er 5...20 Sekunden lang an einer Blutung.",
 				"concise": "Richtet +10...25 Punkte Schaden an. Verursacht Zustand Blutung (5...20 Sekunden), falls der Gegner in Hörweite ist."
 			},
 			"en": {
 				"name": "Screaming Shot",
+				"description": "Bow Attack. If this attack hits, you deal +10...25 damage. If your target is within earshot, that foe begins Bleeding for 5...20 seconds.",
+				"concise": "Bow Attack. Deals +10...25 damage. Inflicts Bleeding condition (5...20 seconds) if target foe is within earshot."
+			},
+			"en-gww": {
+				"name": "Screaming Shot",
 				"description": "If this attack hits, you deal +10...25 damage. If your target is within earshot, that foe begins Bleeding for 5...20 seconds.",
 				"concise": "Deals +10...25 damage. Inflicts Bleeding condition (5...20 seconds) if target foe is within earshot."
 			},
+			"es": {
+				"name": "Disparo estridente",
+				"description": "Ataque con arco. Si este ataque impacta, harás +10...25 de daño. Si tu objetivo está al alcance del oído, sufrirá una hemorragia durante 5...20 segundos.",
+				"concise": "Ataque con arco. Hace +10...25 de daño. Causa hemorragia (5...20 segundos) si el enemigo objetivo está al alcance del oído."
+			},
 			"fr": {
+				"name": "Tir hurleur",
+				"description": "Attaque à l'arc. Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si votre cible est à portée de voix, elle souffre de Saignement pendant 5...20 secondes.",
+				"concise": "Attaque à l'arc. Inflige +10...25 points de dégâts. Inflige le Saignement (5...20 secondes) si l'ennemi visé est à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Tir hurleur",
 				"description": "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si votre cible est à portée de voix, elle souffre de Saignement pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Urlante",
+				"description": "Attacco con Arco. Se va a segno infliggi +10...25 danno[i]; se il tuo obiettivo è a portata d'orecchio, inizia a sanguinare per 5...20 secondo[i].",
+				"concise": "Attacco con Arco. Danni inferti: +10...25. Condizione inflitta se l'obiettivo nemico è a portata d'orecchio: Emorragia (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "スクリーム ショット",
+				"description": "ボウ アタック： この攻撃が成功すると、ターゲットした敵に 10...25 の追加ダメージを与えます。ターゲットが声の届く範囲内にいた場合、その敵は 5...20 秒間「出血」状態になります。",
+				"concise": "ボウ アタック： 10...25 の追加ダメージを与えます。声の届く範囲内にターゲットがいる場合、「出血」状態にします (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "괴성의 화살",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...25의 대미지를 추가로 줍니다. 대상이 가청 범위 내에 있으면 5...20초 동안 출혈 상태가 됩니다.",
+				"concise": "활 공격. 10...25의 대미지를 추가로 줍니다. 대상이 가청 범위 내에 있으면 출혈을 일으키게 합니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Wrzeszczący Strzał",
+				"description": "Strzał z łuku. Jeśli atak trafi, zadaje +10...25 pkt. obrażeń. Jeżeli twój cel jest w zasięgu słuchu, będzie krwawił przez 5...20 sek.",
+				"concise": "Strzał z łuku. Zadaje +10...25 pkt. obrażeń. Wywołuje przypadłość krwawienie (5...20 sek.), jeżeli wybrany przeciwnik jest w zasięgu słuchu."
+			},
+			"ru": {
+				"name": "Screaming Shot",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, вы наносите дополнительно 10...25 ед. урона. Если выбранный противник находится в зоне слышимости, то он будет кровоточить в течение 5...20 сек.",
+				"concise": "Атака из лука. Наносит дополнительно 10...25 ед. урона. Вызывает кровотечение (5...20 сек), если выбранный противник находится в зоне слышимости."
+			},
+			"bork": {
+				"name": "Screaemeeng Shut",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets, yuoo deael +10...25 daemaege-a. Iff yuoor taerget is veetheen iaershut, thaet fue-a begeens Bleedeeng fur 5...20 secunds.",
+				"concise": "Boo Aettaeck. Deaels +10...25 daemaege-a. Inffleects Bleedeeng cundeeshun (5...20 secunds) iff taerget fue-a is veetheen iaershut."
 			}
 		}
 	}

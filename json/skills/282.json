@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "治愈之语",
+				"description": "精英咒文。 治疗目标队友5...100点生命值。若该友方生命值低于50%，则他将获得30...115点的额外治疗。",
+				"concise": "精英咒文。 治疗目标队友5...100点生命值。若该队友生命低于50%，则他将获得30...115点额外治疗。"
+			},
+			"cht": {
+				"name": "治癒文字",
+				"description": "精英咒文魔法： 治癒目標盟友 5...100 體力。若該盟友體力低於 50% ，則其額外獲得 30...115 體力治癒。",
+				"concise": "精英咒文魔法： 治癒目標其他盟友 5...100 體力。若該盟友體力低於 50% ，則其額外獲得 30...115 體力治癒。"
+			},
 			"de": {
+				"name": "Wort der Heilung",
+				"description": "Elite-Zauber. Heilt Verbündeten (bzw. Euch selbst) für 5...100 Lebenspunkt[e]. Er wird für zusätzliche 30...115 Lebenspunkt[e] geheilt, wenn seine Lebenspunkte unter 50% liegen.",
+				"concise": "Elite-Zauber. Heilt um 5...100 Lebenspunkt[e]. Heilt um weitere 30...115 Lebenspunkt[e], falls der Verbündete (bzw. Ihr selbst) weniger als 50% seiner maximalen Lebenspunkte hat."
+			},
+			"de-guildwiki": {
 				"name": "Wort der Heilung",
 				"description": "Heilt Verbündeten (bzw. Euch selbst) um 5...100 Punkte. Er wird für zusätzliche 30...115 Lebenspunkte geheilt, wenn seine Lebenspunkte unter 50% liegen.",
 				"concise": "Heilt um 5...100 Lebenspunkte. Heilt um weitere 30...115 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) weniger als 50% seiner maximalen Lebenspunkte hat."
 			},
 			"en": {
 				"name": "Word of Healing",
+				"description": "Elite Spell. Heal target ally for 5...100 Health. Heal for an additional 30...115 Health if that ally is below 50% Health.",
+				"concise": "Elite Spell. Heals for 5...100. Heals for 30...115 more if target ally is below 50% Health."
+			},
+			"en-gww": {
+				"name": "Word of Healing",
 				"description": "Heal target ally for 5...100 Health. Heal for an additional 30...115 Health if that ally is below 50% Health.",
 				"concise": "Heals for 5...100. Heals for 30...115 more if target ally is below 50% Health."
 			},
+			"es": {
+				"name": "Palabra de curación",
+				"description": "Conjuro de élite. Curas 5...100 de salud al objetivo (un aliado o tú mismo). Curas 30...115 adicionales si la salud del aliado está por debajo del 50%.",
+				"concise": "Conjuro de élite. Cura 5...100 de salud. Cura 30...115 de salud extra si el objetivo (un aliado o tú mismo) está por debajo del 50% de salud."
+			},
 			"fr": {
+				"name": "Parole de guérison",
+				"description": "Sort d'élite. La cible (un allié ou vous-même) est soignée de 5...100 points de vie. Si elle a moins de 50% de santé, elle récupère 30...115 points de vie supplémentaires.",
+				"concise": "Sort d'élite. Soigne de 5...100 points de vie. Soigne de 30...115 points de vie en plus si l'allié visé a moins de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Parole de guérison",
 				"description": "La cible (un allié ou vous-même) est soigné de 5...100 points de vie. Si elle a moins de 50% de santé, elle récupère 30...115 points de vie supplémentaires.",
 				"concise": "Soigne de 5...100 points de vie. Soigne de 30...115 points de vie en plus si l'allié visé a moins de 50% de santé."
+			},
+			"it": {
+				"name": "Parola di Guarigione",
+				"description": "Magia d'Élite. Curi l'obiettivo (un alleato o te stesso) di 5...100 Punto[i] Salute e di altri 30...115 Punto[i] Salute se la sua Salute è inferiore al 50%.",
+				"concise": "Magia d'Élite. Cure: 5...100. Cura di 30...115 in più se la Salute dell'obiettivo (un alleato o te stesso) è inferiore al 50%."
+			},
+			"jp": {
+				"name": "ヒーリング ワード",
+				"description": "エリート スペル： ターゲットした味方は体力が 5...100 回復します。その味方の体力が50%未満の場合、30...115 の体力が追加回復します。",
+				"concise": "エリート スペル： 体力を 5...100 回復します。ターゲットした味方の体力が上限の50%未満の場合、30...115 の体力が追加回復します。"
+			},
+			"kr": {
+				"name": "치유의 복음",
+				"description": "엘리트 마법. 대상 지정: 아군. 대상의 체력을 5...100만큼 회복시킵니다. 대상의 체력이 50% 미만이면 30...115의 체력을 추가로 회복시킵니다.",
+				"concise": "엘리트 마법. 5...100의 체력을 회복시킵니다. 대상의 체력이 50% 미만이면 30...115의 체력을 추가로 회복시킵니다."
+			},
+			"pl": {
+				"name": "Słowo Uzdrowienia",
+				"description": "Elitarny czar. Uzdrawiasz wybranego sojusznika dodając mu 5...100 pkt. żywotności. Jeśli jego żywotność znajduje się poniżej 50%, to uzdrawiasz go o dodatkowe 30...115 punktów.",
+				"concise": "Elitarny czar. Dodaje 5...100 pkt. żywotności. Dodatkowo dodaje 30...115 pkt. żywotności, jeśli żywotność wybranego sojusznika jest poniżej 50%."
+			},
+			"ru": {
+				"name": "Word of Healing",
+				"description": "Элитное заклинание. Выбранный союзник будет исцелен на 5...100 ед. здоровья. Если уровень его здоровья был ниже 50%, он будет исцелен дополнительно на 30...115 ед. здоровья.",
+				"concise": "Элитное заклинание. Исцеляет на 5...100 ед. здоровья. Исцеляет дополнительно на 30...115 ед. здоровья, если у выбранного союзника меньше 50% здоровья."
+			},
+			"bork": {
+				"name": "Vurd ooff Heaeleeng",
+				"description": "Ileete-a Spell. Heael taerget aelly fur 5...100 Heaelt. Heael fur un aeddeeshunael 30...115 Heaelt iff thaet aelly is beloo 50% Heaelt.",
+				"concise": "Ileete-a Spell. Heaels fur 5...100. Heaels fur 30...115 mure-a iff taerget aelly is beloo 50% Heaelt."
 			}
 		}
 	}

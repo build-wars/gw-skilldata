@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "地之协调",
+				"description": "增益魔法。 在36...60秒之内，提高你与大地的元素协调性，使你在每次施放地系魔法时获得1点能量，并回收所使用能量的30%。",
+				"concise": "增益魔法。 在36...60秒 之内，提高你与大地的元素协调性，使你在每次施放地系魔法时获得1点能量、地系法术基础能量消耗减少 30%。"
+			},
+			"cht": {
+				"name": "地之調和",
+				"description": "加持魔法： 持續 36...60 秒，你與大地調和。每次你使用土系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。",
+				"concise": "加持魔法： 持續 36...60 秒，你與大地調和。每次你使用土系魔法時，獲得 1 能量並且可回收消耗能量的 30% 。"
+			},
 			"de": {
+				"name": "Erdeinstimmung",
+				"description": "Verzauberung. 36...60 Sekunde[n] lang seid Ihr auf Erde eingestimmt. Jedes Mal, wenn Ihr Erdmagie verwendet, erhaltet Ihr 1 Energiepunkt sowie 30% der Basisenergiekosten der Fertigkeit.",
+				"concise": "Verzauberung. (36...60 Sekunde[n].) Ihr erhaltet 1 Energiepunkt plus 30% der Energiekosten zurück, wenn Ihr Erdmagie-Fertigkeiten benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Erdeinstimmung",
 				"description": "36...60 Sekunden lang seid Ihr auf die Erde eingestimmt. Jedes Mal, wenn Ihr Erdmagie verwendet, erhaltet Ihr 1 Energiepunkt sowie 30% der Basisenergiekosten der Fertigkeit.",
 				"concise": "36...60 Sekunden: Ihr erhaltet 1 Energiepunkt plus 30% der Energiekosten zurück, wenn Ihr Erdmagie-Fertigkeiten benutzt."
 			},
 			"en": {
 				"name": "Earth Attunement",
+				"description": "Enchantment Spell. For 36...60 seconds, you are attuned to Earth. You gain 1 Energy plus 30% of the base Energy cost of the skill each time you use Earth Magic.",
+				"concise": "Enchantment Spell. (36...60 seconds.) You gain 1 Energy plus 30% of the Energy cost when you use an Earth Magic skill."
+			},
+			"en-gww": {
+				"name": "Earth Attunement",
 				"description": "For 36...60 seconds, you are attuned to Earth. You gain 1 Energy plus 30% of the base Energy cost of the skill each time you use Earth Magic.",
 				"concise": "(36...60 seconds.) You gain 1 Energy plus 30% of the Energy cost when you use an Earth Magic skill."
 			},
+			"es": {
+				"name": "Sintonía con la tierra",
+				"description": "Conjuro con encantamiento. Durante 36...60 segundos, estarás en sintonía con la tierra Ganas 1 de energía además de un 30% del coste base de la habilidad en energía cada vez que utilices magia de tierra.",
+				"concise": "Conjuro con encantamiento. (36...60 segundos). Ganas 1 de energía más el 30% del coste de energía cuando uses una habilidad de magia de tierra."
+			},
 			"fr": {
+				"name": "Affinité terrestre",
+				"description": "Enchantement. Pendant 36...60 secondes, vous êtes en parfaite harmonie avec la Terre. Vous gagnez 1 point d'énergie et 30% du coût en énergie de base pour toute compétence de Magie de la terre utilisée.",
+				"concise": "Enchantement. (36...60 secondes.) Quand vous utilisez une compétence de Magie de la terre, vous gagnez 1 point d'énergie plus 30% de son coût en énergie."
+			},
+			"fr-gwiki": {
 				"name": "Affinité terrestre",
 				"description": "Pendant 36...60 secondes, vous êtes en parfaite harmonie avec la Terre. Vous gagnez 1 point d'énergie et 30% du coût en énergie de base de cette compétence à chaque fois que vous utilisez la Magie de la terre.",
 				"concise": "(36...60 secondes.) Quand vous utilisez une compétence de Magie de la terre, vous gagnez 1 point d'énergie plus 30% de son coût en énergie."
+			},
+			"it": {
+				"name": "Armonia con la Terra",
+				"description": "Incantesimo. Per 36...60 secondi entri in sintonia con la Terra. Recuperi 1 Punto Energia e il 30% del costo di Energia di base dell'abilità ogni volta che utilizzi una Magia della Terra.",
+				"concise": "Incantesimo. (Secondi: 36...60.) Ricevi 1 Punto Energia e il 30% del costo energetico usando un'abilità della Magia della Terra."
+			},
+			"jp": {
+				"name": "アース アチューン",
+				"description": "強化スペル： 36...60 秒間、土に順応します。「アース」の特性スキルを使用するたびに1のエネルギーと、消費エネルギーの30%が戻されます。",
+				"concise": "強化スペル： (36...60 秒) 「アース」の特性スキルを使用すると、1のエネルギーと消費エネルギーの30%が還元されます。"
+			},
+			"kr": {
+				"name": "대지 감응",
+				"description": "강화 마법. 대상 지정: 없음. 36...60초 동안 대지 속성 스킬을 사용할 때마다 1의 에너지에 더해 소모된 기본 에너지의 30%를 즉시 회복합니다.",
+				"concise": "강화 마법. (36...60초) 대지 속성 스킬을 사용하면 1의 에너지에 더해 소모 에너지의 30%를 즉시 회복합니다."
+			},
+			"pl": {
+				"name": "Zestrojenie z Ziemią",
+				"description": "Zaklęcie (czar). Przez 36...60 sek. postać jest dostrojona do ziemi. Za każdym razem, kiedy użyjesz umiejętności związanej z Magią Ziemi, otrzymasz 1 pkt. energii plus 30% pkt. energetycznego kosztu tej umiejętności.",
+				"concise": "Zaklęcie (czar). (36...60 sek.) Za każdym razem, kiedy użyjesz umiejętności związanej z Magią Ziemi, otrzymasz 1 pkt. energii plus 30% pkt. zużytej energii."
+			},
+			"ru": {
+				"name": "Earth Attunement",
+				"description": "Заклинание-чары. В течение 36...60 сек вы находитесь в гармонии со стихией Земли. Каждый раз, когда вы используете умение, связанное с Earth Magic, вы получаете 1 ед. энергии плюс 30% от количества энергии, необходимой для использования этого умения.",
+				"concise": "Заклинание-чары. (36...60 сек) Вы получаете 1 ед. энергии плюс 30% от количества энергии, необходимой для активации умения, когда вы используете умение, связанное с Earth Magic."
+			},
+			"bork": {
+				"name": "Iaert Aettoonement",
+				"description": "Inchuntment Spell. Fur 36...60 secunds, yuoo aere-a aettooned tu Iaert. Yuoo gaeeen 1 Inergy ploos 30% ooff zee baese-a Inergy cust ooff zee skeell iaech teeme-a yuoo use-a Iaert Maegeec.",
+				"concise": "Inchuntment Spell. (36...60 secunds.) Yuoo gaeeen 1 Inergy ploos 30% ooff zee Inergy cust vhee yuoo use-a un Iaert Maegeec skeell."
 			}
 		}
 	}

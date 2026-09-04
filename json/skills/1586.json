@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "天使之翼",
+				"description": "技能。 在10秒之内，当目标盟友每秒受到的伤害高于250...80点时，该盟友将获得高于此伤害的治疗。",
+				"concise": "技能。 在10秒之内，当目标盟友每秒受到的伤害高于250...80点时，该盟友将获得高于此伤害的治疗。"
+			},
+			"cht": {
+				"name": "天使守護",
+				"description": "技能： 持續 10 秒，當目標其他盟友受到的每秒傷害超過 250...80 時，該盟友得到超過該損傷的體力。",
+				"concise": "技能： 持續 10 秒，當目標其他盟友受到的每秒傷害超過 250...80 時，該盟友得到超過該損傷的體力。"
+			},
 			"de": {
+				"name": "Engelsschutz",
+				"description": "Fertigkeit. 10 Sekunde[n] lang wird der Verbündete jedes Mal, wenn er mehr als 250...80 Punkt[e] Schaden pro Sekunde erleidet, um die Schadensmenge über diesem Betrag geheilt.",
+				"concise": "Fertigkeit. 10 Sekunde[n]: In jeder Sekunde, in welcher der Verbündete (bzw. Ihr selbst) Schaden von mehr als 250...80 Punkt[en] erleidet, wird bei ihm jeglicher Schaden über dieser Menge geheilt. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Engelsschutz",
 				"description": "10 Sekunden lang wird der Verbündete jedes Mal, wenn er mehr als 250...80 Punkte Schaden pro Sekunde erleidet, um die Schadensmenge über diesem Betrag geheilt.",
 				"concise": "10 Sekunden: In jeder Sekunde, in welcher der Verbündete (bzw. Ihr selbst) Schaden von mehr als 250...80 Punkten erleidet, wird bei ihm jeglicher Schaden über dieser Menge geheilt. <gray>Sich selbst als Ziel wählen ist nicht möglich</gray>"
 			},
 			"en": {
 				"name": "Angelic Protection",
+				"description": "Skill. For 10 seconds, any time target other ally takes more than 250...80 damage per second, that ally is healed for any damage over that amount.",
+				"concise": "Skill. (10 seconds.) Each second that target ally takes damage over 250...80, that ally is healed for any damage over that amount. Cannot self target."
+			},
+			"en-gww": {
+				"name": "Angelic Protection",
 				"description": "For 10 seconds, any time target other ally takes more than 250...80 damage per second, that ally is healed for any damage over that amount.",
 				"concise": "(10 seconds.) Each second that target ally takes damage over 250...80, that ally is healed for any damage over that amount. <gray>Cannot self target.</gray>"
 			},
+			"es": {
+				"name": "Protección angelical",
+				"description": "Habilidad. Durante 10 segundos, siempre que el aliado objetivo reciba más de 250...80 de daño por segundo, se curará en salud el número de puntos de daño que sobrepasen a esta cantidad.",
+				"concise": "Habilidad. (10 segundos). Cada segundo que el aliado objetivo reciba daño por encima de 250...80, ese aliado se cura esa cantidad. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Protection angélique",
+				"description": "Compétence. Pendant 10 secondes, chaque fois que l'allié visé subit plus de 250...80 points de dégâts par seconde, il est soigné pour tous les dégâts excédant ce nombre de points.",
+				"concise": "Compétence. (10 secondes.) Les dégâts au-delà de 250...80 points subis par l'allié visé durant chaque seconde sont convertis en points de vie. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Protection angélique",
 				"description": "Pendant 10 secondes, chaque fois que l'allié visé subit plus de 250...80 points de dégâts par seconde, il est soigné pour tous les dégâts excédant ce nombre de points.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Protezione Angelica",
+				"description": "Abilità. Dura 10 secondo[i]; ogni volta che l'obiettivo alleato subisce più di 250...80 danno[i] al secondo, viene curato per qualsiasi danno superiore a tale quantità.",
+				"concise": "Abilità. (Secondi: 10) Ogni secondo in cui l'obiettivo alleato subisce danni superiori a 250...80, l'eccedenza si trasforma per lui in cure. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "アンジェリック プロテクション",
+				"description": "スキル： 10 秒間、ターゲットした自分以外の味方が1秒で 250...80 より多いダメージを受けると、その差分と同量の体力が回復します。",
+				"concise": "スキル： (10 秒) ターゲットした味方は、1秒で 250...80 より多いダメージを受けると、その差分と同量の体力が回復します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "성스러운 비호",
+				"description": "스킬. 대상 지정: 아군. 10초 동안 대상이 매초 250...80이상의 대미지를 입으면 그 차이만큼의 체력을 회복합니다. 이 마법은 자신에게 사용할 수 없습니다.",
+				"concise": "스킬. (10초) 대상이 매초 입는 대미지가 250...80보다 많으면 그 차이만큼의 체력을 회복합니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Anielska Ochrona",
+				"description": "Umiejętność. Przez 10 sek., za każdym razem, kiedy wybrany sojusznik otrzymuje więcej niż 250...80 pkt. obrażeń na sekundę, uzdrawiany jest o liczbę punktów ponad tę wartość.",
+				"concise": "Umiejętność. (10 sek.) W każdej sekundzie, w której wybrany sojusznik otrzymuje obrażenia powyżej 250...80 pkt., otrzymuje jednocześnie punkty żywotności w liczbie równej obrażeniom powyżej tej liczby. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Angelic Protection",
+				"description": "Умение. В течение 10 сек в любое время, когда выбранный союзник (но не вы) получит больше, чем 250...80 ед. урона за секунду, этот союзник будет исцелен от любого урона сверх этой величины.",
+				"concise": "Умение. (10 сек) Каждую секунду, когда выбранный союзник получает урон более 250...80 ед., весь урон сверх этого количества будет преобразован в исцеление этого союзника. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Ungeleec Prutecshun",
+				"description": "Skeell. Fur 10 secunds, uny teeme-a taerget oozeer aelly taekes mure-a thun 250...80 daemaege-a per secund, thaet aelly is heaeled fur uny daemaege-a oofer thaet aemuoont.",
+				"concise": "Skeell. (10 secunds.) Iaech secund thaet taerget aelly taekes daemaege-a oofer 250...80, thaet aelly is heaeled fur uny daemaege-a oofer thaet aemuoont. Cunnut selff taerget."
 			}
 		}
 	}

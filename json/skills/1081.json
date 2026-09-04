@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "暴风",
+				"description": "咒文。 使邻近的所有敌人受到 10...40 冰冻伤害，而且攻击中的敌人将被击倒。",
+				"concise": "咒文。 使邻近的所有敌人受到 10...40 冰冻伤害，而且攻击中的敌人将被击倒。"
+			},
+			"cht": {
+				"name": "邸內之風",
+				"description": "咒文魔法： 使鄰近的所有敵人受到 10...40 冰凍傷害，而且攻擊中的敵人將被擊倒。",
+				"concise": "咒文魔法： 使鄰近的所有敵人受到 10...40 冰凍傷害，而且攻擊中的敵人將被擊倒。"
+			},
 			"de": {
+				"name": "Teinais Wind",
+				"description": "Zauber. Gegner und umstehende Feinde erleiden 10...40 Punkte Kälteschaden. Brennende Feinde, die durch Teinais Wind getroffen werden, erleiden zusätzlich 40...80 Punkte Schaden und werden unterbrochen.",
+				"concise": "Zauber. Richtet 10...40 Punkte Kälteschaden an. Brennende Feinde erleiden +40...80 Punkte Schaden und werden unterbrochen. Trifft auch umstehende Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Teinais Wind",
 				"description": "Gegner und alle umstehenden Feinde erleiden 10...40 Punkte Kälteschaden. Brennende Feinde, die durch Teinais Wind getroffen werden, erleiden zusätzlich 40...80 Punkte Schaden und werden unterbrochen.",
 				"concise": "Richtet 10...40 Punkte Kälteschaden an. Brennende Feinde erleiden +40...80 Punkte Schaden und werden unterbrochen. Trifft auch umstehende Gegner."
 			},
 			"en": {
 				"name": "Teinai's Wind",
+				"description": "Spell. Target foe and all adjacent foes take 10...40 cold damage. Burning foes struck by Teinai's Wind take an additional 40...80 damage and are interrupted.",
+				"concise": "Spell. Deals 10...40 cold damage. Burning foes take +40...80 damage and are interrupted. Also strikes adjacent."
+			},
+			"en-gww": {
+				"name": "Teinai's Wind",
 				"description": "Target foe and all adjacent foes take 10...40 cold damage. Burning foes struck by Teinai's Wind take an additional 40...80 damage and are interrupted.",
 				"concise": "Deals 10...40 cold damage. Burning foes take +40...80 damage and are interrupted. Also strikes adjacent."
 			},
+			"es": {
+				"name": "Viento de Teinai",
+				"description": "Conjuro. El enemigo objetivo y los adyacentes reciben 10...40 de daño frío. Los enemigos con quemadura alcanzados por el viento de Teinai reciben 40...80 de daño adicional y los interrumpe.",
+				"concise": "Conjuro. Hace 10...40 de daño frío. Los enemigos con quemadura reciben +40...80 de daño y son interrumpidos. También golpea a los adyacentes."
+			},
 			"fr": {
+				"name": "Vent de Teinai",
+				"description": "Sort. La cible ennemie et les ennemis adjacents subissent 10...40 points de dégâts du froid. Les ennemis embrasés touchés par le Vent de Teinai subissent 40...80 points de dégâts supplémentaires et sont interrompus.",
+				"concise": "Sort. Inflige 10...40 points de dégâts du froid. Les ennemis embrasés subissent 40...80 points de dégâts et sont interrompus. Frappe également les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Vent de Teinai",
 				"description": "Tous les ennemis adjacents subissent 15...60 points de dégâts du froid. Les attaquants ennemis frappés par le Vent de Teinai sont assommés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vento di Teinai",
+				"description": "Magia. L'obiettivo nemico e i nemici adiacenti subiscono 10...40 danni da freddo. I nemici affetti da Bruciatura che vengono colpiti dal Vento di Teinai subiscono un danno aggiuntivo di 40...80 e la loro azione viene interrotta.",
+				"concise": "Magia. Danni da freddo inferti: 10...40. Danno subito da nemici affetti da Bruciatura: 40...80. L'azione di questi nemici viene interrotta. Colpisce anche i nemici adiacenti."
+			},
+			"jp": {
+				"name": "テイナイ ウインド",
+				"description": "スペル： ターゲットした敵および隣接するすべての敵に 10...40 のコールド ダメージを与えます。ダメージを受けた「火傷」状態の敵に 40...80 の追加ダメージを与え、アクションを中断します。",
+				"concise": "スペル： ターゲットした敵および隣接する敵に 10...40 のコールド ダメージを与えます。「火傷」状態の敵に 40...80 の追加ダメージを与え、アクションを中断します。"
+			},
+			"kr": {
+				"name": "테이나이의 소용돌이",
+				"description": "마법. 대상 지정: 적. 대상과 그에 인접한 모든 적에게 10...40의 냉기 대미지를 줍니다. 화상을 입은 적에게는 추가로 40...80의 대미지를 주고, 동작을 방해합니다.",
+				"concise": "마법. 대상과 인접한 적들에게 10...40의 냉기 대미지를 줍니다. 화상을 입은 적에게는 추가로 40...80의 대미지를 주고, 방해합니다."
+			},
+			"pl": {
+				"name": "Wiatr Teinai",
+				"description": "Czar. Wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim otrzymują po 10...40 pkt. obrażeń od zimna. Płonący przeciwnicy trafieni Wiatrem Teinai otrzymują dodatkowo 40...80 pkt. obrażeń i wykonywana przez nich czynność zostaje przerwana.",
+				"concise": "Czar. Zadaje 10...40 pkt. obrażeń od zimna. Płonący przeciwnicy otrzymują +40...80 obrażeń, a ich czynność zostaje przerwana. Zadaje obrażenia znajdującym się w sąsiedztwie."
+			},
+			"ru": {
+				"name": "Teinai's Wind",
+				"description": "Заклинание. Выбранный противник и все окружающие противники получают 10...40 ед. урона силой холода. Горящие противники, пораженные с помощью Tenai's Wind, получат дополнительно 40...80 ед. урона и будут прерваны.",
+				"concise": "Заклинание. Наносит 10...40 ед. урона силой холода. Горящие противники получают дополнительно 40...80 ед. урона и будут прерваны. Также поражает окружающих противников."
+			},
+			"bork": {
+				"name": "Teeenaeee's Veend",
+				"description": "Spell. Taerget fue-a und aell aedjaecent fues taeke-a 10...40 culd daemaege-a. Boorneeng fues stroock by Teeenaeee's Veend taeke-a un aeddeeshunael 40...80 daemaege-a und aere-a interroopted.",
+				"concise": "Spell. Deaels 10...40 culd daemaege-a. Boorneeng fues taeke-a +40...80 daemaege-a und aere-a interroopted. Aelsu streekes aedjaecent."
 			}
 		}
 	}

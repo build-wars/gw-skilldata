@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恶化伤口",
+				"description": "精英负面魔法。 For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "精英负面魔法。 如果目标敌人带有「流血」或「中毒」症状，则使其遭受 2点「生命衰减」，效果持续 1...7秒。"
+			},
+			"cht": {
+				"name": "滲透傷口",
+				"description": "精英降咒魔法： For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "精英降咒魔法： 持續 1...7 秒，目標敵人移動速度降低 33% ，若該敵人身上有病症，則每秒造成 5...25 傷害，此技能的施展距離為普通的一半。"
+			},
 			"de": {
+				"name": "Eiternde Wunde",
+				"description": "Elite-Verhexung. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Elite-Verhexung. (1...7 Sekunde[n].) Gegner bewegt sich um 33% langsamer. Falls dieser Gegner an einem Zustand leidet, erleidet er außerdem 5...25 Punkt[e] Schaden pro Sekunde."
+			},
+			"de-guildwiki": {
 				"name": "Eiternde Wunde",
 				"description": "1...7 Sekunden lang bewegt sich der Gegner um 33% langsamer. Wenn der Gegner unter einem Zustand leidet, erleidet er 5...25 Punkte Schaden pro Sekunde.",
 				"concise": "(1...7 Sekunden.) Gegner bewegt sich um 33% langsamer. Verursacht an Feinden, die an einem Zustand leiden, 5...25 Punkte Schaden pro Sekunde."
 			},
 			"en": {
 				"name": "Seeping Wound",
+				"description": "Elite Hex Spell. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Elite Hex Spell. (1...7 seconds.) Target foe moves 33% slower. This foe takes 5...25 damage each second while suffering from a condition."
+			},
+			"en-gww": {
+				"name": "Seeping Wound",
 				"description": "For 1...7 second[s], target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
 				"concise": "(1...7 second[s].) Target foe moves 33% slower. This foe takes 5...25 damage each second while suffering from a condition."
 			},
+			"es": {
+				"name": "Herida supurante",
+				"description": "Conjuro con maleficio de élite. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Conjuro con maleficio de élite. (1...7 segundos). El enemigo objetivo se mueve un 33% más despacio. Éste recibirá 5...25 de daño por segundo mientras sufra una condición."
+			},
 			"fr": {
+				"name": "Plaie suintante",
+				"description": "Maléfice d'élite. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Maléfice d'élite. (1...7 secondes.) La cible ennemie se déplace 33% moins vite. Cet ennemi subit 5...25 points de dégâts par seconde s'il souffre d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Plaie suintante",
 				"description": "Pendant 1...7 secondes, la vitesse de déplacement de l'ennemi visé est réduite de 33%. Si cet ennemi souffre d'une condition, il subit 5...25 points de dégâts par seconde.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ferita Sanguinante",
+				"description": "Fattura d'Élite. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Fattura d'Élite. (Secondo[i]: 1...7). La velocità dell'obiettivo nemico è ridotta di un 33%. Tale nemico subisce 5...25 danni al secondo se affetto da una condizione."
+			},
+			"jp": {
+				"name": "シープ ウンド",
+				"description": "エリート弱体化スペル： For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "エリート弱体化スペル： (1...7 秒) ターゲットした敵は移動速度が 33% 減少します。この敵に「状態異常」がかけられている間、毎秒 5...25 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "증상 악화",
+				"description": "엘리트 약화 마법. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "엘리트 약화 마법. (1...7초) 대상의 이동 속도를 33% 느려지게 하고, 상태이상에 걸린 적에게는 매초 5...25의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Ropiejąca Rana",
+				"description": "Elitarna klątwa (czar). For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Elitarna klątwa (czar). (1...7 sek.) Wybrany przeciwnik porusza się 33% wolniej. Przeciwnik ten otrzymuje co sekundę 5...25 pkt. obrażeń, jeśli cierpi na jakąś przypadłość."
+			},
+			"ru": {
+				"name": "Seeping Wound",
+				"description": "Элитное заклинание-проклятье. For 1...7 seconds, target foe moves 33% slower. That foe takes 5...25 damage each second while suffering from a condition.",
+				"concise": "Элитное заклинание-проклятье. (1...7 сек) Выбранный противник двигается на 33% медленнее. Этот противник получает 5...25 ед. урона каждую секунду, пока находится под действием какого-либо состояния."
+			},
+			"bork": {
+				"name": "Seepeeng Vuoond",
+				"description": "Ileete-a Hex Spell. Fur 1...7 secunds, taerget fue-a mufes 33% slooer. Thaet fue-a taekes 5...25 daemaege-a iaech secund vheele-a sooffffereeng frum a cundeeshun.",
+				"concise": "Ileete-a Hex Spell. (1...7 secunds.) Taerget fue-a mufes 33% slooer. Thees fue-a taekes 5...25 daemaege-a iaech secund vheele-a sooffffereeng frum a cundeeshun."
 			}
 		}
 	}

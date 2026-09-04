@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻术虚弱",
+				"description": "增益魔法。 你失去50...240点生命值，当生命值低于最大生命值的25%时，「幻术虚弱」的效果消失。如果「幻术虚弱」的效果被驱散或自然消失，你将回复50...240点生命值。",
+				"concise": "增益魔法。 使你失去 50...240点 生命值，当生命值低于总额的 25% 时，你将回复 50...240点 生命值，同时「幻术虚弱」的效果消失。"
+			},
+			"cht": {
+				"name": "虛弱幻覺",
+				"description": "加持魔法： 你失去 50...240 體力。而當你的體力值低於最大值的 25% 以下時，你將會獲得 50...240 體力，同時虛弱幻覺效果終止。",
+				"concise": "加持魔法： 你失去 50...240 體力。而當你的體力值低於最大值的 25% 以下時，你將會獲得 50...240 體力，同時虛弱幻覺效果終止。"
+			},
 			"de": {
+				"name": "Illusion der Schwäche",
+				"description": "Verzauberung. Ihr verliert 50...240 Lebenspunkt[e]. \"Illusion der Schwäche\" endet, wenn der Schaden Eure Lebenspunkte unter 25% Eurer maximalen Lebenspunkte bringt. Wenn \"Illusion der Schwäche\" endet, bekommt Ihr 50...240 Lebenspunkt[e].",
+				"concise": "Verzauberung. Ihr verliert 50...240 Lebenspunkt[e]. Wirkung am Ende: Ihr erhaltet 50...240 Lebenspunkt[e]. Endet, wenn Eure Lebenspunkte durch Schaden unter 25% Eurer maximalen Lebenspunkte gebracht werden."
+			},
+			"de-guildwiki": {
 				"name": "Illusion der Schwäche",
 				"description": "Ihr verliert 50...240 Lebenspunkte. Illusion der Schwäche endet, wenn der Schaden Eure Lebenspunkte unter 25% Eurer maximalen Lebenspunkte bringt. Wenn Illusion der Schwäche endet, heilt Ihr um 50...240 Lebenspunkte.",
 				"concise": "Ihr verliert 50...240 Lebenspunkte. Wirkung am Ende: Ihr heilt um 50...240 Lebenspunkte. <gray>Endet, wenn Eure Lebenspunkte durch Schaden unter 25% Eurer maximalen Lebenspunkte gebracht werden.</gray>"
 			},
 			"en": {
 				"name": "Illusion of Weakness",
+				"description": "Enchantment Spell. You lose 50...240 Health. Illusion of Weakness ends if damage drops your Health below 25% of your maximum. When Illusion of Weakness ends, you gain 50...240 Health.",
+				"concise": "Enchantment Spell. Lose 50...240 Health. End effect: you gain 50...240 Health. Ends if damage drops your Health below 25% of your maximum."
+			},
+			"en-gww": {
+				"name": "Illusion of Weakness",
 				"description": "You lose 50...240 Health. Illusion of Weakness ends if damage drops your Health below 25% of your maximum. When Illusion of Weakness ends, you gain 50...240 Health.",
 				"concise": "Lose 50...240 Health. End effect: you gain 50...240 Health. <gray>Ends if damage drops your Health below 25% of your maximum.</gray>"
 			},
+			"es": {
+				"name": "Ilusión de debilidad",
+				"description": "Conjuro con encantamiento. Pierdes 50...240 de salud. La Ilusión de debilidad finalizará si tu salud pasa a estar por debajo del 25% del máximo. Cuando termine esta habilidad, recuperarás 50...240 de salud.",
+				"concise": "Conjuro con encantamiento. Pierdes 50...240 de salud. Efecto final: ganas 50...240 de salud. Acaba si el daño te hace perder salud por debajo del 25% del máximo."
+			},
 			"fr": {
+				"name": "Illusion de faiblesse",
+				"description": "Enchantement. Vous perdez 50...240 points de vie. L'illusion de faiblesse prend fin si les dégâts que vous subissez font descendre vos points de vie au-dessous de 25% de votre maximum. Quand l'Illusion de faiblesse prend fin, vous gagnez 50...240 points de vie.",
+				"concise": "Enchantement. Vous perdez 50...240 points de vie. Effet final : vous gagnez 50...240 points de vie. Prend fin si les dégâts que vous subissez font descendre votre santé au-dessous de 25% de votre maximum."
+			},
+			"fr-gwiki": {
 				"name": "Illusion de faiblesse",
 				"description": "Vous perdez 50...240 points de vie. L'illusion de faiblesse prend fin si les dégâts que vous subissez font descendre vos points de vie au-dessous de 25% de votre maximum. Quand l'Illusion de faiblesse prend fin, vous gagnez 50...240 points de vie.",
 				"concise": "Vous perdez 50...240 points de vie. Effet final : vous gagnez 50...240 points de vie. Prend fin si les dégâts que vous subissez font descendre votre santé au-dessous de 25% de votre maximum."
+			},
+			"it": {
+				"name": "Illusione di Debolezza",
+				"description": "Incantesimo. Perdi 50...240 Punto[i] Salute. L'Illusione di Debolezza termina se il danno riduce la tua Salute al di sotto del 25% della Salute massima. Al termine ottieni 50...240 Punto[i] Salute.",
+				"concise": "Incantesimo. Salute persa: 50...240. Effetto al termine: ottieni 50...240 Punto[i] Salute. Termina se il danno fa calare la tua Salute a meno del 25% di quella massima."
+			},
+			"jp": {
+				"name": "ウィークネス イリュージョン",
+				"description": "強化スペル： 50...240 の体力を失います。ダメージを受けて体力が上限の25%を切るとこの効果は消失し、プレイヤーは 50...240 の体力を獲得します。",
+				"concise": "強化スペル： 50...240 の体力を失います。終了効果： 50...240 の体力を獲得します。体力が上限の25%を切ると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "환상 고문",
+				"description": "강화 마법. 대상 지정: 없음. 자신의 체력이 50...240 감소합니다. 대미지를 입어 체력이 25%까지 떨어지면 효과가 끝나며 50...240의 체력을 회복합니다.",
+				"concise": "강화 마법. 자신의 체력이 50...240 감소합니다. 종료 효과: 체력을 50...240 회복합니다. 대미지를 입어 체력이 25% 미만으로 떨어지면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Iluzja Słabości",
+				"description": "Zaklęcie (czar). Tracisz 50...240 pkt. żywotności. Iluzja Słabości przestanie działać jeżeli obrażenia spowodują spadek pkt. żywotności poniżej 25% wartości maksymalnej. Gdy Iluzja Słabości przestanie działać, otrzymujesz 50...240 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). Utrata 50...240 pkt. żywotności. Efekt końcowy: otrzymujesz 50...240 pkt. żywotności. Koniec, jeżeli obrażenia sprowadzą twoją żywotność poniżej 25% jej maksymalnej wartości."
+			},
+			"ru": {
+				"name": "Illusion of Weakness",
+				"description": "Заклинание-чары. Вы теряете 50...240 ед. здоровья. Illusion of Weakness заканчивает свое действие, когда от полученного урона ваш уровень здоровья опускается ниже 25% от максимального. Когда Illusion of Weakness заканчивает свое действие, вы получаете 50...240 ед. здоровья.",
+				"concise": "Заклинание-чары. Вы теряете 50...240 ед. здоровья. Эффект окончания: вы получаете 50...240 ед. здоровья. Заканчивается, если уровень вашего здоровья падает ниже 25% от максимального."
+			},
+			"bork": {
+				"name": "Illooseeun ooff Veaekness",
+				"description": "Inchuntment Spell. Yuoo luse-a 50...240 Heaelt. Illooseeun ooff Veaekness inds iff daemaege-a drups yuoor Heaelt beloo 25% ooff yuoor maexeemoom. Vhee Illooseeun ooff Veaekness inds, yuoo gaeeen 50...240 Heaelt.",
+				"concise": "Inchuntment Spell. Luse-a 50...240 Heaelt. Ind iffffect: yuoo gaeeen 50...240 Heaelt. Inds iff daemaege-a drups yuoor Heaelt beloo 25% ooff yuoor maexeemoom."
 			}
 		}
 	}

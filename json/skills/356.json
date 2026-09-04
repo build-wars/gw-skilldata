@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "不可抗力",
+				"description": "锤术。 命中时，对目标敌人造成5...20点额外伤害。若此技能被「格挡」，则目标敌人将被击倒，并且受到5...20点伤害。",
+				"concise": "锤术。 命中时，对目标敌人造成5...20点额外伤害。若此技能被「格挡」，则目标敌人将被击倒，并且受到5...20点伤害。"
+			},
+			"cht": {
+				"name": "致命之鎚",
+				"description": "鎚術攻擊技能： 命中時對目標造成 5...20 額外傷害。若此技能遭到目標「格擋」，該目標將被擊倒並且受到 5...20 傷害。",
+				"concise": "鎚術攻擊技能： 命中時對目標造成 5...20 額外傷害。若此技能遭到目標「格擋」，該目標將被擊倒並且受到 5...20 傷害。"
+			},
 			"de": {
+				"name": "Brutaler Schlag",
+				"description": "Hammerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Brutaler Schlag geblockt wird, wird Eurer Ziel zu Boden geworfen und erleidet 5...20 Punkt[e] Schaden.",
+				"concise": "Hammerangriff. Richtet +5...20 Punkt[e] Schaden an. Richtet 5...20 Punkt[e] Schaden an und wirft zu Boden, falls geblockt."
+			},
+			"de-guildwiki": {
 				"name": "Brutaler Schlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr 5...20 Punkte zusätzlichen Schaden zu. Wenn Brutaler Schlag geblockt wird, wird Euer Ziel zu Boden geworfen und erleidet 5...20 Punkte Schaden.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Richtet 5...20 Punkte Schaden an und wirft zu Boden, falls geblockt."
 			},
 			"en": {
 				"name": "Irresistible Blow",
+				"description": "Hammer Attack. If this attack hits, you strike for +5...20 damage. If Irresistible Blow is blocked, your target is knocked down and takes 5...20 damage.",
+				"concise": "Hammer Attack. Deals +5...20 damage. Deals 5...20 damage and causes knock-down if blocked."
+			},
+			"en-gww": {
+				"name": "Irresistible Blow",
 				"description": "If this attack hits, you strike for +5...20 damage. If Irresistible Blow is blocked, your target is knocked down and takes 5...20 damage.",
 				"concise": "Deals +5...20 damage. Deals 5...20 damage and causes knock-down if blocked."
 			},
+			"es": {
+				"name": "Golpe brutal",
+				"description": "Ataque con martillo. Si este ataque impacta, harás +5...20 de daño. Si se bloquea este ataque, tu objetivo es derribado y sufre 5...20 de daño.",
+				"concise": "Ataque con martillo. Hace +5...20 de daño. Hace 5...20 de daño y causa derribo si se bloquea."
+			},
 			"fr": {
+				"name": "Coup impérieux",
+				"description": "Attaque au marteau. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 5...20 points de dégâts.",
+				"concise": "Attaque au marteau. Inflige +5...20 points de dégâts. Inflige 5...20 points de dégâts et assomme si l'ennemi réussit à bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Coup impérieux",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 5...20 points de dégâts.",
 				"concise": "Inflige +5...20 points de dégâts. Inflige 5...20 points de dégâts et assomme si l'ennemi réussit à bloquer."
+			},
+			"it": {
+				"name": "Colpo Irresistibile",
+				"description": "Attacco con Martello. Se questo attacco va a segno, infliggi +5...20 danno[i]. Se Colpo Irresistibile viene bloccato, il tuo obiettivo finisce a terra e subisce 5...20 danno[i].",
+				"concise": "Attacco con Martello. Danni inferti: +5...20. Assesta 5...20 danno[i] e provoca abbattimento se bloccato."
+			},
+			"jp": {
+				"name": "イレジスティブル ブロウ",
+				"description": "ハンマー アタック： この攻撃が成功すると 5...20 の追加ダメージを与えます。この攻撃がブロックされた場合、ターゲットを転倒させて 5...20 のダメージを与えます。",
+				"concise": "ハンマー アタック： 5...20 の追加ダメージを与えます。攻撃がブロックされた場合、5...20 のダメージを与えて転倒させます。"
+			},
+			"kr": {
+				"name": "저항불가의 일격",
+				"description": "해머 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 대상이 공격을 막으면, 대상은 넘어지고 5...20의 대미지를 입습니다.",
+				"concise": "해머 공격. 5...20의 대미지를 추가로 줍니다. 공격을 막으면 바닥에 넘어뜨리고, 5...20의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Nieblokowalne Uderzenie",
+				"description": "Atak młotem. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeśli Nieblokowalne Uderzenie zostanie zablokowane, twój cel zostanie powalony i otrzyma 5...20 pkt. obrażeń.",
+				"concise": "Atak młotem. Zadaje +5...20 pkt. obrażeń. Zadaje 5...20 pkt. obrażeń i powala, jeżeli nastąpiło blokowanie."
+			},
+			"ru": {
+				"name": "Irresistible Blow",
+				"description": "Атака молотом. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если Irresistible Blow будет блокирован, то выбранный противник будет сбит с ног и получит 5...20 ед. урона.",
+				"concise": "Атака молотом. Наносит дополнительно 5...20 ед. урона. Наносит 5...20 ед. урона и сбивает с ног, если это умение было блокировано."
+			},
+			"bork": {
+				"name": "Irreseesteeble-a Bloo",
+				"description": "Haemmer Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +5...20 daemaege-a. Iff Irreseesteeble-a Bloo is blucked, yuoor taerget is knucked doon und taekes 5...20 daemaege-a.",
+				"concise": "Haemmer Aettaeck. Deaels +5...20 daemaege-a. Deaels 5...20 daemaege-a und cooses knuck-doon iff blucked."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猛攻",
+				"description": "Elite Flash Enchantment Spell。 在3...15秒之内，你的攻击性技能冷却速度提高25%，能量消耗减少25%。",
+				"concise": "Elite Flash Enchantment Spell。 在3...15秒之内，你的攻击性技能冷却速度提高25%，能量消耗减少25%。"
+			},
+			"cht": {
+				"name": "猛攻",
+				"description": "精英即刻加持魔法： 持續 3...15 秒，你的攻擊、移動、怒氣值獲得的速度都增加 25% 。",
+				"concise": "精英即刻加持魔法： 持續 3...15 秒，你的攻擊、移動、怒氣值獲得的速度都增加 25% 。"
+			},
 			"de": {
+				"name": "Attacke",
+				"description": "Elite-Blitzverzauberung. 3...15 Sekunde[n] lang erfolgen Eure Angriffe, Bewegungen und Euer Adrenalingewinn um 25% schneller.",
+				"concise": "Elite-Blitzverzauberung. (3...15 Sekunde[n].) Eure Angriffe, Bewegungen und Euer Adranalingewinn erfolgen um 25% schneller."
+			},
+			"de-guildwiki": {
 				"name": "Attacke",
 				"description": "3...15 Sekunden lang erfolgen Eure Angriffe, Bewegungen und Euer Adrenalingewinn um 25% schneller.",
 				"concise": "(3...15 Sekunden.) Eure Angriffe, Bewegungen und Euer Adrenalingewinn erfolgen um 25% schneller."
 			},
 			"en": {
 				"name": "Onslaught",
+				"description": "Elite Flash Enchantment Spell. For 3...15 seconds, you attack, move, and gain adrenaline 25% faster.",
+				"concise": "Elite Flash Enchantment Spell. (3...15 seconds.) You attack, move, and gain adrenaline 25% faster."
+			},
+			"en-gww": {
+				"name": "Onslaught",
 				"description": "For 3...15 seconds, you attack, move and gain adrenaline 25% faster.",
 				"concise": "(3...15 seconds.) You attack, move and gain adrenaline 25% faster."
 			},
+			"es": {
+				"name": "Acometida",
+				"description": "Conjuro con encantamiento de destello de élite. Durante 3...15 segundos, atacas, te mueves y acumulas adrenalina un 25% más rápido.",
+				"concise": "Conjuro con encantamiento de destello de élite. (3...15 segundos). Atacas, te mueves y acumulas adrenalina un 25% más rápido."
+			},
 			"fr": {
+				"name": "Attaque",
+				"description": "Enchantement instantané d'élite. Pendant 3...15 secondes, vous attaquez, vous vous déplacez et vous gagnez de l'adrénaline 25% plus vite.",
+				"concise": "Enchantement instantané d'élite. (3...15 secondes.) Vous attaquez, vous vous déplacez et vous gagnez de l'adrénaline 25% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Attaque",
 				"description": "Pendant 5...20 secondes, vous attaquez et vous déplacez 25% plus vite.",
 				"concise": "(5...20 secondes). Vous attaquez et vous déplacez 25% plus vite."
+			},
+			"it": {
+				"name": "Assalto Violento",
+				"description": "Incantesimo Lampo d'Élite. Dura 3...15 secondi; la tua velocità d'attacco e di movimento e la tua dose di adrenalina aumentano di un 25%.",
+				"concise": "Incantesimo Lampo d'Élite. (Secondi: 3...15). La tua velocità d'attacco e di movimento e la tua dose di adrenalina aumentano di un 25%."
+			},
+			"jp": {
+				"name": "オンスロート",
+				"description": "エリート フラッシュ強化スペル： 3...15 秒間、攻撃、移動、アドレナリンの獲得速度が 25% 増加します。",
+				"concise": "エリート フラッシュ強化スペル： (3...15 秒) 攻撃、移動、アドレナリンの獲得速度が 25% 増加します。"
+			},
+			"kr": {
+				"name": "맹공격",
+				"description": "엘리트 순간 시전 강화 마법. 대상 지정: 없음. 3...15초 동안 공격 속도와 이동 속도, 아드레날린 회복 속도가 25% 빨라집니다.",
+				"concise": "엘리트 순간 시전 강화 마법. (3...15초) 공격 속도와 이동 속도, 아드레날린 회복 속도가 25% 빨라집니다."
+			},
+			"pl": {
+				"name": "Napaść",
+				"description": "Elitarne zaklęcie błysku (czar). Przez 3...15 sek., atakujesz, poruszasz się oraz zyskujesz adrenalinę o 25% szybciej.",
+				"concise": "Elitarne zaklęcie błysku (czar). (3...15 sek.) Atakujesz, poruszasz się i zyskujesz adrenalinę 25% szybciej."
+			},
+			"ru": {
+				"name": "Onslaught",
+				"description": "Элитное мгновенное заклинание-чары. В течение 3...15 сек вы атакуете, двигаетесь и получаете адреналин на 25% быстрее.",
+				"concise": "Элитное мгновенное заклинание-чары. (3...15 сек) Вы атакуете, двигаетесь и получаете адреналин на 25% быстрее."
+			},
+			"bork": {
+				"name": "Oonslooght",
+				"description": "Ileete-a Flaesh Inchuntment Spell. Fur 3...15 secunds, yuoo aettaeck, mufe-a, und gaeeen aedrenaeleene-a 25% faester.",
+				"concise": "Ileete-a Flaesh Inchuntment Spell. (3...15 secunds.) Yuoo aettaeck, mufe-a, und gaeeen aedrenaeleene-a 25% faester."
 			}
 		}
 	}

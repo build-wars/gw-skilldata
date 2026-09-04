@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Putrid Bile",
+				"description": "负面魔法。 For 5...25 seconds, target foe suffers -1...3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25...85 damage.",
+				"concise": "负面魔法。 (5...25 seconds.) Causes -1...3 Health degeneration. Deals 25...85 damage to all nearby foes if target foe dies."
+			},
+			"cht": {
+				"name": "腐化膽汁",
+				"description": "降咒魔法： 持續 5...25 秒，使目標敵人遭受 -1...3 體力衰退。若該名敵人因此降咒效果而死亡時，所有附近敵人受到 25...85 傷害。",
+				"concise": "降咒魔法： 持續 5...25 秒，使目標敵人遭受 -1...3 體力衰退。若該名敵人因此降咒效果而死亡時，所有附近敵人受到 25...85 傷害。"
+			},
 			"de": {
+				"name": "Verwesende Galle",
+				"description": "Verhexung. 5...25 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkt[e] Schaden.",
+				"concise": "Verhexung. 5...25 Sekunde[n]: Verursacht -1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkt[e] Schaden an, falls der Gegner stirbt."
+			},
+			"de-guildwiki": {
 				"name": "Verwesende Galle",
 				"description": "5...25 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3. Wenn er stirbt, während er mit dieser Verhexung belegt ist, erleiden alle Feinde in der Nähe 25...85 Punkte Schaden.",
 				"concise": "5...25 Sekunden: Verursacht -1...3 Lebenspunktdegeneration. Richtet bei allen Feinden in der Nähe 25...85 Punkte Schaden an, falls der Gegner stirbt."
 			},
 			"en": {
 				"name": "Putrid Bile",
+				"description": "Hex Spell. For 5...25 seconds, target foe suffers -1...3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25...85 damage.",
+				"concise": "Hex Spell. (5...25 seconds.) Causes -1...3 Health degeneration. Deals 25...85 damage to all nearby foes if target foe dies."
+			},
+			"en-gww": {
+				"name": "Putrid Bile",
 				"description": "For 5...25 seconds, target foe suffers -1...3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25...85 damage.",
 				"concise": "(5...25 seconds.) Causes -1...3 Health degeneration. Deals 25...85 damage to all nearby foes if target foe dies."
 			},
+			"es": {
+				"name": "Bilis putrefacta",
+				"description": "Conjuro con maleficio. Durante 5...25 segundos, el enemigo objetivo sufre -1...3 de degeneración de salud. Si muere mientras estaba bajo los efectos de este maleficio, los enemigos cercanos recibirán 25...85 de daño.",
+				"concise": "Conjuro con maleficio. (5...25 segundos). Causa -1...3 de degeneración de salud. Hace 25...85 de daño a todos los enemigos cercanos si el objetivo muere."
+			},
 			"fr": {
+				"name": "Fiel putride",
+				"description": "Maléfice. Pendant 5...25 secondes, la cible ennemie souffre d'une dégénération de santé de -1...3. Si elle meurt sous l'effet de ce maléfice, tous les ennemis à proximité subissent 25...85 points de dégâts.",
+				"concise": "Maléfice. (5...25 secondes.) Provoque une dégénération de santé de -1...3. Inflige 25...85 points de dégâts à tous les ennemis à proximité si l'ennemi visé meurt."
+			},
+			"fr-gwiki": {
 				"name": "Fiel putride",
 				"description": "Pendant 5...20 secondes, la cible ennemie souffre d'une dégénération de santé de -1...3. Si elle meurt sous l'effet de ce maléfice, tous les ennemis à proximité subissent 25...85 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Bile Putrefatta",
+				"description": "Fattura. Per 5...25 secondo[i], l'obiettivo nemico subisce una Degenerazione della Salute di -1...3. Se muore mentre è affetto da questa fattura, tutti i nemici nei dintorni subiscono 25...85 danno[i].",
+				"concise": "Fattura. (Secondi: 5...25) Degenerazione Salute: -1...3. Danni inferti a tutti i nemici nei dintorni se l'obiettivo nemico muore: 25...85."
+			},
+			"jp": {
+				"name": "ピュートリッド バイル",
+				"description": "弱体化スペル： 5...25 秒間、ターゲットした敵は体力の自然回復力が 1...3 減少します。ターゲットがこの効果の持続時間内に戦闘不能になった場合、周囲にいる敵に 25...85 のダメージを与えます。",
+				"concise": "弱体化スペル： (5...25 秒) 体力の自然回復力が 1...3 減少します。ターゲットした敵が戦闘不能になると、周囲にいる敵に 25...85 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "부패의 진액",
+				"description": "약화 마법. 대상 지정: 적. 5...25초 동안 대상의 체력 재생이 1...3 감소합니다. 대상이 이 효과에 걸린 상태로 죽으면 부근에 있는 모든 적은 25...85의 대미지를 입습니다.",
+				"concise": "약화 마법. (5...25초) 체력 재생을 1...3 감소시킵니다. 대상이 이 효과에 걸린 상태로 죽으면 부근에 있는 적들은 25...85의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Splugawiona Żółć",
+				"description": "Klątwa (czar). Przez 5...25 sek. wybrany przeciwnik posiada degenerację żywotności -1...3. Jeśli umrze będąc pod działaniem tej klątwy, to wszyscy przeciwnicy w pobliżu otrzymają po 25...85 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (5...25 sek.) Powoduje degenerację żywotności -1...3. Przeciwnikom w pobliżu zadaje 25...85 pkt. obrażeń, jeżeli wybrany przeciwnik umrze."
+			},
+			"ru": {
+				"name": "Putrid Bile",
+				"description": "Заклинание-проклятье. В течение 5...25 сек скорость восстановления здоровья выбранного противника уменьшается на 1...3 ед. Если противник умирает, находясь под воздействием этого проклятья, все противники поблизости получают 25...85 ед. урона.",
+				"concise": "Заклинание-проклятье. (5...25 сек) Уменьшает на 1...3 ед. скорость восстановления здоровья. Наносит 25...85 ед. урона всем противникам поблизости, если выбранный противник умирает."
+			},
+			"bork": {
+				"name": "Pootreed Beele-a",
+				"description": "Hex Spell. Fur 5...25 secunds, taerget fue-a sooffffers -1...3 Heaelt degeneraeshun. Iff thaet fue-a deees vheele-a under zee iffffects ooff thees hex, aell neaerby fues taeke-a 25...85 daemaege-a.",
+				"concise": "Hex Spell. (5...25 secunds.) Cooses -1...3 Heaelt degeneraeshun. Deaels 25...85 daemaege-a tu aell neaerby fues iff taerget fue-a deees."
 			}
 		}
 	}

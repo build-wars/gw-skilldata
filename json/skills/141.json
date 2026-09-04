@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益撕裂",
+				"description": "咒文。 移除目标敌人身上的 5...9项 「增益魔法」。每当一个僧侣类「增益魔法」被移除，你将受到55...25点伤害。",
+				"concise": "咒文。 牺牲最大生命值的17%，使目标敌人失去所有「增益魔法」效果，并且使该目标在0秒之内所受到的治疗效果减半。"
+			},
+			"cht": {
+				"name": "粉碎加持",
+				"description": "咒文魔法： 移除目標敵人身上的 5...9 項「加持」。每當移除一項僧侶的「加持」，你將受到 55...25 傷害。",
+				"concise": "咒文魔法： 移除目標敵人身上的 5...9 項「加持」。每當移除一項僧侶的「加持」，你將受到 55...25 傷害。"
+			},
 			"de": {
+				"name": "Verzauberungen entreißen",
+				"description": "Zauber. Entfernt 5...9 Verzauberung[en] vom Gegner. Für jede entfernte Mönch-Verzauberung verliert Ihr 55...25 Lebenspunkt[e].",
+				"concise": "Zauber. Entfernt 5...9 Verzauberung[en] beim Gegner. Entfernungskosten: Ihr verliert für jede entfernte Mönch-Verzauberung 55...25 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberungen entreißen",
 				"description": "Entfernt 5...9 Verzauberungen vom Gegner. Für jede entfernte Mönch-Verzauberung verliert Ihr 55...25 Lebenspunkte.",
 				"concise": "Entfernt 5...9 Verzauberungen beim Gegner. <gray>Entfernungskosten: Ihr verliert für jede entfernte Mönch-Verzauberung 55...25 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Rend Enchantments",
+				"description": "Spell. Remove 5...9 enchantments from target foe. For each Monk enchantment removed, you lose 55...25 Health.",
+				"concise": "Spell. Removes 5...9 enchantments from target foe. Removal cost: you lose 55...25 Health for each Monk enchantment removed."
+			},
+			"en-gww": {
+				"name": "Rend Enchantments",
 				"description": "Remove 5...9 enchantments from target foe. For each Monk enchantment removed, you lose 55...25 Health.",
 				"concise": "Removes 5...9 enchantments from target foe. <gray>Removal cost: you lose 55...25 Health for each Monk enchantment removed.</gray>"
 			},
+			"es": {
+				"name": "Desgarrar encantamientos",
+				"description": "Conjuro. Eliminas 5...9 encantamientos del enemigo objetivo. Por cada encantamiento de Monje eliminado, perderás 55...25 de salud.",
+				"concise": "Conjuro. Elimina 5...9 encantamientos del enemigo objetivo. Coste de la eliminación: pierdes 55...25 de salud por cada encantamiento de Monje eliminado."
+			},
 			"fr": {
+				"name": "Abolition des enchantements",
+				"description": "Sort. Supprime 5...9 enchantements à la cible ennemie. Vous perdez 55...25 points de vie pour chaque enchantement de Moine supprimé.",
+				"concise": "Sort. Supprime 5...9 enchantements affectant l'ennemi visé. Coût de la suppression : vous perdez 55...25 points de vie par enchantement de Moine supprimé."
+			},
+			"fr-gwiki": {
 				"name": "Abolition des enchantements",
 				"description": "Supprime 5...9 enchantements à la cible ennemie. Vous perdez 55...25 points de vie par enchantement de Moine supprimé.",
 				"concise": "Supprime 5...9 enchantements affectant l'ennemi visé. <gray>Coût de la suppression : vous perdez 55...25 points de vie par enchantement de Moine supprimé.</gray>"
+			},
+			"it": {
+				"name": "Strappa Incantesimi",
+				"description": "Magia. Rimuovi 5...9 incantesimo[i] dall'obiettivo nemico. Per ogni incantesimo del Mistico rimosso, perdi 55...25 Punto[i] Salute.",
+				"concise": "Magia. Incantesimi rimossi dall'obiettivo nemico: 5...9. Costo di rimozione: perdi 55...25 Punto[i] Salute per ogni incantesimo del Mistico rimosso."
+			},
+			"jp": {
+				"name": "レンド エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを 5...9 個解除します。モンクの強化スペルを解除するごとに、プレイヤーは体力が 55...25 減少します。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを 5...9 個解除します。解除コスト： 解除されたモンクの強化スペルごとに、プレイヤーは 55...25 の体力を失います。"
+			},
+			"kr": {
+				"name": "강화 파괴",
+				"description": "마법. 대상 지정: 적. 대상에게 걸려 있는 강화 마법 5...9개를 해제합니다. 몽크 강화 마법이 해제될 때마다 자신은 55...25 대미지를 입습니다.",
+				"concise": "마법. 강화 마법 5...9개를 해제합니다. 해제 대가: 해제된 몽크 강화 마법 하나당 자신은 55...25의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Rozerwanie Zaklęć",
+				"description": "Czar. Z wybranego przeciwnika usuwasz zaklęcia w liczbie 5...9. Za każde usunięte zaklęcie mnicha, tracisz 55...25 pkt. żywotności.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa zaklęcia w liczbie 5...9. Koszt usunięcia: za każde zdjęte zaklęcie mnicha tracisz 55...25 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Rend Enchantments",
+				"description": "Заклинание. Снимает с выбранного противника 5...9 лежащих на нем чар. За каждые снятые чары профессии Monk вы теряете 55...25 ед. здоровья.",
+				"concise": "Заклинание. Снимает с выбранного противника чары (5...9). Цена снятия: вы теряете 55...25 ед. здоровья за каждые снятые чары профессии Monk."
+			},
+			"bork": {
+				"name": "Rend Inchuntments",
+				"description": "Spell. Remufe-a 5...9 inchuntments frum taerget fue-a. Fur iaech Munk inchuntment remufed, yuoo luse-a 55...25 Heaelt.",
+				"concise": "Spell. Remufes 5...9 inchuntments frum taerget fue-a. Remufael cust: yuoo luse-a 55...25 Heaelt fur iaech Munk inchuntment remufed."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "影庇护",
+				"description": "增益魔法。 使自己「盲目」10秒。在此期间，你的「生命再生」提高7...10点，护甲值提高40点。",
+				"concise": "增益魔法。 使自己「盲目」10秒。在此期间，你的「生命再生」提高7...10点，护甲值提高40点。"
+			},
+			"cht": {
+				"name": "暗影慰藉",
+				"description": "加持魔法： 持續10秒，你的體力再生增加7...10，防禦增加40，遭受盲目5秒。",
+				"concise": "加持魔法： 持續10秒，你的體力再生增加7...10，防禦增加40，遭受盲目5秒。"
+			},
 			"de": {
+				"name": "Schattenzuflucht",
+				"description": "Verzauberung. Ihr seid 5 Sekunde[n] lang geblendet. 10 Sekunde[n] lang erhaltet Ihr +7...10 Lebenspunktregeneration und +40 Rüstung.",
+				"concise": "Verzauberung. 10 Sekunde[n]: Ihr erhaltet +7...10 Lebenspunktregeneration und +40 Rüstung. Ihr seid geblendet (5 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Schattenzuflucht (Kurzick)",
 				"description": "Ihr seid 5 Sekunden lang geblendet. 10 Sekunden lang erfreut Ihr Euch einer Lebenspunktregeneration in Höhe von 7...10 und +40 Rüstung.",
 				"concise": "10 Sekunden: Ihr erhaltet +7...10 Lebenspunktregeneration und +40 Rüstung. <gray>Ihr seid geblendet (5 Sekunden)</gray>"
 			},
 			"en": {
+				"name": "Shadow Sanctuary",
+				"description": "Enchantment Spell. You are Blinded for 5 seconds. For 10 seconds, you gain +7...10 Health regeneration and +40 armor.",
+				"concise": "Enchantment Spell. (10 seconds.) You gain +7...10 Health regeneration and +40 armor. You are Blind (5 seconds)."
+			},
+			"en-gww": {
 				"name": "Shadow Sanctuary (Kurzick)",
 				"description": "You are Blinded for 5 seconds. For 10 seconds, you gain +7...10 Health regeneration and +40 armor.",
 				"concise": "(10 seconds.) You gain +7...10 Health regeneration and +40 armor. <gray>You are Blind (5 seconds).</gray>"
 			},
+			"es": {
+				"name": "Santuario sombrío",
+				"description": "Conjuro con encantamiento. Quedas cegado durante 5 segundos. Además, durante 10 segundos, ganas +7...10 de regeneración de salud y +40 de armadura.",
+				"concise": "Conjuro con encantamiento. (10 segundos). Ganas +7...10 de regeneración de salud y +40 de armadura. Sufres ceguera (5 segundos)."
+			},
 			"fr": {
+				"name": "Sanctuaire de l'ombre",
+				"description": "Enchantement. Vous êtes aveuglé pendant 5 secondes. Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40 pendant 10 secondes.",
+				"concise": "Enchantement. (10 secondes.) Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40. Vous êtes aveuglé (5 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Sanctuaire de l'ombre (Kurzick)",
 				"description": "Vous êtes aveuglé pendant 10 secondes. Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40 pendant 10 secondes.",
 				"concise": "(10 secondes.) Vous bénéficiez d'une régénération de santé de +7...10 et d'un bonus d'armure de +40. <gray>Vous êtes aveuglé (5 secondes).</gray>"
+			},
+			"it": {
+				"name": "Santuario dell'Ombra",
+				"description": "Incantesimo. Vieni accecato per 5 secondo[i]. Per 10 secondi ottieni +7...10 di Rigenerazione Salute e +40 di armatura.",
+				"concise": "Incantesimo. (Secondi: 10) Rigenerazione tua Salute: +7...10. Armatura: +40. Sei affetto da Accecamento (5 secondo[i])."
+			},
+			"jp": {
+				"name": "シャドウ サンクチュアリ",
+				"description": "強化スペル： 5 秒間「盲目」状態になりますが、10 秒間体力の自然回復力が 7...10、防御力が40増加します。",
+				"concise": "強化スペル： (10 秒) 体力の自然回復力が 7...10、防御力が40増加します。「盲目」状態になります (5 秒)。"
+			},
+			"kr": {
+				"name": "어둠의 비호막",
+				"description": "강화 마법. 대상 지정: 없음. 5초 동안 실명 상태가 됩니다. 10초 동안 체력 재생이 7...10, 방어력이 40 증가합니다.",
+				"concise": "강화 마법. (10초) 체력 재생이 7...10, 방어력이 40 증가합니다. 실명 상태가 됩니다.(5초)"
+			},
+			"pl": {
+				"name": "Cieniste Sanktuarium",
+				"description": "Zaklęcie (czar). Zostajesz oślepiony na 5 sek. Przez 10 sek. posiadasz regenerację żywotności +7...10 i +40 pkt. pancerza.",
+				"concise": "Zaklęcie (czar). (10 sek.) Posiadasz regenerację żywotności +7...10 i +40 pkt. pancerza. Zostajesz oślepiony (5 sek.)."
+			},
+			"ru": {
+				"name": "Shadow Sanctuary",
+				"description": "Заклинание-чары. Вы ослеплены в течение 5 сек. В течение 10 сек скорость восстановления вашего здоровья увеличивается на 7...10 ед., и вы получаете дополнительно 40 ед. защиты.",
+				"concise": "Заклинание-чары. (10 сек) Вы получаете +7...10 ед. к скорости восстановления здоровья и +40 ед. к защите. Вы ослеплены (5 сек)."
+			},
+			"bork": {
+				"name": "Shaedoo Sunctooaery",
+				"description": "Inchuntment Spell. Yuoo aere-a Bleended fur 5 secunds. Fur 10 secunds, yuoo gaeeen +7...10 Heaelt regeneraeshun und +40 aermur.",
+				"concise": "Inchuntment Spell. (10 secunds.) Yuoo gaeeen +7...10 Heaelt regeneraeshun und +40 aermur. Yuoo aere-a Bleend (5 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致命斩",
+				"description": "斧术。 命中时，对目标敌人造成5...20点额外伤害。如果本次攻击为致命一击，则敌人将被打断。",
+				"concise": "斧术。 命中时，对目标敌人造成5...20点额外伤害。如果本次攻击为致命一击，则敌人将被打断。"
+			},
+			"cht": {
+				"name": "致命砍擊",
+				"description": "斧術攻擊技能： 命中時對目標造成 5...20 額外傷害。若因此打出致命攻擊，則目標敵人的動作被中斷。",
+				"concise": "斧術攻擊技能： 命中時對目標造成 5...20 額外傷害。若因此打出致命攻擊，則目標敵人的動作被中斷。"
+			},
 			"de": {
+				"name": "Kritischer Hieb",
+				"description": "Axtangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn dieser Angriff zu einen kritischen Treffer führt, wird der Gegner unterbrochen.",
+				"concise": "Axtangriff. Richtet +5...20 Punkt[e] Schaden an. Unterbricht eine Aktion, falls Ihr einen kritischen Treffer landet."
+			},
+			"de-guildwiki": {
 				"name": "Kritischer Hieb",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn dieser Angriff zu einem kritischen Treffer führt, wird der Gegner unterbrochen.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Unterbricht eine Aktion, falls Ihr einen kritischen Treffer landet."
 			},
 			"en": {
 				"name": "Critical Chop",
+				"description": "Axe Attack. If this attack hits, you inflict +5...20 damage. If this attack results in a critical hit, target foe is interrupted.",
+				"concise": "Axe Attack. Deals +5...20 damage. Interrupts an action if you land a critical hit."
+			},
+			"en-gww": {
+				"name": "Critical Chop",
 				"description": "If this attack hits, you inflict +5...20 damage. If this attack results in a critical hit, target foe is interrupted.",
 				"concise": "Deals +5...20 damage. Interrupts an action if you land a critical hit."
 			},
+			"es": {
+				"name": "Hachazo crítico",
+				"description": "Ataque con hacha. Si consigues dar este golpe, harás +5...20 de daño y si consigues un ataque crítico interrumpirás además al enemigo.",
+				"concise": "Ataque con hacha. Hace +5...20 de daño. Interrumpe una acción si consigues un golpe crítico."
+			},
 			"fr": {
+				"name": "Entaille critique",
+				"description": "Attaque à la hache. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle inflige un coup critique, l'ennemi visé est interrompu.",
+				"concise": "Attaque à la hache. Inflige +5...20 points de dégâts. Interrompt une action si vous infligez un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Entaille critique",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle inflige un coup critique, l'ennemi visé est interrompu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Critico",
+				"description": "Attacco con Ascia. Se questo attacco va a segno, infliggi +5...20 danno[i]; se risulta in un attacco critico l'obiettivo nemico viene interrotto.",
+				"concise": "Attacco con Ascia. Danni inferti: +5...20. Interrompe un'azione se assesti un colpo critico."
+			},
+			"jp": {
+				"name": "クリティカル チョップ",
+				"description": "アックス アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。成功した攻撃がクリティカル ヒットの場合は、ターゲットした敵のアクションが中断されます。",
+				"concise": "アックス アタック： 5...20 の追加ダメージを与えます。クリティカル ヒットが成功した場合、アクションを中断します。"
+			},
+			"kr": {
+				"name": "위협적인 견제",
+				"description": "도끼 공격. 대상 지정: 적. 공격이 성공하면 대상은 5...20의 대미지를 추가로 입습니다. 치명타가 터지면 대상은 동작을 방해받습니다.",
+				"concise": "도끼 공격. 5...20의 대미지를 추가로 줍니다. 치명타가 터지면 동작을 방해합니다."
+			},
+			"pl": {
+				"name": "Krytyczne Cięcie",
+				"description": "Atak toporem. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeżeli atak spowodował trafienie krytyczne, przerywasz czynność wybranego przeciwnika.",
+				"concise": "Atak toporem. Zadaje +5...20 pkt. obrażeń. Przerywa czynność, kiedy wykonasz trafienie krytyczne."
+			},
+			"ru": {
+				"name": "Critical Chop",
+				"description": "Атака топором. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если эта атака завершается критическим ударом, действие выбранного противника прерывается.",
+				"concise": "Атака топором. Наносит дополнительно 5...20 ед. урона. Прерывает действие, если вы нанесли критический удар."
+			},
+			"bork": {
+				"name": "Creeteecael Chup",
+				"description": "Aexe-a Aettaeck. Iff thees aettaeck heets, yuoo inffleect +5...20 daemaege-a. Iff thees aettaeck resoolts in a creeteecael heet, taerget fue-a is interroopted.",
+				"concise": "Aexe-a Aettaeck. Deaels +5...20 daemaege-a. Interroopts un aecshun iff yuoo lund a creeteecael heet."
 			}
 		}
 	}

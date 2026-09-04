@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Signet of Ghostly Might (PvP)",
+				"description": "精英纹章。 Target allied summoned creature's attacks deal 5...35 more damage. After 10 seconds, that creature is destroyed.",
+				"concise": "精英纹章。 Target allied summoned creature deals +5...35 damage. That creature is destroyed after 10 seconds."
+			},
+			"cht": {
+				"name": "生靈神力紋章 (PvP)",
+				"description": "精英紋章： 目標召喚生物，造成5...35額外傷害，10秒後該生物死亡。",
+				"concise": "精英紋章： 目標召喚生物，造成5...35額外傷害，10秒後該生物死亡。"
+			},
 			"de": {
+				"name": "Siegel der Macht der Geister (PvP)",
+				"description": "Elite-Siegel. Die Angriffe der verbündeten herbeigerufenen Kreatur fügen 5...35 Punkt[e] mehr Schaden zu. Diese Kreatur wird nach 10 Sekunde[n] vernichtet.",
+				"concise": "Elite-Siegel. Die verbündete herbeigerufene Kreatur richtet +5...35 Punkt[e] Schaden an. Diese Kreatur wird nach 10 Sekunde[n] vernichtet."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Macht der Geister (PvP)",
 				"description": "Die Angriffe der verbündeten herbeigerufenen Kreatur fügen 5...35 Punkte mehr Schaden zu. Diese Kreatur wird nach 10 Sekunden vernichtet.",
 				"concise": "Die verbündete herbeigerufene Kreatur richtet +5...35 Punkte Schaden an. <gray>Diese Kreatur wird nach 10 Sekunden vernichtet</gray>"
 			},
 			"en": {
 				"name": "Signet of Ghostly Might (PvP)",
+				"description": "Elite Signet. Target allied summoned creature's attacks deal 5...35 more damage. After 10 seconds, that creature is destroyed.",
+				"concise": "Elite Signet. Target allied summoned creature deals +5...35 damage. That creature is destroyed after 10 seconds."
+			},
+			"en-gww": {
+				"name": "Signet of Ghostly Might (PvP)",
 				"description": "Target allied summoned creature's attacks deal 5...35 more damage. After 10 seconds, that creature is destroyed.",
 				"concise": "Target allied summoned creature deals +5...35 damage. <gray>That creature is destroyed after 10 seconds.</gray>"
 			},
+			"es": {
+				"name": "Sello de poder fantasmal (PvP)",
+				"description": "Sello de élite. Los ataques de la criatura invocada aliada objetivo hacen 5...35 más de daño. Después de 10 segundos, esa criatura se destruirá.",
+				"concise": "Sello de élite. La criatura aliada objetivo hace +5...35 de daño. Esa criatura muere a los 10 segundos."
+			},
 			"fr": {
+				"name": "Sceau de puissance spectrale (PvP)",
+				"description": "Sceau d'élite. Les attaques de la créature invoquée alliée ciblée infligent 5...35 points de dégâts supplémentaires. La créature meurt au bout de 10 secondes.",
+				"concise": "Sceau d'élite. La créature invoquée alliée ciblée inflige +5...35 points de dégâts. Cette créature meurt au bout de 10 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de puissance spectrale (PvP)",
 				"description": "Les attaques de la créature invoquée alliée ciblée infligent 5...35 points de dégâts supplémentaires. La créature meurt au bout de 10 secondes.",
 				"concise": "La créature invoquée alliée ciblée inflige +5...35 points de dégâts. <gray>Cette créature meurt au bout de 10 secondes.</gray>"
+			},
+			"it": {
+				"name": "Sigillo della Potenza Spettrale (PvP)",
+				"description": "Sigillo d'Élite. Gli attacchi della creatura evocata dall'alleato selezionato infliggono 5...35 danno[i] in più. Dopo 10 secondo[i] quella creatura viene distrutta.",
+				"concise": "Sigillo d'Élite. Danni inferti dalla creatura evocata alleata selezionata: +5...35. Quella creatura viene distrutta dopo 10 secondo[i])."
+			},
+			"jp": {
+				"name": "ゴースト マイト シグネット (PvP)",
+				"description": "エリート シグネット： ターゲットした味方の召喚生物は、攻撃が成功すると 5...35 の追加ダメージを与えます。10 秒後、その召喚生物は消滅します。",
+				"concise": "エリート シグネット： ターゲットした味方の召喚生物による攻撃は、5...35 の追加ダメージを与えます。10 秒後、その召喚生物は消滅します。"
+			},
+			"kr": {
+				"name": "영적인 완력 인장(대인전)",
+				"description": "엘리트 인장. 대상 지정: 아군 소환체. 대상의 공격 대미지가 5...35 증가합니다. 10초 후에 대상은 파괴됩니다.",
+				"concise": "엘리트 인장. 대상 아군 소환체가 5...35의 대미지를 추가로 줍니다. 대상은 10초 후에 파괴됩니다."
+			},
+			"pl": {
+				"name": "Sygnet Niematerialnej Potęgi (PvP)",
+				"description": "Sygnet elitarny. Ataki wybranego, sojuszniczego przyzwanego stworzenia zadają 5...35 pkt. dodatkowych obrażeń. Po 10 sek. stworzenie to zostaje zniszczone.",
+				"concise": "Sygnet elitarny. Wybrane, sojusznicze przyzwane stworzenie zadaje +5...35 pkt. obrażeń. Po 10 sek. stworzenie to zostaje zniszczone."
+			},
+			"ru": {
+				"name": "Signet of Ghostly Might (PvP)",
+				"description": "Элитная печать. Урон от атак выбранного призванного создания-союзника увеличивается на 5...35 ед. Через 10 сек это создание будет уничтожено.",
+				"concise": "Элитная печать. Выбранное союзное призванное создание наносит дополнительно 5...35 ед. урона. Это создание будет уничтожено через 10 сек."
+			},
+			"bork": {
+				"name": "Seegnet ooff Ghustly Meeght (PfP)",
+				"description": "Ileete-a Seegnet. Taerget aelleeed soommuned creaetoore-a's aettaecks deael 5...35 mure-a daemaege-a. Aeffter 10 secunds, thaet creaetoore-a is destruyed.",
+				"concise": "Ileete-a Seegnet. Taerget aelleeed soommuned creaetoore-a deaels +5...35 daemaege-a. Thaet creaetoore-a is destruyed aeffter 10 secunds."
 			}
 		}
 	}

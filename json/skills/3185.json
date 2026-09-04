@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "精神恍惚",
+				"description": "精英咒文。 在0秒之内，被打断的目标敌人同时将被击倒。",
+				"concise": "精英咒文。 在0秒之内，被打断的目标敌人同时将被击倒。"
+			},
+			"cht": {
+				"name": "精神失衡",
+				"description": "精英咒文魔法： 中斷目標敵人動作。若成功中斷技能，將擊倒目標及其鄰近敵人 2...3 秒。(若快速施展沒有超過 4 將有 50% 失敗機率)",
+				"concise": "精英咒文魔法： 中斷目標敵人動作。若成功中斷技能，將擊倒目標及其鄰近敵人 2...3 秒。(若快速施展沒有超過 4 將有 50% 失敗機率)"
+			},
 			"de": {
+				"name": "Übernatürliche Labilität (PvP)",
+				"description": "Elite-Zauber. Unterbricht die Aktion des Gegners. Handelt es sich bei der Aktion um eine Fertigkeit, werden der Gegner und alle umstehenden Gegner 2...3 Sekunden lang zu Boden geworfen. (Bei Schnellwirkung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Elite-Zauber. Unterbricht die Aktion des gegners. Handelt es sich bei der Aktion um eine Fertigkeit, werden der Gegner und und alle Feinde in der Nähe 2...3 Sekunden lang zu Boden geworfen. Bei Schnellwirkung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Übernatürliche Labilität (PvP)",
 				"description": "Unterbricht die Aktion des Gegners. Handelt es sich bei der Aktion um eine Fertigkeit, werden der Gegner und alle umstehenden Gegner für 2...3 Sekunden zu Boden geworfen. (Bei Schnellwirkung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
 				"concise": "Unterbricht die Aktion des Gegners. Handelt es sich bei der Aktion um eine Fertigkeit, werden der Gegner und alle ihn umstehenden Feinde 2...3 Sekunden lang zu Boden geworfen. <gray>Bei Schnellwirkung von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Psychic Instability (PvP)",
+				"description": "Elite Spell. Interrupts the target foe's action. If that action is a skill, that foe and all adjacent foes are knocked down for 2...3 seconds. (50% failure chance with Fast Casting 4 or less.)",
+				"concise": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for 2...3 seconds on target foe and all adjacent foes. 50% failure chance unless Fast Casting 5 or higher."
+			},
+			"en-gww": {
+				"name": "Psychic Instability (PvP)",
 				"description": "Interrupts the target foe's action. If that action is a skill, that foe and all adjacent foes are knocked down for 2...3 seconds. (50% failure chance with Fast Casting 4 or less.)",
 				"concise": "Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for 2...3 seconds on target foe and all adjacent foes. <gray>50% failure chance unless Fast Casting 5 or higher.</gray>"
 			},
+			"es": {
+				"name": "Inestabilidad psíquica (PvP)",
+				"description": "Conjuro de élite. Interrumpe la acción del enemigo objetivo. Si ésta es una habilidad, el enemigo objetivo y todos los adyacentes son derribados durante 2...3 segundos. (50% de posibilidades de fallar con lanzamiento de conjuros rápido 4 o inferior.)",
+				"concise": "Conjuro de élite. Interrumpe una acción. Efecto de interrupción: si la acción es una habilidad, causa el derribo del enemigo objetivo y todos los enemigos adyacentes durante 2...3 segundos. 50% de posibilidades de fallar a menos que tengas lanzamiento de conjuros rápido 5 o superior."
+			},
 			"fr": {
+				"name": "Instabilité psychique (PvP)",
+				"description": "Sort d'élite. Interrompt l'action de l'ennemi visé. S'il s'agit d'une compétence, cet ennemi et tous les ennemis adjacents sont assommés pendant 2...3 secondes. (50 % de risques d'échec avec Incantation rapide 4 ou inférieure).",
+				"concise": "Sort d'élite. Interrompt une action. Effet de l'interruption : s'il s'agit d'une compétence, pendant 2...3 secondes l'ennemi visé et tous les ennemis proches sont assommés. 50 % de risques d'échec avec Incantation rapide 4 ou inférieure."
+			},
+			"fr-gwiki": {
 				"name": "Instabilité psychique (PvP)",
 				"description": "Interrompt l'action de l'ennemi visé. S'il s'agit d'une compétence, cet ennemi et tous les ennemis à proximité sont assommés pendant 2...3 secondes. (50% de risques d'échec avec Incantation rapide 4 ou inférieure.)",
 				"concise": ""
+			},
+			"it": {
+				"name": "Instabilità Psichica (PvP)",
+				"description": "Magia d'Élite. Interrompe l'azione dell'obiettivo nemico. Se l'azione è un'abilità, l'obiettivo nemico e tutti i nemici adiacenti finiscono a terra per 2...3 secondi (50% di probabilità di fallimento con Lancio Rapido di grado 4 o inferiore).",
+				"concise": "Magia d'Élite. Interrompe un'azione. Effetto dell'interruzione: se l'azione è un'abilità, l'obiettivo nemico e tutti i nemici adiacenti finiscono a terra per 2...3 secondi. 50% di probabilità di fallimento con Lancio Rapido inferiore al grado 5."
+			},
+			"jp": {
+				"name": "サイキック インスタビリティ (PvP)",
+				"description": "エリート スペル： ターゲットした敵のアクションを中断します。スキルを中断した場合、その敵および隣接するすべての敵は 2...3 秒間転倒します。「ファスト キャスト」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "エリート スペル： アクションを中断します。中断効果： スキルを中断した場合、ターゲットした敵および隣接するすべての敵は 2...3 秒間転倒します。「ファスト キャスト」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "심리적 부담(대인전)",
+				"description": "엘리트 마법. 대상 지정: 적. 대상의 동작을 방해합니다. 그 동작이 스킬이면 대상과 그에 인접한 모든 적이 2...3초 동안 바닥에 넘어집니다. 빠른 시전 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "엘리트 마법. 동작을 방해합니다. 방해 효과: 그 동작이 스킬이면 대상과 그에 인접한 모든 적을 바닥에 넘어뜨립니다.(2...3초) 빠른 시전 특성 레벨이 4 이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Psychiczna Niestabilność (PvP)",
+				"description": "Elitarny czar. Przerywa akcję wybranego przeciwnika. Jeśli tą akcją jest umiejętność, przeciwnik i wszyscy wrogowie w bezpośrednim sąsiedztwie zostają powaleni na 2...3 sek. (50% szans na niepowodzenie, jeśli Szybkie Rzucanie Czarów jest na poziomie 4 lub mniejszym.)",
+				"concise": "Elitarny czar. Przerywa akcję. Efekt przerwania: jeśli tą akcją jest umiejętność, przeciwnik i wszyscy wrogowie w bezpośrednim sąsiedztwie zostają powaleni na 2...3 sek. 50% szans na niepowodzenie, chyba że Szybkie Rzucanie Czarów jest na poziomie 5 lub wyższym."
+			},
+			"ru": {
+				"name": "Psychic Instability (PvP)",
+				"description": "Элитное заклинание. Прерывает действие выбранного противника. Если было прервано умение, этот противник и все противники поблизости будут сбиты с ног на 2...3 сек. (50%-й шанс неудачи, если ваш талант Fast Casting меньше или равен 4.)",
+				"concise": "Элитное заклинание. Прерывает действие. Эффект прерывания: если было прервано умение, сбивает с ног на 2...3 сек выбранного противника и всех противников поблизости. 50%-й шанс неудачи, если ваш талант Fast Casting меньше 5."
+			},
+			"bork": {
+				"name": "Psycheec Instaebeeleety (PfP)",
+				"description": "Ileete-a Spell. Interroopts zee taerget fue-a's aecshun. Iff thaet aecshun is a skeell, thaet fue-a und aell aedjaecent fues aere-a knucked doon fur 2...3 secunds. (50% faeeeloore-a chunce-a veet Faest Caesteeng 4 oor less.)",
+				"concise": "Ileete-a Spell. Interroopts un aecshun. Interroopshun iffffect: iff zee aecshun is a skeell, cooses knuckdoon fur 2...3 secunds oon taerget fue-a und aell aedjaecent fues. 50% faeeeloore-a chunce-a unless Faest Caesteeng 5 oor heegher."
 			}
 		}
 	}

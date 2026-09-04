@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "两败俱伤",
+				"description": "镰刀术。 命中时，对敌人造成0点额外伤害，并使其遭受「重伤」症状3...10秒，而你将遭受「虚弱」症状10秒。",
+				"concise": "镰刀术。 命中时，对敌人造成0点额外伤害，并使其遭受「重伤」症状3...10秒，而你将遭受「虚弱」症状10秒。"
+			},
+			"cht": {
+				"name": "耗竭攻擊",
+				"description": "鐮刀攻擊技能： 移除自身一項神喚使加持，若移除成功，造成敵人重傷 3...10 秒。若沒有移除到加持，則你遭受虛弱 10 秒。",
+				"concise": "鐮刀攻擊技能： 移除自身一項神喚使加持，若移除成功，造成敵人重傷 3...10 秒。若沒有移除到加持，則你遭受虛弱 10 秒。"
+			},
 			"de": {
+				"name": "Ermüdender Schlag",
+				"description": "Sensenangriff. Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wurde, erleidet der Gegner 3...10 Sekunde[n] lang eine Tiefe Wunde. Wenn keine Verzauberung entfernt, leidet Ihr 10 Sekunden lang unter \"Schwäche\".",
+				"concise": "Sensenangriff. Entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Verursacht Zustand Tiefe Wunde (3...10 Sekunde[n]). Wenn keine Verzauberung entfernt wird, leidet Ihr unter \"Schwäche\" (10 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Ermüdender Schlag",
 				"description": "Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wurde, erleidet der Gegner 3...10 Sekunden lang eine Tiefe Wunde. Wenn keine Verzauberung entfernt<sic/>, leidet Ihr 10 Sekunden lang unter \"Schwäche\".",
 				"concise": "Entfernt 1 Derwisch-Verzauberung. Entfernungseffekt: Verursacht Zustand Tiefe Wunde (3...10 Sekunden). <gray>Wenn keine Verzauberung entfernt wird, leidet Ihr unter \"Schwäche\" (10 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Wearying Strike",
+				"description": "Scythe Attack. You remove 1 Dervish enchantment. If an enchantment was removed, you inflict a Deep Wound for 3...10 seconds. You suffer from Weakness for 10 seconds if an enchantment is not removed.",
+				"concise": "Scythe Attack. Remove 1 Dervish Enchantment. Removal Effect: Inflicts Deep Wound condition (3...10 seconds). You are Weakened (10 seconds) if an enchantment is not lost."
+			},
+			"en-gww": {
+				"name": "Wearying Strike",
 				"description": "You remove 1 Dervish enchantment. If an enchantment was removed, you inflict a Deep Wound for 3...10 seconds. You suffer from Weakness for 10 seconds if an enchantment is not removed.",
 				"concise": "Remove 1 Dervish Enchantment. Removal Effect: Inflicts Deep Wound condition (3...10 seconds). <gray>You are Weakened (10 seconds) if an enchantment is not lost.</gray>"
 			},
+			"es": {
+				"name": "Golpe cansado",
+				"description": "Ataque con guadaña. Quita un encantamiento de Derviche. Si se quitó un encantamiento, causas una herida grave durante 3...10 segundos. Sufres debilitamiento durante 10 segundos si no se quita un encantamiento.",
+				"concise": "Ataque con guadaña. Quita un encantamiento de Derviche. Efecto de eliminación: causa una herida grave (3...10 segundos). Sufres debilitamiento (10 segundos) si no se pierde un encantamiento."
+			},
 			"fr": {
+				"name": "Coup lassant",
+				"description": "Attaque à la faux. Vous supprimez un enchantement de Derviche. Si un enchantement a été levé, vous infligez une Blessure profonde pendant 3...10 secondes. Vous souffrez de Faiblesse pendant 10 secondes si un enchantement n'est pas levé.",
+				"concise": "Attaque à la faux. Supprime un enchantement de Derviche. Effet de la suppression : inflige une Blessure profonde (3...10 secondes). Vous souffrez de Faiblesse (10 secondes) si un enchantement n'est pas perdu."
+			},
+			"fr-gwiki": {
 				"name": "Coup lassant",
 				"description": "Si cette attaque réussit, vous infligez +5...20 point(s) de dégâts. Vous causez aussi une Blessure profonde pendant 3...10 secondes, mais souffrez de Faiblesse pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Stancante",
+				"description": "Attacco con Falce. Rimuovi 1 Incantesimo del Derviscio. Se un incantesimo è stato rimosso, infliggi Ferita Profonda per 3...10 secondi. Se un incantesimo non è stato rimosso soffri di Debolezza per 10 secondi.",
+				"concise": "Attacco con Falce. Rimuove 1 Incantesimo del Derviscio. Effetto della rimozione: Condizione inflitta: Ferita Profonda (3...10 secondi). Soffri di Debolezza (10 secondi) se un incantesimo non è stato rimosso."
+			},
+			"jp": {
+				"name": "ウィアリー ストライク",
+				"description": "サイズ アタック： かけられているダルウィーシュの強化スペルを1個解除します。強化スペルが解除されると、敵を 3...10 秒間「重傷」状態にします。解除する強化スペルがなかった場合、プレイヤーは10秒間「衰弱」状態になります。",
+				"concise": "サイズ アタック： ダルウィーシュの強化スペルを1個解除します。解除効果： 「重傷」状態にします (3...10 秒) 。解除する強化スペルがない場合、プレイヤーは「衰弱」状態になります (10秒) 。"
+			},
+			"kr": {
+				"name": "침울한 일격",
+				"description": "사이드 공격. 대상 지정: 없음. 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 강화 마법이 무효화되면 3...10초 동안 적을 공격할 때 중상 상태로 만들고, 무효화되지 않으면 자신이 10초 동안 약체 상태가 됩니다.",
+				"concise": "사이드 공격. 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 중상을 입힙니다.(3...10초) 강화 마법이 무효화되지 않으면 자신은 약체가 됩니다.(10초)"
+			},
+			"pl": {
+				"name": "Nużące Uderzenie",
+				"description": "Atak kosą. Usuwasz 1 zaklęcie derwisza. Jeśli doszło do usunięcia zaklęcia, wybrany wróg otrzymuje głęboką ranę na 3...10 sek. Jeśli nie doszło do usunięcia zaklęcia, zostajesz osłabiony na 10 sekund.",
+				"concise": "Atak kosą. Usuwa jedno zaklęcie derwisza. Efekt usunięcia: Wywołuje głęboką ranę (3...10 sek.). Jeśli nie doszło do usunięcia zaklęcia, zostajesz osłabiony (10 sek.)."
+			},
+			"ru": {
+				"name": "Wearying Strike",
+				"description": "Атака косой. Вы теряете 1 чары профессии Dervish. Если чары были успешно сняты, вы наносите глубокую рану на 3...10 сек. Если чары не были сняты, вы будете охвачены слабостью в течение 10 сек.",
+				"concise": "Атака косой. Снимает 1 чары профессии Dervish. Эффект снятия: вызывает глубокую рану (3...10 сек). Вы будете ослаблены (10 сек), если чары не были сняты."
+			},
+			"bork": {
+				"name": "Veaeryeeng Streeke-a",
+				"description": "Scyzee Aettaeck. Yuoo remufe-a 1 Derfeesh inchuntment. Iff un inchuntment vaes remufed, yuoo inffleect a Deep Vuoond fur 3...10 secunds. Yuoo sooffffer frum Veaekness fur 10 secunds iff un inchuntment is nut remufed.",
+				"concise": "Scyzee Aettaeck. Remufe-a 1 Derfeesh Inchuntment. Remufael Iffffect: Inffleects Deep Vuoond cundeeshun (3...10 secunds). Yuoo aere-a Veaekened (10 secunds) iff un inchuntment is nut lust."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "明森之盲",
+				"description": "物品法术。 最多可以持有15...60秒。当你丢下「明森的骨灰」时，使所有附近的敌人遭受「盲目」症状3...8秒。",
+				"concise": "物品法术。 最多可以持有15...60秒。当你丢下「明森的骨灰」时，使所有邻近的敌人遭受「盲目」症状3...8秒。"
+			},
+			"cht": {
+				"name": "盲者明森",
+				"description": "抱持魔法： 最多能夠抱持 15...60 秒。當你丟下明森的骨灰時，使附近的所有敵人遭受「盲目」病症 3...8 秒。",
+				"concise": "抱持魔法： 最多能夠抱持 15...60 秒。當你丟下明森的骨灰時，使附近的所有敵人遭受「盲目」病症 3...8 秒。"
+			},
 			"de": {
+				"name": "Blind war Mingson",
+				"description": "Gegenstandszauber. Haltet Mingsons Asche bis zu 15...60 Sekunde[n] lang. Wenn Ihr seine Asche fallen lasst, werden alle Feinde in der Nähe 3...8 Sekunde[n] lang geblendet.",
+				"concise": "Gegenstandszauber. 15...60 Sekunde[n]: Fallwirkung: Verursacht bei allen Feinden in der Nähe Zustand Blindheit (3...8 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Blind war Mingson",
 				"description": "Haltet seine Asche 15...60 Sekunden lang. Wenn Ihr Mingsons Asche fallen lasst, werden alle Feinde in der Nähe 3...8 Sekunden lang geblendet.",
 				"concise": "15...60 Sekunden: Fallwirkung: Verursacht bei allen Feinden in der Nähe Zustand Blindheit (3...8 Sekunden)."
 			},
 			"en": {
 				"name": "Blind Was Mingson",
+				"description": "Item Spell. Hold Mingson's ashes for up to 15...60 seconds. When you drop his ashes, all nearby foes are Blinded for 3...8 seconds.",
+				"concise": "Item Spell. (15...60 seconds.) Drop effect: inflicts Blindness condition (3...8 seconds) on all nearby foes."
+			},
+			"en-gww": {
+				"name": "Blind Was Mingson",
 				"description": "Hold Mingson's ashes for up to 15...60 seconds. When you drop his ashes, all nearby foes are Blinded for 3...8 seconds.",
 				"concise": "(15...60 seconds.) Drop effect: inflicts Blindness condition (3...8 seconds) on all nearby foes."
 			},
+			"es": {
+				"name": "Ciego sea Mingson",
+				"description": "Conjuro con objeto. Llevas las cenizas de Mingson durante 15...60 segundos. Al soltarlas, todos los enemigos cercanos quedan cegados durante 3...8 segundos.",
+				"concise": "Conjuro con objeto. (15...60 segundos). Efecto al soltarse: causa ceguera (3...8 segundos) a todos los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Mingson était aveugle",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Mingson pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis proches sont aveuglés pendant 3...8 secondes.",
+				"concise": "Sort d'altération d'objet. (15...60 secondes.) Effet de la pose : inflige l'Aveuglement (3...8 secondes) à tous les ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Mingson était aveugle",
 				"description": "Vous tenez les cendres de ''Mingson'' pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis proches sont aveuglés pendant 3...8 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mingson era Cieco",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Mingson per un massimo di 15...60 secondo[i]; quando le lasci cadere, tutti i nemici nei dintorni vengono accecati per 3...8 secondo[i].",
+				"concise": "Magia Altera-oggetto. (Secondi: 15...60) Rilascio: provoca Accecamento (3...8 secondo[i]) a tutti i nemici nei dintorni."
+			},
+			"jp": {
+				"name": "ミンサン ブラインド",
+				"description": "アイテム スペル： 最大 15...60 秒間、ミンサンの遺灰を持ちます。この遺灰を落とすと、周囲にいるすべての敵は 3...8 秒間「盲目」状態になります。",
+				"concise": "アイテム スペル： (15...60 秒) ドロップ効果： 周囲にいるすべての敵を「盲目」状態にします (3...8 秒)。"
+			},
+			"kr": {
+				"name": "밍손의 눈가림",
+				"description": "드롭아이템. 대상 지정: 없음. 15...60초 동안 유지되는 밍손의 마력석을 만듭니다. 밍손의 마력석을 바닥에 떨어뜨리면 부근의 모든 적은 3...8초 동안 실명 상태가 됩니다.",
+				"concise": "드롭아이템. (15...60초) 드롭 효과: 부근의 모든 적을 실명시킵니다.(3...8초)"
+			},
+			"pl": {
+				"name": "Ślepym Był Mingson",
+				"description": "Czar z przedmiotu. Trzymaj prochy Mingsona przez maksymalnie 15...60 sek. Gdy upuścisz jego prochy, wszyscy przeciwnicy w pobliżu zostaną oślepieni na 3...8 sek.",
+				"concise": "Czar z przedmiotu. (15...60 sek.) Efekt upuszczenia: oślepia (3...8 sek.) wszystkich przeciwników w pobliżu."
+			},
+			"ru": {
+				"name": "Blind Was Mingson",
+				"description": "Артефактное заклинание. Вы держите прах Mingson до 15...60 сек. Когда вы бросаете его прах, все противники поблизости будут ослеплены на 3...8 сек.",
+				"concise": "Артефактное заклинание. (15...60 сек) Эффект от бросания: вызывает слепоту (3...8 сек) у всех противников поблизости."
+			},
+			"bork": {
+				"name": "Bleend Vaes Meengsun",
+				"description": "Item Spell. Huld Meengsun's aeshes fur up tu 15...60 secunds. Vhee yuoo drup hees aeshes, aell neaerby fues aere-a Bleended fur 3...8 secunds.",
+				"concise": "Item Spell. (15...60 secunds.) Drup iffffect: inffleects Bleendness cundeeshun (3...8 secunds) oon aell neaerby fues."
 			}
 		}
 	}

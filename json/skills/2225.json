@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Summon Ruby Djinn",
+				"description": "咒文。 Summon a level 14...20 Ruby Djinn that lives for 40...60 seconds and has Immolate. Only 1 Asura Summon can be active at a time.",
+				"concise": "咒文。 Summons a level 14...20 Ruby Djinn (40...60 second lifespan) that has Immolate. Only 1 Asura Summon can be active at a time."
+			},
+			"cht": {
+				"name": "召喚紅寶石巨靈",
+				"description": "咒文魔法： 召喚一個等級14...20的紅寶石巨靈(可存活40...60秒)並擁有「火焰焚身」技能。同一時間只能發動一個阿蘇拉召喚技能。",
+				"concise": "咒文魔法： 召喚一個等級14...20的紅寶石巨靈(可存活40...60秒)並擁有「火焰焚身」技能。同一時間只能發動一個阿蘇拉召喚技能。"
+			},
 			"de": {
+				"name": "Rubin-Dschinn herbeirufen",
+				"description": "Zauber. Ruft einen Rubin-Dschinn der Stufe 14...20 herbei, der 40...60 Sekunde[n] lang lebt und über Feueropfer verfügt. Es kann jeweils nur 1 Asura-Beschwörung aktiv sein.",
+				"concise": "Zauber. Ruft einen Rubin-Dschinn der Stufe 14...20 herbei (40...60 Sekunde[n] Lebensdauer), der über Feueropfer verfügt. Es kann jeweils nur 1 Asura-Beschwörung aktiv sein."
+			},
+			"de-guildwiki": {
 				"name": "Rubin-Dschinn herbeirufen",
 				"description": "Ruft einen Rubin-Dschinn der Stufe 14...20 herbei, der 40...60 Sekunden lebt und über Feueropfer verfügt. Es kann jeweils nur 1 Asura-Beschwörung aktiv sein.",
 				"concise": "Ruft einen Rubin-Dschinn der Stufe 14...20 herbei (40...60 Sekunden Lebensdauer), der über Feueropfer verfügt. <gray>Es kann jeweils nur 1 Asura-Beschwörung aktiv sein.</gray>"
 			},
 			"en": {
 				"name": "Summon Ruby Djinn",
+				"description": "Spell. Summon a level 14...20 Ruby Djinn that lives for 40...60 seconds and has Immolate. Only 1 Asura Summon can be active at a time.",
+				"concise": "Spell. Summons a level 14...20 Ruby Djinn (40...60 second lifespan) that has Immolate. Only 1 Asura Summon can be active at a time."
+			},
+			"en-gww": {
+				"name": "Summon Ruby Djinn",
 				"description": "Summon a level 14...20 Ruby Djinn that lives for 40...60 seconds and has Immolate. Only 1 Asura Summon can be active at a time.",
 				"concise": "Summon a level 14...20 Ruby Djinn (40...60 lifespan) that has Immolate. Only 1 Asura Summon can be active a time."
 			},
+			"es": {
+				"name": "Invocar Djinn de rubí",
+				"description": "Conjuro. Invocas un djinn de rubí de nivel 14...20 que vive durante 40...60 segundos y tiene la Inmolación. Sólo puede haber una invocación de Asura a la vez.",
+				"concise": "Conjuro. Invocas un djinn de rubí de nivel 14...20 (40...60 segundos de vida) que tiene la Inmolación. Sólo puede usarse una invocación de Asura a la vez."
+			},
 			"fr": {
+				"name": "Invocation du Jinn de rubis",
+				"description": "Sort. Vous invoquez un Jinn de rubis de niveau 14...20 qui vit pendant 40...60 secondes et est équipé d'Immolation. Vous ne pouvez activer qu'une seule invocation asura à la fois.",
+				"concise": "Sort. Vous invoquez un Jinn de rubis de niveau 14...20 (durée de vie de 40...60 secondes) qui est équipé d'Immolation. Vous ne pouvez activer qu'une seule invocation asura à la fois."
+			},
+			"fr-gwiki": {
 				"name": "Invocation du Jinn de rubis",
 				"description": "Vous invoquez un Jinn de rubis de niveau 14...20 qui vit pendant 40...60 secondes et est équipé d'Immolation. Vous ne pouvez activer qu'une seule invocation asura à la fois.",
 				"concise": "Vous invoquez un Jinn de rubis de niveau 14...20 (durée de vie de 40...60 secondes) qui est équipé d'Immolation. Vous ne pouvez activer qu'une seule invocation asura à la fois."
+			},
+			"it": {
+				"name": "Invoca Djinn Rubino",
+				"description": "Magia. Invochi un Djinn Rubino di livello 14...20 che vive per 40...60 secondo[i] e usa Immolazione. È possibile mantenere attiva una sola invocazione Asura per volta.",
+				"concise": "Magia. Invochi un Djinn Rubino di livello 14...20 (in vita per 40...60 secondo[i]) dotato di Immolazione. È possibile mantenere attiva solo 1 invocazione Asura per volta."
+			},
+			"jp": {
+				"name": "サモン ルビー ジン",
+				"description": "スペル： 40...60 秒間、「イモレイト」を装備しているレベル 14...20 のルビー ジンを召喚します。他のアスラ召喚スキルを使用すると、この効果は消失します。",
+				"concise": "スペル： 「イモレート」を装備するレベル 14...20 のルビー ジンを召喚します (40...60 秒) 。他のアスラ召喚スキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "루비 지니 소환",
+				"description": "마법. 40...60초 동안 제물 마법을 사용하는 14...20레벨 루비 지니를 소환합니다. 동시에 둘 이상 소환될 수 없습니다.",
+				"concise": "마법. 제물 마법을 사용하는 14...20레벨 루비 지니를 소환합니다.(수명: 40...60초) 동시에 둘 이상 소환할 수 없습니다."
+			},
+			"pl": {
+				"name": "Przywołanie Rubinowego Dżinna",
+				"description": "Czar. Przywołujesz rubinowego dżinna na poziomie 14...20, który żyje przez 40...60 sek. i posiada Samospalenie. W danym momencie aktywne może być tylko 1 asuriańskie przywołanie.",
+				"concise": "Czar. Przywołuje rubinowego dżinna na poziomie 14...20 (czas życia 40...60 sek.), który posiada Samospalenie. W danym momencie aktywne może być tylko 1 asuriańskie przywołanie."
+			},
+			"ru": {
+				"name": "Summon Ruby Djinn",
+				"description": "Заклинание. Призывает Ruby Djinn 14...20 уровня, который живет 40...60 сек и обладает заклинанием Immolate. Одновременно может быть активно только одно призванное создание Asura.",
+				"concise": "Заклинание. (40...60 сек) Призывает Ruby Djinn 14...20 уровня, который обладает заклинанием Immolate."
+			},
+			"bork": {
+				"name": "Soommun Rooby Djeenn",
+				"description": "Spell. Soommun a lefel 14...20 Rooby Djeenn thaet leefes fur 40...60 secunds und haes Immulaete-a. Oonly 1 Aesoora Soommun cun be-a aecteefe-a aet a teeme-a.",
+				"concise": "Spell. Soommuns a lefel 14...20 Rooby Djeenn (40...60 secund leeffespun) thaet haes Immulaete-a. Oonly 1 Aesoora Soommun cun be-a aecteefe-a aet a teeme-a."
 			}
 		}
 	}

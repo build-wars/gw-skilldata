@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Well of Ruin",
+				"description": "法池。 消耗一具最近的尸体或牺牲66%生命值，在其位置创造一个废墟之井，持续5...30秒。井中的敌军收到物理伤害时，获得持续5...20秒的破甲。",
+				"concise": "法池。 （5...30秒）在泉中受到物理伤害的敌军获得5...20秒破甲。需利用新鲜的尸体或牺牲66%生命值。"
+			},
+			"cht": {
+				"name": "崩潰之泉",
+				"description": "湧泉魔法： Exploit nearest corpse or sacrifice 66% health to create a Well of Ruin at its location. For 5...30 seconds, whenever a foe in the well takes physical damage, that foe has Cracked Armor for 5...20 seconds.",
+				"concise": "湧泉魔法： (5...30 seconds.) Inflicts Cracked Armor condition (5...20 seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen des Ruins",
+				"description": "Brunnenzauber. Verwertet die nächstgelegene Leiche oder opfert 66 % Lebenspunkte, um an ihrem Standort einen Brunnen des Verderbens zu erschaffen. Für 5...30 Sekunden hat jeder Gegner im Brunnen, der physischen Schaden erleidet, 5...20 Sekunden lang Zerborstene Rüstung.",
+				"concise": "Brunnenzauber. (5...30 Sekunden). Fügt jedem Gegner im Brunnen, der physischen Schaden erleidet, den Zustand Zerborstene Rüstung zu (5...20 Sekunden). Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen des Ruins",
 				"description": "Der nächste Kadaver wird an seiner Position in einen Brunnen des Ruins verwandelt. 5...30 Sekunden lang leidet jeder Feind im Brunnen, der physischen Schaden erleidet, 5...20 Sekunden lang an Beschädigter Rüstung.",
 				"concise": "(5...30 Sekunden.) Verursacht bei jedem Feind im Brunnen, der physischen Schaden erleidet, den Zustand Beschädigte Rüstung (5...20 Sekunden). <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Ruin",
+				"description": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Ruin at its location. For 5...30 seconds, whenever a foe in the well takes physical damage, that foe has Cracked Armor for 5...20 seconds.",
+				"concise": "Well Spell. (5...30 seconds.) Inflicts Cracked Armor condition (5...20 seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Ruin",
 				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Ruin at its location. For 5...30 seconds, whenever a foe in the well takes physical damage, that foe has Cracked Armor for 5...20 seconds.",
 				"concise": "(5...30 seconds.) Inflicts Cracked Armor condition (5...20 seconds) to any foe in the well that takes physical damage. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 			},
+			"es": {
+				"name": "Pozo de ruina",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de ruina en esa ubicación. Durante 5...30 segundos, cada vez que un enemigo en este pozo reciba daño físico, tendrá la armadura rota durante 5...20 segundos.",
+				"concise": "Conjuro de pozo. (5...30 segundos). Rompes la armadura (durante 5...20 segundos) de los enemigos dentro del pozo que reciban daño físico. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits de ruine",
+				"description": "Sort de puits. Exploitez le cadavre le plus proche ou sacrifiez 66% de santé pour créer à cet endroit un Puits de désolation. Pendant 5...30 secondes, chaque fois qu'un ennemi pris dans la zone d'effet subit des dégâts physiques, il souffre d'Armure fissurée pendant 5...20 secondes.",
+				"concise": "Sort de puits. (5...30 secondes.) Inflige l'altération Armure fissurée (5...20 secondes) à tout ennemi pris dans la zone d'effet qui subit des dégâts physiques. Exploite un cadavre frais ou sacrifie 66% de santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits de ruine",
 				"description": "Vous utilisez le cadavre le plus proche pour créer un Puits de ruine sur sa position. Pendant 5...30 secondes, à chaque fois qu'un ennemi dans le puits subit des dégâts physiques, il a une Armure brisée pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo della Rovina",
+				"description": "Pozzo. Sfrutta il cadavere più vicino o sacrifica il 66% della tua salute per creare lì un Pozzo delle Rovine. Per 5...30 secondo/i, ogni volta che un nemico nel Pozzo riceve danni fisici, viene colpito da armatura spaccata per 5...20 secondo/i.",
+				"concise": "Pozzo. (5...30 secondo/i.) Infligge la condizione armatura spaccata (5...20 secondo/i) a tutti i nemici nel Pozzo che subiscono danni fisici. Utilizza un cadavere fresco o sacrifica il 66% della Salute."
+			},
+			"jp": {
+				"name": "ルイン ウェル",
+				"description": "ウェル スペル： 最寄りの死体を利用するか、体力の66%を犠牲にして、その場所に破滅の泉を生み出します。5...30秒間、泉の中の敵は物理ダメージを受けるたびに、その敵は5...20秒間、ひび割れた鎧を与えられます。",
+				"concise": "ウェル スペル： （5...30秒）泉の中にいる敵が物理ダメージを受けると、その敵にひび割れた鎧状態にします（5...20秒）。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "폐허의 늪",
+				"description": "늪. 시체를 이용하거나 체력을 66% 소모해 그 자리에 폐허의 늪을 만듭니다. 5...30초 동안 폐허의 늪 효과 범위 내에서 물리 대미지를 입는 적은 5...20초간 방어 손상을 입습니다.",
+				"concise": "늪. (5...30초) 폐허의 늪 효과 범위 내에서 물리 대미지를 받는 적은 방어 손상을 입습니다(5...20초). 신선한 시체를 이용하거나 체력의 66% 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Zniszczenia",
+				"description": "Czar studni. Wykorzystujesz najbliższe zwłoki lub poświęcasz 66% zdrowia, by utworzyć we wskazanym miejscu Studnię Zniszczenia. Przez 5...30 sek., gdy wybrany przeciwnik otrzyma obrażenia, będąc w studni, na 5...20 sek. ma pękniętą zbroję.",
+				"concise": "Czar studni. (5...30 sek.). U przeciwników będących w studni, którzy otrzymają obrażenia fizyczne, wywołuje przypadłość pękniętej zbroi (5...20 sek.). Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Ruin",
+				"description": "Заклинание-источник. Использует ближайший труп или жертвует 66% здоровья, чтобы создать Well of Ruin в указанной точке. В течение 5...30 сек., если противник в области получает физический урон, на него накладывается эффект Cracked Armor на 5...20 сек.",
+				"concise": "Заклинание-источник. (5...30 сек.) Накладывает состояние Cracked Armor (5...20 сек.) на любого врага в области, получившего физический урон. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Rooeen",
+				"description": "Vell Spell. Ixplueet neaerest curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Rooeen aet its lucaeshun. Fur 5...30 secunds, vhenefer a fue-a in zee vell taekes physeecael daemaege-a, thaet fue-a haes Craecked Aermur fur 5...20 secunds.",
+				"concise": "Vell Spell. (5...30 secunds.) Inffleects Craecked Aermur cundeeshun (5...20 secunds) tu uny fue-a in zee vell thaet taekes physeecael daemaege-a. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

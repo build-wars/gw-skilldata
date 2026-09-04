@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "净化魔咒",
+				"description": "精英咒文。 移除目标盟友及邻近盟友所有魔咒。每以这种方式移除一道魔咒，法术充能额外延长2秒。（神恩等级小于等于4时有50%的失败率。）",
+				"concise": "精英咒文。 清除所有的魔咒，该效果也影响临近的友军。移除代价：每道魔咒+2秒充能时间。神恩等级小于5时有50%的失败率。"
+			},
+			"cht": {
+				"name": "降咒退散",
+				"description": "精英咒文魔法： Remove all hexes from target ally and all adjacent allies. This spell takes an additional 2 seconds to recharge for each hex removed in this way. (50% failure chance with Divine Favor 4 or less.)",
+				"concise": "精英咒文魔法： Removes all hexes. Also affects adjacent allies. Removal cost: +2 seconds recharge for each hex removed. 50% failure chance unless Divine Favor 5 or more."
+			},
 			"de": {
+				"name": "Verhexungen zurücknehmen",
+				"description": "Elite-Zauber. Entfernt alle Verhexungen vom Zielverbündeten und allen benachbarten Verbündeten. Dieser Zauber braucht 2 Sekunden länger, um aufzuladen, für jede Verhexung, die so entfernt wurde. (50 % Chance auf Fehlschlag, wenn Gunst der Götter 4 oder weniger.)",
+				"concise": "Elite-Zauber. Entfernt alle Verhexungen. Betrifft auch benachbarte Verbündete Entfernungskosten: +2 Sekunden pro entfernte Verhexung. 50 % Chance auf Fehlschlag, wenn Gunst der Götter nicht mindestens 5 beträgt."
+			},
+			"de-guildwiki": {
 				"name": "Verhexungen zurücknehmen",
 				"description": "Entfernt alle Verhexungen vom Verbündeten (bzw. Euch selbst) und allen umstehenden Verbündeten. Dieser Zauber braucht 2 Sekunden länger, um aufzuladen, für jede Verhexung, die so entfernt wurde. (50% Chance auf Fehlschlag, wenn Gunst der Götter 4 oder weniger).",
 				"concise": "Entfernt alle Verhexungen. Betrifft auch umstehende Verbündete. <gray>Entfernungskosten: Pro entfernter Verhexung +2 Sekunden zur Aufladezeit (maximal 655 Sekunden). (50% Chance auf Fehlschlag, wenn Gunst der Götter 4 oder weniger).</gray>"
 			},
 			"en": {
 				"name": "Withdraw Hexes",
+				"description": "Elite Spell. Remove all hexes from target ally and all adjacent allies. This spell takes an additional 2 seconds to recharge for each hex removed in this way. (50% failure chance with Divine Favor 4 or less.)",
+				"concise": "Elite Spell. Removes all hexes. Also affects adjacent allies. Removal cost: +2 seconds recharge for each hex removed. 50% failure chance unless Divine Favor 5 or more."
+			},
+			"en-gww": {
+				"name": "Withdraw Hexes",
 				"description": "Remove all hexes from target ally and all adjacent allies. This spell takes an additional 2 seconds to recharge for each hex removed in this way. (50% failure chance with Divine Favor 4 or less.)",
 				"concise": "Removes all hexes. Also affects adjacent allies. <gray>Removal cost: +2 seconds recharge for each hex removed. 50% failure chance unless Divine Favor 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Sacamaleficios",
+				"description": "Conjuro de élite. Quitas todos los maleficios del objetivo (un aliado o tú mismo) y de los adyacentes. Por cada uno que quites, este conjuro tardará 2 segundos más en recargarse. (50 % de probabilidad de fallo con un nivel de favor divino de 4 o menos.)",
+				"concise": "Conjuro de élite. Elimina todos los maleficios. También afecta a los aliados adyacentes. Coste de la eliminación: +2 segundos de recarga por cada maleficio eliminado. 50 % de probabilidades de fallar con favor divino inferior a 5."
+			},
 			"fr": {
+				"name": "Retrait de maléfices",
+				"description": "Sort d'élite. Ôte tous les maléfices de la cible alliée et de tous les alliés adjacents. Ce sort met 2 secondes supplémentaires à se recharger pour chaque maléfice supprimé de cette manière. (50% de risques d'échec avec Faveur divine inférieure à 5.)",
+				"concise": "Sort d'élite. Dissipe tous les maléfices. Affecte également les alliés adjacents. Coût de la suppression : +2 secondes de recharge pour chaque maléfice dissipé. 50% de risques d'échec à moins d'avoir au moins 5 points en Faveur divine."
+			},
+			"fr-gwiki": {
 				"name": "Retrait de maléfices",
 				"description": "Ote tous les maléfices de la cible alliée et de tous les alliés adjacents. Ce sort met 2 secondes supplémentaires à se recharger pour chaque maléfice supprimé de cette manière. (50% de risques d'échec avec Faveur divine inférieure à 5.)",
 				"concise": "Supprime tous les maléfices. Affecte également les alliés adjacents. <gray>Coût de la suppression : +2 secondes de temps de recharge par maléfice supprimé. (50% d'échec avec Faveur divine de 4 ou moins.) </gray>"
+			},
+			"it": {
+				"name": "Spezzafatture",
+				"description": "Magia d'Élite. Rimuove tutte le fatture dal bersaglio alleato e dagli alleati adiacenti. Questa magia impiega 2 secondo/i in più per ricaricarsi per ogni fattura rimossa in questo modo (probabilità di fallimento del 50% con Favore divino pari o inferiore a 4).",
+				"concise": "Magia d'Élite. Rimuove tutte le fatture. Coinvolge anche gli alleati adiacenti. Costo di rimozione: +2 secondo/i di ricarica per ogni fattura rimossa. Probabilità di fallimento del 50% se non si possiede almeno 5 in Favore divino)."
+			},
+			"jp": {
+				"name": "回収のヘックス",
+				"description": "エリート スペル： 標的の味方と隣接するすべての味方からすべての弱体化スペルを解除します。このスペルは、この方法で解除したい弱体化スペル1個につき、リチャージ時間が2秒延長されます。（神の恩寵が4以下の場合、失敗率は50%です。）",
+				"concise": "エリート スペル： すべての弱体化スペルを解除します。隣接する味方にも影響を及ぼします。解除コスト：解除した弱体化スペル1個につき、リチャージが2秒延長されます。 神の恩寵が5以上でなければ、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "약화 소멸",
+				"description": "엘리트 마법. 대상과 그에 인접한 모든 아군의 약화 마법을 모두 무효화시킵니다. 이렇게 무효화시킨 약화 마법 하나당 2초씩 이 마법의 재활성화 시간이 늘어납니다. 신의 은총 특성 레벨이 4 이하이면 50% 확률로 실패합니다.",
+				"concise": "엘리트 마법. 모든 약화 마법을 무효화합니다. 인접한 아군에게도 영향을 줍니다. 무효화 비용: 무효화된 약화 마법 하나당 재활성 시간이 2초 증가합니다. 신의 은총 특성 레벨이 4 이하이면 50%의 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Wycofanie Klątw",
+				"description": "Elitarny czar. Usuwa wszystkie klątwy z wybranego sojusznika i wszystkich sojuszników bezpośrednio przy nim. Za każdą usuniętą w ten sposób klątwę, czar będzie się odnawiał o 2 sek. dłużej. (50% szans na niepowodzenie, chyba że wartość Łaski Bogów wynosi 4 lub mniej).",
+				"concise": "Elitarny czar. Usuwa wszystkie klątwy. Działa także na sąsiadujących sojuszników. Koszt usunięcia: +2 sek. do czasu odnawiania za każda usuniętą klątwę. 50% szans na niepowodzenie, chyba że wartość Łaski Bogów wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Withdraw Hexes",
+				"description": "Элитное заклинание. Снимает все проклятия с выбранного союзника и союзников рядом с ним. За каждое снятое проклятие перезарядка увеличивается на 2 сек. (50% шанс провала, если Divine Favor равняется 4 или меньше.)",
+				"concise": "Элитное заклинание. Снимает все проклятья. Также затрагивает ближайших союзников. Стоимость снятия: +2 сек. восстановления за каждое снятое проклятье. Шанс провала — 50%, если Divine Favor ниже 5."
+			},
+			"bork": {
+				"name": "Veethdraev Hexes",
+				"description": "Ileete-a Spell. Remufe-a aell hexes frum taerget aelly und aell aedjaecent aelleees. Thees spell taekes un aeddeeshunael 2 secunds tu rechaerge-a fur iaech hex remufed in thees vaey. (50% faeeeloore-a chunce-a veet Deefeene-a Faefur 4 oor less.)",
+				"concise": "Ileete-a Spell. Remufes aell hexes. Aelsu aeffffects aedjaecent aelleees. Remufael cust: +2 secunds rechaerge-a fur iaech hex remufed. 50% faeeeloore-a chunce-a unless Deefeene-a Faefur 5 oor mure-a."
 			}
 		}
 	}

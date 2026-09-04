@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰之长矛",
+				"description": "增益魔法。 射出一支冰之长矛，命中目标敌人后，对其造成10...60点冰冻伤害。但是冰之长矛的射程是一般法术的一半。",
+				"concise": "增益魔法。 射出一支冰之长矛，命中目标敌人后，对其造成10...60点冰冻伤害。但是冰之长矛的射程是一般法术的一半。"
+			},
+			"cht": {
+				"name": "冰之矛",
+				"description": "加持魔法： 射出冰之矛，命中目標敵人時對其造成 10...60 冰凍傷害。但是冰之矛的施法距離是一般「魔法」的 1/2 。",
+				"concise": "加持魔法： 射出冰之矛，命中目標敵人時對其造成 10...60 冰凍傷害。但是冰之矛的施法距離是一般「魔法」的 1/2 。"
+			},
 			"de": {
+				"name": "Eisspeer",
+				"description": "Verzauberung. Sendet einen Eisspeer aus, der dem Gegner 10...60 Punkte Kälteschaden zufügt, wenn er trifft. Wenn Ihr Überzaubert seid, habt Ihr 5 Sekunden lang +1...4 Lebenspunktregeneration.",
+				"concise": "Verzauberung. Geschoss: Richtet 10...60 Punkte Kälteschaden an. Wenn Ihr Überzaubert seid, erhaltet Ihr für 5 Sekunden +1...4 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Eisspeer",
 				"description": "Sendet einen Eisspeer aus, der dem Gegner 10...60 Punkte Kälteschaden zufügt, wenn er trifft. Wenn Ihr Überzaubert seid, habt Ihr 5 Sekunden lang +1...4 Lebenspunktregeneration.",
 				"concise": "Geschoss: Richtet 10...60 Punkte Kälteschaden an. Wenn Ihr Überzaubert seid, erhaltet Ihr für 5 Sekunden +1...4 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Ice Spear",
+				"description": "Enchantment Spell. Send out an Ice Spear, striking target foe for 10...60 cold damage if it hits. If you are Overcast, you gain +1...4 Health regeneration for 5 seconds.",
+				"concise": "Enchantment Spell. Projectile: deals 10...60 cold damage. Gain +1...4 Health regeneration for 5 seconds if Overcast."
+			},
+			"en-gww": {
+				"name": "Ice Spear",
 				"description": "Send out an Ice Spear, striking target foe for 10...60 cold damage if it hits. If you are Overcast, you gain +1...4 Health regeneration for 5 seconds.",
 				"concise": "Projectile: deals 10...60 cold damage. Gain +1...4 Health regeneration for 5 seconds if Overcast."
 			},
+			"es": {
+				"name": "Lanza de hielo",
+				"description": "Conjuro con encantamiento. Tiras una lanza de hielo, que hace 10...60 de daño frío al enemigo objetivo si acierta. Si estás sobrelanzando, obtienes +1...4 de regeneración de salud durante 5 segundos.",
+				"concise": "Conjuro con encantamiento. Proyectil: hace 10...60 de daño frío. Obtienes +1...4 de regeneración de salud durante 5 segundos si estás sobrelanzando."
+			},
 			"fr": {
+				"name": "Lance de glace",
+				"description": "Enchantement. Vous envoyez une Lance de glace qui inflige 10...60 points de dégâts du froid si elle touche sa cible. Si vous êtes en état d'Afflux, vous bénéficiez d'une régénération de santé de +1...4 pendant 5 secondes.",
+				"concise": "Enchantement. Projectile : inflige 10...60 points de dégâts du froid. Vous bénéficiez d'une régénération de santé de +1...4 pendant 5 secondes si vous êtes en état d'Afflux."
+			},
+			"fr-gwiki": {
 				"name": "Lance de glace",
 				"description": "Vous envoyez une Lance de glace qui inflige 10...70 points de dégâts du froid si elle touche sa cible. Sa portée est la moitié de celle d'un sort normal.",
 				"concise": "Projectile : inflige 10...70 points de dégâts du froid."
+			},
+			"it": {
+				"name": "Lancia di Ghiaccio",
+				"description": "Incantesimo. Scagli una Lancia di Ghiaccio che infligge all'obiettivo nemico 10...60 danni da freddo se va a segno. Se sei sotto Sforzo, ottieni una Rigenerazione della Salute di +1...4 per 5 secondi.",
+				"concise": "Incantesimo. Proiettile: danni da freddo inferti: 10...60. Rigenerazione della Salute ottenuta se sotto Sforzo: +1...4 (Secondi: 5)."
+			},
+			"jp": {
+				"name": "アイス スピア",
+				"description": "強化スペル： ターゲットした敵に、命中すると 10...60 のコールド ダメージを与える氷の槍を投げつけます。プレイヤーが「疲労」状態の場合、5 秒間、体力の自然回復力が 1...4 増加します。",
+				"concise": "強化スペル： 遠投攻撃： 10...60 のコールド ダメージを与えます。「疲労」状態の場合、5 秒間、体力の自然回復力が 1...4 増加します。"
+			},
+			"kr": {
+				"name": "얼음 투창",
+				"description": "강화 마법. 대상 지정: 적. 대상에게 얼음 창을 날립니다. 명중하면 대상은 10...60의 냉기 대미지를 받습니다. 자신이 탈진 상태면 5초 동안 체력 재생이 1...4만큼 증가합니다.",
+				"concise": "강화 마법. 발사체: 10...60의 냉기 대미지를 줍니다. 자신이 피로 상태면 체력 재생이 1...4만큼 증가합니다.(5초)"
+			},
+			"pl": {
+				"name": "Lodowa Włócznia",
+				"description": "Zaklęcie (czar). Wystrzeliwujesz Lodową Włócznię, która, jeżeli trafi, zadaje wybranemu przeciwnikowi 10...60 pkt. obrażeń od zimna. Będąc pod wpływem Przemagicznienia, otrzymujesz premię +1...4 do regeneracji żywotności przez 5 sek.",
+				"concise": "Zaklęcie (czar). Pocisk: zadaje 10...60 pkt. obrażeń od zimna. Bonus +1...4 do regeneracji żywotności przez 5 sek. podczas Przemagicznienia."
+			},
+			"ru": {
+				"name": "Ice Spear",
+				"description": "Заклинание-чары. Вы бросаете ледяное копье, которое наносит выбранному противнику в случае попадания 10...60 ед. урона силой холода. Если вы утомлены, ваша скорость восстановления здоровья увеличивается на 1...4 ед. на 5 сек.",
+				"concise": "Заклинание-чары. Метательный снаряд: наносит 10...60 ед. урона силой холода. Дает +1...4 ед. к скорости восстановления здоровья на 5 сек, если вы утомлены."
+			},
+			"bork": {
+				"name": "Ice-a Speaer",
+				"description": "Inchuntment Spell. Send oooot un Ice-a Speaer, streekeeng taerget fue-a fur 10...60 culd daemaege-a iff it heets. Iff yuoo aere-a Oofercaest, yuoo gaeeen +1...4 Heaelt regeneraeshun fur 5 secunds.",
+				"concise": "Inchuntment Spell. Prujecteele-a: deaels 10...60 culd daemaege-a. Gaeeen +1...4 Heaelt regeneraeshun fur 5 secunds iff Oofercaest."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "梅兰朵之箭",
+				"description": "精英预备技。 持续 18秒，每当弓箭命中目标时，使其遭受「流血」症状 3...25秒，若你所命中的目标带有「增益魔法」，则对其造成 8...28点 额外伤害。",
+				"concise": "精英预备技。 持续 18秒，每当弓箭命中目标时，使其遭受「流血」症状 3...25秒，若你所命中的目标带有「增益魔法」，则对其造成 8...28点 额外伤害。"
+			},
+			"cht": {
+				"name": "梅蘭朵之箭",
+				"description": "精英準備技能： 持續 18 秒，每當弓箭命中目標時，使其遭受「流血」病症 3...25 秒，若你所命中的目標受到「加持」，則對其造成 8...28 額外傷害。",
+				"concise": "精英準備技能： 持續 18 秒，每當弓箭命中目標時，使其遭受「流血」病症 3...25 秒，若你所命中的目標受到「加持」，則對其造成 8...28 額外傷害。"
+			},
 			"de": {
+				"name": "Melandrus Pfeile",
+				"description": "Elite-Vorbereitung. 18 Sekunden lang verursachen Eure Pfeiltreffer eine Blutung, die 3...25 Sekunde[n] lang anhält und 8...28 Punkt[e] zusätzlichen Schaden anrichtet, sofern das Ziel einer Verzauberung unterliegt.",
+				"concise": "Elite-Vorbereitung. 18 Sekunden: Eure Pfeile verursachen den Zustand Blutung (3...25 Sekunde[n]) und richten bei verzauberten Feinden +8...28 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Melandrus Pfeile",
 				"description": "Für die nächsten 18 Sekunden verursachen Eure Pfeiltreffer eine Blutung, die 3...25 Sekunden lang anhält, und fügen, sofern sie einen Feind treffen, der einer Verzauberung unterliegt, 8...28 Punkte zusätzlichen Schaden zu.",
 				"concise": "18 Sekunden: Eure Pfeile verursachen den Zustand Blutung (3...25 Sekunden) und richten bei verzauberten Feinden +8...28 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Melandru's Arrows",
+				"description": "Elite Preparation. For 18 seconds, whenever your arrows hit, they cause Bleeding for 3...25 seconds, and if they hit a target who is under an enchantment, they do +8...28 damage.",
+				"concise": "Elite Preparation. (18 seconds.) Your arrows inflict Bleeding condition (3...25 seconds) and deal +8...28 damage to enchanted foes."
+			},
+			"en-gww": {
+				"name": "Melandru's Arrows",
 				"description": "For 18 seconds, whenever your arrows hit, they cause Bleeding for 3...25 seconds, and if they hit a target who is under an enchantment, they do +8...28 damage.",
 				"concise": "(18 seconds.) Your arrows inflict Bleeding condition (3...25 seconds) and deal +8...28 damage to enchanted foes."
 			},
+			"es": {
+				"name": "Flechas de Melandru",
+				"description": "Preparación[\"Preparaciones\"] de élite. Durante 18 segundos, tus flechas causan una hemorragia durante 3...25 segundos y hacen +8...28 de daño si impactan en un objetivo que esté bajo un encantamiento.",
+				"concise": "Preparación[\"Preparaciones\"] de élite. (18 segundos). Tus flechas causan hemorragia (3...25 segundos) y hacen +8...28 de daño a enemigos encantados."
+			},
 			"fr": {
+				"name": "Flèches de Melandru",
+				"description": "Préparation d'élite. Pendant 18 secondes, vos flèches provoquent un Saignement de 3...25 secondes et infligent +8...28 points de dégâts si elles touchent une cible se trouvant sous un enchantement.",
+				"concise": "Préparation d'élite. (18 secondes.) Vos flèches infligent le Saignement (3...25 secondes) et +8...28 points de dégâts aux ennemis enchantés."
+			},
+			"fr-gwiki": {
 				"name": "Flèches de Melandru",
 				"description": "Pendant 18 secondes, vos flèches provoquent un Saignement de 3...25 secondes et infligent +8...28 points de dégâts si elles touchent une cible se trouvant sous un enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Frecce di Melandru",
+				"description": "Preparazione d'Élite. Per 18 secondi, se le tue frecce vanno a segno provocano Emorragia per 3...25 secondo[i] e, se colpiscono un obiettivo già sotto incantesimo, infliggono +8...28 danno[i].",
+				"concise": "Preparazione d'Élite. (Secondi: 18) Condizione inflitta dalle tue frecce: Emorragia (3...25 secondo[i]). Danno ai nemici sotto incantesimo: +8...28."
+			},
+			"jp": {
+				"name": "メランドル アロー",
+				"description": "エリート プレパレーション： 18秒間、弓攻撃が命中すると、ターゲットは 3...25 秒間「出血」状態になります。ターゲットに強化スペルがかけられている場合、8...28 の追加ダメージを与えます。",
+				"concise": "エリート プレパレーション： (18秒) 弓攻撃により「出血」状態にし (3...25 秒)、強化スペルがかけられている敵に 8...28 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "멜란드루의 화살",
+				"description": "엘리트 준비. 대상 지정: 없음. 18초 동안 적이 화살을 맞으면 3...25초간 출혈 상태가 되고, 강화 마법에 걸려 있던 적은 8...28의 대미지를 추가로 입습니다.",
+				"concise": "엘리트 준비. (18초) 화살 공격이 적에게 출혈을 일으킵니다.(3...25초) 강화 마법에 걸린 적에게 8...28의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Strzały Melandru",
+				"description": "Elitarne przygotowanie. Przez 18 sek., kiedy tylko twoje strzały trafią, wywołują krwawienie na 3...25 sek. i dodatkowo, jeśli trafią w cel, który jest pod działaniem zaklęcia, zadają +8...28 pkt. obrażeń.",
+				"concise": "Elitarne przygotowanie. (18 sek.) Twoje strzały wywołują przypadłość krwawienie (3...25 sek.) i zadają +8...28 pkt. obrażeń przeciwnikom pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Melandru's Arrows",
+				"description": "Элитная подготовка. В течение 18 сек каждый раз, когда ваши стрелы попадают в цель, они вызывают кровотечение на 3...25 сек, а если они попадают в цель, на которую наложены какие-либо чары, они наносят дополнительно 8...28 ед. урона.",
+				"concise": "Элитная подготовка. (18 сек) Ваши стрелы вызывают кровотечение (3...25 сек) и наносят дополнительно 8...28 ед. урона противникам, на которых наложены чары."
+			},
+			"bork": {
+				"name": "Melundroo's Aerroos",
+				"description": "Ileete-a Prepaeraeshun. Fur 18 secunds, vhenefer yuoor aerroos heet, zeey coose-a Bleedeeng fur 3...25 secunds, und iff zeey heet a taerget vhu is under un inchuntment, zeey du +8...28 daemaege-a.",
+				"concise": "Ileete-a Prepaeraeshun. (18 secunds.) Yuoor aerroos inffleect Bleedeeng cundeeshun (3...25 secunds) und deael +8...28 daemaege-a tu inchunted fues."
 			}
 		}
 	}

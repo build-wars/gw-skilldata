@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 8,
 		"adrenaline_precise": 8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "破腹",
+				"description": "精英斧术。 命中时，对目标造成10...45点额外伤害，并使其遭受「重伤」症状，降低敌人的最大生命值的20%，持续5...20秒。",
+				"concise": "精英斧术。 对目标造成 10...45点 额外伤害，并使其遭受「重伤」症状，降低敌人的最大生命值的 20%，持续 5...20秒。"
+			},
+			"cht": {
+				"name": "剖臟",
+				"description": "精英斧術攻擊技能： 命中時對目標造成 10...45 額外傷害並使其遭受「重傷」病症，降低敵人的最大體力 20% 持續 5...20 秒。",
+				"concise": "精英斧術攻擊技能： 命中時對目標造成 10...45 額外傷害並使其遭受「重傷」病症，降低敵人的最大體力 20% 持續 5...20 秒。"
+			},
 			"de": {
+				"name": "Ausweiden",
+				"description": "Elite-Axtangriff. Wenn Ausweiden trifft, fügt Ihr 10...45 Punkt[e] zusätzlichen Schaden und eine Tiefe Wunde zu. Dadurch werden die maximalen Lebenspunkte Eures Ziels 5...20 Sekunde[n] lang um 20% verringert.",
+				"concise": "Elite-Axtangriff. Richtet +10...45 Punkt[e] Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Ausweiden",
 				"description": "Wenn Ausweiden trifft, fügt Ihr 10...45 Punkte zusätzlichen Schaden und eine Tiefe Wunde zu. Dadurch werden die maximalen Lebenspunkte Eures Ziels 5...20 Sekunden lang um 20% verringert.",
 				"concise": "Richtet +10...45 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Eviscerate",
+				"description": "Elite Axe Attack. If Eviscerate hits, you strike for +10...45 damage and inflict a Deep Wound, lowering your target's maximum Health by 20% for 5...20 seconds.",
+				"concise": "Elite Axe Attack. Deals +10...45 damage. Inflicts Deep Wound condition (5...20 seconds)."
+			},
+			"en-gww": {
+				"name": "Eviscerate",
 				"description": "If Eviscerate hits, you strike for +10...45 damage and inflict a Deep Wound, lowering your target's maximum Health by 20% for 5...20 seconds.",
 				"concise": "Deals +10...45 damage. Inflicts Deep Wound condition (5...20 seconds)."
 			},
+			"es": {
+				"name": "Eviscerar",
+				"description": "Ataque con hacha de élite. Si impacta, haces +10...45 de daño y causarás una herida grave, lo que reducirá el máximo de salud de tu objetivo en 20% durante 5...20 segundos.",
+				"concise": "Ataque con hacha de élite. Hace +10...45 de daño. Causa herida grave (5...20 segundos)."
+			},
 			"fr": {
+				"name": "Eviscération",
+				"description": "Attaque à la hache d'élite. Si l'Eviscération réussit, vous infligez +10...45 points de dégâts et une Blessure profonde qui réduit la santé maximum de la cible de 20% pendant 5...20 secondes.",
+				"concise": "Attaque à la hache d'élite. Inflige +10...45 points de dégâts. Provoque la Blessure profonde (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Eviscération",
 				"description": "Si l'Eviscération réussit, vous infligez +1...31 points de dégât(s) et une Blessure profonde qui réduit la santé maximum de la cible de 20% pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Squartamento",
+				"description": "Attacco d'Élite con Ascia. Se va a segno, infliggi +10...45 danno[i] e una Ferita Profonda; la sua Salute massima diminuisce del 20% per 5...20 secondo[i].",
+				"concise": "Attacco d'Élite con Ascia. Danni inferti: +10...45. Condizione inflitta: Ferita Profonda (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "イヴィソレイト",
+				"description": "エリート アックス アタック： 攻撃が成功すると、ターゲットに 10...45 の追加ダメージを与えて「重傷」状態にし、5...20 秒間、体力の上限を20%減少させます。",
+				"concise": "エリート アックス アタック： 10...45 の追加ダメージを与えて「重傷」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "복부 강타",
+				"description": "엘리트 도끼 공격. 대상 지정: 적. 대상은 10...45의 대미지를 추가로 입고, 중상의 상태가 되어 5...20초 동안 최대 체력이 20% 감소합니다.",
+				"concise": "엘리트 도끼 공격. 10...45의 대미지를 추가로 주고, 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Patroszenie",
+				"description": "Elitarny atak toporem. Jeśli Patroszenie trafi, zadajesz +10...45 pkt. obrażeń i głęboką ranę, obniżając na 5...20 sek. maksymalną żywotność celu o 20%.",
+				"concise": "Elitarny atak toporem. Zadaje +10...45 pkt. obrażeń. Wywołuje przypadłość głęboka rana (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Eviscerate",
+				"description": "Элитная атака топором. Если Eviscerate попадает в цель, вы наносите дополнительно 10...45 ед. урона, а выбранный противник получит глубокую рану, которая уменьшит его максимальный уровень здоровья на 20% в течение 5...20 сек.",
+				"concise": "Элитная атака топором. Наносит дополнительно 10...45 ед. урона. Вызывает глубокую рану (5...20 сек)."
+			},
+			"bork": {
+				"name": "Ifeesceraete-a",
+				"description": "Ileete-a Aexe-a Aettaeck. Iff Ifeesceraete-a heets, yuoo streeke-a fur +10...45 daemaege-a und inffleect a Deep Vuoond, looereeng yuoor taerget's maexeemoom Heaelt by 20% fur 5...20 secunds.",
+				"concise": "Ileete-a Aexe-a Aettaeck. Deaels +10...45 daemaege-a. Inffleects Deep Vuoond cundeeshun (5...20 secunds)."
 			}
 		}
 	}

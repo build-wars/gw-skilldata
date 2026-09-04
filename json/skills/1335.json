@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "瓦斯垂的死亡",
+				"description": "负面魔法。 对目标敌人造成1...10点伤害。如果攻击时对方并没有施法，则根据其携带的「法术」技能数量，每一个对其造成1...3点的额外伤害。",
+				"concise": "负面魔法。 对目标敌人造成1...10点伤害。如果攻击时对方并没有施法，则根据其携带的「法术」技能数量，每一个对其造成1...3点的额外伤害。"
+			},
+			"cht": {
+				"name": "瓦斯崔之死",
+				"description": "降咒魔法： 持續 5 秒，目標及其鄰近敵人每秒受到 1...10 傷害，期間每一秒再加上 1...10 傷害，若目標使用技能則此降咒提早終止。",
+				"concise": "降咒魔法： 持續 5 秒，目標及其鄰近敵人每秒受到 1...10 傷害，期間每一秒再加上 1...10 傷害，若目標使用技能則此降咒提早終止。"
+			},
 			"de": {
+				"name": "Ableben des Verschwenders",
+				"description": "Verhexung. 5 Sekunde[n] lang wird der Gegner mit Ableben des Verschwenders verhext. Jede Sekunde unter der Verhexung erleidet der Gegner und alle umstehenden Gegner 1...10 Punkte Schaden und zusätzlich für jede Sekunde der aktiven Zeit des Spruchs 1...10 Punkte Schaden. Diese Verhexung endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.",
+				"concise": "Verhexung. (5 Sekunde[n].) Jede Sekunde unter dieser Verhexung erleiden der Gegner und alle umstehende Feinde 1...10 Punkt[e] Schaden. Für jede Sekunde der Wirkungszeit dieser Verhexung nehmen Gegner weitere 1...10 Punkte Schaden. Endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt."
+			},
+			"de-guildwiki": {
 				"name": "Ableben des Verschwenders",
 				"description": "5 Sekunden lang wird der Gegner mit Ableben des Verschwenders verhext. Jede Sekunde fügt die Verhexung für jede Sekunde, die sie aktiv ist, dem Gegner und allen umstehenden Feinden 1...10 Punkte Schaden zu. Diese Verhexung endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.",
 				"concise": "(5 Sekunden.) Fügt jede Sekunde für jede Sekunde der Wirkungszeit dieser Verhexung dem Gegner und umstehenden Feinden 1...10 Punkte Schaden zu. <gray>Endet vorzeitig, wenn der Gegner eine Fertigkeit einsetzt.</gray>"
 			},
 			"en": {
 				"name": "Wastrel's Demise",
+				"description": "Hex Spell. For 5 seconds, target foe is hexed with Wastrel's Demise. Each second while hexed, target foe and all foes adjacent to that foe take 1...10 damage and an additional 1...10 damage for each second this spell is in effect. This hex ends prematurely if target foe uses a skill.",
+				"concise": "Hex Spell. (5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take 1...10 damage. Foes take +1...10 damage each second this hex is in effect. Ends early if target foe uses a skill."
+			},
+			"en-gww": {
+				"name": "Wastrel's Demise",
 				"description": "For 5 seconds, target foe is hexed with Wastrel's Demise. Each second while hexed, target foe and all foes adjacent to that foe take 1...10 damage and an additional 1...10 damage for each second this spell is in effect. This hex ends prematurely if target foe uses a skill.",
 				"concise": "(5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take 1...10 damage. Foes take +1...10 damage each second this hex is in effect. <gray>Ends early if target foe uses a skill.</gray>"
 			},
+			"es": {
+				"name": "Muerte del derrochador",
+				"description": "Conjuro con maleficio. Durante 5 segundos, el enemigo objetivo se ve afectado por el maleficio Muerte del derrochador. Por cada segundo que dura el maleficio, el enemigo objetivo y todos los enemigos adyacentes a él reciben 1...10 de daño y 1...10 de daño adicional por cada segundo que el conjuro esté activo. El maleficio termina de forma prematura si el enemigo objetivo usa una habilidad.",
+				"concise": "Conjuro con maleficio. (5 segundos). Por cada segundo que dura el maleficio, el enemigo objetivo y todos los enemigos adyacentes a él reciben 1...10 de daño. Los enemigos reciben un daño de +1...10 por cada segundo que el maleficio esté activo. Termina de forma prematura si el enemigo objetivo usa una habilidad."
+			},
 			"fr": {
+				"name": "Fin du gaspilleur",
+				"description": "Maléfice. Pendant 5 secondes, la cible ennemie est sous l'emprise de Fin du gaspilleur. Chaque seconde sous l'emprise du sort, la cible ennemie et tous les ennemis adjacents subissent 1...10 points de dégâts et 1...10 points de dégâts supplémentaires pour chaque seconde d'activation de ce sort. Ce sort cesse prématurément si la cible ennemie utilise une compétence.",
+				"concise": "Maléfice. (5 secondes.) Chaque seconde sous l'emprise du sort, la cible ennemie et tous les ennemis adjacents subissent 1...10 points de dégâts. Les ennemis subissent +1...10 points de dégâts pour chaque seconde d'activation du sort. Se termine prématurément si la cible ennemie utilise une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Fin du gaspilleur",
 				"description": "Pendant 5 secondes, la cible ennemie est sous l'emprise de la Fin du gaspilleur. Chaque seconde sous l'emprise du sort, la cible ennemie et tous les ennemis adjacents subissent 1...10 point(s) de dégâts 1...10 point(s) de dégâts supplémentaires pour chaque seconde d'activation de ce sort. Ce sort cesse prématurément si la cible ennemie utilise une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dipartita del Fannullone",
+				"description": "Fattura. Per 5 secondi l'obiettivo nemico è sotto gli effetti della fattura Dipartita del Fannullone. Per ogni secondo in cui l'obiettivo nemico è sotto gli effetti della fattura, lui e tutti i nemici adiacenti subiscono 1...10 danni e 1...10 danni in più per ogni secondo in cui è attiva la fattura. Se il nemico ha attivato un'abilità, la Fattura termina prematuramente.",
+				"concise": "Fattura. (Secondi: 5). Danni subiti dall'obiettivo nemico e da tutti i nemici adiacenti per ogni secondo in cui l'obiettivo è sotto gli effetti della fattura: 1...10. Danni subiti dai nemici per ogni secondo in cui è attiva la fattura: +1...10. Termina prematuramente se l'obiettivo nemico ha attivato un'abilità."
+			},
+			"jp": {
+				"name": "ウェイストレル ディマイズ",
+				"description": "弱体化スペル： 5 秒間、ターゲットした敵を弱体化します。その効果が持続している間、ターゲットした敵およびその敵に隣接するすべての敵に毎秒 1...10 のダメージを与え、さらに効果が持続している秒ごとに 1...10 の追加ダメージを与えます。その敵がスキルを使用すると、この効果は途中で消失します。",
+				"concise": "弱体化スペル： (5 秒) 効果の持続時間中、ターゲットした敵とその敵に隣接するすべての敵に毎秒 1...10 のダメージを与えます。さらに、敵に効果の持続秒数ごとに 1...10 の追加ダメージを与えます。ターゲットした敵がスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "부랑자의 소멸",
+				"description": "약화 마법. 대상 지정: 적. 5초 동안 대상과 그에 인접한 모든 적은 1...10의 대미지를 입고, 남은 지속 시간 동안 매초 1...10의 대미지를 추가로 입습니다. 대상이 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "약화 마법. (5초) 대상과 그에 인접한 모든 적이 약화에 걸려 1...10의 대미지를 입고, 남은 지속 시간 동안 매초 1...10의 대미지를 추가로 입습니다. 대상이 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Upadek Marnotrawcy",
+				"description": "Klątwa (czar). Przez 5 sek., wybrany wróg zostaje dotknięty klątwą Upadku Marnotrawcy. Kiedy pozostaje pod działaniem klątwy, zarówno on jak i wszyscy wrogowie w jego bezpośrednim sąsiedztwie, otrzymują co sekundę 1...10 pkt. obrażeń oraz dodatkowe 1...10 pkt. za każdą sekundę działania tego czaru. Klątwa dobiega końca wcześniej, jeśli wybrany wróg użyje jakiejś umiejętności.",
+				"concise": "Klątwa (czar). (5 sek.) Kiedy wybrany przeciwnik pozostaje pod działaniem klątwy, zarówno on jak i wszyscy wrogowie w jego bezpośrednim sąsiedztwie otrzymują co sekundę 1...10 pkt. obrażeń. Wrogowie otrzymują +1...10 pkt. obrażeń za każdą sekundę działania tej klątwy. Kończy się wcześniej, jeśli wybrany wróg użyje jakiejś umiejętności."
+			},
+			"ru": {
+				"name": "Wastrel's Demise",
+				"description": "Заклинание-проклятье. В течение 5 сек выбранный противник находится под действием Wastrel's Demise. Каждую секунду, пока на него наложено это проклятье, выбранный противник и все окружающие его противники получают 1...10 ед. урона и дополнительно 1...10 ед. урона за каждую секунду действия этого заклинания. Действие этого проклятья заканчивается досрочно, если выбранный противник использует какое-либо умение.",
+				"concise": "Заклинание-проклятье. (5 сек) Каждую секунду, пока на него наложено это проклятье, выбранный противник и все окружающие его противники получают 1...10 ед. урона. Противники получают дополнительно 1...10 ед. урона за каждую секунду действия этого проклятья. Заканчивается досрочно, если выбранный противник использует умение."
+			},
+			"bork": {
+				"name": "Vaestrel's Demeese-a",
+				"description": "Hex Spell. Fur 5 secunds, taerget fue-a is hexed veet Vaestrel's Demeese-a. Iaech secund vheele-a hexed, taerget fue-a und aell fues aedjaecent tu thaet fue-a taeke-a 1...10 daemaege-a und un aeddeeshunael 1...10 daemaege-a fur iaech secund thees spell is in iffffect. Thees hex inds premaetoorely iff taerget fue-a uses a skeell.",
+				"concise": "Hex Spell. (5 secunds.) Iaech secund vheele-a hexed, taerget fue-a und aell fues aedjaecent tu thaet fue-a taeke-a 1...10 daemaege-a. Fues taeke-a +1...10 daemaege-a iaech secund thees hex is in iffffect. Inds iaerly iff taerget fue-a uses a skeell."
 			}
 		}
 	}

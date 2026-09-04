@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "射手纹章",
+				"description": "精英纹章。 持续 1...24 秒，使你 150 次的弓箭攻击技能不会消耗能量。但是你的所有非攻击技能在 0 秒内无法使用。",
+				"concise": "精英纹章。 持续 1...24 秒，使你 150 次的弓箭攻击技能不会消耗能量。但是你的所有非攻击技能在 0 秒内无法使用。"
+			},
+			"cht": {
+				"name": "射手紋章",
+				"description": "精英紋章： 持續1...24秒，裝備弓時，你造成的病症，持續時間增加100%。",
+				"concise": "精英紋章： 持續1...24秒，裝備弓時，你造成的病症，持續時間增加100%。"
+			},
 			"de": {
+				"name": "Siegel des Bogenschützen",
+				"description": "Elite-Siegel. 1...24 Sekunde[n] lang dauern alle von Euch zugefügten Zustände, während Ihr einen Bogen führt, um 150% länger an.",
+				"concise": "Elite-Siegel. 1...24 Sekunde[n]. Von Euch zugefügte Zustände, während Ihr einen Bogen führt, dauern um 150% länger an."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des Bogenschützen",
 				"description": "1...24 Sekunden lang dauern alle von Euch zugefügten Zustände, während Ihr einen Bogen führt, um 150% länger an.",
 				"concise": "1...24 Sekunden: Von Euch zugefügte Zustände, während Ihr einen Bogen führt, dauern um 150% länger an."
 			},
 			"en": {
 				"name": "Archer's Signet",
+				"description": "Elite Signet. For 1...24 seconds, conditions you apply while wielding a bow last 150% longer.",
+				"concise": "Elite Signet. (1...24 seconds.) Conditions you apply while wielding a bow last 150% longer."
+			},
+			"en-gww": {
+				"name": "Archer's Signet",
 				"description": "For 1...24 second[s], conditions you apply while wielding a bow last 150% longer.",
 				"concise": "(1...24 second[s].) Conditions you apply while wielding a bow last 150% longer."
 			},
+			"es": {
+				"name": "Sello del arquero",
+				"description": "Sello de élite. Durante 1...24 segundos, las condiciones que causes mientras lleves un arco duran un 150% más.",
+				"concise": "Sello de élite. (1...24 segundos). Las condiciones que causes mientras lleves un arco duran un 150% más."
+			},
 			"fr": {
+				"name": "Sceau de l'Archer",
+				"description": "Sceau d'élite. Pendant 1...24 secondes, les conditions que vous appliquez lorsque vous êtes équipé d'un arc durent 150% plus longtemps.",
+				"concise": "Sceau d'élite. (1...24 secondes.) Les conditions que vous appliquez lorsque vous êtes équipé d'un arc durent 150% plus longtemps."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de l'Archer",
 				"description": "Pendant 1...24 seconde(s), les conditions que vous appliquez lorsque vous êtes équipé d'un arc durent 150% plus longtemps.",
 				"concise": "(1...24 seconde(s).) Les conditions que vous appliquez lorsque vous êtes équipé d'un arc durent 150% plus longtemps."
+			},
+			"it": {
+				"name": "Sigillo dell'Arciere",
+				"description": "Sigillo d'Élite. Per 1...24 secondo[i] le condizioni da te applicate mentre impugni l'arco durano un 150% in più.",
+				"concise": "Sigillo d'Élite. (Secondi: 1...24) Incremento durata delle condizioni da te applicate mentre impugni l'arco: 150%."
+			},
+			"jp": {
+				"name": "アーチャー シグネット",
+				"description": "エリート シグネット： 1...24 秒間、ボウの装備中にかけた「状態異常」は、持続時間が 150% 増加します。",
+				"concise": "エリート シグネット： (1...24 秒) ボウの装備中に敵に「状態異常」をかけると、その持続時間が 150% 増加します。"
+			},
+			"kr": {
+				"name": "사격 인장",
+				"description": "엘리트 인장. 대상 지정: 없음. 1...24초 동안 활을 들고서 야기한 상태이상의 지속 시간이 150% 늘어납니다.",
+				"concise": "엘리트 인장. (1...24초) 활을 들고서 야기한 상태이상의 지속 시간이 150% 늘어납니다."
+			},
+			"pl": {
+				"name": "Sygnet Łucznika",
+				"description": "Sygnet elitarny. Przez 1...24 sek. wszystkie przypadłości, które nakładasz przy pomocy łuku trwają o 150% dłużej.",
+				"concise": "Sygnet elitarny. (1...24 sek.) Przypadłości, które nakładasz przy pomocy łuku trwają o 150% dłużej."
+			},
+			"ru": {
+				"name": "Archer's Signet",
+				"description": "Элитная печать. В течение 1...24 сек накладываемые вами состояния длятся на 150% дольше, если вы вооружены луком.",
+				"concise": "Элитная печать. (1...24 сек) Накладываемые вами состояния длятся на 150% дольше, если вы вооружены луком."
+			},
+			"bork": {
+				"name": "Aercher's Seegnet",
+				"description": "Ileete-a Seegnet. Fur 1...24 secunds, cundeeshuns yuoo aepply vheele-a veeeldeeng a boo laest 150% lunger.",
+				"concise": "Ileete-a Seegnet. (1...24 secunds.) Cundeeshuns yuoo aepply vheele-a veeeldeeng a boo laest 150% lunger."
 			}
 		}
 	}

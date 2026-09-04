@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疼痛堆积",
+				"description": "咒文。 对目标敌人造成10...35点伤害。如果该目标身上带有两种以上的「负面魔法」，则使其遭受「重伤」症状5...20秒。",
+				"concise": "咒文。 对目标敌人造成 10...35点 伤害。如果该目标身上带有超过两种以上的「负面魔法」，则使其遭受「重伤」症状 5...20秒。"
+			},
+			"cht": {
+				"name": "累積痛苦",
+				"description": "咒文魔法： 對目標敵人造成 10...35 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 5...20 秒。",
+				"concise": "咒文魔法： 對目標敵人造成 10...35 傷害。若該目標身上有 2 種以上的「降咒」，則使其遭受「重傷」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Angehäufter Schmerz (PvP)",
+				"description": "Zauber. Der Gegner erleidet 10...35 Punkt[e] Schaden. Wenn der Gegner unter 2 oder mehr Verhexungen leidet, erleidet er 5...20 Sekunde[n] lang eine Tiefe Wunde.",
+				"concise": "Zauber. Richtet 10...35 Punkt[e] Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]), falls der Gegner 2 oder mehr Verhexungen hat."
+			},
+			"de-guildwiki": {
 				"name": "Angehäufter Schmerz (PvP)",
 				"description": "Der Gegner erleidet 10...35 Punkte Schaden. Wenn der Gegner unter 2 oder mehr Verhexungen leidet, erleidet er 5...20 Sekunden lang eine Tiefe Wunde.",
 				"concise": "Richtet 10...35 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls der Gegner 2 oder mehr Verhexungen hat."
 			},
 			"en": {
 				"name": "Accumulated Pain (PvP)",
+				"description": "Spell. Target foe takes 10...35 damage. If target foe is suffering from 2 or more hexes, that foe suffers a Deep Wound for 5...20 seconds.",
+				"concise": "Spell. Deals 10...35 damage. Inflicts Deep Wound condition (5...20 seconds) if target foe has 2 or more hexes."
+			},
+			"en-gww": {
+				"name": "Accumulated Pain (PvP)",
 				"description": "Target foe takes 10...35 damage. If target foe is suffering from 2 or more hexes, that foe suffers a Deep Wound for 5...20 seconds.",
 				"concise": "Deals 10...35 damage. Inflicts Deep Wound condition (5...20 seconds) if target foe has 2 or more hexes."
 			},
+			"es": {
+				"name": "Dolor acumulado (PvP)",
+				"description": "Conjuro. El enemigo objetivo recibe 10...35 de daño. Si estaba padeciendo 2 o más maleficios, sufrirá una herida grave durante 5...20 segundos.",
+				"concise": "Conjuro. Hace 10...35 de daño. Causa una herida grave (5...20 segundos) si el enemigo objetivo tiene 2 o más maleficios."
+			},
 			"fr": {
+				"name": "Cumul de douleur (PvP)",
+				"description": "Sort. L'ennemi visé subit 10...35 points de dégâts. Si celui-ci est affecté par 2 maléfices ou plus, il souffre de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Sort. Inflige 10...35 points de dégâts. Provoque une Blessure profonde (5...20 secondes) si la cible ennemie est affectée par 2 maléfices ou plus."
+			},
+			"fr-gwiki": {
 				"name": "Cumul de douleur (PvP)",
 				"description": "L'ennemie visé subit 10...35 points de dégâts. Si celui-ci est affecté 2 maléfices ou plus, il souffre de Blessure profonde pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dolore Accumulato (PvP)",
+				"description": "Magia. L'obiettivo nemico subisce 10...35 danni. Se l'obiettivo nemico è sotto gli effetti di 2 o più fatture, soffre di Ferita Profonda per 5...20 secondi.",
+				"concise": "Magia. Danni inferti: 10...35. Condizione inflitta se l'obiettivo è sotto gli effetti di 2 o più fatture: Ferita Profonda (secondi: 5...20)."
+			},
+			"jp": {
+				"name": "アキュムレート ペイン (PvP)",
+				"description": "スペル： ターゲットした敵に 10...35 のダメージを与えます。ターゲットに複数の弱体化スペルがかけられている場合、その敵は 5...20 秒間「重傷」状態になります。",
+				"concise": "スペル： 10...35 のダメージを与えます。ターゲットした敵に複数の弱体化スペルがかけられている場合、「重傷」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "고통의 축적(대인전)",
+				"description": "마법. 대상 지정: 적. 대상은 10...35의 대미지를 입습니다. 대상에게 2개 이상의 약화 마법이 걸려 있다면 대상은 5...20초 동안 중상 상태가 됩니다.",
+				"concise": "마법. 10...35의 대미지를 줍니다. 대상에게 약화 마법이 2개 이상 걸려 있으면 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Nagromadzenie Bólu (PvP)",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 10...35 pkt. obrażeń. Jeżeli wybrany przeciwnik jest pod wpływem 2 lub więcej klątw, to otrzymuje głęboką ranę na 5...20 sek.",
+				"concise": "Czar. Zadaje 10...35 pkt. obrażeń. Wywołuje głęboką ranę (5...20 sek.), jeżeli wybrany przeciwnik jest pod działaniem 2 lub więcej klątw."
+			},
+			"ru": {
+				"name": "Accumulated Pain (PvP)",
+				"description": "Заклинание. Выбранный противник получает 10...35 ед. урона. Если на этого противника наложены 2 или больше проклятий, он получит глубокую рану на 5...20 сек.",
+				"concise": "Заклинание. Наносит 10...35 ед. урона. Вызывает глубокую рану (5...20 сек), если на выбранного противника наложено 2 или более проклятья."
+			},
+			"bork": {
+				"name": "Aeccoomoolaeted Paeeen (PfP)",
+				"description": "Spell. Taerget fue-a taekes 10...35 daemaege-a. Iff taerget fue-a is sooffffereeng frum 2 oor mure-a hexes, thaet fue-a sooffffers a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Spell. Deaels 10...35 daemaege-a. Inffleects Deep Vuoond cundeeshun (5...20 secunds) iff taerget fue-a haes 2 oor mure-a hexes. Bork! Bork! Bork!"
 			}
 		}
 	}

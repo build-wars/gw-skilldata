@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "虚弱电击",
+				"description": "咒文。 使目标敌人受到25...50点闪电伤害，并且遭受「虚弱」症状 5...20秒。此法术有 25% 的护甲穿透效果。",
+				"concise": "咒文。 使目标敌人受到25...50点闪电伤害，并且遭受「虚弱」症状 5...20秒。此法术有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "衰弱電擊",
+				"description": "咒文魔法： 使目標敵人受到 25...50 閃電傷害並且遭受「虛弱」病症 5...20 秒。此魔法有 25% 防禦穿透效果。",
+				"concise": "咒文魔法： 使目標敵人受到 25...50 閃電傷害並且遭受「虛弱」病症 5...20 秒。此魔法有 25% 防禦穿透效果。"
+			},
 			"de": {
+				"name": "Schwächende Aufladung",
+				"description": "Zauber. Der Gegner wird getroffen, erleidet 25...50 Punkt[e] Blitzschaden und leidet 5...20 Sekunde[n] lang an Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Richtet 25...50 Punkt[e] Blitzschaden an. Verursacht Zustand Schwäche (5...20 Sekunde[n]). 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Schwächende Aufladung",
 				"description": "Der Gegner wird getroffen, erleidet 25...50 Punkte Blitzschaden und leidet 5...20 Sekunden lang an Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 25...50 Punkte Blitzschaden an. Verursacht Zustand Schwäche (5...20 Sekunden). 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Enervating Charge",
+				"description": "Spell. Target foe is struck for 25...50 lightning damage and suffers from Weakness for 5...20 seconds. This spell has 25% armor penetration.",
+				"concise": "Spell. Deals 25...50 lightning damage. Inflicts Weakness condition (5...20 seconds). 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Enervating Charge",
 				"description": "Target foe is struck for 25...50 lightning damage and suffers from Weakness for 5...20 seconds. This spell has 25% armor penetration.",
 				"concise": "Deals 25...50 lightning damage. Inflicts Weakness condition (5...20 seconds). 25% armor penetration."
 			},
+			"es": {
+				"name": "Carga debilitante",
+				"description": "Conjuro. El enemigo objetivo recibe 25...50 de daño de relámpago y está debilitado durante 5...20 segundos. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Causa 25...50 de daño de relámpago. Causa debilitamiento (5...20 segundos). 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Décharge incapacitante",
+				"description": "Sort. L'ennemi ciblé subit 25...50 points de dégâts de la foudre et souffre de Faiblesse pendant 5...20 secondes. Ce sort offre 25% de pénétration d'armure.",
+				"concise": "Sort. Inflige 25...50 points de dégâts de la foudre. Inflige la Faiblesse (5...20 secondes). 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Décharge incapacitante",
 				"description": "L'ennemi subit 25...50 points de dégâts de la foudre et souffre de faiblesse pendant 5...20 secondes. Ce sort offre 25% de pénétration d'armure.",
 				"concise": "Inflige 25...50 points de dégâts de la foudre. Inflige la Faiblesse (5...20 secondes). Pénétration d'armure de 25%."
+			},
+			"it": {
+				"name": "Scarica Snervante",
+				"description": "Magia. L'obiettivo nemico subisce 25...50 danni da fulmine ed è colpito da Debolezza per 5...20 secondi. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia. Danni da fulmine inferti: 25...50. Condizione inflitta: Debolezza (5...20 secondi). Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "エネルベイト チャージ",
+				"description": "スペル： ターゲットした敵に 25...50 のライトニング ダメージを与え、5...20 秒間「衰弱」状態にします。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： 25...50 のライトニング ダメージを与えて「衰弱」状態にします (5...20 秒)。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "전기 충격",
+				"description": "마법. 대상 지정: 적. 대상에게 25...50의 번개 대미지를 주고, 5...20초 동안 약체 상태로 만듭니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 25...50의 번개 대미지를 주고 약체로 만듭니다.(5...20초) 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Osłabiający Ładunek",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 25...50 pkt. obrażeń od błyskawic oraz zostaje osłabiony na 5...20 sek. Ten czar posiada 25% przebicie pancerza.",
+				"concise": "Czar. Zadaje 25...50 pkt. obrażeń od błyskawic. Wywołuje przypadłość osłabienie (5...20 sek.). 25% przebicie pancerza."
+			},
+			"ru": {
+				"name": "Enervating Charge",
+				"description": "Заклинание. Выбранный противник получает 25...50 ед. урона силой молнии, и его поражает слабость на 5...20 сек. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Наносит 25...50 ед. урона силой молнии. Вызывает слабость (5...20 сек). Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Inerfaeteeng Chaerge-a",
+				"description": "Spell. Taerget fue-a is stroock fur 25...50 leeghtneeng daemaege-a und sooffffers frum Veaekness fur 5...20 secunds. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Spell. Deaels 25...50 leeghtneeng daemaege-a. Inffleects Veaekness cundeeshun (5...20 secunds). 25% aermur penetraeshun."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "驱逐斩",
+				"description": "近战技能。 命中时，对敌人造成0点额外伤害。如果命中「召唤类」生物，所有附近的敌人将受到10...60点神圣伤害。",
+				"concise": "近战技能。 命中时，对敌人造成0点额外伤害。如果命中「召唤类」生物，所有附近的敌人将受到10...60点神圣伤害。"
+			},
+			"cht": {
+				"name": "驅逐攻擊",
+				"description": "近身攻擊技能： 命中時造成 10...60 神聖傷害，對召喚生物造成兩倍傷害。",
+				"concise": "近身攻擊技能： 命中時造成 10...60 神聖傷害，對召喚生物造成兩倍傷害。"
+			},
 			"de": {
+				"name": "Bannstoß (PvP)",
+				"description": "Nahkampfangriff. Wenn der Angriff erfolgreich ist, fügt er 10...60 Punkt[e] heiligen Schaden zu. Fügt herbeigerufenen Kreaturen doppelten Schaden zu.",
+				"concise": "Nahkampfangriff. Richtet 10...60 Punkt[e] heiligen Schaden an. Fügt herbeigerufenen Kreaturen doppelten Schaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Bannstoß (PvP)",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt er 10...60 Punkte heiligen Schaden zu. Fügt herbeigerufenen Kreaturen doppelten Schaden zu.",
 				"concise": "Richtet 10...60 Punkte heiligen Schaden an. Fügt herbeigerufenen Kreaturen doppelten Schaden zu."
 			},
 			"en": {
 				"name": "Banishing Strike (PvP)",
+				"description": "Melee Attack. If it hits, this attack deals 10...60 holy damage. It deals double damage to summoned creatures.",
+				"concise": "Melee Attack. Deals 10...60 holy damage. Deals double damage to summoned creatures."
+			},
+			"en-gww": {
+				"name": "Banishing Strike (PvP)",
 				"description": "If it hits, this attack deals 10...60 holy damage. It deals double damage to summoned creatures.",
 				"concise": "Deals 10...60 holy damage. Deals double damage to summoned creatures."
 			},
+			"es": {
+				"name": "Golpe del destierro (PvP)",
+				"description": "Ataque cuerpo a cuerpo. Si impacta, este ataque hace 10...60 de daño sagrado. Causa el doble de daño a las criaturas invocadas.",
+				"concise": "Ataque cuerpo a cuerpo. Hace 10...60 de daño sagrado. Causa el doble de daño a las criaturas invocadas."
+			},
 			"fr": {
+				"name": "Frappe implacable (PvP)",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, elle inflige 10...60 points de dégâts sacrés. Elle inflige deux fois plus de dégâts aux créatures invoquées.",
+				"concise": "Attaque au corps à corps. Inflige 10...60 points de dégâts sacrés. Inflige deux fois plus de dégâts aux créatures invoquées."
+			},
+			"fr-gwiki": {
 				"name": "Frappe implacable (PvP)",
 				"description": "Si cette attaque réussit, elle inflige 10...60 points de dégâts sacrés. Elle inflige deux fois plus de dégâts aux créatures invoquées.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Esorcizzante (PvP)",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno, infligge 10...60 danni sacri. Infligge danno doppio alle creature evocate.",
+				"concise": "Attacco Ravvicinato. Danni sacri inferti: 10...60. Infligge danno doppio alle creature evocate."
+			},
+			"jp": {
+				"name": "バニッシュ ストライク (PvP)",
+				"description": "メーレー アタック： 攻撃が成功すると、10...60 の神聖ダメージを与えます。召喚生物には2倍のダメージを与えます。",
+				"concise": "メーレー アタック： 10...60 の神聖ダメージを与えます。召喚生物には2倍のダメージを与えます。"
+			},
+			"kr": {
+				"name": "추방의 일격(대인전)",
+				"description": "근접 물리 공격. 대상 지정: 적. 공격이 성공하면 10...60의 신성 대미지를 줍니다. 소환체에게는 2배의 대미지를 줍니다.",
+				"concise": "근접 물리 공격. 10...60의 신성 대미지를 줍니다. 소환체에게는 2배의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Wypędzające Uderzenie (PvP)",
+				"description": "Atak wręcz. Jeśli ten atak trafi, zadajesz +10...60 pkt. świętych obrażeń. Zadaje podwójne obrażenia przywołanym stworzeniom.",
+				"concise": "Atak wręcz. Zadaje 10...60 pkt. świętych obrażeń. Zadaje podwójne obrażenia przywołanym stworzeniom."
+			},
+			"ru": {
+				"name": "Banishing Strike (PvP)",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите 10...60 ед. урона святой силой. Призванные создания получают в два раза больше урона.",
+				"concise": "Рукопашная атака. Наносит 10...60 ед. урона святой силой. Наносит в два раза больше урона призванным созданиям."
+			},
+			"bork": {
+				"name": "Buneesheeng Streeke-a (PfP)",
+				"description": "Melee-a Aettaeck. Iff it heets, thees aettaeck deaels 10...60 huly daemaege-a. It deaels duooble-a daemaege-a tu soommuned creaetoores. Bork! Bork! Bork!",
+				"concise": "Melee-a Aettaeck. Deaels 10...60 huly daemaege-a. Deaels duooble-a daemaege-a tu soommuned creaetoores. Bork! Bork! Bork!"
 			}
 		}
 	}

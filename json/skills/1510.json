@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "沙砾",
+				"description": "Flash Enchantment Spell。 30秒内，接下来1...5次你使用镰刀命中时，对范围内所有其他敌军造成10...60点土系伤害。",
+				"concise": "Flash Enchantment Spell。 （30秒）使用镰刀命中时，对范围内所有其他敌军造成10...60点土系伤害。在1...5次命中后结束。"
+			},
+			"cht": {
+				"name": "沙塵裂片",
+				"description": "即刻加持魔法： For 30 seconds, the next 1...5 times you hit with a scythe, all other adjacent foes take 10...60 earth damage.",
+				"concise": "即刻加持魔法： (30 seconds.) Deals 10...60 earth damage to all other adjacent foes whenever you hit with your scythe. Ends after 1...5 hits."
+			},
 			"de": {
+				"name": "Sandscherben",
+				"description": "Blitzverzauberung. 30 Sekunden lang erleiden bei Euren nächsten 1...5 Treffern mit der Sense alle Gegner 10...60 Erdschaden.",
+				"concise": "Blitzverzauberung. (30 Sekunden.) Fügt allen anderen Gegnern in der Nähe 10...60 Erdschaden zu, wenn Ihr mit Eurer Sense trefft. Endet nach 1...5 Treffern."
+			},
+			"de-guildwiki": {
 				"name": "Sandscherben",
 				"description": "30 Sekunden lang fügen Eure nächsten 1...5 Treffer mit einer Sense allen umstehenden Feinden 10...60 Punkte Erdschaden zu.",
 				"concise": "(30 Sekunden.) Richtet jedes Mal, wenn Ihr mit einer Sense trefft, bei allen umstehenden Feinden 10...60 Punkte Erdschaden an. Endet nach 1...5 Treffern."
 			},
 			"en": {
 				"name": "Sand Shards",
+				"description": "Flash Enchantment Spell. For 30 seconds, the next 1...5 times you hit with a scythe, all other adjacent foes take 10...60 earth damage.",
+				"concise": "Flash Enchantment Spell. (30 seconds.) Deals 10...60 earth damage to all other adjacent foes whenever you hit with your scythe. Ends after 1...5 hits."
+			},
+			"en-gww": {
+				"name": "Sand Shards",
 				"description": "For 30 seconds, the next 1...5 time[s] you hit with a scythe, all other adjacent foes take 10...60 earth damage.",
 				"concise": "(30 seconds.) Deal 10...60 earth damage to all other adjacent foes whenever you hit with your scythe. <gray>Ends after 1...5 hit[s].</gray>"
 			},
+			"es": {
+				"name": "Cristales de arena",
+				"description": "Conjuro con encantamiento de destello. Durante 30 segundos, los próximos 1...5 ataques con guadaña hacen 10...60 de daño de tierra a todos los enemigos adyacentes al objetivo.",
+				"concise": "Conjuro con encantamiento de destello. (30 segundos). Los ataques con guadaña hacen 10...60 de daño de tierra a todos los enemigos adyacentes al objetivo. Termina después de 1...5 golpes."
+			},
 			"fr": {
+				"name": "Eclats de sable",
+				"description": "Enchantement instantané. Pendant 30 secondes, vos 1...5 prochaines attaques à la faux infligent 10...60 points de dégâts de la terre à tous les ennemis adjacents.",
+				"concise": "Enchantement instantané. (30 secondes.) Inflige 10...60 points de dégâts de la terre à tous les autres ennemis adjacents chaque fois que vous attaquez avec votre faux. Prend fin après 1...5 coups."
+			},
+			"fr-gwiki": {
 				"name": "Eclats de sable",
 				"description": "Enchantement instantané. (30 secondes.)Inflige 10...50 points de dégâts de la terre à tous les autres ennemis adjacents chaque fois que vous attaquez avec votre faux. Prend fin après 1...4 attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Granelli di Sabbia",
+				"description": "Incantesimo Lampo. Per 30 secondo/i la/e prossima/e 1...5 volta/e che colpisci con una falce, tutti i nemici adiacenti subiscono 10...60 danni di terra.",
+				"concise": "Incantesimo Lampo. (30 secondo/i) Infligge 10...60 danni di terra a tutti i nemici adiacenti ogni volta che li colpisci con la falce. Termina dopo 1...5 colpo/i."
+			},
+			"jp": {
+				"name": "サンド シャード",
+				"description": "フラッシュ強化スペル： 30秒間、次の1...5回、大鎌を命中させると、隣接するすべての敵は10...60のアースダメージを受けます。",
+				"concise": "フラッシュ強化スペル： （30秒）大鎌を命中させるたびに、隣接するすべての敵に10...60のアースダメージを与えます。1...5回命中すると終了します。"
+			},
+			"kr": {
+				"name": "모래 파편",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 30초 동안 다음 1...5번 사이드 공격 성공 시에 인접한 다른 모든 적에게 10...60의 대지 대미지를 줍니다.",
+				"concise": "순간 시전 강화 마법. (30초) 사이드 공격이 성공할 때마다 인접한 다른 모든 적에게 10...60의 대지 대미지를 줍니다. 1...5번 공격이 성공하면 종료됩니다."
+			},
+			"pl": {
+				"name": "Piaskowe Odłamki",
+				"description": "Zaklęcie błysku (czar). Przez 30 sek. twoje kolejne (1...5) trafienia kosą zadają 10...60 pkt. obrażeń od ziemi wszystkim wrogom w bezpośrednim sąsiedztwie.",
+				"concise": "Zaklęcie błysku (czar). (30 sek.) Zadaje 10...60 pkt. obrażeń od ziemi wszystkim sąsiadującym wrogom za każdym razem, gdy atakujesz kosą. Kończy się po określonej liczbie ataków (1...5)."
+			},
+			"ru": {
+				"name": "Sand Shards",
+				"description": "Мгновенное заклинание-чары. В течение 30 сек. при следующих 1...5 ударах косой все соседние враги получают 10...60 ед. урона землёй.",
+				"concise": "Мгновенное заклинание-чары. (30 сек.) Наносит 10...60 ед. урона землёй всем врагам вокруг каждый раз, когда вы атакуете косой. Заканчивается после 1...5 ударов."
+			},
+			"bork": {
+				"name": "Sund Shaerds",
+				"description": "Flaesh Inchuntment Spell. Fur 30 secunds, zee next 1...5 teeme-as yuoo heet veet a scyzee, aell oozeer aedjaecent fues taeke-a 10...60 iaert daemaege-a.",
+				"concise": "Flaesh Inchuntment Spell. (30 secunds.) Deaels 10...60 iaert daemaege-a tu aell oozeer aedjaecent fues vhenefer yuoo heet veet yuoor scyzee. Inds aeffter 1...5 heets."
 			}
 		}
 	}

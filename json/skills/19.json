@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "脆弱",
+				"description": "负面魔法。 在8...20秒之内，每当目标敌人遭受「症状」或是从新的「症状」中复原时，敌人将受到5...20点伤害。",
+				"concise": "负面魔法。 在8...20秒之内，每次目标敌人遭受「症状」或是从新的「症状」中复原时，他将受到5...20点伤害。"
+			},
+			"cht": {
+				"name": "脆弱",
+				"description": "降咒魔法： 持續8...20秒，每當目標及其鄰近敵人遭到新的病症或失去病症時，受到5...20傷害。",
+				"concise": "降咒魔法： 持續8...20秒，每當目標及其鄰近敵人遭到新的病症或失去病症時，受到5...20傷害。"
+			},
 			"de": {
+				"name": "Zerbrechlichkeit",
+				"description": "Verhexung. 8...20 Sekunde[n] lang erleiden Gegner und umstehende Feinde jedes Mal, wenn sie unter einem neuen Zustand leiden oder sich davon erholen, 5...20 Punkt[e] Schaden.",
+				"concise": "Verhexung. Verhext außerdem den Gegner und umstehende Feinde (8...20 Sekunde[n]). Diese Gegner erleiden jedes Mal, wenn sie unter einem neuen Zustand leiden oder sich davon erholen, 5...20 Punkt[e] Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Zerbrechlichkeit",
 				"description": "8...20 Sekunden lang erleiden der Gegner und umstehende Feinde jedes Mal, wenn er unter einem neuen Zustand leidet oder sich davon erholt, 5...20 Punkte Schaden.",
 				"concise": "Verhext außerdem den Gegner und umstehende Feinde (8...20 Sekunden). Diese Gegner erleiden jedes Mal, wenn sie unter einem neuen Zustand leiden oder sich davon erholen, 5...20 Punkte Schaden."
 			},
 			"en": {
 				"name": "Fragility",
+				"description": "Hex Spell. For 8...20 seconds, target and adjacent foes take 5...20 damage each time they suffer or recover from a new condition.",
+				"concise": "Hex Spell. Also hexes foes adjacent to target (8...20 seconds). These foes take 5...20 damage each time they gain or lose a condition."
+			},
+			"en-gww": {
+				"name": "Fragility",
 				"description": "For 8...20 seconds, target and adjacent foes take 5...20 damage each time they suffer or recover from a new condition.",
 				"concise": "Also hexes foes adjacent to target (8...20 seconds). These foes take 5...20 damage each time they gain or lose a condition."
 			},
+			"es": {
+				"name": "Fragilidad",
+				"description": "Conjuro con maleficio. Durante 8...20 segundos, el enemigo objetivo y los que le rodeen recibirán 5...20 de daño cada vez que sufran o se recuperen de una nueva condición.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (8...20 segundos). Estos enemigos reciben 5...20 de daño cada vez que ganen o pierdan una condición."
+			},
 			"fr": {
+				"name": "Fragilité",
+				"description": "Maléfice. Pendant 8...20 secondes, l'ennemi visé et les ennemis adjacents subissent 5...20 points de dégâts chaque fois qu'ils sont affectés ou libérés d'une nouvelle condition.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à la cible (8...20 secondes). Ces ennemis subissent 5...20 points de dégâts chaque fois qu'ils gagnent ou perdent une condition."
+			},
+			"fr-gwiki": {
 				"name": "Fragilité",
 				"description": "Pendant 8...20 secondes, l'ennemi visé et les ennemis adjacents subissent 5...20 points de dégâts chaque fois qu'ils sont affectés ou libérés d'une nouvelle condition.",
 				"concise": "Inflige également des maléfices aux ennemis adjacents à la cible (8...20 secondes). Ces ennemis subissent 5...20 points de dégâts chaque fois qu'ils gagnent ou perdent une condition."
+			},
+			"it": {
+				"name": "Fragilità",
+				"description": "Fattura. Per 8...20 secondi l'obiettivo nemico e i nemici adiacenti subiscono 5...20 danni ogni volta che viene loro inflitta una nuova condizione o se ne liberano.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici adiacenti all'obiettivo (8...20 secondi). Danni inferti ai nemici ogni volta che ogni volta che viene loro inflitta una nuova condizione o se ne liberano: 5...20."
+			},
+			"jp": {
+				"name": "フラジリティ",
+				"description": "弱体化スペル： 8...20 秒間、ターゲットした敵および隣接する敵に「状態異常」が追加、解除されるたびに 5...20 のダメージを与えます。",
+				"concise": "弱体化スペル： (8...20 秒) ターゲットした敵および隣接する敵に「状態異常」が追加または解除されるたびに、5...20 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "체질 약화",
+				"description": "약화 마법. 대상 지정: 적. 8...20초 동안 대상과 그에 인접한 적들은 상태이상에 걸리거나 상태이상에서 회복할 때마다 5...20 대미지를 입습니다.",
+				"concise": "약화 마법. (8...20초) 대상은 상태이상에 걸리거나 상태이상에서 회복할 때마다 5...20의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Kruchość",
+				"description": "Klątwa (czar). Przez 8...20 sek., wybrany cel i sąsiadujący przeciwnicy otrzymują 5...20 pkt. obrażeń za każdym razem, kiedy zaczynają cierpieć lub zdrowieć z przypadłości.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (8...20 sek.). Przeciwnicy ci otrzymują 5...20 obrażeń za każdym razem gdy tracą lub otrzymują jakąś przypadłość."
+			},
+			"ru": {
+				"name": "Fragility",
+				"description": "Заклинание-проклятье. В течение 8...20 сек выбранный и окружающие противники получают 5...20 ед. урона каждый раз, когда они получают или теряют новое состояние.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников, окружающих цель (8...20 сек). Эти противники получают 5...20 ед. урона каждый раз, когда они получают или теряют состояние."
+			},
+			"bork": {
+				"name": "Fraegeeleety",
+				"description": "Hex Spell. Fur 8...20 secunds, taerget und aedjaecent fues taeke-a 5...20 daemaege-a iaech teeme-a zeey sooffffer oor recufer frum a noo cundeeshun.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu taerget (8...20 secunds). Zeese-a fues taeke-a 5...20 daemaege-a iaech teeme-a zeey gaeeen oor luse-a a cundeeshun."
 			}
 		}
 	}

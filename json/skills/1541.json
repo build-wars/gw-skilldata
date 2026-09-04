@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神幻之速",
+				"description": "Flash Enchantment Spell。 在7秒之内，如果你带有「增益魔法」效果，你的移动速度提升25%。",
+				"concise": "Flash Enchantment Spell。 在7秒之内，如果你带有「增益魔法」效果，你的移动速度提升25%。"
+			},
+			"cht": {
+				"name": "加持急速",
+				"description": "即刻加持魔法： 持續 7 秒，你的移動速度增加 25% ，若此加持提早結束，你失去 1 項目病症。",
+				"concise": "即刻加持魔法： 持續 7 秒，你的移動速度增加 25% ，若此加持提早結束，你失去 1 項目病症。"
+			},
 			"de": {
+				"name": "Verzauberte Eile",
+				"description": "Blitzverzauberung. 7 Sekunde[n] lang bewegt Ihr Euch um 25% schneller. Wenn diese Verzauberung vorzeitig endet, verliert Ihr 1 Zustände.",
+				"concise": "Blitzverzauberung. (7 Sekunde[n].) Ihr bewegt Euch um 25% schneller. Wenn diese Verzauberung vorzeitig endet, verliert Ihr 1 Zustände."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberte Eile",
 				"description": "7 Sekunden lang bewegt Ihr Euch um 25% schneller. Wenn diese Verzauberung vorzeitig endet, verliert Ihr 1 Zustand.",
 				"concise": "(7 Sekunden.) Ihr bewegt Euch um 25% schneller. Wenn dieser Verzauberung vorzeitig endet, verliert Ihr 1 Zustand."
 			},
 			"en": {
 				"name": "Enchanted Haste",
+				"description": "Flash Enchantment Spell. For 7 seconds, you move 25% faster. If this enchantment ends prematurely, you lose 1 conditions.",
+				"concise": "Flash Enchantment Spell. (7 seconds.) You move 25% faster. Lose 1 conditions if this enchantment ends prematurely."
+			},
+			"en-gww": {
+				"name": "Enchanted Haste",
 				"description": "For 7 seconds, you move 25% faster. If this enchantment ends prematurely, you lose 1 condition.",
 				"concise": "(7 seconds). You move 25% faster. Lose 1 condition if this enchantment ends prematurely."
 			},
+			"es": {
+				"name": "Prisa encantada",
+				"description": "Conjuro con encantamiento de destello. Te mueves un 25% más rápido durante 7 segundos. Si este encantamiento termina antes de tiempo, pierdes 1 condiciones.",
+				"concise": "Conjuro con encantamiento de destello. (7 segundos). Te mueves un 25% más rápido. Pierdes 1 condiciones si el encantamiento termina antes de tiempo."
+			},
 			"fr": {
+				"name": "Hâte enchantée",
+				"description": "Enchantement instantané. Pendant 7 secondes, vous vous déplacez 25% plus vite. Si cet enchantement s'achève prématurément, vous perdez 1 conditions.",
+				"concise": "Enchantement instantané. (7 secondes.) Vous vous déplacez 25% plus vite. Perte de 1 conditions, si cet enchantement s'achève prématurément."
+			},
+			"fr-gwiki": {
 				"name": "Hâte enchantée",
 				"description": "Pendant 5...20 secondes, si vous êtes sous les effets d'un enchantement, vous vous déplacez 25% plus vite.",
 				"concise": "(5...20 secondes.) Vous vous déplacez 25% plus vite si vous êtes enchanté."
+			},
+			"it": {
+				"name": "Fretta Incantata",
+				"description": "Incantesimo Lampo. Per 7 secondi, la tua velocità di movimento aumenta di un 25%. Se questo incantesimo termina prematuramente, perdi 1 condizioni.",
+				"concise": "Incantesimo Lampo. (Secondi: 7). Aumento della tua velocità di movimento: 25%. Perdi 1 condizioni se questo incantesimo termina prematuramente."
+			},
+			"jp": {
+				"name": "エンチャント ヘイスト",
+				"description": "フラッシュ強化スペル： 7 秒間、移動速度が 25% 増加します。この効果が途中で解除されると、かけられている「状態異常」が 1 個解除されます。",
+				"concise": "フラッシュ強化スペル： (7 秒) 移動速度が 25% 増加します。この効果が途中で解除されると、かけられている「状態異常」が 1 個解除されます。"
+			},
+			"kr": {
+				"name": "강화된 민첩함",
+				"description": "순간 시전 강화 마법. 대상 지정: 없음. 7초 동안 이동 속도가 25% 빨라집니다. 강화 마법이 일찍 끝나면 자신에게 걸린 상태이상 1개가 무효화됩니다.",
+				"concise": "순간 시전 강화 마법. (7초) 이동 속도가 25% 빨라집니다. 강화 마법이 일찍 끝나면 자신에게 걸린 상태이상 1개가 무효화됩니다."
+			},
+			"pl": {
+				"name": "Zaklęty Pośpiech",
+				"description": "Zaklęcie błysku (czar). Przez 7 sek., poruszasz się o 25% szybciej. Jeśli zaklęcie to zakończy się przedwcześnie, tracisz przypadłości (1).",
+				"concise": "Zaklęcie błysku (czar). (7 sek.) Poruszasz się 25% szybciej. Tracisz przypadłości (1), jeśli to zaklęcie zakończy się przedwcześnie."
+			},
+			"ru": {
+				"name": "Enchanted Haste",
+				"description": "Мгновенное заклинание-чары. В течение 7 сек вы двигаетесь на 25% быстрее. Если действие этих чар заканчивается преждевременно, вы теряете состояния (1).",
+				"concise": "Мгновенное заклинание-чары. (7 сек) Вы двигаетесь на 25% быстрее. Вы теряете состояния (1), если действие этих чар заканчивается преждевременно."
+			},
+			"bork": {
+				"name": "Inchunted Haeste-a",
+				"description": "Flaesh Inchuntment Spell. Fur 7 secunds, yuoo mufe-a 25% faester. Iff thees inchuntment inds premaetoorely, yuoo luse-a 1 cundeeshuns. Bork! Bork! Bork!",
+				"concise": "Flaesh Inchuntment Spell. (7 secunds.) Yuoo mufe-a 25% faester. Luse-a 1 cundeeshuns iff thees inchuntment inds premaetoorely."
 			}
 		}
 	}

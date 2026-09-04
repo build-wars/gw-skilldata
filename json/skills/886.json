@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "宁静之息",
+				"description": "增益魔法。 在8...18秒之内，使友方目标获得10点「生命再生」。如果该目标使用技能或者攻击，此技能效果消失。",
+				"concise": "增益魔法。 在8...18秒之内，使友方目标获得10点「生命再生」。如果该目标使用技能或者攻击，此技能效果消失。"
+			},
+			"cht": {
+				"name": "平靜微風",
+				"description": "加持魔法： 持續 8...18 秒，使目標盟友體力再生增加 10。若該盟友進行攻擊或者使用技能，則此「加持」的效果終止。",
+				"concise": "加持魔法： 持續 8...18 秒，使目標盟友體力再生增加 10。若該盟友進行攻擊或者使用技能，則此「加持」的效果終止。"
+			},
 			"de": {
+				"name": "Beruhigender Hauch",
+				"description": "Verzauberung. 8...18 Sekunde[n] lang erfreut sich der Verbündete (bzw. Ihr selbst) einer Lebenspunktregeneration von +10. Diese Verzauberung endet, wenn der Verbündete angreift oder eine Fertigkeit benutzt.",
+				"concise": "Verzauberung. 8...18 Sekunde[n]: +10 Lebenspunktregeneration. Endet, wenn der Verbündete (bzw. Ihr selbst) angreift oder eine Fertigkeit benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Beruhigender Hauch",
 				"description": "8...18 Sekunden lang erfreut sich der Verbündete (bzw. Ihr selbst) einer Lebenspunktregeneration von +10. Diese Verzauberung endet, wenn der Verbündete angreift oder eine Fertigkeit benutzt.",
 				"concise": "8...18 Sekunden: +10 Lebenspunktregeneration. <gray>Endet, wenn der Verbündete (bzw. Ihr selbst) angreift oder eine Fertigkeit benutzt.</gray>"
 			},
 			"en": {
 				"name": "Restful Breeze",
+				"description": "Enchantment Spell. For 8...18 seconds, target ally has +10 Health regeneration. This enchantment ends if that ally attacks or uses a skill.",
+				"concise": "Enchantment Spell. (8...18 seconds.) +10 Health regeneration. Ends if target ally attacks or uses a skill."
+			},
+			"en-gww": {
+				"name": "Restful Breeze",
 				"description": "For 8...18 seconds, target ally has +10 Health regeneration. This enchantment ends if that ally attacks or uses a skill.",
 				"concise": "(8...18 seconds.) +10 Health regeneration. <gray>Ends if target ally attacks or uses a skill.</gray>"
 			},
+			"es": {
+				"name": "Brisa apacible",
+				"description": "Conjuro con encantamiento. Durante 8...18 segundos, el objetivo (un aliado o tú mismo) tiene +10 de regeneración de salud. Este encantamiento terminará si ataca o usa alguna habilidad.",
+				"concise": "Conjuro con encantamiento. (8...18 segundos). +10 de regeneración de salud. Acaba si el objetivo (un aliado o tú mismo) ataca o usa una habilidad."
+			},
 			"fr": {
+				"name": "Bise reposante",
+				"description": "Enchantement. Pendant 8...18 secondes, la ciblé visée (un allié ou vous-même) bénéficie d'une régénération de santé de +10. Cet enchantement prend fin si cette cible attaque ou utilise une compétence.",
+				"concise": "Enchantement. (8...18 secondes.) Confère une régénération de santé de +10. Prend fin si l'allié visé attaque ou utilise un compétence."
+			},
+			"fr-gwiki": {
 				"name": "Bise reposante",
 				"description": "Pendant 5...18 secondes, la ciblé visée (un allié ou vous-même) bénéficie d'une régénération de santé de +10. Cet enchantement prend fin si cette cible attaque ou utilise une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Brezza Riposante",
+				"description": "Incantesimo. Per 8...18 secondo[i], l'obiettivo (un alleato o te stesso) ha una Rigenerazione della Salute di +10; questo incantesimo termina se quell'alleato attacca o utilizza un'abilità.",
+				"concise": "Incantesimo. (Secondi: 8...18) Rigenerazione Salute: +10. Termina se l'obiettivo alleato attacca o usa un'abilità."
+			},
+			"jp": {
+				"name": "レストフル ブリーズ",
+				"description": "強化スペル： 8...18 秒間、ターゲットした味方は体力の自然回復力が 10 増加します。ただし、その味方が攻撃またはスキルを使用すると、この効果は消失します。",
+				"concise": "強化スペル： (8...18 秒) 体力の自然回復力が 10 増加します。ターゲットした味方が攻撃またはスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "휴식의 미풍",
+				"description": "강화 마법. 대상 지정: 아군. 8...18초 동안 대상의 체력 재생이 10 증가합니다. 대상이 공격하거나 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "강화 마법. (8...18초) 체력 재생을 10 증가시킵니다. 대상이 공격하거나 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Kojąca Bryza",
+				"description": "Zaklęcie (czar). Przez 8...18 sek. wybrany sojusznik posiada regenerację żywotności +10. To zaklęcie przestanie działać, kiedy sojusznik wykona atak lub użyje umiejętności.",
+				"concise": "Zaklęcie (czar). (8...18 sek.) Regeneracja żywotności +10. Przestanie działać, jeśli wybrany sojusznik zaatakuje lub użyje umiejętności."
+			},
+			"ru": {
+				"name": "Restful Breeze",
+				"description": "Заклинание-чары. В течение 8...18 сек скорость восстановления здоровья выбранного союзника увеличивается на 10 ед. Эти чары завершают свое действие, если этот союзник атакует или использует какое-либо умение.",
+				"concise": "Заклинание-чары. (8...18 сек) Дает +10 ед. к скорости восстановления здоровья. Заканчивается, если выбранный союзник атакует или использует умение."
+			},
+			"bork": {
+				"name": "Restffool Breeze-a",
+				"description": "Inchuntment Spell. Fur 8...18 secunds, taerget aelly haes +10 Heaelt regeneraeshun. Thees inchuntment inds iff thaet aelly aettaecks oor uses a skeell.",
+				"concise": "Inchuntment Spell. (8...18 secunds.) +10 Heaelt regeneraeshun. Inds iff taerget aelly aettaecks oor uses a skeell."
 			}
 		}
 	}

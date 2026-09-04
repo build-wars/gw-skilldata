@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "牛角冲击",
+				"description": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时对目标造成 1...11点 额外伤害。如果目标敌人邻近没有他的盟友，该目标将被击倒。",
+				"concise": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时对目标造成 1...11点 额外伤害。如果目标敌人邻近没有其队友，该目标将被击倒。"
+			},
+			"cht": {
+				"name": "牛角衝擊",
+				"description": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時對目標造成 1...11 額外傷害。若目標敵人沒有鄰近其隊友，該目標將被擊倒。",
+				"concise": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時對目標造成 1...11 額外傷害。若目標敵人沒有鄰近其隊友，該目標將被擊倒。"
+			},
 			"de": {
+				"name": "Hörner des Ochsen",
+				"description": "Doppelangriff. Muss einem Begleithandangriff folgen. Wenn Hörner des Ochsen erfolgreich ist, fügt dieser Angriff +1...11 Punkt[e] Schaden zu. Falls keine Verbündeten um den getroffenen Feind herumstehen, wird der Feind zu Boden geworfen.",
+				"concise": "Doppelangriff. Richtet +1...11 Punkt[e] Schaden an. Wirft zu Boden, falls kein Verbündeter des Gegners um ihn herumsteht. Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Hörner des Ochsen",
 				"description": "Muss einem Begleithandangriff folgen. Wenn Hörner des Ochsen erfolgreich ist, fügt dieser Angriff +1...11 Punkte Schaden zu. Falls keine Verbündeten um den getroffenen Feind herumstehen, wird der Feind zu Boden geworfen.",
 				"concise": "Richtet +1...11 Punkte Schaden an. wirft zu Boden, falls kein Verbündeter des Gegners um ihn herumsteht. <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Horns of the Ox",
+				"description": "Dual Attack. Must follow an off-hand attack. If it hits, Horns of the Ox strikes for +1...11 damage. If struck foe is not adjacent to any allies, that foe is knocked down.",
+				"concise": "Dual Attack. Deals +1...11 damage. Causes knock-down if target foe is not adjacent to any of its allies. Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Horns of the Ox",
 				"description": "Must follow an off-hand attack. If it hits, Horns of the Ox strikes for +1...11 damage. If struck foe is not adjacent to any allies, that foe is knocked down.",
 				"concise": "Deals +1...11 damage. Causes knock-down if the target foe is not adjacent to any of its allies. <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Cuernos del buey",
+				"description": "Ataque doble. Debe ir precedido de un \"ataque complementario\". Si impactan, los cuernos harán +1...11 de daño. Si el enemigo golpeado no tiene aliados adyacentes, será derribado.",
+				"concise": "Ataque doble. Hace +1...11 de daño. Causa derribo si el enemigo objetivo no tiene aliados adyacentes. Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Cornes du boeuf",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main gauche. Si l'attaque réussit, elle inflige +1...11 points de dégâts. Si l'ennemi touché n'est adjacent à aucun de ses alliés, il est assommé.",
+				"concise": "Attaque ambidextre. Inflige +1...11 points de dégâts. Assomme la cible ennemie si cette dernière n'est pas adjacente à l'un de ses alliés. Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Cornes du boeuf",
 				"description": "Doit succéder à une attaque main gauche. Si l'attaque réussit, elle inflige +1...11 points de dégâts. Si l'ennemi touché n'est adjacent à aucun de ses alliés, il est assommé.",
 				"concise": "Inflige +1...11 points de dégâts. Assomme la cible ennemie si cette dernière n'est pas adjacente à l'un de ses alliés. <gray>Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Corna del Bue",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma secondaria. Se va a segno infligge +1...11 danno[i]; se il nemico colpito non è adiacente ad alcun alleato, viene abbattuto.",
+				"concise": "Attacco Doppio[_]. Danni inferti: +1...11. Provoca abbattimento se l'obiettivo nemico non è adiacente ad un suo alleato. Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "オックス ホーン",
+				"description": "デュアル アタック： このスキルは、オフハンド アタックの次に使用します。攻撃が成功すると 1...11 の追加ダメージを与えます。攻撃を受けた敵が味方に隣接していない場合、その敵は転倒します。",
+				"concise": "デュアル アタック： 1...11 の追加ダメージを与えます。ターゲットした敵が敵同士で隣接していない場合、転倒させます。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "황소의 뿔",
+				"description": "쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 1...11의 대미지를 추가로 줍니다. 인접한 곳에 그 대상의 아군이 없으면 대상은 넘어집니다.",
+				"concise": "쌍수 공격. 1...11의 대미지를 추가로 줍니다. 대상에 인접한 적이 없으면 바닥에 넘어뜨립니다. 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Rogi Wołu",
+				"description": "Atak podwójny. Musi nastąpić po ataku drugą ręką. Jeśli atak trafi, Rogi Wołu zadają +1...11 pkt. obrażeń. Jeśli zaatakowany przeciwnik nie znajduje się bezpośrednio przy żadnym sojuszniku, zostaje powalony.",
+				"concise": "Atak podwójny. Zadaje +1...11 pkt. obrażeń. Powoduje powalenie, jeżeli wybrany przeciwnik nie jest bezpośrednio przy żadnym swoim sojuszniku. Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Horns of the Ox",
+				"description": "Двойная атака. Должен следовать за атакой второй рукой. Если удар попадает в цель, вы наносите противнику дополнительно 1...11 ед. урона. Если возле этого противника нет окружающих его союзников, то вы сбиваете его с ног.",
+				"concise": "Двойная атака. Наносит дополнительно 1...11 ед. урона. Сбивает с ног, если у выбранного противника нет окружающих союзников. Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Hurns ooff zee Oox",
+				"description": "Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, Hurns ooff zee Oox streekes fur +1...11 daemaege-a. Iff stroock fue-a is nut aedjaecent tu uny aelleees, thaet fue-a is knucked doon.",
+				"concise": "Dooael Aettaeck. Deaels +1...11 daemaege-a. Cooses knuck-doon iff taerget fue-a is nut aedjaecent tu uny ooff its aelleees. Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

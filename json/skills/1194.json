@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "猎杀链接",
+				"description": "战吼。 持续 5...20 秒，当你的宠物攻击命中目标时，你获得 1...31 生命。",
+				"concise": "战吼。 持续 5...20 秒，当你的宠物攻击命中目标时，你获得 1...31 生命。"
+			},
+			"cht": {
+				"name": "獵殺連結",
+				"description": "戰嚎： 持續5...20秒，寵物攻擊速度增加25%，每當寵物攻擊成功時你獲得1...31體力。",
+				"concise": "戰嚎： 持續5...20秒，寵物攻擊速度增加25%，每當寵物攻擊成功時你獲得1...31體力。"
+			},
 			"de": {
+				"name": "Raubtierverbindung",
+				"description": "Schrei. Während der nächsten 5...20 Sekunde[n] greift Euer Tiergefährte um 25% schneller an und Ihr werdet bei jedem erfolgreichen Angriff um 1...31 Punkt[e] geheilt.",
+				"concise": "Schrei. (5...20 Sekunde[n].) Euer Tiergefährte greift um 25% schneller an und Ihr erhaltet bei jedem erfolgreichen Angriff Eures Tiergefährten 1...31 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Raubtierverbindung",
 				"description": "Während der nächsten 5...20 Sekunden greift Euer Tiergefährte um 25% schneller an und Ihr werdet bei jedem erfolgreichen Angriff um 1...31 Punkte geheilt.",
 				"concise": "(5...20 Sekunden.) Euer Tiergefährte greift um 25% schneller an und Ihr erhaltet bei jedem erfolgreichen Angriff Eures Tiergefährten 1...31 Lebenspunkte."
 			},
 			"en": {
 				"name": "Predatory Bond",
+				"description": "Shout. For 5...20 seconds, your animal companion attacks 25% faster and heals you for 1...31 Health with each successful attack.",
+				"concise": "Shout. (5...20 seconds.) Your pet attacks 25% faster and you gain 1...31 Health whenever your pet makes a successful attack."
+			},
+			"en-gww": {
+				"name": "Predatory Bond",
 				"description": "For 5...20 seconds, your animal companion attacks 25% faster and heals you for 1...31 Health with each successful attack.",
 				"concise": "(5...20 seconds.) Your pet attacks 25% faster and you gain 1...31 Health whenever your pet makes a successful attack."
 			},
+			"es": {
+				"name": "Vínculo depredador",
+				"description": "Grito. Durante 5...20 segundos, tu mascota ataca un 25% más rápido y te hace recuperar 1...31 de salud con cada ataque realizado.",
+				"concise": "Grito. (5...20 segundos.) Tu mascota ataca un 25% más rápido y recuperas 1...31 de energía con cada ataque realizado."
+			},
 			"fr": {
+				"name": "Lien du prédateur",
+				"description": "Cri. Pendant 5...20 secondes, votre familier attaque 25% plus vite et vous soigne de 1...31 points de vie à chaque attaque réussie.",
+				"concise": "Cri. (5...20 secondes.) Votre familier attaque 25% plus vite et vous recevez 1...31 points de vie chaque fois qu'il réussit une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Lien du prédateur",
 				"description": "Pendant 5...20 secondes votre familier attaque 20% plus vite et vous soigne de 1...31 point(s) de vie à chaque attaque réussie.",
 				"concise": "(5...20 secondes.) Votre familier attaque 25% plus vite et vous recevez 1...31 point(s) de vie chaque fois qu'il réussit une attaque."
+			},
+			"it": {
+				"name": "Legame Predatore",
+				"description": "Urlo. Per 5...20 secondi gli attacchi della tua mascotte sono più veloci di un 25%. Gli attacchi messi a segno ti curano di 1...31 Punti Salute.",
+				"concise": "Urlo. (Secondi: 5...20). Aumento della velocità degli attacchi della tua mascotte: 25%. Punti Salute ottenuti ogni volta che la tua mascotte mette a segno un attacco: 1...31."
+			},
+			"jp": {
+				"name": "プレダトリー ボンド",
+				"description": "シャウト： 5...20 秒間、プレイヤーのペットは攻撃速度が25%増加し、攻撃が成功するたびにプレイヤーの体力が 1...31 回復します。",
+				"concise": "シャウト： (5...20 秒) プレイヤーのペットは攻撃速度が25%増加します。ペットの攻撃が成功するたびにプレイヤーの体力が 1...31 回復します。"
+			},
+			"kr": {
+				"name": "야수의 결속",
+				"description": "고함. 대상 지정: 없음. 5...20초 동안 펫의 공격 속도가 25% 빨라지고, 그 공격이 성공할 때마다 자신은 1...31의 체력을 회복합니다.",
+				"concise": "고함. (5...20초) 펫의 공격이 25% 빨라지고, 그 공격이 성공할 때마다 자신은 1...31의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Drapieżcza Więź",
+				"description": "Okrzyk. Przez 5...20 s ataki twojego zwierzęcego towarzysza są o 25% szybsze i dodają Ci 1...31 pkt. żywotnośći przy każdym udanym ataku.",
+				"concise": "Okrzyk. (5...20 s) Twój zwierzak atakuje 25% szybciej i zyskujesz 1...31 pkt. żywotności za każdym razem, gdy wykona on udany atak."
+			},
+			"ru": {
+				"name": "Predatory Bond",
+				"description": "Крик. В течение 5...20 сек сопровождающее вас животное атакует на 25% быстрее, а каждая его успешная атака исцеляет вас на 1...31 ед. здоровья.",
+				"concise": "Крик. (5...20 сек) Ваш питомец атакует на 25% быстрее, а вы получаете 1...31 ед. здоровья каждый раз, когда ваш питомец проводит успешную атаку."
+			},
+			"bork": {
+				"name": "Predaetury Bund",
+				"description": "Shuoot. Fur 5...20 secunds, yuoor uneemael cumpuneeun aettaecks 25% faester und heaels yuoo fur 1...31 Heaelt veet iaech sooccessffool aettaeck.",
+				"concise": "Shuoot. (5...20 secunds.) Yuoor pet aettaecks 25% faester und yuoo gaeeen 1...31 Heaelt vhenefer yuoor pet maekes a sooccessffool aettaeck."
 			}
 		}
 	}

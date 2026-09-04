@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂热誓言",
+				"description": "精英增益魔法。 在20秒之内，你遭受2点「能量衰减」，并使你在每次击中敌人的时候获得1...6点能量值。",
+				"concise": "精英增益魔法。 在20秒之内，你遭受2点「能量再生」，并使你在每次击中敌人的时候获得1...6点能量值。"
+			},
+			"cht": {
+				"name": "狂熱誓言",
+				"description": "精英加持魔法： 持續 20 秒，你遭受 2 能量衰減，但是每次擊中對手時，你獲得 1...6 能量。",
+				"concise": "精英加持魔法： 持續 20 秒，你遭受 2 能量衰減，但是每次擊中對手時，你獲得 1...6 能量。"
+			},
 			"de": {
+				"name": "Eifriges Gelübde",
+				"description": "Elite-Verzauberung. 20 Sekunde[n] lang beträgt Eure Energieregeneration -2 und Ihr bekommt jedes Mal, wenn einer Eurer Angriffe trifft, 1...6 Energiepunkt[e].",
+				"concise": "Elite-Verzauberung. 20 Sekunde[n]: Ihr erhaltet jedes Mal 1...6 Energiepunkt[e], wenn ein Angriff von Euch trifft. Ihr habt -2 Energieregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Eifriges Gelübde",
 				"description": "20 Sekunden lang beträgt Eure Energieregeneration -2 und Ihr bekommt jedes Mal, wenn einer Eurer Angriffe trifft, 1...6 Energiepunkte.",
 				"concise": "20 Sekunden: Ihr erhaltet jedes Mal 1...6 Energiepunkte, wenn ein Angriff von Euch trifft. <gray>Ihr habt -2 Energieregeneration.</gray>"
 			},
 			"en": {
 				"name": "Zealous Vow",
+				"description": "Elite Enchantment Spell. For 20 seconds, you have -2 Energy regeneration, and you gain 1...6 Energy every time you hit with an attack.",
+				"concise": "Elite Enchantment Spell. (20 seconds.) You gain 1...6 Energy each time you hit with an attack. You have -2 Energy regeneration."
+			},
+			"en-gww": {
+				"name": "Zealous Vow",
 				"description": "For 20 seconds, you have -2 Energy regeneration, and you gain 1...6 Energy every time you hit with an attack.",
 				"concise": "(20 seconds.) You gain 1...6 Energy each time you hit with an attack. <gray>You have -2 Energy regeneration.</gray>"
 			},
+			"es": {
+				"name": "Voto de celo",
+				"description": "Conjuro con encantamiento de élite. Durante 20 segundos, tienes una regeneración de energía de -2 y ganas 1...6 de energía cada vez que golpees con un ataque.",
+				"concise": "Conjuro con encantamiento de élite. (20 segundos). Ganas 1...6 de energía cada vez que ataques con éxito. Tienes -2 de regeneración de energía."
+			},
 			"fr": {
+				"name": "Voeu zélé",
+				"description": "Enchantement d'élite. Pendant 20 secondes, vous avez -2 de régénération d'énergie, et vous bénéficiez de 1...6 points d'énergie chaque fois que vous réussissez une attaque.",
+				"concise": "Enchantement d'élite. (20 secondes.) Vous gagnez 1...6 points d'énergie chaque fois que vous réussissez une attaque. Votre régénération d'énergie est réduite de -2."
+			},
+			"fr-gwiki": {
 				"name": "Voeu zélé",
 				"description": "Pendant 20 secondes, vous avez -2 de régénération d'énergie, et vous bénéficiez de 1...6 point(s) d'énergie chaque fois que vous réussissez une attaque.",
 				"concise": "(20 secondes.) Vous gagnez 1...6 point(s) d'énergie chaque fois que vous réussissez une attaque. <gray>Votre régénération d'énergie est réduite de -2.</gray>"
+			},
+			"it": {
+				"name": "Voto Zelante",
+				"description": "Incantesimo d'Élite. Per 20 secondo[i], hai una Rigenerazione dell'Energia di -2 e ottieni 1...6 Punto[i] Energia ogni volta che un tuo attacco va a segno.",
+				"concise": "Incantesimo d'Élite. (Secondi: 20) Energia conseguita ogni volta che un tuo attacco va a segno: 1...6. Rigenerazione Energia: -2."
+			},
+			"jp": {
+				"name": "ゼラス バウ",
+				"description": "エリート強化スペル： 20 秒間、エネルギーの自然回復力が 2 減少しますが、攻撃が成功するたびに 1...6 のエネルギーを獲得します。",
+				"concise": "エリート強化スペル： (20 秒) 攻撃が成功するたびに 1...6 のエネルギーを獲得します。エネルギーの自然回復力が 2 減少します。"
+			},
+			"kr": {
+				"name": "광적인 맹약",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 20초 동안 에너지 재생이 2만큼 감소하는 대신 공격이 성공할 때마다 1...6의 에너지를 얻습니다.",
+				"concise": "엘리트 강화 마법. (20초) 공격이 성공할 때마다 1...6의 에너지를 얻습니다. 에너지 재생이 2만큼 감소합니다."
+			},
+			"pl": {
+				"name": "Ślub Gorliwości",
+				"description": "Elitarne zaklęcie (czar). Przez 20 sek., posiadasz regenerację energii -2, ale za każdym razem kiedy twój atak trafi, otrzymujesz 1...6 pkt. energii.",
+				"concise": "Elitarne zaklęcie (czar). (20 sek.) Otrzymujesz 1...6 pkt. energii, za każdym razem, kiedy twój atak trafi. Posiadasz degenerację energii -2."
+			},
+			"ru": {
+				"name": "Zealous Vow",
+				"description": "Элитное заклинание-чары. В течение 20 сек ваша скорость восстановления энергии уменьшается на 2 ед., и вы получаете 1...6 ед. энергии каждый раз, когда попадаете по противнику.",
+				"concise": "Элитное заклинание-чары. (20 сек) Вы получаете 1...6 ед. энергии за каждое успешное попадание в атаке. Вы получаете -2 ед. к скорости восстановления энергии."
+			},
+			"bork": {
+				"name": "Zeaeluoos Foo",
+				"description": "Ileete-a Inchuntment Spell. Fur 20 secunds, yuoo haefe-a -2 Inergy regeneraeshun, und yuoo gaeeen 1...6 Inergy ifery teeme-a yuoo heet veet un aettaeck.",
+				"concise": "Ileete-a Inchuntment Spell. (20 secunds.) Yuoo gaeeen 1...6 Inergy iaech teeme-a yuoo heet veet un aettaeck. Yuoo haefe-a -2 Inergy regeneraeshun."
 			}
 		}
 	}

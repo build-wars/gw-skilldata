@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "流沙",
+				"description": "精英自然仪式。 创造一只等级为1...10的流沙精灵。使范围内所有「非灵体」类生物在攻击或使用技能时丢失1点能量值。流沙精灵在30...180秒后消失。",
+				"concise": "精英自然仪式。 创造一只等级为1...10的流沙精灵。使范围内所有「非灵体」类生物在攻击或使用技能时丢失1点能量值。流沙精灵在30...180秒后消失。"
+			},
+			"cht": {
+				"name": "流沙",
+				"description": "精英自然儀式： 創造一隻等級 1...10 的流沙精靈，範圍內非靈的生物在攻擊或使用技能時將失去 1 能量。流沙精靈在30...180 秒後消失。",
+				"concise": "精英自然儀式： 創造一隻等級 1...10 的流沙精靈，範圍內非靈的生物在攻擊或使用技能時將失去 1 能量。流沙精靈在 30...180 秒後消失。"
+			},
 			"de": {
+				"name": "Treibsand",
+				"description": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10. Alle Kreaturen in seiner Reichweite, die keine Geister sind, verlieren jedes Mal, wenn sie angreifen oder eine Fertigkeit verwenden, 1 Energiepunkt. Dieser Geist stirbt nach 30...180 Sekunde[n].",
+				"concise": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10 (30...180 Sekunde[n] Lebensdauer). Kreaturen verlieren jedes Mal 1 Energiepunkt, wenn sie angreifen oder eine Fertigkeit einsetzen. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Treibsand",
 				"description": "Erstellt einen Geist der Stufe 1...10. Alle Kreaturen in seiner Reichweite, die keine Geister sind, verlieren jedes Mal, wenn sie angreifen oder eine Fertigkeit verwenden, 1 Energiepunkt. Dieser Geist stirbt nach 30...180 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Kreaturen verlieren jedes Mal 1 Energiepunkt, wenn sie angreifen oder eine Fertigkeit einsetzen. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Quicksand",
+				"description": "Elite Nature Ritual. Create a level 1...10 spirit. All non-spirit creatures within its range lose 1 Energy each time they attack or use a skill. This spirit dies after 30...180 seconds.",
+				"concise": "Elite Nature Ritual. Creates a level 1...10 spirit (30...180 second lifespan). Creatures lose 1 Energy each time they attack or use a skill. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Quicksand",
 				"description": "Create a level 1...10 spirit. All non-spirit creatures within its range lose 1 Energy each time they attack or use a skill. This spirit dies after 30...180 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...180 second lifespan). Creatures lose 1 Energy each time they attack or use a skill. Does not affect spirits."
 			},
+			"es": {
+				"name": "Arenas movedizas",
+				"description": "Ritual de la naturaleza de élite. Creas un espíritu de nivel 1...10. Todas las criaturas no espíritus de la zona perderán 1 de energía cuando ataquen o usen una habilidad. Morirá a los 30...180 segundos.",
+				"concise": "Ritual de la naturaleza de élite. Crea un espíritu de nivel 1...10 (30...180 segundos de vida). Las criaturas pierden 1 de energía cada vez que ataquen o usen una habilidad. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Sables mouvants",
+				"description": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10. Toutes les créatures (sauf les esprits) dans sa portée perdent 1 point d'énergie chaque fois qu'elles attaquent ou utilisent une compétence. Cet esprit disparaît au bout de 30...180 secondes.",
+				"concise": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Les créatures perdent 1 point d'énergie chaque fois qu'elles attaquent ou utilisent une compétence. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Sables mouvants",
 				"description": "Crée un esprit de niveau 1...10. Toutes les créatures (sauf les esprits) dans sa portée perdent 1 point d'énergie chaque fois qu'elles attaquent ou utilisent une compétence. Cet esprit disparaît au bout de 30...180 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sabbie Mobili",
+				"description": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10. Tutte le creature nella sua portata (Spiriti esclusi) perdono 1 Punto Energia ogni volta che attaccano o utilizzano un'abilità. Lo Spirito si esaurisce dopo 30...180 secondo[i].",
+				"concise": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10 (in vita per 30...180 secondo[i]). Energia persa dalle creature ogni volta che attaccano o usano un'abilità: 1. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "クイックサンド",
+				"description": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物はすべて攻撃またはスキルを使用するたびにエネルギーを1失います。この精霊は 30...180 秒後に消えます。",
+				"concise": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...180 秒) 。精霊以外の生物は、攻撃やスキル使用のたびにエネルギーが1減少します。"
+			},
+			"kr": {
+				"name": "유사의 영혼",
+				"description": "엘리트 자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼을 중심으로 일정 범위 내에 있는 영혼이 아닌 모든 생물체는 공격을 하거나 스킬을 사용할 때마다 1의 에너지를 잃습니다. 영혼은 30...180초 후 사라집니다.",
+				"concise": "엘리트 자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...180초) 영혼이 아닌 모든 생물체는 공격을 하거나 스킬을 사용할 때마다 1의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Ruchome Piaski",
+				"description": "Elitarny obrządek natury. Tworzysz 1...10 poziomowego ducha. Wszystkie stworzenia nie-duchy w jego zasięgu tracą po jednym pkt. energii za każdym razem, kiedy zaatakują lub użyją umiejętności. Duch ginie po 30...180 sek.",
+				"concise": "Elitarny obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...180 sek.). Stworzenia tracą 1 pkt. energii, za każdym razem, kiedy atakują lub używają umiejętności. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Quicksand",
+				"description": "Элитный природный ритуал. Создает духа 1...10 уровня. Все не являющиеся духами создания в зоне его действия теряют 1 ед. энергии каждый раз, когда они атакуют или используют какое-либо умение. Этот дух умирает через 30...180 сек.",
+				"concise": "Элитный природный ритуал. Создает духа 1...10 уровня (30...180 сек жизни). Создания теряют 1 ед. энергии каждый раз, когда они атакуют или используют умение. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Qooeecksund",
+				"description": "Ileete-a Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Aell nun-spureet creaetoores veetheen its runge-a luse-a 1 Inergy iaech teeme-a zeey aettaeck oor use-a a skeell. Thees spureet deees aeffter 30...180 secunds.",
+				"concise": "Ileete-a Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...180 secund leeffespun). Creaetoores luse-a 1 Inergy iaech teeme-a zeey aettaeck oor use-a a skeell. Dues nut aeffffect spureets."
 			}
 		}
 	}

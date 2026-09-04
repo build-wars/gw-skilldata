@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Snow Storm",
+				"description": "咒文。 Create a Snow Storm at target foe's location. For 5 seconds, foes adjacent to that location are struck for 30...40 cold damage each second.",
+				"concise": "咒文。 Deals 30...40 cold damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
+			},
+			"cht": {
+				"name": "雪風暴",
+				"description": "咒文魔法： 在目標敵人的位置發動「雪風暴」。持續 5 秒，使所有鄰近敵人每秒遭受 30...40 冰凍傷害。",
+				"concise": "咒文魔法： Create a Snow Storm at target foe's location. For 5 seconds, foes adjacent to that location are struck for 30...40 cold damage each second."
+			},
 			"de": {
+				"name": "Schneesturm",
+				"description": "Zauber. An der aktuellen Position des Gegners wird ein Schneesturm erzeugt. 5 Sekunde[n] erleiden umstehende Feinde um diesen Bereich 30...40 Punkt[e] Kälteschaden pro Sekunde.",
+				"concise": "Zauber. 5 Sekunde[n]: Richtet jede Sekunde 30...40 Punkt[e] Kälteschaden an. Trifft umstehende Feinde um anfängliche Position des Gegners."
+			},
+			"de-guildwiki": {
 				"name": "Schneesturm",
 				"description": "An der aktuellen Position des Gegners wird ein Schneesturm erzeugt. 5 Sekunden erleiden umstehende Feinde um diesen Bereich 30...40 Punkte Kälteschaden pro Sekunde.",
 				"concise": "5 Sekunden: Richtet jede Sekunde 30...40 Punkte Kälteschaden an. Trifft umstehende Feinde um anfängliche Position des Gegners."
 			},
 			"en": {
 				"name": "Snow Storm",
+				"description": "Spell. Create a Snow Storm at target foe's location. For 5 seconds, foes adjacent to that location are struck for 30...40 cold damage each second.",
+				"concise": "Spell. Deals 30...40 cold damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
+			},
+			"en-gww": {
+				"name": "Snow Storm",
 				"description": "Create a Snow Storm at target foe's location. For 5 seconds, foes adjacent to that location are struck for 30...40 cold damage each second.",
 				"concise": "Deals 30...40 cold damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
 			},
+			"es": {
+				"name": "Tormenta de nieve",
+				"description": "Conjuro. Creas una tormenta de nieve en la ubicación del enemigo objetivo. Durante 5 segundos, los enemigos adyacentes recibirán 30...40 de daño frío por segundo.",
+				"concise": "Conjuro. Hace 30...40 de daño frío por segundo (5 segundos). Alcanza a los enemigos adyacentes a la ubicación inicial del enemigo objetivo."
+			},
 			"fr": {
+				"name": "Tempête de neige",
+				"description": "Sort. Vous créez une tempête de neige sur la position de l'ennemi visé. Pendant 5 secondes, les ennemis adjacents à cette position subissent 30...40 points de dégâts du froid par seconde.",
+				"concise": "Sort. Inflige 30...40 points de dégâts du froid par seconde (5 secondes). Frappe les ennemis adjacents à la position initiale de l'ennemi visé."
+			},
+			"fr-gwiki": {
 				"name": "Tempête de neige",
 				"description": "Vous créez une tempête de neige sur la position de l'ennemi visé. Pendant 5 secondes, les ennemis adjacents à cette position subissent 30...40 points de dégâts du froid par seconde.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tempesta di Neve",
+				"description": "Magia. Crei una Tempesta di Neve nella posizione dell'obiettivo nemico. Per 5 secondo[i], i nemici a lui adiacenti subiscono 30...40 danno[i] da freddo al secondo.",
+				"concise": "Magia. Danni da freddo inferti al secondo: 30...40 (5 secondo[i]). Colpisce i nemici adiacenti alla posizione iniziale dell'obiettivo nemico."
+			},
+			"jp": {
+				"name": "スノウ ストーム",
+				"description": "スペル： ターゲットした敵の位置に雪嵐を起こします。5 秒間、その場所に隣接する敵に毎秒 30...40 のコールド ダメージを与えます。",
+				"concise": "スペル： 発動時にターゲットした敵がいた場所に隣接する敵に、毎秒 30...40 のコールド ダメージを与えます (5 秒) 。"
+			},
+			"kr": {
+				"name": "눈보라 폭풍",
+				"description": "마법. 대상 위치에 5초 동안 눈보라 폭풍을 일으킵니다. 그 자리에 인접한 적들은 매초 30...40의 냉기 대미지를 입습니다.",
+				"concise": "마법. 대상 위치에 눈보라 폭풍을 일으켜 인접한 적들에게 매초 30...40의 냉기 대미지를 줍니다.(5초)"
+			},
+			"pl": {
+				"name": "Śnieżna Burza",
+				"description": "Czar. Wywołujesz Śnieżną Burzę w miejscu, gdzie znajduje się wybrany przeciwnik. Przez 5 sek., przeciwnicy bezpośrednio przy tym miejscem otrzymują w każdej sekundzie po 30...40 pkt. obrażeń od zimna.",
+				"concise": "Czar. W każdej sekundzie zadaje 30...40 pkt. obrażeń od zimna (5 sek.). Trafia przeciwników bezpośrednio przy początkowym miejscu wybranego przeciwnika."
+			},
+			"ru": {
+				"name": "Snow Storm",
+				"description": "Заклинание. Вы создаете Snow Storm в местоположении выбранного противника. В течение 5 сек противники, окружающие это место, получают 30...40 ед. урона силой холода каждую секунду.",
+				"concise": "Заклинание. Наносит 30...40 ед. урона силой холода каждую секунду (5 сек). Поражает противников, окружающих первоначальное местоположение выбранного противника."
+			},
+			"bork": {
+				"name": "Snoo Sturm",
+				"description": "Spell. Creaete-a a Snoo Sturm aet taerget fue-a's lucaeshun. Fur 5 secunds, fues aedjaecent tu thaet lucaeshun aere-a stroock fur 30...40 culd daemaege-a iaech secund.",
+				"concise": "Spell. Deaels 30...40 culd daemaege-a iaech secund (5 secunds). Heets fues aedjaecent tu taerget fue-a's ineeteeael lucaeshun."
 			}
 		}
 	}

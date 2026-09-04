@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生灵扭转",
+				"description": "精英技能。 消灭一个我方的「灵体」，使你下一个施展的「缚灵仪式」技能，施法时间加快 15% 而且立刻恢复。",
+				"concise": "精英技能。 消灭一个我方的「灵体」，使你下一个施展的「缚灵仪式」技能，施法时间加快 15% 而且立刻恢复。"
+			},
+			"cht": {
+				"name": "生靈扭轉",
+				"description": "精英技能： 持續 5...45 秒，你的縛靈儀式能量消耗減少 15 (最低 5 )而且立即回復，生靈扭轉將在使用 1...3 次縛靈儀式後終止。",
+				"concise": "精英技能： 持續 5...45 秒，你的縛靈儀式能量消耗減少 15 (最低 5 )而且立即回復，生靈扭轉將在使用 1...3 次縛靈儀式後終止。"
+			},
 			"de": {
+				"name": "Seelenverflechtung",
+				"description": "Elite-Fertigkeit. 5...45 Sekunde[n] lang kosten Eure Binderituale 15 weniger Energiepunkte (mindestens 5) und laden sich sofort wieder auf. Seelenverflechtung endet nach 1...3 Binderitual[en].",
+				"concise": "Elite-Fertigkeit. (5...45 Sekunde[n].) Eure Binderituale 15 kosten weniger Energiepunkte (mindestens 5) und laden sich sofort wieder auf. Endet nach 1...3 Binderitual[en]."
+			},
+			"de-guildwiki": {
 				"name": "Seelenverflechtung",
 				"description": "5...45 Sekunden lang kosten Eure Binderituale 15 weniger Energiepunkte (mindestens 5) und laden sich sofort wieder auf. Seelenverflechtung endet nach 1...3 Binderitualen.",
 				"concise": "(5...45 Sekunden.) Eure Binderituale 15 kosten weniger Energiepunkte (mindestens 5) und laden sich sofort wieder auf. Endet nach 1...3 Binderitualen."
 			},
 			"en": {
 				"name": "Soul Twisting",
+				"description": "Elite Skill. For 5...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. Soul Twisting ends after 1...3 Binding Rituals.",
+				"concise": "Elite Skill. (5...45 seconds.) Your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. Ends after 1...3 Binding Rituals."
+			},
+			"en-gww": {
+				"name": "Soul Twisting",
 				"description": "For 5...45 seconds, your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. Soul Twisting ends after 1...3 Binding Ritual[s].",
 				"concise": "(5...45 seconds.) Your Binding Rituals cost 15 less Energy (minimum 5) and recharge instantly. <gray>Ends after 1...3 Binding Ritual[s].</gray>"
 			},
+			"es": {
+				"name": "Almas unidas",
+				"description": "Habilidad de élite. Durante 5...45 segundos, tus rituales de encadenamiento de espíritus cuestan 15 menos de energía (mínimo 5) y se recargan instantáneamente. Almas unidas acaba después de 1...3 ritual[es] de encadenamiento.",
+				"concise": "Habilidad de élite. (5...45 segundos). Tus rituales de encadenamiento de espíritus cuestan 15 menos de energía (mínimo 5) y se recargan instantáneamente. Acaba después de 1...3 ritual[es] de encadenamiento."
+			},
 			"fr": {
+				"name": "Contorsion de l'âme",
+				"description": "Compétence élite. Pendant 5...45 secondes, vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 5) et se rechargent instantanément. Contorsion de l'âme prend fin après 1...3 Rituels d'asservissement.",
+				"concise": "Compétence élite. (5...45 secondes.) Vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 5) et se rechargent instantanément. Prend fin après 1...3 Rituels d'asservissement."
+			},
+			"fr-gwiki": {
 				"name": "Contorsion de l'âme",
 				"description": "Pendant 5...45 secondes, vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 10) et se rechargent instantanément. Contorsion de l'âme prend fin après 1...3 Rituels d'asservissement.",
 				"concise": "(5...45 secondes.) Vos Rituels d'asservissement coûtent 15 points d'énergie en moins (Minimum 10) et se rechargent instantanément. Prend fin après 1...3 Rituels d'asservissement."
+			},
+			"it": {
+				"name": "Distorsione dell'Anima",
+				"description": "Abilità d'Élite. Per 5...45 secondo[i], il tuo Rituale Incatenante costa 15 Punto[i] Energia in meno (min 5) e si ricarica istantaneamente. Distorsione dell'Anima termina dopo 1...3 Rituale[i] Incatenante[i].",
+				"concise": "Abilità d'Élite. (Secondo[i]: 5...45). Il tuo Rituale Incatenante costa 15 Punto[i] Energia in meno (min 5) e si ricarica istantaneamente. Distorsione dell'Anima termina dopo 1...3 Rituale[i] Incatenante[i]."
+			},
+			"jp": {
+				"name": "ソウル ツイスト",
+				"description": "エリート スキル： 5...45 秒間、バインド リチュアル スキルは消費エネルギーが 15 減少し (最低5のエネルギー)、すぐに再使用することができます。この効果は、バインド リチュアル スキルを 1...3 個使用すると消失します。",
+				"concise": "エリート スキル： (5...45 秒) プレイヤーが詠唱するバインド リチュアル スキルは消費エネルギーが 15 減少し (最低5のエネルギー)、すぐに再使用することができます。この効果は、バインド リチュアル スキルを 1...3 個使用すると消失します。"
+			},
+			"kr": {
+				"name": "왜곡된 영혼계약",
+				"description": "엘리트 스킬. 대상 지정: 없음. 5...45초 동안 영혼 결속 특성 스킬의 소모 에너지가 15만큼 감소하고, 즉시 재활성됩니다. 최소 5의 에너지는 소모합니다. 영혼 결속 특성 스킬을 1...3번 사용하면 효과가 끝납니다.",
+				"concise": "엘리트 스킬. (5...45초) 영혼 결속 특성 스킬의 소모 에너지가 15만큼 감소하고, 즉시 재활성됩니다. 최소 5의 에너지는 소모됩니다. 영혼 결속 특성 스킬을 1...3번 사용하면 끝납니다."
+			},
+			"pl": {
+				"name": "Skręcenie Duszy",
+				"description": "Umiejętność elitarna. Przez 5...45 sek., twoje rytuały spętania kosztują 15 pkt. energii mniej (minimalnie 5) i odnawiają się natychmiast. Skręcenie Duszy kończy się po przeprowadzeniu rytuałów spętania (w liczbie 1...3).",
+				"concise": "Umiejętność elitarna. (5...45 sek.) Twoje rytuały spętania kosztują 15 pkt. energii mniej (minimalnie 5) i odnawiają się natychmiast. Kończy się po przeprowadzeniu rytuałów spętania (w liczbie 1...3)."
+			},
+			"ru": {
+				"name": "Soul Twisting",
+				"description": "Элитное умение. В течение 5...45 сек ваши связующие ритуалы требуют для активации на 15 ед. энергии меньше (но не менее 5 ед. энергии) и перезаряжаются немедленно. Действие Soul Twisting заканчивается после 1...3 связующих ритуалов.",
+				"concise": "Элитное умение. (5...45 сек) Ваши связующие ритуалы требуют для активации на 15 ед. энергии меньше (но не менее 5 ед. энергии) и перезаряжаются немедленно. Заканчивается после 1...3 связующих ритуалов."
+			},
+			"bork": {
+				"name": "Suool Tveesteeng",
+				"description": "Ileete-a Skeell. Fur 5...45 secunds, yuoor Beendeeng Reetooaels cust 15 less Inergy (meeneemoom 5) und rechaerge-a instuntly. Suool Tveesteeng inds aeffter 1...3 Beendeeng Reetooaels.",
+				"concise": "Ileete-a Skeell. (5...45 secunds.) Yuoor Beendeeng Reetooaels cust 15 less Inergy (meeneemoom 5) und rechaerge-a instuntly. Inds aeffter 1...3 Beendeeng Reetooaels."
 			}
 		}
 	}

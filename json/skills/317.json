@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战士之怒",
+				"description": "精英姿态。 在5...20秒之内，使你的移动速度提高25%，并且从攻击中获得双倍的怒气值。一旦你使用非攻击性技能，战士之怒就会消失，消失之后你将失去所有的怒气值。",
+				"concise": "精英姿态。 使你的移动速度提高25%，并且从攻击中获得双倍的怒气值。一旦你使用非攻击性技能，战士之怒就会消失，消失之后你失去所有的怒气值。"
+			},
+			"cht": {
+				"name": "戰鬥憤怒",
+				"description": "精英態勢： 持續5...20秒，移動速度增加33%，獲得雙倍怒氣，一旦使用非怒氣技能則戰鬥憤怒停止。",
+				"concise": "精英態勢： 持續 5...20 秒，移動速度增加 33% ，獲得雙倍怒氣，一旦使用非怒氣技能則戰鬥憤怒停止。"
+			},
 			"de": {
+				"name": "Kampfwut",
+				"description": "Elite-Haltung. 5...20 Sekunde[n] lang bewegt Ihr Euch um 33% schneller und Ihr erhaltet die doppelte Menge Adrenalin aus Angriffen. Kampfwut endet, wenn Ihr eine Nicht-Adrenalinfertigkeit verwendet.",
+				"concise": "Elite-Haltung. 5...20 Sekunde[n]: Ihr bewegt Euch um 33% schneller und erhaltet die doppelte Menge Adrenalin aus Euren Angriffen. Endet, wenn Ihr eine Nicht-Adrenalinfertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Kampfwut",
 				"description": "5...20 Sekunden lang bewegt Ihr Euch um 33% schneller und Ihr erhaltet die doppelte Menge Adrenalin aus Angriffen. Kampfwut endet, wenn Ihr eine Nicht-Adrenalinfertigkeit verwendet.",
 				"concise": "5...20 Sekunden: Ihr bewegt Euch um 33% schneller und erhaltet die doppelte Menge Adrenalin aus Euren Angriffen. <gray>Endet, wenn Ihr eine Nicht-Adrenalinfertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Battle Rage",
+				"description": "Elite Stance. For 5...20 seconds, you move 33% faster and gain double adrenaline from attacks. Battle Rage ends if you use any non-adrenal skills.",
+				"concise": "Elite Stance. (5...20 seconds.) You move 33% faster and gain double adrenaline from your attacks. Ends if you use any non-adrenal skills."
+			},
+			"en-gww": {
+				"name": "Battle Rage",
 				"description": "For 5...20 seconds, you move 33% faster and gain double adrenaline from attacks. Battle Rage ends if you use any non-adrenal skills.",
 				"concise": "(5...20 seconds.) You move 33% faster and gain double adrenaline from your attacks. <gray>Ends if you use any non-adrenal skills.</gray>"
 			},
+			"es": {
+				"name": "Furia de batalla",
+				"description": "Actitud de élite. Durante 5...20 segundos, te mueves un 33% más rápido y ganas el doble de adrenalina de los ataques. La Furia de batalla termina si utilizas alguna habilidad que no sea de adrenalina.",
+				"concise": "Actitud de élite. (5...20 segundos). Te mueves un 33% más rápido y ganas el doble de adrenalina de tus ataques. Acaba si usas una habilidad que no sea de adrenalina."
+			},
 			"fr": {
+				"name": "Fureur guerrière",
+				"description": "Pose de combat d'élite. Pendant 5...20 secondes, vous vous déplacez 33% plus vite et gagnez 2 fois plus d'adrénaline lors des attaques. La Fureur guerrière prend fin si vous utilisez des compétences ne nécessitant pas d'adrénaline.",
+				"concise": "Pose de combat d'élite. (5...20 secondes.) Vous vous déplacez 33% plus vite et vos attaques vous font gagner 2 fois plus d'adrénaline. Prend fin si vous utilisez une compétence ne nécessitant pas d'adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Fureur guerrière",
 				"description": "Pendant 5...20 secondes, vous vous déplacez 33% plus vite et gagnez 2 fois plus d'adrénaline lors des attaques. La Fureur guerrière prend fin si vous utilisez des compétences ne nécessitant pas d'adrénaline.",
 				"concise": "(5...20 secondes.) Vous vous déplacez 33% plus vite et vos attaques vous font gagner 2 fois plus d'adrénaline."
+			},
+			"it": {
+				"name": "Furia della Battaglia",
+				"description": "Posizione d'Élite. Per 5...20 secondo[i], la tua velocità aumenta di un 33% e ottieni doppia adrenalina dagli attacchi. La Furia della Battaglia termina se utilizzi abilità che non necessitano adrenalina.",
+				"concise": "Posizione d'Élite. (Secondi: 5...20) Incremento tua velocità di movimento: 33%. Ottieni il doppio di adrenalina dagli attacchi. Termina se usi abilità che non necessitano adrenalina."
+			},
+			"jp": {
+				"name": "バトル レイジ",
+				"description": "エリート スタンス： 5...20 秒間、移動速度が 33% 増加し、攻撃により獲得するアドレナリンが2倍になります。アドレナリン スキル以外のスキルを使用すると、この効果は消失します。",
+				"concise": "エリート スタンス： (5...20 秒) 移動速度が 33% 増加し、攻撃によって獲得するアドレナリンが2倍になります。アドレナリン スキル以外のスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "전투의 분노",
+				"description": "엘리트 자세. 대상 지정: 없음. 5...20초 동안 이동 속도가 33% 빨라지고, 공격을 할 때 2배의 아드레날린을 얻습니다. 아드레날린을 사용하지 않는 스킬을 사용하면 전투의 분노 효과가 끝납니다.",
+				"concise": "엘리트 자세. (5...20초) 이동 속도가 33% 빨라지고, 공격 시 2배의 아드레날린을 얻습니다. 아드레날린을 사용하지 않는 스킬을 사용하면 전투의 분노가 즉시 끝납니다."
+			},
+			"pl": {
+				"name": "Szał Bojowy",
+				"description": "Postawa elitarna. Przez 5...20 sek. poruszasz się o 33% szybciej i otrzymujesz z ataków podwójne dawki adrenaliny. Szał Bojowy przestanie działać, jeśli użyjesz umiejętności nie opartej na adrenalinie.",
+				"concise": "Postawa elitarna. (5...20 sek.) Poruszasz się o 33% szybciej i za swoje ataki otrzymujesz podwójną adrenalinę. Koniec działania, jeśli użyjesz umiejętności nie opartej na adrenalinie."
+			},
+			"ru": {
+				"name": "Battle Rage",
+				"description": "Элитная стойка. В течение 5...20 сек вы двигаетесь на 33% быстрее и получаете вдвое больше адреналина при атаках. Battle Rage прекращает свое действие, если вы используете любое умение, не требующее адреналина.",
+				"concise": "Элитная стойка. (5...20 сек) Вы двигаетесь на 33% быстрее и получаете вдвое больше адреналина при своих атаках. Заканчивается, если вы используете любое умение, не требующее адреналина."
+			},
+			"bork": {
+				"name": "Baettle-a Raege-a",
+				"description": "Ileete-a Stunce-a. Fur 5...20 secunds, yuoo mufe-a 33% faester und gaeeen duooble-a aedrenaeleene-a frum aettaecks. Baettle-a Raege-a inds iff yuoo use-a uny nun-aedrenael skeells.",
+				"concise": "Ileete-a Stunce-a. (5...20 secunds.) Yuoo mufe-a 33% faester und gaeeen duooble-a aedrenaeleene-a frum yuoor aettaecks. Inds iff yuoo use-a uny nun-aedrenael skeells."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "痛苦之池",
+				"description": "法池。 消耗一具最近的尸体或牺牲66%生命值，在其位置创造一个苦痛之井，持续10...30秒。范围内敌军承受-1...6生命衰减。",
+				"concise": "法池。 （10...30秒）此泉内的敌军生命回复-1...6。需利用新鲜的尸体或牺牲66%生命值。"
+			},
+			"cht": {
+				"name": "痛苦之池",
+				"description": "湧泉魔法： Exploit nearest corpse or sacrifice 66% health to create a Well of Suffering at its location. For 10...30 seconds, foes in that area suffer -1...6 Health degeneration.",
+				"concise": "湧泉魔法： (10...30 seconds.) Foes in this well have -1...6 Health degeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen des Leidens",
+				"description": "Brunnenzauber. Nutzt die nächstbeste Leiche oder opfert 66 % Eurer Lebenspunkte, um an ihrem Fundort einen Brunnen des Leidens zu erzeugen. Für 10...30 Sekunden erleiden Gegner in diesem Bereich -1...6 Lebenspunktdegeneration.",
+				"concise": "Brunnenzauber. (10...30 Sekunden). Gegner in diesem Brunnen haben -1...6 Lebenspunktdegeneration. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen des Leidens",
 				"description": "Der nächste Kadaver wird an seiner Position in einen Brunnen des Leidens verwandelt, oder opfert 66% Lebenskraft. 10...30 Sekunden lang erleiden alle Feinde, die sich in dem Bereich aufhalten, eine Lebenspunktdegeneration von -1...6.",
 				"concise": "(10...30 Sekunden.) Gegner in diesem Brunnen erhalten eine Lebenspunktdegeneration in Höhe von -1...6. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Suffering",
+				"description": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Suffering at its location. For 10...30 seconds, foes in that area suffer -1...6 Health degeneration.",
+				"concise": "Well Spell. (10...30 seconds.) Foes in this well have -1...6 Health degeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Suffering",
 				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Suffering at its location. For 10...30 seconds, foes in that area suffer -1...6 Health degeneration.",
 				"concise": "(10...30 seconds.) Foes in this well have -1...6 Health degeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 			},
+			"es": {
+				"name": "Pozo de sufrimiento",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de sufrimiento en esa ubicación. Durante 10...30 segundos, los enemigos que se encuentren en esa zona sufren -1...6 de degeneración de salud.",
+				"concise": "Conjuro de pozo. (10...30 segundos). Los enemigos en este pozo sufren -1...6 de degeneración de salud. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits de souffrance",
+				"description": "Sort de puits. Exploitez le cadavre le plus proche ou sacrifiez 66% de santé pour créer à cet endroit un Puits de douleur. Les ennemis dans la zone subissent une dégénération de santé de -1...6 pendant 10...30 secondes.",
+				"concise": "Sort de puits. (10...30 secondes.) Les ennemis présents dans ce puits subissent -1...6 points de dégénération de santé. Exploite un cadavre frais ou sacrifie 66% de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits de souffrance",
 				"description": "Utilisez le cadavre le plus près pour créer un Puits de souffrance à cet endroit. Pendant 10...30 secondes, les ennemis présents dans la zone subissent une dégénération de santé de -1...6.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo delle Sofferenze",
+				"description": "Pozzo. Sfrutta il cadavere più vicino o sacrifica il 66% della tua salute per creare un Pozzo delle Sofferenze alla sua posizione. Per 10...30 secondo/i, i nemici in quell'area soffrono -1...6 degenerazione della salute.",
+				"concise": "Pozzo. (10...30 secondo/i). I nemici in questo Pozzo hanno -1...6 degenerazione della Salute. Utilizza un cadavere fresco o sacrifica il 66% della Salute."
+			},
+			"jp": {
+				"name": "サファー ウェル",
+				"description": "ウェル スペル： 最寄りの死体を使用するか体力の66%を犠牲にして、苦痛の泉を作ります。10...30秒間、そのエリア内にいる敵は、体力の自然回復力が1...6減少します。",
+				"concise": "ウェル スペル： （10...30秒）この泉にいる敵は-1...6の体力減少を受けます。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "고통의 늪",
+				"description": "늪. 가장 가까운 시체를 이용하거나 체력을 66% 희생하여 그 위치에 고통의 늪을 만듭니다. 고통의 늪 효과 범위 내에 있는 적들은 10...30초 동안 체력 재생이 1...6 감소합니다.",
+				"concise": "늪. (10...30초) 고통의 늪 효과 범위 내에 있는 적들은 체력 재생이 1...6 감소합니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Cierpienia",
+				"description": "Czar studni. Wykorzystaj najbliższe zwłoki lub poświęć 66% swojej żywotności, by utworzyć Studnię Cierpienia. Przez 10...30 sek. przeciwnicy w tym obszarze otrzymują -1...6 degeneracji żywotności.",
+				"concise": "Czar studni. (10...30 sek.). Przeciwnicy w tej studni mają degenerację żywotności -1...6. Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Suffering",
+				"description": "Заклинание-источник. Использует ближайший труп или жертвует 66% здоровья, чтобы создать Well of Suffering в указанной точке. На 10...30 сек. здоровье противников в области снижается на 1...6.",
+				"concise": "Заклинание-источник. (10...30 сек.) Враги в области получают -1...6 к снижению здоровья. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Sooffffereeng",
+				"description": "Vell Spell. Ixplueet neaerest curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Sooffffereeng aet its lucaeshun. Fur 10...30 secunds, fues in thaet aerea sooffffer -1...6 Heaelt degeneraeshun.",
+				"concise": "Vell Spell. (10...30 secunds.) Fues in thees vell haefe-a -1...6 Heaelt degeneraeshun. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

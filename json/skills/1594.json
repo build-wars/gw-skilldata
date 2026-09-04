@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"救命！\"",
+				"description": "战吼。 目标非灵体盟友恢复15...90生命。持续1...10秒，其他盟友对该盟友施放的法术加速50%。",
+				"concise": "战吼。 （1...10秒）目标非灵体盟友恢复15...90生命，针对其施放的友方法术加速50%。"
+			},
+			"cht": {
+				"name": "\"救命！\"",
+				"description": "戰嚎： 目标非灵体盟友恢复15...90生命。持续1...10秒，其他盟友对该盟友施放的法术加速50%。",
+				"concise": "戰嚎： （1...10秒）目标非灵体盟友恢复15...90生命，针对其施放的友方法术加速50%。"
+			},
 			"de": {
+				"name": "\"Hilfe!\"",
+				"description": "Schrei. Der Zielverbündete, der kein Geist ist, erhält 15...90 Lebenspunkte. 1...10 Sekunden werden Zauber anderer Verbündeter, die diesen Verbündeten zum Ziel haben, 50 % schneller gewirkt.",
+				"concise": "Schrei. (1...10 Sekunden) Der Zielverbündete, der kein Geist ist, erhält 15...90 Lebenspunkte. Zauber anderer Verbündeter, die diesen Verbündeten zum Ziel haben, werden 50 % schneller gewirkt."
+			},
+			"de-guildwiki": {
 				"name": "\"Hilfe!\"",
 				"description": "Heilt den Verbündeten, der kein Geist ist, (bzw. Euch selbst) um 15...90 Lebenspunkte. 1...10 Sekunden werden Fertigkeiten anderer Verbündete, die diesen Verbündeten zum Ziel haben, 50% schneller gewirkt.",
 				"concise": "(1...10 Sekunden.) Andere Verbündete können ihre Fertigkeiten auf den Verbündeten (bzw. Euch selbst) um 50% schneller wirken. Heilt 15...90 Lebenspunkte."
 			},
 			"en": {
 				"name": "\"Help!\"",
+				"description": "Shout. Target non-spirit ally gains 15...90 Health. For 1...10 seconds, other allies' spells targeting that ally cast 50% faster.",
+				"concise": "Shout. (1...10 seconds.) Target non-spirit ally gains 15...90 health, allied spells targeting them cast 50% faster."
+			},
+			"en-gww": {
+				"name": "\"Help!\"",
 				"description": "Target non-spirit ally gains 15...90 Health. For 1...10 seconds, other allies' spells targeting that ally cast 50% faster.",
 				"concise": "(1...10 seconds.) Target non-spirit ally gains 15...90 health, allied spells targeting them cast 50% faster."
 			},
+			"es": {
+				"name": "\"¡Ayuda!\"",
+				"description": "Grito. El aliado no espíritu objetivo gana 15...90 de salud. Durante 1...10 segundos, los conjuros que te lancen los otros aliados se invocarán un 50 % más deprisa.",
+				"concise": "Grito. (1...10 segundos). El aliado no espíritu objetivo gana 15...90 de salud y los conjuros que te lancen los otros aliados se invocarán un 50 % más deprisa."
+			},
 			"fr": {
+				"name": "\"À l'aide !\"",
+				"description": "Cri. L'allié ciblé (sauf les esprits) gagne 15...90 points de vie. Pendant 1...10 secondes, les sorts des autres alliés ciblant cet allié s'incantent 50% plus vite.",
+				"concise": "Cri. (1...10 secondes.) L'allié ciblé (sauf les esprits) gagne 15...90 points de vie et les sorts alliés s'incantent 50% plus vite sur cette cible."
+			},
+			"fr-gwiki": {
 				"name": "\"A l'aide !\"",
 				"description": "L'allié visé bénéficie de 15...90 points de vie. Pendant 1...10 secondes, les sorts alliés qui vous visent sont lancés 50% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Aiuto!\"",
+				"description": "Urlo. Il bersaglio alleato (purché non sia uno spirito) ottiene 15...90 Salute. Per 1...10 secondo/i, le magie degli altri alleati indirizzate su quel personaggio vengono lanciate il 50% più velocemente.",
+				"concise": "Urlo. (1...10 secondo/i). Il bersaglio alleato non spirito ottiene 15...90 Salute, le magie degli altri alleati indirizzate su quel personaggio vengono lanciate il 50% più velocemente."
+			},
+			"jp": {
+				"name": "「助けて！」",
+				"description": "シャウト： 標的の霊ではない味方は、体力を15...90獲得します。1...10秒間、その味方を標的とする他の味方のスペルの発動が50%速くなります。",
+				"concise": "シャウト： （1...10秒）標的の霊ではない味方は、体力を15...90獲得し、標的の味方のスペルの発動が50%速くなります。"
+			},
+			"kr": {
+				"name": "\"도와줘!\"",
+				"description": "고함. 영혼이 아닌 대상이 15...90의 체력을 얻습니다. 1...10초 동안 이 대상에게 거는 다른 아군 마법의 시전 속도가 50% 빨라집니다.",
+				"concise": "고함. (1...10초) 영혼이 아닌 대상이 15...90의 체력을 얻습니다. 이 대상에게 거는 아군 마법의 시전 속도가 50% 빨라집니다."
+			},
+			"pl": {
+				"name": "\"Pomocy!\"",
+				"description": "Okrzyk. Wskazany sojusznik niebędący duchem zyskuje 15...90 pkt. zdrowia. Przez 1...10 sek. zaklęcia innych sojuszników, których celem jest ten sojusznik, są rzucane o 50% szybciej.",
+				"concise": "Okrzyk. (1...10 sek.) Wskazany sojusznik niebędący duchem zyskuje 15...90 pkt. zdrowia, zaklęcia sojuszników rzucane na niego są rzucane o 50% szybciej."
+			},
+			"ru": {
+				"name": "\"Help!\"",
+				"description": "Крик. Выбранный союзник, не являющийся духом, получает 15...90 ед. здоровья. В течение 1...10 сек. заклинания остальных союзников, нацеленные на него, накладываются на 50% быстрее.",
+				"concise": "Крик. (1...10 сек.) Выбранный союзник, не являющийся духом, получает 15...90 ед. здоровья. Союзные заклинания, нацеленные на него, накладываются на 50% быстрее."
+			},
+			"bork": {
+				"name": "\"Help!\"",
+				"description": "Shuoot. Taerget nun-spureet aelly gaeeens 15...90 Heaelt. Fur 1...10 secunds, oozeer aelleees' spells taergeteeng thaet aelly caest 50% faester.",
+				"concise": "Shuoot. (1...10 secunds.) Taerget nun-spureet aelly gaeeens 15...90 heaelt, aelleeed spells taergeteeng zeem caest 50% faester."
 			}
 		}
 	}

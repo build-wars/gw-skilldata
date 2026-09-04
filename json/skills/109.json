@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命虹吸",
+				"description": "负面魔法。 使目标遭受1...3点「生命衰减」，同时你的「生命再生」增加1...3点，效果持续12...24秒。",
+				"concise": "负面魔法。 在12...24秒之内，使目标敌人遭受1...3点「生命衰减」，同时你的「生命再生」提高1...3点。"
+			},
+			"cht": {
+				"name": "吸取生命",
+				"description": "降咒魔法： 持續 12...24 秒，使目標遭受體力衰減 1...3 ，同時你的體力再生增加 1...3 。",
+				"concise": "降咒魔法： 持續 12...24 秒，使目標遭受體力衰減 1...3 ，同時你的體力再生增加 1...3 。"
+			},
 			"de": {
+				"name": "Leben abzapfen",
+				"description": "Verhexung. 12...24 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von 1...3 und Ihr selbst erfreut Euch einer zusätzlichen Lebenspunktregeneration von 1...3.",
+				"concise": "Verhexung. 12...24 Sekunde[n]: Gegner hat -1...3 Lebenspunktdegeneration. Ihr habt +1...3 Lebenspunktregeneration."
+			},
+			"de-guildwiki": {
 				"name": "Leben abzapfen",
 				"description": "12...24 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...3 und Ihr selbst erfreut Euch einer Lebenspunktregeneration von +1...3.",
 				"concise": "12...24 Sekunden: Gegner hat -1...3 Lebenspunktdegeneration. Ihr habt +1...3 Lebenspunktregeneration."
 			},
 			"en": {
 				"name": "Life Siphon",
+				"description": "Hex Spell. For 12...24 seconds, target foe suffers -1...3 Health degeneration, and you gain +1...3 Health regeneration.",
+				"concise": "Hex Spell. (12...24 seconds.) Target foe has -1...3 Health degeneration. You have +1...3 Health regeneration."
+			},
+			"en-gww": {
+				"name": "Life Siphon",
 				"description": "For 12...24 seconds, target foe suffers -1...3 Health degeneration, and you gain +1...3 Health regeneration.",
 				"concise": "(12...24 seconds.) Target foe has -1...3 Health degeneration. You have +1...3 Health regeneration."
 			},
+			"es": {
+				"name": "Grifo de vida",
+				"description": "Conjuro con maleficio. Durante 12...24 segundos, el enemigo objetivo sufrirá una degeneración de salud de - 1...3, y tú obtendrás una regeneración de salud de +1...3.",
+				"concise": "Conjuro con maleficio. (12...24 segundos). El enemigo objetivo tiene -1...3 de degeneración de salud. Ganas +1...3 de regeneración de salud."
+			},
 			"fr": {
+				"name": "Siphon de vie",
+				"description": "Maléfice. Pendant 12...24 secondes, la cible ennemie subit une dégénération de santé de -1...3 à votre profit (régénération de santé de +1...3).",
+				"concise": "Maléfice. (12...24 secondes.) L'ennemi visé subit une dégénération de santé de -1...3. Vous bénéficiez d'une régénération de santé de +1...3."
+			},
+			"fr-gwiki": {
 				"name": "Siphon de vie",
 				"description": "Pendant 12...24 secondes, la cible subit une dégénération de santé de -1...3 à votre profit (régénération de santé de +1...3).",
 				"concise": "(12...24 secondes.) L'ennemi visé subit une dégénrération de -1...3. Vous bénéficiez d'une régénération de santé de +1...3."
+			},
+			"it": {
+				"name": "Sifone Vitale",
+				"description": "Fattura. Per 12...24 secondo[i], l'obiettivo nemico subisce una Degenerazione della Salute di -1...3 e tu benefici di una Rigenerazione della Salute di +1...3.",
+				"concise": "Fattura. (Secondi: 12...24) Degenerazione Salute dell'obiettivo nemico: -1...3. Rigenerazione tua Salute: +1...3."
+			},
+			"jp": {
+				"name": "ライフ サイフォン",
+				"description": "弱体化スペル： 12...24 秒間、ターゲットした敵は体力の自然回復力が 1...3 減少し、プレイヤーは体力の自然回復力が 1...3 増加します。",
+				"concise": "弱体化スペル： (12...24 秒) ターゲットした敵は体力の自然回復力が 1...3 減少し、プレイヤーは体力の自然回復力が 1...3 増加します。"
+			},
+			"kr": {
+				"name": "생기 흡수",
+				"description": "약화 마법. 대상 지정: 적. 12...24초 동안 대상의 체력 재생이 1...3만큼 감소하고, 자신의 체력 재생은 1...3만큼 증가합니다.",
+				"concise": "약화 마법. (12...24초) 대상의 체력 재생이 1...3 감소합니다. 자신의 체력 재생은 1...3 증가합니다."
+			},
+			"pl": {
+				"name": "Wyssanie Życia",
+				"description": "Klątwa (czar). Przez 12...24 sek. wybrany przeciwnik posiada degenerację żywotności -1...3, a ty posiadasz regenerację żywotności +1...3.",
+				"concise": "Klątwa (czar). (12...24 sek.) Wybrany przeciwnik posiada degenerację żywotności -1...3. Ty posiadasz regenerację żywotności +1...3."
+			},
+			"ru": {
+				"name": "Life Siphon",
+				"description": "Заклинание-проклятье. В течение 12...24 сек скорость восстановления здоровья у выбранного противника уменьшается на 1...3 ед., а ваша скорость восстановления здоровья увеличивается на 1...3 ед.",
+				"concise": "Заклинание-проклятье. (12...24 сек) Выбранный противник получает -1...3 ед. к скорости восстановления здоровья. Вы получаете +1...3 ед. к скорости восстановления здоровья."
+			},
+			"bork": {
+				"name": "Leeffe-a Seephun",
+				"description": "Hex Spell. Fur 12...24 secunds, taerget fue-a sooffffers -1...3 Heaelt degeneraeshun, und yuoo gaeeen +1...3 Heaelt regeneraeshun.",
+				"concise": "Hex Spell. (12...24 secunds.) Taerget fue-a haes -1...3 Heaelt degeneraeshun. Yuoo haefe-a +1...3 Heaelt regeneraeshun."
 			}
 		}
 	}

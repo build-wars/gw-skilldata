@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「冲破极限！」",
+				"description": "战吼。 根据「音波」范围内的敌人数量（最多1...6个），每个敌人可以使你获得相当于一次攻击所得的怒气。",
+				"concise": "战吼。 根据范围内敌人的数量（最多有效 1...6个）来提高自身怒气值。"
+			},
+			"cht": {
+				"name": "「給我力量！」",
+				"description": "戰嚎： 依照音量所及範圍內的敵人數量，每個使你獲得 1 次攻擊的怒氣值(最多 1...6 )，同時 10...20 秒內你的體力最大值增加 10...60 。",
+				"concise": "戰嚎： 依照音量所及範圍內的敵人數量，每個使你獲得 1 次攻擊的怒氣值(最多 1...6 )，同時 10...20 秒內你的體力最大值增加 10...60 。"
+			},
 			"de": {
+				"name": "Bis ans Limit!",
+				"description": "Schrei. Für jeden Feind in Hörweite (höchstens 1...6) erhaltet Ihr einen Adrenalinstoß. 10...20 Sekunde[n] lang werden Eure maximalen Lebenspunkte um 10...60 erhöht.",
+				"concise": "Schrei. (10...20 Sekunde[n].) Ihr erhaltet +10...60 maximale Lebenspunkte. Anfangswirkung: Ihr erhaltet für jeden Feind in Hörweite einen Adrenalinstoß (maximal 1...6)."
+			},
+			"de-guildwiki": {
 				"name": "Bis ans Limit!",
 				"description": "Für jeden Gegner in Hörweite (höchstens 1...6) erhaltet Ihr einen Adrenalinstoß. 10...20 Sekunden lang werden Eure maximalen Lebenspunkte um 10...60 erhöht.",
 				"concise": "(10...20 Sekunden.) Eure maximalen Lebenspunkte werden um 10...60 erhöht. Anfangswirkung: Ihr erhaltet für jeden Feind in Hörweite einen Adrenalinstoß (maximal 1...6)."
 			},
 			"en": {
 				"name": "\"To the Limit!\"",
+				"description": "Shout. For each foe within earshot (maximum 1...6), you gain one strike of adrenaline. For 10...20 seconds, your maximum Health is increased by 10...60.",
+				"concise": "Shout. (10...20 seconds.) You have +10...60 maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum 1...6)."
+			},
+			"en-gww": {
+				"name": "\"To the Limit!\"",
 				"description": "For each foe within earshot (maximum 1...6), you gain one strike of adrenaline. For 10...20 seconds, your maximum Health is increased by 10...60.",
 				"concise": "(10...20 seconds.) You have +10...60 maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum 1...6)."
 			},
+			"es": {
+				"name": "¡Hasta el límite!",
+				"description": "Grito. Por cada enemigo al alcance del oído (un máximo de 1...6), ganas un golpe de adrenalina. Durante 10...20 segundos, tu máximo de salud aumenta en 10...60.",
+				"concise": "Grito. (10...20 segundos). Tienes +10...60 de máximo de salud. Efecto inicial: ganas un golpe de adrenalina por cada enemigo al alcance del oído (máximo 1...6)."
+			},
 			"fr": {
+				"name": "Extrême limite !",
+				"description": "Cri. Pour chaque ennemi à portée de voix (maximum 1...6), vous gagnez une décharge d'adrénaline. Pendant 10...20 secondes, votre santé maximum augmente de 10...60.",
+				"concise": "Cri. (10...20 secondes.) Vous bénéficiez d'une santé maximum de +10...60. Effet initial : vous gagnez une décharge d'adrénaline par ennemi à portée de voix (maximum 1...6)."
+			},
+			"fr-gwiki": {
 				"name": "\"Extrême limite !\"",
 				"description": "Pour chaque ennemi à portée de voix (maximum 1...6), vous gagnez une décharge d'adrénaline. Pendant 10...20 secondes, vous bénéficiez de +10...60 points de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "All'Ultimo Sangue!",
+				"description": "Urlo. Per ogni nemico a portata d'orecchio (max 1...6), ottieni una dose di adrenalina. Per 10...20 secondo[i], la tua Salute massima aumenta di 10...60 punto[i].",
+				"concise": "Urlo. (Secondo[i]: 10...20). Salute massima: +10...60. Effetto iniziale: ottieni una dose di adrenalina per ogni nemico a portata d'orecchio (max 1...6)."
+			},
+			"jp": {
+				"name": "トゥ ザ リミット！",
+				"description": "シャウト： 声の届く範囲内にいる敵ごとに1発のアドレナリンを獲得します (最大 1...6 発)。10...20 秒間、体力の上限が 10...60 増加します。",
+				"concise": "シャウト： (10...20 秒) 体力の上限が 10...60 増加します。発動効果： 声の届く範囲内にいる敵1体につき1発のアドレナリンを獲得します (最大 1...6 発)。"
+			},
+			"kr": {
+				"name": "나에게 힘을!",
+				"description": "고함. 대상 지정: 없음. 가청 범위 내의 적(최대 1...6명)에게서, 적 한 명당 한 번의 공격을 한 만큼의 아드레날린을 얻고, 10...20초 동안 자신의 최대 체력이 10...60만큼 증가합니다.",
+				"concise": "고함. (10...20초) 최대 체력이 10...60만큼 증가합니다. 초기 효과: 가청 범위 내의 적 1명당(최대 1...6명) 한 번 공격을 성공한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Do granic możliwości!",
+				"description": "Okrzyk. Za każdego wroga w zasięgu słuchu (maksymalnie 1...6) otrzymujesz jedną dawkę adrenaliny. Przez 10...20 sek., twoja maksymalna żywotność zostaje zwiększona o 10...60.",
+				"concise": "Okrzyk. (10...20 sek.) Otrzymujesz +10...60 do maksymalnej żywotności. Efekt początkowy: otrzymujesz jedną dawkę adrenaliny za każdego wroga w zasięgu słuchu (maksymalnie 1...6)."
+			},
+			"ru": {
+				"name": "\"To the Limit!\"",
+				"description": "Крик. За каждого противника, находящегося в зоне слышимости (не более чем за 1...6 противников), вы получаете 1 ед. адреналина. В течение 10...20 сек ваш максимальный уровень здоровья увеличивается на 10...60 ед.",
+				"concise": "Крик. (10...20 сек) Вы получаете +10...60 ед. к максимальному уровню здоровья. Начальный эффект: вы получаете 1 ед. адреналина за каждого находящегося в зоне слышимости противника (максимум за 1...6 противников)."
+			},
+			"bork": {
+				"name": "\"Tu zee Leemeet!\"",
+				"description": "Shuoot. Fur iaech fue-a veetheen iaershut (maexeemoom 1...6), yuoo gaeeen oone-a streeke-a ooff aedrenaeleene-a. Fur 10...20 secunds, yuoor maexeemoom Heaelt is increaesed by 10...60.",
+				"concise": "Shuoot. (10...20 secunds.) Yuoo haefe-a +10...60 maexeemoom Heaelt. Ineeteeael iffffect: yuoo gaeeen oone-a streeke-a ooff aedrenaeleene-a fur iaech fue-a veetheen iaershut (maexeemoom 1...6)."
 			}
 		}
 	}

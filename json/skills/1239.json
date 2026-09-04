@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "缚灵纹章",
+				"description": "精英纹章。 如果你在「灵体」的「音波」范围内，你将获得1...12点能量。",
+				"concise": "精英纹章。 如果你在「灵体」的「音波」范围内，你将获得1...12点能量。"
+			},
+			"cht": {
+				"name": "縛靈紋章",
+				"description": "精英紋章： 召喚出三個等級1...12的靈(可存活60秒)，他們攻擊時造成5...20傷害。",
+				"concise": "精英紋章： 召喚出三個等級1...12的靈(可存活60秒)，他們攻擊時造成5...20傷害。"
+			},
 			"de": {
+				"name": "Siegel der Geister",
+				"description": "Elite-Siegel. Erstellt 3 Geister der Stufe 1...12. Diese Geister fügen mit Angriffen 5...20 Punkt[e] Schaden zu und sterben nach 60 Sekunde[n].",
+				"concise": "Elite-Siegel. Erstellt 3 Geister der Stufe 1...12 (60 Sekunde[n] Lebensdauer). Diese Geister fügen mit Angriffen 5...20 Punkt[e] Schaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Geister",
 				"description": "Erstellt 3 Geister der Stufe 1...12. Diese Geister fügen mit Angriffen 5...20 Punkte Schaden zu und sterben nach 60 Sekunden.",
 				"concise": "Erstellt 3 Geister der Stufe 1...12 (60 Sekunden Lebensdauer). Diese Geister fügen mit Angriffen 5...20 Punkte Schaden zu."
 			},
 			"en": {
 				"name": "Signet of Spirits",
+				"description": "Elite Signet. Create 3 level 1...12 spirits. These spirits deal 5...20 damage with attacks and die after 60 seconds.",
+				"concise": "Elite Signet. Creates 3 level 1...12 spirits (60 second lifespan). These spirits deal 5...20 damage with attacks."
+			},
+			"en-gww": {
+				"name": "Signet of Spirits",
 				"description": "Create 3 level 1...12 spirits. These spirits deal 5...20 damage with attacks and die after 60 seconds.",
 				"concise": "Creates 3 level 1...12 spirits (60 second lifespan). These spirits deal 5...20 damage with attacks."
 			},
+			"es": {
+				"name": "Sello de espíritus",
+				"description": "Sello de élite. Creas 3 espíritus de nivel 1...12, cuyos ataques causan 5...20 de daño y mueren al cabo de 60 segundos.",
+				"concise": "Sello de élite. Crea 3 espíritus de nivel 1...12 (60 segundos de vida), cuyos ataques causan 5...20 de daño."
+			},
 			"fr": {
+				"name": "Sceau des Esprits",
+				"description": "Sceau d'élite. Crée 3 esprits de niveau 1...12. Ces esprits infligent 5...20 points de dégâts avec leurs attaques et meurent au bout de 60 secondes.",
+				"concise": "Sceau d'élite. Crée 3 esprits de niveau 1...12 (durée de vie de 60 secondes). Ces esprits infligent 5...20 points de dégâts avec leurs attaques."
+			},
+			"fr-gwiki": {
 				"name": "Sceau des Esprits",
 				"description": "Crée trois esprits de niveau 1...12. Ces esprits infligent 5...20 points de dégâts avec leurs attaques et meurent au bout de 60 secondes.",
 				"concise": "Crée trois esprits de niveau 1...12 (durée de vie de 60 secondes.) Ces esprits infligent 5...20 points de dégâts avec leurs attaques."
+			},
+			"it": {
+				"name": "Sigillo degli Spiriti",
+				"description": "Sigillo d'Élite. Crea tre spiriti di livello 1...12. I loro attacchi infliggono 5...20 danni gli spiriti si esauriscono dopo 60 secondi.",
+				"concise": "Sigillo d'Élite. Crea tre spiriti di livello 1...12 (in vita per 60 secondi). I loro attacchi infliggono 5...20 danni."
+			},
+			"jp": {
+				"name": "スピリット シグネット",
+				"description": "エリート シグネット： レベル 1...12 の精霊を3体召喚します。召喚した精霊は、攻撃により敵に 5...20 のダメージを与え、60 秒後に消滅します。",
+				"concise": "エリート シグネット： レベル 1...12 の精霊を3体召喚します (60 秒)。これらの精霊の攻撃は、敵に 5...20 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "영혼 인장",
+				"description": "엘리트 인장. 대상 지정: 없음. 3레벨 영혼 1...12개를 소환합니다. 이 영혼들은 공격 시에 5...20의 대미지를 주고, 60초 후 사라집니다.",
+				"concise": "엘리트 인장. 3레벨 영혼 1...12개를 소환합니다.(수명: 60초) 영혼들은 공격 시에 5...20의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Duchów",
+				"description": "Sygnet elitarny. Tworzysz trzy duchy na poziomie 1...12. Ataki tych duchów zadają po 5...20 pkt. obrażeń. Duchy giną po 60 sek.",
+				"concise": "Sygnet elitarny. Tworzy trzy duchy na poziomie 1...12 (czas życia 60 sek.). Ich ataki zadają 5...20 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Signet of Spirits",
+				"description": "Элитная печать. Создает 3 духа 1...12 уровня. Эти духи наносят 5...20 ед. урона своими атаками и умирают через 60 сек.",
+				"concise": "Элитная печать. Создает 3 духа 1...12 уровня (60 сек жизни). Эти духи наносят 5...20 ед. урона своими атаками."
+			},
+			"bork": {
+				"name": "Seegnet ooff Spureets",
+				"description": "Ileete-a Seegnet. Creaete-a 3 lefel 1...12 spureets. Zeese-a spureets deael 5...20 daemaege-a veet aettaecks und deee-a aeffter 60 secunds.",
+				"concise": "Ileete-a Seegnet. Creaetes 3 lefel 1...12 spureets (60 secund leeffespun). Zeese-a spureets deael 5...20 daemaege-a veet aettaecks."
 			}
 		}
 	}

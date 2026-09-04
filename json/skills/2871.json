@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "判决之光",
+				"description": "精英咒文。 治疗所有生命值低于101%的队友5...70点生命值。",
+				"concise": "精英咒文。 治疗所有生命值低于101%的队友5...70点生命值。"
+			},
+			"cht": {
+				"name": "拯救聖光",
+				"description": "精英咒文魔法： 治療所有隊伍成員 5...70 體力，但是你的懲戒祈禱屬性技能在 20 秒內無法使用。",
+				"concise": "精英咒文魔法： 治療所有隊伍成員 5...70 體力，但是你的懲戒祈禱屬性技能在 20 秒內無法使用。"
+			},
 			"de": {
+				"name": "Licht der Erlösung (PvP)",
+				"description": "Elite-Zauber. Alle Gruppenmitglieder werden für 5...70 Lebenspunkt[e] geheilt. All Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
+				"concise": "Elite-Zauber. Heilt die gesamte Gruppe für 5...70 Lebenspunkt[e]. Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Licht der Erlösung (PvP)",
 				"description": "Alle Gruppenmitglieder werden um 5...70 Lebenspunkte geheilt. All Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
 				"concise": "Heilt die gesamte Gruppe um 5...70 Lebenspunkte. <gray>Deaktiviert Eure Peinigungsgebete (20 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Light of Deliverance (PvP)",
+				"description": "Elite Spell. All party members are healed for 5...70 Health. All your Smiting Prayers are disabled for 20 seconds.",
+				"concise": "Elite Spell. Heals entire party for 5...70. Disables your Smiting Prayers (20 seconds)."
+			},
+			"en-gww": {
+				"name": "Light of Deliverance (PvP)",
 				"description": "All party members are healed for 5...70 Health. All your Smiting Prayers are disabled for 20 seconds.",
 				"concise": "Heals entire party for 5...70. <gray>Disables your Smiting Prayers (20 seconds).</gray>"
 			},
+			"es": {
+				"name": "Luz de liberación (PvP)",
+				"description": "Conjuro de élite. Todos los miembros del grupo se curan 5...70 de salud. Todas tus habilidades de plegarias de ataque estarán desactivadas durante 20 segundos.",
+				"concise": "Conjuro de élite. Cura 5...70 de salud a todo el grupo. Desactiva tus plegarias de ataque (20 segundos)."
+			},
 			"fr": {
+				"name": "Lumière de la délivrance (PvP)",
+				"description": "Sort d'élite. Tous les membres du groupe sont soignés de 5...70 points de vie. Toutes vos Prières de châtiment sont inutilisables pendant 20 secondes.",
+				"concise": "Sort d'élite. Soigne tout le groupe de 5...70 points de vie. Désactive vos Prières de châtiment (20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Lumière de la délivrance (PvP)",
 				"description": "Tous les membres du groupe sont soignés de 5...70 points de vie. Toutes vos Prières de châtiment sont inutilisables pendant 20 secondes.",
 				"concise": "Soigne tout le groupe de 5...70 points de vie. Vos Prières de châtiment sont inutilisables (20 secondes)."
+			},
+			"it": {
+				"name": "Luce di Liberazione (PvP)",
+				"description": "Magia d'Élite. Tutti i membri della squadra vengono curati di 5...70 Punto[i] Salute. Tutte le tue Preghiere Punitive vengono disattivate per 20 secondi.",
+				"concise": "Magia d'Élite. Cure per l'intera squadra: 5...70. Disattiva le tue Preghiere Punitive (20 secondi)."
+			},
+			"jp": {
+				"name": "デリバランス ライト (PvP)",
+				"description": "エリート スペル： パーティー メンバーの体力が 5...70 回復します。「ホーリー」の特性スキルはすべて20秒間、使用できなくなります。",
+				"concise": "エリート スペル： パーティー全員の体力が 5...70 回復します。「ホーリー」の特性スキルが使用できなくなります (20秒) 。"
+			},
+			"kr": {
+				"name": "구원의 빛(대인전)",
+				"description": "엘리트 마법. 대상 지정: 없음. 모든 파티원의 체력을 5...70만큼 회복시킵니다. 모든 천벌 특성 스킬을 20초 동안 사용할 수 없습니다.",
+				"concise": "엘리트 마법. 파티원 모두의 체력을 5...70만큼 회복시킵니다. 천벌 특성 스킬을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Światło Wybawienia (PvP)",
+				"description": "Elitarny czar. Wszyscy członkowie drużyny odzyskują 5...70 pkt. żywotności. Wszystkie twoje modlitwy ofensywne są niedostępne przez 20 sek.",
+				"concise": "Elitarny czar. Przywraca 5...70 pkt. żywotności całej drużynie. Blokuje twoje modlitwy ofensywne (20 sek.)."
+			},
+			"ru": {
+				"name": "Light of Deliverance (PvP)",
+				"description": "Элитное заклинание. Все члены отряда исцеляются на 5...70 ед. здоровья. Все ваши умения, связанные с талантом Smiting Prayes, будут недоступны в течение 20 сек.",
+				"concise": "Элитное заклинание. Исцеляет весь отряд на 5...70 ед. здоровья. Ваши умения, связанные с талантом Smiting Prayes, будут недоступны в течение 20 сек."
+			},
+			"bork": {
+				"name": "Leeght ooff Deleeferunce-a (PfP)",
+				"description": "Ileete-a Spell. Aell paerty members aere-a heaeled fur 5...70 Heaelt. Aell yuoor Smeeteeng Praeyers aere-a deesaebled fur 20 secunds.",
+				"concise": "Ileete-a Spell. Heaels inture-a paerty fur 5...70. Deesaebles yuoor Smeeteeng Praeyers (20 secunds)."
 			}
 		}
 	}

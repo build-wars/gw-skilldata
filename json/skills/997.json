@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "饥荒",
+				"description": "精英自然仪式。 创造一只等级为1...10的饥荒精灵。使区域内的「非灵体」类生物每当能量值为0时受到20...70点伤害。饥荒精灵在30...180秒后消失。",
+				"concise": "精英自然仪式。 创造一只等级为1...10的饥荒精灵。使区域内的「非灵体」类生物每当能量值为 0 时受到 20...70 伤害。饥荒精灵在30...180秒后消失。"
+			},
+			"cht": {
+				"name": "飢荒",
+				"description": "精英自然儀式： 創造一隻等級 1...10 的飢荒精靈。使區域內的生物每當能量值為 0 時受到 20...70 傷害。飢荒精靈在 30...180 秒後消失。",
+				"concise": "精英自然儀式： 創造一隻等級 1...10 的飢荒精靈。使區域內的生物每當能量值為 0 時受到 20...70 傷害。飢荒精靈在 30...180 秒後消失。"
+			},
 			"de": {
+				"name": "Hungersnot",
+				"description": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10. Jedes Mal, wenn die Energiepunkte eine Kreatur in seiner Reichweite, die kein Geist ist, auf 0 sinken, erleidet diese Kreatur 20...70 Punkt[e] Schaden. Dieser Geist stirbt nach 30...180 Sekunde[n].",
+				"concise": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10 (30...180 Sekunde[n] Lebensdauer). Richtet bei Kreaturen in Reichweite, deren Energiepunkte auf 0 sinken, 20...70 Punkt[e] Schaden an. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Hungersnot",
 				"description": "Erstellt einen Geist der Stufe 1...10. Jedes Mal, wenn die Energiepunkte einer Kreatur in seiner Reichweite auf 0 sinken, erleidet diese Kreatur 20...70 Punkte Schaden. Dieser Geist stirbt nach 30...180 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Richtet bei Kreaturen in Reichweite, deren Energiepunkte auf 0 sinken, 20...70 Punkte Schaden an. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Famine",
+				"description": "Elite Nature Ritual. Create a level 1...10 spirit. Whenever a non-spirit creature in its range reaches 0 Energy, that creature takes 20...70 damage. This spirit dies after 30...180 seconds.",
+				"concise": "Elite Nature Ritual. Creates a level 1...10 spirit (30...180 second lifespan). Deals 20...70 damage to creatures in range that reach 0 Energy. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Famine",
 				"description": "Create a level 1...10 spirit. Whenever a non-spirit creature in its range reaches 0 Energy, that creature takes 20...70 damage. This spirit dies after 30...180 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...180 lifespan). Deals 20...70 damage to creatures in range that reach 0 energy. Does not affect spirits."
 			},
+			"es": {
+				"name": "Hambruna",
+				"description": "Ritual de la naturaleza de élite. Creas un espíritu de nivel 1...10. Cuando cualquier criatura no espíritu dentro de la zona se quede sin energía, recibirá 20...70 de daño. Morirá a los 30...180 segundos.",
+				"concise": "Ritual de la naturaleza de élite. Crea un espíritu de nivel 1...10 (30...180 segundos de vida). Hace 20...70 de daño a las criaturas de la zona que se queden sin energía. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Famine",
+				"description": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10. Lorsqu'une créature dans sa portée (autre qu'un esprit) atteint 0 points d'énergie, elle subit 20...70 points de dégâts. Cet esprit meurt au bout de 30...180 secondes.",
+				"concise": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Inflige 20...70 points de dégâts aux créatures à portée qui ont 0 point d'énergie. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Famine",
 				"description": "Crée un esprit de niveau 1...10. Lorsqu'une créature dans sa portée (autre qu'un esprit) atteint 0 points d'énergie, elle subit 20...70 points de dégâts. Cet esprit meurt au bout de 30...180 secondes.",
 				"concise": "Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Inflige 20...70 points de dégâts aux créatures à portée qui ont 0 point d'énergie. N'affecte pas les esprits."
+			},
+			"it": {
+				"name": "Carestia",
+				"description": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10. Ogni volta che l'Energia di una creatura nella sua portata (Spiriti esclusi) si azzera, quella creatura subisce 20...70 danno[i]. Lo Spirito si esaurisce dopo 30...180 secondo[i].",
+				"concise": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10 (in vita per 30...180 secondo[i]). Assesta 20...70 danno[i] alle creature nella portata la cui Energia scende a 0. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ファミン",
+				"description": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、エネルギーが0になった精霊以外の生物は 20...70 のダメージを受けます。この精霊は 30...180 秒後に消滅します。",
+				"concise": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...180 秒)。この精霊の効果範囲内では、エネルギーが0になると 20...70 のダメージを受けます。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "고갈의 영혼",
+				"description": "엘리트 자연의 이해. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체는 에너지가 0이 되면 20...70의 대미지를 입습니다. 영혼은 30...180초 후 사라집니다.",
+				"concise": "엘리트 자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...180초) 영혼이 아닌 생물체에 영향을 미칩니다. 생물체의 에너지가 0이 되면 20...70의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Klęska Głodu",
+				"description": "Elitarny obrządek natury. Tworzysz 1...10 poziomowego ducha. Za każdym razem, kiedy energia stworzenia nie-ducha w jego zasięgu spadnie do 0, stworzenie to otrzymuje 20...70 pkt. obrażeń. Ten duch ginie po 30...180 sek.",
+				"concise": "Elitarny obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...180 sek.). Stworzeniom w zasięgu, których energia spadnie do 0, zadaje 20...70 pkt. obrażeń. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Famine",
+				"description": "Элитный природный ритуал. Создает духа 1...10 уровня. Каждый раз, когда в зоне его действия запас энергии создания, не являющегося духом, достигает 0, это создание получает 20...70 ед. урона. Этот дух умирает через 30...180 сек.",
+				"concise": "Элитный природный ритуал. Создает духа 1...10 уровня (30...180 сек жизни). Наносит 20...70 ед. урона созданиям в зоне его действия, чья энергия упала до 0. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Faemeene-a",
+				"description": "Ileete-a Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Vhenefer a nun-spureet creaetoore-a in its runge-a reaeches 0 Inergy, thaet creaetoore-a taekes 20...70 daemaege-a. Thees spureet deees aeffter 30...180 secunds.",
+				"concise": "Ileete-a Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...180 secund leeffespun). Deaels 20...70 daemaege-a tu creaetoores in runge-a thaet reaech 0 Inergy. Dues nut aeffffect spureets."
 			}
 		}
 	}

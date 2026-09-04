@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "奥术热忱",
+				"description": "精英增益魔法。 在10秒之内，当你施法时，你将根据你所带有的「增益魔法」效果数量，每一个为你回复2点能量值。（最多2...7点能量值）",
+				"concise": "精英增益魔法。 在10秒之内，当你施法时，你将根据你所带有的「增益魔法」效果数量，每一个为你回复2点能量值。（最多2...7点能量值）"
+			},
+			"cht": {
+				"name": "神秘熱誠",
+				"description": "精英加持魔法： 持續 10 秒，每當你施展「魔法」時，依照你身上擁有的「加持」數量，每項使你獲得 2 能量。(一次最多獲得 2...7 能量)",
+				"concise": "精英加持魔法： 持續 10 秒，每當你施展「魔法」時，依照你身上擁有的「加持」數量，每項使你獲得 2 能量。(一次最多獲得 2...7 能量)"
+			},
 			"de": {
+				"name": "Arkaner Eifer",
+				"description": "Elite-Verzauberung. 10 Sekunde[n] lang bekommt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, für jede Verzauberung, die auf Euch liegt, 2 Energiepunkt[e] (maximal 2...7 Energiepunkt[e]).",
+				"concise": "Elite-Verzauberung. (10 Sekunde[n].) Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr für jede Verzauberung auf Euch 2 Energiepunkt[e] (maximal 2...7)."
+			},
+			"de-guildwiki": {
 				"name": "Arkaner Eifer",
 				"description": "10 Sekunden lang bekommt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, für jede Verzauberung, die auf Euch liegt, 1 Energiepunkt (maximal 2...7 Energiepunkte).",
 				"concise": "(10 Sekunden.) Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr für jede Verzauberung auf Euch 1 Energiepunkt (maximal 2...7)."
 			},
 			"en": {
 				"name": "Arcane Zeal",
+				"description": "Elite Enchantment Spell. For 10 seconds, whenever you cast a spell, you gain 2 Energy for each enchantment on you (maximum 2...7 Energy).",
+				"concise": "Elite Enchantment Spell. (10 seconds.) You gain 2 Energy (maximum 2...7) for each enchantment on you whenever you cast a spell."
+			},
+			"en-gww": {
+				"name": "Arcane Zeal",
 				"description": "For 10 seconds, whenever you cast a spell, you gain 2 Energy for each enchantment on you (maximum 2...7 Energy).",
 				"concise": "(10 seconds.) You gain 2 Energy (maximum 2...7) for each enchantment on you whenever you cast a spell."
 			},
+			"es": {
+				"name": "Celo arcano",
+				"description": "Conjuro con encantamiento de élite. Durante 10 segundos, cada vez que lances un conjuro, ganas 2 de energía por cada encantamiento que tengas encima (máximo 2...7 de energía).",
+				"concise": "Conjuro con encantamiento de élite. (10 segundos). Ganas 2 de energía (máximo 2...7) por cada encantamiento que tengas cuando lances un conjuro."
+			},
 			"fr": {
+				"name": "Zèle arcane",
+				"description": "Enchantement d'élite. Pendant 10 secondes, chaque fois que vous lancez un sort, vous gagnez 2 points d'énergie pour chaque enchantement qui vous affecte (2...7 points d'énergie maximum).",
+				"concise": "Enchantement d'élite. (10 secondes.) Chaque fois que vous lancez un sort, vous gagnez 2 points d'énergie (maximum : 2...7) par enchantement vous affectant."
+			},
+			"fr-gwiki": {
 				"name": "Zèle arcane",
 				"description": "Pendant 10 secondes, chaque fois que vous lancez un sort, vous gagnez 2 points d'énergie pour chaque enchantement qui vous affecte (2...7 point(s) d'énergie maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Zelo Arcano",
+				"description": "Incantesimo d'Élite. Per 10 secondi, ogni volta che compi una magia, ottieni 2 Punti Energia per ogni incantesimo che hai addosso (max. 2...7 Punti Energia).",
+				"concise": "Incantesimo d'Élite. (Secondi: 10). Energia conseguita per ogni incantesimo su di te ogni volta che lanci una magia: 2 (max 2...7)."
+			},
+			"jp": {
+				"name": "アルカナ ジール",
+				"description": "エリート強化スペル： 10 秒間、スペルを詠唱するたびに、プレイヤーにかけられている強化スペルごとに 2 のエネルギーを獲得します (最大 2...7 のエネルギー) 。",
+				"concise": "エリート強化スペル： (10 秒)スペルを詠唱するたびに、かけられている強化スペルごとに 2 のエネルギーを獲得します (最大 2...7) 。"
+			},
+			"kr": {
+				"name": "비밀스러운 열정",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 10초 동안 마법을 사용할 때마다 자신이 걸린 강화 마법 하나당 2씩, 최대 2...7의 에너지를 얻습니다.",
+				"concise": "엘리트 강화 마법. (10초) 마법을 사용할 때마다 자신이 걸린 강화 마법 하나당 2씩, 최대 2...7의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Tajemna Gorliwość",
+				"description": "Elitarne zaklęcie (czar). Przez 10 sek., za każdym razem, kiedy rzucasz czar, zyskujesz 2 pkt. energii za każde zaklęcie, które masz na sobie (maksymalnie 2...7 pkt. energii).",
+				"concise": "Elitarne zaklęcie (czar). (10 sek.) Za każdym razem, kiedy rzucasz czar, otrzymujesz 2 pkt. energii (maksymalnie 2...7) za każde zaklęcie na tobie."
+			},
+			"ru": {
+				"name": "Arcane Zeal",
+				"description": "Элитное заклинание-чары. В течение 10 сек каждый раз, когда вы произносите заклинание, вы получаете 2 ед. энергии за каждые наложенные на вас чары (максимум 2...7 ед. энергии).",
+				"concise": "Элитное заклинание-чары. (10 сек) Вы получаете 2 ед. энергии за каждые наложенные на вас чары (но не более 2...7 ед. энергии) каждый раз, когда вы произносите заклинание."
+			},
+			"bork": {
+				"name": "Aercune-a Zeael",
+				"description": "Ileete-a Inchuntment Spell. Fur 10 secunds, vhenefer yuoo caest a spell, yuoo gaeeen 2 Inergy fur iaech inchuntment oon yuoo (maexeemoom 2...7 Inergy).",
+				"concise": "Ileete-a Inchuntment Spell. (10 secunds.) Yuoo gaeeen 2 Inergy (maexeemoom 2...7) fur iaech inchuntment oon yuoo vhenefer yuoo caest a spell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "好战之躯",
+				"description": "武咒。 在3...13秒之内，当敌人没有攻击，并被友方目标击中时，敌人的动作将被打断。",
+				"concise": "武咒。 在3...13秒之内，当敌人没有攻击，并被友方目标击中时，敌人的动作将被打断。"
+			},
+			"cht": {
+				"name": "好戰者武裝",
+				"description": "武裝魔法： 持續 3...13 秒，若目標盟友擊中「非攻擊中」的敵人，該名敵人的動作被中斷。",
+				"concise": "武裝魔法： 持續 3...13 秒，若目標盟友擊中「非攻擊中」的敵人，該名敵人的動作被中斷。"
+			},
 			"de": {
+				"name": "Waffe des Kriegshetzers",
+				"description": "Waffenzauber. Während der nächsten 3...13 Sekunde[n] wird jedes Mal, wenn der Verbündete einen Feind angreift, der selbst nicht angreift, dieser Feind unterbrochen.",
+				"concise": "Waffenzauber. 3...13 Sekunde[n]: Angriffe unterbrechen eine Aktion. Unterbricht angreifende Feinde nicht."
+			},
+			"de-guildwiki": {
 				"name": "Waffe des Kriegshetzers",
 				"description": "Während der nächsten 3...13 Sekunden wird jedes Mal, wenn der Verbündete (bzw. Ihr selbst) einen Feind angreift, der selbst nicht angreift, dieser Feind unterbrochen.",
 				"concise": "3...13 Sekunden: Angriffe unterbrechen eine Aktion."
 			},
 			"en": {
 				"name": "Warmonger's Weapon",
+				"description": "Weapon Spell. For 3...13 seconds, if target ally attacks a foe who is not attacking, that foe is interrupted.",
+				"concise": "Weapon Spell. (3...13 seconds.) Attacks interrupt an action. Does not interrupt attacking foes."
+			},
+			"en-gww": {
+				"name": "Warmonger's Weapon",
 				"description": "For 3...13 seconds, if target ally attacks a foe who is not attacking, that foe is interrupted.",
 				"concise": "(3...13 seconds.) Attacks interrupt an action. Does not interrupt attacking foes."
 			},
+			"es": {
+				"name": "Arma del militar",
+				"description": "Conjuro con arma. Durante 3...13 segundos, si el objetivo (un aliado o tú mismo)ataca a un enemigo que no está atacando, le interrumpirá.",
+				"concise": "Conjuro con arma. (3...13 segundos). Los ataques interrumpen una acción. No interrumpe a los enemigos atacando."
+			},
 			"fr": {
+				"name": "Arme du belliciste",
+				"description": "Sort d'altération d'arme. Pendant 3...13 secondes, si la cible (un allié ou vous-même) attaque un ennemi qui n'attaque pas, celui-ci est interrompu.",
+				"concise": "Sort d'altération d'arme. (3...13 secondes.) Les attaques interrompent une action. N'interrompt pas les ennemis qui attaquent."
+			},
+			"fr-gwiki": {
 				"name": "Arme du belliciste",
 				"description": "Pendant 3...13 secondes, si la cible (un allié ou vous-même) attaque un ennemi qui n'attaque pas, celui-ci est interrompu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma del Guerrafondaio",
+				"description": "Magia Altera-arma. Dura 3...13 secondo[i]; se l'obiettivo alleato attacca un nemico che non sta attaccando, lo interrompe.",
+				"concise": "Magia Altera-arma. (Secondi: 3...13) Gli attacchi interrompono un'azione. Non interrompe i nemici all'attacco."
+			},
+			"jp": {
+				"name": "ウォーモンガ ウェポン",
+				"description": "ウェポン スペル： 3...13 秒間、ターゲットした味方が攻撃中ではない敵を攻撃すると、その敵のアクションが中断されます。",
+				"concise": "ウェポン スペル： (3...13 秒) 攻撃によりアクションを中断します。攻撃中の敵のアクションは中断しません。"
+			},
+			"kr": {
+				"name": "전투광의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 3...13초 동안 대상이 공격 중이 아닌 적을 공격하면 그 적은 동작을 방해받습니다.",
+				"concise": "마법 무기. (3...13초) 공격이 적의 동작을 방해합니다. 대상의 공격을 방해하진 않습니다."
+			},
+			"pl": {
+				"name": "Oręż Podżegacza",
+				"description": "Czar z broni. Przez 3...13 sek., jeżeli wybrany sojusznik atakuje przeciwnika, który nie atakuje, to czynność tego przeciwnika zostaje przerwana.",
+				"concise": "Czar z broni. (3...13 sek.) Ataki przerywają czynności. Nie przerywa ataków przeciwników."
+			},
+			"ru": {
+				"name": "Warmonger's Weapon",
+				"description": "Оружейное заклинание. В течение 3...13 сек, если выбранный союзник атакует противника, который не атакует сам, действие этого противника будет прервано.",
+				"concise": "Оружейное заклинание. (3...13 сек) Атаки прерывают действие. Не прерывает атакующих противников."
+			},
+			"bork": {
+				"name": "Vaermunger's Veaepun",
+				"description": "Veaepun Spell. Fur 3...13 secunds, iff taerget aelly aettaecks a fue-a vhu is nut aettaeckeeng, thaet fue-a is interroopted.",
+				"concise": "Veaepun Spell. (3...13 secunds.) Aettaecks interroopt un aecshun. Dues nut interroopt aettaeckeeng fues."
 			}
 		}
 	}

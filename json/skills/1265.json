@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战斗恩赐",
+				"description": "咒文。 治愈目标盟友 15...60 生命。如果该盟友拥有「武咒」类增益，战斗恩赐额外治愈其 15...75 生命。",
+				"concise": "咒文。 治愈目标盟友 15...60 生命。如果该盟友拥有「魔法武器」增益，战斗恩赐额外治愈其 15...75 生命。"
+			},
+			"cht": {
+				"name": "奮戰恩賜",
+				"description": "咒文魔法： 治癒目標盟友 15...60 體力。若該盟友擁有「武裝魔法」加持，奮戰恩賜額外治癒其 15...75 體力。",
+				"concise": "咒文魔法： 治癒目標盟友 15...60 體力。若該盟友擁有「武裝魔法」加持，奮戰恩賜額外治癒其 15...75 體力。"
+			},
 			"de": {
+				"name": "Segen des Ausübers",
+				"description": "Zauber. Heilt Verbündeten (bzw. Euch selbst) um 15...60 Punkt[e]. Wenn dieser Verbündete unter den Auswirkungen eines Waffenzaubers leidet, heilt ihn Segen des Ausübers zusätzlich für 15...75 Lebenspunkt[e].",
+				"concise": "Zauber. Heilt um 15...60 Lebenspunkt[e]. Heilt um weitere 15...75 Lebenspunkt[e], falls der Verbündete (bzw. Ihr selbst) unter dem Einfluss eines Waffenzaubers steht."
+			},
+			"de-guildwiki": {
 				"name": "Segen des Ausübers",
 				"description": "Heilt Verbündeten (bzw. Euch selbst) um 15...60 Punkte. Wenn dieser Verbündete unter den Auswirkungen eines Waffenzaubers leidet, heilt ihn Segen des Ausübers zusätzlich für 15...75 Lebenspunkte.",
 				"concise": "Heilt um 15...60 Lebenspunkte. Heilt um weitere 15...75 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) unter dem Einfluss eines Waffenzaubers steht."
 			},
 			"en": {
 				"name": "Wielder's Boon",
+				"description": "Spell. Heal target ally for 15...60 points. If that ally is under the effects of a weapon spell, Wielder's Boon heals for an additional 15...75 Health.",
+				"concise": "Spell. Heals for 15...60. Heals for 15...75 more if this ally is under a Weapon spell."
+			},
+			"en-gww": {
+				"name": "Wielder's Boon",
 				"description": "Heal target ally for 15...60 points. If that ally is under the effects of a weapon spell, Wielder's Boon heals for an additional 15...75 Health.",
 				"concise": "Heals for 15...60. Heals for 15...75 more if this ally is under a Weapon <sic/> spell."
 			},
+			"es": {
+				"name": "Ventaja del atacante",
+				"description": "Conjuro. Curas al objetivo (un aliado o tú mismo) 15...60 de salud. Si está bajo los efectos de un conjuro de arma, la Ventaja del atacante le curará 15...75 de salud extra.",
+				"concise": "Conjuro. Cura 15...60 de salud. Cura 15...75 de salud extra si este aliado está bajo un conjuro con arma."
+			},
 			"fr": {
+				"name": "Compagnon d'arme",
+				"description": "Sort. Vous soignez la cible (un allié ou vous-même) de 15...60 points de vie. Si cette cible est sous l'effet d'un sort d'altération d'arme, le Compagnon d'arme la soigne de 15...75 points de vie supplémentaires.",
+				"concise": "Sort. Soigne de 15...60 points de vie. Soigne de 15...75 points de vie supplémentaires si cet allié est sous les effets d'un sort d'altération d'arme."
+			},
+			"fr-gwiki": {
 				"name": "Compagnon d'arme",
 				"description": "Vous soignez la cible (un allié ou vous-même) de 15...60 points de vie. Si cette cible est sous l'effet d'un \"Sort d'altération d'arme\", le Compagnon d'arme la soigne de 15...75 points de vie supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Soccorso del Portatore",
+				"description": "Magia. Curi l'obiettivo (un alleato o te stesso) di 15...60 punto[i]; se l'obiettivo è affetto da una magia altera-arma, viene curato di 15...75 Punto[i] Salute in più.",
+				"concise": "Magia. Cure: 15...60. Cura di 15...75 in più se questo alleato è affetto da una magia altera-arma."
+			},
+			"jp": {
+				"name": "ウィルダー ブーン",
+				"description": "スペル： ターゲットした味方は体力が 15...60 回復します。その味方にウェポン スペルがかけられている場合、15...75 の体力が追加回復します。",
+				"concise": "スペル： 体力を 15...60 回復します。ターゲットした味方にウェポン スペルがかけられている場合、15...75 の体力が追加回復します。"
+			},
+			"kr": {
+				"name": "무기의 혜택",
+				"description": "마법. 대상 지정: 아군. 대상의 체력을 15...60 회복시킵니다. 대상이 마법 무기 효과를 가지고 있으면 15...75의 체력을 추가로 회복시킵니다.",
+				"concise": "마법. 15...60의 체력을 회복시킵니다. 대상이 마법 무기 효과를 가지고 있으면 15...75의 체력을 추가로 회복시킵니다."
+			},
+			"pl": {
+				"name": "Dar Posiadacza",
+				"description": "Czar. Uzdrawiasz wybranego sojusznika dodając mu 15...60 pkt. żywotności. Jeżeli ten sojusznik posiada zaczarowaną broń, Dar Posiadacza dodaje dodatkowe 15...75 pkt. żywotności.",
+				"concise": "Czar. Dodaje 15...60 pkt. żywotności. Dodaje dodatkowo 15...75 pkt. żywotności, jeżeli ten sojusznik ma zaczarowaną broń."
+			},
+			"ru": {
+				"name": "Wielder's Boon",
+				"description": "Заклинание. Вы исцеляете выбранного союзника на 15...60 ед. здоровья. Если на этого союзника наложено оружейное заклинание, Wielder's Boon дополнительно исцеляет его на 15...75 ед. здоровья.",
+				"concise": "Заклинание. Исцеляет на 15...60 ед. здоровья. Исцеляет дополнительно на 15...75 ед. здоровья, если этот союзник находится под действием оружейного заклинания."
+			},
+			"bork": {
+				"name": "Veeelder's Buun",
+				"description": "Spell. Heael taerget aelly fur 15...60 pueents. Iff thaet aelly is under zee iffffects ooff a veaepun spell, Veeelder's Buun heaels fur un aeddeeshunael 15...75 Heaelt.",
+				"concise": "Spell. Heaels fur 15...60. Heaels fur 15...75 mure-a iff thees aelly is under a Veaepun spell."
 			}
 		}
 	}

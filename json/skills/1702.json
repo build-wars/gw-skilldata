@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 1,
 		"adrenaline": 7,
 		"adrenaline_precise": 7,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "铁牙刺",
+				"description": "剑术。 命中时，对敌人造成1...31点额外伤害。当你击中倒地的敌人时，你将获得1...5点怒气值。",
+				"concise": "剑术。 命中时，对敌人造成1...31点额外伤害。当你击中倒地的敌人时，你将获得1...5点怒气值。"
+			},
+			"cht": {
+				"name": "鋼牙斬",
+				"description": "劍術攻擊技能： 命中時對目標造成 1...31 傷害，若擊中倒地的敵人，你獲得等同 1...5 次攻擊成功累積的怒氣值。",
+				"concise": "劍術攻擊技能： 命中時對目標造成 1...31 傷害，若擊中倒地的敵人，你獲得等同 1...5 次攻擊成功累積的怒氣值。"
+			},
 			"de": {
+				"name": "Hieb des stählernen Fangzahns",
+				"description": "Schwertangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...31 Punkt[e] Schaden zu. Wenn Ihr einen Gegner trefft, der zu Boden geworfen wurde, erhaltet Ihr 1...5 Adrenalin.",
+				"concise": "Schwertangriff. Richtet +1...31 Punkt[e] Schaden an. Ihr erhaltet 1...5 Adrenalinstöße, falls Gegner zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Hieb des stählernen Fangzahns",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...31 Punkte Schaden zu. Wenn Ihr einen Gegner trefft, der zu Boden geworfen wurde, erhaltet Ihr 1...5 Adrenalin.",
 				"concise": "Richtet +1...31 Punkte Schaden an. Ihr erhaltet 1...5 Adrenalinstöße, falls Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Steelfang Slash",
+				"description": "Sword Attack. If this attack hits, you deal +1...31 damage. If you hit a foe that is knocked down, you gain 1...5 adrenaline.",
+				"concise": "Sword Attack. Deals +1...31 damage. You gain 1...5 adrenaline if target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Steelfang Slash",
 				"description": "If this attack hits, you deal +1...31 damage. If you hit a foe that is knocked down, you gain 1...5 adrenaline.",
 				"concise": "Deals +1...31 damage. You gain 1...5 adrenaline if target foe is knocked down."
 			},
+			"es": {
+				"name": "Golpe de los colmillos de acero",
+				"description": "Ataque con espada. Si este ataque impacta, harás +1...31 de daño. Si golpeas a un objetivo derribado, ganarás 1...5 de adrenalina.",
+				"concise": "Ataque con espada. Hace +1...31 de daño. Ganas 1...5 de adrenalina si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Frappe Croc-d'acier",
+				"description": "Attaque à l'épée. Si cette attaque réussit, vous infligez +1...31 points de dégâts. Si vous frappez un ennemi assommé, vous bénéficiez de 1...5 décharges d'adrénaline.",
+				"concise": "Attaque à l'épée. Inflige +1...31 points de dégâts. Vous gagnez 1...5 décharges d'adrénaline si l'ennemi visé est assommé."
+			},
+			"fr-gwiki": {
 				"name": "Frappe Croc-d'acier",
 				"description": "Si cette attaque réussit, vous infligez +1...31 point(s) de dégâts. Si vous frappez un ennemi assommé, vous bénéficiez de 1...5 décharge(s) d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente Zanna d'Acciaio",
+				"description": "Attacco con Spada. Se questo attacco va a segno, infliggi +1...31 danno[i]; se colpisci un nemico in terra, ottieni 1...5 dose[i] di Adrenalina.",
+				"concise": "Attacco con Spada. Danni inferti: +1...31. Adrenalina conseguita se l'obiettivo nemico è stato abbattuto: 1...5."
+			},
+			"jp": {
+				"name": "スチールファング スラッシュ",
+				"description": "ソード アタック： この攻撃が成功すると、1...31 の追加ダメージを与えます。転倒している敵に攻撃が命中すると、プレイヤーは 1...5 のアドレナリンを獲得します。",
+				"concise": "ソード アタック： 1...31 の追加ダメージを与えます。ターゲットした敵が転倒中の場合、プレイヤーは 1...5 発のアドレナリンを獲得します。"
+			},
+			"kr": {
+				"name": "강철이빨 베기",
+				"description": "칼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 1...31의 대미지를 추가로 줍니다. 그 대상이 넘어져 있으면 자신은 1...5의 아드레날린을 얻습니다.",
+				"concise": "칼 공격. 1...31의 대미지를 추가로 줍니다. 대상이 넘어져 있으면 자신은 1...5의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Cięcie Stalowego Kła",
+				"description": "Atak mieczem. Jeśli atak trafi, zadaje +1...31 pkt. obrażeń. Jeśli trafisz powalonego przeciwnika, otrzymujesz dawki adrenaliny w liczbie: 1...5.",
+				"concise": "Atak mieczem. Zadaje +1...31 pkt. obrażeń. Otrzymujesz dawki adrenaliny w liczbie 1...5, jeżeli wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Steelfang Slash",
+				"description": "Атака мечом. Если эта атака попадает в цель, вы наносите дополнительно 1...31 ед. урона. Если вы попали по противнику, который сбит с ног, вы получаете 1...5 ед. адреналина.",
+				"concise": "Атака мечом. Наносит дополнительно 1...31 ед. урона. Вы получаете 1...5 ед. адреналина, если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Steelffung Slaesh",
+				"description": "Svurd Aettaeck. Iff thees aettaeck heets, yuoo deael +1...31 daemaege-a. Iff yuoo heet a fue-a thaet is knucked doon, yuoo gaeeen 1...5 aedrenaeleene-a.",
+				"concise": "Svurd Aettaeck. Deaels +1...31 daemaege-a. Yuoo gaeeen 1...5 aedrenaeleene-a iff taerget fue-a is knucked-doon."
 			}
 		}
 	}

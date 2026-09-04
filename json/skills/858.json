@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "匕首飞舞",
+				"description": "咒文。 对目标敌人连续射出三把匕首。每把匕首在命中时会对目标造成5...35点地系伤害。此技能的施放距离只有正常技能的一半。",
+				"concise": "半程法术。 对目标敌人连续射出三把匕首。每把匕首在命中时会对目标造成 5...35点 地系伤害。此技能的施放距离只有正常技能的一半。"
+			},
+			"cht": {
+				"name": "飛舞匕首",
+				"description": "咒文魔法： 對目標敵人射出 3 把匕首。每把匕首在命中時對目標造成 5...35 土系傷害。此「魔法」的有效施展距離是正常的一半，而且可視為「引導攻擊」使用。",
+				"concise": "半距魔法： 對目標敵人射出 3 把匕首。每把匕首在命中時對目標造成 5...35 土系傷害。此「魔法」的有效施展距離是正常的一半，而且可視為「引導攻擊」使用。"
+			},
 			"de": {
+				"name": "Tanzende Dolche",
+				"description": "Zauber. Drei Tanzende Dolche fliegen auf den Gegner zu. Jeder einzelne fügt bei einem Treffer 5...35 Punkt[e] Erdschaden zu. Tanzende Dolche hat nur die halbe Reichweite. Diese Fertigkeit zählt als Leithandangriff",
+				"concise": "Mitteldistanz-Zauber. Drei Geschosse: Richten je 5...35 Punkt[e] Erdschaden an. Zählt als Leithandangriff."
+			},
+			"de-guildwiki": {
 				"name": "Tanzende Dolche",
 				"description": "Drei Tanzende Dolche fliegen auf den Gegner zu. Jeder einzelne fügt bei einem Treffer 5...35 Punkte Erdschaden zu. Tanzende Dolche hat nur die halbe Reichweite. Diese Fertigkeit zählt als Leithandangriff.",
 				"concise": "Drei Geschosse: Richten je 5...35 Punkte Erdschaden an. Zählt als Leithandangriff."
 			},
 			"en": {
 				"name": "Dancing Daggers",
+				"description": "Spell. Send out three Dancing Daggers at target foe, each striking for 5...35 earth damage if they hit. Dancing Daggers has half the normal range. This skill counts as a lead attack.",
+				"concise": "Half Range Spell. Three projectiles: each deals 5...35 earth damage. Counts as a lead attack."
+			},
+			"en-gww": {
+				"name": "Dancing Daggers",
 				"description": "Send out three Dancing Daggers at target foe, each striking for 5...35 earth damage if they hit. Dancing Daggers has half the normal range. This skill counts as a lead attack.",
 				"concise": "Half Range Spell. Three projectiles: each deals 5...35 earth damage. Counts as a lead attack."
 			},
+			"es": {
+				"name": "Dagas danzantes",
+				"description": "Conjuro. Lanzas tres Dagas danzantes al enemigo, que hacen 5...35 de daño de tierra al impactar. Tienen la mitad de alcance de lo normal. Esta habilidad cuenta como un ataque inicial.",
+				"concise": "Conjuro con mitad de alcance. Tres proyectiles: cada uno hace 5...35 de daño de tierra. Cuenta como un ataque inicial."
+			},
 			"fr": {
+				"name": "Valse des dagues",
+				"description": "Sort. Vous lancez trois Valses des dagues contre la cible ennemie. Chacune inflige 5...35 points de dégâts de la terre si elle fait mouche. La portée de cette compétence est réduite de moitié. Cette compétence est considérée comme une attaque main droite.",
+				"concise": "Sort de moitié de portée. Trois projectiles : chacun inflige 5...35 points de dégâts de la Terre. Est considérée comme une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Valse des dagues",
 				"description": "Vous lancez trois ''Valses des dagues'' contre la cible ennemie. Chacune inflige 5...35 points de dégâts de la terre si elle fait mouche. La portée de cette compétence est réduite de moitié. Cette compétence est considérée comme une attaque main droite.",
 				"concise": "Trois projectiles : chacun inflige 5...35 points de dégâts de la terre. Est considérée comme une attaque main droite."
+			},
+			"it": {
+				"name": "Pugnali Danzanti",
+				"description": "Magia. Scagli tre Pugnali Danzanti contro l'obiettivo nemico; ogni pugnale infliggerà 5...35 danno[i] da terra se va a segno; la loro portata è la metà del normale. Questa abilità viene considerata un attacco con arma primaria.",
+				"concise": "Magia a Portata Dimezzata. Tre proiettili. Danni da terra inferti da ognuno: 5...35. Vale come attacco con arma primaria."
+			},
+			"jp": {
+				"name": "ダンシング ダガー",
+				"description": "スペル： ターゲットした敵に、命中すると 5...35 のアース ダメージを与えるダガーを3本投げつけます。ます。このスペルの射程は通常の半分です。このスペルはリード アタックとみなされます。",
+				"concise": "スペル (半分の効果範囲)： 3回の遠投攻撃： それぞれの攻撃で 5...35 のアース ダメージを与えます。この攻撃はリード アタックとみなされます。"
+			},
+			"kr": {
+				"name": "춤추는 비수",
+				"description": "마법. 대상 지정: 적. 대상에게 3개의 춤추는 비수를 날려 각각 5...35의 대지 대미지를 줍니다. 이 스킬은 사정거리가 다른 스킬의 절반입니다. 주 공격의 역할도 합니다.",
+				"concise": "마법(사거리 절반). 발사체 3개: 적. 각각 5...35의 대지 대미지를 줍니다. 주 공격의 역할을 합니다."
+			},
+			"pl": {
+				"name": "Tańczące Sztylety",
+				"description": "Czar. Wyślij trzy Tańczące Sztylety, z których każdy, jeżeli trafi, zadaje wybranemu przeciwnikowi 5...35 pkt. obrażeń od ziemi. Tańczące Sztylety posiadają zasięg dwa razy mniejszy niż zwykły czar. Ta umiejętność liczy się jako atak poprzedzający.",
+				"concise": "Czar o połowie zasięgu. Trzy pociski: każdy zadaje 5...35 pkt. obrażeń od ziemi. Traktuje się jako atak poprzedzający."
+			},
+			"ru": {
+				"name": "Dancing Daggers",
+				"description": "Заклинание. Бросок тремя кинжалами по выбранному противнику; каждое попадание наносит противнику 5...35 ед. урона силой земли. Dancing Daggers имеет меньшую дальность. Это умение засчитывается как ведущая атака.",
+				"concise": "Заклинание на среднее расстояние. Три метательных снаряда: каждый наносит 5...35 ед. урона силой земли. Засчитывается как ведущая атака."
+			},
+			"bork": {
+				"name": "Dunceeng Daeggers",
+				"description": "Spell. Send oooot three-a Dunceeng Daeggers aet taerget fue-a, iaech streekeeng fur 5...35 iaert daemaege-a iff zeey heet. Dunceeng Daeggers haes haelff zee nurmael runge-a. Thees skeell cuoonts aes a leaed aettaeck.",
+				"concise": "Haelff Runge-a Spell. Three-a prujecteeles: iaech deaels 5...35 iaert daemaege-a. Cuoonts aes a leaed aettaeck."
 			}
 		}
 	}

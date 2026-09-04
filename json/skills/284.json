@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神之恩赐",
+				"description": "增益魔法。 当你维持此「增益魔法」时，每当你以友方为目标施放僧侣系魔法，会为其恢复15...60点生命值，而你失去 1点 能量。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，每当你以友方为目标施放僧侣系魔法，会为其恢复15...60点生命值，而你失去 1点 能量。"
+			},
+			"cht": {
+				"name": "神之恩賜",
+				"description": "加持魔法： 維持此加持時，每當你對目標盟友使用神恩或者防護祈禱屬性的魔法時，該盟友被治療15...60體力，同時你失去1能量。",
+				"concise": "加持魔法： 維持此加持時，每當你對目標盟友使用神恩或者防護祈禱屬性的魔法時，該盟友被治療15...60體力，同時你失去1能量。"
+			},
 			"de": {
+				"name": "Göttlicher Segen",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, wird jedes Mal, wenn Ihr ein Schutzgebet oder Gunst der Götter auf einen Verbündeten wirkt, dieser um 15...60 Lebenspunkt[e] geheilt und Ihr verliert 1 Energiepunkte.",
+				"concise": "Verzauberung. Wenn Ihr ein Schutzgebet oder Gunst der Götter auf einen Verbündeten wirkt, wird dieser um 15...60 Lebenspunkt[e] geheilt. Heilkosten: Ihr verliert 1 Energiepunkt."
+			},
+			"de-guildwiki": {
 				"name": "Göttlicher Segen",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, wird jedes Mal, wenn Ihr ein Schutzgebete- oder Gunst der Götter-Zauber mit Ziel auf einen Verbündeten (bzw. Euch selbst) wirkt, das Ziel um 15...60 Lebenspunkte geheilt und Ihr verliert 1 Energiepunkt.",
 				"concise": "Wenn Ihr eine Schutzgebet oder Gunst der Götter auf einen Verbündeten wirkt, wird dieser um 15...60 Lebenspunkte geheilt. <gray>Heilkosten: Ihr verliert 1 Energiepunkt.</gray>"
 			},
 			"en": {
 				"name": "Divine Boon",
+				"description": "Enchantment Spell. While you maintain this enchantment, whenever you cast a Protection Prayer or Divine Favor spell that targets an ally, that ally is healed for 15...60 Health, and you lose 1 Energy.",
+				"concise": "Enchantment Spell. Whenever you cast a Protection Prayer or Divine Favor spell on an ally, that ally is healed for 15...60. Heal cost: you lose 1 Energy."
+			},
+			"en-gww": {
+				"name": "Divine Boon",
 				"description": "While you maintain this enchantment, whenever you cast a Protection Prayer <sic/> or Divine Favor spell that targets an ally, that ally is healed for 15...60 Health, and you lose 1 Energy.",
 				"concise": "Whenever you cast a Protection Prayer <sic/> or Divine Favor spell on an ally, that ally is healed for 15...60. <gray>Heal cost: you lose 1 Energy.</gray>"
 			},
+			"es": {
+				"name": "Ayuda divina",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, siempre que lances un conjuro de plegaria de protección o favor divino sobre un aliado, éste recuperará 15...60 de salud y tú perderás 1 de energía.",
+				"concise": "Conjuro con encantamiento. Cada vez que lances un conjuro de plegaria de protección o favor divino sobre un aliado, éste recuperará 15...60 de salud. Coste de la curación: perderás 1 de energía."
+			},
 			"fr": {
+				"name": "Bienfait divin",
+				"description": "Enchantement. Tant que cet enchantement est actif, à chaque fois que vous lancez un sort de Prière de protection ou de Faveur divine qui vise un allié, celui-ci est soigné de 15...60 points de vie et vous perdez 1 points d'énergie.",
+				"concise": "Enchantement. Chaque fois que vous lancez un sort de Prière de protection ou de Faveur divine visant un allié, celui-ci est soigné de 15...60 points de vie. Coût de la guérison : vous perdez 1 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Bienfait divin",
 				"description": "Tant que cet enchantement est actif, à chaque fois que vous lancez un sort de Prières de protection ou de Faveur divine qui vise un allié, celui-ci est soigné de 15...60 points de vie et vous perdez 1 points d'énergie.",
 				"concise": "Chaque fois que vous lancez un sort de Prières de Protection ou de Faveur divine visant un allié, celui-ci est soigné de 15...60 point de vie. <gray>Coût de la guérison : vous perdez 1 point d'énergie.</gray>"
+			},
+			"it": {
+				"name": "Dono Divino",
+				"description": "Incantesimo. Mentre mantieni quest'incantesimo, ogni volta che lanci una Preghiera Protettiva o un Favore Divino su un obiettivo (un alleato o te stesso) lo curi di 15...60 Punti Salute e perdi 1 Punto Energia.",
+				"concise": "Incantesimo. Cure per l'obiettivo (un alleato o te stesso) su cui lanci una Preghiera Protettiva o un Favore Divino: 15...60. Costo delle cure: perdi 1 Punto Energia."
+			},
+			"jp": {
+				"name": "ディヴァイン ブーン",
+				"description": "強化スペル： この強化スペルを持続させている間、味方に対して「プロテクション」または「ディヴァイン」の特性スペルを詠唱するたびに、その味方は体力が 15...60 回復し、プレイヤーは1のエネルギーを失います。",
+				"concise": "強化スペル： 味方に対して「プロテクション」または「ディヴァイン」の特性スペルを詠唱するたびに、その味方は体力が 15...60 回復します。回復コスト： プレイヤーのエネルギーが1減少します。"
+			},
+			"kr": {
+				"name": "은총의 세례",
+				"description": "강화 마법. 대상 지정: 없음. 이 강화 마법이 유지되는 동안 아군에게 보호 특성이나 신의 은총 특성 마법을 걸 때마다 그 아군은 15...60의 체력을 회복하고, 당신은 1의 에너지를 잃습니다.",
+				"concise": "강화 마법. 대상 아군에게 보호 특성이나 신의 은총 특성 마법을 걸 때 대상은 15...60의 체력을 회복합니다. 회복 대가: 자신은 1의 에너지를 잃습니다."
+			},
+			"pl": {
+				"name": "Boski Dar",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, za każdym razem, kiedy rzucisz czar z grupy Modlitw Ochronnych lub Łaski Bogów, którego celem jest sojusznik, osoba ta otrzymuje 15...60 pkt. żywotności, a ty tracisz 1 punkty energii.",
+				"concise": "Zaklęcie (czar). Dodaje wybranemu sojusznikowi 15...60 pkt. żywotności, za każdym razem, kiedy rzucisz na niego czar z grupy Modlitw Ochronnych lub Łaski Bogów. Koszt uzdrowienia: tracisz 1 pkt. energii."
+			},
+			"ru": {
+				"name": "Divine Boon",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, каждый раз, когда вы произносите какое-либо заклинание, связанное с талантом Protection Prayer или Divine Favor, направленное на союзника, этот союзник исцеляется на 15...60 ед. здоровья, а вы теряете 1 ед. энергии.",
+				"concise": "Заклинание-чары. Каждый раз, когда вы используете заклинание, связанное с талантом Protection Prayer или Divine Favor, направленное на союзника, этот союзник исцеляется на 15...60 ед. здоровья. Цена исцеления: вы теряете 1 ед. энергии."
+			},
+			"bork": {
+				"name": "Deefeene-a Buun",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, vhenefer yuoo caest a Prutecshun Praeyer oor Deefeene-a Faefur spell thaet taergets un aelly, thaet aelly is heaeled fur 15...60 Heaelt, und yuoo luse-a 1 Inergy.",
+				"concise": "Inchuntment Spell. Vhenefer yuoo caest a Prutecshun Praeyer oor Deefeene-a Faefur spell oon un aelly, thaet aelly is heaeled fur 15...60. Heael cust: yuoo luse-a 1 Inergy."
 			}
 		}
 	}

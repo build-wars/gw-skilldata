@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "制裁干涉",
+				"description": "增益魔法。 在10秒之内，下一次当友方目标受到致命一击时，伤害将被吸收，并且对附近的一名敌人造成30...180点伤害。",
+				"concise": "增益魔法。 在10秒之内，下一次当友方目标受到致命一击时，伤害将被吸收，并且对附近的一名敌人造成30...180点伤害。"
+			},
+			"cht": {
+				"name": "審判干涉",
+				"description": "加持魔法： 持續 10 秒，「下一次」目標盟友受到致死的傷害時，該傷害無效並且使附近的一名敵人受到 30...180 神聖傷害。",
+				"concise": "加持魔法： 持續 10 秒，「下一次」目標盟友受到致死的傷害時，該傷害無效並且使附近的一名敵人受到 30...180 傷害。"
+			},
 			"de": {
+				"name": "Intervention des Richters",
+				"description": "Verzauberung. 10 Sekunden lang wird das nächste Mal, wenn der Verbündete (oder Ihr selbst) Schaden erleidet, der tödlich wäre, dieser Schaden aufgehoben und ein Feind in der Nähe erleidet 30...180 Punkt[e] heiligen Schaden.",
+				"concise": "Verzauberung. 10 Sekunden: Hebt den nächsten Schaden auf, der zum Tod führen würde. Aufhebungswirkung: Richtet bei einem Feind in der Nähe des Verbündeten (bzw. Euch selbst) 30...180 Punkt[e] heiligen Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Intervention des Richters",
 				"description": "10 Sekunden lang wird das nächste Mal, wenn der Verbündete (oder Ihr selbst) Schaden erleidet, der tödlich wäre, dieser Schaden aufgehoben und ein Feind in der Nähe erleidet 30...180 Punkte heiligen Schaden.",
 				"concise": "10 Sekunden: Hebt den nächsten Schaden auf, der zum Tod führen würde. Aufhebungswirkung: Richtet bei einem Feind in der Nähe des Verbündeten (bzw. Euch selbst) 30...180 Punkte heiligen Schaden an."
 			},
 			"en": {
 				"name": "Judge's Intervention",
+				"description": "Enchantment Spell. For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and one nearby foe takes 30...180 holy damage.",
+				"concise": "Enchantment Spell. (10 seconds.) Negates the next fatal damage. Negation effect: deals 30...180 holy damage to one foe near target ally."
+			},
+			"en-gww": {
+				"name": "Judge's Intervention",
 				"description": "For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and one nearby foe takes 30...180 holy damage.",
 				"concise": "(10 seconds.) Negates the next fatal damage. Negation effect: deals 30...180 holy damage to one foe near target ally."
 			},
+			"es": {
+				"name": "Intervención del juez",
+				"description": "Conjuro con encantamiento. Durante 10 segundos, la próxima vez que el objetivo (un aliado o tú mismo) reciba daño que podría ser letal, el daño se bloquea y haces 30...180 de daño sagrado a un enemigo cercano.",
+				"concise": "Conjuro con encantamiento. (10 segundos.) Impide el siguiente ataque crítico. Efecto: hace 30...180 de daño sagrado a un enemigo cercano al objetivo (un aliado o tú mismo)."
+			},
 			"fr": {
+				"name": "Intervention du juge",
+				"description": "Enchantement. Pendant 10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts qui devraient être fatals, ces dégâts sont annulés et un ennemi à proximité subit 30...180 points de dégâts sacrés.",
+				"concise": "Enchantement. (10 secondes.) Annule les dégâts mortels suivants. Effet de l'annulation : inflige 30...180 points de dégâts sacrés à un ennemi près de l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Intervention du juge",
 				"description": "Pendant 10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts qui devraient être fatals, ces dégâts sont annulés et un ennemi à proximité reçoit 30...180 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Intervento del Giudice",
+				"description": "Incantesimo. Per 10 secondi, la prossima volta che l'obiettivo (un alleato o te stesso) riceve un danno che dovrebbe essere fatale, questo si annulla e un nemico nei dintorni subisce 30...180 danno[i] sacro[i].",
+				"concise": "Incantesimo. (Secondi: 10) Previene il prossimo danno fatale. Effetto della prevenzione: 30...180 danno[i] sacro[i] ad un nemico vicino all'obiettivo alleato."
+			},
+			"jp": {
+				"name": "ジャッジ インタベンション",
+				"description": "強化スペル： 10秒間、ターゲットした味方に対して致命的となる最初のダメージを無効にし、周囲の敵1体に 30...180 の神聖ダメージを与えます。",
+				"concise": "強化スペル： (10秒) 次に受ける致命的なダメージを無効にします。無効効果： ターゲットした味方の周囲にいる敵1体に 30...180 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "심판의 반전",
+				"description": "강화 마법. 대상 지정: 아군. 10초 동안 대상이 죽을 만한 공격을 받으면 대미지를 입지 않고 부근의 적 하나가 30...180의 신성 대미지를 받습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "강화 마법. (10초) 대상 아군이 죽을 만한 대미지를 받을 때 그 대미지를 무시합니다. 무시 효과: 대상 부근의 적 하나에게 30...180의 대미지를 줍니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Interwencja Sędziego",
+				"description": "Zaklęcie (czar). Przez 10 sek., kiedy następnym razem wybrany sojusznik ma otrzymać śmiertelne obrażenia, to są one negowane, a jeden przeciwnik w pobliżu otrzymuje 30...180 pkt. świętych obrażeń.",
+				"concise": "Zaklęcie (czar). (10 sek.) Neguje następne śmiertelne obrażenia. Efekt zanegowania: przeciwnikowi w pobliżu wybranego sojusznika zadaje 30...180 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Judge's Intervention",
+				"description": "Заклинание-чары. На 10 секунд для выбранного союзника удар, который мог бы быть смертельным, нейтрализуется, а ближайший враг получает 30...180 ед. святого урона.",
+				"concise": "Заклинание-чары. (10 сек) Отменяет следующий урон, который бы стал смертельным. Эффект отмены: наносит 30...180 ед. урона одному противнику поблизости от выбранного союзника."
+			},
+			"bork": {
+				"name": "Joodge-a's Interfenshun",
+				"description": "Inchuntment Spell. Fur 10 secunds, zee next teeme-a taerget aelly receeefes daemaege-a thaet vuoold be-a faetael, zee daemaege-a is negaeted und oone-a neaerby fue-a taekes 30...180 huly daemaege-a.",
+				"concise": "Inchuntment Spell. (10 secunds.) Negaetes zee next faetael daemaege-a. Negaeshun iffffect: deaels 30...180 huly daemaege-a tu oone-a fue-a neaer taerget aelly."
 			}
 		}
 	}

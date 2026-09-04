@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法收割",
+				"description": "近战技能。 命中时，根据你所带有的「增益魔法」数量，每一个对敌人造成3...12点额外伤害。（最多3...12点额外伤害）",
+				"concise": "近战技能。 命中时，根据你所带有的「增益魔法」数量，每一个对敌人造成3...12点额外伤害。（最多3...12点额外伤害）"
+			},
+			"cht": {
+				"name": "祕法掃蕩",
+				"description": "近身攻擊技能： 命中時造成 3...12 額外傷害，若你有加持效果，則再造成 3...12 額外傷害。",
+				"concise": "近身攻擊技能： 命中時造成 3...12 額外傷害，若你有加持效果，則再造成 3...12 額外傷害。"
+			},
 			"de": {
+				"name": "Mystischer Schwung",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, verursacht Ihr +3...12 Punkt[e] Schaden. Wenn Ihr verzaubert seid, fügt dieser Angriff zusätzlich +3...12 Punkt[e] Schaden zu.",
+				"concise": "Nahkampfangriff. Richtet +3...12 Punkt[e] Schaden an. Richtet zusätzlich +3...12 Punkt[e] Schaden an, wenn Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Mystischer Schwung",
 				"description": "Wenn dieser Angriff erfolgreich ist, verursacht Ihr +3...12 Punkte Schaden. Wenn ihr verzaubert seid, fügt dieser Angriff zusätzlich +3...12 Punkte Schaden zu.",
 				"concise": "Richtet +3...12 Punkte Schaden an. Richtet zusätzlich +3...12 Punkte Schaden an, wenn Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Mystic Sweep",
+				"description": "Melee Attack. If this attack hits, you deal +3...12 damage. If you are enchanted, this attack deals an additional +3...12 damage.",
+				"concise": "Melee Attack. Deals +3...12 damage. Deals an additional +3...12 damage if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Mystic Sweep",
 				"description": "If this attack hits, you deal +3...12 damage. If you are enchanted, this attack deals an additional +3...12 damage.",
 				"concise": "Deals +3...12 damage. Deals an additional +3...12 damage if you are enchanted."
 			},
+			"es": {
+				"name": "Barrido místico",
+				"description": "Ataque cuerpo a cuerpo. Si impacta, este ataque hace +3...12 de daño. Si estás encantado, este ataque hace +3...12 de daño adicional.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +3...12 de daño. Hace +3...12 de daño adicional si estás encantado."
+			},
 			"fr": {
+				"name": "Fauchage mystique",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, elle inflige +3...12 points de dégâts. Si vous êtes sous l'effet d'un enchantement, cette attaque inflige +3...12 points de dégâts supplémentaires.",
+				"concise": "Attaque au corps à corps. Inflige +3...12 points de dégâts. Inflige +3...12 points de dégâts supplémentaires si vous êtes sous l'effet d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Fauchage mystique",
 				"description": "Si cette attaque réussit, vous infligez +5...10 points de dégâts pour chaque enchantement vous affectant (maximum 30 points de dégâts supplémentaires).",
 				"concise": "Inflige +5...10 points de dégâts (maximum : +30) par enchantement vous affectant."
+			},
+			"it": {
+				"name": "Falciata Mistica",
+				"description": "Attacco Ravvicinato. Se l'attacco va a segno, infligge +3...12 danni. Se sei sotto incantesimo, questo attacco infligge inoltre +3...12 danni.",
+				"concise": "Attacco Ravvicinato. Danni inferti: +3...12. Danni aggiuntivi inferti: +3...12 se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ミスティック スウィープ",
+				"description": "メーレー アタック： この攻撃が成功すると、3...12 の追加ダメージを与えます。プレイヤーに強化スペルがかけられている場合、この攻撃はさらに 3...12 の追加ダメージを与えます。",
+				"concise": "メーレー アタック： 3...12 の追加ダメージを与えます。プレイヤーに強化スペルがかけられている場合、さらに 3...12 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "신비로운 휘두름",
+				"description": "근접 물리 공격. 대상 지정: 적. 공격이 성공하면 3...12의 대미지를 추가로 줍니다. 자신이 강화 마법에 걸려 있으면 거기에 3...12의 대미지를 추가로 줍니다.",
+				"concise": "근접 물리 공격. 3...12의 대미지를 추가로 줍니다. 자신에게 강화 마법이 걸려 있으면 거기에 더해 3...12의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Mistyczny Zamach",
+				"description": "Atak wręcz. Jeśli ten atak dojdzie celu, zadajesz +3...12 pkt. obrażeń. Jeśli znajdujesz się pod wpływem zaklęcia, atak ten zadaje dodatkowe +3...12 pkt. obrażeń.",
+				"concise": "Atak wręcz. Zadaje +3...12 pkt. obrażeń. Zadaje +3...12 pkt. obrażeń, jeżeli jesteś pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Mystic Sweep",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 3...12 ед. урона. Если на вас наложены чары, эта атака наносит дополнительно еще 3...12 ед. урона.",
+				"concise": "Рукопашная атака. Наносит дополнительно 3...12 ед. урона. Наносит дополнительно еще 3...12 ед. урона, если на вас наложены чары."
+			},
+			"bork": {
+				"name": "Mysteec Sveep",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo deael +3...12 daemaege-a. Iff yuoo aere-a inchunted, thees aettaeck deaels un aeddeeshunael +3...12 daemaege-a.",
+				"concise": "Melee-a Aettaeck. Deaels +3...12 daemaege-a. Deaels un aeddeeshunael +3...12 daemaege-a iff yuoo aere-a inchunted."
 			}
 		}
 	}

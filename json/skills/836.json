@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "导电",
+				"description": "精英咒文。 你搭乘闪电飞向目标敌人，对其造成 10...70点 闪电伤害。此魔法有 25% 的护甲穿透效果，同时会造成施法者的「疲劳」状态。",
+				"concise": "精英咒文。 你搭乘闪电飞向目标敌人，对其造成 10...70点 闪电伤害。此魔法有 25% 的护甲穿透效果，同时会造成施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "閃電傳送",
+				"description": "精英咒文魔法： 你搭乘閃電飛向目標敵人，對其造成 10...70 閃電傷害以及有 25% 的防禦穿透。另外此魔法會造成施法者精疲力竭。",
+				"concise": "精英咒文魔法： 你搭乘閃電飛向目標敵人，對其造成 10...70 閃電傷害以及有 25% 的防禦穿透。另外此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Den Blitz reiten",
+				"description": "Elite-Zauber. Der Blitz bringt Euch zum Ziel. Alle umstehenden Feinde werden 1...5 Sekunde[n] lang geblendet. Wenn Euer Ziel ein Gegner ist, erleidet er 10...70 Punkt[e] Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Elite-Zauber. Richtet 10...70 Punkt[e] Blitzschaden an. 25% Rüstungsdurchdringung. Blendet alle umstehenden Feinde. (1...5 Sekunde[n]). Ihr bewegt Euch sofort zu Eurem Ziel. Das Ziel kann ein Verbündeter sein."
+			},
+			"de-guildwiki": {
 				"name": "Den Blitz reiten",
 				"description": "Unternehmt einen Schattenschritt zum Ziel. Alle umstehenden Feinde werden 1...5 Sekunden lang geblendet. Wenn Euer Ziel ein Gegner ist, erleidet er 10...70 Punkte Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...70 Punkte Blitzschaden an. 25% Rüstungsdurchdringung. Blendet alle umstehenden Feinde. (1...5 Sekunden). Schattenschritt zum Ziel. Das Ziel kann ein Verbündeter sein."
 			},
 			"en": {
 				"name": "Ride the Lightning",
+				"description": "Elite Spell. You Ride the Lightning to target. All adjacent foes are Blinded for 1...5 seconds. If your target is a foe, it is struck for 10...70 lightning damage. This spell has 25% armor penetration.",
+				"concise": "Elite Spell. Deals 10...70 lightning damage. 25% armor penetration. Blinds all adjacent foes (1...5 seconds). You instantly move to your target. May target allies."
+			},
+			"en-gww": {
+				"name": "Ride the Lightning",
 				"description": "You Ride the Lightning to target. All adjacent foes are Blinded for 1...5 second[s]. If your target is a foe, it is struck for 10...70 lightning damage. This spell has 25% armor penetration.",
 				"concise": "Deals 10...70 lightning damage. 25% armor penetration. Blinds all adjacent foes (1...5 second[s]). You instantly move to your target. May target allies."
 			},
+			"es": {
+				"name": "Cabalga en el rayo",
+				"description": "Conjuro de élite. Cabalgas hacia el objetivo sobre un relámpago. Todos los enemigos cercanos quedan cegados durante 1...5 segundos. Si tu objetivo es un enemigo, recibe 10...70 de daño de relámpago. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro de élite. Causa 10...70 de daño de relámpago. 25% de penetración de armadura. Causa ceguera a los enemigos adyacentes (1...5 segundos). Llegas a tu objetivo inmediatamente. Se puede lanzar sobre aliados."
+			},
 			"fr": {
+				"name": "Chevauchée de l'éclair",
+				"description": "Sort d'élite. Vous rejoignez la cible à la vitesse de l'éclair. Tous les ennemis adjacents sont aveuglés pendant 1...5 secondes. Si votre cible est un ennemi, il subit 10...70 points de dégâts de la foudre. Ce sort a une pénétration d'armure de 25%.",
+				"concise": "Sort d'élite. Inflige 10...70 points de dégâts de la foudre. 25% de pénétration d'armure. Aveugle tous les ennemis adjacents (1...5 secondes). Vous rejoignez la cible instantanément. La cible peut être un allié."
+			},
+			"fr-gwiki": {
 				"name": "Chevauchée de l'éclair",
 				"description": "Vous menez l'éclair sur l'ennemi visé. Celui-ci reçoit 10...100 points de dégâts de la foudre. Ce sort entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Cavalca il Fulmine",
+				"description": "Magia d'Élite. Cavalchi il fulmine contro l'obiettivo. Tutti i nemici adiacenti vengono accecati per 1...5 secondi. Se l'obiettivo è un nemico, subisce 10...70 danni da fulmine. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia d'Élite. Danni da fulmine inferti: 10...70. Penetrazione armatura: 25%. Condizione inflitta a tutti i nemici adiacenti: Accecamento (1...5 secondi). Ti sposti all'istante verso il tuo obiettivo. Gli alleati possono essere un bersaglio."
+			},
+			"jp": {
+				"name": "ライトニング ライド",
+				"description": "エリート スペル： ターゲットのそばに瞬間移動し、隣接するすべての敵を 1...5 秒間「盲目」状態にします。ターゲットが敵の場合、10...70 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "エリート スペル： 10...70 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。隣接するすべての敵を「盲目」状態にします (1...5 秒)。ターゲットした相手のそばに瞬間移動しますが、その際、味方をターゲットすることもできます。"
+			},
+			"kr": {
+				"name": "번개 이동",
+				"description": "엘리트 마법. 번개를 타고 대상의 위치로 날아가 인접한 모든 적을 1...5초 동안 실명 상태로 만듭니다. 대상이 적이면 10...70의 번개 대미지를 줍니다. 이 스킬은 25%의 갑옷 관통 효과를 가집니다.",
+				"concise": "엘리트 마법. 대상의 위치로 순간 이동해 10...70의 번개 대미지를 주고, 인접한 적들을 실명시킵니다.(1...5초) 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Skok Błyskawicy",
+				"description": "Elitarny czar. Błyskawicznie skaczesz do wybranego przeciwnika. Wybrany przeciwnik otrzymuje 10...70 pkt. obrażeń od błyskawic. Ten czar posiada 25% przebicie pancerza, ale powoduje wyczerpanie.",
+				"concise": "Elitarny czar. Zadaje 10...70 pkt. obrażeń od błyskawic. 25% przebicie pancerza. Natychmiast ruszasz do tego przeciwnika. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Ride the Lightning",
+				"description": "Элитное заклинание. Вы переноситесь на молнии к вашей цели. Все окружающие противники будут ослеплены на 1...5 сек. Если целью был противник, он получает 10...70 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Элитное заклинание. Наносит 10...70 ед. урона силой молнии. Игнорирует 25% защиты противника. Вызывает слепоту (1...5 сек) у всех окружающих противников. Вы немедленно перемещаетесь к цели. Можно выбирать союзников в качестве цели."
+			},
+			"bork": {
+				"name": "Reede-a zee Leeghtneeng",
+				"description": "Ileete-a Spell. Yuoo Reede-a zee Leeghtneeng tu taerget. Aell aedjaecent fues aere-a Bleended fur 1...5 secunds. Iff yuoor taerget is a fue-a, it is stroock fur 10...70 leeghtneeng daemaege-a. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Ileete-a Spell. Deaels 10...70 leeghtneeng daemaege-a. 25% aermur penetraeshun. Bleends aell aedjaecent fues (1...5 secunds). Yuoo instuntly mufe-a tu yuoor taerget. Maey taerget aelleees."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "意志祷文",
+				"description": "姿态。 在30...90秒之内，你无法被打断，但是每当敌人尝试打断你的动作时，你将会损失10...4点能量，或「意志祷文」的效果消失。",
+				"concise": "姿态。 在30...90秒之内，你的动作将无法被打断，但是每当敌人尝试打断你的动作时，你将会损失10...4点能量，或「意志祷文」的效果消失。"
+			},
+			"cht": {
+				"name": "意志頌歌",
+				"description": "態勢： 持續 30...90 秒，使你的動作無法被中斷，但是每當敵人嘗試中斷你的動作時，你將會損失 10...4 能量或者意志頌歌的效果終止。",
+				"concise": "態勢： (30...90 秒。) 防止你的動作遭受中斷。防止條件：損失 10...4 能量或者意志頌歌的效果終止。"
+			},
 			"de": {
+				"name": "Mantra des Abschlusses",
+				"description": "Haltung. Ihr könnt 30...90 Sekunde[n] lang nicht unterbrochen werden, aber jedes Mal, wenn Ihr normalerweise unterbrochen würdet, verliert Ihr 10...4 Energiepunkt[e] oder Mantra des Abschlusses endet.",
+				"concise": "Haltung. 30...90 Sekunde[n]: Verhindert Unterbrechungen gegen Euch. Verhinderungskosten: Ihr verliert 10...4 Energiepunkt[e] oder Mantra des Abschlusses endet."
+			},
+			"de-guildwiki": {
 				"name": "Mantra des Abschlusses",
 				"description": "Ihr könnt 30...90 Sekunden lang nicht unterbrochen werden, aber jedes Mal, wenn Ihr normalerweise unterbrochen würdet, verliert Ihr 10...4 Punkte Energie oder Mantra des Abschlusses endet.",
 				"concise": "30...90 Sekunden: Verhindert Unterbrechungen gegen Euch. <gray>Verhinderungskosten: Ihr verliert 10...4 Energiepunkte oder Mantra des Abschlusses endet.</gray>"
 			},
 			"en": {
 				"name": "Mantra of Resolve",
+				"description": "Stance. For 30...90 seconds, you cannot be interrupted, but each time you would have been interrupted, you lose 10...4 Energy or Mantra of Resolve ends.",
+				"concise": "Stance. (30...90 seconds.) Prevents interrupts against you. Prevention cost: lose 10...4 Energy or Mantra of Resolve ends."
+			},
+			"en-gww": {
+				"name": "Mantra of Resolve",
 				"description": "For 30...90 seconds, you cannot be interrupted, but each time you would have been interrupted, you lose 10...4 Energy or Mantra of Resolve ends.",
 				"concise": "(30...90 seconds.) Prevents interrupts against you. <gray>Prevention cost: lose 10...4 Energy or Mantra of Resolve ends.</gray>"
 			},
+			"es": {
+				"name": "Mantra de determinación",
+				"description": "Actitud. Durante 30...90 segundos no podrás ser interrumpido, pero cada vez que se te hubiera podido interrumpir, perderás 10...4 de energía o el Mantra de determinación finalizará.",
+				"concise": "Actitud. (30...90 segundos). Impide que te interrumpan. Coste: pierdes 10...4 de energía o el Mantra de determinación acaba."
+			},
 			"fr": {
+				"name": "Mantra de résolution",
+				"description": "Pose de combat. Pendant 30...90 secondes, vous ne pouvez pas être interrompu, mais pour chaque tentative d'interruption, soit vous perdez 10...4 points d'énergie, soit le Mantra de résolution prend fin.",
+				"concise": "Pose de combat. (30...90 secondes.) Vous protège des interruptions. Coût de la protection : vous perdez 10...4 points d'énergie ou le Mantra de résolution prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Mantra de résolution",
 				"description": "Pendant 30...90 secondes, vous ne pouvez pas être interrompu, mais pour chaque tentative d'interruption, soit vous perdez 10...4 points d'énergie, soit le Mantra de résolution prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mantra della Risoluzione",
+				"description": "Posizione. Per 30...90 secondo[i] gli avversari non potranno interromperti, ma per ogni tentativo che faranno, o perderai 10...4 Punto[i] Energia oppure il Mantra della Risoluzione terminerà.",
+				"concise": "Posizione. (Secondi: 30...90) Previene le interruzioni contro di te. Costo di prevenzione: perdi 10...4 Punto[i] Energia o Mantra della Risoluzione termina."
+			},
+			"jp": {
+				"name": "リゾルブ マントラ",
+				"description": "スタンス： 30...90 秒間、アクションは中断されなくなりますが、中断を阻止するたびにエネルギーが 10...4 減少するか、この効果が消失します。",
+				"concise": "スタンス： (30...90 秒) アクションが中断されなくなります。中断コスト： エネルギーが 10...4 減少するか、この効果が消失します。"
+			},
+			"kr": {
+				"name": "의지의 권능",
+				"description": "자세. 대상 지정: 없음. 30...90초 동안 동작의 방해를 받지 않습니다. 적이 동작을 방해할 때 이 효과로 인해 방해를 받지 않았다면 10...4의 에너지를 잃거나 의지의 권능 효과가 끝납니다.",
+				"concise": "자세. (30...90초) 자신에 대한 동작 방해를 막습니다. 방해를 막은 대가: 10...4의 에너지를 잃거나 의식의 권능 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Mantra Zdecydowania",
+				"description": "Postawa. Przez 30...90 sek., twoje czynności nie mogą być przerwane, ale za każdym razem, gdy byłyby przerwane, tracisz 10...4 pkt. energii albo Mantra Zdecydowania przestanie działać.",
+				"concise": "Postawa. (30...90 sek.) Chroni cię przed przerwaniami. Koszt ochrony: utrata 10...4 pkt. energii lub koniec Mantry Zdecydowania."
+			},
+			"ru": {
+				"name": "Mantra of Resolve",
+				"description": "Стойка. В течение 30...90 сек вас нельзя прервать, но каждый раз, когда вы должны были бы быть прерваны, вы теряете 10...4 ед. энергии, иначе Mantra of Resolve прекращает свое действие.",
+				"concise": "Стойка. (30...90 сек) Предохраняет вас от прерываний. Цена предохранения: вы теряете 10...4 ед. энергии, или Mantra of Resolve заканчивается."
+			},
+			"bork": {
+				"name": "Muntra ooff Resulfe-a",
+				"description": "Stunce-a. Fur 30...90 secunds, yuoo cunnut be-a interroopted, boot iaech teeme-a yuoo vuoold haefe-a beee interroopted, yuoo luse-a 10...4 Inergy oor Muntra ooff Resulfe-a inds.",
+				"concise": "Stunce-a. (30...90 secunds.) Prefents interroopts aegaeeenst yuoo. Prefenshun cust: luse-a 10...4 Inergy oor Muntra ooff Resulfe-a inds."
 			}
 		}
 	}

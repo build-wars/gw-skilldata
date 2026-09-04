@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "狂暴之躯",
+				"description": "精英武咒。 在5...20秒之内，每当友方目标击中敌人时，他将获得额外100%的怒气和1点能量。",
+				"concise": "精英武咒。 在5...20秒之内，每当友方目标击中敌人时，他将获得额外100%的怒气和1点能量。"
+			},
+			"cht": {
+				"name": "狂暴武裝",
+				"description": "精英武裝魔法： 持續 5...20 秒，每當目標盟友攻擊成功時，該盟友獲得的怒氣值增加 100% 並且獲得 1 能量。",
+				"concise": "精英武裝魔法： 持續 5...20 秒，每當目標盟友攻擊成功時，該盟友獲得的怒氣值增加 100% 並且獲得 1 能量。"
+			},
 			"de": {
+				"name": "Waffe der Wut",
+				"description": "Elite-Waffenzauber. 5...20 Sekunde[n] lang erhält der Verbündete (bzw. Ihr selbst) bei jedem erfolgreichen Treffer mit einem Angriff um 100% mehr Adrenalin und 1 Energiepunkt.",
+				"concise": "Elite-Waffenzauber. 5...20 Sekunde[n]: +100% zur erhaltenen Adrenalinmenge und +1 Energiepunkt, wenn ein Angriff des Verbündeten (bzw. von Euch selbst) trifft."
+			},
+			"de-guildwiki": {
 				"name": "Waffe der Wut",
 				"description": "5...20 Sekunden lang erhält der Verbündete (bzw. Ihr selbst) bei jedem erfolgreichen Treffer mit einem Angriff um 100% mehr Adrenalin und 1 Energiepunkt.",
 				"concise": "5...20 Sekunden: +100% zur erhaltenen Adrenalinmenge und +1 Energiepunkt, wenn ein Angriff des Verbündeten (bzw. von Euch selbst) trifft."
 			},
 			"en": {
 				"name": "Weapon of Fury",
+				"description": "Elite Weapon Spell. For 5...20 seconds, target ally gains 100% more adrenaline and 1 Energy whenever that ally successfully hits with an attack.",
+				"concise": "Elite Weapon Spell. (5...20 seconds.) 100% more adrenaline gain and +1 Energy whenever target ally hits with an attack."
+			},
+			"en-gww": {
+				"name": "Weapon of Fury",
 				"description": "For 5...20 seconds, target ally gains 100% more adrenaline and 1 Energy whenever that ally successfully hits with an attack.",
 				"concise": "(5...20 seconds.) 100% more adrenaline gain and +1 Energy whenever target ally hits with an attack."
 			},
+			"es": {
+				"name": "Arma de furia",
+				"description": "Conjuro con arma de élite. Durante 5...20 segundos, el objetivo (un aliado o tú mismo) gana 100% más de adrenalina y 1 de energía siempre que ataque con éxito.",
+				"concise": "Conjuro con arma de élite. (5...20 segundos). Ganas un 100% más de adrenalina y +1 de energía cada vez que el objetivo (un aliado o tú mismo) consiga hacer un ataque."
+			},
 			"fr": {
+				"name": "Arme de furie",
+				"description": "Sort d'altération d'arme d'élite. Pendant 5...20 secondes, la cible (un allié ou vous-même) bénéficie de 100% d'adrénaline supplémentaire et d'1 point d'énergie chaque fois qu'elle réussit une attaque.",
+				"concise": "Sort d'altération d'arme d'élite. (5...20 secondes.) Chaque fois qu'elle réussit un attaque, la cible (allié ou vous-même) gagne 100% d'adrénaline en plus et +1 point d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Arme de furie",
 				"description": "Pendant 5...20 secondes, la cible (un allié ou vous-même) bénéficie de 100% d'adrénaline supplémentaire et d'1 point d'énergie chaque fois qu'elle réussit une attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma della Furia",
+				"description": "Magia d'Élite Altera-arma. Per 5...20 secondo[i], l'obiettivo (un alleato o te stesso) ottiene un 100% in più di Adrenalina e 1 Punto Energia ogni volta che riesce a mettere a segno un attacco.",
+				"concise": "Magia d'Élite Altera-arma. (Secondi: 5...20) Incremento acquisizione adrenalina: 100%; Energia +1 ogni volta che l'obiettivo alleato colpisce con un attacco."
+			},
+			"jp": {
+				"name": "フューリー ウェポン",
+				"description": "エリート ウェポン スペル： 5...20 秒間、ターゲットした味方は攻撃が成功するたびに、獲得するアドレナリンが 100% 増加し、エネルギー値が1増加します。",
+				"concise": "エリート ウェポン スペル： (5...20 秒) ターゲットした味方は攻撃が成功するたびに、獲得するアドレナリンが 100%、エネルギーが1増加します。"
+			},
+			"kr": {
+				"name": "분노의 무기",
+				"description": "엘리트 마법 무기. 대상 지정: 아군. 5...20초 동안 대상은 공격에 성공할 때마다 얻는 아드레날린이 100% 증가하고 1의 에너지를 얻습니다.",
+				"concise": "엘리트 마법 무기. (5...20초) 대상 아군은 공격에 성공할 때마다 얻는 아드레날린이 100% 증가하고, 1의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Wściekły Oręż",
+				"description": "Elitarny czar z broni. Przez 5...20 sek., z każdym atakiem zakończonym trafieniem wybrany sojusznik otrzymuje o 100% więcej adrenaliny i 1 pkt. energii.",
+				"concise": "Elitarny czar z broni. (5...20 sek.) 100% więcej adrenaliny i +1 pkt. energii, za każdym razem, kiedy trafi atak wybranego sojusznika."
+			},
+			"ru": {
+				"name": "Weapon of Fury",
+				"description": "Элитное оружейное заклинание. В течение 5...20 сек выбранный союзник получает 1 ед. энергии и на 100% адреналина больше каждый раз, когда он проводит успешную атаку.",
+				"concise": "Элитное оружейное заклинание. (5...20 сек) Дает на 100% больше адреналина и 1 ед. энергии каждый раз, когда выбранный союзник проводит успешную атаку."
+			},
+			"bork": {
+				"name": "Veaepun ooff Foory",
+				"description": "Ileete-a Veaepun Spell. Fur 5...20 secunds, taerget aelly gaeeens 100% mure-a aedrenaeleene-a und 1 Inergy vhenefer thaet aelly sooccessffoolly heets veet un aettaeck.",
+				"concise": "Ileete-a Veaepun Spell. (5...20 secunds.) 100% mure-a aedrenaeleene-a gaeeen und +1 Inergy vhenefer taerget aelly heets veet un aettaeck."
 			}
 		}
 	}

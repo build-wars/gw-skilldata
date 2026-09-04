@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "寒冬之掠",
+				"description": "镰刀术。 命中时，对敌人造成3...15点额外伤害。如果目标敌人的生命值低于你，则对其和所有邻近的敌人造成10...30点冰冻伤害。",
+				"concise": "镰刀术。 命中时，对敌人造成3...15点额外伤害。如果目标敌人的生命值低于你，则对其和所有邻近的敌人造成10...30点冰冻伤害。"
+			},
+			"cht": {
+				"name": "冷冽勝者",
+				"description": "鐮刀攻擊技能： 命中時造成 3...15 額外傷害，依照你擊中的敵人中，每一個體力低於你的，將使該敵人及所有鄰近敵人遭受 10...30 冰凍傷害。",
+				"concise": "鐮刀攻擊技能： 命中時造成 3...15 額外傷害，依照你擊中的敵人中，每一個體力低於你的，將使該敵人及所有鄰近敵人遭受 10...30 冰凍傷害。"
+			},
 			"de": {
+				"name": "Kühler Sieg",
+				"description": "Sensenangriff. Wenn dieser Angriff erfolgreich ist, werden dem Gegner +3...15 Punkt[e] Schaden zugefügt. Wenn Ihr einen Feind trefft, dessen Lebenspunkte niedriger als Eure eigenen sind, erleiden der Gegner und alle umstehenden Feinde 10...30 Punkt[e] Kälteschaden.",
+				"concise": "Sensenangriff. Richtet +3...15 Punkt[e] Schaden an. Fügt jedem Feind, dessen Lebenspunkte niedriger als Eure eigenen sind, und allen umstehenden Feinden 10...30 Punkt[e] Kälteschaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Kühler Sieg",
 				"description": "Wenn dieser Angriff erfolgreich ist, werden dem Gegner +3...15 Punkte Schaden zugefügt. Wenn Ihr einen Feind trefft, dessen Lebenspunkte niedriger als Eure eigenen sind, erleiden der Gegner und alle umstehenden Feinde 10...30 Punkte Kälteschaden.",
 				"concise": "Richtet +3...15 Punkte Schaden an. Fügt jedem Feind, dessen Lebenspunkte niedriger als Eure eigenen sind, und allen umstehenden Feinden 10...30 Punkte Kälteschaden zu."
 			},
 			"en": {
 				"name": "Chilling Victory",
+				"description": "Scythe Attack. If it hits, this attack strikes for +3...15 damage. For each foe hit who has less Health than you, that foe and all adjacent foes are struck for 10...30 cold damage.",
+				"concise": "Scythe Attack. Deals +3...15 damage. Deals 10...30 cold damage to each foe hit who has less Health than you and foes adjacent to those targets."
+			},
+			"en-gww": {
+				"name": "Chilling Victory",
 				"description": "If it hits, this attack strikes for +3...15 damage. For each foe hit who has less Health than you, that foe and all adjacent foes are struck for 10...30 cold damage.",
 				"concise": "Deals +3...15 damage. Deals 10...30 cold damage to each foe hit who has less Health than you and foes adjacent to those targets."
 			},
+			"es": {
+				"name": "Victoria espeluznante",
+				"description": "Ataque con guadaña. Si alcanza al enemigo, este ataque hace +3...15 de daño. Para cada enemigo alcanzado que tenga menos salud que tu personaje, dicho enemigo y todos los adyacentes reciben 10...30 de daño de frío.",
+				"concise": "Ataque con guadaña. Hace +3...15 de daño. Hace 10...30 de daño de frío a cada enemigo alcanzado cuya salud sea menor que la de tu personaje y a los enemigos adyacentes a ellos."
+			},
 			"fr": {
+				"name": "Victoire frissonnante",
+				"description": "Attaque à la faux. Si elle réussit, cette attaque inflige +3...15 points de dégâts. A chaque ennemi touché dont la santé est inférieure à la vôtre, cet ennemi et tous les ennemis adjacents subissent 10...30 points de dégâts du froid.",
+				"concise": "Attaque à la faux. Inflige +3...15 points de dégâts. Inflige 10...30 points de dégâts du froid à chaque ennemi touché dont la santé est inférieure à la vôtre, ainsi qu'à tous les ennemis adjacents à ces cibles."
+			},
+			"fr-gwiki": {
 				"name": "Victoire frissonnante",
 				"description": "Si elle réussit, cette attaque inflige +5...20 points de dégâts. Lorsqu'elle touche un ennemi qui possède moins de points de vie que vous, la cible ennemie et tous les ennemis adjacents reçoivent 15...60 points de dégâts du froid.",
 				"concise": "Inflige +5...20 points de dégâts. La cible et les ennemis adjacent subissent 15...60 points de dégâts du froid chaque fois que cette attaque frappe un ennemi qui a moins de santé que vous."
+			},
+			"it": {
+				"name": "Vittoria Gelante",
+				"description": "Attacco con Falce. Se va a segno, infligge +3...15 di danni. Per ogni nemico colpito, che abbia meno Salute di te, quel nemico e i nemici adiacenti saranno colpiti con 10...30 danni da freddo.",
+				"concise": "Attacco con Falce. Danni inferti: +3...15. Infligge 10...30 danni da freddo all'obiettivo e ai nemici adiacenti, ogni volta che quest'attacco colpisce un nemico con meno Salute di te."
+			},
+			"jp": {
+				"name": "チル ビクトリー",
+				"description": "サイズ アタック： 攻撃が成功すると、3...15 の追加ダメージを与えます。プレイヤーより体力の少ない敵に攻撃が成功すると、その敵と隣接するすべての敵に 10...30 のコールド ダメージを与えます。",
+				"concise": "サイズ アタック： 3...15 の追加ダメージを与えます。プレイヤーより体力の少ない敵に攻撃が成功すると、その敵と隣接するすべての敵に 10...30 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "냉정한 승리",
+				"description": "사이드 공격. 대상 지정: 적. 공격이 성공하면 대상에게 3...15의 대미지를 추가로 줍니다. 자신보다 체력이 적은 대상에게 공격이 성공할 때마다 대상과 그에 인접한 모든 적에게 10...30의 냉기 대미지를 줍니다.",
+				"concise": "사이드 공격. 3...15의 대미지를 추가로 줍니다. 자신보다 체력이 적은 대상에게 공격이 성공할 때마다 그에 인접한 적들에게 10...30의 냉기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Lodowate Zwycięstwo",
+				"description": "Atak kosą. Jeśli atak dojdzie celu, zadaje +3...15 pkt. obrażeń. Za każdego trafionego wroga, który miał mniej żywotności od ciebie, dany wróg oraz wszyscy przeciwnicy w jego sąsiedztwie otrzymują 10...30 pkt. obrażeń od zimna.",
+				"concise": "Atak kosą. Zadaje +3...15 pkt. obrażeń. Zadaje 10...30 pkt. obrażeń od zimna każdemu wrogowi, który ma mniej żywotności od ciebie, oraz wszystkim przeciwnikom w jego sąsiedztwie."
+			},
+			"ru": {
+				"name": "Chilling Victory",
+				"description": "Атака косой. Если этот удар попадает в цель, вы наносите дополнительно 3...15 ед. урона. За каждого пораженного ударом противника, чей уровень здоровья был ниже вашего, этот противник и все окружающие противники получают 10...30 ед. урона силой холода.",
+				"concise": "Атака косой. Наносит дополнительно 3...15 ед. урона. Наносит 10...30 ед. урона силой холода каждому пораженному ударом противнику, чей уровень здоровья меньше вашего, и окружающим эти цели противникам."
+			},
+			"bork": {
+				"name": "Cheelleeng Feectury",
+				"description": "Scyzee Aettaeck. Iff it heets, thees aettaeck streekes fur +3...15 daemaege-a. Fur iaech fue-a heet vhu haes less Heaelt thun yuoo, thaet fue-a und aell aedjaecent fues aere-a stroock fur 10...30 culd daemaege-a.",
+				"concise": "Scyzee Aettaeck. Deaels +3...15 daemaege-a. Deaels 10...30 culd daemaege-a tu iaech fue-a heet vhu haes less Heaelt thun yuoo und fues aedjaecent tu thuse-a taergets."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「小心！」",
+				"description": "战吼。 使所有邻近队友的护甲值提高5...25点，效果持续10秒。",
+				"concise": "战吼。 使所有邻近队友的护甲值提高5...25点，效果持续10秒。"
+			},
+			"cht": {
+				"name": "「小心！」",
+				"description": "戰嚎： 持續10秒，音量所及範圍內的隊友防禦增加5...25，遭受10次攻擊後此戰嚎結束。",
+				"concise": "戰嚎： 持續10秒，音量所及範圍內的隊友防禦增加5...25，遭受10次攻擊後此戰嚎結束。"
+			},
 			"de": {
+				"name": "Passt auf Euch auf!",
+				"description": "Schrei. Gruppenmitglieder in Hörweite erhalten 10 Sekunde[n] lang +5...25 Rüstung. Dieser Schrei endet nach 10 Angriff[en].",
+				"concise": "Schrei. 10 Sekunde[n]: Gruppenmitglieder in Hörweite haben +5...25 Rüstung. Endet nach 10 erhaltenen Angriff[en]."
+			},
+			"de-guildwiki": {
 				"name": "Passt auf Euch auf!",
 				"description": "Gruppenmitglieder in Hörweite erhalten 10 Sekunden lang +5...25 Rüstung. Dieser Schrei endet, nachdem Ihr 10 mal von rüstungsabhängigen Schaden getroffen werdet.",
 				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite haben +5...25 Rüstung. <gray>Endet, nachdem Ihr 10 mal rüstungsabhängigen Schaden erhaltet.</gray>"
 			},
 			"en": {
 				"name": "\"Watch Yourself!\"",
+				"description": "Shout. Party members within earshot gain +5...25 armor for 10 seconds. This shout ends after 10 incoming attacks.",
+				"concise": "Shout. (10 seconds.) Party members in earshot have +5...25 armor. Ends after 10 incoming attacks."
+			},
+			"en-gww": {
+				"name": "\"Watch Yourself!\"",
 				"description": "Party members within earshot gain +5...25 armor for 10 seconds. This shout ends after 10 incoming attacks.",
 				"concise": "(10 seconds.) Party members in earshot have +5...25 armor. <gray>Ends after 10 incoming attacks.</gray>"
 			},
+			"es": {
+				"name": "¡Cuidado!",
+				"description": "Grito. Los miembros del grupo al alcance del oído ganan +5...25 de armadura durante 10 segundos. Este grito acaba después de 10 ataques recibidos.",
+				"concise": "Grito. (10 segundos). Los miembros del grupo al alcance del oído tienen +5...25 de armadura. Acaba después de 10 ataques recibidos."
+			},
 			"fr": {
+				"name": "Prenez garde !",
+				"description": "Cri. Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25 pendant 10 secondes. Ce cri prend fin après 10 attaques.",
+				"concise": "Cri. (10 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25. Prend fin après 10 attaques reçues."
+			},
+			"fr-gwiki": {
 				"name": "\"Prenez garde !\"",
 				"description": "Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25 pendant 10 secondes. Ce cri prend fin après 10 attaques.",
 				"concise": "(10 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +5...25. Prend fin après 10 attaques reçues."
+			},
+			"it": {
+				"name": "In Guardia!",
+				"description": "Urlo. I membri della squadra a portata d'orecchio ottengono +5...25 di armatura per 10 secondo[i]. Questo urlo termina dopo 10 attacchi in arrivo.",
+				"concise": "Urlo. (Secondi: 10) Incremento armatura dei membri della squadra a portata d'orecchio: 5...25. Termina dopo 10 attacchi in arrivo."
+			},
+			"jp": {
+				"name": "ウォッチ ユアセルフ！",
+				"description": "シャウト： 声の届く範囲内にいるパーティー メンバーは 10 秒間防御力が 5...25 増加します。この効果は 10 回攻撃を受けると消失します。",
+				"concise": "シャウト： (10 秒) 声の届く範囲内にいるパーティー メンバーは、防御力が 5...25 増加します。10 回の攻撃を受けると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "조심하게나!",
+				"description": "고함. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원들의 방어력이 5...25만큼 증가합니다. 10번 공격을 받으면 고함이 끝납니다.",
+				"concise": "고함. (10초) 가청 범위 내에 있는 파티원들의 방어력이 5...25 증가합니다. 10번의 공격을 받으면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Pilnujcie się!",
+				"description": "Okrzyk. Członkowie drużyny w zasięgu słuchu na 10 sek. otrzymują +5...25 pkt. pancerza. Ten zaśpiew przestanie działać po otrzymaniu 10 ataków.",
+				"concise": "Okrzyk. (10 sek.) Członkowie drużyny w zasięgu słuchu posiadają +5...25 pkt. pancerza. Przestanie działać po otrzymaniu 10 ataków."
+			},
+			"ru": {
+				"name": "\"Watch Yourself!\"",
+				"description": "Крик. Защита членов вашего отряда, находящихся в зоне слышимости, увеличивает на 5...25 ед. в течение 10 сек. Действие этого крика заканчивается после 10 вражеских атак.",
+				"concise": "Крик. (10 сек) Члены отряда, находящиеся в зоне слышимости, получают +5...25 ед. защите. Заканчивается после 10 вражеских атак."
+			},
+			"bork": {
+				"name": "\"Vaetch Yuoorselff!\"",
+				"description": "Shuoot. Paerty members veetheen iaershut gaeeen +5...25 aermur fur 10 secunds. Thees shuoot inds aeffter 10 incumeeng aettaecks.",
+				"concise": "Shuoot. (10 secunds.) Paerty members in iaershut haefe-a +5...25 aermur. Inds aeffter 10 incumeeng aettaecks."
 			}
 		}
 	}

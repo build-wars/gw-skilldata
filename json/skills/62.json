@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "谦卑纹章",
+				"description": "纹章。 使目标在1...16秒之内无法使用精英技能。",
+				"concise": "纹章。 使目标敌人在1...16秒之内无法使用精英技能。"
+			},
+			"cht": {
+				"name": "謙卑紋章",
+				"description": "紋章： 目標敵人的精英技能在1...16秒內無法使用，同時你所有非幻術師技能4秒內也無法使用。",
+				"concise": "紋章： 目標敵人的精英技能在1...16秒內無法使用，同時你所有非幻術師技能4秒內也無法使用。"
+			},
 			"de": {
+				"name": "Siegel der Demut",
+				"description": "Siegel. Die Elite-Fertigkeit des Gegners wird 1...16 Sekunde[n] lang deaktiviert. Eure Nicht-Mesmer-Fertigkeiten werden 4 Sekunde[n] lang deaktiviert.",
+				"concise": "Siegel. Deaktiviert Elite-Fertigkeit (1...16 Sekunde[n]). Deaktiviert Eure Nicht-Mesmer-Fertigkeiten. (4 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Demut",
 				"description": "Die Elite-Fertigkeit des Gegners wird 1...16 Sekunden lang deaktiviert. Eure Nicht-Mesmer-Fertigkeiten werden 4 Sekunden lang deaktiviert.",
 				"concise": "Deaktiviert Elite-Fertigkeit (1...16 Sekunde). <gray>Deaktiviert Eure Nicht-Mesmer-Fertigkeiten (4 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Signet of Humility",
+				"description": "Signet. Target foe's elite skill is disabled for 1...16 seconds. Your non-Mesmer skills are disabled for 4 seconds.",
+				"concise": "Signet. Disables elite skill (1...16 seconds). Disables your non-Mesmer skills (4 seconds)."
+			},
+			"en-gww": {
+				"name": "Signet of Humility",
 				"description": "Target foe's elite skill is disabled for 1...16 second[s]. Your non-Mesmer skills are disabled for 4 seconds.",
 				"concise": "Disables elite skill (1...16 second[s]). <gray>Disables your non-Mesmer skills (4 seconds).</gray>"
 			},
+			"es": {
+				"name": "Sello de la humildad",
+				"description": "Sello. La habilidad de élite del enemigo objetivo se desactiva durante 1...16 segundos. Tus habilidades que no sean de Hipnotizador se desactivan durante 4 segundos.",
+				"concise": "Sello. Desactiva la habilidad de élite (1...16 segundos). Desactiva tus habilidades que no sean de Hipnotizador (4 segundos)."
+			},
 			"fr": {
+				"name": "Sceau d'humilité",
+				"description": "Sceau. La compétence d'élite de l'ennemi ciblé est désactivée pendant 1...16 secondes. Vos compétences autres que celles d'Envoûteur sont désactivées pendant 4 secondes.",
+				"concise": "Sceau. Désactivation de compétence d'élite sur cible (1...16 secondes). Désactive vos compétences sauf celles d'Envoûteur (4 seconds)."
+			},
+			"fr-gwiki": {
 				"name": "Sceau d'humilité",
 				"description": "La compétence d'élite de l'ennemi ciblé est désactivée pendant 1...16 seconde(s). Vos compétences autres que celle d'Envoûteur sont désactivées pendant 10 secondes.",
 				"concise": "Désactivation de compétence d'élite sur cible (1...16 seconde(s)). <gray>Désactive vos compétences sauf celles d'Envoûteur (10 secondes).</gray>"
+			},
+			"it": {
+				"name": "Sigillo dell'Umiltà",
+				"description": "Sigillo. Disattiva l'abilità d'élite dell'obiettivo nemico per 1...16 secondo[i]. Le tue abilità che non appartengono alla classe dell'Ipnotizzatore vengono disattivate per 4 secondo[i].",
+				"concise": "Sigillo. Disattiva le abilità d'élite (secondi: 1...16). Le tue abilità non da Ipnotizzatore vengono disattivate (4 secondo[i])."
+			},
+			"jp": {
+				"name": "ヒューミリティ シグネット",
+				"description": "シグネット： ターゲットした敵のエリート スキルを 1...16 秒間封じ込めます。プレイヤーは 4 秒間、メスマー スキル以外のスキルを使用することができません。",
+				"concise": "シグネット： エリート スキルを封じ込めます (1...16 秒)。プレイヤーは、メスマー スキル以外のスキルを使用することができません (4 秒)。"
+			},
+			"kr": {
+				"name": "비하 인장",
+				"description": "인장. 대상 지정: 적. 1...16초 동안 대상은 엘리트 스킬을 사용할 수 없습니다. 자신은 4초 동안 메스머 스킬이 아닌 스킬을 사용할 수 없습니다.",
+				"concise": "인장. (1...16초) 엘리트 스킬을 사용할 수 없게 합니다. 자신은 메스머 스킬이 아닌 스킬을 사용할 수 없습니다.(4초)"
+			},
+			"pl": {
+				"name": "Sygnet Pokory",
+				"description": "Sygnet. Elitarna umiejętność wybranego przeciwnika zostaje wyłączona na 1...16 sek. Wszystkie twoje umiejętności nie należące do mesmera będą niedostępne przez 4 sek.",
+				"concise": "Sygnet. Wyłącza umiejętność elitarną (1...16 sek.). Wyłącza twoje umiejętności nie należące do mesmera (4 sek.)."
+			},
+			"ru": {
+				"name": "Signet of Humility",
+				"description": "Печать. Элитное умение выбранного противника будет недоступно в течение 1...16 сек. Ваши умения, не относящиеся к профессии Mesmer, будут недоступны в течение 4 сек.",
+				"concise": "Печать. Делает недоступным элитное умение (1...16 сек). Делает недоступными ваши умения, не относящиеся к профессии Mesmer (4 сек)."
+			},
+			"bork": {
+				"name": "Seegnet ooff Hoomeeleety",
+				"description": "Seegnet. Taerget fue-a's ileete-a skeell is deesaebled fur 1...16 secunds. Yuoor nun-Mesmer skeells aere-a deesaebled fur 4 secunds.",
+				"concise": "Seegnet. Deesaebles ileete-a skeell (1...16 secunds). Deesaebles yuoor nun-Mesmer skeells (4 secunds)."
 			}
 		}
 	}

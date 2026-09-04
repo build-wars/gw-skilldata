@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "妖咒反转",
+				"description": "增益魔法。 驱散友方目标身上的一项「负面魔法」。在5...10秒之内，使该友方下一次受到的伤害减少5...50点。",
+				"concise": "增益魔法。 驱散友方目标身上的一项「负面魔法」。在5...10秒之内，当下一次该友方受到攻击时，伤害减少5...50点。"
+			},
+			"cht": {
+				"name": "降咒反轉",
+				"description": "加持魔法： 消除目標盟友身上的一項「降咒」，並且在 5...10 秒內，使該盟友「下一次」受到的傷害減少 5...50 。",
+				"concise": "加持魔法： 消除目標盟友身上的一項「降咒」，並且在 5...10 秒內，使該盟友「下一次」受到的傷害減少 5...50 。"
+			},
 			"de": {
+				"name": "Verhexung umkehren",
+				"description": "Verzauberung. Entfernt eine Verhexung vom Verbündeten. Wenn eine Verhexung auf diese Weise entfernt wurde, wird 5...10 Sekunde[n] lang der nächste Schaden, den der Verbündete erleiden würde, um 5...50 Punkt[e] verringert.",
+				"concise": "Verzauberung. 5...10 Sekunde[n]: Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Der nächste Schaden, den der Verbündete (bzw. Ihr selbst) erleidet, wird um 5...50 Punkt[e] reduziert. Der Verbündete muss verhext sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Verhexung umkehren",
 				"description": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). 5...10 Sekunden lang wird der nächste Schaden, den der Verbündete (bzw. Ihr selbst) erleiden würde, um 5...50 Punkte verringert.",
 				"concise": "5...10 Sekunden: Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst). Der nächste Schaden, den der Verbündete (bzw. Ihr selbst) erleidet, wird um 5...50 Punkte reduziert. <gray>Der Verbündete muss verhext sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Reverse Hex",
+				"description": "Enchantment Spell. Remove one hex from target ally. If a hex was removed in this way, for 5...10 seconds, the next time target ally would take damage, that damage is reduced by 5...50.",
+				"concise": "Enchantment Spell. (5...10 seconds.) Removes one hex from target ally. The next damage this ally takes is reduced by 5...50. No effect unless this ally is hexed."
+			},
+			"en-gww": {
+				"name": "Reverse Hex",
 				"description": "Remove one hex from target ally. If a hex was removed in this way, for 5...10 seconds, the next time target ally would take damage, that damage is reduced by 5...50.",
 				"concise": "(5...10 seconds.) Removes one hex from target ally. The next damage this ally takes is reduced by 5...50. <gray>No effect unless this ally is hexed.</gray>"
 			},
+			"es": {
+				"name": "Maleficio inverso",
+				"description": "Conjuro con encantamiento. Quita un maleficio del objetivo (un aliado o tú mismo). Si quitas un maleficio de esta forma, durante 5...10 segundos, el próximo ataque que éste reciba se reduce en 5...50.",
+				"concise": "Conjuro con encantamiento. (5...10 segundos). Elimina un maleficio del objetivo (un aliado o tú mismo). El siguiente daño que reciba este objetivo se reduce en 5...50. No tiene efecto si el objetivo no tiene un maleficio."
+			},
 			"fr": {
+				"name": "Inversion de maléfice",
+				"description": "Enchantement. Lève un maléfice qui frappe la cible. Si un maléfice a été supprimé de cette manière, pendant 5...10 secondes, la prochaine fois que la cible alliée subit des dégâts, ces derniers sont réduits de 5...50 points.",
+				"concise": "Enchantement. (5...10 secondes.) Supprime un maléfice de l'allié visé. Les prochains dégâts qu'il subira seront réduits de 5...50. Aucun effet si l'allié n'est pas affecté par un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Inversion de maléfice",
 				"description": "Lève un maléfice de la cible (un allié ou vous-même). Pendant 5...10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts, ces derniers sont réduits de 5...50.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Inverti Fattura",
+				"description": "Incantesimo. Rimuovi una fattura dall'obiettivo (un alleato o te stesso). Se rimuovi una fattura tramite questa magia, per 5...10 secondo[i], la prossima volta che l'obiettivo alleato subirebbe un danno, questo è ridotto di 5...50.",
+				"concise": "Incantesimo. (Secondi: 5...10) Rimuove una fattura dall'obiettivo (un alleato o te stesso). Riduzione del prossimo danno ricevuto da questo alleato: 5...50. Ha effetto solo se questo alleato è sotto fattura."
+			},
+			"jp": {
+				"name": "リバース ヘックス",
+				"description": "強化スペル： ターゲットした味方にかけられている弱体化スペルを1個解除します。この効果により弱体化スペルを解除すると、5...10 秒以内にその味方が最初に受けるダメージが 5...50 減少します。",
+				"concise": "強化スペル： (5...10 秒) ターゲットした味方にかけられている弱体化スペルを1個解除し、次にターゲットの受けるダメージが 5...50 減少します。この味方に弱体化スペルがかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "약화 역이용",
+				"description": "강화 마법. 대상 지정: 아군. 대상에 걸려 있는 약화 마법 하나를 무효화합니다. 이렇게 약화 마법이 무효화되면 5...10초 동안 대상이 입는 대미지가 5...50만큼 감소합니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "강화 마법. (5...10초) 대상에 걸린 약화 마법 하나를 무효화합니다. 대상이 받는 대미지가 5...50 감소합니다. 처음 한 번만 효과가 있습니다. 대상이 약화 마법에 걸려 있어야 합니다."
+			},
+			"pl": {
+				"name": "Odwrócenie Klątwy",
+				"description": "Zaklęcie (czar). Usuwasz z wybranego sojusznika jedną klątwę. Jeśli doszło w ten sposób do usunięcia klątwy, to kiedy przez 5...10 sek. wybrany sojusznik miałby otrzymać obrażenia, zostaną one zmniejszane o 5...50 pkt.",
+				"concise": "Zaklęcie (czar). (5...10 sek.) Z wybranego sojusznika usuwa jedną klątwę. Następne obrażenia, jakie ten sojusznik otrzyma zostaną zmniejszone o 5...50 pkt. Bez efektu, chyba że ten sojusznik jest pod wpływem klątwy."
+			},
+			"ru": {
+				"name": "Reverse Hex",
+				"description": "Заклинание-чары. Снимает одно проклятье с выбранного союзника. Если проклятье было успешно снято, в течение 5...10 сек в следующий раз, когда этот союзник должен был бы получить урон, этот урон будет уменьшен на 5...50 ед.",
+				"concise": "Заклинание-чары. (5...10 сек) Снимает одно проклятье с выбранного союзника. Следующий урон, которые получит этот союзник, будет уменьшен на 5...50 ед. Не действует, если на этого союзника не наложено проклятье."
+			},
+			"bork": {
+				"name": "Referse-a Hex",
+				"description": "Inchuntment Spell. Remufe-a oone-a hex frum taerget aelly. Iff a hex vaes remufed in thees vaey, fur 5...10 secunds, zee next teeme-a taerget aelly vuoold taeke-a daemaege-a, thaet daemaege-a is redooced by 5...50.",
+				"concise": "Inchuntment Spell. (5...10 secunds.) Remufes oone-a hex frum taerget aelly. Zee next daemaege-a thees aelly taekes is redooced by 5...50. Nu iffffect unless thees aelly is hexed."
 			}
 		}
 	}

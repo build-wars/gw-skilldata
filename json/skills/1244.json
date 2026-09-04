@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幽魂之速",
+				"description": "增益魔法。 在5...30秒之内，当你处于「灵体」的「音波」范围内时，你所施放的法术冷却速度提高25%。",
+				"concise": "增益魔法。 在5...30秒之内，当你处于「灵体」的「音波」范围内时，你所施放的法术冷却速度提高25%。"
+			},
+			"cht": {
+				"name": "幽魂之速",
+				"description": "加持魔法： 持續 5...30 秒，若你的音量所及範圍內有「靈」存在，則你施展的「魔法」回復速度加快 25%。",
+				"concise": "加持魔法： 持續 5...30 秒，若你的音量所及範圍內有「靈」存在，則你施展的「魔法」回復速度加快 25%。"
+			},
 			"de": {
+				"name": "Geisterhafte Eile",
+				"description": "Verzauberung. Während der nächsten 5...30 Sekunde[n] werden in Hörweite eines Geistes von Euch gewirkte Zauber um 25% schneller wieder aufgeladen.",
+				"concise": "Verzauberung. 5...30 Sekunde[n]: Von Euch gewirkte Zauber laden sich um 25% schneller wieder auf. Ihr müsst Euch in Hörweite eines Geistes befinden, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Geisterhafte Eile",
 				"description": "Die Zauber, die Ihr wirkt, während Ihr Euch in dem Bereich eines Geistes befindet, werden 5...30 Sekunden lang um 25% schneller wieder aufgeladen.",
 				"concise": "5...30 Sekunden: Von Euch gewirkte Zauber laden sich um 25% schneller wieder auf. <gray>Ihr müsst Euch in Hörweite eines Geistes befinden, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Ghostly Haste",
+				"description": "Enchantment Spell. For 5...30 seconds, spells you cast while within earshot of a spirit recharge 25% faster.",
+				"concise": "Enchantment Spell. (5...30 seconds.) Spells you cast recharge 25% faster. No effect unless you are within earshot of a spirit."
+			},
+			"en-gww": {
+				"name": "Ghostly Haste",
 				"description": "For 5...30 seconds, spells you cast while within earshot of a spirit recharge 25% faster.",
 				"concise": "(5...30 seconds.) Spells you cast recharge 25% faster. <gray>No effect unless you are within earshot of a spirit.</gray>"
 			},
+			"es": {
+				"name": "Velocidad fantasmal",
+				"description": "Conjuro con encantamiento. Durante 5...30 segundos, los conjuros que lances al alcance del oído de un espíritu se recargan un 25% más rápido.",
+				"concise": "Conjuro con encantamiento. (5...30 segundos). Los conjuros que lances se recargan un 25% más deprisa. No tiene efecto si no estás al alcance del oído de algún espíritu."
+			},
 			"fr": {
+				"name": "Vivacité spectrale",
+				"description": "Enchantement. Pendant 5...30 secondes, les sorts que vous lancez à portée de voix d'un esprit se rechargent 25% plus vite.",
+				"concise": "Enchantement. (5...30 secondes.) Les sorts que vous lancez se rechargent 25% plus vite. Aucun effet si vous n'êtes pas à portée de voix d'un esprit."
+			},
+			"fr-gwiki": {
 				"name": "Vivacité spectrale",
 				"description": "Pendant 5...30 secondes, les sorts que vous lancez à portée de voix d'un esprit se rechargent 25% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fretta Spettrale",
+				"description": "Incantesimo. Per 5...30 secondo[i] le magie lanciate mentre ti trovi nella portata d'orecchio di uno Spirito si ricaricano con una velocità maggiore del 25%.",
+				"concise": "Incantesimo. (Secondi: 5...30) Incremento velocità di ricarica delle tue magie: 25%. Ha effetto solo se sei a portata d'orecchio di uno Spirito."
+			},
+			"jp": {
+				"name": "ゴースト ヘイスト",
+				"description": "強化スペル： 5...30 秒間、声の届く範囲内に精霊がいるときにスペルを詠唱すると、再使用時間が 25% 減少します。",
+				"concise": "強化スペル： (5...30 秒) スペルの再使用時間が 25% 減少します。声の届く範囲内に精霊がいない場合は無効です。"
+			},
+			"kr": {
+				"name": "영혼의 신속함",
+				"description": "강화 마법. 대상 지정: 없음. 5...30초 동안 영혼의 가청 범위 내에서 사용한 마법의 재활성 시간이 25% 빨라집니다.",
+				"concise": "강화 마법. (5...30초) 마법의 재활성 시간이 25% 빨라집니다. 가청 범위 내에 영혼이 있어야 합니다."
+			},
+			"pl": {
+				"name": "Duchowy Pośpiech",
+				"description": "Zaklęcie (czar). Przez 5...30 sek. rzucane czary odnawiają się o 25% szybciej, jeżeli znajdujesz się w okolicy ducha.",
+				"concise": "Zaklęcie (czar). (5...30 sek.) Czary, które rzucasz odnawiają się o 25% szybciej. Bez efektu, jeśli nie jesteś w zasięgu słuchu ducha."
+			},
+			"ru": {
+				"name": "Ghostly Haste",
+				"description": "Заклинание-чары. В течение 5...30 сек заклинания, которые вы произносите, находясь в зоне слышимости какого-либо духа, перезаряжаются на 25% быстрее.",
+				"concise": "Заклинание-чары. (5...30 сек) Ваши заклинания перезаряжаются на 25% быстрее. Не действует, если вы не находитесь в зоне слышимости какого-либо духа."
+			},
+			"bork": {
+				"name": "Ghustly Haeste-a",
+				"description": "Inchuntment Spell. Fur 5...30 secunds, spells yuoo caest vheele-a veetheen iaershut ooff a spureet rechaerge-a 25% faester.",
+				"concise": "Inchuntment Spell. (5...30 secunds.) Spells yuoo caest rechaerge-a 25% faester. Nu iffffect unless yuoo aere-a veetheen iaershut ooff a spureet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂恩赐",
+				"description": "增益魔法。 在60秒之内，当你创造生物时，该生物附近的所有友方都将获得5...50点生命值，并失去一种「症状」。",
+				"concise": "增益魔法。 在60秒之内，当你创造生物时，该生物附近的所有友方都将获得5...50点生命值，并失去一种「症状」。"
+			},
+			"cht": {
+				"name": "生靈天賦",
+				"description": "加持魔法： 持續 60 秒，每當你創造一隻生物時，該生物附近的所有盟友獲得 5...50 體力並且消除一項「病症」。",
+				"concise": "加持魔法： 持續 60 秒，每當你創造一隻生物時，該生物附近的所有盟友獲得 5...50 體力並且消除一項「病症」。"
+			},
 			"de": {
+				"name": "Geschenk des Geistes",
+				"description": "Verzauberung. Jedes Mal, wenn Ihr während der nächsten 60 Sekunde[n] eine Kreatur erschafft, erhalten alle Verbündeten in der Nähe dieser Kreatur 5...50 Lebenspunkt[e] und verlieren 1 Zustand.",
+				"concise": "Verzauberung. 60 Sekunde[n]: Jedes Mal, wenn Ihr eine Kreatur erstellt, erhalten alle Verbündeten in der Nähe 5...50 Lebenspunkt[e] und verlieren einen Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Geschenk des Geistes",
 				"description": "Jedes Mal, wenn Ihr während der nächsten 60 Sekunden eine Kreatur erschafft, erhalten alle Verbündeten in der Nähe dieser Kreatur 5...50 Lebenspunkte und verlieren 1 Zustand.",
 				"concise": "60 Sekunden: Jedes Mal, wenn Ihr eine Kreatur erstellt, erhalten alle Verbündeten in der Nähe 5...50 Lebenspunkte und verlieren einen Zustand."
 			},
 			"en": {
 				"name": "Spirit's Gift",
+				"description": "Enchantment Spell. For 60 seconds, whenever you create a creature, all allies near that creature gain 5...50 Health and lose 1 condition.",
+				"concise": "Enchantment Spell. (60 seconds.) Whenever you create a creature, all nearby allies gain 5...50 Health and lose one condition."
+			},
+			"en-gww": {
+				"name": "Spirit's Gift",
 				"description": "For 60 seconds, whenever you create a creature, all allies near that creature gain 5...50 Health and lose 1 condition.",
 				"concise": "(60 seconds.) Whenever you create a creature, all nearby allies gain 5...50 Health and lose one condition."
 			},
+			"es": {
+				"name": "Don espiritual",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, cuando crees una criatura, todos los aliados cercanos ganarán 5...50 de salud y perderán 1 condición.",
+				"concise": "Conjuro con encantamiento. (60 segundos). Cuando crees una criatura, todos los aliados cercanos ganan 5...50 de salud y pierden una condición."
+			},
 			"fr": {
+				"name": "Don de l'esprit",
+				"description": "Enchantement. Pendant 60 secondes, chaque fois que vous créez une créature, tous les alliés près de cette créature gagnent 5...50 points de vie et perdent 1 condition.",
+				"concise": "Enchantement. (60 secondes.) Chaque fois que vous créez une créature, tous les alliés à proximité gagnent 5...50 points de vie et perdent une condition."
+			},
+			"fr-gwiki": {
 				"name": "Don de l'esprit",
 				"description": "Pendant 60 secondes, chaque fois que vous créez une créature, tous les alliés près de cette créature gagnent 5...50 points de vie et perdent 1 condition.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Dono dello Spirito",
+				"description": "Incantesimo. Per 60 secondo[i], ogni volta che dai vita ad una creatura, tutti gli alleati vicini ad essa ottengono 5...50 Punto[i] Salute e perdono 1 condizione.",
+				"concise": "Incantesimo. (Secondi: 60) Ogni volta che dai vita ad una creatura, tutti gli alleati nei dintorni ottengono 5...50 Punto[i] Salute e perdono una condizione."
+			},
+			"jp": {
+				"name": "スピリット ギフト",
+				"description": "強化スペル： 60 秒間、ミニオンや精霊を召喚するたびに、その周囲にいる味方は 5...50 の体力を獲得し、かけられている「状態異常」が1個解除されます。",
+				"concise": "強化スペル： (60 秒) 生物を召喚するたびに、周囲にいる味方は 5...50 の体力を獲得し、「状態異常」が1個解除されます。"
+			},
+			"kr": {
+				"name": "영혼의 선물",
+				"description": "강화 마법. 대상 지정: 없음. 60초 동안 소환체를 만들 때마다 부근에 있는 모든 아군은 5...50의 체력을 회복하고 상태이상 하나가 무효화됩니다.",
+				"concise": "강화 마법. (60초) 소환체를 만들 때마다 부근에 있는 모든 아군은 5...50의 체력을 얻고, 상태이상 하나가 무효화됩니다."
+			},
+			"pl": {
+				"name": "Duchowy Dar",
+				"description": "Zaklęcie (czar). Przez 60 sek., za każdym razem, kiedy stworzysz stworzenie, wszyscy sojusznicy w jego pobliżu otrzymują 5...50 pkt. żywotności i tracą jedną przypadłość.",
+				"concise": "Zaklęcie (czar). (60 sek.) Za każdym razem, kiedy stworzysz stworzenie, wszyscy sojusznicy w pobliżu otrzymują 5...50 pkt. żywotności i tracą jedną przypadłość."
+			},
+			"ru": {
+				"name": "Spirit's Gift",
+				"description": "Заклинание-чары. В течение 60 сек каждый раз, когда вы создаете какое-либо существо, все союзники, находящиеся поблизости от этого существа, получают 5...50 ед. здоровья, и с каждого из них снимается 1 состояние.",
+				"concise": "Заклинание-чары. (60 сек) Каждый раз, когда вы создаете какое-либо существо, все союзники поблизости получают 5...50 ед. здоровья и теряют одно состояние."
+			},
+			"bork": {
+				"name": "Spureet's Geefft",
+				"description": "Inchuntment Spell. Fur 60 secunds, vhenefer yuoo creaete-a a creaetoore-a, aell aelleees neaer thaet creaetoore-a gaeeen 5...50 Heaelt und luse-a 1 cundeeshun.",
+				"concise": "Inchuntment Spell. (60 secunds.) Vhenefer yuoo creaete-a a creaetoore-a, aell neaerby aelleees gaeeen 5...50 Heaelt und luse-a oone-a cundeeshun."
 			}
 		}
 	}

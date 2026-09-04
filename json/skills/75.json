@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法术临摹",
+				"description": "增益魔法。 当你使用此技能时，在20秒之内，你下一次所使用的法术会出现在「法术临摹」的位置上，供你再使用一次，持续20秒。如果你在临摹之前使用了非法术类技能，那么「法术临摹」的效果会消失。",
+				"concise": "增益魔法。 下20秒之内，当你施放法术时，该法术技能会出现在「法术临摹」的位置上，供你再使用一次，效果持续20秒。如果期间你使用了非法术类的技能，那么「法术临摹」的效果会消失。"
+			},
+			"cht": {
+				"name": "魔法回音",
+				"description": "加持魔法： 在魔法回音使用後的 20 秒內，你下一個施展的「魔法」將會取代魔法回音 20 秒。若你在魔法回音的持續時間內使用非魔法技能，則魔法回音的效果中止。",
+				"concise": "加持魔法： 在魔法回音使用後的 20 秒內，你下一個施展的「魔法」將會取代魔法回音 20 秒。若你在魔法回音的持續時間內使用非魔法技能，則魔法回音的效果中止。"
+			},
 			"de": {
+				"name": "Arkanes Echo",
+				"description": "Verzauberung. Falls Ihr in den nächsten 20 Sekunde[n] einen Zauber wirkt, wird Arkanes Echo 20 Sekunden lang durch diesen Zauber ersetzt. Arkanes Echo endet vorzeitig, wenn Ihr eine Fertigkeit benutzt, die kein Zauber ist.",
+				"concise": "Verzauberung. 20 Sekunde[n]: Arkanes Echo wird zum nächsten von Euch benutzten Zauber (20 Sekunden). Diese Verzauberung endet, wenn Ihr eine Fertigkeit benutzt, die kein Zauber ist."
+			},
+			"de-guildwiki": {
 				"name": "Arkanes Echo",
 				"description": "Falls Ihr in den nächsten 20 Sekunden einen Zauber wirkt, wird Arkanes Echo 20 Sekunden lang durch diesen Zauber ersetzt. Arkanes Echo endet vorzeitig, wenn Ihr eine Fertigkeit benutzt, die kein Zauber ist.",
 				"concise": "20 Sekunden: Arkanes Echo wird zum nächsten von Euch benutzten Zauber (20 Sekunden). <gray>Diese Verzauberung endet, wenn Ihr eine Fertigkeit benutzt, die kein Zauber ist.</gray>"
 			},
 			"en": {
 				"name": "Arcane Echo",
+				"description": "Enchantment Spell. If you cast a spell in the next 20 seconds, Arcane Echo is replaced with that spell for 20 seconds. Arcane Echo ends prematurely if you use a non-spell skill.",
+				"concise": "Enchantment Spell. (20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). This enchantment ends if you use any skill that is not a spell."
+			},
+			"en-gww": {
+				"name": "Arcane Echo",
 				"description": "If you cast a spell in the next 20 seconds, Arcane Echo is replaced with that spell for 20 seconds. Arcane Echo ends prematurely if you use a non-spell skill.",
 				"concise": "(20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). <gray>This enchantment ends if you use any skill that is not a spell.</gray>"
 			},
+			"es": {
+				"name": "Eco arcano",
+				"description": "Conjuro con encantamiento. Si lanzas un conjuro en los siguientes 20 segundos, el Eco arcano es reemplazado por ese conjuro durante 20 segundos. Finalizará antes de tiempo si utilizas una habilidad que no sea un conjuro.",
+				"concise": "Conjuro con encantamiento. (20 segundos). El eco arcano se transforma en el siguiente conjuro que uses (20 segundos).Este encantamiento termina si usas una habilidad que no sea conjuro."
+			},
 			"fr": {
+				"name": "Echo des arcanes",
+				"description": "Enchantement. Si vous lancez un sort dans les 20 secondes, il remplace l'écho des arcanes pendant 20 secondes. L'Echo des arcanes se termine prématurément si vous utilisez une compétence autre qu'un sort.",
+				"concise": "Enchantement. (20 secondes.) L'Echo des arcanes est remplacé par le sort suivant que vous utilisez (20 secondes). Cet enchantement prend fin si vous utilisez une compétence qui n'est pas un sort."
+			},
+			"fr-gwiki": {
 				"name": "Echo des arcanes",
 				"description": "Si vous lancez un sort dans les 20 secondes, il remplace l'Echo des arcanes pendant 20 secondes. L'Echo des arcanes se termine prématurément si vous utilisez une compétence autre qu'un sort.",
 				"concise": "(20 secondes.) L'Echo des arcanes est remplacé par le sort suivant que vous utilisez (20 secondes)."
+			},
+			"it": {
+				"name": "Eco Arcana",
+				"description": "Incantesimo. Se nel giro di 20 secondo[i] lanci una magia, l'Eco Arcana viene sostituita da quella magia per 20 secondi. L'Eco Arcana termina prematuramente se utilizzi un'abilità non magica.",
+				"concise": "Incantesimo. (Secondi: 20) Eco Arcana si trasforma nella prossima magia da te usata (20 secondi). Questo incantesimo termina se usi un'abilità che non è una magia."
+			},
+			"jp": {
+				"name": "アルカナ エコー",
+				"description": "強化スペル： 20 秒以内に詠唱する次のスペルと入れ替わり、20秒間、そのスペルとして使用することができます。スペル以外のスキルを使用すると、この効果は消失します。",
+				"concise": "強化スペル： (20 秒) 次に使用するスキルに変化します (20 秒)。スペル以外のスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "마법의 메아리",
+				"description": "강화 마법. 대상 지정: 없음. 이 마법은 20초 동안 바로 다음에 사용하는 마법으로 바뀝니다. 바뀐 마법은 20초 동안 사용할 수 있으며 마법이 아닌 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "강화 마법. (20초) 이 스킬은 바로 다음에 사용하는 마법으로 바뀝니다.(20초) 마법이 아닌 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Magiczne Echo",
+				"description": "Zaklęcie (czar). Jeżeli rzucisz czar w przeciągu następnych 20 sek., Magiczne Echo zostanie zastąpione przez ten czar na 20 sek. Magiczne Echo przestanie działać przedwcześnie, jeżeli użyjesz umiejętności innej niż czar.",
+				"concise": "Zaklęcie (czar). (20 sek.) Magiczne Echo zamienia się w następny czar, którego użyjesz (20 sek.). To zaklęcie przestanie działać, jeśli użyjesz umiejętność, która nie jest czarem."
+			},
+			"ru": {
+				"name": "Arcane Echo",
+				"description": "Заклинание-чары. Если в течение следующих 20 сек вы произносите заклинание, Arcane Echo будет заменено этим заклинанием на 20 сек. Arcane Echo преждевременно заканчивает свое действие, если вы используете любое умение, не являющееся заклинанием.",
+				"concise": "Заклинание-чары. (20 сек). Arcane Echo становится следующим заклинанием, которые вы используете (20 сек). Эти чары заканчиваются, если вы используете любое умение, не являющееся заклинанием."
+			},
+			"bork": {
+				"name": "Aercune-a Ichu",
+				"description": "Inchuntment Spell. Iff yuoo caest a spell in zee next 20 secunds, Aercune-a Ichu is replaeced veet thaet spell fur 20 secunds. Aercune-a Ichu inds premaetoorely iff yuoo use-a a nun-spell skeell.",
+				"concise": "Inchuntment Spell. (20 secunds.) Aercune-a Ichu becumes zee next spell yuoo use-a (20 secunds). Thees inchuntment inds iff yuoo use-a uny skeell thaet is nut a spell."
 			}
 		}
 	}

@@ -581,7 +581,7 @@
 906;"On Your Knees!";"Auf Eure Knie!";Lose all adrenaline. If any adjacent foes are knocked down, all of your stances are recharged.;2;-1;20;1;0;0;0;0;6;0;0;0;0;0;0;
 907;Dragon Slash;Drachenhieb;If Dragon Slash hits, you strike for +10..40 damage and gain 1..5 strike[s] of adrenaline.;2;20;10;1;0;0;0;0;7;0;1;0;0;0;0;
 908;Marauder's Shot;Plünderer-Schuss;If Marauder's Shot hits, you strike for +25..55 damage and all your non-attack skills are disabled for 5 seconds.;2;25;2;2;0;5;0;6;0;0;0;0;0;0;0;
-909;Focused Shot;Scharfschuss;This shot moves three times faster, cannot be blocked, and strikes for +10..40 damage but all of your other attack skills are disabled for 8..4 seconds.;2;25;2;2;0;5;4;8;0;0;0;0;0;0;0;
+909;Focused Shot;Scharfschuss;This shot moves three times faster, cannot be blocked, and strikes for +10..40 damage but all of your other attack skills are disabled for 8..4 seconds.;2;25;2;2;0;5;0;8;0;0;0;0;0;0;0;
 910;Spirit Rift;Geisterriss;Open a Spirit Rift at target foe's location. After 3 seconds, all adjacent foes are struck for 25..125 lightning damage and suffer from Cracked Armor for 1..20 second[s].;2;34;22;8;0;10;2;5;0;0;0;0;0;0;0;
 911;Union (PvP);Vereinigung (PvP);Create a level 1..8 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30..60 seconds.;2;32;18;8;0;15;3;45;0;0;0;0;0;0;0;
 913;Tranquil Was Tanasen;Ruhig war Tanasen;Hold Tanasen's ashes for up to 5..20 seconds. While you hold his ashes, you have +10..25 armor and cannot be interrupted.;2;33;25;8;0;5;1;15;0;0;1;0;0;0;0;
@@ -595,7 +595,7 @@
 921;Dissonance (PvP);Missklang (PvP);Create a level 1..8 spirit. This spirit deals 5..20 damage and anyone struck by its attack is interrupted. This spirit dies after 10..25 seconds.;2;32;18;8;0;25;2;30;0;0;0;0;0;0;0;
 923;Disenchantment (PvP);Entzauberung (PvP);Create a level 1..8 spirit. This spirit deals 5..20 damage and anyone struck by its attack loses one enchantment. This spirit dies after 15..40 seconds.;2;32;18;8;0;25;3;30;0;0;0;0;0;0;0;
 925;Recall;Rückruf;While you maintain Recall, nothing happens. When Recall ends, you Shadow Step to the ally you targeted when you activated this skill and all of your skills are disabled for 3 seconds.;2;-1;23;7;-1;10;1;10;0;0;0;0;0;0;0;
-926;Sharpen Daggers;Dolche wetzen;For 5..30 seconds, your dagger attacks cause Bleeding for 5..15 seconds.;2;35;23;7;0;5;1;20;0;0;0;0;0;0;0;
+926;Sharpen Daggers;Dolche wetzen;For 5..30 seconds, your dagger attacks cause Bleeding for 5..15 seconds.;2;35;23;7;0;5;.5;20;0;0;0;0;0;0;0;
 927;Shameful Fear;Schändliche Angst;For 10 seconds, target foe moves 10% faster than normal. For each second, if that foe is moving, that foe takes 5..20 damage.;2;30;24;7;0;10;1;10;0;0;0;0;0;0;0;
 928;Shadow Shroud (PvP);Schattenschleier (PvP);For 2..7 seconds, target foe cannot be the target of enchantments.;2;31;24;7;0;5;.25;20;0;0;1;0;0;0;0;
 929;Shadow of Haste;Schatten der Eile;For 10..40 seconds you move 15% faster than normal. When Shadow of Haste ends, you shadow step to your original location.;2;31;29;7;0;5;0;45;0;0;0;0;0;0;0;
@@ -815,7 +815,7 @@
 1336;Spiritual Pain (PvP);Geisterschmerz (PvP);Target foe takes 5..40 damage. All hostile summoned creatures in the area of that foe take 25..125 damage.;3;2;22;5;0;5;1;12;0;0;0;0;0;0;0;
 1337;Drain Delusions;Täuschungen entziehen;Remove one Mesmer hex from target foe. If a hex was removed in this way, that foe loses 1..5 Energy and you gain 4 Energy for each point lost.;3;3;22;5;0;5;.25;12;0;0;0;0;0;0;0;
 1338;Persistence of Memory;Beharrliche Erinnerungen;For 5..20 seconds, whenever a spell you cast is interrupted, that spell is instantly recharged.;3;0;23;5;0;5;1;20;0;0;0;0;0;0;0;
-1339;Symbols of Inspiration;Symbole der Inspiration;For 1..31 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.;3;0;1;5;0;5;1;15;0;0;1;0;0;0;0;
+1339;Symbols of Inspiration;Symbole der Inspiration;For 6..40 seconds, this skill becomes the Elite of target foe. Elite skills you cast use your Fast Casting attribute instead of their normal attributes.;3;0;1;5;0;5;1;10;0;0;1;0;0;0;0;
 1340;Symbolic Celerity;Symbolische Schnelligkeit;For 36..60 seconds, all of your signets use your Fast Casting attribute instead of their normal attributes.;3;0;23;5;0;15;1;30;0;0;0;0;0;0;0;
 1341;Frustration (PvP);Frustration (PvP);For 5..20 seconds, target foe casts spells 50% slower and takes 5..50 damage whenever interrupted.;3;1;24;5;0;10;1;15;0;0;0;0;0;0;0;
 1342;Tease (PvP);Reizen (PvP);If target foe is using a skill, that foe and other foes in the area are interrupted and you steal 0..5 Energy from all foes in the area.;3;3;22;5;0;5;.25;20;0;0;1;0;0;0;0;

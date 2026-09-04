@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恶灵附体",
+				"description": "精英负面魔法。 每当目标敌人进行攻击或使用技能时，「恶灵」将对其以及所有邻近的敌人造成 15...45点 暗影伤害，效果持续 10...25秒。",
+				"concise": "精英负面魔法。 每当目标敌人进行攻击或使用技能时，「恶灵」将对其以及所有邻近的敌人造成 15...45点 暗影伤害，效果持续 10...25秒。"
+			},
+			"cht": {
+				"name": "惡靈附身",
+				"description": "精英降咒魔法： 持續 10...25 秒，每當目標敵人進行攻擊或使用技能時，惡靈附身對目標及其鄰近的所有敵人造成 15...45 暗影傷害。",
+				"concise": "精英降咒魔法： 持續 10...25 秒，每當目標敵人進行攻擊或使用技能時，惡靈附身對目標及其鄰近的所有敵人造成 15...45 暗影傷害。"
+			},
 			"de": {
+				"name": "Boshafter Geist",
+				"description": "Elite-Verhexung. 10...25 Sekunde[n] lang fügt Boshafter Geist jedes Mal, wenn der Gegner angreift oder eine Fertigkeit benutzt, diesem und allen ihn umstehenden Verbündeten 15...45 Punkt[e] Schattenschaden zu.",
+				"concise": "Elite-Verhexung. 10...25 Sekunde[n]: Richtet beim Gegner und umstehenden Feinden jedes Mal 15...45 Punkt[e] Schaden an, wenn der Gegner angreift oder eine Fertigkeit benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Boshafter Geist",
 				"description": "10...25 Sekunden lang fügt Boshafter Geist jedes Mal, wenn der Gegner angreift oder eine Fertigkeit benutzt, diesem und allen ihn umstehenden Verbündeten 15...45 Punkte Schattenschaden zu.",
 				"concise": "10...25 Sekunden: Richtet beim Gegner und umstehenden Feinden jedes Mal 15...45 Punkte Schaden an, wenn der Gegner angreift oder eine Fertigkeit benutzt."
 			},
 			"en": {
 				"name": "Spiteful Spirit",
+				"description": "Elite Hex Spell. For 10...25 seconds, whenever target foe attacks or uses a skill, Spiteful Spirit deals 15...45 shadow damage to that foe and all adjacent allies of that foe.",
+				"concise": "Elite Hex Spell. (10...25 seconds.) Deals 15...45 damage to target and adjacent foes whenever this foe attacks or uses a skill."
+			},
+			"en-gww": {
+				"name": "Spiteful Spirit",
 				"description": "For 10...25 seconds, whenever target foe attacks or uses a skill, Spiteful Spirit deals 15...45 shadow damage to that foe and all adjacent allies of that foe.",
 				"concise": "(10...25 seconds.) Deals 15...45 damage to target and adjacent foes whenever this foe attacks or uses a skill."
 			},
+			"es": {
+				"name": "Espíritu rencoroso",
+				"description": "Conjuro con maleficio de élite. Durante 10...25 segundos, siempre que el enemigo objetivo ataque o utilice una habilidad, el Espíritu rencoroso hará 15...45 de daño de sombra a ese enemigo y a todos los enemigos adyacentes a él.",
+				"concise": "Conjuro con maleficio de élite. (10...25 segundos). Hace 15...45 de daño al enemigo objetivo y los adyacentes cuando ataque o use una habilidad."
+			},
 			"fr": {
+				"name": "Esprit malveillant",
+				"description": "Maléfice d'élite. Pendant 10...25 secondes, chaque fois que l'ennemi visé attaque ou utilise une compétence, l'Esprit malveillant lui inflige 15...45 points de dégâts de l'ombre, ainsi qu'à tous les alliés adjacents de cet ennemi.",
+				"concise": "Maléfice d'élite. (10...25 secondes.) Chaque fois que l'ennemi visé attaque ou utilise une compétence, lui et les ennemis adjacents subissent 15...45 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Esprit malveillant",
 				"description": "Pendant 8...20 secondes, chaque fois que l'ennemi visé attaque ou utilise une compétence, l'Esprit malveillant lui inflige 5...35 points de dégâts de l'ombre, ainsi qu'à tous les alliés adjacents de cet ennemi.",
 				"concise": "(8...20 secondes.) Chaque fois que l'ennemi visé attaque ou utilise une compétence, lui et les ennemis adjacents subissent 5...35 points de dégâts."
+			},
+			"it": {
+				"name": "Spirito Malevolo",
+				"description": "Fattura d'Élite. Dura 10...25 secondo[i]; se l'obiettivo nemico attacca o utilizza un'abilità, lui e tutti i suoi alleati adiacenti ricevono 15...45 danno[i] da ombra.",
+				"concise": "Fattura d'Élite. (Secondi: 10...25) Assesta 15...45 danno[i] all'obiettivo e ai nemici adiacenti ogni volta che questo nemico attacca o usa un'abilità."
+			},
+			"jp": {
+				"name": "スパイトフル スピリット",
+				"description": "エリート弱体化スペル： 10...25 秒間、ターゲットした敵が攻撃またはスキルを使用するたびに、その敵および隣接するすべての敵の味方に 15...45 の暗黒ダメージを与えます。",
+				"concise": "エリート弱体化スペル： (10...25 秒) ターゲットした敵が攻撃またはスキルを使用するたびに、ターゲットおよび隣接する敵に 15...45 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "악의의 기운",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 10...25초 동안 대상이 공격을 하거나 스킬을 사용하면 대상과 그에 인접한 대상과 같은 편은 15...45의 암흑 대미지를 입습니다.",
+				"concise": "엘리트 약화 마법. (10...25초) 대상이 공격을 하거나 스킬을 사용할 때마다 대상과 그에 인접한 적들에게 15...45의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Mściwy Duch",
+				"description": "Elitarna klątwa (czar). Przez 10...25 sek., za każdym razem, kiedy wybrany przeciwnik atakuje lub używa umiejętności, Mściwy Duch zadaje jemu i jego sojusznikom bezpośrednio przy nim 15...45 pkt. obrażeń od cienia.",
+				"concise": "Elitarna klątwa (czar). (10...25 sek.) Wybranemu przeciwnikowi i przeciwnikom w bezpośredniej odległości zadaje 15...45 pkt. obrażeń, za każdym razem, kiedy ten przeciwnik atakuje lub używa umiejętności."
+			},
+			"ru": {
+				"name": "Spiteful Spirit",
+				"description": "Элитное заклинание-проклятье. В течение 10...25 сек каждый раз, когда выбранный противник атакует или использует умение, Spiteful Spirit наносит 15...45 ед. урона силой тьмы этому противнику и всем окружающим союзникам этого противника.",
+				"concise": "Элитное заклинание-проклятье. (10...25 сек) Наносит 15...45 ед. урона выбранному и окружающим противникам каждый раз, когда выбранный противник атакует или использует умение."
+			},
+			"bork": {
+				"name": "Speeteffool Spureet",
+				"description": "Ileete-a Hex Spell. Fur 10...25 secunds, vhenefer taerget fue-a aettaecks oor uses a skeell, Speeteffool Spureet deaels 15...45 shaedoo daemaege-a tu thaet fue-a und aell aedjaecent aelleees ooff thaet fue-a.",
+				"concise": "Ileete-a Hex Spell. (10...25 secunds.) Deaels 15...45 daemaege-a tu taerget und aedjaecent fues vhenefer thees fue-a aettaecks oor uses a skeell."
 			}
 		}
 	}

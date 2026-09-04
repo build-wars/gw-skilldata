@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "水晶波动",
+				"description": "咒文。 使邻近你的敌人受到 10...70点 伤害，但是却会移除他们身上的所有「症状」。此魔法的伤害效果忽视护甲及抗性。",
+				"concise": "咒文。 使邻近你的敌人受到 10...70点 伤害，但是却会移除他们身上的所有「症状」。此魔法的伤害效果忽视护甲及抗性。"
+			},
+			"cht": {
+				"name": "水晶波動",
+				"description": "咒文魔法： 使鄰近你的敵人受到 10...70 傷害，但是卻會治癒他們身上的所有「病症」。此魔法的傷害效果忽視敵人的防禦力及魔法抗性。",
+				"concise": "咒文魔法： 使鄰近你的敵人受到 10...70 傷害，但是卻會治癒他們身上的所有「病症」。此魔法的傷害效果忽視敵人的防禦力及魔法抗性。"
+			},
 			"de": {
+				"name": "Kristallwelle",
+				"description": "Zauber. Umstehende Gegner erleiden 10...70 Punkte Schaden, werden jedoch von sämtlichen negativen Zuständen geheilt. Jeder entfernte Zustand verursacht 5...15 Schaden.",
+				"concise": "Zauber. Richtet bei allen umstehenden Feinden 10...70 Punkte Schaden an. Diese Gegner verlieren alle Zustände und erleiden für jeden entfernten Zustand 5...15 Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Kristallwelle",
 				"description": "Umstehende Gegner erleiden 10...70 Punkte Schaden, werden jedoch von sämtlichen negativen Zuständen geheilt. Jeder entfernte Zustand verursacht 5...15 Schaden.",
 				"concise": "Richtet bei allen umstehenden Feinden 10...70 Punkte Schaden an. Diese Gegner verlieren alle Zustände und erleiden für jeden entfernten Zustand 5...15 Schaden."
 			},
 			"en": {
 				"name": "Crystal Wave",
+				"description": "Spell. Foes adjacent to you are struck for 10...70 damage but are cured of any negative conditions. Each condition removed deals 5...15 damage.",
+				"concise": "Spell. Deals 10...70 damage to all foes adjacent to you. Those foes lose all conditions and take 5...15 damage for each condition removed."
+			},
+			"en-gww": {
+				"name": "Crystal Wave",
 				"description": "Foes adjacent to you are struck for 10...70 damage but are cured of any negative conditions. Each condition removed deals 5...15 damage.",
 				"concise": "Deals 10...70 damage to all foes adjacent to you. Those foes lose all conditions and take 5...15 damage for each condition removed."
 			},
+			"es": {
+				"name": "Ola de cristales",
+				"description": "Conjuro. Los enemigos adyacentes reciben 10...70 de daño, pero se curan de toda condición negativa. Cada condición eliminada causa 5...15 de daño.",
+				"concise": "Conjuro. Hace 10...70 de daño a todos los enemigos adyacentes a ti. Esos enemigos pierden todas las condiciones y reciben 5...15 de daño por cada condición eliminada."
+			},
 			"fr": {
+				"name": "Vague de cristal",
+				"description": "Sort. Les ennemis qui vous sont adjacents subissent 10...70 points de dégâts, mais sont libérés de toute condition négative. Chaque condition supprimée inflige 5...15 points de dégâts.",
+				"concise": "Sort. Inflige 10...70 points de dégâts à tous les ennemis qui vous sont adjacents. Les ennemis perdent toutes leurs conditions et subissent 5...15 points de dégâts pour chaque condition supprimée."
+			},
+			"fr-gwiki": {
 				"name": "Vague de cristal",
 				"description": "Les ennemis qui vous sont adjacents subissent 10...70 points de dégâts, mais sont libérés de toute condition négative. Chaque condition supprimée inflige 8...15 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Onda di Cristallo",
+				"description": "Magia. I nemici adiacenti subiscono 10...70 danni, ma vengono guariti da tutte le condizioni negative. Ogni condizione rimossa infligge 5...15 danni.",
+				"concise": "Magia. Danni a tutti i nemici adiacenti a te: 10...70. Questi nemici perdono tutte le condizioni e subiscono 5...15 danni per ogni condizione rimossa."
+			},
+			"jp": {
+				"name": "クリスタル ウェーブ",
+				"description": "スペル： 隣接する敵に 10...70 のダメージを与えますが、その敵にかけられている「状態異常」をすべて解除します。解除した「状態異常」ごとに 5...15 のダメージを与えます。",
+				"concise": "スペル： 隣接するすべての敵に 10...70 のダメージを与えます。ダメージを受けた敵にかけられている「状態異常」をすべて解除し、解除した「状態異常」ごとに 5...15 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "수정 파도",
+				"description": "마법. 대상 지정: 없음. 인접한 적들에게 10...70의 대미지를 줍니다. 대신 적에게 걸려 있는 상태이상이 모두 무효화됩니다. 무효화된 상태이상 하나당 5...15의; 대미지를 줍니다.",
+				"concise": "마법. 인접한 모든 적에게 10...70의 대미지를 주고, 적들의 상태이상이 모두 무효화됩니다. 대신 무효화된 상태이상 하나당 5...15의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Krystaliczna Fala",
+				"description": "Czar. Przeciwnicy bezpośrednio przy tobie otrzymują 10...70 pkt. obrażeń, ale zostają wyleczeni z wszelkich przypadłości. Każda usunięta przypadłość zadaje 5...15 pkt. obrażeń.",
+				"concise": "Czar. Przeciwnikom bezpośrednio przy tobie zadaje po 10...70 pkt. obrażeń. Ci przeciwnicy tracą wszystkie przypadłości i otrzymują 5...15 pkt. obrażeń za każdą usuniętą przypadłość."
+			},
+			"ru": {
+				"name": "Crystal Wave",
+				"description": "Заклинание. Окружающие вас противники получают 10...70 ед. урона, но при этом с них снимаются все негативные состояния. Каждое снятое состояние наносит 5...15 ед. урона.",
+				"concise": "Заклинание. Наносит 10...70 ед. урона всем окружающим вас противникам. Эти противники теряют все лежащие на них состояния и получают 5...15 ед. урона за каждое снятое состояние."
+			},
+			"bork": {
+				"name": "Crystael Vaefe-a",
+				"description": "Spell. Fues aedjaecent tu yuoo aere-a stroock fur 10...70 daemaege-a boot aere-a coored ooff uny negaeteefe-a cundeeshuns. Iaech cundeeshun remufed deaels 5...15 daemaege-a.",
+				"concise": "Spell. Deaels 10...70 daemaege-a tu aell fues aedjaecent tu yuoo. Thuse-a fues luse-a aell cundeeshuns und taeke-a 5...15 daemaege-a fur iaech cundeeshun remufed."
 			}
 		}
 	}

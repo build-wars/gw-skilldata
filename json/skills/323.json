@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "孤注一掷",
+				"description": "近战技能。 命中时，对目标造成10...40点额外伤害，使其遭受以下一种症状：「重伤」20秒、「虚弱」20秒、「流血」25秒、「残废」15秒。在「孤注一掷」发动之后，你将会暂时倒地。",
+				"concise": "近战技能。 对目标造成 10...40点 额外伤害，使其遭受以下一种症状：「重伤」20秒、「虚弱」20秒、「流血」25秒、「残废」15秒。在「孤注一掷」发动之后，你将会暂时倒地。"
+			},
+			"cht": {
+				"name": "搏命一擊",
+				"description": "近身攻擊技能： 命中時對目標造成 10...40 額外傷害，而且使其遭受以下其中一種病症：「重傷」 20 秒、「虛弱」 20 秒、「流血」 25 秒、「殘廢」 15 秒。在使用搏命一擊之後，你將會暫時倒地。",
+				"concise": "近身攻擊技能： 命中時對目標造成 10...40 額外傷害，而且使其遭受以下其中一種病症：「重傷」 20 秒、「虛弱」 20 秒、「流血」 25 秒、「殘廢」 15 秒。在搏命一擊之後，你將會暫時倒地。"
+			},
 			"de": {
+				"name": "Verzweiflungsschlag",
+				"description": "Nahkampfangriff. Wenn dieser Angriff trifft, fügt Ihr +10...40 Punkt[e] Schaden zu und Euer Ziel leidet unter einem der folgenden Zustände: Tiefe Wunde (20 Sekunden lang), Schwäche (20 Sekunden lang), Blutung (25 Sekunden lang) oder Verkrüppelung (15 Sekunden lang). Nachdem Ihr einen Verzweiflungsschlag ausgeführt habt, werdet Ihr zu Boden geworfen.",
+				"concise": "Nahkampfangriff. Richtet +10...40 Punkt[e] Schaden an. Verursacht willkürlich einen der folgenden Zustände: Tiefe Wunde (20 Sekunden), Schwäche (20 Sekunden), Blutung (25 Sekunden) oder Verkrüppelung (15 Sekunden). Ihr werdet zu Boden geworfen."
+			},
+			"de-guildwiki": {
 				"name": "Verzweiflungsschlag",
 				"description": "Wenn dieser Angriff trifft, fügt Ihr 10...40 Punkte zusätzlichen Schaden zu und Euer Ziel leidet unter einem der folgenden Zustände: Tiefe Wunde (20 Sekunden lang), Schwäche (20 Sekunden lang), Blutung (25 Sekunden lang) oder Verkrüppelung (15 Sekunden lang). Nachdem Ihr einen Verzweiflungschlag durchgeführt habt, werdet Ihr zu Boden geworfen.",
 				"concise": "Richtet +10...40 Punkte Schaden an. Verursacht willkürlich einen der folgenden Zustände: Tiefe Wunde (20 Sekunden), Schwäche (20 Sekunden), Blutung (25 Sekunden) oder Verkrüppelung (15 Sekunden). <gray>Ihr werdet zu Boden geworfen.</gray>"
 			},
 			"en": {
 				"name": "Desperation Blow",
+				"description": "Melee Attack. If this attack hits, you strike for +10...40 damage, and your target suffers from one of the following conditions: Deep Wound (for 20 seconds), Weakness (for 20 seconds), Bleeding (for 25 seconds), or Crippled (for 15 seconds). After making a Desperation Blow, you are knocked down.",
+				"concise": "Melee Attack. Deals +10...40 damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down."
+			},
+			"en-gww": {
+				"name": "Desperation Blow",
 				"description": "If this attack hits, you strike for +10...40 damage, and your target suffers from one of the following conditions: Deep Wound (for 20 seconds), Weakness (for 20 seconds), Bleeding (for 25 seconds), or Crippled (for 15 seconds). After making a Desperation Blow, you are knocked down.",
 				"concise": "Deals +10...40 damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). <gray>You are knocked-down.</gray>"
 			},
+			"es": {
+				"name": "Golpe desesperado",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, harás +10...40 de daño y tu objetivo sufrirá una de las siguientes condiciones: herida grave (durante 20 segundos), debilidad (20 segundos), hemorragia (25 segundos) o lisiadura (15 segundos). Después del Golpe desesperado, caerás al suelo.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +10...40 de daño. Causa una de estas condiciones al azar: herida grave (20 segundos), debilitamiento (20 segundos), hemorragia (25 segundos) o lisiadura (15 segundos). Eres derribado."
+			},
 			"fr": {
+				"name": "Frappe désespérée",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, vous infligez +10...40 points de dégâts et la cible est affectée par une des conditions suivantes : Blessure profonde (pendant 20 secondes), Faiblesse (pendant 20 secondes), Saignement (pendant 25 secondes) ou Infirmité (pendant 15 secondes). Vous êtes assommé après une Frappe désespérée.",
+				"concise": "Attaque au corps à corps. Inflige +10...40 points de dégâts. Inflige au hasard une des conditions suivantes : Blessure profonde (20 secondes), Faiblesse (20 secondes), Saignement (25 secondes) ou Infirmité (15 secondes). Vous êtes assommé[f:\"assommée\"]."
+			},
+			"fr-gwiki": {
 				"name": "Frappe désespérée",
 				"description": "Si cette attaque réussit, vous infligez +10...40 points de dégâts et la cible est affectée par une des Conditions suivantes : Blessure profonde (pendant 20 secondes), Faiblesse (pendant 20 secondes), Saignement (pendant 25 secondes) ou Infirmité (pendant 15 secondes). Vous êtes assommé après une Frappe désespérée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo della Disperazione",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno, infliggi +10...40 danno[i] e l'obiettivo è affetto da una delle seguenti condizioni: Ferita Profonda (per 20 secondi), Debolezza (per 20 secondi), Emorragia (per 25 secondi) o Storpiatura (per 15 secondi). Dopo aver sferrato il Colpo della Disperazione, cadi a terra.",
+				"concise": "Attacco Ravvicinato. Danni inferti: +10...40. Provoca una condizione a caso tra le seguenti: Ferita Profonda (20 secondi), Debolezza (20 secondi), Emorragia (25 secondi), Storpiatura (15 secondi). Vieni abbattuto."
+			},
+			"jp": {
+				"name": "デスパレーション ブロウ",
+				"description": "メーレー アタック： この攻撃が成功すると 10...40 の追加ダメージを与え、「重傷」(20秒)、「衰弱」(20秒)、「出血」(25秒)、「不自由」(15秒) のいずれかの「状態異常」にします。このスキルの使用後、プレイヤーは転倒します。",
+				"concise": "メーレー アタック： 10...40 の追加ダメージを与えて「重傷 (20秒)、衰弱 (20秒)、出血 (25秒)、不自由 (15秒)」のいずれかの「状態異常」にします。プレイヤーは転倒します。"
+			},
+			"kr": {
+				"name": "필사의 일격",
+				"description": "근접 물리 공격. 대상 지정: 적. 대상은 10...40의 대미지를 추가로 입고, 출혈(25초 동안)이나 중상(20초 동안), 다리 부상(15초 동안) 또는 약체(20초 동안) 상태가 됩니다. 공격한 뒤에 자신은 넘어집니다.",
+				"concise": "근접 물리 공격. 10...40의 대미지를 추가로 주고, 다음 상태이상 중 하나에 걸리게 합니다. 출혈(25초), 중상(20초), 다리 부상(15초), 약체(20초) 자신은 바닥에 넘어집니다."
+			},
+			"pl": {
+				"name": "Desperacki Cios",
+				"description": "Atak wręcz. Jeśli atak trafi, zadajesz +10...40 pkt. obrażeń, a twój cel otrzyma jedną z następujących przypadłości: głęboka rana (na 20 sek.), osłabienie (na 20 sek.), krwawienie (na 25 sek.) lub okulawienie (na 15 sek.). Po wykonaniu Desperackiego Ciosu, zostajesz powalony.",
+				"concise": "Atak wręcz. Zadaje +10...40 pkt. obrażeń. Wywołuje jedną losową przypadłość spośród następujących: głęboka rana (20 sek.), osłabienie (20 sek.), krwawienie (25 sek.) lub okulawienie (15 sek.). Zostajesz powalony."
+			},
+			"ru": {
+				"name": "Desperation Blow",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 10...40 ед. урона, а ваш противник получает одно из следующих состояний: глубокую рану (на 20 сек), слабость (на 20 сек), кровотечение (на 25 сек) или хромоту (на 15 сек). После выполнения Desperation Blow вы будете сбиты с ног.",
+				"concise": "Рукопашная атака. Наносит дополнительно 10...40 ед. урона. Вызывает одно из следующих состояний: глубокую рану (20 сек), слабость (20 сек), кровотечение (25 сек) или хромоту (15 сек). Вы будете сбиты с ног."
+			},
+			"bork": {
+				"name": "Desperaeshun Bloo",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +10...40 daemaege-a, und yuoor taerget sooffffers frum oone-a ooff zee fullooeeng cundeeshuns: Deep Vuoond (fur 20 secunds), Veaekness (fur 20 secunds), Bleedeeng (fur 25 secunds), oor Creeppled (fur 15 secunds). Aeffter maekeeng a Desperaeshun Bloo, yuoo aere-a knucked doon.",
+				"concise": "Melee-a Aettaeck. Deaels +10...40 daemaege-a. Inffleects oone-a ooff zee fullooeeng rundum cundeeshuns: Deep Vuoond (20 secunds), Veaekness (20 secunds), Bleedeeng (25 secunds), oor Creeppled (15 secunds). Yuoo aere-a knucked-doon."
 			}
 		}
 	}

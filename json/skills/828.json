@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "毒雾",
+				"description": "负面魔法。 使目标敌人受到 10...65 冰冻伤害。如果该目标带有「症状」，则其受到此「负面魔法」的影响并遭受生命衰减 1...5 ，持续 10 秒。",
+				"concise": "负面魔法。 使目标敌人受到 10...65 冰冻伤害。如果该目标带有「症状」，则其受到此「负面魔法」的影响并遭受生命衰减 1...5 ，持续 10 秒。"
+			},
+			"cht": {
+				"name": "惡劣毒氣",
+				"description": "降咒魔法： 使目標敵人受到 10...65 冰凍傷害。若該目標正遭受「病症」，則其受到此「降咒」的影響並遭受體力衰減 1...5 ，持續 10 秒。",
+				"concise": "降咒魔法： 使目標敵人受到 10...65 冰凍傷害。若該目標正遭受「病症」，則其受到此「降咒」的影響並遭受體力衰減 1...5 ，持續 10 秒。"
+			},
 			"de": {
+				"name": "Fauler Gestank",
+				"description": "Verhexung. Der Gegner erleidet 10...65 Punkt[e] Kälteschaden. Wenn er an einem Zustand leidet, wird er mit Faulem Gestank verhext und leidet 10 Sekunde[n] lang unter einer Lebenspunktdegeneration von -1...5.",
+				"concise": "Verhexung. Verursacht -1...5 Lebenspunktdegeneration (10 Sekunde[n]). Anfangswirkung: Richtet 10...65 Punkt[e] Kälteschaden an. Verhexung wird nur auferlegt, wenn der Gegner einen Zustand hat."
+			},
+			"de-guildwiki": {
 				"name": "Fauler Gestank",
 				"description": "Der Gegner erleidet 10...65 Punkte Kälteschaden. Wenn er an einem Zustand leidet, wird er mit Faulem Gestank verhext und leidet 10 Sekunden lang unter einer Lebenspunktdegeneration von -1...5.",
 				"concise": "Verursacht -1...5 Lebenspunktdegeneration (10 Sekunden). Anfangswirkung: Richtet 10...65 Punkte Kälteschaden an. <gray>Verhexung wird nur auferlegt, wenn der Gegner einen Zustand hat.</gray>"
 			},
 			"en": {
 				"name": "Vile Miasma",
+				"description": "Hex Spell. Target foe is struck for 10...65 cold damage. If suffering from a condition, that foe is hexed with Vile Miasma and suffers -1...5 Health degeneration for 10 seconds.",
+				"concise": "Hex Spell. Causes -1...5 Health degeneration (10 seconds). Initial effect: deals 10...65 cold damage. Hex is only applied if target foe has a condition."
+			},
+			"en-gww": {
+				"name": "Vile Miasma",
 				"description": "Target foe is struck for 10...65 cold damage. If suffering from a condition, that foe is hexed with Vile Miasma and suffers -1...5 Health degeneration for 10 seconds.",
 				"concise": "Causes -1...5 Health degeneration (10 seconds). Initial effect: deals 10...65 cold damage. <gray>Hex is only applied if target foe has a condition.</gray>"
 			},
+			"es": {
+				"name": "Miasma vil",
+				"description": "Conjuro con maleficio. El enemigo objetivo recibe 10...65 de daño frío. Si está padeciendo una condición, recibirá el Miasma vil y sufrirá una degeneración de salud de -1...5 durante 10 segundos.",
+				"concise": "Conjuro con maleficio. Causa -1...5 de degeneración de salud (10 segundos). Efecto inicial: 10...65 de daño frío. Sólo funciona el maleficio si el enemigo objetivo tiene una condición."
+			},
 			"fr": {
+				"name": "Miasme insalubre",
+				"description": "Maléfice. L'ennemi visé subit 10...65 points de dégâts du froid. S'il est affecté par une condition, cet ennemi est touché par le maléfice Miasme insalubre et subit une dégénération de santé de -1...5 pendant 10 secondes.",
+				"concise": "Maléfice. Provoque une dégénération de santé de -1...5 (10 secondes). Effet initial : inflige 10...65 points de dégâts du froid. Le maléfice n'est appliqué que si la cible ennemie souffre d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Miasme insalubre",
 				"description": "L'ennemi visé subit 10...65 points de dégâts du froid. S'il est affecté par une condition, cet ennemi est touché par le maléfice Miasme insalubre et subit une dégénération de santé de -1...4 pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Miasma Vile",
+				"description": "Fattura. L'obiettivo nemico subisce 10...65 danno[i] da freddo; se è affetto da una condizione, viene colpito dalla fattura del Miasma Vile e subisce una Degenerazione della Salute di -1...5 per 10 secondo[i].",
+				"concise": "Fattura. Degenerazione Salute: -1...5 (10 secondo[i]). Effetto iniziale: 10...65 danno[i] da freddo. La fattura si applica solo se l'obiettivo nemico ha una condizione."
+			},
+			"jp": {
+				"name": "バイル マイアズマ",
+				"description": "弱体化スペル： ターゲットした敵に 10...65 のコールド ダメージを与えます。その敵に「状態異常」がかけられている場合、その敵は 10 秒間、体力の自然回復力が 1...5 減少します。",
+				"concise": "弱体化スペル： 体力の自然回復力が 1...5 減少します (10 秒)。発動効果： 10...65 のコールド ダメージを与えます。ターゲットした敵に「状態異常」がかけられていない場合は無効です。"
+			},
+			"kr": {
+				"name": "지독한 독기운",
+				"description": "약화 마법. 대상 지정: 적. 대상에게 10...65의 냉기 대미지를 줍니다. 그 대상이 상태이상에 걸려 있었다면 대상은 10초 동안 체력 재생이 1...5 감소합니다.",
+				"concise": "약화 마법. 체력 재생을 1...5 감소시킵니다.(10초) 초기 효과: 10...65의 냉기 대미지를 줍니다. 대상이 상태이상에 걸려 있어야 약화 효과가 적용됩니다."
+			},
+			"pl": {
+				"name": "Ohydny Fetor",
+				"description": "Klątwa (czar). Wybrany przeciwnik otrzymuje 10...65 pkt. obrażeń od zimna. Jeżeli wybrany przeciwnik cierpi na jakąś przypadłość, to ten przeciwnik przez 10 sek. posiada dodatkowo degenerację żywotności -1...5.",
+				"concise": "Klątwa (czar). Powoduje degenerację żywotności -1...5 (10 sek.). Efekt początkowy: zadaje 10...65 pkt. obrażeń od zimna. Klątwa zostaje nałożona tylko, jeśli wybrany przeciwnik cierpi na przypadłość."
+			},
+			"ru": {
+				"name": "Vile Miasma",
+				"description": "Заклинание-проклятье. Выбранный противник получает 10...65 ед. урона силой холода. Если он находится под воздействием какого-либо состояния, на этого противника будет наложено проклятье Vile Miasma, уменьшающее его скорость восстановления здоровья на 1...5 ед. в течение 10 сек.",
+				"concise": "Заклинание-проклятье. Уменьшает на 1...5 ед. скорость восстановления здоровья (10 сек). Начальный эффект: наносит 10...65 ед. урона силой холода. Не действует, если на выбранного противника не наложено состояние."
+			},
+			"bork": {
+				"name": "Feele-a Meeaesma",
+				"description": "Hex Spell. Taerget fue-a is stroock fur 10...65 culd daemaege-a. Iff sooffffereeng frum a cundeeshun, thaet fue-a is hexed veet Feele-a Meeaesma und sooffffers -1...5 Heaelt degeneraeshun fur 10 secunds.",
+				"concise": "Hex Spell. Cooses -1...5 Heaelt degeneraeshun (10 secunds). Ineeteeael iffffect: deaels 10...65 culd daemaege-a. Hex is oonly aeppleeed iff taerget fue-a haes a cundeeshun."
 			}
 		}
 	}

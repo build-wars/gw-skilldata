@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神圣干涉",
+				"description": "增益魔法。 对友方目标施放时间为 10秒 的「神圣干涉」，如果敌人下一次对其造成了致命伤害，那么此伤害无效，同时该队友将获得26...240点生命值。",
+				"concise": "增益魔法。 对友方目标施放时间为 10秒 的「神圣干涉」，如果敌人下一次对其造成了致命伤害，那么此伤害无效，同时该队友将获得26...240点生命值。"
+			},
+			"cht": {
+				"name": "神之干預",
+				"description": "加持魔法： 持續 10 秒，下一次目標盟友受到致死的傷害時，傷害無效而且該盟友得到 26...240 體力治癒。",
+				"concise": "加持魔法： 持續 10 秒，下一次目標盟友受到致死的傷害時，傷害無效而且該盟友得到 26...240 體力治癒。"
+			},
 			"de": {
+				"name": "Göttliche Intervention",
+				"description": "Verzauberung. 10 Sekunden lang wird das nächste Mal, wenn der Verbündete (bzw. Ihr selbst) Schaden erleidet, der tödlich wäre, dieser Schaden aufgehoben und der Verbündete stattdessen für 26...240 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. 10 Sekunden: Hebt den nächsten Schaden auf, der zum Tod des Verbündeten (bzw. von Euch selbst) führen würde. Aufhebungswirkung: Heilt um 26...240 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Göttliche Intervention",
 				"description": "Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 10 Sekunden eigentlich sterben müsste, werden seine Lebenspunkte stattdessen auf 0 gesetzt und der Verbündete wird um 26...240 Lebenspunkte geheilt.",
 				"concise": "10 Sekunden: Verhindert Euren nächsten Tod. Verhinderungswirkung: Setzt Lebenspunkte auf 0 und heilt um 26...240 Lebenspunkte."
 			},
 			"en": {
 				"name": "Divine Intervention",
+				"description": "Enchantment Spell. For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and that ally is healed for 26...240 Health.",
+				"concise": "Enchantment Spell. (10 seconds.) Negates the next fatal damage target ally takes. Negation effect: heals for 26...240."
+			},
+			"en-gww": {
+				"name": "Divine Intervention",
 				"description": "For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and that ally is healed for 26...240 Health.",
 				"concise": "(10 seconds.) Negates the next fatal damage target ally takes. Negation effect: heals for 26...240."
 			},
+			"es": {
+				"name": "Intervención divina",
+				"description": "Conjuro con encantamiento. Durante 10 segundos, la próxima vez que el objetivo (un aliado o tú mismo) reciba daño que podría ser letal, el daño es bloqueado y recupera 26...240 de salud.",
+				"concise": "Conjuro con encantamiento. (10 segundos). Impide el siguiente ataque al objetivo (un aliado o tú mismo) sea crítico. Efecto: cura 26...240 de salud."
+			},
 			"fr": {
+				"name": "Intervention divine",
+				"description": "Enchantement. Pendant 10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts qui devraient être fatals, ces dégâts sont annulés et la cible est soignée de 26...240 points de vie.",
+				"concise": "Enchantement. (10 secondes.) Les prochains dégâts mortels subis par l'allié visé seront annulés. Effet de l'annulation : soigne de 26...240 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Intervention divine",
 				"description": "Pendant 10 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts qui devraient être fatals, ces dégâts sont annulés et la cible est soignée de 26...240 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Intervento Divino",
+				"description": "Incantesimo. Per 10 secondi, la prossima volta che l'obiettivo (un alleato o te stesso) riceve un danno che dovrebbe essere fatale, questo si annulla e l'alleato viene curato di 26...240 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 10) Previene il prossimo danno fatale subito dall'obiettivo (un alleato o te stesso). Effetto della prevenzione: cura di 26...240."
+			},
+			"jp": {
+				"name": "ディヴァイン インタベンション",
+				"description": "強化スペル： 10秒間、ターゲットした味方が次に受ける致命的なダメージが無効になり、その味方は体力が 26...240 回復します。",
+				"concise": "強化スペル： (10秒) ターゲットした味方が次に受ける致命的なダメージを無効にします。無効効果： 体力を 26...240 回復します。"
+			},
+			"kr": {
+				"name": "거룩한 반전",
+				"description": "강화 마법. 대상 지정: 아군. 10초 동안 대상이 죽을 만한 공격을 받으면 대미지를 입지 않고, 26...240의 체력을 회복합니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "강화 마법. (10초) 처음 받게 되는 죽을 만한 대미지를 무효화합니다. 무효화 효과: 26...240의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Boska Interwencja",
+				"description": "Zaklęcie (czar). Przez 10 sek., kiedy następnym razem wybrany sojusznik ma otrzymać śmiertelne obrażenia, to są one negowane i w zamian otrzyma on 26...240 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (10 sek.) Neguje następne śmiertelne obrażenia, jakie miałby otrzymać wybrany sojusznik. Efekt zanegowania: dodaje 26...240 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Divine Intervention",
+				"description": "Заклинание-чары. В течение 10 сек в следующий раз, когда выбранный союзник получит урон, который мог бы стать фатальным, этот урон будет отменен, а союзник будет исцелен на 26...240 ед. здоровья.",
+				"concise": "Заклинание-чары. (10 сек) Отменяет следующий урон, который бы убил выбранного союзника. Эффект отмены: исцеляет на 26...240 ед. здоровья."
+			},
+			"bork": {
+				"name": "Deefeene-a Interfenshun",
+				"description": "Inchuntment Spell. Fur 10 secunds, zee next teeme-a taerget aelly receeefes daemaege-a thaet vuoold be-a faetael, zee daemaege-a is negaeted und thaet aelly is heaeled fur 26...240 Heaelt.",
+				"concise": "Inchuntment Spell. (10 secunds.) Negaetes zee next faetael daemaege-a taerget aelly taekes. Negaeshun iffffect: heaels fur 26...240."
 			}
 		}
 	}

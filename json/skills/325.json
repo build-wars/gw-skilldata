@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱攻击",
+				"description": "近战技能。 对目标挥舞你的武器，此技能不会造成伤害，但是会打断目标及其邻近敌人的动作。",
+				"concise": "近战技能。 对目标挥舞你的武器，此技能不会造成伤害，但是会打断目标及其邻近敌人的动作。"
+			},
+			"cht": {
+				"name": "虛晃打擊",
+				"description": "近身攻擊技能： 對目標揮擊你的武器，不造成傷害，但是中斷目標及其鄰近敵人的動作。",
+				"concise": "近身攻擊技能： 對目標揮擊你的武器，不造成傷害，但是中斷目標及其鄰近敵人的動作。"
+			},
 			"de": {
+				"name": "Ablenkungsschlag",
+				"description": "Nahkampfangriff. Richtet Eure Waffen auf das Ziel. Dadurch fügt Ihr keinen Schaden zu, unterbrecht aber die aktuelle Aktion des Ziels (und die Aktionen von umstehenden Gegnern bei Eurem Ziel).",
+				"concise": "Nahkampfangriff. Greift den Gegner und umstehende Feinde an. Unterbricht eine Aktion. Treffer verursachen keinen Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Ablenkungsschlag",
 				"description": "Richtet Eure Waffen auf das Ziel. Dadurch fügt Ihr keinen Schaden zu, unterbrecht aber die aktuelle Aktion des Ziels (und die Aktionen von umstehenden Gegnern bei Eurem Ziel).",
 				"concise": "Greift den Gegner und umstehende Feinde an. Unterbricht eine Aktion. <gray>Treffer verursachen keinen Schaden.</gray>"
 			},
 			"en": {
 				"name": "Distracting Blow",
+				"description": "Melee Attack. Swipe your weapon at the target, dealing no damage but disrupting the target's current action (and the actions of foes adjacent to your target).",
+				"concise": "Melee Attack. Also attacks foes adjacent to your target. Interrupts an action. Hits for no damage."
+			},
+			"en-gww": {
+				"name": "Distracting Blow",
 				"description": "Swipe your weapon at the target, dealing no damage but disrupting the target's current action (and the actions of foes adjacent to your target).",
 				"concise": "Also attacks foes adjacent to your target. Interrupts an action. <gray>Hits for no damage.</gray>"
 			},
+			"es": {
+				"name": "Golpe de distracción",
+				"description": "Ataque cuerpo a cuerpo. Golpeas con tu arma al objetivo, sin hacer daño pero interrumpiendo la acción que esté realizando (y las de los enemigos adyacentes).",
+				"concise": "Ataque cuerpo a cuerpo. También ataca a los enemigos adyacentes a tu objetivo. Interrumpe una acción. No haces daño."
+			},
 			"fr": {
+				"name": "Coup de diversion",
+				"description": "Attaque au corps à corps. Vous agitez votre arme devant l'ennemi sans lui infliger de dégâts, mais vous interrompez son action (et les actions des ennemis qui lui sont adjacents).",
+				"concise": "Attaque au corps à corps. Frappe aussi les ennemis adjacents à votre cible. Interrompt une action. N'inflige pas de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Coup de diversion",
 				"description": "Vous agitez votre arme devant l'ennemi sans lui infliger de dégâts, mais vous interrompez son action (et les actions des ennemis qui lui sont adjacents).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Distraente",
+				"description": "Attacco Ravvicinato. Agita la tua arma in direzione dell'obiettivo, senza infliggergli danni ma interrompendo la sua azione corrente (e quella di tutti i nemici a lui adiacenti).",
+				"concise": "Attacco Ravvicinato. L'attacco ha effetto anche sui nemici adiacenti al tuo obiettivo. Interrompe un'azione. Colpisce senza infliggere danni."
+			},
+			"jp": {
+				"name": "ディストラクト ブロウ",
+				"description": "メーレー アタック： ターゲットを強打し、ターゲットおよび隣接する敵のアクションを妨害しますが、ダメージは与えません。",
+				"concise": "メーレー アタック： ターゲットした敵および隣接する敵のアクションを中断します。ダメージは与えません。"
+			},
+			"kr": {
+				"name": "크게 휘두르기",
+				"description": "근접 물리 공격. 대상 지정: 적. 무기를 크게 휘둘러 대상과 그에 인접한 적의 동작을 방해합니다. 대미지는 주지 않습니다.",
+				"concise": "근접 물리 공격. 대상과 그에 인접한 적들의 동작을 방해합니다. 대미지는 없습니다."
+			},
+			"pl": {
+				"name": "Rozpraszający Cios",
+				"description": "Atak wręcz. Wyprowadź cios, który nie zadaje obrażeń, ale przerywa aktualną czynność celu (i czynności przeciwników w kontakcie z celem).",
+				"concise": "Atak wręcz. Trafia także przeciwników bezpośrednio przy twoim celu. Przerywa czynność. Trafia nie zadając obrażeń."
+			},
+			"ru": {
+				"name": "Distracting Blow",
+				"description": "Рукопашная атака. Сильный удар по выбранному противнику, не наносящий никакого урона, но прерывающий текущее действие противника (а также действия противников, окружающих вашу цель).",
+				"concise": "Рукопашная атака. Также атакует противников, окружающих вашу цель. Прерывает действие. Попадание не наносит никакого урона."
+			},
+			"bork": {
+				"name": "Deestraecteeng Bloo",
+				"description": "Melee-a Aettaeck. Sveepe-a yuoor veaepun aet zee taerget, deaeleeng nu daemaege-a boot deesroopteeng zee taerget's coorrent aecshun (und zee aecshuns ooff fues aedjaecent tu yuoor taerget).",
+				"concise": "Melee-a Aettaeck. Aelsu aettaecks fues aedjaecent tu yuoor taerget. Interroopts un aecshun. Heets fur nu daemaege-a."
 			}
 		}
 	}

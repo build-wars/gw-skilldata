@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命之种",
+				"description": "增益魔法。 在2...5秒之内，当目标盟友受到伤害时，每一级「神恩」属性会使所有队伍成员回复2点生命值。",
+				"concise": "增益魔法。 在2...5秒之内，当目标盟友受到伤害时，每一级「神恩」属性会使所有队伍成员回复2点生命值。"
+			},
+			"cht": {
+				"name": "生命種子",
+				"description": "加持魔法： 持續 2...5 秒，每當目標其他盟友受到傷害，所有隊伍成員將依照你每 1神恩屬性等級將獲得 2 體力。",
+				"concise": "加持魔法： 持續 2...5 秒，每當目標其他盟友受到傷害，所有隊伍成員將獲得 2 體力。"
+			},
 			"de": {
+				"name": "Lebenssaat",
+				"description": "Verzauberung. Während der nächsten 2...5 Sekunden werden jedes Mal, wenn der Verbündete Schaden erleidet, alle Gruppenmitglieder pro Rang in Gunst der Götter um 2 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. (2...5 Sekunden.) Heilt alle Gruppenmitglieder jedes Mal, wenn das Ziel Schaden erleidet, um 2 Lebenspunkt[e] pro Rang in Gunst der Götter. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Lebenssaat",
 				"description": "Während der nächsten 2...5 Sekunden werden jedes Mal, wenn der Verbündete Schaden erleidet, alle Gruppenmitglieder pro Rang in Gunst der Götter um 2 Lebenspunkte geheilt.",
 				"concise": "(2...5 Sekunden.) Heilt alle Gruppenmitglieder jedes Mal, wenn das Ziel Schaden erleidet, um 2 Lebenspunkte pro Rang in Gunst der Götter. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Seed of Life",
+				"description": "Enchantment Spell. For 2...5 seconds, whenever target other ally takes damage, all party members are healed for 2 Health for each rank in Divine Favor.",
+				"concise": "Enchantment Spell. (2...5 seconds.) Heals party members for 2 for each rank in Divine Favor whenever target ally takes damage. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Seed of Life",
 				"description": "For 2...5 seconds, whenever target other ally takes damage, all party members are healed for 2 Health for each rank in Divine Favor.",
 				"concise": "(2...5) seconds. Heals party members for 2 for each rank in Divine Favor whenever target takes damage. Cannot self target."
 			},
+			"es": {
+				"name": "Semilla de vida",
+				"description": "Conjuro con encantamiento. Durante 2...5 segundos, cada vez que el aliado objetivo recibe daño, todos los miembros del grupo recuperan 2 de salud por cada nivel de favor divino.",
+				"concise": "Conjuro con encantamiento. (2...5 segundos.) Los miembros del grupo recuperan 2 de salud por cada nivel de favor divino cada vez que el aliado reciba daño. No puedes apuntarte a ti mismo como objetivo."
+			},
 			"fr": {
+				"name": "Graine de vie",
+				"description": "Enchantement. Pendant 2...5 secondes, à chaque fois que l'allié visé subit des dégâts, tous les membres du groupe sont soignés de 2 points de vie pour chaque rang de Faveur divine.",
+				"concise": "Enchantement. (2...5 secondes.) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Graine de vie",
 				"description": "Pendant 1...5 seconde(s), à chaque fois que l'allié visé subit des dégâts, tous les membres du groupe sont soignés de 2 points de vie pour chaque rang de Faveur divine.",
 				"concise": "(1...5 seconde(s).) Soigne les membres du groupe de 2 points de vie pour chaque rang de Faveur divine à chaque fois que l'allié visé subit des dégâts. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "Seme della Vita",
+				"description": "Incantesimo. Per 2...5 secondi, ogni volta che l'obiettivo alleato subisce danni tutti i membri della squadra vengono curati di 2 Punti Salute per ogni grado di Favore Divino.",
+				"concise": "Incantesimo. (Secondi: 2...5). Punti Salute ottenuti dai membri della squadra per ogni grado di Favore Divino ogni volta che l'obiettivo alleato subisce danni: 2. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ライフ シード",
+				"description": "強化スペル： 2...5 秒間、ターゲットした自分以外の味方がダメージを受けるたびに、すべてのパーティー メンバーは「ディヴァイン」の特性レベルごとに 2 の体力が回復します。",
+				"concise": "強化スペル： (2...5 秒) ターゲットした味方がダメージを受けるたびに、パーティー メンバーは「ディヴァイン」の特性レベルごとに 2 の体力が回復します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "생명의 씨앗",
+				"description": "강화 마법. 대상 지정: 아군. 2...5초 동안 대상이 대미지를 입을 때마다 모든 파티원이 신의 은총 특성 레벨 1당 2씩 체력을 얻습니다.",
+				"concise": "강화 마법. (2...5초) 대상 아군이 대미지를 입을 때마다 모든 파티원이 신의 은총 특성 레벨 1당 0씩 체력을 얻습니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Ziarno Życia",
+				"description": "Zaklęcie (czar). Przez 2...5 sek., za każdym razem, kiedy wybrany sojusznik inny niż ty otrzyma obrażenia, wszyscy członkowie drużyny odzyskują po 2 pkt. żywotności na każdy twój poziom Łaski Bogów.",
+				"concise": "Zaklęcie (czar). (2...5 sek.) Członkowie drużyny odzyskują po 2 pkt. żywotności za każdy poziom Łaski Bogów, za każdym razem, kiedy wybrany sojusznik otrzymuje obrażenia. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Seed of Life",
+				"description": "Заклинание-чары. В течение 2...5 сек каждый раз, когда выбранный союзник (но не вы) получает урон, все члены отряда исцеляются на 2 ед. здоровья за каждый ваш уровень таланта Divine Favor.",
+				"concise": "Заклинание-чары. (2...5 сек) Исцеляет членов отряда на 2 ед. за каждый ваш уровень таланта Divine Favor каждый раз, когда выбранный союзник получает урон. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Seed ooff Leeffe-a",
+				"description": "Inchuntment Spell. Fur 2...5 secunds, vhenefer taerget oozeer aelly taekes daemaege-a, aell paerty members aere-a heaeled fur 2 Heaelt fur iaech runk in Deefeene-a Faefur.",
+				"concise": "Inchuntment Spell. (2...5 secunds.) Heaels paerty members fur 2 fur iaech runk in Deefeene-a Faefur vhenefer taerget aelly taekes daemaege-a. Cunnut selff-taerget."
 			}
 		}
 	}

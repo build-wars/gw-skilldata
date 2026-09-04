@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "妖咒激励",
+				"description": "咒文。 将友方目标身上的一项「负面魔法」转移到你的技能栏上，取代「妖咒激励」20秒，同时获得 4...10点 能量。",
+				"concise": "咒文。 将友方目标身上的一项「负面魔法」转移到你的技能栏上，取代「妖咒激励」20秒，同时获得 4...10点 能量。"
+			},
+			"cht": {
+				"name": "靈感降咒",
+				"description": "咒文魔法： 移除目標盟友身上的某項「降咒」並且獲得 4...10 能量。同時靈感降咒將被該項「降咒」取代 20 秒。",
+				"concise": "咒文魔法： 移除目標盟友身上的某項「降咒」並且獲得 4...10 能量。同時靈感降咒將被該項「降咒」取代 20 秒。"
+			},
 			"de": {
+				"name": "Inspirierte Verhexung",
+				"description": "Zauber. Eine Verhexung wird von einem Verbündeten (bzw. Euch selbst) entfernt und Ihr erhaltet 4...10 Energiepunkt[e]. Inspirierte Verhexung wird 20 Sekunden lang durch die entfernte Verhexung ersetzt.",
+				"concise": "Zauber. Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkungen: Ihr erhaltet 4...10 Energiepunkt[e]; dieser Zauber wird durch die entfernte Verhexung ersetzt (20 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Inspirierte Verhexung",
 				"description": "Eine Verhexung wird von einem Verbündeten (bzw. Euch selbst) entfernt und Ihr erhaltet 4...10 Energiepunkte. Inspirierte Verhexung wird 20 Sekunden lang durch die entfernte Verhexung ersetzt.",
 				"concise": "Entfernt beim Verbündeten (bzw. Euch selbst) eine Verhexung. Entfernungswirkung: Ihr erhaltet 4...10 Energiepunkte; dieser Zauber wird durch die entfernte Verhexung ersetzt (20 Sekunden)."
 			},
 			"en": {
 				"name": "Inspired Hex",
+				"description": "Spell. Remove a hex from target ally and gain 4...10 Energy. For 20 seconds, Inspired Hex is replaced with the hex that was removed.",
+				"concise": "Spell. Removes a hex from target ally. Removal effects: you gain 4...10 Energy; this spell is replaced with that hex (20 seconds)."
+			},
+			"en-gww": {
+				"name": "Inspired Hex",
 				"description": "Remove a hex from target ally and gain 4...10 Energy. For 20 seconds, Inspired Hex is replaced with the hex that was removed.",
 				"concise": "Removes a hex from target ally. Removal effects: you gain 4...10 Energy; this spell is replaced with that hex (20 seconds)."
 			},
+			"es": {
+				"name": "Maleficio inspirado",
+				"description": "Conjuro. Se elimina un maleficio del objetivo (un aliado o tú mismo) y obtienes 4...10 de energía. Durante 20 segundos, el Maleficio inspirado será sustituido por el maleficio que hayas quitado.",
+				"concise": "Conjuro. Elimina un maleficio del aliado objetivo. Efecto de la eliminación: ganas 4...10 de energía; este conjuro se sustituye por el maleficio (20 segundos)."
+			},
 			"fr": {
+				"name": "Maléfice inspiré",
+				"description": "Sort. Lève un maléfice de la cible (un allié ou vous-même) et vous gagnez 4...10 points d'énergie. Pendant 20 secondes, le maléfice inspiré est remplacé par celui qui a été levé.",
+				"concise": "Sort. Lève un maléfice qui frappe la cible alliée. Effets de la suppression : vous obtenez 4...10 points d'énergie ; ce sort est remplacé par ce maléfice (20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Maléfice inspiré",
 				"description": "Lève un maléfice de la cible (un allié ou vous-même) et vous gagnez 4...10 points d'énergie. Pendant 20 secondes, le Maléfice inspiré est remplacé par celui qui a été levé.",
 				"concise": "Lève un maléfice qui frappe la cible alliée. Effets de la suppression : vous obtenez 4...10 points d'énergie ; ce sort est remplacé par ce maléfice (20 secondes)."
+			},
+			"it": {
+				"name": "Fattura Ispirata",
+				"description": "Magia. Elimini una fattura dall'obiettivo (un alleato o te stesso) ed ottieni 4...10 Punto[i] Energia. Per 20 secondi, la fattura sottratta si sostituirà alla Fattura Ispirata.",
+				"concise": "Magia. Rimuove una fattura dall'obiettivo (un alleato o te stesso). Effetto di rimozione: ottieni 4...10 Punto[i] Energia. Questa magia viene rimpiazzata con quella fattura (20 secondi)."
+			},
+			"jp": {
+				"name": "インスパイア ヘックス",
+				"description": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除し、4...10 のエネルギーを獲得します。20秒間、このスペルは解除した弱体化スペルと入れ替わります。",
+				"concise": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除します。解除効果： プレイヤーはエネルギーを 4...10 獲得し、このスペルは解除した弱体化スペルと入れ替わります (20秒)。"
+			},
+			"kr": {
+				"name": "약화 마법 제거",
+				"description": "마법. 대상 지정: 아군. 대상에게 걸려 있는 약화 마법 하나를 무효화하고 4...10의 에너지를 얻습니다. 이 스킬은 20초 동안 무효화한 약화 마법 스킬로 바뀝니다.",
+				"concise": "마법. 대상에 걸린 약화 마법 하나를 무효화합니다. 무효화 효과: 자신은 4...10의 에너지를 얻고, 이 마법이 무효화한 약화 마법으로 바뀝니다.(20초)"
+			},
+			"pl": {
+				"name": "Inspirująca Klątwa",
+				"description": "Czar. Z wybranego sojusznika zdejmujesz jedną klątwę i otrzymujesz 4...10 pkt. energii. Na 20 sekund Inspirująca Klątwa zostaje zastąpiona zdjętą klątwą.",
+				"concise": "Czar. Z wybranego sojusznika usuwa jedną klątwę. Efekty usunięcia: otrzymujesz 4...10 pkt. energii; ten czar zamieniany jest na tę klątwę (20 sek.)."
+			},
+			"ru": {
+				"name": "Inspired Hex",
+				"description": "Заклинание. Снимает одно проклятье с выбранного союзника и дает вам 4...10 ед. энергии. На 20 сек Inspired Hex будет замещен тем проклятьем, которое было снято с союзника.",
+				"concise": "Заклинание. Снимает проклятье с выбранного союзника. Эффект снятия: вы получаете 4...10 ед. энергии; это заклинание будет замещено снятым проклятьем (20 сек)."
+			},
+			"bork": {
+				"name": "Inspured Hex",
+				"description": "Spell. Remufe-a a hex frum taerget aelly und gaeeen 4...10 Inergy. Fur 20 secunds, Inspured Hex is replaeced veet zee hex thaet vaes remufed.",
+				"concise": "Spell. Remufes a hex frum taerget aelly. Remufael iffffects: yuoo gaeeen 4...10 Inergy; thees spell is replaeced veet thaet hex (20 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战神之钟",
+				"description": "精英增益魔法。 在5...25秒之内，当下一次敌人对友方目标使用击倒技能时，该敌人将会被击倒。",
+				"concise": "精英增益魔法。 在5...25秒之内，当下一次敌人对友方目标使用击倒技能时，该敌人将会被击倒。"
+			},
+			"cht": {
+				"name": "巴薩澤震盪",
+				"description": "精英加持魔法： 持續 5...25 秒，當目標盟友「下一次」被敵人使用擊倒性的技能攻擊時，該敵人將會倒地。",
+				"concise": "精英加持魔法： 持續 5...25 秒，當目標盟友「下一次」被敵人使用擊倒性的技能攻擊時，該敵人將會倒地。"
+			},
 			"de": {
+				"name": "Balthasars Pendel",
+				"description": "Elite-Verzauberung. 5...25 Sekunde[n] lang wird das nächste Mal, wenn der Verbündete (bzw. Ihr selbst) durch einen Gegner zu Boden geworfen würde, stattdessen dieser Gegner zu Boden geworfen.",
+				"concise": "Elite-Verzauberung. 5...25 Sekunde[n]: Wirft den nächsten Feind zu Boden, der versucht, den Verbündeten (bzw. Euch selbst) zu Boden zu werfen."
+			},
+			"de-guildwiki": {
 				"name": "Balthasars Pendel",
 				"description": "5...25 Sekunden lang wird das nächste Mal, wenn der Verbündete (bzw. Ihr selbst) durch einen Gegner zu Boden geworfen würde, stattdessen dieser Gegner zu Boden geworfen.",
 				"concise": "5...25 Sekunden: Wirft den nächsten Feind zu Boden, der versucht, den Verbündeten (bzw. Euch selbst) zu Boden zu werfen."
 			},
 			"en": {
 				"name": "Balthazar's Pendulum",
+				"description": "Elite Enchantment Spell. For 5...25 seconds, the next time target ally would be knocked down by a foe, that foe is knocked down instead.",
+				"concise": "Elite Enchantment Spell. (5...25 seconds.) Causes knock-down to the next foe attempting to knock-down target ally."
+			},
+			"en-gww": {
+				"name": "Balthazar's Pendulum",
 				"description": "For 5...25 seconds, the next time target ally would be knocked down by a foe, that foe is knocked down instead.",
 				"concise": "(5...25 seconds.) Causes knock-down to the next foe attempting to knock-down target ally."
 			},
+			"es": {
+				"name": "Péndulo de Balthazar",
+				"description": "Conjuro con encantamiento de élite. Durante 5...25 segundos, la próxima vez que un enemigo intente derribar al objetivo (un aliado o tú mismo), será el enemigo quien caiga.",
+				"concise": "Conjuro con encantamiento de élite. (5...25 segundos). Causa derribo al siguiente enemigo que intente derribar al objetivo (un aliado o tú mismo)."
+			},
 			"fr": {
+				"name": "Balancier de Balthazar",
+				"description": "Enchantement d'élite. Pendant 5...25 secondes, la prochaine fois que la cible (un allié ou vous-même) est assommée par un ennemi, l'ennemi est assommé à sa place.",
+				"concise": "Enchantement d'élite. (5...25 secondes.) Assomme le premier ennemi qui tente d'assommer l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Balancier de Balthazar",
 				"description": "Pendant 5...25 secondes, la prochaine fois que la cible (un allié ou vous-même) est assommée par un ennemi, l'ennemi est assommé à sa place.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pendolo di Balthazar",
+				"description": "Incantesimo d'Élite. Dura 5...25 secondo[i]; la prossima volta che l'obiettivo alleato sarebbe stato abbattuto da un nemico, quel nemico viene abbattuto al suo posto.",
+				"concise": "Incantesimo d'Élite. (Secondi: 5...25) Abbattimento del prossimo nemico che tenta di abbattere l'obiettivo alleato."
+			},
+			"jp": {
+				"name": "バルタザール ペンダラム",
+				"description": "エリート強化スペル： 5...25 秒間、ターゲットした味方が敵のスキルによって転倒しそうになった場合、次の1回は代わりにその敵が転倒します。",
+				"concise": "エリート強化スペル： (5...25 秒) ターゲットした味方を次に転倒させようとする敵を転倒させます。"
+			},
+			"kr": {
+				"name": "발타자르의 진동",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 5...25초 동안 대상이 적에 의해 넘어져야 할 때, 대신 그 적이 바닥에 넘어집니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "엘리트 강화 마법. (5...25초) 대상 아군을 넘어뜨리려는 적을 바닥에 넘어뜨립니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Wahadło Baltazara",
+				"description": "Elitarne zaklęcie (czar). Przez 5...25 sek., następnym razem, gdy wybrany sojusznik ma zostać powalony przez przeciwnika, to przeciwnik zostaje powalony za niego.",
+				"concise": "Elitarne zaklęcie (czar). (5...25 sek.) Powali następnego przeciwnika, który spróbuje powalić wybranego sojusznika."
+			},
+			"ru": {
+				"name": "Balthazar's Pendulum",
+				"description": "Элитное заклинание-чары. В течение 5...25 сек в следующий раз, когда какой-либо противник должен был бы сбить с ног выбранного союзника, вместо этого этот противник сам будет сбит с ног.",
+				"concise": "Элитное заклинание-чары. (5...25 сек) Сбивает с ног следующего противника, который попытается сбить с ног выбранного союзника."
+			},
+			"bork": {
+				"name": "Baelthaezaer's Pendooloom",
+				"description": "Ileete-a Inchuntment Spell. Fur 5...25 secunds, zee next teeme-a taerget aelly vuoold be-a knucked doon by a fue-a, thaet fue-a is knucked doon insteaed.",
+				"concise": "Ileete-a Inchuntment Spell. (5...25 secunds.) Cooses knuck-doon tu zee next fue-a aettempteeng tu knuck-doon taerget aelly. Bork! Bork! Bork!"
 			}
 		}
 	}

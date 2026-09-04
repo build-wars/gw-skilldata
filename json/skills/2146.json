@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Pious Fury",
+				"description": "姿态。 Lose one enchantment. For 1...7 seconds, you attack 25% faster.",
+				"concise": "姿态。 Remove one of your enchantments. You attack 25% faster (1...7 seconds)."
+			},
+			"cht": {
+				"name": "虔誠暴怒",
+				"description": "態勢： 持續 1...7 秒，你的攻擊速度增加 25% ，移除自身一項神喚使加持，若移除成功，則此態勢持續時間加倍。",
+				"concise": "態勢： 持續 1...7 秒，你的攻擊速度增加 25% ，移除自身一項神喚使加持，若移除成功，則此態勢持續時間加倍。"
+			},
 			"de": {
+				"name": "Frommer Zorn",
+				"description": "Haltung. Entfernt 1 Derwisch-Verzauberung. 1...7 Sekunde[n] lang sind Eure Angriffe um 25% schneller. Wenn eine Verzauberung entfernt wurde, dauert diese Haltung doppelt so lange an.",
+				"concise": "Haltung. (1...7 Sekunde[n].) Ihr greift 25% schneller an und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Haltung dauert doppelt so lange an."
+			},
+			"de-guildwiki": {
 				"name": "Frommer Zorn",
 				"description": "Entfernt 1 Derwisch-Verzauberung. 1...7 Sekunden lang sind Eure Angriffe um 25% schneller. Wenn eine Verzauberung entfernt wurde, dauert diese Haltung doppelt so lange an.",
 				"concise": "(1...7 Sekunden.) Ihr greift 25% schneller an und entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Haltung dauert doppelt so lange an."
 			},
 			"en": {
 				"name": "Pious Fury",
+				"description": "Stance. Remove 1 Dervish enchantment. For 1...7 seconds, you attack 25% faster. If an enchantment was removed, this stance lasts twice as long.",
+				"concise": "Stance. (1...7 seconds.) You attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long."
+			},
+			"en-gww": {
+				"name": "Pious Fury",
 				"description": "Remove 1 Dervish enchantment. For 1...7 second[s], you attack 25% faster. If an enchantment was removed, this stance lasts twice as long.",
 				"concise": "(1...7 second[s].)You <sic/> attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long."
 			},
+			"es": {
+				"name": "Furia piadosa",
+				"description": "Actitud. Quita un encantamiento de Derviche. Durante 1...7 segundos, atacas un 25% más rápido. Si se quitó un encantamiento, esta actitud dura el doble de tiempo.",
+				"concise": "Actitud. (1...7 segundos)Atacas un 25% más rápido y pierdes uno de tus encantamientos de Derviche. Efecto de eliminación: esta actitud dura el doble de tiempo."
+			},
 			"fr": {
+				"name": "Fureur pieuse",
+				"description": "Pose de combat. Supprime un enchantement de Derviche. Pendant 1...7 secondes, vous attaquez 25% plus vite. Si un enchantement a été supprimé, cette pose de combat dure deux fois plus longtemps.",
+				"concise": "Pose de combat. (1...7 secondes.) Vous attaquez 25% plus vite et levez un de vos enchantements de Derviche. Effet de la suppression : cette pose de combat dure deux fois plus longtemps."
+			},
+			"fr-gwiki": {
 				"name": "Fureur pieuse",
 				"description": "Vous perdez un enchantement. Pendant 2...6 secondes, vous attaquez 33% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Furia Pia",
+				"description": "Posizione. Rimuove 1 Incantesimo del Derviscio. Per 1...7 secondi la tua velocità d'attacco aumenta di 25%. Se un incantesimo è stato rimosso, questa posizione dura il doppio del tempo.",
+				"concise": "Posizione. (1...7 secondi). Attacchi più velocemente del 25% e rimuovi 1 dei tuoi Incantesimi del Derviscio. Effetto della rimozione: questa posizione dura il doppio del tempo."
+			},
+			"jp": {
+				"name": "パイアス フューリー",
+				"description": "スタンス： ダルウィーシュの強化スペルを1個解除します。1...7 秒間、攻撃速度が 25% 増加します。強化スペルを解除すると、このスタンスの持続時間が倍増します。",
+				"concise": "スタンス： (1...7 秒) 攻撃速度が 25% 増加し、かけられているダルウィーシュの強化スペルを1個解除します。解除効果： このスタンスの持続時間が倍増します。"
+			},
+			"kr": {
+				"name": "경건한 분노",
+				"description": "자세. 1...7초 동안 공격 속도가 25% 빨라지고, 자신의 더비시 강화 마법 하나가 무효화됩니다. 강화 마법이 무효화되면 이 자세의 지속 시간이 2배로 늘어납니다.",
+				"concise": "자세. 자신의 더비시 강화 마법 하나를 무효화합니다. 공격 속도가 25% 빨라집니다.(1...7초) 무효화 효과: 이 자세의 지속 시간이 2배로 늘어납니다."
+			},
+			"pl": {
+				"name": "Nabożna Furia",
+				"description": "Postawa. Usuwa jedno zaklęcie derwisza. Przez 1...7 sek. atakujesz o 25% szybciej. Jeśli zostało usunięte jakieś zaklęcie, postawa ta trwa dwa razy dłużej.",
+				"concise": "Postawa. (1...7 sek.) Atakujesz 25% szybciej i usuwasz 1 ze swoich zaklęć derwisza. Efekt usunięcia: Postawa ta trwa dwa razy dłużej."
+			},
+			"ru": {
+				"name": "Pious Fury",
+				"description": "Стойка. Вы теряете 1 чары профессии Dervish. В течение 1...7 сек вы атакуете на 25% быстрее. Если чары были успешно сняты, эта стойка длится в два раза дольше.",
+				"concise": "Стойка. (1...7 сек) Вы атакуете на 25% быстрее и теряете 1 чары профессии Dervish. Эффект снятия: эта стойка длится в два раза дольше."
+			},
+			"bork": {
+				"name": "Peeuoos Foory",
+				"description": "Stunce-a. Remufe-a 1 Derfeesh inchuntment. Fur 1...7 secunds, yuoo aettaeck 25% faester. Iff un inchuntment vaes remufed, thees stunce-a laests tveece-a aes lung.",
+				"concise": "Stunce-a. (1...7 secunds.) Yuoo aettaeck 25% faester und remufe-a 1 ooff yuoor Derfeesh inchuntments. Remufael iffffect: thees stunce-a laests tveece-a aes lung."
 			}
 		}
 	}

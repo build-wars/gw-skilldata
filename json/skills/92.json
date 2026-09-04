@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "鲜血之池",
+				"description": "法池。 消耗一具最近的尸体或牺牲66%生命值，在其位置创造一个鲜血之井，持续8...20秒。范围内的友军获得+1...6生命回复。",
+				"concise": "法池。 （8...20秒）此泉内的友军生命回复+1...6。需利用新鲜的尸体或牺牲66%生命值。"
+			},
+			"cht": {
+				"name": "血之池",
+				"description": "湧泉魔法： Exploit nearest corpse or sacrifice 66% health to create a Well of Blood at its location. For 8...20 seconds, allies in that area receive +1...6 Health regeneration.",
+				"concise": "湧泉魔法： (8...20 seconds.) Allies in this well have +1...6 Health regeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen des Blutes",
+				"description": "Brunnenzauber. Nutzt die nächstbeste Leiche oder opfert 66 % Eurer Lebenspunkte, um an ihrem Fundort einen Brunnen des Blutes zu erzeugen. Für 8...20 Sekunden erhalten Verbündete in diesem Bereich +1...6 Lebenspunktregeneration.",
+				"concise": "Brunnenzauber. (8...20 Sekunden). Verbündete in diesem Brunnen erhalten +1...6 Lebenspunktregeneration. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen des Blutes",
 				"description": "Der nächste Kadaver wird an seiner Position in einen Brunnen des Blutes verwandelt. 8...20 Sekunden lang erhalten Verbündete, die sich in dem Bereich aufhalten, eine Lebenspunktregeneration in Höhe von 1...6 Punkten.",
 				"concise": "8...20 Sekunden: Verbündete in diesem Brunnen haben +1...6 Lebenspunktregeneration. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Blood",
+				"description": "Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Blood at its location. For 8...20 seconds, allies in that area receive +1...6 Health regeneration.",
+				"concise": "Well Spell. (8...20 seconds.) Allies in this well have +1...6 Health regeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Blood",
 				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Blood at its location. For 8...20 seconds, allies in that area receive +1...6 Health regeneration.",
 				"concise": "(8...20 seconds.) Allies in this well have +1...6 Health regeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 			},
+			"es": {
+				"name": "Pozo de sangre",
+				"description": "Conjuro de pozo. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de sangre en esa ubicación. Durante 8...20 segundos, los aliados que haya en el área ganarán +1...6 de regeneración de salud.",
+				"concise": "Conjuro de pozo. (8...20 segundos). Los aliados en este pozo ganan +1...6 de regeneración de salud. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits de sang",
+				"description": "Sort de puits. Exploitez le cadavre le plus proche ou sacrifiez 66% de santé pour créer à cet endroit un Puits de sang. Pendant 8...20 secondes, les alliés dans la zone bénéficient d'une régénération de santé de +1...6.",
+				"concise": "Sort de puits. (8...20 secondes.) Les alliés présents dans ce puits bénéficient de +1...6 points de régénération de santé. Exploite un cadavre frais ou sacrifie 66% de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits de sang",
 				"description": "Utilisez le cadavre le plus proche pour créer un Puits de sang à cet endroit. Pendant 8...20 secondes, les alliés se trouvant dans cette zone bénéficient d'une régénération de santé de +1...6.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo di Sangue",
+				"description": "Pozzo. Sfrutta il cadavere più vicino o sacrifica il 66% della tua salute per creare un Pozzo di Sangue alla sua posizione. Per 8...20 secondo/i, gli alleati in quell'area ricevono +1...6 rigenerazione della salute.",
+				"concise": "Pozzo. (8...20 secondo/i). Gli alleati in questo Pozzo hanno +1...6 rigenerazione della Salute. Utilizza un cadavere fresco o sacrifica il 66% della salute."
+			},
+			"jp": {
+				"name": "ブラッド ウェル",
+				"description": "ウェル スペル： 最寄りの死体を使用するか体力の66%を犠牲にして、血の泉を作ります。8...20秒間、そのエリアにいる味方は、体力の自然回復力が1...6増加します。",
+				"concise": "ウェル スペル： （8...20秒）この泉にいる味方は、体力の自然回復力が1...6増加します。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "피의 늪",
+				"description": "늪. 가장 가까운 시체를 이용하거나 체력을 66% 희생하여 그 위치에 피의 우물을 만듭니다. 피의 늪 효과 범위 내에 있는 아군은 8...20초 동안 체력 재생이 1...6만큼 증가합니다.",
+				"concise": "늪. (8...20초) 피의 늪 효과 범위 내에 있는 아군은 체력 재생이 1...6 증가합니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Krwi",
+				"description": "Czar studni. Wykorzystaj najbliższe zwłoki lub poświęć 66% swojej żywotności, by utworzyć Studnię Krwi. Przez 8...20 sek. sojusznicy w tym obszarze otrzymują +1...6 regeneracji żywotności.",
+				"concise": "Czar studni. (8...20 sek.). Sojusznicy w tej studni mają regenerację żywotności +1...6. Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Blood",
+				"description": "Заклинание-источник. Использует ближайший труп или жертвует 66% здоровья, чтобы создать Well of Blood в указанной точке. На 8...20 сек. союзники в области получают +1...6 к регенерации здоровья.",
+				"concise": "Заклинание-источник. (8...20 сек.) Союзники в области получают +1...6 к регенерации здоровья. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Bluud",
+				"description": "Vell Spell. Ixplueet neaerest curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Bluud aet its lucaeshun. Fur 8...20 secunds, aelleees in thaet aerea receeefe-a +1...6 Heaelt regeneraeshun.",
+				"concise": "Vell Spell. (8...20 secunds.) Aelleees in thees vell haefe-a +1...6 Heaelt regeneraeshun. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

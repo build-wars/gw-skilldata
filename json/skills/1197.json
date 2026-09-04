@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.6,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "针刺射击",
+				"description": "弓术。 对目标敌人造成10...30点伤害，且飞行速度比一般的箭快，如果命中生命值低于50%的敌人，则此技能将立刻冷却。",
+				"concise": "弓术。 此技能对目标造成 10...30 伤害而且速度比一般的箭快，如果命中剩余生命低于 50% 的敌人，则此技能立即恢复。"
+			},
+			"cht": {
+				"name": "刺針射擊",
+				"description": "弓術攻擊技能： 射出飛行快速的箭，命中時造成10...30傷 害，若命中體力低於50%的敵人則此技能立即回復，但是其他攻擊技能在2秒內無法使用。",
+				"concise": "弓術攻擊技能： 射出飛行快速的箭，命中時造成10...30傷 害，若命中體力低於50%的敵人則此技能立即回復，但是其他攻擊技能在2秒內無法使用。"
+			},
 			"de": {
+				"name": "Nadelschuss",
+				"description": "Bogenangriff. Wenn Nadelschuss erfolgreich ist, fügt er nur 10...30 Schaden zu. Der Pfeil bewegt sich schneller als normal. Wenn Nadelschuss einen Feind trifft, dessen Lebenspunkte unter 50% sind, wird er sofort wieder aufgeladen. Eure anderen Angriffs-Fertigkeiten werden 2 Sekunden lang deaktiviert.",
+				"concise": "Bogenangriff. Schneller Pfeil. Richtet 10...30 Punkt[e] Schaden an. Lädt sich sofort wieder auf, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. Deaktiviert Eure anderen Angriffsfertigkeiten (2 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Nadelschuss",
 				"description": "Wenn der Gegner unter 50% seiner Lebenspunkte hat, wird Nadelschuss sofort wieder aufgeladen. Wenn dieser Angriff erfolgreich ist, fügt er nur 10...30 Punkte Schaden zu. Der Pfeil bewegt sich schneller als normal. Eure anderen Bogenangriffsfertigkeiten werden 2 Sekunden lang deaktiviert.",
 				"concise": "Schneller Pfeil. Richtet 10...30 Punkte Schaden an. Lädt sich sofort wieder auf, falls der Gegner weniger als 50% seiner maximalen Lebenspunkte hat. <gray>Deaktiviert Eure anderen Angriffsfertigkeiten (2 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Needling Shot",
+				"description": "Bow Attack. Needling Shot strikes for only 10...30 damage and moves faster than normal. If Needling Shot strikes a foe below 50% Health, Needling Shot recharges instantly. Your other attack skills are disabled for 2 seconds.",
+				"concise": "Bow Attack. Fast-moving arrow. Deals 10...30 damage. Recharges instantly if target foe is below 50% Health. Your other attack skills are disabled (2 seconds)."
+			},
+			"en-gww": {
+				"name": "Needling Shot",
 				"description": "Needling Shot strikes for only 10...30 damage and moves faster than normal. If Needling Shot strikes a foe below 50% Health, Needling Shot recharges instantly. Your other attack skills are disabled for 2 seconds.",
 				"concise": "Fast-moving arrow. Deals 10...30 damage. Recharges instantly if target foe is below 50% Health. <gray>Your other attack skills are disabled (2 seconds).</gray>"
 			},
+			"es": {
+				"name": "Disparo molesto",
+				"description": "Ataque con arco. El Disparo molesto hace sólo 10...30 de daño pero es el doble de rápido de lo normal. Si alcanzas a un enemigo por debajo del 50% de salud, se recargará al instante. El resto de tus habilidades de ataque estarán desactivadas durante 2 segundos.",
+				"concise": "Ataque con arco. Flecha rápida. Hace 10...30 de daño. Se recarga al instante si el enemigo objetivo está por debajo del 50% de salud. Tus otras habilidades de ataque estarán desactivadas (2 segundos)."
+			},
 			"fr": {
+				"name": "Aiguillons",
+				"description": "Attaque à l'arc. Cette compétence inflige seulement 10...30 points de dégâts et tire une flèche qui se déplace plus vite que la normale. Si l'attaque touche un ennemi dont la santé est inférieure à 50%, elle se rechargera instantanément. Vos autres compétences d'attaque sont inutilisables pendant 2 secondes.",
+				"concise": "Attaque à l'arc. Flèche rapide. Inflige 10...30 points de dégâts. Rechargement instantané si la cible ennemie a moins de 50% de santé. Vos autres compétences d'attaque sont inutilisables (2 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Aiguillons",
 				"description": "Cette compétence inflige seulement 10...30 points de dégâts et tire une flèche qui se déplace plus vite que la normale. Si l'attaque touche un ennemi dont la santé est inférieure à 50%, elle se rechargera instantanément. Vos autres compétences d'attaque sont inutilisables pendant 2 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Pungente",
+				"description": "Attacco con Arco. Il Tiro Pungente infligge solo 10...30 di danni e ha una velocità superiore a quella standard. Se colpisce un nemico con Salute inferiore a un 50%, si ricarica all'istante. Le altre abilità di attacco di cui disponi vengono disattivate per 2 secondi.",
+				"concise": "Attacco con Arco. Freccia veloce. Danni inferti: 10...30. Si ricarica all'istante se la Salute dell'obiettivo nemico è inferiore al 50%. Le altre abilità di attacco di cui disponi vengono disattivate (2 secondi)."
+			},
+			"jp": {
+				"name": "ニードル ショット",
+				"description": "ボウ アタック： 10...30 のダメージしか与えませんが、移動速度が通常より増加します。また、体力が上限の50%未満の敵に攻撃が成功すると、すぐに再使用することができるようになります。ただし、これ以外のアタック スキルを2秒間、使用することができなくなります。",
+				"concise": "ボウ アタック： 飛速度の早い弓攻撃： 10...30 のダメージを与えます。ターゲットした敵の体力が上限の50%未満の場合、すぐに再使用することができます。他のアタック スキルを使用することができなくなります (2秒)。"
+			},
+			"kr": {
+				"name": "바늘 화살",
+				"description": "활 공격. 대상 지정: 적. 대상에게 10...30의 대미지만 주지만 일반 화살보다 빠르게 날아갑니다. 체력이 50% 미만인 대상에게 명중하면 바늘 화살이 즉시 재활성되지만, 다른 공격 스킬은 2초 동안 사용할 수 없습니다.",
+				"concise": "활 공격. 빠르게 날아가는 화살. 10...30의 대미지를 줍니다. 대상의 체력이 50% 미만이면 즉시 재활성됩니다. 다른 공격 스킬을 사용할 수 없습니다.(2초)"
+			},
+			"pl": {
+				"name": "Strzał Dobijający",
+				"description": "Strzał z łuku. Strzał Dobijający zadaje jedynie 10...30 pkt. obrażeń, ale porusza się szybciej niż normalny. Jeśli Strzał Dobijający trafi w przeciwnika, kt&oacute;ry będzie miał mniej niż 50% żywotności, to ta umiejętność odnowi się automatycznie. Twoje pozostałe umiejętności ofensywme nie działają przez 2 sek.",
+				"concise": "Strzał z łuku. Szybko lecąca strzała. Zadaje 10...30 pkt. obrażeń. Natychmiast się odnawia, jeżeli wybrany przeciwnik ma poniżej 50% żywotności. Twoje pozostałe umiejętności ofensywne nie działają (2 sek)."
+			},
+			"ru": {
+				"name": "Needling Shot",
+				"description": "Атака из лука. Needling Shot наносит только 10...30 ед. урона, но стрела при этом летит быстрее, чем обычно. Если этот выстрел попадает в противника, чей уровень здоровья ниже 50%, это умение будет немедленно перезаряжено. Ваши другие атакующие умения будут недоступны в течение 2 сек.",
+				"concise": "Атака из лука. Быстро летящая стрела. Наносит 10...30 ед. урона. Перезаряжается немедленно, если у выбранного противника менее 50% здоровья. Другие ваши атакующие умения будут недоступны (2 сек)."
+			},
+			"bork": {
+				"name": "Needleeng Shut",
+				"description": "Boo Aettaeck. Needleeng Shut streekes fur oonly 10...30 daemaege-a und mufes faester thun nurmael. Iff Needleeng Shut streekes a fue-a beloo 50% Heaelt, Needleeng Shut rechaerges instuntly. Yuoor oozeer aettaeck skeells aere-a deesaebled fur 2 secunds.",
+				"concise": "Boo Aettaeck. Faest-mufeeng aerroo. Deaels 10...30 daemaege-a. Rechaerges instuntly iff taerget fue-a is beloo 50% Heaelt. Yuoor oozeer aettaeck skeells aere-a deesaebled (2 secunds)."
 			}
 		}
 	}

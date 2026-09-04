@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻象抽取",
+				"description": "咒文。 移除目标敌人身上的一项「幻术类负面魔法」，移除成功后，将抽取目标敌人1...5点能量值，每抽取1点，你可以获得4点能量值。",
+				"concise": "咒文。 移除目标敌人身上的一项「幻术类负面魔法」，移除成功后，将抽取目标敌人1...5点能量值，每抽取1点，你可以获得4点能量值。"
+			},
+			"cht": {
+				"name": "枯竭幻像",
+				"description": "咒文魔法： 從目標敵人身上移除一項幻術師「降咒」並使其失去 1...5 能量，同時你獲得該目標失去的 4 倍能量。",
+				"concise": "咒文魔法： 從目標敵人身上移除一項幻術師「降咒」並使其失去 1...5 能量，同時你獲得該目標失去的 4 倍能量。"
+			},
 			"de": {
+				"name": "Täuschungen entziehen",
+				"description": "Zauber. Entfernt eine Mesmer-Verhexung vom Gegner. Wenn eine Verhexung auf diese Weise entfernt wurde, verliert der Gegner 1...5 Energiepunkt[e] und Ihr erhaltet für jeden verlorenen Punkt 4 Energiepunkt[e].",
+				"concise": "Zauber. Entfernt beim Gegner eine Mesmer-Verhexung. Lässt 1...5 Energiepunkt[e] verlieren. Ihr erhaltet für jeden verlorenen Energiepunkt 4 Energiepunkt[e]. Keine Wirkung, falls keine Verhexung entfernt wird."
+			},
+			"de-guildwiki": {
 				"name": "Täuschungen entziehen",
 				"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wenn eine Verhexung auf diese Weise entfernt wurde, verliert der Gegner 1...5 Energiepunkte und Ihr erhaltet für jeden verlorenen Punkt 4 Energiepunkte.",
 				"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Lässt 1...5 Energiepunkte verlieren. Ihr erhaltet für jeden verlorenen Energiepunkt 4 Energiepunkte. <gray>Keine Wirkung, falls keine Verhexung entfernt wird.</gray>"
 			},
 			"en": {
 				"name": "Drain Delusions",
+				"description": "Spell. Remove one Mesmer hex from target foe. If a hex was removed in this way, that foe loses 1...5 Energy and you gain 4 Energy for each point lost.",
+				"concise": "Spell. Removes one Mesmer hex from target foe. Causes 1...5 Energy loss. You gain 4 Energy for each point lost. No effect unless a hex was removed."
+			},
+			"en-gww": {
+				"name": "Drain Delusions",
 				"description": "Remove one Mesmer hex from target foe. If a hex was removed in this way, that foe loses 1...5 Energy and you gain 4 Energy for each point lost.",
 				"concise": "Removes one Mesmer hex from target foe. Causes 1...5 Energy loss. You gain 4 Energy for each point lost. <gray>No effect unless a hex was removed.</gray>"
 			},
+			"es": {
+				"name": "Quitailusiones",
+				"description": "Conjuro. Eliminas un maleficio de Hipnotizador al enemigo objetivo. Si lo haces, perderá 1...5 de energía y tú ganarás 4 por cada punto que pierda.",
+				"concise": "Conjuro. Elimina un maleficio de Hipnotizador del enemigo objetivo. Hace perder 1...5 de energía. Ganas 4 de energía por cada punto perdido. No tiene efecto si no se elimina un maleficio."
+			},
 			"fr": {
+				"name": "Drain d'illusions",
+				"description": "Sort. Vous enlevez un maléfice d'Envoûteur à la cible ennemie. Si ce maléfice est enlevé de cette manière, l'ennemi perd 1...5 points d'énergie et vous bénéficiez de 4 points d'énergie pour chaque point qu'il perd.",
+				"concise": "Sort. Supprime un maléfice d'Envoûteur lancé par l'ennemi visé. Provoque une perte de 1...5 points d'énergie. Vous gagnez 4 points d'énergie par point perdu. Aucun effet si aucun maléfice n'est supprimé."
+			},
+			"fr-gwiki": {
 				"name": "Drain d'illusions",
 				"description": "Vous enlevez un maléfice d'Envoûteur à la cible ennemie. Si ce maléfice est enlevé de cette manière, l'ennemi perd 1...5 point(s) d'énergie et vous bénéficiez de 4 points d'énergie pour chaque point qu'il perd.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Prosciuga Delusioni",
+				"description": "Magia. Rimuovi una fattura dell'Ipnotizzatore dall'obiettivo nemico. Se riesci a rimuoverla in questo modo, quel nemico perde 1...5 Punto[i] Energia e tu ottieni 4 Punto[i] Energia per ogni punto perduto.",
+				"concise": "Magia. Rimuove una fattura dell'Ipnotizzatore dall'obiettivo nemico. Perdita Energia: 1...5. Ottieni 4 Punto[i] Energia per ogni punto perso. Ha effetto solo se una fattura era stata rimossa."
+			},
+			"jp": {
+				"name": "ドレイン デリュージョン",
+				"description": "スペル： ターゲットした敵にかけられているメスマーの弱体化スペルを1個解除します。この効果により弱体化スペルを解除すると、その敵はエネルギーが 1...5 減少し、減少したエネルギーのポイントごとに、プレイヤーは 4 のエネルギーを獲得します。",
+				"concise": "スペル： ターゲットした敵にかけられているメスマーの弱体化スペルを1個解除し、エネルギーを 1...5 減少させます。プレイヤーは減少させたエネルギーのポイントごとに 4 のエネルギーを獲得します。弱体化スペルを解除できない場合は無効です。"
+			},
+			"kr": {
+				"name": "기만적 흡수",
+				"description": "마법. 대상 지정: 적. 대상에 걸린 메스머 약화 마법 하나를 무효화합니다. 이렇게 약화 마법이 무효화되면 그 대상은 1...5의 에너지를 잃고, 자신은 대상이 잃은 에너지 1당 4의 에너지를 얻습니다.",
+				"concise": "마법. 대상에 걸린 메스머 약화 마법 하나를 무효화하고, 1...5의 에너지 손실을 유발합니다. 자신은 대상이 잃은 에너지 1당 4의 에너지를 얻습니다. 무효화한 약화 마법이 없으면 효과가 없습니다."
+			},
+			"pl": {
+				"name": "Wyssanie Urojeń",
+				"description": "Czar. Zdejmujesz jedną klątwę mesmera z wybranego przeciwnika. Jeśli klątwa została usunięta w ten sposób, to przeciwnik traci 1...5 pkt. energii, z kolei ty otrzymujesz 4 pkt. energii za każdy punkt stracony przez niego.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa jedną klątwę mesmera. Powoduje utratę 1...5 pkt. energii. Otrzymujesz 4 pkt. energii za każdy punkt straconej energii. Bez efektu, chyba że została usunięta klątwa."
+			},
+			"ru": {
+				"name": "Drain Delusions",
+				"description": "Заклинание. Снимает одно проклятье профессии Mesmer с выбранного противника. Если проклятье будет успешно снято, выбранный противник потеряет 1...5 ед. энергии, а вы получите 4 ед. энергии за каждую ед. энергии, потерянную противником.",
+				"concise": "Заклинание. Снимает одно проклятье профессии Mesmer с выбранного противника. Вызывает потерю 1...5 ед. энергии. Вы получаете 4 ед. энергии за каждою потерянную ед. энергии. Не действует, если не было снято проклятье."
+			},
+			"bork": {
+				"name": "Draeeen Delooseeuns",
+				"description": "Spell. Remufe-a oone-a Mesmer hex frum taerget fue-a. Iff a hex vaes remufed in thees vaey, thaet fue-a luses 1...5 Inergy und yuoo gaeeen 4 Inergy fur iaech pueent lust.",
+				"concise": "Spell. Remufes oone-a Mesmer hex frum taerget fue-a. Cooses 1...5 Inergy luss. Yuoo gaeeen 4 Inergy fur iaech pueent lust. Nu iffffect unless a hex vaes remufed."
 			}
 		}
 	}

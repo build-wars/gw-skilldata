@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "觉醒之息",
+				"description": "精英负面魔法。 在5...20秒之内，使目标敌人及邻近该目标的所有敌人施放「增益魔法」的速度降低150...300%。当「觉醒之息」消失时，所有受到「觉醒之息」效果影响的敌人将失去一项「增益魔法」。",
+				"concise": "精英负面魔法。 在5...20秒之内，使目标敌人及邻近该目标的所有敌人施放「增益魔法」的速度降低150...300%。当「觉醒之息」消失时，所有受到「觉醒之息」效果影响的敌人将失去一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "反加持氣息",
+				"description": "精英降咒魔法： 使目標及目標附近敵人遭受此降咒(5...20秒)並移除一項加持，這些目標之後所施展的加持其維持時間加快150...300%結束。",
+				"concise": "精英降咒魔法： 使目標及目標附近敵人遭受此降咒(5...20秒)並移除一項加持，這些目標之後所施展的加持其維持時間加快150...300%結束。"
+			},
 			"de": {
+				"name": "Flair der Entzauberung",
+				"description": "Elite-Verhexung. Entfernt eine Verzauberung vom Gegner und allen Feinden in der Nähe. 5...20 Sekunde[n] lang enden Verzauberungen auf diesen Feinden um 150...300% schneller.",
+				"concise": "Elite-Verhexung. Verhext auch Feinde in der Nähe Eures Gegners (5...20 Sekunde[n]). Entfernt eine Verzauberung vom Gegner und allen Feinden in der Nähe. Verzauberungen auf diesen Feinden enden um 150...300% schneller."
+			},
+			"de-guildwiki": {
 				"name": "Flair der Entzauberung",
 				"description": "Entfernt eine Verzauberung vom Gegner und allen Feinden in der Nähe. 5...20 Sekunden lang enden Verzauberungen auf diesen Feinden mit 150...300%iger Geschwindigkeit.",
 				"concise": "Verhext auch Feinde in der Nähe Eures Gegners (5...20 Sekunden). Entfernt eine Verzauberung vom Gegner und allen Feinden in der Nähe. Verzauberungen auf diesen Feinden enden mit 150...300%iger Geschwindigkeit."
 			},
 			"en": {
 				"name": "Air of Disenchantment",
+				"description": "Elite Hex Spell. Remove one enchantment from target foe and all nearby foes. For 5...20 seconds, enchantments expire 150...300% faster on those foes.",
+				"concise": "Elite Hex Spell. Also hexes foes near your target (5...20 seconds). Remove one enchantment from target and nearby foes. Enchantments expire 150...300% faster on those foes."
+			},
+			"en-gww": {
+				"name": "Air of Disenchantment",
 				"description": "Remove one enchantment from target foe and all nearby foes. For 5...20 seconds, enchantments expire 150...300% faster on those foes.",
 				"concise": "Also hexes foes near your target (5...20 seconds). Remove one enchantment from target and nearby foes. Enchantments expire 150...300% faster on those foes."
 			},
+			"es": {
+				"name": "Aire de desencantamiento",
+				"description": "Conjuro con maleficio de élite. Eliminas un encantamiento del enemigo objetivo y todos los cercanos. Durante 5...20 segundos, los encantamientos que tengan acaban un 150...300% antes.",
+				"concise": "Conjuro con maleficio de élite. También afecta a los enemigos cercanos al objetivo (5...20 segundos). Elimina un encantamiento del objetivo y los enemigos cercanos. Los encantamientos que tengan acaban un 150...300% antes."
+			},
 			"fr": {
+				"name": "Air de Désenchantement",
+				"description": "Maléfice d'élite. Vous supprimez un enchantement à la cible ennemie et à tous les ennemis à proximité. Pendant 5...20 secondes, les enchantements expirent 150...300% plus vite sur ces ennemis.",
+				"concise": "Maléfice d'élite. Inflige également un maléfice aux ennemis proches de votre cible (5...20 secondes). Lève un enchantement à la cible et aux ennemis à proximité. Les enchantements expirent 150...300% plus vite sur ces ennemis."
+			},
+			"fr-gwiki": {
 				"name": "Air de Désenchantement",
 				"description": "Vous supprimez un enchantement à la cible ennemie et à tous les ennemis à proximité. Pendant 5...20 secondes, les enchantements expirent 150...300% plus vite sur ces ennemis.",
 				"concise": "Inflige également un maléfice aux ennemis proches de la cible (5...20 secondes). Lève un enchantement à la cible et aux ennemis à proximité. Les enchantements expirent 150...300% plus vite sur ces ennemis."
+			},
+			"it": {
+				"name": "Aria del Disincanto",
+				"description": "Fattura d'Élite. Rimuovi un incantesimo dall'obiettivo nemico e tutti i nemici nei dintorni. Per 5...20 secondo[i] gli incantesimi su questi nemici durano un 150...300% in meno.",
+				"concise": "Fattura d'Élite. Infligge fattura anche ai nemici vicini al tuo obiettivo (5...20 secondo[i]). Rimuovi un incantesimo dall'obiettivo e dai nemici nei dintorni. Incremento velocità di esaurimento degli incantesimi su questi nemici: 150...300%."
+			},
+			"jp": {
+				"name": "ディスエンチャント エアー",
+				"description": "エリート弱体化スペル： ターゲットした敵と周囲にいるすべての敵にかけられている強化スペルを1個解除します。5...20 秒間、それぞれの敵にかけられている強化スペルの効果は、通常の持続時間より 150...300% 早く消失します。",
+				"concise": "エリート弱体化スペル： (5...20 秒) ターゲットした敵と周囲にいる敵から強化スペルを1個解除します。また、それぞれにかけられている強化スペルの持続時間が 150...300% 減少します。"
+			},
+			"kr": {
+				"name": "강화 방해의 기운",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상과 그 부근의 모든 적에 걸린 강화 마법 하나를 무효화합니다. 5...20초 그 적들에게 걸린 강화 마법은 지속 시간이 150...300% 줄어듭니다.",
+				"concise": "엘리트 약화 마법. (5...20초) 대상과 그 부근 적들에게 걸린 강화 마법을 하나씩 무효화합니다. 그 적들에게 걸린 강화 마법의 지속 시간이 150...300% 줄어듭니다."
+			},
+			"pl": {
+				"name": "Powietrze Antyzaklęć",
+				"description": "Elitarna klątwa (czar). Z wybranego przeciwnika i wszystkich przeciwników w pobliżu zdejmujesz po jednym zaklęciu. Przez 5...20 sek. zaklęcia rzucane na tych przeciwników kończą się o 150...300% szybciej.",
+				"concise": "Elitarna klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (5...20 sek.). Z wybranego przeciwnika i przeciwników w pobliżu usuwa po jednym zaklęciu. Zaklęcia na tych przeciwnikach kończą się o 150...300% szybciej."
+			},
+			"ru": {
+				"name": "Air of Disenchantment",
+				"description": "Элитное заклинание-проклятье. Снимает одни чары с выбранного противника и всех противников поблизости. В течение 5...20 сек действие наложенных на этих противников чар заканчивается на 150...300% быстрее.",
+				"concise": "Элитное заклинание-проклятье. Также накладывает проклятье на противников, окружающих вашу цель (5...20 сек). Снимает одни чары с цели и противников поблизости. Действие чар, наложенных на этих противников, заканчивается на 150...300% быстрее."
+			},
+			"bork": {
+				"name": "Aeur ooff Deesenchuntment",
+				"description": "Ileete-a Hex Spell. Remufe-a oone-a inchuntment frum taerget fue-a und aell neaerby fues. Fur 5...20 secunds, inchuntments ixpure-a 150...300% faester oon thuse-a fues.",
+				"concise": "Ileete-a Hex Spell. Aelsu hexes fues neaer yuoor taerget (5...20 secunds). Remufe-a oone-a inchuntment frum taerget und neaerby fues. Inchuntments ixpure-a 150...300% faester oon thuse-a fues."
 			}
 		}
 	}

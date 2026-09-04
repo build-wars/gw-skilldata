@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "影渡",
+				"description": "姿态。 使用「影步」接近目标敌人。在15秒之内，你无法施放任何「增益魔法」。当此「姿态」消失时，你将返回原点。",
+				"concise": "姿态。 使用「影步」接近目标敌人。在15秒之内，你无法施放任何「增益魔法」。当此「姿态」消失时，你将返回原点。"
+			},
+			"cht": {
+				"name": "暗影微步",
+				"description": "態勢： 利用暗影步伐移動至目標敵人處，此態勢時間為 15 秒，當此態勢終止時，你將返回原來的位置。但使用後所有的攻擊技能在 1 秒內無法使用、態勢和加持魔法在 10 秒內無法使用。",
+				"concise": "態勢： 利用暗影步伐移動至目標敵人處，此態勢時間為 15 秒，當此態勢終止時，你將返回原來的位置。但使用後所有的攻擊技能在 1 秒內無法使用、態勢和加持魔法在 10 秒內無法使用。"
+			},
 			"de": {
+				"name": "Schattenmarsch",
+				"description": "Haltung. Schattenschritt zum Gegner. 15 Sekunde[n] lang geschieht nichts. Eure Angriffsfertigkeiten sind 1 Sekunde lang deaktiviert und Eure Haltungen und Verzauberungen sind 10 Sekunden lang deaktiviert. Wenn diese Haltung endet, kehrt Ihr zu Eurem Ausgangsort zurück.",
+				"concise": "Haltung. (15 Sekunde[n].) Schattenschritt zum Gegner. Wirkung am Ende: Ihr kehrt zu Eurem Ausgangsort zurück. Deaktiviert Eure Angriffsfertigkeiten 1 Sekunde lang. Deaktiviert Eure Verzauberungen und Haltungen 10 Sekunden lang."
+			},
+			"de-guildwiki": {
 				"name": "Schattenmarsch",
 				"description": "Schattenschritt zum Gegner. 15 Sekunden lang geschieht nichts. Eure Angriffsfertigkeiten sind 1 Sekunde lang deaktiviert und Eure Haltungen und Verzauberungen sind 10 Sekunden lang deaktiviert. Wenn diese Haltung endet, kehrt Ihr zu Eurem Ausgangsort zurück.",
 				"concise": "(15 Sekunden.) Schattenschritt zum Gegner. Wirkung am Ende: Ihr kehrt zu Eurem Ausgangsort zurück. <gray>Deaktiviert Eure Angriffsfertigkeiten 1 Sekunde lang. Deaktiviert Eure Verzauberungen und Haltungen 10 Sekunden lang.</gray>"
 			},
 			"en": {
 				"name": "Shadow Walk",
+				"description": "Stance. Shadow Step to target foe. For 15 seconds, nothing happens. Your attack skills are disabled for 1 second, and your stances and enchantments are disabled for 10 seconds. When this stance ends, you return to your original location.",
+				"concise": "Stance. (15 seconds.) Shadow Step to target foe. End effect: return to your original location. Disables your attack skills for 1 second. Disables your enchantments and stances for 10 seconds."
+			},
+			"en-gww": {
+				"name": "Shadow Walk",
 				"description": "Shadow Step to target foe. For 15 seconds nothing happens. Your attack skills are disabled for 1 second, and your stances and enchantments are disabled for 10 seconds. When this stance ends, you return to your original location.",
 				"concise": "(15 seconds.) Shadow Step to target foe. End effect: return to your original location. <gray>Disables your attack skills for 1 second. Disables your stances and enchantments for 10 seconds.</gray>"
 			},
+			"es": {
+				"name": "Paseo sombrío",
+				"description": "Actitud. Das un paso sombrío hasta el enemigo objetivo. Durante 15 segundos, no ocurre nada. Tus habilidades de ataque quedan deshabilitadas durante 1 segundo. Tus actitudes y encantamientos quedan deshabilitados durante 10 segundos. Cuando termina esta actitud, regresas a tu ubicación original.",
+				"concise": "Actitud. (15 segundos). Das un paso sombrío hasta el enemigo objetivo. Efecto final: regresas a tu ubicación original. Deshabilita tus habilidades de ataque durante 1 segundo. Deshabilita tus encantamientos y actitudes durante 10 segundos."
+			},
 			"fr": {
+				"name": "Marche de l'ombre",
+				"description": "Pose de combat. Vous faites une Foulée de l'ombre jusqu'à la cible ennemie. Pendant 15 secondes, rien ne se passe. Vos compétences d'attaques sont inutilisables pendant 1 seconde ; vos enchantements et poses de combat sont inutilisables pendant 10 secondes. Lorsque cette pose prend fin, vous retournez à votre position initiale.",
+				"concise": "Pose de combat. (15 secondes.) Vous faites une Foulée de l'ombre jusqu'à la cible ennemie. Effet final : retour à votre position initiale. Désactive vos compétences d'attaques pendant 1 seconde. Désactive vos enchantements et poses de combat pendant 10 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Marche de l'ombre",
 				"description": "Vous faites une foulée de l'ombre jusqu'à l'ennemi. Pendant 1 seconde, vos compétences d'attaques sont inutilisables. Pendant 30 secondes, vous ne pouvez pas lancer d'enchantements. Lorsque cette pose prend fin, vous retournez à votre position initiale.",
 				"concise": "(30 secondes.) Vous faites une foulée de l'ombre vers la cible ennemie. Effet final : vous retournez sur votre position d'origine. <gray>Désactive vos compétences d'attaques pendant 1 seconde. Vous ne pouvez pas lancer d'enchantements.</gray>"
+			},
+			"it": {
+				"name": "Passeggiata dell'Ombra",
+				"description": "Posizione. Compi un Passo nell'Ombra verso l'obiettivo nemico. Per 15 secondi non si verificano effetti. Le tue abilità vengono disattivate per 1 secondo e i tuoi incantesimi e le tue posizioni vengono disattivati per 10 secondi. Quando questa posizione termina ritorni al punto di partenza.",
+				"concise": "Posizione. (Secondi: 15). Compi un Passo nell'Ombra verso l'obiettivo nemico. Effetto al termine: torni nella posizione di partenza. Disattiva le tue abilità d'attacco per 1 secondo. Disattiva i tuoi incantesimi e le tue posizioni per 10 secondi."
+			},
+			"jp": {
+				"name": "シャドウ ウォーク",
+				"description": "スタンス： ターゲットした敵のそばに瞬間移動します。15 秒間、何も起こりません。プレイヤーが装備するアタック スキルは1秒間、スタンスおよび強化スペルは 10 秒間、使用することができません。この効果が消失すると、プレイヤーは元いた場所に戻ります。",
+				"concise": "スタンス： (15 秒) ターゲットした敵のそばに瞬間移動します。終了効果： 元いた場所に戻ります。アタック スキルが1秒間使用できなくなります。強化スペルおよびスタンスは、10 秒間使用できなくなります。"
+			},
+			"kr": {
+				"name": "그림자 걷기",
+				"description": "자세. 대상 지정: 적. 대상이 있는 위치로 순간 이동하고, 15초 동안 발휘되는 효과는 없습니다. 자신은 1초 동안 공격 스킬을 사용할 수 없고, 10초 동안 자세 스킬과 강화 마법을 사용할 수 없습니다. 이 자세가 끝나면 처음 위치로 되돌아옵니다.",
+				"concise": "자세. (15초) 대상이 있는 위치로 순간 이동합니다. 종료 효과: 처음 위치로 되돌아옵니다. 공격 스킬을 사용할 수 없습니다.(1초) 자세 스킬과 강화 마법을 사용할 수 없습니다.(10초)"
+			},
+			"pl": {
+				"name": "Spacer w Cieniu",
+				"description": "Postawa. Krok przez cienie do wybranego wroga. Przez 15 sek. nic się nie dzieje. Twoje umiejętności ataku zostają zablokowane na 1 sekundę, a postawy i zaklęcia na 10 sek. Kiedy działanie tej postawy zakończy się, wrócisz na początkową pozycję.",
+				"concise": "Postawa. (15 sek.) Krok przez cienie do wybranego wroga. Efekt końcowy: powrót na początkową pozycję. Wyłącza twoje umiejętności ataku na 1 sekundę. Wyłącza zaklęcia i postawy na 10 sek."
+			},
+			"ru": {
+				"name": "Shadow Walk",
+				"description": "Стойка. Вы делаете призрачный шаг к выбранному противнику. В течение 15 сек ничего не происходит. Ваши атакующие умения будут недоступны в течение 1 сек, а ваши стойки и чары будут недоступны в течение 10 сек. Когда действие этой стойки заканчивается, вы возвращаетесь в свою первоначальную позицию.",
+				"concise": "Стойка. (15 сек) Вы делаете призрачный шаг к выбранному противнику. Эффект окончания: вы возвращаетесь в первоначальное местоположение. Ваши атакующие умения будут недоступны 1 сек. Ваши чары и стойки будут недоступны 10 сек."
+			},
+			"bork": {
+				"name": "Shaedoo Vaelk",
+				"description": "Stunce-a. Shaedoo Step tu taerget fue-a. Fur 15 secunds, nutheeng haeppens. Yuoor aettaeck skeells aere-a deesaebled fur 1 secund, und yuoor stunces und inchuntments aere-a deesaebled fur 10 secunds. Vhee thees stunce-a inds, yuoo retoorn tu yuoor ooreegeenael lucaeshun.",
+				"concise": "Stunce-a. (15 secunds.) Shaedoo Step tu taerget fue-a. Ind iffffect: retoorn tu yuoor ooreegeenael lucaeshun. Deesaebles yuoor aettaeck skeells fur 1 secund. Deesaebles yuoor inchuntments und stunces fur 10 secunds."
 			}
 		}
 	}

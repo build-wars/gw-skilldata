@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "军令姿态",
+				"description": "姿态。 在1...4秒之内，使你的护甲值提高24点，有75%的几率格挡攻击。如果你在此「姿态」下使用消耗怒气的技能，则「姿态」效果消失。",
+				"concise": "姿态。 在1...4秒之内，使你的护甲值提高24点，格挡率提高75%。如果你在此「姿态」下使用消耗怒气的技能，则「姿态」效果消失。"
+			},
+			"cht": {
+				"name": "訓練態勢",
+				"description": "態勢： 持續1...4秒，你有75%機率格擋攻擊並增加10防禦，若使用怒氣技能則訓練態勢停止。",
+				"concise": "態勢： 持續1...4秒，你有75%機率格擋攻擊並增加10防禦，若使用怒氣技能則訓練態勢停止。"
+			},
 			"de": {
+				"name": "Disziplinierte Haltung",
+				"description": "Haltung. 1...4 Sekunde[n] lang gewinnt Ihr +10 Rüstung und habt eine 75%ige Chance Angriffe zu blocken. Disziplinierte Haltung endet, sobald Ihr eine Adrenalin-Fertigkeit verwendet.",
+				"concise": "Haltung. (1...4 Sekunde[n].) Ihr habt eine 75% Chance zu blocken und +10 Rüstung. Endet, sobald Ihr eine Adrenalin-Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Disziplinierte Haltung",
 				"description": "1...4 Sekunden lang erhaltet Ihr +10 Punkte Rüstung und habt eine 75%ige Chance, Angriffe zu blocken. Disziplinierte Haltung endet, sobald Ihr eine Adrenalinfertigkeit verwendet.",
 				"concise": "1...4 Sekunden: Ihr habt eine 75%ige Chance zu blocken und +10 Rüstung. <gray>Endet, sobald Ihr eine Adrenalinfertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Disciplined Stance",
+				"description": "Stance. For 1...4 seconds, you gain +10 armor and have a 75% chance to block attacks. Disciplined Stance ends if you use an adrenal skill.",
+				"concise": "Stance. (1...4 seconds.) You have 75% chance to block and +10 armor. Ends if you use an adrenal skill."
+			},
+			"en-gww": {
+				"name": "Disciplined Stance",
 				"description": "For 1...4 second[s], you gain +10 armor and have a 75% chance to block attacks. Disciplined Stance ends if you use an adrenal skill.",
 				"concise": "(1...4 second[s].) You have 75% chance to block and +10 armor. <gray>Ends if you use an adrenal skill.</gray>"
 			},
+			"es": {
+				"name": "Actitud disciplinada",
+				"description": "Actitud. Durante 1...4 segundos, ganas +10 de armadura y tienes un 75% de probabilidades de bloquear ataques. La Actitud disciplinada finaliza si utilizas una habilidad de adrenalina.",
+				"concise": "Actitud. (1...4 segundos.) Tienes un 75% de probabilidades de bloquear y +10 de armadura. Termina si utilizas una habilidad de adrenalina."
+			},
 			"fr": {
+				"name": "Pose de discipline",
+				"description": "Pose de combat. Pendant 1...4 secondes, vous bénéficiez d'un bonus d'armure de +10 et vous avez 75% de chances de bloquer les attaques. La Pause de discipline prend fin si vous utilisez une compétence d'adrénaline.",
+				"concise": "Pose de combat. (1...4 secondes.) Vous avez 75% de chances de bloquer et bénéficiez d'un bonus d'armure de +10. Prend fin si vous utilisez une compétence d'adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Pose de discipline",
 				"description": "Pendant 1...4 seconde(s), vous bénéficiez d'un bonus d'armure de +10 et vous avez 75% de chances de bloquer les attaques. La Pose de discipline prend fin si vous utilisez une compétence d'adrénaline.",
 				"concise": "(1...4 seconde(s).) Vous avez 75% de chances de bloquer et bénéficiez d'un bonus d'armure de +10. <gray>Prend fin si vous utilisez une compétence d'Adrénaline.</gray>"
+			},
+			"it": {
+				"name": "Posizione Disciplinata",
+				"description": "Posizione. Per 1...4 secondo[i], ottieni +10 di armatura e hai una probabilità del 75% di bloccare gli attacchi. La Posizione Disciplinata termina se usi un'abilità che richiede adrenalina.",
+				"concise": "Posizione. (Secondo[i]: 1...4) Probabilità di blocco: 75% Armatura: +10. Termina se usi un'abilità che richiede adrenalina."
+			},
+			"jp": {
+				"name": "ディシプリン スタンス",
+				"description": "スタンス： 1...4 秒間、防御力が10増加し、75%の確率で攻撃をブロックします。アドレナリン スキルを使用すると、この効果は消失します。",
+				"concise": "スタンス： (1...4 秒) 75%の確率で攻撃をブロックし、防御力が10増加します。アドレナリン スキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "숙련된 방어 자세",
+				"description": "자세. 대상 지정: 없음. 1...4초 동안 75% 확률로 적의 공격을 막아 내고, 방어력이 10 증가합니다. 아드레날린 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "자세. (1...4초) 75%의 확률로 적의 공격을 막고, 방어력이 10 증가합니다. 아드레날린 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Postawa Zdyscyplinowana",
+				"description": "Postawa. Przez 1...4 sek. posiadasz +10 punktów pancerza i masz 75% szans na blokowanie ataków. Postawa Zdyscyplinowana przestaje działać, jeśli użyjesz umiejętności opartej na adrenalinie.",
+				"concise": "Postawa. (1...4 sek.) Posiadasz 75% szans na blokowanie i +10 pkt. pancerza. Kończy się, jeśli użyjesz umiejętności opartej na adrenalinie."
+			},
+			"ru": {
+				"name": "Disciplined Stance",
+				"description": "Стойка. В течение 1...4 сек ваша защита увеличивается на 10 ед., и вы получаете 75%-й шанс блокировать атаки. Disciplined Stance прекращает свое действие, если вы используете умение, требующее адреналин.",
+				"concise": "Стойка. (1...4 сек) Вы получаете 75%-й шанс блокировать атаки и +10 ед. к защите. Заканчивается, если вы используете умение, требующее адреналин."
+			},
+			"bork": {
+				"name": "Deesceepleened Stunce-a",
+				"description": "Stunce-a. Fur 1...4 secunds, yuoo gaeeen +10 aermur und haefe-a a 75% chunce-a tu bluck aettaecks. Deesceepleened Stunce-a inds iff yuoo use-a un aedrenael skeell.",
+				"concise": "Stunce-a. (1...4 secunds.) Yuoo haefe-a 75% chunce-a tu bluck und +10 aermur. Inds iff yuoo use-a un aedrenael skeell."
 			}
 		}
 	}

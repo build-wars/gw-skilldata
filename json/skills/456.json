@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蛇的敏捷",
+				"description": "姿态。 持续 15...30秒，使你的技能恢复时间减少 33%。如果你的生命值低于 50%，则技能效果消失。",
+				"concise": "姿态。 持续 15...30秒，使你的技能恢复时间减少 33%。如果你的生命值低于 50%，则技能效果消失。"
+			},
+			"cht": {
+				"name": "蛇之敏捷",
+				"description": "態勢： 持續 15...30 秒，你的技能回復時間縮短 33% 。若你的體力低於 50% ，則蛇之敏捷的效果停止。",
+				"concise": "態勢： 持續 15...30 秒，你的技能回復時間縮短 33% 。若你的體力低於 50% ，則蛇之敏捷的效果停止。"
+			},
 			"de": {
+				"name": "Schlangen-Schnelligkeit",
+				"description": "Haltung. 15...30 Sekunde[n] lang ist die Wiederaufladezeit für Eure Fertigkeiten um 33% reduziert. Schlangen-Schnelligkeit endet, wenn Eure Lebenspunkte unter 50% sinken.",
+				"concise": "Haltung. 15...30 Sekunde[n]: Eure Fertigkeiten laden sich um 33% schneller auf. Endet, wenn Eure Lebenspunkte unter 50% Eurer maximalen Lebenspunkte sinken."
+			},
+			"de-guildwiki": {
 				"name": "Schlangen-Schnelligkeit",
 				"description": "15...30 Sekunden lang ist die Wiederaufladezeit für Eure Fertigkeiten um 33% reduziert. Schlangen-Schnelligkeit endet, wenn Eure Lebenspunkte unter 50% sinken.",
 				"concise": "15...30 Sekunden: Eure Fertigkeiten laden sich um 33% schneller auf. <gray>Endet, wenn Eure Lebenspunkte unter 50% Eurer maximalen Lebenspunkte sinken.</gray>"
 			},
 			"en": {
 				"name": "Serpent's Quickness",
+				"description": "Stance. For 15...30 seconds, recharge times for your skills are reduced by 33%. Serpent's Quickness ends if your Health drops below 50%.",
+				"concise": "Stance. (15...30 seconds.) Your skills recharge 33% faster. Ends if your Health drops below 50%."
+			},
+			"en-gww": {
+				"name": "Serpent's Quickness",
 				"description": "For 15...30 seconds, recharge times for your skills are reduced by 33%. Serpent's Quickness ends if your Health drops below 50%.",
 				"concise": "(15...30 seconds.) Your skills recharge 33% faster. <gray>Ends if your Health drops below 50%.</gray>"
 			},
+			"es": {
+				"name": "Rapidez de la serpiente",
+				"description": "Actitud. Durante 15...30 segundos, los tiempos de recarga de tus habilidades se reducen en un 33%. La Rapidez de la serpiente termina si tu salud está por debajo del 50%.",
+				"concise": "Actitud. (15...30 segundos). Tus habilidades se recargan un 33% más deprisa. Acaba si tu salud cae por debajo del 50%."
+			},
 			"fr": {
+				"name": "Vitesse du serpent",
+				"description": "Pose de combat. Pendant 15...30 secondes, le temps de rechargement de vos compétences est réduit de 33%. La Vitesse du serpent cesse si vous perdez plus de 50% de vos points de vie.",
+				"concise": "Pose de combat. (15...30 secondes.) Vos compétences se rechargent 33% plus vite. Prend fin si votre santé tombe en dessous de 50%."
+			},
+			"fr-gwiki": {
 				"name": "Vitesse du serpent",
 				"description": "Pendant 15...30 secondes, le temps de rechargement de vos compétences est réduit de 33%. La Vitesse du serpent cesse si vous perdez plus de 50% de vos points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velocità del Serpente",
+				"description": "Posizione. Per 15...30 secondo[i], i tempi di ricarica delle tue abilità si riducono del 33%; termina se la tua Salute scende al di sotto del 50%.",
+				"concise": "Posizione. (Secondi: 15...30) Incremento velocità di ricarica delle tue abilità: 33%. Termina se la tua Salute scende al di sotto del 50%."
+			},
+			"jp": {
+				"name": "サーペント クイックネス",
+				"description": "スタンス： 15...30 秒間、プレイヤーのスキルは再使用時間が33%減少します。体力が上限の50%を切ると、この効果は消失します。",
+				"concise": "スタンス： (15...30 秒) スキルの再使用時間が33%減少します。体力が上限の50%を切ると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "독사의 민첩함",
+				"description": "자세. 대상 지정: 없음. 15...30초 동안 스킬 재활성 시간이 33% 단축됩니다. 체력이 50% 미만으로 떨어지면 효과가 끝납니다.",
+				"concise": "자세. (15...30초) 스킬 재활성 시간이 33% 단축됩니다. 체력이 50% 미만으로 떨어지면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Szybkość Węża",
+				"description": "Postawa. Przez 15...30 sek., czas odnawiania twoich umiejętności zmniejsza się o 33%. Szybkość Węża skończy się kiedy twoja żywotność spadnie poniżej 50%.",
+				"concise": "Postawa. (15...30 sek.) Twoje umiejętności odnawiają się o 33% szybciej. Przestanie działać, jeśli twoja żywotność spadnie poniżej 50%."
+			},
+			"ru": {
+				"name": "Serpent's Quickness",
+				"description": "Стойка. В течение 15...30 сек время перезарядки ваших умений уменьшается на 33%. Serpent's Quickness прекращает свое действие, если ваш уровень здоровья упал ниже 50%.",
+				"concise": "Стойка. (15...30 сек) Ваши умения перезаряжаются на 33% быстрее. Заканчивается, если у вас остается меньше 50% здоровья."
+			},
+			"bork": {
+				"name": "Serpent's Qooeeckness",
+				"description": "Stunce-a. Fur 15...30 secunds, rechaerge-a teemes fur yuoor skeells aere-a redooced by 33%. Serpent's Qooeeckness inds iff yuoor Heaelt drups beloo 50%.",
+				"concise": "Stunce-a. (15...30 secunds.) Yuoor skeells rechaerge-a 33% faester. Inds iff yuoor Heaelt drups beloo 50%."
 			}
 		}
 	}

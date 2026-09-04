@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "邪恶干涉",
+				"description": "负面魔法。 在5...20秒之内，使目标敌人所受到的治疗效果降低20%。如果该目标在「邪恶干涉」状态下死亡，一只等级为1...17的无主骨灵将会在其尸骸上衍生。",
+				"concise": "负面魔法。 在5...20秒之内，使目标敌人所受到的治疗效果降低20%。如果该目标在「邪恶干涉」状态下死亡，一只等级为1...17的无主骨灵将会在其尸骸上衍生。"
+			},
+			"cht": {
+				"name": "惡性感染",
+				"description": "降咒魔法： 持續 5...20 秒，使目標敵人受到的治療效果降低 20% 。如果該目標在遭受此「降咒」時死亡，則自動從其屍體身上召喚一隻等級 1...17 的無主恐懼骸骨。",
+				"concise": "降咒魔法： 持續 5...20 秒，使目標敵人受到的治療效果降低 20% 。如果該目標在遭受此「降咒」時死亡，則自動從其屍體身上召喚一隻等級 1...17 的無主恐懼骸骨。"
+			},
 			"de": {
+				"name": "Unheilvoller Eingriff",
+				"description": "Verhexung. 5...20 Sekunde[n] lang verschafft Heilung dem Gegner 20% weniger Vorteile. Wenn der Gegner stirbt, während er mit Unheilvoller Eingriff verhext ist, wird ein herrenloser Knochenschreck der Stufe 1...17 belebt.",
+				"concise": "Verhexung. 5...20 Sekunde[n]: Verringert die Wirkung von Heilungen beim Gegner um 20%. Stirbt der Gegner, während er verhext ist, wird ein herrenloser Knochenschreck der Stufe 1...17 belebt."
+			},
+			"de-guildwiki": {
 				"name": "Unheilvoller Eingriff",
 				"description": "5...20 Sekunden lang verschafft Heilung dem Gegner 20% weniger Vorteile. Wenn der Gegner stirbt, während er mit Unheilvoller Eingriff verhext ist, wird ein herrenloser Knochenschreck der Stufe 1...17 belebt.",
 				"concise": "5...20 Sekunden: Verringert die Wirkung von Heilung beim Gegner um 20%. Stirbt der Gegner, während er verhext ist, wird ein herrenloser Knochenschreck der Stufe 1...17 belebt."
 			},
 			"en": {
 				"name": "Malign Intervention",
+				"description": "Hex Spell. For 5...20 seconds, target foe receives 20% less benefit from healing. If target foe dies while hexed with Malign Intervention, a level 1...17 masterless bone horror is summoned.",
+				"concise": "Hex Spell. (5...20 seconds.) Target foe receives 20% less from healing. If this foe dies while suffering from this hex, a level 1...17 masterless bone horror is summoned."
+			},
+			"en-gww": {
+				"name": "Malign Intervention",
 				"description": "For 5...20 seconds, target foe receives 20% less benefit from healing. If target foe dies while hexed with Malign Intervention, a level 1...17 masterless bone horror is summoned.",
 				"concise": "(5...20 seconds.) Target foe receives 20% less from healing. If this foe dies while suffering from this hex, a level 1...17 masterless bone horror is summoned."
 			},
+			"es": {
+				"name": "Intervención maligna",
+				"description": "Conjuro con maleficio. Durante 5...20 segundos, el enemigo objetivo se beneficia un 20% menos de las curaciones. Si éste muere mientras tenga la Intervención maligna encima, se creará a un Horror de hueso sin maestro de nivel 1...17.",
+				"concise": "Conjuro con maleficio. (5...20 segundos). El enemigo objetivo se beneficia un 20% menos de las curaciones. Si muere mientras tenga este maleficio, se invoca un horror de hueso sin maestro de nivel 1...17."
+			},
 			"fr": {
+				"name": "Intervention néfaste",
+				"description": "Maléfice. Pendant 5...20 secondes, l'ennemi visé reçoit 20% de guérison en moins. S'il meurt lorsqu'il est frappé de l'Intervention néfaste, une horreur squelettique (sans maître) de niveau 1...17 est invoquée.",
+				"concise": "Maléfice. (5...20 secondes.) L'ennemi visé reçoit 20% de guérison en moins. Si cet ennemi meurt pendant qu'il souffre de ce maléfice, une horreur squelettique (sans maître) de niveau 1...17 est invoquée."
+			},
+			"fr-gwiki": {
 				"name": "Intervention néfaste",
 				"description": "Pendant 5...20 secondes, l'ennemi visé reçoit 20% de guérison en moins. S'il meurt lorsqu'il est frappé de l'Intervention néfaste, une horreur squelettique (sans maître) de niveau 1...17 est invoquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Intervento Maligno",
+				"description": "Fattura. Dura 5...20 secondo[i]; l'obiettivo nemico riceve il 20% in meno delle cure. Se il tuo obiettivo muore mentre è affetto da questa fattura, dal suo cadavere si anima un Orrore d'Ossa senza padrone di livello 1...17.",
+				"concise": "Fattura. (Secondi: 5...20) Riduzione cure ricevute dal nemico: -20%. Se muore mentre è affetto da questa fattura si anima un Orrore d'Ossa senza padrone di livello 1...17."
+			},
+			"jp": {
+				"name": "マライン インタベンション",
+				"description": "弱体化スペル： 5...20 秒間、ターゲットした敵は回復スペルによる体力の回復量が20%減少します。ターゲットした敵がこの効果の持続中に戦闘不能になると、マスターのいないレベル 1...17 のボーン ホラーが召喚されます。",
+				"concise": "弱体化スペル： (5...20 秒) ターゲットした敵は回復スペルによる体力の回復量が20%減少します。ターゲットがこの効果の持続中に戦闘不能になると、マスターのいないレベル 1...17 のボーン ホラーが召喚されます。"
+			},
+			"kr": {
+				"name": "악마의 중재",
+				"description": "약화 마법. 대상 지정: 적. 5...20초 동안 대상에 대한 치유 효과가 20% 감소합니다. 이 마법이 걸린 상태로 전사하면 주인 없는 1...17레벨의 해골 졸개가 소환됩니다.",
+				"concise": "약화 마법. (5...20초) 대상이 받는 치유 효과가 20% 감소합니다. 대상이 이 약화 마법에 걸린 채 죽으면 주인 없는 1...17레벨 해골 졸개가 소환됩니다."
+			},
+			"pl": {
+				"name": "Szkodliwa Interwencja",
+				"description": "Klątwa (czar). Przez 5...20 sek. wybrany przeciwnik otrzymuje o 20% mniej pkt. żywotności. Jeżeli wybrany przeciwnik zginie przeklęty Szkodliwą Interwencją, zostaje przywołana bezpańska kościana poczwara na poziomie 1...17.",
+				"concise": "Klątwa (czar). (5...20 sek.) Wybrany przeciwnik otrzymuje o 20% mniej pkt. żywotności. Jeżeli ten przeciwnik umrze, będąc pod działaniem tej klątwy, zostanie przyzwana bezpańska kościana poczwara na poziomie 1...17."
+			},
+			"ru": {
+				"name": "Malign Intervention",
+				"description": "Заклинание-проклятье. В течение 5...20 сек выбранный противник получает при лечении здоровья на 20% меньше. Если выбранный противник умирает, находясь под действием Malign Intervention, будет призван Bone Horror 1...17 уровня, не имеющий хозяина.",
+				"concise": "Заклинание-проклятье. (5...20 сек) Выбранный противник получает на 20% меньше здоровья при исцелении. Если этот противник умирает, находясь под действием этого проклятья, будет призван Bone Horror 1...17 уровня, не имеющий хозяина."
+			},
+			"bork": {
+				"name": "Maeleegn Interfenshun",
+				"description": "Hex Spell. Fur 5...20 secunds, taerget fue-a receeefes 20% less beneffeet frum heaeleeng. Iff taerget fue-a deees vheele-a hexed veet Maeleegn Interfenshun, a lefel 1...17 maesterless bune-a hurrur is soommuned.",
+				"concise": "Hex Spell. (5...20 secunds.) Taerget fue-a receeefes 20% less frum heaeleeng. Iff thees fue-a deees vheele-a sooffffereeng frum thees hex, a lefel 1...17 maesterless bune-a hurrur is soommuned."
 			}
 		}
 	}

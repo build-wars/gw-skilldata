@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "死亡契约纹章",
+				"description": "纹章。 复活目标队友，使其拥有和你当前一样的生命值和能量值。如果目标盟友在120秒内再次死亡，你也会死。",
+				"concise": "纹章。 复活目标队友，使其拥有和你当前一样的生命值和能量值。如果目标盟友在120秒之内再次死亡，你也会死。"
+			},
+			"cht": {
+				"name": "死契紋章",
+				"description": "紋章： 復活目標隊友，為其恢復等同於你現在的體力與隊友的15...100%能量，120秒內若隊友再度死亡，你也會死去。",
+				"concise": "紋章： 復活目標隊友，為其恢復等同於你現在的體力與隊友的15...100%能量，120秒內若隊友再度死亡，你也會死去。"
+			},
 			"de": {
+				"name": "Todespakt-Siegel",
+				"description": "Siegel. Belebt das Gruppenmitglied mit Euren aktuellen Lebenspunkten und 15...100% maximaler Energie wieder. Wenn dieser Verbündete das nächste Mal innerhalb von 120 Sekunde[n] stirbt, sterbt Ihr auch.",
+				"concise": "Siegel. Das Gruppenmitglied wird wiederbelebt (Eure aktuellen Lebenspunkte, 15...100% maximale Energie). 120 Sekunde[n]: Ihr sterbt, wenn dieses Gruppenmitglied das nächste Mal stirbt."
+			},
+			"de-guildwiki": {
 				"name": "Todespakt-Siegel",
 				"description": "Belebt das Gruppenmitglied mit Euren aktuellen Lebenspunkten und 15...100% maximaler Energie wieder. Wenn dieser Verbündete das nächste mal innerhalb von 120 Sekunden stirbt, sterbt Ihr auch.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (Eure aktuellen Lebenspunkte, 15...100% maximale Energie). <gray>120 Sekunden: Ihr sterbt, wenn dieses Gruppenmitglied das nächste Mal stirbt.</gray>"
 			},
 			"en": {
 				"name": "Death Pact Signet",
+				"description": "Signet. Resurrect target party member with your current Health and 15...100% maximum Energy. The next time that ally dies within 120 seconds, so do you.",
+				"concise": "Signet. Resurrects target party member with your current Health and 15...100% maximum Energy. For 120 seconds, you die the next time this party member dies."
+			},
+			"en-gww": {
+				"name": "Death Pact Signet",
 				"description": "Resurrect target party member with your current Health and 15...100% Energy. The next time that ally dies within 120 seconds, so do you.",
 				"concise": "Resurrects target party member with your current Health and 15...100% maximum Energy. <gray>For 120 seconds, you die the next time this party member dies.</gray>"
 			},
+			"es": {
+				"name": "Sello del pacto de muerte",
+				"description": "Sello. Resucitas al miembro del grupo objetivo con tu salud actual y el 15...100% de energía máxima. La próxima vez que ese aliado muera en menos de 120 segundos, tú también morirás.",
+				"concise": "Sello. Resucita al miembro del grupo objetivo con tu salud actual y el 15...100% de energía máxima. Durante 120 segundos, si el aliado objetivo muere, tú también lo harás."
+			},
 			"fr": {
+				"name": "Sceau du pacte avec la mort",
+				"description": "Sceau. Vous ressuscitez le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum. La prochaine fois que cet allié meurt dans les 120 secondes, vous mourez aussi.",
+				"concise": "Sceau. Ressuscite le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum. Pendant 120 secondes, vous mourrez si ce membre du groupe est à nouveau tué."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du pacte avec la mort",
 				"description": "Vous ressuscitez le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum. La prochaine fois que cet allié meurt dans les 120 secondes, vous mourez aussi.",
 				"concise": "Ressuscite le membre du groupe visé avec autant de santé que vous et 15...100% d'énergie maximum."
+			},
+			"it": {
+				"name": "Sigillo del Patto Mortale",
+				"description": "Sigillo. Fai resuscitare il membro della squadra selezionato con Salute equivalente alla tua Salute attuale e 15...100% di Energia massima; la prossima volta che quell'alleato muore nel giro di 120 secondo[i], morirai anche tu.",
+				"concise": "Sigillo. Resuscita il membro della squadra selezionato con la tua Salute attuale e un 15...100% di Energia massima. Per 120 secondo[i] potresti morire se questo membro della squadra muore."
+			},
+			"jp": {
+				"name": "デス パクト シグネット",
+				"description": "シグネット： ターゲットしたパーティー メンバーは、プレイヤーと同等の体力およびエネルギーの上限の 15...100% の状態で復活します。次の 120 秒以内にターゲットが戦闘不能になると、プレイヤーも戦闘不能になります。",
+				"concise": "シグネット： ターゲットしたパーティー メンバーが、プレイヤーと同等の体力と上限の 15...100% のエネルギーで復活します。120 秒以内にこのメンバーが戦闘不能になると、プレイヤーも戦闘不能になります。"
+			},
+			"kr": {
+				"name": "죽음의 계약 인장",
+				"description": "인장. 대상 지정: 파티원. 전사한 파티원을 자신의 체력과 최대 에너지의 15...100%를 가진 상태로 부활시킵니다. 120초 안에 그 파티원이 죽으면 자신도 죽습니다. 처음 한 번만 따라 죽습니다.",
+				"concise": "인장. 전사한 파티원을 자신의 현재 체력과 최대 에너지의 15...100%를 가진 상태로 부활합니다. 120초 안에 그 파티원이 죽으면 자신도 죽습니다."
+			},
+			"pl": {
+				"name": "Sygnet Śmiertelnego Paktu",
+				"description": "Sygnet. Wskrzeszasz wybranego członka drużyny, który powraca do życia z tyloma punktami żywotności ile masz ich ty i 15...100% maksymalnej energii. Kiedy następnym razem ten sojusznik zginie w ciągu 120 sek., zginiesz i ty.",
+				"concise": "Sygnet. Wskrzesza wybranego członka drużyny z twoim aktualnym poziomem żywotności i 15...100% maksymalnej energii. W ciągu 120 sek. umrzesz, kiedy następnym razem zginie ten członek drużyny."
+			},
+			"ru": {
+				"name": "Death Pact Signet",
+				"description": "Печать. Воскрешает выбранного члена вашего отряда с запасом здоровья, равным вашему текущему здоровью, и 15...100% энергии. В течение 120 сек в следующий раз, когда этот член отряда умрет, вы умрете вместе с ним.",
+				"concise": "Печать. Воскрешает выбранного члена отряда с вашим текущим запасом здоровья и 15...100% энергии В течение 120 сек в следующий раз, когда этот член отряда умрет, вы умрете вместе с ним."
+			},
+			"bork": {
+				"name": "Deaet Paect Seegnet",
+				"description": "Seegnet. Resoorrect taerget paerty member veet yuoor coorrent Heaelt und 15...100% maexeemoom Inergy. Zee next teeme-a thaet aelly deees veetheen 120 secunds, su du yuoo.",
+				"concise": "Seegnet. Resoorrects taerget paerty member veet yuoor coorrent Heaelt und 15...100% maexeemoom Inergy. Fur 120 secunds, yuoo deee-a zee next teeme-a thees paerty member deees."
 			}
 		}
 	}

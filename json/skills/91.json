@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "力量之池",
+				"description": "精英法池。 消耗一具最近的尸体或牺牲66%生命值，在该位置创造一个力量之井，持续10...30秒。力量之井范围内友军获得+1...6生命回复及+2能量回复。",
+				"concise": "精英法池。 （10...30秒）此泉内的友军生命回复+1...6，能量回复+2。需利用新鲜的尸体或牺牲66%生命值。"
+			},
+			"cht": {
+				"name": "魔力之池",
+				"description": "精英湧泉魔法： Exploit nearest corpse or sacrifice 66% health to create a Well of Power at that location. For 10...30 seconds, allies within the area of Well of Power gain +1...6 Health regeneration and +2 Energy regeneration.",
+				"concise": "精英湧泉魔法： (10...30 seconds.) Allies in this well have +1...6 Health regeneration and +2 Energy regeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
 			"de": {
+				"name": "Brunnen der Kraft",
+				"description": "Elite-Brunnenzauber. Nutzt die nächstbeste Leiche oder opfert 66 % Eurer Lebenspunkte, um an ihrem Fundort einen Brunnen der Kraft zu erzeugen. Für 10...30 Sekunden erhalten Verbündete in Bereich des Brunnens +1...6 Lebenspunktregeneration und +2 Energieregeneration.",
+				"concise": "Elite-Brunnenzauber. (10...30 Sekunden). Verbündete in diesem Brunnen erhalten +1...6 Lebenspunktregeneration und +2 Energieregeneration. Verwertet eine frische Leiche oder opfert 66 % Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Brunnen der Kraft",
 				"description": "Der nächste Kadaver wird an seiner Position in einen Brunnen der Kraft verwandelt. 10...30 Sekunden lang erfreuen sich Verbündete im Bereich des Brunnens der Kraft einer Lebenspunktregeneration in Höhe von +1...6 und einer Energieregeneration von +2.",
 				"concise": "(10...30 Sekunden.) Verbündete in diesem Brunnen erhalten eine Lebenspunktregeneration in Höhe von +1...6 und eine Energieregeneration von +2. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Well of Power",
+				"description": "Elite Well Spell. Exploit nearest corpse or sacrifice 66% health to create a Well of Power at that location. For 10...30 seconds, allies within the area of Well of Power gain +1...6 Health regeneration and +2 Energy regeneration.",
+				"concise": "Elite Well Spell. (10...30 seconds.) Allies in this well have +1...6 Health regeneration and +2 Energy regeneration. Exploits a fresh corpse or sacrifices 66% health."
+			},
+			"en-gww": {
+				"name": "Well of Power",
 				"description": "Exploit nearest corpse or sacrifice 66% health to create a Well of Power at that location. For 10...30 seconds, allies within the area of Well of Power gain +1...6 Health regeneration and +2 Energy regeneration.",
 				"concise": "(10...30 seconds.) Allies in this well have +1...6 Health regeneration and +2 Energy regeneration. <gray>Exploits a fresh corpse or sacrifices 66% health.</gray>"
 			},
+			"es": {
+				"name": "Pozo de poder",
+				"description": "Conjuro de pozo de élite. Explotas el cadáver más cercano o sacrificas un 66 % de salud para crear un Pozo de poder en esa ubicación. Durante 10...30 segundos, los aliados dentro de la zona del Pozo de poder regenerarán +1...6 de salud y +2 de energía.",
+				"concise": "Conjuro de pozo de élite. (10...30 segundos). Los aliados en este pozo ganan +1...6 de regeneración de salud y +2 de regeneración de energía. Explotas un cadáver reciente o sacrificas un 66 % de salud."
+			},
 			"fr": {
+				"name": "Puits de pouvoir",
+				"description": "Sort de puits d'élite. Exploitez le cadavre le plus proche ou sacrifiez 66% de santé pour créer à cet endroit un Puits de pouvoir. Pendant 10...30 secondes, les alliés dans la zone du Puits de pouvoir bénéficient d'une régénération de santé de +1...6 et d'une régénération d'énergie de +2.",
+				"concise": "Sort de puits d'élite. (10...30 secondes.) Les alliés présents dans ce puits bénéficient de +1...6 points de régénération de santé et de +2 points de régénération d'énergie. c=@SkillDull>Exploite un cadavre frais ou sacrifie 66% de la santé."
+			},
+			"fr-gwiki": {
 				"name": "Puits de pouvoir",
 				"description": "Utilisez le cadavre le plus près pour créer un ''Puits de pouvoir'' à cet endroit. Pendant 8...20 secondes, les alliés dans la zone du ''Puits de pouvoir'' bénéficient d'une régénération de santé de +1...6 et d'une régénération d'énergie de +2.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pozzo del Potere",
+				"description": "Pozzo d'Élite. Sfrutta il cadavere più vicino o sacrifica il 66% della tua salute per creare un Pozzo del Potere in quella posizione. Per 10...30 secondo/i, gli alleati all'interno dell'area del Pozzo del Potere ricevono +1...6 rigenerazione della salute e +2 rigenerazione dell'energia.",
+				"concise": "Pozzo d'Élite. (10...30 secondo/i). Gli alleati in questo Pozzo hanno +1...6 rigenerazione della Salute e +2 rigenerazione dell'Energia. Utilizza un cadavere fresco o sacrifica il 66% della salute."
+			},
+			"jp": {
+				"name": "パワー ウェル",
+				"description": "エリート ウェル スペル： 最寄りの死体を使用するか体力の66%を犠牲にして、回復の泉を作ります。10...30秒間、そのエリア内にいる味方は体力の自然回復力が1...6増加し、エネルギーの自然回復力は2増加します。",
+				"concise": "エリート ウェル スペル： （10...30秒）この泉にいる味方は、体力の自然回復力が1...6、エネルギーの自然回復力が2増加します。新鮮な死体を利用するか、体力の66%を犠牲にします。"
+			},
+			"kr": {
+				"name": "회복의 늪",
+				"description": "엘리트 늪. 가장 가까운 시체를 이용하거나 체력을 66% 희생하여 그 위치에 회복의 늪을 만듭니다. 회복의 늪 효과 범위 내에 있는 아군은 10...30초 동안 체력 재생이 1...6, 에너지 재생이 2 증가합니다.",
+				"concise": "엘리트 늪. (10...30초) 회복의 늪 효과 범위 내에 있는 아군은 체력 재생이 1...6, 에너지 재생이 2 증가합니다. 신선한 시체를 이용하거나 체력의 66%를 소모해야 합니다."
+			},
+			"pl": {
+				"name": "Studnia Mocy",
+				"description": "Elitarny czar studni. Wykorzystaj najbliższe zwłoki lub poświęć 66% swojej żywotności, by utworzyć Studnię Mocy. Przez 10...30 sek. sojusznicy w zasięgu Studni Mocy otrzymują regenerację żywotności +1...6 i regenerację energii +2.",
+				"concise": "Elitarny czar studni. (10...30 sek.). Sojusznicy w tej studni mają regenerację żywotności +1...6 i regenerację energii +2. Zużywa świeże ciało lub poświęca 66% zdrowia."
+			},
+			"ru": {
+				"name": "Well of Power",
+				"description": "Элитное заклинание-источник. Использует ближайший труп или жертвует 66% здоровья, чтобы создать Well of Power в указанной точке. На 10...30 сек. союзники в области получают +1...6 к регенерации здоровья и +2 к регенерации энергии.",
+				"concise": "Элитное заклинание-источник. (10...30 сек.) Союзники в области получают +1...6 к регенерации здоровья и +2 к регенерации энергии. Использует свежий труп или жертвует 66% здоровья."
+			},
+			"bork": {
+				"name": "Vell ooff Pooer",
+				"description": "Ileete-a Vell Spell. Ixplueet neaerest curpse-a oor saecreeffeece-a 66% heaelt tu creaete-a a Vell ooff Pooer aet thaet lucaeshun. Fur 10...30 secunds, aelleees veetheen zee aerea ooff Vell ooff Pooer gaeeen +1...6 Heaelt regeneraeshun und +2 Inergy regeneraeshun.",
+				"concise": "Ileete-a Vell Spell. (10...30 secunds.) Aelleees in thees vell haefe-a +1...6 Heaelt regeneraeshun und +2 Inergy regeneraeshun. Ixplueets a fresh curpse-a oor saecreeffeeces 66% heaelt."
 			}
 		}
 	}

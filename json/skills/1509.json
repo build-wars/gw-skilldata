@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信徒守护",
+				"description": "增益魔法。 如果在受到伤害之后，你的生命值低于50%，则信徒守护的效果消失。当此技能的效果消失后，你将获得30...150点生命值。",
+				"concise": "增益魔法。 如果在受到伤害之后，你的生命值低于50%，则Faithful Intervention的效果消失。当此技能的效果消失后，你将获得30...150点生命值。"
+			},
+			"cht": {
+				"name": "堅定干涉",
+				"description": "加持魔法： 若因受到傷害而使你的體力值低於 50% 時，堅定干涉的效果終止，同時你獲得 30...150 體力。",
+				"concise": "加持魔法： 若因受到傷害而使你的體力值低於 50% 時，堅定干涉的效果終止，同時你獲得 30...150 體力。"
+			},
 			"de": {
+				"name": "Vertrauensvolle Intervention",
+				"description": "Verzauberung. Wenn Schaden Eure Lebenspunkte auf unter 50% fallen lässt, endet Vertrauensvolle Intervention. Wenn Vertrauensvolle Intervention endet, werdet Ihr um 30...150 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. Ihr erhaltet 30...150 Lebenspunkt[e], wenn Eure Lebenspunkte das nächste Mal durch Schaden unter 50% Eurer maximalen Lebenspunkte gebracht werden."
+			},
+			"de-guildwiki": {
 				"name": "Vertrauensvolle Intervention",
 				"description": "Wenn Schaden Eure Lebenspunkte auf unter 50% fallen lässt, endet Vertrauensvolle Intervention. Wenn Vertrauensvolle Intervention endet, heilt Ihr Euch um 30...150 Lebenspunkte.",
 				"concise": "Ihr heilt Euch um 30...150 Lebenspunkte, wenn Eure Lebenspunkte das nächste Mal durch Schaden unter 50% Eurer maximalen Lebenspunkte gebracht werden."
 			},
 			"en": {
 				"name": "Faithful Intervention",
+				"description": "Enchantment Spell. If damage drops your Health below 50%, Faithful Intervention ends. When Faithful Intervention ends, you are healed for 30...150 Health.",
+				"concise": "Enchantment Spell. You gain 30...150 Health the next time damage drops your Health below 50%."
+			},
+			"en-gww": {
+				"name": "Faithful Intervention",
 				"description": "If damage drops your Health below 50%, Faithful Intervention ends. When Faithful Intervention ends, you are healed for 30...150 Health.",
 				"concise": "You gain 30...150 Health the next time damage drops your Health below 50%."
 			},
+			"es": {
+				"name": "Intervención de fe",
+				"description": "Conjuro con encantamiento. Si tu salud cae por debajo del 50%, la Intervención de fe terminará. Al hacerlo, te curarás 30...150 de salud.",
+				"concise": "Conjuro con encantamiento. Ganas 30...150 de salud la próxima vez que te quedes por debajo del 50% de salud."
+			},
 			"fr": {
+				"name": "Intervention fidèle",
+				"description": "Enchantement. Si votre santé descend en dessous de 50%, l'Intervention fidèle prend fin et vous êtes soigné[f:\"soignée\"] de 30...150 points de vie.",
+				"concise": "Enchantement. Vous gagnerez 30...150 points de vie la prochaine fois que vous subirez des dégâts et que votre santé descendra à moins de 50%."
+			},
+			"fr-gwiki": {
 				"name": "Intervention fidèle",
 				"description": "Si votre santé descend en dessous de 50%, lIntervention fidèle'' prend fin et vous êtes soigné de 30...150 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Intervento Fedele",
+				"description": "Incantesimo. Se il danno fa scendere la tua Salute al di sotto del 50%, l'Intervento Fedele termina. Quando ciò accade vieni curato di 30...150 Punto[i] Salute.",
+				"concise": "Incantesimo. Salute conseguita la prossima volta che il danno fa calare la tua Salute al di sotto di 50%: 30...150."
+			},
+			"jp": {
+				"name": "フェイスフル インタベンション",
+				"description": "強化スペル： ダメージを受けて体力が 50% 未満になると、この効果は消失します。ただし、その際に体力が 30...150 回復します。",
+				"concise": "強化スペル： 次にダメージを受けて体力が上限の 50% 未満になると、体力が 30...150 回復します。"
+			},
+			"kr": {
+				"name": "헌신적인 중재",
+				"description": "강화 마법. 대상 지정: 없음. 대미지를 받아 체력이 50%미만으로 내려가면 30...150의 체력을 회복하고 효과가 끝납니다.",
+				"concise": "강화 마법. 대미지를 받아 체력이 50%미만으로 내려가면 30...150의 체력을 얻습니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Interwencja Wiary",
+				"description": "Zaklęcie (czar). Interwencja Wiary przestanie działać, kiedy obrażenia sprowadzą twoją żywotność poniżej 50%. Kiedy zaklęcie przestanie działać, otrzymasz 30...150 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). Otrzymujesz 30...150 pkt. żywotności następnym razem, kiedy twoja żywotność spadnie poniżej 50%."
+			},
+			"ru": {
+				"name": "Faithful Intervention",
+				"description": "Заклинание-чары. Если вы получаете урон, который понижает уровень вашего здоровья ниже 50%, Faithful Intervention заканчивает свое действие. Когда Faithful Intervention заканчивает свое действие, вы исцеляетесь на 30...150 ед. здоровья.",
+				"concise": "Заклинание-чары. Вы получаете 30...150 ед. здоровья в следующий раз, когда полученный урон опустит ваш уровень здоровья ниже 50%."
+			},
+			"bork": {
+				"name": "Faeeethffool Interfenshun",
+				"description": "Inchuntment Spell. Iff daemaege-a drups yuoor Heaelt beloo 50%, Faeeethffool Interfenshun inds. Vhee Faeeethffool Interfenshun inds, yuoo aere-a heaeled fur 30...150 Heaelt.",
+				"concise": "Inchuntment Spell. Yuoo gaeeen 30...150 Heaelt zee next teeme-a daemaege-a drups yuoor Heaelt beloo 50%. Bork! Bork! Bork!"
 			}
 		}
 	}

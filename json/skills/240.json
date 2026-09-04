@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "惩击",
+				"description": "咒文。 造成 10...55点 神圣伤害。如果目标正在进行攻击，则该目标额外受到 10...35点 神圣伤害。",
+				"concise": "咒文。 造成 10...55点 神圣伤害。如果目标正在进行攻击，则该目标额外受到 10...35点 神圣伤害。"
+			},
+			"cht": {
+				"name": "懲戒",
+				"description": "咒文魔法： 此攻擊造成 10...55 神聖傷害。如果目標正在進行攻擊，則該目標額外受到 10...35 的神聖傷害。",
+				"concise": "咒文魔法： 此攻擊造成 10...55 神聖傷害。如果目標正在進行攻擊，則該目標額外受到 10...35 的神聖傷害。"
+			},
 			"de": {
+				"name": "Peinigung",
+				"description": "Zauber. Dieser Angriff fügt 10...55 Punkt[e] heiligen Schaden zu. Wenn Euer Ziel angreift, erleidet es zusätzlich 10...35 Punkt[e] heiligen Schaden.",
+				"concise": "Zauber. Richtet 10...55 Punkt[e] heiligen Schaden an. Richtet zusätzlich 10...35 Punkt[e] heiligen Schaden an, falls der Gegner gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Peinigung",
 				"description": "Dieser Angriff fügt 10...55 Punkte heiligen Schaden zu. Wenn Eurer Ziel angreift erleidet es zusätzlich 10...35 heiligen Schaden.",
 				"concise": "Richtet 10...55 Punkte heiligen Schaden an. Richtet zusätzlich 10...35 Punkte heiligen Schaden an, falls der Gegner gerade angreift."
 			},
 			"en": {
 				"name": "Smite",
+				"description": "Spell. This attack deals 10...55 Holy damage. If attacking, your target takes an additional 10...35 Holy damage.",
+				"concise": "Spell. Deals 10...55 holy damage. Deals 10...35 more holy damage if target is attacking."
+			},
+			"en-gww": {
+				"name": "Smite",
 				"description": "This attack <sic/> deals 10...55 Holy <sic/> damage. If attacking, your target takes an additional 10...35 Holy <sic/> damage.",
 				"concise": "Deals 10...55 holy damage. Deals 10...35 more holy damage if target is attacking."
 			},
+			"es": {
+				"name": "Golpe",
+				"description": "Conjuro. Este ataque hace 10...55 de daño sagrado. Además, si el objetivo está atacando recibe 10...35 de daño sagrado extra.",
+				"concise": "Conjuro. Hace 10...55 de daño sagrado. 10...35 de daño sagrado extra si el objetivo está atacando."
+			},
 			"fr": {
+				"name": "Châtiment",
+				"description": "Sort. Cette attaque inflige 10...55 points de dégâts sacrés. Si elle attaque, votre cible subit 10...35 points de dégâts sacrés en plus.",
+				"concise": "Sort. Inflige 10...55 points de dégâts sacrés. Inflige 10...35 points de dégâts sacrés supplémentaires si la cible attaque."
+			},
+			"fr-gwiki": {
 				"name": "Châtiment",
 				"description": "Cette attaque inflige 10...55 points de dégâts sacrés. Si elle attaque, votre cible subit 10...35 points de dégâts sacrés en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Castigo",
+				"description": "Magia. Questo attacco infligge 10...55 danno[i] sacro[i]; se il tuo obiettivo sta attaccando, riceve 10...35 danno[i] sacro[i] in più.",
+				"concise": "Magia. Danni sacri inferti: 10...55. Assesta 10...35 danno[i] sacro[i] in più se l'obiettivo sta attaccando."
+			},
+			"jp": {
+				"name": "スマイト",
+				"description": "スペル： ターゲットした敵に 10...55 の神聖ダメージを与えます。敵が攻撃中の場合、10...35 の追加神聖ダメージを与えます。",
+				"concise": "スペル： 10...55 の神聖ダメージを与えます。ターゲットした敵が攻撃中の場合、10...35 の追加神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "천벌",
+				"description": "마법. 대상 지정: 적. 대상에게 10...55의 신성 대미지를 줍니다. 대상이 공격 중이었다면 10...35의 신성 대미지를 추가로 줍니다.",
+				"concise": "마법. 10...55의 신성 대미지를 줍니다. 대상이 공격 중이었다면 10...35의 신성 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Pogrom",
+				"description": "Czar. Atak zadaje 10...55 pkt. świętych obrażeń. Jeśli cel atakuje, otrzymuje dodatkowe 10...35 pkt. świętych obrażeń.",
+				"concise": "Czar. Zadaje 10...55 pkt. świętych obrażeń. Zadaje 10...35 pkt. dodatkowych świętych obrażeń, jeżeli cel atakuje."
+			},
+			"ru": {
+				"name": "Smite",
+				"description": "Заклинание. Эта атака наносит 10...55 ед. урона святой силой. Если ваша цель атаковала, ей будет нанесено дополнительно 10...35 ед. урона святой силой.",
+				"concise": "Заклинание. Наносит 10...55 ед. урона святой силой. Наносит дополнительно 10...35 ед. урона святой силой, если цель атаковала."
+			},
+			"bork": {
+				"name": "Smeete-a",
+				"description": "Spell. Thees aettaeck deaels 10...55 Huly daemaege-a. Iff aettaeckeeng, yuoor taerget taekes un aeddeeshunael 10...35 Huly daemaege-a.",
+				"concise": "Spell. Deaels 10...55 huly daemaege-a. Deaels 10...35 mure-a huly daemaege-a iff taerget is aettaeckeeng."
 			}
 		}
 	}

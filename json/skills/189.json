@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "洛戈特的魔咒",
+				"description": "咒文。 使目标敌人及其附近的所有敌人受到15...120点火焰伤害，并且遭受「灼烧」症状 1...3秒。",
+				"concise": "咒文。 使目标敌人及其附近的所有敌人受到 15...120点 火焰伤害，并且遭受「灼烧」症状 1...3秒。"
+			},
+			"cht": {
+				"name": "洛葛特的魔咒",
+				"description": "咒文魔法： 使目標敵人及其附近的所有敵人受到 15...120 火焰傷害並且遭受「著火」病症 1...3 秒。",
+				"concise": "咒文魔法： 使目標敵人及其附近的所有敵人受到 15...120 火焰傷害並且遭受「著火」病症 1...3 秒。"
+			},
 			"de": {
+				"name": "Anrufung von Rodgort",
+				"description": "Zauber. Der Gegner und alle Feinde in der Nähe erleiden 15...120 Punkt[e] Feuerschaden und werden 1...3 Sekunde[n] lang in Brand gesetzt.",
+				"concise": "Zauber. Richtet 15...120 Punkt[e] Feuerschaden an. Wirkt auch auf Feinde in der Nähe des Gegners. Verursacht Zustand Brennen (1...3 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Anrufung von Rodgort",
 				"description": "Der Gegner und alle Feinde in der Nähe erleiden 15...120 Punkte Feuerschaden und werden 1...3 Sekunden lang in Brand gesetzt.",
 				"concise": "Richtet 15...120 Punkte Feuerschaden an. Wirkt auch auf Feinde in der Nähe des Gegners. Verursacht Zustand Brennen (1...3 Sekunden)."
 			},
 			"en": {
 				"name": "Rodgort's Invocation",
+				"description": "Spell. Target foe and all nearby foes are struck for 15...120 fire damage and set on fire for 1...3 seconds.",
+				"concise": "Spell. Deals 15...120 fire damage. Also affects foes near your target. Inflicts Burning condition (1...3 seconds)."
+			},
+			"en-gww": {
+				"name": "Rodgort's Invocation",
 				"description": "Target foe and all nearby foes are struck for 15...120 fire damage and set on fire for 1...3 second[s].",
 				"concise": "Deals 15...120 fire damage. Also affects foes near your target. Inflicts Burning condition (1...3 second[s])."
 			},
+			"es": {
+				"name": "Invocación de Rodgort",
+				"description": "Conjuro. El enemigo objetivo y todos los enemigos cercanos reciben 15...120 de daño de fuego y arden durante 1...3 segundos.",
+				"concise": "Conjuro. Hace 15...120 de daño de fuego. También alcanza a los enemigos cercanos a tu objetivo. Causa quemadura (1...3 segundos)."
+			},
 			"fr": {
+				"name": "Invocation de Rodgort",
+				"description": "Sort. L'ennemi visé et tous les ennemis à proximité subissent 15...120 points de dégâts du feu et s'embrasent pendant 1...3 secondes.",
+				"concise": "Sort. Inflige 15...120 points de dégâts de feu. Affecte également les ennemis près de la cible. Provoque une Brûlure (1...3 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Invocation de Rodgort",
 				"description": "L'ennemi visé et tous les ennemis à proximité subissent 15...120 points de dégâts du feu et s'embrasent pendant 1...3 seconde(s).",
 				"concise": "Inflige 15...120 points de dégâts du feu. Affecte également les ennemis à proximité de votre cible. Inflige la Brûlure (1...3 seconde(s))."
+			},
+			"it": {
+				"name": "Invocazione di Rodgort",
+				"description": "Magia. L'obiettivo nemico e tutti i nemici nei dintorni subiscono 15...120 danni da fuoco e prendono fuoco per 1...3 secondi.",
+				"concise": "Magia. Danni da fuoco inferti: 15...120. Colpisce anche i nemici nelle vicinanze dell'obiettivo. Condizione inflitta: Bruciatura (1...3 secondi)."
+			},
+			"jp": {
+				"name": "ロッドゴート インバケーション",
+				"description": "スペル： ターゲットした敵および周囲にいるすべての敵に 15...120 のファイア ダメージを与え、1...3 秒間「火傷」状態にします。",
+				"concise": "スペル： ターゲットした敵および周囲にいる敵に 15...120 のファイア ダメージを与えて「火傷」状態にします (1...3 秒)。"
+			},
+			"kr": {
+				"name": "로조트의 강림",
+				"description": "마법. 대상 지정: 적. 대상과 부근에 있는 모든 적은 15...120의 불 대미지를 입고, 1...3초 동안 화상 상태가 됩니다.",
+				"concise": "마법. 대상과 그 부근의 적들에게 15...120의 불 대미지를 주고, 화상을 입힙니다.(1...3초)"
+			},
+			"pl": {
+				"name": "Inwokacja Rodgorta",
+				"description": "Czar. Wybrany przeciwnik i przeciwnicy w pobliżu otrzymują 15...120 obrażeń od ognia oraz zostają podpaleni na 1...3 sek.",
+				"concise": "Czar. Zadaje 15...120 pkt. obrażeń od ognia. Działa także na przeciwników w pobliżu twojego celu. Wywołuje przypadłość płonięcie (1...3 sek.)."
+			},
+			"ru": {
+				"name": "Rodgort's Invocation",
+				"description": "Заклинание. Выбранный противник и все противники поблизости от него получают 15...120 ед. урона силой огня и загораются на 1...3 сек.",
+				"concise": "Заклинание. Наносит 15...120 ед. урона силой огня. Также поражает противников поблизости от вашей цели. Поджигает (1...3 сек)."
+			},
+			"bork": {
+				"name": "Rudgurt's Infucaeshun",
+				"description": "Spell. Taerget fue-a und aell neaerby fues aere-a stroock fur 15...120 fure-a daemaege-a und set oon fure-a fur 1...3 secunds.",
+				"concise": "Spell. Deaels 15...120 fure-a daemaege-a. Aelsu aeffffects fues neaer yuoor taerget. Inffleects Boorneeng cundeeshun (1...3 secunds)."
 			}
 		}
 	}

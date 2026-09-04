@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Smite Condition",
+				"description": "咒文。 Remove one condition from target ally. If a condition was removed, foes in the area take 10...60 holy damage.",
+				"concise": "咒文。 Removes a condition. Removal effect: deals 10...60 holy damage to foes in the area of target ally."
+			},
+			"cht": {
+				"name": "擊敗病症",
+				"description": "咒文魔法： 移除目標盟友一項病症。每移除一項病症，附近敵人將受到 10...60 神聖傷害。",
+				"concise": "咒文魔法： 移除目標盟友一項病症。每移除一項病症，附近敵人將受到 10...60 傷害。"
+			},
 			"de": {
+				"name": "Zustand zerschlagen",
+				"description": "Zauber. Entfernt einen Zustand vom Verbündeten (bzw. Euch selbst). Wenn ein Zustand entfernt wurde, erleiden Gegner in dem Bereich 10...60 Punkt[e] heiligen Schaden.",
+				"concise": "Zauber. Entfernt einen Zustand. Entfernungswirkung: Richtet bei Feinden im Bereich des Verbündeten (bzw. von Euch selbst) 10...60 Punkt[e] heiligen Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Zustand zerschlagen",
 				"description": "Entfernt einen Zustand vom Verbündeten (bzw. Euch selbst). Wenn ein Zustand entfernt wurde, erleiden Gegner in der Nähe 10...60 Punkte heiligen Schaden.",
 				"concise": "Entfernt einen Zustand. Entfernungswirkung: Richtet bei Feinden in der Nähe des Verbündeten (bzw. von Euch selbst) 10...60 Punkte heiligen Schaden an."
 			},
 			"en": {
 				"name": "Smite Condition",
+				"description": "Spell. Remove one condition from target ally. If a condition was removed, foes in the area take 10...60 holy damage.",
+				"concise": "Spell. Removes a condition. Removal effect: deals 10...60 holy damage to foes in the area of target ally."
+			},
+			"en-gww": {
+				"name": "Smite Condition",
 				"description": "Remove one condition from target ally. If a condition was removed, foes in the area take 10...60 holy damage.",
 				"concise": "Removes a condition. Removal effect: deals 10...60 holy damage to foes in the area of target ally."
 			},
+			"es": {
+				"name": "Condición atacante",
+				"description": "Conjuro. Eliminas una condición del objetivo (un aliado o tú mismo). Al hacerlo, los enemigos de la zona reciben 10...60 de daño sagrado.",
+				"concise": "Conjuro. Elimina una condición. Efecto de la eliminación: hace 10...60 de daño sagrado a los enemigos de la zona del objetivo (un aliado o tú mismo)."
+			},
 			"fr": {
+				"name": "Expiation des conditions",
+				"description": "Sort. Ote une condition de la cible (allié ou vous-même). Si une condition est ôtée de cette manière, les ennemis dans la zone subissent 10...60 points de dégâts sacrés.",
+				"concise": "Sort. Supprime une condition. Effet de la suppression : inflige 10...60 points de dégâts sacrés aux ennemis dans la zone de l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Expiation des conditions",
 				"description": "Ote une condition de la cible (allié ou vous-même). Si une condition est ôtée de cette manière, les ennemis proches subissent 10...60 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpisci Condizione",
+				"description": "Magia. Rimuovi una condizione dall'obiettivo (un alleato o te stesso). Se ci riesci, i nemici presenti nell'area subiscono 10...60 danno[i] sacro[i].",
+				"concise": "Magia. Rimuove una condizione. Effetto della rimozione: 10...60 danno[i] sacro[i] ai nemici nell'area dell'obiettivo alleato."
+			},
+			"jp": {
+				"name": "スマイト コンディション",
+				"description": "スペル： ターゲットした味方から「状態異常」を1個解除します。解除すると、エリア内にいる敵に 10...60 の神聖ダメージを与えます。",
+				"concise": "スペル： 「状態異常」を1個解除します。解除効果： その味方のエリア内にいる敵に 10...60 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "상태이상 단죄",
+				"description": "마법. 대상 아군에 걸린 상태이상 하나를 무효화합니다. 상태이상이 무효화되면 일정 범위 내에 있는 적들이 10...60의 신성 대미지를 입습니다.",
+				"concise": "마법. 상태이상 하나를 무효화합니다. 무효화 효과: 대상을 중심으로 일정 범위 내에 있는 적들에게 10...60의 신성 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Pogrom Przypadłości",
+				"description": "Czar. Z wybranego sojusznika usuwasz jedną przypadłość. Jeśli przypadłość zostanie usunięta, to każdy przeciwnik w okolicy otrzyma 10...60 pkt. świętych obrażeń.",
+				"concise": "Czar. Usuwa przypadłość. Efekt usunięcia: przeciwnikom w okolicy wybranego sojusznika zadaje 10...60 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Smite Condition",
+				"description": "Заклинание. Снимает одно состояние с выбранного союзника. Если состояние было успешно снято, все противники поблизости получат 10...60 ед. урона святой силой.",
+				"concise": "Заклинание. Снимает состояние. Эффект снятия: 10...60 ед. урона противникам в зоне досягаемости от выбранного союзника."
+			},
+			"bork": {
+				"name": "Smeete-a Cundeeshun",
+				"description": "Spell. Remufe-a oone-a cundeeshun frum taerget aelly. Iff a cundeeshun vaes remufed, fues in zee aerea taeke-a 10...60 huly daemaege-a.",
+				"concise": "Spell. Remufes a cundeeshun. Remufael iffffect: deaels 10...60 huly daemaege-a tu fues in zee aerea ooff taerget aelly."
 			}
 		}
 	}

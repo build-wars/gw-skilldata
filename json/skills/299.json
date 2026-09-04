@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "防御之手",
+				"description": "增益魔法。 在8秒之内。使友方目标受到的伤害降低3...18点。",
+				"concise": "增益魔法。 在8秒之内。使友方目标受到的伤害降低3...18点。"
+			},
+			"cht": {
+				"name": "防禦之手",
+				"description": "加持魔法： 持續8秒，目標盟友受到的傷害或者偷取生命減少3...18， 結束時治療5...50體 力。",
+				"concise": "加持魔法： 持續8秒，目標盟友受到的傷害或者偷取生命減少3...18， 結束時治療5...50體 力。"
+			},
 			"de": {
+				"name": "Schützende Hände",
+				"description": "Verzauberung. 8 Sekunden lang werden der Schaden, den der Verbündete erleidet, und die Lebenspunkte, die diesem entzogen werden, um 3...18 Punkt[e] reduziert. Wenn Schützende Hände endet, wird der Verbündete um 5...50 Lebenspunkt[e] geheilt.",
+				"concise": "Verzauberung. (8 Sekunde[n].) Reduziert erlittenen Schaden und entzogene Lebenspunkte um 3...18 Punkt[e]. Wirkung am Ende: Heilt um 5...50 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Schützende Hände",
 				"description": "8 Sekunden lang werden der Schaden, den der Verbündete (bzw. Ihr selbst) erleidet, und die Lebenspunkte, die diesem durch Fertigkeiten entzogen werden, um 3...18 Punkte reduziert. Wenn Schützende Hände endet, wird der Verbündete um 5...50 Lebenspunkte geheilt.",
 				"concise": "(8 Sekunden.) Reduziert erlittenen Schaden und entzogene Lebenspunkte um 3...18 Punkte. Wirkung am Ende: Heilt um 5...50 Lebenspunkte."
 			},
 			"en": {
 				"name": "Shielding Hands",
+				"description": "Enchantment Spell. For 8 seconds, damage and life steal received by target ally is reduced by 3...18. When Shielding Hands ends, that ally is healed for 5...50 Health.",
+				"concise": "Enchantment Spell. (8 seconds.) Reduces incoming damage and life steal by 3...18. End effect: heals for 5...50."
+			},
+			"en-gww": {
+				"name": "Shielding Hands",
 				"description": "For 8 seconds, damage and life steal received by target ally is reduced by 3...18. When Shielding Hands ends, that ally is healed for 5...50 Health.",
-				"concise": "(8 seconds.) Reduces incoming damage and life steal by 3...18. End effect: heals for 5...50"
+				"concise": "(8 seconds.) Reduces incoming damage and<sic/> life steal by 3...18. End effect: heals for 5...50"
+			},
+			"es": {
+				"name": "Manos protectoras",
+				"description": "Conjuro con encantamiento. Durante 8 segundos, el daño y el robo de salud recibido por el aliado objetivo se reduce en 3...18. Cuando finaliza el efecto de Manos protectoras, el aliado recibe 5...50 de salud.",
+				"concise": "Conjuro con encantamiento. (8 segundos.) Reduce el daño y el robo de salud recibido en 3...18. Efecto final: cura 5...50 de salud."
 			},
 			"fr": {
 				"name": "Mains du protecteur",
+				"description": "Enchantement. Pendant 8 secondes, les dégâts et le vol de vie subis par l'allié visé sont réduits de 3...18. Lorsque Mains du protecteur prend fin, cet allié est soigné de 5...50 points de vie.",
+				"concise": "Enchantement. (8 secondes.) Réduit les dégâts et le vol de vie subis de 3...18. Effet final : soigne de 5...50 points de vie."
+			},
+			"fr-gwiki": {
+				"name": "Mains du protecteur",
 				"description": "Pendant 8 secondes, les dégâts et le vol de vie subis par l'allié sont réduits de 3...18. Lorsque Mains du protecteur prend fin, cet allié est soigné de 5...50 points de vie.",
 				"concise": "(8 secondes.) Réduit les dégâts et le vol de vie subis de 3...18. Effet final : soigne de 5...50 points de vie."
+			},
+			"it": {
+				"name": "Mani Scudo",
+				"description": "Incantesimo. Per 8 secondi i danni e la sottrazione vita ricevuti dall'obiettivo (un alleato o te stesso) si riducono di 3...18. Quando l'effetto delle Mani Scudo svanisce, l'alleato viene curato di 5...50 Punti Salute.",
+				"concise": "Incantesimo. (Secondi: 8) Riduzione del danno in arrivo e della sottrazione vita: 3...18. Effetto al termine (cure): 5...50."
+			},
+			"jp": {
+				"name": "シールド ハンド",
+				"description": "強化スペル： 8 秒間、ターゲットした味方は、受けるダメージおよび奪い取られる体力が 3...18 減少します。この効果が消失すると、その味方は体力が 5...50 回復します。",
+				"concise": "強化スペル： (8 秒) 受けるダメージおよび奪い取られる体力が 3...18 減少します。終了効果： 体力が 5...50 回復します。"
+			},
+			"kr": {
+				"name": "방어의 손길",
+				"description": "강화 마법. 대상 지정: 아군. 8초 동안 대상이 받는 공격 대미지와 체력 흡수로 인한 대미지가 3...18만큼 감소합니다. 효과가 끝나면 대상은 5...50의 체력을 회복합니다.",
+				"concise": "강화 마법. (8초) 받는 공격 대미지와 체력 흡수로 인한 대미지가 3...18만큼 감소합니다. 종료 효과: 5...50의 체력을 회복시킵니다."
+			},
+			"pl": {
+				"name": "Ochraniające Dłonie",
+				"description": "Zaklęcie (czar). Przez 8 sek., obrażenia oraz żywotność wykradana wybranemu sojusznikowi są zmniejszone o 3...18. Kiedy Ochraniające Dłonie przestają działać, sojusznik ten odzyskuje 5...50 żywotności.",
+				"concise": "Zaklęcie (czar). (8 sek].) Zmniejsza obrażenia oraz kradzież żywotności o 3...18. Efekt końcowy: przywraca 5...50 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Shielding Hands",
+				"description": "Заклинание-чары. В течение 8 сек полученные выбранным союзником урон или похищение жизни уменьшаются на 3...18 ед. Когда Shielding Hands заканчивает свое действие, этот союзник будет исцелен на 5...50 ед. здоровья.",
+				"concise": "Заклинание-чары. (8 сек) Уменьшает полученный урон и похищение жизни на 3...18 ед. Эффект окончания: исцеляет на 5...50 ед. здоровья."
+			},
+			"bork": {
+				"name": "Sheeeldeeng Hunds",
+				"description": "Inchuntment Spell. Fur 8 secunds, daemaege-a und leeffe-a steael receeefed by taerget aelly is redooced by 3...18. Vhee Sheeeldeeng Hunds inds, thaet aelly is heaeled fur 5...50 Heaelt. Bork! Bork! Bork!",
+				"concise": "Inchuntment Spell. (8 secunds.) Redooces incumeeng daemaege-a und leeffe-a steael by 3...18. Ind iffffect: heaels fur 5...50."
 			}
 		}
 	}

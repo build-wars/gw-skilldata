@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益剥离",
+				"description": "咒文。 驱散目标敌人身上的0...2个「增益魔法」，驱散成功后，你将获得5...65点生命值。",
+				"concise": "咒文。 驱散目标敌人身上的一项「增益魔法」效果，驱散成功后，你将获得0...2点生命值。"
+			},
+			"cht": {
+				"name": "剝奪加持",
+				"description": "咒文魔法： 移除目標敵人身上的0...2項 加持，若移除成功，偷取目標敵人5...65體 力。",
+				"concise": "咒文魔法： 移除目標敵人身上的0...2項 加持，若移除成功，偷取目標敵人5...65體 力。"
+			},
 			"de": {
+				"name": "Verzauberung rauben",
+				"description": "Zauber. Entfernt 0...2 Verzauberung[en] vom Gegner. Beim Entfernen einer Verzauberung entzieht Ihr 5...65 Lebenspunkt[e].",
+				"concise": "Zauber. Entfernt 0...2 Verzauberung[en] beim Gegner. Entfernungswirkung: Ihr entzieht 5...65 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberung rauben",
 				"description": "Entfernt 0...2 Verzauberungen vom Gegner. Beim Entfernen einer Verzauberung entzieht Ihr 5...65 Lebenspunkte.",
 				"concise": "Entfernt 0...2 Verzauberungen beim Gegner. Entfernungswirkung: Ihr entzieht 5...65 Lebenspunkte."
 			},
 			"en": {
 				"name": "Strip Enchantment",
+				"description": "Spell. Remove 0...2 enchantments from target foe. If an enchantment is removed, you steal 5...65 Health.",
+				"concise": "Spell. Removes 0...2 enchantments from target foe. Removal effect: you steal 5...65 Health."
+			},
+			"en-gww": {
+				"name": "Strip Enchantment",
 				"description": "Remove 0...2 enchantment[s] from target foe. If an enchantment is removed, you steal 5...65 Health.",
 				"concise": "Removes 0...2 enchantment[s] from target foe. Removal effect: you steal 5...65 Health."
 			},
+			"es": {
+				"name": "Quitar encantamiento",
+				"description": "Conjuro. Elimina 0...2 encantamientos del enemigo objetivo. Si se quita un encantamiento, robas 5...65 de salud.",
+				"concise": "Conjuro. Elimina 0...2 encantamientos del enemigo objetivo. Efecto de la eliminación: robas 5...65 de salud."
+			},
 			"fr": {
+				"name": "Suppression d'un enchantement",
+				"description": "Sort. Ote 0...2 enchantements à l'ennemi visé. Si un enchantement est supprimé, vous volez 5...65 points de vie.",
+				"concise": "Sort. Ote 0...2 enchantements à la cible ennemie. Effet de la suppression : vous volez 5...65 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Suppression d'un enchantement",
 				"description": "Ote 1...2 enchantement(s) à l'ennemi visé. Si un enchantement est supprimé, vous volez 5...65 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sottrai Incantesimo",
+				"description": "Magia. Rimuovi 0...2 incantesimo[i] dall'obiettivo nemico. Se riesci a rimuovere un incantesimo, sottrai 5...65 Punto[i] Salute.",
+				"concise": "Magia. Incantesimi rimossi dall'obiettivo nemico: 0...2. Effetto della rimozione: sottrai 5...65 di Salute."
+			},
+			"jp": {
+				"name": "ストリップ エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを 0...2 個解除します。強化スペルを解除すると、5...65 の体力を奪い取ります。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを 0...2 個解除します。解除効果： プレイヤーは 5...65 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "강화 박탈",
+				"description": "마법. 대상 지정: 적. 대상에게 걸려 있는 강화 마법 0...2개를 해제하고, 강화 마법이 해제되면 5...65의 체력을 뺏습니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 0...2개를 해제합니다. 해제 효과: 5...65의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Zdarcie Zaklęcia",
+				"description": "Czar. Z wybranego przeciwnika zdejmujesz zaklęcia w liczbie 0...2. Jeżeli zaklęcie zostało zdjęte, wykradasz 5...65 pkt. żywotności.",
+				"concise": "Czar. Z wybranego przeciwnika zdejmuje zaklęcia w liczbie 0...2. Efekt usunięcia: wykradasz 5...65 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Strip Enchantment",
+				"description": "Заклинание. Снимает лежащие на выбранном противнике чары (0...2). Если чары были успешно сняты, вы похищаете 5...65 ед. здоровья.",
+				"concise": "Заклинание. Снимает чары (0...2) с выбранного противника. Эффект снятия: вы похищаете 5...65 ед. здоровья."
+			},
+			"bork": {
+				"name": "Streep Inchuntment",
+				"description": "Spell. Remufe-a 0...2 inchuntments frum taerget fue-a. Iff un inchuntment is remufed, yuoo steael 5...65 Heaelt.",
+				"concise": "Spell. Remufes 0...2 inchuntments frum taerget fue-a. Remufael iffffect: yuoo steael 5...65 Heaelt."
 			}
 		}
 	}

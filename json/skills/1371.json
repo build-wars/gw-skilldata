@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "岩石打击",
+				"description": "增益魔法。 在5...30秒之内，当你遭受或制造所有元素及物理伤害时,该伤害转变为地系伤害。",
+				"concise": "增益魔法。 在5...30秒之内，当你遭受或制造所有元素及物理伤害时,该伤害转变为地系伤害。"
+			},
+			"cht": {
+				"name": "石之打擊",
+				"description": "加持魔法： 持續 5...30 秒，使你遭受或造成的元素或物理傷害轉換為土系傷害。",
+				"concise": "加持魔法： 持續 5...30 秒，使你遭受或造成的元素或物理傷害轉換為土系傷害。"
+			},
 			"de": {
+				"name": "Steinschläger",
+				"description": "Verzauberung. Während der nächsten 5...30 Sekunde[n] wird jeder Elementar- oder physische Schaden, den Ihr nehmt oder zufügt, in Erdschaden umgewandelt.",
+				"concise": "Verzauberung. (5...30 Sekunde[n].) Wandelt von Euch erlittenen oder angerichteten physischen und Elementarschaden in Erdschaden um."
+			},
+			"de-guildwiki": {
 				"name": "Steinschläger",
 				"description": "Während der nächsten 5...30 Sekunden wird sämtlicher Elementarschaden oder physische Schaden<sic/>, den Ihr nehmt oder verursacht, in Erdschaden umgewandelt.",
 				"concise": "5...30 Sekunden: Wandelt von Euch erlittenen oder angerichteten physischen und Elementarschaden in Erdschaden um."
 			},
 			"en": {
 				"name": "Stone Striker",
+				"description": "Enchantment Spell. For 5...30 seconds, whenever you take or deal elemental or physical damage, that damage is converted to earth damage.",
+				"concise": "Enchantment Spell. (5...30 seconds.) Converts elemental and physical damage you take or deal to earth damage."
+			},
+			"en-gww": {
+				"name": "Stone Striker",
 				"description": "For 5...30 seconds, whenever you take or deal elemental or physical damage, that damage is converted to earth damage.",
 				"concise": "(5...30 seconds.) Converts elemental and physical damage you take or deal to earth damage."
 			},
+			"es": {
+				"name": "Atacante de piedra",
+				"description": "Conjuro con encantamiento. Durante 5...30 segundos, siempre que te golpeen con algún ataque elemental o físico, el daño recibido será de tierra.",
+				"concise": "Conjuro con encantamiento. (5...30 segundos). Convierte en daño de tierra el daño físico y de los elementos que recibas o hagas."
+			},
 			"fr": {
+				"name": "Briseur de pierre",
+				"description": "Enchantement. Pendant 5...30 secondes, à chaque fois que vous infligez ou subissez des dégâts élémentaires ou physiques, ces dégâts sont convertis en dégâts de la terre.",
+				"concise": "Enchantement. (5...30 secondes.) Convertit les dégâts élémentaires et physiques que vous subissez ou infligez en dégâts de la terre."
+			},
+			"fr-gwiki": {
 				"name": "Briseur de pierre",
 				"description": "Pendant 5...30 secondes, chaque fois que vous infligez ou subissez des dégâts élémentaires ou physiques, ces dégâts sont convertis en dégâts de la terre.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Battitore di Pietra",
+				"description": "Incantesimo. Per 5...30 secondi, ogni volta che subisci o infliggi un danno elementale o fisico, questo si trasforma in un danno da terra.",
+				"concise": "Incantesimo. (Secondi: 5...30.) Trasforma i danni elementali e fisici che subisci o assesti in danni da terra."
+			},
+			"jp": {
+				"name": "ストーン ストライカー",
+				"description": "強化スペル： 5...30 秒間、元素または物理ダメージを受ける、または与えるたびに、その攻撃はアース ダメージに変換されます。",
+				"concise": "強化スペル： (5...30 秒) 元素ダメージおよび物理ダメージを与えるか受けると、そのダメージはアース ダメージに変換されます。"
+			},
+			"kr": {
+				"name": "바위 강타",
+				"description": "강화 마법. 대상 지정: 없음. 5...30초 동안 자신이 주거나 입는 물리 대미지와 정령 대미지가 대지 대미지로 바뀝니다.",
+				"concise": "강화 마법. (5...30초) 자신이 주거나 받는 물리 대미지와 정령 대미지가 대지 대미지로 바뀝니다."
+			},
+			"pl": {
+				"name": "Kamienny Napastnik",
+				"description": "Zaklęcie (czar). Przez 5...30 sek., za każdym razem, kiedy otrzymujesz lub zadajesz obrażenia od żywiołów lub fizyczne, obrażenia te zamieniane są na obrażenia od ziemi.",
+				"concise": "Zaklęcie (czar). (5...30 sek.) Zamienia obrażenia fizyczne i obrażenia od żywiołów, jakie otrzymujesz, na obrażenia od ziemi."
+			},
+			"ru": {
+				"name": "Stone Striker",
+				"description": "Заклинание-чары. В течение 5...30 сек каждый раз, когда вы получаете или наносите физический урон или урон силами Стихий, этот урон преобразуется в урон силой земли.",
+				"concise": "Заклинание-чары. (5...30 сек) Преобразует полученный вами физический урон и урон силами Стихий в урон силой земли."
+			},
+			"bork": {
+				"name": "Stune-a Streeker",
+				"description": "Inchuntment Spell. Fur 5...30 secunds, vhenefer yuoo taeke-a oor deael ilementael oor physeecael daemaege-a, thaet daemaege-a is cunferted tu iaert daemaege-a.",
+				"concise": "Inchuntment Spell. (5...30 secunds.) Cunferts ilementael und physeecael daemaege-a yuoo taeke-a oor deael tu iaert daemaege-a."
 			}
 		}
 	}

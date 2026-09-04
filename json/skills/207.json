@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰霜召唤",
+				"description": "增益魔法。 如果你手持带有冰冻伤害的武器，那么你的攻击会对目标敌人造成5...20点冰冻伤害，效果持续 60秒。",
+				"concise": "增益魔法。 如果你手持带有冰冻伤害的武器，那么你的攻击会对目标敌人造成5...20点冰冻伤害，效果持续 60秒。"
+			},
+			"cht": {
+				"name": "召喚冰霜",
+				"description": "加持魔法： 持續 60 秒，若你使用具有冰凍屬性的武器進行攻擊，對目標額外造成 5...20 冰凍傷害。",
+				"concise": "加持魔法： 持續 60 秒，若你使用具有冰凍屬性的武器進行攻擊，對目標額外造成 5...20 冰凍傷害。"
+			},
 			"de": {
+				"name": "Frost beschwören",
+				"description": "Verzauberung. 60 Sekunden lang richten Eure Angriffe 5...20 Punkt[e] zusätzlichen Kälteschaden an, wenn Ihr eine Kältewaffe führt.",
+				"concise": "Verzauberung. (60 Sekunden.) Eure Angriffe richten +5...20 Punkt[e] Kälteschaden an. Keine Wirkung, falls Eure Waffe keinen Kälteschaden verursacht."
+			},
+			"de-guildwiki": {
 				"name": "Frost beschwören",
 				"description": "60 Sekunden lang richten Eure Angriffe 5...20 Punkte zusätzlichen Kälteschaden an, wenn Ihr eine Kältewaffe führt.",
 				"concise": "60 Sekunden: Eure Angriffe richten +5...20 Punkte Kälteschaden an. <gray>Keine Wirkung, falls Eure Waffe keinen Kälteschaden verursacht.</gray>"
 			},
 			"en": {
 				"name": "Conjure Frost",
+				"description": "Enchantment Spell. For 60 seconds, if you're wielding a cold weapon, your attacks strike for an additional 5...20 cold damage.",
+				"concise": "Enchantment Spell. (60 seconds.) Your attacks hit for +5...20 cold damage. No effect unless your weapon deals cold damage."
+			},
+			"en-gww": {
+				"name": "Conjure Frost",
 				"description": "For 60 seconds, if you're wielding a cold weapon, your attacks strike for an additional 5...20 cold damage.",
 				"concise": "(60 seconds.) Your attacks hit for +5...20 cold damage. <gray>No effect unless your weapon deals cold damage.</gray>"
 			},
+			"es": {
+				"name": "Conjurar escarcha",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, si llevas un arma de frío, tus ataques hacen 5...20 de daño frío adicional.",
+				"concise": "Conjuro con encantamiento. (60 segundos.) Tus ataques hacen +5...20 de daño frío. No tiene efecto si no llevas un arma de daño frío."
+			},
 			"fr": {
+				"name": "Conjuration du froid",
+				"description": "Enchantement. Pendant 60 secondes, si vous utilisez une arme du froid, vos attaques infligent 5...20 points de dégâts du froid supplémentaires.",
+				"concise": "Enchantement. (60 secondes.) Vos attaques infligent +5...20 points de dégâts du froid. Aucun effet si votre arme n'inflige pas des dégâts du froid."
+			},
+			"fr-gwiki": {
 				"name": "Conjuration du froid",
 				"description": "Pendant 60 secondes, si vous utilisez une arme du froid, vos attaques infligent 5...20 points de dégâts du froid supplémentaires.",
 				"concise": "(60 secondes.) Vos attaques infligent +5...20 points de dégâts du froid."
+			},
+			"it": {
+				"name": "Evoca Brina",
+				"description": "Incantesimo. Per 60 secondi, se brandisci un'arma da freddo, i tuoi attacchi infliggono un danno da freddo aggiuntivo di 5...20.",
+				"concise": "Incantesimo. (Secondi: 60.) Danni da freddo inferti dai tuoi attacchi: +5...20. Ha effetto solo se hai equipaggiato un'arma per danni da freddo."
+			},
+			"jp": {
+				"name": "カンジャー フロスト",
+				"description": "強化スペル： 60秒間、コールド属性の武器による攻撃が成功すると、5...20 の追加コールド ダメージを与えます。",
+				"concise": "強化スペル： (60秒) 5...20 の追加コールド ダメージを与えます。コールド属性の武器を装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "냉기 소환",
+				"description": "강화 마법. 대상 지정: 없음. 60초 동안 냉기 속성 무기로 공격을 하면 5...20의 냉기 대미지를 추가로 줍니다.",
+				"concise": "강화 마법. (60초) 공격 시 5...20의 냉기 대미지를 추가로 줍니다. 냉기 속성 무기를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Przyzwanie Mrozu",
+				"description": "Zaklęcie (czar). Przez 60 sek., jeżeli posiadasz zadającą obrażenia od zimna broń, twoje ataki zadają dodatkowe 5...20 pkt. obrażeń od zimna.",
+				"concise": "Zaklęcie (czar). (60 sek.) Twoje ataki zadają +5...20 pkt. obrażeń od zimna. Bez efektu, jeśli twoja broń nie zadaje obrażeń od zimna."
+			},
+			"ru": {
+				"name": "Conjure Frost",
+				"description": "Заклинание-чары. В течение 60 сек, если вы вооружены оружием, наносящим урон силой холода, ваши атаки наносят дополнительно 5...20 ед. урона силой холода.",
+				"concise": "Заклинание-чары. (60 сек) Ваши атаки наносят дополнительно 5...20 ед. урона силой холода. Ваше оружие должно наносить урон силой холода."
+			},
+			"bork": {
+				"name": "Cunjoore-a Frust",
+				"description": "Inchuntment Spell. Fur 60 secunds, iff yuoo're-a veeeldeeng a culd veaepun, yuoor aettaecks streeke-a fur un aeddeeshunael 5...20 culd daemaege-a.",
+				"concise": "Inchuntment Spell. (60 secunds.) Yuoor aettaecks heet fur +5...20 culd daemaege-a. Nu iffffect unless yuoor veaepun deaels culd daemaege-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘疗术",
+				"description": "咒文。 根据你所带有的「增益魔法」效果数量，为同样数量的的队友回复5...65点生命值。（一名队友最多只能享受一次治疗）",
+				"concise": "咒文。 根据你所带有的「增益魔法」效果数量，为同样数量的的队友回复5...65点生命值。（一名队友最多只能享受一次治疗）"
+			},
+			"cht": {
+				"name": "治癒秘法",
+				"description": "咒文魔法： 治療自己 5...65 體力，也同時治療有加持效果的隊友 5...65 體力。",
+				"concise": "咒文魔法： 治療自己 5...65 體力，也同時治療有加持效果的隊友 5...65 體力。"
+			},
 			"de": {
+				"name": "Mystische Heilung (PvP)",
+				"description": "Zauber. Ihr werdet um 5...65 Lebenspunkt[e] geheilt. Heilt zudem alle verzauberten Gruppenmitglieder um 5...65 Lebenspunkt[e].",
+				"concise": "Zauber. Heilt Euch um 5...65 Lebenspunkt[e]. Heilt alle verzauberten Gruppenmitglieder um 5...65 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Mystische Heilung (PvP)",
 				"description": "Ihr werdet um 5...65 Lebenspunkte geheilt. Heilt zudem alle verzauberten Gruppenmitglieder um 5...65 Lebenspunkte.",
 				"concise": "Heilt Euch um 5...65 Lebenspunkte. Heilt alle verzauberten Gruppenmitglieder um 5...65 Lebenspunkte."
 			},
 			"en": {
 				"name": "Mystic Healing (PvP)",
+				"description": "Spell. You are healed for 5...65 Health. Also heals all enchanted party members for 5...65 Health.",
+				"concise": "Spell. Heals you for 5...65. Heals all enchanted party members for 5...65 Health."
+			},
+			"en-gww": {
+				"name": "Mystic Healing (PvP)",
 				"description": "You are healed for 5...65 Health. Also heals all enchanted party members for 5...65 Health.",
 				"concise": "Heals you for 5...65. Heals all enchanted party members for 5...65 Health."
 			},
+			"es": {
+				"name": "Regeneración mística (PvP)",
+				"description": "Conjuro. Cura 5...65 de salud. También cura 5...65 de salud a todos tus compañeros encantados.",
+				"concise": "Conjuro. Te curas 5...65 de salud. Cura 5...65 de salud a todos tus compañeros encantados."
+			},
 			"fr": {
+				"name": "Guérison mystique (PvP)",
+				"description": "Sort. Vous êtes soigné[f:\"soignée\"] de 5...65 points de vie. Tous les membres du groupe enchantés sont également soignés de 5...65 points de vie.",
+				"concise": "Sort. Vous regagnez 5...65 points de vie. Tous les membres du groupe sont également soignés de 5...65 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Guérison mystique (PvP)",
 				"description": "Vous êtes soignés 5...69 points de vie. Soigne aussi tous les membre du groupe qui sot enchantés de 5...69 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Cura Mistica (PvP)",
+				"description": "Magia. Vieni curata di 5...65 Punti Salute. Cura anche tutti i membri della squadra sotto incantesimo di 5...65 Punti Salute.",
+				"concise": "Magia. Ti cura di 5...65 Punti Salute. Punti Salute curati per tutti i membri della squadra sotto incantesimo: 5...65."
+			},
+			"jp": {
+				"name": "ミスティック ヒーリング (PvP)",
+				"description": "スペル： 体力が 5...65 回復します。また、強化スペルをかけられているパーティー メンバーは体力が 5...65 回復します。",
+				"concise": "スペル： 体力が 5...65 回復します。強化スペルをかけられているパーティー メンバーは体力が 5...65 回復します。"
+			},
+			"kr": {
+				"name": "신비로운 치유(대인전)",
+				"description": "마법. 대상 지정: 없음. 자신은 5...65의 체력을 회복합니다. 강화 마법이 걸려 있는 모든 파티원도 5...65의 체력을 회복합니다.",
+				"concise": "마법. 5...65의 체력을 회복하고, 강화 마법이 걸린 파티원의 체력을 5...65만큼 회복시킵니다."
+			},
+			"pl": {
+				"name": "Mistyczne Uzdrowienie (PvP)",
+				"description": "Czar. Odzyskujesz 5...65 pkt. żywotności. Przywracasz także 5...65 żywotności wszystkim członkom drużyny będącym pod wpływem zaklęcia.",
+				"concise": "Czar. Odzyskujesz 5...65 pkt. żywotności. Przywraca także 5...65 żywotności wszystkim członkom drużyny będącym pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Mystic Healing (PvP)",
+				"description": "Заклинание. Вы исцеляетесь на 5...65 ед. здоровья. Также все члены отряда, находящиеся под действием чар, исцеляются на 5...65 ед. здоровья.",
+				"concise": "Заклинание. Исцеляет вас на 5...65 ед. здоровья. Исцеляет всех членов отряда, находящихся под действием чар, на 5...65 ед. здоровья."
+			},
+			"bork": {
+				"name": "Mysteec Heaeleeng (PfP)",
+				"description": "Spell. Yuoo aere-a heaeled fur 5...65 Heaelt. Aelsu heaels aell inchunted paerty members fur 5...65 Heaelt.",
+				"concise": "Spell. Heaels yuoo fur 5...65. Heaels aell inchunted paerty members fur 5...65 Heaelt."
 			}
 		}
 	}

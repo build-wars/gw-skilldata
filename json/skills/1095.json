@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "星爆",
+				"description": "精英咒文。 触摸目标敌人，使其与所有附近的敌人受到 7...112 火焰伤害。如果你使用此技能造成一个以上的敌人受到伤害，则你额外损失 5 能量。",
+				"concise": "精英触摸法术。 触摸目标敌人，使其与所有附近的敌人受到 7...112 火焰伤害。如果你使用此技能造成一个以上的敌人受到伤害，则你额外损失 5 能量。"
+			},
+			"cht": {
+				"name": "星爆",
+				"description": "精英咒文魔法： 碰觸目標敵人，使其與所有附近的敵人受到 7...112 火焰傷害。若你使用此技能造成一個以上的敵人受到傷害，則你額外損失 5 能量。",
+				"concise": "精英碰觸魔法： 碰觸目標敵人，使其與所有附近的敵人受到 7...112 火焰傷害。若你使用此技能造成一個以上的敵人受到傷害，則你額外損失 5 能量。"
+			},
 			"de": {
+				"name": "Sternenexplosion",
+				"description": "Elite-Zauber. Der berührte Gegner und alle Feinde im Bereich erleiden 7...112 Punkt[e] Feuerschaden und werden 1...4 Sekunde[n] lang in Brand gesetzt. Ihr erhaltet für jeden getroffenen Feind 2 Energiepunkte.",
+				"concise": "Elite-Berührungs-Zauber. Richtet 7...112 Punkt[e] Feuerschaden an. Verursacht Zustand Brennen (1...4 Sekunde[n]). Ihr erhaltet für jeden getroffenen Feind 2 Energiepunkte. Trifft auch Feinde im Bereich."
+			},
+			"de-guildwiki": {
 				"name": "Sternenexplosion",
 				"description": "Der berührte Gegner und alle Feinde im Bereich erleiden 7...112 Punkte Feuerschaden und werden 1...4 Sekunden lang in Brand gesetzt. Ihr erhaltet für jeden getroffenen Feind 2 Energiepunkte.",
 				"concise": "Richtet 7...112 Punkte Feuerschaden an. Verursacht Zustand Brennen (1...4 Sekunden). Ihr erhaltet für jeden getroffenen Feind 2 Energiepunkte. Trifft auch Feinde im Bereich."
 			},
 			"en": {
 				"name": "Star Burst",
+				"description": "Elite Spell. Target touched foe and all foes in the area are struck for 7...112 fire damage and set on fire for 1...4 seconds. For each foe you hit, gain 2 Energy.",
+				"concise": "Elite Touch Spell. Deals 7...112 fire damage. Inflicts Burning (1...4 seconds). Gain 2 Energy for each foe struck. Also hits foes in the area."
+			},
+			"en-gww": {
+				"name": "Star Burst",
 				"description": "Target touched foe and all foes in the area are struck for 7...112 fire damage and set on fire for 1...4 second[s]. For each foe you hit, gain 2 Energy.",
 				"concise": "Elite Touch Spell. Deals 7...112 fire damage. Inflicts Burning (1...4 seconds). <sic/> Gain 2 Energy for each foe struck. Also hits foes in the area."
 			},
+			"es": {
+				"name": "Supernova",
+				"description": "Conjuro de élite. El enemigo objetivo alcanzado y todos los enemigos de la zona reciben 7...112 de daño de fuego y arden durante 1...4 segundos. Por cada enemigo que alcances, recibes 2 de energía.",
+				"concise": "Conjuro de élite de toque. Hace 7...112 de daño de fuego. Causa quemadura (1...4 segundos). Ganas 2 de energía por cada enemigo alcanzado. También alcanza a los enemigos dentro del área."
+			},
 			"fr": {
+				"name": "Eclat constellé",
+				"description": "Sort d'élite. L'ennemi touché et tous les ennemis à proximité subissent 7...112 points de dégâts du feu et s'embrasent pendant 1...4 secondes. A chaque ennemi touché, vous gagnez 2 points d'énergie.",
+				"concise": "Sort de toucher élite. Inflige 7...112 points de dégâts de feu. Embrase (1...4 secondes). Vous gagnez 2 points d'énergie par ennemi touché. Affecte également les ennemis dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Eclat constellé",
 				"description": "La cible ennemie touchée et tous les ennemis proches subissent 7...112 points de dégâts du feu. Si plus d'un ennemi a été touché, vous perdrez 5 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Esplosione Stellare",
+				"description": "Magia d'Élite. L'obiettivo nemico toccato e tutti i nemici nell'area subiscono 7...112 danni da fuoco e prendono fuoco per 1...4 secondi. Ottieni 2 Punti Energia per ogni nemico che colpisci.",
+				"concise": "Magia d'Élite a Tocco. Danni da fuoco inferti: 7...112. Infligge Bruciatura (1...4 secondi). Ottieni 2 Punti Energia per ogni nemico colpito. Colpisce anche i nemici nell'area."
+			},
+			"jp": {
+				"name": "スター バースト",
+				"description": "エリート スペル： 接触した敵およびエリア内にいるすべての敵に 7...112 のファイア ダメージを与え、1...4 秒間「火傷」状態にします。攻撃する敵ごとにプレイヤーは2のエネルギーを獲得します。",
+				"concise": "エリート スペル (接触)： ターゲットした敵およびエリア内にいる敵に 7...112 のファイア ダメージを与えて「火傷」状態にします (1...4 秒)。プレイヤーは攻撃することができた敵ごとに2のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "유성 폭발",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 일정 범위 내에 있는 모든 적에게 7...112의 불 대미지를 주고, 1...4초 동안 화상 상태로 만듭니다. 적 1명당 자신은 2의 에너지를 얻습니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "엘리트 마법(접근용). 대상과 일정 범위 내에 있는 적들에게 7...112의 불 대미지를 주고, 화상을 입힙니다.(1...4초) 적 1명당 2의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Gwiezdny Wybuch",
+				"description": "Elitarny czar. Wybrany dotknięty przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim otrzymują po 7...112 pkt. obrażeń od ognia. Jeżeli obrażenia otrzymał więcej niż jeden przeciwnik, tracisz 5 pkt. energii.",
+				"concise": "Elitarny czar dotykowy. Zadaje 7...112 pkt. obrażeń od ognia. Trafia także przeciwników w pobliżu. Tracisz 5 punktów energii, jeżeli został trafiony więcej niż jeden przeciwnik."
+			},
+			"ru": {
+				"name": "Star Burst",
+				"description": "Элитное заклинание. Выбранный противник, до которого вы дотронулись, и все противники в зоне досягаемости получат 7...112 ед. урона силой огня и загорятся на 1...4 сек. За каждого пораженного противника вы получаете 2 ед. энергии.",
+				"concise": "Элитное заклинание прикосновения. Наносит 7...112 ед. урона силой огня. Поджигает (1...4 сек). Дает 2 ед. энергии за каждого пораженного противника. Также поражает противников в зоне досягаемости."
+			},
+			"bork": {
+				"name": "Staer Boorst",
+				"description": "Ileete-a Spell. Taerget tuooched fue-a und aell fues in zee aerea aere-a stroock fur 7...112 fure-a daemaege-a und set oon fure-a fur 1...4 secunds. Fur iaech fue-a yuoo heet, gaeeen 2 Inergy. Bork! Bork! Bork!",
+				"concise": "Ileete-a Tuooch Spell. Deaels 7...112 fure-a daemaege-a. Inffleects Boorneeng (1...4 secunds). Gaeeen 2 Inergy fur iaech fue-a stroock. Aelsu heets fues in zee aerea. Bork! Bork! Bork!"
 			}
 		}
 	}

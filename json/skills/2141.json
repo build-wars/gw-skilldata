@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Companionship",
+				"description": "技能。 If you have less Health than your pet, you are healed for 30...120 Health. If your pet has less Health than you, it is healed for 30...120 Health.",
+				"concise": "技能。 Heals you for 30...120 if you have less Health than your pet. Heals your pet for 30...120 if it has less Health than you."
+			},
+			"cht": {
+				"name": "友誼",
+				"description": "技能： 若你的寵物體力比你多，你將被治癒 30...120 體力。而若你的寵物體力比你少，寵物將被治癒 30...120 體力。",
+				"concise": "技能： 若你的寵物體力比你多，你將被治癒 30...120 體力。而若你的寵物體力比你少，寵物將被治癒 30...120 體力。"
+			},
 			"de": {
+				"name": "Kameradschaft",
+				"description": "Fertigkeit. Wenn Eure Lebenspunkte niedriger als die Eures Tiergefährten sind, werdet Ihr um 30...120 Lebenspunkt[e] geheilt. Wenn die Lebenspunkte Eures Tiergefährten niedriger als Eure eigenen sind, wird er um 30...120 Lebenspunkt[e] geheilt.",
+				"concise": "Fertigkeit. Heilt Euch um 30...120 Lebenspunkt[e], falls Ihr weniger Lebenspunkte habt als Euer Tiergefährte. Heilt Euren Tiergefährten um 30...120 Lebenspunkt[e], falls er weniger Lebenspunkte hat als Ihr."
+			},
+			"de-guildwiki": {
 				"name": "Kameradschaft",
 				"description": "Wenn Eure Lebenspunkte niedriger als die Eures Tiergefährten sind, erhaltet Ihr 30...120 Lebenspunkte, ansonsten erhält er 30...120 Lebenspunkte.",
 				"concise": "Erhaltet 30...120 Lebenspunkte, falls Ihr weniger Lebenspunkte habt als Euer Tiergefährte. Euer Tiergefährte erhält ansonsten 30...120 Lebenspunkte."
 			},
 			"en": {
 				"name": "Companionship",
+				"description": "Skill. If you have less Health than your pet, you are healed for 30...120 Health. If your pet has less Health than you, it is healed for 30...120 Health.",
+				"concise": "Skill. Heals you for 30...120 if you have less Health than your pet. Heals your pet for 30...120 if it has less Health than you."
+			},
+			"en-gww": {
+				"name": "Companionship",
 				"description": "If you have less Health than your pet, you are healed for 30...120 Health. If your pet has less Health than you, it is healed for 30...120 Health.",
 				"concise": "Heals you for 30...120 if you have less Health than your pet. Heals your pet for 30...120 if it has less Health than you."
 			},
+			"es": {
+				"name": "Camaradería",
+				"description": "Habilidad. Si tienes menos salud que tu mascota, te curas 30...120 de salud. Si la mascota tiene menos que tú, se cura 30...120 de salud.",
+				"concise": "Habilidad. Te curas 30...120 de salud si tienes menos que tu mascota. Cura 30...120 de salud a la mascota si tiene menos que tú."
+			},
 			"fr": {
+				"name": "Camaraderie",
+				"description": "Compétence. Si vous avez moins de santé que votre familier, vous êtes soigné[f:\"soignée\"] de 30...120 points de vie. Si votre familier a moins de santé que vous, il est soigné de 30...120 points de vie.",
+				"concise": "Compétence. Vous soigne de 30...120 points de vie si vous avez moins de santé que votre familier. Soigne votre familier de 30...120 points de vie s'il a moins de santé que vous."
+			},
+			"fr-gwiki": {
 				"name": "Camaraderie",
 				"description": "Si vous avez moins de santé que votre familier, vous êtes soigné de 30...120 points de vie. Si votre familier a moins de santé que vous, il est soigné de 30...120 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Compagnia",
+				"description": "Abilità. Se hai meno Salute della tua mascotte vieni curato di 30...120 Punto[i] Salute. Se la tua mascotte ha meno Salute di te viene curata di 30...120 Punto[i] Salute.",
+				"concise": "Abilità. Cure ricevute se la tua Salute è inferiore a quella della tua mascotte: 30...120. Cure per la mascotte se la sua Salute è inferiore alla tua: 30...120."
+			},
+			"jp": {
+				"name": "コンパニオンシップ",
+				"description": "スキル： ペットの体力よりも自分の体力が少ない場合、自分の体力が 30...120 回復します。ペットの体力が自分の体力より少ない場合、ペットの体力が 30...120 回復します。",
+				"concise": "スキル： ペットよりもプレイヤーの体力が少ない場合、プレイヤーは体力が 30...120 回復します。ペットの体力が少ない場合、ペットは体力が 30...120 回復します。"
+			},
+			"kr": {
+				"name": "동료애",
+				"description": "스킬. 자신의 체력이 펫보다 적으면 자신이 30...120의 체력을 회복하고, 자신의 체력이 펫보다 많으면 펫이 30...120의 체력을 회복합니다.",
+				"concise": "스킬. 자신의 체력이 펫보다 적으면 자신이 30...120의 체력을 회복하고, 자신의 체력이 펫보다 많으면 펫이 30...120의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Współpraca",
+				"description": "Umiejętność. Jeżeli masz mniej pkt. żywotności niż twój zwierzęcy towarzysz, to otrzymujesz 30...120 pkt. żywotności. Jeżeli twój zwierzęcy towarzysz ma mniej pkt. żywotności niż ty, to otrzymuje 30...120 pkt. żywotności.",
+				"concise": "Umiejętność. Otrzymujesz 30...120 pkt. żywotności, jeżeli posiadasz mniej żywotności niż twój zwierzęcy towarzysz. Twój zwierzęcy towarzysz otrzymuje 30...120 pkt. żywotności, jeżeli posiada mniej żywotności niż ty."
+			},
+			"ru": {
+				"name": "Companionship",
+				"description": "Умение. Если уровень вашего здоровья ниже, чем у вашего питомца, вы исцеляетесь на 30...120 ед. здоровья. Если у вашего питомца меньше здоровья, чем у вас, он исцеляется на 30...120 ед. здоровья.",
+				"concise": "Умение. Исцеляет вас на 30...120 ед. здоровья, если у вас меньше здоровья, чем у вашего питомца. Иначе исцеляет вашего питомца на 30...120 ед. здоровья."
+			},
+			"bork": {
+				"name": "Cumpuneeunsheep",
+				"description": "Skeell. Iff yuoo haefe-a less Heaelt thun yuoor pet, yuoo aere-a heaeled fur 30...120 Heaelt. Iff yuoor pet haes less Heaelt thun yuoo, it is heaeled fur 30...120 Heaelt.",
+				"concise": "Skeell. Heaels yuoo fur 30...120 iff yuoo haefe-a less Heaelt thun yuoor pet. Heaels yuoor pet fur 30...120 iff it haes less Heaelt thun yuoo."
 			}
 		}
 	}

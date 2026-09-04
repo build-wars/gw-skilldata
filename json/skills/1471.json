@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "食腐兽的专注",
+				"description": "精英技能。 在24秒之内，你的攻击将会对遭受「症状」的敌人造成3...12点额外伤害。",
+				"concise": "精英技能。 在24秒之内，你的攻击将会对遭受「症状」的敌人造成3...12点额外伤害。"
+			},
+			"cht": {
+				"name": "食腐者的專注",
+				"description": "精英技能： 持續10秒，每當攻擊一個有病症的敵人時，你獲得3...12能量。",
+				"concise": "精英技能： 持續10秒，每當攻擊一個有病症的敵人時，你獲得3...12能量。"
+			},
 			"de": {
+				"name": "Fokus des Plünderers",
+				"description": "Elite-Fertigkeit. 10 Sekunde[n] lang erhaltet Ihr jedes Mal, wenn Ihr einen Feind trefft, der an einem Zustand leidet, 3...12 Energiepunkt[e].",
+				"concise": "Elite-Fertigkeit. 10 Sekunde[n]: Ihr erhaltet 3...12 Energiepunkt[e], wenn Ihr einen mit einem Zustand belegten Feind trefft."
+			},
+			"de-guildwiki": {
 				"name": "Fokus des Plünderers",
 				"description": "10 Sekunden lang erhaltet Ihr jedes Mal, wenn Ihr einen Feind trefft, der an einem Zustand leidet, 3...12 Energiepunkte.",
 				"concise": "10 Sekunden: Ihr erhaltet 3...12 Energiepunkte, wenn ihr einen Feind trefft, der an einem Zustand leidet."
 			},
 			"en": {
 				"name": "Scavenger's Focus",
+				"description": "Elite Skill. For 10 seconds, if you strike a foe who is suffering from a condition you gain 3...12 Energy.",
+				"concise": "Elite Skill. (10 seconds.) You gain 3...12 Energy if you strike a foe who has a condition."
+			},
+			"en-gww": {
+				"name": "Scavenger's Focus",
 				"description": "For 10 seconds if you strike a foe who is suffering from a condition you gain 3...12 Energy.",
 				"concise": "(10 seconds). You gain 3...12 Energy if you strike a foe who has a condition."
 			},
+			"es": {
+				"name": "Foco del carroñero",
+				"description": "Habilidad de élite. Durante 10 segundos, si golpeas a un enemigo que esté sufriendo alguna condición, ganas 3...12 de energía.",
+				"concise": "Habilidad de élite. (10 segundos). Ganas 3...12 de energía si golpeas a un enemigo que tenga alguna condición."
+			},
 			"fr": {
+				"name": "Focus du charognard",
+				"description": "Compétence élite. Pendant 10 secondes, si vous frappez une cible souffrant d'une condition, vous obtenez 3...12 points d'énergie.",
+				"concise": "Compétence élite. (10 secondes.) Vous bénéficiez de 3...12 points d'énergie si vous frappez un ennemi souffrant d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Focus du charognard",
 				"description": "Pendant 10 secondes, si vous frappez une cible souffrant d'une condition, vous obtenez 3...12 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Concentrazione dello Sciacallo",
+				"description": "Abilità d'Élite. Per 10 secondo[i], se colpisci un nemico affetto da una condizione ottieni 3...12 Punto[i] Energia.",
+				"concise": "Abilità d'Élite. (Secondi: 10) Energia conseguita se colpisci un nemico affetto da una condizione: 3...12."
+			},
+			"jp": {
+				"name": "スカベンジャー フォーカス",
+				"description": "エリート スキル： 10 秒間、「状態異常」の敵への攻撃が成功すると、3...12 のエネルギーを獲得します。",
+				"concise": "エリート スキル： (10 秒) 「状態異常」をかけられている敵への攻撃が成功すると、3...12 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "하이에나의 집중",
+				"description": "엘리트 스킬. 대상 지정: 없음. 10초 동안 상태이상에 걸린 적에게 공격이 성공하면 3...12의 에너지를 얻습니다.",
+				"concise": "엘리트 스킬. (10초) 상태이상에 걸린 적에게 공격이 성공하면 3...12의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Skupienie Padlinożercy",
+				"description": "Umiejętność elitarna. Przez 10 sek., jeżeli trafisz przeciwnika pod działaniem przypadłości, otrzymasz 3...12 pkt. energii.",
+				"concise": "Umiejętność elitarna. (10 sek.) Jeżeli trafisz przeciwnika pod działaniem przypadłości, otrzymujesz 3...12 pkt. energii."
+			},
+			"ru": {
+				"name": "Scavenger's Focus",
+				"description": "Элитное умение. В течение 10 сек, если вы наносите удар по противнику, находящемуся под воздействием какого-либо состояния, вы получаете 3...12 ед. энергии.",
+				"concise": "Элитное умение. (10 сек) Вы получаете 3...12 ед. энергии, если наносите удар противнику, находящемуся под воздействием состояния."
+			},
+			"bork": {
+				"name": "Scaefenger's Fucoos",
+				"description": "Ileete-a Skeell. Fur 10 secunds, iff yuoo streeke-a a fue-a vhu is sooffffereeng frum a cundeeshun yuoo gaeeen 3...12 Inergy.",
+				"concise": "Ileete-a Skeell. (10 secunds.) Yuoo gaeeen 3...12 Inergy iff yuoo streeke-a a fue-a vhu haes a cundeeshun. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "烂泥",
+				"description": "咒文。 使目标敌人受到 15...65点 冰冻伤害。如果施法时该目标被击倒在地，则使其遭受「中毒」症状 5...20秒。",
+				"concise": "咒文。 使目标敌人受到 15...65点 冰冻伤害。如果施法时该目标被击倒在地，则使其遭受「中毒」症状 5...20秒。"
+			},
+			"cht": {
+				"name": "惡臭地表",
+				"description": "咒文魔法： 使目標敵人受到 15...65 冰凍傷害。若該目標被擊倒，則使其遭受「中毒」病症 5...20 秒。",
+				"concise": "咒文魔法： 使目標敵人受到 15...65 冰凍傷害。若該目標被擊倒，則使其遭受「中毒」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Stinkender Boden",
+				"description": "Zauber. Der Gegner erleidet 15...65 Punkt[e] Kälteschaden. Wenn er am Boden liegt, wird er außerdem 5...20 Sekunde[n] lang vergiftet.",
+				"concise": "Zauber. Richtet 15...65 Punkt[e] Kälteschaden an. Verursacht Zustand Gift (5...20 Sekunde[n]), falls Gegner zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Stinkender Boden",
 				"description": "Der Gegner erleidet 15...65 Punkte Kälteschaden. Wenn er am Boden liegt, wird er außerdem 5...20 Sekunden lang vergiftet.",
 				"concise": "Richtet 15...65 Punkte Kälteschaden an. Verursacht Zustand Gift (5...20 Sekunden), falls Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Fetid Ground",
+				"description": "Spell. Target foe is struck for 15...65 cold damage. If that foe is knocked down, that foe becomes Poisoned for 5...20 seconds.",
+				"concise": "Spell. Deals 15...65 cold damage. Inflicts Poisoned condition (5...20 seconds) if target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Fetid Ground",
 				"description": "Target foe is struck for 15...65 cold damage. If that foe is knocked down, that foe becomes Poisoned for 5...20 seconds.",
 				"concise": "Deals 15...65 cold damage. Inflicts Poisoned condition (5...20 seconds) if target foe is knocked-down."
 			},
+			"es": {
+				"name": "Suelo fétido",
+				"description": "Conjuro. El enemigo objetivo recibe 15...65 de daño frío. Si está derribado, quedará envenenado durante 5...20 segundos.",
+				"concise": "Conjuro. Hace 15...65 de daño frío. Causa envenenamiento (5...20 segundos) si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Humus fétide",
+				"description": "Sort. La cible ennemie subit 15...65 points de dégâts du froid. Si elle est assommée, la cible ennemie est empoisonnée pendant 5...20 secondes.",
+				"concise": "Sort. Inflige 15...65 points de dégâts du froid. Provoque l'Empoisonnement (5...20 secondes) si la cible ennemie est assommée."
+			},
+			"fr-gwiki": {
 				"name": "Humus fétide",
 				"description": "La cible ennemie subit 15...65 points de dégâts du froid. Si elle est assommée, la cible ennemie est empoisonnée pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Terreno Fetido",
+				"description": "Magia. L'obiettivo nemico subisce 15...65 danno[i] da freddo; se è stato abbattuto, viene avvelenato per 5...20 secondo[i].",
+				"concise": "Magia. Danni da freddo inferti: 15...65. Condizione inflitta se l'obiettivo nemico è abbattuto: Veleno (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "フェティド グラウンド",
+				"description": "スペル： ターゲットした敵に 15...65 のコールド ダメージを与えます。その敵が転倒中の場合、5...20 秒間「毒」状態にします。",
+				"concise": "スペル： 15...65 のコールド ダメージを与えます。ターゲットした敵が転倒中の場合、「毒」状態にします (5...20 秒)。"
+			},
+			"kr": {
+				"name": "악취나는 땅",
+				"description": "마법. 대상 지정: 적. 대상은 15...65의 냉기 대미지를 입습니다. 그 대상이 넘어져 있었다면 대상은 5...20초 동안 중독 상태가 됩니다.",
+				"concise": "마법. 15...65의 냉기 대미지를 줍니다. 대상이 넘어져 있으면 중독시킵니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Cuchnąca Ziemia",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 15...65 pkt. obrażeń od zimna. Jeśli ten przeciwnik jest powalony, zostaje on zatruty na 5...20 sek.",
+				"concise": "Czar. Zadaje 15...65 pkt. obrażeń od zimna. Wywołuje przypadłość zatrucie (5...20 sek.), jeżeli wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Fetid Ground",
+				"description": "Заклинание. Выбранный противник получает 15...65 ед. урона силой холода. Если этот противник сбит с ног, то он будет отравлен на 5...20 сек.",
+				"concise": "Заклинание. Наносит 15...65 ед. урона силой холода. Вызывает отравление (5...20 сек), если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Feteed Gruoond",
+				"description": "Spell. Taerget fue-a is stroock fur 15...65 culd daemaege-a. Iff thaet fue-a is knucked doon, thaet fue-a becumes Pueesuned fur 5...20 secunds.",
+				"concise": "Spell. Deaels 15...65 culd daemaege-a. Inffleects Pueesuned cundeeshun (5...20 secunds) iff taerget fue-a is knucked-doon."
 			}
 		}
 	}

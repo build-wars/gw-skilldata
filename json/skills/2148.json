@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Sundering Weapon",
+				"description": "武咒。 For 4...10 seconds, target ally's next 3 attacks have 10% armor penetration and cause Cracked Armor for 5...20 seconds.",
+				"concise": "武咒。 (4...10 seconds.) Target ally's next 3 attacks inflict Cracked Armor condition (5...20 seconds) and have 10% armor penetration."
+			},
+			"cht": {
+				"name": "分離武裝",
+				"description": "武裝魔法： 持續4...10秒，接下來3次目標盟友的攻擊造成敵人碎甲5...20秒且有10%防禦穿透。",
+				"concise": "武裝魔法： 持續4...10秒，接下來3次目標盟友的攻擊造成敵人碎甲5...20秒且有10%防禦穿透。"
+			},
 			"de": {
+				"name": "Trennende Waffe",
+				"description": "Waffenzauber. 4...10 Sekunde[n] lang haben die nächsten 3 Angriffe des Verbündeten (bzw. Eure eigenen) eine Rüstungsdurchdringung von 10% und führen 5...20 Sekunde[n] lang zu Beschädigter Rüstung.",
+				"concise": "Waffenzauber. 4...10 Sekunde[n]: Die nächsten 3 Angriff des Verbündeten (bzw. von Euch selbst) verursachen Zustand Beschädigte Rüstung (5...20 Sekunde[n]) und haben 10% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Trennende Waffe",
 				"description": "4...10 Sekunden lang haben die nächsten 3 Angriffe des Verbündeten (bzw. Eure eigenen) eine Rüstungsdurchdringung von 10% und führen 5...20 Sekunden lang zu Beschädigter Rüstung.",
 				"concise": "4...10 Sekunden: Die nächsten 3 Angriff des Verbündeten (bzw. von Euch selbst) verursachen Zustand Beschädigte Rüstung (5...20 Sekunden) und haben 10% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Sundering Weapon",
+				"description": "Weapon Spell. For 4...10 seconds, target ally's next 3 attacks have 10% armor penetration and cause Cracked Armor for 5...20 seconds.",
+				"concise": "Weapon Spell. (4...10 seconds.) Target ally's next 3 attacks inflict Cracked Armor condition (5...20 seconds) and have 10% armor penetration."
+			},
+			"en-gww": {
+				"name": "Sundering Weapon",
 				"description": "For 4...10 seconds, target ally's next 3 attacks have 10% armor penetration and cause Cracked Armor for 5...20 seconds.",
 				"concise": "(4...10 seconds.) Target ally's next 3 attacks inflict Cracked Armor condition (5...20 seconds) and have 10% armor penetration."
 			},
+			"es": {
+				"name": "Arma incisiva",
+				"description": "Conjuro con arma. Durante 4...10 segundos, los siguientes 3 ataques del objetivo (un aliado o tú mismo) tienen un 10% de penetración de armadura y causan armadura rota durante 5...20 segundos.",
+				"concise": "Conjuro con arma. (4...10 segundos). Los siguientes 3 ataques del objetivo (un aliado o tú mismo) causan armadura rota (5...20 segundos) y tienen un 10% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Arme de fractionnement",
+				"description": "Sort d'altération d'arme. Pendant 4...10 secondes, les 3 prochaines attaques de la cible (allié ou vous-même) bénéficient d'une pénétration d'armure de 10% et provoquent une Armure brisée pendant 5...20 secondes.",
+				"concise": "Sort d'altération d'arme. (4...10 secondes.) Les 3 prochaines attaques de l'allié visé infligent la condition Armure brisée (5...20 secondes) et offrent une pénétration d'armure de 10%."
+			},
+			"fr-gwiki": {
 				"name": "Arme de fractionnement",
 				"description": "Pendant 4...10 secondes, les 3 prochaines attaques de la cible (allié ou vous-même) bénéficient d'une pénétration d'armure de 10% et provoque Armure brisée pendant 5...20 seconde(s).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma Separante",
+				"description": "Magia Altera-arma. Per 4...10 secondo[i] i 3 attacchi successivi dell'obiettivo alleato hanno un 10% di penetrazione dell'armatura e provocano Armatura Incrinata per 5...20 secondo[i].",
+				"concise": "Magia Altera-arma. (Secondi: 4...10) Condizione inflitta dai 3 attacchi successivi dell'obiettivo alleato: Armatura Incrinata (5...20 secondo[i]); sua penetrazione armatura: 10%."
+			},
+			"jp": {
+				"name": "サンダー ウェポン",
+				"description": "ウェポン スペル： 4...10 秒間、ターゲットした味方が次に行う3回の攻撃は、10% のアーマー貫通効果を持ち、敵を 5...20 秒間「防具破損」状態にします。",
+				"concise": "ウェポン スペル： (4...10 秒) ターゲットした味方が次に行う3回の攻撃は 10% のアーマー貫通効果を持ち、敵を「防具破損」状態にします (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "절단의 무기",
+				"description": "마법 무기. 4...10초 동안 대상 아군은 \"절단의 무기\" 효과를 얻습니다. 대상의공격은 10%의 갑옷 관통 효과를 갖고, 5...20초간의 방어 손상을 입힙니다. 3번 효과가 있습니다.",
+				"concise": "마법 무기. (4...10초) 대상 아군의 공격은 10%의 갑옷 관통 효과를 갖고, 적에게 방어 손상을 입힙니다.(5...20초) 3번 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Penetrująca Broń",
+				"description": "Czar z broni. Przez 4...10 sek., następne 3 ataki wybranego sojusznika posiadają 10% przebicie pancerza i na 5...20 sek. wywołują pękniętą zbroję.",
+				"concise": "Czar z broni. (4...10 sek.) Następne 3 ataki wybranego sojusznika wywołują przypadłość pęknięta zbroja (5...20 sek.) i posiadają 10% przebicie pancerza."
+			},
+			"ru": {
+				"name": "Sundering Weapon",
+				"description": "Оружейное заклинание. В течение 4...10 сек следующие 3 атаки выбранного союзника игнорируют 10% защиты противника, а у самого противника в течение 5...20 сек будут треснувшие доспехи.",
+				"concise": "Оружейное заклинание. (4...10 сек) Следующие 3 атаки выбранного союзника дадут противнику треснувшие доспехи (5...20 сек) и проигнорируют 10% защиты противника."
+			},
+			"bork": {
+				"name": "Soondereeng Veaepun",
+				"description": "Veaepun Spell. Fur 4...10 secunds, taerget aelly's next 3 aettaecks haefe-a 10% aermur penetraeshun und coose-a Craecked Aermur fur 5...20 secunds.",
+				"concise": "Veaepun Spell. (4...10 secunds.) Taerget aelly's next 3 aettaecks inffleect Craecked Aermur cundeeshun (5...20 secunds) und haefe-a 10% aermur penetraeshun."
 			}
 		}
 	}

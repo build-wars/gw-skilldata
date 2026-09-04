@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"浴血奋战！\"",
+				"description": "战吼。 在5...20秒之内，当下一次友方目标打出致命一击时，会对敌人附加造成「重伤」症状5...20秒。",
+				"concise": "战吼。 在5...20秒之内，当下一次友方目标打出致命一击时，会对敌人附加造成「重伤」症状5...20秒。"
+			},
+			"cht": {
+				"name": "「找出弱點！」(PvP)",
+				"description": "戰嚎： 持續 5...20 秒，「下一次」目標盟友打出致命攻擊時，被攻擊的敵人也將同時遭受「重傷」病症 5...20 秒。",
+				"concise": "戰嚎： 持續 5...20 秒，「下一次」目標盟友打出致命攻擊時，被攻擊的敵人也將同時遭受「重傷」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "\"Findet ihren Schwachpunkt!\" (PvP)",
+				"description": "Schrei. 5...20 Sekunden[n] lang verursacht der nächste kritische Treffer des Verbündeten (bzw. Euer eigener) auch 5...20 Sekunde[n] lang eine Tiefe Wunde.",
+				"concise": "Schrei. (5...20 Sekunde[n].) Verbündeter (bzw. Ihr selbst) verursacht mit dem nächsten kritischen Treffer den Zustand Tiefe Wunde (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "\"Findet ihren Schwachpunkt!\" (PvP)",
 				"description": "5...20 Sekundenn<sic/> lang verursacht der nächste kritische Treffer des Verbündeten (bzw. Euer eigener) auch 5...20 Sekunden lang eine Tiefe Wunde.",
 				"concise": "5...20 Sekunden: Verbündeter (bzw. Ihr selbst) verursacht mit dem nächsten kritischen Treffer den Zustand Tiefe Wunde (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "\"Find Their Weakness!\" (PvP)",
+				"description": "Shout. For 5...20 seconds, the next time target ally criticals, that ally also inflicts a Deep Wound for 5...20 seconds.",
+				"concise": "Shout. (5...20 seconds.) Target ally inflicts Deep Wound condition (5...20 seconds) with the next critical hit."
+			},
+			"en-gww": {
+				"name": "\"Find Their Weakness!\" (PvP)",
 				"description": "For 5...20 seconds, the next time target ally criticals, that ally also inflicts a Deep Wound for 5...20 seconds.",
 				"concise": "(5...20 seconds.) Target ally inflicts Deep Wound condition (5...20 seconds) with the next critical hit."
 			},
+			"es": {
+				"name": "\"¡A por su punto débil!\" (PvP)",
+				"description": "Grito. Durante 5...20 segundos, la próxima vez que el aliado objetivo dé un golpe crítico, también hará una herida grave que durará 5...20 segundos.",
+				"concise": "Grito. (5...20 segundos.) El aliado objetivo causa herida grave (5...20 segundos) con el siguiente golpe crítico."
+			},
 			"fr": {
+				"name": "\"Trouvez leur faiblesse !\" (PvP)",
+				"description": "Cri. Pendant 5...20 secondes, la prochaine fois que la cible (un allié ou vous-même) inflige un coup critique, elle cause aussi une Blessure profonde pendant 5...20 secondes.",
+				"concise": "Cri. (5...20 secondes.) Le prochain coup critique infligé par la cible alliée provoque la Blessure profonde (5...20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "\"Trouvez leur faiblesse !\" (PvP)",
 				"description": "Pendant 5...20 secondes, la prochaine fois que la cible (un allié ou vous-même) inflige un coup critique, elle cause aussi une Blessure profonde pendant 5...20 secondes.",
 				"concise": "(5...20 secondes.) Le prochain coup critique infligé par la cible alliée provoque la Blessure profonde (5...20 secondes)."
+			},
+			"it": {
+				"name": "\"Scopri la Loro Debolezza!\" (PvP)",
+				"description": "Urlo. Dura 5...20 secondi; la prossima volta che l'obiettivo alleato sferra un attacco critico, infligge anche una Ferita Profonda per 5...20 secondi.",
+				"concise": "Urlo. (Secondi: 5...20). Condizione inflitta dall'obiettivo alleato con il prossimo attacco critico: Ferita Profonda (5...20 secondi)."
+			},
+			"jp": {
+				"name": "ファインド ウィークネス！(PvP)",
+				"description": "シャウト： 5...20 秒間、ターゲットした味方の攻撃が次にクリティカル ヒットになるとき、同時にその敵を 5...20 秒間「重傷」状態にします。",
+				"concise": "シャウト： (5...20 秒) ターゲットした味方は、次のクリティカル ヒットで敵を「重傷」状態にします (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "약점을 찾아라!(대인전)",
+				"description": "고함. 대상 지정: 없음. 5...20초 동안 적에게 치명타를 터뜨리면 그 적은 5...20초 동안 중상 상태가 됩니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "고함. (5...20초) 대상 아군이 처음 치명타를 터뜨리면 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Odnajdźcie Ich Słabości! (PvP)",
+				"description": "Okrzyk. Przez 5...20 sek., kiedy następnym razem wybrany sojusznik spowoduje obrażenia krytyczne, to zada też głęboka ranę na 5...20 sek.",
+				"concise": "Okrzyk. (5...20 sek.) Z następnym trafieniem krytycznym wybrany sojusznik wywołuje przypadłość głęboka rana (5...20 sek.)."
+			},
+			"ru": {
+				"name": "\"Find Their Weakness!\" (PvP)",
+				"description": "Крик. В течение 5...20 сек в следующий раз, когда выбранный союзник нанесет критический удар, этот удар также нанесет противнику глубокую рану на 5...20 сек.",
+				"concise": "Крик. (5...20 сек) Выбранный союзник нанесет глубокую рану (5...20 сек) при следующем критическом ударе."
+			},
+			"bork": {
+				"name": "\"Feend Zeeur Veaekness!\" (PfP)",
+				"description": "Shuoot. Fur 5...20 secunds, zee next teeme-a taerget aelly creeteecaels, thaet aelly aelsu inffleects a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Shuoot. (5...20 secunds.) Taerget aelly inffleects Deep Vuoond cundeeshun (5...20 secunds) veet zee next creeteecael heet."
 			}
 		}
 	}

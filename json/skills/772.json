@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 10,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "桑雷之度",
+				"description": "物品法术。 最多能够持有15...60秒，牺牲自己最大生命的10%，提高50...140点最大值生命。当你丢下桑雷的骨灰时，你将获得100...280点生命值。",
+				"concise": "物品法术。 牺牲自己最大生命的 10% 。最多能够持有 15...60 秒，提高 50...140 生命最大值。当你丢下桑雷的骨灰时，你获得 100...280 生命。"
+			},
+			"cht": {
+				"name": "慷慨者桑雷",
+				"description": "抱持魔法： 犧牲自己最大體力的 10% 。最多能夠抱持 15...60 秒，增加 50...140 體力最大值。當你丟下桑雷的骨灰時，你獲得 100...280 體力。",
+				"concise": "抱持魔法： 犧牲自己最大體力的 10% 。最多能夠抱持 15...60 秒，增加 50...140 體力最大值。當你丟下桑雷的骨灰時，你獲得 100...280 體力。"
+			},
 			"de": {
+				"name": "Großzügig war Tsungrai",
+				"description": "Gegenstandszauber. Haltet Tsungrais Asche bis zu 15...60 Sekunde[n] lang und erhaltet +50...140 Punkt[e] maximale Lebenspunkte. Wenn Ihr seine Asche fallen lasst, erhaltet Ihr 100...280 Lebenspunkt[e].",
+				"concise": "Gegenstandszauber. 15...60 Sekunde[n]: Ihr habt +50...140 maximale Lebenspunkte. Fallwirkung: Ihr erhaltet 100...280 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Großzügig war Tsungrai",
 				"description": "Haltet Tsungrais Asche bis zu 15...60 Sekunden lang und erhaltet +50...140 Punkte maximale Lebenspunkte. Wenn Ihr seine Asche fallen lasst, erhaltet Ihr 100...280 Lebenspunkte.",
 				"concise": "15...60 Sekunden: Ihr habt +50...140 maximale Lebenspunkte. Fallwirkung: Ihr erhaltet 100...280 Lebenspunkte."
 			},
 			"en": {
 				"name": "Generous Was Tsungrai",
+				"description": "Item Spell. Hold Tsungrai's ashes for up to 15...60 seconds and gain +50...140 maximum Health. When you drop his ashes, you gain 100...280 Health.",
+				"concise": "Item Spell. (15...60 seconds.) You have +50...140 maximum Health. Drop effect: you gain 100...280 Health."
+			},
+			"en-gww": {
+				"name": "Generous Was Tsungrai",
 				"description": "Hold Tsungrai's ashes for up to 15...60 seconds and gain +50...140 maximum Health. When you drop his ashes, you gain 100...280 Health.",
 				"concise": "(15...60 seconds.) You have +50...140 maximum Health. Drop effect: you gain 100...280 Health."
 			},
+			"es": {
+				"name": "Generoso sea Tsungrai",
+				"description": "Conjuro con objeto. Llevas las cenizas de Tsungrai durante 15...60 segundos y mientras ganarás +50...140 de salud máxima. Si las sueltas, recuperarás 100...280 de salud.",
+				"concise": "Conjuro con objeto. (15...60 segundos). Tienes +50...140 de salud máxima. Efecto al soltarse: ganas 100...280 de salud."
+			},
 			"fr": {
+				"name": "Tsungrai était généreux",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Tsungrai pendant un maximum de 15...60 secondes et vous bénéficiez de +50...140 points de vie. Lorsque vous les déposez, vous bénéficiez de 100...280 points de vie.",
+				"concise": "Sort d'altération d'objet. (15...60 secondes.) Vous avez +50...140 de santé maximum. Effet de la pose : vous gagnez 100...280 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Tsungrai était généreux",
 				"description": "Vous tenez les cendres de ''Tsungrai'' pendant un maximum de 15...60 secondes et vous bénéficiez de +50...140 points de vie. Lorsque vous les déposez, vous bénéficiez de 100...280 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tsungrai era Generoso",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Tsungrai per un massimo di 15...60 secondo[i] ed ottieni +50...140 di Salute massima; quando le lasci cadere ottieni 100...280 Punto[i] Salute.",
+				"concise": "Magia Altera-oggetto. (Secondi: 15...60) Tua Salute massima: +50...140. Rilascio: ottieni 100...280 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "ツンライ ジェネラス",
+				"description": "アイテム スペル： 最大 15...60 秒間、ツンライの遺灰を持ちます。その間、体力の上限が 50...140 増加します。この遺灰を落とすと、体力が 100...280 増加します。",
+				"concise": "アイテム スペル： (15...60 秒) 体力の上限が 50...140 増加します。ドロップ効果： 体力が 100...280 増加します。"
+			},
+			"kr": {
+				"name": "청라이의 아량",
+				"description": "드롭아이템. 대상 지정: 없음. 15...60초 동안 유지되는 청라이의 마력석을 만듭니다. 청라이의 마력석을 들고 있는 동안 최대 체력이 50...140 증가하고, 바닥에 떨어뜨리면 100...280의 체력을 회복합니다.",
+				"concise": "드롭아이템. (15...60초) 최대 체력이 50...140 증가합니다. 드롭 효과: 100...280의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Hojnym Był Tsungrai",
+				"description": "Czar z przedmiotu. Trzymaj prochy Tsungraia przez maksymalnie 15...60 sek., aby otrzymać +50...140 do maksymalnych pkt. żywotności. Gdy upuścisz jego prochy, otrzymasz 100...280 pkt. żywotności.",
+				"concise": "Czar z przedmiotu. (15...60 sek.) Twoja maksymalna żywotność zwiększa się o +50...140 pkt. Efekt upuszczenia: otrzymujesz 100...280 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Generous Was Tsungrai",
+				"description": "Артефактное заклинание. Вы держите прах Tsungrai до 15...60 сек, и ваш максимальный уровень здоровья увеличивается на 50...140 ед. Когда вы бросаете его прах, вы получаете 100...280 ед. здоровья.",
+				"concise": "Артефактное заклинание. (15...60 сек) Вы получаете +50...140 ед. к максимальному уровню здоровья. Эффект от бросания: вы получаете 100...280 ед. здоровья."
+			},
+			"bork": {
+				"name": "Generuoos Vaes Tsoongraeee",
+				"description": "Item Spell. Huld Tsoongraeee's aeshes fur up tu 15...60 secunds und gaeeen +50...140 maexeemoom Heaelt. Vhee yuoo drup hees aeshes, yuoo gaeeen 100...280 Heaelt.",
+				"concise": "Item Spell. (15...60 secunds.) Yuoo haefe-a +50...140 maexeemoom Heaelt. Drup iffffect: yuoo gaeeen 100...280 Heaelt."
 			}
 		}
 	}

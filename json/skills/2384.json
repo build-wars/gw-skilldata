@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Raven Blessing",
+				"description": "精英形态。 You take on the aspect of the raven. Your Energy returns to maximum and you have -60 Energy degeneration. You have +660...700 maximum Health and 20...30% block chance. All enchantments upon you are removed. Raven attacks replace your skills. You gain Energy whenever you take or deal damage. This skill ends when your Energy drops to 0.",
+				"concise": "精英形态。 Lose all your enchantments. You take on the aspect of the raven. Your Energy returns to maximum and you have -60 Energy degeneration. You have +660...700 maximum Health and 20...30% chance to block. Raven attacks replace your skills. You gain Energy whenever you take or deal damage. Ends when your Energy drops to 0."
+			},
+			"cht": {
+				"name": "渡鴉賜福",
+				"description": "精英型態： 精英型態(60秒)：化身為渡鴨的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至660...700且有20...30%機率格檔攻擊，你的所有屬性將歸零且技能被渡鴨技能所取代。",
+				"concise": "精英型態： 精英型態(60秒)：化身為渡鴨的型態。你失去目前所有狀態，同時防禦調整至80、體力調整至660...700且有20...30%機率格檔攻擊，你的所有屬性將歸零且技能被渡鴨技能所取代。"
+			},
 			"de": {
+				"name": "Segen des Raben",
+				"description": "Elite-Form. Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Raben an. 60 Sekunde[n] lang habt Ihr 80 Rüstung, 660...700 Lebenspunkt[e] und eine 20...30%ige Chance zu blocken. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Rabenangriffe ersetzt.",
+				"concise": "Elite-Form. Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Raben an (60 Sekunde[n]). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Rabenangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkt[e] und eine 20...30%ige Chance zu blocken."
+			},
+			"de-guildwiki": {
 				"name": "Segen des Raben",
 				"description": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Raben an. 60 Sekunden lang habt Ihr 80 Rüstung, 660...700 Lebenspunkte und eine 20...30%ige Chance zu blocken. Eure Attribute werden auf 0 gesetzt und Eure Fertigkeiten werden durch Rabenangriffe ersetzt.",
 				"concise": "Ihr verliert sämtliches Eigentum und nehmt das Erscheinungsbild des Raben an (60 Sekunden). Eure Attribute werden auf 0 gesetzt, Eure Fertigkeiten werden durch Rabenangriffe ersetzt und Ihr habt 80 Rüstung, 660...700 Lebenspunkte und eine 20...30%ige Chance zu blocken."
 			},
 			"en": {
 				"name": "Raven Blessing",
+				"description": "Elite Form. You lose all effects and take on the aspect of the raven. For 60 seconds, you have 80 armor, 660...700 Health, and a 20...30% chance to block. All your attributes are set to 0 and raven attacks replace your skills.",
+				"concise": "Elite Form. You lose all effects and take on the aspect of the raven (60 seconds). All your attributes are set to 0 and raven attacks replace your skills, and you have 80 armor, 660...700 Health, and a 20...30% block chance."
+			},
+			"en-gww": {
+				"name": "Raven Blessing",
 				"description": "You lose all effects and take on the aspect of the raven. For 60 seconds, you have 80 armor, 660...700 Health, and a 20...30% chance to block, All your attributes are set to 0 and raven attacks replace your skills.",
 				"concise": "You lose all effects and take on the aspect of the Raven (60 seconds). All your attributes are set to 0 and raven attacks replace your skills, and you have 80 armor, 660...700 Health, and a 20...30% block chance."
 			},
+			"es": {
+				"name": "Bendición del cuervo",
+				"description": "Transformación[\"Transformaciones\"] de élite. Pierdes todos tus efectos y adoptas el aspecto del cuervo. Durante 60 segundos, tienes 80 de armadura, 660...700 de salud y un 20...30% de probabilidades de bloquear. Todos tus atributos bajan a 0 y tus habilidades son reemplazadas por las del cuervo.",
+				"concise": "Transformación[\"Transformaciones\"] de élite. Pierdes todos tus efectos y adoptas el aspecto del cuervo (60 segundos). Todos tus atributos bajan a 0 y tus habilidades son reemplazadas por las del cuervo. Tienes 80 de armadura, 660...700 de salud y un 20...30% de probabilidades de bloquear."
+			},
 			"fr": {
+				"name": "Bénédiction du corbeau",
+				"description": "Transformation d'élite. Vous perdez tous les effets et prenez l'apparence d'un corbeau. Pendant 60 secondes, vous avez 80 points d'armure, 660...700 points de vie et avez 20...30% de chances de bloquer. Toutes vos caractéristiques se remettent à 0 et les attaques du corbeau remplacent vos compétences.",
+				"concise": "Transformation d'élite. Vous perdez tous les effets et prenez l'apparence d'un corbeau (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques du corbeau remplacent vos compétences, vous avez 80 points d'armure, 660...700 points de vie et avez 20...30% de chances de bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Bénédiction du corbeau",
 				"description": "Vous perdez tous les effets et prenez l'apparence d'un corbeau. Pendant 60 secondes, vous avez 80 points d'armure, 660...700 points de vie et 20...30% de chances de bloquer. Toutes vos caractéristiques se remettent à 0 et les attaques du corbeau remplacent vos compétences.",
 				"concise": "Vous perdez tous les effets et prenez l'apparence d'un corbeau (60 secondes). Toutes vos caractéristiques se remettent à 0, les attaques du corbeau remplacent vos compétences, vous avez 80 points d'armure, 660...700 points de vie et avez 20...30% de chances de bloquer."
+			},
+			"it": {
+				"name": "Benedizione del Corvo",
+				"description": "Forma d'Élite. Perdi tutti gli effetti e assumi le sembianze del corvo. Per 60 secondo[i], hai 80 di armatura, 660...700 Punto[i] Salute e un 20...30% di probabilità di bloccare. Il grado di tutti i tuoi attributi scende a 0 e gli attacchi del corvo si sostituiscono alle tue abilità.",
+				"concise": "Forma d'Élite. Perdi tutti gli effetti e assumi le sembianze del corvo (60 secondo[i]). Il grado di tutti i tuoi attributi scende a 0 e gli attacchi del corvo si sostituiscono alle tue abilità. Armatura: 80. Salute: 660...700. Probabilità di blocco: 20...30%."
+			},
+			"jp": {
+				"name": "レイヴン ブレス",
+				"description": "エリート フォーム： かけられている効果を解除してカラスの化身となります。60 秒間、防御力が80、体力の上限が 660...700 になり、20...30% の確率で攻撃をブロックします。特性レベルがすべて0になり、装備しているスキルがすべてレイヴン アタックになります。",
+				"concise": "エリート フォーム： かけられている効果を解除してカラスの化身となります (60 秒) 。特性レベルがすべて0に、装備しているスキルがレイヴン アタックになります。また、防御力が80、体力の上限が 660...700、20...30% の確率で攻撃をブロックします。"
+			},
+			"kr": {
+				"name": "까마귀의 축복",
+				"description": "엘리트 형상. 몸에 걸린 모든 효과가 사라지고 까마귀의 형상을 취합니다. 60초 동안 체력이 660...700, 방어력이 80이 되고, 20...30%의 확률로 공격을 막습니다. 특성 레벨이 모두 0이 되고, 스킬이 까마귀의 공격 스킬로 바뀝니다.",
+				"concise": "엘리트 형상. 몸에 걸린 모든 효과가 사라지고 까마귀의 형상을 취합니다.(60초) 특성 레벨이 모두 0이 되고, 스킬이 우르자의 공격 스킬로 바뀝니다. 체력이 660...700, 방어력이 80이 되고, 20...30%의 확률로 공격을 막습니다."
+			},
+			"pl": {
+				"name": "Błogosławieństwo Kruka",
+				"description": "Elitarna forma. Tracisz wszystkie efekty i znajdujesz się pod wpływem aspektu kruka. Przez 60 sek. posiadasz 80 pkt. pancerza, 660...700 pkt. żywotności i 20...30% szans na blokowanie. Wszystkie twoje atrybuty mają wartość 0, a umiejętności zamieniane są na ataki kruka.",
+				"concise": "Elitarna forma. Tracisz wszystkie efekty i znajdujesz się pod wpływem aspektu kruka (60 sek.). Wszystkie twoje atrybuty mają wartość 0, a umiejętności zamieniane są na ataki kruka. Posiadasz 80 pkt. pancerza, 660...700 pkt. żywotności i 20...30% szans na blokowanie."
+			},
+			"ru": {
+				"name": "Raven Blessing",
+				"description": "Элитный образ. С вас снимаются все эффекты, и вы принимаете вид ворона. В течение 60 сек ваша защита равна 80 ед., ваше здоровье равно 660...700 ед., и вы получаете 20...30%-й шанс блокировать атаки. Уровень всех ваших талантов становится равен 0, а ваши умения заменяются атаками ворона.",
+				"concise": "Элитный образ. С вас снимаются все эффекты, и вы принимаете вид ворона (60 сек). Уровень ваших талантов становится равен 0, ваши умения заменяются атаками ворона, ваша защита равна 80 ед., ваше здоровье равно 660...700 ед., и у вас есть 20...30%-й шанс блокировать атаки."
+			},
+			"bork": {
+				"name": "Raefee Blesseeng",
+				"description": "Ileete-a Furm. Yuoo luse-a aell iffffects und taeke-a oon zee aespect ooff zee raefee. Fur 60 secunds, yuoo haefe-a 80 aermur, 660...700 Heaelt, und a 20...30% chunce-a tu bluck. Aell yuoor aettreebootes aere-a set tu 0 und raefee aettaecks replaece-a yuoor skeells.",
+				"concise": "Ileete-a Furm. Yuoo luse-a aell iffffects und taeke-a oon zee aespect ooff zee raefee (60 secunds). Aell yuoor aettreebootes aere-a set tu 0 und raefee aettaecks replaece-a yuoor skeells, und yuoo haefe-a 80 aermur, 660...700 Heaelt, und a 20...30% bluck chunce-a."
 			}
 		}
 	}

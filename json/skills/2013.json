@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Grenth's Aura",
+				"description": "Flash Enchantment Spell。 All adjacent foes are struck for 5...25 cold damage. For 20 seconds, this enchantment does nothing. When this enchantment ends, all nearby foes lose 5...25 enchantments.",
+				"concise": "Flash Enchantment Spell。 (20 seconds.) Initial effect: 5...25 cold damage to adjacent foes. End effect: removes 5...25 enchantments from foes near you."
+			},
+			"cht": {
+				"name": "古蘭斯的靈氣",
+				"description": "即刻加持魔法： 持續 20 秒，當你使用鐮刀攻擊時，攻擊傷害減少 5...25 但偷取敵人 5...25 體力。施展此加持時，偷取鄰近敵人 5...25 體力。",
+				"concise": "即刻加持魔法： 持續 20 秒，當你使用鐮刀攻擊時，攻擊傷害減少 5...25 但偷取敵人 5...25 體力。施展此加持時，偷取鄰近敵人 5...25 體力。"
+			},
 			"de": {
+				"name": "Grenths Aura",
+				"description": "Blitzverzauberung. 20 Sekunde[n] lang fügt Ihr 5...25 Punkt[e] weniger Schaden zu und stehlt 5...25 Lebenspunkt[e], wenn Ihr mit einer Sense trefft. Wenn Ihr Verzauberung wirkt, stehlt Ihr 5...25 Lebenspunkt[e] von allen umstehenden Feinden.",
+				"concise": "Blitzverzauberung. (20 Sekunde[n].) Ihr fügt 5...25 Punkt[e] weniger Schaden zu und stehlt 5...25 Lebenspunkt[e], wenn Ihr mit einer Sense trefft. Anfangswirkung: Stiehlt 5...25 Lebenspunkt[e] von allen umstehenden Feinden."
+			},
+			"de-guildwiki": {
 				"name": "Grenths Aura",
 				"description": "20 Sekunden lang fügt Ihr 5...25 Punkte weniger Schaden zu und stehlt 5...25 Lebenspunkte, wenn Ihr mit einer Sense trefft. Wenn Ihr diese Verzauberung wirkt, stehlt Ihr 5...25 Lebenspunkte von allen umstehenden Feinden.",
 				"concise": "(20 Sekunden.) Ihr fügt 5...25 Punkte weniger Schaden zu und stehlt 5...25 Lebenspunkte, wenn Ihr mit einer Sense trefft. Anfangswirkung: Stiehlt 25 Lebenspunkte von allen umstehenden Feinden."
 			},
 			"en": {
 				"name": "Grenth's Aura",
+				"description": "Flash Enchantment Spell. For 20 seconds, you deal 5...25 less damage and steal 5...25 Health whenever you hit with a scythe attack. When you cast this enchantment you steal 5...25 Health from all adjacent foes.",
+				"concise": "Flash Enchantment Spell. (20 seconds.) You deal 5...25 less damage and steal 5...25 Health when you hit with a scythe. Initial effect: steal 5...25 Health from all adjacent foes."
+			},
+			"en-gww": {
+				"name": "Grenth's Aura",
 				"description": "For 20 seconds, you deal 5...25 less damage and steal 5...25 Health whenever you hit with a scythe attack. When you cast this enchantment you steal 5...25 Health from all adjacent foes.",
 				"concise": "(20 seconds.) You deal 5...25 less damage and steal 5...25 Health when you hit with a scythe. Initial effect: steal 5...25 Health from all adjacent foes."
 			},
+			"es": {
+				"name": "Aura de Grenth",
+				"description": "Conjuro con encantamiento de destello. Durante 20 segundos, haces 5...25 menos de daño y robas 5...25 de salud cada vez que atacas con guadaña. Cuando lanzas este encantamiento, robas 5...25 de salud a todos los enemigos adyacentes.",
+				"concise": "Conjuro con encantamiento de destello. (20 segundos). Haces 5...25 menos de daño y robas 5...25 de salud cuando atacas con guadaña. Efecto inicial: robas 5...25 de salud a todos los enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Aura de Grenth",
+				"description": "Enchantement instantané. Pendant 20 secondes, vous infligez 5...25 points de dégâts en moins et absorbez 5...25 points de vie chaque fois que vous attaquez avec votre faux. Lorsque vous lancez cet enchantement, vous absorbez 5...25 points de vie des ennemis adjacents.",
+				"concise": "Enchantement instantané. (20 secondes.) Vous infligez 5...25 points de dégâts en moins et absorbez 5...25 points de vie lorsque vous attaquez avec votre faux. Effet initial : absorbe 5...25 points de vie des ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Aura de Grenth",
 				"description": "Tous les ennemis adjacents subissent 15...75 point de dégâts du froid. Pendant 10 secondes, cet enchantement n'a aucun effet. Lorsqu'il prend fin, tous les ennemis à proximité perdent 1 enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura di Grenth",
+				"description": "Incantesimo Lampo. Per 20 secondi, infliggi 5...25 danni in meno e sottrai 5...25 Punti Salute quando attacchi con la Falce. Quando lanci questo incantesimo sottrai 5...25 Punti Salute a tutti i nemici adiacenti.",
+				"concise": "Incantesimo Lampo. (Secondi: 20). Infliggi 5...25 danni in meno e sottrai 5...25 Punti Salute quando attacchi con la Falce. Effetto iniziale: sottrai 5...25 Punti Salute a tutti i nemici adiacenti."
+			},
+			"jp": {
+				"name": "グレンス オーラ",
+				"description": "フラッシュ強化スペル： 20 秒間、プレイヤーの攻撃は与えるダメージが 5...25 減少しますが、サイズによる攻撃が成功するたびに 5...25 の体力を奪い取ります。この強化スペルと詠唱するとき、隣接するすべての敵から 5...25 の体力を奪い取ります。",
+				"concise": "フラッシュ強化スペル： (20 秒) プレイヤーの攻撃は与えるダメージが 5...25 減少しますが、サイズによる攻撃が成功すると 5...25 の体力を奪い取ります。発動効果： 隣接するすべての敵から 5...25 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "그렌트의 오라",
+				"description": "순간 시전 강화 마법. 20초 동안 공격 대미지가 5...25만큼 감소하지만, 사이드 공격이 성공하면 5...25의 체력을 뺏습니다. 이 강화 마법을 시전할 때 인접한 적들에게서 5...25의 체력을 뺏습니다.",
+				"concise": "순간 시전 강화 마법. (20초) 사이드 공격 대미지가 5...25만큼 감소하지만, 공격에 성공하면 5...25의 체력을 뺏습니다. 초기 효과: 인접한 적들에게서 5...25의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Aura Grentha",
+				"description": "Zaklęcie błysku (czar). Przez 20 sek., zadajesz 5...25 pkt. obrażeń mniej i wykradasz 5...25 żywotności przy każdym trafieniu kosą. Kiedy rzucasz to zaklęcie, wykradasz 5...25 żywotności wszystkim wrogom w bezpośrednim sąsiedztwie.",
+				"concise": "Zaklęcie błysku (czar). (20 sek.) Zadajesz 5...25 pkt. obrażeń mniej i wykradasz 5...25 żywotności przy każdym trafieniu kosą. Efekt początkowy: Wykradasz 5...25 żywotności wszystkim wrogom w bezpośrednim sąsiedztwie."
+			},
+			"ru": {
+				"name": "Grenth's Aura",
+				"description": "Мгновенное заклинание-чары. В течение 20 сек вы наносите на 5...25 ед. урона меньше и похищаете 5...25 ед. здоровья при каждой успешной атаке косой. Когда вы активируете эти чары, вы похищаете 5...25 ед. здоровья у всех окружающих противников.",
+				"concise": "Мгновенное заклинание-чары. (20 сек) Вы наносите на 5...25 ед. урона меньше и похищаете 5...25 ед. здоровья при каждой успешной атаке косой. Начальный эффект: вы похищаете 5...25 ед. здоровья у всех окружающих противников."
+			},
+			"bork": {
+				"name": "Grent's Oora",
+				"description": "Flaesh Inchuntment Spell. Fur 20 secunds, yuoo deael 5...25 less daemaege-a und steael 5...25 Heaelt vhenefer yuoo heet veet a scyzee aettaeck. Vhee yuoo caest thees inchuntment yuoo steael 5...25 Heaelt frum aell aedjaecent fues.",
+				"concise": "Flaesh Inchuntment Spell. (20 secunds.) Yuoo deael 5...25 less daemaege-a und steael 5...25 Heaelt vhee yuoo heet veet a scyzee. Ineeteeael iffffect: steael 5...25 Heaelt frum aell aedjaecent fues."
 			}
 		}
 	}

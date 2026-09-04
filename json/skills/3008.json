@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "毁灭",
+				"description": "缚灵仪式。 创造一只等级为1...10的毁灭缚灵，并且在30秒后自然消失。当缚灵消失时，将对其范围内的所有敌人造成缚灵存活时间1...10倍的伤害。",
+				"concise": "缚灵仪式。 创造一只等级为1...10的毁灭缚灵，并且在30秒后自然消失。当缚灵消失时，将对其附近的所有敌人造成缚灵存活时间的 1...10 倍伤害。"
+			},
+			"cht": {
+				"name": "毀滅 (PvP)",
+				"description": "縛靈儀式： 創造一個等級 1...10 的毀滅縛靈，可以存活 30 秒。毀滅縛靈死亡時，對其範圍內敵人造成存活秒數的 1...10 倍傷害。(最多 150 )",
+				"concise": "縛靈儀式： 創造一個等級 1...10 的毀滅縛靈，可以存活 30 秒。毀滅縛靈死亡時，對其範圍內敵人造成存活秒數的 1...10 倍傷害。(最多 150 )"
+			},
 			"de": {
+				"name": "Vernichtung (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...10, der nach 30 Sekunden stirbt. Wenn dieser Geist stirbt, erleiden alle in dem Bereich befindlichen Gegner für jede Sekunde, die der Geist am Leben war, 1...10 Punkt[e] Schaden (maximal 150 Punkte).",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...10 (30 Sekunden Lebensdauer). Wenn dieser Geist stirbt, verursacht er bei allen in dem Bereich befindlichen Gegner für jede Sekunde, die er am Leben war, 1...10 Punkt[e] Schaden (maximal 150 Punkte)."
+			},
+			"de-guildwiki": {
 				"name": "Vernichtung (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...10, der nach 30 Sekunden stirbt. Wenn dieser Geist stirbt, erleiden alle in dem Bereich befindlichen Gegner für jede Sekunde, die der Geist am Leben war, 1...10 Punkte Schaden (maximal 150).",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30 Sekunden Lebensdauer). Wenn dieser Geist stirbt, verursacht er bei in dem Bereich befindlichen Gegner<sic/> für jede Sekunde, die er am Leben war, 1...10 Punkte Schaden (maximal 150)."
 			},
 			"en": {
 				"name": "Destruction (PvP)",
+				"description": "Binding Ritual. Create a level 1...10 Spirit that dies after 30 seconds. When this Spirit dies, all foes in the area take 1...10 damage for each second the Spirit was alive (maximum of 150 damage).",
+				"concise": "Binding Ritual. Creates a level 1...10 spirit (30 second lifespan). On death, it deals 1...10 damage for each second it was alive to all foes in the area (maximum 150 damage)."
+			},
+			"en-gww": {
+				"name": "Destruction (PvP)",
 				"description": "Create a level 1...10 Spirit <sic/> that dies after 30 seconds. When this Spirit dies, all foes in the area take 1...10 damage for each second the Spirit was alive (maximum of 150 damage).",
 				"concise": "Creates a level 1...10 spirit (30 second lifespan). On death, it deals 1...10 damage for each second it was alive to all foes in the area (maximum 150 damage)."
 			},
+			"es": {
+				"name": "Destrucción (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...10 que muere al cabo de 30 segundos. Cuando éste muera, todos los enemigos de la zona reciben 1...10 de daño por cada segundo que haya vivido (máximo 150 de daño).",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...10 (30 segundos de vida). Al morir, hace 1...10 de daño por cada segundo que haya vivido a todos los enemigos de la zona (máximo 150 de daño)."
+			},
 			"fr": {
+				"name": "Destruction (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...10 qui meurt après 30 secondes. Lorsque cet esprit meurt, tous les ennemis dans la zone subissent 1...10 points de dégâts pour chaque seconde de vie de l'esprit (maximum de 150 points de dégâts).",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...10 (durée de vie de 30 secondes). A sa mort, il inflige 1...10 points de dégâts pour chaque seconde de vie à tous les ennemis dans la zone (maximum de 150 points de dégâts)."
+			},
+			"fr-gwiki": {
 				"name": "Destruction (PvP)",
 				"description": "Crée un esprit de niveau 1...10 qui meurt au bout de 30 secondes. Lorsque cet esprit meurt, tous les ennemis dans la zone subissent 1...10 point(s) de dégâts pour chaque seconde de vie de l'esprit (Maximum : 150).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Distruzione (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...10 con 30 secondi di vita. Alla morte dello spirito, tutti i nemici nell'area subiscono 1...10 di danno per ogni secondo in cui è rimasto in vita (max 150 di danno).",
+				"concise": "Rituale Incatenante. Crea 1...10 spirito[i] di livello (in vita per 30 secondi). Alla morte, ogni spirito infligge a tutti i nemici nell'area 1...10 danno[i] per ogni secondo in cui è rimasto in vita (max 150 di danno)."
+			},
+			"jp": {
+				"name": "ディストラクション (PvP)",
+				"description": "バインド リチュアル： 30秒後に消滅するレベル 1...10 の精霊を召喚します。この精霊が消滅するとき、エリア内にいるすべての敵に精霊が存在していた秒数に 1...10 をかけた量のダメージを与えます (最大150のダメージ)。",
+				"concise": "バインド リチュアル： レベル 1...10 の精霊を召喚します (30秒)。この精霊が消滅すると、エリア内にいるすべての敵に精霊の存在していた秒数に 1...10 をかけた量のダメージを与えます (最大150のダメージ)。"
+			},
+			"kr": {
+				"name": "파멸의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼이 사라질 때 일정 범위 내에 있는 모든 적은 영혼이 지속된 시간의 1...10배 만큼, 최대 150의 대미지를 입습니다. 영혼은 30초 후 사라집니다.",
+				"concise": "영혼 결속. 1...10레벨 영혼을 소환합니다.(수명: 30초) 영혼이 사라질 때 일정 범위 내에 있는 모든 적에게 영혼이 지속된 1초당 1...10씩, 최대 150의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Zniszczenie (PvP)",
+				"description": "Rytuał spętania. Tworzysz ducha na poziomie 1...10, który ginie po 30 sek. Gdy ten duch ginie, wszyscy przeciwnicy w okolicy otrzymują 1...10 pkt. obrażeń za każdą sekundę życia ducha (maksymalnie 150 pkt. obrażeń).",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...10 (czas życia 30 sek.). W momencie śmierci zadaje wszystkim przeciwnikom w okolicy po 1...10 pkt. obrażeń na każdą sekundę swojego życia (maksymalnie 150 pkt. obrażeń)."
+			},
+			"ru": {
+				"name": "Destruction (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...10 уровня, который умирает через 30 сек. Когда этот дух умирает, все находящиеся в зоне досягаемости противники получают 1...10 ед. урона за каждую секунду существования духа (но не более 150 ед. урона).",
+				"concise": "Связующий ритуал. Создает духа 1...10 уровня (30 сек жизни). В момент смерти наносит всем противникам в зоне досягаемости 1...10 ед. урона за каждую секунду существования духа (но не более 150 ед. урона)."
+			},
+			"bork": {
+				"name": "Destroocshun (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...10 Spureet thaet deees aeffter 30 secunds. Vhee thees Spureet deees, aell fues in zee aerea taeke-a 1...10 daemaege-a fur iaech secund zee Spureet vaes aeleefe-a (maexeemoom ooff 150 daemaege-a). Bork! Bork! Bork!",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...10 spureet (30 secund leeffespun). Oon deaet, it deaels 1...10 daemaege-a fur iaech secund it vaes aeleefe-a tu aell fues in zee aerea (maexeemoom 150 daemaege-a)."
 			}
 		}
 	}

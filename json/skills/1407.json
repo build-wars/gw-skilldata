@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 1,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "雄狮的安抚",
+				"description": "技能。 使你所有的「纹章类」技能在12秒内无法使用。你因此获得50...110点生命值，并根据你当前「战术掌握」属性的等级，每一级为你回复0...3点生命值。",
+				"concise": "技能。 使你所有的「纹章类」技能在12秒内无法使用。你因此获得50...110点生命值，并根据你当前「战术掌握」属性的等级，每一级为你回复0...3点生命值。"
+			},
+			"cht": {
+				"name": "獸性安慰",
+				"description": "技能： 治療自己50...110，同時獲得0...3次攻擊的怒氣值，所有紋章12秒內無法使用。",
+				"concise": "技能： 治療自己50...110，同時獲得0...3次攻擊的怒氣值，所有紋章12秒內無法使用。"
+			},
 			"de": {
+				"name": "Trost des Löwen",
+				"description": "Fertigkeit. Alle Eure Siegel werden 12 Sekunden lang deaktiviert. Ihr werdet um 50...110 Lebenspunkt[e] geheilt und erhaltet 0...3 Adrenalinstöße.",
+				"concise": "Fertigkeit. Ihr werdet um 50...110 Lebenspunkt[e] geheilt und erhaltet 0...3 Adrenalinstöße. Deaktiviert Eure Siegel (12 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Trost des Löwen",
 				"description": "Alle Eure Siegel werden 12 Sekunden lang deaktiviert. Ihr werdet um 50...110 Lebenspunkte geheilt und erhaltet 0...3 Adrenalinstöße.",
 				"concise": "Ihr werdet um 50...110 Lebenspunkte geheilt und erhaltet 0...3 Adrenalinstöße <gray>Deaktiviert Eure Siegel (12 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Lion's Comfort",
+				"description": "Skill. All of your signets are disabled for 12 seconds. You are healed for 50...110 Health, and you gain 0...3 strikes of adrenaline.",
+				"concise": "Skill. You are healed for 50...110 and gain 0...3 strikes of adrenaline. Disables your signets (12 seconds)."
+			},
+			"en-gww": {
+				"name": "Lion's Comfort",
 				"description": "All of your signets are disabled for 12 seconds. You are healed for 50...110 Health, and gain 0...3 strike[s] of adrenaline.",
 				"concise": "You are healed for 50...110 and gain 0...3 strike[s] of adrenaline. <gray>Disables your signets (12 seconds).</gray>"
 			},
+			"es": {
+				"name": "Comodidad del león",
+				"description": "Habilidad. Todos tus sellos quedan desactivados durante 12 segundos. Te curas 50...110 de salud y ganas 0...3 de adrenalina.",
+				"concise": "Habilidad. Te curas 50...110 de salud y ganas 0...3 de adrenalina. Desactiva tus sellos (12 segundos)."
+			},
 			"fr": {
+				"name": "Confort du lion",
+				"description": "Compétence. Tous vos sceaux sont désactivés pendant 12 secondes. Vous êtes soigné[f:\"soignée\"] de 50...110 points de vie et bénéficiez de 0...3 décharges d'adrénaline.",
+				"concise": "Compétence. Vous êtes soigné[f:\"soignée\"] de 50...110 points de vie et recevez 0...3 décharges d'adrénaline. Désactive vos sceaux (12 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Confort du lion",
 				"description": "Tous vos sceaux sont désactivés pendant 12 secondes. Vous êtes soigné de 50...110 points de vie et bénéficiez de 0...3 décharges d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Conforto del Leone",
+				"description": "Abilità. Tutti i tuoi Sigilli vengono disattivati per 12 secondi. Vieni curato di 50...110 Punto[i] Salute ed ottieni 0...3 dose[i] di adrenalina.",
+				"concise": "Abilità. Cure per te: 50...110. Adrenalina: 0...3. Disattiva i tuoi Sigilli (12 secondi)."
+			},
+			"jp": {
+				"name": "ライオン コンフォート",
+				"description": "スキル： 装備しているシグネットが12秒間、使用できなくなります。体力が 50...110 回復し、アドレナリンを 0...3 発獲得します。",
+				"concise": "スキル： 体力が 50...110 回復し、アドレナリンを 0...3 発獲得します。シグネットが使用できなくなります (12秒) 。"
+			},
+			"kr": {
+				"name": "사자의 안정",
+				"description": "스킬. 대상 지정: 없음. 50...110의 체력을 회복하고, 0...3번 공격에 성공한 만큼의 아드레날린을 얻습니다. 모든 인장 스킬을 12초 동안 사용할 수 없게 됩니다.",
+				"concise": "스킬. 50...110의 체력을 회복하고, 0...3번 공격한 만큼의 아드레날린을 얻습니다. 인장 스킬을 사용할 수 없습니다.(12초)"
+			},
+			"pl": {
+				"name": "Lwie Uzdrowienie",
+				"description": "Umiejętność. Wszystkie twoje sygnety będą niedostępne przez 12 sek. Otrzymujesz 50...110 pkt. żywotności i dawki adrenaliny w liczbie 0...3.",
+				"concise": "Umiejętność. Otrzymujesz 50...110 pkt. żywotności i dawki adrenaliny w liczbie 0...3. Wyłącza twoje sygnety (12 sek.)."
+			},
+			"ru": {
+				"name": "Lion's Comfort",
+				"description": "Умение. Все ваши печати будут недоступны в течение 12 сек. Вы исцеляетесь на 50...110 ед. здоровья, а также вы получаете 0...3 ед. адреналина.",
+				"concise": "Умение. Вы исцеляетесь на 50...110 ед. здоровья и получаете 0...3 ед. адреналина. Ваши печати будут недоступны (12 сек)."
+			},
+			"bork": {
+				"name": "Leeun's Cumffurt",
+				"description": "Skeell. Aell ooff yuoor seegnets aere-a deesaebled fur 12 secunds. Yuoo aere-a heaeled fur 50...110 Heaelt, und yuoo gaeeen 0...3 streeke-as ooff aedrenaeleene-a.",
+				"concise": "Skeell. Yuoo aere-a heaeled fur 50...110 und gaeeen 0...3 streeke-as ooff aedrenaeleene-a. Deesaebles yuoor seegnets (12 secunds)."
 			}
 		}
 	}

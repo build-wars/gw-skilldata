@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "自然再生",
+				"description": "自然仪式。 创造一只等级为1...10的再生精灵。在此区域内，所有「增益魔法」和「负面魔法」技能施放时间增加为两倍，维持「增益魔法」类技能时，所花费的能量也增加为两倍。再生精灵在30...240秒后消失。",
+				"concise": "自然仪式。 创造一只 1...10级 的再生精灵。在此区域内，所有「增益魔法」和「负面魔法」技能施放时间增加为两倍，维持「增益魔法」类技能时，所花费的能量也增加为两倍。再生精灵在30...240秒 后消失。"
+			},
+			"cht": {
+				"name": "自然再生",
+				"description": "自然儀式： 創造一隻等級 1...10 的再生精靈。持續 30...240 秒，由非「靈」的生物施展的「加持」和「降咒」類型技能，施展時間增加為兩倍，而且維持「加持」類型的技能時所花費的能量也增加為兩倍。再生精靈在 30...240 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的再生精靈。持續 30...240 秒，由非「靈」的生物施展的「加持」和「降咒」類型技能，施展時間增加為兩倍，而且使用「加持」類型的技能時所花費的能量也增加為兩倍。再生精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Erneuerung der Natur",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. 30...240 Sekunde[n] lang dauert das Wirken von Verzauberungen und Verhexungen durch Kreaturen, die keine Geister sind, doppelt so lange und das Aufrechterhalten von Verzauberungen benötigt doppelt so viel Energie. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Die Wirkzeit von Verzauberungen und Verhexungen wird bei Kreaturen in Reichweite verdoppelt und es kostet doppelt so viele Energiepunkte, Verzauberungen aufrechtzuerhalten. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Erneuerung der Natur",
 				"description": "Erstellt einen Geist der Stufe 1...10. 30...240 Sekunden lang dauert das Wirken von Verzauberungen und Verhexungen von Kreaturen, die keine Geister sind, doppelt so lange und das Aufrechterhalten von Verzauberungen benötigt doppelt soviel Energie. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Die Wirkzeit von Verzauberungen und Verhexungen wird bei Kreaturen in Reichweite verdoppelt und es kostet doppelt so viele Energiepunkte, Verzauberungen aufrechtzuerhalten. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Nature's Renewal",
+				"description": "Nature Ritual. Create a level 1...10 spirit. For 30...240 seconds, enchantments and hexes cast by non-spirit creatures take twice as long to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after 30...240 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). For creatures in range, enchantments and Hexes take twice as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Nature's Renewal",
 				"description": "Create a level 1...10 spirit. For 30...240 seconds, enchantments and hexes cast by non-spirit creatures in range take twice as long to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). For creatures in range, enchantments and Hexes <sic/> take twice as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits."
 			},
+			"es": {
+				"name": "Renovación de la naturaleza",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Durante 30...240 segundos, los encantamientos y maleficios lanzados por criaturas no espíritus tardan el doble en invocarse y además costará el doble de energía mantener encantamientos. Morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10 (30...240 segundos de vida.) Para las criaturas de la zona, los encantamientos y maleficios tardan el doble en lanzarse y cuesta el doble de energía mantener encantamientos. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Renouveau de la nature",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Pendant 30...240 secondes, la durée d'incantation de tous les enchantements et maléfices lancés par des créatures (autres que des esprits) est doublée. Le maintien des enchantements consomme deux fois plus d'énergie. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Pour les créatures à portée, les enchantements et les maléfices sont deux fois plus longs à lancer et le maintien des enchantements coûte deux fois plus d'énergie. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Renouveau de la nature",
 				"description": "Crée un esprit de niveau 1...10. Pendant 30...240 secondes, la durée d'incantation de tous les enchantements et maléfices lancés par des créatures (autres que des esprits) est doublée. Le maintien des enchantements consomme deux fois plus d'énergie. Cet esprit disparaît au bout de 30...240 secondes",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rinnovamento della Natura",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Per 30...240 secondo[i], gli incantesimi e le fatture delle creature (Spiriti esclusi) impiegano il doppio del tempo per essere lanciate e il dispendio di Energia per mantenere gli incantesimi viene raddoppiato. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Per le creature nella portata, i tempi di lancio di incantesimi e fatture si raddoppiano e il mantenimento degli incantesimi costa il doppio di Energia. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ネイチャー リニューアル",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。30...240 秒間、精霊以外の生物が使用する強化および弱体化スペルは詠唱に2倍の時間がかかり、強化スペルを持続するためのエネルギーも2倍必要になります。この精霊は 30...240 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内では、強化および弱体化スペルの詠唱に2倍の時間がかかり、強化スペルを持続するためのエネルギーも2倍消費します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "회귀의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 30...240초 동안 영혼이 아닌 생물체가 강화 마법과 약화 마법을 외우는 시간이 2배로 늘어나고, 강화 마법을 유지하는 데 드는 에너지가 2배로 늘어납니다. 영혼은 30...240초 후 사라집니다. 지역 전체에 효과가 미칩니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 강화 마법과 약화 마법 시전 시간이 2배로 늘어나고, 강화 마법을 유지하는 데 드는 에너지가 2배로 늘어납니다."
+			},
+			"pl": {
+				"name": "Odnowienie Natury",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Przez 30...240 sek. zaklęcia i klątwy używane przez stworzenia nie-duchy, potrzebują dwa razy więcej czasu na rzucenie, a energetyczny koszt utrzymania zaklęć zwiększa się dwukrotnie. Duch umiera po 30...240 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Stworzenia w zasięgu dwa razy dłużej rzucają zaklęcia i klątwy, a energetyczny koszt utrzymania ich zaklęć jest dwa razy większy. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Nature's Renewal",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. В течение 30...240 сек чары и проклятья, накладываемые созданиями, которые не являются духами, требуют в два раза больше времени на активацию, а поддержание наложенных чар требует в два раза больше энергии. Этот дух умирает через 30...240 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). У созданий в зоне его действия чары и проклятья требуют в два раза больше времени на активацию, а поддерживание наложенных чар требует от них в два раза больше энергии. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Naetoore-a's Renooael",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Fur 30...240 secunds, inchuntments und hexes caest by nun-spureet creaetoores taeke-a tveece-a aes lung tu caest, und it custs tveece-a aes mooch Inergy tu maeeentaeeen inchuntments. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Fur creaetoores in runge-a, inchuntments und Hexes taeke-a tveece-a aes lung tu caest und it custs tveece-a aes mooch Inergy tu maeeentaeeen inchuntments. Dues nut aeffffect spureets."
 			}
 		}
 	}

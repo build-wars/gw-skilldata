@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "凋零之焰",
+				"description": "精英咒文。 使目标敌人以及在他附近的所有敌人被火焰吞噬，已经带有「灼烧」症状的敌人将受到10...100点火焰伤害，否则将遭受「灼烧」症状1...7秒。",
+				"concise": "精英咒文。 使目标敌人以及在他附近的所有敌人被火焰吞噬，遭受「灼烧」症状1...7秒，已经带有「灼烧」症状的敌人将受到额外10...100点火焰伤害。"
+			},
+			"cht": {
+				"name": "爆裂火焰",
+				"description": "精英咒文魔法： 使目標及其附近的所有敵人受到爆裂火焰的影響。在這些敵人中，已經遭受「著火」病症的敵人受到 10...100 火焰傷害，而其餘敵人則遭受「著火」病症 1...7 秒。",
+				"concise": "精英咒文魔法： 使目標及其附近的所有敵人受到爆裂火焰的影響。在這些敵人中，已經遭受「著火」病症的敵人受到 10...100 火焰傷害，而其餘敵人則遭受「著火」病症 1...7 秒。"
+			},
 			"de": {
+				"name": "Versengende Flammen",
+				"description": "Elite-Zauber. Der Gegner und alle Feinde in der Nähe werden von Versengenden Flammen getroffen. Feinde, die bereits brennen, wenn diese Fertigkeit gewirkt wird, erleiden 10...100 Punkt[e] Feuerschaden. Feinde, die noch nicht in Brand gesetzt sind, brennen 1...7 Sekunde[n] lang.",
+				"concise": "Elite-Zauber. Trifft Feinde in der Nähe des Ziels. Richtet bei bereits brennenden Feinden 10...100 Punkt[e] Feuerschaden an. Verursacht bei nicht brennenden Feinden Zustand Brennen (1...7 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Versengende Flammen",
 				"description": "Der Gegner und alle Feinde in der Nähe werden von Versengenden Flammen getroffen. Feinde, die bereits brennen, wenn diese Fertigkeit gewirkt wird, erleiden 10...100 Punkte Feuerschaden. Feinde, die noch nicht in Brand gesetzt sind, brennen 1...7 Sekunden lang.",
 				"concise": "Trifft Feinde in der Nähe des Ziels. Richtet bei bereits brennenden Feinden 10...100 Punkte Feuerschaden an. Verursacht bei nicht brennenden Feinden Zustand Brennen (1...7 Sekunden)."
 			},
 			"en": {
 				"name": "Searing Flames",
+				"description": "Elite Spell. Target foe and all nearby foes are struck with Searing Flames. Foes already on fire when this skill is cast are struck for 10...100 fire damage. Foes not already on fire begin Burning for 1...7 seconds.",
+				"concise": "Elite Spell. Hits foes near your target. Deals 10...100 fire damage to foes already Burning. Inflicts Burning condition (1...7 seconds) to foes not Burning."
+			},
+			"en-gww": {
+				"name": "Searing Flames",
 				"description": "Target foe and all nearby foes are struck with Searing Flames. Foes already on fire when this skill is cast are struck for 10...100 fire damage. Foes not already on fire begin Burning for 1...7 seconds.",
 				"concise": "Hits foes near your target. Deals 10...100 fire damage to foes already Burning. Inflicts Burning condition (1...7 seconds) to foes not Burning."
 			},
+			"es": {
+				"name": "Llamas abrasadoras",
+				"description": "Conjuro de élite. Atacas al enemigo objetivo y a los cercanos con unas Llamas abrasadoras. Harás 10...100 de daño de fuego cuando alcances a enemigos que ya estaban ardiendo. Los que no lo estaban arderán durante 1...7 segundos.",
+				"concise": "Conjuro de élite. Alcanza a los enemigos cerca de tu objetivo. Hace 10...100 de daño de fuego a los enemigos que ya estaban ardiendo. Causa quemadura (1...7 segundos) a los enemigos que no estaban ardiendo."
+			},
 			"fr": {
+				"name": "Flammes virulentes",
+				"description": "Sort d'élite. L'ennemi ciblé et ceux à proximité sont frappés par des Flammes virulentes. Les ennemis déjà embrasés lors du lancement de cette compétence subissent 10...100 points de dégâts du feu. Les autres ennemis s'embrasent pendant 1...7 secondes.",
+				"concise": "Sort d'élite. Frappe tous les ennemis proches de la cible. Inflige 10...100 points de dégâts du feu aux ennemis déjà embrasés. Embrase (1...7 secondes) les ennemis non embrasés."
+			},
+			"fr-gwiki": {
 				"name": "Flammes virulentes",
 				"description": "L'ennemi ciblé et ceux à proximité sont frappés par des Flammes virulentes. Les ennemis déjà embrasés lors du lancement de cette compétence subissent 10...100 points de dégâts du feu. Les autres ennemis s'embrasent pendant 1...7 seconde(s).",
 				"concise": "Frappe les ennemis près de votre cible. Inflige 10...100 points de dégâts du feu aux ennemis souffrant déjà de Brûlure. Inflige la Brûlure (1...7 seconde(s)) aux ennemis qui n'en souffrent pas."
+			},
+			"it": {
+				"name": "Fiamme Scottanti",
+				"description": "Magia d'Élite. L'obiettivo nemico e tutti i nemici nei dintorni vengono colpiti dalle Fiamme Scottanti. I nemici già affetti da Bruciatura quando questa abilità viene lanciata subiscono 10...100 danni da fuoco. I nemici che ancora non sono infuocati iniziano a bruciare per 1...7 secondi.",
+				"concise": "Magia d'Élite. Colpisce i nemici vicini all'obiettivo. Danni da fuoco inferti ai nemici affetti da Bruciatura: 10...100. Infligge Bruciatura (1...7 secondi) ai nemici non infuocati."
+			},
+			"jp": {
+				"name": "シアー フレイム",
+				"description": "エリート スペル： ターゲットした敵および周囲にいるすべての敵を爆炎で攻撃します。すでに「火傷」状態の敵には 10...100 のファイア ダメージを与え、そうでない敵は 1...7 秒間「火傷」状態にします。",
+				"concise": "エリート スペル： ターゲットした敵の周囲にいる敵の中で「火傷」状態の敵に 10...100 のファイア ダメージを与え、そうでない敵は「火傷」状態にします (1...7 秒)。"
+			},
+			"kr": {
+				"name": "폭발 화염",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 그 부근의 모든 적은 폭발 화염에 휩싸입니다. 화상 상태인 적은 10...100의 불 대미지를 입고, 화상 상태가 아닌 적은 1...7초 동안 화상 상태가 됩니다.",
+				"concise": "엘리트 마법. 대상과 그 부근의 적들 중 화상을 입은 적에게는 10...100의 불 대미지를 주고, 화상을 입지 않은 적에게는 화상을 입힙니다.(1...7초)"
+			},
+			"pl": {
+				"name": "Wypalające Płomienie",
+				"description": "Elitarny czar. Wybrany przeciwnik i wszyscy przeciwnicy w pobliżu padają ofiarą Wypalających Płomieni. Przeciwnicy płonący w momencie, kiedy zostanie użyta ta umiejętność otrzymują po 10...100 pkt. obrażeń od ognia. Pozostali zaczynają płonąć na 1...7 sek.",
+				"concise": "Elitarny czar. Trafia przeciwników w pobliżu twojego celu. Przeciwnikom, którzy płoną zadaje po 10...100 pkt. obrażeń od ognia. U przeciwników, którzy nie płoną, wywołuje przypadłość płonięcie (1...7 sek.)."
+			},
+			"ru": {
+				"name": "Searing Flames",
+				"description": "Элитное заклинание. Выбранный противник и все противники поблизости обжигаются пламенем. Противники, которые горели в момент произнесения этого заклинания, получают 10...100 ед. урона силой огня. Остальные противники загорятся на 1...7 сек.",
+				"concise": "Элитное заклинание. Поражает противников поблизости от вашей цели. Наносит 10...100 ед. урона силой огня уже горящим противникам. Поджигает (1...7 сек), если противник не горел."
+			},
+			"bork": {
+				"name": "Seaereeng Flaemes",
+				"description": "Ileete-a Spell. Taerget fue-a und aell neaerby fues aere-a stroock veet Seaereeng Flaemes. Fues aelreaedy oon fure-a vhee thees skeell is caest aere-a stroock fur 10...100 fure-a daemaege-a. Fues nut aelreaedy oon fure-a begeen Boorneeng fur 1...7 secunds.",
+				"concise": "Ileete-a Spell. Heets fues neaer yuoor taerget. Deaels 10...100 fure-a daemaege-a tu fues aelreaedy Boorneeng. Inffleects Boorneeng cundeeshun (1...7 secunds) tu fues nut Boorneeng."
 			}
 		}
 	}

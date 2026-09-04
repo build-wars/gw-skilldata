@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "治疗者的恩赐",
+				"description": "精英增益魔法。 当你维持此「增益魔法」时，你的下9999个「治疗祷言」类法术施法速度提升50%，治疗效果提升50%。",
+				"concise": "精英增益魔法。 在10...55秒之内，使你的「治疗祷言」类法术施法速度提升50%。如果你施放其他「增益魔法」，则此魔法效果消失。"
+			},
+			"cht": {
+				"name": "治癒者恩賜",
+				"description": "精英加持魔法： 持續 10...55秒，「治癒祈禱」屬性魔法，施法速度加快 50% ，而且治癒效果提高 50% 。",
+				"concise": "精英加持魔法： 當你維持這項「加持」時，你接下來使用的 9999 次「治癒祈禱」屬性魔法，施法速度加快 50% ，而且治癒效果提高 50% 。"
+			},
 			"de": {
+				"name": "Segen des Heilers",
+				"description": "Elite-Verzauberung. 10...55 Sekunde[n] lang werden Heilgebet-Zauber um 50% schneller gewirkt und heilen um 50% mehr Lebenspunkte.",
+				"concise": "Elite-Verzauberung. 10...55 Sekunde[n]: Ihr könnt Eure Heilgebet-Zauber um 50% schneller wirken. Erhöht ihre Heilwirkung um 50%."
+			},
+			"de-guildwiki": {
 				"name": "Segen des Heilers",
 				"description": "10...55 Sekunden lang werden Heilgebet-Zauber um 50% schneller gewirkt und heilen um 50% mehr Lebenspunkte.",
 				"concise": "10...55 Sekunden: Ihr könnt Eure Heilgebet-Zauber um 50% schneller wirken. Erhöht ihre Heilwirkung um 50%."
 			},
 			"en": {
 				"name": "Healer's Boon",
+				"description": "Elite Enchantment Spell. For 10...55 seconds. Healing Prayers spells cast 50% faster and heal for 50% more Health.",
+				"concise": "Elite Enchantment Spell. (10...55 seconds.) Healing Prayers spells cast 50% faster and heal for 50% more."
+			},
+			"en-gww": {
+				"name": "Healer's Boon",
 				"description": "For 10...55 seconds. <sic/> Healing Prayers spells cast 50% faster and heal for 50% more Health.",
 				"concise": "(10...55 seconds.) Healing Prayers spells cast 50% faster and heal for 50% more."
 			},
+			"es": {
+				"name": "Bendición del sanador",
+				"description": "Conjuro con encantamiento de élite. Durante 10...55 segundos, los conjuros de plegarias curativas se lanzarán un 50% más deprisa y curarán un 50% más.",
+				"concise": "Conjuro con encantamiento de élite. (10...55 segundos). Los conjuros de plegarias curativas se lanzan un 50% más deprisa y curan un 50% más."
+			},
 			"fr": {
+				"name": "Compagnon du guérisseur",
+				"description": "Enchantement d'élite. Pendant 10...55 secondes. La vitesse d'incantation des sorts de Prières de guérison sera 50% plus rapide et vos soins sont 50% plus efficaces.",
+				"concise": "Enchantement d'élite. (10...55 secondes.) Les sorts de Prières de guérison sont lancés 50% plus vite et soignent 50% de santé en plus."
+			},
+			"fr-gwiki": {
 				"name": "Compagnon du guérisseur",
 				"description": "Pendant 10...55 secondes, la vitesse d'incantation des sorts de Prières de guérison sera 50% plus rapide et vos soins sont 50% plus efficaces.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Soccorso del Guaritore",
+				"description": "Incantesimo d'Élite. Per 10...55 secondo[i], le magie appartenenti alle Preghiere Curative hanno una velocità di lancio superiore del 50% e donano un 50% in più di Salute.",
+				"concise": "Incantesimo d'Élite. (Secondi: 10...55) Incremento velocità di lancio delle magie attribuite a Preghiere Curative: 50%. Incremento cure da esse donate: 50%."
+			},
+			"jp": {
+				"name": "ヒーラー ブーン",
+				"description": "エリート強化スペル： 10...55 秒間、「ヒーリング」系スペルの詠唱速度が 50% 増加し、回復する体力も 50% 増加します。",
+				"concise": "エリート強化スペル： (10...55 秒) 「ヒーリング」系スペルの詠唱速度が 50%、回復する体力が 50% 増加します。"
+			},
+			"kr": {
+				"name": "은총받은 치유사",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 10...55초 동안 치유 특성 마법을 사용하면 시전 속도가 50% 빨라지고, 치유량이 50% 늘어납니다.",
+				"concise": "엘리트 강화 마법. (10...55초) 치유 특성 마법의 시전 속도가 50% 빨라지고, 치유량이 50% 늘어납니다."
+			},
+			"pl": {
+				"name": "Dar Uzdrowiciela",
+				"description": "Elitarne zaklęcie (czar). Przez 10...55 sek. czary oparte na Modlitwach Uzdrawiających rzucasz o 50% szybciej i dodają one o 50% pkt. żywotności więcej.",
+				"concise": "Elitarne zaklęcie (czar). (10...55 sek.) Czary z Modlitw Uzdrawiających rzucasz o 50% szybciej i dodają one o 50% więcej żywotności."
+			},
+			"ru": {
+				"name": "Healer's Boon",
+				"description": "Элитное заклинание-чары. В течение 10...55 сек заклинания, связанные с талантом Healing Prayers, произносятся на 50% быстрее и восстанавливают на 50% больше здоровья.",
+				"concise": "Элитное заклинание-чары. (10...55 сек) Заклинания, связанные с талантом Healing Prayers, активируются на 50% быстрее и дают при исцелении на 50% больше здоровья."
+			},
+			"bork": {
+				"name": "Heaeler's Buun",
+				"description": "Ileete-a Inchuntment Spell. Fur 10...55 secunds. Heaeleeng Praeyers spells caest 50% faester und heael fur 50% mure-a Heaelt.",
+				"concise": "Ileete-a Inchuntment Spell. (10...55 secunds.) Heaeleeng Praeyers spells caest 50% faester und heael fur 50% mure-a."
 			}
 		}
 	}

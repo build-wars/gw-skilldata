@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "侵略者之血",
+				"description": "咒文。 牺牲3...12%的生命值。如果目标敌人正在攻击，那么你将偷取他最多5...45点生命值。否则，他将受到5...45点伤害。",
+				"concise": "咒文。 牺牲3...12%的生命值。如果目标敌人正在攻击，那么你将偷取他最多5...45点生命值。否则，他将受到5...45点伤害。"
+			},
+			"cht": {
+				"name": "侵略者之血",
+				"description": "咒文魔法： 偷取目標敵人 5...45 體力，若是該敵人正在攻擊，則遭受虛弱 3...12 秒。",
+				"concise": "咒文魔法： 偷取目標敵人 5...45 體力，若是該敵人正在攻擊，則遭受虛弱 3...12 秒。"
+			},
 			"de": {
+				"name": "Blut des Aggressoren",
+				"description": "Zauber. Entzieht dem Gegner bis zu 5...45 Lebenspunkt[e]. Wenn der Gegner angegriffen hat, leidet er 3...12 Sekunde[n] lang unter Schwäche.",
+				"concise": "Zauber. Entzieht 5...45 Lebenspunkt[e]. Verursacht Schwäche (3...12 Sekunde[n]), wenn der Gegner angegriffen hat."
+			},
+			"de-guildwiki": {
 				"name": "Blut des Aggressoren",
 				"description": "Entzieht dem Gegner bis zu 5...45 Lebenspunkte. Wenn der Gegner angegriffen hat, leidet er 3...12 Sekunden lang unter Schwäche.",
 				"concise": "Entzieht 5...45 Lebenspunkte. Verursacht Schwäche (3...12 Sekunden), wenn der Gegner angegriffen hat."
 			},
 			"en": {
 				"name": "Blood of the Aggressor",
+				"description": "Spell. Steal up to 5...45 Health from target foe. If that foe was attacking, that foe suffers Weakness for 3...12 seconds.",
+				"concise": "Spell. Steals 5...45 Health. Inflicts Weakness (3...12 seconds) if target foe was attacking."
+			},
+			"en-gww": {
+				"name": "Blood of the Aggressor",
 				"description": "Steal up to 5...45 Health from target foe. If that foe was attacking, that foe suffers Weakness for 3...12 seconds.",
 				"concise": "Steal 5...45 Health. Inflicts Weakness (3...12 seconds) if target foe was attacking."
 			},
+			"es": {
+				"name": "Sangre del agresor",
+				"description": "Conjuro. Robas hasta 5...45 de salud del enemigo objetivo. Si éste estaba atacando, queda debilitado durante 3...12 segundos.",
+				"concise": "Conjuro. Roba 5...45 de salud. Causa debilitamiento (3...12 segundos) si el enemigo objetivo estaba atacando."
+			},
 			"fr": {
+				"name": "Sang de l'agresseur",
+				"description": "Sort. Vous volez jusqu'à 5...45 points de vie à l'ennemi visé. Si cet ennemi était en train d'attaquer, il souffre de Faiblesse pendant 3...12 secondes.",
+				"concise": "Sort. Vole 5...45 points de vie. Inflige Faiblesse (3...12 secondes) si la cible ennemie était en train d'attaquer."
+			},
+			"fr-gwiki": {
 				"name": "Sang de l'agresseur",
 				"description": "Vole 5...45 points de santé. Si la cible ennemi était en train d'attaquer, elle souffre de Faiblesse pendant 3...12",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sangue dell'Aggressore",
+				"description": "Magia. Sottrai fino a 5...45 Punto[i] Salute all'obiettivo nemico. Se l'obiettivo nemico stava attaccando, subisce Debolezza per 3...12 secondo[i].",
+				"concise": "Magia. Sottrazione Salute: 5...45. Infligge Debolezza (3...12 secondo[i] se l'obiettivo nemico stava attaccando."
+			},
+			"jp": {
+				"name": "アグレッサー ブラッド",
+				"description": "スペル： ターゲットした敵から最大 5...45 の体力を奪い取ります。その敵が攻撃中の場合、3...12 秒間「衰弱」状態にします。",
+				"concise": "スペル： 5...45 の体力を奪い取ります。ターゲットした敵が攻撃中の場合、「衰弱」状態にします (3...12 秒) 。"
+			},
+			"kr": {
+				"name": "침략자의 피",
+				"description": "마법. 대상 지정: 적. 대상의 체력을 5...45만큼 뺏습니다. 공격 중이던 대상은 3...12초 동안 약체 상태가 됩니다.",
+				"concise": "마법. 5...45의 체력을 뺏고, 공격 중인 대상은 약체로 만듭니다.(3...12초)"
+			},
+			"pl": {
+				"name": "Krew Napastnika",
+				"description": "Czar. Wykradasz do 5...45 pkt. żywotności wybranemu przeciwnikowi. Jeśli przeciwnik ten wykonywał atak, zostaje osłabiony na 3...12 sek.",
+				"concise": "Czar. Wykrada 5...45 pkt. żywotności. Powoduje osłabienie (3...12 sek.), jeśli cel atakował."
+			},
+			"ru": {
+				"name": "Blood of the Aggressor",
+				"description": "Заклинание. Похищает до 5...45 ед. здоровья у выбранного противника. Если этот противник атаковал, он будет поражен слабостью на 3...12 сек.",
+				"concise": "Заклинание. Похищает 5...45 ед. здоровья. Вызывает слабость (3...12 сек), если выбранный противник атаковал."
+			},
+			"bork": {
+				"name": "Bluud ooff zee Aeggressur",
+				"description": "Spell. Steael up tu 5...45 Heaelt frum taerget fue-a. Iff thaet fue-a vaes aettaeckeeng, thaet fue-a sooffffers Veaekness fur 3...12 secunds.",
+				"concise": "Spell. Steaels 5...45 Heaelt. Inffleects Veaekness (3...12 secunds) iff taerget fue-a vaes aettaeckeeng."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Rejuvenation",
+				"description": "缚灵仪式。 Create a level 1...20 spirit. This spirit heals all party members within earshot for 3...10 Health each second. This spirit loses 3...10 Health for each party member healed in this way. This spirit dies after 30...90 seconds.",
+				"concise": "缚灵仪式。 Creates a level 1...20 spirit (30...90 second lifespan). Heals party members in earshot for 3...10 each second. Healing cost: this spirit loses 3...10 Health."
+			},
+			"cht": {
+				"name": "回春　",
+				"description": "縛靈儀式： 創造一隻等級 1...20 的回春縛靈。此縛靈每秒治癒音量所及範圍的盟友 3...10 體力。此縛靈也將依照因此被治癒的每一盟友而失去 3...10 體力。回春縛靈在 30...90 秒後消失。",
+				"concise": "縛靈儀式： 創造一隻等級 1...20 的回春縛靈。此縛靈每秒治癒音量所及範圍的盟友 3...10 體力。此縛靈也將依照因此被治癒的每一盟友而失去 3...10 體力。回春縛靈在 30...90 秒後消失。"
+			},
 			"de": {
+				"name": "Verjüngung",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...20. Dieser Geist heilt alle Gruppenmitglieder in Hörweite pro Sekunde um 3...10 Lebenspunkt[e]. Der Geist verliert pro Gruppenmitglied, das auf diese Weise geheilt wird, 3...10 Lebenspunkt[e]. Dieser Geist stirbt nach 30...90 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...20 (30...90 Sekunde[n] Lebensdauer). Heilt Gruppenmitglieder in Hörweite jede Sekunde um 3...10 Lebenspunkt[e]. Heilkosten: Der Geist verliert 3...10 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verjüngung",
 				"description": "Erstellt einen Geist der Stufe 1...20. Dieser Geist heilt alle Gruppenmitglieder in Hörweite pro Sekunde um 3...10 Lebenspunkte. Der Geist verliert pro Verbündeten, der auf diese Weise geheilt wird, 3...10 Lebenspunkte. Dieser Geist stirbt nach 30...90 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...20 (30...90 Sekunden Lebensdauer). Heilt Gruppenmitglieder in Hörweite jede Sekunde um 3...10 Lebenspunkte. <gray>Heilkosten: Der Geist verliert 3...10 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Rejuvenation",
+				"description": "Binding Ritual. Create a level 1...20 spirit. This spirit heals all party members within earshot for 3...10 Health each second. This spirit loses 3...10 Health for each party member healed in this way. This spirit dies after 30...90 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...20 spirit (30...90 second lifespan). Heals party members in earshot for 3...10 each second. Healing cost: this spirit loses 3...10 Health."
+			},
+			"en-gww": {
+				"name": "Rejuvenation",
 				"description": "Create a level 1...20 spirit. This spirit heals all party members within earshot for 3...10 Health each second. This spirit loses 3...10 Health for each party member healed in this way. This spirit dies after 30...90 seconds.",
 				"concise": "Creates a level 1...20 spirit (30...90 second lifespan). Heals party members in earshot for 3...10 each second. <gray>Healing cost: this spirit loses 3...10 Health.</gray>"
 			},
+			"es": {
+				"name": "Rejuvenecimiento",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...20 que cura 3...10 de salud por segundo a todos los miembros del equipo al alcance del oído. El espíritu perderá 3...10 de salud por cada uno que cure. Morirá a los 30...90 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...20 (30...90 segundos de vida). Cura 3...10 de salud a los miembros del grupo al alcance del oído. Coste por curación: el espíritu pierde 3...10 de salud."
+			},
 			"fr": {
+				"name": "Rajeunissement",
+				"description": "Rituel d'asservissement. Vous créez un esprit de niveau 1...20. Celui-ci soigne tous les membres du groupe à portée de voix de 3...10 points de vie par seconde. Cet esprit perd 3...10 points de vie pour chaque membre du groupe soigné de cette manière. Il meurt au bout de 30...90 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...20 (durée de vie de 30...90 secondes). Soigne les membres du groupe à portée de voix de 3...10 points de vie par seconde. Coût des soins : cet esprit perd 3...10 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Rajeunissement",
 				"description": "Vous créez un esprit de niveau 1...20. Celui-ci soigne tous les membres du groupe à portée de voix de 3...10 points de vie par seconde. Cet esprit perd 3...10 points de vie pour chaque membre du groupe soigné de cette manière. Il meurt au bout de 30...90 secondes.",
 				"concise": "Crée un esprit de niveau 1...20 (durée de vie de 30...90 secondes). Soigne les membres du groupe à portée de voix de 3...10 points de vie par seconde. <gray>Coût des soins : cet esprit perd 3...10 points de vie.</gray>"
+			},
+			"it": {
+				"name": "Ringiovanimento",
+				"description": "Rituale Incatenante. Crei uno Spirito di livello 1...20 che cura di 3...10 Punto[i] Salute al secondo tutti i membri della squadra a portata d'orecchio; lo Spirito perde 3...10 Punto[i] Salute per ogni membro della squadra così curato. Questo Spirito si esaurisce dopo 30...90 secondo[i].",
+				"concise": "Rituale Incatenante. Crei uno Spirito di livello 1...20 (in vita per 30...90 secondo[i]). Cure al secondo per i membri della squadra a portata d'orecchio: 3...10. Costo cure: questo Spirito perde 3...10 Punto[i] Salute."
+			},
+			"jp": {
+				"name": "リジュヴネーション",
+				"description": "バインド リチュアル： レベル 1...20 の精霊を召喚します。この精霊から声の届く範囲内にいるパーティー メンバーは全員、体力が毎秒 3...10 回復します。この効果によりメンバーの体力が回復するたびに、この精霊は 3...10 の体力を失います。この精霊は 30...90 秒後に消えます。",
+				"concise": "バインド リチュアル： レベル 1...20 の精霊を召喚します (30...90 秒) 。この精霊の声の届く範囲内にいるパーティー メンバーは、体力が毎秒 3...10 回復します。回復コスト： この精霊は 3...10 の体力を失います。"
+			},
+			"kr": {
+				"name": "회복의 영혼",
+				"description": "영혼 결속. 1...20레벨 영혼을 소환합니다. 가청 범위 내에 있는 모든 파티원은 매초 3...10의 체력을 회복하고, 영혼은 이렇게 체력을 회복한 파티원 1명당 3...10의 체력을 잃습니다. 영혼은 30...90초 후 사라집니다.",
+				"concise": "영혼 결속. 1...20레벨 영혼을 소환합니다.(수명: 30...90초) 가청 범위 내에 있는 파티원들의 체력을 매초 3...10씩 회복시킵니다. 영혼은 체력을 회복한 아군 1명당 3...10의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Odmłodzenie",
+				"description": "Rytuał spętania. Tworzysz 1...20 poziomowego ducha. Duch uzdrawia każdego członka drużyny w zasięgu słuchu, w każdej sekundzie dodając mu 3...10 pkt. żywotności. Duch traci 3...10 pkt. żywotności, na każdego członka drużyny uzdrowionego w ten sposób. Duch ginie po 30...90 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...20 (czas życia 30...90 sek.). Członkowie drużyny w zasięgu słuchu otrzymują co sekundę po 3...10 pkt. żywotności. Koszt uleczenia: ten duch traci 3...10 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Rejuvenation",
+				"description": "Связующий ритуал. Создает духа 1...20 уровня. Этот дух исцеляет всех членов вашего отряда, находящихся в зоне слышимости, на 3...10 ед. здоровья каждую секунду. Этот дух теряет 3...10 ед. здоровья за каждого члена отряда, исцеленного таким образом. Этот дух умирает через 30...90 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...20 уровня (30...90 сек жизни). Исцеляет членов отряда в зоне слышимости на 3...10 ед. здоровья каждую секунду. Цена исцеления: этот дух теряет 3...10 ед. здоровья."
+			},
+			"bork": {
+				"name": "Rejoofenaeshun",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...20 spureet. Thees spureet heaels aell paerty members veetheen iaershut fur 3...10 Heaelt iaech secund. Thees spureet luses 3...10 Heaelt fur iaech paerty member heaeled in thees vaey. Thees spureet deees aeffter 30...90 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...20 spureet (30...90 secund leeffespun). Heaels paerty members in iaershut fur 3...10 iaech secund. Heaeleeng cust: thees spureet luses 3...10 Heaelt."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂棘刺",
+				"description": "负面魔法。 30秒内，当目标敌人获得一项新的「增益魔法」或「负面魔法」时，他将承受15...30点伤害。",
+				"concise": "负面魔法。 对带有「增益魔法」或「负面魔法」效果的目标敌人造成 15...30点 伤害，效果持续 30秒。"
+			},
+			"cht": {
+				"name": "靈魂荊棘",
+				"description": "降咒魔法： 持續 30 秒，當目標敵人被施展「加持」或「降咒」時，受到 15...30 的傷害。",
+				"concise": "降咒魔法： 持續 30 秒，當目標敵人被施展「加持」或「降咒」時，受到 15...30 的傷害。"
+			},
 			"de": {
+				"name": "Seelenwiderhaken",
+				"description": "Verhexung. 30 Sekunden lang erleidet der Gegner immer dann 15...30 Punkt[e] Schaden, wenn er von einer Verzauberung oder einer Verhexung getroffen wird.",
+				"concise": "Verhexung. 30 Sekunden: Richtet 15...30 Punkt[e] Schaden an, wenn eine Verzauberung oder Verhexung auf den Gegner gewirkt wird."
+			},
+			"de-guildwiki": {
 				"name": "Seelenwiderhaken",
 				"description": "30 Sekunden lang erleidet der Gegner jedes Mal 15...30 Punkte Schaden, wenn er verzaubert oder verhext wird.",
 				"concise": "30 Sekunden: Richtet jedes Mal 15...30 Punkte Schaden an, wenn der Gegner verzaubert oder verhext wird."
 			},
 			"en": {
 				"name": "Soul Barbs",
+				"description": "Hex Spell. For 30 seconds, target foe takes 15...30 damage when an enchantment or hex is cast on that target.",
+				"concise": "Hex Spell. (30 seconds.) Deals 15...30 damage when an enchantment or hex is cast on target foe."
+			},
+			"en-gww": {
+				"name": "Soul Barbs",
 				"description": "For 30 seconds, target foe takes 15...30 damage when an enchantment or hex is cast on that target.",
 				"concise": "(30 seconds.) Deals 15...30 damage when an enchantment or hex is cast on target foe."
 			},
+			"es": {
+				"name": "Púas del alma",
+				"description": "Conjuro con maleficio. Durante 30 segundos, el enemigo objetivo recibe 15...30 de daño cuando se lance un encantamiento o maleficio sobre él.",
+				"concise": "Conjuro con maleficio. (30 segundos). Hace 15...30 de daño cuando se lance un encantamiento o maleficio sobre el enemigo objetivo."
+			},
 			"fr": {
+				"name": "Ame barbelée",
+				"description": "Maléfice. Pendant 30 secondes, l'ennemi visé subit 15...30 points de dégâts si on lui lance un enchantement ou un maléfice.",
+				"concise": "Maléfice. (30 secondes.) Inflige 15...30 points de dégâts quand un enchantement ou un maléfice est lancé sur l'ennemi visé."
+			},
+			"fr-gwiki": {
 				"name": "Ame barbelée",
 				"description": "Pendant 30 secondes, l'ennemi visé subit 15...30 points de dégâts si on lui lance un enchantement ou un maléfice.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Schegge dell'Anima",
+				"description": "Fattura. Dura 30 secondi; l'obiettivo nemico subisce 15...30 danno[i] se viene colto da un incantesimo o da una fattura.",
+				"concise": "Fattura. (Secondi: 30) Assesta 15...30 danno[i] quando l'obiettivo nemico viene colto da un incantesimo o da una fattura."
+			},
+			"jp": {
+				"name": "ソウル バーブ",
+				"description": "弱体化スペル： 30秒間、ターゲットした敵に対して強化または弱体化スペルが詠唱されると、その敵は 15...30 のダメージを受けます。",
+				"concise": "弱体化スペル： (30秒) ターゲットした敵に対して強化または弱体化スペルが詠唱されると、15...30 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "영혼의 갈고리",
+				"description": "약화 마법. 대상 지정: 적. 30초 동안 대상이 강화 마법이나 약화 마법에 걸릴 때마다 15...30의 대미지를 입습니다.",
+				"concise": "약화 마법. (30초) 대상이 강화 마법이나 약화 마법에 걸릴 때 15...30의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Ciernie Duszy",
+				"description": "Klątwa (czar). Przez 30 sek. wybrany przeciwnik otrzymuje 15...30 pkt. obrażeń za każdym razem, gdy jest na niego rzucane zaklęcie lub klątwa.",
+				"concise": "Klątwa (czar). (30 sek.) Zadaje 15...30 pkt. obrażeń, kiedy wybrany przeciwnik otrzymuje klątwę lub zaklęcie."
+			},
+			"ru": {
+				"name": "Soul Barbs",
+				"description": "Заклинание-проклятье. В течение 30 сек выбранный противник получает 15...30 ед. урона, когда на него накладываются какие-либо чары или проклятье.",
+				"concise": "Заклинание-проклятье. (30 сек) Наносит 15...30 ед. урона, когда на выбранного противника накладывают чары или проклятье."
+			},
+			"bork": {
+				"name": "Suool Baerbs",
+				"description": "Hex Spell. Fur 30 secunds, taerget fue-a taekes 15...30 daemaege-a vhee un inchuntment oor hex is caest oon thaet taerget. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (30 secunds.) Deaels 15...30 daemaege-a vhee un inchuntment oor hex is caest oon taerget fue-a."
 			}
 		}
 	}

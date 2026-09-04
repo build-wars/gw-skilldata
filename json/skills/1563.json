@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "鼓动",
+				"description": "圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用纹章技能时，将会回复1...8点能量值。",
+				"concise": "圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用纹章技能时，将会回复1...8点能量值。"
+			},
+			"cht": {
+				"name": "熱情吟唱",
+				"description": "聖歌： 持續 10 秒，每當音量所及範圍內盟友使用「紋章」類型技能時，獲得 1...8 能量。",
+				"concise": "聖歌： 持續 10 秒，每當音量所及範圍內盟友使用「紋章」類型技能時，獲得 1...8 能量。"
+			},
 			"de": {
+				"name": "Lyrik des Eifers",
+				"description": "Anfeuerungsruf. 10 Sekunde[n] lang erhält jeder Verbündete in Hörweite bei der nächsten Verwendung eines Siegels 1...8 Energiepunkt[e].",
+				"concise": "Anfeuerungsruf. 10 Sekunde[n]: Verbündete in Hörweite erhalten bei Benutzung ihres nächsten Siegels 1...8 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Lyrik des Eifers",
 				"description": "10 Sekunden lang erhält jeder Verbündete in Hörweite bei der nächsten Verwendung eines Siegels 1...8 Energiepunkte.",
 				"concise": "10 Sekunden: Verbündete in Hörweite erhalten bei Benutzung Ihres nächsten Siegels 1...8 Energiepunkte."
 			},
 			"en": {
 				"name": "Lyric of Zeal",
+				"description": "Chant. For 10 seconds, the next time each ally within earshot uses a signet, that ally gains 1...8 Energy.",
+				"concise": "Chant. (10 seconds.) Allies in earshot gain 1...8 Energy with their next signet."
+			},
+			"en-gww": {
+				"name": "Lyric of Zeal",
 				"description": "For 10 seconds, the next time each ally within earshot uses a signet, that ally gains 1...8 Energy.",
 				"concise": "(10 seconds.) Allies in earshot gain 1...8 Energy with their next signet."
 			},
+			"es": {
+				"name": "Lírica de celo",
+				"description": "Cántico. Durante 10 segundos, la próxima vez que algún aliado al alcance del oído use un sello, recuperará 1...8 de energía.",
+				"concise": "Cántico. (10 segundos). Los aliados al alcance del oído ganan 1...8 de energía con su siguiente sello."
+			},
 			"fr": {
+				"name": "Poème de zèle",
+				"description": "Chant. Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un sceau, il bénéficie de 1...8 points d'énergie.",
+				"concise": "Chant. (10 secondes.) Les alliés à portée de voix gagnent 1...8 points d'énergie avec leur sceau suivant."
+			},
+			"fr-gwiki": {
 				"name": "Poème de zèle",
 				"description": "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un Sceau, il bénéficie de 1...8 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lirica dello Zelo",
+				"description": "Canto. Per 10 secondo[i], la prossima volta che ogni alleato a portata d'orecchio utilizza un Sigillo, ottiene 1...8 Punto[i] Energia.",
+				"concise": "Canto. (Secondi: 10) Energia ottenuta dagli alleati a portata d'orecchio con il Sigillo successivo: 1...8."
+			},
+			"jp": {
+				"name": "ジール リリック",
+				"description": "チャント： 10 秒間、声の届く範囲内にいる各味方は、次にシグネットを使用するときに 1...8 のエネルギーを獲得します。",
+				"concise": "チャント： (10 秒) 声の届く範囲内にいる味方は、次にシグネットを使用すると 1...8 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "열정의 서정시",
+				"description": "영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 아군이 인장 스킬을 사용하면 1...8의 에너지를 얻습니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (10초) 가청 범위 내에 있는 아군은 처음 인장 스킬을 사용하면 1...8의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Liryk Gorliwości",
+				"description": "Zaśpiew. Przez 10 sek. każdy sojusznik w zasięgu słuchu z następnym użyciem sygnetu, otrzyma 1...8 pkt. energii.",
+				"concise": "Zaśpiew. (10 sek.) Sojusznicy w zasięgu słuchu, ze swoim następnym sygnetem otrzymują 1...8 pkt. energii."
+			},
+			"ru": {
+				"name": "Lyric of Zeal",
+				"description": "Хорал. В течение 10 сек в следующий раз, когда каждый союзник, находящийся в зоне слышимости, использует печать, этот союзник получает 1...8 ед. энергии.",
+				"concise": "Хорал. (10 сек) Союзники в зоне слышимости получают 1...8 ед. энергии при следующем использовании ими печати."
+			},
+			"bork": {
+				"name": "Lyreec ooff Zeael",
+				"description": "Chunt. Fur 10 secunds, zee next teeme-a iaech aelly veetheen iaershut uses a seegnet, thaet aelly gaeeens 1...8 Inergy.",
+				"concise": "Chunt. (10 secunds.) Aelleees in iaershut gaeeen 1...8 Inergy veet zeeur next seegnet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 4,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "回魂",
+				"description": "咒文。 触摸目标盟友的尸体，使其复生，并且为其回复50%的生命值和5...20%点能量值，同时治疗「音波」范围内所有友方55...130点生命值。",
+				"concise": "触摸法术。 触摸目标盟友的尸体，使其复生，并且为其回复50%的生命值和5...20%点能量值，同时治疗「音波」范围内所有友方55...130点生命值。"
+			},
+			"cht": {
+				"name": "更新生命",
+				"description": "咒文魔法： 碰觸目標隊友使其復活，並為其恢復 50% 體力及 5...20% 能量。同時該隊員及音量所及範圍內的所有盟友獲得 55...130 體力。",
+				"concise": "碰觸魔法： 碰觸目標隊友使其復活，並為其恢復 50% 體力及 5...20% 能量。同時該隊員及音量所及範圍內的所有盟友獲得 55...130 體力。"
+			},
 			"de": {
+				"name": "Leben verlängern",
+				"description": "Zauber. Belebt das berührte tote Gruppenmitglied mit 50% seiner Lebenspunkte und 5...20% seiner Energie wieder. Das Gruppenmitglied und alle Verbündeten in Hörweite werden um 55...130 Lebenspunkt[e] geheilt.",
+				"concise": "Berührungs-Zauber. Das Gruppenmitglied wird wiederbelebt (50% Lebenspunkte, 5...20% Energiepunkte). Heilt Verbündete in Hörweite um 55...130 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Leben verlängern",
 				"description": "Belebt das berührte tote Gruppenmitglied mit 50% seiner Lebenspunkte und 5...20% seiner Energie wieder. Das Gruppenmitglied und alle Verbündeten in Hörweite werden um 55...130 Lebenspunkte geheilt.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (50% Lebenspunkte, 5...20% Energiepunkte). Heilt Verbündete in Hörweite um 55...130 Lebenspunkte."
 			},
 			"en": {
 				"name": "Renew Life",
+				"description": "Spell. Resurrect target touched dead target party member with 50% Health and 5...20% Energy. That party member and all allies within earshot are healed for 55...130 Health.",
+				"concise": "Touch Spell. Resurrects target party member (50% Health and 5...20% Energy). Heals allies within earshot for 55...130."
+			},
+			"en-gww": {
+				"name": "Renew Life",
 				"description": "Resurrect target touched dead target <sic/> party member with 50% Health and 5...20% Energy. That party member and all allies within earshot are healed for 55...130 Health.",
 				"concise": "Touch Spell. Resurrects target party member (50% Health and 5...20% Energy). Heals allies within earshot for 55...130."
 			},
+			"es": {
+				"name": "Vuelta a la vida",
+				"description": "Conjuro. Resucitas al compañero del grupo que toques con el 50% de salud y 5...20% de energía. Ese compañero y todos los aliados al alcance del oído se curan 55...130 de salud.",
+				"concise": "Conjuro de toque. Resucita al miembro del equipo (50% de salud y 5...20% de energía). Cura 55...130.de salud a los aliados al alcance del oído."
+			},
 			"fr": {
+				"name": "Renouvellement de vie",
+				"description": "Sort. Ressuscite le membre du groupe mort touché avec 50% de sa santé et 5...20% de son énergie. Ce membre du groupe et tous les alliés à portée de voix sont soignés de 55...130 points de vie.",
+				"concise": "Sort de toucher. Ressuscite le membre du groupe visé (50% de santé et 5...20% d'énergie). Soigne les alliés à portée de voix de 55...130 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Renouvellement de vie",
 				"description": "Ressuscite le membre du groupe mort touché avec 50% de sa santé et 5...20% de son énergie. Ce membre du groupe et tous les alliés à portée de voix sont soignés de 55...130 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rinnova Vita",
+				"description": "Magia. Resusciti l'obiettivo morto toccato con il 50% di Salute e un 5...20% di Energia. Quel compagno e tutti gli alleati a portata d'orecchio vengono curati di 55...130 Punto[i] Salute.",
+				"concise": "Magia a Tocco. Fa risorgere il membro della squadra selezionato (Salute: 50%; Energia: 5...20%). Cura gli alleati a portata d'orecchio: 55...130."
+			},
+			"jp": {
+				"name": "リニュー ライフ",
+				"description": "スペル： 接触した戦闘不能になっている味方が、50%の体力と5...20%のエネルギーで復活します。その味方と声の届く範囲内にいる味方はすべて、体力が 55...130 回復します。",
+				"concise": "スペル (接触)： ターゲットしたパーティー メンバーが50%の体力と 5...20% のエネルギーで復活します。声の届く範囲内にいる味方は体力が 55...130 回復します。"
+			},
+			"kr": {
+				"name": "생명의 부흥",
+				"description": "마법. 대상 지정: 파티원. 전사한 파티원을 50%의 체력과 5...20%의 에너지를 가진 채로 부활시킵니다. 그 파티원과 가청 범위 내에 있는 모든 아군은 55...130의 체력을 회복합니다. 대상의 시체에 접근해야 사용할 수 있습니다.",
+				"concise": "마법(접근용). 전사한 파티원을 부활합니다.(체력: 50%, 에너지: 5...20%) 가청 범위 내에 있는 아군의 체력을 55...130 회복시킵니다."
+			},
+			"pl": {
+				"name": "Odnowienie Życia",
+				"description": "Czar. Wskrzeszasz wybranego dotkniętego martwego członka drużyny z 50% pkt. żywotności i 5...20% pkt. energii. On i wszyscy sojusznicy w zasięgu słuchu otrzymują 55...130 pkt. żywotności.",
+				"concise": "Czar dotykowy. Wskrzesza wybranego członka drużyny (50% żywotności, 5...20% pkt. energii). Sojusznikom w zasięgu słuchu dodaje 55...130 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Renew Life",
+				"description": "Заклинание. Воскрешает выбранного мертвого члена отряда, до которого вы дотронулись, с 50% здоровья и 5...20% энергии. Воскрешенный член отряда и все союзники в зоне слышимости исцеляются на 55...130 ед. здоровья.",
+				"concise": "Заклинание прикосновения. Воскрешает выбранного члена отряда (50% здоровья и 5...20% энергии). Исцеляет союзников в зоне слышимости на 55...130 ед. здоровья."
+			},
+			"bork": {
+				"name": "Renoo Leeffe-a",
+				"description": "Spell. Resoorrect taerget tuooched deaed taerget paerty member veet 50% Heaelt und 5...20% Inergy. Thaet paerty member und aell aelleees veetheen iaershut aere-a heaeled fur 55...130 Heaelt.",
+				"concise": "Tuooch Spell. Resoorrects taerget paerty member (50% Heaelt und 5...20% Inergy). Heaels aelleees veetheen iaershut fur 55...130."
 			}
 		}
 	}

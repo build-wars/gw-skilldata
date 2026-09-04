@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "能量榨取",
+				"description": "精英负面魔法。 如果目标敌人正在施法，该法术被打断，而且在接下来的 10 秒内，每当该敌人施法，你将偷取其最多 5...15点 能量值。",
+				"concise": "精英负面魔法。 如果目标敌人正在施法，该法术被打断，而且在接下来的 10 秒内，每当该敌人施法，你将偷取其最多 5...15点 能量值。"
+			},
+			"cht": {
+				"name": "強力榨取",
+				"description": "精英降咒魔法： 若目標敵人正在施展「魔法」或「聖歌」，該「魔法」被中斷。而且在 10 秒內，每當該名敵人施展「魔法」時，你偷取其最多 5...15 能量。",
+				"concise": "精英降咒魔法： 若目標敵人正在施展「魔法」，該「魔法」被中斷。而且在 10 秒內，每當該名敵人施展「魔法」時，你偷取其最多 5...15 能量。"
+			},
 			"de": {
+				"name": "Kraftfresser",
+				"description": "Elite-Verhexung. Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird diese Fertigkeit unterbrochen und Ihr entzieht dem Gegner immer, wenn er innerhalb der nächsten 10 Sekunde[n] einen Zauber wirkt, bis zu 5...15 Energiepunkt[e].",
+				"concise": "Elite-Verhexung. Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Stiehlt 5...15 Energiepunkt[e], wenn der Gegner einen Zauber wirkt (10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Kraftfresser",
 				"description": "Falls der Gegner einen Zauber oder Anfeuerungsruf wirkt, wird diese Fertigkeit unterbrochen und Ihr entzieht dem Gegner immer, wenn er innerhalb der nächsten 10 Sekunden einen Zauber wirkt, bis zu 5...15 Energiepunkte.",
 				"concise": "Unterbricht einen Zauber oder Anfeuerungsruf. Unterbrechungswirkung: Entzieht 5...15 Energiepunkte, wenn der Gegner einen Zauber wirkt (10 Sekunden)."
 			},
 			"en": {
 				"name": "Power Leech",
+				"description": "Elite Hex Spell. If target foe is casting a spell or chant, that skill is interrupted and for 10 seconds, whenever that foe casts a spell, you steal up to 5...15 Energy from that foe.",
+				"concise": "Elite Hex Spell. Interrupt a spell or a chant. Interruption effect: steal 5...15 Energy whenever target foe casts a spell (10 seconds)."
+			},
+			"en-gww": {
+				"name": "Power Leech",
 				"description": "If target foe is casting a spell or chant, that skill is interrupted and for 10 seconds, whenever that foe casts a spell, you steal up to 5...15 Energy from that foe.",
 				"concise": "Interrupt a spell or a chant. Interruption effect: steal 5...15 Energy whenever target foe casts a spell (10 seconds)."
 			},
+			"es": {
+				"name": "Sanguijuela poderosa",
+				"description": "Conjuro con maleficio de élite. Si el enemigo objetivo está lanzando un conjuro o cántico, se interrumpirá y durante 10 segundos le robarás hasta 5...15 de energía cada vez que lance un conjuro.",
+				"concise": "Conjuro con maleficio de élite. Interrumpes un conjuro o cántico. Efecto de interrupción: robas 5...15 de energía cada vez que el enemigo objetivo lance un conjuro (10 segundos)."
+			},
 			"fr": {
+				"name": "Buveur d'énergie",
+				"description": "Maléfice d'élite. Si l'ennemi visé lance un sort ou un chant, celui-ci est interrompu et pendant 10 secondes, à chaque fois que cet ennemi lance un sort, vous lui volez jusqu'à 5...15 points d'énergie.",
+				"concise": "Maléfice d'élite. interrompt un sort ou un chant. Effet de l'interruption : vole 5...15 points d'énergie chaque fois qu'une cible ennemie lance un sort (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Buveur d'énergie",
 				"description": "Si l'ennemi visé lance un sort ou un chant, celui-ci est interrompu et pendant 10 secondes, à chaque fois que cet ennemi lance un sort, vous lui volez jusqu'à 5...15 points d'énergie.",
 				"concise": "Interrompt un sort ou un chant. Effet de l'interruption : vole 5...15 points d'énergie chaque fois que la cible ennemie lance un sort (10 secondes)."
+			},
+			"it": {
+				"name": "Sanguisuga del Potere",
+				"description": "Fattura d'Élite. Se l'obiettivo nemico ha attivato una magia o un canto, l'abilità viene interrotta e per 10 secondi sottrai al nemico fino a 5...15 Punti Energia ogni volta che lancia una magia.",
+				"concise": "Fattura d'Élite. Interrompe una magia o un canto. Effetto dell'interruzione: sottrazione di 5...15 Punti Energia quando l'obiettivo nemico lancia una magia (10 secondi)."
+			},
+			"jp": {
+				"name": "パワー リーチ",
+				"description": "エリート弱体化スペル： ターゲットした敵がスペルまたはチャントを詠唱中の場合、そのスキルを中断します。また、10 秒間、その敵がスペルを詠唱するたびに最大 5...15 のエネルギーを奪い取ります。",
+				"concise": "エリート弱体化スペル： スペルまたはチャントを中断します。中断効果： ターゲットした敵がスペルを詠唱するたびに 5...15 のエネルギーを奪い取ります (10 秒)。"
+			},
+			"kr": {
+				"name": "마력 거머리",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상이 마법이나 영창을 시전하는 중이면 그 시전을 방해하고, 10초 동안 대상이 마법을 외울 때마다 대상에게서 5...15의 에너지를 뺏습니다.",
+				"concise": "엘리트 약화 마법. 마법이나 영창을 방해합니다. 방해 효과: 대상이 마법을 시전할 때마다 5...15의 에너지를 뺏습니다.(10초)"
+			},
+			"pl": {
+				"name": "Spijanie Mocy",
+				"description": "Elitarna klątwa (czar). Jeśli cel rzuca właśnie czar lub pieśń, umiejętność zostaje przerwana, a jeśli w ciągu 10 sek. ten przeciwnik rzuci zaklęcie, przejmujesz od niego do 5...15 pkt. energii.",
+				"concise": "Elitarna klątwa (czar). Przerywa użycie czaru lub pieśni. Skutek przerwania: przejmuje 5...15 pkt. energii, gdy wybrany przeciwnik rzuca czar (10 sek.)."
+			},
+			"ru": {
+				"name": "Power Leech",
+				"description": "Элитное заклинание-проклятье. Если выбранный противник произносит заклинание или поет хорал, это умение будет прервано, и в течение 10 сек каждый раз, когда этот противник будет произносить какое-либо заклинание, вы будете похищать у него до 5...15 ед. энергии.",
+				"concise": "Элитное заклинание-проклятье. Прерывает заклинание или хорал. Эффект прерывания: похищает 5...15 ед. энергии каждый раз, когда выбранный противник произносит заклинание (10 сек)."
+			},
+			"bork": {
+				"name": "Pooer Leech",
+				"description": "Ileete-a Hex Spell. Iff taerget fue-a is caesteeng a spell oor chunt, thaet skeell is interroopted und fur 10 secunds, vhenefer thaet fue-a caests a spell, yuoo steael up tu 5...15 Inergy frum thaet fue-a.",
+				"concise": "Ileete-a Hex Spell. Interroopt a spell oor a chunt. Interroopshun iffffect: steael 5...15 Inergy vhenefer taerget fue-a caests a spell (10 secunds)."
 			}
 		}
 	}

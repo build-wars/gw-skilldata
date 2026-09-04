@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"敌人来袭！\"",
+				"description": "精英战吼。 在4...10秒之内，使所有「音波」范围内的队友所受到的伤害减少33%。",
+				"concise": "精英战吼。 在4...10秒之内，使所有「音波」范围内的队友所受到的伤害减少33%。"
+			},
+			"cht": {
+				"name": "「敵人來襲！」(PvP)",
+				"description": "精英戰嚎： 持續4...10秒，在音量所及範圍內的盟友移動速度增加33%且移動時每秒獲得5...15體力。",
+				"concise": "精英戰嚎： 持續4...10秒，在音量所及範圍內的盟友移動速度增加33%且移動時每秒獲得5...15體力。"
+			},
 			"de": {
+				"name": "\"Schon unterwegs!\" (PvP)",
+				"description": "Elite-Schrei. 4...10 Sekunden lang bewegen sich alle Verbündeten in Hörweite um 33% schneller und gewinnen 5...15 Lebenspunkte pro Sekunde, während sie in Bewegung sind.",
+				"concise": "Elite-Schrei. (4...10 Sekunden.) Verbündete in Hörweite bewegen sich 33% schneller und gewinnen 5...15 Lebenspunkte pro Sekunde, solange sie in Bewegung sind."
+			},
+			"de-guildwiki": {
 				"name": "\"Schon unterwegs!\" (PvP)",
 				"description": "4...10 Sekunden lang bewegen sich alle Verbündeten in Hörweite um 33% schneller und gewinnen 5...15 Lebenspunkte pro Sekunde, während sie in Bewegung sind.",
 				"concise": "(4...10 Sekunden.) Verbündete in Hörweite bewegen sich 33% schneller und gewinnen 5...15 Lebenspunkte pro Sekunde, solange sie in Bewegung sind."
 			},
 			"en": {
 				"name": "\"Incoming!\" (PvP)",
+				"description": "Elite Shout. For 4...10 seconds, all allies within earshot move 33% faster and gain 5...15 Health per second while moving.",
+				"concise": "Elite Shout. (4...10 seconds.) Allies in earshot move 33% faster and gain 5...15 Health per second while moving."
+			},
+			"en-gww": {
+				"name": "\"Incoming!\" (PvP)",
 				"description": "For 4...10 seconds, all allies within earshot move 33% faster, and gain 5...15 Health while moving.",
 				"concise": "(4...10 seconds) Allies in earshot move 33% faster and gain 5...15 Health while moving."
 			},
+			"es": {
+				"name": "\"¡Que vienen!\" (PvP)",
+				"description": "Grito de élite. Durante 4...10 segundos, todos los aliados al alcance del oído se mueven un 33% más rápido y ganan 5...15 de salud mientras se muevan.",
+				"concise": "Grito de élite. (4...10 segundos.) Los aliados al alcance del oído se mueven un 33% más rápido y ganarán 5...15 de salud al moverse."
+			},
 			"fr": {
+				"name": "\"Attention !\" (PvP)",
+				"description": "Cri d'élite. Pendant 4...10 secondes, tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie par seconde en se déplaçant.",
+				"concise": "Cri d'élite. (4...10 secondes.) Tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie par seconde en se déplaçant."
+			},
+			"fr-gwiki": {
 				"name": "\"Attention !\" (PvP)",
 				"description": "Pendant 4...10 secondes, tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie en se déplaçant.",
 				"concise": "(4...10 secondes.) Tous les alliés à portée de voix se déplacent 33% plus vite et gagnent 5...15 points de vie en se déplaçant."
+			},
+			"it": {
+				"name": "\"Arrivano!\" (PvP)",
+				"description": "Urlo d'Élite. Per 4...10 secondi la velocità di movimento di tutti gli alleati a portata d'orecchio aumenta di un 33% e tali alleati ottengono 5...15 Punti Salute al secondo mentre si muovono.",
+				"concise": "Urlo d'Élite. (Secondi: 4...10). Incremento velocità di movimento di tutti gli alleati a portata d'orecchio: 33%. Punti Salute al secondo ottenuti in movimento: 5...15."
+			},
+			"jp": {
+				"name": "インカミング！ (PvP)",
+				"description": "エリート シャウト： 4...10 秒間、声の届く範囲内にいる味方はすべて、移動速度が 33% 増加し、移動中は毎秒 5...15 の体力を獲得します。",
+				"concise": "エリート シャウト： (4...10 秒) 声の届く範囲内にいる味方は移動速度が 33% 増加し、移動中は毎秒 5...15 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "전투 준비!(대인전)",
+				"description": "엘리트 고함. 대상 지정: 없음. 4...10초 동안 가청 범위 내에 있는 모든 아군의 이동 속도가 33% 빨라지고, 이동 중에 매초 5...15의 체력을 얻습니다.",
+				"concise": "엘리트 고함. (4...10초) 가청 범위 내에 있는 아군의 이동 속도가 33% 빨라지고, 이동 중에 매초 5...15의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "\"Nadchodzą!\" (PvP)",
+				"description": "Elitarny okrzyk. Przez 4...10 sek., wszyscy sojusznicy w zasięgu słuchu poruszają się o 33% szybciej i zyskują 5...15 pkt. żywotności na sekundę podczas ruchu.",
+				"concise": "Elitarny okrzyk. (4...10 sek.) Wszyscy sojusznicy w zasięgu słuchu poruszają się o 33% szybciej i zyskują 5...15 pkt. żywotności na sekundę podczas ruchu."
+			},
+			"ru": {
+				"name": "\"Incoming!\" (PvP)",
+				"description": "Элитный крик. В течение 4...10 сек все союзники, находящиеся в зоне слышимости, двигаются на 33% быстрее и получают 5...15 ед. здоровья каждую секунду, пока двигаются.",
+				"concise": "Элитный крик. (4...10 сек) Союзники в зоне слышимости двигаются на 33% быстрее и получают 5...15 ед. здоровья каждую секунду, пока двигаются."
+			},
+			"bork": {
+				"name": "\"Incumeeng!\" (PfP)",
+				"description": "Ileete-a Shuoot. Fur 4...10 secunds, aell aelleees veetheen iaershut mufe-a 33% faester und gaeeen 5...15 Heaelt per secund vheele-a mufeeng.",
+				"concise": "Ileete-a Shuoot. (4...10 secunds.) Aelleees in iaershut mufe-a 33% faester und gaeeen 5...15 Heaelt per secund vheele-a mufeeng."
 			}
 		}
 	}

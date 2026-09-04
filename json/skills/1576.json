@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灼热之曲",
+				"description": "回音技。 在20秒之内，如果「非灵体」的目标盟友击中生命值多于他的敌人，该敌人将遭受「灼烧」症状1...3秒。当「圣歌」或「战吼」的效果在该盟友身上消失时，此「回音技」的效果将被重置。",
+				"concise": "回音技。 在20秒之内，如果「非灵体」的目标盟友击中生命值多于他的敌人，该敌人将遭受「灼烧」症状1...3秒。当「圣歌」或「战吼」的效果在该盟友身上消失时，此「回音技」的效果将被重置。"
+			},
+			"cht": {
+				"name": "燃燒合聲",
+				"description": "迴響： 持續 20 秒，若「非靈」的目標盟友攻擊命中體力較高的敵人，則使該敵人遭受「著火」病症 1...3 秒。每當「聖歌」或「戰嚎」的效果在該盟友身上終止時，此「迴響」的持續時間將被重新計算。",
+				"concise": "迴響： 持續 20 秒，若「非靈」的目標盟友攻擊命中體力較高的敵人，則使該敵人遭受「著火」病症 1...3 秒。每當「聖歌」或「戰嚎」的效果在該盟友身上終止時，此「迴響」的持續時間將被重新計算。"
+			},
 			"de": {
+				"name": "Brennender Refrain",
+				"description": "Echo. Wenn der Nicht-Geister-Verbündete während der nächsten 20 Sekunde[n] einen Feind trifft, der über mehr Lebenspunkte als er selbst verfügt, wird dieser Feind 1...3 Sekunde[n] lang in Brand gesetzt. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
+				"concise": "Echo. 20 Sekunde[n]: Verursacht Zustand Brennen (1...3 Sekunde[n]), wenn der Verbündete (bzw. Ihr selbst) einen Feind mit mehr Lebenspunkten trifft. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Brennender Refrain",
 				"description": "Wann immer der Nicht-Geister-Verbündete (bzw. Ihr selbst) während der nächsten 20 Sekunden einen Feind trifft, der über mehr Lebenspunkte als er selbst verfügt, wird dieser Feind 1...3 Sekunden lang in Brand gesetzt. Dieses Echo wird jedes Mal wiederholt, wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet.",
 				"concise": "20 Sekunden: Verursacht Zustand Brennen (1...3 Sekunden), wenn der Verbündete (bzw. Ihr selbst) einen Feind mit mehr Lebenspunkten trifft. Erneuerung: Jedes Mal, wenn ein Schrei oder Anfeuerungsruf auf dem Verbündeten endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Burning Refrain",
+				"description": "Echo. For 20 seconds, if target non-spirit ally hits a foe with more Health than that ally, that foe is set on Fire for 1...3 seconds. This echo is reapplied every time a chant or shout ends on that ally.",
+				"concise": "Echo. (20 seconds.) Inflicts Burning condition (1...3 seconds) if target ally hits a foe with more Health. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Burning Refrain",
 				"description": "For 20 seconds, if target non-spirit ally hits a foe with more Health than that ally, that foe is set on Fire <sic/> for 1...3 second[s]. This echo is reapplied every time a chant or shout ends on that ally.",
 				"concise": "(20 seconds.) Inflicts Burning condition (1...3 second[s]) if target ally hits a foe with more Health. Renewal: Whenever a chant or shout ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Estribillo quemador",
+				"description": "Eco. Durante 20 segundos, si el aliado objetivo no espíritu golpea a un enemigo con más salud que él, éste arderá durante 1...3 segundos. Este eco se reactivará cada vez que los efectos de un grito o cántico terminen en el aliado.",
+				"concise": "Eco. (20 segundos). Causa quemadura (1...3 segundos) si el objetivo (un aliado o tú mismo) alcanza a un enemigo con más salud. Renovación: cada que vez que los efectos de un cántico o grito acaben en ese aliado. No se puede apuntar a un espíritu."
+			},
 			"fr": {
+				"name": "Refrain brûlant",
+				"description": "Echo. Pendant 20 secondes, si la cible (autre qu'un esprit) blesse un ennemi ayant plus de santé qu'elle, cet ennemi s'embrase pendant 1...3 secondes. Cet écho se reproduit chaque fois qu'un chant ou un cri sur cet allié prend fin.",
+				"concise": "Echo. (20 secondes.) Inflige la Brûlure (1...3 secondes) si l'allié visé frappe un ennemi possédant plus de santé. Renouvellement : chaque fois qu'un chant ou un cri affectant cet allié prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Refrain brûlant",
 				"description": "Pendant 20 secondes, si la cible (autre qu'un esprit) blesse un ennemi ayant plus de santé qu'elle, cet ennemi s'embrase pendant 1...3 seconde(s). Cet écho se reproduit chaque fois qu'un chant ou un cri sur cet allié prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ritornello Bruciante",
+				"description": "Eco. Dura 20 secondo[i]; se l'obiettivo alleato (Spiriti esclusi) colpisce un nemico che ha più Salute di lui, quel nemico prende fuoco per 1...3 secondo[i]. Questa eco si rinnova ogni volta che un canto o un urlo termina su quell'alleato.",
+				"concise": "Eco. (Secondi: 20) Condizione inflitta se l'obiettivo alleato colpisce un nemico con più Salute: Bruciatura (1...3 secondo[i]). Rinnovo: ogni volta che un canto o un urlo termina su quell'alleato. Impossibile selezionare gli Spiriti."
+			},
+			"jp": {
+				"name": "バーン リフレイン",
+				"description": "エコー： 20 秒間、ターゲットした精霊以外の味方の攻撃がその味方より体力が残っている敵に対して成功すると、その敵は 1...3 秒間「火傷」状態になります。この効果は、その味方にかけられているチャントやシャウトが消失するたびに再適用されます。",
+				"concise": "エコー： (20 秒) ターゲットした味方の攻撃が味方自身より体力の多い敵に対して成功すると、敵は「火傷」状態になります (1...3 秒) 。更新： ターゲットにかけられているチャントまたはシャウトの効果が消失するたび。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "불길의 공명",
+				"description": "공명. 대상 지정: 아군. 20초 동안 영혼이 아닌 대상이 그보다 체력이 많은 적에게 공격을 성공시키면 적은 1...3초 동안 화상 상태가 됩니다. 이 공명은 대상에게 걸린 고함이나 영창이 끝날 때마다 새로 시작됩니다.",
+				"concise": "공명. (20초) 대상 아군이 체력이 많은 적에게 공격을 성공시키면 화상을 입힙니다.(1...3초) 갱신 조건: 대상에게 걸린 고함이나 영창이 끝날 때마다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Płonący Zaśpiew",
+				"description": "Echo. Przez 20 sek., jeśli wybrany sojusznik nie-duch trafi przeciwnika, który posiada więcej żywotności niż on, to przeciwnik ten zaczyna płonąć przez 1...3 sek. To echo jest ponownie nakładane za każdym razem, kiedy przestanie na tym sojuszniku działać zaśpiew lub okrzyk.",
+				"concise": "Echo. (20 sek.) Wywołuje przypadłość płonięcie (1...3 sek.), jeżeli wybrany sojusznik trafi przeciwnika z większą żywotnością. Odnowienie: za każdym razem, kiedy przestaje na tym sojuszniku działać zaśpiew lub okrzyk. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Burning Refrain",
+				"description": "Эхо. В течение 20 сек, если выбранный союзник, который не является духом, наносит удар по противнику, у которого больше здоровья, чем у данного союзника, этот противник загорается на 1...3 сек. Это эхо применяется заново каждый раз, когда заканчивает свое действие влияющий на этого союзника хорал или крик.",
+				"concise": "Эхо. (20 сек) Поджигает (1...3 сек), если выбранный союзник наносит успешный удар противнику, у которого больше здоровья. Обновление: каждый раз, когда заканчивается хорал или крик, влияющий на этого союзника. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Boorneeng Reffraeeen",
+				"description": "Ichu. Fur 20 secunds, iff taerget nun-spureet aelly heets a fue-a veet mure-a Heaelt thun thaet aelly, thaet fue-a is set oon Fure-a fur 1...3 secunds. Thees ichu is reaeppleeed ifery teeme-a a chunt oor shuoot inds oon thaet aelly.",
+				"concise": "Ichu. (20 secunds.) Inffleects Boorneeng cundeeshun (1...3 secunds) iff taerget aelly heets a fue-a veet mure-a Heaelt. Renooael: Vhenefer a chunt oor shuoot inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

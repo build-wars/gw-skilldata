@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "拥风者",
+				"description": "姿态。 在10秒之内，你的移动速度提升25%。当你受到元素伤害时，此技能效果将被重置。",
+				"concise": "姿态。 在10秒之内，你的移动速度提升25%。当你受到元素伤害时，此技能效果将被重置。"
+			},
+			"cht": {
+				"name": "狂風擁抱",
+				"description": "態勢： 持續 10 秒，你的移動速度加快 25% 。每當你受到元素傷害時，此態勢的持續時間將會重新計算。",
+				"concise": "態勢： 持續 10 秒，你的移動速度加快 25% 。每當你受到元素傷害時，此態勢的持續時間將會重新計算。"
+			},
 			"de": {
+				"name": "Umarmung des Sturms",
+				"description": "Haltung. 10 Sekunden lang bewegt Ihr Euch um 25% schneller. Diese Haltung wird jedes Mal, wenn Ihr Elementarschaden erleidet, erneuert.",
+				"concise": "Haltung. 10 Sekunden: Ihr bewegt Euch um 25% schneller. Erneuerung: Jedes Mal, wenn Ihr Elementarschaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Umarmung des Sturms",
 				"description": "10 Sekunden lang bewegt Ihr Euch um 25% schneller. Diese Haltung wird jedes Mal, wenn Ihr Elementarschaden erleidet, erneuert.",
 				"concise": "10 Sekunden: Ihr bewegt Euch um 25% schneller. Erneuerung: Jedes Mal, wenn Ihr Elementarschaden erleidet."
 			},
 			"en": {
 				"name": "Storm's Embrace",
+				"description": "Stance. For 10 seconds, you move 25% faster. This stance is refreshed whenever you take Elemental damage.",
+				"concise": "Stance. (10 seconds.) You move 25% faster. Renewal: whenever you take elemental damage."
+			},
+			"en-gww": {
+				"name": "Storm's Embrace",
 				"description": "For 10 seconds, you move 25% faster. This stance is refreshed whenever you take Elemental damage.",
 				"concise": "(10 seconds.) You move 25% faster. Renewal: whenever you take elemental damage."
 			},
+			"es": {
+				"name": "Abrazo de la tormenta",
+				"description": "Actitud. Durante 10 segundos te mueves un 25% más deprisa. Esta actitud se renovará cada vez que recibas daños elementales.",
+				"concise": "Actitud. (10 segundos). Te mueves un 25% más deprisa. Renovación: cada vez que recibas daños de los elementos."
+			},
 			"fr": {
+				"name": "Etreinte de la tempête",
+				"description": "Pose de combat. Pendant 10 secondes, vous vous déplacez 25% plus vite. Cette pose de combat est renouvelée chaque fois que vous subissez des dégâts élémentaires.",
+				"concise": "Pose de combat. (10 secondes.) Vous vous déplacez 25% plus vite. Renouvellement : chaque fois que vous subissez des dégâts élémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Etreinte de la tempête",
 				"description": "Pendant 10 secondes, vous vous déplacez 25% plus vite. Cette pose de combat est renouvelée chaque fois que vous subissez des dégâts élémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Abbraccio della Tempesta",
+				"description": "Posizione. Per 10 secondi, la tua velocità di movimento aumenta di un 25%. Questa posizione si rinnova ogni volta che subisci danni elementali.",
+				"concise": "Posizione. (Secondi: 10) Incremento tua velocità di movimento: 25%. Rinnovo: ogni volta che ricevi danni elementali."
+			},
+			"jp": {
+				"name": "ストーム エンブレイス",
+				"description": "スタンス： 10秒間、移動速度が 25% 増加します。元素ダメージを受けるたびに、このスタンスの効果は更新されます。",
+				"concise": "スタンス： (10秒) 移動速度が 25% 増加します。更新： 元素ダメージを受けるたび。"
+			},
+			"kr": {
+				"name": "태풍의 포옹",
+				"description": "자세. 대상 지정: 없음. 10초 동안 이동 속도가 25% 빨라집니다. 자신이 정령 대미지를 입을 때마다 이 스킬이 새로 시작됩니다.",
+				"concise": "자세. (10초) 이동 속도가 25% 빨라집니다. 정령 대미지를 입을 때마다 효과가 갱신됩니다."
+			},
+			"pl": {
+				"name": "Objęcia Burzy",
+				"description": "Postawa. Przez 10 sek. poruszasz się o 25% szybciej. Postawa odnawia się za każdym razem, kiedy otrzymasz obrażenia od żywiołów.",
+				"concise": "Postawa. (10 sek.) Poruszasz się o 25% szybciej. Odnowienie: za każdym razem, kiedy otrzymujesz obrażenia od żywiołów."
+			},
+			"ru": {
+				"name": "Storm's Embrace",
+				"description": "Стойка. В течение 10 сек вы двигаетесь на 25% быстрее. Эта стойка обновляется каждый раз, когда вы получаете урон силами Стихий.",
+				"concise": "Стойка. (10 сек) Вы двигаетесь на 25% быстрее. Обновление: каждый раз, когда вы получаете урон силами Стихий."
+			},
+			"bork": {
+				"name": "Sturm's Imbraece-a",
+				"description": "Stunce-a. Fur 10 secunds, yuoo mufe-a 25% faester. Thees stunce-a is reffreshed vhenefer yuoo taeke-a Ilementael daemaege-a.",
+				"concise": "Stunce-a. (10 secunds.) Yuoo mufe-a 25% faester. Renooael: vhenefer yuoo taeke-a ilementael daemaege-a."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "苦痛纹章",
+				"description": "精英纹章。 根据目标敌人所遭受的「负面魔法」数量，每一项可以使其受到2...16点伤害（一次最多造成6点伤害）。",
+				"concise": "精英纹章。 根据目标敌人所遭受的「负面魔法」数量，每一项可以使其受到2...16点伤害（一次最多造成6点伤害）。"
+			},
+			"cht": {
+				"name": "苦難紋章",
+				"description": "精英紋章： 自身遭受流血 6 秒，你下一個對敵人使用的死靈法師技能，會使該目標遭受流血 2...16 秒。",
+				"concise": "精英紋章： 自身遭受流血 6 秒，你下一個對敵人使用的死靈法師技能，會使該目標遭受流血 2...16 秒。"
+			},
 			"de": {
+				"name": "Siegel des Leidens",
+				"description": "Elite-Siegel. Ihr leidet 6 Sekunde[n] lang unter einer Blutung. Die nächste Nekromanten-Fertigkeit, die einen Gegner trifft, verursacht 2...16 Sekunde[n] lang eine Blutung.",
+				"concise": "Elite-Siegel. Ihr leidet 6 Sekunde[n] lang unter einer Blutung. Das Ziel Eurer nächsten Nekromanten-Fertigkeit erleidet eine Blutung (2...16 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des Leidens",
 				"description": "Ihr leidet 6 Sekunden lang unter einer Blutung. Die nächste Nekromanten-Fertigkeit, die einen Gegner trifft, verursacht 2...16 Sekunden lang eine Blutung.",
 				"concise": "Ihr leidet unter dem Zustand Blutung (6 Sekunden). Die nächste Nekromanten-Fertigkeit, die einen Gegner trifft, verursacht 2...16 Sekunden lang eine Blutung."
 			},
 			"en": {
 				"name": "Signet of Suffering",
+				"description": "Elite Signet. You suffer from Bleeding for 6 seconds. The next Necromancer skill that targets a foe causes Bleeding for 2...16 seconds.",
+				"concise": "Elite Signet. You Bleed for 6 seconds. Applies Bleeding (2...16 seconds) to the target of your next Necromancer skill."
+			},
+			"en-gww": {
+				"name": "Signet of Suffering",
 				"description": "You suffer from Bleeding for 6 seconds. The next Necromancer skill that targets a foe causes Bleeding for 2...16 seconds.",
 				"concise": "You Bleed for 6 seconds. Applies Bleeding (2...16 seconds) to the target of your next Necromancer skill."
 			},
+			"es": {
+				"name": "Sello de sufrimiento",
+				"description": "Sello de élite. Sufres hemorragia durante 6 segundos. La próxima habilidad de Nigromante que lances sobre un enemigo causará hemorragia durante 2...16 segundos.",
+				"concise": "Sello de élite. Sufres hemorragia durante 6 segundos. Causa hemorragia (2...16 segundos) al objetivo de la próxima habilidad de Nigromante."
+			},
 			"fr": {
+				"name": "Sceau de souffrance",
+				"description": "Sceau d'élite. Vous souffrez de Saignement pendant 6 secondes. La prochaine compétence de Nécromant qui cible un ennemi provoque un Saignement pendant 2...16 secondes.",
+				"concise": "Sceau d'élite. Vous saignez pendant 6 secondes. Applique un Saignement (2...16 secondes) à la cible de votre prochaine compétence de Nécromant."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de souffrance",
 				"description": "Vous souffrez de Saignement pendant 6 secondes. La prochaine compétence de Nécromant qui cible un ennemi provoque un Saignement pendant 2...16 secondes.",
 				"concise": "Vous saignez pendant 6 secondes. Applique un Saignement (2...16 secondes) à la cible de votre prochaine compétence de Nécromant."
+			},
+			"it": {
+				"name": "Sigillo della Sofferenza",
+				"description": "Sigillo d'Élite. Soffri di Emorragia per 6 secondi. La prossima abilità del Negromante utilizzata contro un nemico provoca Emorragia per 2...16 secondi.",
+				"concise": "Sigillo d'Élite. Condizione subita: Emorragia (6 secondi). Condizione inflitta all'obiettivo della tua prossima abilità del Negromante: Emorragia (2...16 secondi)."
+			},
+			"jp": {
+				"name": "サファー シグネット",
+				"description": "エリート シグネット： プレイヤーは 6 秒間、「出血」状態になります。次に敵に対してネクロマンサー スキルを使用するとき、その敵は 2...16 秒間「出血」状態になります。",
+				"concise": "エリート シグネット： プレイヤーは 6 秒間、「出血」状態になります。次に敵に対してネクロマンサー スキルを使用するとき、ターゲットは「出血」状態になります (2...16 秒) 。"
+			},
+			"kr": {
+				"name": "고통 인장",
+				"description": "엘리트 인장. 대상 지정: 적. 자신이 6초 동안 출혈 상태가 됩니다. 다음에 사용한 네크로맨서 스킬은 대상을 2...16초 동안 출혈 상태로 만듭니다.",
+				"concise": "엘리트 인장. 자신이 6초 동안 출혈을 일으킵니다. 다음에 사용하는 네크로맨서 스킬은 대상에게 출혈을 일으키게 합니다.(2...16초)"
+			},
+			"pl": {
+				"name": "Sygnet Cierpienia",
+				"description": "Sygnet elitarny. Krwawisz przez 6 sek. Następna umiejętność nekromanty, która trafi we wrogi cel, spowoduje krwawienie przez 2...16 sek.",
+				"concise": "Sygnet elitarny. Krwawisz przez 6 sek. Powoduje krwawienie przeciwnika, który jest celem twojej następnej umiejętności nekromanckiej (2...16 sek.)."
+			},
+			"ru": {
+				"name": "Signet of Suffering",
+				"description": "Элитная печать. Вы кровоточите в течение 6 сек. Следующее умение профессии Necromancer, которое будет направлено на противника, вызовет кровотечение на 2...16 сек.",
+				"concise": "Элитная печать. Вы кровоточите в течение 6 сек. Накладывает кровотечение (2...16 сек) на цель вашего следующего умения профессии Necromancer."
+			},
+			"bork": {
+				"name": "Seegnet ooff Sooffffereeng",
+				"description": "Ileete-a Seegnet. Yuoo sooffffer frum Bleedeeng fur 6 secunds. Zee next Necrumuncer skeell thaet taergets a fue-a cooses Bleedeeng fur 2...16 secunds.",
+				"concise": "Ileete-a Seegnet. Yuoo Bleed fur 6 secunds. Aeppleees Bleedeeng (2...16 secunds) tu zee taerget ooff yuoor next Necrumuncer skeell."
 			}
 		}
 	}

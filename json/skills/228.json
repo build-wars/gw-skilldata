@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "雷霆一击",
+				"description": "精英咒文。 在目标敌军的位置释放剧烈的电波，对其和周围敌军造成10...50点雷电伤害。受到攻击的敌军将被打断，并承受持续5...20秒的破甲和虚弱。这个法术具有25%的护甲穿透。",
+				"concise": "精英咒文。 造成10...50点雷电伤害。并且攻击邻近的敌军。施加破甲和虚弱（5...20秒）。打断施法。25%护甲穿透。"
+			},
+			"cht": {
+				"name": "雷鳴",
+				"description": "精英咒文魔法： Create a massive shockwave at target foe's location. Deals 10...50 lightning damage to target and all nearby foes. Struck foes are interrupted and suffer from Cracked Armor and Weakness for 5...20 seconds. This spell has 25% armor penetration.",
+				"concise": "精英咒文魔法： Deals 10...50 lightning damage. Also strikes nearby foes. Inflicts Cracked Armor and Weakness (5...20 seconds). Causes interrupt. 25% armor penetration."
+			},
 			"de": {
+				"name": "Donnerschlag",
+				"description": "Elite-Zauber. Erzeugt eine massive Schockwelle am Standort des anvisierten Gegners. Fügt dem Ziel und allen Gegnern in der Nähe 10...50 Blitzschaden zu. Getroffene Gegner werden unterbrochen und erleiden für 5...20 Sekunden Zerborstene Rüstung und Schwäche. Dieser Zauber besitzt 25 % Rüstungspenetration.",
+				"concise": "Elite-Zauber. Teilt 10...50 Blitzschaden aus. Trifft auch Gegner in der Nähe. Fügt Zerborstene Rüstung und Schwäche zu (5...20 Sekunden). Verursacht Unterbrechung. 25 % Rüstungspenetration."
+			},
+			"de-guildwiki": {
 				"name": "Donnerschlag",
 				"description": "An der Position des Gegners wird eine gewaltige Stoßwelle erzeugt. Richtet beim Gegner und Feinden in der Nähe 10...50 Punkte Blitzschaden an. Getroffene Feinde werden unterbrochen und leiden 5...20 Sekunden lang an Beschädigter Rüstung und Schwäche. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...50 Punkte Blitzschaden an. Trifft auch Ziele in der Nähe Eures Ziels. Verursacht Beschädigte Rüstung und Schwäche (5...20 Sekunden). Unterbricht. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Thunderclap",
+				"description": "Elite Spell. Create a massive shockwave at target foe's location. Deals 10...50 lightning damage to target and all nearby foes. Struck foes are interrupted and suffer from Cracked Armor and Weakness for 5...20 seconds. This spell has 25% armor penetration.",
+				"concise": "Elite Spell. Deals 10...50 lightning damage. Also strikes nearby foes. Inflicts Cracked Armor and Weakness (5...20 seconds). Causes interrupt. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Thunderclap",
 				"description": "Create a massive shockwave at target foe's location. Deals 10...50 lightning damage to target and all nearby foes. Struck foes are interrupted and suffer from Cracked Armor and Weakness for 5...20 seconds. This spell has 25% armor penetration.",
 				"concise": "Deals 10...50 lightning damage. Also strikes nearby foes. Inflicts Cracked Armor and Weakness (5...20 seconds). Causes interrupt. 25% armor penetration."
 			},
+			"es": {
+				"name": "Trueno",
+				"description": "Conjuro de élite. Creas una onda expansiva enorme en la ubicación del enemigo objetivo. Hace 10...50 de daño de relámpago al enemigo objetivo y a los enemigos cercanos. Interrumpe a los enemigos alcanzados y sufren debilitamiento y armadura rota durante 5...20 segundos. Este conjuro tiene un 25 % de penetración de armadura.",
+				"concise": "Conjuro de élite. Causa 10...50 de daño de relámpago. También alcanza a los enemigos cercanos. Causa armadura rota y debilitamiento (5...20 segundos). Interrumpe. 25 % de penetración de armadura."
+			},
 			"fr": {
+				"name": "Coup de tonnerre",
+				"description": "Sort d'élite. Vous générez une onde de choc massive à l'emplacement de l'ennemi ciblé. Inflige 10...50 points de dégâts d'éclair à la cible et à tous les ennemis à proximité. Les ennemis touchés sont interrompus et souffrent d'Armure fissurée et de Faiblesse pendant 5...20 secondes. Ce sort bénéficie de 25% de pénétration d'armure.",
+				"concise": "Sort d'élite. Inflige 10...50 points de dégâts d'éclair. Affecte également les ennemis à proximité. Inflige les altérations Armure fissurée et Faiblesse (5...20 secondes). Provoque une interruption. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Coup de tonnerre",
 				"description": "Crée une puissante onde de choc sur la position de l'ennemi. Inflige 10...42 points de dégâts de la foudre à la cible et aux ennemis adjacents. Les ennemis touchés sont interrompus et souffrent d'Armure brisée et de Faiblesse pendant 5...17 secondes. Ce sort à une pénétration d'armure de 25%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rombo di Tuono",
+				"description": "Magia d'Élite. Crea un'enorme onda d'urto nel punto in cui si trova il bersaglio. Infligge 10...50 danni da fulmine al bersaglio e a tutti i nemici vicini. Le azioni degli avversari colpiti vengono interrotte, e questi subiscono Armatura spaccata e Vulnerabilità per 5...20 secondo/i. Questa magia ha il 25% di penetrazione dell'armatura.",
+				"concise": "Magia d'Élite. Infligge 10...50 danni da fulmine. Inoltre, colpisce i nemici vicini. Infligge Armatura spaccata e Vulnerabilità (5...20 secondo/i). Interrompe i nemici. 25% penetrazione dell'armatura."
+			},
+			"jp": {
+				"name": "サンダークラップ",
+				"description": "エリート スペル： 標的となった敵の場所に巨大な衝撃波を生み出します。標的とすべての近くの敵に10...50の稲妻ダメージを与えます。攻撃を受けた敵は攻撃が中断され、5...20秒間、ひび割れた鎧と弱体化の影響を受けます。このスペルは25%の鎧貫通を与えます。",
+				"concise": "エリート スペル： 10...50の稲妻ダメージを与え、近くの敵にも攻撃を加えます。ひび割れた鎧と弱体化を与えます（5...20秒）。行動を中断し、25%の鎧貫通を与えます。"
+			},
+			"kr": {
+				"name": "우레소리",
+				"description": "엘리트 마법. 대상 지정: 적. 대상 위치에 거대한 번개가 작렬해 대상과 주변의 모든 적에게 10...50의 번개 대미지를 줍니다. 가격당한 적들은 동작을 방해받고, 5...20초 동안 방어 손상 및 약체 상태가 됩니다. 이 마법은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "엘리트 마법. 10...50의 번개 대미지를 줍니다. 주변의 적도 공격합니다. 방어 손상 및 약체 상태로 만듭니다(5...20초). 동작을 방해합니다. 25%의 갑옷 관통 효과를 가집니다."
+			},
+			"pl": {
+				"name": "Grzmot",
+				"description": "Elitarny czar. W miejscu, w którym znajduje się wybrany przeciwnik, wywołuje potężne uderzenie pioruna, zadające 10...50 pkt. obrażeń. Cel i wszyscy sąsiadujący z nim przeciwnicy mają pękniętą zbroję i zostają osłabieni na 5...20 sek. Ten czar ma 25% przebicia pancerza.",
+				"concise": "Elitarny czar. Zadaje 10...50 pkt. obrażeń. Trafia też pobliskich wrogów. Wywołuje pęknięcie zbroi i osłabienie (na 5...20 sek.). 25% przebicia pancerza."
+			},
+			"ru": {
+				"name": "Thunderclap",
+				"description": "Элитное заклинание. Создает мощную ударную волну рядом с целью. Наносит 10...50 урона молнией цели и всем ближайшим врагам. Прерывает затронутых врагов и накладывает состояния Cracked Armor и Weakness на 5...20 сек. Заклинание получает 25% пробития брони.",
+				"concise": "Элитное заклинание. Наносит 10...50 урона молнией. Затрагивает соседних врагов. Накладывает состояния Cracked Armor и Weakness (5...20 сек). Прерывает. 25% пробития брони."
+			},
+			"bork": {
+				"name": "Thoonderclaep",
+				"description": "Ileete-a Spell. Creaete-a a maesseefe-a shuckvaefe-a aet taerget fue-a's lucaeshun. Deaels 10...50 leeghtneeng daemaege-a tu taerget und aell neaerby fues. Stroock fues aere-a interroopted und sooffffer frum Craecked Aermur und Veaekness fur 5...20 secunds. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Ileete-a Spell. Deaels 10...50 leeghtneeng daemaege-a. Aelsu streekes neaerby fues. Inffleects Craecked Aermur und Veaekness (5...20 secunds). Cooses interroopt. 25% aermur penetraeshun."
 			}
 		}
 	}

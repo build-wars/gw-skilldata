@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1.5,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "古朗之婪",
+				"description": "精英物品法术。 托住库戎的骨灰，最多维持15...60秒。抛洒他的骨灰时对区域内所有敌人造成15...75伤害并将其击倒。",
+				"concise": "精英物品法术。 （15...60秒）抛洒效果：对区域内所有敌人造成15...75伤害并将其击倒。"
+			},
+			"cht": {
+				"name": "貪婪者古朗",
+				"description": "精英抱持魔法： Hold Kuurong's ashes for up to 15...60 seconds. When you drop his ashes, all foes in the area are struck for 15...75 damage and knocked down.",
+				"concise": "精英抱持魔法： (15...60 seconds.) Drop effect: deals 15...75 damage and knocks-down all foes in the area."
+			},
 			"de": {
+				"name": "Erfassend war Kuurong",
+				"description": "Elite-Gegenstandszauber. Ihr haltet Kuurongs Asche bis zu 15...60 Sekunden lang empor. Wenn Ihr sie fallen lasst, erleiden alle Gegner im Bereich 15...75 Schaden, und sie werden niedergeschlagen.",
+				"concise": "Elite-Gegenstandszauber. (15...60 Sekunden.) Abwerfen-Effekt: Fügt allen Gegnern im Bereich 15...75 Schaden zu und schlägt sie nieder."
+			},
+			"de-guildwiki": {
 				"name": "Erfassend war Kuurong",
 				"description": "Haltet Kurongs<sic/> Asche bis zu 15...60 Sekunden lang. Wenn Ihr seine Asche fallen lasst, erleiden alle Feinde in dem Bereich 15...75 Punkte Schaden und werden zu Boden geworfen.",
 				"concise": "15...60 Sekunden: Fallwirkung: Richtet bei allen Feinden in dem Bereich 15...75 Punkte Schaden an und wirft sie zu Boden."
 			},
 			"en": {
 				"name": "Grasping Was Kuurong",
+				"description": "Elite Item Spell. Hold Kuurong's ashes for up to 15...60 seconds. When you drop his ashes, all foes in the area are struck for 15...75 damage and knocked down.",
+				"concise": "Elite Item Spell. (15...60 seconds.) Drop effect: deals 15...75 damage and knocks-down all foes in the area."
+			},
+			"en-gww": {
+				"name": "Grasping Was Kuurong",
 				"description": "Hold Kuurong's ashes for up to 15...60 seconds. When you drop his ashes, all foes in the area are struck for 15...75 damage and knocked down.",
 				"concise": "(15...60 seconds.) Drop effect: deal 15...75 damage and knocks-down all foes in the area."
 			},
+			"es": {
+				"name": "Codicioso sea Kuurong",
+				"description": "Conjuro con objeto de élite. Llevas las cenizas de Kuurong durante 15...60 segundos. Al soltarlas, todos los enemigos de la zona reciben 15...75 de daño y son derribados.",
+				"concise": "Conjuro con objeto de élite. (15...60 segundos). Efecto al soltarse: hace 15...75 de daño y derriba a todos los enemigos de la zona."
+			},
 			"fr": {
+				"name": "Kuurong était avide",
+				"description": "Sort d'altération d'objet d'élite. Vous tenez les cendres de Kuurong pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis adjacents reçoivent 15...75 points de dégâts et sont assommés.",
+				"concise": "Sort d'altération d'objet d'élite. (15...60 secondes.) Effet si lâché : inflige 15...75 points de dégâts et renverse tous les ennemis dans la zone."
+			},
+			"fr-gwiki": {
 				"name": "Kuurong était avide",
 				"description": "Vous tenez les cendres de ''Kuurong'' pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis dans la zone reçoivent 15...75 points de dégâts et sont assommés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Kuurong era Avido",
+				"description": "Magia d'Élite Altera-oggetto. Stringi le ceneri di Kuurong fino a 15...60 secondo/i. Quando le lasci cadere, tutti i nemici nell'area subiscono 15...75 danni e vengono atterrati.",
+				"concise": "Magia d'Élite Altera-oggetto. (15...60 secondo/i). Effetto di rilascio: infligge 15...75 danni e atterra tutti i nemici nell'area."
+			},
+			"jp": {
+				"name": "クーラン グラスプ",
+				"description": "エリート アイテムスペル： クウロンの灰を最大15...60秒間保持します。彼の灰を落とすと、エリア内のすべての敵に15...75ダメージを与え、ノックダウンします。",
+				"concise": "エリート アイテムスペル： （15...60秒）落下効果：エリア内のすべての敵に15...75ダメージを与え、ノックダウンさせます。"
+			},
+			"kr": {
+				"name": "쿠롱의 구속",
+				"description": "엘리트 드롭아이템. 15...60초 동안 유지되는 쿠롱의 마력석을 만듭니다. 쿠롱의 마력석을 바닥에 떨어뜨리면 부근의 모든 적은 15...75의 대미지를 입고 바닥에 넘어집니다.",
+				"concise": "엘리트 드롭아이템. (15...60초) 드롭 효과: 해당 지역 내 모든 적에게 15...75의 대미지를 주고, 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Zachłannym Był Kuurong",
+				"description": "Elitarny czar z przedmiotu. Trzymaj prochy Kuuronga przez maksymalnie 15...60 sek. Gdy upuścisz jego prochy, wszyscy przeciwnicy w okolicy otrzymują 15...75 pkt. obrażeń od oraz zostają powaleni.",
+				"concise": "Elitarny czar z przedmiotu. (15...60 sek.) Efekt upuszczenia: wszystkim przeciwnikom w okolicy zadaje po 15...75 pkt. obrażeń i powala ich."
+			},
+			"ru": {
+				"name": "Grasping Was Kuurong",
+				"description": "Элитное артефактное заклинание. Удерживайте Kuurong's ashes до 15...60 сек. Когда вы бросаете прах, все враги в области получают 15...75 ед. урона и оказываются опрокинутыми.",
+				"concise": "Элитное артефактное заклинание. (15...60 сек.) Эффект броска: наносит 15...75 ед. урона и опрокидывает всех врагов в области."
+			},
+			"bork": {
+				"name": "Graespeeng Vaes Koooorung",
+				"description": "Ileete-a Item Spell. Huld Koooorung's aeshes fur up tu 15...60 secunds. Vhee yuoo drup hees aeshes, aell fues in zee aerea aere-a stroock fur 15...75 daemaege-a und knucked doon.",
+				"concise": "Ileete-a Item Spell. (15...60 secunds.) Drup iffffect: deaels 15...75 daemaege-a und knucks-doon aell fues in zee aerea."
 			}
 		}
 	}

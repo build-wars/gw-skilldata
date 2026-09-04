@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "破碎风暴",
+				"description": "精英咒文。 移除目标敌人所有的「增益魔法」。每成功移除一项，「破碎风暴」的恢复时间延长 7秒。",
+				"concise": "精英咒文。 移除目标敌人所有的「增益魔法」。每成功移除一项，「破碎风暴」的冷却时间就延长7秒。"
+			},
+			"cht": {
+				"name": "粉碎風暴",
+				"description": "精英咒文魔法： 使目標敵人失去所有「加持」。利用此方式每成功移除一項「加持」，此技能的回復時間增加 7 秒。",
+				"concise": "精英咒文魔法： 使目標敵人失去所有「加持」。利用此方式每成功移除一項「加持」，此技能的回復時間增加 7 秒。"
+			},
 			"de": {
+				"name": "Sturm zerschlagen",
+				"description": "Elite-Zauber. Der Gegner verliert alle Verzauberungen. Für jede Verzauberung, die auf diese Art entfernt wird, wird Sturm zerschlagen zusätzlich 7 Sekunde[n] lang deaktiviert.",
+				"concise": "Elite-Zauber. Entfernt alle Verzauberungen. Entfernungskosten: Sturm zerschlagen wird für jede entfernte Verzauberung für +7 Sekunde[n] deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Sturm zerschlagen",
 				"description": "Der Gegner verliert alle Verzauberungen. Für jede Verzauberung, die auf diese Art entfernt wird, wird Sturm zerschlagen zusätzlich 7 Sekunden lang deaktiviert.",
 				"concise": "Entfernt alle Verzauberungen. <gray>Entfernungskosten: Sturm zerschlagen wird für jede entfernte Verzauberung für +7 Sekunden deaktiviert.</gray>"
 			},
 			"en": {
 				"name": "Shatter Storm",
+				"description": "Elite Spell. Target foe loses all enchantments. For each enchantment removed this way, Shatter Storm is disabled for an additional 7 seconds.",
+				"concise": "Elite Spell. Removes all enchantments. Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed."
+			},
+			"en-gww": {
+				"name": "Shatter Storm",
 				"description": "Target foe loses all enchantments. For each enchantment removed this way, Shatter Storm is disabled for an additional 7 seconds.",
 				"concise": "Removes all enchantments. <gray>Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed.</gray>"
 			},
+			"es": {
+				"name": "Tormenta fragmentadora",
+				"description": "Conjuro de élite. El enemigo objetivo pierde todos los encantamientos. Por cada uno que pierda así, la Tormenta fragmentadora estará desactivada durante 7 segundos.",
+				"concise": "Conjuro de élite. Elimina todos los encantamientos. Coste de la eliminación: la Tormenta fragmentadora está desactivada durante +7 segundos por cada encantamiento eliminado."
+			},
 			"fr": {
+				"name": "Tempête destructrice",
+				"description": "Sort d'élite. La cible ennemie perd tous ses enchantements. Pour chaque enchantement levé de cette manière, la compétence est inutilisable pendant 7 secondes supplémentaires.",
+				"concise": "Sort d'élite. Supprime tous les enchantements. Coût de la suppression : la Tempête destructrice est désactivée pendant 7 secondes pour chaque enchantement supprimé."
+			},
+			"fr-gwiki": {
 				"name": "Tempête destructrice",
 				"description": "La cible ennemie perd tous ses enchantements. Pour chaque enchantement levé de cette manière, la compétence est inutilisable pendant 7 secondes supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tempesta Distruttrice",
+				"description": "Magia d'Élite. L'obiettivo nemico perde tutti gli incantesimi. Per ogni incantesimo così rimosso, la Tempesta Distruttrice viene disattivata per 7 secondo[i] in più.",
+				"concise": "Magia d'Élite. Rimuove tutti gli incantesimi. Costo di rimozione: Tempesta Distruttrice viene disattivata per +7 secondo[i] per ogni incantesimo rimosso."
+			},
+			"jp": {
+				"name": "シャター ストーム",
+				"description": "エリート スペル： ターゲットした敵にかけられている強化スペルをすべて解除します。この効果により解除した強化スペルごとに、このスペルの再使用時間が 7 秒増加します。",
+				"concise": "エリート スペル： かけられている強化スペルをすべて解除します。解除コスト： 解除した強化スペルごとに、このスペルの再使用時間が 7 秒増加します。"
+			},
+			"kr": {
+				"name": "무효화 폭풍",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에 걸린 모든 강화 마법을 무효화합니다. 무효화한 강화 마법 하나당 이 스킬의 재활성 시간이 7초씩 늘어납니다.",
+				"concise": "엘리트 마법. 강화 마법을 모두 무효화합니다. 무효화 대가: 무효화한 강화 마법 하나당 이 스킬의 재활성 시간이 7초씩 늘어납니다."
+			},
+			"pl": {
+				"name": "Burza Rozproszenia",
+				"description": "Elitarny czar. Wybrany przeciwnik traci wszystkie zaklęcia. Za każde zaklęcie zdjęte w ten sposób, Burza Rozproszenia zostaje wyłączona na dodatkowe 7 sek.",
+				"concise": "Elitarny czar. Usuwa wszystkie zaklęcia. Koszt usunięcia: Burza Rozproszenia jest niedostępna przez +7 sek. za każde zdjęte zaklęcie."
+			},
+			"ru": {
+				"name": "Shatter Storm",
+				"description": "Элитное заклинание. Выбранный противник теряет все наложенные на него чары. За каждые чары, снятые при помощи этого умения, Shatter Storm будет недоступен дополнительно в течение 7 сек.",
+				"concise": "Элитное заклинание. Снимает все чары. Цена снятия: Shatter Storm будет недоступен дополнительно на 7 сек за каждые снятые чары."
+			},
+			"bork": {
+				"name": "Shaetter Sturm",
+				"description": "Ileete-a Spell. Taerget fue-a luses aell inchuntments. Fur iaech inchuntment remufed thees vaey, Shaetter Sturm is deesaebled fur un aeddeeshunael 7 secunds.",
+				"concise": "Ileete-a Spell. Remufes aell inchuntments. Remufael cust: Shaetter Sturm is deesaebled fur +7 secunds fur iaech inchuntment remufed."
 			}
 		}
 	}

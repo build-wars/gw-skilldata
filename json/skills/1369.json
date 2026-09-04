@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "雷光箭",
+				"description": "咒文。 向敌人射出一支雷光箭，命中时对其造成5...50点闪电伤害。如果击中移动中的敌人，将对其造成额外的5...50点闪电伤害。此法术有25%的护甲穿透效果。",
+				"concise": "咒文。 向敌人射出一支雷光箭，命中时对其造成5...50点闪电伤害。如果击中移动中的敌人，将对其造成额外的5...50点闪电伤害。此法术有25%的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "雷光之箭",
+				"description": "咒文魔法： 射出雷光之箭，在命中目標時對其造成 5...50 閃電傷害。若該目標正在移動，則對其額外增加 5...50 閃電傷害。此「魔法」具有 25% 防禦穿透效果。",
+				"concise": "咒文魔法： 射出雷光之箭，在命中目標時對其造成 5...50 閃電傷害。若該目標正在移動，則對其額外增加 5...50 閃電傷害。此「魔法」具有 25% 防禦穿透效果。"
+			},
 			"de": {
+				"name": "Blitzstrahl",
+				"description": "Zauber. Sendet einen Blitzstrahl aus, der, falls er trifft, 5...50 Punkt[e] Blitzschaden zufügt. Falls Blitzstrahl einen angreifenden Gegner trifft, erleidet dieser 5...50 Punkt[e] zusätzlichen Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Geschoss: Richtet 5...50 Punkt[e] Blitzschaden an. Richtet zusätzlich 5...50 Punkt[e] Blitzschaden an, falls der Gegner sich bewegt. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Blitzstrahl",
 				"description": "Sendet einen Blitzstrahl aus, der, falls er trifft, 5...50 Punkte Blitzschaden zufügt. Falls Blitzstrahl einen sich bewegenden Gegner trifft, erleidet dieser 5...50 Punkte zusätzlichen Blitzschaden. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Geschoss: Richtet 5...50 Punkte Blitzschaden an. Richtet zusätzlich 5...50 Punkte Blitzschaden an, falls der Gegner sich bewegt. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Lightning Bolt",
+				"description": "Spell. Send out a Lightning Bolt that strikes for 5...50 lightning damage if it hits. If Lightning Bolt strikes a moving foe, that foe is struck for 5...50 additional lightning damage. This spell has 25% armor penetration.",
+				"concise": "Spell. Projectile: deals 5...50 lightning damage. Deals 5...50 more lightning damage if target foe is moving. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Lightning Bolt",
 				"description": "Send out a Lightning Bolt that strikes for 5...50 lightning damage if it hits. If Lightning Bolt strikes a moving foe, that foe is struck for 5...50 additional lightning damage. This spell has 25% armor penetration.",
 				"concise": "Projectile: deals 5...50 lightning damage. Deals 5...50 more lightning damage if target foe is moving. 25% armor penetration."
 			},
+			"es": {
+				"name": "Descarga eléctrica",
+				"description": "Conjuro. Lanzas una Descarga eléctrica que hace 5...50 de daño de relámpago si acierta. Si impacta a un enemigo que esté moviéndose, le harás 5...50 de daño de relámpago extra. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Proyectil: hace 5...50 de daño de relámpago. Hace 5...50 más de daño de relámpago si el objetivo se está moviendo. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Eclair",
+				"description": "Sort. Lance un Eclair qui inflige 5...50 points de dégâts de la foudre s'il touche sa cible. Si l'Eclair touche un ennemi en mouvement, celui-ci subit 5...50 points de dégâts de la foudre en plus. Ce sort a une pénétration d'armure de 25%.",
+				"concise": "Sort. Projectile : inflige 5...50 points de dégâts de la foudre. Inflige 5...50 points de dégâts de la foudre supplémentaires si la cible se déplace. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Eclair",
 				"description": "Lance un ''Eclair'' qui inflige 5...50 points de dégâts de la foudre s'il touche sa cible. Si lEclair'' touche un ennemi en mouvement, celui-ci reçoit 5...50 points de dégâts de la foudre en plus. Ce sort a une pénétration d'armure de 25%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Saetta",
+				"description": "Magia. Lanci una Saetta che infligge 5...50 danni da fulmine se va a segno. Se colpisce un nemico in movimento, gli infligge 5...50 danni da fulmine in più. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia. Proiettile: danni da fulmine inferti: 5...50. Danni da fulmine aggiuntivi se l'obiettivo nemico si sta muovendo: 5...50. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ライトニング ボルト",
+				"description": "スペル： ターゲットした敵に、命中すると 5...50 のライトニング ダメージを与えるライトニング ボルトを発射します。敵が移動中の場合、5...50 の追加ライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： 遠投攻撃： 5...50 のライトニング ダメージを与えます。ターゲットした敵が移動中の場合、5...50 の追加ライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개 화살",
+				"description": "마법. 대상 지정: 적. 대상에게 번개 화살을 날려 명중하면 5...50의 번개 대미지를 줍니다. 그 적이 이동 중이라면 5...50의 번개 대미지를 추가로 줍니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 발사체: 5...50의 번개 대미지를 줍니다. 대상이 이동 중이면 5...50의 번개 대미지를 추가로 줍니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Błyskawica",
+				"description": "Czar. Wystrzeliwujesz Błyskawicę, która po trafieniu zadaje 5...50 pkt. obrażeń od błyskawic. Jeżeli Błyskawicą zostanie trafiony poruszający się przeciwnik, to otrzyma on dodatkowe 5...50 pkt. obrażeń od błyskawic. Ten czar posiada 25% przebicie pancerza.",
+				"concise": "Czar. Pocisk: zadaje 5...50 pkt. obrażeń od błyskawic. Zadaje 5...50 pkt. dodatkowych obrażeń od błyskawic, jeżeli wybrany przeciwnik jest w ruchu. 25% przebicie pancerza."
+			},
+			"ru": {
+				"name": "Lightning Bolt",
+				"description": "Заклинание. Бросок молнией, которая наносит 5...50 ед. урона силой молнии в случае попадания. Если Lightning Bolt попадает в двигающегося противника, это противник получает дополнительно 5...50 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Метательный снаряд: наносит 5...50 ед. урона силой молнии. Наносит дополнительно 5...50 ед. урона силой молнии, если выбранный противник двигался. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Leeghtneeng Bult",
+				"description": "Spell. Send oooot a Leeghtneeng Bult thaet streekes fur 5...50 leeghtneeng daemaege-a iff it heets. Iff Leeghtneeng Bult streekes a mufeeng fue-a, thaet fue-a is stroock fur 5...50 aeddeeshunael leeghtneeng daemaege-a. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Spell. Prujecteele-a: deaels 5...50 leeghtneeng daemaege-a. Deaels 5...50 mure-a leeghtneeng daemaege-a iff taerget fue-a is mufeeng. 25% aermur penetraeshun."
 			}
 		}
 	}

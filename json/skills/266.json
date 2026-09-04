@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "宁静祝福",
+				"description": "精英增益魔法。 在1...3秒之内，使友方目标的「能量再生」提高 1点。如果友方目标对敌人施法或对敌人造成任何伤害，则「宁静祝福」效果消失。",
+				"concise": "精英增益魔法。 在 1...3秒 之内，使友方目标的「能量再生」提高1点。如果友方目标对敌人施法或对敌人造成任何伤害，则「宁静祝福」效果消失。"
+			},
+			"cht": {
+				"name": "平靜與和諧",
+				"description": "精英加持魔法： 持續1...3秒，移除目標盟友身上0...9個病症以及降咒，同時盟友身上的降咒和病症持續時間減少90%。此技能會使懲戒祈禱技能20秒無法使用。",
+				"concise": "精英加持魔法： 持續1...3秒，移除目標盟友身上0...9個病症以及降咒，同時盟友身上的降咒和病症持續時間減少90%。此技能會使懲戒祈禱技能20秒無法使用。"
+			},
 			"de": {
+				"name": "Frieden und Harmonie",
+				"description": "Elite-Verzauberung. Der Verbündete (bzw. Ihr selbst) verliert 0...9 Zustände und Verhexungen. 1...3 Sekunde[n] lang enden Zustände und Verhexungen bei diesem Verbündeten um 90% schneller. All Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
+				"concise": "Elite-Verzauberung. Der Verbündete (bzw. Ihr selbst) verliert 0...9 Zustände und Verhexungen. Zustände und Verhexungen beim Verbündeten enden um 90% schneller (1...3 Sekunde[n]). Deaktiviert Eure Peinigungsgebete (20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Frieden und Harmonie",
 				"description": "Der Verbündete (bzw. Ihr selbst) verliert 0...9 Zustände und Verhexungen. 1...3 Sekunden lang enden Zustände und Verhexungen bei diesem Verbündeten um 90% schneller. All Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
 				"concise": "Der Verbündete (bzw. Ihr selbst) verliert 0...9 Zustände und Verhexungen. Zustände und Verhexungen beim Verbündeten enden um 90% schneller (1...3 Sekunden). <gray>Deaktiviert Eure Peinigungsgebete (20 Sekunde<sic/>).</gray>"
 			},
 			"en": {
 				"name": "Peace and Harmony",
+				"description": "Elite Enchantment Spell. Target ally loses 0...9 conditions and hexes. For 1...3 seconds, conditions and hexes expire 90% faster on that ally. All of your Smiting Prayers are disabled for 20 seconds.",
+				"concise": "Elite Enchantment Spell. Target ally loses 0...9 conditions and hexes. Conditions and hexes expire 90% faster on that ally (1...3 seconds). Disables your Smiting Prayers (20 seconds)."
+			},
+			"en-gww": {
+				"name": "Peace and Harmony",
 				"description": "Target ally loses 0...9 condition[s] and hex[es]. For 1...3 second[s], conditions and hexes expire 90% faster on that ally. All your Smiting Prayers are disabled for 20 seconds.",
 				"concise": "Target ally loses 0...9 condition[s] and hex[es]. Conditions and hexes expire 90% faster on that ally (1...3 second[s]). <gray>Disables your Smiting Prayers (20 seconds).</gray>"
 			},
+			"es": {
+				"name": "Paz y armonía",
+				"description": "Conjuro con encantamiento de élite. El aliado objetivo pierde 0...9 condición[\"condiciones\"] y maleficios. Durante 1...3 segundos, las condiciones y maleficios que ese aliado tenga acaban un 90% antes. Todas tus plegarias de ataque quedan desactivadas durante 20 segundos.",
+				"concise": "Conjuro con encantamiento de élite. El aliado objetivo pierde 0...9 condición[\"condiciones\"] y maleficios. Las condiciones y maleficios que ese aliado tenga acaban un 90% antes (1...3 segundos). Se desactivan tus plegarias de ataque (20 segundos)."
+			},
 			"fr": {
+				"name": "Paix et harmonie",
+				"description": "Enchantement d'élite. La cible alliée perd 0...9 conditions et maléfices. Pendant 1...3 secondes, les conditions et maléfices expirent 90% plus vite sur cet allié. Toutes vos Prières de châtiment sont désactivées pendant 20 secondes.",
+				"concise": "Enchantement d'élite. La cible alliée perd 0...9 conditions et maléfices. Les conditions et maléfices expirent 90% plus vite sur cet allié (1...3 secondes). Désactives vos Prières de châtiment (20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Paix et harmonie",
 				"description": "La cible alliée perd 0...9 condition(s) et maléfice(s). Pendant 1...3 seconde(s), les conditions et maléfices expirent 90% plus vite sur cet allié. Toutes vos Prières de châtiment sont désactivées pendant 20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pace e Armonia",
+				"description": "Incantesimo d'Élite. L'obiettivo (un alleato o te stesso) perde 0...9 condizione[i] e fattura[e]. Per 1...3 secondo[i], le condizioni e le fatture su quell'alleato si esauriscono con velocità superiore del 90%. Tutte le tue Preghiere Punitive vengono disattivate per 20 secondi.",
+				"concise": "Incantesimo d'Élite. L'obiettivo (un alleato o te stesso) perde 0...9 condizione[i] e fattura[e]. Incremento velocità di esaurimento condizioni e fatture su quell'alleato: 90% (1...3 secondo[i]). Disattiva le tue Preghiere Punitive (20 secondi)."
+			},
+			"jp": {
+				"name": "ピース アンド ハーモニー",
+				"description": "エリート強化スペル： ターゲットした味方にかけられている「状態異常」および弱体化スペルを 0...9 個解除します。1...3 秒間、この味方にかけられる「状態異常」および弱体化スペルの持続時間が 90% 減少します。プレイヤーは20秒間、「ホーリー」の特性スキルを使用することができなくなります。",
+				"concise": "エリート強化スペル： ターゲットした味方にかけられている「状態異常」および弱体化スペルを 0...9 個解除します。この味方にかけられる「状態異常」および弱体化スペルの持続時間が 90% 減少します (1...3 秒)。プレイヤーは「ホーリー」の特性スキルを使用することができなくなります (20秒)。"
+			},
+			"kr": {
+				"name": "평화의 기도",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 대상에 걸린 상태이상과 약화 마법 0...9개를 무효화하고, 1...3초 동안 대상에 걸린 상태이상과 약화 마법의 지속 시간이 90% 줄어듭니다. 천벌 특성 스킬을 20초 동안 사용할 수 없습니다.",
+				"concise": "엘리트 강화 마법. 대상 아군에 걸린 상태이상과 약화 마법 0...9개를 제거합니다. 대상에 걸린 상태이상과 약화 마법의 지속 시간이 90% 줄어듭니다.(1...3초) 자신은 천벌 특성 스킬을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Pokój i Harmonia",
+				"description": "Elitarne zaklęcie (czar). Wybrany sojusznik traci klątwy i przypadłości w liczbie 0...9. Przez 1...3 sek. przypadłości i klątwy na tym sojuszniku trwają o 90% krócej. Wszystkie twoje umiejętności związane z Modlitwami Ofensywnymi zostają zablokowane na 20 sek.",
+				"concise": "Elitarne zaklęcie (czar). Wybrany sojusznik traci klątwy i przypadłości w liczbie 0...9. Przypadłości i klątwy na tym sojuszniku trwają o 90% krócej (1...3 sek.). Wyłącza twoje umiejętności Modlitw Ofensywnych (20 sek.)."
+			},
+			"ru": {
+				"name": "Peace and Harmony",
+				"description": "Элитное заклинание-чары. С выбранного союзника снимаются состояния и проклятья (0...9). В течение 1...3 сек наложенные на этого союзника состояния и проклятья заканчивают свое действие на 90% быстрее. Все ваши умения, связанные с талантом Smithing Prayes, будут недоступны в течение 20 сек.",
+				"concise": "Элитное заклинание-чары. С выбранного союзника снимаются состояния и проклятья (0...9). Состояния и проклятья, наложенные на этого союзника, заканчиваются на 90% быстрее (1...3 сек). Все ваши умения, связанные с талантом Smithing Prayes, будут недоступны (20 сек)."
+			},
+			"bork": {
+				"name": "Peaece-a und Haermuny",
+				"description": "Ileete-a Inchuntment Spell. Taerget aelly luses 0...9 cundeeshuns und hexes. Fur 1...3 secunds, cundeeshuns und hexes ixpure-a 90% faester oon thaet aelly. Aell ooff yuoor Smeeteeng Praeyers aere-a deesaebled fur 20 secunds.",
+				"concise": "Ileete-a Inchuntment Spell. Taerget aelly luses 0...9 cundeeshuns und hexes. Cundeeshuns und hexes ixpure-a 90% faester oon thaet aelly (1...3 secunds). Deesaebles yuoor Smeeteeng Praeyers (20 secunds)."
 			}
 		}
 	}

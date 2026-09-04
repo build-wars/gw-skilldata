@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵镜之光",
+				"description": "咒文。 治疗目标盟友15...90点生命值。如果你在某缚灵的「音波」范围内，你将会获得额外15...90点生命值。",
+				"concise": "咒文。 治疗目标盟友15...90点生命值。如果你在某缚灵的「音波」范围内，你将会获得额外15...90点生命值。"
+			},
+			"cht": {
+				"name": "靈鏡之光",
+				"description": "咒文魔法： 治癒目標其他盟友 15...90 體力。若你的音量所及範圍內有「靈」存在，則你也同時獲得 15...90 體力。",
+				"concise": "咒文魔法： 治癒目標其他盟友 15...90 體力。若你的音量所及範圍內有「靈」存在，則你也同時獲得 15...90 體力。"
+			},
 			"de": {
+				"name": "Geisterspiegel-Licht",
+				"description": "Zauber. Der Verbündete wird um 15...90 Lebenspunkt[e] geheilt. Wenn Ihr Euch in Hörweite eines Geistes befindet, werdet Ihr ebenfalls um 15...90 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Heilt um 15...90 Lebenspunkt[e]. Ihr erhaltet 15...90 Lebenspunkt[e], falls Ihr Euch in Hörweite eines Geistes befindet. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Geisterspiegel-Licht",
 				"description": "Der Verbündete wird um 15...90 Lebenspunkte geheilt. Wenn Ihr Euch in der Nähe eines Geistes befindet, werdet Ihr ebenfalls um 15...90 Lebenspunkte geheilt.",
 				"concise": "Heilt um 15...90 Lebenspunkte. Ihr erhaltet 15...90 Lebenspunkte, falls Ihr Euch in Hörweite eines Geistes befindet. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Ghostmirror Light",
+				"description": "Spell. Target other ally is healed for 15...90 Health. If you are within earshot of a spirit, you are also healed for 15...90 Health.",
+				"concise": "Spell. Heals for 15...90. You gain 15...90 Health if you are within earshot of a spirit. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Ghostmirror Light",
 				"description": "Target other ally is healed for 15...90 Health. If you are within earshot of a spirit, you are also healed for 15...90 Health.",
 				"concise": "Heals for 15...90. You gain 15...90 Health if you are within earshot of a spirit. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Luz de espejo fantasmal",
+				"description": "Conjuro. Curas a un aliado 15...90 de salud. Si estás al alcance del oído de un espíritu, tú te curarás también 15...90 de salud.",
+				"concise": "Conjuro. Cura 15...90 de salud. Ganas 15...90 de salud si hay algún espíritu al alcance del oído. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Lumière du miroir fantôme",
+				"description": "Sort. L'allié visé est soigné de 15...90 points de vie. Si vous êtes à portée de voix d'un esprit, vous êtes aussi soigné[f:\"soignée\"] de 15...90 points de vie.",
+				"concise": "Sort. Soigne de 15...90 points de vie. Vous gagnez 15...90 points de vie si vous êtes à portée de voix d'un esprit. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Lumière du miroir fantôme",
 				"description": "L'allié visé est soigné de 15...90 points de vie. Si vous êtes à portée de voix d'un esprit, vous êtes aussi soigné de 15...90 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Luce dello Specchio Fantasma",
+				"description": "Magia. L'obiettivo alleato viene curato di 15...90 Punto[i] Salute; se ti trovi a portata d'orecchio di uno Spirito, anche tu vieni curato di 15...90 Punto[i] Salute.",
+				"concise": "Magia. Cure: 15...90. Ottieni 15...90 Punto[i] Salute se ti trovi nella portata d'orecchio di uno Spirito. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ゴーストミラー ライト",
+				"description": "スペル： ターゲットした自分以外の味方は、体力が 15...90 回復します。声の届く範囲内に精霊がいた場合、プレイヤーの体力も 15...90 回復します。",
+				"concise": "スペル： 体力が 15...90 回復します。声の届く範囲内に精霊がいる場合、プレイヤーも 15...90 の体力を獲得します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "유령거울의 빛",
+				"description": "마법. 대상 지정: 아군. 대상은 15...90의 체력을 회복합니다. 가청 범위 내에 영혼이 있으면 자신도 15...90의 체력을 회복합니다. 이 마법은 자신에게 사용할 수 없습니다.",
+				"concise": "마법. 15...90의 체력을 회복시킵니다. 가청 범위 내에 영혼이 있으면 자신도 15...90의 체력을 얻습니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Światło Lustrzanego Ducha",
+				"description": "Czar. Wybrany sojusznik inny od ciebie otrzymuje 15...90 pkt. żywotności. Jeżeli znajdujesz się w pobliżu ducha, także i ty otrzymujesz 15...90 pkt. żywotności.",
+				"concise": "Czar. Dodaje 15...90 pkt. żywotności. Otrzymujesz 15...90 pkt. żywotności, jeżeli jesteś w zasięgu słuchu ducha. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Ghostmirror Light",
+				"description": "Заклинание. Выбранный союзник (но не вы) исцеляется на 15...90 ед. здоровья. Если вы находитесь зоне слышимости какого-либо духа, вы также исцеляетесь на 15...90 ед. здоровья.",
+				"concise": "Заклинание. Исцеляет на 15...90 ед. здоровья. Вы получаете 15...90 ед. здоровья, если вы находитесь в зоне слышимости духа. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Ghustmurrur Leeght",
+				"description": "Spell. Taerget oozeer aelly is heaeled fur 15...90 Heaelt. Iff yuoo aere-a veetheen iaershut ooff a spureet, yuoo aere-a aelsu heaeled fur 15...90 Heaelt.",
+				"concise": "Spell. Heaels fur 15...90. Yuoo gaeeen 15...90 Heaelt iff yuoo aere-a veetheen iaershut ooff a spureet. Cunnut selff-taerget."
 			}
 		}
 	}

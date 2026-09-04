@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "回春术",
+				"description": "咒文。 移除友方目标身上的一个「症状」（症状可为：中毒、疾病、盲目、灼烧、晕眩、流血、残废、重伤、虚弱）。每剩余一个「症状」，则为其恢复5...70点生命值。",
+				"concise": "咒文。 移除友方目标身上的一个「症状」（症状可为：中毒、疾病、盲目、灼烧、晕眩、流血、残废、重伤）。每剩余一个「症状」，则为其恢复5...70点生命值。"
+			},
+			"cht": {
+				"name": "治療病痛",
+				"description": "咒文魔法： 消除目標盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每剩餘一項「病症」，該盟友回復 5...70 體力。",
+				"concise": "咒文魔法： 消除目標盟友身上的一項「病症」（中毒、疾病、盲目、暈眩、流血、殘廢、重傷）。每剩餘一項「病症」，該盟友回復 5...70 體力。"
+			},
 			"de": {
+				"name": "Leiden heilen",
+				"description": "Zauber. Entfernt einen Zustand (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung oder Tiefe Wunde) vom Verbündeten (bzw. Euch selbst). Für jeden verbleibenden Zustand wird dieser Verbündete um 5...70 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Entfernt einen Zustand. Entfernungswirkung: Heilt um 5...70 Lebenspunkt[e] pro verbleibendem Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Leiden heilen",
 				"description": "Entfernt einen Zustand (Gift, Krankheit, Blindheit, Benommenheit, Blutung, Verkrüppelung, Brennen, Schwäche, Beschädigte Rüstung oder Tiefe Wunde) vom Verbündeten (bzw. Euch selbst). Für jeden verbleibenden Zustand wird dieser Verbündete um 5...70 Lebenspunkte geheilt.",
 				"concise": "Entfernt einen Zustand. Entfernungswirkung: Heilt um 5...70 Lebenspunkte pro verbleibendem Zustand."
 			},
 			"en": {
 				"name": "Mend Ailment",
+				"description": "Spell. Remove one condition (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor or Deep Wound) from target ally. For each remaining condition, that ally is healed for 5...70 Health.",
+				"concise": "Spell. Removes a condition. Removal effect: heals for 5...70 for each remaining condition."
+			},
+			"en-gww": {
+				"name": "Mend Ailment",
 				"description": "Remove one condition (Poison, Disease, Blindness, Dazed, Bleeding, Crippled, Burning, Weakness, Cracked Armor, or Deep Wound) from target ally. For each remaining Condition, that ally is healed for 5...70 Health.",
 				"concise": "Removes a condition. Removal effect: heals for 5...70 for each remaining condition."
 			},
+			"es": {
+				"name": "Curar mal",
+				"description": "Conjuro. Quita una condición (veneno, enfermedad, ceguera, aturdimiento, hemorragia, lisiadura, quemadura, debilidad, armadura rota o herida grave) del objetivo (otro aliado o tú mismo), que recuperará 5...70 de salud por cada condición que aún le quede.",
+				"concise": "Conjuro. Elimina una condición. Efecto de la eliminación: cura 5...70 de salud por cada condición restante."
+			},
 			"fr": {
+				"name": "Guérison des affections",
+				"description": "Sort. Supprime une condition (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse, Armure brisée ou Blessure profonde) affectant la cible (un allié ou vous-même). Pour chaque condition restante, cette cible est soignée de 5...70 points de vie.",
+				"concise": "Sort. Supprime une condition. Effet de la suppression : soigne de 5...70 points de vie par condition restante."
+			},
+			"fr-gwiki": {
 				"name": "Guérison des affections",
 				"description": "Supprime une condition (Poison, Maladie, Aveuglement, Stupeur, Saignement, Infirmité, Brûlure, Faiblesse ou Blessure profonde) affectant la cible (un allié ou vous-même). Pour chaque condition restante, cette cible est soignée de 5...70 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Cura Malattia",
+				"description": "Magia. Rimuovi una condizione (Veleno, Malattia, Accecamento, Stordimento, Emorragia, Storpiatura, Bruciatura, Debolezza, Armatura Incrinata o Ferita Profonda) dall'obiettivo alleato. Per ogni condizione rimanente, quell'alleato viene curato di 5...70 Punto[i] Salute.",
+				"concise": "Magia. Rimuove una condizione. Effetto della rimozione: cura di 5...70 per ogni condizione rimasta."
+			},
+			"jp": {
+				"name": "メンド エイル",
+				"description": "スペル： ターゲットした味方にかけられている「状態異常 (毒、疾病、盲目、放心、出血、不自由、火傷、衰弱、防具破損、または重傷) 」を1個解除します。解除することのできなかった「状態異常」ごとに、その味方は体力が 5...70 回復します。",
+				"concise": "スペル： かけられている「状態異常」を1個解除します。解除効果： 残っている「状態異常」ごとに体力が 5...70 回復します。"
+			},
+			"kr": {
+				"name": "상태 개선",
+				"description": "마법. 대상 지정: 아군. 대상의 상태이상(중독, 질병, 실명, 현혹, 출혈, 다리부상, 화상, 약체, 방어 손상, 중상) 중 하나를 해제합니다. 대상은 남아있는 상태이상 하나당 5...70의 체력을 회복합니다.",
+				"concise": "마법. 상태이상 하나를 해제합니다. 해제 효과: 남아있는 상태이상 하나당 5...70의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Usunięcie Przypadłości",
+				"description": "Czar. Z wybranego sojusznika usuwasz jedną przypadłość (zatrucie, chorobę, oślepienie, oszołomienie, krwawienie, okulawienie, płonięcie, osłabienie, pękniętą zbroję lub głęboką ranę). Za każdą pozostałą przypadłość, osoba ta otrzyma 5...70 pkt. żywotności.",
+				"concise": "Czar. Usuwa przypadłość. Efekt usunięcia: za każdą pozostałą przypadłość dodaje 5...70 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Mend Ailment",
+				"description": "Заклинание. Снимает с выбранного союзника одно состояние (отравление, болезнь, слепоту, ошеломление, кровотечение, хромоту, горение, слабость, треснувшие доспехи или глубокую рану). За каждое оставшееся состояние этот союзник будет исцелен на 5...70 ед. здоровья.",
+				"concise": "Заклинание. Снимает состояние. Эффект снятия: исцеляет на 5...70 ед. здоровья за каждое оставшееся состояние."
+			},
+			"bork": {
+				"name": "Mend Aeeelment",
+				"description": "Spell. Remufe-a oone-a cundeeshun (Pueesun, Deeseaese-a, Bleendness, Daezed, Bleedeeng, Creeppled, Boorneeng, Veaekness, Craecked Aermur oor Deep Vuoond) frum taerget aelly. Fur iaech remaeeeneeng cundeeshun, thaet aelly is heaeled fur 5...70 Heaelt.",
+				"concise": "Spell. Remufes a cundeeshun. Remufael iffffect: heaels fur 5...70 fur iaech remaeeeneeng cundeeshun."
 			}
 		}
 	}

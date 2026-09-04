@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Deft Strike",
+				"description": "远程技能。 If this attack hits, target foe takes 18...30 damage. If that foe has Cracked Armor, it begins Bleeding for 18...30 seconds.",
+				"concise": "远程技能。 Deals 18...30 damage. Inflicts Bleeding condition (18...30 seconds) if target foe has Cracked Armor."
+			},
+			"cht": {
+				"name": "靈巧之擊",
+				"description": "區域攻擊： 此攻擊命中時，目標敵人受到18...30 傷害。若該敵人正遭受「碎甲」，則同時將造成「流血」18...30 秒。",
+				"concise": "區域攻擊： If this attack hits, target foe takes 18...30 damage. If that foe has Cracked Armor, it begins Bleeding for 18...30 seconds."
+			},
 			"de": {
+				"name": "Geschickter Schlag",
+				"description": "Distanzangriff. Wenn dieser Angriff erfolgreich ist, erleidet der Gegner 18...30 Punkt[e] Schaden. Wenn er an Beschädigter Rüstung leidet, blutet er 18...30 Sekunde[n] lang.",
+				"concise": "Distanzangriff. Richtet 18...30 Punkt[e] Schaden an. Verursacht Zustand Blutung (18...30 Sekunde[n]), falls Gegner Beschädigte Rüstung hat."
+			},
+			"de-guildwiki": {
 				"name": "Geschickter Schlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, erleidet der Gegner 18...30 Punkte Schaden. Wenn er an Beschädigter Rüstung leidet, blutet er 18...30 Sekunden lang.",
 				"concise": "Richtet 18...30 Punkte Schaden an. Verursacht Zustand Blutung (18...30 Sekunden), falls Gegner Beschädigte Rüstung hat."
 			},
 			"en": {
 				"name": "Deft Strike",
+				"description": "Ranged Attack. If this attack hits, target foe takes 18...30 damage. If that foe has Cracked Armor, it begins Bleeding for 18...30 seconds.",
+				"concise": "Ranged Attack. Deals 18...30 damage. Inflicts Bleeding condition (18...30 seconds) if target foe has Cracked Armor."
+			},
+			"en-gww": {
+				"name": "Deft Strike",
 				"description": "If this attack hits, target foe takes 18...30 damage. If that foe has Cracked Armor, it begins Bleeding for 18...30 seconds.",
 				"concise": "Deals 18...30 damage. Inflicts Bleeding condition (18...30 seconds) if target foe has Cracked Armor."
 			},
+			"es": {
+				"name": "Golpe diestro",
+				"description": "Ataque a distancia. Si este ataque impacta, haces 18...30 de daño al enemigo objetivo. Si tiene la armadura rota, sufrirá una hemorragia durante 18...30 segundos.",
+				"concise": "Ataque a distancia. Hace 18...30 de daño. Causa hemorragia (18...30 segundos) si el enemigo objetivo tiene la armadura rota."
+			},
 			"fr": {
+				"name": "Frappe habile",
+				"description": "Attaque à distance. Si cette attaque réussit, l'ennemi visé subit 18...30 points de dégâts. S'il possède une Armure brisée, il commence à saigner pendant 18...30 secondes.",
+				"concise": "Attaque à distance. Inflige 18...30 points de dégâts. Inflige le Saignement (18...30 secondes) si l'ennemi visé a une Armure brisée."
+			},
+			"fr-gwiki": {
 				"name": "Frappe habile",
 				"description": "Si cette attaque réussit, l'ennemi visé subit 18...30 points de dégâts. S'il possède une Armure brisée, il commence à saigner pendant 18...30 secondes.",
 				"concise": "Inflige 18...30 points de dégâts. Inflige le Saignement (18...30 secondes) si l'ennemi visé a une Armure brisée."
+			},
+			"it": {
+				"name": "Colpo Svelto",
+				"description": "Attacco dalla Distanza. Se questo attacco va a segno l'obiettivo nemico subisce 18...30 danno[i]; se soffre di Armatura Incrinata subisce Emorragia per 18...30 secondo[i].",
+				"concise": "Attacco dalla Distanza. Danni inferti: 18...30. Condizione inflitta se l'obiettivo nemico ha Armatura Incrinata: Emorragia (18...30 secondo[i])."
+			},
+			"jp": {
+				"name": "デフト ストライク",
+				"description": "遠距離攻撃： 攻撃が成功すると、ターゲットした敵に 18...30 のダメージを与えます。「防具破損」状態の敵は、18...30 秒間「出血」状態になります。",
+				"concise": "遠距離攻撃： 18...30 のダメージを与えます。ターゲットが「防具破損」状態の場合、「出血」状態にします (18...30 秒) 。"
+			},
+			"kr": {
+				"name": "잽싼 강타",
+				"description": "원거리 공격. 공격이 성공하면 적에게 18...30의 대미지를 줍니다. 그 적이 방어 손상 상태라면 18...30초 동안 출혈을 일으킵니다.",
+				"concise": "원거리 공격. 18...30의 대미지를 줍니다. 대상이 방어 손상을 입었으면 출혈을 유발합니다.(18...30초)"
+			},
+			"pl": {
+				"name": "Wprawny Cios",
+				"description": "Atak z dystansu. Jeżeli atak trafi, wybrany przeciwnik otrzymuje 18...30 pkt. obrażeń. Jeżeli cel jest pod działaniem kruchej zbroi, będzie krwawił przez 18...30 sek.",
+				"concise": "Atak z dystansu. Zadaje 18...30 pkt. obrażeń. Wywołuje przypadłość krwawienie (18...30 sek.), jeżeli wybrany przeciwnik ma pękniętą zbroję."
+			},
+			"ru": {
+				"name": "Deft Strike",
+				"description": "Атака на расстоянии. Если эта атака попадает в цель, выбранный противник получает 18...30 ед. урона. Если у этого противника были треснувшие доспехи, он будет кровоточить в течение 18...30 сек.",
+				"concise": "Атака на расстоянии. Наносит 18...30 ед. урона. Вызывает кровотечение (18...30 сек), если у выбранного противника треснувшие доспехи."
+			},
+			"bork": {
+				"name": "Defft Streeke-a",
+				"description": "Runged Aettaeck. Iff thees aettaeck heets, taerget fue-a taekes 18...30 daemaege-a. Iff thaet fue-a haes Craecked Aermur, it begeens Bleedeeng fur 18...30 secunds.",
+				"concise": "Runged Aettaeck. Deaels 18...30 daemaege-a. Inffleects Bleedeeng cundeeshun (18...30 secunds) iff taerget fue-a haes Craecked Aermur."
 			}
 		}
 	}

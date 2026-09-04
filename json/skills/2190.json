@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Magnetic Surge",
+				"description": "增益魔法。 Target foe takes 15...75 damage. If target foe is under the effects of an enchantment, that foe takes 5...15 damage instead.",
+				"concise": "增益魔法。 Deals 15...75 damage if target foe is not enchanted; deals 5...15 damage if target foe is enchanted."
+			},
+			"cht": {
+				"name": "磁力震盪",
+				"description": "加持魔法： 使目標敵人受到 15...75 傷害。若該目標敵人正擁有加持效果，則改為受到 5...15 傷害。",
+				"concise": "加持魔法： 使目標敵人受到 15...75 傷害。若該目標敵人正擁有加持效果，則改為受到 5...15 傷害。"
+			},
 			"de": {
+				"name": "Magnetschub",
+				"description": "Verzauberung. Der Gegner erleidet 15...75 Punkte Schaden. Wenn Ihr Überzaubert seid, verzaubert Magnetschub alle Verbündeten in Hörweite 1...5 Sekunden, sodass sie den nächsten gegen sie gerichteten Angriff blocken.",
+				"concise": "Verzauberung. Richtet 15...75 Punkte Schaden an. Wenn Ihr Überzaubert seid, werden alle Verbündeten in Hörweite 1...5 Sekunden lang verzaubert, sodass sie den nächsten gegen sie gerichteten Angriff blocken."
+			},
+			"de-guildwiki": {
 				"name": "Magnetschub",
 				"description": "Der Gegner erleidet 15...75 Punkte rüstungsignorierenden Erdschaden. Wenn Ihr überzaubert seid, verzaubert Magnetschub alle Verbündeten in Hörweite 1...5 Sekunde(n), sodass sie den nächsten gegen sie gerichteten Angriff blocken.",
 				"concise": "Richtet 15...75 Punkte rüstungsignorierenden Erdschaden an. Wenn Ihr überzaubert seid, werden alle Verbündeten in Hörweite 1...5 Sekunde(n) lang verzaubert, sodass sie den nächsten gegen sie gerichteten Angriff blocken."
 			},
 			"en": {
 				"name": "Magnetic Surge",
+				"description": "Enchantment Spell. Target foe takes 15...75 damage. If you are Overcast, Magnetic Surge enchants all allies in earshot for 1...5 seconds to block the next attack against them.",
+				"concise": "Enchantment Spell. Deals 15...75 damage. If you are Overcast, allies in earshot are enchanted for 1...5 and block the next attack against them."
+			},
+			"en-gww": {
+				"name": "Magnetic Surge",
 				"description": "Target foe takes 15...75 damage. If you are Overcast, Magnetic Surge enchants all allies in earshot for 1...5 second[s] to block the next attack against them.",
 				"concise": "Deals 15...75 damage. If you are Overcast, allies in earshot are enchanted for 1...5 <sic/> and block the next attack against them."
 			},
+			"es": {
+				"name": "Aumento magnético",
+				"description": "Conjuro con encantamiento. El enemigo objetivo recibe 15...75 de daño. Si estás sobrelanzando, Aumento magnético encanta a todos los aliados al alcance del oído durante 1...5 segundos para que bloqueen el siguiente ataque dirigido a ellos.",
+				"concise": "Conjuro con encantamiento. Causa 15...75 de daño. Si estás sobrelanzando, los aliados al alcance del oído quedan encantados durante 1...5 y bloquean el siguiente ataque dirigido a ellos."
+			},
 			"fr": {
+				"name": "Afflux magnétique",
+				"description": "Enchantement. L'ennemi visé subit 15...75 points de dégâts. Si vous êtes en état d'Afflux, l'Afflux magnétique enchante tous les alliés à portée de voix pendant 1...5 secondes, leur permettant de bloquer la prochaine attaque.",
+				"concise": "Enchantement. Inflige 15...75 points de dégâts. Si vous êtes en état d'Afflux, les alliés à portée de voix sont sous l'effet de l'enchantement pendant 1...5 secondes et bloquent la prochaine attaque."
+			},
+			"fr-gwiki": {
 				"name": "Afflux magnétique",
 				"description": "L'ennemi visé subit 15...75 points de dégâts. Si vous êtes en état d'Afflux, l'Afflux magnétique enchante tous les alliés à portée de voix pendant 1...5 seconde, leur permettant de bloquer la prochain attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Flusso Magnetico",
+				"description": "Incantesimo. L'obiettivo nemico subisce 15...75 danni. Se sei sotto Sforzo, Flusso Magnetico incanta tutti gli alleati a portata d'orecchio per 1...5 secondi per bloccare il prossimo attacco contro di essi.",
+				"concise": "Incantesimo. Danni inferti: 15...75. (Secondi: 1...5.) Se sei sotto Sforzo, incanta tutti gli alleati a portata d'orecchio e blocca il prossimo attacco contro di essi."
+			},
+			"jp": {
+				"name": "マグネティック サージ",
+				"description": "強化スペル： ターゲットした敵に 15...75 のダメージを与えます。プレイヤーが「疲労」状態の場合、声の届く範囲内にいるすべての味方は 1...5 秒間で最初に受ける攻撃をブロックします。",
+				"concise": "強化スペル： 15...75 のダメージを与えます。プレイヤーが「疲労」状態の場合、声の届く範囲内にいる味方は 1...5 秒間、次に受ける攻撃をブロックします。"
+			},
+			"kr": {
+				"name": "자기장 쇄도",
+				"description": "강화 마법. 대상 지정: 적. 대상에게 15...75의 대미지를 줍니다. 자신이 탈진 상태면 가청 범위 내에 있는 모든 아군은 1...5초 안에 처음 받는 공격을 막습니다.",
+				"concise": "강화 마법. 15...75의 대미지를 줍니다. 자신이 탈진 상태면 가청 범위 내에 있는 아군은 1...5초 안에 처음 받는 공격을 막습니다."
+			},
+			"pl": {
+				"name": "Fala Magnetyczna",
+				"description": "Zaklęcie (czar). Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń. Podczas Przemagicznienia, Fala Magnetyczna wzmacnia wszystkich sojuszników w zasięgu słuchu na 1...5 sek. w blokowaniu nadchodzących ataków.",
+				"concise": "Zaklęcie (czar). Zadaje 15...75 pkt. obrażeń. Podczas Przemagicznienia, sojusznicy w zasięgu słuchu zostają wzmocnieni na 1...5 i blokują następny atak."
+			},
+			"ru": {
+				"name": "Magnetic Surge",
+				"description": "Заклинание-чары. Выбранный противник получает 15...75 ед. урона. Если вы утомлены, все союзники в зоне слышимости получат чары на 1...5 сек, которые блокируют следующую направленную против них атаку.",
+				"concise": "Заклинание-чары. Наносит 15...75 ед. урона. Союзники в зоне слышимости получат чары на 1...5 сек, которые блокируют следующую направленную против них атаку, если вы утомлены."
+			},
+			"bork": {
+				"name": "Maegneteec Soorge-a",
+				"description": "Inchuntment Spell. Taerget fue-a taekes 15...75 daemaege-a. Iff yuoo aere-a Oofercaest, Maegneteec Soorge-a inchunts aell aelleees in iaershut fur 1...5 secunds tu bluck zee next aettaeck aegaeeenst zeem.",
+				"concise": "Inchuntment Spell. Deaels 15...75 daemaege-a. Iff yuoo aere-a Oofercaest, aelleees in iaershut aere-a inchunted fur 1...5 und bluck zee next aettaeck aegaeeenst zeem."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "圣洁护甲",
+				"description": "增益魔法。 在15秒之内，任何带有「症状」的敌人对你造成的伤害将降低5...20点。",
+				"concise": "增益魔法。 在15秒之内，任何带有「症状」的敌人对你造成的伤害将降低5...20点。"
+			},
+			"cht": {
+				"name": "聖潔護甲",
+				"description": "加持魔法： 持續15秒，鄰近敵人受到虛弱5...15秒，同時身上有病症的敵人對你造成的傷害減少5...20。",
+				"concise": "加持魔法： 持續15秒，鄰近敵人受到虛弱5...15秒，同時身上有病症的敵人對你造成的傷害減少5...20。"
+			},
 			"de": {
+				"name": "Rüstung der Heiligkeit",
+				"description": "Verzauberung. Alle umstehenden Feinde leiden 5...15 Sekunde[n] lang am Zustand Schwäche. 15 Sekunde[n] lang erleidet Ihr 5...20 Punkt[e] weniger Schaden von Feinden, die an einem Zustand leiden.",
+				"concise": "Verzauberung. Verursacht Zustand Schwäche bei allen umstehenden Feinden (5...15 Sekunden). Feinde mit einem Zustand richten bei Euch 5...20 Punkt[e] weniger Schaden an (15 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Rüstung der Heiligkeit",
 				"description": "Alle umstehenden Feinde leiden 5...15 Sekunden lang unter Schwäche. 15 Sekunden lang erleidet Ihr 5...20 weniger Schaden von Feinden, die an einem Zustand leiden.",
 				"concise": "Verursacht Zustand Schwäche bei allen umstehenden Feinden (5...15 Sekunden). Feinde mit einem Zustand richten bei Euch 5...20 Punkte weniger Schaden an (15 Sekunden)."
 			},
 			"en": {
 				"name": "Armor of Sanctity",
+				"description": "Enchantment Spell. All adjacent foes suffer from Weakness for 5...15 seconds. For 15 seconds, you take 5...20 less damage from foes suffering from a condition.",
+				"concise": "Enchantment Spell. Inflicts Weakness condition on all adjacent foes (5...15 seconds). You take 5...20 less damage from foes with a condition (15 seconds)."
+			},
+			"en-gww": {
+				"name": "Armor of Sanctity",
 				"description": "All adjacent foes suffer from Weakness for 5...15 seconds. For 15 seconds, you take 5...20 less damage from foes suffering from a condition.",
 				"concise": "Inflicts Weakness condition on all adjacent foes (5...15). You take 5...20 less damage from foes with a condition. (15 seconds.)"
 			},
+			"es": {
+				"name": "Armadura de santidad",
+				"description": "Conjuro con encantamiento. Todos los enemigos cercanos quedan debilitados durante 5...15 segundos. Durante 15 segundos, los enemigos que tengan una condición te harán 5...20 menos de daño.",
+				"concise": "Conjuro con encantamiento. Causa debilidad a los enemigos cercanos (5...15 segundos). Recibes 5...20 menos de daño de los enemigos que tengan una condición (15 segundos)."
+			},
 			"fr": {
+				"name": "Armure de sainteté",
+				"description": "Enchantement. Tous les ennemis adjacents sont frappés de Faiblesse pendant 5...15 secondes. Pendant 15 secondes, vous subissez 5...20 points de dégâts en moins de la part des ennemis souffrant d'une condition.",
+				"concise": "Enchantement. Provoque la Faiblesse sur tous les ennemis adjacents (5...15 secondes). Les ennemis souffrant d'une condition vous infligent 5...20 points de dégâts en moins (15 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Armure de sainteté",
 				"description": "Tous les ennemis adjacents sont frappés de Faiblesse pendant 5...15 secondes. Pendant 15 secondes, vous subissez 5...20 points de dégâts en moins de la part des ennemis souffrant d'une condition.",
 				"concise": "Provoque la Faiblesse sur tous les ennemis adjacents (5...15 secondes). Les ennemis souffrant d'une condition vous infligent 5...20 points de dégâts en moins (15 secondes)."
+			},
+			"it": {
+				"name": "Armatura di Santità",
+				"description": "Incantesimo. Tutti i nemici adiacenti vengono colpiti da Debolezza per 5...15 secondi. Per 15 secondi subisci 5...20 danno[\"danni\"] in meno dai nemici affetti da una condizione.",
+				"concise": "Incantesimo. Condizione inflitta a tutti i nemici adiacenti: Debolezza (secondi: 5...15). Riduzione del danno che subisci dai nemici affetti da una condizione: 5...20 (secondi: 15)."
+			},
+			"jp": {
+				"name": "サンクティティ アーマー",
+				"description": "強化スペル： 隣接する敵をすべて 5...15 秒間「衰弱」状態にします。15 秒間、「状態異常」の敵から受ける攻撃のダメージが 5...20 減少します。",
+				"concise": "強化スペル： 隣接するすべての敵を「衰弱」状態にします (5...15 秒) 。「状態異常」の敵から受けるダメージが 5...20 減少します (15 秒) 。"
+			},
+			"kr": {
+				"name": "신성한 갑옷",
+				"description": "강화 마법. 대상 지정: 없음. 인접한 모든 적을 5...15초 동안 약체 상태로 만듭니다. 15초 동안 상태이상에 걸린 적에게 받는 대미지가 5...20 감소합니다.",
+				"concise": "강화 마법. 인접한 모든 적을 약체로 만듭니다.(5...15초) 자신이 상태이상에 걸린 적에게 받는 대미지가 5...20만큼 감소합니다.(15초)"
+			},
+			"pl": {
+				"name": "Zbroja Świętości",
+				"description": "Zaklęcie (czar). Przez 5...15 sek., wszyscy sąsiadujący z tobą przeciwnicy zaczynają cierpieć na osłabienie. Przez 15 sek. przeciwnicy cierpiący na przypadłości zadają ci 5...20 pkt. obrażeń mniej.",
+				"concise": "Zaklęcie (czar). Wywołuje osłabienie u wszystkich sąsiadujących z tobą wrogów (5...15). Przeciwnicy cierpiący na przypadłości zadają ci 5...20 pkt. mniej obrażeń (15)."
+			},
+			"ru": {
+				"name": "Armor of Sanctity",
+				"description": "Заклинание-чары. Все окружающие противники будут поражены слабостью в течение 5...15 сек. В течение 15 сек вы получаете на 5...20 ед. урона меньше от противников, которые находятся под действием какого-либо состояния.",
+				"concise": "Заклинание-чары. Вызывает слабость у всех окружающих противников (5...15 сек). Вы получаете на 5...20 ед. меньше урона от противников, находящихся под воздействием состояний (15 сек)."
+			},
+			"bork": {
+				"name": "Aermur ooff Suncteety",
+				"description": "Inchuntment Spell. Aell aedjaecent fues sooffffer frum Veaekness fur 5...15 secunds. Fur 15 secunds, yuoo taeke-a 5...20 less daemaege-a frum fues sooffffereeng frum a cundeeshun.",
+				"concise": "Inchuntment Spell. Inffleects Veaekness cundeeshun oon aell aedjaecent fues (5...15 secunds). Yuoo taeke-a 5...20 less daemaege-a frum fues veet a cundeeshun (15 secunds). Bork! Bork! Bork!"
 			}
 		}
 	}

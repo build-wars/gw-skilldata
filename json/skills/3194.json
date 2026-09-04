@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "玷污之镜",
+				"description": "咒文。 驱散目标敌人身上的一项「增益魔法」。并使其所有的队友同样失去这项「增益魔法」。",
+				"concise": "咒文。 驱散目标敌人身上的一项「增益魔法」。并使其所有的队友同样失去这项「增益魔法」。"
+			},
+			"cht": {
+				"name": "反加持之鏡",
+				"description": "咒文魔法： 移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。",
+				"concise": "咒文魔法： 移除目標敵人身上的一項「加持」。並且使該目標的所有隊伍成員失去同樣的「加持」。"
+			},
 			"de": {
+				"name": "Spiegel der Entzauberung (PvP)",
+				"description": "Zauber. Entfernt eine Verzauberung vom Gegner. Gruppenmitglieder des Gegners verlieren diese Verzauberung ebenfalls.",
+				"concise": "Zauber. Entfernt eine Verzauberung vom Gegner. Gruppenmitglieder des Gegners verlieren diese Verzauberung ebenfalls."
+			},
+			"de-guildwiki": {
 				"name": "Spiegel der Entzauberung (PvP)",
 				"description": "Entfernt eine Verzauberung vom Gegner. Gruppenmitglieder des Gegners verlieren diese Verzauberung ebenfalls.",
 				"concise": "Entfernt eine Verzauberung vom Gegner. Gruppenmitglieder des Gegners verlieren diese Verzauberung ebenfalls."
 			},
 			"en": {
 				"name": "Mirror of Disenchantment (PvP)",
+				"description": "Spell. Remove one enchantment from target foe. All of that foe's party members also lose that same enchantment.",
+				"concise": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment."
+			},
+			"en-gww": {
+				"name": "Mirror of Disenchantment (PvP)",
 				"description": "Remove one enchantment from target foe. All of that foe's party members also lose that same enchantment.",
 				"concise": "Removes one enchantment from target foe. That foe's party members also lose this enchantment."
 			},
+			"es": {
+				"name": "Espejo del desencantamiento (PvP)",
+				"description": "Conjuro. Eliminas un encantamiento del enemigo objetivo. Todos los miembros del grupo del enemigo objetivo también pierden ese encantamiento.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. Los miembros del grupo del enemigo objetivo también pierden ese encantamiento."
+			},
 			"fr": {
+				"name": "Miroir de désenchantement (PvP)",
+				"description": "Sort. Dissipe un enchantement de la cible ennemie. Tous les membres du groupe de cet ennemi perdent aussi cet enchantement.",
+				"concise": "Sort. Dissipe un enchantement de la cible ennemie. Les membres du groupe de cet ennemi perdent aussi cet enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Miroir de désenchantement (PvP)",
 				"description": "Dissipe un enchantement de la cible ennemie. Tous les membres du groupe de cet ennemi perdent aussi cet enchantement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Specchio del Disincanto (PvP)",
+				"description": "Magia. Rimuove un incantesimo dall'obiettivo nemico. L'incantesimo viene rimosso anche per tutti i compagni di squadra del nemico.",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. L'incantesimo viene rimosso anche per i compagni di squadra del nemico."
+			},
+			"jp": {
+				"name": "ディスエンチャント ミラー (PvP)",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。その敵のパーティー メンバーにも同じ強化スペルがかけられている場合は解除します。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。その敵のパーティー メンバーにも同じ強化スペルがかけられている場合は解除します。"
+			},
+			"kr": {
+				"name": "연쇄 강화 해제",
+				"description": "마법. 대상 지정: 적. 대상의 강화 마법 하나를 무효화합니다. 대상의 모든 파티원도 그 강화 마법이 무효화됩니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 하나를 무효화합니다. 대상의 파티원들도 그 강화 마법이 무효화됩니다."
+			},
+			"pl": {
+				"name": "Zwierciadło Antyzaklęcia (PvP)",
+				"description": "Czar. Z wybranego przeciwnika zdejmujesz jedno zaklęcie. To samo zaklęcie tracą wszyscy członkowie drużyny tego przeciwnika.",
+				"concise": "Czar. Usuwa jedno zaklęcie z wybranego przeciwnika. To samo zaklęcie tracą także członkowie jego drużyny."
+			},
+			"ru": {
+				"name": "Mirror of Disenchantment (PvP)",
+				"description": "Заклинание. Снимает одни чары с выбранного противника. Со всех членов отряда этого противника также будут сняты те же самые чары.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Члены отряда выбранного противника также теряют эти чары."
+			},
+			"bork": {
+				"name": "Murrur ooff Deesenchuntment (PfP)",
+				"description": "Spell. Remufe-a oone-a inchuntment frum taerget fue-a. Aell ooff thaet fue-a's paerty members aelsu luse-a thaet saeme-a inchuntment.",
+				"concise": "Spell. Remufes oone-a inchuntment frum taerget fue-a. Thaet fue-a's paerty members aelsu luse-a thees inchuntment."
 			}
 		}
 	}

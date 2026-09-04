@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魂力纹章",
+				"description": "精英纹章。 使目标友方召唤生物的攻击伤害提升33点，但在5...20秒之后，该生物将死亡。",
+				"concise": "精英纹章。 使目标友方召唤生物的攻击伤害提升33点，但在5...20秒之后，该生物将死亡。"
+			},
+			"cht": {
+				"name": "生靈神力紋章",
+				"description": "精英紋章： 持續5...20秒，在音量所及範圍內，所有你控制的靈，造成5...10額外傷害，且攻擊速度增加33%。",
+				"concise": "精英紋章： 持續5...20秒，在音量所及範圍內，所有你控制的靈，造成5...10額外傷害，且攻擊速度增加33%。"
+			},
 			"de": {
+				"name": "Siegel der Macht der Geister",
+				"description": "Elite-Siegel. 5...20 Sekunde[n] lang greifen alle von Euch kontrollierten Geister in Hörweite um 33% schneller an und richten um +5...10 Punkte mehr Schaden an.",
+				"concise": "Elite-Siegel. 5...20 Sekunde[n]: Alle von Euch kontrollierten Geister in Hörweite greifen um 33% schneller an und richten um +5...10 Punkte mehr Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Macht der Geister",
 				"description": "5...20 Sekunden greifen alle von Euch kontrollierten Geister in Hörweite um 33% schneller an und richten um +5...10 Punkte mehr Schaden an.",
 				"concise": "5...20 Sekunden: Alle von Euch kontrollierten Geister in Hörweite greifen um 33% schneller an und richten um +5...10 Punkte mehr Schaden an."
 			},
 			"en": {
 				"name": "Signet of Ghostly Might",
+				"description": "Elite Signet. For 5...20 seconds, all spirits you control within earshot attack 33% faster and deal +5...10 damage.",
+				"concise": "Elite Signet. (5...20 seconds.) All spirits you control within earshot attack 33% faster and deal +5...10 damage."
+			},
+			"en-gww": {
+				"name": "Signet of Ghostly Might",
 				"description": "For 5...20 seconds, all spirits you control within earshot attack 33% faster and deal 5...10 additional damage.",
 				"concise": "(5...20 seconds.) All spirits you control within earshot attack 33% faster and deal +5...10 damage."
 			},
+			"es": {
+				"name": "Sello de poder fantasmal",
+				"description": "Sello de élite. Durante 5...20 segundos, todos los espíritus al alcance del oído que controles atacan un 33% más rápido y hacen +5...10 de daño.",
+				"concise": "Sello de élite. (5...20 segundos). Todos los espíritus al alcance del oído que controles atacan un 33% más rápido y hacen +5...10 de daño."
+			},
 			"fr": {
+				"name": "Sceau de puissance spectrale",
+				"description": "Sceau d'élite. Pendant 5...20 secondes, tous les esprits que vous contrôlez à portée de voix attaquent 33% plus vite et infligent +5...10 points de dégâts.",
+				"concise": "Sceau d'élite. (5...20 secondes.) Tous les esprits que vous contrôlez à portée de voix attaquent 33% plus vite et infligent +5...10 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de puissance spectrale",
 				"description": "Pendant 5...20 secondes tous les esprits que vous contrôlez à portée de voix attaquent 33% plus vite et infligent 5...10 points de dégâts supplémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Potenza Spettrale",
+				"description": "Sigillo d'Élite. Per 5...20 secondo[i] tutti gli Spiriti a portata d'orecchio sotto il tuo controllo attaccano a velocità superiore di un 33% e assestano +5...10 danno[i].",
+				"concise": "Sigillo d'Élite. (Secondi: 5...20) Incremento velocità d'attacco di tutti gli Spiriti a portata d'orecchio sotto il tuo controllo: 33%. Danni da loro assestati: +5...10."
+			},
+			"jp": {
+				"name": "ゴースト マイト シグネット",
+				"description": "エリート シグネット： 5...20 秒間、声の届く範囲内にいるプレイヤーが召喚した精霊はすべて、攻撃速度が 33% 増加し、5...10 の追加ダメージを与えます。",
+				"concise": "エリート シグネット： (5...20 秒) 声の届く範囲内にいるプレイヤーが召喚した精霊はすべて、攻撃速度が 33% 増加し、5...10 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "영적인 완력 인장",
+				"description": "엘리트 인장. 대상 지정: 없음. 5...20초 동안 가청 범위 내에서 자신이 만든 모든 영혼은 공격 속도가 33% 빨라지고, 5...10의 대미지를 추가로 줍니다.",
+				"concise": "엘리트 인장. (5...20초) 가청 범위 내에 있는 자신의 모든 영혼은 공격 속도가 33% 빨라지고, 5...10의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Niematerialnej Potęgi",
+				"description": "Sygnet elitarny. Przez 5...20 sek. wszystkie duchy, które kontrolujesz w zasięgu słuchu atakują o 33% szybciej i zadają +5...10 pkt. obrażeń.",
+				"concise": "Sygnet elitarny. (5...20 sek.) Wszystkie duchy, które kontrolujesz w zasięgu słuchu atakują o 33% szybciej i zadają +5...10 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Signet of Ghostly Might",
+				"description": "Элитная печать. В течение 5...20 сек все находящиеся под вашим контролем духи в зоне слышимости атакуют на 33% быстрее и наносят на 5...10 ед. урона больше.",
+				"concise": "Элитная печать. (5...20 сек) Все находящиеся под вашим контролем духи в зоне слышимости атакуют на 33% быстрее и наносят на 5...10 ед. урона больше."
+			},
+			"bork": {
+				"name": "Seegnet ooff Ghustly Meeght",
+				"description": "Ileete-a Seegnet. Fur 5...20 secunds, aell spureets yuoo cuntrul veetheen iaershut aettaeck 33% faester und deael +5...10 daemaege-a.",
+				"concise": "Ileete-a Seegnet. (5...20 secunds.) Aell spureets yuoo cuntrul veetheen iaershut aettaeck 33% faester und deael +5...10 daemaege-a."
 			}
 		}
 	}

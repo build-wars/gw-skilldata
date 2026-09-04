@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "无为",
+				"description": "精英增益魔法。 副手和双重攻击不消耗能量且充能速度加快25...50%，持续5...15秒。",
+				"concise": "精英增益魔法。 （5...15秒）你的副手和双重攻击不消耗能量且充能速度加快25...50%。"
+			},
+			"cht": {
+				"name": "無道",
+				"description": "精英加持魔法： For 5...15 seconds, off-hand and dual attacks cost no Energy and recharge 25...50% faster.",
+				"concise": "精英加持魔法： (5...15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 25...50% faster."
+			},
 			"de": {
+				"name": "Weg der leeren Handfläche",
+				"description": "Elite-Verzauberung. Für 5...15 Sekunden kosten Begleithand- und Doppelangriffe keine Energie und werden um 25...50 % schneller aufgeladen.",
+				"concise": "Elite-Verzauberung. (5...15 Sekunden). Begleithand- und Doppelangriffe kosten keine Energie und werden um 25...50 % schneller aufgeladen."
+			},
+			"de-guildwiki": {
 				"name": "Weg der leeren Handfläche",
 				"description": "5...15 Sekunden lang kosten Begleithand- und Doppelangriffe keine Energiepunkte und werden um 25...50% schneller aufgeladen.",
 				"concise": "5...15 Sekunden: Eure Begleithand- und Doppelangriffe kosten keine Energiepunkte und werden um 25...50% schneller aufgeladen."
 			},
 			"en": {
 				"name": "Way of the Empty Palm",
+				"description": "Elite Enchantment Spell. For 5...15 seconds, off-hand and dual attacks cost no Energy and recharge 25...50% faster.",
+				"concise": "Elite Enchantment Spell. (5...15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 25...50% faster."
+			},
+			"en-gww": {
+				"name": "Way of the Empty Palm",
 				"description": "For 5...15 seconds, off-hand and dual attacks cost no Energy and recharge 25...50% faster.",
 				"concise": "(5...15 seconds.) Your off-hand and dual attacks cost no Energy and recharge 25...50% faster."
 			},
+			"es": {
+				"name": "Camino de la mano abierta",
+				"description": "Conjuro con encantamiento de élite. Durante 5...15 segundos, los ataques complementarios y dobles no consumen energía y se recargan un 25...50 % más rápido.",
+				"concise": "Conjuro con encantamiento de élite. (5...15 segundos). Los ataques complementarios y dobles no consumen energía y se recargan un 25...50 % más rápido."
+			},
 			"fr": {
+				"name": "Méthode de la paume vide",
+				"description": "Enchantement d'élite. Pendant 5...15 secondes, les attaques de main gauche et les attaques doubles ne coûtent aucune énergie et se rechargent 25...50% plus vite.",
+				"concise": "Enchantement d'élite. (5...15 secondes.) Vos attaques de main gauche et vos attaques doubles ne coûtent aucune énergie et se rechargent 25...50% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Méthode de la paume vide",
 				"description": "Pendant 5...20 secondes, les attaques main gauche et d'ambidextrie ne vous coûtent aucune énergie.",
 				"concise": "(5...20 secondes.) Vos attaques main gauche et d'ambidextrie ne vous coûtent aucune énergie."
+			},
+			"it": {
+				"name": "Potere del Palmo Vuoto",
+				"description": "Incantesimo d'Élite. Per 5...15 secondo/i, gli attacchi con mano secondaria e con due armi non costano Energia e si ricaricano il 25...50% più rapidamente.",
+				"concise": "Incantesimo d'Élite. (5...15 secondo/i). Gli attacchi con mano secondaria e con due armi non costano Energia e si ricaricano il 25...50% più rapidamente."
+			},
+			"jp": {
+				"name": "エンプティ パーム ウェイ",
+				"description": "エリート強化スペル： 5...15秒間、不意打ち攻撃とデュアル攻撃はエネルギーを消費せず、リチャージが25...50%速くなります。",
+				"concise": "エリート強化スペル： （5...15秒）不意打ち攻撃とデュアル攻撃はエネルギーを消費せず、リチャージが25...50%速くなります。"
+			},
+			"kr": {
+				"name": "맨손의 술수",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5...15초 동안 보조 공격과 쌍수 공격에 에너지를 소비하지 않고, 스킬 재활성 시간이 25...50% 빨라집니다.",
+				"concise": "엘리트 강화 마법. (5...15초) 보조 공격과 쌍수 공격에 에너지를 소비하지 않고, 스킬 재활성 시간이 25...50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Ścieżka Pustej Dłoni",
+				"description": "Elitarne zaklęcie (czar). Przez 5...15 sek. ataki drugą ręką oraz ataki podwójne kosztują zero punktów energii i odnawiają się 25...50% szybciej.",
+				"concise": "Elitarne zaklęcie (czar). (5...15 sek.). Twoje ataki drugą ręką oraz ataki podwójne kosztują zero punktów energii i odnawiają się 25...50% szybciej."
+			},
+			"ru": {
+				"name": "Way of the Empty Palm",
+				"description": "Элитное заклинание-чары. В течение 5...15 сек. атаки второй рукой и двойные атаки не расходуют энергию и восстанавливаются на 25...50% быстрее.",
+				"concise": "Элитное заклинание-чары. (5...15 сек.) Ваши атаки второй рукой и двойные атаки не расходуют энергию и восстанавливаются на 25...50% быстрее."
+			},
+			"bork": {
+				"name": "Vaey ooff zee Impty Paelm",
+				"description": "Ileete-a Inchuntment Spell. Fur 5...15 secunds, ooffff-hund und dooael aettaecks cust nu Inergy und rechaerge-a 25...50% faester.",
+				"concise": "Ileete-a Inchuntment Spell. (5...15 secunds.) Yuoor ooffff-hund und dooael aettaecks cust nu Inergy und rechaerge-a 25...50% faester."
 			}
 		}
 	}

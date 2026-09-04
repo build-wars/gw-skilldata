@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Asuran Scan",
+				"description": "负面魔法。 For 9...12 seconds, your attacks against this foe deal an additional 0% damage.",
+				"concise": "负面魔法。 (9...12 seconds.) Your attacks against target foe do +0% damage."
+			},
+			"cht": {
+				"name": "阿蘇拉之掠",
+				"description": "降咒魔法： 持續 9...12 秒，你的攻擊對敵人造成 0% 額外傷害。",
+				"concise": "降咒魔法： For 9...12 seconds, your attacks against this foe deal an additional 0% damage."
+			},
 			"de": {
+				"name": "Asurischer Scan",
+				"description": "Verhexung. 9...12 Sekunde[n] lang können Eure Angriffe den Gegner nicht verfehlen. Das Töten eines mit \"Asurischer Scan\" verhexten Feinds entfernt 5% Sterbemalus.",
+				"concise": "Verhexung. (9...12 Sekunde[n].) Ihr könnt Euren Gegner nicht verfehlen. Wenn Ihr diesen Feind tötet, verliert Ihr 5% Sterbemalus."
+			},
+			"de-guildwiki": {
 				"name": "Asurischer Scan",
 				"description": "Verhext den Gegner 9...12 Sekunden lang mit \"Asurischer Scan\". Der Gegner und Ihr selbst können weder Feinde verfehlen noch geblockt werden. Wenn ein mit \"Asurischer Scan\" verhexter Feind stirbt, entfernt dies 5% Sterbemalus von Euch.",
 				"concise": "(9...12 Sekunden.) Der Gegner und Ihr selbst können weder Feinde verfehlen noch geblockt werden. Wenn der verhexte Gegner stirbt, verliert Ihr 5% Sterbemalus."
 			},
 			"en": {
 				"name": "Asuran Scan",
+				"description": "Hex Spell. For 9...12 seconds, your attacks cannot miss target foe. Killing a foe hexed with Asuran Scan removes 5% Death Penalty.",
+				"concise": "Hex Spell. (9...12 seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty."
+			},
+			"en-gww": {
+				"name": "Asuran Scan",
 				"description": "For 9...12 seconds your attacks cannot miss target foe. Killing a foe hexed with Asuran Scan removes 5% Death Penalty.",
 				"concise": "(9...12 seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty."
 			},
+			"es": {
+				"name": "Barrido Asura",
+				"description": "Conjuro con maleficio. Durante 9...12 segundos, tus ataques al enemigo objetivo no pueden fallar. Si eliminas a un enemigo que tiene el maleficio Barrido asura, pierdes 5% de penalización por resucitar.",
+				"concise": "Conjuro con maleficio. (9...12 segundos). Tus ataques al enemigo objetivo no pueden fallar. Si eliminas al enemigo, pierdes 5% de penalización por resucitar."
+			},
 			"fr": {
+				"name": "Scan asura",
+				"description": "Maléfice. Pendant 9...12 secondes, vos attaques ne peuvent pas manquer l'ennemi visé. Tuer un ennemi sous l'effet du Scan asura réduit votre handicap de 5%.",
+				"concise": "Maléfice. (9...12 secondes.) Vous ne pouvez pas manquer l'ennemi visé. Si vous tuez cet ennemi, vous perdez 5% de votre handicap."
+			},
+			"fr-gwiki": {
 				"name": "Scan asura",
 				"description": "Pendant 9...12 secondes, vos attaques contre cet ennemi infligent 45...75% de dégâts en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Scansione Asura",
+				"description": "Fattura. Per 9...12 secondi i tuoi attacchi non possono mancare l'obiettivo nemico. Uccidendo un nemico sotto fattura Scansione Asura rimuove un 5% di Debilitazione.",
+				"concise": "Fattura. (Secondi: 9...12). Non puoi mancare l'obiettivo nemico. Se uccidi questo nemico, perdi un 5% di Debilitazione."
+			},
+			"jp": {
+				"name": "アスラ スキャン",
+				"description": "弱体化スペル： 9...12 秒間、ターゲットした敵に対する攻撃が失敗しません。この効果により敵を戦闘不能にすると、デスペナルティーが 5% 減少します。",
+				"concise": "弱体化スペル： (9...12 秒) ターゲットに対する攻撃が失敗しません。この効果により敵を戦闘不能にすると、デスペナルティーが 5% 減少します。"
+			},
+			"kr": {
+				"name": "아수라의 정밀 공격",
+				"description": "약화 마법. 대상 지정: 적. 9...12초 동안 대상에 대한 공격이 실패하지 않습니다. 이 약화 마법에 걸린 적을 죽이면 전사페널티가 0% 없어집니다.",
+				"concise": "약화 마법. (9...12초) 대상에 대한 공격이 실패하지 않고, 이 적을 죽이면 자신의 전사페널티가 0% 감소합니다."
+			},
+			"pl": {
+				"name": "Asuriańskie Rozpoznanie",
+				"description": "Klątwa (czar). Przez 9...12 sek., twoje ataki nie mogą chybić wybranego przeciwnika. Zabicie wroga, który znajdował się pod wpływem Asuriańskiego Rozpoznania, usuwa 5% kary za śmierć.",
+				"concise": "Klątwa (czar). (9...12 sek.) Nie możesz chybić przeciwnika. Jeśli zabijesz tego przeciwnika, tracisz 5% kary za śmierć."
+			},
+			"ru": {
+				"name": "Asuran Scan",
+				"description": "Заклинание-проклятье. В течение 9...12 сек вы не можете промахнуться при атаках против выбранного противника. Убийство противника, находящегося под действием проклятья Asura Scan, снимает с вас 5% штрафа за смерть.",
+				"concise": "Заклинание-проклятье. (9...12 сек) Вы не можете промахнуться по выбранному противнику. Если вы убиваете этого противника, вы теряете 5% штрафа за смерть."
+			},
+			"bork": {
+				"name": "Aesoorun Scun",
+				"description": "Hex Spell. Fur 9...12 secunds, yuoor aettaecks cunnut meess taerget fue-a. Keelleeng a fue-a hexed veet Aesoorun Scun remufes 5% Deaet Penaelty.",
+				"concise": "Hex Spell. (9...12 secunds.) Yuoo cunnut meess taerget fue-a. Iff yuoo keell thees fue-a, yuoo luse-a 5% Deaet Penaelty."
 			}
 		}
 	}

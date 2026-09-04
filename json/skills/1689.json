@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法之力纹章",
+				"description": "纹章。 根据你身上所带有的「增益魔法」数量，每个给予目标敌人25点神圣伤害（最多30...120点）。",
+				"concise": "纹章。 根据你身上所带有的「增益魔法」数量，每个给予目标敌人25点神圣伤害（最多30...120点）。"
+			},
+			"cht": {
+				"name": "祕法神譴紋章",
+				"description": "紋章： 依照你身上擁有的「加持」數量，每個對目標敵人造成 25 神聖傷害(一次最多造成 30...120 神聖傷害)。",
+				"concise": "紋章： 依照你身上擁有的「加持」數量，每個對目標敵人造成 25 神聖傷害(一次最多造成 30...120 神聖傷害)。"
+			},
 			"de": {
+				"name": "Siegel des mystischen Zorns",
+				"description": "Siegel. Der Gegner erleidet für jede Verzauberung, mit der Ihr belegt seid, 25 Punkt[e] heiligen Schaden (maximal 30...120 Punkt[e] heiligen Schaden).",
+				"concise": "Siegel. Richtet für jede Verzauberung auf Euch 25 Punkt[e] heiligen Schaden an (maximal 30...120)."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des mystischen Zorns",
 				"description": "Der Gegner erleidet für jede Verzauberung, mit der Ihr belegt seid, 25 Punkte heiligen Schaden (maximal 30...120 Punkte heiligen Schaden).",
 				"concise": "Richtet für jede Verzauberung auf Euch 25 Punkte heiligen Schaden an (maximal 30...120)."
 			},
 			"en": {
 				"name": "Signet of Mystic Wrath",
+				"description": "Signet. Target foe takes 25 holy damage for each enchantment on you (maximum 30...120 holy damage).",
+				"concise": "Signet. Deals 25 holy damage for each enchantment on you (maximum 30...120 holy damage)."
+			},
+			"en-gww": {
+				"name": "Signet of Mystic Wrath",
 				"description": "Target foe takes 25 holy damage for each enchantment on you (maximum 30...120 holy damage).",
 				"concise": "Deals 25 holy damage for each enchantment on you (maximum 30...120 holy damage)."
 			},
+			"es": {
+				"name": "Sello de ira mística",
+				"description": "Sello. Haces 25 de daño sagrado al enemigo objetivo por cada encantamiento que tengas encima (máximo 30...120 de daño sagrado).",
+				"concise": "Sello. Hace 25 de daño sagrado por cada encantamiento que tengas (máximo 30...120 de daño sagrado)."
+			},
 			"fr": {
+				"name": "Sceau de colère mystique",
+				"description": "Sceau. La cible ennemie subit 25 points de dégâts sacrés pour chaque enchantement qui vous affecte (30...120 points de dégâts sacrés maximum).",
+				"concise": "Sceau. Inflige 25 points de dégâts sacrés par enchantement vous affectant (maximum : 30...120 points de dégâts sacrés)."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de colère mystique",
 				"description": "La cible ennemie subit 25 points de dégâts sacrés pour chaque enchantement qui vous affecte (30...120 points de dégâts sacrés maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Collera Mistica",
+				"description": "Sigillo. L'obiettivo nemico subisce 25 danno[i] sacro[i] per ogni incantesimo presente su di te (max. 30...120 danno[i] sacro[i]).",
+				"concise": "Sigillo. Danni sacri inferti per ogni incantesimo su di te: 25 (max 30...120)."
+			},
+			"jp": {
+				"name": "ミスティック ラス シグネット",
+				"description": "シグネット： ターゲットした敵は、プレイヤーにかけられている強化スペルごとに、25 の神聖ダメージを与えます (最大 30...120 の神聖ダメージ) 。",
+				"concise": "シグネット： かけられている強化スペルごとに 25 の神聖ダメージを与えます (最大 30...120 の神聖ダメージ) 。"
+			},
+			"kr": {
+				"name": "신비한 분노 인장",
+				"description": "인장. 대상 지정: 적. 자신에게 걸린 강화 마법 하나당 대상은 25의 신성 대미지를 입습니다. 최대 30...120의 신성 대미지를 입습니다.",
+				"concise": "인장. 자신에게 걸린 강화 마법 하나당 25씩, 최대 30...120의 신성 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Sygnet Mistycznego Gniewu",
+				"description": "Sygnet. Za każde zaklęcie, które masz na sobie, wybrany przeciwnik otrzymuje 25 pkt. świętych obrażeń (maksymalnie 30...120 pkt. świętych obrażeń).",
+				"concise": "Sygnet. Zadaje 25 pkt. świętych obrażeń za każde zaklęcie, które masz na sobie (maksymalnie 30...120 pkt. świętych obrażeń)."
+			},
+			"ru": {
+				"name": "Signet of Mystic Wrath",
+				"description": "Печать. Выбранный противник получает 25 ед. урона святой силой за каждые наложенные на вас в данный момент чары (но не более 30...120 ед. урона святой силой).",
+				"concise": "Печать. Наносит 25 ед. урона святой силой за каждые наложенные на вас чары (но не более 30...120 ед. урона святой силой)."
+			},
+			"bork": {
+				"name": "Seegnet ooff Mysteec Vraet",
+				"description": "Seegnet. Taerget fue-a taekes 25 huly daemaege-a fur iaech inchuntment oon yuoo (maexeemoom 30...120 huly daemaege-a).",
+				"concise": "Seegnet. Deaels 25 huly daemaege-a fur iaech inchuntment oon yuoo (maexeemoom 30...120 huly daemaege-a)."
 			}
 		}
 	}

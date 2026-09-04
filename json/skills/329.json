@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.25,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "碎颅",
+				"description": "精英近战技能。 命中时，该攻击将打断目标当前的动作。若目标当时正施法，将陷入晕眩15秒。",
+				"concise": "精英近战技能。 打断一个动作。在目标施法时打断，则施加晕眩状态（15秒）。"
+			},
+			"cht": {
+				"name": "碎顎",
+				"description": "精英近身攻擊技能： 命中时，该攻击将打断目标当前的动作。若目标当时正施法，将陷入晕眩15秒。",
+				"concise": "精英近身攻擊技能： Interrupts an action. Inflicts Dazed condition (15 seconds) if target is casting a spell."
+			},
 			"de": {
+				"name": "Schädel spalten",
+				"description": "Elite-Nahkampfangriff. Bei einem Treffer unterbricht dieser Angriff die aktuelle Aktion des Ziels. Wenn dieser Gegner einen Zauber gewirkt hat, ist der Gegner 15 Sekunden lang benommen.",
+				"concise": "Elite-Nahkampfangriff. Unterbricht eine Aktion. Fügt dem Ziel den Zustand Benommen (15 Sekunden) zu, falls es einen Zauber wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Schädel spalten",
 				"description": "Wenn dieser Angriff erfolgreich ist, unterbricht er die aktuelle Aktion des Ziels. Wenn der Gegner einen Zauber wirkt, leidet er 15 Sekunden lang unter Benommenheit.",
 				"concise": "Unterbricht eine Aktion. Verursacht Zustand Benommenheit (15 Sekunden), falls der Gegner einen Zauber wirkt."
 			},
 			"en": {
 				"name": "Skull Crack",
+				"description": "Elite Melee Attack. If it hits, this attack interrupts the target's current action. If that foe was casting a spell, that foe is Dazed for 15 seconds.",
+				"concise": "Elite Melee Attack. Interrupts an action. Inflicts Dazed condition (15 seconds) if target is casting a spell."
+			},
+			"en-gww": {
+				"name": "Skull Crack",
 				"description": "If it hits, this attack interrupts the target's current action. If that foe was casting a spell, that foe is Dazed for 15 seconds.",
 				"concise": "Interrupts an action. Inflicts Dazed condition (15 seconds) if target is casting a spell."
 			},
+			"es": {
+				"name": "Rompecráneos",
+				"description": "Ataque cuerpo a cuerpo de élite. Si este ataque impacta, interrumpirás la acción del enemigo objetivo. Si está lanzando un conjuro, quedará atontado durante 15 segundos.",
+				"concise": "Ataque cuerpo a cuerpo de élite. Interrumpe una acción. Causa la Atontamiento (15 segundos) si el objetivo está lanzando un conjuro."
+			},
 			"fr": {
+				"name": "Brise-crâne",
+				"description": "Attaque au corps à corps d'élite. Si cette attaque réussit, elle interrompt l'action en cours de la cible. Si cette dernière incantait un sort, elle subit Stupeur pendant 15 secondes.",
+				"concise": "Attaque au corps à corps d'élite. Interrompt une action. Inflige l'altération Stupeur (15 secondes) si la cible incantait un sort."
+			},
+			"fr-gwiki": {
 				"name": "Brise-crâne",
 				"description": "Si elle réussit, cette attaque interrompt l'action de la cible. Si l'ennemi était en train de lancer un sort, il est frappé de Stupeur pendant 10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rompi Cranio",
+				"description": "Attacco d'Élite Ravvicinato. Se colpisce, questo attacco interrompe l'azione in corso del personaggio. Se il nemico sta lanciando un incantesimo, resta stordito per 15 secondi.",
+				"concise": "Attacco d'Élite Ravvicinato. Interrompe un'azione. Se il bersaglio sta lanciando una magia, viene stordito (15 secondi)."
+			},
+			"jp": {
+				"name": "スカル クラック",
+				"description": "エリート メーレー アタック： 命中した場合、この攻撃は標的の現在のアクションを中断させます。その敵がスペルを使用していた場合、その敵は15秒間、混乱状態になります。",
+				"concise": "エリート メーレー アタック： アクションを中断させます。標的がスペルを使用していた場合、混乱状態にします（15秒）。"
+			},
+			"kr": {
+				"name": "머리 강타",
+				"description": "엘리트 근접 물리 공격. 공격이 성공하면 대상의 동작을 방해합니다. 방해한 동작이 마법이라면 대상은 15초 동안 현혹 상태가 됩니다.",
+				"concise": "엘리트 근접 물리 공격. 동작을 방해합니다. 마법 시전을 방해하면 대상은 현혹에 걸립니다(15초)."
+			},
+			"pl": {
+				"name": "Rozłupanie Czaszki",
+				"description": "Elitarny atak wręcz. Jeżeli atak trafi, przerywasz aktualną czynność wybranego przeciwnika. Jeśli przeciwnik rzucał czar, to na 15 sek. zostaje oszołomiony.",
+				"concise": "Elitarny atak wręcz. Przerywa czynność. Wywołuje przypadłość oszołomienie (15 sek.), jeżeli cel rzuca czar."
+			},
+			"ru": {
+				"name": "Skull Crack",
+				"description": "Элитная рукопашная атака. При попадании эта атака прерывает текущее действие цели. Если противник накладывал заклинание, он получает эффект Dazed на 15 секунд.",
+				"concise": "Элитная рукопашная атака. Прерывает действие. Накладывает эффект Dazed на 15 сек., если цель накладывала заклинание."
+			},
+			"bork": {
+				"name": "Skooll Craeck",
+				"description": "Ileete-a Melee-a Aettaeck. Iff it heets, thees aettaeck interroopts zee taerget's coorrent aecshun. Iff thaet fue-a vaes caesteeng a spell, thaet fue-a is Daezed fur 15 secunds.",
+				"concise": "Ileete-a Melee-a Aettaeck. Interroopts un aecshun. Inffleects Daezed cundeeshun (15 secunds) iff taerget is caesteeng a spell."
 			}
 		}
 	}

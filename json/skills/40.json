@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力盛宴",
+				"description": "咒文。 使目标敌人失去3点能量。该目标每失去1点能量，你将获得20...65点生命值。",
+				"concise": "咒文。 使目标敌人失去3点能量。该目标每失去1点能量，你将获得20...65点生命值。"
+			},
+			"cht": {
+				"name": "精神饗宴",
+				"description": "咒文魔法： 使目標敵人失去 3 能量。該目標每失去 1 能量，你獲得 20...65 體力。",
+				"concise": "咒文魔法： 失去 3 能量。該目標每失去 1 能量，你獲得 20...65 體力。"
+			},
 			"de": {
+				"name": "Ätherschmaus",
+				"description": "Zauber. Der Gegner verliert 3 Punkte Energie. Für jeden verlorenen Energiepunkt erfahrt Ihr 20...65 Punkt[e] Heilung.",
+				"concise": "Zauber. Lässt 3 Energiepunkte verlieren. Ihr erhaltet pro verlorenem Energiepunkt 20...65 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Ätherschmaus",
 				"description": "Der Gegner verliert 3 Punkte Energie. Für jeden verlorenen Punkt Energie heilt Ihr Euch um 20...65 Lebenspunkte.",
 				"concise": "Lässt 3 Energiepunkte verlieren. Ihr heilt Euch pro verlorenem Energiepunkt um 20...65 Lebenspunkte."
 			},
 			"en": {
 				"name": "Ether Feast",
+				"description": "Spell. Target foe loses 3 Energy. You are healed 20...65 for each point of Energy lost.",
+				"concise": "Spell. Causes 3 Energy loss. You gain 20...65 Health for each point of Energy lost."
+			},
+			"en-gww": {
+				"name": "Ether Feast",
 				"description": "Target foe loses 3 Energy. You are healed 20...65 for each point of Energy lost.",
 				"concise": "Causes 3 Energy loss. You gain 20...65 Health for each point of Energy lost."
 			},
+			"es": {
+				"name": "Festín de éter",
+				"description": "Conjuro. El enemigo objetivo pierde 3 de energía. Te curas 20...65 de salud por cada punto de energía perdido.",
+				"concise": "Conjuro. Causa 3 de pérdida de energía. Ganas 20...65 de salud por cada punto de energía perdido."
+			},
 			"fr": {
+				"name": "Festin éthéré",
+				"description": "Sort. L'ennemi visé perd 3 points d'énergie. Vous êtes guéri de 20...65 points de vie pour chaque point d'énergie perdu.",
+				"concise": "Sort. Provoque une perte de 3 points d'énergie. Vous gagnez 20...65 points de vie par point d'énergie perdu."
+			},
+			"fr-gwiki": {
 				"name": "Festin éthéré",
 				"description": "L'ennemi visé perd 3 points d'énergie. Vous êtes guéri de 20...65 points de vie pour chaque point d'énergie perdu.",
 				"concise": "Provoque une perte de 3 points d'énergie. Vous gagnez 20...65 points de vie par point d'énergie perdu."
+			},
+			"it": {
+				"name": "Banchetto d'Etere",
+				"description": "Magia. L'obiettivo nemico perde 3 Punti Energia e tu vieni curato di 20...65 punto[i] per ogni Punto Energia perduto dal nemico.",
+				"concise": "Magia. Perdita Energia: 3. Salute conseguita per ogni Punto Energia perso: 20...65."
+			},
+			"jp": {
+				"name": "エーテル フィースト",
+				"description": "スペル： ターゲットした敵は3のエネルギーを失います。失ったエネルギーのポイントごとに、プレイヤーの体力が 20...65 回復します。",
+				"concise": "スペル： エネルギーを3減少させます。プレイヤーは、減少させたエネルギーのポイントごとに 20...65 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "정신의 향락",
+				"description": "마법. 대상 지정: 적. 대상은 3의 에너지를 잃고, 자신은 적이 잃은 에너지 1당 20...65의 체력을 회복합니다.",
+				"concise": "마법. 3의 에너지 손실을 유발합니다. 대신 손실된 에너지 1당 20...65의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Eteryczna Uczta",
+				"description": "Czar. Wybrany przeciwnik traci 3 punkty energii. Zyskujesz 20...65 pkt. życia za każdy stracony przez przeciwnika punkt energii.",
+				"concise": "Czar. Powoduje utratę 3 pkt. energii. Za każdy punkt straconej energii otrzymujesz 20...65 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Ether Feast",
+				"description": "Заклинание. Выбранный противник теряет 3 ед. энергии. Вы исцеляетесь на 20...65 ед. здоровья за каждую ед. энергии, потерянную противником.",
+				"concise": "Заклинание. Вызывает потерю 3 ед. энергии. Вы получаете 20...65 ед. здоровья за каждую потерянную единицу энергии."
+			},
+			"bork": {
+				"name": "Izeer Feaest",
+				"description": "Spell. Taerget fue-a luses 3 Inergy. Yuoo aere-a heaeled 20...65 fur iaech pueent ooff Inergy lust.",
+				"concise": "Spell. Cooses 3 Inergy luss. Yuoo gaeeen 20...65 Heaelt fur iaech pueent ooff Inergy lust."
 			}
 		}
 	}

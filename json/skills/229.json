@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电球",
+				"description": "咒文。 射出一个闪电球，命中目标敌人后，对其造成10...100点闪电伤害。此法术有 25% 的护甲穿透效果。",
+				"concise": "咒文。 射出一个闪电球，命中目标敌人后，对其造成10...100点闪电伤害。此法术有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "閃電球",
+				"description": "咒文魔法： 此技能為投射性攻擊，命中目標敵人時對其造成10...100閃電傷害，並造成碎甲0秒，此技能有25%防禦穿透效果。",
+				"concise": "咒文魔法： 此技能為投射性攻擊，命中目標敵人時對其造成10...100閃電傷害，並造成碎甲0秒，此技能有25%防禦穿透效果。"
+			},
 			"de": {
+				"name": "Kugelblitz",
+				"description": "Zauber. Sendet einen Kugelblitz aus, der dem Gegner 10...100 Punkte Blitzschaden zufügt. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Geschoss: Richtet 10...100 Punkte Blitzschaden an. 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Kugelblitz",
 				"description": "Sendet einen Kugelblitz aus, der dem Gegner 10...100 Punkte Blitzschaden zufügt. Dieser Zauber hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Geschoss: Richtet 10...100 Punkte Blitzschaden an. 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Lightning Orb",
+				"description": "Spell. Send out a Lightning Orb that strikes target foe for 10...100 lightning damage. This spell has 25% armor penetration.",
+				"concise": "Spell. Projectile: deals 10...100 lightning damage. 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Lightning Orb",
 				"description": "Send out a Lightning Orb that strikes target foe for 10...100 lightning damage. This spell has 25% armor penetration.",
 				"concise": "Projectile: deals 10...100 lightning damage. 25% armor penetration."
 			},
+			"es": {
+				"name": "Esfera de relámpago",
+				"description": "Conjuro. Lanzas una Esfera de relámpago que hace 10...100 de daño de relámpago al enemigo objetivo. Este conjuro tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Proyectil: causa 10...100 de daño de relámpago. 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Globe de foudre",
+				"description": "Sort. Vous envoyez un Globe de foudre qui inflige 10...100 points de dégâts de la foudre à la cible. Ce sort a 25% de pénétration d'armure.",
+				"concise": "Sort. Projectile : inflige 10...100 points de dégâts de la foudre. 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Globe de foudre",
 				"description": "Vous envoyez un Globe de foudre qui inflige 10...100 points de dégâts de la foudre à la cible ennemie et inflige la condition Armure brisée pendant 5...20 secondes si le globe touche sa cible. Ce sort a une pénétration d'armure de 25%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Globo del Fulmine",
+				"description": "Magia. Lanci un Globo del Fulmine che infligge all'obiettivo nemico 10...100 danni da fulmine. Questa magia ha una penetrazione dell'armatura del 25%.",
+				"concise": "Magia. Proiettile: danni da fulmine inferti: 10...100. Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ライトニング オーブ",
+				"description": "スペル： ターゲットした敵に、命中すると 10...100 のライトニング ダメージを与えるライトニング オーブを投げつけます。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： 遠投攻撃： 10...100 のライトニング ダメージを与えます。このスペルには25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개의 구",
+				"description": "마법. 대상 지정: 적. 대상에게 번개의 구를 날립니다. 명중하면 대상은 10...100의 번개 대미지를 입습니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 발사체: 10...100의 번개 대미지를 줍니다. 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Piorun Kulisty",
+				"description": "Czar. Wystrzeliwujesz Błyskawicę Kulistą, która po trafieniu zadaje wybranemu przeciwnikowi 10...100 pkt. obrażeń od elektryczności. To zaklęcie ma 25% penetrację pancerza.",
+				"concise": "Czar. Pocisk: zadaje 10...100 pkt. obrażeń od elektryczności. 25% penetracji pancerza."
+			},
+			"ru": {
+				"name": "Lightning Orb",
+				"description": "Заклинание. Вы выпускаете шаровую молнию, которая наносит выбранному противнику 10...100 ед. урона силой молнии. Это заклинание игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Метательный снаряд: наносит 10...100 ед. урона силой молнии. Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Leeghtneeng Oorb",
+				"description": "Spell. Send oooot a Leeghtneeng Oorb thaet streekes taerget fue-a fur 10...100 leeghtneeng daemaege-a. Thees spell haes 25% aermur penetraeshun.",
+				"concise": "Spell. Prujecteele-a: deaels 10...100 leeghtneeng daemaege-a. 25% aermur penetraeshun."
 			}
 		}
 	}

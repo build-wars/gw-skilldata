@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "荣耀之力",
+				"description": "增益魔法。 当你维持此「增益魔法」时，友方目标的近战攻击会造成1...5点额外伤害。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，友方目标的近身攻击会造成1...5点额外伤害。"
+			},
+			"cht": {
+				"name": "榮耀之力",
+				"description": "加持魔法： 當你維持此「加持」時，目標盟友的近身攻擊造成 1...5 額外傷害。",
+				"concise": "加持魔法： 當你維持此「加持」時，目標盟友的近身攻擊造成 1...5 額外傷害。"
+			},
 			"de": {
+				"name": "Stärke der Ehre (PvP)",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, fügt der Verbündete (bzw. Ihr selbst) im Nahkampf zusätzlich 1...5 Punkt[e] Schaden zu.",
+				"concise": "Verzauberung. Der Verbündete (bzw. Ihr selbst) richtet im Nahkampf zusätzlich 1...5 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Stärke der Ehre (PvP)",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, fügt der Verbündete (bzw. Ihr selbst) im Nahkampf zusätzlich 1...5 Punkte Schaden zu.",
 				"concise": "Der Verbündete (bzw. Ihr selbst) richtet im Nahkampf zusätzlich 1...5 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Strength of Honor (PvP)",
+				"description": "Enchantment Spell. While you maintain this enchantment, target ally deals 1...5 more damage in melee.",
+				"concise": "Enchantment Spell. Target ally deals 1...5 more damage in melee."
+			},
+			"en-gww": {
+				"name": "Strength of Honor (PvP)",
 				"description": "While you maintain this enchantment, target ally deals 1...5 more damage in melee.",
 				"concise": "Target ally deals 1...5 more damage in melee."
 			},
+			"es": {
+				"name": "Fuerza del honor (PvP)",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, el aliado objetivo hace 1...5 más de daño en ataques cuerpo a cuerpo.",
+				"concise": "Conjuro con encantamiento. El aliado objetivo hace 1...5 más de daño en ataques cuerpo a cuerpo."
+			},
 			"fr": {
+				"name": "Force de l'honneur (PvP)",
+				"description": "Enchantement. Tant que cet enchantement est actif, la cible (un allié ou vous-même) inflige 1...5 points de dégâts supplémentaires au corps à corps.",
+				"concise": "Enchantement. La cible (un allié ou vous-même) inflige 1...5 points de dégâts supplémentaires au corps à corps."
+			},
+			"fr-gwiki": {
 				"name": "Force de l'honneur (PvP)",
 				"description": "Tant que cet enchantement est actif, la cible (un allié ou vous-même) inflige 1...5 points de dégâts supplémentaires au corps à corps.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Forza dell'Onore (PvP)",
+				"description": "Incantesimo. Se l'incantesimo è attivo, l'obiettivo (un alleato o te stesso) infligge 1...5 danni in più negli attacchi ravvicinati.",
+				"concise": "Incantesimo. L'obiettivo (un alleato o te stesso) infligge 1...5 danni in più negli attacchi ravvicinati."
+			},
+			"jp": {
+				"name": "オナー ストレングス (PvP)",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした味方は近接攻撃により与えるダメージが 1...5 増加します。",
+				"concise": "強化スペル： ターゲットした味方は、近接攻撃により与えるダメージが 1...5 増加します。"
+			},
+			"kr": {
+				"name": "명예의 힘",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상의 근접 물리 공격은 적에게 1...5 대미지를 추가로 줍니다.",
+				"concise": "강화 마법. 대상의 근접 물리 공격이 1...5의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Siła Honoru (PvP)",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, wybrany sojusznik zadaje 1...5 pkt. dodatkowych obrażeń w walce wręcz.",
+				"concise": "Zaklęcie (czar). W walce wręcz wybrany sojusznik zadaje 1...5 pkt. dodatkowych obrażeń."
+			},
+			"ru": {
+				"name": "Strength of Honor (PvP)",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, выбранный союзник наносит в рукопашной схватке на 1...5 ед. урона больше.",
+				"concise": "Заклинание-чары. Выбранный союзник наносит на 1...5 ед. урона больше в рукопашной битве."
+			},
+			"bork": {
+				"name": "Strengt ooff Hunur (PfP)",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, taerget aelly deaels 1...5 mure-a daemaege-a in melee-a.",
+				"concise": "Inchuntment Spell. Taerget aelly deaels 1...5 mure-a daemaege-a in melee-a. Bork! Bork! Bork!"
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Ebon Battle Standard of Courage",
+				"description": "结界魔法。 You plant an Ebon Battle Standard of Courage at your current location. For 14...20 seconds, non-spirit allies in this area gain +24 armor and an additional +24 armor against Charr.",
+				"concise": "结界魔法。 (14...20 seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected."
+			},
+			"cht": {
+				"name": "黑檀戰鬥勇氣規範",
+				"description": "結界魔法： 於你目前的位置上策劃「黑檀戰鬥勇氣規範」。持續 14...20 秒，此區域所有非靈的盟友可獲得 +24 防禦，對夏爾 的防禦 +24。",
+				"concise": "結界魔法： You plant an Ebon Battle Standard of Courage at your current location. For 14...20 seconds, non-Spirit allies in this area gain +24 armor and an additional +24 armor against Charr."
+			},
 			"de": {
+				"name": "Ebon-Kampfstandarte des Mutes",
+				"description": "Abwehrzauber. Ihr setzt eine Ebon-Kampfstandarte des Mutes an Eurer aktuellen Position. 14...20 Sekunde[n] lang erhalten Verbündete, die keine Geister sind, in dem Bereich +24 Rüstung und zusätzlich +24 Rüstung gegen Charr.",
+				"concise": "Abwehrzauber. 14...20 Sekunde[n]: Verbündete in dieser Abwehr haben +24 Rüstung und zusätzlich +24 Rüstung gegen Charr. Geister sind nicht betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Ebon-Kampfstandarte des Mutes",
 				"description": "Ihr setzt eine Ebon-Kampfstandarte des Mutes an Eurer aktuellen Position. 14...20 Sekunden lang erhalten Verbündete, die keine Geister sind, in dem Bereich +24 Rüstung und zusätzlich +24 Rüstung gegen Charr.",
 				"concise": "14...20 Sekunden: Verbündete in dieser Abwehr haben +24 Rüstung und zusätzlich +24 Rüstung gegen Charr. <gray>Geister sind nicht betroffen.</gray>"
 			},
 			"en": {
 				"name": "Ebon Battle Standard of Courage",
+				"description": "Ward Spell. You plant an Ebon Battle Standard of Courage at your current location. For 14...20 seconds, non-spirit allies in this area gain +24 armor and an additional +24 armor against Charr.",
+				"concise": "Ward Spell. (14...20 seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected."
+			},
+			"en-gww": {
+				"name": "Ebon Battle Standard of Courage",
 				"description": "You plant an Ebon Battle Standard of Courage at your current location. For 14...20 seconds, non-spirit allies in this area gain +24 armor and an additional +24 armor against Charr.",
 				"concise": "(14...20 seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. <gray>Spirits are unaffected.</gray>"
 			},
+			"es": {
+				"name": "Estandarte de valor de la Vanguardia de Ébano",
+				"description": "Conjuro de protección. Colocas un estandarte de valor de la Vanguardia de Ébano en tu ubicación actual. Durante 14...20 segundos, los aliados no espíritus de la zona ganarán +24 de armadura y +24 extra contra los Charr.",
+				"concise": "Conjuro de protección. (14...20 segundos). Los aliados dentro de esta protección tienen +24 de armadura y +24 de armadura extra contra los Charr. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Etendard du courage de la bataille d'Ebon",
+				"description": "Sort de protection. Vous plantez un Etendard du courage de la bataille d'Ebon sur votre position actuelle. Pendant 14...20 secondes, les alliés autres que des esprits dans cette zone bénéficient d'un bonus d'armure de +24 et d'un bonus d'armure supplémentaire de +24 contre les Charrs.",
+				"concise": "Sort de protection. (14...20 secondes.) Les alliés dans cette Protection bénéficient d'un bonus d'armure de +24 et d'un bonus d'armure supplémentaire de +24 contre les Charrs. Les esprits ne sont pas affectés."
+			},
+			"fr-gwiki": {
 				"name": "Etendard du courage de la bataille d'Ebon",
 				"description": "Vous plantez un Etendard du courage de la bataille d'Ebon sur votre position actuelle. Pendant 14...20 secondes, les alliés autres que des esprits dans cette zone bénéficient d'un bonus d'armure de +24 et d'un bonus d'armure supplémentaire de +24 contre les Charrs.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Stendardo di Battaglia del Coraggio d'Ebano",
+				"description": "Guardia. Conficchi nella tua posizione uno Stendardo di Battaglia del Coraggio d'Ebano. Per 14...20 secondo[i], gli alleati nell'area (Spiriti esclusi) ottengono +24 di armatura e +24 in più di armatura contro i Charr.",
+				"concise": "Guardia. (Secondi: 14...20) Gli alleati in questa Guardia ottengono: armatura +24 e armatura +24 contro i Charr. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "エボン カレッジ バトル スタンダード",
+				"description": "ウォード スペル： 現在の位置に、エボン カレッジ バトル スタンダードを立てます。14...20 秒間、エリア内にいる精霊以外の味方は防御力が 24、チャールに対する防御力はさらに 24 増加します。",
+				"concise": "ウォード スペル： (14...20 秒) このエリア内にいる味方は、防御力が 24、チャールに対する防御力はさらに24 増加します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "담력의 흑단 전투 깃발",
+				"description": "결계. 현재 위치에 담력의 흑단 전투 깃발을 세웁니다. 14...20초 동안 일정 범위 내에 있는 영혼이 아닌 아군은 방어력이 24 증가하고, 차르에 대한 방어력이 추가로 24 증가합니다.",
+				"concise": "결계. (14...20초) 결계 내에 있는 아군은 방어력이 24 증가하고, 차르에 대한 방어력이 추가로 24 증가합니다. 영혼에겐 효과가 없습니다."
+			},
+			"pl": {
+				"name": "Sztandar Odwagi Hebanowej Awangardy",
+				"description": "Ochrona (czar). W miejscu, w którym stoisz wbijasz Sztandar Odwagi Hebanowej Awangardy. Przez 14...20 sek., nie będący duchami sojusznicy na tym obszarze otrzymują +24 pkt. pancerza i dodatkowo +24 pkt. pancerza przeciwko popielcom.",
+				"concise": "Ochrona (czar). (14...20 sek.) Sojusznicy w granicach tej ochrony posiadają +24 pkt. pancerza i dodatkowo +24 pkt. pancerza przeciwko popielcom. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Ebon Battle Standard of Courage",
+				"description": "Заклинание опеки. Вы помещаете Ebon Battle Standard of Courage в вашем текущем местоположении. В течение 14...20 сек все находящиеся в зоне досягаемости союзники, не являющиеся духами, получают дополнительно 24 ед. защиты и дополнительно еще 24 ед. защиты против Charr.",
+				"concise": "Заклинание опеки. (14...20 сек) Союзники в этой сфере получают +24 ед. к защите и дополнительно +24 ед. к защите против Charr. Не действует на духов."
+			},
+			"bork": {
+				"name": "Ibun Baettle-a Stundaerd ooff Cuooraege-a",
+				"description": "Vaerd Spell. Yuoo plunt un Ibun Baettle-a Stundaerd ooff Cuooraege-a aet yuoor coorrent lucaeshun. Fur 14...20 secunds, nun-spureet aelleees in thees aerea gaeeen +24 aermur und un aeddeeshunael +24 aermur aegaeeenst Chaerr.",
+				"concise": "Vaerd Spell. (14...20 secunds.) Aelleees in thees vaerd haefe-a +24 aermur und +24 mure-a aermur aegaeeenst Chaerr. Spureets aere-a unaeffffected."
 			}
 		}
 	}

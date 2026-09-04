@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Signet of Mystic Speed",
+				"description": "纹章。 For 30 seconds, you move 1...3% faster for each enchantment on you (maximum 0% faster).",
+				"concise": "纹章。 (30 seconds.) You move 1...3% faster (maximum 0%) for each enchantment on you."
+			},
+			"cht": {
+				"name": "祕速紋章",
+				"description": "紋章： 持續 30 秒，你接下來的 1...3 次的加持將立即施展，即刻加持魔法不會消耗次數。",
+				"concise": "紋章： 持續 30 秒，你接下來的 1...3 次的加持將立即施展，即刻加持魔法不會消耗次數。"
+			},
 			"de": {
+				"name": "Siegel der mystischen Geschwindigkeit",
+				"description": "Siegel. 30 Sekunde[n] lang wirken Eure nächste[n] 1...3 auf Euch gewirkte[n] Verzauberung[en] sofort. Blitzverzauberungen verbrauchen diese Fertigkeit nicht.",
+				"concise": "Siegel. (30 Sekunde[n].) Eure nächste[n] 1...3 auf Euch gewirkte[n] Verzauberung[en] wirken sofort. Blitzverzauberungen verbrauchen diese Fertigkeit nicht."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der mystischen Geschwindigkeit",
 				"description": "30 Sekunden lang wirken Eure nächsten 1...3 auf Euch gewirkten Verzauberungen sofort. Blitzverzauberungen verbrauchen diese Fertigkeit nicht.",
 				"concise": "(30 Sekunden.) Eure nächsten 1...3 auf Euch gewirkten Verzauberungen wirken sofort. Blitzverzauberungen verbrauchen diese Fertigkeit nicht."
 			},
 			"en": {
 				"name": "Signet of Mystic Speed",
+				"description": "Signet. For 30 seconds, your next 1...3 self-targeting enchantments cast instantly. Flash enchantments do not consume uses of this skill.",
+				"concise": "Signet. (30 seconds.) Your next 1...3 self-targeted enchantments cast instantly. Flash enchantments do not consume uses of this skill."
+			},
+			"en-gww": {
+				"name": "Signet of Mystic Speed",
 				"description": "For 30 seconds, your next 1...3 self-targeting enchantment[s] cast instantly. Flash enchantments do not consume uses of this skill.",
 				"concise": "(30 seconds.) Your next 1...3 self-targeted enchantments <sic/> cast instantly. <gray>Flash enchantments do not consume uses of this skill.</gray>"
 			},
+			"es": {
+				"name": "Sello de velocidad mística",
+				"description": "Sello. Durante 30 segundos, los próximos 1...3 encantamientos que apunten a ti mismo se lanzan instantáneamente. Los encantamientos de destello no consumen usos de esta habilidad.",
+				"concise": "Sello. (30 segundos). Los próximos 1...3 encantamientos que apunten a ti mismo se lanzan instantáneamente. Los encantamientos de destello no consumen usos de esta habilidad."
+			},
 			"fr": {
+				"name": "Sceau de vitesse mystique",
+				"description": "Sceau. Pendant 30 secondes, vos 1...3 prochains enchantements autociblés sont lancés automatiquement. Les enchantements instantanés ne diminuent pas votre nombre d'utilisations possibles de cette compétence.",
+				"concise": "Sceau. (30 secondes.) Vos 1...3 prochains enchantements autociblés sont lancés instantanément. Les enchantements instantanés ne diminuent pas votre nombre d'utilisations possibles de cette compétence."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de vitesse mystique",
 				"description": "Pendant 5...20 secondes, vous vous déplacez 15% plus vite pour chaque enchantement qui vous affecte (33% plus vite au maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Velocità Mistica",
+				"description": "Sigillo. Per 30 secondi lanci istantaneamente i tuoi prossimi 1...3 incantesimi su te stesso[f:\"stessa\"]. Gli Incantesimi Lampo non consumano l'utilizzo di questa abilità.",
+				"concise": "Sigillo. (Secondi: 30). 1...3 dei tuoi prossimi incantesimi su di te verranno lanciati istantaneamente. Gli Incantesimi Lampo non consumano l'utilizzo di questa abilità."
+			},
+			"jp": {
+				"name": "ミスティック スピード シグネット",
+				"description": "シグネット： 30 秒間、次の 1...3 回、自分に対して使用する強化スペルはすぐに詠唱できます。フラッシュ強化スペルは対象外です。",
+				"concise": "シグネット： (30 秒) 次の 1...3 回、自分に対して使用する強化スペルはすぐに詠唱できます。フラッシュ強化スペルは対象外です。"
+			},
+			"kr": {
+				"name": "비장의 속도 인장",
+				"description": "인장. 30초 동안 스스로 자신에게 거는 다음 1...3번의 강화 마법은 즉시 시전됩니다. 순간 시전 강화 마법은 이 스킬의 효과 횟수를 소모하지 않습니다.",
+				"concise": "인장. (30초) 스스로 자신에게 거는 다음 1...3번의 강화 마법은 즉시 시전됩니다. 순간 시전 강화 마법은 이 스킬의 효과 횟수를 소모하지 않습니다."
+			},
+			"pl": {
+				"name": "Sygnet Mistycznej Prędkości",
+				"description": "Sygnet. Przez 30 sek., twoje kolejne (1...3) skierowane na ciebie zaklęcia są rzucane natychmiastowo. Zaklęcia błysku nie zużywają tej umiejętności.",
+				"concise": "Sygnet. (30 sek.) Twoje kolejne (1...3) skierowane na ciebie zaklęcia są rzucane natychmiast. Zaklęcia błysku nie zużywają tej umiejętności."
+			},
+			"ru": {
+				"name": "Signet of Mystic Speed",
+				"description": "Печать. В течение 30 сек ваши следующие чары (1...3), направленные на самого себя, активируются немедленно. Мгновенные чары не засчитываются этим умением.",
+				"concise": "Печать. (30 сек) Ваши следующие чары (1...3), направленные на самого себя, активируются немедленно. Мгновенные чары не засчитываются этим умением."
+			},
+			"bork": {
+				"name": "Seegnet ooff Mysteec Speed",
+				"description": "Seegnet. Fur 30 secunds, yuoor next 1...3 selff-taergeteeng inchuntments caest instuntly. Flaesh inchuntments du nut cunsoome-a uses ooff thees skeell.",
+				"concise": "Seegnet. (30 secunds.) Yuoor next 1...3 selff-taergeted inchuntments caest instuntly. Flaesh inchuntments du nut cunsoome-a uses ooff thees skeell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "持盾姿态",
+				"description": "姿态。 在1...6秒之内，当你装备盾牌时，使你有75%的几率格挡攻击，但是你的移动速度降低33%。",
+				"concise": "姿态。 在1...6秒之内，当你装备盾牌时，使你的格挡率提高75%，但是你的移动速度降低33%。"
+			},
+			"cht": {
+				"name": "舉盾態勢",
+				"description": "態勢： 持續 1...6 秒，當裝備盾時，你有 75% 機率「格擋」敵人的攻擊，依照你的力量屬性等級，每級使你獲得 2 的傷害減免。 (最多減少 15 )",
+				"concise": "態勢： 持續 1...6 秒，當裝備盾時，你有 75% 機率「格擋」敵人的攻擊，依照你的力量屬性等級，每級使你獲得 2 的傷害減免。 (最多減少 15 )"
+			},
 			"de": {
+				"name": "Schildhaltung",
+				"description": "Haltung. 1...6 Sekunde[n] lang habt Ihr, solange Ihr einen Schild benutzt, eine 75%ige Chance, Angriffe zu blocken. Für jeden Rang in Stärke wird der erlittene Schaden um 2 Punkte reduziert (maximal 15 Lebenspunkte Schadensreduzierung).",
+				"concise": "Haltung. (1...6 Sekunde[n].) Ihr habt eine 75%ige Chance zu blocken. Für jeden Rang in Stärke wird der erlittene Schaden um 2 Punkte reduziert (maximal 15 Lebenspunkte Schadensreduzierung). Keine Wirkung, falls Ihr keinen Schild mitführt."
+			},
+			"de-guildwiki": {
 				"name": "Schildhaltung",
 				"description": "1...6 Sekunden lang habt Ihr, solange Ihr einen Schild benutzt, eine 75%ige Chance, Angriffe zu blocken. Für jeden Punkt Stärke wird der erlittene Schaden um 2 Punkte reduziert (maximal 15 Lebenspunkte Schadenreduzierung).",
 				"concise": "(1...6 Sekunden.) Ihr habt eine 75%ige Chance zu blocken. Für jeden Punkt Stärke wird der erlittene Schaden um 2 Punkte reduziert (maximal 15 Lebenspunkte Schadenreduzierung). <gray>Keine Wirkung, falls Ihr keinen Schild mitführt.</gray>"
 			},
 			"en": {
 				"name": "Shield Stance",
+				"description": "Stance. For 1...6 seconds, while using a shield, you have a 75% chance to block incoming attacks, and damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction).",
+				"concise": "Stance. (1...6 seconds.) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). No effect unless you have a shield equipped."
+			},
+			"en-gww": {
+				"name": "Shield Stance",
 				"description": "For 1...6 second[s], while wielding a shield, you have a 75% chance to block incoming attacks, and damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction).",
 				"concise": "(1...6 second[s].) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). <gray>No effect unless you have a shield equipped.</gray>"
 			},
+			"es": {
+				"name": "Actitud protectora",
+				"description": "Actitud. Durante 1...6 segundos, mientras lleves un escudo, tienes un 75% de probabilidades de bloquear y el daño se reduce en 2 por cada rango de fuerza (15 de reducción máxima de daño).",
+				"concise": "Actitud. (1...6 segundos). Tienes un 75% de probabilidades de bloquear. El daño se reduce en 2 por cada rango de fuerza (15 de reducción máxima de daño). No tiene efecto a menos que lleves un escudo."
+			},
 			"fr": {
+				"name": "Pose du bouclier",
+				"description": "Pose de combat. Pendant 1...6 secondes, si vous utilisez un bouclier, vous avez 75% de chances de bloquer les attaques lancées contre vous, et les dégâts sont réduits de 2 pour chaque rang en Force (maximum de 15 points de réduction de dégâts).",
+				"concise": "Pose de combat. (1...6 secondes.) Vous avez 75 % de chances de bloquer les attaques. Les dégâts sont réduits de 2 pour chaque rang en Force (maximum de 15 points de réduction de dégâts). Ne fonctionne que si vous êtes équipé d'un bouclier."
+			},
+			"fr-gwiki": {
 				"name": "Pose du bouclier",
 				"description": "Pendant 1...6 secondes, si vous utilisez un bouclier, vous avez 75% de chances de bloquer les attaques lancées contre vous, et les dégâts sont réduits de 2 pour chaque rang en Force (maximum de 15 points réduction de dégâts).",
 				"concise": "(1...6 seconde(s).) Vous avez 75% de chances de bloquer les attaques. Les dégâts sont réduits de 2 pour chaque rang en Force (maximum de 15 points réduction de dégâts). <gray>Ne fonctionne que si vous êtes équipé d'un bouclier.</gray>"
+			},
+			"it": {
+				"name": "Posizione dello Scudo",
+				"description": "Posizione. Per 1...6 secondo[i], se utilizzi uno scudo, hai un 75% di probabilità di bloccare un attacco in arrivo e il danno viene ridotto di 2 per ogni punto di Forza (riduzione danno max: 15).",
+				"concise": "Posizione. (Secondo[i]: 1...6). Probabilità di blocco: 75%. Il danno viene ridotto di 2 per ogni punto di Forza (riduzione danno max: 15). Ha effetto solo se si è equipaggiati con uno scudo."
+			},
+			"jp": {
+				"name": "シールド スタンス",
+				"description": "スタンス： 1...6 秒間、シールドを装備していると、敵から受ける攻撃を 75% の確率でブロックし、「ストレングス」の特性レベルごとにダメージが2減少します (最大 15 のダメージ減少効果)。",
+				"concise": "スタンス： (1...6 秒) 75% の確率でブロックします。「ストレングス」の特性レベルごとに受けるダメージが2減少します (最大 15 のダメージ減少効果)。シールドを装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "방패 방어 자세",
+				"description": "자세. 대상 지정: 없음. 1...6초 동안 방패를 사용하여 75% 확률로 공격을 막아 내고, 받는 대미지가 강인함 특성 레벨 1당 2씩, 최대 15의 대미지만큼 감소합니다.",
+				"concise": "자세. (1...6초) 75% 확률로 공격을 막아 냅니다. 받는 대미지가 강인함 특성 레벨 1당 2씩, 최대 15만큼 감소합니다. 방패를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Postawa Tarczownika",
+				"description": "Postawa. Przez 1...6 sek, jeśli używasz tarczy, masz 75% szans na zablokowanie ataków, a otrzymywane obrażenia są zmniejszone o 2 za każdy poziom siły (maksymalna redukcja obrażeń to 15 pkt.).",
+				"concise": "Postawa. (1...6 sek.) Masz 75% szans na zablokowanie ataków. Otrzymywane obrażenia zostają zmniejszone o 2 za każdy poziom siły (maksymalna redukcja obrażeń to 15 pkt/). Bez efektu, jeśli nie używasz tarczy."
+			},
+			"ru": {
+				"name": "Shield Stance",
+				"description": "Стойка. В течение 1...6 сек, если вы вооружены щитом, вы получаете 75%-й шанс блокировать направленные против вас атаки, а получаемый урон уменьшается на 2 ед. за каждый уровень таланта Strength (но не более 15 ед. уменьшения урона).",
+				"concise": "Стойка. (1...6 сек) Вы получаете 75%-й шанс блокировать атаки. Получаемый урон уменьшается на 2 ед. за каждый уровень таланта Strength (но не более 15 ед. уменьшения урона). Не действует, если вы не вооружены щитом."
+			},
+			"bork": {
+				"name": "Sheeeld Stunce-a",
+				"description": "Stunce-a. Fur 1...6 secunds, vheele-a useeng a sheeeld, yuoo haefe-a a 75% chunce-a tu bluck incumeeng aettaecks, und daemaege-a is redooced by 2 fur iaech runk ooff Strengt (maexeemoom 15 daemaege-a redoocshun).",
+				"concise": "Stunce-a. (1...6 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Daemaege-a is redooced by 2 fur iaech runk ooff Strengt (maexeemoom 15 daemaege-a redoocshun). Nu iffffect unless yuoo haefe-a a sheeeld iqooeepped."
 			}
 		}
 	}

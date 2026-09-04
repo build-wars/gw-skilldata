@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "波塞东之戟",
+				"description": "精英咒文。 快速掷出一把长戟，对目标敌人造成10...90点冰冻伤害，若该敌人正在移动，则会被击倒。",
+				"concise": "精英咒文。 快速掷出一把长戟，对目标敌人造成10...90点冰冻伤害，若该敌人正在移动，则会被击倒。"
+			},
+			"cht": {
+				"name": "水之三叉戟",
+				"description": "精英咒文魔法： 射出快速飛行的水之三叉戟，命中時對目標敵人造成 10...90 冰凍傷害，若命中正在移動的目標，則該目標被擊倒。",
+				"concise": "精英咒文魔法： 射出快速飛行的水之三叉戟，命中時對目標敵人造成 10...90 冰凍傷害，若命中正在移動的目標，則該目標被擊倒。"
+			},
 			"de": {
+				"name": "Wasserdreizack",
+				"description": "Elite-Zauber. Sendet einen schnellen Wasserdreizack aus, der dem Gegner 10...90 Punkt[e] Kälteschaden zufügt, wenn er trifft. Trifft er einen Gegner, der sich bewegt, wird dieser zu Boden geworfen.",
+				"concise": "Elite-Zauber. Schnelles Geschoss: Richtet 10...90 Punkt[e] Kälteschaden an und wirft Feinde, die sich bewegen, zu Boden. Schleudert 2 zusätzliche Geschosse auf umstehende Feinde."
+			},
+			"de-guildwiki": {
 				"name": "Wasserdreizack",
 				"description": "Sendet einen schnellen Wasserdreizack aus, der dem Gegner und bis zu 2 umstehenden Feinden 10...90 Punkte Kälteschaden zufügt, wenn er trifft. Trifft er einen Gegner, der sich bewegt, wird dieser zu Boden geworfen.",
 				"concise": "Schnelles Geschoss: Richtet 10...90 Punkte Kälteschaden an und wirft Feinde, die sich bewegen, zu Boden. Schleudert zwei zusätzliche Geschosse auf umstehende Feinde."
 			},
 			"en": {
 				"name": "Water Trident",
+				"description": "Elite Spell. Send out a fast-moving Water Trident, striking target foe and up to 2 adjacent foes for 10...90 cold damage if it hits. If it hits a moving foe, that foe is knocked down.",
+				"concise": "Elite Spell. Fast projectile: deals 10...90 cold damage and knocks down moving foes. Shoots 2 additional projectiles at adjacent foes."
+			},
+			"en-gww": {
+				"name": "Water Trident",
 				"description": "Send out a fast-moving Water Trident, striking target foe and up to 2 adjacent foes for 10...90 cold damage if it hits. If it hits a moving foe, that foe is knocked down.",
 				"concise": "Fast Projectile: deals 10...90 cold damage and knocks-down moving foes. Shoots 2 additional projectiles at adjacent foes."
 			},
+			"es": {
+				"name": "Tridente de agua",
+				"description": "Conjuro de élite. Arrojas un Tridente de agua al enemigo objetivo, que hace 10...90 de daño frío si impacta al enemigo objetivo y a otros dos enemigos cercanos. Si este ataque impacta a un enemigo en movimiento, lo derriba.",
+				"concise": "Conjuro de élite. Proyectil veloz: hace 10...90 de daño frío y derriba a los enemigos en movimiento. Lanza 2 proyectiles adicionales a enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Trident marin",
+				"description": "Sort d'élite. Vous lancez un Trident marin qui se déplace très rapidement vers l'ennemi. S'il fait mouche, il inflige 10...90 points de dégâts du froid à sa cible et jusqu'à 2 ennemis adjacents. S'il touche un ennemi en mouvement, celui-ci est renversé.",
+				"concise": "Sort d'élite. Projectile rapide : inflige 10...90 points de dégâts du froid et renverse les ennemis en mouvement. Tire 2 projectiles supplémentaires sur les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Trident marin",
 				"description": "Vous lancez un Trident marin qui se déplace ''très rapidement'' vers l'ennemi. Il inflige 10...70 points de dégâts du froid s'il touche sa cible. S'il touche un ennemi en mouvement, celui-ci est assommé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tridente d'Acqua",
+				"description": "Magia d'Élite. Lanci un rapido Tridente d'Acqua che infligge all'obiettivo nemico e fino a due nemici adiacenti 10...90 danni da freddo se va a segno. Se colpisce un nemico in movimento, lo abbatte.",
+				"concise": "Magia d'Élite. Proiettile veloce: danni da freddo inferti: 10...90; abbatte i nemici in movimento. Spara due proiettili aggiuntivi verso i nemici adiacenti."
+			},
+			"jp": {
+				"name": "ウォーター トライデント",
+				"description": "エリート スペル： ターゲットした敵に、命中するとターゲットおよび最大2体の隣接する敵に 10...90 のコールド ダメージを与える飛速度の速いウォーター トライデントを投げつけます。移動中の敵に命中した場合、その敵は転倒します。",
+				"concise": "エリート スペル： 早い遠投攻撃： ターゲットした敵および隣接する2体の敵に 10...90 のコールド ダメージを与え、移動中の敵を転倒させます。"
+			},
+			"kr": {
+				"name": "포세이돈의 창",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에게 빠른 속도로 날아가는 물의 창을 날립니다. 명중하면 대상과 그에 인접한 적 2명에게 10...90의 냉기 대미지를 줍니다. 이동 중이던 적은 바닥에 넘어집니다.",
+				"concise": "엘리트 마법. 빠른 발사체: 대상과 인접한 적 2명에게 10...90의 냉기 대미지를 주고, 이동 중이던 적은 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Wodny Trójząb",
+				"description": "Elitarny czar. Wyślij szybko poruszający się Wodny Trójząb, który przy trafieniu zadaje wybranemu przeciwnikowi 10...90 pkt. obrażeń od zimna. Jeśli atak trafi poruszającego się przeciwnika, przeciwnik ten zostaje powalony.",
+				"concise": "Elitarny czar. Szybki pocisk: zadaje 10...90 pkt. obrażeń od zimna; powala poruszających się przeciwników."
+			},
+			"ru": {
+				"name": "Water Trident",
+				"description": "Элитное заклинание. Вы бросаете быстро летящий Water Trident, который поражает выбранного противника и до 2 окружающих противников и наносит 10...90 ед. урона силой холода в случае попадания. Если противник двигался в момент попадания, то он будет сбит с ног.",
+				"concise": "Элитное заклинание. Быстрый метательный снаряд: наносит 10...90 ед. урона силой холода и сбивает с ног двигающихся противников. Выпускает 2 дополнительных снаряда в окружающих противников."
+			},
+			"bork": {
+				"name": "Vaeter Treedent",
+				"description": "Ileete-a Spell. Send oooot a faest-mufeeng Vaeter Treedent, streekeeng taerget fue-a und up tu 2 aedjaecent fues fur 10...90 culd daemaege-a iff it heets. Iff it heets a mufeeng fue-a, thaet fue-a is knucked doon.",
+				"concise": "Ileete-a Spell. Faest prujecteele-a: deaels 10...90 culd daemaege-a und knucks doon mufeeng fues. Shuuts 2 aeddeeshunael prujecteeles aet aedjaecent fues."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "治疗之种",
+				"description": "增益魔法。 每当友方目标受到伤害时，为他及所有邻近的友方人物恢复3...30点生命值，效果持续10秒。",
+				"concise": "增益魔法。 每当友方目标受到伤害时，为他及所有邻近的友方人物恢复3...30点生命值，效果持续10秒。"
+			},
+			"cht": {
+				"name": "治癒種子",
+				"description": "加持魔法： 持續 10 秒，每當目標其他盟友受到傷害時，該盟友及所有鄰近的盟友回復 3...30 體力。",
+				"concise": "加持魔法： 持續 10 秒，每當目標其他盟友受到傷害時，該盟友及所有鄰近的盟友回復 3...30 體力。"
+			},
 			"de": {
+				"name": "Heilender Samen",
+				"description": "Verzauberung. 10 Sekunde[n] lang erhalten der anvisierte Verbündete und alle umstehenden Verbündeten 3...30 Lebenspunkt[e], wenn der Verbündete Schaden erleidet.",
+				"concise": "Verzauberung. 10 Sekunde[n]: Der Verbündete und umstehende Verbündete erhalten jedes Mal 3...30 Lebenspunkt[e], wenn dieser Verbündete Schaden erleidet. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Heilender Samen",
 				"description": "10 Sekunden lang erhalten der anvisierte Verbündete und alle umstehenden Verbündeten 3...30 Lebenspunkte, wenn der Verbündete Schaden erleidet.",
 				"concise": "10 Sekunden: Der Verbündete und umstehende Verbündete erhalten jedes Mal 3...30 Lebenspunkte, wenn dieser Verbündete Schaden erleidet. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Healing Seed",
+				"description": "Enchantment Spell. For 10 seconds, whenever target other ally takes damage, that ally and all adjacent allies gain 3...30 Health.",
+				"concise": "Enchantment Spell. (10 seconds.) Target and adjacent allies gain 3...30 Health whenever this ally takes damage. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Healing Seed",
 				"description": "For 10 seconds, whenever target other ally takes damage, that ally and all adjacent allies gain 3...30 Health.",
 				"concise": "(10 seconds.) Target and adjacent allies gain 3...30 Health whenever this ally takes damage. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Semilla de curación",
+				"description": "Conjuro con encantamiento. Si el aliado objetivo recibe daño durante los próximos 10 segundos, ese aliado y todos los adyacentes ganan 3...30 de salud.",
+				"concise": "Conjuro con encantamiento. (10 segundos). El objetivo y los aliados adyacentes ganan 3...30 de salud cada vez que este aliado reciba daño. No se puede usar con uno mismo."
+			},
 			"fr": {
+				"name": "Graine de guérison",
+				"description": "Enchantement. Pendant 10 secondes, si l'allié visé subit des dégâts, celui-ci et tous les alliés adjacents gagnent 3...30 points de vie.",
+				"concise": "Enchantement. (10 secondes.) La cible et les alliés adjacents obtiennent 3...30 points de vie chaque fois que cet allié subit des dégâts. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Graine de guérison",
 				"description": "Pendant 10 secondes, si l'allié visé subit des dégâts, celui-ci et tous les alliés adjacents gagnent 3...30 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Seme della Guarigione",
+				"description": "Incantesimo. Per 10 secondo[i], se l'alleato subisce danni, lui e tutti gli alleati adiacenti ottengono 3...30 Punto[i] Salute.",
+				"concise": "Incantesimo. (Secondi: 10) Salute per l'obiettivo e gli alleati adiacenti ogni volta che questo alleato riceve danni: 3...30. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ヒーリング シード",
+				"description": "強化スペル： 10 秒間、ターゲットした自分以外の味方がダメージを受けるたびに、その味方および隣接するすべての味方は 3...30 の体力を獲得します。",
+				"concise": "強化スペル： (10 秒) ターゲットした味方および隣接する味方は、ターゲットがダメージを受けるたびに 3...30 の体力を獲得します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "치유의 씨앗",
+				"description": "강화 마법. 대상 지정: 아군. 10초 동안 대상이 대미지를 입을 때마다 대상과 그에 인접한 모든 아군은 3...30의 체력을 회복합니다. 자신에게 사용할 수 없습니다.",
+				"concise": "강화 마법. (10초) 대상 아군이 대미지를 받을 때마다 대상과 그에 인접한 아군은 3...30의 체력을 얻습니다. 자신에게 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Uzdrawiające Ziarno",
+				"description": "Zaklęcie (czar). Przez 10 sek., za każdym razem, kiedy wybrany sojusznik inny niż ty otrzyma obrażenia, on i wszyscy sojusznicy w kontakcie z nim otrzymają 3...30 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). (10 sek.) Za każdym razem, kiedy wybrany sojusznik otrzymuje obrażenia, on i sojusznicy bezpośrednio przy nim otrzymują po 3...30 pkt. żywotności. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Healing Seed",
+				"description": "Заклинание-чары. В течение 10 сек каждый раз, когда выбранный союзник (но не вы) получает урон, он и все окружающие его союзники получают 3...30 ед. здоровья.",
+				"concise": "Заклинание-чары. (10 сек) Исцеляет выбранного союзника и окружающих его союзников на 3...30 ед. здоровья каждый раз, когда этот союзник получает урон. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Heaeleeng Seed",
+				"description": "Inchuntment Spell. Fur 10 secunds, vhenefer taerget oozeer aelly taekes daemaege-a, thaet aelly und aell aedjaecent aelleees gaeeen 3...30 Heaelt.",
+				"concise": "Inchuntment Spell. (10 secunds.) Taerget und aedjaecent aelleees gaeeen 3...30 Heaelt vhenefer thees aelly taekes daemaege-a. Cunnut selff-taerget."
 			}
 		}
 	}

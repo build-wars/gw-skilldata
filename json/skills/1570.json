@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 3,
 		"adrenaline_precise": 3,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "净化之曲",
+				"description": "精英圣歌。 在20秒之内，所有「音波」范围内的友方在下1...6次使用技能时，将会治愈自身的一种「症状」。",
+				"concise": "精英圣歌。 在20秒之内，所有「音波」范围内的友方在下1...6次使用技能时，将会治愈自身的一种「症状」。"
+			},
+			"cht": {
+				"name": "淨化之歌",
+				"description": "精英聖歌： 持續 20 秒，使音量所及範圍內的盟友在接下來的 1...6 次使用技能時，消除自身的一項「病症」。",
+				"concise": "精英聖歌： 持續 20 秒，使音量所及範圍內的盟友在接下來的 1...6 次使用技能時，消除自身的一項「病症」。"
+			},
 			"de": {
+				"name": "Lied der Läuterung",
+				"description": "Elite-Anfeuerungsruf. 20 Sekunde[n] lang entfernen die nächsten 1...6 Fertigkeiten, die jeder Verbündete in Hörweite verwendet, 1 Zustand von diesem Verbündeten.",
+				"concise": "Elite-Anfeuerungsruf. 20 Sekunde[n]: Verbündete in Hörweite verlieren bei Benutzung ihrer nächsten 1...6 Fertigkeit[en] einen Zustand."
+			},
+			"de-guildwiki": {
 				"name": "Lied der Läuterung",
 				"description": "20 Sekunden lang entfernen die nächsten 1...6 Fertigkeiten, die jeder Verbündete in Hörweite verwendet, 1<sic/> Zustand von diesem Verbündeten.",
 				"concise": "20 Sekunden: Verbündete in Hörweite verlieren bei Benutzung ihrer nächsten 1...6 Fertigkeiten einen Zustand."
 			},
 			"en": {
 				"name": "Song of Purification",
+				"description": "Elite Chant. For 20 seconds, the next 1...6 skills used by each ally within earshot remove 1 condition from that ally.",
+				"concise": "Elite Chant. (20 seconds.) Allies in earshot lose one condition with their next 1...6 skills."
+			},
+			"en-gww": {
+				"name": "Song of Purification",
 				"description": "For 20 seconds, the next 1...6 skill[s] used by each ally within earshot remove 1 condition from that ally.",
 				"concise": "(20 seconds.) Allies in earshot lose one condition with their next 1...6 skill[s]."
 			},
+			"es": {
+				"name": "Canción de purificación",
+				"description": "Cántico de élite. Durante 20 segundos, los aliados al alcance del oído se curarán 1 condición al usar sus siguientes habilidades (1...6).",
+				"concise": "Cántico de élite. (20 segundos). Los aliados al alcance del oído pierden una condición con sus siguientes habilidades (1...6)."
+			},
 			"fr": {
+				"name": "Chanson de purification",
+				"description": "Chant d'élite. Pendant 20 secondes, les prochaines compétences (au nombre de 1...6) utilisées par chaque allié à portée de voix ôtent 1 condition à cet allié.",
+				"concise": "Chant d'élite. (20 secondes.) Les alliés à portée de voix perdent une condition grâce à 1...6 compétences suivantes."
+			},
+			"fr-gwiki": {
 				"name": "Chanson de purification",
 				"description": "Pendant 20 secondes, les 1...6 prochaines compétences utilisées par chaque allié à portée de voix ôtent une condition à cet allié.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Canzone della Purificazione",
+				"description": "Canto d'Élite. Per 20 secondo[i], ogni alleato a portata d'orecchio con [il] [F]prossima[e] 1...6 abilità rimuove 1 condizione da se stesso.",
+				"concise": "Canto d'Élite. (Secondi: 20) Gli alleati a portata d'orecchio perdono una condizione con 1...6 abilità successiva[e]."
+			},
+			"jp": {
+				"name": "ピュリフィケーション ソング",
+				"description": "エリート チャント： 20 秒間、声の届く範囲内にいる味方はそれぞれ 1...6 回、スキルを使用するたびにかけられている「状態異常」が1個解除されます。",
+				"concise": "エリート チャント： (20 秒) 声の届く範囲内にいる味方は、次に使用する 1...6 個のスキルで「状態異常」が1個解除されます。"
+			},
+			"kr": {
+				"name": "정화의 노래",
+				"description": "엘리트 영창. 대상 지정: 없음. 20초 동안 가청 범위 내에 있는 아군이 1...6번의 스킬을 사용하면 상태이상 하나가 무효화됩니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "엘리트 영창. (20초) 가청 범위 내에 있는 아군이 1...6번의 스킬을 사용하면 몸에 걸린 상태이상 하나가 무효화됩니다."
+			},
+			"pl": {
+				"name": "Pieśń Oczyszczenia",
+				"description": "Elitarny zaśpiew. Przez 20 sek. następne umiejętności w liczbie 1...6 używane przez każdego sojusznika w zasięgu słuchu usuwają z niego 1 przypadłość.",
+				"concise": "Elitarny zaśpiew. (20 sek.) Sojusznicy w zasięgu słuchu, ze swoimi następnymi umiejętnościami w liczbie 1...6 tracą jedną przypadłość."
+			},
+			"ru": {
+				"name": "Song of Purification",
+				"description": "Элитный хорал. В течение 20 сек следующие умения (1...6), использованные каждым находящимся в зоне слышимости союзником, снимут с этого союзника 1 состояние.",
+				"concise": "Элитный хорал. (20 сек) Союзники в зоне слышимости теряют одно состояние при использовании ими следующих умений (1...6)."
+			},
+			"bork": {
+				"name": "Sung ooff Pooreeffeecaeshun",
+				"description": "Ileete-a Chunt. Fur 20 secunds, zee next 1...6 skeells used by iaech aelly veetheen iaershut remufe-a 1 cundeeshun frum thaet aelly.",
+				"concise": "Ileete-a Chunt. (20 secunds.) Aelleees in iaershut luse-a oone-a cundeeshun veet zeeur next 1...6 skeells."
 			}
 		}
 	}

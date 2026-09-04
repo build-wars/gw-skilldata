@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵狐杀",
+				"description": "精英增益魔法。 在5...20秒之内，使你的攻击无法被格挡。此「增益魔法」在你攻击失败后消失。",
+				"concise": "精英增益魔法。 在5...20秒之内，使你的攻击无法被格挡。此「增益魔法」在你攻击失败后消失。"
+			},
+			"cht": {
+				"name": "狐狸誓言",
+				"description": "精英加持魔法： 持續 5...20 秒，你的攻擊無法被「格擋」，但是當你「下一次」攻擊失敗時，此「加持」的效果終止。",
+				"concise": "精英加持魔法： 持續 5...20 秒，你的攻擊無法被「格擋」，但是當你「下一次」攻擊失敗時，此「加持」的效果終止。"
+			},
 			"de": {
+				"name": "Versprechen des Fuchses",
+				"description": "Elite-Verzauberung. 5...20 Sekunde[n] lang können Eure Dolchangriffe nicht geblockt werden. Diese Verzauberung endet, wenn Ihr das nächste Mal nicht trefft.",
+				"concise": "Elite-Verzauberung. 5...20 Sekunde[n]: Eure Dolchangriffe können nicht geblockt werden. Endet, sobald Ihr nicht trefft."
+			},
+			"de-guildwiki": {
 				"name": "Versprechen des Fuchses",
 				"description": "5...20 Sekunden lang können Eure Dolchangriffe nicht geblockt werden. Diese Verzauberung endet, wenn Ihr das nächste Mal nicht trefft.",
 				"concise": "5...20 Sekunden: Eure Dolchangriffe können nicht geblockt werden. <gray>Endet, sobald Ihr nicht trefft.</gray>"
 			},
 			"en": {
 				"name": "Fox's Promise",
+				"description": "Elite Enchantment Spell. For 5...20 seconds, your dagger attacks cannot be blocked. This enchantment ends the next time you fail to hit.",
+				"concise": "Elite Enchantment Spell. (5...20 seconds.) Your dagger attacks are unblockable. Ends the next time you fail to hit."
+			},
+			"en-gww": {
+				"name": "Fox's Promise",
 				"description": "For 5...20 seconds, your dagger attacks cannot be blocked. This enchantment ends the next time you fail to hit.",
 				"concise": "(5...20 seconds.) Your dagger attacks are unblockable. <gray>Ends the next time you fail to hit.</gray>"
 			},
+			"es": {
+				"name": "Promesa del zorro",
+				"description": "Conjuro con encantamiento de élite. Durante 5...20 segundos, tus ataques con dagas no se pueden bloquear. Este encantamiento terminará si fallas al atacar.",
+				"concise": "Conjuro con encantamiento de élite. (5...20 segundos). Tus ataques con dagas no se pueden bloquear. Acaba la próxima vez que falles."
+			},
 			"fr": {
+				"name": "Promesse du renard",
+				"description": "Enchantement d'élite. Pendant 5...20 secondes, vos attaques avec des dagues ne peuvent pas être bloquées. Cet enchantement prend fin la prochaine fois qu'une de vos attaques échoue.",
+				"concise": "Enchantement d'élite. (5...20 secondes.) Vos attaques avec des dagues sont impossibles à bloquer. Prend fin dès que vous manquez une attaque."
+			},
+			"fr-gwiki": {
 				"name": "Promesse du renard",
 				"description": "Pendant 5...20 secondes, vos attaques avec des dagues ne peuvent pas être bloquées. Cet enchantement prend fin la prochaine fois qu'une de vos attaques échoue.",
 				"concise": "(5...20 secondes.) Vos attaques avec des dagues sont impossibles à bloquer. <gray>Prend fin dès que vous manquez une attaque.</gray>"
+			},
+			"it": {
+				"name": "Promessa della Volpe",
+				"description": "Incantesimo d'Élite. Per 5...20 secondo[i], i tuoi attacchi con pugnali non possono essere bloccati; questo incantesimo termina la prossima volta che un tuo attacco va a vuoto.",
+				"concise": "Incantesimo d'Élite. (Secondi: 5...20) I tuoi attacchi con pugnali non sono bloccabili. Termina la prossima volta che manchi l'obiettivo."
+			},
+			"jp": {
+				"name": "フォックス プロミス",
+				"description": "エリート強化スペル： 5...20 秒間、ダガー攻撃はブロックされません。攻撃に失敗すると、この強化スペルの効果は消失します。",
+				"concise": "エリート強化スペル： (5...20 秒) ダガー攻撃がブロックされません。攻撃が失敗すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "여우의 약속",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5...20초 동안 자신의 단검 공격은 막을 수 없습니다. 공격이 실패하면 효과가 끝납니다.",
+				"concise": "엘리트 강화 마법. (5...20초) 자신의 단검 공격을 적이 막을 수 없습니다. 공격이 실패하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Obietnica Lisa",
+				"description": "Elitarne zaklęcie (czar). Przez 5...20 sek. twoich ataków nie można zablokować. Zaklęcie przestanie działać, jeśli nie trafisz przeciwnika.",
+				"concise": "Elitarne zaklęcie (czar). (5...20 sek.) Twoich ataków nie można blokować. Przestanie działać, kiedy nie trafisz."
+			},
+			"ru": {
+				"name": "Fox's Promise",
+				"description": "Элитное заклинание-чары. В течение 5...20 сек ваши атаки кинжалами не могут быть блокированы. Действие этих чар прекращается, если ваша атака не достигает цели.",
+				"concise": "Элитное заклинание-чары. (5...20 сек) Ваши атаки кинжалами нельзя блокировать. Заканчивается при первой вашей неудачной атаке."
+			},
+			"bork": {
+				"name": "Fux's Prumeese-a",
+				"description": "Ileete-a Inchuntment Spell. Fur 5...20 secunds, yuoor daegger aettaecks cunnut be-a blucked. Thees inchuntment inds zee next teeme-a yuoo faeeel tu heet.",
+				"concise": "Ileete-a Inchuntment Spell. (5...20 secunds.) Yuoor daegger aettaecks aere-a unbluckaeble-a. Inds zee next teeme-a yuoo faeeel tu heet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱之刺",
+				"description": "宠物攻击。 命令你的宠物发动扰乱之刺，对敌人造成1...12点额外伤害，如果宠物击中正在使用技能的敌人，其动作将被打断，被打断的技能恢复时间延长 20秒。",
+				"concise": "宠物攻击。 命令你的宠物发动扰乱之刺，对敌人造成1...12点额外伤害，如果宠物击中正在使用技能的敌人，其动作将被打断，被打断的技能恢复时间延长 20秒。"
+			},
+			"cht": {
+				"name": "擾亂衝刺",
+				"description": "寵物攻擊： 你的寵物發動擾亂衝刺對敵人造成 1...12 額外傷害。若寵物擊中正在使用技能的敵人，中斷其動作並且使該技能的回復時間增加 20 秒。",
+				"concise": "寵物攻擊： 你的寵物發動擾亂衝刺對敵人造成 1...12 額外傷害。若寵物擊中正在使用技能的敵人，中斷其動作並且使該技能的回復時間增加 20 秒。"
+			},
 			"de": {
+				"name": "Unterbrechender Ausfall",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte greift mit Unterbrechender Ausfall an und fügt +1...12 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, der eine Fertigkeit verwendet, wird diese unterbrochen und für weitere 20 Sekunde[n] deaktiviert.",
+				"concise": "Tiergefährtenangriff. Richtet +1...12 Punkt[e] Schaden an. Unterbricht eine Fertigkeit. Unterbrechungswirkung: Unterbrochene Fertigkeit wird 20 Sekunde[n] lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Unterbrechender Ausfall",
 				"description": "Euer Tiergefährte greift mit Unterbrechender Ausfall an und fügt zusätzlich 1...12 Punkte Schaden zu. Wenn dieser Angriff einen Gegner trifft, der eine Fertigkeit verwendet, wird diese unterbrochen und für weitere 20 Sekunden deaktiviert.",
 				"concise": "Richtet +1...12 Punkte Schaden an. Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochene Fertigkeit wird 20 Sekunden lang deaktiviert."
 			},
 			"en": {
 				"name": "Disrupting Lunge",
+				"description": "Pet Attack. Your animal companion attempts a Disrupting Lunge that deals +1...12 damage. If that attack strikes a foe using a skill that skill is interrupted and is disabled for an additional 20 seconds.",
+				"concise": "Pet Attack. Deals +1...12 damage. Interrupts a skill. Interruption effect: interrupted skill is disabled for +20 seconds."
+			},
+			"en-gww": {
+				"name": "Disrupting Lunge",
 				"description": "Your animal companion attempts a Disrupting Lunge that deals +1...12 damage. If that attack strikes a foe using a skill that skill is interrupted and is disabled for an additional 20 seconds.",
 				"concise": "Deals +1...12 damage. Interrupts a skill. Interruption effect: interrupted skill is disabled for +20 seconds."
 			},
+			"es": {
+				"name": "Embestida",
+				"description": "Ataque con mascota. Con la Embestida tu compañero animal hará +1...12 de daño. Si el ataque alcanza a un enemigo que esté usando una habilidad, ésta se interrumpirá y está desactivada durante 20 segundos.",
+				"concise": "Ataque con mascota. Hace +1...12 de daño. Interrumpe una habilidad. Efecto: la habilidad interrumpida está desactivada durante +20 segundos."
+			},
 			"fr": {
+				"name": "Attaque d'interruption",
+				"description": "Attaque de familier. Votre familier tente une attaque d'interruption qui inflige +1...12 points de dégâts. Si cette attaque touche un ennemi utilisant une compétence, cette dernière est inutilisable pendant 20 secondes de plus.",
+				"concise": "Attaque de familier. Inflige +1...12 points de dégâts. Interrompt une compétence. Effet de l'interruption : la compétence interrompue est désactivée pendant +20 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Attaque d'interruption",
 				"description": "Votre familier tente une attaque d'interruption qui inflige +1...12 point(s) de dégâts. Si cette attaque touche un ennemi utilisant une compétence, cette dernière est inutilisable pendant 20 secondes de plus.",
 				"concise": "Inflige +1...12 point(s) de dégâts. Interrompt une compétence. Effet de l'interruption : la compétence interrompue est désactivée pendant +20 secondes."
+			},
+			"it": {
+				"name": "Scatto Dirompente",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in uno Scatto Dirompente che infligge +1...12 danno[i]; se colpisce un avversario che sta usando un'abilità, lo interrompe disabilitandola per 20 secondo[i] in più.",
+				"concise": "Attacco con Mascotte. Danni inferti: +1...12. Interrompe un'abilità. Effetto dell'interruzione: l'abilità interrotta viene disattivata per +20 secondo[i]."
+			},
+			"jp": {
+				"name": "ディスラプト ランジ",
+				"description": "ペット アタック： プレイヤーのペットが敵に 1...12 の追加ダメージを与える攻撃を開始します。スキル使用中の敵に攻撃が成功するとそのスキルを中断し、再使用時間を 20 秒増加させます。",
+				"concise": "ペット アタック： 1...12 の追加ダメージを与えてスキルを1個中断します。中断効果： 中断したスキルの再使用時間が 20 秒増加します。"
+			},
+			"kr": {
+				"name": "방해의 돌진",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 방해의 돌진을 사용하여 1...12의 대미지를 추가로 줍니다. 적이 스킬 사용 중이라면 스킬 사용을 방해받고, 20초 동안 그 스킬을 사용할 수 없습니다.",
+				"concise": "펫 공격. 펫이 1...12의 대미지를 추가로 주고 스킬을 방해합니다. 방해 효과: 방해한 스킬의 재활성 시간이 20초 늘어납니다."
+			},
+			"pl": {
+				"name": "Przerywające Uderzenie",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Przerywające Uderzenie, które zadaje +1...12 pkt. obrażeń. Jeśli atak trafi przeciwnika używającego umiejętności, to umiejętność ta zostanie przerwana i będzie niedostępna przez dodatkowe 20 sek.",
+				"concise": "Atak zwierzaka. Zadaje +1...12 pkt. obrażeń. Przerywa umiejętność. Efekt przerwania: przerwana umiejętność będzie niedostępna przez +20 sek."
+			},
+			"ru": {
+				"name": "Disrupting Lunge",
+				"description": "Атака питомца. Ваше животное пытается провести Disrupting Lunge, который наносит дополнительно 1...12 ед. урона. Если атака попадает по противнику, который использовал умение, это умение будет прервано и станет недоступно дополнительно на 20 сек.",
+				"concise": "Атака питомца. Наносит дополнительно 1...12 ед. урона. Прерывает умение. Эффект прерывания: прерванное умение будет недоступно дополнительно на 20 сек."
+			},
+			"bork": {
+				"name": "Deesroopteeng Loonge-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Deesroopteeng Loonge-a thaet deaels +1...12 daemaege-a. Iff thaet aettaeck streekes a fue-a useeng a skeell thaet skeell is interroopted und is deesaebled fur un aeddeeshunael 20 secunds. Bork! Bork! Bork!",
+				"concise": "Pet Aettaeck. Deaels +1...12 daemaege-a. Interroopts a skeell. Interroopshun iffffect: interroopted skeell is deesaebled fur +20 secunds."
 			}
 		}
 	}

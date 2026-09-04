@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Ward of Weakness",
+				"description": "结界魔法。 You create a Ward of Weakness at your current location. For 5...20 seconds, foes in this area become Weakened for 5...20 seconds whenever they take elemental damage.",
+				"concise": "结界魔法。 (5...20 seconds). Inflicts Weakened condition (5...20 seconds) to any foes that take elemental damage in this ward."
+			},
+			"cht": {
+				"name": "弱點結界",
+				"description": "結界魔法： 在你目前的地點創造一個弱點結界。持續 5...20 秒，於此範圍的敵人每當受到元素傷害時，將遭受「虛弱」 5...20 秒。",
+				"concise": "結界魔法： 在你目前的地點創造一個弱點結界。持續 5...20 秒，於此範圍的敵人每當受到元素傷害時，將遭受「虛弱」 5...20 秒。"
+			},
 			"de": {
+				"name": "Kreis der Schwäche",
+				"description": "Abwehrzauber. Erzeugt an Eurer gegenwärtigen Position einen Kreis der Schwäche. 5...20 Sekunde[n] lang werden Feinde in diesem Bereich jedes Mal, wenn sie Elementarschaden erleiden, für 5...20 Sekunde[n] geschwächt.",
+				"concise": "Abwehrzauber. (5...20 Sekunde[n].) Verursacht bei allen Feinden in dieser Abwehr, die Elementarschaden erleiden, den Zustand Schwäche (5...20 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Kreis der Schwäche",
 				"description": "Erzeugt an Eurer gegenwärtigen Position einen Kreis der Schwäche. 5...20 Sekunden lang werden Feinde in diesem Bereich jedes Mal, wenn sie Elementarschaden erleiden, für 5...20 Sekunden geschwächt.",
 				"concise": "5...20 Sekunden: Verursacht bei allen Feinden in dieser Abwehr, die Elementarschaden erleiden, den Zustand Schwäche (5...20 Sekunden)."
 			},
 			"en": {
 				"name": "Ward of Weakness",
+				"description": "Ward Spell. You create a Ward of Weakness at your current location. For 5...20 seconds, foes in this area become Weakened for 5...20 seconds whenever they take elemental damage.",
+				"concise": "Ward Spell. (5...20 seconds). Inflicts Weakened condition (5...20 seconds) to any foes that take elemental damage in this ward."
+			},
+			"en-gww": {
+				"name": "Ward of Weakness",
 				"description": "You create a Ward of Weakness at your current location. For 5...20 seconds, foes in this area become Weakened for 5...20 seconds whenever they take elemental damage.",
 				"concise": "(5...20 seconds). Inflicts Weakened condition (5...20 seconds) to any foes that take elemental damage in this ward."
 			},
+			"es": {
+				"name": "Protección de debilidad",
+				"description": "Conjuro de protección. Creas una Protección de debilidad en tu ubicación actual. Durante 5...20 segundos, los enemigos del área sufren debilitamiento durante 5...segundos cuando reciban daño de los elementos.",
+				"concise": "Conjuro de protección. (5...20 segundos). Causa debilitamiento (5...20 segundos) a los enemigos que reciban daño de los elementos dentro de la protección."
+			},
 			"fr": {
+				"name": "Protection de faiblesse",
+				"description": "Sort de protection. Vous créez une Protection de faiblesse sur votre position. Pendant 5...20 secondes, les ennemis dans cette zone souffrent de Faiblesse pendant 5...20 secondes à chaque fois qu'ils subissent des dégâts élémentaires.",
+				"concise": "Sort de protection. (5...20 secondes.) Inflige la Faiblesse (5...20 secondes) à tous les ennemis subissant des dégâts élémentaires dans cette Protection."
+			},
+			"fr-gwiki": {
 				"name": "Protection de faiblesse",
 				"description": "Vous créez une Protection de faiblesse sur votre position. Pendant 5...20 secondes, les ennemis dans cette zone souffrent de Faiblesse pendant 5...20 secondes à chaque fois qu'ils subissent des dégâts élémentaires.",
 				"concise": "Inflige la Faiblesse (5...20 secondes) à tous les ennemis subissant des dégâts élémentaires dans cette Protection."
+			},
+			"it": {
+				"name": "Guardia della Debolezza",
+				"description": "Guardia. Crei una Guardia della Debolezza nella tua posizione corrente. Per 5...20 secondi, i nemici in quest'area soffrono di Debolezza per 5...20 secondi ogni volta che subiscono danni elementali.",
+				"concise": "Guardia. (Secondi: 5...20.) Condizione inflitta ai nemici che subiscono danni elementali in questa Guardia: Debolezza (5...20 secondi)."
+			},
+			"jp": {
+				"name": "ウィークネス ウォード",
+				"description": "ウォード スペル： 自分の周辺に結界を張ります。5...20 秒間、このエリア内にいる敵は元素ダメージを受けるたびに 5...20 秒間「衰弱」状態になります。",
+				"concise": "ウォード スペル： (5...20 秒) このエリア内で元素ダメージを受けた敵は「衰弱」状態になります (5...20 秒)。"
+			},
+			"kr": {
+				"name": "약체의 결계",
+				"description": "결계. 자신의 주변에 마법 결계를 만듭니다. 결계 범위 내에 있는 적들은 정령 대미지를 입을 때마다 5...20초 동안 약체에 걸립니다. 결계는 5...20초 후에 사라집니다. 이 마법을 20초 동안 사용할 수 없습니다.",
+				"concise": "결계. (5...20초) 결계 내에 있는 적들이 정령 대미지를 입을 때마다 약체로 만듭니다.(5...20초) 영혼에겐 영향이 없고, 이 마법을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Osłabiająca Ochrona",
+				"description": "Ochrona (czar). W miejscu, w którym przebywasz tworzysz Osłabiającą Ochronę. Przez 5...20 sek., za każdym razem, kiedy przeciwnicy w zasięgu jej działania otrzymają obrażenia od żywiołów na 5...20 sek. zostaną osłabieni.",
+				"concise": "Ochrona (czar). (5...20 sek.) U przeciwników będących w granicach tej ochrony, którzy otrzymają obrażenia od żywiołów, wywołuje przypadłość osłabienie (5...20 sek.)."
+			},
+			"ru": {
+				"name": "Ward of Weakness",
+				"description": "Заклинание опеки. Вы создаете Ward of Weakness в вашем текущем местоположении. В течение 5...20 сек противников в зоне действия Сферы охватывает слабость на 5...20 сек каждый раз, когда им наносится урон силами Стихий.",
+				"concise": "Заклинание опеки. (5...20 сек) Вызывает слабость (5...20 сек) у любого противника, который получает урон силами Стихий, находясь в этой Сфере."
+			},
+			"bork": {
+				"name": "Vaerd ooff Veaekness",
+				"description": "Vaerd Spell. Yuoo creaete-a a Vaerd ooff Veaekness aet yuoor coorrent lucaeshun. Fur 5...20 secunds, fues in thees aerea becume-a Veaekened fur 5...20 secunds vhenefer zeey taeke-a ilementael daemaege-a.",
+				"concise": "Vaerd Spell. (5...20 secunds). Inffleects Veaekened cundeeshun (5...20 secunds) tu uny fues thaet taeke-a ilementael daemaege-a in thees vaerd."
 			}
 		}
 	}

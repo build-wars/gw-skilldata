@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "鹿钉",
+				"description": "精英负面魔法。 你的非刺客技能禁用3秒。目标敌军的移动速度-50%，持续1...10秒。该魔咒结束时该敌军致残1...15秒。",
+				"concise": "精英负面魔法。 在1...10秒之内，当目标敌人在下一次移动中受到伤害时，会使其遭受「致残」症状50秒，同时附加1...15点额外伤害。"
+			},
+			"cht": {
+				"name": "神秘蒺藜",
+				"description": "精英降咒魔法： Your non-Assassin skills are disabled for 3 seconds. For 1...10 seconds, target foe moves 50% slower. When this hex ends that foe is crippled for 1...15 seconds.",
+				"concise": "精英降咒魔法： 你非暗殺者技能在10秒內無法使用。持續1...10秒使目標移動速度降低50%，當此降咒終止時，使其遭受『殘廢』病症1...15秒。"
+			},
 			"de": {
+				"name": "Versteckte Trittnägel",
+				"description": "Elite-Verhexung. Eure Nicht-Assassinen-Fertigkeiten sind 3 Sekunden lang deaktiviert. Für 1...10 Sekunden bewegt sich der anvisierte Gegner um 50 % langsamer. Wenn die Verhexung endet, wird dieser Gegner für 1...15 Sekunden verkrüppelt.",
+				"concise": "Elite-Verhexung. (1...10 Sekunde[n].) Bewirkt eine 50%ige Verlangsamung der Bewegung. Wirkung am Ende: Verursacht Zustand Verkrüppelung (1...15 Sekunde[n]). Eure Nicht-Assassinen-Fertigkeiten sind 10 Sekunden lang deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Versteckte Trittnägel",
 				"description": "Eure Nicht-Assassinen-Fertigkeiten sind 3 Sekunden lang deaktiviert. 1...10 Sekunden lang bewegt sich der Gegner um 50% langsamer. Wenn diese Verhexung endet, ist der Gegner 1...15 Sekunden lang verkrüppelt.",
 				"concise": "(1...10 Sekunden.) Bewirkt 50%ige Verlangsamung der Bewegung. Wirkung am Ende: Verursacht Zustand Verkrüppelung (1...15 Sekunden). <gray>Eure Nicht-Assassinen-Fertigkeiten sind 3 Sekunden lang deaktiviert.</gray>"
 			},
 			"en": {
 				"name": "Hidden Caltrops",
+				"description": "Elite Hex Spell. Your non-Assassin skills are disabled for 3 seconds. For 1...10 seconds, target foe moves 50% slower. When this hex ends that foe is crippled for 1...15 seconds.",
+				"concise": "Elite Hex Spell. (1...10 seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition (1...15 seconds). Your non-Assassin skills are disabled (3 seconds)."
+			},
+			"en-gww": {
+				"name": "Hidden Caltrops",
 				"description": "Your non-Assassin skills are disabled for 3 seconds. For 1...10 seconds, target foe moves 50% slower. When this hex ends that foe is Crippled for 1...15 seconds.",
 				"concise": "(1...10 seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition (1...15 seconds). Your non-Assassin skills are disabled (3 seconds.)"
 			},
+			"es": {
+				"name": "Cebos escondidos",
+				"description": "Conjuro con maleficio de élite. Tus habilidades que no sean de asesino se desactivan durante 3 segundos. Durante 1...10 segundos, el enemigo objetivo se moverá un 50 % más lento. Cuando este maleficio acabe, el enemigo quedará lisiado durante 1...15 segundos.",
+				"concise": "Conjuro con maleficio de élite. (1...10 segundos). Causa una reducción del 50% en el movimiento. Efecto final: causa lisiadura (1...15 segundos). Tus habilidades que no sean de Asesino se desactivan (10 segundos)."
+			},
 			"fr": {
+				"name": "Chausse-trappes cachées",
+				"description": "Maléfice d'élite. Vos compétences autres que celles d'Assassin sont désactivées pendant 3 secondes. Pendant 1...10 secondes, l'ennemi ciblé se déplace 50% moins vite. Lorsque ce maléfice prend fin, cet ennemi subit Infirmité pendant 1...15 secondes.",
+				"concise": "Maléfice d'élite. (1...10 secondes.) Ralentit les déplacements de 50%. Effet final : inflige l'Infirmité (1...15 secondes). Vos compétences, sauf celles d'Assassin, sont désactivées (10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Chausse-trappes cachées",
 				"description": "Vos compétences, sauf celles d'Assassin, sont désactivées pendant 3 secondes. Pendant 1...10 secondes, la cible se déplace 50% moins vite. Lorsque ce maléfice prend fin, cet ennemi est frappé d'Infirmité pendant 1...15 secondes.",
 				"concise": "(1...10) La cible se déplace 50% moins vite. Effet final : inflige la condition d'Infirmité (1...15 secondes). <gray>Vos compétences, sauf celles d'Assassin, sont désactivées (3 secondes).</gray>"
+			},
+			"it": {
+				"name": "Triboli Nascosti",
+				"description": "Fattura d'Élite. Non puoi usare le tue abilità per 3 secondi (escluse quelle da Assassino). Per 1...10 secondo/i, il bersaglio nemico si muove più lento del 50%. Quando la fattura finisce, il nemico resta Azzoppato per 1...15 secondo/i.",
+				"concise": "Fattura d'Élite. (Secondi: 1...10) Rallentamento movimenti: 50%. Effetto al termine: infligge Storpiatura (1...15 secondo[i]). Le tue abilità non da Assassino vengono disattivate (10 secondi)."
+			},
+			"jp": {
+				"name": "ハイド カルトラップ",
+				"description": "エリート弱体化スペル： アサシンではないスキルは3秒以内に無効になります。1...10秒間、標的となった敵の移動速度が50%減少します。この弱体化スペルが終了すると、その敵は1...15秒間不自由になります。",
+				"concise": "エリート弱体化スペル： (1...10 秒) 移動速度が50%減少します。終了効果：「不自由」状態にします (1...15 秒) 。アサシン スキル以外のスキルが使用できなくなります (10 秒) 。"
+			},
+			"kr": {
+				"name": "숨겨진 마름쇠",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 어새신 특성이 아닌 스킬을 3초 동안 사용할 수 없게 됩니다. 1...10초 동안 대상의 이동 속도가 50% 느려집니다. 효과가 끝나면 대상은 1...15초 동안 다리 부상 상태가 됩니다.",
+				"concise": "엘리트 약화 마법. (1...10초) 이동 속도를 50% 느려지게 합니다. 종료 효과: 다리 부상을 입힙니다.(1...15초) 자신은 어새신 스킬이 아닌 스킬을 사용할 수 없습니다.(10초)"
+			},
+			"pl": {
+				"name": "Ukryta Kolczatka",
+				"description": "Elitarna klątwa (czar). Twoje umiejętności spoza profesji zabójcy są wyłączone na 3 sekundy. Przez 1...10 sek. cel porusza się 50% wolniej. Gdy klątwa dobiega końca, cel zostaje okulawiony na 1...15 sek.",
+				"concise": "Elitarna klątwa (czar). (1...10 s). Zmniejsza szybkość ruchu o 50%. Efekt kończący: nakłada przypadłość Okaleczenie (1...15 s). Twoje umiejętności spoza profesji zab&oacute;jcy są wyłączone (10 sekund)."
+			},
+			"ru": {
+				"name": "Hidden Caltrops",
+				"description": "Элитное заклинание-проклятье. Все ваши навыки, кроме навыков Assassin, отключаются на 3 сек. В течение 1...10 сек. цель двигается на 50% медленнее. Когда действие проклятья заканчивается, враг получает эффект Crippled на 1...15 сек.",
+				"concise": "Элитное заклинание-проклятье. (1...10 сек) Замедляет движение на 50%. Эффект окончания: вызывает хромоту (1...15 сек). Ваши умения, не связанные с профессией Assassin, недоступны (10 сек)."
+			},
+			"bork": {
+				"name": "Heeddee Caeltrups",
+				"description": "Ileete-a Hex Spell. Yuoor nun-Aessaesseen skeells aere-a deesaebled fur 3 secunds. Fur 1...10 secunds, taerget fue-a mufes 50% slooer. Vhee thees hex inds thaet fue-a is creeppled fur 1...15 secunds.",
+				"concise": "Ileete-a Hex Spell. (1...10 secunds.) Cooses 50% slooer mufement. Ind iffffect: inffleects Creeppled cundeeshun (1...15 secunds). Yuoor nun-Aessaesseen skeells aere-a deesaebled (3 secunds)."
 			}
 		}
 	}

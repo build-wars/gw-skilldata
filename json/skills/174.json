@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "余震",
+				"description": "咒文。 对邻近的敌人造成15...85点地系伤害，在此期间，被击倒的敌人将受到 15...85点额外地系伤害。",
+				"concise": "咒文。 对附近的敌人造成15...85点地系伤害，在此期间，被击倒的敌人将受到15...85点额外伤害。"
+			},
+			"cht": {
+				"name": "餘震",
+				"description": "咒文魔法： 對鄰近的敵人造成 15...85 土系傷害，而且被擊倒的敵人將受到 15...85 額外傷害。",
+				"concise": "咒文魔法： 對鄰近的敵人造成 15...85 土系傷害，而且被擊倒的敵人將受到 15...85 額外傷害。"
+			},
 			"de": {
+				"name": "Nachbeben",
+				"description": "Zauber. Umstehende Feinde erleiden 15...85 Punkte Erdschaden. Zu Boden geworfene Feinde erleiden 15...85 Punkte zusätzlichen Erdschaden.",
+				"concise": "Zauber. Richtet bei in der Nähe befindlichen Feinden 15...85 Punkte Erdschaden an. Zu Boden geworfene Feinde erleiden zusätzlich 15...85 Punkte Erdschaden."
+			},
+			"de-guildwiki": {
 				"name": "Nachbeben",
 				"description": "Feinde, die in der Nähe von Euch stehen, erleiden 15...85 Punkte Erdschaden. Umgestoßene Gegner erleiden 15...85 Punkte zusätzlichen Erdschaden.",
 				"concise": "Richtet bei in der Nähe befindlichen Feinden 15...85 Punkte Erdschaden an. Zu Boden geworfene Feinde erleiden zusätzlich 15...85 Punkte Erdschaden."
 			},
 			"en": {
 				"name": "Aftershock",
+				"description": "Spell. Nearby foes are struck for 15...85 earth damage. Knocked down foes are struck for 15...85 additional earth damage.",
+				"concise": "Spell. Deals 15...85 earth damage to nearby foes. Deals 15...85 more earth damage to knocked down foes."
+			},
+			"en-gww": {
+				"name": "Aftershock",
 				"description": "Nearby foes are struck for 15...85 earth damage. Knocked down foes are struck for 15...85 additional earth damage.",
 				"concise": "Deals 15...85 earth damage to nearby foes. Deals 15...85 more earth damage to knocked down foes."
 			},
+			"es": {
+				"name": "Descarga de respuesta",
+				"description": "Conjuro. Los enemigos cercanos reciben 15...85 de daño de tierra. Los enemigos derribados reciben 15...85 de daño de tierra adicional.",
+				"concise": "Conjuro. Hace 15...85 de daño de tierra a los enemigos cercanos. Hace 15...85 más de daño de tierra a los enemigos derribados."
+			},
 			"fr": {
+				"name": "Réplique sismique",
+				"description": "Sort. Les ennemis à proximité subissent 15...85 points de dégâts de la terre. Les créatures renversées subissent 15...85 points de dégâts de la terre supplémentaires.",
+				"concise": "Sort. Inflige 15...85 points de dégâts de terre aux ennemis à proximité. inflige 15...85 points de dégâts de la terre supplémentaires aux ennemis renversés."
+			},
+			"fr-gwiki": {
 				"name": "Réplique sismique",
 				"description": "Tous les ennemis adjacents subissent 26...100 points de dégâts de la terre. Les créatures assommées subissent 10...68 points de dégâts de la terre supplémentaires.",
 				"concise": "Inflige 26...100 points de dégâts de la terre aux ennemis qui vous sont adjacents. Inflige 10...68 points de dégâts de la terre supplémentaires aux ennemis assommés."
+			},
+			"it": {
+				"name": "Postumi dello Shock",
+				"description": "Magia. Infligge 15...85 danni da terra ai nemici nelle vicinanze. Infligge 15...85 danni da terra in più ai nemici abbattuti.",
+				"concise": "Magia. danni da terra ai nemici nei dintorni: 15...85 danni da terra ai nemici abbattuti: +15...85."
+			},
+			"jp": {
+				"name": "アフターショック",
+				"description": "スペル： 周囲にいる敵に 15...85 のアース ダメージを与えます。転倒中の敵には 15...85 の追加アース ダメージを与えます。",
+				"concise": "スペル： 周囲にいる敵に 15...85 のアース ダメージを与えます。転倒中の敵には 15...85 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "충격의 여파",
+				"description": "마법. 대상 지정: 없음. 부근의 적들에게 15...85의 대지 대미지를 주고, 넘어져 있는 적들에게는 15...85의 대지 대미지를 추가로 줍니다.",
+				"concise": "마법. 부근의 적들에게 15...85의 대지 대미지를 줍니다. 넘어져 있는 적들에게는 15...85의 대지 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Wstrząs Wtórny",
+				"description": "Czar. Wszyscy przeciwnicy w pobliżu otrzymują 15...85 pkt. obrażeń od ziemi. Wszyscy powaleni przeciwnicy otrzymują 15...85 pkt. dodatkowych obrażeń od ziemi.",
+				"concise": "Czar. Zadaje 15...85 obrażeń od ziemi pobliskim wrogom. Zadaje 15...85 więcej obrażeń od ziemi powalonym wrogom."
+			},
+			"ru": {
+				"name": "Aftershock",
+				"description": "Заклинание. Противники поблизости получают 15...85 ед. урона силой земли. Сбитые с ног противники получают дополнительно 15...85 ед. урона силой земли.",
+				"concise": "Заклинание. Наносит 15...85 ед. урона силой земли противникам поблизости. Наносит дополнительно 15...85 ед. урона силой земли сбитым с ног противникам."
+			},
+			"bork": {
+				"name": "Aefftershuck",
+				"description": "Spell. Neaerby fues aere-a stroock fur 15...85 iaert daemaege-a. Knucked doon fues aere-a stroock fur 15...85 aeddeeshunael iaert daemaege-a.",
+				"concise": "Spell. Deaels 15...85 iaert daemaege-a tu neaerby fues. Deaels 15...85 mure-a iaert daemaege-a tu knucked doon fues."
 			}
 		}
 	}

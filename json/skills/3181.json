@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻化武器",
+				"description": "精英增益魔法。 使你的近战攻击失效，只会对敌人造成 20...60点 的技能伤害，效果持续 30秒。",
+				"concise": "精英增益魔法。 在20...6030秒内，你只能使用技能对目标造成20...60点伤害。"
+			},
+			"cht": {
+				"name": "幻象武器",
+				"description": "精英加持魔法： 持續 30 秒，你所有的近身攻擊傷害將被幻象武器取代成 20...60 ，而且近身攻擊不會失誤但也沒有怒氣值。",
+				"concise": "精英加持魔法： 持續 30 秒，你所有的近身攻擊傷害將被幻象武器取代成 20...60 ，而且近身攻擊不會失誤但也沒有怒氣值。"
+			},
 			"de": {
+				"name": "Illusion der Waffen (PVP)",
+				"description": "Elite-Verzauberung. 30 Sekunden lang sind Eure Nahkampfangriffe weder erfolgreich noch erfolglos. Stattdessen verursacht Illusion der Waffen bei jedem Nahkampfangriff 20...60 Punkt[e] Schaden an Euren Gegnern.",
+				"concise": "Elite-Verzauberung. (30 Sekunden.) Richtet anstatt von Schaden oder Effekten aus Nahkampfangriffen 20...60 Punkt[e] Schaden bei Gegnern an. Eure Nahkampfangriffe sind weder erfolgreich noch erfolglos."
+			},
+			"de-guildwiki": {
 				"name": "Illusion der Waffen (PvP)",
 				"description": "Illusion der Waffen verursacht 30 Sekunden bei jedem Nahkampfangriff 20...60 Schaden an Gegnern. Während diese Fertigkeit aktiv ist, können Eure Nahkampfangriffe weder treffen noch fehlschlagen oder nicht treffen, sie verursachen keinen Schaden und die Effekte von Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.",
 				"concise": "(30 Sekunden.) Illusion der Waffen verursacht bei jedem Nahkampfangriff 20...60 Schaden an den Gegnern. <gray>Eure Nahkampfangriffe können weder treffen noch fehlschlagen oder nicht treffen. Eure Nahkampfangriffe verursachen keinen Schaden. Effekte Eurer Waffen oder Angriffsfertigkeiten werden nicht auf Gegner angewendet.</gray>"
 			},
 			"en": {
 				"name": "Illusionary Weaponry (PvP)",
+				"description": "Elite Enchantment Spell. For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 20...60 damage to your targets for each melee attack.",
+				"concise": "Elite Enchantment Spell. (30 seconds.) Deals 20...60 damage to foes in place of other damage or effects from melee attacks. Your melee attacks neither hit nor fail to hit."
+			},
+			"en-gww": {
+				"name": "Illusionary Weaponry (PvP)",
 				"description": "For 30 seconds, your melee attacks neither hit nor fail to hit. Instead, Illusionary Weaponry deals 20...60 damage to your targets for each melee attack.",
 				"concise": "(30 seconds.) Deals 20...60 damage to foes in place of other damage or effects from melee attacks. <gray>Your melee attacks neither hit nor fail to hit.</gray>"
 			},
+			"es": {
+				"name": "Equipo de armamento irreal (PvP)",
+				"description": "Conjuro con encantamiento de élite. Durante 30 segundos, tus ataques cuerpo a cuerpo no impactan ni fallan. En su lugar, el Armamento irreal hace 20...60 de daño a los objetivos con cada ataque cuerpo a cuerpo.",
+				"concise": "Conjuro con encantamiento de élite. (30 segundos). Hace 20...60 de daño a enemigos en lugar de otros daños o efectos de los ataques cuerpo a cuerpo. Tus ataques cuerpo a cuerpo no impactan ni fallan."
+			},
 			"fr": {
+				"name": "Armes illusoires (PvP)",
+				"description": "Enchantement d'élite. Pendant 30 secondes, vos attaques au corps à corps ne peuvent ni réussir ni échouer. La compétence Armes Illusoires inflige à la place 20...60 points de dégâts à vos cibles chaque fois que vous attaquez au corps à corps.",
+				"concise": "Enchantement d'élite. (30 secondes.) Inflige 20...60 points de dégâts aux ennemis à la place d'autres dégâts ou effets lors de combats rapprochés. Vos attaques au corps à corps ne peuvent ni réussir ni échouer."
+			},
+			"fr-gwiki": {
 				"name": "Armes illusoires (PvP)",
 				"description": "Pendant 30 secondes, vos attaques au corps à corps ne peuvent ni réussir ni échouer. La compétence Armes illusoires inflige à la place 20...60 points de dégâts à vos cibles chaque fois que vous attaquez au corps à corps.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Armamento Illusorio (PvP)",
+				"description": "Incantesimo d'Élite. Per 30 secondi i tuoi attacchi ravvicinati non colpiscono e non vanno a vuoto. L'Armamento Illusorio infligge 20...60 danni agli obiettivi per ogni attacco ravvicinato.",
+				"concise": "Incantesimo d'Élite. (Secondi: 30). Infligge 20...60 danni ai nemici anziché altri danni o effetti provocati dagli attacchi ravvicinati. Gli attacchi ravvicinati non colpiscono e non vanno a vuoto."
+			},
+			"jp": {
+				"name": "イリュージョナリー ウェポン (PvP)",
+				"description": "エリート強化スペル： 30秒間、近接攻撃は成功も失敗もしません。代わりに、近接攻撃を行うたびにターゲットに 20...60 のダメージを与えます。",
+				"concise": "エリート強化スペル： (30秒) 敵が近接攻撃によるダメージや効果を受ける際、代わりに 20...60 のダメージを与えます。プレイヤーは、近接攻撃によりダメージを与えることができませんが失敗もしません。"
+			},
+			"kr": {
+				"name": "환영 공격(대인전)",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 자신의 근접 물리 공격은 성공하지도 실패하지도 않습니다. 대신 근접 공격을 할 때마다 환영 공격이 적에게 20...60의 대미지를 줍니다.",
+				"concise": "엘리트 강화 마법. (30초) 적에게 근접 물리 공격을 할 때 환영 공격이 20...60의 대미지를 줍니다. 근접 물리 공격은 성공하지도 실패하지도 않습니다."
+			},
+			"pl": {
+				"name": "Iluzoryczna Broń (PvP)",
+				"description": "Elitarne zaklęcie (czar). Przez 30 sekund, twoje ataki nie trafiają ani nie chybiają. Zamiast tego Iluzoryczna Broń zadajee 20...60 pkt. obrażeń twoim celom przy każdym ataku wręcz.",
+				"concise": "Elitarne zaklęcie (czar). (30 sek.) Zadaje 20...60 pkt. obrażeń przeciwnikom zamiast innych obrażeń lub efektów z ataków wręcz. Twoje ataki wręcz nie trafiają ani nie chybiają."
+			},
+			"ru": {
+				"name": "Illusionary Weaponry (PvP)",
+				"description": "Элитное заклинание-чары. В течение 30 сек ваши рукопашные атаки не попадают и не промахиваются по противнику. Вместо этого Illusionary Weaponry наносит вашим целям 20...60 ед. урона за каждую рукопашную атаку.",
+				"concise": "Элитное заклинание-чары. (30 сек) Наносит 20...60 ед. урона противникам вместо других повреждающих эффектов от рукопашных атак. Ваши рукопашные атаки не попадают и не промахиваются по противнику."
+			},
+			"bork": {
+				"name": "Illooseeunaery Veaepunry (PfP)",
+				"description": "Ileete-a Inchuntment Spell. Fur 30 secunds, yuoor melee-a aettaecks neeezeer heet nur faeeel tu heet. Insteaed, Illooseeunaery Veaepunry deaels 20...60 daemaege-a tu yuoor taergets fur iaech melee-a aettaeck.",
+				"concise": "Ileete-a Inchuntment Spell. (30 secunds.) Deaels 20...60 daemaege-a tu fues in plaece-a ooff oozeer daemaege-a oor iffffects frum melee-a aettaecks. Yuoor melee-a aettaecks neeezeer heet nur faeeel tu heet."
 			}
 		}
 	}

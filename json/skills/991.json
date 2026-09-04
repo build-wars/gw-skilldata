@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "妖咒否决",
+				"description": "咒文。 依照你正在恢复中的「神恩属性」技能数量，消除目标盟友身上同样数量的「负面魔法」。",
+				"concise": "咒文。 依照你正在恢复中的「神恩属性」技能数量，消除目标盟友身上同样数量的「负面魔法」。"
+			},
+			"cht": {
+				"name": "降咒否決",
+				"description": "咒文魔法： 依照你正在回復中的「神恩屬性」技能數量，消除目標盟友身上同樣數量的「降咒」。",
+				"concise": "咒文魔法： 依照你正在回復中的「神恩屬性」技能數量，消除目標盟友身上同樣數量的「降咒」。"
+			},
 			"de": {
+				"name": "Verhexungen zurückweisen",
+				"description": "Zauber. Entfernt eine Verhexung vom Verbündeten und eine weitere für jede wieder aufladende Gunst-der-Götter-Fertigkeit, die Ihr habt.",
+				"concise": "Zauber. Entfernt eine Verhexung vom Verbündeten und eine weitere für jede wieder aufladende Gunst-der-Götter-Fertigkeit, die Ihr habt."
+			},
+			"de-guildwiki": {
 				"name": "Verhexungen zurückweisen",
 				"description": "Entfernt für jede wieder aufladende Gunst-der-Götter-Fertigkeit, die Ihr einschließlich Verhexungen zurückweisen habt, eine Verhexung vom Verbündeten (bzw. Euch selbst).",
 				"concise": "Entfernt eine Verhexung vom Verbündeten (bzw. Euch selbst) und eine weitere für jede wieder aufladende Gunst-der-Götter-Fertigkeit, die Ihr habt."
 			},
 			"en": {
 				"name": "Deny Hexes",
+				"description": "Spell. Remove one hex from target ally and one additional hex for each recharging Divine Favor skill you have.",
+				"concise": "Spell. Removes one hex from target ally and one additional hex for each recharging Divine Favor skill you have."
+			},
+			"en-gww": {
+				"name": "Deny Hexes",
 				"description": "Remove one hex from target ally and one additional hex for each recharging Divine Favor skill you have.",
 				"concise": "Removes one hex from target ally and one additional hex for each recharging Divine Favor skill you have."
 			},
+			"es": {
+				"name": "Negación de maleficios",
+				"description": "Conjuro. Quitas un maleficio del objetivo (un aliado o tú mismo) y un maleficio adicional por cada habilidad de favor divino que tengas recargándose.",
+				"concise": "Conjuro. Quita un maleficio del objetivo (un aliado o tú mismo) y un maleficio adicional por cada habilidad de favor divino que tengas recargándose."
+			},
 			"fr": {
+				"name": "Négation de maléfices",
+				"description": "Sort. Supprime un maléfice d'une cible alliée et un autre maléfice pour chacune de vos compétences de Faveur Divine qui se rechargent.",
+				"concise": "Sort. Supprime un maléfice d'une cible alliée et un autre maléfice pour chacune de vos compétences de Faveur Divine qui se rechargent."
+			},
+			"fr-gwiki": {
 				"name": "Négation de maléfices",
 				"description": "Supprime un maléfice d'une cible (un allié ou vous-même) pour chacune de vos compétences de Faveur divine qui se rechargent.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Nega Fatture",
+				"description": "Magia. Rimuovi una fattura dall'obiettivo alleato e una fattura aggiuntiva per ogni abilità del Favore Divino equipaggiata che si sta ricaricando.",
+				"concise": "Magia. Rimuovi una fattura dall'obiettivo alleato e una fattura aggiuntiva per ogni abilità del Favore Divino equipaggiata che si sta ricaricando."
+			},
+			"jp": {
+				"name": "ディナイ ヘックス",
+				"description": "スペル： ターゲットした味方にかけられている弱体化スペルを1個、さらにプレイヤーが装備している再使用準備中の「ディヴァイン」の特性スキルごとにかけられている弱体化スペルを1個解除します。",
+				"concise": "スペル： ターゲットした味方にかけられている弱体化スペルを1個解除し、さらにプレイヤーが装備している再使用準備中の「ディヴァイン」の特性スキルごとに1個、弱体化スペルを解除します。"
+			},
+			"kr": {
+				"name": "약화 부정",
+				"description": "마법. 대상 지정: 아군. 대상에 걸린 약화 마법 하나를 무효화하고, 추가로 자신의 재활성 중인 신의 은총 스킬 하나당 약화 마법 하나를 무효화합니다.",
+				"concise": "마법. 대상 아군에 걸린 약화 마법 하나를 무효화하고, 추가로 재활성 중인 신의 은총 스킬 하나당 약화 마법 하나를 무효화합니다."
+			},
+			"pl": {
+				"name": "Wyparcie Klątw",
+				"description": "Czar. Za każdą odnawiającą się umiejętność Łaski Bogów na twoim pasku umiejętności, zdejmujesz z wybranego sojusznika jedną klątwę.",
+				"concise": "Czar. Za każdą odnawiającą się umiejętność Łaski Bogów na twoim pasku umiejętności, zdejmujesz z wybranego sojusznika jedną klątwę."
+			},
+			"ru": {
+				"name": "Deny Hexes",
+				"description": "Заклинание. Снимает с выбранного союзника одно проклятье и по одному дополнительному проклятью за каждое имеющееся у вас перезаряжающееся умение, связанное с талантом Divine Favor.",
+				"concise": "Заклинание. Снимает с выбранного союзника одно проклятье и по одному дополнительному проклятью за каждое имеющееся у вас перезаряжающееся умение, связанное с талантом Divine Favor."
+			},
+			"bork": {
+				"name": "Deny Hexes",
+				"description": "Spell. Remufe-a oone-a hex frum taerget aelly und oone-a aeddeeshunael hex fur iaech rechaergeeng Deefeene-a Faefur skeell yuoo haefe-a.",
+				"concise": "Spell. Remufes oone-a hex frum taerget aelly und oone-a aeddeeshunael hex fur iaech rechaergeeng Deefeene-a Faefur skeell yuoo haefe-a."
 			}
 		}
 	}

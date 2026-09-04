@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "回忆祷文",
+				"description": "精英增益魔法。 在20秒之内，当「回忆祷文」被驱散或是自然消失时，你将获得10...25点能量。",
+				"concise": "精英增益魔法。 在20秒之内，当「回忆祷文」被驱散或是自然消失时，你将获得10...25点能量。"
+			},
+			"cht": {
+				"name": "回歸頌歌",
+				"description": "精英加持魔法： 持續 20 秒，此項加持並沒有任何直接的效果，但是當回歸頌歌效果終止時，你將獲得 10...25 能量。",
+				"concise": "精英加持魔法： 持續 20 秒，此項加持並沒有任何直接的效果，但是當回歸頌歌效果終止時，你將獲得 10...25 能量。"
+			},
 			"de": {
+				"name": "Mantra der Zurückrufung",
+				"description": "Elite-Verzauberung. 20 Sekunde[n] lang erhaltet Ihr daraus keinen Vorteil. Allerdings erhaltet Ihr, wenn Mantra der Zurückrufung endet, 10...25 Energiepunkt[e].",
+				"concise": "Elite-Verzauberung. 20 Sekunde[n]: Wirkung am Ende: Ihr erhaltet 10...25 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Mantra der Zurückrufung",
 				"description": "20 Sekunden lang erhaltet Ihr daraus keinen Vorteil. Allerdings erhaltet Ihr, wenn Mantra der Zurückrufung endet, 10...25 Energiepunkte.",
 				"concise": "20 Sekunden: Wirkung am Ende: Ihr erhaltet 10...25 Energiepunkte."
 			},
 			"en": {
 				"name": "Mantra of Recall",
+				"description": "Elite Enchantment Spell. For 20 seconds, you gain no benefit from it. You gain 10...25 Energy when Mantra of Recall ends.",
+				"concise": "Elite Enchantment Spell. (20 seconds.) End effect: you gain 10...25 Energy."
+			},
+			"en-gww": {
+				"name": "Mantra of Recall",
 				"description": "For 20 seconds, you gain no benefit from it. You gain 10...25 Energy when Mantra of Recall ends.",
 				"concise": "(20 seconds.) End effect: you gain 10...25 Energy."
 			},
+			"es": {
+				"name": "Mantra del recuerdo",
+				"description": "Conjuro con encantamiento de élite. Durante 20 segundos, no obtendrás beneficio de él. Ganarás 10...25 de energía cuando el Mantra del recuerdo finalice.",
+				"concise": "Conjuro con encantamiento de élite. (20 segundos). Efecto final: ganas 10...25 de energía."
+			},
 			"fr": {
+				"name": "Mantra de rappel",
+				"description": "Enchantement d'élite. Pendant 20 secondes, vous n'en tirez aucun bénéfice. Vous gagnez 10...25 points d'énergie quand le Mantra de rappel prend fin.",
+				"concise": "Enchantement d'élite. (20 secondes.) Effet final : vous gagnez 10...25 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Mantra de rappel",
 				"description": "Pendant 20 secondes, vous n'en tirez aucun bénéfice. Vous gagnez 10...25 points d'énergie quand le Mantra de rappel prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mantra del Ricordo",
+				"description": "Incantesimo d'Élite. Dura 20 secondo[i]; non ti offre alcun beneficio, ma quando termina ottieni 10...25 Punto[i] Energia.",
+				"concise": "Incantesimo d'Élite. (Secondi: 20) Effetto al termine: ottieni 10...25 Punto[i] Energia."
+			},
+			"jp": {
+				"name": "リコール マントラ",
+				"description": "エリート強化スペル： 20 秒間、何も起きません。この効果が消失すると、プレイヤーは 10...25 のエネルギーを獲得します。",
+				"concise": "エリート強化スペル： (20 秒) 終了効果： 10...25 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "회수의 권능",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 20초 후 회수의 권능이 끝나면 10...25의 에너지를 얻습니다.",
+				"concise": "엘리트 강화 마법. (20초) 종료 효과: 10...25의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Mantra Przypomnienia",
+				"description": "Elitarne zaklęcie (czar). Przez 20 sek., nic nie zyskujesz. Gdy Mantra Przypomnienia przestanie działać, otrzymujesz 10...25 pkt. energii.",
+				"concise": "Elitarne zaklęcie (czar). (20 sek.) Efekt końcowy: otrzymujesz 10...25 pkt. energii."
+			},
+			"ru": {
+				"name": "Mantra of Recall",
+				"description": "Элитное заклинание-чары. В течение 20 сек вы не получаете никаких преимуществ от этого умения. Вы получаете 10...25 ед. энергии, когда Mantra of Recall заканчивает свое действие.",
+				"concise": "Элитное заклинание-чары. (20 сек) Эффект окончания: вы получаете 10...25 ед. энергии."
+			},
+			"bork": {
+				"name": "Muntra ooff Recaell",
+				"description": "Ileete-a Inchuntment Spell. Fur 20 secunds, yuoo gaeeen nu beneffeet frum it. Yuoo gaeeen 10...25 Inergy vhee Muntra ooff Recaell inds.",
+				"concise": "Ileete-a Inchuntment Spell. (20 secunds.) Ind iffffect: yuoo gaeeen 10...25 Inergy."
 			}
 		}
 	}

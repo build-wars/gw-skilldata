@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失衡印记",
+				"description": "负面魔法。 在20秒之内，当下一次你使用「双重攻击」技能命中目标时，该目标将被击倒。",
+				"concise": "负面魔法。 在20秒之内，当下一次你使用「双重攻击」技能命中目标时，该目标将被击倒。"
+			},
+			"cht": {
+				"name": "失衡印記",
+				"description": "降咒魔法： 持續 20 秒，下一次你使用「雙重攻擊」技能命中目標時，該目標被擊倒。",
+				"concise": "降咒魔法： 持續 20 秒，下一次你使用「雙重攻擊」技能命中目標時，該目標被擊倒。"
+			},
 			"de": {
+				"name": "Zeichen der Unbeständigkeit",
+				"description": "Verhexung. Während der nächsten 20 Sekunde[n] wird der Feind das nächste Mal, wenn Ihr ihn mit einer Doppelangriffs-Fertigkeit trefft, zu Boden geworfen.",
+				"concise": "Verhexung. 20 Sekunde[n]: Wirft den Gegner zu Boden, wenn Ihr ihn das nächste Mal mit einem Doppelangriff trefft."
+			},
+			"de-guildwiki": {
 				"name": "Zeichen der Unbeständigkeit",
 				"description": "Während der nächsten 20 Sekunden wird der Feind das nächste Mal, wenn Ihr ihn mit einer Doppelangriffs-Fertigkeit trefft, zu Boden geworfen.",
 				"concise": "20 Sekunden: Wirft den Gegner zu Boden, wenn Ihr ihn das nächste Mal mit einem Doppelangriff trefft."
 			},
 			"en": {
 				"name": "Mark of Instability",
+				"description": "Hex Spell. For 20 seconds, the next time you hit target foe with a dual attack skill that foe is knocked down.",
+				"concise": "Hex Spell. (20 seconds.) Causes knock-down the next time you hit target foe with a dual attack."
+			},
+			"en-gww": {
+				"name": "Mark of Instability",
 				"description": "For 20 seconds, the next time you hit target foe with a dual attack skill that foe is knocked down.",
 				"concise": "(20 seconds.) Causes knock-down the next time you hit target foe with a dual attack."
 			},
+			"es": {
+				"name": "Marca de inestabilidad",
+				"description": "Conjuro con maleficio. Durante 20 segundos, la próxima vez que golpees al enemigo objetivo con una habilidad de ataque doble, éste será derribado.",
+				"concise": "Conjuro con maleficio. (20 segundos). Causa derribo al enemigo objetivo la próxima vez que le hagas un ataque doble."
+			},
 			"fr": {
+				"name": "Marque d'instabilité",
+				"description": "Maléfice. Pendant 20 secondes, la prochaine fois que vous touchez une cible ennemie avec une compétence d'attaque ambidextre, cet ennemi est assommé.",
+				"concise": "Maléfice. (20 secondes.) La cible ennemie sera assommée par votre prochaine attaque d'ambidextrie."
+			},
+			"fr-gwiki": {
 				"name": "Marque d'instabilité",
 				"description": "Pendant 20 secondes, la prochaine fois que vous touchez une cible ennemie avec une compétence d'attaque ambidextre, cet ennemi est assommé.",
 				"concise": "(20 secondes.) La cible ennemie sera assommée par votre prochaine attaque d'ambidextrie."
+			},
+			"it": {
+				"name": "Segno dell'Instabilità",
+				"description": "Fattura. Dura 20 secondo[i]; la prossima volta che colpisci l'obiettivo nemico con un attacco doppio, lo abbatti.",
+				"concise": "Fattura. (Secondi: 20) Provoca abbattimento la prossima volta che colpisci l'obiettivo nemico con un attacco doppio."
+			},
+			"jp": {
+				"name": "インスタビリティ マーク",
+				"description": "弱体化スペル： 20 秒間、次にターゲットした敵に対してデュアル アタック スキルが成功すると、その敵は転倒します。",
+				"concise": "弱体化スペル： (20 秒) ターゲットした敵に対して次にデュアル アタックが成功すると、その敵は転倒します。"
+			},
+			"kr": {
+				"name": "불안정한 표적",
+				"description": "약화 마법. 대상 지정: 적. 20초 동안 대상에게 쌍수 공격이 성공하면 대상이 바닥에 넘어집니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법. (20초) 쌍수 공격이 성공하면 대상을 바닥에 넘어뜨립니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Piętno Niestabilności",
+				"description": "Klątwa (czar). Przez 20 sek., następnym razem, gdy zadasz wybranemu przeciwnikowi atak podwójny, przeciwnik ten zostaje powalony.",
+				"concise": "Klątwa (czar). (20 sek.) Powala, kiedy następnym razem trafisz wybranego przeciwnika atakiem podwójnym."
+			},
+			"ru": {
+				"name": "Mark of Instability",
+				"description": "Заклинание-проклятье. В течение 20 сек в следующий раз, когда нанесете выбранному противнику успешный удар с помощью умения двойной атаки, он будет сбит с ног.",
+				"concise": "Заклинание-проклятье. (20 сек) Сбивает с ног в следующий раз, когда вы проводите против выбранного противника успешную двойную атаку."
+			},
+			"bork": {
+				"name": "Maerk ooff Instaebeeleety",
+				"description": "Hex Spell. Fur 20 secunds, zee next teeme-a yuoo heet taerget fue-a veet a dooael aettaeck skeell thaet fue-a is knucked doon.",
+				"concise": "Hex Spell. (20 secunds.) Cooses knuck-doon zee next teeme-a yuoo heet taerget fue-a veet a dooael aettaeck."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "影盾",
+				"description": "增益魔法。 在4秒之内，使你获得5...10点「生命再生」。当「影盾」效果消失时，如果你在攻击，你将恢复40...100点生命值。",
+				"concise": "增益魔法。 （6秒内）5...10%的格挡几率。只有当你的生命值低于40...100%时，技能才有效。"
+			},
+			"cht": {
+				"name": "暗影庇護",
+				"description": "加持魔法： 持續 6 秒，你獲得 5...10 體力再生。若暗影庇護效果結束時，你正在進行攻擊，將獲得 40...100 體力。",
+				"concise": "加持魔法： 持續 4 秒，你獲得 5...10 體力再生。若暗影庇護效果結束時，你正在進行攻擊，將獲得 40...100 體力。"
+			},
 			"de": {
+				"name": "Schattenzuflucht",
+				"description": "Verzauberung. 6 Sekunde[n] lang erfreut Ihr Euch einer Lebenspunktregeneration von 5...10. Wenn Schattenzuflucht endet, erhaltet Ihr 40...100 Lebenspunkt[e], wenn Ihr angreift.",
+				"concise": "Verzauberung. 6 Sekunde[n]: Ihr habt +5...10 Lebenspunktregeneration. Wirkung am Ende: Heilt Euch um 40...100 Lebenspunkt[e], falls Ihr gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Schattenzuflucht",
 				"description": "6 Sekunden lang erfreut Ihr Euch einer Lebenspunktregeneration von +5...10. Wenn Schattenzuflucht endet, heilt Ihr um 40...100 Lebenspunkte, wenn Ihr angreift.",
 				"concise": "6 Sekunden: Ihr habt +5...10 Lebenspunktregeneration. Wirkung am Ende: Heilt um 40...100 Lebenspunkte, falls Ihr gerade angreift."
 			},
 			"en": {
 				"name": "Shadow Refuge",
+				"description": "Enchantment Spell. For 6 seconds, you gain 5...10 Health regeneration. When Shadow Refuge ends, you gain 40...100 Health if you are attacking.",
+				"concise": "Enchantment Spell. (6 seconds.) You have +5...10 Health regeneration. End effect: heals you for 40...100 if you are attacking."
+			},
+			"en-gww": {
+				"name": "Shadow Refuge",
 				"description": "For 6 seconds, you gain 5...10 Health regeneration. When Shadow Refuge ends, you gain 40...100 Health if you are attacking.",
 				"concise": "(6 seconds.) You have +5...10 Health regeneration. End effect: heals you for 40...100 if you are attacking."
 			},
+			"es": {
+				"name": "Refugio sombrío",
+				"description": "Conjuro con encantamiento. Durante 6 segundos, ganarás una regeneración de salud de 5...10. Cuando el Refugio sombrío acabe, ganarás 40...100 de salud si estás atacando.",
+				"concise": "Conjuro con encantamiento. (6 segundos). Tienes +5...10 de regeneración de salud. Efecto final: te curas 40...100 de salud si estás atacando."
+			},
 			"fr": {
+				"name": "Refuge ombreux",
+				"description": "Enchantement. Pendant 6 secondes, vous bénéficiez d'une régénération de santé de +5...10. Lorsque le Refuge Ombreux se termine, vous gagnez 40...100 points de vie si vous attaquez.",
+				"concise": "Enchantement. (6 secondes.) Vous bénéficiez d'une régénération de santé de +5...10. Effet final : vous soigne de 40...100 points de vie si vous attaquez."
+			},
+			"fr-gwiki": {
 				"name": "Refuge ombreux",
 				"description": "Pendant 6 secondes, vous bénéficiez d'une régénération de santé de +5...10. Lorsque le Refuge Ombreux se termine, vous gagnez 40...100 points de vie si vous attaquez.",
 				"concise": "(6 secondes.) Vous bénéficiez d'une régénération de +5...10. Effet final : vous soigne de 40...100 points de vie si vous attaquez."
+			},
+			"it": {
+				"name": "Cortina d'Ombra",
+				"description": "Incantesimo. Per 6 secondo[i] ottieni una Rigenerazione della Salute di 5...10. Quando la Cortina d'Ombra termina, vieni curato di 40...100 punto[i] se stai attaccando.",
+				"concise": "Incantesimo. (Secondi: 6) Rigenerazione tua Salute: +5...10. Effetto al termine: ti cura di 40...100 se stai attaccando."
+			},
+			"jp": {
+				"name": "シャドウ レフュージ",
+				"description": "強化スペル： 6 秒間、体力の自然回復力が 5...10 増加します。この効果が消失するときに攻撃中の場合、40...100 の体力を獲得します。",
+				"concise": "強化スペル： (6 秒) 体力の自然回復力が 5...10 増加します。終了効果： プレイヤーが攻撃中の場合、体力が 40...100 回復します。"
+			},
+			"kr": {
+				"name": "그림자 은신",
+				"description": "강화 마법. 대상 지정: 없음. 6초 동안 체력 재생이 5...10 증가합니다. 효과가 끝날 때 공격하는 중이면 40...100의 체력을 회복합니다.",
+				"concise": "강화 마법. (6초) 체력 재생이 5...10 증가합니다. 종료 효과: 공격 중이면 40...100의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Cieniste Schronienie",
+				"description": "Zaklęcie (czar). Przez 6 sek., otrzymujesz regenerację żywotności równą 5...10. Gdy Cieniste Schronienie przestanie działać, otrzymujesz 40...100 pkt. żywotności jeżeli atakujesz.",
+				"concise": "Zaklęcie (czar). (6 sek.) Posiadasz regenerację żywotności +5...10. Efekt końcowy: otrzymujesz 40...100 pkt. żywotności, jeżeli atakujesz."
+			},
+			"ru": {
+				"name": "Shadow Refuge",
+				"description": "Заклинание-чары. В течение 6 сек ваша скорость восстановления здоровья увеличивается на 5...10 ед. Когда Shadow Refuge заканчивает свое действие, вы получаете 40...100 ед. здоровья, если проводите в этот момент атаку.",
+				"concise": "Заклинание-чары. (6 сек) Вы получаете +5...10 ед. к скорости восстановления здоровья. Эффект окончания: вы исцеляетесь на 40...100 ед. здоровья, если атакуете."
+			},
+			"bork": {
+				"name": "Shaedoo Reffooge-a",
+				"description": "Inchuntment Spell. Fur 6 secunds, yuoo gaeeen 5...10 Heaelt regeneraeshun. Vhee Shaedoo Reffooge-a inds, yuoo gaeeen 40...100 Heaelt iff yuoo aere-a aettaeckeeng.",
+				"concise": "Inchuntment Spell. (6 secunds.) Yuoo haefe-a +5...10 Heaelt regeneraeshun. Ind iffffect: heaels yuoo fur 40...100 iff yuoo aere-a aettaeckeeng."
 			}
 		}
 	}

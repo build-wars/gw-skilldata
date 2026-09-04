@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失真幻象",
+				"description": "姿态。 在1...5秒之内，使你有75%的几率格挡武器攻击，每成功格挡对方攻击一次，你将损失2点能量，直到技能效果消失。",
+				"concise": "姿态。 在1...5秒之内，你的格挡率提高75%，每成功格挡对方攻击一次，你将损失2点能量，直到技能效果消失。"
+			},
+			"cht": {
+				"name": "迴避頌歌",
+				"description": "態勢： 在 1...5 秒內，你有 75% 的機率「格擋」敵人的攻擊。每當因此成功「格擋」攻擊時，你將損失 2 能量或者迴避頌歌的效果終止。",
+				"concise": "態勢： 在 1...5 秒內，你有 75% 的機率「格擋」敵人的攻擊。每當因此成功「格擋」攻擊時，你將損失 2 能量或者迴避頌歌的效果終止。"
+			},
 			"de": {
+				"name": "Verzerrung",
+				"description": "Haltung. Ihr habt 1...5 Sekunde[n] lang eine 75%ige Chance, Angriffe zu blocken. Immer, wenn Ihr auf diese Weise einen Angriff blockt, verliert Ihr 2 Energiepunkt[e] oder Verzerrung endet.",
+				"concise": "Haltung. 1...5 Sekunde[n]: Ihr habt eine 75%ige Chance zu blocken. Blockkosten: Ihr verliert 2 Energiepunkt[e] oder Verzerrung endet."
+			},
+			"de-guildwiki": {
 				"name": "Verzerrung",
 				"description": "Ihr habt 1...5 Sekunden lang eine 75%ige Chance, Angriffe zu blocken. Immer, wenn Ihr auf diese Weise einen Angriff blockt, verliert Ihr 2 Energiepunkte oder Verzerrung endet.",
 				"concise": "1...5 Sekunden: Ihr habt eine 75%ige Chance zu blocken. <gray>Blockkosten: Ihr verliert 2 Energiepunkte oder Verzerrung endet.</gray>"
 			},
 			"en": {
 				"name": "Distortion",
+				"description": "Stance. For 1...5 seconds, you have a 75% chance to block attacks. Whenever you block an attack this way, you lose 2 Energy or Distortion ends.",
+				"concise": "Stance. (1...5 seconds.) You have 75% chance to block. Block cost: you lose 2 Energy or Distortion ends."
+			},
+			"en-gww": {
+				"name": "Distortion",
 				"description": "For 1...5 second[s], you have a 75% chance to block attacks. Whenever you block an attack this way, you lose 2 Energy or Distortion ends.",
 				"concise": "(1...5 second[s].) You have 75% chance to block. <gray>Block cost: you lose 2 Energy or Distortion ends.</gray>"
 			},
+			"es": {
+				"name": "Distorsión",
+				"description": "Actitud. Durante 1...5 segundos, tendrás un 75% de posibilidades de bloquear ataques. Siempre que bloquees un ataque de esta forma, pierdes 2 de energía o la Distorsión finalizará.",
+				"concise": "Actitud. (1...5 segundos). Tienes 75% de posibilidades de bloquear. Coste del bloqueo: pierdes 2 de energía o la Distorsión acaba."
+			},
 			"fr": {
+				"name": "Distorsion",
+				"description": "Pose de combat. Pendant 1...5 secondes, vous avez 75% de chances de bloquer les attaques. Quand vous bloquez une attaque de cette manière, soit vous perdez 2 points d'énergie, soit la Distorsion prend fin.",
+				"concise": "Pose de combat. (1...5 secondes.) Vous avez 75% de chances de bloquer. Coût du blocage : vous perdez 2 points d'énergie ou la Distorsion prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Distorsion",
 				"description": "Pendant 1...5 seconde(s), vous avez 75% de chances de bloquer les attaques. Quand vous bloquez une attaque de cette manière, soit vous perdez 2 points d'énergie, soit la Distorsion prend fin.",
 				"concise": "(1...5 seconde(s).) Vous avez 75% de chances de bloquer."
+			},
+			"it": {
+				"name": "Distorsione",
+				"description": "Posizione. Per 1...5 secondo[i] hai il 75% di possibilità di bloccare gli attacchi. Ogni volta che blocchi un attacco in questo modo, o perdi 2 Punto[i] Energia oppure la Distorsione termina.",
+				"concise": "Posizione. (Secondi: 1...5) Probabilità di blocco: 75%. Costo del blocco: perdi 2 Punto[i] Energia o Distorsione termina."
+			},
+			"jp": {
+				"name": "ディストーション",
+				"description": "スタンス： 1...5 秒間、75%の確率で攻撃をブロックします。この効果により攻撃をブロックするたびに、2 のエネルギーを失うか、この効果が消失します。",
+				"concise": "スタンス： (1...5 秒) 75%の確率で攻撃をブロックします。ブロック コスト： エネルギーが 2 減少するか、この効果が消失します。"
+			},
+			"kr": {
+				"name": "회피의 권능",
+				"description": "자세. 대상 지정: 없음. 1...5초 동안 75% 확률로 물리 공격을 막습니다. 공격을 막을 때마다 2의 에너지가 소모되거나 효과가 끝납니다.",
+				"concise": "자세. (1...5초) 75%의 확률로 공격을 막습니다. 막은 대가: 2의 에너지를 잃거나 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Zniekształcenie",
+				"description": "Postawa. Przez 1...5 sek., masz 75% szans na zablokowanie ataków. Za każdym razem, kiedy zablokujesz w ten sposób atak, tracisz 2 pkt. energii albo Zniekształcenie przestanie działać.",
+				"concise": "Postawa. (1...5 sek.) Masz 75% szans na blokowanie. Koszt blokowania: tracisz 2 pkt. energii lub Zniekształcenie przestaje działać."
+			},
+			"ru": {
+				"name": "Distortion",
+				"description": "Стойка. В течение 1...5 сек вы получаете 75%-й шанс блокировать атаки. Каждый раз, когда вы блокируете атаку с помощью этого умения, вы теряете 2 ед. энергии, иначе Distortion прекратит свое действие.",
+				"concise": "Стойка. (1...5 сек) Вы получаете 75%-й шанс блокировать атаки. Цена блокирования: вы теряете 2 ед. энергии, или действие Distortion заканчивается."
+			},
+			"bork": {
+				"name": "Deesturshun",
+				"description": "Stunce-a. Fur 1...5 secunds, yuoo haefe-a a 75% chunce-a tu bluck aettaecks. Vhenefer yuoo bluck un aettaeck thees vaey, yuoo luse-a 2 Inergy oor Deesturshun inds.",
+				"concise": "Stunce-a. (1...5 secunds.) Yuoo haefe-a 75% chunce-a tu bluck. Bluck cust: yuoo luse-a 2 Inergy oor Deesturshun inds."
 			}
 		}
 	}

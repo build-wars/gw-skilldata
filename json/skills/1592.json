@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"东山再起！\"",
+				"description": "战吼。 在0秒之内，当「音波」范围内有队友使用复活技能时，被复活的友方将获得25...50%的生命加成和5...20%的能量加成。",
+				"concise": "战吼。 在0秒之内，当「音波」范围内有队友使用复活技能时，被复活的友方将获得25...50%的生命加成和5...20%的能量加成。"
+			},
+			"cht": {
+				"name": "「我們將重返！」",
+				"description": "戰嚎： 復活音量所及範圍內的所有隊友(25...50%體力與5...20%能量)。",
+				"concise": "戰嚎： 復活音量所及範圍內的所有隊友(25...50%體力與5...20%能量)。"
+			},
 			"de": {
+				"name": "\"Wir kommen wieder!\"",
+				"description": "Schrei. Alle Gruppenmitglieder in Hörweite werden mit 25...50% Lebenspunkten und 5...20% Energiepunkten wiederbelebt.",
+				"concise": "Schrei. Alle Gruppenmitglieder in Hörweite werden wiederbelebt (25...50% Lebenspunkte, 5...20% Energiepunkte)."
+			},
+			"de-guildwiki": {
 				"name": "\"Wir kommen wieder!\"",
 				"description": "Alle Gruppenmitglieder in Hörweite werden mit 25...50% Lebenspunkten und 5...20% Energiepunkten wiederbelebt.",
 				"concise": "Alle Gruppenmitglieder in Hörweite werden wiederbelebt (25...50% Lebenspunkte, 5...20% Energiepunkte)."
 			},
 			"en": {
 				"name": "\"We Shall Return!\"",
+				"description": "Shout. All party members in earshot are resurrected with 25...50% Health and 5...20% Energy.",
+				"concise": "Shout. All party members in earshot are resurrected (25...50% Health and 5...20% Energy)."
+			},
+			"en-gww": {
+				"name": "\"We Shall Return!\"",
 				"description": "All party members in earshot are resurrected with 25...50% Health and 5...20% Energy.",
 				"concise": "All party members in earshot are resurrected (25...50% Health and 5...20% Energy)."
 			},
+			"es": {
+				"name": "\"¡Volveremos!\"",
+				"description": "Grito. Todos los miembros del grupo al alcance del oído resucitarán con 25...50% de salud y 5...20% de energía.",
+				"concise": "Grito. Todos los miembros del grupo al alcance del oído resucitarán (25...50% de salud y 5...20% de energía)."
+			},
 			"fr": {
+				"name": "\"Nous reviendrons !\"",
+				"description": "Cri. Tous les membres du groupe à portée de voix sont ressuscités avec 25...50% de leur santé et 5...20% de leur énergie.",
+				"concise": "Cri. Tous les membres du groupe à portée de voix sont ressuscités (25...50% de leur santé et 5...20% de leur énergie)"
+			},
+			"fr-gwiki": {
 				"name": "\"Nous reviendrons !\"",
 				"description": "Tous les membres du groupe à portée de voix sont ressuscités avec 25...50% de leur santé et 5...20% de leur énergie.",
 				"concise": "Tous les membres du groupe à portée de voix sont ressuscités (25...50% de leur santé et 5...20% de leur énergie.)"
+			},
+			"it": {
+				"name": "\"Torneremo!\"",
+				"description": "Urlo. Tutti i membri della squadra a portata d'orecchio vengono resuscitati con un 25...50% di Salute e un 5...20% di Energia.",
+				"concise": "Urlo. Tutti i membri della squadra a portata d'orecchio vengono resuscitati (25...50% di Salute e 5...20% di Energia)."
+			},
+			"jp": {
+				"name": "ウィー シャル リターン！",
+				"description": "シャウト： 声の届く範囲内にいるパーティー メンバーはすべて、25...50% の体力と 5...20% のエネルギーで復活します。",
+				"concise": "シャウト： 声の届く範囲内にいるパーティー メンバーはすべて、25...50% の体力と 5...20% のエネルギーで復活します。"
+			},
+			"kr": {
+				"name": "모두 무사히 돌아갈 것이다!",
+				"description": "고함. 대상 지정: 없음. 가청 범위 내에 있는 모든 파티원이 25...50%의 체력과 5...20%의 에너지를 가진 채로 부활합니다.",
+				"concise": "고함. 가청 범위 내에 있는 모든 파티원이 부활합니다.(체력: 25...50%, 에너지: 5...20%)"
+			},
+			"pl": {
+				"name": "\"Jeszcze Tu Wrócimy!\"",
+				"description": "Okrzyk. Wszyscy członkowie drużyny w zasięgu słuchu zostają wskrzeszeni i posiadają 25...50% żywotności oraz 5...20% energii.",
+				"concise": "Okrzyk. Wszyscy członkowie drużyny w zasięgu słuchu zostają wskrzeszeni (25...50% żywotności oraz 5...20% energii)."
+			},
+			"ru": {
+				"name": "\"We Shall Return!\"",
+				"description": "Крик. Все члены отряда в зоне слышимости будут воскрешены с 25...50% здоровья и 5...20% энергии.",
+				"concise": "Крик. Все члены отряда в зоне слышимости будут воскрешены (25...50% здоровья и 5...20% энергии)."
+			},
+			"bork": {
+				"name": "\"Ve-a Shaell Retoorn!\"",
+				"description": "Shuoot. Aell paerty members in iaershut aere-a resoorrected veet 25...50% Heaelt und 5...20% Inergy.",
+				"concise": "Shuoot. Aell paerty members in iaershut aere-a resoorrected (25...50% Heaelt und 5...20% Inergy)."
 			}
 		}
 	}

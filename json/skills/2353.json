@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"Finish Him!\"",
+				"description": "战吼。 If target foe has less than 50% Health, that foe takes 44...80 damage and suffers from Cracked Armor and a Deep Wound for 12...20 seconds.",
+				"concise": "战吼。 Deals 44...80 damage and inflicts Cracked Armor and Deep Wound conditions (12...20 seconds). No effect unless target foe has less than 50% Health."
+			},
+			"cht": {
+				"name": "\"結束他！\"",
+				"description": "戰嚎： 若目標敵人體力低於 50%，該目標將受到 44...80 傷害並遭受「碎甲」及「重傷」12...20 秒。",
+				"concise": "戰嚎： If target foe has less than 50% Health, that foe takes 44...80 damage and suffers from Cracked Armor and a Deep Wound for 12...20 seconds."
+			},
 			"de": {
+				"name": "\"Erledigt ihn!\"",
+				"description": "Schrei. Wenn die Lebenspunkte des Gegners weniger als 50% betragen, erleidet er 44...80 Punkt[e] Schaden und leidet 12...20 Sekunde[n] lang an Beschädigter Rüstung und Tiefer Wunde.",
+				"concise": "Schrei. Richtet 44...80 Punkt[e] Schaden an und verursacht die Zustände Beschädigte Rüstung und Tiefe Wunde (12...20 Sekunde[n]). Der Gegner muss weniger als 50% seiner maximalen Lebenspunkte haben, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "\"Erledigt ihn!\"",
 				"description": "Wenn die Lebenspunkte des Gegners weniger als 50% betragen, erleidet er 44...80 Punkte Schaden und leidet 12...20 Sekunden lang an Beschädigter Rüstung und Tiefer Wunde.",
 				"concise": "Richtet 44...80 Punkte Schaden an und verursacht die Zustände Beschädigte Rüstung und Tiefe Wunde (12...20 Sekunden). <gray>Der Gegner muss weniger als 50% seiner maximalen Lebenspunkte haben, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "\"Finish Him!\"",
+				"description": "Shout. If target foe has less than 50% Health, that foe takes 44...80 damage and suffers from Cracked Armor and a Deep Wound for 12...20 seconds.",
+				"concise": "Shout. Deals 44...80 damage and inflicts Cracked Armor and Deep Wound conditions (12...20 seconds). No effect unless target foe has less than 50% Health."
+			},
+			"en-gww": {
+				"name": "\"Finish Him!\"",
 				"description": "If target foe has less than 50% Health, that foe takes 44...80 damage and suffers from Cracked Armor and a Deep Wound for 12...20 seconds.",
 				"concise": "Deals 44...80 damage and inflicts Cracked Armor and Deep Wound conditions (12...20 seconds). <gray>No effect unless target foe has less than 50% Health.</gray>"
 			},
+			"es": {
+				"name": "\"¡Acaba con él!\"",
+				"description": "Grito. Si el enemigo objetivo tiene menos del 50% de salud, le haces 44...80 de daño y sufre una herida grave y armadura rota durante 12...20 segundos.",
+				"concise": "Grito. Hace 44...80 de daño y causa armadura rota y herida grave (12...20 segundos). No tiene efecto a menos que el objetivo tenga menos del 50% de salud."
+			},
 			"fr": {
+				"name": "\"Finissez-le !\"",
+				"description": "Cri. Si la cible ennemie a moins de 50% de santé, elle subit 44...80 points de dégâts, a une Armure brisée et souffre de Blessure profonde pendant 12...20 secondes.",
+				"concise": "Cri. Inflige 44...80 points de dégâts et provoque deux conditions : Armure brisée et Blessure profonde (12...20 secondes). Aucun effet si l'ennemi visé a plus de 50% de santé."
+			},
+			"fr-gwiki": {
 				"name": "\"Finissez-le !\"",
 				"description": "Si la cible ennemie a moins de 50% de santé, elle subit 44...80 points de dégâts, a une Armure brisée et souffre de Blessure profonde pendant 12...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Finiscilo!\"",
+				"description": "Urlo. Se la Salute dell'obiettivo nemico è inferiore al 50% subisce 44...80 danno[i] e soffre di Armatura Incrinata e Ferita Profonda per 12...20 secondo[i].",
+				"concise": "Urlo. Danni inferti: 44...80. Condizioni inflitte: Armatura Incrinata e Ferita Profonda (12...20 secondo[i]). Ha effetto solo se la Salute dell'obiettivo è inferiore al 50%."
+			},
+			"jp": {
+				"name": "フィニッシュ ヒム！",
+				"description": "シャウト： ターゲットした敵の体力が上限の50%未満の場合、44...80 のダメージを与え、12...20 秒間「防具破損」および「重傷」状態にします。",
+				"concise": "シャウト： 44...80 のダメージを与え、「防具破損」および「重傷」状態にします (12...20 秒) 。ターゲットした敵の体力が上限の50%以上ある場合は無効です。"
+			},
+			"kr": {
+				"name": "그놈을 끝장내라!",
+				"description": "고함. 적의 체력이 50% 미만이면 44...80의 대미지를 추가로 주고, 12...20초 동안 방어 손상과 중상을 입힙니다.",
+				"concise": "고함. 44...80의 대미지를 주고, 방어 손상과 중상을 입힙니다.(12...20초) 대상의 체력이 50% 미만이어야 합니다."
+			},
+			"pl": {
+				"name": "\"Skończ z Nim!\"",
+				"description": "Okrzyk. Jeżeli wybrany przeciwnik posiada mniej niż 50% żywotności, to otrzymuje 44...80 pkt. obrażeń i na 12...20 sek. znajdzie się pod działaniem Pękniętej Zbroi oraz głębokiej rany.",
+				"concise": "Okrzyk. Zadaje 44...80 pkt. obrażeń i wywołuje przypadłości pęknięta zbroja oraz głęboka rana (12...20 sek.). Bez efektu, chyba że wybrany przeciwnik ma mniej niż 50% żywotności."
+			},
+			"ru": {
+				"name": "\"Finish Him!\"",
+				"description": "Крик. Если у выбранного противника меньше 50% здоровья, он получает 44...80 ед. урона, а также треснувшие доспехи и глубокую рану на 12...20 сек.",
+				"concise": "Крик. Наносит 44...80 ед. урона и вызывает глубокую рану и треснувшие доспехи (12...20 сек). Не действует, если у выбранного противника больше 50% здоровья."
+			},
+			"bork": {
+				"name": "\"Feeneesh Heem!\"",
+				"description": "Shuoot. Iff taerget fue-a haes less thun 50% Heaelt, thaet fue-a taekes 44...80 daemaege-a und sooffffers frum Craecked Aermur und a Deep Vuoond fur 12...20 secunds.",
+				"concise": "Shuoot. Deaels 44...80 daemaege-a und inffleects Craecked Aermur und Deep Vuoond cundeeshuns (12...20 secunds). Nu iffffect unless taerget fue-a haes less thun 50% Heaelt."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "烈焰召唤",
+				"description": "增益魔法。 如果你手持带有火焰伤害的武器，那么你的攻击会对目标敌人造成5...20点火焰伤害，效果持续 60秒。",
+				"concise": "增益魔法。 如果你手持带有火焰伤害的武器，那么你的攻击会对目标敌人造成5...20点火焰伤害，效果持续 60秒。"
+			},
+			"cht": {
+				"name": "召喚火焰",
+				"description": "加持魔法： 持續 60 秒，若你使用具有火焰屬性的武器進行攻擊，對目標額外造成 5...20 火焰傷害。",
+				"concise": "加持魔法： 持續 60 秒，若你使用具有火焰屬性的武器進行攻擊，對目標額外造成 5...20 火焰傷害。"
+			},
 			"de": {
+				"name": "Flammenbeschwörung",
+				"description": "Verzauberung. 60 Sekunden lang richten Eure Angriffe 5...20 Punkt[e] zusätzlichen Feuerschaden an, wenn Ihr eine Feuerwaffe führt.",
+				"concise": "Verzauberung. (60 Sekunden.) Eure Angriffe richten +5...20 Punkt[e] Feuerschaden an. Keine Wirkung, falls Eure Waffe keinen Feuerschaden verursacht."
+			},
+			"de-guildwiki": {
 				"name": "Flammenbeschwörung",
 				"description": "60 Sekunden lang richten Eure Angriffe 5...20 Punkte zusätzlichen Feuerschaden an, wenn Ihr eine Feuerwaffe führt.",
 				"concise": "60 Sekunden: Eure Angriffe richten +5...20 Punkte Feuerschaden an. <gray>Keine Wirkung, falls Eure Waffe keinen Feuerschaden verursacht.</gray>"
 			},
 			"en": {
 				"name": "Conjure Flame",
+				"description": "Enchantment Spell. For 60 seconds, if you're wielding a fire weapon, your attacks strike for an additional 5...20 fire damage.",
+				"concise": "Enchantment Spell. (60 seconds.) Your attacks hit for +5...20 fire damage. No effect unless your weapon deals fire damage."
+			},
+			"en-gww": {
+				"name": "Conjure Flame",
 				"description": "For 60 seconds, if you're wielding a fire weapon, your attacks strike for an additional 5...20 fire damage.",
 				"concise": "(60 seconds.) Your attacks hit for +5...20 fire damage. <gray>No effect unless your weapon deals fire damage.</gray>"
 			},
+			"es": {
+				"name": "Conjurar llama",
+				"description": "Conjuro con encantamiento. Durante 60 segundos, si llevas un arma de fuego, tus ataques hacen 5...20 de daño de fuego adicional.",
+				"concise": "Conjuro con encantamiento. (60 segundos.) Tus ataques hacen +5...20 de daño de fuego. No tiene efecto si no llevas un arma de fuego."
+			},
 			"fr": {
+				"name": "Conjuration de flamme",
+				"description": "Enchantement. Pendant 60 secondes, si vous utilisez une arme de feu, vos attaques infligent 5...20 points de dégâts du feu supplémentaires.",
+				"concise": "Enchantement. (60 secondes.) Vos attaques infligent +5...20 points de dégâts du feu. Aucun effet si votre arme n'inflige pas des dégâts du feu."
+			},
+			"fr-gwiki": {
 				"name": "Conjuration de flamme",
 				"description": "Pendant 60 secondes, si vous utilisez une arme de feu, vos attaques infligent +5...20 points de dégâts du feu supplémentaires.",
 				"concise": "(60 secondes.) Vos attaques infligent +5...20 points de dégâts du feu."
+			},
+			"it": {
+				"name": "Evoca Fiamma",
+				"description": "Incantesimo. Per 60 secondi, se brandisci un'arma da fuoco, i tuoi attacchi infliggono un danno da fuoco aggiuntivo di 5...20.",
+				"concise": "Incantesimo. (Secondi: 60.) Danni da fuoco inferti dai tuoi attacchi: +5...20. Ha effetto solo se hai equipaggiato un'arma per danni da fuoco."
+			},
+			"jp": {
+				"name": "カンジャー フレイム",
+				"description": "強化スペル： 60秒間、ファイア属性の武器による攻撃が成功すると、5...20 の追加ファイア ダメージを与えます。",
+				"concise": "強化スペル： (60秒) 5...20 の追加ファイア ダメージを与えます。ファイア属性の武器を装備していない場合は無効です。"
+			},
+			"kr": {
+				"name": "화염 소환",
+				"description": "강화 마법. 대상 지정: 없음. 60초 동안 불 속성 무기로 공격을 하면 5...20의 불 대미지를 추가로 줍니다.",
+				"concise": "강화 마법. (60초) 공격 시 5...20의 불 대미지를 추가로 줍니다. 불 속성 무기를 장착해야 합니다."
+			},
+			"pl": {
+				"name": "Przyzwanie Ognia",
+				"description": "Zaklęcie (czar). Przez 60 sek., jeżeli posiadasz ognistą broń, twoje ataki zadają dodatkowe 5...20 pkt. obrażeń od ognia.",
+				"concise": "Zaklęcie (czar). (60 sek.) Twoje ataki zadają +5...20 pkt. obrażeń od ognia. Bez efektu, jeśli twoja broń nie zadaje obrażeń od ognia."
+			},
+			"ru": {
+				"name": "Conjure Flame",
+				"description": "Заклинание-чары. В течение 60 сек, если вы вооружены оружием, наносящим урон силой огня, ваши атаки наносят дополнительно 5...20 ед. урона силой огня.",
+				"concise": "Заклинание-чары. (60 сек) Ваши атаки наносят дополнительно 5...20 ед. урона силой огня. Ваше оружие должно наносить урон силой огня."
+			},
+			"bork": {
+				"name": "Cunjoore-a Flaeme-a",
+				"description": "Inchuntment Spell. Fur 60 secunds, iff yuoo're-a veeeldeeng a fure-a veaepun, yuoor aettaecks streeke-a fur un aeddeeshunael 5...20 fure-a daemaege-a.",
+				"concise": "Inchuntment Spell. (60 secunds.) Yuoor aettaecks heet fur +5...20 fure-a daemaege-a. Nu iffffect unless yuoor veaepun deaels fure-a daemaege-a."
 			}
 		}
 	}

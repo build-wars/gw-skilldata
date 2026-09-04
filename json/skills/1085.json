@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "沙尘暴",
+				"description": "负面魔法。 使目标敌人受到 35...65 地系伤害。如果沙尘暴击中被击倒的敌人，使其遭受「盲目」症状 20...75 秒。",
+				"concise": "负面魔法。 使目标敌人受到 35...65 地系伤害。如果沙尘暴击中被击倒的敌人，使其遭受「盲目」症状 20...75 秒。"
+			},
+			"cht": {
+				"name": "塵暴",
+				"description": "降咒魔法： 使目標敵人受到 35...65 土系傷害。若塵暴擊中被擊倒的敵人，使其遭受「盲目」病症 20...75 秒。",
+				"concise": "降咒魔法： 使目標敵人受到 35...65 土系傷害。若塵暴擊中被擊倒的敵人，使其遭受「盲目」病症 20...75 秒。"
+			},
 			"de": {
+				"name": "Aschenexplosion",
+				"description": "Verhexung. Umstehende Feinde erleiden 35...65 Punkte Erdschaden. Brennende Feinde, die durch Aschenexplosion getroffen werden, werden für 5 Sekunden verhext und haben eine 20...75%ige Wahrscheinlichkeit, ihr Ziel zu verfehlen.",
+				"concise": "Verhexung. Richtet 35...65 Punkte Erdschaden an. Brennende Feinde sind für 5 Sekunden verhext und verfehlen 20...75% ihrer Angriffe. Trifft auch umstehende Gegner."
+			},
+			"de-guildwiki": {
 				"name": "Aschenexplosion",
 				"description": "Umstehende Feinde erleiden 35...65 Punkte Erdschaden. Brennende Feinde, die durch Aschenexplosion getroffen werden, werden für 5 Sekunden verhext und haben eine 20...75%ige Wahrscheinlichkeit, ihr Ziel zu verfehlen.",
 				"concise": "Richtet 35...65 Punkte Erdschaden an. Brennende Feinde sind 5 Sekunden verhext und verfehlen 20...75% ihrer Angriffe. Trifft auch umstehende Gegner."
 			},
 			"en": {
 				"name": "Ash Blast",
+				"description": "Hex Spell. Target and adjacent foes are struck for 35...65 earth damage. Burning foes struck by Ash Blast are hexed for 5 seconds and have a 20...75% chance to miss with attacks.",
+				"concise": "Hex Spell. Deals 35...65 earth damage. Burning foes are hexed for 5 seconds and miss 20...75% of attacks. Also strikes adjacent."
+			},
+			"en-gww": {
+				"name": "Ash Blast",
 				"description": "Target and adjacent foes are struck for 35...65 earth damage. Burning foes struck by Ash Blast are hexed for 5 seconds and have a 20...75% chance to miss with attacks.",
 				"concise": "Deals 35...65 earth damage. Burning foes are hexed for 5 seconds and miss 20...75% of attacks. Also strikes adjacent."
 			},
+			"es": {
+				"name": "Explosión de ceniza",
+				"description": "Conjuro con maleficio. El enemigo objetivo y los adyacentes reciben 35...65 de daño de tierra. Los enemigos con quemadura alcanzados por la Explosión de ceniza quedan malditos durante 5 segundos y tienen un 20...75% de posibilidades de fallar en sus ataques.",
+				"concise": "Conjuro con maleficio. Hace 35...65 de daño de tierra. Los enemigos que arden quedan malditos durante 5 y fallan un 20...75% de los ataques. También golpea a los adyacentes."
+			},
 			"fr": {
+				"name": "Explosion de cendres",
+				"description": "Maléfice. La cible ennemie et les ennemis adjacents subissent 35...65 points de dégâts de la terre. Les ennemis embrasés touchés par l'Explosion de cendres subissent un maléfice pendant 5 secondes et ont 20...75% de chances de rater leurs attaques.",
+				"concise": "Maléfice. Inflige 35...65 points de dégâts de la terre. Les ennemis embrasés touchés par l'Explosion de cendres subissent un maléfice pendant 5 secondes et ont 20...75 % de chances de rater leurs attaques. Also strikes adjacent."
+			},
+			"fr-gwiki": {
 				"name": "Explosion de cendres",
 				"description": "La cible ennemie subit 35...65 points de dégâts de la terre. Si l'Explosion de cendre touche un ennemi assommé, celui-ci est aveuglé pendant 3...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Esplosione di Cenere",
+				"description": "Fattura. Infligge 35...65 danni da terra all'obiettivo e ai nemici adiacenti. I nemici affetti da Bruciatura che vengono colpiti da Esplosione di Cenere subiscono la fattura per 5 secondi e hanno una possibilità del 20...75% di mancare l'obiettivo.",
+				"concise": "Fattura. Infligge 35...65 danni da terra. Durata della fattura subita dai nemici con Bruciatura: 5 secondi. Probabilità di mancare l'obiettivo: 20...75%. Colpisce anche i nemici adiacenti."
+			},
+			"jp": {
+				"name": "アッシュ ブラスト",
+				"description": "弱体化スペル： ターゲットした敵および隣接する敵に 35...65 のアース ダメージを与えます。このダメージを受けた「火傷」状態の敵は、5 秒間 20...75% の確率で攻撃に失敗します。",
+				"concise": "弱体化スペル： ターゲットした敵および隣接する敵に 35...65 のアース ダメージを与えます。また、「火傷」状態の敵は 5 秒間、20...75% の確率で攻撃を失敗します。"
+			},
+			"kr": {
+				"name": "먼지 폭풍",
+				"description": "약화 마법. 대상 지정: 적. 대상과 인접한 적들에게 35...65의 대지 대미지를 줍니다. 화상을 입은 적이 먼지 폭풍을 맞으면 약화돼 5초 동안 공격이 20...75% 확률로 실패합니다.",
+				"concise": "약화 마법. 대상과 인접한 적들에게 35...65의 대지 대미지를 줍니다. 화상을 입은 적은 공격이 20...75% 확률로 실패합니다.(5초)"
+			},
+			"pl": {
+				"name": "Wybuch Popiołu",
+				"description": "Klątwa (czar). Wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim otrzymują po 35...65 pkt. obrażeń od ziemi. Płonący przeciwnicy trafieni przez Wybuch Popiołu zostają przeklęci na 5 sek. i mają 20...75% szansę na nieudane ataki.",
+				"concise": "Klątwa (czar). Zadaje 35...65 pkt. obrażeń od ziemi. Płonący przeciwnicy pozostają pod wpływem klątwy przez 5 sek. i unikają 20...75% ataków. Dotyczy również postaci w bezpośrednim sąsiedztwie."
+			},
+			"ru": {
+				"name": "Ash Blast",
+				"description": "Заклинание-проклятье. Выбранный и окружающие противники получают 35...65 ед. урона силой земли. На горящих противников будет наложено проклятье на 5 сек, и они получат 20...75%-й шанс промахнуться при атаках.",
+				"concise": "Заклинание-проклятье. Наносит 35...65 ед. урона силой земли. Горящие противники получают проклятье на 5 сек и 20...75%-й шанс промахнуться при атаках. Также поражает окружающих противников."
+			},
+			"bork": {
+				"name": "Aesh Blaest",
+				"description": "Hex Spell. Taerget und aedjaecent fues aere-a stroock fur 35...65 iaert daemaege-a. Boorneeng fues stroock by Aesh Blaest aere-a hexed fur 5 secunds und haefe-a a 20...75% chunce-a tu meess veet aettaecks.",
+				"concise": "Hex Spell. Deaels 35...65 iaert daemaege-a. Boorneeng fues aere-a hexed fur 5 secunds und meess 20...75% ooff aettaecks. Aelsu streekes aedjaecent."
 			}
 		}
 	}

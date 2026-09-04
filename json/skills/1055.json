@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "危机重重",
+				"description": "精英负面魔法。 在5秒之内，使目标敌人遭受 1...6点 「生命衰减」。如果该目标再次被「负面魔法」击中，则「危机重重」的持续时间被重置。",
+				"concise": "精英负面魔法。 在 5秒，使目标敌人遭受 1...6点 「生命衰减」。如果该目标再次被「负面魔法」击中，则「危机重重」的持续时间被重置。"
+			},
+			"cht": {
+				"name": "危險循環",
+				"description": "精英降咒魔法： 持續5秒，目標敵人遭受體力衰減1...6，若危險循環將終止時該目標有其他降咒存在，則危險循環回復至10秒。",
+				"concise": "精英降咒魔法： 持續5秒，目標敵人遭受體力衰減1...6，若危險循環將終止時該目標有其他降咒存在，則危險循環回復至10秒。"
+			},
 			"de": {
+				"name": "Wiederkehrende Unsicherheit",
+				"description": "Elite-Verhexung. 5 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...6. Hat dieser Gegner eine weitere Verhexung, wenn Wiederkehrende Unsicherheit enden würde, wird sie erneut angewendet.",
+				"concise": "Elite-Verhexung. (5 Sekunde[n].) Verursacht -1...6 Lebenspunktdegeneration. Erneuerung: Falls der Gegner eine andere Verhexung hat, wenn Wiederkehrende Unsicherheit enden würde."
+			},
+			"de-guildwiki": {
 				"name": "Wiederkehrende Unsicherheit",
 				"description": "5 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...6. Wenn dieser Gegner eine weitere Verhexung hat, wenn Wiederkehrende Unsicherheit enden würde, wird es wieder angewendet.",
 				"concise": "5 Sekunden: Verursacht -1...6 Lebenspunkdegeneration. Erneuerung: Falls der Gegner eine andere Verhexung hat, wenn Wiederkehrende Unsicherheit enden würde."
 			},
 			"en": {
 				"name": "Recurring Insecurity",
+				"description": "Elite Hex Spell. For 5 seconds, target foe suffers from -1...6 Health degeneration. If that foe has another hex when Recurring Insecurity would end, it is reapplied.",
+				"concise": "Elite Hex Spell. (5 seconds.) Causes -1...6 Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end."
+			},
+			"en-gww": {
+				"name": "Recurring Insecurity",
 				"description": "For 5 seconds, target foe suffers from -1...6 Health degeneration. If that foe has another hex when Recurring Insecurity would end, it is reapplied.",
 				"concise": "(5 seconds.) Causes -1...6 Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end."
 			},
+			"es": {
+				"name": "Inseguridad constante",
+				"description": "Conjuro con maleficio de élite. Durante 5 segundos, el enemigo objetivo sufre -1...6 de degeneración de salud. Si ese enemigo tiene otro maleficio cuando la Inseguridad constante se hubiese acabado, ésta se vuelve a reactivar.",
+				"concise": "Conjuro con maleficio de élite. (5 segundos). Causa -1...6 de degeneración de salud. Renovación: si el enemigo objetivo recibe otro maleficio antes de que la Inseguridad constante se haya acabado."
+			},
 			"fr": {
+				"name": "Insécurité récurrente",
+				"description": "Maléfice d'élite. Pendant 5 secondes, la cible ennemie subit une dégénération de santé de -1...6. Si cet ennemi est victime d'un autre maléfice lorsqu'Insécurité récurrente prend fin, l'effet est renouvelé.",
+				"concise": "Maléfice d'élite. (5 secondes.) Provoque une dégénération de santé de -1...6. Renouvellement : se renouvelle au lieu de prendre fin si la cible ennemie est frappée d'un autre maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Insécurité récurrente",
 				"description": "Pendant 5 secondes, la cible ennemie souffre d'une dégénération de santé de -1...6. Si cet ennemi est victime d'un autre maléfice lorsque insécurité récurrente prend fin, l'effet est renouvelé.",
 				"concise": "(5 secondes.)Provoque une dégénération de santé de -1...6. Renouvellement: si la cible ennemie souffre d'un autre maléfice lorsqu'insécurité récurrente prend fin."
+			},
+			"it": {
+				"name": "Insicurezza Ricorrente",
+				"description": "Fattura d'Élite. Per 5 secondi l'obiettivo nemico subisce una Degenerazione Salute di -1...6. Se il nemico è sotto gli effetti di un'altra fattura che si prolunga al termine dell'Insicurezza Ricorrente, quest'ultima viene riapplicata.",
+				"concise": "Fattura d'Élite. (Secondi: 5). Degenerazione Salute: -1...6. Rinnovo: se l'obiettivo nemico è sotto gli effetti di un'altra fattura che si prolunga al termine dell'Insicurezza Ricorrente."
+			},
+			"jp": {
+				"name": "リカー インセキュリティ",
+				"description": "エリート弱体化スペル： 5 秒間、ターゲットした敵は体力の自然回復力が 1...6 減少します。この効果が消失するとき、この敵に別の弱体化スペルがかけられている場合、この効果が更新されます。",
+				"concise": "エリート弱体化スペル： (5 秒) 体力の自然回復力が 1...6 減少します。更新： この効果が消失するとき、ターゲットした敵に別の弱体化スペルがかけられている場合。"
+			},
+			"kr": {
+				"name": "잠재된 위험",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 5초 동안 대상의 체력 재생을 1...6만큼 감소시킵니다. 효과가 끝나기 전에 그 적이 다른 약화 마법에 걸리면 효과가 다시 시작됩니다.",
+				"concise": "엘리트 약화 마법. (5초) 대상의 체력 재생을 1...6만큼 감소시킵니다. 갱신 조건: 효과가 끝나기 전에 대상이 다른 약화 마법에 걸림."
+			},
+			"pl": {
+				"name": "Powracająca Niepewność",
+				"description": "Elitarna klątwa (czar). Przez 5 sek., cel otrzymuje -1...6 pkt. degeneracji żywotności. Jeżeli dany cel jest obłożony inną klątwą, gdy Powracająca Niepewność się skończy, zostaje ona nałożona ponownie.",
+				"concise": "Elitarna klątwa (czar). (5 sek.) Odejmuje 1...6 regeneracji żywotności. Odnowienie: jeśli dany cel jest obłożony inną klątwą, gdy Powracająca Niepewność się skończy."
+			},
+			"ru": {
+				"name": "Recurring Insecurity",
+				"description": "Элитное заклинание-проклятье. В течение 5 сек скорость восстановления здоровья выбранного противника уменьшается на 1...6 ед. Если на выбранном противнике будет лежать другое проклятье в момент окончания действия этого умения, Recurring Insecurity будет наложен еще раз.",
+				"concise": "Элитное заклинание-проклятье. (5 сек) Дает -1...6 ед. к скорости восстановления здоровья. Обновление: если на выбранном противнике лежит какое-либо другое проклятье в момент окончания действия Recurring Insecurity."
+			},
+			"bork": {
+				"name": "Recoorreeng Insecooreety",
+				"description": "Ileete-a Hex Spell. Fur 5 secunds, taerget fue-a sooffffers frum -1...6 Heaelt degeneraeshun. Iff thaet fue-a haes unuzeer hex vhee Recoorreeng Insecooreety vuoold ind, it is reaeppleeed.",
+				"concise": "Ileete-a Hex Spell. (5 secunds.) Cooses -1...6 Heaelt degeneraeshun. Renooael: iff taerget fue-a haes unuzeer hex vhee Recoorreeng Insecooreety vuoold ind."
 			}
 		}
 	}

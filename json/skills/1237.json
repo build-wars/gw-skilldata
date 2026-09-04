@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疼痛链接",
+				"description": "负面魔法。 在10...20秒之内，当目标敌人及所有他附近的我方敌人受到「疼痛链接」的负面影响时，任何缚灵的攻击都将对他们造成8...20点伤害。",
+				"concise": "负面魔法。 持续10...20秒，当目标敌人遭到缚灵攻击命中时该目标及其邻近敌人受到 8...20 伤害。"
+			},
+			"cht": {
+				"name": "苦痛連結",
+				"description": "降咒魔法： 持續10...20秒，當目標敵人遭到縛靈攻擊命中時，該目標及其鄰近敵人遭受「降咒」苦痛連結以及受到 8...20 傷害。",
+				"concise": "降咒魔法： 持續10...20秒，當目標敵人遭到縛靈攻擊命中時，該目標及其鄰近敵人遭受「降咒」苦痛連結以及受到 8...20 傷害。"
+			},
 			"de": {
+				"name": "Schmerzhafte Bindung",
+				"description": "Verhexung. 10...20 Sekunde[n] lang werden der Gegner und alle Feinde in der Nähe mit Schmerzhafte Bindung verhext und erleiden jedes Mal, wenn sie von einem Geisterangriff getroffen werden, 8...20 Punkt[e] Schaden.",
+				"concise": "Verhexung. Verhext den Gegner und Feinde in der Nähe (10...20 Sekunde[n]). Geister richten bei den Betroffenen +8...20 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Schmerzhafte Bindung",
 				"description": "10...20 Sekunden lang werden der Gegner und alle Feinde in der Nähe mit Schmerzhafte Bindung verhext und erleiden jedes Mal, wenn sie von einem Geisterangriff getroffen werden, 8...20 Punkte Schaden.",
 				"concise": "Verhext den Gegner und Feinde in der Nähe (10...20 Sekunden). Geister richten bei den Betroffenen +8...20 Schaden an."
 			},
 			"en": {
 				"name": "Painful Bond",
+				"description": "Hex Spell. For 10...20 seconds, target foe and all nearby foes are hexed with Painful Bond and take 8...20 damage whenever hit by a spirit's attack.",
+				"concise": "Hex Spell. Also hexes foes near your target (10...20 seconds). Spirits do 8...20 more damage against these foes."
+			},
+			"en-gww": {
+				"name": "Painful Bond",
 				"description": "For 10...20 seconds, target foe and all nearby foes are hexed with Painful Bond and take 8...20 damage whenever hit by a spirit's attack.",
 				"concise": "Also hexes foes near your target (10...20 seconds). Spirits do 8...20 more damage against these foes."
 			},
+			"es": {
+				"name": "Vínculo doloroso",
+				"description": "Conjuro con maleficio. Durante 10...20 segundos, el enemigo objetivo y los cercanos quedan maldecidos con el Vínculo doloroso y reciben 8...20 de daño siempre que un espíritu les golpee.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos a tu objetivo (10...20 segundos). Los espíritus hacen 8...20 más de daño a esos enemigos."
+			},
 			"fr": {
+				"name": "Lien de douleur",
+				"description": "Maléfice. Pendant 10...20 secondes, l'ennemi visé et tous les ennemis à proximité souffrent du maléfice Lien de douleur et subissent 8...20 points de dégâts lorsqu'ils sont touchés par l'attaque d'un esprit.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis à proximité de votre cible (10...20 secondes). Les esprits infligent 8...20 points de dégâts supplémentaires à ces ennemis."
+			},
+			"fr-gwiki": {
 				"name": "Lien de douleur",
 				"description": "Pendant 10...20 secondes, l'ennemi visé et tous les ennemis à proximité souffrent du maléfice Lien de douleur et subissent 8...20 points de dégâts lorsqu'ils sont touchés par l'attaque d'un esprit.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame Doloroso",
+				"description": "Fattura. Dura 10...20 secondo[i]; l'obiettivo nemico e tutti i nemici nei dintorni subiscono gli effetti della fattura Legame Doloroso e 8...20 danno[i] ogni volta che vengono colpiti da uno Spirito.",
+				"concise": "Fattura. Infligge fattura anche ai nemici vicini all'obiettivo (10...20 secondo[i]). Incremento del danno assestato dagli Spiriti contro questi nemici: 8...20."
+			},
+			"jp": {
+				"name": "ペインフル ボンド",
+				"description": "弱体化スペル： 10...20 秒間、ターゲットした敵および周囲にいる敵は、精霊の攻撃を受けるたびに 8...20 のダメージを受けます。",
+				"concise": "弱体化スペル： (10...20 秒) ターゲットした敵およびその周囲にいる敵に対して精霊の与えるダメージが 8...20 増加します。"
+			},
+			"kr": {
+				"name": "고통스런 계약",
+				"description": "약화 마법. 대상 지정: 적. 10...20초 동안 대상과 그 부근의 모든 적은 고통스런 계약에 약화되어 영혼의 공격에 명중될 때마다 8...20의 대미지를 입습니다.",
+				"concise": "약화 마법. (10...20초) 영혼이 대상과 그 부근의 적들에게 주는 대미지가 8...20만큼 증가합니다."
+			},
+			"pl": {
+				"name": "Bolesne Więzy",
+				"description": "Klątwa (czar). Przez 10...20 sek. wybrany przeciwnik i wszyscy przeciwnicy w pobliżu zostają przeklęci Bolesnymi Więzami i otrzymują 8...20 pkt. obrażeń za każdym razem, kiedy otrzymają uderzenie od ducha.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w pobliżu twojego celu (10...20 sek.). Duchy zadają tym przeciwnikom 8...20 pkt. dodatkowych obrażeń."
+			},
+			"ru": {
+				"name": "Painful Bond",
+				"description": "Заклинание-проклятье. В течение 10...20 сек на выбранного противника и всех противников поблизости наложено проклятье Painful Bond, и они получают 8...20 ед. урона каждый раз, когда их поражает атака духа.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников поблизости от вашей цели (10...20 сек). Духи наносят этим противникам на 8...20 ед. урона больше."
+			},
+			"bork": {
+				"name": "Paeeenffool Bund",
+				"description": "Hex Spell. Fur 10...20 secunds, taerget fue-a und aell neaerby fues aere-a hexed veet Paeeenffool Bund und taeke-a 8...20 daemaege-a vhenefer heet by a spureet's aettaeck.",
+				"concise": "Hex Spell. Aelsu hexes fues neaer yuoor taerget (10...20 secunds). Spureets du 8...20 mure-a daemaege-a aegaeeenst zeese-a fues."
 			}
 		}
 	}

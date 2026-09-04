@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "战士之韧",
+				"description": "精英姿态。 在5...35秒之内，每当你利用近身攻击命中目标时，你将获得3点能量，但是「战士之韧」不能使你的能量总额超过10...25点。",
+				"concise": "精英姿态。 每当你利用近身攻击命中目标时，你获得3点能量，但是当你的能量超过10...25点时，你将无法通过「战士之韧」获取能量，效果持续5...35秒。"
+			},
+			"cht": {
+				"name": "戰士忍耐態勢",
+				"description": "精英態勢： 持續 5...35 秒，每一次你利用近身攻擊命中目標時獲得 3 能量。但是當你的能量超過 10...25 時，戰士忍耐態勢將無法再讓你獲得能量。",
+				"concise": "精英態勢： 持續 5...35 秒，每一次你利用近身攻擊命中目標時獲得 3 能量。但是當你的能量超過 10...25 時，戰士忍耐態勢將無法再讓你獲得能量。"
+			},
 			"de": {
+				"name": "Ausdauer des Kriegers (PvP)",
+				"description": "Elite-Haltung. 5...35 Sekunde[n] lang erhaltet Ihr jedes Mal 3 Energiepunkte, wenn Ihr mit einem Nahangriff einen Treffer erzielt. Ausdauer des Kriegers kann Eure Energiepunkte nicht auf mehr als 10...25 ansteigen lassen.",
+				"concise": "Elite-Haltung. (5...35 Sekunde[n]) Ihr erhaltet jedes Mal 3 Energiepunkte, wenn Ihr mit einem Nahangriff einen Treffer erzielt. Keine Wirkung, es sei denn, Ihr verfügt über mehr als 10...25 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Ausdauer des Kriegers (PvP)",
 				"description": "5...35 Sekunden lang erhaltet Ihr jedes Mal 3 Energiepunkte, wenn Ihr mit einem Nahangriff<sic/> einen Treffer erzielt. Ausdauer des Kriegers kann Eure Energiepunkte nicht auf mehr als 10...25 ansteigen lassen.",
 				"concise": "(5...35 Sekunden) Ihr erhaltet jedes Mal 3 Energiepunkte, wenn Ihr mit einem Nahangriff<sic/> einen Treffer erzielt. <gray>Kein Energieerhalt wenn Ihr mehr als 10...25 Energiepunkte habt.</gray>"
 			},
 			"en": {
 				"name": "Warrior's Endurance (PvP)",
+				"description": "Elite Stance. For 5...35 seconds, you gain 3 Energy each time you hit with a melee attack. Warrior's Endurance cannot raise your Energy above 10...25.",
+				"concise": "Elite Stance. (5...35 seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than 10...25 Energy."
+			},
+			"en-gww": {
+				"name": "Warrior's Endurance (PvP)",
 				"description": "For 5...35 seconds, you gain 3 Energy each time you hit with a melee attack. Warrior's Endurance cannot raise your Energy above 10...25.",
 				"concise": "(5...35 seconds.) You gain 3 Energy each time you hit with a melee attack. <gray>No Energy gain if you have more than 10...25 Energy.</gray>"
 			},
+			"es": {
+				"name": "Fortaleza del Guerrero (PvP)",
+				"description": "Actitud de élite. Durante 5...35 segundos, ganas 3 de energía cada vez que golpees cuerpo a cuerpo. La Fortaleza del Guerrero no puede aumentar tu energía por encima de 10...25.",
+				"concise": "Actitud de élite. (5...35 segundos.) Ganas 3 de energía cada vez que golpees cuerpo a cuerpo. No ganas energía si tienes más de 10...25 de energía."
+			},
 			"fr": {
+				"name": "Endurance du Guerrier (PvP)",
+				"description": "Pose de combat d'élite. Pendant 5...35 secondes, vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. L'Endurance du Guerrier ne peut pas faire grimper votre énergie au-delà de 10...25.",
+				"concise": "Pose de combat d'élite. (5...35 secondes.) Vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. Vous ne gagnez aucun point d'énergie si votre énergie est déjà supérieure à 10...25."
+			},
+			"fr-gwiki": {
 				"name": "Endurance du Guerrier (PvP)",
 				"description": "Pendant 5...35 secondes, vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. L'Endurance du Guerrier ne peut pas faire grimper votre énergie au-delà de 10...25.",
 				"concise": "(5...35 secondes.) Vous gagnez 3 points d'énergie pour chaque attaque au corps à corps réussie. <gray>Vous ne gagnez aucun point d'énergie si votre énergie est déjà supérieur à 10...25.</gray>"
+			},
+			"it": {
+				"name": "Resistenza del Guerriero (PvP)",
+				"description": "Posizione d'Élite. Per 5...35 secondi ottieni 3 Punti Energia ogni volta che sferri un attacco ravvicinato. Con la Resistenza del Guerriero, la tua Energia non può aumentare al di sopra di 10...25.",
+				"concise": "Posizione d'Élite. (Secondi: 5...35). Ottieni 3 Punti Energia ogni volta che sferri un attacco ravvicinato. Se la tua Energia è superiore a 10...25, non ottieni alcun Punto Energia."
+			},
+			"jp": {
+				"name": "ウォーリア インデュランス (PvP)",
+				"description": "エリート スタンス： 5...35 秒間、近接攻撃が成功するたびに3のエネルギーを獲得します。この効果により獲得することができるエネルギーの上限は 10...25 です。",
+				"concise": "エリート スタンス： (5...35 秒) 近接攻撃が成功するたびに3のエネルギーを獲得します。エネルギーが 10...25 より多い場合は無効です。"
+			},
+			"kr": {
+				"name": "전사의 전투 자세",
+				"description": "엘리트 자세. 대상 지정: 없음. 5...35초 동안 근접 물리 공격이 성공할 때마다 3의 에너지를 얻습니다. 전체 에너지 양은 10...25[을를] 초과할 수 없습니다.",
+				"concise": "엘리트 자세. (5...35초) 근접 물리 공격이 성공할 때마다 3의 에너지를 얻습니다. 자신의 에너지가 10...25[을를] 초과하면 효과가 없습니다."
+			},
+			"pl": {
+				"name": "Wytrzymałość Wojownika (PvP)",
+				"description": "Postawa elitarna. Przez 5...35 sek., za każdym razem kiedy trafisz w walce wręcz, otrzymujesz 3 punkty Energii. Wytrzymałość Wojownika nie może zwiększyć twojej energii powyżej 10...25 pkt.",
+				"concise": "Postawa elitarna. (5...35 sek.) Otrzymujesz 3 punkty Energii, za każdym razem, kiedy twój atak wręcz trafi. Nie otrzymujesz energii, jeżeli masz więcej niż 10...25 pkt. energii."
+			},
+			"ru": {
+				"name": "Warrior's Endurance (PvP)",
+				"description": "Элитная стойка. В течение 5...35 сек вы получаете 3 ед. энергии каждый раз, когда вы проводите успешную рукопашную атаку. Warrior's Endurance не может поднять ваш запас энергии выше 10...25 ед.",
+				"concise": "Элитная стойка. (5...35 сек) Вы получаете 3 ед. энергии каждый раз, когда вы проводите успешную рукопашную атаку. Вы не можете получить энергию, если у вас есть более 10...25 ед. энергии."
+			},
+			"bork": {
+				"name": "Vaerreeur's Indoorunce-a (PfP)",
+				"description": "Ileete-a Stunce-a. Fur 5...35 secunds, yuoo gaeeen 3 Inergy iaech teeme-a yuoo heet veet a melee-a aettaeck. Vaerreeur's Indoorunce-a cunnut raeeese-a yuoor Inergy aebufe-a 10...25.",
+				"concise": "Ileete-a Stunce-a. (5...35 secunds.) Yuoo gaeeen 3 Inergy iaech teeme-a yuoo heet veet a melee-a aettaeck. Nu Inergy gaeeen iff yuoo haefe-a mure-a thun 10...25 Inergy."
 			}
 		}
 	}

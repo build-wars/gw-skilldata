@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 6,
 		"adrenaline_precise": 5.6,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "立劈",
+				"description": "剑术。 命中时，对目标敌人造成5...20点额外伤害，如果你正处于某种「姿态」中，则对其额外追加5...20点伤害。",
+				"concise": "剑术。 命中时对目标造成 5...20 额外伤害，如果你正处于「姿态」中，则对目标额外造成 5...20 伤害。"
+			},
+			"cht": {
+				"name": "態勢之斬",
+				"description": "劍術攻擊技能： 命中時對目標造成 5...20 額外傷害，若你正處於「態勢」中，則對目標額外造成 5...20 傷害。",
+				"concise": "劍術攻擊技能： 命中時對目標造成 5...20 額外傷害，若你正處於「態勢」中，則對目標額外造成 5...20 傷害。"
+			},
 			"de": {
+				"name": "Stehender Hieb",
+				"description": "Schwertangriff. Wenn Stehender Hieb erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu sowie zusätzlich 5...20 Punkt[e] Schaden, wenn Ihr eine Haltung einnehmt.",
+				"concise": "Schwertangriff. Richtet +5...20 Punkt[e] Schaden an. Richtet zusätzlich 5...20 Punkt[e] Schaden an, falls Ihr eine Haltung einnehmt."
+			},
+			"de-guildwiki": {
 				"name": "Stehender Hieb",
 				"description": "Wenn Stehender Hieb erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu sowie zusätzlich 5...20 Punkte Schaden, wenn Ihr eine Haltung einnehmt.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Richtet zusätzlich 5...20 Punkte Schaden an, falls Ihr eine Haltung einnehmt."
 			},
 			"en": {
 				"name": "Standing Slash",
+				"description": "Sword Attack. If it hits, Standing Slash deals +5...20 damage plus an additional 5...20 damage if you are in a stance.",
+				"concise": "Sword Attack. Deals +5...20 damage. Deals 5...20 more damage if you are in a stance."
+			},
+			"en-gww": {
+				"name": "Standing Slash",
 				"description": "If it hits, Standing Slash deals +5...20 damage plus an additional 5...20 damage if you are in a stance.",
 				"concise": "Deals +5...20 damage. Deals 5...20 more damage if you are in a stance."
 			},
+			"es": {
+				"name": "Golpe firme",
+				"description": "Ataque con espada. Si consigues dar este golpe, harás +5...20 de daño, además de 5...20 extra si estás manteniendo alguna actitud.",
+				"concise": "Ataque con espada. Hace +5...20 de daño. 5...20 de daño extra si mantienes una actitud."
+			},
 			"fr": {
+				"name": "Entaille permanente",
+				"description": "Attaque à l'épée. Si elle réussit, cette compétence inflige +5...20 points de dégâts et 5...20 points de dégâts supplémentaires si vous êtes en pose de combat.",
+				"concise": "Attaque à l'épée. Inflige +5...20 points de dégâts. Inflige 5...20 points de dégâts supplémentaires si vous êtes en pose."
+			},
+			"fr-gwiki": {
 				"name": "Entaille permanente",
 				"description": "Si elle réussit, cette compétence inflige +5...20 points de dégâts, plus 5...20 points de dégâts supplémentaires si vous êtes en pose de combat.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente in Posizione",
+				"description": "Attacco con Spada. Se va a segno infliggi +5...20 danno[i] e 5...20 danno[i] in più se hai attivato una Posizione.",
+				"concise": "Attacco con Spada. Danni inferti: +5...20. Assesta 5...20 danno[i] in più se ti trovi in posizione."
+			},
+			"jp": {
+				"name": "スタンド スラッシュ",
+				"description": "ソード アタック： 攻撃が成功すると 5...20 の追加ダメージを与え、スタンス使用時はさらに 5...20 のダメージを与えます。",
+				"concise": "ソード アタック： 5...20 の追加ダメージを与えます。スタンスを使用中の場合、さらに 5...20 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "위력적인 자세 베기",
+				"description": "칼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 자신이 자세를 취하고 있다면 그 대상은 5...20의 대미지를 추가로 입습니다.",
+				"concise": "칼 공격. 5...20의 대미지를 추가로 줍니다. 자신이 자세를 취하고 있으면 5...20의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Cięcie w Postawie",
+				"description": "Atak mieczem. Jeśli Cięcie w Postawie trafi, zadaje +5...20 pkt. obrażeń oraz dodatkowo 5...20 pkt. obrażeń, jeśli jesteś pod działaniem jakiejś postawy.",
+				"concise": "Atak mieczem. Zadaje +5...20 pkt. obrażeń. Zadaje 5...20 pkt. dodatkowych obrażeń, jeżeli przyjąłeś postawę."
+			},
+			"ru": {
+				"name": "Standing Slash",
+				"description": "Атака мечом. Если этот удар попадает в цель, вы наносите дополнительно 5...20 ед. урона, а если вы используете стойку, вы наносите дополнительно еще 5...20 ед. урона.",
+				"concise": "Атака мечом. Наносит дополнительно 5...20 ед. урона. Наносит дополнительно еще 5...20 ед. урона, если вы находитесь в стойке."
+			},
+			"bork": {
+				"name": "Stundeeng Slaesh",
+				"description": "Svurd Aettaeck. Iff it heets, Stundeeng Slaesh deaels +5...20 daemaege-a ploos un aeddeeshunael 5...20 daemaege-a iff yuoo aere-a in a stunce-a.",
+				"concise": "Svurd Aettaeck. Deaels +5...20 daemaege-a. Deaels 5...20 mure-a daemaege-a iff yuoo aere-a in a stunce-a."
 			}
 		}
 	}

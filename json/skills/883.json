@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失声",
+				"description": "负面魔法。 在5...20秒之内，使目标敌人以及邻近他的所有敌人不能使用「战吼」或「圣歌」。",
+				"concise": "负面魔法。 在5...20秒之内，使目标敌人以及邻近他的所有敌人不能使用「战吼」或「圣歌」。"
+			},
+			"cht": {
+				"name": "沉靜",
+				"description": "降咒魔法： 持續5...20秒，使目標敵人及附近的的所有敵人無法使用「戰嚎」或「聖歌」。",
+				"concise": "降咒魔法： 持續5...20秒，使目標敵人及附近的的所有敵人無法使用「戰嚎」或「聖歌」。"
+			},
 			"de": {
+				"name": "Stimmminderheit",
+				"description": "Verhexung. 5...20 Sekunde[n] lang können der Gegner und alle Feinde in der Nähe keine Schreie oder Anfeuerungsrufe verwenden.",
+				"concise": "Verhexung. Verhext den Gegner und Feinde in der Nähe (5...20 Sekunde[n]). Die Betroffenen können keine Schreie und Anfeuerungsrufe benutzen."
+			},
+			"de-guildwiki": {
 				"name": "Stimmminderheit",
 				"description": "5...20 Sekunden lang können der Gegner und alle Feinde in der Nähe keine Schreie oder Anfeuerungsrufe verwenden.",
 				"concise": "Verhext den Gegner und Feinde in der Nähe (5...20 Sekunden). Die Betroffenen können keine Schreie und Anfeuerungsrufe benutzen."
 			},
 			"en": {
 				"name": "Vocal Minority",
+				"description": "Hex Spell. For 5...20 seconds, target foe and all nearby foes cannot use shouts or chants.",
+				"concise": "Hex Spell. Also hexes foes near target (5...20 seconds). These foes cannot use shouts or chants."
+			},
+			"en-gww": {
+				"name": "Vocal Minority",
 				"description": "For 5...20 seconds, target foe and all nearby foes cannot use shouts or chants.",
 				"concise": "Also hexes foes near target (5...20 seconds). These foes cannot use shouts or chants."
 			},
+			"es": {
+				"name": "Minoría ruidosa",
+				"description": "Conjuro con maleficio. Durante 5...20 segundos, el enemigo objetivo y todos los enemigos cercanos no podrán usar gritos o cánticos.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (5...20 segundos). Éstos no pueden usar gritos ni cánticos."
+			},
 			"fr": {
+				"name": "Aphonie",
+				"description": "Maléfice. Pendant 5...20 secondes, l'ennemi ciblé et tous les ennemis à proximité ne peuvent pas utiliser de cris ou chants",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis à proximité de la cible (5...20 secondes). Ces ennemis ne peuvent pas utiliser de cris ou de chants."
+			},
+			"fr-gwiki": {
 				"name": "Aphonie",
 				"description": "Pendant 5...20 secondes, l'ennemi ciblé et tous les ennemis à proximité ne peuvent pas utiliser de cris ou chants.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Afonia",
+				"description": "Fattura. Per 5...20 secondo[i], l'obiettivo nemico e tutti i nemici nei dintorni non possono usare le urla o i canti.",
+				"concise": "Fattura. Infligge fattura anche ai nemici vicini all'obiettivo (5...20 secondo[i]). Questi nemici non possono usare urla o canti."
+			},
+			"jp": {
+				"name": "ボーカル マイノリティ",
+				"description": "弱体化スペル： 5...20 秒間、ターゲットした敵とその周囲のすべての敵はシャウトやチャントスキルを使用できません。",
+				"concise": "弱体化スペル： (5...20 秒) ターゲットした敵と周囲にいる敵は、シャウトやチャントを使用することができません。"
+			},
+			"kr": {
+				"name": "고음 불가",
+				"description": "약화 마법. 대상 지정: 적. 5...20초 동안 대상과 그 부근에 있는 모든 적은 고함이나 영창 스킬을 사용할 수 없습니다.",
+				"concise": "약화 마법. (5...20초) 대상과 그 부근의 적들은 고함이나 영창을 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Odebranie Głosu",
+				"description": "Klątwa (czar). Przez 5...20 sek. wybrany przeciwnik i wszyscy przeciwnicy w pobliżu nie mogą używać okrzyków ani pieśni.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w pobliżu celu (5...20 sek.). Ci przeciwnicy nie mogą używać okrzyków ani zaśpiewów."
+			},
+			"ru": {
+				"name": "Vocal Minority",
+				"description": "Заклинание-проклятье. В течение 5...20 сек выбранный противник и все находящиеся рядом с ним противники не могут использовать крики или хоралы.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников поблизости от вашей цели (5...20 сек). Эти противники не могут использовать крики или хоралы."
+			},
+			"bork": {
+				"name": "Fucael Meenureety",
+				"description": "Hex Spell. Fur 5...20 secunds, taerget fue-a und aell neaerby fues cunnut use-a shuoots oor chunts.",
+				"concise": "Hex Spell. Aelsu hexes fues neaer taerget (5...20 secunds). Zeese-a fues cunnut use-a shuoots oor chunts."
 			}
 		}
 	}

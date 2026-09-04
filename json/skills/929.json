@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "影疾",
+				"description": "姿态。 在10...40秒内，你的移动速度提高 15%。当「影疾」结束时，你将返回原地。",
+				"concise": "姿态。 在10...40秒之内，使你的移动速度提高 15%。当「影疾」结束时，你将返回原地。"
+			},
+			"cht": {
+				"name": "暗影迅速",
+				"description": "態勢： 持續 10...40 秒，使你的移動速度增加 15% 。而當暗影迅速結束時，你將回到發動此技能的地點。",
+				"concise": "態勢： 持續 10...40 秒，使你的移動速度增加 15% 。而當暗影迅速結束時，你將回到發動此技能的地點。"
+			},
 			"de": {
+				"name": "Schatten der Eile",
+				"description": "Haltung. 10...40 Sekunde[n] lang bewegt Ihr Euch um 15% schneller als normal. Wenn Schatten der Eile endet, kehrt Ihr per Schattenschritt zu Eurer ursprünglichen Position zurück.",
+				"concise": "Haltung. 10...40 Sekunde[n]: Ihr bewegt Euch um 15% schneller. Wirkung am Ende: Ihr kehrt zur anfänglichen Position zurück."
+			},
+			"de-guildwiki": {
 				"name": "Schatten der Eile",
 				"description": "10...40 Sekunden lang bewegt Ihr Euch um 15% schneller als normal. Wenn Schatten der Eile endet, kehrt Ihr zu der Position zurück, an der Ihr diese Fertigkeit aktiviert habt.",
 				"concise": "10...40 Sekunden: Ihr bewegt Euch um 15% schneller. Wirkung am Ende: Ihr kehrt zur anfänglichen Position zurück."
 			},
 			"en": {
 				"name": "Shadow of Haste",
+				"description": "Stance. For 10...40 seconds you move 15% faster than normal. When Shadow of Haste ends, you Shadow Step to your original location.",
+				"concise": "Stance. (10...40 seconds.) You move 15% faster. End effect: return to your original location."
+			},
+			"en-gww": {
+				"name": "Shadow of Haste",
 				"description": "For 10...40 seconds you move 15% faster than normal. When Shadow of Haste ends, you shadow step to your original location.",
 				"concise": "(10...40 seconds.) You move 15% faster. End effect: return to your original location."
 			},
+			"es": {
+				"name": "Sombra fugaz",
+				"description": "Actitud. Durante 10...40 segundos, te mueves un 15% más rápido de lo normal. Cuando la Sombra fugaz acabe, darás un paso sombrío hasta tu ubicación original.",
+				"concise": "Actitud. (10...40 segundos). Te mueves un 15% más rápido. Efecto final: vuelves a tu ubicación original."
+			},
 			"fr": {
+				"name": "Ombre de hâte",
+				"description": "Pose de combat. Pendant 10...40 secondes, vous vous déplacez 15% plus vite que la normale. Lorsqu'Ombre de hâte prend fin, vous retournez sur votre position d'origine.",
+				"concise": "Pose de combat. (10...40 secondes.) Vous vous déplacez 15% plus vite. Effet final : vous retournez sur votre position d'origine."
+			},
+			"fr-gwiki": {
 				"name": "Ombre de hâte",
 				"description": "Pendant 10...40 secondes, vous vous déplacez 15% plus vite que la normale. Lorsqu'Ombre de hâte prend fin, vous retournez sur votre position d'origine.",
 				"concise": "(10...40 secondes.) Vous vous déplacez 15% plus vite. Effet final : vous retournez sur votre position d'origine."
+			},
+			"it": {
+				"name": "Ombra della Fretta",
+				"description": "Posizione. Per 10...40 secondo[i], la tua velocità aumenta di un 15%. Al termine compi un Passo nell'Ombra che ti riporta nel punto di partenza.",
+				"concise": "Posizione. (Secondi: 10...40) Incremento tua velocità di movimento: 15%. Effetto al termine: torni nel punto di partenza."
+			},
+			"jp": {
+				"name": "ヘイスト シャドウ",
+				"description": "スタンス： 10...40 秒間、移動速度が通常より 15% 増加します。この効果が消失すると、発動時にいた場所へ瞬間移動します。",
+				"concise": "スタンス： (10...40 秒) 移動速度が 15% 増加します。終了効果： 元いた場所へ戻ります。"
+			},
+			"kr": {
+				"name": "유령의 재빠름",
+				"description": "자세. 대상 지정: 없음. 10...40초 동안 이동 속도가 15% 빨라집니다. 효과가 끝나면 스킬을 사용했던 위치로 돌아옵니다.",
+				"concise": "자세. (10...40초) 이동 속도가 15% 빨라집니다. 종료 효과: 스킬을 사용한 위치로 돌아옵니다."
+			},
+			"pl": {
+				"name": "Cień Pośpiechu",
+				"description": "Postawa. Przez 10...40 sek. poruszasz się o 15% szybciej. Gdy Cień Pośpiechu przestanie działać, wykonujesz krok cienia do miejsca, gdzie umiejętność została użyta.",
+				"concise": "Postawa. (10...40 sek.) Poruszasz się o 15% szybciej. Efekt końcowy: wracasz do swojego początkowego miejsca."
+			},
+			"ru": {
+				"name": "Shadow of Haste",
+				"description": "Стойка. В течение 10...40 сек вы двигаетесь на 15% быстрее, чем обычно. Когда Shadow of Haste заканчивает свое действие, вы делаете призрачный шаг на то место, где вы применили это умение.",
+				"concise": "Стойка. (10...40 сек) Вы двигаетесь на 15% быстрее. Эффект окончания: вы возвращаетесь в первоначальное местоположение."
+			},
+			"bork": {
+				"name": "Shaedoo ooff Haeste-a",
+				"description": "Stunce-a. Fur 10...40 secunds yuoo mufe-a 15% faester thun nurmael. Vhee Shaedoo ooff Haeste-a inds, yuoo Shaedoo Step tu yuoor ooreegeenael lucaeshun.",
+				"concise": "Stunce-a. (10...40 secunds.) Yuoo mufe-a 15% faester. Ind iffffect: retoorn tu yuoor ooreegeenael lucaeshun."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "逃生",
+				"description": "咒文。 使用「影步」接近目标盟友。如果你的生命值比他低，你将获得40...130点生命值。",
+				"concise": "咒文。 使用「影步」接近目标盟友。如果你的生命值比他低，你将获得40...130点生命值。"
+			},
+			"cht": {
+				"name": "致命撤退",
+				"description": "咒文魔法： 利用暗影步伐傳送至目標盟友處，若你的體力低於該盟友，則你獲得 40...130 體力。",
+				"concise": "咒文魔法： 利用暗影步伐傳送至目標盟友處，若你的體力低於該盟友，則你獲得 40...130 體力。"
+			},
 			"de": {
+				"name": "Rückzug des Todes",
+				"description": "Zauber. Schattenschritt zum Verbündeten. Wenn Ihr weniger Lebenspunkte als dieser Verbündete habt, erhaltet Ihr 40...130 Lebenspunkt[e].",
+				"concise": "Zauber. Ihr erhaltet 40...130 Lebenspunkt[e], falls Ihr weniger Lebenspunkte habt als der Verbündete. Anfangswirkung: Unternehmt einen Schattenschritt zum Verbündeten. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Rückzug des Todes",
 				"description": "Schattenschritt zum Verbündeten. Wenn Ihr weniger Lebenspunkte als dieser Verbündete habt, heilt Ihr Euch um 40...130 Lebenspunkte.",
 				"concise": "Ihr heilt Euch um 40...130 Lebenspunkte, falls Ihr weniger Lebenspunkte habt als der Verbündete. Anfangswirkung: Unternehmt einen Schattenschritt zum Verbündeten."
 			},
 			"en": {
 				"name": "Death's Retreat",
+				"description": "Spell. Shadow Step to target ally. If you have less Health than that ally, you gain 40...130 Health.",
+				"concise": "Spell. Gain 40...130 Health if you have less Health than target ally. Initial effect: Shadow Step to this ally. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Death's Retreat",
 				"description": "Shadow Step to target ally. If you have less Health than that ally, you gain 40...130 Health.",
 				"concise": "Gain 40...130 Health if you have less Health than target ally. Initial effect: Shadow Step to this ally. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Retirada mortal",
+				"description": "Conjuro. Das un paso sombrío hasta el aliado objetivo. Si tienes menos salud que él, ganas 40...130 de salud.",
+				"concise": "Conjuro. Ganas 40...130 de salud si tienes menos que el aliado objetivo. Efecto inicial: das un paso sombrío hasta ese aliado. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Retraite de la mort",
+				"description": "Sort. Vous faites une Foulée de l'ombre jusqu'à la cible alliée. Si vous possédez moins de santé que cet allié, vous bénéficiez de 40...130 points de vie.",
+				"concise": "Sort. Vous gagnez 40...130 points de vie si vous avez moins de santé que l'allié visé. Effet initial : vous faites une foulée de l'ombre vers cet allié. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Retraite de la mort",
 				"description": "Vous faites une Foulée de l'ombre jusqu'à la cible alliée. Si vous possédez moins de santé que cet allié, vous bénéficiez de 40...130 points de vie.",
 				"concise": "Vous gagnez 40...130 points de vie si vous avez moins de santé que l'allié visé. Effet initial : vous faites une foulée de l'ombre vers cet allié. <gray>Vous ne pouvez pas vous prendre pour cible.</gray>"
+			},
+			"it": {
+				"name": "Ritirata della Morte",
+				"description": "Magia. Compi un Passo nell'Ombra verso l'obiettivo alleato e se hai meno Salute di lui, ti curi di 40...130 Punto[i] Salute.",
+				"concise": "Magia. Salute: 40...130 se ne hai meno dell'obiettivo alleato. Effetto iniziale: compi un Passo nell'Ombra verso questo alleato. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "デス リトリート",
+				"description": "スペル： ターゲットした味方まで瞬間移動し、プレイヤーの体力がその味方よりも少なかった場合、体力が 40...130 増加します。",
+				"concise": "スペル： ターゲットした味方より体力が少ない場合、体力を 40...130 獲得します。発動効果： ターゲットのそばに瞬間移動します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "필사의 퇴각",
+				"description": "마법. 대상 지정: 아군. 대상이 있는 위치로 순간 이동합니다. 대상보다 체력이 적으면 40...130의 체력을 얻습니다.",
+				"concise": "마법. 대상 아군보다 체력이 적으면 40...130의 체력을 얻습니다. 초기 효과: 대상이 있는 위치로 순간 이동합니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Ucieczka Śmierci",
+				"description": "Czar. Wykonaj krok cienia do wybranego sojusznika. Jeżeli masz mniej pkt. żywotności niż on, to otrzymujesz 40...130 pkt. żywotności.",
+				"concise": "Czar. Otrzymujesz 40...130 pkt. żywotności, jeżeli posiadasz mniej żywotności niż wybrany sojusznik. Efekt początkowy: wykonujesz krok cienia do tego sojusznika. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Death's Retreat",
+				"description": "Заклинание. Вы делаете призрачный шаг к выбранному союзнику. Если у вас меньше здоровья, чем у этого союзника, вы получаете на 40...130 ед. здоровья.",
+				"concise": "Заклинание. Вы получаете 40...130 ед. здоровья, если у вас меньше здоровья, чем у выбранного союзника. Начальный эффект: вы делаете призрачный шаг к этому союзнику. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Deaet's Retreaet",
+				"description": "Spell. Shaedoo Step tu taerget aelly. Iff yuoo haefe-a less Heaelt thun thaet aelly, yuoo gaeeen 40...130 Heaelt.",
+				"concise": "Spell. Gaeeen 40...130 Heaelt iff yuoo haefe-a less Heaelt thun taerget aelly. Ineeteeael iffffect: Shaedoo Step tu thees aelly. Cunnut selff-taerget."
 			}
 		}
 	}

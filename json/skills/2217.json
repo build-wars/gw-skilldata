@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"By Ural's Hammer!\"",
+				"description": "战吼。 For each ally within earshot who is under 25...33% Health, you have 30 seconds of +2 Health regeneration and do 0% more damage.",
+				"concise": "战吼。 For each ally in earshot under 25...33% Health, you have 30 seconds of +2 Health regeneration and do +0% damage."
+			},
+			"cht": {
+				"name": "\"以由羅之鎚的力量！\"",
+				"description": "戰嚎： 持續30秒，你的體力再生增加2並造成0%額外傷害。若音量所及範圍內有體力低於25...33%的盟友，每位使持續時間增加30秒。",
+				"concise": "戰嚎： 持續30秒，你的體力再生增加2並造成0%額外傷害。若音量所及範圍內有體力低於25...33%的盟友，每位使持續時間增加30秒。"
+			},
 			"de": {
+				"name": "\"Bei Urals Hammer!\"",
+				"description": "Schrei. 30 Sekunde[n] lang werden alle Gruppenmitglieder in Hörweite mit vollen Lebens- und Energiepunkten wiederbelebt. Wiederbelebte Gruppenmitglieder fügen zusätzlich 25...33% Schaden zu. Wenn dieser Effekt endet, sterben alle betroffenen Gruppenmitglieder. Diese Fertigkeit verursacht keinen Sterbemalus.",
+				"concise": "Schrei. (30 Sekunde[n].) Alle toten Gruppenmitglieder in Hörweite werden mit vollen Lebens- und Energiepunkten wiederbelebt. Betroffene Gruppenmitglieder fügen zusätzlich 25...33% Schaden zu. Betroffene Gruppenmitglieder sterben am Ende der Wirkung, erhalten jedoch keinen Sterbemalus."
+			},
+			"de-guildwiki": {
 				"name": "\"Bei Urals Hammer!\"",
 				"description": "30 Sekunden lang werden alle Gruppenmitglieder in Hörweite mit vollen Lebens- und Energiepunkten wiederbelebt. Wiederbelebte Gruppenmitglieder fügen zusätzlich 25...33% Schaden zu. Wenn dieser Effekt endet, sterben alle betroffenen Gruppenmitglieder. Diese Fertigkeit verursacht keinen Sterbemalus.",
 				"concise": "(30 Sekunden.) Alle toten Gruppenmitglieder in Hörweite werden mit vollen Lebens- und Energiepunkten wiederbelebt. Betroffene Gruppenmitglieder fügen zusätzlich 25...33% Schaden zu. Betroffene Gruppenmitglieder sterben am Ende der Wirkung, erhalten jedoch keinen Sterbemalus."
 			},
 			"en": {
 				"name": "\"By Ural's Hammer!\"",
+				"description": "Shout. For 30 seconds, all dead party members in earshot are resurrected with full Health and Energy. Resurrected party members deal 25...33% more damage. When this effect ends, affected party members die. This skill does not incur a death penalty.",
+				"concise": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal 25...33% more damage. Affected party members die when it ends, but do not receive a death penalty."
+			},
+			"en-gww": {
+				"name": "\"By Ural's Hammer!\"",
 				"description": "For 30 seconds, all dead party members in earshot are resurrected with full Health and Energy. Resurrected party members deal 25...33% more damage. When this effect ends, affected party members die. This skill does not incur a death penalty.",
 				"concise": "(30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal 25...33% more damage. Affected party members die when it ends, but do not receive a death penalty."
 			},
+			"es": {
+				"name": "\"¡Por el martillo de Ural!\"",
+				"description": "Grito. Durante 30 segundos, todos los miembros del grupo muertos que estén al alcance del oído resucitan con toda la salud y toda la energía. Los miembros del grupo resucitados hacen 25...33% de daño adicional. Cuando este efecto termina, los miembros del grupo afectados mueren. Esta habilidad no causa penalización por resucitar.",
+				"concise": "Grito. (30 segundos). Resucita a todos los miembros del grupo muertos al alcance del oído con toda la salud y toda la energía. Los miembros del grupo afectados hacen 25...33% de daño adicional. Los miembros del grupo afectados mueren cuando termina el efecto, pero no reciben penalización por resucitar."
+			},
 			"fr": {
+				"name": "\"Par le marteau d'Ural !\"",
+				"description": "Cri. Pendant 30 secondes, tous les morts de votre groupe à portée de voix sont ressuscités avec l'intégralité de leurs points de vie et d'énergie. Les membres du groupe ressuscités infligent 25...33% plus de dégâts. Une fois cet effet dissipé, les membres du groupe affectés meurent. Cette compétence n'engendre pas de handicap.",
+				"concise": "Cri. (30 secondes.) Ressuscite tous les morts du groupe à portée de voix avec l'intégralité de leurs points de vie et d'énergie. Les membres du groupe affectés infligent 25...33% plus de dégâts. Les membres du groupe affectés meurent une fois l'effet dissipé, mais ne reçoivent pas de handicap."
+			},
+			"fr-gwiki": {
 				"name": "\"Par le marteau d'Ural !\"",
 				"description": "Vous bénéficiez d'une régénération de santé de +2 et infligez 25% de dégâts en plus pendant 7...10 secondes et pendant 7...10 secondes supplémentaires pour chaque alliés à portée de voix possédant moins de 50% de santé.",
 				"concise": "(7...10 secondes.) Vous bénéficiez d'une régénération de santé de +2 et infligez +25% de dégâts en plus. Dure 7...10 secondes de plus pour chaque allié à portée de voix possédant moins de 50% de santé."
+			},
+			"it": {
+				"name": "\"Per il Martello di Ural!\"",
+				"description": "Urlo. Per 30 secondi tutti i membri della squadra morti a portata d'orecchio vengono resuscitati con Salute ed Energia massima. I membri della squadra resuscitati provocano un 25...33% in più di danno. Al termine dell'effetto, i membri della squadra colpiti muoiono. Questa abilità non provoca Debilitazione.",
+				"concise": "Urlo. (Secondi: 30). Resusciti tutti i membri della squadra morti a portata d'orecchio con Salute ed Energia massima. I membri della squadra resuscitati provocano un 25...33% in più di danno. I membri della squadra resuscitati muoiono al termine, ma non ricevono Debilitazione."
+			},
+			"jp": {
+				"name": "バイ ウラル ハンマー！",
+				"description": "シャウト： 30 秒間、声の届く範囲内にいる戦闘不能なパーティー メンバーは、体力とエネルギーが完全な状態で復活します。復活したパーティー メンバーは、攻撃により与えるダメージが 25...33% 増加します。この効果が消失するとき、復活したパーティー メンバーは戦闘不能になります。その場合、デスペナルティーには影響しません。",
+				"concise": "シャウト： (30 秒) 声の届く範囲内にいる戦闘不能なパーティー メンバーは、体力とエネルギーが完全な状態で復活します。復活したパーティー メンバーは、攻撃により与えるダメージが 25...33% 増加します。この効果が消失するとき、復活したパーティー メンバーは戦闘不能になりますが、デスペナルティーを受けません。"
+			},
+			"kr": {
+				"name": "우랄의 해머와 함께!",
+				"description": "고함. 30초 동안 가청 범위 내에 있는 전사한 파티원 전원이 최대 체력과 최대 에너지를 가진 채로 부활하고, 부활한 파티원이 주는 대미지가 25...33% 증가합니다. 효과가 끝나면 부활했던 파티원이 다시 죽습니다. 전사페널티는 발생하지 않습니다.",
+				"concise": "고함. (30초) 가청 범위 내에 있는 전사한 파티원들을 최대 체력과 최대 에너지를 가진 채 부활시키고, 이 부활자들의 공격 대미지가 25...33% 증가합니다. 효과가 끝나면 부활자들이 다시 죽지만 전사페널티는 없습니다."
+			},
+			"pl": {
+				"name": "\"Na Młot Urala!\"",
+				"description": "Okrzyk. Przez 30 sek., wszyscy martwi członkowie drużyny w zasięgu słuchu zostają wskrzeszeni z pełną żywotnością i energią. Wskrzeszeni członkowie drużyny zadają 25...33% więcej obrażeń. Kiedy ten efekt dobiegnie końca, członkowie drużyny będący pod jego wpływem umierają. Umiejętność ta nie powoduje kary za śmierć.",
+				"concise": "Okrzyk. (30 sek.) Wskrzesza wszystkich martwych członków drużyny w zasięgu słuchu z pełną żywotnością i energią. Wskrzeszeni członkowie drużyny zadają 25...33% więcej obrażeń. Członkowie drużyny umierają, kiedy skończy się działanie tego efektu, ale nie otrzymują kary za śmierć."
+			},
+			"ru": {
+				"name": "\"By Ural's Hammer!\"",
+				"description": "Крик. В течение 30 сек все мертвые члены отряда в зоне слышимости будут воскрешены с полным запасом здоровья и энергии. Воскрешенные члены отряда наносят на 25...33% больше урона. Когда действие этого умения заканчивается, эти члены отряда умирают. Это умение не вызывает штраф за смерть.",
+				"concise": "Крик. (30 сек) Воскрешает всех мертвых членов отряда в зоне слышимости с полным запасом здоровья и энергии. Воскрешенные члены отряда наносят на 25...33% больше урона. Воскрешенные члены отряда умирают, когда заканчивается действие этого умения, но не получают при этом штраф за смерть."
+			},
+			"bork": {
+				"name": "\"By Urael's Haemmer!\"",
+				"description": "Shuoot. Fur 30 secunds, aell deaed paerty members in iaershut aere-a resoorrected veet fooll Heaelt und Inergy. Resoorrected paerty members deael 25...33% mure-a daemaege-a. Vhee thees iffffect inds, aeffffected paerty members deee-a. Thees skeell dues nut incoor a deaet penaelty.",
+				"concise": "Shuoot. (30 secunds.) Resoorrect aell deaed paerty members in iaershut veet fooll Heaelt und Inergy. Aeffffected paerty members deael 25...33% mure-a daemaege-a. Aeffffected paerty members deee-a vhee it inds, boot du nut receeefe-a a deaet penaelty."
 			}
 		}
 	}

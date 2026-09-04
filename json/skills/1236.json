@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "束缚之链",
+				"description": "负面魔法。 持续 3 秒，使目标敌人的移动速度降低 90% 而且无法攻击。如果该敌人受到伤害，则束缚之链的效果终止。",
+				"concise": "负面魔法。 持续 3 秒，使目标敌人的移动速度降低 90% 而且无法攻击。如果该敌人受到伤害，则束缚之链的效果终止。"
+			},
+			"cht": {
+				"name": "束縛鎖鍊",
+				"description": "降咒魔法： 持續 3 秒，目標及其附近敵人移動速度減慢 90% 且移動時每秒受到1...30 傷害。",
+				"concise": "降咒魔法： 持續 3 秒，目標及其附近敵人移動速度減慢 90% 且移動時每秒受到1...30 傷害。"
+			},
 			"de": {
+				"name": "Fesselnde Ketten",
+				"description": "Verhexung. Während der nächsten 3 Sekunde[n] bewegen sich der Gegner und alle umstehenden Feinde um 90% langsamer und erleiden 1...30 Punkt[e] Schaden pro Sekunde, solange sie in Bewegung sind.",
+				"concise": "Verhexung. Verhext außerdem den Gegner umstehende Feinde (3 Sekunde[n]). Diese Gegner bewegen sich um 90% langsamer und erleiden jede Sekunde 1...30 Punkt[e] Schaden, solange sie in Bewegung sind."
+			},
+			"de-guildwiki": {
 				"name": "Fesselnde Ketten",
 				"description": "Während der nächsten 3 Sekunden bewegen sich der Gegner und alle Feinde in der Nähe um 90% langsamer und erleiden 1...30 Punkte Schaden pro Sekunde, solange sie in Bewegung sind.",
 				"concise": "(3 Sekunden.) Der Gegner und alle umstehenden Feinde bewegen sich um 90% langsamer und erleiden 1...30 Punkte Schaden pro Sekunde, solange sie in Bewegung sind."
 			},
 			"en": {
 				"name": "Binding Chains",
+				"description": "Hex Spell. For 3 seconds, target foe and all nearby foes move 90% slower and take 1...30 damage each second while moving.",
+				"concise": "Hex Spell. Also hexes foes near your target (3 seconds). These foes move 90% slower and take 1...30 damage each second while moving."
+			},
+			"en-gww": {
+				"name": "Binding Chains",
 				"description": "For 3 seconds, target foe and all nearby foes move 90% slower and take 1...30 damage each second while moving.",
 				"concise": "Also hexes foes near your target. (3 seconds.) These foes move 90% slower and takes 1...30 damage each second while moving."
 			},
+			"es": {
+				"name": "Cadenas encadenadas",
+				"description": "Conjuro con maleficio. Durante 3 segundos, el enemigo objetivo y los cercanos se mueven un 90% más despacio y reciben 1...30 de daño por segundo mientras se muevan.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (3 segundos). Estos enemigos se mueven un 90% más lento y reciben 1...30 de daño por segundo mientras se muevan."
+			},
 			"fr": {
+				"name": "Chaînes d'asservissement",
+				"description": "Maléfice. Pendant 3 secondes, l'ennemi visé et tous les ennemis à proximité se déplacent 90 % moins vite et subissent 1...30 points de dégâts par seconde en se déplaçant.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis proches de votre cible (3 secondes). Ces ennemis se déplacent 90% moins vite et subissent 1...30 points de dégâts par seconde en se déplaçant."
+			},
+			"fr-gwiki": {
 				"name": "Chaînes d'asservissement",
 				"description": "Pendant 3 secondes, l'ennemi visé et tous ceux qui sont proches de lui se déplacent 90% plus lentement et subissent 1...30 point(s) de dégâts par seconde en se déplaçant.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Catene Vincolanti",
+				"description": "Fattura. Per 3 secondo[i] la velocità dell'obiettivo nemico e dei nemici nei dintorni diminuisce di un 90% e i nemici subiscono 1...30 danno[i] al secondo se in movimento.",
+				"concise": "Fattura. Colpisce con una fattura i nemici adiacenti all'obiettivo (3 secondo[i]). I nemici rallentano di un 90% e subiscono 1...30 danno[i] al secondo mentre ti muovi."
+			},
+			"jp": {
+				"name": "バインド チェーン",
+				"description": "弱体化スペル： 3 秒間、ターゲットした敵および周囲にいるすべての敵は移動速度が 90% 減少し、移動中は毎秒 1...30 のダメージを受けます。",
+				"concise": "弱体化スペル： (3 秒) ターゲットした敵およびその周囲にいる敵は移動速度が 90% 減少し、移動中は毎秒 1...30 のダメージを受けます。"
+			},
+			"kr": {
+				"name": "사슬 구속",
+				"description": "약화 마법. 대상 지정: 적. 3초 동안 대상과 그 부근의 모든 적의 이동 속도가 90% 느려지고, 이동 중에 매초 1...30의 대미지를 입습니다.",
+				"concise": "약화 마법. (3초) 대상과 그 부근의 적들은 이동 속도가 90% 느려지고, 이동 중에 매초 1...30의 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Unieruchamiające Łańcuchy",
+				"description": "Klątwa (czar). Przez 3 sek., wybrany przeciwnik i wszyscy wrogowie w pobliżu poruszają się 90% wolniej, a podczas ruchu otrzymują co sekundę 1...30 pkt. obrażeń.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w pobliżu twojego celu (3 sek.). Przeciwnicy ci poruszają się o 90% wolniej , a podczas ruchu otrzymują co sekundę 1...30 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Binding Chains",
+				"description": "Заклинание-проклятье. В течение 3 сек выбранный противник и все противники поблизости двигаются на 90% медленнее и получают 1...30 ед. урона каждую секунду, пока они двигаются.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников поблизости от цели (3 сек). Эти противники двигаются на 90% медленнее и получают 1...30 ед. урона каждую секунду, пока они двигаются."
+			},
+			"bork": {
+				"name": "Beendeeng Chaeeens",
+				"description": "Hex Spell. Fur 3 secunds, taerget fue-a und aell neaerby fues mufe-a 90% slooer und taeke-a 1...30 daemaege-a iaech secund vheele-a mufeeng.",
+				"concise": "Hex Spell. Aelsu hexes fues neaer yuoor taerget (3 secunds). Zeese-a fues mufe-a 90% slooer und taeke-a 1...30 daemaege-a iaech secund vheele-a mufeeng."
 			}
 		}
 	}

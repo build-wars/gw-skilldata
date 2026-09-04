@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "野性突袭",
+				"description": "宠物攻击。 你的宠物发动野性突袭对目标造成 5...20 额外伤害。如果攻击命中正在施法的目标，则该目标被击倒。",
+				"concise": "宠物攻击。 你的宠物发动野性突袭对目标造成 5...20 额外伤害。如果攻击命中正在施法的目标，则该目标被击倒。"
+			},
+			"cht": {
+				"name": "野性突襲",
+				"description": "寵物攻擊： 你的寵物發動野性突襲對目標造成 5...20 額外傷害。若攻擊命中正在施展「魔法」的目標，則該目標被擊倒。",
+				"concise": "寵物攻擊： 你的寵物發動野性突襲對目標造成 5...20 額外傷害。若攻擊命中正在施展「魔法」的目標，則該目標被擊倒。"
+			},
 			"de": {
+				"name": "Wilder Sprung",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte führt einen Wilden Sprung aus, der +5...20 Punkt[e] Schaden zufügt. Trifft dieser Angriff einen Gegner, der einen Zauber wirkt, wird er zu Boden geworfen.",
+				"concise": "Tiergefährtenangriff. Richtet +5...20 Punkt[e] Schaden an. Wirft zu Boden, falls der Gegner einen Zauber wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Sprung",
 				"description": "Euer Tiergefährte führt einen Wilden Sprung aus, der +5...20 Punkte Schaden zufügt. Trifft dieser Angriff einen Gegner, der einen Zauber wirkt, wird er zu Boden geworfen.",
 				"concise": "Richtet ++5...20 Punkte Schaden an. Wirft zu Boden, falls der Gegner einen Zauber wirkt."
 			},
 			"en": {
 				"name": "Savage Pounce",
+				"description": "Pet Attack. Your animal companion attempts a Savage Pounce that deals +5...20 damage. If the attack strikes a foe who is casting a spell, that foe is knocked down.",
+				"concise": "Pet Attack. Deals +5...20 damage. Causes knock-down if target foe is casting a spell."
+			},
+			"en-gww": {
+				"name": "Savage Pounce",
 				"description": "Your animal companion attempts a Savage Pounce that deals +5...20 damage. If the attack strikes a foe who is casting a spell, that foe is knocked down.",
 				"concise": "Deals +5...20 damage. Causes knock-down if target foe is casting a spell."
 			},
+			"es": {
+				"name": "Salto salvaje",
+				"description": "Ataque con mascota. El siguiente ataque de tu mascota será el Salto salvaje, que causa +5...20 de daño. Si consigue golpear a un enemigo preparando un conjuro, es derribado.",
+				"concise": "Ataque con mascota. Hace +5...20 de daño. Causa derribo si el enemigo objetivo está lanzando un conjuro."
+			},
 			"fr": {
+				"name": "Attaque sauvage",
+				"description": "Attaque de familier. Votre familier tente une Attaque sauvage qui infligera +5...20 points de dégâts. Si l'attaque touche un ennemi qui lance un sort, celui-ci sera assommé.",
+				"concise": "Attaque de familier. Inflige +5...20 points de dégâts. Attaque assommante si la cible ennemie lance un sort."
+			},
+			"fr-gwiki": {
 				"name": "Attaque sauvage",
 				"description": "Votre familier tente une Attaque sauvage qui infligera +5...20 points de dégâts. Si l'attaque touche un ennemi qui lance un sort, celui-ci sera assommé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Balzo Selvaggio",
+				"description": "Attacco con Mascotte. La tua mascotte si cimenta in un Balzo Selvaggio che infligge +5...20 danno[i]; se colpisce un nemico che sta compiendo una magia, lo abbatte.",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...20. Provoca abbattimento se l'obiettivo nemico sta lanciando una magia."
+			},
+			"jp": {
+				"name": "サベージ パウンス",
+				"description": "ペット アタック： プレイヤーのペットが敵に 5...20 の追加ダメージを与える攻撃を開始します。スペルを詠唱中の敵に攻撃が成功すると、その敵は転倒します。",
+				"concise": "ペット アタック： 5...20 の追加ダメージを与えます。ターゲットした敵がスペル詠唱中の場合、転倒します。"
+			},
+			"kr": {
+				"name": "잔인한 급습",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 잔인한 급습을 사용하여 5...20의 대미지를 추가로 줍니다. 마법을 외우던 적에게 공격이 성공하면 적은 바닥에 넘어집니다.",
+				"concise": "펫 공격. 펫의 공격이 5...20의 대미지를 추가로 줍니다. 적이 마법 시전 중이면 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Wściekły Skok",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Wściekły Skok, który zadaje +5...20 pkt. obrażeń. Jeśli atak trafi przeciwnika rzucającego czar, to ten przeciwnik zostaje powalony.",
+				"concise": "Atak zwierzaka. Zadaje +5...20 pkt. obrażeń. Powoduje powalenie, jeżeli wybrany przeciwnik rzuca czar."
+			},
+			"ru": {
+				"name": "Savage Pounce",
+				"description": "Атака питомца. Сопровождающее вас животное пытается провести удар, который наносит дополнительно 5...20 ед. урона. Если этот удар попадает по противнику, который произносит заклинание, противник будет сбит с ног.",
+				"concise": "Атака питомца. Наносит дополнительно 5...20 ед. урона. Сбивает с ног, если выбранный противник произносит заклинание."
+			},
+			"bork": {
+				"name": "Saefaege-a Puoonce-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Saefaege-a Puoonce-a thaet deaels +5...20 daemaege-a. Iff zee aettaeck streekes a fue-a vhu is caesteeng a spell, thaet fue-a is knucked doon.",
+				"concise": "Pet Aettaeck. Deaels +5...20 daemaege-a. Cooses knuck-doon iff taerget fue-a is caesteeng a spell."
 			}
 		}
 	}

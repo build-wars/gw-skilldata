@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "污泥沼泽",
+				"description": "自然仪式。 创造一只等级为1...10的泥沼精灵。使区域内所有「非灵体」类生物的移动速度降低 10%，任何提高移动速度的技能失去作用。泥沼精灵在30...180秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的泥沼精灵。使区域内所有「非灵体」类生物的移动速度降低 10%，任何提高移动速度的技能失去作用。泥沼精灵在30...180秒后消失。"
+			},
+			"cht": {
+				"name": "泥沼",
+				"description": "自然儀式： 創造一隻等級 1...10 的泥沼精靈。使區域內所有生物的移動速度降低 10% 而且任何提升移動速度的技能失效。泥沼精靈在 30...180 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的泥沼精靈。使區域內所有生物的移動速度降低 10% 而且任何提升移動速度的技能失效。泥沼精靈在 30...180 秒後消失。"
+			},
 			"de": {
+				"name": "Schlammiges Terrain",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Kreaturen in seiner Reichweite, die keine Geister sind, bewegen sich um 10% langsamer und Geschwindigkeitsschübe bleiben wirkungslos. Dieser Geist stirbt nach 30...180 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (30...180 Sekunde[n] Lebensdauer). Kreaturen in Reichweite bewegen sich um 10% langsamer; Geschwindigkeitsschübe bleiben wirkungslos. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Schlammiges Terrain",
 				"description": "Erstellt einen Geist der Stufe 1...10. Kreaturen in seiner Reichweite, die keine Geister sind, bewegen sich um 10% langsamer und Geschwindigkeitsschübe bleiben wirkungslos. Dieser Geist stirbt nach 30...180 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...180 Sekunden Lebensdauer). Kreaturen in Reichweite bewegen sich um 10% langsamer; Geschwindigkeitsschübe bleiben wirkungslos. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Muddy Terrain",
+				"description": "Nature Ritual. Create a level 1...10 spirit. Non-spirit creatures within its range move 10% slower and speed boosts have no effect. This spirit dies after 30...180 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (30...180 second lifespan). Creatures in range have 10% slower movement; also negates speed boosts. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Muddy Terrain",
 				"description": "Create a level 1...10 spirit. Non-spirit creatures within its range move 10% slower and speed boosts have no effect. This spirit dies after 30...180 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...180 second lifespan). Creatures in range have 10% slower movement: also negates speed boosts. <gray>Does not affect spirits.</gray>"
 			},
+			"es": {
+				"name": "Terreno fangoso",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Las criaturas no espíritus que estén en su zona se moverán un 10% más despacio y los aumentos de velocidad no funcionarán. Morirá a los 30...180 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (30...180 segundos de vida). Las criaturas dentro de la zona se mueven un 10% más lento; también impide los aumentos de velocidad. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Terrain boueux",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Toutes les créatures dans sa portée autres que des esprits se déplacent 10% moins vite et les augmentations de vitesse n'ont pas d'effet. Cet esprit disparaît au bout de 30...180 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 30...180 secondes). Les créatures à portée se déplacent 10% moins vite ; annule également les augmentations de vitesse. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Terrain boueux",
 				"description": "Crée un esprit de niveau 1...10. Toutes les créatures dans sa portée autres que des esprits se déplacent 10% moins vite et les augmentations de vitesse n'ont pas d'effet. Cet esprit disparaît au bout de 30...180 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Terreno Fangoso",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. La velocità di tutte le creature nella sua portata (Spiriti esclusi), diminuisce del 10% e gli incrementi di velocità non hanno effetto. Lo Spirito si esaurisce dopo 30...180 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 30...180 secondo[i]). Rallentamento movimenti delle creature nella portata: 10%; impedisce anche gli incrementi di velocità. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "マディー テライン",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物は移動速度が10%減少し、移動速度向上のスキルは無効になります。この精霊は 30...180 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...180 秒)。この精霊の効果範囲内では移動速度が10%減少し、速度向上のスキルも無効になります。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "늪의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체의 이동 속도가 10% 느려지고, 이동 속도를 증가시키는 스킬을 무효화합니다. 영혼은 30...180초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...180초) 영혼이 아닌 생물체에 영향을 미칩니다. 이동 속도가 10% 느려지고, 이동 속도 증가 효과를 무효화합니다."
+			},
+			"pl": {
+				"name": "Błotnisty Teren",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Wszystkie stworzenia nie-duchy w jego zasięgu poruszają się o 10% wolniej i nie działają zwiększenia prędkości. Duch umiera po 30...180 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...180 sek.). Stworzenia w zasięgu poruszają się o 10% wolniej; neguje także premie do szybkości. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Muddy Terrain",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. Все не являющиеся духами создания, находящиеся в зоне его действия, двигаются на 10% медленнее, а ускоряющие эффекты на них не действуют. Этот дух умирает через 30...180 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (30...180 сек жизни). Создания в зоне его действия двигаются на 10% медленнее, и на них не действуют ускоряющие эффекты. Не действует на духов."
+			},
+			"bork": {
+				"name": "Mooddy Terraeeen",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Nun-spureet creaetoores veetheen its runge-a mufe-a 10% slooer und speed buusts haefe-a nu iffffect. Thees spureet deees aeffter 30...180 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...180 secund leeffespun). Creaetoores in runge-a haefe-a 10% slooer mufement; aelsu negaetes speed buusts. Dues nut aeffffect spureets."
 			}
 		}
 	}

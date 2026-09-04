@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "愤怒之符",
+				"description": "咒文。 在目标敌军的位置创造一个愤怒印记。每秒对邻近敌军造成10...40点神圣伤害，持续5秒。",
+				"concise": "咒文。 每秒造成10...40点神圣伤害（5秒）。对目标敌军起始位置附近的敌军造成伤害。"
+			},
+			"cht": {
+				"name": "神怒之符",
+				"description": "咒文魔法： Create a Symbol of Wrath at target foe's location. For 5 seconds, adjacent foes are struck for 10...40 holy damage each second.",
+				"concise": "咒文魔法： Deals 10...40 holy damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
+			},
 			"de": {
+				"name": "Symbol des Zorns",
+				"description": "Zauber. Erzeugt ein Symbol des Zorns am Standort des anvisierten Gegners. Benachbarte Gegner werden 5 Sekunden lang von 10...40 heiligem Schaden getroffen.",
+				"concise": "Zauber. Teilt jede Sekunde 10...40 heiligen Schaden aus (5 Sekunden). Trifft Gegner um den ursprünglichen Standort des anvisierten Gegners herum."
+			},
+			"de-guildwiki": {
 				"name": "Symbol des Zorns",
 				"description": "Erzeugt ein Symbol des Zorns am Standort des anvisierten Gegners. Umstehende Gegner werden 5 Sekunden lang von 10...40 heiligem Schaden getroffen.",
 				"concise": "Teilt jede Sekunde 10...40 Punkte heiligen Schaden aus (5 Sekunden). Trifft Gegner um den ursprünglichen Standort des anvisierten Gegners herum."
 			},
 			"en": {
 				"name": "Symbol of Wrath",
+				"description": "Spell. Create a Symbol of Wrath at target foe's location. For 5 seconds, adjacent foes are struck for 10...40 holy damage each second.",
+				"concise": "Spell. Deals 10...40 holy damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
+			},
+			"en-gww": {
+				"name": "Symbol of Wrath",
 				"description": "Create a Symbol of Wrath at target foe's location. For 5 seconds, adjacent foes are struck for 10...40 holy damage each second.",
 				"concise": "Deals 10...40 holy damage each second (5 seconds). Hits foes adjacent to target foe's initial location."
 			},
+			"es": {
+				"name": "Símbolo de la ira",
+				"description": "Conjuro. Creas un símbolo de ira en la ubicación del enemigo objetivo. Durante 5 segundos, los enemigos adyacentes reciben su efecto y sufren 10...40 de daño sagrado por segundo.",
+				"concise": "Conjuro. Hace 10...40 de daño sagrado por segundo (5 segundos). Alcanza a los enemigos adyacentes a la ubicación inicial del enemigo objetivo."
+			},
 			"fr": {
+				"name": "Symbole de Courroux",
+				"description": "Sort. Crée un Symbole du courroux à l'emplacement de l'ennemi ciblé. Pendant 5 secondes, les ennemis adjacents sont frappés chaque seconde et subissent 10...40 points de dégâts sacrés.",
+				"concise": "Sort. Inflige 10...40 points de dégâts sacrés chaque seconde (5 secondes). Affecte les ennemis adjacents à l'emplacement initial de l'ennemi ciblé."
+			},
+			"fr-gwiki": {
 				"name": "Symbole de Courroux",
 				"description": "Pendant 5 secondes, les ennemis adjacents à la position sur laquelle le sort a été lancé subissent 8...32 points de dégâts sacrés par seconde.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Simbolo della Collera",
+				"description": "Magia. Crea un simbolo d'ira nel punto in cui si trova il bersaglio. Per 5 secondo/i, i nemici adiacenti vengono colpiti da 10...40 danni sacri al secondo.",
+				"concise": "Magia. Infligge 10...40 danni sacri al secondo (5 secondi). Colpisce i nemici adiacenti alla posizione iniziale del bersaglio."
+			},
+			"jp": {
+				"name": "ラス シンボル",
+				"description": "スペル： 標的となった敵の場所に激怒のシンボルを生み出します。5秒間、隣接する敵は毎秒10...40の聖属性ダメージを受けます。",
+				"concise": "スペル： 毎秒10...40の聖属性ダメージを与えます（5秒）。標的となった敵の初期の場所に隣接する敵に命中します。"
+			},
+			"kr": {
+				"name": "신의 노여움",
+				"description": "마법. 대상 지정: 적. 대상의 위치에 신의 노여움을 생성합니다. 그에 인접한 적들은 5초 동안 매초 10...40의 신성 대미지를 입습니다.",
+				"concise": "마법. 매초 10...40의 신성 대미지를 줍니다(5초). 대상의 초기 위치에 인접한 적들을 공격합니다."
+			},
+			"pl": {
+				"name": "Symbol Gniewu",
+				"description": "Czar. Tworzysz Symbol Gniewu w miejscu, gdzie znajduje się wybrany przeciwnik. Przez 5 sek. sąsiadujący wrogowie odnoszą co sekundę 10...40 pkt. świętych obrażeń.",
+				"concise": "Czar. W każdej sekundzie (przez 5 sek.) zadaje 10...40 pkt. obrażeń od zimna. Trafia przeciwników sąsiadujących z początkowej lokalizacji wybranego wroga."
+			},
+			"ru": {
+				"name": "Symbol of Wrath",
+				"description": "Заклинание. Создает Symbol of Wrath рядом с выбранным врагом. В течение 5 сек. враги рядом с ним получают 10...40 ед. святого урона в секунду.",
+				"concise": "Заклинание. Наносит 10...40 ед. святого урона в секунду (5 сек.). Атакует врагов, находящихся рядом с изначальным местоположением цели."
+			},
+			"bork": {
+				"name": "Symbul ooff Vraet",
+				"description": "Spell. Creaete-a a Symbul ooff Vraet aet taerget fue-a's lucaeshun. Fur 5 secunds, aedjaecent fues aere-a stroock fur 10...40 huly daemaege-a iaech secund.",
+				"concise": "Spell. Deaels 10...40 huly daemaege-a iaech secund (5 secunds). Heets fues aedjaecent tu taerget fue-a's ineeteeael lucaeshun."
 			}
 		}
 	}

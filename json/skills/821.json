@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "寒霜蚀脉",
+				"description": "精英负面魔法。 使目标敌人受到 10...90 冰冻伤害。在10...35秒之内，如果目标敌人死亡，该目标附近的所有敌人受到 20...110 冰冻伤害。",
+				"concise": "精英负面魔法。 使目标敌人受到 10...90 冰冻伤害。在10...35秒之内，如果目标敌人死亡，该目标附近的所有敌人受到 20...110 冰冻伤害。"
+			},
+			"cht": {
+				"name": "冰冷紋理",
+				"description": "精英降咒魔法： 使目標敵人受到 10...90 冰凍傷害。在 10...35 秒內，若目標敵人死亡，該目標附近的所有敵人受到 20...110 冰凍傷害。",
+				"concise": "精英降咒魔法： 使目標敵人受到 10...90 冰凍傷害。在 10...35 秒內，若目標敵人死亡，該目標附近的所有敵人受到 20...110 冰凍傷害。"
+			},
 			"de": {
+				"name": "Eisadern",
+				"description": "Elite-Verhexung. Der Gegner erleidet 10...90 Punkt[e] Kälteschaden. Wenn er innerhalb der nächsten 10...35 Sekunde[n] stirbt, erleiden alle Feinde in der Nähe 20...110 Punkt[e] Kälteschaden.",
+				"concise": "Elite-Verhexung. 10...35 Sekunde[n]: Richtet bei Feinden in der Nähe 20...110 Punkt[e] Kälteschaden an, wenn der Gegner stirbt. Anfangswirkung: Richtet 10...90 Punkt[e] Kälteschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Eisadern",
 				"description": "Der Gegner erleidet 10...90 Punkte Kälteschaden. Wenn er innerhalb der nächsten 10...35 Sekunden stirbt, erleiden alle Feinde in der Nähe 20...110 Punkte Kälteschaden.",
 				"concise": "10...35 Sekunden: Richtet bei Feinden in der Nähe 20...110 Punkte Kälteschaden an, wenn der Gegner stirbt. Anfangswirkung: Richtet 10...90 Punkte Kälteschaden an."
 			},
 			"en": {
 				"name": "Icy Veins",
+				"description": "Elite Hex Spell. Target foe is struck for 10...90 cold damage. For 10...35 seconds, if target foe dies all nearby foes are struck for 20...110 cold damage.",
+				"concise": "Elite Hex Spell. (10...35 seconds.) Deals 20...110 cold damage to nearby foes if target foe dies. Initial effect: deals 10...90 cold damage."
+			},
+			"en-gww": {
+				"name": "Icy Veins",
 				"description": "Target foe is struck for 10...90 cold damage. For 10...35 seconds, if target foe dies all nearby foes are struck for 20...110 cold damage.",
 				"concise": "(10...35 seconds.) Deals 20...110 cold damage to nearby foes if target foe dies. Initial effect: deals 10...90 cold damage."
 			},
+			"es": {
+				"name": "Venas heladas",
+				"description": "Conjuro con maleficio de élite. El enemigo objetivo recibe 10...90 de daño frío. Además, durante 10...35 segundos, todos los enemigos cercanos recibirán 20...110 de daño frío si muere.",
+				"concise": "Conjuro con maleficio de élite. (10...35 segundos). Hace 20...110 de daño frío a los enemigos cercanos si el enemigo objetivo muere. Efecto inicial: 10...90 de daño frío."
+			},
 			"fr": {
+				"name": "Veines glaciales",
+				"description": "Maléfice d'élite. La cible ennemie souffre de 10...90 points de dégâts du froid. Pendant 10...35 secondes, si la cible ennemie meurt, tous les ennemis à proximité souffrent de 20...110 points de dégâts du froid.",
+				"concise": "Maléfice d'élite. (10...35 secondes.) Inflige 20...110 points de dégâts du froid aux ennemis à proximité si la cible ennemie meurt. Effet initial : inflige 10...90 points de dégâts du froid."
+			},
+			"fr-gwiki": {
 				"name": "Veines glaciales",
 				"description": "La cible ennemie souffre de 10...90 points de dégâts du froid. Pendant 10...35 secondes, si la cible ennemie meurt, tous les ennemis à proximité souffrent de 20...110 points de dégâts du froid.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Vene di Ghiaccio",
+				"description": "Fattura d'Élite. L'obiettivo nemico subisce 10...90 danno[i] da freddo. Per 10...35 secondo[i], se l'obiettivo nemico muore, tutti i nemici nei dintorni vengono colpiti da 20...110 danno[i] da freddo.",
+				"concise": "Fattura d'Élite. (Secondi: 10...35) Danni da freddo ai nemici nei dintorni se l'obiettivo nemico muore: 20...110. Effetto iniziale: 10...90 danno[i] da freddo."
+			},
+			"jp": {
+				"name": "アイシー ベイン",
+				"description": "エリート弱体化スペル： ターゲットした敵に 10...90 のコールド ダメージを与えます。10...35 秒間、ターゲットした敵が戦闘不能になると、周囲にいるすべての敵に 20...110 のコールド ダメージを与えます。",
+				"concise": "エリート弱体化スペル： (10...35 秒) ターゲットした敵が戦闘不能になると、その周囲にいる敵に 20...110 のコールド ダメージを与えます。発動効果： 10...90 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "차가운 피",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상에게 10...90의 냉기 대미지를 줍니다. 그 대상이 10...35초 안에 죽으면 그 부근의 모든 적은 20...110의 냉기 대미지를 입습니다.",
+				"concise": "엘리트 약화 마법. (10...35초) 대상이 죽으면 부근의 적들에게 20...110의 냉기 대미지를 줍니다. 초기 효과: 대상에게 10...90의 냉기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Lodowate Żyły",
+				"description": "Elitarna klątwa (czar). Wybrany przeciwnik otrzymuje 10...90 pkt. obrażeń od zimna. Przez 10...35 sek., jeżeli wybrany przeciwnik umrze, wszyscy pobliscy przeciwnicy otrzymują 20...110 pkt. obrażeń od zimna.",
+				"concise": "Elitarna klątwa (czar). (10...35 sek.) Przeciwnikom w pobliżu zadaje 20...110 pkt. obrażeń od zimna, jeżeli wybrany przeciwnik umrze. Efekt początkowy: zadaje 10...90 pkt. obrażeń od zimna."
+			},
+			"ru": {
+				"name": "Icy Veins",
+				"description": "Элитное заклинание-проклятье. Выбранный противник получает 10...90 ед. урона силой холода. Если в течение 10...35 сек этот противник умрет, все противники поблизости получат 20...110 ед. урона силой холода.",
+				"concise": "Элитное заклинание-проклятье. (10...35 сек) Наносит 20...110 ед. урона силой холода противникам поблизости, если выбранный противник умирает. Начальный эффект: наносит 10...90 ед. урона силой холода."
+			},
+			"bork": {
+				"name": "Icy Feeens",
+				"description": "Ileete-a Hex Spell. Taerget fue-a is stroock fur 10...90 culd daemaege-a. Fur 10...35 secunds, iff taerget fue-a deees aell neaerby fues aere-a stroock fur 20...110 culd daemaege-a.",
+				"concise": "Ileete-a Hex Spell. (10...35 secunds.) Deaels 20...110 culd daemaege-a tu neaerby fues iff taerget fue-a deees. Ineeteeael iffffect: deaels 10...90 culd daemaege-a."
 			}
 		}
 	}

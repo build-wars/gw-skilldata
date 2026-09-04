@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Farmer's Scythe",
+				"description": "镰刀术。 If this attack hits, you deal +5...20 damage. If you hit more than one foe, this attack recharges instantly.",
+				"concise": "镰刀术。 Deals +5...20 damage. Instant recharge if you hit more than one foe."
+			},
+			"cht": {
+				"name": "耕耘鐮斬",
+				"description": "鐮刀攻擊技能： 此攻擊命中時，你將造成 +5...20 傷害。若你命中多於一名敵人，此攻擊技能將立即回復。",
+				"concise": "鐮刀攻擊技能： 此攻擊命中時，你將造成 +5...20 傷害。若你命中多於一名敵人，此攻擊技能將立即回復。"
+			},
 			"de": {
+				"name": "Sense des Bauern",
+				"description": "Sensenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn Ihr mehr als einen Feind trefft, wird dieser Angriff sofort wieder aufgeladen.",
+				"concise": "Sensenangriff. Richtet +5...20 Punkt[e] Schaden an. Wird sofort wieder aufgeladen, falls Ihr mehr als einen Feind trefft."
+			},
+			"de-guildwiki": {
 				"name": "Sense des Bauern",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn Ihr mehr als einen Feind angreift, wird dieser Angriff sofort wieder aufgeladen.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Wird sofort wieder aufgeladen, falls Ihr mehr als einen Feind angreift."
 			},
 			"en": {
 				"name": "Farmer's Scythe",
+				"description": "Scythe Attack. If this attack hits, you deal +5...20 damage. If you hit more than one foe, this attack recharges instantly.",
+				"concise": "Scythe Attack. Deals +5...20 damage. Instant recharge if you hit more than one foe."
+			},
+			"en-gww": {
+				"name": "Farmer's Scythe",
 				"description": "If this attack hits, you deal +5...20 damage. If you hit more than one foe, this attack recharges instantly.",
 				"concise": "Deals +5...20 damage. Instant recharge if you hit more than one foe."
 			},
+			"es": {
+				"name": "Guadaña de granjero",
+				"description": "Ataque con guadaña. Si impacta, este ataque hará +5...20 de daño. Si alcanzas a más de un enemigo, se recargará de forma instantánea.",
+				"concise": "Ataque con guadaña. Hace +5...20 de daño. Se recarga al instante si alcanzas a más de un enemigo."
+			},
 			"fr": {
+				"name": "Faux du fermier",
+				"description": "Attaque à la faux. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si vous frappez plus d'un ennemi, cette attaque se recharge instantanément.",
+				"concise": "Attaque à la faux. Inflige +5...20 points de dégâts. Rechargement instantané si vous frappez plus d'un ennemi."
+			},
+			"fr-gwiki": {
 				"name": "Faux du fermier",
 				"description": "Si cette attaque réussit, vous infligez +5...21 points de dégâts. Si vous frappez plus d'un ennemi, cette attaque se recharge instantanément.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Falce del Contadino",
+				"description": "Attacco con Falce. Se questo attacco va a segno provochi +5...20 danno[i]. Se colpisci più di un nemico questo attacco si ricarica all'istante.",
+				"concise": "Attacco con Falce. Danni inferti: +5...20. Si ricarica all'istante se colpisci più di un nemico."
+			},
+			"jp": {
+				"name": "ファーマー サイズ",
+				"description": "サイズ アタック： 攻撃が成功すると、5...20 の追加ダメージを与えます。複数の敵を攻撃した場合、すぐに再使用することができます。",
+				"concise": "サイズ アタック： 5...20 の追加ダメージを与えます。複数の敵を攻撃すると、すぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "농부의 낫질",
+				"description": "사이드 공격. 공격이 성공하면 5...20의 대미지를 추가로 줍니다. 공격이 둘 이상의 적에게 적중하면 이 공격은 즉시 재활성됩니다.",
+				"concise": "사이드 공격. 5...20의 대미지를 추가로 줍니다. 공격이 둘 이상의 적에게 적중하면 이 스킬은 즉시 재활성됩니다."
+			},
+			"pl": {
+				"name": "Kosa Farmera",
+				"description": "Atak kosą. Jeśli atak trafi, zadaje +5...20 pkt. obrażeń. Jeżeli trafisz więcej niż jednego przeciwnika, atak natychmiast się odnawia.",
+				"concise": "Atak kosą. Zadaje +5...20 pkt. obrażeń. Natychmiast się odnawia, jeżeli trafisz więcej niż jednego przeciwnika."
+			},
+			"ru": {
+				"name": "Farmer's Scythe",
+				"description": "Атака косой. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если вы нанесли удар более, чем по одному противнику, эта атака будет немедленно перезаряжена.",
+				"concise": "Атака косой. Наносит дополнительно 5...20 ед. урона. Немедленно перезаряжается, если вы поразили более одного противника."
+			},
+			"bork": {
+				"name": "Faermer's Scyzee",
+				"description": "Scyzee Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff yuoo heet mure-a thun oone-a fue-a, thees aettaeck rechaerges instuntly.",
+				"concise": "Scyzee Aettaeck. Deaels +5...20 daemaege-a. Instunt rechaerge-a iff yuoo heet mure-a thun oone-a fue-a."
 			}
 		}
 	}

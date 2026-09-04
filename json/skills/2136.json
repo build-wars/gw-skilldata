@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Smoke Powder Defense",
+				"description": "姿态。 For 8 seconds, the next time you are struck, you take half damage and all adjacent foes are Blinded for 2...6 seconds.",
+				"concise": "姿态。 (8 seconds.) The next time you are struck, you take half damage and inflict Blindness condition (2...6 seconds) on adjacent foes."
+			},
+			"cht": {
+				"name": "煙霧彈防護",
+				"description": "態勢： 持續 8 秒，當你下一次受到傷害時，你受到的傷害減半並且所有鄰近敵人將遭受盲目 2...6 秒。",
+				"concise": "態勢： 持續 8 秒，當你下一次受到傷害時，你受到的傷害減半並且所有鄰近敵人將遭受盲目 2...6 秒。"
+			},
 			"de": {
+				"name": "Rauchpulver-Verteidigung",
+				"description": "Haltung. 8 Sekunde[n] lang erleidet Ihr beim nächsten Treffer nur den halben Schaden und alle umstehenden Feinde werden 2...6 Sekunde[n] lang geblendet.",
+				"concise": "Haltung. (8 Sekunde[n].) Das nächste Mal, wenn Ihr getroffen werdet, erleidet Ihr nur halben Schaden und verursacht bei umstehenden Feinden den Zustand Blindheit (2...6 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Rauchpulver-Verteidigung",
 				"description": "8 Sekunden lang erleidet Ihr beim nächsten Treffer nur den halben Schaden und umstehende Feinde werden 2...6 Sekunden lang geblendet.",
 				"concise": "8 Sekunden: Wenn Ihr das nächste Mal getroffen werdet, erleidet Ihr nur halben Schaden und verursacht bei umstehenden Feinden den Zustand Blindheit (2...6 Sekunden)."
 			},
 			"en": {
 				"name": "Smoke Powder Defense",
+				"description": "Stance. For 8 seconds, the next time you are struck, you take half damage and all adjacent foes are Blinded for 2...6 seconds.",
+				"concise": "Stance. (8 seconds.) The next time you are struck, you take half damage and inflict Blindness condition (2...6 seconds) on adjacent foes."
+			},
+			"en-gww": {
+				"name": "Smoke Powder Defense",
 				"description": "For 8 seconds, the next time you are struck, you take half damage and all adjacent foes are Blinded for 2...6 seconds.",
 				"concise": "(8 seconds.) The next time you are struck, you take half damage and inflict Blindness condition (2...6 seconds) on adjacent foes."
 			},
+			"es": {
+				"name": "Polvo de humo defensivo",
+				"description": "Actitud. Durante 8 segundos, la próxima vez que te golpeen, recibes la mitad del daño y todos los enemigos cercanos quedan cegados durante 2...6 segundos.",
+				"concise": "Actitud. (8 segundos.) La próxima vez que te alcance un ataque, recibes la mitad de daño y causas ceguera (2...6 segundos) en los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Défense poudre fumigène",
+				"description": "Pose de combat. Pendant 8 secondes, la prochaine fois que vous êtes frappé[f:\"frappée\"], vous subissez la moitié des dégâts et tous les ennemis adjacents souffrent d'Aveuglement pendant 2...6 secondes.",
+				"concise": "Pose de combat. (8 secondes.) La prochaine fois que vous êtes frappé[f:\"frappée\"], vous subissez la moitié des dégâts et infligez l'Aveuglement (2...6 secondes) aux ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Défense poudre fumigène",
 				"description": "Pendant 8 secondes, la prochaine fois que vous êtes frappé, vous subissez la moitié des dégâts et tous les ennemis adjacents souffrent d'Aveuglement pendant 2...6 secondes.",
 				"concise": "(8 secondes.) Au prochain coup que vous recevrez, vos dégâts seront réduits de moitié et vous infligerez l'Aveuglement (2...6 secondes) aux ennemis adjacents."
+			},
+			"it": {
+				"name": "Difesa della Polvere di Fumo",
+				"description": "Posizione. Per 8 secondi, la prossima volta che sarai colpito subirai la metà del danno e tutti i nemici adiacenti verranno accecati per 2...6 secondi.",
+				"concise": "Posizione. (Secondi: 8). La prossima volta che vieni colpito subirai la metà del danno e infliggerai Cecità ai nemici adiacenti per 2...6 secondi."
+			},
+			"jp": {
+				"name": "スモーク パウダー ディフェンス",
+				"description": "スタンス： 8 秒間、最初に受ける攻撃はダメージが半分になり、隣接する敵を 2...6 秒間「盲目」状態にします。",
+				"concise": "スタンス： (8 秒) 次に攻撃を受けると、そのダメージは半分になり、隣接する敵が「盲目」状態になります (2...6 秒) 。"
+			},
+			"kr": {
+				"name": "연막탄 보호",
+				"description": "자세. 8초 동안 공격에 적중 당하면 절반의 대미지만 입고, 인접한 모든 적을 2...6초 동안 실명시킵니다. 처음 한 번 효과가 있습니다.",
+				"concise": "자세. (8초) 처음 공격에 적중 당하면 절반의 대미지만 입고, 인접한 적들을 실명시킵니다.(2...6초)"
+			},
+			"pl": {
+				"name": "Zasłona Dymna",
+				"description": "Postawa. Przez 8 sek., następnym razem, kiedy zostaniesz trafiony[f:\"trafiona\"], otrzymasz połowę obrażeń, a wszyscy przeciwnicy bezpośrednio przy tobie zostaną oślepieni na 2...6 sek.",
+				"concise": "Postawa. (8 sek.) Następnym razem, kiedy zostaniesz trafiony[f:\"trafiona\"], otrzymasz połowę obrażeń, a wszyscy przeciwnicy bezpośrednio przy tobie zostaną oślepieni (2...6 sek.)."
+			},
+			"ru": {
+				"name": "Smoke Powder Defense",
+				"description": "Стойка. В течение 8 сек в следующий раз, когда вам нанесут удар, вы получите только половину урона, а все окружающие противники будут ослеплены на 2...6 сек.",
+				"concise": "Стойка. (8 сек) В следующий раз, когда вам нанесут удар, вы получите только половину урона и вызовете слепоту (2...6 сек) у окружающих противников."
+			},
+			"bork": {
+				"name": "Smuke-a Pooder Deffense-a",
+				"description": "Stunce-a. Fur 8 secunds, zee next teeme-a yuoo aere-a stroock, yuoo taeke-a haelff daemaege-a und aell aedjaecent fues aere-a Bleended fur 2...6 secunds.",
+				"concise": "Stunce-a. (8 secunds.) Zee next teeme-a yuoo aere-a stroock, yuoo taeke-a haelff daemaege-a und inffleect Bleendness cundeeshun (2...6 secunds) oon aedjaecent fues."
 			}
 		}
 	}

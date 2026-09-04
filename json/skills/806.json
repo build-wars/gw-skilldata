@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "膜拜之火",
+				"description": "精英增益魔法。 在5秒之内，使你施法的能量消耗减少 10点 ，但是每次施法时你会牺牲 1...6% 的生命值。",
+				"concise": "精英增益魔法。 在5秒之内，使你施法的能量消耗减少 10点 ，但是每次施法时你会牺牲 1...6% 的生命值。"
+			},
+			"cht": {
+				"name": "異教儀式",
+				"description": "精英加持魔法： 持續5秒，根據靈魂吸取等級每級再增加3秒，你的死靈法師魔法所需能量減少1...6，每次你使用死靈法師魔法時遭受流血10秒。",
+				"concise": "精英加持魔法： 持續5秒，根據靈魂吸取等級每級再增加3秒，你的死靈法師魔法所需能量減少1...6，每次你使用死靈法師魔法時遭受流血10秒。"
+			},
 			"de": {
+				"name": "Eifer des Sektierers",
+				"description": "Elite-Verzauberung. Für 5 Sekunde[n] plus 3 Sekunden pro Rang in Seelensammlung kostet das Wirken Eurer Nekromanten-Zauber 1...6 Energiepunkt[e] weniger, aber Ihr leidet beim Wirken jedes Nekromanten-Zaubers 10 Sekunde[n] lang an einer Blutung.",
+				"concise": "Elite-Verzauberung. (5 Sekunde[n] plus 3 Sekunden pro Rang in Seelensammlung.) Eure Nekromanten-Zauber kosten 1...6 weniger Energie. Ihr leidet beim Wirken jedes Nekromanten-Zaubers an einer Blutung (10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Eifer des Sektierers",
 				"description": "Für 5 Sekunden plus 3 Sekunden pro Rang in Seelensammlung kostet das Wirken Eurer Nekromanten-Zauber -1...6 Energiepunkte weniger, aber Ihr leidet beim Wirken jedes Nekromanten-Zaubers 10 Sekunden lang an einer Blutung.",
 				"concise": "(5 Sekunden plus 3 Sekunden pro Rang in Seelensammlung.) Eure Nekromanten-Zauber kosten 1...6 weniger Energie. <gray>Ihr leidet beim Wirken jedes Nekromanten-Zaubers an einer Blutung (10 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Cultist's Fervor",
+				"description": "Elite Enchantment Spell. For 5 seconds and 3 seconds longer for every rank of Soul Reaping, your Necromancer spells cost -1...6 Energy to cast, but you suffer from Bleeding for 10 seconds each time you cast a Necromancer spell.",
+				"concise": "Elite Enchantment Spell. (5 seconds plus 3 seconds more for every rank of Soul Reaping.) Your Necromancer spells cost 1...6 less Energy. You suffer from Bleeding (10 seconds) each time you cast a Necromancer spell."
+			},
+			"en-gww": {
+				"name": "Cultist's Fervor",
 				"description": "For 5 seconds and 3 seconds longer for every rank of Soul Reaping, your Necromancer spells cost -1...6 Energy to cast but you suffer from Bleeding for 10 seconds each time you cast a Necromancer spell.",
 				"concise": "(5 seconds plus 3 seconds more for every rank of Soul Reaping.) Your Necromancer spells cost 1...6 less Energy. <gray>You suffer from Bleeding (10 seconds) each time you cast a Necromancer spell.</gray>"
 			},
+			"es": {
+				"name": "Fervor del profano",
+				"description": "Conjuro con encantamiento de élite. Durante 5 segundos y 3 segundos más por cada rango de cosecha de almas, tus conjuros de Nigromante cuestan -1...6 de energía, pero sufres una hemorragia durante 10 segundos cada vez que lances uno.",
+				"concise": "Conjuro con encantamiento de élite. (5 segundos más 3 segundos adicionales por cada rango de cosecha de almas.) Tus conjuros de Nigromante cuestan 1...6 menos de energía. Sufres hemorragia (10 segundos) cada vez que lanzas un conjuro de Nigromante."
+			},
 			"fr": {
+				"name": "Ferveur de l'adepte",
+				"description": "Enchantement d'élite. Pendant 5 secondes et 3 secondes supplémentaires par rang de Moisson des âmes, les sorts de Nécromant que vous lancez vous coûtent -1...6 points d'énergie, mais vous souffrez de Saignement pendant 10 secondes à chaque fois que vous les lancez.",
+				"concise": "Enchantement d'élite. (5 secondes plus 3 secondes pour chaque rang de Moisson des âmes.) Le coût de vos sorts de Nécromant est réduit de 1...6 points d'énergie. Vous souffrez de Saignement (10 secondes) à chaque fois que vous les lancez."
+			},
+			"fr-gwiki": {
 				"name": "Ferveur de l'adepte",
 				"description": "Pendant 5...50 secondes, les sorts de Nécromant que vous lancez coûtent -1...6 points d'énergie mais vous souffrez de Saignement pendant 10 secondes à chaque fois que vous les lancez.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fervore dell'Adepto",
+				"description": "Incantesimo d'Élite. Per 5 secondi (più altri 3 secondi per ogni grado di Sottrazione dell'Anima) le tue magie da Negromante costano 1...6 Punti Energia in meno ma soffri di Emorragia per 10 secondi ogni volta che ne lanci una.",
+				"concise": "Incantesimo d'Élite. (Secondi: 5 più altri 3 secondi per ogni grado di Sottrazione dell'Anima). Le tue magie da Negromante costano 1...6 Punti Energia in meno. Soffri di Emorragia per 10 secondi ogni volta che lanci una magia da Negromante."
+			},
+			"jp": {
+				"name": "カルティスト ファーバー",
+				"description": "エリート強化スペル： 5 秒と「ソウル リーピング」の特性レベルごとに3秒間、ネクロマンサー スペルの詠唱に必要なエネルギーが 1...6 減少しますが、ネクロマンサー スペルを詠唱するたびに 10 秒間「出血」状態になります。",
+				"concise": "エリート強化スペル： (5 秒＋「ソウル リーピング」の特性レベルごとに3秒) ネクロマンサー スペルの詠唱に必要なエネルギーが 1...6 減少します。ネクロマンサー スペルを詠唱するたびに「出血」状態になります (10 秒)。"
+			},
+			"kr": {
+				"name": "숭배자의 흥분",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5초 동안 네크로맨서 마법에 소모되는 에너지가 1...6 감소합니다. 대신 네크로맨서 마법을 외울 때마다 10초 동안 출혈 상태가 됩니다. 영혼 특성 레벨 1당 3초씩 지속 시간이 늘어납니다.",
+				"concise": "엘리트 강화 마법. (5초) 네크로맨서 마법 소모 에너지가 1...6 감소합니다. 영혼 특성 레벨 1당 3초씩 지속 시간이 늘어납니다.네크로맨서 마법을 시전할 때마다 출혈을 일으킵니다.(10초)"
+			},
+			"pl": {
+				"name": "Żarliwość Kultysty",
+				"description": "Elitarne zaklęcie (czar). Przez 5 sek. plus 3 sek. za każdy poziom Wydzierania Duszy, twoje czary nekromantyczne kosztują -1...6 mniej Energii, ale za każdym razem gdy rzucisz taki czar, zaczynasz krwawić przez 10 sek.",
+				"concise": "Elitarne zaklęcie (czar). (5 sek. plus 3 sek. za każdy poziom Wydzierania Duszy) Twoje czary nekromantyczne kosztują -1...6 mniej Energii. Zaczynasz krwawić (10 sek.) za każdym razem, gdy rzucisz taki czar."
+			},
+			"ru": {
+				"name": "Cultist's Fervor",
+				"description": "Элитное заклинание-чары. В течение 5 сек и дополнительно по 3 сек за каждый уровень таланта Soul Reaping ваши заклинания профессии Necromancer требуют для активации на 1...6 ед. энергии меньше, но каждый раз при произнесении такого заклинания вы будете кровоточить в течение 10 сек.",
+				"concise": "Элитное заклинание-чары. (5 сек и дополнительно по 3 сек за каждый уровень таланта Soul Reaping) Ваши заклинания профессии Necromancer требуют на 1...6 ед. энергии меньше. Вы кровоточите (10 сек) каждый раз, когда произносите такое заклинание."
+			},
+			"bork": {
+				"name": "Coolteest's Ferfur",
+				"description": "Ileete-a Inchuntment Spell. Fur 5 secunds und 3 secunds lunger fur ifery runk ooff Suool Reaepeeng, yuoor Necrumuncer spells cust -1...6 Inergy tu caest, boot yuoo sooffffer frum Bleedeeng fur 10 secunds iaech teeme-a yuoo caest a Necrumuncer spell.",
+				"concise": "Ileete-a Inchuntment Spell. (5 secunds ploos 3 secunds mure-a fur ifery runk ooff Suool Reaepeeng.) Yuoor Necrumuncer spells cust 1...6 less Inergy. Yuoo sooffffer frum Bleedeeng (10 secunds) iaech teeme-a yuoo caest a Necrumuncer spell."
 			}
 		}
 	}

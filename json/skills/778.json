@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "毒蛛落",
+				"description": "副手技。 此技能只能作用于被击倒的敌人。命中时对目标造成 15...35点 额外伤害，并且使目标敌人遭受「中毒」症状 5...20秒。",
+				"concise": "副手技。 此技能只能作用于被击倒的敌人。命中时对目标造成 15...35点 额外伤害，并且使目标敌人遭受「中毒」症状 5...20秒。"
+			},
+			"cht": {
+				"name": "毒蛛墜殺",
+				"description": "即刻攻擊： 必須以被擊倒的敵人為目標。命中時對目標造成 15...35 額外傷害，並且使目標敵人遭受「中毒」病症 5...20 秒。",
+				"concise": "即刻攻擊： 必須以被擊倒的敵人為目標。命中時對目標造成 15...35 額外傷害，並且使目標敵人遭受「中毒」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Fallende Spinne",
+				"description": "Begleithandangriff. Muss einen zu Boden geworfenen Feind treffen. Wenn Fallende Spinne trifft, fügt dieser Angriff +15...35 Punkt[e] Schaden zu und der Feind wird 5...20 Sekunde[n] lang vergiftet.",
+				"concise": "Begleithandangriff. Richtet +15...35 Punkt[e] Schaden an. Verursacht Zustand Gift (5...20 Sekunde[n]). Gegner muss zu Boden geworfen sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Fallende Spinne",
 				"description": "Muss einen zu Boden geworfenen Feind treffen. Wenn Fallende Spinne trifft, fügt dieser Angriff +15...35 Schaden zu und der Feind wird 5...20 Sekunden lang vergiftet.",
 				"concise": "Richtet +15...35 Punkte Schaden an. Verursacht Zustand Gift (5...20 Sekunden). <gray>Gegner muss zu Boden geworfen sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Falling Spider",
+				"description": "Off-Hand Attack. Must strike a knocked-down foe. If it hits, Falling Spider strikes for +15...35 damage and target foe is Poisoned for 5...20 seconds.",
+				"concise": "Off-Hand Attack. Deals +15...35 damage. Inflicts Poisoned condition (5...20 seconds). No effect unless target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Falling Spider",
 				"description": "Must strike a knocked-down foe. If it hits, Falling Spider strikes for +15...35 damage and target foe is Poisoned for 5...20 seconds.",
 				"concise": "Deals +15...35 damage. Inflicts Poisoned condition (5...20 seconds). <gray>No effect unless target foe is knocked-down.</gray>"
 			},
+			"es": {
+				"name": "Araña colgante",
+				"description": "Ataque complementario. Debe lanzarse sobre un enemigo derribado. Si impacta, hará +15...35 de daño y el enemigo quedará envenenado durante 5...20 segundos.",
+				"concise": "Ataque complementario. Hace +15...35 de daño. Causa envenenamiento (5...20 segundos). No tiene efecto si el objetivo no está derribado."
+			},
 			"fr": {
+				"name": "Retombée arachnide",
+				"description": "Attaque main gauche. Doit toucher un ennemi assommé. Si elle réussit, la Retombée arachnide inflige +15...35 points de dégâts et l'ennemi visé est empoisonné pendant 5...20 secondes.",
+				"concise": "Attaque main gauche. Inflige +15...35 points de dégâts. Provoque l'Empoisonnement (5...20 secondes). Aucun effet si la cible ennemie n'est pas assommée."
+			},
+			"fr-gwiki": {
 				"name": "Retombée arachnide",
 				"description": "Doit toucher un ennemi assommé. Si elle réussit, la Retombée arachnide inflige +15...35 points de dégâts et l'ennemi visé est empoisonné pendant 5...20 secondes.",
 				"concise": "Inflige +15...35 points de dégâts. Provoque l'Empoisonnement (5...20 secondes). <gray>Aucun effet si la cible ennemie n'est pas assommée.</gray>"
+			},
+			"it": {
+				"name": "Ragno in Caduta",
+				"description": "Attacco con Arma Secondaria. Deve colpire un nemico a terra. Se va a segno infligge +15...35 danno[i] e l'obiettivo nemico viene avvelenato per 5...20 secondo[i].",
+				"concise": "Attacco con Arma Secondaria. Danni inferti: +15...35. Condizione inflitta: Veleno (5...20 secondo[i]). Ha effetto solo se l'obiettivo nemico è stato abbattuto."
+			},
+			"jp": {
+				"name": "フォール スパイダー",
+				"description": "オフハンド アタック： 転倒中の敵に対して使用します。攻撃が成功すると 15...35 の追加ダメージを与え、5...20 秒間「毒」状態にします。",
+				"concise": "オフハンド アタック： 15...35 の追加ダメージを与えて「毒」状態にします (5...20 秒)。ターゲットした敵が転倒していない場合は無効です。"
+			},
+			"kr": {
+				"name": "타락한 거미",
+				"description": "보조 공격. 대상 지정: 적. 넘어져 있는 적에게 사용할 수 있습니다. 공격이 성공하면 대상은 15...35의 대미지를 추가로 입고, 5...20초 동안 중독 상태가 됩니다.",
+				"concise": "보조 공격. 15...35의 대미지를 추가로 주고, 중독시킵니다.(5...20초) 바닥에 넘어진 적에게 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Opadający Pająk",
+				"description": "Atak drugą ręką. Musi uderzyć powalonego przeciwnika. Jeżeli atak trafi, Opadający Pająk zadaje +15...35 pkt. obrażeń, a wybrany przeciwnik zostaje zatruty na 5...20 sek.",
+				"concise": "Atak drugą ręką. Zadaje +15...35 pkt. obrażeń. Wywołuje przypadłość zatrucie (5...20 sek.). Bez efektu, chyba że wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Falling Spider",
+				"description": "Атака второй рукой. Удар должен наноситься по сбитому с ног противнику. Если удар попадает в цель, вы наносите дополнительно 15...35 ед. урона, а выбранный противник будет отравлен на 5...20 сек.",
+				"concise": "Атака второй рукой. Наносит дополнительно 15...35 ед. урона. Вызывает отравление (5...20 сек). Не действует, если выбранный противник не сбит с ног."
+			},
+			"bork": {
+				"name": "Faelleeng Speeder",
+				"description": "Ooffff-Hund Aettaeck. Moost streeke-a a knucked-doon fue-a. Iff it heets, Faelleeng Speeder streekes fur +15...35 daemaege-a und taerget fue-a is Pueesuned fur 5...20 secunds.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +15...35 daemaege-a. Inffleects Pueesuned cundeeshun (5...20 secunds). Nu iffffect unless taerget fue-a is knucked-doon."
 			}
 		}
 	}

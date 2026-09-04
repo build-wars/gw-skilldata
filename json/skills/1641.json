@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "诈降",
+				"description": "增益魔法。 在4...10秒之内，使你获得7点「生命再生」和80点护甲值。此「增益魔法」在你攻击命中或使用技能之后消失。",
+				"concise": "增益魔法。 在4...10秒之内，使你获得7点「生命再生」和80点护甲值。此「增益魔法」在你攻击命中或使用技能之后消失。"
+			},
+			"cht": {
+				"name": "陰暗庇護",
+				"description": "加持魔法： 持續 4...10 秒，你的體力再生增加 7 且防禦增加 80 。而當你成功利用攻擊或使用技能擊中目標時，此「加持」的效果終止。",
+				"concise": "加持魔法： 持續 4...10 秒，你的體力再生增加 7 且防禦增加 80 。而當你成功利用攻擊或使用技能擊中目標時，此「加持」的效果終止。"
+			},
 			"de": {
+				"name": "Vorgetäuschte Neutralität",
+				"description": "Verzauberung. 4...10 Sekunde[n] lang erfreut Ihr Euch einer Lebenspunktregeneration von +7 und +80 Rüstung. Diese Verzauberung endet, wenn Ihr mit einem Angriff erfolgreich trefft oder eine Fertigkeit verwendet.",
+				"concise": "Verzauberung. 4...10 Sekunde[n]: Ihr habt +7 Lebenspunktregeneration und +80 Rüstung. Endet, wenn Ihr mit einem Angriff trefft oder eine Fertigkeit benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Vorgetäuschte Neutralität",
 				"description": "4...10 Sekunden lang erfreut Ihr Euch einer Lebenspunktregeneration von +7 und +80 Rüstung. Diese Verzauberung endet, wenn Ihr mit einem Angriff erfolgreich trefft oder eine Fertigkeit verwendet.",
 				"concise": "4...10 Sekunden: Ihr habt +7 Lebenspunktregeneration und +80 Rüstung. <gray>Endet, wenn Ihr mit einem Angriff trefft oder eine Fertigkeit benutzt.</gray>"
 			},
 			"en": {
 				"name": "Feigned Neutrality",
+				"description": "Enchantment Spell. For 4...10 seconds, you have +7 Health regeneration and +80 armor. This enchantment ends if you successfully hit with an attack or use a skill.",
+				"concise": "Enchantment Spell. (4...10 seconds.) You have +7 Health regeneration and +80 armor. Ends if you hit with an attack or use a skill."
+			},
+			"en-gww": {
+				"name": "Feigned Neutrality",
 				"description": "For 4...10 seconds, you have +7 Health regeneration and +80 armor. This enchantment ends if you successfully hit with an attack or use a skill.",
 				"concise": "(4...10 seconds.) You have +7 Health regeneration and +80 armor. <gray>Ends if you hit with an attack or use a skill.</gray>"
 			},
+			"es": {
+				"name": "Neutralidad fingida",
+				"description": "Conjuro con encantamiento. Durante 4...10 segundos, tienes +7 de regeneración de salud y +80 de armadura. Este encantamiento acaba si atacas con éxito o usas una habilidad.",
+				"concise": "Conjuro con encantamiento. (4...10 segundos). Tienes +7 de regeneración de salud y +80 de armadura. Acaba si atacas con éxito o usas una habilidad."
+			},
 			"fr": {
+				"name": "Neutralité simulée",
+				"description": "Enchantement. Pendant 4...10 secondes, vous bénéficiez d'une régénération de santé de +7 et de +80 points de bonus d'armure. Cet enchantement prend fin si une attaque réussit ou si vous utilisez une compétence.",
+				"concise": "Enchantement. (4...10 secondes.) Vous bénéficiez d'une régénération de santé de +7 et d'un bonus d'armure de +80. Prend fin si vous réussissez une attaque ou utilisez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Neutralité simulée",
 				"description": "Pendant 4...10 secondes, vous bénéficiez d'une régénération de santé de +7 et de +80 points de bonus d'armure. Cet enchantement prend fin si une attaque réussit ou si vous utilisez une compétence.",
 				"concise": "(4...10 secondes). Vous bénéficiez d'une régénération de santé de +7 et d'un bonus d'armure de +80. <gray>Prend fin si vous réussissez une attaque ou utilisez une compétence.</gray>"
+			},
+			"it": {
+				"name": "Neutralità Simulata",
+				"description": "Incantesimo. Per 4...10 secondo[i], hai una Rigenerazione della Salute di +7 e +80 di armatura. Questo incantesimo termina se metti a segno un attacco o utilizzi un'abilità.",
+				"concise": "Incantesimo. (Secondi: 4...10) Rigenerazione Salute: +7. Armatura: +80. Termina se colpisci con un tuo attacco o usi un'abilità."
+			},
+			"jp": {
+				"name": "フェイン ニュートラリティ",
+				"description": "強化スペル： 4...10 秒間、プレイヤーは体力の自然回復力が 7 増加し、防御力は 80 増加します。プレイヤーの攻撃が成功するかスキルを使用すると、この効果は消失します。",
+				"concise": "強化スペル： (4...10 秒) 体力の自然回復力が 7、防御力が 80 増加します。攻撃またはスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "거짓 중립",
+				"description": "강화 마법. 대상 지정: 없음. 4...10초 동안 체력 재생이 7 증가하고, 방어력이 80 증가합니다. 공격이 성공하거나 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "강화 마법. (4...10초) 체력 재생이 7, 방어력이 80 증가합니다. 공격이 성공하거나 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Udawana Neutralność",
+				"description": "Zaklęcie (czar). Na 4...10 sek. otrzymujesz regenerację żywotności +7 i +80 pkt. pancerza. To zaklęcie przestanie działać z twoim kolejnym trafionym atakiem lub użytą umiejętnością.",
+				"concise": "Zaklęcie (czar). (4...10 sek.) Posiadasz regenerację żywotności +7 i +80 pkt. pancerza. Przestanie działać, jeśli twój atak trafi lub użyjesz umiejętności."
+			},
+			"ru": {
+				"name": "Feigned Neutrality",
+				"description": "Заклинание-чары. В течение 4...10 сек ваша скорость восстановления здоровья увеличивается на 7 ед., а ваша защита увеличивается на 80 ед. Действие этих чар прекращается, если вы провели успешную атаку или использовали умение.",
+				"concise": "Заклинание-чары. (4...10 сек) Вы получаете +7 ед. к скорости восстановления здоровья и +80 ед. к защите. Заканчивается, если вы проводите успешную атаку или используете умение."
+			},
+			"bork": {
+				"name": "Feeegned Neootraeleety",
+				"description": "Inchuntment Spell. Fur 4...10 secunds, yuoo haefe-a +7 Heaelt regeneraeshun und +80 aermur. Thees inchuntment inds iff yuoo sooccessffoolly heet veet un aettaeck oor use-a a skeell.",
+				"concise": "Inchuntment Spell. (4...10 secunds.) Yuoo haefe-a +7 Heaelt regeneraeshun und +80 aermur. Inds iff yuoo heet veet un aettaeck oor use-a a skeell."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复苏",
+				"description": "缚灵仪式。 创造一只等级为1...10的复苏缚灵，当缚灵死亡或自然消失时，范围内所有死亡的小队成员都将复活并且恢复5...50%的生命值。缚灵将在30秒后自然消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...10的复苏缚灵，当缚灵死亡或自然消失时，范围内所有死亡的队友都将复活并且恢复 5...50% 生命。缚灵将在 30 秒后消失。"
+			},
+			"cht": {
+				"name": "復甦 (PvP)",
+				"description": "縛靈儀式： 創造等級 1...10 的復甦縛靈，當縛靈死亡或自然消失時，範圍內所有死亡的隊友都將復活並且恢復 5...50% 體力。縛靈將在 30 秒後消失。",
+				"concise": "縛靈儀式： 創造等級 1...10 的復甦縛靈，當縛靈死亡或自然消失時，範圍內所有死亡的隊友都將復活並且恢復 5...50% 體力。縛靈將在 30 秒後消失。"
+			},
 			"de": {
+				"name": "Wiederherstellung (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...10. Wenn dieser Geist stirbt, werden alle Gruppenmitglieder in dem Bereich mit 5...50% ihrer Lebenspunkte und 0 Energiepunkten wieder belebt. Dieser Geist stirbt nach 30 Sekunden.",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...10 (30 Sekunde[n] Lebensdauer). Wirkung am Ende: Im Bereich befindliche Gruppenmitglieder werden wiederbelebt (5...50% Lebenspunkte, 0 Energiepunkte)."
+			},
+			"de-guildwiki": {
 				"name": "Wiederherstellung (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...10. Wenn dieser Geist stirbt, werden alle Gruppenmitglieder in dem Bereich mit 5...50% ihrer Lebenspunkte und 0 Energiepunkten wieder belebt. Dieser Geist stirbt nach 30 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30 Sekunden Lebensdauer). Wirkung am Ende: Im Bereich befindliche Gruppenmitglieder werden wiederbelebt (5...50% Lebenspunkte, 0 Energiepunkte)."
 			},
 			"en": {
 				"name": "Restoration (PvP)",
+				"description": "Binding Ritual. Create a level 1...10 spirit. When this spirit dies, all party members in the area are resurrected with 5...50% Health and zero Energy. This spirit dies after 30 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...10 spirit (30 second lifespan). End effect: resurrects party members in the area with 5...50% Health and zero Energy."
+			},
+			"en-gww": {
+				"name": "Restoration (PvP)",
 				"description": "Create a level 1...10 spirit. When this spirit dies, all party members in the area are resurrected with 5...50% Health and zero Energy. This spirit dies after 30 seconds.",
 				"concise": "Creates a level 1...10 spirit (30 second lifespan). End effect: resurrects party members in the area with 5...50% Health and zero Energy."
 			},
+			"es": {
+				"name": "Restauración (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...10. Cuando éste muera, todos los miembros del grupo que se encuentren en la zona resucitarán con 5...50% de salud y nada de energía. El espíritu morirá a los 30 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...10 (30 segundos de vida). Efecto final: resucita a los miembros del grupo que se encuentren en la zona con 5...50% de salud y nada de energía."
+			},
 			"fr": {
+				"name": "Restauration (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...10. Lorsque cet esprit meurt, tous les membres du groupe dans la zone sont ressuscités avec 5...50% de leur santé et 0 point d'énergie. Cet esprit meurt au bout de 30 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...10 (durée de vie de 30 secondes). Effet final : ressuscite les membres du groupe dans la zone avec 5...50% de santé et 0 point d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Restauration (PvP)",
 				"description": "Crée un esprit de niveau 1...10. Lorsque cet esprit meurt, tous les membres du groupe dans la zone sont ressuscités avec 5...50% de leur santé et 0 points d'énergie. Cet esprit meurt au bout de 30 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ripristino (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...10. Quando lo spirito si esaurisce, tutti i membri della squadra nell'area risorgono con 5...50% Punti Salute e zero Energia. Lo spirito si esaurisce dopo 30 secondi.",
+				"concise": "Rituale Incatenante. Crea uno spirito di livello 1...10 (in vita per 30 secondi). Effetto al termine: resusciti i membri della squadra nell'area (Salute: 5...50%; Energia: 0)."
+			},
+			"jp": {
+				"name": "レストレーション (PvP)",
+				"description": "バインド リチュアル： レベル 1...10 の精霊を召喚します。この精霊が消滅すると、エリア内で戦闘不能なパーティー メンバーがすべて、5...50% の体力と0のエネルギーで復活します。この精霊は30秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...10 の精霊を召喚します (30 秒)。終了効果： このエリア内にいる戦闘不能なパーティ メンバーが 5...50% の体力と0のエネルギーで復活します。"
+			},
+			"kr": {
+				"name": "부활의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼이 사라질 때 영혼을 중심으로 일정 범위 내의 모든 파티원이 체력 5...50%와 에너지 0인 채 부활합니다. 영혼은 30초 후 사라집니다.",
+				"concise": "영혼 결속. 1...10레벨 영혼을 소환합니다.(수명: 30초) 종료 효과: 파티원들을 부활합니다.(체력: 5...50%, 에너지 0)"
+			},
+			"pl": {
+				"name": "Odnowa (PvP)",
+				"description": "Rytuał spętania. Tworzysz 1...10 poziomowego ducha. Gdy ten duch ginie, wszyscy członkowie drużyny w okolicy zostają wskrzeszeni z 5...50% pkt. żywotności i z zerem pkt. energii. Ten duch ginie po 30 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...10 (czas życia 30 sek.). Efekt końcowy: wskrzesza martwych członków drużyny w okolicy (5...50% żywotności, 0 pkt. energii)."
+			},
+			"ru": {
+				"name": "Restoration (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...10 уровня. Когда этот дух умирает, все члены вашего отряда в зоне досягаемости будут воскрешены с 5...50% здоровья и с 0 ед. энергии. Этот дух умирает через 30 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...10 уровня (30 сек жизни). Эффект окончания: воскрешает членов отряда в зоне досягаемости с 5...50% здоровья и 0 ед. энергии."
+			},
+			"bork": {
+				"name": "Resturaeshun (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...10 spureet. Vhee thees spureet deees, aell paerty members in zee aerea aere-a resoorrected veet 5...50% Heaelt und zeru Inergy. Thees spureet deees aeffter 30 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...10 spureet (30 secund leeffespun). Ind iffffect: resoorrects paerty members in zee aerea veet 5...50% Heaelt und zeru Inergy."
 			}
 		}
 	}

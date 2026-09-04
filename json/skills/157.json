@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 17,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "鲜血典礼",
+				"description": "增益魔法。 牺牲自己最大生命值的17%，触摸友方并使其「能量再生」提高3点，效果持续8...14秒。此「增益魔法」无法对自己施放。",
+				"concise": "增益魔法。 牺牲自己最大生命值的 17%，触摸队友并使其「能量再生」提高3点，效果持续 8...14秒。此「增益魔法」无法对自己施放。"
+			},
+			"cht": {
+				"name": "血之祭典",
+				"description": "加持魔法： 犧牲自己最大體力的 17% 。持續 8...14 秒，碰觸目標盟友使其能量再生增加 3 。此「加持」無法以施法者本身為目標。",
+				"concise": "加持魔法： 犧牲自己最大體力的 17% 。持續 8...14 秒，碰觸目標盟友使其能量再生增加 3 。此「加持」無法以施法者本身為目標。"
+			},
 			"de": {
+				"name": "Blutritual",
+				"description": "Verzauberung. 8...14 Sekunde[n] lang erfreut sich der berührte Verbündete einer Energieregeneration von +3. Blutritual kann nicht auf den Wirker angewendet werden.",
+				"concise": "Verzauberung. 8...14 Sekunde[n]: +3 Energieregeneration. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Blutritual",
 				"description": "8...14 Sekunden lang erhält der berührte Verbündete zusätzlich 3 Energieregeneration. Blutritual kann nicht auf den Wirker angewendet werden.",
 				"concise": "8...14 Sekunden: +3 Energieregeneration. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Blood Ritual",
+				"description": "Enchantment Spell. For 8...14 seconds, target touched ally gains +3 Energy regeneration. Blood Ritual cannot be used on the caster.",
+				"concise": "Enchantment Spell. (8...14 seconds.) +3 Energy regeneration. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Blood Ritual",
 				"description": "For 8...14 seconds, target touched ally gains +3 Energy regeneration. Blood Ritual cannot be used on the caster.",
 				"concise": "(8...14 seconds.) +3 Energy regeneration. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Ritual de sangre",
+				"description": "Conjuro con encantamiento. Durante 8...14 segundos, el aliado al que toques gana +3 de regeneración de energía. No se puede usar el Ritual de sangre sobre uno mismo.",
+				"concise": "Conjuro con encantamiento. (8...14 segundos). +3 de regeneración de energía. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Rituel de sang",
+				"description": "Enchantement. Pendant 8...14 secondes, l'allié touché bénéficie d'une régénération d'énergie de +3. Le Rituel de sang ne peut pas être utilisé sur le lanceur.",
+				"concise": "Enchantement. (8...14 secondes.) Régénération d'énergie de +3. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Rituel de sang",
 				"description": "Pendant 8...14 secondes, l'allié touché bénéficie d'une régénération d'énergie de +3. Le Rituel de sang ne peut pas être utilisé sur le lanceur.",
 				"concise": "(8...14 secondes). Régénération d'énergie de +3. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"it": {
+				"name": "Rituale del Sangue",
+				"description": "Incantesimo. Per 8...14 secondo[i], l'obiettivo alleato toccato ottiene +3 punti di Rigenerazione dell'Energia. Il Rituale del Sangue non può essere usato su se stessi.",
+				"concise": "Incantesimo. (Secondi: 8...14) Rigenerazione Energia: +3. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ブラッド リチュアル",
+				"description": "強化スペル： 8...14 秒間、接触した味方はエネルギーの自然回復力が3増加します。このスペルを自分自身にかけることはできません。",
+				"concise": "強化スペル： (8...14 秒) エネルギーの自然回復力が3増加します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "피의 의식",
+				"description": "강화 마법. 대상 지정: 아군. 8...14초 동안 대상의 에너지 재생이 3 증가합니다. 이 마법은 자신에게 걸 수 없고, 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "강화 마법. (8...14초) 대상의 에너지 재생이 3 증가합니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Rytuał Krwi",
+				"description": "Zaklęcie (czar). Przez 8...14 sek. wybrany dotknięty sojusznik posiada regenerację energii +3. Rytuał Krwi nie może być użyty na rzucającym ten czar.",
+				"concise": "Zaklęcie (czar). (8...14 sek.) Regeneracja energii +3. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Blood Ritual",
+				"description": "Заклинание-чары. На 8...14 сек у выбранного союзника, до которого вы дотронулись, скорость восстановления энергии увеличивается на 3 ед. Blood Ritual нельзя наложить на себя самого.",
+				"concise": "Заклинание-чары. (8...14 сек) Дает +3 ед. к скорости восстановления энергии. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Bluud Reetooael",
+				"description": "Inchuntment Spell. Fur 8...14 secunds, taerget tuooched aelly gaeeens +3 Inergy regeneraeshun. Bluud Reetooael cunnut be-a used oon zee caester.",
+				"concise": "Inchuntment Spell. (8...14 secunds.) +3 Inergy regeneraeshun. Cunnut selff-taerget."
 			}
 		}
 	}

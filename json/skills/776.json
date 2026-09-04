@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "旋杀尖牙",
+				"description": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时对目标造成 10...20点 额外伤害，并使其遭受「流血」和「重伤」症状 5...20秒。",
+				"concise": "双重攻击。 此技能必须接续在「副手技」之后使用。命中时对目标造成 10...20点 额外伤害，并使其遭受「流血」和「重伤」症状 5...20秒。"
+			},
+			"cht": {
+				"name": "旋殺尖牙",
+				"description": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時對目標造成 10...20 額外傷害，並且使其同時遭受「流血」及「重傷」病症 5...20 秒。",
+				"concise": "雙重攻擊： 必須接續在「即刻攻擊」之後。命中時對目標造成 10...20 額外傷害，並且使其同時遭受「流血」及「重傷」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Schlangenzähne",
+				"description": "Doppelangriff. Muss einem Begleithandangriff folgen. Wenn Schlangenzähne erfolgreich ist, fügt dieser Angriff +10...20 Punkt[e] Schaden zu und getroffene Feinde leiden 5...20 Sekunde[n] lang unter Blutung und Tiefer Wunde.",
+				"concise": "Doppelangriff. Richtet +10...20 Punkt[e] Schaden an. Verursacht Zustände Blutung und Tiefe Wunde (5...20 Sekunde[n]). Muss einem Begleithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Schlangenzähne",
 				"description": "Muss einem Begleithandangriff folgen. Wenn Schlangenzähne erfolgreich ist, fügt dieser Angriff +10...20 Punkte Schaden zu und getroffene Feinde leiden 5...20 Sekunden lang unter Blutung und Tiefer Wunde.",
 				"concise": "Richtet +10...20 Punkte Schaden an. Verursacht Zustände Blutung und Tiefe Wunde (5...20 Sekunden). <gray>Muss einem Begleithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Twisting Fangs",
+				"description": "Dual Attack. Must follow an off-hand attack. If it hits, Twisting Fangs strikes for +10...20 damage and struck foe suffers from Bleeding and Deep Wound for 5...20 seconds.",
+				"concise": "Dual Attack. Deals +10...20 damage. Inflicts Bleeding and Deep Wound conditions (5...20 seconds). Must follow an off-hand attack."
+			},
+			"en-gww": {
+				"name": "Twisting Fangs",
 				"description": "Must follow an off-hand attack. If it hits, Twisting Fangs strikes for +10...20 damage and struck foe suffers from Bleeding and Deep Wound for 5...20 seconds.",
 				"concise": "Deals +10...20 damage. Inflicts Bleeding and Deep Wound conditions (5...20 seconds). <gray>Must follow an off-hand attack.</gray>"
 			},
+			"es": {
+				"name": "Colmillos afilados",
+				"description": "Ataque doble. Debe ir precedido de un \"ataque complementario\". Si impacta, los Comillos afilados harán +10...20 de daño al enemigo, que también sufrirá una hemorragia y una herida grave durante 5...20 segundos.",
+				"concise": "Ataque doble. Hace +10...20 de daño. Causa hemorragia y herida grave (5...20 segundos). Debe ir precedido de un ataque complementario."
+			},
 			"fr": {
+				"name": "Crocs incisifs",
+				"description": "Attaque ambidextre. Doit succéder à une attaque main gauche. Si l'attaque réussit, elle inflige +10...20 points de dégâts et l'ennemi touché est pris de Saignements et souffre de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Attaque ambidextre. Inflige +10...20 points de dégâts. Provoque le Saignement et la Blessure profonde (5...20 secondes). Doit succéder à une attaque main gauche."
+			},
+			"fr-gwiki": {
 				"name": "Crocs incisifs",
 				"description": "Doit succéder à une attaque main gauche. Si l'attaque réussit, elle inflige +10...20 points de dégâts et l'ennemi touché est pris de Saignements et souffre de Blessure profonde pendant 5...20 secondes.",
 				"concise": "Inflige +10...20 points de dégâts. Provoque le Saignements et la Blessure profonde (5...20 secondes). <gray>Doit succéder à une attaque main gauche.</gray>"
+			},
+			"it": {
+				"name": "Zanne Ritorte",
+				"description": "Attacco Doppio[_]. Deve seguire un attacco con arma secondaria. Se va a segno infligge +10...20 danno[i] e l'obiettivo nemico colpito per 5...20 secondo[i] inizierà a sanguinare e riceverà una Ferita Profonda.",
+				"concise": "Attacco Doppio[_]. Danni inferti: +10...20. Condizione inflitta: Emorragia e Ferita Profonda (5...20 secondo[i]). Deve seguire un attacco con arma secondaria."
+			},
+			"jp": {
+				"name": "ツイスト ファング",
+				"description": "デュアル アタック： このスキルは、オフハンド アタックの次に使用します。攻撃が成功すると 10...20 の追加ダメージを与え、5...20 秒間、「出血」および「重傷」状態にします。",
+				"concise": "デュアル アタック： 10...20 の追加ダメージを与え、「出血」および「重傷」状態にします (5...20 秒)。このスキルは、オフハンド アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "춤추는 송곳니",
+				"description": "쌍수 공격. 보조 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상은 10...20의 대미지를 추가로 받고, 5...20초 동안 출혈과 중상 상태가 됩니다.",
+				"concise": "쌍수 공격. 10...20의 대미지를 추가로 주고, 출혈과 중상에 빠뜨립니다.(5...20초) 보조 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Skręcone Kły",
+				"description": "Atak podwójny. Musi nastąpić po ataku drugą ręką. Jeżeli atak trafi, Skręcone Kły zadają +10...20 pkt. obrażeń, a uderzony przeciwnik zaczyna krwawić i otrzymuje głęboką ranę na 5...20 sek.",
+				"concise": "Atak podwójny. Zadaje +10...20 pkt. obrażeń. Wywołuje przypadłości krwawienie i głęboka rana (5...20 sek.). Musi nastąpić po ataku drugą ręką."
+			},
+			"ru": {
+				"name": "Twisting Fangs",
+				"description": "Двойная атака. Должен следовать за атакой второй рукой. Если удар попадает в цель, Twisting Fangs наносит дополнительно 10...20 ед. урона, а противник будет кровоточить и получит глубокую рану на 5...20 сек.",
+				"concise": "Двойная атака. Наносит дополнительно 10...20 ед. урона. Вызывает кровотечение и глубокую рану (5...20 сек). Должен следовать за атакой второй рукой."
+			},
+			"bork": {
+				"name": "Tveesteeng Fungs",
+				"description": "Dooael Aettaeck. Moost fulloo un ooffff-hund aettaeck. Iff it heets, Tveesteeng Fungs streekes fur +10...20 daemaege-a und stroock fue-a sooffffers frum Bleedeeng und Deep Vuoond fur 5...20 secunds.",
+				"concise": "Dooael Aettaeck. Deaels +10...20 daemaege-a. Inffleects Bleedeeng und Deep Vuoond cundeeshuns (5...20 secunds). Moost fulloo un ooffff-hund aettaeck."
 			}
 		}
 	}

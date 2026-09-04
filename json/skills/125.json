@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "枯萎",
+				"description": "精英负面魔法。 在5...35秒之内，使目标敌人遭受2...4点「生命衰减」和1点「能量衰减」，当目标敌人能量为零时，「枯萎」自然消失，并对其造成15...75点伤害。",
+				"concise": "精英负面魔法。 在5...35秒之内，使目标敌人遭受2...4点「生命衰减」和1点「能量衰减」，当目标敌人能量为零时，「枯萎」自然消失，并对其造成15...75点伤害。"
+			},
+			"cht": {
+				"name": "孱弱",
+				"description": "精英降咒魔法： 持續 5...35 秒，目標敵人受到體力衰減 2...4 和能量衰減 1。當目標敵人的能量成為 0 時，該目標受到 15...75 傷害而孱弱的效果終止。",
+				"concise": "精英降咒魔法： 持續 5...35 秒，目標敵人受到體力衰減 2...4 和能量衰減 1。當目標敵人的能量成為 0 時，該目標受到 15...75 傷害而孱弱的效果終止。"
+			},
 			"de": {
+				"name": "Verwelken",
+				"description": "Elite-Verhexung. 5...35 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -2...4 und einer Energiedegeneration von -1. Wenn die Energie des Gegners auf 0 gefallen ist, nimmt dieser Gegner 15...75 Punkt[e] Schaden und Verwelken endet.",
+				"concise": "Elite-Verhexung. 5...35 Sekunde[n]: Verursacht -2...4 Lebenspunktdegeneration und -1 Energiedegeneration. Richtet 15...75 Punkt[e] Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. Endet, wenn die Energiepunkte des Gegners auf 0 sinken."
+			},
+			"de-guildwiki": {
 				"name": "Verwelken",
 				"description": "5...35 Sekunden lang unterliegt der Gegner einer Lebenspunktdegeneration von -2...4 und einer Energiedegeneration von -1. Wenn die Energie des Gegners auf 0 gefallen ist, nimmt dieser Gegner 15...75 Punkte Schaden und Verwelken endet.",
 				"concise": "5...35 Sekunden: Verursacht -2...4 Lebenspunktdegeneration und -1 Energiedegeneration. Richtet 15...75 Punkte Schaden an, wenn die Energiepunkte des Gegners auf 0 sinken. <gray>Endet, wenn die Energiepunkte des Gegners auf 0 sinken.</gray>"
 			},
 			"en": {
 				"name": "Wither",
+				"description": "Elite Hex Spell. For 5...35 seconds, target foe suffers -2...4 Health degeneration and -1 Energy degeneration. If target foe's Energy reaches 0, that foe takes 15...75 damage and Wither ends.",
+				"concise": "Elite Hex Spell. (5...35 seconds.) Causes -2...4 Health degeneration and -1 Energy degeneration. Deals 15...75 damage if target foe's Energy drops to 0. Ends if this foe's Energy drops to 0."
+			},
+			"en-gww": {
+				"name": "Wither",
 				"description": "For 5...35 seconds, target foe suffers -2...4 Health degeneration and -1 Energy degeneration. If target foe's Energy reaches 0, that foe takes 15...75 damage and Wither ends.",
 				"concise": "(5...35 seconds.) Causes -2...4 Health degeneration and -1 Energy degeneration. Deals 15...75 damage if target foe's Energy drops to 0. <gray>Ends if this foe's Energy drops to 0.</gray>"
 			},
+			"es": {
+				"name": "Marchitar",
+				"description": "Conjuro con maleficio de élite. Durante 5...35 segundos, el enemigo objetivo sufre una degeneración de -2...4 de salud y de -1 de energía. Si la energía del enemigo objetivo llega a 0, Marchitar finalizará y el enemigo recibirá 15...75 de daño.",
+				"concise": "Conjuro con maleficio de élite. (5...35 segundos). Causa -2...4 de degeneración de salud y -1 de degeneración de energía. Hace 15...75 de daño si la energía del enemigo objetivo cae a 0. Acaba si la energía del enemigo objetivo cae a 0."
+			},
 			"fr": {
+				"name": "Flétrissure",
+				"description": "Maléfice d'élite. Pendant 5...35 secondes, la cible ennemie subit une dégénération de santé de -2...4 et d'énergie de -1. Si l'énergie de l'ennemi visé devient nulle, il subit 15...75 points de dégâts et Flétrissure prend fin.",
+				"concise": "Maléfice d'élite. (5...35 secondes.) Provoque une dégénération de santé de -2...4 et une dégénération d'énergie de -1. Inflige 15...75 points de dégâts si l'énergie de l'ennemi visé tombe à 0. Prend fin si l'énergie de l'ennemi visé tombe à 0."
+			},
+			"fr-gwiki": {
 				"name": "Flétrissure",
 				"description": "Pendant 5...35 secondes, la cible ennemie subit une dégénération de santé de -2...4 et d'énergie de -1. Si l'énergie de l'ennemi visé devient nulle, il subit 15...75 points de dégâts et Flétrissure prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Appassimento",
+				"description": "Fattura d'Élite. Per 5...35 secondo[i], l'obiettivo nemico subisce una Degenerazione della Salute di -2...4 e una Degenerazione dell'Energia di -1; se l'Energia dell'obiettivo nemico scende a 0, quel nemico subisce 15...75 danno[i] e questa abilità termina.",
+				"concise": "Fattura d'Élite. (Secondi: 5...35) Degenerazione Salute: -2...4. Degenerazione Energia: -1. Danni inferti: 15...75 se l'Energia dell'obiettivo nemico scende a 0.Termina se l'Energia di questo nemico scende a 0."
+			},
+			"jp": {
+				"name": "ウィザー",
+				"description": "エリート弱体化スペル： 5...35 秒間、ターゲットした敵は体力の自然回復力が 2...4、エネルギーの自然回復力が1減少します。ターゲットした敵のエネルギーが0になると、その敵は 15...75 のダメージを受け、この効果は消失します。",
+				"concise": "エリート弱体化スペル： (5...35 秒) 体力の自然回復力が 2...4、エネルギーの自然回復力が1減少します。ターゲットした敵のエネルギーが0になると、15...75 のダメージを与えます。ターゲットのエネルギーが0になると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "쇠약",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 5...35초 동안 대상의 체력 재생이 2...4, 에너지 재생이 1 감소합니다. 대상의 에너지가 0이 되면 대상은 15...75의 대미지를 입고 효과가 끝납니다.",
+				"concise": "엘리트 약화 마법. (5...35초) 대상의 체력 재생이 2...4, 에너지 재생이 1 감소합니다. 대상의 에너지가 0이 되면 대상은 15...75의 대미지를 입습니다. 대상의 에너지가 0이 되면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Więdnięcie",
+				"description": "Elitarna klątwa (czar). Przez 5...35 sek., wybrany przeciwnik posiada degenerację żywotności -2...4 oraz degeneracji energii -1. Jeżeli energia wybranego przeciwnika dojdzie do 0, otrzyma on 15...75 pkt. obrażeń, a Więdnięcie przestanie działać.",
+				"concise": "Elitarna klątwa (czar). (5...35 sek.) Powoduje degenerację żywotności -2...4 i degenerację energii -1. Zadaje 15...75 pkt. obrażeń, jeżeli energia wybranego przeciwnika spadnie do 0. Przestanie działać, jeśli energia tego przeciwnika spadnie do 0."
+			},
+			"ru": {
+				"name": "Wither",
+				"description": "Элитное заклинание-проклятье. В течение 5...35 сек у выбранного противника скорость восстановления здоровья уменьшается на 2...4 ед. и скорость восстановления энергии уменьшается на 1 ед. Если запас энергии выбранного противника достигает 0, он получает 15...75 ед. урона, а Wither заканчивает свое действие",
+				"concise": "Элитное заклинание-проклятье. (5...35 сек) Уменьшает скорость восстановления здоровья на 2...4 ед. и скорость восстановления энергии на 1 ед. Наносит 15...75 ед. урона, если у выбранного противника энергия падает до 0. Заканчивается, если у этого противника энергия падает до 0."
+			},
+			"bork": {
+				"name": "Veezeer",
+				"description": "Ileete-a Hex Spell. Fur 5...35 secunds, taerget fue-a sooffffers -2...4 Heaelt degeneraeshun und -1 Inergy degeneraeshun. Iff taerget fue-a's Inergy reaeches 0, thaet fue-a taekes 15...75 daemaege-a und Veezeer inds.",
+				"concise": "Ileete-a Hex Spell. (5...35 secunds.) Cooses -2...4 Heaelt degeneraeshun und -1 Inergy degeneraeshun. Deaels 15...75 daemaege-a iff taerget fue-a's Inergy drups tu 0. Inds iff thees fue-a's Inergy drups tu 0."
 			}
 		}
 	}

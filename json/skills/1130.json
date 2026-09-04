@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "圣光之矛",
+				"description": "咒文。 圣光之矛飞向目标敌人，在命中时对其造成 26...56 神圣伤害。如果圣光之矛命中正在进行攻击的敌人，将额外造成 15...60 伤害。",
+				"concise": "咒文。 圣光之矛飞向目标敌人，在命中时对其造成 26...56 神圣伤害。如果圣光之矛命中正在进行攻击的敌人，将额外造成 15...60 伤害。"
+			},
+			"cht": {
+				"name": "光之標槍",
+				"description": "咒文魔法： 光之標槍飛向目標敵人，在命中時對其造成 26...56 神聖傷害。若光之標槍命中正在進行攻擊的敵人，將額外造成 15...60 傷害。",
+				"concise": "咒文魔法： 光之標槍飛向目標敵人，在命中時對其造成 26...56 神聖傷害。若光之標槍命中正在進行攻擊的敵人，將額外造成 15...60 傷害。"
+			},
 			"de": {
+				"name": "Speer des Lichts",
+				"description": "Zauber. Speer des Lichts fliegt auf den Gegner zu und fügt ihm, falls er trifft, 26...56 Punkt[e] heiligen Schaden zu. Speer des Lichts fügt +15...60 Punkt[e] Schaden zu, wenn er einen angreifenden Gegner trifft.",
+				"concise": "Zauber. Geschoss: Richtet 26...56 Punkt[e] heiligen Schaden an. Richtet zusätzlich 15...60 Punkt[e] Schaden an, falls der Gegner gerade angreift."
+			},
+			"de-guildwiki": {
 				"name": "Speer des Lichts",
 				"description": "Speer des Lichts fliegt auf den Gegner zu und fügt ihm, falls er trifft, 26...56 Punkte heiligen Schaden zu. Speer des Lichts fügt +15...60 Punkte Schaden zu, wenn er einen angreifenden Gegner trifft.",
 				"concise": "Geschoss: Richtet 26...56 Punkte heiligen Schaden an. Richtet zusätzlich 15...60 Punkte Schaden an, falls der Gegner gerade angreift."
 			},
 			"en": {
 				"name": "Spear of Light",
+				"description": "Spell. Spear of Light flies toward target foe and deals 26...56 holy damage if it hits. Spear of Light deals +15...60 damage if it hits an attacking foe.",
+				"concise": "Spell. Projectile: deals 26...56 holy damage. Deals 15...60 more damage if target foe is attacking."
+			},
+			"en-gww": {
+				"name": "Spear of Light",
 				"description": "Spear of Light flies toward target foe and deals 26...56 holy damage if it hits. Spear of Light deals +15...60 damage if it hits an attacking foe.",
 				"concise": "Projectile: deals 26...56 holy damage. Deals 15...60 more damage if target foe is attacking."
 			},
+			"es": {
+				"name": "Lanza de luz",
+				"description": "Conjuro. Una lanza de luz vuela al enemigo objetivo, que hará 26...56 de daño sagrado si le alcanza y +15...60 de daño extra si estaba atacando.",
+				"concise": "Conjuro. Proyectil: hace 26...56 de daño sagrado. 15...60 de daño extra si el enemigo objetivo está atacando."
+			},
 			"fr": {
+				"name": "Lance de lumière",
+				"description": "Sort. La Lance de lumière se dirige en direction de l'ennemi et inflige 26...56 points de dégâts sacrés si elle touche sa cible. La Lance de lumière inflige +15...60 points de dégâts si elle touche un ennemi qui attaque.",
+				"concise": "Sort. Projectile : inflige 26...56 points de dégâts sacrés. Inflige 15...60 points de dégâts supplémentaires si la cible ennemie attaque."
+			},
+			"fr-gwiki": {
 				"name": "Lance de lumière",
 				"description": "La Lance de lumière se dirige en direction de l'ennemi et inflige 26...56 points de dégâts sacrés si elle touche sa cible. La Lance de lumière inflige +15...60 points de dégâts si elle touche un ennemi qui attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancia di Luce",
+				"description": "Magia. La Lancia di Luce vola verso l'obiettivo nemico e, se va a segno, infligge 26...56 danno[i] sacro[i]; se colpisce un nemico all'attacco gli infligge +15...60 danno[i].",
+				"concise": "Magia. Proiettile. Danni sacri: 26...56. Assesta 15...60 danno[i] in più se l'obiettivo nemico sta attaccando."
+			},
+			"jp": {
+				"name": "ライト スピア",
+				"description": "スペル： ターゲットした敵に、命中すると 26...56 の神聖ダメージを与えるライト スピアを投げつけます。敵が攻撃中の場合、15...60 の追加ダメージを与えます。",
+				"concise": "スペル： 遠投攻撃： 26...56 の神聖ダメージを与えます。ターゲットした敵が攻撃中の場合、15...60 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "광휘의 창",
+				"description": "마법. 대상 지정: 적. 광휘의 창을 대상에게 날려 26...56의 신성 대미지를 줍니다. 그 대상이 공격 중이었다면 15...60의 대미지를 추가로 줍니다.",
+				"concise": "마법. 발사체: 26...56의 신성 대미지를 줍니다. 대상이 공격 중이면 15...60의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Włócznia Światła",
+				"description": "Czar. Jeśli Włócznia Światła trafi w wybranego przeciwnika, zadaje 26...56 pkt. świętych obrażeń. Jeśli trafi w atakującego przeciwnika zadaje +15...60 pkt. obrażeń.",
+				"concise": "Czar. Pocisk: zadaje 26...56 pkt. świętych obrażeń. Zadaje 15...60 pkt. dodatkowych obrażeń, jeżeli wybrany przeciwnik atakuje."
+			},
+			"ru": {
+				"name": "Spear of Light",
+				"description": "Заклинание. Вы бросаете Spear of Light в выбранного противника, нанося 26...56 ед. урона святой силой в случае попадания. Spear of Light наносит дополнительно 15...60 ед. урона, если попадает в атакующего противника.",
+				"concise": "Заклинание. Метательный снаряд: наносит 26...56 ед. урона святой силой. Наносит дополнительно 15...60 ед. урона, если выбранный противник атакует."
+			},
+			"bork": {
+				"name": "Speaer ooff Leeght",
+				"description": "Spell. Speaer ooff Leeght fleees tooaerd taerget fue-a und deaels 26...56 huly daemaege-a iff it heets. Speaer ooff Leeght deaels +15...60 daemaege-a iff it heets un aettaeckeeng fue-a.",
+				"concise": "Spell. Prujecteele-a: deaels 26...56 huly daemaege-a. Deaels 15...60 mure-a daemaege-a iff taerget fue-a is aettaeckeeng."
 			}
 		}
 	}

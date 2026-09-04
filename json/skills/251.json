@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "堕落治疗",
+				"description": "负面魔法。 在30秒内，每当目标敌人受到治疗时，治疗者将受到15...80点神圣伤害。",
+				"concise": "负面魔法。 每当目标敌人受到治疗时，治疗者将受到15...80点神圣伤害。"
+			},
+			"cht": {
+				"name": "災禍治癒",
+				"description": "降咒魔法： 持續 30 秒，每一次目標敵人被治療時，治療者將受到 15...80 神聖傷害。",
+				"concise": "降咒魔法： 持續 30 秒，每一次目標敵人被治療時，治療者將受到 15...80 神聖傷害。"
+			},
 			"de": {
+				"name": "Geißelheilung",
+				"description": "Verhexung. 30 Sekunden lang erleidet der Heiler jedes Mal, wenn er den Zielgegner heilt, 15...80 Punkt[e] heiligen Schaden.",
+				"concise": "Verhexung. 30 Sekunden: Wenn der Gegner geheilt wird, erleidet der Heiler 15...80 Punkt[e] heiligen Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Geißelheilung",
 				"description": "30 Sekunden lang erleidet der Heiler jedes Mal, wenn er den Zielgegner heilt, 15...80 Punkte heiligen Schaden.",
 				"concise": "30 Sekunden: Wenn der Gegner geheilt wird, erleidet der Heiler 15...80 Punkte heiligen Schaden."
 			},
 			"en": {
 				"name": "Scourge Healing",
+				"description": "Hex Spell. For 30 seconds, every time target foe is healed, the healer takes 15...80 holy damage.",
+				"concise": "Hex Spell. (30 seconds.) Whenever target foe is healed, the healer takes 15...80 holy damage."
+			},
+			"en-gww": {
+				"name": "Scourge Healing",
 				"description": "For 30 seconds, every time target foe is healed, the healer takes 15...80 holy damage.",
 				"concise": "(30 seconds.) Whenever target foe is healed, the healer takes 15...80 holy damage."
 			},
+			"es": {
+				"name": "Castigar curación",
+				"description": "Conjuro con maleficio. Durante 30 segundos, cada vez que el enemigo objetivo sea sanado, el que lo cure recibirá 15...80 de daño sagrado.",
+				"concise": "Conjuro con maleficio. (30 segundos). Cada vez que el enemigo objetivo sea curado, el que lo haga recibirá 15...80 de daño sagrado."
+			},
 			"fr": {
+				"name": "Guérison néfaste",
+				"description": "Maléfice. Pendant 30 secondes, à chaque fois que l'ennemi visé est soigné, la créature qui le soigne subit 15...80 points de dégâts sacrés.",
+				"concise": "Maléfice. (30 secondes.) Chaque fois que l'ennemi visé est soigné, le soigneur subit 15...80 points de dégâts sacrés."
+			},
+			"fr-gwiki": {
 				"name": "Guérison néfaste",
 				"description": "Pendant 30 secondes, à chaque fois que l'ennemi visé est soigné, la créature qui le soigne subit 15...80 points de dégâts sacrés.",
 				"concise": "(30 secondes.) Chaque fois que l'ennemi visé est soigné, le soigneur subit 15...80 points de dégâts sacrés."
+			},
+			"it": {
+				"name": "Guarigione Flagello",
+				"description": "Fattura. Per 30 secondi, ogni volta che l'obiettivo nemico viene curato, chi lo cura subisce 15...80 danni sacri.",
+				"concise": "Fattura. (Secondi: 30) Ogni volta che l'obiettivo nemico viene curato, chi lo cura subisce 15...80 danno[i] sacro[i]."
+			},
+			"jp": {
+				"name": "スカージ ヒーリング",
+				"description": "弱体化スペル： 30秒間、ターゲットした敵の体力が回復するたびに、その回復者に 15...80 の神聖ダメージを与えます。",
+				"concise": "弱体化スペル： (30秒) ターゲットした敵の体力が回復するたびに、その回復者に 15...80 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "치유의 재앙",
+				"description": "약화 마법. 대상 지정: 적. 30초 동안 대상이 치유를 받으면 대상을 치유한 적은 15...80의 신성 대미지를 입습니다.",
+				"concise": "약화 마법. (30초) 대상이 치유를 받을 때마다 대상을 치유한 적은 15...80의 신성 대미지를 입습니다."
+			},
+			"pl": {
+				"name": "Zgubne Leczenie",
+				"description": "Klątwa (czar). Przez 30 sek., za każdym razem, kiedy wybrany przeciwnik będzie uzdrawiany, uzdrawiający otrzyma 15...80 pkt. świętych obrażeń.",
+				"concise": "Klątwa (czar). (30 sek.) Za każdym razem, kiedy wybrany przeciwnik będzie uzdrawiany, uzdrawiający otrzyma 15...80 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Scourge Healing",
+				"description": "Заклинание-проклятье. В течение 30 сек каждый раз, когда выбранный противник исцеляется, лечивший его получит 15...80 ед. урона святой силой.",
+				"concise": "Заклинание-проклятье. (30 сек) Каждый раз, когда выбранный противник исцеляется, лечивший его получит 15...80 ед. урона святой силой."
+			},
+			"bork": {
+				"name": "Scuoorge-a Heaeleeng",
+				"description": "Hex Spell. Fur 30 secunds, ifery teeme-a taerget fue-a is heaeled, zee heaeler taekes 15...80 huly daemaege-a. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (30 secunds.) Vhenefer taerget fue-a is heaeled, zee heaeler taekes 15...80 huly daemaege-a."
 			}
 		}
 	}

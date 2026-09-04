@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "极度深寒",
+				"description": "负面魔法。 在目标敌人位置引发极度深寒。使该地点的所有敌人受到10...85点冰冻伤害，移动速度减缓 66%，效果持续 10秒。",
+				"concise": "负面魔法。 在目标敌人位置引发极度深寒。使该地点的所有敌人受到10...85点冰冻伤害，移动速度减缓 66%，效果持续 10秒。"
+			},
+			"cht": {
+				"name": "強力凍結",
+				"description": "降咒魔法： 在目標敵人所在地點引發強力凍結。使該地點的所有敵人受到 10...85 冰凍傷害，並且移動速度減慢 66% ，持續 10 秒。",
+				"concise": "降咒魔法： 在目標敵人所在地點引發強力凍結。使該地點的所有敵人受到 10...85 冰凍傷害，並且移動速度減慢 66% ，持續 10 秒。"
+			},
 			"de": {
+				"name": "Tiefgefrieren",
+				"description": "Verhexung. Die Position des Gegners wird tiefgefroren. Alle Feinde in diesem Bereich erleiden 10...85 Punkt[e] Kälteschaden und bewegen sich 10 Sekunden lang um 66% langsamer.",
+				"concise": "Verhexung. Verhext auch Feinde im Bereich Eures Gegners (10 Sekunden). Diese Feinde bewegen sich um 66% langsamer. Anfangswirkung: Richtet 10...85 Punkt[e] Kälteschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Tiefgefrieren",
 				"description": "Die Position des Gegners wird tiefgefroren. Alle Feinde in diesem Bereich erleiden 10...85 Punkte Kälteschaden und bewegen sich 10 Sekunden lang um 66% langsamer.",
 				"concise": "Verhext auch Feinde im Bereich Eures Gegners (10 Sekunden). Die Betroffenen bewegen sich um 66% langsamer. Anfangswirkung: Richtet 10...85 Punkte Kälteschaden an."
 			},
 			"en": {
 				"name": "Deep Freeze",
+				"description": "Hex Spell. You cause a Deep Freeze at target foe's location. All foes in this area are struck for 10...85 cold damage, and for 10 seconds, they move 66% slower.",
+				"concise": "Hex Spell. Also hexes foes in the area of your target (10 seconds). These foes move 66% slower. Initial effect: deals 10...85 cold damage."
+			},
+			"en-gww": {
+				"name": "Deep Freeze",
 				"description": "You cause a Deep Freeze at target foe's location. All foes in this area are struck for 10...85 cold damage, and for 10 seconds, they move 66% slower.",
 				"concise": "Also hexes foes in the area of your target (10 seconds). These foes move 66% slower. Initial effect: deals 10...85 cold damage."
 			},
+			"es": {
+				"name": "Congelación",
+				"description": "Conjuro con maleficio. Invocas una Congelación en la ubicación del enemigo. Todos los que estén en el área reciben 10...85 de daño frío y su velocidad se reduce un 66% durante 10 segundos.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos en la zona del objetivo (10 segundos). Estos enemigos se moverán un 66% más despacio. Efecto inicial: hace 10...85 de daño frío."
+			},
 			"fr": {
+				"name": "Congélation",
+				"description": "Maléfice. La zone où se trouve l'ennemi est congelée. Tous les ennemis à cet endroit subissent 10...85 points de dégâts du froid. Pendant 10 secondes, ils se déplacent 66% moins vite.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis se trouvant dans la zone de votre cible (10 secondes). Ces ennemis se déplacent 66% moins vite. Effet initial : inflige 10...85 points de dégâts du froid."
+			},
+			"fr-gwiki": {
 				"name": "Congélation",
 				"description": "La zone où se trouve l'ennemi est congelée. Tous les ennemis à cet endroit subissent 10...85 points de dégâts du froid. Pendant 10 secondes, ils se déplacent 66% moins vite.",
 				"concise": "Inflige également des maléfices aux ennemis à proximité de la cible (10 secondes). Ces ennemis se déplacent 66% moins vite. Effet initial : inflige 10...85 points de dégâts du froid."
+			},
+			"it": {
+				"name": "Profondo Congelamento",
+				"description": "Fattura. Provochi un Profondo Congelamento nella posizione dell'obiettivo nemico. Tutti i nemici in quest'area subiscono 10...85 danni da freddo e per 10 secondi i movimenti dei nemici rallentano del 66%.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici nell'area dell'obiettivo (10 secondi). I movimenti di questi nemici sono più lenti del 66%. Effetto iniziale: danni da freddo inferti: 10...85."
+			},
+			"jp": {
+				"name": "ディープ フリーズ",
+				"description": "弱体化スペル： ターゲットした敵の場所に大寒波を発生させます。そのエリア内にいる敵はすべて 10...85 のコールド ダメージを受け、10秒間、移動速度が66%減少します。",
+				"concise": "弱体化スペル： (10秒) ターゲットした敵およびそのエリア内にいる敵は、移動速度が66%減少します。発動効果： 10...85 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "심연의 빙하",
+				"description": "약화 마법. 대상 지정: 적. 대상 위치에 심연의 빙하를 만듭니다. 일정 범위 내에 있는 모든 적은 10...85의 냉기 대미지를 입고, 10초 동안 이동 속도가 66% 느려집니다. 자신이 피로 상태면 적들의 스킬을 방해하고, 그 스킬은 10초 동안 추가로 사용할 수 없게 됩니다.",
+				"concise": "약화 마법. (10초) 대상과 일정 범위 내에 있는 적들의 이동 속도를 66% 느려지게 합니다. 초기 효과: 적들에게 10...85의 냉기 대미지를 주고, 자신이 피로 상태면 스킬을 방해하고, 그 스킬을 10초 동안 추가로 사용할 수 없게 합니다."
+			},
+			"pl": {
+				"name": "Przenikliwy Chłód",
+				"description": "Klątwa (czar). Wywołaj Przenikliwy Chłód w miejscu, gdzie znajduje się wybrany przeciwnik. Wszyscy przeciwnicy w okolicy otrzymują 10...85 pkt. obrażeń od zimna oraz przez 10 sek. poruszają się o 66% wolniej.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników w okolicy twojego celu (10 sek.). Ci przeciwnicy poruszają się o 66% wolniej. Efekt początkowy: zadaje 10...85 pkt. obrażeń od zimna."
+			},
+			"ru": {
+				"name": "Deep Freeze",
+				"description": "Заклинание-проклятье. Вы создаете Deep Freeze в местоположении выбранного противника. Все противники в зоне досягаемости от этого места получают 10...85 ед. урона силой холода, и в течение 10 сек они двигаются на 66% медленнее.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников в зоне досягаемости от цели (10 сек). Эти противники двигаются на 66% медленнее. Начальный эффект: наносит 10...85 ед. урона силой холода."
+			},
+			"bork": {
+				"name": "Deep Freeze-a",
+				"description": "Hex Spell. Yuoo coose-a a Deep Freeze-a aet taerget fue-a's lucaeshun. Aell fues in thees aerea aere-a stroock fur 10...85 culd daemaege-a, und fur 10 secunds, zeey mufe-a 66% slooer.",
+				"concise": "Hex Spell. Aelsu hexes fues in zee aerea ooff yuoor taerget (10 secunds). Zeese-a fues mufe-a 66% slooer. Ineeteeael iffffect: deaels 10...85 culd daemaege-a."
 			}
 		}
 	}

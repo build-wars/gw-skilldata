@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 2,
 		"adrenaline": 1,
 		"adrenaline_precise": 1,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幸运招架",
+				"description": "精英姿态。 持续 8 秒，你格挡下一次敌人对你的攻击并且获得等同于 1...4 次攻击积累的怒气值。",
+				"concise": "精英姿态。 持续 8 秒，你格挡下一次敌人对你的攻击并且获得等同于 1...4 次攻击积累的怒气值。"
+			},
+			"cht": {
+				"name": "幸運迴避",
+				"description": "精英態勢： 持續 8 秒，你格檔下一次遭受的攻擊，此態勢終止時你獲得 1...4 次攻擊的怒氣值。",
+				"concise": "精英態勢： 持續 8 秒，你格檔下一次遭受的攻擊，此態勢終止時你獲得 1...4 次攻擊的怒氣值。"
+			},
 			"de": {
+				"name": "Günstige Abwehr",
+				"description": "Elite-Haltung. 8 Sekunde[n] lang wird der nächste Angriff gegen Euch geblockt. Ihr erhaltet 1...4 Adrenalinstöße, wenn diese Haltung endet.",
+				"concise": "Elite-Haltung. (8 Sekunde[n].) Blockt einen Angriff. Wirkung am Ende: Ihr erhaltet 1...4 Adrenalinstöße."
+			},
+			"de-guildwiki": {
 				"name": "Günstige Abwehr",
 				"description": "8 Sekunden lang wird der nächste Angriff gegen Euch geblockt und diese Haltung endet. Ihr erhaltet 1...4 Adrenalinstöße, wenn diese Haltung endet.",
 				"concise": "(8 Sekunden.) Blockt einen Angriff. Wirkung am Ende: Ihr erhaltet 1...4 Adrenalinstöße."
 			},
 			"en": {
 				"name": "Auspicious Parry",
+				"description": "Elite Stance. For 8 seconds, the next attack against you is blocked. You gain 1...4 strikes of adrenaline when this stance ends.",
+				"concise": "Elite Stance. (8 seconds.) Blocks one attack. End effect: you gain 1...4 strikes of adrenaline."
+			},
+			"en-gww": {
+				"name": "Auspicious Parry",
 				"description": "For 8 seconds, the next attack against you is blocked. You gain 1...4 strike[s] of adrenaline when this stance ends.",
 				"concise": "(8 seconds.) Blocks one attack. End effect: you gain 1...4 strike[s] of adrenaline."
 			},
+			"es": {
+				"name": "Bloqueo favorable",
+				"description": "Actitud de élite. Durante 8 segundos, bloqueas el siguiente ataque contra ti. Ganas 1...4 golpes de adrenalina cuando esta actitud acabe.",
+				"concise": "Actitud de élite. (8 segundos). Bloquea un ataque. Efecto final: ganas 1...4 golpes de adrenalina."
+			},
 			"fr": {
+				"name": "Parade propice",
+				"description": "Pose de combat d'élite. Pendant 8 secondes, la prochaine attaque lancée contre vous est bloquée. Vous gagnez 1...4 décharges d'adrénaline lorsque cette pose prend fin.",
+				"concise": "Pose de combat d'élite. (8 secondes.) Bloque une attaque. Effet final : vous gagnez 1...4 décharges d'adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Parade propice",
 				"description": "Pendant 8 secondes, la prochaine attaque contre vous est bloquée. Lorsque cet pose prend fin, vous gagnez 1...4 décharges d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Parata Propizia",
+				"description": "Posizione d'Élite. Per 8 secondo[i], il prossimo attacco a te diretto viene bloccato. Ottieni 1...4 dose[i] di adrenalina al termine di questa posizione.",
+				"concise": "Posizione d'Élite. (Secondo[i]: 8). Blocca un attacco. Effetto al termine: ottieni 1...4 dose[i] di adrenalina."
+			},
+			"jp": {
+				"name": "オースピシャス パリー",
+				"description": "エリート スタンス： 8 秒間、最初に受ける攻撃をブロックします。この効果が消失すると、1...4 発のアドレナリンを獲得します。",
+				"concise": "エリート スタンス： (8 秒) 攻撃を1回ブロックします。終了効果： 1...4 発のアドレナリンを獲得します。"
+			},
+			"kr": {
+				"name": "행운의 방어 자세",
+				"description": "엘리트 자세. 대상 지정: 없음. 8초 동안 자신을 대상으로 한 처음 공격을 막습니다. 자세가 끝나면 1...4번 공격에 성공한 만큼의 아드레날린을 얻습니다.",
+				"concise": "엘리트 자세. (8초) 공격을 1번 막습니다. 종료 효과: 1...4번 공격에 성공한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Pomyślne Parowanie",
+				"description": "Postawa elitarna. Przez 8 sek., następny atak skierowany w ciebie zostanie zablokowany. Otrzymasz dawki adrenaliny w liczbie 1...4 po zakończeniu działania tej postawy.",
+				"concise": "Postawa elitarna. (8 sek.) Blokuje jeden atak. Efekt końcowy: otrzymujesz dawki adrenaliny (1...4)."
+			},
+			"ru": {
+				"name": "Auspicious Parry",
+				"description": "Элитная стойка. В течение 8 сек вы блокируете следующую проведенную против вас атаку. Вы получаете 1...4 ед. адреналина, когда действие этой стойки заканчивается.",
+				"concise": "Элитная стойка. (8 сек) Блокирует одну атаку. Эффект окончания: вы получаете 1...4 ед. адреналина."
+			},
+			"bork": {
+				"name": "Oospeeceeuoos Paerry",
+				"description": "Ileete-a Stunce-a. Fur 8 secunds, zee next aettaeck aegaeeenst yuoo is blucked. Yuoo gaeeen 1...4 streeke-as ooff aedrenaeleene-a vhee thees stunce-a inds.",
+				"concise": "Ileete-a Stunce-a. (8 secunds.) Blucks oone-a aettaeck. Ind iffffect: yuoo gaeeen 1...4 streeke-as ooff aedrenaeleene-a."
 			}
 		}
 	}

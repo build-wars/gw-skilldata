@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蓄能的结束曲",
+				"description": "回音技。 在10...35秒之内，当「圣歌」或「战吼」的效果在「非灵体」目标盟友身上消失时，该盟友将回复1...2点能量值。",
+				"concise": "回音技。 在10...35秒之内，当「圣歌」或「战吼」的效果在「非灵体」目标盟友身上消失时，该盟友将回复1...2点能量值。"
+			},
+			"cht": {
+				"name": "能量樂章",
+				"description": "迴響： 持續 10...35 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，該盟友獲得 1...2 能量。",
+				"concise": "迴響： 持續 10...35 秒，每當「戰嚎」或「聖歌」的效果在「非靈」的目標盟友身上結束時，該盟友獲得 1...2 能量。"
+			},
 			"de": {
+				"name": "Energie bringendes Finale",
+				"description": "Echo. 10...35 Sekunde[n] lang erhält der Nicht-Geister-Verbündete jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, 1...2 Energiepunkt[e].",
+				"concise": "Echo. 10...35 Sekunde[n]: Der Verbündete (bzw. Ihr selbst) erhält jedes Mal 1...2 Energiepunkt[e], wenn ein Schrei oder Anfeuerungsruf auf ihm endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Energie bringendes Finale",
 				"description": "10...35 Sekunden lang erhält der Nicht-Geister-Verbündete (bzw. Ihr selbst) jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, 1...2 Energiepunkt(e).",
 				"concise": "10...35 Sekunden: Der Verbündete (bzw. Ihr selbst) erhält jedes Mal 1...2 Energiepunkt(e), wenn ein Schrei oder Anfeuerungsruf auf ihm endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Energizing Finale",
+				"description": "Echo. For 10...35 seconds, whenever a shout or chant ends on target non-spirit ally, that ally gains 1...2 Energy.",
+				"concise": "Echo. (10...35 seconds.) Target ally gains 1...2 Energy whenever a shout or chant ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Energizing Finale",
 				"description": "For 10...35 seconds, whenever a shout or chant ends on target non-spirit ally, that ally gains 1...2 Energy.",
 				"concise": "(10...35 seconds.) Target ally gains 1...2 Energy whenever a shout or chant ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Final vigorizante",
+				"description": "Eco. Durante 10...35 segundos, cada vez que los efectos de un grito o cántico terminen en el aliado objetivo no espíritu, éste ganará 1...2 de energía.",
+				"concise": "Eco. (10...35 segundos). El objetivo (un aliado o tú mismo) gana 1...2 de energía cada vez que los efectos de un cántico o grito acaben en él.No se puede apuntar a un espíritu."
+			},
 			"fr": {
+				"name": "Finale énergisant",
+				"description": "Echo. Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible reçoit 1...2 points d'énergie.",
+				"concise": "Echo. (10...35 secondes.) L'allié visé gagne 1...2 points d'énergie chaque fois qu'un chant ou un cri l'affectant prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Finale énergisant",
 				"description": "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible reçoit 1...2 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Finale Energetico",
+				"description": "Eco. Per 10...35 secondo[i], ogni volta che un canto o un urlo termina sull'obiettivo alleato (Spiriti esclusi), questi ottiene 1...2 Punto[i] Energia.",
+				"concise": "Eco. (Secondi: 10...35) Energia conseguita dall'obiettivo (un alleato o te stesso) quando un urlo o un canto termina su di lui. Impossibile selezionare gli Spiriti."
+			},
+			"jp": {
+				"name": "エナジャイズ フィナーレ",
+				"description": "エコー： 10...35 秒間、ターゲットした精霊以外の味方は、かけられたシャウトやチャントの効果が消失するたびに 1...2 のエネルギーを獲得します。",
+				"concise": "エコー： (10...35 秒) ターゲットした味方にかけられているシャウトまたはチャントの効果が消失するたびに、ターゲットは 1...2 のエネルギーを獲得します。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "격려의 피날레",
+				"description": "공명. 대상 지정: 아군. 10...35초 동안 영혼이 아닌 대상에 걸린 고함이나 영창이 끝날 때마다 대상은 1...2의 에너지를 얻습니다.",
+				"concise": "공명. (10...35초) 대상 아군에 걸린 고함이나 영창이 끝날 때마다 대상은 1...2의 에너지를 얻습니다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Energetyzujący Finał",
+				"description": "Echo. Przez 10...35 sek., za każdym razem, kiedy okrzyk lub zaśpiew przestaną działać na wybranym sojuszniku nie-duchu, otrzymuje on 1...2 pkt. energii.",
+				"concise": "Echo. (10...35 sek.) Wybrany sojusznik otrzymuje 1...2 pkt. energii za każdym razem, kiedy przestaje na nim działać zaśpiew lub okrzyk. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Energizing Finale",
+				"description": "Эхо. В течение 10...35 сек каждый раз, когда заканчивает свое действие хорал или крик, влияющий на выбранного союзника, не являющегося духом, этот союзник получает 1...2 ед. энергии.",
+				"concise": "Эхо. (10...35 сек) Выбранный союзник получает 1...2 ед. энергии каждый раз, когда заканчивается влияющий на него хорал или крик. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Inergeezeeng Feenaele-a",
+				"description": "Ichu. Fur 10...35 secunds, vhenefer a shuoot oor chunt inds oon taerget nun-spureet aelly, thaet aelly gaeeens 1...2 Inergy.",
+				"concise": "Ichu. (10...35 secunds.) Taerget aelly gaeeens 1...2 Inergy vhenefer a shuoot oor chunt inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

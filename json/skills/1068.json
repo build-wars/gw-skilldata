@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "深寒",
+				"description": "咒文。 使目标敌人受到 15...60点 冰冻伤害。如果目标敌人的生命值多于你，则此技能立即恢复。",
+				"concise": "咒文。 使目标敌人受到 15...60点 冰冻伤害。如果目标敌人的生命值多于你，则此技能立即恢复。"
+			},
+			"cht": {
+				"name": "冷冽嚴寒",
+				"description": "咒文魔法： 使目標敵人受到 15...60 冰凍傷害。若目標敵人的體力比你多，則此技能立即回復。",
+				"concise": "咒文魔法： 使目標敵人受到 15...60 冰凍傷害。若目標敵人的體力比你多，則此技能立即回復。"
+			},
 			"de": {
+				"name": "Bitterkalt",
+				"description": "Zauber. Der Gegner erleidet 15...60 Punkt[e] Kälteschaden. Wenn dieser Gegner mehr Lebenspunkte als Ihr hat, wird Bitterkalt sofort wieder aufgeladen.",
+				"concise": "Zauber. Richtet 15...60 Punkt[e] Kälteschaden an. Lädt sich sofort wieder auf, falls der Gegner mehr Lebenspunkte hatte als Ihr."
+			},
+			"de-guildwiki": {
 				"name": "Bitterkalt",
 				"description": "Der Gegner erleidet 15...60 Punkte Kälteschaden. Wenn dieser Gegner mehr Lebenspunkte als Ihr hat, wird Bitterkalt sofort wieder aufgeladen.",
 				"concise": "Richtet 15...60 Punkte Kälteschaden an. Lädt sich sofort wieder auf, falls der Gegner mehr Lebenspunkte hatte als Ihr."
 			},
 			"en": {
 				"name": "Bitter Chill",
+				"description": "Spell. Target foe is struck for 15...60 cold damage. If that foe had more Health than you, Bitter Chill recharges instantly.",
+				"concise": "Spell. Deals 15...60 cold damage. Recharges instantly if target foe had more Health than you."
+			},
+			"en-gww": {
+				"name": "Bitter Chill",
 				"description": "Target foe is struck for 15...60 cold damage. If that foe had more Health than you, Bitter Chill recharges instantly.",
 				"concise": "Deals 15...60 cold damage. Recharges instantly if target foe had more Health than you."
 			},
+			"es": {
+				"name": "Escalofrío punzante",
+				"description": "Conjuro. Haces al enemigo objetivo 15...60 de daño frío. Si éste tenía más salud que tú, el Escalofrío punzante se recargará inmediatamente.",
+				"concise": "Conjuro. Hace 15...60 de daño frío. Se recarga al instante si el enemigo objetivo tiene más salud que tú."
+			},
 			"fr": {
+				"name": "Frisson amer",
+				"description": "Sort. La cible ennemie subit 15...60 points de dégâts du froid. Si cet ennemi avait plus de santé que vous, le Frisson amer se rechargera instantanément.",
+				"concise": "Sort. Inflige 15...60 points de dégâts du froid. Se recharge instantanément si la cible ennemie a une santé supérieure à la vôtre."
+			},
+			"fr-gwiki": {
 				"name": "Frisson amer",
 				"description": "La cible ennemie subit 15...60 points de dégâts du froid. Si cet ennemi avait plus de santé que vous, le Frisson amer se rechargera instantanément.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Freddo Pungente",
+				"description": "Magia. L'obiettivo nemico subisce 15...60 danno[i] da freddo; se aveva più Salute di te, il Freddo Pungente si ricarica all'istante.",
+				"concise": "Magia. Danni da freddo inferti: 15...60. Si ricarica all'istante se l'obiettivo nemico aveva più Salute di te."
+			},
+			"jp": {
+				"name": "ビター チル",
+				"description": "スペル： ターゲットした敵に 15...60 のコールド ダメージを与えます。その敵の体力がプレイヤーより多い場合、このスキルはすぐに再使用することができます。",
+				"concise": "スペル： 15...60 のコールド ダメージを与えます。ターゲットした敵の体力がプレイヤーより多い場合、このスキルはすぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "극도의 오한",
+				"description": "마법. 대상 지정: 적. 대상에게 15...60의 냉기 대미지를 줍니다. 자신보다 그 대상의 체력이 많으면 이 스킬은 즉시 활성화됩니다.",
+				"concise": "마법. 15...60의 냉기 대미지를 줍니다. 대상의 체력이 자신보다 많으면 이 스킬이 즉시 활성화됩니다."
+			},
+			"pl": {
+				"name": "Bolesny Chłód",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 15...60 pkt. obrażeń od zimna. Jeżeli ten przeciwnik miał więcej życia niż ty, Bolesny Chłód odnawia się natychmiastowo.",
+				"concise": "Czar. Zadaje 15...60 pkt. obrażeń od zimna. Natychmiast się odnawia, jeżeli wybrany przeciwnik ma więcej żywotności niż ty."
+			},
+			"ru": {
+				"name": "Bitter Chill",
+				"description": "Заклинание. Выбранный противник получает 15...60 ед. урона силой холода. Если у этого противника больше здоровья, чем у вас, Bitter Chill немедленно перезаряжается.",
+				"concise": "Заклинание. Наносит 15...60 ед. урона силой холода. Перезаряжается немедленно, если у выбранного противника было больше здоровья, чем у вас."
+			},
+			"bork": {
+				"name": "Beetter Cheell",
+				"description": "Spell. Taerget fue-a is stroock fur 15...60 culd daemaege-a. Iff thaet fue-a haed mure-a Heaelt thun yuoo, Beetter Cheell rechaerges instuntly.",
+				"concise": "Spell. Deaels 15...60 culd daemaege-a. Rechaerges instuntly iff taerget fue-a haed mure-a Heaelt thun yuoo."
 			}
 		}
 	}

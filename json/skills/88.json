@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 33,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "维拉塔的光环",
+				"description": "增益魔法。 牺牲自己最大生命值的33%，控制所有范围内的敌对不死仆从。「维拉塔的光环」持续120...300秒。当效果消失后，所有被你控制的不死仆从将会再次与你敌对。（当「死亡魔法」属性投入在4点以下时，技能会有 50% 的几率失败。）",
+				"concise": "增益魔法。 牺牲自己最大生命值的 33%，控制所有范围内的敌对不死仆从。「维拉塔的光环」持续 120...300秒。当技能效果消失后，所有被你控制的不死仆从将会再次与你敌对。（当「死亡魔法」属性投入在 4点 以下时，技能会有 50% 的几率失败。）"
+			},
+			"cht": {
+				"name": "芙瑞達的靈氣",
+				"description": "加持魔法： 犧牲自己最大體力的 33% ，使區域內敵方的不死爪牙都受你控制。芙瑞達的靈氣在 120...300 秒後結束。當芙瑞達的靈氣結束時，所有你控制的不死爪牙與你失去主從的關係。（死亡魔法 4 以下，有 50% 失敗機率）",
+				"concise": "加持魔法： 犧牲自己最大體力的 33% ，使區域內敵方的不死爪牙都受你控制。芙瑞達的靈氣在 120...300 秒後結束。當芙瑞達的靈氣結束時，所有你控制的不死爪牙與你失去主從的關係。（死亡魔法 4 以下，有 50% 失敗機率）"
+			},
 			"de": {
+				"name": "Veratas Aura",
+				"description": "Verzauberung. Alle belebten feindlichen Untoten in dem Bereich werden an Euch gebunden. Nach 120...300 Sekunde[n] verliert Veratas Aura ihre Wirkung. Wenn Veratas Aura endet, verliert Ihr Eure Verbindung zu allen an Euch gebundenen Untoten. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Verzauberung. 120...300 Sekunde[n]: Ihr werdet zum Meister aller feindlichen untoten Diener im Bereich. Wirkung am Ende: Eure untoten Diener werden herrenlos. Mindestens Todesmagie 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Veratas Aura",
 				"description": "Alle belebten feindlichen Untoten in dem Gebiet werden an Euch gebunden. Nach 120...300 Sekunden verliert Veratas Aura seine Wirkung. Wenn Veratas Aura endet, verliert Ihr Eure Verbindung zu allen an Euch gebundenen Untoten. (Bei einer Todesmagie von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
 				"concise": "120...300 Sekunden: Ihr werdet zum Meister aller feindlichen untoten Diener im Bereich. <gray>Wirkung am Ende: Eure untoten Diener werden herrenlos. Mindestens Todesmagie Stufe 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Verata's Aura",
+				"description": "Enchantment Spell. All hostile animated undead in the area become bound to you. Verata's Aura ends after 120...300 seconds. When Verata's Aura ends, you lose your bond with any undead bound to you. (50% failure chance with Death Magic 4 or less.)",
+				"concise": "Enchantment Spell. (120...300 seconds.) Become master of all hostile undead servants in the area. End effect: your undead servants become masterless. 50% failure chance unless Death Magic 5 or more."
+			},
+			"en-gww": {
+				"name": "Verata's Aura",
 				"description": "All hostile animated undead in the area become bound to you. Verata's Aura ends after 120...300 seconds. When Verata's Aura ends, you lose your bond with any undead bound to you. (50% failure chance with Death Magic 4 or less.)",
 				"concise": "(120...300 seconds.) Become master of all hostile undead servants in the area. <gray>End effect: your undead servants become masterless. 50% failure chance unless Death Magic 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Aura de Verata",
+				"description": "Conjuro con encantamiento. Todos los muertos vivientes hostiles del área pasarán a estar vinculados contigo. El Aura de Verata acaba a los 120...300 segundos. Cuando finalice, perderás el vínculo que tengas con los muertos vivientes. (50% de posibilidades de fallo con Magia de muerte 4 o inferior).",
+				"concise": "Conjuro con encantamiento. (120...300 segundos). Te conviertes en el maestro de todos los siervos hostiles de la zona. Efecto final: tus siervos se quedan sin maestro. 50% de probabilidades de fallar con magia de muerte inferior a 5."
+			},
 			"fr": {
+				"name": "Aura de Verata",
+				"description": "Enchantement. Tous les morts-vivants animés hostiles dans les environs sont liés à vous. Les effets de l'Aura de Verata cessent au bout de 120...300 secondes. Tous les liens qui vous unissent aux morts-vivants sont alors brisés (50% de risques d'échec avec une Magie de mort de 4 ou inférieure).",
+				"concise": "Enchantement. (120...300 secondes.) Vous devenez le maître de tous les serviteurs morts-vivants hostiles de la zone. Effet final : vos serviteurs morts-vivants n'ont plus de maître. 50% de chances d'échouer sauf si la valeur de Magie de mort est de 5 ou plus."
+			},
+			"fr-gwiki": {
 				"name": "Aura de Verata",
 				"description": "Tous les morts-vivants animés hostiles dans les environs sont liés à vous. Les effets de l'Aura de Verata cessent au bout de 120...300 secondes. Tous les liens qui vous unissent aux morts-vivants sont alors brisés (50% de risques d'échec avec une Magie de la mort de 4 ou inférieur).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Aura di Verata",
+				"description": "Incantesimo. Tutti i morti viventi ostili animati presenti nell'area si legano a te. L'Aura di Verata si esaurisce dopo 120...300 secondo[i] facendoti perdere il legame con tutti i morti viventi (50% di probabilità di fallimento usando la Magia della Morte di grado 4 o inferiore).",
+				"concise": "Incantesimo. (Secondi: 120...300) Diventi padrone di tutti i morti viventi ostili nell'area. Effetto al termine: i tuoi morti viventi restano senza padrone. Probabilità di fallimento se il grado di Magia della Morte è inferiore a 5: 50%."
+			},
+			"jp": {
+				"name": "ヴェラタ オーラ",
+				"description": "強化スペル： このエリアにいる敵対的なミニオンがすべてプレイヤーに従うようになります。この効果は 120...300 秒後に消失し、その際に、すべてのミニオンとの主従関係も消滅します。「デス」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "強化スペル： (120...300 秒) エリア内の敵対するミニオンすべてのマスターになります。終了効果： 自分が召喚したミニオンとの主従関係が消滅します。「デス」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "베라타의 영기",
+				"description": "강화 마법. 대상 지정: 없음. 일정 범위 내에 있는 모든 소환된 언데드를 120...300초 동안 노예로 부립니다. 효과가 끝나면 자신에게 종속된 모든 언데드 노예와의 종속 관계가 사라집니다. 죽음 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "강화 마법. (120...300초) 일정 범위 내에 있는 모든 공격적인 언데드 노예의 주인이 됩니다. 종료 효과: 언데드 노예들이 주인 없는 노예가 됩니다. 죽음 특성 레벨이 4이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Aura Veraty",
+				"description": "Zaklęcie (czar). Wszystkie wrogie wskrzeszone sługi w okolicy stają się twoimi sługami. Aura Veraty przestanie działać po 120...300 sek. Gdy Aura Veraty przestanie działać, tracisz władzę nad wszystkimi truposzami. (50% szans na niepowodzenie, gdy Magia Śmierci wynosi 4 lub mniej.)",
+				"concise": "Zaklęcie (czar). (120...300 sek.) Zostajesz panem wszystkich wrogo nastawionych nieumarłych sług w okolicy. Efekt końcowy: twoi nieumarli słudzy stają się bezpańscy. 50% szans na niepowodzenie, chyba że wartość Magii Śmierci wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Verata's Aura",
+				"description": "Заклинание-чары. Все неприятельские ожившие нежити в зоне досягаемости становятся вашими. Verata's Aura прекращает свое действие через 120...300 сек. Когда Verata's Aura прекращает свое действие, вы теряете связь со всеми связанными с вами нежитями (50%-й шанс неудачи, если ваш талант Death Magic меньше или равен 4).",
+				"concise": "Заклинание-чары. (120...300 сек) Вы становитесь хозяином всех вражеских прислужников-нежитей в зоне досягаемости. Эффект окончания: ваши прислужники-нежити теряют хозяина. 50%-й шанс неудачи, если ваш талант Death Magic меньше 5."
+			},
+			"bork": {
+				"name": "Feraeta's Oora",
+				"description": "Inchuntment Spell. Aell husteele-a uneemaeted undeaed in zee aerea becume-a buoond tu yuoo. Feraeta's Oora inds aeffter 120...300 secunds. Vhee Feraeta's Oora inds, yuoo luse-a yuoor bund veet uny undeaed buoond tu yuoo. (50% faeeeloore-a chunce-a veet Deaet Maegeec 4 oor less.)",
+				"concise": "Inchuntment Spell. (120...300 secunds.) Becume-a maester ooff aell husteele-a undeaed serfunts in zee aerea. Ind iffffect: yuoor undeaed serfunts becume-a maesterless. 50% faeeeloore-a chunce-a unless Deaet Maegeec 5 oor mure-a."
 			}
 		}
 	}

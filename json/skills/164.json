@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "元素协调",
+				"description": "精英增益魔法。 25...60秒内，你与风火水土四元素同调，各关属性提升1...2点。每次使用对应元素魔法时，额外恢复1点+该技能基础能量消耗的50%的能量。",
+				"concise": "精英增益魔法。 （25...60秒）风火水土元素属性+1...2。使用对应元素魔法时，恢复1点+该技能基础能量消耗50%的能量。"
+			},
+			"cht": {
+				"name": "元素調和",
+				"description": "精英加持魔法： For 25...60 seconds, you are attuned to Air, Fire, Water, and Earth and gain +1...2 to these attributes. You gain 1 Energy plus 50% of the base Energy cost of the skill each time you use magic associated with any of these elements.",
+				"concise": "精英加持魔法： (25...60 seconds.) Your elemental attributes are increased by +1...2. You gain 1 plus 50% of the base Energy cost of any Air, Fire, Water, and Earth Magic skills you use."
+			},
 			"de": {
+				"name": "Elementareinstimmung",
+				"description": "Elite-Verzauberung. 25...60 Sekunden lang seid Ihr auf Luft, Feuer, Wasser und Erde eingestimmt und erhaltet +1...2 auf diese Attribute. Ihr erhaltet jedes Mal 1 Energie plus 50 % der Grund-Energiekosten der Fertigkeit, wenn Ihr Magie einsetzt, die mit einem dieser Elemente verbunden ist.",
+				"concise": "Elite-Verzauberung. (25...60 Sekunden.) Eure Elementarattribute werden um 1...2 erhöht. Ihr erhaltet 1 plus 50 % der Grund-Energiekosten aller Luft-, Feuer-, Wasser- und Erd-Magiefertigkeiten, die Ihr benutzt."
+			},
+			"de-guildwiki": {
 				"name": "Elementareinstimmung",
 				"description": "25...60 Sekunden seid Ihr auf Luft, Feuer, Wasser und Erde eingestimmt und erhaltet +1...2 auf diese Attribute. Jedes Mal, wenn Ihr Magie in Verbindung mit einem dieser Elemente verwendet, erhaltet Ihr 50% der Basisenergiekosten der Fertigkeit zurück.",
 				"concise": "25...60 Sekunden: Eure Elementarattribute sind um +1...2 erhöht. Ihr erhaltet 50% der Energiekosten für Luft-, Feuer-, Wasser- und Erdmagie-Fertigkeiten zurück, die Ihr benutzt."
 			},
 			"en": {
 				"name": "Elemental Attunement",
+				"description": "Elite Enchantment Spell. For 25...60 seconds, you are attuned to Air, Fire, Water, and Earth and gain +1...2 to these attributes. You gain 1 Energy plus 50% of the base Energy cost of the skill each time you use magic associated with any of these elements.",
+				"concise": "Elite Enchantment Spell. (25...60 seconds.) Your elemental attributes are increased by +1...2. You gain 1 plus 50% of the base Energy cost of any Air, Fire, Water, and Earth Magic skills you use."
+			},
+			"en-gww": {
+				"name": "Elemental Attunement",
 				"description": "For 25...60 seconds, you are attuned to Air, Fire, Water, and Earth and gain +1...2 to these attributes. You gain 1 Energy plus 50% of the base Energy cost of the skill each time you use magic associated with any of these elements.",
 				"concise": "(25...60 seconds.) Your elemental attributes are increased by +1...2. You gain 1 plus 50% of the Energy cost of any Air, Earth, Fire, and Water Magic skills you use."
 			},
+			"es": {
+				"name": "Sintonía con los elementos",
+				"description": "Conjuro con encantamiento de élite. Durante 25...60 segundos estás en sintonía con el aire, el fuego, el agua y la tierra, y obtienes +1...2 a estos atributos. Ganas 1 de energía más un 50 % del coste base de energía de la habilidad cada vez que utilices magia asociada a cualquiera de estos elementos.",
+				"concise": "Conjuro con encantamiento de élite. (25...60 segundos). Tus atributos de los elementos aumentan en +1...2. Ganas 1 de energía más un 50 % del coste base de energía de cualquier habilidad de magia de aire, tierra, fuego y agua que uses."
+			},
 			"fr": {
+				"name": "Affinité élémentaire",
+				"description": "Enchantement d'élite. Pendant 25...60 secondes, vous êtes en parfaite harmonie avec l'Air, le Feu, l'Eau et la Terre : vous bénéficiez de +1...2 pour ces caractéristiques. Vous gagnez 1 point d'énergie, plus 50% du coût en énergie de base nécessaire aux compétences d'une école de magie associée à l'un de ces éléments.",
+				"concise": "Enchantement d'élite. (25...60 secondes.) Vos caractéristiques élémentaires augmentent de 1...2. Vous gagnez 1 point d'énergie, plus 50% du coût en points d'énergie de toute compétence de Magie de l'air, du feu, de l'eau ou de la terre que vous utilisez."
+			},
+			"fr-gwiki": {
 				"name": "Affinité élémentaire",
 				"description": "Pendant 25...60 secondes, vous êtes en parfaite harmonie avec l'Air, le Feu, l'Eau et la Terre : vous bénéficiez de range",
 				"concise": "(25...60 secondes.) Vos caractéristiques élémentaires augmentent de range"
+			},
+			"it": {
+				"name": "Armonia Elementale",
+				"description": "Incantesimo d'Élite. Per 25...60 secondo/i sei in armonia con l'Aria, il Fuoco, l'Acqua e la Terra, e ottieni +1...2 a questi attributi. Ogni volta che usi una magia associata a uno di questi elementi, ottieni 1 punto Energia e il 50% del costo base dell'Energia delle abilità.",
+				"concise": "Incantesimo d'Élite. (25...60 secondo/i) I tuoi attributi elementali aumentano di +1...2. Ottieni 1 più il 50% del costo base dell'Energia di ogni abilità magica di Aria, Fuoco, Acqua e Terra che usi."
+			},
+			"jp": {
+				"name": "エレメンタル アチューン",
+				"description": "エリート強化スペル： 25...60秒間、あなたはエア、ファイア、ウォーター、アースに同調し、これらの属性を追加で1...2獲得します。これらのエレメントのいずれかに関連付けられたマジックを使用するたびに、1エネルギーに加えてそのスキルの基本エネルギーコストの50%を獲得します。",
+				"concise": "エリート強化スペル： （25...60秒）エレメンタル属性を追加で1...2増加します。あなたは1エネルギーと使用するエアー、ファイア、ウォーター、アースのマジックスキルの基本エネルギーコストの50%を獲得します。"
+			},
+			"kr": {
+				"name": "정령 감응",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 25...60초 동안 바람, 불, 물, 대지와 감응해 해당 특성 레벨이 1...2만큼 증가합니다. 이러한 정령 속성 마법을 사용할 때마다 에너지 1 및 해당 스킬로 소모하는 기본 에너지의 50%를 얻습니다.",
+				"concise": "엘리트 강화 마법. (25...60초) 정령 특성 레벨이 1...2만큼 증가합니다. 바람, 불, 물, 대지 마법 스킬을 사용할 때마다 에너지 1 및 해당 스킬로 소모하는 기본 에너지의 50%를 얻습니다."
+			},
+			"pl": {
+				"name": "Zestrojenie z Żywiołami",
+				"description": "Elitarne zaklęcie (czar). Przez 25...60 sek. osiągasz dostrojenie do żywiołów powietrza, ognia, wody oraz ziemi i zyskujesz +1...2 pkt. do tych atrybutów. Zyskujesz 1 pkt. energii oraz 50% podstawowego kosztu energii umiejętności za każdym razem, gdy używasz czarów związanych z tymi żywiołami.",
+				"concise": "Elitarne zaklęcie (czar). (25...60 sek.) Twoje atrybuty związane z żywiołami są zwiększone o 1...2 pkt. Zyskujesz 1 pkt. energii oraz 50% podstawowego kosztu energii używanej umiejętności związanych z magią powietrza, ognia, wody i ziemi."
+			},
+			"ru": {
+				"name": "Elemental Attunement",
+				"description": "Элитное заклинание-чары. На 25...60 сек. вы входите в резонанс с воздухом, огнем, водой и землей и получаете +1...2 к этим параметрам. Вы получаете 1 ед. энергии и 50% от базовых затрат энергии на навык при каждом использовании магии, связанной с одним из этих элементов.",
+				"concise": "Элитное заклинание-чары. (25...60 сек.) Ваши стихийные параметры увеличиваются на +1...2. Вы получаете энергию в размере 1+50% базовых затрат на любой используемый вами навык воздуха, воды, огня и земли."
+			},
+			"bork": {
+				"name": "Ilementael Aettoonement",
+				"description": "Ileete-a Inchuntment Spell. Fur 25...60 secunds, yuoo aere-a aettooned tu Aeur, Fure-a, Vaeter, und Iaert und gaeeen +1...2 tu zeese-a aettreebootes. Yuoo gaeeen 1 Inergy ploos 50% ooff zee baese-a Inergy cust ooff zee skeell iaech teeme-a yuoo use-a maegeec aessuceeaeted veet uny ooff zeese-a ilements.",
+				"concise": "Ileete-a Inchuntment Spell. (25...60 secunds.) Yuoor ilementael aettreebootes aere-a increaesed by +1...2. Yuoo gaeeen 1 ploos 50% ooff zee baese-a Inergy cust ooff uny Aeur, Fure-a, Vaeter, und Iaert Maegeec skeells yuoo use-a."
 			}
 		}
 	}

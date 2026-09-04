@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 2,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"皮肉之苦！\"",
+				"description": "精英战吼。 你遭受「重伤」症状0秒，治愈目标盟友身上所有的「症状」。",
+				"concise": "精英战吼。 你遭受「重伤」症状0秒，治愈目标盟友身上所有的「症状」。"
+			},
+			"cht": {
+				"name": "「不過是皮肉傷」",
+				"description": "精英戰嚎： 移除目標其他盟友身上所有病症，若移除成功，目標移動速度加快25%(1...10秒)。",
+				"concise": "精英戰嚎： 移除目標其他盟友身上所有病症，若移除成功，目標移動速度加快25%(1...10秒)。"
+			},
 			"de": {
+				"name": "Es ist nur eine Fleischwunde.",
+				"description": "Elite-Schrei. Der Verbündete verliert alle Zustände. Wenn ein Zustand auf diese Weise entfernt wird, bewegt sich dieser Verbündete 1...10 Sekunde[n] lang um 25% schneller.",
+				"concise": "Elite-Schrei. Entfernt alle Zustände vom Verbündeten. Dieser Verbündete bewegt sich um 25% schneller (1...10 Sekunde[n]), wenn ein Zustand entfernt wurde. Sich selbst als Ziel auswählen ist nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Es ist nur eine Fleischwunde.",
 				"description": "Der Verbündete verliert alle Zustände. Wenn ein Zustand auf diese Weise entfernt wird, bewegt sich dieser Verbündete 1...10 Sekunden lang um 25% schneller.",
 				"concise": "Entfernt alle Zustände vom Verbündeten. Dieser Verbündete bewegt sich um 25% schneller (1...10 Sekunden), wenn ein Zustand entfernt wurde. <gray>Sich selbst als Ziel auswählen ist nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "\"It's Just a Flesh Wound.\"",
+				"description": "Elite Shout. Target other ally loses all conditions. If a condition was removed in this way, that ally moves 25% faster for 1...10 seconds.",
+				"concise": "Elite Shout. Remove all conditions from target ally. That ally moves 25% faster (1...10 seconds) if a condition was removed. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "\"It's Just a Flesh Wound.\"",
 				"description": "Target other ally loses all conditions. If a condition was removed in this way, that ally moves 25% faster for 1...10 second[s].",
 				"concise": "Remove all conditions from target ally. That ally moves 25% faster (1...10 second[s]) if a condition was removed. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "¡Es sólo un rasguño!",
+				"description": "Grito de élite. El aliado objetivo pierde todas las condiciones. Si pierde alguna de esta forma, se moverá un 25% más deprisa durante 1...10 segundos.",
+				"concise": "Grito de élite. Elimina todas las condiciones del aliado objetivo. Ese aliado se mueve un 25% más deprisa (1...10 segundos) si se elimina una condición. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "C'est juste une petite blessure.",
+				"description": "Cri d'élite. La cible alliée perd toutes ses conditions. Si une condition est supprimée de cette manière, cet allié se déplace 25% plus vite pendant 1...10 secondes.",
+				"concise": "Cri d'élite. Supprime toutes les conditions de la cible alliée. Cette dernière se déplace 25% plus vite (1...10 secondes) si une condition a été supprimée. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "\"C'est juste une petite blessure\"",
 				"description": "La cible alliée perd toutes ses conditions. Si une condition est supprimée de cette manière, cet allié se déplace 25% plus vite pendant 1...10 secondes",
 				"concise": ""
+			},
+			"it": {
+				"name": "È Solo una Ferita Superficiale.",
+				"description": "Urlo d'Élite. L'obiettivo alleato perde tutte le condizioni. Se una condizione viene rimossa in questo modo, la velocità di quell'alleato aumenta di un 25% per 1...10 secondo[i].",
+				"concise": "Urlo d'Élite. Rimuove tutte le condizioni dall'obiettivo alleato. Incremento velocità di movimento dell'alleato se viene rimossa una condizione: 25% (1...10 secondo[i]). Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ジャスト フレッシュ ウーンド",
+				"description": "エリート シャウト： ターゲットした自分以外の味方にかけられている「状態異常」をすべて解除します。この効果により「状態異常」を解除すると、その味方は 1...10 秒間、移動速度が 25% 増加します。",
+				"concise": "エリート シャウト： ターゲットした味方にかけられている「状態異常」をすべて解除します。「状態異常」を解除すると、その味方は移動速度が 25% 増加します (1...10 秒) 。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "별것 아닌 상처일 뿐이다!",
+				"description": "엘리트 고함. 대상 지정: 아군. 대상의 상태이상을 모두 무효화합니다. 1...10초 동안 대상의 이동 속도가 무효화된 상태이상 하나당 25%씩 빨라집니다.",
+				"concise": "엘리트 고함. 대상 아군의 상태이상을 모두 무효화합니다. 상태이상이 무효화되면 대상의 이동 속도가 25% 빨라집니다.(1...10초) 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "To Tylko Draśnięcie!",
+				"description": "Elitarny okrzyk. Wybrany sojusznik inny niż ty traci wszystkie przypadłości. Jeżeli przypadłość została zdjęta w ten sposób, to przez 1...10 sek. sojusznik porusza się o 25% szybciej.",
+				"concise": "Elitarny okrzyk. Z wybranego sojusznika usuwa wszystkie klątwy. Jeżeli przypadłość została usunięta, to ten sojusznik porusza się o 25% szybciej (1...10 sek.). Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "\"It's Just a Flesh Wound.\"",
+				"description": "Элитный крик. Выбранный союзник (но не вы) теряет все состояния. Если состояние было снято с помощью этого умения, этот союзник двигается на 25% быстрее в течение 1...10 сек.",
+				"concise": "Элитный крик. Снимает все состояния с выбранного союзника. Этот союзник двигается на 25% быстрее (1...10 сек), если состояние было снято. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "\"It's Joost a Flesh Vuoond.\"",
+				"description": "Ileete-a Shuoot. Taerget oozeer aelly luses aell cundeeshuns. Iff a cundeeshun vaes remufed in thees vaey, thaet aelly mufes 25% faester fur 1...10 secunds.",
+				"concise": "Ileete-a Shuoot. Remufe-a aell cundeeshuns frum taerget aelly. Thaet aelly mufes 25% faester (1...10 secunds) iff a cundeeshun vaes remufed. Cunnut selff-taerget."
 			}
 		}
 	}

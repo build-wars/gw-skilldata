@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "增益解除",
+				"description": "咒文。 驱散目标敌人身上的一项「增益魔法」。如果目标敌人正受到「负面魔法」的影响，此技能的恢复速度将提高20...50%。",
+				"concise": "咒文。 驱散目标敌人身上的一项「增益魔法」。如果目标敌人正受到「负面魔法」的影响，此技能的恢复速度将提高20...50%。"
+			},
+			"cht": {
+				"name": "加持釋放",
+				"description": "咒文魔法： 移除目標敵人身上的一項「加持」。若該目標正遭受「降咒」，則此技能的回復速度加快 20...50% 。",
+				"concise": "咒文魔法： 移除目標敵人身上的一項「加持」。若該目標正遭受「降咒」，則此技能的回復速度加快 20...50% 。"
+			},
 			"de": {
+				"name": "Verzauberung entlassen",
+				"description": "Zauber. Entfernt eine Verzauberung vom Gegner. Wenn der Gegner verhext ist, wird diese Fertigkeit um 20...50% schneller wieder aufgeladen.",
+				"concise": "Zauber. Entfernt eine Verzauberung vom Gegner. Um 20...50% schnellere Aufladung, falls der Gegner verhext ist."
+			},
+			"de-guildwiki": {
 				"name": "Verzauberung entlassen",
 				"description": "Entfernt eine Verzauberung vom Gegner. Wenn der Gegner verhext ist, wird diese Fertigkeit um 20...50% schneller wieder aufgeladen.",
 				"concise": "Entfernt eine Verzauberung vom Gegner. Um 20...50% schnellere Aufladung, falls der Gegner verhext ist."
 			},
 			"en": {
 				"name": "Discharge Enchantment",
+				"description": "Spell. Remove one enchantment from target foe. If that foe is hexed, this skill recharges 20...50% faster.",
+				"concise": "Spell. Removes one enchantment from target foe. 20...50% faster recharge if that foe was hexed."
+			},
+			"en-gww": {
+				"name": "Discharge Enchantment",
 				"description": "Remove one enchantment from target foe. If that foe is hexed, this skill recharges 20...50% faster.",
 				"concise": "Removes one enchantment from target foe. 20...50% faster recharge if that foe was hexed."
 			},
+			"es": {
+				"name": "Descargar encantamiento",
+				"description": "Conjuro. Le quitas un encantamiento al enemigo objetivo. Si éste tenía un maleficio, esta habilidad se recargará un 20...50% más deprisa.",
+				"concise": "Conjuro. Elimina un encantamiento del enemigo objetivo. 20...50% menos de tiempo de recarga si el enemigo tiene un maleficio."
+			},
 			"fr": {
+				"name": "Congédiement d'enchantement",
+				"description": "Sort. Supprime un enchantement chez la cible ennemie. Si cet ennemi est sous l'effet d'un maléfice, cette compétence se recharge 20...50% plus vite.",
+				"concise": "Sort. Supprime un enchantement chez la cible ennemie. Temps de recharge réduit de 20...50% si l'ennemi est victime d'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Congédiement d'enchantement",
 				"description": "Supprime un enchantement chez la cible ennemie. Si cet ennemi est sous l'effet d'un maléfice, cette compétence se recharge 20...50% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Congeda Incantesimo",
+				"description": "Magia. Rimuovi un incantesimo dall'obiettivo nemico. Se quel nemico è sotto gli effetti di una fattura, questa abilità si ricarica con una velocità maggiore del 20...50%.",
+				"concise": "Magia. Rimuove un incantesimo dall'obiettivo nemico. Aumento del tempo di ricarica se quel nemico era sotto fattura: 20...50%."
+			},
+			"jp": {
+				"name": "ディスチャージ エンチャント",
+				"description": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。その敵に弱体化スペルもかけられている場合は、このスキルの再使用時間は 20...50% 短縮されます。",
+				"concise": "スペル： ターゲットした敵にかけられている強化スペルを1個解除します。ターゲットに弱体化スペルがかけられている場合、再使用速度が 20...50% 増加します。"
+			},
+			"kr": {
+				"name": "강화 해제",
+				"description": "마법. 대상 지정: 적. 대상에 걸린 강화 마법 하나를 무효화합니다. 대상이 약화 마법에 걸려 있다면 이 스킬의 재활성 시간이 20...50% 빨라집니다.",
+				"concise": "마법. 대상에 걸린 강화 마법 하나를 무효화합니다. 대상이 약화 마법에 걸려 있으면 이 스킬의 재활성 시간이 20...50% 빨라집니다."
+			},
+			"pl": {
+				"name": "Rozładowanie Zaklęcia",
+				"description": "Czar. Z wybranego przeciwnika zdejmujesz jedno zaklęcie. Jeśli przeciwnik jest pod działaniem klątwy, to umiejętność ta odnowi się o 20...50% szybciej.",
+				"concise": "Czar. Z wybranego przeciwnika usuwa jedno zaklęcie. Odnowa szybsza o 20...50%, jeżeli ten przeciwnik był pod działaniem klątwy."
+			},
+			"ru": {
+				"name": "Discharge Enchantment",
+				"description": "Заклинание. Снимает одни чары, лежащие на выбранном противнике. Если этот противник находится под воздействием какого-либо проклятья, это умение будет перезаряжено на 20...50% быстрее.",
+				"concise": "Заклинание. Снимает одни чары с выбранного противника. Перезаряжается на 20...50% быстрее, если на выбранном противнике лежит заклятье."
+			},
+			"bork": {
+				"name": "Deeschaerge-a Inchuntment",
+				"description": "Spell. Remufe-a oone-a inchuntment frum taerget fue-a. Iff thaet fue-a is hexed, thees skeell rechaerges 20...50% faester.",
+				"concise": "Spell. Remufes oone-a inchuntment frum taerget fue-a. 20...50% faester rechaerge-a iff thaet fue-a vaes hexed."
 			}
 		}
 	}

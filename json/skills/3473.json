@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 5,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Aura Slicer",
+				"description": "近战技能。 If this attack hits, you inflict Bleeding for 5...15 seconds. If you are enchanted, you also inflict Cracked Armor for 1...10 seconds.",
+				"concise": "近战技能。 (5...15 seconds.)Inflicts Bleeding condition. Also inflicts Cracked Armor (1...10 seconds) if you are enchanted."
+			},
+			"cht": {
+				"name": "靈氣切割",
+				"description": "近身攻擊技能： 命中時造成敵人流血 5...15 秒。若是你有加持效果，也會造成碎甲 1...10 秒。",
+				"concise": "近身攻擊技能： 命中時造成敵人流血 5...15 秒。若是你有加持效果，也會造成碎甲 1...10 秒。"
+			},
 			"de": {
+				"name": "Auraschneider",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, leidet Euer Gegner 5...15 Sekunde[n] lang an einer Blutung. Falls Ihr verzaubert seid, fügt Ihr außerdem 1...10 Sekunde[n] lang Beschädigte Rüstung zu.",
+				"concise": "Nahkampfangriff. (5...15 Sekunde[n].) Verursacht bei stehenden Feinden \"Blutung\". Verursacht ebenfalls Beschädigte Rüstung (1...10 Sekunde[n]), falls Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Auraschneider (PvP)",
 				"description": "Wenn dieser Angriff erfolgreich ist, leidet Euer Gegner 5...15 Sekunden lang an einer Blutung. Falls Ihr verzaubert seid, fügt Ihr außerdem 1...10 Sekunde lang Beschädigte Rüstung zu.",
 				"concise": "Verursacht Blutung (5...15 Sekunden). Verursacht ebenfalls Beschädigte Rüstung (1...10 Sekunden), falls Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Aura Slicer (PvP)",
+				"description": "Melee Attack. If this attack hits, you inflict Bleeding for 5...15 seconds. If you are enchanted, you also inflict Cracked Armor for 1...10 seconds.",
+				"concise": "Melee Attack. (5...15 seconds.) Inflicts Bleeding condition. Also inflicts Cracked Armor (1...10 seconds) if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Aura Slicer (PvP)",
 				"description": "If this attack hits, you inflict Bleeding for 5...15 seconds. If you are enchanted, you also inflict Cracked Armor for 1...10 second[s].",
 				"concise": "(5...15 seconds.)Inflicts <sic/> Bleeding condition. Also inflicts Cracked Armor (1...10 second[s]) if you are enchanted."
 			},
+			"es": {
+				"name": "Rebanador de auras",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, causarás hemorragia durante 5...15 segundos. Si estás encantado, también causas armadura rota durante 1...10 segundos.",
+				"concise": "Ataque cuerpo a cuerpo. Causa hemorragia (5...15 segundos). También causa armadura rota (1...10 segundos) si estás encantado."
+			},
 			"fr": {
+				"name": "Trancheur d'aura",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, vous infligez un Saignement pendant 5...15 secondes. Si vous êtes sous l'effet d'un enchantement, vous infligez en outre Armure brisée pendant 1...10 secondes.",
+				"concise": "Attaque au corps à corps. (5...15 secondes.) Provoque le Saignement. Inflige également Armure brisée (1...10 secondes) si vous êtes sous l'emprise d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Trancheur d'aura (PvP)",
 				"description": "Si cette attaque réussit, vous infligez un Saignement pendant 5...15 secondes. Si vous êtes sous l'effet d'un enchantement, vous infligez en outre Armure brisée pendant 1...10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Affetta Aura",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno, infliggi Emorragia per 5...15 secondi. Se sei sotto incantesimo, infliggi inoltre Armatura Incrinata per 1...10 secondi.",
+				"concise": "Attacco Ravvicinato. Condizione inflitta: Emorragia (5...15 secondi). Infligge inoltre Armatura Incrinata (1...10 secondi) se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "オーラ スライサー",
+				"description": "メーレー アタック： この攻撃が成功すると、5...15 秒間「出血」状態にします。プレイヤーに強化スペルがかけられている場合、1...10 秒間「防具破損」状態にもします。",
+				"concise": "メーレー アタック： (5...15 秒) 「出血」状態にします。プレイヤーに強化スペルがかけられている場合、「防具破損」にもします (1...10 秒) 。"
+			},
+			"kr": {
+				"name": "영기 절단",
+				"description": "근접 물리 공격. 공격이 성공하면 적을 5...15초 동안 출혈 상태로 만듭니다. 자신에게 강화 마법이 걸려 있으면 추가로 1...10초 동안 방어 손상 상태로 만듭니다.",
+				"concise": "근접 물리 공격. (5...15초) 출혈을 유발시킵니다. 자신에게 강화 마법이 걸려 있으면 방어 손상을 입힙니다.(1...10초)"
+			},
+			"pl": {
+				"name": "Rozcinacz Aur",
+				"description": "Atak wręcz. Jeśli atak trafi, powoduje krwawienie przez 5...15 sek. Jeśli znajdujesz się pod wpływem zaklęcia, atak powoduje także pęknięcie zbroi przez 1...10 sek.",
+				"concise": "Atak wręcz. (5...15 sek.) Wywołuje krwawienie. Powoduje także pęknięcie zbroi (1...10 sek.), jeśli znajdujesz się pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Aura Slicer",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, ваш противник будет кровоточить в течение 5...15 сек. Если вы находились под действием чар, у вашей цели также будут треснувшие доспехи в течение 1...10 сек.",
+				"concise": "Рукопашная атака. Вызывает кровотечение (5...15 сек). Также вызывает треснувшие доспехи (1...10 сек), если на вас наложены чары."
+			},
+			"bork": {
+				"name": "Oora Sleecer (PfP)",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo inffleect Bleedeeng fur 5...15 secunds. Iff yuoo aere-a inchunted, yuoo aelsu inffleect Craecked Aermur fur 1...10 secunds.",
+				"concise": "Melee-a Aettaeck. (5...15 secunds.) Inffleects Bleedeeng cundeeshun. Aelsu inffleects Craecked Aermur (1...10 secunds) iff yuoo aere-a inchunted."
 			}
 		}
 	}

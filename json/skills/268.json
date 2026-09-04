@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "坚毅光环",
+				"description": "精英增益魔法。 复活死亡队员并且恢复其全部的生命及能量。当你取消此「增益魔法」或者被敌人驱散时，该目标队员当场死亡，并留下无法被利用的尸体。因「坚毅光环」的效果而造成的死亡不接受任何惩罚。（当「神恩」属性投入在 4点 以下时，该技能有 50% 的几率失败）",
+				"concise": "精英增益魔法。 复活死亡队员并且恢复其全部的生命及能量。当你取消此「增益魔法」或者被敌人驱散时，该目标队员当场死亡，并留下无法被利用的尸体。因「坚毅光环」的效果而造成的死亡不接受任何惩罚。（当「神恩」属性投入在 4点 以下时，该技能有 50% 的几率失败）"
+			},
+			"cht": {
+				"name": "堅毅靈氣",
+				"description": "精英加持魔法： 維持此加持時，所有僧侶魔法治療量增加15...60%，取消此加持時，復活一名死去隊友到你的位置，並且體力與能量全滿。",
+				"concise": "精英加持魔法： 維持此加持時，所有僧侶魔法治療量增加15...60%，取消此加持時，復活一名死去隊友到你的位置，並且體力與能量全滿。"
+			},
 			"de": {
+				"name": "Unnachgiebige Aura",
+				"description": "Elite-Verzauberung. Während Ihr diese Verzauberung aufrechterhaltet, heilen Eure Mönch-Zauber zusätzlich um +15...60% Lebenspunkt[e]. Wenn diese Verzauberung endet, wird nach dem Zufallsprinzip ein anderes Gruppenmitglied mit kompletten Lebens- und Energiepunkten wiederbelebt und an Eure Position teleportiert.",
+				"concise": "Elite-Verzauberung. Eure Mönch-Zauber heilen zusätzlich um +15...60% Lebenspunkt[e]. Wirkung am Ende: Ein nach dem Zufallsprinzip mit kompletten Lebens- und Energiepunkten wiederbelebtes anderes Gruppenmitglied wird an Eure Position teleportiert."
+			},
+			"de-guildwiki": {
 				"name": "Unnachgiebige Aura",
 				"description": "Während Ihr diese Verzauberung aufrecht erhaltet, heilen Eure Mönch-Zauber zusätzlich um +15...60% Lebenspunkte. Wenn diese Verzauberung endet, wird nach dem Zufallsprinzip ein anderes Gruppenmitglied mit kompletten Lebens- und Energiepunkten wiederbelebt und unternimmt einen Schattenschritt an Eure Position.",
 				"concise": "Eure Mönch-Zauber heilen zusätzlich um +15...60% Lebenspunkte. Wirkung am Ende: Ein nach dem Zufallsprinzip mit kompletten Lebens- und Energiepunkten wiederbelebtes anderes Gruppenmitglied unternimmt einen Schattenschritt an Eure Position."
 			},
 			"en": {
 				"name": "Unyielding Aura",
+				"description": "Elite Enchantment Spell. While you maintain this enchantment, your Monk spells heal for +15...60% more Health. When this enchantment ends one random other party member is resurrected with full Health and Energy and teleported to your location.",
+				"concise": "Elite Enchantment Spell. Your Monk spells heal for +15...60% more Health. End effect: a random other party member is resurrected with full Health and Energy and teleported to your location."
+			},
+			"en-gww": {
+				"name": "Unyielding Aura",
 				"description": "While you maintain this enchantment, your Monk spells heal for +15...60% more Health. When this enchantment ends one random other party member is resurrected with full Health and Energy and teleported to your location.",
 				"concise": "Your Monk spells heal for +15...60%. End effect: a random other party member is resurrected with full Health and Energy and teleported to your location."
 			},
+			"es": {
+				"name": "Aura de persistencia",
+				"description": "Conjuro con encantamiento de élite. Mientras mantengas este encantamiento, tus conjuros de Monje curan un +15...60% más de salud. Cuando este encantamiento acabe, un miembro muerto al azar del grupo resucita con toda la salud y energía y se teletransporta a tu ubicación.",
+				"concise": "Conjuro con encantamiento de élite. Tus conjuros de Monje curan un +15...60% más de salud. Efecto final: un miembro del grupo al azar resucita con toda la salud y energía y es teletransportado a tu ubicación."
+			},
 			"fr": {
+				"name": "Aura inflexible",
+				"description": "Enchantement d'élite. Pendant que cet enchantement est actif, vos sorts de Moine rétablissent +15...60% de santé en plus. Lorsqu'il prend fin, un membre du groupe mort aléatoire est ressuscité avec la totalité de sa santé et de son énergie et est téléporté jusqu'à votre position.",
+				"concise": "Enchantement d'élite. Vos sorts de Moine rétablissent +15...60% de santé en plus. Effet final : un membre du groupe aléatoire est ressuscité avec la totalité de sa santé et de son énergie et est téléporté jusqu'à votre position."
+			},
+			"fr-gwiki": {
 				"name": "Aura inflexible",
 				"description": "Pendant que cet enchantement est actif, vos sorts de Moine rétablissent +15...60% de santé en plus. Lorsqu'il prend fin, un membre du groupe mort aléatoire est ressuscité et téléporté jusqu'à votre position.",
 				"concise": "Vos sorts de Moine rétablissent +15...60% de santé en plus. Effet final : un membre du groupe aléatoire est ressuscité et téléporté à votre position."
+			},
+			"it": {
+				"name": "Aura Inflessibile",
+				"description": "Incantesimo d'Élite. Mentre mantieni questo incantesimo le magie del Mistico impartiscono un +15...60% in più di Salute. Quando questo incantesimo termina, un compagno di squadra a caso risorge con piena Salute ed Energia e viene teletrasportato nella tua posizione.",
+				"concise": "Incantesimo d'Élite. Incremento cure impartite dalle tue magie del Mistico: +15...60%. Effetto al termine: un compagno di squadra a caso viene resuscitato con piena Salute ed Energia e teletrasportato nella tua posizione."
+			},
+			"jp": {
+				"name": "アンイールディング オーラ",
+				"description": "エリート強化スペル： この効果を持続させている間、プレイヤーが詠唱するモンク スペルによる体力の回復量が 15...60% 増加します。この効果が消失すると、ランダムに選ばれた自分以外の戦闘不能なパーティー メンバーがプレイヤーのそばに、体力とエネルギーが完全な状態で復活します。",
+				"concise": "エリート強化スペル： プレイヤーが詠唱するモンク スペルによる体力の回復量が 15...60% 増加します。終了効果： ランダムに選ばれた自分以外の戦闘不能なパーティー メンバーがプレイヤーのそばに、体力およびエネルギーが完全な状態で復活します。"
+			},
+			"kr": {
+				"name": "불복의 오라",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 이 강화 마법이 유지되는 동안 자신의 몽크 마법 치유력이 15...60% 증가합니다. 강화 마법이 끝나면 전사한 파티원 중 무작위로 1명이 최대 체력과 에너지를 지닌 채 자신의 위치로 부활됩니다.",
+				"concise": "엘리트 강화 마법. 자신의 몽크 마법 치유력이 15...60% 증가합니다. 종료 효과: 전사한 파티원 중 무작위로 1명이 최대 체력과 에너지를 지닌 채 자신의 위치로 부활됩니다."
+			},
+			"pl": {
+				"name": "Aura Nieustępliwości",
+				"description": "Elitarne zaklęcie (czar). Kiedy utrzymujesz to zaklęcie twoje czary mnicha uzdrawiając, dodają +15...60% dodatkowych pkt. żywotności. Kiedy to zaklęcie przestanie działać, jeden z martwych członków drużyny innych niż ty (losowo wybrany), zmartwychwstanie z pełną energią i zostanie przeniesiony do ciebie.",
+				"concise": "Elitarne zaklęcie (czar). Twoje czary mnicha dodają +15...60% dodatkowych pkt. żywotności. Efekt końcowy: losowy sojusznik zostaje wskrzeszony z pełną energią i przeniesiony do ciebie."
+			},
+			"ru": {
+				"name": "Unyielding Aura",
+				"description": "Элитное заклинание-чары. До тех пор, пока вы поддерживаете эти чары, ваши заклинания профессии Monk исцеляют дополнительно на 15...60% здоровья. Когда действие этих чар заканчивается, один случайно выбранный мертвый член отряда будет воскрешен с полным запасом здоровья и энергии и перенесен в ваше местоположение.",
+				"concise": "Элитное заклинание-чары. Ваши заклинания профессии Monk исцеляют дополнительно на 15...60% здоровья. Эффект окончания: случайно выбранный мертвый член отряда будет воскрешен с полным запасом здоровья и энергии и перенесен в ваше местоположение."
+			},
+			"bork": {
+				"name": "Unyeeeldeeng Oora",
+				"description": "Ileete-a Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, yuoor Munk spells heael fur +15...60% mure-a Heaelt. Vhee thees inchuntment inds oone-a rundum oozeer paerty member is resoorrected veet fooll Heaelt und Inergy und telepurted tu yuoor lucaeshun.",
+				"concise": "Ileete-a Inchuntment Spell. Yuoor Munk spells heael fur +15...60% mure-a Heaelt. Ind iffffect: a rundum oozeer paerty member is resoorrected veet fooll Heaelt und Inergy und telepurted tu yuoor lucaeshun."
 			}
 		}
 	}

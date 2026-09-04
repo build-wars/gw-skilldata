@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "无心之击",
+				"description": "剑术。 命中时，对其造成1...30点额外伤害。如果你没有使用任何「姿态」，则此技能无法被格挡。",
+				"concise": "剑术。 命中时，对其造成1...30点额外伤害。如果你使用任何「姿态」，则次技能无法被格挡。"
+			},
+			"cht": {
+				"name": "強力衝擊",
+				"description": "劍術攻擊技能： 強力衝擊命中目標時，對其造成 1...30 額外傷害。若你在不具備任何「態勢」的情況下使用此技能，則該目標無法「格擋」。",
+				"concise": "劍術攻擊技能： 強力衝擊命中目標時，對其造成 1...30 額外傷害。若你在不具備任何「態勢」的情況下使用此技能，則該目標無法「格擋」。"
+			},
 			"de": {
+				"name": "Reiner Schlag",
+				"description": "Schwertangriff. Wenn Reiner Schlag trifft, fügt Ihr +1...30 Punkt[e] Schaden zu. Wenn Ihr keine Haltung einnehmt, ist ein Blocken bei Reinem Schlag nicht möglich.",
+				"concise": "Schwertangriff. Richtet +1...30 Punkt[e] Schaden an. Kann nicht geblockt werden, es sei denn, Ihr nehmt eine Haltung ein."
+			},
+			"de-guildwiki": {
 				"name": "Reiner Schlag",
 				"description": "Wenn Reiner Schlag trifft, fügt Ihr +1...30 Punkte Schaden zu. Wenn Ihr keine Haltung einnehmt, ist ein Blocken bei Reinem Schlag nicht möglich.",
 				"concise": "Richtet +1...30 Punkte Schaden an. Kann nicht geblockt werden, es sei denn, Ihr nehmt eine Haltung ein."
 			},
 			"en": {
 				"name": "Pure Strike",
+				"description": "Sword Attack. If Pure Strike hits, you strike for +1...30 damage. If you are not using a stance, Pure Strike cannot be blocked.",
+				"concise": "Sword Attack. Deals +1...30 damage. Unblockable unless you are in a stance."
+			},
+			"en-gww": {
+				"name": "Pure Strike",
 				"description": "If Pure Strike hits, you strike for +1...30 damage. If you are not using a stance, Pure Strike cannot be blocked.",
 				"concise": "Deals +1...30 damage. Unblockable unless you are in a stance."
 			},
+			"es": {
+				"name": "Golpe puro",
+				"description": "Ataque con espada. Si el Golpe puro impacta, harás +1...30 de daño. Si no estás utilizando una actitud, no se podrá bloquear.",
+				"concise": "Ataque con espada. Hace +1...30 de daño. No se puede bloquear a menos que mantengas una actitud."
+			},
 			"fr": {
+				"name": "Frappe pure",
+				"description": "Attaque à l'épée. Si la Frappe pure réussit, vous infligez +1...30 points de dégâts. Si vous n'utilisez pas de pose, la Frappe pure ne peut pas être bloquée.",
+				"concise": "Attaque à l'épée. Inflige +1...30 points de dégâts. Vous ne pouvez la bloquer qu'en pose de combat."
+			},
+			"fr-gwiki": {
 				"name": "Frappe pure",
 				"description": "Si la Frappe pure réussit, vous infligez +1...30 point(s) de dégâts. Si vous n'utilisez pas de Pose, la Frappe pure ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Puro",
+				"description": "Attacco con Spada. Se il Colpo Puro va a segno, infliggi +1...30 danno[i]. Se non stai utilizzando una Posizione, il Colpo Puro non può essere bloccato.",
+				"concise": "Attacco con Spada. Danni inferti: +1...30. Non bloccabile, a meno che non ti trovi in una posizione."
+			},
+			"jp": {
+				"name": "ピュア ストライク",
+				"description": "ソード アタック： 攻撃が成功すると 1...30 の追加ダメージを与えます。プレイヤーがスタンスを使用していない場合、この攻撃はブロックされません。",
+				"concise": "ソード アタック： 1...30 の追加ダメージを与えます。プレイヤーにスタンスがかけられていない場合、ブロックされません。"
+			},
+			"kr": {
+				"name": "확실한 강타",
+				"description": "칼 공격. 대상 지정: 적. 공격이 성공하면 대상은 1...30의 대미지를 추가로 입습니다. 자세 스킬을 사용하지 않은 채 이 스킬을 사용하면 이 공격을 막을 수 없습니다.",
+				"concise": "칼 공격. 1...30의 대미지를 추가로 줍니다. 자세 스킬을 사용하지 않은 채 이 스킬을 사용하면 적은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Czyste Uderzenie",
+				"description": "Atak mieczem. Jeśli Czyste Uderzenie trafi, zadajesz +1...30 pkt. obrażeń. Jeśli nie przyjąłeś żadnej postawy, to Czyste Uderzenie nie może zostać zablokowane.",
+				"concise": "Atak mieczem. Zadaje +1...30 pkt. obrażeń. Nie do zablokowania, chyba że przyjąłeś postawę."
+			},
+			"ru": {
+				"name": "Pure Strike",
+				"description": "Атака мечом. Если Pure Strike попадает в цель, вы наносите дополнительно 1...30 ед. урона. Если вы не использовали при этом стойку, Pure Strike нельзя блокировать.",
+				"concise": "Атака мечом. Наносит дополнительно 1...30 ед. урона. Нельзя блокировать, если вы находились в стойке."
+			},
+			"bork": {
+				"name": "Poore-a Streeke-a",
+				"description": "Svurd Aettaeck. Iff Poore-a Streeke-a heets, yuoo streeke-a fur +1...30 daemaege-a. Iff yuoo aere-a nut useeng a stunce-a, Poore-a Streeke-a cunnut be-a blucked.",
+				"concise": "Svurd Aettaeck. Deaels +1...30 daemaege-a. Unbluckaeble-a unless yuoo aere-a in a stunce-a. Bork! Bork! Bork!"
 			}
 		}
 	}

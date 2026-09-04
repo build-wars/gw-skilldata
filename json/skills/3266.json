@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信仰突袭",
+				"description": "近战技能。 驱散自己身上的一项「增益魔法」，驱散成功后，此技能命中时，对敌人造成0点额外伤害，并将立即冷却。",
+				"concise": "近战技能。 驱散自己身上的一项「增益魔法」，驱散成功后，此技能命中时，对敌人造成0点额外伤害，并将立即冷却。"
+			},
+			"cht": {
+				"name": "神性突襲",
+				"description": "近身攻擊技能： 移除自身一項神喚使加持，若移除成功，則此技能回復速度加快 75% ，再對鄰近敵人造成 15...40 傷害",
+				"concise": "近身攻擊技能： 移除自身一項神喚使加持，若移除成功，則此技能回復速度加快 75% ，再對鄰近敵人造成 15...40 傷害"
+			},
 			"de": {
+				"name": "Frommer Angriff (PvP)",
+				"description": "Nahkampfangriff. Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkt[e] Schaden,",
+				"concise": "Nahkampfangriff. Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkt[e] Schaden,"
+			},
+			"de-guildwiki": {
 				"name": "Frommer Angriff (PvP)",
 				"description": "Ihr entfernt 1 Derwisch-Verzauberung. Wenn eine Derwisch-Verzauberung entfernt wurde, lädt diese Fertigkeit 75% schneller wieder auf und alle Euch umstehenden Feinde erleiden 15...40 Punkte Schaden.",
 				"concise": "Entfernt 1 Eurer Derwisch-Verzauberungen. Entfernungseffekt: Diese Fertigkeit lädt 75% schneller wieder auf und alle umstehenden Feinde erleiden 15...40 Punkte Schaden."
 			},
 			"en": {
 				"name": "Pious Assault (PvP)",
+				"description": "Melee Attack. You remove 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 15...40 damage.",
+				"concise": "Melee Attack. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take 15...40 damage."
+			},
+			"en-gww": {
+				"name": "Pious Assault (PvP)",
 				"description": "You remove 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 15...40 damage.",
 				"concise": "Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take 15...40 damage."
 			},
+			"es": {
+				"name": "Asalto piadoso (PvP)",
+				"description": "Ataque cuerpo a cuerpo. Quita un encantamiento de Derviche. Si se quitó un encantamiento de Derviche, esta habilidad se recarga un 75% más rápido y los enemigos adyacentes reciben 15...40 de daño.",
+				"concise": "Ataque cuerpo a cuerpo. Quita uno de tus encantamientos de Derviche. Efecto de eliminación: esta habilidad se recarga un 75% más rápido y los enemigos adyacentes reciben 15...40 de daño."
+			},
 			"fr": {
+				"name": "Assaut pieux (PvP)",
+				"description": "Attaque au corps à corps. Vous supprimez un enchantement de Derviche. En cas de perte d'un enchantement de Derviche, cette compétence se recharge 75% plus vite et les ennemis adjacents subissent 15...40 points de dégâts.",
+				"concise": "Attaque au corps à corps. Supprime un de vos enchantements de Derviche. Effet de la suppression : cette compétence se recharge 75% plus vite et les ennemis adjacents subissent 15...40 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Assaut pieux (PvP)",
 				"description": "Vous supprimez un enchantement de Derviche. En cas de perte d'un enchantement de Derviche, cette compétence se recharge 75% plus vite et les ennemis adjacents subissent 15...40 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Assalto Pio (PvP)",
+				"description": "Attacco Ravvicinato. Rimuovi 1 Incantesimo del Derviscio. Se un Incantesimo del Derviscio è stato rimosso, questa abilità si ricarica più velocemente di un 75% e tutti i nemici adiacenti subiscono 15...40 danni.",
+				"concise": "Attacco Ravvicinato. Rimuove uno dei tuoi Incantesimi del Derviscio. Effetto della rimozione: l'abilità si ricarica più velocemente di un 75% e tutti i nemici adiacenti subiscono 15...40 danni."
+			},
+			"jp": {
+				"name": "パイアス アサルト (PvP)",
+				"description": "メーレー アタック： かけられているダルウィーシュの強化スペルを1個解除します。強化スペルが解除されると、このスキルの再使用時間が75%減少し、隣接する敵に 15...40 のダメージを与えます。",
+				"concise": "メーレー アタック： かけられているダルウィーシュの強化スペルを1個解除します。解除効果：このスキルの再使用時間が75%減少し、隣接する敵に 15...40 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "경건한 일격(대인전)",
+				"description": "근접 물리 공격. 대상 지정: 적. 공격이 성공하면 대상에게 0의 대미지를 추가로 주고, 자신에게 걸린 더비시 강화 마법 하나가 무효화됩니다. 이렇게 강화 마법이 무효화되면 이 스킬의 재활성이 75% 빨라지고, 인접한 적들에게 15...40의 대미지를 줍니다.",
+				"concise": "근접 물리 공격. 자신에게 걸린 더비시 강화 마법 하나를 무효화합니다. 무효화 효과: 이 스킬의 재활성이 75% 빨라지고, 인접한 적들에게 15...40의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Nabożny Szturm (PvP)",
+				"description": "Atak wręcz. Usuwasz 1 zaklęcie derwisza. Jeśli zaklęcie derwisza zostało usunięte, umiejętność ta odnawia się 75% szybciej, zaś wrogowie w bezpośrednim sąsiedztwie otrzymują 15...40 pkt. obrażeń.",
+				"concise": "Atak wręcz. Usuwa jedno z twoich zaklęć derwisza. Efekt usunięcia: Umiejętność ta odnawia się 75% szybciej, a wrogowie w bezpośrednim sąsiedztwie otrzymują 15...40 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Pious Assault (PvP)",
+				"description": "Рукопашная атака. Вы теряете 1 чары профессии Dervish. Если чары были потеряны, это умение перезаряжается на 75% быстрее, а окружающие противники получают 15...40 ед. урона.",
+				"concise": "Рукопашная атака. Снимает с вас 1 чары профессии Dervish. Эффект снятия: это умение перезаряжается на 75% быстрее, а окружающие противники получают 15...40 ед. урона."
+			},
+			"bork": {
+				"name": "Peeuoos Aessoolt (PfP)",
+				"description": "Melee-a Aettaeck. Yuoo remufe-a 1 Derfeesh inchuntment. Iff a Derfeesh inchuntment vaes remufed, thees skeell rechaerges 75% faester und aedjaecent fues taeke-a 15...40 daemaege-a.",
+				"concise": "Melee-a Aettaeck. Remufes 1 ooff yuoor Derfeesh inchuntments. Remufael Iffffect: thees skeell rechaerges 75% faester und aedjaecent fues taeke-a 15...40 daemaege-a."
 			}
 		}
 	}

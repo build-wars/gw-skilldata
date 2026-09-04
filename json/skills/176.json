@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪避结界",
+				"description": "结界魔法。 在脚下创造出一个「格挡结界」，使结界范围内的所有\"非灵体类\"队友「格挡」近身攻击的几率提高50%，效果持续5...20秒。",
+				"concise": "结界魔法。 在脚下创造出一个「格挡结界」，使结界范围内的所有\"非灵体类\"队友「格挡」近身攻击的几率提高50%，效果持续5...20秒。"
+			},
+			"cht": {
+				"name": "迴避結界",
+				"description": "結界魔法： 在你目前的地點創造一個迴避結界。持續 5...20 秒，使結界範圍內所有非「靈」的盟友有 50% 機率「格擋」近身攻擊。",
+				"concise": "結界魔法： 在你目前的地點創造一個迴避結界。持續 5...20 秒，使結界範圍內所有非「靈」的盟友有 50% 機率「格擋」近身攻擊。"
+			},
 			"de": {
+				"name": "Abwehr gegen Nahkampf",
+				"description": "Abwehrzauber. Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Nahkampf. 5...20 Sekunde[n] lang haben Verbündete, die keine Geister sind, in diesem Bereich eine 50%ige Chance, Nahkampfangriffe zu blocken.",
+				"concise": "Abwehrzauber. (5...20 Sekunde[n].) Verbündete in dieser Abwehr können Nahkampfangriffe mit 50%iger Wahrscheinlichkeit blocken. Verbündete Geister sind nicht betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Abwehr gegen Nahkampf",
 				"description": "Ihr erzeugt an Eurer aktuellen Position eine Abwehr gegen Nahkampf. 5...20 Sekunden lang haben Gruppenmitglieder, die keine Geister sind, in diesem Bereich eine 50%ige Chance, Nahkampfangriffe zu blocken.",
 				"concise": "5...20 Sekunden: Gruppenmitglieder in dieser Abwehr können Nahkampfangriffe mit 50%iger Wahrscheinlichkeit blocken. <gray>Verbündete Geister sind nicht betroffen.</gray>"
 			},
 			"en": {
 				"name": "Ward Against Melee",
+				"description": "Ward Spell. You create a Ward Against Melee at your current location. For 5...20 seconds, non-spirit allies in this area have a 50% chance to block melee attacks.",
+				"concise": "Ward Spell. (5...20 seconds.) Allies in this ward have a 50% chance to block melee attacks. Allied spirits are not affected."
+			},
+			"en-gww": {
+				"name": "Ward Against Melee",
 				"description": "You create a Ward Against Melee at your current location. For 5...20 seconds, non-spirit allies in this area have a 50% chance to block melee attacks.",
 				"concise": "(5...20 seconds.) Allies in this ward have a 50% chance to block melee attacks. <gray>Allied spirits are not affected.</gray>"
 			},
+			"es": {
+				"name": "Protección ataques cuerpo a cuerpo",
+				"description": "Conjuro de protección. Creas una Protección ataques cuerpo a cuerpo en tu ubicación actual. Durante 5...20 segundos, los aliados no espíritus que haya en el área tendrán un 50% de posibilidades de bloquear ataques cuerpo a cuerpo.",
+				"concise": "Conjuro de protección. (5...20 segundos). Los aliados dentro de esta protección tienen un 50% de posibilidades de bloquear ataques cuerpo a cuerpo. No afecta a los aliados espíritus."
+			},
 			"fr": {
+				"name": "Protection de contact",
+				"description": "Sort de protection. Vous créez une zone de Protection de contact sur votre position actuelle. Pendant 5...20 secondes, les alliés (sauf les esprits) dans cette zone ont 50% de chances de bloquer les attaques de mêlée.",
+				"concise": "Sort de protection. (5...20 secondes.) Les alliés dans cette Protection ont 50% de chances de bloquer les attaques de mêlée. Les esprits alliés ne sont pas affectés."
+			},
+			"fr-gwiki": {
 				"name": "Protection de contact",
 				"description": "Vous créez une zone de Protection de contact sur votre position actuelle. Pendant 5...20 secondes, les alliés (sauf les esprits) dans cette zone ont 50% de chances de bloquer ce type d'attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guardia contro gli Attacchi Ravvicinati",
+				"description": "Guardia. Crei una Guardia contro gli Attacchi Ravvicinati nella tua posizione corrente. Per 5...20 secondi, gli alleati nell'area (Spiriti esclusi) hanno il 50% di probabilità di bloccare gli attacchi ravvicinati.",
+				"concise": "Guardia. (Secondi: 5...20.) Gli alleati in questa Guardia hanno un 50% di probabilità di bloccare gli attacchi ravvicinati. Non ha effetto sugli Spiriti alleati."
+			},
+			"jp": {
+				"name": "ウォード アゲインスト メイレー",
+				"description": "ウォード スペル： 自分の周辺に結界を張ります。5...20 秒間、このエリア内にいる精霊以外の味方は、50%の確率で近接攻撃をブロックします。",
+				"concise": "ウォード スペル： (5...20 秒) このエリア内にいる味方は50%の確率で近接攻撃をブロックすることができます。味方の精霊は対象外です。"
+			},
+			"kr": {
+				"name": "회피 결계",
+				"description": "결계. 대상 지정: 없음. 자신의 주변에 마법 결계를 만듭니다. 일정 범위 내에 있는 영혼이 아닌 아군은 5...20초 동안 50%의 확률로 근접 물리 공격을 막습니다. 이 마법을 30초 동안 사용할 수 없습니다.",
+				"concise": "결계. (5...20초) 결계 내에서 아군은 50%의 확률로 근접 물리 공격을 막습니다. 영혼에겐 영향이 없고, 이 마법을 사용할 수 없습니다.(30초)"
+			},
+			"pl": {
+				"name": "Ochrona przed Ciosami",
+				"description": "Ochrona (czar). Tworzysz Ochronę przed Ciosami w miejscu, w którym przebywasz. Przez 5...20 sek. nie będący duchami sojusznicy na tym obszarze mają 50% szans na blokowanie ciosów wręcz.",
+				"concise": "Ochrona (czar). (5...20 sek.) Sojusznicy w granicach tej ochrony posiadają 50% szans na blokowanie ataków wręcz. Nie działa na sojusznicze duchy."
+			},
+			"ru": {
+				"name": "Ward Against Melee",
+				"description": "Заклинание опеки. Вы создаете Ward Against Melee в вашем текущем местоположении. В течение 5...20 сек все находящиеся в зоне действия Сферы союзники, не являющиеся духами, получают 50%-й шанс блокировать рукопашные атаки.",
+				"concise": "Заклинание опеки. (5...20 сек) Союзники в этой Сфере получают 50%-й шанс блокировать рукопашные атаки. Не затрагивает союзные духи."
+			},
+			"bork": {
+				"name": "Vaerd Aegaeeenst Melee-a",
+				"description": "Vaerd Spell. Yuoo creaete-a a Vaerd Aegaeeenst Melee-a aet yuoor coorrent lucaeshun. Fur 5...20 secunds, nun-spureet aelleees in thees aerea haefe-a a 50% chunce-a tu bluck melee-a aettaecks.",
+				"concise": "Vaerd Spell. (5...20 secunds.) Aelleees in thees vaerd haefe-a a 50% chunce-a tu bluck melee-a aettaecks. Aelleeed spureets aere-a nut aeffffected."
 			}
 		}
 	}

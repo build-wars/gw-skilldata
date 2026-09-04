@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "杀戮之刺",
+				"description": "矛术。 命中时，对敌人造成5...25点额外伤害。如果目标敌人的生命值多于你，该敌人将遭受「重伤」症状5...20秒。",
+				"concise": "矛术。 命中时，对敌人造成5...25点额外伤害。如果目标敌人的生命值多于你，该敌人将遭受「重伤」症状5...20秒。"
+			},
+			"cht": {
+				"name": "殺戮者之矛",
+				"description": "矛術攻擊技能： 命中時對目標造成 5...25 傷害，若該目標的體力高於你，則該目標將遭受「重傷」病症 5...20 秒。",
+				"concise": "矛術攻擊技能： 命中時對目標造成 5...25 傷害，若該目標的體力高於你，則該目標將遭受「重傷」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Speer des Würgers",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...25 Punkt[e] Schaden zu. Wenn der Gegner mehr Lebenspunkte als Ihr hat, leidet er 5...20 Sekunde[n] lang an einer Tiefen Wunde.",
+				"concise": "Speerangriff. Richtet +5...25 Punkt[e] Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunde[n]), falls der Gegner mehr Lebenspunkte hat als Ihr."
+			},
+			"de-guildwiki": {
 				"name": "Speer des Würgers",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...25 Punkte Schaden zu. Wenn der Gegner mehr Lebenspunkte als Ihr hat, leidet er 5...20 Sekunden lang an einer Tiefen Wunde.",
 				"concise": "Richtet +5...25 Punkte Schaden an. Verursacht Zustand Tiefe Wunde (5...20 Sekunden), falls der Gegner mehr Lebenspunkte hat als Ihr."
 			},
 			"en": {
 				"name": "Slayer's Spear",
+				"description": "Spear Attack. If this attack hits, you deal +5...25 damage. If that foe has more Health than you, that foe suffers from a Deep Wound for 5...20 seconds.",
+				"concise": "Spear Attack. Deals +5...25 damage. Inflicts Deep Wound condition (5...20 seconds) if target has more Health than you."
+			},
+			"en-gww": {
+				"name": "Slayer's Spear",
 				"description": "If this attack hits, you deal +5...25 damage. If that foe has more Health than you, that foe suffers from a Deep Wound for 5...20 seconds.",
 				"concise": "Deals +5...25 damage. Inflicts Deep Wound condition (5...20 seconds) if target has more Health than you."
 			},
+			"es": {
+				"name": "Lanza del homicida",
+				"description": "Ataque con lanza. Si este ataque impacta, harás +5...25 de daño al enemigo. Si éste tiene más salud que tú, le harás una herida grave que durará 5...20 segundos.",
+				"concise": "Ataque con lanza. Hace +5...25 de daño. Causa herida grave (5...20 segundos) si el enemigo objetivo tiene más salud que tú."
+			},
 			"fr": {
+				"name": "Javelot de l'assassin",
+				"description": "Attaque au javelot. Si cette attaque réussit, vous infligez +5...25 points de dégâts. Si votre ennemi a plus de santé que vous, il souffre de Blessure profonde pendant 5...20 secondes.",
+				"concise": "Attaque au javelot. Inflige +5...25 points de dégâts. Inflige la Blessure profonde (5...20 secondes) si la cible a plus de santé que vous."
+			},
+			"fr-gwiki": {
 				"name": "Javelot de l'assassin",
 				"description": "Si cette attaque réussit, vous infligez +5...25 points de dégâts. Si votre ennemi a plus de santé que vous, il souffre de Blessure profonde pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancia dell'Assassino",
+				"description": "Attacco con Lancia. Se questo attacco va a segno, infliggi +5...25 danno[i]; se quel nemico ha più Salute di te subisce una Ferita Profonda per 5...20 secondo[i].",
+				"concise": "Attacco con Lancia. Danni inferti: +5...25. Condizione inflitta se l'obiettivo ha più Salute di te: Ferita Profonda (5...20 secondo[i])."
+			},
+			"jp": {
+				"name": "スレイヤー スピア",
+				"description": "スピア アタック： この攻撃が成功すると、5...25 の追加ダメージを与えます。その敵の体力がプレイヤーの体力より多い場合、その敵は 5...20 秒間「重傷」状態になります。",
+				"concise": "スピア アタック： 5...25 の追加ダメージを与えます。ターゲットした敵の体力がプレイヤーよりも多い場合、「重傷」状態にします (5...20 秒) 。"
+			},
+			"kr": {
+				"name": "학살자의 창",
+				"description": "창 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...25의 대미지를 추가로 줍니다. 그 대상의 체력이 자신보다 많으면 대상은 5...20초 동안 중상 상태가 됩니다.",
+				"concise": "창 공격. 5...25의 대미지를 추가로 줍니다. 대상의 체력이 자신보다 많으면 중상을 입힙니다.(5...20초)"
+			},
+			"pl": {
+				"name": "Włócznia Pogromcy",
+				"description": "Atak włócznią. Jeśli atak trafi, zadaje +5...25 pkt. obrażeń. Jeżeli cel ma więcej punktów żywotności niż ty, to na 5...20 sek. otrzymuje głęboką ranę.",
+				"concise": "Atak włócznią. Zadaje +5...25 pkt. obrażeń. Wywołuje przypadłość głęboka rana (5...20 sek.), jeżeli cel ma więcej żywotności niż ty."
+			},
+			"ru": {
+				"name": "Slayer's Spear",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...25 ед. урона. Если у выбранного противника было больше здоровья, чем у вас, этот противник получит глубокую рану на 5...20 сек.",
+				"concise": "Атака копьем. Наносит дополнительно 5...25 ед. урона. Вызывает глубокую рану (5...20 сек), если у цели больше здоровья, чем у вас."
+			},
+			"bork": {
+				"name": "Slaeyer's Speaer",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +5...25 daemaege-a. Iff thaet fue-a haes mure-a Heaelt thun yuoo, thaet fue-a sooffffers frum a Deep Vuoond fur 5...20 secunds.",
+				"concise": "Speaer Aettaeck. Deaels +5...25 daemaege-a. Inffleects Deep Vuoond cundeeshun (5...20 secunds) iff taerget haes mure-a Heaelt thun yuoo."
 			}
 		}
 	}

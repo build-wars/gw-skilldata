@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "地心之火",
+				"description": "结界魔法。 在目标敌人处引发地心之火。持续 5 秒，使接近地心之火的敌人每秒受到 2...5 火焰伤害。当地心之火停止时，使效果范围内的敌人遭受「灼烧」症状 3 秒。",
+				"concise": "结界魔法。 在目标敌人处引发地心之火。持续 5 秒，使接近地心之火的敌人每秒受到 2...5 火焰伤害。当地心之火停止时，使效果范围内的敌人遭受「灼烧」症状 3 秒。"
+			},
+			"cht": {
+				"name": "邸內之火",
+				"description": "結界魔法： 在目標敵人處引發邸內之火。持續 5 秒，使接近邸內之火的敵人每秒受到 2...5 火焰傷害。當邸內之火停止時，使效果範圍內的敵人遭受「著火」病症 3 秒。",
+				"concise": "結界魔法： 在目標敵人處引發邸內之火。持續 5 秒，使接近邸內之火的敵人每秒受到 2...5 火焰傷害。當邸內之火停止時，使效果範圍內的敵人遭受「著火」病症 3 秒。"
+			},
 			"de": {
+				"name": "Teinais Hitze",
+				"description": "Abwehrzauber. Erstellt für 10...15 Sekunden eine Abwehr von Teinais Hitze an Eurer Position Feinde im Bereich haben 2...5 Lebenspunktdegeneration. Die Angriffe geschwächter Feinde sind um 33% verlangsamt. Diese Fertigkeit wird 20 Sekunden lang deaktiviert.",
+				"concise": "Abwehrzauber. (10...15 Sekunden) Verursacht -2...5 Lebenspunktdegeneration. Angriffe geschwächter Feinde im Bereich sind um 33% verlangsamt. Für 20 Sekunden deaktiviert."
+			},
+			"de-guildwiki": {
 				"name": "Teinais Hitze",
 				"description": "Erstellt für 10...15 Sekunden eine Abwehr von Teinais Hitze an Eurer Position<sic/> Feinde im Bereich haben -2...5 Lebenspunktedegeneration. Die Angriffe geschwächter Feinde sind um 33% verlangsamt. Diese Fertigkeit wird 20 Sekunden lang deaktiviert.",
 				"concise": "(10...15 Sekunden) Verursacht -2...5 Lebenspunktdegeneration. Angriffe geschwächter Feinde im Bereich sind um 33% verlangsamt. Für 20 Sekunden deaktiviert."
 			},
 			"en": {
 				"name": "Teinai's Heat",
+				"description": "Ward Spell. Place a ward of Teinai's Heat at your location for 10...15 seconds. Foes within the ward suffer 2...5 health degeneration. Weakened foes attack 33% slower. This skill is disabled for 20 seconds.",
+				"concise": "Ward Spell. (10...15 seconds.) Causes -2...5 health degeneration. Weakened foes in the ward attack 33% slower. Disabled for 20 seconds."
+			},
+			"en-gww": {
+				"name": "Teinai's Heat",
 				"description": "Place a ward of Teinai's Heat at your location for 10...15 seconds. Foes within the ward suffer 2...5 health <sic/> degeneration. Weakened foes attack 33% slower. This skill is disabled for 20 seconds.",
 				"concise": "(10...15 seconds.) Causes -2...5 health <sic/> degeneration. Weakened foes in the ward attack 33% slower. Disabled for 20 seconds."
 			},
+			"es": {
+				"name": "Calor de Teinai",
+				"description": "Conjuro de protección. Coloca una protección de Calor de Teinai en tu ubicación durante 10...15 segundos. Los enemigos del interior de la protección sufren 2...5 de degeneración de salud. Los enemigos debilitados atacan un 33% más despacio. Esta habilidad estará desactivada durante 20 segundos.",
+				"concise": "Conjuro de protección. (10...15 segundos.) Causa -2...5 de degeneración de salud. Los enemigos debilitados en la protección atacan un 33% más despacio. Desactivada durante 20 segundos."
+			},
 			"fr": {
+				"name": "Chaleur de Teinai",
+				"description": "Sort de protection. Déclenche une Chaleur de Teinai sur la position de l'ennemi pendant 10...15 secondes. Les ennemis se trouvant à cette position subissent une dégénération de santé de 2...5 points. Les ennemis affaiblis attaquent 33% moins vite. Cette compétence est désactivée pendant 20 secondes.",
+				"concise": "Sort de protection. (10...15 secondes.) Provoque une dégénération de santé de -2...5. Les ennemis affaiblis attaquent 33% moins vite. Désactivée pendant 20 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Chaleur de Teinai",
 				"description": "Déclenche une Chaleur de Teinai sur la position de l'ennemi. Pendant 5 secondes, les ennemis à proximité de cette position subissent 10...40 points de dégâts du feu par seconde. Lorsque la Chaleur de Teinai cesse, les ennemis dans sa zone d'effet sont embrasés pendant 3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Calore di Teinai",
+				"description": "Guardia. Metti una guardia del Calore di Teinai nella tua posizione per 10...15 secondi. Degenerazione Salute dei nemici nell'area della guardia: 2...5. I nemici indeboliti attaccano più lentamente del 33%. Questa abilità verrà disabilitata per 20 secondi.",
+				"concise": "Guardia. (Secondi: 10...15). Degenerazione Salute: -2...5. Riduzione velocità dei nemici indeboliti nell'area della guardia: - 33% Disabilitazione: 20 secondi."
+			},
+			"jp": {
+				"name": "テイナイ ヒート",
+				"description": "ウォード スペル： 10...15 秒間、プレイヤーのいる場所に熱風を起こします。この範囲内にいる敵は体力の自然回復力が 2...5 減少します。「衰弱」状態の敵は攻撃速度が 33% 減少します。このスキルは20秒間、再使用することができません。",
+				"concise": "ウォード スペル： (10...15 秒) ターゲットは体力の自然回復力が 2...5 減少します。エリア内にいる「衰弱」状態の敵は、攻撃速度が 33% 減少します。このスキルは20秒間、再使用することができません。"
+			},
+			"kr": {
+				"name": "테이나이의 용암",
+				"description": "결계. 대상 지정: 없음. 자신의 위치에 10...15초 동안 테이나이의 용암을 생성합니다. 용암 안에 있는 적은 체력 재생이 2...5만큼 감소합니다. 특히 약체 상태인 적은 공격 속도도 33% 느려집니다. 이 스킬은 20초 동안 사용할 수 없습니다.",
+				"concise": "결계. (10...15초) 범위 안의 적은 체력 재생이 2...5만큼 감소하고, 약체인 적은 공격 속도도 33% 느려집니다. 이 스킬은 20초 동안 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Żar Teinai",
+				"description": "Ochrona (czar). Stawia w twoim miejscu znak Żaru Teinai na 10...15 sek. Przeciwnicy w zasięgu działania znaku otrzymują degenerację żywotności -2...5. Osłabieni przeciwnicy atakują 33% wolniej. Ta umiejętność zostanie wyłączona na 20 sek.",
+				"concise": "Ochrona (czar). (10...15 sek.) Powoduje degenerację żywotności -2...5. Osłabieni działaniem znaku przeciwnicy atakują 33% wolniej. Nieaktywne przez 20 sek."
+			},
+			"ru": {
+				"name": "Teinai's Heat",
+				"description": "Заклинание опеки. Создает Сферу Teinai's Heat в вашем местоположении на 10...15 сек. У противников внутри Сферы скорость восстановления здоровья уменьшается на 2...5 ед. Ослабленные противники атакуют на 33% медленнее. Это умение будет недоступно в течение 20 сек.",
+				"concise": "Заклинание опеки. (10...15 сек). Дает противникам -2...5 ед. к скорости восстановления здоровья. Ослабленные противники атакуют в Сфере на 33% медленнее. Это умение будет недоступно в течение 20 сек."
+			},
+			"bork": {
+				"name": "Teeenaeee's Heaet",
+				"description": "Vaerd Spell. Plaece-a a vaerd ooff Teeenaeee's Heaet aet yuoor lucaeshun fur 10...15 secunds. Fues veetheen zee vaerd sooffffer 2...5 heaelt degeneraeshun. Veaekened fues aettaeck 33% slooer. Thees skeell is deesaebled fur 20 secunds. Bork! Bork! Bork!",
+				"concise": "Vaerd Spell. (10...15 secunds.) Cooses -2...5 heaelt degeneraeshun. Veaekened fues in zee vaerd aettaeck 33% slooer. Deesaebled fur 20 secunds."
 			}
 		}
 	}

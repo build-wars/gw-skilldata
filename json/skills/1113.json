@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "麒麟之怒",
+				"description": "咒文。 持续 5 秒，每秒对邻近施法地点的敌人造成 8...32 神圣伤害。",
+				"concise": "咒文。 持续 5 秒，每秒对邻近施法地点的敌人造成 8...32 神圣伤害。"
+			},
+			"cht": {
+				"name": "麒麟之怒",
+				"description": "咒文魔法： 持續 5 秒，每秒對鄰近施法地點的敵人造成 8...32 神聖傷害。",
+				"concise": "咒文魔法： 持續 5 秒，每秒對鄰近施法地點的敵人造成 8...32 神聖傷害。"
+			},
 			"de": {
+				"name": "Kirins Zorn",
+				"description": "Zauber. 5 Sekunden lang erleiden umstehende Gegner am Wirkungsort des Zaubers 8...32 Punkt[e] heiligen Schaden pro Sekunde.",
+				"concise": "Zauber. Richtet jede Sekunde 8...32 Punkt[e] heiligen Schaden an (5 Sekunden). Trifft umstehende Feinde um Eure anfängliche Position."
+			},
+			"de-guildwiki": {
 				"name": "Kirins Zorn",
 				"description": "5 Sekunden lang erleiden umstehende Gegner am Wirkungsort des Zaubers 8...32 Punkte heiligen Schaden pro Sekunde.",
 				"concise": "Richtet jede Sekunde 8...32 Punkte heiligen Schaden an (5 Sekunden). Trifft umstehende Feinde um Eure anfängliche Position."
 			},
 			"en": {
 				"name": "Kirin's Wrath",
+				"description": "Spell. For 5 seconds, foes adjacent to the location in which the spell was cast take 8...32 holy damage each second.",
+				"concise": "Spell. Deals 8...32 holy damage each second (5 seconds). Hits foes adjacent to your initial location."
+			},
+			"en-gww": {
+				"name": "Kirin's Wrath",
 				"description": "For 5 seconds, foes adjacent to the location in which the spell was cast take 8...32 holy damage each second.",
 				"concise": "Deals 8...32 holy damage each second (5 seconds). Hits foes adjacent to your initial location."
 			},
+			"es": {
+				"name": "Cólera del Kirin",
+				"description": "Conjuro. Durante 5 segundos, los enemigos adyacentes recibirán 8...32 de daño sagrado por segundo.",
+				"concise": "Conjuro. Hace 8...32 de daño sagrado por segundo (5 segundos). Alcanza a los enemigos adyacentes a tu ubicación inicial."
+			},
 			"fr": {
+				"name": "Colère de Kirin",
+				"description": "Sort. Pendant 5 secondes, les ennemis adjacents à la position sur laquelle le sort a été lancé subissent 8...32 points de dégâts sacrés par seconde.",
+				"concise": "Sort. Inflige 8...32 points de dégâts sacrés par seconde (5 secondes). Affecte les ennemis adjacents à votre position initiale."
+			},
+			"fr-gwiki": {
 				"name": "Colère de Kirin",
 				"description": "Pendant 5 secondes, les ennemis adjacents à la position sur laquelle le sort a été lancé subissent 8...32 points de dégâts sacrés par seconde.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Indignazione del Kirin",
+				"description": "Magia. Per 5 secondi, i nemici adiacenti al luogo in cui viene lanciata questa magia subiscono 8...32 danno[i] sacro[i] al secondo.",
+				"concise": "Magia. Danni sacri inferti al secondo: 8...32 (5 secondi). Colpisce i nemici adiacenti alla tua posizione iniziale."
+			},
+			"jp": {
+				"name": "キリン ラス",
+				"description": "スペル： 5秒間、スペルを詠唱した場所に隣接する敵に毎秒 8...32 の神聖ダメージを与えます。",
+				"concise": "スペル： (5秒) 発動時にプレイヤーがいた場所に隣接する敵に毎秒 8...32 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "기린의 노여움",
+				"description": "마법. 대상 지정: 없음. 마법을 사용한 위치에 인접한 적들은 5초 동안 매초 8...32의 신성 대미지를 입습니다.",
+				"concise": "마법. (5초) 마법 시전 위치에 인접한 적들은 매초 8...32의 신성 대미지를 입습니다.(5초)"
+			},
+			"pl": {
+				"name": "Gniew Kirina",
+				"description": "Czar. Przez 5 sek., przeciwnicy bezpośrednio przy miejscu, w którym ten czar został rzucony, otrzymują w każdej sekundzie po 8...32 pkt. świętych obrażeń.",
+				"concise": "Czar. W każdej sekundzie zadaje 8...32 pkt. świętych obrażeń (5 sek.). Trafia przeciwników bezpośrednio przy twoim początkowym miejscu."
+			},
+			"ru": {
+				"name": "Kirin's Wrath",
+				"description": "Заклинание. В течение 5 сек противники, окружающие место активации заклинания, будут получать 8...32 ед. урона святой силой каждую секунду.",
+				"concise": "Заклинание. Наносит 8...32 ед. урона святой силой каждую секунду (5 сек). Поражает противников, окружающих ваше первоначальное местоположение."
+			},
+			"bork": {
+				"name": "Kureen's Vraet",
+				"description": "Spell. Fur 5 secunds, fues aedjaecent tu zee lucaeshun in vheech zee spell vaes caest taeke-a 8...32 huly daemaege-a iaech secund.",
+				"concise": "Spell. Deaels 8...32 huly daemaege-a iaech secund (5 secunds). Heets fues aedjaecent tu yuoor ineeteeael lucaeshun."
 			}
 		}
 	}

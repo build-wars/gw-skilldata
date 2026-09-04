@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "活化",
+				"description": "缚灵仪式。 创造一只级别为1...10的活化缚灵。所有范围内持有物品的友方最大生命值将提高15...45点、能量值提高10点。活化缚灵在15...60秒后消失。",
+				"concise": "缚灵仪式。 创造一只级别为1...10的活化缚灵。所有范围内持有物品的友方最大生命值将提高15...45点、能量值提高10点。活化缚灵在15...60秒后消失。"
+			},
+			"cht": {
+				"name": "活化",
+				"description": "縛靈儀式： 創造一隻等級 1...10 的活化縛靈。使所有區域內正抱持物品的盟友，最大體力值增加 15...45 以及最大能量值增加 10 。縛靈將在 15...60 後消失。",
+				"concise": "縛靈儀式： 創造一隻等級 1...10 的活化縛靈。使所有區域內正抱持物品的盟友，最大體力值增加 15...45 以及最大能量值增加 10 。縛靈將在 15...60 後消失。"
+			},
 			"de": {
+				"name": "Ermächtigung (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...10. Alle Verbündeten in seiner Reichweite, die einen Gegenstand halten, erhalten 15...45 maximale Lebenspunkt[e] und 10 maximale Energiepunkte. Dieser Geist stirbt nach 15...60 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...10 (15...60 Sekunde[n] Lebensdauer). Verbündete in Reichweite erhalten +15...45 maximale Lebenspunkte und +10 maximale Energiepunkte, falls sie einen Gegenstand halten."
+			},
+			"de-guildwiki": {
 				"name": "Ermächtigung (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...10. Alle Verbündeten in seiner Reichweite, die einen Gegenstand halten, erhalten +15...45 maximale Lebenspunkte und +10 maximale Energiepunkte. Dieser Geist stirbt nach 15...60 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (15...60 Sekunden Lebensdauer). Verbündete in Reichweite erhalten +15...45 maximale Lebenspunkte und +10 maximale Energiepunkte, falls sie einen Gegenstand halten."
 			},
 			"en": {
 				"name": "Empowerment (PvP)",
+				"description": "Binding Ritual. Create a level 1...10 spirit. All allies within its range holding an item gain 15...45 maximum Health and 10 maximum Energy. This spirit dies after 15...60 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...10 spirit (15...60 second lifespan). Allies in range holding an item gain 15...45 maximum Health and 10 maximum Energy."
+			},
+			"en-gww": {
+				"name": "Empowerment (PvP)",
 				"description": "Create a level 1...10 spirit. All allies within its range holding an item gain 15...45 maximum Health and 10 maximum Energy. This spirit dies after 15...60 seconds.",
 				"concise": "Creates a level 1...10 spirit (15...60 second lifespan). Allies in range holding an item gain 15...45 maximum Health and 10 maximum Energy."
 			},
+			"es": {
+				"name": "Fortalecimiento (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...10. Todos los aliados de la zona que lleven un objeto ganan 15...45 de salud y 10 de energía máxima. El espíritu morirá a los 15...60 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...10 (15...60 segundos de vida). Los aliados de la zona que lleven un objeto ganan 15...45 de salud y 10 de energía máxima."
+			},
 			"fr": {
+				"name": "Responsabilisation (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...10. Tous les alliés dans sa portée qui portent un objet bénéficient de 15...45 de santé maximum et de 10 points d'énergie maximum. Il meurt au bout de 15...60 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...10 (durée de vie de 15...60 secondes). Les alliés à portée qui tiennent un objet gagnent 15...45 points de vie maximum et 10 points d'énergie maximum."
+			},
+			"fr-gwiki": {
 				"name": "Responsabilisation (PvP)",
 				"description": "Crée un esprit de niveau 1...10. Tous les alliés dans sa portée qui portent un objet bénéficient de 15...45 de santé maximum et de 10 points d'énergie maximum. Il meurt au bout de 15...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Autorizzazione (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...10. Tutti gli alleati nel raggio d'azione dello spirito creato che hanno in mano un oggetto ottengono 15...45 Punti di Salute massima e 10 di Energia massima. Lo spirito si esaurisce dopo 15...60 secondi.",
+				"concise": "Rituale Incatenante. Crea uno spirito di livello 1...10 (in vita per 15...60 secondi). Gli alleati nel raggio d'azione dello spirito creato che hanno in mano un oggetto ottengono 15...45 Punti di Salute massima e 10 di Energia massima."
+			},
+			"jp": {
+				"name": "エンパワー (PvP)",
+				"description": "バインド リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、手にアイテムを持っている味方は体力の上限が 15...45、エネルギーの上限が10増加します。この精霊は 15...60 秒後に消えます。",
+				"concise": "バインド リチュアル： レベル 1...10 の精霊を召喚します (15...60 秒) 。この精霊の効果範囲内では、手にアイテムを持っている味方は、体力の上限が 15...45、エネルギーの上限が10増加します。"
+			},
+			"kr": {
+				"name": "권능의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...10레벨의 영혼을 소환합니다. 영혼을 중심으로 일정 범위 내에서 드롭아이템을 들고 있는 모든 아군은 최대 체력이 15...45, 최대 에너지가 10 증가합니다. 영혼은 15...60초 후 사라집니다.",
+				"concise": "영혼 결속. 1...10레벨 영혼을 소환합니다.(수명: 15...60초) 반경 내에 드롭아이템을 들고 있는 아군은 최대 체력이 15...45, 최대 에너지가 10 증가합니다."
+			},
+			"pl": {
+				"name": "Wzmocnienie (PvP)",
+				"description": "Rytuał spętania. Tworzysz 1...10 poziomowego ducha. Wszyscy sojusznicy w jego zasięgu, którzy trzymają przedmiot otrzymują 15...45 pkt. do maksymalnej żywotności i 10 pkt. do maksymalnej energii. Duch ginie po 15...60 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...10 (czas życia 15...60 sek.). Sojusznicy w zasięgu, którzy trzymają przedmiot, otrzymują 15...45 pkt. do maksymalnej żywotności i 10 pkt. do maksymalnej energii."
+			},
+			"ru": {
+				"name": "Empowerment (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...10 уровня. У всех союзников, находящихся в зоне действия этого духа, которые держат артефакты, максимальный уровень здоровья увеличивается на 15...45 ед., а максимальный запас энергии увеличивается на 10 ед. Этот дух умирает через 15...60 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...10 уровня (15...60 сек жизни). Все находящиеся в зоне его действия союзники, которые держат артефакты, получают +15...45 ед. к максимальному уровню здоровья и +10 ед. к максимальному уровню энергии."
+			},
+			"bork": {
+				"name": "Impooerment (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...10 spureet. Aell aelleees veetheen its runge-a huldeeng un item gaeeen 15...45 maexeemoom Heaelt und 10 maexeemoom Inergy. Thees spureet deees aeffter 15...60 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...10 spureet (15...60 secund leeffespun). Aelleees in runge-a huldeeng un item gaeeen 15...45 maexeemoom Heaelt und 10 maexeemoom Inergy."
 			}
 		}
 	}

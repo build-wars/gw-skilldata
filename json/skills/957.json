@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "魔法盾",
+				"description": "增益魔法。 持续 5...20 秒，当你施法时，你无法成为任何法术的施法目标。而当魔法盾结束后，你的所有技能在 8...4 秒内无法使用。",
+				"concise": "增益魔法。 持续 5...20 秒，当你施法时，你无法成为任何法术的施法目标。而当魔法盾结束后，你的所有技能在 8...4 秒内无法使用。"
+			},
+			"cht": {
+				"name": "魔法盾",
+				"description": "加持魔法： 持續 5...20 秒，當你施展「魔法」時，你無法成為任何「魔法」的施法目標。而當魔法盾結束後，你的所有技能在 8...4 秒內無法使用。",
+				"concise": "加持魔法： 持續 5...20 秒，當你施展「魔法」時，你無法成為任何「魔法」的施法目標。而當魔法盾結束後，你的所有技能在 8...4 秒內無法使用。"
+			},
 			"de": {
+				"name": "Zauberschild",
+				"description": "Verzauberung. 5...20 Sekunde[n] lang könnt Ihr beim Wirken von Zaubern nicht zum Ziel von Zaubern Eurer Gegner werden. Wenn Zauberschild endet, werden alle Eure Fertigkeiten 8...4 Sekunde[n] lang deaktiviert.",
+				"concise": "Verzauberung. 5...20 Sekunde[n]: Während Ihr Zauber wirkt, könnt Ihr nicht zum Ziel von Zaubern werden. Wirkung am Ende: Eure Fertigkeiten werden deaktiviert (8...4 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Zauberschild",
 				"description": "5...20 Sekunden lang könnt Ihr beim Wirken von Zaubern nicht zum Ziel von Zaubern werden. Wenn Zauberschild endet, werden alle Eure Fertigkeiten 8...4 Sekunden lang deaktiviert.",
 				"concise": "5...20 Sekunden: Während Ihr Zauber wirkt, könnt Ihr nicht zum Ziel von Zaubern werden. <gray>Wirkung am Ende: Eure Fertigkeiten werden deaktiviert (8...4 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Spell Shield",
+				"description": "Enchantment Spell. For 5...20 seconds, while you are casting spells, foes cannot target you with spells. When Spell Shield ends, all your skills are disabled for 8...4 seconds.",
+				"concise": "Enchantment Spell. (5...20 seconds.) While casting spells, you cannot be the target of spells. End effect: your skills are disabled (8...4 seconds)."
+			},
+			"en-gww": {
+				"name": "Spell Shield",
 				"description": "For 5...20 seconds, while you are casting spells, foes cannot target you with spells. When Spell Shield ends, all your skills are disabled for 8...4 seconds.",
 				"concise": "(5...20 seconds.) While casting spells, you cannot be the target of spells. <gray>End effect: your skills are disabled (8...4 seconds).</gray>"
 			},
+			"es": {
+				"name": "Escudo de conjuros",
+				"description": "Conjuro con encantamiento. Durante 5...20 segundos, mientras estés invocando conjuros, los enemigos no te los podrán lanzar a ti. Cuando el Escudo de conjuros acabe, todas tus habilidades estarán desactivadas durante 8...4 segundos.",
+				"concise": "Conjuro con encantamiento. (5...20 segundos). Mientras lances conjuros, no te los podrán lanzar a ti. Efecto final: tus habilidades se desactivan (8...4 segundos)."
+			},
 			"fr": {
+				"name": "Bouclier contre les sorts",
+				"description": "Enchantement. Pendant 5...20 secondes, lorsque vous lancez des sorts, les ennemis ne peuvent pas vous cibler avec des sorts. Quand le Bouclier contre les sorts prend fin, toutes vos compétences sont inutilisables pendant 8...4 secondes.",
+				"concise": "Enchantement. (5...20 secondes.) Lorsque vous lancez des sorts, vous ne pouvez pas être la cible de sorts. Effet final : vos compétences sont désactivées (8...4 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Bouclier contre les sorts",
 				"description": "Pendant 5...20 secondes, lorsque vous lancez des sorts, vous ne pouvez pas être la cible de sorts. Quand le Bouclier contre les sorts prend fin, toutes vos compétences sont inutilisables pendant 8...4 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Scudo Magico",
+				"description": "Incantesimo. Per 5...20 secondo[i], mentre compi delle magie, i nemici non ti possono lanciare magie. Quando lo Scudo Magico termina, tutte le tue abilità vengono disattivate per 8...4 secondo[i].",
+				"concise": "Incantesimo. (Secondi: 5...20) Mentre lanci magie non puoi ricevere magie. Effetto al termine: le tue abilità sono disattivate (8...4 secondo[i])."
+			},
+			"jp": {
+				"name": "スペル シールド",
+				"description": "強化スペル： 5...20 秒間、スペルを詠唱している間は敵によるスペルのターゲットになりません。この効果が消失すると、すべてのスキルを 8...4 秒間使用することができなくなります。",
+				"concise": "強化スペル： (5...20 秒) スペル詠唱中はスペルのターゲットになりません。終了効果： スキルを使用することができなくなります (8...4 秒)。"
+			},
+			"kr": {
+				"name": "마법 보호막",
+				"description": "강화 마법. 대상 지정: 없음. 5...20초 동안 마법을 외울 때 적의 마법 대상이 되지 않습니다. 마법 보호막이 끝나면 8...4초 동안 모든 스킬을 사용할 수 없습니다.",
+				"concise": "강화 마법. (5...20초) 마법을 외울 때 다른 사람의 마법의 대상이 되지 않습니다. 종료 효과: 스킬을 사용할 수 없습니다.(8...4초)"
+			},
+			"pl": {
+				"name": "Tarcza Przeciw Czarom",
+				"description": "Zaklęcie (czar). Przez 5...20 sek., w momencie kiedy rzucasz czary, nie możesz być celem wrogich czarów. Kiedy Tarcza Przeciw Czarom przestanie działać, wszystkie twoje umiejętności będą niedostępne przez 8...4 sek.",
+				"concise": "Zaklęcie (czar). (5...20 sek.) W momencie kiedy rzucasz czary, nie możesz być celem wrogich czarów. Efekt końcowy: twoje umiejętności są wyłączone (8...4 sek.)."
+			},
+			"ru": {
+				"name": "Spell Shield",
+				"description": "Заклинание-чары. В течение 5...20 сек в то время, когда вы произносите заклинание, враги не могут направлять на вас заклинания. Когда Spell Shield заканчивает свое действие, все ваши умения становятся недоступными на 8...4 сек.",
+				"concise": "Заклинание-чары. (5...20 сек) Когда вы произносите заклинание, вы не можете стать целью других заклинаний. Эффект окончания: ваши умения будут недоступны (8...4 сек)."
+			},
+			"bork": {
+				"name": "Spell Sheeeld",
+				"description": "Inchuntment Spell. Fur 5...20 secunds, vheele-a yuoo aere-a caesteeng spells, fues cunnut taerget yuoo veet spells. Vhee Spell Sheeeld inds, aell yuoor skeells aere-a deesaebled fur 8...4 secunds.",
+				"concise": "Inchuntment Spell. (5...20 secunds.) Vheele-a caesteeng spells, yuoo cunnut be-a zee taerget ooff spells. Ind iffffect: yuoor skeells aere-a deesaebled (8...4 secunds)."
 			}
 		}
 	}

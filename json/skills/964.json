@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 3,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复仇之躯",
+				"description": "武咒。 在8秒之内，当目标盟友下一次因遭受敌人攻击而受到伤害时，该队友将从该名敌人身上偷取 15...60 生命。",
+				"concise": "武咒。 在8秒之内，当目标盟友下一次因遭受敌人攻击而受到伤害时，该队友将从该名敌人身上偷取 15...60 生命。"
+			},
+			"cht": {
+				"name": "復仇武裝",
+				"description": "武裝魔法： 持續8秒，下一次目標盟友遭受傷害或者偷取生命時，該盟友偷取攻擊者15...60體力。",
+				"concise": "武裝魔法： 持續8秒，下一次目標盟友遭受傷害或者偷取生命時，該盟友偷取攻擊者15...60體力。"
+			},
 			"de": {
+				"name": "Rachsüchtige Waffe",
+				"description": "Waffenzauber. Wenn der Verbündete innerhalb der nächsten 8 Sekunde[n] das nächste Mal durch einen Gegner Schaden erleidet oder Lebenspunkte entzogen bekommt, entzieht er diesem Gegner bis zu 15...60 Lebenspunkt[e].",
+				"concise": "Waffenzauber. (8 Sekunde[n].) Entzieht dem nächsten Feind, der Schaden beim Verbündeten anrichtet, 15...60 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Rachsüchtige Waffe",
 				"description": "Wenn der Verbündete (bzw. Ihr selbst) innerhalb der nächsten 8 Sekunden das nächste Mal durch einen Gegner Schaden erleidet oder Lebenspunkte entzogen bekommt, entzieht er diesem Gegner bis zu 15...60 Lebenspunkte.",
 				"concise": "(8 Sekunden.) Entzieht dem nächsten Feind, der Schaden beim Verbündeten anrichtet, 15...60 Lebenspunkte."
 			},
 			"en": {
 				"name": "Vengeful Weapon",
+				"description": "Weapon Spell. For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 15...60 Health from that foe.",
+				"concise": "Weapon Spell. (8 seconds.) Steals 15...60 Health from the next foe that deals damage or life steal to target ally."
+			},
+			"en-gww": {
+				"name": "Vengeful Weapon",
 				"description": "For 8 seconds, the next time target ally takes damage or life steal from a foe, that ally steals up to 15...60 Health from that foe.",
 				"concise": "(8 seconds.) Steals 15...60 Health from the next foe that deals damage or life steal to target ally."
 			},
+			"es": {
+				"name": "Arma vengativa",
+				"description": "Conjuro con arma. Durante 8 segundos, la siguiente vez que al objetivo aliado reciba daño o pierda vida por el ataque de un enemigo, el aliado le robará 15...60 de salud al enemigo.",
+				"concise": "Conjuro con arma. (8 segundos.) Roba 15...60 de salud del siguiente enemigo que haga daño o robe vida al aliado objetivo."
+			},
 			"fr": {
+				"name": "Arme de vengeance",
+				"description": "Sort d'altération d'arme. Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts ou un vol de vie, elle absorbe 15...60 points de vie à cet ennemi.",
+				"concise": "Sort d'altération d'arme. (8 secondes.) Vole 15...60 points de vie au prochain ennemi infligeant des dégâts ou un vol de vie à l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Arme de vengeance",
 				"description": "Pendant 8 secondes, la prochaine fois que la cible (un allié ou vous-même) subit des dégâts d'un ennemi, elle absorbe 15...60 points de vie à cet ennemi.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma Vendicatrice",
+				"description": "Magia Altera-arma. Per 8 secondi, la volta successiva in cui l'obiettivo (un alleato o te stesso) subisce danni o sottrazione salute da un nemico, a quest'ultimo vengono sottratti fino a 15...60 Punti Salute.",
+				"concise": "Magia Altera-arma. (Secondi: 8) Sottrae 15...60 Punti Salute dal nemico successivo che infligge danni o sottrazione vita a un obiettivo alleato."
+			},
+			"jp": {
+				"name": "ヴェンジフル ウェポン",
+				"description": "ウェポン スペル： 8 秒間、ターゲットした味方が次に敵からダメージを受けるか体力を奪い取られると、ターゲットはその敵から最大 15...60 の体力を奪い取ります。",
+				"concise": "ウェポン スペル： (8 秒) ターゲットした味方は、次にターゲットに対してダメージを与えるか体力を奪い取った敵から 15...60 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "복수의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 8초 동안 대상은 \"복수의 무기\" 효과를 얻습니다. 대상이 적에게 공격 대미지나 체력 흡수 대미지를 받으면 대상은 그 적에게서 15...60의 체력을 뺏습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "마법 무기. (8초) 대상 아군은 공격 대미지나 체력 흡수 대미지를 준 적에게서 15...60의 체력을 뺏습니다. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Mściwy Oręż",
+				"description": "Czar z broni. Przez 8 sek., następnym razem, kiedy wybrany sojusznik otrzyma cios lub zostanie mu wykradziona żywotność, to sojusznik ten wykrada przeciwnikowi do 15...60 pkt. żywotności.",
+				"concise": "Czar z broni. (8 sek.) Wykrada 15...60 pkt. żywotności następnemu przeciwnikowi, kt&oacute;ry zada obrażenia lub wykradnie żytwotność wybranemu sojusznikowi."
+			},
+			"ru": {
+				"name": "Vengeful Weapon",
+				"description": "Оружейное заклинание. В течение 8 сек в следующий раз, когда выбранный союзник получает урон от противника или у него похищают здоровье, этот союзник похищает до 15...60 ед. здоровья у этого противника.",
+				"concise": "Оружейное заклинание. (8 сек) Похищает 15...60 ед. здоровья у следующего противника, который нанесет урон выбранному союзнику или похитит у него здоровье."
+			},
+			"bork": {
+				"name": "Fengeffool Veaepun",
+				"description": "Veaepun Spell. Fur 8 secunds, zee next teeme-a taerget aelly taekes daemaege-a oor leeffe-a steael frum a fue-a, thaet aelly steaels up tu 15...60 Heaelt frum thaet fue-a.",
+				"concise": "Veaepun Spell. (8 secunds.) Steaels 15...60 Heaelt frum zee next fue-a thaet deaels daemaege-a oor leeffe-a steael tu taerget aelly."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Holy Spear",
+				"description": "矛术。 If this attack hits, you deal +5...20 damage. If it hits a summoned creature, all nearby foes take 15...90 holy damage, and are set on fire for 3 seconds.",
+				"concise": "矛术。 Deals +5...20 damage. Deals 15...90 holy damage and inflicts Burning condition (3 seconds) to nearby foes if you hit a summoned creature."
+			},
+			"cht": {
+				"name": "神聖之矛",
+				"description": "矛術攻擊技能： 此攻擊命中時，你造成 +5...20 傷害。若命中被召喚的生物時，所有附近敵人將受到 15...90 神聖傷害，並「著火」 3 秒。",
+				"concise": "矛術攻擊技能： 此攻擊命中時，你造成 +5...20 傷害。若命中被召喚的靈時，所有附近敵人將受到 15...90 神聖傷害，並「著火」 3 秒。"
+			},
 			"de": {
+				"name": "Heiliger Speer",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn dieser Angriff eine herbeigerufene Kreatur trifft, erleiden alle Feinde in der Nähe 15...90 Punkt[e] heiligen Schaden und werden 3 Sekunde[n] lang in Brand gesetzt.",
+				"concise": "Speerangriff. Richtet +5...20 Punkt[e] Schaden an. Richtet bei Feinden in der Nähe 15...90 Punkt[e] heiligen Schaden an und verursacht Zustand Brennen (3 Sekunde[n]), falls Ihr eine herbeigerufene Kreatur trefft."
+			},
+			"de-guildwiki": {
 				"name": "Heiliger Speer",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn dieser Angriff eine herbeigerufene Kreatur trifft, erleiden alle Feinde in der Nähe 15...90 Punkte heiligen Schaden und werden 3 Sekunden lang in Brand gesetzt.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Richtet bei Feinden in der Nähe 15...90 Punkte heiligen Schaden an und verursacht Zustand Brennen (3 Sekunden), falls Ihr eine herbeigerufene Kreatur trefft."
 			},
 			"en": {
 				"name": "Holy Spear",
+				"description": "Spear Attack. If this attack hits, you deal +5...20 damage. If it hits a summoned creature, all nearby foes take 15...90 holy damage, and are set on fire for 3 seconds.",
+				"concise": "Spear Attack. Deals +5...20 damage. Deals 15...90 holy damage and inflicts Burning condition (3 seconds) to nearby foes if you hit a summoned creature."
+			},
+			"en-gww": {
+				"name": "Holy Spear",
 				"description": "If this attack hits, you deal +5...20 damage. If it hits a summoned creature, all nearby foes take 15...90 holy damage, and are set on fire for 3 seconds.",
 				"concise": "Deals +5...20 damage. Deals 15...90 holy damage and inflicts Burning condition (3 seconds) to nearby foes if you hit a summoned creature."
 			},
+			"es": {
+				"name": "Lanza sagrada",
+				"description": "Ataque con lanza. Si este ataque impacta, harás +5...20 de daño. Si impacta a una criatura invocada, todos los enemigos cercanos recibirán 15...90 de daño sagrado y arderán durante 3 segundos.",
+				"concise": "Ataque con lanza. Hace +5...20 de daño. 15...90 de daño sagrado y causa quemadura (3 segundos) a los enemigos cercanos si alcanzas a una criatura invocada."
+			},
 			"fr": {
+				"name": "Javelot sacré",
+				"description": "Attaque au javelot. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle frappe une créature invoquée, tous les ennemis à proximité subissent 15...90 points de dégâts sacrés et s'embrasent pendant 3 secondes.",
+				"concise": "Attaque au javelot. Inflige +5...20 points de dégâts. Inflige 15...90 points de dégâts sacrés et la Brûlure (3 secondes) aux ennemis à proximité si vous frappez une créature invoquée."
+			},
+			"fr-gwiki": {
 				"name": "Javelot sacré",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle frappe une créature invoquée, tous les ennemis à proximité subissent 15...90 points de dégâts sacrés, et s'embrasent pendant 3 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancia Sacra",
+				"description": "Attacco con Lancia. Se questo attacco va a segno, infliggi +5...20 danno[i]; se colpisce una creatura evocata, tutti i nemici nei dintorni subiscono 15...90 danno[i] sacro[i] e prendono fuoco per 3 secondo[i].",
+				"concise": "Attacco con Lancia. Danni inferti: +5...20. Assesta 15...90 danno[i] sacro[i] e infligge Bruciatura (3 secondo[i]) ai nemici nei dintorni se colpisci una creatura evocata."
+			},
+			"jp": {
+				"name": "ホーリー スピア",
+				"description": "スピア アタック： 攻撃が成功すると、5...20 の追加ダメージを与えます。召喚生物を攻撃した場合、周囲にいる敵に 15...90 の神聖ダメージを与え、3 秒間「火傷」状態にします。",
+				"concise": "スピア アタック： 5...20 の追加ダメージを与えます。召喚生物を攻撃すると、周囲にいる敵に 15...90 の神聖ダメージを与えて「火傷」状態にします (3 秒) 。"
+			},
+			"kr": {
+				"name": "신성의 창",
+				"description": "창 공격. 공격이 성공하면 5...20의 대미지를 추가로 줍니다. 소환물에 대한 공격이 성공하면 부근의 모든 적에게 15...90의 신성 대미지를 주고, 3초간 화상을 입힙니다.",
+				"concise": "창 공격. 5...20의 대미지를 추가로 줍니다. 소환물에 대한 공격이 성공하면 부근의 적들에게 15...90의 신성 대미지를 주고, 화상을 입힙니다.(3초)"
+			},
+			"pl": {
+				"name": "Święta Włócznia",
+				"description": "Atak włócznią. Jeśli atak trafi, zadaje +5...20 pkt. obrażeń. Jeśli trafi przyzwane stworzenie, to wszyscy przeciwnicy w pobliżu otrzymują po 15...90 pkt. świętych obrażeń i na 3 sek. zostają podpaleni.",
+				"concise": "Atak włócznią. Zadaje +5...20 pkt. obrażeń. Przeciwnikom w pobliżu zadaje 15...90 pkt. świętych obrażeń i wywołuje przypadłość płonięcie (3 sek.), jeżeli trafisz przyzwanie stworzenie."
+			},
+			"ru": {
+				"name": "Holy Spear",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если атака была направлена против призванного создания, все противники поблизости получат 15...90 ед. урона святой силой и загорятся на 3 сек.",
+				"concise": "Атака копьем. Наносит дополнительно 5...20 ед. урона. Наносит 15...90 ед. урона святой силой и поджигает (3 сек) противников поблизости, если вы поражаете призванное создание."
+			},
+			"bork": {
+				"name": "Huly Speaer",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff it heets a soommuned creaetoore-a, aell neaerby fues taeke-a 15...90 huly daemaege-a, und aere-a set oon fure-a fur 3 secunds.",
+				"concise": "Speaer Aettaeck. Deaels +5...20 daemaege-a. Deaels 15...90 huly daemaege-a und inffleects Boorneeng cundeeshun (3 secunds) tu neaerby fues iff yuoo heet a soommuned creaetoore-a."
 			}
 		}
 	}

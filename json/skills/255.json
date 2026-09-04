@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "警惕之魂",
+				"description": "增益魔法。 当你维持此「增益魔法」时，可使友方目标的「生命再生」提高 2点，当你取消此项「增益魔法」时，可为目标立即恢复 30...180点 生命值。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，可使友方目标的「生命再生」提高2点，当你取消此项「增益魔法」时，可为目标立即恢复 30...180点 生命值。"
+			},
+			"cht": {
+				"name": "精神清醒",
+				"description": "加持魔法： 當你維持此「加持」時，目標盟友的體力再生增加 2 。而當你取消此項「加持」時，該盟友回復 30...180 體力。",
+				"concise": "加持魔法： 當你維持此「加持」時，目標盟友的體力再生增加 2 。而當你取消此項「加持」時，該盟友回復 30...180 體力。"
+			},
 			"de": {
+				"name": "Wachsamer Geist",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, erfreut sich der Verbündete (bzw. Ihr selbst) einer zusätzlichen Lebenspunktregeneration von 2. Wenn Wachsamer Geist endet, wird er für 30...180 Lebenspunk[e] geheilt.",
+				"concise": "Verzauberung. +2 Lebenspunktregeneration. Wirkung am Ende: Heilt um 30...180 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Wachsamer Geist",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, erfreut sich der Verbündete (bzw. Ihr selbst) einer zusätzlichen Lebenspunktregeneration von +2. Wenn Wachsamer Geist endet, wird er für 30...180 Lebenspunkte geheilt.",
 				"concise": "+2 Lebenspunktregeneration. Wirkung am Ende: Heilt um 30...180 Lebenspunkte."
 			},
 			"en": {
 				"name": "Watchful Spirit",
+				"description": "Enchantment Spell. While you maintain this enchantment, target ally gains +2 Health regeneration. That ally is healed for 30...180 Health when Watchful Spirit ends.",
+				"concise": "Enchantment Spell. +2 Health regeneration. End effect: heals for 30...180."
+			},
+			"en-gww": {
+				"name": "Watchful Spirit",
 				"description": "While you maintain this enchantment, target ally gains +2 Health regeneration. That ally is healed for 30...180 Health when Watchful Spirit ends.",
 				"concise": "+2 Health regeneration. End effect: heals for 30...180."
 			},
+			"es": {
+				"name": "Espíritu guardián",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, el objetivo (un aliado o tú mismo) ganará +2 de regeneración de salud. Ese aliado se curará en 30...180 de salud cuando el Espíritu guardián termine.",
+				"concise": "Conjuro con encantamiento. +2 de regeneración de salud. Efecto final: cura 30...180 de salud."
+			},
 			"fr": {
+				"name": "Esprit vigilant",
+				"description": "Enchantement. Tant que cet enchantement est actif, la cible (un allié ou vous-même) reçoit une régénération de santé de +2, elle est soignée de 30...180 points de vie lorsque les effets de l'esprit vigilant s'estompent.",
+				"concise": "Enchantement. Confère une régénération de santé de +2. Effet final : soigne de 30...180 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Esprit vigilant",
 				"description": "Tant que cet enchantement est actif, la cible (un allié ou vous-même) reçoit une régénération de santé de +2, elle est soignée de 30...180 points de vie lorsque les effets de lEsprit vigilant'' s'estompent.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito di Guardia",
+				"description": "Incantesimo. Mantenendo questo incantesimo, l'obiettivo (un alleato o te stesso) riceve una Rigenerazione della Salute di +2. L'obiettivo viene curato di 30...180 Punto[i] Salute quando lo Spirito di Guardia termina.",
+				"concise": "Incantesimo. Rigenerazione Salute: +2. Effetto al termine: cura di 30...180."
+			},
+			"jp": {
+				"name": "ウォッチフル スピリット",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした味方は体力の自然回復力が2増加します。この効果が消失すると、その味方は 30...180 の体力を獲得します。",
+				"concise": "強化スペル： 体力の自然回復力が2増加します。終了効果： 体力が 30...180 回復します。"
+			},
+			"kr": {
+				"name": "주시의 성령",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상의 체력 재생이 2 증가합니다. 주시의 성령 효과가 끝나면 대상의 체력이 30...180 회복됩니다.",
+				"concise": "강화 마법. 체력 재생이 2 증가합니다. 종료 효과: 30...180의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Czujny Duch",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, wybrany sojusznik posiada regenerację żywotności +2. Kiedy Czujny Duch przestanie działać, osoba, na którą działał otrzyma 30...180 pkt. żywotności.",
+				"concise": "Zaklęcie (czar). Regeneracja żywotności +2. Efekt końcowy: dodaje 30...180 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Watchful Spirit",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, скорость восстановления здоровья у выбранного союзника увеличивается на 2 ед. Этот союзник будет исцелен на 30...180 ед. здоровья, когда Watchful Spirit закончит свое действие.",
+				"concise": "Заклинание-чары. На 2 ед. увеличивает скорость восстановления здоровья. Эффект окончания: исцеляет на 30...180 ед. здоровья."
+			},
+			"bork": {
+				"name": "Vaetchffool Spureet",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, taerget aelly gaeeens +2 Heaelt regeneraeshun. Thaet aelly is heaeled fur 30...180 Heaelt vhee Vaetchffool Spureet inds.",
+				"concise": "Inchuntment Spell. +2 Heaelt regeneraeshun. Ind iffffect: heaels fur 30...180."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "严寒之风",
+				"description": "负面魔法。 对遭受「水系负面魔法」的目标敌人造成20...80点冰冻伤害。如果目标敌人没有遭受「水系负面魔法」，则使其移动速度降低66%，持续1...5秒。",
+				"concise": "负面魔法。 对遭受「水系负面魔法」的目标敌人造成20...80点冰冻伤害。如果目标敌人没有遭受「水系负面魔法」，则使其移动速度降低66%，持续1...5秒。"
+			},
+			"cht": {
+				"name": "寒風",
+				"description": "降咒魔法： 若目標敵人正遭受「水系魔法」的「降咒」，該目標將受到 20...80 冰凍傷害。否則，該目標移動速度將會減慢 66% ，持續 1...5 秒。",
+				"concise": "降咒魔法： 若目標敵人正遭受「水系魔法」的「降咒」，該目標將受到 20...80 冰凍傷害。否則，該目標移動速度將會減慢 66% ，持續 1...5 秒。"
+			},
 			"de": {
+				"name": "Gefrierende Böe",
+				"description": "Verhexung. Wenn der Gegner an den Auswirkungen einer Wassermagie-Verhexung leidet, erleidet er 20...80 Punkt[e] Kälteschaden. Ansonsten bewegt er sich 1...5 Sekunde[n] lang um 66% langsamer.",
+				"concise": "Verhexung. Richtet 20...80 Punkt[e] Kälteschaden an, falls der Gegner mit Wassermagie verhext ist. Ansonsten bewegt er sich um 66% langsamer (1...5 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Gefrierende Böe",
 				"description": "Wenn der Gegner an den Auswirkungen einer Wassermagie-Verhexung leidet, erleidet er 20...80 Punkte Kälteschaden. Ansonsten bewegt er sich 1...5 Sekunden lang um 66% langsamer.",
 				"concise": "Richtet 20...80 Punkte Kälteschaden an, falls der Gegner mit Wassermagie verhext ist. Andernfalls bewegt sich der Gegner um 66% langsamer (1...5 Sekunden)."
 			},
 			"en": {
 				"name": "Freezing Gust",
+				"description": "Hex Spell. If target foe is under the effect of a Water Magic hex, that foe is struck for 20...80 cold damage. Otherwise, that foe moves 66% slower for 1...5 seconds.",
+				"concise": "Hex Spell. Deals 20...80 cold damage if target foe is hexed with Water Magic. Otherwise, this foe moves 66% slower (1...5 seconds)."
+			},
+			"en-gww": {
+				"name": "Freezing Gust",
 				"description": "If target foe is under the effect of a Water Magic hex, that foe is struck for 20...80 cold damage. Otherwise, that foe moves 66% slower for 1...5 second[s].",
 				"concise": "Deals 20...80 cold damage if target foe is hexed with Water Magic. Otherwise, this foe moves 66% slower (1...5 second[s])."
 			},
+			"es": {
+				"name": "Bocanada helada",
+				"description": "Conjuro con maleficio. Si el enemigo objetivo está bajo los efectos de un maleficio de agua, recibe 20...80 de daño frío. De lo contrario, se mueve un 66% más despacio durante 1...5 segundos.",
+				"concise": "Conjuro con maleficio. Hace 20...80 de daño frío si el enemigo objetivo está bajo los efectos de un maleficio de agua. De lo contrario, el enemigo se mueve un 66% más despacio (1...5 segundos)."
+			},
 			"fr": {
+				"name": "Rafale givrante",
+				"description": "Maléfice. Si l'ennemi visé est sous les effets d'un maléfice de la Magie de l'eau, il reçoit 20...80 points de dégâts du froid. Sinon, cet ennemi se déplace 66% moins vite pendant 1...5 secondes.",
+				"concise": "Maléfice. Inflige 20...80 points de dégâts du froid si l'ennemi visé souffre d'un maléfice de la Magie de l'eau. Sinon, cet ennemi se déplace 66% moins vite pendant 1...5 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Rafale givrante",
 				"description": "Si l'ennemi visé est sous les effets d'un maléfice de la magie de l'eau, il reçoit 20...80 points de dégâts du froid. Sinon, cet ennemi se déplace 66% moins vite pendant 1...6 seconde(s).",
 				"concise": "Inflige 20...80 points de dégâts du froid si l'ennemi visé souffre d'un maléfice de la magie de l'eau. Cet ennemi se déplace 66% moins vite (1...6 secondes) dans le cas contraire."
+			},
+			"it": {
+				"name": "Folata Congelante",
+				"description": "Fattura. Se l'obiettivo nemico è sotto gli effetti di una fattura della Magia dell'Acqua subisce 20...80 danni da freddo. Altrimenti si muove con una velocità inferiore di un 66% per 1...5 secondi.",
+				"concise": "Fattura. Danni da freddo se l'obiettivo nemico è affetto da una fattura dell'Acqua: 20...80. Altrimenti i suoi movimenti rallentano di un 66% (1...5 secondi)."
+			},
+			"jp": {
+				"name": "フリーズ ガスト",
+				"description": "弱体化スペル： ターゲットした敵に「ウォーター」特性の弱体化スペルがかけられている場合、20...80 のコールド ダメージを与えます。かけられていない場合、ターゲットは 1...5 秒間、移動速度が 66% 減少します。",
+				"concise": "弱体化スペル： ターゲットした敵に「ウォーター」特性の弱体化スペルがかけられている場合、20...80 のコールド ダメージを与えます。かけられていない場合、その敵は移動速度が 66% 減少します (1...5 秒)。"
+			},
+			"kr": {
+				"name": "냉기의 돌풍",
+				"description": "약화 마법. 대상 지정: 적. 대상이 물 속성 약화 마법에 걸려 있으면 대상은 20...80의 냉기 대미지를 입고, 물 속성 약화 마법에 걸려 있지 않으면 1...5초 동안 이동 속도가 66% 느려집니다.",
+				"concise": "약화 마법. 대상이 물 속성 약화 마법에 걸려 있으면 20...80의 냉기 대미지를 줍니다. 물 속성 약화 마법에 걸려 있지 않으면 이동 속도가 66% 느려지게 합니다.(1...5초)"
+			},
+			"pl": {
+				"name": "Zamrażający Podmuch",
+				"description": "Klątwa (czar). Zadaje wybranemu przeciwnikowi 20...80 pkt. obrażeń od zimna. Jeśli przeciwnik ten jest po wpływem klątwy Magii Wody, otrzymuje dodatkowe 66 pkt. obrażeń od zimna.",
+				"concise": "Klątwa (czar). Zadaje 20...80 pkt. obrażeń od zimna. Zadaje +66 pkt. obrażeń od zimna, jeśli przeciwnik znajduje się pod wpływem klątwy Magii Wody."
+			},
+			"ru": {
+				"name": "Freezing Gust",
+				"description": "Заклинание-проклятье. Если на выбранном противнике лежит проклятье, связанное с талантом Water Magic, этот противник получает 20...80 ед. урона силой холода. В противном случае, этот противник будет двигаться на 66% медленнее в течение 1...5 сек.",
+				"concise": "Заклинание-проклятье. Наносит 20...80 ед. урона силой холода, если на выбранном противнике лежит проклятье, связанное с Water Magic. Иначе этот противник двигается на 66% медленнее (1...5 сек)."
+			},
+			"bork": {
+				"name": "Freezeeng Goost",
+				"description": "Hex Spell. Iff taerget fue-a is under zee iffffect ooff a Vaeter Maegeec hex, thaet fue-a is stroock fur 20...80 culd daemaege-a. Oozeerveese-a, thaet fue-a mufes 66% slooer fur 1...5 secunds.",
+				"concise": "Hex Spell. Deaels 20...80 culd daemaege-a iff taerget fue-a is hexed veet Vaeter Maegeec. Oozeerveese-a, thees fue-a mufes 66% slooer (1...5 secunds)."
 			}
 		}
 	}

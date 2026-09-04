@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 8,
 		"adrenaline_precise": 8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "晕眩打击",
+				"description": "精英矛术。 命中时，对敌人造成10...50点额外伤害。如果命中正遭受「症状」的敌人，该敌人将「晕眩」4...10秒。",
+				"concise": "精英矛术。 命中时，对敌人造成10...50点额外伤害。如果命中正遭受「症状」的敌人，该敌人将「晕眩」4...10秒。"
+			},
+			"cht": {
+				"name": "震暈攻擊",
+				"description": "精英矛術攻擊技能： 命中時對目標造成 10...50 額外傷害。若該目標正遭受「病症」，則使其再遭受「暈眩」病症 4...10 秒。",
+				"concise": "精英矛術攻擊技能： 命中時對目標造成 10...50 額外傷害。若該目標正遭受「病症」，則使其再遭受「暈眩」病症 4...10 秒。"
+			},
 			"de": {
+				"name": "Betäubender Schlag",
+				"description": "Elite-Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...50 Punkt[e] Schaden zu. Wenn er einen Feind trifft, der unter einem Zustand leidet, wird dieser 4...10 Sekunde[n] lang betäubt.",
+				"concise": "Elite-Speerangriff. Richtet +10...50 Punkt[e] Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunde[n]), falls der Gegner einen Zustand hat."
+			},
+			"de-guildwiki": {
 				"name": "Betäubender Schlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...50 Punkte Schaden zu. Wenn er einen Feind trifft, der unter einem Zustand leidet, wird dieser 4...10 Sekunden lang betäubt.",
 				"concise": "Richtet +10...50 Punkte Schaden an. Verursacht Zustand Benommenheit (4...10 Sekunden), falls der Gegner einen Zustand hat."
 			},
 			"en": {
 				"name": "Stunning Strike",
+				"description": "Elite Spear Attack. If this attack hits, you deal +10...50 damage. If it hits a foe suffering from a condition, that foe is also Dazed for 4...10 seconds.",
+				"concise": "Elite Spear Attack. Deals +10...50 damage. Inflicts Dazed condition (4...10 seconds) if target has a condition."
+			},
+			"en-gww": {
+				"name": "Stunning Strike",
 				"description": "If this attack hits, you deal +10...50 damage. If it hits a foe suffering from a condition, that foe is also Dazed for 4...10 seconds.",
 				"concise": "Deals +10...50 damage. Inflicts Dazed condition (4...10 seconds) if target has a condition."
 			},
+			"es": {
+				"name": "Golpe abrumador",
+				"description": "Ataque con lanza de élite. Si alcanzas al enemigo, le harás +10...50 de daño. Si estaba sufriendo una condición, quedará aturdido durante 4...10 segundos.",
+				"concise": "Ataque con lanza de élite. Hace +10...50 de daño. Causa aturdimiento (4...10 segundos) si el enemigo objetivo tiene alguna condición."
+			},
 			"fr": {
+				"name": "Frappe stupéfiante",
+				"description": "Attaque au javelot d'élite. Si cette attaque réussit, vous infligez +10...50 points de dégâts. Si elle touche un ennemi qui souffre d'une condition, celui-ci est aussi frappé de Stupeur pendant 4...10 secondes.",
+				"concise": "Attaque au javelot d'élite. Inflige +10...50 points de dégâts. Inflige la Stupeur (4...10 secondes) si la cible souffre d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Frappe stupéfiante",
 				"description": "Si cette attaque réussit, vous infligez +5...30 points de dégâts. Si elle touche un ennemi qui souffre d'une condition, celui-ci est aussi frappé de Stupeur pendant 4...10 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Stordente",
+				"description": "Attacco d'Élite con Lancia. Se questo attacco va a segno, infliggi +10...50 danno[i]; se colpisce un nemico affetto da una condizione lo stordisce anche per 4...10 secondo[i].",
+				"concise": "Attacco d'Élite con Lancia. Danni inferti: +10...50. Condizione inflitta se l'obiettivo soffre di una condizione: Stordimento (4...10 secondo[i])."
+			},
+			"jp": {
+				"name": "スタン ストライク",
+				"description": "エリート スピア アタック： この攻撃が成功すると、10...50 の追加ダメージを与えます。「状態異常」の敵に攻撃が成功した場合、その敵を 4...10 秒間「放心」状態にします。",
+				"concise": "エリート スピア アタック： 10...50 の追加ダメージを与えます。ターゲットに「状態異常」がかけられている場合、「放心」状態にします (4...10 秒) 。"
+			},
+			"kr": {
+				"name": "혼미한 일격",
+				"description": "엘리트 창 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...50의 대미지를 추가로 줍니다. 그 대상이 상태이상에 걸려 있으면 대상은 4...10초 동안 현혹 상태가 됩니다.",
+				"concise": "엘리트 창 공격. 10...50의 대미지를 추가로 줍니다. 대상이 상태이상에 걸려 있으면 현혹시킵니다.(4...10초)"
+			},
+			"pl": {
+				"name": "Ogłuszające Uderzenie",
+				"description": "Elitarny atak włócznią. Jeśli atak trafi, zadaje +10...50 pkt. obrażeń. Jeśli cel cierpi na przypadłość, zostaje dodatkowo oszołomiony na 4...10 sek.",
+				"concise": "Elitarny atak włócznią. Zadaje +10...50 pkt. obrażeń. Wywołuje przypadłość oszołomienie (4...10 sek.), jeżeli cel jest pod działaniem przypadłości."
+			},
+			"ru": {
+				"name": "Stunning Strike",
+				"description": "Элитная атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 10...50 ед. урона. Если эта атака попадает по противнику, на которого наложено какое-либо состояние, этот противник будет ошеломлен на 4...10 сек.",
+				"concise": "Элитная атака копьем. Наносит дополнительно 10...50 ед. урона. Вызывает ошеломление (4...10 сек), если на цель действует состояние."
+			},
+			"bork": {
+				"name": "Stoonneeng Streeke-a",
+				"description": "Ileete-a Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +10...50 daemaege-a. Iff it heets a fue-a sooffffereeng frum a cundeeshun, thaet fue-a is aelsu Daezed fur 4...10 secunds.",
+				"concise": "Ileete-a Speaer Aettaeck. Deaels +10...50 daemaege-a. Inffleects Daezed cundeeshun (4...10 secunds) iff taerget haes a cundeeshun."
 			}
 		}
 	}

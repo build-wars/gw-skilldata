@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "碎冰风暴",
+				"description": "负面魔法。 射出碎冰，击中目标敌人并对其造成 10...85点 冰冻伤害，移动速度降低 66%，持续 2...6秒。",
+				"concise": "负面魔法。 射出碎冰，击中目标敌人并对其造成 10...85点 冰冻伤害，移动速度降低 66%，持续 2...6秒。"
+			},
+			"cht": {
+				"name": "冰風暴",
+				"description": "降咒魔法： 射出冰凍碎片，擊中目標敵人時對其造成 10...85 冰凍傷害，並且使該目標的移動速度減慢 66% ，持續 2...6 秒。",
+				"concise": "降咒魔法： 射出冰凍碎片，擊中目標敵人時對其造成 10...85 冰凍傷害，並且使該目標的移動速度減慢 66% ，持續 2...6 秒。"
+			},
 			"de": {
+				"name": "Scherbensturm",
+				"description": "Verhexung. Sendet eine Eisscherbe aus, die dem Gegner 10...85 Punkt[e] Kälteschaden zufügt, wenn sie trifft und dazu führt, dass er sich 2...6 Sekunde[n] lang um 66% langsamer bewegt.",
+				"concise": "Verhexung. Geschoss: Richtet 10...85 Punkt[e] Kälteschaden an. Gegner bewegt sich um 66% langsamer (2...6 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Scherbensturm",
 				"description": "Sendet eine Eisscherbe aus, die dem Gegner 10...85 Punkte Kälteschaden zufügt, wenn sie trifft und dazu führt, dass er sich 2...6 Sekunden lang um 66% langsamer bewegt.",
 				"concise": "Geschoss: Richtet 10...85 Punkte Kälteschaden an. Gegner bewegt sich um 66% langsamer (2...6 Sekunden)."
 			},
 			"en": {
 				"name": "Shard Storm",
+				"description": "Hex Spell. Send out an ice shard that strikes target foe for 10...85 cold damage if it hits and causing target foe to move 66% slower for 2...6 seconds.",
+				"concise": "Hex Spell. Projectile: deals 10...85 cold damage. Target foe moves 66% slower (2...6 seconds)."
+			},
+			"en-gww": {
+				"name": "Shard Storm",
 				"description": "Send out an ice shard that strikes target foe for 10...85 cold damage if it hits and causing target foe to move 66% slower for 2...6 seconds.",
 				"concise": "Projectile: deals 10...85 cold damage. Target foe moves 66% slower (2...6 seconds)."
 			},
+			"es": {
+				"name": "Tormenta de fragmentos",
+				"description": "Conjuro con maleficio. Lanzas un témpano de hielo que causará 10...85 de daño frío al enemigo y hará que se mueva un 66% más lento durante 2...6 segundos.",
+				"concise": "Conjuro con maleficio. Proyectil: hace 10...85 de daño frío. El enemigo objetivo se mueve un 66% más despacio (2...6 segundos)."
+			},
 			"fr": {
+				"name": "Tempête de glace",
+				"description": "Maléfice. Vous envoyez un pic de glace qui inflige 10...85 points de dégâts du froid s'il touche sa cible. L'ennemi se déplacera alors 66% moins vite pendant 2...6 secondes.",
+				"concise": "Maléfice. Projectile : inflige 10...85 points de dégâts du froid. La cible ennemie se déplace 66% moins vite (2...6 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Tempête de glace",
 				"description": "Vous envoyez un pic de glace qui inflige 10...85 points de dégâts s'il touche sa cible. L'ennemi se déplacera alors 66% moins vite pendant 2...6 secondes.",
 				"concise": "Projectile : inflige 10...85 points de dégâts du froid. L'ennemi visé se déplace 66% moins vite (2...6 secondes)."
+			},
+			"it": {
+				"name": "Tempesta di Schegge",
+				"description": "Fattura. Lanci un frammento di ghiaccio che infligge all'obiettivo nemico 10...85 danni da freddo se va a segno e ne rallenta i movimenti del 66% per 2...6 secondi.",
+				"concise": "Fattura. Proiettile: danni da freddo inferti: 10...85. I movimenti dell'obiettivo nemico rallentano del 66% (2...6 secondi)."
+			},
+			"jp": {
+				"name": "シャード ストーム",
+				"description": "弱体化スペル： ターゲットした敵に、命中すると 10...85 のコールド ダメージを与え、2...6 秒間、移動速度を66%減少させる氷の欠片を投げつけます。",
+				"concise": "弱体化スペル： 遠投攻撃： 10...85 のコールド ダメージを与えます。ターゲットした敵は移動速度が66%減少します (2...6 秒)。"
+			},
+			"kr": {
+				"name": "얼음 파편",
+				"description": "약화 마법. 대상 지정: 적. 대상에게 얼음 파편을 날립니다. 명중하면 대상은 10...85의 냉기 대미지를 입고, 2...6초 동안 이동 속도가 66% 느려집니다. 자신이 피로 상태면 소모 에너지의 절반을 회복합니다.",
+				"concise": "약화 마법. 발사체: 10...85의 냉기 대미지를 주고, 이동 속도가 66% 느려지게 합니다.(2...6초) 피로 상태면 소모 에너지의 절반을 회복합니다."
+			},
+			"pl": {
+				"name": "Lodowa Burza",
+				"description": "Klątwa (czar). Wyrzuć lodowy odłamek, który zadaje wybranemu przeciwnikowi 10...85 obrażeń od zimna oraz spowalnia go o 66% na 2...6 sek.",
+				"concise": "Klątwa (czar). Pocisk: zadaje 10...85 pkt. obrażeń od zimna. Wybrany przeciwnik porusza się o 66% wolniej (2...6 sek.)."
+			},
+			"ru": {
+				"name": "Shard Storm",
+				"description": "Заклинание-проклятье. Бросок ледяным осколком, который наносит выбранному противнику 10...85 ед. урона силой холода в случае попадания и замедляет скорость его передвижения на 66% в течение 2...6 сек.",
+				"concise": "Заклинание-проклятье. Метательный снаряд: наносит 10...85 ед. урона силой холода. Выбранный противник двигается на 66% медленнее (2...6 сек)."
+			},
+			"bork": {
+				"name": "Shaerd Sturm",
+				"description": "Hex Spell. Send oooot un ice-a shaerd thaet streekes taerget fue-a fur 10...85 culd daemaege-a iff it heets und cooseeng taerget fue-a tu mufe-a 66% slooer fur 2...6 secunds.",
+				"concise": "Hex Spell. Prujecteele-a: deaels 10...85 culd daemaege-a. Taerget fue-a mufes 66% slooer (2...6 secunds)."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "精髓冲击",
+				"description": "咒文。 对目标敌人造成15...60点闪电伤害。如果「音波」范围内有任何的「灵体」存在，你将获得1...9点能量。",
+				"concise": "咒文。 对目标敌人造成15...60点闪电伤害。如果「音波」范围内有任何的「灵体」存在，你将获得1...9点能量。"
+			},
+			"cht": {
+				"name": "精髓衝擊",
+				"description": "咒文魔法： 對目標敵人造成 15...60 閃電傷害。若音量所及範圍內存在任何的「靈」，你獲得 1...9 能量。",
+				"concise": "咒文魔法： 對目標敵人造成 15...60 閃電傷害。若音量所及範圍內存在任何的「靈」，你獲得 1...9 能量。"
+			},
 			"de": {
+				"name": "Essenzschlag",
+				"description": "Zauber. Der Gegner erleidet 15...60 Punkt[e] Blitzschaden. Wenn sich Geister in Hörweite befinden, erhaltet Ihr 1...9 Energiepunkt[e].",
+				"concise": "Zauber. Richtet 15...60 Punkt[e] Blitzschaden an. Ihr erhaltet 1...9 Energiepunkt[e], falls sich Geister in Hörweite befinden."
+			},
+			"de-guildwiki": {
 				"name": "Essenzschlag",
 				"description": "Der Gegner erleidet 15...60 Punkte Blitzschaden. Wenn sich Geister in Hörweite befinden, erhaltet Ihr 1...9 Energiepunkte.",
 				"concise": "Richtet 15...60 Punkte Blitzschaden an. Ihr erhaltet 1...9 Energiepunkte, falls sich Geister in Hörweite befinden."
 			},
 			"en": {
 				"name": "Essence Strike",
+				"description": "Spell. Target foe is struck for 15...60 lightning damage. If any spirits are within earshot, you gain 1...9 Energy.",
+				"concise": "Spell. Deals 15...60 lightning damage. You gain 1...9 Energy if any spirits are within earshot."
+			},
+			"en-gww": {
+				"name": "Essence Strike",
 				"description": "Target foe is struck for 15...60 lightning damage. If any spirits are within earshot, you gain 1...9 Energy.",
 				"concise": "Deals 15...60 lightning damage. You gain 1...9 Energy if any spirits are within earshot."
 			},
+			"es": {
+				"name": "Golpe de esencia",
+				"description": "Conjuro. Haces 15...60 de daño de relámpago al enemigo objetivo. Si hay espíritus al alcance del oído, ganas 1...9 de energía.",
+				"concise": "Conjuro. Hace 15...60 de daño de relámpago. Ganas 1...9 de energía si hay espíritus al alcance del oído."
+			},
 			"fr": {
+				"name": "Frappe d'essence",
+				"description": "Sort. La cible ennemie subit 15...60 points de dégâts de la foudre. Si des esprits se trouvent à portée de voix, vous gagnez 1...9 points d'énergie.",
+				"concise": "Sort. Inflige 15...60 points de dégâts de la foudre. Vous gagnez 1...9 points d'énergie si un esprit est à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Frappe d'essence",
 				"description": "La cible ennemie subit 15...60 points de dégâts de la foudre. Si des esprits se trouvent à portée de voix, vous gagnez 1...9 point(s) d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo dell'Essenza",
+				"description": "Magia. L'obiettivo nemico subisce 15...60 danno[i] da fulmine; se sono presenti degli Spiriti a portata d'orecchio, ottieni 1...9 Punto[i] Energia.",
+				"concise": "Magia. Danni da fulmine inferti: 15...60. Energia conseguita se ci sono Spiriti a portata d'orecchio: 1...9."
+			},
+			"jp": {
+				"name": "エッセンス ストライク",
+				"description": "スペル： ターゲットした敵に 15...60 のライトニング ダメージを与えます。声の届く範囲内に精霊がいる場合、プレイヤーは 1...9 のエネルギーを獲得します。",
+				"concise": "スペル： 15...60 のライトニング ダメージを与えます。声の届く範囲内に精霊がいる場合、1...9 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "정기 강타",
+				"description": "마법. 대상 지정: 적. 대상에게 15...60의 번개 대미지를 줍니다. 가청 범위 내에 영혼이 있으면 1...9의 에너지를 얻습니다.",
+				"concise": "마법. 15...60의 번개 대미지를 줍니다. 가청 범위 내에 영혼이 있으면 1...9의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Esencji",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 15...60 pkt. obrażeń od błyskawic. Jeżeli w zasięgu słuchu znajdują się jakieś duchy, zyskujesz 1...9 pkt. energii.",
+				"concise": "Czar. Zadaje 15...60 pkt. obrażeń od błyskawic. Otrzymujesz 1...9 pkt. energii, jeżeli w zasięgu słuchu jest jakiś duch."
+			},
+			"ru": {
+				"name": "Essence Strike",
+				"description": "Заклинание. Выбранный противник получает 15...60 ед. урона силой молнии. Если в вашей зоне слышимости находится какой-либо дух, вы получаете 1...9 ед. энергии.",
+				"concise": "Заклинание. Наносит 15...60 ед. урона силой молнии. Вы получаете 1...9 ед. энергии, если в вашей зоне слышимости есть дух."
+			},
+			"bork": {
+				"name": "Issence-a Streeke-a",
+				"description": "Spell. Taerget fue-a is stroock fur 15...60 leeghtneeng daemaege-a. Iff uny spureets aere-a veetheen iaershut, yuoo gaeeen 1...9 Inergy.",
+				"concise": "Spell. Deaels 15...60 leeghtneeng daemaege-a. Yuoo gaeeen 1...9 Inergy iff uny spureets aere-a veetheen iaershut."
 			}
 		}
 	}

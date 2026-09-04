@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致命之眼",
+				"description": "技能。 使你打出致命一击的几率提高 3...15%，效果持续 10...35秒，而且每当打出致命一击时，你将获得 1点 能量值。",
+				"concise": "技能。 使你打出致命一击的几率提高 3...15%，效果持续 10...35秒，而且每当打出致命一击时，你将获得 1点 能量值。"
+			},
+			"cht": {
+				"name": "致命之眼",
+				"description": "技能： 持續 10...35 秒，你的致命攻擊出現機率增加 3...15% ，而且每當致命攻擊出現時你獲得 1 能量。",
+				"concise": "技能： 持續 10...35 秒，你的致命攻擊出現機率增加 3...15% ，而且每當致命攻擊出現時你獲得 1 能量。"
+			},
 			"de": {
+				"name": "Kritisches Auge",
+				"description": "Fertigkeit. 10...35 Sekunde[n] lang habt Ihr zusätzlich eine 3...15% höhere Chance, bei einem Angriff einen kritischen Treffer zu erzielen. Ihr erhaltet 1 Energiepunkt[e] für jeden kritischen Treffer.",
+				"concise": "Fertigkeit. 10...35 Sekunde[n]: Ihr habt +3...15% zur Chance auf kritische Treffer. Ihr erhaltet jedes Mal 1 Energiepunkt[e], wenn Ihr einen kritischen Treffer landet."
+			},
+			"de-guildwiki": {
 				"name": "Kritisches Auge",
 				"description": "10...35 Sekunden lang habt Ihr eine 3...15%ige Chance, bei einem Angriff einen kritischen Treffer zu erzielen. Ihr erhaltet 1 Energiepunkt für jeden kritischen Treffer.",
 				"concise": "10...35 Sekunden: Ihr habt + 3...15% zur Chance auf kritische Treffer. Ihr erhaltet jedes Mal 1 Energiepunkt, wenn Ihr einen kritischen Treffer landet."
 			},
 			"en": {
 				"name": "Critical Eye",
+				"description": "Skill. For 10...35 seconds, you have an additional 3...15% chance to land a critical hit when attacking. You gain 1 Energy whenever you score a critical hit.",
+				"concise": "Skill. (10...35 seconds.) You have +3...15% chance to land a critical hit. You gain 1 Energy whenever you land a critical hit."
+			},
+			"en-gww": {
+				"name": "Critical Eye",
 				"description": "For 10...35 seconds, you have an additional 3...15% chance to land a critical hit when attacking. You gain 1 Energy whenever you score a critical hit.",
 				"concise": "(10...35 seconds.) You have +3...15% chance to land a critical hit. You gain 1 Energy whenever you land a critical hit."
 			},
+			"es": {
+				"name": "Ojo crítico",
+				"description": "Habilidad. Durante 10...35 segundos, tienes un 3...15% de probabilidades extra de hacer un golpe crítico al atacar. Ganarás 1 de energía cuando lo logres.",
+				"concise": "Habilidad. (10...35 segundos). Tienes +3...15% de probabilidades de hacer un golpe crítico. Ganas 1 de energía cada vez que lo hagas."
+			},
 			"fr": {
+				"name": "Oeil critique",
+				"description": "Compétence. Pendant 10...35 secondes, vous avez 3...15% de chances supplémentaires d'infliger un coup critique lors d'une attaque. Vous obtenez 1 points d'énergie chaque fois que vous infligez un coup critique.",
+				"concise": "Compétence. (10...35 secondes.) Vous avez +3...15% de chances d'infliger un coup critique. Vous obtenez 1 points d'énergie chaque fois que vous infligez un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Oeil critique",
 				"description": "Pendant 10...35 secondes, vous avez 3...15% de chances supplémentaires d'infliger un coup critique lors d'une attaque. Vous obtenez 1 point d'énergie chaque fois que vous infligez un coup critique.",
 				"concise": "(10...35 secondes.) Vous avez +3...15% de chances d'infliger un coup critique. Vous obtenez 1 point d'énergie chaque fois que vous infligez un coup critique."
+			},
+			"it": {
+				"name": "Occhio Critico",
+				"description": "Abilità. Per 10...35 secondo[i], la probabilità di compiere un colpo critico quando attacchi aumenta del 3...15%; mettendo a segno un colpo critico ottieni 1 Punto[i] Energia.",
+				"concise": "Abilità. (Secondi: 10...35) Aumento probabilità di assestare un colpo critico: +3...15%. Ottieni 1 Punto[i] Energia ogni volta che metti a segno un colpo critico."
+			},
+			"jp": {
+				"name": "クリティカル アイ",
+				"description": "スキル： 10...35 秒間、攻撃がクリティカル ヒットになる確率が 3...15% 増加します。クリティカル ヒットが成功するたびに 1 のエネルギーを獲得します。",
+				"concise": "スキル： (10...35 秒) クリティカル ヒットになる確率が 3...15% 増加します。クリティカル ヒットが成功するたびに 1 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "매서운 눈초리",
+				"description": "스킬. 대상 지정: 없음. 10...35초 동안 치명타를 터뜨릴 확률이 3...15% 증가합니다. 치명타를 터뜨릴 때마다 1의 에너지를 얻습니다.",
+				"concise": "스킬. (10...35초) 치명타를 터뜨릴 확률이 3...15% 증가합니다. 치명타를 터뜨릴 때마다 1의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Krytyczne Oko",
+				"description": "Umiejętność. Przez 10...35 sek., otrzymujesz dodatkowe 3...15% szans na zadanie trafienia krytycznego podczas ataku. Zyskujesz 1 pkt. energii za każdym razem, gdy wykonasz trafienie krytyczne.",
+				"concise": "Umiejętność. (10...35 sek.) Posiadasz +3...15% szans na wykonanie trafienia krytycznego. Otrzymujesz 1 pkt. energii, za każdym razem, kiedy wykonasz trafienie krytyczne."
+			},
+			"ru": {
+				"name": "Critical Eye",
+				"description": "Умение. В течение 10...35 сек у вас есть дополнительно 3...15%-й шанс завершить атаку критическим ударом. За каждое критическое попадание вы получаете 1 ед. энергии.",
+				"concise": "Умение. (10...35 сек) Вы получаете дополнительно 3...15%-й шанс нанести критический удар. Вы получаете 1 ед. энергии каждый раз, когда наносите критический удар."
+			},
+			"bork": {
+				"name": "Creeteecael Iye-a",
+				"description": "Skeell. Fur 10...35 secunds, yuoo haefe-a un aeddeeshunael 3...15% chunce-a tu lund a creeteecael heet vhee aettaeckeeng. Yuoo gaeeen 1 Inergy vhenefer yuoo scure-a a creeteecael heet.",
+				"concise": "Skeell. (10...35 secunds.) Yuoo haefe-a +3...15% chunce-a tu lund a creeteecael heet. Yuoo gaeeen 1 Inergy vhenefer yuoo lund a creeteecael heet."
 			}
 		}
 	}

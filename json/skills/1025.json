@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "扰乱刺杀",
+				"description": "起手技。 打断目标的动作，如果目标在施法中被打断，则该法术在 3...10秒 内无法使用。",
+				"concise": "起手技。 打断目标的动作，如果目标在施法中被打断，则该法术在 3...10秒 内无法使用。"
+			},
+			"cht": {
+				"name": "干擾刺擊",
+				"description": "引導攻擊： 命中目標時中斷其動作。如果目標正在施展「魔法」，則該「魔法」在 3...10 秒內無法使用。",
+				"concise": "引導攻擊： 命中目標時中斷其動作。如果目標正在施展「魔法」，則該「魔法」在 3...10 秒內無法使用。"
+			},
 			"de": {
+				"name": "Unterbrechender Dolchstoß",
+				"description": "Leithandangriff. Wenn dieser Angriff erfolgreich ist, unterbricht er die Aktion des Gegners. Wenn diese Aktion ein Zauber war, wird er 3...10 Sekunden[n] lang deaktiviert.",
+				"concise": "Leithandangriff. Unterbricht eine Aktion. Falls die unterbrochene Aktion ein Zauber war, wird er deaktiviert (3...10 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Unterbrechender Dolchstoß",
 				"description": "Wenn dieser Angriff erfolgreich ist, unterbricht er die Aktion des Gegners. Wenn diese Aktion ein Zauber war, wird er 3...10 Sekundenn<sic/> lang deaktiviert.",
 				"concise": "Unterbricht eine Aktion. Falls die unterbrochene Aktion ein Zauber war, wird er deaktiviert (3...10 Sekunden)."
 			},
 			"en": {
 				"name": "Disrupting Stab",
+				"description": "Lead Attack. If this attack hits, it interrupts target foe's action. If that action was a spell, it is disabled for 3...10 seconds.",
+				"concise": "Lead Attack. Interrupts an action. If the interrupted action was a spell, it is disabled (3...10 seconds)."
+			},
+			"en-gww": {
+				"name": "Disrupting Stab",
 				"description": "If this attack hits, it interrupts target foe's action. If that action was a spell, it is disabled for 3...10 seconds.",
 				"concise": "Interrupts an action. If the interrupted action was a spell, it is disabled (3...10 seconds)."
 			},
+			"es": {
+				"name": "Tajo de distracción",
+				"description": "Ataque inicial. Si impacta, este ataque interrumpe la acción del enemigo objetivo. Si la acción era un conjuro, éste quedará desactivado durante 3...10 segundos.",
+				"concise": "Ataque inicial. Interrumpe una acción. Si la acción interrumpida era un conjuro, se desactivará (3...10 segundos)."
+			},
 			"fr": {
+				"name": "Blessure d'interruption",
+				"description": "Attaque main droite. Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, il est inutilisable pendant 3...10 secondes.",
+				"concise": "Attaque main droite. Interrompt une action. Si l'action interrompue était un sort, celui-ci est désactivé (3...10 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Blessure d'interruption",
 				"description": "Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, il est inutilisable pendant 3...10 secondes.",
 				"concise": "Interrompt une action. Si l'action interrompue était un sort, celui-ci est désactivé (3...10 secondes)."
+			},
+			"it": {
+				"name": "Pugnalata Dirompente",
+				"description": "Attacco con Arma Primaria. Se questo attacco va a segno, interrompe l'azione dell'obiettivo nemico; se interrompe una magia, la disattiva per 3...10 secondo[i].",
+				"concise": "Attacco con Arma Primaria. Interrompe un'azione. Se interrompe una magia, la disattiva (3...10 secondo[i])."
+			},
+			"jp": {
+				"name": "ディスラプト スタブ",
+				"description": "リード アタック： この攻撃が成功すると、ターゲットした敵のアクションを中断します。スペルを中断した場合、3...10 秒間封じ込めます。",
+				"concise": "リード アタック： アクションを中断します。スペルを中断した場合、そのスペルを封じ込めます (3...10 秒)。"
+			},
+			"kr": {
+				"name": "견제의 찌르기",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상의 동작을 방해합니다. 방해한 동작이 마법이라면 대상은 그 마법의 재활성 시간이 3...10초 늘어납니다.",
+				"concise": "주 공격. 동작을 방해합니다. 마법을 방해하면 그 마법의 재활성 시간이 늘어납니다.(3...10초)"
+			},
+			"pl": {
+				"name": "Przerywające Pchnięcie",
+				"description": "Atak poprzedzający. Jeżeli atak trafi, przerywasz czynność wybranego przeciwnika. Jeżeli tą czynnością było rzucanie czaru, zostaje on wyłączony na 3...10 sek.",
+				"concise": "Atak poprzedzający. Przerywa czynność. Jeżeli przerwaną czynnością było rzucanie czaru, to zostaje on wyłączony (3...10 sek.)."
+			},
+			"ru": {
+				"name": "Disrupting Stab",
+				"description": "Ведущая атака. Если эта атака достигает цели, действие выбранного противника прерывается. Если прерванное действие было заклинанием, это заклинание будет недоступно в течение 3...10 сек.",
+				"concise": "Ведущая атака. Прерывает действие. Если было прервано заклинание, оно будет недоступно (3...10 сек)."
+			},
+			"bork": {
+				"name": "Deesroopteeng Staeb",
+				"description": "Leaed Aettaeck. Iff thees aettaeck heets, it interroopts taerget fue-a's aecshun. Iff thaet aecshun vaes a spell, it is deesaebled fur 3...10 secunds.",
+				"concise": "Leaed Aettaeck. Interroopts un aecshun. Iff zee interroopted aecshun vaes a spell, it is deesaebled (3...10 secunds)."
 			}
 		}
 	}

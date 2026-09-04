@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "愤怒之锤",
+				"description": "精英锤术。 命中时，依照你已积满怒气的技能数量，每个给予目标1...4点额外伤害。(最多可以造成10...40点伤害)",
+				"concise": "精英锤术。 命中时目标时，依照你已积累足够怒气值的技能数量，每个给予目标 1...4 额外伤害。(最多累计至 10...40 个)"
+			},
+			"cht": {
+				"name": "憤怒猛擊",
+				"description": "精英鎚術攻擊技能： 若此攻擊命中，你獲得1...4怒氣。若目標敵人正在移動，造成額外10...40傷害並擊倒目標。",
+				"concise": "精英鎚術攻擊技能： 若此攻擊命中，你獲得1...4怒氣。若目標敵人正在移動，造成額外10...40傷害並擊倒目標。"
+			},
 			"de": {
+				"name": "Erzürnter Schlag",
+				"description": "Elite-Hammerangriff. Wenn Erzürnter Schlag erfolgreich ist, erhaltet Ihr 1...4 Adrenalinstöße. Wenn Ihr einen sich bewegenden Feind trefft, erleidet dieser +10...40 Schaden und wird zu Boden geworfen.",
+				"concise": "Elite-Hammerangriff. Gibt Euch 1...4 Adrenalinstöße, wenn Ihr trefft. Richtet +10...40 Schaden an und wirft den Gegner zu Boden, wenn er sich bewegt hat."
+			},
+			"de-guildwiki": {
 				"name": "Erzürnter Schlag",
 				"description": "Wenn Erzürnter Schlag erfolgreich ist, erhaltet Ihr 1...4 Adrenalinstöße. Wenn Ihr einen sich bewegenden Feind trefft, erleidet dieser +10...40 Schaden und wird zu Boden geworfen.",
 				"concise": "Gibt Euch 1...4 Adrenalinstöße, wenn Ihr trefft. Richtet +10...40 Punkte Schaden und wirft den Gegner zu Boden, wenn er sich bewegt hat."
 			},
 			"en": {
 				"name": "Enraged Smash",
+				"description": "Elite Hammer Attack. If Enraged Smash hits, you gain 1...4 strikes of adrenaline. If you hit a moving foe, you strike for +10...40 damage, and your target is knocked down.",
+				"concise": "Elite Hammer Attack. Gives you 1...4 strikes of adrenaline if you hit. Deals +10...40 damage and causes knockdown if your target was moving."
+			},
+			"en-gww": {
+				"name": "Enraged Smash",
 				"description": "If Enraged Smash hits, you gain 1...4 strike[s] of adrenaline. If you hit a moving foe, you strike for +10...40 damage, and target foe is knocked down.",
 				"concise": "Gives you 1...4 strike[s] of adrenaline if you hit. Deals +10...40 damage and causes knockdown if target foe was moving."
 			},
+			"es": {
+				"name": "Golpe enrabietado",
+				"description": "Ataque con martillo de élite. Si el Golpe enrabietado impacta, ganas 1...4 de adrenalina. Si alcanzas a un enemigo en movimiento, haces +10...40 de daño y le derribas.",
+				"concise": "Ataque con martillo de élite. Ganas 1...4 de adrenalina si impacta. Hace +10...40 de daño y causa derribo si el objetivo estaba en movimiento."
+			},
 			"fr": {
+				"name": "Coup enragé",
+				"description": "Attaque au marteau d'élite. Si Coup enragé réussit, vous gagnez 1...4 décharges d'adrénaline. Si vous touchez un ennemi en mouvement, vous infligez +10...40 points de dégâts et votre cible est assommée.",
+				"concise": "Attaque au marteau d'élite. Vous recevez 1...4 décharges d'adrénaline si votre attaque réussit. Inflige +10...40 points de dégâts et assomme votre cible si celle-ci était en mouvement."
+			},
+			"fr-gwiki": {
 				"name": "Coup enragé",
 				"description": "Si Coup enragé réussit, vous gagnez 1...4 décharges d'adrénaline. Si vous touchez un ennemi en mouvement, vous infligez +10...40 points de dégâts et votre cible est assommée.",
 				"concise": "Vous recevez 1...4 décharges d'adrénaline si votre attaque réussit. Inflige +10...40 points de dégâts et assomme votre cible si celle-ci était en mouvement."
+			},
+			"it": {
+				"name": "Percossa Furiosa",
+				"description": "Attacco d'Élite con Martello. Se Percossa Furiosa va a segno ottieni 1...4 dose[i] di adrenalina. Se colpisci un nemico in movimento gli assesti +10...40 danno[i] e il tuo obiettivo viene abbattuto.",
+				"concise": "Attacco d'Élite con Martello. Adrenalina se vai a segno: 1...4. Assesta +10...40 danno[i] e provoca abbattimento se il tuo obiettivo era in movimento."
+			},
+			"jp": {
+				"name": "エンレイジ スマッシュ",
+				"description": "エリート ハンマー アタック： 攻撃が成功すると、1...4 発のアドレナリンを獲得します。敵が移動中の場合、10...40 の追加ダメージを与えて転倒させます。",
+				"concise": "エリート ハンマー アタック： 攻撃が成功すると、1...4 発のアドレナリンを獲得します。ターゲットが移動中の場合、10...40 の追加ダメージを与えて転倒させます。"
+			},
+			"kr": {
+				"name": "분격의 강타",
+				"description": "엘리트 해머 공격. 대상 지정: 적. 공격이 성공하면 1...4번 공격에 성공한 만큼의 아드레날린을 얻습니다. 이동 중이던 적에게 공격이 성공하면 10...40의 대미지를 추가로 주고, 바닥에 넘어뜨립니다.",
+				"concise": "엘리트 해머 공격. 공격이 성공하면 1...4번 공격에 성공한 만큼의 아드레날린을 얻습니다. 적이 이동 중이었으면 10...40의 대미지를 추가로 주고, 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Gniewne Uderzenie",
+				"description": "Elitarny atak młotem. Jeśli Gniewne Uderzenie trafi, otrzymujesz dawki adrenaliny w liczbie 1...4. Jeżeli trafisz poruszającego się przeciwnika, zadajesz +10...40 pkt. obrażeń, a twój cel zostaje powalony.",
+				"concise": "Elitarny atak młotem. Jeżeli trafisz, daje ci dawki adrenaliny w liczbie 1...4. Zadaje +10...40 pkt. obrażeń i powala, jeżeli cel porusza się."
+			},
+			"ru": {
+				"name": "Enraged Smash",
+				"description": "Элитная атака молотом. Если Enraged Smash попадает в цель, вы получаете 1...4 ед. адреналина. Если вы попали в двигающегося противника, вы наносите дополнительно 10...40 ед. урона, а ваша цель будет сбита с ног.",
+				"concise": "Элитная атака молотом. Дает вам 1...4 ед. адреналина, если вы попадаете в цель. Наносит дополнительно 10...40 ед. урона и сбивает с ног, если выбранный противник двигался."
+			},
+			"bork": {
+				"name": "Inraeged Smaesh",
+				"description": "Ileete-a Haemmer Aettaeck. Iff Inraeged Smaesh heets, yuoo gaeeen 1...4 streeke-as ooff aedrenaeleene-a. Iff yuoo heet a mufeeng fue-a, yuoo streeke-a fur +10...40 daemaege-a, und yuoor taerget is knucked doon.",
+				"concise": "Ileete-a Haemmer Aettaeck. Geefes yuoo 1...4 streeke-as ooff aedrenaeleene-a iff yuoo heet. Deaels +10...40 daemaege-a und cooses knuckdoon iff yuoor taerget vaes mufeeng."
 			}
 		}
 	}

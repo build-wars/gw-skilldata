@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 17,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "吸血鬼的指令",
+				"description": "精英增益魔法。 牺牲自己最大生命值的17%。在5秒之内，当目标盟友不带有其他死灵法师类「增益魔法」且对敌人造成物理伤害时，该队友将偷取敌人最多3...16点生命值。",
+				"concise": "精英增益魔法。 牺牲自己最大生命值的 17%，当目标盟友不带有其他死灵法师的「增益魔法」且攻击命中敌人时，该队友将偷取敌人最多 3...16点 生命值，持续 5秒。"
+			},
+			"cht": {
+				"name": "吸血鬼命令",
+				"description": "精英加持魔法： 持續 5 秒，身上沒有其他死靈法師加持的隊伍成員，造成物理傷害時同時偷取敵人 3...16 體力。",
+				"concise": "精英加持魔法： 持續 5 秒，身上沒有其他死靈法師加持的隊伍成員，造成物理傷害時同時偷取敵人 3...16 體力。"
+			},
 			"de": {
+				"name": "Orden des Vampirs",
+				"description": "Elite-Verzauberung. 5 Sekunden lang entzieht ein Gruppenmitglied, das nicht mit einer anderen Nekromanten-Verzauberung belegt ist, jedes Mal, wenn es einem Gegner physischen Schaden zufügt, diesem Gegner bis zu 3...16 Lebenspunkt[e].",
+				"concise": "Elite-Verzauberung. Verzaubert alle Gruppenmitglieder (5 Sekunden). Die Betroffenen entziehen mit jedem Angriff, der physischen Schaden anrichtet, 3...16 Lebenspunkt[e]. Gruppenmitglieder, die unter dem Einfluss einer anderen Nekromanten-Verzauberung stehen, sind nicht betroffen."
+			},
+			"de-guildwiki": {
 				"name": "Orden des Vampirs",
 				"description": "5 Sekunden lang entzieht ein Gruppenmitglied, das nicht mit einer anderen Nekromanten-Verzauberung belegt ist, jedes Mal, wenn es einem Gegner physischen Schaden zufügt, bis zu 3...16 Lebenspunkte.",
 				"concise": "Verzaubert alle Gruppenmitglieder (5 Sekunden). Die Betroffenen entziehen mit jedem Angriff, der physischen Schaden anrichtet, 3...16 Lebenspunkte. <gray>Gruppenmitglieder, die unter dem Einfluss einer anderen Nekromanten-Verzauberung stehen, sind nicht betroffen.</gray>"
 			},
 			"en": {
 				"name": "Order of the Vampire",
+				"description": "Elite Enchantment Spell. For 5 seconds, whenever a party member who is not under the effects of another Necromancer enchantment hits a foe with physical damage, that party member steals up to 3...16 Health.",
+				"concise": "Elite Enchantment Spell. Enchants all party members (5 seconds.) These party members steal 3...16 Health with each physical damage attack. Party members under another Necromancer enchantment are not affected."
+			},
+			"en-gww": {
+				"name": "Order of the Vampire",
 				"description": "For 5 seconds, whenever a party member who is not under the effects of another Necromancer enchantment hits a foe with physical damage, that party member steals up to 3...16 Health.",
 				"concise": "Enchants all party members (5 seconds.) These party members steal 3...16 Health with each physical damage attack. <gray>Party members under another Necromancer enchantment are not affected.</gray>"
 			},
+			"es": {
+				"name": "Orden del vampiro",
+				"description": "Conjuro con encantamiento de élite. Durante 5 segundos, siempre que un miembro del grupo que no esté bajo los efectos de otro encantamiento de Nigromante golpee a un enemigo con daño físico, robará hasta 3...16 de salud.",
+				"concise": "Conjuro con encantamiento de élite. Encanta a todos los miembros del grupo (5 segundos), que roban 3...16 de salud por cada ataque con daño físico que hagan. No tiene efecto en los miembros del grupo que tengan otro encantamiento de Nigromante."
+			},
 			"fr": {
+				"name": "Ordre du vampire",
+				"description": "Enchantement d'élite. Pendant 5 secondes, à chaque fois qu'un membre du groupe qui ne se trouve pas sous les effets d'un autre enchantement de Nécromant inflige des dégâts physiques à un ennemi, il lui vole jusqu'à 3...16 points de vie.",
+				"concise": "Enchantement d'élite. Enchante tous les membres du groupe (5 secondes). Ils volent 3...16 points de vie chaque fois qu'ils infligent des dégâts physiques. Les membres du groupe sous l'effet d'un autre enchantement de Nécromant ne sont pas affectés."
+			},
+			"fr-gwiki": {
 				"name": "Ordre du vampire",
 				"description": "Pendant 5 secondes, à chaque fois qu'un membre du groupe qui ne se trouve pas sous les effets d'un autre enchantement de Nécromant inflige des dégâts physiques à un ennemi, il lui vole jusqu'à 3...16 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ordine del Vampiro",
+				"description": "Incantesimo d'Élite. Per 5 secondi, ogni volta che un membro della squadra, che non è affetto da incantesimi di un altro Negromante, infligge danni fisici al nemico, gli sottrae fino a 3...16 Punto[i] Salute.",
+				"concise": "Incantesimo d'Élite. Incanta tutti i membri della squadra (5 secondi). Salute sottratta da questi membri della squadra con ogni attacco a danno fisico: 3...16. Non ha effetto sui membri della squadra affetti da un altro incantesimo del Negromante."
+			},
+			"jp": {
+				"name": "ヴァンパイア オーダー",
+				"description": "エリート強化スペル： 5秒間、ネクロマンサーの強化スペルがかけられていないパーティー メンバーは敵に対する物理ダメージが成功するたびに最大 3...16 の体力を奪い取ります。",
+				"concise": "エリート強化スペル： (5秒) パーティー メンバーは全員、物理ダメージを与えるたびに 3...16 の体力を奪い取ります。他のネクロマンサーの強化スペルがかけられているメンバーは対象外です。"
+			},
+			"kr": {
+				"name": "흡혈귀의 주문",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5초 동안 다른 네크로맨서 강화 마법이 걸려 있지 않은 파티원이 적에게 물리 대미지를 줄 때마다 그 파티원은 적에게서 3...16의 체력을 뺏습니다.",
+				"concise": "엘리트 강화 마법. 파티원들은 적에게 물리 대미지를 줄 때마다 3...16의 체력을 뺏습니다.(5초) 다른 네크로맨서 강화 마법에 걸려 있는 파티원에겐 효과가 없습니다."
+			},
+			"pl": {
+				"name": "Rozkaz Wampira",
+				"description": "Elitarne zaklęcie (czar). Przez 5 sek., za każdym razem, kiedy niebędący pod wpływem innych zaklęć nekromanty członek drużyny trafi przeciwnika i zada mu obrażenia fizyczne, ten członek drużyny wykrada 3...16 pkt. żywotności.",
+				"concise": "Elitarne zaklęcie (czar). Zaklina wszystkich członków drużyny (5 sek.). Ci członkowie drużyny, każdym atakiem zadającym obrażenia fizyczne, wykradają po 3...16 pkt. żywotności. Nie działa na członków drużyny znajdujących się pod działaniem innego zaklęcia nekromanty."
+			},
+			"ru": {
+				"name": "Order of the Vampire",
+				"description": "Элитное заклинание-чары. В течение 5 сек каждый раз, когда член вашего отряда, на которого не наложены какие-либо другие чары профессии Necromancer, наносит противнику физический урон, он похищает у противника до 3...16 ед. здоровья.",
+				"concise": "Элитное заклинание-чары. Накладывает чары на всех членов отряда (5 сек). Эти члены отряда похищают 3...16 ед. здоровья при каждой атаке, наносящей физический урон. Не затрагивает членов отряда, на которых уже наложены другие чары профессии Necromancer."
+			},
+			"bork": {
+				"name": "Oorder ooff zee Faempure-a",
+				"description": "Ileete-a Inchuntment Spell. Fur 5 secunds, vhenefer a paerty member vhu is nut under zee iffffects ooff unuzeer Necrumuncer inchuntment heets a fue-a veet physeecael daemaege-a, thaet paerty member steaels up tu 3...16 Heaelt.",
+				"concise": "Ileete-a Inchuntment Spell. Inchunts aell paerty members (5 secunds.) Zeese-a paerty members steael 3...16 Heaelt veet iaech physeecael daemaege-a aettaeck. Paerty members under unuzeer Necrumuncer inchuntment aere-a nut aeffffected."
 			}
 		}
 	}

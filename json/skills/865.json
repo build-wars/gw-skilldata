@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "闪电之锤",
+				"description": "咒文。 使目标敌人受到 10...100 闪电伤害，此技能具有 25% 的护甲穿透效果。",
+				"concise": "咒文。 使目标敌人受到 10...100 闪电伤害，此技能具有 25% 的护甲穿透效果。"
+			},
+			"cht": {
+				"name": "閃電之鎚",
+				"description": "咒文魔法： 使目標敵人受到 10...100 閃電傷害，此技能具有 25% 的防禦穿透效果。",
+				"concise": "咒文魔法： 使目標敵人受到 10...100 閃電傷害，此技能具有 25% 的防禦穿透效果。"
+			},
 			"de": {
+				"name": "Blitzhammer",
+				"description": "Zauber. Der Gegner erleidet 10...100 Punkte Blitzschaden und leidet 5...20 Sekunden lang an Beschädigter Rüstung. Blitzhammer hat eine Rüstungsdurchdringung von 25%.",
+				"concise": "Zauber. Richtet 10...100 Punkte Blitzschaden an. Verursacht Beschädigte Rüstung (5...20 Sekunden). 25% Rüstungsdurchdringung."
+			},
+			"de-guildwiki": {
 				"name": "Blitzhammer",
 				"description": "Der Gegner erleidet 10...100 Punkte Blitzschaden und leidet 5...20 Sekunden lang an Beschädigter Rüstung. Blitzhammer hat eine Rüstungsdurchdringung von 25%.",
 				"concise": "Richtet 10...100 Punkte Blitzschaden an. Verursacht Beschädigte Rüstung (5...20 Sekunden) 25% Rüstungsdurchdringung."
 			},
 			"en": {
 				"name": "Lightning Hammer",
+				"description": "Spell. Target foe is struck for 10...100 lightning damage and applies Cracked Armor for 5...20 seconds. Lightning Hammer has 25% armor penetration.",
+				"concise": "Spell. Deals 10...100 lightning damage. Applies Cracked Armor (5...20 seconds). 25% armor penetration."
+			},
+			"en-gww": {
+				"name": "Lightning Hammer",
 				"description": "Target foe is struck for 10...100 lightning damage and applies<sic/> Cracked Armor for 5...20 seconds. Lightning Hammer has 25% armor penetration.",
 				"concise": "Deals 10...100 lightning damage. Applies Cracked Armor (5...20 seconds). 25% armor penetration."
 			},
+			"es": {
+				"name": "Martillo de relámpago",
+				"description": "Conjuro. El enemigo objetivo recibe 10...100 de daño de relámpago y tiene la armadura rota durante 5...20 segundos. Martillo de relámpago tiene un 25% de penetración de armadura.",
+				"concise": "Conjuro. Causa 10...100 de daño de relámpago. Causa armadura rota (5...20 segundos). 25% de penetración de armadura."
+			},
 			"fr": {
+				"name": "Masse foudroyante",
+				"description": "Sort. La cible ennemie subit 10...100 points de dégâts de la foudre et inflige Armure brisée pendant 5...20 secondes. La Masse foudroyante a 25% de pénétration d'armure.",
+				"concise": "Sort. Inflige 10...100 points de dégâts de la foudre. Inflige Armure brisée (5...20 secondes). 25% de pénétration d'armure."
+			},
+			"fr-gwiki": {
 				"name": "Masse foudroyante",
 				"description": "L'ennemi subit 10...100 points de dégâts de la foudre. Ce sort offre 25% de pénétration d'armure.",
 				"concise": "Inflige 10...100 points de dégâts de la foudre. Pénétration d'armure de 25%."
+			},
+			"it": {
+				"name": "Martello Fulminante",
+				"description": "Magia. L'obiettivo nemico subisce 10...100 danni da fulmine e soffre di Armatura Incrinata per 5...20 secondi. Il Martello Fulminante ha il 25% di penetrazione dell'armatura.",
+				"concise": "Magia. Danni da fulmine inferti: 10...100. Condizione inflitta: Armatura Incrinata (5...20 secondi). Penetrazione armatura: 25%."
+			},
+			"jp": {
+				"name": "ライトニング ハンマー",
+				"description": "スペル： ターゲットした敵に 10...100 のライトニング ダメージを与え、5...20 秒間「防具破損」状態にします。このスペルには25%のアーマー貫通効果があります。",
+				"concise": "スペル： 10...100 のライトニング ダメージを与えて「防具破損」状態にします (5...20 秒)。この攻撃には25%のアーマー貫通効果があります。"
+			},
+			"kr": {
+				"name": "번개 해머",
+				"description": "마법. 대상 지정: 적. 대상에게 10...100의 번개 대미지를 주고, 5...20초 동안 방어 손상을 입힙니다. 이 스킬은 25%의 갑옷 관통 효과를 갖습니다.",
+				"concise": "마법. 10...100의 번개 대미지를 주고, 방어 손상을 입힙니다.(5...20초) 25%의 갑옷 관통 효과를 갖습니다."
+			},
+			"pl": {
+				"name": "Młot Błyskawic",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 10...100 pkt. obrażeń od elektryczności a jego zbroja pęka na 5...20 sek. Młot Błyskawic ma 25% penetrację pancerza.",
+				"concise": "Czar. Zadaje 10...100 pkt. obrażeń od elektryczności. Wywołuje przypadłość pęknięta zbroja (5...20 sek.). 25% penetracji pancerza."
+			},
+			"ru": {
+				"name": "Lightning Hammer",
+				"description": "Заклинание. Выбранный противник получает 10...100 ед. урона силой молнии и треснувшие доспехи на 5...20 сек. Lightning Hammer игнорирует 25% защиты противника.",
+				"concise": "Заклинание. Наносит 10...100 ед. урона силой молнии. Дает противнику треснувшие доспехи (5...20 сек). Игнорирует 25% защиты противника."
+			},
+			"bork": {
+				"name": "Leeghtneeng Haemmer",
+				"description": "Spell. Taerget fue-a is stroock fur 10...100 leeghtneeng daemaege-a und aeppleees Craecked Aermur fur 5...20 secunds. Leeghtneeng Haemmer haes 25% aermur penetraeshun.",
+				"concise": "Spell. Deaels 10...100 leeghtneeng daemaege-a. Aeppleees Craecked Aermur (5...20 secunds). 25% aermur penetraeshun."
 			}
 		}
 	}

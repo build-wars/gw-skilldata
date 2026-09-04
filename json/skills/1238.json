@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "创造纹章",
+				"description": "纹章。 使所有「音波」范围内的「灵体」及召唤生物获得4点「生命再生」。但在0秒之后，这些「灵体」及召唤怪物将全部被摧毁。",
+				"concise": "纹章。 使所有「音波」范围内的「灵体」及召唤生物获得4点「生命再生」。但在0秒之后，这些「灵体」及召唤怪物将全部消失。"
+			},
+			"cht": {
+				"name": "創造紋章",
+				"description": "紋章： 依照音量所及範圍內每個你控制的靈或者召喚生物，每個使你獲得 4 能量， 最多 3...12 。",
+				"concise": "紋章： 依照音量所及範圍內每個你控制的靈或者召喚生物，每個使你獲得 4 能量， 最多 3...12 。"
+			},
 			"de": {
+				"name": "Siegel der Schöpfung",
+				"description": "Siegel. Ihr erhaltet 4 Energiepunkt[e] für jede von Euch kontrollierte herbeigerufene Kreatur in Hörweite (maximal 3...12 Energiepunkte).",
+				"concise": "Siegel. Ihr erhaltet 4 Energiepunkt[e] für jede von Euch kontrollierte herbeigerufene Kreatur in Hörweite (maximal 3...12 Energiepunkte)."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Schöpfung",
 				"description": "Ihr erhaltet 4 Energiepunkte für jede von Euch kontrollierte herbeigerufene Kreatur in Hörweite (maximal 3...12 Energiepunkte).",
 				"concise": "Ihr erhaltet 4 Energiepunkte für jede von Euch kontrollierte herbeigerufene Kreatur in Hörweite (maximal 3...12 Energiepunkte)."
 			},
 			"en": {
 				"name": "Signet of Creation",
+				"description": "Signet. You gain 4 Energy for every summoned creature you control within earshot (maximum 3...12 Energy).",
+				"concise": "Signet. Gain 4 Energy (maximum 3...12) for each summoned creature you control within earshot."
+			},
+			"en-gww": {
+				"name": "Signet of Creation",
 				"description": "You gain 4 Energy for every summoned creature you control within earshot (maximum 3...12 Energy).",
 				"concise": "Gain 4 Energy (maximum 3...12 Energy) for each summoned creature you control within earshot."
 			},
+			"es": {
+				"name": "Sello de creación",
+				"description": "Sello. Ganas 4 de energía por cada criatura invocada que controles al alcance del oído (máximo 3...12 de energía).",
+				"concise": "Sello. Ganas 4 de energía (máximo 3...12 de energía) por cada criatura invocada que controles al alcance del oído."
+			},
 			"fr": {
+				"name": "Sceau de création",
+				"description": "Sceau. Vous gagnez 4 points d'énergie pour chaque créature invoquée que vous contrôlez à portée de voix (maximum de 3...12 points d'énergie).",
+				"concise": "Sceau. Bénéfice de 4 points d'énergie (maximum de 3...12 points) pour chaque créature invoquée que vous contrôlez à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de création",
 				"description": "Vous gagnez 4 points d'énergie pour chaque créature invoquée que vous contrôlez à portée de voix, 3...12 points d'énergie maximum.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Creazione",
+				"description": "Sigillo. Ottieni 4 Punto[i] Energia per ogni creatura evocata sotto il tuo controllo e a portata d'orecchio (max 3...12 Punto[i] Energia).",
+				"concise": "Sigillo. Ottieni 4 Punto[i] Energia (max 3...12) per ogni creatura evocata sotto il tuo controllo e a portata d'orecchio."
+			},
+			"jp": {
+				"name": "クリエーション シグネット",
+				"description": "シグネット： 声の届く範囲内にいるプレイヤーの召喚した生物ごとに 4 のエネルギーを獲得します (最大 3...12 のエネルギー)。",
+				"concise": "シグネット： 声の届く範囲内にいるプレイヤーの召喚した生物ごとに 4 のエネルギーを獲得します (最大 3...12)。"
+			},
+			"kr": {
+				"name": "소환 인장",
+				"description": "인장. 대상 지정: 없음. 가청 범위 내에 있는 자신이 조종하는 소환물 하나당 4씩, 최대 3...12의 에너지를 얻습니다.",
+				"concise": "인장. 가청 범위 내의 자신이 조종하는 소환물 하나당 4씩, 최대 3...12의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Tworzenia",
+				"description": "Sygnet. Otrzymujesz 4 pkt. energii za każde przywołane i kontrolowane przez ciebie stworzenie w zasięgu słuchu (maksymalnie 3...12 pkt. energii).",
+				"concise": "Sygnet. Otrzymujesz 4 pkt. energii (maksymalnie 3...12) za każde przywołane i kontrolowane przez ciebie stworzenie w zasięgu słuchu."
+			},
+			"ru": {
+				"name": "Signet of Creation",
+				"description": "Печать. Вы получаете 4 ед. энергии за каждое контролируемое вами призванное создание в зоне слышимости (но не более 3...12 ед. энергии).",
+				"concise": "Печать. Дает 4 ед. энергии (но не более 3...12 ед. энергии) за каждое контролируемое вами призванное создание в зоне слышимости."
+			},
+			"bork": {
+				"name": "Seegnet ooff Creaeshun",
+				"description": "Seegnet. Yuoo gaeeen 4 Inergy fur ifery soommuned creaetoore-a yuoo cuntrul veetheen iaershut (maexeemoom 3...12 Inergy).",
+				"concise": "Seegnet. Gaeeen 4 Inergy (maexeemoom 3...12) fur iaech soommuned creaetoore-a yuoo cuntrul veetheen iaershut."
 			}
 		}
 	}

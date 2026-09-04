@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "熊熊烈火",
+				"description": "精英自然仪式。 创造一只等级为1...10的燃烧精灵。使区域内所有「非灵体」类生物受到的物理伤害转化为火焰伤害。燃烧精灵在30...240秒后消失。",
+				"concise": "精英自然仪式。 创造一只等级为1...10的燃烧精灵。使区域内所有「非灵体」类生物受到的物理伤害转化为火焰伤害。燃烧精灵在30...240秒后消失。"
+			},
+			"cht": {
+				"name": "大火",
+				"description": "精英自然儀式： 創造一隻等級 1...10 的燃燒精靈。使區域內所有生物受到的物理傷害由火焰傷害取代。燃燒精靈在 30...240 秒後消失。",
+				"concise": "精英自然儀式： 創造一隻等級 1...10 的燃燒精靈。使區域內所有生物受到的物理傷害由火焰傷害取代。燃燒精靈在 30...240 秒後消失。"
+			},
 			"de": {
+				"name": "Großflächenbrand",
+				"description": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10. Alle Kreaturen in seiner Reichweite, die keine Geister sind, erleiden Feuerschaden anstelle von physischem Schaden. Dieser Geist stirbt nach 30...240 Sekunde[n].",
+				"concise": "Elite-Naturritual. Erstellt einen Geist der Stufe 1...10 (30...240 Sekunde[n] Lebensdauer). Wandelt physischen Schaden bei allen Kreaturen in Reichweite in Feuerschaden um. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Großflächenbrand",
 				"description": "Erstellt einen Geist der Stufe 1...10. Alle Kreaturen in seiner Reichweite, die keine Geister sind, erleiden durch Angriffe Feuerschaden anstelle von physischem Schaden. Dieser Geist stirbt nach 30...240 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (30...240 Sekunden Lebensdauer). Wandelt physischen Angriffsschaden bei allen Kreaturen in Reichweite in Feuerschaden um. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Greater Conflagration",
+				"description": "Elite Nature Ritual. Create a level 1...10 spirit. For non-spirit creatures within its range, all physical damage is fire damage instead. This spirit dies after 30...240 seconds.",
+				"concise": "Elite Nature Ritual. Creates a level 1...10 spirit (30...240 second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Greater Conflagration",
 				"description": "Create a level 1...10 spirit. For non-spirit creatures within its range, all physical damage is fire damage instead. This spirit dies after 30...240 seconds.",
 				"concise": "Creates a level 1...10 spirit (30...240 second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits."
 			},
+			"es": {
+				"name": "Gran conflagración",
+				"description": "Ritual de la naturaleza de élite. Creas un espíritu de nivel 1...10. Las criaturas no espíritus que estén en su zona recibirán daño de fuego en vez de daño físico. Morirá a los 30...240 segundos.",
+				"concise": "Ritual de la naturaleza de élite. Crea un espíritu de nivel 1...10 (30...240 segundos de vida). Convierte a daño de fuego el daño físico que reciban las criaturas de la zona. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Grand brasier",
+				"description": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10. Pour les créatures dans sa portée n'étant pas des esprits, tous les dégâts physiques sont transformés en dégâts du feu. Cet esprit disparaît au bout de 30...240 secondes.",
+				"concise": "Rituel de la nature d'élite. Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Convertit les dégâts physiques en dégâts du feu pour les créatures à portée. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Grand brasier",
 				"description": "Crée un esprit de niveau 1...10. Pour les créatures dans sa portée n'étant pas des esprits, tous les dégâts physiques sont transformés en dégâts du feu. Cet esprit disparaît au bout de 30...240 secondes.",
 				"concise": "Crée un esprit de niveau 1...10 (durée de vie de 30...240 secondes). Convertit les dégâts physiques en dégâts du feu pour les créatures à portée. N'affecte pas les esprits."
+			},
+			"it": {
+				"name": "Grande Conflagrazione",
+				"description": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10. Per le creature nella sua portata (Spiriti esclusi), tutti i danni fisici diventano danni da fuoco. Lo Spirito si esaurisce dopo 30...240 secondo[i].",
+				"concise": "Rituale della Natura d'Élite. Crei uno Spirito di livello 1...10 (in vita per 30...240 secondo[i]). Trasforma il danno fisico in danno da fuoco per le creature nella portata. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "グレーター コンフラグレーション",
+				"description": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物が受ける物理ダメージはすべてファイア ダメージになります。この精霊は 30...240 秒後に消滅します。",
+				"concise": "エリート ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (30...240 秒)。この精霊の効果範囲内では、受ける物理ダメージがすべてファイア ダメージになります。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "불길의 영혼",
+				"description": "엘리트 자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 생물체의 모든 물리 대미지가 불 대미지로 바뀝니다. 영혼은 30...240초 후 사라집니다.",
+				"concise": "엘리트 자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 30...240초) 영혼이 아닌 생물체에 영향을 미칩니다. 물리 대미지가 불 대미지로 바뀝니다."
+			},
+			"pl": {
+				"name": "Większa Pożoga",
+				"description": "Elitarny obrządek natury. Tworzysz 1...10 poziomowego ducha. Dla stworzeń nie-duchów w jego zasięgu wszystkie obrażenia fizyczne stają się w zamian obrażeniami od ognia. Duch umiera po 30...240 sek.",
+				"concise": "Elitarny obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 30...240 sek.). Dla stworzeń w zasięgu zamienia obrażenia fizyczne na obrażenia od ognia. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Greater Conflagration",
+				"description": "Элитный природный ритуал. Создает духа 1...10 уровня. Для всех не являющихся духами созданий, находящихся в зоне его действия, весь физический урон превращается в урон силой огня. Этот дух умирает через 30...240 сек.",
+				"concise": "Элитный природный ритуал. Создает духа 1...10 уровня (30...240 сек жизни). Преобразует физический урон в урон силой огня для всех созданий в зоне действия. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Greaeter Cunfflaegraeshun",
+				"description": "Ileete-a Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Fur nun-spureet creaetoores veetheen its runge-a, aell physeecael daemaege-a is fure-a daemaege-a insteaed. Thees spureet deees aeffter 30...240 secunds.",
+				"concise": "Ileete-a Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (30...240 secund leeffespun). Cunferts physeecael daemaege-a tu fure-a daemaege-a fur creaetoores in runge-a. Dues nut aeffffect spureets. Bork! Bork! Bork!"
 			}
 		}
 	}

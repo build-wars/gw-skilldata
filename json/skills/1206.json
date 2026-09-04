@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "突袭",
+				"description": "宠物攻击。 使你的宠物下一次发动的突袭对目标造成 5...20 额外伤害。如果命中正在移动的敌人，则将其击倒。",
+				"concise": "宠物攻击。 使你的宠物下一次发动的突袭对目标造成 5...20 额外伤害。如果命中正在移动的敌人，则将其击倒。"
+			},
+			"cht": {
+				"name": "突襲",
+				"description": "寵物攻擊： 使你的寵物下一次發動的突襲對目標造成 5...20 額外傷害。若命中正在移動的敵人，則將其擊倒。",
+				"concise": "寵物攻擊： 使你的寵物下一次發動的突襲對目標造成 5...20 額外傷害。若命中正在移動的敵人，則將其擊倒。"
+			},
 			"de": {
+				"name": "Sprung",
+				"description": "Tiergefährtenangriff. Der nächste Angriff Eures Tiergefährten ist ein Sprung, der +5...20 Punkt[e] Schaden zufügt. Trifft dieser Angriff einen Gegner, der sich bewegt, wird dieser zu Boden geworfen.",
+				"concise": "Tiergefährtenangriff. Richtet +5...20 Punkt[e] Schaden an. Wirft zu Boden, falls der Gegner sich bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Sprung",
 				"description": "Der nächste Angriff Eures Tiergefährten ist ein Sprung, der +5...20 Punkte Schaden zufügt. Trifft dieser Angriff einen Gegner, der sich bewegt, wird dieser zu Boden geworfen.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Wirft zu Boden, falls der Gegner sich bewegt."
 			},
 			"en": {
 				"name": "Pounce",
+				"description": "Pet Attack. Your animal companion's next attack is a Pounce that deals +5...20 damage. If the attack strikes a moving foe, that foe is knocked down.",
+				"concise": "Pet Attack. Deals +5...20 damage. Causes knock-down if target foe is moving."
+			},
+			"en-gww": {
+				"name": "Pounce",
 				"description": "Your animal companion's next attack is a Pounce that deals +5...20 damage. If the attack strikes a moving foe, that foe is knocked down.",
 				"concise": "Deals +5...20 damage. Causes knock-down if target foe is moving."
 			},
+			"es": {
+				"name": "Brinco",
+				"description": "Ataque con mascota. Tu mascota pegará un salto que causa +5...20 de daño. Si consigue golpear a un enemigo moviéndose, éste será derribado.",
+				"concise": "Ataque con mascota. Hace +5...20 daño. Causa derribo si el enemigo objetivo está en movimiento."
+			},
 			"fr": {
+				"name": "Bond",
+				"description": "Attaque de familier. La prochaine attaque de votre familier est un Bond qui inflige +5...20 points de dégâts. Si l'attaque touche un ennemi en mouvement, celui-ci est assommé.",
+				"concise": "Attaque de familier. Inflige +5...20 points de dégâts. Attaque assommante si la cible ennemie se déplace."
+			},
+			"fr-gwiki": {
 				"name": "Bond",
 				"description": "La prochaine attaque de votre familier est un Bond qui inflige +5...20 points de dégâts. Si l'attaque touche un ennemi en mouvement, celui-ci est assommé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Balzo",
+				"description": "Attacco con Mascotte. Il prossimo attacco della tua mascotte sarà un Balzo che infligge +5...20 danno[i]; se colpisce un nemico in movimento, lo abbatte.",
+				"concise": "Attacco con Mascotte. Danni inferti: +5...20. Provoca abbattimento se l'obiettivo nemico si sta muovendo."
+			},
+			"jp": {
+				"name": "パウンス",
+				"description": "ペット アタック： 次にプレイヤーのペットが行う攻撃は、敵に 5...20 の追加ダメージを与えます。移動中の敵に攻撃が成功すると、その敵は転倒します。",
+				"concise": "ペット アタック： 5...20 の追加ダメージを与えます。ターゲットした敵が移動中の場合、転倒します。"
+			},
+			"kr": {
+				"name": "날렵한 습격",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 날렵한 습격을 사용하여 5...20의 대미지를 추가로 줍니다. 이동 중인 적에게 공격이 성공하면 그 적은 바닥에 넘어집니다.",
+				"concise": "펫 공격. 펫의 공격이 5...20의 대미지를 추가로 줍니다. 적이 이동 중이면 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Skok",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Skok, który zadaje +5...20 pkt. obrażeń. Jeśli atak trafi poruszającego się przeciwnika, ten przeciwnik zostaje powalony.",
+				"concise": "Atak zwierzaka. Zadaje +5...20 pkt. obrażeń. Powoduje powalenie, jeżeli wybrany przeciwnik jest w ruchu."
+			},
+			"ru": {
+				"name": "Pounce",
+				"description": "Атака питомца. Следующей атакой сопровождающего вас животного будет Pounce, который наносит дополнительно 5...20 ед. урона. Если эта атака попадет по двигающему противнику, то он будет сбит с ног.",
+				"concise": "Атака питомца. Наносит дополнительно 5...20 ед. урона. Сбивает с ног, если выбранный противник двигается."
+			},
+			"bork": {
+				"name": "Puoonce-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun's next aettaeck is a Puoonce-a thaet deaels +5...20 daemaege-a. Iff zee aettaeck streekes a mufeeng fue-a, thaet fue-a is knucked doon.",
+				"concise": "Pet Aettaeck. Deaels +5...20 daemaege-a. Cooses knuck-doon iff taerget fue-a is mufeeng."
 			}
 		}
 	}

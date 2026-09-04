@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "交叉火力",
+				"description": "弓术。 命中时，对敌人造成5...20点额外伤害。如果该敌人在任何你的友方附近，此技能将无法被格挡。",
+				"concise": "弓术。 命中时，对敌人造成5...20点额外伤害。如果该敌人在任何你的友方附近，此技能将无法被格挡。"
+			},
+			"cht": {
+				"name": "火網",
+				"description": "弓術攻擊技能： 命中時對目標造成 5...20 額外傷害。若該目標附近有你的盟友，則此攻擊無法被「格擋」。",
+				"concise": "弓術攻擊技能： 命中時對目標造成 5...20 額外傷害。若該目標附近有你的盟友，則此攻擊無法被「格擋」。"
+			},
 			"de": {
+				"name": "Kreuzfeuer",
+				"description": "Bogenangriff. Wenn dieser Angriff den Gegner trifft, fügt er +5...20 Punkt[e] Schaden zu. Wenn dieser Gegner sich in der Nähe Eurer Verbündeten befindet, kann dieser Angriff nicht geblockt werden.",
+				"concise": "Bogenangriff. Richtet +5...20 Punkt[e] Schaden an. Kann nicht geblockt werden, falls der Gegner in der Nähe eines Eurer Verbündeten ist."
+			},
+			"de-guildwiki": {
 				"name": "Kreuzfeuer",
 				"description": "Wenn dieser Angriff den Gegner trifft, fügt er +5...20 Punkte Schaden zu. Wenn dieser Gegner sich in der Nähe Eurer Verbündeten befindet, ist ein Blocken bei dem Angriff nicht möglich.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Kann nicht geblockt werden, falls der Gegner in der Nähe eines Verbündeten ist."
 			},
 			"en": {
 				"name": "Crossfire",
+				"description": "Bow Attack. If this attack hits target foe, it deals +5...20 damage. If that foe is near any of your allies, this attack cannot be blocked.",
+				"concise": "Bow Attack. Deals +5...20 damage. Unblockable if target foe is near any of your allies."
+			},
+			"en-gww": {
+				"name": "Crossfire",
 				"description": "If this attack hits target foe, it deals +5...20 damage. If that foe is near any of your allies, this attack cannot be blocked.",
 				"concise": "Deals +5...20 damage. Unblockable if target foe is near any of your allies."
 			},
+			"es": {
+				"name": "Fuego cruzado",
+				"description": "Ataque con arco. Si esta flecha alcanza al objetivo, le hará +5...20 de daño. Si está cerca de algún aliado tuyo, no la podrá bloquear.",
+				"concise": "Ataque con arco. Hace +5...20 de daño. No se puede bloquear si el enemigo objetivo está cerca de alguno de tus aliados."
+			},
 			"fr": {
+				"name": "Tir croisé",
+				"description": "Attaque à l'arc. Si cette attaque touche un ennemi visé, elle inflige +5...20 points de dégâts. Si cet ennemi se trouve près d'un de vos alliés, cette attaque ne pourra pas être bloquée.",
+				"concise": "Attaque à l'arc. Inflige +5...20 points de dégâts. Impossible à bloquer si l'ennemi visé est près de vos alliés."
+			},
+			"fr-gwiki": {
 				"name": "Tir croisé",
 				"description": "Si cette attaque touche un ennemi visé, elle inflige +5...20 points de dégâts. Si cet ennemi se trouve près d'un de vos alliés, cette attaque ne pourra pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fuoco Incrociato",
+				"description": "Attacco con Arco. Se questo attacco colpisce l'obiettivo nemico, infligge +5...20 danno[i]. Se quel nemico si trova vicino ad uno qualsiasi dei tuoi alleati, questo attacco non può essere bloccato.",
+				"concise": "Attacco con Arco. Danni inferti: +5...20. Non bloccabile se l'obiettivo nemico si trova vicino ad un tuo alleato."
+			},
+			"jp": {
+				"name": "クロスファイア",
+				"description": "ボウ アタック： ターゲットした敵に攻撃が成功すると、5...20 の追加ダメージを与えます。その敵が味方のそばにいた場合、この攻撃はブロックされません。",
+				"concise": "ボウ アタック： 5...20 の追加ダメージを与えます。ターゲットした敵がプレイヤーの味方のそばにいる場合、ブロックされません。"
+			},
+			"kr": {
+				"name": "십자포화",
+				"description": "활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 아군이 대상 부근에 있으면 대상은 이 공격을 막을 수 없습니다.",
+				"concise": "활 공격. 5...20의 대미지를 추가로 줍니다. 아군이 대상 부근에 있으면 대상은 이 공격을 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Ogień Krzyżowy",
+				"description": "Strzał z łuku. Jeżeli atak trafi, wybrany przeciwnik otrzymuje +5...20 pkt. obrażeń. Jeżeli przeciwnik jest w pobliżu twojego sojusznika, to atak nie może zostać zablokowany.",
+				"concise": "Strzał z łuku. Zadaje +5...20 pkt. obrażeń. Nie do zablokowania, jeżeli wybrany przeciwnik jest w pobliżu jednego z twoich sojuszników."
+			},
+			"ru": {
+				"name": "Crossfire",
+				"description": "Атака из лука. Если этот выстрел попадает в цель, выбранный противник получает дополнительно 5...20 ед. урона. Если этот противник находится поблизости от кого-либо из ваших союзников, эту атаку нельзя блокировать.",
+				"concise": "Атака из лука. Наносит дополнительно 5...20 ед. урона. Нельзя блокировать, если выбранный противник находится поблизости от вашего союзника."
+			},
+			"bork": {
+				"name": "Crussffure-a",
+				"description": "Boo Aettaeck. Iff thees aettaeck heets taerget fue-a, it deaels +5...20 daemaege-a. Iff thaet fue-a is neaer uny ooff yuoor aelleees, thees aettaeck cunnut be-a blucked.",
+				"concise": "Boo Aettaeck. Deaels +5...20 daemaege-a. Unbluckaeble-a iff taerget fue-a is neaer uny ooff yuoor aelleees."
 			}
 		}
 	}

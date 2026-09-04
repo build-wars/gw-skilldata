@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "「高举盾牌！」",
+				"description": "战吼。 在5...11秒之内，使「音波」范围内的你和所有队友的穿刺护甲值提高24点，同时格挡投掷性武器攻击的几率提高0%。",
+				"concise": "战吼。 在5...11秒之内，使「音波范围」内所有友方的穿刺护甲值提高50点，同时「格挡」投掷性攻击的几率提高0%。"
+			},
+			"cht": {
+				"name": "「舉起盾牌！」",
+				"description": "戰嚎： 持續5...11秒，音量所及範圍內的隊伍成員對投射物的防禦增加60。",
+				"concise": "戰嚎： 持續5...11秒，音量所及範圍內的隊伍成員對投射物的防禦增加60。"
+			},
 			"de": {
+				"name": "Schilde hoch!",
+				"description": "Schrei. 5...11 Sekunde[n] lang erhaltet Ihr und alle Gruppenmitglieder in Hörweite +60 Rüstung gegen Geschosse.",
+				"concise": "Schrei. 5...11 Sekunde[n]: Gruppenmitglieder in Hörweite haben +60 Rüstung gegen Geschossangriffe."
+			},
+			"de-guildwiki": {
 				"name": "Schilde hoch!",
 				"description": "5...11 Sekunden lang erhaltet Ihr und Eure Gruppenmitglieder in Hörweite +60 Punkte Rüstung gegen Geschosse.",
 				"concise": "5...11 Sekunden: Gruppenmitglieder in Hörweite haben +60 Rüstung gegen Geschossangriffe."
 			},
 			"en": {
 				"name": "\"Shields Up!\"",
+				"description": "Shout. For 5...11 seconds, you and all party members within earshot gain +60 armor against incoming projectile attacks.",
+				"concise": "Shout. (5...11 seconds.) Party members in earshot have +60 armor against projectile attacks."
+			},
+			"en-gww": {
+				"name": "\"Shields Up!\"",
 				"description": "For 5...11 seconds, you and all party members within earshot gain +60 armor against incoming projectile attacks.",
 				"concise": "(5...11 seconds.) Party members in earshot have +60 armor against projectile attacks."
 			},
+			"es": {
+				"name": "¡Alzad los escudos!",
+				"description": "Grito. Durante 5...11 segundos, tú y los miembros del equipo al alcance del oído ganan +60 de armadura contra ataques con proyectil.",
+				"concise": "Grito. (5...11 segundos). Los miembros del equipo al alcance del oído tienen +60 de armadura contra ataques con proyectil."
+			},
 			"fr": {
+				"name": "Levez les boucliers !",
+				"description": "Cri. Pendant 5...11 secondes, tous les membres du groupe à portée de voix et vous-même bénéficiez d'un bonus d'armure de +60 contre les projectiles qui vous sont lancés.",
+				"concise": "Cri. (5...11 secondes.) Les membres du groupe à portée de voix bénéficient d'un bonus d'armure de +60 contre les projectiles qui leur sont lancés."
+			},
+			"fr-gwiki": {
 				"name": "\"Levez les boucliers !\"",
 				"description": "Pendant 5...11 secondes, tous les membres du groupe à portée de voix et vous-même bénéficiez d'un bonus d'armure de +60 contre les projectiles qui vous sont lancés.",
 				"concise": ""
+			},
+			"it": {
+				"name": "In Alto gli Scudi!",
+				"description": "Urlo. Per 5...11 secondo[i], tu e tutti i membri della squadra a portata d'orecchio ottenete +60 punto[i] di armatura contro gli attacchi proiettile in arrivo.",
+				"concise": "Urlo. (Secondi: 5...11) Armatura dei membri della squadra a portata d'orecchio contro gli attacchi proiettile: +60."
+			},
+			"jp": {
+				"name": "シールド アップ！",
+				"description": "シャウト： 5...11 秒間、プレイヤーおよび声の届く範囲内にいるすべてのパーティー メンバーは、遠投攻撃に対する防御力が 60 増加します。",
+				"concise": "シャウト： (5...11 秒) 声の届く範囲内にいるパーティー メンバーは、遠投攻撃に対する防御力が 60 増加します。"
+			},
+			"kr": {
+				"name": "방패를 들라!",
+				"description": "고함. 대상 지정: 없음. 5...11초 동안 자신과 가청 범위 내에 있는 모든 파티원은 원거리 공격에 대한 방어력이 60만큼 증가합니다.",
+				"concise": "고함. (5...11초) 가청 범위 내에 있는 파티원들은 원거리 공격에 대한 방어력이 60 증가합니다."
+			},
+			"pl": {
+				"name": "Tarcze w Górę!",
+				"description": "Okrzyk. Przez 5...11 sek. ty i wszyscy członkowie drużyny w zasięgu słuchu posiadacie +60 pkt. pancerza przeciwko atakom dystansowym.",
+				"concise": "Okrzyk. (5...11 sek.) Członkowie drużyny w zasięgu słuchu otrzymują po +60 pkt. pancerza przeciwko atakom zasięgowym."
+			},
+			"ru": {
+				"name": "\"Shields Up!\"",
+				"description": "Крик. В течение 5...11 сек у вас и всех членов вашего отряда, находящихся в зоне слышимости, защита увеличивается на 60 ед. против метательных атак.",
+				"concise": "Крик. (5...11 сек). Члены отряда, находящиеся в зоне слышимости, получают +60 ед. к защите против метательных атак."
+			},
+			"bork": {
+				"name": "\"Sheeelds Up!\"",
+				"description": "Shuoot. Fur 5...11 secunds, yuoo und aell paerty members veetheen iaershut gaeeen +60 aermur aegaeeenst incumeeng prujecteele-a aettaecks.",
+				"concise": "Shuoot. (5...11 secunds.) Paerty members in iaershut haefe-a +60 aermur aegaeeenst prujecteele-a aettaecks."
 			}
 		}
 	}

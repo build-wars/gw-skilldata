@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法术模仿",
+				"description": "咒文。 在20秒之内，从目标盟友处复制一个非「形态」类的「精英技能」到自己的技能栏上，「法术模仿」将被所复制的「精英技能」暂时取代。",
+				"concise": "咒文。 从目标队友处复制一个非「形态」类的「精英技能」到自己的技能栏上，「法术模仿」将被所复制的「精英技能」暂时取代，持续20秒。"
+			},
+			"cht": {
+				"name": "魔力模仿",
+				"description": "咒文魔法： 持續 20 秒，魔力模仿將被目標盟友身上非「型態」類型的精英技能取代。",
+				"concise": "咒文魔法： 持續 20 秒，魔力模仿將被目標盟友身上非「型態」類型的精英技能取代。"
+			},
 			"de": {
+				"name": "Arkane Mimikry",
+				"description": "Zauber. 20 Sekunden lang wird Arkane Mimikry die Elite-Fertigkeit des Verbündeten, mit der er sich nicht verwandelt.",
+				"concise": "Zauber. Diese Fertigkeit wird zur Elite-Fertigkeit des Verbündeten (20 Sekunden). Sich selbst als Ziel wählen nicht möglich. Keine Wirkung, wenn Elite-Fertigkeit des Verbündeten eine Verwandlung ist."
+			},
+			"de-guildwiki": {
 				"name": "Arkane Mimikry",
 				"description": "20 Sekunden lang wird Arkane Mimikry die Elite-Fertigkeit des Verbündeten, mit der er sich nicht verwandelt.",
 				"concise": "Diese Fertigkeit wird zur Elite-Fertigkeit des Verbündeten (20 Sekunden). <gray>Sich selbst als Ziel wählen nicht möglich. Keine Wirkung, wenn Elite-Fertigkeit des Verbündeten eine Verwandlung ist.</gray>"
 			},
 			"en": {
 				"name": "Arcane Mimicry",
+				"description": "Spell. For 20 seconds, Arcane Mimicry becomes the non-form elite skill from target other ally.",
+				"concise": "Spell. This skill becomes target ally's elite skill (20 seconds). Cannot self-target. No effect if target's elite skill is a form."
+			},
+			"en-gww": {
+				"name": "Arcane Mimicry",
 				"description": "For 20 seconds, Arcane Mimicry becomes the non-form elite skill from target other ally.",
 				"concise": "This skill becomes target ally's elite skill (20 seconds). <gray>Cannot self-target. No effect if target's elite skill is a form.</gray>"
 			},
+			"es": {
+				"name": "Imitación arcana",
+				"description": "Conjuro. Durante 20 segundos, dispondrás de la habilidad de élite del aliado objetivo (siempre que no sea una forma).",
+				"concise": "Conjuro. Esta habilidad se convierte en la habilidad de élite del aliado objetivo (20 segundos). No se puede usar con uno mismo. No tiene efecto si la habilidad de élite es una transformación."
+			},
 			"fr": {
+				"name": "Mimétisme des arcanes",
+				"description": "Sort. Pendant 20 secondes, le Mimétisme des arcanes devient la compétence élite (qui n'est pas une Transformation) de l'allié visé.",
+				"concise": "Sort. Cette compétence devient la compétence élite de l'allié visé (20 secondes). Vous ne pouvez pas vous prendre pour cible. Aucun effet si la compétence élite de la cible est une Transformation."
+			},
+			"fr-gwiki": {
 				"name": "Mimétisme des arcanes",
 				"description": "Pendant 20 secondes, le Mimétisme des arcanes devient la compétence élite (qui n'est pas une Transformation) de l'allié visé.",
 				"concise": "Cette compétence devient la compétence élite de l'allié visé (20 secondes)."
+			},
+			"it": {
+				"name": "Mimica Arcana",
+				"description": "Magia. Per 20 secondi la Mimica Arcana si trasforma nell'abilità d'élite dell'alleato selezionato (Forme escluse).",
+				"concise": "Magia. Quest'abilità si trasforma nell'abilità d'élite dell'obiettivo alleato (20 secondi). Impossibile selezionare se stessi. L'abilità non può essere una Forma."
+			},
+			"jp": {
+				"name": "アルカナ ミミック",
+				"description": "スペル： 20秒間、このスキルはターゲットした自分以外の味方が装備するエリート フォーム以外のエリート スキルに変化します。",
+				"concise": "スペル： ターゲットした味方が装備しているエリート スキルと入れ替わります (20秒)。自分自身をターゲットすることはできません。また、フォーム スキルは無効です。"
+			},
+			"kr": {
+				"name": "마법 흉내",
+				"description": "마법. 대상 지정: 아군. 20초 동안 대상의 엘리트 스킬 중 하나를 무작위로 배워서 사용할 수 있습니다. 엘리트 형상 스킬은 배울 수 없고, 자신에게 사용할 수 없습니다.",
+				"concise": "마법. (20초) 이 스킬이 대상 아군의 엘리트 스킬이 됩니다. 자신에게 사용할 수 없고, 엘리트 형상 스킬은 배울 수 없습니다."
+			},
+			"pl": {
+				"name": "Magiczna Mimikra",
+				"description": "Czar. Na 20 sek. Magiczna Mimikra staje się elitarną umiejętnością nie związaną z przemianą, należącą do wybranego sojusznika innego niż ty.",
+				"concise": "Czar. Ta umiejętność zamieniana jest na umiejętność elitarną sojusznika (20 sek.). Na cel nie można wybrać siebie. Bez efektu, jeśli umiejętność elitarna związana jest z przemianą formy."
+			},
+			"ru": {
+				"name": "Arcane Mimicry",
+				"description": "Заклинание. На 20 сек Arcane Mimicry станет элитным умением (кроме умений образа), которым владеет выбранный союзник (но не вы).",
+				"concise": "Заклинание. Это умение замещается элитным умением выбранного союзника (20 сек). Нельзя направлять на себя. Не срабатывает, если элитное умение цели - умение образа."
+			},
+			"bork": {
+				"name": "Aercune-a Meemeecry",
+				"description": "Spell. Fur 20 secunds, Aercune-a Meemeecry becumes zee nun-furm ileete-a skeell frum taerget oozeer aelly.",
+				"concise": "Spell. Thees skeell becumes taerget aelly's ileete-a skeell (20 secunds). Cunnut selff-taerget. Nu iffffect iff taerget's ileete-a skeell is a furm."
 			}
 		}
 	}

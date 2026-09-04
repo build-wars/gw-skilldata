@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 6,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "复活圣歌",
+				"description": "咒文。 复活目标队伍成员，并恢复其等同于你目前生命值的生命及恢复其 5...35% 能量。此技能的施放距离只有正常技能的一半。",
+				"concise": "半程法术。 复活目标队伍成员，并恢复其等同于你目前生命值的生命及恢复其 5...35% 能量。此技能的施放距离只有正常技能的一半。"
+			},
+			"cht": {
+				"name": "復活聖歌",
+				"description": "咒文魔法： 復活目標隊伍成員，並回復其等同於你目前體力值的體力及回復其 5...35% 能量。此法術的施法距離是平常的一半。",
+				"concise": "半距魔法： 復活目標隊伍成員，並回復其等同於你目前體力值的體力及回復其 5...35% 能量。此法術的施法距離是平常的一半。"
+			},
 			"de": {
+				"name": "Gesang der Wiederbelebung",
+				"description": "Zauber. Ein Gruppenmitglied wird mit höchstens der Anzahl Eurer Lebenspunkte und 5...35% der Energiepunkte wiederbelebt. Die Reichweite dieses Zaubers ist nur halb so groß wie gewöhnlich.",
+				"concise": "Mitteldistanz-Zauber. Das Gruppenmitglied wird wiederbelebt (Eure aktuellen Lebenspunkte, 5...35% Energiepunkte)."
+			},
+			"de-guildwiki": {
 				"name": "Gesang der Wiederbelebung",
 				"description": "Ein Gruppenmitglied wird mit höchstens der Anzahl Eurer Lebenspunkte und 5...35% der Energiepunkte wiederbelebt. Die Reichweite dieses Zaubers ist nur halb so groß wie gewöhnlich.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (Eure aktuellen Lebenspunkte, 5...35% Energiepunkte)."
 			},
 			"en": {
 				"name": "Resurrection Chant",
+				"description": "Spell. Resurrect target party member with up to your current Health and 5...35% Energy. This spell has half the normal range.",
+				"concise": "Half Range Spell. Resurrects target party member at your current Health and with 5...35% Energy."
+			},
+			"en-gww": {
+				"name": "Resurrection Chant",
 				"description": "Resurrect target party member with up to your current Health and 5...35% Energy. This spell has half the normal range.",
 				"concise": "Half Range Spell. Resurrects target party member at your current Health and with 5...35% Energy."
 			},
+			"es": {
+				"name": "Canto de resurrección",
+				"description": "Conjuro. Resucitas a un aliado con la misma salud que tengas y 5...35% de energía. Este conjuro tiene la mitad de alcance que los normales.",
+				"concise": "Conjuro con mitad de alcance. Resucita al miembro del equipo objetivo con tu salud actual y 5...35% de energía."
+			},
 			"fr": {
+				"name": "Chant de résurrection",
+				"description": "Sort. Ressuscite le membre visé du groupe avec l'équivalent de vos points de vie actuels et 5...35% d'énergie. Sa portée est la moitié de celle d'un sort normal.",
+				"concise": "Sort de moitié de portée. Ressuscite le membre du groupe visé. Il revient à la vie avec votre capital actuel de points de vie et 5...35% d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Chant de résurrection",
 				"description": "Ressuscite le membre visé du groupe avec l'équivalent de vos points de vie actuels et 5...35% d'énergie. Sa portée est la moitié de celle d'un sort normal.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Salmodia di Resurrezione",
+				"description": "Magia. Resusciti l'obiettivo alleato con un massimo di Salute equivalente alla tua Salute attuale ed un 5...35% della tua Energia. La portata di questa magia è la metà del normale.",
+				"concise": "Magia a Portata Dimezzata. Resuscita il membro della squadra preso di mira con la tua Salute attuale e un 5...35% di Energia."
+			},
+			"jp": {
+				"name": "リザレクション チャント",
+				"description": "スペル： ターゲットしたパーティー メンバーが最大で現在のプレイヤーと同量の体力と 5...35% のエネルギーで復活します。このスペルの効果範囲は通常の半分です。",
+				"concise": "スペル (半分の効果範囲)： ターゲットしたパーティー メンバーが、プレイヤーと同量の体力と 5...35% のエネルギーで復活します。"
+			},
+			"kr": {
+				"name": "부활의 노래",
+				"description": "마법. 대상 지정: 파티원. 대상을 자신의 현재 체력과 5...35%의 에너지를 가진 채로 부활시킵니다. 이 스킬은 사정거리가 다른 스킬의 절반입니다.",
+				"concise": "마법(사거리 절반). 파티원을 부활합니다.(체력: 자신의 현재 체력, 에너지: 5...35%)"
+			},
+			"pl": {
+				"name": "Wskrzeszający Chorał",
+				"description": "Czar. Wskrzeszasz wybranego członka drużyny, który wraca do życia z tyloma pkt. żywotności ile aktualnie posiadasz i 5...35% energii. Ten czar posiada zasięg dwa razy mniejszy niż zwykły czar.",
+				"concise": "Czar o połowie zasięgu. Wskrzesza wybranego członka drużyny z twoim aktualnym poziomem żywotności i z 5...35% energii."
+			},
+			"ru": {
+				"name": "Resurrection Chant",
+				"description": "Заклинание. Воскрешает выбранного члена вашего отряда со здоровьем, не превышающим ваш текущий уровень здоровья, и 5...35% энергии. Это заклинание имеет вдвое меньшую дальность, чем обычно.",
+				"concise": "Заклинание на среднее расстояние. Воскрешает выбранного члена вашего отряда со здоровьем, равным вашему текущему здоровью, и 5...35% энергии."
+			},
+			"bork": {
+				"name": "Resoorrecshun Chunt",
+				"description": "Spell. Resoorrect taerget paerty member veet up tu yuoor coorrent Heaelt und 5...35% Inergy. Thees spell haes haelff zee nurmael runge-a.",
+				"concise": "Haelff Runge-a Spell. Resoorrects taerget paerty member aet yuoor coorrent Heaelt und veet 5...35% Inergy."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "牺牲雕文",
+				"description": "雕文魔法。 使你的下一个法术变成瞬发，但此法术的恢复时间延长 30秒，技能效果持续 15秒。",
+				"concise": "雕文魔法。 使你的下一个法术变成瞬发，但此法术的恢复时间延长 30秒，技能效果持续 15秒。"
+			},
+			"cht": {
+				"name": "犧牲符號",
+				"description": "符號： 持續 15 秒，你下一個使用的「魔法」可以立即施放，但此魔法的回復時間增加 30 秒。",
+				"concise": "符號： 持續 15 秒，你下一個使用的「魔法」可以立即施放，但此魔法的回復時間增加 30 秒。"
+			},
 			"de": {
+				"name": "Glyphe der Opferung",
+				"description": "Glyphe. 15 Sekunde[n] lang wirkt Euer nächster Zauber sofort, benötigt aber für die Wiederaufladung 30 Sekunde[n] länger. Endet vorzeitig, wenn Ihr eine Nicht-Zauber-Fertigkeit verwendet.",
+				"concise": "Glyphe. (15 Sekunden.) Euer nächster wirkt Zauber sofort, benötigt aber für die Wiederaufladung 30 Sekunde[n] länger. Endet, wenn Ihr eine Nicht-Zauber-Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Glyphe der Opferung",
 				"description": "15 Sekunden lang benötigt Eure nächste Fertigkeit für die Wiederaufladung 30 Sekunden länger, aber wird, wenn sie ein Zauber ist, sofort gewirkt.",
 				"concise": "(15 Sekunden.) Eure nächste Fertigkeit benötigt für die Wiederaufladung 30 Sekunden länger. Ist sie ein Zauber, wird sie sofort gewirkt."
 			},
 			"en": {
 				"name": "Glyph of Sacrifice",
+				"description": "Glyph. For 15 seconds, your next spell casts instantly, but it takes an additional 30 seconds to recharge. Ends prematurely if you use a non-spell skill.",
+				"concise": "Glyph. (15 seconds.) Your next spell casts instantly but takes an additional 30 seconds to recharge. Ends if you use a non-spell skill."
+			},
+			"en-gww": {
+				"name": "Glyph of Sacrifice",
 				"description": "For 15 seconds, your next spell casts instantly, but it takes an additional 30 seconds to recharge. Ends prematurely if you use a non-spell skill.",
 				"concise": "(15 seconds.) Your next spell casts instantly but takes an additional 30 seconds to recharge. <gray>Ends if you use a non-spell skill.</gray>"
 			},
+			"es": {
+				"name": "Glifo de sacrificio",
+				"description": "Glifo. Durante 15 segundos, tu próximo conjuro se lanza de forma instantánea, pero tardará 30 segundos más en recargarse. Termina prematuramente si utilizas una habilidad que no sea un conjuro.",
+				"concise": "Glifo. (15 segundos.) Tu próximo conjuro se lanza de forma instantánea, pero tardará 30 segundos más en recargarse. Termina si utilizas una habilidad que no sea un conjuro."
+			},
 			"fr": {
+				"name": "Glyphe de sacrifice",
+				"description": "Glyphe. Pendant 15 secondes, le prochain sort est lancé sans incantation préalable, mais il mettra 30 secondes en plus à se recharger. Prend fin prématurément si vous utilisez une compétence autre qu'un sort.",
+				"concise": "Glyphe. (15 secondes.) Votre prochain sort se lance instantanément mais met 30 secondes supplémentaires à se recharger. Prend fin si vous utilisez une compétence autre qu'un sort."
+			},
+			"fr-gwiki": {
 				"name": "Glyphe de sacrifice",
 				"description": "Pendant 15 secondes, le prochain sort peut être lancé sans incantation préalable, mais il mettra 30 secondes en plus à se recharger.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Glifo del Sacrificio",
+				"description": "Glifo. Per 15 secondi la tua magia successiva viene lanciata istantaneamente, ma richiede 30 secondi in più per ricaricarsi. L'incantesimo termina prematuramente se utilizzi un'abilità non magica.",
+				"concise": "Glifo. (Secondi: 15). Il lancio della prossima magia è istantaneo ma richiede 30 secondi in più per ricaricarsi. Termina se utilizzi un'abilità non magica."
+			},
+			"jp": {
+				"name": "サクリファイス グリフ",
+				"description": "グリフ： 15 秒間、次に詠唱するスペルはすぐに発動しますが、再使用時間が 30 秒増加します。スペル以外のスキルを使用すると、この効果は消失します。",
+				"concise": "グリフ： (15 秒) 次に詠唱するスペルはすぐに発動しますが、再使用時間が 30 秒増加します。スペル以外のスキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "희생의 수인",
+				"description": "수인. 15초 동안 다음에 시전하는 마법은 즉시 시전되지만, 재활성 시간이 30초만큼 늘어납니다. 마법이 아닌 스킬을 사용하면 효과가 일찍 끝납니다.",
+				"concise": "수인. (15초) 다음에 시전하는 마법은 즉시 시전되지만, 재활성 시간이 30초만큼 늘어납니다. 마법이 아닌 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Glif Ofiary",
+				"description": "Glif. Przez 15 sek., twój następny czar zostaje rzucony natychmiast, ale odnawia się 30 sek. dłużej. Kończy się przedwcześnie, jeśli użyjesz umiejętności nie będącej czarem.",
+				"concise": "Glif. (15 sek.) Twój następny czar zostaje rzucony natychmiast, ale odnawia się 30 sek. dłużej. Kończy się, jeśli użyjesz umiejętności nie będącej czarem."
+			},
+			"ru": {
+				"name": "Glyph of Sacrifice",
+				"description": "Глиф. В течение 15 сек следующее ваше заклинание будет активировано незамедлительно, но ему потребуются дополнительно 30 сек для перезарядки. Заканчивает преждевременно, если вы используете умение, не являющееся заклинанием.",
+				"concise": "Глиф. (15 сек) Следующее ваше заклинание будет активировано незамедлительно, но ему потребуется дополнительно 30 сек для перезарядки. Заканчивает, если вы используете умение, не являющееся заклинанием."
+			},
+			"bork": {
+				"name": "Glyph ooff Saecreeffeece-a",
+				"description": "Glyph. Fur 15 secunds, yuoor next spell caests instuntly, boot it taekes un aeddeeshunael 30 secunds tu rechaerge-a. Inds premaetoorely iff yuoo use-a a nun-spell skeell.",
+				"concise": "Glyph. (15 secunds.) Yuoor next spell caests instuntly boot taekes un aeddeeshunael 30 secunds tu rechaerge-a. Inds iff yuoo use-a a nun-spell skeell."
 			}
 		}
 	}

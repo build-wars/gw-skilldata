@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灼热之眼",
+				"description": "咒文。 对目标敌人造成5...50点火焰伤害。如果该敌人正遭受「灼烧」症状，你将获得5点能量。",
+				"concise": "咒文。 对目标敌人造成5...50点火焰伤害。如果该敌人正遭受「灼烧」症状，你将获得5点能量。"
+			},
+			"cht": {
+				"name": "灼熱凝視",
+				"description": "咒文魔法： 對目標敵人造成5...50火焰傷害。若該名目標正遭受「著火」病症，你獲得5能量外加你自己每2等能量儲存數量的能量。",
+				"concise": "咒文魔法： 對目標敵人造成5...50火焰傷害。若該名目標正遭受「著火」病症，你獲得5能量外加你自己每2等能量儲存數量的能量。"
+			},
 			"de": {
+				"name": "Glühender Blick",
+				"description": "Zauber. Der Gegner erleidet 5...50 Punkt[e] Feuerschaden. Wenn er in Flammen steht, erhaltet Ihr 5 Energiepunkt[e] sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung.",
+				"concise": "Zauber. Richtet 5...50 Punkt[e] Feuerschaden an. Ihr erhaltet 5 Energiepunkt[e] sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn der Gegner brennt."
+			},
+			"de-guildwiki": {
 				"name": "Glühender Blick",
 				"description": "Der Gegner erleidet 5...50 Punkte Feuerschaden. Wenn er in Flammen steht, erhaltet Ihr 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung.",
 				"concise": "Geschoss: Fügt 5...50 Punkte Feuerschaden zu. Ihr erhaltet 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn der Gegner brennt."
 			},
 			"en": {
 				"name": "Glowing Gaze",
+				"description": "Spell. Target foe takes 5...50 fire damage. If that foe is on Fire, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
+				"concise": "Spell. Deals 5...50 fire damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Burning."
+			},
+			"en-gww": {
+				"name": "Glowing Gaze",
 				"description": "Target foe takes 5...50 fire damage. If that foe is on Fire, <sic/> you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
 				"concise": "Deals 5...50 fire damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Burning."
 			},
+			"es": {
+				"name": "Mirada brillante",
+				"description": "Conjuro. El enemigo objetivo recibe 5...50 de daño de fuego. Si ese enemigo está ardiendo, ganas 5 de energía más 1 de energía por cada 2 rangos de almacenamiento de energía.",
+				"concise": "Conjuro. Hace 5...50 de daño de fuego. Ganas 5 de energía más 1 de energía por cada 2 rangos de almacenamiento de energía si el enemigo objetivo está ardiendo."
+			},
 			"fr": {
+				"name": "Regard embrasé",
+				"description": "Sort. L'ennemi visé subit 5...50 points de dégâts du feu. Si cet ennemi est embrasé, vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
+				"concise": "Sort. Inflige 5...50 points de dégâts de feu. Vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie si la cible ennemie souffre de Brûlure."
+			},
+			"fr-gwiki": {
 				"name": "Regard embrasé",
 				"description": "La cible ennemie subit 5...50 points de dégâts du feu. Si cet ennemi est embrasé vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sguardo Luminoso",
+				"description": "Magia. L'obiettivo nemico subisce 5...50 danni da fuoco. Se quel nemico è affetto da Bruciatura, ottieni 5 Punti Energia e 1 Punto Energia per ogni 2 gradi della Riserva di Energia.",
+				"concise": "Magia. Danni da fuoco inferti: 5...50. Energia conseguita se l'obiettivo nemico è affetto da Bruciatura: 5 più 1 per ogni 2 gradi della Riserva di Energia."
+			},
+			"jp": {
+				"name": "グロウ ゲイズ",
+				"description": "スペル： ターゲットした敵に 5...50 のファイア ダメージを与えます。ターゲットした敵が「火傷」状態の場合、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。",
+				"concise": "スペル： 5...50 のファイア ダメージを与えます。ターゲットした敵が「火傷」状態の場合、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "타오르는 시선",
+				"description": "마법. 대상 지정: 적. 대상에게 5...50의 불 대미지를 줍니다. 대상이 화상 상태라면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 특성 레벨 2당 1의 에너지를 추가로 얻습니다.",
+				"concise": "마법. 5...50의 불 대미지를 줍니다. 대상이 화상을 입었으면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 레벨 2당 1의 에너지를 추가로 얻습니다."
+			},
+			"pl": {
+				"name": "Rozżarzone Spojrzenie",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 5...50 pkt. obrażeń od ognia. Jeżeli przeciwnik płonie, otrzymujesz 5 pkt. energii plus 1 pkt. energii na każde 2 poziomy Zapasu Energii.",
+				"concise": "Czar. Zadaje 5...50 pkt. obrażeń od ognia. Otrzymujesz 5 pkt. energii plus 1 pkt. energii na każde 2 poziomy Zapasu Energii, jeżeli wybrany przeciwnik płonie."
+			},
+			"ru": {
+				"name": "Glowing Gaze",
+				"description": "Заклинание. Выбранный противник получает 5...50 ед. урона силой огня. Если этот противник горит, вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage.",
+				"concise": "Заклинание. Наносит 5...50 ед. урона силой огня. Вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage, если выбранный противник горит."
+			},
+			"bork": {
+				"name": "Glooeeng Gaeze-a",
+				"description": "Spell. Taerget fue-a taekes 5...50 fure-a daemaege-a. Iff thaet fue-a is oon Fure-a, yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a.",
+				"concise": "Spell. Deaels 5...50 fure-a daemaege-a. Yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a iff taerget fue-a is Boorneeng."
 			}
 		}
 	}

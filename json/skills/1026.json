@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "金莲杀",
+				"description": "起手技。 命中时对目标造成 5...20点 额外伤害。如果你带有「增益魔法」，你将获得 5...8点 能量。",
+				"concise": "起手技。 命中时对目标造成 5...20点 额外伤害。如果你带有「增益魔法」，你将获得 5...8点 能量。"
+			},
+			"cht": {
+				"name": "金蓮狙殺",
+				"description": "引導攻擊： 命中時對目標造成 5...20 額外傷害。若你身上有任何「加持」的話，你獲得 5...8 能量。",
+				"concise": "引導攻擊： 命中時對目標造成 5...20 額外傷害。若你身上有任何「加持」的話，你獲得 5...8 能量。"
+			},
 			"de": {
+				"name": "Goldener Lotus-Stoß",
+				"description": "Leithandangriff. Wenn dieser Angriff erfolgreich ist, fügt er +5...20 Punkt[e] Schaden zu. Wenn Ihr unter den Auswirkungen einer Verzauberung leidet, erhaltet Ihr 5...8 Energiepunkt[e].",
+				"concise": "Leithandangriff. Richtet +5...20 Punkt[e] Schaden an. Ihr erhaltet 5...8 Energiepunkt[e], falls Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Goldener Lotus-Stoß",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt er +5...20 Punkte Schaden zu. Wenn Ihr unter den Auswirkungen einer Verzauberung leidet<sic/>, erhaltet Ihr 5...8 Energiepunkte.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Ihr erhaltet 5...8 Energiepunkte, falls Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Golden Lotus Strike",
+				"description": "Lead Attack. If it hits, this attack strikes for +5...20 damage. If you are under the effects of an enchantment, you gain 5...8 Energy.",
+				"concise": "Lead Attack. Deals +5...20 damage. You gain 5...8 Energy if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Golden Lotus Strike",
 				"description": "If it hits, this attack strikes for +5...20 damage. If you are under the effects of an Enchantment, you gain 5...8 Energy.",
 				"concise": "Deals +5...20 damage. You gain 5...8 Energy if you are enchanted."
 			},
+			"es": {
+				"name": "Loto dorada",
+				"description": "Ataque inicial. Si impacta el ataque, harás de +5...20 daño. Si estás bajo los efectos de un encantamiento, ganarás 5...8 de energía.",
+				"concise": "Ataque inicial. Hace +5...20 de daño. Ganas 5...8 de energía si tienes un encantamiento."
+			},
 			"fr": {
+				"name": "Coup du lotus doré",
+				"description": "Attaque main droite. Si elle réussit, cette attaque inflige +5...20 points de dégâts. Si vous êtes affecté par un enchantement, vous obtenez 5...8 points d'énergie.",
+				"concise": "Attaque main droite. Inflige +5...20 points de dégâts. Vous gagnez 5...8 points d'énergie si vous êtes sous les effets d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Coup du lotus doré",
 				"description": "Si elle réussit, cette attaque inflige +5...20 points de dégâts. Si vous êtes affecté par un enchantement, vous obtenez 5...12 points d'énergie.",
 				"concise": "Inflige +5...20 points de dégâts. Vous gagnez 5...12 points d'énergie si vous êtes sous les effets d'un enchantement."
+			},
+			"it": {
+				"name": "Colpo del Loto Dorato",
+				"description": "Attacco con Arma Primaria. Se va a segno, questo attacco infligge +5...20 danno[i]. Se ti trovi sotto gli effetti di un incantesimo ottieni 5...8 Punto[i] Energia.",
+				"concise": "Attacco con Arma Primaria. Danni inferti: +5...20. Ottieni 5...8 Punto[i] Energia se sei affetto da incantesimo."
+			},
+			"jp": {
+				"name": "ゴールデン ロータス ストライク",
+				"description": "リード アタック： 攻撃が成功すると 5...20 の追加ダメージを与えます。プレイヤーに強化スペルがかけられている場合、5...8 のエネルギーを獲得します。",
+				"concise": "リード アタック： 5...20 の追加ダメージを与えます。プレイヤーに強化スペルがかけられている場合、5...8 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "금빛연꽃 찌르기",
+				"description": "주 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 자신은 강화 마법에 걸려 있으면 5...8의 에너지를 얻습니다.",
+				"concise": "주 공격. 5...20의 대미지를 추가로 줍니다. 자신이 강화 마법에 걸려 있으면 5...8의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Uderzenie Złotego Lotosu",
+				"description": "Atak poprzedzający. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeżeli masz na sobie zaklęcie, otrzymujesz 5...8 pkt. energii.",
+				"concise": "Atak poprzedzający. Zadaje +5...20 pkt. obrażeń. Otrzymujesz 5...8 pkt. energii, jeżeli jesteś pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Golden Lotus Strike",
+				"description": "Ведущая атака. В случае попадания удар наносит дополнительно 5...20 ед. урона. Если на вас наложены какие-либо чары, вы получаете 5...8 ед. энергии.",
+				"concise": "Ведущая атака. Наносит дополнительно 5...20 ед. урона. Вы получаете 5...8 ед. энергии, если на вас наложены чары."
+			},
+			"bork": {
+				"name": "Guldee Lutoos Streeke-a",
+				"description": "Leaed Aettaeck. Iff it heets, thees aettaeck streekes fur +5...20 daemaege-a. Iff yuoo aere-a under zee iffffects ooff un inchuntment, yuoo gaeeen 5...8 Inergy. Bork! Bork! Bork!",
+				"concise": "Leaed Aettaeck. Deaels +5...20 daemaege-a. Yuoo gaeeen 5...8 Inergy iff yuoo aere-a inchunted."
 			}
 		}
 	}

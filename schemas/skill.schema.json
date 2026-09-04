@@ -78,6 +78,11 @@
 					"type": "number",
 					"minimum": 0
 				},
+				"aftercast": {
+					"description": "aftercast time",
+					"type": "number",
+					"minimum": 0
+				},
 				"recharge": {
 					"description": "recharge time",
 					"type": "number",
@@ -128,6 +133,7 @@
 				"upkeep",
 				"energy",
 				"activation",
+				"aftercast",
 				"recharge",
 				"adrenaline",
 				"adrenaline_precise",
@@ -151,37 +157,12 @@
 				"concise": {
 					"description": "concise skill description",
 					"type": "string"
-				},
-				"campaign": {
-					"description": "campaign name",
-					"type": "string"
-				},
-				"profession": {
-					"description": "profession name",
-					"type": "string"
-				},
-				"profession_abbr": {
-					"description": "profession short name",
-					"type": "string"
-				},
-				"attribute": {
-					"description": "attribute name",
-					"type": "string"
-				},
-				"type": {
-					"description": "skill type name",
-					"type": "string"
 				}
 			},
 			"required": [
 				"name",
 				"description",
-				"concise",
-				"campaign",
-				"profession",
-				"profession_abbr",
-				"attribute",
-				"type"
+				"concise"
 			]
 		}
 	}

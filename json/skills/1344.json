@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "崩坏之网",
+				"description": "负面魔法。 打断目标敌人的动作，在10秒之内，使目标敌人遭受「崩坏之网」的效果影响。当「崩坏之网」效果消失时，目标敌人的动作将会再度被打断。",
+				"concise": "负面魔法。 打断目标敌人的动作，在10秒之内，使目标敌人遭受「崩坏之网」的效果影响。当「崩坏之网」效果消失时，目标敌人的动作将会再度被打断。"
+			},
+			"cht": {
+				"name": "瓦解之網",
+				"description": "降咒魔法： 中斷目標敵人動作。持續 10 秒，使其受到瓦解之網的「降咒」。當此「降咒」效果終止時，該名敵人的動作再次被中斷。",
+				"concise": "降咒魔法： 中斷目標敵人動作。持續 10 秒，使其受到瓦解之網的「降咒」。當此「降咒」效果終止時，該名敵人的動作再次被中斷。"
+			},
 			"de": {
+				"name": "Netz der Störung",
+				"description": "Verhexung. Unterbrecht den Gegner. 10 Sekunde[n] lang ist der Gegner mit Netz der Störung verhext. Wenn diese Verhexung endet, wird der Gegner wieder unterbrochen.",
+				"concise": "Verhexung. 10 Sekunde[n]: Anfangswirkung: Unterbricht eine Fertigkeit. Wirkung am Ende: Unterbricht eine Fertigkeit."
+			},
+			"de-guildwiki": {
 				"name": "Netz der Störung",
 				"description": "Wenn der Gegner eine Fertigkeit verwendet, wird er dabei unterbrochen. 10 Sekunden lang ist der Gegner mit Netz der Störung verhext. Wenn diese Verhexung endet und der Gegner eine Fertigkeit verwendet, wird er dabei unterbrochen.",
 				"concise": "10 Sekunden: Anfangswirkung: Unterbricht eine Fertigkeit. Wirkung am Ende: Unterbricht eine Fertigkeit."
 			},
 			"en": {
 				"name": "Web of Disruption",
+				"description": "Hex Spell. Interrupt target foe. For 10 seconds, target foe is hexed with Web of Disruption. When this hex ends, that foe is interrupted again.",
+				"concise": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill."
+			},
+			"en-gww": {
+				"name": "Web of Disruption",
 				"description": "Interrupt target foe. For 10 seconds, target foe is hexed with Web of Disruption. When this hex ends, that foe is interrupted again.",
 				"concise": "(10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill."
 			},
+			"es": {
+				"name": "Red interruptora",
+				"description": "Conjuro con maleficio. Interrumpes al enemigo objetivo. Durante 10 segundos, el enemigo tiene encima una Red interruptora. Cuando este maleficio termine, volverás a interrumpirlo de nuevo.",
+				"concise": "Conjuro con maleficio. (10 segundos). Efecto inicial: interrumpe una habilidad. Efecto final: interrumpe una habilidad."
+			},
 			"fr": {
+				"name": "Toile d'interruption",
+				"description": "Maléfice. Vous interrompez la cible ennemie. Pendant 10 secondes, la cible ennemie est victime du maléfice de Toile d'interruption. Lorsque ce maléfice prend fin, cet ennemi est interrompu à nouveau.",
+				"concise": "Maléfice. (10 secondes.) Effet initial : interrompt une compétence. Effet final : interrompt une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Toile d'interruption",
 				"description": "Vous interrompez la cible ennemie. Pendant 10 secondes, la cible ennemie est victime du maléfice de ''Toile d'interruption''. Lorsque ce maléfice prend fin, cet ennemi est interrompu à nouveau.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rete del Disturbo",
+				"description": "Fattura. Interrompi l'obiettivo nemico. Per 10 secondo[i] l'obiettivo nemico è affetto dalla fattura della Rete del Disturbo. Quando questa fattura termina, quel nemico viene interrotto nuovamente.",
+				"concise": "Fattura. (Secondi: 10) Effetto iniziale: interrompe un'abilità. Effetto al termine: interrompe un'abilità."
+			},
+			"jp": {
+				"name": "ディスラプション ウェブ",
+				"description": "弱体化スペル： ターゲットした敵のアクションを中断させます。10 秒後にこの弱体化スペルの効果は消失し、もう一度その敵のアクションを中断させます。",
+				"concise": "弱体化スペル： (10 秒) 発動効果： スキルを1個中断します。終了効果： スキルを1個中断します。"
+			},
+			"kr": {
+				"name": "방해의 거미줄",
+				"description": "약화 마법. 대상 지정: 적. 대상의 동작을 방해합니다. 이 약화 마법은 10초 동안 지속되고, 효과가 끝날 때 대상은 또 동작을 방해받습니다.",
+				"concise": "약화 마법. (10초) 초기 효과: 스킬을 방해합니다. 종료 효과: 스킬을 방해합니다."
+			},
+			"pl": {
+				"name": "Sieć Rozproszenia",
+				"description": "Klątwa (czar). Przerywasz czynność wybranego przeciwnika. Przez 10 sek., wybrany przeciwnik znajduje się pod działaniem klątwy Sieć Rozproszenia. Kiedy przestanie ona działać, czynność celu zostanie ponownie przerwana.",
+				"concise": "Klątwa (czar). (10 sek.) Efekt początkowy: przerywa umiejętność. Efekt końcowy: przerywa umiejętność."
+			},
+			"ru": {
+				"name": "Web of Disruption",
+				"description": "Заклинание-проклятье. Прерывает выбранного противника. В течение 10 сек на этом противнике будет лежать Web of Disruption. Когда это проклятье завершит свое действие, этот противник будет снова прерван.",
+				"concise": "Заклинание-проклятье. (10 сек) Начальный эффект: прерывает умение. Эффект окончания: прерывает умение."
+			},
+			"bork": {
+				"name": "Veb ooff Deesroopshun",
+				"description": "Hex Spell. Interroopt taerget fue-a. Fur 10 secunds, taerget fue-a is hexed veet Veb ooff Deesroopshun. Vhee thees hex inds, thaet fue-a is interroopted aegaeeen.",
+				"concise": "Hex Spell. (10 secunds.) Ineeteeael iffffect: interroopts a skeell. Ind iffffect: interroopts a skeell."
 			}
 		}
 	}

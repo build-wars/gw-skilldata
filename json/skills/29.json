@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "失魂",
+				"description": "技能。 触摸目标敌人，使其在 2...8秒 内无法使用任何技能，同时你在 5秒 内也无法使用任何技能。",
+				"concise": "触摸技。 触摸目标敌人，使其在 2...8秒 内无法使用任何技能，同时你在 5秒 内也无法使用任何技能。"
+			},
+			"cht": {
+				"name": "意識喪失",
+				"description": "技能： 碰觸目標敵人，使其所有技能在 2...8 秒內無法使用。同時自身的所有技能在 5 秒內也無法使用。",
+				"concise": "碰觸技能： 碰觸目標敵人，使其所有技能在 2...8 秒內無法使用。同時自身的所有技能在 5 秒內也無法使用。"
+			},
 			"de": {
+				"name": "Blackout",
+				"description": "Fertigkeit. 2...8 Sekunde[n] lang werden alle Fertigkeiten des berührten Gegners deaktiviert und alle Eure eigenen Fertigkeiten werden 5 Sekunden lang deaktiviert.",
+				"concise": "Berührungs-Fertigkeit. 2...8 Sekunde[n]: Deaktiviert Fertigkeiten. Eure Fertigkeiten werden deaktiviert (5 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Blackout",
 				"description": "2...8 Sekunden lang werden alle Fertigkeiten des berührten Gegners deaktiviert und alle Eure eigenen Fertigkeiten werden 5 Sekunden lang deaktiviert.",
 				"concise": "2...8 Sekunden: Deaktiviert Fertigkeiten. <gray>Eure Fertigkeiten werden deaktiviert (5 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Blackout",
+				"description": "Skill. For 2...8 seconds, all of touched target foe's skills are disabled, and all of your skills are disabled for 5 seconds.",
+				"concise": "Touch Skill. (2...8 seconds.) Disables skills. Your skills are disabled (5 seconds)."
+			},
+			"en-gww": {
+				"name": "Blackout",
 				"description": "For 2...8 seconds, all of touched target foe's skills are disabled, and all of your skills are disabled for 5 seconds.",
 				"concise": "Touch Skill. (2...8 seconds.) Disables skills. <gray>Your skills are disabled (5 seconds).</gray>"
 			},
+			"es": {
+				"name": "Suspensión",
+				"description": "Habilidad. Durante 2...8 segundos, se desactivan todas las habilidades del enemigo al que toques, al igual que todas las tuyas por 5 segundos.",
+				"concise": "Habilidad de toque. (2...8 segundos). Desactiva habilidades. Tus habilidades quedan desactivadas (5 segundos)."
+			},
 			"fr": {
+				"name": "Black-out",
+				"description": "Compétence. Pendant 2...8 secondes, toutes les compétences de la cible touchée sont inefficaces. Les vôtres seront désactivées pendant 5 secondes.",
+				"concise": "Compétence de toucher. (2...8 secondes). Désactive les compétences. Vos compétences sont désactivées (5 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Black-out",
 				"description": "Pendant 2...6 secondes, toutes les compétences de la cible touchée sont inefficaces. Les vôtres seront désactivées pendant 5 secondes.",
 				"concise": "(2...6 secondes). Désactive les compétences. <gray>Vos compétences sont désactivées (5 secondes).</gray>"
+			},
+			"it": {
+				"name": "Blackout",
+				"description": "Abilità. Dura 2...8 secondo[i]; tutte le abilità dell'obiettivo nemico toccato vengono disattivate e tutte le tue abilità sono sospese per 5 secondi.",
+				"concise": "Abilità a Tocco. (Secondi: 2...8) Disattiva le abilità. Le tue abilità vengono disattivate (5 secondi)."
+			},
+			"jp": {
+				"name": "ブラックアウト",
+				"description": "スキル： 2...8 秒間、接触した敵のスキルをすべて封じ込めます。同時に自分自身のスキルも5秒間使用することができなくなります。",
+				"concise": "スキル (接触)： (2...8 秒) スキルを封じ込めます。プレイヤーもスキルを使用することができなくなります (5 秒)。"
+			},
+			"kr": {
+				"name": "기억 상실",
+				"description": "스킬. 대상 지정: 적. 대상은 2...8초 동안 모든 스킬을 사용할 수 없습니다. 자신도 5초 동안 모든 스킬을 사용할 수 없습니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "스킬(접근용). (2...8초) 대상이 스킬을 사용할 수 없게 합니다. 자신도 스킬을 사용할 수 없습니다.(5초)"
+			},
+			"pl": {
+				"name": "Zaciemnienie",
+				"description": "Umiejętność. Przez 2...8 sek., wszystkie umiejętności wybranego dotkniętego przeciwnika zostają wyłączone, a twoje umiejętności zostają wyłączone na 5 sek.",
+				"concise": "Umiejętność dotykowa. (2...8 sek.) Wyłącza umiejętności. Twoje umiejętności są wyłączone (5 sek.)."
+			},
+			"ru": {
+				"name": "Blackout",
+				"description": "Умение. В течение 2...8 сек выбранному противнику, к которому вы прикоснулись, будут недоступны все его умения, а все ваши умения будут недоступны в течение 5 сек.",
+				"concise": "Умение прикосновения. (2...8 сек) Делает умения недоступными. Ваши умения недоступны (5 сек)."
+			},
+			"bork": {
+				"name": "Blaeckuoot",
+				"description": "Skeell. Fur 2...8 secunds, aell ooff tuooched taerget fue-a's skeells aere-a deesaebled, und aell ooff yuoor skeells aere-a deesaebled fur 5 secunds.",
+				"concise": "Tuooch Skeell. (2...8 secunds.) Deesaebles skeells. Yuoor skeells aere-a deesaebled (5 secunds)."
 			}
 		}
 	}

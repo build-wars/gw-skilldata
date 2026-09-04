@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "鲜血链",
+				"description": "负面魔法。 在3...12秒之内，使目标盟友的「生命再生」提高5...20点，但是你将遭受20...100点「生命衰减」。",
+				"concise": "负面魔法。 在3...12秒之内，使目标盟友的「生命再生」提高 5...20点，但是你将遭受 20...100点「生命衰减」。"
+			},
+			"cht": {
+				"name": "血之連結",
+				"description": "降咒魔法： 持續 3...12 秒，同時降咒目標及其鄰近敵人，每當盟友擊中他們時獲得 5...20 體力。若目標被降咒時死亡，鄰近目標的盟友被治療 20...100 體力。",
+				"concise": "降咒魔法： 持續 3...12 秒，同時降咒目標及其鄰近敵人，每當盟友擊中他們時獲得 5...20 體力。若目標被降咒時死亡，鄰近目標的盟友被治療 20...100 體力。"
+			},
 			"de": {
+				"name": "Blutsbande",
+				"description": "Verhexung. 3...12 Sekunde[n] lang werden der Gegner und alle umstehenden Feinde mit Blutsbande verhext. Wenn ein Verbündeter einen dieser Feinde mit einem Angriff trifft, erhält dieser Verbündete 5...20 Lebenspunkt[e]. Wenn einer dieser verhexten Feinde stirbt, werden alle umstehenden Verbündeten für 20...100 Lebenspunkt[e] geheilt.",
+				"concise": "Verhexung. Verhext den Gegner sowie umstehende Feinde (3...12 Sekunde[n]). Verbündete, die diese Feinde treffen, erhalten 5...20 Lebenspunkt[e]. Wenn einer dieser verhexten Feinde stirbt, werden umstehende Verbündete für 20...100 Lebenspunkt[e] geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Blutsbande",
 				"description": "3...12 Sekunden lang werden der Gegner und alle umstehenden Feinde mit Blutsbande verhext. Wenn ein Verbündeter einen dieser Feinde mit einem Angriff trifft, erhält dieser Verbündete 5...20 Lebenspunkte. Wenn ein mit Blutsbande verhexter Feind stirbt, werden alle umstehenden Verbündeten für 20...100 Lebenspunkte geheilt.",
 				"concise": "Verhext den Gegner und umstehende Feinde (3...12 Sekunden). Verbündete, die diese Feinde treffen, erhalten 5...20 Lebenspunkte. Wenn einer dieser verhexten Feinde stirbt, werden umstehende Verbündete für 20...100 Lebenspunkte geheilt."
 			},
 			"en": {
 				"name": "Blood Bond",
+				"description": "Hex Spell. For 3...12 seconds, target foe and all adjacent foes are hexed with Blood Bond. Whenever an ally hits one of them with an attack, that ally gains 5...20 Health. If one of these foes dies while hexed, all allies adjacent to that foe are healed for 20...100 Health.",
+				"concise": "Hex Spell. Also hexes foes adjacent to your target (3...12 seconds). Allies hitting these foes gain 5...20 Health. If any of these foes dies while hexed, adjacent allies are healed for 20...100."
+			},
+			"en-gww": {
+				"name": "Blood Bond",
 				"description": "For 3...12 seconds, target foe and all adjacent foes are hexed with Blood Bond. Whenever an ally hits one of them with an attack, that ally gains 5...20 Health. If one of these foes dies while hexed, all allies adjacent to that foe are healed for 20...100 Health.",
 				"concise": "Also hexes foes adjacent to your target (3...12 seconds). Allies hitting these foes gain 5...20 health. If any of these foes dies while hexed, adjacent allies are healed for 20...100."
 			},
+			"es": {
+				"name": "Vínculo de sangre",
+				"description": "Conjuro con maleficio. Durante 3...12 segundos, el enemigo objetivo y todos los adyacentes recibirán el maleficio Vínculo de sangre. Cada vez que un aliado alcance a alguno de ellos con un ataque, el aliado ganará 5...20 de salud. Si alguno de esos enemigos muere mientras tenía el Vínculo de sangre, todos los aliados adyacentes a él se curan 20...100 de salud.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos adyacentes al objetivo (3...12 segundos). Los aliados que golpeen a esos enemigos ganan 5...20 de salud. Si alguno de esos enemigos muere mientras tenía el maleficio, todos los aliados adyacentes a él se curan 20...100."
+			},
 			"fr": {
+				"name": "Lien du sang",
+				"description": "Maléfice. Pendant 3...12 secondes, la cible ennemie et tous les ennemis adjacents sont affectés par le Lien du sang. Chaque fois qu'un allié frappe l'un d'eux, cet allié gagne 5...20 points de vie. Si l'un de ces ennemis meurt alors qu'il est affecté par un maléfice, tous les alliés adjacents à cet ennemi reçoivent 20...100 points de vie.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à votre cible (3...12 secondes). Les alliés frappant ces ennemis reçoivent 5...20 points de vie. Si l'un de ces ennemis meurt alors qu'il affecté par un maléfice, les alliés adjacents sont soignés de 20...100 points."
+			},
+			"fr-gwiki": {
 				"name": "Lien du sang",
 				"description": "Pendant 3...12 secondes, la cible ennemie et tous les ennemis adjacents souffrent de Lien du sang. Chaque fois qu'un allié réussit une attaque sur cet ennemi, cet allié gagne 5...20 points de santé. Si un ennemi meut en souffrant de Lien du sang, tous les alliés adjacents à cet ennemi reçoivent 20...100 points de santé.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame di Sangue",
+				"description": "Fattura. Per 3...12 secondo[i], l'obiettivo nemico e tutti i nemici adiacenti saranno colpiti dalla fattura Legame di Sangue. Ogni volta che un alleato colpisce l'obiettivo nemico con un attacco, l'alleato ottiene 5...20 Punto[i] Salute. Se un nemico muore mentre è attiva la fattura Legame di Sangue, tutti gli alleati adiacenti a quel nemico vengono curati di 20...100 Punto[i] Salute.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici adiacenti all'obiettivo (3...12 secondo[i]). Gli alleati che colpiscono i nemici sui quali è attiva la fattura ottengono 5...20 Punto[i] Salute. Se uno di tali nemici muore durante l'effetto della fattura, gli alleati adiacenti vengono curati di 20...100."
+			},
+			"jp": {
+				"name": "ブラッド ボンド",
+				"description": "弱体化スペル： 3...12 秒間、味方はプレイヤーがターゲットした敵および隣接するすべての敵を攻撃するたびに 5...20 の体力を獲得します。この弱体化スペルをかけられている敵が戦闘不能になると、その敵に隣接するすべての味方は体力が 20...100 回復します。",
+				"concise": "弱体化スペル： (3...12 秒) ターゲットした敵および隣接する敵を攻撃した味方は 5...20 の体力を獲得します。この効果がかけられている敵が戦闘不能になると、隣接する味方は体力が 20...100 回復します。"
+			},
+			"kr": {
+				"name": "혈액 공급",
+				"description": "약화 마법. 대상 지정: 적. 3...12초 동안 대상과 그에 인접한 모든 적이 혈액 공급 약화 마법에 걸립니다. 그 적들에 대한 아군의 공격이 성공할 때마다 그 아군은 5...20의 체력을 얻습니다. 그 적들 중 한명이 죽으면 인접한 모든 아군이 20...100의 체력을 회복합니다.",
+				"concise": "약화 마법. (3...12초) 대상과 인접한 적들을 약화시킵니다. 약화에 걸린 적을 공격하는 아군은 5...20의 체력을 얻습니다. 약화에 걸린 채 적이 죽으면 인접한 아군은 20...100의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "Krwawe Więzy",
+				"description": "Klątwa (czar). Przez 3...12 sek., wybrany przeciwnik oraz wszyscy sąsiadujący wrogowie zostają dotknięci klątwą Krwawe Więzy. Za każdym razem, kiedy sojusznik trafi któregoś z nich podczas ataku, sojusznik ten otrzyma 5...20 pkt. żywotności. Jeśli jeden z tych przeciwników zginie podczas działania Krwawych Więzów, wszyscy sojusznicy w jego bezpośrednim sąsiedztwie odzyskają 20...100 pkt. żywotności.",
+				"concise": "Klątwa (czar). Klątwa zostaje także rzucona na wrogów w bezpośrednim sąsiedztwie celu (3...12 sek.). Sojusznicy trafiający w tych wrogów otrzymują 5...20 pkt. żywotności. Jeśli któryś z tych wrogów zginie podczas działania klątwy, sąsiadujący z nim sojusznicy odzyskają 20...100 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Blood Bond",
+				"description": "Заклинание-проклятье. В течение 3...12 сек на выбранного противника и всех окружающих противников будет наложено проклятье Blood Bond. Каждый раз, когда один из этих противников будет поражен атакой союзника, этот союзник получит 5...20 ед. здоровья. Если один из этих противников умрет, находясь под действием этого проклятья, все окружающие этого противника союзники исцелятся на 20...100 ед. здоровья.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на окружающих противников (3...12 сек). Союзники, поражающие этих противников, получают 5...20 ед. здоровья. Если один из этих противников умрет, находясь под действием этого проклятья, все окружающие этого противника союзники исцелятся на 20...100 ед. здоровья."
+			},
+			"bork": {
+				"name": "Bluud Bund",
+				"description": "Hex Spell. Fur 3...12 secunds, taerget fue-a und aell aedjaecent fues aere-a hexed veet Bluud Bund. Vhenefer un aelly heets oone-a ooff zeem veet un aettaeck, thaet aelly gaeeens 5...20 Heaelt. Iff oone-a ooff zeese-a fues deees vheele-a hexed, aell aelleees aedjaecent tu thaet fue-a aere-a heaeled fur 20...100 Heaelt.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu yuoor taerget (3...12 secunds). Aelleees heetteeng zeese-a fues gaeeen 5...20 Heaelt. Iff uny ooff zeese-a fues deees vheele-a hexed, aedjaecent aelleees aere-a heaeled fur 20...100."
 			}
 		}
 	}

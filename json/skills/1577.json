@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恢复福音",
+				"description": "回音技。 在10...35秒之内，当「战吼」或「圣歌」在「非灵体」的目标盟友身上消失时，该盟友将获得15...75点生命值。",
+				"concise": "回音技。 在10...35秒之内，当「战吼」或「圣歌」在「非灵体」的目标盟友身上消失时，该盟友将获得15...75点生命值。"
+			},
+			"cht": {
+				"name": "復原樂章",
+				"description": "迴響： 持續10...35秒，每當戰嚎或者聖歌在非靈的目標盟友身上終止，盟友獲得15...75體力。",
+				"concise": "迴響： 持續10...35秒，每當戰嚎或者聖歌在非靈的目標盟友身上終止，盟友獲得15...75體力。"
+			},
 			"de": {
+				"name": "Finale der Wiederherstellung",
+				"description": "Echo. 10...35 Sekunde[n] lang wird der Nicht-Geister-Verbündete jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, um 15...75 Lebenspunkt[e] geheilt.",
+				"concise": "Echo. (10...35 Sekunde[n].) Verbündeter (bzw. Ihr selbst) erhält 15...75 Lebenspunkte, immer wenn ein auf diesen Verbündeten gerichteter Anfeuerungsruf oder Schrei endet. Nicht auf Geister anwendbar."
+			},
+			"de-guildwiki": {
 				"name": "Finale der Wiederherstellung",
 				"description": "10...35 Sekunden lang wird der Nicht-Geister-Verbündete (bzw. Ihr selbst) jedes Mal, wenn ein auf ihn gerichteter Anfeuerungsruf oder Schrei endet, um 15...75 Lebenspunkte geheilt.",
 				"concise": "10...35 Sekunden: Der Verbündete (bzw. Ihr selbst) wird jedes Mal um 15...75 Lebenspunkte geheilt, wenn ein Schrei oder Anfeuerungsruf auf ihm endet. <gray>Nicht auf Geister anwendbar.</gray>"
 			},
 			"en": {
 				"name": "Finale of Restoration",
+				"description": "Echo. For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, that ally is healed for 15...75 Health.",
+				"concise": "Echo. (10...35 seconds.) Target ally gains 15...75 Health whenever a shout or chant ends on that ally. Cannot target spirits."
+			},
+			"en-gww": {
+				"name": "Finale of Restoration",
 				"description": "For 10...35 seconds, whenever a chant or shout ends on target non-spirit ally, that ally is healed for 15...75 Health.",
 				"concise": "(10...35 seconds.) Target ally gains <sic/> 15...75 Health whenever a shout or chant ends on that ally. <gray>Cannot target spirits.</gray>"
 			},
+			"es": {
+				"name": "Cierre de restauración",
+				"description": "Eco. Durante 10...35 segundos, cada vez que un grito o cántico alcance a un aliado no espíritu objetivo, éste recuperará 15...75 de salud.",
+				"concise": "Eco. (10...35 segundos.) El aliado objetivo gana 15...75 de salud cada vez que los efectos de un cántico o grito le alcancen. No puedes apuntar a espíritus."
+			},
 			"fr": {
+				"name": "Finale de rétablissement",
+				"description": "Echo. Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
+				"concise": "Echo. (10...35 secondes.) L'allié visé gagne 15...75 points de vie chaque fois qu'un chant ou un cri l'affectant prend fin. Vous ne pouvez pas viser les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Finale de rétablissement",
 				"description": "Pendant 10...35 secondes, chaque fois qu'un chant ou un cri sur une cible (autre qu'un esprit) prend fin, cette cible est soignée de 15...75 points de vie.",
 				"concise": "(10...35 secondes.) L'allié visé reçoit 15...75 point de vie les 5 prochaines fois qu'un cri ou un chant sur cet allié prend fin. <gray>Vous ne pouvez pas viser les esprits.</gray>"
+			},
+			"it": {
+				"name": "Finale del Ripristino",
+				"description": "Eco. Per 10...35 secondi, ogni volta che un canto o un urlo termina sull'obiettivo (un alleato o te stesso, Spiriti esclusi) questi viene curato di 15...75 Punti Salute.",
+				"concise": "Eco. (Secondi: 10...35). Punti Salute conseguiti dall'obiettivo (un alleato o te stesso) ogni volta che un canto o un urlo termina su di lui: 15...75. Impossibile selezionare gli Spiriti."
+			},
+			"jp": {
+				"name": "レストレーション フィナーレ",
+				"description": "エコー： 10...35 秒間、ターゲットした精霊以外の味方は、かけられているチャントやシャウトの効果が消失するたびに体力が 15...75 回復します。",
+				"concise": "エコー： (10...35 秒) ターゲットした味方は、かけられているチャントやシャウトが消失するたびに 15...75 の体力を獲得します。精霊をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "복원의 피날레",
+				"description": "공명. 대상 지정: 아군. 10...35초 동안 영혼이 아닌 대상에 걸린 고함이나 영창이 끝날 때마다 대상은 15...75의 체력을 회복합니다.",
+				"concise": "공명. (10...35초) 대상 아군에 걸린 고함이나 영창이 끝날 때마다 대상은 15...75의 체력을 얻습니다. 영혼을 대상으로 시전할 수 없습니다."
+			},
+			"pl": {
+				"name": "Finał Odnowy",
+				"description": "Echo. Przez 10...35 sek., za każdym razem, kiedy okrzyk lub zaśpiew przestaną działać na wybranym sojuszniku nie-duchu, otrzymuje on 15...75 pkt. żywotności.",
+				"concise": "Echo. (10...35 sek.) Wybrany sojusznik otrzymuje 15...75 pkt. żywotności za każdym razem, kiedy przestaje na nim działać zaśpiew lub okrzyk. Na cel nie można wybrać ducha."
+			},
+			"ru": {
+				"name": "Finale of Restoration",
+				"description": "Эхо. В течение 10...35 сек каждый раз, когда заканчивает свое действие хорал или крик, влияющий на выбранного союзника, который не является духом, этот союзник исцеляется на 15...75 ед. здоровья.",
+				"concise": "Эхо. (10...35 сек) Выбранный союзник получает 15...75 ед. здоровья каждый раз, когда заканчивается влияющий на него хорал или крик. Нельзя направлять на духов."
+			},
+			"bork": {
+				"name": "Feenaele-a ooff Resturaeshun",
+				"description": "Ichu. Fur 10...35 secunds, vhenefer a chunt oor shuoot inds oon taerget nun-spureet aelly, thaet aelly is heaeled fur 15...75 Heaelt.",
+				"concise": "Ichu. (10...35 secunds.) Taerget aelly gaeeens 15...75 Heaelt vhenefer a shuoot oor chunt inds oon thaet aelly. Cunnut taerget spureets."
 			}
 		}
 	}

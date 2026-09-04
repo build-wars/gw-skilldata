@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Ebon Vanguard Sniper Support",
+				"description": "咒文。 Target foe and all adjacent foes are struck for 54...90 piercing damage. If this attack hits a Charr, it also begins Bleeding for 540...900 seconds.",
+				"concise": "咒文。 Deals 54...90 piercing damage to target and adjacent foes. Inflicts Bleeding condition (540...900 seconds) if it hits a Charr."
+			},
+			"cht": {
+				"name": "黑檀先鋒隊狙擊手支援",
+				"description": "咒文魔法： 對目標敵人造成54...90穿刺傷害，並使其流血5...25秒。此攻擊有10%的機率造成額外540...900穿刺傷害，若目標敵人是夏爾則有25%的機率造成額外540...900穿刺傷害。",
+				"concise": "咒文魔法： 對目標敵人造成54...90穿刺傷害，並使其流血5...25秒。此攻擊有10%的機率造成額外540...900穿刺傷害，若目標敵人是夏爾則有25%的機率造成額外540...900穿刺傷害。"
+			},
 			"de": {
+				"name": "Ebon-Vorhut-Heckenschützen-Unterstützung",
+				"description": "Zauber. Der Gegner erleidet 54...90 Punkt[e] Stichschaden und leidet 5...25 Sekunde[n] lang an einer Blutung. Bei diesem Angriff besteht eine 10%ige Chance, zusätzlich 540...900 Punkt[e] Stichschaden zuzufügen. Wenn dieser Angriff einen Charr trifft, besteht eine 25%ige Chance auf zusätzlich 540...900 Punkt[e] Stichschaden.",
+				"concise": "Zauber. Richtet 54...90 Punkt[e] Stichschaden und Zustand Blutung an (5...25 Sekunde[n]). 10%ige Chance auf +540...900 Stichschaden. 25%ige Chance auf +540...900 Stichschaden, wenn Gegner ein Charr ist."
+			},
+			"de-guildwiki": {
 				"name": "Ebon-Vorhut-Heckenschützen-Unterstützung",
 				"description": "Der Gegner erleidet 54...90 Punkte Stichschaden und leidet 5...25 Sekunden lang an einer Blutung. Bei diesem Angriff besteht eine 10%ige Chance, zusätzlich 540...900 Punkte Stichschaden zuzufügen. Wenn dieser Angriff einen Charr trifft, besteht stattdessen eine 25%ige Chance auf zusätzlich 540...900 Punkte Stichschaden.",
 				"concise": "Richtet 54...90 Punkte Stichschaden und Zustand Blutung an (5...25 Sekunden). 10%ige Chance auf +540...900 Stichschaden. Stattdessen 25% Chance auf +540...900 Stichschaden, wenn der Gegner ein Charr ist."
 			},
 			"en": {
 				"name": "Ebon Vanguard Sniper Support",
+				"description": "Spell. Target foe is struck for 54...90 piercing damage and begins Bleeding for 5...25 seconds. This attack has a 10% chance of doing an additional 540...900 piercing damage. If this attack hits a Charr it has a 25% chance of doing an additional 540...900 piercing damage.",
+				"concise": "Spell. Deals 54...90 piercing damage and inflicts Bleeding condition (5...25 seconds). 10% chance of +540...900 piercing damage. 25% chance of +540...900 piercing damage if target foe is a Charr."
+			},
+			"en-gww": {
+				"name": "Ebon Vanguard Sniper Support",
 				"description": "Target foe is struck for 54...90 piercing damage and begins Bleeding for 5...25 seconds. This attack has a 10% chance of doing an additional +540...900 piercing damage. If this attack hits a Charr it has a 25% chance of doing an additional +540...900 piercing damage.",
 				"concise": "Deals 54...90 piercing damage and inflicts Bleeding condition (5...25 seconds). 10% chance of +540...900 piercing damage. 25% chance of +540...900 piercing damage if target foe is a Charr."
 			},
+			"es": {
+				"name": "Tirador de refuerzo de la Vanguardia de Ébano",
+				"description": "Conjuro. El enemigo objetivo recibe 54...90 de daño perforante y sufre hemorragia durante 5...25 segundos. Este ataque tiene un 10% de probabilidades de hacer 540...900 de daño perforante extra. Si este ataque alcanza a un Charr, tiene un 25% de probabilidades de hacer 540...900 de daño perforante extra.",
+				"concise": "Conjuro. Hace 54...90 de daño perforante y causa hemorragia (5...25 segundos). 10% de probabilidades de hacer +540...900 de daño perforante extra. 25% de probabilidades de hacer +540...900 de daño perforante extra si el enemigo objetivo es un Charr."
+			},
 			"fr": {
+				"name": "Tireur d'élite de soutien de l'Avant-garde d'Ebon",
+				"description": "Sort. La cible ennemie subit 54...90 points de dégâts perforants et souffre de Saignement pendant 5...25 secondes. Cette attaque a 10% de chances d'infliger 540...900 points de dégâts perforants supplémentaires. Si cette attaque frappe un Charr, elle a 25% de chances d'infliger 540...900 points de dégâts perforants supplémentaires.",
+				"concise": "Sort. Inflige 54...90 points de dégâts perforants et provoque le Saignement (5...25 secondes). 10% de chances d'infliger +540...900 points de dégâts perforants. 25% de chances d'infliger +540...900 points de dégâts perforants si la cible ennemie est un Charr."
+			},
+			"fr-gwiki": {
 				"name": "Tireur d'élite de soutien de l'Avant-garde d'Ebon",
 				"description": "La cible ennemie subit 54...90 points de dégâts perforants et souffre de Saignement pendant 5...25 secondes. Cette attaque a 10% de chances d'infliger 540...900 points de dégâts perforants supplémentaires. Si cette attaque frappe un Charr, elle a 25% de chances d'infliger 540...900 points de dégâts perforants supplémentaires.",
 				"concise": "Inflige 54...90 points de dégâts perforants et provoque le Saignement (5...25 secondes). 10% de chances d'infliger +540...900 points de dégâts perforants. 25% de chances d'infliger +540...900 points de dégâts perforants si la cible ennemie est un Charr."
+			},
+			"it": {
+				"name": "Cecchino di Supporto dell'Avanguardia d'Ebano",
+				"description": "Magia. L'obiettivo nemico subisce 54...90 danno[i] perforante[i] e soffre di Emorragia per 5...25 secondo[i]. Questo attacco ha un 10% di probabilità di assestare 540...900 danno[i] perforante[i] in più. Se colpisce un Charr ha un 25% di probabilità di assestare 540...900 danno[i] perforante[i] in più.",
+				"concise": "Magia. Danno perforante: 54...90. Condizione inflitta: Emorragia (5...25 secondo[i]). Probabilità di assestare +540...900 danno[i] perforante[i]: 10%. Probabilità di assestare +540...900 danno[i] perforante[i] ad un Charr: 25%."
+			},
+			"jp": {
+				"name": "エボン ヴァンガード スナイパー サポート",
+				"description": "スペル： ターゲットした敵に 54...90 のピアス ダメージを与え、5...25 秒間「出血」状態にします。さらに10%の確率で 540...900 のピアス ダメージを与えます。チャールがターゲットの場合、25%の確率でさらに 540...900 のピアス ダメージを与えます。",
+				"concise": "スペル： 54...90 のピアス ダメージを与えて「出血」状態にします (5...25 秒) 。また、10%の確率でさらに 540...900 のピアス ダメージを与えます。チャールがターゲットの場合、25%の確率で、さらに 540...900 のピアス ダメージを与えます。"
+			},
+			"kr": {
+				"name": "흑단선봉대 레인저 지원",
+				"description": "마법. 대상에게 54...90의 찌르는 대미지를 주고, 5...25초 동안 출혈 상태로 만듭니다. 이 공격은 10%의 확률로 540...900의 찌르는 대미지를 추가로 줍니다. 이 공격이 차르에게 적중하면 25%의 확률로 540...900의 찌르는 대미지를 추가로 줍니다.",
+				"concise": "마법. 54...90의 찌르는 대미지를 주고, 출혈을 유발합니다.(5...25초) 10%의 확률로 540...900의 찌르는 대미지를 추가로 주고, 대상이 차르면 25%의 확률로 540...900의 찌르는 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Wsparcie Strzelca Hebanowej Awangardy",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 54...90 pkt. obrażeń przebijających i zaczyna krwawić na 5...25 sek.Ten atak posiada 10% szans na zadanie dodatkowych 540...900 pkt. obrażeń przebijających. Jeżeli trafi popielca ma 25% szans na zadanie dodatkowych 540...900 pkt. obrażeń przebijających.",
+				"concise": "Czar. Zadaje 54...90 pkt. obrażeń przebijających i wywołuje przypadłość krwawienie (5...25 sek.). 10% szans na +540...900 pkt. obrażeń przebijających. 25% szans na +540...900 pkt. obrażeń przebijających, jeżeli celem jest popielec."
+			},
+			"ru": {
+				"name": "Ebon Vanguard Sniper Support",
+				"description": "Заклинание. Выбранный противник получает 54...90 ед. урона колющим оружием и будет кровоточить в течение 5...25 сек. У этой атаки есть 10%-й шанс нанести дополнительно 540...900 ед. урона колющим оружием. Если эта атака попадает в Charr, у нее есть 25%-й шанс нанести дополнительно 540...900 ед. урона колющим оружием.",
+				"concise": "Заклинание. Наносит 54...90 ед. урона колющим оружием и вызывает кровотечение (5...25 сек). 10%-й шанс нанести дополнительно 540...900 ед. урона колющим оружием. 25%-й шанс нанести дополнительно 540...900 ед. урона колющим оружием, если выбранный противник - Charr."
+			},
+			"bork": {
+				"name": "Ibun Fungooaerd Sneeper Sooppurt",
+				"description": "Spell. Taerget fue-a is stroock fur 54...90 peeerceeng daemaege-a und begeens Bleedeeng fur 5...25 secunds. Thees aettaeck haes a 10% chunce-a ooff dueeng un aeddeeshunael 540...900 peeerceeng daemaege-a. Iff thees aettaeck heets a Chaerr it haes a 25% chunce-a ooff dueeng un aeddeeshunael 540...900 peeerceeng daemaege-a. Bork! Bork! Bork!",
+				"concise": "Spell. Deaels 54...90 peeerceeng daemaege-a und inffleects Bleedeeng cundeeshun (5...25 secunds). 10% chunce-a ooff +540...900 peeerceeng daemaege-a. 25% chunce-a ooff +540...900 peeerceeng daemaege-a iff taerget fue-a is a Chaerr."
 			}
 		}
 	}

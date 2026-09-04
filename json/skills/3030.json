@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 4,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "回归纹章",
+				"description": "纹章。 复活目标队友，并且根据「音波」范围内的队友数量，每一个为其回复5...20%的生命值和1...4%的能量值。",
+				"concise": "纹章。 复活目标队友，并且根据「音波」范围内的队友数量，每一个为其回复5...20%的生命值和1...4%的能量值。"
+			},
+			"cht": {
+				"name": "返生紋章",
+				"description": "紋章： 復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 5...20% 體力及 1...4% 能量。",
+				"concise": "紋章： 復活目標隊友，並依照音量所及範圍內的隊友數量，每位為其回復 5...20% 體力及 1...4% 能量。"
+			},
 			"de": {
+				"name": "Siegel der Wiederkehr (PvP)",
+				"description": "Siegel. Belebt das ausgewählte Gruppenmitglied mit 5...20% seiner Lebens- und 1...4% seiner Energiepunkte pro Gruppenmitglied in Hörweite.",
+				"concise": "Siegel. Das Gruppenmitglied wird wiederbelebt (5...20% Lebenspunkte und 1...4% Energiepunkte pro Gruppenmitglied in Hörweite)."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Wiederkehr (PvP)",
 				"description": "Belebt das ausgewählte Gruppenmitglied mit 5...20% seiner Lebens- und 1...4% seiner Energiepunkte pro Gruppenmitglied in Hörweite.",
 				"concise": "Das Gruppenmitglied wird wiederbelebt (5...20% Lebenspunkte und 1...4% Energiepunkte pro Gruppenmitglied in Hörweite)."
 			},
 			"en": {
 				"name": "Signet of Return (PvP)",
+				"description": "Signet. Resurrect target party member with 5...20% Health and 1...4% Energy for each party member within earshot.",
+				"concise": "Signet. Resurrects target party member (5...20% Health and 1...4% Energy for each party member in earshot)."
+			},
+			"en-gww": {
+				"name": "Signet of Return (PvP)",
 				"description": "Resurrect target party member with 5...20% Health and 1...4% Energy for each party member within earshot.",
 				"concise": "Resurrects target party member (5...20% Health and 1...4% Energy for each party member in earshot)."
 			},
+			"es": {
+				"name": "Sello del retorno (PvP)",
+				"description": "Sello. Resucitas al aliado objetivo con 5...20% de salud y 1...4% de energía por cada miembro del grupo al alcance del oído.",
+				"concise": "Sello. Resucita al aliado objetivo (5...20% de salud y 1...4% de energía por cada miembro del grupo al alcance del oído)."
+			},
 			"fr": {
+				"name": "Sceau de retour (PvP)",
+				"description": "Sceau. Vous ressuscitez le membre du groupe visé avec 5...20% de santé et 1...4% d'énergie pour chaque membre du groupe à portée de voix.",
+				"concise": "Sceau. Ressuscite le membre du groupe visé (5...20% de santé et 1...4% d'énergie par membre du groupe à portée de voix)."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de retour (PvP)",
 				"description": "Vous ressuscitez le membre du groupe visé avec 5...15% de santé et 1...4% d'énergie pour chaque membre du groupe à portée de voix.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Ritorno (PvP)",
+				"description": "Sigillo. Resuscita il compagno di squadra preso di mira con un 5...20% di Salute e un 1...4% di Energia per ogni membro della squadra a portata d'orecchio.",
+				"concise": "Sigillo. Resuscita il membro della squadra preso di mira (5...20% di Salute e 1...4% di Energia per ogni membro della squadra a portata d'orecchio)."
+			},
+			"jp": {
+				"name": "リターン シグネット (PvP)",
+				"description": "シグネット： ターゲットしたパーティー メンバーが、声の届く範囲内にいる味方ごとに 5...20% の体力と 1...4% のエネルギーで復活します。",
+				"concise": "シグネット： ターゲットしたパーティー メンバーが、声の届く範囲内にいるメンバーごとに 5...20% の体力と 1...4% のエネルギーで復活します。"
+			},
+			"kr": {
+				"name": "소환 인장(대인전)",
+				"description": "인장. 대상 지정: 파티원. 전사한 파티원을 부활시킵니다. 그 파티원은 당신을 중심으로 가청 범위 내에 있는 파티원 한 명당 5...20%의 체력과 1...4%의 에너지를 가진 채로 부활합니다.",
+				"concise": "인장. 파티원을 부활합니다.(가청 범위 내에 있는 파티원 한 명당 5...20%의 체력, 1...4%의 에너지)"
+			},
+			"pl": {
+				"name": "Sygnet Powrotu (PvP)",
+				"description": "Sygnet. Wskrzeszasz wybranego członka drużyny, który zmartwychwstaje z 5...20% pkt. żywotności i 1...4% pkt. energii na każdego członka drużyny w zasięgu słuchu.",
+				"concise": "Sygnet. Wskrzesza wybranego członka drużyny (5...20% pkt. żywotności i 1...4% pkt. energii na każdego członka drużyny w zasięgu słuchu)."
+			},
+			"ru": {
+				"name": "Signet of Return (PvP)",
+				"description": "Печать. Вы воскрешаете выбранного члена вашего отряда с 5...20% здоровья и 1...4% энергии за каждого члена вашего отряда, находящегося в зоне слышимости.",
+				"concise": "Печать. Воскрешает выбранного члена отряда (5...20% здоровья и 1...4% энергии за каждого союзника в зоне слышимости)."
+			},
+			"bork": {
+				"name": "Seegnet ooff Retoorn (PfP)",
+				"description": "Seegnet. Resoorrect taerget paerty member veet 5...20% Heaelt und 1...4% Inergy fur iaech paerty member veetheen iaershut.",
+				"concise": "Seegnet. Resoorrects taerget paerty member (5...20% Heaelt und 1...4% Inergy fur iaech paerty member in iaershut)."
 			}
 		}
 	}

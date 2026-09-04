@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "锤击",
+				"description": "锤术。 如果击中带有「虚弱」症状的敌人，该敌人将会被击倒，并受到1...30点额外伤害，此技能会消耗所有怒气值。",
+				"concise": "锤术。 如果击中带有「虚弱」症状的敌人，该敌人将会被击倒，并受到1...30点额外伤害，此技能会消耗所有怒气值。"
+			},
+			"cht": {
+				"name": "沉重一鎚",
+				"description": "鎚術攻擊技能： 若擊中正遭受「虛弱」病症的敵人，該目標將倒地並受到 1...30 額外傷害。此技能會消耗所有怒氣值。",
+				"concise": "鎚術攻擊技能： 若擊中正遭受「虛弱」病症的敵人，該目標將倒地並受到 1...30 額外傷害。此技能會消耗所有怒氣值。"
+			},
 			"de": {
+				"name": "Heftiger Schlag",
+				"description": "Hammerangriff. Alles Adrenalin geht verloren. Trifft dieser Angriff einen Gegner, der unter Schwäche leidet, wird er zu Boden geworfen und Ihr fügt 1...30 Punkt[e] zusätzlichen Schaden zu.",
+				"concise": "Hammerangriff. Richtet +1...30 Punkt[e] Schaden an und wirft den Gegner zu Boden, falls dieser geschwächt ist. Ihr verliert alles Adrenalin."
+			},
+			"de-guildwiki": {
 				"name": "Heftiger Schlag",
 				"description": "Alles Adrenalin geht verloren. Trifft dieser Angriff einen Gegner, der unter Schwäche leidet, wird er zu Boden geworfen und Ihr fügt 1...30 Punkte zusätzlichen Schaden zu.",
 				"concise": "Richtet +1...30 Punkte Schaden an und wirft den Gegner zu Boden, falls dieser geschwächt ist. <gray>Ihr verliert alles Adrenalin.</gray>"
 			},
 			"en": {
 				"name": "Heavy Blow",
+				"description": "Hammer Attack. Lose all adrenaline. If this attack hits a foe suffering from Weakness, that foe is knocked down and you strike for +1...30 damage.",
+				"concise": "Hammer Attack. Deals +1...30 damage and causes knock-down if target foe is Weakened. Lose all adrenaline."
+			},
+			"en-gww": {
+				"name": "Heavy Blow",
 				"description": "Lose all adrenaline. If this attack hits a foe suffering from Weakness, that foe is knocked down and you strike for +1...30 damage.",
 				"concise": "Deals +1...30 damage and causes knock-down if target foe is Weakened. <gray>Lose all adrenaline.</gray>"
 			},
+			"es": {
+				"name": "Golpe duro",
+				"description": "Ataque con martillo. Se pierde toda la adrenalina. Si este ataque impacta a un enemigo que sufra debilidad, ese enemigo es derribado y harás +1...30 de daño.",
+				"concise": "Ataque con martillo. Hace +1...30 de daño y causa derribo si el enemigo objetivo está debilitado. Pierdes toda la adrenalina."
+			},
 			"fr": {
+				"name": "Coup de brute",
+				"description": "Attaque au marteau. Perte de toute l'adrénaline. Si cette attaque frappe un ennemi souffrant de Faiblesse, il est assommé et vous infligez +1...30 points de dégâts.",
+				"concise": "Attaque au marteau. Inflige +1...30 points de dégâts. Attaque assommante si l'ennemi visé souffre de Faiblesse. Vous perdez toute votre adrénaline."
+			},
+			"fr-gwiki": {
 				"name": "Coup de brute",
 				"description": "Perte de toute l'adrénaline. Si cette attaque frappe un ennemi souffrant de Faiblesse, il est assommé et vous infligez +1...30 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Pesante",
+				"description": "Attacco con Martello. Perdi tutta l'adrenalina. Se colpisci un nemico che soffre di Debolezza, questo viene abbattuto e tu infliggi +1...30 danno[i].",
+				"concise": "Attacco con Martello. Se l'obiettivo nemico soffre di Debolezza assesta +1...30 danno[i] e provoca abbattimento. Perdi tutta l'adrenalina."
+			},
+			"jp": {
+				"name": "ヘヴィー ブロウ",
+				"description": "ハンマー アタック： アドレナリンをすべて失います。「衰弱」状態の敵に攻撃が成功するとその敵は転倒し、1...30 の追加ダメージを与えます。",
+				"concise": "ハンマー アタック： ターゲットした敵が「衰弱」状態の場合、1...30 の追加ダメージを与えて転倒させます。アドレナリンをすべて失います。"
+			},
+			"kr": {
+				"name": "혼신의 일격",
+				"description": "해머 공격. 대상 지정: 적. 모든 아드레날린을 소모하여 공격합니다. 대상이 약체 상태면 1...30의 대미지를 추가로 입고 바닥에 넘어집니다.",
+				"concise": "해머 공격. 1...30의 대미지를 추가로 주고, 약체 상태인 적은 바닥에 넘어뜨립니다. 아드레날린을 모두 소모합니다."
+			},
+			"pl": {
+				"name": "Ciężki Cios",
+				"description": "Atak młotem. Tracisz całą adrenalinę. Jeśli atak trafi osłabionego przeciwnika, to zostaje on powalony i otrzymuje +1...30 pkt. obrażeń.",
+				"concise": "Atak młotem. Zadaje +1...30 pkt. obrażeń i powala, jeżeli wybrany przeciwnik jest osłabiony. Pochłania całą adrenalinę."
+			},
+			"ru": {
+				"name": "Heavy Blow",
+				"description": "Атака молотом. Вы теряете весь адреналин. Если эта атака попадает по ослабленному противнику, он будет сбит с ног, и вы нанесете ему дополнительно 1...30 ед. урона.",
+				"concise": "Атака молотом. Наносит дополнительно 1...30 ед. урона и сбивает с ног, если выбранный противник был ослаблен. Вы теряете весь адреналин."
+			},
+			"bork": {
+				"name": "Heaefy Bloo",
+				"description": "Haemmer Aettaeck. Luse-a aell aedrenaeleene-a. Iff thees aettaeck heets a fue-a sooffffereeng frum Veaekness, thaet fue-a is knucked doon und yuoo streeke-a fur +1...30 daemaege-a.",
+				"concise": "Haemmer Aettaeck. Deaels +1...30 daemaege-a und cooses knuck-doon iff taerget fue-a is Veaekened. Luse-a aell aedrenaeleene-a."
 			}
 		}
 	}

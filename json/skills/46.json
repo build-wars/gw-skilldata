@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 25,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "负罪",
+				"description": "负面魔法。 在6秒之内，使目标敌人下一次对敌人施放的法术失效，同时你从目标敌人身上偷取最多5...14点能量。",
+				"concise": "负面魔法。 使目标敌人下一次对其队友施放的法术失效，同时你从目标敌人身上偷取最多 5...14点 能量，效果持续 6秒。"
+			},
+			"cht": {
+				"name": "內疚",
+				"description": "降咒魔法： 持續 6 秒，使目標敵人下一次對其敵人施展的「魔法」失敗，而且你從該目標偷取最多 5...14 能量。",
+				"concise": "降咒魔法： 持續 6 秒，使目標敵人下一次對其敵人施展的「魔法」失敗，而且你從該目標偷取最多 5...14 能量。"
+			},
 			"de": {
+				"name": "Schuld",
+				"description": "Verhexung. 6 Sekunde[n] lang schlägt der nächste Zauber des Widersachers auf einen anderen Widersacher fehl und Ihr entzieht jenem Widersacher bis zu 5...14 Energiepunkt[e].",
+				"concise": "Verhexung. 6 Sekunde[n]: Nächster Zauber des Gegners schlägt fehl und Ihr entzieht ihm 5...14 Energiepunkt[e]. Zauber des Gegners muss auf einen Eurer Verbündeten gerichtet sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Schuld",
 				"description": "6 Sekunden lang schlägt der nächste Zauber des Gegners auf einen seiner Feinde fehl und Ihr entzieht dem Widersacher bis zu 5...14 Energiepunkte.",
 				"concise": "6 Sekunden: Nächster Zauber des Gegners schlägt fehl und Ihr entzieht ihm 5...14 Energiepunkte. <gray>Zauber des Gegners muss auf einen seiner Feinde gerichtet sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Guilt",
+				"description": "Hex Spell. For 6 seconds, the next time target foe casts a spell that targets a foe, the spell fails and you steal up to 5...14 Energy from that foe.",
+				"concise": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal 5...14 Energy. No effect unless this foe's spell targets one of your allies."
+			},
+			"en-gww": {
+				"name": "Guilt",
 				"description": "For 6 seconds, the next time target foe casts a spell that targets a foe, the spell fails and you steal up to 5...14 Energy from that foe.",
 				"concise": "(6 seconds.) Target foe's next spell fails and you steal 5...14 Energy. <gray>No effect unless this foe's spell targets one of your allies.</gray>"
 			},
+			"es": {
+				"name": "Culpa",
+				"description": "Conjuro con maleficio. Durante 6 segundos, la próxima vez que el enemigo objetivo lance un conjuro sobre un enemigo, el conjuro fallará y le robarás un máximo de 5...14 de energía.",
+				"concise": "Conjuro con maleficio. (6 segundos). El siguiente conjuro del enemigo objetivo falla y robas 5...14 de energía. No tiene efecto a menos que el conjuro del enemigo objetivo sea contra uno de tus aliados."
+			},
 			"fr": {
+				"name": "Culpabilité",
+				"description": "Maléfice. Pendant 6 secondes, la prochaine fois que l'ennemi visé lance un sort qui vise un autre ennemi, ce sort échoue et vous lui volez jusqu'à 5...14 points d'énergie.",
+				"concise": "Maléfice. (6 secondes.) Le sort suivant de l'ennemi visé échoue et vous volez 5...14 points d'énergie. Aucun effet si le sort de l'ennemi ne vise pas un de vos alliés."
+			},
+			"fr-gwiki": {
 				"name": "Culpabilité",
 				"description": "Pendant 6 secondes, la prochaine fois que l'ennemi visé lance un sort qui vise un autre ennemi, ce sort échoue et vous lui volez jusqu'à 5...14 points d'énergie.",
 				"concise": "(6 secondes). Le sort suivant de l'ennemi visé échoue et vous volez 5...14 points d'énergie."
+			},
+			"it": {
+				"name": "Colpa",
+				"description": "Fattura. Dura 6 secondo[i]; la prossima volta che l'obiettivo nemico tenta di lanciare una magia su un nemico, fallisce e tu gli sottrai fino a 5...14 Punto[i] Energia.",
+				"concise": "Fattura. (Secondi: 6) La prossima magia dell'obiettivo nemico fallisce e sottrai 5...14 Punto[i] Energia Ha effetto solo se la magia di questo nemico è diretta contro uno dei tuoi alleati."
+			},
+			"jp": {
+				"name": "ギルト",
+				"description": "弱体化スペル： 6 秒間、ターゲットした敵が次にプレイヤーの味方に対して詠唱するスペルが失敗します。その際、プレイヤーはターゲットから最大 5...14 のエネルギーを奪い取ります。",
+				"concise": "弱体化スペル： (6 秒) ターゲットした敵は次のスペル詠唱に失敗し、プレイヤーは 5...14 のエネルギーを奪い取ります。ターゲットのスペルがプレイヤーの味方を対象にしていない場合は無効です。"
+			},
+			"kr": {
+				"name": "악몽의 환기",
+				"description": "약화 마법. 대상 지정: 적. 6초 동안 대상의 공격 마법을 방해하고 5...14의 에너지를 뺏습니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법. (6초) 대상의 마법을 실패하게 하고, 자신이 5...14의 에너지를 뺏습니다. 처음 한 번만 효과가 있습니다.아군을 대상으로 한 마법이어야 합니다."
+			},
+			"pl": {
+				"name": "Wina",
+				"description": "Klątwa (czar). Przez 6 sek., następnym razem, kiedy wybrany przeciwnik rzuca czar wymierzony we wroga, czar zawodzi, a ty wykradasz przeciwnikowi do 5...14 pkt. energii.",
+				"concise": "Klątwa (czar). (6 sek.) Następny czar wybranego przeciwnika nie zadziała, a ty wykradasz 5...14 pkt. energii. Bez efektu, chyba że jeden z twoich sojuszników jest celem czaru tego przeciwnika."
+			},
+			"ru": {
+				"name": "Guilt",
+				"description": "Заклинание-проклятье. В течение 6 сек в следующий раз, когда выбранный противник будет произносить заклинание, направленное на его противника, это заклинание будет неудачным, а вы похитите у выбранного противника до 5...14 ед. энергии.",
+				"concise": "Заклинание-проклятье. (6 сек) Следующее заклинание выбранного противника будет неудачным, а вы похитите 5...14 ед. энергии. Не действует, если заклинание противника не нацелено на вашего союзника."
+			},
+			"bork": {
+				"name": "Gooeelt",
+				"description": "Hex Spell. Fur 6 secunds, zee next teeme-a taerget fue-a caests a spell thaet taergets a fue-a, zee spell faeeels und yuoo steael up tu 5...14 Inergy frum thaet fue-a. Bork! Bork! Bork!",
+				"concise": "Hex Spell. (6 secunds.) Taerget fue-a's next spell faeeels und yuoo steael 5...14 Inergy. Nu iffffect unless thees fue-a's spell taergets oone-a ooff yuoor aelleees."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "野性击杀",
+				"description": "副手技。 此技能必须接续在「起手技」之后使用。命中时对目标造成 10...35点 额外伤害，并且使目标敌人失去当前的「姿态」。",
+				"concise": "副手技。 此技能必须接续在「起手技」之后使用。命中时对目标造成 10...35点 额外伤害，并且使目标敌人失去当前的「姿态」。"
+			},
+			"cht": {
+				"name": "野蠻狙殺",
+				"description": "即刻攻擊： 必須接續在「引導攻擊」之後。命中時對目標造成 10...35 額外傷害，並且使其失去使用中的「態勢」。此技能無法被「格擋」。",
+				"concise": "即刻攻擊： 必須接續在「引導攻擊」之後。命中時對目標造成 10...35 額外傷害，並且使其失去使用中的「態勢」。"
+			},
 			"de": {
+				"name": "Wilder Stoß",
+				"description": "Begleithandangriff. Muss einem Leithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...35 Punkt[e] Schaden zu und jede Haltung, die der Gegner einsetzt, endet. Dieser Angriff kann nicht geblockt werden.",
+				"concise": "Begleithandangriff. Richtet +10...35 Punkt[e] Schaden an. Entfernt Haltung des Gegners. Kann nicht geblockt werden. Muss einem Leithandangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Wilder Stoß",
 				"description": "Muss einem Leithandangriff folgen. Wenn dieser Angriff erfolgreich ist, fügt er +10...35 Punkte Schaden zu und jede Haltung, die der Gegner einsetzt, endet. Dieser Angriff kann nicht geblockt werden.",
 				"concise": "Richtet +10...35 Punkte Schaden an. Entfernt Haltung des Gegners. Kann nicht geblockt werden. <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Wild Strike",
+				"description": "Off-Hand Attack. Must follow a lead attack. If it hits, this attack strikes for +10...35 damage and any stance being used by target foe ends. This attack cannot be blocked.",
+				"concise": "Off-Hand Attack. Deals +10...35 damage. Removes target foe's stance. Unblockable. Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Wild Strike",
 				"description": "Must follow a lead attack. If it hits, this attack strikes for +10...35 damage and any stance being used by target foe ends. This attack cannot be blocked.",
 				"concise": "Deals +10...35 damage. Removes target foe's stance. Unblockable. <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Golpe salvaje",
+				"description": "Ataque complementario. Debe ir precedido de un ataque inicial. Si alcanza al enemigo, este ataque causa +10...35 de daño y anula cualquier actitud que esté usando el enemigo objetivo. Este ataque no puede bloquearse.",
+				"concise": "Ataque complementario. Causa +10...35 de daño. Elimina la actitud del enemigo objetivo. No se puede bloquear. Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Affront sauvage",
+				"description": "Attaque main gauche. Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...35 points de dégâts et chaque pose utilisée par la cible prend fin. Cette attaque ne peut être bloquée.",
+				"concise": "Attaque main gauche. Inflige +10...35 points de dégâts. Annule la pose de la cible ennemie. Impossible à bloquer. Doit succéder à une attaque main droite."
+			},
+			"fr-gwiki": {
 				"name": "Affront sauvage",
 				"description": "Doit succéder une attaque main droite. Si elle réussit, cette attaque inflige +10...35 points de dégâts et chaque pose utilisée par la cible prend fin. Cette attaque ne peut pas être bloquée.",
 				"concise": "Inflige +10...35 points de dégâts. Annule la pose de la cible ennemie. Impossible à bloquer. <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Colpo Selvaggio",
+				"description": "Attacco con Arma Secondaria. Deve seguire un attacco con arma primaria. Se va a segno, infligge +10...35 di danni e rimuove qualsiasi posizione utilizzata dall'obiettivo nemico. Questo attacco non può essere bloccato.",
+				"concise": "Attacco con Arma Secondaria. Danni inferti: +10...35. Rimuove la posizione dell'obiettivo nemico. Non può essere bloccato. Deve seguire un attacco con arma primaria."
+			},
+			"jp": {
+				"name": "ワイルド ストライク",
+				"description": "オフハンド アタック： このスキルは、リード アタックの次に使用します。この攻撃が成功すると 10...35 の追加ダメージを与え、ターゲットした敵にかけられているスタンスの効果が消失します。この攻撃はブロックされません。",
+				"concise": "オフハンド アタック： 10...35 の追加ダメージを与え、ターゲットした敵にかけられているスタンスを解除します。この攻撃はブロックされません。このスキルは、リード アタックの次に使用します。"
+			},
+			"kr": {
+				"name": "거센 압박",
+				"description": "보조 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 적에게 10...35의 추가 대미지를 주고, 사용 중이던 자세를 끝나게 합니다. 이 공격은 막을 수 없습니다.",
+				"concise": "보조 공격. 10...35의 대미지를 추가로 주고, 대상의 자세를 무효화합니다. 이 공격은 막을 수 없습니다. 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Dzikie Uderzenie",
+				"description": "Atak drugą ręką. Musi nastąpić po ataku poprzedzającym. Jeśli atak trafi, zadaje +10...35 pkt. obrażeń i dodatkowo przestają działać wszystkie postawy, pod których działaniem był wybrany przeciwnik. Tego ataku nie można zablokować.",
+				"concise": "Atak drugą ręką. Zadaje +10...35 pkt. obrażeń. Przerywa postawę wybranego przeciwnika. Nie do zablokowania. Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Wild Strike",
+				"description": "Атака второй рукой. Должен следовать за ведущей атакой. Если удар попадает в цель, вы наносите дополнительно 10...35 ед. урона, а действие любой стойки, которую использует выбранный противник, заканчивается. Эту атаку невозможно блокировать.",
+				"concise": "Атака второй рукой. Наносит дополнительно 10...35 ед. урона. Прекращает действие стойки у выбранного противника. Нельзя блокировать. Должен следовать за ведущей атакой."
+			},
+			"bork": {
+				"name": "Veeld Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost fulloo a leaed aettaeck. Iff it heets, thees aettaeck streekes fur +10...35 daemaege-a und uny stunce-a beeeng used by taerget fue-a inds. Thees aettaeck cunnut be-a blucked. Bork! Bork! Bork!",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +10...35 daemaege-a. Remufes taerget fue-a's stunce-a. Unbluckaeble-a. Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

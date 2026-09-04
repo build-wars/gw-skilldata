@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黄砂",
+				"description": "精英咒文。 在目标敌人的脚下召唤出「黄砂」。在10秒之内，「黄砂」将对附近的敌人造成每秒20...40点的地系伤害，并对攻击中的敌人造成额外每秒10...30点的地系伤害。",
+				"concise": "精英咒文。 在目标敌人的脚下召唤出「黄砂」。在10秒之内，「黄砂」将对附近的敌人造成每秒20...40点的地系伤害，并对攻击中的敌人造成额外每秒10...30点的地系伤害。"
+			},
+			"cht": {
+				"name": "沙塵暴",
+				"description": "精英咒文魔法： 在目標敵人所在地點創造沙塵暴。持續 10 秒，使該地點附近的敵人每秒受到 20...40 土系傷害，而正在進行攻擊的敵人每秒再受到 10...30 額外土系傷害。",
+				"concise": "精英咒文魔法： 在目標敵人所在地點創造沙塵暴。持續 10 秒，使該地點附近的敵人每秒受到 20...40 土系傷害，而正在進行攻擊的敵人每秒再受到 10...30 額外土系傷害。"
+			},
 			"de": {
+				"name": "Sandsturm",
+				"description": "Elite-Zauber. An der Position des Gegners wird ein Sandsturm erzeugt. In den nächsten 10 Sekunde[n] werden Gegner in der Nähe mit 20...40 Punkt[en] Erdschaden pro Sekunde getroffen. Angreifende Feinde werden pro Sekunde zusätzlich mit 10...30 Punkt[en] Erdschaden getroffen.",
+				"concise": "Elite-Zauber. Richtet jede Sekunde 20...40 Punkt[e] Erdschaden an (10 Sekunde[n]). Trifft Feinde in der Nähe der anfänglichen Position des Gegners. Richtet bei angreifenden Feinden zusätzlich 10...30 Punkt[e] Erdschaden pro Sekunde an."
+			},
+			"de-guildwiki": {
 				"name": "Sandsturm",
 				"description": "Am Standort des Gegners wird ein Sandsturm erzeugt. Während der nächsten 10 Sekunden erleiden Gegner in der Nähe 20...40 Punkte Erdschaden pro Sekunde. Angreifende Feinde erleiden pro Sekunde zusätzlich 10...30 Punkte Erdschaden.",
 				"concise": "Richtet jede Sekunde 20...40 Punkte Erdschaden an (10 Sekunden). Trifft Feinde in der Nähe der anfänglichen Position des Gegners. Richtet bei angreifenden Feinden zusätzlich jede Sekunde 10...30 Punkte Erdschaden an."
 			},
 			"en": {
 				"name": "Sandstorm",
+				"description": "Elite Spell. Create a Sandstorm at target foe's location. For 10 seconds, nearby foes are struck for 20...40 earth damage each second and attacking foes are struck for an additional 10...30 earth damage each second.",
+				"concise": "Elite Spell. Deals 20...40 earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for 10...30 more earth damage each second."
+			},
+			"en-gww": {
+				"name": "Sandstorm",
 				"description": "Create a Sandstorm at target foe's location. For 10 seconds, nearby foes are struck for 20...40 earth damage each second and attacking foes are struck for an additional 10...30 earth damage each second.",
 				"concise": "Deals 20...40 earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for 10...30 more earth damage each second."
 			},
+			"es": {
+				"name": "Tormenta de arena",
+				"description": "Conjuro de élite. Creas una Tormenta de arena en la ubicación del enemigo objetivo. Durante 10 segundos, los enemigos cercanos reciben 20...40 de daño de tierra por segundo y los que estén atacando 10...30 de daño de tierra adicional.",
+				"concise": "Conjuro de élite. Causa 20...40 de daño de tierra por segundo (10 segundos). Alcanza a los enemigos cercanos a la ubicación inicial del enemigo objetivo. Hace 10...30 de daño de tierra extra por segundo a los enemigos atacando."
+			},
 			"fr": {
+				"name": "Tempête de sable",
+				"description": "Sort d'élite. Vous créez une tempête de sable sur la position de l'ennemi visé. Pendant 10 secondes, les ennemis à proximité subissent 20...40 points de dégâts de la terre chaque seconde. Les ennemis qui attaquent reçoivent 10...30 points de dégâts de la terre supplémentaires chaque seconde.",
+				"concise": "Sort d'élite. Inflige 20...40 points de dégâts de la terre par seconde (10 secondes). Frappe les ennemis à proximité de la position initiale de la cible. Les attaquants ennemis subissent 10...30 points de dégâts de la terre en plus par seconde."
+			},
+			"fr-gwiki": {
 				"name": "Tempête de sable",
 				"description": "Vous créez une tempête de sable sur la position de l'ennemi visé. Pendant 10 secondes, les ennemis à proximité subissent 10...30 points de dégâts chaque seconde. Les ennemis qui attaques reçoivent 10...30 points de dégâts de la terre supplémentaires chaque seconde.",
 				"concise": "Inflige 10...30 points de dégâts de la terre par seconde (10 secondes). Frappe les ennemis proches de la position initiale de la cible ennemie, inflige 10...30 points de dégâts de la terre supplémentaires par seconde aux ennemis qui attaquent."
+			},
+			"it": {
+				"name": "Tempesta di Sabbia",
+				"description": "Magia d'Élite. Crei una Tempesta di Sabbia nella posizione dell'obiettivo nemico. Per 10 secondi, i nemici nei dintorni subiscono 20...40 danni da terra al secondo e i nemici all'attacco subiscono 10...30 danni da terra in più al secondo.",
+				"concise": "Magia d'Élite. Danni da terra inferti al secondo: 20...40 (10 secondi). Colpisce i nemici vicini alla posizione iniziale dell'obiettivo nemico. Colpisce i nemici all'attacco con 10...30 danni da terra in più al secondo."
+			},
+			"jp": {
+				"name": "サンド ストーム",
+				"description": "エリート スペル： ターゲットした敵がいる場所に砂嵐を発生させます。10 秒間、周囲にいる敵に毎秒 20...40 のアース ダメージを与え、攻撃中の敵には毎秒 10...30 の追加アース ダメージを与えます。",
+				"concise": "エリート スペル： 発動時にターゲットした敵がいた場所の周囲にいる敵に毎秒 20...40 のアース ダメージを与えます (10 秒)。攻撃中の敵には、毎秒 10...30 の追加アース ダメージを与えます。"
+			},
+			"kr": {
+				"name": "모래 폭풍",
+				"description": "엘리트 마법. 대상 지정: 적. 대상이 있는 자리에 10초 동안 모래 폭풍을 일으켜 부근의 적들에게 매초 20...40의 대지 대미지를 줍니다. 공격 중인 적은 매초 10...30의 대지 대미지를 추가로 입습니다.",
+				"concise": "엘리트 마법. 대상 위치 부근의 적들에게 매초 20...40의 대지 대미지를 줍니다.(10초) 공격 중인 적에게는 매초 10...30의 대지 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Burza Piaskowa",
+				"description": "Elitarny czar. W miejscu, gdzie znajduje się wybrany przeciwnik wywołujesz Burzę Piaskową. Przez 10 sek., przeciwnicy w pobliżu co sekundę otrzymują 20...40 pkt. obrażeń od ziemi, co więcej przeciwnicy atakujący co sekundę otrzymują dodatkowe 10...30 obrażeń od ziemi.",
+				"concise": "Elitarny czar. W każdej sekundzie zadaje 20...40 pkt. obrażeń od ziemi (10 sek.). Trafia przeciwników w pobliżu początkowego miejsca wybranego przeciwnika. Co sekundę trafia atakujących przeciwników, zadając 10...30 pkt. dodatkowych obrażeń od ziemi."
+			},
+			"ru": {
+				"name": "Sandstorm",
+				"description": "Элитное заклинание. Создает Sandstorm в точке расположения выбранного противника. В течение 10 сек находящиеся поблизости противники получают 20...40 ед. урона силой земли каждую секунду, а атакующие противники получают дополнительно 10...30 ед. урона силой земли каждую секунду.",
+				"concise": "Элитное заклинание. Наносит 20...40 ед. урона силой земли каждую секунду (10 сек). Поражает противников поблизости от первоначального местоположения выбранного противника. Поражает атакующих противников каждую секунду дополнительно на 10...30 ед. урона силой земли."
+			},
+			"bork": {
+				"name": "Sundsturm",
+				"description": "Ileete-a Spell. Creaete-a a Sundsturm aet taerget fue-a's lucaeshun. Fur 10 secunds, neaerby fues aere-a stroock fur 20...40 iaert daemaege-a iaech secund und aettaeckeeng fues aere-a stroock fur un aeddeeshunael 10...30 iaert daemaege-a iaech secund.",
+				"concise": "Ileete-a Spell. Deaels 20...40 iaert daemaege-a iaech secund (10 secunds). Heets fues neaer taerget fue-a's ineeteeael lucaeshun. Heets aettaeckeeng fues fur 10...30 mure-a iaert daemaege-a iaech secund."
 			}
 		}
 	}

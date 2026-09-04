@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Foul Feast",
+				"description": "咒文。 All conditions are transferred from target other ally to yourself. For each condition acquired in this way, you gain 0...45 Health and 2...4 Energy.",
+				"concise": "咒文。 Transfers all conditions from target ally to yourself. You gain 0...45 Health and 2...4 Energy for each condition transferred. Cannot self-target."
+			},
+			"cht": {
+				"name": "污濁饗宴",
+				"description": "咒文魔法： 把目標其他盟友所有的病症轉移到自己身上，依照病症數量，每個使你獲得 0...45 體力以及 2...4 能量，若轉移到疾病，則此技能回復速度快兩倍。",
+				"concise": "咒文魔法： 把目標其他盟友所有的病症轉移到自己身上，依照病症數量，每個使你獲得 0...45 體力以及 2...4 能量，若轉移到疾病，則此技能回復速度快兩倍。"
+			},
 			"de": {
+				"name": "Widerliches Gelage",
+				"description": "Zauber. Alle Zustände werden vom Verbündeten auf Euch übertragen. Für jeden auf diese Weise erhaltenen Zustand erhaltet Ihr 0...45 Lebenspunkte und 2...4 Energiepunkte. Diese Fertigkeit lädt doppelt so schnell auf, wenn Ihr \"Krankheit\" von Eurem Ziel entfernt.",
+				"concise": "Zauber. Alle Zustände werden vom Verbündeten auf Euch übertragen. Ihr erhaltet für jeden übertragenen Zustand 0...45 Lebenspunkt[e] und 2...4 Energiepunkt[e]. Die Wiederaufladezeit wird halbiert, wenn Ihr \"Krankheit\" entfernt. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Widerliches Gelage",
 				"description": "Alle Zustände werden vom Verbündeten auf Euch übertragen. Für jeden auf diese Weise erhaltenen Zustand werdet Ihr um 0...45 Lebenspunkte geheilt und erhaltet 2...4 Energiepunkte. Wenn Ihr \"Krankheit\" von Eurem Ziel entfernt, beträgt die Wiederaufladezeit unveränderlich 2 Sekunden.",
 				"concise": "Alle Zustände werden vom Verbündeten auf Euch übertragen. Ihr werdet für jeden übertragenen Zustand um 0...45 Lebenspunkte geheilt und erhaltet 2...4 Energiepunkte. Unveränderliche Wiederaufladezeit von 2 Sekunden, wenn Ihr \"Krankheit\" entfernt. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Foul Feast",
+				"description": "Spell. All conditions are transferred from target other ally to yourself. For each condition acquired in this way, you gain 0...45 Health and 2...4 Energy. This skill recharges twice as fast if you remove Disease from your target.",
+				"concise": "Spell. Transfers all conditions from target ally to yourself. You gain 0...45 Health and 2...4 Energy for each condition transferred. Half recharge if you remove Disease. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Foul Feast",
 				"description": "All conditions are transferred from target other ally to yourself. For each condition acquired in this way, you gain 0...45 Health and 2...4 Energy. This skill recharges twice as fast if you remove Disease from your target.",
 				"concise": "Transfers all conditions from target ally to yourself. You gain 0...45 Health and 2...4 Energy for each condition transferred. Half recharge if you remove Disease. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Festín corrupto",
+				"description": "Conjuro. Todas las condiciones se transfieren del aliado objetivo a ti mismo. Por cada condición adquirida de esta manera, ganas 0...45 de salud y 2...4 de energía. Esta habilidad se recarga dos veces más rápido si quitas la enfermedad de tu objetivo.",
+				"concise": "Conjuro. Recibes todas las condiciones que tenga el aliado objetivo. Ganas 0...45 de salud y 2...4 de energía por cada condición que recibes. La mitad de la recarga si quitas la enfermedad. Tú mismo no puedes ser el objetivo."
+			},
 			"fr": {
+				"name": "Festin immonde",
+				"description": "Sort. Toutes les conditions de l'allié vous sont transférées. Pour chaque condition acquise de cette manière, vous obtenez 0...45 points de vie et 2...4 points d'énergie. Cette compétence se recharge deux fois plus vite si vous supprimez Maladie de votre cible.",
+				"concise": "Sort. Vous transfère toutes les conditions de l'allié. Vous gagnez 0...45 points de vie et 2...4 points d'énergie par condition transférée. Temps de recharge réduit de moitié si vous supprimez Maladie. Auto-ciblage impossible."
+			},
+			"fr-gwiki": {
 				"name": "Festin immonde",
 				"description": "Vous transférez toutes les conditions de la cible alliée vers vous-même. Pour chaque condition transférée, vous gagnez 0...45 points de vie et 0...3 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Banchetto Ripugnante",
+				"description": "Magia. Tutte le condizioni vengono trasferite dall'obiettivo alleato a te stesso. Per ogni condizione così acquisita ottieni 0...45 Punti Salute e 2...4 Punti Energia. Questa abilità si ricarica nella metà del tempo se rimuovi la Malattia dal tuo obiettivo.",
+				"concise": "Magia. Trasferisce tutte le condizioni dall'obiettivo alleato a te stesso. Ottieni 0...45 Punti Salute e 2...4 Punti Energia per ogni condizione trasferita. Ricarica dimezzata se rimuovi Malattia. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "フォウル フィースト",
+				"description": "スペル： ターゲットした自分以外の味方にかけられている「状態異常」をすべて自分自身に転移します。この効果により転移させた「状態異常」ごとに、プレイヤーは 0...45 の体力と 2...4 のエネルギーを獲得します。ターゲットから「疾病」状態を解除すると、このスキルの再使用時間が半分になります。",
+				"concise": "スペル： ターゲットした味方にかけられている「状態異常」をすべて自分に転移します。プレイヤーは、転移させた「状態異常」ごとに 0...45 の体力と 2...4 のエネルギーを獲得します。「疾病」状態を解除した場合、再使用時間が半減します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "부정한 향연",
+				"description": "마법. 대상 지정: 아군. 대상에 걸린 모든 상태이상을 자신에게 옮깁니다. 자신은 이렇게 옮긴 상태이상 하나당 0...45의 체력과 2...4의 에너지를 얻습니다. 대상의 질병을 해제하면 이 스킬의 재활성이 2배로 빨라집니다.",
+				"concise": "마법. 대상 아군에 걸린 상태이상 전부를 자신에게 옮깁니다. 이렇게 옮겨진 상태이상 하나당 자신은 0...45의 체력과 2...4의 에너지를 얻습니다. 질병을 옮기면 이 스킬의 재활성이 2배로 빨라집니다.자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Plugawa Uczta",
+				"description": "Czar. Wszystkie przypadłości ze wskasanego sojusznika zostanją przekazane na ciebie. Za każdą przypadłość uzyskaną w ten sposób, otrzymujesz 0...45 pkt. żywotności i 2...4 pkt. energii. Umiejętność odnawia się dwa razy szybciej, jeżeli usuniesz chorobę z celu.",
+				"concise": "Czar. Przenosi wszystkie przypadłości z wybranego sojusznika na ciebie. Za każdą przekazaną przypadłość otrzymujesz 0...45 pkt. żywotności i 2...4 pkt. energii. Połowa odnowienia, jeżeli usuniesz chorobę. Nie można użyć na sobie."
+			},
+			"ru": {
+				"name": "Foul Feast",
+				"description": "Заклинание. Все состояния с выбранного союзника (но не вас) переносятся на вас. За каждое полученное таким образом состояние вы получаете 0...45 ед. здоровья и 2...4 ед. энергии. Это умение перезаряжается в два раза быстрее, если вы сняли со своей цели болезнь.",
+				"concise": "Заклинание. Переносит все состояния с выбранного союзника на вас. Вы получаете 0...45 ед. здоровья и 2...4 ед. энергии за каждое перенесенное состояние. Перезаряжается в два раза быстрее, если вы сняли болезнь. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Fuool Feaest",
+				"description": "Spell. Aell cundeeshuns aere-a trunsfferred frum taerget oozeer aelly tu yuoorselff. Fur iaech cundeeshun aecqooured in thees vaey, yuoo gaeeen 0...45 Heaelt und 2...4 Inergy. Thees skeell rechaerges tveece-a aes faest iff yuoo remufe-a Deeseaese-a frum yuoor taerget.",
+				"concise": "Spell. Trunsffers aell cundeeshuns frum taerget aelly tu yuoorselff. Yuoo gaeeen 0...45 Heaelt und 2...4 Inergy fur iaech cundeeshun trunsfferred. Haelff rechaerge-a iff yuoo remufe-a Deeseaese-a. Cunnut selff-taerget."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Weakness Trap",
+				"description": "陷阱技。 When Weakness Trap is triggered, all nearby foes are Weakened for 10...20 seconds and take 24...50 lightning damage. All Charr are knocked down. Weakness Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "陷阱技。 (90 seconds.) Affects nearby foes. Deals 24...50 lightning damage. Inflicts Weakness condition (10...20 seconds). Knocks-down Charr. Easily interrupted."
+			},
+			"cht": {
+				"name": "虛弱困境",
+				"description": "陷阱： 持續90秒，虛弱困境啟動時，對附近敵人造成虛弱10...20秒， 並且受到24...50閃電 傷害，若是夏爾則被擊倒，此技能發動時容易被中斷。",
+				"concise": "陷阱： 持續90秒，虛弱困境啟動時，對附近敵人造成虛弱10...20秒， 並且受到24...50閃電 傷害，若是夏爾則被擊倒，此技能發動時容易被中斷。"
+			},
 			"de": {
+				"name": "Schwäche-Falle",
+				"description": "Falle. Wird Schwäche-Falle aktiviert, werden alle Feinde in der Nähe 10...20 Sekunde[n] lang geschwächt und erleiden 24...50 Punkt[e] Blitzschaden. Alle Charr werden zu Boden geworfen. Schwäche-Falle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunden: Betrifft Feinde in der Nähe. Richtet 24...50 Punkt[e] Blitzschaden an. Verursacht Zustand Schwäche (10...20 Sekunde[n]). Wirft Charr zu Boden. Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Schwäche-Falle",
 				"description": "Wird Schwäche-Falle aktiviert, werden alle Feinde in der Nähe 10...20 Sekunden lang geschwächt und erleiden 24...50 Punkte Blitzschaden. Alle Charr werden zu Boden geworfen. Schwäche-Falle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 24...50 Punkte Blitzschaden an. Verursacht Zustand Schwäche (10...20 Sekunden). Wirft Charr zu Boden. <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Weakness Trap",
+				"description": "Trap. When Weakness Trap is triggered, all nearby foes are Weakened for 10...20 seconds and take 24...50 lightning damage. All Charr are knocked down. Weakness Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Deals 24...50 lightning damage. Inflicts Weakness condition (10...20 seconds). Knocks-down Charr. Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Weakness Trap",
 				"description": "When Weakness Trap is triggered, all nearby foes are Weakened for 10...20 seconds and take 24...50 lightning damage. All Charr are knocked down. Weakness Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Deals 24...50 lightning damage. Inflicts Weakness condition (10...20 seconds). Knocks-down Charr. <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Trampa de debilidad",
+				"description": "Trampa. Cuando se active esta trampa, todos los enemigos cercanos quedan debilitados durante 10...20 segundos y reciben 24...50 de daño de relámpago. Todos los Charr son derribados. Esta trampa dura 90 segundos y se te podrá interrumpir con facilidad mientras la estés colocando.",
+				"concise": "Trampa. (90 segundos). Afecta a los enemigos cercanos. Hace 24...50 de relámpago. Causa debilitamiento (10...20 segundos). Derriba a los Charr. Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège de faiblesse",
+				"description": "Piège. Quand ce piège se déclenche, tous les ennemis à proximité souffrent de Faiblesse pendant 10...20 secondes et subissent 24...50 points de dégâts de la foudre. Tous les Charrs sont assommés. Ce piège fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige 24...50 points de dégâts de la Foudre. Inflige la Faiblesse (10...20 secondes). Assomme les Charrs. Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Piège de faiblesse",
 				"description": "Quand ce piège se déclenche, tous les ennemis à proximité souffrent de Faiblesse pendant 10...20 secondes et subissent 24...50 poins de dégâts de la foudre. Tous les Charrs sont assommés. Ce piège fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous activez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trappola della Debolezza",
+				"description": "Trappola. Quando questa Trappola viene attivata, tutti i nemici nei dintorni soffrono di Debolezza per 10...20 secondo[i] e subiscono 24...50 danno[i] da fulmine. Tutti i Charr vengono abbattuti. La trappola termina dopo 90 secondi. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Danni da fulmine inferti: 24...50. Condizione inflitta: Debolezza (10...20 secondo[i]). Abbatte i Charr. Facile interruzione."
+			},
+			"jp": {
+				"name": "ウィークネス トラップ",
+				"description": "トラップ： このトラップが発動すると、周囲にいる敵は 10...20 秒間「衰弱」状態になり、24...50 のライトニング ダメージを与えます。チャールはすべて転倒します。このトラップは90秒後に消滅します。このスキルの詠唱は、容易に中断されます。",
+				"concise": "トラップ： (90秒) 周囲にいる敵に 24...50 のライトニング ダメージを与え、「衰弱」状態にします (10...20 秒) 。チャールは転倒します。このスキルの詠唱は、容易に中断されます。"
+			},
+			"kr": {
+				"name": "약체 함정",
+				"description": "함정. 함정이 발동하면 부근의 적들에게 24...50의 대미지를 주고, 10...20초 동안 약체에 빠뜨립니다. 차르를 바닥에 넘어뜨립니다. 함정은 90초 후에 사라지고, 함정 설치 동작은 방해 받기 쉽습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 24...50의 번개 대미지를 주고, 약체로 만듭니다.(10...20초) 차르를 바닥에 넘어뜨립니다. 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Osłabiająca Pułapka",
+				"description": "Pułapka. Kiedy Osłabiająca Pułapka zostanie uaktywniona, wszyscy przeciwnicy w pobliżu zostają osłabieni na 10...20 sek. Wszyscy popielcy zostają powaleni. Osłabiająca Pułapka przestaje działać po 90 sekundach. W czasie, kiedy będziesz używał tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. Zadaje 24...50 pkt. obrażeń od błyskawic. Wywołuje przypadłość osłabienie (10...20 sek.). Powala popielca. Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Weakness Trap",
+				"description": "Ловушка. Когда срабатывает Weakness Trap, все противники поблизости получают 24...50 ед. урона силой молнии, и их поражает слабость на 10...20 сек. Кроме того, все Charr сбиваются с ног. Weakness Trap разряжается через 90 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Наносит 24...50 ед. урона. Вызывает слабость (10...20 сек). Сбивает с ног Charr. Легко прервать."
+			},
+			"bork": {
+				"name": "Veaekness Traep",
+				"description": "Traep. Vhee Veaekness Traep is treeggered, aell neaerby fues aere-a Veaekened fur 10...20 secunds und taeke-a 24...50 leeghtneeng daemaege-a. Aell Chaerr aere-a knucked doon. Veaekness Traep inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Deaels 24...50 leeghtneeng daemaege-a. Inffleects Veaekness cundeeshun (10...20 secunds). Knucks-doon Chaerr. Iaeseely interroopted."
 			}
 		}
 	}

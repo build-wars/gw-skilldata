@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "寒冰束缚",
+				"description": "精英负面魔法。 在1...10秒之内，使目标敌人的移动速度降低66%。如果目标敌人同时还带有「增益魔法」效果，那么他的速度将降低90%。",
+				"concise": "精英负面魔法。 在1...10秒之内，使目标敌人的移动速度降低66%。如果目标敌人同时还带有「增益魔法」效果，那么他的速度将降低90%。"
+			},
+			"cht": {
+				"name": "冰冷束縛",
+				"description": "精英降咒魔法： 持續 1...10 秒，使目標敵人的移動速度減慢 66% 。若其身上擁有「加持」，則使其移動速度減慢 90% 。",
+				"concise": "精英降咒魔法： 持續 1...10 秒，使目標敵人的移動速度減慢 66% 。若其身上擁有「加持」，則使其移動速度減慢 90% 。"
+			},
 			"de": {
+				"name": "Eisfesseln",
+				"description": "Elite-Verhexung. 1...10 Sekunde[n] lang ist die Bewegungsgeschwindigkeit des Gegners um 66% reduziert. Wenn er unter den Auswirkungen einer Verzauberung steht, sind die Bewegungen dieses Gegners um 90% reduziert.",
+				"concise": "Elite-Verhexung. (1...10 Sekunde[n].) Gegner bewegt sich um 66% langsamer. Gegner bewegt sich um 90% langsamer, falls er verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Eisfesseln",
 				"description": "1...10 Sekunden lang ist die Bewegungsgeschwindigkeit des Gegners um 66% reduziert. Wenn er unter dem Einfluss einer Verzauberung steht, sind die Bewegungen dieses Gegners um 90% reduziert.",
 				"concise": "1...10 Sekunden: Gegner bewegt sich um 66% langsamer. Gegner bewegt sich um 90% langsamer, falls er verzaubert ist."
 			},
 			"en": {
 				"name": "Icy Shackles",
+				"description": "Elite Hex Spell. For 1...10 seconds, target foe's movement speed is reduced by 66%. While under the effects of an enchantment, that foe's movement is reduced by 90%.",
+				"concise": "Elite Hex Spell. (1...10 seconds.) Target foe moves 66% slower. This foe moves 90% slower if enchanted."
+			},
+			"en-gww": {
+				"name": "Icy Shackles",
 				"description": "For 1...10 second[s], target foe's movement speed is reduced by 66%. While under the effects of an enchantment, that foe's movement is reduced by 90%.",
 				"concise": "(1...10 second[s].) Target foe moves 66% slower. This foe moves 90% slower if enchanted."
 			},
+			"es": {
+				"name": "Grilletes de hielo",
+				"description": "Conjuro con maleficio de élite. Durante 1...10 segundos, la velocidad de movimiento del enemigo objetivo se reduce un 66%. Mientras esté bajo los efectos de un encantamiento, el movimiento de ese enemigo se reduce un 90%.",
+				"concise": "Conjuro con maleficio de élite. (1...10 segundos). El enemigo objetivo se mueve un 66% más despacio. Este enemigo se mueve un 90% más despacio si está encantado."
+			},
 			"fr": {
+				"name": "Chaînes de glace",
+				"description": "Maléfice d'élite. Pendant 1...10 secondes, la vitesse de déplacement de la cible ennemie est réduite de 66%. Sous les effets d'un enchantement, la vitesse de déplacement de cet ennemi est réduite de 90%.",
+				"concise": "Maléfice d'élite. (1...10 secondes.) La cible ennemie se déplace 66% moins vite. Cet ennemi se déplace 90% moins vite s'il est enchanté."
+			},
+			"fr-gwiki": {
 				"name": "Chaînes de glace",
 				"description": "Pendant 1...10 seconde(s), la vitesse de mouvement de la cible ennemie est réduite de 66%. Sous les effets d'un enchantement, la vitesse de mouvement de cet ennemi est réduite de 90%.",
 				"concise": "(1...10 seconde(s).) L'ennemi visé se déplace 66% moins vite. Il se déplace 90% moins vite s'il est enchanté."
+			},
+			"it": {
+				"name": "Catene di Ghiaccio",
+				"description": "Fattura d'Élite. Per 1...10 secondi, la velocità di movimento dell'obiettivo nemico diminuisce di un 66%. Mentre è sotto gli effetti di un incantesimo, i suoi movimenti si riducono di un 90%.",
+				"concise": "Fattura d'Élite. (Secondi: 1...10.) La velocità dell'obiettivo nemico è ridotta di un 66%. La sua velocità rallenta di un 90% se sotto incantesimo."
+			},
+			"jp": {
+				"name": "アイシー シャックル",
+				"description": "エリート弱体化スペル： 1...10 秒間、ターゲットした敵は移動速度が 66% 減少します。その敵に強化スペルがかけられている場合、移動速度が 90% 減少します。",
+				"concise": "エリート弱体化スペル： (1...10 秒) ターゲットした敵は、移動速度が 66% 減少します。強化スペルがかけられている場合は移動速度が 90% 減少します。"
+			},
+			"kr": {
+				"name": "얼음 족쇄",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 1...10초 동안 대상의 이동 속도가 66% 느려집니다. 대상이 강화 마법에 걸려 있으면 이동 속도가 90% 느려집니다.",
+				"concise": "엘리트 약화 마법. (1...10초) 대상의 이동 속도가 66% 느려집니다. 대상이 강화 마법에 걸려 있으면 이동 속도가 90% 느려집니다."
+			},
+			"pl": {
+				"name": "Lodowe Kajdany",
+				"description": "Elitarna klątwa (czar). Przez 1...10 sek. szybkość ruchu wybranego przeciwnika jest obniżona o 66% za każde zaklęcie, pod którego działaniem się znajduje. Jeżeli przeciwnik jest pod wpływem zaklęcia, jego ruch zostaje spowolniony o 90%.",
+				"concise": "Elitarna klątwa (czar). (1...10 sek.) Wybrany przeciwnik porusza się o 66% wolniej. Ten przeciwnik porusza się o 90% wolniej, jeżeli jest pod działaniem zaklęcia."
+			},
+			"ru": {
+				"name": "Icy Shackles",
+				"description": "Элитное заклинание-проклятье. В течение 1...10 сек, если на выбранного противника наложены какие-либо чары, скорость его движения уменьшится на 90%. В противном случае скорость его движения будет уменьшена на 66%.",
+				"concise": "Элитное заклинание-проклятье. (1...10 сек) Выбранный противник двигается на 66% медленнее. Этот противник двигается на 90% медленнее, если на него наложены чары."
+			},
+			"bork": {
+				"name": "Icy Shaeckles",
+				"description": "Ileete-a Hex Spell. Fur 1...10 secunds, taerget fue-a's mufement speed is redooced by 66%. Vheele-a under zee iffffects ooff un inchuntment, thaet fue-a's mufement is redooced by 90%.",
+				"concise": "Ileete-a Hex Spell. (1...10 secunds.) Taerget fue-a mufes 66% slooer. Thees fue-a mufes 90% slooer iff inchunted."
 			}
 		}
 	}

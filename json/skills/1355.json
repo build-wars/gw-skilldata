@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "操纵构造体",
+				"description": "精英增益魔法。 在60秒之内，当目标亡灵生物死亡时，从它的尸骨上将会复生出一只等级为0...15的构造体，构造体的每次攻击都能造成「流血」的效果。",
+				"concise": "精英增益魔法。 在60秒之内，当目标亡灵生物死亡时，从它的尸骨上将会复生出一只等级为0...15的构造体，构造体的每次攻击都能造成「流血」的效果。"
+			},
+			"cht": {
+				"name": "鋸齒骸骨",
+				"description": "精英加持魔法： 持續 60 秒，每當目標不死爪牙死亡時，將會由一隻等級 0...15 的鋸齒骸骨取代，在攻擊命中時使敵人遭受「流血」病症。",
+				"concise": "精英加持魔法： 持續 60 秒，每當目標不死爪牙死亡時，將會由一隻等級 0...15 的鋸齒骸骨取代，在攻擊命中時使敵人遭受「流血」病症。"
+			},
 			"de": {
+				"name": "Versplitterte Knochen",
+				"description": "Elite-Verzauberung. 60 Sekunde[n] lang wird jedes Mal, wenn der von Euch anvisierte untote Diener stirbt, dieser durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft.",
+				"concise": "Elite-Verzauberung. 60 Sekunde[n]: Wenn der untote Diener stirbt, wird er durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft."
+			},
+			"de-guildwiki": {
 				"name": "Versplitterte Knochen",
 				"description": "60 Sekunden lang wird, wenn der von Euch anvisierte Diener stirbt, dieser durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine 25-sekündige Blutung hervorruft.",
 				"concise": "60 Sekunden: Wenn der untote Diener stirbt, wird er durch einen Splitterschreck der Stufe 0...15 ersetzt, der bei jedem seiner Angriffe eine Blutung hervorruft."
 			},
 			"en": {
 				"name": "Jagged Bones",
+				"description": "Elite Enchantment Spell. For 60 seconds, whenever target undead servant dies, it is replaced by a level 0...15 jagged horror that causes Bleeding with each of its attacks.",
+				"concise": "Elite Enchantment Spell. (60 seconds.) When target undead servant dies, it is replaced by a level 0...15 jagged horror that inflicts Bleeding with attacks."
+			},
+			"en-gww": {
+				"name": "Jagged Bones",
 				"description": "For 60 seconds, whenever target undead servant dies, it is replaced by a level 0...15 jagged horror that causes Bleeding with each of its attacks.",
 				"concise": "(60 seconds.) When target undead servant dies, it is replaced by a level 0...15 jagged horror that inflicts Bleeding with attacks."
 			},
+			"es": {
+				"name": "Huesos serrados",
+				"description": "Conjuro con encantamiento de élite. En los próximos 60 segundos, cada vez que muera el siervo objetivo, se sustituirá por un horror de sierra de nivel 0...15 que hará hemorragias al atacar.",
+				"concise": "Conjuro con encantamiento de élite. (60 segundos). Cada vez que muera el siervo objetivo, se sustituirá por un horror de sierra de nivel 0...15 que causa hemorragia al atacar."
+			},
 			"fr": {
+				"name": "Os broyés",
+				"description": "Enchantement d'élite. Pendant 60 secondes, chaque fois que le serviteur mort-vivant ciblé meurt, il est remplacé par une horreur broyée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques.",
+				"concise": "Enchantement d'élite. (60 secondes.) Quand le serviteur mort-vivant visé meurt, il est remplacé par une horreur déchiquetée de niveau 0...15 dont les attaques infligent le Saignement."
+			},
+			"fr-gwiki": {
 				"name": "Os broyés",
 				"description": "Pendant 60 secondes, chaque fois qu'un serviteur mort-vivant meurt, il est remplacé par une horreur broyée de niveau 0...15 qui inflige le Saignement à chacune de ses attaques.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ossa Seghettate",
+				"description": "Incantesimo d'Élite. Per 60 secondo[i], quando il morto vivente selezionato muore, viene rimpiazzato da un orrore seghettato di livello 0...15 che provoca Emorragia con ogni attacco.",
+				"concise": "Incantesimo d'Élite. (Secondi: 60) Quando il morto vivente selezionato muore, viene rimpiazzato da un Orrore Seghettato di livello 0...15 i cui attacchi infliggono Emorragia."
+			},
+			"jp": {
+				"name": "ジャグ ボーン",
+				"description": "エリート強化スペル： 60 秒間、ターゲットしたアンデッドが消滅すると、攻撃により敵を「出血」状態にするレベル 0...15 のジャグ ホラーを召喚します。",
+				"concise": "エリート強化スペル： (60 秒) ターゲットしたミニオンが消滅すると、攻撃によって敵を「出血」状態にするレベル 0...15 のジャグ ホラーが召喚されます。"
+			},
+			"kr": {
+				"name": "칼날 해골",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 60초 동안 자신의 언데드 노예가 죽을 때마다 0...15레벨의 칼날 악령이 생깁니다. 칼날 악령의 공격을 받으면 출혈 상태가 됩니다.",
+				"concise": "엘리트 강화 마법. (60초) 대상 언데드 노예가 죽을 때 0...15레벨의 칼날 악령이 생깁니다. 칼날 악령의 공격은 출혈을 일으킵니다."
+			},
+			"pl": {
+				"name": "Rozdzierające Kości",
+				"description": "Elitarne zaklęcie (czar). Przez 60 sek., kiedy zginie wybrany nieumarły sługa, zastąpi go Strzępiasta Poczwara na 0...15 poz., której ataki wywołują krwawienie.",
+				"concise": "Elitarne zaklęcie (czar). (60 sek.) Kiedy wybrany nieumarły sługa zginie, zastępowany jest przez strzępiastą poczwarę na 0...15 poz., której ataki wywołują krwawienie."
+			},
+			"ru": {
+				"name": "Jagged Bones",
+				"description": "Элитное заклинание-чары. В течение 60 сек, когда выбранная нежить-прислужник умирает, она порождает Jagged Horror 0...15 уровня, каждая атака которого вызывает у противника кровотечение.",
+				"concise": "Элитное заклинание-чары. (60 сек) Когда выбранный прислужник-нежить умрет, он породит Jagged Horror 0...15 уровня, каждая атака которого вызывает кровотечение."
+			},
+			"bork": {
+				"name": "Jaegged Bunes",
+				"description": "Ileete-a Inchuntment Spell. Fur 60 secunds, vhenefer taerget undeaed serfunt deees, it is replaeced by a lefel 0...15 jaegged hurrur thaet cooses Bleedeeng veet iaech ooff its aettaecks.",
+				"concise": "Ileete-a Inchuntment Spell. (60 secunds.) Vhee taerget undeaed serfunt deees, it is replaeced by a lefel 0...15 jaegged hurrur thaet inffleects Bleedeeng veet aettaecks."
 			}
 		}
 	}

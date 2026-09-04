@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "领袖的安抚",
+				"description": "技能。 治疗自己30...75点生命值。再根据「音波」范围内的友方数量，每一位为你回复10...20点生命值。（最多回复140点生命值）",
+				"concise": "技能。 治疗自己30...75点生命值。再根据「音波」范围内的友方数量，每一位为你回复10...20点生命值。（最多回复140点生命值）"
+			},
+			"cht": {
+				"name": "領導者的安慰",
+				"description": "技能： 你獲得 30...75 體力，而依照音量所及範圍內的盟友數，每位再讓你額外獲得 10...20 體力。(一次最多獲得 140 體力)",
+				"concise": "技能： 你獲得 30...75 體力，而依照音量所及範圍內的盟友數，每位再讓你額外獲得 10...20 體力。(一次最多獲得 140 體力)"
+			},
 			"de": {
+				"name": "Trost des Anführers",
+				"description": "Fertigkeit. Ihr erhaltet 30...75 Lebenspunkt[e]. Ihr erhaltet auch für jeden Verbündeten in Hörweite +10...20 Lebenspunkt[e] (maximal 140 Punkte).",
+				"concise": "Fertigkeit. Ihr erhaltet 30...75 Lebenspunkt[e]. Zusätzlich erhaltet Ihr für jeden Verbündeten in Hörweite 10...20 Lebenspunkt[e] (maximal 140)."
+			},
+			"de-guildwiki": {
 				"name": "Trost des Anführers",
 				"description": "Ihr heilt Euch um 30...75 Lebenspunkte. Ihr heilt für jeden Verbündeten in Hörweite um 10...20 Lebenspunkte mehr (zusammen maximal 140 Punkte).",
 				"concise": "Ihr heilt Euch um 30...75 Lebenspunkte. Zusätzlich heilt Ihr für jeden Verbündeten in Hörweite 10...20 Lebenspunkte (maximal 140)."
 			},
 			"en": {
 				"name": "Leader's Comfort",
+				"description": "Skill. You gain 30...75 Health. For each ally within earshot, you also gain +10...20 Health (maximum 140 Health).",
+				"concise": "Skill. You gain 30...75 Health. You also gain 10...20 Health (maximum 140) for each ally in earshot."
+			},
+			"en-gww": {
+				"name": "Leader's Comfort",
 				"description": "You gain 30...75 Health. For each ally within earshot, you also gain +10...20 Health (maximum 140 Health).",
 				"concise": "You gain 30...75 Health. You also gain 10...20 Health (maximum 140) for each ally in earshot."
 			},
+			"es": {
+				"name": "Comodidad del líder",
+				"description": "Habilidad. Ganas 30...75 de salud y además +10...20 extra por cada aliado al alcance del oído (máximo 140 de salud).",
+				"concise": "Habilidad. Ganas 30...75 de salud y 10...20 extra (máximo 140) por cada aliado al alcance del oído."
+			},
 			"fr": {
+				"name": "Confort du meneur",
+				"description": "Compétence. Vous bénéficiez de 30...75 points de vie. Pour chaque allié à portée de voix, vous gagnez +10...20 points de vie supplémentaires (maximum 140 points de vie).",
+				"concise": "Compétence. Vous bénéficiez de 30...75 points de vie. Vous gagnez 10...20 points de vie (maximum 140 points de vie) pour chaque allié à portée de voix."
+			},
+			"fr-gwiki": {
 				"name": "Confort du meneur",
 				"description": "Vous bénéficiez de 30...75 points de vie. Pour chaque allié à portée de voix, vous gagnez +10...20 points de vie supplémentaires (maximum 140 points de vie).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Conforto del Leader",
+				"description": "Abilità. Ottieni 30...75 Punto[i] Salute. Per ogni alleato a portata d'orecchio ottieni anche +10...20 Punto[i] Salute (max. 140).",
+				"concise": "Abilità. Salute conseguita: 30...75. Salute aggiuntiva conseguita per ogni alleato presente a portata d'orecchio: +10...20 (max 140)."
+			},
+			"jp": {
+				"name": "リーダー コンフォート",
+				"description": "スキル： 30...75 の体力を獲得します。声の届く範囲内にいる味方ごとに、さらに 10...20 の体力を獲得します (最大140の体力) 。",
+				"concise": "スキル： 30...75 の体力を獲得します。さらに、声の届く範囲内にいる味方ごとに、10...20 の体力を獲得します (最大140) 。"
+			},
+			"kr": {
+				"name": "지휘자의 안락",
+				"description": "스킬. 대상 지정: 없음. 30...75의 체력을 얻고, 가청 범위 내에 있는 아군 한 명당 10...20의 체력을 추가로 얻습니다. 최대 140의 체력을 얻습니다.",
+				"concise": "스킬. 30...75의 체력을 얻고, 가청 범위 내에 있는 아군 한 명당 10...20씩, 최대 140의 체력을 추가로 얻습니다."
+			},
+			"pl": {
+				"name": "Pocieszenie Dowódcy",
+				"description": "Umiejętność. Otrzymujesz 30...75 pkt. żywotności. Na każdego sojusznika w zasięgu słuchu otrzymujesz także +10...20 pkt. żywotności (maksymalnie 140 pkt.).",
+				"concise": "Umiejętność. Otrzymujesz 30...75 pkt. żywotności. Na każdego sojusznika w zasięgu słuchu otrzymujesz także 10...20 pkt. żywotności (maksymalnie 140)."
+			},
+			"ru": {
+				"name": "Leader's Comfort",
+				"description": "Умение. Вы получаете 30...75 ед. здоровья. Кроме того, за каждого находящегося в зоне слышимости союзника вы получаете дополнительно по 10...20 ед. здоровья (но не более 140 ед. здоровья).",
+				"concise": "Умение. Вы получаете 30...75 ед. здоровья. Вы также получаете дополнительно 10...20 ед. здоровья за каждого союзника в зоне слышимости. Общее здоровье, полученное с помощью этого умения, не может быть больше 140 ед."
+			},
+			"bork": {
+				"name": "Leaeder's Cumffurt",
+				"description": "Skeell. Yuoo gaeeen 30...75 Heaelt. Fur iaech aelly veetheen iaershut, yuoo aelsu gaeeen +10...20 Heaelt (maexeemoom 140 Heaelt).",
+				"concise": "Skeell. Yuoo gaeeen 30...75 Heaelt. Yuoo aelsu gaeeen 10...20 Heaelt (maexeemoom 140) fur iaech aelly in iaershut."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "头痛",
+				"description": "精英负面魔法。 使目标敌人遭受 1...8点「生命衰减」，施法时间延长 100%，效果持续 5...20秒。",
+				"concise": "精英负面魔法。 使目标敌人遭受 1...8点「生命衰减」，施法时间延长 100%，效果持续 5...20秒。"
+			},
+			"cht": {
+				"name": "頭痛",
+				"description": "精英降咒魔法： 持續 5...20 秒，目標敵人受到體力衰減 1...8 ，且施展技能時間加倍。",
+				"concise": "精英降咒魔法： 持續 5...20 秒，目標敵人受到體力衰減 1...8 ，且施展技能時間加倍。"
+			},
 			"de": {
+				"name": "Migräne",
+				"description": "Elite-Verhexung. 5...20 Sekunde[n] lang unterliegt der Gegner einer Lebenspunktdegeneration von -1...8 und benötigt 100% länger, um Fertigkeiten zu aktivieren.",
+				"concise": "Elite-Verhexung. (5...20 Sekunde[n].) Verursacht -1...8 Lebenspunktdegeneration und verdoppelt die Aktivierungszeit von Fertigkeiten."
+			},
+			"de-guildwiki": {
 				"name": "Migräne",
 				"description": "5...20 Sekunden lang unterliegt der Gegner einer Lebenspunktedegeneration von -1...8 und benötigt 100% länger, um eine Fertigkeit zu aktivieren.",
 				"concise": "(5...20 Sekunden.) Verursacht -1...8 Lebenspunktdegeneration und verdoppelt Aktivierungszeit von Fertigkeiten."
 			},
 			"en": {
 				"name": "Migraine",
+				"description": "Elite Hex Spell. For 5...20 seconds, target foe suffers -1...8 Health degeneration and takes 100% longer to activate skills.",
+				"concise": "Elite Hex Spell. (5...20 seconds.) Causes -1...8 Health degeneration and doubles skill activation time."
+			},
+			"en-gww": {
+				"name": "Migraine",
 				"description": "For 5...20 seconds, target foe suffers -1...8 Health degeneration and takes 100% longer to activate skills.",
 				"concise": "(5...20 seconds.) Causes -1...8 Health degeneration and doubles skill activation time."
 			},
+			"es": {
+				"name": "Migraña",
+				"description": "Conjuro con maleficio de élite. Durante 5...20 segundos, el enemigo objetivo sufre una degeneración de salud de -1...8 y tardará un 100% más en activar sus habilidades.",
+				"concise": "Conjuro con maleficio de élite. (5...20 segundos). Causa -1...8 de degeneración de salud y dobla el tiempo de activación de habilidades."
+			},
 			"fr": {
+				"name": "Migraine",
+				"description": "Maléfice d'élite. Pendant 5...20 secondes, la cible ennemie subit une dégénération de santé de -1...8 et le temps d'activation de ses compétences est rallongé de 100%.",
+				"concise": "Maléfice d'élite. (5...20 secondes.) Entraîne une dégénération de santé de -1...8 et double le temps d'activation des compétences."
+			},
+			"fr-gwiki": {
 				"name": "Migraine",
 				"description": "Pendant 5...20 secondes, la cible ennemie subit une dégénération de santé de -1...8 et le temps d'activation de ses compétences est rallongé de 100%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Emicrania",
+				"description": "Fattura d'Élite. Per 5...20 secondi l'obiettivo nemico subisce una Degenerazione Salute di -1...8 e il tempo richiesto per l'attivazione delle sue abilità aumenta di un 100%.",
+				"concise": "Fattura d'Élite. (Secondi: 5...20). Degenerazione Salute causata: -1...8. Raddoppia il tempo di attivazione delle abilità."
+			},
+			"jp": {
+				"name": "マイグレイン",
+				"description": "エリート弱体化スペル： 5...20 秒間、ターゲットした敵は体力の自然回復力が 1...8 減少し、スキルの発動に2倍の時間がかかります。",
+				"concise": "エリート弱体化スペル： (5...20 秒) 体力の自然回復力が 1...8 減少し、スキルの発動に2倍の時間がかかります。"
+			},
+			"kr": {
+				"name": "두통",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 5...20초 동안 대상은 체력 재생이 1...8 감소하고, 스킬 시전 시간이 2배로 늘어납니다.",
+				"concise": "엘리트 약화 마법. (5...20초) 체력 재생을 1...8만큼 감소시키고, 스킬 시전 시간이 2배로 늘어나게 합니다."
+			},
+			"pl": {
+				"name": "Migrena",
+				"description": "Elitarna klątwa (czar). Przez 5...20 sek., wybrany przeciwnik cierpi na -1...8 degeneracji pkt. żywotności oraz uaktywnia umiejętności 100% dłużej.",
+				"concise": "Elitarna klątwa (czar). (5...20 sek.) Powoduje degenerację żywotności -1...8 i dwukrotnie wydłuża czas aktywacji umiejętności."
+			},
+			"ru": {
+				"name": "Migraine",
+				"description": "Элитное заклинание-проклятье. В течение 5...20 сек скорость восстановления здоровья выбранного противника уменьшается на 1...8 ед., и ему требуется на 100% больше времени для активации умений.",
+				"concise": "Элитное заклинание-проклятье. (5...20 сек) Дает -1...8 ед. к скорости восстановления здоровья и удваивает время активации умений."
+			},
+			"bork": {
+				"name": "Meegraeeene-a",
+				"description": "Ileete-a Hex Spell. Fur 5...20 secunds, taerget fue-a sooffffers -1...8 Heaelt degeneraeshun und taekes 100% lunger tu aecteefaete-a skeells.",
+				"concise": "Ileete-a Hex Spell. (5...20 secunds.) Cooses -1...8 Heaelt degeneraeshun und duoobles skeell aecteefaeshun teeme-a."
 			}
 		}
 	}

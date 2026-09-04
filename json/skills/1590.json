@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"带路！\"",
+				"description": "战吼。 使友方目标的移动速度提升25%，并根据「音波」范围内友方的数量，每一个使移动速度提升效果延长1...5秒。（一次最多可以延长30秒）",
+				"concise": "战吼。 使友方目标的移动速度提升25%，并根据「音波」范围内友方的数量，每一个使移动速度提升效果延长1...5秒。（一次最多可以延长30秒）"
+			},
+			"cht": {
+				"name": "「由你帶路！」",
+				"description": "戰嚎： 使目標盟友移動速度加快 25% ，而依照戰嚎音量所及範圍內的盟友人數，每一名盟友讓持續時間增加 1...5 秒。(最多增加 30 秒)",
+				"concise": "戰嚎： 使目標盟友移動速度加快 25% ，而依照戰嚎音量所及範圍內的盟友人數，每一名盟友讓持續時間增加 1...5 秒。(最多增加 30 秒)"
+			},
 			"de": {
+				"name": "\"Geht voran!\"",
+				"description": "Schrei. Der Verbündete (bzw. Ihr selbst) bewegt sich pro Verbündeten in Hörweite 1...5 Sekunde[n] lang um 25% schneller (maximal 30 Sekunde[n] lang).",
+				"concise": "Schrei. 1...5 Sekunde[n] pro Verbündetem in Hörweite (maximal 30 Sekunde[n]): Der Verbündete (bzw. Ihr selbst) bewegt sich um 25% schneller."
+			},
+			"de-guildwiki": {
 				"name": "\"Geht voran!\"",
 				"description": "Der Verbündete (bzw. Ihr selbst) bewegt sich pro Verbündeten<sic/> in Hörweite 1...5 Sekunden lang um 25% schneller (maximal 30 Sekunden lang).",
 				"concise": "1...5 Sekunden pro Verbündetem in Hörweite (maximal 30 Sekunden): Der Verbündete (bzw. Ihr selbst) bewegt sich um 25% schneller."
 			},
 			"en": {
 				"name": "\"Lead the Way!\"",
+				"description": "Shout. Target ally moves 25% faster for 1...5 seconds for each ally within earshot (maximum of 30 seconds).",
+				"concise": "Shout. Target ally moves 25% faster for 1...5 seconds (maximum of 30 seconds) for each ally in earshot."
+			},
+			"en-gww": {
+				"name": "\"Lead the Way!\"",
 				"description": "Target ally moves 25% faster for 1...5 seconds for each ally within earshot (maximum of 30 seconds).",
 				"concise": "Target ally moves 25% faster for 1...5 seconds (maximum of 30 seconds) for each ally in earshot."
 			},
+			"es": {
+				"name": "\"¡Lidera la marcha!\"",
+				"description": "Grito. El aliado objetivo se mueve un 25% más deprisa durante 1...5 segundos por cada aliado al alcance del oído (máximo 30 segundos).",
+				"concise": "Grito. El aliado objetivo se mueve un 25% más deprisa durante 1...5 segundos (máximo 30 segundos) por cada aliado al alcance del oído."
+			},
 			"fr": {
+				"name": "\"Ouvrez le chemin !\"",
+				"description": "Cri. La cible alliée se déplace 25% plus vite pendant 1...5 secondes pour chaque allié à portée de voix (30 secondes maximum).",
+				"concise": "Cri. L'allié visé se déplace 25% plus vite pendant 1...5 secondes pour chaque allié à portée de voix (maximum : 30 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "\"Ouvrez le chemin !\"",
 				"description": "La cible alliée se déplace 25% plus vite pendant 1...5 seconde(s) pour chaque allié à portée de voix (30 secondes maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "\"Guidaci!\"",
+				"description": "Urlo. La velocità di movimento dell'obiettivo (un alleato o te stesso) aumenta del 25%; questo urlo dura 1...5 secondo[i] per ogni alleato a portata d'orecchio (max. 30 secondo[i]).",
+				"concise": "Urlo. Incremento della velocità di movimento dell'obiettivo (un alleato o te stesso) per ogni alleato a portata d'orecchio: 25% per 1...5 secondo[i] (max 30)."
+			},
+			"jp": {
+				"name": "リード ザ ウェイ！",
+				"description": "シャウト： 声の届く範囲内にいる味方ごとに 1...5 秒間、ターゲットした味方の移動速度が25%増加します (最大 30 秒) 。",
+				"concise": "シャウト： 声の届く範囲内にいる味方ごとに、ターゲットした味方の移動速度が 1...5 秒間、25%増加します (最大 30 秒) 。"
+			},
+			"kr": {
+				"name": "앞장서라!",
+				"description": "고함. 대상 지정: 아군. 가청 범위 내에 있는 아군 한 명당 1...5초 동안 대상의 이동 속도가 25% 빨라집니다. 최대 30초 동안 빨라집니다.",
+				"concise": "고함. 가청 범위 내에 있는 아군 한 명당 1...5초씩, 최대 30초 동안 대상 아군의 이동 속도가 25% 빨라집니다."
+			},
+			"pl": {
+				"name": "\"Prowadź!\"",
+				"description": "Okrzyk. Przez 1...5 sek. na każdego sojusznika w zasięgu słuchu, wybrany sojusznik porusza się o 25% szybciej (maksymalnie 30 sek.).",
+				"concise": "Okrzyk. Wybrany sojusznik porusza się o 25% szybciej przez 1...5 sek. (maksymalnie 30 sek.) na każdego sojusznika w zasięgu słuchu."
+			},
+			"ru": {
+				"name": "\"Lead the Way!\"",
+				"description": "Крик. Выбранный союзник двигается на 25% быстрее на 1...5 сек за каждого союзника, находящегося в зоне слышимости (максимальная длительность этого эффекта 30 сек).",
+				"concise": "Крик. Выбранный союзник двигается на 25% быстрее в течение 1...5 сек (но не более 30 сек) за каждого союзника в зоне слышимости."
+			},
+			"bork": {
+				"name": "\"Leaed zee Vaey!\"",
+				"description": "Shuoot. Taerget aelly mufes 25% faester fur 1...5 secunds fur iaech aelly veetheen iaershut (maexeemoom ooff 30 secunds).",
+				"concise": "Shuoot. Taerget aelly mufes 25% faester fur 1...5 secunds (maexeemoom ooff 30 secunds) fur iaech aelly in iaershut."
 			}
 		}
 	}

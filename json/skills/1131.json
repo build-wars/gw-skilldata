@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灵魂之石",
+				"description": "技能。 触摸目标敌人对其造成 10...55 神圣伤害。如果击中倒地的敌人，则对其额外造成 10...55 神圣伤害。",
+				"concise": "触摸技。 触摸目标敌人对其造成 10...55 神圣伤害。如果击中倒地的敌人，则对其额外造成 10...55 神圣伤害。"
+			},
+			"cht": {
+				"name": "靈石衝擊",
+				"description": "技能： 碰觸目標敵人對其造成 10...55 神聖傷害。若擊中倒地的敵人，則對其額外造成 10...55 神聖傷害。",
+				"concise": "碰觸技能： 碰觸目標敵人對其造成 10...55 神聖傷害。若擊中倒地的敵人，則對其額外造成 10...55 神聖傷害。"
+			},
 			"de": {
+				"name": "Steinseelenschlag",
+				"description": "Fertigkeit. Der berührte Gegner erleidet 10...55 Punkt[e] heiligen Schaden. Wenn Euer Ziel zu Boden geworfen wurde, erleidet es zusätzlich 10...55 Punkt[e] heiligen Schaden.",
+				"concise": "Berührungs-Fertigkeit. Richtet 10...55 Punkt[e] heiligen Schaden an. Richtet zusätzlich 10...55 Punkt[e] heiligen Schaden an, falls Gegner zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Steinseelenschlag",
 				"description": "Der berührte Gegner erleidet 10...55 Punkte heiligen Schaden. Wenn Euer Ziel zu Boden geworfen wurde, erleidet es zusätzlich 10...55 heiligen Schaden.",
 				"concise": "Richtet 10...55 Punkte heiligen Schaden an. Richtet zusätzlich 10...55 Punkte heiligen Schaden an, falls der Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Stonesoul Strike",
+				"description": "Skill. Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
+				"concise": "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target foe is knocked-down."
+			},
+			"en-gww": {
+				"name": "Stonesoul Strike",
 				"description": "Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
 				"concise": "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down."
 			},
+			"es": {
+				"name": "Alma de piedra",
+				"description": "Habilidad. El enemigo al que toques recibe 10...55 de daño sagrado. Si está derribado, recibirá 10...55 de daño sagrado extra.",
+				"concise": "Habilidad de toque. Hace 10...55 de daño sagrado. 10...55 de daño sagrado extra si el enemigo objetivo está derribado."
+			},
 			"fr": {
+				"name": "Coup d'Amederoc",
+				"description": "Compétence. L'ennemi touché subit 10...55 points de dégâts sacrés. Si elle est assommée, votre cible subira 10...55 points de dégâts sacrés en plus.",
+				"concise": "Compétence de toucher. Inflige 10...55 points de dégâts sacrés. Inflige 10...55 points de dégâts sacrés supplémentaires si la cible ennemie est assommée."
+			},
+			"fr-gwiki": {
 				"name": "Coup d'Amederoc",
 				"description": "L'ennemi touché subit 10...55 points de dégâts sacrés. Si elle est assommée, votre cible subira 10...55 points de dégâts sacrés en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo di Stonesoul",
+				"description": "Abilità. L'obiettivo nemico toccato subisce 10...55 danno[i] sacro[i]. Se è a terra subisce 10...55 danno[i] sacro[i] in più.",
+				"concise": "Abilità a Tocco. Danni sacri inferti: 10...55. Danni sacri aggiuntivi se l'obiettivo nemico è stato abbattuto: 10...55."
+			},
+			"jp": {
+				"name": "ストーンソウル ストライク",
+				"description": "スキル： 接触した敵に 10...55 の神聖ダメージを与えます。転倒中の敵には 10...55 の追加神聖ダメージを与えます。",
+				"concise": "スキル (接触)： 10...55 の神聖ダメージを与えます。ターゲットした敵が転倒中の場合、10...55 の追加神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "영혼석 강타",
+				"description": "스킬. 대상 지정: 적. 대상에게 10...55의 신성 대미지를 줍니다. 그 대상이 넘어져 있다면 10...55의 신성 대미지를 추가로 줍니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "스킬(접근용). 10...55의 신성 대미지를 줍니다. 대상이 넘어져 있으면 10...55의 신성 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Uderzenie Kamiennej Duszy",
+				"description": "Umiejętność. Dotknięty przeciwnik otrzymuje 10...55 świętych obrażeń. Jeśli był powalony, otrzymuje dodatkowe 10...55 pkt. świętych obrażeń.",
+				"concise": "Umiejętność dotykowa. Zadaje 10...55 pkt. świętych obrażeń. Zadaje 10...55 pkt. dodatkowych świętych obrażeń, jeżeli wybrany przeciwnik jest powalony."
+			},
+			"ru": {
+				"name": "Stonesoul Strike",
+				"description": "Умение. Выбранный противник, до которого вы дотронулись, получает 10...55 ед. урона святой силой. Если этот противник был сбит с ног, он получит дополнительно 10...55 ед. урона святой силой.",
+				"concise": "Умение прикосновения. Наносит 10...55 ед. урона святой силой. Наносит дополнительно 10...55 ед. урона святой силой, если выбранный противник сбит с ног."
+			},
+			"bork": {
+				"name": "Stunesuool Streeke-a",
+				"description": "Skeell. Tuooched taerget fue-a taekes 10...55 huly daemaege-a. Iff knucked doon, yuoor taerget taekes un aeddeeshunael 10...55 huly daemaege-a.",
+				"concise": "Tuooch Skeell. Deaels 10...55 huly daemaege-a. Deaels 10...55 mure-a huly daemaege-a iff taerget fue-a is knucked-doon."
 			}
 		}
 	}

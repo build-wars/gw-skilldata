@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "号令亡灵",
+				"description": "精英咒文。 牺牲你最大生命值的10%。在5秒之内，使你的仆从伤害提高3...16点，但是仆从每攻击一次，你将失去最大生命值的2%。",
+				"concise": "精英咒文。 牺牲你最大生命值的10%。在5秒之内，使你的仆从伤害提高3...16点，但是仆从每攻击一次，你将失去最大生命值的2%。"
+			},
+			"cht": {
+				"name": "不死命令",
+				"description": "精英咒文魔法： 持續 5 秒，使不死爪牙的攻擊傷害增加 3...16 ，但是每當不死爪牙攻擊命中目標時，你失去最大體力值的 2% 。",
+				"concise": "精英咒文魔法： 持續 5 秒，使不死爪牙的攻擊傷害增加 3...16 ，但是每當不死爪牙攻擊命中目標時，你失去最大體力值的 2% 。"
+			},
 			"de": {
+				"name": "Orden der Untoten",
+				"description": "Elite-Zauber. 5 Sekunde[n] lang richten Eure Diener +3...16 Punkt[e] Schaden an, Ihr verliert jedoch jedes Mal, wenn einer Eurer Diener einen erfolgreichen Angriff durchführt, 2% Eurer maximalen Lebenspunkte.",
+				"concise": "Elite-Zauber. 5 Sekunde[n]: Eure Diener richten +3...16 Schaden an. Diener-Trefferwirkung: Ihr verliert 2% Eurer maximalen Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Orden der Untoten",
 				"description": "5 Sekunden lang richten Eure Diener +3...16 Punkte Schaden an, Ihr verliert jedoch jedes Mal, wenn einer Eurer Diener einen erfolgreichen Angriff durchführt, 2% Eurer maximalen Lebenspunkte.",
 				"concise": "5 Sekunden: Eure Diener richten +3...16 Schaden an. <gray>Diener-Trefferwirkung: Ihr verliert 2% Eurer maximalen Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Order of Undeath",
+				"description": "Elite Spell. For 5 seconds, your minions deal +3...16 damage, but you lose 2% of your maximum Health whenever one of your minions hits with an attack.",
+				"concise": "Elite Spell. (5 seconds). Your minions deal +3...16 damage. Minion hit effect: you lose 2% of your maximum Health."
+			},
+			"en-gww": {
+				"name": "Order of Undeath",
 				"description": "For 5 seconds, your minions deal +3...16 damage, but you lose 2% of your maximum Health whenever one of your minions hits with an attack.",
 				"concise": "(5 seconds.) Your undead servants deal +3...16 damage. <gray>You lose 2% of your maximum Health whenever your servants hit.</gray>"
 			},
+			"es": {
+				"name": "Orden de los muertos vivientes",
+				"description": "Conjuro de élite. Durante 5 segundos, tus siervos hacen +3...16 de daño, pero pierdes 2% de tu salud máxima siempre que alguno de ellos logre golpear con un ataque.",
+				"concise": "Conjuro de élite. (5 segundos). Tus siervos hacen +3...16 de daño. Efecto por cada ataque de siervo: pierdes un 2% de tu salud máxima."
+			},
 			"fr": {
+				"name": "Ordre des morts-vivants",
+				"description": "Sort d'élite. Pendant 5 secondes, vos serviteurs infligent +3...16 points de dégâts, mais vous perdez 2% de votre santé maximum chaque fois qu'un de vos serviteurs réussit une attaque.",
+				"concise": "Sort d'élite. (5 secondes.) Vos serviteurs infligent +3...16 points de dégâts. Effet de l'attaque réussie d'un serviteur : vous perdez 2% de votre santé maximum."
+			},
+			"fr-gwiki": {
 				"name": "Ordre des morts-vivants",
 				"description": "Pendant 5 secondes, vos serviteurs infligent +3...16 points de dégâts, mais vous perdez 2% de votre santé maximum chaque fois qu'un de vos serviteurs réussit une attaque.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Ordine della Non-morte",
+				"description": "Magia d'Élite. Per 5 secondo[i], i tuoi sgherri infliggono +3...16 danno[i] ma tu perdi il 2% della tua Salute massima ogni volta che uno degli attacchi dei tuoi sgherri va a segno.",
+				"concise": "Magia d'Élite. (Secondi: 5) Danni assestati dai tuoi sgherri: +3...16. Effetto risultante se il colpo dello sgherro va a segno: perdi un 2% della tua Salute massima."
+			},
+			"jp": {
+				"name": "アンデス オーダー",
+				"description": "エリート スペル： 5 秒間、プレイヤーの召喚したミニオンによる攻撃は敵に 3...16 の追加ダメージを与えますが、それぞれの攻撃が成功するたびにプレイヤーの体力が上限の2%減少します。",
+				"concise": "エリート スペル： (5 秒) プレイヤーが召喚したミニオンの攻撃は、敵に 3...16 の追加ダメージを与えます。ミニオンの攻撃効果： プレイヤーは、体力が上限の2%減少します。"
+			},
+			"kr": {
+				"name": "죽음의 명령",
+				"description": "엘리트 마법. 대상 지정: 없음. 5초 동안 자신의 언데드 노예들의 공격 대미지가 3...16 증가하지만, 언데드 노예의 공격이 성공할 때마다 자신은 최대 체력의 2%씩 잃습니다.",
+				"concise": "엘리트 마법. (5초) 자신의 언데드 노예들의 공격 대미지가 3...16 증가합니다. 언데드 노예의 공격 성공 효과: 시전자가 최대 체력의 2%씩 잃습니다."
+			},
+			"pl": {
+				"name": "Rozkaz Ożywieńców",
+				"description": "Elitarny czar. Przez 5 sek. twoje sługi zadają +3...16 pkt. obrażeń, ale za każdym razem, kiedy jeden z nich trafi, ty tracisz 2% swojej maksymalnej żywotności.",
+				"concise": "Elitarny czar. (5 sek.) Twoi nieumarli słudzy zadają +3...16 pkt. obrażeń. Efekt po trafieniu sługi: tracisz 2% twojej maksymalnej żywotności."
+			},
+			"ru": {
+				"name": "Order of Undeath",
+				"description": "Элитное заклинание. В течение 5 сек ваши Minions наносят дополнительно 3...16 ед. урона, но вы теряете по 2% здоровья от вашего максимального уровня при каждой успешной атаке вашего Minion.",
+				"concise": "Элитное заклинание. (5 сек) Ваши Minions наносят дополнительно 3...16 ед. урона. Эффект от успешного удара Minion: вы теряете 2% от вашего максимального уровня здоровья."
+			},
+			"bork": {
+				"name": "Oorder ooff Undeaet",
+				"description": "Ileete-a Spell. Fur 5 secunds, yuoor meeneeuns deael +3...16 daemaege-a, boot yuoo luse-a 2% ooff yuoor maexeemoom Heaelt vhenefer oone-a ooff yuoor meeneeuns heets veet un aettaeck.",
+				"concise": "Ileete-a Spell. (5 secunds). Yuoor meeneeuns deael +3...16 daemaege-a. Meeneeun heet iffffect: yuoo luse-a 2% ooff yuoor maexeemoom Heaelt."
 			}
 		}
 	}

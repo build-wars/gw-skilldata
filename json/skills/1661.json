@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 7,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "灼热之石",
+				"description": "咒文。 向敌人投出一块滚烫的石头，命中时对其造成5...50点地系伤害。如果击中正遭受「虚弱」症状的敌人，你将获得5点能量值。",
+				"concise": "咒文。 向敌人投出一块滚烫的石头，命中时对其造成5...50点地系伤害。如果击中正遭受「虚弱」症状的敌人，你将获得5点能量值。"
+			},
+			"cht": {
+				"name": "灼熱之石",
+				"description": "咒文魔法： 此技能為投射性攻擊，對目標敵人造成5...50土系傷害。若該目標遭受虛弱，你獲得5能量，同時依照能量儲存等級，每2級讓你額外獲得1能量。",
+				"concise": "咒文魔法： 此技能為投射性攻擊，對目標敵人造成5...50土系傷害。若該目標遭受虛弱，你獲得5能量，同時依照能量儲存等級，每2級讓你額外獲得1能量。"
+			},
 			"de": {
+				"name": "Leuchtstein",
+				"description": "Zauber. Sendet ein Geschoss aus, das dem Gegner 5...50 Punkt[e] Erdschaden zufügt, wenn es trifft. Wenn dieser Zauber einen geschwächten Gegner trifft, erhaltet Ihr 5 Energiepunkt[e] sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung.",
+				"concise": "Zauber. Geschoss: Richtet 5...50 Punkt[e] Erdschaden an. Ihr erhaltet 5 Energiepunkt[e] sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn der Gegner unter Schwäche leidet."
+			},
+			"de-guildwiki": {
 				"name": "Leuchtstein",
 				"description": "Sendet ein Geschoss aus, das dem Gegner 5...50 Punkte Erdschaden zufügt, wenn es trifft. Wenn dieser Zauber einen geschwächten Gegner trifft, erhaltet Ihr 5 Energiepunkte sowie 1 Punkt für alle 2 Ränge in Energiespeicherung.",
 				"concise": "Geschoss: Richtet 5...50 Punkte Erdschaden an. Ihr erhaltet 5 Energiepunkte sowie 1 Energiepunkt pro 2 Ränge in Energiespeicherung, wenn der Gegner unter Schwäche leidet."
 			},
 			"en": {
 				"name": "Glowstone",
+				"description": "Spell. Send a projectile that strikes for 5...50 earth damage if it hits. If this spell hits a weakened foe, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
+				"concise": "Spell. Projectile: deals 5...50 earth damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Weakened."
+			},
+			"en-gww": {
+				"name": "Glowstone",
 				"description": "Send a projectile that strikes for 5...50 earth damage if it hits. If this spell hits a weakened <sic/> foe, you gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage.",
 				"concise": "Projectile: deals 5...50 earth damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Weakened."
 			},
+			"es": {
+				"name": "Piedra brillante",
+				"description": "Conjuro. Lanza un proyectil que causa 5...50 de daño de tierra si alcanza el objetivo. Si este conjuro alcanza a un enemigo debilitado, ganas 5 de energía más 1 de energía por cada 2 rangos de almacenamiento de energía.",
+				"concise": "Conjuro. Proyectil: causa 5...50 de daño de tierra. Ganas 5 de energía más 1 de energía por cada 2 rangos de almacenamiento de energía si el enemigo objetivo está debilitado."
+			},
 			"fr": {
+				"name": "Pierre fluorescente",
+				"description": "Sort. Vous envoyez un projectile qui inflige 5...50 points de dégâts de la terre si l'attaque réussit. Si ce sort frappe un ennemi souffrant de Faiblesse, vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie.",
+				"concise": "Sort. Projectile : inflige 5...50 points de dégâts de la terre. Vous gagnez 5 points d'énergie et 1 point d'énergie supplémentaire tous les 2 rangs de Conservation d'énergie si la cible ennemie souffre de Faiblesse."
+			},
+			"fr-gwiki": {
 				"name": "Pierre fluorescente",
 				"description": "Vous envoyez un projectile qui inflige 5...50 points de dégâts de la Terre si l'attaque réussit. Si ce sort frappe un ennemi soufrant de faiblesse, vous gagnez 5 points d'énergie plus 1 point d'énergie tous les 2 rangs de conservation d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Pietra Fluorescente",
+				"description": "Magia. Lanci un proiettile che infligge 5...50 danni da fuoco se va a segno. Se questa magia colpisce un nemico indebolito ottieni 5 Punti Energia e 1 Punto Energia per ogni 2 gradi della Riserva di Energia.",
+				"concise": "Magia. Proiettile: infligge 5...50 danni da terra. Energia conseguita se l'obiettivo nemico è affetto da Debolezza: 5 più 1 per ogni 2 gradi della Riserva di Energia."
+			},
+			"jp": {
+				"name": "グロウストーン",
+				"description": "スペル： 命中すると 5...50 のアース ダメージを与える攻撃を行います。「衰弱」状態の敵に命中した場合、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。",
+				"concise": "スペル： 遠投攻撃： 5...50 のアース ダメージを与えます。ターゲットした敵が「衰弱」状態の場合、プレイヤーは 5 のエネルギーと「ストレージ」の特性2レベルごとに1のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "타오르는 돌",
+				"description": "마법. 대상 지정: 적. 대상에게 발사체를 날려 명중하면 5...50의 대지 대미지를 줍니다. 그 대상이 약체 상태라면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 특성 레벨 2당 1의 에너지를 추가로 얻습니다.",
+				"concise": "마법. 발사체: 5...50의 대지 대미지를 줍니다. 대상이 약체 상태면 자신은 5의 에너지를 얻고, 거기에 더해 에너지 축적 레벨 2당 1의 에너지를 추가로 얻습니다."
+			},
+			"pl": {
+				"name": "Błyszczący Kamień",
+				"description": "Czar. Wystrzeliwujesz pocisk, który po trafieniu zadaje 5...50 pkt. obrażeń od ziemi. Jeżeli czar trafi osłabionego przeciwnika, otrzymujesz 5 pkt. energii plus 1 pkt. energii na każde 2 poziomy Zapasu Energii.",
+				"concise": "Czar. Pocisk: zadaje 5...50 pkt. obrażeń od ziemi. Otrzymujesz 5 pkt. energii plus 1 pkt. energii na każde 2 poziomy Zapasu Energii, jeżeli wybrany przeciwnik jest osłabiony."
+			},
+			"ru": {
+				"name": "Glowstone",
+				"description": "Заклинание. Бросок метательным снарядом, который наносит 5...50 ед. урона силой земли в случае попадания. Если это заклинание попадает в ослабленного противника, вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage.",
+				"concise": "Заклинание. Метательный снаряд: наносит 5...50 ед. урона силой земли. Вы получаете 5 ед. энергии и по 1 ед. энергии за каждые 2 уровня таланта Energy Storage, если выбранный противник ослаблен."
+			},
+			"bork": {
+				"name": "Gloostune-a",
+				"description": "Spell. Send a prujecteele-a thaet streekes fur 5...50 iaert daemaege-a iff it heets. Iff thees spell heets a veaekened fue-a, yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a.",
+				"concise": "Spell. Prujecteele-a: deaels 5...50 iaert daemaege-a. Yuoo gaeeen 5 Inergy ploos 1 Inergy fur ifery 2 runks ooff Inergy Sturaege-a iff taerget fue-a is Veaekened."
 			}
 		}
 	}

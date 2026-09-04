@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恸哭之躯",
+				"description": "武咒。 使目标盟友拥有恸哭之躯。在3...14秒之内，每当该盟友命中正在进行攻击的敌人时，敌人动作将被打断。",
+				"concise": "武咒。 使目标盟友拥有恸哭之躯。在3...14秒之内，每当该盟友命中正在进行攻击的敌人时，敌人动作将被打断。"
+			},
+			"cht": {
+				"name": "哭號武裝",
+				"description": "武裝魔法： 使目標盟友擁有哭號武裝。在 3...14 秒內，每當該盟友命中正在進行攻擊的敵人時，敵人動作將被中斷。",
+				"concise": "武裝魔法： 使目標盟友擁有哭號武裝。在 3...14 秒內，每當該盟友命中正在進行攻擊的敵人時，敵人動作將被中斷。"
+			},
 			"de": {
+				"name": "Klagende Waffe",
+				"description": "Waffenzauber. 3...14 Sekunde[n] lang hat der Verbündete (bzw. Ihr selbst) eine Klagende Waffe. Jedes Mal, wenn diese einen angreifenden Feind trifft, wird dieser unterbrochen.",
+				"concise": "Waffenzauber. 3...14 Sekunde[n]: Angriffe unterbrechen angreifende Feinde."
+			},
+			"de-guildwiki": {
 				"name": "Klagende Waffe",
 				"description": "3...14 Sekunden lang hat der Verbündete (bzw. Ihr selbst) eine Klagende Waffe. Jedes Mal, wenn diese einen angreifenden Feind trifft, wird dieser unterbrochen.",
 				"concise": "3...14 Sekunden: Angriffe unterbrechen angreifende Feinde."
 			},
 			"en": {
 				"name": "Wailing Weapon",
+				"description": "Weapon Spell. For 3...14 seconds, target ally has a Wailing Weapon. Whenever the Wailing Weapon strikes an attacking foe, that foe is interrupted.",
+				"concise": "Weapon Spell. (3...14 seconds.) Attacks interrupt attacking foes."
+			},
+			"en-gww": {
+				"name": "Wailing Weapon",
 				"description": "For 3...14 seconds, target ally has a Wailing Weapon. Whenever the Wailing Weapon strikes an attacking foe, that foe is interrupted.",
 				"concise": "(3...14 seconds.) Attacks interrupt attacking foes."
 			},
+			"es": {
+				"name": "Arma de lamentos",
+				"description": "Conjuro con arma. Durante 3...14 segundos, el objetivo (un aliado o tú mismo) tiene un Arma de lamentos. Siempre que ésta golpee a un enemigo atacando, le interrumpirá.",
+				"concise": "Conjuro con arma. (3...14 segundos). Los ataques interrumpen a los enemigos que ataquen."
+			},
 			"fr": {
+				"name": "Arme des doléances",
+				"description": "Sort d'altération d'arme. Pendant 3...14 secondes, la cible (un allié ou vous-même) a l'arme des doléances en sa possession. Chaque fois que l'Arme des doléances touche un ennemi qui attaque, celui-ci est interrompu.",
+				"concise": "Sort d'altération d'arme. (3...14 secondes.) Les attaques interrompent les ennemis qui attaquent."
+			},
+			"fr-gwiki": {
 				"name": "Arme des doléances",
 				"description": "Pendant 3...14 secondes, la cible (un allié ou vous-même) a l'arme des doléances en sa possession. Chaque fois que l'Arme des doléances touche un ennemi qui attaque, celui-ci est interrompu.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Arma del Lamento",
+				"description": "Magia Altera-arma. Per 3...14 secondo[i], l'obiettivo (un alleato o te stesso) ha un'Arma del Lamento; ogni volta che questa colpisce un nemico all'attacco, lo interrompe.",
+				"concise": "Magia Altera-arma. (Secondi: 3...14) Gli attacchi interrompono i nemici all'attacco."
+			},
+			"jp": {
+				"name": "ウェイル ウェポン",
+				"description": "ウェポン スペル： 3...14 秒間、ターゲットした味方が攻撃中の敵を攻撃すると、その敵の攻撃を中断します。",
+				"concise": "ウェポン スペル： (3...14 秒) 攻撃中の敵のアクションを中断します。"
+			},
+			"kr": {
+				"name": "비명의 무기",
+				"description": "마법 무기. 대상 지정: 아군. 3...14초 동안 대상은 \"비명의 무기\" 효과를 얻습니다. 공격 중이던 적에게 대상의 무기 공격이 성공하면 적은 공격을 방해받습니다.",
+				"concise": "마법 무기. (3...14초) 공격 중인 적을 방해합니다."
+			},
+			"pl": {
+				"name": "Zawodzący Oręż",
+				"description": "Czar z broni. Na 3...14 sek., wybrany sojusznik zyskuje Zawodzący Oręż. Za każdym razem, kiedy Zawodzący Oręż trafi atakującego przeciwnika, czynność tego przeciwnika zostaje przerwana.",
+				"concise": "Czar z broni. (3...14 sek.) Ataki przerywają czynności atakujących przeciwników."
+			},
+			"ru": {
+				"name": "Wailing Weapon",
+				"description": "Оружейное заклинание. В течение 3...14 сек у выбранного союзника будет Wailing Weapon. Каждый раз, когда Wailing Weapon поражает атакующего противника, этот противник будет прерван.",
+				"concise": "Оружейное заклинание. (3...14 сек) Атаки прерывают атакующих противников."
+			},
+			"bork": {
+				"name": "Vaeeeleeng Veaepun",
+				"description": "Veaepun Spell. Fur 3...14 secunds, taerget aelly haes a Vaeeeleeng Veaepun. Vhenefer zee Vaeeeleeng Veaepun streekes un aettaeckeeng fue-a, thaet fue-a is interroopted.",
+				"concise": "Veaepun Spell. (3...14 secunds.) Aettaecks interroopt aettaeckeeng fues."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "迷雾形态",
+				"description": "精英增益魔法。 在10...45秒之内，敌人无法对你造成物理伤害，同时你也无法对敌人造成物理伤害。",
+				"concise": "精英增益魔法。 在10...45秒之内，敌人无法对你造成物理伤害，同时你也无法对敌人造成物理伤害。"
+			},
+			"cht": {
+				"name": "迷霧",
+				"description": "精英加持魔法： 持續 10...45 秒，你無法受到攻擊傷害但是也無法對敵人造成攻擊傷害。",
+				"concise": "精英加持魔法： 持續 10...45 秒，你無法受到攻擊傷害但是也無法對敵人造成攻擊傷害。"
+			},
 			"de": {
+				"name": "Nebelform",
+				"description": "Elite-Verzauberung. 10...45 Sekunde[n] lang erleidet Ihr 33% weniger Schaden von Feinden, die an den Auswirkungen einer Wassermagie-Verhexung leiden. Immer wenn Ihr einen Elementarzauber wirkt, werden alle Verbündete in Hörweite, die keine Geister sind, um 50...250% der Energiekosten dieses Zaubers geheilt.",
+				"concise": "Elite-Verzauberung. (10...45 Sekunde[n].) Ihr erleidet 33% weniger Schaden von Feinden, die an den Auswirkungen einer Wassermagie-Verhexung leiden. Verbündete in Hörweite, die keine Geister sind, werden um 50...250% der Energiekosten Eurer Elementarzauber geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Nebelform",
 				"description": "10...45 Sekunden lang erleidet Ihr 33% weniger Schaden von Feinden, die an den Auswirkungen einer Wassermagie-Verhexung leiden. Immer wenn Ihr einen Elementarzauber wirkt, werden alle Verbündete<sic/> in Hörweite, die keine Geister sind, um 50...250% der Energiekosten dieses Zaubers geheilt.",
 				"concise": "(10...45 Sekunden.) Ihr erleidet 33% weniger Schaden von Feinden, die an den Auswirkungen einer Wassermagie-Verhexung leiden. Verbündete in Hörweite, die keine Geister sind, werden um 50...250% der Energiekosten Eurer Elementarzauber geheilt."
 			},
 			"en": {
 				"name": "Mist Form",
+				"description": "Elite Enchantment Spell. For 10...45 seconds, you take 33% less damage from foes under the effect of Water Magic hexes. Whenever you cast an elemental spell, all non-spirit allies in earshot are healed for 50...250% of the Energy cost of the spell.",
+				"concise": "Elite Enchantment Spell. (10...45 seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for 50...250% of the Energy cost of your elemental spells."
+			},
+			"en-gww": {
+				"name": "Mist Form",
 				"description": "For 10...45 seconds, you take 33% less damage from foes under the effects of Water Magic hexes. Whenever you cast an elemental spell, all non-spirit allies in earshot are healed for 50...250% of the Energy cost of the spell.",
 				"concise": "(10...45 seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for 50...250% of the energy cost of your elemental spells."
 			},
+			"es": {
+				"name": "Forma de niebla",
+				"description": "Conjuro con encantamiento de élite. Durante 10...45 segundos, recibes un 33% menos de daño de los enemigos que estén bajo el efecto de maleficios de magia de agua. Cada vez que lances un conjuro de los elementos, todos aliados no espíritus al alcance del oído se curarán un 50...250% del coste de energía del conjuro.",
+				"concise": "Conjuro con encantamiento de élite. (10...45 segundos). Recibes un 33% menos de daño de los enemigos que estén bajo el efecto de maleficios de magia de agua. Cura a los aliados no espíritus al alcance del oído un 50...250% del coste de energía de tus conjuros de los elementos."
+			},
 			"fr": {
+				"name": "Forme de brume",
+				"description": "Enchantement d'élite. Pendant 10...45 secondes, vous subissez 33% de dégâts en moins face aux ennemis sous l'effet d'un maléfice de la Magie de l'eau. Quand vous lancez un sort élémentaire, tous les alliés (autres qu'esprits) à portée de voix regagnent 50...250% du coût énergétique du sort.",
+				"concise": "Enchantement d'élite. (10...45 secondes.) 33% de dégâts en moins face aux ennemis sous l'effet d'un maléfice de la Magie de l'eau. Les alliés (autres qu'esprits) à portée de voix regagnent 50...250% du coût énergétique de vos sorts élémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Forme de brume",
 				"description": "Pendant 10...45 secondes, vous subissez 33% de dégâts en moins face aux ennemis sous l'effet d'un maléfice de la Magie de l'eau. Quand vous lancez un sort élémentaire, tous les alliés (autres qu'esprits) à portée de voix regagnent 50...250% du coût énergétique du sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Forma di Nebbia",
+				"description": "Incantesimo d'Élite. Per 10...45 secondi, subisci un 33% di danni in meno dai nemici sotto gli effetti di una fattura della Magia dell'Acqua. Quando lanci una magia elementale, tutti gli alleati a portata d'orecchio (Spiriti esclusi) vengono curati di un 50...250% del costo in Energia della magia.",
+				"concise": "Incantesimo d'Élite. (Secondi: 10...45.) Subisci un 33% di danni in meno dai nemici colpiti da Magia dell'Acqua. Cura gli alleati a portata d'orecchio (Spiriti esclusi) di un 50...250% del costo in Energia delle tue magie elementali."
+			},
+			"jp": {
+				"name": "ミスト フォーム",
+				"description": "エリート強化スペル： 10...45 秒間、「ウォーター」特性の弱体化スペルがかけられている敵からのダメージが 33% 減少します。声の届く範囲内にいる精霊以外の味方は、プレイヤーが元素スペルを詠唱するたびに、その消費エネルギーの 50...250% の体力が回復します。",
+				"concise": "エリート強化スペル： (10...45 秒) 「ウォーター」特性の弱体化スペルがかけられている敵からのダメージが 33% 減少します。声の届く範囲内にいる精霊以外の味方は、プレイヤーが詠唱する元素スペルに必要なエネルギーの 50...250% 相当の体力が回復します。"
+			},
+			"kr": {
+				"name": "안개 형상",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 10...45초 동안 물 속성 약화 마법에 걸린 적에게 받는 대미지가 33% 감소합니다. 정령 마법을 사용할 때마다 가청 범위 내에 있는 영혼이 아닌 모든 아군의 체력을 소모 에너지의 50...250%만큼씩 회복시킵니다.",
+				"concise": "엘리트 강화 마법. (10...45초) 물 속성 약화 마법에 걸린 적에게 받는 대미지가 33% 감소합니다. 가청 범위 내에 있는 영혼이 아닌 모든 아군의 체력을 정령 마법 소모 에너지의 50...250%만큼씩 회복시킵니다."
+			},
+			"pl": {
+				"name": "Mglisty Kształt",
+				"description": "Elitarne zaklęcie (czar). Przez 10...45 sek., nie możesz otrzymać, ani zadać obrażeń podczas ataku.",
+				"concise": "Elitarne zaklęcie (czar). (10...45 sek.) Nie otrzymujesz obrażeń z ataków. Twoje ataki nie zadają obrażeń."
+			},
+			"ru": {
+				"name": "Mist Form",
+				"description": "Элитное заклинание-чары. В течение 10...45 сек вы получаете на 33% меньше урона от противников, находящихся под воздействием проклятий, связанных с Water Magic. Каждый раз, когда вы произносите заклинание, связанное со стихиями, все не являющиеся духами союзники в зоне слышимости будут исцелены на 50...250% от количества энергии, требующейся для активации заклинания.",
+				"concise": "Элитное заклинание-чары. (10...45 сек) Вы получаете на 33% меньше урона от противников, находящихся под воздействием проклятий, связанных с Water Magic. Исцеляет не являющихся духами союзников в зоне слышимости при использовании заклинаний, связанных со стихиями, на 50...250% от количества энергии, требующейся их активации."
+			},
+			"bork": {
+				"name": "Meest Furm",
+				"description": "Ileete-a Inchuntment Spell. Fur 10...45 secunds, yuoo taeke-a 33% less daemaege-a frum fues under zee iffffect ooff Vaeter Maegeec hexes. Vhenefer yuoo caest un ilementael spell, aell nun-spureet aelleees in iaershut aere-a heaeled fur 50...250% ooff zee Inergy cust ooff zee spell.",
+				"concise": "Ileete-a Inchuntment Spell. (10...45 secunds.) Taeke-a 33% less daemaege-a frum fues hexed veet Vaeter Maegeec. Heaels nun-spureet aelleees in iaershut fur 50...250% ooff zee Inergy cust ooff yuoor ilementael spells. Bork! Bork! Bork!"
 			}
 		}
 	}

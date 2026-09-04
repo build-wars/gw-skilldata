@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Ebon Escape",
+				"description": "咒文。 Shadow Step to target other ally. You and that ally are healed for 70...110 Health.",
+				"concise": "咒文。 Heals you and target ally for 70...110. Initial effect: Shadow Step to this ally. Cannot self-target."
+			},
+			"cht": {
+				"name": "黑檀脫逃",
+				"description": "咒文魔法： 「暗影步伐」至其他目標盟友之處。治癒自己及該盟友 70...110 體力。",
+				"concise": "咒文魔法： Shadow Step to target other ally. You and that ally are healed for 70...110 Health."
+			},
 			"de": {
+				"name": "Ebon-Flucht",
+				"description": "Zauber. Unternehmt einen Schattenschritt zum ausgewählten Verbündeten hin. Ihr und der Verbündete werden um 70...110 Lebenspunkt[e] geheilt.",
+				"concise": "Zauber. Heilt Euch und den Verbündeten um 70...110 Lebenspunkt[e]. Anfangswirkung: Ihr unternehmt einen Schattenschritt zum Verbündeten. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Ebon-Flucht",
 				"description": "Unternehmt einen Schattenschritt zum ausgewählten Verbündeten hin. Ihr und der Verbündete werden um 70...110 Lebenspunkte geheilt.",
 				"concise": "Heilt Euch und den Verbündeten um 70...110 Lebenspunkte. Anfangswirkung: Ihr unternehmt einen Schattenschritt zum Verbündeten. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Ebon Escape",
+				"description": "Spell. Shadow Step to target other ally. You and that ally are healed for 70...110 Health.",
+				"concise": "Spell. Heals you and target ally for 70...110. Initial effect: Shadow Step to this ally. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Ebon Escape",
 				"description": "Shadow Step to target other ally. You and that other ally are healed for 70...110 health.",
 				"concise": "Heals you and target ally for 70...110. Initial effect: Shadow Step to this ally. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Huida de ébano",
+				"description": "Conjuro. Das un paso sombrío hasta el aliado objetivo. Los dos os curáis 70...110 de salud.",
+				"concise": "Conjuro. Te cura a ti y al aliado objetivo 70...110 de salud. Efecto inicial: das un paso sombrío hasta ese aliado. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Echappatoire d'Ebon",
+				"description": "Sort. Vous faites une Foulée de l'ombre vers la cible alliée. Cet allié et vous-même êtes soignés de 70...110 points de vie.",
+				"concise": "Sort. L'allié visé et vous êtes soignés de 70...110 points de vie. Effet initial : vous faites une foulée de l'ombre vers cet allié. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Echappatoire d'Ebon",
 				"description": "Vous faites une Foulée de l'ombre vers la cible alliée. Cet allié et vous-même êtes soignés de 70...110 points de vie.",
 				"concise": "L'allié visé et vous êtes soignés de 70...110 points de vie. Effet initial : vous faites une foulée de l'ombre vers cet allié."
+			},
+			"it": {
+				"name": "Fuga d'Ebano",
+				"description": "Magia. Compi un Passo nell'Ombra verso l'obiettivo alleato; entrambi venite curati di 70...110 Punto[i] Salute.",
+				"concise": "Magia. Cure a te e all'obiettivo alleato: 70...110. Effetto iniziale: compi un Passo nell'Ombra verso questo alleato. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "エボン エスケープ",
+				"description": "スペル： ターゲットした自分以外の味方のそばに瞬間移動します。プレイヤーおよびターゲットは体力が 70...110 回復します。",
+				"concise": "スペル： プレイヤーおよびターゲットした味方は体力が 70...110 回復します。発動効果： ターゲットのそばに瞬間移動します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "흑단선봉대 후퇴",
+				"description": "마법. 아군의 위치로 순간 이동합니다. 아군과 자신이 70...110의 체력을 회복합니다. 자신을 대상으로 사용할 수 없습니다.",
+				"concise": "마법. 아군과 자신의 체력을 70...110 회복합니다. 초기 효과: 아군의 위치로 순간 이동합니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Ucieczka Hebanowej Awangardy",
+				"description": "Czar. Wykonujesz krok cienia do wybranego sojusznika innego niż ty. Ty i ten sojusznik otrzymujecie po 70...110 pkt. żywotności.",
+				"concise": "Czar. Tobie i wybranemu sojusznikowi dodaje po 70...110 pkt. żywotności. Efekt początkowy: wykonujesz krok cienia do tego sojusznika. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Ebon Escape",
+				"description": "Заклинание. Вы делаете призрачный шаг к выбранному союзнику (но не к вам самому). Вы и этот союзник исцеляетесь на 70...110 ед. здоровья.",
+				"concise": "Заклинание. Исцеляет вас и выбранного союзника на 70...110 ед. здоровья. Начальный эффект: вы делаете призрачный шаг к этому союзнику. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Ibun Iscaepe-a",
+				"description": "Spell. Shaedoo Step tu taerget oozeer aelly. Yuoo und thaet aelly aere-a heaeled fur 70...110 Heaelt.",
+				"concise": "Spell. Heaels yuoo und taerget aelly fur 70...110. Ineeteeael iffffect: Shaedoo Step tu thees aelly. Cunnut selff-taerget."
 			}
 		}
 	}

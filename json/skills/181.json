@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "法力恢复",
+				"description": "精英增益魔法。 每次施法结束后，你每带有一项「增益魔法」将让你获得 1...4点 能量和 5...20点 生命值。",
+				"concise": "精英增益魔法。 每次施法结束后，你每带有一项「增益魔法」将让你获得 1...4点 能量和 5...20点 生命值。"
+			},
+			"cht": {
+				"name": "魔力復原",
+				"description": "精英加持魔法： 持續 5...20 秒，每次你施展「魔法」後，你身上的每項「加持」讓你獲得 1...4 能量和 5...20 體力。",
+				"concise": "精英加持魔法： 持續 5...20 秒，每次你施展「魔法」後，你身上的每項「加持」讓你獲得 1...4 能量和 5...20 體力。"
+			},
 			"de": {
+				"name": "Äthererneuerung",
+				"description": "Elite-Verzauberung. 5...20 Sekunde[n] lang bekommt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, 1...4 Energiepunkt[e] und 5...20 Lebenspunkt[e] für jede Verzauberung, die auf Euch liegt.",
+				"concise": "Elite-Verzauberung. (5...20 Sekunde[n].) Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr für jede Verzauberung auf Euch 1...4 Energiepunkt[e] und 5...20 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Äthererneuerung",
 				"description": "5...20 Sekunden lang bekommt Ihr jedes Mal, wenn Ihr einen Zauber wirkt, 1...4 Energiepunkte und heilt um 5...20 Lebenspunkte. Beides gilt für jede Verzauberung, die auf Euch liegt.",
 				"concise": "5...20 Sekunden: Jedes Mal, wenn Ihr einen Zauber wirkt, erhaltet Ihr für jede Verzauberung auf Euch 1...4 Energiepunkte und heilt um 5...20 Lebenspunkte."
 			},
 			"en": {
 				"name": "Ether Renewal",
+				"description": "Elite Enchantment Spell. For 5...20 seconds, each time you cast a spell, you gain 1...4 Energy and 5...20 Health for each enchantment on you.",
+				"concise": "Elite Enchantment Spell. (5...20 seconds.) Each time you cast a spell, you gain 1...4 Energy and 5...20 Health for each enchantment on you."
+			},
+			"en-gww": {
+				"name": "Ether Renewal",
 				"description": "For 5...20 seconds, each time you cast a spell, you gain 1...4 Energy and 5...20 Health for each enchantment on you.",
 				"concise": "(5...20 seconds.) Each time you cast a spell, you gain 1...4 Energy and 5...20 Health for each enchantment on you."
 			},
+			"es": {
+				"name": "Renovación de éter",
+				"description": "Conjuro con encantamiento de élite. Durante 5...20 segundos, cada vez que lances un conjuro, ganas 1...4 de energía y 5...20 de salud por cada encantamiento que tengas.",
+				"concise": "Conjuro con encantamiento de élite. (5...20 segundos). Cada vez que lances un conjuro, ganas 1...4 de energía y 5...20 de salud por cada encantamiento que tengas."
+			},
 			"fr": {
+				"name": "Renouveau éthéré",
+				"description": "Enchantement d'élite. Pendant 5...20 secondes, à chaque fois que vous lancez un sort, vous gagnez 1...4 points d'énergie et 5...20 points de vie pour chaque enchantement qui vous affecte.",
+				"concise": "Enchantement d'élite. (5...20 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1...4 points d'énergie et 5...20 points de vie par enchantement vous affectant."
+			},
+			"fr-gwiki": {
 				"name": "Renouveau éthéré",
 				"description": "Pendant 5...20 secondes, à chaque fois que vous lancez un sort, vous gagnez 1...4 point(s) d'énergie et 5...20 points de vie pour chaque enchantement qui vous affecte.",
 				"concise": "(5...20 secondes.) Chaque fois que vous lancez un sort, vous gagnez 1...4 point(s) d'énergie et 5...20 points de vie par enchantement vous affectant."
+			},
+			"it": {
+				"name": "Rinnovamento dell'Etere",
+				"description": "Incantesimo d'Élite. Per 5...20 secondi, ogni volta che lanci una magia, ottieni 1...4 Punti Energia e 5...20 Punti Salute per ogni incantesimo che hai addosso.",
+				"concise": "Incantesimo d'Élite. (Secondi: 5...20.) Ogni volta che lanci una magia, ottieni 1...4 Punti di Energia e 5...20 di Salute per ogni incantesimo che hai addosso."
+			},
+			"jp": {
+				"name": "エーテル リニューアル",
+				"description": "エリート強化スペル： 5...20 秒間、スペルを詠唱するたびに、かけられている強化スペルごとに 1...4 のエネルギーと 5...20 の体力を獲得します。",
+				"concise": "エリート強化スペル： (5...20 秒) スペルを詠唱するたびに、かけられている強化スペルごとに 1...4 のエネルギーと 5...20 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "에너지 회복",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5...20초 동안 마법을 외울 때마다 자신에게 걸려 있는 강화 마법 하나당 5...20의 체력과 1...4의 에너지를 회복합니다.",
+				"concise": "엘리트 강화 마법. (5...20초) 마법을 외울 때마다 자신에게 걸려 있는 강화 마법 하나당 5...20의 체력과 1...4의 에너지를 회복합니다."
+			},
+			"pl": {
+				"name": "Eteryczna Odnowa",
+				"description": "Elitarne zaklęcie (czar). Przez 5...20 sek., za każdym razem, kiedy rzucasz czar, otrzymujesz 1...4 pkt. energii i 5...20 pkt. żywotności za każde zaklęcie, które masz na sobie.",
+				"concise": "Elitarne zaklęcie (czar). (5...20 sek.) Za każdym razem, kiedy rzucasz czar, otrzymujesz 1...4 pkt. energii i 5...20 pkt. żywotności, za każde zaklęcie, które masz na sobie."
+			},
+			"ru": {
+				"name": "Ether Renewal",
+				"description": "Элитное заклинание-чары. В течение 5...20 сек каждый раз, когда вы произносите заклинание, вы получаете 1...4 ед. энергии и 5...20 ед. здоровья за каждые лежащие на вас чары.",
+				"concise": "Элитное заклинание-чары. (5...20 сек) Каждый раз, когда вы произносите заклинание, вы получаете 1...4 ед. энергии и 5...20 ед. здоровья за каждые лежащие на вас чары."
+			},
+			"bork": {
+				"name": "Izeer Renooael",
+				"description": "Ileete-a Inchuntment Spell. Fur 5...20 secunds, iaech teeme-a yuoo caest a spell, yuoo gaeeen 1...4 Inergy und 5...20 Heaelt fur iaech inchuntment oon yuoo.",
+				"concise": "Ileete-a Inchuntment Spell. (5...20 secunds.) Iaech teeme-a yuoo caest a spell, yuoo gaeeen 1...4 Inergy und 5...20 Heaelt fur iaech inchuntment oon yuoo."
 			}
 		}
 	}

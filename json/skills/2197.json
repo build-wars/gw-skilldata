@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 7,
 		"adrenaline_precise": 6.4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Body Blow",
+				"description": "近战技能。 If this attack hits, target foe takes +10...40 damage. If target foe has Cracked Armor, that foe suffers from a Deep Wound for 0...15 seconds.",
+				"concise": "近战技能。 Deals +10...40 damage. Inflicts Deep Wound (0...15 seconds) if target foe has Cracked Armor."
+			},
+			"cht": {
+				"name": "主力一鎚",
+				"description": "近身攻擊技能： 此攻擊命中時，目標敵人受到 +10...40 傷害。若該目標敵人正遭受「碎甲」，則將受到「重傷」 0...15 秒。",
+				"concise": "近身攻擊技能： 此攻擊命中時，目標敵人受到 +10...40 傷害。若該目標敵人正遭受「碎甲」，則將受到「重傷」 0...15 秒。"
+			},
 			"de": {
+				"name": "Körperschlag",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, erleidet der Gegner +10...40 Punkt[e] Schaden. Wenn er an Beschädigter Rüstung leidet, hat er 0...15 Sekunde[n] lang eine Tiefe Wunde.",
+				"concise": "Nahkampfangriff. Richtet +10...40 Punkt[e] Schaden an. Verursacht Tiefe Wunde (0...15 Sekunde[n]), falls Gegner Beschädigte Rüstung hat."
+			},
+			"de-guildwiki": {
 				"name": "Körperschlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, erleidet der Gegner +10...40 Punkte Schaden. Wenn er an Beschädigter Rüstung leidet, hat er 0...15 Sekunden lang eine Tiefe Wunde.",
 				"concise": "Richtet +10...40 Punkte Schaden an. Verursacht Tiefe Wunde (0...15 Sekunden), falls Gegner Beschädigte Rüstung hat."
 			},
 			"en": {
 				"name": "Body Blow",
+				"description": "Melee Attack. If this attack hits, target foe takes +10...40 damage. If target foe has Cracked Armor, that foe suffers from a Deep Wound for 0...15 seconds.",
+				"concise": "Melee Attack. Deals +10...40 damage. Inflicts Deep Wound (0...15 seconds) if target foe has Cracked Armor."
+			},
+			"en-gww": {
+				"name": "Body Blow",
 				"description": "If this attack hits, target foe takes +10...40 damage. If target foe has Cracked Armor, that foe suffers from a Deep Wound for 0...15 second[s].",
 				"concise": "Deals +10...40 damage. Inflicts Deep Wound (0...15 second[s]) if target foe has Cracked Armor."
 			},
+			"es": {
+				"name": "Golpe corporal",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, haces +10...40 de daño al enemigo objetivo. Si tiene la armadura rota, sufrirá una herida grave durante 0...15 segundos.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +10...40 de daño. Causa herida grave (0...15 segundos) si el enemigo objetivo tiene la armadura rota."
+			},
 			"fr": {
+				"name": "Frappe corporelle",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, l'ennemi visé subit +10...40 points de dégâts. S'il a une Armure brisée, il souffre de Blessure profonde pendant 0...15 secondes.",
+				"concise": "Attaque au corps à corps. Inflige +10...40 points de dégâts. Inflige la Blessure profonde (0...15 secondes) si la cible ennemie a une Armure brisée."
+			},
+			"fr-gwiki": {
 				"name": "Frappe corporelle",
 				"description": "Si cette attaque réussit, l'ennemi visé subit +10...40 points de dégâts. S'il a une Armure brisée, il souffre de Blessure profonde pendant 5...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo al Corpo",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno l'obiettivo nemico subisce +10...40 danno[i]; se è affetto da Armatura Incrinata soffre di Ferita Profonda per 0...15 secondo[i].",
+				"concise": "Attacco Ravvicinato. Danni inferti: +10...40. Condizione inflitta se l'obiettivo nemico ha Armatura Incrinata: Ferita Profonda (0...15 secondo[i])."
+			},
+			"jp": {
+				"name": "ボディ ブロウ",
+				"description": "メーレー アタック： 攻撃が成功すると、ターゲットした敵に 10...40 の追加ダメージを与えます。ターゲットした敵が「防具破損」状態の場合、その敵は 0...15 秒間「重傷」状態になります。",
+				"concise": "メーレー アタック： 10...40 の追加ダメージを与えます。ターゲットした敵が「防具破損」状態の場合、「重傷」状態にします (0...15 秒) 。"
+			},
+			"kr": {
+				"name": "복부 타격",
+				"description": "근접 물리 공격. 공격이 성공하면 10...40의 대미지를 추가로 줍니다. 대상이 방어 손상을 입은 상태라면 0...15초 동안 중상을 입힙니다.",
+				"concise": "근접 물리 공격. 10...40의 대미지를 추가로 줍니다. 대상이 방어 손상을 입은 상태라면 중상을 입힙니다.(0...15초)"
+			},
+			"pl": {
+				"name": "Uderzenie w Korpus",
+				"description": "Atak wręcz. Jeżeli atak trafi, wybrany przeciwnik otrzymuje +10...40 pkt. obrażeń. Jeżeli cel jest pod działaniem Pękniętej Zbroi, to na 0...15 sek. otrzymuje głęboką ranę.",
+				"concise": "Atak wręcz. Zadaje +10...40 pkt. obrażeń. Wywołuje przypadłość głęboka rana (0...15 sek.), jeżeli wybrany przeciwnik ma pękniętą zbroję."
+			},
+			"ru": {
+				"name": "Body Blow",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, выбранный противник получает дополнительно 10...40 ед. урона. Если у этого противника были треснувшие доспехи, он получит глубокую рану на 0...15 сек.",
+				"concise": "Рукопашная атака. Наносит дополнительно 10...40 ед. урона. Вызывает глубокую рану (0...15 сек), если у выбранного противника треснувшие доспехи."
+			},
+			"bork": {
+				"name": "Budy Bloo",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, taerget fue-a taekes +10...40 daemaege-a. Iff taerget fue-a haes Craecked Aermur, thaet fue-a sooffffers frum a Deep Vuoond fur 0...15 secunds.",
+				"concise": "Melee-a Aettaeck. Deaels +10...40 daemaege-a. Inffleects Deep Vuoond (0...15 secunds) iff taerget fue-a haes Craecked Aermur."
 			}
 		}
 	}

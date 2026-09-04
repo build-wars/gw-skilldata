@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "道森之酷",
+				"description": "物品法术。 最多能够持有 15...60 秒，当你丢下道森的骨灰时，所有你附近的敌人将遭受 15...85 闪电伤害。",
+				"concise": "物品法术。 最多能够持有 15...60 秒，当你丢下道森的骨灰时，所有你附近的敌人将遭受 15...85 闪电伤害。"
+			},
+			"cht": {
+				"name": "殘酷者道森",
+				"description": "抱持魔法： 最多可抱持 15...60 秒，你所有祭祀者技能具有 10% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 15...85 閃電傷害。",
+				"concise": "抱持魔法： 最多可抱持 15...60 秒，你所有祭祀者技能具有 10% 防禦穿透效果。當你丟下他的骨灰時，對範圍內的所有敵人造成 15...85 閃電傷害。"
+			},
 			"de": {
+				"name": "Grausam war Daoshen",
+				"description": "Gegenstandszauber. Haltet Daoshens Asche bis zu 15...60 Sekunde[n] lang. Während Ihr seine Asche haltet, haben alle Ritualisten-Fertigkeiten eine Rüstungsdurchdringung von 10%. Wenn Ihr seine Asche fallen lasst, erleiden alle Feinde in der Nähe 15...85 Punkt[e] Blitzschaden.",
+				"concise": "Gegenstandszauber. (15...60 Sekunde[n].) Eure Ritualisten-Fertigkeiten haben eine Rüstungsdurchdringung von 10%. Fallwirkung: Richtet bei allen Feinden in der Nähe 15...85 Punkt[e] Blitzschaden an."
+			},
+			"de-guildwiki": {
 				"name": "Grausam war Daoshen",
 				"description": "Haltet Daoshens Asche bis zu 15...60 Sekunden lang. Während Ihr seine Asche haltet, haben alle Ritualisten-Fertigkeiten eine Rüstungsdurchdringung von 10%. Wenn Ihr seine Asche fallen lasst, erleiden alle Feinde in der Nähe 15...85 Punkte Blitzschaden.",
 				"concise": "(15...60 Sekunden.) Eure Ritualisten-Fertigkeiten haben eine Rüstungsdurchdringung von 10%. Fallwirkung: Richtet bei allen Feinden in der Nähe 15...85 Punkte Blitzschaden an."
 			},
 			"en": {
 				"name": "Cruel Was Daoshen",
+				"description": "Item Spell. Hold Daoshen's ashes for up to 15...60 seconds. While you hold his ashes, all Ritualist skills have 10% armor penetration. When you drop his ashes, all nearby foes are struck for 15...85 lightning damage.",
+				"concise": "Item Spell. (15...60 seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals 15...85 lightning damage to all nearby foes."
+			},
+			"en-gww": {
+				"name": "Cruel Was Daoshen",
 				"description": "Hold Daoshen's ashes for up to 15...60 seconds. While you hold his ashes, all Ritualist skills have 10% armor penetration. When you drop his ashes, all nearby foes are struck for 15...85 lightning damage.",
 				"concise": "(15...60 seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals 15...85 lightning damage to all nearby foes."
 			},
+			"es": {
+				"name": "Malvado sea Daoshen",
+				"description": "Conjuro con objeto. Llevas las cenizas de Daoshen durante 15...60 segundos. Mientras las lleves, todas las habilidades de Ritualista tienen 10% de penetración de armadura. Cuando las sueltes, todos los enemigos cercanos reciben 15...85 de daño de relámpago.",
+				"concise": "Conjuro con objeto. (15...60 segundos). Tus habilidades de Ritualista tienen un 10% de penetración de armadura. Efecto al soltarse: hace 15...85 de daño de relámpago a todos los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Daoshen était cruel",
+				"description": "Sort d'altération d'objet. Vous tenez les cendres de Daoshen pendant un maximum de 15...60 secondes. En tenant ses cendres, toutes les compétences du Ritualiste bénéficient de 10% de pénétration d'armure. Lorsque vous déposez ses cendres, tous les ennemis à proximité subissent 15...85 points de dégâts de la foudre.",
+				"concise": "Sort d'altération d'objet. (15...60 secondes.) Vos compétences de Ritualiste bénéficient de 10% de pénétration d'armure. Effet de la pose : inflige 15...85 points de dégâts de la foudre à tous les ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Daoshen était cruel",
 				"description": "Vous tenez les cendres de ''Daoshen'' pendant un maximum de 15...60 secondes. Lorsque vous les déposez, tous les ennemis à proximité reçoivent 10...100 points de dégâts de la foudre. Vos compétences de Ritualiste ont une pénétration d'armure de 10%.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Daoshen era Crudele",
+				"description": "Magia Altera-oggetto. Mantieni le ceneri di Kaolai per un massimo di 15...60 secondo[i]. Mentre mantieni le ceneri di Kaolai, tutte le abilità Ritualista ricevono +10% di penetrazione armatura. Quando rilasci le ceneri, tutti i nemici nei dintorni subiscono 15...85 danno[i] da fulmine.",
+				"concise": "Magia Altera-oggetto. (Secondo[i]: 15...60). Le tue abilità Ritualista aumentano di +10% di penetrazione armatura. Rilascio: danno da fulmine a tutti i nemici nei dintorni: 15...85."
+			},
+			"jp": {
+				"name": "ドウシェン クルーエル",
+				"description": "アイテム スペル： 最大 15...60 秒間、ドウシェンの遺灰を持ちます。その間、すべてのリチュアリスト スキルはアーマー貫通効果が 10% になります。この遺灰を落とすと、周囲にいるすべての敵に 15...85 のライトニング ダメージを与えます。",
+				"concise": "アイテム スペル： (15...60 秒) リチュアリスト スキルのアーマー貫通効果が 10% になります。ドロップ効果： 周囲にいるすべての敵に 15...85 のライトニング ダメージを与えます。"
+			},
+			"kr": {
+				"name": "다오센의 잔인함",
+				"description": "드롭아이템. 대상 지정: 없음. 15...60초 동안 유지되는 다오센의 마력석을 만듭니다. 마력석을 들고 있는 동안은 모든 리추얼리스트 스킬이 10%의 갑옷 관통 효과를 갖고, 마력석을 바닥에 떨어뜨리면 부근의 모든 적에게 15...85의 번개 대미지를 줍니다.",
+				"concise": "드롭아이템. (15...60초) 리추얼리스트 스킬이 10%의 방어 관통 효과를 가집니다. 드롭 효과: 부근의 모든 적에게 15...85의 번개 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Okrutnym Był Daoshen",
+				"description": "Czar z przedmiotu. Trzymaj prochy Daoshena przez maksymalnie 15...60 sek. Kiedy je trzymasz, wszystkie umiejętności Rytualisty otrzymują 10% do penetracji pancerza. Gdy upuścisz jego prochy, wszyscy przeciwnicy w pobliżu otrzymają 15...85 pkt. obrażeń od błyskawic.",
+				"concise": "Czar z przedmiotu. (15...60 sek.) Twoje umiejętności Rytualisty otrzymują 10% do penetracji pancerza. Efekt upuszczenia: wszyscy przeciwnicy w pobliżu otrzymują po 15...85 pkt. obrażeń od błyskawic."
+			},
+			"ru": {
+				"name": "Cruel Was Daoshen",
+				"description": "Артефактное заклинание. Вы держите прах Daoshen до 15...60 сек. До тех пор, пока вы держите его прах, все умения профессии Ritualist игнорируют 10% защиты. Когда вы бросаете его прах, все противники поблизости получают 15...85 ед. урона силой молнии.",
+				"concise": "Артефактное заклинание. (15...60 сек) Ваши умения профессии Ritualist игнорируют 10% защиты. Эффект от бросания: наносит 15...85 ед. урона силой молнии всем противникам поблизости."
+			},
+			"bork": {
+				"name": "Crooel Vaes Daeushee",
+				"description": "Item Spell. Huld Daeushee's aeshes fur up tu 15...60 secunds. Vheele-a yuoo huld hees aeshes, aell Reetooaeleest skeells haefe-a 10% aermur penetraeshun. Vhee yuoo drup hees aeshes, aell neaerby fues aere-a stroock fur 15...85 leeghtneeng daemaege-a.",
+				"concise": "Item Spell. (15...60 secunds.) Yuoor Reetooaeleest skeells haefe-a 10% aermur penetraeshun. Drup iffffect: deaels 15...85 leeghtneeng daemaege-a tu aell neaerby fues. Bork! Bork! Bork!"
 			}
 		}
 	}

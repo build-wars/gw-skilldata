@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "牺牲之灾",
+				"description": "负面魔法。 每次目标及其邻近的敌人使用「生命牺牲」类技能时，强制其生命流失量提高一倍，技能持续 8...20秒。",
+				"concise": "负面魔法。 每次目标及其邻近的敌人使用「生命牺牲」类技能时，强制其生命流失量提高一倍，技能持续 8...20秒。"
+			},
+			"cht": {
+				"name": "災禍犧牲",
+				"description": "降咒魔法： 持續 8...20 秒，每一次目標及其鄰近敵人犧牲體力時，失去的體力是正常的兩倍。",
+				"concise": "降咒魔法： 持續 8...20 秒，每一次目標及其鄰近敵人犧牲體力時，失去的體力是正常的兩倍。"
+			},
 			"de": {
+				"name": "Geißelopfer",
+				"description": "Verhexung. 8...20 Sekunde[n] lang opfern der Gegner und umstehende Feinde jedes Mal, wenn sie Leben opfern, doppelt soviel wie normal.",
+				"concise": "Verhexung. Verhext den Gegner und umstehende Feinde (8...20 Sekunde[n]). Verdoppelt Lebenspunktopfer."
+			},
+			"de-guildwiki": {
 				"name": "Geißelopfer",
 				"description": "8...20 Sekunden lang opfern der Gegner und umstehende Feinde jedes Mal, wenn sie Leben opfern, das doppelte der Prozentzahl.",
 				"concise": "Verhext den Gegner und umstehende Feinde (8...20 Sekunden). Verdoppelt Lebenspunkteopfer."
 			},
 			"en": {
 				"name": "Scourge Sacrifice",
+				"description": "Hex Spell. For 8...20 seconds, every time target foe and adjacent foes sacrifice life, they sacrifice twice the normal amount.",
+				"concise": "Hex Spell. Also hexes foes adjacent to target (8...20 seconds). Doubles Health sacrifice."
+			},
+			"en-gww": {
+				"name": "Scourge Sacrifice",
 				"description": "For 8...20 seconds, every time target foe and adjacent foes sacrifice life, they sacrifice twice the normal amount.",
 				"concise": "Also hexes foes adjacent to target (8...20 seconds). Doubles Health sacrifice."
 			},
+			"es": {
+				"name": "Castigar sacrificio",
+				"description": "Conjuro con maleficio. Durante 8...20 segundos, cuando el enemigo objetivo y los adyacentes sacrifiquen vida, sacrificarán el doble de lo normal.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos adyacentes al objetivo (8...20 segundos). Dobla el sacrificio de salud."
+			},
 			"fr": {
+				"name": "Sacrifice néfaste",
+				"description": "Maléfice. Pendant 8...20 secondes, à chaque fois que l'ennemi visé et les ennemis adjacents sacrifient des points de vie, ils en perdent deux fois plus que la normale.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à la cible (8...20 secondes). Double le sacrifice de santé."
+			},
+			"fr-gwiki": {
 				"name": "Sacrifice néfaste",
 				"description": "Pendant 8...20 secondes, à chaque fois que l'ennemi visé et les ennemis adjacents sacrifient des points de vie, ils en perdent deux fois plus que la normale.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sacrificio del Flagello",
+				"description": "Fattura. Per 8...20 secondo[i], ogni volta che l'obiettivo nemico e i nemici adiacenti sacrificano dei Punti Salute, ne sacrificano il doppio del normale.",
+				"concise": "Fattura. Infligge fattura anche ai nemici adiacenti all'obiettivo (8...20 secondo[i]). Raddoppia il sacrificio di Salute."
+			},
+			"jp": {
+				"name": "スカージ サクリファイス",
+				"description": "弱体化スペル： 8...20 秒間、ターゲットした敵および隣接する敵は、体力を犠牲にするたびに通常の2倍の体力を犠牲にします。",
+				"concise": "弱体化スペル： (8...20 秒) ターゲットした敵および隣接する敵は、犠牲にする体力が2倍になります。"
+			},
+			"kr": {
+				"name": "희생의 재앙",
+				"description": "약화 마법. 대상 지정: 적. 8...20초 동안 대상과 그에 인접한 적들이 체력을 소모하는 마법을 사용할 때마다 체력 소모가 2배 증가합니다.",
+				"concise": "약화 마법. (8...20초) 대상과 그에 인접한 적들이 체력을 소모하는 마법을 사용할 때마다 체력 소모가 2배로 증가합니다."
+			},
+			"pl": {
+				"name": "Zgubna Ofiara",
+				"description": "Klątwa (czar). Przez 8...20 sek., za każdym razem, kiedy wybrany przeciwnik i przeciwnicy bezpośrednio przy nim poświecą punkty żywotności, stracą podwójną ich liczbę.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (8...20 sek.). Podwaja poświęcaną żywotność."
+			},
+			"ru": {
+				"name": "Scourge Sacrifice",
+				"description": "Заклинание-проклятье. В течение 8...20 сек каждый раз, когда выбранный противник и окружающие его противники жертвуют здоровье, размер жертвы увеличивается в два раза по сравнению с обычным количеством.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников, окружающих цель (8...20 сек). Удваивает размер жертвы здоровья."
+			},
+			"bork": {
+				"name": "Scuoorge-a Saecreeffeece-a",
+				"description": "Hex Spell. Fur 8...20 secunds, ifery teeme-a taerget fue-a und aedjaecent fues saecreeffeece-a leeffe-a, zeey saecreeffeece-a tveece-a zee nurmael aemuoont.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu taerget (8...20 secunds). Duoobles Heaelt saecreeffeece-a."
 			}
 		}
 	}

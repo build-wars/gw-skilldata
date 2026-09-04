@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "奥术负荷",
+				"description": "负面魔法。 使目标敌人的施法时间延长为两倍，效果持续5...15秒。",
+				"concise": "负面魔法。 使目标敌人的施法时间延长为两倍，效果持续5...15秒。"
+			},
+			"cht": {
+				"name": "思緒混亂",
+				"description": "降咒魔法： 持續 5...15 秒，目標及其鄰近敵人施展魔法的時間加倍，此降咒結束時你獲得 1...7 能量。",
+				"concise": "降咒魔法： 持續 5...15 秒，目標及其鄰近敵人施展魔法的時間加倍，此降咒結束時你獲得 1...7 能量。"
+			},
 			"de": {
+				"name": "Arkanes Rätsel",
+				"description": "Verhexung. 5...15 Sekunde[n] lang brauchen der Gegner und alle umstehenden Feinde doppelt so lange, um ihre Zauber zu wirken. Wenn diese Verhexung endet, erhaltet Ihr 1...7 Energiepunkt[e].",
+				"concise": "Verhexung. Verhext den Gegner und umstehende Feinde (5...15 Sekunde[n]). Verdoppelt die Wirkzeit von Zaubern. Wirkung am Ende: Ihr erhaltet 1...7 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Arkanes Rätsel",
 				"description": "5...15 Sekunden lang brauchen der Gegner und alle umstehenden Feinde doppelt so lange, um ihre Zauber zu wirken. Wenn diese Verhexung endet, erhaltet Ihr 1...7 Energiepunkte.",
 				"concise": "Verhext den Gegner und umstehende Feinde (5...15 Sekunden). Verdoppelt Wirkzeit von Zaubern. Wirkung am Ende: Ihr erhaltet 1...7 Energiepunkte"
 			},
 			"en": {
 				"name": "Arcane Conundrum",
+				"description": "Hex Spell. For 5...15 seconds, spells cast by target foe and all adjacent foes take twice as long to cast. When this hex ends, you gain 1...7 energy.",
+				"concise": "Hex Spell. Also hexes foes adjacent to target (5...15 seconds). Doubles spell casting time. End effect: you gain 1...7 energy."
+			},
+			"en-gww": {
+				"name": "Arcane Conundrum",
 				"description": "For 5...15 seconds, spells cast by target foe and all adjacent foes take twice as long to cast. When this hex ends, you gain 1...7 energy. <sic/>",
 				"concise": "Also hexes foes adjacent to target (5...15 seconds). Doubles spell casting time. End effect: you gain 1...7 energy. <sic/>"
 			},
+			"es": {
+				"name": "Acertijo arcano",
+				"description": "Conjuro con maleficio. Durante 5...15 segundos, el enemigo objetivo y los adyacentes necesitarán el doble de tiempo para lanzar conjuros. Cuando este maleficio acabe, ganas 1...7 de energía.",
+				"concise": "Conjuro con maleficio. También afecta a los enemigos cercanos al objetivo (5...15 segundos). Dobla el tiempo de lanzamiento. Efecto final: ganas 1...7 de energía."
+			},
 			"fr": {
+				"name": "Enigme des arcanes",
+				"description": "Maléfice. Pendant 5...15 secondes, le temps d'incantation des sorts de l'ennemi visé et de tous les ennemis adjacents est doublé. Lorsque ce maléfice prend fin, vous gagnez 1...7 points d'énergie.",
+				"concise": "Maléfice. Inflige également des maléfices aux ennemis adjacents à la cible (5...15 secondes). Double le temps de lancement des sorts. Effet final : vous gagnez 1...7 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Enigme des arcanes",
 				"description": "Pendant 5...15 secondes, le temps d'incantation des sorts de l'ennemi ciblé et de tous les ennemis adjacents est doublé. Lorsque ce maléfice prend fin, vous gagnez 1...7 point(s) d'énergie.",
 				"concise": "Inflige également des maléfices aux ennemis adjacents à la cible (5...15 secondes). Double le temps d'incantation des sort. Lorsque ce maléfice prend fin, vous gagnez 1...7 point(s) d'énergie."
+			},
+			"it": {
+				"name": "Enigma Arcano",
+				"description": "Fattura. Per 5...15 secondi il tempo di lancio per le magie dell'obiettivo nemico e di tutti i nemici adiacenti raddoppia. Al termine della fattura, ottieni 1...7 Punti Energia.",
+				"concise": "Fattura. Colpisce con una fattura anche i nemici nei dintorni dell'obiettivo (secondi:5...15). Raddoppia il tempo di lancio delle magie. Effetto al termine: ottieni 1...7 Punti Energia."
+			},
+			"jp": {
+				"name": "アルカナ コヌンドラム",
+				"description": "弱体化スペル： 5...15 秒間、ターゲットした敵および隣接するすべての敵は、スペルの詠唱に2倍の時間がかかります。この効果が消失すると、プレイヤーは 1...7 のエネルギーを獲得します。",
+				"concise": "弱体化スペル： (5...15 秒) ターゲットした敵および隣接する敵は、スペルの詠唱に2倍の時間がかかります。終了効果： プレイヤーは 1...7 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "혼란 조장",
+				"description": "약화 마법. 대상 지정: 적. 5...15초 동안 대상과 그에 인접한 모든 적의 마법 시전 시간이 2배로 늘어납니다. 효과가 끝나면 1...7의 에너지를 얻습니다.",
+				"concise": "약화 마법. (5...15초) 대상과 그에 인접한 적들의 마법 시전 시간이 2배로 늘어납니다. 종료 효과: 자신이 1...7의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Magiczna Zagadka",
+				"description": "Klątwa (czar). Przez 5...15 sek., wybrany przeciwnik i wszyscy przeciwnicy bezpośrednio przy nim rzucają czary dwa razy dłużej niż normalnie. Kiedy ta klątwa się skończy, otrzymujesz 1...7 energii.",
+				"concise": "Klątwa (czar). Klątwa działa także na przeciwników bezpośrednio przy celu (5...15 sek.). Podwaja czas rzucania czarów. Efekt końcowy: otrzymujesz 1...7 energii."
+			},
+			"ru": {
+				"name": "Arcane Conundrum",
+				"description": "Заклинание-проклятье. В течение 5...15 сек заклинания, произносимые выбранным противником и всеми окружающими противниками, требуют в два раза больше времени для активации. Когда действие этого проклятья заканчивается, вы получаете 1...7 ед. энергии.",
+				"concise": "Заклинание-проклятье. Также накладывает проклятье на противников, окружающих цель (5...15 сек). Удваивает время активации заклинаний. Эффект окончания: вы получаете 1...7 ед. энергии."
+			},
+			"bork": {
+				"name": "Aercune-a Cunoondroom",
+				"description": "Hex Spell. Fur 5...15 secunds, spells caest by taerget fue-a und aell aedjaecent fues taeke-a tveece-a aes lung tu caest. Vhee thees hex inds, yuoo gaeeen 1...7 inergy.",
+				"concise": "Hex Spell. Aelsu hexes fues aedjaecent tu taerget (5...15 secunds). Duoobles spell caesteeng teeme-a. Ind iffffect: yuoo gaeeen 1...7 inergy."
 			}
 		}
 	}

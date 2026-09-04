@@ -14,26 +14,87 @@
 		"upkeep": -1,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "生命链接",
+				"description": "增益魔法。 当你维持此「增益魔法」时，当你选中的友方受到伤害时，伤害值的一半将转移给你，转移给你的伤害将会减少3...30点。",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，当你选中的队友受到伤害时，伤害值的一半将转移给你，转移给你的伤害将会减少3...30点。"
+			},
+			"cht": {
+				"name": "生命連結",
+				"description": "加持魔法： 當你維持此「加持」時，每當目標其他盟友受到攻擊傷害，會將傷害值的一半轉移給你。而轉移給你的傷害將會減少 3...30 。",
+				"concise": "加持魔法： 當你維持此「加持」時，每當目標其他盟友受到攻擊傷害，會將傷害值的一半轉移給你。而轉移給你的傷害將會減少 3...30 。"
+			},
 			"de": {
+				"name": "Lebensbindung",
+				"description": "Verzauberung. Solange Ihr diese Verzauberung aufrechterhaltet, wird immer dann, wenn der Verbündete bei einem Angriff Schaden erleidet, die Hälfte dieses Schadens auf Euch weitergeleitet. Der dadurch von Euch erlittene Schaden wird um 3...30 Punkt[e] reduziert.",
+				"concise": "Verzauberung. Die Hälfte des Schadens, den der Verbündete durch Angriffe erleidet, wird auf Euch weitergeleitet. Der weitergeleitete Schaden wird um 3...30 Punkt[e] reduziert. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Lebensbindung",
 				"description": "Solange Ihr diese Verzauberung aufrechterhaltet, wird immer dann, wenn der Verbündete bei einem Angriff Schaden erleidet, die Hälfte dieses Schadens auf Euch weitergeleitet. Der dadurch von Euch erlittene Schaden wird um 3...30 Punkte reduziert.",
 				"concise": "Die Hälfte des Schadens, den der Verbündete durch Angriffe erleidet, wird auf Euch weitergeleitet. Der weitergeleitete Schaden wird um 3...30 Punkte reduziert. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Life Bond",
+				"description": "Enchantment Spell. While you maintain this enchantment, whenever target other ally takes damage from an attack, half the damage is redirected to you. The damage you receive this way is reduced by 3...30.",
+				"concise": "Enchantment Spell. Half of the damage target ally takes from attacks is redirected to you. Redirected damage is reduced by 3...30. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Life Bond",
 				"description": "While you maintain this enchantment, whenever target other ally takes damage from an attack, half the damage is redirected to you. The damage you receive this way is reduced by 3...30.",
 				"concise": "Half of the damage target ally takes from attacks is redirected to you. Redirected damage is reduced by 3...30. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Vínculo de vida",
+				"description": "Conjuro con encantamiento. Mientras mantengas este encantamiento, siempre que el aliado objetivo reciba daño de un ataque, la mitad de éste lo recibes tú. El daño que recibas de esta forma se reduce en 3...30.",
+				"concise": "Conjuro con encantamiento. La mitad del daño que hagan al aliado objetivo se traspasa a ti. El daño recibido se reduce en 3...30. No se puede usar con uno mismo."
+			},
 			"fr": {
+				"name": "Lien de vie",
+				"description": "Enchantement. Tant que cet enchantement est actif, quand l'allié visé subit des dégâts des suites d'une attaque, la moitié de ces dégâts vous sont infligés. Les dégâts que vous subissez de cette manière sont réduits de 3...30 points.",
+				"concise": "Enchantement. Vous subissez à la place de l'allié visé la moitié des dégâts qui lui sont infligés. Les dégâts redirigés vers vous sont réduits de 3...30 points. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Lien de vie",
 				"description": "Tant que cet enchantement est actif, quand l'allié visé subit des dégâts des suites d'une attaque, la moitié de ces dégâts vous sont infligés. Les dégâts que vous subissez de cette manière sont réduits de 3...30 points.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Legame Vitale",
+				"description": "Incantesimo. Mantenendo questo incantesimo, ogni volta che l'alleato subisce danni fisici da un attacco, metà dei danni viene deviata su di te. I danni da te subiti in questo modo sono ridotti di 3...30 punto[i].",
+				"concise": "Incantesimo. Devia su di te la metà dei danni subiti dall'obiettivo alleato quando viene attaccato. Riduzione del danno deviato: 3...30. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ライフ ボンド",
+				"description": "強化スペル： この強化スペルを持続させている間、ターゲットした自分以外の味方は攻撃により受けるダメージの半分をプレイヤーに転送します。転送する際、ダメージは 3...30 減少します。",
+				"concise": "強化スペル： ターゲットした味方が攻撃により受けるダメージの半分を自分に転移します。転移したダメージは 3...30 減少します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "생명의 결속",
+				"description": "강화 마법. 대상 지정: 아군. 이 강화 마법이 유지되는 동안 대상이 공격에 의해 받는 대미지는 절반으로 감소됩니다. 감소된 절반의 대미지 가운데 3...30[을를] 제외한 대미지를 자신이 입습니다. 자신에게 사용할 수 없습니다.",
+				"concise": "강화 마법. 대상이 공격에 의해 입는 대미지가 절반으로 감소되고, 나머지 절반에서 3...30 감소된 대미지를 자신이 입습니다. 자신에게 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Życiodajna Więź",
+				"description": "Zaklęcie (czar). Podczas gdy utrzymujesz to zaklęcie, za każdym razem, kiedy wybrany sojusznik inny niż ty otrzyma obrażenia pochodzące od ataków, połowa tych obrażeń zostanie przekierowana na ciebie. Obrażenia, które otrzymasz w ten sposób zostaną zmniejszone o 3...30 pkt.",
+				"concise": "Zaklęcie (czar). Połowa obrażeń jakie otrzymuje wybrany sojusznik z ataków jest przenoszona na ciebie. Przenoszone obrażenia zmniejszane są o 3...30. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Life Bond",
+				"description": "Заклинание-чары. До тех пор, пока вы поддерживаете эти чары, каждый раз, когда выбранный союзник (но не вы) получает урон от вражеской атаки, половина этого урона будет перенесена на вас. Урон, который вы получаете таким способом, будет уменьшен на 3...30 ед.",
+				"concise": "Заклинание-чары. Половина урона, получаемого выбранным союзником от атак, перенаправляется на вас. Перенаправленный урон уменьшается на 3...30 ед. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Leeffe-a Bund",
+				"description": "Inchuntment Spell. Vheele-a yuoo maeeentaeeen thees inchuntment, vhenefer taerget oozeer aelly taekes daemaege-a frum un aettaeck, haelff zee daemaege-a is redurected tu yuoo. Zee daemaege-a yuoo receeefe-a thees vaey is redooced by 3...30.",
+				"concise": "Inchuntment Spell. Haelff ooff zee daemaege-a taerget aelly taekes frum aettaecks is redurected tu yuoo. Redurected daemaege-a is redooced by 3...30. Cunnut selff-taerget."
 			}
 		}
 	}

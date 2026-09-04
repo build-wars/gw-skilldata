@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.5,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "追击",
+				"description": "副手技。 需衔接起手技。若如果命中则造成+10...25点伤害。如果击中致残状态的敌军，该敌军与所有邻近的敌军收到1...31点伤害。",
+				"concise": "副手技。 追加+10...25点伤害。若目标已被致残，则对其及邻近敌军追加1...31点伤害。需衔接起手技。"
+			},
+			"cht": {
+				"name": "密林狙殺",
+				"description": "即刻攻擊： Must follow a lead attack. If it hits, this attack strikes for +10...25 damage. If it hits a foe that was Crippled, that foe and all adjacent foes take 1...31 damage.",
+				"concise": "即刻攻擊： Deals +10...25 damage. Deals 1...31 damage to target and adjacent foes if target foe is Crippled. Must follow a lead attack."
+			},
 			"de": {
+				"name": "Dschungelschlag",
+				"description": "Begleithandangriff. Muss auf einen Startangriff folgen. Wenn er trifft, verursacht dieser Angriff +10...25 Schaden. Trifft er einen verkrüppelten Gegner, so nehmen dieser und alle benachbarten Gegner 1...31 Schaden.",
+				"concise": "Begleithandangriff. Verursacht +10...25 Schaden. Wenn der anvisierte Gegner verkrüppelt ist, erleiden er und benachbarte Gegner 1...31 Schaden. Muss auf einen Startangriff folgen."
+			},
+			"de-guildwiki": {
 				"name": "Dschungelschlag",
 				"description": "Muss einem Leithandangriff folgen. Wenn Dschungelschlag erfolgreich ist, fügt er dem Gegner +10...25 Punkte Schaden zu. Trifft er einen Gegner mit einer Verkrüppelung, nimmt der Gegner und alle umstehenden Gegner 1...31 Schaden.",
 				"concise": "Richtet +10...25 Punkte Schaden an. Richtet beim Gegner und umstehenden Feinden 1...31 Punkte Schaden an, falls der Gegner verkrüppelt ist. <gray>Muss einem Leithandangriff folgen.</gray>"
 			},
 			"en": {
 				"name": "Jungle Strike",
+				"description": "Off-Hand Attack. Must follow a lead attack. If it hits, this attack strikes for +10...25 damage. If it hits a foe that was Crippled, that foe and all adjacent foes take 1...31 damage.",
+				"concise": "Off-Hand Attack. Deals +10...25 damage. Deals 1...31 damage to target and adjacent foes if target foe is Crippled. Must follow a lead attack."
+			},
+			"en-gww": {
+				"name": "Jungle Strike",
 				"description": "Must follow a lead attack. If it hits, this attack strikes for +10...25 damage. If it hits a foe that was Crippled, that foe and all adjacent foes take 1...31 damage.",
 				"concise": "Deals +10...25 damage. Deals 1...31 damage to target and adjacent foes if target foe is Crippled. <gray>Must follow a lead attack.</gray>"
 			},
+			"es": {
+				"name": "Golpe selvático",
+				"description": "Ataque complementario. Debe ir precedido de un ataque inicial. Si alcanza al enemigo, este ataque hace +10...25 de daño. Si el enemigo objetivo está lisiado, dicho enemigo y los que estén cerca sufrirán 1...31 de daño.",
+				"concise": "Ataque complementario. Causa +10...25 de daño. Causa 1...31 de daño al enemigo objetivo, y los que estén cerca si el objetivo está lisiado. Debe ir precedido de un ataque inicial."
+			},
 			"fr": {
+				"name": "Frappe de la jungle",
+				"description": "Attaque main gauche. Doit suivre une attaque dominante. Si cette attaque porte, elle inflige +10...25 points de dégâts. Si elle touche un ennemi sous le coup d'Infirmité, cet ennemi et tous les ennemis adjacents subissent 1...31 points de dégâts.",
+				"concise": "Attaque main gauche. Inflige +10...25 points de dégâts. Inflige 1...31 points de dégâts à l'ennemi ciblé et aux ennemis adjacents si l'ennemi ciblé est sous le coup d'Infirmité. Doit suivre une attaque dominante."
+			},
+			"fr-gwiki": {
 				"name": "Frappe de la jungle",
 				"description": "Doit succéder à une attaque main droite. Si elle réussit, cette attaque inflige +10...25 points de dégâts. Si elle frappe un ennemi souffrant d'Infirmité, cet ennemi et tous les ennemis adjacents subissent +1...31 point(s) de dégâts.",
 				"concise": "Inflige +10...25 points de dégâts. Inflige +1...31 point(s) de dégâts à l'ennemi visé et aux ennemis adjacents si la cible souffrait d'Infirmité. <gray>Doit succéder à une attaque main droite.</gray>"
+			},
+			"it": {
+				"name": "Colpo della Giungla",
+				"description": "Attacco con Arma Secondaria. Deve seguire un attacco di apertura. Se colpisce, infligge +10...25 danni. Se viene colpito un nemico Azzoppato, lui e tutti i nemici adiacenti subiscono 1...31 danni.",
+				"concise": "Attacco con Arma Secondaria. Infligge +10...25 danni. Infligge 1...31 danni al bersaglio e ai nemici adiacenti se il bersaglio è Azzoppato. Deve seguire un attacco di apertura."
+			},
+			"jp": {
+				"name": "ジャングル ストライク",
+				"description": "オフハンド アタック： 先制攻撃に追随しなければなりません。命中した場合、この攻撃は10...25ダメージを追加で与えます。不自由状態の敵に命中した場合、その敵とすべての隣接する敵は1...31ダメージを受けます。",
+				"concise": "オフハンド アタック： 10...25ダメージを追加で与えます。標的となった敵が不自由状態の場合、標的および隣接する敵に1...31ダメージを与えます。先制攻撃に追随しなければなりません。"
+			},
+			"kr": {
+				"name": "냉혹한 일격",
+				"description": "보조 공격. 주 공격 스킬 바로 다음에 사용할 수 있습니다. 공격이 성공하면 대상에게 10...25의 대미지를 추가로 줍니다. 만약 대상이 다리 부상 상태라면 대상과 그에 인접한 모든 적에게 1...31의 대미지를 줍니다.",
+				"concise": "보조 공격. 10...25의 대미지를 추가로 줍니다. 대상이 다리 부상 상태이면, 대상과 그에 인접한 적에게 1...31의 대미지를 입힙니다. 주 공격 스킬 바로 다음에 사용해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Dżungli",
+				"description": "Atak drugą ręką. Musi nastąpić po ataku poprzedzającym. Jeśli atak trafi, zadajesz +10...25 pkt. obrażeń. Jeżeli uderzenie trafi okulawionego przeciwnika, on oraz wszyscy sąsiadujący z nim przeciwnicy otrzymują 1...31 pkt. obrażeń.",
+				"concise": "Atak drugą ręką. Zadaje +10...25 pkt. obrażeń. Wybranemu przeciwnikowi i przeciwnikom bezpośrednio przy nim zadaje po 1...31 pkt. obrażeń, jeżeli ten przeciwnik jest okaleczony. Musi nastąpić po ataku poprzedzającym."
+			},
+			"ru": {
+				"name": "Jungle Strike",
+				"description": "Атака второй рукой. Должен следовать за первой атакой. При попадании эта атака наносит +10...25 урона. Если на врага действовал эффект Crippled, он и соседние враги получают 1...31 урона.",
+				"concise": "Атака второй рукой. Наносит +10...25 урона. Наносит 1...31 урона цели и соседним врагам, если на цель действует эффект Crippled. Навык должен следовать за основной атакой."
+			},
+			"bork": {
+				"name": "Joongle-a Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost fulloo a leaed aettaeck. Iff it heets, thees aettaeck streekes fur +10...25 daemaege-a. Iff it heets a fue-a thaet vaes Creeppled, thaet fue-a und aell aedjaecent fues taeke-a 1...31 daemaege-a.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +10...25 daemaege-a. Deaels 1...31 daemaege-a tu taerget und aedjaecent fues iff taerget fue-a is Creeppled. Moost fulloo a leaed aettaeck."
 			}
 		}
 	}

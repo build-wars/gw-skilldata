@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "安抚之语",
+				"description": "咒文。 治疗友方目标20...65点生命值，如果该目标正遭受「症状」，则会受到20...50点额外治疗。",
+				"concise": "咒文。 治疗友方目标20...65点生命值，如果该目标正遭受「症状」，则会受到20...50点额外治疗。"
+			},
+			"cht": {
+				"name": "慰問文字",
+				"description": "咒文魔法： 治癒目標盟友 20...65 體力，若該盟友正遭受「病症」，則對其的治癒效果額外增加 20...50 。",
+				"concise": "咒文魔法： 治癒目標盟友 20...65 體力，若該盟友正遭受「病症」，則對其的治癒效果額外增加 20...50 。"
+			},
 			"de": {
+				"name": "Tröstende Worte",
+				"description": "Zauber. Der Verbündete wird um 20...65 Lebenspunkt[e] geheilt und zusätzlich um 20...50 Lebenspunkt[e], wenn er unter einem Zustand leidet.",
+				"concise": "Zauber. Heilt um 20...65 Lebenspunkt[e]. Heilt um weitere 20...50 Lebenspunkt[e], falls der Verbündete (bzw. Ihr selbst) einen Zustand hat."
+			},
+			"de-guildwiki": {
 				"name": "Tröstende Worte",
 				"description": "Der Verbündete (bzw. Ihr selbst) wird um 20...65 Lebenspunkte geheilt und zusätzlich um 20...50 Lebenspunkte, wenn er unter einem Zustand leidet.",
 				"concise": "Heilt um 20...65 Lebenspunkte. Heilt um weitere 20...50 Lebenspunkte, falls der Verbündete (bzw. Ihr selbst) einen Zustand hat."
 			},
 			"en": {
 				"name": "Words of Comfort",
+				"description": "Spell. Target ally is healed for 20...65 Health and an additional 20...50 Health if that ally is suffering from a condition.",
+				"concise": "Spell. Heals for 20...65. Heals for 20...50 more if target ally has a condition."
+			},
+			"en-gww": {
+				"name": "Words of Comfort",
 				"description": "Target ally is healed for 20...65 Health and an additional 20...50 Health if that ally is suffering from a condition.",
 				"concise": "Heals for 20...65. Heals for 20...50 more if target ally has a condition."
 			},
+			"es": {
+				"name": "Palabras confortantes",
+				"description": "Conjuro. Curas al objetivo (un aliado o tú mismo) 20...65 de salud y 20...50 extra si está sufriendo alguna condición.",
+				"concise": "Conjuro. Cura 20...65 de salud. Cura 20...50 de salud extra si el objetivo (un aliado o tú mismo) tiene una condición."
+			},
 			"fr": {
+				"name": "Paroles de réconfort",
+				"description": "Sort. La cible (un allié ou vous-même) est soignée de 20...65 points de vie et de 20...50 points de vie en plus si elle souffre d'une condition.",
+				"concise": "Sort. Soigne de 20...65 points de vie. Soigne de 20...50 points de vie supplémentaires si l'allié visé souffre d'une condition."
+			},
+			"fr-gwiki": {
 				"name": "Paroles de réconfort",
 				"description": "La cible (un allié ou vous-même) est soignée de 15...60 points de vie et de 15...45 points de vie en plus si elle souffre d'une condition.",
 				"concise": "Soigne de 15...60 points de vie. Soigne de 15...45 points de vie supplémentaires si l'allié visé souffre d'une condition."
+			},
+			"it": {
+				"name": "Parole di Conforto",
+				"description": "Magia. Curi l'obiettivo (un alleato o te stesso) di 20...65 Punto[i] Salute e di altri 20...50 Punto[i] Salute se è affetto da una condizione.",
+				"concise": "Magia. Cure: 20...65. Cura di 20...50 in più se l'obiettivo (un alleato o te stesso) soffre di una condizione."
+			},
+			"jp": {
+				"name": "コンフォート ワード",
+				"description": "スペル： ターゲットした味方の体力を 20...65 回復します。その味方に「状態異常」がかけられている場合、さらに 20...50 の体力が回復します。",
+				"concise": "スペル： 体力が 20...65 回復します。ターゲットした味方に「状態異常」がかけられている場合、さらに 20...50 の体力が回復します。"
+			},
+			"kr": {
+				"name": "안정의 기도",
+				"description": "마법. 대상 지정: 아군. 대상은 20...65의 체력을 회복합니다. 대상이 상태이상에 걸려 있으면 20...50의 체력을 추가로 회복합니다.",
+				"concise": "마법. 20...65의 체력을 회복시킵니다. 대상이 상태이상에 걸려 있으면 20...50의 체력을 추가로 회복시킵니다."
+			},
+			"pl": {
+				"name": "Słowa Otuchy",
+				"description": "Czar. Uzdrawiasz wybranego sojusznika dodając mu 20...65 pkt. żywotności i dodatkowe 20...50 pkt. żywotności, jeśli cierpi na przypadłość.",
+				"concise": "Czar. Dodaje 20...65 pkt. żywotności. Dodatkowo dodaje 20...50 pkt. żywotności, jeśli wybrany sojusznik jest pod wpływem przypadłości."
+			},
+			"ru": {
+				"name": "Words of Comfort",
+				"description": "Заклинание. Выбранный союзник исцеляется на 20...65 ед. здоровья и получает дополнительно 20...50 ед. здоровья, если он находится под воздействием какого-либо состояния.",
+				"concise": "Заклинание. Исцеляет на 20...65 ед. здоровья. Исцеляет дополнительно на 20...50 ед. здоровья, если выбранный союзник находится под действием состояния."
+			},
+			"bork": {
+				"name": "Vurds ooff Cumffurt",
+				"description": "Spell. Taerget aelly is heaeled fur 20...65 Heaelt und un aeddeeshunael 20...50 Heaelt iff thaet aelly is sooffffereeng frum a cundeeshun.",
+				"concise": "Spell. Heaels fur 20...65. Heaels fur 20...50 mure-a iff taerget aelly haes a cundeeshun."
 			}
 		}
 	}

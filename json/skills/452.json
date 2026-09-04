@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蛛化精灵的防护",
+				"description": "姿态。 在5...11秒之内，使你有75%的几率格挡武器攻击，同时元素护甲值提高34...60点。",
+				"concise": "姿态。 在5...11秒之内，使你的格挡几率提高75%，元素护甲值提高34...60点。"
+			},
+			"cht": {
+				"name": "蛛化精靈防禦",
+				"description": "態勢： 持續 5...11 秒，你有 75% 的機會「格擋」攻擊而且對元素傷害的防禦增加 34...60 。",
+				"concise": "態勢： 持續 5...11 秒，你有 75% 的機會「格擋」攻擊而且對元素傷害的防禦增加 34...60 。"
+			},
 			"de": {
+				"name": "Dryders Verteidigungen",
+				"description": "Haltung. 5...11 Sekunde[n] lang habt Ihr eine 75%ige Chance Angriffe zu blocken und erhaltet 34...60 Rüstung gegen Elementarschaden.",
+				"concise": "Haltung. 5...11 Sekunde[n]: Ihr habt eine 75%ige Chance zu blocken und +34...60 Rüstung gegen Elementarschaden."
+			},
+			"de-guildwiki": {
 				"name": "Dryders Verteidigungen",
 				"description": "5...11 Sekunden lang habt Ihr eine 75%ige Chance Angriffe zu blocken und erhaltet 34...60 Rüstung gegen Elementarschaden.",
 				"concise": "5...11 Sekunden: Ihr habt eine 75%ige Chance zu blocken und +34...60 Rüstung gegen Elementarschaden."
 			},
 			"en": {
 				"name": "Dryder's Defenses",
+				"description": "Stance. For 5...11 seconds, you gain 75% chance to block attacks and 34...60 armor against elemental damage.",
+				"concise": "Stance. (5...11 seconds.) You have 75% chance to block and +34...60 armor against elemental damage."
+			},
+			"en-gww": {
+				"name": "Dryder's Defenses",
 				"description": "For 5...11 seconds, you gain 75% chance to block attacks and 34...60 armor against elemental damage.",
 				"concise": "(5...11 seconds.) You have 75% chance to block and +34...60 armor against elemental damage."
 			},
+			"es": {
+				"name": "Defensas de arácnido",
+				"description": "Actitud. Durante 5...11 segundos, ganas un 75% de posibilidades de bloquear ataques y 34...60 de armadura contra daño elemental.",
+				"concise": "Actitud. (5...11 segundos). Tienes 75% de posibilidades de bloquear y +34...60 de armadura contra daño de los elementos."
+			},
 			"fr": {
+				"name": "Défenses du Drider",
+				"description": "Pose de combat. Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques et bénéficiez d'un bonus d'armure de 34...60 contre les dégâts élémentaires.",
+				"concise": "Pose de combat. (5...11 secondes.) Vous avez 75% de chances de bloquer et bénéficiez d'un bonus d'armure de +34...60 contre les dégâts élémentaires."
+			},
+			"fr-gwiki": {
 				"name": "Défenses du Drider",
 				"description": "Pendant 5...11 secondes, vous avez 75% de chances de bloquer les attaques et bénéficiez d'un bonus d'armure de 34...60 contre les dégâts élémentaires.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Difese del Dryder",
+				"description": "Posizione. Per 5...11 secondo[i], hai il 75% di probabilità di bloccare gli attacchi e 34...60 di armatura contro i danni elementali.",
+				"concise": "Posizione. (Secondi: 5...11) Probabilità di blocco: 75%. Armatura contro il danno elementale: +34...60."
+			},
+			"jp": {
+				"name": "ドライダー ディフェンス",
+				"description": "スタンス： 5...11 秒間、75%の確率で攻撃をブロックし、元素ダメージに対して 34...60 の防御力を獲得します。",
+				"concise": "スタンス： (5...11 秒) 75%の確率で攻撃をブロックし、元素ダメージに対して防御力が 34...60 増加します。"
+			},
+			"kr": {
+				"name": "드라이더의 방어",
+				"description": "자세. 대상 지정: 없음. 5...11초 동안 적의 공격을 75%의 확률로 막고, 정령 마법 대미지에 대한 방어력이 34...60 증가합니다.",
+				"concise": "자세. (5...11초) 75%의 확률로 공격을 막고, 정령 대미지에 대한 방어력이 34...60 증가합니다."
+			},
+			"pl": {
+				"name": "Obrona Drydera",
+				"description": "Postawa. Przez 5...11 sek., masz 75% szans na zablokowanie ataków i otrzymujesz 34...60 pkt. pancerza przeciwko obrażeniom od żywiołów.",
+				"concise": "Postawa. (5...11 sek.) Masz 75% szans na blokowanie i +34...60 pkt. pancerza przeciwko obrażeniom od żywiołów."
+			},
+			"ru": {
+				"name": "Dryder's Defenses",
+				"description": "Стойка. В течение 5...11 сек вы получаете 75%-й шанс блокировать атаки, а ваша защита против урона силами Стихий увеличивается на 34...60 ед.",
+				"concise": "Стойка. (5...11 сек) Вы получаете 75%-й шанс блокировать атаки и +34...60 ед. к защите против урона силами Стихий."
+			},
+			"bork": {
+				"name": "Dryder's Deffenses",
+				"description": "Stunce-a. Fur 5...11 secunds, yuoo gaeeen 75% chunce-a tu bluck aettaecks und 34...60 aermur aegaeeenst ilementael daemaege-a. Bork! Bork! Bork!",
+				"concise": "Stunce-a. (5...11 secunds.) Yuoo haefe-a 75% chunce-a tu bluck und +34...60 aermur aegaeeenst ilementael daemaege-a."
 			}
 		}
 	}

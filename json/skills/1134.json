@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "海妖斩",
+				"description": "近战技能。 命中时，对目标造成5...20点额外伤害。如果该技能被格挡，目标敌人将会倒地，并受到10...34点伤害。",
+				"concise": "近战技能。 命中时，对目标造成5...20点额外伤害。如果该技能被格挡，目标敌人将会倒地，并受到10...34点伤害。"
+			},
+			"cht": {
+				"name": "海獸掃蕩",
+				"description": "近身攻擊技能： 命中時對目標造成 5...20 額外傷害。若此攻擊遭敵人「格擋」，則該名敵人被擊倒並受到 10...34 傷害。",
+				"concise": "近身攻擊技能： 命中時對目標造成 5...20 額外傷害。若此攻擊遭敵人「格擋」，則該名敵人被擊倒並受到 10...34 傷害。"
+			},
 			"de": {
+				"name": "Leviathanschlag",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn dieser Angriff geblockt wird, wird Euer Ziel zu Boden geworfen und erleidet 10...34 Punkt[e] Schaden.",
+				"concise": "Nahkampfangriff. Richtet +5...20 Punkt[e] Schaden an. Wirft zu Boden und richtet 10...34 Punkt[e] Schaden an, falls geblockt."
+			},
+			"de-guildwiki": {
 				"name": "Leviathanschlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn dieser Angriff geblockt wird, wird Euer Ziel zu Boden geworfen und erleidet 10...34 Punkte Schaden.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Wirft zu Boden und richtet 10...34 Punkte Schaden an, falls geblockt."
 			},
 			"en": {
 				"name": "Leviathan's Sweep",
+				"description": "Melee Attack. If this attack hits, you strike for +5...20 damage. If this attack is blocked, your target is knocked down and suffers 10...34 damage.",
+				"concise": "Melee Attack. Deals +5...20 damage. Causes knock-down and deals 10...34 damage if blocked."
+			},
+			"en-gww": {
+				"name": "Leviathan's Sweep",
 				"description": "If this attack hits, you strike for +5...20 damage. If this attack is blocked, your target is knocked down and suffers 10...34 damage.",
 				"concise": "Deals +5...20 damage. Causes knock-down and deals 10...34 damage if blocked."
 			},
+			"es": {
+				"name": "Barrido de Leviatán",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, harás +5...20 de daño. Si se bloquea este ataque, tu objetivo es derribado y sufre 10...34 de daño.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +5...20 de daño. Causa derribo y hace 10...34 de daño si se bloquea."
+			},
 			"fr": {
+				"name": "Frappe du Léviathan",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 10...34 points de dégâts.",
+				"concise": "Attaque au corps à corps. Inflige +5...20 points de dégâts. Attaque assommante infligeant 10...34 points de dégâts si elle est bloquée."
+			},
+			"fr-gwiki": {
 				"name": "Frappe du Léviathan",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle est bloquée, la cible est assommée et subit 10...34 points de dégâts.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo del Leviatano",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno, infliggi +5...20 danno[i]; se viene bloccato, l'obiettivo viene abbattuto e subisce 10...34 danno[i].",
+				"concise": "Attacco Ravvicinato. Danni inferti: +5...20. Provoca abbattimento e infligge 10...34 danno[i] se bloccato."
+			},
+			"jp": {
+				"name": "リヴァイアサン スウィープ",
+				"description": "メーレー アタック： この攻撃が成功すると 5...20 の追加ダメージを与えます。この攻撃がブロックされた場合、ターゲットを転倒させて 10...34 のダメージを与えます。",
+				"concise": "メーレー アタック： 5...20 の追加ダメージを与えます。攻撃がブロックされると、その敵を転倒させて 10...34 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "괴물의 휩쓸기",
+				"description": "근접 물리 공격. 대상 지정: 적. 공격이 성공하면 대상은 5...20의 대미지를 추가로 입습니다. 이 공격을 막으면 대상은 넘어지면서 10...34의 대미지를 입습니다.",
+				"concise": "근접 물리 공격. 5...20의 대미지를 추가로 줍니다. 이 공격을 막으면 바닥에 넘어뜨리고, 10...34의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Zamach Lewiatana",
+				"description": "Atak wręcz. Jeśli atak trafi, zadajesz +5...20 pkt. obrażeń. Jeśli przeciwnik zablokuje ten atak, to zostaje powalony i otrzymuje 10...34 pkt. obrażeń.",
+				"concise": "Atak wręcz. Zadaje +5...20 pkt. obrażeń. Powala i zadaje 10...34 pkt. obrażeń, jeżeli nastąpiło blokowanie."
+			},
+			"ru": {
+				"name": "Leviathan's Sweep",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если противник блокирует эту атаку, он будет сбит с ног и получит 10...34 ед. урона.",
+				"concise": "Рукопашная атака. Наносит дополнительно 5...20 ед. урона. Сбивает с ног и наносит 10...34 ед. урона, если было блокировано."
+			},
+			"bork": {
+				"name": "Lefeeaethun's Sveep",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +5...20 daemaege-a. Iff thees aettaeck is blucked, yuoor taerget is knucked doon und sooffffers 10...34 daemaege-a.",
+				"concise": "Melee-a Aettaeck. Deaels +5...20 daemaege-a. Cooses knuck-doon und deaels 10...34 daemaege-a iff blucked."
 			}
 		}
 	}

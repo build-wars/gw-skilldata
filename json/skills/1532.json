@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法沙暴",
+				"description": "咒文。 驱散自身所有「增益魔法」。每成功驱散一项「增益魔法」，将对所有附近的敌人造成10...40点地系伤害。（最多可以造成10...20点伤害）",
+				"concise": "咒文。 驱散自身所有「增益魔法」。每成功驱散一项「增益魔法」，将对所有附近的敌人造成10...40点地系伤害。（最多可以造成10...20点伤害）"
+			},
+			"cht": {
+				"name": "祕法沙風暴",
+				"description": "咒文魔法： 在你的位置創造持續 3 秒的沙風暴，每秒對附近的敵人造成 10...40 土系傷害，正在攻擊的敵人再加 10...20 土系傷害。若施展時你有加持效果，則持續時間加倍。",
+				"concise": "咒文魔法： 在你的位置創造持續 3 秒的沙風暴，每秒對附近的敵人造成 10...40 土系傷害，正在攻擊的敵人再加 10...20 土系傷害。若施展時你有加持效果，則持續時間加倍。"
+			},
 			"de": {
+				"name": "Mystischer Sandsturm",
+				"description": "Zauber. An der Eurer Position wird ein Sandsturm erzeugt, der 3 Sekunde[n] lang anhält. Feinde in der Nähe Eurer ursprünglichen Position erleiden pro Sekunde 10...40 Punkt[e] Erdschaden. Angreifende Feinde erleiden zusätzlich 10...20 Punkt[e] Schaden. Wenn Ihr beim Wirken dieses Zaubers verzaubert seid, hält die Wirkung doppelt so lange an.",
+				"concise": "Zauber. (3 Sekunde[n].) Richtet 10...40 Punkt[e] Erdschaden pro Sekunde an. Richtet bei angreifenden Feinden zusätzlich 10...20 Punkt[e] Schaden an. Trifft Feinde in der Nähe Eurer ursprünglichen Position. Die Wirkung hält doppelt so lange an, wenn Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Mystischer Sandsturm",
 				"description": "An der<sic/> Eurer Position wird ein Sandsturm erzeugt, der 3 Sekunden lang anhält. Feinde in der Nähe Eurer ursprünglichen Position erleiden pro Sekunde 10...40 Punkte Erdschaden. Angreifende Feinde erleiden zusätzlich 10...20 Punkte Schaden. Wenn Ihr beim Wirken dieses Zaubers verzaubert seid, hält die Wirkung doppelt so lange an.",
 				"concise": "(3 Sekunden.) Richtet 10...40 Punkte Erdschaden pro Sekunde an. Richtet bei angreifenden Feinden zusätzlich 10...20 Punkte Schaden an. Trifft Feinde in der Nähe Eurer ursprünglichen Position. Die Wirkung hält doppelt so lange an, wenn Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Mystic Sandstorm",
+				"description": "Spell. Create a Sandstorm at your location that lasts 3 seconds. Each second, foes nearby this location take 10...40 earth damage. Attacking foes take an additional 10...20 damage. If you are enchanted when you cast this spell, it lasts twice as long.",
+				"concise": "Spell. (3 seconds). Deals 10...40 earth damage each second. Deals an additional 10...20 damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Mystic Sandstorm",
 				"description": "Create a sandstorm at your location that lasts 3 seconds. Each second, foes nearby this location take 10...40 earth damage. Attacking foes take an additional 10...20 damage. If you are enchanted when you cast this spell, it lasts twice as long.",
 				"concise": "(3 seconds.) Deals 10...40 earth damage each second. Deals an additional 10...20 damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted."
 			},
+			"es": {
+				"name": "Tormenta de arena mística",
+				"description": "Conjuro. Creas una Tormenta de arena en tu ubicación, que dura 3 segundos. Cada segundo, los enemigos cercanos a esta ubicación reciben 10...40 de daño de tierra. Los enemigos que atacan reciben 10...20 de daño adicional. Si estás encantado cuando lanzas este conjuro, dura el doble de tiempo.",
+				"concise": "Conjuro. (3 segundos). Hace 10...40 de daño de tierra por segundo. Hace 10...20 de daño adicional a los enemigos que atacan. Alcanza a los enemigos cercanos a tu ubicación inicial. Dura el doble de tiempo si estás encantado."
+			},
 			"fr": {
+				"name": "Tempête de sable mystique",
+				"description": "Sort. Crée une Tempête de sable à l'endroit où vous vous trouvez d'une durée de 3 secondes. Tous les ennemis à proximité subissent 10...40 points de dégâts de la terre par seconde. Les ennemis qui vous attaquent subissent 10...20 points de dégâts supplémentaires. Si vous êtes sous l'effet d'un enchantement lorsque vous lancez ce sort, celui-ci dure deux fois plus longtemps.",
+				"concise": "Sort. (3 secondes.) Inflige 10...40 points de dégâts de la terre par seconde. Inflige 10...20 points de dégâts supplémentaires aux ennemis qui vous attaquent. Affecte les ennemis proches de votre position initiale. Dure deux fois plus longtemps si vous êtes sous l'effet d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Tempête de sable mystique",
 				"description": "Vous perdez tous vos enchantements. Pour chaque enchantement perdu de cette manière, tous les ennemis à proximité subissent 10...35 points de dégâts de la terre (130 points de dégâts maximum).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tempesta di Sabbia Mistica",
+				"description": "Magia. Crei una Tempesta di Sabbia nella tua posizione che dura 3 secondi. Per ogni secondo, i nemici nei dintorni di questa posizione subiscono 10...40 danni da terra. I nemici in attacco subiscono 10...20 danni aggiuntivi. Se sei sotto incantesimo quando lanci questa magia, durerà il doppio del tempo.",
+				"concise": "Magia. (Secondi: 3). Danni da terra inferti: 10...40 al secondo. Infligge 10...20 danni in più ai nemici in attacco. Colpisce i nemici nelle vicinanze della tua posizione iniziale. Dura il doppio del tempo se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ミスティック サンドストーム",
+				"description": "スペル： プレイヤーの位置に 3 秒間、砂嵐を発生させます。毎秒、その周囲にいる敵に 10...40 のアース ダメージを与えます。攻撃中の敵には、10...20 の追加ダメージを与えます。このスペルの詠唱時にプレイヤーに強化スペルがかけられている場合、このスペルの持続時間が倍増します。",
+				"concise": "スペル： (3 秒) 毎秒 10...40 のアース ダメージを与えます。攻撃中の敵には 10...20 の追加ダメージを与えます。発動時にプレイヤーがいた場所の周囲にいる敵が対象です。プレイヤーに強化スペルがかけられている場合、持続時間が倍増します。"
+			},
+			"kr": {
+				"name": "신비로운 모래폭풍",
+				"description": "마법. 대상 지정: 없음. 자신의 위치에 3초 동안 지속되는 모래 폭풍을 만들어 부근의 적들에게 매초 10...40의 대지 대미지를 줍니다. 공격 중이던 적에게는 10...20의 대미지를 추가로 줍니다. 이 마법을 시전할 때 강화 마법에 걸려 있으면 모래 폭풍의 지속 시간이 2배로 늘어납니다.",
+				"concise": "마법. (3초) 부근의 적들에게 매초 10...40의 대지 대미지를 주고, 공격 중이던 적에게는 10...20의 대미지를 추가로 줍니다. 강화 마법에 걸려 있으면 이 스킬의 지속 시간이 2배가 됩니다."
+			},
+			"pl": {
+				"name": "Mistyczna Burza Piaskowa",
+				"description": "Czar. W miejscu swojego pobytu tworzysz piaskową burzę, która trwa 3 sek. Co sekundę wrogowie w pobliżu tego miejsca otrzymują 10...40 pkt. obrażeń od ziemi. Atakujący wrogowie otrzymują dodatkowe 10...20 pkt. obrażeń. Jeśli w momencie rzucenia czaru znajdujesz się pod wpływem zaklęcia, działa on dwa razy dłużej.",
+				"concise": "Czar. (3 sek.) Zadaje co sekundę 10...40 pkt. obrażeń od ziemi. Zadaje dodatkowe 10...20 pkt. obrażeń atakującym wrogom. Trafia przeciwników w pobliżu twojego początkowego miejsca pobytu. Trwa dwa razy dłużej, jeśli znajdujesz się pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Mystic Sandstorm",
+				"description": "Заклинание. Вы создаете песчаную бурю в точке вашего нахождения, которая длится 3 сек. Каждую секунду противники поблизости от этой точки получают 10...40 ед. урона силой земли. Атакующие противники получают дополнительно 10...20 ед. урона. Если на вас были наложены чары в момент активации этого заклинания, оно длится в два раза дольше.",
+				"concise": "Заклинание. (3 сек) Наносит 10...40 ед. урона силой земли каждую секунду. Наносит дополнительно 10...20 ед. урона атакующим противникам. Поражает противников поблизости от вашего первоначального местоположения. Длится в два раза дольше, если на вас были наложены чары."
+			},
+			"bork": {
+				"name": "Mysteec Sundsturm",
+				"description": "Spell. Creaete-a a Sundsturm aet yuoor lucaeshun thaet laests 3 secunds. Iaech secund, fues neaerby thees lucaeshun taeke-a 10...40 iaert daemaege-a. Aettaeckeeng fues taeke-a un aeddeeshunael 10...20 daemaege-a. Iff yuoo aere-a inchunted vhee yuoo caest thees spell, it laests tveece-a aes lung.",
+				"concise": "Spell. (3 secunds). Deaels 10...40 iaert daemaege-a iaech secund. Deaels un aeddeeshunael 10...20 daemaege-a tu aettaeckeeng fues. Heets fues neaerby yuoor ineeteeael lucaeshun. Laests tveece-a aes lung iff yuoo aere-a inchunted."
 			}
 		}
 	}

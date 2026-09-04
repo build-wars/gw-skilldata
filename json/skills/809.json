@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "碎石",
+				"description": "精英负面魔法。 目标敌军承受25...100点冰冻伤害，移动速度降低66%，并被附加3秒\"碎石\"。\"碎石\"消失时，该目标及周围所有敌军承受25...100点冰冻伤害。",
+				"concise": "精英负面魔法。 （3秒）初始效果：造成25...100点冰冻伤害且目标移速降低66%。结束效果：对目标及周围敌军造成25...100点冰冻伤害。"
+			},
+			"cht": {
+				"name": "碎裂冰石",
+				"description": "精英降咒魔法： Target foe is struck for 25...100 cold damage, moves 66% slower, and, is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...100 cold damage.",
+				"concise": "精英降咒魔法： (3 seconds.) Initial effect: deals 25...100 cold damage and target moves 66% slower. End effect: deals 25...100 cold damage to target and all nearby foes."
+			},
 			"de": {
+				"name": "Trümmerstein",
+				"description": "Elite-Verhexung. Der Zielgegner erleidet 25...100 Kälteschaden, bewegt sich 66 % langsamer und ist 3 Sekunden lang mit \"Schmetterstein\" verhext. Wenn \"Schmetterstein\" endet, erleiden dieser Gegner und alle Gegner in der Nähe 25...100 Kälteschaden.",
+				"concise": "Elite-Verhexung. (3 Sekunden.) Anfangseffekt: Verursacht 25...100 Kälteschaden, und Ziel bewegt sich 66 % langsamer. Effekt endet: Fügt dem Ziel und allen Gegnern in der Nähe 25...100 Kälteschaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Trümmerstein",
 				"description": "Der Gegner erleidet 25...100 Punkte Kälteschaden. 3 Sekunden lang bewegt er sich 66% langsamer. Wenn Trümmerstein endet, erleiden der Gegner und alle Feinde in der Nähe 25...100 Punkte Kälteschaden.",
 				"concise": "(3 Sekunden.) Anfangseffekt: Verursacht 25...100 Kälteschaden, und Ziel bewegt sich 66% langsamer. Effekt endet: Fügt dem Ziel und allen Gegnern in der Nähe 25...100 Kälteschaden zu."
 			},
 			"en": {
 				"name": "Shatterstone",
+				"description": "Elite Hex Spell. Target foe is struck for 25...100 cold damage, moves 66% slower, and is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...100 cold damage.",
+				"concise": "Elite Hex Spell. (3 seconds.) Initial effect: deals 25...100 cold damage and target moves 66% slower. End effect: deals 25...100 cold damage to target and all nearby foes."
+			},
+			"en-gww": {
+				"name": "Shatterstone",
 				"description": "Target foe is struck for 25...100 cold damage, moves 66% slower, and is hexed with Shatterstone for 3 seconds. When Shatterstone ends, that foe and all nearby foes are struck for 25...100 cold damage.",
 				"concise": "(3 seconds.) Initial effect: deals 25...100 cold damage and target moves 66% slower. End effect: deals 25...100 cold damage to target and all nearby foes."
 			},
+			"es": {
+				"name": "Guijarro",
+				"description": "Conjuro con maleficio de élite. El enemigo objetivo recibe 25...100 de daño frío, se mueve un 66 % más lento y queda maldecido con Guijarro durante 3 segundos. Cuando este termine, ese enemigo y todos los enemigos cercanos recibirán 25...100 de daño frío adicional.",
+				"concise": "Conjuro con maleficio de élite. (3 segundos.) Efecto inicial: hace 25...100 de daño frío y el objetivo se mueve un 66 % más lento. Efecto final: hace 25...100 de daño frío al objetivo y los enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Brise-roc",
+				"description": "Maléfice d'élite. La cible ennemie subit 25...100 points de dégâts du froid, se déplace 66% plus lentement et souffre du maléfice Brise-roc pendant 3 secondes. Lorsqu'il prend fin, cet ennemi et tous ceux à proximité subissent 25...100 points de dégâts du froid.",
+				"concise": "Maléfice d'élite. (3 secondes.) Effet initial : inflige 25...100 points de dégâts du froid, et la cible se déplace 66% plus lentement. Effet final : inflige 25...100 points de dégâts du froid à la cible et à tous les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Brise-roc",
 				"description": "La cible ennemie subit 25...100 points de dégâts du froid et souffre du maléfice pendant 3 secondes. Lorsque le Brise-roc prend fin, cet ennemi et toux ceux à proximité subissent 25...100 points de dégâts du froid.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Frammento di Pietra",
+				"description": "Fattura d'Élite. Il nemico colpito subisce 25...100 danni da freddo, si muove più lento del 66%; inoltre, subisce la fattura Spaccapietra per 3 secondi. Quando l'abilità termina, quel nemico e tutti quelli nelle vicinanze subiscono 25...100 danni da freddo.",
+				"concise": "Fattura d'Élite. (3 secondi) Effetto iniziale: infligge 25...100 danni da freddo e il bersaglio si muove più lento del 66%. Fine dell'effetto: infligge 25...100 danni da freddo al bersaglio e a tutti i nemici vicini."
+			},
+			"jp": {
+				"name": "シャターストーン",
+				"description": "エリート弱体化スペル： 標的となった敵は25...100の冷気ダメージを受け、移動速度が66%低下し、3秒間、シャッターストーンの呪いをかけられます。シャッターストーンが終了すると、その敵とすべての近くの敵は25...100の冷気ダメージを受けます。",
+				"concise": "エリート弱体化スペル： （3秒）初期効果：25...100の冷気ダメージを与え、標的の移動速度が66%低下します。終了効果：標的とすべての近くの敵に25...100の冷気ダメージを与えます。"
+			},
+			"kr": {
+				"name": "빙하 파편",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 대상은 25...100의 냉기 대미지를 입고 이동 속도가 66% 느려지며, 3초 동안 빙하 파편에 걸립니다. 효과가 끝나면 대상과 주변의 모든 적은 25...100의 냉기 대미지를 입습니다.",
+				"concise": "엘리트 약화 마법. (3초) 초기 효과: 25...100의 냉기 대미지를 주고 대상의 이동 속도가 66% 느려집니다. 종료 효과: 대상과 주변의 모든 적에게 25...100의 냉기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Lodowa Skała",
+				"description": "Elitarna klątwa (czar). Wybrany przeciwnik otrzymuje 25...100 pkt. obrażeń od zimna, porusza się o 66% wolniej i zostaje przeklęty Lodową Skałą na 3 sek. Gdy Lodowa Skała przestanie działać, ten przeciwnik otrzymuje 25...100 pkt. obrażeń od zimna.",
+				"concise": "Elitarna klątwa (czar). (3 sek.) Efekt początkowy: zadaje 25...100 pkt. obrażeń od zimna i spowalnia cel o 66%. Efekt końcowy: zadaje 25...100 pkt. obrażeń od zimna celowi i wszystkim pobliskim przeciwnikom."
+			},
+			"ru": {
+				"name": "Shatterstone",
+				"description": "Элитное заклинание-проклятье. Выбранный противник получает 25...100 ед. урона холодом, двигается на 66% медленнее и получает проклятье Shatterstone на 3 секунды. Когда Shatterstone заканчивается, этот враг и противники вокруг него получают 25...100 ед. урона холодом.",
+				"concise": "Элитное заклинание-проклятье. (3 секунды.) Начальный эффект: наносит 25...100 ед. урона холодом, цель двигается на 66% медленнее. Эффект завершения: наносит 25...100 ед. урона холодом цели и соседним врагам."
+			},
+			"bork": {
+				"name": "Shaetterstune-a",
+				"description": "Ileete-a Hex Spell. Taerget fue-a is stroock fur 25...100 culd daemaege-a, mufes 66% slooer, und is hexed veet Shaetterstune-a fur 3 secunds. Vhee Shaetterstune-a inds, thaet fue-a und aell neaerby fues aere-a stroock fur 25...100 culd daemaege-a.",
+				"concise": "Ileete-a Hex Spell. (3 secunds.) Ineeteeael iffffect: deaels 25...100 culd daemaege-a und taerget mufes 66% slooer. Ind iffffect: deaels 25...100 culd daemaege-a tu taerget und aell neaerby fues."
 			}
 		}
 	}

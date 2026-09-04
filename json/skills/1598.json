@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"绝不屈服！\"",
+				"description": "战吼。 在15秒之内，使「音波」范围内所有生命值低于75%的队友获得1...5点「生命再生」。",
+				"concise": "战吼。 在15秒之内，使「音波」范围内所有生命值低于75%的队友获得1...5点「生命再生」。"
+			},
+			"cht": {
+				"name": "「絕不投降！」",
+				"description": "戰嚎： 持續 15 秒，使音量所及範圍內且體力低於 75% 的所有隊伍成員，體力再生增加 1...5 。",
+				"concise": "戰嚎： 持續 15 秒，使音量所及範圍內且體力低於 75% 的所有隊伍成員，體力再生增加 1...5 。"
+			},
 			"de": {
+				"name": "\"Ergebt Euch nicht!\"",
+				"description": "Schrei. 15 Sekunde[n] lang erfreuen sich alle Gruppenmitglieder in Hörweite, deren Lebenspunkte unter 75% liegen, einer Lebenspunktregeneration von +1...5.",
+				"concise": "Schrei. 15 Sekunde[n]: Gruppenmitglieder in Hörweite erhalten +1...5 Lebenspunktregeneration. Betrifft nur Gruppenmitglieder, die weniger als 75% ihrer maximalen Lebenspunkte haben."
+			},
+			"de-guildwiki": {
 				"name": "\"Ergebt Euch nicht!\"",
 				"description": "15 Sekunden lang erfreuen sich alle Gruppenmitglieder in Hörweite, deren Lebenspunkte unter 75% liegen, einer Lebenspunktregeneration von +1...5.",
 				"concise": "15 Sekunden: Gruppenmitglieder in Hörweite erhalten +1...5 Lebenspunktregeneration. <gray>Betrifft nur Gruppenmitglieder, die weniger als 75% ihrer maximalen Lebenspunkte haben.</gray>"
 			},
 			"en": {
 				"name": "\"Never Surrender!\"",
+				"description": "Shout. For 15 seconds, all party members within earshot and below 75% Health gain +1...5 Health regeneration.",
+				"concise": "Shout. (15 seconds.) Party members in earshot gain +1...5 Health regeneration. Only affects party members below 75% Health."
+			},
+			"en-gww": {
+				"name": "\"Never Surrender!\"",
 				"description": "For 15 seconds, all party members within earshot and below 75% Health gain +1...5 Health regeneration.",
 				"concise": "(15 seconds.) Party members in earshot gain +1...5 Health regeneration. <gray>Only affects party members below 75% Health.</gray>"
 			},
+			"es": {
+				"name": "\"¡Arriba!\"",
+				"description": "Grito. Durante 15 segundos, todos los compañeros al alcance del oído y por debajo del 75% de salud ganarán +1...5 de regeneración de salud.",
+				"concise": "Grito. (15 segundos). Los miembros del grupo al alcance del oído ganan +1...5 de regeneración de salud. Sólo afecta a los miembros del grupo por debajo del 75% de salud."
+			},
 			"fr": {
+				"name": "\"Ne vous rendez jamais !\"",
+				"description": "Cri. Pendant 15 secondes, tous les membres du groupe à portée de voix ayant moins de 75% de santé bénéficient d'une régénération de santé de +1...5.",
+				"concise": "Cri. (15 secondes.) Les membres du groupe à portée de voix bénéficient d'une régénération de santé de +1...5. Affecte uniquement les membres du groupe possédant moins de 75% de santé."
+			},
+			"fr-gwiki": {
 				"name": "\"Ne vous rendez jamais !\"",
 				"description": "Pendant 15 secondes, tous les membres du groupe à portée de voix ayant moins de 75% de santé bénéficient d'une régénération de santé de +1...5.",
 				"concise": "(15 secondes.) Les membres du groupe à portée de voix bénéficient d'une régénération de santé de +1...5. <gray>Affecte uniquement les membres du groupe possédant moins de 75% de santé.</gray>"
+			},
+			"it": {
+				"name": "\"Mai Arrendersi!\"",
+				"description": "Urlo. Per 15 secondo[i], tutti i membri della squadra a portata d'orecchio con Salute inferiore al 75% ottengono una Rigenerazione della Salute di +1...5.",
+				"concise": "Urlo. (Secondi: 15) Rigenerazione Salute dei membri della squadra a portata d'orecchio: +1...5. Ha effetto solo sui membri della squadra con Salute inferiore a 75%."
+			},
+			"jp": {
+				"name": "ネバー サレンダー！",
+				"description": "シャウト： 15 秒間、声の届く範囲内にいる体力が上限の 75% 未満のパーティー メンバーは、体力の自然回復力が 1...5 増加します。",
+				"concise": "シャウト： (15 秒) 声の届く範囲内にいるパーティー メンバーは、体力の自然回復力が 1...5 増加します。体力が上限の?75% 未満のパーティー メンバーにのみ有効です。"
+			},
+			"kr": {
+				"name": "결코 굴복하지 마라!",
+				"description": "고함. 대상 지정: 없음. 15초 동안 가청 범위 내에 있고 체력이 75%미만인 모든 파티원의 체력 재생이 1...5 증가합니다.",
+				"concise": "고함. (15초) 가청 범위 내에 있는 파티원들의 체력 재생이 1...5 증가합니다. 체력이 75%미만인 파티원만 효과를 받습니다."
+			},
+			"pl": {
+				"name": "\"Nie Poddawajcie Się!",
+				"description": "Okrzyk. Przez 15 sek., wszyscy członkowie drużyny w zasięgu słuchu i mający mniej niż 75% pkt. żywotności, posiadają regenerację żywotności +1...5.",
+				"concise": "Okrzyk. (15 sek.) Członkowie drużyny w zasięgu słuchu posiadają regenerację żywotności +1...5. Działa tylko na członków drużyny posiadających mniej niż 75% żywotności."
+			},
+			"ru": {
+				"name": "\"Never Surrender!\"",
+				"description": "Крик. В течение 15 сек у всех находящихся в зоне слышимости членов вашего отряда, чей уровень здоровья ниже 75%, скорость восстановления здоровья увеличивается на 1...5 ед.",
+				"concise": "Крик. (15 сек) Члены отряда в зоне слышимости получают +1...5 ед. к скорости восстановления здоровья. Действует только на союзников, у которых менее 75% здоровья."
+			},
+			"bork": {
+				"name": "\"Nefer Soorrender!\"",
+				"description": "Shuoot. Fur 15 secunds, aell paerty members veetheen iaershut und beloo 75% Heaelt gaeeen +1...5 Heaelt regeneraeshun.",
+				"concise": "Shuoot. (15 secunds.) Paerty members in iaershut gaeeen +1...5 Heaelt regeneraeshun. Oonly aeffffects paerty members beloo 75% Heaelt."
 			}
 		}
 	}

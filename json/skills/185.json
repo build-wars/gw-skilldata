@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 5,
 		"lang": {
+			"chs": {
+				"name": "意志灼烧",
+				"description": "精英咒文。 使目标敌人受到15...60点火焰伤害。如果你比对方拥有更多能量，则该目标将额外受到15...60点火焰伤害，同时遭受「灼烧」症状 1...10秒。此法术会引发施法者的「疲劳」状态。",
+				"concise": "精英咒文。 使目标敌人受到15...60点火焰伤害。如果你比对方拥有更多能量，则该目标将额外受到15...60点火焰伤害，同时遭受「灼烧」症状 1...10秒。此法术会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "心靈燃燒",
+				"description": "精英咒文魔法： 使目標敵人受到 15...60 火焰傷害。若你比目標擁有更多的能量，則該目標將額外受到 15...60 火焰傷害，並且遭受「著火」病症 1...10 秒。此魔法會造成施法者精疲力竭。",
+				"concise": "精英咒文魔法： 使目標敵人受到 15...60 火焰傷害。若你比目標擁有更多的能量，則該目標將額外受到 15...60 火焰傷害，並且遭受「著火」病症 1...10 秒。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Geistige Verbrennung",
+				"description": "Elite-Zauber. Gegner und umstehende Feinde erleiden 15...60 Punkt[e] Feuerschaden. Falls Ihr mehr Energie als der Gegner habt, erleiden er und alle umstehenden Feinde zusätzlich 15...60 Punkt[e] Feuerschaden und werden 1...10 Sekunde[n] lang in Brand gesetzt.",
+				"concise": "Elite-Zauber. Richtet 15...60 Punkt[e] Feuerschaden an. Falls Ihr mehr Energie habt als der Gegner, erhält er zusätzlich 15...60 Punkt[e] Feuerschaden und Zustand Brennen (1...10 Sekunde[n]). Trifft den Gegner und umstehende Feinde."
+			},
+			"de-guildwiki": {
 				"name": "Geistige Verbrennung",
 				"description": "Gegner und umstehende Feinde erleiden 15...60 Punkte Feuerschaden. Falls Ihr mehr Energie als der Gegner habt, erleiden er und alle umstehenden Feinde zusätzlich 15...60 Punkte Feuerschaden und werden 1...10 Sekunden lang in Brand gesetzt.",
 				"concise": "Richtet 15...60 Punkte Feuerschaden an. Falls Ihr mehr Energie habt als der Gegner, erhält er zusätzlich 15...60 Punkte Feuerschaden und Zustand Brennen (1...10 Sekunden). Trifft den Gegner und umstehende Feinde."
 			},
 			"en": {
 				"name": "Mind Burn",
+				"description": "Elite Spell. Target foe and all adjacent foes take 15...60 fire damage. If you have more Energy than target foe, that foe and all adjacent foes take an additional 15...60 fire damage and are set on fire for 1...10 seconds.",
+				"concise": "Elite Spell. Deals 15...60 fire damage. If you have more Energy than target foe, deals 15...60 more fire damage and inflicts Burning (1...10 seconds). Also hits adjacent foes."
+			},
+			"en-gww": {
+				"name": "Mind Burn",
 				"description": "Target foe and all adjacent foes take 15...60 fire damage. If you have more Energy than target foe, that foe and all adjacent foes take an additional 15...60 fire damage and are set on fire for 1...10 second[s].",
 				"concise": "Deals 15...60 fire damage. If you have more energy than target foe, deals 15...60 more fire damage and inflicts Burning (1...10 second[s]). Also hits adjacent foes."
 			},
+			"es": {
+				"name": "Quemadura mental",
+				"description": "Conjuro de élite. El enemigo objetivo y los adyacentes reciben 15...60 de daño de fuego. Si tienes más energía que el enemigo objetivo, ese enemigo y todos los adyacentes reciben 15...60 de daño de fuego adicional y arden durante 1...10 segundos.",
+				"concise": "Conjuro de élite. Hace 15...60 de daño de fuego. Si tienes más energía que el enemigo objetivo, hace 15...60 más de daño de fuego y causa quemadura (1...10 segundos). También alcanza a los enemigos cercanos."
+			},
 			"fr": {
+				"name": "Flamme spirituelle",
+				"description": "Sort d'élite. La cible et les ennemis adjacents subissent 15...60 points de dégâts du feu. Si vous avez plus d'énergie que l'ennemi visé, celui-ci et tous les ennemis adjacents subissent 15...60 points de dégâts du feu en plus et s'embrasent pendant 1...10 secondes.",
+				"concise": "Sort d'élite. Inflige 15...60 points de dégâts de feu. Si vous avez plus d'énergie que l'ennemi visé, inflige 15...60 points de dégâts du feu en plus et applique Brûlure (1...10 secondes). Affecte aussi les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Flamme spirituelle",
 				"description": "L'ennemi visé subit 15...60 points de dégâts du feu. Si vous avez plus d'énergie que l'ennemi visé, il subit 15...60 points de dégâts du feu en plus et s'embrase pendant 1...7 seconde(s). Ce sort entraîne l'épuisement.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Mente che Brucia",
+				"description": "Magia d'Élite. L'obiettivo nemico e i nemici adiacenti subiscono 15...60 danni da fuoco. Se ha meno Energia di te, quel nemico e tutti i nemici adiacenti subiscono un danno da fuoco aggiuntivo di 15...60 e prendono fuoco per 1...10 secondi.",
+				"concise": "Magia d'Élite. Danni da fuoco inferti: 15...60. Se hai più Energia dell'obiettivo nemico, assesta 15...60 danni da fuoco in più e provoca Bruciatura (1...10 secondi). Colpisce anche i nemici adiacenti."
+			},
+			"jp": {
+				"name": "マインド バーン",
+				"description": "エリート スペル： ターゲットした敵および隣接するすべての敵に 15...60 のファイア ダメージを与えます。プレイヤーのエネルギーがターゲットより多い場合、ターゲットおよび隣接するすべての敵に 15...60 の追加ファイア ダメージを与え、1...10 秒間「火傷」状態にします。",
+				"concise": "エリート スペル： ターゲットした敵および隣接する敵に 15...60 のファイア ダメージを与えます。ターゲットした敵よりプレイヤーのエネルギーが多い場合、15...60 の追加ファイア ダメージを与えて「火傷」状態にします (1...10 秒)。"
+			},
+			"kr": {
+				"name": "정신 연소",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 인접한 모든 적은 15...60의 불 대미지를 입습니다. 자신의 에너지가 대상보다 많으면 대상과 인접한 모든 적은 15...60의 불 대미지를 추가로 입고, 1...10초 동안 화상 상태가 됩니다.",
+				"concise": "엘리트 마법. 대상과 인접한 적들에게 15...60의 불 대미지를 주고, 자신의 에너지가 대상보다 많으면 15...60의 불 대미지를 추가로 주고, 화상을 입힙니다.(1...10초)"
+			},
+			"pl": {
+				"name": "Wypalanie Umysłu",
+				"description": "Elitarny czar. Wybrany przeciwnik otrzymuje 15...60 pkt. obrażeń od ognia. Jeżeli masz więcej pkt. energii od wybranego przeciwnika, to przeciwnik ten otrzymuje dodatkowe 15...60 pkt. obrażeń od ognia oraz zostaje podpalony na 1...10 sek. Ten czar powoduje wyczerpanie.",
+				"concise": "Elitarny czar. Zadaje 15...60 pkt. obrażeń od ognia. Jeżeli masz więcej energii niż wybrany przeciwnik, zadaje 15...60 pkt. dodatkowych obrażeń od ognia i wywołuje przypadłość płonięcie (1...10 sek.). Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Mind Burn",
+				"description": "Элитное заклинание. Выбранный противник и все окружающие противники получают 15...60 ед. урона силой огня. Если у вас больше энергии, чем у цели, этот противник и все окружающие противники получают дополнительно 15...60 ед. урона силой огня и загораются на 1...10 сек.",
+				"concise": "Элитное заклинание. Наносит 15...60 ед. урона силой огня. Наносит дополнительно 15...60 ед. урона силой огня и поджигает (1...10 сек), если у вас было больше энергии, чем у выбранного противника. Также поражает окружающих противников."
+			},
+			"bork": {
+				"name": "Meend Boorn",
+				"description": "Ileete-a Spell. Taerget fue-a und aell aedjaecent fues taeke-a 15...60 fure-a daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, thaet fue-a und aell aedjaecent fues taeke-a un aeddeeshunael 15...60 fure-a daemaege-a und aere-a set oon fure-a fur 1...10 secunds.",
+				"concise": "Ileete-a Spell. Deaels 15...60 fure-a daemaege-a. Iff yuoo haefe-a mure-a Inergy thun taerget fue-a, deaels 15...60 mure-a fure-a daemaege-a und inffleects Boorneeng (1...10 secunds). Aelsu heets aedjaecent fues."
 			}
 		}
 	}

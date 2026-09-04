@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "飞羽",
+				"description": "增益魔法。 在5...20秒之内，你的移动速度提升25%，「症状」消失速度提高50%。",
+				"concise": "增益魔法。 在5...20秒之内，你的移动速度提升25%，「症状」消失速度提高50%。"
+			},
+			"cht": {
+				"name": "羽步姿態",
+				"description": "加持魔法： 持續 5...20 秒，你的移動速度加快 25% ，而且「病症」在你身上的持續時間縮短 50% 。",
+				"concise": "加持魔法： 持續 5...20 秒，你的移動速度加快 25% ，而且「病症」在你身上的持續時間縮短 50% 。"
+			},
 			"de": {
+				"name": "Anmut des Federfußes",
+				"description": "Verzauberung. 5...20 Sekunde[n] lang bewegt Ihr Euch um 25% schneller und Zustände enden um 50% schneller.",
+				"concise": "Verzauberung. 5...20 Sekunde[n]: Ihr bewegt Euch um 25% schneller und Zustände auf Euch enden um 50% früher."
+			},
+			"de-guildwiki": {
 				"name": "Anmut des Federfußes",
 				"description": "5...20 Sekunden lang bewegt Ihr Euch um 25% schneller und Zustände enden um 50% schneller.",
 				"concise": "5...20 Sekunden: Ihr bewegt Euch um 25% schneller und Zustände auf Euch enden um 50% früher."
 			},
 			"en": {
 				"name": "Featherfoot Grace",
+				"description": "Enchantment Spell. For 5...20 seconds, you move 25% faster, and conditions expire 50% faster.",
+				"concise": "Enchantment Spell. (5...20 seconds.) You move 25% faster, and conditions expire 50% faster."
+			},
+			"en-gww": {
+				"name": "Featherfoot Grace",
 				"description": "For 5...20 seconds, you move 25% faster, and conditions expire 50% faster.",
 				"concise": "(5...20 seconds.) You move 25% faster, and conditions expire 50% faster."
 			},
+			"es": {
+				"name": "Gracia del pie con plumas",
+				"description": "Conjuro con encantamiento. Durante 5...20 segundos, te mueves un 25% más rápido y las condiciones desaparecen un 50% antes.",
+				"concise": "Conjuro con encantamiento. (5...20 segundos). Te mueves un 25% más rápido y las condiciones desaparecen un 50% antes."
+			},
 			"fr": {
+				"name": "Grâce de Pied-de-plume",
+				"description": "Enchantement. Pendant 5...20 secondes, vous vous déplacez 25% plus vite et les conditions prennent fin 50% plus vite.",
+				"concise": "Enchantement. (5...20 secondes.) Vous vous déplacez 25% plus vite et les conditions prennent fin 50% plus vite."
+			},
+			"fr-gwiki": {
 				"name": "Grâce de Pied-de-plume",
 				"description": "Pendant 5...20 secondes, vous vous déplacez 25% plus vite et les conditions prennent fin 50% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Grazia del Piedelieve",
+				"description": "Incantesimo. Per 5...20 secondo[i], la tua velocità di movimento aumenta di un 25% e le condizioni si esauriscono con una velocità superiore del 50%.",
+				"concise": "Incantesimo. (Secondi: 5...20) Incremento tua velocità di movimento: 25%. Incremento dei tempi di esaurimento delle condizioni: 50%."
+			},
+			"jp": {
+				"name": "フェザーフット グレース",
+				"description": "強化スペル： 5...20 秒間、プレイヤーの移動速度が 25% 増加し、かけられる「状態異常」の持続時間が 50% 減少します。",
+				"concise": "強化スペル： (5...20 秒) 移動速度が 25% 増加し、「状態異常」の持続時間が 50% 減少します。"
+			},
+			"kr": {
+				"name": "세련된 발걸음",
+				"description": "강화 마법. 대상 지정: 없음. 5...20초 동안 이동 속도는 25% 빨라지고, 자신이 걸린 상태이상의 지속 시간은 50% 단축됩니다.",
+				"concise": "강화 마법. (5...20초) 이동 속도가 25% 빨라지고, 자신이 걸린 상태이상의 지속 시간은 50% 단축됩니다."
+			},
+			"pl": {
+				"name": "Łaska Chyżych Stóp",
+				"description": "Zaklęcie (czar). Przez 5...20 sek. poruszasz się o 25% szybciej, a przypadłości, pod których jesteś działaniem trwają o 50% krócej.",
+				"concise": "Zaklęcie (czar). (5...20 sek.) Poruszasz się o 25% szybciej, a przypadłości, pod których jesteś działaniem trwają o 50% krócej."
+			},
+			"ru": {
+				"name": "Featherfoot Grace",
+				"description": "Заклинание-чары. В течение 5...20 сек вы двигаетесь на 25% быстрее, а все наложенные на вас состояния заканчиваются на 50% быстрее.",
+				"concise": "Заклинание-чары. (5...20 сек) Вы двигаетесь на 25% быстрее, а наложенные на вас состояния заканчиваются на 50% быстрее."
+			},
+			"bork": {
+				"name": "Feaezeerffuut Graece-a",
+				"description": "Inchuntment Spell. Fur 5...20 secunds, yuoo mufe-a 25% faester, und cundeeshuns ixpure-a 50% faester.",
+				"concise": "Inchuntment Spell. (5...20 secunds.) Yuoo mufe-a 25% faester, und cundeeshuns ixpure-a 50% faester."
 			}
 		}
 	}

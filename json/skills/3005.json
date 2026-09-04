@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "联合",
+				"description": "缚灵仪式。 创造一只等级为1...8的联合缚灵。每当范围内的一名「非灵体」类队友受到伤害时，缚灵将为其承受15点伤害。缚灵在30...60秒后自然消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...8的联合缚灵。每当范围内的「非灵体」类友方受到伤害时，缚灵将为其承受 15 伤害。缚灵在30...60秒后自然消失。"
+			},
+			"cht": {
+				"name": "聯合 (PvP)",
+				"description": "縛靈儀式： 創造一個等級1...8的 聯合縛靈，每當範圍內的非靈盟友遭受傷害或者偷取生命時，將被減少15，同時靈受到15傷害，靈在30...60秒後死亡。",
+				"concise": "縛靈儀式： 創造一個等級1...8的 聯合縛靈，每當範圍內的非靈盟友遭受傷害或者偷取生命時，將被減少15，同時靈受到15傷害，靈在30...60秒後死亡。"
+			},
 			"de": {
+				"name": "Vereinigung (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...8. Jedes Mal, wenn ein Verbündeter in seiner Reichweite, der kein Geist ist, Schaden erleidet oder Lebenspunkte entzogen bekommt, wird dies um 15 Punkt[e] reduziert und der Geist erleidet 15 Punkt[e] Schaden. Dieser Geist stirbt nach 30...60 Sekunde[n].",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...8 (30...60 Sekunde[n] Lebensdauer). Jedes Mal, wenn ein Verbündeter in seiner Reichweite, der kein Geist ist, Schaden erleidet oder Lebenspunkte entzogen bekommt, wird dies um 15 Punkt[e] reduziert und der Geist erleidet 15 Punkt[e] Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Vereinigung (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...8. Jedes Mal, wenn ein Verbündeter in seiner Reichweite, der kein Geist ist, Schaden erleidet oder Lebenspunkte entzogen bekommt, wird dies um 15 Punkte reduziert und der Geist erleidet 15 Punkte Schaden. Dieser Geist stirbt nach 30...60 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...8 (30...60 Sekunden Lebensdauer). Jedes Mal, wenn ein Verbündeter in seiner Reichweite, der kein Geist ist, Schaden erleidet oder Lebenspunkte entzogen bekommt, wird dies um 15 Punkte reduziert und der Geist erleidet 15 Punkte Schaden."
 			},
 			"en": {
 				"name": "Union (PvP)",
+				"description": "Binding Ritual. Create a level 1...8 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30...60 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...8 spirit (30...60 second lifespan). Whenever a non-spirit ally within range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage."
+			},
+			"en-gww": {
+				"name": "Union (PvP)",
 				"description": "Create a level 1...8 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30...60 seconds.",
 				"concise": "Creates a level 1...8 spirit (30...60 second lifespan). Whenever a non-spirit ally within range takes damage or life steal, that damage is reduced by 15 and the spirit takes 15 damage."
 			},
+			"es": {
+				"name": "Unión (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...8. Siempre que un aliado no espíritu reciba daño o pierda vida dentro de su zona, el daño se reducirá en 15 y el espíritu recibirá 15 de daño. El espíritu morirá a los 30...60 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...8 (30...60 segundos de vida). Siempre que un aliado no espíritu reciba daño o pierda vida dentro de su zona, el daño se reducirá en 15 y el espíritu recibirá 15 de daño."
+			},
 			"fr": {
+				"name": "Union (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...8. A chaque fois qu'un allié à sa portée (autre qu'un esprit) subit des dégâts ou un vol de vie, ceux-ci sont réduits de 15 points et l'esprit subit 15 points de dégâts. Il disparaît au bout de 30...60 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...8 (durée de vie de 30...60 secondes). A chaque fois qu'un allié à sa portée (autre qu'un esprit) subit des dégâts ou un vol de vie, ceux-ci sont réduits de 15 points et l'esprit subit 15 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Union (PvP)",
 				"description": "Crée un esprit de niveau 1...8. A chaque fois qu'un allié dans sa portée (autre qu'un esprit) subit des dégâts, ceux-ci sont réduits de 15 et l'esprit subit 15 points de dégâts. Il meurt au bout de 30...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Unione (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...8. Ogni volta che un Alleato (Spiriti esclusi) nel suo raggio di azione subisce danni o sottrazione salute, questi vengono ridotti di 15 e lo Spirito subisce 15 di danni. Lo spirito si esaurisce dopo 30...60 secondi.",
+				"concise": "Rituale Incatenante. Crea uno spirito di livello 1...8 (in vita per 30...60 secondi). Ogni volta che un Alleato (Spiriti esclusi) nel suo raggio di azione subisce danni o sottrazione salute, questi vengono ridotti di 15 e lo Spirito subisce 15 di danni."
+			},
+			"jp": {
+				"name": "ユニオン (PvP)",
+				"description": "バインド リチュアル： レベル 1...8 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の味方の受けるダメージまたは奪い取られる体力が 15 減少し、代わりに精霊が 15 のダメージを受けます。この精霊は 30...60 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...8 の精霊を召喚します (30...60 秒)。この精霊の効果範囲内では、精霊以外の味方の受けるダメージまたは奪い取られる体力が 15 減少し、そのたびに精霊は 15 のダメージを受けます。"
+			},
+			"kr": {
+				"name": "화합의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...8레벨의 영혼을 소환합니다. 일정 범위 내에서 영혼이 아닌 아군이 공격 대미지나 체력 흡수 대미지를 입을 때마다 영혼은 15의 대미지를 입고, 대신 아군은 15 감소한 대미지를 입습니다. 영혼은 30...60초 후 사라집니다.",
+				"concise": "영혼 결속. 1...8레벨 영혼을 소환합니다.(수명: 30...60초) 일정 범위 내에서 영혼이 아닌 아군이 공격 대미지나 체력 흡수 대미지를 입을 때마다 영혼은 15의 대미지를 입고, 대신 아군은 15 감소한 대미지를 입습니다. 영혼은 30...60초 후 사라집니다."
+			},
+			"pl": {
+				"name": "Przymierze (PvP)",
+				"description": "Rytuał spętania. Tworzysz 1...8 poziomowego ducha. Za każdym razem, kiedy nie będący duchem sojusznik w zasięgu otrzymuje obrażenia lub zostaje mu wykradziona żywotność, efekty zostają zmniejszone o 15 pkt., a duch otrzymuje 15 pkt. obrażeń. Duch ginie po 30...60 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...8 (czas życia 30...60 sek.). Za każdym razem, kiedy nie będący duchem sojusznik w zasięgu otrzymuje obrażenia lub zostaje mu wykradziona żywotność, efekty te zostają zmniejszone o 15, a duch otrzymuje 15 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Union (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...8 уровня. Каждый раз, когда не являющийся духом союзник, находящийся в зоне его действия, получает урон или у него похищают здоровье, этот урон уменьшается на 15 ед., а дух получает 15 ед. урона. Этот дух умирает через 30...60 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...8 уровня (30...60 сек жизни). Каждый раз, когда не являющийся духом союзник, находящийся в зоне его действия, получает урон или у него похищают здоровье, этот урон уменьшается на 15 ед., а дух получает 15 ед. урона."
+			},
+			"bork": {
+				"name": "Uneeun (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...8 spureet. Vhenefer a nun-spureet aelly in its runge-a taekes daemaege-a oor leeffe-a steael, it is redooced by 15 und zee spureet taekes 15 daemaege-a. Thees spureet deees aeffter 30...60 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...8 spureet (30...60 secund leeffespun). Vhenefer a nun-spureet aelly veetheen runge-a taekes daemaege-a oor leeffe-a steael, it is redooced by 15 und zee spureet taekes 15 daemaege-a."
 			}
 		}
 	}

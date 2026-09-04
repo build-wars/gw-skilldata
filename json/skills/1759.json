@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "盟约之力",
+				"description": "精英增益魔法。 在15秒之内，你将无法使用任何攻击性技能，但是你的普通攻击伤害将会提升10...25%。",
+				"concise": "精英增益魔法。 在15秒之内，你将无法使用任何攻击性技能，但是你的普通攻击伤害将会提升10...25%。"
+			},
+			"cht": {
+				"name": "力量誓約",
+				"description": "精英加持魔法： 持續 15 秒，每次你使用鐮刀攻擊時，對鄰近敵人造成 10...25 穿刺傷害。",
+				"concise": "精英加持魔法： 持續 15 秒，每次你使用鐮刀攻擊時，對鄰近敵人造成 10...25 穿刺傷害。"
+			},
 			"de": {
+				"name": "Gelübde der Stärke",
+				"description": "Elite-Verzauberung. Wenn Ihr einen Gegner mit Eurer Sense angreift, fügt Ihr 15 Sekunde[n] lang allen umstehenden Gegnern 10...25 Punkt[e] Hiebschaden zu.",
+				"concise": "Elite-Verzauberung. (15 Sekunde[n].) Angriffe mit einer Sense fügen allen umstehenden Feinden 10...25 Punkt[e] Hiebschaden zu."
+			},
+			"de-guildwiki": {
 				"name": "Gelübde der Stärke",
 				"description": "15 Sekunden lang fügt Ihr allen Euch umstehenden Gegnern 10...25 Punkte Hiebschaden zu, wenn Ihr einen Gegner mit Eurer Sense angreift.",
 				"concise": "(15 Sekunden.) Angriffe mit einer Sense fügen allen Euch umstehenden Gegnern 10...25 Punkte Hiebschaden zu."
 			},
 			"en": {
 				"name": "Vow of Strength",
+				"description": "Elite Enchantment Spell. For 15 seconds, whenever you attack a foe with your scythe, you deal 10...25 slashing damage to all adjacent foes.",
+				"concise": "Elite Enchantment Spell. (15 seconds.) Attacks with a scythe deal 10...25 slashing damage to all adjacent foes whenever you attack."
+			},
+			"en-gww": {
+				"name": "Vow of Strength",
 				"description": "For 15 seconds, whenever you attack a foe with your scythe, you deal 10...25 slashing damage to all adjacent foes.",
 				"concise": "(15 seconds.) When you attack with a scythe, deals 10...25 slashing damage to adjacent foes."
 			},
+			"es": {
+				"name": "Voto de fuerza",
+				"description": "Conjuro con encantamiento de élite. Durante 15 segundos, cuando ataques a un enemigo con tu guadaña, haces un 10...25 de daño cortante a todos los enemigos adyacentes.",
+				"concise": "Conjuro con encantamiento de élite. (15 segundos). Los ataques con guadaña hacen 10...25 de daño cortante a todos los enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Voeu de force",
+				"description": "Enchantement d'élite. Pendant 15 secondes, chaque fois que vous attaquez un ennemi à la faux, tous les ennemis à proximité subissent 10...25 points de dégâts tranchants.",
+				"concise": "Enchantement d'élite. (15 secondes.) Les attaques à la faux infligent 10...25 points de dégâts tranchants à tous les ennemis adjacents chaque fois que vous attaquez."
+			},
+			"fr-gwiki": {
 				"name": "Voeu de force",
 				"description": "Pendant 15 secondes, chaque fois que vous attaquez un ennemi à la faux, tous les ennemis à proximité subissent 10...25 points de dégâts tranchants.",
 				"concise": "(15 secondes.) Les attaques à la faux infligent 10...25 points de dégâts tranchants à tous les ennemis adjacents chaque fois que vous attaquez."
+			},
+			"it": {
+				"name": "Voto della Forza",
+				"description": "Incantesimo d'Élite. Secondi: 15. Ogni volta che attacchi un nemico con la Falce, infliggi 10...25 danni da taglio a tutti i nemici adiacenti.",
+				"concise": "Incantesimo d'Élite. (Secondi: 15). Danni da taglio inferti a tutti i nemici adiacenti ogni volta che attacchi con la Falce: 10...25."
+			},
+			"jp": {
+				"name": "ストレングス バウ",
+				"description": "エリート強化スペル： 15 秒間、サイズで敵を攻撃するたびに、隣接するすべての敵に 10...25 のスラッシュ ダメージを与えます。",
+				"concise": "エリート強化スペル： (15 秒) サイズで攻撃するたびに、隣接するすべての敵に 10...25 のスラッシュ ダメージを与えます。"
+			},
+			"kr": {
+				"name": "힘의 맹약",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 15초 동안 사이드 공격을 할 때마다 인접한 모든 적에게 10...25의 베기 대미지를 줍니다.",
+				"concise": "엘리트 강화 마법. (15초) 사이드 공격을 할 때마다 인접한 적들에게 10...25의 베기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Ślub Siły",
+				"description": "Elitarne zaklęcie (czar). Przez 15 sek., za każdym razem gdy zaatakujesz wroga kosą, zadajesz 10...25 pkt. siecznych obrażeń wszystkim wrogom w bezpośrednim sąsiedztwie.",
+				"concise": "Elitarne zaklęcie (czar). (15 sek.) Przy ataku kosą zadajesz 10...25 pkt. siecznych obrażeń wszystkim wrogom w bezpośrednim sąsiedztwie."
+			},
+			"ru": {
+				"name": "Vow of Strength",
+				"description": "Элитное заклинание-чары. В течение 15 сек каждый раз, когда вы атакуете косой, вы наносите 10...25 ед. урона рубящим оружием всем окружающим противникам.",
+				"concise": "Элитное заклинание-чары. (15 сек) Атаки косой наносят 10...25 ед. урона рубящим оружием всем окружающим противникам каждый раз, когда вы атакуете."
+			},
+			"bork": {
+				"name": "Foo ooff Strengt",
+				"description": "Ileete-a Inchuntment Spell. Fur 15 secunds, vhenefer yuoo aettaeck a fue-a veet yuoor scyzee, yuoo deael 10...25 slaesheeng daemaege-a tu aell aedjaecent fues. Bork! Bork! Bork!",
+				"concise": "Ileete-a Inchuntment Spell. (15 secunds.) Aettaecks veet a scyzee deael 10...25 slaesheeng daemaege-a tu aell aedjaecent fues vhenefer yuoo aettaeck."
 			}
 		}
 	}

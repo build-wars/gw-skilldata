@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神圣冲击",
+				"description": "技能。 触摸目标敌人，使其受到 10...55点 神圣伤害。若击中被击倒的目标，则使其额外受到 10...55点 的神圣伤害。",
+				"concise": "触摸技。 触摸目标敌人，使其受到 10...55点 神圣伤害。若击中被击倒的目标，则使其额外受到 10...55点 的神圣伤害。"
+			},
+			"cht": {
+				"name": "神聖衝擊",
+				"description": "技能： 碰觸目標敵人，使其受到 10...55 神聖傷害。若擊中被擊倒的目標，則使其額外受到 10...55 的神聖傷害。",
+				"concise": "碰觸技能： 碰觸目標敵人，使其受到 10...55 神聖傷害。若擊中被擊倒的目標，則使其額外受到 10...55 的神聖傷害。"
+			},
 			"de": {
+				"name": "Heiliger Schlag",
+				"description": "Fertigkeit. Der berührte Gegner erleidet 10...55 Punkt[e] heiligen Schaden. Wenn Euer Ziel zu Boden geworfen wurde, erleidet es zusätzlich 10...55 Punkt[e] heiligen Schaden.",
+				"concise": "Berührungs-Fertigkeit. Richtet 10...55 Punkt[e] heiligen Schaden an. Richtet zusätzlich 10...55 Punkt[e] heiligen Schaden an, falls der Gegner zu Boden geworfen ist."
+			},
+			"de-guildwiki": {
 				"name": "Heiliger Schlag",
 				"description": "Der berührte Gegner erleidet 10...55 Punkte heiligen Schaden. Wenn Euer Ziel am Boden liegt, erleidet es zusätzlich 10...55 heiligen Schaden.",
 				"concise": "Richtet 10...55 Punkte heiligen Schaden an. Richtet zusätzlich 10...55 heiligen Schaden an, falls der Gegner zu Boden geworfen ist."
 			},
 			"en": {
 				"name": "Holy Strike",
+				"description": "Skill. Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
+				"concise": "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked-down."
+			},
+			"en-gww": {
+				"name": "Holy Strike",
 				"description": "Touched target foe takes 10...55 holy damage. If knocked down, your target takes an additional 10...55 holy damage.",
 				"concise": "Touch Skill. Deals 10...55 holy damage. Deals 10...55 more holy damage if target is knocked down."
 			},
+			"es": {
+				"name": "Golpe sagrado",
+				"description": "Habilidad. El enemigo al que toques recibe 10...55 de daño sagrado. Si está derribado, recibirá 10...55 de daño sagrado extra.",
+				"concise": "Habilidad de toque. Hace 10...55 de daño sagrado. 10...55 de daño sagrado extra si el objetivo está derribado."
+			},
 			"fr": {
+				"name": "Choc sacré",
+				"description": "Compétence. L'ennemi touché subit 10...55 points de dégâts sacrés. Si elle est assommée, votre cible subira 10...55 points de dégâts sacrés en plus.",
+				"concise": "Compétence de toucher. Inflige 10...55 points de dégâts sacrés. Inflige 10...55 points de dégâts sacrés supplémentaires si la cible est assommée."
+			},
+			"fr-gwiki": {
 				"name": "Choc sacré",
 				"description": "L'ennemi touché subit 10...55 points de dégâts sacrés. Si elle est assommée, votre cible subira 10...55 points de dégâts sacrés en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Sacro",
+				"description": "Abilità. L'obiettivo nemico toccato subisce 10...55 danno[i] sacro[i]. Se è a terra subisce inoltre 10...55 danno[i] sacro[i].",
+				"concise": "Abilità a Tocco. Danni sacri inferti: 10...55. Danni sacri aggiuntivi se l'obiettivo è stato abbattuto: 10...55."
+			},
+			"jp": {
+				"name": "ホーリー ストライク",
+				"description": "スキル： 接触した敵に 10...55 の神聖ダメージを与えます。転倒中の敵には 10...55 の追加神聖ダメージを与えます。",
+				"concise": "スキル (接触)： 10...55 の神聖ダメージを与えます。ターゲットが転倒中の場合、10...55 の追加神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "신성한 일격",
+				"description": "스킬. 대상 지정: 적. 대상에게 10...55의 신성 대미지를 줍니다. 그 대상이 넘어져 있다면 10...55의 신성 대미지를 추가로 줍니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "스킬(접근용). 10...55의 신성 대미지를 줍니다. 대상이 넘어져 있으면 10...55의 신성 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Święte Uderzenie",
+				"description": "Umiejętność. Dotknięty przeciwnik otrzymuje 10...55 świętych obrażeń. Jeśli był powalony, otrzymuje dodatkowe 10...55 pkt. świętych obrażeń.",
+				"concise": "Umiejętność dotykowa. Zadaje 10...55 pkt. świętych obrażeń. Zadaje 10...55 pkt. dodatkowych świętych obrażeń, jeżeli cel jest powalony."
+			},
+			"ru": {
+				"name": "Holy Strike",
+				"description": "Умение. Выбранный противник, до которого вы дотронулись, получает 10...55 ед. урона святой силой. Если противник в этот момент был сбит с ног, вы наносите ему дополнительно 10...55 ед. урона святой силой.",
+				"concise": "Умение прикосновения. Наносит 10...55 ед. урона святой силой. наносит дополнительно 10...55 ед. урона святой силой, если цель сбита с ног."
+			},
+			"bork": {
+				"name": "Huly Streeke-a",
+				"description": "Skeell. Tuooched taerget fue-a taekes 10...55 huly daemaege-a. Iff knucked doon, yuoor taerget taekes un aeddeeshunael 10...55 huly daemaege-a.",
+				"concise": "Tuooch Skeell. Deaels 10...55 huly daemaege-a. Deaels 10...55 mure-a huly daemaege-a iff taerget is knucked-doon."
 			}
 		}
 	}

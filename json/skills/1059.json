@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蚀咒纹章",
+				"description": "纹章。 触摸友方目标，驱散他和邻近最多2...5名友方身上的一项「负面魔法」。每使用此纹章技能驱散一项「负面魔法」，将让你获得1...4点能量值。",
+				"concise": "触摸纹章。 触摸友方目标，移除他和邻近最多 2...5名 队友身上的一项「负面魔法」。每使用此纹章技能移除一项「负面魔法」，将让你获得 1...4点 能量值。"
+			},
+			"cht": {
+				"name": "噬咒紋章",
+				"description": "紋章： 碰觸目標盟友及其鄰近最多 2...5 名盟友，移除他們身上的一項「降咒」。利用此紋章每移除一項「降咒」讓你獲得 1...4 能量。",
+				"concise": "碰觸紋章： 碰觸目標盟友及其鄰近最多 2...5 名盟友，移除他們身上的一項「降咒」。利用此紋章每移除一項「降咒」讓你獲得 1...4 能量。"
+			},
 			"de": {
+				"name": "Verhexungsfresser-Siegel",
+				"description": "Siegel. Der berührte Verbündete und bis zu 2...5 umstehende Verbündete verlieren jeweils eine Verhexung. Ihr erhaltet für jede Verhexung, die auf diese Art entfernt wird, 1...4 Energiepunkt[e].",
+				"concise": "Berührungs-Siegel. Entfernt beim Ziel und 2...5 umstehenden Verbündeten eine Verhexung. Entfernungswirkung: Ihr erhaltet für jede entfernte Verhexung 1...4 Energiepunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Verhexungsfresser-Siegel",
 				"description": "Berührt den Verbünden (bzw. Euch selbst) und nichts geschieht. Entfernt je 1 Verhexung von bis zu 2...5 Euch umstehenden verhexten Verbündeten (bzw. Euch selbst): Spieler in Ladereihenfolge, Helden in Besitzer-Ladereihenfolge (Gefolgsleute kommen nach Helden des schnellsten Spielers), sowie deren Tiere und Diener. Ihr erhaltet für jede so entfernte Verhexung 1...4 Energiepunkte.",
 				"concise": "Nichts geschieht. Entfernt je 1 Verhexung von Euch umstehenden Verbündeten bzw. Euch selbst: Spieler in Ladereihenfolge, Helden in Besitzer-Ladereihenfolge (Gefolgsleute kommen nach Helden des schnellsten Spielers), sowie deren Tiere und Diener. Entfernungswirkung: Ihr erhaltet für jede entfernte Verhexung 1...4 Energiepunkte. <gray>Es können höchstens 2...5 verhexte Verbündete betroffen sein.</gray>"
 			},
 			"en": {
 				"name": "Hex Eater Signet",
+				"description": "Signet. Target touched ally and up to 2...5 adjacent allies each lose one hex. You gain 1...4 Energy for each hex removed this way.",
+				"concise": "Touch Signet. Removes a hex from target and 2...5 adjacent allies. Removal effect: you gain 1...4 Energy for each hex removed."
+			},
+			"en-gww": {
+				"name": "Hex Eater Signet",
 				"description": "Target touched ally and up to 2...5 adjacent allies each lose one hex. You gain 1...4 Energy for each hex removed this way.",
 				"concise": "Touch Signet. Removes a hex from target and 2...5 adjacent allies. Removal effect: you gain 1...4 Energy for each hex removed."
 			},
+			"es": {
+				"name": "Sello de devoramaleficios",
+				"description": "Sello. El aliado tocado y hasta 2...5 aliados adyacentes pierden un maleficio. Ganas 1...4 de energía por cada maleficio eliminado de esta manera.",
+				"concise": "Sello de toque. Elimina un maleficio al enemigo objetivo y a 2...5 aliados adyacentes. Efecto de la eliminación: ganas 1...4 de energía por cada maleficio eliminado."
+			},
 			"fr": {
+				"name": "Sceau du Mangeur de Maléfices",
+				"description": "Sceau. La cible alliée touchée, et jusqu'à 2...5 alliés adjacents perdent chacun un maléfice. Vous gagnez 1...4 points d'énergie pour chaque maléfice supprimé de cette manière.",
+				"concise": "Sceau de toucher. Lève un maléfice qui frappe la cible et 2...5 alliés adjacents. Effet de la suppression : vous gagnez 1...4 points d'énergie pour chaque maléfice levé."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du Mangeur de Maléfices",
 				"description": "La cible alliée touchée, et jusqu'à 2...5 alliés adjacents perdent chacun un maléfice. Vous gagnez 1...4 point(s) d'énergie pour chaque maléfice supprimé de cette manière.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo Mangiafattura",
+				"description": "Sigillo. L'obiettivo alleato toccato e fino a 2...5 alleato[i] adiacente[i] perdono una fattura ciascuno; tu ottieni 1...4 Punto[i] Energia per ogni fattura che viene rimossa in questo modo.",
+				"concise": "Sigillo a Tocco. Rimuove una fattura dall'obiettivo e da 2...5 alleato[i] adiacente[i]. Effetto della rimozione: 1...4 Punto[i] Energia per ogni fattura rimossa."
+			},
+			"jp": {
+				"name": "ヘックス イーター シグネット",
+				"description": "シグネット： 接触した味方および隣接する最大 2...5 体の味方にかけられている弱体化スペルをそれぞれ1個解除します。プレイヤーは、この効果により解除した弱体化スペルごとに 1...4 のエネルギーを獲得します。",
+				"concise": "シグネット (接触)： ターゲットした味方および隣接する 2...5 体の味方にかけられている弱体化スペルを1個解除します。解除効果： 解除した弱体化スペルごとに、プレイヤーは 1...4 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "약화 흡수 인장",
+				"description": "인장. 대상 지정: 아군. 대상과 그에 인접한 최대 2...5명의 아군에게 걸린 약화 마법을 하나씩 무효화합니다. 무효화한 약화 마법 하나당 자신은 1...4의 에너지를 얻습니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "인장(접근용). 대상 아군과 그에 인접한 2...5명의 아군에게 걸린 약화 마법을 하나씩 무효화합니다. 무효화 효과: 무효화한 약화 마법 하나당 자신은 1...4의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Sygnet Pożeracz Klątw",
+				"description": "Sygnet. Wybrany dotknięty sojusznik i maksymalnie 2...5 sojuszników bezpośrednio przy nim tracą po jednej klątwie. Otrzymujesz 1...4 pkt. energii za każdą klątwę zdjętą w ten sposób.",
+				"concise": "Sygnet dotykowy. Usuwa po jednej klątwie z celu i 2...5 sojuszników bezpośrednio przy nim. Efekt usunięcia: otrzymujesz 1...4 pkt. energii za każdą usuniętą klątwę."
+			},
+			"ru": {
+				"name": "Hex Eater Signet",
+				"description": "Печать. С выбранного союзника, к которому вы прикоснулись, и не более, чем с 2...5 окружающих его союзников, снимается по одному проклятью. Вы получаете 1...4 ед. энергии за каждое проклятье, снятое при помощи этого умения.",
+				"concise": "Печать прикосновения. Снимает проклятье с цели и с 2...5 окружающих союзников. Эффект снятия: вы получаете 1...4 ед. энергии за каждое снятое проклятье."
+			},
+			"bork": {
+				"name": "Hex Iaeter Seegnet",
+				"description": "Seegnet. Taerget tuooched aelly und up tu 2...5 aedjaecent aelleees iaech luse-a oone-a hex. Yuoo gaeeen 1...4 Inergy fur iaech hex remufed thees vaey.",
+				"concise": "Tuooch Seegnet. Remufes a hex frum taerget und 2...5 aedjaecent aelleees. Remufael iffffect: yuoo gaeeen 1...4 Inergy fur iaech hex remufed."
 			}
 		}
 	}

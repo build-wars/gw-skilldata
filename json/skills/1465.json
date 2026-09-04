@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "预备射击",
+				"description": "精英弓术。 命中时，对敌人造成10...25点额外伤害。如果你正受到「预备技」的效果影响，你将获得1...9点能量值。",
+				"concise": "精英弓术。 命中时，对敌人造成10...25点额外伤害。如果你正受到「预备技」的效果影响，你将获得1...9点能量值。"
+			},
+			"cht": {
+				"name": "完備射擊",
+				"description": "精英弓術攻擊技能： 命中時對目標造成 10...25 額外傷害。若你正處於「準備」類型技能的效果下，你獲得 1...9 能量。",
+				"concise": "精英弓術攻擊技能： 命中時對目標造成 10...25 額外傷害。若你正處於「準備」類型技能的效果下，你獲得 1...9 能量。"
+			},
 			"de": {
+				"name": "Vorbereiteter Schuss",
+				"description": "Elite-Bogenangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...25 Punkt[e] Schaden zu. Wenn Ihr unter den Auswirkungen einer Vorbereitung steht, erhaltet Ihr 1...9 Energiepunkt[e].",
+				"concise": "Elite-Bogenangriff. Richtet +10...25 Punkt[e] Schaden an. Ihr erhaltet 1...9 Energiepunkt[e], falls Ihr eine aktive Vorbereitung habt."
+			},
+			"de-guildwiki": {
 				"name": "Vorbereiteter Schuss",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +10...25 Punkte Schaden zu. Wenn Ihr unter den Auswirkungen einer Vorbereitung steht, erhaltet Ihr 1...9 Energiepunkte.",
 				"concise": "Richtet +10...25 Punkte Schaden an. Ihr erhaltet 1...9 Energiepunkte, falls Ihr eine aktive Vorbereitung habt."
 			},
 			"en": {
 				"name": "Prepared Shot",
+				"description": "Elite Bow Attack. If this attack hits, you strike for +10...25 damage. If you are under the effects of a preparation, you gain 1...9 Energy.",
+				"concise": "Elite Bow Attack. Deals +10...25 damage. You gain 1...9 Energy if you have a preparation active."
+			},
+			"en-gww": {
+				"name": "Prepared Shot",
 				"description": "If this attack hits, you strike for +10...25 damage. If you are under the effects of a preparation, you gain 1...9 Energy.",
 				"concise": "Deals +10...25 damage. You gain 1...9 Energy if you have a preparation active."
 			},
+			"es": {
+				"name": "Disparo preparado",
+				"description": "Ataque con arco de élite. Si impacta el ataque, harás +10...25 daño. Si estás bajo los efectos de una preparación, ganarás 1...9 de energía.",
+				"concise": "Ataque con arco de élite. Hace +10...25 de daño. Ganas 1...9 de energía si tienes una preparación activa."
+			},
 			"fr": {
+				"name": "Coup préparé",
+				"description": "Attaque à l'arc d'élite. Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si vous êtes sous les effets d'une préparation, vous obtenez 1...9 points d'énergie.",
+				"concise": "Attaque à l'arc d'élite. Inflige +10...25 points de dégâts. Vous gagnez 1...9 points d'énergie si vous êtes sous l'effet d'une préparation."
+			},
+			"fr-gwiki": {
 				"name": "Coup préparé",
 				"description": "Si cette attaque réussit, vous infligez +10...25 points de dégâts. Si vous êtes sous les effets d'une préparation, vous obtenez 1...9 point(s) d'énergie.",
 				"concise": "Inflige +10...25 points de dégâts. Vous gagnez 1...9 point(s) d'énergie si vous êtes sous l'effet d'une préparation."
+			},
+			"it": {
+				"name": "Tiro Preparato",
+				"description": "Attacco con Arco d'Élite. Se questo attacco va a segno, infliggi +10...25 danno[i]. Se ti trovi sotto gli effetti di una Preparazione ottieni 1...9 Punto[i] Energia.",
+				"concise": "Attacco con Arco d'Élite. Danni inferti: +10...25. Energia conseguita se hai una preparazione attiva: 1...9."
+			},
+			"jp": {
+				"name": "プリペア ショット",
+				"description": "エリート ボウ アタック： この攻撃が成功すると、10...25 の追加ダメージを与えます。プレパレーション スキルの使用中は、1...9のエネルギーを獲得します。",
+				"concise": "エリート ボウ アタック： 10...25 の追加ダメージを与えます。プレパレーション スキルが発動中の場合、1...9 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "준비된 사격",
+				"description": "엘리트 활 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...25의 대미지를 추가로 줍니다. 자신이 준비 스킬에 걸려 있으면 1...9의 에너지를 얻습니다.",
+				"concise": "엘리트 활 공격. 10...25의 대미지를 추가로 줍니다. 자신이 준비 스킬에 걸려 있으면 1...9의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Przygotowany Strzał",
+				"description": "Elitarny strzał z łuku. Jeśli atak trafi, zadajesz +10...25 pkt. obrażeń. Jeżeli jesteś pod działaniem przygotowania, otrzymujesz 1...9 pkt. energii.",
+				"concise": "Elitarny strzał z łuku. Zadaje +10...25 pkt. obrażeń. Otrzymujesz 1...9 pkt. energii, jeżeli jesteś pod działaniem przygotowania."
+			},
+			"ru": {
+				"name": "Prepared Shot",
+				"description": "Элитная атака из лука. Если этот выстрел попадает в цель, вы наносите дополнительно 10...25 ед. урона. Если вы находитесь под воздействием подготовки, вы получаете 1...9 ед. энергии.",
+				"concise": "Элитная атака из лука. Наносит дополнительно 10...25 ед. урона. Вы получаете 1...9 ед. энергии, если находитесь под воздействием подготовки."
+			},
+			"bork": {
+				"name": "Prepaered Shut",
+				"description": "Ileete-a Boo Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +10...25 daemaege-a. Iff yuoo aere-a under zee iffffects ooff a prepaeraeshun, yuoo gaeeen 1...9 Inergy.",
+				"concise": "Ileete-a Boo Aettaeck. Deaels +10...25 daemaege-a. Yuoo gaeeen 1...9 Inergy iff yuoo haefe-a a prepaeraeshun aecteefe-a."
 			}
 		}
 	}

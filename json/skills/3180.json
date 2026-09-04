@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "幻觉粉碎",
+				"description": "咒文。 移除目标敌军身上的1个幻术师魔咒。若成功移除，该敌军承受15...75点伤害，邻近敌人承受该伤害75%的伤害。",
+				"concise": "咒文。 移除目标敌军的1个幻术师魔咒。移除效果：目标承受15...75点伤害，邻近敌军承受该伤害75%的伤害。"
+			},
+			"cht": {
+				"name": "幻覺粉碎",
+				"description": "咒文魔法： Remove one Mesmer hex from target foe. If a hex is removed, that foe takes 15...75 damage and all adjacent foes take 75% of that damage.",
+				"concise": "咒文魔法： Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and 75% of that damage to all adjacent foes."
+			},
 			"de": {
+				"name": "Täuschungen brechen (PvP)",
+				"description": "Zauber. Entfernt eine Mesmer-Verhexung vom anvisierten Gegner. Dabei erleidet der Gegner 15...75 Schaden, und alle benachbarten Gegner erleiden 75 % dieses Schadens.",
+				"concise": "Zauber. Entfernt eine Mesmer-Verhexung vom anvisierten Gegner. Dabei erleidet der Gegner 15...75 Schaden, und alle benachbarten Gegner erleiden 75 % dieses Schadens."
+			},
+			"de-guildwiki": {
 				"name": "Täuschungen brechen (PvP)",
 				"description": "Entfernt eine Mesmer-Verhexung vom Gegner. Wird eine Verhexung entfernt, erleidet er 15...75 Punkte Schaden und alle umstehenden Feinde erleiden 75% dieses Schadens (11...56).",
 				"concise": "Entfernt beim Gegner eine Mesmer-Verhexung. Entfernungswirkung: Richtet beim Ziel 15...75 Punkte Schaden an und bei umstehenden Feinden 75% dieses Schadens (11...56)."
 			},
 			"en": {
 				"name": "Shatter Delusions (PvP)",
+				"description": "Spell. Remove one Mesmer hex from target foe. If a hex is removed, that foe takes 15...75 damage and all adjacent foes take 75% of that damage.",
+				"concise": "Spell. Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and 75% of that damage to all adjacent foes."
+			},
+			"en-gww": {
+				"name": "Shatter Delusions (PvP)",
 				"description": "Remove one Mesmer hex from target foe. If a hex was removed, that foe takes 15...75 damage and all adjacent foes take 75% of that damage.",
 				"concise": "Removes a Mesmer hex from target foe. Removal effect: 15...75 damage to target and 75% of that damage to all adjacent foes."
 			},
+			"es": {
+				"name": "Destruir ilusiones (PvP)",
+				"description": "Conjuro. Quitas un maleficio de hipnotizador al enemigo objetivo. Si lo haces, el enemigo recibe 15...75 de daño y todos los adyacentes sufren un 75 % de ese daño.",
+				"concise": "Conjuro. Quita un maleficio de hipnotizador del enemigo objetivo. Efecto de eliminación: hace 15...75 de daño al objetivo y un 75 % de ese daño a todos los enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Dispersion des illusions (PvP)",
+				"description": "Sort. Dissipe un maléfice d'Envoûteur sur l'ennemi ciblé. Si un maléfice est dissipé, cet ennemi subit 15...75 points de dégâts et les ennemis adjacents subissent 75% de ces dégâts.",
+				"concise": "Sort. Dissipe un maléfice d'Envoûteur sur l'ennemi ciblé. Effet de la suppression : 15...75 points de dégâts à l'ennemi ciblé et 75% de ces dégâts à tous les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Dispersion des illusions (PvP)",
 				"description": "Lève un maléfice qui frappe l'ennemi visé. Si un maléfice est levé, cet ennemi et tous les ennemis adjacents subissent 15...75 points de dégâts.",
 				"concise": "Lève un maléfice d'Envoûteur de la cible ennemie. Effet de la suppression : inflige 15...75 points de dégâts à la cible et aux ennemis adjacents."
+			},
+			"it": {
+				"name": "Delusioni Infrante (PvP)",
+				"description": "Magia. Rimuovi una fattura da Ipnotizzatore dal bersaglio nemico. Se rimuovi una fattura, il bersaglio subisce 15...75 danni e tutti i nemici adiacenti subiscono il 75% di quei danni.",
+				"concise": "Magia. Rimuove una fattura da Ipnotizzatore dal bersaglio nemico. Effetto della rimozione: 15...75 danni al bersaglio e il 75% di quei danni a tutti i nemici adiacenti."
+			},
+			"jp": {
+				"name": "シャター デリュージョン (PvP)",
+				"description": "スペル： 標的となった敵からメスマーの弱体化スペルを1個解除します。弱体化スペルが解除された場合、その敵は15...75ダメージを受け、すべての隣接する敵はそのダメージの75%を受けます。",
+				"concise": "スペル： 標的となった敵からメスマーの弱体化スペルを1個解除します。解除効果：標的に15...75ダメージを与え、すべての隣接する敵にそのダメージの75%を与えます。"
+			},
+			"kr": {
+				"name": "약화 폭발(대인전)",
+				"description": "마법. 대상 지정: 적. 대상에게 걸려 있는 메스머의 약화 마법 하나를 무효화합니다. 약화 마법 하나가 무효화되면 대상은 15...75 대미지를 입고, 그에 인접한 모든 적은 그 대미지의 75%를 받습니다.",
+				"concise": "마법. 대상에 걸린 메스머 약화 마법 하나를 무효화합니다. 무효화 효과: 대상은 15...75 대미지를 입고, 그에 인접한 모든 적은 그 대미지의 75%를 받습니다."
+			},
+			"pl": {
+				"name": "Rozbicie Urojeń (PvP)",
+				"description": "Czar. Zdejmij jedną klątwę mesmera z wybranego przeciwnika. Jeśli klątwa zostanie usunięta, to ten przeciwnik odniesie 15...75 pkt. obrażeń, wszyscy wrogowie w jego bezpośrednim sąsiedztwie odniosą 75% tych obrażeń.",
+				"concise": "Czar. Zdejmuje jedną klątwę mesmera z wyznaczonego przeciwnika. Skutek zdjęcia: 15...75 pkt. obrażeń dla celu i 75% tych obrażeń dla wszystkich sąsiednich przeciwników."
+			},
+			"ru": {
+				"name": "Shatter Delusions (PvP)",
+				"description": "Заклинание. Снимает одно проклятье Mesmer с выбранного врага. Если проклятье снято, противник получает 15...75 урона, а все соседние враги — 75% урона.",
+				"concise": "Заклинание. Снимает проклятье Mesmer с выбранного врага. Эффект снятия: 15...75 урона цели и 75% урона соседним врагам."
+			},
+			"bork": {
+				"name": "Shaetter Delooseeuns (PfP)",
+				"description": "Spell. Remufe-a oone-a Mesmer hex frum taerget fue-a. Iff a hex is remufed, thaet fue-a taekes 15...75 daemaege-a und aell aedjaecent fues taeke-a 75% ooff thaet daemaege-a. Bork! Bork! Bork!",
+				"concise": "Spell. Remufes a Mesmer hex frum taerget fue-a. Remufael iffffect: 15...75 daemaege-a tu taerget und 75% ooff thaet daemaege-a tu aell aedjaecent fues. Bork! Bork! Bork!"
 			}
 		}
 	}

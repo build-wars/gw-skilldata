@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "救难之手",
+				"description": "精英增益魔法。 在10秒之内，当友方目标受到伤害时，他将获得5...35点生命值。",
+				"concise": "精英增益魔法。 在10秒之内，当友方目标受到伤害时，他将获得5...35点生命值。"
+			},
+			"cht": {
+				"name": "治癒之手",
+				"description": "精英加持魔法： 持續 10 秒，每當目標盟友受到傷害時，該盟友同時獲得 5...35 體力治癒效果。",
+				"concise": "精英加持魔法： 持續 10 秒，每當目標盟友受到傷害時，該盟友同時獲得 5...35 體力治癒效果。"
+			},
 			"de": {
+				"name": "Heilende Hände",
+				"description": "Elite-Verzauberung. Während der nächsten 10 Sekunde[n] wird der Verbündete (bzw. Ihr selbst) jedes Mal, wenn er Schaden erleidet, um 5...35 Lebenspunkt[e] geheilt.",
+				"concise": "Elite-Verzauberung. 10 Sekunde[n]: Heilt jedes Mal um 5...35 Lebenspunkt[e], wenn das Ziel Schaden erleidet."
+			},
+			"de-guildwiki": {
 				"name": "Heilende Hände",
 				"description": "Während der nächsten 10 Sekunden wird der Verbündete (bzw. Ihr selbst) jedes Mal, wenn er Schaden erleidet, um 5...35 Lebenspunkte geheilt.",
 				"concise": "10 Sekunden: Heilt jedes Mal um 5...35 Lebenspunkte, wenn das Ziel Schaden erleidet."
 			},
 			"en": {
 				"name": "Healing Hands",
+				"description": "Elite Enchantment Spell. For 10 seconds, whenever target ally takes damage, that ally is healed for 5...35 Health.",
+				"concise": "Elite Enchantment Spell. (10 seconds.) Heals for 5...35 whenever target takes damage."
+			},
+			"en-gww": {
+				"name": "Healing Hands",
 				"description": "For 10 seconds, whenever target ally takes damage, that ally is healed for 5...35 Health.",
 				"concise": "(10 seconds.) Heals for 5...35 whenever target takes damage."
 			},
+			"es": {
+				"name": "Manos sanadoras",
+				"description": "Conjuro con encantamiento de élite. Durante 10 segundos, el aliado objetivo se curará en 5...35 de salud siempre que reciba daño.",
+				"concise": "Conjuro con encantamiento de élite. (10 segundos). Cura 5...35 de salud cada vez que el objetivo reciba daño."
+			},
 			"fr": {
+				"name": "Mains du guérisseur",
+				"description": "Enchantement d'élite. Pendant 10 secondes, chaque fois que la cible (un allié ou vous-même) subit des dégâts, elle reçoit 5...35 points de vie.",
+				"concise": "Enchantement d'élite. (10 secondes.) Soigne de 5...35 points de vie chaque fois que la cible subit des dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Mains du guérisseur",
 				"description": "Pendant 10 secondes, chaque fois que la cible (un allié ou vous-même) subit des dégâts, elle reçoit 5...35 points de vie.",
 				"concise": "(10 secondes.) Soigne de 5...35 points de vie chaque fois que la cible subit des dégâts."
+			},
+			"it": {
+				"name": "Mani Curative",
+				"description": "Incantesimo d'Élite. Per 10 secondo[i], se l'obiettivo (un alleato o te stesso) subisce danni viene curato di 5...35 Punto[i] Salute.",
+				"concise": "Incantesimo d'Élite. (10 secondo[i]). Cura di 5...35 quando l'obiettivo riceve danni."
+			},
+			"jp": {
+				"name": "ヒーリング ハンド",
+				"description": "エリート強化スペル： 10 秒間、ターゲットした味方は、ダメージを受けるたびに体力が 5...35 回復します。",
+				"concise": "エリート強化スペル： (10 秒) ターゲットは、ダメージを受けるたびに体力が 5...35 回復します。"
+			},
+			"kr": {
+				"name": "회복의 손",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 10초 동안 대상이 대미지를 입을 때마다 5...35의 체력을 회복합니다.",
+				"concise": "엘리트 강화 마법. (10초) 대미지를 입을 때마다 5...35의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Uzdrawiające Dłonie",
+				"description": "Elitarne zaklęcie (czar). Przez 10 sek., za każdym razem, kiedy wybrany sojusznik otrzyma obrażenia, zostanie uzdrowiony otrzymując 5...35 pkt. żywotności.",
+				"concise": "Elitarne zaklęcie (czar). (10 sek.) Dodaje 5...35 pkt. żywotności, za każdym razem, kiedy cel otrzymuje obrażenia."
+			},
+			"ru": {
+				"name": "Healing Hands",
+				"description": "Элитное заклинание-чары. В течение 10 сек каждый раз, когда выбранный союзник получает урон, он исцеляется на 5...35 ед. здоровья.",
+				"concise": "Элитное заклинание-чары. (10 сек) Исцеляет на 5...35 ед. здоровья каждый раз, когда цель получает урон."
+			},
+			"bork": {
+				"name": "Heaeleeng Hunds",
+				"description": "Ileete-a Inchuntment Spell. Fur 10 secunds, vhenefer taerget aelly taekes daemaege-a, thaet aelly is heaeled fur 5...35 Heaelt.",
+				"concise": "Ileete-a Inchuntment Spell. (10 secunds.) Heaels fur 5...35 vhenefer taerget taekes daemaege-a."
 			}
 		}
 	}

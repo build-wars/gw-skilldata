@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "黑蛛刺",
+				"description": "副手技。 只能对遭受「负面魔法」的敌人使用。命中时，对目标敌人造成额外5...20点伤害，并使其「中毒」5...20秒。",
+				"concise": "副手技。 只能对遭受「负面魔法」的敌人使用。命中时，对目标敌人造成额外5...20点伤害，并使其「中毒」5...20秒。"
+			},
+			"cht": {
+				"name": "黑寡婦狙殺",
+				"description": "即刻攻擊： 必須以被「降咒」的敵人為目標，命中時對目標造成 5...20 額外傷害，並且使該目標遭受「中毒」病症 5...20 秒。",
+				"concise": "即刻攻擊： 必須以被「降咒」的敵人為目標，命中時對目標造成 5...20 額外傷害，並且使該目標遭受「中毒」病症 5...20 秒。"
+			},
 			"de": {
+				"name": "Schwarzer Spinnen-Stoß",
+				"description": "Begleithandangriff. Muss einen verhexten Feind treffen. Wenn er trifft, fügt dieser Angriff +5...20 Punkt[e] Schaden zu und der Feind wird 5...20 Sekunde[n] lang vergiftet.",
+				"concise": "Begleithandangriff. Richtet +5...20 Punkt[e] Schaden an. Verursacht Zustand Gift (5...20 Sekunde[n]). Muss einen verhexten Feind treffen."
+			},
+			"de-guildwiki": {
 				"name": "Schwarzer Spinnen-Stoß",
 				"description": "Muss einen verhexten Feind treffen. Wenn er trifft, fügt dieser Angriff +5...20 Punkte Schaden zu und der Feind wird 5...20 Sekunden lang vergiftet.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Verursacht Zustand Gift (5...20 Sekunden). <gray>Muss einen verhexten Feind treffen.</gray>"
 			},
 			"en": {
 				"name": "Black Spider Strike",
+				"description": "Off-Hand Attack. Must strike a hexed foe. If it hits, this attack strikes for +5...20 damage and target foe is Poisoned for 5...20 seconds.",
+				"concise": "Off-Hand Attack. Deals +5...20 damage. Inflicts Poisoned condition (5...20 seconds). Must strike a hexed foe."
+			},
+			"en-gww": {
+				"name": "Black Spider Strike",
 				"description": "Must strike a hexed foe. If it hits, this attack strikes for +5...20 damage and target foe is Poisoned for 5...20 seconds.",
 				"concise": "Deals +5...20 damage. Inflicts Poisoned condition (5...20 seconds). <gray>Must strike a hexed foe.</gray>"
 			},
+			"es": {
+				"name": "Golpe de la araña negra",
+				"description": "Ataque complementario. Debe golpear a un enemigo afectado por un maleficio. Si impacta, hará +5...20 de daño y el enemigo quedará envenenado durante 5...20 segundos.",
+				"concise": "Ataque complementario. Hace +5...20 de daño. Causa envenenamiento (5...20 segundos). Debe golpear a un enemigo con maleficio."
+			},
 			"fr": {
+				"name": "Attaque de l'araignée noire",
+				"description": "Attaque main gauche. Doit toucher un ennemi affecté par un maléfice. Si elle réussit, cette attaque inflige +5...20 points de dégâts et l'ennemi visé est empoisonné pendant 5...20 secondes.",
+				"concise": "Attaque main gauche. Inflige +5...20 points de dégâts. Provoque l'Empoisonnement (5...20 secondes). Doit frapper un ennemi victime d'un maléfice."
+			},
+			"fr-gwiki": {
 				"name": "Attaque de l'araignée noire",
 				"description": "Doit toucher un ennemi affecté par un maléfice. Si elle réussit, cette attaque inflige +5...20 points de dégâts et l'ennemi visé est empoisonné pendant 5...20 secondes.",
 				"concise": "Inflige +5...20 points de dégâts. Provoque l'Empoisonnement (5...20 secondes). <gray>Doit frapper un ennemi victime d'un maléfice.</gray>"
+			},
+			"it": {
+				"name": "Colpo del Ragno Nero",
+				"description": "Attacco con Arma Secondaria. Deve colpire un avversario sotto fattura. Se va a segno, questo attacco infligge +5...20 danno[i] e l'obiettivo nemico viene avvelenato per 5...20 secondo[i].",
+				"concise": "Attacco con Arma Secondaria. Danni inferti: +5...20. Condizione inflitta: Veleno (5...20 secondo[i]). Deve colpire un nemico sotto fattura."
+			},
+			"jp": {
+				"name": "ブラック スパイダー ストライク",
+				"description": "オフハンド アタック： 弱体化スペルがかけられている敵に効果があります。攻撃が成功した場合、5...20 の追加ダメージを与え、5...20 秒間「毒」状態にします。",
+				"concise": "オフハンド アタック： 5...20 の追加ダメージを与えて「毒」状態にします (5...20 秒) 。弱体化スペルをかけられている敵に使用します。"
+			},
+			"kr": {
+				"name": "흑거미 일격",
+				"description": "보조 공격. 대상 지정: 적. 약화 상태인 적에게 사용할 수 있습니다. 공격이 성공하면 대상은 5...20의 대미지를 추가로 입고, 5...20초 동안 중독 상태가 됩니다.",
+				"concise": "보조 공격. 5...20의 대미지를 추가로 주고, 중독시킵니다.(5...20초) 약화 마법에 걸린 적을 공격해야 합니다."
+			},
+			"pl": {
+				"name": "Uderzenie Czarnego Pająka",
+				"description": "Atak drugą ręką. Musi trafić przeciwnika pod działaniem klątwy. Jeżeli atak trafi, zadaje +5...20 pkt. obrażeń, a wybrany przeciwnik zostaje zatruty na 5...20 sek.",
+				"concise": "Atak drugą ręką. Zadaje +5...20 pkt. obrażeń. Wywołuje przypadłość zatrucie (5...20 sek.). Musi trafić przeciwnika pod działaniem klątwy."
+			},
+			"ru": {
+				"name": "Black Spider Strike",
+				"description": "Атака второй рукой. Удар должен наноситься по противнику, находящемуся под действием какого-либо проклятья. Если удар попадает в цель, он наносит дополнительно 5...20 ед. урона, а выбранный противник будет отравлен на 5...20 сек.",
+				"concise": "Атака второй рукой. Наносит дополнительно 5...20 ед. урона. Вызывает отравление (5...20 сек). Должен наноситься противнику под действием проклятья."
+			},
+			"bork": {
+				"name": "Blaeck Speeder Streeke-a",
+				"description": "Ooffff-Hund Aettaeck. Moost streeke-a a hexed fue-a. Iff it heets, thees aettaeck streekes fur +5...20 daemaege-a und taerget fue-a is Pueesuned fur 5...20 secunds.",
+				"concise": "Ooffff-Hund Aettaeck. Deaels +5...20 daemaege-a. Inffleects Pueesuned cundeeshun (5...20 secunds). Moost streeke-a a hexed fue-a."
 			}
 		}
 	}

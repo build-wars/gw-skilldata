@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "尸爆",
+				"description": "咒文。 引爆最接近你的尸体，爆炸产生的冲击波会对附近的敌人造成24...120点伤害。",
+				"concise": "咒文。 引爆最接近你的尸体，爆炸产生的冲击波会对附近的敌人造成24...120点伤害。"
+			},
+			"cht": {
+				"name": "屍爆",
+				"description": "咒文魔法： 使距離你目標最近的屍體爆炸，產生的衝擊波對附近的敵人造成 24...120 傷害。",
+				"concise": "咒文魔法： 使距離你目標最近的屍體爆炸，產生的衝擊波對附近的敵人造成 24...120 傷害。"
+			},
 			"de": {
+				"name": "Explosion der Verwesung",
+				"description": "Zauber. Der Kadaver, der Eurem Ziel am nächsten ist, explodiert und sendet eine Schockwelle aus, die allen in der Nähe befindlichen Gegnern 24...120 Punkt[e] Schaden zufügt.",
+				"concise": "Zauber. Lässt einen Kadaver explodieren und richtet bei Gegnern in der Nähe 24...120 Punkt[e] Schaden an. Benutzt frischen Kadaver."
+			},
+			"de-guildwiki": {
 				"name": "Explosion der Verwesung",
 				"description": "Der Kadaver, der Eurem Ziel am nächsten ist, explodiert und sendet eine Schockwelle aus, die allen in der Nähe befindlichen Gegnern 24...120 Punkte Schaden zufügt.",
 				"concise": "Lässt einen Kadaver explodieren und richtet bei Gegnern in der Nähe 24...120 Punkte Schaden an. <gray>Benutzt frischen Kadaver.</gray>"
 			},
 			"en": {
 				"name": "Putrid Explosion",
+				"description": "Spell. The corpse nearest your target explodes, sending out a shockwave that deals 24...120 damage to nearby foes.",
+				"concise": "Spell. Explodes a corpse, dealing 24...120 damage to foes near it. Exploits a fresh corpse."
+			},
+			"en-gww": {
+				"name": "Putrid Explosion",
 				"description": "The corpse nearest your target explodes, sending out a shockwave that deals 24...120 damage to nearby foes.",
 				"concise": "Explodes a corpse, dealing 24...120 damage to foes near it. <gray>Exploits a fresh corpse.</gray>"
 			},
+			"es": {
+				"name": "Explosión de putrefacción",
+				"description": "Conjuro. El cadáver más cercano al objetivo explota, enviando una onda expansiva que hará 24...120 de daño a todos los enemigos cercanos.",
+				"concise": "Conjuro. Explotas un cadáver, que hace 24...120 de daño a los enemigos cercanos Explotas un cadáver."
+			},
 			"fr": {
+				"name": "Explosion putride",
+				"description": "Sort. Le cadavre le plus proche de votre cible explose et provoque une onde de choc qui inflige 24...120 points de dégâts aux ennemis à proximité.",
+				"concise": "Sort. Fait exploser un cadavre qui inflige 24...120 points de dégâts aux ennemis à proximité. Exploite un cadavre récent."
+			},
+			"fr-gwiki": {
 				"name": "Explosion putride",
 				"description": "Le cadavre le plus proche de votre cible explose et provoque une onde de choc qui inflige 24...120 points de dégâts aux ennemis à proximité.",
 				"concise": "Fait exploser un cadavre qui inflige 24...120 points de dégâts aux ennemis à proximité."
+			},
+			"it": {
+				"name": "Esplosione Putrida",
+				"description": "Magia. Il cadavere più vicino al tuo obiettivo esplode, sprigionando un'onda d'urto che infligge 24...120 danno[i] a tutti i nemici nei dintorni.",
+				"concise": "Magia. Fa esplodere un cadavere assestando 24...120 danno[i] ai nemici vicini ad esso. Utilizza un cadavere sfruttabile."
+			},
+			"jp": {
+				"name": "ピュートリッド エクスプロージョン",
+				"description": "スペル： ターゲットの最寄にある死体を爆破し、その衝撃波で周囲にいる敵に 24...120 のダメージを与えます。",
+				"concise": "スペル： 死体を利用し、その周囲にいる敵に 24...120 のダメージを与えます。死体がない場合は無効です。"
+			},
+			"kr": {
+				"name": "시체 폭파",
+				"description": "마법. 대상 지정: 없음. 가장 가까이 있는 시체를 폭발시킵니다. 시체 부근에 있는 적들은 24...120 대미지를 입습니다.",
+				"concise": "마법. 시체를 폭파시켜 부근의 적들에게 24...120의 대미지를 줍니다. 시체를 이용해야 합니다."
+			},
+			"pl": {
+				"name": "Eksplozja Zgnilizny",
+				"description": "Czar. Zwłoki znajdujące się najbliżej twojego celu eksplodują, tworząc falę uderzeniową, która zadaje 24...120 pkt. obrażeń pobliskim wrogom.",
+				"concise": "Czar. Rozrywa ciało, zadając przeciwnikom w jego pobliżu po 24...120 pkt. obrażeń. Zużywa świeże ciało."
+			},
+			"ru": {
+				"name": "Putrid Explosion",
+				"description": "Заклинание. Ближайший к вашей цели труп взрывается, высылая шоковую волну, которая наносит 24...120 ед. урона находящимся поблизости противникам.",
+				"concise": "Заклинание. Взрывает труп, нанося 24...120 ед. урона противникам поблизости от него. Используется свежий труп."
+			},
+			"bork": {
+				"name": "Pootreed Ixpluseeun",
+				"description": "Spell. Zee curpse-a neaerest yuoor taerget ixpludes, sendeeng oooot a shuckvaefe-a thaet deaels 24...120 daemaege-a tu neaerby fues.",
+				"concise": "Spell. Ixpludes a curpse-a, deaeleeng 24...120 daemaege-a tu fues neaer it. Ixplueets a fresh curpse-a."
 			}
 		}
 	}

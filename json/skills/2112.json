@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 0,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "\"准备迎战！\"",
+				"description": "战吼。 在4秒内（每2级「统率」属性可使此效果持续时间增加1秒），使所有「音波」范围内的友方所受到的伤害降低20...35%。受到影响的友方将在「战吼」效果消失后回复35...60点生命值。",
+				"concise": "战吼。 在4秒内（每2级「统率」属性可使效果持续时间增加1秒），使所有「音波」范围内的友方所受到的伤害降低20...35%。受到影响的友方将在「战吼」效果消失后回复35...60点生命值。"
+			},
+			"cht": {
+				"name": "「全體備戰！」",
+				"description": "戰嚎： 持續 4 秒，另外加上每 2「領導」屬性等級為 1秒使音量所及範圍內的所有盟友受到的傷害降低 20...35% 。當此戰嚎效果終止時，受影響的盟友獲得 35...60 體力。",
+				"concise": "戰嚎： 持續 4 秒，另外加上每 2「領導」屬性等級為 1秒使音量所及範圍內的所有盟友受到的傷害降低 20...35% 。當此戰嚎效果終止時，受影響的盟友獲得 35...60 體力。"
+			},
 			"de": {
+				"name": "\"Es gibt nichts zu befürchten!\"",
+				"description": "Schrei. 4 Sekunde[n] und 1 Sekunde pro 2 Ränge bei Führung lang erleiden alle Gruppenmitglieder in Hörweite um 20...35% weniger Schaden. Betroffene Gruppenmitglieder werden um 35...60 Lebenspunkt[e] geheilt, wenn dieser Schrei endet.",
+				"concise": "Schrei. (4 Sekunde[n] plus 1 Sekunde für alle 2 Ränge bei Führung.) Reduziert Schaden für Gruppenmitglieder in Hörweite um 20...35%. Wirkung am Ende: Heilt um 35...60 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "\"Es gibt nichts zu befürchten!\"",
 				"description": "4 Sekunden und 1 Sekunde pro 2 Ränge bei Führung lang erleiden alle Gruppenmitglieder in Hörweite um 20...35% weniger Schaden. Betroffene Gruppenmitglieder werden um 35...60 Lebenspunkte geheilt, wenn dieser Schrei endet.",
 				"concise": "(4 Sekunden plus 1 Sekunde für alle 2 Ränge bei Führung.) Reduziert Schaden für Gruppenmitglieder in Hörweite um 20...35%. Wirkung am Ende: Heilt um 35...60 Lebenspunkte."
 			},
 			"en": {
 				"name": "\"There's Nothing to Fear!\"",
+				"description": "Shout. For 4 seconds plus 1 second for every 2 ranks in Leadership, all party members within earshot take 20...35% less damage. Affected party members are healed for 35...60 Health when this shout ends.",
+				"concise": "Shout. (4 seconds plus 1 second for every 2 ranks in Leadership.) Reduces damage by 20...35% for party members in earshot. End effect: heals for 35...60 Health."
+			},
+			"en-gww": {
+				"name": "\"There's Nothing to Fear!\"",
 				"description": "For 4 seconds and 1 second for every 2 ranks in Leadership, all party members within earshot take 20...35% less damage. Affected party members are healed for 35...60 Health when this shout ends.",
 				"concise": "(4 seconds plus 1 second for every 2 ranks in Leadership.) Reduces damage by 20...35% for party members in earshot. End effect: heals for 35...60 Health."
 			},
+			"es": {
+				"name": "\"¡No hay nada que temer!\"",
+				"description": "Grito. Durante 4 segundos más 1 segundo extra por cada 2 niveles de liderazgo que tengas, todos los miembros del grupo al alcance del oído reciben un 20...35% menos de daño. Cuando este grito acabe, los miembros del grupo afectados se curarán 35...60 de salud.",
+				"concise": "Grito. (4 segundos y 1 segundo extra por cada 2 niveles de liderazgo que tengas). Reduce un 20...35% el daño que reciban los miembros del grupo al alcance del oído. Efecto final: cura 35...60 de salud."
+			},
 			"fr": {
+				"name": "\"Il n'y a rien à craindre !\"",
+				"description": "Cri. Pendant 4 secondes plus 1 seconde supplémentaire tous les 2 points de Charisme, tous les membres du groupe à portée de voix subissent 20...35% de dégâts en moins. Les membres du groupe affectés sont soignés de 35...60 points de vie lorsque ce cri prend fin.",
+				"concise": "Cri. (4 secondes, plus 1 seconde tous les 2 rangs de Charisme.) Réduit les dégâts de 20...35% pour les membres du groupe à portée de voix. Effet final : soigne de 35...60 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "\"Il n'y a rien à craindre !\"",
 				"description": "Pendant 4 secondes plus 1 seconde supplémentaire tous les 2 points de Charisme, tous les membres du groupe à portée de voix subissent 20...35% de dégâts en moins. Les membres du groupe affectés sont soignés de 35...60 points de vie lorsque ce cri prend fin.",
 				"concise": "(4 secondes, plus 1 seconde tous les 2 rangs de Charisme.) Réduit les dégâts de 20...35% pour les membres du groupe à portée de voix. Effet final : soigne de 35...60 points de vie."
+			},
+			"it": {
+				"name": "\"Non c'è Nulla da Temere!\"",
+				"description": "Urlo. Per 4 secondo[i] e 1 secondo per ogni 2 gradi di Leadership, tutti i membri della squadra a portata d'orecchio subiscono un 20...35% di danni in meno; quando questo urlo termina i membri della squadra affetti vengono curati di 35...60 Punto[i] Salute.",
+				"concise": "Urlo. (Secondi: 4 più 1 per ogni 2 gradi di Leadership) Riduzione danni subiti dai membri della squadra a portata d'orecchio: 20...35%. Effetto al termine: cura di 35...60."
+			},
+			"jp": {
+				"name": "ナッシング トゥ フィア！",
+				"description": "シャウト： 4 秒間、声の届く範囲内にいるパーティー メンバーは、受けるダメージが 20...35% 減少します。この効果の持続時間は、「リーダーシップ」の特性2レベルごとに1秒増加します。この効果が消失すると、対象となったパーティー メンバーは体力が 35...60 回復します。",
+				"concise": "シャウト： (4 秒＋「リーダーシップ」の特性2レベルごとに1秒) 声の届く範囲内にいるパーティー メンバーが受けるダメージを 20...35% 減少します。終了効果： 体力が 35...60 回復します。"
+			},
+			"kr": {
+				"name": "두려워할 것 없다!",
+				"description": "고함. 대상 지정: 없음. 4초에 더해 특성 레벨 2레벨당 1초씩 가청 범위 내에 있는 모든 파티원은 20...35% 감소된 대미지를 입습니다. 효과를 입은 파티원은 고함이 끝날 때 35...60의 체력을 회복합니다.",
+				"concise": "고함. (4초 + 리더십 특성 레벨 2당 1초) 가청 범위 내에 있는 파티원들은 20...35% 감소된 대미지를 입습니다. 종료 효과: 35...60의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "\"Nie Ma się Czego Obawiać!\"",
+				"description": "Okrzyk. Przez 4 sek. i 1 sekundę na każde 2 poziomy Przywództwa wszyscy sojusznicy w zasięgu słuchu otrzymują o 20...35% mniej obrażeń. Kiedy okrzyk się skończy, ci sojusznicy otrzymają po 35...60 pkt. żywotności.",
+				"concise": "Okrzyk. (4 sek. plus 1 sek. za każde 2 poziomy Przywództwa.) Obniża obrażenia o 20...35% na każdego członka drużyny w zasięgu słuchu. Efekt końcowy: dodaje 35...60 pkt. żywotności."
+			},
+			"ru": {
+				"name": "\"There's Nothing to Fear!\"",
+				"description": "Крик. В течение 4 сек плюс 1 сек за каждые 2 уровня таланта Leadership все члены вашего отряда в зоне слышимости получают на 20...35% меньше урона. Когда действие этого крика завершается, все члены вашего отряда, затронутые этим криком, исцеляются на 35...60 ед. здоровья.",
+				"concise": "Крик. (4 сек плюс 1 сек за каждые 2 уровня таланта Leadership) Члены отряда в зоне слышимости получают на 20...35% меньше урона. Эффект окончания: исцеляет на 35...60 ед. здоровья."
+			},
+			"bork": {
+				"name": "\"Zeere-a's Nutheeng tu Feaer!\"",
+				"description": "Shuoot. Fur 4 secunds ploos 1 secund fur ifery 2 runks in Leaedersheep, aell paerty members veetheen iaershut taeke-a 20...35% less daemaege-a. Aeffffected paerty members aere-a heaeled fur 35...60 Heaelt vhee thees shuoot inds.",
+				"concise": "Shuoot. (4 secunds ploos 1 secund fur ifery 2 runks in Leaedersheep.) Redooces daemaege-a by 20...35% fur paerty members in iaershut. Ind iffffect: heaels fur 35...60 Heaelt."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0.5,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "秘法螺旋",
+				"description": "咒文。 根据你身上所带有的「增益魔法」效果数量，对范围内同等数量的敌人造成10...60点冰冻伤害。（同一敌人只会受到一次伤害）",
+				"concise": "咒文。 根据你身上所带有的「增益魔法」效果数量，对范围内同等数量的敌人造成10...60点冰冻伤害。（同一敌人只会受到一次伤害）"
+			},
+			"cht": {
+				"name": "祕法纏繞",
+				"description": "咒文魔法： 對附近的敵人造成 10...60 冰凍傷害，若你有加持效果，則再加 10...60 冰凍傷害。",
+				"concise": "咒文魔法： 對附近的敵人造成 10...60 冰凍傷害，若你有加持效果，則再加 10...60 冰凍傷害。"
+			},
 			"de": {
+				"name": "Mystischer Wirbelsturm",
+				"description": "Zauber. Richtet bei allen Feinden in der Nähe 10...60 Punkt[e] Kälteschaden an. Wenn Ihr verzaubert seid, verursacht dieser Zauber zusätzlich 10...60 Punkt[e] Kälteschaden.",
+				"concise": "Zauber. Richtet bei allen Feinden in der Nähe 10...60 Punkt[e] Kälteschaden an. Richtet 10...60 Punkt[e] Kälteschaden zusätzlich an, wenn Ihr verzaubert seid."
+			},
+			"de-guildwiki": {
 				"name": "Mystischer Wirbelsturm",
 				"description": "Richtet bei allen Feinden in der Nähe 10...60 Punkte Kälteschaden an. Wenn Ihr verzaubert seid, verursacht dieser Zauber zusätzlich 10...60 Punkte Kälteschaden.",
 				"concise": "Richtet bei allen Feinden in der Nähe 10...60 Punkte Kälteschaden an. Richtet 10...60 Punkte Kälteschaden zusätzlich an, wenn Ihr verzaubert seid."
 			},
 			"en": {
 				"name": "Mystic Twister",
+				"description": "Spell. Deals 10...60 cold damage to all nearby foes. If you are enchanted, this spell deals an additional 10...60 cold damage.",
+				"concise": "Spell. Deals 10...60 cold damage to all nearby foes. Deals 10...60 more cold damage if you are enchanted."
+			},
+			"en-gww": {
+				"name": "Mystic Twister",
 				"description": "Deals 10...60 cold damage to all nearby foes. If you are enchanted, this spell deals an additional 10...60 cold damage.",
 				"concise": "Deals 10...60 cold damage to all nearby foes. Deals 10...60 more cold damage if you are enchanted."
 			},
+			"es": {
+				"name": "Tornado místico",
+				"description": "Conjuro. Hace 10...60 de daño de frío a todos los enemigos cercanos. Si estás encantado, este conjuro hace 10...60 de daño de frío adicional.",
+				"concise": "Conjuro. Hace 10...60 de daño de frío a todos los enemigos cercanos. Hace 10...60 de daño de frío adicional si estás encantado."
+			},
 			"fr": {
+				"name": "Tornade mystique",
+				"description": "Sort. Inflige 10...60 points de dégâts du froid à tous les ennemis à proximité. Si vous êtes sous l'effet d'un enchantement, ce sort inflige 10...60 points de dégâts supplémentaires.",
+				"concise": "Sort. Inflige 10...60 points de dégâts du froid à tous les ennemis à proximité. Inflige 10...60 points de dégâts supplémentaires si vous êtes sous l'effet d'un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Tornade mystique",
 				"description": "Inflige 10...60 dégâts du froid aux ennemis proches. Si vous êtes ennchantés, ce sort inflige 10...60 dégâts du froid supplémentaire.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tornado Mistico",
+				"description": "Magia. Danni da freddo a tutti i nemici nei dintorni : 10...60. Se sei sotto incantesimo, questo attacco infligge inoltre +10...60 di danni da freddo.",
+				"concise": "Magia. Danni da freddo a tutti i nemici nei dintorni : 10...60. Danni da freddo inferti: +10...60 se sei sotto incantesimo."
+			},
+			"jp": {
+				"name": "ミスティック ツイスター",
+				"description": "スペル： 周囲にいる敵に 10...60 のコールド ダメージを与えます。プレイヤーに強化スペルがかけられている場合、この攻撃はさらに 10...60 のコールド ダメージを与えます。",
+				"concise": "スペル： 周囲にいる敵に 10...60 のコールド ダメージを与えます。プレイヤーに強化スペルがかけられている場合、さらに 10...60 のコールド ダメージを与えます。"
+			},
+			"kr": {
+				"name": "신비의 회오리",
+				"description": "마법. 대상 지정: 없음. 부근의 모든 적에게 10...60의 냉기 대미지를 주고, 자신이 강화 마법에 걸려 있으면 추가로 10...60의 냉기 대미지를 줍니다.",
+				"concise": "마법. 부근의 모든 적에게 10...60의 냉기 대미지를 주고, 자신이 강화 마법에 걸려 있으면 추가로 10...60의 냉기 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Mistyczny Wir",
+				"description": "Czar. Wszystkim przeciwnikom w pobliżu zadaje po 10...60 pkt. obrażeń od zimna. Jeśli znajdujesz się pod wpływem zaklęcia, czar ten zadaje dodatkowe 10...60 pkt. obrażeń od zimna.",
+				"concise": "Czar. Wszystkim przeciwnikom w pobliżu zadaje po 10...60 pkt. obrażeń od zimna. Zadaje 10...60 obrażeń od zimna więcej, jeśli jesteś pod wpływem zaklęcia."
+			},
+			"ru": {
+				"name": "Mystic Twister",
+				"description": "Заклинание. Наносит 10...60 ед. урона силой холода всем противникам поблизости. Если на вас наложены чары, это заклинание наносит дополнительно 10...60 ед. урона силой холода.",
+				"concise": "Заклинание. Наносит 10...60 ед. урона силой холода всем противникам поблизости. Наносит дополнительно 10...60 ед. урона силой холода, если на вас наложены чары."
+			},
+			"bork": {
+				"name": "Mysteec Tveester",
+				"description": "Spell. Deaels 10...60 culd daemaege-a tu aell neaerby fues. Iff yuoo aere-a inchunted, thees spell deaels un aeddeeshunael 10...60 culd daemaege-a.",
+				"concise": "Spell. Deaels 10...60 culd daemaege-a tu aell neaerby fues. Deaels 10...60 mure-a culd daemaege-a iff yuoo aere-a inchunted."
 			}
 		}
 	}

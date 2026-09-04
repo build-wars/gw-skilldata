@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "丰收时节",
+				"description": "自然仪式。 创造一只等级为1...10的丰收精灵。使区域内所有「非灵体」类生物的生命最大值提高50...150点，护甲值提高15点。丰收精灵在15...90秒后消失。",
+				"concise": "自然仪式。 创造一只等级为1...10的丰收精灵。使区域内所有「非灵体」类生物的生命最大值提高50...150点、护甲提高15点。丰收精灵在15...90秒后消失。"
+			},
+			"cht": {
+				"name": "豐收季節",
+				"description": "自然儀式： 創造一隻等級 1...10 的精靈。使區域內所有非靈生物的體力最大值增加 50...150 並 + 8 防禦。此靈將在 15...90 秒後消失。",
+				"concise": "自然儀式： 創造一隻等級 1...10 的豐收精靈。使區域內所有生物的體力最大值增加 50...150 並且增加 15 防禦。豐收精靈在 15...90 秒後消失。"
+			},
 			"de": {
+				"name": "Fruchtbare Jahreszeit",
+				"description": "Naturritual. Erstellt einen Geist der Stufe 1...10. Kreaturen in Reichweite, die keine Geister sind, haben +50...150 maximale Lebenspunkte und erhalten +8 Rüstung. Dieser Geist stirbt nach 15...90 Sekunde[n].",
+				"concise": "Naturritual. Erstellt einen Geist der Stufe 1...10 (15...90 Sekunde[n] Lebensdauer). Kreaturen in Reichweite haben +50...150 maximale Lebenspunkte und +8 Rüstung. Keine Wirkung auf Geister."
+			},
+			"de-guildwiki": {
 				"name": "Fruchtbare Jahreszeit",
 				"description": "Erstellt einen Geist der Stufe 1...10. Kreaturen in Reichweite, die keine Geister sind, haben +50...150 maximale Lebenspunkte und erhalten +8 Rüstung. Dieser Geist stirbt nach 15...90 Sekunden.",
 				"concise": "Erstellt einen Geist der Stufe 1...10 (15...90 Sekunden Lebensdauer). Kreaturen in Reichweite haben +50...150 maximale Lebenspunkte und +8 Rüstung. Keine Wirkung auf Geister."
 			},
 			"en": {
 				"name": "Fertile Season",
+				"description": "Nature Ritual. Create a level 1...10 spirit. Non-spirit creatures within range have +50...150 maximum Health and gain +8 armor. This spirit dies after 15...90 seconds.",
+				"concise": "Nature Ritual. Creates a level 1...10 spirit (15...90 second lifespan). Creatures in range have +50...150 maximum Health and +8 armor. Does not affect spirits."
+			},
+			"en-gww": {
+				"name": "Fertile Season",
 				"description": "Create a level 1...10 spirit. Non-spirit creatures within range have +50...150 maximum Health and gain +8 armor. This spirit dies after 15...90 seconds.",
 				"concise": "Creates a level 1...10 spirit (15...90 second lifespan). Creatures in range have +50...150 maximum health and +8 armor. Does not affect spirits."
 			},
+			"es": {
+				"name": "Temporada de fertilidad",
+				"description": "Ritual de la naturaleza. Creas un espíritu de nivel 1...10. Las criaturas no espíritus que estén en su zona tendrán +50...150 de salud máxima y +8 de armadura. Morirá a los 15...90 segundos.",
+				"concise": "Ritual de la naturaleza. Crea un espíritu de nivel 1...10 (15...90 segundos de vida). Las criaturas dentro de la zona tendrán +50...150 de salud máxima y +8 de armadura. No afecta a los espíritus."
+			},
 			"fr": {
+				"name": "Saison fertile",
+				"description": "Rituel de la nature. Crée un esprit de niveau 1...10. Les créatures n'étant pas des esprits dans sa portée ont +50...150 de santé maximum et bénéficient d'un bonus d'armure de +8. Cet esprit disparaît au bout de 15...90 secondes.",
+				"concise": "Rituel de la nature. Crée un esprit de niveau 1...10 (durée de vie de 15...90 secondes). Les créatures à portée bénéficient de +50...150 de santé maximum et d'un bonus d'armure de +8. N'affecte pas les esprits."
+			},
+			"fr-gwiki": {
 				"name": "Saison fertile",
 				"description": "Crée un esprit de niveau 1...10. Les créatures n'étant pas des esprits dans sa portée ont +50...150 de santé maximum et bénéficient d'un bonus d'armure de +8. Cet esprit disparaît au bout de 15...90 secondes.",
 				"concise": "Crée un esprite de niveau 1...10 (durée de vie de 15...90 secondes). Les créatures à portée bénéficient de +50...150 de santé maximum et d'un bonus d'armure de +8. N'affecte pas les esprits."
+			},
+			"it": {
+				"name": "Stagione Fertile",
+				"description": "Rituale della Natura. Crei uno Spirito di livello 1...10. Le creature nella sua portata (Spiriti esclusi) ottengono +50...150 di Salute massima e +8 di armatura. Lo Spirito si esaurisce dopo 15...90 secondo[i].",
+				"concise": "Rituale della Natura. Crei uno Spirito di livello 1...10 (in vita per 15...90 secondo[i]). Le creature nella portata hanno +50...150 di Salute massima e +8 di armatura. Non ha effetto sugli Spiriti."
+			},
+			"jp": {
+				"name": "ファータイル シーズン",
+				"description": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の生物は体力の上限が 50...150、防御力が8増加します。この精霊は 15...90 秒後に消滅します。",
+				"concise": "ネイチャー リチュアル： レベル 1...10 の精霊を召喚します (15...90 秒)。この精霊の効果範囲内では体力の上限が 50...150、防御力が8増加します。精霊は対象外です。"
+			},
+			"kr": {
+				"name": "활력의 영혼",
+				"description": "자연의 이해. 대상 지정: 없음. 1...10레벨 영혼을 소환합니다. 일정 범위 내에 있는 영혼이 아닌 생물체의 최대 체력이 50...150 증가하고, 방어력이 8 증가합니다. 영혼은 15...90초 후 사라집니다.",
+				"concise": "자연의 이해. 1...10레벨 영혼을 소환합니다.(수명: 15...90초) 영혼이 아닌 생물체에 영향을 미칩니다. 최대 체력이 50...150, 방어력이 15 증가합니다."
+			},
+			"pl": {
+				"name": "Czas Obfitości",
+				"description": "Obrządek natury. Tworzysz 1...10 poziomowego ducha. Wszystkim stworzeniom nie-duchom w jego zasięgu maksymalna żywotność zwiększa się o +50...150 i pancerz o +8. Duch umiera po 15...90 sek.",
+				"concise": "Obrządek natury. Tworzy ducha na poziomie 1...10 (czas życia 15...90 sek.). Stworzenia w zasięgu posiadają +50...150 pkt. do maksymalnej żywotności i +8 pkt. pancerza. Nie działa na duchy."
+			},
+			"ru": {
+				"name": "Fertile Season",
+				"description": "Природный ритуал. Создает духа 1...10 уровня. У всех не являющихся духами созданий, находящихся в зоне его действия, максимальный уровень здоровья увеличивается на 50...150 ед., а их защита увеличивается на 8 ед. Этот дух умирает через 15...90 сек.",
+				"concise": "Природный ритуал. Создает духа 1...10 уровня (15...90 сек жизни). Создания в зоне его действия получают +50...150 ед. к максимальному уровню здоровья и +8 ед. к защите. Не воздействует на духов."
+			},
+			"bork": {
+				"name": "Ferteele-a Seaesun",
+				"description": "Naetoore-a Reetooael. Creaete-a a lefel 1...10 spureet. Nun-spureet creaetoores veetheen runge-a haefe-a +50...150 maexeemoom Heaelt und gaeeen +8 aermur. Thees spureet deees aeffter 15...90 secunds.",
+				"concise": "Naetoore-a Reetooael. Creaetes a lefel 1...10 spureet (15...90 secund leeffespun). Creaetoores in runge-a haefe-a +50...150 maexeemoom Heaelt und +8 aermur. Dues nut aeffffect spureets."
 			}
 		}
 	}

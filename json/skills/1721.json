@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "同怒",
+				"description": "精英技能。 在3...15秒之内，使你和你的宠物攻击速度提升33%，移动速度提升25%。",
+				"concise": "精英技能。 在3...15秒之内，使你和你的宠物攻击速度提升33%，移动速度提升25%。"
+			},
+			"cht": {
+				"name": "暴衝合一",
+				"description": "精英技能： 持續 3...15 秒，你和寵物的攻擊速度增加 33% ，移動速度加快 25% 。",
+				"concise": "精英技能： 持續 3...15 秒，你和寵物的攻擊速度增加 33% ，移動速度加快 25% 。"
+			},
 			"de": {
+				"name": "Gemeinsam toben",
+				"description": "Elite-Fertigkeit. 3...15 Sekunde[n] lang greift Ihr und Euer Tiergefährte um 33% schneller an und lauft um 25% schneller.",
+				"concise": "Elite-Fertigkeit. 3...15 Sekunde[n]: Ihr und Euer Tiergefährte greift um 33% schneller an und bewegt Euch um 25% schneller. Euer Tiergefährte muss am Leben sein, sonst keine Wirkung."
+			},
+			"de-guildwiki": {
 				"name": "Gemeinsam toben",
 				"description": "3...15 Sekunden lang greift Ihr und Euer Tiergefährte um 33% schneller an und lauft um 25% schneller.",
 				"concise": "3...15 Sekunden: Ihr und euer Tiergefährte greift um 33% schneller an und bewegt Euch um 25% schneller. <gray>Euer Tiergefährte muss am Leben sein, sonst keine Wirkung.</gray>"
 			},
 			"en": {
 				"name": "Rampage as One",
+				"description": "Elite Skill. For 3...15 seconds, both you and your animal companion attack 33% faster and run 25% faster.",
+				"concise": "Elite Skill. (3...15 seconds.) You and your pet attack 33% faster and move 25% faster. No effect unless your pet is alive."
+			},
+			"en-gww": {
+				"name": "Rampage as One",
 				"description": "For 3...15 seconds, both you and your animal companion attack 33% faster and run 25% faster.",
 				"concise": "(3...15 seconds.) You and your pet attack 33% faster and move 25% faster. <gray>No effect unless your pet is alive.</gray>"
 			},
+			"es": {
+				"name": "Violencia al unísono",
+				"description": "Habilidad de élite. Durante 3...15 segundos, tú y tu mascota atacáis un 33% más rápido y os movéis un 25% más rápido también.",
+				"concise": "Habilidad de élite. (3...15 segundos). Tú y tu mascota atacáis un 33% más deprisa y os movéis un 25% más rápido. No tiene efecto a menos que la mascota esté viva."
+			},
 			"fr": {
+				"name": "Férocité unie",
+				"description": "Compétence élite. Pendant 3...15 secondes, vous et votre familier attaquez 33% plus vite et courez 25% plus vite.",
+				"concise": "Compétence élite. (3...15 secondes.) Votre familier et vous attaquez 33% plus vite et vous déplacez 25% plus vite. Aucun effet si votre familier est mort."
+			},
+			"fr-gwiki": {
 				"name": "Férocité unie",
 				"description": "Pendant 3...15 secondes, vous et votre familier attaquez 33% plus vite et courez 25% plus vite.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Furore Congiunto",
+				"description": "Abilità d'Élite. Per 3...15 secondo[i], tu e la tua mascotte attaccate ad una velocità maggiore del 33% e la vostra velocità di movimento aumenta di un 25%.",
+				"concise": "Abilità d'Élite. (Secondi: 3...15) Incremento velocità d'attacco tua e della mascotte: 33%; incremento velocità di movimento: 25%. Ha effetto solo se la tua mascotte è viva."
+			},
+			"jp": {
+				"name": "ランペイジ アズ ワン",
+				"description": "エリート スキル： 3...15 秒間、プレイヤーとペットの攻撃速度が 33% 増加し、移動速度が 25% 増加します。",
+				"concise": "エリート スキル： (3...15 秒) プレイヤーとペットの攻撃速度が 33%、移動速度が 25% 増加します。ペットが戦闘不能な場合は無効です。"
+			},
+			"kr": {
+				"name": "동반 흥분",
+				"description": "엘리트 스킬. 대상 지정: 없음. 3...15초 동안 자신과 펫의 공격 속도가 33%, 이동 속도가 25% 빨라집니다.",
+				"concise": "엘리트 스킬. (3...15초) 자신과 펫의 공격 속도가 33%, 이동 속도가 25% 빨라집니다. 펫이 살아 있어야 합니다."
+			},
+			"pl": {
+				"name": "Jedność w Szale",
+				"description": "Umiejętność elitarna. Przez 3...15 sek., ty i twój zwierzęcy towarzysz atakujecie o 33% szybciej i poruszacie się o 25% szybciej.",
+				"concise": "Umiejętność elitarna. (3...15 sek.) Ty i twój zwierzęcy towarzysz atakujecie o 33% szybciej i poruszacie się o 25% szybciej. Bez efektu, chyba że twój zwierzęcy towarzysz żyje."
+			},
+			"ru": {
+				"name": "Rampage as One",
+				"description": "Элитное умение. В течение 3...15 сек и вы, и сопровождающее вас животное атакуете быстрее на 33% и бежите быстрее на 25%.",
+				"concise": "Элитное умение. (3...15 сек) Вы и ваш питомец атакуете на 33% быстрее и двигаетесь на 25% быстрее. Не действует, если ваш питомец мертв."
+			},
+			"bork": {
+				"name": "Raempaege-a aes Oone-a",
+				"description": "Ileete-a Skeell. Fur 3...15 secunds, but yuoo und yuoor uneemael cumpuneeun aettaeck 33% faester und roon 25% faester.",
+				"concise": "Ileete-a Skeell. (3...15 secunds.) Yuoo und yuoor pet aettaeck 33% faester und mufe-a 25% faester. Nu iffffect unless yuoor pet is aeleefe-a."
 			}
 		}
 	}

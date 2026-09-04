@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "守护之灵",
+				"description": "增益魔法。 使友方目标承受的单一攻击或法术伤害最多不会超过他最大生命值的 10%，效果持续5...23秒。",
+				"concise": "增益魔法。 使友方目标承受的单一攻击或法术伤害最多不会超过他最大生命值的 10%，效果持续5...23秒。"
+			},
+			"cht": {
+				"name": "精神守護",
+				"description": "加持魔法： 持續 5...23 秒，使目標盟友受到的單一攻擊或魔法傷害，最多不會超過體力最大值的 10 % 。",
+				"concise": "加持魔法： 持續 5...23 秒，使目標盟友受到的單一攻擊或魔法傷害，最多不會超過體力最大值的 10 % 。"
+			},
 			"de": {
+				"name": "Schutzgeist",
+				"description": "Verzauberung. 5...23 Sekunde[n] lang verliert der Verbündete (bzw. Ihr selbst) bei einem Schaden aus einem einzelnen Angriff oder Zauber höchstens 10% der maximalen Lebenspunkte.",
+				"concise": "Verzauberung. 5...23 Sekunde[n]: Erlittener Schaden wird auf 10% der maximalen Lebenspunkte des Verbündeten (bzw. von Euch selbst) reduziert."
+			},
+			"de-guildwiki": {
 				"name": "Schutzgeist",
 				"description": "5...23 Sekunden lang verliert der Verbündete (bzw. Ihr selbst) bei einem Schaden aus einem einzelnen Angriff oder Zauber höchstens 10% der maximalen Lebenspunkte.",
 				"concise": "5...23 Sekunden: Erlittener Schaden wird auf 10% der maximalen Lebenspunkte des Verbündeten (bzw. von Euch selbst) reduziert."
 			},
 			"en": {
 				"name": "Protective Spirit",
+				"description": "Enchantment Spell. For 5...23 seconds, target ally cannot lose more than 10% max Health due to damage from a single attack or spell.",
+				"concise": "Enchantment Spell. (5...23 seconds.) Incoming damage is reduced to 10% of target ally's maximum Health."
+			},
+			"en-gww": {
+				"name": "Protective Spirit",
 				"description": "For 5...23 seconds, target ally cannot lose more than 10% max Health due to damage from a single attack or spell.",
 				"concise": "(5...23 seconds.) Incoming damage is reduced to 10% of target ally's maximum Health."
 			},
+			"es": {
+				"name": "Espíritu protector",
+				"description": "Conjuro con encantamiento. Durante 5...23 segundos, el objetivo (un aliado o tú mismo) no puede perder más de un 10% del máximo de salud como resultado de un ataque o un conjuro.",
+				"concise": "Conjuro con encantamiento. (5...23 segundos). El daño que el objetivo (un aliado o tú mismo) reciba se reduce en un 10% de su máximo de salud."
+			},
 			"fr": {
+				"name": "Esprit protecteur",
+				"description": "Enchantement. Pendant 5...23 secondes, la cible (un allié ou vous-même) ne peut pas perdre plus de 10% de santé maximum dus à des dégâts provoqués par une attaque unique ou par un sort.",
+				"concise": "Enchantement. (5...23 secondes.) Les dégâts subis sont réduits à 10% de la santé maximum de l'allié visé."
+			},
+			"fr-gwiki": {
 				"name": "Esprit protecteur",
 				"description": "Pendant 5...23 secondes, la cible (un allié ou vous-même) ne peut pas perdre plus de 10% de santé maximum provoqués par une attaque unique ou par un sort.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Spirito Protettivo",
+				"description": "Incantesimo. Dura 5...23 secondo[i]; l'obiettivo (un alleato o te stesso) non può perdere più del 10% della sua Salute massima per effetto dei danni provocati da un singolo attacco o da una magia.",
+				"concise": "Incantesimo. (Secondi: 5...23) Il danno in arrivo è ridotto al 10% della Salute massima dell'obiettivo (un alleato o te stesso)."
+			},
+			"jp": {
+				"name": "プロテクティブ スピリット",
+				"description": "強化スペル： 5...23 秒間、ターゲットした味方は物理攻撃またはスペル攻撃で受けるダメージが体力の10%以下になります。",
+				"concise": "強化スペル： (5...23 秒) ターゲットした味方が受けるダメージは、体力の上限の10%に減少します。"
+			},
+			"kr": {
+				"name": "보호의 성령",
+				"description": "강화 마법. 대상 지정: 아군. 5...23초 동안 대상은 매 공격마다 최대 체력의 10%가 넘는 대미지를 입지 않습니다.",
+				"concise": "강화 마법. (5...23초) 대상 아군은 최대 체력의 10%가 넘는 대미지를 입지 않습니다."
+			},
+			"pl": {
+				"name": "Ochronny Duch",
+				"description": "Zaklęcie (czar). Przez 5...23 sek. wybrany sojusznik na skutek pojedynczego ataku lub czaru nie może stracić więcej niż 10% maksymalnej żywotności.",
+				"concise": "Zaklęcie (czar). (5...23 sek.) Otrzymywane obrażenia zmniejszane są do 10% maksymalnej żywotności wybranego sojusznika."
+			},
+			"ru": {
+				"name": "Protective Spirit",
+				"description": "Заклинание-чары. В течение 5...23 сек выбранный союзник не может получить от единичной атаки или заклинания урона больше, чем 10% от своего максимального уровня здоровья.",
+				"concise": "Заклинание-чары. (5...23 сек) Получаемый урон уменьшается до 10% от максимального уровня здоровья выбранного союзника."
+			},
+			"bork": {
+				"name": "Prutecteefe-a Spureet",
+				"description": "Inchuntment Spell. Fur 5...23 secunds, taerget aelly cunnut luse-a mure-a thun 10% maex Heaelt dooe-a tu daemaege-a frum a seengle-a aettaeck oor spell.",
+				"concise": "Inchuntment Spell. (5...23 secunds.) Incumeeng daemaege-a is redooced tu 10% ooff taerget aelly's maexeemoom Heaelt. Bork! Bork! Bork!"
 			}
 		}
 	}

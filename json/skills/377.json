@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "警惕姿态",
+				"description": "姿态。 在1...6秒之内，你将格挡所有的攻击技能。每成功格挡一次，你获得怒气值及5点能量值。如果你在此「姿态」下使用技能，则「姿态」效果消失。",
+				"concise": "姿态。 在1...6秒之内，你将格挡所有的攻击技能。每成功格挡一次，你获得怒气值及5点能量值。如果你在此「姿态」下使用技能，则「姿态」效果消失。"
+			},
+			"cht": {
+				"name": "謹慎態勢",
+				"description": "態勢： 持續 1...6 秒，你「格擋」任何的攻擊技能。每成功「格擋」一次，你獲得怒氣值及 5 能量。若在此態勢下使用其他技能，則態勢效果終止。",
+				"concise": "態勢： 持續 1...6 秒，你「格擋」任何的攻擊技能。每成功「格擋」一次，你獲得怒氣值及 5 能量。若在此態勢下使用其他技能，則態勢效果終止。"
+			},
 			"de": {
+				"name": "Wachsame Haltung",
+				"description": "Haltung. 1...6 Sekunde[n] lang blockt Ihr jede gegen Euch gerichtete Angriffsfertigkeit. Für jedes erfolgreiche Blocken erhaltet Ihr Adrenalin und 5 Energiepunkte. Wachsame Haltung endet, sobald Ihr eine Fertigkeit verwendet.",
+				"concise": "Haltung. 1...6 Sekunde[n]: Ihr blockt Angriffsfertigkeiten. Für jedes Blocken erhaltet Ihr Adrenalin und 5 Energiepunkte. Endet, sobald Ihr eine Fertigkeit verwendet."
+			},
+			"de-guildwiki": {
 				"name": "Wachsame Haltung",
 				"description": "1...6 Sekunden lang blockt Ihr jede gegen Euch angewendete Angriffsfertigkeit. Für jedes erfolgreiche Blocken erhaltet Ihr Adrenalin und 5 Energiepunkte. Wachsame Haltung endet, sobald Ihr eine Fertigkeit verwendet.",
 				"concise": "1...6 Sekunden: Ihr blockt Angriffsfertigkeiten. Für jedes Blocken erhaltet Ihr Adrenalin und 5 Energiepunkte. <gray>Endet, sobald Ihr eine Fertigkeit verwendet.</gray>"
 			},
 			"en": {
 				"name": "Wary Stance",
+				"description": "Stance. For 1...6 seconds, you block any attack skills used against you. For each successful block, you gain adrenaline and 5 Energy. Wary Stance ends if you use a skill.",
+				"concise": "Stance. (1...6 seconds). You block attack skills. Gain adrenaline and 5 Energy for each block. Ends if you use a skill."
+			},
+			"en-gww": {
+				"name": "Wary Stance",
 				"description": "For 1...6 second[s], you block any attack skills used against you. For each successful block, you gain adrenaline and 5 Energy. Wary Stance ends if you use a skill.",
 				"concise": "(1...6 second[s]). You block attack skills. Gain adrenaline and 5 Energy for each block. <gray>Ends if you use a skill.</gray>"
 			},
+			"es": {
+				"name": "Actitud precavida",
+				"description": "Actitud. Durante 1...6 segundos, bloqueas todas las habilidades de ataque que se utilicen contra ti. Por cada una que detengas, ganas adrenalina y 5 de energía. La Actitud precavida finaliza si utilizas una habilidad.",
+				"concise": "Actitud. (1...6 segundos). Bloqueas habilidades de ataque. Ganas adrenalina y 5 de energía por cada bloqueo. Acaba si usas una habilidad."
+			},
 			"fr": {
+				"name": "Pose prudente",
+				"description": "Pose de combat. Pendant 1...6 secondes, vous bloquez toutes les compétences d'attaque lancées contre vous. Pour chaque attaque bloquée, vous gagnez de l'adrénaline et 5 points d'énergie. La Pose prudente prend fin si vous utilisez une compétence.",
+				"concise": "Pose de combat. (1...6 secondes). Vous bloquez les compétences d'attaque. Vous gagnez de l'adrénaline et 5 points d'énergie par attaque bloquée. Prend fin si vous utilisez une compétence."
+			},
+			"fr-gwiki": {
 				"name": "Pose prudente",
 				"description": "Pendant 1...6 secondes, vous bloquez toutes les compétences d'attaque lancées contre vous. Pour chaque attaque bloquée, vous gagnez de l'adrénaline et 5 points d'énergie. La Pose prudente prend fin si vous utilisez une compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Posizione di Guardia",
+				"description": "Posizione. Per 1...6 secondo[i], blocchi qualsiasi abilità d'attacco usata contro di te. Per ogni parata effettuata con successo, ottieni adrenalina e 5 Punti Energia; termina se usi un'abilità.",
+				"concise": "Posizione. (1...6 secondo[i]). Blocchi le abilità d'attacco. Ottieni adrenalina e 5 Punti Energia per ogni blocco. Termina se usi un'abilità."
+			},
+			"jp": {
+				"name": "ウェアリー スタンス",
+				"description": "スタンス： 1...6 秒間、すべてのアタック スキルをブロックします。ブロックが成功するたびに、アドレナリンと5のエネルギーを獲得します。スキルを使用すると、この効果は消失します。",
+				"concise": "スタンス： (1...6 秒) アタック スキルをブロックし、ブロックするたびにアドレナリンと5のエネルギーを獲得します。スキルを使用すると、この効果は消失します。"
+			},
+			"kr": {
+				"name": "신중한 방어 자세",
+				"description": "자세. 대상 지정: 없음. 1...6초 동안 모든 공격 스킬을 막습니다. 공격을 막을 때마다 아드레날린과 5의 에너지를 얻습니다. 다른 스킬을 사용하면 효과가 끝납니다.",
+				"concise": "자세. (1...6초) 공격 스킬을 막습니다. 공격을 막을 때마다 아드레날린과 5의 에너지를 얻습니다. 스킬을 사용하면 효과가 끝납니다."
+			},
+			"pl": {
+				"name": "Czujna Postawa",
+				"description": "Postawa. Przez 1...6 sek., blokujesz wszystkie umiejętności związane z atakiem, których jesteś celem. Za każdy udany blok otrzymujesz adrenalinę i 5 pkt. energii. Czujna Postawa przestaje działać, jeśli użyjesz umiejętności.",
+				"concise": "Postawa. (1...6 sek.) Blokujesz umiejętności związane z atakowaniem. Za każdy blok otrzymujesz adrenalinę i 5 pkt. energii. Przestanie działać, jeśli użyjesz umiejętności."
+			},
+			"ru": {
+				"name": "Wary Stance",
+				"description": "Стойка. В течение 1...6 сек вы блокируете любые атакующие умения, использованные против вас. За каждое успешное блокирование вы получаете адреналин и 5 ед. энергии. Wary Stance прекращает свое действие, если вы используете какое-либо умение.",
+				"concise": "Стойка. (1...6 сек) Вы блокируете атакующие умения. Вы получаете адреналин и 5 ед. энергии за каждое блокирование. Заканчивается, если вы используете умение."
+			},
+			"bork": {
+				"name": "Vaery Stunce-a",
+				"description": "Stunce-a. Fur 1...6 secunds, yuoo bluck uny aettaeck skeells used aegaeeenst yuoo. Fur iaech sooccessffool bluck, yuoo gaeeen aedrenaeleene-a und 5 Inergy. Vaery Stunce-a inds iff yuoo use-a a skeell.",
+				"concise": "Stunce-a. (1...6 secunds). Yuoo bluck aettaeck skeells. Gaeeen aedrenaeleene-a und 5 Inergy fur iaech bluck. Inds iff yuoo use-a a skeell."
 			}
 		}
 	}

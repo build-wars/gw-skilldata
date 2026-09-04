@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "飞石",
+				"description": "咒文。 向目标敌人掷出巨大的石块，对其造成45...105点地系伤害，如果该目标带有「虚弱」症状，则被击倒。",
+				"concise": "咒文。 掷出两把石化匕首，在命中后，每把匕首会对目标造成45...105点地系伤害。"
+			},
+			"cht": {
+				"name": "石箭",
+				"description": "咒文魔法： 射出巨大石頭，命中目標敵人時對其造成 45...105 土系傷害。若該目標正遭受「虛弱」病症，則該目標被擊倒。",
+				"concise": "咒文魔法： 射出巨大石頭，命中目標敵人時對其造成 45...105 土系傷害。若該目標正遭受「虛弱」病症，則該目標被擊倒。"
+			},
 			"de": {
+				"name": "Steinigung",
+				"description": "Zauber. Sendet einen großen Stein aus, der dem Gegner 45...105 Punkt[e] Erdschaden zufügt, falls er trifft. Wenn Steinigung einen Gegner trifft, der unter Schwäche leidet, wird er zu Boden geworfen.",
+				"concise": "Zauber. Geschoss: Richtet 45...105 Punkt[e] Erdschaden an. Wirft Gegner zu Boden, falls dieser geschwächt ist."
+			},
+			"de-guildwiki": {
 				"name": "Steinigung",
 				"description": "Sendet einen großen Stein aus, der dem Gegner 45...105 Punkte Erdschaden zufügt, wenn er trifft. Wenn Steinigung einen Gegner trifft, der unter Schwäche leidet, wird er zu Boden geworfen.",
 				"concise": "Geschoss: Richtet 45...105 Punkte Erdschaden an. Wirft Gegner zu Boden, falls dieser geschwächt ist."
 			},
 			"en": {
 				"name": "Stoning",
+				"description": "Spell. Send out a large stone, striking target foe for 45...105 earth damage if it hits. If Stoning hits a foe suffering from Weakness, that foe is knocked down.",
+				"concise": "Spell. Projectile: deals 45...105 earth damage. Causes knock-down if target foe is Weakened."
+			},
+			"en-gww": {
+				"name": "Stoning",
 				"description": "Send out a large stone, striking target foe for 45...105 earth damage if it hits. If Stoning hits a foe suffering from Weakness, that foe is knocked down.",
 				"concise": "Projectile: deals 45...105 earth damage. Causes knock-down if target foe is Weakened."
 			},
+			"es": {
+				"name": "Pedrada",
+				"description": "Conjuro. Lanzas una piedra grande, que hace 45...105 de daño de tierra al enemigo objetivo si le da. Si Pedrada alcanza a un enemigo que esté sufriendo debilitamiento, lo derribarás.",
+				"concise": "Conjuro. Proyectil: causa 45...105 de daño de tierra. Causa derribo si el enemigo objetivo sufre debilitamiento."
+			},
 			"fr": {
+				"name": "Lapidation",
+				"description": "Sort. Vous envoyez une grosse pierre qui inflige 45...105 points de dégâts de la terre si elle touche sa cible. Si l'ennemi souffre de Faiblesse, il sera renversé.",
+				"concise": "Sort. Projectile : inflige 45...105 points de dégâts de la terre. Attaque renversante si la cible ennemie souffre de Faiblesse."
+			},
+			"fr-gwiki": {
 				"name": "Lapidation",
 				"description": "Vous envoyez une grosse pierre, et infligez 45...105 points de dégâts de la terre si elle touche sa cible. Si l'ennemi souffre de Faiblesse, il sera assommé.",
 				"concise": "Projectile : inflige 45...105 points de dégâts de la terre. Assomme si l'ennemi visé souffre de Faiblesse."
+			},
+			"it": {
+				"name": "Sassaiola",
+				"description": "Magia. Lanci un masso che infligge all'obiettivo nemico 45...105 danni da terra se va a segno. Se Sassaiola colpisce un nemico affetto da Debolezza, il nemico viene abbattuto.",
+				"concise": "Magia. Proiettile: infligge 45...105 danni da terra. Provoca abbattimento se l'obiettivo nemico soffre di Debolezza."
+			},
+			"jp": {
+				"name": "ストーニング",
+				"description": "スペル： ターゲットした敵に、命中すると 45...105 のアース ダメージを与える大きな石を投げつけます。「衰弱」状態の敵に命中すると、その敵は転倒します。",
+				"concise": "スペル： 遠投攻撃： 45...105 のアース ダメージを与えます。ターゲットした敵が「衰弱」状態の場合、転倒させます。"
+			},
+			"kr": {
+				"name": "투석",
+				"description": "마법. 대상 지정: 적. 대상에게 큰 돌을 날립니다. 명중하면 대상은 45...105의 대지 대미지를 받습니다. 대상이 약체 상태라면 바닥에 넘어집니다.",
+				"concise": "마법. 발사체: 45...105의 대지 대미지를 줍니다. 약체에 걸린 대상은 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Ukamienowanie",
+				"description": "Czar. Wyślij ogromny kamień, który, jeżeli trafi, zada wybranemu przeciwnikowi 45...105 pkt. obrażeń od ziemi. Jeśli Ukamienowanie trafi przeciwnika cierpiącego na osłabienie, to zostanie on powalony.",
+				"concise": "Czar. Pocisk: zadaje 45...105 pkt. obrażeń od ziemi. Powoduje powalenie, jeżeli wybrany przeciwnik jest osłabiony."
+			},
+			"ru": {
+				"name": "Stoning",
+				"description": "Заклинание. Бросок большим камнем, наносящим выбранному противнику 45...105 ед. урона силой земли в случае попадания. Если Stoning поражает противника, испытывающего слабость, противник будет сбит с ног.",
+				"concise": "Заклинание. Метательный снаряд: наносит 45...105 ед. урона силой земли. Сбивает с ног, если выбранный противник был ослаблен."
+			},
+			"bork": {
+				"name": "Stuneeng",
+				"description": "Spell. Send oooot a laerge-a stune-a, streekeeng taerget fue-a fur 45...105 iaert daemaege-a iff it heets. Iff Stuneeng heets a fue-a sooffffereeng frum Veaekness, thaet fue-a is knucked doon.",
+				"concise": "Spell. Prujecteele-a: deaels 45...105 iaert daemaege-a. Cooses knuck-doon iff taerget fue-a is Veaekened."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "莉莎的光环",
+				"description": "精英增益魔法。 在10秒之内，每当敌人对你施法时，你将偷取施法者最多 0...5点 能量值。",
+				"concise": "精英增益魔法。 在10秒之内，每当敌人对你施法时，你将偷取施法者最多 0...5点 能量值。"
+			},
+			"cht": {
+				"name": "麗莎靈氣",
+				"description": "精英加持魔法： 持續10秒，你能量再生增加0...5，每當對敵人施展魔法時麗莎靈氣重新回復到10秒。",
+				"concise": "精英加持魔法： 持續10秒，你能量再生增加0...5，每當對敵人施展魔法時麗莎靈氣重新回復到10秒。"
+			},
 			"de": {
+				"name": "Lyssas Aura",
+				"description": "Elite-Verzauberung. 10 Sekunde[n] lang habt Ihr +0...5 Energieregeneration. Diese Verzauberung wird jedes Mal, wenn Ihr einen Zauber auf einen Feind wirkt, neu aufgetragen.",
+				"concise": "Elite-Verzauberung. 10 Sekunde[n]: Ihr habt +0...5 Energieregeneration. Erneuerung: Jedes Mal, wenn Ihr einen Zauber auf einen Feind wirkt."
+			},
+			"de-guildwiki": {
 				"name": "Lyssas Aura",
 				"description": "10 Sekunden lang habt Ihr +0...5 Energieregeneration. Diese Verzauberung wird jedes Mal, wenn Ihr einen Zauber auf einen Feind wirkt, neu aufgetragen.",
 				"concise": "10 Sekunden: Ihr habt +0...5 Energieregeneration. Erneuerung: Jedes Mal, wenn Ihr einen Zauber auf einen Feind wirkt."
 			},
 			"en": {
 				"name": "Lyssa's Aura",
+				"description": "Elite Enchantment Spell. For 10 seconds, you have +0...5 Energy regeneration. This enchantment reapplies itself every time you cast a spell on a foe.",
+				"concise": "Elite Enchantment Spell. (10 seconds.) You have +0...5 Energy regeneration. Renewal: every time you cast a spell on an enemy."
+			},
+			"en-gww": {
+				"name": "Lyssa's Aura",
 				"description": "For 10 seconds, you have +0...5 Energy regeneration. This enchantment reapplies itself every time you cast a spell on a foe.",
 				"concise": "(10 seconds.) You have +0...5 Energy regeneration. Renewal: every time you cast a spell on an enemy."
 			},
+			"es": {
+				"name": "Aura de Lyssa",
+				"description": "Conjuro con encantamiento de élite. Durante 10 segundos, tienes +0...5 de regeneración de energía. Este encantamiento se vuelve a activar cada vez que lances un conjuro contra un enemigo.",
+				"concise": "Conjuro con encantamiento de élite. (10 segundos). Tienes +0...5 de regeneración de energía. Renovación: cada vez que lances un conjuro contra un enemigo."
+			},
 			"fr": {
+				"name": "Aura de Lyssa",
+				"description": "Enchantement d'élite. Pendant 10 secondes, vous bénéficiez d'une régénération d'énergie de +0...5. Cet enchantement se réapplique chaque fois que vous lancez un sort sur un ennemi.",
+				"concise": "Enchantement d'élite. (10 secondes.) Vous bénéficiez d'une régénération d'énergie de +0...5. Renouvellement : chaque fois que vous lancez un sort sur un ennemi."
+			},
+			"fr-gwiki": {
 				"name": "Aura de Lyssa",
 				"description": "Pendant 10 secondes, vous bénéficiez d'une régénération d'énergie de +0...5. Cet enchantement se réapplique chaque fois que vous lancez un sort sur un ennemi.",
 				"concise": "(10 secondes.) Vous bénéficiez d'une régénération d'énergie de +0...5. Renouvellement : chaque fois que vous lancez un sort sur un ennemi."
+			},
+			"it": {
+				"name": "Aura di Lyssa",
+				"description": "Incantesimo d'Élite. Per 10 secondo[i], hai una Rigenerazione Energia di +0...5. Questo incantesimo si riapplica ogni volta che lanci una magia contro un nemico.",
+				"concise": "Incantesimo d'Élite. (Secondi: 10) Rigenerazione tua Energia: +0...5. Rinnovo: ogni volta che lanci una magia contro un nemico."
+			},
+			"jp": {
+				"name": "リッサ オーラ",
+				"description": "エリート強化スペル： 10 秒間、エネルギーの自然回復力が 0...5 増加します。この効果は、敵に対してスペルを詠唱するたびに更新されます。",
+				"concise": "エリート強化スペル： (10 秒) エネルギーの自然回復力が 0...5 増加します。更新： 敵にスペルを詠唱するたび。"
+			},
+			"kr": {
+				"name": "리사의 오라",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 10초 동안 에너지 재생이 0...5 증가합니다. 적에게 마법을 시전할 때마다 효과가 갱신됩니다.",
+				"concise": "엘리트 강화 마법. (10초) 에너지 재생이 0...5 증가합니다. 갱신 조건: 적에게 마법을 시전할 때"
+			},
+			"pl": {
+				"name": "Aura Lyssy",
+				"description": "Elitarne zaklęcie (czar). Przez 10 sek. posiadasz regenerację energii +0...5. Czar zaczyna ponownie działać, za każdym razem, kiedy rzucisz czar na przeciwnika.",
+				"concise": "Elitarne zaklęcie (czar). (10 sek.) Posiadasz regenerację energii +0...5. Odnawianie: za każdym razem, kiedy rzucisz czar na przeciwnika."
+			},
+			"ru": {
+				"name": "Lyssa's Aura",
+				"description": "Элитное заклинание-чары. В течение 10 сек ваша скорость восстановления энергии увеличивается на 0...5 ед. Эти чары обновляются каждый раз, когда вы произносите заклинание, направленное на противника.",
+				"concise": "Элитное заклинание-чары. (10 сек) Вы получаете +0...5 ед. к скорости восстановления энергии. Обновление: каждый раз, когда вы произносите направленное на противника заклинание."
+			},
+			"bork": {
+				"name": "Lyssa's Oora",
+				"description": "Ileete-a Inchuntment Spell. Fur 10 secunds, yuoo haefe-a +0...5 Inergy regeneraeshun. Thees inchuntment reaeppleees itselff ifery teeme-a yuoo caest a spell oon a fue-a.",
+				"concise": "Ileete-a Inchuntment Spell. (10 secunds.) Yuoo haefe-a +0...5 Inergy regeneraeshun. Renooael: ifery teeme-a yuoo caest a spell oon un inemy."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "刀光剑影",
+				"description": "精英姿态。 在 5...30 秒之内，使你在攻击时有 75% 的几率「格档」敌人的攻击。",
+				"concise": "精英姿态。 在 5...30 秒之内，使你在攻击时有 75% 的几率「格档」敌人的攻击。"
+			},
+			"cht": {
+				"name": "閃光劍刃",
+				"description": "精英態勢： 持續5...30秒，你在攻擊時有75%機會格擋敵人的攻擊：每當格擋一次攻擊，攻擊者受到5...20傷害。",
+				"concise": "精英態勢： 持續5...30秒，你在攻擊時有75%機會格擋敵人的攻擊：每當格擋一次攻擊，攻擊者受到5...20傷害。"
+			},
 			"de": {
+				"name": "Blitzende Klingen",
+				"description": "Elite-Haltung. 5...30 Sekunde[n] lang habt Ihr eine 75%ige Chance, Angriffe zu blocken, während Ihr selbst angreift. Wenn Ihr einen Angriff auf diese Weise blockt, erleidet Euer Angreifer 5...20 Punkt[e] Schaden.",
+				"concise": "Elite-Haltung. 5...30 Sekunde[n]: 75%ige Chance beim Angreifen zu blocken. Blockwirkung: 5...20 Punkt[e] Schaden für Euren Angreifer."
+			},
+			"de-guildwiki": {
 				"name": "Blitzende Klingen",
 				"description": "5...30 Sekunden lang habt Ihr eine 75%ige Chance, Angriffe zu blocken, während Ihr selbst angreift. Wenn Ihr einen Angriff auf diese Weise blockt, erleidet Euer Angreifer 5...20 Punkte Schaden.",
 				"concise": "5...30 Sekunden: 75%ige Chance beim Angreifen zu blocken. Blockwirkung: 5...20 Punkte Schaden für Euren Angreifer."
 			},
 			"en": {
 				"name": "Flashing Blades",
+				"description": "Elite Stance. For 5...30 seconds, you have a 75% chance to block incoming attacks while attacking. If you block an attack in this way, your attacker takes 5...20 damage.",
+				"concise": "Elite Stance. (5...30 seconds.) 75% chance to block while attacking. Block effect: 5...20 damage to your attacker."
+			},
+			"en-gww": {
+				"name": "Flashing Blades",
 				"description": "For 5...30 seconds, you have a 75% chance to block incoming attacks while attacking. If you block an attack in this way, your attacker takes 5...20 damage.",
 				"concise": "(5...30 seconds.) You have 75% chance to block while attacking. Block effect: 5...20 damage to your attacker."
 			},
+			"es": {
+				"name": "Cuchillas fugaces",
+				"description": "Actitud de élite. Durante 5...30 segundos, tienes un 75% de posibilidades de bloquear los ataques que te hagan mientras ataques. Si bloqueas un ataque de este modo, el atacante recibirá 5...20 de daño.",
+				"concise": "Actitud de élite. (5...30 segundos). 75% de probabilidades de bloquear mientras ataques. Efecto del bloqueo: 5...20 de daño a tu atacante."
+			},
 			"fr": {
+				"name": "Lames éclatantes",
+				"description": "Pose de combat d'élite. Pendant 5...30 secondes, vous avez 75% de chances de bloquer les attaques ennemies pendant que vous attaquez. A chaque fois que vous bloquez une attaque de cette manière, l'attaquant subit 5...20 points de dégâts.",
+				"concise": "Pose de combat d'élite. (5...30 secondes.) 75% de chances de bloquer pendant que vous attaquez. Effet du blocage : 5...20 points de dégâts à l'assaillant."
+			},
+			"fr-gwiki": {
 				"name": "Lames éclatantes",
 				"description": "Pendant 5...30 secondes, vous avez 75% de chances de bloquer les attaques ennemies pendant que vous attaquez. A chaque fois que vous bloquez une attaque de cette manière, l'attaquant subit 5...20 points de dégâts.",
 				"concise": "(5...30.) 75% de chances de bloquer pendant que vous attaquez. Effet du bloquage : 5...20 points de dégâts à l'assaillant."
+			},
+			"it": {
+				"name": "Lame Scintillanti",
+				"description": "Posizione d'Élite. Per 5...30 secondo[i] hai un 75% di probabilità di bloccare gli attacchi in arrivo mentre stai attaccando. Ogni volta che blocchi un attacco in questo modo, l'aggressore subisce 5...20 danno[i].",
+				"concise": "Posizione d'Élite. (Secondi: 5...30) Probabilità di blocco mentre attacchi: 75%. Effetto del blocco: 5...20 danno[i] al tuo aggressore."
+			},
+			"jp": {
+				"name": "フラッシュ ブレード",
+				"description": "エリート スタンス： 5...30 秒間、攻撃中に受ける敵からの攻撃を 75% の確率でブロックします。この効果により攻撃をブロックすると、その攻撃者に 5...20 のダメージを与えます。",
+				"concise": "エリート スタンス： (5...30 秒) 攻撃中は 75% の確率で攻撃をブロックします。ブロック効果： 攻撃者に 5...20 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "칼날의 움직임",
+				"description": "엘리트 자세. 대상 지정: 없음. 5...30초 동안 공격 중에 75%의 확률로 공격을 막아냅니다. 공격을 막으면 공격자에게 5...20의 대미지를 줍니다.",
+				"concise": "엘리트 자세. (5...30초) 공격 중에 75%의 확률로 공격을 막습니다. 막는 효과: 공격자에게 5...20의 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Błyskające Ostrza",
+				"description": "Postawa elitarna. Przez 5...30 sek., otrzymujesz dodatkowe 75% szans na blokowanie ataków podczas walki. Jeżeli zablokujesz atak w ten sposób, to atakujący otrzyma 5...20 pkt. obrażeń.",
+				"concise": "Postawa elitarna. (5...30 sek.) Masz 75% szans na blokowanie, kiedy atakujesz. Efekt zablokowania: 5...20 pkt. obrażeń dla atakującego przeciwnika."
+			},
+			"ru": {
+				"name": "Flashing Blades",
+				"description": "Элитная стойка. В течение 5...30 сек у вас есть 75%-й шанс блокировать вражескую атаку в момент собственной атаки. Если вы блокируете атаку с помощью этого умения, атаковавший вас получает 5...20 ед. урона.",
+				"concise": "Элитная стойка. (5...30 сек) У вас есть 75%-й шанс блокировать вражескую атаку в момент своей атаки. Эффект блокирования: атаковавший вас противник получает 5...20 ед. урона."
+			},
+			"bork": {
+				"name": "Flaesheeng Blaedes",
+				"description": "Ileete-a Stunce-a. Fur 5...30 secunds, yuoo haefe-a a 75% chunce-a tu bluck incumeeng aettaecks vheele-a aettaeckeeng. Iff yuoo bluck un aettaeck in thees vaey, yuoor aettaecker taekes 5...20 daemaege-a.",
+				"concise": "Ileete-a Stunce-a. (5...30 secunds.) 75% chunce-a tu bluck vheele-a aettaeckeeng. Bluck iffffect: 5...20 daemaege-a tu yuoor aettaecker."
 			}
 		}
 	}

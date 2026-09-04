@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 5,
+		"aftercast": 0.75,
 		"recharge": 60,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "陨石雨",
+				"description": "咒文。 对目标施放「陨石雨」。在9秒内，使邻近的敌人每3秒受到7...112点 火焰伤害，同时被击倒。此法术会引发施法者的「疲劳」状态。",
+				"concise": "咒文。 对目标施放「陨石雨」。在 9秒 内，使附近的敌人每 3秒 受到 7...112点 火焰伤害，同时被击倒。此法术会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "隕石雨",
+				"description": "咒文魔法： 於目標敵人所在地點創造隕石雨。在 9 秒內，鄰近該地點的敵人每 3 秒受到 7...112 火焰傷害並且被擊倒。此魔法會造成施法者精疲力竭。",
+				"concise": "咒文魔法： 於目標敵人所在地點創造隕石雨。在 9 秒內，鄰近該地點的敵人每 3 秒受到 7...112 火焰傷害並且被擊倒。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Meteorschauer",
+				"description": "Zauber. An der Position des Gegners wird ein Meteorschauer erzeugt. Während der nächsten 9 Sekunden erleiden umstehende Gegner 7...112 Punkt[e] Feuerschaden und werden alle 3 Sekunden zu Boden geworfen.",
+				"concise": "Zauber. Richtet 7...112 Punkt[e] Feuerschaden an und wirft alle 3 Sekunden zu Boden (9 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
+			},
+			"de-guildwiki": {
 				"name": "Meteorschauer",
 				"description": "An der Position des Gegners wird ein Meteorschauer erzeugt. Während der nächsten 9 Sekunden erleiden umstehende Gegner alle 3 Sekunden 7...112 Punkte Feuerschaden und werden zu Boden geworfen.",
 				"concise": "Richtet 7...112 Punkte Feuerschaden an und wirft alle 3 Sekunden zu Boden (9 Sekunden). Trifft umstehende Feinde um anfängliche Position des Ziels."
 			},
 			"en": {
 				"name": "Meteor Shower",
+				"description": "Spell. Create a Meteor Shower at target foe's location. For 9 seconds, foes adjacent to that location are struck for 7...112 fire damage and knocked down every 3 seconds.",
+				"concise": "Spell. Deals 7...112 fire damage and causes knock-down every 3 seconds (9 seconds). Hits foes adjacent to target's initial location."
+			},
+			"en-gww": {
+				"name": "Meteor Shower",
 				"description": "Create a Meteor Shower at target foe's location. For 9 seconds, foes adjacent to that location are struck for 7...112 fire damage and knocked down every 3 seconds.",
 				"concise": "Deals 7...112 fire damage and causes knock-down every 3 seconds (9 seconds). Hits foes adjacent to target's initial location."
 			},
+			"es": {
+				"name": "Lluvia de meteoros",
+				"description": "Conjuro. Creas una Lluvia de meteoros en la ubicación del enemigo objetivo. Durante 9 segundos, los enemigos adyacentes a la zona reciben 7...112 de daño de fuego y son derribados cada 3 segundos.",
+				"concise": "Conjuro. Hace 7...112 de daño de fuego y causa derribos cada 3 segundos (9 segundos). Alcanza a los enemigos adyacentes a la ubicación inicial del objetivo."
+			},
 			"fr": {
+				"name": "Pluie de météores",
+				"description": "Sort. Crée une Pluie de météores sur la position de l'ennemi. Pendant 9 secondes, les ennemis adjacents à cette position subissent 7...112 points de dégâts du feu et sont renversés toutes les 3 secondes.",
+				"concise": "Sort. Inflige 7...112 points de dégâts du feu et renverse toutes les 3 secondes (9 secondes). Frappe les ennemis adjacents à la position initiale de la cible."
+			},
+			"fr-gwiki": {
 				"name": "Pluie de météores",
 				"description": "Crée une Pluie de météores sur la position de l'ennemi. Pendant 9 secondes, les ennemis adjacents à cette position subissent 7...112 points de dégâts du feu et sont assommés toutes les 3 secondes. Ce sort entraîne l'épuisement.",
 				"concise": "Inflige 7...112 points de dégâts du feu et assomme toutes les 3 secondes (9 secondes). Frappe les ennemis adjacents à la position initiale de la cible. <gray>Vous souffrez d'Epuisement.</gray>"
+			},
+			"it": {
+				"name": "Pioggia di Meteore",
+				"description": "Magia. Evochi una Pioggia di Meteore nella posizione dell'obiettivo nemico. Per 9 secondi, i nemici adiacenti a quella posizione subiscono 7...112 danni da fuoco e vengono abbattuti ogni 3 secondi.",
+				"concise": "Magia. Danni da fuoco: 7...112. Provoca abbattimento ogni 3 secondi (9 secondi). Colpisce i nemici adiacenti alla posizione iniziale dell'obiettivo."
+			},
+			"jp": {
+				"name": "メテオ シャワー",
+				"description": "スペル： ターゲットした敵がいる場所に流星雨を降らせます。9秒間、その場所に隣接する敵に3秒おきに 7...112 のファイア ダメージを与え、転倒させます。",
+				"concise": "スペル： (9秒) 発動時にターゲットした敵がいた場所に隣接する敵に、3秒おきに 7...112 のファイア ダメージを与えて転倒させます。"
+			},
+			"kr": {
+				"name": "유성 폭풍",
+				"description": "마법. 대상 지정: 적. 대상이 있는 자리에 9초 동안 유성 폭풍을 일으킵니다. 그 자리에 인접한 적들은 3초마다 7...112의 불 대미지를 입고 바닥에 넘어집니다.",
+				"concise": "마법. 대상 위치에 인접한 적들에게 3초마다 7...112의 불 대미지를 주고, 바닥에 넘어뜨립니다.(9초)"
+			},
+			"pl": {
+				"name": "Deszcz Meteorytów",
+				"description": "Czar. W miejscu, gdzie znajduje się wybrany przeciwnik wywołujesz Deszcz Meteorytów. Przez 9 sek., co 3 sek. wszyscy przeciwnicy w tej okolicy otrzymują 7...112 pkt. obrażeń od ognia i zostają powaleni. Ten czar powoduje wyczerpanie.",
+				"concise": "Czar. Co 3 sek. zadaje 7...112 pkt. obrażeń od ognia i powala (9 sek.). Trafia przeciwników bezpośrednio przy początkowym miejscu celu. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Meteor Shower",
+				"description": "Заклинание. Создает Meteor Shower в месте расположения выбранного противника. В течение 9 сек противники, окружающие это место, каждые 3 сек получают 7...112 ед. урона и сбиваются с ног.",
+				"concise": "Заклинание. Наносит 7...112 ед. урона силой огня и сбивает с ног каждые 3 секунды (9 сек). Поражает противников, окружающих первоначальное местоположение цели."
+			},
+			"bork": {
+				"name": "Meteur Shooer",
+				"description": "Spell. Creaete-a a Meteur Shooer aet taerget fue-a's lucaeshun. Fur 9 secunds, fues aedjaecent tu thaet lucaeshun aere-a stroock fur 7...112 fure-a daemaege-a und knucked doon ifery 3 secunds.",
+				"concise": "Spell. Deaels 7...112 fure-a daemaege-a und cooses knuck-doon ifery 3 secunds (9 secunds). Heets fues aedjaecent tu taerget's ineeteeael lucaeshun."
 			}
 		}
 	}

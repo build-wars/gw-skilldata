@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "协力纹章",
+				"description": "纹章。 治疗目标盟友40...100点生命值。如果你没有受到「增益魔法」的效果影响，你也将获得40...100点生命值。",
+				"concise": "纹章。 治疗目标盟友40...100点生命值。如果你没有受到「增益魔法」的效果影响，你也将获得40...100点生命值。"
+			},
+			"cht": {
+				"name": "協力紋章",
+				"description": "紋章： 治癒目標其他盟友 40...100 體力。若你並未擁有任何「加持」，你也同時獲得 40...100 體力。",
+				"concise": "紋章： 治癒目標其他盟友 40...100 體力。若你並未擁有任何「加持」，你也同時獲得 40...100 體力。"
+			},
 			"de": {
+				"name": "Siegel der Synergie",
+				"description": "Siegel. Der Verbündete wird um 40...100 Lebenspunkt[e] geheilt. Wenn Ihr nicht unter den Auswirkungen einer Verzauberung leidet, werdet Ihr um 40...100 Lebenspunkt[e] geheilt.",
+				"concise": "Siegel. Heilt den Verbündeten um 40...100 Lebenspunkt[e]. Außerdem werdet Ihr um 40...100 Lebenspunkt[e] geheilt, falls Ihr nicht verzaubert seid. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Siegel der Synergie",
 				"description": "Der Verbündete wird um 40...100 Lebenspunkte geheilt. Wenn Ihr nicht unter den Auswirkungen einer Verzauberung leidet, werdet Ihr um 40...100 Lebenspunkte geheilt.",
 				"concise": "Heilt den Verbündeten um 40...100 Lebenspunkte. Außerdem werdet Ihr um 40...100 Lebenspunkte geheilt, falls Ihr nicht verzaubert seid. <gray>Sich selbst als Ziel wählen nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Signet of Synergy",
+				"description": "Signet. Target other ally is healed for 40...100 Health. If you are not under the effects of an enchantment, you are also healed for 40...100 Health.",
+				"concise": "Signet. Heal target ally for 40...100. You are also healed for 40...100 if you are not enchanted. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Signet of Synergy",
 				"description": "Target other ally is healed for 40...100 Health. If you are not under the effects of an enchantment, you are also healed for 40...100 Health.",
 				"concise": "Heal target ally for 40...100. You are also healed for 40...100 if you are not enchanted. <gray>Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Sello de sinergia",
+				"description": "Sello. Curas al aliado objetivo 40...100 de salud. Si no estás bajo los efectos de un encantamiento, tú te curarás también 40...100 de salud.",
+				"concise": "Sello. Cura al aliado objetivo 40...100 de salud. Tú también te curas 40...100 si no tienes ningún encantamiento. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Sceau de synergie",
+				"description": "Sceau. La cible alliée est soignée de 40...100 points de vie. Si vous n'êtes pas sous les effets d'un enchantement, vous êtes aussi soigné[f:\"soignée\"] de 40...100 points de vie.",
+				"concise": "Sceau. Soigne l'allié visé de 40...100 points de vie. Vous êtes aussi soigné[f:\"soignée\"] de 40...100 points de vie si vous n'êtes pas enchanté[f:\"enchantée\"]. Vous ne pouvez pas vous prendre pour cible."
+			},
+			"fr-gwiki": {
 				"name": "Sceau de synergie",
 				"description": "La cible alliée est soignée de 40...100 points de vie. Si vous n'êtes pas sous les effets d'un enchantement, vous êtes aussi soigné de 40...100 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Sinergia",
+				"description": "Sigillo. Curi l'obiettivo di 40...100 Punto[i] Salute; se non sei affetto da un incantesimo vieni anche curato di 40...100 Punto[i] Salute.",
+				"concise": "Sigillo. Salute per l'obiettivo (un alleato o te stesso): 40...100. Vieni curato anche di 40...100 se non sei sotto incantesimo. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "シナジー シグネット",
+				"description": "シグネット： ターゲットした自分以外の味方は、体力が 40...100 回復します。プレイヤーに強化スペルがかけられていない場合、プレイヤーの体力も 40...100 回復します。",
+				"concise": "シグネット： ターゲットした味方の体力を 40...100 回復します。プレイヤーに強化スペルがかけられていない場合、プレイヤーも体力が 40...100 回復します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "공유 인장",
+				"description": "인장. 대상 지정: 아군. 대상은 40...100의 체력을 회복합니다. 자신이 강화 마법에 걸려 있지 않으면 자신도 40...100의 체력을 회복합니다. 이 인장은 자신에게 사용할 수 없습니다.",
+				"concise": "인장. 40...100의 체력을 회복시킵니다. 자신이 강화 마법에 걸려 있지 않으면 자신도 40...100의 체력을 회복합니다. 자신을 대상으로 사용할 수 없습니다."
+			},
+			"pl": {
+				"name": "Sygnet Synergii",
+				"description": "Sygnet. Wybrany sojusznik inny niż ty otrzymuje 40...100 pkt. żywotności. Jeżeli nie jesteś pod działaniem zaklęcia, to także ty otrzymujesz 40...100 pkt. żywotności.",
+				"concise": "Sygnet. Wybranemu sojusznikowi dodajesz 40...100 pkt. żywotności. Ty także otrzymujesz 40...100 pkt. żywotności, jeżeli nie jesteś pod wpływem zaklęcia. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Signet of Synergy",
+				"description": "Печать. Выбранный союзник (но не вы) исцеляется на 40...100 ед. здоровья. Если на вас не лежат какие-либо чары, вы также исцеляетесь на 40...100 ед. здоровья.",
+				"concise": "Печать. Исцеляет выбранного союзника на 40...100 ед. здоровья. Вы также исцеляетесь на 40...100 ед. здоровья, если на вас не действуют чары. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Seegnet ooff Synergy",
+				"description": "Seegnet. Taerget oozeer aelly is heaeled fur 40...100 Heaelt. Iff yuoo aere-a nut under zee iffffects ooff un inchuntment, yuoo aere-a aelsu heaeled fur 40...100 Heaelt.",
+				"concise": "Seegnet. Heael taerget aelly fur 40...100. Yuoo aere-a aelsu heaeled fur 40...100 iff yuoo aere-a nut inchunted. Cunnut selff-taerget."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "急冲",
+				"description": "姿态。 3秒内，你的移动速度提升50%。每有2点暗影技艺，冷却时间减少1秒（最多6秒）。",
+				"concise": "姿态。 （3秒）你的移动速度提升50%。每有2点暗影技艺，冷却时间减少1秒（最多6秒）。"
+			},
+			"cht": {
+				"name": "急衝",
+				"description": "態勢： For 3 seconds, you run 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 seconds (max 6 seconds).",
+				"concise": "態勢： (3 seconds.) You move 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 seconds (max 6 seconds)."
+			},
 			"de": {
+				"name": "Preschen",
+				"description": "Haltung. 3 Sekunden lang läuft Ihr 50 % schneller. Für je 2 Punkte in \"Schattenkünste\" wird die Wiederaufladung um 1 Sekunden reduziert (max. 6 Sekunden).",
+				"concise": "Haltung. (3 Sekunden.) Ihr bewegt Euch 50 % schneller. Für je 2 Punkte in \"Schattenkünste\" wird die Wiederaufladung um 1 Sekunden reduziert (max. 6 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Preschen (PvP)",
 				"description": "3 Sekunden lang läuft<sic/> Ihr 50% schneller. Für je 2 Punkte in \"Schattenkünste\" wird die Wiederaufladung um 1 Sekunde reduziert (max. 6 Sekunden).",
 				"concise": "(3 Sekunden.) Ihr bewegt Euch 50% schneller. Für je 2 Punkte in \"Schattenkünste\" wird die Wiederaufladung um 1 Sekunde reduziert (max. 6 Sekunden)."
 			},
 			"en": {
 				"name": "Dash (PvP)",
+				"description": "Stance. For 3 seconds, you run 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 seconds (max 6 seconds).",
+				"concise": "Stance. (3 seconds.) You move 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 seconds (max 6 seconds)."
+			},
+			"en-gww": {
+				"name": "Dash (PvP)",
 				"description": "For 3 seconds, you run 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds).",
 				"concise": "(3 seconds.) You move 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds)."
 			},
+			"es": {
+				"name": "Brío",
+				"description": "Actitud. Durante 3 segundos, corres un 50 % más rápido. Cada 2 puntos de artes sombrías se reduce la carga en 1 segundos (6 segundos máx.).",
+				"concise": "Actitud. (3 segundos). Te mueves un 50 % más rápido. Cada 2 puntos de artes sombrías reduce la carga en 1 segundos (6 segundos máx.)."
+			},
 			"fr": {
+				"name": "Ruée",
+				"description": "Pose de combat. Pendant 3 secondes, vous courez 50% plus vite. Tous les 2 points d'Arts des ombres réduisent le temps de recharge de 1 secondes (maximum 6 secondes).",
+				"concise": "Pose de combat. (3 secondes.) Vous vous déplacez 50% plus vite. Tous les 2 points d'Arts des ombres réduisent le temps de recharge de 1 secondes (maximum 6 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Ruée (PvP)",
 				"description": "Pendant 3 secondes, vous courez 50% plus vite. Tous les 2 points d'arts des ombres réduisent le temps de recharge de 1 seconde (maximum 6 secondes).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Slancio",
+				"description": "Posizione. Per 3 secondo/i corri più veloce del 50%. Ogni 2 punti in Arti delle Ombre riduce la ricarica di 1 secondo/i (max 6 secondi).",
+				"concise": "Posizione. (3 secondo/i) Ti muovi più veloce del 50%. Ogni 2 punti in Arti delle Ombre riduce la ricarica di 1 secondo/i (max 6 secondi)."
+			},
+			"jp": {
+				"name": "ダッシュ",
+				"description": "スタンス： 3秒間、50%速く走ります。シャドウアーツが2ポイント得るごとに、リチャージが1秒間短縮されます（最大6秒）。",
+				"concise": "スタンス： （3秒）移動速度が50%上昇します。シャドウアーツが2ポイント得るごとに、リチャージが1秒間短縮されます（最大6秒）。"
+			},
+			"kr": {
+				"name": "질주",
+				"description": "자세. 대상 지정: 없음. 3초 동안 이동 속도가 50% 빨라집니다. 그림자 기예 특성 레벨 2당 재활성 시간이 1초 단축됩니다(최대 6초).",
+				"concise": "자세. (3초) 이동 속도가 50% 빨라집니다. 그림자 특성 레벨 2당 재활성 시간이 1초 단축됩니다(최대 6초)."
+			},
+			"pl": {
+				"name": "Pęd",
+				"description": "Postawa. Przez 3 sek. biegasz o 50% szybciej. Każde 2 pkt. przydzielone do Sztuki Cienia skracają odnawianie o 1 sek. (maks. 6 sek.).",
+				"concise": "Postawa. (3 sek.) Poruszasz się o 50% szybciej. Każde 2 pkt. przydzielone do Sztuki Cienia skracają odnawianie o 1 sek. (maks. 6 sek.)."
+			},
+			"ru": {
+				"name": "Dash",
+				"description": "Стойка. В течение 3 сек. вы бегаете на 50% быстрее. Каждые 2 очка Shadow Arts сокращают время перезарядки на 1 сек. (макс. 6 секунд).",
+				"concise": "Стойка. (3 сек.) Вы двигаетесь на 50% быстрее. Каждые 2 очка Shadow Arts сокращают время перезарядки на 1 сек. (макс. 6 секунд)."
+			},
+			"bork": {
+				"name": "Daesh (PfP)",
+				"description": "Stunce-a. Fur 3 secunds, yuoo roon 50% faester. Ifery 2 pueents in Shaedoo Aerts looers rechaerge-a by 1 secunds (maex 6 secunds).",
+				"concise": "Stunce-a. (3 secunds.) Yuoo mufe-a 50% faester. Ifery 2 pueents in Shaedoo Aerts looers rechaerge-a by 1 secunds (maex 6 secunds)."
 			}
 		}
 	}

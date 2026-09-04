@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "不安印记",
+				"description": "精英负面魔法。 持续5...25秒，目标敌人承受1...5生命衰减，其附魔与姿态失效速度提升20...60%。5秒内你的所有非刺客技能被禁用。",
+				"concise": "精英负面魔法。 （5...25秒）造成-1...5生命衰减。目标敌军的附魔和姿态持续时间衰减加快20...60%。禁用你的非刺客技能（5秒）。"
+			},
+			"cht": {
+				"name": "驚恐印記",
+				"description": "精英降咒魔法： For 5...25 seconds, target foe suffers from -1...5 Health degeneration, and enchantments and stances on that foe expire 20...60% faster. All of your non-Assassin skills are disabled for 5 seconds.",
+				"concise": "精英降咒魔法： (5...25 seconds.) Causes -1...5 Health degeneration. Enchantments and stances expire 20...60% faster on target foe. Disables your non-Assassin skills (5 seconds)."
+			},
 			"de": {
+				"name": "Zeichen der Unsicherheit",
+				"description": "Elite-Verhexung. 5...25 Sekunden lang erleidet der Zielgegner, -1...5 Lebenspunktdegeneration, und Verzauberungen und Haltungen auf diesem Gegner vergehen 20...60 % schneller. Eure Nicht-Assassinen-Fertigkeiten sind 5 Sekunden lang deaktiviert.",
+				"concise": "Elite-Verhexung. (5...25 Sekunden). Bewirkt -1...5 Lebenspunktdegeneration. Verzauberungen und Haltungen laufen beim anvisierten Gegner um 20...60 % schneller ab. Deaktiviert Eure Nicht-Assassinen-Fertigkeiten (5 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Zeichen der Unsicherheit",
 				"description": "5...25 Sekunden lang erleidet der Zielgegner, -1...5 Lebenspunktdegeneration, und Verzauberungen und Haltungen auf diesem Gegner vergehen 20...60% schneller. Eure Nicht-Assassinen-Fertigkeiten sind 5 Sekunden lang deaktiviert.",
 				"concise": "(5...25 Sekunden.) Bewirkt -1...5 Lebenspunktdegeneration. Verzauberungen und Haltungen laufen beim anvisierten Gegner 20...60% schneller ab. <gray>Deaktiviert Eure Nicht-Assassinen-Fertigkeiten (5 Sek.).</gray>"
 			},
 			"en": {
 				"name": "Mark of Insecurity",
+				"description": "Elite Hex Spell. For 5...25 seconds, target foe suffers from -1...5 Health degeneration, and enchantments and stances on that foe expire 20...60% faster. All of your non-Assassin skills are disabled for 5 seconds.",
+				"concise": "Elite Hex Spell. (5...25 seconds.) Causes -1...5 Health degeneration. Enchantments and stances expire 20...60% faster on target foe. Disables your non-Assassin skills (5 seconds)."
+			},
+			"en-gww": {
+				"name": "Mark of Insecurity",
 				"description": "For 5...25 seconds, target foe suffers from -1...5 Health degeneration, and enchantments and stances on target foe expire 20...60% faster. All of your non-Assassin skills are disabled for 5 seconds.",
 				"concise": "(5...25 seconds.) Causes -1...5 Health degeneration. Enchantments and stances expire 20...60% faster on target foe. <gray>Disables your non-Assassin skills (5 seconds).</gray>"
 			},
+			"es": {
+				"name": "Marca de inseguridad",
+				"description": "Conjuro con maleficio de élite. Durante 5...25 segundos, el enemigo objetivo sufre -1...5 de degeneración de salud, y los encantamientos y posturas de ese enemigo acaban un 20...60 % antes. Todas tus habilidades que no sean de Asesino se desactivan durante 5 segundos.",
+				"concise": "Conjuro con maleficio de élite. (5...25 segundos) Provoca -1...5 de degeneración de salud. Los encantamientos y actitudes desaparecen un 20...60 % más rápido en el enemigo objetivo. Desactiva las habilidades que no sean de asesino (5 segundos)."
+			},
 			"fr": {
+				"name": "Marque d'insécurité",
+				"description": "Maléfice d'élite. Pendant 5...25 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5, et les enchantements et poses de combat sur cet ennemi prennent fin 20...60% plus vite. Toutes vos compétences autres que celles d'Assassin sont désactivées pendant 5 secondes.",
+				"concise": "Maléfice d'élite. (5...25 secondes.) Inflige -1...5 points de dégénération de santé. Les enchantements et les postures de l'ennemi ciblé prennent fin 20...60% plus vite. Désactive vos compétences autres que celles d'Assassin (5 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Marque d'insécurité",
 				"description": "Pendant 5...25 secondes, la cible ennemie souffre d'une dégénération de santé de -1...5, et les enchantements et poses de combat sur cet ennemi prennent fin 30...80% plus vite. Toutes vos compétences autres que celles d'Assassin sont désactivées pendant 5 secondes.",
 				"concise": "(5...25 secondes.) Provoque une dégénération de santé de -1...5. Les enchantements et les poses de combat de la cible ennemie prennent fin 30...80% plus vite. <gray>Désactive toutes vos compétences sauf celles d'Assassin (5 secondes).</gray>"
+			},
+			"it": {
+				"name": "Marchio di insicurezza",
+				"description": "Fattura d'Élite. Per 5...25 secondo/i, il bersaglio nemico subisce -1...5 Degenerazione della Salute, e gli incantesimi e le posizioni su di esso terminano il 20...60% più rapidamente. Non puoi usare tutte le tue abilità per 5 secondi (escluse quelle da Assassino).",
+				"concise": "Fattura d'Élite. (5...25 secondo/i). Provoca -1...5 degenerazione della Salute. Incantesimi e posizioni su di esso terminano il 20...60% più rapidamente. Non puoi usare le tue abilità per 5 secondi (escluse quelle da Assassino)."
+			},
+			"jp": {
+				"name": "不安の印",
+				"description": "エリート弱体化スペル： 5...25秒間、標的の敵は-1...5の体力減少を受け、その敵に対する強化スペルとスタンスは20...60%速く消滅します。アサシンではないスキルはすべて5秒以内に無効になります。",
+				"concise": "エリート弱体化スペル： （5...25秒）-1...5の体力減少を与えます。標的となった敵に対する強化スペルとスタンスは20...60%速く消滅します。アサシンではないスキルは無効になります（5秒）。"
+			},
+			"kr": {
+				"name": "불안의 징후",
+				"description": "엘리트 약화 마법. 5...25초 동안 대상의 체력 재생이 1...5 감소하고, 대상에 걸린 강화 마법과 자세의 지속 시간이 20...60% 단축됩니다. 자신은 5초 동안 어새신 스킬이 아닌 스킬을 사용할 수 없습니다.",
+				"concise": "엘리트 약화 마법. (5...25초) 대상의 체력 재생을 1...5 감소시키고, 대상에 걸린 강화 마법과 자세의 지속 시간이 20...60% 단축됩니다. 자신은 어새신 스킬이 아닌 스킬을 사용할 수 없습니다(5초)."
+			},
+			"pl": {
+				"name": "Piętno Niepewności",
+				"description": "Elitarna klątwa (czar). Przez 5...25 sek. wybrany przeciwnik posiada degenerację żywotności -1...5, a zaklęcia i postawy, pod których jest działaniem kończą się o 20...60% szybciej. Wszystkie twoje umiejętności spoza profesji skrytobójcy będą niedostępne przez 5 sek.",
+				"concise": "Elitarna klątwa (czar). (5...25 sek.). Powoduje degenerację żywotności -1...5. Zaklęcia i postawy wskazanego przeciwnika kończą się o 20...60% szybciej. Wyłącza umiejętności nienależące do zabójcy (5 sek.)."
+			},
+			"ru": {
+				"name": "Mark of Insecurity",
+				"description": "Элитное заклинание-проклятье. На 5...25 сек. здоровье цели снижено на 1...5, а усиления и стойки истекают на 20...60% быстрее. Все ваши навыки, кроме навыков Assassin, недоступны в течение 5 сек.",
+				"concise": "Элитное заклинание-проклятье. (5...25 сек.) Накладывает -1...5 к снижению здоровья. Усиления и стойки цели заканчиваются на 20...60% быстрее. Отключает все ваши навыки, кроме навыков Assassin (5 сек.)"
+			},
+			"bork": {
+				"name": "Maerk ooff Insecooreety",
+				"description": "Ileete-a Hex Spell. Fur 5...25 secunds, taerget fue-a sooffffers frum -1...5 Heaelt degeneraeshun, und inchuntments und stunces oon thaet fue-a ixpure-a 20...60% faester. Aell ooff yuoor nun-Aessaesseen skeells aere-a deesaebled fur 5 secunds.",
+				"concise": "Ileete-a Hex Spell. (5...25 secunds.) Cooses -1...5 Heaelt degeneraeshun. Inchuntments und stunces ixpure-a 20...60% faester oon taerget fue-a. Deesaebles yuoor nun-Aessaesseen skeells (5 secunds)."
 			}
 		}
 	}

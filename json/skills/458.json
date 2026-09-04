@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "荆棘陷阱",
+				"description": "陷阱技。 当荆棘陷阱被触动时，陷阱附近的所有敌人将受到7...23点穿刺伤害，遭受「残废」及「流血」症状 3...25秒。荆棘陷阱在 90秒 后消失。此技能发动时容易被打断。",
+				"concise": "陷阱技。 当荆棘陷阱被触动时，陷阱附近的所有敌人将受到7...23点穿刺伤害，遭受「残废」及「流血」症状 3...25秒。荆棘陷阱在 90秒 后消失。此技能发动时容易被打断。"
+			},
+			"cht": {
+				"name": "荊棘陷阱",
+				"description": "陷阱： 當荊棘陷阱被觸動時，對陷阱附近的所有敵人造成 7...23 穿刺傷害，使他們遭受「殘廢」及「流血」病症 3...25 秒。荊棘陷阱在 90 秒後消失。此技能發動時容易被中斷。",
+				"concise": "陷阱： 當荊棘陷阱被觸動時，對陷阱附近的所有敵人造成 7...23 穿刺傷害，使他們遭受「殘廢」及「流血」病症 3...25 秒。荊棘陷阱在 90 秒後消失。此技能發動時容易被中斷。"
+			},
 			"de": {
+				"name": "Stachelfalle",
+				"description": "Falle. Wird Stachelfalle aktiviert, erleiden alle Gegner in der Nähe 7...23 Punkt[e] Stichschaden, werden verkrüppelt und leiden 3...25 Sekunde[n] lang unter einer Blutung. Stachelfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
+				"concise": "Falle. 90 Sekunden: Betrifft Feinde in der Nähe. Richtet 7...23 Punkt[e] Stichschaden an. Verursacht Zustände Verkrüppelung und Blutung (3...25 Sekunde[n]). Leicht zu unterbrechen."
+			},
+			"de-guildwiki": {
 				"name": "Stachelfalle",
 				"description": "Wird Stachelfalle aktiviert, erleiden alle Gegner in der Nähe 7...23 Punkte Stichschaden, werden verkrüppelt und leiden 3...25 Sekunden lang unter einer Blutung. Stachelfalle endet nach 90 Sekunden. Bei der Aktivierung dieser Fertigkeit könnt Ihr leicht unterbrochen werden.",
 				"concise": "90 Sekunden: Betrifft Feinde in der Nähe. Richtet 7...23 Punkte Stichschaden an. Verursacht Zustände Verkrüppelung und Blutung (3...25 Sekunden). <gray>Leicht zu unterbrechen.</gray>"
 			},
 			"en": {
 				"name": "Barbed Trap",
+				"description": "Trap. When Barbed Trap is triggered, all nearby foes are struck for 7...23 piercing damage, become Crippled, and begin Bleeding for 3...25 seconds. Barbed Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
+				"concise": "Trap. (90 seconds.) Affects nearby foes. Deals 7...23 piercing damage. Inflicts Crippled and Bleeding conditions (3...25 seconds). Easily interrupted."
+			},
+			"en-gww": {
+				"name": "Barbed Trap",
 				"description": "When Barbed Trap is triggered, all nearby foes are struck for 7...23 piercing damage, become Crippled, and begin Bleeding for 3...25 seconds. Barbed Trap ends after 90 seconds. While activating this skill, you are easily interrupted.",
 				"concise": "(90 seconds.) Affects nearby foes. Deals 7...23 piercing damage. Inflicts Crippled and Bleeding conditions (3...25 seconds). <gray>Easily interrupted.</gray>"
 			},
+			"es": {
+				"name": "Trampa de espinas",
+				"description": "Trampa. Cuando se activa esta trampa, todos los enemigos del área reciben 7...23 de daño perforante, quedarán lisiados y sufrirán una hemorragia durante 3...25 segundos. La Trampa de espinas dura 90 segundos. Cuando actives esta habilidad, se te podrá interrumpir con facilidad.",
+				"concise": "Trampa. (90 segundos). Afecta a los enemigos cercanos. Hace 7...23 de daño perforante. Causa lisiadura y hemorragia (3...25 segundos). Se puede interrumpir con facilidad."
+			},
 			"fr": {
+				"name": "Piège barbelé",
+				"description": "Piège. Quand le Piège barbelé se déclenche, tous les ennemis proches de la zone d'effet subissent 7...23 points de dégâts perforants et sont frappés d'Infirmité et de Saignement pendant 3...25 secondes. Le Piège barbelé fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
+				"concise": "Piège. (90 secondes.) Affecte les ennemis à proximité. Inflige 7...23 points de dégâts perforants. Inflige l'Infirmité et le Saignement (3...25 secondes). Cette compétence peut être facilement interrompue."
+			},
+			"fr-gwiki": {
 				"name": "Piège barbelé",
 				"description": "Quand le ''Piège barbelé'' se déclenche, tous les ennemis proches de la zone d'effet subissent 7...23 points de dégâts perforants et sont frappés d'Infirmité et de Saignement pendant 3...25 secondes. Le ''Piège barbelé'' fonctionne pendant 90 secondes. Vous pouvez être facilement interrompu lorsque vous utilisez cette compétence.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trappola Uncinata",
+				"description": "Trappola. Quando la Trappola Uncinata viene attivata, tutti i nemici nei dintorni subiscono 7...23 danno[i] perforante[i], diventano Storpi e sono colpiti da Emorragia per 3...25 secondo[i]. Termina dopo 90 secondi. Mentre attivi questa abilità è facile interromperti.",
+				"concise": "Trappola. (Secondi: 90) Ha effetto sui nemici nei dintorni. Danni perforanti inferti: 7...23. Condizioni inflitte: Storpiatura ed Emorragia (3...25 secondo[i]). Facile interruzione."
+			},
+			"jp": {
+				"name": "バーブ トラップ",
+				"description": "トラップ： このトラップが作動すると、周囲にいるすべての敵は 7...23 のピアス ダメージを受け、3...25 秒間「不自由」および「出血」状態になります。このトラップは90秒後に消滅します。このスキルの詠唱は容易に中断されます。",
+				"concise": "トラップ： (90秒) 周囲にいる敵に 7...23 のピアス ダメージを与え、「不自由」および「出血」状態にします (3...25 秒)。このスキルの詠唱は容易に中断されます。"
+			},
+			"kr": {
+				"name": "가시 함정",
+				"description": "함정. 대상 지정: 없음. 함정이 작동하면 함정 부근의 모든 적은 7...23의 찌르는 대미지를 입고, 3...25초 동안 다리부상과 출혈 상태가 됩니다. 함정은 90초 뒤에 사라지며, 함정 설치 동작은 쉽게 방해받습니다.",
+				"concise": "함정. (90초) 부근의 적들에게 영향을 미칩니다. 7...23의 찌르는 대미지를 주고, 다리부상과 출혈 상태에 빠뜨립니다.(3...25초) 설치 동작이 쉽게 방해 받습니다."
+			},
+			"pl": {
+				"name": "Kolczasta Pułapka",
+				"description": "Pułapka. Kiedy Kolczasta Pułapka zostanie uruchomiona, to wszyscy przeciwnicy w pobliżu otrzymują 7...23 obrażeń przebijających, zostają okulawieni i na 3...25 sek. zaczynają krwawić. Kolczasta Pułapka przestaje działać po 90 sekundach. W czasie, kiedy będziesz używać tej umiejętności, łatwo ci będzie przerwać.",
+				"concise": "Pułapka. (90 sek.) Działa na przeciwników w pobliżu. Zadaje 7...23 pkt. obrażeń przebijających. Wywołuje przypadłości okulawienie oraz krwawienie (3...25 sek.). Łatwo przerwać."
+			},
+			"ru": {
+				"name": "Barbed Trap",
+				"description": "Ловушка. Когда Barbed Trap срабатывает, все противники поблизости получают 7...23 ед. урона колющим оружием и в течение 3...25 сек они будут хромать и кровоточить. Barbed Trap разряжается через 90 сек. При активации этого умения вас очень легко прервать.",
+				"concise": "Ловушка. (90 сек) Поражает противников поблизости. Наносит 7...23 ед. урона колющим оружием. Вызывает хромоту и кровотечение (3...25 сек). Легко прервать."
+			},
+			"bork": {
+				"name": "Baerbed Traep",
+				"description": "Traep. Vhee Baerbed Traep is treeggered, aell neaerby fues aere-a stroock fur 7...23 peeerceeng daemaege-a, becume-a Creeppled, und begeen Bleedeeng fur 3...25 secunds. Baerbed Traep inds aeffter 90 secunds. Vheele-a aecteefaeteeng thees skeell, yuoo aere-a iaeseely interroopted.",
+				"concise": "Traep. (90 secunds.) Aeffffects neaerby fues. Deaels 7...23 peeerceeng daemaege-a. Inffleects Creeppled und Bleedeeng cundeeshuns (3...25 secunds). Iaeseely interroopted."
 			}
 		}
 	}

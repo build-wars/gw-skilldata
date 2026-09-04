@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蒸汽",
+				"description": "咒文。 对目标敌军造成20...60点冰冻伤害。若目标处于燃烧状态，则对其附加5...10秒雾盲状态，并额外对其造成20...60点火焰伤害。",
+				"concise": "咒文。 造成20...60点冰冻伤害。若目标正在燃烧，则附加目盲状态（5...10秒）并额外造成20...60点火焰伤害。"
+			},
+			"cht": {
+				"name": "蒸汽",
+				"description": "咒文魔法： Target foe is struck for 20...60 cold damage. If target foe is on fire, Steam Blinds that foe for 5...10 seconds and they take an additional 20...60 fire damage.",
+				"concise": "咒文魔法： Deals 20...60 cold damage. Inflicts Blindness condition (5...10 seconds) and does 20...60 fire damage if target foe is Burning."
+			},
 			"de": {
+				"name": "Dampf",
+				"description": "Zauber. Der Zielgegner erleidet 20...60 Kälteschaden. Wenn der Zielgegner in Flammen steht, blendet Dampf diesen Gegner 5...10 Sekunden lang, und er erleidet zusätzlich 20...60 Feuerschaden.",
+				"concise": "Zauber. Verursacht 20...60 Kälteschaden und den Zustand \"Blindheit\" (5...10 Sekunden) sowie 20...60 Feuerschaden, wenn der Zielgegner brennt."
+			},
+			"de-guildwiki": {
 				"name": "Dampf",
 				"description": "Der Zielgegner erleidet 20...60 Kälteschaden. Wenn der Zielgegner in Flammen steht, blendet Dampf diesen Gegner 5...10 Sekunden lang, und er erleidet zusätzlich 20...60 Feuerschaden.",
 				"concise": "Verursacht 20...60 Kälteschaden. Verursacht Zustand Blindheit (5...10 Sekunden) und 20...60 Feuerschaden, wenn der Zielgegner brennt."
 			},
 			"en": {
 				"name": "Steam",
+				"description": "Spell. Target foe is struck for 20...60 cold damage. If target foe is on fire, Steam Blinds that foe for 5...10 seconds and they take an additional 20...60 fire damage.",
+				"concise": "Spell. Deals 20...60 cold damage. Inflicts Blindness condition (5...10 seconds) and does 20...60 fire damage if target foe is Burning."
+			},
+			"en-gww": {
+				"name": "Steam",
 				"description": "Target foe is struck for 20...60 cold damage. If target foe is on fire, Steam Blinds that foe for 5...10 seconds and they take an additional 20...60 fire damage.",
 				"concise": "Deals 20...60 cold damage. Inflicts Blindness condition (5...10 seconds) and does 20...60 fire damage if target foe is Burning."
 			},
+			"es": {
+				"name": "Vapor",
+				"description": "Conjuro. El enemigo objetivo recibe 20...60 de daño frío. Si el enemigo objetivo está ardiendo, el Vapor lo cegará durante 5...10 segundos, además de infligirle 20...60 de daño de fuego adicional.",
+				"concise": "Conjuro. Hace 20...60 de daño frío. Causa ceguera (5...10 segundos) e inflige 20...60 de daño de fuego si el enemigo objetivo está ardiendo."
+			},
 			"fr": {
+				"name": "Buée",
+				"description": "Sort. La cible ennemie subit 20...60 points de dégâts du froid. Si l'ennemi ciblé est en feu, la Buée l'aveugle pendant 5...10 secondes et il subit 20...60 points de dégâts du feu en plus.",
+				"concise": "Sort. Inflige 20...60 points de dégâts du froid. Provoque l'Aveuglement (5...10 secondes) et inflige 20...60 points de dégâts du feu si l'ennemi est affecté par Brûlure."
+			},
+			"fr-gwiki": {
 				"name": "Buée",
 				"description": "La cible ennemie subit 5...50 points de dégâts du froid. Si l'ennemi ciblé est en feu, la Buée l'aveugle pendant 5...10 secondes.",
 				"concise": "Inflige 5...50 points de dégâts du froid. Provoque l'Aveuglement (5...10 secondes) si l'ennemi est en feu."
+			},
+			"it": {
+				"name": "Vapore",
+				"description": "Magia. Il nemico colpito subisce 20...60 danni da freddo. Se il bersaglio va a fuoco, viene accecato dal fumo per 5...10 secondo/i e subisce 20...60 danni da fuoco extra.",
+				"concise": "Magia. Infligge 20...60 danni da freddo. Infligge la condizione Cecità (5...10 secondi) e 20...60 danni da freddo se il bersaglio sta bruciando."
+			},
+			"jp": {
+				"name": "スチーム",
+				"description": "スペル： 標的となった敵は20...60の冷気ダメージを受けます。標的となった敵が炎上している場合、スチームはその敵を5...10秒間、盲目状態にし、20...60の火炎ダメージを追加で受けます。",
+				"concise": "スペル： 20...60の冷気ダメージを与えます。標的となった敵が燃焼している場合、盲目状態にし（5...10秒）、20...60の火炎ダメージを与えます。"
+			},
+			"kr": {
+				"name": "수증기",
+				"description": "마법. 대상 지정: 적. 대상에게 20...60의 냉기 대미지를 줍니다. 대상은 화상 상태면 5...10초 동안 실명 상태가 되고, 20...60의 불 대미지를 추가로 받습니다.",
+				"concise": "마법. 20...60의 냉기 대미지를 줍니다. 대상은 화상 상태면 실명 상태가 되고(5...10초), 20...60의 불 대미지를 추가로 받습니다."
+			},
+			"pl": {
+				"name": "Para",
+				"description": "Czar. Wybrany przeciwnik otrzymuje 20...60 pkt. obrażeń od zimna. Jeżeli wybrany przeciwnik płonie, para oślepia go na 5...10 sek. i zadaje mu dodatkowe 20...60 pkt. obrażeń od ognia.",
+				"concise": "Czar. Zadaje 20...60 pkt. obrażeń od zimna. Powoduje oślepienie (5...10 sek.) i zadaje 20...60 pkt. obrażeń od ognia, jeżeli wybrany przeciwnik płonie."
+			},
+			"ru": {
+				"name": "Steam",
+				"description": "Заклинание. Выбранный враг получает 20...60 ед. урона холодом. Если цель горит, на неё накладывается статус Steam Blinds на 5...10 сек., и она получает дополнительно 20...60 ед. урона огнём.",
+				"concise": "Заклинание. Наносит 20...60 ед. урона холодом. Накладывает статус Blindness (5...10 сек.) и наносит 20...60 ед. урона огнём, если цель горит."
+			},
+			"bork": {
+				"name": "Steaem",
+				"description": "Spell. Taerget fue-a is stroock fur 20...60 culd daemaege-a. Iff taerget fue-a is oon fure-a, Steaem Bleends thaet fue-a fur 5...10 secunds und zeey taeke-a un aeddeeshunael 20...60 fure-a daemaege-a.",
+				"concise": "Spell. Deaels 20...60 culd daemaege-a. Inffleects Bleendness cundeeshun (5...10 secunds) und dues 20...60 fure-a daemaege-a iff taerget fue-a is Boorneeng."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 1,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 8,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "贪婪之眼",
+				"description": "精英咒文。 偷取目标敌人20...40点生命值。偷取后如果你的生命值仍低于50%，则追加偷取20...40点生命值。",
+				"concise": "精英咒文。 偷取目标敌人20...40点生命值。偷取后如果你的生命值仍低于50%，则追加偷取20...40点生命值。"
+			},
+			"cht": {
+				"name": "貪婪凝視",
+				"description": "精英咒文魔法： 造成目標及附近敵人 20...40 暗影傷害且偷取 20...40 體力。",
+				"concise": "精英咒文魔法： 造成目標及附近敵人 20...40 暗影傷害且偷取 20...40 體力。"
+			},
 			"de": {
+				"name": "Heißhungriger Blick",
+				"description": "Elite-Zauber. Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkt[e] Schaden zu und entzieht diesen 20...40 Lebenspunkt[e].",
+				"concise": "Elite-Zauber. Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkt[e] Schaden zu und entzieht diesen 20...40 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Heißhungriger Blick",
 				"description": "Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkte Schaden zu und entzieht diesen 20...40 Lebenspunkte.",
 				"concise": "Fügt dem Gegner und in der Nähe befindlichen Feinden 20...40 Punkte Schaden zu und entzieht diesen 20...40 Lebenspunkte."
 			},
 			"en": {
 				"name": "Ravenous Gaze",
+				"description": "Elite Spell. Deal 20...40 damage and steal 20...40 Health from target foe and all nearby foes.",
+				"concise": "Elite Spell. Deals 20...40 damage and steals 20...40 Health from target and nearby foes."
+			},
+			"en-gww": {
+				"name": "Ravenous Gaze",
 				"description": "Deal 20...40 damage and steal 20...40 Health from target foe and all nearby foes.",
 				"concise": "Deals 20...40 damage and steals 20...40 Health from target and nearby foes."
 			},
+			"es": {
+				"name": "Mirada rapaz",
+				"description": "Conjuro de élite. Hace 20...40 de daño y roba 20...40 de salud del enemigo objetivo y todos los cercanos.",
+				"concise": "Conjuro de élite. Hace 20...40 de daño y roba 20...40 de salud del enemigo objetivo y los cercanos."
+			},
 			"fr": {
+				"name": "Regard féroce",
+				"description": "Sort d'élite. Inflige 20...40 points de dégâts et vole 20...40 points de vie à la cible ennemie et à tous les ennemis à proximité.",
+				"concise": "Sort d'élite. Inflige 20...40 points de dégâts et vole 20...40 points de vie à la cible ennemie et aux ennemis à proximité."
+			},
+			"fr-gwiki": {
 				"name": "Regard féroce",
 				"description": "Inflige 15...30 points de dégâts et vole 15...30 points de santé à la cible ennemi et aux ennemis à proximité.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sguardo Famelico",
+				"description": "Magia d'Élite. Infligge 20...40 danni e sottrae 20...40 Punto[i] Salute dall'obiettivo nemico e da tutti i nemici nei dintorni.",
+				"concise": "Magia d'Élite. Infligge 20...40 danni e sottrae 20...40 Punto[i] Salute dall'obiettivo nemico e da tutti i nemici nei dintorni."
+			},
+			"jp": {
+				"name": "ラヴィナス ゲイズ",
+				"description": "エリート スペル： ターゲットした敵と周囲にいる敵に 20...40 のダメージを与え、20...40 の体力を奪い取ります。",
+				"concise": "エリート スペル： ターゲットした敵と周囲にいる敵に 20...40 のダメージを与え、20...40 の体力を奪い取ります。"
+			},
+			"kr": {
+				"name": "탐욕의 시선",
+				"description": "엘리트 마법. 대상 지정: 적. 대상과 그에 인접한 적들에게 20...40의 대미지를 주고, 20...40의 체력을 뺏습니다.",
+				"concise": "엘리트 마법. 대상과 그 부근의 적들에게 20...40의 대미지를 주고, 20...40의 체력을 뺏습니다."
+			},
+			"pl": {
+				"name": "Chciwe Spojrzenie",
+				"description": "Elitarny czar. Zadaje 20...40 pkt. obrażeń i wykrada 20...40 pkt. żywotności wyrbanemu wrogowi i wszystkim przeciwnikom w pobliżu.",
+				"concise": "Elitarny czar. Zadaje 20...40 pkt. obrażeń i wykrada 20...40 pkt. żywotności wybranemu wrogowi i wszystkim przeciwnikom w pobliżu."
+			},
+			"ru": {
+				"name": "Ravenous Gaze",
+				"description": "Элитное заклинание. Вы наносите 20...40 ед. урона и похищаете 20...40 ед. здоровья у выбранного противника и всех противников поблизости.",
+				"concise": "Элитное заклинание. Наносит 20...40 ед. урона и похищает 20...40 ед. здоровья у цели и противников поблизости."
+			},
+			"bork": {
+				"name": "Raefenuoos Gaeze-a",
+				"description": "Ileete-a Spell. Deael 20...40 daemaege-a und steael 20...40 Heaelt frum taerget fue-a und aell neaerby fues.",
+				"concise": "Ileete-a Spell. Deaels 20...40 daemaege-a und steaels 20...40 Heaelt frum taerget und neaerby fues."
 			}
 		}
 	}

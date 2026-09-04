@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 1,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "捕猎投射",
+				"description": "矛术。 命中时，对敌人造成5...20点额外伤害，如果击中移动中的敌人，将再对其造成5...40点伤害。",
+				"concise": "矛术。 命中时，对敌人造成5...20点额外伤害，如果击中移动中的敌人，将再对其造成5...40点伤害。"
+			},
+			"cht": {
+				"name": "獵捕者投擲",
+				"description": "矛術攻擊技能： 攻擊命中時對目標造成 5...20 額外傷害。若擊中「移動中」的目標，對其再造成 5...40 額外傷害。",
+				"concise": "矛術攻擊技能： 攻擊命中時對目標造成 5...20 額外傷害。若擊中「移動中」的目標，對其再造成 5...40 額外傷害。"
+			},
 			"de": {
+				"name": "Wurf des Läufers (PvP)",
+				"description": "Speerangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkt[e] Schaden zu. Wenn dieser Angriff einen sich bewegenden Feind trifft, fügt Ihr zusätzlich 5...40 Punkt[e] Schaden zu.",
+				"concise": "Speerangriff. Richtet +5...20 Punkt[e] Schaden an. Richtet zusätzlich 5...40 Punkt[e] Schaden an, falls der Gegner sich bewegt."
+			},
+			"de-guildwiki": {
 				"name": "Wurf des Läufers (PvP)",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr +5...20 Punkte Schaden zu. Wenn dieser Angriff einen sich bewegenden Feind trifft, fügt Ihr zusätzlich +5...40 Punkte Schaden zu.",
 				"concise": "Richtet +5...20 Punkte Schaden an. Richtet zusätzlich +5...40 Punkte Schaden an, falls der Gegner sich bewegt."
 			},
 			"en": {
 				"name": "Harrier's Toss (PvP)",
+				"description": "Spear Attack. If this attack hits, you deal +5...20 damage. If this attack hits a moving foe, it deals an additional 5...40 damage.",
+				"concise": "Spear Attack. Deals +5...20 damage. Deals 5...40 more damage if target is moving."
+			},
+			"en-gww": {
+				"name": "Harrier's Toss (PvP)",
 				"description": "If this attack hits, you deal +5...20 damage. If this attack hits a moving foe, it deals an additional 5...40 damage.",
 				"concise": "Deals +5...20 damage. Deals 5...40 more damage if target is moving."
 			},
+			"es": {
+				"name": "Lanzamiento del cazador (PvP)",
+				"description": "Ataque con lanza. Si este ataque impacta, harás +5...20 de daño y 5...40 extra si el enemigo estaba en movimiento.",
+				"concise": "Ataque con lanza. Hace +5...20 de daño. +5...40 de daño extra si el enemigo objetivo se está moviendo."
+			},
 			"fr": {
+				"name": "Lancer d'harrier (PvP)",
+				"description": "Attaque au javelot. Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi en mouvement, elle inflige 5...40 points de dégâts en plus.",
+				"concise": "Attaque au javelot. Inflige +5...20 points de dégâts. Inflige 5...40 points de dégâts supplémentaires si la cible se déplace."
+			},
+			"fr-gwiki": {
 				"name": "Lancer d'harrier (PvP)",
 				"description": "Si cette attaque réussit, vous infligez +5...20 points de dégâts. Si elle touche un ennemi en mouvement, elle inflige 5...40 points de dégâts en plus.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Lancio del Predatore (PvP)",
+				"description": "Attacco con Lancia. Se questo attacco va a segno, infliggi +5...20 danno[i]; se colpisci un nemico in movimento, gli infliggi 5...40 danno[i] in più.",
+				"concise": "Attacco con Lancia. Danni inferti: +5...20. Assesta 5...40 danno[i] in più se l'obiettivo si sta muovendo."
+			},
+			"jp": {
+				"name": "ハリアー トス (PvP)",
+				"description": "スピア アタック： この攻撃が成功すると、5...20 の追加ダメージを与えます。移動中の敵に攻撃が成功した場合、5...40 の追加ダメージを与えます。",
+				"concise": "スピア アタック： 5...20 の追加ダメージを与えます。ターゲットが移動中の場合、5...40 の追加ダメージを与えます。"
+			},
+			"kr": {
+				"name": "약탈자의 투창(대인전)",
+				"description": "창 공격. 대상 지정: 적. 공격이 성공하면 대상에게 5...20의 대미지를 추가로 줍니다. 대상이 이동 중이었다면 5...40의 대미지를 추가로 줍니다.",
+				"concise": "창 공격. 5...20의 대미지를 추가로 줍니다. 거기에 더해 대상이 이동 중이면 5...40의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Rzut Grabieżcy (PvP)",
+				"description": "Atak włócznią. Jeśli atak trafi, zadaje +5...20 pkt. obrażeń. Jeśli trafi poruszającego się przeciwnika, zadaje 5...40 pkt. dodatkowych obrażeń.",
+				"concise": "Atak włócznią. Zadaje +5...20 pkt. obrażeń. Zadaje 5...40 pkt. dodatkowych obrażeń, jeżeli cel porusza się."
+			},
+			"ru": {
+				"name": "Harrier's Toss (PvP)",
+				"description": "Атака копьем. Если эта атака попадает в цель, вы наносите дополнительно 5...20 ед. урона. Если эта атака попадает по двигающемуся противнику, она наносит дополнительно еще 5...40 ед. урона.",
+				"concise": "Атака копьем. Наносит дополнительно 5...20 ед. урона. Наносит еще 5...40 ед. урона, если цель двигается."
+			},
+			"bork": {
+				"name": "Haerreeer's Tuss (PfP)",
+				"description": "Speaer Aettaeck. Iff thees aettaeck heets, yuoo deael +5...20 daemaege-a. Iff thees aettaeck heets a mufeeng fue-a, it deaels un aeddeeshunael 5...40 daemaege-a.",
+				"concise": "Speaer Aettaeck. Deaels +5...20 daemaege-a. Deaels 5...40 mure-a daemaege-a iff taerget is mufeeng."
 			}
 		}
 	}

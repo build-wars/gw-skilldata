@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信仰补偿",
+				"description": "Elite Flash Enchantment Spell。 在8秒之内，当有一项「增益魔法」从你身上消失时，你回复0...5点能量值和0...30点生命值。",
+				"concise": "Elite Flash Enchantment Spell。 在8秒之内，当有一项「增益魔法」从你身上消失时，你回复0...5点能量值和0...30点生命值。"
+			},
+			"cht": {
+				"name": "神性修補",
+				"description": "精英即刻加持魔法： 持續 8 秒，此加持並沒有直接效果，結束時此技能立即回復，且你獲得 0...5 能量和 0...30 體力。",
+				"concise": "精英即刻加持魔法： 持續 8 秒，此加持並沒有直接效果，結束時此技能立即回復，且你獲得 0...5 能量和 0...30 體力。"
+			},
 			"de": {
+				"name": "Fromme Erneuerung",
+				"description": "Elite-Blitzverzauberung. 8 Sekunde[n] lang geschieht nichts. Wenn diese Verzauberung endet, wird Fromme Erneuerung wieder aufgeladen und Ihr erhaltet 0...5 Energiepunkt[e] und 0...30 Lebenspunkt[e].",
+				"concise": "Elite-Blitzverzauberung. (8 Sekunde[n].) Wirkung am Ende: Lädt wieder auf und Ihr erhaltet 0...5 Energie- und 0...30 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Fromme Erneuerung",
 				"description": "8 Sekunden lang geschieht nichts. Wenn diese Verzauberung endet, wird Fromme Erneuerung wieder aufgeladen und Ihr erhaltet 0...5 Energiepunkte und 0...30 Lebenspunkte.",
 				"concise": "(8 Sekunden.) Wirkung am Ende: Lädt wieder auf und Ihr erhaltet 0...5 Energie- und 0...30 Lebenspunkte."
 			},
 			"en": {
 				"name": "Pious Renewal",
+				"description": "Elite Flash Enchantment Spell. For 8 seconds, nothing happens. When this enchantment ends, Pious Renewal is recharged and you gain 0...5 Energy and 0...30 Health.",
+				"concise": "Elite Flash Enchantment Spell. (8 seconds.) End Effect: recharges itself and you gain 0...5 Energy and 0...30 Health."
+			},
+			"en-gww": {
+				"name": "Pious Renewal",
 				"description": "For 8 seconds, nothing happens. When this enchantment ends, Pious Renewal is recharged and you gain 0...5 Energy and 0...30 Health.",
 				"concise": "(8 seconds.) End Effect: recharges itself and you gain 0...5 Energy and 0...30 Health."
 			},
+			"es": {
+				"name": "Renovación piadosa",
+				"description": "Conjuro con encantamiento de destello de élite. Durante 8 segundos, no ocurre nada. Cuando termina este encantamiento, se recarga Renovación piadosa y ganas 0...5 de energía y 0...30 de salud.",
+				"concise": "Conjuro con encantamiento de destello de élite. (8 segundos). Efecto final: se recarga a sí mismo y ganas 0...5 de energía y 0...30 de salud."
+			},
 			"fr": {
+				"name": "Renouveau pieux",
+				"description": "Enchantement instantané d'élite. Pendant 8 secondes, rien ne se passe. Lorsque cet enchantement prend fin, Renouveau pieux est rechargé et vous gagnez 0...5 points d'énergie et 0...30 points de vie.",
+				"concise": "Enchantement instantané d'élite. (8 secondes.) Effet final : se recharge et vous gagnez 0...5 points d'énergie et 0...30 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Renouveau pieux",
 				"description": "Pendant 8 secondes, chaque fois qu'un enchantement vous affectant prend fin, vous gagnez 0...2 points d'énergie et 0...10 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Rinnovamento Pio",
+				"description": "Incantesimo Lampo d'Élite. Per 8 secondi non si verificano effetti. Al termine dell'incantesimo, Rinnovamento Pio si ricarica e ottieni 0...5 Punti Energia e 0...30 Punti Salute.",
+				"concise": "Incantesimo Lampo d'Élite. (Secondi: 8). Effetto al termine: si ricarica e ottieni 0...5 Punti Energia e 0...30 Punti Salute."
+			},
+			"jp": {
+				"name": "パイアス リニューアル",
+				"description": "エリート フラッシュ強化スペル： 8 秒間、何も起こりません。この効果が消失するとき、このスペルはすぐに再使用できるようになり、0...5 のエネルギーと 0...30 の体力を獲得します。",
+				"concise": "エリート フラッシュ強化スペル： (8 秒) 終了効果： このスペルはすぐに再使用できるようになり、0...5 のエネルギーと 0...30 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "경건한 재생",
+				"description": "엘리트 순간 시전 강화 마법. 대상 지정: 없음. 8초 동안 아무 일도 일어나지 않습니다. 효과가 끝나면 이 스킬은 즉시 활성되고, 0...30의 체력과 0...5의 에너지를 얻습니다.",
+				"concise": "엘리트 순간 시전 강화 마법. (8초) 종료 효과: 즉시 재활성되고, 0...30의 체력과 0...5의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Nabożna Odnowa",
+				"description": "Elitarne zaklęcie błysku (czar). Przez 8 sek. nic się nie dzieje. Kiedy zaklęcie to dobiegnie końca, Nabożna Odnowa zostaje doładowana i zyskujesz 0...5 pkt. energii oraz 0...30 żywotności.",
+				"concise": "Elitarne zaklęcie błysku (czar). (8 sek.) Efekt końcowy: Odnawia się, zaś ty zyskujesz 0...5 pkt. energii oraz 0...30 żywotności."
+			},
+			"ru": {
+				"name": "Pious Renewal",
+				"description": "Элитное мгновенное заклинание-чары. В течение 8 сек ничего не происходит. Когда эти чары заканчивают свое действие, Pious Renewal будет перезаряжен, а вы получите 0...5 ед. энергии и 0...30 ед. здоровья.",
+				"concise": "Элитное мгновенное заклинание-чары. (8 сек) Эффект окончания: перезаряжает само себя, а вы получаете 0...5 ед. энергии и 0...30 ед. здоровья."
+			},
+			"bork": {
+				"name": "Peeuoos Renooael",
+				"description": "Ileete-a Flaesh Inchuntment Spell. Fur 8 secunds, nutheeng haeppens. Vhee thees inchuntment inds, Peeuoos Renooael is rechaerged und yuoo gaeeen 0...5 Inergy und 0...30 Heaelt.",
+				"concise": "Ileete-a Flaesh Inchuntment Spell. (8 secunds.) Ind Iffffect: rechaerges itselff und yuoo gaeeen 0...5 Inergy und 0...30 Heaelt."
 			}
 		}
 	}

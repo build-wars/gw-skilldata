@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "神怒",
+				"description": "增益魔法。 当你维持此「增益魔法」时，每当目标盟友受到攻击伤害时，将会反弹 1...10%点 伤害给攻击者，同时你损失 10点 能量。（伤害反弹上限为 5...50点）",
+				"concise": "增益魔法。 当你维持此「增益魔法」时，每当目标盟友受到攻击伤害时，将会反弹 1...10%点 伤害给攻击者，同时你损失 10点 能量。（伤害反弹上限为 5...50点）"
+			},
+			"cht": {
+				"name": "神威",
+				"description": "加持魔法： 持續 10...30 秒，目標其他盟友接下來 1...10 次受到的攻擊傷害，反彈給攻擊者 66%。 (最多 5...50 )",
+				"concise": "加持魔法： 持續 10...30 秒，目標其他盟友接下來 1...10 次受到的攻擊傷害，反彈給攻擊者 66%。 (最多 5...50 )"
+			},
 			"de": {
+				"name": "Heiliger Zorn",
+				"description": "Verzauberung. Während der folgenden 10...30 Sekunde[n] wirft dieser Zauber die nächsten 1...10 Mal, wenn der Verbündete Angriffsschaden erleidet, 66% des Schadens auf den Verursacher zurück (maximal 5...50 Schadenspunkt[e]).",
+				"concise": "Verzauberung. (10...30 Sekunde[n].) Wirft 66% des Schadens durch Angriffe (maximal 5...50 Punkt[e]) auf den Verursacher zurück. Endet nach 1...10 Schadenszufügung[en]. Sich selbst als Ziel wählen nicht möglich."
+			},
+			"de-guildwiki": {
 				"name": "Heiliger Zorn",
 				"description": "Während der folgenden 10...30 Sekunden fügt dieser Zauber die nächsten 1...10 Mal, wenn der Verbündete Angriffsschaden erleidet, dem Angreifer 66% des Schadens in Form von heiligem Schaden zu (maximal 5...50 Schadenspunkte).",
 				"concise": "(10...30 Sekunden.) Fügt 66% des Schadens durch Angriffe (maximal 5...50 Punkte) dem Verursacher als heiligen Schaden zu. <gray>Endet nach 1...10 Schadenszufügungen. Sich selbst als Ziel wählen ist nicht möglich.</gray>"
 			},
 			"en": {
 				"name": "Holy Wrath",
+				"description": "Enchantment Spell. For 10...30 seconds, the next 1...10 times target other ally takes attack damage, this spell deals 66% of the damage back to the source (maximum 5...50 damage).",
+				"concise": "Enchantment Spell. (10...30 seconds.) Deals 66% of each attack's damage (maximum 5...50) back to source. Ends after dealing damage 1...10 times. Cannot self-target."
+			},
+			"en-gww": {
+				"name": "Holy Wrath",
 				"description": "For 10...30 seconds, the next 1...10 time[s] target other ally takes attack damage, this spell deals 66% of the damage back to the source (maximum of 5...50 damage).",
 				"concise": "(10...30 seconds). Deals 66% of each attack's damage (maximum 5...50) back to source. <gray>Ends after dealing damage 1...10 time[s]. Cannot self-target.</gray>"
 			},
+			"es": {
+				"name": "Ira sagrada",
+				"description": "Conjuro con encantamiento. Durante 10...30 segundos, las siguientes veces (1...10) que el aliado objetivo reciba daño de ataques, este conjuro devuelve un 66% del daño al que lo ha causado (5...50 como máximo).",
+				"concise": "Conjuro con encantamiento. (10...30 segundos). Hace que el 66% de cada daño vuelva al atacante (máximo 5...50). Acaba después de recibir daño 1...10 veces. No te puedes apuntar a ti mismo."
+			},
 			"fr": {
+				"name": "Colère divine",
+				"description": "Enchantement. Pendant 10...30 secondes, les 1...10 prochaines fois que la cible alliée subit des dégâts suite à une attaque, ce sort renvoie 66% des dégâts à l'attaquant (maximum de 5...50 points de dégâts).",
+				"concise": "Enchantement. (10...30 secondes.) Renvoie 66% des dégâts de chaque attaque (maximum 5...50) à l'attaquant. Prend fin après avoir infligé 1...10 fois des dégâts. Auto-ciblage impossible."
+			},
+			"fr-gwiki": {
 				"name": "Colère divine",
 				"description": "Pendant 10...30 secondes, les prochaines 1...10 fois que la cible subit des dégâts suite à une attaque, se sort renvoie 66% des dégâts à l'attaquant (Maximum de 5...50 points de dégâts).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Collera Sacra",
+				"description": "Incantesimo. Per 10...30 secondi, la[e] prossima[e] 1...10 volta[e] in cui un alleato subisce danni da attacco, questo incantesimo rimanda alla fonte un 66% dei danni (max 5...50 danno[i]).",
+				"concise": "Incantesimo. (Secondo[i]: 10...30). Rimanda alla fonte un 66% del danno causato da ogni attacco (max 5...50). Termina dopo aver inflitto danni 1...10 volta[e]. Impossibile selezionare se stessi."
+			},
+			"jp": {
+				"name": "ホーリー ラス",
+				"description": "強化スペル： 10...30 秒間、ターゲットした自分以外の味方が次の 1...10 回、攻撃によるダメージを受けるたびに、そのダメージの66%を攻撃者に戻します (最大 5...50 のダメージ)。",
+				"concise": "強化スペル： (10...30 秒) 攻撃により受けるダメージの66%を攻撃者に返します (最大 5...50)。この効果は 1...10 回ダメージを与えると消失します。自分自身をターゲットすることはできません。"
+			},
+			"kr": {
+				"name": "신성한 분노",
+				"description": "강화 마법. 대상 지정: 아군. 10...30초 동안 대상이 공격 대미지를 입을 때 그 대미지의 66%를 공격자에게 줍니다. 최대 5...50의 대미지를 주고, 처음 1...10번 효과가 있습니다. 자신을 대상으로 사용할 수 없습니다.",
+				"concise": "강화 마법. (10...30초) 대상 아군이 공격 받을 때마다 받는 대미지의 66%씩, 최대 5...50의 대미지를 공격자에게 줍니다. 자신에게 사용할 수 없고, 1...10번 효과가 나타납니다."
+			},
+			"pl": {
+				"name": "Święty Gniew",
+				"description": "Zaklęcie (czar). Przez 10...30 sek., w kolejnych (1...10) sytuacjach kiedy wskazany sojusznik otrzymuje obrażenia od ataku, czar ten odbija 66% tych obrażeń z powrotem na ich źródło (maksymalnie 5...50 pkt. obrażeń).",
+				"concise": "Zaklęcie (czar). (10...30 sek.) Odbija 66% obrażeń z każdego ataku (maksymalnie 5...50) z powrotem na ich źródło. Kończy się po 1...10-krotnym zadaniu obrażeń. Na cel nie można wybrać siebie."
+			},
+			"ru": {
+				"name": "Holy Wrath",
+				"description": "Заклинание-чары. В течение 10...30 сек в следующие несколько раз (1...10), когда выбранный союзник (но не вы) получит урон от атаки, это заклинание наносит атаковавшему противнику урон на 66% от полученного союзником урона (но не более 5...50 ед. урона).",
+				"concise": "Заклинание-чары. (10...30 сек) Наносит 66% от полученного от атаки урона тому, кто нанес урон (но не более 5...50 ед. урона). Заканчивается после нескольких (1...10) раз получения союзником урона. Нельзя направлять на себя."
+			},
+			"bork": {
+				"name": "Huly Vraet",
+				"description": "Inchuntment Spell. Fur 10...30 secunds, zee next 1...10 teeme-as taerget oozeer aelly taekes aettaeck daemaege-a, thees spell deaels 66% ooff zee daemaege-a baeck tu zee suoorce-a (maexeemoom 5...50 daemaege-a).",
+				"concise": "Inchuntment Spell. (10...30 secunds.) Deaels 66% ooff iaech aettaeck's daemaege-a (maexeemoom 5...50) baeck tu suoorce-a. Inds aeffter deaeleeng daemaege-a 1...10 teeme-as. Cunnut selff-taerget."
 			}
 		}
 	}

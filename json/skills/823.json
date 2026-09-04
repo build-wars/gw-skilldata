@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.25,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "快速燃烧",
+				"description": "增益魔法。 持续 5 秒，你遭受「灼烧」症状并且提高移动速度 30...45% 。当快速燃烧结束时，所有邻近你的敌人遭受「灼烧」症状 3...9 秒。",
+				"concise": "增益魔法。 持续 5 秒，你遭受「灼烧」症状并且提高移动速度 30...45% 。当快速燃烧结束时，所有邻近你的敌人遭受「灼烧」症状 3...9 秒。"
+			},
+			"cht": {
+				"name": "速度燃燒",
+				"description": "加持魔法： 持續 5 秒，你遭受「著火」病症並且提高移動速度 30...45% 。當速度燃燒結束時，所有鄰近你的敵人遭受「著火」病症 3...9 秒。",
+				"concise": "加持魔法： 持續 5 秒，你遭受「著火」病症並且提高移動速度 30...45% 。當速度燃燒結束時，所有鄰近你的敵人遭受「著火」病症 3...9 秒。"
+			},
 			"de": {
+				"name": "Brennende Eile",
+				"description": "Verzauberung. 7 Sekunden lang werdet Ihr in Brand gesetzt und bewegt Euch um 30...45% schneller. Wenn Brennende Eile endet, werden alle umstehenden Gegner 3...9 Sekunden lang in Brand gesetzt.",
+				"concise": "Verzauberung. (7 Sekunden) Ihr bewegt Euch um 30...45% schneller. Ihr beginnt zu brennen (7 Sekunden). Wirkung am Ende: Verursacht Zustand Brennen (3...9 Sekunden bei umstehenden Feinden)."
+			},
+			"de-guildwiki": {
 				"name": "Brennende Eile",
 				"description": "7 Sekunden lang werdet Ihr in Brand gesetzt und bewegt Euch um 30...45% schneller. Wenn Brennende Eile endet, werden alle umstehenden Gegner 3...9 Sekunden lang in Brand gesetzt.",
 				"concise": "7 Sekunden: Ihr bewegt Euch um 30...45% schneller. <gray>Ihr beginnt zu brennen (7 Sekunden).</gray> Wirkung am Ende: Verursacht Zustand Brennen (3...9 Sekunden bei umstehenden Feinden)."
 			},
 			"en": {
 				"name": "Burning Speed",
+				"description": "Enchantment Spell. For 7 seconds, you are set on fire and move 30...45% faster. When Burning Speed ends, all adjacent foes are set on fire for 3...9 seconds.",
+				"concise": "Enchantment Spell. (7 seconds.) You move 30...45% faster. You suffer from Burning (7 seconds). End effect: inflicts Burning condition (3...9 seconds) on adjacent foes."
+			},
+			"en-gww": {
+				"name": "Burning Speed",
 				"description": "For 7 seconds, you are set on fire and move 30...45% faster. When Burning Speed ends, all adjacent foes are set on fire for 3...9 seconds.",
 				"concise": "(7 seconds.) You move 30...45% faster. <gray>You suffer from Burning (7 seconds).</gray> End effect: inflicts Burning condition (3...9 seconds) on adjacent foes."
 			},
+			"es": {
+				"name": "Velocidad del fuego",
+				"description": "Conjuro con encantamiento. Durante 7 segundos, ardes y te mueves un 30...45% más rápido. Cuando termina Velocidad del fuego, todos los enemigos adyacentes arden durante 3...9 segundos.",
+				"concise": "Conjuro con encantamiento. (7 segundos.) Te mueves un 30...45% más rápido. Ardes (7 segundos). Efecto final: causa quemadura (3...9 segundos) a los enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Vélocité Incandescente",
+				"description": "Enchantement. Pendant 7 secondes, votre vitesse est augmentée et vous vous déplacez 30...45% plus vite. Lorsque la Vélocité Incandescente prend fin, tous les ennemis à proximité s'embrasent pendant 3...9 secondes.",
+				"concise": "Enchantement. (7 secondes.) Vous vous déplacez 30...45% plus vite. Vous souffrez de Brûlure (7 secondes).Effet final : inflige la Brûlure (3...9 secondes) aux ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Vélocité Incandescente",
 				"description": "Pendant 5 secondes, vous vous embrasez et vous déplacez 30...45% plus vite. Lorsque la Vélocité Incandescente prend fin, tous les ennemis adjacents s'embrasent pendant 3...9 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velocità Bruciante",
+				"description": "Incantesimo. Per 7 secondi, prendi fuoco e la tua velocità aumenta di un 30...45%. Al termine, tutti i nemici adiacenti prendono fuoco per 3...9 secondi.",
+				"concise": "Incantesimo. (Secondi: 7). Aumento della velocità di movimento: 30...45%. Soffri di Bruciatura (7 secondi). Effetto al termine: infligge Bruciatura (3...9 secondi) ai nemici adiacenti."
+			},
+			"jp": {
+				"name": "バーニング スピード",
+				"description": "強化スペル： 7 秒間、「火傷」状態になりますが移動速度が 30...45% 増加します。この効果が消失すると、隣接するすべての敵が 3...9 秒間「火傷」状態になります。",
+				"concise": "強化スペル： (7 秒) 移動速度が 30...45% 増加します。プレイヤーは「火傷」状態になります (7 秒)。終了効果： 隣接する敵を「火傷」状態にします (3...9 秒)。"
+			},
+			"kr": {
+				"name": "불타는 육체",
+				"description": "강화 마법. 대상 지정: 없음. 7초 동안 화상 상태가 되지만 이동 속도가 30...45% 빨라집니다. 효과가 끝나면 인접해 있던 모든 적은 3...9초 동안 화상 상태가 됩니다.",
+				"concise": "강화 마법. (7초) 이동 속도가 30...45% 빨라집니다. 화상을 입습니다.(7초). 종료 효과: 인접한 적들에게 화상을 입힙니다.(3...9초)"
+			},
+			"pl": {
+				"name": "Płonąca Szybkość",
+				"description": "Zaklęcie (czar). Przez 7 sek. płoniesz i poruszasz się 30...45% szybciej. Kiedy Płonąca Szybkość dobiegnie końca, wszyscy znajdujący się w bezpośrednim sąsiedztwie wrogowie zostają podpaleni na 3...9 sek.",
+				"concise": "Zaklęcie (czar). (7 sek.) Poruszasz się 30...45% szybciej. Płoniesz (przez 3...9 sek.). Efekt końcowy: podpala (3...9 sek.) przeciwników w bezpośrednim sąsiedztwie."
+			},
+			"ru": {
+				"name": "Burning Speed",
+				"description": "Заклинание-чары. В течение 7 сек вы горите и двигаетесь на 30...45% быстрее. Когда Burning Speed заканчивает свое действие, все окружающие противники загораются на 3...9 сек.",
+				"concise": "Заклинание-чары. (7 сек) Вы двигаетесь на 30...45% быстрее. Вы горите (7 сек). Эффект окончания: поджигает (3...9 сек) окружающих противников."
+			},
+			"bork": {
+				"name": "Boorneeng Speed",
+				"description": "Inchuntment Spell. Fur 7 secunds, yuoo aere-a set oon fure-a und mufe-a 30...45% faester. Vhee Boorneeng Speed inds, aell aedjaecent fues aere-a set oon fure-a fur 3...9 secunds.",
+				"concise": "Inchuntment Spell. (7 secunds.) Yuoo mufe-a 30...45% faester. Yuoo sooffffer frum Boorneeng (7 secunds). Ind iffffect: inffleects Boorneeng cundeeshun (3...9 secunds) oon aedjaecent fues."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 1,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 10,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "瘟疫传播",
+				"description": "咒文。 牺牲自己最大生命值的 10%，将一个「症状」转移给目标及所有邻近该目标的敌人。",
+				"concise": "咒文。 牺牲自己最大生命值的 10%，将一个「症状」转移给目标及所有邻近该目标的敌人。"
+			},
+			"cht": {
+				"name": "散播疫病",
+				"description": "咒文魔法： 犧牲自己最大體力的 10% 。轉移 1...3 個負面「病症」及該「病症」的剩餘持續時間至目標敵人及所有鄰近該目標的敵人身上。",
+				"concise": "咒文魔法： 犧牲自己最大體力的 10 % 。轉移一個負面「病症」到目標敵人及所有鄰近該目標的敵人身上。"
+			},
 			"de": {
+				"name": "Pest aussenden",
+				"description": "Zauber. Übertragt 1...3 negative Zustände und ihre verbleibende Dauer von Euch auf den Gegner und alle umstehenden Feinde.",
+				"concise": "Zauber. Übertragt 1...3 Zustände und ihre verbleibende Dauer von Euch auf den Gegner und alle umstehenden Feinde."
+			},
+			"de-guildwiki": {
 				"name": "Pest aussenden",
 				"description": "Überträgt 1...3 negative Zustände und ihre verbleibende Dauer von Euch auf den Gegner und alle umstehenden Feinde.",
 				"concise": "Überträgt 1...3 Zustände und ihre verbleibende Dauer von Euch auf den Gegner und alle umstehenden Feinde."
 			},
 			"en": {
 				"name": "Plague Sending",
+				"description": "Spell. Transfer 1...3 negative conditions and their remaining durations from yourself to target foe and all adjacent foes.",
+				"concise": "Spell. Transfer 1...3 conditions and their remaining durations from yourself to target foe and all adjacent foes."
+			},
+			"en-gww": {
+				"name": "Plague Sending",
 				"description": "Transfer 1...3 negative condition[s] and [its/their] remaining duration[s] from yourself to target foe and all adjacent foes.",
 				"concise": "Transfer 1...3 condition[s] and [its/their] remaining duration[s] from yourself to target foe and all adjacent foes."
 			},
+			"es": {
+				"name": "Envío pestilente",
+				"description": "Conjuro. Transfieres 1...3 condición[f:\"condiciones\"] negativas tuyas al enemigo objetivo y los adyacentes, que durarán el tiempo que le quedaba para terminar.",
+				"concise": "Conjuro. Transfieres 1...3 condición[f:\"condiciones\"] al enemigo objetivo y los adyacentes, que durarán el tiempo que les quedaba para terminar."
+			},
 			"fr": {
+				"name": "Propagation du fléau",
+				"description": "Sort. Vous transférez 1...3 conditions négatives avec leur durée restante à la cible ennemie et à tous les ennemis adjacents.",
+				"concise": "Sort. Vous transférez 1...3 conditions avec leur durée restante à la cible ennemie et à tous les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Propagation du fléau",
 				"description": "Vous transférez 1...3 conditions négatives et leur durée restante à la cible ennemie touchée et à tous les ennemis adjacents.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Trasmissione della Peste",
+				"description": "Magia. Trasferisci 1...3 condizione[i] negativa[e] e la loro durata residua da te all'obiettivo nemico e a tutti i nemici adiacenti.",
+				"concise": "Magia. Trasferisci 1...3 condizione[i] e la loro durata residua da te all'obiettivo nemico e a tutti i nemici adiacenti."
+			},
+			"jp": {
+				"name": "プレイグ センド",
+				"description": "スペル： 自分自身にかけられている 1...3 個の「状態異常」とその持続時間を、ターゲットした敵および隣接するすべての敵に転移します。",
+				"concise": "スペル： 自分自身にかけられている 1...3 個の「状態異常」とその持続時間を、ターゲットした敵および隣接するすべての敵に転移します。"
+			},
+			"kr": {
+				"name": "저주 전이",
+				"description": "마법. 대상 지정: 적. 자신이 걸린 상태이상 1...3개를 남은 지속 시간 만큼 대상과 그에 인접한 모든 적에게 옮깁니다.",
+				"concise": "마법. 자신이 걸린 상태이상 1...3개를 남은 시간만큼 대상과 그에 인접한 적들에게 옮깁니다."
+			},
+			"pl": {
+				"name": "Przesyłanie Plagi",
+				"description": "Czar. Przenosisz 1...3 przypadłości, wraz z pozostałym czasem działania, z siebie na wybranego przeciwnika i wszystkich przeciwników w bezpośredniej odległości.",
+				"concise": "Czar. Przenosisz 1...3 przypadłości, wraz z pozostałym czasem działania, z siebie na wybranego przeciwnika i wszystkich przeciwników w bezpośredniej odległości."
+			},
+			"ru": {
+				"name": "Plague Sending",
+				"description": "Заклинание. Вы переносите негативные состояния (1...3) с их оставшимся временем действия с себя на выбранного противника и всех окружающих его противников.",
+				"concise": "Заклинание. Переносит состояния (1...3) с их оставшимся временем действия с вас на выбранного противника и всех окружающих противников."
+			},
+			"bork": {
+				"name": "Plaegooe-a Sendeeng",
+				"description": "Spell. Trunsffer 1...3 negaeteefe-a cundeeshuns und their remaeeeneeng dooraeshuns frum yuoorselff tu taerget fue-a und aell aedjaecent fues.",
+				"concise": "Spell. Trunsffer 1...3 cundeeshuns und their remaeeeneeng dooraeshuns frum yuoorselff tu taerget fue-a und aell aedjaecent fues."
 			}
 		}
 	}

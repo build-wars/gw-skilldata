@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Glyph of Immolation",
+				"description": "雕文魔法。 For 15 seconds, your next 1...4 spells that target a foe also cause Burning for 1...4 seconds.",
+				"concise": "雕文魔法。 (15 seconds.) Your next 1...4 spells that target a foe also inflict Burning condition (1...4 seconds)."
+			},
+			"cht": {
+				"name": "獻祭符號",
+				"description": "符號： 持續 15 秒，你的下 1...4 個魔法技能同時將目標敵人遭受「著火」 1...4 秒。",
+				"concise": "符號： 持續 15 秒，你的下 1...4 個魔法技能將同時使目標敵人遭受「著火」 1...4 秒。"
+			},
 			"de": {
+				"name": "Glyphe der Aufopferung",
+				"description": "Glyphe. 15 Sekunde[n] lang führen Eure nächsten 1...4 Zauber, die einen Gegner anvisieren, außerdem 1...4 Sekunde[n] lang zu Brennen.",
+				"concise": "Glyphe. (15 Sekunde[n].) Eure nächsten 1...4 auf Feinde gerichteten Zauber verursachen zusätzlich den Zustand Brennen (1...4 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Glyphe der Aufopferung",
 				"description": "15 Sekunden lang führen Eure nächsten 1...4 Zauber, die einen Gegner anvisieren, außerdem 1...4 Sekunden lang zu Brennen.",
 				"concise": "15 Sekunden: Eure nächsten 1...4 auf Feinde gerichteten Zauber verursachen zusätzlich 1...4 Sekunden lang den Zustand Brennen."
 			},
 			"en": {
 				"name": "Glyph of Immolation",
+				"description": "Glyph. For 15 seconds, your next 1...4 spells that target a foe also cause Burning for 1...4 seconds.",
+				"concise": "Glyph. (15 seconds.) Your next 1...4 spells that target a foe also inflict Burning condition (1...4 seconds)."
+			},
+			"en-gww": {
+				"name": "Glyph of Immolation",
 				"description": "For 15 seconds, your next 1...4 spell[s] that target[s] a foe also cause[s] Burning for 1...4 second[s].",
 				"concise": "(15 seconds.) Your next 1...4 spell[s] that target[s] a foe also inflict[s] Burning condition (1...4 second[s])."
 			},
+			"es": {
+				"name": "Glifo de inmolación",
+				"description": "Glifo. Durante 15 segundos, tus siguientes conjuros lanzados contra un enemigo (1...4) también causan quemadura durante 1...4 segundos.",
+				"concise": "Glifo. (15 segundos). Tus siguientes 1...4 conjuro[\"conjuros\"] lanzados contra enemigos también causan quemadura (1...4 segundos)."
+			},
 			"fr": {
+				"name": "Glyphe d'immolation",
+				"description": "Glyphe. Pendant 15 secondes, 1...4 prochains sorts qui visent un ennemi provoquent la Brûlure pendant 1...4 secondes.",
+				"concise": "Glyphe. (15 secondes.) 1...4 de vos prochains sorts visant un ennemi provoquent la Brûlure (1...4 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Glyphe d'immolation",
 				"description": "Pendant 15 secondes, 1...4 prochain(s) sorts qui vise un ennemi provoque(nt) la Brûlure pendant 1...4 seconde(s).",
 				"concise": "(15 secondes.) Vos prochains sorts (1...4 sort(s)) qui visent un ennemi provoque(nt) également la Brûlure (1...4 seconde(s))."
+			},
+			"it": {
+				"name": "Glifo dell'Immolazione",
+				"description": "Glifo. Per 15 secondi, con 1...4 delle tue magie successive dirette contro un obiettivo nemico provochi anche Bruciatura per 1...4 secondi.",
+				"concise": "Glifo. (Secondi: 15.) Condizione inflitta da 1...4 delle tue magie successive dirette contro un obiettivo nemico: Bruciatura (1...4 secondi)."
+			},
+			"jp": {
+				"name": "イモレイト グリフ",
+				"description": "グリフ： 15 秒間、次に敵に対して詠唱する 1...4 個のスペルは、通常の効果に加えて 1...4 秒間「火傷」状態にします。",
+				"concise": "グリフ： (15 秒) 次に敵に対して使用する 1...4 個のスペルは通常の効果に加え、敵を「火傷」状態にします (1...4 秒)。"
+			},
+			"kr": {
+				"name": "제물의 수인",
+				"description": "수인. 대상 지정: 없음. 15초 동안 마법의 대상이 된 적은 1...4초간 화상을 입습니다. 처음 1...4번의 마법에만 효과가 있습니다.",
+				"concise": "수인. (15초) 마법의 대상이 된 적에게 화상을 입힙니다.(1...4초) 처음 1...4번의 마법에 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Glif Podpalenia",
+				"description": "Glif. Przez 15 sek. twoje następne czary w liczbie 1...4, których celem jest przeciwnik, na 1...4 sek. wywołują dodatkowo płonięcie.",
+				"concise": "Glif. (15 sek.) Twoje następne czary w liczbie 1...4, których celem jest przeciwnik, wywołują dodatkowo płonięcie (1...4 sek.)."
+			},
+			"ru": {
+				"name": "Glyph of Immolation",
+				"description": "Глиф. В течение 15 сек следующие ваши заклинания (1...4), направленные на противника, также подожгут его на 1...4 сек.",
+				"concise": "Глиф. (15 сек) Каждое из ваших следующих заклинаний (1...4), направленных на противника, также подожжет врага (1...4 сек)."
+			},
+			"bork": {
+				"name": "Glyph ooff Immulaeshun",
+				"description": "Glyph. Fur 15 secunds, yuoor next 1...4 spells thaet target a fue-a aelsu cause Boorneeng fur 1...4 secunds.",
+				"concise": "Glyph. (15 secunds.) Yuoor next 1...4 spells thaet target a fue-a aelsu inflict Boorneeng cundeeshun (1...4 secunds)."
 			}
 		}
 	}

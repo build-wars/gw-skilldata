@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "哀伤纹章",
+				"description": "纹章。 对目标敌人造成15...75点伤害。如果目标敌人附近有尸骸或是死去的宠物，那么此技能将立刻可以再次使用。",
+				"concise": "纹章。 对目标敌人造成15...75点伤害。如果目标敌人附近有尸骸或是死去的宠物，那么此技能将立刻可以再次使用。"
+			},
+			"cht": {
+				"name": "哀傷紋章",
+				"description": "紋章： 對目標敵人造成 15...75 傷害。若該目標附近有屍體或死亡的寵物，則此技能立即回復。",
+				"concise": "紋章： 對目標敵人造成 15...75 傷害。若該目標附近有屍體或死亡的寵物，則此技能立即回復。"
+			},
 			"de": {
+				"name": "Siegel des Kummers",
+				"description": "Siegel. Der Gegner erleidet 15...75 Punkt[e] Schaden. Wenn dieser Gegner sich in der Nähe eines Kadavers befindet oder einen toten Tiergefährten hat, wird diese Fertigkeit sofort wieder aufgeladen.",
+				"concise": "Siegel. Richtet 15...75 Punkt[e] Schaden an. Lädt sich sofort wieder auf, falls der Gegner in der Nähe eines Kadavers ist oder einen toten Tiergefährten hat."
+			},
+			"de-guildwiki": {
 				"name": "Siegel des Kummers",
 				"description": "Der Gegner erleidet 15...75 Punkte Schaden. Wenn dieser Gegner sich in der Nähe eines Kadavers befindet oder einen toten Tiergefährten hat, wird diese Fertigkeit sofort aufgeladen.",
 				"concise": "Richtet 15...75 Punkte Schaden an. Lädt sich sofort wieder auf, falls der Gegner in der Nähe eines Kadavers ist oder einen toten Tiergefährten hat."
 			},
 			"en": {
 				"name": "Signet of Sorrow",
+				"description": "Signet. Target foe takes 15...75 damage. If target foe is near a corpse or has a dead pet, this skill recharges instantly.",
+				"concise": "Signet. Deals 15...75 damage. Recharges instantly if target foe is near a corpse or has a dead pet."
+			},
+			"en-gww": {
+				"name": "Signet of Sorrow",
 				"description": "Target foe takes 15...75 damage. If target foe is near a corpse or has a dead pet, this skill recharges instantly.",
 				"concise": "Deals 15...75 damage. Recharges instantly if target foe is near a corpse or has a dead pet."
 			},
+			"es": {
+				"name": "Sello del pesar",
+				"description": "Sello. Haces 15...75 de daño al enemigo objetivo. Si está cerca de un cadáver o tiene una mascota muerta, esta habilidad se recargará al instante.",
+				"concise": "Sello. Causa 15...75 de daño. Recarga instantánea si el enemigo objetivo está cerca de un cadáver o tiene una mascota muerta."
+			},
 			"fr": {
+				"name": "Sceau du chagrin",
+				"description": "Sceau. La cible ennemie subit 15...75 points de dégâts. Si cette cible ennemie se trouve près d'un cadavre ou si son familier est mort, cette compétence se recharge instantanément.",
+				"concise": "Sceau. Inflige 15...75 points de dégâts. Rechargement instantané si l'ennemi visé est près d'un cadavre ou si son familier est mort."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du chagrin",
 				"description": "La cible ennemie subit 15...75 points de dégâts. Si cette cible ennemie se trouve près d'un cadavre ou si son familier est mort, cette compétence se recharge instantanément.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo del Rimpianto",
+				"description": "Sigillo. L'obiettivo nemico subisce 15...75 danno[i]; se si trova vicino ad un cadavere o la sua mascotte è morta, l'abilità si ricarica all'istante.",
+				"concise": "Sigillo. Danni inferti: 15...75. Si ricarica all'istante se l'obiettivo nemico si trova vicino ad un cadavere o ha una mascotte morta."
+			},
+			"jp": {
+				"name": "ソロー シグネット",
+				"description": "シグネット： ターゲットした敵に 15...75 のダメージを与えます。ターゲットした敵が死体のそばにいる場合、またはペットが戦闘不能な場合、このスキルはすぐに再使用可能になります。",
+				"concise": "シグネット： 15...75 のダメージを与えます。ターゲットした敵が死体の周囲にいるかペットが戦闘不能な場合、すぐに再使用することができます。"
+			},
+			"kr": {
+				"name": "애도의 인장",
+				"description": "인장. 대상 지정: 적. 대상은 15...75의 대미지를 받습니다. 대상 부근에 시체나 죽은 펫이 있으면 이 스킬은 즉시 재활성됩니다.",
+				"concise": "인장. 15...75의 대미지를 줍니다. 대상 부근에 시체나 죽은 펫이 있으면 이 스킬은 즉시 재활성됩니다."
+			},
+			"pl": {
+				"name": "Sygnet Smutku",
+				"description": "Sygnet. Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń. Jeżeli wybrany przeciwnik znajduje się w pobliżu ciała lub jego zwierzak jest martwy, to umiejętność natychmiast się odnowi.",
+				"concise": "Sygnet. Zadaje 15...75 pkt. obrażeń. Natychmiast się odnawia, jeżeli wybrany przeciwnik znajduje się w pobliżu ciała lub jego zwierzęcy towarzysz jest martwy."
+			},
+			"ru": {
+				"name": "Signet of Sorrow",
+				"description": "Печать. Выбранный противник получает 15...75 ед. урона. Если этот противник находится поблизости от трупа или если его животное мертво, это умение немедленно перезаряжается.",
+				"concise": "Печать. Наносит 15...75 ед. урона. Немедленно перезаряжается, если выбранный противник находится поблизости от трупа, или если его питомец мертв."
+			},
+			"bork": {
+				"name": "Seegnet ooff Surroo",
+				"description": "Seegnet. Taerget fue-a taekes 15...75 daemaege-a. Iff taerget fue-a is neaer a curpse-a oor haes a deaed pet, thees skeell rechaerges instuntly.",
+				"concise": "Seegnet. Deaels 15...75 daemaege-a. Rechaerges instuntly iff taerget fue-a is neaer a curpse-a oor haes a deaed pet."
 			}
 		}
 	}

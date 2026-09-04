@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "剧毒寒流",
+				"description": "精英咒文。 对目标敌人造成15...75点冰冻伤害。如果目标敌人正受到「增益魔法」或是「负面魔法」的效果影响，那么他将遭受「中毒」症状10...25秒。",
+				"concise": "精英咒文。 对目标敌人造成15...75点冰冻伤害。如果目标敌人正受到「增益魔法」或是「负面魔法」的效果影响，那么他将遭受「中毒」症状10...25秒。"
+			},
+			"cht": {
+				"name": "劇毒嚴寒",
+				"description": "精英咒文魔法： 對目標敵人造成 15...75 冰凍傷害。若該目標正受到「降咒」或「加持」，則使其遭受「中毒」病症 10...25 秒。",
+				"concise": "精英咒文魔法： 對目標敵人造成 15...75 冰凍傷害。若該目標正受到「降咒」或「加持」，則使其遭受「中毒」病症 10...25 秒。"
+			},
 			"de": {
+				"name": "Toxische Kälte",
+				"description": "Elite-Zauber. Der Gegner erleidet 15...75 Punkt[e] Kälteschaden. Falls er mit einer Verhexung oder Verzauberung belegt ist, leidet er 10...25 Sekunde[n] lang an einer Vergiftung.",
+				"concise": "Elite-Zauber. Richtet 15...75 Punkt[e] Kälteschaden an. Verursacht Zustand Gift (10...25 Sekunde[n]), falls der Gegner verhext oder verzaubert ist."
+			},
+			"de-guildwiki": {
 				"name": "Toxische Kälte",
 				"description": "Der Gegner erleidet 15...75 Punkte Kälteschaden. Falls er mit einer Verhexung oder Verzauberung belegt ist, leidet er 10...25 Sekunden lang an einer Vergiftung.",
 				"concise": "Richtet 15...75 Punkte Kälteschaden an. Verursacht Zustand Gift (10...25 Sekunden), falls der Gegner verhext oder verzaubert ist."
 			},
 			"en": {
 				"name": "Toxic Chill",
+				"description": "Elite Spell. Target foe is struck for 15...75 cold damage. If that foe is under the effects of a hex or enchantment, that foe becomes Poisoned for 10...25 seconds.",
+				"concise": "Elite Spell. Deals 15...75 cold damage. Inflicts Poisoned condition (10...25 seconds) if target foe is hexed or enchanted."
+			},
+			"en-gww": {
+				"name": "Toxic Chill",
 				"description": "Target foe is struck for 15...75 cold damage. If that foe is under the effects of a hex or enchantment, that foe becomes Poisoned for 10...25 seconds.",
 				"concise": "Deals 15...75 cold damage. Inflicts Poisoned condition (10...25 seconds) if target foe is hexed or enchanted."
 			},
+			"es": {
+				"name": "Frío tóxico",
+				"description": "Conjuro de élite. El enemigo objetivo recibe 15...75 de daño frío. Si está bajo los efectos de un maleficio o de un encantamiento, estará envenenado durante 10...25 segundos.",
+				"concise": "Conjuro de élite. Hace 15...75 de daño frío. Causa envenenamiento (10...25 segundos) si el enemigo objetivo tiene un maleficio o un encantamiento."
+			},
 			"fr": {
+				"name": "Frisson toxique",
+				"description": "Sort d'élite. La cible ennemie subit 15...75 points de dégâts du froid. S'il est sous les effets d'un enchantement ou d'un maléfice, cet ennemi souffre d'Empoisonnement pendant 10...25 secondes.",
+				"concise": "Sort d'élite. Inflige 15...75 points de dégâts du froid. Inflige l'Empoisonnement (10...25 secondes) si l'ennemi visé est affecté par un maléfice ou un enchantement."
+			},
+			"fr-gwiki": {
 				"name": "Frisson toxique",
 				"description": "La cible ennemie subit 15...75 points de dégâts du froid. S'il est sous les effets d'un enchantement ou d'un maléfice, cet ennemi souffre d'Empoisonnement pendant 10...25 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Freddo Tossico",
+				"description": "Magia d'Élite. L'obiettivo nemico subisce 15...75 danno[i] da freddo; se è affetto da fattura o incantesimo viene avvelenato per 10...25 secondo[i].",
+				"concise": "Magia d'Élite. Danni da freddo inferti: 15...75. Condizione inflitta se l'obiettivo nemico è sotto fattura o incantesimo: Veleno (10...25 secondo[i])."
+			},
+			"jp": {
+				"name": "トキシック チル",
+				"description": "エリート スペル： ターゲットした敵に 15...75 のコールド ダメージを与えます。その敵に強化スペルか弱体化スペルががかかっている場合、その敵は 10...25 秒間「毒」状態になります。",
+				"concise": "エリート スペル： 15...75 のコールド ダメージを与えます。ターゲットした敵に弱体化スペルまたは強化スペルがかけられている場合、「毒」状態にします (10...25 秒) 。"
+			},
+			"kr": {
+				"name": "독성 냉기",
+				"description": "엘리트 마법. 대상 지정: 적. 대상에게 15...75의 냉기 대미지를 줍니다. 대상에 약화 마법이나 강화 마법이 걸려 있으면 대상은 10...25초 동안 중독 상태가 됩니다.",
+				"concise": "엘리트 마법. 15...75의 냉기 대미지를 줍니다. 대상에 약화 마법이나 강화 마법이 걸려 있으면 중독시킵니다.(10...25초)"
+			},
+			"pl": {
+				"name": "Toksyczny Chłód",
+				"description": "Elitarny czar. Wybrany przeciwnik otrzymuje 15...75 pkt. obrażeń od zimna. Jeżeli wybrany przeciwnik jest pod wpływem klątwy lub zaklęcia, to zostaje zatruty na 10...25 sek.",
+				"concise": "Elitarny czar. Zadaje 15...75 pkt. obrażeń od zimna. Wywołuje przypadłość zatrucie (10...25 sek.), jeżeli wybrany przeciwnik jest pod działaniem klątwy lub przypadłości."
+			},
+			"ru": {
+				"name": "Toxic Chill",
+				"description": "Элитное заклинание. Выбранный противник получает 15...75 ед. урона силой холода. Если на этого противника наложено какое-либо проклятье или чары, он будет отравлен на 10...25 сек.",
+				"concise": "Элитное заклинание. Наносит 15...75 ед. урона силой холода. Вызывает отравление (10...25 сек), если на выбранного противника наложены чары или проклятье."
+			},
+			"bork": {
+				"name": "Tuxeec Cheell",
+				"description": "Ileete-a Spell. Taerget fue-a is stroock fur 15...75 culd daemaege-a. Iff thaet fue-a is under zee iffffects ooff a hex oor inchuntment, thaet fue-a becumes Pueesuned fur 10...25 secunds.",
+				"concise": "Ileete-a Spell. Deaels 15...75 culd daemaege-a. Inffleects Pueesuned cundeeshun (10...25 secunds) iff taerget fue-a is hexed oor inchunted."
 			}
 		}
 	}

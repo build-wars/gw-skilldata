@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 3,
+		"aftercast": 0.75,
 		"recharge": 15,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 10,
 		"lang": {
+			"chs": {
+				"name": "地震",
+				"description": "咒文。 在目标敌人脚下引发一场地震，击倒附近所有的敌人，并对他们造成26...100点地系伤害。此法术会引发施法者的「疲劳」状态。",
+				"concise": "咒文。 引发一场「地震」，使所有邻近的敌人受到 26...100点 地系伤害，同时被击倒。此法术会引发施法者的「疲劳」状态。"
+			},
+			"cht": {
+				"name": "地震",
+				"description": "咒文魔法： 在目標敵人處引發地震。使接近地震發生地點的所有敵人受到 26...100 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。",
+				"concise": "咒文魔法： 在目標敵人處引發地震。使接近地震發生地點的所有敵人受到 26...100 土系傷害並且被擊倒。此魔法會造成施法者精疲力竭。"
+			},
 			"de": {
+				"name": "Erdbeben",
+				"description": "Zauber. An der Position des Gegners wird ein Erdbeben erzeugt. Alle Gegner in diesem Gebiet werden zu Boden geworfen und erleiden 26...100 Punkt[e] Erdschaden.",
+				"concise": "Zauber. Richtet 26...100 Punkt[e] Erdschaden an. Trifft auch Feinde in der Nähe des Ziels. Wirft zu Boden."
+			},
+			"de-guildwiki": {
 				"name": "Erdbeben",
 				"description": "An der Position des Gegners wird ein Erdbeben erzeugt. Alle Gegner in diesem Gebiet werden zu Boden geworfen und erleiden 26...100 Punkte Erdschaden.",
 				"concise": "Richtet 26...100 Punkte Erdschaden an. Tifft auch Feinde in der Nähe des Ziels. Wirft zu Boden."
 			},
 			"en": {
 				"name": "Earthquake",
+				"description": "Spell. You invoke an Earthquake at target foe's location. All foes near this location are knocked down and are struck for 26...100 earth damage.",
+				"concise": "Spell. Deals 26...100 earth damage. Also hits foes near target. Causes knock-down."
+			},
+			"en-gww": {
+				"name": "Earthquake",
 				"description": "You invoke an Earthquake at target foe's location. All foes near this location are knocked down and are struck for 26...100 earth damage.",
 				"concise": "Deals 26...100 earth damage. Also hits foes near target. Causes knock-down."
 			},
+			"es": {
+				"name": "Terremoto",
+				"description": "Conjuro. Creas un Terremoto en la ubicación del enemigo objetivo. Todos los enemigos cercanos a esta ubicación son derribados y reciben 26...100 de daño de tierra.",
+				"concise": "Conjuro. Causa 26...100 de daño de tierra. También afecta a los enemigos cercanos al objetivo. Causa derribo."
+			},
 			"fr": {
+				"name": "Séisme",
+				"description": "Sort. Vous invoquez un séisme sur la position de l'ennemi visé. Tous les ennemis près de cette position sont renversés et subissent 26...100 points de dégâts de la terre.",
+				"concise": "Sort. Inflige 26...100 points de dégâts de la terre. Affecte également les ennemis près de la cible. Renverse."
+			},
+			"fr-gwiki": {
 				"name": "Séisme",
 				"description": "Vous invoquez un séisme sur la position de l'ennemi visé. Tous les ennemis près de cette position sont assommés et subissent 26...100 points de dégâts de la terre. Ce sort entraîne l'épuisement.",
 				"concise": "Inflige 26...100 points de dégâts de la terre. Affecte également les ennemis près de la cible. Attaque assomante. Vous souffrez d'Epuisement."
+			},
+			"it": {
+				"name": "Terremoto",
+				"description": "Magia. Evochi un Terremoto nella posizione dell'obiettivo nemico. Tutti i nemici nei dintorni di questa posizione vengono abbattuti e subiscono 26...100 danni da terra.",
+				"concise": "Magia. Infligge 26...100 danni da terra. Colpisce anche i nemici nelle vicinanze dell'obiettivo. Provoca abbattimento."
+			},
+			"jp": {
+				"name": "アースクエイク",
+				"description": "スペル： ターゲットした敵の場所に地震を起こします。その周囲にいるすべての敵は転倒し、26...100 のアース ダメージを受けます。",
+				"concise": "スペル： ターゲットした敵および周囲にいる敵に 26...100 のアース ダメージを与えて転倒させます。"
+			},
+			"kr": {
+				"name": "지진",
+				"description": "마법. 대상 지정: 적. 대상이 있는 위치에 강력한 지진을 일으킵니다. 그 부근의 모든 적은 바닥에 넘어지고, 26...100의 대지 대미지를 입습니다.",
+				"concise": "마법. 대상 위치 부근의 적들에게 26...100의 대지 대미지를 주고, 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Trzęsienie Ziemi",
+				"description": "Czar. W miejscu, gdzie znajduje się wybrany przeciwnik wywołujesz Trzęsienie Ziemi. Wszyscy przeciwnicy w pobliżu tego miejsca zostają powaleni i otrzymują po 26...100 pkt. obrażeń od ziemi. Ten czar powoduje wyczerpanie.",
+				"concise": "Czar. Zadaje 26...100 pkt. obrażeń od ziemi. Trafia także przeciwników w pobliżu celu. Powoduje powalenie. Powoduje u ciebie wyczerpanie."
+			},
+			"ru": {
+				"name": "Earthquake",
+				"description": "Заклинание. Вы вызываете землетрясение в точке нахождения выбранного противника. Все противники, находящиеся поблизости от этого места, будут сбиты с ног и получат 26...100 ед. урона силой земли.",
+				"concise": "Заклинание. Наносит 26...100 ед. урона силой земли. Также поражает противников поблизости от цели. Сбивает с ног."
+			},
+			"bork": {
+				"name": "Iaerthqooaeke-a",
+				"description": "Spell. Yuoo infuke-a un Iaerthqooaeke-a aet taerget fue-a's lucaeshun. Aell fues neaer thees lucaeshun aere-a knucked doon und aere-a stroock fur 26...100 iaert daemaege-a.",
+				"concise": "Spell. Deaels 26...100 iaert daemaege-a. Aelsu heets fues neaer taerget. Cooses knuck-doon."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "信仰专注",
+				"description": "姿态。 在5...20秒之内，你将无法被打断，但是每当敌人对你使用打断技能时，将会使你失去一项「增益魔法」。",
+				"concise": "姿态。 在5...20秒之内，你将无法被打断，但是每当敌人对你使用打断技能时，将会使你失去一项「增益魔法」。"
+			},
+			"cht": {
+				"name": "神性專注",
+				"description": "態勢： 持續 5...20 秒，你的動作不會被中斷，但每次防止中斷，都會使你失去一項神喚使加持，否則此態勢將終止。",
+				"concise": "態勢： 持續 5...20 秒，你的動作不會被中斷，但每次防止中斷，都會使你失去一項神喚使加持，否則此態勢將終止。"
+			},
 			"de": {
+				"name": "Fromme Konzentration",
+				"description": "Haltung. Ihr könnt 5...20 Sekunde[n] lang nicht unterbrochen werden, aber jedes Mal, wenn Ihr normalerweise unterbrochen würdet, verliert Ihr 1 Derwisch-Verzauberung oder Fromme Konzentration endet.",
+				"concise": "Haltung. (5...20 Sekunde[n].) Verhindert Unterbrechungen. Verhinderungskosten: Ihr verliert 1 Derwisch-Verzauberung oder Fromme Konzentration endet."
+			},
+			"de-guildwiki": {
 				"name": "Fromme Konzentration",
 				"description": "Ihr könnt 5...20 Sekunden lang nicht unterbrochen werden, aber jedes Mal, wenn Ihr normalerweise unterbrochen würdet, verliert Ihr 1 Derwisch-Verzauberung oder Fromme Konzentration endet.",
 				"concise": "(5...20 Sekunden.) Verhindert Unterbrechungen. <gray>Verhinderungskosten: Ihr verliert 1 Derwisch-Verzauberung oder Fromme Konzentration endet.</gray>"
 			},
 			"en": {
 				"name": "Pious Concentration",
+				"description": "Stance. For 5...20 seconds, you cannot be interrupted, but each time you would have been interrupted, you lose 1 Dervish enchantment or Pious Concentration ends.",
+				"concise": "Stance. (5...20 seconds.) Prevents interrupts. Prevention cost: you lose one Dervish enchantment or Pious Concentration ends."
+			},
+			"en-gww": {
+				"name": "Pious Concentration",
 				"description": "For 5...20 seconds, you cannot be interrupted, but each time you would have been interrupted, you lose 1 Dervish enchantment or Pious Concentration ends.",
 				"concise": "(5...20 seconds.) Prevents interrupts. <gray>Prevention cost: you lose one Dervish enchantment or Pious Concentration ends.</gray>"
 			},
+			"es": {
+				"name": "Concentración piadosa",
+				"description": "Actitud. Durante 5...20 segundos no podrás ser interrumpido, pero cada vez que intenten interrumpirte, perderás 1 encantamiento de Derviche o la Concentración piadosa finalizará.",
+				"concise": "Actitud. (5...20 segundos). Evita que puedan interrumpirte. Coste por defensa: pierdes un encantamiento de Derviche o la Concentración piadosa finaliza."
+			},
 			"fr": {
+				"name": "Concentration pieuse",
+				"description": "Pose de combat. Pendant 5...20 secondes, vous ne pouvez pas être interrompu[f:\"interrompue\"], mais pour chaque tentative d'interruption contre vous, soit vous perdez 1 enchantement de Derviche, soit Concentration pieuse prend fin.",
+				"concise": "Pose de combat. (5...20 secondes.) Evite les interruptions. Contrecoup : soit vous perdez 1 enchantement de Derviche, soit Concentration pieuse prend fin."
+			},
+			"fr-gwiki": {
 				"name": "Concentration pieuse",
 				"description": "Pendant 5...20 secondes, vous ne pouvez pas être interrompu, mais pour chaque tentative d'interruption contre vous, soit vous perdez 1 enchantement, soit Concentration pieuse prend fin.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Concentrazione Pia",
+				"description": "Posizione. Per 5...20 secondi diventa impossibile interromperti, ma per ogni tentativo di interruzione contro di te perderai 1 Incantesimo del Derviscio, oppure la Concentrazione Pia terminerà.",
+				"concise": "Posizione. (Secondi: 5...20). Previene l'interruzione. Costo della prevenzione: perdi un Incantesimo del Derviscio o Concentrazione Pia termina."
+			},
+			"jp": {
+				"name": "パイアス コンセントレーション",
+				"description": "スタンス： 5...20 秒間、アクションを中断されません。ただし、中断を回避するたびにかけられている強化スペルが1個解除されるか、この効果が消失します。",
+				"concise": "スタンス： (5...20 秒)アクションが中断されません。回避効果： かけられているダルウィーシュの強化スペルが1個解除されるか、この効果が消失します。"
+			},
+			"kr": {
+				"name": "경건한 집중",
+				"description": "자세. 대상 지정: 없음. 5...20초 동안 동작을 방해받아야 할 때 동작을 방해받지 않습니다. 대신 그럴 때마다 강화 마법 하나를 잃거나 이 자세가 끝납니다.",
+				"concise": "자세. (5...20초) 동작 방해를 예방합니다. 예방 대가: 강화 마법 하나를 잃거나 이 자세가 끝납니다."
+			},
+			"pl": {
+				"name": "Nabożna Koncentracja",
+				"description": "Postawa. Przez 5...20 sek., twoje czynności nie mogą być przerywane, ale za każdym razem, gdy miałyby być przerwane, tracisz 1 zaklęcie derwisza albo Nabożna Koncentracja przestanie działać.",
+				"concise": "Postawa. (5...20 sek.) Zapobiega przerwaniom. Koszt zapobieżenia: Tracisz jedno zaklęcie derwisza lub Nabożna Koncentracja dobiega końca."
+			},
+			"ru": {
+				"name": "Pious Concentration",
+				"description": "Стойка. В течение 5...20 сек вас нельзя прервать, но каждый раз, когда вас могли бы прервать, вы теряете 1 чары профессии Dervish, иначе действие Pious Concentration закончится.",
+				"concise": "Стойка. (5...20 сек) Предотвращает прерывания. Цена предотвращения: вы теряете одни чары профессии Dervish, иначе Pious Concentration заканчивается."
+			},
+			"bork": {
+				"name": "Peeuoos Cuncentraeshun",
+				"description": "Stunce-a. Fur 5...20 secunds, yuoo cunnut be-a interroopted, boot iaech teeme-a yuoo vuoold haefe-a beee interroopted, yuoo luse-a 1 Derfeesh inchuntment oor Peeuoos Cuncentraeshun inds.",
+				"concise": "Stunce-a. (5...20 secunds.) Prefents interroopts. Prefenshun cust: yuoo luse-a oone-a Derfeesh inchuntment oor Peeuoos Cuncentraeshun inds."
 			}
 		}
 	}

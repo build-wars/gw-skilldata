@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "快刀斩",
+				"description": "斧术。 命中时，对目标敌人造成1...20点额外伤害。若此技能被「格挡」，则使该目标遭受20秒的「重伤」症状，同时受到1...20点额外伤害。",
+				"concise": "斧术。 命中时，对目标敌人造成1...20点额外伤害。若此技能被「格挡」，则使该目标遭受20秒的「重伤」症状，同时受到1...20点额外伤害。"
+			},
+			"cht": {
+				"name": "快砍",
+				"description": "斧術攻擊技能： 命中時對目標造成 1...20 額外傷害。若此技能遭到目標「格擋」，則該目標遭受「重傷」病症 20 秒並受到 1...20 額外傷害。",
+				"concise": "斧術攻擊技能： 命中時對目標造成 1...20 額外傷害。若此技能遭到目標「格擋」，則該目標遭受「重傷」病症 20 秒並受到 1...20 額外傷害。"
+			},
 			"de": {
+				"name": "Schneller Hieb",
+				"description": "Axtangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr +1...20 Punkt[e] Schaden zu. Wird Schneller Hieb geblockt, erleidet Euer Ziel 1...20 Punkt[e] Schaden und erleidet 20 Sekunden lang eine Tiefe Wunde.",
+				"concise": "Axtangriff. Richtet +1...20 Punkt[e] Schaden an. Richtet 1...20 Punkt[e] Schaden an und verursacht Zustand Tiefe Wunde (20 Sekunden), falls geblockt."
+			},
+			"de-guildwiki": {
 				"name": "Schneller Hieb",
 				"description": "Wenn dieser Angriff trifft, fügt Ihr 1...20 Punkte zusätzlichen Schaden zu. Wird Schneller Hieb geblockt, erleidet Euer Ziel 20 Sekunden lang eine Tiefe Wunde und 1...20 Punkte zusätzlichen Schaden.",
 				"concise": "Richtet +1...20 Punkte Schaden an. Richtet 1...20 Punkte Schaden an und verursacht Zustand Tiefe Wunde (20 Sekunden), falls geblockt."
 			},
 			"en": {
 				"name": "Swift Chop",
+				"description": "Axe Attack. If this attack hits, you strike for +1...20 damage. If Swift Chop is blocked, target foe takes 1...20 damage and suffers a Deep Wound for 20 seconds.",
+				"concise": "Axe Attack. Deals +1...20 damage. Deals 1...20 damage and inflicts Deep Wound condition (20 seconds) if blocked."
+			},
+			"en-gww": {
+				"name": "Swift Chop",
 				"description": "If this attack hits, you strike for +1...20 damage. If Swift Chop is blocked, target foe takes 1...20 damage and suffers a Deep Wound for 20 seconds.",
 				"concise": "Deals +1...20 damage. Deals 1...20 damage and inflicts Deep Wound condition (20 seconds) if blocked."
 			},
+			"es": {
+				"name": "Hachazo rápido",
+				"description": "Ataque con hacha. Este ataque hace +1...20 de daño si impacta. Si se bloquea Hachazo rápido, el enemigo objetivo recibe 1...20 de daño y sufre una herida grave durante 20 segundos.",
+				"concise": "Ataque con hacha. Hace +1...20 de daño. 1...20 de daño y causa herida grave (20 segundos) si se bloquea."
+			},
 			"fr": {
+				"name": "Coup rapide",
+				"description": "Attaque à la hache. Cette attaque inflige +1...20 points de dégâts si elle réussit. En cas de blocage de Coup rapide, l'ennemi visé subit 1...20 points de dégâts et Blessure profonde pendant 20 secondes.",
+				"concise": "Attaque à la hache. Inflige +1...20 points de dégâts. Inflige 1...20 points de dégâts et la Blessure profonde (20 secondes) si l'ennemi réussit à bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Coup rapide",
 				"description": "Si cette attaque réussit, vous infligez +1...20 point(s) de dégâts. Si le Coup rapide est bloqué, la cible souffre d'une blessure profonde pendant 20 secondes et subit 1...20 point(s) de dégâts supplémentaire.",
 				"concise": "Inflige + 1...20 points de dégâts. Inflige 1...20 points de dégâts et la Blessure profonde (20 secondes) si l'ennemi réussit à bloquer."
+			},
+			"it": {
+				"name": "Fendente Rapido",
+				"description": "Attacco con Ascia. Se l'attacco va a segno, infliggi +1...20 di danni. Se il Fendente Rapido viene bloccato, l'obiettivo nemico subisce 1...20 danni ed è affetto da Ferita Profonda per 20 secondi.",
+				"concise": "Attacco con Ascia. Danni inferti: +1...20. Assesta 1...20 danno[i] e provoca Ferita Profonda (20 secondi) se è bloccato."
+			},
+			"jp": {
+				"name": "スウィフト チョップ",
+				"description": "アックス アタック： この攻撃が成功すると 1...20 の追加ダメージを与えます。この攻撃がブロックされた場合、ターゲットした敵に 1...20 のダメージを与え、20秒間「重傷」状態にします。",
+				"concise": "アックス アタック： 1...20 の追加ダメージを与えます。ブロックされた場合、1...20 のダメージを与えて「重傷」状態にします (20秒)。"
+			},
+			"kr": {
+				"name": "신속한 일격",
+				"description": "도끼 공격. 대상 지정: 적. 대상은 1...20의 대미지를 추가로 입습니다. 대상이 공격을 막으면 대상은 20초 동안 중상 상태가 되고, 1...20의 대미지를 입습니다.",
+				"concise": "도끼 공격. 1...20의 대미지를 추가로 줍니다. 공격을 막으면 1...20의 대미지를 추가로 주고, 중상을 입힙니다.(20초)"
+			},
+			"pl": {
+				"name": "Szybkie Cięcie",
+				"description": "Atak toporem. Jeśli ten atak trafi swój cel, zadajesz +1...20 obrażeń. Jeśli Szybkie Cięcie zostanie zablokowane, cel otrzymuje 1...20 pkt. obrażeń i głęboką ranę przez 20 sek.",
+				"concise": "Atak toporem. Zadaje +1...20 pkt. obrażeń. Zadaje 1...20 pkt. obrażeń i wywołuje przypadłość głęboka rana (20 sek.), jeżeli nastąpiło blokowanie."
+			},
+			"ru": {
+				"name": "Swift Chop",
+				"description": "Атака топором. Если этот удар попадает в цель, вы наносите дополнительно 1...20 ед. урона. Если Swift Chop будет блокирован, выбранный противник получит дополнительно 1...20 ед. урона и глубокую рану на 20 сек.",
+				"concise": "Атака топором. Наносит дополнительно 1...20 ед. урона. Наносит 1...20 ед. урона и вызывает глубокую рану (20 сек), если было блокировано."
+			},
+			"bork": {
+				"name": "Sveefft Chup",
+				"description": "Aexe-a Aettaeck. Iff thees aettaeck heets, yuoo streeke-a fur +1...20 daemaege-a. Iff Sveefft Chup is blucked, taerget fue-a taekes 1...20 daemaege-a und sooffffers a Deep Vuoond fur 20 secunds.",
+				"concise": "Aexe-a Aettaeck. Deaels +1...20 daemaege-a. Deaels 1...20 daemaege-a und inffleects Deep Vuoond cundeeshun (20 secunds) iff blucked."
 			}
 		}
 	}

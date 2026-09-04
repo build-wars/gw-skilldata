@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "迸发之愈",
+				"description": "精英咒文。 触摸友方目标，使他和他附近的所有友方获得20...120点生命值。如果有一名以上的友方受到了治疗，你将失去0点能量值。",
+				"concise": "精英咒文。 触摸友方目标，使其和邻近的友方获得20...120点生命值。如果有一名以上的友方受到了治疗，你将失去0点能量值。"
+			},
+			"cht": {
+				"name": "爆發治癒",
+				"description": "精英咒文魔法： 治療目標盟友 20...120 體力，同時音量所及範圍內的隊伍成員也獲得你神恩屬性的加成治療，懲戒祈禱技能在 20 秒內無法使用。",
+				"concise": "精英咒文魔法： 治療目標盟友 20...120 體力，同時音量所及範圍內的隊伍成員也獲得你神恩屬性的加成治療，懲戒祈禱技能在 20 秒內無法使用。"
+			},
 			"de": {
+				"name": "Heilsalve",
+				"description": "Elite-Zauber. Der Verbündete (bzw. Ihr selbst) wird um 20...120 Lebenspunkt[e] geheilt. Alle Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend dem mit diesem Zauber verbundenen Gunst-der-Götter-Bonus. Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
+				"concise": "Elite-Zauber. Heilt um 20...120 Lebenspunkt[e]. Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend dem Gunst-der-Götter-Bonus. <c x=\"SkillDull\">Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Heilsalve",
 				"description": "Der Verbündete (bzw. Ihr selbst) wird um 20...120 Lebenspunkte geheilt. Alle Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des mit diesem Zauber verbundenen Gunst-der-Götter-Bonus. Eure Peinigungsgebete werden 20 Sekunden lang deaktiviert.",
 				"concise": "Heilt um 20...120 Lebenspunkte. Gruppenmitglieder in Hörweite Eures Ziels erhalten Lebenspunkte entsprechend des Gunst-der-Götter-Bonus. Deaktiviert Eure Peinigungsgebete (20 Sekunden)."
 			},
 			"en": {
 				"name": "Healing Burst",
+				"description": "Elite Spell. Target ally is healed for 20...120. All party members in earshot of your target gain Health equal to the Divine Favor bonus from this spell. Your Smiting Prayers are disabled for 20 seconds.",
+				"concise": "Elite Spell. Heals for 20...120. Party members in earshot of your target gain Health equal to the Divine Favor bonus. Disables your Smiting Prayers (20 seconds)."
+			},
+			"en-gww": {
+				"name": "Healing Burst",
 				"description": "Target ally is healed for 20...120. All party members in earshot of your target gain Health equal to the Divine Favor bonus from this spell. Your Smiting Prayers are disabled for 20 seconds.",
 				"concise": "Heals for 20...120. Party members in earshot of your target gain Health equal to the Divine Favor bonus. <gray>Disables your Smiting Prayers (20 seconds).</gray>"
 			},
+			"es": {
+				"name": "Explosión curativa",
+				"description": "Conjuro de élite. Curas 20...120 de salud al aliado objetivo. Todos los miembros del grupo que estén al alcance del oído del objetivo ganan salud igual a la bonificación de favor divino de este hechizo. Tus plegarias de ataque quedan deshabilitadas durante 20 segundos.",
+				"concise": "Conjuro de élite. Cura 20...120. Los miembros del grupo que estén al alcance del oído del objetivo ganan salud igual a la bonificación de favor divino. <c x=\"SkillDull\">Deshabilita tus plegarias de ataque (20 segundos)."
+			},
 			"fr": {
+				"name": "Vague de guérison",
+				"description": "Sort d'élite. La cible alliée est soignée de 20...120 points de vie. Tous les membres du groupe à portée de voix de votre cible regagnent un nombre de points de vie égal au bonus Faveur divine de ce sort. Vos Prières de châtiment sont inutilisables pendant 20 secondes.",
+				"concise": "Sort d'élite. Soigne de 20...120 points de vie. Les membres du groupe à portée de voix de votre cible gagnent un nombre de points de vie égal au bonus Faveur divine. <c x=\"SkillDull\">Désactive vos Prières de châtiment (20 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Vague de guérison",
 				"description": "L’allié ciblé est guérit de 5...130. Tous les membres du groupe à portée de voix regagnent un nombre de points de vie égal au bonus de Faveur divine de ce sort. Vos Prières de châtiment sont inutilisables pendant 20 secondes.",
 				"concise": "Soigne de 5...130 points de vie. Les membres du groupe à portée de voix de votre cible gagnent un nombre de points de vie égal au bonus de Faveur divine. Désactive vos Prières de châtiment (20 secondes)."
+			},
+			"it": {
+				"name": "Esplosione Guaritrice",
+				"description": "Magia d'Élite. L'obiettivo alleato viene curato di 20...120 Punti Salute. Tutti i membri della squadra a portata d'orecchio dell'obiettivo ottengono i Punti Salute del Favore Divino. Le tue Preghiere Punitive vengono disattivate per 20 secondi.",
+				"concise": "Magia d'Élite. Cure: 20...120. Bonus di Punti Salute per i membri della squadra a portata d'orecchio dell'obiettivo: Favore Divino. <c x=\"SkillDull\">Condizione disattivata: Preghiere Punitive (secondi: 20)."
+			},
+			"jp": {
+				"name": "ヒーリング バースト",
+				"description": "エリート スペル： ターゲットした味方は体力が 20...120 回復します。ターゲットの声の届く範囲内にいるパーティー メンバーは全員、このスペルにより「ディヴァイン」特性による体力の回復ボーナスを受けます。ただし、プレイヤーは「ホーリー」の特性スキルを20秒間使用することができなくなります。",
+				"concise": "エリート スペル： 体力を 20...120 回復します。ターゲットの声の届く範囲内にいるパーティー メンバーは、「ディヴァイン」特性による体力の回復ボーナスを受けます。プレイヤーは「ホーリー」の特性スキルを使用することができなくなります (20秒)。"
+			},
+			"kr": {
+				"name": "치유력 폭발",
+				"description": "엘리트 마법. 대상 지정: 아군. 대상의 체력을 20...120만큼 회복시키고, 대상을 중심으로 가청 범위 내에 있는 모든 파티원이 그만큼의 체력을 얻습니다. 자신은 천벌 특성 스킬을 20초 동안 사용할 수 없습니다.",
+				"concise": "엘리트 마법. 20...120의 체력을 회복시키고, 대상을 중심으로 가청 범위 내에 있는 파티원도 그만큼의 체력을 얻습니다. 천벌 특성 스킬을 사용할 수 없습니다.(20초)"
+			},
+			"pl": {
+				"name": "Uzdrawiający Wybuch",
+				"description": "Elitarny czar. Wybrany sojusznik odzyskuje 20...120 pkt. żywotności. Wszyscy członkowie drużyny w zasięgu słuchu od celu odzyskują żywotność równą premii z Łaski Bogów. Twoje modlitwy ofensywne zostają zablokowane na 20 sekund.",
+				"concise": "Elitarny czar. Leczy 20...120 pkt. żywotności. Członkowie drużyny w zasięgu słuchu celu otrzymują żywotność równą premii z Łaski Bogów. <c x=\"SkillDull\">Blokuje twoje modlitwy ofensywne (20 sekund)."
+			},
+			"ru": {
+				"name": "Healing Burst",
+				"description": "Элитное заклинание. Выбранный союзник исцеляется на 20...120 ед. здоровья. Все члены отряда в зоне слышимости от него получают здоровье, равное бонусу от таланта Divine Favor для этого заклинания. Ваши умения, связанные с талантом Smiting Prayers, будут недоступны в течение 20 сек.",
+				"concise": "Элитное заклинание. Исцеляет на 20...120 ед. здоровья. Члены отряда в зоне слышимости от цели получают здоровье, равное бонусу от таланта Divine Favor. Ваши умения, связанные с талантом Smiting Prayers, будут недоступны (20 сек)."
+			},
+			"bork": {
+				"name": "Heaeleeng Boorst",
+				"description": "Ileete-a Spell. Taerget aelly is heaeled fur 20...120. Aell paerty members in iaershut ooff yuoor taerget gaeeen Heaelt iqooael tu zee Deefeene-a Faefur bunoos frum thees spell. Yuoor Smeeteeng Praeyers aere-a deesaebled fur 20 secunds.",
+				"concise": "Ileete-a Spell. Heaels fur 20...120. Paerty members in iaershut ooff yuoor taerget gaeeen Heaelt iqooael tu zee Deefeene-a Faefur bunoos. Deesaebles yuoor Smeeteeng Praeyers (20 secunds)."
 			}
 		}
 	}

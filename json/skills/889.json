@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "全力一击",
+				"description": "精英锤术。 命中时，对目标敌人造成10...30点额外伤害，并且使其遭受「虚弱」症状5...20秒。如果此技能被格挡，你将倒地。",
+				"concise": "精英锤术。 命中时，对目标敌人造成10...30点额外伤害，并且使其遭受「虚弱」症状5...20秒。如果此技能被格挡，你将倒地。"
+			},
+			"cht": {
+				"name": "威力打擊",
+				"description": "精英鎚術攻擊技能： 命中時造成 10...30 額外傷害，移除目標態勢，且造成虛弱 5...20 秒，此技能無法被格檔。",
+				"concise": "精英鎚術攻擊技能： 命中時造成 10...30 額外傷害，移除目標態勢，且造成虛弱 5...20 秒，此技能無法被格檔。"
+			},
 			"de": {
+				"name": "Energischer Schlag",
+				"description": "Elite-Hammerangriff. Wenn Energischer Schlag trifft, fügt er +10...30 Punkt[e] Schaden zu und jede Haltung, die der Gegner einsetzt, endet. Der Gegner leidet 5...20 Sekunde[n] lang an Schwäche. Dieser Angriff kann nicht geblockt werden.",
+				"concise": "Elite-Hammerangriff. Richtet +10...30 Punkt[e] Schaden an. Entfernt jede Haltung des Gegners. Verursacht Zustand Schwäche (5...20 Sekunde[n]). Kann nicht geblockt werden."
+			},
+			"de-guildwiki": {
 				"name": "Energischer Schlag",
 				"description": "Wenn Energischer Schlag trifft, fügt er +10...30 Punkte Schaden zu und jede Haltung, die der Gegner einsetzt, endet. Der Gegner leidet 5...20 Sekunden lang an Schwäche. Dieser Angriff kann nicht geblockt werden.",
 				"concise": "Richtet +10...30 Punkte Schaden an. Entfernt jede Haltung des Gegners. Verursacht Zustand Schwäche (5...20 Sekunden). Kann nicht geblockt werden."
 			},
 			"en": {
 				"name": "Forceful Blow",
+				"description": "Elite Hammer Attack. If Forceful Blow hits, you strike for +10...30 damage and any stance being used by target foe ends. Target foe suffers from Weakness for 5...20 seconds. This attack cannot be blocked.",
+				"concise": "Elite Hammer Attack. Deals +10...30 damage. Removes target foe's stance. Inflicts Weakness condition (5...20 seconds). Unblockable."
+			},
+			"en-gww": {
+				"name": "Forceful Blow",
 				"description": "If Forceful Blow hits, you strike for +10...30 damage and any stance being used by target foe ends. Target foe suffers from Weakness for 5...20 seconds. This attack cannot be blocked.",
 				"concise": "Deals +10...30 damage. Remove target foe's stance. Inflicts Weakness condition (5...20 seconds). Unblockable."
 			},
+			"es": {
+				"name": "Golpe eficaz",
+				"description": "Ataque con martillo de élite. Si el Golpe feroz impacta, haces +10...30 de daño y anulas cualquier actitud que esté usando el enemigo objetivo. El enemigo objetivo estará debilitado durante 5...20 segundos. Este ataque no puede bloquearse.",
+				"concise": "Ataque con martillo de élite. Hace +10...30 de daño. Elimina la actitud del enemigo objetivo. Causa debilitamiento (5...20 segundos). No se puede bloquear."
+			},
 			"fr": {
+				"name": "Coup forcé",
+				"description": "Attaque au marteau d'élite. Si Coup forcé réussit, il inflige +10...30 points de dégâts et chaque pose utilisée par la cible prend fin. La cible ennemie est frappée de Faiblesse pendant 5...20 secondes. Cette attaque ne peut être bloquée.",
+				"concise": "Attaque au marteau d'élite. Inflige +10...30 points de dégâts. Supprime la pose de la cible ennemie. Inflige la Faiblesse (5...20 secondes). Ne peut être bloqué."
+			},
+			"fr-gwiki": {
 				"name": "Coup forcé",
 				"description": "Ne peut être bloqué. Si le Coup forcé réussit, la pose de combat de votre cible prend fin, vous infligez +10...40 points de dégâts, et votre cible est Affaiblie pendant 5...20 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Vigoroso",
+				"description": "Attacco d'Élite con Martello. Se Colpo Vigoroso va a segno, infligge +10...30 di danni e rimuove qualsiasi posizione utilizzata dall'obiettivo nemico. L'obiettivo è affetto da Debolezza per 5...20 secondo[i]. Questo attacco non può essere bloccato.",
+				"concise": "Attacco d'Élite con Martello. Danni inferti: +10...30. Rimuove la posizione dell'obiettivo nemico. Condizione inflitta: Debolezza (5...20 secondo[i]). Non bloccabile."
+			},
+			"jp": {
+				"name": "フォースフル ブロウ",
+				"description": "エリート ハンマー アタック： 攻撃が成功すると 10...30 の追加ダメージを与え、ターゲットした敵が使用しているスタンスを解除します。ターゲットは 5...20 秒間「衰弱」状態になります。この攻撃はブロックされません。",
+				"concise": "エリート ハンマー アタック： 10...30 の追加ダメージを与え、ターゲットした敵にかけられているスタンスを解除します。また、「衰弱」状態にします (5...20 秒)。この攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "기세의 휘두르기",
+				"description": "엘리트 해머 공격. 대상 지정: 적. 공격이 성공하면 10...30의 대미지를 추가로 주고, 대상의 자세를 무효화합니다. 대상은 5...20초 동안 약체 상태가 됩니다. 이 공격은 막을 수 없습니다.",
+				"concise": "엘리트 해머 공격. 10...30의 대미지를 추가로 주고, 자세를 해제시키고, 약체로 만듭니다.(5...20초) 이 공격은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Mocny Cios",
+				"description": "Elitarny atak młotem. Jeśli Mocny Cios trafi, zadajesz +10...30 pkt. obrażeń, a postawa bojowa używana przez zaatakowanego przeciwnika przestaje działać. Przeciwnik zostaje osłabiony na 5...20 sek. Ten atak nie może zostać zablokowany.",
+				"concise": "Elitarny atak młotem. Zadaje +10...30 pkt. obrażeń. Usuwa postawę przeciwnika. Wywołuje osłabienie (5...20 sek.). Nie do zablokowania."
+			},
+			"ru": {
+				"name": "Forceful Blow",
+				"description": "Элитная атака молотом. Если Forceful Blow попадает в цель, вы наносите дополнительно 10...30 ед. урона, а действие любой стойки, которую использовал выбранный противник, будет прервано. Выбранный противник будет поражен слабостью в течение 5...20 сек. Эту атаку нельзя блокировать.",
+				"concise": "Элитная атака молотом. Наносит дополнительно 10...30 ед. урона. Прерывает действие стойки выбранного противника. Вызывает слабость (5...20 сек). Нелья блокировать."
+			},
+			"bork": {
+				"name": "Furceffool Bloo",
+				"description": "Ileete-a Haemmer Aettaeck. Iff Furceffool Bloo heets, yuoo streeke-a fur +10...30 daemaege-a und uny stunce-a beeeng used by taerget fue-a inds. Taerget fue-a sooffffers frum Veaekness fur 5...20 secunds. Thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Haemmer Aettaeck. Deaels +10...30 daemaege-a. Remufes taerget fue-a's stunce-a. Inffleects Veaekness cundeeshun (5...20 secunds). Unbluckaeble-a."
 			}
 		}
 	}

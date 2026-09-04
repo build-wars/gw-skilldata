@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "引导之灵",
+				"description": "精英增益魔法。 在12秒之内，你将获得1...6点「能量再生」，但是遭受5点「生命衰减」。此技能结束时，如果你在「灵体」的「音波」范围内，你将获得3...12点生命值。",
+				"concise": "精英增益魔法。 在12秒之内，你将获得1...6点「生命再生」和5点「生命衰减」。此技能结束时，如果你在「灵体」的「音波」范围内，你将获得3...12点生命值。"
+			},
+			"cht": {
+				"name": "導引之靈",
+				"description": "精英加持魔法： 持續 12 秒，你獲得 1...6 能量再生，使用此技能時，若是你的音量所及範圍內有靈，則你獲得 3...12 能量。",
+				"concise": "精英加持魔法： 持續 12 秒，你獲得 1...6 能量再生，使用此技能時，若是你的音量所及範圍內有靈，則你獲得 3...12 能量。"
+			},
 			"de": {
+				"name": "Geisterlenkung",
+				"description": "Elite-Verzauberung. 12 Sekunde[n] lang habt Ihr +1...6 Energieregeneration. Wenn Ihr Euch beim Wirken dieses Zaubers in Hörweite eines Geistes befindet, erhaltet Ihr 3...12 Energiepunkt[e].",
+				"concise": "Elite-Verzauberung. (12 Sekunde[n].) Ihr habt +1...6 Energieregeneration. Anfangswirkung: Ihr erhaltet 3...12 Energiepunkt[e], wenn Ihr Euch in Hörweite eines Geistes befindet."
+			},
+			"de-guildwiki": {
 				"name": "Geisterlenkung",
 				"description": "12 Sekunden lang habt Ihr +1...6 Energieregeneration. Wenn Ihr Euch beim Wirken dieses Zaubers in Hörweite eines Geistes befindet, erhaltet Ihr 3...12 Energiepunkte.",
 				"concise": "(12 Sekunden.) Ihr erhaltet +1...6 Energieregeneration. Anfangswirkung: Wenn Ihr Euch in Hörweite eines Geistes befindet, erhaltet Ihr 3...12 Energiepunkte."
 			},
 			"en": {
 				"name": "Spirit Channeling",
+				"description": "Elite Enchantment Spell. For 12 seconds, you have +1...6 Energy regeneration. When you cast this spell, you gain 3...12 Energy if you are within earshot of a spirit.",
+				"concise": "Elite Enchantment Spell. (12 seconds.) You have +1...6 Energy regeneration. Initial effect: you gain 3...12 Energy if you are within earshot of a spirit."
+			},
+			"en-gww": {
+				"name": "Spirit Channeling",
 				"description": "For 12 seconds, you have +1...6 Energy regeneration. When you cast this spell, you gain 3...12 Energy if you are within earshot of a spirit.",
 				"concise": "(12 seconds.) You have +1...6 Energy regeneration. Initial effect: you gain 3...12 Energy if you are within earshot of a spirit."
 			},
+			"es": {
+				"name": "Canalización espiritual",
+				"description": "Conjuro con encantamiento de élite. Durante 12 segundos, tienes +1...6 de regeneración de energía. Cuando lances este conjuro, ganas 3...12 de energía si estás al alcance del oído de un espíritu.",
+				"concise": "Conjuro con encantamiento de élite. (12 segundos). Tienes +1...6 regeneración de energía. Efecto inicial: ganas 3...12 de energía si estás al alcance del oído de algún espíritu."
+			},
 			"fr": {
+				"name": "Canalisation d'esprit",
+				"description": "Enchantement d'élite. Pendant 12 secondes, vous bénéficiez d'une régénération d'énergie de +1...6. Si vous vous trouvez à portée de voix d'un esprit lorsque vous lancez ce sort, vous gagnez 3...12 points d'énergie.",
+				"concise": "Enchantement d'élite. (12 secondes.) Vous bénéficiez d'une régénération d'énergie de +1...6. Effet initial : si vous vous trouvez à portée de voix d'un esprit, vous gagnez 3...12 points d'énergie."
+			},
+			"fr-gwiki": {
 				"name": "Canalisation d'esprit",
 				"description": "Pendant 12 secondes, vous bénéficiez d'une régénération d'énergie de +1...6. Effet initial si vous êtes à portée de voix d'un esprit, vous gagnez 3...12 points d'énergie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Incanalamento dello Spirito",
+				"description": "Incantesimo d'Élite. Per 12 secondo[i] ottieni una Rigenerazione dell'Energia di +1...6. Se ti trovi nella portata d'orecchio di uno spirito quando lanci questa magia, ottieni 3...12 Punti Energia.",
+				"concise": "Incantesimo d'Élite. (Secondo[i]: 12). Rigenerazione Energia: +1...6. Effetto iniziale: Ottieni 3...12 Punto[i] Energia se ti trovi nella portata d'orecchio di uno Spirito."
+			},
+			"jp": {
+				"name": "スピリット チャネリング",
+				"description": "エリート強化スペル： 12 秒間、エネルギーの自然回復力が 1...6 増加します。このスペルを詠唱するときに声の届く範囲内に精霊がいると、3...12 のエネルギーを獲得します。",
+				"concise": "エリート強化スペル： (12 秒) エネルギーの自然回復力が 1...6 増加します。発動効果： 声の届く範囲内に精霊がいる場合、3...12 のエネルギーを獲得します。"
+			},
+			"kr": {
+				"name": "정신 교류",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 12초 동안 에너지 재생이 1...6만큼 증가합니다. 이 마법을 시전할 때 가청 범위 내에 영혼이 있으면 3...12의 에너지를 얻습니다.",
+				"concise": "엘리트 강화 마법. (12초) 에너지 재생이 1...6만큼 증가합니다. 초기 효과: 가청 범위 내에 영혼이 있으면 3...12의 에너지를 얻습니다."
+			},
+			"pl": {
+				"name": "Duchowe Połączenie",
+				"description": "Elitarne zaklęcie (czar). Przez 12 sek., otrzymujesz +1...6 do regeneracji energii. Jeśli podczas rzucania tego czaru w zasięgu słuchu znajduje się duch, otrzymujesz 3...12 pkt. energii.",
+				"concise": "Elitarne zaklęcie (czar). (12 sek.) Otrzymujesz +1...6 do regeneracji energii. Efekt początkowy: jeśli w zasięgu słuchu znajduje się duch, otrzymujesz 3...12 pkt. energii."
+			},
+			"ru": {
+				"name": "Spirit Channeling",
+				"description": "Элитное заклинание-чары. В течение 12 сек ваша скорость восстановления энергии увеличивается на 1...6 ед. Когда вы активируете это заклинание, вы получаете 3...12 ед. энергии, если находитесь в зоне слышимости духа.",
+				"concise": "Элитное заклинание-чары. (12 сек) Вы получаете +1...6 ед. к скорости восстановления энергии. Начальный эффект: вы получаете 3...12 ед. энергии, если вы находитесь в зоне слышимости духа."
+			},
+			"bork": {
+				"name": "Spureet Chunneleeng",
+				"description": "Ileete-a Inchuntment Spell. Fur 12 secunds, yuoo haefe-a +1...6 Inergy regeneraeshun. Vhee yuoo caest thees spell, yuoo gaeeen 3...12 Inergy iff yuoo aere-a veetheen iaershut ooff a spureet.",
+				"concise": "Ileete-a Inchuntment Spell. (12 secunds.) Yuoo haefe-a +1...6 Inergy regeneraeshun. Ineeteeael iffffect: yuoo gaeeen 3...12 Inergy iff yuoo aere-a veetheen iaershut ooff a spureet."
 			}
 		}
 	}

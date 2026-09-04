@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 4,
 		"adrenaline_precise": 3.2,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Symbolic Strike",
+				"description": "近战技能。 If this attack hits, you deal +12 damage for each signet you have equipped (maximum 70 damage).",
+				"concise": "近战技能。 Deals +12 damage (maximum 70) for each signet you have equipped."
+			},
+			"cht": {
+				"name": "象徵之斬",
+				"description": "近身攻擊技能： 此攻擊命中時，每一個你所裝備的紋章型技能，將使你的攻擊造成 +12 傷害。(最大 70 傷害)。",
+				"concise": "近身攻擊技能： 此攻擊命中時，每一個你所裝備的紋章型技能，將使你的攻擊造成 +12 傷害。(最大 70 傷害)。"
+			},
 			"de": {
+				"name": "Symbolischer Schlag",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, fügt Ihr pro ausgerüstetem Siegel +12 Punkt[e] Schaden zu (maximal 70 Punkt[e] Schaden).",
+				"concise": "Nahkampfangriff. Richtet für jedes Siegel, das Ihr ausgerüstet habt, +12 Punkt[e] Schaden an (maximal 70)."
+			},
+			"de-guildwiki": {
 				"name": "Symbolischer Schlag",
 				"description": "Wenn dieser Angriff erfolgreich ist, fügt Ihr pro ausgerüstetem Siegel +12 Punkte Schaden zu (maximal 70 Punkte Schaden).",
 				"concise": "Richtet für jedes Siegel, das Ihr ausgerüstet habt, +12 Punkte Schaden an (maximal 70)."
 			},
 			"en": {
 				"name": "Symbolic Strike",
+				"description": "Melee Attack. If this attack hits, you deal +12 damage for each signet you have equipped (maximum 70 damage).",
+				"concise": "Melee Attack. Deals +12 damage (maximum 70) for each signet you have equipped."
+			},
+			"en-gww": {
+				"name": "Symbolic Strike",
 				"description": "If this attack hits, you deal +12 damage for each signet you have equipped (maximum 70 damage).",
 				"concise": "Deals +12 damage (maximum 70) for each signet you have equipped."
 			},
+			"es": {
+				"name": "Ataque simbólico",
+				"description": "Ataque cuerpo a cuerpo. Si este ataque impacta, harás +12 de daño por cada sello que lleves equipado (máximo 70 de daño adicional).",
+				"concise": "Ataque cuerpo a cuerpo. Hace +12 de daño (máximo 70) por cada sello que tengas equipado."
+			},
 			"fr": {
+				"name": "Attaque symbolique",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, vous infligez +12 points de dégâts pour chaque sceau dont vous êtes équipé (maximum 70 points de dégâts ).",
+				"concise": "Attaque au corps à corps. Inflige +12 points de dégâts (maximum : 70) par sceau dont vous êtes équipé[f:\"équipée\"]."
+			},
+			"fr-gwiki": {
 				"name": "Attaque symbolique",
 				"description": "Si cette attaque réussit, vous infligez +12 points de dégâts pour chaque sceau dont vous êtes équipé (maximum 70 points de dégâts).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Colpo Simbolico",
+				"description": "Attacco Ravvicinato. Se questo attacco va a segno infliggi +12 danno[i] per ogni Sigillo che hai equipaggiato (max. 70 danno[i]).",
+				"concise": "Attacco Ravvicinato. Danni inferti per ogni Sigillo che hai equipaggiato: +12 (max 70)."
+			},
+			"jp": {
+				"name": "シンボリック ストライク",
+				"description": "メーレー アタック： 攻撃が成功すると、装備しているシグネットごとに 12 の追加ダメージを与えます (最大 70 ダメージ) 。",
+				"concise": "メーレー アタック： 装備しているシグネットごとに 12 の追加ダメージを与えます (最大 70 のダメージ) 。"
+			},
+			"kr": {
+				"name": "인장 강타",
+				"description": "근접 물리 공격. 공격이 성공하면 등록한 인장 스킬 하나당 12씩, 최대 70의 대미지를 추가로 줍니다.",
+				"concise": "근접 물리 공격. 등록한 인장 스킬 하나당 12씩, 최대 70의 대미지를 추가로 줍니다."
+			},
+			"pl": {
+				"name": "Symboliczne Uderzenie",
+				"description": "Atak wręcz. Jeżeli atak trafi, zadajesz +12 pkt. obrażeń na każdy sygnet, który masz na pasku umiejętności (maksymalnie 70 pkt. obrażeń).",
+				"concise": "Atak wręcz. Zadaje +12 pkt. obrażeń (maksymalnie 70) za każdy sygnet, który masz na pasku umiejętności."
+			},
+			"ru": {
+				"name": "Symbolic Strike",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 12 ед. урона за каждую имеющуюся у вас печать (но не более 70 ед. урона).",
+				"concise": "Рукопашная атака. Наносит дополнительно 12 ед. урона (но не более 70 ед.) за каждую имеющуюся у вас печать."
+			},
+			"bork": {
+				"name": "Symbuleec Streeke-a",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo deael +12 daemaege-a fur iaech seegnet yuoo haefe-a iqooeepped (maexeemoom 70 daemaege-a).",
+				"concise": "Melee-a Aettaeck. Deaels +12 daemaege-a (maexeemoom 70) fur iaech seegnet yuoo haefe-a iqooeepped."
 			}
 		}
 	}

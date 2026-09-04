@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "笨拙",
+				"description": "负面魔法。 打断目标敌人可能发动的下次攻击，打断成功后，使其受到10...80点伤害，效果持续4秒。",
+				"concise": "负面魔法。 在4秒之内，目标敌人的下次攻击会在准备时被打断，并受到10...80点伤害。"
+			},
+			"cht": {
+				"name": "笨拙",
+				"description": "降咒魔法： 持續4秒，目標及其鄰近敵人下一次攻擊時，該敵人動作將被中斷且受到10...80傷害。",
+				"concise": "降咒魔法： 持續4秒，目標及其鄰近敵人下一次攻擊時，該敵人動作將被中斷且受到10...80傷害。"
+			},
 			"de": {
+				"name": "Ungeschick",
+				"description": "Verhexung. 4 Sekunden lang werden der Gegner und umstehende Feinde mit Ungeschick verhext. Beim nächsten Angriff jedes Feindes wird der Angriff unterbrochen und der Feind erleidet 10...80 Punkt[e] Schaden.",
+				"concise": "Verhexung. 4 Sekunde[n]: Verhext auch umstehende Feinde. Unterbricht nächsten Angriff. Unterbrechungswirkung: Richtet 10...80 Punkt[e] Schaden an."
+			},
+			"de-guildwiki": {
 				"name": "Ungeschick",
 				"description": "4 Sekunden lang werden der Gegner und umstehende Feinde mit Ungeschick verhext. Beim nächsten Angriff jedes Feindes wird der Angriff unterbrochen und der Feind erleidet 10...80 Punkte Schaden.",
 				"concise": "4 Sekunden: Verhext auch umstehende Feinde. Unterbricht nächsten Angriff. Unterbrechungswirkung: Richtet 10...80 Punkte Schaden an."
 			},
 			"en": {
 				"name": "Clumsiness",
+				"description": "Hex Spell. For 4 seconds, target and adjacent foes are hexed with Clumsiness. The next time each foe attacks, the attack is interrupted and that foe suffers 10...80 damage.",
+				"concise": "Hex Spell. (4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals 10...80 damage."
+			},
+			"en-gww": {
+				"name": "Clumsiness",
 				"description": "For 4 seconds, target and adjacent foes are hexed with Clumsiness. The next time each foe attacks, the attack is interrupted and that foe suffers 10...80 damage.",
 				"concise": "(4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals 10...80 damage."
 			},
+			"es": {
+				"name": "Torpeza",
+				"description": "Conjuro con maleficio. Durante 4 segundos, el enemigo objetivo y los adyacentes tienen el maleficio Torpeza. La próxima vez que alguno de ellos ataque, éste se interrumpe y el enemigo recibe 10...80 de daño.",
+				"concise": "Conjuro con maleficio. (4 segundos). También afecta a los enemigos adyacentes. Interrumpe el siguiente ataque. Efecto de la interrupción: 10...80 de daño."
+			},
 			"fr": {
+				"name": "Maladresse",
+				"description": "Maléfice. Pendant 4 secondes, la cible et les ennemis adjacents sont affectés par le maléfice Maladresse. La prochaine fois que chaque ennemi attaque, cette action est interrompue et l'ennemi subit 10...80 points de dégâts.",
+				"concise": "Maléfice. (4 secondes.) Les ennemis adjacents sont également affectés. Interrompt l'attaque suivante. Effet de l'interruption : inflige 10...80 points de dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Maladresse",
 				"description": "Pendant 4 secondes, la cible et les ennemis adjacents sont affectés par le maléfice Maladresse. La prochaine fois que chaque ennemi attaque, cette action est interrompue et l'ennemi subit 10...92 points de dégâts.",
 				"concise": "(4 secondes.) Les ennemis adjacents sont également affectés. Interrompt l'attaque suivante. Effet de l'interruption : 10...92 points de dégâts."
+			},
+			"it": {
+				"name": "Goffaggine",
+				"description": "Fattura. Per 4 secondo[i], l'obiettivo e i nemici adiacenti sono colpiti da Goffaggine. La prossima volta che ogni nemico attacca, l'attacco viene interrotto e quel nemico subisce 10...80 danno[i].",
+				"concise": "Fattura. (Secondi: 4) Infligge fattura anche ai nemici adiacenti. Interrompe il prossimo attacco. Effetto dell'interruzione: assesta 10...80 danno[i]."
+			},
+			"jp": {
+				"name": "クラムジネス",
+				"description": "弱体化スペル： 4 秒間、ターゲットした敵および隣接する敵がそれぞれ次に行う攻撃を中断し、10...80 のダメージを与えます。",
+				"concise": "弱体化スペル： (4 秒) ターゲットした敵および隣接する敵が次に行う攻撃を中断します。中断効果： 10...80 のダメージを与えます。"
+			},
+			"kr": {
+				"name": "근육 마비",
+				"description": "약화 마법. 대상 지정: 적. 4초 동안 대상과 그에 인접한 적의 공격을 방해하고, 10...80 대미지를 줍니다. 처음 한 번만 효과가 있습니다.",
+				"concise": "약화 마법. (4초) 대상과 인접한 적들의 공격 동작을 방해합니다. 방해 효과: 10...80의 대미지. 처음 한 번만 효과가 있습니다."
+			},
+			"pl": {
+				"name": "Niezgrabność",
+				"description": "Klątwa (czar). Przez 4 sek. wybrany przeciwnik i przeciwnicy w bezpośredniej odległości znajdują się pod wpływem klątwy Niezgrabność. Kiedy następnym razem każdy z nich spróbuje zaatakować, atak zostanie przerwany, a przeciwnik otrzyma 10...80 pkt. obrażeń.",
+				"concise": "Klątwa (czar). (4 sek.) Klątwa działa także na przeciwników w bezpośredniej odległości. Przerywa następny atak wybranego przeciwnika. Efekt przerwania: zadaje 10...80 pkt. obrażeń."
+			},
+			"ru": {
+				"name": "Clumsiness",
+				"description": "Заклинание-проклятье. В течение 4 сек в следующий раз, когда выбранный или любой из окружающих противников попытается атаковать, эта атака будет прервана, а сам противник получит 10...80 ед. урона.",
+				"concise": "Заклинание-проклятье. (4 сек) Также накладывает проклятье на окружающих противников. Прерывает следующую атаку. Эффект прерывания: наносит 10...80 ед. урона."
+			},
+			"bork": {
+				"name": "Cloomseeness",
+				"description": "Hex Spell. Fur 4 secunds, taerget und aedjaecent fues aere-a hexed veet Cloomseeness. Zee next teeme-a iaech fue-a aettaecks, zee aettaeck is interroopted und thaet fue-a sooffffers 10...80 daemaege-a.",
+				"concise": "Hex Spell. (4 secunds.) Aelsu hexes aedjaecent fues. Interroopts next aettaeck. Interroopshun iffffect: deaels 10...80 daemaege-a."
 			}
 		}
 	}

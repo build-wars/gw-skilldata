@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 5,
 		"adrenaline": 4,
 		"adrenaline_precise": 4,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "普善咒",
+				"description": "圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用「战吼」或「圣歌」时，将会回复30...90点生命值。",
+				"concise": "圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用「战吼」或「圣歌」时，将会回复30...90点生命值。"
+			},
+			"cht": {
+				"name": "復原和鳴",
+				"description": "聖歌： 持續 10 秒，使音量所及範圍內的盟友「下一次」使用「戰嚎」或「聖歌」時，獲得 30...90 體力。",
+				"concise": "聖歌： 持續 10 秒，使音量所及範圍內的盟友「下一次」使用「戰嚎」或「聖歌」時，獲得 30...90 體力。"
+			},
 			"de": {
+				"name": "Chor der Wiederherstellung",
+				"description": "Anfeuerungsruf. 10 Sekunde[n] lang wird jeder Verbündete in Hörweite, wenn er das nächste Mal einen Schrei oder Anfeuerungsruf verwendet, um 30...90 Lebenspunkt[e] geheilt.",
+				"concise": "Anfeuerungsruf. 10 Sekunde[n]: Verbündete in Hörweite werden bei Benutzung ihres nächsten Schreis oder Anfeuerungsrufs um 30...90 Lebenspunkt[e] geheilt."
+			},
+			"de-guildwiki": {
 				"name": "Chor der Wiederherstellung",
 				"description": "10 Sekunden lang wird jeder Verbündete in Hörweite, wenn er das nächste Mal einen Schrei oder Anfeuerungsruf verwendet, um 30...90 Lebenspunkte geheilt.",
 				"concise": "10 Sekunden: Verbündete in Hörweite werden bei Benutzung ihres nächsten Schreis oder Anfeuerungsrufs um 30...90 Lebenspunkte geheilt."
 			},
 			"en": {
 				"name": "Chorus of Restoration",
+				"description": "Chant. For 10 seconds, the next time each ally within earshot uses a shout or chant, that ally is healed for 30...90 Health.",
+				"concise": "Chant. (10 seconds.) Allies in earshot are healed for 30...90 with their next shout or chant."
+			},
+			"en-gww": {
+				"name": "Chorus of Restoration",
 				"description": "For 10 seconds, the next time each ally within earshot uses a shout or chant, that ally is healed for 30...90 Health.",
 				"concise": "(10 seconds.) Allies in earshot are healed for 30...90 with their next shout or chant."
 			},
+			"es": {
+				"name": "Coro de restauración",
+				"description": "Cántico. Durante 10 segundos, la próxima vez que algún aliado al alcance del oído use un grito o cántico, se curará 30...90 de salud.",
+				"concise": "Cántico. (10 segundos). Los aliados al alcance del oído se curan 30...90 de salud con su siguiente grito o cántico."
+			},
 			"fr": {
+				"name": "Choeur de rétablissement",
+				"description": "Chant. Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un cri ou un chant, il est soigné de 30...90 points de vie.",
+				"concise": "Chant. (10 secondes.) Les alliés à portée de voix récupèrent 30...90 points de vie grâce à leur cri ou leur chant suivant."
+			},
+			"fr-gwiki": {
 				"name": "Choeur de rétablissement",
 				"description": "Pendant 10 secondes, la prochaine fois que chaque allié à portée de voix utilise un cri ou un chant, il est soigné de 30...90 points de vie.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Coro del Ripristino",
+				"description": "Canto. Per 10 secondo[i], la prossima volta che ogni alleato a portata d'orecchio utilizza un urlo o un canto, viene curato di 30...90 Punto[i] Salute.",
+				"concise": "Canto. (Secondi: 10) Gli alleati a portata d'orecchio vengono curati di 30...90 con il prossimo urlo o canto."
+			},
+			"jp": {
+				"name": "レストレーション コーラス",
+				"description": "チャント： 10 秒間、声の届く範囲内にいる各味方は、次にシャウトまたはチャントを使用するときに体力が 30...90 回復します。",
+				"concise": "チャント： (10 秒) 声の届く範囲内にいる味方は、次にシャウトかチャントを使用すると体力が 30...90 回復します。"
+			},
+			"kr": {
+				"name": "회복의 합창",
+				"description": "영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 아군이 고함이나 영창 스킬을 사용하면 30...90의 체력을 회복합니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (10초) 가청 범위 내에 있는 아군이 처음 고함이나 영창 스킬을 사용하면 30...90의 체력을 회복합니다."
+			},
+			"pl": {
+				"name": "Chorał Odnowy",
+				"description": "Zaśpiew. Przez 10 sek. każdy sojusznik w zasięgu słuchu z następnym użyciem okrzyku lub zaśpiewu, otrzyma 30...90 pkt. żywotności.",
+				"concise": "Zaśpiew. (10 sek.) Sojusznicy w zasięgu słuchu, ze swoim następnym okrzykiem lub zaśpiewem otrzymują 30...90 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Chorus of Restoration",
+				"description": "Хорал. В течение 10 сек в следующий раз, когда каждый союзник, находящийся в зоне слышимости, использует крик или хорал, этот союзник исцеляется на 30...90 ед. здоровья.",
+				"concise": "Хорал. (10 сек) Союзники в зоне слышимости исцеляются на 30...90 ед. здоровья при следующем использовании ими крика или хорала."
+			},
+			"bork": {
+				"name": "Churoos ooff Resturaeshun",
+				"description": "Chunt. Fur 10 secunds, zee next teeme-a iaech aelly veetheen iaershut uses a shuoot oor chunt, thaet aelly is heaeled fur 30...90 Heaelt.",
+				"concise": "Chunt. (10 secunds.) Aelleees in iaershut aere-a heaeled fur 30...90 veet zeeur next shuoot oor chunt."
 			}
 		}
 	}

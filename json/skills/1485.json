@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 6,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "环绕斩",
+				"description": "镰刀术。 命中时，对每一个邻近你的敌人造成1...10点额外伤害。（最多1...10点额外伤害）",
+				"concise": "镰刀术。 命中时，对每一个邻近你的敌人造成1...10点额外伤害。（最多1...10点额外伤害）"
+			},
+			"cht": {
+				"name": "隱士攻擊",
+				"description": "鐮刀攻擊技能： 命中時造成 1...10 額外傷害，且移除自身一項神喚使加持。若移除成功，則再造成 1...10 額外傷害，且攻擊鄰近所有敵人。",
+				"concise": "鐮刀攻擊技能： 命中時造成 1...10 額外傷害，且移除自身一項神喚使加持。若移除成功，則再造成 1...10 額外傷害，且攻擊鄰近所有敵人。"
+			},
 			"de": {
+				"name": "Angriff des Eremiten",
+				"description": "Sensenangriff. Wenn der Angriff erfolgreich ist, fügt er +1...10 Punkt[e] Schaden zu und entfernt eine Derwisch-Verzauberung. Wenn eine Verzauberung entfernt wird, fügt Ihr zusätzlich +1...10 Punkt[e] Schaden zu und trefft alle umstehenden Feinde.",
+				"concise": "Sensenangriff. Richtet +1...10 Punkt[e] Schaden an und entfernt eine Derwisch-Verzauberung. Entfernungseffekt: Richtet +1...10 Punkt[e] Schaden an und trifft alle umstehenden Feinde."
+			},
+			"de-guildwiki": {
 				"name": "Angriff des Eremiten",
 				"description": "Entfernt eine Derwisch-Verzauberung. Wenn dieser Angriff erfolgreich ist, fügt er +1...10 Punkte Schaden zu. Wenn eine Verzauberung entfernt wird, fügt Ihr zusätzlich +1...10 Schaden zu und trefft, anstatt nur den Gegner, alle Euch umstehenden Feinde.",
 				"concise": "Richtet +1...10 Punkte Schaden an und entfernt eine Derwisch-Verzauberung. Entfernungswirkung: Richtet +1...10 Punkte Schaden an und trifft alle umstehenden Feinde."
 			},
 			"en": {
 				"name": "Eremite's Attack",
+				"description": "Scythe Attack. If it hits, this attack deals +1...10 damage and removes a Dervish enchantment. If an enchantment is removed, you do an additional +1...10 damage and strike all adjacent foes.",
+				"concise": "Scythe Attack. Deals +1...10 damage and removes a Dervish enchantment. Removal Effect: deals +1...10 more damage and strikes all adjacent foes."
+			},
+			"en-gww": {
+				"name": "Eremite's Attack",
 				"description": "If it hits, this attack deals +1...10 damage and removes a Dervish enchantment. If an enchantment is removed, you do an additional +1...10 damage and strike all adjacent foes.",
 				"concise": "Deals +1...10 damage and removes a Dervish enchantment. Removal Effect: Deals +1...10 damage and strikes all adjacent foes."
 			},
+			"es": {
+				"name": "Ataque del ermitaño",
+				"description": "Ataque con guadaña. Si impacta, este ataque hace +1...10 de daño y quita un encantamiento de Derviche. Si se quita un encantamiento, haces +1...10 de daño adicional y golpeas a todos los enemigos adyacentes.",
+				"concise": "Ataque con guadaña. Hace +1...10 de daño y elimina un encantamiento de Derviche. Efecto de eliminación: hace +1...10 de daño adicional y golpea a todos los enemigos adyacentes."
+			},
 			"fr": {
+				"name": "Attaque érémitique",
+				"description": "Attaque à la faux. Si cette attaque réussit, elle inflige +1...10 points de dégâts et retire un enchantement de Derviche. Si un enchantement est retiré, vous infligez +1...10 points de dégâts à tous les ennemis adjacents.",
+				"concise": "Attaque à la faux. Inflige +1...10 points de dégâts et retire un enchantement de Derviche. Effet de la suppression : inflige 1...10 points de dégâts supplémentaires à tous les ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Attaque érémitique",
 				"description": "Si cette attaque réussit, vous infligez +5...10 points de dégâts pour chaque ennemi adjacent (maximum 30 points de dégâts supplémentaires).",
 				"concise": ""
+			},
+			"it": {
+				"name": "Attacco dell'Eremita",
+				"description": "Attacco con Falce. Se l'attacco va a segno, infligge +1...10 danni e rimuove un Incantesimo del Derviscio. Se un incantesimo viene rimosso, infliggi un danno aggiuntivo di +1...10 e colpisci tutti i nemici adiacenti.",
+				"concise": "Attacco con Falce. Danni inferti: +1...10 e rimuove un Incantesimo del Derviscio. Effetto della rimozione: infligge un danno aggiuntivo di +1...10 e colpisce tutti i nemici adiacenti."
+			},
+			"jp": {
+				"name": "アーマイト アタック",
+				"description": "サイズ アタック： この攻撃が成功すると 1...10 の追加ダメージを与え、かけられているダルウィーシュの強化スペルを1個解除します。強化スペルを解除すると、さらに 1...10 の追加ダメージを与え、隣接するすべての敵にもダメージを与えます。",
+				"concise": "サイズ アタック： 1...10 の追加ダメージを与え、かけられているダルウィーシュの強化スペルを解除します。解除効果： さらに 1...10 の追加ダメージを与え、隣接するすべての敵にもダメージを与えます。"
+			},
+			"kr": {
+				"name": "은둔자의 공격",
+				"description": "사이드 공격. 대상 지정: 적. 공격이 성공하면 1...10의 대미지를 추가로 주고, 자신에게 걸린 더비시 강화 마법 하나를 무효화됩니다. 강화 마법이 무효화되면 거기에 더해 1...10의 대미지를 추가로 주고, 인접한 모든 적을 공격합니다.",
+				"concise": "사이드 공격. 1...10의 대미지를 추가로 주고, 자신의 더비시 강화 마법 하나가 무효화됩니다. 무효화 효과: 1...10의 대미지를 추가로 주고, 인접한 모든 적을 공격합니다."
+			},
+			"pl": {
+				"name": "Atak Eremity",
+				"description": "Atak kosą. Jeśli atak trafi, zadaje +1...10 pkt. obrażeń i usuwa zaklęcie derwisza. Jeśli zostanie usunięte jakieś zaklęcie, zadajesz dodatkowe +1...10 pkt. obrażeń i uderzasz we wszystkich wrogów w bezpośrednim sąsiedztwie.",
+				"concise": "Atak kosą. Zadaje +1...10 pkt. obrażeń i usuwa zaklęcie derwisza. Efekt usunięcia: Zadaje +1...10 pkt. obrażeń i uderza we wszystkich wrogów w bezpośrednim sąsiedztwie."
+			},
+			"ru": {
+				"name": "Eremite's Attack",
+				"description": "Атака косой. Если эта атака попадает в цель, вы наносите дополнительно 1...10 ед. урона и теряете чары профессии Dervish. Если чары были сняты, вы наносите дополнительно еще 1...10 ед. урона и поражаете всех окружающих противников.",
+				"concise": "Атака косой. Наносит дополнительно 1...10 ед. урона и снимает с вас чары профессии Dervish. Эффект снятия: наносит дополнительно еще 1...10 ед. урона и поражает всех окружающих противников."
+			},
+			"bork": {
+				"name": "Iremeete-a's Aettaeck",
+				"description": "Scyzee Aettaeck. Iff it heets, thees aettaeck deaels +1...10 daemaege-a und remufes a Derfeesh inchuntment. Iff un inchuntment is remufed, yuoo du un aeddeeshunael +1...10 daemaege-a und streeke-a aell aedjaecent fues.",
+				"concise": "Scyzee Aettaeck. Deaels +1...10 daemaege-a und remufes a Derfeesh inchuntment. Remufael Iffffect: deaels +1...10 mure-a daemaege-a und streekes aell aedjaecent fues."
 			}
 		}
 	}

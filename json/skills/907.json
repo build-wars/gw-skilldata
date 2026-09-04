@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 7,
 		"adrenaline_precise": 7,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "龙咬",
+				"description": "精英剑术。 命中时，对目标敌人造成10...40点额外伤害，并且获得等同于1...5次攻击所积累的怒气值。",
+				"concise": "精英剑术。 命中时对目标造成 10...40 额外伤害并且获得等同于 1...5 次积累的怒气值。"
+			},
+			"cht": {
+				"name": "龍斬",
+				"description": "精英劍術攻擊技能： 命中時對目標造成 10...40 額外傷害並且獲得等同於 1...5 次累積的怒氣值。",
+				"concise": "精英劍術攻擊技能： 命中時對目標造成 10...40 額外傷害並且獲得等同於 1...5 次累積的怒氣值。"
+			},
 			"de": {
+				"name": "Drachenhieb",
+				"description": "Elite-Schwertangriff. Wenn Drachenhieb erfolgreich ist, fügt Ihr +10...40 Punkt[e] Schaden zu und erhaltet 1...5 Adrenalinstöße.",
+				"concise": "Elite-Schwertangriff. Richtet +10...40 Punkt[e] Schaden an. Ihr erhaltet 1...5 Adrenalinstöße, falls Ihr trefft."
+			},
+			"de-guildwiki": {
 				"name": "Drachenhieb",
 				"description": "Wenn Drachenhieb erfolgreich ist, fügt Ihr +10...40 Punkte Schaden zu und erhaltet 1...5 Adrenalinstöße.",
 				"concise": "Richtet +10...40 Punkte Schaden an. Ihr erhaltet 1...5 Adrenalinstöße, falls Ihr trefft."
 			},
 			"en": {
 				"name": "Dragon Slash",
+				"description": "Elite Sword Attack. If Dragon Slash hits, you strike for +10...40 damage and gain 1...5 strikes of adrenaline.",
+				"concise": "Elite Sword Attack. Deals +10...40 damage. You gain 1...5 strikes of adrenaline if it hits."
+			},
+			"en-gww": {
+				"name": "Dragon Slash",
 				"description": "If Dragon Slash hits, you strike for +10...40 damage and gain 1...5 strike[s] of adrenaline.",
 				"concise": "Deals +10...40 damage. You gain 1...5 strike[s] of adrenaline if it hits."
 			},
+			"es": {
+				"name": "Golpe del dragón",
+				"description": "Ataque con espada de élite. Si el Golpe del dragón impacta, harás +10...40 de daño y ganarás 1...5 de adrenalina.",
+				"concise": "Ataque con espada de élite. Hace +10...40 de daño. Ganas 1...5 golpes de adrenalina."
+			},
 			"fr": {
+				"name": "Taillade du dragon",
+				"description": "Attaque à l'épée d'élite. Si l'attaque réussit, vous infligez +10...40 points de dégâts et gagnez 1...5 décharges d'adrénaline.",
+				"concise": "Attaque à l'épée d'élite. Inflige +10...40 points de dégâts. Vous gagnez 1...5 décharges d'adrénaline si l'attaque réussit."
+			},
+			"fr-gwiki": {
 				"name": "Taillade du dragon",
 				"description": "Si l'attaque réussit, vous infligez +10...40 points de dégâts et gagnez 1...5 décharge(s) d'adrénaline.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Fendente del Drago",
+				"description": "Attacco d'Élite con Spada. Se va a segno infliggi +10...40 danno[i] ed ottieni 1...5 dose[i] di Adrenalina.",
+				"concise": "Attacco d'Élite con Spada. Danni inferti: +10...40. Ottieni 1...5 dose[i] di adrenalina se va a segno."
+			},
+			"jp": {
+				"name": "ドラゴン スラッシュ",
+				"description": "エリート ソード アタック： 攻撃が成功すると 10...40 の追加ダメージを与え、1...5 発のアドレナリンを獲得します。",
+				"concise": "エリート ソード アタック： 10...40 の追加ダメージを与えます。攻撃が成功すると、プレイヤーは 1...5 発のアドレナリンを獲得します。"
+			},
+			"kr": {
+				"name": "드래곤 베기",
+				"description": "엘리트 칼 공격. 대상 지정: 적. 공격이 성공하면 대상에게 10...40의 대미지를 추가로 주고, 자신은 1...5번 공격한 만큼의 아드레날린을 얻습니다.",
+				"concise": "엘리트 칼 공격. 10...40의 대미지를 추가로 주고, 공격이 성공하면 1...5번 공격한 만큼의 아드레날린을 얻습니다."
+			},
+			"pl": {
+				"name": "Smocze Cięcie",
+				"description": "Elitarny atak mieczem. Jeśli Smocze Cięcie trafi, zadajesz +10...40 pkt. obrażeń i otrzymujesz dawki adrenaliny w liczbie 1...5.",
+				"concise": "Elitarny atak mieczem. Zadaje +10...40 pkt. obrażeń. Jeżeli trafisz, otrzymujesz adrenalinę w liczbie dawek: 1...5."
+			},
+			"ru": {
+				"name": "Dragon Slash",
+				"description": "Элитная атака мечом. Если Dragon Slash попадает в цель, вы наносите дополнительно 10...40 ед. урона и получаете 1...5 ед. адреналина.",
+				"concise": "Элитная атака мечом. Наносит дополнительно 10...40 ед. урона. Вы получаете 1...5 ед. адреналина, если попадаете в цель."
+			},
+			"bork": {
+				"name": "Draegun Slaesh",
+				"description": "Ileete-a Svurd Aettaeck. Iff Draegun Slaesh heets, yuoo streeke-a fur +10...40 daemaege-a und gaeeen 1...5 streeke-as ooff aedrenaeleene-a.",
+				"concise": "Ileete-a Svurd Aettaeck. Deaels +10...40 daemaege-a. Yuoo gaeeen 1...5 streeke-as ooff aedrenaeleene-a iff it heets."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "沉默之幕",
+				"description": "精英负面魔法。 被触摸的目标敌人，在1...6秒之内无法施放任何法术。同时你在 15秒 之内也无法使用任何法术。",
+				"concise": "精英负面触摸法术。 被触摸的目标敌人，在1...6秒之内无法施放任何法术。同时你在 15秒 之内也无法使用任何法术。"
+			},
+			"cht": {
+				"name": "寂靜遮蔽",
+				"description": "精英降咒魔法： 碰觸的目標敵人，使其在 1...6 秒內無法施展任何「魔法」。同時你的所有「魔法」在 15 秒內無法使用。",
+				"concise": "精英碰觸降咒魔法： 碰觸的目標敵人，使其在 1...6 秒內無法施展任何「魔法」。同時你的所有「魔法」在 15 秒內無法使用。"
+			},
 			"de": {
+				"name": "Schleier des Schweigens",
+				"description": "Elite-Verhexung. Alle Eure Zauber werden 15 Sekunden lang deaktiviert. Der berührte Gegner kann 1...6 Sekunde[n] lang keine Zauber wirken.",
+				"concise": "Elite-Berührungs-Verhexung. 1...6 Sekunde[n]: Gegner kann keine Zauber wirken. Eure Zauber werden deaktiviert (15 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Schleier des Schweigens",
 				"description": "Alle Eure Zauber werden 15 Sekunden lang deaktiviert. Der berührte Gegner kann 1...6 Sekunden lang keine Zauber wirken.",
 				"concise": "1...6 Sekunden: Gegner kann keine Zauber wirken. <gray>Eure Zauber werden deaktiviert (15 Sekunden).</gray>"
 			},
 			"en": {
 				"name": "Shroud of Silence",
+				"description": "Elite Hex Spell. All of your spells are disabled for 15 seconds. For 1...6 seconds, target touched foe cannot cast spells.",
+				"concise": "Elite Touch Hex Spell. (1...6 seconds.) Target foe cannot cast spells. Your spells are disabled for 15 seconds."
+			},
+			"en-gww": {
+				"name": "Shroud of Silence",
 				"description": "All of your spells are disabled for 15 seconds. For 1...6 second[s], target touched foe cannot cast spells.",
 				"concise": "Elite Touch Hex Spell. (1...6 second[s].) Target foe cannot cast spells. <gray>Your spells are disabled for 15 seconds.</gray>"
 			},
+			"es": {
+				"name": "Mortaja de silencio",
+				"description": "Conjuro con maleficio de élite. Se desactivan todos tus conjuros durante 15 segundos. Durante 1...6 segundos, el enemigo al que toques no podrá lanzar conjuros.",
+				"concise": "Conjuro con maleficio de élite de toque. (1...6 segundos). El enemigo objetivo no puede lanzar conjuros. Tus conjuros están desactivados durante 15 segundos."
+			},
 			"fr": {
+				"name": "Linceul du silence",
+				"description": "Maléfice d'élite. Tous vos sorts sont inutilisables pendant 15 secondes. Pendant 1...6 secondes, la cible ennemie touchée ne peut pas lancer de sorts.",
+				"concise": "Maléfice de toucher élite. (1...6 secondes.) La cible ennemie ne peut pas lancer de sorts. Vos sorts sont désactivés pendant 15 secondes."
+			},
+			"fr-gwiki": {
 				"name": "Linceul du silence",
 				"description": "Tous vos sorts sont inutilisables pendant 15 secondes. Pendant 1...6 seconde(s), la cible ennemie touchée ne peut pas lancer de sorts.",
 				"concise": "(1...6 seconde(s).) La cible ennemie ne peut pas lancer de sorts. <gray>Vos sorts sont désactivés pendant 15 secondes.</gray>"
+			},
+			"it": {
+				"name": "Coltre del Silenzio",
+				"description": "Fattura d'Élite. Per 15 secondi tutte le tue magie vengono disattivate; per 1...6 secondo[i] l'obiettivo nemico toccato non può lanciare alcuna magia.",
+				"concise": "Fattura d'Élite a Tocco. (Secondi: 1...6) L'obiettivo nemico non può lanciare magie. Le tue magie vengono disattivate per 15 secondi."
+			},
+			"jp": {
+				"name": "サイレンス シュラウド",
+				"description": "エリート弱体化スペル： プレイヤーは15秒間、すべてのスペルを使用することができなくなります。1...6 秒間、接触した敵はスペルを詠唱することができなくなります。",
+				"concise": "エリート弱体化スペル (接触)： (1...6 秒) ターゲットした敵はスペルを詠唱することができなくなります。プレイヤーはスペルを15秒間使用することができなくなります。"
+			},
+			"kr": {
+				"name": "침묵의 수의",
+				"description": "엘리트 약화 마법. 대상 지정: 적. 1...6초 동안 대상은 마법을 외울 수 없습니다. 대신 자신도 15초 동안 모든 마법을 사용할 수 없습니다. 대상에 접근해야 사용할 수 있습니다.",
+				"concise": "엘리트 약화 마법(접근용). (1...6초) 대상은 마법을 사용할 수 없습니다. 자신도 마법을 사용할 수 없습니다.(15초)"
+			},
+			"pl": {
+				"name": "Całun Ciszy",
+				"description": "Elitarna klątwa (czar). Wszystkie twoje czary będą niedostępne przez 15 sek. Przez 1...6 sek. wybrany dotknięty przeciwnik nie może rzucać czarów.",
+				"concise": "Elitarna klątwa dotykowa - czar. (1...6 sek.) Wybrany przeciwnik nie może rzucać czarów. Twoje czary są wyłączone (15 sek.)."
+			},
+			"ru": {
+				"name": "Shroud of Silence",
+				"description": "Элитное заклинание-проклятье. Все ваши заклинания становятся недоступными на 15 сек. В течение 1...6 сек противник, до которого вы дотронулись, не может произносить заклинания.",
+				"concise": "Элитное заклинание-проклятье с прикосновением. (1...6 сек) Выбранный противник не может активировать заклинания. Все ваши заклинания недоступны на 15 сек."
+			},
+			"bork": {
+				"name": "Shruood ooff Seelence-a",
+				"description": "Ileete-a Hex Spell. Aell ooff yuoor spells aere-a deesaebled fur 15 secunds. Fur 1...6 secunds, taerget tuooched fue-a cunnut caest spells.",
+				"concise": "Ileete-a Tuooch Hex Spell. (1...6 secunds.) Taerget fue-a cunnut caest spells. Yuoor spells aere-a deesaebled fur 15 secunds."
 			}
 		}
 	}

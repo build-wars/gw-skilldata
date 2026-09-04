@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0.5,
+		"aftercast": 1.5,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "禁魔箭",
+				"description": "精英弓术。 命中时，打断敌人的动作。如果被打断的是法术，则此技能立即冷却。",
+				"concise": "精英弓术。 命中时，打断敌人的动作。如果被打断的是法术，则此技能立即冷却。"
+			},
+			"cht": {
+				"name": "馬格班射擊",
+				"description": "精英弓術攻擊技能： 命中時中斷目標敵人的動作，若該目標被中斷的是「魔法」，而該魔法額外將無法使用 10 秒。此技能無法被「格擋」。",
+				"concise": "精英弓術攻擊技能： 命中時中斷目標敵人的動作，若該目標被中斷的是「魔法」，則此技能立即回復。"
+			},
 			"de": {
+				"name": "Verderben des Magiers-Schuss",
+				"description": "Elite-Bogenangriff. Wenn dieser Angriff erfolgreich ist, unterbricht er die Aktion des Gegners. Wenn diese Aktion ein Zauber war, wird er zusätzlich 10 Sekunden[n] lang deaktiviert. Dieser Angriff kann nicht geblockt werden.",
+				"concise": "Elite-Bogenangriff. Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochener Zauber ist +10 Sekunde[n] lang deaktivert. Kann nicht geblockt werden."
+			},
+			"de-guildwiki": {
 				"name": "Verderben des Magiers-Schuss",
 				"description": "Wenn dieser Angriff erfolgreich ist, unterbricht er die Aktion des Gegners. Wenn diese Aktion ein Zauber war, wird er zusätzlich 10 Sekundenn<sic/> lang deaktiviert. Dieser Angriff kann nicht geblockt werden.",
 				"concise": "Unterbricht eine Aktion. Unterbrechungswirkung: Unterbrochener Zauber ist +10 Sekunden lang deaktiviert. Kann nicht geblockt werden."
 			},
 			"en": {
 				"name": "Magebane Shot",
+				"description": "Elite Bow Attack. If this attack hits, it interrupts target foe's action. If that action was a spell, it is disabled for an additional 10 seconds. This attack cannot be blocked.",
+				"concise": "Elite Bow Attack. Interrupts an action. Interruption effect: an interrupted spell is disabled for +10 seconds. Unblockable."
+			},
+			"en-gww": {
+				"name": "Magebane Shot",
 				"description": "If this attack hits, it interrupts target foe's action. If that action was a spell, it is disabled for an additional 10 seconds. This attack cannot be blocked.",
 				"concise": "Interrupts an action. Interruption effect: an interrupted spell is disabled for +10 seconds. Unblockable."
 			},
+			"es": {
+				"name": "Disparo antimagos",
+				"description": "Ataque con arco de élite. Si impacta, este ataque interrumpe la acción del enemigo objetivo. Si la acción era un conjuro, quedará desactivado durante 10 segundos más. No se puede bloquear este ataque.",
+				"concise": "Ataque con arco de élite. Interrumpe una acción. Efecto: la habilidad interrumpida queda desactivada durante +10 segundos. No se puede bloquear."
+			},
 			"fr": {
+				"name": "Tir du Fléau des mages",
+				"description": "Attaque à l'arc d'élite. Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, il est inutilisable pendant 10 secondes supplémentaires. Cette attaque ne peut pas être bloquée.",
+				"concise": "Attaque à l'arc d'élite. Interrompt une action. Effet de l'interruption : un sort interrompu est désactivé pendant +10 secondes. Impossible à bloquer."
+			},
+			"fr-gwiki": {
 				"name": "Tir du Fléau des mages",
 				"description": "Si cette attaque réussit, elle interrompt l'action de la cible ennemie. S'il s'agissait d'un sort, il est inutilisable pendant 10 secondes supplémentaires. Cette attaque ne peut pas être bloquée.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Tiro Rovinamaghi",
+				"description": "Attacco con Arco d'Élite. Se questo attacco va a segno, interrompe l'azione dell'obiettivo nemico; se interrompe una magia, la disattiva per 10 secondo[i] in più. Questo attacco non può essere bloccato.",
+				"concise": "Attacco con Arco d'Élite. Interrompe un'azione. Effetto dell'interruzione: una magia interrotta viene disattivata per +10 secondo[i]. Non bloccabile."
+			},
+			"jp": {
+				"name": "メイジベイン ショット",
+				"description": "エリート ボウ アタック： この攻撃が成功すると、ターゲットした敵のアクションを中断します。スペルを中断した場合、そのスペルの再使用時間が 10 秒増加します。このスキルはブロックされません。",
+				"concise": "エリート ボウ アタック： アクションを中断します。中断効果： 中断したスペルの再使用時間が 10 秒増加します。この攻撃はブロックされません。"
+			},
+			"kr": {
+				"name": "대마법 사격",
+				"description": "엘리트 활 공격. 대상 지정: 적. 공격이 성공하면 대상의 동작을 방해합니다. 그 동작이 마법이면 그 마법의 재활성 시간을 10초 증가시킵니다. 이 공격은 막을 수 없습니다.",
+				"concise": "엘리트 활 공격. 동작을 방해합니다. 방해 효과: 방해 받은 마법은 재활성 시간이 10초 늘어납니다. 이 공격은 막을 수 없습니다."
+			},
+			"pl": {
+				"name": "Strzał Zguby Magów",
+				"description": "Elitarny strzał z łuku. Jeżeli atak trafi, przerywasz czynność wybranego przeciwnika. Jeżeli tą czynnością było rzucanie czaru, zostaje on wyłączony na dodatkowe 10 sek. Tego ataku nie można zablokować.",
+				"concise": "Elitarny strzał z łuku. Przerywa czynność. Efekt przerwania: przerwany czar jest niedostępny przez +10 sek. Nie do zablokowania."
+			},
+			"ru": {
+				"name": "Magebane Shot",
+				"description": "Элитная атака из лука. Если этот выстрел попадает в цель, действие выбранного противника будет прервано. Если прерванное действие было заклинанием, то это заклинание будет недоступно дополнительно в течение 10 сек. Эту атаку нельзя блокировать.",
+				"concise": "Элитная атака из лука. Прерывает действие. Эффект прерывания: прерванное умение будет недоступно дополнительно на 10 сек."
+			},
+			"bork": {
+				"name": "Maegebune-a Shut",
+				"description": "Ileete-a Boo Aettaeck. Iff thees aettaeck heets, it interroopts taerget fue-a's aecshun. Iff thaet aecshun vaes a spell, it is deesaebled fur un aeddeeshunael 10 secunds. Thees aettaeck cunnut be-a blucked.",
+				"concise": "Ileete-a Boo Aettaeck. Interroopts un aecshun. Interroopshun iffffect: un interroopted spell is deesaebled fur +10 secunds. Unbluckaeble-a."
 			}
 		}
 	}

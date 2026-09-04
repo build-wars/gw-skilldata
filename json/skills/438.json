@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "致残撕咬",
+				"description": "宠物攻击。 你的动物伙伴发动致残打击，造成+5...20点伤害。如果该攻击命中，则目标进入致残状态，持续3...15秒。",
+				"concise": "宠物攻击。 造成+5...20伤害。命中时附加致残状态，持续3...15秒。"
+			},
+			"cht": {
+				"name": "傷殘之擊",
+				"description": "寵物攻擊： Your animal companion attempts a Maiming Strike that deals +5...20 damage. If that attack hits that foe becomes Crippled for 3...15 seconds.",
+				"concise": "寵物攻擊： Deals +5...20 damage. Inflicts Crippled condition (3...15 seconds) on hit."
+			},
 			"de": {
+				"name": "Verkrüppelungs-Schlag",
+				"description": "Tiergefährtenangriff. Euer Tiergefährte versucht einen Verstümmelnden Schlag, der +5...20 Schaden verursacht. Wenn der Angriff trifft, wird der Gegner für 3...15 Sekunden verkrüppelt.",
+				"concise": "Tiergefährtenangriff. Verursacht +5...20 Schaden. Fügt bei Treffer den Zustand Verkrüppelt zu (3...15 Sekunden)."
+			},
+			"de-guildwiki": {
 				"name": "Verkrüppelungs-Schlag",
 				"description": "Euer Tiergefährte führt einen Verkrüppelungs-Schlag aus, der 5...20 Punkte zusätzlichen Schaden zufügt und den Gegner 3...15 Sekunden lang verkrüppelt.",
 				"concise": "Verursacht +5...20 Schaden. Fügt bei Treffer den Zustand Verkrüppelt zu (3...15 Sekunden)."
 			},
 			"en": {
 				"name": "Maiming Strike",
+				"description": "Pet Attack. Your animal companion attempts a Maiming Strike that deals +5...20 damage. If that attack hits that foe becomes Crippled for 3...15 seconds.",
+				"concise": "Pet Attack. Deals +5...20 damage. Inflicts Crippled condition (3...15 seconds) on hit."
+			},
+			"en-gww": {
+				"name": "Maiming Strike",
 				"description": "Your animal companion attempts a Maiming Strike that deals +5...20 damage. If that attack hits<sic/> that foe becomes Crippled for 3...15 seconds.",
 				"concise": "Deals +5...20 damage. Inflicts Crippled condition (3...15 seconds) on hit."
 			},
+			"es": {
+				"name": "Ataque mutilador",
+				"description": "Ataque con mascota. Con el Ataque mutilador, tu compañero animal hará +5...20 de daño. Si el golpe impacta, ese enemigo quedará lisiado durante 3...15 segundos.",
+				"concise": "Ataque con mascota. Inflige 5...20 de daño. Lisia (3...15 segundos) al impactar."
+			},
 			"fr": {
+				"name": "Assaut de mutilation",
+				"description": "Attaque de familier. Votre compagnon animal tente une Frappe estropiante qui inflige +5...20 points de dégâts. Si cette attaque porte, cet ennemi subit Infirmité pendant 3...15 secondes.",
+				"concise": "Attaque de familier. Inflige +5...20 points de dégâts. Inflige l'altération Infirmité (3...15 secondes) si cette attaque porte."
+			},
+			"fr-gwiki": {
 				"name": "Assaut de mutilation",
 				"description": "Votre familier tente un Assaut de mutilation qui inflige +5...20 points de dégâts. Si cette attaque touche un ennemi en mouvement, il souffrira d'Infirmité pendant 3...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Attacco Mutilante",
+				"description": "Attacco con Mascotte. Il tuo compagno animale prova a mettere a segno un colpo mutilante che infligge +5...20 danni. Se il nemico viene colpito, diventa azzoppato per 3...15 secondo/i.",
+				"concise": "Attacco con Mascotte. Infligge +5...20 danni. Se colpisce, infligge la condizione Azzoppato (3...15 secondo/i)."
+			},
+			"jp": {
+				"name": "メイム ストライク",
+				"description": "ペット アタック： 動物のコンパニオンが5...20ダメージを追加で与えるメイミングストライクを試みます。その攻撃が命中した場合、その敵は3...15秒間不自由になります。",
+				"concise": "ペット アタック： 5...20ダメージを追加で与えます。命中すると不自由状態にします（3...15秒）。"
+			},
+			"kr": {
+				"name": "날카로운 발톱",
+				"description": "펫 공격. 대상 지정: 없음. 펫이 날카로운 발톱을 사용하여 5...20의 대미지를 추가로 줍니다. 공격에 맞은 적은 3...15초 동안 다리 부상 상태가 됩니다.",
+				"concise": "펫 공격. 5...20의 대미지를 추가로 줍니다. 적중 시 3...15초 동안 다리 부상을 입힙니다."
+			},
+			"pl": {
+				"name": "Okaleczające Uderzenie",
+				"description": "Atak zwierzaka. Twój zwierzęcy towarzysz wykonuje Okaleczające Uderzenie, które zadaje +5...20 pkt. obrażeń. Jeśli atak trafi przeciwnika, to przeciwnik ten zostanie okulawiony na 3...15 sek.",
+				"concise": "Atak zwierzaka. Zadaje +5...20 pkt. obrażeń. Po trafieniu powoduje okulawienie (na 3...15 sek.)."
+			},
+			"ru": {
+				"name": "Maiming Strike",
+				"description": "Атака питомца. Ваш питомец пытается использовать Maiming Strike, наносящий +5...20 урона. Если атака достигает цели, этот враг получает статус Crippled на 3...15 сек.",
+				"concise": "Атака питомца. Наносит +5...20 урона. При попадании накладывает состояние Crippled (3...15 сек.)."
+			},
+			"bork": {
+				"name": "Maeeemeeng Streeke-a",
+				"description": "Pet Aettaeck. Yuoor uneemael cumpuneeun aettempts a Maeeemeeng Streeke-a thaet deaels +5...20 daemaege-a. Iff thaet aettaeck heets thaet fue-a becumes Creeppled fur 3...15 secunds.",
+				"concise": "Pet Aettaeck. Deaels +5...20 daemaege-a. Inffleects Creeppled cundeeshun (3...15 secunds) oon heet."
 			}
 		}
 	}

@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "反叛",
+				"description": "精英增益魔法。 在 5秒 之内，当我方队员对敌人造成物理伤害时，使其失去一项「增益魔法」。该队员每成功移除一项对方的僧侣类「增益魔法」，你将失去最多 10...3% 的生命值。",
+				"concise": "精英增益魔法。 在 5秒 之内，当我方队员对敌人造成物理伤害时，使其失去一项「增益魔法」。该队员每成功移除一项对方的僧侣类「增益魔法」，你将失去最多 10...3% 的生命值。"
+			},
+			"cht": {
+				"name": "背叛命令",
+				"description": "精英加持魔法： 持續 5 秒，每當隊伍成員對敵人造成物理傷害時使其失去一項「加持」。每成功移除一項「僧侶」的「加持」，你失去最大體力值 10...3% 的體力。",
+				"concise": "精英加持魔法： 持續 5 秒，每當隊伍成員對敵人造成物理傷害時使其失去一項「加持」。每成功移除一項「僧侶」的「加持」，你失去最大體力值 10...3% 的體力。"
+			},
 			"de": {
+				"name": "Orden der Abtrünnigkeit",
+				"description": "Elite-Verzauberung. 5 Sekunden lang verliert der Gegner jedes Mal, wenn er von einem Gruppenmitglied mit physischem Schaden getroffen wird, eine Verzauberung. Für jede entfernte Mönch-Verzauberung verliert Ihr 10...3% Eurer maximalen Lebenspunkte.",
+				"concise": "Elite-Verzauberung. Verzaubert alle Gruppenmitglieder (5 Sekunden). Die Betroffenen entfernen eine Verzauberung, wenn sie physischen Schaden anrichten. Entfernungskosten: Für jede entfernte Mönch-Verzauberung verliert Ihr 10...3% Eurer maximalen Lebenspunkte."
+			},
+			"de-guildwiki": {
 				"name": "Orden der Abtrünnigkeit",
 				"description": "5 Sekunden lang verliert der Gegner jedes Mal, wenn er von einem Gruppenmitglied mit physischem Schaden getroffen wird, eine Verzauberung. Für jede entfernte Mönchs-Verzauberung verliert Ihr 10...3% Eurer maximalen Lebenspunkte.",
 				"concise": "Verzaubert alle Gruppenmitglieder (5 Sekunden). Die Betroffenen entfernen eine Verzauberung, wenn sie physischen Schaden anrichten. <gray>Entfernungskosten: Für jede entfernte Mönch-Verzauberung verliert Ihr 10...3% Eurer maximalen Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Order of Apostasy",
+				"description": "Elite Enchantment Spell. For 5 seconds, whenever a party member hits a foe with physical damage, that foe loses one enchantment. For each Monk enchantment removed, you lose 10...3% maximum Health.",
+				"concise": "Elite Enchantment Spell. Enchants all party members (5 seconds). These party members remove one enchantment when they deal physical damage. Removal cost: for each Monk enchantment, you lose 10...3% maximum Health."
+			},
+			"en-gww": {
+				"name": "Order of Apostasy",
 				"description": "For 5 seconds, whenever a party member hits a foe with physical damage, that foe loses one enchantment. For each Monk enchantment removed, you lose 10...3% maximum Health.",
 				"concise": "Enchants all party members (5 seconds). These party members remove one enchantment when they deal physical damage. <gray>Removal cost: for each Monk enchantment, you lose 10...3% maximum Health.</gray>"
 			},
+			"es": {
+				"name": "Orden de la apostasía",
+				"description": "Conjuro con encantamiento de élite. Durante 5 segundos, siempre que un aliado golpee a algún enemigo con daño físico, éste perderá un encantamiento. Si es un encantamiento de Monje, perderás 10...3% de salud máxima.",
+				"concise": "Conjuro con encantamiento de élite. Afecta a todos los compañeros de equipo (5 segundos). Éstos pierden un encantamiento cuando hagan daño físico. Coste de la eliminación: por cada encantamiento de Monje, pierdes un 10...3% de salud máxima."
+			},
 			"fr": {
+				"name": "Ordre d'apostasie",
+				"description": "Enchantement d'élite. Pendant 5 secondes, chaque fois qu'un membre du groupe inflige des dégâts physiques à un ennemi, celui-ci perd un enchantement. Pour chaque enchantement de Moine supprimé, vous perdez 10...3% de santé maximum.",
+				"concise": "Enchantement d'élite. Enchante tous les membres de l'équipe (5 secondes). Ces derniers retirent un enchantement lorsqu'ils infligent des dégâts physiques. Coût de la suppression : pour chaque enchantement de Moine, vous perdez 10...3% de santé maximum."
+			},
+			"fr-gwiki": {
 				"name": "Ordre d'apostasie",
 				"description": "Pendant 5 secondes, chaque fois qu'un membre du groupe inflige des dégâts physiques à un ennemi, celui-ci perd un enchantement. Pour chaque enchantement de Moine supprimé, vous perdez 10...3% de santé maximum.",
 				"concise": "Enchante tous les membres de l'équipe (5 secondes). Ces derniers perdent un enchantement lorsqu'ils infligent des dégâts physiques. <gray>Coût de la suppression : pour chaque enchantement de Moine, vous perdez 10...3% de santé maximum.</gray>"
+			},
+			"it": {
+				"name": "Ordine dell'Apostasia",
+				"description": "Incantesimo d'Élite. Per 5 secondi, ogni volta che un membro della tua squadra infligge un danno fisico al nemico gli fa perdere un incantesimo; per ogni incantesimo del Mistico rimosso, perdi un 10...3% della Salute massima.",
+				"concise": "Incantesimo d'Élite. Incanta tutti i membri della squadra (5 secondi). Questi membri della squadra rimuovono un incantesimo quando assestano danni fisici. Costo di rimozione: per ogni incantesimo del Mistico perdi un 10...3% di Salute massima."
+			},
+			"jp": {
+				"name": "アポスタシー オーダー",
+				"description": "エリート強化スペル： 5秒間、パーティー メンバーの物理攻撃が成功するたびに、その敵にかけられている強化スペルが1個解除されます。ただし、モンクの強化スペルが解除されるたびに、プレイヤーの体力が上限の 10...3% 減少します。",
+				"concise": "エリート強化スペル： (5秒) パーティー メンバーは全員、物理ダメージを与えると敵にかけられている強化スペルを1個解除します。解除コスト： モンクの強化スペルが解除されるたびに、プレイヤーは上限の 10...3% の体力を失います。"
+			},
+			"kr": {
+				"name": "변절의 주문",
+				"description": "엘리트 강화 마법. 대상 지정: 없음. 5초 동안 파티원이 적에게 물리 대미지를 줄 때마다 그 적의 강화 마법이 하나씩 무효화됩니다. 이렇게 몽크 강화 마법이 무효화될 때마다 당신은 최대 체력이 10...3%씩 감소합니다.",
+				"concise": "엘리트 강화 마법. (5초) 파티원들이 적에게 물리 대미지를 줄 때마다 그 적의 강화 마법을 하나씩 무효화합니다. 무효화 대가: 몽크 강화 마법을 무효화할 때마다 자신은 최대 체력의 10...3%를 잃습니다."
+			},
+			"pl": {
+				"name": "Rozkaz Apostazji",
+				"description": "Elitarne zaklęcie (czar). Przez 5 sek., za każdym razem, kiedy członek drużyny trafi przeciwnika zadając obrażenia fizyczne, ten przeciwnik traci jedno zaklęcie. Za każde zdjęte zaklęcie mnicha, tracisz 10...3% maksymalnych pkt. żywotności.",
+				"concise": "Elitarne zaklęcie (czar). Zaklina wszystkich członków drużyny (5 sek.). Ci członkowie drużyny usuwają po jednym zaklęciu, kiedy zadają fizyczne obrażenia. Koszt usunięcia: za każde zaklęcie mnicha, tracisz 10...3% maksymalnych punktów żywotności."
+			},
+			"ru": {
+				"name": "Order of Apostasy",
+				"description": "Элитное заклинание-чары. В течение 5 сек каждый раз, когда член вашего отряда наносит противнику физический урон, этот противник теряет одни наложенные на него чары. За каждые снятые чары профессии Monk вы теряете 10...3% здоровья от вашего максимального уровня.",
+				"concise": "Элитное заклинание-чары. Накладывает чары на всех членов отряда (5 сек). Эти члены отряда снимают одни чары каждый раз, когда наносят физический урон. Цена снятия: за каждые снятые чары профессии Monk вы теряете 10...3% здоровья от вашего максимального уровня."
+			},
+			"bork": {
+				"name": "Oorder ooff Aepustaesy",
+				"description": "Ileete-a Inchuntment Spell. Fur 5 secunds, vhenefer a paerty member heets a fue-a veet physeecael daemaege-a, thaet fue-a luses oone-a inchuntment. Fur iaech Munk inchuntment remufed, yuoo luse-a 10...3% maexeemoom Heaelt.",
+				"concise": "Ileete-a Inchuntment Spell. Inchunts aell paerty members (5 secunds). Zeese-a paerty members remufe-a oone-a inchuntment vhee zeey deael physeecael daemaege-a. Remufael cust: fur iaech Munk inchuntment, yuoo luse-a 10...3% maexeemoom Heaelt."
 			}
 		}
 	}

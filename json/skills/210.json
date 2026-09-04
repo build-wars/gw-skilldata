@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "冰之牢狱",
+				"description": "负面魔法。 使目标敌人的双脚被寒冰包裹，移动速度降低 66%。如果目标受到火焰伤害，则减速效果消失，技能持续 8...20秒。",
+				"concise": "负面魔法。 使目标敌人的双脚被寒冰包裹，移动速度降低 66%。如果目标受到火焰伤害，则减速效果消失，技能持续 8...20秒。"
+			},
+			"cht": {
+				"name": "冰之牢獄",
+				"description": "降咒魔法： 持續 8...20 秒，使目標敵人的雙腳被冰包裹，造成該目標移動速度減慢 66% 。若目標受到火焰傷害，則其速度減慢的效果終止。",
+				"concise": "降咒魔法： 持續 8...20 秒，使目標敵人的雙腳被冰包裹，造成該目標移動速度減慢 66% 。若目標受到火焰傷害，則其速度減慢的效果終止。"
+			},
 			"de": {
+				"name": "Eisgefängnis",
+				"description": "Verhexung. 8...20 Sekunde[n] lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden.",
+				"concise": "Verhexung. (8...20 Sekunde[n].) Gegner bewegt sich um 66% langsamer."
+			},
+			"de-guildwiki": {
 				"name": "Eisgefängnis",
 				"description": "8...20 Sekunden lang werden die Beine des Gegners von Eis umschlossen, wodurch seine Bewegungen um 66% langsamer werden.",
 				"concise": "8...20 Sekunden: Gegner bewegt sich um 66% langsamer."
 			},
 			"en": {
 				"name": "Ice Prison",
+				"description": "Hex Spell. For 8...20 seconds, target foe's legs are encased in ice, causing the foe to move 66% slower.",
+				"concise": "Hex Spell. (8...20 seconds.) Target foe moves 66% slower."
+			},
+			"en-gww": {
+				"name": "Ice Prison",
 				"description": "For 8...20 seconds, target foe's legs are encased in ice, causing the foe to move 66% slower.",
 				"concise": "(8...20 seconds.) Target foe moves 66% slower."
 			},
+			"es": {
+				"name": "Prisión de hielo",
+				"description": "Conjuro con maleficio. Durante 8...20 segundos, las piernas del enemigo objetivo estarán atrapadas en hielo y se moverá un 66% más lento.",
+				"concise": "Conjuro con maleficio. (8...20 segundos). El enemigo objetivo se mueve un 66% más despacio."
+			},
 			"fr": {
+				"name": "Prison de glace",
+				"description": "Maléfice. Pendant 8...20 secondes, les jambes de l'ennemi sont prises dans la glace et ses mouvements sont ralentis de 66%.",
+				"concise": "Maléfice. (8...20 secondes.) La cible ennemie se déplace 66% moins vite."
+			},
+			"fr-gwiki": {
 				"name": "Prison de glace",
 				"description": "Pendant 8...20 secondes, les jambes de l'ennemi sont prises dans la glace et ses mouvements sont ralentis de 66%. L'effet est dissipé lorsque la cible subit des dégâts du feu.",
 				"concise": "(8...20 secondes.) La cible ennemie se déplace 66% moins vite."
+			},
+			"it": {
+				"name": "Prigione di Ghiaccio",
+				"description": "Fattura. Per 8...20 secondi le gambe dell'obiettivo nemico sono imprigionate nel ghiaccio e la sua velocità diminuisce del 66%.",
+				"concise": "Fattura. (Secondi: 8...20.) La velocità dell'obiettivo nemico rallenta del 66%."
+			},
+			"jp": {
+				"name": "アイス プリズン",
+				"description": "弱体化スペル： 8...20 秒間、ターゲットした敵は足が凍りつき、移動速度が66%減少します。",
+				"concise": "弱体化スペル： (8...20 秒) ターゲットした敵は移動速度が66%減少します。"
+			},
+			"kr": {
+				"name": "얼음 속박",
+				"description": "약화 마법. 대상 지정: 적. 8...20초 동안 대상의 다리가 얼음으로 뒤덮여 이동 속도가 66% 느려집니다.",
+				"concise": "약화 마법. (8...20초) 대상의 이동 속도가 66% 느려집니다."
+			},
+			"pl": {
+				"name": "Lodowe Więzienie",
+				"description": "Klątwa (czar). Przez 8...20 sek., nogi wybranego przeciwnika zostają uwięzione w lodzie, powodując jego spowolnienie o 66%. Działanie czaru skończy się, gdy cel otrzyma obrażenia od ognia.",
+				"concise": "Klątwa (czar). (8...20 sek.) Wybrany przeciwnik porusza się o 66% wolniej. Przestanie działać, jeśli ten przeciwnik otrzyma obrażenia od ognia."
+			},
+			"ru": {
+				"name": "Ice Prison",
+				"description": "Заклинание-проклятье. В течение 8...20 сек ноги выбранного противника скованы льдом, из-за чего он двигается на 66% медленнее.",
+				"concise": "Заклинание-проклятье. (8...20 сек) Выбранный противник двигается на 66% медленнее."
+			},
+			"bork": {
+				"name": "Ice-a Preesun",
+				"description": "Hex Spell. Fur 8...20 secunds, taerget fue-a's legs aere-a incaesed in ice-a, cooseeng zee fue-a tu mufe-a 66% slooer.",
+				"concise": "Hex Spell. (8...20 secunds.) Taerget fue-a mufes 66% slooer."
 			}
 		}
 	}

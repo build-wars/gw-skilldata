@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0,
 		"recharge": 5,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "同愈",
+				"description": "精英技能。 当你或你的宠物生命值低于 1...20% 时，两者同时获得 20...104点 生命值。如果你的宠物已死，那么它将复生并恢复 50% 的生命值。",
+				"concise": "精英技能。 当你或你的宠物生命值低于 1...20% 时，两者同时获得 20...104点 生命值。如果你的宠物已死，那么它将复生并恢复 50% 的生命值。"
+			},
+			"cht": {
+				"name": "治癒合一",
+				"description": "精英技能： 治療你以及寵物 20...104 體力。持續 15 秒，寵物攻擊時偷取 1...20 體力。若是寵物死亡則復活寵物且具有 50% 體力。裝備此技能時寵物將與你一同旅行。",
+				"concise": "精英技能： 治療你以及寵物 20...104 體力。持續 15 秒，寵物攻擊時偷取 1...20 體力。若是寵物死亡則復活寵物且具有 50% 體力。裝備此技能時寵物將與你一同旅行。"
+			},
 			"de": {
+				"name": "Gemeinsame Heilung",
+				"description": "Elite-Fertigkeit. Euer Tiergefährte entzieht 15 Sekunde[n] lang jedes Mal 1...20 Lebenspunkt[e], wenn er mit einem Angriff trifft. Sowohl Ihr als auch Euer Tiergefährte werdet für 20...104 Lebenspunkt[e] geheilt. Wenn Euer Gefährte tot ist, wird er mit 50% der Lebenspunkte wiederbelebt. Wenn Ihr diese Fertigkeit benutzt, reist Euer Tiergefährte mit Euch.",
+				"concise": "Elite-Fertigkeit. (15 Sekunde[n].) Die Angriffe Eures Tiergefährten entziehen 20...104 Lebenspunkt[e]. Anfangswirkung: Heilt Euch und Euren Tiergefährten für 20...104 Lebenspunkt[e]. Falls Euer Tiergefährte tot ist, wird er wiederbelebt (50% Lebenspunkte) Wenn Ihr diese Fertigkeit benutzt, reist Euer Tiergefährte mit Euch."
+			},
+			"de-guildwiki": {
 				"name": "Gemeinsame Heilung",
 				"description": "Euer Tiergefährte entzieht 15 Sekunden lang jedes Mal 1...20 Lebenpunkte, wenn er mit einem Angriff trifft. Sowohl Ihr als auch Euer Tiergefährte werden für 20...104 Lebenspunkte geheilt. Wenn Euer Gefährte tot ist, wird er mit 50% der Lebenspunkte wiederbelebt. Wenn Ihr diese Fertigkeit benutzt, reist Euer Tiergefährte mit Euch.",
 				"concise": "(15 Sekunden.) Euer Tiergefährte einzieht mit jedem Angriff 1...20 Lebenspunkte. Anfangswirkung: Heilt Euch und Euren Tiergefährten für 20...104 Lebenspunkte. Euer Tiergefährte wird wiederbelebt (50% Lebenspunkte). Wenn Ihr diese Fertigkeit benutzt, reist Euer Tiergefährte mit Euch."
 			},
 			"en": {
 				"name": "Heal as One",
+				"description": "Elite Skill. For 15 seconds, your animal companion steals 1...20 Health whenever it hits with an attack. You and your companion are both healed for 20...104 Health. If your companion is dead, it's resurrected with 50% Health. If you have this skill equipped, your companion will travel with you.",
+				"concise": "Elite Skill. (15 seconds.) Your pet's attacks steal 1...20 Health. Initial effect: heals you and your pet for 20...104; resurrects your pet (50% Health) if dead. If you have this skill equipped, your pet will travel with you."
+			},
+			"en-gww": {
+				"name": "Heal as One",
 				"description": "For 15 seconds, your animal companion steals 1...20 Health whenever it hits with an attack. You and your companion are both healed for 20...104 Health. If your companion is dead, it's resurrected with 50% Health. If you have this skill equipped, your companion will travel with you.",
 				"concise": "(15 seconds.) Your pet's attacks steal 1...20 Health. Initial effect: heals you and your pet for 20...104; resurrects your pet (50% Health) if dead. If you have this equipped, your pet will travel with you."
 			},
+			"es": {
+				"name": "Curación simbiótica",
+				"description": "Habilidad de élite. Durante 15 segundos, tu mascota roba 1...20 de salud cada vez que logre hacer un ataque. Tú y tu mascota os curáis 20...104 de salud. Si tu mascota está muerta, la resucitarás con el 50% de salud. Si tienes equipada esta habilidad, tu mascota viajará contigo.",
+				"concise": "Habilidad de élite. (15 segundos). Los ataques de tu mascota roban 1...20 de salud. Efecto inicial: tú y tu mascota os curáis 20...104 de salud; resucitas a tu mascota (50% de salud) si está muerta. Si tienes equipada esta habilidad, tu mascota viajará contigo."
+			},
 			"fr": {
+				"name": "Guérison partagée",
+				"description": "Compétence élite. Pendant 15 secondes, votre familier vole 1...20 points de vie chaque fois qu'il réussit une attaque. Votre familier et vous êtes soignés de 20...104 points de vie. Si votre familier est mort, il est ressuscité avec 50% de santé. Si vous êtes équipé de cette compétence, votre familier vous accompagnera lors de vos déplacements.",
+				"concise": "Compétence élite. (15 secondes.) Les attaques de votre familier volent 1...20 points de vie. Effet initial : vous soigne vous et et votre familier de 20...104 points, ressuscite votre familier (50% de santé) s'il meurt. Si vous êtes équipé de cette compétence, votre familier vous accompagnera lors de vos déplacements."
+			},
+			"fr-gwiki": {
 				"name": "Guérison partagée",
 				"description": "Pendant 15 secondes, votre familier vole 1...20 points de vie chaque fois qu'il réussit une attaque. Effet initial : si votre familier meurt, il est ressuscité avec 50% de points de santé. Sinon, vous et votre familier recevez tous les deux 20...104 points de santé. Si vous êtes équipé de Guérison partagée, votre familier vous suivra.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Guarigione Congiunta",
+				"description": "Abilità d'Élite. Per 15 secondo[i], la tua mascotte sottrae 1...20 Punto[i] Salute quando un suo attacco va a segno. Tu e la tua mascotte venite curati di 20...104 Punto[i] Salute. Se la tua mascotte è morta, viene resuscitata con un 50% di Salute. Se sei equipaggiato di questa abilità, la mascotte potrà viaggiare insieme a te.",
+				"concise": "Abilità d'Élite. (Secondo[i]: 15). Gli attacchi della tua mascotte sottraggono 1...20 Punto[i] Salute. Effetto iniziale: cure per te e la tua mascotte: 20...104; resuscita la tua mascotte (50% Salute), se morta. Se sei equipaggiato di questa abilità, la mascotte potrà viaggiare insieme a te."
+			},
+			"jp": {
+				"name": "ヒール アズ ワン",
+				"description": "エリート スキル： 15 秒間、プレイヤーのペットは攻撃が成功するたびに 1...20 の体力を奪い取ります。また、プレイヤーおよびペットは体力が 20...104 回復します。ペットが戦闘不能な場合、上限の50%の体力で復活します。このスキルを装備している間、ペットを連れて歩くことができます。",
+				"concise": "エリート スキル： (15 秒) ペットは攻撃により 1...20 の体力を奪い取ります。発動効果： プレイヤーおよびペットの体力が 20...104 回復します。ペットが戦闘不能な場合は50%の体力で復活します。このスキルを装備している間、ペットを連れて歩くことができます。"
+			},
+			"kr": {
+				"name": "동반 회복",
+				"description": "엘리트 스킬. 대상 지정: 없음. 15초 동안 펫이 공격에 성공할 때마다 1...20의 체력을 뺏고, 자신과 펫의 체력을 20...104만큼 회복합니다. 펫이 죽으면 50%의 체력을 지닌 채 살아납니다. 스킬 등록창에 이 스킬이 있으면 펫이 다른 지역으로 함께 이동합니다.",
+				"concise": "엘리트 스킬. (15초) 펫이 공격이 1...20의 체력을 뺏습니다. 초기 효과: 자신과 펫의 체력을 20...104만큼 회복시킵니다. 펫이 죽으면 자동으로 부활합니다.(체력 50%) 스킬 등록창에 등록돼 있으면 펫과 함께 지역을 이동합니다."
+			},
+			"pl": {
+				"name": "Jedność w Uzdrowieniu",
+				"description": "Umiejętność elitarna. Przez 15 sek., twój zwierzęcy towarzysz wykrada 1...20 pkt. żywotności, za każdym razem gdy jego atak dojdzie celu. Zarówno ty, jak i twój zwierzęcy towarzysz odzyskujecie 20...104 pkt. żywotności. Jeśli twój towarzysz nie żyje, zostaje wskrzeszony z 50% żywotności. Jeśli posiadasz tę umiejętność na wyposażeniu, twój towarzysz będzie podróżował wraz z tobą.",
+				"concise": "Umiejętność elitarna. (15 sek.) Z każdym atakiem twój zwierzęcy towarzysz wykrada 1...20 pkt. żywotności. Efekt początkowy: przywraca 20...104 pkt. żywotności tobie i twojemu zwierzęciu; wskrzesza twojego zwierzęcego towarzysza (50% żywotności), jeśli ten nie żyje. Jeśli posiadasz tę umiejętność na wyposażeniu, twój towarzysz będzie podróżował wraz z tobą."
+			},
+			"ru": {
+				"name": "Heal as One",
+				"description": "Элитное умение. В течение 15 сек сопровождающее вас животное пощихает 1...20 ед. здоровья при каждой своей успешной атаке. Вы и ваш питомец исцеляетесь на 20...104 ед. здоровья. Если ваш питомец мертв, он будет воскрешен с 50% здоровья. Если вы взяли с собой это умение, ваше животное будет путешествовать с вами.",
+				"concise": "Элитное умение. (15 сек) Атаки вашего питомца похищают 1...20 ед. здоровья. Начальный эффект: исцеляет вас и вашего питомца на 20...104 ед. здоровья; воскрешает вашего питомца (50% здоровья), если он мертв. Если вы взяли с собой это умение, ваш питомец будет путешествовать с вами."
+			},
+			"bork": {
+				"name": "Heael aes Oone-a",
+				"description": "Ileete-a Skeell. Fur 15 secunds, yuoor uneemael cumpuneeun steaels 1...20 Heaelt vhenefer it heets veet un aettaeck. Yuoo und yuoor cumpuneeun aere-a but heaeled fur 20...104 Heaelt. Iff yuoor cumpuneeun is deaed, it's resoorrected veet 50% Heaelt. Iff yuoo haefe-a thees skeell iqooeepped, yuoor cumpuneeun veell traefel veet yuoo.",
+				"concise": "Ileete-a Skeell. (15 secunds.) Yuoor pet's aettaecks steael 1...20 Heaelt. Ineeteeael iffffect: heaels yuoo und yuoor pet fur 20...104; resoorrects yuoor pet (50% Heaelt) iff deaed. Iff yuoo haefe-a thees skeell iqooeepped, yuoor pet veell traefel veet yuoo."
 			}
 		}
 	}

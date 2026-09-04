@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 25,
 		"activation": 5,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "庇护",
+				"description": "缚灵仪式。 创造一只等级为1...8的庇护缚灵。在范围内的「非灵体」类队友所受到单次攻击的伤害不会超过他生命最大值的10% 。缚灵的效果每发动一次，缚灵将失去75...45点生命值。缚灵在30...60秒后自然消失。",
+				"concise": "缚灵仪式。 创造一只等级为1...8的庇护缚灵。在范围内的非灵体类队友所受到单次攻击的伤害不会超过他生命最大值的 10% 。缚灵的效果每发动一次，缚灵将失去 75...45点 生命值。缚灵在 30...60秒 后自然消失。"
+			},
+			"cht": {
+				"name": "庇護 (PvP)",
+				"description": "縛靈儀式： 創造等級 1...8 的庇護縛靈。在範圍內的隊友所受到的單一攻擊，其傷害不會超過體力最大值的 10% 。當縛靈的效果發動時，縛靈將失去 75...45 體力。縛靈在 30...60 秒消失。",
+				"concise": "縛靈儀式： 創造等級 1...8 的庇護縛靈。在範圍內的隊友所受到的單一攻擊，其傷害不會超過體力最大值的 10% 。當縛靈的效果發動時，縛靈將失去 75...45 體力。縛靈在 30...60 秒消失。"
+			},
 			"de": {
+				"name": "Unterschlupf (PvP)",
+				"description": "Binderitual. Erstellt einen Geist der Stufe 1...8. Verbündete in seiner Reichweite, die keine Geister sind, können bei einem einzelnen Angriff höchstens 10% ihrer Lebenspunkte verlieren. Wenn dieser Geist Schaden verhindert, verliert er 75...45 Lebenspunkt[e]. Dieser Geist besteht 30...60 Sekunde[n] lang.",
+				"concise": "Binderitual. Erstellt einen Geist der Stufe 1...8 (30...60 Sekunde[n] Lebensdauer). Verbündete in Reichweite, die keine Geister sind, können durch einen einzelnen Angriff nicht mehr als 10% ihrer maximalen Lebenspunkte verlieren. Schadensverhinderungskosten: Der Geist verliert 75...45 Lebenspunkt[e]."
+			},
+			"de-guildwiki": {
 				"name": "Unterschlupf (PvP)",
 				"description": "Erstellt einen Geist der Stufe 1...8. Verbündete in seiner Reichweite, die keine Geister sind, können nicht mehr als 10% ihrer maximalen Lebenspunkte auf einmal verlieren. Wenn dieser Geist Schaden verhindert, verliert er 75...45 Lebenspunkte. Dieser Geist besteht 30...60 Sekunden lang.",
 				"concise": "Erstellt einen Geist der Stufe 1...8 (30...60 Sekunden Lebensdauer). Verbündete in Reichweite, die keine Geister sind, können nicht mehr als 10% ihrer maximalen Lebenspunkte auf einmal verlieren. <gray>Schadensverhinderungskosten: Der Geist verliert 75...45 Lebenspunkte.</gray>"
 			},
 			"en": {
 				"name": "Shelter (PvP)",
+				"description": "Binding Ritual. Create a level 1...8 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75...45 Health. This spirit lasts 30...60 seconds.",
+				"concise": "Binding Ritual. Creates a level 1...8 spirit (30...60 second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses 75...45 Health."
+			},
+			"en-gww": {
+				"name": "Shelter (PvP)",
 				"description": "Create a level 1...8 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75...45 Health. This spirit lasts 30...60 seconds.",
 				"concise": "Creates a level 1...8 spirit (30...60 second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. <gray>Damage prevention cost: this spirit loses 75...45 Health.</gray>"
 			},
+			"es": {
+				"name": "Refugio (PvP)",
+				"description": "Ritual con espíritus. Creas un espíritu de nivel 1...8. Los aliados que no sean espíritus y se encuentren dentro de su zona no perderán más del 10% del máximo de salud con un solo ataque. Cuando este espíritu se defienda, perderá 75...45 de salud. El espíritu morirá a los 30...60 segundos.",
+				"concise": "Ritual con espíritus. Crea un espíritu de nivel 1...8 (30...60 segundos de vida). Los aliados que no sean espíritus y se encuentren dentro de su zona no perderán más del 10% del máximo de salud con un solo ataque. Coste por defensa: el espíritu pierde 75...45 de salud."
+			},
 			"fr": {
+				"name": "Protection (PvP)",
+				"description": "Rituel d'asservissement. Crée un esprit de niveau 1...8. Les alliés (autres que des esprits) dans sa portée ne peuvent pas perdre plus de 10% de leur santé maximum sur une attaque. Lorsque cet esprit empêche les dégâts, il perd 75...45 points de vie. Cet esprit dure 30...60 secondes.",
+				"concise": "Rituel d'asservissement. Crée un esprit de niveau 1...8 (durée de vie de 30...60 secondes). Les alliés (autres que les esprits) à portée ne peuvent pas perdre plus de 10% de leur santé maximum d'un seul coup. Coût de la prévention des dégâts : cet esprit perd 75...45 points de vie."
+			},
+			"fr-gwiki": {
 				"name": "Refuge (PvP)",
 				"description": "Crée un esprit de niveau 1...8. Les alliés (autres que des esprits) dans sa portée ne peuvent pas perdre plus de 10% de leur santé maximum sur une attaque. Lorsque cet esprit empêche les dégâts, il perd 75...45 points de vie. Cet esprit dure 30...60 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Riparo (PvP)",
+				"description": "Rituale Incatenante. Crea uno spirito di livello 1...8. Gli alleati (spiriti esclusi) nel raggio d'azione dello spirito creato non possono perdere più del 10% della loro Salute massima a seguito di un singolo attacco. Quando lo spirito impedisce il danno, perde 75...45 Punti Salute. Lo spirito si esaurisce dopo 30...60 secondi.",
+				"concise": "Rituale Incatenante. Crea uno spirito di livello 1...8 (in vita per 30...60 secondi). Gli alleati (spiriti esclusi) nel raggio d'azione dello spirito creato non possono perdere più del 10% della loro Salute massima a seguito di un singolo attacco. Costo di prevenzione del danno: lo spirito perde 75...45 Punti Salute."
+			},
+			"jp": {
+				"name": "シェルター (PvP)",
+				"description": "バインド リチュアル： レベル 1...8 の精霊を召喚します。この精霊の効果範囲内では、精霊以外の味方は1回の攻撃により失う体力が上限の10%以下になります。この効果によりダメージが減少すると、精霊は 75...45 の体力を失います。この精霊は 30...60 秒後に消滅します。",
+				"concise": "バインド リチュアル： レベル 1...8 の精霊を召喚します (30...60 秒)。この精霊の効果範囲内では、精霊以外の味方は1回の攻撃により失う体力が上限の10%以下になります。ダメージ妨害コスト： この精霊は体力が 75...45 減少します。"
+			},
+			"kr": {
+				"name": "보호의 영혼(대인전)",
+				"description": "영혼 결속. 대상 지정: 없음. 1...8레벨의 영혼을 소환합니다. 일정 범위 내에 있는 영혼이 아닌 아군은 한 번의 공격에 최대 체력의 10%가 넘는 대미지를 입지 않습니다. 대미지가 감소할 때마다 영혼의 체력은 75...45씩 잃습니다. 영혼은 30...60초 후 사라집니다.",
+				"concise": "영혼 결속. 1...8레벨 영혼을 소환합니다.(수명: 30...60초) 영혼이 아닌 아군은 1번의 공격에 최대 체력의 10%가 넘는 대미지를 입지 않습니다. 대미지 감소 대가: 영혼이 75...45의 체력을 잃습니다."
+			},
+			"pl": {
+				"name": "Schronienie (PvP)",
+				"description": "Rytuał spętania. Tworzysz 1...8 poziomowego ducha. Nie będący duchami sojusznicy w jego zasięgu od pojedynczego ataku nie mogą stracić więcej niż 10% maksymalnych pkt. żywotności. Za każdym razem, kiedy ten duch zapobiega obrażeniom, traci 75...45 pkt. żywotności. Duch ginie po 30...60 sek.",
+				"concise": "Rytuał spętania. Tworzy ducha na poziomie 1...8 (czas życia 30...60 sek.). Sojusznicy nie-duchy w zasięgu, od pojedynczego ataku nie mogą stracić więcej niż 10% maksymalnych pkt. żywotności. Koszt ochrony przed obrażeniami: ten duch traci 75...45 pkt. żywotności."
+			},
+			"ru": {
+				"name": "Shelter (PvP)",
+				"description": "Связующий ритуал. Создает духа 1...8 уровня. Все не являющиеся духами союзники, находящиеся в зоне его действия, не могут потерять от единичной атаки здоровья более 10% от своего максимального уровня. Когда этот дух предохраняет союзника от урона, он теряет 75...45 ед. здоровья. Этот дух умирает через 30...60 сек.",
+				"concise": "Связующий ритуал. Создает духа 1...8 уровня (30...60 сек жизни). Не являющиеся духами союзники в зоне его действия не могу потерять от единичной атаки здоровья более 10% от своего максимального уровня. Цена предотвращения урона: этот дух теряет 75...45 ед. здоровья."
+			},
+			"bork": {
+				"name": "Shelter (PfP)",
+				"description": "Beendeeng Reetooael. Creaete-a a lefel 1...8 spureet. Nun-spureet aelleees veetheen its runge-a cunnut luse-a mure-a thun 10% maexeemoom Heaelt frum a seengle-a aettaeck. Vhee thees spureet prefents daemaege-a, it luses 75...45 Heaelt. Thees spureet laests 30...60 secunds.",
+				"concise": "Beendeeng Reetooael. Creaetes a lefel 1...8 spureet (30...60 secund leeffespun). Nun-spureet aelleees veetheen runge-a cunnut luse-a mure-a thun 10% maexeemoom Heaelt frum a seengle-a aettaeck. Daemaege-a prefenshun cust: thees spureet luses 75...45 Heaelt."
 			}
 		}
 	}

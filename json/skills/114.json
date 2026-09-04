@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 15,
 		"activation": 2,
+		"aftercast": 0.75,
 		"recharge": 45,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "巫妖光环",
+				"description": "精英增益魔法。 在5...45秒之内，使你的最大生命值减半，同时受到的伤害也减半。当「巫妖光环」消失时，你将获得1...17点生命值。",
+				"concise": "精英增益魔法。 使你的最大生命值减半，同时受到的伤害也减半。当技能效果消失时，你将获得 1...17点 生命值，技能持续 5...45秒。"
+			},
+			"cht": {
+				"name": "巫妖靈氣",
+				"description": "精英加持魔法： 利用音量所及範圍內所有屍體，召喚出1...17級的恐懼骸骨，骸骨數量為屍體+1，同時5...45秒內，死亡魔法屬性+1。",
+				"concise": "精英加持魔法： 利用音量所及範圍內所有屍體，召喚出1...17級的恐懼骸骨，骸骨數量為屍體+1，同時5...45秒內，死亡魔法屬性+1。"
+			},
 			"de": {
+				"name": "Aura des Lich",
+				"description": "Elite-Verzauberung. Alle Kadaver in Hörweite werden benutzt und Ihr belebt einen Knochenschreck der Stufe 1...17 sowie einen für jeden auf diese Weise benutzten Kadaver. 5...45 Sekunde[n] lang ist Euer Todesmagie-Attribut um +1 erhöht.",
+				"concise": "Elite-Verzauberung. Benutzt alle Kadaver in Hörweite. Belebt einen Knochenschreck der Stufe 1...17 sowie einen für jeden benutzten Kadaver. Ihr habt +1 Todesmagie (5...45 Sekunde[n])."
+			},
+			"de-guildwiki": {
 				"name": "Aura des Lich",
 				"description": "Alle Kadaver in Hörweite werden benutzt und Ihr belebt einen Knochenschreck der Stufe 1...17 sowie einen für jeden auf diese Weise benutzten Kadaver. 5...45 Sekunden lang ist Euer Todesmagie-Attribut um +1 erhöht.",
 				"concise": "Benutzt alle Kadaver in Hörweite. Belebt einen Knochenschreck der Stufe 1...17 sowie einen für jeden benutzten Kadaver. Ihr habt +1 Todesmagie (5...45 Sekunden)."
 			},
 			"en": {
 				"name": "Aura of the Lich",
+				"description": "Elite Enchantment Spell. All corpses within earshot are exploited and you animate a level 1...17 bone horror plus one for each corpse exploited in this way. For 5...45 seconds, your Death Magic attribute is increased by +1.",
+				"concise": "Elite Enchantment Spell. Exploit all corpses in earshot. Animates a level 1...17 bone horror, plus one for each exploited corpse. You have +1 Death Magic (5...45 seconds)."
+			},
+			"en-gww": {
+				"name": "Aura of the Lich",
 				"description": "All corpses within earshot are exploited and you animate a level 1...17 bone horror plus one for each corpse exploited in this way. For 5...45 seconds, your Death Magic attribute is increased by +1.",
 				"concise": "Exploit all corpses in earshot. Animates a level 1...17 bone horror, plus one for each exploited corpse. You have +1 Death Magic (5...45 seconds)."
 			},
+			"es": {
+				"name": "Aura del liche",
+				"description": "Conjuro con encantamiento de élite. Explotas a todos los cadáveres al alcance del oído para animar a un horror de hueso de nivel 1...17 además de uno por cada cadáver explotado de esta manera. Durante 5...45 segundos, tu atributo magia de muerte aumenta +1.",
+				"concise": "Conjuro con encantamiento de élite. Explotas a todos los cadáveres al alcance del oído. Animas un horror de hueso de nivel 1...17, además de uno por cada cadáver explotado. Tienes +1 de magia de muerte (5...45 segundos)."
+			},
 			"fr": {
+				"name": "Aura de la liche",
+				"description": "Enchantement d'élite. Tous les cadavres à portée de voix sont exploités et vous animez une horreur squelettique de niveau 1...17, plus une horreur squelettique pour chaque cadavre exploité de cette manière. Pendant 5...45 secondes, votre caractéristique de Magie de la mort est augmentée de +1.",
+				"concise": "Enchantement d'élite. Exploite tous les cadavres à portée de voix. Anime une horreur squelettique de niveau 1...17, plus une horreur squelettique pour chaque cadavre exploité. Votre Magie de la mort est augmentée de +1 (5...45 secondes)."
+			},
+			"fr-gwiki": {
 				"name": "Aura de la liche",
 				"description": "Tous les cadavres à portée de voix sont exploités et vous animez une horreur squelettique de niveau 1...17, plus une horreur squelettique pour chaque cadavre exploité de cette manière. Pendant 5...45 secondes, votre caractéristique de Magie de la mort est augmentée de +1.",
 				"concise": "Exploite tous les cadavres à portée de voix. Anime une horreur squelettique de niveau 1...17, plus une horreur squelettique pour chaque cadavre exploité. Votre Magie de la mort est augmentée de +1 (5...45 secondes)."
+			},
+			"it": {
+				"name": "Aura del Lich",
+				"description": "Incantesimo d'Élite. Tutti i cadaveri a portata d'orecchio vengono sfruttati animando un Orrore d'Ossa di livello 1...17 più un altro per ogni cadavere così sfruttato. Per 5...45 secondo[i], il grado di Magia della Morte aumenta di +1.",
+				"concise": "Incantesimo d'Élite. Sfrutta tutti i cadaveri a portata d'orecchio. Anima un Orrore d'Ossa di livello 1...17 più un altro per ogni cadavere sfruttato. Incremento Magia della Morte: +1 (5...45 secondo[i])."
+			},
+			"jp": {
+				"name": "リッチ オーラ",
+				"description": "エリート強化スペル： 声の届く範囲内にあるすべての死体を使用してレベル 1...17 のボーン ホラーを召喚します。また、使用した死体ごとに1体のボーン ホラーを召喚します。5...45 秒間、「デス」の特性レベルが 1 増加します。",
+				"concise": "エリート強化スペル： 声の届く範囲内にある死体をすべて使用してレベル 1...17 のボーン ホラーを1体、さらに使用した死体ごとに1体のボーン ホラーを召喚します。「デス」の特性レベルが 1 増加します (5...45 秒)。"
+			},
+			"kr": {
+				"name": "리치의 오라",
+				"description": "엘리트 강화 마법. 가청 범위 내에 있는 모든 시체를 이용해 1...17레벨 해골 졸개 한 마리를 만들고, 시체 한 구당 한 마리씩 추가로 만듭니다. 5...45초 동안 죽음 특성 레벨이 1 증가합니다.",
+				"concise": "엘리트 강화 마법. 가청 범위 내에 있는 모든 시체를 이용합니다. 1...17레벨 해골 졸개 한 마리를 만들고, 시체 한 구당 추가로 한 마리씩 만듭니다. 죽음 특성 레벨이 1 증가합니다.(5...45초)"
+			},
+			"pl": {
+				"name": "Aura Licza",
+				"description": "Elitarne zaklęcie (czar). Wszystkie ciała w zasięgu słuchu zostają zużyte, a ty wskrzeszasz kościaną poczwarę na poziomie 1...17, plus dodatkową poczwarę na każde ciało zużyte w ten sposób. Przez 5...45 sek. twój atrybut Magia Śmierci jest zwiększony o +1.",
+				"concise": "Elitarne zaklęcie (czar). Wykorzystuje wszystkie ciała w zasięgu słuchu. Wskrzesza kościaną poczwarę na poziomie 1...17, plus dodatkową poczwarę na każde zużyte ciało. Otrzymujesz +1 pkt. do Magii Śmierci (5...45 sek.)."
+			},
+			"ru": {
+				"name": "Aura of the Lich",
+				"description": "Элитное заклинание-чары. Все трупы в зоне слышимости будут использованы, и вы оживляете Bone Horror 1...17 уровня и дополнительно по одному Bone Horror за каждый труп, использованный с помощью этого умения. В течение 5...45 сек ваш уровень таланта Death Magic увеличивается на 1 ед.",
+				"concise": "Элитное заклинание-чары. Использует все трупы в зоне слышимости. Оживляет Bone Horror 1...17 уровня и дополнительно по одному Bone Horror за каждый использованный труп. Вы получаете +1 ед. к таланту Death Magic (5...45 сек)."
+			},
+			"bork": {
+				"name": "Oora ooff zee Leech",
+				"description": "Ileete-a Inchuntment Spell. Aell curpses veetheen iaershut aere-a ixplueeted und yuoo uneemaete-a a lefel 1...17 bune-a hurrur ploos oone-a fur iaech curpse-a ixplueeted in thees vaey. Fur 5...45 secunds, yuoor Deaet Maegeec aettreeboote-a is increaesed by +1.",
+				"concise": "Ileete-a Inchuntment Spell. Ixplueet aell curpses in iaershut. Uneemaetes a lefel 1...17 bune-a hurrur, ploos oone-a fur iaech ixplueeted curpse-a. Yuoo haefe-a +1 Deaet Maegeec (5...45 secunds)."
 			}
 		}
 	}

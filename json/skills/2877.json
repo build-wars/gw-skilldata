@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 10,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 20,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "清心谣",
+				"description": "圣歌。 在10秒之内，所有「音波」范围内的队友在下一次受到伤害时，将会回复15...75点生命值。",
+				"concise": "圣歌。 在10秒之内，所有「音波」范围内的队友在下一次受到伤害时，将会回复15...75点生命值。"
+			},
+			"cht": {
+				"name": "復原歌謠",
+				"description": "聖歌： 持續 10 秒，使音量所及範圍內的每一位隊伍成員，「下一次」受到傷害時獲得 15...75 體力。",
+				"concise": "聖歌： 持續 10 秒，使音量所及範圍內的每一位隊伍成員，「下一次」受到傷害時獲得 15...75 體力。"
+			},
 			"de": {
+				"name": "Ballade der Wiederherstellung (PvP)",
+				"description": "Anfeuerungsruf. 10 Sekunde[n] lang erhält jedes Gruppenmitglied in Hörweite, wenn es das nächste Mal Schaden erleidet, 15...75 Lebenspunkt[e].",
+				"concise": "Anfeuerungsruf. 10 Sekunde[n]: Gruppenmitglieder in Hörweite erhalten 15...75 Lebenspunkt[e], wenn sie das nächste Mal Schaden erleiden."
+			},
+			"de-guildwiki": {
 				"name": "Ballade der Wiederherstellung (PvP)",
 				"description": "10 Sekunden lang wird jedes Gruppenmitglied in Hörweite, wenn es das nächste Mal Schaden erleidet, um 15...75 Lebenspunkte geheilt.",
 				"concise": "10 Sekunden: Gruppenmitglieder in Hörweite werden um 15...75 Lebenspunkte geheilt, wenn sie das nächste Mal Schaden erleiden."
 			},
 			"en": {
 				"name": "Ballad of Restoration (PvP)",
+				"description": "Chant. For 10 seconds, the next time each party member within earshot takes damage, that party member gains 15...75 Health.",
+				"concise": "Chant. (10 seconds.) Party members in earshot gain 15...75 Health the next time they take damage."
+			},
+			"en-gww": {
+				"name": "Ballad of Restoration (PvP)",
 				"description": "For 10 seconds, the next time each party member within earshot takes damage, that party member gains 15...75 Health.",
 				"concise": "(10 seconds.) Party members in earshot gain 15...75 Health the next time they take damage."
 			},
+			"es": {
+				"name": "Balada de restauración (PvP)",
+				"description": "Cántico. Durante 10 segundos, la próxima vez que hagan daño a algún compañero al alcance del oído, se curará 15...75 de salud.",
+				"concise": "Cántico. (10 segundos). Los miembros del grupo al alcance del oído ganan 15...75 de salud la próxima vez que reciban daño."
+			},
 			"fr": {
+				"name": "Ballade de rétablissement (PvP)",
+				"description": "Chant. Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix subit des dégâts, il est soigné de 15...75 points de vie.",
+				"concise": "Chant. (10 secondes.) Les membres du groupe à portée de voix gagnent 15...75 points de vie la prochaine fois qu'ils subissent des dégâts."
+			},
+			"fr-gwiki": {
 				"name": "Ballade de rétablissement (PvP)",
 				"description": "Pendant 10 secondes, la prochaine fois que chaque membre du groupe à portée de voix subit des dégâts, il est soigné de 15...75 points de vie.",
 				"concise": "(10 secondes.) Les membres du groupe à portée de voix gagnent 15...75 points de vie la prochaine fois qu'ils subissent des dégâts."
+			},
+			"it": {
+				"name": "Ballata del Ripristino (PvP)",
+				"description": "Canto. Per 10 secondo[i], la prossima volta che ogni membro della squadra a portata d'orecchio subisce danni, ottiene 15...75 Punto[i] Salute.",
+				"concise": "Canto. (Secondi: 10) Salute ottenuta dai membri della squadra a portata d'orecchio la prossima volta che subiscono danni: 15...75."
+			},
+			"jp": {
+				"name": "レストレーション バラード (PvP)",
+				"description": "チャント： 10 秒間、声の届く範囲内にいる各パーティー メンバーは、次にダメージを受けるときに 15...75 の体力を獲得します。",
+				"concise": "チャント： (10 秒) 声の届く範囲内にいるパーティー メンバーは、次にダメージを受けるときに 15...75 の体力を獲得します。"
+			},
+			"kr": {
+				"name": "회복의 연가(대인전)",
+				"description": "영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 파티원은 대미지를 입으면 15...75의 체력을 회복합니다. 파티원마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (10초) 가청 범위 내에 있는 파티원들은 처음 대미지를 입을 때 15...75의 체력을 얻습니다."
+			},
+			"pl": {
+				"name": "Ballada Odnowy (PvP)",
+				"description": "Zaśpiew. Przez 10 sek., każdy sojusznik w zasięgu słuchu z następnym otrzymaniem obrażeń, dostanie 15...75 pkt. żywotności.",
+				"concise": "Zaśpiew. (10 sek.) Członkowie drużyny w zasięgu słuchu otrzymują po 15...75 pkt. żywotności, kiedy następnym razem otrzymają obrażenia."
+			},
+			"ru": {
+				"name": "Ballad of Restoration (PvP)",
+				"description": "Хорал. В течение 10 сек в следующий раз, когда каждый член отряда, находящийся в зоне слышимости, получает урон, этот член отряда получает 15...75 ед. здоровья.",
+				"concise": "Хорал. (10 сек) Члены отряда в зоне слышимости получают 15...75 ед. здоровья в следующий раз, когда они получат урон."
+			},
+			"bork": {
+				"name": "Baellaed ooff Resturaeshun (PfP)",
+				"description": "Chunt. Fur 10 secunds, zee next teeme-a iaech paerty member veetheen iaershut taekes daemaege-a, thaet paerty member gaeeens 15...75 Heaelt.",
+				"concise": "Chunt. (10 secunds.) Paerty members in iaershut gaeeen 15...75 Heaelt zee next teeme-a zeey taeke-a daemaege-a."
 			}
 		}
 	}

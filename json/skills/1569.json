@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 3,
 		"adrenaline_precise": 3,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蓄能之音",
+				"description": "圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用「战吼」或「圣歌」时，能量值消耗减少3...7点。",
+				"concise": "圣歌。 在10秒之内，所有「音波」范围内的友方在下一次使用「战吼」或「圣歌」时，能量值消耗减少3...7点。"
+			},
+			"cht": {
+				"name": "充能和鳴",
+				"description": "聖歌： 持續 10 秒，使音量所及範圍內的盟友「下一次」使用「聖歌」或「戰嚎」類型技能時，能量消耗減少 3...7 。",
+				"concise": "聖歌： 持續 10 秒，使音量所及範圍內的盟友「下一次」使用「聖歌」或「戰嚎」類型技能時，能量消耗減少 3...7 。"
+			},
 			"de": {
+				"name": "Energie bringender Chor",
+				"description": "Anfeuerungsruf. 10 Sekunde[n] lang kostet der nächste Schrei oder Anfeuerungsruf von jedem Verbündeten in Hörweite 3...7 Energiepunkt[e] weniger.",
+				"concise": "Anfeuerungsruf. 10 Sekunde[n]: Der nächste Schrei oder Anfeuerungsruf kostet Verbündete in Hörweite 3...7 Energiepunkt[e] weniger."
+			},
+			"de-guildwiki": {
 				"name": "Energie bringender Chor",
 				"description": "10 Sekunden lang kostet der nächste Schrei oder Anfeuerungsruf von jedem Verbündeten in Hörweite und von euch selbst 3...7 Energiepunkte weniger.",
 				"concise": "10 Sekunden: Der nächste Schrei oder Anfeuerungsruf kostet Verbündete in Hörweite 3...7 Energiepunkte weniger."
 			},
 			"en": {
 				"name": "Energizing Chorus",
+				"description": "Chant. For 10 seconds, the next shout or chant used by each ally within earshot costs 3...7 less Energy.",
+				"concise": "Chant. (10 seconds.) The next shout or chant costs 3...7 less Energy for allies in earshot."
+			},
+			"en-gww": {
+				"name": "Energizing Chorus",
 				"description": "For 10 seconds, the next Shout or Chant used by each ally within earshot costs 3...7 less Energy.",
 				"concise": "(10 seconds.) The next shout or chant costs 3...7 less Energy for allies within earshot."
 			},
+			"es": {
+				"name": "Coro vitalizante",
+				"description": "Cántico. Durante 10 segundos, el siguiente cántico o grito que use cada aliado al alcance del oído consume 3...7 menos de energía.",
+				"concise": "Cántico. (10 segundos). A los aliados al alcance del oído les cuesta 3...7 menos de energía su siguiente grito o cántico."
+			},
 			"fr": {
+				"name": "Choeur énergisant",
+				"description": "Chant. Pendant 10 secondes, le prochain cri ou chant utilisé par chaque allié à portée de voix coûte 3...7 points d'énergie en moins.",
+				"concise": "Chant. (10 secondes.) Le cri ou le chant suivant des alliés à portée de voix coûte 3...7 points d'énergie en moins."
+			},
+			"fr-gwiki": {
 				"name": "Choeur énergisant",
 				"description": "Pendant 10 secondes, le prochain cri ou chant utilisé par chaque allié à portée de voix coûte 3...7 points d'énergie en moins.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Coro Energizzante",
+				"description": "Canto. Dura 10 secondo[i]; il prossimo urlo o canto utilizzato da ogni alleato a portata d'orecchio costa 3...7 Punto[i] Energia in meno.",
+				"concise": "Canto. (Secondi: 10) Riduzione costo energetico del prossimo canto o urlo per gli alleati a portata d'orecchio: 3...7."
+			},
+			"jp": {
+				"name": "エナジャイズ コーラス",
+				"description": "チャント： 10 秒間、声の届く範囲内にいる各味方は、次にシャウトまたはチャントを使用する際に必要なエネルギー量が 3...7 減少します。",
+				"concise": "チャント： (10 秒) 声の届く範囲内にいる味方は、次に使用するシャウトまたはチャントに必要なエネルギーが 3...7 減少します。"
+			},
+			"kr": {
+				"name": "격려의 합창",
+				"description": "영창. 대상 지정: 없음. 10초 동안 가청 범위 내에 있는 아군이 사용하는 고함이나 영창의 소모 에너지가 3...7 감소합니다. 아군마다 처음 한 번만 효과가 있습니다.",
+				"concise": "영창. (10초) 가청 범위 내에 있는 아군이 처음 사용하는 고함이나 영창의 소모 에너지가 3...7 감소합니다."
+			},
+			"pl": {
+				"name": "Energetyzujący Chorał",
+				"description": "Zaśpiew. Przez 10 sek. następny okrzyk lub zaśpiew każdego sojusznika w zasięgu słuchu kosztują o 3...7 pkt. energii mniej.",
+				"concise": "Zaśpiew. (10 sek.) Następny okrzyk lub zaśpiew sojuszników w zasięgu słuchu kosztuje o 3...7 pkt. energii mniej."
+			},
+			"ru": {
+				"name": "Energizing Chorus",
+				"description": "Хорал. В течение 10 сек следующее использование крика или хорала для каждого находящегося в зоне слышимости союзника потребует на 3...7 ед. энергии меньше.",
+				"concise": "Хорал. (10 сек) Следующий крик или хорал потребует на 3...7 ед. энергии меньше для союзников в зоне слышимости."
+			},
+			"bork": {
+				"name": "Inergeezeeng Churoos",
+				"description": "Chunt. Fur 10 secunds, zee next shuoot oor chunt used by iaech aelly veetheen iaershut custs 3...7 less Inergy.",
+				"concise": "Chunt. (10 secunds.) Zee next shuoot oor chunt custs 3...7 less Inergy fur aelleees in iaershut. Bork! Bork! Bork!"
 			}
 		}
 	}

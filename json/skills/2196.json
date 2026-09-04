@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "Soldier's Speed",
+				"description": "姿态。 For 3...18 seconds, you move 15% faster while under the effects of a chant or shout.",
+				"concise": "姿态。 (3...18 seconds.) You move 15% faster while affected by a chant or shout."
+			},
+			"cht": {
+				"name": "士兵之速",
+				"description": "態勢： 持續 3...18 秒，你的移動速度增加 15% ，若是你有戰嚎或者聖歌效果則再增加 15% 。",
+				"concise": "態勢： 持續 3...18 秒，你的移動速度增加 15% ，若是你有戰嚎或者聖歌效果則再增加 15% 。"
+			},
 			"de": {
+				"name": "Geschwindigkeit des Soldaten",
+				"description": "Haltung. 3...18 Sekunde[n] lang bewegt Ihr Euch um 15% schneller. Ihr bewegt Euch um weitere 15% schneller, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht.",
+				"concise": "Haltung. (3...18 Sekunde[n].) Ihr bewegt Euch um 15% schneller und um weitere 15%, wenn Ihr unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht."
+			},
+			"de-guildwiki": {
 				"name": "Geschwindigkeit des Soldaten",
 				"description": "3...18 Sekunden lang bewegt Ihr Euch um 15% schneller. Ihr bewegt Euch um weitere 15% schneller, wann immer Ihr in der Zeit unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht.",
 				"concise": "(3...18 Sekunden.) Ihr bewegt Euch um 15% schneller und um weitere 15%, wann immer Ihr in der Zeit unter dem Einfluss eines Anfeuerungsrufs oder Schreis steht."
 			},
 			"en": {
 				"name": "Soldier's Speed",
+				"description": "Stance. For 3...18 seconds, you move 15% faster. You move an additional 15% faster while under the effects of a chant or shout.",
+				"concise": "Stance. (3...18 seconds.) You move 15% faster and an additional 15% faster while affected by a chant or shout."
+			},
+			"en-gww": {
+				"name": "Soldier's Speed",
 				"description": "For 3...18 seconds, you move 15% faster. You move an additional 15% faster while under the effects of a chant or shout.",
 				"concise": "(3...18 seconds.) You move 15% faster and an additional 15% while affected by a chant or shout."
 			},
+			"es": {
+				"name": "Velocidad de soldado",
+				"description": "Actitud. Te mueves un 15% más rápido durante 3...18 segundos. Te mueves un 15% extra más deprisa si estás bajo los efectos de un grito o cántico.",
+				"concise": "Actitud. (3...18 segundos). Te mueves un 15% más deprisa, y un 15% extra más deprisa si estás bajo los efectos de un grito o cántico."
+			},
 			"fr": {
+				"name": "Vitesse du soldat",
+				"description": "Pose de combat. Pendant 3...18 secondes, vous vous déplacez 15% plus vite. Votre vitesse de déplacement est encore augmentée de 15% lorsque vous êtes sous l'effet d'un cri ou d'un chant.",
+				"concise": "Pose de combat. (3...18 secondes.) Vous vous déplacez 15% plus vite, et encore 15% plus vite si vous êtes affecté par un chant ou un cri."
+			},
+			"fr-gwiki": {
 				"name": "Vitesse du soldat",
 				"description": "Pendant 5...20 secondes, vous vous déplacez 25% plus vite pendant que vous êtes sous les effets d'un cri ou d'un chant.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Velocità del Soldato",
+				"description": "Posizione. Per 3...18 secondo[i], la tua velocità di movimento aumenta di un 15%. Incremento velocità di movimento mentre sei sotto gli effetti di un urlo o un canto: 15%.",
+				"concise": "Posizione. (Secondo[i]: 3...18). La tua velocità di movimento aumento di un 15% e di un 15% aggiuntivo se sotto l'effetto di un urlo o un canto."
+			},
+			"jp": {
+				"name": "ソルジャー スピード",
+				"description": "スタンス： 3...18 秒間、移動速度が 15% 増加します。シャウトまたはチャントがかけられている場合、移動速度がさらに 15% 増加します。",
+				"concise": "スタンス： (3...18 秒) 移動速度が 15% 増加します。チャントまたはシャウトがかけられている場合、攻撃速度がさらに 15% 増加します。"
+			},
+			"kr": {
+				"name": "군인의 빠르기",
+				"description": "자세. 3...18초 동안 이동 속도가 15% 빨라지고, 고함이나 영창의 효과를 받고 있으면 추가로 15% 더 빨라집니다.",
+				"concise": "자세. (3...18초) 이동 속도가 15% 빨라지고, 고함이나 영창 효과를 받고 있으면 추가로 15% 더 빨라집니다."
+			},
+			"pl": {
+				"name": "Szybkość Żołnierza",
+				"description": "Postawa. Przez 3...18 sek., poruszasz się o 15% szybciej. Oprócz tego, poruszasz się jeszcze o 15% szybciej, jeśli znajdujesz się pod działaniem okrzyku lub pieśni.",
+				"concise": "Postawa. (3...18 sek.) Poruszasz się o 15% szybciej oraz dodatkowo o 15% szybciej, jeśli jesteś pod działaniem okrzyku lub pieśni."
+			},
+			"ru": {
+				"name": "Soldier's Speed",
+				"description": "Стойка. В течение 3...18 сек вы двигаетесь на 15% быстрее. Вы двигаетесь дополнительно на 15% быстрее до тех пор, пока вы находитесь под воздействием какого-либо хорала или крика.",
+				"concise": "Стойка. (3...18 сек) Вы двигаетесь на 15% быстрее и дополнительно на 15% быстрее до тех пор, пока вы находитесь под воздействием хорала или крика."
+			},
+			"bork": {
+				"name": "Suldeeer's Speed",
+				"description": "Stunce-a. Fur 3...18 secunds, yuoo mufe-a 15% faester. Yuoo mufe-a un aeddeeshunael 15% faester vheele-a under zee iffffects ooff a chunt oor shuoot.",
+				"concise": "Stunce-a. (3...18 secunds.) Yuoo mufe-a 15% faester und un aeddeeshunael 15% faester vheele-a aeffffected by a chunt oor shuoot."
 			}
 		}
 	}

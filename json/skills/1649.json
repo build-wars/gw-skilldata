@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 12,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "杀戮",
+				"description": "精英姿态。 在20秒之内，如果你受到「增益魔法」效果的影响，则使你打出致命一击的几率提高5...20%。",
+				"concise": "精英姿态。 在20秒之内，如果你受到「增益魔法」效果的影响，则使你打出致命一击的几率提高5...20%。"
+			},
+			"cht": {
+				"name": "殺道",
+				"description": "精英態勢： 持續 20 秒，使用匕首時，攻擊速度增加 5...20% 且致命攻擊出現機率增加 5...35% 。",
+				"concise": "精英態勢： 持續 20 秒，使用匕首時，攻擊速度增加 5...20% 且致命攻擊出現機率增加 5...35% 。"
+			},
 			"de": {
+				"name": "Weg des Assassinen",
+				"description": "Elite-Haltung. 20 Sekunde[n] lang greift Ihr, während Ihr Dolche führt, um 5...20% schneller an und habt eine +5...35%ige Chance, ein kritischen Treffer zu erzielen.",
+				"concise": "Elite-Haltung. 20 Sekunde[n]: Ihr greift, während Ihr Dolche führt, Ihr um 5...20% schneller an und habt eine +5...35%ige Chance, ein kritischen Treffer zu erzielen."
+			},
+			"de-guildwiki": {
 				"name": "Weg des Assassinen",
 				"description": "Während Ihr Dolche verwendet, sinkt 20 Sekunden lang der Abstand zwischen Euren Angriffen um 5...20% und Ihr habt bei der Benutzung von Dolchen eine +5...35%ige Chance, einen kritischen Treffer zu erzielen.",
 				"concise": "20 Sekunden: Ihr greift, während Ihr Dolche führt, Ihr<sic/> um 5...20% schneller an und habt eine +5...35%ige Chance, ein<sic/> kritischen Treffer zu erzielen."
 			},
 			"en": {
 				"name": "Way of the Assassin",
+				"description": "Elite Stance. For the next 20 seconds while wielding daggers, you attack 5...20% faster and have a +5...35% chance to land a critical hit.",
+				"concise": "Elite Stance. (20 seconds.) While wielding daggers, you attack 5...20% faster and have +5...35% chance to land a critical hit."
+			},
+			"en-gww": {
+				"name": "Way of the Assassin",
 				"description": "For the next 20 seconds while wielding daggers, you attack 5...20% faster and have a +5...35% chance to land a critical hit.",
 				"concise": "(20 seconds.) While wielding daggers, you attack 5...20% faster and have +5...35% chance to land a critical hit."
 			},
+			"es": {
+				"name": "Camino del Asesino",
+				"description": "Actitud de élite. Durante los próximos 20 segundos mientras lleves dagas, atacas un 5...20% más deprisa y tienes +5...35% de probabilidades de dar un golpe crítico.",
+				"concise": "Actitud de élite. (20 segundos). Mientras lleves dagas, atacas un 5...20% más deprisa y tienes +5...35% de probabilidades de dar un golpe crítico."
+			},
 			"fr": {
+				"name": "Méthode de l'Assassin",
+				"description": "Pose de combat d'élite. Pendant 20 secondes, si vous êtes équipé de dagues, vous attaquez 5...20% plus vite et avez +5...35% de chances d'infliger un coup critique.",
+				"concise": "Pose de combat d'élite. (20 secondes.) Si vous êtes équipé de dagues, vous attaquez 5...20% plus vite et avez +5...35% de chances d'infliger un coup critique."
+			},
+			"fr-gwiki": {
 				"name": "Méthode de l'Assassin",
 				"description": "Pendant 20 secondes, si vous êtes équipé de dagues, vous attaquez 5...20% plus vite et avez +5...35% de chances d'infliger un coup critique.",
 				"concise": "(20 secondes.) Si vous êtes équipé de dagues, vous attaquez 5...20% plus vite et avez +5...35% de chances d'infliger un coup critique."
+			},
+			"it": {
+				"name": "Potere dell'Assassino",
+				"description": "Posizione d'Élite. Per 20 secondo[i] successivo[i], mentre brandisci i pugnali, la tua velocità d'attacco aumenta di un 5...20% e hai +5...35% di probabilità di assestare un colpo critico.",
+				"concise": "Posizione d'Élite. (Secondi: 20) Aumento tua velocità d'attacco mentre brandisci i pugnali: 5...20%. Probabilità di mettere a segno un colpo critico: +5...35%."
+			},
+			"jp": {
+				"name": "アサシン ウェイ",
+				"description": "エリート スタンス： 20 秒間、ダガーを装備していると攻撃速度が 5...20%、クリティカル ヒットになる確率が 5...35% 増加します。",
+				"concise": "エリート スタンス： (20 秒) ダガーを装備している間、攻撃速度が 5...20%、クリティカル ヒットになる確率が 5...35% 増加します。"
+			},
+			"kr": {
+				"name": "암살자의 술수",
+				"description": "엘리트 자세. 대상 지정: 없음. 20초 동안 단검을 장착하면 공격이 5...20% 빨라지고, 치명타를 터뜨릴 확률이 5...35% 증가합니다.",
+				"concise": "엘리트 자세. (20초) 단검을 장착하면 공격 속도가 5...20% 빨라지고, 치명타를 터뜨릴 확률이 5...35% 증가합니다."
+			},
+			"pl": {
+				"name": "Ścieżka Zabójcy",
+				"description": "Postawa elitarna. Przez następne 20 sek., kiedy dzierżysz sztylety, atakujesz o 5...20% szybciej i posiadasz +5...35% szans na wykonanie trafienia krytycznego.",
+				"concise": "Postawa elitarna. (20 sek.) Kiedy dzierżysz sztylety, atakujesz o 5...20% szybciej i posiadasz +5...35% szans na wykonanie trafienia krytycznego."
+			},
+			"ru": {
+				"name": "Way of the Assassin",
+				"description": "Элитная стойка. В течение 20 сек до тех пор, пока вы вооружены кинжалами, вы атакуете на 5...20% быстрее и имеете дополнительно 5...35%-й шанс нанести критический удар.",
+				"concise": "Элитная стойка. (20 сек) Пока вы вооружены кинжалами, вы атакуете на 5...20% быстрее и получаете дополнительно 5...35%-й шанс нанести критический удар."
+			},
+			"bork": {
+				"name": "Vaey ooff zee Aessaesseen",
+				"description": "Ileete-a Stunce-a. Fur zee next 20 secunds vheele-a veeeldeeng daeggers, yuoo aettaeck 5...20% faester und haefe-a a +5...35% chunce-a tu lund a creeteecael heet.",
+				"concise": "Ileete-a Stunce-a. (20 secunds.) Vheele-a veeeldeeng daeggers, yuoo aettaeck 5...20% faester und haefe-a +5...35% chunce-a tu lund a creeteecael heet."
 			}
 		}
 	}

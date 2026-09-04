@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 0,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "腐肉",
+				"description": "精英增益魔法。 区域内的友军免疫疾病20...44秒，任何近战攻击这些友军的敌人会感染疾病，持续3...15秒。",
+				"concise": "精英增益魔法。 （20...44秒）近战击中区域内盟友的敌人会陷入染病状态（3...15秒）；该盟友免疫染病。"
+			},
+			"cht": {
+				"name": "腐敗肉體",
+				"description": "精英加持魔法： For 20...44 seconds, allies in the area are immune to disease, and anyone striking those allies in melee becomes Diseased for 3...15 seconds.",
+				"concise": "精英加持魔法： （20...44秒）近战击中区域内盟友的敌人会陷入染病状态（3...15秒）；该盟友免疫染病。"
+			},
 			"de": {
+				"name": "Verdorbenes Fleisch",
+				"description": "Elite-Verzauberung. 20...44 Sekunden lang sind Verbündete in diesem Bereich immun gegen Krankheit, und jeder, der diese Verbündeten im Nahkampf trifft, erkrankt für 3...15 Sekunden.",
+				"concise": "Elite-Verzauberung. (20...44 Sekunden.) Gegner, die Verbündete im Bereich im Nahkampf treffen, werden Erkrankt (3...15 Sekunden lang); dieser Verbündete ist immun gegen Krankheit."
+			},
+			"de-guildwiki": {
 				"name": "Verdorbenes Fleisch",
 				"description": "Wirkt Verdorbenes Fleisch auf den Verbündeten (bzw. Euch selbst) und nichts passiert. 20...44 Sekunden lang seid Ihr und alle Verbündeten in dem Bereich immun gegen Krankheit, und jeder, der euch im Nahkampf trifft, erkrankt für 3...15 Sekunden.",
 				"concise": "0 Sekunden. (20...44 Sekunden) Verzaubert Verbündete in Eurem Bereich. Gegner, die diese Verbündeten im Nahkampf treffen, werden Erkrankt (3...15 Sekunden lang); die Verbündeten sind immun gegen Krankheit."
 			},
 			"en": {
 				"name": "Tainted Flesh",
+				"description": "Elite Enchantment Spell. For 20...44 seconds, allies in the area are immune to disease, and anyone striking those allies in melee becomes Diseased for 3...15 seconds.",
+				"concise": "Elite Enchantment Spell. (20...44 seconds.) Foes who hit allies in the area with melee become Diseased (3...15 seconds); this ally is immune to Disease."
+			},
+			"en-gww": {
+				"name": "Tainted Flesh",
 				"description": "For 20...44 seconds, allies in the area are immune to disease, and anyone striking those allies in melee becomes Diseased for 3...15 seconds.",
 				"concise": "(20...44 seconds.) Foes who hit allies in the area in melee become Diseased (3...15 seconds); this ally is immune to Disease."
 			},
+			"es": {
+				"name": "Carne infectada",
+				"description": "Conjuro con encantamiento de élite. Durante 20...44 segundos, los aliados de la zona son inmunes a enfermedades, y todo el que le golpee en combate cuerpo a cuerpo pasará a estar enfermo durante 3...15 segundos.",
+				"concise": "Conjuro con encantamiento de élite. (20...44 segundos). Los enemigos que golpeen cuerpo a cuerpo a aliados quedarán enfermos (3...15 segundos). Este aliado es inmune a la enfermedad."
+			},
 			"fr": {
+				"name": "Chair putréfiée",
+				"description": "Enchantement d'élite. Pendant 20...44 secondes, les alliés dans la zone sont immunisé contre Maladie. Les ennemis qui frappent ces alliés au corps à corps sont atteints de Maladie pendant 3...15 secondes.",
+				"concise": "Enchantement d'élite. (20...44 secondes.) Les ennemis qui frappent au corps-à-corps des alliés dans la zone subissent Maladie (3...15 secondes) ; l'allié frappé est immunisé à Maladie."
+			},
+			"fr-gwiki": {
 				"name": "Chair putréfiée",
 				"description": "Pendant 20...44 secondes, les alliés dans la zone sont immunisée contre la Maladie et quiconque essaie d'attaquer ces alliés en mêlée est frappé par la Maladie pendant 3...15 secondes.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Carne Infetta",
+				"description": "Incantesimo d'Élite. Per 20...44 secondo/i, gli alleati nell'area diventano immuni alle malattie, e chiunque li colpisca in mischia si ammala per 3...15 secondo/i.",
+				"concise": "Incantesimo d'Élite. (20...44 secondo/i) I nemici che colpiscono gli alleati nell'area con attacchi in mischia si ammalano (3...15 secondo/i); questo alleato è immune alle malattie."
+			},
+			"jp": {
+				"name": "テイント フレッシュ",
+				"description": "エリート強化スペル： 20...44秒間、エリア内の味方は病気に耐性を持ち、それらの味方を近接攻撃した者は3...15秒間、病気になります。",
+				"concise": "エリート強化スペル： （20...44秒）エリア内の味方を近接攻撃で攻撃した敵は病気になります（3...15秒）。この味方は病気に耐性があります。"
+			},
+			"kr": {
+				"name": "면역의 혜택",
+				"description": "엘리트 강화 마법. 대상 지정: 아군. 20...44초 동안 일정 범위 내의 아군이 질병에 걸리지 않습니다. 대상에게 근접 물리 공격을 한 적은 3...15초 동안 질병 상태가 됩니다.",
+				"concise": "엘리트 강화 마법. (20...44초) 해당 지역 내 아군을 가격한 적은 질병에 걸립니다(3...15초). 이 아군은 질병에 면역이 됩니다."
+			},
+			"pl": {
+				"name": "Skażone Ciało",
+				"description": "Elitarne zaklęcie (czar). Przez 20...44 sek. pobliscy sojusznicy są odporni na choroby, a każdy, kto ich zaatakuje będzie chory przez 3...15 sek.",
+				"concise": "Elitarne zaklęcie (czar). (20...44 sek.) Przeciwnicy, którzy trafią sojuszników w okolicy atakiem wręcz, zachorują (3...15 sek.); sojusznik staje się niewrażliwy na chorobę."
+			},
+			"ru": {
+				"name": "Tainted Flesh",
+				"description": "Элитное заклинание-чары. В течение 20...44 сек. союзники в области получают иммунитет к состоянию Diseased, и любой, кто атакует этих союзников в ближнем бою, получает этот статус на 3...15 сек.",
+				"concise": "Элитное заклинание-чары. (20...44 сек.) Враги, атакующие союзников в этой области атаками ближнего боя, получают эффект Diseased на 3...15 сек.; союзник получает иммунитет к состоянию Diseased."
+			},
+			"bork": {
+				"name": "Taeeented Flesh",
+				"description": "Ileete-a Inchuntment Spell. Fur 20...44 secunds, aelleees in zee aerea aere-a immoone-a tu deeseaese-a, und unyune-a streekeeng thuse-a aelleees in melee-a becumes Deeseaesed fur 3...15 secunds.",
+				"concise": "Ileete-a Inchuntment Spell. (20...44 secunds.) Fues vhu heet aelleees in zee aerea veet melee-a becume-a Deeseaesed (3...15 secunds); thees aelly is immoone-a tu Deeseaese-a."
 			}
 		}
 	}

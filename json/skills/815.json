@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 10,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "蝎子引线",
+				"description": "负面魔法。 持续8...20秒，当你与目标敌人距离超出75尺时，将瞬移至其身旁并将其击倒。此法术只有普通范围的一半。",
+				"concise": "半程负面法术。 （8...20秒）当目标敌人与你距离超出75尺时，瞬移至其身旁并造成击倒。"
+			},
+			"cht": {
+				"name": "毒蠍綑綁",
+				"description": "降咒魔法： For 8...20 seconds, the next time you and target foe are more than 75' apart, you Shadow Step to that foe and that foe is knocked down. This spell has half the normal range.",
+				"concise": "半距降咒魔法： (8...20 seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 75' away from you."
+			},
 			"de": {
+				"name": "Skorpiondraht",
+				"description": "Verhexung. Beim nächsten Mal, dass binnen 8...20 Sekunden Ihr und der Zielgegner mehr als 23m voneinander entfernt seid, führt Ihr einen Schattenschritt hin zu diesem Gegner aus, der niedergeschlagen wird. Dieser Zauber hat die halbe normale Reichweite.",
+				"concise": "Mitteldistanz-Verhexung. (8...20 Sekunden.) Ein Schattenschritt hin zum Zielgegner wird durchgeführt, und dieser Gegner wird niedergeschlagen, wenn er das nächste Mal mehr als 75' von Euch entfernt ist."
+			},
+			"de-guildwiki": {
 				"name": "Skorpiondraht",
 				"description": "Während der nächsten 8...20 Sekunden werdet Ihr das nächste Mal, wenn Ihr mehr als 23 Meter vom Gegner entfernt steht, zu diesem teleportiert, und der Gegner wird zu Boden geschlagen. Die Reichweite dieses Zaubers ist nur halb so groß wie gewöhnlich.",
 				"concise": "8...20 Sekunden: Beim nächsten Mal, wenn Ihr mehr als 23 Meter vom Gegner entfernt seid, unternehmt Ihr einen Schattenschritt zu ihm und werft ihn zu Boden."
 			},
 			"en": {
 				"name": "Scorpion Wire",
+				"description": "Hex Spell. For 8...20 seconds, the next time you and target foe are more than 75' apart, you Shadow Step to that foe and that foe is knocked down. This spell has half the normal range.",
+				"concise": "Half Range Hex Spell. (8...20 seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 75' away from you."
+			},
+			"en-gww": {
+				"name": "Scorpion Wire",
 				"description": "For 8...20 seconds, the next time you and target foe are more than 75' apart, you Shadow Step to that foe and that foe is knocked down. This spell has half the normal range.",
 				"concise": "Half Range Hex Spell. (8...20 seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 75' away from you."
 			},
+			"es": {
+				"name": "Alambre de escorpión",
+				"description": "Conjuro con maleficio. Durante 8...20 segundos, la próxima vez que estés separado del enemigo objetivo en más de 75 metros, darás un paso sombrío a donde esté y le derribarás. Este conjuro tiene la mitad del alcance normal.",
+				"concise": "Conjuro con maleficio con mitad de alcance. (8...20 segundos). Das un paso sombrío hasta el enemigo objetivo y le derribas la próxima vez que se aleje más de 75 metros."
+			},
 			"fr": {
+				"name": "Attache de Scorpion",
+				"description": "Maléfice. Pendant 8...20 secondes, la prochaine fois que vous et l'ennemi ciblé êtes séparés de plus de 22 mètres, vous vous téléportez jusqu'à cet ennemi, qui sera alors assommé. La portée de ce sort est la moitié de celle d'un sort normal.",
+				"concise": "Maléfice de moitié de portée. (8...20 secondes.) Vous vous téléportez sur la cible ennemie et l'assommez la prochaine fois que cette cible se trouve à plus de 22 mètres de vous."
+			},
+			"fr-gwiki": {
 				"name": "Attache de Scorpion",
 				"description": "Pendant 8...20 secondes, la prochaine fois que vous et votre cible ennemie êtes séparés de plus de 30 mètres, vous faites une foulée de l'ombre jusqu'à cet ennemi qui sera alors assommé. La portée de ce sort est la moitié de celle d'un sort normal.",
 				"concise": "(8...20 secondes.) Vous faites une foulée de l'ombre jusqu'à la cible ennemie. Cette dernière sera assommée la prochaine fois qu'elle se trouvera à 30 mètres environ de vous."
+			},
+			"it": {
+				"name": "Cavo dello scorpione",
+				"description": "Fattura. Per 8...20 secondo/i, la prossima volta che tu e il bersaglio nemico siete a più di 75' di distanza, usi Passo nell'ombra su di esso per atterrarlo. Questa magia ha metà della gittata normale.",
+				"concise": "Fattura a Portata Dimezzata. (8...20 secondo/i). Usa Passo nell'ombra per colpire il bersaglio nemico e atterrarlo la prossima volta che si trova a più di 75' da te."
+			},
+			"jp": {
+				"name": "スコーピオンワイヤー",
+				"description": "弱体化スペル： 8...20秒間、次にあなたと標的の敵が75フィート以上離れると、あなたはシャドウステップでその敵に近づき、その敵はノックダウンされます。このスペルの射程は通常の半分です。",
+				"concise": "弱体化スペル (半分の効果範囲)： （8...20秒）シャドウステップで標的の敵に近づき、次のこの敵があなたから75フィート以上離れたときにノックダウンさせます。"
+			},
+			"kr": {
+				"name": "전갈의 갈고리",
+				"description": "약화 마법. 8...20초 동안 자신과 대상과의 거리가 75'보다 멀리 떨어지면 자신은 대상이 있는 곳으로 순간 이동하고, 대상은 넘어집니다. 이 스킬은 사정거리가 다른 스킬의 절반입니다.",
+				"concise": "약화 마법(사거리 절반). (8...20초) 자신과 대상과의 거리가 75'보다 멀어지면, 대상이 있는 곳으로 순간 이동하며 대상을 바닥에 넘어뜨립니다."
+			},
+			"pl": {
+				"name": "Nić Skorpiona",
+				"description": "Klątwa (czar). Przez 8...20 sek., następnym razem, kiedy wybrany przeciwnik oddali się od ciebie na więcej niż 23 metrów, wykonujesz krok cienia do niego, a on zostaje powalony. Ten czar posiada zasięg dwa razy mniejszy niż zwykły czar.",
+				"concise": "Klątwa o połowie zasięgu - czar. (8...20 sek.) Wykonujesz krok cienia do wybranego przeciwnika i powalasz go, kiedy znajdzie się w odległości większej niż 23 m od ciebie."
+			},
+			"ru": {
+				"name": "Scorpion Wire",
+				"description": "Заклинание-проклятье. В течение 8...20 сек., когда вы и цель отдаляетесь друг от друга более чем на 75', вы используете Shadow Step, чтобы переместиться к этому врагу и повалить его. У этого заклинания вдвое снижена дальность.",
+				"concise": "Заклинание-проклятье на среднее расстояние. (8...20 сек.) Когда выбранный враг отдаляется от вас более чем на 75', вы используете Shadow Step к нему и опрокидываете его."
+			},
+			"bork": {
+				"name": "Scurpeeun Vure-a",
+				"description": "Hex Spell. Fur 8...20 secunds, zee next teeme-a yuoo und taerget fue-a aere-a mure-a thun 75' aepaert, yuoo Shaedoo Step tu thaet fue-a und thaet fue-a is knucked doon. Thees spell haes haelff zee nurmael runge-a.",
+				"concise": "Haelff Runge-a Hex Spell. (8...20 secunds.) Shaedoo Step tu taerget fue-a und coose-a knuck-doon zee next teeme-a thees fue-a is mure-a thun 75' aevaey frum yuoo."
 			}
 		}
 	}

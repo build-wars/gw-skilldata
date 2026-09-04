@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 0.75,
+		"aftercast": 0.75,
 		"recharge": 8,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "旋风",
+				"description": "咒文。 使邻近的敌人受到15...75点冰冻伤害，如果敌人正在攻击，则会被击倒。",
+				"concise": "咒文。 使附近的敌人受到15...75点冰冻伤害，如果敌人正在攻击，则会被击倒。"
+			},
+			"cht": {
+				"name": "旋風",
+				"description": "咒文魔法： 使鄰近的所有敵人受到 15...75 冰凍傷害，而且攻擊中的敵人將被擊倒。",
+				"concise": "咒文魔法： 使鄰近的所有敵人受到 15...75 冰凍傷害，而且攻擊中的敵人將被擊倒。"
+			},
 			"de": {
+				"name": "Wirbelsturm",
+				"description": "Zauber. Alle umstehenden Feinde erleiden 15...75 Punkte Kälteschaden. Angreifende Gegner werden von \"Wirbelsturm\" erfasst und zu Boden geworfen. Wenn Ihr Überzaubert seid, trifft dieser Zauber Feinde in der Nähe, anstatt umstehende Feinde.",
+				"concise": "Zauber. Trifft umstehende Feinde. Richtet 15...75 Punkte Kälteschaden an. Wirft angreifende Feinde zu Boden. Trifft Feinde in der Nähe, anstatt umstehende Feinde, wenn Überzaubert."
+			},
+			"de-guildwiki": {
 				"name": "Wirbelsturm",
 				"description": "Alle umstehenden Gegner erleiden 15...75 Punkte Kälteschaden. Angreifende Gegner werden von \"Wirbelsturm\" erfasst und zu Boden geworfen. Wenn Ihr Überzaubert seid, trifft dieser Zauber Feinde in der Nähe, anstatt umstehende Feinde.",
 				"concise": "Trifft umstehende Feinde. Richtet 15...75 Punkte Kälteschaden an. Wirft angreifende Feinde zu Boden. Trifft Feinde in der Nähe, anstatt umstehende Feinde, wenn Überzaubert."
 			},
 			"en": {
 				"name": "Whirlwind",
+				"description": "Spell. All adjacent foes take 15...75 cold damage. Attacking foes struck by Whirlwind are knocked down. If you are Overcast, this spell strikes nearby instead of adjacent.",
+				"concise": "Spell. Hits foes adjacent to you. Deals 15...75 cold damage. Causes knock-down to attacking foes. Strikes nearby instead of adjacent if Overcast."
+			},
+			"en-gww": {
+				"name": "Whirlwind",
 				"description": "All adjacent foes take 15...75 cold damage. Attacking foes struck by Whirlwind are knocked down. If you are Overcast, this spell strikes nearby instead of adjacent.",
 				"concise": "Hits foes adjacent to you. Deals 15...75 cold damage. Causes knock-down to attacking foes. Strikes nearby instead of adjacent if Overcast."
 			},
+			"es": {
+				"name": "Torbellino",
+				"description": "Conjuro. Todos los enemigos adyacentes reciben 15...75 de daño frío. Derriba a los enemigos atacantes alcanzados por Torbellino. Si estás sobrelanzando, este conjuro golpea a los enemigos cercanos en vez de a los adyacentes.",
+				"concise": "Conjuro. Golpea a los enemigos adyacentes a ti. Hace 15...75 de daño frío. Derriba a los enemigos atacantes. Golpea a los cercanos en vez de a los adyacentes si estás sobrelanzando."
+			},
 			"fr": {
+				"name": "Tornade",
+				"description": "Sort. Tous les ennemis adjacents subissent 15...75 points de dégâts du froid. Les attaquants ennemis frappés par la Tornade sont assommés. Si vous êtes en état d'Afflux, ce sort frappe les ennemis proches au lieu des ennemis adjacents.",
+				"concise": "Sort. Affecte les ennemis adjacents à votre position. Inflige 15...75 points de dégâts du froid. Attaque assommante contre les attaquants ennemis. En état d'Afflux, frappe les ennemis proches au lieu des ennemis adjacents."
+			},
+			"fr-gwiki": {
 				"name": "Tornade",
 				"description": "Tous les ennemis adjacents subissent 15...60 points de dégâts du froid. Les attaquants ennemis frappés par la ''Tornade'' sont assommés.",
 				"concise": "Frappe les ennemis qui vous sont adjacents. Inflige 15...60 points de dégâts du froid. Assomme les assaillants ennemis."
+			},
+			"it": {
+				"name": "Vortice",
+				"description": "Magia. Tutti i nemici adiacenti subiscono 15...75 danni da freddo. I nemici all'attacco colpiti dal Vortice vengono abbattuti. Se sei sotto Sforzo, questa magia colpisce i nemici nelle vicinanze anziché quelli adiacenti.",
+				"concise": "Magia. Colpisce i nemici a te adiacenti. Danni da freddo inferti: 15...75. Provoca abbattimento dei nemici all'attacco. Colpisce i nemici nelle vicinanze anziché quelli adiacenti se sotto Sforzo."
+			},
+			"jp": {
+				"name": "ホワール ウインド",
+				"description": "スペル： 隣接するすべての敵に 15...75 のコールド ダメージを与え、攻撃中の敵は転倒します。プレイヤーが「疲労」状態の場合、このスペルは周囲にいる敵にも攻撃対象が広がります。",
+				"concise": "スペル： 隣接する敵に 15...75 のコールド ダメージを与えます。攻撃中の敵は転倒します。「疲労」状態の場合、周囲にいる敵にも攻撃対象が広がります。"
+			},
+			"kr": {
+				"name": "소용돌이",
+				"description": "마법. 대상 지정: 없음. 인접한 모든 적에게 15...75의 냉기 대미지를 주고, 공격 중이던 적을 바닥에 넘어뜨립니다. 자신이 탈진 상태면 부근의 적들에게 효과를 줍니다.",
+				"concise": "마법. 인접한 적들에게 15...75의 냉기 대미지를 줍니다. 공격 중이던 적은 바닥에 넘어뜨립니다. 자신이 탈진 상태면 부근의 적들에게 효과를 줍니다."
+			},
+			"pl": {
+				"name": "Trąba Powietrzna",
+				"description": "Czar. Wszyscy przeciwnicy w bezpośrednim sąsiedztwie otrzymują po 15...75 pkt. obrażeń od zimna. Atakujący przeciwnicy trafieni przez Tornado zostają powaleni. Jeśli jesteś pod wpływem Przemagicznienia, to zaklęcie trafia pobliskich wrogów, zamiast będących w bezpośrednim sąsiedztwie.",
+				"concise": "Czar. Trafia przeciwników w bezpośrednim sąsiedztwie. Zadaje 15...75 pkt. obrażeń od zimna. Powoduje powalenie atakujących przeciwników. Trafia pobliskich zamiast bezpośrednio sąsiadujących podczas Przemagicznienia."
+			},
+			"ru": {
+				"name": "Whirlwind",
+				"description": "Заклинание. Все окружающие противники получают 15...75 ед. урона силой холода. Атакующие противники, пораженные Whirlwind, будут сбиты с ног. Если вы утомлены, вместо окружающих противников будут поражены противники поблизости.",
+				"concise": "Заклинание. Поражает окружающих вас противников. Наносит 15...75 ед. урона силой холода. Сбивает с ног атакующих противников. Поражает противников поблизости вместо окружающих, если вы утомлены."
+			},
+			"bork": {
+				"name": "Vhurlveend",
+				"description": "Spell. Aell aedjaecent fues taeke-a 15...75 culd daemaege-a. Aettaeckeeng fues stroock by Vhurlveend aere-a knucked doon. Iff yuoo aere-a Oofercaest, thees spell streekes neaerby insteaed ooff aedjaecent.",
+				"concise": "Spell. Heets fues aedjaecent tu yuoo. Deaels 15...75 culd daemaege-a. Cooses knuck-doon tu aettaeckeeng fues. Streekes neaerby insteaed ooff aedjaecent iff Oofercaest."
 			}
 		}
 	}

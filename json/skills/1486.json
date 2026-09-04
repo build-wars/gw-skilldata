@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 0,
+		"aftercast": 0,
 		"recharge": 0,
 		"adrenaline": 5,
 		"adrenaline_precise": 4.8,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "疾病收割",
+				"description": "近战技能。 命中时，对敌人造成3...15点额外伤害。每命中一个带有「症状」的敌人，你可以回复10...40点生命值。",
+				"concise": "近战技能。 命中时，对敌人造成3...15点额外伤害。每命中一个带有「症状」的敌人，你可以回复10...40点生命值。"
+			},
+			"cht": {
+				"name": "污穢回收",
+				"description": "近身攻擊技能： 命中時造成 3...15 額外傷害，被擊中的敵人將失去一項病症，每一名失去病症者，將使鄰近敵人受到 10...40 神聖傷害。",
+				"concise": "近身攻擊技能： 命中時造成 3...15 額外傷害，被擊中的敵人將失去一項病症，每一名失去病症者，將使鄰近敵人受到 10...40 神聖傷害。"
+			},
 			"de": {
+				"name": "Unreinheiten ausnutzen",
+				"description": "Nahkampfangriff. Wenn dieser Angriff erfolgreich ist, verursacht Ihr +3...15 Punkt[e] Schaden. Jeder getroffene Feind verliert 1 Zustand. Für jeden Feind, der einen Zustand verliert, erleiden alle in der Nähe des Gegners befindlichen Feinde 10...40 Punkt[e] heiligen Schaden.",
+				"concise": "Nahkampfangriff. Richtet +3...15 Punkt[e] Schaden an. Getroffene Feinde verlieren 1 Zustand. Entfernungseffekt: In der Nähe der getroffenen Gegner befindliche Feinde erleiden 10...40 Punkt[e] heiligen Schaden."
+			},
+			"de-guildwiki": {
 				"name": "Unreinheiten ausnutzen",
 				"description": "Wenn dieser Angriff erfolgreich ist, verursacht Ihr +3...15 Punkte Schaden. Jeder getroffene Feind verliert 1 Zustand. Für jeden Feind, der einen Zustand verliert, erleiden alle anderen Euch umstehenden Feinde 10...40 Punkte heiligen Schaden.",
 				"concise": "Richtet +3...15 Punkte Schaden an. Getroffene Feinde verlieren 1 Zustand. Entfernungseffekt: Alle anderen Euch umstehenden Feinde erleiden 10...40 Punkte heiligen Schaden."
 			},
 			"en": {
 				"name": "Reap Impurities",
+				"description": "Melee Attack. If this attack hits, you deal +3...15 damage. Each foe you hit loses 1 condition. For each foe who loses a condition, all foes adjacent to that target foe take 10...40 holy damage.",
+				"concise": "Melee Attack. Deals +3...15 damage. Struck foes lose 1 condition. Removal Effect: All foes adjacent to those struck take 10...40 holy damage."
+			},
+			"en-gww": {
+				"name": "Reap Impurities",
 				"description": "If this attack hits, you deal +3...15 damage. Each foe you hit loses 1 condition. For each foe who loses a condition, all foes adjacent to that target foe take 10...40 holy damage.",
 				"concise": "Deals +3...15 damage. Struck foes lose 1 condition. Removal Effect: all foes adjacent to those struck take 10...40 holy damage."
 			},
+			"es": {
+				"name": "Segar impurezas",
+				"description": "Ataque cuerpo a cuerpo. Este ataque hace +3...15 de daño si impacta. Cada enemigo que alcances pierde una condición. Para cada enemigo que pierde una condición, todos los enemigos adyacentes a él reciben 10...40 de daño.",
+				"concise": "Ataque cuerpo a cuerpo. Hace +3...15 de daño. Los enemigos que golpeas pierden una condición. Efecto de eliminación: todos los enemigos adyacentes a los que alcances reciben 10...40 de daño sagrado."
+			},
 			"fr": {
+				"name": "Moisson des impuretés",
+				"description": "Attaque au corps à corps. Si cette attaque réussit, elle inflige +3...15 points de dégâts. Chaque ennemi que vous touchez perd 1 condition. Simultanément, tous les ennemis adjacents à celui-ci subissent 10...40 points de dégâts sacrés.",
+				"concise": "Attaque au corps à corps. Inflige +3...15 points de dégâts. Les ennemis touchés perdent 1 condition. Effet de la levée : tous les ennemis adjacents aux ennemis touchés subissent 10...40 points de dégâts sacrés."
+			},
+			"fr-gwiki": {
 				"name": "Moisson des impuretés",
 				"description": "Si cette attaque réussit, vous infligez +10...30 points de dégâts. Vous bénéficiez de 15...75 points de vie pour chaque ennemi que vous frappez et qui souffre d'une condition.",
 				"concise": "Inflige +10...30 points de dégâts. Vous gagnez 17...75 points de vie par ennemi touché souffrant d'une condition."
+			},
+			"it": {
+				"name": "Sottrai Impurità",
+				"description": "Attacco Ravvicinato. Se l'attacco va a segno, infliggi +3...15 di danni. Ogni nemico colpito perde 1 condizione. Per ogni nemico che perde una condizione, tutti i nemici adiacenti subiscono 10...40 danni sacri.",
+				"concise": "Attacco Ravvicinato. Danni inferti: +3...15. Il nemico colpito perde 1 condizione. Effetto della rimozione: tutti i nemici adiacenti agli obiettivi colpiti subiscono 10...40 danni sacri."
+			},
+			"jp": {
+				"name": "リープ インピュリティ",
+				"description": "メーレー アタック： この攻撃が成功すると、3...15 の追加ダメージを与えます。プレイヤーの攻撃が成功した敵にかけられている「状態異常」を1個解除します。「状態異常」が解除された敵とその敵に隣接するすべての敵に 10...40 の神聖ダメージを与えます。",
+				"concise": "メーレー アタック： 3...15 の追加ダメージを与えます。ダメージを受けた敵にかけられている「状態異常」を1個解除します。解除効果： その敵に隣接するすべての敵に 10...40 の神聖ダメージを与えます。"
+			},
+			"kr": {
+				"name": "불순한 수확",
+				"description": "근접 물리 공격. 대상 지정: 없음. 공격이 성공하면 3...15의 대미지를 추가로 주고, 적중당한 적에게 걸린 상태이상 하나가 무효화됩니다. 이렇게 상태이상이 무효화된 적에게 인접한 모든 적은 10...40의 신성 대미지를 입습니다.",
+				"concise": "근접 물리 공격. 3...15의 대미지를 추가로 주고, 적중당한 적에게 걸린 상태이상 하나를 무효화합니다. 무효화 효과: 대상에 인접한 다른 적들에게 10...40의 신성 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Żniwo Przypadłości",
+				"description": "Atak wręcz. Jeśli ten atak dojdzie celu, zadajesz +3...15 pkt. obrażeń. Każdy trafiony wróg traci 1 przypadłość. W przypadku każdego wroga, który straci przypadłość, wszyscy przeciwnicy w jego sąsiedztwie otrzymują 10...40 pkt. świętych obrażeń.",
+				"concise": "Atak wręcz. Zadaje +3...15 pkt. obrażeń. Trafieni wrogowie tracą 1 przypadłość. Efekt usunięcia: Wszyscy wrogowie w sąsiedztwie trafionego otrzymują 10...40 pkt. świętych obrażeń."
+			},
+			"ru": {
+				"name": "Reap Impurities",
+				"description": "Рукопашная атака. Если эта атака попадает в цель, вы наносите дополнительно 3...15 ед. урона. Каждый пораженный вами противник теряет 1 состояние. Для каждого потерявшего состояние противника, все противники, окружающие эту цель, получают 10...40 ед. урона святой силой.",
+				"concise": "Рукопашная атака. Наносит дополнительно 3...15 ед. урона. Пораженные противники теряют 1 состояние. Эффект снятия: все противники, окружающие этих противников, получают 10...40 ед. урона святой силой."
+			},
+			"bork": {
+				"name": "Reaep Impooreeteees",
+				"description": "Melee-a Aettaeck. Iff thees aettaeck heets, yuoo deael +3...15 daemaege-a. Iaech fue-a yuoo heet luses 1 cundeeshun. Fur iaech fue-a vhu luses a cundeeshun, aell fues aedjaecent tu thaet taerget fue-a taeke-a 10...40 huly daemaege-a.",
+				"concise": "Melee-a Aettaeck. Deaels +3...15 daemaege-a. Stroock fues luse-a 1 cundeeshun. Remufael Iffffect: Aell fues aedjaecent tu thuse-a stroock taeke-a 10...40 huly daemaege-a."
 			}
 		}
 	}

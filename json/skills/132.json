@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 0,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 4,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "瘟疫纹章",
+				"description": "精英纹章。 将自身所有「症状」转移给目标敌人。（当「诅咒」属性投入在4点以下时，技能会有50%的几率失败。）",
+				"concise": "精英纹章。 将自身所有负面「症状」转移给目标敌人。（当「诅咒」属性投入在4点以下时，此技能会有50%的几率失败。）"
+			},
+			"cht": {
+				"name": "疫病紋章",
+				"description": "精英紋章： 轉移自身所有病症到目標敵人身上，並且持續時間為剩餘的100...200%，詛咒4以下有50%失敗機率。",
+				"concise": "精英紋章： 轉移自身所有病症到目標敵人身上，並且持續時間為剩餘的100...200%，詛咒4以下有50%失敗機率。"
+			},
 			"de": {
+				"name": "Pest-Siegel",
+				"description": "Elite-Siegel. Alle negativen Zustände mit 100...200% ihrer verbleibenden Dauer werden von Euch auf den Gegner übertragen. (Bei Flüchen von 4 oder weniger besteht eine 50%ige Wahrscheinlichkeit für einen Misserfolg.)",
+				"concise": "Elite-Siegel. Alle Zustände mit 100...200% ihrer verbleibenden Dauer werden von Euch auf den Gegner übertragen. Mindestens Flüche 5, sonst 50%ige Chance auf Misserfolg."
+			},
+			"de-guildwiki": {
 				"name": "Pest-Siegel",
 				"description": "Alle negativen Zustände und ihre verbleibende Dauer werden um 100...200% verlängert und werden von Euch auf den Gegner übertragen. (Bei Flüchen von 4 oder weniger besteht eine 50%ige Chance auf einen Misserfolg.)",
 				"concise": "Überträgt alle Zustände und ihre verbleibende Dauer, die um 100...200% verlängert wurde, von Euch auf den Gegner. <gray>Mindestens Flüche 5, sonst 50%ige Chance auf Misserfolg.</gray>"
 			},
 			"en": {
 				"name": "Plague Signet",
+				"description": "Elite Signet. Transfer all negative conditions with 100...200% of their remaining durations from yourself to target foe. (50% failure chance with Curses 4 or less.)",
+				"concise": "Elite Signet. Transfers all conditions with 100...200% of their remaining durations from yourself to target foe. 50% failure chance unless Curses 5 or more."
+			},
+			"en-gww": {
+				"name": "Plague Signet",
 				"description": "Transfer all negative conditions with 100...200% of their remaining durations from yourself to target foe. (50% failure chance with Curses 4 or less.)",
 				"concise": "Transfers all conditions with 100...200% of their remaining durations from yourself to target foe. <gray>50% failure chance unless Curses 5 or more.</gray>"
 			},
+			"es": {
+				"name": "Sello pestilente",
+				"description": "Sello de élite. Transfiere todas tus condiciones negativas con un 100...200% de la duración restante al enemigo objetivo. (50% de posibilidades de fallar con Maldiciones de nivel 4 o inferior.)",
+				"concise": "Sello de élite. Transfiere todas tus condiciones con un 100...200% de la duración restante al enemigo objetivo. 50% de probabilidades de fallar a no ser que se utilicen Maldiciones de nivel 5 o superior."
+			},
 			"fr": {
+				"name": "Sceau du fléau",
+				"description": "Sceau d'élite. Vous transférez vers l'ennemi visé toutes les conditions négatives qui vous affectent et leur durée restante, rallongée de 100...200%. (50% de risques d'échec avec Malédictions de niveau 4 ou inférieur.)",
+				"concise": "Sceau d'élite. Transfère vers l'ennemi visé toutes les conditions négatives qui vous affectent et leur durée restante, rallongée de 100...200%. 50% de risques d'échec à moins de posséder Malédictions de niveau 5 ou supérieur."
+			},
+			"fr-gwiki": {
 				"name": "Sceau du fléau",
 				"description": "Vous transférez vers l'ennemi visé toutes les conditions négatives qui vous affectent et leur durée restante, rallongée de 100...200%. (50% de risques d'échouer avec une valeur de Malédictions de 4 ou inférieur.)",
 				"concise": ""
+			},
+			"it": {
+				"name": "Sigillo della Peste",
+				"description": "Sigillo d'Élite. Durata residua delle condizioni negative trasferite da te all'obiettivo nemico: 100...200%. 50% di probabilità di fallimento con Maledizioni di grado 4 o inferiore.",
+				"concise": "Sigillo d'Élite. Trasferisce tutte le condizioni, con un 100...200% della loro durata residua, da te all'obiettivo nemico. 50% di probabilità di fallimento con Maledizioni di livello inferiore a 5."
+			},
+			"jp": {
+				"name": "プレイグ シグネット",
+				"description": "エリート シグネット： 自分自身にかけられているすべての「状態異常」を、持続時間の残り 100...200% の状態でターゲットした敵に転移します。「カース」の特性レベルが5未満の場合、50%の確率で失敗します。",
+				"concise": "エリート シグネット： 自分自身にかけられているすべての「状態異常」を、持続時間の残り 100...200% の状態でターゲットした敵に転移します。「カース」の特性レベルが5未満の場合、50%の確率で失敗します。"
+			},
+			"kr": {
+				"name": "전염 인장",
+				"description": "엘리트 인장. 대상 지정: 적. 자신이 걸려 있는 모든 상태이상을 남은 지속 시간의 100...200%만큼 대상에게 옮깁니다. 저주 특성 레벨이 4이하이면 50% 확률로 실패합니다.",
+				"concise": "엘리트 인장. 자신이 걸린 모든 상태이상을 남은 지속 시간의 100...200%만큼 대상에게 옮깁니다. 저주 특성 레벨이 4이하이면 50% 확률로 실패합니다."
+			},
+			"pl": {
+				"name": "Sygnet Plagi",
+				"description": "Sygnet elitarny. Przenosisz wszystkie przypadłości, wraz z ich pozostałymi czasami działania ( 100...200%), z siebie na wybranego przeciwnika. (50% szans na niepowodzenie, gdy wartość gdy wartość atrybutu Klątwy wynosi 4 lub mniej.)",
+				"concise": "Sygnet elitarny. Przenosi wszystkie przypadłości, wraz z ich pozostałymi czasami działania ( 100...200%), z ciebie na wybranego przeciwnika. 50% szans na niepowodzenie, chyba że wartość Klątw wynosi 5 lub więcej."
+			},
+			"ru": {
+				"name": "Plague Signet",
+				"description": "Элитная печать. Вы переносите все негативные состояния и 100...200% от их оставшегося времеми действия с себя на выбранного противника. (50%-й шанс неудачи, если ваш талант Curses меньше или равен 4).",
+				"concise": "Элитная печать. Переносит все негативные состояния и 100...200% от их оставшегося времеми действия с вас на выбранного противника. 50%-й шанс неудачи, если ваш талант Curses меньше 5."
+			},
+			"bork": {
+				"name": "Plaegooe-a Seegnet",
+				"description": "Ileete-a Seegnet. Trunsffer aell negaeteefe-a cundeeshuns veet 100...200% ooff zeeur remaeeeneeng dooraeshuns frum yuoorselff tu taerget fue-a. (50% faeeeloore-a chunce-a veet Coorses 4 oor less.)",
+				"concise": "Ileete-a Seegnet. Trunsffers aell cundeeshuns veet 100...200% ooff zeeur remaeeeneeng dooraeshuns frum yuoorselff tu taerget fue-a. 50% faeeeloore-a chunce-a unless Coorses 5 oor mure-a."
 			}
 		}
 	}

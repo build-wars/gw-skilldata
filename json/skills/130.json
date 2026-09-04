@@ -14,26 +14,87 @@
 		"upkeep": 0,
 		"energy": 5,
 		"activation": 1,
+		"aftercast": 0.75,
 		"recharge": 30,
 		"adrenaline": 0,
 		"adrenaline_precise": 0,
 		"sacrifice": 0,
 		"overcast": 0,
 		"lang": {
+			"chs": {
+				"name": "恶魔之体",
+				"description": "增益魔法。 牺牲自己最大生命值的 20%。在30...60秒之内，使你的生命最大值提高 80...200点。",
+				"concise": "增益魔法。 牺牲自己最大生命值的20%。在30...60秒之内，使你的最大生命值提高80...200点。"
+			},
+			"cht": {
+				"name": "惡魔肉體",
+				"description": "加持魔法： 持續 30...60 秒，每當你對敵人使用技能時，對鄰近所有敵人造成 5...20 暗影傷害。",
+				"concise": "加持魔法： 持續 30...60 秒，每當你對敵人使用技能時，對鄰近所有敵人造成 5...20 暗影傷害。"
+			},
 			"de": {
+				"name": "Dämonenfleisch",
+				"description": "Verzauberung. Während der nächsten 30...60 Sekunde[n] erleiden jedes Mal, wenn Ihr eine Fertigkeit auf einen Feind anwendet, alle umstehenden Feinde 5...20 Punkt[e] Schattenschaden.",
+				"concise": "Verzauberung. (30...60 Sekunde[n].) Jedes Mal, wenn Ihr eine Fertigkeit auf einen Feind anwendet, erleiden alle umstehenden Feinde 5...20 Punkt[e] Schattenschaden."
+			},
+			"de-guildwiki": {
 				"name": "Dämonenfleisch",
 				"description": "Während der nächsten 30...60 Sekunden erleiden jedes Mal, wenn Ihr eine Fertigkeit auf einen Feind anwendet, alle anderen Euch umstehenden Feinde 5...20 Punkte Schattenschaden.",
 				"concise": "(30...60 Sekunden.) Jedes Mal, wenn Ihr eine Fertigkeit auf einen Feind anwendet, erleiden alle anderen umstehenden Feinde 5...20 Punkte Schattenschaden."
 			},
 			"en": {
 				"name": "Demonic Flesh",
+				"description": "Enchantment Spell. For 30...60 seconds, whenever you use a skill that targets a foe, you deal 5...20 shadow damage to all other foes adjacent to you.",
+				"concise": "Enchantment Spell. (30...60 seconds.) When using a skill on a foe, deal 5...20 shadow damage to all other foes adjacent to you."
+			},
+			"en-gww": {
+				"name": "Demonic Flesh",
 				"description": "For 30...60 seconds, whenever you use a skill that targets a foe, you deal 5...20 shadow damage to all other foes adjacent to you.",
 				"concise": "(30...60 seconds.) When using a skill on a foe, deal 5...20 shadow damage to all other foes adjacent to you."
 			},
+			"es": {
+				"name": "Carne demoníaca",
+				"description": "Conjuro con encantamiento. Durante 30...60 segundos, siempre que uses una habilidad sobre un enemigo, haces 5...20 de daño de sombra a todos los demás enemigos que tengas adyacentes.",
+				"concise": "Conjuro con encantamiento. (30...60 segundos). Siempre que uses una habilidad sobre un enemigo, haces 5...20 de daño de sombra a todos los demás enemigos que tengas adyacentes."
+			},
 			"fr": {
+				"name": "Chair démoniaque",
+				"description": "Enchantement. Pendant 30...60 secondes, chaque fois que vous utilisez une compétence qui vise un ennemi, vous infligez 5...20 points de dégâts de l'ombre à tous les autres ennemis proches de vous.",
+				"concise": "Enchantement. (30...60 secondes.) Lorsque vous utilisez une compétence sur un ennemi, vous infligez 5...20 points de dégâts de l'ombre à tous les autres ennemis proches de vous."
+			},
+			"fr-gwiki": {
 				"name": "Chair démoniaque",
 				"description": "Pendant 30...60 secondes, chaque fois que vous utilisez une compétences qui vise un ennemi, vous infligez 5...20 points de dégâts de l'ombre à tous les ennemis proches de vous.",
 				"concise": ""
+			},
+			"it": {
+				"name": "Carne Demoniaca",
+				"description": "Incantesimo. Dura 30...60 secondo[i]; se utilizzi un'abilità su un obiettivo nemico, tutti i nemici a te adiacenti ricevono 5...20 danno[i] da ombra.",
+				"concise": "Incantesimo. (Secondi: 30...60) Se utilizzi un'abilità su un obiettivo nemico, tutti i nemici a te adiacenti ricevono 5...20 danno[i] da ombra."
+			},
+			"jp": {
+				"name": "デモニック フレッシュ",
+				"description": "強化スペル： 30...60 秒間、敵に対してスキルを使用するたびに、自分に隣接する他のすべての敵に 5...20 の暗黒ダメージを与えます。",
+				"concise": "強化スペル： (30...60 秒) 敵に対してスキルを使用すると、自分に隣接するすべての敵に 5...20 の暗黒ダメージを与えます。"
+			},
+			"kr": {
+				"name": "악마의 육체",
+				"description": "강화 마법. 대상 지정: 없음. 30...60초 동안 적을 대상으로 스킬을 사용할 때마다 자신에게 인접한 모든 적에게 5...20의 암흑 대미지를 줍니다.",
+				"concise": "강화 마법. (30...60초) 적에게 스킬을 사용할 때 자신에게 인접한 모든 적에게 5...20의 암흑 대미지를 줍니다."
+			},
+			"pl": {
+				"name": "Demoniczne Ciało",
+				"description": "Zaklęcie (czar). Przez 30...60 sek., za każdym razem kiedy używasz umiejętności, której celem będzie jakiś przeciwnik, zadajesz 5...20 pkt. obrażeń od cienia wszystkim sąsiadującym z tobą wrogom.",
+				"concise": "Zaklęcie (czar). (30...60 sek.) Kiedy używasz umiejętności na przeciwniku, zadajesz 5...20 pkt. obrażeń od cienia wszystkim sąsiadującym z tobą wrogom."
+			},
+			"ru": {
+				"name": "Demonic Flesh",
+				"description": "Заклинание-чары. В течение 30...60 сек каждый раз, когда вы используете умение, направленное на противника, вы наносите 5...20 ед. урона силой тьмы всем остальным окружающим вас противникам.",
+				"concise": "Заклинание-чары. (30...60 сек) Когда вы используете умение, направленное на противника, вы наносите 5...20 ед. урона силой тьмы всем остальным окружающим вас противникам."
+			},
+			"bork": {
+				"name": "Demuneec Flesh",
+				"description": "Inchuntment Spell. Fur 30...60 secunds, vhenefer yuoo use-a a skeell thaet taergets a fue-a, yuoo deael 5...20 shaedoo daemaege-a tu aell oozeer fues aedjaecent tu yuoo.",
+				"concise": "Inchuntment Spell. (30...60 secunds.) Vhee useeng a skeell oon a fue-a, deael 5...20 shaedoo daemaege-a tu aell oozeer fues aedjaecent tu yuoo."
 			}
 		}
 	}
