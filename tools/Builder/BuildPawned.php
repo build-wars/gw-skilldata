@@ -36,11 +36,11 @@ final class BuildPawned extends BuilderAbstract implements SkillDataAwareInterfa
 
 	// currently supported languages (due to Windows-1252 limitation)
 	/** @var array<string, string[]>  */
-	private const array PAWNED_LANGUAGES = [
-		Lang::DE_GUILDWIKI => [Lang::DE_GUILDWIKI, Lang::EN_GWW],
-		Lang::DE           => [Lang::DE,           Lang::DE_GUILDWIKI],
+	public const array PAWNED_LANGUAGES = [
+		Lang::DE_GUILDWIKI => [Lang::DE_GUILDWIKI, Lang::EN_GWW      ],
+		Lang::DE           => [Lang::DE,           Lang::EN          ],
 		Lang::EN_GWW       => [Lang::EN_GWW,       Lang::DE_GUILDWIKI],
-		self::LANG_EN      => [Lang::EN_GWW,       Lang::EN],
+		self::LANG_EN      => [Lang::EN_GWW,       Lang::EN          ],
 		Lang::ES           => [Lang::ES,           Lang::DE_GUILDWIKI],
 		Lang::FR           => [Lang::FR,           Lang::DE_GUILDWIKI],
 		Lang::IT           => [Lang::IT,           Lang::DE_GUILDWIKI],
@@ -48,14 +48,14 @@ final class BuildPawned extends BuilderAbstract implements SkillDataAwareInterfa
 	];
 	// i hate this
 	private const array INI_METADATA = [
-		Lang::DE_GUILDWIKI => ['lang' => 'Deutsch (GuildWiki)',   'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
-		Lang::DE           => ['lang' => 'Deutsch (alleine, GW)', 'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
-		Lang::EN_GWW       => ['lang' => 'English (GWW)',         'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
-		self::LANG_EN      => ['lang' => 'English only (GWW)',    'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
-		Lang::ES           => ['lang' => 'Español',               'lng' => 'ES', 'wiki' => ''],
-		Lang::FR           => ['lang' => 'Français',              'lng' => 'FR', 'wiki' => 'www.gwiki.fr'],
-		Lang::IT           => ['lang' => 'Italiano',              'lng' => 'IT', 'wiki' => ''],
-		Lang::XX           => ['lang' => 'Bork! Bork! Bork!',     'lng' => 'XX', 'wiki' => ''],
+		Lang::DE_GUILDWIKI => ['lang' => 'Deutsch (GuildWiki)', 'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
+		Lang::DE           => ['lang' => 'Deutsch (GW)',        'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
+		Lang::EN_GWW       => ['lang' => 'English (GWW)',       'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
+		self::LANG_EN      => ['lang' => 'English only (GWW)',  'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
+		Lang::ES           => ['lang' => 'Español',             'lng' => 'ES', 'wiki' => ''],
+		Lang::FR           => ['lang' => 'Français',            'lng' => 'FR', 'wiki' => 'www.gwiki.fr'],
+		Lang::IT           => ['lang' => 'Italiano',            'lng' => 'IT', 'wiki' => ''],
+		Lang::XX           => ['lang' => 'Bork! Bork! Bork!',   'lng' => 'XX', 'wiki' => ''],
 	];
 
 	private const string INI_BODY = <<<INI
