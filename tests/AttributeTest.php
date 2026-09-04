@@ -70,7 +70,7 @@ final class AttributeTest extends TestCase{
 		$attr->setLevel(12);
 		$attr->addLevel(4);
 
-		$this::assertSame(16, $attr->lang);
+		$this::assertSame(16, $attr->level);
 	}
 
 	public static function professionProvider():array{

@@ -44,6 +44,7 @@ final class SkillTest extends TestCase{
 		'upkeep'             => 0,
 		'energy'             => 10,
 		'activation'         => 2,
+		'aftercast'          => 0.75,
 		'recharge'           => 12,
 		'adrenaline'         => 0,
 		'adrenaline_precise' => 0,
