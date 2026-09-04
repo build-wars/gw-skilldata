@@ -14,10 +14,8 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Skill;
-use Buildwars\GWSkillData\SkillDataInterface;
 use Buildwars\GWSkillData\Type;
 use Buildwars\GWSkillDataTools\BuilderOptions;
-use chillerlan\HTTP\Psr7\HTTPFactory;
 use chillerlan\HTTP\Utils\MessageUtil;
 use chillerlan\HTTP\Utils\QueryUtil;
 use chillerlan\Settings\SettingsContainerInterface;
@@ -33,7 +31,6 @@ use Psr\Log\LoggerInterface;
 use RuntimeException;
 use function array_column;
 use function array_combine;
-use function array_flip;
 use function array_key_exists;
 use function array_keys;
 use function array_map;
@@ -41,7 +38,6 @@ use function array_values;
 use function count;
 use function explode;
 use function floatval;
-use function implode;
 use function in_array;
 use function intval;
 use function is_int;
@@ -49,7 +45,6 @@ use function mb_strtolower;
 use function preg_match;
 use function preg_match_all;
 use function preg_replace;
-use function sha1;
 use function sprintf;
 use function str_contains;
 use function str_replace;
@@ -62,34 +57,22 @@ use const PREG_SET_ORDER;
  */
 abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
-	protected const LANG              = '';
-	protected const MEDIAWIKI_API     = '';
-	protected const CACHEDIR          = '';
-	protected const REDIRECTS         = [];
-	protected const EMPTY_SKILL       = [];
-	protected const PRE_PARSE_REPLACE = [];
-	protected const INFOBOX_NAME      = '';
-
-	public const USE_FIELDS = [];
-
-	// we need to fix the skill suffix that we cut in order to fetch from the wiki: Skill Name (Luxon)
-	protected const Luxon   = [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1957, 2051];
-	protected const Kurzick = [2091, 2092, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100];
+	protected const string LANG              = '';
+	protected const array  REDIRECTS         = [];
+	protected const array  EMPTY_SKILL       = [];
+	protected const array  PRE_PARSE_REPLACE = [];
+	protected const string INFOBOX_NAME      = '';
 
 	// shouts to fix missing quotes
-	protected const Shouts = [
+	protected const array Shouts = [
 		316, 333, 343, 348, 364, 365, 366, 367, 368, 839, 869, 891, 906, 1141, 1412,
 		1558, 1572, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599,
 		1779, 1780, 1781, 1782, 2067, 2112, 2216, 2217, 2353, 2354, 2355, 2356, 2358, 2359,
 	];
 
-	protected const PvPShouts = [
+	protected const array PvPShouts = [
 		2858, 2879, 2880, 2883, 3026, 3027, 3031, 3032, 3033, 3034, 3035, 3036, 3037, 3456,
 	];
-
-	protected readonly RequestFactoryInterface  $requestFactory;
-	protected readonly ResponseFactoryInterface $responseFactory;
-	protected readonly StreamFactoryInterface   $streamFactory;
 
 	protected readonly array $skilltypes;
 
@@ -100,13 +83,10 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		protected readonly SettingsContainerInterface|BuilderOptions $options,
 		protected readonly ClientInterface                           $http,
 		protected readonly LoggerInterface                           $logger,
-		protected readonly SkillDataInterface                        $skillDB,
+		protected readonly RequestFactoryInterface                   $requestFactory,
+		protected readonly ResponseFactoryInterface                  $responseFactory,
+		protected readonly StreamFactoryInterface                    $streamFactory,
 	){
-		$factory = new HTTPFactory;
-
-		$this->requestFactory  = $factory;
-		$this->responseFactory = $factory;
-		$this->streamFactory   = $factory;
 
 		Directory::create(static::CACHEDIR);
 
@@ -138,7 +118,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		return $this->parseInfobox($infobox, $id);
 	}
 
-	protected function getCachFilePath(int $id):string{
+	public function getCacheFilePath(int $id):string{
 		return sprintf('%s/%s.wikitext.json', static::CACHEDIR, $id);
 	}
 
@@ -215,72 +195,13 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 				return $this->emptySkill($skillName);
 			}
 
-			File::saveJSON($this->getCachFilePath($id), array_values($json['query']['pages'])[0]);
+			File::saveJSON($this->getCacheFilePath($id), array_values($json['query']['pages'])[0]);
 		}
 
 		return $this->parseResponse($skillName, $json, $id);
 	}
 
-	/**
-	 * @param array<int, string> $skills
-	 */
-	public function fetchMulti(array $skills):void{
-
-		foreach($skills as $id => &$name){
-			$name = $this->prepareSkillName($name, $id);
-		}
-
-		$pages    = implode('|', $skills);
-		$filename = sprintf('%s/%s.pages.json', static::CACHEDIR, sha1($pages));
-
-#		if(File::exists($filename)){
-#			// use cached files
-#		}
-
-		$request = $this->requestFactory
-			->createRequest('GET', QueryUtil::merge(static::MEDIAWIKI_API, $this->getRequestParams($pages)))
-			->withHeader('Accept-Encoding', 'gzip')
-		;
-
-		$response = $this->http->sendRequest($request);
-		$status   = $response->getStatusCode();
-
-		if($status !== 200){
-			throw new RuntimeException(sprintf('request error: http/%s at %s', $status, $request->getUri()->getHost()));
-		}
-
-		$content = MessageUtil::decompress($response);
-
-		File::save($filename, $content);
-
-		$json = Str::jsonDecode($content, true);
-
-		$skillID_lookup = array_flip($skills);
-
-		foreach($json['query']['pages'] as $page){
-			// we'll just skip articles that can't be assigned, these will be fetched later anyway
-			if(!array_key_exists($page['title'], $skillID_lookup)){
-				$this->logger->warning(sprintf('article not assignable: %s', $page['title']));
-
-				continue;
-			}
-
-			$id = $skillID_lookup[$page['title']];
-			// don't cache missing page responses
-			if(isset($page['missing']) || $page['revisions'] === []){
-				$this->logger->warning(sprintf('could not fetch: [%-4s] %s', $id, $page['title']));
-
-				continue;
-			}
-
-			$this->logger->info(sprintf('feched to cache: [%-4s] %s', $id, $page['title']));
-
-			File::saveJSON($this->getCachFilePath($id), $page);
-		}
-
-	}
-
-	protected function prepareSkillName(string $skillName, int $id):string{
+	public function prepareSkillName(string $skillName, int $id):string{
 
 		if(array_key_exists($id, static::REDIRECTS)){
 			return static::REDIRECTS[$id];
@@ -300,7 +221,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		return preg_replace('/(\s\((Kurzick|Luxon)\))/', '', $skillName);
 	}
 
-	protected function getRequestParams(string $skillName):array{
+	public function getRequestParams(string $skillName):array{
 		return [
 			'action'  => 'query',
 			'format'  => 'json',
@@ -318,15 +239,15 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 	protected function fetchPage(string $skillName, int $id, bool $cached):ResponseInterface{
 
 		// create a response fron the existing file
-		if($cached === true && File::isReadable($this->getCachFilePath($id))){
+		if($cached === true && File::isReadable($this->getCacheFilePath($id))){
 			$this->logger->info(sprintf('cached response for skill: [%-4s] %s', $id, $skillName));
 
-			$stream = $this->streamFactory->createStreamFromFile($this->getCachFilePath($id));
+			$stream = $this->streamFactory->createStreamFromFile($this->getCacheFilePath($id));
+
 			// using code 420 here to indicate a cache response
 			return $this->responseFactory
 				->createResponse(420)
 				->withHeader('Content-Type', 'application/json')
-				->withHeader('Accept-Encoding', 'gzip')
 				->withBody($stream);
 		}
 
@@ -335,6 +256,10 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 
 		$params  = $this->getRequestParams($skillName);
 		$request = $this->requestFactory->createRequest('GET', QueryUtil::merge(static::MEDIAWIKI_API, $params));
+
+		if($this->options->use_http_compression){
+			$request = $request->withHeader('Accept-Encoding', 'gzip;q=1.0, deflate;q=0.8, identity;q=0.5, *;q=0.1');
+		}
 
 		usleep($this->options->request_sleep); // avoid hammering, especially on CI
 

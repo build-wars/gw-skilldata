@@ -13,6 +13,7 @@ namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skill;
+use Buildwars\GWSkillData\SkillDataInterface;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -32,12 +33,13 @@ use const Buildwars\GWSkillDataTools\PVP_SPLIT;
  */
 final class WikiFetcherFrench extends WikiFetcherAbstract{
 
-	protected const LANG          = Lang::FR;
-	protected const MEDIAWIKI_API = 'https://www.gwiki.fr/w/api.php';
-	protected const CACHEDIR      = BUILDDIR.'/gwiki';
-	protected const INFOBOX_NAME  = 'Infobox Compétence';
+	public const string CACHEDIR         = BUILDDIR.'/gwiki';
+	public const string MEDIAWIKI_API    = 'https://www.gwiki.fr/w/api.php';
 
-	protected const REDIRECTS = [
+	protected const string LANG          = Lang::FR;
+	protected const string INFOBOX_NAME  = 'Infobox Compétence';
+
+	protected const array REDIRECTS = [
 		74   => 'Echo (Compétence)',
 		79   => 'Drain d\'énergie (Compétence)',
 		116  => 'Aura noire (Compétence)',
@@ -81,7 +83,7 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		3263 => 'Frappe implacable (PvP)',
 	];
 
-	protected const EMPTY_SKILL = [
+	protected const array EMPTY_SKILL = [
 		Skill::DESC_NAME        => 'Compétence vide',
 		Skill::DESC_DESCRIPTION => 'Représente une case vide de la barre de compétence.',
 		Skill::DESC_CONCISE     => 'Aucune compétence.',
@@ -95,7 +97,7 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 		Skill::DATA_EXHAUSTION  => 0,
 	];
 
-	protected const PRE_PARSE_REPLACE = [
+	protected const array PRE_PARSE_REPLACE = [
 		'&nbsp;'      => ' ',
 		'&#20;'       => ' ',
 		'&#45;'       => '-',
@@ -144,10 +146,10 @@ final class WikiFetcherFrench extends WikiFetcherAbstract{
 
 		$name = ($infobox['nom_infobox'] ?: $infobox['nom']); // phpcs:ignore
 		$name .= match(true){
-			in_array($id, self::Luxon, true)                                  => ' (Luxon)',
-			in_array($id, self::Kurzick, true)                                => ' (Kurzick)',
+			in_array($id, SkillDataInterface::SKILLS_LUXON, true)             => ' (Luxon)',
+			in_array($id, SkillDataInterface::SKILLS_KURZICK, true)           => ' (Kurzick)',
 			in_array($id, PVP_SPLIT, true) && !str_ends_with($name, ' (PvP)') => ' (PvP)',
-			default                                                           => '',
+			default => '',
 		};
 
 		return [

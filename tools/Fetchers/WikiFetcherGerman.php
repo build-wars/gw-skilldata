@@ -15,6 +15,7 @@ namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skill;
+use Buildwars\GWSkillData\SkillDataInterface;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -27,23 +28,20 @@ use function preg_replace;
 use function str_ireplace;
 use function str_replace;
 use function trim;
+use const BUILDDIR;
 
 /**
  * Fetches from the german Guild Wars wiki (guildwiki.de)
  */
 final class WikiFetcherGerman extends WikiFetcherAbstract{
 
-	protected const LANG          = Lang::DE;
-	protected const MEDIAWIKI_API = 'https://www.guildwiki.de/gwiki/api.php';
-	protected const CACHEDIR      = BUILDDIR.'/guildwiki';
-	protected const INFOBOX_NAME  = 'infobox fertigkeit';
+	public const string CACHEDIR         = BUILDDIR.'/guildwiki';
+	public const string MEDIAWIKI_API    = 'https://www.guildwiki.de/gwiki/api.php';
 
-	public const USE_FIELDS = [
-		Skill::DATA_UPKEEP, Skill::DATA_ENERGY, Skill::DATA_ACTIVATION, Skill::DATA_RECHARGE,
-		Skill::DATA_ADRENALINE, Skill::DATA_ADRENALINE_PRECISE, Skill::DATA_SACRIFICE, Skill::DATA_EXHAUSTION,
-	];
+	protected const string LANG          = Lang::DE;
+	protected const string INFOBOX_NAME  = 'infobox fertigkeit';
 
-	protected const REDIRECTS = [
+	protected const array REDIRECTS = [
 		316  => 'Bis ans Limit!',
 		333  => 'Ich werde Euch rächen!',
 		343  => 'Für höhere Gerechtigkeit!',
@@ -70,7 +68,7 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 		3463 => 'Reizen (PvP)',
 	];
 
-	protected const EMPTY_SKILL = [
+	protected const array EMPTY_SKILL = [
 		Skill::DESC_NAME               => 'Keine Fertigkeit',
 		Skill::DESC_DESCRIPTION        => 'Leerer Fertigkeiten-Slot',
 		Skill::DESC_CONCISE            => 'Leerer Slot',
@@ -84,7 +82,7 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 		Skill::DATA_EXHAUSTION         => 0,
 	];
 
-	protected const PRE_PARSE_REPLACE = [
+	protected const array PRE_PARSE_REPLACE = [
 		'{{pipe}}}' => '',
 		'{{{pipe}}' => '',
 		'{{pipe}}'  => '',
@@ -160,9 +158,9 @@ final class WikiFetcherGerman extends WikiFetcherAbstract{
 		$infobox = array_combine(array_column($infobox, 0), array_column($infobox, 1));
 
 		$infobox['name'] .= match(true){
-			in_array($id, self::Luxon, true)   => ' (Luxon)',
-			in_array($id, self::Kurzick, true) => ' (Kurzick)',
-			default                            => '',
+			in_array($id, SkillDataInterface::SKILLS_LUXON, true)   => ' (Luxon)',
+			in_array($id, SkillDataInterface::SKILLS_KURZICK, true) => ' (Kurzick)',
+			default => '',
 		};
 
 		$adrenaline_precise = str_replace(',', '.', ($infobox['adrenalingenau'] ?? $infobox['adrenalin'] ?? '0')); // seriously???

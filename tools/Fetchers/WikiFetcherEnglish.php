@@ -15,6 +15,7 @@ namespace Buildwars\GWSkillDataTools\Fetchers;
 
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skill;
+use Buildwars\GWSkillData\SkillDataInterface;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -29,26 +30,26 @@ use function str_replace;
 use function strtr;
 use function trim;
 use function ucwords;
+use const BUILDDIR;
 
 /**
  * Fetches from the official Guild Wars wiki (wiki.guildwars.com)
  */
 final class WikiFetcherEnglish extends WikiFetcherAbstract{
 
-	protected const LANG          = Lang::EN;
-	protected const MEDIAWIKI_API = 'https://wiki.guildwars.com/api.php';
-	protected const CACHEDIR      = BUILDDIR.'/gww';
-	protected const INFOBOX_NAME  = 'skill infobox';
+	public const string CACHEDIR         = BUILDDIR.'/gww';
+	public const string MEDIAWIKI_API    = 'https://wiki.guildwars.com/api.php';
 
-	public const USE_FIELDS = [Skill::DATA_TYPE];
+	protected const string LANG          = Lang::EN;
+	protected const string INFOBOX_NAME  = 'skill infobox';
 
-	protected const REDIRECTS = [
+	protected const array REDIRECTS = [
 		1599 => '"It\'s Just a Flesh Wound."',
 		1954 => '"Save Yourselves!"', // Luxon
 		2097 => '"Save Yourselves!"', // Kurzick
 	];
 
-	protected const EMPTY_SKILL = [
+	protected const array EMPTY_SKILL = [
 		Skill::DESC_NAME        => 'No Skill',
 		Skill::DESC_DESCRIPTION => 'Empty skill slot',
 		Skill::DESC_CONCISE     => 'Empty slot',
@@ -64,7 +65,7 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 		'aoe'                   => 0,
 	];
 
-	protected const PRE_PARSE_REPLACE = [
+	protected const array PRE_PARSE_REPLACE = [
 		'{{sic}}'     => '<sic/>',
 		'{{1/2}}'     => ' 1/2',
 		'{{1/4}}'     => ' 1/4',
@@ -134,9 +135,9 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 		}
 
 		$infobox['name'] .= match(true){
-			in_array($id, self::Luxon, true)   => ' (Luxon)',
-			in_array($id, self::Kurzick, true) => ' (Kurzick)',
-			default                            => '',
+			in_array($id, SkillDataInterface::SKILLS_LUXON, true)   => ' (Luxon)',
+			in_array($id, SkillDataInterface::SKILLS_KURZICK, true) => ' (Kurzick)',
+			default => '',
 		};
 
 		return [
