@@ -1,6 +1,6 @@
 /*
  * buildwars/gw-skilldata
- * @copyright  2024 smiley
+ * @copyright  2026 smiley
  * @license    MIT
  * @link       https://github.com/build-wars/gw-skilldata
  */

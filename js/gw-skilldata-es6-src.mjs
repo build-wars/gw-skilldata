@@ -61282,4 +61282,4 @@ class SkillLangGerman extends SkillDataAbstract{
 }
 
 export { Attribute, Campaign, Lang, Profession, Skill, SkillLangEnglish, SkillLangGerman as SkillLangFrench, SkillLangGerman$1 as SkillLangGerman, Type };
-//# sourceMappingURL=gw-skilldata-es6-src.js.map
+//# sourceMappingURL=gw-skilldata-es6-src.mjs.map
