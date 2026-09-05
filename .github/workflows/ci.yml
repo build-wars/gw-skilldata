@@ -173,29 +173,19 @@ jobs:
       - name: "Copy files"
         run: |
           mkdir ./public/js
-          cp ./dist/gw-skilldata-es6.js ./public/js
-          cp ./dist/gw-skilldata-es6-src.js ./public/js
-          cp ./dist/gw-skilldata-iife.js ./public/js
-          cp ./dist/gw-skilldata-iife-src.js ./public/js
-          cp ./dist/gw-skilldata-node.cjs ./public/js
-          cp ./dist/gw-skilldata-node-src.cjs ./public/js
-          cp ./dist/gw-skilldata-umd.js ./public/js
-          cp ./dist/gw-skilldata-umd-src.js ./public/js
+          cp ./.build/js-dist/*.js ./public/js
+          cp ./.build/js-dist/*.cjs ./public/js
+          cp ./.build/js-dist/*.mjs ./public/js
           mkdir ./public/json
           cp ./data/json-full/*.json ./public/json
+          cp ./.build/skilldata-combined.json ./public/json
           mkdir ./public/json/skills
-          cp ./data/json-skills/*.json ./public/json/skills
+          cp ./.build/json-skills/*.json ./public/json/skills
           mkdir ./public/pawned
           cp ./.build/pawned/*.csv ./public/pawned
           cp ./.build/pawned/*.ini ./public/pawned
           mkdir ./public/schemas
           cp ./data/schemas/*.schema.json ./public/schemas
-
-      # windows: 7z a -r archive.zip ./dir/*
-      - name: "Zip release files"
-        shell: bash
-        working-directory: ./public
-        run: zip -r ./buildwars-gw-skilldata.zip .
 
       - name: "Upload artifacts"
         uses: actions/upload-artifact@v7
@@ -203,12 +193,17 @@ jobs:
           name: gw-skilldata-${{ github.sha }}
           path: ./public
 
+      # windows: 7z a -r archive.zip ./dir/*
+      - name: "Zip release files"
+        if: github.ref_type == 'tag'
+        shell: bash
+        run: zip -r ./buildwars-gw-skilldata.zip ./public
+
       - name: "Attach file(s) to release"
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v3
         with:
-          files: |
-            buildwars-gw-skilldata.zip
+          files: ./buildwars-gw-skilldata.zip
 
       - name: "Publish files to gh-pages"
         if: github.ref_name == 'main'

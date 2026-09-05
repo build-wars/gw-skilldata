@@ -9,23 +9,23 @@ export default {
 	input  : 'es6/index.js',
 	output : [
 		{
-			file     : 'dist/gw-skilldata-es6.js',
+			file     : '.build/js-dist/gw-skilldata-es6.mjs',
 			format   : 'es',
 			sourcemap: true,
 		},
 		{
-			file     : 'dist/gw-skilldata-node.cjs',
+			file     : '.build/js-dist/gw-skilldata-node.cjs',
 			format   : 'cjs',
 			sourcemap: true,
 		},
 		{
-			file     : 'dist/gw-skilldata-iife.js',
+			file     : '.build/js-dist/gw-skilldata-iife.js',
 			format   : 'iife',
 			name     : 'GwSkilldata',
 			sourcemap: true,
 		},
 		{
-			file     : 'dist/gw-skilldata-umd.js',
+			file     : '.build/js-dist/gw-skilldata-umd.js',
 			format   : 'umd',
 			name     : 'GwSkilldata',
 			sourcemap: true,
@@ -46,7 +46,7 @@ export default {
 				preamble   :
 					  '/*\n'
 					+ ' * buildwars/gw-skilldata\n'
-					+ ' * @copyright  2024 smiley\n'
+					+ ' * @copyright  2026 smiley\n'
 					+ ' * @license    MIT\n'
 					+ ' * @link       https://github.com/build-wars/gw-skilldata\n'
 					+ ' */',
