@@ -41,6 +41,7 @@ if(!Directory::isWritable($builddir) || !Directory::isReadable($builddir)){
 #define('IS_CI', isset($_SERVER['GITHUB_ACTIONS']));
 define('BUILDDIR', File::realpath($builddir));
 define('DATADIR', File::realpath(__DIR__.'/../data'));
+define('PUBLICDIR', File::realpath(__DIR__.'/../public'));
 define('SRCDIR', File::realpath(__DIR__.'/../src'));
 
 /**

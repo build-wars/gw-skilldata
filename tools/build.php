@@ -20,6 +20,7 @@ use Buildwars\GWSkillDataTools\Builder\BuildFromWiki;
 use Buildwars\GWSkillDataTools\Builder\BuildKnownSkills;
 use Buildwars\GWSkillDataTools\Builder\BuildLangFromToolbox;
 use Buildwars\GWSkillDataTools\Builder\BuildPawned;
+use Buildwars\GWSkillDataTools\Builder\BuildPublicIndex;
 use Psr\Log\LogLevel;
 
 require_once __DIR__.'/common.php';
@@ -53,6 +54,8 @@ $builders = [
 	BuildCombinedJSON::class,
 	// Creates the Paw-ned² CSV databases and related .ini files.
 	BuildPawned::class,
+	// updates the index.html for GitHub pages
+	BuildPublicIndex::class,
 ];
 
 foreach($builders as $builder){

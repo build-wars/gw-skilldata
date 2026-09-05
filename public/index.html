@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8"/>
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="UTF-8">
 	<base href="https://build-wars.github.io/gw-skilldata/">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover">
 	<title>Guild Wars Skill Data</title>
 	<style>
 		body {
@@ -23,103 +21,97 @@
 	<div>Project home: <a href="https://github.com/build-wars/gw-skilldata">https://github.com/build-wars/gw-skilldata</a></div>
 	<h2>Library</h2>
 	<div>The Library includes <a href="https://github.com/build-wars/gw-skilldata#javascript-coffee">several helper methods</a> for handling and combining the data from the different sources.</div>
-	<ul>
-		<li><a href="js/gw-skilldata-es6.js">gw-skilldata-es6.js</a></li>
-		<li><a href="js/gw-skilldata-es6-src.js">gw-skilldata-es6-src.js</a></li>
-		<li><a href="js/gw-skilldata-node.cjs">gw-skilldata-node.cjs</a></li>
+	<ul id="js-dist">
+		<li><a href="js/gw-skilldata-es6-src.mjs">gw-skilldata-es6-src.mjs</a></li>
+		<li><a href="js/gw-skilldata-es6.mjs">gw-skilldata-es6.mjs</a></li>
+		<li><a href="js/gw-skilldata-iife-src.js">gw-skilldata-iife-src.js</a></li>
+		<li><a href="js/gw-skilldata-iife.js">gw-skilldata-iife.js</a></li>
 		<li><a href="js/gw-skilldata-node-src.cjs">gw-skilldata-node-src.cjs</a></li>
+		<li><a href="js/gw-skilldata-node.cjs">gw-skilldata-node.cjs</a></li>
+		<li><a href="js/gw-skilldata-umd-src.js">gw-skilldata-umd-src.js</a></li>
+		<li><a href="js/gw-skilldata-umd.js">gw-skilldata-umd.js</a></li>
 	</ul>
 	<h2>JSON Skilldata</h2>
-	<ul>
+	<ul id="js-skilldata">
 		<li>Common skilldata: <a href="json/skilldata.json">skilldata.json</a></li>
-		<li>Skill descriptions (German): <a href="json/skilldesc-de.json">skilldesc-de.json</a></li>
-		<li>Skill descriptions (English): <a href="json/skilldesc-en.json">skilldesc-en.json</a></li>
 		<li>Combined data including all languages: <a href="json/skilldata-combined.json">skilldata-combined.json</a></li>
 		<li>Data for individual skills can be fetched via: <code>https://build-wars.github.io/gw-skilldata/json/skills/[SKILL_ID].json</code></li>
 	</ul>
+	<h3>JSON Skill Descriptions</h3>
+	<ul id="json-skilldesc-wiki">
+		<li>Skill descriptions (German, GuildWiki): <a href="json/skilldesc-de-guildwiki.json">skilldesc-de-guildwiki.json</a></li>
+		<li>Skill descriptions (English, Guild Wars Wiki): <a href="json/skilldesc-en-gww.json">skilldesc-en-gww.json</a></li>
+	</ul>
+	<ul id="json-skilldesc">
+		<li><a href="json/skilldesc-bork.json">skilldesc-bork.json</a> [Bork! Bork! Bork!]</li>
+		<li><a href="json/skilldesc-chs.json">skilldesc-chs.json</a> [Chinese (simplified)]</li>
+		<li><a href="json/skilldesc-cht.json">skilldesc-cht.json</a> [Chinese (traditional)]</li>
+		<li><a href="json/skilldesc-de.json">skilldesc-de.json</a> [German]</li>
+		<li><a href="json/skilldesc-en.json">skilldesc-en.json</a> [English]</li>
+		<li><a href="json/skilldesc-es.json">skilldesc-es.json</a> [Spanish]</li>
+		<li><a href="json/skilldesc-fr.json">skilldesc-fr.json</a> [French]</li>
+		<li><a href="json/skilldesc-it.json">skilldesc-it.json</a> [Italian]</li>
+		<li><a href="json/skilldesc-jp.json">skilldesc-jp.json</a> [Japanese]</li>
+		<li><a href="json/skilldesc-kr.json">skilldesc-kr.json</a> [Korean]</li>
+		<li><a href="json/skilldesc-pl.json">skilldesc-pl.json</a> [Polish]</li>
+		<li><a href="json/skilldesc-ru.json">skilldesc-ru.json</a> [Russian]</li>
+	</ul>
 	<h2>JSON Schemas</h2>
-	<ul>
-		<li><a href="schemas/skilldata.schema.json">skilldata.schema.json</a></li>
-		<li><a href="schemas/skilldesc.schema.json">skilldesc.schema.json</a></li>
+	<ul id="json-schemas">
 		<li><a href="schemas/skill.schema.json">skill.schema.json</a></li>
 		<li><a href="schemas/skilldata-combined.schema.json">skilldata-combined.schema.json</a></li>
+		<li><a href="schemas/skilldata.schema.json">skilldata.schema.json</a></li>
+		<li><a href="schemas/skilldesc.schema.json">skilldesc.schema.json</a></li>
 	</ul>
 	<h2><a href="https://redeemer.biz/guild-wars/projekte/pawned2/" target="_blank">paw·ned²</a> Databases</h2>
 	<div>
-		Please note that the files are <code>Windows-1252</code> encoded.<br/>
+		Please note that the files are <code>Windows-1252</code> encoded.<br>
 		The "en2" prefixed databases are for the english version of paw·ned².
 	</div>
 	<h3>Long descriptions</h3>
-	<ul>
-		<li>
-			<a href="pawned/de_buildwars_pve.csv">de_buildwars_pve.csv</a>
-			(<a href="pawned/de_buildwars_pve.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/de_buildwars_pvp.csv">de_buildwars_pvp.csv</a>
-			(<a href="pawned/de_buildwars_pvp.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en_buildwars_pve.csv">en_buildwars_pve.csv</a>
-			(<a href="pawned/en_buildwars_pve.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en_buildwars_pvp.csv">en_buildwars_pvp.csv</a>
-			(<a href="pawned/en_buildwars_pvp.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en2_buildwars_pve.csv">en2_buildwars_pve.csv</a>
-			(<a href="pawned/en2_buildwars_pve.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en2_buildwars_pvp.csv">en2_buildwars_pvp.csv</a>
-			(<a href="pawned/en2_buildwars_pvp.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/fr_buildwars_pve.csv">fr_buildwars_pve.csv</a>
-			(<a href="pawned/fr_buildwars_pve.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/fr_buildwars_pvp.csv">fr_buildwars_pvp.csv</a>
-			(<a href="pawned/fr_buildwars_pvp.ini">.ini</a>)
-		</li>
+	<h4>PvE</h4>
+	<ul id="pawned-full-pve">
+		<li><a href="pawned/bork_buildwars_pve.csv">bork_buildwars_pve.csv</a> [<a href="pawned/bork_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/de_buildwars_pve.csv">de_buildwars_pve.csv</a> [<a href="pawned/de_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/de_guildwiki_buildwars_pve.csv">de_guildwiki_buildwars_pve.csv</a> [<a href="pawned/de_guildwiki_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/en2_buildwars_pve.csv">en2_buildwars_pve.csv</a> [<a href="pawned/en2_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/en_gww_buildwars_pve.csv">en_gww_buildwars_pve.csv</a> [<a href="pawned/en_gww_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/es_buildwars_pve.csv">es_buildwars_pve.csv</a> [<a href="pawned/es_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/fr_buildwars_pve.csv">fr_buildwars_pve.csv</a> [<a href="pawned/fr_buildwars_pve.ini">.ini</a>]</li>
+		<li><a href="pawned/it_buildwars_pve.csv">it_buildwars_pve.csv</a> [<a href="pawned/it_buildwars_pve.ini">.ini</a>]</li>
+	</ul>
+	<h4>PvP</h4>
+	<ul id="pawned-full-pvp">
+		<li><a href="pawned/bork_buildwars_pvp.csv">bork_buildwars_pvp.csv</a> [<a href="pawned/bork_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/de_buildwars_pvp.csv">de_buildwars_pvp.csv</a> [<a href="pawned/de_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/de_guildwiki_buildwars_pvp.csv">de_guildwiki_buildwars_pvp.csv</a> [<a href="pawned/de_guildwiki_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/en2_buildwars_pvp.csv">en2_buildwars_pvp.csv</a> [<a href="pawned/en2_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/en_gww_buildwars_pvp.csv">en_gww_buildwars_pvp.csv</a> [<a href="pawned/en_gww_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/es_buildwars_pvp.csv">es_buildwars_pvp.csv</a> [<a href="pawned/es_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/fr_buildwars_pvp.csv">fr_buildwars_pvp.csv</a> [<a href="pawned/fr_buildwars_pvp.ini">.ini</a>]</li>
+		<li><a href="pawned/it_buildwars_pvp.csv">it_buildwars_pvp.csv</a> [<a href="pawned/it_buildwars_pvp.ini">.ini</a>]</li>
 	</ul>
 	<h3>Concise descriptions</h3>
-	<ul>
-		<li>
-			<a href="pawned/de_buildwars_pve_concise.csv">de_buildwars_pve_concise.csv</a>
-			(<a href="pawned/de_buildwars_pve_concise.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/de_buildwars_pvp_concise.csv">de_buildwars_pvp_concise.csv</a>
-			(<a href="pawned/de_buildwars_pvp_concise.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en_buildwars_pve_concise.csv">en_buildwars_pve_concise.csv</a>
-			(<a href="pawned/en_buildwars_pve_concise.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en_buildwars_pvp_concise.csv">en_buildwars_pvp_concise.csv</a>
-			(<a href="pawned/en_buildwars_pvp_concise.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en2_buildwars_pve_concise.csv">en2_buildwars_pve_concise.csv</a>
-			(<a href="pawned/en2_buildwars_pve_concise.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/en2_buildwars_pvp_concise.csv">en2_buildwars_pvp_concise.csv</a>
-			(<a href="pawned/en2_buildwars_pvp_concise.ini">.ini</a>)
-		</li>
-		<!--
-		<li>
-			<a href="pawned/fr_buildwars_pve_concise.csv">fr_buildwars_pve_concise.csv</a>
-			(<a href="pawned/fr_buildwars_pve_concise.ini">.ini</a>)
-		</li>
-		<li>
-			<a href="pawned/fr_buildwars_pvp_concise.csv">fr_buildwars_pvp_concise.csv</a>
-			(<a href="pawned/fr_buildwars_pvp_concise.ini">.ini</a>)
-		</li>
-		-->
+	<h4>PvE</h4>
+	<ul id="pawned-concise-pve">
+		<li><a href="pawned/bork_buildwars_pve_concise.csv">bork_buildwars_pve_concise.csv</a> [<a href="pawned/bork_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/de_buildwars_pve_concise.csv">de_buildwars_pve_concise.csv</a> [<a href="pawned/de_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/de_guildwiki_buildwars_pve_concise.csv">de_guildwiki_buildwars_pve_concise.csv</a> [<a href="pawned/de_guildwiki_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/en2_buildwars_pve_concise.csv">en2_buildwars_pve_concise.csv</a> [<a href="pawned/en2_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/en_gww_buildwars_pve_concise.csv">en_gww_buildwars_pve_concise.csv</a> [<a href="pawned/en_gww_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/es_buildwars_pve_concise.csv">es_buildwars_pve_concise.csv</a> [<a href="pawned/es_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/fr_buildwars_pve_concise.csv">fr_buildwars_pve_concise.csv</a> [<a href="pawned/fr_buildwars_pve_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/it_buildwars_pve_concise.csv">it_buildwars_pve_concise.csv</a> [<a href="pawned/it_buildwars_pve_concise.ini">.ini</a>]</li>
 	</ul>
-</body>
-</html>
+	<h4>PvP</h4>
+	<ul id="pawned-concise-pvp">
+		<li><a href="pawned/bork_buildwars_pvp_concise.csv">bork_buildwars_pvp_concise.csv</a> [<a href="pawned/bork_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/de_buildwars_pvp_concise.csv">de_buildwars_pvp_concise.csv</a> [<a href="pawned/de_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/de_guildwiki_buildwars_pvp_concise.csv">de_guildwiki_buildwars_pvp_concise.csv</a> [<a href="pawned/de_guildwiki_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/en2_buildwars_pvp_concise.csv">en2_buildwars_pvp_concise.csv</a> [<a href="pawned/en2_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/en_gww_buildwars_pvp_concise.csv">en_gww_buildwars_pvp_concise.csv</a> [<a href="pawned/en_gww_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/es_buildwars_pvp_concise.csv">es_buildwars_pvp_concise.csv</a> [<a href="pawned/es_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/fr_buildwars_pvp_concise.csv">fr_buildwars_pvp_concise.csv</a> [<a href="pawned/fr_buildwars_pvp_concise.ini">.ini</a>]</li>
+		<li><a href="pawned/it_buildwars_pvp_concise.csv">it_buildwars_pvp_concise.csv</a> [<a href="pawned/it_buildwars_pvp_concise.ini">.ini</a>]</li>
+	</ul>
+</body></html>

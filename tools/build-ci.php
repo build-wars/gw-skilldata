@@ -16,6 +16,7 @@ namespace Buildwars\GWSkillDataTools;
 
 use Buildwars\GWSkillDataTools\Builder\BuildCombinedJSON;
 use Buildwars\GWSkillDataTools\Builder\BuildPawned;
+use Buildwars\GWSkillDataTools\Builder\BuildPublicIndex;
 use Psr\Log\LogLevel;
 
 require_once __DIR__.'/common.php';
@@ -36,6 +37,7 @@ $builders = [
 #	BuildFromWiki::class,
 	BuildCombinedJSON::class,
 	BuildPawned::class,
+	BuildPublicIndex::class,
 ];
 
 foreach($builders as $builder){

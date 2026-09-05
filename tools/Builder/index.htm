@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<base href="https://build-wars.github.io/gw-skilldata/">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover"/>
+	<title>Guild Wars Skill Data</title>
+	<style>
+		body {
+			font-size: 16px;
+			line-height: 1.5em;
+			font-family: "Verdana", sans-serif;
+			color: #000;
+		}
+
+		code{
+			font-family: "Consolas", monospace;
+		}
+	</style>
+</head>
+<body>
+	<h1>GW Skilldata Release Files</h1>
+	<div>Project home: <a href="https://github.com/build-wars/gw-skilldata">https://github.com/build-wars/gw-skilldata</a></div>
+	<h2>Library</h2>
+	<div>The Library includes <a href="https://github.com/build-wars/gw-skilldata#javascript-coffee">several helper methods</a> for handling and combining the data from the different sources.</div>
+	<ul id="js-dist">
+	</ul>
+	<h2>JSON Skilldata</h2>
+	<ul id="js-skilldata">
+	<li>Common skilldata: <a href="json/skilldata.json">skilldata.json</a></li>
+	<li>Combined data including all languages: <a href="json/skilldata-combined.json">skilldata-combined.json</a></li>
+	<li>Data for individual skills can be fetched via: <code>https://build-wars.github.io/gw-skilldata/json/skills/[SKILL_ID].json</code></li>
+	</ul>
+	<h3>JSON Skill Descriptions</h3>
+	<ul id="json-skilldesc-wiki">
+	<li>Skill descriptions (German, GuildWiki): <a href="json/skilldesc-de-guildwiki.json">skilldesc-de-guildwiki.json</a></li>
+	<li>Skill descriptions (English, Guild Wars Wiki): <a href="json/skilldesc-en-gww.json">skilldesc-en-gww.json</a></li>
+	</ul>
+	<ul id="json-skilldesc">
+	</ul>
+	<h2>JSON Schemas</h2>
+	<ul id="json-schemas">
+	</ul>
+	<h2><a href="https://redeemer.biz/guild-wars/projekte/pawned2/" target="_blank">paw·ned²</a> Databases</h2>
+	<div>
+		Please note that the files are <code>Windows-1252</code> encoded.<br/>
+		The "en2" prefixed databases are for the english version of paw·ned².
+	</div>
+	<h3>Long descriptions</h3>
+	<h4>PvE</h4>
+	<ul id="pawned-full-pve">
+	</ul>
+	<h4>PvP</h4>
+	<ul id="pawned-full-pvp">
+	</ul>
+	<h3>Concise descriptions</h3>
+	<h4>PvE</h4>
+	<ul id="pawned-concise-pve">
+	</ul>
+	<h4>PvP</h4>
+	<ul id="pawned-concise-pvp">
+	</ul></body></html>

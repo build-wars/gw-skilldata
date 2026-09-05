@@ -54,24 +54,25 @@ abstract class BuilderAbstract implements BuilderInterface{
 	 */
 	protected const string KNOWN_SKILLS_JSON       = __DIR__.'/known-skills.json';
 
-	protected const string JSON_SKILLDATA_FILE     = DATADIR.'/json-full/skilldata.json';
-	protected const string JSON_SKILLDATA_COMBINED = DATADIR.'/json-full/skilldata-combined.json';
-	protected const string JSON_LANG_FILE          = DATADIR.'/json-full/skilldesc-%s.json';
-	protected const string JSON_SKILL_DIR          = DATADIR.'/json-skills';
+	protected const string JS_DIST_DIR             = BUILDDIR.'/js-dist';
+	protected const string JSON_SKILL_DIR          = BUILDDIR.'/json-skills';
+	protected const string PAWNED_CACHEDIR         = BUILDDIR.'/pawned';
+	protected const string TOOLBOX_CACHEDIR        = BUILDDIR.'/toolbox';
 
+	protected const string JSON_SKILLDATA_FILE     = DATADIR.'/json-full/skilldata.json';
+	protected const string JSON_LANG_FILE          = DATADIR.'/json-full/skilldesc-%s.json';
+	protected const string JSON_SKILLDATA_COMBINED = BUILDDIR.'/skilldata-combined.json';
 	// used for diffs
 	protected const string WIKI_SKILLDATA_FILE     = BUILDDIR.'/skilldata-%s.json';
 
-	protected const string PAWNED_CACHEDIR         = BUILDDIR.'/pawned';
-
 	protected const string TOOLBOX_API_URL         = 'https://api.gwtoolbox.com/v1';
 	protected const string TOOLBOX_SKILL_ENDPOINT  = self::TOOLBOX_API_URL.'/%s/skills.json';
-	protected const string TOOLBOX_CACHEDIR        = BUILDDIR.'/toolbox';
 
 	/**
 	 * cache directories to create on startup
 	 */
 	protected const array CACHE_DIRS = [
+		self::JS_DIST_DIR,
 		self::JSON_SKILL_DIR,
 		self::PAWNED_CACHEDIR,
 		self::TOOLBOX_CACHEDIR,
