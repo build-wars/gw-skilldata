@@ -17,9 +17,9 @@ use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 use Buildwars\GWSkillData\Type;
+use chillerlan\Utilities\Crypto;
 use function array_key_exists;
 use function count;
-use function hash_file;
 use function implode;
 use function in_array;
 use function sprintf;
@@ -37,8 +37,9 @@ final class BuildPawned extends BuilderAbstract implements SkillDataAwareInterfa
 	// currently supported languages (due to Windows-1252 limitation)
 	/** @var array<string, string[]>  */
 	public const array PAWNED_LANGUAGES = [
-		Lang::DE_GUILDWIKI => [Lang::DE_GUILDWIKI, Lang::EN_GWW      ],
 		Lang::DE           => [Lang::DE,           Lang::EN          ],
+		Lang::DE_GUILDWIKI => [Lang::DE_GUILDWIKI, Lang::EN_GWW      ],
+		Lang::EN           => [Lang::EN,           Lang::DE          ],
 		Lang::EN_GWW       => [Lang::EN_GWW,       Lang::DE_GUILDWIKI],
 		self::LANG_EN      => [Lang::EN_GWW,       Lang::EN          ],
 		Lang::ES           => [Lang::ES,           Lang::DE_GUILDWIKI],
@@ -48,8 +49,9 @@ final class BuildPawned extends BuilderAbstract implements SkillDataAwareInterfa
 	];
 	// i hate this
 	private const array INI_METADATA = [
+		Lang::DE           => ['lang' => 'Deutsch',             'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
 		Lang::DE_GUILDWIKI => ['lang' => 'Deutsch (GuildWiki)', 'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
-		Lang::DE           => ['lang' => 'Deutsch (GW)',        'lng' => 'DE', 'wiki' => 'www.guildwiki.de'],
+		Lang::EN           => ['lang' => 'English',             'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
 		Lang::EN_GWW       => ['lang' => 'English (GWW)',       'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
 		self::LANG_EN      => ['lang' => 'English only (GWW)',  'lng' => 'EN', 'wiki' => 'wiki.guildwars.com'],
 		Lang::ES           => ['lang' => 'Español',             'lng' => 'ES', 'wiki' => ''],
@@ -232,7 +234,7 @@ INI;
 #		$this->saveFile(sprintf('%s/%s.csv.utf8', self::PAWNED_CACHEDIR, $filename), $data);
 		$data     = mb_convert_encoding($data, 'Windows-1252', 'UTF-8');
 		$savePath = $this->saveFile(sprintf('%s/%s.csv', self::PAWNED_CACHEDIR, $filename), $data);
-		$hash     = hash_file('SHA256', $savePath);
+		$hash     = Crypto::sha256file($savePath);
 
 		$wikishow = 'False';
 		$wikiedit = 'False';

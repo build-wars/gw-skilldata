@@ -12,15 +12,12 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Lang;
+use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use Dom\HTMLDocument;
-use FilesystemIterator;
-use function ksort;
 use function sprintf;
 use function str_contains;
-use function str_ends_with;
 use function str_replace;
-use function str_starts_with;
 use const DATADIR;
 use const PUBLICDIR;
 
@@ -51,35 +48,10 @@ final class BuildPublicIndex extends BuilderAbstract{
 		return $this;
 	}
 
-	/**
-	 * @return array<string, \SplFileInfo>
-	 */
-	private function getFiles(string $dir):array{
-		$files = [];
-
-		foreach(new FilesystemIterator($dir) as $finfo){
-
-			if(!$finfo->isFile()){
-				continue;
-			}
-
-			$files[$finfo->getFilename()] = $finfo;
-		}
-
-		ksort($files);
-
-		return $files;
-	}
-
 	private function addJSDist():self{
 		$jsDist = $this->document->getElementById('js-dist');
 
-		foreach($this->getFiles(self::JS_DIST_DIR) as $fileName => $finfo){
-
-			if(!str_ends_with($finfo->getExtension(), 'js')){
-				continue;
-			}
-
+		foreach(Directory::filelist(self::JS_DIST_DIR, ['cjs', 'mjs', 'js']) as $fileName => $finfo){
 			$a  = $this->document->createElement('a');
 			$li = $this->document->createElement('li'); // ->appendChild($a); should be here
 
@@ -99,9 +71,9 @@ final class BuildPublicIndex extends BuilderAbstract{
 	private function addJSONSkilldesc():self{
 		$jsonSkilldesc = $this->document->getElementById('json-skilldesc');
 
-		foreach($this->getFiles(DATADIR.'/json-full') as $fileName => $finfo){
+		foreach(Directory::filelist(DATADIR.'/json-full', null, 'skilldesc-') as $fileName => $finfo){
 
-			if(!str_starts_with($fileName, 'skilldesc-') || str_contains($fileName, '-g')){
+			if(str_contains($fileName, '-g')){
 				continue;
 			}
 
@@ -123,16 +95,7 @@ final class BuildPublicIndex extends BuilderAbstract{
 	private function addJSONSchemas():self{
 		$jsonSchemas = $this->document->getElementById('json-schemas');
 
-		foreach($this->getFiles(DATADIR.'/schemas') as $fileName => $finfo){
-
-			if($finfo->getExtension() !== 'json'){
-				continue;
-			}
-			// not now
-			if(str_contains($fileName, 'itemdata') || str_contains($fileName, 'moddata')){
-				continue;
-			}
-
+		foreach(Directory::filelist(DATADIR.'/schemas', ['json'], 'skill') as $fileName => $finfo){
 			$a  = $this->document->createElement('a');
 			$li = $this->document->createElement('li');
 
@@ -154,12 +117,7 @@ final class BuildPublicIndex extends BuilderAbstract{
 			'buildwars_pvp_concise.csv' => $this->document->getElementById('pawned-concise-pvp'),
 		];
 
-		foreach($this->getFiles(self::PAWNED_CACHEDIR) as $fileName => $finfo){
-
-			if($finfo->getExtension() !== 'csv'){
-				continue;
-			}
-
+		foreach(Directory::filelist(self::PAWNED_CACHEDIR, ['csv']) as $fileName => $finfo){
 			$name = $finfo->getBasename('.csv');
 
 			$a1  = $this->document->createElement('a');

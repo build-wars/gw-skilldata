@@ -40,7 +40,7 @@ use function explode;
 use function floatval;
 use function in_array;
 use function intval;
-use function is_int;
+use function is_numeric;
 use function mb_strtolower;
 use function preg_match;
 use function preg_match_all;
@@ -186,19 +186,25 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 					$retries++;
 
 					if($retries > 2){
-						$this->logger->error(sprintf('could not find a target for [%-4s] %s',  $id, $name));
+						$this->logger->error(sprintf('could not find a target for [%-4s][%s] %s', $id, static::LANG, $name));
 						// reset counter and exit
 						$retries = 0;
 
 						return $this->emptySkill($skillName);
 					}
 
-					$this->logger->warning(sprintf('redirecting [%-4s] %s to: %s',  $id, $name, $json['query']['pages']['-1']['title'])); // phpcs:ignore
+					$this->logger->warning(sprintf(
+						'redirecting [%-4s][%s] %s to: %s',
+						$id,
+						static::LANG,
+						$name,
+						$json['query']['pages']['-1']['title']),
+					);
 
 					return $this->fetch($json['query']['pages']['-1']['title'], $id, $cached);
 				}
 
-				$this->logger->warning(sprintf('page not found: [%-4s] %s',  $id, $name));
+				$this->logger->warning(sprintf('page not found: [%-4s][%s] %s', $id, static::LANG, $name));
 
 				return $this->emptySkill($skillName);
 			}
@@ -281,10 +287,8 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		preg_match_all('/\{\{(?:(?:[^\{\}]+)|(?R))*\}\}/', $data, $matches, PREG_SET_ORDER);
 
 		foreach($matches as $match){
-			foreach($match as $str){
-				if(str_contains(mb_strtolower($str), mb_strtolower($templateName))){
-					return $match[0];
-				}
+			if(array_any($match, fn(string $str):bool => str_contains(mb_strtolower($str), mb_strtolower($templateName)))){
+				return $match[0];
 			}
 		}
 
@@ -306,7 +310,8 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 	protected function calcFraction(string $str):float|int{
 		$str = trim($str);
 
-		if(is_int($str)){
+		// likely an integer
+		if(is_numeric($str) && !str_contains($str, '.')){
 			return intval($str);
 		}
 
@@ -333,29 +338,6 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 		}
 
 		return ($calc($parts[0]) + $calc($parts[1]));
-	}
-
-	/**
-	 * @param string[] $needles
-	 */
-	protected function strContainsAny(string $haystack, array $needles, bool $case_insensitive = false):bool{
-
-		if($case_insensitive){
-			$haystack = mb_strtolower($haystack);
-		}
-
-		foreach($needles as $needle){
-
-			if($case_insensitive){
-				$needle = mb_strtolower($needle);
-			}
-
-			if(str_contains($haystack, $needle)){
-				return true;
-			}
-		}
-
-		return false;
 	}
 
 }

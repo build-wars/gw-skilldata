@@ -144,7 +144,7 @@ final class BuildFromWiki extends BuilderAbstract{
 			foreach($json['query']['pages'] as $page){
 				// we'll just skip articles that can't be assigned, these will be fetched later anyway
 				if(!array_key_exists($page['title'], $lookup)){
-					$this->logger->warning(sprintf('article not assignable: %s', $page['title']));
+					$this->logger->warning(sprintf('article not assignable: [%s] %s', $this->lang->id, $page['title']));
 
 					continue;
 				}
@@ -153,7 +153,7 @@ final class BuildFromWiki extends BuilderAbstract{
 
 				// don't cache missing page responses
 				if(isset($page['missing']) || $page['revisions'] === []){
-					$this->logger->warning(sprintf('could not fetch: [%-4s] %s', $id, $page['title']));
+					$this->logger->warning(sprintf('could not fetch: [%-4s][%s] %s', $id, $this->lang->id, $page['title']));
 
 					continue;
 				}

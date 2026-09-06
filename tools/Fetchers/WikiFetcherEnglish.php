@@ -16,6 +16,7 @@ namespace Buildwars\GWSkillDataTools\Fetchers;
 use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
+use chillerlan\Utilities\Str;
 use function array_column;
 use function array_combine;
 use function array_filter;
@@ -46,6 +47,7 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 	protected const array REDIRECTS = [
 		1599 => '"It\'s Just a Flesh Wound."',
 		1954 => '"Save Yourselves!"', // Luxon
+		1995 => 'Waste Not, Want Not',
 		2097 => '"Save Yourselves!"', // Kurzick
 	];
 
@@ -128,7 +130,7 @@ final class WikiFetcherEnglish extends WikiFetcherAbstract{
 			$infobox[$k] = $ex[1];
 
 			// we'll leave the skill type in for some outlier concise descriptions
-			if($k === 'concise description' && $this->strContainsAny($ex[0], ['Half Range', 'Touch', 'Spear Melee'], true)){
+			if($k === 'concise description' && Str::containsAny($ex[0], ['Half Range', 'Touch', 'Spear Melee'], true)){
 				$ex[0]       = ucwords($ex[0], ' ');
 				$infobox[$k] = implode('. ', $ex);
 			}
