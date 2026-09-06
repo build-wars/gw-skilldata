@@ -13,8 +13,9 @@ namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Lang;
 use chillerlan\Utilities\File;
-use DirectoryIterator;
 use Dom\HTMLDocument;
+use FilesystemIterator;
+use function ksort;
 use function sprintf;
 use function str_contains;
 use function str_ends_with;
@@ -50,10 +51,30 @@ final class BuildPublicIndex extends BuilderAbstract{
 		return $this;
 	}
 
+	/**
+	 * @return array<string, \SplFileInfo>
+	 */
+	private function getFiles(string $dir):array{
+		$files = [];
+
+		foreach(new FilesystemIterator($dir) as $finfo){
+
+			if(!$finfo->isFile()){
+				continue;
+			}
+
+			$files[$finfo->getFilename()] = $finfo;
+		}
+
+		ksort($files);
+
+		return $files;
+	}
+
 	private function addJSDist():self{
 		$jsDist = $this->document->getElementById('js-dist');
 
-		foreach(new DirectoryIterator(self::JS_DIST_DIR) as $finfo){
+		foreach($this->getFiles(self::JS_DIST_DIR) as $fileName => $finfo){
 
 			if(!str_ends_with($finfo->getExtension(), 'js')){
 				continue;
@@ -62,8 +83,8 @@ final class BuildPublicIndex extends BuilderAbstract{
 			$a  = $this->document->createElement('a');
 			$li = $this->document->createElement('li'); // ->appendChild($a); should be here
 
-			$a->setAttribute('href', sprintf('js/%s', $finfo->getFilename())); // void, why??
-			$a->textContent = $finfo->getFilename(); // could be a setter, returning itself
+			$a->setAttribute('href', sprintf('js/%s', $fileName)); // void, why??
+			$a->textContent = $fileName; // could be a setter, returning itself
 
 			// appendChild() returns the appended node, not the one the method is called on, hostile, why??
 			// i read the mozilla docs, and it doesn't make much sense there either: breaking the
@@ -78,9 +99,9 @@ final class BuildPublicIndex extends BuilderAbstract{
 	private function addJSONSkilldesc():self{
 		$jsonSkilldesc = $this->document->getElementById('json-skilldesc');
 
-		foreach(new DirectoryIterator(DATADIR.'/json-full') as $finfo){
+		foreach($this->getFiles(DATADIR.'/json-full') as $fileName => $finfo){
 
-			if(!str_starts_with($finfo->getFilename(), 'skilldesc-') || str_contains($finfo->getFilename(), '-g')){
+			if(!str_starts_with($fileName, 'skilldesc-') || str_contains($fileName, '-g')){
 				continue;
 			}
 
@@ -90,8 +111,8 @@ final class BuildPublicIndex extends BuilderAbstract{
 			$li = $this->document->createElement('li');
 			$li->append($a, sprintf(' [%s]', $lang->getName(Lang::EN)));
 
-			$a->setAttribute('href', sprintf('json/%s', $finfo->getFilename()));
-			$a->textContent = $finfo->getFilename();
+			$a->setAttribute('href', sprintf('json/%s', $fileName));
+			$a->textContent = $fileName;
 
 			$jsonSkilldesc->appendChild($li);
 		}
@@ -102,21 +123,21 @@ final class BuildPublicIndex extends BuilderAbstract{
 	private function addJSONSchemas():self{
 		$jsonSchemas = $this->document->getElementById('json-schemas');
 
-		foreach(new DirectoryIterator(DATADIR.'/schemas') as $finfo){
+		foreach($this->getFiles(DATADIR.'/schemas') as $fileName => $finfo){
 
 			if($finfo->getExtension() !== 'json'){
 				continue;
 			}
 			// not now
-			if(str_contains($finfo->getFilename(), 'itemdata') || str_contains($finfo->getFilename(), 'moddata')){
+			if(str_contains($fileName, 'itemdata') || str_contains($fileName, 'moddata')){
 				continue;
 			}
 
 			$a  = $this->document->createElement('a');
 			$li = $this->document->createElement('li');
 
-			$a->setAttribute('href', sprintf('schemas/%s', $finfo->getFilename()));
-			$a->textContent = $finfo->getFilename();
+			$a->setAttribute('href', sprintf('schemas/%s', $fileName));
+			$a->textContent = $fileName;
 
 			$jsonSchemas->appendChild($li)->appendChild($a);
 		}
@@ -133,7 +154,7 @@ final class BuildPublicIndex extends BuilderAbstract{
 			'buildwars_pvp_concise.csv' => $this->document->getElementById('pawned-concise-pvp'),
 		];
 
-		foreach(new DirectoryIterator(self::PAWNED_CACHEDIR) as $finfo){
+		foreach($this->getFiles(self::PAWNED_CACHEDIR) as $fileName => $finfo){
 
 			if($finfo->getExtension() !== 'csv'){
 				continue;
@@ -153,7 +174,7 @@ final class BuildPublicIndex extends BuilderAbstract{
 			$li->append($a1, ' [', $a2, ']');
 
 			foreach($containers as $needle => $ul){
-				if(str_contains($finfo->getFilename(), $needle)){
+				if(str_contains($fileName, $needle)){
 					$ul->appendChild($li);
 					break;
 				}
