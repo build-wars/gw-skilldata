@@ -38,6 +38,7 @@ $builders = [
 	BuildCombinedJSON::class,
 	BuildPawned::class,
 	BuildPublicIndex::class,
+#	WikiDiff::class,
 ];
 
 foreach($builders as $builder){

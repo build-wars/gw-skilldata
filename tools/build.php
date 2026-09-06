@@ -21,17 +21,19 @@ use Buildwars\GWSkillDataTools\Builder\BuildKnownSkills;
 use Buildwars\GWSkillDataTools\Builder\BuildLangFromToolbox;
 use Buildwars\GWSkillDataTools\Builder\BuildPawned;
 use Buildwars\GWSkillDataTools\Builder\BuildPublicIndex;
+use Buildwars\GWSkillDataTools\Builder\WikiDiff;
 use Psr\Log\LogLevel;
 
 require_once __DIR__.'/common.php';
 
 $ptions = new BuilderOptions([
-	'ca_info'              => __DIR__.'/cacert.pem',
-	'timeout'              => 30,
-	'logLevel'             => LogLevel::INFO,
-	'from_cache'           => true,
-	'use_http_compression' => true,
-	'request_sleep'        => 100000,
+	'ca_info'                 => __DIR__.'/cacert.pem',
+	'timeout'                 => 30,
+	'logLevel'                => LogLevel::INFO,
+	'from_cache'              => false,
+	'use_http_compression'    => true,
+	'use_known_discrepancies' => true,
+	'request_sleep'           => 100000,
 ]);
 
 
@@ -56,6 +58,8 @@ $builders = [
 	BuildPawned::class,
 	// updates the index.html for GitHub pages
 	BuildPublicIndex::class,
+	// creates diffs of the wiki data against the game data
+	WikiDiff::class,
 ];
 
 foreach($builders as $builder){

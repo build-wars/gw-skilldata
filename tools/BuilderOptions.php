@@ -16,9 +16,10 @@ use Psr\Log\LogLevel;
 
 class BuilderOptions extends HTTPOptions{
 
-	protected string $logLevel             = LogLevel::INFO;
-	protected bool   $from_cache           = false;
-	protected bool   $use_http_compression = false;
-	protected int    $request_sleep        = 500000;
+	protected string $logLevel                = LogLevel::INFO;
+	protected bool   $from_cache              = false;
+	protected bool   $use_http_compression    = false;
+	protected bool   $use_known_discrepancies = false;
+	protected int    $request_sleep           = 500000;
 
 }

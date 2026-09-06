@@ -15,14 +15,9 @@ use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use RuntimeException;
 use function array_flip;
-use function count;
 use function define;
 use function ini_set;
 use function mb_internal_encoding;
-use function preg_match_all;
-use function sort;
-use const PREG_UNMATCHED_AS_NULL;
-use const SORT_NATURAL;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
@@ -245,57 +240,3 @@ const PVP_SPLIT = [
 
 // convenience
 define('PVP_SPLIT_FLIP', array_flip(PVP_SPLIT));
-
-/**
- * Matches the progression values in the given skill description.
- *
- * Returns the matches as an array, returns null if no progression could be found.
- */
-function getProgressions(string $description, bool $sort = false):array|null{
-	$r = preg_match_all('/(?<progression>\d+\.+\d+)/', $description, $matches, PREG_UNMATCHED_AS_NULL);
-
-	if($r === false || $r < 1){
-		return null;
-	}
-
-	if($sort){
-		sort($matches['progression'], SORT_NATURAL);
-	}
-
-	return $matches['progression'];
-}
-
-/**
- * Compares the progression values of the given skill descriptions.
- *
- * Returns null if there are no differences, returns an array of progression matches if there were differences.
- */
-function diffProgressions(string $desc1, string $desc2, bool $sort = false):array|null{
-	$prog1 = getProgressions($desc1, $sort);
-	$prog2 = getProgressions($desc2, $sort);
-
-	// description does not contain progressions
-	if($prog1 === null && $prog2 === null){
-		return null;
-	}
-	// general discrepancy: either of the descriptions does not have a progression
-	// or count of progressions does not match (???)
-	if($prog1 === null || $prog2 === null || count($prog1) !== count($prog2)){
-		return [$prog1, $prog2];
-	}
-
-	$diff = 0;
-
-	foreach($prog1 as $i => $value){
-		if($prog2[$i] !== $value){
-			$diff++;
-		}
-	}
-
-	if($diff > 0){
-		return [$prog1, $prog2];
-	}
-
-	// no differences
-	return null;
-}
