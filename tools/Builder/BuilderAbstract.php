@@ -15,6 +15,9 @@ use Buildwars\GWSkillData\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use Buildwars\GWSkillDataTools\Fetchers\WikFetcherInterface;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherEnglish;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherFrench;
+use Buildwars\GWSkillDataTools\Fetchers\WikiFetcherGerman;
 use chillerlan\HTTP\CurlClient;
 use chillerlan\HTTP\Psr7\HTTPFactory;
 use chillerlan\HTTP\Utils\MessageUtil;
@@ -72,11 +75,15 @@ abstract class BuilderAbstract implements BuilderInterface{
 	 * cache directories to create on startup
 	 */
 	protected const array CACHE_DIRS = [
+		BUILDDIR, // this already exists, but added here for clearing
 		self::JS_DIST_DIR,
 		self::JSON_SKILL_DIR,
 		self::PAWNED_CACHEDIR,
 		self::TOOLBOX_CACHEDIR,
 		WikFetcherInterface::WIKI_BULK_CACHE,
+		WikiFetcherEnglish::CACHEDIR,
+		WikiFetcherGerman::CACHEDIR,
+		WikiFetcherFrench::CACHEDIR,
 	];
 
 	/**

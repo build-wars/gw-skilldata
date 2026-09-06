@@ -21,6 +21,7 @@ use Buildwars\GWSkillDataTools\Builder\BuildKnownSkills;
 use Buildwars\GWSkillDataTools\Builder\BuildLangFromToolbox;
 use Buildwars\GWSkillDataTools\Builder\BuildPawned;
 use Buildwars\GWSkillDataTools\Builder\BuildPublicIndex;
+use Buildwars\GWSkillDataTools\Builder\ClearCaches;
 use Buildwars\GWSkillDataTools\Builder\WikiDiff;
 use Psr\Log\LogLevel;
 
@@ -38,6 +39,8 @@ $ptions = new BuilderOptions([
 
 
 $builders = [
+	// clears all known cache directories for a fresh start
+	ClearCaches::class,
 	// creates a "known skills" file with IDs and skill names for the en, de and fr wikis
 	BuildKnownSkills::class,
 

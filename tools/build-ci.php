@@ -31,6 +31,7 @@ $ptions = new BuilderOptions([
 ]);
 
 $builders = [
+#	ClearCaches::class,
 #	BuildKnownSkills::class,
 #	BuildDataFromToolbox::class,
 #	BuildLangFromToolbox::class,
