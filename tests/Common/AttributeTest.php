@@ -9,11 +9,11 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillDataTest;
+namespace Buildwars\GWSkillDataTest\Common;
 
-use Buildwars\GWSkillData\Attribute;
-use Buildwars\GWSkillData\Profession;
-use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Common\Attribute;
+use Buildwars\GWSkillData\Common\Lang;
+use Buildwars\GWSkillData\Common\Profession;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

@@ -9,7 +9,7 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillData;
+namespace Buildwars\GWSkillData\Common;
 
 use Closure;
 use Deprecated;

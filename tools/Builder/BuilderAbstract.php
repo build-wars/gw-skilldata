@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Builder;
 
-use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use Buildwars\GWSkillDataTools\Fetchers\WikFetcherInterface;
@@ -260,6 +260,7 @@ abstract class BuilderAbstract implements BuilderInterface{
 			'<?php // THERE BE DRAGONS',
 			'declare(strict_types=1);',
 			'namespace Buildwars\\GWSkillData;',
+			'use Buildwars\\GWSkillData\\Common\\Lang;',
 			sprintf('final class %s extends SkillData{', $className),
 			sprintf('public const string LANG = Lang::%s;', self::LANG_CONST_NAME[$langID]),
 			'protected const array ID2DESC = [',

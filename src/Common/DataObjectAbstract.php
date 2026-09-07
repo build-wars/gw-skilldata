@@ -9,7 +9,7 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillData;
+namespace Buildwars\GWSkillData\Common;
 
 use InvalidArgumentException;
 use function array_key_exists;

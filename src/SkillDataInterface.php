@@ -13,6 +13,12 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
+use Buildwars\GWSkillData\Common\Attribute;
+use Buildwars\GWSkillData\Common\Campaign;
+use Buildwars\GWSkillData\Common\Lang;
+use Buildwars\GWSkillData\Common\Profession;
+use Buildwars\GWSkillData\Common\Type;
+
 interface SkillDataInterface{
 
 	/*
@@ -31,7 +37,7 @@ interface SkillDataInterface{
 	/**
 	 * The language abbreviation, key for the several `name` arrays
 	 *
-	 * @see \Buildwars\GWSkillData\Lang::IDS
+	 * @see \Buildwars\GWSkillData\Common\Lang::IDS
 	 */
 	public const string LANG = '';
 

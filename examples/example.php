@@ -9,9 +9,9 @@
  */
 declare(strict_types = 1);
 
+use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
-use Buildwars\GWSkillData\Lang;
 
 require_once __DIR__.'/../vendor/autoload.php';
 

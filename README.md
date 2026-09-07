@@ -275,7 +275,7 @@ This class is not meant to be invoked as standalone, but as return value for the
 | `toArray()`                                                  | `mixed[]` | Returns a pure array representation (key-value object in JS) of the `Skill` instance |
 | `getFieldName(string $field, Lang\|string $lang = Lang::EN)` | `string`  | Returns the display name for the given field (PHP only)                              |
 
-### `Lang`
+### `Common\Lang`
 
 The `Lang` object holds the language information used for translatable strings. An instance of this object can be used as paramter in various methods.
 
@@ -293,7 +293,7 @@ The `DataObjectAbstract` class is the abstract parent of the classes listed belo
 | `is(int $id)`    | `bool`   | Checks whether the object ID is equal to the given ID     |
 | `in(array $ids)` | `bool`   | Checks whether the object ID is in the given array of IDs |
 
-#### `Attribute`
+#### `Common\Attribute`
 
 The `Attribute` class encapsulates all skill [attribute](https://wiki.guildwars.com/wiki/Attribute) related static data.
 
@@ -312,7 +312,7 @@ The `Attribute` class encapsulates all skill [attribute](https://wiki.guildwars.
 | `getProgressionValue(int\|string $val0, int\|string $val15, int\|null $level = null)` | `int`        | Calculates the value for the given val0-val15 progression for the given attribute and level |
 | `getProgressionTable(int $val0, int $val15, int\|null $max = null)`                   | `int[]`      | Creates a progression table for the values 0 to attribute-max of the given val0 and val15   |
 
-#### `Campaign`
+#### `Common\Campaign`
 
 The `Campaign` class encapsulates all [campaign](https://wiki.guildwars.com/wiki/Campaign) related static data.
 
@@ -320,7 +320,7 @@ The `Campaign` class encapsulates all [campaign](https://wiki.guildwars.com/wiki
 |------------------------------------------------------|----------|----------------------------------------------------------------------|
 | `getContinentName(Lang\| string\|null $lang = null)` | `string` | Returns the readable name of the continent for the given campaign ID |
 
-#### `Profession`
+#### `Common\Profession`
 
 The `Profession` class encapsulates all [profession](https://wiki.guildwars.com/wiki/Profession) related static data.
 
@@ -331,7 +331,7 @@ The `Profession` class encapsulates all [profession](https://wiki.guildwars.com/
 | `getPrimaryAttributeID()`                  | `int`       | Returns the primary attribute ID of the current profession |
 | `getAttributes()`                          | `int[]`     | Returns all attributes for the current profession          |
 
-#### `Type`
+#### `Common\Type`
 
 The `Type` class encapsulates all [skill type](https://wiki.guildwars.com/wiki/Skill_type) related static data.
 

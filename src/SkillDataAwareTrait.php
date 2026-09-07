@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
+use Buildwars\GWSkillData\Common\Lang;
 use InvalidArgumentException;
 use function array_key_exists;
 

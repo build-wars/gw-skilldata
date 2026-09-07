@@ -9,9 +9,9 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillDataTest;
+namespace Buildwars\GWSkillDataTest\Common;
 
-use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Common\Lang;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

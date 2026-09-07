@@ -11,6 +11,12 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillData;
 
+use Buildwars\GWSkillData\Common\Attribute;
+use Buildwars\GWSkillData\Common\Campaign;
+use Buildwars\GWSkillData\Common\DataObjectInterface;
+use Buildwars\GWSkillData\Common\Lang;
+use Buildwars\GWSkillData\Common\Profession;
+use Buildwars\GWSkillData\Common\Type;
 use InvalidArgumentException;
 use function array_key_exists;
 use function array_merge;
@@ -274,7 +280,7 @@ final class Skill{
 	private(set) string     $concise;
 
 	/**
-	 * @param array<string, scalar|\Buildwars\GWSkillData\DataObjectInterface> $skilldata
+	 * @param array<string, scalar|\Buildwars\GWSkillData\Common\DataObjectInterface> $skilldata
 	 */
 	public function __construct(array $skilldata, Lang|string $lang = Lang::EN){
 		$this->lang = $lang;

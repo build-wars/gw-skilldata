@@ -9,11 +9,11 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillData;
+namespace Buildwars\GWSkillData\Common;
 
 /**
- * @property int $id
- * @property \Buildwars\GWSkillData\Lang $lang
+ * @property int                                $id
+ * @property \Buildwars\GWSkillData\Common\Lang $lang
  */
 interface DataObjectInterface{
 

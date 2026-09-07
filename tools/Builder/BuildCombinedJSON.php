@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Builder;
 
-use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
 use chillerlan\Utilities\File;

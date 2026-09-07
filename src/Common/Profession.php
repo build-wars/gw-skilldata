@@ -11,7 +11,7 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillData;
+namespace Buildwars\GWSkillData\Common;
 
 use function implode;
 use function sprintf;

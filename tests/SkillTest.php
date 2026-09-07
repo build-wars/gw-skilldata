@@ -11,13 +11,13 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTest;
 
-use Buildwars\GWSkillData\Attribute;
-use Buildwars\GWSkillData\Campaign;
-use Buildwars\GWSkillData\DataObjectAbstract;
-use Buildwars\GWSkillData\Lang;
-use Buildwars\GWSkillData\Profession;
+use Buildwars\GWSkillData\Common\Attribute;
+use Buildwars\GWSkillData\Common\Campaign;
+use Buildwars\GWSkillData\Common\DataObjectAbstract;
+use Buildwars\GWSkillData\Common\Lang;
+use Buildwars\GWSkillData\Common\Profession;
+use Buildwars\GWSkillData\Common\Type;
 use Buildwars\GWSkillData\Skill;
-use Buildwars\GWSkillData\Type;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 

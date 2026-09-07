@@ -1,6 +1,7 @@
 <?php // THERE BE DRAGONS
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
+use Buildwars\GWSkillData\Common\Lang;
 final class SkillLangTraditionalChinese extends SkillData{
 public const string LANG = Lang::ZH;
 protected const array ID2DESC = [

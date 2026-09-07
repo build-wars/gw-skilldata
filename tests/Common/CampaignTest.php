@@ -1,6 +1,6 @@
 <?php
 /**
- * Class SkilltypeTest
+ * Class CampaignTest
  *
  * @created      22.07.2026
  * @author       smiley <smiley@chillerlan.net>
@@ -9,22 +9,22 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillDataTest;
+namespace Buildwars\GWSkillDataTest\Common;
 
-use Buildwars\GWSkillData\Lang;
-use Buildwars\GWSkillData\Type;
+use Buildwars\GWSkillData\Common\Campaign;
+use Buildwars\GWSkillData\Common\Lang;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
-final class TypeTest extends TestCase{
+final class CampaignTest extends TestCase{
 
 	#[Test]
 	public function constructInvalidIdException():void{
 		$this->expectException(InvalidArgumentException::class);
 		$this->expectExceptionMessageIsOrContains('invalid ID');
 		/** @phan-suppress-next-line PhanNoopNew */
-		new Type(666);
+		new Campaign(666);
 	}
 
 	#[Test]
@@ -32,15 +32,15 @@ final class TypeTest extends TestCase{
 		$this->expectException(InvalidArgumentException::class);
 		$this->expectExceptionMessageIsOrContains('invalid language');
 		/** @phan-suppress-next-line PhanNoopNew */
-		new Type(Type::SIGNET, 'foo');
+		new Campaign(Campaign::CORE, 'foo');
 	}
 
 	#[Test]
 	public function getName():void{
-		$skilltype = new Type(Type::SIGNET);
+		$campaign = new Campaign(Campaign::CORE);
 
-		$this::assertSame('Signet', $skilltype->getName());
-		$this::assertSame('Siegel', $skilltype->getName(Lang::DE));
+		$this::assertSame('Core', $campaign->getName());
+		$this::assertSame('Basis', $campaign->getName(Lang::DE));
 	}
 
 	#[Test]
@@ -48,22 +48,23 @@ final class TypeTest extends TestCase{
 		$this->expectException(InvalidArgumentException::class);
 		$this->expectExceptionMessageIsOrContains('invalid language');
 
-		(new Type(Type::SIGNET))->getName('foo');
+		(new Campaign(Campaign::CORE))->getName('foo');
 	}
 
 	#[Test]
-	public function withSubtypes():void{
-		$types = (new Type(Type::TOUCH_SKILL))->withSubtypes();
+	public function getContinentName():void{
+		$campaign = new Campaign(Campaign::CORE);
 
-		$expected = [
-			Type::TOUCH_SKILL,
-			Type::TOUCH_SPELL,
-			Type::TOUCH_ENCHANTMENT_SPELL,
-			Type::TOUCH_HEX_SPELL,
-			Type::TOUCH_SIGNET,
-		];
+		$this::assertSame('The Mists', $campaign->getContinentName());
+		$this::assertSame('Die Nebel', $campaign->getContinentName(Lang::DE));
+	}
 
-		$this::assertSame($expected, $types);
+	#[Test]
+	public function getContinentNameInvalidLanguageException():void{
+		$this->expectException(InvalidArgumentException::class);
+		$this->expectExceptionMessageIsOrContains('invalid language');
+
+		(new Campaign(Campaign::CORE))->getContinentName('foo');
 	}
 
 }

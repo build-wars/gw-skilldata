@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
+use Buildwars\GWSkillData\Common\Type;
 use Buildwars\GWSkillData\Skill;
-use Buildwars\GWSkillData\Type;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use chillerlan\HTTP\Utils\MessageUtil;
 use chillerlan\HTTP\Utils\QueryUtil;

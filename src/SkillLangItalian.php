@@ -1,6 +1,7 @@
 <?php // THERE BE DRAGONS
 declare(strict_types=1);
 namespace Buildwars\GWSkillData;
+use Buildwars\GWSkillData\Common\Lang;
 final class SkillLangItalian extends SkillData{
 public const string LANG = Lang::IT;
 protected const array ID2DESC = [

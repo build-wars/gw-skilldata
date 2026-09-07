@@ -9,7 +9,7 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillData;
+namespace Buildwars\GWSkillData\Common;
 
 /**
  * Encapsulates all campaign related static data

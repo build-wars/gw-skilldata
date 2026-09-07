@@ -16,9 +16,9 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Builder;
 
-use Buildwars\GWSkillData\Attribute;
-use Buildwars\GWSkillData\Campaign;
-use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Common\Attribute;
+use Buildwars\GWSkillData\Common\Campaign;
+use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use chillerlan\HTTP\Utils\MessageUtil;

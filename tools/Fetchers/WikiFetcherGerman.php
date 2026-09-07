@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
-use Buildwars\GWSkillData\Lang;
+use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataInterface;
 use function array_column;
