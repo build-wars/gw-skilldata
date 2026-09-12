@@ -58,8 +58,8 @@ final class TypeTest extends TestCase{
 		$expected = [
 			Type::TOUCH_SKILL,
 			Type::TOUCH_SPELL,
-			Type::TOUCH_ENCHANTMENT_SPELL,
-			Type::TOUCH_HEX_SPELL,
+			Type::TOUCH_ENCH,
+			Type::TOUCH_HEX,
 			Type::TOUCH_SIGNET,
 		];
 

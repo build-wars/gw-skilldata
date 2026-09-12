@@ -104,10 +104,10 @@ class SkillDataTest extends TestCase{
 
 	#[Test]
 	public function getByType():void{
-		$data = $this->skillData->getByType(Type::HEX_SPELL);
+		$data = $this->skillData->getByType(Type::HEX);
 
 		foreach($data as $skill){
-			$this::assertSame(Type::HEX_SPELL, $skill->type->id);
+			$this::assertSame(Type::HEX, $skill->type->id);
 		}
 	}
 
@@ -115,8 +115,8 @@ class SkillDataTest extends TestCase{
 	public function getByTypeWithSubtypes():void{
 		$data     = $this->skillData->getByTypeWithSubtypes(Type::TOUCH_SKILL);
 		$expected = [
-			Type::TOUCH_SKILL, Type::TOUCH_SPELL, Type::TOUCH_ENCHANTMENT_SPELL,
-			Type::TOUCH_HEX_SPELL, Type::TOUCH_SIGNET,
+			Type::TOUCH_SKILL, Type::TOUCH_SPELL, Type::TOUCH_ENCH,
+			Type::TOUCH_HEX, Type::TOUCH_SIGNET,
 		];
 
 		foreach($data as $skill){

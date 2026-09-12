@@ -150,12 +150,12 @@ INI;
 	];
 
 	private const array TYPE_MAP = [
-		Type::DOUBLE_ENCHANTMENT      => Type::ENCHANTMENT_SPELL,
-		Type::TOUCH_SKILL             => Type::SKILL,
-		Type::TOUCH_SPELL             => Type::SPELL,
-		Type::TOUCH_ENCHANTMENT_SPELL => Type::ENCHANTMENT_SPELL,
-		Type::TOUCH_HEX_SPELL         => Type::HEX_SPELL,
-		Type::TOUCH_SIGNET            => Type::SIGNET,
+		Type::DOUBLE_ENCH  => Type::ENCH,
+		Type::TOUCH_SKILL  => Type::SKILL,
+		Type::TOUCH_SPELL  => Type::SPELL,
+		Type::TOUCH_ENCH   => Type::ENCH,
+		Type::TOUCH_HEX    => Type::HEX,
+		Type::TOUCH_SIGNET => Type::SIGNET,
 	];
 
 	public function build():static{

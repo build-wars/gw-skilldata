@@ -11,6 +11,11 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools;
 
+use Buildwars\GWSkillData\Common\Attribute;
+use Buildwars\GWSkillData\Common\Campaign;
+use Buildwars\GWSkillData\Common\Lang;
+use Buildwars\GWSkillData\Common\Profession;
+use Buildwars\GWSkillData\Common\Type;
 use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use RuntimeException;
@@ -240,3 +245,148 @@ const PVP_SPLIT = [
 
 // convenience
 define('PVP_SPLIT_FLIP', array_flip(PVP_SPLIT));
+
+/*
+ * maps of Lang => constant name for the class builder
+ */
+
+const CONST_LANG = [
+	Lang::CN           => 'Lang::CN',
+	Lang::DE           => 'Lang::DE',
+	Lang::EN           => 'Lang::EN',
+	Lang::ES           => 'Lang::ES',
+	Lang::FR           => 'Lang::FR',
+	Lang::IT           => 'Lang::IT',
+	Lang::JA           => 'Lang::JA',
+	Lang::KO           => 'Lang::KO',
+	Lang::PL           => 'Lang::PL',
+	Lang::RU           => 'Lang::RU',
+	Lang::XX           => 'Lang::XX',
+	Lang::ZH           => 'Lang::ZH',
+	Lang::DE_GUILDWIKI => 'Lang::DE',
+	Lang::EN_GWW       => 'Lang::EN',
+	Lang::FR_GWIKI     => 'Lang::FR',
+];
+
+const CONST_CAMPAIGN = [
+	Campaign::CORE             => 'C::CORE',
+	Campaign::PROPHECIES       => 'C::PROPHECIES',
+	Campaign::FACTIONS         => 'C::FACTIONS',
+	Campaign::NIGHTFALL        => 'C::NIGHTFALL',
+	Campaign::EYE_OF_THE_NORTH => 'C::EYE_OF_THE_NORTH',
+];
+
+const CONST_PROFESSION = [
+	Profession::NONE         => 'P::NONE',
+	Profession::WARRIOR      => 'P::WARRIOR',
+	Profession::RANGER       => 'P::RANGER',
+	Profession::MONK         => 'P::MONK',
+	Profession::NECROMANCER  => 'P::NECROMANCER',
+	Profession::MESMER       => 'P::MESMER',
+	Profession::ELEMENTALIST => 'P::ELEMENTALIST',
+	Profession::ASSASSIN     => 'P::ASSASSIN',
+	Profession::RITUALIST    => 'P::RITUALIST',
+	Profession::PARAGON      => 'P::PARAGON',
+	Profession::DERVISH      => 'P::DERVISH',
+];
+
+const CONST_ATTRIBUTE = [
+	Attribute::FAST_CASTING        => 'A::FAST_CASTING',
+	Attribute::ILLUSION_MAGIC      => 'A::ILLUSION_MAGIC',
+	Attribute::DOMINATION_MAGIC    => 'A::DOMINATION_MAGIC',
+	Attribute::INSPIRATION_MAGIC   => 'A::INSPIRATION_MAGIC',
+	Attribute::BLOOD_MAGIC         => 'A::BLOOD_MAGIC',
+	Attribute::DEATH_MAGIC         => 'A::DEATH_MAGIC',
+	Attribute::SOUL_REAPING        => 'A::SOUL_REAPING',
+	Attribute::CURSES              => 'A::CURSES',
+	Attribute::AIR_MAGIC           => 'A::AIR_MAGIC',
+	Attribute::EARTH_MAGIC         => 'A::EARTH_MAGIC',
+	Attribute::FIRE_MAGIC          => 'A::FIRE_MAGIC',
+	Attribute::WATER_MAGIC         => 'A::WATER_MAGIC',
+	Attribute::ENERGY_STORAGE      => 'A::ENERGY_STORAGE',
+	Attribute::HEALING_PRAYERS     => 'A::HEALING_PRAYERS',
+	Attribute::SMITING_PRAYERS     => 'A::SMITING_PRAYERS',
+	Attribute::PROTECTION_PRAYERS  => 'A::PROTECTION_PRAYERS',
+	Attribute::DIVINE_FAVOR        => 'A::DIVINE_FAVOR',
+	Attribute::STRENGTH            => 'A::STRENGTH',
+	Attribute::AXE_MASTERY         => 'A::AXE_MASTERY',
+	Attribute::HAMMER_MASTERY      => 'A::HAMMER_MASTERY',
+	Attribute::SWORDMANSHIP        => 'A::SWORDMANSHIP',
+	Attribute::TACTICS             => 'A::TACTICS',
+	Attribute::BEAST_MASTERY       => 'A::BEAST_MASTERY',
+	Attribute::EXPERTISE           => 'A::EXPERTISE',
+	Attribute::WILDERNESS_SURVIVAL => 'A::WILDERNESS_SURVIVAL',
+	Attribute::MARKMANSHIP         => 'A::MARKMANSHIP',
+	Attribute::DAGGER_MASTERY      => 'A::DAGGER_MASTERY',
+	Attribute::DEADLY_ARTS         => 'A::DEADLY_ARTS',
+	Attribute::SHADOW_ARTS         => 'A::SHADOW_ARTS',
+	Attribute::COMMUNING           => 'A::COMMUNING',
+	Attribute::RESTORATION_MAGIC   => 'A::RESTORATION_MAGIC',
+	Attribute::CHANNELING_MAGIC    => 'A::CHANNELING_MAGIC',
+	Attribute::CRITICAL_STRIKES    => 'A::CRITICAL_STRIKES',
+	Attribute::SPAWNING_POWER      => 'A::SPAWNING_POWER',
+	Attribute::SPEAR_MASTERY       => 'A::SPEAR_MASTERY',
+	Attribute::COMMAND             => 'A::COMMAND',
+	Attribute::MOTIVATION          => 'A::MOTIVATION',
+	Attribute::LEADERSHIP          => 'A::LEADERSHIP',
+	Attribute::SCYTHE_MASTERY      => 'A::SCYTHE_MASTERY',
+	Attribute::WIND_PRAYERS        => 'A::WIND_PRAYERS',
+	Attribute::EARTH_PRAYERS       => 'A::EARTH_PRAYERS',
+	Attribute::MYSTICISM           => 'A::MYSTICISM',
+	Attribute::NONE                => 'A::NONE',
+	Attribute::TITLE_SUNSPEAR      => 'A::TITLE_SUNSPEAR',
+	Attribute::TITLE_LIGHTBRINGER  => 'A::TITLE_LIGHTBRINGER',
+	Attribute::TITLE_LUXON         => 'A::TITLE_LUXON',
+	Attribute::TITLE_KURZICK       => 'A::TITLE_KURZICK',
+	Attribute::TITLE_ASURA         => 'A::TITLE_ASURA',
+	Attribute::TITLE_DELDRIMOR     => 'A::TITLE_DELDRIMOR',
+	Attribute::TITLE_VANGUARD      => 'A::TITLE_VANGUARD',
+	Attribute::TITLE_NORN          => 'A::TITLE_NORN',
+];
+
+const CONST_TYPE = [
+	Type::NONE            => 'T::NONE',
+	Type::SKILL           => 'T::SKILL',
+	Type::BOW_ATK         => 'T::BOW_ATK',
+	Type::MELEE_ATK       => 'T::MELEE_ATK',
+	Type::AXE_ATK         => 'T::AXE_ATK',
+	Type::LEAD_ATK        => 'T::LEAD_ATK',
+	Type::OFFHAND_ATK     => 'T::OFFHAND_ATK',
+	Type::DUAL_ATK        => 'T::DUAL_ATK',
+	Type::HAMMER_ATK      => 'T::HAMMER_ATK',
+	Type::SCYTHE_ATK      => 'T::SCYTHE_ATK',
+	Type::SWORD_ATK       => 'T::SWORD_ATK',
+	Type::PET_ATK         => 'T::PET_ATK',
+	Type::SPEAR_ATK       => 'T::SPEAR_ATK',
+	Type::CHANT           => 'T::CHANT',
+	Type::ECHO            => 'T::ECHO',
+	Type::FORM            => 'T::FORM',
+	Type::GLYPH           => 'T::GLYPH',
+	Type::PREPARATION     => 'T::PREPARATION',
+	Type::BINDING_RITUAL  => 'T::BINDING_RITUAL',
+	Type::NATURE_RITUAL   => 'T::NATURE_RITUAL',
+	Type::SHOUT           => 'T::SHOUT',
+	Type::SIGNET          => 'T::SIGNET',
+	Type::SPELL           => 'T::SPELL',
+	Type::ENCH            => 'T::ENCH',
+	Type::HEX             => 'T::HEX',
+	Type::ITEM_SPELL      => 'T::ITEM_SPELL',
+	Type::WARD_SPELL      => 'T::WARD_SPELL',
+	Type::WEAPON_SPELL    => 'T::WEAPON_SPELL',
+	Type::WELL            => 'T::WELL',
+	Type::STANCE          => 'T::STANCE',
+	Type::TRAP            => 'T::TRAP',
+	Type::RANGED_ATK      => 'T::RANGED_ATK',
+	Type::VANGUARD_RITUAL => 'T::VANGUARD_RITUAL',
+	Type::FLASH_ENCH      => 'T::FLASH_ENCH',
+	Type::ATK_SKILL       => 'T::ATK_SKILL',
+	Type::DAGGER_ATK      => 'T::DAGGER_ATK',
+	Type::RITUAL          => 'T::RITUAL',
+	Type::DOUBLE_ENCH     => 'T::DOUBLE_ENCH',
+	Type::TOUCH_SKILL     => 'T::TOUCH_SKILL',
+	Type::TOUCH_SPELL     => 'T::TOUCH_SPELL',
+	Type::TOUCH_ENCH      => 'T::TOUCH_ENCH',
+	Type::TOUCH_HEX       => 'T::TOUCH_HEX',
+	Type::TOUCH_SIGNET    => 'T::TOUCH_SIGNET',
+];
+
