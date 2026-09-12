@@ -31,7 +31,7 @@ use function str_replace;
 use function strtr;
 use function trim;
 use function ucwords;
-use const BUILDDIR;
+use const Buildwars\GWSkillDataTools\BUILDDIR;
 
 /**
  * Fetches from the official Guild Wars wiki (wiki.guildwars.com)

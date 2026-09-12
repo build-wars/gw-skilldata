@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
-use const BUILDDIR;
+use const Buildwars\GWSkillDataTools\BUILDDIR;
 
 interface WikFetcherInterface{
 

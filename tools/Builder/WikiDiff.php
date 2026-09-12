@@ -31,7 +31,7 @@ use function in_array;
 use function preg_match_all;
 use function sort;
 use function sprintf;
-use const BUILDDIR;
+use const Buildwars\GWSkillDataTools\BUILDDIR;
 use const PREG_UNMATCHED_AS_NULL;
 use const SORT_NATURAL;
 

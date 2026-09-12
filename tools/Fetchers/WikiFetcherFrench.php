@@ -24,7 +24,7 @@ use function preg_replace;
 use function str_ends_with;
 use function str_ireplace;
 use function trim;
-use const BUILDDIR;
+use const Buildwars\GWSkillDataTools\BUILDDIR;
 use const Buildwars\GWSkillDataTools\PVP_SPLIT;
 
 /**

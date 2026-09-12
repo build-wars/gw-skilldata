@@ -39,10 +39,10 @@ if(!Directory::isWritable($builddir) || !Directory::isReadable($builddir)){
 }
 
 #define('IS_CI', isset($_SERVER['GITHUB_ACTIONS']));
-define('BUILDDIR', File::realpath($builddir));
-define('DATADIR', File::realpath(__DIR__.'/../data'));
-define('PUBLICDIR', File::realpath(__DIR__.'/../public'));
-define('SRCDIR', File::realpath(__DIR__.'/../src'));
+define(__NAMESPACE__.'\\BUILDDIR', File::realpath($builddir));
+define(__NAMESPACE__.'\\DATADIR', File::realpath(__DIR__.'/../data'));
+define(__NAMESPACE__.'\\PUBLICDIR', File::realpath(__DIR__.'/../public'));
+define(__NAMESPACE__.'\\SRCDIR', File::realpath(__DIR__.'/../src'));
 
 /**
  * Skills that have deviating PvP versions
@@ -244,7 +244,7 @@ const PVP_SPLIT = [
 ];
 
 // convenience
-define('PVP_SPLIT_FLIP', array_flip(PVP_SPLIT));
+define(__NAMESPACE__.'\\PVP_SPLIT_FLIP', array_flip(PVP_SPLIT));
 
 /*
  * maps of Lang => constant name for the class builder

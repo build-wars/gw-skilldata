@@ -18,8 +18,8 @@ use Dom\HTMLDocument;
 use function sprintf;
 use function str_contains;
 use function str_replace;
-use const DATADIR;
-use const PUBLICDIR;
+use const Buildwars\GWSkillDataTools\DATADIR;
+use const Buildwars\GWSkillDataTools\PUBLICDIR;
 
 final class BuildPublicIndex extends BuilderAbstract{
 

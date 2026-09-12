@@ -15,7 +15,7 @@ use chillerlan\Utilities\Directory;
 use function count;
 use function sprintf;
 
-class ClearCaches extends BuilderAbstract{
+final class ClearCaches extends BuilderAbstract{
 
 	public function build():static{
 

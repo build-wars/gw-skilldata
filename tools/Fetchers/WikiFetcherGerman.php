@@ -28,7 +28,7 @@ use function preg_replace;
 use function str_ireplace;
 use function str_replace;
 use function trim;
-use const BUILDDIR;
+use const Buildwars\GWSkillDataTools\BUILDDIR;
 
 /**
  * Fetches from the german Guild Wars wiki (guildwiki.de)
