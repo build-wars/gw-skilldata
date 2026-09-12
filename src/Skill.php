@@ -247,11 +247,11 @@ final class Skill{
 		}
 	}
 
-	private(set) Type $type{
-		set(Type|int $type){
+	private(set) SkillType $type{
+		set(SkillType|int $type){
 
-			if(!$type instanceof Type){
-				$type = new Type($type);
+			if(!$type instanceof SkillType){
+				$type = new SkillType($type);
 			}
 
 			$this->type = $type;

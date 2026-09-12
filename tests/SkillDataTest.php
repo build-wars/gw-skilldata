@@ -17,7 +17,7 @@ use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
-use Buildwars\GWSkillData\Type;
+use Buildwars\GWSkillData\SkillType;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
@@ -104,19 +104,19 @@ class SkillDataTest extends TestCase{
 
 	#[Test]
 	public function getByType():void{
-		$data = $this->skillData->getByType(Type::HEX);
+		$data = $this->skillData->getByType(SkillType::HEX);
 
 		foreach($data as $skill){
-			$this::assertSame(Type::HEX, $skill->type->id);
+			$this::assertSame(SkillType::HEX, $skill->type->id);
 		}
 	}
 
 	#[Test]
 	public function getByTypeWithSubtypes():void{
-		$data     = $this->skillData->getByTypeWithSubtypes(Type::TOUCH_SKILL);
+		$data     = $this->skillData->getByTypeWithSubtypes(SkillType::TOUCH_SKILL);
 		$expected = [
-			Type::TOUCH_SKILL, Type::TOUCH_SPELL, Type::TOUCH_ENCH,
-			Type::TOUCH_HEX, Type::TOUCH_SIGNET,
+			SkillType::TOUCH_SKILL, SkillType::TOUCH_SPELL, SkillType::TOUCH_ENCH,
+			SkillType::TOUCH_HEX, SkillType::TOUCH_SIGNET,
 		];
 
 		foreach($data as $skill){

@@ -17,7 +17,7 @@ use Buildwars\GWSkillData\Common\DataObjectAbstract;
 use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
 use Buildwars\GWSkillData\Skill;
-use Buildwars\GWSkillData\Type;
+use Buildwars\GWSkillData\SkillType;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
@@ -27,7 +27,7 @@ final class SkillTest extends TestCase{
 		'attribute'  => Attribute::class,
 		'campaign'   => Campaign::class,
 		'profession' => Profession::class,
-		'type'       => Type::class,
+		'type'       => SkillType::class,
 	];
 
 	private const skillData = [

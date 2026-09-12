@@ -83,14 +83,14 @@ interface SkillDataInterface{
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 * @throws \InvalidArgumentException
 	 */
-	public function getByType(Type|int $type, bool $pvp = false):array;
+	public function getByType(SkillType|int $type, bool $pvp = false):array;
 
 	/**
 	 * Returns all skills for the given skill type ID and its subtypes (if any)
 	 *
 	 * @return \Buildwars\GWSkillData\Skill[]
 	 */
-	public function getByTypeWithSubtypes(Type|int $type, bool $pvp = false):array;
+	public function getByTypeWithSubtypes(SkillType|int $type, bool $pvp = false):array;
 
 	/**
 	 * Returns all elite skills

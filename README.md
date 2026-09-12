@@ -333,7 +333,7 @@ The `Profession` class encapsulates all [profession](https://wiki.guildwars.com/
 
 #### `Common\Type`
 
-The `Type` class encapsulates all [skill type](https://wiki.guildwars.com/wiki/Skill_type) related static data.
+The `SkillType` class encapsulates all [skill type](https://wiki.guildwars.com/wiki/Skill_type) related static data.
 
 | Method           | Return  | Description                                                            |
 |------------------|---------|------------------------------------------------------------------------|

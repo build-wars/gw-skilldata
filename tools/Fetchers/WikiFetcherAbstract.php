@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace Buildwars\GWSkillDataTools\Fetchers;
 
-use Buildwars\GWSkillData\Common\Type;
 use Buildwars\GWSkillData\Skill;
+use Buildwars\GWSkillData\SkillType;
 use Buildwars\GWSkillDataTools\BuilderOptions;
 use chillerlan\HTTP\Utils\MessageUtil;
 use chillerlan\HTTP\Utils\QueryUtil;
@@ -96,7 +96,7 @@ abstract class WikiFetcherAbstract implements WikFetcherInterface{
 			throw new RuntimeException('cannot read/write to cache dir');
 		}
 
-		$this->skilltypes = array_combine(array_column(Type::NAME, static::LANG), array_keys(Type::NAME));
+		$this->skilltypes = array_combine(array_column(SkillType::NAME, static::LANG), array_keys(SkillType::NAME));
 	}
 
 	/**

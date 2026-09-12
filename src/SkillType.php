@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Type
+ * Class SkillType
  *
  * @created      28.06.2026
  * @author       smiley <smiley@chillerlan.net>
@@ -12,13 +12,14 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 
 use Buildwars\GWSkillData\Common\DataObjectAbstract;
+use Buildwars\GWSkillData\Common\Lang;
 use function sort;
 use const SORT_NUMERIC;
 
 /**
  * Encapsulates all skill type related static data
  */
-final class Type extends DataObjectAbstract{
+final class SkillType extends DataObjectAbstract{
 
 	public const string CSS_CLASS = 'skilltype';
 

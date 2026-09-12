@@ -16,7 +16,7 @@ use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
-use Buildwars\GWSkillData\Type;
+use Buildwars\GWSkillData\SkillType;
 use chillerlan\Utilities\Crypto;
 use function array_key_exists;
 use function count;
@@ -150,12 +150,12 @@ INI;
 	];
 
 	private const array TYPE_MAP = [
-		Type::DOUBLE_ENCH  => Type::ENCH,
-		Type::TOUCH_SKILL  => Type::SKILL,
-		Type::TOUCH_SPELL  => Type::SPELL,
-		Type::TOUCH_ENCH   => Type::ENCH,
-		Type::TOUCH_HEX    => Type::HEX,
-		Type::TOUCH_SIGNET => Type::SIGNET,
+		SkillType::DOUBLE_ENCH  => SkillType::ENCH,
+		SkillType::TOUCH_SKILL  => SkillType::SKILL,
+		SkillType::TOUCH_SPELL  => SkillType::SPELL,
+		SkillType::TOUCH_ENCH   => SkillType::ENCH,
+		SkillType::TOUCH_HEX    => SkillType::HEX,
+		SkillType::TOUCH_SIGNET => SkillType::SIGNET,
 	];
 
 	public function build():static{

@@ -114,19 +114,19 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		return $this->getByKey(Skill::DATA_ATTRIBUTE, $attribute->id, $pvp);
 	}
 
-	public function getByType(Type|int $type, bool $pvp = false):array{
+	public function getByType(SkillType|int $type, bool $pvp = false):array{
 
-		if(!$type instanceof Type){
-			$type = new Type($type);
+		if(!$type instanceof SkillType){
+			$type = new SkillType($type);
 		}
 
 		return $this->getByKey(Skill::DATA_TYPE, $type->id, $pvp);
 	}
 
-	public function getByTypeWithSubtypes(Type|int $type, bool $pvp = false):array{
+	public function getByTypeWithSubtypes(SkillType|int $type, bool $pvp = false):array{
 
-		if(!$type instanceof Type){
-			$type = new Type($type);
+		if(!$type instanceof SkillType){
+			$type = new SkillType($type);
 		}
 
 		$types  = $type->withSubtypes();
