@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillDataTest\Common;
 
 use Buildwars\GWSkillData\Common\Lang;
-use Buildwars\GWSkillData\Common\Type;
+use Buildwars\GWSkillData\Type;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

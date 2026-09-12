@@ -13,10 +13,10 @@ namespace Buildwars\GWSkillDataTools\Builder;
 
 use Buildwars\GWSkillData\Common\Attribute;
 use Buildwars\GWSkillData\Common\Lang;
-use Buildwars\GWSkillData\Common\Type;
 use Buildwars\GWSkillData\Skill;
 use Buildwars\GWSkillData\SkillDataAwareInterface;
 use Buildwars\GWSkillData\SkillDataAwareTrait;
+use Buildwars\GWSkillData\Type;
 use chillerlan\Utilities\Crypto;
 use function array_key_exists;
 use function count;

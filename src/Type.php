@@ -9,8 +9,9 @@
  */
 declare(strict_types=1);
 
-namespace Buildwars\GWSkillData\Common;
+namespace Buildwars\GWSkillData;
 
+use Buildwars\GWSkillData\Common\DataObjectAbstract;
 use function sort;
 use const SORT_NUMERIC;
 

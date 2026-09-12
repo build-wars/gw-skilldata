@@ -15,7 +15,7 @@ use Buildwars\GWSkillData\Common\Attribute;
 use Buildwars\GWSkillData\Common\Campaign;
 use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
-use Buildwars\GWSkillData\Common\Type;
+use Buildwars\GWSkillData\Type;
 use chillerlan\Utilities\Directory;
 use chillerlan\Utilities\File;
 use RuntimeException;
