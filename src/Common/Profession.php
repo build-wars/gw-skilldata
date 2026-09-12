@@ -37,32 +37,32 @@ final class Profession extends DataObjectAbstract{
 	public const int DERVISH      = 10;
 
 	public const array NAME = [
-		self::NONE         => [Lang::DE => 'keine',           Lang::EN => 'none',         Lang::FR => 'aucun',        ],
-		self::WARRIOR      => [Lang::DE => 'Krieger',         Lang::EN => 'Warrior',      Lang::FR => 'Guerrier',     ],
-		self::RANGER       => [Lang::DE => 'Waldläufer',      Lang::EN => 'Ranger',       Lang::FR => 'Rôdeur',       ],
-		self::MONK         => [Lang::DE => 'Mönch',           Lang::EN => 'Monk',         Lang::FR => 'Moine',        ],
-		self::NECROMANCER  => [Lang::DE => 'Nekromant',       Lang::EN => 'Necromancer',  Lang::FR => 'Nécromant',    ],
-		self::MESMER       => [Lang::DE => 'Mesmer',          Lang::EN => 'Mesmer',       Lang::FR => 'Envoûteur',    ],
-		self::ELEMENTALIST => [Lang::DE => 'Elementarmagier', Lang::EN => 'Elementalist', Lang::FR => 'Elémentaliste',],
-		self::ASSASSIN     => [Lang::DE => 'Assassine',       Lang::EN => 'Assassin',     Lang::FR => 'Assassin',     ],
-		self::RITUALIST    => [Lang::DE => 'Ritualist',       Lang::EN => 'Ritualist',    Lang::FR => 'Ritualiste',   ],
-		self::PARAGON      => [Lang::DE => 'Paragon',         Lang::EN => 'Paragon',      Lang::FR => 'Parangon',     ],
-		self::DERVISH      => [Lang::DE => 'Derwisch',        Lang::EN => 'Dervish',      Lang::FR => 'Derviche',     ],
+		self::NONE         => [Lang::DE => 'keine',           Lang::EN => 'none',         Lang::ES => 'ninguno',       Lang::FR => 'aucun',         Lang::IT => 'alcuno',        Lang::XX => 'nune-a',        ],
+		self::WARRIOR      => [Lang::DE => 'Krieger',         Lang::EN => 'Warrior',      Lang::ES => 'Guerrero',      Lang::FR => 'Guerrier',      Lang::IT => 'Guerriero',     Lang::XX => 'Vaerreeur',     ],
+		self::RANGER       => [Lang::DE => 'Waldläufer',      Lang::EN => 'Ranger',       Lang::ES => 'Guardabosques', Lang::FR => 'Rôdeur',        Lang::IT => 'Esploratore',   Lang::XX => 'Runger',        ],
+		self::MONK         => [Lang::DE => 'Mönch',           Lang::EN => 'Monk',         Lang::ES => 'Monje',         Lang::FR => 'Moine',         Lang::IT => 'Mistico',       Lang::XX => 'Munk',          ],
+		self::NECROMANCER  => [Lang::DE => 'Nekromant',       Lang::EN => 'Necromancer',  Lang::ES => 'Nigromante',    Lang::FR => 'Nécromant',     Lang::IT => 'Negromante',    Lang::XX => 'Necrumuncer',   ],
+		self::MESMER       => [Lang::DE => 'Mesmer',          Lang::EN => 'Mesmer',       Lang::ES => 'Hipnotizador',  Lang::FR => 'Envoûteur',     Lang::IT => 'Ipnotizzatore', Lang::XX => 'Mesmer',        ],
+		self::ELEMENTALIST => [Lang::DE => 'Elementarmagier', Lang::EN => 'Elementalist', Lang::ES => 'Elementalista', Lang::FR => 'Elémentaliste', Lang::IT => 'Elementalista', Lang::XX => 'Ilementaeleest',],
+		self::ASSASSIN     => [Lang::DE => 'Assassine',       Lang::EN => 'Assassin',     Lang::ES => 'Asesino',       Lang::FR => 'Assassin',      Lang::IT => 'Assassino',     Lang::XX => 'Aessaesseen',   ],
+		self::RITUALIST    => [Lang::DE => 'Ritualist',       Lang::EN => 'Ritualist',    Lang::ES => 'Ritualista',    Lang::FR => 'Ritualiste',    Lang::IT => 'Ritualista',    Lang::XX => 'Reetooaeleest', ],
+		self::PARAGON      => [Lang::DE => 'Paragon',         Lang::EN => 'Paragon',      Lang::ES => 'Paragón',       Lang::FR => 'Parangon',      Lang::IT => 'Paragon',       Lang::XX => 'Paeraegun',     ],
+		self::DERVISH      => [Lang::DE => 'Derwisch',        Lang::EN => 'Dervish',      Lang::ES => 'Derviche',      Lang::FR => 'Derviche',      Lang::IT => 'Derviscio',     Lang::XX => 'Derfeesh',      ],
 	];
 
 	/** @var array<int, array{de: string, en: string}> */
 	public const array NAME_ABBR = [
-		self::NONE         => [Lang::DE => 'X',  Lang::EN => 'X',  Lang::FR => 'X', ],
-		self::WARRIOR      => [Lang::DE => 'K',  Lang::EN => 'W',  Lang::FR => 'G', ],
-		self::RANGER       => [Lang::DE => 'W',  Lang::EN => 'R',  Lang::FR => 'R', ],
-		self::MONK         => [Lang::DE => 'Mö', Lang::EN => 'Mo', Lang::FR => 'M', ],
-		self::NECROMANCER  => [Lang::DE => 'N',  Lang::EN => 'N',  Lang::FR => 'N', ],
-		self::MESMER       => [Lang::DE => 'Me', Lang::EN => 'Me', Lang::FR => 'En',],
-		self::ELEMENTALIST => [Lang::DE => 'E',  Lang::EN => 'E',  Lang::FR => 'El',],
-		self::ASSASSIN     => [Lang::DE => 'A',  Lang::EN => 'A',  Lang::FR => 'A', ],
-		self::RITUALIST    => [Lang::DE => 'R',  Lang::EN => 'Rt', Lang::FR => 'Rt',],
-		self::PARAGON      => [Lang::DE => 'P',  Lang::EN => 'P',  Lang::FR => 'P', ],
-		self::DERVISH      => [Lang::DE => 'D',  Lang::EN => 'D',  Lang::FR => 'D', ],
+		self::NONE         => [Lang::DE => 'X',  Lang::EN => 'X',  Lang::ES => 'X',  Lang::FR => 'X',  Lang::IT => 'X',  Lang::XX => 'X',   ],
+		self::WARRIOR      => [Lang::DE => 'K',  Lang::EN => 'W',  Lang::ES => 'Gr', Lang::FR => 'G',  Lang::IT => 'G',  Lang::XX => 'V',   ],
+		self::RANGER       => [Lang::DE => 'W',  Lang::EN => 'R',  Lang::ES => 'Gu', Lang::FR => 'R',  Lang::IT => 'Es', Lang::XX => 'R',   ],
+		self::MONK         => [Lang::DE => 'Mö', Lang::EN => 'Mo', Lang::ES => 'M',  Lang::FR => 'M',  Lang::IT => 'M',  Lang::XX => 'Mu',  ],
+		self::NECROMANCER  => [Lang::DE => 'N',  Lang::EN => 'N',  Lang::ES => 'N',  Lang::FR => 'N',  Lang::IT => 'N',  Lang::XX => 'N',   ],
+		self::MESMER       => [Lang::DE => 'Me', Lang::EN => 'Me', Lang::ES => 'H',  Lang::FR => 'En', Lang::IT => 'I',  Lang::XX => 'Me-a',],
+		self::ELEMENTALIST => [Lang::DE => 'E',  Lang::EN => 'E',  Lang::ES => 'E',  Lang::FR => 'El', Lang::IT => 'El', Lang::XX => 'I',   ],
+		self::ASSASSIN     => [Lang::DE => 'A',  Lang::EN => 'A',  Lang::ES => 'A',  Lang::FR => 'A',  Lang::IT => 'A',  Lang::XX => 'A',   ],
+		self::RITUALIST    => [Lang::DE => 'R',  Lang::EN => 'Rt', Lang::ES => 'R',  Lang::FR => 'Rt', Lang::IT => 'R',  Lang::XX => 'Rt',  ],
+		self::PARAGON      => [Lang::DE => 'P',  Lang::EN => 'P',  Lang::ES => 'P',  Lang::FR => 'P',  Lang::IT => 'P',  Lang::XX => 'P',   ],
+		self::DERVISH      => [Lang::DE => 'D',  Lang::EN => 'D',  Lang::ES => 'D',  Lang::FR => 'D',  Lang::IT => 'D',  Lang::XX => 'D',   ],
 	];
 
 	/** @var array<int, int> */

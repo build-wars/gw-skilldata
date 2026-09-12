@@ -75,7 +75,7 @@ final class Attribute extends DataObjectAbstract{
 	public const int MYSTICISM           = 44;
 	// not exactly sure what to do with the "no attribute" - technically we could move it to -1
 	public const int NONE                = 101;
-	// PvE titles are technically attributes - WTB "official" internal IDs
+	// PvE titles are technically attributes
 	public const int TITLE_SUNSPEAR      = 102; // 17
 	public const int TITLE_LIGHTBRINGER  = 103; // 20
 	public const int TITLE_LUXON         = 104; // 6
@@ -86,261 +86,57 @@ final class Attribute extends DataObjectAbstract{
 	public const int TITLE_NORN          = 109; // 41
 
 	public const array NAME = [
-		self::FAST_CASTING        => [
-			Lang::DE => 'Schnellwirkung',
-			Lang::EN => 'Fast Casting',
-			Lang::FR => 'Incantation rapide',
-		],
-		self::ILLUSION_MAGIC      => [
-			Lang::DE => 'Illusionsmagie',
-			Lang::EN => 'Illusion Magic',
-			Lang::FR => 'Magie de l\'illusion',
-		],
-		self::DOMINATION_MAGIC    => [
-			Lang::DE => 'Beherrschungsmagie',
-			Lang::EN => 'Domination Magic',
-			Lang::FR => 'Magie de domination',
-		],
-		self::INSPIRATION_MAGIC   => [
-			Lang::DE => 'Inspirationsmagie',
-			Lang::EN => 'Inspiration Magic',
-			Lang::FR => 'Magie de l\'inspiration',
-		],
-		self::BLOOD_MAGIC         => [
-			Lang::DE => 'Blutmagie',
-			Lang::EN => 'Blood Magic',
-			Lang::FR => 'Magie du sang',
-		],
-		self::DEATH_MAGIC         => [
-			Lang::DE => 'Todesmagie',
-			Lang::EN => 'Death Magic',
-			Lang::FR => 'Magie de la mort',
-		],
-		self::SOUL_REAPING        => [
-			Lang::DE => 'Seelensammlung',
-			Lang::EN => 'Soul Reaping',
-			Lang::FR => 'Moisson des âmes',
-		],
-		self::CURSES              => [
-			Lang::DE => 'Flüche',
-			Lang::EN => 'Curses',
-			Lang::FR => 'Malédictions',
-		],
-		self::AIR_MAGIC           => [
-			Lang::DE => 'Luftmagie',
-			Lang::EN => 'Air Magic',
-			Lang::FR => 'Magie de l\'air',
-		],
-		self::EARTH_MAGIC         => [
-			Lang::DE => 'Erdmagie',
-			Lang::EN => 'Earth Magic',
-			Lang::FR => 'Magie de la terre',
-		],
-		self::FIRE_MAGIC          => [
-			Lang::DE => 'Feuermagie',
-			Lang::EN => 'Fire Magic',
-			Lang::FR => 'Magie du feu',
-		],
-		self::WATER_MAGIC         => [
-			Lang::DE => 'Wassermagie',
-			Lang::EN => 'Water Magic',
-			Lang::FR => 'Magie de l\'eau',
-		],
-		self::ENERGY_STORAGE      => [
-			Lang::DE => 'Energiespeicherung',
-			Lang::EN => 'Energy Storage',
-			Lang::FR => 'Conservation d\'énergie',
-		],
-		self::HEALING_PRAYERS     => [
-			Lang::DE => 'Heilgebete',
-			Lang::EN => 'Healing Prayers',
-			Lang::FR => 'Prières de guérison',
-		],
-		self::SMITING_PRAYERS     => [
-			Lang::DE => 'Peinigungsgebete',
-			Lang::EN => 'Smiting Prayers',
-			Lang::FR => 'Prières de châtiment',
-		],
-		self::PROTECTION_PRAYERS  => [
-			Lang::DE => 'Schutzgebete',
-			Lang::EN => 'Protection Prayers',
-			Lang::FR => 'Prières de protection',
-		],
-		self::DIVINE_FAVOR        => [
-			Lang::DE => 'Gunst der Götter',
-			Lang::EN => 'Divine Favor',
-			Lang::FR => 'Faveur divine',
-		],
-		self::STRENGTH            => [
-			Lang::DE => 'Stärke',
-			Lang::EN => 'Strength',
-			Lang::FR => 'Force',
-		],
-		self::AXE_MASTERY         => [
-			Lang::DE => 'Axtbeherrschung',
-			Lang::EN => 'Axe Mastery',
-			Lang::FR => 'Maîtrise de la hache',
-		],
-		self::HAMMER_MASTERY      => [
-			Lang::DE => 'Hammerbeherrschung',
-			Lang::EN => 'Hammer Mastery',
-			Lang::FR => 'Maîtrise du marteau',
-		],
-		self::SWORDMANSHIP        => [
-			Lang::DE => 'Schwertkunst',
-			Lang::EN => 'Swordsmanship',
-			Lang::FR => 'Maîtrise de l\'épée',
-		],
-		self::TACTICS             => [
-			Lang::DE => 'Taktik',
-			Lang::EN => 'Tactics',
-			Lang::FR => 'Tactique',
-		],
-		self::BEAST_MASTERY       => [
-			Lang::DE => 'Tierbeherrschung',
-			Lang::EN => 'Beast Mastery',
-			Lang::FR => 'Domptage',
-		],
-		self::EXPERTISE           => [
-			Lang::DE => 'Fachkenntnis',
-			Lang::EN => 'Expertise',
-			Lang::FR => 'Expertise',
-		],
-		self::WILDERNESS_SURVIVAL => [
-			Lang::DE => 'Überleben in der Wildnis',
-			Lang::EN => 'Wilderness Survival',
-			Lang::FR => 'Survie',
-		],
-		self::MARKMANSHIP         => [
-			Lang::DE => 'Treffsicherheit',
-			Lang::EN => 'Marksmanship',
-			Lang::FR => 'Adresse au tir',
-		],
-		self::DAGGER_MASTERY      => [
-			Lang::DE => 'Dolchbeherrschung',
-			Lang::EN => 'Dagger Mastery',
-			Lang::FR => 'Maîtrise de la dague',
-		],
-		self::DEADLY_ARTS         => [
-			Lang::DE => 'Tödliche Künste',
-			Lang::EN => 'Deadly Arts',
-			Lang::FR => 'Arts létaux',
-		],
-		self::SHADOW_ARTS         => [
-			Lang::DE => 'Schattenkünste',
-			Lang::EN => 'Shadow Arts',
-			Lang::FR => 'Arts des ombres',
-		],
-		self::COMMUNING           => [
-			Lang::DE => 'Zwiesprache',
-			Lang::EN => 'Communing',
-			Lang::FR => 'Communion',
-		],
-		self::RESTORATION_MAGIC   => [
-			Lang::DE => 'Wiederherstellungsmagie',
-			Lang::EN => 'Restoration Magic',
-			Lang::FR => 'Magie de restauration',
-		],
-		self::CHANNELING_MAGIC    => [
-			Lang::DE => 'Kanalisierungsmagie',
-			Lang::EN => 'Channeling Magic',
-			Lang::FR => 'Magie de la canalisation',
-		],
-		self::CRITICAL_STRIKES    => [
-			Lang::DE => 'Kritische Stöße',
-			Lang::EN => 'Critical Strikes',
-			Lang::FR => 'Attaques critiques',
-		],
-		self::SPAWNING_POWER      => [
-			Lang::DE => 'Macht des Herbeirufens',
-			Lang::EN => 'Spawning Power',
-			Lang::FR => 'Puissance de l\'Invocation',
-		],
-		self::SPEAR_MASTERY       => [
-			Lang::DE => 'Speerbeherrschung',
-			Lang::EN => 'Spear Mastery',
-			Lang::FR => 'Maîtrise du javelot',
-		],
-		self::COMMAND             => [
-			Lang::DE => 'Befehlsgewalt',
-			Lang::EN => 'Command',
-			Lang::FR => 'Commandement',
-		],
-		self::MOTIVATION          => [
-			Lang::DE => 'Motivation',
-			Lang::EN => 'Motivation',
-			Lang::FR => 'Motivation',
-		],
-		self::LEADERSHIP          => [
-			Lang::DE => 'Führung',
-			Lang::EN => 'Leadership',
-			Lang::FR => 'Charisme',
-		],
-		self::SCYTHE_MASTERY      => [
-			Lang::DE => 'Sensenbeherrschung',
-			Lang::EN => 'Scythe Mastery',
-			Lang::FR => 'Maîtrise de la faux',
-		],
-		self::WIND_PRAYERS        => [
-			Lang::DE => 'Windgebete',
-			Lang::EN => 'Wind Prayers',
-			Lang::FR => 'Prières du Vent',
-		],
-		self::EARTH_PRAYERS       => [
-			Lang::DE => 'Erdgebete',
-			Lang::EN => 'Earth Prayers',
-			Lang::FR => 'Prières de la Terre',
-		],
-		self::MYSTICISM           => [
-			Lang::DE => 'Mystik',
-			Lang::EN => 'Mysticism',
-			Lang::FR => 'Mysticisme',
-		],
-		self::NONE                => [
-			Lang::DE => 'Kein Attribut',
-			Lang::EN => 'No Attribute',
-			Lang::FR => 'Aucune caractéristique',
-		],
-		self::TITLE_SUNSPEAR      => [
-			Lang::DE => 'Sonnenspeertitel',
-			Lang::EN => 'Sunspear Title Track',
-			Lang::FR => 'Titre de Lancier du Soleil',
-		],
-		self::TITLE_LIGHTBRINGER  => [
-			Lang::DE => 'Lichtbringertitel',
-			Lang::EN => 'Lightbringer Title Track',
-			Lang::FR => 'Titre de Porteur de Lumière',
-		],
-		self::TITLE_LUXON         => [
-			Lang::DE => 'Freund der Luxon',
-			Lang::EN => 'Friend of the Luxons Title Track',
-			Lang::FR => 'Titre d\'Ami des Luxons',
-		],
-		self::TITLE_KURZICK       => [
-			Lang::DE => 'Freund der Kurzick',
-			Lang::EN => 'Friend of the Kurzicks Title Track',
-			Lang::FR => 'Titre d\'Ami des Kurzicks',
-		],
-		self::TITLE_ASURA         => [
-			Lang::DE => 'Asuratitel',
-			Lang::EN => 'Asura Title Track',
-			Lang::FR => 'Titre d\'Asura',
-		],
-		self::TITLE_DELDRIMOR     => [
-			Lang::DE => 'Deldrimortitel',
-			Lang::EN => 'Deldrimor Title Track',
-			Lang::FR => 'Titre de Deldrimor',
-		],
-		self::TITLE_VANGUARD      => [
-			Lang::DE => 'Ebon-Vorhut-Titel',
-			Lang::EN => 'Ebon Vanguard Title Track',
-			Lang::FR => 'Titre de l\'Avant-garde d\'Ebon',
-		],
-		self::TITLE_NORN          => [
-			Lang::DE => 'Norntitel',
-			Lang::EN => 'Norn Title Track',
-			Lang::FR => 'Titre de Norn',
-		],
+		self::FAST_CASTING        => [Lang::DE => 'Schnellwirkung',           Lang::EN => 'Fast Casting',           Lang::ES => 'Lanzar conjuros rápido',           Lang::FR => 'Incantation rapide',              Lang::IT => 'Lancio Rapido',                         Lang::XX => 'Faest Caesteeng',            ],
+		self::ILLUSION_MAGIC      => [Lang::DE => 'Illusionsmagie',           Lang::EN => 'Illusion Magic',         Lang::ES => 'Magia de dominación',              Lang::FR => 'Magie de l\'illusion',            Lang::IT => 'Magia Illusoria',                       Lang::XX => 'Illooseeun Maegeec',         ],
+		self::DOMINATION_MAGIC    => [Lang::DE => 'Beherrschungsmagie',       Lang::EN => 'Domination Magic',       Lang::ES => 'Magia de ilusión',                 Lang::FR => 'Magie de domination',             Lang::IT => 'Magia del Dominio',                     Lang::XX => 'Dumeenaeshun Maegeec',       ],
+		self::INSPIRATION_MAGIC   => [Lang::DE => 'Inspirationsmagie',        Lang::EN => 'Inspiration Magic',      Lang::ES => 'Magia de inspiración',             Lang::FR => 'Magie de l\'inspiration',         Lang::IT => 'Magia del Ispirazione',                 Lang::XX => 'Inspuraeshun Maegeec',       ],
+		self::BLOOD_MAGIC         => [Lang::DE => 'Blutmagie',                Lang::EN => 'Blood Magic',            Lang::ES => 'Magia de sangre',                  Lang::FR => 'Magie du sang',                   Lang::IT => 'Magia del Sangue',                      Lang::XX => 'Bluud Maegeec',              ],
+		self::DEATH_MAGIC         => [Lang::DE => 'Todesmagie',               Lang::EN => 'Death Magic',            Lang::ES => 'Magia de muerte',                  Lang::FR => 'Magie de la mort',                Lang::IT => 'Magia della Morte',                     Lang::XX => 'Deaet Maegeec',              ],
+		self::SOUL_REAPING        => [Lang::DE => 'Seelensammlung',           Lang::EN => 'Soul Reaping',           Lang::ES => 'Cosecha de almas',                 Lang::FR => 'Moisson des âmes',                Lang::IT => 'Sottrazione dell\'Anima',               Lang::XX => 'Suool Reaepeeng',            ],
+		self::CURSES              => [Lang::DE => 'Flüche',                   Lang::EN => 'Curses',                 Lang::ES => 'Maldiciones',                      Lang::FR => 'Malédictions',                    Lang::IT => 'Maledizioni',                           Lang::XX => 'Coorses',                    ],
+		self::AIR_MAGIC           => [Lang::DE => 'Luftmagie',                Lang::EN => 'Air Magic',              Lang::ES => 'Magia de aire',                    Lang::FR => 'Magie de l\'air',                 Lang::IT => 'Magia dell\'Aria',                      Lang::XX => 'Aeur Maegeec',               ],
+		self::EARTH_MAGIC         => [Lang::DE => 'Erdmagie',                 Lang::EN => 'Earth Magic',            Lang::ES => 'Magia de tierra',                  Lang::FR => 'Magie de la terre',               Lang::IT => 'Magia della Terra',                     Lang::XX => 'Iaert Maegeec',              ],
+		self::FIRE_MAGIC          => [Lang::DE => 'Feuermagie',               Lang::EN => 'Fire Magic',             Lang::ES => 'Magia de fuego',                   Lang::FR => 'Magie du feu',                    Lang::IT => 'Magia del Fuoco',                       Lang::XX => 'Fure-a Maegeec',             ],
+		self::WATER_MAGIC         => [Lang::DE => 'Wassermagie',              Lang::EN => 'Water Magic',            Lang::ES => 'Magia de agua',                    Lang::FR => 'Magie de l\'eau',                 Lang::IT => 'Magia dell\'Acqua',                     Lang::XX => 'Vaeter Maegeec',             ],
+		self::ENERGY_STORAGE      => [Lang::DE => 'Energiespeicherung',       Lang::EN => 'Energy Storage',         Lang::ES => 'Almacenamiento energía',           Lang::FR => 'Conservation d\'énergie',         Lang::IT => 'Riserva di Energia',                    Lang::XX => 'Inergy Sturaege-a',          ],
+		self::HEALING_PRAYERS     => [Lang::DE => 'Heilgebete',               Lang::EN => 'Healing Prayers',        Lang::ES => 'Plegarias curativas',              Lang::FR => 'Prières de guérison',             Lang::IT => 'Preghiere Curative',                    Lang::XX => 'Heaeleeng Praeyers',         ],
+		self::SMITING_PRAYERS     => [Lang::DE => 'Peinigungsgebete',         Lang::EN => 'Smiting Prayers',        Lang::ES => 'Plegarias de ataque',              Lang::FR => 'Prières de châtiment',            Lang::IT => 'Preghiere Punitive',                    Lang::XX => 'Smeeteeng Praeyers',         ],
+		self::PROTECTION_PRAYERS  => [Lang::DE => 'Schutzgebete',             Lang::EN => 'Protection Prayers',     Lang::ES => 'Plegarias de protección',          Lang::FR => 'Prières de protection',           Lang::IT => 'Preghiere Prottetive',                  Lang::XX => 'Prutecshun Praeyers',        ],
+		self::DIVINE_FAVOR        => [Lang::DE => 'Gunst der Götter',         Lang::EN => 'Divine Favor',           Lang::ES => 'Favor divino',                     Lang::FR => 'Faveur divine',                   Lang::IT => 'Favore Divino',                         Lang::XX => 'Deefeene-a Faefur',          ],
+		self::STRENGTH            => [Lang::DE => 'Stärke',                   Lang::EN => 'Strength',               Lang::ES => 'Fuerza',                           Lang::FR => 'Force',                           Lang::IT => 'Forza',                                 Lang::XX => 'Strengt',                    ],
+		self::AXE_MASTERY         => [Lang::DE => 'Axtbeherrschung',          Lang::EN => 'Axe Mastery',            Lang::ES => 'Dominio del hacha',                Lang::FR => 'Maîtrise de la hache',            Lang::IT => 'Abilità con l\'ascia',                  Lang::XX => 'Aexe-a Maestery',            ],
+		self::HAMMER_MASTERY      => [Lang::DE => 'Hammerbeherrschung',       Lang::EN => 'Hammer Mastery',         Lang::ES => 'Dominio del martillo',             Lang::FR => 'Maîtrise du marteau',             Lang::IT => 'Abilità col Martello',                  Lang::XX => 'Haemmer Maestery',           ],
+		self::SWORDMANSHIP        => [Lang::DE => 'Schwertkunst',             Lang::EN => 'Swordsmanship',          Lang::ES => 'Esgrima',                          Lang::FR => 'Maîtrise de l\'épée',             Lang::IT => 'Scherma',                               Lang::XX => 'Svurdsmunsheep',             ],
+		self::TACTICS             => [Lang::DE => 'Taktik',                   Lang::EN => 'Tactics',                Lang::ES => 'Táctica',                          Lang::FR => 'Tactique',                        Lang::IT => 'Tattica',                               Lang::XX => 'Taecteecs',                  ],
+		self::BEAST_MASTERY       => [Lang::DE => 'Tierbeherrschung',         Lang::EN => 'Beast Mastery',          Lang::ES => 'Dominio de bestias',               Lang::FR => 'Domptage',                        Lang::IT => 'Potere sulle Belve',                    Lang::XX => 'Beaest Maestery',            ],
+		self::EXPERTISE           => [Lang::DE => 'Fachkenntnis',             Lang::EN => 'Expertise',              Lang::ES => 'Pericia',                          Lang::FR => 'Expertise',                       Lang::IT => 'Esperienza',                            Lang::XX => 'Ixperteese-a',               ],
+		self::WILDERNESS_SURVIVAL => [Lang::DE => 'Überleben in der Wildnis', Lang::EN => 'Wilderness Survival',    Lang::ES => 'Supervivencia naturaleza',         Lang::FR => 'Survie',                          Lang::IT => 'Sopravvivenza nella Natura',            Lang::XX => 'Veelderness Soorfeefael',    ],
+		self::MARKMANSHIP         => [Lang::DE => 'Treffsicherheit',          Lang::EN => 'Marksmanship',           Lang::ES => 'Puntería',                         Lang::FR => 'Adresse au tir',                  Lang::IT => 'Precisione',                            Lang::XX => 'Maerksmunsheep',             ],
+		self::DAGGER_MASTERY      => [Lang::DE => 'Dolchbeherrschung',        Lang::EN => 'Dagger Mastery',         Lang::ES => 'Dominio de la daga',               Lang::FR => 'Maîtrise de la dague',            Lang::IT => 'Abilità con il Pugnale',                Lang::XX => 'Daegger Maestery',           ],
+		self::DEADLY_ARTS         => [Lang::DE => 'Tödliche Künste',          Lang::EN => 'Deadly Arts',            Lang::ES => 'Artes mortales',                   Lang::FR => 'Arts létaux',                     Lang::IT => 'Arti Letali',                           Lang::XX => 'Deaedly Aerts',              ],
+		self::SHADOW_ARTS         => [Lang::DE => 'Schattenkünste',           Lang::EN => 'Shadow Arts',            Lang::ES => 'Artes sombrías',                   Lang::FR => 'Arts des ombres',                 Lang::IT => 'Arti dell\'Ombra',                      Lang::XX => 'Shaedoo Aerts',              ],
+		self::COMMUNING           => [Lang::DE => 'Zwiesprache',              Lang::EN => 'Communing',              Lang::ES => 'Comunión',                         Lang::FR => 'Communion',                       Lang::IT => 'Raccoglimento',                         Lang::XX => 'Cummooneeng',                ],
+		self::RESTORATION_MAGIC   => [Lang::DE => 'Wiederherstellungsmagie',  Lang::EN => 'Restoration Magic',      Lang::ES => 'Magia de restauración',            Lang::FR => 'Magie de restauration',           Lang::IT => 'Magia del Ripristino',                  Lang::XX => 'Resturaeshun Maegeec',       ],
+		self::CHANNELING_MAGIC    => [Lang::DE => 'Kanalisierungsmagie',      Lang::EN => 'Channeling Magic',       Lang::ES => 'Magia de canalización',            Lang::FR => 'Magie de la canalisation',        Lang::IT => 'Magia di Incanalamento',                Lang::XX => 'Chunneleeng Maegeec',        ],
+		self::CRITICAL_STRIKES    => [Lang::DE => 'Kritische Stöße',          Lang::EN => 'Critical Strikes',       Lang::ES => 'Impactos críticos',                Lang::FR => 'Attaques critiques',              Lang::IT => 'Colpi Critici',                         Lang::XX => 'Creeteecael Streekes',       ],
+		self::SPAWNING_POWER      => [Lang::DE => 'Macht des Herbeirufens',   Lang::EN => 'Spawning Power',         Lang::ES => 'Engendramiento',                   Lang::FR => 'Puissance de l\'Invocation',      Lang::IT => 'Riti Sacrificali',                      Lang::XX => 'Spaevneeng Pooer',           ],
+		self::SPEAR_MASTERY       => [Lang::DE => 'Speerbeherrschung',        Lang::EN => 'Spear Mastery',          Lang::ES => 'Dominio de la lanza',              Lang::FR => 'Maîtrise du javelot',             Lang::IT => 'Abilità con la Lancia',                 Lang::XX => 'Speaer Maestery',            ],
+		self::COMMAND             => [Lang::DE => 'Befehlsgewalt',            Lang::EN => 'Command',                Lang::ES => 'Mando',                            Lang::FR => 'Commandement',                    Lang::IT => 'Comando',                               Lang::XX => 'Cummund',                    ],
+		self::MOTIVATION          => [Lang::DE => 'Motivation',               Lang::EN => 'Motivation',             Lang::ES => 'Motivación',                       Lang::FR => 'Motivation',                      Lang::IT => 'Motivazione',                           Lang::XX => 'Muteefaeshun',               ],
+		self::LEADERSHIP          => [Lang::DE => 'Führung',                  Lang::EN => 'Leadership',             Lang::ES => 'Liderazgo',                        Lang::FR => 'Charisme',                        Lang::IT => 'Leadership',                            Lang::XX => 'Leaedersheep',               ],
+		self::SCYTHE_MASTERY      => [Lang::DE => 'Sensenbeherrschung',       Lang::EN => 'Scythe Mastery',         Lang::ES => 'Dominio de la guadaña',            Lang::FR => 'Maîtrise de la faux',             Lang::IT => 'Abilità con la Falce',                  Lang::XX => 'Scyzee Maestery',            ],
+		self::WIND_PRAYERS        => [Lang::DE => 'Windgebete',               Lang::EN => 'Wind Prayers',           Lang::ES => 'Plegarias de viento',              Lang::FR => 'Prières du Vent',                 Lang::IT => 'Preghiere del Vento',                   Lang::XX => 'Veend Praeyers',             ],
+		self::EARTH_PRAYERS       => [Lang::DE => 'Erdgebete',                Lang::EN => 'Earth Prayers',          Lang::ES => 'Plegarias de tierra',              Lang::FR => 'Prières de la Terre',             Lang::IT => 'Preghiere della Terra',                 Lang::XX => 'Iaert Praeyers',             ],
+		self::MYSTICISM           => [Lang::DE => 'Mystik',                   Lang::EN => 'Mysticism',              Lang::ES => 'Misticismo',                       Lang::FR => 'Mysticisme',                      Lang::IT => 'Misticismo',                            Lang::XX => 'Mysteeceesm',                ],
+		self::NONE                => [Lang::DE => 'Kein Attribut',            Lang::EN => 'No Attribute',           Lang::ES => 'Sin atributo',                     Lang::FR => 'Aucune caractéristique',          Lang::IT => 'Nessun attributo',                      Lang::XX => 'Nu Aettreeboote-a',          ],
+		self::TITLE_SUNSPEAR      => [Lang::DE => 'Sonnenspeertitel',         Lang::EN => 'Sunspear Title',         Lang::ES => 'Título de Lancero del Sol',        Lang::FR => 'Titre de Lancier du Soleil',      Lang::IT => 'Progressi della Lancia del Sole',       Lang::XX => 'Soonspeaer Teetle-a',        ],
+		self::TITLE_LIGHTBRINGER  => [Lang::DE => 'Lichtbringertitel',        Lang::EN => 'Lightbringer Title',     Lang::ES => 'Título de Iluminador',             Lang::FR => 'Titre de Porteur de Lumière',     Lang::IT => 'Progressi del Portatore della Luce',    Lang::XX => 'Leeghtbreenger Teetle-a',    ],
+		self::TITLE_LUXON         => [Lang::DE => 'Freund der Luxon',         Lang::EN => 'Friend of the Luxons',   Lang::ES => 'Título de amigo de los Luxon',     Lang::FR => 'Titre d\'Ami des Luxons',         Lang::IT => 'Progressi del Sostenitore dei Luxon',   Lang::XX => 'Freeend ooff zee Looxuns',   ],
+		self::TITLE_KURZICK       => [Lang::DE => 'Freund der Kurzick',       Lang::EN => 'Friend of the Kurzicks', Lang::ES => 'Título de amigo de los Kurzick',   Lang::FR => 'Titre d\'Ami des Kurzicks',       Lang::IT => 'Progressi del Sostenitore dei Kurzick', Lang::XX => 'Freeend ooff zee Koorzeecks',],
+		self::TITLE_ASURA         => [Lang::DE => 'Asuratitel',               Lang::EN => 'Asura Title Track',      Lang::ES => 'Título de Asura',                  Lang::FR => 'Titre d\'Asura',                  Lang::IT => 'Progressi Asura',                       Lang::XX => 'Aesoora Teetle-a',           ],
+		self::TITLE_DELDRIMOR     => [Lang::DE => 'Deldrimortitel',           Lang::EN => 'Deldrimor Title',        Lang::ES => 'Título de Deldrimor',              Lang::FR => 'Titre de Deldrimor',              Lang::IT => 'Progressi Deldrimor',                   Lang::XX => 'Deldreemur Teetle-a',        ],
+		self::TITLE_VANGUARD      => [Lang::DE => 'Ebon-Vorhut-Titel',        Lang::EN => 'Ebon Vanguard Title',    Lang::ES => 'Título de la Vanguardia de Ébano', Lang::FR => 'Titre de l\'Avant-garde d\'Ebon', Lang::IT => 'Progressi dell\'Avanguardia d\'Ebano',  Lang::XX => 'Ibun Fungooaerd Teetle-a',   ],
+		self::TITLE_NORN          => [Lang::DE => 'Norntitel',                Lang::EN => 'Norn Title',             Lang::ES => 'Título de Norn',                   Lang::FR => 'Titre de Norn',                   Lang::IT => 'Progressi Norn',                        Lang::XX => 'Nurn Teetle-a',              ],
 	];
 
 	private const array PROFESSION = [
