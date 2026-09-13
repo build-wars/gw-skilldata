@@ -38,6 +38,13 @@ interface DataObjectInterface{
 	 */
 	public function in(array $ids):bool;
 
+	/**
+	 * Checks whether the object ID is in the keys of the given array
+	 *
+	 * @param array<int, mixed> $ids
+	 */
+	public function inKeys(array $ids):bool;
+
 	public function toHTML(Lang|string|null $lang = null):string;
 
 }

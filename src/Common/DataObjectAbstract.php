@@ -74,6 +74,10 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 		return in_array($this->id, $ids, true);
 	}
 
+	public function inKeys(array $ids):bool{ // phpcs:ignore
+		return array_key_exists($this->id, $ids);
+	}
+
 	public function toHTML(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 
