@@ -17,6 +17,7 @@ use Buildwars\GWSkillData\Common\Attribute;
 use Buildwars\GWSkillData\Common\Campaign;
 use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
+use Closure;
 
 interface SkillDataInterface{
 
@@ -39,6 +40,19 @@ interface SkillDataInterface{
 	 * @see \Buildwars\GWSkillData\Common\Lang::IDS
 	 */
 	public const string LANG = '';
+
+	/**
+	 * Iterates over the entire skill data array and executes the given function for each element and returns the result.
+	 *
+	 *   - the result array is indexed by skill ID
+	 *   - the callable is called with 2 parameters: (Skill) a skill instance and (int) skill id
+	 *   - the row data array given into the callable has named keys, see `Skill::KEYS_DATA`
+	 *
+	 *   $callable = function(Skill $skill, int $id):mixed{}
+	 *
+	 * @see \Buildwars\GWSkillData\Skill::KEYS_DATA
+	 */
+	public function map(Closure $callable):array;
 
 	/**
 	 * Returns the data for the given skill ID, including descriptions for the current language

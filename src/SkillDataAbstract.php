@@ -15,6 +15,7 @@ use Buildwars\GWSkillData\Common\Attribute;
 use Buildwars\GWSkillData\Common\Campaign;
 use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
+use Closure;
 use InvalidArgumentException;
 use function array_combine;
 use function array_key_exists;
@@ -41,6 +42,22 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 	 * @var array<int, scalar[]>
 	 */
 	protected const array ID2DATA = [];
+
+	public function map(Closure $callable):array{
+		$result = [];
+
+		foreach(static::ID2DATA as $id => $row){
+
+			$data = array_merge(
+				array_combine(Skill::KEYS_DATA, $row),
+				array_combine(Skill::KEYS_DESC, static::ID2DESC[$id]),
+			);
+
+			$result[$id] = $callable(new Skill($data), $id);
+		}
+
+		return $result;
+	}
 
 	/**
 	 * @throws \InvalidArgumentException
