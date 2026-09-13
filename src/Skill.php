@@ -14,6 +14,8 @@ namespace Buildwars\GWSkillData;
 use Buildwars\GWSkillData\Common\Attribute;
 use Buildwars\GWSkillData\Common\Campaign;
 use Buildwars\GWSkillData\Common\DataObjectInterface;
+use Buildwars\GWSkillData\Common\IDComparisonInterface;
+use Buildwars\GWSkillData\Common\IDComparisonTrait;
 use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
 use InvalidArgumentException;
@@ -21,7 +23,6 @@ use function array_key_exists;
 use function array_merge;
 use function array_search;
 use function implode;
-use function in_array;
 use function property_exists;
 use function rawurlencode;
 use function sprintf;
@@ -30,7 +31,8 @@ use function strtolower;
 /**
  * Represents a single skill with all its unmodified data
  */
-final class Skill{
+final class Skill implements IDComparisonInterface{
+	use IDComparisonTrait;
 
 	public const string CSS_CLASS = 'skill';
 
@@ -258,7 +260,6 @@ final class Skill{
 		}
 	}
 
-	private(set) int        $id;
 	private(set) bool       $is_elite;
 	private(set) bool       $is_pvp;
 	private(set) bool       $is_rp;
@@ -290,22 +291,6 @@ final class Skill{
 			}
 		}
 
-	}
-
-	/**
-	 * Checks whether the object ID is equal to the given ID
-	 */
-	public function is(int $id):bool{
-		return $this->id === $id;
-	}
-
-	/**
-	 * Checks whether the object ID is in the given array of IDs
-	 *
-	 * @param int[] $ids
-	 */
-	public function in(array $ids):bool{
-		return in_array($this->id, $ids, true);
 	}
 
 	/**

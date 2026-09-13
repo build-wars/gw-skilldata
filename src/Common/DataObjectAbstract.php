@@ -20,6 +20,7 @@ use function sprintf;
  * Abstract parent to the Attribute, Campaign, Profession and Skilltype classes
  */
 abstract class DataObjectAbstract implements DataObjectInterface{
+	use IDComparisonTrait;
 
 	protected(set) int $id {
 		set{
@@ -64,18 +65,6 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 		$lang = $this->getLang($lang);
 
 		return static::NAME[$this->id][$lang->id];
-	}
-
-	public function is(int $id):bool{
-		return $this->id === $id;
-	}
-
-	public function in(array $ids):bool{ // phpcs:ignore
-		return in_array($this->id, $ids, true);
-	}
-
-	public function inKeys(array $ids):bool{ // phpcs:ignore
-		return array_key_exists($this->id, $ids);
 	}
 
 	public function toHTML(Lang|string|null $lang = null):string{

@@ -15,7 +15,7 @@ namespace Buildwars\GWSkillData\Common;
  * @property int                                $id
  * @property \Buildwars\GWSkillData\Common\Lang $lang
  */
-interface DataObjectInterface{
+interface DataObjectInterface extends IDComparisonInterface{
 
 	public const string CSS_CLASS = '';
 	/** @var array<int, array{de: string, en: string, fr: string}> */
@@ -25,25 +25,6 @@ interface DataObjectInterface{
 	 * Returns the readable name of the given ID
 	 */
 	public function getName(Lang|string|null $lang = null):string;
-
-	/**
-	 * Checks whether the object ID is equal to the given ID
-	 */
-	public function is(int $id):bool;
-
-	/**
-	 * Checks whether the object ID is in the given array of IDs
-	 *
-	 * @param int[] $ids
-	 */
-	public function in(array $ids):bool;
-
-	/**
-	 * Checks whether the object ID is in the keys of the given array
-	 *
-	 * @param array<int, mixed> $ids
-	 */
-	public function inKeys(array $ids):bool;
 
 	public function toHTML(Lang|string|null $lang = null):string;
 
