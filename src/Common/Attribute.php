@@ -247,6 +247,21 @@ final class Attribute extends DataObjectAbstract{
 		self::TITLE_NORN          => 10,
 	];
 
+	private const array REQ = [
+		Lang::CN => '(REQ)',
+		Lang::DE => '(Erfordert 9 %s)',
+		Lang::EN => '(Requires 9 %s)',
+		Lang::ES => '(%s necesitar 9)',
+		Lang::FR => '(Requiert %s 9)',
+		Lang::IT => '(%s richiedere 9)',
+		Lang::JA => '(REQ)',
+		Lang::KO => '(REQ)',
+		Lang::PL => '(REQ)',
+		Lang::RU => '(REQ)',
+		Lang::XX => '(Reqooures 9 %s)',
+		Lang::ZH => '(REQ)',
+	];
+
 	protected(set) int $level = 0;
 
 	/**
@@ -285,6 +300,17 @@ final class Attribute extends DataObjectAbstract{
 	 */
 	public function getProfessionID():int{
 		return self::PROFESSION[$this->id];
+	}
+
+	/**
+	 * Returns the requirement affix string for the current attribute and the given language
+	 *
+	 * <(Requires 9 [attribute])>
+	 */
+	public function getReq(Lang|string|null $lang = null):string{
+		$lang = $this->getLang($lang);
+
+		return $this->gray(sprintf(self::REQ[$lang->id], self::NAME[$this->id][$lang->id]));
 	}
 
 	/**
