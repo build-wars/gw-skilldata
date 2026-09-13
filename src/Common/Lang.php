@@ -248,45 +248,6 @@ final class Lang{
 		],
 	];
 
-	private const array STR_STACKING = [
-		self::DE => '%s <gray>(Stapelbar)</gray>',
-		self::EN => '%s <gray>(Stacking)</gray>',
-		self::ES => '',
-		self::FR => '%s <gray>(Cumulable)</gray>',
-		self::IT => '',
-		self::JA => '',
-		self::KO => '',
-		self::PL => '',
-		self::RU => '',
-		self::XX => '',
-	];
-
-	private const array STR_NONSTACKING = [
-		self::DE => '%s <gray>(Nicht stapelbar)</gray>',
-		self::EN => '%s <gray>(Non-stacking)</gray>',
-		self::ES => '',
-		self::FR => '%s <gray>(Non cumulable)</gray>',
-		self::IT => '',
-		self::JA => '',
-		self::KO => '',
-		self::PL => '',
-		self::RU => '',
-		self::XX => '',
-	];
-
-	private const array PVP_SUFFIX = [
-		self::DE => '%s (PvP)',
-		self::EN => '%s (PvP)',
-		self::ES => '%s (PvP)',
-		self::FR => '%s (PvP)',
-		self::IT => '%s (PvP)',
-		self::JA => '%s (PvP)',
-		self::KO => '%s (대인전)',
-		self::PL => '%s (PvP)',
-		self::RU => '%s (PvP)',
-		self::XX => '%s (PfP)',
-	];
-
 	protected(set) string $id {
 		set{
 			$value = trim(strtolower($value));
@@ -325,6 +286,16 @@ final class Lang{
 		return in_array($this->id, $ids, true);
 	}
 
+	public function getClassName(string|null $id = null):string{
+		$id ??= $this->id;
+
+		if(!array_key_exists($id, self::CLASSNAME_SUFFIX)){
+			throw new InvalidArgumentException('invalid language');
+		}
+
+		return sprintf('SkillLang%s', self::CLASSNAME_SUFFIX[$id]);
+	}
+
 	/**
 	 * Returns the readable name of the given language ID
 	 *
@@ -340,29 +311,133 @@ final class Lang{
 	}
 
 	/**
-	 * Adds a "(PvP)" suffix
+	 * Returns a "stacking" or "non-stacking" suffix
 	 */
-	public function getPvpName(string $name):string{
-		return sprintf(self::PVP_SUFFIX[$this->id], $name);
+	public function stackable(bool $stackable):string{
+		$suffix = ($stackable === false ? self::STR_NONSTACKING : self::STR_STACKING);
+
+		return $this->string($suffix);
 	}
 
-	/**
-	 * Adds a "stacking" or "non-stacking" suffix
-	 */
-	public function getStackable(string $affix, bool $stackable):string{
-		$suffix = ($stackable ? self::STR_NONSTACKING : self::STR_STACKING);
 
-		return sprintf($suffix[$this->id], $affix);
-	}
+	// @todo
 
-	public function getClassName(string|null $id = null):string{
-		$id ??= $this->id;
+	public const int STR_ARMOR       = 0x6001;
+	public const int STR_HEALTH      = 0x6002;
+	public const int STR_ENERGY      = 0x6003;
+	public const int STR_PVP         = 0x6004;
+	public const int STR_STACKING    = 0x6005;
+	public const int STR_NONSTACKING = 0x6006;
+	public const int STR_VERSUS      = 0x6007;
 
-		if(!array_key_exists($id, self::CLASSNAME_SUFFIX)){
-			throw new InvalidArgumentException('invalid language');
+	private const array LANG_STRINGS = [
+		self::STR_ARMOR => [
+			self::CN => '[ARMOR]',
+			self::DE => 'Rüstung',
+			self::EN => 'Armor',
+			self::ES => 'Armadura',
+			self::FR => 'Armure',
+			self::IT => 'Armatura',
+			self::JA => '[ARMOR]',
+			self::KO => '[ARMOR]',
+			self::PL => '[ARMOR]',
+			self::RU => '[ARMOR]',
+			self::XX => 'Aermur',
+			self::ZH => '[ARMOR]',
+		],
+		self::STR_HEALTH => [
+			self::CN => '[HEALTH]',
+			self::DE => 'Lebenspunkte',
+			self::EN => 'Health',
+			self::ES => 'Salud',
+			self::FR => 'Santé',
+			self::IT => 'Salute',
+			self::JA => '[HEALTH]',
+			self::KO => '[HEALTH]',
+			self::PL => '[HEALTH]',
+			self::RU => '[HEALTH]',
+			self::XX => 'Heaelt',
+			self::ZH => '[HEALTH]',
+		],
+		self::STR_ENERGY => [
+			self::CN => '[ENERGY]',
+			self::DE => 'Energie',
+			self::EN => 'Energy',
+			self::ES => 'Energía',
+			self::FR => 'Energie',
+			self::IT => 'Energia',
+			self::JA => '[ENERGY]',
+			self::KO => '[ENERGY]',
+			self::PL => '[ENERGY]',
+			self::RU => '[ENERGY]',
+			self::XX => 'Inergy',
+			self::ZH => '[ENERGY]',
+		],
+		self::STR_PVP => [
+			self::CN => '[PVP]',
+			self::DE => 'PvP',
+			self::EN => 'PvP',
+			self::ES => 'PvP',
+			self::FR => 'PvP',
+			self::IT => 'PvP',
+			self::JA => 'PvP',
+			self::KO => '대인전',
+			self::PL => 'PvP',
+			self::RU => 'PvP',
+			self::XX => 'PfP',
+			self::ZH => '[PVP]',
+		],
+		self::STR_STACKING => [
+			self::CN => '[STACKING]',
+			self::DE => 'Stapelbar',
+			self::EN => 'Stacking',
+			self::ES => 'Acumulable',
+			self::FR => 'Cumulable',
+			self::IT => 'Cumulabile',
+			self::JA => '[STACKING]',
+			self::KO => '[STACKING]',
+			self::PL => '[STACKING]',
+			self::RU => '[STACKING]',
+			self::XX => 'Staeckeeng',
+			self::ZH => '[STACKING]',
+		],
+		self::STR_NONSTACKING => [
+			self::CN => '[NONSTACKING]',
+			self::DE => 'Nicht stapelbar',
+			self::EN => 'Non-stacking',
+			self::ES => 'No acumulable',
+			self::FR => 'Non cumulable',
+			self::IT => 'Non cumulabile',
+			self::JA => '[NONSTACKING]',
+			self::KO => '[NONSTACKING]',
+			self::PL => '[NONSTACKING]',
+			self::RU => '[NONSTACKING]',
+			self::XX => 'Nun-staeckeeng',
+			self::ZH => '[NONSTACKING]',
+		],
+		self::STR_VERSUS => [
+			self::CN => '[VS]',
+			self::DE => 'gg.',
+			self::EN => 'vs.',
+			self::ES => 'contra',
+			self::FR => 'contre',
+			self::IT => 'contro',
+			self::JA => '[VS]',
+			self::KO => '[VS]',
+			self::PL => '[VS]',
+			self::RU => '[VS]',
+			self::XX => 'Nun-staeckeeng',
+			self::ZH => 'fs.',
+		],
+	];
+
+	public function string(int $id, float|int|string $value = ''):string{
+
+		if(!array_key_exists($id, self::LANG_STRINGS)){
+			throw new InvalidArgumentException('invalid lang string');
 		}
 
-		return sprintf('SkillLang%s', self::CLASSNAME_SUFFIX[$id]);
+		return trim(sprintf('%s %s', self::LANG_STRINGS[$id][$this->id], $value));
 	}
 
 }
