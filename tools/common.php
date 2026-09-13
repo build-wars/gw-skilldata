@@ -389,4 +389,3 @@ const CONST_TYPE = [
 	SkillType::TOUCH_HEX       => 'T::TOUCH_HEX',
 	SkillType::TOUCH_SIGNET    => 'T::TOUCH_SIGNET',
 ];
-

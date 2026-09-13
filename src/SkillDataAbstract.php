@@ -47,11 +47,8 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 		$result = [];
 
 		foreach(static::ID2DATA as $id => $row){
-
-			$data = array_merge(
-				array_combine(Skill::KEYS_DATA, $row),
-				array_combine(Skill::KEYS_DESC, static::ID2DESC[$id]),
-			);
+			/** @phan-suppress-next-line PhanTypeMismatchArgumentNullableInternal */
+			$data = array_merge(array_combine(Skill::KEYS_DATA, $row), array_combine(Skill::KEYS_DESC, static::ID2DESC[$id]));
 
 			$result[$id] = $callable(new Skill($data), $id);
 		}

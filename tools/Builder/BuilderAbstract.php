@@ -210,7 +210,7 @@ abstract class BuilderAbstract implements BuilderInterface{
 			'declare(strict_types=1);',
 			'namespace Buildwars\\GWSkillData;',
 			'use Buildwars\\GWSkillData\\Common\\{Attribute as A, Campaign as C, Profession as P};',
-			'use Buildwars\\GWSkillData\\Type as T;',
+			'use Buildwars\\GWSkillData\\SkillType as T;',
 			'abstract class SkillData extends SkillDataAbstract{',
 			'protected const array ID2DATA = [',
 		];
