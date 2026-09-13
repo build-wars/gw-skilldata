@@ -19,6 +19,11 @@ use function strtolower;
 
 /**
  * Encapsulates all profession related static data
+ *
+ * Right now, we're only using the generic masculinum because it's a mess to implement grammatical genders
+ * troughout skill descriptions, items etc. and idk if it's even worth it for this project.
+ *
+ * If anyone complains, i'm gonna change evreything to generic femininum and you can't stop me.
  */
 final class Profession extends DataObjectAbstract{
 

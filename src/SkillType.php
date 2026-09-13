@@ -24,48 +24,48 @@ final class SkillType extends DataObjectAbstract{
 	public const string CSS_CLASS = 'skilltype';
 
 	public const int NONE            = 0;
-	public const int SKILL           = 1;
-	public const int BOW_ATK         = 2;
-	public const int MELEE_ATK       = 3;
-	public const int AXE_ATK         = 4;
-	public const int LEAD_ATK        = 5;
-	public const int OFFHAND_ATK     = 6;
-	public const int DUAL_ATK        = 7;
-	public const int HAMMER_ATK      = 8;
-	public const int SCYTHE_ATK      = 9;
-	public const int SWORD_ATK       = 10;
-	public const int PET_ATK         = 11;
-	public const int SPEAR_ATK       = 12;
-	public const int CHANT           = 13;
-	public const int ECHO            = 14;
-	public const int FORM            = 15;
-	public const int GLYPH           = 16;
-	public const int PREPARATION     = 17;
-	public const int BINDING_RITUAL  = 18;
-	public const int NATURE_RITUAL   = 19;
-	public const int SHOUT           = 20;
-	public const int SIGNET          = 21;
-	public const int SPELL           = 22;
-	public const int ENCH            = 23;
-	public const int HEX             = 24;
-	public const int ITEM_SPELL      = 25;
-	public const int WARD_SPELL      = 26;
-	public const int WEAPON_SPELL    = 27;
-	public const int WELL            = 28;
-	public const int STANCE          = 29;
-	public const int TRAP            = 30;
-	public const int RANGED_ATK      = 31;
-	public const int VANGUARD_RITUAL = 32;
-	public const int FLASH_ENCH      = 33;
+	public const int SKILL           = 1; // 10/16 (??)
+	public const int BOW_ATK         = 2; // 14
+	public const int MELEE_ATK       = 3; // 14
+	public const int AXE_ATK         = 4; // 14
+	public const int LEAD_ATK        = 5; // 14
+	public const int OFFHAND_ATK     = 6; // 14
+	public const int DUAL_ATK        = 7; // 14
+	public const int HAMMER_ATK      = 8; // 14
+	public const int SCYTHE_ATK      = 9; // 14
+	public const int SWORD_ATK       = 10; // 14
+	public const int PET_ATK         = 11; // 20
+	public const int SPEAR_ATK       = 12; // 14
+	public const int CHANT           = 13; // 27
+	public const int ECHO            = 14; // 28
+	public const int FORM            = 15; // 26
+	public const int GLYPH           = 16; // 12
+	public const int PREPARATION     = 17; // 19
+	public const int BINDING_RITUAL  = 18; // 22
+	public const int NATURE_RITUAL   = 19; // 22
+	public const int SHOUT           = 20; // 15
+	public const int SIGNET          = 21; // 7
+	public const int SPELL           = 22; // 5
+	public const int ENCH            = 23; // 6
+	public const int HEX             = 24; // 4
+	public const int ITEM_SPELL      = 25; // 24
+	public const int WARD_SPELL      = 26; // 11
+	public const int WEAPON_SPELL    = 27; // 25
+	public const int WELL            = 28; // 9
+	public const int STANCE          = 29; // 3
+	public const int TRAP            = 30; // 21
+	public const int RANGED_ATK      = 31; // 14
+	public const int VANGUARD_RITUAL = 32; // 22
+	public const int FLASH_ENCH      = 33; // 6
 	public const int ATK_SKILL       = 34;
 	public const int DAGGER_ATK      = 35;
 	public const int RITUAL          = 36;
-	public const int DOUBLE_ENCH     = 37;
-	public const int TOUCH_SKILL     = 38;
-	public const int TOUCH_SPELL     = 39;
-	public const int TOUCH_ENCH      = 40;
-	public const int TOUCH_HEX       = 41;
-	public const int TOUCH_SIGNET    = 42;
+	public const int DOUBLE_ENCH     = 37; // 6
+	public const int TOUCH_SKILL     = 38; // 10
+	public const int TOUCH_SPELL     = 39; // 5
+	public const int TOUCH_ENCH      = 40; // 6
+	public const int TOUCH_HEX       = 41; // 4
+	public const int TOUCH_SIGNET    = 42; // 7
 
 	public const array NAME = [
 		self::NONE            => [Lang::DE => 'Keine Fertigkeit',       Lang::EN => 'No Skill',                Lang::ES => 'Sin habilidad',                         Lang::FR => 'Aucun Compétence',                 Lang::IT => 'Nessuna abilità',                    Lang::XX => 'Nu Skeell',                ],
@@ -114,26 +114,74 @@ final class SkillType extends DataObjectAbstract{
 	];
 
 	private const array SUBTYPES = [
-		self::ATK_SKILL => [
-			self::MELEE_ATK, self::RANGED_ATK, self::BOW_ATK, self::AXE_ATK, self::LEAD_ATK, self::OFFHAND_ATK,
-			self::DUAL_ATK, self::HAMMER_ATK, self::SCYTHE_ATK, self::SWORD_ATK, self::PET_ATK, self::SPEAR_ATK,
+		self::ATK_SKILL   => [
+			self::MELEE_ATK,
+			self::RANGED_ATK,
+			self::BOW_ATK,
+			self::AXE_ATK,
+			self::LEAD_ATK,
+			self::OFFHAND_ATK,
+			self::DUAL_ATK,
+			self::HAMMER_ATK,
+			self::SCYTHE_ATK,
+			self::SWORD_ATK,
+			self::PET_ATK,
+			self::SPEAR_ATK,
 		],
-		self::DAGGER_ATK   => [self::LEAD_ATK, self::OFFHAND_ATK, self::DUAL_ATK],
-		self::ENCH         => [self::FLASH_ENCH, self::DOUBLE_ENCH, self::TOUCH_ENCH],
-		self::HEX          => [self::TOUCH_HEX],
-		self::MELEE_ATK    => [
-			self::AXE_ATK, self::LEAD_ATK, self::OFFHAND_ATK, self::DUAL_ATK, self::HAMMER_ATK,
-			self::SCYTHE_ATK, self::SWORD_ATK, self::PET_ATK,
+		self::DAGGER_ATK  => [
+			self::LEAD_ATK,
+			self::OFFHAND_ATK,
+			self::DUAL_ATK,
 		],
-		self::RANGED_ATK   => [self::BOW_ATK, self::SPEAR_ATK],
-		self::RITUAL       => [self::BINDING_RITUAL, self::NATURE_RITUAL, self::VANGUARD_RITUAL],
-		self::SPELL        => [
-			self::ENCH, self::HEX, self::ITEM_SPELL, self::WARD_SPELL, self::WEAPON_SPELL, self::WELL,
-			self::FLASH_ENCH, self::DOUBLE_ENCH, self::TOUCH_SPELL, self::TOUCH_ENCH,
+		self::ENCH        => [
+			self::FLASH_ENCH,
+			self::DOUBLE_ENCH,
+			self::TOUCH_ENCH,
+		],
+		self::HEX         => [
 			self::TOUCH_HEX,
 		],
-		self::SIGNET        => [self::TOUCH_SIGNET],
-		self::TOUCH_SKILL   => [self::TOUCH_SPELL, self::TOUCH_ENCH, self::TOUCH_HEX, self::TOUCH_SIGNET],
+		self::MELEE_ATK   => [
+			self::AXE_ATK,
+			self::LEAD_ATK,
+			self::OFFHAND_ATK,
+			self::DUAL_ATK,
+			self::HAMMER_ATK,
+			self::SCYTHE_ATK,
+			self::SWORD_ATK,
+			self::PET_ATK,
+		],
+		self::RANGED_ATK  => [
+			self::BOW_ATK,
+			self::SPEAR_ATK,
+		],
+		self::RITUAL      => [
+			self::BINDING_RITUAL,
+			self::NATURE_RITUAL,
+			self::VANGUARD_RITUAL,
+		],
+		self::SPELL       => [
+			self::ENCH,
+			self::HEX,
+			self::ITEM_SPELL,
+			self::WARD_SPELL,
+			self::WEAPON_SPELL,
+			self::WELL,
+			self::FLASH_ENCH,
+			self::DOUBLE_ENCH,
+			self::TOUCH_SPELL,
+			self::TOUCH_ENCH,
+			self::TOUCH_HEX,
+		],
+		self::SIGNET      => [
+			self::TOUCH_SIGNET,
+		],
+		self::TOUCH_SKILL => [
+			self::TOUCH_SPELL,
+			self::TOUCH_ENCH,
+			self::TOUCH_HEX,
+			self::TOUCH_SIGNET,
+		],
 	];
 
 	/**

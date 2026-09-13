@@ -29,10 +29,10 @@ interface SkillDataInterface{
 	public const array SKILLS_LUXON        = [1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1957, 2051];
 	public const array SKILLS_SUNSPEAR     = [2101, 2102, 2103, 2104, 2105, 2107, 2108, 2109, 2110, 2112];
 	public const array SKILLS_LIGHTBRINGER = [1814, 1815];
-	public const array SKILLS_ASURA        = [];
-	public const array SKILLS_DELDRIMOR    = [];
-	public const array SKILLS_VANGUARD     = [];
-	public const array SKILLS_NORN         = [];
+	public const array SKILLS_ASURA        = [2224, 2225, 2226, 2227, 2411, 2412, 2413, 2414, 2415, 2416, 2417, 2418];
+	public const array SKILLS_DELDRIMOR    = [2211, 2212, 2213, 2214, 2215, 2216, 2217, 2218, 2219, 2220, 2221, 2222, 2223, 2423];
+	public const array SKILLS_VANGUARD     = [2116, 2228, 2229, 2230, 2231, 2232, 2233, 2234, 2235, 2420, 2421, 2422];
+	public const array SKILLS_NORN         = [2353, 2354, 2355, 2356, 2357, 2358, 2359, 2360, 2361, 2374, 2379, 2384];
 
 	/**
 	 * The language abbreviation, key for the several `name` arrays
