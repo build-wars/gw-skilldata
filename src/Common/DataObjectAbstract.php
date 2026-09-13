@@ -13,7 +13,6 @@ namespace Buildwars\GWSkillData\Common;
 
 use InvalidArgumentException;
 use function array_key_exists;
-use function in_array;
 use function sprintf;
 
 /**
@@ -58,8 +57,8 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 
 	public function getName(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
-
-		return static::NAME[$this->id][$lang->id];
+		// @todo: temp fix for missing translations
+		return (static::NAME[$this->id][$lang->id] ?? static::NAME[$this->id][Lang::EN]);
 	}
 
 	public function toHTML(Lang|string|null $lang = null):string{
@@ -72,6 +71,14 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 			$lang->id,
 			$this->getName($lang),
 		);
+	}
+
+	protected function gray(string $text):string{
+		return sprintf('<gray>%s</gray>', $text);
+	}
+
+	protected function blue(string $text):string{
+		return sprintf('<blue>%s</blue>', $text);
 	}
 
 }
