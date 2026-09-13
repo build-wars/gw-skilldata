@@ -113,7 +113,7 @@ final class Profession extends DataObjectAbstract{
 	 * Returns the primary attribute of the current profession
 	 */
 	public function getPrimaryAttribute(int $level = 0):Attribute{
-		return (new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang))->setLevel($level);
+		return new Attribute(self::PRIMARY_ATTRIBUTE[$this->id], $this->lang)->setLevel($level);
 	}
 
 	/**

@@ -50,7 +50,7 @@ abstract class SkillDataAbstract implements SkillDataInterface{
 			/** @phan-suppress-next-line PhanTypeMismatchArgumentNullableInternal */
 			$data = array_merge(array_combine(Skill::KEYS_DATA, $row), array_combine(Skill::KEYS_DESC, static::ID2DESC[$id]));
 
-			$result[$id] = $callable(new Skill($data), $id);
+			$result[$id] = $callable(new Skill($data, static::LANG), $id);
 		}
 
 		return $result;
