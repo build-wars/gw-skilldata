@@ -22,16 +22,6 @@ use function sprintf;
 abstract class DataObjectAbstract implements DataObjectInterface{
 	use IDComparisonTrait;
 
-	protected(set) int $id {
-		set{
-			if(!array_key_exists($value, static::NAME)){
-				throw new InvalidArgumentException(sprintf('invalid ID "%s" (%s)', $value, static::class));
-			}
-
-			$this->id = $value; // phpcs:ignore
-		}
-	}
-
 	protected(set) Lang $lang {
 		set(Lang|string $lang){
 
@@ -44,6 +34,11 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 	}
 
 	public function __construct(int $id, Lang|string $lang = Lang::EN){
+		// "Conflict resolution between hooked properties is currently not supported."
+		if(!array_key_exists($id, static::NAME)){
+			throw new InvalidArgumentException(sprintf('invalid ID "%s" (%s)', $id, static::class));
+		}
+
 		$this->id   = $id;
 		$this->lang = $lang;
 	}
