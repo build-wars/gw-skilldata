@@ -17,6 +17,7 @@ use Buildwars\GWSkillData\Common\DataObjectInterface;
 use Buildwars\GWSkillData\Common\IDComparisonInterface;
 use Buildwars\GWSkillData\Common\IDComparisonTrait;
 use Buildwars\GWSkillData\Common\Lang;
+use Buildwars\GWSkillData\Common\LangTrait;
 use Buildwars\GWSkillData\Common\Profession;
 use InvalidArgumentException;
 use function array_key_exists;
@@ -32,7 +33,7 @@ use function strtolower;
  * Represents a single skill with all its unmodified data
  */
 final class Skill implements IDComparisonInterface{
-	use IDComparisonTrait;
+	use IDComparisonTrait, LangTrait;
 
 	public const string CSS_CLASS = 'skill';
 
@@ -204,17 +205,6 @@ final class Skill implements IDComparisonInterface{
 			Lang::FR => 'Description concise',
 		],
 	];
-
-	private(set) Lang $lang {
-		set(Lang|string $lang){
-
-			if(!$lang instanceof Lang){
-				$lang = new Lang($lang);
-			}
-
-			$this->lang = $lang;
-		}
-	}
 
 	private(set) Attribute $attribute{
 		set(Attribute|int $attribute){

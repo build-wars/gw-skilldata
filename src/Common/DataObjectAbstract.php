@@ -19,18 +19,7 @@ use function sprintf;
  * Abstract parent to the Attribute, Campaign, Profession and Skilltype classes
  */
 abstract class DataObjectAbstract implements DataObjectInterface{
-	use IDComparisonTrait;
-
-	protected(set) Lang $lang {
-		set(Lang|string $lang){
-
-			if(!$lang instanceof Lang){
-				$lang = new Lang($lang);
-			}
-
-			$this->lang = $lang;
-		}
-	}
+	use IDComparisonTrait, LangTrait;
 
 	public function __construct(int $id, Lang|string $lang = Lang::EN){
 		// "Conflict resolution between hooked properties is currently not supported."
@@ -40,19 +29,6 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 
 		$this->id   = $id;
 		$this->lang = $lang;
-	}
-
-	protected function getLang(Lang|string|null $lang):Lang{
-
-		if($lang === null){
-			return $this->lang;
-		}
-
-		if($lang instanceof Lang){
-			return $lang;
-		}
-
-		return new Lang($lang);
 	}
 
 	public function getName(Lang|string|null $lang = null):string{
