@@ -305,12 +305,11 @@ final class Attribute extends DataObjectAbstract{
 	/**
 	 * Returns the requirement affix string for the current attribute and the given language
 	 *
-	 * <(Requires 9 [attribute])>
+	 * <(Requires $req [attribute])>
 	 */
-	public function getReq(Lang|string|null $lang = null):string{
-		$lang = $this->getLang($lang);
-
-		return $this->gray(sprintf(self::REQ[$lang->id], self::NAME[$this->id][$lang->id]));
+	public function getReq(int $req, Lang|string|null $lang = null):string{
+		return new EffectCondition(EffectCondition::ATTRIBUTE_REQ, $this->getLang($lang))
+			->getAffix($req, self::NAME[$this->id][$lang->id]);
 	}
 
 	/**

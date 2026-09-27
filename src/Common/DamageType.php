@@ -57,30 +57,4 @@ final class DamageType extends DataObjectAbstract{
 		self::UNSPECIFIED => [Lang::DE => 'Schaden',              Lang::EN => 'Damage',           Lang::ES => 'Daño',                  Lang::FR => 'Dégâts',              Lang::IT => 'Danno',             Lang::XX => 'Daemaege-a',            ],
 	];
 
-	// contains grammatical changes for several strings for when they are used in an affix, such as "vs. elemental damage"
-	private const array AFFIX_NAME = [
-		self::ELEMENTAL => [
-			Lang::DE => 'Elementarschaden',
-			Lang::EN => 'elemental damage',
-			Lang::ES => 'daño de elementos',
-			Lang::FR => 'les dégâts élémentaires',
-			Lang::IT => 'danno elementale',
-			Lang::XX => 'ilementael daemaege-a',
-		],
-		self::PHYSICAL  => [
-			Lang::DE => 'körperlichen Schaden',
-			Lang::EN => 'physical damage',
-			Lang::ES => 'daño físico',
-			Lang::FR => 'les dégâts physiques',
-			Lang::IT => 'danno fisico',
-			Lang::XX => 'physeecael daemaege-a',
-		],
-	];
-
-	public function getAffixName(Lang|string|null $lang = null):string{
-		$lang = $this->getLang($lang);
-
-		return (self::AFFIX_NAME[$this->id][$lang->id] ?? self::NAME[$this->id][$lang->id]);
-	}
-
 }

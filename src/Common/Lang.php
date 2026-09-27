@@ -314,16 +314,6 @@ final class Lang{
 		return self::NAMES[$this->id][($id ?? $this->id)];
 	}
 
-	/**
-	 * Returns a "stacking" or "non-stacking" suffix
-	 */
-	public function stackable(bool $stackable):string{
-		$suffix = ($stackable === false ? self::STR_NONSTACKING : self::STR_STACKING);
-
-		return $this->string($suffix);
-	}
-
-
 	// @todo
 
 	public const int STR_PVP         = 0x6001;

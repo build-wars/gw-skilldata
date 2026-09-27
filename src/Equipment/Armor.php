@@ -14,6 +14,8 @@ namespace Buildwars\GWSkillData\Equipment;
 use Buildwars\GWSkillData\Common\Attribute;
 use Buildwars\GWSkillData\Common\DamageType;
 use Buildwars\GWSkillData\Common\DataObjectAbstract;
+use Buildwars\GWSkillData\Common\Effect;
+use Buildwars\GWSkillData\Common\EffectCondition;
 use Buildwars\GWSkillData\Common\Lang;
 use Buildwars\GWSkillData\Common\Profession;
 use function array_key_exists;
@@ -43,15 +45,6 @@ final class Armor extends DataObjectAbstract{
 		self::LIGHT  => [Lang::DE => 'Leichte Rüstung',  Lang::EN => 'Light Armor',  Lang::ES => 'Armadura ligera', Lang::FR => 'Armure légère',  Lang::IT => 'Armatura leggera', Lang::XX => 'Leeght Aermur',  ],
 		self::MEDIUM => [Lang::DE => 'Mittlere Rüstung', Lang::EN => 'Medium Armor', Lang::ES => 'Armadura media',  Lang::FR => 'Armure moyenne', Lang::IT => 'Armatura media',   Lang::XX => 'Medeeoom Aermur',],
 		self::HEAVY  => [Lang::DE => 'Schwere Rüstung',  Lang::EN => 'Heavy Armor',  Lang::ES => 'Armadura pesada', Lang::FR => 'Armure lourde',  Lang::IT => 'Armatura pesante', Lang::XX => 'Heaefy Aermur',  ],
-	];
-
-	private const array ENERGY_RECOVERY = [
-		Lang::DE => 'Energierückgewinnung +1',
-		Lang::EN => 'Energy recovery +1',
-		Lang::ES => 'Recuperación de energía +1',
-		Lang::FR => 'Récupération d\'énergie +1',
-		Lang::IT => 'Recupero energia +1',
-		Lang::XX => 'Inergy recufery +1',
 	];
 
 	private const array BY_PROFESSION = [
@@ -100,18 +93,12 @@ final class Armor extends DataObjectAbstract{
 		$this->position = $position;
 	}
 
-	public function getName(Lang|string|null $lang = null):string{
-		$lang = $this->getLang($lang);
-
-		return sprintf(self::NAME[$this->id][$lang->id], $lang->string(Lang::STR_ARMOR));
-	}
-
-	public function getType(Profession $profession):int{
+	public static function getType(Profession $profession):int{
 		return self::BY_PROFESSION[$profession->id];
 	}
 
-	public function getArmorRating(Profession $profession):int{
-		return self::AR[$this->getType($profession)];
+	public static function getArmorRating(Profession $profession):int{
+		return self::AR[self::getType($profession)];
 	}
 
 	public function getAffix(Profession $profession, Attribute $attribute, Lang|string|null $lang = null):array{
@@ -122,47 +109,51 @@ final class Armor extends DataObjectAbstract{
 
 		$lang = $this->getLang($lang);
 
+		$armor    = new Effect(Effect::ARMOR, $lang);
+		$energy   = new Effect(Effect::ENERGY, $lang)->getAffix('+'.self::ENERGY_BONUS);
+		$recovery = new Effect(Effect::ENERGY_RECOVERY, $lang)->getAffix('+'.self::ENERGY_PIPS);
+
 		$affix = [];
 
 		// energy on chest piece
 		if($this->position->is(ItemPosition::CHEST) && !$profession->in([Profession::WARRIOR, Profession::DERVISH])){
-			$affix[] = $lang->string(Lang::STR_ENERGY, '+'.self::ENERGY_BONUS);
+			$affix[] = $energy;
 		}
 		// energy on hands (same as above, just written separate for clarity)
 		if($this->position->is(ItemPosition::HANDS) && !$profession->in([Profession::WARRIOR, Profession::RANGER, Profession::ASSASSIN])){ // phpcs:ignore
-			$affix[] = $lang->string(Lang::STR_ENERGY, '+'.self::ENERGY_BONUS);
+			$affix[] = $energy;
 		}
 
 		// fixed armor rating
-		$format  = $lang->is(Lang::FR) ? '%s : %s' : '%s: %s'; // extra baguette for french
-		$affix[] = sprintf($format, $lang->string(Lang::STR_ARMOR), $this->getArmorRating($profession));
+		$affix[] = $armor->getAffix($this::getArmorRating($profession));
 
 		// headpiece attribute bonus
 		if($this->position->is(ItemPosition::HEAD) && !$attribute->is(Attribute::NONE)){
-			$affix[] = sprintf('<blue>%s +1</blue> <gray>(%s)</gray>', $attribute->getName(), $lang->stackable(true));
+			$stacking = new EffectCondition(EffectCondition::STACKING, $lang)->getAffix();
+
+			$affix[] = sprintf('<blue>%s +1</blue> %s', $attribute->getName(), $stacking);
 		}
 		// dervish health bonus on chest, after fixed AR
 		if($this->position->is(ItemPosition::CHEST) && $profession->is(Profession::DERVISH)){
-			$affix[] = $this->blue($lang->string(Lang::STR_HEALTH, '+25'));
+			$affix[] = $this->blue(new Effect(Effect::HEALTH)->getAffix('+25'));
 		}
 		// energy recovery on legs
 		if($this->position->is(ItemPosition::LEGS) && !$profession->in([Profession::WARRIOR, Profession::PARAGON])){
-			$affix[] = $this->blue(self::ENERGY_RECOVERY[$lang->id]);
+			$affix[] = $this->blue($recovery);
 		}
 		// energy recovery on feet (same as above, just written separate for clarity)
 		if($this->position->is(ItemPosition::FEET) && !$profession->in([Profession::WARRIOR, Profession::RANGER, Profession::PARAGON])){ // phpcs:ignore
-			$affix[] = $this->blue(self::ENERGY_RECOVERY[$lang->id]);
+			$affix[] = $this->blue($recovery);
 		}
 		// profession specific bonus for all pieces
 		if($profession->inKeys(self::AR_BONUS)){
 			[$value, $dmg_type] = self::AR_BONUS[$profession->id];
+			$dmg = new DamageType($dmg_type, $lang);
 
 			$affix[] = sprintf(
-				'<blue>%s +%s</blue> <gray>(%s %s)</gray>',
-				$lang->string(Lang::STR_ARMOR),
-				$value,
-				$lang->string(Lang::STR_VERSUS),
-				new DamageType($dmg_type, $lang)->getAffixName(),
+				'<blue>%s</blue> %s',
+				$armor->getAffix('+'.$value),
+				new EffectCondition(EffectCondition::VS_DAMAGE_TYPE, $lang)->getAffix($dmg->getName()),
 			);
 		}
 
