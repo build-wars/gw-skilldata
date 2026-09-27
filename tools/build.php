@@ -17,11 +17,13 @@ namespace Buildwars\GWSkillDataTools;
 use Buildwars\GWSkillDataTools\Builder\BuildCombinedJSON;
 use Buildwars\GWSkillDataTools\Builder\BuildDataFromToolbox;
 use Buildwars\GWSkillDataTools\Builder\BuildFromWiki;
+#use Buildwars\GWSkillDataTools\Builder\BuildItemData;
 use Buildwars\GWSkillDataTools\Builder\BuildKnownSkills;
 use Buildwars\GWSkillDataTools\Builder\BuildLangFromToolbox;
+#use Buildwars\GWSkillDataTools\Builder\BuildModData;
 use Buildwars\GWSkillDataTools\Builder\BuildPawned;
 use Buildwars\GWSkillDataTools\Builder\BuildPublicIndex;
-use Buildwars\GWSkillDataTools\Builder\ClearCaches;
+#use Buildwars\GWSkillDataTools\Builder\ClearCaches;
 use Buildwars\GWSkillDataTools\Builder\WikiDiff;
 use Psr\Log\LogLevel;
 
@@ -40,7 +42,7 @@ $ptions = new BuilderOptions([
 
 $builders = [
 	// clears all known cache directories for a fresh start
-	ClearCaches::class,
+#	ClearCaches::class,
 	// creates a "known skills" file with IDs and skill names for the en, de and fr wikis
 	BuildKnownSkills::class,
 
@@ -63,6 +65,13 @@ $builders = [
 	BuildPublicIndex::class,
 	// creates diffs of the wiki data against the game data
 	WikiDiff::class,
+
+	// these don't need to run all the time as the data is mostly static
+
+	// Creates the item data JSON
+#	BuildItemData::class,
+	// Creates the item modifier (mod) data JSON
+#	BuildModData::class,
 ];
 
 foreach($builders as $builder){
