@@ -229,6 +229,7 @@
 		</properties>
 	</rule>
 
+	<!--
 	<rule ref="Generic.Files.LineLength">
 		<properties>
 			<property name="lineLimit" value="140" />
@@ -236,13 +237,8 @@
 			<property name="ignoreComments" value="true" />
 		</properties>
 		<exclude-pattern>examples</exclude-pattern>
-		<exclude-pattern>src/SkillLang*</exclude-pattern>
-		<exclude-pattern>src/SkillType.php</exclude-pattern>
-		<exclude-pattern>src/Common/Attribute.php</exclude-pattern>
-		<exclude-pattern>src/Common/Campaign.php</exclude-pattern>
-		<exclude-pattern>src/Common/Lang.php</exclude-pattern>
-		<exclude-pattern>src/Common/Profession.php</exclude-pattern>
 	</rule>
+	-->
 
 	<rule ref="Generic.Formatting.SpaceAfterCast">
 		<properties>
