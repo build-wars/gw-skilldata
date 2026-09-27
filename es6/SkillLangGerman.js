@@ -5,7 +5,7 @@
  * @license      MIT
  */
 
-import de from '../data/json-full/skilldesc-de.json' with { type: 'json' };
+import de from '../data/json-full/skilldesc-de-guildwiki.json' with { type: 'json' };
 import SkillDataAbstract from './SkillDataAbstract.js';
 
 /** @final */

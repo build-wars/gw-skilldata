@@ -5,7 +5,7 @@
  * @license      MIT
  */
 
-import en from '../data/json-full/skilldesc-en.json' with { type: 'json' };
+import en from '../data/json-full/skilldesc-en-gww.json' with { type: 'json' };
 import SkillDataAbstract from './SkillDataAbstract.js';
 
 /** @final */
