@@ -20,6 +20,9 @@ interface BuilderInterface{
 	public const string SCHEMA_SKILLDESC          = self::REPO_URL.'/schemas/skilldesc.schema.json';
 	public const string SCHEMA_SKILLDATA_COMBINED = self::REPO_URL.'/schemas/skilldata-combined.schema.json';
 
+	public const string SCHEMA_ITEMDATA           = self::REPO_URL.'/schemas/itemdata.schema.json';
+	public const string SCHEMA_MODDATA            = self::REPO_URL.'/schemas/moddata.schema.json';
+
 	public function build():static;
 
 }
