@@ -100,6 +100,35 @@ final class Profession extends DataObjectAbstract{
 		self::DERVISH      => Campaign::NIGHTFALL,
 	];
 
+	private const array AFFIX_NAME = [
+		self::NONE         => [Lang::DE => '',     Lang::EN => '', Lang::ES => '',        Lang::FR => '',      Lang::IT => '',         Lang::XX => '',],
+		self::WARRIOR      => [Lang::DE => '',     Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'de %s', Lang::IT => 'del %s',   Lang::XX => '',],
+		self::RANGER       => [Lang::DE => '',     Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'de %s', Lang::IT => 'dell\'%s', Lang::XX => '',],
+		self::MONK         => [Lang::DE => '%ss',  Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'de %s', Lang::IT => 'del %s',   Lang::XX => '',],
+		self::NECROMANCER  => [Lang::DE => '%sen', Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'de %s', Lang::IT => 'del %s',   Lang::XX => '',],
+		self::MESMER       => [Lang::DE => '',     Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'd\'%s', Lang::IT => 'dell\'%s', Lang::XX => '',],
+		self::ELEMENTALIST => [Lang::DE => '',     Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'd\'%s', Lang::IT => 'dell\'%s', Lang::XX => '',],
+		self::ASSASSIN     => [Lang::DE => '%sen', Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'd\'%s', Lang::IT => 'dell\'%s', Lang::XX => '',],
+		self::RITUALIST    => [Lang::DE => '%sen', Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'du %s', Lang::IT => 'del %s',   Lang::XX => '',],
+		self::PARAGON      => [Lang::DE => '',     Lang::EN => '', Lang::ES => 'de %s',   Lang::FR => 'de %s', Lang::IT => 'del %s',   Lang::XX => '',],
+		self::DERVISH      => [Lang::DE => '',     Lang::EN => '', Lang::ES => 'para %s', Lang::FR => 'de %s', Lang::IT => 'del %s',   Lang::XX => '',],
+	];
+
+	/**
+	 * Returns the name for use in item affixes, e.g. with article
+	 */
+	public function getAffixName(Lang|string|null $lang = null):string{
+		$lang  = $this->getLang($lang);
+		$name  = self::NAME[$this->id][$lang->id];
+		$affix = self::AFFIX_NAME[$this->id][$lang->id];
+
+		if($affix === ''){
+			return $name;
+		}
+
+		return sprintf($affix, $name);
+	}
+
 	/**
 	 * Returns the short name for the fiven profession ID
 	 */

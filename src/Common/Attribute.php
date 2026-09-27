@@ -85,6 +85,17 @@ final class Attribute extends DataObjectAbstract{
 	public const int TITLE_VANGUARD      = 108; // 40
 	public const int TITLE_NORN          = 109; // 41
 
+	public const array PVE_TITLES = [
+		self::TITLE_SUNSPEAR,
+		self::TITLE_LIGHTBRINGER,
+		self::TITLE_LUXON,
+		self::TITLE_KURZICK,
+		self::TITLE_ASURA,
+		self::TITLE_DELDRIMOR,
+		self::TITLE_VANGUARD,
+		self::TITLE_NORN,
+	];
+
 	public const array NAME = [
 		self::FAST_CASTING        => [Lang::DE => 'Schnellwirkung',           Lang::EN => 'Fast Casting',           Lang::ES => 'Lanzar conjuros rápido',           Lang::FR => 'Incantation rapide',              Lang::IT => 'Lancio Rapido',                         Lang::XX => 'Faest Caesteeng',            ],
 		self::ILLUSION_MAGIC      => [Lang::DE => 'Illusionsmagie',           Lang::EN => 'Illusion Magic',         Lang::ES => 'Magia de dominación',              Lang::FR => 'Magie de l\'illusion',            Lang::IT => 'Magia Illusoria',                       Lang::XX => 'Illooseeun Maegeec',         ],
