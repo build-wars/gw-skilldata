@@ -319,7 +319,8 @@ final class Attribute extends DataObjectAbstract{
 	 */
 	public function getReq(int $req, Lang|string|null $lang = null):string{
 		return new EffectCondition(EffectCondition::ATTRIBUTE_REQ, $this->getLang($lang))
-			->getAffix($req, self::NAME[$this->id][$lang->id]);
+			// @todo: language fix
+			->getAffix($req, (self::NAME[$this->id][$lang->id] ?? self::NAME[$this->id][Lang::EN]));
 	}
 
 	/**
@@ -430,6 +431,10 @@ final class Attribute extends DataObjectAbstract{
 		return array_map(fn(int $i):int => $fn($i, $val0, $val15), range(0, $max));
 	}
 
+	/**
+	 * @todo
+	 * @codeCoverageIgnore
+	 */
 	public function toHTML(Lang|string|null $lang = null, bool $includeLevel = false):string{
 		$lang       = $this->getLang($lang);
 		$cssClasses = [self::CSS_CLASS, strtolower($this->getProfession()->getName(Lang::EN))];

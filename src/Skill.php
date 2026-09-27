@@ -317,7 +317,7 @@ final class Skill implements IDComparisonInterface{
 			$lang = new Lang($lang);
 		}
 
-		return self::FIELD_NAMES[$field][$lang->id];
+		return (self::FIELD_NAMES[$field][$lang->id] ?? sprintf('[SKILL_FIELD_%s_%s]', $field, $lang->id));
 	}
 
 	/**
@@ -334,6 +334,10 @@ final class Skill implements IDComparisonInterface{
 		return array_search($key, self::KEYS_DESC, true);
 	}
 
+	/**
+	 * @todo
+	 * @codeCoverageIgnore
+	 */
 	public function toHTML(string|null $icon = null, string|null $link = null):string{
 
 		$cssClasses = [
