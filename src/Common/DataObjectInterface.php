@@ -22,6 +22,15 @@ interface DataObjectInterface extends IDComparisonInterface{
 	public const array  NAME      = [];
 
 	/**
+	 * Checks whether the given constant is part of the current class
+	 *
+	 * The constants are usually keys in the NAME array, but might enumerate other arrays instead.
+	 *
+	 * @see \Buildwars\GWSkillData\Common\DataObjectInterface::NAME
+	 */
+	public static function has(int $constant):bool;
+
+	/**
 	 * Returns the readable name of the given ID
 	 */
 	public function getName(Lang|string|null $lang = null):string;

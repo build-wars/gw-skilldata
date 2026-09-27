@@ -32,6 +32,10 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 		$this->lang = $lang;
 	}
 
+	public static function has(int $constant):bool{
+		return array_key_exists($constant, static::NAME);
+	}
+
 	public function getName(Lang|string|null $lang = null):string{
 		$lang = $this->getLang($lang);
 		// @todo: temp fix for missing translations

@@ -252,7 +252,7 @@ final class Lang{
 		set{
 			$value = trim(strtolower($value));
 
-			if(!in_array($value, self::IDS, true)){
+			if(!self::has($value)){
 				throw new InvalidArgumentException('invalid language');
 			}
 
@@ -268,6 +268,10 @@ final class Lang{
 			self::FR_GWIKI     => self::FR,
 			default            => $id,
 		};
+	}
+
+	public static function has(string $id):bool{
+		return in_array($id, self::IDS, true);
 	}
 
 	/**
@@ -303,7 +307,7 @@ final class Lang{
 	 */
 	public function getName(string|null $id = null):string{
 
-		if($id !== null && !$this->in(self::IDS)){
+		if($id !== null && !$this::has($id)){
 			throw new InvalidArgumentException('invalid language');
 		}
 
