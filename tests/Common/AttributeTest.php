@@ -113,8 +113,8 @@ final class AttributeTest extends TestCase{
 		Attribute::DOMINATION_MAGIC, Attribute::INSPIRATION_MAGIC,
 	]])]
 	#[TestWith([Profession::NONE, [
-		Attribute::NONE, Attribute::TITLE_SUNSPEAR, Attribute::TITLE_LIGHTBRINGER,
-		Attribute::TITLE_LUXON, Attribute::TITLE_KURZICK, Attribute::TITLE_ASURA,
+		Attribute::NONE, Attribute::TITLE_KURZICK, Attribute::TITLE_LUXON,
+		Attribute::TITLE_SUNSPEAR, Attribute::TITLE_LIGHTBRINGER, Attribute::TITLE_ASURA,
 		Attribute::TITLE_DELDRIMOR, Attribute::TITLE_VANGUARD, Attribute::TITLE_NORN,
 	]])]
 	public function getByProfession(int $profession, array $expected):void{
