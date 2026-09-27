@@ -291,6 +291,7 @@ const CONST_PROFESSION = [
 ];
 
 const CONST_ATTRIBUTE = [
+	Attribute::NONE                => 'A::NONE',
 	Attribute::FAST_CASTING        => 'A::FAST_CASTING',
 	Attribute::ILLUSION_MAGIC      => 'A::ILLUSION_MAGIC',
 	Attribute::DOMINATION_MAGIC    => 'A::DOMINATION_MAGIC',
@@ -333,11 +334,10 @@ const CONST_ATTRIBUTE = [
 	Attribute::WIND_PRAYERS        => 'A::WIND_PRAYERS',
 	Attribute::EARTH_PRAYERS       => 'A::EARTH_PRAYERS',
 	Attribute::MYSTICISM           => 'A::MYSTICISM',
-	Attribute::NONE                => 'A::NONE',
+	Attribute::TITLE_KURZICK       => 'A::TITLE_KURZICK',
+	Attribute::TITLE_LUXON         => 'A::TITLE_LUXON',
 	Attribute::TITLE_SUNSPEAR      => 'A::TITLE_SUNSPEAR',
 	Attribute::TITLE_LIGHTBRINGER  => 'A::TITLE_LIGHTBRINGER',
-	Attribute::TITLE_LUXON         => 'A::TITLE_LUXON',
-	Attribute::TITLE_KURZICK       => 'A::TITLE_KURZICK',
 	Attribute::TITLE_ASURA         => 'A::TITLE_ASURA',
 	Attribute::TITLE_DELDRIMOR     => 'A::TITLE_DELDRIMOR',
 	Attribute::TITLE_VANGUARD      => 'A::TITLE_VANGUARD',

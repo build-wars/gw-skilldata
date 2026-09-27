@@ -31,6 +31,7 @@ final class Attribute extends DataObjectAbstract{
 
 	public const string CSS_CLASS = 'attribute';
 
+	public const int NONE                = -1;
 	public const int FAST_CASTING        = 0;
 	public const int ILLUSION_MAGIC      = 1;
 	public const int DOMINATION_MAGIC    = 2;
@@ -73,17 +74,15 @@ final class Attribute extends DataObjectAbstract{
 	public const int WIND_PRAYERS        = 42;
 	public const int EARTH_PRAYERS       = 43;
 	public const int MYSTICISM           = 44;
-	// not exactly sure what to do with the "no attribute" - technically we could move it to -1
-	public const int NONE                = 101;
 	// PvE titles are technically attributes
-	public const int TITLE_SUNSPEAR      = 102; // 17
-	public const int TITLE_LIGHTBRINGER  = 103; // 20
-	public const int TITLE_LUXON         = 104; // 6
-	public const int TITLE_KURZICK       = 105; // 5
-	public const int TITLE_ASURA         = 106; // 38
-	public const int TITLE_DELDRIMOR     = 107; // 39
-	public const int TITLE_VANGUARD      = 108; // 40
-	public const int TITLE_NORN          = 109; // 41
+	public const int TITLE_KURZICK       = 905; // 5
+	public const int TITLE_LUXON         = 906; // 6
+	public const int TITLE_SUNSPEAR      = 917; // 17
+	public const int TITLE_LIGHTBRINGER  = 920; // 20
+	public const int TITLE_ASURA         = 938; // 38
+	public const int TITLE_DELDRIMOR     = 939; // 39
+	public const int TITLE_VANGUARD      = 940; // 40
+	public const int TITLE_NORN          = 941; // 41
 
 	public const array PVE_TITLES = [
 		self::TITLE_SUNSPEAR,
@@ -97,6 +96,7 @@ final class Attribute extends DataObjectAbstract{
 	];
 
 	public const array NAME = [
+		self::NONE                => [Lang::DE => 'Kein Attribut',            Lang::EN => 'No Attribute',           Lang::ES => 'Sin atributo',                     Lang::FR => 'Aucune caractéristique',          Lang::IT => 'Nessun attributo',                      Lang::XX => 'Nu Aettreeboote-a',          ],
 		self::FAST_CASTING        => [Lang::DE => 'Schnellwirkung',           Lang::EN => 'Fast Casting',           Lang::ES => 'Lanzar conjuros rápido',           Lang::FR => 'Incantation rapide',              Lang::IT => 'Lancio Rapido',                         Lang::XX => 'Faest Caesteeng',            ],
 		self::ILLUSION_MAGIC      => [Lang::DE => 'Illusionsmagie',           Lang::EN => 'Illusion Magic',         Lang::ES => 'Magia de dominación',              Lang::FR => 'Magie de l\'illusion',            Lang::IT => 'Magia Illusoria',                       Lang::XX => 'Illooseeun Maegeec',         ],
 		self::DOMINATION_MAGIC    => [Lang::DE => 'Beherrschungsmagie',       Lang::EN => 'Domination Magic',       Lang::ES => 'Magia de ilusión',                 Lang::FR => 'Magie de domination',             Lang::IT => 'Magia del Dominio',                     Lang::XX => 'Dumeenaeshun Maegeec',       ],
@@ -139,11 +139,10 @@ final class Attribute extends DataObjectAbstract{
 		self::WIND_PRAYERS        => [Lang::DE => 'Windgebete',               Lang::EN => 'Wind Prayers',           Lang::ES => 'Plegarias de viento',              Lang::FR => 'Prières du Vent',                 Lang::IT => 'Preghiere del Vento',                   Lang::XX => 'Veend Praeyers',             ],
 		self::EARTH_PRAYERS       => [Lang::DE => 'Erdgebete',                Lang::EN => 'Earth Prayers',          Lang::ES => 'Plegarias de tierra',              Lang::FR => 'Prières de la Terre',             Lang::IT => 'Preghiere della Terra',                 Lang::XX => 'Iaert Praeyers',             ],
 		self::MYSTICISM           => [Lang::DE => 'Mystik',                   Lang::EN => 'Mysticism',              Lang::ES => 'Misticismo',                       Lang::FR => 'Mysticisme',                      Lang::IT => 'Misticismo',                            Lang::XX => 'Mysteeceesm',                ],
-		self::NONE                => [Lang::DE => 'Kein Attribut',            Lang::EN => 'No Attribute',           Lang::ES => 'Sin atributo',                     Lang::FR => 'Aucune caractéristique',          Lang::IT => 'Nessun attributo',                      Lang::XX => 'Nu Aettreeboote-a',          ],
+		self::TITLE_KURZICK       => [Lang::DE => 'Freund der Kurzick',       Lang::EN => 'Friend of the Kurzicks', Lang::ES => 'Título de amigo de los Kurzick',   Lang::FR => 'Titre d\'Ami des Kurzicks',       Lang::IT => 'Progressi del Sostenitore dei Kurzick', Lang::XX => 'Freeend ooff zee Koorzeecks',],
+		self::TITLE_LUXON         => [Lang::DE => 'Freund der Luxon',         Lang::EN => 'Friend of the Luxons',   Lang::ES => 'Título de amigo de los Luxon',     Lang::FR => 'Titre d\'Ami des Luxons',         Lang::IT => 'Progressi del Sostenitore dei Luxon',   Lang::XX => 'Freeend ooff zee Looxuns',   ],
 		self::TITLE_SUNSPEAR      => [Lang::DE => 'Sonnenspeertitel',         Lang::EN => 'Sunspear Title',         Lang::ES => 'Título de Lancero del Sol',        Lang::FR => 'Titre de Lancier du Soleil',      Lang::IT => 'Progressi della Lancia del Sole',       Lang::XX => 'Soonspeaer Teetle-a',        ],
 		self::TITLE_LIGHTBRINGER  => [Lang::DE => 'Lichtbringertitel',        Lang::EN => 'Lightbringer Title',     Lang::ES => 'Título de Iluminador',             Lang::FR => 'Titre de Porteur de Lumière',     Lang::IT => 'Progressi del Portatore della Luce',    Lang::XX => 'Leeghtbreenger Teetle-a',    ],
-		self::TITLE_LUXON         => [Lang::DE => 'Freund der Luxon',         Lang::EN => 'Friend of the Luxons',   Lang::ES => 'Título de amigo de los Luxon',     Lang::FR => 'Titre d\'Ami des Luxons',         Lang::IT => 'Progressi del Sostenitore dei Luxon',   Lang::XX => 'Freeend ooff zee Looxuns',   ],
-		self::TITLE_KURZICK       => [Lang::DE => 'Freund der Kurzick',       Lang::EN => 'Friend of the Kurzicks', Lang::ES => 'Título de amigo de los Kurzick',   Lang::FR => 'Titre d\'Ami des Kurzicks',       Lang::IT => 'Progressi del Sostenitore dei Kurzick', Lang::XX => 'Freeend ooff zee Koorzeecks',],
 		self::TITLE_ASURA         => [Lang::DE => 'Asuratitel',               Lang::EN => 'Asura Title Track',      Lang::ES => 'Título de Asura',                  Lang::FR => 'Titre d\'Asura',                  Lang::IT => 'Progressi Asura',                       Lang::XX => 'Aesoora Teetle-a',           ],
 		self::TITLE_DELDRIMOR     => [Lang::DE => 'Deldrimortitel',           Lang::EN => 'Deldrimor Title',        Lang::ES => 'Título de Deldrimor',              Lang::FR => 'Titre de Deldrimor',              Lang::IT => 'Progressi Deldrimor',                   Lang::XX => 'Deldreemur Teetle-a',        ],
 		self::TITLE_VANGUARD      => [Lang::DE => 'Ebon-Vorhut-Titel',        Lang::EN => 'Ebon Vanguard Title',    Lang::ES => 'Título de la Vanguardia de Ébano', Lang::FR => 'Titre de l\'Avant-garde d\'Ebon', Lang::IT => 'Progressi dell\'Avanguardia d\'Ebano',  Lang::XX => 'Ibun Fungooaerd Teetle-a',   ],
@@ -151,6 +150,7 @@ final class Attribute extends DataObjectAbstract{
 	];
 
 	private const array PROFESSION = [
+		self::NONE                => Profession::NONE,
 		self::FAST_CASTING        => Profession::MESMER,
 		self::ILLUSION_MAGIC      => Profession::MESMER,
 		self::DOMINATION_MAGIC    => Profession::MESMER,
@@ -193,11 +193,10 @@ final class Attribute extends DataObjectAbstract{
 		self::WIND_PRAYERS        => Profession::DERVISH,
 		self::EARTH_PRAYERS       => Profession::DERVISH,
 		self::MYSTICISM           => Profession::DERVISH,
-		self::NONE                => Profession::NONE,
+		self::TITLE_KURZICK       => Profession::NONE,
+		self::TITLE_LUXON         => Profession::NONE,
 		self::TITLE_SUNSPEAR      => Profession::NONE,
 		self::TITLE_LIGHTBRINGER  => Profession::NONE,
-		self::TITLE_LUXON         => Profession::NONE,
-		self::TITLE_KURZICK       => Profession::NONE,
 		self::TITLE_ASURA         => Profession::NONE,
 		self::TITLE_DELDRIMOR     => Profession::NONE,
 		self::TITLE_VANGUARD      => Profession::NONE,
@@ -205,6 +204,7 @@ final class Attribute extends DataObjectAbstract{
 	];
 
 	private const array MAX_VALUE = [
+		self::NONE                => 0,
 		self::FAST_CASTING        => 21,
 		self::ILLUSION_MAGIC      => 21,
 		self::DOMINATION_MAGIC    => 21,
@@ -247,11 +247,10 @@ final class Attribute extends DataObjectAbstract{
 		self::WIND_PRAYERS        => 20,
 		self::EARTH_PRAYERS       => 20,
 		self::MYSTICISM           => 21,
-		self::NONE                => 0,
+		self::TITLE_KURZICK       => 12,
+		self::TITLE_LUXON         => 12,
 		self::TITLE_SUNSPEAR      => 10,
 		self::TITLE_LIGHTBRINGER  => 8,
-		self::TITLE_LUXON         => 12,
-		self::TITLE_KURZICK       => 12,
 		self::TITLE_ASURA         => 10,
 		self::TITLE_DELDRIMOR     => 10,
 		self::TITLE_VANGUARD      => 10,

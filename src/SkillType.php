@@ -23,7 +23,7 @@ final class SkillType extends DataObjectAbstract{
 
 	public const string CSS_CLASS = 'skilltype';
 
-	public const int NONE            = 0;
+	public const int NONE            = -1;
 	public const int SKILL           = 1; // 10/16 (??)
 	public const int BOW_ATK         = 2; // 14
 	public const int MELEE_ATK       = 3; // 14
@@ -57,9 +57,11 @@ final class SkillType extends DataObjectAbstract{
 	public const int RANGED_ATK      = 31; // 14
 	public const int VANGUARD_RITUAL = 32; // 22
 	public const int FLASH_ENCH      = 33; // 6
+	// virtual types
 	public const int ATK_SKILL       = 34;
 	public const int DAGGER_ATK      = 35;
 	public const int RITUAL          = 36;
+	// types not in pawned
 	public const int DOUBLE_ENCH     = 37; // 6
 	// touch skills are technically flagged as such in the game data, which essentially sets any existing skill range to 0
 	// we'll keep them here as separate types as it is easier to keep track without an extra field

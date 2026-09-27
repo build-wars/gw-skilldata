@@ -138,24 +138,62 @@ INI;
 
 	// pawned uses negative numbers for the pve attributes
 	private const array ATTRIBUTE_MAP = [
-		Attribute::TITLE_NORN         => -9,
-		Attribute::TITLE_VANGUARD     => -8,
-		Attribute::TITLE_DELDRIMOR    => -7,
-		Attribute::TITLE_ASURA        => -6,
-		Attribute::TITLE_KURZICK      => -5,
-		Attribute::TITLE_LUXON        => -4,
-		Attribute::TITLE_LIGHTBRINGER => -3,
-		Attribute::TITLE_SUNSPEAR     => -2,
 		Attribute::NONE               => -1,
+		Attribute::TITLE_SUNSPEAR     => -2,
+		Attribute::TITLE_LIGHTBRINGER => -3,
+		Attribute::TITLE_LUXON        => -4,
+		Attribute::TITLE_KURZICK      => -5,
+		Attribute::TITLE_ASURA        => -6,
+		Attribute::TITLE_DELDRIMOR    => -7,
+		Attribute::TITLE_VANGUARD     => -8,
+		Attribute::TITLE_NORN         => -9,
 	];
 
 	private const array TYPE_MAP = [
-		SkillType::DOUBLE_ENCH  => SkillType::ENCH,
-		SkillType::TOUCH_SKILL  => SkillType::SKILL,
-		SkillType::TOUCH_SPELL  => SkillType::SPELL,
-		SkillType::TOUCH_ENCH   => SkillType::ENCH,
-		SkillType::TOUCH_HEX    => SkillType::HEX,
-		SkillType::TOUCH_SIGNET => SkillType::SIGNET,
+		SkillType::NONE            => 0,
+		SkillType::SKILL           => 1,
+		SkillType::BOW_ATK         => 2,
+		SkillType::MELEE_ATK       => 3,
+		SkillType::AXE_ATK         => 4,
+		SkillType::LEAD_ATK        => 5,
+		SkillType::OFFHAND_ATK     => 6,
+		SkillType::DUAL_ATK        => 7,
+		SkillType::HAMMER_ATK      => 8,
+		SkillType::SCYTHE_ATK      => 9,
+		SkillType::SWORD_ATK       => 10,
+		SkillType::PET_ATK         => 11,
+		SkillType::SPEAR_ATK       => 12,
+		SkillType::CHANT           => 13,
+		SkillType::ECHO            => 14,
+		SkillType::FORM            => 15,
+		SkillType::GLYPH           => 16,
+		SkillType::PREPARATION     => 17,
+		SkillType::BINDING_RITUAL  => 18,
+		SkillType::NATURE_RITUAL   => 19,
+		SkillType::SHOUT           => 20,
+		SkillType::SIGNET          => 21,
+		SkillType::SPELL           => 22,
+		SkillType::ENCH            => 23,
+		SkillType::HEX             => 24,
+		SkillType::ITEM_SPELL      => 25,
+		SkillType::WARD_SPELL      => 26,
+		SkillType::WEAPON_SPELL    => 27,
+		SkillType::WELL            => 28,
+		SkillType::STANCE          => 29,
+		SkillType::TRAP            => 30,
+		SkillType::RANGED_ATK      => 31,
+		SkillType::VANGUARD_RITUAL => 32,
+		SkillType::FLASH_ENCH      => 33,
+		SkillType::ATK_SKILL       => 34,
+		SkillType::DAGGER_ATK      => 35,
+		SkillType::RITUAL          => 36,
+		// not in pawned
+		SkillType::DOUBLE_ENCH     => 23, // ench
+		SkillType::TOUCH_SKILL     => 1,  // skill
+		SkillType::TOUCH_SPELL     => 22, // spell
+		SkillType::TOUCH_ENCH      => 23, // ench
+		SkillType::TOUCH_HEX       => 24, // hex
+		SkillType::TOUCH_SIGNET    => 21, // signet
 	];
 
 	public function build():static{

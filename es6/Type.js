@@ -16,7 +16,7 @@ export default class Type extends DataObjectAbstract{
 
 	static get CSS_CLASS(){return 'skilltype'};
 
-	static get NONE                   (){return 0}
+	static get NONE                   (){return -1}
 	static get SKILL                  (){return 1}
 	static get BOW_ATTACK             (){return 2}
 	static get MELEE_ATTACK           (){return 3}
@@ -331,7 +331,7 @@ export default class Type extends DataObjectAbstract{
 
 	static get SUBTYPES(){
 
-		let ids = [
+		return PHPJS.array_combine([
 			Type.ATTACK_SKILL,
 			Type.DAGGER_ATTACK,
 			Type.ENCHANTMENT_SPELL,
@@ -342,29 +342,76 @@ export default class Type extends DataObjectAbstract{
 			Type.SPELL,
 			Type.SIGNET,
 			Type.TOUCH_SKILL,
-		];
-
-		return PHPJS.array_combine(ids,[
+		],
+		[
 			[
-				Type.MELEE_ATTACK, Type.RANGED_ATTACK, Type.BOW_ATTACK, Type.AXE_ATTACK, Type.LEAD_ATTACK, Type.OFF_HAND_ATTACK,
-				Type.DUAL_ATTACK, Type.HAMMER_ATTACK, Type.SCYTHE_ATTACK, Type.SWORD_ATTACK, Type.PET_ATTACK, Type.SPEAR_ATTACK,
+				Type.MELEE_ATTACK,
+				Type.RANGED_ATTACK,
+				Type.BOW_ATTACK,
+				Type.AXE_ATTACK,
+				Type.LEAD_ATTACK,
+				Type.OFF_HAND_ATTACK,
+				Type.DUAL_ATTACK,
+				Type.HAMMER_ATTACK,
+				Type.SCYTHE_ATTACK,
+				Type.SWORD_ATTACK,
+				Type.PET_ATTACK,
+				Type.SPEAR_ATTACK,
 			],
-			[Type.LEAD_ATTACK, Type.OFF_HAND_ATTACK, Type.DUAL_ATTACK],
-			[Type.FLASH_ENCHANTMENT_SPELL, Type.DOUBLE_ENCHANTMENT, Type.TOUCH_ENCHANTMENT_SPELL],
-			[Type.TOUCH_HEX_SPELL],
 			[
-				Type.AXE_ATTACK, Type.LEAD_ATTACK, Type.OFF_HAND_ATTACK, Type.DUAL_ATTACK, Type.HAMMER_ATTACK,
-				Type.SCYTHE_ATTACK, Type.SWORD_ATTACK, Type.PET_ATTACK,
+				Type.LEAD_ATTACK,
+				Type.OFF_HAND_ATTACK,
+				Type.DUAL_ATTACK,
 			],
-			[Type.BOW_ATTACK, Type.SPEAR_ATTACK],
-			[Type.BINDING_RITUAL, Type.NATURE_RITUAL, Type.EBON_VANGUARD_RITUAL],
 			[
-				Type.ENCHANTMENT_SPELL, Type.HEX_SPELL, Type.ITEM_SPELL, Type.WARD_SPELL, Type.WEAPON_SPELL, Type.WELL_SPELL,
-				Type.FLASH_ENCHANTMENT_SPELL, Type.DOUBLE_ENCHANTMENT, Type.TOUCH_SPELL, Type.TOUCH_ENCHANTMENT_SPELL,
+				Type.FLASH_ENCHANTMENT_SPELL,
+				Type.DOUBLE_ENCHANTMENT,
+				Type.TOUCH_ENCHANTMENT_SPELL,
+			],
+			[
 				Type.TOUCH_HEX_SPELL,
 			],
-			[Type.TOUCH_SIGNET],
-			[Type.TOUCH_SPELL, Type.TOUCH_ENCHANTMENT_SPELL, Type.TOUCH_HEX_SPELL, Type.TOUCH_SIGNET],
+			[
+				Type.AXE_ATTACK,
+				Type.LEAD_ATTACK,
+				Type.OFF_HAND_ATTACK,
+				Type.DUAL_ATTACK,
+				Type.HAMMER_ATTACK,
+				Type.SCYTHE_ATTACK,
+				Type.SWORD_ATTACK,
+				Type.PET_ATTACK,
+			],
+			[
+				Type.BOW_ATTACK,
+				Type.SPEAR_ATTACK,
+			],
+			[
+				Type.BINDING_RITUAL,
+				Type.NATURE_RITUAL,
+				Type.EBON_VANGUARD_RITUAL,
+			],
+			[
+				Type.ENCHANTMENT_SPELL,
+				Type.HEX_SPELL,
+				Type.ITEM_SPELL,
+				Type.WARD_SPELL,
+				Type.WEAPON_SPELL,
+				Type.WELL_SPELL,
+				Type.FLASH_ENCHANTMENT_SPELL,
+				Type.DOUBLE_ENCHANTMENT,
+				Type.TOUCH_SPELL,
+				Type.TOUCH_ENCHANTMENT_SPELL,
+				Type.TOUCH_HEX_SPELL,
+			],
+			[
+				Type.TOUCH_SIGNET,
+			],
+			[
+				Type.TOUCH_SPELL,
+				Type.TOUCH_ENCHANTMENT_SPELL,
+				Type.TOUCH_HEX_SPELL,
+				Type.TOUCH_SIGNET,
+			],
 		]);
 	}
 

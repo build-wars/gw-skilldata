@@ -18,6 +18,7 @@ export default class Attribute extends DataObjectAbstract{
 	// we're using static getters here to emulate PHP class constants
 	static get CSS_CLASS(){return 'attribute'};
 
+	static get NONE               (){return -1}
 	static get FAST_CASTING       (){return 0}
 	static get ILLUSION_MAGIC     (){return 1}
 	static get DOMINATION_MAGIC   (){return 2}
@@ -60,21 +61,20 @@ export default class Attribute extends DataObjectAbstract{
 	static get WIND_PRAYERS       (){return 42}
 	static get EARTH_PRAYERS      (){return 43}
 	static get MYSTICISM          (){return 44}
-	// not exactly sure what to do with the "no attribute" - technically we could move it to -1
-	static get NONE               (){return 101}
-	// PvE titles are technically attributes - WTB "official" internal IDs
-	static get TITLE_SUNSPEAR     (){return 102}
-	static get TITLE_LIGHTBRINGER (){return 103}
-	static get TITLE_LUXON        (){return 104}
-	static get TITLE_KURZICK      (){return 105}
-	static get TITLE_ASURA        (){return 106}
-	static get TITLE_DELDRIMOR    (){return 107}
-	static get TITLE_VANGUARD     (){return 108}
-	static get TITLE_NORN         (){return 109}
+	// PvE titles are technically attributes
+	static get TITLE_KURZICK      (){return 905} // 5
+	static get TITLE_LUXON        (){return 906} // 6
+	static get TITLE_SUNSPEAR     (){return 917} // 17
+	static get TITLE_LIGHTBRINGER (){return 920} // 20
+	static get TITLE_ASURA        (){return 938} // 38
+	static get TITLE_DELDRIMOR    (){return 939} // 39
+	static get TITLE_VANGUARD     (){return 940} // 40
+	static get TITLE_NORN         (){return 941} // 41
 
 	/** @returns {number[]|int[]} */
 	static get IDS(){
 		return [
+			Attribute.NONE,
 			Attribute.FAST_CASTING, Attribute.ILLUSION_MAGIC, Attribute.DOMINATION_MAGIC, Attribute.INSPIRATION_MAGIC,
 			Attribute.BLOOD_MAGIC, Attribute.DEATH_MAGIC, Attribute.SOUL_REAPING, Attribute.CURSES,
 			Attribute.AIR_MAGIC, Attribute.EARTH_MAGIC, Attribute.FIRE_MAGIC, Attribute.WATER_MAGIC, Attribute.ENERGY_STORAGE,
@@ -86,8 +86,7 @@ export default class Attribute extends DataObjectAbstract{
 			Attribute.CRITICAL_STRIKES, Attribute.SPAWNING_POWER,
 			Attribute.SPEAR_MASTERY, Attribute.COMMAND, Attribute.MOTIVATION, Attribute.LEADERSHIP,
 			Attribute.SCYTHE_MASTERY, Attribute.WIND_PRAYERS, Attribute.EARTH_PRAYERS, Attribute.MYSTICISM,
-			Attribute.NONE,
-			Attribute.TITLE_SUNSPEAR, Attribute.TITLE_LIGHTBRINGER, Attribute.TITLE_LUXON, Attribute.TITLE_KURZICK,
+			Attribute.TITLE_KURZICK, Attribute.TITLE_LUXON, Attribute.TITLE_SUNSPEAR, Attribute.TITLE_LIGHTBRINGER,
 			Attribute.TITLE_ASURA, Attribute.TITLE_DELDRIMOR, Attribute.TITLE_VANGUARD, Attribute.TITLE_NORN,
 		];
 	}
@@ -95,6 +94,11 @@ export default class Attribute extends DataObjectAbstract{
 	/** @returns {Object<{}>} */
 	static get NAME(){
 		return PHPJS.array_combine(Attribute.IDS, [
+			{
+				de: 'Kein Attribut',
+				en: 'No Attribute',
+				fr: 'Aucune caractéristique',
+			},
 			{
 				de: 'Schnellwirkung',
 				en: 'Fast Casting',
@@ -306,9 +310,14 @@ export default class Attribute extends DataObjectAbstract{
 				fr: 'Mysticisme',
 			},
 			{
-				de: 'Kein Attribut',
-				en: 'No Attribute',
-				fr: 'Aucune caractéristique',
+				de: 'Freund der Kurzick',
+				en: 'Friend of the Kurzicks Title Track',
+				fr: 'Titre d\'Ami des Kurzicks',
+			},
+			{
+				de: 'Freund der Luxon',
+				en: 'Friend of the Luxons Title Track',
+				fr: 'Titre d\'Ami des Luxons',
 			},
 			{
 				de: 'Sonnenspeertitel',
@@ -319,16 +328,6 @@ export default class Attribute extends DataObjectAbstract{
 				de: 'Lichtbringertitel',
 				en: 'Lightbringer Title Track',
 				fr: 'Titre de Porteur de Lumière',
-			},
-			{
-				de: 'Freund der Luxon',
-				en: 'Friend of the Luxons Title Track',
-				fr: 'Titre d\'Ami des Luxons',
-			},
-			{
-				de: 'Freund der Kurzick',
-				en: 'Friend of the Kurzicks Title Track',
-				fr: 'Titre d\'Ami des Kurzicks',
 			},
 			{
 				de: 'Asuratitel',
@@ -356,6 +355,7 @@ export default class Attribute extends DataObjectAbstract{
 	/** @returns {Object<{}>} */
 	static get PROFESSION(){
 		return PHPJS.array_combine(Attribute.IDS, [
+			Profession.NONE,
 			Profession.MESMER, Profession.MESMER, Profession.MESMER, Profession.MESMER,
 			Profession.NECROMANCER, Profession.NECROMANCER, Profession.NECROMANCER, Profession.NECROMANCER,
 			Profession.ELEMENTALIST, Profession.ELEMENTALIST, Profession.ELEMENTALIST, Profession.ELEMENTALIST, Profession.ELEMENTALIST,
@@ -367,8 +367,8 @@ export default class Attribute extends DataObjectAbstract{
 			Profession.ASSASSIN, Profession.RITUALIST,
 			Profession.PARAGON, Profession.PARAGON, Profession.PARAGON, Profession.PARAGON,
 			Profession.DERVISH, Profession.DERVISH, Profession.DERVISH, Profession.DERVISH,
-			Profession.NONE,
-			Profession.NONE, Profession.NONE, Profession.NONE, Profession.NONE,
+			Profession.NONE, Profession.NONE,
+			Profession.NONE, Profession.NONE,
 			Profession.NONE, Profession.NONE, Profession.NONE, Profession.NONE,
 		]);
 	}
@@ -376,12 +376,21 @@ export default class Attribute extends DataObjectAbstract{
 	/** @returns {Object<{}>} */
 	static get MAX_VALUE(){
 		return PHPJS.array_combine(Attribute.IDS, [
-			21, 21, 21, 21, 21, 21, 21, 21, 21, 21,
-			21, 21, 21, 21, 21, 21, 21, 21, 21, 21,
-			21, 21, 20, 20, 20, 21, 21, 20, 20, 21,
-			21, 21, 20, 21, 21, 21, 21, 20, 21, 20,
-			20, 21,  0, 10,  8, 12, 12, 10, 10, 10,
-			10,
+			0,
+			21, 21, 21, 21,
+			21, 21, 21, 21,
+			21, 21, 21, 21, 21,
+			21, 21, 21, 21,
+			21, 21, 21, 21, 21,
+			20, 20, 20, 21,
+			21, 20, 20,
+			21, 21, 21,
+			20, 21,
+			21, 21, 21, 20,
+			21, 20, 20, 21,
+			12, 12,
+			10,  8,
+			10, 10, 10, 10,
 		]);
 	}
 
