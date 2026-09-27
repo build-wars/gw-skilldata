@@ -28,6 +28,7 @@ abstract class DataObjectAbstract implements DataObjectInterface{
 		}
 
 		$this->id   = $id;
+		/** @phan-suppress-next-line PhanTypeMismatchProperty */
 		$this->lang = $lang;
 	}
 

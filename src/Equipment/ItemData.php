@@ -709,7 +709,7 @@ final class ItemData extends EquipmentDataAbstract{
 
 		foreach(self::DATA as $id => $row){
 			$data = array_merge(
-				array_combine(Item::KEYS_DATA, self::DATA[$id]),
+				array_combine(Item::KEYS_DATA, $row),
 				[Item::DESC_NAME => self::NAMES[$id][$this->lang->id]],
 			);
 

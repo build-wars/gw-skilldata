@@ -61,6 +61,8 @@ final class SkillType extends DataObjectAbstract{
 	public const int DAGGER_ATK      = 35;
 	public const int RITUAL          = 36;
 	public const int DOUBLE_ENCH     = 37; // 6
+	// touch skills are technically flagged as such in the game data, which essentially sets any existing skill range to 0
+	// we'll keep them here as separate types as it is easier to keep track without an extra field
 	public const int TOUCH_SKILL     = 38; // 10
 	public const int TOUCH_SPELL     = 39; // 5
 	public const int TOUCH_ENCH      = 40; // 6

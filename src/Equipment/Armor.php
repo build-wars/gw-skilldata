@@ -39,10 +39,10 @@ final class Armor extends DataObjectAbstract{
 	public const int AR_HEAVY  = 80;
 
 	public const array NAME = [
-		self::NONE   => [Lang::DE => 'Keine %s',    Lang::EN => 'No %s',     Lang::ES => 'Sin %s',    Lang::FR => 'Pas d\'%s',  Lang::IT => 'Nessuna %s', Lang::XX => 'Nu %s',      ],
-		self::LIGHT  => [Lang::DE => 'Leichte %s',  Lang::EN => 'Light %s',  Lang::ES => '%s ligera', Lang::FR => '%s légère',  Lang::IT => '%s leggera', Lang::XX => 'Leeght %s',  ],
-		self::MEDIUM => [Lang::DE => 'Mittlere %s', Lang::EN => 'Medium %s', Lang::ES => '%s media',  Lang::FR => '%s moyenne', Lang::IT => '%s media',   Lang::XX => 'Medeeoom %s',],
-		self::HEAVY  => [Lang::DE => 'Schwere %s',  Lang::EN => 'Heavy %s',  Lang::ES => '%s pesada', Lang::FR => '%s lourde',  Lang::IT => '%s pesante', Lang::XX => 'Heaefy %s',  ],
+		self::NONE   => [Lang::DE => 'Keine Rüstung',    Lang::EN => 'No Armor',     Lang::ES => 'Sin Armadura',    Lang::FR => 'Pas d\'Armure',  Lang::IT => 'Nessuna Armatura', Lang::XX => 'Nu Aermur',      ],
+		self::LIGHT  => [Lang::DE => 'Leichte Rüstung',  Lang::EN => 'Light Armor',  Lang::ES => 'Armadura ligera', Lang::FR => 'Armure légère',  Lang::IT => 'Armatura leggera', Lang::XX => 'Leeght Aermur',  ],
+		self::MEDIUM => [Lang::DE => 'Mittlere Rüstung', Lang::EN => 'Medium Armor', Lang::ES => 'Armadura media',  Lang::FR => 'Armure moyenne', Lang::IT => 'Armatura media',   Lang::XX => 'Medeeoom Aermur',],
+		self::HEAVY  => [Lang::DE => 'Schwere Rüstung',  Lang::EN => 'Heavy Armor',  Lang::ES => 'Armadura pesada', Lang::FR => 'Armure lourde',  Lang::IT => 'Armatura pesante', Lang::XX => 'Heaefy Aermur',  ],
 	];
 
 	private const array ENERGY_RECOVERY = [
