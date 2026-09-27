@@ -3,7 +3,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 use Buildwars\GWSkillData\Common\Lang;
 final class SkillLangTraditionalChinese extends SkillData{
-public const string LANG = Lang::ZH;
+public const string LANG = Lang::CT;
 protected const array ID2DESC = [
 0=>['No Skill','Empty skill slot','Empty slot'],
 1=>['治療紋章','紋章： 使你回復 82...172 體力。當施展此技能時，你的防禦降低 40 。','紋章： 使你回復 82...172 體力。當施展此技能時，你的防禦降低 40 。'],

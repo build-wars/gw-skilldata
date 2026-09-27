@@ -248,7 +248,8 @@ final class Attribute extends DataObjectAbstract{
 	];
 
 	private const array REQ = [
-		Lang::CN => '(REQ)',
+		Lang::CS => '(REQ)',
+		Lang::CT => '(REQ)',
 		Lang::DE => '(Erfordert 9 %s)',
 		Lang::EN => '(Requires 9 %s)',
 		Lang::ES => '(%s necesitar 9)',
@@ -259,7 +260,6 @@ final class Attribute extends DataObjectAbstract{
 		Lang::PL => '(REQ)',
 		Lang::RU => '(REQ)',
 		Lang::XX => '(Reqooures 9 %s)',
-		Lang::ZH => '(REQ)',
 	];
 
 	protected(set) int $level = 0;

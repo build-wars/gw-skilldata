@@ -24,8 +24,8 @@ trait SkillDataAwareTrait{
 
 	/** @var array<string, string> */
 	protected const array GWDB_LANG = [
-		Lang::CN           => SkillLangSimplifiedChinese::class,
-		Lang::ZH           => SkillLangTraditionalChinese::class,
+		Lang::CS           => SkillLangSimplifiedChinese::class,
+		Lang::CT           => SkillLangTraditionalChinese::class,
 		Lang::DE           => SkillLangGerman::class,
 		Lang::DE_GUILDWIKI => SkillLangGermanGuildWiki::class,
 		Lang::EN           => SkillLangEnglish::class,

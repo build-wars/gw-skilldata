@@ -251,7 +251,8 @@ define(__NAMESPACE__.'\\PVP_SPLIT_FLIP', array_flip(PVP_SPLIT));
  */
 
 const CONST_LANG = [
-	Lang::CN           => 'Lang::CN',
+	Lang::CS           => 'Lang::CS',
+	Lang::CT           => 'Lang::CT',
 	Lang::DE           => 'Lang::DE',
 	Lang::EN           => 'Lang::EN',
 	Lang::ES           => 'Lang::ES',
@@ -262,7 +263,6 @@ const CONST_LANG = [
 	Lang::PL           => 'Lang::PL',
 	Lang::RU           => 'Lang::RU',
 	Lang::XX           => 'Lang::XX',
-	Lang::ZH           => 'Lang::ZH',
 	Lang::DE_GUILDWIKI => 'Lang::DE',
 	Lang::EN_GWW       => 'Lang::EN',
 	Lang::FR_GWIKI     => 'Lang::FR',

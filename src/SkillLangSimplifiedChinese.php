@@ -3,7 +3,7 @@ declare(strict_types=1);
 namespace Buildwars\GWSkillData;
 use Buildwars\GWSkillData\Common\Lang;
 final class SkillLangSimplifiedChinese extends SkillData{
-public const string LANG = Lang::CN;
+public const string LANG = Lang::CS;
 protected const array ID2DESC = [
 0=>['No Skill','Empty skill slot','Empty slot'],
 1=>['治疗纹章','纹章。 为你恢复82...172点生命值，当你使用此技能时，你的护甲降低40点。','纹章。 为你恢复82...172点生命值，当你使用此技能时，你的护甲降低40点。'],
