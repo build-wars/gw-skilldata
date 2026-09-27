@@ -95,7 +95,7 @@ final class BuildPublicIndex extends BuilderAbstract{
 	private function addJSONSchemas():self{
 		$jsonSchemas = $this->document->getElementById('json-schemas');
 
-		foreach(Directory::filelist(DATADIR.'/schemas', ['json'], 'skill') as $fileName => $finfo){
+		foreach(Directory::filelist(DATADIR.'/schemas', ['json']) as $fileName => $finfo){
 			$a  = $this->document->createElement('a');
 			$li = $this->document->createElement('li');
 
